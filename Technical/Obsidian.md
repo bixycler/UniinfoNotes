@@ -1,0 +1,5 @@
+- Official website: https://obsidian.md/
+- Description: A note-taking app based on [[Markdown]] files with [[wikilink]] for internal links to create a [[personal knowledge base]] (PKB).
+- bixycler's vaults: 
+	- [UniinfoNotes](https://github.com/bixycler/UniinfoNotes) for [[Unïnfo]]
+- ...

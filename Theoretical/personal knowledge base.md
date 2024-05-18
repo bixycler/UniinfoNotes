@@ -1,0 +1,2 @@
+- Wiki: https://en.wikipedia.org/wiki/Personal_knowledge_base
+- A personal version of [[knowledge base]] and [[knowledge graph]].

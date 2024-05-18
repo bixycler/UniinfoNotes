@@ -1,0 +1,2 @@
+- Wiki: https://en.wikipedia.org/wiki/Knowledge_graph
+- Examples: [[personal knowledge base]], [[Wikipedia]]'s [[Wikidata]], Google's [Knowledge Graph](https://en.wikipedia.org/wiki/Google_Knowledge_Graph),  Microsoft's Satori, as well as the entity graphs of LinkedIn and Facebook.
