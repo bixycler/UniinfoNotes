@@ -14,6 +14,19 @@
 	- `- [ ]`: [Incomplete task](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Task%20lists)
 	- `- [x]`: [Completed task](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Task%20lists)
 	- `> [!note]`: [Callouts](https://help.obsidian.md/Editing+and+formatting/Callouts)
-- App's [[hotkey]]s:
+- Default [[hotkey]]s:
 	- Default [hotkeys for editing](https://help.obsidian.md/Editing+and+formatting/Editing+shortcuts)
+	- Open **command palette**: `Ctrl` `P` or pull down on mobile 
+	- Open **note**: `Ctrl` `O` or `⊕` button on mobile
+	- Insert **note**: `[[`
+	- Insert local **heading**: `[[*`
+	- Insert **heading of other note**: `[[**`
+	- Insert **external link**: `Ctrl` `K`
 	- [[Table of Hotkey Assigned Commands in this Vault]]
+- Custom [[hotkey]]s ^custom-hotkeys
+    - [[foldable|Folding]] text blocks in editor: 
+    	- `Ctrl` [`Shift`] `↑`/`↓` to fold/unfold [all] text.
+	    - `Ctrl` `.` to toggle fold/unfold of current line.
+    - Move to folder: `Ctrl` `M` 
+	    - Ideally when creating new note (`Ctrl` `N` ), [[Obsidian]] should ask or default to the same folder of current note.
+

@@ -1,4 +1,4 @@
-- Description: This table show all commands with [[hotkey]] assigned and check for duplicates, using a  `dataviewjs` script ([[Obsidian Dataview plugin]]) from [Obsidian forum](https://forum.obsidian.md/t/obsidian-commands-hotkeys-and-duplicate-hotkey-assignments/55193)
+- Description: This table shows all commands with [[hotkey]] assigned, with ==custom hotkeys highlighted==, and checks for **duplicates**, using a  `dataviewjs` script ([[Obsidian Dataview plugin]]) from [Obsidian forum](https://forum.obsidian.md/t/obsidian-commands-hotkeys-and-duplicate-hotkey-assignments/55193)
 
 ### Options
 
@@ -264,9 +264,4 @@ function sortkeys(defKeys, custKeys) {
 
 
 ### Custom hotkeys
-
-- [[foldable|Folding]] text blocks in editor: 
-	- `Ctrl` [`Shift`] `↑`/`↓` to fold/unfold [all] text.
-	- `Ctrl` `.` to toggle fold/unfold of current line.
-- Move to folder: `Ctrl` `M` 
-	- Ideally when creating new note (`Ctrl` `N` ), [[Obsidian]] should ask or default to the same folder of current note.
+![[Obsidian#^custom-hotkeys]]
