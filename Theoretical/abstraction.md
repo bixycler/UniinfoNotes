@@ -1,0 +1,2 @@
+- Wiki: https://en.wikipedia.org/wiki/Abstraction
+- Description: Abstraction is the process of abstracting details, i.e. removing details that are irrelevant to the subject's focus, from an object to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to [[projection]].

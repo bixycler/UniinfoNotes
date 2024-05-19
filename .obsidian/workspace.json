@@ -13,26 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theoretical/Unïnfo Theory.md",
+                "file": "Theoretical/abstraction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1451299299889168",
+            "id": "2fc54d7ee206f966",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theoretical/Trinion.md",
+                "file": "Technical/foldable.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theoretical/Trinion.md"
+                "file": "Theoretical/abstraction.md"
               }
             }
           },
@@ -108,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Theoretical/Trinion.md",
+                "file": "Theoretical/abstraction.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Theoretical/Trinion.md",
+                "file": "Theoretical/abstraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,8 +154,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theoretical/Trinion.md",
-                "collapseAll": true,
+                "file": "Theoretical/abstraction.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -176,13 +175,21 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "f5ba4490b1f313a7",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 380.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,36 +202,36 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "1451299299889168",
+  "active": "c3d42551745e50fb",
   "lastOpenFiles": [
-    "[.md",
-    "Theoretical/Trinion.md",
+    "Technical/foldable.md",
+    "Theoretical/abstraction.md",
     "Theoretical/Unïnfo Theory.md",
-    "Technical/Embeddings to webpage & Obsidian note.md",
     "Technical/Obsidian.md",
-    "Technical/Google Drawings.md",
+    "Technical/Table of Hotkey Assigned Commands in this Vault.md",
+    "Theoretical/projection.md",
+    "Technical/Wikidata.md",
+    "Technical/hotkey.md",
+    "Technical/Dataview plugin.md",
+    "Technical/keyboard shortcut.md",
+    "Technical/markup language.md",
+    "Technical/Markdown.md",
+    "Theoretical/personal knowledge base.md",
     "Technical/GeoGebra.md",
+    "Technical/LaTeX.md",
+    "Technical/MathJax.md",
+    "Unïnfo.md",
+    "().md",
+    "Theoretical/Trinion.md",
+    "[.md",
+    "Technical/Embeddings to webpage & Obsidian note.md",
+    "Technical/Google Drawings.md",
     "Social/Handai.md",
     "Theoretical/UniTorus.md",
     "Social",
-    "Technical/LaTeX.md",
     "Social/JAIST.md",
     "Theoretical/formal methods.md",
-    "Unïnfo.md",
-    "Theory/index.md",
-    "Theoretical/personal knowledge base.md",
-    "Theoretical/knowledge base.md",
-    "Theoretical/knowledge graph.md",
-    "Wikidata.md",
-    "Technical/Markdown.md",
-    "Technical/markup language.md",
-    "Technical/XML.md",
-    "Technical/HTML.md",
-    "Technical/email.md",
-    "Technical/plain text.md",
     "Technical/Technical Map.canvas",
-    "Technical/usenet.md",
-    "Technical/wikilink.md",
     "Misc",
     "Personal",
     "Theoretical/img/pub.png",

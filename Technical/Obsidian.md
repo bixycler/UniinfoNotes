@@ -2,4 +2,18 @@
 - Description: A note-taking app based on [[Markdown]] files with [[wikilink]] for internal links to create a [[personal knowledge base]] (PKB).
 - bixycler's vaults: 
 	- [UniinfoNotes](https://github.com/bixycler/UniinfoNotes) for [[Unïnfo]]
-- ...
+- The [Obsidian-flavored Markdown](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown) extends  [CommonMark](https://commonmark.org/) with 
+	- `[[Link]]`: [Internal links](https://help.obsidian.md/Linking+notes+and+files/Internal+links)
+	- `![[Link]]`: [Embed files](https://help.obsidian.md/Linking+notes+and+files/Embed+files)
+	- `![[Link#^id]]`: [Block references](https://help.obsidian.md/Linking+notes+and+files/Internal+links#Link%20to%20a%20block%20in%20a%20note)
+	- `^id`: [Defining a block](https://help.obsidian.md/Linking+notes+and+files/Internal+links#Link%20to%20a%20block%20in%20a%20note)
+	- `%%Text%%`: [Comments](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Comments)
+	- `~~Text~~`: [Strikethroughs](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Styling%20text)
+	- `==Text==`: [Highlights](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Styling%20text)
+	- ` ``` `: [Code blocks](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Code%20blocks)
+	- `- [ ]`: [Incomplete task](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Task%20lists)
+	- `- [x]`: [Completed task](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Task%20lists)
+	- `> [!note]`: [Callouts](https://help.obsidian.md/Editing+and+formatting/Callouts)
+- App's [[hotkey]]s:
+	- Default [hotkeys for editing](https://help.obsidian.md/Editing+and+formatting/Editing+shortcuts)
+	- [[Table of Hotkey Assigned Commands in this Vault]]
