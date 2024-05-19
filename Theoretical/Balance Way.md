@@ -1,0 +1,1 @@
+"Balance" is the natural [[Way]] of the [[Universe]] and should be the chosen way of life.
