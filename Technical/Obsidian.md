@@ -1,6 +1,6 @@
 - Official website: https://obsidian.md/
 - Description: A note-taking app based on [[Markdown]] files with [[wikilink]] for internal links to create a [[personal knowledge base]] (PKB).
-- bixycler's vaults: 
+- [[Will LE|bixycler]]'s vaults: 
 	- [UniinfoNotes](https://github.com/bixycler/UniinfoNotes) for [[Unïnfo]]
 - The [Obsidian-flavored Markdown](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown) extends  [CommonMark](https://commonmark.org/) with 
 	- `[[Link]]`: [Internal links](https://help.obsidian.md/Linking+notes+and+files/Internal+links)

@@ -1,4 +1,4 @@
-- Description: This table show all commands with [[hotkey]] assigned and check for duplicates, using a  `dataviewjs` script ([[Dataview plugin]]) from [Obsidian forum](https://forum.obsidian.md/t/obsidian-commands-hotkeys-and-duplicate-hotkey-assignments/55193)
+- Description: This table show all commands with [[hotkey]] assigned and check for duplicates, using a  `dataviewjs` script ([[Obsidian Dataview plugin]]) from [Obsidian forum](https://forum.obsidian.md/t/obsidian-commands-hotkeys-and-duplicate-hotkey-assignments/55193)
 
 ### Options
 

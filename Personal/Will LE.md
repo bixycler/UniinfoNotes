@@ -1,0 +1,5 @@
+- Vietnamese name: LÊ Xuân Định
+- English name: Will LÊ
+- Japanese name: LÊ Harusada
+- On [[GitHub]]: `bixycler`
+- On Blogger: `ComputerBoy`

@@ -1,5 +1,5 @@
 - Official website: https://www.geogebra.org/
 - Description: An interactive math app for composing math applets (geometry) with formulae (algebra).
-- Will Le's profile: https://www.geogebra.org/u/lexuandinhct
+- [[Will LE]]'s profile: https://www.geogebra.org/u/lexuandinhct
 	- Applet source codes GitHub: https://github.com/bixycler/GeoGebraApplets
 - ...

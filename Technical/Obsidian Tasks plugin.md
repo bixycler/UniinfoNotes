@@ -1,0 +1,2 @@
+- Obsidian community plugin : [obsidian-tasks-plugin](obsidian://show-plugin?id=obsidian-tasks-plugin)
+- GitHub: https://github.com/obsidian-tasks-group/obsidian-tasks

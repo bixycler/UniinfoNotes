@@ -1,0 +1,15 @@
+[[Will LE]]'s [[personal task list]]
+- Works for UTS
+- Works for HTV
+- Personal
+	- [[Obsidian]]
+		- [ ] [[Obsidian Folder Note plugin]]
+		- [ ] [[Obsidian GitHub Publisher plugin]]
+		- [ ] [[Obsidian Webpage HTML Export plugin]]
+		- [/] Add [[Task List for Will]] with [[Obsidian Tasks plugin]]
+			- [ ] Install theme for custom statuses
+		- [x] Set [[hotkey]]s for [[foldable]] blocks and show [[Table of Hotkey Assigned Commands in this Vault]] with [[Obsidian Dataview plugin]] ✅ 2024-05-19
+		- [x] Sync PC with mobile via GitHub & [[Obsidian Git plugin]] ✅ 2024-05-19
+			- [Instruction on Redit](https://www.reddit.com/r/ObsidianMD/comments/17odzjb/obsidian_android_syncing_via_github_in_2023/)
+		- [x] Import [[Unïnfo Theory]] from [[GitHub]] with [[Obsidian Importer plugin]] ✅ 2024-05-18
+		- [ ] 

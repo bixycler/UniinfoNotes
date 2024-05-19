@@ -1,0 +1,1 @@
+- [[Obsidian]]: check publishing plugins

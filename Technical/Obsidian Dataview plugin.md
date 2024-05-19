@@ -1,4 +1,4 @@
-- Obsidian community plugin: [dataview](https://obsidian.md/plugins?search=dataview)
+- Obsidian community plugin: [dataview](obsidian://show-plugin?id=dataview)
 - Official website: https://blacksmithgu.github.io/obsidian-dataview/
 - GitHub: https://github.com/blacksmithgu/obsidian-dataview
 - 

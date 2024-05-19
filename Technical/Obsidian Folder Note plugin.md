@@ -1,0 +1,3 @@
+- Obsidian community plugin: [folder-note-plugin](obsidian://show-plugin?id=folder-note-plugin)
+- GitHub: https://github.com/xpgo/obsidian-folder-note-plugin
+- Forum: https://forum.obsidian.md/t/folder-note-plugin-add-description-note-to-folder/12038/10

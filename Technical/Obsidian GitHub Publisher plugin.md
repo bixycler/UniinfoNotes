@@ -1,0 +1,4 @@
+- Obsidian community plugin: [obsidian-mkdocs-publisher](obsidian://show-plugin?id=obsidian-mkdocs-publisher)
+- GitHub: https://github.com/Mara-Li/obsidian-github-publisher
+- Forum: https://forum.obsidian.md/t/obsidian-github-publisher/37953
+- Description: Export to [[GitHub]] in [[Markdown]] with [[wikilink]] transformed to external link.

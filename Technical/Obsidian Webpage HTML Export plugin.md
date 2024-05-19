@@ -1,0 +1,4 @@
+- Obsidian community plugin: [webpage-html-export](obsidian://show-plugin?id=webpage-html-export)
+- GitHub: https://github.com/KosmosisDire/obsidian-webpage-export
+- Forum: https://forum.obsidian.md/t/html-export-plugin/51743
+- Description: Export to [[HTML]] format.
