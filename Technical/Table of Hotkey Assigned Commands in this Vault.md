@@ -1,4 +1,4 @@
-- Description: This table shows all commands with [[hotkey]] assigned, with ==custom hotkeys highlighted==, and checks for **duplicates**, using a  `dataviewjs` script ([[Obsidian Dataview plugin]]) from [Obsidian forum](https://forum.obsidian.md/t/obsidian-commands-hotkeys-and-duplicate-hotkey-assignments/55193)
+- Description: This table shows all commands with [[hotkey]] assigned, with ==custom hotkeys highlighted==, and checks for **duplicates**, using a  `dataviewjs` script ([[Obsidian Dataview plugin]]) from [Obsidian forum](https://forum.obsidian.md/t/obsidian-commands-hotkeys-and-duplicate-hotkey-assignments/55193).
 
 ### Options
 
@@ -264,4 +264,4 @@ function sortkeys(defKeys, custKeys) {
 
 
 ### Custom hotkeys
-![[Obsidian#^custom-hotkeys]]
+![[Obsidian software#^custom-hotkeys]]

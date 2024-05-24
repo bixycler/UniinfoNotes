@@ -1,0 +1,4 @@
+- Official website: https://logseq.com/
+- Description: (dev from 2021, still beta now) An [[outliner]] like [Roam](https://roamresearch.com), but open-source: outlining based on text blocks & [[Markdown]], with [[wikilink]], and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
+	- A new branch [based on database](https://github.com/logseq/logseq/pull/9858), and will be bi-dir-synced with Markdown, is being developed from Jul 2023.
+	- It runs slower and heavier than [[Obsidian software|Obsidian]].

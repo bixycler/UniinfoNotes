@@ -4,7 +4,7 @@ For the webpage of [[Unïnfo Theory]], we can embed things like
 - [[MathJax]] formulae
 - [YouTube](https://www.youtube.com/) videos
 
-For [[Obsidian]] note, we can embed things similar to webpage embeddings, plus...
+For [[Obsidian software]] note, we can embed things similar to webpage embeddings, plus...
 - Note & note part can be embedded with `![[note#part]]`.
 
 Demos
@@ -13,7 +13,7 @@ Demos
 ### [[GeoGebra]] applets
 
 ![HarmonicWaves](https://www.geogebra.org/m/sfusfsmq)
-^-- Embedding syntax `![](URL)` does not work, because [[Obsidian]] doesn't recognize [[GeoGebra]] 😁.
+^-- Embedding syntax `![](URL)` does not work, because [[Obsidian software]] doesn't recognize [[GeoGebra]] 😁.
 So let's use `<iframe>`:
 <iframe src="https://www.geogebra.org/m/sfusfsmq" width=800 height=800/>
 
@@ -31,9 +31,9 @@ The identity $d e^x = e^xd x$ is very important in differential calculus. It can
 ![Unitorus, the symbol of Unïnfo Theory](https://youtu.be/7OR_6L2zyHE)
 
 
-### [[Obsidian]] notes
+### [[Obsidian software]] notes
 
-- [[Obsidian]]: ![[Obsidian]]
+- [[Obsidian software]]: ![[Obsidian software]]
 - [[Unïnfo Theory#The metaphysical theory of Unïnfo (𝕄)]]: ![[Unïnfo Theory#The metaphysical theory of Unïnfo (𝕄)]]
 
 

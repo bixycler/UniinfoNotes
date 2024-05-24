@@ -1,0 +1,3 @@
+- Obsidian community plugin: [obsidian-open-link-with](obsidian://show-plugin?id=obsidian-open-link-with)
+- GitHub: https://github.com/MamoruDS/obsidian-open-link-with
+- 

@@ -1,4 +1,7 @@
 [[Will LE]]'s [[personal dashboard]]
-- ![[Working Items for Will]]
-- ![[Task List for Will]]
-- ![[History of Will]]
+
+![[Working stack for Will]]
+
+![[Tasks for Will]]
+
+![[History of Will]]
