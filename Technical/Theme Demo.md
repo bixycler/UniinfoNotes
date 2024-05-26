@@ -2,51 +2,51 @@
 key: value
 ---
 
-# H111
-## H222
-### H333
-#### H444
-##### H555
-###### H666
-
-Horizontal rule:
-
----
-***
-___
-===
-
-Normal text, *italic*, **bold**, ***bold italic***, ~~strikethrough~~, [[wikilink]], [markdown link](https://www.markdownguide.org/basic-syntax/#links "this is a tooltip/title of this link"), [reference][1] do they look OK?
-
-List
+- # H111
+- ## H222
+- ### H333
+- #### H444
+- ##### H555
+- ###### H666
+  
+  Horizontal rule:
+  
+  ---
+  ***
+  ___
+  ===
+  
+  Normal text, *italic*, **bold**, ***bold italic***, ~~strikethrough~~, ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), [markdown link](https://www.markdownguide.org/basic-syntax/#links "this is a tooltip/title of this link"), [reference][1] do they look OK?
+  
+  List
 - first with `inline code`
-	1. one  
-	   next line, and code block:
-	 ```java
-	   Object method(String param) { return null; }
-	```
-	2. two
+  1. one  
+    next line, and code block:
+  ```java
+    Object method(String param) { return null; }
+  ```
+  2. two
 - second
-	+ plus
+  + plus
 	- minus
-	* asterisk 
-
-> Blockquotes
-> in the block!
-> > Nested block
-> > - And list
-> > - another item
-> > 	- with deeper level
-
-_Tasks_:
+	  * asterisk 
+	  
+	  > Blockquotes
+	  > in the block!
+	  > > Nested block
+	  > > - And list
+	  > > - another item
+	  > > 	- with deeper level
+	  
+	  _Tasks_:
 - [ ] new
 - [x] done
 - [/] WIP
-- [-] canceled 
+- [-] canceled
 - [?] question
 - [!] important, problem
 - [*] starred
-- [>] forwarded 
+- [>] forwarded
 - [<] scheduled
 - [#] tag
 - [b] bookmark
@@ -60,15 +60,15 @@ _Tasks_:
 - [u] up
 - [d] down
 - [w] win
-- [+] inboxed 
+- [+] inboxed
 - [.] dot
-- [,] comma  
+- [,] comma
 - [~] tilde
 - [@] at
 - [%] percent
 - [&] and
 - [:] colon
 - [;] semicolon
-
----
-[1] This is the details of the ref above.
+  
+  ---
+  [1] This is the details of the ref above.

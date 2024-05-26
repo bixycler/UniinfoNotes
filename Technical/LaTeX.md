@@ -1,3 +1,0 @@
-- Official website: https://www.latex-project.org/
-- Description: A [good old](https://en.wikipedia.org/wiki/LaTeX#History) typesetting language that I've used to write my reports an thesis in my academic era ([[Handai]], [[JAIST]]).
-- ...

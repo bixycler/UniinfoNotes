@@ -1,3 +1,0 @@
-- Official website: https://www.mathjax.org/
-- Description: A JavaScript display engine for mathematics that supports [[LaTeX]] math syntax.
-- ...

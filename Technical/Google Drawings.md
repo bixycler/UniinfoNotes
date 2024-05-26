@@ -1,4 +1,0 @@
-- Official website: https://docs.google.com/drawings
-- Description: An a diagramming web app to draw diagrams and export them as live images.
-- Định's G-drive: [UniinfoDocs](https://drive.google.com/drive/folders/1xMVpvSVM_Kl0qS_2qXzmgIX29Yogpw3C), [Uniinfo1stDiagrams](https://drive.google.com/drive/folders/1T4wiGjs2QBeeEhgvKVQ2ziVtKijX1Y4n)
-- ...

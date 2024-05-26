@@ -1,6 +1,0 @@
-- In group theory: [lattice group](https://en.wikipedia.org/wiki/Lattice_(group))
-- In graph theory: [lattice graph](https://en.wikipedia.org/wiki/Lattice_graph)
-- In physics: [crystal lattice](https://en.wikipedia.org/wiki/Crystal_structure)
-- In order theory: [lattice order](https://en.wikipedia.org/wiki/Lattice_(order))
-- Discussion: The lattice group and lattice graph are equivalent which are generalized from the 3D crystal lattice, but the lattice order is different. 
-	- There's a hybrid of lattice order with group theory called [ℓ-group](https://encyclopediaofmath.org/wiki/Lattice-ordered_group), i.e. "lattice-ordered group" as a special case of [partially ordered group](https://en.wikipedia.org/wiki/Partially_ordered_group).

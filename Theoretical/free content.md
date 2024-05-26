@@ -1,2 +1,0 @@
-- Wiki: https://en.wikipedia.org/wiki/Free_content
-- 

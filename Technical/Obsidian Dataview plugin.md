@@ -1,5 +1,0 @@
-- Obsidian community plugin: [dataview](obsidian://show-plugin?id=dataview)
-- Official website: https://blacksmithgu.github.io/obsidian-dataview/
-- GitHub: https://github.com/blacksmithgu/obsidian-dataview
-- Custom settings: 
-    - Inline query prefix: use `` `dv::` `` instead of the default `` `=` `` because [[Equal]] (`=`) is the central symbol in [[Unïnfo Theory]].

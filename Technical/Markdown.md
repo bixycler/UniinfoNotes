@@ -1,4 +1,0 @@
-- Official website: https://www.markdownguide.org/
-- Wiki: https://en.wikipedia.org/wiki/Markdown
-- Description: A simple and humane [[markup language]] created by Gruber and Swartz in 2004, based on pre-existing conventions for marking up [[plain text]] in [[email]] and [usenet](https://en.wikipedia.org/wiki/Usenet) posts, like [setext](https://en.wikipedia.org/wiki/Setext "Setext") (c. 1992), [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language) "Textile (markup language)") (c. 2002), and [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText "ReStructuredText") (c. 2002).
-- ...

@@ -1,4 +1,0 @@
-- Wiki: https://en.wikipedia.org/wiki/Glass
-- Discussion: 
-	- Even looks like crystal, glass is [amorphous](https://en.wikipedia.org/wiki/Amorphous_solid), i.e. non-crystalline, because it lacks the the [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that is characteristic of a [crystal](https://en.wikipedia.org/wiki/Crystal "Crystal").
-	- It's even not a "solid" in the normal sense because it's the [hybrid of liquid and crystal](https://en.wikipedia.org/wiki/Structure_of_liquids_and_glasses)! It's [more liquid than solid](https://en.wikipedia.org/wiki/Glass#Formation_from_a_supercooled_liquid) due to [glass–liquid transition](https://en.wikipedia.org/wiki/Glass_transition) instead of the normal first-order [phase transition](https://en.wikipedia.org/wiki/Phase_transition "Phase transition").

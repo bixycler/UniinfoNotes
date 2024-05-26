@@ -1,0 +1,27 @@
+# Namespace
+id:: 66533703-505d-432d-8368-6058eefb45f6
+	- Attribute:
+		- Description:
+		  id:: 6651ecba-793d-43c5-8020-a9f260b032d8
+		  form:: ((66532914-003a-4bbb-9e97-6f1c87170d7d))
+		- Discussion:
+		  id:: 665359ff-79f1-4669-b10b-f2b0e633a7c1
+	- Property:
+		- Plaintext:
+		- Subprop:
+		  id:: 6651ea73-78b4-4c1a-b052-b2ea9555b6f6
+	- Composite:
+	  id:: 6652048c-27b3-47b6-84e5-25af8d9ce801
+	  form:: ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
+	- Component:
+	  id:: 66532ccc-ae21-4940-8714-715060d6bd90
+	  form:: ((66532bb2-7680-461b-80b2-71fc96c89fb9))
+	- Website:
+		- Official website:
+		  id:: 665359c3-61fd-4858-a117-ecbcd6fbc9ea
+	- Wiki:
+	  id:: 665359c0-a89a-41b5-9f28-503f79107a08
+	- Plugin:
+	  id:: 66535a44-8a13-4d5a-808e-10baa97ebaf0
+	- Alias:
+	  id:: 665359e4-4597-4775-b849-f9acbb98960a

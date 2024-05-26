@@ -1,3 +1,0 @@
-- Wiki: https://en.wikipedia.org/wiki/Help:Wikitext
-- Other name: "wikicode"
-- Description: A markup language used by the [MediaWiki](https://en.wikipedia.org/wiki/MediaWiki "MediaWiki") software to format a [[Wikipedia]] page.

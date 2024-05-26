@@ -1,5 +1,0 @@
-- 
-- [x] [[Obsidian software|Obsidian]] does not open correct "default browser" in Ubuntu 22.04 ✅ 2024-05-20
-	- [x] Install [[Obsidian Open Link With plugin]] ✅ 2024-05-20
-	- <==  The cause is due to the separate home dir inside SNAP
-	- ==> [Share this knowledge to forum](https://forum.obsidian.md/t/ubuntu-22-04-links-dont-use-default-chrome-browser/79532/3?u=harusada). 

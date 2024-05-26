@@ -1,2 +1,0 @@
-- : [obsidian-importer](obsidian://show-plugin?id=obsidian-importer)
-- GitHub: https://github.com/obsidianmd/obsidian-importer

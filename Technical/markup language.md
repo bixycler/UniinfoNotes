@@ -1,3 +1,0 @@
-- Wiki: https://en.wikipedia.org/wiki/Markup_language
-- Description: A language to mark text content up with special marks and/or syntax to add metadata like meaning, style, structure to the document.
-- Examples: [[HTML]], [[XML]], [[LaTeX]], [[Markdown]], ...

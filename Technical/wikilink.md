@@ -1,2 +1,0 @@
-- Wiki: https://en.wikipedia.org/wiki/Help:Link
-- Description: A kind of internal [[hyperlink]] in the form of `[[Target Page|displayed text]]` to link from one page to another `Target Page`. This is first defined in [[Wikipedia]]'s [[wikitext]] syntax, and then is adopted by other systems like [[Obsidian software]].

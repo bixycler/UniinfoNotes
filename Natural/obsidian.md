@@ -1,3 +1,0 @@
-- Wiki: https://en.wikipedia.org/wiki/Obsidian
-- Wiki-vi: https://vi.wikipedia.org/wiki/Đá_vỏ_chai
-- Description: A naturally occurring [volcanic glass](https://en.wikipedia.org/wiki/Volcanic_glass "Volcanic glass") formed when [lava](https://en.wikipedia.org/wiki/Lava "Lava") [extruded](https://en.wikipedia.org/wiki/Extrusive_rock "Extrusive rock") from a [volcano](https://en.wikipedia.org/wiki/Volcano "Volcano") cools rapidly with minimal [crystal growth](https://en.wikipedia.org/wiki/Crystal_growth "Crystal growth").

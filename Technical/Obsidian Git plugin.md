@@ -1,3 +1,0 @@
-- Obsidian community plugin: [obsidian-git](obsidian://show-plugin?id=obsidian-git)
-- GitHub: https://github.com/denolehov/obsidian-git
-- 

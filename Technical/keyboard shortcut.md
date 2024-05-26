@@ -1,3 +1,0 @@
-- Wiki: https://en.wikipedia.org/wiki/Keyboard_shortcut
-- Other name: [[hotkey]]
-- Description: a key or a series of [keys](https://en.wikipedia.org/wiki/Computer_keyboard "Computer keyboard") to quickly invoke a [software program](https://en.wikipedia.org/wiki/Software_program "Software program") or perform a preprogrammed action.
