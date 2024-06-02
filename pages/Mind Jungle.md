@@ -1,136 +1,15 @@
 # Mind Jungle
 id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
-	- ## Brainstorm
-	  collapsed:: true
-		- In possessive form like "Will's note", [the apostrophe `'` stands for](https://www.merriam-webster.com/grammar/history-and-use-of-the-apostrophe) the "e" in the suffix "-es" of [genitive form](https://www.merriam-webster.com/dictionary/genitive) of noun in the [Old English](https://en.wikipedia.org/wiki/Old_English).
-		  id:: 66536ad3-264b-4351-868b-e7e8a7a82774
-			- Now I propose to use apostrophe to further omit the "s" in possessive form, so
-				- `Will/mind/conceptual/head` in file management =
-				- `Will.mind.conceptual.head` in programming =
-				- "Will' mind' conceptual' head" in natural language!
-		- **Id < *address* < context**  
-		  collapsed:: true
-		  All content arrow is via its complement context:   
-		  full content = apparent content carried by the form + hidden content (context as form)
-			- form = condensed context = condensed hidden content
-			- optimization = formation = context condensation (to the extremes like 🆔)
-			  + optimization frees the subject from the lengthy "irrelevant" context, but also constrains to the form!
-		- All objects are arrows, addresses, vector, `v`'s
-		  collapsed:: true
-			- Relativity: The destination of that address is relative to the root object (intent, self).
-			- The root object `O` is just another vector, hence the target of `v` from `O` is just `O+v`.
-			- `v` is the diff, the change, the transformation, the effect brought to `O`.
-			- Intensionally, it's the addition `O+v`, but extensionally it's the multiplication `O⋅v`.
-		- The relativity & equality between form & content as 2 vectors
-		  collapsed:: true
-			- `u⋅v = 0` means orthogonal... but their "self threads" are parallel!?!
-			- The portion of seen is the portion of orthogonal => parallel = unseen
-			- We see a static object, which is almost parallel to us in time, thanks to the near orthogonal light rays from it! That's why we can only see its external shape, i.e. very little part of it.
-		- directory/folder = namespace (exclusive)
-		  id:: 6651ade9-43c6-4beb-9981-cb03d53dc23c
-			- obj `Will` -> {in-world `Will/**`, ex-world `Will\*/*`} = {M, W} = {inner view cone, outer view cone}
-			- Will's in-world contains properties of `Will`, like `Will/name`, `Will/age`, `Will/mind`, `Will/mind/conceptual`, `Will/mind/conceptual/{dog,mouse}`, etc.
-			- Will's ex-world contains `Will` and other peers of `Will`, like `Na`, `Nyatty`, `Earth`, `Milky Way`, etc.
-			  collapsed:: true
-				- In the top-down view, Will's ex-world can be partitioned by region, e.g. `Vietnam/house of Will/Na` vs `Japan/house of Harusada/Na`. But we use the ***relative*** (bottom-up) view from Will: `Will\1/Na` is just the dog Na closest to Will, i.e. `Will\1/Na` = `Will\2/house of Will/Na` = `Vietnam/house of Will/Na`.
-				- The backslash is used in [MS-DOS/Windows' path](https://en.wikipedia.org/wiki/Path_(computing)#MS-DOS/Microsoft_Windows_style), in [PHP namespace](https://www.php.net/manual/en/language.namespaces.php), and as [Decimal Exponent Symbol](https://en.wikipedia.org/wiki/Scientific_notation "Scientific notation") in [ALGOL 68](https://en.wikipedia.org/wiki/ALGOL_68 "ALGOL 68"). Our use of `\u` as "u-level container" is nearest to the use in ALGOL 68.
-			- Other notations of path:
-				- `Will/mind/conceptual/dog`, `Will\1/Na` in file management
-				- `Will.mind.conceptual.dog`, `Will^1.Na` in programming
-				- "Will' mind' conceptual' dog", "Will^1' Na" in [natural language](((66536ad3-264b-4351-868b-e7e8a7a82774)))
-			- Relation ref/arrow between objects in these worlds:
-			  collapsed:: true
-				- example: in -> ex: dog -> {Na, Nau}, mouse -> {Nyatty, Nyatto}
-				- property composition: ex -> in: Na -> {dog, horse, monkey}
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) in -> in: dog -> {vocal: bark, genus: Canis}
-				- extension/reference: in -> ex.in: `Will/mind/conceptual/dog` -> `Wikipedia/Dog`
-				- relation: ex -> ex: Na -> {child: Nau, prey: Nyatty}
-				-
-		- in + ex = con
-		  collapsed:: true
-			- form + partial content = intent + extent = full content (Ω)
-			- id, key := value
-				- id : type { type = {id : `*`} }
-			- in-thread touches ex-thread
-				- function ex = f(in)
-				- variation of ex compared to in
-				- in + ex unified to Ω thread (full content)  
-				  -> in = form = abstraction of Ω
-				- in reflects ex with distortions: abstraction, mixing
-			- recursive bifurcation via recursive reflection:  
-			  $e_0 = i_0 = c = con = ex + in = e_1 + i_1 = e_1 + (e_2 + i_2) =$  
-			  $e_1 + (e_2 + (e_3 + (... i_n)))$
-		- Convert all metadata to block-links
-		  collapsed:: true
-			- `#tag` = block-link
-			- `property.subprop: some string value` is stored as an item with property `name` like this:
-				- some string value 
-				  name:: ((6651ea73-78b4-4c1a-b052-b2ea9555b6f6))
-				  :LOGBOOK:
-				  CLOCK: [2024-05-25 Sat 22:30:07]--[2024-05-25 Sat 22:30:08] =>  00:00:01
-				  :END:
-			- We can define property with composite value like this:
-				- a composite
-				  name:: ((6652048c-27b3-47b6-84e5-25af8d9ce801))
-					- a component
-					- another component
-			- Store properties in sub-items:
-			  It's simpler just to use sub-items to store properties. Then in the property `components` of the container item, we can collect forms (definitions) of these sub-item-properties into a list, like this:
-			  components:: ((66532914-003a-4bbb-9e97-6f1c87170d7d)), ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is an example of how to use sub-items as properties.
-				- ((6652048c-27b3-47b6-84e5-25af8d9ce801)) This component contains sub-components:
-					- a component
-					- another component
-		- Let's test `{{query}}` in Logseq:
-		  collapsed:: true
-			- Today: {{query <% today %> }}
-			  id:: 66521398-7318-4d06-ac79-899f244a31c0
-			- query-table:: true
-			  query-sort-by:: block
-			  query-sort-desc:: false
-			  #+BEGIN_QUERY
-			  {:title ["Property in namespace [uuid of property name]"]
-			    :query [ 
-			    :find (pull ?b [*])
-			    :in $ ?uuid
-			    :where
-			      [?b :block/properties ?prop] 
-			      [(get ?prop :name) ?name]
-			      (or
-			        [(= ?name ?uuid)]  
-			        [(contains? ?name ?uuid)]  
-			      )
-			    ] ; end query
-			    :inputs[ "((6652048c-27b3-47b6-84e5-25af8d9ce801))" ]
-			  }
-			  #+END_QUERY
-			- query-sort-by:: block
-			  query-table:: true
-			  query-sort-desc:: false
-			  #+BEGIN_QUERY
-			  {:title "Block links [ uuid of destination blocks ]"
-			  :query [
-			    :find (pull ?b [*])
-			    :in $ ?dest
-			    :where
-			     [?b :block/refs ?dest]
-			   ]
-			   :inputs [ [:block/uuid #uuid "66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5"] ]
-			  }
-			  #+END_QUERY
-			- [Logseq/Advanced Queries Examples](https://siferiax.github.io/#/page/logseq%2Fadvanced%20queries)
-			- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
-		- Special properties built in Logseq:
-		  title:: Title
-		  alias:: A, B, C
-		  tags:: T, U, V
-	- ## Unïnfo
+	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665c82c0-ee06-4f43-95b8-73dbbe956080)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
+	-
+	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
-		- Universal Information
-		  ===
-		  
-		  "Unïnfo" is the umbrella term for both [[Unïnfo Theory]], as the theoretical aspect, and ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66537a44-f579-4fcc-a02b-2f32d0d409fc))
+		- Unïnfo
+		  id:: 66537a44-f579-4fcc-a02b-2f32d0d409fc
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537a41-f229-4891-803e-828573eb44f3))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) " ((66537a44-f579-4fcc-a02b-2f32d0d409fc))" is the umbrella term for both [[Unïnfo Theory]], as the theoretical aspect, and ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
 	- ## question
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Question
@@ -177,7 +56,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## foldable
 	  id:: 66537617-23c2-43a9-9a14-5e18fe9aa36f
 	  collapsed:: true
-		- ((665359e4-4597-4775-b849-f9acbb98960a)) collapsible, abstractable
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((665c9fb6-841c-4ee9-93a1-d17b5811a98e)), ((665c9fb9-28e8-48e3-bd81-f773549f145d))
+		- collapsible
+id:: 665c9fb6-841c-4ee9-93a1-d17b5811a98e
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
+		- abstractable
+		  id:: 665c9fb9-28e8-48e3-bd81-f773549f145d
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A foldable object, usually a block of text, is an object that can be folded (or collapsed, abstracted) into a brief like header, title, name, summary, and that brief can be unfolded (or expanded, extended) back to the full object. This is a technical implementation of the general ((66537674-6cf9-4459-8bea-7c1858c694a3)).
 		- Examples:
 			- Foldable [code block](https://en.wikipedia.org/wiki/Block_(programming))s in [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or blocks of text in [text editor](https://en.wikipedia.org/wiki/Text_editor)s
@@ -199,32 +84,56 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The third component of the [[Trinion]].
+	- ## name
+	  id:: 665cab38-f8e8-472e-b0a1-60776d492835
+	  collapsed:: true
+	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca48e-f7c1-4541-b5cf-486d86b02997))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Name
+		- E.g. Buddhist name in the pair "[name & form](https://en.wikipedia.org/wiki/Namarupa)"
+	- ## form
+	  id:: 665ca429-84e3-49ff-921e-c07d19cd99ba
+	  collapsed:: true
+	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Rūpa
+		- E.g. [Buddhist form](https://en.wikipedia.org/wiki/Rūpa) in the pair "name & form", [logical form](https://en.wikipedia.org/wiki/Logical_form), Plato's [ideal form](https://en.wikipedia.org/wiki/Theory_of_forms), Marx' [form of value](https://en.wikipedia.org/wiki/Value-form), etc.
+		-
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
-	  name:: ((6651ecba-793d-43c5-8020-a9f260b032d8))
 	  collapsed:: true
+	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532914-003a-4bbb-9e97-6f1c87170d7d)) is a text describing something.
 	- ## composite
 	  id:: 66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5
-	  name:: ((6652048c-27b3-47b6-84e5-25af8d9ce801))
 	  collapsed:: true
+	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((6652048c-27b3-47b6-84e5-25af8d9ce801))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) is an object composed of other objects called ((66532bb2-7680-461b-80b2-71fc96c89fb9))s.
 	- ## component
 	  id:: 66532bb2-7680-461b-80b2-71fc96c89fb9
-	  name:: ((66532ccc-ae21-4940-8714-715060d6bd90))
 	  collapsed:: true
+	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((66532ccc-ae21-4940-8714-715060d6bd90))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532bb2-7680-461b-80b2-71fc96c89fb9)) is an object within another object called ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)).
 	- ## Workstack Workflow
 	  id:: 66533a2a-6f29-4e4c-81d5-17883be64bdb
 	  collapsed:: true
 		- ### Workspace
-		  collapsed:: true
-			- Each person has a Workspace to work with, which includes a Workstack for active tasks at hand, a Task list for future tasks, a History for past (done, cancelled) tasks, and other lists like Problem list, Question list, etc.
+			- Each person has a Workspace to work with, which includes a Workstack for active tasks at hand, a Task list for future tasks, a History for past (done, cancelled) tasks, and other lists like Problem list, Question list, etc. These lists, except History, are in general sorted in reverse chronological order. The Task list is additionally sorted in priority, if any, and the History is in chronological order.
 		- ### Workstack
-		  collapsed:: true
+		  id:: 6653538a-22d3-4807-ad13-a64ac543edba
 			- Just like the [call stack](https://en.wikipedia.org/wiki/Call_stack) of [computer program](https://en.wikipedia.org/wiki/Computer_program), Workstack is a non-strict last-in-first-out (LIFO) list of tasks being worked on by the subject.
 			- All items in the workstack must be prefixed (bullet, task, [?], [!], etc.) to separate with each other, because their order (*from bottom to top*) is opposite to the normal text order (from top to bottom).
 		- ### Workflow
+			- New works will be carried out from the ((6653538a-22d3-4807-ad13-a64ac543edba)), and old works may be continued from places outside Workspace like from ((665c82c0-ee06-4f43-95b8-73dbbe956080)), from a publishing document, etc.
+			- In the course of working on the current task,
+				- a new task that can/must be done immediately will be pushed to the Workstack;
+				- a new task that should be done later will be pushed to Task list;
+				- a problem that cannot or should not be solved right now will be pushed to Problem list;
+				  id:: 665c8a2e-8de9-445f-b7c8-042244afe1c7
+				- a question that cannot or should not be answered right now will be pushed to Question list;
+				- a completed/cancelled task/problem/question will be (popped from Workstack/Problem/Question list and) pushed to the History.
+	- ## Mind Jungle
+	  id:: 665c82c0-ee06-4f43-95b8-73dbbe956080
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c82c0-ee06-4f43-95b8-73dbbe956080)) is an image of the mind which reflects concepts (like [concept map](https://en.wikipedia.org/wiki/Concept_map)), relation and reasoning between these concepts (like [argument map](https://en.wikipedia.org/wiki/Argument_map)), tree views from important concepts (like [mind map](https://en.wikipedia.org/wiki/Mind_map)). Overall, it's a kind of [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph).
 	- ## About Legend app
 	  collapsed:: true
 		- Internal links
@@ -236,6 +145,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Legend's built-in attributes
 			- Custom properties can be stored in notes.
 				- Notes can be searched/filtered, and then can be excluded from export.
+	- ## brainstorming
+	  id:: 665c92d1-565b-4911-a706-b32af429c3aa
+	  collapsed:: true
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Brainstorming
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c92d1-565b-4911-a706-b32af429c3aa)) is a thinking technique to dump all thoughts out quickly without careful organizing.
 	- ## Will LE
 	  id:: 66536578-c4d3-43f1-b35c-bf71120f0570
 	  collapsed:: true
@@ -255,17 +169,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Obsidian
-		- Wiki-vi: https://vi.wikipedia.org/wiki/Đá_vỏ_chai
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A naturally occurring [volcanic glass](https://en.wikipedia.org/wiki/Volcanic_glass "Volcanic glass") formed when [lava](https://en.wikipedia.org/wiki/Lava "Lava") [extruded](https://en.wikipedia.org/wiki/Extrusive_rock "Extrusive rock") from a [volcano](https://en.wikipedia.org/wiki/Volcano "Volcano") cools rapidly with minimal [crystal growth](https://en.wikipedia.org/wiki/Crystal_growth "Crystal growth").
+		- ((665359c0-a89a-41b5-9f28-503f79107a08))-vi: https://vi.wikipedia.org/wiki/Đá_vỏ_chai
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) [Obsidian](((66537d0c-5406-4b46-8975-12d788cfc28e))) is a naturally occurring [volcanic glass](https://en.wikipedia.org/wiki/Volcanic_glass "Volcanic glass") formed when [lava](https://en.wikipedia.org/wiki/Lava "Lava") [extruded](https://en.wikipedia.org/wiki/Extrusive_rock "Extrusive rock") from a [volcano](https://en.wikipedia.org/wiki/Volcano "Volcano") cools rapidly with minimal [crystal growth](https://en.wikipedia.org/wiki/Crystal_growth "Crystal growth").
 	- ## Obsidian
 	  id:: 66535660-643e-471a-a332-8f2306c5494f
 	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://obsidian.md/
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Obsidian_(software)
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A note-taking app based on ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)) for internal links to create a ((665364b1-e05c-46a6-a76b-c14cd73d1706)) (PKB).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66535660-643e-471a-a332-8f2306c5494f)) is a note-taking app based on ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)) for internal links to create a ((665364b1-e05c-46a6-a76b-c14cd73d1706)) (PKB).
 		- ((66536578-c4d3-43f1-b35c-bf71120f0570))'s vaults:
-		  collapsed:: true
-			- [UniinfoNotes](https://github.com/bixycler/UniinfoNotes) for ((66537a41-f229-4891-803e-828573eb44f3))
+			- [UniinfoNotes](https://github.com/bixycler/UniinfoNotes) for ((66537a44-f579-4fcc-a02b-2f32d0d409fc))
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
 			- About the name "Obsidian": It's taken from the rock ((66537d0c-5406-4b46-8975-12d788cfc28e)) which is a kind of volcanic glass.
@@ -307,6 +220,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Move to folder: `Ctrl` `M`
 				- Ideally when creating new note (`Ctrl` `N` ), ((66535660-643e-471a-a332-8f2306c5494f)) should ask or default to the same folder of current note.
 		- ### ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
+		  collapsed:: true
 			- Core plugins
 			- Community plugins
 				- Open Link With
@@ -360,18 +274,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## keyboard shortcut
 	  id:: 665367a6-29d7-4fd2-a33b-6d94de8172e8
 	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66536710-7441-4fb8-986b-50d2eec762d7))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Keyboard_shortcut
-		- ((665359e4-4597-4775-b849-f9acbb98960a)) ((66536710-7441-4fb8-986b-50d2eec762d7))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a key or a series of [keys](https://en.wikipedia.org/wiki/Computer_keyboard "Computer keyboard") to quickly invoke a [software program](https://en.wikipedia.org/wiki/Software_program "Software program") or perform a preprogrammed action.
 	- ## hotkey
 	  id:: 66536710-7441-4fb8-986b-50d2eec762d7
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An alias for ((665367a6-29d7-4fd2-a33b-6d94de8172e8)), usually used by [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), ((66535660-643e-471a-a332-8f2306c5494f)), etc.
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((665367a6-29d7-4fd2-a33b-6d94de8172e8))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536710-7441-4fb8-986b-50d2eec762d7)) is an ((665c9af1-1ce2-461c-af33-671690618c8f)) ((665367a6-29d7-4fd2-a33b-6d94de8172e8)), usually used by [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), ((66535660-643e-471a-a332-8f2306c5494f)), etc.
 		- [[Table of Hotkey Assigned Commands in this Vault]]
 	- ## wiki
-	  name:: ((665359c0-a89a-41b5-9f28-503f79107a08))
 	  id:: 66536a32-fddd-465f-a47f-fa8e0ea9c8db
 	  collapsed:: true
+	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665359c0-a89a-41b5-9f28-503f79107a08))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Wiki
 	- ## Wikipedia
 	  id:: 665368c5-5c6f-44e4-a675-4a744252d32c
@@ -498,7 +413,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66536274-abb0-4f8e-8fa1-da2d4224b7ff
 	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.latex-project.org/
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A [good old](https://en.wikipedia.org/wiki/LaTeX#History) typesetting language that I've used to write my reports an thesis in my academic era ([Handai](((66536ec6-1a32-431b-b2e2-c73813f5d19f))) , [JAIST](((665370ae-659d-4fb1-9bdb-6e857e3f5bf3)))).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A [good old](https://en.wikipedia.org/wiki/LaTeX#History) typesetting language that I've used to write my reports an thesis in my academic era ( ((665c9c28-dfdc-4a7a-8f82-d1367db0c5be)), [JAIST](((665370ae-659d-4fb1-9bdb-6e857e3f5bf3)))).
 	- ## formal methods
 	  id:: 6653711b-1c5f-4a34-b01a-e673b9bb694c
 	  collapsed:: true
@@ -506,21 +421,36 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## Japan Advanced Institute of Science and Technology
 	  id:: 665370ae-659d-4fb1-9bdb-6e857e3f5bf3
 	  collapsed:: true
-		- ((665359e4-4597-4775-b849-f9acbb98960a)) JAIST
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((665370bb-9619-46b2-97be-a7b52684a56c))
+		- JAIST
+		  id:: 665370bb-9619-46b2-97be-a7b52684a56c
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((665370ae-659d-4fb1-9bdb-6e857e3f5bf3))
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.jaist.ac.jp
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) There are 3 schools: Information Science, Knowledge Science, and Materials Science.
 		- Harusada's: I've done my master course in the Graduate School of Information Science about ((6653711b-1c5f-4a34-b01a-e673b9bb694c)), from 2007 to 2009.
 	- ## Osaka University
 	  id:: 66536ec6-1a32-431b-b2e2-c73813f5d19f
 	  collapsed:: true
-		- ((665359e4-4597-4775-b849-f9acbb98960a)) Handai, 阪大
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((665c9c28-dfdc-4a7a-8f82-d1367db0c5be)), ((665c9c2b-8030-46cc-90b2-08816d369105))
+		- Handai
+		  id:: 665c9c28-dfdc-4a7a-8f82-d1367db0c5be
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66536ec6-1a32-431b-b2e2-c73813f5d19f))
+		- 阪大
+		  id:: 665c9c2b-8030-46cc-90b2-08816d369105
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66536ec6-1a32-431b-b2e2-c73813f5d19f))
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.osaka-u.ac.jp
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A comprehensive university with 6 faculties: science, engineering, medicine, letters, law & economics, and Arts & Humanities. It merged the old [Osaka Gaidai](((66537146-078d-4a65-b33a-2a0162f15d8c))) in 2007.
 		- [Harusada](((66536578-c4d3-43f1-b35c-bf71120f0570)))'s: I've done my undergraduate course of Computer Science in Toyonaka campus, from 2003 to 2007.
 	- ## Osaka University of Foreign Studies
 	  id:: 66537146-078d-4a65-b33a-2a0162f15d8c
 	  collapsed:: true
-		- ((665359e4-4597-4775-b849-f9acbb98960a)) Osaka Gaidai, 大阪外大
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66537151-5913-4bcf-b4fe-b8e90a69f5af)), ((665c9f25-ec8b-4fb8-ad1d-349cbd0b9010))
+		- Osaka Gaidai
+		  id:: 66537151-5913-4bcf-b4fe-b8e90a69f5af
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537146-078d-4a65-b33a-2a0162f15d8c))
+		- 大阪外大
+		  id:: 665c9f25-ec8b-4fb8-ad1d-349cbd0b9010
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537146-078d-4a65-b33a-2a0162f15d8c))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) It was dedicated to area studies and the study of foreign languages and their related cultures. It was merged to ((66536ec6-1a32-431b-b2e2-c73813f5d19f)) in 2007.
 		- [Harusada](((66536578-c4d3-43f1-b35c-bf71120f0570)))'s: I've done my Japanese course here from 2002 to 2003.
 	- ## XML
