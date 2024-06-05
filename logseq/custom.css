@@ -1,3 +1,205 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css");
+
+/* Root settings */
 :root {
---ls-main-content-max-width: 100%;
+  --ls-main-content-max-width: 100%;
+
+  /* Task markers */
+  --ct-marker-border-radius: 4px;
+  --ct-marker-size: 16px;
+  --ct-marker-text-color: var(--rx-slate-12);
+  --ct-task-done-text-decoration: none;
+  --ct-checkbox-color: var(--rx-blue-09);
+  --ct-checkbox-waiting-color: var(--rx-blue-07);
+  --ct-checkbox-done-color: var(--rx-green-09);
+  --oz-code-font-family: "Hack", monospace;
+}
+
+/* Main (middle) pane */
+body {
+  background-color: var(--ls-primary-background-color,hsl(var(--background)));
+  color: var(--ls-primary-text-color,hsl(var(--foreground)));
+}
+
+/* Control header */
+.cp__header {
+  background-color: var(--ls-secondary-background-color);
+}
+
+/* Left side bar */
+.dark .left-sidebar-inner {
+  --left-sidebar-bg-color: var(--ls-secondary-background-color,hsl(var(--secondary,var(--rx-gray-03-hsl))));
+}
+
+
+/* Right side bar */
+
+.cp__right-sidebar-inner {
+  background-color: var(--ls-secondary-background-color);
+}
+
+html[data-theme=dark] .cp__right-sidebar .sidebar-item {
+  background-color: var(--ls-primary-background-color);
+}
+
+.sidebar-item-header {
+  background-color: var(--ls-tertiary-background-color) !important;
+}
+
+
+/* Code mirror (code block) */
+
+.cm-s-lsradix.cm-s-light,.dark .cm-s-lsradix.cm-s-dark {
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+}
+
+.cm-s-lsradix.cm-s-dark .CodeMirror-gutters {
+  background-color: hsl(var(--background)); 
+}
+
+.cm-s-lsradix.cm-s-dark .CodeMirror-linenumber {
+  color: hsl(var(--foreground));
+}
+
+
+/*** Markers & Checkboxes [from Ozean theme] ***/
+
+/* Checkboxes */
+
+:is(.todo, .later, .waiting, .wait, .in-progress, .doing, .now, .done) .form-checkbox,
+:is(.todo, .later, .waiting, .wait, .in-progress, .doing, .now, .done) .form-checkbox:focus {
+  transform: translateY(1px);
+  border-radius: 30%;
+  border: 2px solid var(--ct-checkbox-color) !important;
+  background-color: transparent !important;
+  height: var(--ct-marker-size);
+  width: var(--ct-marker-size);
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:is(.doing, .now) .form-checkbox,
+:is(.doing, .now) .form-checkbox:focus {
+  background-color: var(--ct-checkbox-color) !important;
+  border: 2px solid var(--ct-checkbox-color) !important;
+}
+
+:is(.waiting, .wait, .in-progress) .form-checkbox,
+:is(.waiting, .wait, .in-progress) .form-checkbox:focus {
+  background-color: var(--ct-checkbox-waiting-color) !important;
+}
+
+.done {
+  text-decoration: var(--ct-task-done-text-decoration);
+}
+
+.done .form-checkbox:checked,
+.done .form-checkbox:checked:focus {
+  border-radius: 50%;
+  background-color: var(--ct-checkbox-done-color) !important;
+  border: 2px solid var(--ct-checkbox-done-color) !important;
+  margin-right: 5px !important;
+}
+
+/* Markers */
+
+.block-marker { /* all status, including WAIT... */
+  border-radius: var(--ct-marker-border-radius);
+  font-size: 12px;
+  height: calc(var(--ct-marker-size) + 4px);
+  line-height: 1.5;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--oz-code-font-family);
+  color: var(--ct-marker-text-color);
+  background-color: var(--ct-checkbox-waiting-color) !important;
+}
+
+a.marker-switch { /* Only action status: TODO <-> DOING */
+  transform: translateY(-1px);
+  background-color: var(--ct-checkbox-color) !important;
+}
+
+a.marker-switch:hover {
+  color: var(--ct-marker-text-color);
+}
+
+/*** Block control (arrow) ***/
+
+/* Don't hide arrow of collapsed block */
+.block-control .control-hide,
+.block-control:hover .control-hide {
+  display: block;
+}
+.block-control .control-hide .collapsed,
+.block-control:hover .control-hide .collapsed {
+  display: block !important;
+}
+
+/* Only hide arrow of non-collapsed block */
+.block-control .control-hide .not-collapsed,
+.block-control:hover .control-hide .not-collapsed {
+  display: none;
+}
+
+
+/* Links */
+
+.page-ref {
+    color: var(--ls-link-text-color,hsl(var(--primary)/.8));
+}
+.page-ref:hover {
+    color: var(--ls-link-text-color,hsl(var(--primary)));
+}
+
+a { /* external link */
+    color: var(--ls-link-text-color,hsl(var(--primary)/.8));
+}
+a:hover {
+    color: var(--ls-link-text-hover-color,hsl(var(--primary)));
+}
+
+
+/* Plugin manager & Marketplace */
+.cp__plugins-item-card {
+  background-color: var(--ls-secondary-background-color,hsl(var(--muted)));
+  color: var(--ls-secondary-text-color);
+}
+.cp__plugins-item-card p {
+  color: var(--ls-secondary-text-color);
+}
+
+
+/* Color variables */
+
+html[data-color=blue] .dark-theme,html[data-color=blue] .light-theme,html[data-color=blue] body {
+  --ls-primary-background-color: var(--rx-slate-04);
+  --ls-secondary-background-color: var(--rx-slate-06);
+  --ls-tertiary-background-color: var(--rx-slate-07);
+  --ls-quaternary-background-color: var(--rx-slate-08);
+
+  --ls-primary-text-color: var(--rx-slate-11);
+  --ls-secondary-text-color: var(--rx-slate-12);
+
+  --ls-link-text-color: var(--rx-blue-09);
+  --ls-link-text-hover-color: var(--rx-blue-11);
+  --ls-block-ref-link-text-color: var(--rx-blue-08);
+
+  --ls-selection-background-color: var(--rx-slate-05-alpha);
+  --ls-block-highlight-color: var(--rx-slate-05);
+
+  --ls-page-checkbox-color: var(--rx-slate-09);
+}
+
+html[data-theme=dark] {
+  --secondary: 0 0% 15%;
+  --secondary-foreground: 0 0% 75%;
+
+  --background: 0 0% 12%;
+  --foreground: 0 0% 50%;
 }

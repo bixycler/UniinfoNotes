@@ -1,22 +1,61 @@
 # Workspace
 id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the [workspace](((66533a2a-6f29-4e4c-81d5-17883be64bdb))) for Will LE.
+	- ***Pinned***
+	  id:: 66603d58-ff5b-4e23-8dad-5dba527981f4
+		- IN-PROGRESS Update ((66536e1b-6466-4153-90d6-583003d99a81)) while working.
+		  :LOGBOOK:
+		  CLOCK: [2024-06-05 Wed 17:23:59]
+		  CLOCK: [2024-06-05 Wed 17:24:00]
+		  CLOCK: [2024-06-05 Wed 17:24:12]
+		  :END:
 	-
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		-
-		-
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
-		- TODO Back to work of company!
+		- DOING Back to work of company!
+		  id:: 665d1a03-1967-4260-a306-9ba465c1dd63
+		  :LOGBOOK:
+		  CLOCK: [2024-06-03 Mon 10:02:15]--[2024-06-03 Mon 10:02:17] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 10:02:18]--[2024-06-03 Mon 10:02:20] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 10:19:30]--[2024-06-03 Mon 10:19:31] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:19:32]--[2024-06-03 Mon 10:19:33] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:19:34]--[2024-06-03 Mon 10:19:35] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:19:44]--[2024-06-03 Mon 10:19:45] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:23:46]--[2024-06-03 Mon 10:23:47] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:32:01]--[2024-06-03 Mon 10:32:02] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:32:07]--[2024-06-03 Mon 10:32:08] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:33:10]--[2024-06-03 Mon 10:33:11] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:33:13]--[2024-06-03 Mon 10:33:13] =>  00:00:00
+		  CLOCK: [2024-06-03 Mon 10:38:17]--[2024-06-03 Mon 10:38:19] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 10:38:21]--[2024-06-03 Mon 10:38:22] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:39:47]--[2024-06-03 Mon 10:39:48] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:42:12]--[2024-06-03 Mon 10:42:13] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:42:14]--[2024-06-03 Mon 10:42:14] =>  00:00:00
+		  CLOCK: [2024-06-03 Mon 10:42:15]--[2024-06-03 Mon 10:42:16] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:44:45]--[2024-06-03 Mon 10:44:47] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 10:46:16]--[2024-06-03 Mon 10:46:16] =>  00:00:00
+		  CLOCK: [2024-06-03 Mon 10:47:21]--[2024-06-03 Mon 10:47:22] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:47:23]--[2024-06-03 Mon 10:47:25] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 10:47:31]--[2024-06-03 Mon 10:50:39] =>  00:03:08
+		  CLOCK: [2024-06-03 Mon 10:50:40]
+		  :END:
 		-
 		-
 		- TODO Auto-complete & typing assistant for **quotation marks**, symbols...
 		-
 	- ## Problems
 	  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
-	  collapsed:: true
 		-
+		- [!] The barrier between workspaces ("graphs" in Logseq)
+		  collapsed:: true
+			- In Logseq, ((665fe765-2bb7-4392-9140-10e187f0f208))
+			- Some independent works, like [[Theme Demo]] , can be copied (manually).
+			- But interlinked works are complicated:
+				- Either we must copy the whole closure of linked works
+				- Or we must prune "unnecessary" links.
 		- [!] Timestamp in Logseq
 		  collapsed:: true
 			- [Displaying block timestamps](https://discuss.logseq.com/t/displaying-block-timestamps/24594)
@@ -49,9 +88,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- DONE Add themes & [[Theme Demo]] ✅ 2024-05-21
 		- Thanks to Obsidian's core plugin "Unique note creator", I'm introduced to the very old method of [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) (card file, slip box) with the software [NoteCards](https://en.wikipedia.org/wiki/NoteCards), from 1984, as the origin the modern ((66536a32-fddd-465f-a47f-fa8e0ea9c8db))].
 		- DONE Logging all activities (on Obsidian) & design workflow for dashboard
+		  id:: 66600918-8052-4513-8c1d-a467b3036fea
 		  collapsed:: true
 			- Result: ((66533a2a-6f29-4e4c-81d5-17883be64bdb))
-			- Due to ((6651ade9-4d79-4715-9c8b-33b7b65c3aff)) and Obsidian's lack of support for text block, I've switched to Logseq.
+			- Due to ((6651ade9-4d79-4715-9c8b-33b7b65c3aff)) and Obsidian's lack of support for text block, I've switched to ((66536e1b-6466-4153-90d6-583003d99a81)) .
 			- Id-based solutions
 			  collapsed:: true
 				- Timestamp as id: history = list of text block id-ed by timestamp `yyyy-MMdd-hhmmss`, e.g. `2024-0521-202221`
@@ -60,10 +100,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- However the block embedding is in ((66535660-643e-471a-a332-8f2306c5494f)) is messy with broken layout.
 					- ((66536d32-30ad-4c07-8585-76ae9eb7fb22))s like ((66536e1b-6466-4153-90d6-583003d99a81)), [Dynalist](https://dynalist.io/), [Checkvist](https://checkvist.com/), [Legend](https://legendapp.com/) is much better at this block-based management and [transclusion](https://en.wikipedia.org/wiki/Transclusion).
 				- Hash ids:
-				  collapsed:: true
-					- UUID used by Logseq
+					- UUID used by ((66536e1b-6466-4153-90d6-583003d99a81))
 					- Concatenated hash, e.g. `a123lkj_lkjfa121_comment`, used by Legend
-					- Short hash used by Obsidian
+					- Short hash used by ((66535660-643e-471a-a332-8f2306c5494f))
+			-
 		- [!] The issue of "folder & path" in Obsidian
 		  id:: 6651ade9-4d79-4715-9c8b-33b7b65c3aff
 		  collapsed:: true
@@ -98,3 +138,39 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  collapsed:: true
 			- TODO ((6653747e-b02a-4120-861c-f2fd6d686053))
 			- TODO ((66537405-7c71-4a5e-abb4-996a146bb52c))
+		- DONE Set theme for Logseq
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-06-03 Mon 19:09:09]
+		  CLOCK: [2024-06-03 Mon 19:09:35]--[2024-06-03 Mon 19:26:28] =>  00:16:53
+		  CLOCK: [2024-06-03 Mon 19:26:29]--[2024-06-03 Mon 19:26:30] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 19:26:31]--[2024-06-03 Mon 19:26:32] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 19:26:33]--[2024-06-03 Mon 19:39:04] =>  00:12:31
+		  CLOCK: [2024-06-03 Mon 19:39:09]--[2024-06-03 Mon 19:39:10] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 19:39:11]--[2024-06-03 Mon 19:39:12] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 19:39:18]--[2024-06-03 Mon 19:39:20] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 19:39:20]--[2024-06-03 Mon 19:39:22] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 19:39:35]--[2024-06-03 Mon 19:49:06] =>  00:09:31
+		  CLOCK: [2024-06-03 Mon 19:49:07]--[2024-06-03 Mon 19:49:08] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 19:49:09]--[2024-06-03 Mon 19:49:09] =>  00:00:00
+		  CLOCK: [2024-06-03 Mon 19:49:10]--[2024-06-03 Mon 19:51:00] =>  00:01:50
+		  CLOCK: [2024-06-03 Mon 19:51:01]--[2024-06-03 Mon 20:01:54] =>  00:10:53
+		  CLOCK: [2024-06-03 Mon 20:01:55]--[2024-06-03 Mon 20:01:56] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 20:01:56]--[2024-06-04 Tue 08:35:15] =>  12:33:19
+		  :END:
+			- No theme satisfies my need
+				- ((665dc545-151a-485a-84b7-1310fef5151c)) ((665d78a5-6470-4e60-8fd1-d958fd62756e))
+				  :LOGBOOK:
+				  CLOCK: [2024-06-03 Mon 20:25:47]--[2024-06-03 Mon 20:25:52] =>  00:00:05
+				  CLOCK: [2024-06-03 Mon 20:25:58]--[2024-06-04 Tue 08:35:24] =>  12:09:26
+				  :END:
+			- And update [[Theme Demo]] with Logseq's tasks.
+		- DONE Make folded blocks more hilited: ((665f0ecc-3046-4602-a0cb-d557baab53ba))
+		- DONE Pin ((66536e1b-6466-4153-90d6-583003d99a81)) to Workspace's ((66603d58-ff5b-4e23-8dad-5dba527981f4)).
+		  collapsed:: true
+			- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) the "pinned tab" feature of `logseq-tabs` do not support different pinned tabs in different workspaces (graphs).
+		- DONE Reduce brightness of the underline of block ref, because block refs are used intensively.
+		  :LOGBOOK:
+		  CLOCK: [2024-06-05 Wed 17:57:52]--[2024-06-05 Wed 17:59:56] =>  00:02:04
+		  :END:
+		-

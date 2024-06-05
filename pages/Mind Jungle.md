@@ -2,6 +2,13 @@
 id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665c82c0-ee06-4f43-95b8-73dbbe956080)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 	-
+	- ## `in`-`ex` partition
+		-
+	- ## CIE
+	  content/intent = extent
+		- Content
+		- Intent
+		- Extent
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
@@ -58,7 +65,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((665c9fb6-841c-4ee9-93a1-d17b5811a98e)), ((665c9fb9-28e8-48e3-bd81-f773549f145d))
 		- collapsible
-id:: 665c9fb6-841c-4ee9-93a1-d17b5811a98e
+		  id:: 665c9fb6-841c-4ee9-93a1-d17b5811a98e
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
 		- abstractable
 		  id:: 665c9fb9-28e8-48e3-bd81-f773549f145d
@@ -87,35 +94,36 @@ id:: 665c9fb6-841c-4ee9-93a1-d17b5811a98e
 	- ## name
 	  id:: 665cab38-f8e8-472e-b0a1-60776d492835
 	  collapsed:: true
-	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca48e-f7c1-4541-b5cf-486d86b02997))
+		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca48e-f7c1-4541-b5cf-486d86b02997))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Name
 		- E.g. Buddhist name in the pair "[name & form](https://en.wikipedia.org/wiki/Namarupa)"
 	- ## form
 	  id:: 665ca429-84e3-49ff-921e-c07d19cd99ba
 	  collapsed:: true
-	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
+		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Rūpa
 		- E.g. [Buddhist form](https://en.wikipedia.org/wiki/Rūpa) in the pair "name & form", [logical form](https://en.wikipedia.org/wiki/Logical_form), Plato's [ideal form](https://en.wikipedia.org/wiki/Theory_of_forms), Marx' [form of value](https://en.wikipedia.org/wiki/Value-form), etc.
 		-
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
 	  collapsed:: true
-	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((6651ecba-793d-43c5-8020-a9f260b032d8))
+		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532914-003a-4bbb-9e97-6f1c87170d7d)) is a text describing something.
 	- ## composite
 	  id:: 66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5
 	  collapsed:: true
-	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((6652048c-27b3-47b6-84e5-25af8d9ce801))
+		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((6652048c-27b3-47b6-84e5-25af8d9ce801))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) is an object composed of other objects called ((66532bb2-7680-461b-80b2-71fc96c89fb9))s.
 	- ## component
 	  id:: 66532bb2-7680-461b-80b2-71fc96c89fb9
 	  collapsed:: true
-	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((66532ccc-ae21-4940-8714-715060d6bd90))
+		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((66532ccc-ae21-4940-8714-715060d6bd90))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532bb2-7680-461b-80b2-71fc96c89fb9)) is an object within another object called ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)).
 	- ## Workstack Workflow
 	  id:: 66533a2a-6f29-4e4c-81d5-17883be64bdb
 	  collapsed:: true
 		- ### Workspace
+		  id:: 665d1a03-4c61-4d81-ac58-a5a1a7efe568
 			- Each person has a Workspace to work with, which includes a Workstack for active tasks at hand, a Task list for future tasks, a History for past (done, cancelled) tasks, and other lists like Problem list, Question list, etc. These lists, except History, are in general sorted in reverse chronological order. The Task list is additionally sorted in priority, if any, and the History is in chronological order.
 		- ### Workstack
 		  id:: 6653538a-22d3-4807-ad13-a64ac543edba
@@ -194,6 +202,7 @@ id:: 665c9fb6-841c-4ee9-93a1-d17b5811a98e
 			- `[[Link]]`: [Internal links](https://help.obsidian.md/Linking+notes+and+files/Internal+links)
 			- `![[Link]]`: [Embed files](https://help.obsidian.md/Linking+notes+and+files/Embed+files)
 			- `![[Link#^id]]`: [Block references](https://help.obsidian.md/Linking+notes+and+files/Internal+links#Link%20to%20a%20block%20in%20a%20note)
+			  id:: 665d1a03-f5af-4af4-a5a9-97d72dda7645
 			- `^id`: [Defining a block](https://help.obsidian.md/Linking+notes+and+files/Internal+links#Link%20to%20a%20block%20in%20a%20note)
 			- `%%Text%%`: [Comments](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Comments)
 			- `~~Text~~`: [Strikethroughs](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax#Styling%20text)
@@ -286,7 +295,7 @@ id:: 665c9fb6-841c-4ee9-93a1-d17b5811a98e
 	- ## wiki
 	  id:: 66536a32-fddd-465f-a47f-fa8e0ea9c8db
 	  collapsed:: true
-	  ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665359c0-a89a-41b5-9f28-503f79107a08))
+		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665359c0-a89a-41b5-9f28-503f79107a08))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Wiki
 	- ## Wikipedia
 	  id:: 665368c5-5c6f-44e4-a675-4a744252d32c
@@ -347,8 +356,692 @@ id:: 665c9fb6-841c-4ee9-93a1-d17b5811a98e
 	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://logseq.com/
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) (dev from 2021, still beta now) An ((66536d32-30ad-4c07-8585-76ae9eb7fb22)) like [Roam](https://roamresearch.com), but open-source: outlining based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		  collapsed:: true
 			- A new branch [based on database](https://github.com/logseq/logseq/pull/9858), and will be bi-dir-synced with Markdown, is being developed from Jul 2023.
-			- It runs slower and heavier than ((66535660-643e-471a-a332-8f2306c5494f)).
+			- It runs slower and heavier than Obsidian.
+			- The side bar is used as a stack of docs for column-styled editing.
+			  collapsed:: true
+				- However, some functions does not work (well) in the side bar:
+					- Editing system files, like `custom.css`, only work in the main edit pane.
+					- Modifications in the side bar do not reflect well into the docs, so side bar is better for viewing than editing.
+			- [!] Logseq uses `logseq.order-list-type:: number` to show ordered list.
+			  id:: 665eef80-baed-4eff-b89d-d1d62d4f0b0e
+			  collapsed:: true
+				- This property must be placed in *all ordered items*.
+				- The numbers are shown in Logseq, but not stored in the underlying `.md`.
+				- Documents: [editing numbered list](https://docs.logseq.com/#/page/numbered%20list),
+			- Folded blocks are hilited but very lightly
+			  id:: 665f0ecc-3046-4602-a0cb-d557baab53ba
+			  collapsed:: true
+				- Default theme in ((66536e1b-6466-4153-90d6-583003d99a81)) just hilites a folded item (`.bullet-closed`) very lightly with a blurred circle `--ls-block-bullet-border-color` around its bullet. This makes me confused many times.
+				  id:: 665ef3cd-ecdd-4e8f-9854-dd61f1a23e7d
+				  collapsed:: true
+					- ```html
+					  <!-- Open/unfolded/expanded bullet -->
+					  <a class="bullet-link-wrap">
+					    <span class="bullet-container cursor" draggable="true" 
+					          id="dot-665ef3cd-c000-41d8-8593-9692c3cb173a"
+					          blockid="665ef3cd-c000-41d8-8593-9692c3cb173a">
+					      <span class="bullet" blockid="665ef3cd-c000-41d8-8593-9692c3cb173a">
+					      </span>
+					    </span>
+					  </a>
+					  
+					  <!-- Closed/folded/collapsed bullet -->
+					  <a class="bullet-link-wrap">
+					    <span class="bullet-container cursor bullet-closed" draggable="true" 
+					          id="dot-665ef3cd-c000-41d8-8593-9692c3cb173a"
+					          blockid="665ef3cd-c000-41d8-8593-9692c3cb173a">
+					      <span class="bullet" blockid="665ef3cd-c000-41d8-8593-9692c3cb173a">
+					      </span>
+					    </span>
+					  </a>
+					  
+					  
+					  <!-- Open/unfolded/expanded Arrow control (hidden) -->
+					  <a class="block-control" 
+					     id="control-665ef3cd-c000-41d8-8593-9692c3cb173a">
+					    <span class="control-hide">
+					      <span class="rotating-arrow not-collapsed">
+					        <svg aria-hidden="true" version="1.1" viewBox="0 0 192 512" fill="currentColor" display="inline-block" class="h-4 w-4" style="margin-left: 2px;"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z" fill-rule="evenodd"></path>
+					        </svg>
+					      </span>
+					    </span>
+					  </a>
+					  
+					  <!-- Closed/folded/collapsed Arrow control (hidden) -->
+					  <a class="block-control" 
+					     id="control-665ef3cd-c000-41d8-8593-9692c3cb173a">
+					    <span class="control-hide">
+					      <span class="rotating-arrow collapsed">
+					        <svg aria-hidden="true" version="1.1" viewBox="0 0 192 512" fill="currentColor" display="inline-block" class="h-4 w-4" style="margin-left: 2px;"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z" fill-rule="evenodd"></path></svg>
+					      </span>
+					    </span>
+					  </a>
+					  
+					  <!-- Closed/folded/collapsed Arrow control shown permanently -->
+					  <a class="block-control opacity-50 hover:opacity-100 mr-2" 
+					     style="width: 14px; height: 16px; margin-left: -30px;">
+					    <span class="control-show cursor-pointer">
+					      <span class="rotating-arrow collapsed">
+					        <svg aria-hidden="true" version="1.1" viewBox="0 0 192 512" fill="currentColor" display="inline-block" class="h-4 w-4" style="margin-left: 2px;"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z" fill-rule="evenodd"></path></svg>
+					    	</span>
+					    </span>
+					  </a>
+					  ```
+				- Solution: edit `custom.css` so that arrow of collapsed block won't be hidden, just like in ((66535660-643e-471a-a332-8f2306c5494f)) .
+				  collapsed:: true
+					- ```css
+					  /* Don't hide arrow of collapsed block */
+					  .block-control .control-hide,
+					  .block-control:hover .control-hide {
+					    display: block;
+					  }
+					  .block-control .control-hide .collapsed,
+					  .block-control:hover .control-hide .collapsed {
+					    display: block !important;
+					  }
+					  
+					  /* Only hide arrow of non-collapsed block */
+					  .block-control .control-hide .not-collapsed,
+					  .block-control:hover .control-hide .not-collapsed {
+					    display: none;
+					  }
+					  ```
+			- [!] The current workflow is hard-coded as `TODO <-> DOING -> DONE`, which does not distinguish between the first `TODO` with the next `TODO`, i.e. "PAUSED".
+			  collapsed:: true
+				- I prefer this workflow: `TODO -> DOING <-> WAIT -> DONE` (`WAIT` = "PAUSED").
+				- [!] The task status cycle with `marker-switch` `TODO <-> DOING` is hard-coded in [block.cljs](https://github.com/logseq/logseq/blob/d8c6ca264bdf9a6a0f03c46dbf3509210367624a/src/main/frontend/components/block.cljs#L1861).
+				- Other status (`WAIT`, `WAITING`, `IN-PROGRESS`) are hard-coded as just [`task-status` (`marker-cp`)](https://github.com/logseq/logseq/blob/d8c6ca264bdf9a6a0f03c46dbf3509210367624a/src/main/frontend/components/block.cljs#L1879).
+				- Workflow configuration has been [suggested](https://discuss.logseq.com/t/now-next-later-tasks-workflow/3703/6) without response.
+				- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) plugin lets us define custom flow of task status, e.g. `TODO -> WAIT -> DOING -> DONE`, but cannot touch the `marker-switch` `TODO <-> DOING`.
+				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) workaround: use `logseq-custom-workflows` in combination with the built-in `marker-switch`.
+				  collapsed:: true
+					- Workflow: `(TODO -> WAIT) <-> DOING -> DONE`
+					- Hotkeys:
+					  collapsed:: true
+						- `Ctrl Enter` for plaintext -> `TODO` (planned) -> `DOING` (started)
+						- `marker-switch` button click for `DOING` -> `TODO`, then `Ctrl Shift Enter` for `TODO` -> `WAIT` (paused) -> `DOING` (restarted)
+						- checkbox click for (`TODO` <-)-> `DONE`
+			- [!] Cannot link file/dir to avoid dupes!
+			  id:: 665fe765-2bb7-4392-9140-10e187f0f208
+			  collapsed:: true
+				- [!] File name conflict (the same name in different directories):
+				  collapsed:: true
+					- Common files: `README.md`, `index.md`, `usage.md`
+					  collapsed:: true
+						- We can ignore them.
+					- Notes: `notes.md` must be retrieved.
+				- [!] When symlinks are added, they are indexed, but after graph reload, even symlinks to specific `.md` files lose their indices!
+				  collapsed:: true
+					- Refs:
+						- [Symlinks are not followed when loading a Graph/Directory](https://github.com/logseq/logseq/issues/5489)
+						- [Using symbolic link to add existing external .md file to logsek break on restart](https://discuss.logseq.com/t/using-symbolic-link-to-add-existing-external-md-file-to-logsek-break-on-restart/16229)
+				- Hard-link does keep index, but are broken by git 😞!
+			- [!] Each #tag corresponds to a *page*, not a block!
+			  collapsed:: true
+				- This is a problem to my projects, because my approach is pure block-based.
+				- Tags are great for keywords: its concise and human-readable, compared to the long and oblique UUID of block.
+				- I've collected all keywords into the ((66533703-505d-432d-8368-6058eefb45f6)).
+		- Settings:
+		  collapsed:: true
+			- ` :editor/logical-outdenting` is logical, but confused & messy:
+			  collapsed:: true
+				- The outdented item jumping down... is confusing.
+				- When we need to cut a long list into some main items, we must indent all items into sub-items instead of simply outdent the main items.
+			- `:outliner/block-title-collapse-enabled` is nice to collapse lengthy body of a long block and its *visible properties*. However, the *invisible built-in properties* like `id::` make this feature confused!
+		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
+		  collapsed:: true
+			- [Tabs (`logseq-tabs`)](https://github.com/pengx17/logseq-plugin-tabs) provides tabs for browsing and concurrent editing with the very useful feature **pinned tabs**.
+				- We can pin "root nodes" like ((66519638-cf5d-409b-9b98-15acabf2268c)) so that all other nodes will be opened in new tabs instead of overriding the content in that tab.
+			- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) lets us define custom flow of task status, e.g. TODO -> WAIT -> DOING -> DONE, and show `:LOGBOOK:` in edit mode when using its custom hotkey (`Ctrl Shift Enter`).
+			- [Time Recorder (`logseq-time-recorder`)](https://github.com/5hir0kur0/logseq-time-recorder) adds time tracker similar to the built-in `:LOGBOOK:`, but not yet integrated with `:LOGBOOK:`.
+			- [File explorer from within Logseq](https://discuss.logseq.com/t/file-explorer-from-within-logseq/21703/1) with [File picker for linking local files](https://discuss.logseq.com/t/file-picker-for-linking-local-files/21704)
+			  id:: 66600918-fe64-4ef5-965e-c085d29bb88b
+		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
+			- Check rendered result at [[Theme Demo]].
+			- DONE Compose `Logseq/custom.css` from Logseq's built-in `style.css` & Ozean Theme's `main.css`.
+			  id:: 665d78a5-6470-4e60-8fd1-d958fd62756e
+			  :LOGBOOK:
+			  CLOCK: [2024-06-03 Mon 20:25:47]--[2024-06-03 Mon 20:25:52] =>  00:00:05
+			  CLOCK: [2024-06-03 Mon 20:25:58]--[2024-06-04 Tue 08:35:24] =>  12:09:26
+			  :END:
+				- Logseq's built-in `style.css` (Ubuntu: `/snap/logseq/28/app/resources/app/css/style.css`)
+				  collapsed:: true
+					- Root config:
+					  collapsed:: true
+						- ```css
+						  :root {
+						      --ls-main-content-max-width: 810px;
+						      --ls-main-content-max-width-wide: 1280px;
+						      --ls-page-text-size: 1em;
+						      --ls-page-title-size: 36px;
+						      --ls-font-family: Inter;
+						      --ls-tag-text-opacity: 0.8;
+						      --ls-tag-text-hover-opacity: 1;
+						      --ls-scrollbar-width: 6px;
+						      --ls-border-radius-low: 4px;
+						      --ls-border-radius-medium: 8px;
+						      --ls-headbar-height: 3rem;
+						      --ls-headbar-inner-top-padding: 0px;
+						      --ls-left-sidebar-width: 246px;
+						      --ls-left-sidebar-sm-width: 74vw;
+						      --ls-left-sidebar-nav-btn-size: 38px;
+						      --ls-native-kb-height: 0px;
+						      --ls-highlight-color-gray: var(--rx-gray-05);
+						      --ls-highlight-color-red: var(--rx-red-05);
+						      --ls-highlight-color-yellow: var(--rx-yellow-05);
+						      --ls-highlight-color-green: var(--rx-green-05);
+						      --ls-highlight-color-blue: var(--rx-blue-05);
+						      --ls-highlight-color-purple: var(--rx-purple-05);
+						      --ls-highlight-color-pink: var(--rx-pink-05);
+						      --ls-block-bullet-color: var(--lx-gray-08,var(--rx-gray-08))
+						  }
+						  ```
+					- Main editor pane:
+					  ```css
+					  body {
+					      background-color: var(--lx-gray-01,var(--ls-primary-background-color,hsl(var(--background))));
+					      color: var(--lx-gray-12,var(--ls-primary-text-color,hsl(var(--foreground))));
+					      line-height: 1.5;
+					      min-height: 100%;
+					      word-break: break-word
+					  }
+					  ```
+					- Add to control header:
+					  ```css
+					  .cp__header {
+					      background-color: var(--ls-secondary-background-color);
+					  	...
+					  }
+					  ```
+					- Right side bar:
+					  ```css
+					  .cp__right-sidebar-inner {
+					      background-color: var(--lx-gray-02,var(--ls-secondary-background-color));
+					      padding-top: 0
+					  }
+					  
+					  // sidebar-item color-level 
+					  html[data-theme=dark] .cp__right-sidebar .sidebar-item {
+					      background-color: var(--lx-gray-03,var(--ls-secondary-background-color))
+					  }
+					  
+					  // sidebar-item-header color-level
+					  .color-level .color-level {
+					      background-color: var(--color-level-2);
+					  }
+					  ```
+					- Left side bar:
+					  ```css
+					  .left-sidebar-inner {
+					      background-color: var(--left-sidebar-bg-color);
+					      ...
+					  }
+					  
+					  .dark .left-sidebar-inner {
+					      --left-sidebar-bg-color: var(--lx-gray-02,var(--ls-secondary-background-color,hsl(var(--secondary,var(--rx-gray-03-hsl)))))
+					  }
+					  
+					  ```
+					- Links
+					  ```css
+					  .block-ref {
+					      border-bottom: .5px solid;
+					      border-bottom-color: var(--ls-block-ref-link-text-color);
+					      cursor: alias;
+					      display: inherit;
+					      padding: 2px 0
+					  }
+					  .block-ref:hover {
+					      color: var(--ls-link-text-hover-color)
+					  }
+					  
+					  .page-ref {
+					      color: var(--lx-accent-11,var(--ls-link-text-color,hsl(var(--primary)/.8)))
+					  }
+					  .page-ref:hover {
+					      color: var(--lx-accent-11,var(--ls-link-text-color,hsl(var(--primary))))
+					  }
+					  
+					  a {
+					      color: var(--lx-accent-11,var(--ls-link-text-color,hsl(var(--primary)/.8)));
+					      cursor: pointer;
+					      text-decoration: none
+					  }
+					  a:hover {
+					      color: var(--lx-accent-12,var(--ls-link-text-hover-color,hsl(var(--primary))))
+					  }
+					  ```
+					- Code mirror (code block):
+					  collapsed:: true
+						- ```css
+						  .cm-s-lsradix.cm-s-light,.dark .cm-s-lsradix.cm-s-dark {
+						      background-color: var(--lx-gray-02,hsl(var(--secondary)/.7))
+						  }
+						  
+						  .cm-s-lsradix.cm-s-dark {
+						      background-color: var(--lx-gray-01,hsl(var(--secondary)/.7));
+						      color: var(--lx-gray-10,hsl(var(--secondary-foreground)))
+						  }
+						  
+						  .cm-s-lsradix.cm-s-light {
+						      color: var(--lx-gray-10,hsl(var(--secondary-foreground)))
+						  }
+						  
+						  
+						  .cm-s-lsradix.cm-s-dark .CodeMirror-gutters {
+						      background-color: var(--lx-gray-03,hsl(var(--secondary)))
+						  }
+						  
+						  .cm-s-lsradix.cm-s-dark .CodeMirror-linenumber {
+						      color: var(--lx-gray-09,#586e75)
+						  }
+						  
+						  .cm-s-lsradix.cm-s-light .CodeMirror-gutters {
+						      background-color: var(--lx-gray-03,hsl(var(--secondary)))
+						  }
+						  
+						  .cm-s-lsradix.cm-s-light .CodeMirror-linenumber {
+						      color: var(--lx-gray-09,#839496)
+						  }
+						  
+						  ```
+					- Markers (check boxes):
+					  collapsed:: true
+						- ```css
+						  .form-checkbox,.form-radio {
+						      background-color: var(--ls-page-checkbox-color,var(--rx-gray-06));
+						      border: none;
+						      color: var(--ls-page-checkbox-color,hsl(var(--primary)/.4));
+						      position: relative
+						  }
+						  
+						  .form-checkbox:checked,.form-radio:checked {
+						      background-color: currentColor;
+						      background-position: 50%;
+						      background-repeat: no-repeat;
+						      background-size: 100% 100%;
+						      border-color: transparent
+						  }
+						  
+						  .block-marker {
+						      border: 0;
+						      font-size: 85%;
+						      font-weight: 650;
+						      margin: 0 2px 0 0;
+						      opacity: .7;
+						      padding: 2px 4px
+						  }
+						  
+						  .marker-switch:hover {
+						      color: var(--ls-link-text-hover-color);
+						      opacity: 1
+						  }
+						  
+						  ```
+					- Controls:
+					  id:: 665e5e08-b8e7-4cbc-8a9a-5637ccf5dfc6
+					  collapsed:: true
+						- ```css
+						  .cp__plugins-item-card {
+						      background-color: var(--ls-tertiary-background-color,hsl(var(--muted)));
+						      border-radius: calc(var(--radius) - 2px);
+						  	...
+						  }
+						  
+						  ```
+					- Bullets:
+					  id:: 665efdf6-e496-4477-994b-bf2294748fe7
+					  collapsed:: true
+						- ```css
+						  .block-control .control-hide,.block-control:hover .control-hide {
+						      display: none
+						  }
+						  
+						  .bullet-container:not(.typed-list).bullet-closed {
+						      background-color: var(--lx-gray-04-alpha,var(--ls-block-bullet-border-color,var(--rx-gray-04-alpha)))
+						  }
+						  
+						  .bullet-container:not(.typed-list) .bullet {
+						      background-color: var(--lx-gray-08,var(--ls-block-bullet-color,var(--rx-gray-08)));
+						      transition: transform .2s
+						  }
+						  
+						  .bullet-container.typed-list:not(:focus-within) .bullet {
+						      background-color: unset;
+						      box-shadow: none;
+						      height: unset;
+						      width: unset
+						  }
+						  
+						  .bullet-link-wrap {
+						      color: var(--ls-primary-text-color)
+						  }
+						  
+						  .bullet-link-wrap:hover>.bullet-container:not(.typed-list) {
+						      background-color: var(--lx-gray-04-alpha,var(--ls-block-bullet-border-color,var(--rx-gray-04-alpha)))
+						  }
+						  
+						  .bullet-link-wrap:hover>.bullet-container:not(.typed-list) .bullet {
+						      background-color: var(--lx-gray-08,var(--ls-block-bullet-color,var(--rx-gray-08)))!important;
+						      transform: scale(1.2)
+						  }
+						  
+						  ```
+					- For each accent color (`data-color`), there's a corresponding set of color vars:
+					  collapsed:: true
+						- ```css
+						  html[data-color=blue] .dark-theme,html[data-color=blue] .light-theme,html[data-color=blue] body {
+						      --accent: 206 100% 50.0%;
+						      --primary: 206 100% 50.0%;
+						      --ring: 206 81.9% 65.3%;
+						      --accent-foreground: 190 43% 97%;
+						      --primary-foreground: 190 43% 97%;
+						      --lx-accent-01: var(--rx-blue-01);
+						      --lx-accent-02: var(--rx-blue-02);
+						      --lx-accent-03: var(--rx-blue-03);
+						      --lx-accent-04: var(--rx-blue-04);
+						      --lx-accent-05: var(--rx-blue-05);
+						      --lx-accent-06: var(--rx-blue-06);
+						      --lx-accent-07: var(--rx-blue-07);
+						      --lx-accent-08: var(--rx-blue-08);
+						      --lx-accent-09: var(--rx-blue-09);
+						      --lx-accent-10: var(--rx-blue-10);
+						      --lx-accent-11: var(--rx-blue-11);
+						      --lx-accent-12: var(--rx-blue-12);
+						      --lx-accent-01-alpha: var(--rx-blue-01-alpha);
+						      --lx-accent-02-alpha: var(--rx-blue-02-alpha);
+						      --lx-accent-03-alpha: var(--rx-blue-03-alpha);
+						      --lx-accent-04-alpha: var(--rx-blue-04-alpha);
+						      --lx-accent-05-alpha: var(--rx-blue-05-alpha);
+						      --lx-accent-06-alpha: var(--rx-blue-06-alpha);
+						      --lx-accent-07-alpha: var(--rx-blue-07-alpha);
+						      --lx-accent-08-alpha: var(--rx-blue-08-alpha);
+						      --lx-accent-09-alpha: var(--rx-blue-09-alpha);
+						      --lx-accent-10-alpha: var(--rx-blue-10-alpha);
+						      --lx-accent-11-alpha: var(--rx-blue-11-alpha);
+						      --lx-accent-12-alpha: var(--rx-blue-12-alpha);
+						      --lx-gray-01: var(--rx-slate-01);
+						      --lx-gray-02: var(--rx-slate-02);
+						      --lx-gray-03: var(--rx-slate-03);
+						      --lx-gray-04: var(--rx-slate-04);
+						      --lx-gray-05: var(--rx-slate-05);
+						      --lx-gray-06: var(--rx-slate-06);
+						      --lx-gray-07: var(--rx-slate-07);
+						      --lx-gray-08: var(--rx-slate-08);
+						      --lx-gray-09: var(--rx-slate-09);
+						      --lx-gray-10: var(--rx-slate-10);
+						      --lx-gray-11: var(--rx-slate-11);
+						      --lx-gray-12: var(--rx-slate-12);
+						      --lx-gray-01-alpha: var(--rx-slate-01-alpha);
+						      --lx-gray-02-alpha: var(--rx-slate-02-alpha);
+						      --lx-gray-03-alpha: var(--rx-slate-03-alpha);
+						      --lx-gray-04-alpha: var(--rx-slate-04-alpha);
+						      --lx-gray-05-alpha: var(--rx-slate-05-alpha);
+						      --lx-gray-06-alpha: var(--rx-slate-06-alpha);
+						      --lx-gray-07-alpha: var(--rx-slate-07-alpha);
+						      --lx-gray-08-alpha: var(--rx-slate-08-alpha);
+						      --lx-gray-09-alpha: var(--rx-slate-09-alpha);
+						      --lx-gray-10-alpha: var(--rx-slate-10-alpha);
+						      --lx-gray-11-alpha: var(--rx-slate-11-alpha);
+						      --lx-gray-12-alpha: var(--rx-slate-12-alpha);
+						      --ls-primary-background-color: var(--rx-slate-01);
+						      --ls-secondary-background-color: var(--rx-slate-02);
+						      --ls-tertiary-background-color: var(--rx-slate-03);
+						      --ls-quaternary-background-color: var(--rx-slate-04);
+						      --ls-link-text-color: var(--rx-blue-11);
+						      --ls-link-text-hover-color: var(--rx-blue-12);
+						      --ls-block-ref-link-text-color: var(--rx-blue-09);
+						      --ls-secondary-text-color: var(--rx-slate-11);
+						      --ls-primary-text-color: var(--rx-slate-12);
+						      --ls-border-color: var(--rx-slate-05);
+						      --ls-secondary-border-color: var(--rx-blue-05);
+						      --ls-page-checkbox-color: var(--rx-slate-07);
+						      --ls-selection-background-color: var(--rx-slate-04-alpha);
+						      --ls-block-highlight-color: var(--rx-slate-04);
+						      --ls-focus-ring-color: var(--rx-blue-09);
+						      --ls-table-tr-even-background-color: var(--rx-slate-04);
+						      --ls-page-properties-background-color: var(--rx-slate-04);
+						      --ls-block-properties-background-color: var(--rx-slate-03);
+						      --ls-page-inline-code-bg-color: var(--rx-slate-03);
+						      --ls-cloze-text-color: var(--rx-blue-08);
+						      --ls-wb-stroke-color-default: var(--rx-blue-07);
+						      --ls-wb-background-color-default: var(--rx-blue-04);
+						      --ls-wb-text-color-default: var(--rx-slate-12);
+						      --ls-a-chosen-bg: var(--rx-slate-01)
+						  }
+						  ```
+					- HSL colors
+					  collapsed:: true
+						- ```css
+						  html[data-theme=dark] {
+						      --accent: var(--rx-gray-12-hsl);
+						      --accent-foreground: var(--rx-gray-02-hsl);
+						      --primary-foreground: 0 0% 22%;
+						      --background: 0 0% 11%;
+						      --foreground: 0 0% 95%;
+						      --card: 0 0% 11%;
+						      --card-foreground: 0 0% 95%;
+						      --secondary: 0 0% 20%;
+						      --secondary-foreground: 0 0% 98%;
+						      --border: 0 0% 16%;
+						      --muted: 0 0% 15%;
+						      --popover: 0 0% 7%;
+						      --popover-foreground: 0 0 95%;
+						      --input: 0 0% 25%
+						  }
+						  ```
+				- `custom.css` (`CreatZy-Theme`)
+				  id:: 665d98d9-a719-4c4c-b44c-841f6c46c968
+					- ```css
+					  @import url("https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css");
+					  
+					  /* Root settings */
+					  :root {
+					    --ls-main-content-max-width: 100%;
+					  
+					    /* Task markers */
+					    --ct-marker-border-radius: 4px;
+					    --ct-marker-size: 16px;
+					    --ct-marker-text-color: var(--rx-slate-12);
+					    --ct-task-done-text-decoration: none;
+					    --ct-checkbox-color: var(--rx-blue-09);
+					    --ct-checkbox-waiting-color: var(--rx-blue-07);
+					    --ct-checkbox-done-color: var(--rx-green-09);
+					    --oz-code-font-family: "Hack", monospace;
+					  }
+					  
+					  /* Main (middle) pane */
+					  body {
+					    background-color: var(--ls-primary-background-color,hsl(var(--background)));
+					    color: var(--ls-primary-text-color,hsl(var(--foreground)));
+					  }
+					  
+					  /* Control header */
+					  .cp__header {
+					    background-color: var(--ls-secondary-background-color);
+					  }
+					  
+					  /* Left side bar */
+					  .dark .left-sidebar-inner {
+					    --left-sidebar-bg-color: var(--ls-secondary-background-color,hsl(var(--secondary,var(--rx-gray-03-hsl))));
+					  }
+					  
+					  
+					  /* Right side bar */
+					  
+					  .cp__right-sidebar-inner {
+					    background-color: var(--ls-secondary-background-color);
+					  }
+					  
+					  html[data-theme=dark] .cp__right-sidebar .sidebar-item {
+					    background-color: var(--ls-primary-background-color);
+					  }
+					  
+					  .sidebar-item-header {
+					    background-color: var(--ls-tertiary-background-color) !important;
+					  }
+					  
+					  
+					  /* Code mirror (code block) */
+					  
+					  .cm-s-lsradix.cm-s-light,.dark .cm-s-lsradix.cm-s-dark {
+					    background-color: hsl(var(--secondary));
+					    color: hsl(var(--secondary-foreground));
+					  }
+					  
+					  .cm-s-lsradix.cm-s-dark .CodeMirror-gutters {
+					    background-color: hsl(var(--background)); 
+					  }
+					  
+					  .cm-s-lsradix.cm-s-dark .CodeMirror-linenumber {
+					    color: hsl(var(--foreground));
+					  }
+					  
+					  
+					  /*** Markers & Checkboxes [from Ozean theme] ***/
+					  
+					  /* Checkboxes */
+					  
+					  :is(.todo, .later, .waiting, .wait, .in-progress, .doing, .now, .done) .form-checkbox,
+					  :is(.todo, .later, .waiting, .wait, .in-progress, .doing, .now, .done) .form-checkbox:focus {
+					    transform: translateY(1px);
+					    border-radius: 30%;
+					    border: 2px solid var(--ct-checkbox-color) !important;
+					    background-color: transparent !important;
+					    height: var(--ct-marker-size);
+					    width: var(--ct-marker-size);
+					    text-align: center;
+					    display: inline-flex;
+					    align-items: center;
+					    justify-content: center;
+					  }
+					  
+					  :is(.doing, .now) .form-checkbox,
+					  :is(.doing, .now) .form-checkbox:focus {
+					    background-color: var(--ct-checkbox-color) !important;
+					    border: 2px solid var(--ct-checkbox-color) !important;
+					  }
+					  
+					  :is(.waiting, .wait, .in-progress) .form-checkbox,
+					  :is(.waiting, .wait, .in-progress) .form-checkbox:focus {
+					    background-color: var(--ct-checkbox-waiting-color) !important;
+					  }
+					  
+					  .done {
+					    text-decoration: var(--ct-task-done-text-decoration);
+					  }
+					  
+					  .done .form-checkbox:checked,
+					  .done .form-checkbox:checked:focus {
+					    border-radius: 50%;
+					    background-color: var(--ct-checkbox-done-color) !important;
+					    border: 2px solid var(--ct-checkbox-done-color) !important;
+					    margin-right: 5px !important;
+					  }
+					  
+					  /* Markers */
+					  
+					  .block-marker { /* all status, including WAIT... */
+					    border-radius: var(--ct-marker-border-radius);
+					    font-size: 12px;
+					    height: calc(var(--ct-marker-size) + 4px);
+					    line-height: 1.5;
+					    text-align: center;
+					    display: inline-flex;
+					    align-items: center;
+					    justify-content: center;
+					    font-family: var(--oz-code-font-family);
+					    color: var(--ct-marker-text-color);
+					    background-color: var(--ct-checkbox-waiting-color) !important;
+					  }
+					  
+					  a.marker-switch { /* Only action status: TODO <-> DOING */
+					    transform: translateY(-1px);
+					    background-color: var(--ct-checkbox-color) !important;
+					  }
+					  
+					  a.marker-switch:hover {
+					    color: var(--ct-marker-text-color);
+					  }
+					  
+					  /*** Block control (arrow) ***/
+					  
+					  /* Don't hide arrow of collapsed block */
+					  .block-control .control-hide,
+					  .block-control:hover .control-hide {
+					    display: block;
+					  }
+					  .block-control .control-hide .collapsed,
+					  .block-control:hover .control-hide .collapsed {
+					    display: block !important;
+					  }
+					  
+					  /* Only hide arrow of non-collapsed block */
+					  .block-control .control-hide .not-collapsed,
+					  .block-control:hover .control-hide .not-collapsed {
+					    display: none;
+					  }
+					  
+					  
+					  /* Links */
+					  
+					  .page-ref {
+					      color: var(--ls-link-text-color,hsl(var(--primary)/.8));
+					  }
+					  .page-ref:hover {
+					      color: var(--ls-link-text-color,hsl(var(--primary)));
+					  }
+					  
+					  a { /* external link */
+					      color: var(--ls-link-text-color,hsl(var(--primary)/.8));
+					  }
+					  a:hover {
+					      color: var(--ls-link-text-hover-color,hsl(var(--primary)));
+					  }
+					  
+					  
+					  /* Plugin manager & Marketplace */
+					  .cp__plugins-item-card {
+					    background-color: var(--ls-secondary-background-color,hsl(var(--muted)));
+					    color: var(--ls-secondary-text-color);
+					  }
+					  .cp__plugins-item-card p {
+					    color: var(--ls-secondary-text-color);
+					  }
+					  
+					  
+					  /* Color variables */
+					  
+					  html[data-color=blue] .dark-theme,html[data-color=blue] .light-theme,html[data-color=blue] body {
+					    --ls-primary-background-color: var(--rx-slate-04);
+					    --ls-secondary-background-color: var(--rx-slate-06);
+					    --ls-tertiary-background-color: var(--rx-slate-07);
+					    --ls-quaternary-background-color: var(--rx-slate-08);
+					  
+					    --ls-primary-text-color: var(--rx-slate-11);
+					    --ls-secondary-text-color: var(--rx-slate-12);
+					  
+					    --ls-link-text-color: var(--rx-blue-09);
+					    --ls-link-text-hover-color: var(--rx-blue-11);
+					    --ls-block-ref-link-text-color: var(--rx-blue-08);
+					  
+					    --ls-selection-background-color: var(--rx-slate-05-alpha);
+					    --ls-block-highlight-color: var(--rx-slate-05);
+					  
+					    --ls-page-checkbox-color: var(--rx-slate-09);
+					  }
+					  
+					  html[data-theme=dark] {
+					    --secondary: 0 0% 15%;
+					    --secondary-foreground: 0 0% 75%;
+					  
+					    --background: 0 0% 12%;
+					    --foreground: 0 0% 50%;
+					  }
+					  ```
 	- ## outliner
 	  id:: 66536d32-30ad-4c07-8585-76ae9eb7fb22
 	  collapsed:: true

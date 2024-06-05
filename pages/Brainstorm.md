@@ -11,11 +11,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- `Will.mind.conceptual.head` in programming =
 			- "Will' mind' conceptual' head" in natural language!
 	- **Id < *address* < context**  
+	  id:: 66600918-ed92-40c9-bda5-1911865d676c
 	  collapsed:: true
 	  All content arrow is via its complement context:   
 	  full content = apparent content carried by the form + hidden content (context as form)
 		- form = condensed context = condensed hidden content
-		- optimization = formation = context condensation (to the extremes like 🆔)
+		- optimization = formation = context condensation (to the extremes like id)
 		  + optimization frees the subject from the lengthy "irrelevant" context, but also constrains to the form!
 	- All objects are arrows, addresses, vector, `v`'s
 	  collapsed:: true
@@ -50,11 +51,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- extension/reference: in -> ex.in: `Will/mind/conceptual/dog` -> `Wikipedia/Dog`
 			- relation: ex -> ex: Na -> {child: Nau, prey: Nyatty}
 			-
-	- in + ex = con
+	- `in` + `ex` = `con`
+	  id:: 66600918-bbc8-4d92-8d46-dbda3eed92f0
 	  collapsed:: true
 		- form + partial content = intent + extent = full content (Ω)
 		- id, key := value
-		  collapsed:: true
 			- id : type { type = {id : `*`} }
 		- in-thread touches ex-thread
 		  collapsed:: true
@@ -133,10 +134,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  #+END_QUERY
 		- [Logseq/Advanced Queries Examples](https://siferiax.github.io/#/page/logseq%2Fadvanced%20queries)
 		- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
-	- Special properties built in Logseq:
-	  title:: Title
-	  alias:: A, B, C
-	  tags:: T, U, V
+	- Special properties built in Logseq
+	  collapsed:: true
+		- Example:
+		  title:: Title
+		  alias:: A, B, C
+		  tags:: T, U, V
 	- ((66533703-505d-432d-8368-6058eefb45f6))'s Alias: In addition to `A Alias: B, C`, add sub-items `- B alias of A  - C alias of A`, so that `B` and `C` can be referred directly.
 	  id:: 665c912e-2186-4268-a99d-023a5ef46005
 	  collapsed:: true
@@ -148,6 +151,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ((665caf87-7dd9-4e9e-9ebc-7df259e7d711)) ((665c950f-4496-432d-8d7a-83cad6b60571))
 	- logic chain & branches:
 	  id:: 665c950f-4496-432d-8d7a-83cad6b60571
+	  collapsed:: true
 		- ((665caf87-7dd9-4e9e-9ebc-7df259e7d711)) ((665cb063-d8b5-461e-9dcd-12bb85db1ee7))
 		- #If condition
 			- #then do right
@@ -172,3 +176,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Alternate path (`\i/e\j/f...`) is similar to Fourier series, but diff!
 			- Address = path with abstract intent, i.e. `\^n/e/f...`
 			- Id = path with abstract intent & abstract extent
+	- External context = external form
+		- Each work item has an `ex` space (environment, address space, context) as the world view in contrast to the `in` space (self, component space, content).
+		- Global context: ((66533703-505d-432d-8368-6058eefb45f6))
+		- Local context: link collection in each project
+		- Temporal context: pinned items (globally to ((66519638-cf5d-409b-9b98-15acabf2268c)) or locally to each project)
+		- This ex-form is in contrast to the in-form discussed at...
+			- here ((66600918-ed92-40c9-bda5-1911865d676c)) and
+			- here ((66600918-bbc8-4d92-8d46-dbda3eed92f0))

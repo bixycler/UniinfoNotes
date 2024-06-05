@@ -422,7 +422,7 @@
  :graph/settings {:journal? true
  :builtin-pages? false}
  :journal/page-title-format "EEE, yyyy/MM/dd"
- :editor/logical-outdenting? true
+ :editor/logical-outdenting? false
  :feature/enable-journals? false
  :feature/enable-flashcards? false
  :default-home {:page "Workspace"}}
