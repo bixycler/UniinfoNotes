@@ -26,13 +26,13 @@ body {
   background-color: var(--ls-secondary-background-color);
 }
 
-/* Left side bar */
+/* Left sidebar */
 .dark .left-sidebar-inner {
   --left-sidebar-bg-color: var(--ls-secondary-background-color,hsl(var(--secondary,var(--rx-gray-03-hsl))));
 }
 
 
-/* Right side bar */
+/* Right sidebar */
 
 .cp__right-sidebar-inner {
   background-color: var(--ls-secondary-background-color);
@@ -163,6 +163,18 @@ a { /* external link */
 a:hover {
     color: var(--ls-link-text-hover-color,hsl(var(--primary)));
 }
+
+
+/* Embed block */
+
+.embed-block {
+    background-color: transparent !important;
+}
+.embed-block .px-3 {
+    padding: 0;
+    margin-left: -14px;
+}
+
 
 
 /* Plugin manager & Marketplace */

@@ -56,6 +56,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  collapsed:: true
 		- form + partial content = intent + extent = full content (Ω)
 		- id, key := value
+		  collapsed:: true
 			- id : type { type = {id : `*`} }
 		- in-thread touches ex-thread
 		  collapsed:: true
@@ -177,6 +178,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Address = path with abstract intent, i.e. `\^n/e/f...`
 			- Id = path with abstract intent & abstract extent
 	- External context = external form
+	  collapsed:: true
 		- Each work item has an `ex` space (environment, address space, context) as the world view in contrast to the `in` space (self, component space, content).
 		- Global context: ((66533703-505d-432d-8368-6058eefb45f6))
 		- Local context: link collection in each project
@@ -184,3 +186,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- This ex-form is in contrast to the in-form discussed at...
 			- here ((66600918-ed92-40c9-bda5-1911865d676c)) and
 			- here ((66600918-bbc8-4d92-8d46-dbda3eed92f0))
+	- [Name-form](https://en.wikipedia.org/wiki/Namarupa) = [key-value](https://en.wikipedia.org/wiki/Name–value_pair) = [form-content](https://encyclopedia2.thefreedictionary.com/Content+and+Form) ([Hylomorphism](https://en.wikipedia.org/wiki/Hylomorphism)) = [abstract-concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)
+	  collapsed:: true
+		- The part of content that "i don't care" is abstracted: [from the lengthy context to address, to name and to id](((66600918-ed92-40c9-bda5-1911865d676c))).
+		- Now, in the view of the subject, that part is just a name, a symbol, a ref, a form, which can further be renamed, transformed into different forms to fit subjective views. E.g. the local name, local variable is the transformed name of the address.
+		- In the subjective view, a concise name can be expanded into the content of the named object via many forms of embedding: (parenthesis), clauses like `which`, `where`, etc.
+		- The name is the link between the named object and the name using subject.
+			- In object's side, the name is its abstraction.
+			- In subject's side, the name is a part of the subject's content.
+			- Hence, the name is an interface of the object for the subject to use.
+			- Thanks to its conciseness, the name can be used by many subjects. This use is the [mixing](https://en.wikipedia.org/wiki/Mixing_(physics)) of content between objects.
+		- Naming = ε-abstraction is the `ob` part of the obop, while repeating = ω-extension (including, embedding) is the `op` part of the obop.
+	- Internal form (substance) = external form (appearance)
+	  collapsed:: true
+		- external to a content form = internal to its container
+	- 2 characteristics of the form are equivalent.
+	  collapsed:: true
+		- The wholeness (the roundness) -> there's a center point in each circle, even invisible, common (shared) to all parts (arrows) of that circle -> the common
+		- The common -> all parts are linked together via that common (center) -> the wholeness

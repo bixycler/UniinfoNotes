@@ -292,6 +292,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((665367a6-29d7-4fd2-a33b-6d94de8172e8))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536710-7441-4fb8-986b-50d2eec762d7)) is an ((665c9af1-1ce2-461c-af33-671690618c8f)) ((665367a6-29d7-4fd2-a33b-6d94de8172e8)), usually used by [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), ((66535660-643e-471a-a332-8f2306c5494f)), etc.
 		- [[Table of Hotkey Assigned Commands in this Vault]]
+		  id:: 66600918-9d88-4640-844b-35b9ed433b4a
 	- ## wiki
 	  id:: 66536a32-fddd-465f-a47f-fa8e0ea9c8db
 	  collapsed:: true
@@ -353,18 +354,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- However, Martin Weitzel had some mistake when thinking that ~~Obsidian is "open-source"~~, nope it's *proprietary* from the beginning.
 	- ## Logseq
 	  id:: 66536e1b-6466-4153-90d6-583003d99a81
-	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://logseq.com/
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) (dev from 2021, still beta now) An ((66536d32-30ad-4c07-8585-76ae9eb7fb22)) like [Roam](https://roamresearch.com), but open-source: outlining based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-		  collapsed:: true
+		  id:: 66600918-66b3-4d4b-9ef3-6b3d6986ebdd
 			- A new branch [based on database](https://github.com/logseq/logseq/pull/9858), and will be bi-dir-synced with Markdown, is being developed from Jul 2023.
 			- It runs slower and heavier than Obsidian.
-			- The side bar is used as a stack of docs for column-styled editing.
-			  collapsed:: true
-				- However, some functions does not work (well) in the side bar:
-					- Editing system files, like `custom.css`, only work in the main edit pane.
-					- Modifications in the side bar do not reflect well into the docs, so side bar is better for viewing than editing.
+			- {{embed ((7ce45435-dfac-4391-a570-ebd0d434d8d6))}}
 			- [!] Logseq uses `logseq.order-list-type:: number` to show ordered list.
 			  id:: 665eef80-baed-4eff-b89d-d1d62d4f0b0e
 			  collapsed:: true
@@ -450,20 +446,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  }
 					  ```
 			- [!] The current workflow is hard-coded as `TODO <-> DOING -> DONE`, which does not distinguish between the first `TODO` with the next `TODO`, i.e. "PAUSED".
+			  id:: 66600918-740c-4b67-be6e-5b3bd7535fb7
 			  collapsed:: true
 				- I prefer this workflow: `TODO -> DOING <-> WAIT -> DONE` (`WAIT` = "PAUSED").
 				- [!] The task status cycle with `marker-switch` `TODO <-> DOING` is hard-coded in [block.cljs](https://github.com/logseq/logseq/blob/d8c6ca264bdf9a6a0f03c46dbf3509210367624a/src/main/frontend/components/block.cljs#L1861).
 				- Other status (`WAIT`, `WAITING`, `IN-PROGRESS`) are hard-coded as just [`task-status` (`marker-cp`)](https://github.com/logseq/logseq/blob/d8c6ca264bdf9a6a0f03c46dbf3509210367624a/src/main/frontend/components/block.cljs#L1879).
 				- Workflow configuration has been [suggested](https://discuss.logseq.com/t/now-next-later-tasks-workflow/3703/6) without response.
-				- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) plugin lets us define custom flow of task status, e.g. `TODO -> WAIT -> DOING -> DONE`, but cannot touch the `marker-switch` `TODO <-> DOING`.
-				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) workaround: use `logseq-custom-workflows` in combination with the built-in `marker-switch`.
+				- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) plugin lets us define custom flow of task status, e.g. `DOING -> TODO ->  WAIT`, but cannot touch the `marker-switch` `TODO <-> DOING`.
+				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) workaround: use `logseq-custom-workflows` in combination with the built-in `marker-switch` (`Ctrl Enter`).
+				  id:: 66602f1d-a572-4fe8-997f-0fae15c6a3de
 				  collapsed:: true
-					- Workflow: `(TODO -> WAIT) <-> DOING -> DONE`
-					- Hotkeys:
+					- Workflow 1: `(TODO -> WAIT) <-> DOING -> DONE` with `Ctrl Enter` for forward phase and  `Ctrl Shift Enter` for backward phase.
 					  collapsed:: true
-						- `Ctrl Enter` for plaintext -> `TODO` (planned) -> `DOING` (started)
-						- `marker-switch` button click for `DOING` -> `TODO`, then `Ctrl Shift Enter` for `TODO` -> `WAIT` (paused) -> `DOING` (restarted)
-						- checkbox click for (`TODO` <-)-> `DONE`
+						- Forward: `Ctrl Enter` for plaintext -> `TODO` (planned) -> `DOING` (started, start-time logged)
+							- Just start without planning: `Alt Enter` for plaintext -> `DOING` (started, start-time logged)
+						- Backward: `Ctrl Shift Enter` for `DOING` -> `TODO` -> `WAIT` (paused, end-time logged)
+						- Re-forward: `Ctrl Enter` for `WAIT` -> `TODO` -> `DOING` (restarted, restart-time logged)
+						- Re-backward, ...
+						- Finally click checkbox for -> `DONE` (stopped, end-time logged)
+					- Workflow 2: `plaintext <-> DOING` with `Alt Enter` for time tracking of plaintext.
+					  collapsed:: true
+						- Each time switching to `DOING` and back to plaintext, a single timestamp (without end-time) is logged into `:LOGBOOK:`.
+					-
 			- [!] Cannot link file/dir to avoid dupes!
 			  id:: 665fe765-2bb7-4392-9140-10e187f0f208
 			  collapsed:: true
@@ -484,6 +488,42 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- This is a problem to my projects, because my approach is pure block-based.
 				- Tags are great for keywords: its concise and human-readable, compared to the long and oblique UUID of block.
 				- I've collected all keywords into the ((66533703-505d-432d-8368-6058eefb45f6)).
+			- ((66625c65-5d2e-4f4b-9d87-4eadefca681a))
+				- [discussed on Loseq Community](https://discuss.logseq.com/t/breadcrumb-navigation-bar-should-contain-the-target-item/27511)
+		- Features & Usage:
+			- Block id
+			  collapsed:: true
+				- Block id is a lengthy UUID, which is generated when corresponding block is linked or zoomed in (opened).
+				- Block id is stored as `id::` property in markdown.
+			- Block title
+			  collapsed:: true
+				- The first line in a block is considered title of that block.
+				- Automatic brief title (suggested)
+				  id:: 66626356-0ad9-4219-9b33-8ab7c6cd0508
+				  When the first line is too long, a brief title with ellipsis `...` should be automatically generated.
+			- Sidebar
+			  collapsed:: true
+				- Right sidebar is used as a stack of docs, started from [[Contents]], for column-styled editing in parallel with the main edit pane.
+					- This stack is a more-active form of the ((6653538a-22d3-4807-ad13-a64ac543edba)).
+				- ((66536710-7441-4fb8-986b-50d2eec762d7)): `Shift click` to open links or items in new top pane in sidebar, instead of in the main edit pane. `Ctrl Shift o` in editing mode to open link in sidebar.
+				- However, some functions does not work (well) in right sidebar:
+				  id:: 7ce45435-dfac-4391-a570-ebd0d434d8d6
+				  collapsed:: true
+					- Editing system files, like `custom.css`, only work in the main edit pane.
+					- Modifications in the sidebar do not reflect well into the docs, so sidebar is better for viewing than editing.
+			- Breadcrumbs
+				- [!] Breadcrumb bar does not contain the target/focused item! 
+				  id:: 66625c65-5d2e-4f4b-9d87-4eadefca681a
+				  This make much confusion, esp. in the header of each pane in the sidebar, and esp. when collapsed into header only.
+					- Breadcrumb bar should contain the target item as the last non-link element.
+				- Breadcrumb bar should contain ((66626356-0ad9-4219-9b33-8ab7c6cd0508)) instead of full length items.
+				- Sticky breadcrumbs [via CSS](https://discuss.logseq.com/t/have-the-page-title-or-block-breadcrumbs-as-an-always-visible-overlay-at-the-top-of-the-screen-when-scrolling-down/20617/5).
+			- Task management
+			  collapsed:: true
+				- ((66600918-740c-4b67-be6e-5b3bd7535fb7))
+				- A task with status `DOING` will be time tracked in `:LOGBOOK:`.
+					- Switching to `DOING` (clicking `marker-switch` button) marks the start time, then switching to `TODO` (clicking `marker-switch` button) or `DONE` (clicking checkbox) marks the end time.
+					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext.
 		- Settings:
 		  collapsed:: true
 			- ` :editor/logical-outdenting` is logical, but confused & messy:
@@ -495,11 +535,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- [Tabs (`logseq-tabs`)](https://github.com/pengx17/logseq-plugin-tabs) provides tabs for browsing and concurrent editing with the very useful feature **pinned tabs**.
 				- We can pin "root nodes" like ((66519638-cf5d-409b-9b98-15acabf2268c)) so that all other nodes will be opened in new tabs instead of overriding the content in that tab.
-			- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) lets us define custom flow of task status, e.g. TODO -> WAIT -> DOING -> DONE, and show `:LOGBOOK:` in edit mode when using its custom hotkey (`Ctrl Shift Enter`).
+			- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) lets us define custom flow of task status, e.g. `TODO -> WAIT -> DOING -> DONE`, and show `:LOGBOOK:` in edit mode when using its custom hotkey (`Ctrl Shift Enter`).
+				- Settings: The workflow change take effect immediately, but the hotkey change requires Logseq restart.
+				- 2 workflows defined: {{embed ((66602f1d-a572-4fe8-997f-0fae15c6a3de))}}
+				  id:: 6661341b-bd00-4444-a44d-99b489f6c8cb
 			- [Time Recorder (`logseq-time-recorder`)](https://github.com/5hir0kur0/logseq-time-recorder) adds time tracker similar to the built-in `:LOGBOOK:`, but not yet integrated with `:LOGBOOK:`.
 			- [File explorer from within Logseq](https://discuss.logseq.com/t/file-explorer-from-within-logseq/21703/1) with [File picker for linking local files](https://discuss.logseq.com/t/file-picker-for-linking-local-files/21704)
 			  id:: 66600918-fe64-4ef5-965e-c085d29bb88b
 		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
+		  collapsed:: true
 			- Check rendered result at [[Theme Demo]].
 			- DONE Compose `Logseq/custom.css` from Logseq's built-in `style.css` & Ozean Theme's `main.css`.
 			  id:: 665d78a5-6470-4e60-8fd1-d958fd62756e
@@ -556,24 +600,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  	...
 					  }
 					  ```
-					- Right side bar:
+					- Right sidebar:
 					  ```css
 					  .cp__right-sidebar-inner {
 					      background-color: var(--lx-gray-02,var(--ls-secondary-background-color));
 					      padding-top: 0
 					  }
 					  
-					  // sidebar-item color-level 
+					  /* sidebar-item color-level */
 					  html[data-theme=dark] .cp__right-sidebar .sidebar-item {
 					      background-color: var(--lx-gray-03,var(--ls-secondary-background-color))
 					  }
 					  
-					  // sidebar-item-header color-level
+					  /* sidebar-item-header color-level */
 					  .color-level .color-level {
 					      background-color: var(--color-level-2);
 					  }
 					  ```
-					- Left side bar:
+					- Left sidebar:
 					  ```css
 					  .left-sidebar-inner {
 					      background-color: var(--left-sidebar-bg-color);
@@ -586,34 +630,35 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  
 					  ```
 					- Links
-					  ```css
-					  .block-ref {
-					      border-bottom: .5px solid;
-					      border-bottom-color: var(--ls-block-ref-link-text-color);
-					      cursor: alias;
-					      display: inherit;
-					      padding: 2px 0
-					  }
-					  .block-ref:hover {
-					      color: var(--ls-link-text-hover-color)
-					  }
-					  
-					  .page-ref {
-					      color: var(--lx-accent-11,var(--ls-link-text-color,hsl(var(--primary)/.8)))
-					  }
-					  .page-ref:hover {
-					      color: var(--lx-accent-11,var(--ls-link-text-color,hsl(var(--primary))))
-					  }
-					  
-					  a {
-					      color: var(--lx-accent-11,var(--ls-link-text-color,hsl(var(--primary)/.8)));
-					      cursor: pointer;
-					      text-decoration: none
-					  }
-					  a:hover {
-					      color: var(--lx-accent-12,var(--ls-link-text-hover-color,hsl(var(--primary))))
-					  }
-					  ```
+					  collapsed:: true
+						- ```css
+						  .block-ref {
+						      border-bottom: .5px solid;
+						      border-bottom-color: var(--ls-block-ref-link-text-color);
+						      cursor: alias;
+						      display: inherit;
+						      padding: 2px 0
+						  }
+						  .block-ref:hover {
+						      color: var(--ls-link-text-hover-color)
+						  }
+						  
+						  .page-ref {
+						      color: var(--lx-accent-11,var(--ls-link-text-color,hsl(var(--primary)/.8)))
+						  }
+						  .page-ref:hover {
+						      color: var(--lx-accent-11,var(--ls-link-text-color,hsl(var(--primary))))
+						  }
+						  
+						  a {
+						      color: var(--lx-accent-11,var(--ls-link-text-color,hsl(var(--primary)/.8)));
+						      cursor: pointer;
+						      text-decoration: none
+						  }
+						  a:hover {
+						      color: var(--lx-accent-12,var(--ls-link-text-hover-color,hsl(var(--primary))))
+						  }
+						  ```
 					- Code mirror (code block):
 					  collapsed:: true
 						- ```css
@@ -645,6 +690,29 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  
 						  .cm-s-lsradix.cm-s-light .CodeMirror-linenumber {
 						      color: var(--lx-gray-09,#839496)
+						  }
+						  
+						  ```
+					- Embed block `.color-level.embed-block`
+					  id:: 666136d7-d118-464d-826c-9f842b267a3a
+						- ```css
+						  /* on main edit pane */
+						  .dark .color-level {
+						      background-color: var(--lx-gray-01,var(--color-level-1,var(--rx-gray-01)));
+						  }
+						  .color-level {
+						      background-color: var(--lx-gray-02,var(--color-level-1,var(--rx-gray-02)));
+						  }
+						  
+						  /* on sidebar */
+						  .color-level .color-level {
+						      background-color: var(--color-level-2)
+						  }
+						  
+						  /* padding for .embed-block .px-3 */
+						  .px-3 {
+						      padding-left: .75rem;
+						      padding-right: .75rem
 						  }
 						  
 						  ```
@@ -835,6 +903,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 				- `custom.css` (`CreatZy-Theme`)
 				  id:: 665d98d9-a719-4c4c-b44c-841f6c46c968
+				  collapsed:: true
 					- ```css
 					  @import url("https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css");
 					  
@@ -864,13 +933,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					    background-color: var(--ls-secondary-background-color);
 					  }
 					  
-					  /* Left side bar */
+					  /* Left sidebar */
 					  .dark .left-sidebar-inner {
 					    --left-sidebar-bg-color: var(--ls-secondary-background-color,hsl(var(--secondary,var(--rx-gray-03-hsl))));
 					  }
 					  
 					  
-					  /* Right side bar */
+					  /* Right sidebar */
 					  
 					  .cp__right-sidebar-inner {
 					    background-color: var(--ls-secondary-background-color);
@@ -1001,6 +1070,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  a:hover {
 					      color: var(--ls-link-text-hover-color,hsl(var(--primary)));
 					  }
+					  
+					  
+					  /* Embed block */
+					  
+					  .embed-block {
+					      background-color: transparent !important;
+					  }
+					  .embed-block .px-3 {
+					      padding: 0;
+					      margin-left: -14px;
+					  }
+					  
 					  
 					  
 					  /* Plugin manager & Marketplace */

@@ -1,9 +1,9 @@
 # Namespace
 id:: 66533703-505d-432d-8368-6058eefb45f6
 	- Attribute:
+	  id:: 66600918-a37f-46cb-810e-837aa5e89771
 		- Name:
 		  id:: 665ca48e-f7c1-4541-b5cf-486d86b02997
-		  collapsed:: true
 			- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((665cab38-f8e8-472e-b0a1-60776d492835))
 			- name of
 			  id:: 665ca495-93b4-47d4-a022-ce511b021a3d
@@ -18,21 +18,26 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 		- Discussion:
 		  id:: 665359ff-79f1-4669-b10b-f2b0e633a7c1
 	- Property:
+	  id:: 66600918-67d0-429b-af78-f804ea65d9cc
 		- Form:
 		  id:: 665ca47c-476a-4bef-b982-d9a31a669fb1
-		  collapsed:: true
 			- ((665ca495-93b4-47d4-a022-ce511b021a3d)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 			- form of
 			  id:: 665ca480-5ac8-4728-a331-2f68b48759d1
 		- Plaintext:
+		  id:: 66600918-729f-4c23-97fe-577353cb8b53
 		- Subprop:
 		  id:: 6651ea73-78b4-4c1a-b052-b2ea9555b6f6
 	- Relation:
+	  id:: 66600918-367c-413c-863d-2cf11a89c437
 		- from
+		  id:: 66600918-9f27-44c2-8188-f043c244710c
 			- ⇐
+			  id:: 66602f61-b849-41a9-bdb8-ec91b96adaec
 			- because
-              id:: 666022fc-5a51-4e87-ba7c-6f67a0cf19de
+			  id:: 666022fc-5a51-4e87-ba7c-6f67a0cf19de
 				- because of
+				  id:: 66600918-3d55-4bad-bd42-4e94708efc5e
 		- to
 		  id:: 665caf87-7dd9-4e9e-9ebc-7df259e7d711
 			- ⇒
@@ -40,8 +45,11 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 			- So,
 			  id:: 665dc545-151a-485a-84b7-1310fef5151c
 			- Thus,
+			  id:: 66600918-5cb0-4833-9e52-acf2b17441c0
 			- Hence,
+			  id:: 66600918-063a-4e31-bddc-cb138113a66b
 			- Therefore,
+			  id:: 66600918-9cef-4a33-bdeb-3b64d71c7034
 	- Composite:
 	  id:: 6652048c-27b3-47b6-84e5-25af8d9ce801
 	  collapsed:: true
@@ -51,6 +59,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  collapsed:: true
 		- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bb2-7680-461b-80b2-71fc96c89fb9))
 	- Website:
+	  id:: 66600918-bde2-49ca-8f91-740fb282ea13
 		- Official website:
 		  id:: 665359c3-61fd-4858-a117-ecbcd6fbc9ea
 	- Wiki:

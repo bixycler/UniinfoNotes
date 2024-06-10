@@ -28,8 +28,10 @@ key: value
   ```
   2. two
 - second
+  id:: 666124a1-9253-46c8-aa5a-f7a6e0642648
   + plus
 	- minus
+	  id:: 666124a1-a914-4f1f-9cce-ac447fb37d41
 	  * asterisk 
 	  
 	  > Blockquotes
@@ -51,6 +53,8 @@ key: value
 	  logseq.order-list-type:: number
 	- and so on...
 	  logseq.order-list-type:: number
+- Embedded block with Logseq's `{{embed}}`: {{embed ((666124a1-a914-4f1f-9cce-ac447fb37d41))}}
+	- The embedded block above is "transparent", i.e. can be edited right at the embedding place.
 -
 - ### Tasks:
 -
@@ -67,14 +71,23 @@ key: value
 	- DOING A task being done NOW (time tracked)
 	  :LOGBOOK:
 	  CLOCK: [2024-06-03 Mon 20:20:10]
-	  CLOCK: [2024-06-03 Mon 20:20:12]
 	  :END:
 	- NOW A task being done NOW (time tracked)
 	  :LOGBOOK:
-	  CLOCK: [2024-06-03 Mon 20:20:10]
 	  CLOCK: [2024-06-03 Mon 20:20:12]
 	  :END:
-	-
+	- IN-PROGRESS Custom workflows with `logseq-custom-workflows` plugin:
+	  id:: 66600918-053e-43ec-a06b-e256086e8368
+		- WAIT Workflow 1: `(TODO -> WAIT) <-> DOING -> DONE` with `Ctrl Enter` for forward phase and  `Ctrl Shift Enter` for backward phase.
+		  :LOGBOOK:
+		  CLOCK: [2024-06-06 Thu 10:21:27]--[2024-06-06 Thu 10:21:31] =>  00:00:04
+		  CLOCK: [2024-06-06 Thu 10:21:35]--[2024-06-06 Thu 10:21:36] =>  00:00:01
+		  :END:
+		- Workflow 2: `plaintext <-> DOING` with `Ctrl Alt Enter` for time tracking of plaintext.
+		  :LOGBOOK:
+		  CLOCK: [2024-06-06 Thu 10:22:43]
+		  CLOCK: [2024-06-06 Thu 10:22:46]
+		  :END:
 - [-] canceled
 	- CANCELLED A task that has been cancelled
 - [?] question
