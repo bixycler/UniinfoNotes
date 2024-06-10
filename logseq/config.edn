@@ -425,4 +425,5 @@
  :editor/logical-outdenting? false
  :feature/enable-journals? false
  :feature/enable-flashcards? false
- :default-home {:page "Workspace"}}
+ :default-home {:page "Workspace"}
+ :publishing/all-pages-public? true}
