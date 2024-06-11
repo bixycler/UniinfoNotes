@@ -124,7 +124,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ### Workspace
 		  id:: 665d1a03-4c61-4d81-ac58-a5a1a7efe568
-			- Each person has a Workspace to work with, which includes a Workstack for active tasks at hand, a Task list for future tasks, a History for past (done, cancelled) tasks, and other lists like Problem list, Question list, etc. These lists, except History, are in general sorted in reverse chronological order. The Task list is additionally sorted in priority, if any, and the History is in chronological order.
+			- Each person has a Workspace to work with, which includes a ((6653538a-22d3-4807-ad13-a64ac543edba)) for active tasks at hand, a Task list for future tasks, a [History](((6667add9-3076-4a19-8b15-d1888665a3c0))) for past (done, cancelled) tasks, and other lists like Problem list, Question list, etc. These lists, except History, are in general sorted in reverse chronological order. The Task list is additionally sorted in priority, if any, and the History is in chronological order.
 		- ### Workstack
 		  id:: 6653538a-22d3-4807-ad13-a64ac543edba
 			- Just like the [call stack](https://en.wikipedia.org/wiki/Call_stack) of [computer program](https://en.wikipedia.org/wiki/Computer_program), Workstack is a non-strict last-in-first-out (LIFO) list of tasks being worked on by the subject.
@@ -142,6 +142,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665c82c0-ee06-4f43-95b8-73dbbe956080
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c82c0-ee06-4f43-95b8-73dbbe956080)) is an image of the mind which reflects concepts (like [concept map](https://en.wikipedia.org/wiki/Concept_map)), relation and reasoning between these concepts (like [argument map](https://en.wikipedia.org/wiki/Argument_map)), tree views from important concepts (like [mind map](https://en.wikipedia.org/wiki/Mind_map)). Overall, it's a kind of [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph).
+	- ## History
+	  id:: 6667ac3c-8fff-43aa-92ac-fca2002e58f4
+	  collapsed:: true
+		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/History
+		- Records of history
+		  id:: 6667add9-3076-4a19-8b15-d1888665a3c0
+			- Personal [diary](https://en.wikipedia.org/wiki/Diary), traveler's [journal](https://en.wikipedia.org/wiki/Travel_literature#Travel_journals), vehicle and machine's [logbook](https://en.wikipedia.org/wiki/Logbook), [historical record](https://en.wikipedia.org/wiki/Historiography) written by historian.
+	- ## brain dump
+	  id:: 6667bf32-ab6a-4d64-842d-45d49137e694
+	  collapsed:: true
+		- Ref:
+			- [How to Brain Dump: A Guide for Clearer Thinking and Organized Planning](https://janesagenda.com/blogs/planning-201/brain-dump)
 	- ## About Legend app
 	  collapsed:: true
 		- Internal links
@@ -157,7 +170,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665c92d1-565b-4911-a706-b32af429c3aa
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Brainstorming
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c92d1-565b-4911-a706-b32af429c3aa)) is a thinking technique to dump all thoughts out quickly without careful organizing.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c92d1-565b-4911-a706-b32af429c3aa)) is a thinking technique to dump all thoughts out quickly without careful organizing. Compared to ((6667bf32-ab6a-4d64-842d-45d49137e694)), ((665c92d1-565b-4911-a706-b32af429c3aa)) is more freely and toward new ideas instead of organizing old stuffs.
 	- ## Will LE
 	  id:: 66536578-c4d3-43f1-b35c-bf71120f0570
 	  collapsed:: true
@@ -354,13 +367,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- However, Martin Weitzel had some mistake when thinking that ~~Obsidian is "open-source"~~, nope it's *proprietary* from the beginning.
 	- ## Logseq
 	  id:: 66536e1b-6466-4153-90d6-583003d99a81
+	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://logseq.com/
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) (dev from 2021, still beta now) An ((66536d32-30ad-4c07-8585-76ae9eb7fb22)) like [Roam](https://roamresearch.com), but open-source: outlining based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536e1b-6466-4153-90d6-583003d99a81)) is an ((66536d32-30ad-4c07-8585-76ae9eb7fb22)) like [Roam](https://roamresearch.com), but [open-source](https://github.com/logseq/logseq): outlining based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
+			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+			  collapsed:: true
+				- Logseq was originally developed as a side project by [Tienson Qin](https://twitter.com/tiensonqin) [from Feb 2020](https://fission.codes/blog/overview-of-logseq-by-tienson-qin/), to bring [Org Mode](https://orgmode.org/) task features to ((66535e71-3b71-416c-98dc-5dde5e6a76ff)).
+				- It has been [open sourced to GitHub](https://github.com/logseq/logseq) with first alpha version from Jan 2021, first beta version ([0.1.2](https://github.com/logseq/logseq/releases/tag/0.1.2)) in May 2021 until... today (May 2024) still beta ([0.10.9](https://github.com/logseq/logseq/releases/tag/0.10.9))!
+				- A new branch [based on database](https://github.com/logseq/logseq/pull/9858), and will be bi-dir-synced with ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) , is being developed from Jul 2023.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  id:: 66600918-66b3-4d4b-9ef3-6b3d6986ebdd
-			- A new branch [based on database](https://github.com/logseq/logseq/pull/9858), and will be bi-dir-synced with Markdown, is being developed from Jul 2023.
-			- It runs slower and heavier than Obsidian.
-			- {{embed ((7ce45435-dfac-4391-a570-ebd0d434d8d6))}}
+		  collapsed:: true
+			- It runs somehow slower and heavier than ((66535660-643e-471a-a332-8f2306c5494f)).
+			- The right sidebar together with the main edit pane is a convenient way to do side-by-side 2-column working.
+			  {{embed ((7ce45435-dfac-4391-a570-ebd0d434d8d6))}}
 			- [!] Logseq uses `logseq.order-list-type:: number` to show ordered list.
 			  id:: 665eef80-baed-4eff-b89d-d1d62d4f0b0e
 			  collapsed:: true
@@ -489,8 +509,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Tags are great for keywords: its concise and human-readable, compared to the long and oblique UUID of block.
 				- I've collected all keywords into the ((66533703-505d-432d-8368-6058eefb45f6)).
 			- ((66625c65-5d2e-4f4b-9d87-4eadefca681a))
+			  collapsed:: true
 				- [discussed on Loseq Community](https://discuss.logseq.com/t/breadcrumb-navigation-bar-should-contain-the-target-item/27511)
 		- Features & Usage:
+		  collapsed:: true
 			- Block id
 			  collapsed:: true
 				- Block id is a lengthy UUID, which is generated when corresponding block is linked or zoomed in (opened).
@@ -512,6 +534,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Editing system files, like `custom.css`, only work in the main edit pane.
 					- Modifications in the sidebar do not reflect well into the docs, so sidebar is better for viewing than editing.
 			- Breadcrumbs
+			  collapsed:: true
 				- [!] Breadcrumb bar does not contain the target/focused item! 
 				  id:: 66625c65-5d2e-4f4b-9d87-4eadefca681a
 				  This make much confusion, esp. in the header of each pane in the sidebar, and esp. when collapsed into header only.
@@ -534,8 +557,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  collapsed:: true
 			- [Tabs (`logseq-tabs`)](https://github.com/pengx17/logseq-plugin-tabs) provides tabs for browsing and concurrent editing with the very useful feature **pinned tabs**.
+			  collapsed:: true
 				- We can pin "root nodes" like ((66519638-cf5d-409b-9b98-15acabf2268c)) so that all other nodes will be opened in new tabs instead of overriding the content in that tab.
 			- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) lets us define custom flow of task status, e.g. `TODO -> WAIT -> DOING -> DONE`, and show `:LOGBOOK:` in edit mode when using its custom hotkey (`Ctrl Shift Enter`).
+			  collapsed:: true
 				- Settings: The workflow change take effect immediately, but the hotkey change requires Logseq restart.
 				- 2 workflows defined: {{embed ((66602f1d-a572-4fe8-997f-0fae15c6a3de))}}
 				  id:: 6661341b-bd00-4444-a44d-99b489f6c8cb

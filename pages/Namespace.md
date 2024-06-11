@@ -4,6 +4,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 66600918-a37f-46cb-810e-837aa5e89771
 		- Name:
 		  id:: 665ca48e-f7c1-4541-b5cf-486d86b02997
+		  collapsed:: true
 			- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((665cab38-f8e8-472e-b0a1-60776d492835))
 			- name of
 			  id:: 665ca495-93b4-47d4-a022-ce511b021a3d
@@ -70,3 +71,6 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 66535a44-8a13-4d5a-808e-10baa97ebaf0
 	- Theme:
 	  id:: 665dcac9-5698-496c-9a14-c5c0425d0998
+	- History:
+	  id:: 6667abd2-14eb-4145-b9e3-e6f3037b3117
+		- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((6667ac3c-8fff-43aa-92ac-fca2002e58f4))
