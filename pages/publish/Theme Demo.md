@@ -1,5 +1,5 @@
 ---
-key: value
+public: true
 ---
 
 - # H111
@@ -53,6 +53,13 @@ key: value
 	  logseq.order-list-type:: number
 	- and so on...
 	  logseq.order-list-type:: number
+- Block reference
+  id:: 66680d04-bd5e-4c0b-bce2-b8657cecf232
+	- 1st level reference: ((66680d04-bd5e-4c0b-bce2-b8657cecf232))
+	  id:: 66680d48-8b45-4f18-8826-884de65dc7cb
+		- 2nd level refence: ((66680d48-8b45-4f18-8826-884de65dc7cb))
+		  id:: 66680d60-55ec-4929-8bef-3c3e6ca85538
+			- 3rd level reference: ((66680d60-55ec-4929-8bef-3c3e6ca85538))
 - Embedded block with Logseq's `{{embed}}`: {{embed ((666124a1-a914-4f1f-9cce-ac447fb37d41))}}
 	- The embedded block above is "transparent", i.e. can be edited right at the embedding place.
 -

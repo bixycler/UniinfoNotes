@@ -35,6 +35,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- obj `Will` -> {in-world `Will/**`, ex-world `Will\*/*`} = {M, W} = {inner view cone, outer view cone}
 		- Will's in-world contains properties of `Will`, like `Will/name`, `Will/age`, `Will/mind`, `Will/mind/conceptual`, `Will/mind/conceptual/{dog,mouse}`, etc.
 		- Will's ex-world contains `Will` and other peers of `Will`, like `Na`, `Nyatty`, `Earth`, `Milky Way`, etc.
+		  id:: 66600918-71e0-4cad-b37d-6ceacd7df5eb
 		  collapsed:: true
 			- In the top-down view, Will's ex-world can be partitioned by region, e.g. `Vietnam/house of Will/Na` vs `Japan/house of Harusada/Na`. But we use the ***relative*** (bottom-up) view from Will: `Will\1/Na` is just the dog Na closest to Will, i.e. `Will\1/Na` = `Will\2/house of Will/Na` = `Vietnam/house of Will/Na`.
 			- The backslash is used in [MS-DOS/Windows' path](https://en.wikipedia.org/wiki/Path_(computing)#MS-DOS/Microsoft_Windows_style), in [PHP namespace](https://www.php.net/manual/en/language.namespaces.php), and as [Decimal Exponent Symbol](https://en.wikipedia.org/wiki/Scientific_notation "Scientific notation") in [ALGOL 68](https://en.wikipedia.org/wiki/ALGOL_68 "ALGOL 68"). Our use of `\u` as "u-level container" is nearest to the use in ALGOL 68.
@@ -186,9 +187,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- This ex-form is in contrast to the in-form discussed at...
 			- here ((66600918-ed92-40c9-bda5-1911865d676c)) and
 			- here ((66600918-bbc8-4d92-8d46-dbda3eed92f0))
-	- [Name-form](https://en.wikipedia.org/wiki/Namarupa) = [key-value](https://en.wikipedia.org/wiki/Name–value_pair) = [form-content](https://encyclopedia2.thefreedictionary.com/Content+and+Form) ([Hylomorphism](https://en.wikipedia.org/wiki/Hylomorphism)) = [abstract-concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete)
+	- [Name-form](https://en.wikipedia.org/wiki/Namarupa) = [key-value](https://en.wikipedia.org/wiki/Name–value_pair) = [form-content](https://encyclopedia2.thefreedictionary.com/Content+and+Form) ([Hylomorphism](https://en.wikipedia.org/wiki/Hylomorphism)) = [abstract-concrete](https://en.wikipedia.org/wiki/Abstract_and_concrete) = `[head](body)`
+	  id:: 66669d80-3648-415c-b426-e8105cf6ef80
 	  collapsed:: true
-		- The part of content that "i don't care" is abstracted: [from the lengthy context to address, to name and to id](((66600918-ed92-40c9-bda5-1911865d676c))).
+		- The part of content that "i don't care" (body) is abstracted, the remaining brief is called "head", "name", "key", etc. That head is further shortened [from the lengthy context to address, to name and to id](((66600918-ed92-40c9-bda5-1911865d676c))).
 		- Now, in the view of the subject, that part is just a name, a symbol, a ref, a form, which can further be renamed, transformed into different forms to fit subjective views. E.g. the local name, local variable is the transformed name of the address.
 		- In the subjective view, a concise name can be expanded into the content of the named object via many forms of embedding: (parenthesis), clauses like `which`, `where`, etc.
 		- The name is the link between the named object and the name using subject.
@@ -204,3 +206,33 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  collapsed:: true
 		- The wholeness (the roundness) -> there's a center point in each circle, even invisible, common (shared) to all parts (arrows) of that circle -> the common
 		- The common -> all parts are linked together via that common (center) -> the wholeness
+	- Balance as the destination of all forces: equilibrium, optimum, flatness, roundness, ...
+	  id:: 6667c99a-792f-4230-9fc6-c5fae874daef
+	  :LOGBOOK:
+	  CLOCK: [2024-06-11 Tue 10:50:54]
+	  :END:
+	- Thread views: fractal circular blobs, tree, mountain range
+	  id:: 6662725e-0e8e-42ec-927f-0e53b996e20c
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-06-11 Tue 10:48:10]
+	  :END:
+		- Transformation: simple circle of raw thread >-[add sub-circles]--> fractal circular blobs >-[extract head as "stalk", "stem", "branch"]--> tree >-[abstract the branches, leave only leaves (the canopy)]--> mountain range >-[stretch out]-> line (segment) >-[fold back]-> simple circle
+		  collapsed:: true
+			- With [the abstraction of body and extraction of head](((66669d80-3648-415c-b426-e8105cf6ef80))), a circle can refer to its sub-circles using heads of sub-circles.
+			- In the collapsed/folded view, the content of a circle is just  
+			  `[context] before a [head] and after it`
+				- In the expanded/unfolded view, that content becomes  
+				  `[context] before a [head](body of the sub-circle) and after it`
+				- Words in the context can be either other sub-circles' heads, i.e. keywords, or global non-key words (prepositions) whose content is not closed in a concrete circle but open to the collection of all contexts using them.
+				- These prepositions can have descriptions, or even definitions, but their true definition is the whole extension of contexts using them. That means a preposition can only be "understood" but cannot be transcluded (embedded, expanded, unfolded).
+					- These prepositions are "atoms" of the system, when the whole system is expanded/unfolded, the "raw thread" is nothing but a chain of prepositions, as component arrows.
+		- In a tree system, the path from root to a blob, i.e. the chain of heads of circular blobs, is the path/address of that blob, and the collection of all addresses create a branch system, an address space, a view cone.
+		  collapsed:: true
+			- The prepositions can be viewed as heads of circles in a meta-space outside of this address space, hence they cannot be unfolded within this space and can only be understood (unfolded) in the meta-space.
+				- Instances of prepositions: constants in a formula, global objects in a local object (function), numbers as ids of mathematical objects as well as name of physical objects in computer, [objects of Will's `ex`-world in Will's world](((66600918-71e0-4cad-b37d-6ceacd7df5eb))).
+		- There are many different views of the same collection of objects, expressed as different address spaces.
+		  collapsed:: true
+			- An address space A can build its structure based on another meta-space B, where each address on A, called "name" (local name, logical address), is translated to an address on B, called "address" (full address, physical address), like in Markdown syntax `[local.name](address/to/target/object)`.
+			- That namespace A is in general orthogonal to the underlying address space B, but can also reuse some parts of B to create "natural names", i.e. the names following the underlying structure.
+	-

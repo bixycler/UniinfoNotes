@@ -1,6 +1,6 @@
 # Workspace
 id:: 66519638-cf5d-409b-9b98-15acabf2268c
-	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the [workspace](((66533a2a-6f29-4e4c-81d5-17883be64bdb))) for Will LE.
+	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)) for Will LE.
 	- ***Pinned***
 	  id:: 66603d58-ff5b-4e23-8dad-5dba527981f4
 		- IN-PROGRESS Update ((66536e1b-6466-4153-90d6-583003d99a81)) while working.
@@ -13,40 +13,27 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		-
-		-
-		-
+		- DOING Logseq publish
+		  :LOGBOOK:
+		  CLOCK: [2024-06-11 Tue 10:35:39]
+		  CLOCK: [2024-06-11 Tue 10:36:22]
+		  :END:
+			- DONE Use [publish-SPA](https://github.com/logseq/publish-spa) GitHub Action to publish to [GitHub Pages](https://bixycler.github.io/UniinfoNotes/).
+			  :LOGBOOK:
+			  CLOCK: [2024-06-11 Tue 10:37:00]
+			  :END:
+			- TODO Local publishing: Use [publish-SPA CLI](https://github.com/logseq/publish-spa?tab=readme-ov-file#cli) to publish local graph of HTV's works.
+			  collapsed:: true
+				- Actually the local publishing should be done with the built-in feature "Export public pages". However that features does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme.
 		-
 		-
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
-		- DOING Back to work of company!
-		  id:: 665d1a03-1967-4260-a306-9ba465c1dd63
-		  :LOGBOOK:
-		  CLOCK: [2024-06-03 Mon 10:02:15]--[2024-06-03 Mon 10:02:17] =>  00:00:02
-		  CLOCK: [2024-06-03 Mon 10:02:18]--[2024-06-03 Mon 10:02:20] =>  00:00:02
-		  CLOCK: [2024-06-03 Mon 10:19:30]--[2024-06-03 Mon 10:19:31] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:19:32]--[2024-06-03 Mon 10:19:33] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:19:34]--[2024-06-03 Mon 10:19:35] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:19:44]--[2024-06-03 Mon 10:19:45] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:23:46]--[2024-06-03 Mon 10:23:47] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:32:01]--[2024-06-03 Mon 10:32:02] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:32:07]--[2024-06-03 Mon 10:32:08] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:33:10]--[2024-06-03 Mon 10:33:11] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:33:13]--[2024-06-03 Mon 10:33:13] =>  00:00:00
-		  CLOCK: [2024-06-03 Mon 10:38:17]--[2024-06-03 Mon 10:38:19] =>  00:00:02
-		  CLOCK: [2024-06-03 Mon 10:38:21]--[2024-06-03 Mon 10:38:22] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:39:47]--[2024-06-03 Mon 10:39:48] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:42:12]--[2024-06-03 Mon 10:42:13] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:42:14]--[2024-06-03 Mon 10:42:14] =>  00:00:00
-		  CLOCK: [2024-06-03 Mon 10:42:15]--[2024-06-03 Mon 10:42:16] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:44:45]--[2024-06-03 Mon 10:44:47] =>  00:00:02
-		  CLOCK: [2024-06-03 Mon 10:46:16]--[2024-06-03 Mon 10:46:16] =>  00:00:00
-		  CLOCK: [2024-06-03 Mon 10:47:21]--[2024-06-03 Mon 10:47:22] =>  00:00:01
-		  CLOCK: [2024-06-03 Mon 10:47:23]--[2024-06-03 Mon 10:47:25] =>  00:00:02
-		  CLOCK: [2024-06-03 Mon 10:47:31]--[2024-06-03 Mon 10:50:39] =>  00:03:08
-		  CLOCK: [2024-06-03 Mon 10:50:40]
-		  :END:
 		-
+		- WAIT ((6667c99a-792f-4230-9fc6-c5fae874daef))
+		  :LOGBOOK:
+		  CLOCK: [2024-06-11 Tue 10:58:26]--[2024-06-11 Tue 10:58:27] =>  00:00:01
+		  :END:
 		-
 		- TODO Auto-complete & typing assistant for **quotation marks**, symbols...
 		-
@@ -142,6 +129,33 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  collapsed:: true
 			- TODO ((6653747e-b02a-4120-861c-f2fd6d686053))
 			- TODO ((66537405-7c71-4a5e-abb4-996a146bb52c))
+		- DONE Back to work of company!
+		  id:: 665d1a03-1967-4260-a306-9ba465c1dd63
+		  :LOGBOOK:
+		  CLOCK: [2024-06-03 Mon 10:02:15]--[2024-06-03 Mon 10:02:17] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 10:02:18]--[2024-06-03 Mon 10:02:20] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 10:19:30]--[2024-06-03 Mon 10:19:31] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:19:32]--[2024-06-03 Mon 10:19:33] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:19:34]--[2024-06-03 Mon 10:19:35] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:19:44]--[2024-06-03 Mon 10:19:45] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:23:46]--[2024-06-03 Mon 10:23:47] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:32:01]--[2024-06-03 Mon 10:32:02] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:32:07]--[2024-06-03 Mon 10:32:08] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:33:10]--[2024-06-03 Mon 10:33:11] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:33:13]--[2024-06-03 Mon 10:33:13] =>  00:00:00
+		  CLOCK: [2024-06-03 Mon 10:38:17]--[2024-06-03 Mon 10:38:19] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 10:38:21]--[2024-06-03 Mon 10:38:22] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:39:47]--[2024-06-03 Mon 10:39:48] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:42:12]--[2024-06-03 Mon 10:42:13] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:42:14]--[2024-06-03 Mon 10:42:14] =>  00:00:00
+		  CLOCK: [2024-06-03 Mon 10:42:15]--[2024-06-03 Mon 10:42:16] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:44:45]--[2024-06-03 Mon 10:44:47] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 10:46:16]--[2024-06-03 Mon 10:46:16] =>  00:00:00
+		  CLOCK: [2024-06-03 Mon 10:47:21]--[2024-06-03 Mon 10:47:22] =>  00:00:01
+		  CLOCK: [2024-06-03 Mon 10:47:23]--[2024-06-03 Mon 10:47:25] =>  00:00:02
+		  CLOCK: [2024-06-03 Mon 10:47:31]--[2024-06-03 Mon 10:50:39] =>  00:03:08
+		  CLOCK: [2024-06-03 Mon 10:50:40]--[2024-06-11 Tue 10:32:33] =>  191:41:53
+		  :END:
 		- DONE Set theme for Logseq
 		  collapsed:: true
 		  :LOGBOOK:
@@ -179,4 +193,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :END:
 		- DONE (Re)define 2 workflows in [`logseq-custom-workflows`](((66602f1d-a572-4fe8-997f-0fae15c6a3de))).
 		- DONE Adjust style of ((666136d7-d118-464d-826c-9f842b267a3a)) so that it's completely blend with the surrounding context.
+		  collapsed:: true
 			- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) embedded block is transparent, i.e. its content can be edited right at the embedding site.
+		- DONE ((6662725e-0e8e-42ec-927f-0e53b996e20c))
+		  :LOGBOOK:
+		  CLOCK: [2024-06-11 Tue 10:58:20]--[2024-06-11 Tue 15:13:36] =>  04:15:16
+		  :END:
+		-
+		-

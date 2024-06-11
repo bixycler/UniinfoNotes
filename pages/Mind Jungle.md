@@ -130,9 +130,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Just like the [call stack](https://en.wikipedia.org/wiki/Call_stack) of [computer program](https://en.wikipedia.org/wiki/Computer_program), Workstack is a non-strict last-in-first-out (LIFO) list of tasks being worked on by the subject.
 			- All items in the workstack must be prefixed (bullet, task, [?], [!], etc.) to separate with each other, because their order (*from bottom to top*) is opposite to the normal text order (from top to bottom).
 		- ### Workflow
-			- New works will be carried out from the ((6653538a-22d3-4807-ad13-a64ac543edba)), and old works may be continued from places outside Workspace like from ((665c82c0-ee06-4f43-95b8-73dbbe956080)), from a publishing document, etc.
+			- New works will be carried out from the ((6653538a-22d3-4807-ad13-a64ac543edba)), and their bodies should be placed in document storages like ((665c82c0-ee06-4f43-95b8-73dbbe956080)), ((6653538a-30aa-423f-be89-848ad9c7e331)), etc. Old works from document storages may be continued to be worked with by linking them back to the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)).
 			- In the course of working on the current task,
-				- a new task that can/must be done immediately will be pushed to the Workstack;
+				- a new task that can/must be done immediately will be pushed to the ((6653538a-22d3-4807-ad13-a64ac543edba));
 				- a new task that should be done later will be pushed to Task list;
 				- a problem that cannot or should not be solved right now will be pushed to Problem list;
 				  id:: 665c8a2e-8de9-445f-b7c8-042244afe1c7
@@ -370,11 +370,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://logseq.com/
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536e1b-6466-4153-90d6-583003d99a81)) is an ((66536d32-30ad-4c07-8585-76ae9eb7fb22)) like [Roam](https://roamresearch.com), but [open-source](https://github.com/logseq/logseq): outlining based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
+		  collapsed:: true
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
-			  collapsed:: true
 				- Logseq was originally developed as a side project by [Tienson Qin](https://twitter.com/tiensonqin) [from Feb 2020](https://fission.codes/blog/overview-of-logseq-by-tienson-qin/), to bring [Org Mode](https://orgmode.org/) task features to ((66535e71-3b71-416c-98dc-5dde5e6a76ff)).
 				- It has been [open sourced to GitHub](https://github.com/logseq/logseq) with first alpha version from Jan 2021, first beta version ([0.1.2](https://github.com/logseq/logseq/releases/tag/0.1.2)) in May 2021 until... today (May 2024) still beta ([0.10.9](https://github.com/logseq/logseq/releases/tag/0.10.9))!
-				- A new branch [based on database](https://github.com/logseq/logseq/pull/9858), and will be bi-dir-synced with ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) , is being developed from Jul 2023.
+				- A new branch [based on database](https://github.com/logseq/logseq/pull/9858), and will be bi-dir-synced with ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), is being developed from Jul 2023.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  id:: 66600918-66b3-4d4b-9ef3-6b3d6986ebdd
 		  collapsed:: true
@@ -511,9 +511,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66625c65-5d2e-4f4b-9d87-4eadefca681a))
 			  collapsed:: true
 				- [discussed on Loseq Community](https://discuss.logseq.com/t/breadcrumb-navigation-bar-should-contain-the-target-item/27511)
+			- [!] When a ((66610c13-5045-42a8-948f-6426d698fd2c)) is referenced in another block, that enclosing block has a different block id which can be...
+			  id:: 66680966-5c6a-4c14-82b5-bc1c3f65c525
+			  collapsed:: true
+				- ((66680966-5c6a-4c14-82b5-bc1c3f65c525)) referenced in yet another block.
+				- But if the intermediate block does not have extra words, i.e. only the original block id, like this:
+					- ((66610c13-5045-42a8-948f-6426d698fd2c))
+					  id:: 66680ac9-70a7-4648-acda-4caa887bd447
+					- Then the next level of ref, like this ((66680ac9-70a7-4648-acda-4caa887bd447)), cannot stop at the intermediate block, but jump directly to the original block.
+					  id:: 66680ada-076d-47c8-b827-91fae9c3d4a2
+					- However the preview does show the both intermediate block and original block (overlaying): just hover this ((66680ac9-70a7-4648-acda-4caa887bd447)), don't click!
+					- => Better behavior: Preview shows non-overlaying blocks and ask for level of links to jump when clicking the link.
+					  :LOGBOOK:
+					  CLOCK: [2024-06-11 Tue 15:35:08]--[2024-06-11 Tue 15:49:35] =>  00:14:27
+					  :END:
 		- Features & Usage:
 		  collapsed:: true
 			- Block id
+			  id:: 66610c13-5045-42a8-948f-6426d698fd2c
 			  collapsed:: true
 				- Block id is a lengthy UUID, which is generated when corresponding block is linked or zoomed in (opened).
 				- Block id is stored as `id::` property in markdown.
@@ -549,11 +564,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext.
 		- Settings:
 		  collapsed:: true
-			- ` :editor/logical-outdenting` is logical, but confused & messy:
+			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`) is logical, but confused & messy:
 			  collapsed:: true
 				- The outdented item jumping down... is confusing.
 				- When we need to cut a long list into some main items, we must indent all items into sub-items instead of simply outdent the main items.
 			- `:outliner/block-title-collapse-enabled` is nice to collapse lengthy body of a long block and its *visible properties*. However, the *invisible built-in properties* like `id::` make this feature confused!
+			- `:publishing/all-pages-public` (`Settings > Editor > All pages public when publishing`) should be `true` to publish most of the pages by default, and manually hide individual pages with page property `public:: false` (right click page title > `Make it private (/public for publishing)`).
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  collapsed:: true
 			- [Tabs (`logseq-tabs`)](https://github.com/pengx17/logseq-plugin-tabs) provides tabs for browsing and concurrent editing with the very useful feature **pinned tabs**.
@@ -1155,8 +1171,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1)) Most of the apps there are task-centric.
 		- Software
-		  collapsed:: true
 			- A forum dedicated to outliners: [OutlinerSoftware](https://www.outlinersoftware.com/)
+			- ((66536e1b-6466-4153-90d6-583003d99a81)) is an [open-source](https://github.com/logseq/logseq) outliner based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
 			- [em](https://github.com/cybersemics/em/wiki/Docs) is a process-oriented note-taking app with tree view & graph links, sophisticated with navigation operations.
 			- [Legend](https://legendapp.com/) is smooth with web app, including desktop & mobile apps
 			  collapsed:: true
