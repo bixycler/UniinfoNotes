@@ -446,25 +446,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					    </span>
 					  </a>
 					  ```
-				- Solution: edit `custom.css` so that arrow of collapsed block won't be hidden, just like in ((66535660-643e-471a-a332-8f2306c5494f)) .
-				  collapsed:: true
-					- ```css
-					  /* Don't hide arrow of collapsed block */
-					  .block-control .control-hide,
-					  .block-control:hover .control-hide {
-					    display: block;
-					  }
-					  .block-control .control-hide .collapsed,
-					  .block-control:hover .control-hide .collapsed {
-					    display: block !important;
-					  }
-					  
-					  /* Only hide arrow of non-collapsed block */
-					  .block-control .control-hide .not-collapsed,
-					  .block-control:hover .control-hide .not-collapsed {
-					    display: none;
-					  }
-					  ```
+				- Solution: edit `custom.css` so that
+					- CANCELLED arrow control of collapsed block won't be hidden, just like in ((66535660-643e-471a-a332-8f2306c5494f)).
+					  collapsed:: true
+						- The arrow control of the expanded block should also be shown, in order to not confuse the reader of that expanded block (in a quick glance the arrow of the closed block above can be confused as the control of this expanded block).
+						- However, Logseq theme does not distinguish between expanded block and an empty block (with no sub-items), calling both `.not-collapsed`.
+						- So, i cancel this solution.
+					- the bullet border of collapsed block is **more hillited** to stand out
+					  id:: 66694be3-a924-4da8-af4c-bbba1c3e6fcc
+					  collapsed:: true
+						- ```css
+						  --ls-block-bullet-color: var(--rx-slate-08);
+						  --ls-block-bullet-border-color: var(--rx-slate-06-alpha);
+						  --ls-block-bullet-closed-border-color: var(--rx-slate-09);
+						  ```
 			- [!] The current workflow is hard-coded as `TODO <-> DOING -> DONE`, which does not distinguish between the first `TODO` with the next `TODO`, i.e. "PAUSED".
 			  id:: 66600918-740c-4b67-be6e-5b3bd7535fb7
 			  collapsed:: true
@@ -563,7 +558,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Switching to `DOING` (clicking `marker-switch` button) marks the start time, then switching to `TODO` (clicking `marker-switch` button) or `DONE` (clicking checkbox) marks the end time.
 					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext.
 			- Logseq publish
-			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-06-11 Tue 10:35:39]
 			  CLOCK: [2024-06-11 Tue 10:36:22]--[2024-06-12 Wed 10:17:12] =>  23:40:50
@@ -585,6 +579,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  While running --cwd tldraw install
 						  
 						  ```
+				- Publish linear (long-form) docs with ((66695307-1334-426c-b953-3e006bc87d74))
+				  id:: 66695280-1674-477a-b4ff-eb508aa679e0
 		- Settings:
 		  collapsed:: true
 			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`) is logical, but confused & messy:
@@ -606,6 +602,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Time Recorder (`logseq-time-recorder`)](https://github.com/5hir0kur0/logseq-time-recorder) adds time tracker similar to the built-in `:LOGBOOK:`, but not yet integrated with `:LOGBOOK:`.
 			- [File explorer from within Logseq](https://discuss.logseq.com/t/file-explorer-from-within-logseq/21703/1) with [File picker for linking local files](https://discuss.logseq.com/t/file-picker-for-linking-local-files/21704)
 			  id:: 66600918-fe64-4ef5-965e-c085d29bb88b
+			- [Hugo publish (logseq-schrodinger)](https://github.com/sawhney17/logseq-schrodinger) for publishing to [Hugo](https://gohugo.io/).
+			  id:: 66695307-1334-426c-b953-3e006bc87d74
 		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
 		  collapsed:: true
 			- Check rendered result at [[Theme Demo]].
@@ -616,7 +614,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-06-03 Mon 20:25:58]--[2024-06-04 Tue 08:35:24] =>  12:09:26
 			  :END:
 				- Logseq's built-in `style.css` (Ubuntu: `/snap/logseq/28/app/resources/app/css/style.css`)
-				  collapsed:: true
 					- Root config:
 					  collapsed:: true
 						- ```css
@@ -723,9 +720,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						      color: var(--lx-accent-12,var(--ls-link-text-hover-color,hsl(var(--primary))))
 						  }
 						  ```
-					- Code mirror (code block):
+					- Code:
 					  collapsed:: true
 						- ```css
+						  /* Inline code */
+						  :not(pre)>code {
+						      background-color: var(--lx-gray-06,var(--ls-page-inline-code-bg-color,var(--rx-gray-05)));
+						      border-radius: 3px;
+						      color: var(--lx-gray-11,var(--ls-page-inline-code-color,var(--rx-gray-11)));
+						      font-family: MonoLisa,Fira Code,Monaco,Menlo,Consolas,COURIER NEW,monospace;
+						      font-size: .9em;
+						      font-style: normal;
+						      letter-spacing: 0;
+						      text-rendering: optimizeSpeed
+						  }
+						  html[data-theme=light] .cp__right-sidebar .block-content {
+						      --ls-page-inline-code-bg-color: var(--ls-quaternary-background-color);
+						      --ls-page-blockquote-bg-color: var(--ls-quaternary-background-color)
+						  }
+						  
+						  /* Code mirror (block) */
+						  
 						  .cm-s-lsradix.cm-s-light,.dark .cm-s-lsradix.cm-s-dark {
 						      background-color: var(--lx-gray-02,hsl(var(--secondary)/.7))
 						  }
@@ -759,6 +774,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 					- Embed block `.color-level.embed-block`
 					  id:: 666136d7-d118-464d-826c-9f842b267a3a
+					  collapsed:: true
 						- ```css
 						  /* on main edit pane */
 						  .dark .color-level {
@@ -817,6 +833,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 665e5e08-b8e7-4cbc-8a9a-5637ccf5dfc6
 					  collapsed:: true
 						- ```css
+						  /* Scroll bar */
+						  .visible-scrollbar ::-webkit-scrollbar-thumb,html.custom-scrollbar ::-webkit-scrollbar-thumb {
+						      background-color: var(--lx-gray-05,var(--ls-scrollbar-foreground-color,var(--rx-gray-05)))
+						  }
+						  .visible-scrollbar ::-webkit-scrollbar-thumb:active,html.custom-scrollbar ::-webkit-scrollbar-thumb:active {
+						      background-color: var(--lx-gray-06,var(--ls-scrollbar-thumb-hover-color,var(--rx-gray-06)))
+						  }
+						  .visible-scrollbar ::-webkit-scrollbar,html.custom-scrollbar ::-webkit-scrollbar {
+						      background-color: var(--lx-gray-02,var(--ls-scrollbar-background-color,var(--rx-gray-02)));
+						      height: 8px;
+						      width: var(--ls-scrollbar-width,6px)
+						  }
+						  
+						  
+						  /* Plugin cards */
 						  .cp__plugins-item-card {
 						      background-color: var(--ls-tertiary-background-color,hsl(var(--muted)));
 						      border-radius: calc(var(--radius) - 2px);
@@ -835,10 +866,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  .bullet-container:not(.typed-list).bullet-closed {
 						      background-color: var(--lx-gray-04-alpha,var(--ls-block-bullet-border-color,var(--rx-gray-04-alpha)))
 						  }
-						  
 						  .bullet-container:not(.typed-list) .bullet {
 						      background-color: var(--lx-gray-08,var(--ls-block-bullet-color,var(--rx-gray-08)));
 						      transition: transform .2s
+						  }
+						  
+						  .bullet-link-wrap:hover>.bullet-container:not(.typed-list) {
+						      background-color: var(--lx-gray-04-alpha,var(--ls-block-bullet-border-color,var(--rx-gray-04-alpha)))
+						  }
+						  .bullet-link-wrap:hover>.bullet-container:not(.typed-list) .bullet {
+						      background-color: var(--lx-gray-08,var(--ls-block-bullet-color,var(--rx-gray-08)))!important;
+						      transform: scale(1.2)
 						  }
 						  
 						  .bullet-container.typed-list:not(:focus-within) .bullet {
@@ -975,6 +1013,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :root {
 					    --ls-main-content-max-width: 100%;
 					  
+					    
 					    /* Task markers */
 					    --ct-marker-border-radius: 4px;
 					    --ct-marker-size: 16px;
@@ -1002,6 +1041,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					    --left-sidebar-bg-color: var(--ls-secondary-background-color,hsl(var(--secondary,var(--rx-gray-03-hsl))));
 					  }
 					  
+					  /* Scroll bar */
+					  .visible-scrollbar ::-webkit-scrollbar-thumb,html.custom-scrollbar ::-webkit-scrollbar-thumb {
+					      background-color: var(--ls-scrollbar-foreground-color,var(--rx-gray-05));
+					  }
+					  .visible-scrollbar ::-webkit-scrollbar-thumb:active,html.custom-scrollbar ::-webkit-scrollbar-thumb:active {
+					      background-color: var(--ls-scrollbar-thumb-hover-color,var(--rx-gray-06));
+					  }
+					  .visible-scrollbar ::-webkit-scrollbar,html.custom-scrollbar ::-webkit-scrollbar {
+					      background-color: transparent; /*var(--ls-scrollbar-background-color,var(--rx-gray-02));*/
+					  }
+					  
 					  
 					  /* Right sidebar */
 					  
@@ -1009,7 +1059,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					    background-color: var(--ls-secondary-background-color);
 					  }
 					  
-					  html[data-theme=dark] .cp__right-sidebar .sidebar-item {
+					  html[data-theme=dark] .cp__right-sidebar .sidebar-item,
+					  html[data-theme=light] .cp__right-sidebar .sidebar-item {
 					    background-color: var(--ls-primary-background-color);
 					  }
 					  
@@ -1017,18 +1068,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					    background-color: var(--ls-tertiary-background-color) !important;
 					  }
 					  
+					  /* Inline code */
+					  :not(pre)>code {
+					      background-color: var(--ls-page-inline-code-bg-color,var(--rx-gray-05));
+					      color: var(--ls-page-inline-code-color,var(--rx-gray-11));
+					  }
 					  
 					  /* Code mirror (code block) */
 					  
-					  .cm-s-lsradix.cm-s-light,.dark .cm-s-lsradix.cm-s-dark {
+					  .cm-s-lsradix.cm-s-light,
+					  .dark .cm-s-lsradix.cm-s-dark {
 					    background-color: hsl(var(--secondary));
 					    color: hsl(var(--secondary-foreground));
 					  }
-					  
 					  .cm-s-lsradix.cm-s-dark .CodeMirror-gutters {
 					    background-color: hsl(var(--background)); 
 					  }
-					  
 					  .cm-s-lsradix.cm-s-dark .CodeMirror-linenumber {
 					    color: hsl(var(--foreground));
 					  }
@@ -1102,20 +1157,39 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  
 					  /*** Block control (arrow) ***/
 					  
-					  /* Don't hide arrow of collapsed block */
+					  /* Don't hide arrow of collapsed block
 					  .block-control .control-hide,
 					  .block-control:hover .control-hide {
 					    display: block;
 					  }
 					  .block-control .control-hide .collapsed,
 					  .block-control:hover .control-hide .collapsed {
-					    display: block !important;
+					    display: block;
 					  }
 					  
-					  /* Only hide arrow of non-collapsed block */
+					  /* Only hide arrow of non-collapsed block
 					  .block-control .control-hide .not-collapsed,
 					  .block-control:hover .control-hide .not-collapsed {
 					    display: none;
+					  } 
+					  */
+					  
+					  /* Bullet */
+					  
+					  .bullet-container:not(.typed-list).bullet-closed {
+					      background-color: var(--ls-block-bullet-closed-border-color,var(--rx-gray-04-alpha));
+					  }
+					  .bullet-container:not(.typed-list) .bullet {
+					      background-color: var(--ls-block-bullet-color,var(--rx-gray-08));
+					      transition: transform .2s
+					  }
+					  
+					  .bullet-link-wrap:hover>.bullet-container:not(.typed-list) {
+					      background-color: var(--ls-block-bullet-border-color,var(--rx-gray-04-alpha));
+					  }
+					  .bullet-link-wrap:hover>.bullet-container:not(.typed-list) .bullet {
+					      background-color: var(--ls-block-bullet-color,var(--rx-gray-08))!important;
+					      transform: scale(1.2)
 					  }
 					  
 					  
@@ -1160,14 +1234,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  
 					  /* Color variables */
 					  
-					  html[data-color=blue] .dark-theme,html[data-color=blue] .light-theme,html[data-color=blue] body {
+					  html[data-color=blue] .dark-theme,
+					  html[data-color=blue] .light-theme,
+					  html[data-color=blue] body {
+					    
 					    --ls-primary-background-color: var(--rx-slate-04);
 					    --ls-secondary-background-color: var(--rx-slate-06);
 					    --ls-tertiary-background-color: var(--rx-slate-07);
 					    --ls-quaternary-background-color: var(--rx-slate-08);
+					    --ls-page-inline-code-bg-color: var(--ls-secondary-background-color);
 					  
 					    --ls-primary-text-color: var(--rx-slate-11);
 					    --ls-secondary-text-color: var(--rx-slate-12);
+					    --ls-page-inline-code-color: var(--ls-primary-text-color);
 					  
 					    --ls-link-text-color: var(--rx-blue-09);
 					    --ls-link-text-hover-color: var(--rx-blue-11);
@@ -1177,8 +1256,29 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					    --ls-block-highlight-color: var(--rx-slate-05);
 					  
 					    --ls-page-checkbox-color: var(--rx-slate-09);
+					    
+					    --ls-block-bullet-color: var(--rx-slate-08);
+					    --ls-block-bullet-border-color: var(--rx-slate-06-alpha);
+					    --ls-block-bullet-closed-border-color: var(--rx-slate-09);
+					    
+					    --ls-scrollbar-foreground-color: var(--rx-slate-07);
+					    --ls-scrollbar-thumb-hover-color: var(--rx-slate-09);
+					    --ls-scrollbar-background-color: var(--rx-slate-03);
+					    
 					  }
 					  
+					  html[data-color=blue] .light-theme {
+					  
+					    --ls-primary-text-color: var(--rx-slate-12);
+					    --ls-secondary-text-color: var(--rx-slate-12);
+					    
+					  }
+					  html[data-theme=light] .cp__right-sidebar .block-content {
+					      --ls-page-inline-code-bg-color: var(--ls-secondary-background-color);
+					      --ls-page-blockquote-bg-color: var(--ls-page-blockquote-bg-color)
+					  }
+					  
+					  /* for code block */
 					  html[data-theme=dark] {
 					    --secondary: 0 0% 15%;
 					    --secondary-foreground: 0 0% 75%;

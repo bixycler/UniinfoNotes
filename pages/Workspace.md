@@ -18,7 +18,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
 		-
-		- TODO Modify Logseq theme to keep folding control (arrow) on for unfolded items.
 		-
 		- WAIT ((6667c99a-792f-4230-9fc6-c5fae874daef))
 		  :LOGBOOK:
@@ -115,10 +114,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  id:: 665cb063-d8b5-461e-9dcd-12bb85db1ee7
 		- CANCELLED Auto-convert between links: wikilink, markdown link, external link
 		- CANCELLED auto-create note to internalize external link.
-		- TODO Publishing in Obsidian
+		- CANCELLED Publishing in Obsidian
 		  collapsed:: true
-			- TODO ((6653747e-b02a-4120-861c-f2fd6d686053))
-			- TODO ((66537405-7c71-4a5e-abb4-996a146bb52c))
+			- ((6653747e-b02a-4120-861c-f2fd6d686053))
+			- ((66537405-7c71-4a5e-abb4-996a146bb52c))
+			- Docs can be published right [from Logseq](((66695280-1674-477a-b4ff-eb508aa679e0))).
 		- DONE Back to work of company!
 		  id:: 665d1a03-1967-4260-a306-9ba465c1dd63
 		  :LOGBOOK:
@@ -189,5 +189,5 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :LOGBOOK:
 		  CLOCK: [2024-06-11 Tue 10:58:20]--[2024-06-11 Tue 15:13:36] =>  04:15:16
 		  :END:
-		-
+		- DONE Modify Logseq theme so that ((66694be3-a924-4da8-af4c-bbba1c3e6fcc)) and scroll bar blends in, and also light theme.
 		-
