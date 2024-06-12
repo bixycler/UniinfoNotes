@@ -131,20 +131,39 @@ a.marker-switch:hover {
 
 /*** Block control (arrow) ***/
 
-/* Don't hide arrow of collapsed block */
+/* Don't hide arrow of collapsed block
 .block-control .control-hide,
 .block-control:hover .control-hide {
   display: block;
 }
 .block-control .control-hide .collapsed,
 .block-control:hover .control-hide .collapsed {
-  display: block !important;
+  display: block;
 }
 
-/* Only hide arrow of non-collapsed block */
+/* Only hide arrow of non-collapsed block
 .block-control .control-hide .not-collapsed,
 .block-control:hover .control-hide .not-collapsed {
   display: none;
+} 
+*/
+
+/* Bullet */
+
+.bullet-container:not(.typed-list).bullet-closed {
+    background-color: var(--ls-block-bullet-closed-border-color,var(--rx-gray-04-alpha));
+}
+.bullet-container:not(.typed-list) .bullet {
+    background-color: var(--ls-block-bullet-color,var(--rx-gray-08));
+    transition: transform .2s
+}
+
+.bullet-link-wrap:hover>.bullet-container:not(.typed-list) {
+    background-color: var(--ls-block-bullet-border-color,var(--rx-gray-04-alpha));
+}
+.bullet-link-wrap:hover>.bullet-container:not(.typed-list) .bullet {
+    background-color: var(--ls-block-bullet-color,var(--rx-gray-08))!important;
+    transform: scale(1.2)
 }
 
 
@@ -206,6 +225,10 @@ html[data-color=blue] .dark-theme,html[data-color=blue] .light-theme,html[data-c
   --ls-block-highlight-color: var(--rx-slate-05);
 
   --ls-page-checkbox-color: var(--rx-slate-09);
+  
+  --ls-block-bullet-color: var(--rx-slate-08);
+  --ls-block-bullet-border-color: var(--rx-slate-06-alpha);
+  --ls-block-bullet-closed-border-color: var(--rx-slate-09);
 }
 
 html[data-theme=dark] {
