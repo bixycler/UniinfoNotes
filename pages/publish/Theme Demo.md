@@ -129,6 +129,6 @@ public: true
 -
 - Logseq propety query
 	- {{query (property public)}}
-	  query-table:: true
+	  query-table:: false
 - ---
   [1] This is the details of the ref above.

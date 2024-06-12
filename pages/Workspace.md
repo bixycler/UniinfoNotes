@@ -189,5 +189,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :LOGBOOK:
 		  CLOCK: [2024-06-11 Tue 10:58:20]--[2024-06-11 Tue 15:13:36] =>  04:15:16
 		  :END:
-		- DONE Modify Logseq theme so that ((66694be3-a924-4da8-af4c-bbba1c3e6fcc)) and scroll bar blends in, and also light theme.
+		- DONE Modify Logseq theme
+			- so that ((66694be3-a924-4da8-af4c-bbba1c3e6fcc)) and scroll bar blends in;
+			- sync the light theme and the default theme with CreatZy theme: ((66698fb6-d9ac-423f-845c-0f0f5c93abf2))
 		-

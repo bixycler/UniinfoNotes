@@ -1,4 +1,4 @@
-on: [push]
+# on: [push]
 
 permissions:
   contents: write
@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: logseq/publish-spa@main
+        # Deploying to branch `gh-pages`
         with: 
           theme-mode: light
           accent-color: blue

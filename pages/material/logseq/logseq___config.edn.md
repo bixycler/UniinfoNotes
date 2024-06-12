@@ -1,0 +1,1 @@
+- ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) ![config.edn](../assets/logseq/config.edn)
