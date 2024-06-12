@@ -199,8 +199,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Hence, the name is an interface of the object for the subject to use.
 			- Thanks to its conciseness, the name can be used by many subjects. This use is the [mixing](https://en.wikipedia.org/wiki/Mixing_(physics)) of content between objects.
 		- Naming = ε-abstraction is the `ob` part of the obop, while repeating = ω-extension (including, embedding) is the `op` part of the obop.
-	- Internal form (substance) = external form (appearance)
+	- In-ex relativity: ways to turn inside out
 	  collapsed:: true
+		- intension - extension
+		- inversive & projective geometry
+		- tree view vs mountain range
+		- vector multiplication
+		- double cone of light & view
+		- 0 & ∞ in Riemann circle
+		- first diagram of Uniinfo
+	- Internal form (substance) = external form (appearance)
 		- external to a content form = internal to its container
 	- 2 characteristics of the form are equivalent.
 	  collapsed:: true
@@ -211,6 +219,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :LOGBOOK:
 	  CLOCK: [2024-06-11 Tue 10:50:54]
 	  :END:
+	- Levels of numbers & thread
+	  collapsed:: true
+		- 4. Relaxed thread, constant velocity c, "straight/round", Turing machine, searching
+		- 5. Compressed 1-dir thread (temporal), nonzero acceleration/curvature, probability, AI, optimization toward 1 dir
+		- 6. Circular (2-dir) thread (spatial), negative velocity, quantum, AGI, uninet, perfection/balancing for all dirs
 	- Thread views: fractal circular blobs, tree, mountain range
 	  id:: 6662725e-0e8e-42ec-927f-0e53b996e20c
 	  collapsed:: true
@@ -228,11 +241,26 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- These prepositions can have descriptions, or even definitions, but their true definition is the whole extension of contexts using them. That means a preposition can only be "understood" but cannot be transcluded (embedded, expanded, unfolded).
 					- These prepositions are "atoms" of the system, when the whole system is expanded/unfolded, the "raw thread" is nothing but a chain of prepositions, as component arrows.
 		- In a tree system, the path from root to a blob, i.e. the chain of heads of circular blobs, is the path/address of that blob, and the collection of all addresses create a branch system, an address space, a view cone.
-		  collapsed:: true
+		  id:: 6667d217-5269-4a34-8863-7fbb46e91ecc
 			- The prepositions can be viewed as heads of circles in a meta-space outside of this address space, hence they cannot be unfolded within this space and can only be understood (unfolded) in the meta-space.
 				- Instances of prepositions: constants in a formula, global objects in a local object (function), numbers as ids of mathematical objects as well as name of physical objects in computer, [objects of Will's `ex`-world in Will's world](((66600918-71e0-4cad-b37d-6ceacd7df5eb))).
 		- There are many different views of the same collection of objects, expressed as different address spaces.
 		  collapsed:: true
 			- An address space A can build its structure based on another meta-space B, where each address on A, called "name" (local name, logical address), is translated to an address on B, called "address" (full address, physical address), like in Markdown syntax `[local.name](address/to/target/object)`.
 			- That namespace A is in general orthogonal to the underlying address space B, but can also reuse some parts of B to create "natural names", i.e. the names following the underlying structure.
-	-
+	- Everything (intensionally) is address.
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-06-12 Wed 10:23:02]
+	  :END:
+		- Address = path to object = arrow/vector to object = (extracted) abstract of that object in the subject = log(intent) = known content (content known by subject), AKA. "form"
+		- Complement of address is content within object, AKA. "content", is the content part unknown to the subject and are not cared by the subject.
+		- address + content = 0; |address| + |content| = 1; (space of address)*(space of content) = 1 where "space of x" = e^x
+			- The (content space = extent of address) is the complement space of the ([address space](((6667d217-5269-4a34-8863-7fbb46e91ecc))) = intent of address).
+			- The zero/empty address (`.`) is the name/id of everything:
+				- its intent = 0 = ((66691d61-b8e9-4618-ac98-145056b646f4)) = the size of this subject compared to the Universe
+				- its extent = ∞ = everything = the whole Universe
+			- The infinity/full address (`∞`) including all content of the subject is the name/address of the Universe:
+				- its intent = ∞ = the (image/reflection/model of the) Universe
+				- its extent = 0 = the single center point in the Universe = this subject = self
+			- Any (block of) text (of subject) is a [static] description / [dynamic] program of an internal space called "intent". As a name/address, that text points to an external (object) space called "extent" which can be described (intensionally) by another text (object text) or just a pure extensional space without intension. The subject text is called "syntax" and the object space is called (extensional) semantics. The intensional semantics, i.e. object text, is just a special case of the semantics.

@@ -562,6 +562,29 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- A task with status `DOING` will be time tracked in `:LOGBOOK:`.
 					- Switching to `DOING` (clicking `marker-switch` button) marks the start time, then switching to `TODO` (clicking `marker-switch` button) or `DONE` (clicking checkbox) marks the end time.
 					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext.
+			- Logseq publish
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-11 Tue 10:35:39]
+			  CLOCK: [2024-06-11 Tue 10:36:22]--[2024-06-12 Wed 10:17:12] =>  23:40:50
+			  :END:
+				- Use [publish-SPA](https://github.com/logseq/publish-spa) GitHub Action to publish to [GitHub Pages](https://bixycler.github.io/UniinfoNotes/).
+				  :LOGBOOK:
+				  CLOCK: [2024-06-11 Tue 10:37:00]
+				  :END:
+				- Local publishing: Use [publish-SPA CLI](https://github.com/logseq/publish-spa?tab=readme-ov-file#cli) to publish local graph of HTV's works.
+				  collapsed:: true
+					- Actually the local publishing should be done with the built-in feature "Export public pages". However that features does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme.
+					- `publish-spa` requires `logseq` to be built for it to use `logseq/static`, but `logseq > yarn install` fails :(
+						- ```
+						  yarn install > Link step > logseq@workspace:. must be built because it never has been before
+						  
+						  Ambiguous Syntax Error: Cannot find which to pick amongst the following alternatives:
+						    0. yarn install [--json] [--immutable] [--immutable-cache] [--check-cache] [--inline-builds] [--mode #0]
+						    1. yarn install [--json] [--immutable] [--immutable-cache] [--check-cache] [--inline-builds] [--mode #0]
+						  While running --cwd tldraw install
+						  
+						  ```
 		- Settings:
 		  collapsed:: true
 			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`) is logical, but confused & messy:
@@ -1276,5 +1299,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665361eb-5339-451e-957d-362b946d796d
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/HTML
-	-
+	- ## Vacancy
+	  id:: 66600918-9f92-4730-b056-c2cd87a742aa
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66691d61-b8e9-4618-ac98-145056b646f4))
+		- Emptiness
+		  id:: 66691d61-b8e9-4618-ac98-145056b646f4
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66600918-9f92-4730-b056-c2cd87a742aa))
+		- Buddhist: [śūnyatā (Sanskrit: शून्यता; Pali: suññatā)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)
 -

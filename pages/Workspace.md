@@ -13,22 +13,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		-
-		- DOING Logseq publish
-		  :LOGBOOK:
-		  CLOCK: [2024-06-11 Tue 10:35:39]
-		  CLOCK: [2024-06-11 Tue 10:36:22]
-		  :END:
-			- DONE Use [publish-SPA](https://github.com/logseq/publish-spa) GitHub Action to publish to [GitHub Pages](https://bixycler.github.io/UniinfoNotes/).
-			  :LOGBOOK:
-			  CLOCK: [2024-06-11 Tue 10:37:00]
-			  :END:
-			- TODO Local publishing: Use [publish-SPA CLI](https://github.com/logseq/publish-spa?tab=readme-ov-file#cli) to publish local graph of HTV's works.
-			  collapsed:: true
-				- Actually the local publishing should be done with the built-in feature "Export public pages". However that features does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme.
 		-
 		-
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
+		-
+		- TODO Modify Logseq theme to keep folding control (arrow) on for unfolded items.
 		-
 		- WAIT ((6667c99a-792f-4230-9fc6-c5fae874daef))
 		  :LOGBOOK:

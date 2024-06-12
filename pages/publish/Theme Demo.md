@@ -99,30 +99,36 @@ public: true
 	- CANCELLED A task that has been cancelled
 - [?] question
 - [!] important, problem
-- [*] starred
-- [>] forwarded
-- [<] scheduled
-- [#] tag
-- [b] bookmark
-- ["] quote
-- [i] info
-- [I] idea
-- [p] pros
-- [c] cons
-- [f] fire
-- [k] key
-- [u] up
-- [d] down
-- [w] win
-- [+] inboxed
-- [.] dot
-- [,] comma
-- [~] tilde
-- [@] at
-- [%] percent
-- [&] and
-- [:] colon
-- [;] semicolon
-  
-  ---
+- Other markers
+  collapsed:: true
+	- [*] starred
+	- [>] forwarded
+	- [<] scheduled
+	- [#] tag
+	- [b] bookmark
+	- ["] quote
+	- [i] info
+	- [I] idea
+	- [p] pros
+	- [c] cons
+	- [f] fire
+	- [k] key
+	- [u] up
+	- [d] down
+	- [w] win
+	- [+] inboxed
+	- [.] dot
+	- [,] comma
+	- [~] tilde
+	- [@] at
+	- [%] percent
+	- [&] and
+	- [:] colon
+	- [;] semicolon
+	-
+-
+- Logseq propety query
+	- {{query (property public)}}
+	  query-table:: true
+- ---
   [1] This is the details of the ref above.

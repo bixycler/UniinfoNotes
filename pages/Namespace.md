@@ -4,7 +4,6 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 66600918-a37f-46cb-810e-837aa5e89771
 		- Name:
 		  id:: 665ca48e-f7c1-4541-b5cf-486d86b02997
-		  collapsed:: true
 			- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((665cab38-f8e8-472e-b0a1-60776d492835))
 			- name of
 			  id:: 665ca495-93b4-47d4-a022-ce511b021a3d
