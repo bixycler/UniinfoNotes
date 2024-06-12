@@ -4,6 +4,7 @@
 :root {
   --ls-main-content-max-width: 100%;
 
+  
   /* Task markers */
   --ct-marker-border-radius: 4px;
   --ct-marker-size: 16px;
@@ -31,6 +32,17 @@ body {
   --left-sidebar-bg-color: var(--ls-secondary-background-color,hsl(var(--secondary,var(--rx-gray-03-hsl))));
 }
 
+/* Scroll bar */
+.visible-scrollbar ::-webkit-scrollbar-thumb,html.custom-scrollbar ::-webkit-scrollbar-thumb {
+    background-color: var(--ls-scrollbar-foreground-color,var(--rx-gray-05));
+}
+.visible-scrollbar ::-webkit-scrollbar-thumb:active,html.custom-scrollbar ::-webkit-scrollbar-thumb:active {
+    background-color: var(--ls-scrollbar-thumb-hover-color,var(--rx-gray-06));
+}
+.visible-scrollbar ::-webkit-scrollbar,html.custom-scrollbar ::-webkit-scrollbar {
+    background-color: transparent; /*var(--ls-scrollbar-background-color,var(--rx-gray-02));*/
+}
+
 
 /* Right sidebar */
 
@@ -38,7 +50,8 @@ body {
   background-color: var(--ls-secondary-background-color);
 }
 
-html[data-theme=dark] .cp__right-sidebar .sidebar-item {
+html[data-theme=dark] .cp__right-sidebar .sidebar-item,
+html[data-theme=light] .cp__right-sidebar .sidebar-item {
   background-color: var(--ls-primary-background-color);
 }
 
@@ -46,18 +59,22 @@ html[data-theme=dark] .cp__right-sidebar .sidebar-item {
   background-color: var(--ls-tertiary-background-color) !important;
 }
 
+/* Inline code */
+:not(pre)>code {
+    background-color: var(--ls-page-inline-code-bg-color,var(--rx-gray-05));
+    color: var(--ls-page-inline-code-color,var(--rx-gray-11));
+}
 
 /* Code mirror (code block) */
 
-.cm-s-lsradix.cm-s-light,.dark .cm-s-lsradix.cm-s-dark {
+.cm-s-lsradix.cm-s-light,
+.dark .cm-s-lsradix.cm-s-dark {
   background-color: hsl(var(--secondary));
   color: hsl(var(--secondary-foreground));
 }
-
 .cm-s-lsradix.cm-s-dark .CodeMirror-gutters {
   background-color: hsl(var(--background)); 
 }
-
 .cm-s-lsradix.cm-s-dark .CodeMirror-linenumber {
   color: hsl(var(--foreground));
 }
@@ -208,14 +225,19 @@ a:hover {
 
 /* Color variables */
 
-html[data-color=blue] .dark-theme,html[data-color=blue] .light-theme,html[data-color=blue] body {
+html[data-color=blue] .dark-theme,
+html[data-color=blue] .light-theme,
+html[data-color=blue] body {
+  
   --ls-primary-background-color: var(--rx-slate-04);
   --ls-secondary-background-color: var(--rx-slate-06);
   --ls-tertiary-background-color: var(--rx-slate-07);
   --ls-quaternary-background-color: var(--rx-slate-08);
+  --ls-page-inline-code-bg-color: var(--ls-secondary-background-color);
 
   --ls-primary-text-color: var(--rx-slate-11);
   --ls-secondary-text-color: var(--rx-slate-12);
+  --ls-page-inline-code-color: var(--ls-primary-text-color);
 
   --ls-link-text-color: var(--rx-blue-09);
   --ls-link-text-hover-color: var(--rx-blue-11);
@@ -229,8 +251,25 @@ html[data-color=blue] .dark-theme,html[data-color=blue] .light-theme,html[data-c
   --ls-block-bullet-color: var(--rx-slate-08);
   --ls-block-bullet-border-color: var(--rx-slate-06-alpha);
   --ls-block-bullet-closed-border-color: var(--rx-slate-09);
+  
+  --ls-scrollbar-foreground-color: var(--rx-slate-07);
+  --ls-scrollbar-thumb-hover-color: var(--rx-slate-09);
+  --ls-scrollbar-background-color: var(--rx-slate-03);
+  
 }
 
+html[data-color=blue] .light-theme {
+
+  --ls-primary-text-color: var(--rx-slate-12);
+  --ls-secondary-text-color: var(--rx-slate-12);
+  
+}
+html[data-theme=light] .cp__right-sidebar .block-content {
+    --ls-page-inline-code-bg-color: var(--ls-secondary-background-color);
+    --ls-page-blockquote-bg-color: var(--ls-page-blockquote-bg-color)
+}
+
+/* for code block */
 html[data-theme=dark] {
   --secondary: 0 0% 15%;
   --secondary-foreground: 0 0% 75%;
