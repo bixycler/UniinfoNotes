@@ -380,12 +380,17 @@ html[data-theme=light] .cp__right-sidebar .block-content {
 
 html[data-color=logseq][data-theme=dark],
 html[data-theme=dark] {
+  
   /* for code block */
   --secondary: 0 0% 15%;
   --secondary-foreground: 0 0% 75%;
   --background: 0 0% 12%;
   --foreground: 0 0% 50%;
   
+  --border: 0 0% 26%;
+  --muted: 0 0% 15%;
+  --popover: 0 0% 10%;
+  --popover-foreground: 0 0 100%;
   /*
   --accent: var(--rx-gray-12-hsl);
   --accent-foreground: var(--rx-gray-02-hsl);
@@ -394,8 +399,4 @@ html[data-theme=dark] {
   --card-foreground: 0 0% 95%;
   --input: 0 0% 25%;
   */
-  --border: 0 0% 26%;
-  --muted: 0 0% 15%;
-  --popover: 0 0% 10%;
-  --popover-foreground: 0 0 100%;
 }

@@ -564,15 +564,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-06-11 Tue 10:36:22]--[2024-06-12 Wed 10:17:12] =>  23:40:50
 			  :END:
 				- Use the built-in feature "Export public pages".
-					- However that features does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
+					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
 					- So i customize `data-color=logseq` to match CreatZy theme.
 					  id:: 66698fb6-d9ac-423f-845c-0f0f5c93abf2
+					- [!] The built-in publisher still cannot handle assets (embedded or linked) other than embedded image.
+					  id:: 666a6673-0383-471a-ac42-c77c03dd96d7
 				- CANCELLED Use [publish-SPA](https://github.com/logseq/publish-spa) GitHub Action to publish to [GitHub Pages](https://bixycler.github.io/UniinfoNotes/).
-				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-06-11 Tue 10:37:00]
 				  :END:
 					- [!] The published SPA has some style mismatch with the desktop app.
+					- [!] The published SPA still cannot handle assets (embedded or linked) other than embedded image.
 					- CANCELLED Local publishing with [publish-SPA CLI](https://github.com/logseq/publish-spa?tab=readme-ov-file#cli) to publish local graph of HTV's works.
 					  collapsed:: true
 						- `publish-spa` requires `logseq` to be built for it to use `logseq/static`, but `logseq > yarn install` fails :(

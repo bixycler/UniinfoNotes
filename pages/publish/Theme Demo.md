@@ -29,6 +29,7 @@ public: true
   2. two
 - second
   id:: 666124a1-9253-46c8-aa5a-f7a6e0642648
+  collapsed:: true
   + plus
 	- minus
 	  id:: 666124a1-a914-4f1f-9cce-ac447fb37d41
@@ -41,6 +42,7 @@ public: true
 	  > > - another item
 	  > > 	- with deeper level
 - Numbering with `logseq.order-list-type:: number`
+  collapsed:: true
 	- one
 	  logseq.order-list-type:: number
 	- two
@@ -62,6 +64,13 @@ public: true
 			- 3rd level reference: ((66680d60-55ec-4929-8bef-3c3e6ca85538))
 - Embedded block with Logseq's `{{embed}}`: {{embed ((666124a1-a914-4f1f-9cce-ac447fb37d41))}}
 	- The embedded block above is "transparent", i.e. can be edited right at the embedding place.
+-
+- Images
+  collapsed:: true
+	- [Theme Demo.dark.png](../assets/logseq/Theme Demo.dark.png)
+	  ![Theme Demo.dark.png](../assets/logseq/Theme Demo.dark.png)
+	- [Theme Demo.light.png](../assets/logseq/Theme Demo.light.png)
+	  ![Theme Demo.light.png](../assets/logseq/Theme Demo.light.png)
 -
 - ### Tasks:
 -
