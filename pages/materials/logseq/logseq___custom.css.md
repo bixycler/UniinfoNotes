@@ -1,4 +1,4 @@
-- ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) ![custom.css](../assets/logseq/custom.css) ([CreatZy Theme](logseq/custom.css))
+- ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) ![custom.css](../assets/logseq/custom.css) ([CreatZy Theme](../assets/logseq/custom.css))
   id:: 666a5031-1486-42b6-b925-6496fc9a4b9b
 - ((666a697a-6f40-4749-ab5b-03c82aeda1ee))
 	- [dark custom.css](../assets/logseq/custom.css.dark.png)
