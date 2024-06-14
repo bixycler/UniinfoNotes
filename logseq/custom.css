@@ -1,3 +1,7 @@
+/* Notes:
+	- This file is hard-linked to share between graphs.
+*/
+
 @import url("https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css");
 
 /* Root settings */
@@ -131,6 +135,9 @@ html[data-theme=light] .cp__right-sidebar .sidebar-item {
   background-color: var(--ct-checkbox-waiting-color) !important;
 }
 
+.canceled,.cancelled,.done {
+    opacity: 1
+}
 .done {
   text-decoration: var(--ct-task-done-text-decoration);
 }

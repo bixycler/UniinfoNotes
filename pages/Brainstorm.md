@@ -209,6 +209,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- 0 & ∞ in Riemann circle
 		- first diagram of Uniinfo
 	- Internal form (substance) = external form (appearance)
+	  collapsed:: true
 		- external to a content form = internal to its container
 	- 2 characteristics of the form are equivalent.
 	  collapsed:: true
@@ -264,3 +265,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- its intent = ∞ = the (image/reflection/model of the) Universe
 				- its extent = 0 = the single center point in the Universe = this subject = self
 			- Any (block of) text (of subject) is a [static] description / [dynamic] program of an internal space called "intent". As a name/address, that text points to an external (object) space called "extent" which can be described (intensionally) by another text (object text) or just a pure extensional space without intension. The subject text is called "syntax" and the object space is called (extensional) semantics. The intensional semantics, i.e. object text, is just a special case of the semantics.
+	- Intension (description, address) >-[exp]-> intent (constructive extension, address/name space) >-[complement, reciprocal]-> extent (predicative extension, object/value space)
+	  collapsed:: true
+		- The good old diagram 😊 ([from Mar 2011](https://docs.google.com/drawings/d/1ki-Zwf4N5KTbGZ5XdGlEOrDyV7SWIYnlPi_uKoblWdA/edit?usp=sharing))
+		  ![Constructive vs Predicative In/extension](https://docs.google.com/drawings/d/e/2PACX-1vRMG3kI6P4QLYvd9uyosDG07EP7TyCkJCGDoydCdoIK2i1SeS5-TJE-b3-w_2S7-F2WF6AiTcCrZaDu/pub?w=575&h=522)

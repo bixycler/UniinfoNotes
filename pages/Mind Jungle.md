@@ -3,12 +3,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665c82c0-ee06-4f43-95b8-73dbbe956080)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 	-
 	- ## `in`-`ex` partition
+	  collapsed:: true
 		-
 	- ## CIE
+	  collapsed:: true
 	  content/intent = extent
 		- Content
 		- Intent
 		- Extent
+	- ## UniinfoNotes
+	  id:: 666baccf-6be1-4b9a-b186-f883ea04daf1
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This note is in the ((666baccf-6be1-4b9a-b186-f883ea04daf1)) itself.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Hard links are used to share doc content between places.
+				- Because [Git doesn't preserve hard links](((666ba5a7-598a-4b66-86bd-b1622a28ada6))), let's try not to do write oprations like  `pull`, `checkout`, `reset`. When some repo must be overwritten, let's re-link these files.
+				- `pages/publish/Theme Demo.md` is hard-linked to other projects (graphs).
+				- `logseq/{config.edn,custom.css}` are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
@@ -180,11 +191,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Japanese name: LÊ Harusada
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
+	- ## Git
+	  id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
+	  collapsed:: true
+		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.git-scm.com/
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) is a [free and open source](https://www.git-scm.com/about/free-and-open-source) distributed version control system (VCS), which is now the most popular VCS in the world.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- File link: symbolic link (symlink) is supported by ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) but hard link is not.
+				- Symlink has portability problem between Linux and Windows.
+					- [From Windows 10+, symlink can be used](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/) when Developer mode is turned on.
+				- Hard link is not support (will be broken when ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) overwrites the link file), but ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) will let the hard link live as long as we don't do any write operation on that link file, e.g. `pull`, `checkout`, `reset`, etc.
+				  id:: 666ba5a7-598a-4b66-86bd-b1622a28ada6
 	- ## GitHub
 	  id:: 66536662-052f-46a4-a624-38858bffb334
 	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://github.com/
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/GitHub
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536662-052f-46a4-a624-38858bffb334)) is an online hub for ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 		- ((66536578-c4d3-43f1-b35c-bf71120f0570))'s profile: https://github.com/bixycler
 	- ## obsidian
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
@@ -734,6 +757,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/HTML
 	- ## Vacancy
 	  id:: 66600918-9f92-4730-b056-c2cd87a742aa
+	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66691d61-b8e9-4618-ac98-145056b646f4))
 		- Emptiness
 		  id:: 66691d61-b8e9-4618-ac98-145056b646f4
