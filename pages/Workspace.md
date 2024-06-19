@@ -18,6 +18,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
 		-
+		- ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d))
 		-
 		- WAIT ((6667c99a-792f-4230-9fc6-c5fae874daef))
 		  :LOGBOOK:
@@ -192,4 +193,18 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- DONE Modify Logseq theme
 			- so that ((66694be3-a924-4da8-af4c-bbba1c3e6fcc)) and scroll bar blends in;
 			- sync the light theme and the default theme with CreatZy theme: ((66698fb6-d9ac-423f-845c-0f0f5c93abf2))
-		-
+		- TODO Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
+		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
+		  :LOGBOOK:
+		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-20 Thu 16:39:46] =>  00:00:18
+		  :END:
+			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6673fb2f-ef98-484a-b289-b50482edea47))
+		- DONE Write [FoldableDemo.html](../assets/HTML/FoldableDemo.html)( ![src](../assets/HTML/FoldableDemo.html), showing `<details> <summary>` & CSS-only method) and [FolderDiv.html](../assets/HTML/FolderDiv.html)( ![src](../assets/HTML/FolderDiv.html), with custom element `<folder-div>`)
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-06-19 Wed 08:27:23]--[2024-06-20 Thu 16:31:09] =>  32:03:46
+		  :END:
+			- This unplanned work is [triggered by](((66600918-9f27-44c2-8188-f043c244710c))):
+				- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
+				  id:: 6673fb2f-ef98-484a-b289-b50482edea47
+				- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)

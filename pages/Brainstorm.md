@@ -225,7 +225,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- 4. Relaxed thread, constant velocity c, "straight/round", Turing machine, searching
 		- 5. Compressed 1-dir thread (temporal), nonzero acceleration/curvature, probability, AI, optimization toward 1 dir
 		- 6. Circular (2-dir) thread (spatial), negative velocity, quantum, AGI, uninet, perfection/balancing for all dirs
-	- Thread views: fractal circular blobs, tree, mountain range
+	- Thread ((66723642-58f1-4a74-bba3-0108f14c6bac))s: fractal circular blobs, tree, mountain range
 	  id:: 6662725e-0e8e-42ec-927f-0e53b996e20c
 	  collapsed:: true
 	  :LOGBOOK:
@@ -245,7 +245,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  id:: 6667d217-5269-4a34-8863-7fbb46e91ecc
 			- The prepositions can be viewed as heads of circles in a meta-space outside of this address space, hence they cannot be unfolded within this space and can only be understood (unfolded) in the meta-space.
 				- Instances of prepositions: constants in a formula, global objects in a local object (function), numbers as ids of mathematical objects as well as name of physical objects in computer, [objects of Will's `ex`-world in Will's world](((66600918-71e0-4cad-b37d-6ceacd7df5eb))).
-		- There are many different views of the same collection of objects, expressed as different address spaces.
+		- There are many different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same collection of objects, expressed as different address spaces.
 		  collapsed:: true
 			- An address space A can build its structure based on another meta-space B, where each address on A, called "name" (local name, logical address), is translated to an address on B, called "address" (full address, physical address), like in Markdown syntax `[local.name](address/to/target/object)`.
 			- That namespace A is in general orthogonal to the underlying address space B, but can also reuse some parts of B to create "natural names", i.e. the names following the underlying structure.

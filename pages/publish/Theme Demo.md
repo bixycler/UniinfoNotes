@@ -47,6 +47,22 @@ public: true
 	  logseq.order-list-type:: number
 	- two
 	  logseq.order-list-type:: number
+		- ey
+		  logseq.order-list-type:: number
+		- bee
+		  logseq.order-list-type:: number
+			- ai
+			  logseq.order-list-type:: number
+			- ai ai
+			  logseq.order-list-type:: number
+			- ai ai ai
+			  logseq.order-list-type:: number
+				- one
+				  logseq.order-list-type:: number
+			- ai vee
+			  logseq.order-list-type:: number
+		- see
+		  logseq.order-list-type:: number
 	- three
 	  logseq.order-list-type:: number
 	- unordered item in between!

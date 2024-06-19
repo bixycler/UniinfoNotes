@@ -77,3 +77,5 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 666a539d-499f-43c0-8b2e-74818cc3a0f5
 	- Screenshot:
 	  id:: 666a697a-6f40-4749-ab5b-03c82aeda1ee
+	- Example:
+	  id:: 66725725-f76a-4328-b162-f469b87e871b

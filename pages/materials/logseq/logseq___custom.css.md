@@ -389,7 +389,6 @@
 		  
 		  ```
 	- Block children guideline:
-	  collapsed:: true
 		- ```css
 		  .block-children-left-border:hover {
 		      background-color: var(--lx-gray-10,var(--ls-primary-text-color,var(--rx-gray-10)));

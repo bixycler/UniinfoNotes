@@ -2,6 +2,102 @@
 id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665c82c0-ee06-4f43-95b8-73dbbe956080)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 	-
+	- ## view
+	  id:: 66723642-58f1-4a74-bba3-0108f14c6bac
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a world projected by a sensor to a screen, a data structure, or an observer's mind. There are many different views of the same object when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single world, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a [worldview](https://en.wikipedia.org/wiki/Worldview), etc.
+		  id:: 6672364a-2cc2-4360-a174-1e4432c67a16
+		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
+		  collapsed:: true
+			- A ((66723642-58f1-4a74-bba3-0108f14c6bac)) in philosophy is a [perspective (point of view)](https://en.wikipedia.org/wiki/Perspectivism), which can be a [worldview](https://en.wikipedia.org/wiki/Worldview).
+			- The central doctrine in Jainism is [Anekāntavāda](https://en.wikipedia.org/wiki/Anekantavada) meaning not-one-side emphasizes the nature of many different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same thing.
+			- In Buddhism, a [view](https://en.wikipedia.org/wiki/View_(Buddhism)) is a product of [mental conditioning](https://en.wikipedia.org/wiki/Sankhara), and "[Right view](https://en.wikipedia.org/wiki/Noble_Eightfold_Path#Right_view)" is the neutral ((66723642-58f1-4a74-bba3-0108f14c6bac)) detached from all conditioning, escaped from the "jungle of views".
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		- ### viewpoint
+		  id:: 667272b8-88a8-4928-a22a-35035c9edf05
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66728236-5b19-425c-bb5f-dfc0dc8b79fd))
+			- center of projection
+			  id:: 66728236-5b19-425c-bb5f-dfc0dc8b79fd
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667272b8-88a8-4928-a22a-35035c9edf05))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667272b8-88a8-4928-a22a-35035c9edf05)) is the position of the sensor (of the subject) where the world is projected to the coresponding ((66723642-58f1-4a74-bba3-0108f14c6bac)).
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- "Point of view" is an ambiguous term, whose literal meaning is a ((667272b8-88a8-4928-a22a-35035c9edf05)), but its figurative meaning is a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)).
+		- ### view cone
+		  id:: 6672513b-c4b0-4c88-8b30-c60a3c6555a7
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2))
+			- viewcone
+			  id:: 667251ec-d4f7-4c09-adff-73e04a4b22ed
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			- perspective
+			  id:: 667259a0-aa2e-49fa-bcbd-b3768a9f30b2
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
+			  collapsed:: true
+				- A physical ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) is a [light cone](https://en.wikipedia.org/wiki/Light_cone).
+				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
+			- #### tree view
+			  id:: 667252dc-e610-4d07-bcd0-9ea6fb4499fd
+			  collapsed:: true
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) of a [network](https://en.wikipedia.org/wiki/Network_theory), representing a part of that network in a [tree structure](https://en.wikipedia.org/wiki/Tree_structure). In [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), [tree view](https://en.wikipedia.org/wiki/Tree_view) is a [graphical widget](https://en.wikipedia.org/wiki/Graphical_widget) showing the logical ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) to human eyes.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- Discussion with Gemini about [tree-view & DAG-view of graph](https://gemini.google.com/app/aa1f15a6b07a2d26)
+	- ## action
+	  id:: 66727858-979d-4d95-8a90-7a749218cfba
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6672785f-ac9e-42ba-921e-0264d0d83ae2))
+		- operation
+		  id:: 6672785f-ac9e-42ba-921e-0264d0d83ae2
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66727858-979d-4d95-8a90-7a749218cfba))
+		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
+		  collapsed:: true
+			- In Buddhism, ((66727858-979d-4d95-8a90-7a749218cfba)) is called [saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) meaning "formation", "conditioning".
+			- In physics, ((66727858-979d-4d95-8a90-7a749218cfba)) is called "[force](https://en.wikipedia.org/wiki/Force)" and [interaction](https://en.wikipedia.org/wiki/Fundamental_interaction). The "inter" in "interaction" means the duality of action as a ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
+			- Im mathematics, ((66727858-979d-4d95-8a90-7a749218cfba)) has many names: [operation](https://en.wikipedia.org/wiki/Operation_(mathematics)), [transformation](https://en.wikipedia.org/wiki/Transformation_(function)), [group action](https://en.wikipedia.org/wiki/Group_action).
+			- In Chinese philosophy, ((66727858-979d-4d95-8a90-7a749218cfba)) is called [行(hành)](https://en.wikipedia.org/wiki/Wuxing_(Chinese_philosophy)).
+	- ## view-control
+	  id:: 66725144-6bc9-4c9f-ba48-2cef02651e52
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66727388-ed2b-4f62-b8d7-ed70a0ad4ef3))
+		- viewcontrol
+		  id:: 66727388-ed2b-4f62-b8d7-ed70a0ad4ef3
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is the dual view of the 
+		  effect flow through any subject including both inward effect flow ( ((66723642-58f1-4a74-bba3-0108f14c6bac)), observation) and outward effect flow (control, operation, action).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Force = curvature => F_{in} + F_{ex} = 0 <=> my curvature + your curvature = 0 <=> |my distortion| = |your distortion|
+			  collapsed:: true
+				- Uniform me vs distorted you <=> distorted me vs uniform you.
+				  ```
+				  M:[--------|--------]
+				  W:[----|------------] F_ex = <--
+				  <=>
+				  M:[------------|----] F_in = -->
+				  W:[--------|--------]
+				  ```
+			- Every ((6672785f-ac9e-42ba-921e-0264d0d83ae2)), i.e. change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (transform), is a change of ((66723642-58f1-4a74-bba3-0108f14c6bac)) via the change of ((667272b8-88a8-4928-a22a-35035c9edf05)).
+			  collapsed:: true
+				- Traversal = listing = enumeration = moving the ((667272b8-88a8-4928-a22a-35035c9edf05)) across the object to view it in a linear view, i.e. thread-view.
+				- Finding = traversal for a target point-view.
+				- Search = traversal for a target ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
+				- Sort = change from object-view to thread-view.
+				- Organize = change from object-view to target ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
+				- Classification, categorization = change from object-view to class/property/category view.
+	- ## observer-operator
+	  id:: 667273fc-9314-4b9b-94bf-6a3d0f8ffe99
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66727437-fab6-4e57-8c0c-fced1b665548)), ((66727533-2566-490b-8694-f7de7882d9b1)), ((667277cf-2f88-419d-8342-e5bb20edf9a5))
+		- obop
+		  id:: 66727437-fab6-4e57-8c0c-fced1b665548
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667273fc-9314-4b9b-94bf-6a3d0f8ffe99))
+		- seer-doer
+		  id:: 66727533-2566-490b-8694-f7de7882d9b1
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667273fc-9314-4b9b-94bf-6a3d0f8ffe99))
+		- viewer-actor
+		  id:: 667277cf-2f88-419d-8342-e5bb20edf9a5
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667273fc-9314-4b9b-94bf-6a3d0f8ffe99))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667273fc-9314-4b9b-94bf-6a3d0f8ffe99)) is the dual role of any subject performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
 	- ## `in`-`ex` partition
 	  collapsed:: true
 		-
@@ -82,10 +178,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 665c9fb9-28e8-48e3-bd81-f773549f145d
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A foldable object, usually a block of text, is an object that can be folded (or collapsed, abstracted) into a brief like header, title, name, summary, and that brief can be unfolded (or expanded, extended) back to the full object. This is a technical implementation of the general ((66537674-6cf9-4459-8bea-7c1858c694a3)).
-		- Examples:
+		- ((66725725-f76a-4328-b162-f469b87e871b))
 			- Foldable [code block](https://en.wikipedia.org/wiki/Block_(programming))s in [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or blocks of text in [text editor](https://en.wikipedia.org/wiki/Text_editor)s
 			- The ((665361eb-5339-451e-957d-362b946d796d)) [`<summary>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) within the `<details>` tag
-			- [Directory](https://en.wikipedia.org/wiki/Directory_(computing)) in collapsible tree view
+			- [Directory](https://en.wikipedia.org/wiki/Directory_(computing)) in collapsible ((667252dc-e610-4d07-bcd0-9ea6fb4499fd))
 			- [File folder](https://en.wikipedia.org/wiki/File_folder) that holds [papers](https://en.wikipedia.org/wiki/Paper "Paper") together
 			- The [tab](https://en.wikipedia.org/wiki/Tab_(interface)) in [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
 		- In [Obsidian](https://help.obsidian.md/Editing+and+formatting/Folding):  Headings, indented blocks.
@@ -351,7 +447,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66536888-95d3-4d20-829c-b7ac2088dc29
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Knowledge_graph
-		- Examples: ((665364b1-e05c-46a6-a76b-c14cd73d1706)), ((665368c5-5c6f-44e4-a675-4a744252d32c))'s [Wikidata](https://en.wikipedia.org/wiki/Wikidata), Google's [Knowledge Graph](https://en.wikipedia.org/wiki/Google_Knowledge_Graph),  Microsoft's Satori, as well as the entity graphs of LinkedIn and Facebook.
+		- ((66725725-f76a-4328-b162-f469b87e871b)) ((665364b1-e05c-46a6-a76b-c14cd73d1706)), ((665368c5-5c6f-44e4-a675-4a744252d32c))'s [Wikidata](https://en.wikipedia.org/wiki/Wikidata), Google's [Knowledge Graph](https://en.wikipedia.org/wiki/Google_Knowledge_Graph),  Microsoft's Satori, as well as the entity graphs of LinkedIn and Facebook.
 	- ## personal knowledge base
 	  id:: 665364b1-e05c-46a6-a76b-c14cd73d1706
 	  collapsed:: true
@@ -580,19 +676,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- A task with status `DOING` will be time tracked in `:LOGBOOK:`.
 					- Switching to `DOING` (clicking `marker-switch` button) marks the start time, then switching to `TODO` (clicking `marker-switch` button) or `DONE` (clicking checkbox) marks the end time.
 					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext.
+			- Web API
+			  id:: 6673f8ff-995c-455f-ae09-49bcb5311e2e
+			  collapsed:: true
+				- Local server: [localhost:12315](http://localhost:12315)
+				- The JSON result of query `logseq.Editor.getBlock` is different from `Export graph` > `Export as JSON`.
+					- API returns a bare block with children are just UUIDs, not embedded JSON as the exported one.
 			- Logseq publish
+			  id:: 66600918-8c61-42af-b8a2-04bf05e9f782
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-06-11 Tue 10:35:39]
 			  CLOCK: [2024-06-11 Tue 10:36:22]--[2024-06-12 Wed 10:17:12] =>  23:40:50
 			  :END:
 				- Use the built-in feature "Export public pages".
+				  collapsed:: true
 					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
 					- So i customize `data-color=logseq` to match CreatZy theme.
 					  id:: 66698fb6-d9ac-423f-845c-0f0f5c93abf2
 					- [!] The built-in publisher still cannot handle assets (embedded or linked) other than embedded image.
 					  id:: 666a6673-0383-471a-ac42-c77c03dd96d7
 				- CANCELLED Use [publish-SPA](https://github.com/logseq/publish-spa) GitHub Action to publish to [GitHub Pages](https://bixycler.github.io/UniinfoNotes/).
+				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-06-11 Tue 10:37:00]
 				  :END:
@@ -610,8 +715,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  While running --cwd tldraw install
 							  
 							  ```
-				- Publish linear (long-form) docs with ((66695307-1334-426c-b953-3e006bc87d74))
+				- CANCELLED Publish linear (long-form) docs with ((66695307-1334-426c-b953-3e006bc87d74))
 				  id:: 66695280-1674-477a-b4ff-eb508aa679e0
+				- Because the exported SPA is too large (~90MB including Electron), it's better to write a ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d)).
 		- Settings: via [[logseq/config.edn]] and menu `Settings`
 		  collapsed:: true
 			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`) is logical, but confused & messy:
@@ -694,7 +800,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Markup_language
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A language to mark text content up with special marks and/or syntax to add metadata like meaning, style, structure to the document.
-		- Examples: ((665361eb-5339-451e-957d-362b946d796d)), ((6653624a-5679-4bc5-bd7e-fdee34516314)), ((66536274-abb0-4f8e-8fa1-da2d4224b7ff)), ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), ...
+		- ((66725725-f76a-4328-b162-f469b87e871b)) ((665361eb-5339-451e-957d-362b946d796d)), ((6653624a-5679-4bc5-bd7e-fdee34516314)), ((66536274-abb0-4f8e-8fa1-da2d4224b7ff)), ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), ...
 	- ## email
 	  id:: 66536383-8033-4105-8cbf-2c1316382df4
 	  collapsed:: true
