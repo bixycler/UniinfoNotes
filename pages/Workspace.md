@@ -1,24 +1,27 @@
 # Workspace
 id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)) for Will LE.
+	  id:: 66600918-2b2b-417e-910b-2a60fdba7918
 	- ***Pinned***
 	  id:: 66603d58-ff5b-4e23-8dad-5dba527981f4
 		- IN-PROGRESS Update ((66536e1b-6466-4153-90d6-583003d99a81)) while working.
+		  id:: 66600918-d4fa-4048-8a2a-8ead18e3575c
 		  :LOGBOOK:
 		  CLOCK: [2024-06-05 Wed 17:23:59]
 		  CLOCK: [2024-06-05 Wed 17:24:00]
 		  CLOCK: [2024-06-05 Wed 17:24:12]
 		  :END:
-	-
+	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
-		-
-		-
-		-
+		- id:: 6667c8e4-c0fc-4f3e-9a9d-f6d43839d5a6
+		- id:: 6669a3bd-7059-4e5a-b21b-d96cb3288557
+		- id:: 6669a3bd-5b32-4088-982a-2c359b66610d
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
 		-
 		- ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d))
+		  id:: 6669a3bd-e120-4fe3-a639-dee08472338d
 		-
 		- WAIT ((6667c99a-792f-4230-9fc6-c5fae874daef))
 		  :LOGBOOK:
@@ -43,6 +46,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- Dynamic variable `<% today %>`: {{query <% today %> }}
 			  collapsed:: true
 		- [!] Time is always gone too fast! :(
+		  id:: 66600918-315b-4f6c-970b-3039ac8ef912
 		-
 	- ## Questions
 	  id:: 6651adea-f2f6-4c9e-80b4-ece0bb5038fb
@@ -54,6 +58,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## History
 	  id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		- DONE Import [[Unïnfo Theory]] from ((66536662-052f-46a4-a624-38858bffb334)) with ((665376f4-9335-4d38-843f-a4cf6ef6cd10)) ✅ 2024-05-18
+		  id:: 66600918-db5b-43cb-9ce2-c88487b817a3
 		- DONE Sync PC with mobile via GitHub & ((6653743f-8847-4b24-8c21-795c87254eb2)) ✅ 2024-05-19
 		  collapsed:: true
 			- [Instruction on Redit](https://www.reddit.com/r/ObsidianMD/comments/17odzjb/obsidian_android_syncing_via_github_in_2023/)
@@ -68,6 +73,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- DONE Install theme for custom statuses ✅ 2024-05-21
 		- DONE Add themes & [[Theme Demo]] ✅ 2024-05-21
 		- Thanks to Obsidian's core plugin "Unique note creator", I'm introduced to the very old method of [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) (card file, slip box) with the software [NoteCards](https://en.wikipedia.org/wiki/NoteCards), from 1984, as the origin the modern ((66536a32-fddd-465f-a47f-fa8e0ea9c8db))].
+		  id:: 66600918-0d55-4778-abea-c2786f2928fd
 		- DONE Logging all activities (on Obsidian) & design workflow for dashboard
 		  id:: 66600918-8052-4513-8c1d-a467b3036fea
 		  collapsed:: true
@@ -111,6 +117,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- regenerate metadata like timestamps.
 			- Rebuild search index just rebuild the index for search function.
 		- DONE Migrate wiki pages to text blocks
+		  id:: 66600918-668a-49a6-ab23-ead39fc1cc80
 		- DONE Add `alias of`, `form of`, `name of`, `from`, `to`
 		  id:: 665cb063-d8b5-461e-9dcd-12bb85db1ee7
 		- CANCELLED Auto-convert between links: wikilink, markdown link, external link
@@ -176,14 +183,17 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- And update [[Theme Demo]] with Logseq's tasks.
 		- DONE Make folded blocks more hilited: ((665f0ecc-3046-4602-a0cb-d557baab53ba))
 		- DONE Pin ((66536e1b-6466-4153-90d6-583003d99a81)) to Workspace's ((66603d58-ff5b-4e23-8dad-5dba527981f4)).
+		  id:: 66600918-d7dd-45cd-8a6f-117321fafbd9
 		  collapsed:: true
 			- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) the "pinned tab" feature of `logseq-tabs` do not support different pinned tabs in different workspaces (graphs).
 		- DONE Reduce brightness of the underline of block ref, because block refs are used intensively.
+		  id:: 666044a5-4f15-4010-abd0-932a659188e0
 		  :LOGBOOK:
 		  CLOCK: [2024-06-05 Wed 17:57:52]--[2024-06-05 Wed 17:59:56] =>  00:02:04
 		  :END:
 		- DONE (Re)define 2 workflows in [`logseq-custom-workflows`](((66602f1d-a572-4fe8-997f-0fae15c6a3de))).
 		- DONE Adjust style of ((666136d7-d118-464d-826c-9f842b267a3a)) so that it's completely blend with the surrounding context.
+		  id:: 66606c4f-bd15-48e3-b971-006aae224bb5
 		  collapsed:: true
 			- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) embedded block is transparent, i.e. its content can be edited right at the embedding site.
 		- DONE ((6662725e-0e8e-42ec-927f-0e53b996e20c))
@@ -208,4 +218,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
 				  id:: 6673fb2f-ef98-484a-b289-b50482edea47
 				- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
+		- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.Editor.getBlock`)
+		  id:: 6675860a-c135-4a92-b4fe-206ebde974ff
+		  :LOGBOOK:
+		  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
+		  :END:
 -

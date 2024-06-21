@@ -1,6 +1,7 @@
 # Mind Jungle
 id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665c82c0-ee06-4f43-95b8-73dbbe956080)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
+	  id:: 66600918-70a9-49da-ac23-5bfbbf006854
 	-
 	-
 	- ## CombiNat
@@ -26,6 +27,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66728236-5b19-425c-bb5f-dfc0dc8b79fd
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667272b8-88a8-4928-a22a-35035c9edf05))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667272b8-88a8-4928-a22a-35035c9edf05)) is the position of the sensor (of the subject) where the world is projected to the coresponding ((66723642-58f1-4a74-bba3-0108f14c6bac)).
+			  id:: 66728162-7ad9-4b46-b7ce-dfffc58254bc
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- "Point of view" is an ambiguous term, whose literal meaning is a ((667272b8-88a8-4928-a22a-35035c9edf05)), but its figurative meaning is a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)).
 		- ### view cone
@@ -157,7 +159,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Like ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)), a ((66752fbf-a751-4117-ae0d-17d9a19053e4)) shows internal structure of a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- Representation:
+				  id:: 66752fca-96b5-46a0-9b66-c825cc1de9c7
 					- Graphically, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Euler diagram](https://en.wikipedia.org/wiki/Euler_diagram), [nested set collection](https://en.wikipedia.org/wiki/Nested_set_collection), [treemapping](https://en.wikipedia.org/wiki/Treemapping).
+					  id:: 66753405-9afe-478e-abd2-f43100e21c33
 					- Textually, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Dyck word](https://en.wikipedia.org/wiki/Dyck_language) and ((6675369a-1d13-48c5-8a77-d588aa8b59b8)).
 	- ## action
 	  id:: 66727858-979d-4d95-8a90-7a749218cfba
