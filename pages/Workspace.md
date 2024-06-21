@@ -208,3 +208,4 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
 				  id:: 6673fb2f-ef98-484a-b289-b50482edea47
 				- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
+-

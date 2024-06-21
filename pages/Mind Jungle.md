@@ -2,6 +2,11 @@
 id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665c82c0-ee06-4f43-95b8-73dbbe956080)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 	-
+	-
+	- ## CombiNat
+	  id:: 6675369a-1d13-48c5-8a77-d588aa8b59b8
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
 	- ## view
 	  id:: 66723642-58f1-4a74-bba3-0108f14c6bac
 	  collapsed:: true
@@ -40,9 +45,120 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- #### tree view
 			  id:: 667252dc-e610-4d07-bcd0-9ea6fb4499fd
 			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-21 Fri 15:28:24]
+			  :END:
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) of a [network](https://en.wikipedia.org/wiki/Network_theory), representing a part of that network in a [tree structure](https://en.wikipedia.org/wiki/Tree_structure). In [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), [tree view](https://en.wikipedia.org/wiki/Tree_view) is a [graphical widget](https://en.wikipedia.org/wiki/Graphical_widget) showing the logical ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) to human eyes.
+				- Structure:
+				  id:: 667530ed-809b-4d38-8522-1ae6c8449e28
+				  :LOGBOOK:
+				  CLOCK: [2024-06-21 Fri 15:32:49]
+				  :END:
+					- [Branch](https://en.wikipedia.org/wiki/Branch) = stem node (including branch stalk) + [stem line](https://en.wikipedia.org/wiki/Plant_stem) + sub-branches
+					  collapsed:: true
+						- Bud = collapsed branch
+						  collapsed:: true
+							- Abuse of language with "node"
+							  collapsed:: true
+								- Bud = collapsed node
+								- Branch = expanded node
+						- [!] In [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))), each edge/link is usually called a "branch" which is confused. Actually, each edge is a stalk, and a branch (or a [shoot](https://en.wikipedia.org/wiki/Shoot_(botany))) is the whole subtree.
+						- [!] The whole branch is also called a "[shoot](https://en.wikipedia.org/wiki/Shoot_(botany))", but normally "shoot" is just the young part at the tip of a branch.
+					- Stem node = the node at the base of the branch = the point where this branch is branched off from its stem.
+					- Stem line = internode segments + node branching points
+					- Node = node stalk (branch gap) + node body (nodal ring)
+					  collapsed:: true
+						- Internal node = (branch) stem node -> branch stalk
+						- Terminal node = leaf node -> leaf stalk
+						- If stem node is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of the whole branch, then node stalk is a further abstraction of that node.
+							- ((66752164-1227-490c-8182-7949e4eb501d))
+					- Tree = largest branch: base node (root node) = stem node of tree
+					  collapsed:: true
+						- [!] "root node" is an abuse of language, because the root system is not a node but another tree mirroring the shoot system.
+						- Branch is intermediate between the large tree and the small shoot.
+				- Representation:
+				  :LOGBOOK:
+				  CLOCK: [2024-06-21 Fri 15:32:54]
+				  :END:
+					- 3 styles of tree diagrams
+					  id:: 667500cd-a31d-4828-9dc4-93948e27e534
+					  collapsed:: true
+						- These [diagrams](https://docs.google.com/drawings/d/1zFtVcP_RBC5iGsfqpPvhjYEef9zg2ZSrEsjABb5qgOE) show different [components](((667530ed-809b-4d38-8522-1ae6c8449e28))).
+						  ![Tree diagrams](https://docs.google.com/drawings/d/e/2PACX-1vQJx4zwkWxi4NfSgmP_7bQDHRJHOvNC2ogW5AwHTgTAukPOgr28PviR_A-Aoy8QD559WXyKpgrJ3u_Q/pub?w=758&h=650)
+						- Triangular [phylogenetic tree](https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phylogenetic-tree) is closest to the [biological tree](((667502e5-b83a-4d2a-a801-34e7bcfa6b38))): The nodes are right on the stem line, and they are also branching points (or branch points). So, there are no branch stalks but only leaf stalks.
+						  id:: 66750135-8c59-477c-8baf-cb3898d54559
+						- [GUI tree view](https://en.wikipedia.org/wiki/Tree_view) is similar to [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but each node are separated from the stem line by a node stalk, either branch stalk or leaf stalk. That means the branching point is now separated from the node and is the joint between the stem line and the stalk. 
+						  id:: 66750416-093a-4042-bb6d-78702c219c36
+							- The stalk can be represented by a short line, an arrow, or an icon.
+							  id:: 66752164-1227-490c-8182-7949e4eb501d
+							- There's an artistic style of tree view where stem line is drawn as a long brace `{` and its stem node is placed in the middle.
+							  id:: 6675279b-214e-43e4-81b9-14b43026ec67
+							  collapsed:: true
+								- ![ENC_SYSTEME_FIGURE.jpeg](https://upload.wikimedia.org/wikipedia/commons/5/58/ENC_SYSTEME_FIGURE.jpeg)
+						- [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the border of the stem node, called "stem circle", thus all branch edges are actually node stalks. The shape of data structure tree is similar to the [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but the meaning of edges is very different, so don't be confused between a linear stem line with an exponential series of stalks (branch edges): While each edge in phylogenetic tree is an internode segment, each edge in data structure tree is a stalk.
+						  id:: 66751015-5c34-493e-9663-4f0f5234b66e
+							- There's an artistic style of structure tree, usually used in [mind map](https://en.wikipedia.org/wiki/Mind_map)s, where the node is collapsed into a branching point and its stalk is used to name/describe that node.
+							  collapsed:: true
+								- ![Snag_MindMap.png](../assets/GUI/Snag_MindMap.png)
+								- Another style renders similar to [an artistic style of tree view](((6675279b-214e-43e4-81b9-14b43026ec67)))
+								  ![Cranial_nerves.PNG](https://upload.wikimedia.org/wikipedia/commons/3/39/Cranial_nerves.PNG)
+						- Collected diagrams with annotation
+						  collapsed:: true
+							- ![Folder_Tree_View.png](../assets/GUI/Folder_Tree_View.png)
+							- ![horizontal-tree-view-blanced.png](../assets/GUI/horizontal-tree-view-blanced.png)
+							- ![PhylogeneticTree.png](../assets/ecosystem/PhylogeneticTree.png)
+					- Beside [tree diagrams](((66752fbf-a751-4117-ae0d-17d9a19053e4))), a [tree structure](https://en.wikipedia.org/wiki/Tree_structure) can be represented by ((66752fbf-a751-4117-ae0d-17d9a19053e4)).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- Discussion with Gemini about [tree-view & DAG-view of graph](https://gemini.google.com/app/aa1f15a6b07a2d26)
+					- components of a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd))
+					  id:: 6674066a-aeff-45af-96df-b0c2f278a2ae
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2024-06-21 Fri 15:33:13]
+					  :END:
+						- Discussion with Gemini about [Name of lines in Tree View](https://gemini.google.com/app/88d6d204c956507b)
+						- ((66600918-9f27-44c2-8188-f043c244710c)) ((667407ee-35ae-4d6f-8b58-89c19c0e0936)), i name the components like [this](((667530ed-809b-4d38-8522-1ae6c8449e28))).
+					- tree anatomy
+					  id:: 667407ee-35ae-4d6f-8b58-89c19c0e0936
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2024-06-21 Fri 15:33:06]
+					  :END:
+						- ![Tree Anatomy: Defining Trees & Forms](../assets/ecosystem/Tree Anatomy.pdf) from University of Geogia hosted by [BugwoodCloud.org](https://bugwoodcloud.org/resource/files/25389.pdf)
+						- [Britannica: Tree: Tree structure and growth](https://www.britannica.com/plant/tree/Tree-structure-and-growth)
+						- anatomy of a tree branch (shoot)
+						  id:: 667502e5-b83a-4d2a-a801-34e7bcfa6b38
+						  collapsed:: true
+							- ![TreeBranches.png](../assets/ecosystem/TreeBranches.png)
+						- Vietnamese terms:
+						  collapsed:: true
+							- tree: cây
+							- tree base (stump): gốc cây
+							- root: rễ
+							- bole: thân
+							- trunk = stem of tree: sống cây
+							- stem: sống cành
+							- bough (limb): cành
+							- branch: nhánh
+							- twig (branchlet): nhánh con
+							- stalk: cuống
+							- bud: chồi
+								- flower bud: nụ hoa
+							- shoot: lộc
+							- leaf: lá
+							- flower: hoa, bông
+							- fruit: quả, trái
+							- seed: hạt, hột
+			- nested viewcone
+			  id:: 66752fbf-a751-4117-ae0d-17d9a19053e4
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-21 Fri 15:28:09]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Like ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)), a ((66752fbf-a751-4117-ae0d-17d9a19053e4)) shows internal structure of a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
+				- Representation:
+					- Graphically, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Euler diagram](https://en.wikipedia.org/wiki/Euler_diagram), [nested set collection](https://en.wikipedia.org/wiki/Nested_set_collection), [treemapping](https://en.wikipedia.org/wiki/Treemapping).
+					- Textually, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Dyck word](https://en.wikipedia.org/wiki/Dyck_language) and ((6675369a-1d13-48c5-8a77-d588aa8b59b8)).
 	- ## action
 	  id:: 66727858-979d-4d95-8a90-7a749218cfba
 	  collapsed:: true
@@ -861,6 +977,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665361eb-5339-451e-957d-362b946d796d
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/HTML
+		- Flexbox
+			- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+		- Web Components
+			- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) provides good guides and API refs.
+			- [Custom elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)
+				- [Custom states](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet) can be exposed for external CSS to use, e.g. ``
+				  collapsed:: true
+					- The new pseudo class [`:state()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:state) is too new (from Chrome 125, Feb 2024), so we may need to wait or use [the fallback to the deprecated `:--double-dash-custom-state`](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet#compability_with_dashed-ident_syntax).
+			- [Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM)
+			- [Templates and slots](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots)
+		- ### CSS
+			-
 	- ## Vacancy
 	  id:: 66600918-9f92-4730-b056-c2cd87a742aa
 	  collapsed:: true
