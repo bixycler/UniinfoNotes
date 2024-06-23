@@ -4,6 +4,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66600918-70a9-49da-ac23-5bfbbf006854
 	-
 	-
+	- ## ItelliJ
+		- Settings
+		  collapsed:: true
+			- Spell checking
+			  collapsed:: true
+				- Disable spell checking for codes
+				  collapsed:: true
+					- `Settings` > `Editor` > `Inspections` > `Spelling` > `Typo` > `Options` > uncheck `Process code` and `Process literals`
 	- ## CombiNat
 	  id:: 6675369a-1d13-48c5-8a77-d588aa8b59b8
 	  collapsed:: true
@@ -330,6 +338,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Rūpa
 		- E.g. [Buddhist form](https://en.wikipedia.org/wiki/Rūpa) in the pair "name & form", [logical form](https://en.wikipedia.org/wiki/Logical_form), Plato's [ideal form](https://en.wikipedia.org/wiki/Theory_of_forms), Marx' [form of value](https://en.wikipedia.org/wiki/Value-form), etc.
+		- conformation
+		  id:: 6678282b-d710-4c6b-b584-5f65012c192d
+			- When a ((6678288e-699b-4325-bdba-bf6349fe0d57)) nearing a ((665ca429-84e3-49ff-921e-c07d19cd99ba)), the distortion of space in that form makes the content seem to follow the form.
+			  collapsed:: true
+				- {{video https://youtu.be/Og4sxXfUC0Y}}
+			- Links: [fb post in Nov 2023](https://www.facebook.com/lexuandinhct/videos/728404692637310), [GeoGebra applet](https://www.geogebra.org/m/j7czr4s5)
+	- ## content
+	  id:: 6678288e-699b-4325-bdba-bf6349fe0d57
 		-
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
@@ -686,6 +702,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  </a>
 					  ```
 				- Solution: edit `custom.css` so that
+				  collapsed:: true
 					- CANCELLED arrow control of collapsed block won't be hidden, just like in ((66535660-643e-471a-a332-8f2306c5494f)).
 					  collapsed:: true
 						- The arrow control of the expanded block should also be shown, in order to not confuse the reader of that expanded block (in a quick glance the arrow of the closed block above can be confused as the control of this expanded block).
@@ -712,11 +729,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Workflow 1: `(TODO -> WAIT) <-> DOING -> DONE` with `Ctrl Enter` for forward phase and  `Ctrl Shift Enter` for backward phase.
 					  collapsed:: true
-						- Forward: `Ctrl Enter` for plaintext -> `TODO` (planned) -> `DOING` (started, start-time logged)
+						- Forward: `Ctrl Enter` for plaintext -> `TODO` (planned) -> `DOING` (started, start-time logged) -> `DONE`
 							- Just start without planning: `Alt Enter` for plaintext -> `DOING` (started, start-time logged)
-						- Backward: `Ctrl Shift Enter` for `DOING` -> `TODO` -> `WAIT` (paused, end-time logged)
+						- Backward: `Ctrl Shift Enter` for `DONE` -> `DOING` -> `TODO` -> `WAIT` (paused, end-time logged) -> plaintext
+						  id:: 666d71cc-c390-4d0e-9e95-950c257e387e
+							- Using GUI, click `DOING` -> `TODO`, or click `DONE` -> `TODO`, then `Ctrl Shift Enter` for  `TODO` -> `WAIT`
 						- Re-forward: `Ctrl Enter` for `WAIT` -> `TODO` -> `DOING` (restarted, restart-time logged)
-						- Re-backward, ...
+						- Re-backward, and so on...
 						- Finally click checkbox for -> `DONE` (stopped, end-time logged)
 					- Workflow 2: `plaintext <-> DOING` with `Alt Enter` for time tracking of plaintext.
 					  collapsed:: true
@@ -800,6 +819,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6673f8ff-995c-455f-ae09-49bcb5311e2e
 			  collapsed:: true
 				- Local server: [localhost:12315](http://localhost:12315)
+				  collapsed:: true
 				- The JSON result of query `logseq.Editor.getBlock` is different from `Export graph` > `Export as JSON`.
 					- API returns a bare block with children are just UUIDs, not embedded JSON as the exported one.
 			- Logseq publish
@@ -876,6 +896,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1)) Most of the apps there are task-centric.
 		- Software
+		  collapsed:: true
 			- A forum dedicated to outliners: [OutlinerSoftware](https://www.outlinersoftware.com/)
 			- ((66536e1b-6466-4153-90d6-583003d99a81)) is an [open-source](https://github.com/logseq/logseq) outliner based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
 			- [em](https://github.com/cybersemics/em/wiki/Docs) is a process-oriented note-taking app with tree view & graph links, sophisticated with navigation operations.

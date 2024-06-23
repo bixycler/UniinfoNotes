@@ -34,46 +34,56 @@ async function getBlock(forced) {
     let iid = Number(id); if (!isNaN(iid)) { id = iid; }
 
     // call logseq.Editor.getBlock
-    let reqBody = structuredClone(RequestBody);
-    reqBody.method = 'logseq.Editor.getBlock';
-    reqBody.args[0] = id;
-    let res = await fetch(ApiEndpoint, {method:'POST', headers:RequestHeaders,
-        body: JSON.stringify(reqBody) });
-    //console.debug('fetch(',reqBody,'):',res);
-    if (!res.ok) {
-        console.log('Fetch error:',res);
-        showMessage(getBlockMsg, res.statusText, 'Error');
-        return;
-    } else {
-        getBlockMsg.innerHTML = '';
-        getBlockMsg.style.display = 'none';
+    let req = structuredClone(RequestBody);
+    req.method = 'logseq.Editor.getBlock';
+    req.args[0] = id;
+    let res = await logseqQuery(req, getBlockMsg);
+    //console.debug('Block result:',res);
+    if (!res) {
+        // fall back to getPage
+        req.method = 'logseq.Editor.getPage';
+        res = await logseqQuery(req, getBlockMsg);
+        //console.debug('Page result:',res);
+        if (!res) {
+            showMessage(getBlockMsg, 'No result!', 'Error');
+            return;
+        }
     }
 
     // display result
-    res = await res.json();
-    //console.debug('result:',res);
-    if (!res) {
-        showMessage(getBlockMsg, 'No result!', 'Error');
-        return;
+    let resType = 'block'; getBlockResContentType.innerHTML = '';
+    if (res.originalName) {
+        resType = 'page';
+        getBlockResContentType.innerHTML = `[${resType}: ${res.originalName}]`; delete res.originalName;
     }
-    let cm = splitContentMeta(res.content); delete res.content;
+    if (res.path) {
+        resType = 'file';
+        getBlockResContentType.innerHTML = `[${resType}: ${res.path}]`; delete res.path;
+    }
+    if (res.content) {
+        let cm = splitContentMeta(res.content); delete res.content;
         getBlockResContent.value = cm.content;
         getBlockResMeta.value = cm.meta;
-    getBlockResId.value = res.id; delete res.id;
-    getBlockResUuid.value = res.uuid; delete res.uuid;
-    getBlockResParent.value = res.parent.id; delete res.parent;
-    let backRefs = '';
+    } else { getBlockResContent.value = ''; getBlockResMeta.value = ''; }
+    getBlockResId.value = res.id ? res.id : ''; delete res.id;
+    getBlockResUuid.value = res.uuid ? res.uuid : ''; delete res.uuid;
+    if (res.parent) { getBlockResParent.value = res.parent.id; delete res.parent;
+    } else if (res.file) { getBlockResParent.value = res.file.id; delete res.file;
+    } else { getBlockResParent.value = ''; }
+    let refs = '';
     if (res.refs) {
-        backRefs = res.refs.length+': ';
+        refs = res.refs.length+': ';
         for (let id of res.refs) {
-            backRefs += id.id+' ';
+            refs += id.id+' ';
         }
     }
-    getBlockResRefs.value = backRefs; delete res.refs; delete res.pathRefs;
-    if (res.createdAt && res.updatedAt) {
-        getBlockResCreated.value = new Date(res.createdAt).toUTCString(); delete res.createdAt;
+    getBlockResRefs.value = refs; delete res.refs; delete res.pathRefs;
+    getBlockResCreated.value = res.createdAt ? new Date(res.createdAt).toUTCString() : ''; delete res.createdAt;
+    if (res.updatedAt) {
         getBlockResUpdated.value = new Date(res.updatedAt).toUTCString(); delete res.updatedAt;
-    } else { getBlockResCreated.value = ''; getBlockResUpdated.value = ''; }
+    } else if (res.lastModifiedAt) {
+        getBlockResUpdated.value = res.lastModifiedAt; delete res.lastModifiedAt;
+    } else { getBlockResUpdated.value = ''; }
     console.debug('Result other info:',res);
     getBlockResJson.value = JSON.stringify(res, null, 2);
 
@@ -89,6 +99,22 @@ function splitContentMeta(content) {
     if (metaLnPos < 0) { metaLnPos = metaPos == content.length ? metaPos : 0; }
     res.content = content.slice(0, metaLnPos);
     res.meta = content.slice(metaLnPos, content.length);
+    return res;
+}
+
+async function logseqQuery(reqBody, msgDom) {
+    let res = await fetch(ApiEndpoint, {method:'POST', headers:RequestHeaders,
+        body: JSON.stringify(reqBody) });
+    //console.debug('fetch(',reqBody,'):',res);
+    if (!res.ok) {
+        console.log('Fetch error:',res);
+        showMessage(msgDom, res.statusText, 'Error');
+        return;
+    } else {
+        msgDom.innerHTML = '';
+        msgDom.style.display = 'none';
+    }
+    res = await res.json();
     return res;
 }
 

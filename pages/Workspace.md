@@ -4,26 +4,50 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	  id:: 66600918-2b2b-417e-910b-2a60fdba7918
 	- ***Pinned***
 	  id:: 66603d58-ff5b-4e23-8dad-5dba527981f4
-		- IN-PROGRESS Update ((66536e1b-6466-4153-90d6-583003d99a81)) while working.
-		  id:: 66600918-d4fa-4048-8a2a-8ead18e3575c
-		  :LOGBOOK:
-		  CLOCK: [2024-06-05 Wed 17:23:59]
-		  CLOCK: [2024-06-05 Wed 17:24:00]
-		  CLOCK: [2024-06-05 Wed 17:24:12]
-		  :END:
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
-		- id:: 6667c8e4-c0fc-4f3e-9a9d-f6d43839d5a6
+		-
+		- TODO Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs)
+		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
+		  :LOGBOOK:
+		  CLOCK: [2024-06-23 Sun 16:26:28]
+		  :END:
+		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
+		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
+		  :LOGBOOK:
+		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =>  71:47:28
+		  :END:
+			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6673fb2f-ef98-484a-b289-b50482edea47))
+			- DONE Write [FoldableDemo.html](../assets/HTML/FoldableDemo.html)( ![src](../assets/HTML/FoldableDemo.html), showing `<details> <summary>` & CSS-only method) and [FolderDiv.html](../assets/HTML/FolderDiv.html)( ![src](../assets/HTML/FolderDiv.html), with custom element `<folder-div>`)
+			  id:: 6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-19 Wed 08:27:23]--[2024-06-20 Thu 16:31:09] =>  32:03:46
+			  :END:
+				- This unplanned work is [triggered by](((66600918-9f27-44c2-8188-f043c244710c))):
+					- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
+					  id:: 6673fb2f-ef98-484a-b289-b50482edea47
+					- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
+			- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.Editor.getBlock`)
+			  id:: 6675860a-c135-4a92-b4fe-206ebde974ff
+			  :LOGBOOK:
+			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
+			  CLOCK: [2024-06-23 Sun 15:00:17]--[2024-06-23 Sun 15:51:18] =>  00:51:01
+			  :END:
 		- id:: 6669a3bd-7059-4e5a-b21b-d96cb3288557
 		- id:: 6669a3bd-5b32-4088-982a-2c359b66610d
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
 		-
-		- ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d))
-		  id:: 6669a3bd-e120-4fe3-a639-dee08472338d
+		- TODO Add plaintext to ((666d71cc-c390-4d0e-9e95-950c257e387e))
+		  id:: 6677e42f-06a8-4d04-b068-24d46c70cf51
+		  :LOGBOOK:
+		  CLOCK: [2024-06-23 Sun 16:00:48]--[2024-06-23 Sun 16:01:11] =>  00:00:23
+		  :END:
 		-
 		- WAIT ((6667c99a-792f-4230-9fc6-c5fae874daef))
+		  id:: 666d71cd-20bd-4f24-b055-940eebf44591
 		  :LOGBOOK:
 		  CLOCK: [2024-06-11 Tue 10:58:26]--[2024-06-11 Tue 10:58:27] =>  00:00:01
 		  :END:
@@ -33,6 +57,61 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Problems
 	  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
 		-
+		- [!] The clash between internal work and external work
+		  id:: 6677b986-ada2-4c73-8a11-980cdf9cb6d4
+		  collapsed:: true
+			- As i dive deep inside, it's hard to surface up to do external works, hence many delays in (official) works.
+			- When i interrupt the internal work, my self is fragmented, heavy, lack motivation to do anything.
+			- Perfectionism: The requirement that my self must be smooth, full, round, coherent, unfragmented is the sign of perfectionism.
+			  collapsed:: true
+				- First, let's refine the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works.
+				  id:: 6677bc01-44ec-4e4a-aeed-d63996bc0c46
+				- Sublime & transform: a technique of refinement is using breathwork to dissolve, to sublimate the hard circle into a fluid (qi, khí, 氣), then use qigong (氣功) to transform & channel the fluid to the required target form.
+				  id:: 6677bc58-68f5-4c6a-a08e-4417a9b8ac84
+				  collapsed:: true
+					- I discovered sublimation first (from [the start of February](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice), but without proper transformation & channeling, i've been struck by a serious lung disease (pneumonia, from the end of Mars to April).
+					  collapsed:: true
+						- ![Pneumonia_2024-04.jpg](../assets/Will/Pneumonia_2024-04.jpg)
+					- Throughout the weeks facing that lung inflammation (with blood coughing), i've discovered
+					  collapsed:: true
+						- the qigong technique to transform the qi,
+						- the key point in my chest to control the cough reflex, and
+						- revisit the formless meditation to deal with serious pain (my first application was at the previous serious illness of herpes zoster/zona).
+				- The illusion of "finish soon"
+				  collapsed:: true
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When we feel something is finishing soon, we concentrate more on it, put all of our effort to it to get it finished... until we're out of resource and recognize that it's still far from the finish line.
+					- Like the first experience of ["this is not the true peak"](https://www.facebook.com/lexuandinhct/posts/pfbid02eArjSbGz7GhpU2aFwh2qia53BcuwhstSE263jXVvf9tamUbL2K2JCF2LD97RQQ4ql) when i climbed mount Núi Lớn, Vũng Tàu, when i was a child, until now, that illusion is still haunting me.
+					- In gambling/game psychology, it's called "[near-miss effect](https://www.psychologyofgames.com/2016/09/the-near-miss-effect-and-game-rewards/)".
+					  collapsed:: true
+						- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) [chat with Gemini](https://gemini.google.com/app/bdba2d82588d8307)
+					- This [cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) is just a kind of distortion in perspective view (projective/inversive geometry): 1/∞ = 0.
+					  collapsed:: true
+						- Our view is always distorted so that the far end always look shorter. So, when the goal is clearly visible to us, we can't help seeing the distance to it is short even if it's at infinity, just like the Moon looks very close to us at the horizon like "just some arms away".
+					- The opposite of near-miss effect is the goal-fog effect where we lose motivation to reach a very near goal due to the obscurity of that goal.
+				- The effort justification & sunk-cost fallacy
+				  collapsed:: true
+					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
+				- The ((6678282b-d710-4c6b-b584-5f65012c192d)) effect
+				  collapsed:: true
+					- The great momentum of the past is the internal form.
+					  collapsed:: true
+						- Just be mindful that we don't lose that momentum when we switch to other works, just put it down to be picked up later on.
+					- The clearly visible goal of the future is the external form.
+					  collapsed:: true
+						- The clarity of the goal shows that it's very large, like the Sun & Moon, hence a form outside.
+						- Just be mindful that although it's worth pursuing, it's still very far.
+					- The [refinement](((6677bc01-44ec-4e4a-aeed-d63996bc0c46))) is to divide the form, the [sublime & transform](((6677bc58-68f5-4c6a-a08e-4417a9b8ac84))) is to dissolve the form and direct it to the new form.
+					- Mindfulness as a hole-punching tool to escape the form.
+					  collapsed:: true
+						- The tantric practice shows that both the accumulation of momentum and the "finish soon" effect require ignorance in the form of attachment to the external signal (sign of the goal).
+						- Unmindfulness of the internal momentum makes it push us from behind and control us.
+						- Unmindfulness of the illusion of the external signal makes it feel near outside while in fact it's near inside and very far outside. That's because the signal outside is just the image/shadow of the goal inside.
+						  collapsed:: true
+							- This discrepancy forces all of us to chase shadows from life to life.
+			- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing internal load so that i can switch easier.
+		- [!] The issue of love, i.e. emotional attatchment
+		  collapsed:: true
+			- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
 		- [!] The barrier between workspaces ("graphs" in Logseq)
 		  collapsed:: true
 			- In Logseq, ((665fe765-2bb7-4392-9140-10e187f0f208))
@@ -87,6 +166,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- However the block embedding is in ((66535660-643e-471a-a332-8f2306c5494f)) is messy with broken layout.
 					- ((66536d32-30ad-4c07-8585-76ae9eb7fb22))s like ((66536e1b-6466-4153-90d6-583003d99a81)), [Dynalist](https://dynalist.io/), [Checkvist](https://checkvist.com/), [Legend](https://legendapp.com/) is much better at this block-based management and [transclusion](https://en.wikipedia.org/wiki/Transclusion).
 				- Hash ids:
+				  collapsed:: true
 					- UUID used by ((66536e1b-6466-4153-90d6-583003d99a81))
 					- Concatenated hash, e.g. `a123lkj_lkjfa121_comment`, used by Legend
 					- Short hash used by ((66535660-643e-471a-a332-8f2306c5494f))
@@ -128,7 +208,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- ((66537405-7c71-4a5e-abb4-996a146bb52c))
 			- Docs can be published right [from Logseq](((66695280-1674-477a-b4ff-eb508aa679e0))).
 		- DONE Back to work of company!
-		  id:: 665d1a03-1967-4260-a306-9ba465c1dd63
 		  :LOGBOOK:
 		  CLOCK: [2024-06-03 Mon 10:02:15]--[2024-06-03 Mon 10:02:17] =>  00:00:02
 		  CLOCK: [2024-06-03 Mon 10:02:18]--[2024-06-03 Mon 10:02:20] =>  00:00:02
@@ -201,26 +280,20 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-06-11 Tue 10:58:20]--[2024-06-11 Tue 15:13:36] =>  04:15:16
 		  :END:
 		- DONE Modify Logseq theme
+		  collapsed:: true
 			- so that ((66694be3-a924-4da8-af4c-bbba1c3e6fcc)) and scroll bar blends in;
 			- sync the light theme and the default theme with CreatZy theme: ((66698fb6-d9ac-423f-845c-0f0f5c93abf2))
-		- TODO Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
-		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
+		- DONE Update ((66536e1b-6466-4153-90d6-583003d99a81)) while working.
+		  id:: 66600918-d4fa-4048-8a2a-8ead18e3575c
 		  :LOGBOOK:
-		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-20 Thu 16:39:46] =>  00:00:18
+		  CLOCK: [2024-06-05 Wed 17:23:59]
+		  CLOCK: [2024-06-05 Wed 17:24:00]
+		  CLOCK: [2024-06-05 Wed 17:24:12]
 		  :END:
-			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6673fb2f-ef98-484a-b289-b50482edea47))
-		- DONE Write [FoldableDemo.html](../assets/HTML/FoldableDemo.html)( ![src](../assets/HTML/FoldableDemo.html), showing `<details> <summary>` & CSS-only method) and [FolderDiv.html](../assets/HTML/FolderDiv.html)( ![src](../assets/HTML/FolderDiv.html), with custom element `<folder-div>`)
-		  collapsed:: true
+		- ((6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8))
+		- ((6675860a-c135-4a92-b4fe-206ebde974ff))
+		- DONE ((6677b986-ada2-4c73-8a11-980cdf9cb6d4))
 		  :LOGBOOK:
-		  CLOCK: [2024-06-19 Wed 08:27:23]--[2024-06-20 Thu 16:31:09] =>  32:03:46
+		  CLOCK: [2024-06-23 Sun 16:32:29]
+		  CLOCK: [2024-06-23 Sun 16:32:30]--[2024-06-23 Sun 21:55:36] =>  05:23:06
 		  :END:
-			- This unplanned work is [triggered by](((66600918-9f27-44c2-8188-f043c244710c))):
-				- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
-				  id:: 6673fb2f-ef98-484a-b289-b50482edea47
-				- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
-		- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.Editor.getBlock`)
-		  id:: 6675860a-c135-4a92-b4fe-206ebde974ff
-		  :LOGBOOK:
-		  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
-		  :END:
--
