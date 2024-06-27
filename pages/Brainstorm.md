@@ -92,7 +92,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is an example of how to use sub-items as properties.
 			- ((6652048c-27b3-47b6-84e5-25af8d9ce801)) This component contains sub-components:
-			  collapsed:: true
 				- a component
 				- another component
 	- Let's test `{{query}}` in Logseq:
@@ -173,7 +172,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- function = mapping = transformation = arrow
 	  collapsed:: true
 		- relation = 2 way arrow (diff from + diff to = diff with)
-		- Complement of "relation as 2 way arrow" is "relation as common part between related objects"
+		- Complement of "((667d0b78-fff6-49bc-90d5-165648ed56d3)) as 2 way arrow" is "relation as common part between related objects"
 			- All verbs, prepositions and `noun:`s are arrows => sentence = general path
 			- Alternate path (`\i/e\j/f...`) is similar to Fourier series, but diff!
 			- Address = path with abstract intent, i.e. `\^n/e/f...`
@@ -193,10 +192,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- The part of content that "i don't care" (body) is abstracted, the remaining brief is called "head", "name", "key", etc. That head is further shortened [from the lengthy context to address, to name and to id](((66600918-ed92-40c9-bda5-1911865d676c))).
 		- Now, in the view of the subject, that part is just a name, a symbol, a ref, a form, which can further be renamed, transformed into different forms to fit subjective views. E.g. the local name, local variable is the transformed name of the address.
 		- In the subjective view, a concise name can be expanded into the content of the named object via many forms of embedding: (parenthesis), clauses like `which`, `where`, etc.
-		- The name is the link between the named object and the name using subject.
-			- In object's side, the name is its abstraction.
-			- In subject's side, the name is a part of the subject's content.
-			- Hence, the name is an interface of the object for the subject to use.
+		- The name is the link between the named ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) and the name using ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
+			- In ((667cfa42-ade7-4310-9a7b-6d14d01c16da))'s side, the name is its abstraction.
+			- In ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s side, the name is a part of the subject's content.
+			- Hence, the name is an interface of the ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) for the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to use.
 			- Thanks to its conciseness, the name can be used by many subjects. This use is the [mixing](https://en.wikipedia.org/wiki/Mixing_(physics)) of content between objects.
 		- Naming = ε-abstraction is the `ob` part of the obop, while repeating = ω-extension (including, embedding) is the `op` part of the obop.
 	- In-ex relativity: ways to turn inside out
@@ -254,18 +253,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :LOGBOOK:
 	  CLOCK: [2024-06-12 Wed 10:23:02]
 	  :END:
-		- Address = path to object = arrow/vector to object = (extracted) abstract of that object in the subject = log(intent) = known content (content known by subject), AKA. "form"
-		- Complement of address is content within object, AKA. "content", is the content part unknown to the subject and are not cared by the subject.
+		- Address = path to object = arrow/vector to object = (extracted) abstract of that ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) in the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) = log(intent) = known content (content known by subject), AKA. "form"
+		- Complement of address is content within object, AKA. "content", is the content part unknown to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) and are not cared by the subject.
 		- address + content = 0; |address| + |content| = 1; (space of address)*(space of content) = 1 where "space of x" = e^x
 			- The (content space = extent of address) is the complement space of the ([address space](((6667d217-5269-4a34-8863-7fbb46e91ecc))) = intent of address).
 			- The zero/empty address (`.`) is the name/id of everything:
 				- its intent = 0 = ((66691d61-b8e9-4618-ac98-145056b646f4)) = the size of this subject compared to the Universe
 				- its extent = ∞ = everything = the whole Universe
-			- The infinity/full address (`∞`) including all content of the subject is the name/address of the Universe:
+			- The infinity/full address (`∞`) including all content of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is the name/address of the Universe:
 				- its intent = ∞ = the (image/reflection/model of the) Universe
-				- its extent = 0 = the single center point in the Universe = this subject = self
-			- Any (block of) text (of subject) is a [static] description / [dynamic] program of an internal space called "intent". As a name/address, that text points to an external (object) space called "extent" which can be described (intensionally) by another text (object text) or just a pure extensional space without intension. The subject text is called "syntax" and the object space is called (extensional) semantics. The intensional semantics, i.e. object text, is just a special case of the semantics.
+				- its extent = 0 = the single center point in the Universe = this ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) = ((667c015e-6223-4f8a-ae84-a93a49f4ff94))
+			- Any (block of) text (of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))) is a [static] description / [dynamic] program of an internal space called "intent". As a name/address, that text points to an external (object) space called "extent" which can be described (intensionally) by another text (object text) or just a pure extensional space without intension. The ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) text is called "syntax" and the ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) space is called (extensional) semantics. The intensional semantics, i.e. object text, is just a special case of the semantics.
 	- Intension (description, address) >-[exp]-> intent (constructive extension, address/name space) >-[complement, reciprocal]-> extent (predicative extension, object/value space)
 	  collapsed:: true
 		- The good old diagram 😊 ([from Mar 2011](https://docs.google.com/drawings/d/1ki-Zwf4N5KTbGZ5XdGlEOrDyV7SWIYnlPi_uKoblWdA/edit?usp=sharing))
 		  ![Constructive vs Predicative In/extension](https://docs.google.com/drawings/d/e/2PACX-1vRMG3kI6P4QLYvd9uyosDG07EP7TyCkJCGDoydCdoIK2i1SeS5-TJE-b3-w_2S7-F2WF6AiTcCrZaDu/pub?w=575&h=522)
+	- Ways to extend space:
+	  collapsed:: true
+		- [extension by time](((667c001e-83b9-4de5-bf81-1c71898340a2))) = $e^t$ = continuous extension vs. extension by combination = $2^n$ (power set, CombiNat) = discrete extension
+		- ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) can be naturally refined to $2^t$, while radix numbers are difficult to be refined (built for extension, not for refinement)
+			- Radix fraction, e.g. $10^{-n}$, is inverse extension, i.e. intension (negative extension), not refinement

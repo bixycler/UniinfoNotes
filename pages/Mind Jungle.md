@@ -5,6 +5,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	-
 	-
 	- ## ItelliJ
+	  collapsed:: true
 		- Settings
 		  collapsed:: true
 			- Spell checking
@@ -16,10 +17,91 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6675369a-1d13-48c5-8a77-d588aa8b59b8
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
+	- ## self
+	  id:: 667c015e-6223-4f8a-ae84-a93a49f4ff94
+	- ## subject
+	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
+	- ## object
+	  id:: 667cfa42-ade7-4310-9a7b-6d14d01c16da
+	- ## particle
+	  id:: 667d162c-16cf-44d3-81a5-29b1b885164f
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d162c-16cf-44d3-81a5-29b1b885164f)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)).
+	- ## vector
+	  id:: 667d16f8-206e-4a85-80f3-24c2aa1bf4ad
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)). Due to the dynamic nature of the arrow, a vector is a carrier of motion, like velocity vector, a carrier of direction, like ship vector, or a carrier of biological material, like insect vector.
+		-
+	- ## arrow
+	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
+	- ## circle
+	  id:: 667d15c6-67c4-4998-a549-c8b3f9de3d60
+	- ## equal
+	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The third component of the [[Trinion]].
+	- ## reference flow
+	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) is the sequence of ((66723642-58f1-4a74-bba3-0108f14c6bac))s where views are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))).
+		- ((667bf816-d1c8-4ac3-b315-764c14bfbb1f)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) is in opposite direction with ((667bef22-b272-4a7d-b613-3f1ed1a47329)). This opposition is in the sense of 2 complement arrows in a circle (🔄), and does not mean the exactly backward flow.
+		  id:: 667bf653-a1ea-4a02-8669-a1a70901e9c3
+		  collapsed:: true
+			- In space, all ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) has a corresponding ((667bef22-b272-4a7d-b613-3f1ed1a47329)), and they are usually refined to the degree that they seem to be exactly backward of each other, due to complement circles being refined to points.
+			- [First note on fb](https://www.facebook.com/lxdinh/posts/pfbid034MLTAC99b6LG7pdmNKYia9hKaCiwAapreeqdb3vEWMeBvFUiPUdE2Y467AXj7v89l) about this complementarity was on 30 Nov 2017.
+		- circular reference flow
+		  id:: 667bf520-a80c-4b6d-98d8-1f71cae6fb56
+			- self-reference
+			  id:: 667bfebf-a319-46be-a795-d7fc9c156363
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
+				- ((66725725-f76a-4328-b162-f469b87e871b)) [self-reference](https://en.wikipedia.org/wiki/Self-reference), [circular reference](https://en.wikipedia.org/wiki/Circular_reference), [recursion](https://en.wikipedia.org/wiki/Recursion), etc.
+			- self-view
+			  id:: 667c0481-27f1-4cd4-adcc-390de0e56cb7
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56)) is a ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) whose sink is viewed as coinciding with its source.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Due to [complementarity](((667bf653-a1ea-4a02-8669-a1a70901e9c3))), in space, there's a ((667bf520-a80c-4b6d-98d8-1f71cae6fb56)) for each ((667bf36a-581a-4abe-b544-2d849608a3e4)).
+				- A subject guides its ((66727858-979d-4d95-8a90-7a749218cfba))s via its self-positioning in the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)), i.e. via the ((667c0481-27f1-4cd4-adcc-390de0e56cb7)) including both the world and its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). All subject's actions are toward the target equilibrium which is the ((667c0481-27f1-4cd4-adcc-390de0e56cb7)) accurately matching the corresponding ((667c0031-0a87-44c9-9e98-6d45893b095f)) from itself via the world back to itself.
+				  collapsed:: true
+					- Learning is the update of ((667c0481-27f1-4cd4-adcc-390de0e56cb7)).
+					- Controlling is the update of ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
+						- When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) handle an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) with no purpose for itself, it's not controlling but just acting for the effect circle of the object to bring ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) to the owner subject of that object.
+					- All actions of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) are for itself.
+						- "Helping people or harming people, all are just for ourselves!"
+						  "Giúp người hay hại người cũng đều vì mình cả!"
+						  is the saying that i usually say.
+	- ## effect flow
+	  id:: 667bef22-b272-4a7d-b613-3f1ed1a47329
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the sequence of ((66727858-979d-4d95-8a90-7a749218cfba))s where actions are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))).
+		- circular effect flow
+		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
+			- self-effect
+			  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
+			- ### change
+			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
+			- effect circle
+			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
+				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
+	- ## world
+	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) is a place where at least a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) live with many ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s. A world usually contains many objects and many subjects.
+		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
+		  collapsed:: true
+			- The physical ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) on [Earth](https://en.wikipedia.org/wiki/Earth) is called "the World", which itself is a part of the whole physical world called [Universe](https://en.wikipedia.org/wiki/Universe).
+			- A [possible world](https://en.wikipedia.org/wiki/Possible_world) in modal logic is a complete and consistent way the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) is or could have been.
 	- ## view
 	  id:: 66723642-58f1-4a74-bba3-0108f14c6bac
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a world projected by a sensor to a screen, a data structure, or an observer's mind. There are many different views of the same object when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single world, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a [worldview](https://en.wikipedia.org/wiki/Worldview), etc.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) projected by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a [worldview](https://en.wikipedia.org/wiki/Worldview), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)), and all knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
 		  id:: 6672364a-2cc2-4360-a174-1e4432c67a16
 		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
 		  collapsed:: true
@@ -40,17 +122,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- "Point of view" is an ambiguous term, whose literal meaning is a ((667272b8-88a8-4928-a22a-35035c9edf05)), but its figurative meaning is a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)).
 		- ### view cone
 		  id:: 6672513b-c4b0-4c88-8b30-c60a3c6555a7
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2))
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), ((667bda02-8dc9-488e-ba16-ea75c3d7895c))
 			- viewcone
 			  id:: 667251ec-d4f7-4c09-adff-73e04a4b22ed
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 			- perspective
 			  id:: 667259a0-aa2e-49fa-bcbd-b3768a9f30b2
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			- cone of cause
+			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
-			  collapsed:: true
-				- A physical ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) is a [light cone](https://en.wikipedia.org/wiki/Light_cone).
+				- The past [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
 			- #### tree view
 			  id:: 667252dc-e610-4d07-bcd0-9ea6fb4499fd
@@ -58,34 +143,99 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-06-21 Fri 15:28:24]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) of a [network](https://en.wikipedia.org/wiki/Network_theory), representing a part of that network in a [tree structure](https://en.wikipedia.org/wiki/Tree_structure). In [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), [tree view](https://en.wikipedia.org/wiki/Tree_view) is a [graphical widget](https://en.wikipedia.org/wiki/Graphical_widget) showing the logical ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) to human eyes.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) of a ((667d1a95-b621-49cd-8a72-a074c963c92a)), representing a part of that network in a [tree structure](https://en.wikipedia.org/wiki/Tree_structure). In [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), [tree view](https://en.wikipedia.org/wiki/Tree_view) is a [graphical widget](https://en.wikipedia.org/wiki/Graphical_widget) showing the logical ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) to human eyes.
 				- Structure:
 				  id:: 667530ed-809b-4d38-8522-1ae6c8449e28
+				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-06-21 Fri 15:32:49]
 				  :END:
-					- [Branch](https://en.wikipedia.org/wiki/Branch) = stem node (including branch stalk) + [stem line](https://en.wikipedia.org/wiki/Plant_stem) + sub-branches
+					- branch
+					  id:: 66740680-9724-4a67-a2c3-40f8056eb882
 					  collapsed:: true
-						- Bud = collapsed branch
+					  [branch](https://en.wikipedia.org/wiki/Branch) = stem node (including branch stalk) + [stem line](https://en.wikipedia.org/wiki/Plant_stem) + sub-branches
+						- bud
 						  collapsed:: true
+						  [bud](https://en.wikipedia.org/wiki/Bud) = collapsed branch
 							- Abuse of language with "node"
 							  collapsed:: true
 								- Bud = collapsed node
 								- Branch = expanded node
 						- [!] In [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))), each edge/link is usually called a "branch" which is confused. Actually, each edge is a stalk, and a branch (or a [shoot](https://en.wikipedia.org/wiki/Shoot_(botany))) is the whole subtree.
 						- [!] The whole branch is also called a "[shoot](https://en.wikipedia.org/wiki/Shoot_(botany))", but normally "shoot" is just the young part at the tip of a branch.
-					- Stem node = the node at the base of the branch = the point where this branch is branched off from its stem.
-					- Stem line = internode segments + node branching points
-					- Node = node stalk (branch gap) + node body (nodal ring)
+						  id:: 66751bd8-196d-4d66-a1fc-4df9155756ab
+					- stem node
+					  id:: 66751b3b-5fd0-4efd-a43c-db2c4930ae4f
+					   = the ((66740a44-3221-41c4-90d6-14068b74b38f)) at the base of the branch = the point where this branch is branched off from its stem.
+					- stem line
+					  id:: 66740af5-032a-4cb1-9c97-0e4d3933ab9b
+					   = internode segments + node branching points
+					- stem circle
+					  id:: 667bebeb-7f20-4d03-b860-1653c3137710
+					   = folded ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) = border of ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f))
+					- node
+					  id:: 66740a44-3221-41c4-90d6-14068b74b38f
 					  collapsed:: true
-						- Internal node = (branch) stem node -> branch stalk
-						- Terminal node = leaf node -> leaf stalk
+					   = node stalk + node body
+						- branch stalk = stalk of (branch) stem node (internal node)
+						- leaf stalk = stalk of leaf node (terminal node)
 						- If stem node is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of the whole branch, then node stalk is a further abstraction of that node.
+						  collapsed:: true
 							- ((66752164-1227-490c-8182-7949e4eb501d))
-					- Tree = largest branch: base node (root node) = stem node of tree
-					  collapsed:: true
-						- [!] "root node" is an abuse of language, because the root system is not a node but another tree mirroring the shoot system.
+						- No clear distinction between "node stalk" and "node body" [in biological tree](https://en.wikipedia.org/wiki/Branch_attachment).
+						  collapsed:: true
+							- For terminal parts ([bud](https://en.wikipedia.org/wiki/Bud), [leaf](https://en.wikipedia.org/wiki/Leaf), [flower](https://en.wikipedia.org/wiki/Flower), [fruit](https://en.wikipedia.org/wiki/Fruit)), its clear that the node stalk is the bud trace and leaf/flower/fruit stalk.
+							- In a branch with non-terminal parts, the branch ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) is defined as the "node" on the stem where this branch is branched off. But because there's no clear definition of "node" in this case, there's no clear distinction between "node stalk" and "node body".
+								- The "node stalk" can be a node trace (branch/bud/leaf trace), a nodal cone ([knot](https://en.wikipedia.org/wiki/Wood#Knots)), internally, or externally a branch bark ridge.
+								- The "node body" can be considered as the base of this branch which can be seen externally as the [branch collar](https://en.wikipedia.org/wiki/Branch_collar).
+					- root
+					  [root](https://en.wikipedia.org/wiki/Root) = inverse ((66740680-9724-4a67-a2c3-40f8056eb882))
+						- To distinguish with root, the normal/direct branch can be called "[shoot](((66751bd8-196d-4d66-a1fc-4df9155756ab)))".
+					- tree
+					  [tree](https://en.wikipedia.org/wiki/Tree) = shoot system + root system = "leaf tree" + "root tree" = ((667bd931-8759-4008-8a9a-33e78a5cbdf3)) + ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = double cone = ((66725144-6bc9-4c9f-ba48-2cef02651e52))
+						- base node
+						  id:: 667bd594-66b8-4c0e-89a0-8088cbe2e1f6
+						  collapsed:: true
+							- base node = ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f)) of the whole tree
+							- root node
+							  collapsed:: true
+							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))
+								- Normally, the root system is not expanded but collapsed into a single "root node" in the tree, because the root is usually out of sight.
+							- The base node is the common stem node of both shoot system and root system.
 						- Branch is intermediate between the large tree and the small shoot.
+				- Branching styles:
+				  collapsed:: true
+					- lateral branching
+					  id:: 667bdced-76f1-4023-9352-dee24dcbf415
+					  collapsed:: true
+					  is the branching [from the main stem to the lower-level branch](https://en.wikipedia.org/wiki/Branch_attachment).
+						- Diagram:
+						  collapsed:: true
+							- ![Lateral-branching.png](../assets/ecosystem/Lateral-branching.png)
+						- This is the primary [branching structure](((667530ed-809b-4d38-8522-1ae6c8449e28))) in ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
+						- This is used in [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) and [triangular phylogenic tree](((66750135-8c59-477c-8baf-cb3898d54559))).
+					- dichotomous branching
+					  id:: 667bdf2a-005c-4a19-93bd-bda5d076981a
+					  collapsed:: true
+					  is the branching into 2 (or more) equivalent branches instead of the stem/branch discrimination.
+						- folking
+						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bdf2a-005c-4a19-93bd-bda5d076981a))
+						- It's also call [folk branching](https://en.wikipedia.org/wiki/Tree_fork).
+						- Diagram:
+						  collapsed:: true
+							- Diagram:
+								- ![Dichotomous-branching.png](../assets/ecosystem/Dichotomous-branching.png)
+						- This is a secondary branching structure which can be converted to ((667bdced-76f1-4023-9352-dee24dcbf415)) by considering the folk point as a collapsed stem line with 2 nodes (or many nodes in [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e)))).
+						- This is used in [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))).
+					- circular branching
+					  collapsed:: true
+					  is the branching of any node into many equivalent nodes, including the "parent node" of this node.
+						- This is the unified branching structure with both ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) of ((667bdced-76f1-4023-9352-dee24dcbf415)) and branch equality of ((667bdf2a-005c-4a19-93bd-bda5d076981a)).
+						- Its branch equality is more than ((667bdf2a-005c-4a19-93bd-bda5d076981a)) because the stalk of the stem node is just a branch stalk to the parent node, and the whole tree is just an [unrooted tree](https://en.wikipedia.org/wiki/Unrooted_binary_tree).
+						- base branch
+						  collapsed:: true
+						   = branch at 0° = stalk of stem node = branch stalk to the parent node
+							- When viewed as a [rooted tree](https://en.wikipedia.org/wiki/Tree_(graph_theory)#Rooted_tree), the base branch is the back-branch to the parent node.
 				- Representation:
 				  :LOGBOOK:
 				  CLOCK: [2024-06-21 Fri 15:32:54]
@@ -105,7 +255,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 6675279b-214e-43e4-81b9-14b43026ec67
 							  collapsed:: true
 								- ![ENC_SYSTEME_FIGURE.jpeg](https://upload.wikimedia.org/wikipedia/commons/5/58/ENC_SYSTEME_FIGURE.jpeg)
-						- [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the border of the stem node, called "stem circle", thus all branch edges are actually node stalks. The shape of data structure tree is similar to the [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but the meaning of edges is very different, so don't be confused between a linear stem line with an exponential series of stalks (branch edges): While each edge in phylogenetic tree is an internode segment, each edge in data structure tree is a stalk.
+						- [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the border of the stem node, called " ((667bebeb-7f20-4d03-b860-1653c3137710))", thus all branch edges are actually node stalks. The shape of data structure tree is similar to the [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but the meaning of edges is very different, so don't be confused between a linear stem line with an exponential series of stalks (branch edges): While each edge in phylogenetic tree is an internode segment, each edge in data structure tree is a stalk.
 						  id:: 66751015-5c34-493e-9663-4f0f5234b66e
 							- There's an artistic style of structure tree, usually used in [mind map](https://en.wikipedia.org/wiki/Mind_map)s, where the node is collapsed into a branching point and its stalk is used to name/describe that node.
 							  collapsed:: true
@@ -135,6 +285,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2024-06-21 Fri 15:33:06]
 					  :END:
 						- ![Tree Anatomy: Defining Trees & Forms](../assets/ecosystem/Tree Anatomy.pdf) from University of Geogia hosted by [BugwoodCloud.org](https://bugwoodcloud.org/resource/files/25389.pdf)
+						- ![Tree Anatomy: Branch Attachment](../assets/ecosystem/Tree Anatomy - BRANCH ATTACHMENT.pdf) from University of Geogia hosted by [BugwoodCloud.org](https://bugwoodcloud.org/resource/files/19019.pdf)
 						- [Britannica: Tree: Tree structure and growth](https://www.britannica.com/plant/tree/Tree-structure-and-growth)
 						- anatomy of a tree branch (shoot)
 						  id:: 667502e5-b83a-4d2a-a801-34e7bcfa6b38
@@ -159,6 +310,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- flower: hoa, bông
 							- fruit: quả, trái
 							- seed: hạt, hột
+						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+							- Discussion with Gemini about [node vs. internode](https://gemini.google.com/app/0dbc3f1a3b0cff16).
 			- nested viewcone
 			  id:: 66752fbf-a751-4117-ae0d-17d9a19053e4
 			  collapsed:: true
@@ -184,6 +337,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In physics, ((66727858-979d-4d95-8a90-7a749218cfba)) is called "[force](https://en.wikipedia.org/wiki/Force)" and [interaction](https://en.wikipedia.org/wiki/Fundamental_interaction). The "inter" in "interaction" means the duality of action as a ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
 			- Im mathematics, ((66727858-979d-4d95-8a90-7a749218cfba)) has many names: [operation](https://en.wikipedia.org/wiki/Operation_(mathematics)), [transformation](https://en.wikipedia.org/wiki/Transformation_(function)), [group action](https://en.wikipedia.org/wiki/Group_action).
 			- In Chinese philosophy, ((66727858-979d-4d95-8a90-7a749218cfba)) is called [行(hành)](https://en.wikipedia.org/wiki/Wuxing_(Chinese_philosophy)).
+		- light cone
+		  id:: 667bd931-8759-4008-8a9a-33e78a5cbdf3
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bd93a-cce4-4dbf-9831-725e4dffe463))
+			- cone of effect
+			  id:: 667bd93a-cce4-4dbf-9831-725e4dffe463
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- The future [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
 	- ## view-control
 	  id:: 66725144-6bc9-4c9f-ba48-2cef02651e52
 	  collapsed:: true
@@ -192,7 +353,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66727388-ed2b-4f62-b8d7-ed70a0ad4ef3
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is the dual view of the 
-		  effect flow through any subject including both inward effect flow ( ((66723642-58f1-4a74-bba3-0108f14c6bac)), observation) and outward effect flow (control, operation, action).
+		  effect flow through any subject including both inward effect flow ( ((66723642-58f1-4a74-bba3-0108f14c6bac)), observation) and outward effect flow (control, operation, ((66727858-979d-4d95-8a90-7a749218cfba))).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Force = curvature => F_{in} + F_{ex} = 0 <=> my curvature + your curvature = 0 <=> |my distortion| = |your distortion|
 			  collapsed:: true
@@ -322,10 +483,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6653769c-3334-46fa-a1d5-4ce6a7fc23e8
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Projection_(mathematics)
-	- ## Equal
-	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
-	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The third component of the [[Trinion]].
 	- ## name
 	  id:: 665cab38-f8e8-472e-b0a1-60776d492835
 	  collapsed:: true
@@ -336,17 +493,58 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665ca429-84e3-49ff-921e-c07d19cd99ba
 	  collapsed:: true
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
-		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Rūpa
-		- E.g. [Buddhist form](https://en.wikipedia.org/wiki/Rūpa) in the pair "name & form", [logical form](https://en.wikipedia.org/wiki/Logical_form), Plato's [ideal form](https://en.wikipedia.org/wiki/Theory_of_forms), Marx' [form of value](https://en.wikipedia.org/wiki/Value-form), etc.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the part of that object appears to a ((66723642-58f1-4a74-bba3-0108f14c6bac)) of some ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The external form is called "appearance" and the internal form is called ((6678d596-9526-405a-968c-e73860e524f3)) of the object.
+		- ((66725725-f76a-4328-b162-f469b87e871b)) [Buddhist form](https://en.wikipedia.org/wiki/Rūpa) in the pair "name & form", [logical form](https://en.wikipedia.org/wiki/Logical_form), Plato's [ideal form](https://en.wikipedia.org/wiki/Theory_of_forms), Marx' [form of value](https://en.wikipedia.org/wiki/Value-form), etc.
+		- formation
 		- conformation
 		  id:: 6678282b-d710-4c6b-b584-5f65012c192d
+		  collapsed:: true
 			- When a ((6678288e-699b-4325-bdba-bf6349fe0d57)) nearing a ((665ca429-84e3-49ff-921e-c07d19cd99ba)), the distortion of space in that form makes the content seem to follow the form.
 			  collapsed:: true
 				- {{video https://youtu.be/Og4sxXfUC0Y}}
 			- Links: [fb post in Nov 2023](https://www.facebook.com/lexuandinhct/videos/728404692637310), [GeoGebra applet](https://www.geogebra.org/m/j7czr4s5)
+		- transformation
+		  collapsed:: true
+			- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
+			- Function/mapping/projection/light-cone is an abstraction of the flow into just 2 ends of that flow.
+			- A ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
+				- Development of view over time:
+					- First, an `ex` object is mirrored to its `in` image.
+					  id:: 667aa63e-acc6-41b1-b716-f97a8afe41a1
+					  collapsed:: true
+						- In digital world, it's usually done statically with `copy`, or better dynamically with `embed`, `import`, `transclude`, etc.
+					- The `in` image will be modified to adapt to the needs of the subject, via which it's transformed.
+					  collapsed:: true
+						- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
+						- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
+					- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
 	- ## content
 	  id:: 6678288e-699b-4325-bdba-bf6349fe0d57
-		-
+	- ## structure
+	  id:: 6678d596-9526-405a-968c-e73860e524f3
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678d596-9526-405a-968c-e73860e524f3)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the internal ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of that object. A structure of a ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) object can be decomposed into ((667d0b78-fff6-49bc-90d5-165648ed56d3))s between its ((66532bb2-7680-461b-80b2-71fc96c89fb9))s.
+		- Variations:
+		  id:: 667d09ec-4da1-428b-a7c9-bae1eb37a7ae
+			- linear structure
+			  id:: 667d0a09-6a59-483d-91e4-33a019655b42
+			- circular structure
+			- branching structure
+			  is a [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))).
+			- ### network
+			  id:: 667d1a95-b621-49cd-8a72-a074c963c92a
+				- Example: [network](https://en.wikipedia.org/wiki/Network_theory), [mathematical graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
+	- ## relation
+	  id:: 667d0b78-fff6-49bc-90d5-165648ed56d3
+	  collapsed:: true
+	  ((665ca48e-f7c1-4541-b5cf-486d86b02997)) ((66600918-367c-413c-863d-2cf11a89c437))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by an arrow A -> B. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
+		- Variations:
+			- binary relation
+			  id:: 667d0d8e-0873-4440-a97d-b08f9405e769
+				- Example: [binary relation](https://en.wikipedia.org/wiki/Binary_relation) and [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) in Maths.
+	- ## thread
+	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
 	  collapsed:: true
@@ -356,12 +554,47 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5
 	  collapsed:: true
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((6652048c-27b3-47b6-84e5-25af8d9ce801))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) is an object composed of other objects called ((66532bb2-7680-461b-80b2-71fc96c89fb9))s.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) [composed of](((667cdbc9-3030-4429-b59e-4545cb3627e3))) other ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s called ((66532bb2-7680-461b-80b2-71fc96c89fb9))s.
+		- ((66725725-f76a-4328-b162-f469b87e871b))
+			- In IT: [composite data type](https://en.wikipedia.org/wiki/Composite_data_type), [composite object](https://en.wikipedia.org/wiki/Object_composition), [composite pattern](https://refactoring.guru/design-patterns/composite)
+			- In physics: [composite (material)](https://en.wikipedia.org/wiki/Composite_material), [composite particle](https://en.wikipedia.org/wiki/Composite_particle),
+			- In chemistry: [compound](https://en.wikipedia.org/wiki/Chemical_compound), [alloy](https://en.wikipedia.org/wiki/Alloy), [mixture](https://en.wikipedia.org/wiki/Mixture)
+			- In maths: [composite number](https://en.wikipedia.org/wiki/Composite_number), [composite function](https://en.wikipedia.org/wiki/Function_composition), [tuple](https://en.wikipedia.org/wiki/Tuple), [set](https://en.wikipedia.org/wiki/Set_(mathematics)), [class](https://en.wikipedia.org/wiki/Class_(set_theory))
+			- In linguistics: [compound (word)](https://en.wikipedia.org/wiki/Compound_(linguistics))
+			- In Buddhism: [five aggregates](https://en.wikipedia.org/wiki/Skandha)
+		- Variations:
+			- A ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) with loosely connected ((66532bb2-7680-461b-80b2-71fc96c89fb9))s is called ((667ceb89-10fb-463e-90f7-9e89daec8ff6)), e.g. [aggregation in OOP](https://www.geeksforgeeks.org/association-composition-aggregation-java/), [set in maths](https://en.wikipedia.org/wiki/Set_(mathematics)).
+			- A ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) with ((66532bb2-7680-461b-80b2-71fc96c89fb9))s tightly connected by specific relations is called [structure](((667cec5f-f909-4da3-a1d4-681bcaee3b61))), e.g. [algebraic structure](https://en.wikipedia.org/wiki/Algebraic_structure), [mathematical category](https://en.wikipedia.org/wiki/Category_(mathematics)), [mathematical graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)), [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))).
 	- ## component
 	  id:: 66532bb2-7680-461b-80b2-71fc96c89fb9
 	  collapsed:: true
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((66532ccc-ae21-4940-8714-715060d6bd90))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532bb2-7680-461b-80b2-71fc96c89fb9)) is an object within another object called ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66532bb2-7680-461b-80b2-71fc96c89fb9)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) within another object called ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)).
+	- ## composition
+	  id:: 667cdbc9-3030-4429-b59e-4545cb3627e3
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667cdbc9-3030-4429-b59e-4545cb3627e3)) is the act of combining many small objects, called ((66532bb2-7680-461b-80b2-71fc96c89fb9))s, into a larger object, called ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)).
+		- ((66725725-f76a-4328-b162-f469b87e871b))
+			- In IT: [object composition](https://en.wikipedia.org/wiki/Object_composition)
+			- In maths: [function composition](https://en.wikipedia.org/wiki/Function_composition)
+		- Variations:
+			- aggregation
+			  id:: 667ceb89-10fb-463e-90f7-9e89daec8ff6
+			  is the act of simply collecting ((66532bb2-7680-461b-80b2-71fc96c89fb9)) objects into a "bag" of objects.
+			- structuring
+			  id:: 667cec5f-f909-4da3-a1d4-681bcaee3b61
+			  is the act of putting ((66532bb2-7680-461b-80b2-71fc96c89fb9)) objects into a ((6678d596-9526-405a-968c-e73860e524f3)), which is an organization of relations between objects.
+				- There are as many variations of composition as many [variations of strucure](((667d09ec-4da1-428b-a7c9-bae1eb37a7ae))).
+				- linear composition
+				  id:: 667d1227-6d59-4d36-ae52-c1f97361e814
+				  is the composition in ((667d0a09-6a59-483d-91e4-33a019655b42)).
+					- ((667d1227-6d59-4d36-ae52-c1f97361e814)) of ((667d162c-16cf-44d3-81a5-29b1b885164f))s
+					  ((66725725-f76a-4328-b162-f469b87e871b)) [listing](https://en.wikipedia.org/wiki/List), [enumeration](https://en.wikipedia.org/wiki/Enumeration)
+					- ((667d1227-6d59-4d36-ae52-c1f97361e814)) of ((667d15b7-6364-49a9-ac58-c64d2a992b63))s
+					  id:: 667d151a-eaaa-4299-97b6-f3cd8f1aa98d
+					  ((66725725-f76a-4328-b162-f469b87e871b)) [function composition](https://en.wikipedia.org/wiki/Function_composition)
+					- sorting
+					  is the ((667d1227-6d59-4d36-ae52-c1f97361e814)) that satisfy a specific order.
 	- ## Workstack Workflow
 	  id:: 66533a2a-6f29-4e4c-81d5-17883be64bdb
 	  collapsed:: true
@@ -566,6 +799,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665359c0-a89a-41b5-9f28-503f79107a08))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Wiki
+		  id:: 66600918-6c84-41c7-afeb-96d30f74850b
 	- ## Wikipedia
 	  id:: 665368c5-5c6f-44e4-a675-4a744252d32c
 	  collapsed:: true
@@ -820,8 +1054,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- Local server: [localhost:12315](http://localhost:12315)
 				  collapsed:: true
+					- Due to [bug #10337](https://github.com/logseq/logseq/issues/10337), until now (June 2024), `Auto start server` doesn't work.
 				- The JSON result of query `logseq.Editor.getBlock` is different from `Export graph` > `Export as JSON`.
-					- API returns a bare block with children are just UUIDs, not embedded JSON as the exported one.
+					- API returns a bare block with children are just UUIDs, not embedded JSON like in the exported one.
 			- Logseq publish
 			  id:: 66600918-8c61-42af-b8a2-04bf05e9f782
 			  collapsed:: true

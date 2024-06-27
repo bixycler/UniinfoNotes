@@ -120,6 +120,22 @@ public: true
 		  CLOCK: [2024-06-06 Thu 10:22:43]
 		  CLOCK: [2024-06-06 Thu 10:22:46]
 		  :END:
+		- Some hidden text in LOGBOOK
+		  id:: 6678f1fa-d6a7-49c8-8a93-4c82f4e1e6c2
+		  collapsed:: true
+		  :LOGBOOK:
+		  !!!secrete content here!!!
+		  CLOCK: [2024-06-24 Mon 11:13:12]
+		  :END:
+			- DONE Even mix hidden text with timestamps! ;)
+			  id:: 6678f283-f54c-4100-98fa-83af4875f923
+			  :LOGBOOK:
+			  CLOCK: [2024-06-24 Mon 11:14:33]
+			  ^^^This text is AFTER the init timestamp^^^
+			  CLOCK: [2024-06-24 Mon 11:15:36]
+			  CLOCK: [2024-06-24 Mon 11:16:19]--[2024-06-24 Mon 11:16:29] =>  00:00:10
+			  ^^^This text is AFTER a DONE elapsed time^^^
+			  :END:
 - [-] canceled
 	- CANCELLED A task that has been cancelled
 - [?] question

@@ -31,12 +31,16 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
 			- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.Editor.getBlock`)
 			  id:: 6675860a-c135-4a92-b4fe-206ebde974ff
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
 			  CLOCK: [2024-06-23 Sun 15:00:17]--[2024-06-23 Sun 15:51:18] =>  00:51:01
 			  :END:
-		- id:: 6669a3bd-7059-4e5a-b21b-d96cb3288557
-		- id:: 6669a3bd-5b32-4088-982a-2c359b66610d
+				- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) I need to know what's in the hidden `:LOGBOOK:`.
+				  id:: 6669a3bd-7059-4e5a-b21b-d96cb3288557
+				  collapsed:: true
+					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
+					  id:: 6669a3bd-5b32-4088-982a-2c359b66610d
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
 		-
@@ -297,3 +301,17 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-06-23 Sun 16:32:29]
 		  CLOCK: [2024-06-23 Sun 16:32:30]--[2024-06-23 Sun 21:55:36] =>  05:23:06
 		  :END:
+		- DONE [Khám SK 2024](https://docs.google.com/document/d/1FaA3JB636a6fx9MVFJV9Kw93s4HauqS5pJznM8x5ue4/edit#heading=h.dgw388893y39) 
+		  collapsed:: true
+		  SCHEDULED: <2024-06-22 Sat 7:30>
+		  :LOGBOOK:
+		  CLOCK: [2024-06-04 Tue 10:26:25]--[2024-06-04 Tue 10:26:28] =>  00:00:03
+		  :END:
+			- Date: Sat 22, 7:30 ~ 9:00 -> 10:30;  12:30 ~ 14:00 -> 15:30
+			- Address: Phòng khám DYM Medical Center, Phòng B103, [mPlaza Saigon](https://maps.app.goo.gl/49oMBpgkTzcyHy5DA), 39 Lê Duẩn (giao Hai Bà Trưng)
+			- Kết quả:
+				- máu, nước tiểu bình thường, hơi thiếu sắt
+				- tuyến giáp trái có một nang lành tính
+				- hơi loãng xương, huyết áp thấp, răng sâu nhiều
+				- điện tâm đồ, ổ bụng bình thường
+				- mắt: trái 7/10, phải 6/10 (dưới 1 độ, tức ổn định)
