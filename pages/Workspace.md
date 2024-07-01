@@ -13,6 +13,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :LOGBOOK:
 		  CLOCK: [2024-06-23 Sun 16:26:28]
 		  :END:
+		-
+		- WAIT ((66536e1b-6466-4153-90d6-583003d99a81)): Write a script to convert all headless block ref to `[named link](((uuid)))`
+		  id:: 667d2479-487a-49ab-949f-722eb47a16ef
+		  :LOGBOOK:
+		  CLOCK: [2024-06-27 Thu 15:36:19]
+		  :END:
+			- This also solve the current bug/issue that ((667d263b-658b-4560-b8cc-f6838534956d))
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
 		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  :LOGBOOK:
@@ -44,12 +51,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
 		-
-		- TODO Add plaintext to ((666d71cc-c390-4d0e-9e95-950c257e387e))
-		  id:: 6677e42f-06a8-4d04-b068-24d46c70cf51
+		- WAIT Add to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) various types of [extending dimensions](((667d202e-f401-46ba-ab32-c4fd77b49ab1))).
 		  :LOGBOOK:
-		  CLOCK: [2024-06-23 Sun 16:00:48]--[2024-06-23 Sun 16:01:11] =>  00:00:23
+		  CLOCK: [2024-06-28 Fri 08:11:13]
 		  :END:
-		-
 		- WAIT ((6667c99a-792f-4230-9fc6-c5fae874daef))
 		  id:: 666d71cd-20bd-4f24-b055-940eebf44591
 		  :LOGBOOK:

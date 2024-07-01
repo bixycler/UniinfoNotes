@@ -1017,8 +1017,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Block id
 			  id:: 66610c13-5045-42a8-948f-6426d698fd2c
 			  collapsed:: true
+				- Block ref
+				  id:: 667d2689-4ce0-4c79-b82a-25b0bba87d39
+				  A block can be referenced/mirrored with block ref synatx `((block-uuid))`.
 				- Block id is a lengthy UUID, which is generated when corresponding block is linked or zoomed in (opened).
 				- Block id is stored as `id::` property in markdown.
+				- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) cannot be prefixed.
+				  id:: 667d263b-658b-4560-b8cc-f6838534956d
+				  collapsed:: true
+					- Not renderred correctly:
+					  collapsed:: true
+						- Should be `"Block ref"`: "((667d2689-4ce0-4c79-b82a-25b0bba87d39))"
+						- Should be `(Block ref...)`: (((667d2689-4ce0-4c79-b82a-25b0bba87d39))...).
+						- Should be `<Block ref>`: <((667d2689-4ce0-4c79-b82a-25b0bba87d39))>
+						- Should be `N-Block ref`: N-((667d2689-4ce0-4c79-b82a-25b0bba87d39))
+					- Renderred correctly with standard ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) link syntax:
+					  collapsed:: true
+						- Should be `"Block ref"`: "[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))"
+						- Should be `(Block ref...)`: ([Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))...).
+						- Should be `<Block ref>`: <[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))>
+						- Should be `N-Block ref`: N-[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
+					- But ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) can be suffixed with no problems, e.g. ((667d2689-4ce0-4c79-b82a-25b0bba87d39))erence.
 			- Block title
 			  collapsed:: true
 				- The first line in a block is considered title of that block.

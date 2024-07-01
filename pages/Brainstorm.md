@@ -269,7 +269,30 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- The good old diagram 😊 ([from Mar 2011](https://docs.google.com/drawings/d/1ki-Zwf4N5KTbGZ5XdGlEOrDyV7SWIYnlPi_uKoblWdA/edit?usp=sharing))
 		  ![Constructive vs Predicative In/extension](https://docs.google.com/drawings/d/e/2PACX-1vRMG3kI6P4QLYvd9uyosDG07EP7TyCkJCGDoydCdoIK2i1SeS5-TJE-b3-w_2S7-F2WF6AiTcCrZaDu/pub?w=575&h=522)
 	- Ways to extend space:
-	  collapsed:: true
+	  id:: 667d202e-f401-46ba-ab32-c4fd77b49ab1
 		- [extension by time](((667c001e-83b9-4de5-bf81-1c71898340a2))) = $e^t$ = continuous extension vs. extension by combination = $2^n$ (power set, CombiNat) = discrete extension
+		- extension by power set
+		  id:: 667e1011-5dff-46c6-8e1b-85587e2f0e3e
+			- Philosopher's concept construction
+			- Thanh Long's [geometric simplex construction](https://www.facebook.com/trthanhlong/posts/pfbid0hXoTpzDTiTfoF1SF8SVhRVRQsBDZ8U6qBwvdEhadYwQYvVHa4XdMJBLbjb7fKvVXl?comment_id=1188167641770652&reply_comment_id=592562689295735)
+			  collapsed:: true
+				- Original post
+				  ![simplex-construction-2022-11-11.png](../assets/geometry/simplex-construction-2022-11-11.png)
+				- My comment about relations to [combinatorics](https://en.wikipedia.org/wiki/Combinatorics): [Newton binomial](https://en.wikipedia.org/wiki/Binomial_coefficient) & [Pascal triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
+				  ![simplex-construction-Newton-Pascal.png](../assets/geometry/simplex-construction-Newton-Pascal.png)
 		- ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) can be naturally refined to $2^t$, while radix numbers are difficult to be refined (built for extension, not for refinement)
 			- Radix fraction, e.g. $10^{-n}$, is inverse extension, i.e. intension (negative extension), not refinement
+		- intension refinement = extension expanding
+		  :LOGBOOK:
+		  CLOCK: [2024-06-28 Fri 08:11:13]
+		  :END:
+			- spirorus extending, thread solidity
+		- constant velocity of light = constant sum of squares => distortion (from [perfect circle](((6667c99a-792f-4230-9fc6-c5fae874daef)))) = extending to other dimensions
+			- There's a very neat connection between this circle and the [power set above](((667e1011-5dff-46c6-8e1b-85587e2f0e3e))) via [log of binomial coefficients](https://math.stackexchange.com/a/4833062/1290859)
+				- A plot of [thousandth row of Pascal's triangle in binary](https://en.wikipedia.org/wiki/Portal:Mathematics/Featured_picture_archive#/media/File:Pascal's_triangle_-_1000th_row.png)
+				  ![Pascal-triangle-1000th-row-binary.png](../assets/geometry/Pascal-triangle-1000th-row-binary.png)
+				- Analyze it with GeoGebra applet [LogBinomial](https://www.geogebra.org/m/wjmztprn).
+				- This arc is the distribution of (entropy = log of numbers) of thousand-bit words whose weight (number of 1s) equals k: k = 1 -> 1000 from left to right. The (entropy = log of numbers) of all thousand-bit words is (N = 1000) which is normalized to 1 (= N/N) in this circle plot. This entropy distribution is the log of [binomial distribution via convolution](https://en.wikipedia.org/wiki/Pascal%27s_triangle#Relation_to_binomial_distribution_and_convolutions).
+				- That plot was added to Wikipedia page of Pascal's triangle at [17:07, 11 March 2011](https://en.wikipedia.org/w/index.php?title=Pascal%27s_triangle&oldid=418321493)‎, but then removed and replaced with the [animation](https://en.wikipedia.org/wiki/Pascal%27s_triangle#/media/File:Pascal's_Triangle_animated_binary_rows.gif).
+				  collapsed:: true
+					- ![Pascal-Triangle-animated-binary-rows.gif](../assets/geometry/Pascal-Triangle-animated-binary-rows.gif)
