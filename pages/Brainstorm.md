@@ -291,7 +291,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- There's a very neat connection between this circle and the [power set above](((667e1011-5dff-46c6-8e1b-85587e2f0e3e))) via [log of binomial coefficients](https://math.stackexchange.com/a/4833062/1290859)
 				- A plot of [thousandth row of Pascal's triangle in binary](https://en.wikipedia.org/wiki/Portal:Mathematics/Featured_picture_archive#/media/File:Pascal's_triangle_-_1000th_row.png)
 				  ![Pascal-triangle-1000th-row-binary.png](../assets/geometry/Pascal-triangle-1000th-row-binary.png)
-				- Analyze it with GeoGebra applet [LogBinomial](https://www.geogebra.org/m/wjmztprn).
+				- Analyze it with GeoGebra applet [BinomialLog](https://www.geogebra.org/m/pkyzd4n4).
+				  collapsed:: true
+					- The half of ﻿logarithm of binomial coefficient approaches an entropy function *H* as *n* approaching infinity, which is very close to an arc of a perfect circle.
+						- Binomial coefficient and beta function:
+						  $$ B{\binom{n}{k}} = \frac{n!}{(n-k)! \cdot k!} = \frac{(n+1)^{-1}}{\Beta(n-k+1, k+1)} $$
+						- Normalized log of binomial: ($x = k/n$)
+						  $$ lB_n(x)=\frac{\ln(B\binom{n}{xn})}{n} $$
+						- *lB* approaches *H* as *n* approaching infinity:
+						  $$ \lim_{n \rightarrow \infty }lB_n(x) = 
+						  H(x) = -(x \cdot \ln(x) + (1-x) \ln (1-x)) $$
+						- Half of *H* (in red) is very close to an arc of circle *C* (in black):
+							- ![Binomial-Log-Entropy-Circle.png](../assets/geometry/Binomial-Log-Entropy-Circle.png)
+						- Moreover, derivatives of the entropy function *H* is related to the [logistic map](https://en.wikipedia.org/wiki/Logistic_map) $x⋅(1-x)$:
+						  $$ dH(x) = -\ln(x) + \ln(1-x) = \ln(\frac{1-x}{x}) $$
+						  $$ ddH(x) = \frac{-1}{x(1-x)} $$
+						- which is the core form of [beta function](https://en.wikipedia.org/wiki/Beta_function):
+						  $$ B(p,q) = \int_0^1 x^p (1-x)^q dx $$
 				- This arc is the distribution of (entropy = log of numbers) of thousand-bit words whose weight (number of 1s) equals k: k = 1 -> 1000 from left to right. The (entropy = log of numbers) of all thousand-bit words is (N = 1000) which is normalized to 1 (= N/N) in this circle plot. This entropy distribution is the log of [binomial distribution via convolution](https://en.wikipedia.org/wiki/Pascal%27s_triangle#Relation_to_binomial_distribution_and_convolutions).
 				- That plot was added to Wikipedia page of Pascal's triangle at [17:07, 11 March 2011](https://en.wikipedia.org/w/index.php?title=Pascal%27s_triangle&oldid=418321493)‎, but then removed and replaced with the [animation](https://en.wikipedia.org/wiki/Pascal%27s_triangle#/media/File:Pascal's_Triangle_animated_binary_rows.gif).
 				  collapsed:: true
