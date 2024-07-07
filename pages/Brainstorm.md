@@ -92,6 +92,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is an example of how to use sub-items as properties.
 			- ((6652048c-27b3-47b6-84e5-25af8d9ce801)) This component contains sub-components:
+			  collapsed:: true
 				- a component
 				- another component
 	- Let's test `{{query}}` in Logseq:
@@ -270,6 +271,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  ![Constructive vs Predicative In/extension](https://docs.google.com/drawings/d/e/2PACX-1vRMG3kI6P4QLYvd9uyosDG07EP7TyCkJCGDoydCdoIK2i1SeS5-TJE-b3-w_2S7-F2WF6AiTcCrZaDu/pub?w=575&h=522)
 	- Ways to extend space:
 	  id:: 667d202e-f401-46ba-ab32-c4fd77b49ab1
+	  collapsed:: true
 		- [extension by time](((667c001e-83b9-4de5-bf81-1c71898340a2))) = $e^t$ = continuous extension vs. extension by combination = $2^n$ (power set, CombiNat) = discrete extension
 		- extension by power set
 		  id:: 667e1011-5dff-46c6-8e1b-85587e2f0e3e
@@ -289,25 +291,39 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- spirorus extending, thread solidity
 		- constant velocity of light = constant sum of squares => distortion (from [perfect circle](((6667c99a-792f-4230-9fc6-c5fae874daef)))) = extending to other dimensions
 			- There's a very neat connection between this circle and the [power set above](((667e1011-5dff-46c6-8e1b-85587e2f0e3e))) via [log of binomial coefficients](https://math.stackexchange.com/a/4833062/1290859)
+			  id:: 6683ea7b-d7ee-460e-94bb-1b0c2a050a52
+			  collapsed:: true
 				- A plot of [thousandth row of Pascal's triangle in binary](https://en.wikipedia.org/wiki/Portal:Mathematics/Featured_picture_archive#/media/File:Pascal's_triangle_-_1000th_row.png)
 				  ![Pascal-triangle-1000th-row-binary.png](../assets/geometry/Pascal-triangle-1000th-row-binary.png)
 				- Analyze it with GeoGebra applet [BinomialLog](https://www.geogebra.org/m/pkyzd4n4).
+				  id:: 6683ea7b-45c9-446c-8f13-6cfc3083de89
 				  collapsed:: true
-					- The half of ﻿logarithm of binomial coefficient approaches an entropy function *H* as *n* approaching infinity, which is very close to an arc of a perfect circle.
-						- Binomial coefficient and beta function:
-						  $$ B{\binom{n}{k}} = \frac{n!}{(n-k)! \cdot k!} = \frac{(n+1)^{-1}}{\Beta(n-k+1, k+1)} $$
+					- The half of ﻿logarithm of [binomial coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient) approaches the [binary entropy function](https://en.wikipedia.org/wiki/Binary_entropy_function) $H_b$ in base $e^2$, as $n$ approaches infinity, which is very close to an arc of a perfect circle.
+						- Binomial coefficient $$ B{\binom{n}{k}} $$ = $$ C_k^n $$ = number of k-combinations of n, and [beta function](https://en.wikipedia.org/wiki/Beta_function) B(p, q):
+						  $$ B{\binom{n}{k}} = \frac{n!}{k! \cdot (n-k)!} = \frac{(n+1)^{-1}}{\Beta(k+1, n-k+1)} $$
 						- Normalized log of binomial: ($x = k/n$)
 						  $$ lB_n(x)=\frac{\ln(B\binom{n}{xn})}{n} $$
-						- *lB* approaches *H* as *n* approaching infinity:
+						- $lB$ approaches $H_b$ in base $e$ as $n$ approaches infinity:
 						  $$ \lim_{n \rightarrow \infty }lB_n(x) = 
-						  H(x) = -(x \cdot \ln(x) + (1-x) \ln (1-x)) $$
-						- Half of *H* (in red) is very close to an arc of circle *C* (in black):
-							- ![Binomial-Log-Entropy-Circle.png](../assets/geometry/Binomial-Log-Entropy-Circle.png)
-						- Moreover, derivatives of the entropy function *H* is related to the [logistic map](https://en.wikipedia.org/wiki/Logistic_map) $x⋅(1-x)$:
-						  $$ dH(x) = -\ln(x) + \ln(1-x) = \ln(\frac{1-x}{x}) $$
-						  $$ ddH(x) = \frac{-1}{x(1-x)} $$
-						- which is the core form of [beta function](https://en.wikipedia.org/wiki/Beta_function):
-						  $$ B(p,q) = \int_0^1 x^p (1-x)^q dx $$
+						  H_b(x) = -(x \cdot \ln(x) + (1-x) \ln (1-x)) $$
+						- Half of $lB$ approaches $H_{bs}$ ($H_b$ in base $e^2$) as $n$ approaches infinity:
+						  $$ \lim_{n \rightarrow \infty } \frac{1}{2} lB_n(x) = 
+						  H_{bs}(x) = -\frac{1}{2} (x \cdot \ln(x) + (1-x) \ln (1-x)) $$
+						- $H_{bs}$ (in red) is very close to an arc of circle *C* (in black):
+							- ![Binomial-Log-Entropy-Circle.png](../assets/geometry/Binomial-Log-Entropy-Circle.png){:height 539, :width 505}
+						- Distributions
+							- In [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution)﻿ of a fair coin, $X$ ~ $B(n, p=1/2)$, the probability of getting exactly $k$ heads in $n$ independent [Bernoulli trials](https://en.wikipedia.org/wiki/Bernoulli_trial) is the ratio between the number of $k$-combinations and the total number of combinations $2n$:
+							  $$ Pr[X = k] =  \frac{B\binom{n}{k}}{2^n} = B_d(n, k) = B_d(x) [x = \frac{k}{n}] $$
+							- When $n$ approaches infinity, this distribution approaches the [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution) $N(μ=n/2, σ^2=n/4)$, and its probability mass function $B_d(x)$, normalized by scaling both axes by $\sqrt n$ and centering to 1/2, approaches the probability mass function $φ(x| μ=0, σ=1/2)$ of the fair normal distribution $N(μ=0, σ^2=1/4)$:
+							  $$ \lim_{n \rightarrow \infty } {\sqrt n} B_d( \frac{x}{\sqrt n} + \frac{1}{2} ) = φ(x | μ=0, σ=\frac{1}{2}) = \sqrt{\frac{2}{\pi}} e^{-2 x^2} $$
+							- ![Binomial-Log-Distribution.png](../assets/geometry/Binomial-Log-Distribution.png)
+						- Derivatives
+							- Derivative of the binary entropy function $H_b$ is the negative of [logit function](https://en.wikipedia.org/wiki/Logit) which is the inverse function of [logistic function](https://en.wikipedia.org/wiki/Logistic_function). 
+							  $$ dH_b(x) = -\ln(x) + \ln(1-x) = - \ln(\frac{x}{1-x}) = - logit(x) $$
+							- Its second order derivative is the negative reciprocal of the [logistic map](https://en.wikipedia.org/wiki/Logistic_map).
+							  $$ ddH_b(x) = \frac{-1}{x⋅(1-x)} $$
+							- The logistic map $x⋅(1-x)$ is the core form of [beta function](https://en.wikipedia.org/wiki/Beta_function):
+							  $$ B(p,q) = \int_0^1 x^p (1-x)^q dx $$
 				- This arc is the distribution of (entropy = log of numbers) of thousand-bit words whose weight (number of 1s) equals k: k = 1 -> 1000 from left to right. The (entropy = log of numbers) of all thousand-bit words is (N = 1000) which is normalized to 1 (= N/N) in this circle plot. This entropy distribution is the log of [binomial distribution via convolution](https://en.wikipedia.org/wiki/Pascal%27s_triangle#Relation_to_binomial_distribution_and_convolutions).
 				- That plot was added to Wikipedia page of Pascal's triangle at [17:07, 11 March 2011](https://en.wikipedia.org/w/index.php?title=Pascal%27s_triangle&oldid=418321493)‎, but then removed and replaced with the [animation](https://en.wikipedia.org/wiki/Pascal%27s_triangle#/media/File:Pascal's_Triangle_animated_binary_rows.gif).
 				  collapsed:: true

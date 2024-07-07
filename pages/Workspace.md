@@ -66,6 +66,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Problems
 	  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
 		-
+		- [!] My expression of "arrogance"
+		  collapsed:: true
+			- Even i've never thought that i'm better/higher than anyone else, my expression does show some trace of arrogance which has been fed back by my (close) friends. Is shows something is hidden deep inside my unconsciousness. Here i list some causes that i can reflect on this problem.
+			- 1st, the **illusion of abstraction**: The (holistic) view from above shows me the way and makes me feel that "i've known the way already, it's just a piece of cake" and forget that it's just a "map" and the actual walking the way is much much harder with much more efforts.
+				- I've called it by many names: the karma of theorist, the sickness of talent.
+			- 2nd, the **implosive attitude** of my inner self toward external forms as if i'm fighting for the abolition of these forms ("đả phá"). Even though i consider "all views are equal"... they are just "equal in theory" while in practice i have a hidden tendency to consider my "inner view through content" superior to the "external view through form" of others.
 		- [!] The clash between internal work and external work
 		  id:: 6677b986-ada2-4c73-8a11-980cdf9cb6d4
 		  collapsed:: true
