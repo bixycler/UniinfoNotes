@@ -368,3 +368,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Varying $dt$ from ∞ -> 1 -> 0, we have the average (center of mass) $\bar{x} = E[f(t)]$ -> the function $x = f(t)$ itself  -> derivative $\dot{x} = f'(t)$
 		- [?] What's the relation to
 		  ((66875f13-3385-48d5-99b1-fb72dc53291d))
+	- DOING i, the internal imaginary impression that bridges the gap, complete the circle, reverts (reduces) the entropy of the external "real" world, is the internal image reflecting the external world.
+	  id:: 668d08c7-ec2d-4188-9745-6ccf643c9132
+	  :LOGBOOK:
+	  CLOCK: [2024-07-09 Tue 16:38:07]
+	  :END:
+		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) this ((668d0827-7ff2-468c-b62c-3f1d072119ac))
+		  :LOGBOOK:
+		  CLOCK: [2024-07-09 Tue 16:28:26]
+		  :END:
+		- The "real vs imaginary" is just a relative pair like the "real object - virtual image" & "real image - virtual object" in optical physics.
+		  collapsed:: true
+			- ![real-virtual-object-image.jpg](../assets/physics/real-virtual-object-image.jpg)

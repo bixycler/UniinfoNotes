@@ -329,3 +329,23 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- hơi loãng xương, huyết áp thấp, răng sâu nhiều
 				- điện tâm đồ, ổ bụng bình thường
 				- mắt: trái 7/10, phải 6/10 (dưới 1 độ, tức ổn định)
+		- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
+		- [comment on fb](https://www.facebook.com/lexuandinhct/posts/pfbid0RDW7MQ2pzM9LwkP9BhobJCvSiqSY5CVUfURow2xrpYwRHyN4BR4R6ir1zvj4voJ8l?comment_id=4698845016799415&reply_comment_id=856971509813387) about "the fate of a little prostitute" 
+		  id:: 668d0827-7ff2-468c-b62c-3f1d072119ac
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-07-09 Tue 16:28:26]
+		  :END:
+			- and chat-share with Huy about the my mental process throughout this event instead of the result theories (formulae) extracted from it as usual.
+			- Story:
+				- Mấy hôm nay từ duyên thầy [Thích Minh Tuệ](https://vi.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87) và nhiều thứ khác, mình trăn trở nhiều về con đường giải thoát của mình (và của vợ).
+				- 2 ngày hôm nay mình đều phải nghỉ làm buổi sáng vì thức khuya.
+				- Trưa nay, tuy canh ngủ cho đủ 5 tiếng (min) nhưng khi đồng hồ kêu dậy mình vẫn thấy toàn thân rã rời.
+				- Hít thở vượt qua chướng ngại đó, mình vác xác tới cty.
+				- Gửi xe, đi bộ lên cầu thang toà nhà... mình nhìn sâu từ trong "cửa tử" ra ngoài, ngộ ra: ((668d08c7-ec2d-4188-9745-6ccf643c9132))
+				- Lên bấm vân tay check in vào phòng "lab" nhưng thấy mọi người còn đang tắt điện ngủ trưa nên mình ra ngoài lan-can đứng.
+				- Rất nhiều thứ diễn ra trong tâm, đối thoại với Huy, với em Hằng, v.v. đủ kiểu....
+				- Nhắc lại cái luồng mấy hôm nay mình cũng đang "lật mặt" trái ra cho các bạn, từ Tú Trung mấy tháng trước, tới em Hằng ở tuần trước và cho Huy mấy hôm nay.
+				- Bỗng mình thấy lại hình tượng con đĩ nhỏ làm bà mẹ đơn thân ôm cái bụng bầu đi lang thang chẳng nơi nào nhận....
+				- Thế là lần thứ 2 mình trào nước mắt quay lại khóc cho bản thân và những số phận của những cá nhân nhỏ bé (từ khi dậm chưn trên di-văng ở nhà hồi lớp 9 tuyên bố không khóc [tự ái cho bản thân] nữa.)
+					- Lần thứ 1 là đợt em nhập viện mổ ruột thừa, mình ở nhà xem thầy Minh Tuệ xong thì lan qua xem bộ phim tâm lý tình cảm ["Tiếng Sét Trong Mưa"](https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_s%C3%A9t_trong_m%C6%B0a)... và đã khóc ngất cho tất cả những mảnh đời đó, đi tâm hành lại, nhập lại tất cả các vai đó, từ Cậu 3 bạo lực đập đầu con ở tới con ở - mợ 3 Thị Bình, rồi thằng ở đợ Lũ, con ở Hiểm, bà hội đồng, v.v.
