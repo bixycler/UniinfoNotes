@@ -289,7 +289,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2024-06-28 Fri 08:11:13]
 		  :END:
 			- spirorus extending, thread solidity
-		- constant velocity of light = constant sum of squares => distortion (from [perfect circle](((6667c99a-792f-4230-9fc6-c5fae874daef)))) = extending to other dimensions
+		- constant velocity of light = constant sum of squares 
+		  id:: 667e0e4b-9f87-45b5-adb1-297b79943502
+		  => distortion (from [perfect circle](((6667c99a-792f-4230-9fc6-c5fae874daef)))) = extending to other dimensions
+			- Radius of circle = height of tree 🎄 = intension = log(intent) = articulated limb = const length loop collapsed into a polyline
+			  id:: 66875f13-3385-48d5-99b1-fb72dc53291d
+			  collapsed:: true
+				- each segment = a level of diff (derivative) = a digit of number
+				- locus of all segments = locus of intension (collapsed) circle = spirorus
+				  + But only the tip is visible => see only a trace of tip point = extent
 			- There's a very neat connection between this circle and the [power set above](((667e1011-5dff-46c6-8e1b-85587e2f0e3e))) via [log of binomial coefficients](https://math.stackexchange.com/a/4833062/1290859)
 			  id:: 6683ea7b-d7ee-460e-94bb-1b0c2a050a52
 			  collapsed:: true
@@ -328,3 +336,35 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- That plot was added to Wikipedia page of Pascal's triangle at [17:07, 11 March 2011](https://en.wikipedia.org/w/index.php?title=Pascal%27s_triangle&oldid=418321493)‎, but then removed and replaced with the [animation](https://en.wikipedia.org/wiki/Pascal%27s_triangle#/media/File:Pascal's_Triangle_animated_binary_rows.gif).
 				  collapsed:: true
 					- ![Pascal-Triangle-animated-binary-rows.gif](../assets/geometry/Pascal-Triangle-animated-binary-rows.gif)
+	- mặc cảm
+	  id:: 6684f334-6db2-4e2e-8e03-d62f6ec97364
+	  collapsed:: true
+		- ((6684f334-6db2-4e2e-8e03-d62f6ec97364)) in English:
+			- [complex](https://en.wikipedia.org/wiki/Complex_(psychology)) is a term in psychoanalysis, introduced by Jung from 1900s and then adopted by the folk in everyday talk, too.
+			- [hang-up](https://en.wiktionary.org/wiki/hang-up) is a slang somehow equivalent to "complex".
+			- [self-consciousness](https://en.wikipedia.org/wiki/Self-consciousness): "be self-conscious about ..." = "[mặc cảm](https://en.wiktionary.org/wiki/m%E1%BA%B7c_c%E1%BA%A3m) về ..."
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- The complex of the psyche is [due to the unreal/imaginative part]((https://www.psychologytoday.com/us/blog/the-imprinted-brain/201408/cognitive-complexes-everyone-s-hang-especially-sex)) intertwined with the real/actual part, just as the complex number.
+		- My complexes:
+			- Mặc cảm tội lỗi
+				- My guilt complex
+				  id:: 6684f7c4-bb8e-4c91-8c49-f65051b09b16
+			- Mặc cảm vô dụng
+				- My worthlessness (inferiority) complex is the drive for my ((6678d594-9819-4624-abd6-d4ec62b3874f)). It has been accumulated from the social critiques due to my strangeness.
+			- Mặc cảm lừa dối
+				- My lying complex
+	- The threshold/doorstep between death & life = singularity = double cone
+	  collapsed:: true
+		- dying = black hole
+		  collapsed:: true
+			- inversion of space & time: stuck in one place & sinking inside, while the whole time is visible "on the screen" just like space.
+		- being born = white hole
+	- Size of particle (quantum) = intent = 1/extent = reciprocal of size of the world
+	  collapsed:: true
+		- Radius of particle = reciprocal of curvature of particle => the "point particle" moves in straight line
+		- Curvature ~ limit velocity (c, speed of light) ~ size of world, all are determined by the radius of particle
+			- The constancy of the speed of light is just because of the constancy of the quantum size which in turn is due to the commonness of the quantum.
+		- Size of particle $dt$ determines the fineness of derivative $dx/dt$
+			- Varying $dt$ from ∞ -> 1 -> 0, we have the average (center of mass) $\bar{x} = E[f(t)]$ -> the function $x = f(t)$ itself  -> derivative $\dot{x} = f'(t)$
+		- [?] What's the relation to
+		  ((66875f13-3385-48d5-99b1-fb72dc53291d))

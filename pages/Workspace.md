@@ -22,6 +22,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- This also solve the current bug/issue that ((667d263b-658b-4560-b8cc-f6838534956d))
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
 		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =>  71:47:28
 		  :END:
@@ -77,8 +78,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  collapsed:: true
 			- As i dive deep inside, it's hard to surface up to do external works, hence many delays in (official) works.
 			- When i interrupt the internal work, my self is fragmented, heavy, lack motivation to do anything.
-			- Perfectionism: The requirement that my self must be smooth, full, round, coherent, unfragmented is the sign of perfectionism.
+			- Perfectionism
+			  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
 			  collapsed:: true
+			  The requirement that my self must be smooth, full, round, coherent, unfragmented is the sign of perfectionism.
 				- First, let's refine the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works.
 				  id:: 6677bc01-44ec-4e4a-aeed-d63996bc0c46
 				- Sublime & transform: a technique of refinement is using breathwork to dissolve, to sublimate the hard circle into a fluid (qi, khí, 氣), then use qigong (氣功) to transform & channel the fluid to the required target form.

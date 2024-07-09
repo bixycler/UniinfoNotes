@@ -545,6 +545,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Example: [binary relation](https://en.wikipedia.org/wiki/Binary_relation) and [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) in Maths.
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
+	  collapsed:: true
+		- ### solidity
+		-
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
 	  collapsed:: true
