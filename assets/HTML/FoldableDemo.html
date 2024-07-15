@@ -1,0 +1,111 @@
+<HTML>
+<HEAD>
+  <title>Foldable layouts</title>
+  <STYLE>
+
+/* Hidden checkbox storing folding state */
+.is-folded {
+  display: none;
+}
+
+/* Folding toggle (label of folding state checkbox) */
+
+label.folding-toggle {
+  cursor: pointer;
+  display: inline-block;
+}
+label.folding-toggle:hover {
+  background-color: LightGrey;
+}
+.is-folded + label.folding-toggle::before {
+  content: '►'; /*▶‣*/
+}
+.is-folded:not(:checked) + label.folding-toggle::before {
+  content: '▼';
+}
+
+/* Foldable content */
+
+.foldable-content {
+  display: none;
+}
+.is-indented:checked + label + .indent-wrapper .foldable-content {
+  margin-left: .5em;
+  padding-left: 1em;
+  border-left: solid 1px; /* stem line */
+  border-bottom: inset 1px; /* this is required for the stem line to cover the full height */
+}
+.is-folded:not(:checked) + label + .foldable-content {
+  display: block;
+}
+
+  </STYLE>
+</HEAD>
+
+<BODY>
+
+<H3>HTML tag <code>&lt;details&gt; &lt;summary&gt;</code></H3>
+<details>
+  <summary>One</summary>
+  <details>
+    <summary>Two</summary>
+    <details open>
+      <summary>Three</summary>
+      ... <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">The Details disclosure element</a></p>
+    </details>
+  </details>
+</details>
+
+<H4>combined with <code>&lt;ul&gt; &lt;li&gt;</code></H4>
+<ul>
+  <li><details open>
+    <summary>One</summary>
+    <ul>
+      <li><details>
+        <summary>Two</summary>
+        <ul>
+          <li><details open>
+            <summary>Three</summary>
+            ... <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">The Details disclosure element</a></p>
+          </details></li>
+        </ul>
+      </details></li>
+      <li>Hai<br>...</li>
+      <li><details>
+        <summary>Deux</summary>
+        ...
+      </details></li>
+    </ul>
+  </details></li>
+</ul>
+
+<hr>
+<H3>CSS-only foldable</H3>
+<input type="checkbox" class="is-indented" id="#is-indented" checked />
+<label for="#is-indented">Indented<br></label>
+<div class="indent-wrapper" style="margin-left: 1.5em;">
+  <input type="checkbox" class="is-folded" id="#One" />
+  <label for="#One" class="folding-toggle">One</label>
+  <div class="foldable-content">
+    <input type="checkbox" class="is-folded" id="#Two" checked />
+    <label for="#Two" class="folding-toggle">Two</label>
+    <div class="foldable-content">
+      <input type="checkbox" class="is-folded" id="#Three" />
+      <label for="#Three" class="folding-toggle">Three</label>
+      <div class="foldable-content">
+        ... <p>Ref: <a href="https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/">Creating a collapsible markdown on one page</a></p>
+      </div>
+    </div>
+
+    <li class="unfoldable-content">Hai</li>
+
+    <input type="checkbox" class="is-folded" id="#Deux" checked />
+    <label for="#Deux" class="folding-toggle">Deux</label>
+    <div class="foldable-content">
+      ...
+    </div>
+  </div>
+</div>
+
+</BODY>
+</HTML>

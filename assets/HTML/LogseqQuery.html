@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+  <title>Logseq query</title>
+
+  <STYLE>
+    body {
+      line-height: 1.5;
+    }
+    textarea {
+      width: 100%;
+    }
+  </STYLE>
+
+</HEAD>
+
+<BODY>
+
+<H2>Get Block/Page/File</H2>
+<p>
+<form id="getBlockCtrl">
+  <p>
+  Id: <input type="text" id="getBlockId" name="getBlockId"
+        placeholder="Block ID (number) or UUID (may contain parenthesis)"
+        size="40" onclick="this.select()">
+  </p>
+  <button id="getBlockRefetch">Get it (again)!</button>
+</form>
+
+<H3>Result</H3>
+<p id="getBlockMsg" color="red">
+</p>
+
+<p>
+  Content: <span id="getBlockResContentType"></span><br>
+  <textarea id="getBlockResContent" rows="10"></textarea>
+  <textarea id="getBlockResMeta" rows="5"></textarea>
+</p>
+<p>
+  ID: <input type="text" id="getBlockResId" size="5" onclick="this.select()">
+  &emsp; UUID: <input type="text" id="getBlockResUuid" size="36" onclick="this.select()">
+  &emsp; Parent: <input type="text" id="getBlockResParent" size="5" onclick="this.select()">
+  <br>
+  Created: <input type="text" id="getBlockResCreated" size="18">
+  &emsp; Updated: <input type="text" id="getBlockResUpdated" size="18">
+  <br>
+  References: <input type="text" id="getBlockResRefs" style="width:100%;">
+</p>
+<p>
+  Other info:<br>
+  <textarea id="getBlockResJson" rows="20"></textarea>
+</p>
+
+<script src="LogseqQuery.js"></script>
+
+</BODY>
+</HTML>
