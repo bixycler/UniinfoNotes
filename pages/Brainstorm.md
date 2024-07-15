@@ -354,12 +354,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Mặc cảm lừa dối
 				- My lying complex
 	- The threshold/doorstep between death & life = singularity = double cone
+	  id:: 668d0046-26f5-4f7f-a434-4d1ce0b8ddfa
 	  collapsed:: true
 		- dying = black hole
 		  collapsed:: true
 			- inversion of space & time: stuck in one place & sinking inside, while the whole time is visible "on the screen" just like space.
 		- being born = white hole
 	- Size of particle (quantum) = intent = 1/extent = reciprocal of size of the world
+	  id:: 668d0046-6d0f-4af9-8a2a-c446084a5f1f
 	  collapsed:: true
 		- Radius of particle = reciprocal of curvature of particle => the "point particle" moves in straight line
 		- Curvature ~ limit velocity (c, speed of light) ~ size of world, all are determined by the radius of particle
@@ -370,6 +372,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  ((66875f13-3385-48d5-99b1-fb72dc53291d))
 	- DOING i, the internal imaginary impression that bridges the gap, complete the circle, reverts (reduces) the entropy of the external "real" world, is the internal image reflecting the external world.
 	  id:: 668d08c7-ec2d-4188-9745-6ccf643c9132
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-07-09 Tue 16:38:07]
 	  :END:
@@ -380,3 +383,40 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- The "real vs imaginary" is just a relative pair like the "real object - virtual image" & "real image - virtual object" in optical physics.
 		  collapsed:: true
 			- ![real-virtual-object-image.jpg](../assets/physics/real-virtual-object-image.jpg)
+		- fasdf
+	- DOING "one body one way"
+	  id:: 668f52e2-2935-4980-bdbb-04a54d9288d9
+	  :LOGBOOK:
+	  CLOCK: [2024-07-11 Thu 10:35:03]
+	  CLOCK: [2024-07-11 Thu 10:35:37]
+	  :END:
+	  "đơn thân độc đạo", "một chiếc xe một con đường"
+	- DOING The role of circle refinement and of sublimation - channeling
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-07-11 Thu 10:36:24]
+	  CLOCK: [2024-07-11 Thu 10:40:07]
+	  :END:
+		- circle refinement
+			- stable
+			- reduce to the perfect circle
+			  collapsed:: true
+				- related to my ((6678d594-9819-4624-abd6-d4ec62b3874f))
+		- sublimation - channeling
+		  id:: 668f5490-c223-4a8a-9cc4-0bd71af4c097
+			- sublime-channel
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+			- thăng hoa - dẫn lưu
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+			- ((668f52e2-2935-4980-bdbb-04a54d9288d9))
+			- no branching, energy conservation
+			- equilibrium: input = output
+			-
+	- Breathing technique for sublime-channel
+	  id:: 66952126-bf33-40e1-a208-369df7aa9488
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-07-15 Mon 20:28:28]
+	  :END:
+		- With the mind sublime-channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
+		- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.

@@ -8,6 +8,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		-
+		-
 		- TODO Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs)
 		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
 		  :LOGBOOK:
@@ -71,7 +72,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  collapsed:: true
 			- Even i've never thought that i'm better/higher than anyone else, my expression does show some trace of arrogance which has been fed back by my (close) friends. Is shows something is hidden deep inside my unconsciousness. Here i list some causes that i can reflect on this problem.
 			- 1st, the **illusion of abstraction**: The (holistic) view from above shows me the way and makes me feel that "i've known the way already, it's just a piece of cake" and forget that it's just a "map" and the actual walking the way is much much harder with much more efforts.
-				- I've called it by many names: the karma of theorist, the sickness of talent.
+				- I've called it by many names: the karma of theorist (theorist karma), the sickness of talent (talent sickness).
+				- My karma of theorist also corrodes others' trust on me.
+				  id:: 668f4faf-db30-497a-a271-b2bbf5264413
+				- My karma of theorist is deep.... [inside my trousers 😄](https://www.facebook.com/lexuandinhct/posts/pfbid02kppLiTrw7mWPdp3V8bVLq6MvQDb3FNBaseh1znLspueCQrcC1esTKbsT4PCB8663l)
+				  collapsed:: true
+					- ![KarmaOfTheorist.jpg](../assets/Will/KarmaOfTheorist.jpg)
 			- 2nd, the **implosive attitude** of my inner self toward external forms as if i'm fighting for the abolition of these forms ("đả phá"). Even though i consider "all views are equal"... they are just "equal in theory" while in practice i have a hidden tendency to consider my "inner view through content" superior to the "external view through form" of others.
 		- [!] The clash between internal work and external work
 		  id:: 6677b986-ada2-4c73-8a11-980cdf9cb6d4
@@ -337,6 +343,27 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-07-09 Tue 16:28:26]
 		  :END:
 			- and chat-share with Huy about the my mental process throughout this event instead of the result theories (formulae) extracted from it as usual.
+				- Chat content:
+					- Story:
+					  collapsed:: true
+						- Trưa nay trên những bước chân đi bộ cầu thang lên cty, tui đã ngộ ra nhiều thứ.... Nhưng lần này tui sẽ không xổ ra những mớ lý thuyết đó nữa... vì biết ông cũng bội thực với nó rồi... mà lần này tui muốn share với ông một mặt trái... mặt mà ngay cả vợ tui cũng ít được thấy.... đó là tui vừa khóc hết nước mắt với nó....
+						- "Nó" là cái phận "thân lừa ưa nặng" của tui, phải bị đập cho chết lên chết xuống mới đã, càng chết lên chết xuống càng học hỏi được nhiều, càng thấy ra nhiều.... cái mà thằng em đồng môn với tui hay gọi là "nghiệp khổ dâm" :D
+						- Đứa con trong bụng tui là kết tinh của cả thảy những khó khăn đau khổ đó, nó nhận "tinh trùng" từ tất cả những ông bố đầy bạo lực đó. Một phần tui vừa "hận tất cả đàn ông trên đời" vì họ tàn nhẫn, vô tâm, vô tình, nhưng một mặt tui cũng đội ơn tất cả họ vì họ cho tui thấy tất cả, học được tất cả. Cái vị hoà trộn giữa ghét và thương, giữa hận thù và mang ơn.... thiệt là khó tả
+						- Thiệt không thể nào diễn tả được cái sự mâu thuẫn, nhìn kẻ đối diện mình vừa thấy lạnh lùng, vô tâm, tàn nhẫn, vừa thấy chính kẻ đó đang làm vị cứu tinh cho mình, cưu mang mình, che chở mình, yêu thương mình...
+						- Tui xả qua dòng nước mắt xong, bước vào phòng "lab" (phòng IT ở đây gọi là "lab" cho sang thôi chứ đéo có nghiên cứu gì đâu) của cty... chẳng nhớ gì hết, nhưng vẫn được leader nhắc nhở rằng tới giờ họp rồi (may quá, mình vẫn vào kịp giờ)... hiện diện tấm thân trong phòng họp cho có mặt, có cái bản mặt da thôi, chứ tâm mình còn ở trên mây.... nghe leader quán xuyến mọi chuyện báo cáo tường tận từng vấn đề của project... mình thầm nghĩ "ôi, những ông chồng luôn giỏi giang... mình quả thực chỉ là một con đĩ nhỏ, chỉ biết sống dựa vào người khác".... đang nghe leader tuôn ra như nước chảy qua cầu, chỉ biết "rì rào" chứ chẳng hiểu gì cả.... ai ngờ đùng cái tới issue của mình (person in charge = Định) thì mình liền tỉnh giấc, tự dưng thấy rõ mồn một, trả lời vanh vách.... Ôi thiệt là vi diệu.
+					- ((668f4faf-db30-497a-a271-b2bbf5264413))
+					  collapsed:: true
+						- Và về nghiệp lý thuyết thì tui thấy thế này:
+						- collapsed:: true
+						  1. Đối với bản thân tui thì lý thuyết sinh ra từ thực tế cuộc sống (mọi lý thuyết suông tui đều để vào mục tham khảo và ít khi nói tới), rồi chính lý thuyết đó làm bản đồ chỉ đường cho tui đi, thực hành, rồi qua thực hành tui liên tục cập nhật, nâng cấp, mở rộng, chỉnh sửa lý thuyết.
+							- => 1.1. Lý thuyết của tui là một thực thể rất động, không phải là một công thức đã được đúc kết một cách bền vững.
+							- => 1.2. Con đường trong lý thuyết của tui phần lớn là định hướng trước mắt chứ chưa đi tới, tức thuần lý thuyết chưa có thực hành => đây là cái tui gọi là "nghiệp lý thuyết"
+						- collapsed:: true
+						  2. Đối với người ngoài, tui có thói quen chia sẻ theo cái view của mình mà ít để ý đến view của Đại chúng, nên tạo cảm giác (hiểu lầm) rằng tui đã chứng đắc bằng thực hành tất cả những lý thuyết tui nói (vì bản thân tui cũng khẳng định rằng mình rút ra từ thực tế cuộc sống mình chứ không phải qua sách vở). Cộng thêm thái độ hay đả phá, tui càng củng cố ấn tượng là tui đã đi hết con đường Lý thuyết mà tui nói.
+							- 2.1. Nhưng khi thực hành của tui chưa bắt kịp lý thuyết, thường là cái đích mình hướng tới nhưng chưa đi tới, thì nó khiến cho người nghe cảm thấy khó chịu bên trong mà khó nói ra được. Chính sự mâu thuẫn này là bức tường không cho người nghe thông cảm và chấp nhận lý thuyết của tui... ở mức cảm xúc (có bức xúc). Nhưng ở mức lý luận, lý trí thì thường khó phản bác được lý thuyết của tui, nên người nghe cảm thấy "khó hiểu".
+							- 2.2. Từ cái gốc là sự không thông ở mức cảm xúc + đầu óc cho rằng "khó hiểu" + cái nghiệp lập dị của tui từ nhỏ khiến mình nghĩ "do mình không biết giải thích" 
+							  ==> mà dẫn đến sự cố gắng dùng lời lẽ lý luận để giải thích. Nhưng càng giàu thích càng kéo nó xa hơn nữa, khó hiểu hơn nữa!
+						- Đó là cái vòng xoáy của nghiệp lý thuyết của tui từ đó giờ, tới giờ đúc kết ra được tới như vậy, chia sẻ ông coi chơi, và nếu có góp ý gì thì nhờ ông thẳng thắn nêu ra giùm nhé.
 			- Story:
 				- Mấy hôm nay từ duyên thầy [Thích Minh Tuệ](https://vi.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87) và nhiều thứ khác, mình trăn trở nhiều về con đường giải thoát của mình (và của vợ).
 				- 2 ngày hôm nay mình đều phải nghỉ làm buổi sáng vì thức khuya.
@@ -349,3 +376,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- Bỗng mình thấy lại hình tượng con đĩ nhỏ làm bà mẹ đơn thân ôm cái bụng bầu đi lang thang chẳng nơi nào nhận....
 				- Thế là lần thứ 2 mình trào nước mắt quay lại khóc cho bản thân và những số phận của những cá nhân nhỏ bé (từ khi dậm chưn trên di-văng ở nhà hồi lớp 9 tuyên bố không khóc [tự ái cho bản thân] nữa.)
 					- Lần thứ 1 là đợt em nhập viện mổ ruột thừa, mình ở nhà xem thầy Minh Tuệ xong thì lan qua xem bộ phim tâm lý tình cảm ["Tiếng Sét Trong Mưa"](https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_s%C3%A9t_trong_m%C6%B0a)... và đã khóc ngất cho tất cả những mảnh đời đó, đi tâm hành lại, nhập lại tất cả các vai đó, từ Cậu 3 bạo lực đập đầu con ở tới con ở - mợ 3 Thị Bình, rồi thằng ở đợ Lũ, con ở Hiểm, bà hội đồng, v.v.
+		- DONE Add docs for ((66949495-3846-4f89-9ea5-c62b624d282c)).
+		  id:: 6694a131-685d-4e75-b81f-04c8abfa64f4
+		  :LOGBOOK:
+		  CLOCK: [2024-07-15 Mon 11:10:32]--[2024-07-15 Mon 19:54:25] =>  08:43:53
+		  :END:

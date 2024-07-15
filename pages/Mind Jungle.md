@@ -4,6 +4,381 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66600918-70a9-49da-ac23-5bfbbf006854
 	-
 	-
+	- ## Linux
+	  id:: 66949495-3846-4f89-9ea5-c62b624d282c
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-07-15 Mon 11:04:21]
+	  :END:
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Linux
+		- Distributions
+		  collapsed:: true
+			- ### Ubuntu
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
+		- ### shell
+			- `man [-k]`, `info`, `[run-]help`, `apropos`
+			  collapsed:: true
+				- `man` is the traditional UNIX manual pages for specific subjects like commands, functions, configs, etc. `man` pages are viewed with `less` navigation.
+					- ((66725725-f76a-4328-b162-f469b87e871b)) `man ls`
+					  collapsed:: true
+						- ```
+						  ⮕ man ls
+						  NAME
+						         ls - list directory contents
+						  
+						  SYNOPSIS
+						         ls [OPTION]... [FILE]...
+						  
+						  DESCRIPTION
+						         List  information about the FILEs (the current directory by default).  Sort entries alpha‐
+						         betically if none of -cftuvSUX nor --sort is specified.
+						  ...
+						  ```
+					- `man -k ${keyword}` = `apropos ${keyword}` searches the manual page names and descriptions for `${keyword}`.
+					- ((66725725-f76a-4328-b162-f469b87e871b)) `apropos directory`
+					  collapsed:: true
+						- ```
+						  ⮕ apropos directory                                                                     [f54d504e0]
+						  alphasort (3)        - scan a directory for matching entries
+						  basename (1)         - strip directory and suffix from filenames
+						  bindtextdomain (3)   - set directory containing message catalogs
+						  chacl (1)            - change the access control list of a file or directory
+						  chdir (2)            - change working directory
+						  chroot (2)           - change root directory
+						  chroot (8)           - run command or interactive shell with special root directory
+						  closedir (3)         - close a directory
+						  cups-files.conf (5)  - file and directory configuration file for cups
+						  dbus-cleanup-sockets (1) - clean up leftover sockets in a directory
+						  depmod.d (5)         - Configuration directory for depmod
+						  dir (1)              - list directory contents
+						  dirfd (3)            - get directory stream file descriptor
+						  dirsplit (1)         - splits directory into multiple with equal size
+						  ...
+						  ```
+				- `info` is the comprehensive GNU documentation for distributions and systems. It is a system of docs interlinked and indexed with hyper-links like ebooks. `info` docs are viewed with `emacs` navigation.
+					- ((66725725-f76a-4328-b162-f469b87e871b)) `info ls`
+					  collapsed:: true
+						- ```
+						  ⮕ info ls
+						  10.1 ‘ls’: List directory contents
+						  ==================================
+						  
+						  The ‘ls’ program lists information about files (of any type, including
+						  directories).  Options and file arguments can be intermixed arbitrarily,
+						  as usual.
+						  ...
+						  ```
+				- Bash' `help` and ZSh' `run-help` is the built-in command to describe shell-built-in commands. Help pages are viewed with `less` navigation.
+					- ((66725725-f76a-4328-b162-f469b87e871b)) `[run-]help ls`, `[run-]help cd`
+					  collapsed:: true
+						- ```
+						  ⮕ help ls
+						  bash: help: no help topics match `ls'.  Try `help help' or `man -k ls' or `info ls'.
+						  ⮕ run-help ls     
+						  ls is an alias for ls --color=tty
+						  ⮕ help cd
+						  cd: cd [-L|[-P [-e]] [-@]] [dir]
+						      Change the shell working directory.
+						  ...
+						  ⮕ run-help cd      
+						  cd [ -qsLP ] [ arg ]
+						  cd [ -qsLP ] old new
+						  cd [ -qsLP ] {+|-}n
+						         Change  the  current  directory.   In the first form, change the
+						         current directory to arg, or to the value of $HOME if arg is not
+						         specified.  If arg is `-', change to the previous directory.
+						  ...
+						  ```
+			- `which`, `type`, `command -V`, `whence`, `where`
+			  collapsed:: true
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) All these describe the given name as whether a built-in command or an external command (with path) or an alias (with definition), but are different in different shells.
+				- Note: The command `command [-p]` is designed to *execute an external command* distinguishing from buit-in or function or alias of the same name. However, its additional option `[-vV]` does the job of `which`/`type`.
+				- In `bash`
+					- `type` & `command` are built-in, `which` is external, and no `whence` nor `where`.
+					- ((66725725-f76a-4328-b162-f469b87e871b))
+					  collapsed:: true
+						- ```shell
+						  ⮕ which which
+						  /usr/bin/which
+						  ⮕ type which
+						  which is hashed (/usr/bin/which)
+						  ⮕ type type
+						  type is a shell builtin
+						  ⮕ type command
+						  command is a shell builtin
+						  ⮕ type whence
+						  bash: type: whence: not found
+						  ⮕ type where
+						  bash: type: where: not found
+						  ⮕ type ll
+						  ll is aliased to `ls -alF'
+						  ⮕ which -a ls
+						  /usr/bin/ls
+						  /bin/ls
+						  ```
+				- In `zsh`
+					- `whence` & `command` are built-in, with aliases `which`=`whence -c`, `where`=`whence -ca`, `type`=`whence -v`.
+					- ((66725725-f76a-4328-b162-f469b87e871b))
+					  collapsed:: true
+						- ```shell
+						  ⮕ which which
+						  which: shell built-in command
+						  ⮕ which type
+						  type: shell built-in command
+						  ⮕ which command
+						  command: shell built-in command
+						  ⮕ which whence
+						  whence: shell built-in command
+						  ⮕ which where
+						  where: shell built-in command
+						  ⮕ which ll
+						  ll: aliased to ls -lhF
+						  ⮕ which -a ls
+						  ls: aliased to ls --color=tty
+						  /usr/bin/ls
+						  /bin/ls
+						  ```
+			- Command directories
+			  collapsed:: true
+				- Home: `${HOME}/bin`, `${HOME}/.local/bin`
+				- System: `/bin`, `/usr/bin`, `/usr/local/bin`
+				- Superuser: `/sbin`, `/usr/sbin`, `/usr/local/sbin`
+				- Snap: `/snap/bin`
+			- Escape sequences
+			  collapsed:: true
+				- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
+				- ((66725725-f76a-4328-b162-f469b87e871b))
+					- ```shell
+					  LANG=C LC_ALL=UTF-16BE printf "\
+					  \0\a\b\t\n\v\f\r\e \"\'\?\\~~\
+					  \07\077\xF\x7F\xA0\xFF\uF\uAB\uF00\uFF9D\
+					  " |od -tx1 -An
+					  ```
+					  results in
+					  ```
+					   00 07 08 09 0a 0b 0c 0d 1b 20 22 27 3f 5c 7e 7e
+					   07 3f 0f 7f a0 ff 0f 00 ab 0f 00 ff 9d
+					  ```
+				- Table of escape sequences
+				  collapsed:: true
+					- | Esc seq |  Hex  | Unicode & Meaning |
+					  |:------- | -----:| ------------------ |
+					  | `\0`        |    00 | [␀] = [U+0000](https://www.compart.com/en/unicode/U+0000) = [NULL (control)](https://en.wikipedia.org/wiki/Null_character) |
+					  | `\a`=`\07`  |    07 | [🔔] = [⍾] = [␇] = [U+0007](https://www.compart.com/en/unicode/U+0007) = [BELL (control)](https://en.wikipedia.org/wiki/Bell_character) |
+					  | `\b`        |    08 | [⌫] = [␈] = [U+0008](https://www.compart.com/en/unicode/U+0008) = [BACKSPACE (control)](https://en.wikipedia.org/wiki/Backspace) |
+					  | `\t`        |    09 | [↹] = [␉] = [U+0009](https://www.compart.com/en/unicode/U+0009) = [HORIZONTAL TAB (control)](https://en.wikipedia.org/wiki/Tab_key) = `&Tab;` |
+					  | `\n`        |    0A | [⏎] = [␊] = [U+000A](https://www.compart.com/en/unicode/U+000A) = [END OF LINE, LINE FEED, NEW LINE (control)](https://en.wikipedia.org/wiki/Newline) = `&NewLine;` |
+					  | `\v`        |    0B | [↨] = [␋] = [U+000B](https://www.compart.com/en/unicode/U+000B) = [VERTICAL TAB (control)](https://en.wikipedia.org/wiki/Tab_key) |
+					  | `\f`        |    0C | [↡] = [␌] = [U+000C](https://www.compart.com/en/unicode/U+000C) = [FORM FEED (control)](https://en.wikipedia.org/wiki/Page_break#Form_feed) |
+					  | `\r`        |    0D | [↵] = [␍] = [U+000D](https://www.compart.com/en/unicode/U+000D) = [CARRIAGE RETURN (control)](https://en.wikipedia.org/wiki/Carriage_return) |
+					  | `\xF`=`\uF` |    0F | [␏] = [U+000F](https://www.compart.com/en/unicode/U+000F) = [SHIFT IN (control)](https://en.wikipedia.org/wiki/Shift_Out_and_Shift_In_characters) |
+					  | `\e`        |    1B | [␛] = [U+001B](https://www.compart.com/en/unicode/U+001B) = [ESCAPE (control)](https://en.wikipedia.org/wiki/Escape_character) |
+					  | `\"`        |    22 | " = [U+0022](https://www.compart.com/en/unicode/U+0022) = [QUOTATION MARK](https://en.wikipedia.org/wiki/Quotation_mark) = `&quot;` |
+					  | `\'`        |    27 | ' = [U+0027](https://www.compart.com/en/unicode/U+0027) = [APOSTROPHE](https://en.wikipedia.org/wiki/Apostrophe) = `&apos;` |
+					  | `\?`=`\077` |    3F | ? = [U+003F](https://www.compart.com/en/unicode/U+003F) = [QUESTION MARK](https://en.wikipedia.org/wiki/Question_mark) = `&quest;` |
+					  | `\\`        |    5C | \ = [U+005C](https://www.compart.com/en/unicode/U+005C) = [REVERSE SOLIDUS](https://en.wikipedia.org/wiki/Backslash) = `&bsol;` |
+					  | `\x7F`      |    7F | [⌦] = [t̶e̶x̶t̶̶] = [␡] = [U+007F](https://www.compart.com/en/unicode/U+007F) = [DELETE (control)](https://en.wikipedia.org/wiki/Delete_character) |
+					  | `\uA0`      |    A0 | [⍽] = ` ` = [U+00A0](https://www.compart.com/en/unicode/U+00A0) = [NO-BREAK SPACE](https://en.wikipedia.org/wiki/Non-breaking_space) = `&nbsp;` = `&NonBreakingSpace;` |
+					  | `\uAB`      |    AB | « = [U+00AB](https://www.compart.com/en/unicode/U+00AB) = [LEFT-POINTING DOUBLE ANGLE QUOTATION MARK](https://en.wikipedia.org/wiki/Guillemet) = `&laquo;` |
+					  | `\xFF`      |    FF | ÿ = [U+00FF](https://www.compart.com/en/unicode/U+00FF) = [SMALL LETTER Y WITH DIAERESIS](https://en.wikipedia.org/wiki/%C5%B8) = `&yuml;` |
+					  | `\uF00`     |  0F00 | ༀ = [U+0F00](https://www.compart.com/en/unicode/U+0F00) = [TIBETAN SYLLABLE OM](https://en.wikipedia.org/wiki/Om) |
+					  | `\uFF9D`    |  FF9D | ﾝ = [U+FF9D](https://www.compart.com/en/unicode/U+FF9D) = [HALFWIDTH KATAKANA LETTER N](https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)) |
+				- Note that, I don't know why but, `printf` wrongly converts `\uC0-\uFF` to `\u80-\uBF` in UTF-16BE. That 6-bit shift right (`÷0x40`) seems to be from UTF-8!
+				  collapsed:: true
+					- Check hex range `\uB0-\uFF`:
+					  ```shell
+					  LANG=C LC_CTYPE=UTF-16BE printf "\uB0\uBF\
+					  \uC0\uCF\uD0\uDF\uE0\uEF\uF0\uFF" |
+					  od -tx1 -An
+					  ```
+					  =>
+					  ```
+					  00 b0 00 bf 00 80 00 8f 00 90 00 9f 00 a0 00 af
+					  00 b0 00 bf
+					  ```
+					- Show printable chars `\uA0-\uBF` (excluding controls in `\u80-\u9F`):
+					  ```shell
+					  LANG=C LC_CTYPE=UTF-16BE printf "\uB0\uBF\uE0\uEF\uF0\uFF" |
+					  tee >(od -tx1 -An 1>&2) |
+					  iconv -f UTF-16BE -t UTF-8
+					  ```
+					  =>
+					  ```
+					   00 b0 00 bf 00 a0 00 af 00 b0 00 bf
+					  °¿ ¯°¿
+					  ```
+			- #### shell script
+			  id:: 6694a210-0bd1-4115-b190-4c41f58a577f
+				- One line of command with many nuances:
+				  collapsed:: true
+				  ```shell
+				  ( IFS=$'\n'; printf -- "- %s\n" ${multiple_lines}$(ls -l) )
+				  ```
+					- Meaning: this command line prints the list of lines in `${multiple_lines}$(ls -l)` in an itemized list format where each line is prefixed with a dash.
+					  collapsed:: true
+						- Execution example
+						  id:: 66950352-cb8c-4657-ae14-e8e2fea8efc2
+							- ```shell
+							  ⮕ multiple_lines=$'first line\nsecond line\twith tab and escaped char [\x21]'
+							  ⮕ ( IFS=$'\n'; printf -- "- %s\n" ${multiple_lines}$(ls -l) )
+							  ```
+							  => 
+							  ```
+							  - first line
+							  - second line	with tab and escaped char [!]total 14924
+							  - drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
+							  - drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
+							  - drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
+							  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
+							  ...
+							  ```
+					- `--`: double-dash in shell command is to signify the _end of command options_ (and begin positional arguments). We must use `--` here because the format string `- %s\n` starts with a dash which will be confused as options for `printf` command.
+					- Unquoted `${multiple_lines}$(ls -l)`: unquoted `$string` (`${var_value}` and `$(subshell_return_value)`) will be handled by the shell, i.e. split by [IFS](https://en.wikipedia.org/wiki/Input_Field_Separators) and [glob](https://en.wikipedia.org/wiki/Glob_(programming))-expanded.
+					  id:: 6694eca8-9a21-42cb-ae00-e604c9ea7ff9
+						- To prevent splitting, we must quote it, either with `'$single_quote'` or with `"$double_quote"`.
+						- To prevent glob-expansion, we must quote it with `'$single_quote'`. `"$double_quoted"` strings are still glob-expanded.
+						- default `IFS`
+						  id:: 66951231-e9b3-4298-b340-c067fae66c48
+							- `bash`: `IFS=' \t\n' = '\x20\x09\x0A'`
+							- `zsh`: `IFS` = `bash IFS`+ null char (`\x00`)
+						- shell glob's wildcards (`*`, `?`, and `[…]`)
+						  collapsed:: true
+							- `*`: matches any number of any characters including none
+							- `?`: matches any single character
+							- `[…]`: matches one character given in the bracket. The character set can be listed explicitly, e.g. `[aAbB]`, or provided via a range, e.g. `[A-z]`, or can also be negated with `!`, e.g. `[!abc]`.
+					- To concatenate strings, we just need to place them right next together, without space, e.g. `${var_value}$(subshell_return_value)`, `${first_line_var}$'\n'${next_line_var}`, etc.
+					- To change the input field separator of the shell, we must assign `IFS=...;` **with semicolon** before the command (`printf` here)
+						- Don't confuse it with the env.var. passing syntax `IFS=... printf`. _Without semicolon_, the new value of `IFS` will be passed to the command `printf` only, and has no effect on the external shell, hence the shell will still split strings by the ((66951231-e9b3-4298-b340-c067fae66c48)).
+						- _Don't separate the equal sign `=`_ from the variable name `IFS`! It's the shell script assignment syntax! If we separate them, that name (`IFS`) will be considered as a command instead of a variable!
+					- `( sub_shell )`: To not affect the `IFS` of other command lines, we enclose these 2 commands (`IFS` assignment & `printf`) in a subshell.
+					- `$'\n'`: [ANSI-C quoting](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html) is a special quoting technique, beside the common [single/double quoting](((6694eca8-9a21-42cb-ae00-e604c9ea7ff9))), to expand the backslash-escaped characters: `\n`, `\t`, `\xHH`, etc.
+					  id:: 6694f4b5-ac24-45b3-af7f-baea35636bcf
+						- Note that this is required by `bash` but not required by `zsh` (`zsh` automatically expands escaped chars in double-quoted strings)
+							- ((66725725-f76a-4328-b162-f469b87e871b))
+							  collapsed:: true
+								- `bash` with ANSI-C quotation
+								  ```shell
+								  command bash -c "echo $'first line\nsecond line\twith tab and escaped char [\x21]'"
+								  ```
+								  =>
+								  ```
+								  first line
+								  second line	with tab and escaped char [!]
+								  ```
+								- `zsh` with ANSI-C  quotation
+								  ```shell
+								  command zsh -c "echo $'first line\nsecond line\twith tab and escaped char [\x21]'"
+								  ```
+								  =>
+								  ```
+								  first line
+								  second line	with tab and escaped char [!]
+								  ```
+								- `zsh` with double quotation
+								  ```shell
+								  command zsh -c 'echo "first line\nsecond line\twith tab and escaped char [\x21]"'
+								  ```
+								  =>
+								  ```
+								  first line
+								  second line	with tab and escaped char [!]
+								  ```
+								- `bash` with double quotation
+								  ```shell
+								  command bash -c 'echo "first line\nsecond line\twith tab and escaped char [\x21]"'
+								  ```
+								  =>
+								  ```
+								  first line\nsecond line\twith tab and escaped char [\x21]
+								  ```
+					- `printf` command will _loop over all strings_ of its arguments which are _split by the shell_ from the joined string `${multiple_lines}$(ls -l)`. With each string, `printf` will replace the string value to `%s` in the format `- %s\n`, where the escaped sequence `\n` is converted to [newline character](https://en.wikipedia.org/wiki/Newline)... _**by printf** not by the shell_.
+					  id:: 6695074a-7545-453e-be59-096d9817a5ea
+						- ((66950352-cb8c-4657-ae14-e8e2fea8efc2)) broken into steps
+						  collapsed:: true
+							- id:: 66950b28-31ab-4bd1-8986-57c6e1ff9d0a
+							  ```shell
+							  ⮕ multiple_lines=$'first line\nsecond line\twith tab and escaped char [\x21]'
+							  ```
+							  => [ANSI-C quoted](((6694f4b5-ac24-45b3-af7f-baea35636bcf))) escape sequences `\n`, `\t`, `\x21` are converted to newline, tab, and exclamation mark; then the whole string, containing 2 lines, is assigned to the variable `multiple_lines`:
+							  ```
+							  first line
+							  second line	with tab and escaped char [!]
+							  ```
+							- ```shell
+							  ⮕ ( IFS=$'\n'; printf -- "- %s\n" ${multiple_lines}$(ls -l) )
+							  ```
+								- id:: 66950cea-b55d-4a3e-bf30-2cb38fa24f32
+								  ```shell
+								  $(ls -l)
+								  ```
+								  => A subshell is forked from this shell to execute command `ls -l`
+								  ```
+								  total 14924
+								  drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
+								  drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
+								  drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
+								  drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
+								  ...
+								  ```
+								- [This result](((66950cea-b55d-4a3e-bf30-2cb38fa24f32))) is concatenated with the [content of the variable `multiple_lines`](((66950b28-31ab-4bd1-8986-57c6e1ff9d0a))):
+								  id:: 66950e0e-a74c-4679-b9aa-ac7a3e57b206
+								  ```
+								  first line
+								  second line	with tab and escaped char [!]total 14924
+								  drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
+								  drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
+								  drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
+								  drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
+								  ...
+								  ```
+								  Let's note that the last line of `${multiple_lines}` is joined with the first line of `$(ls -l)` into a single line:
+								  ```
+								  second line	with tab and escaped char [!]total 14924
+								  ```
+								- The shell will split [this multi-line string](((66950e0e-a74c-4679-b9aa-ac7a3e57b206))) into many substrings according to value of the env.var. `IFS`
+									- With ((66951231-e9b3-4298-b340-c067fae66c48)), it will be split into single words: `first`, `line`, `second`, ... `[!]total` `14924`, `drwxrwxr-x`, `2`, `dinhlx`, `dinhlx`, ...
+									- But here we redefine `IFS`:
+									  ```shell
+									  IFS=$'\n';
+									  ```
+									  => each line will be a string argument passed to `printf`:
+									  `first line`,
+									  `second line	with tab and escaped char [!]total 14924`,
+									  `drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin`,
+									  ...
+								- ```shell
+								  printf -- "- %s\n"
+								  ```
+								  => ((6695074a-7545-453e-be59-096d9817a5ea))
+								  ```
+								  - first line
+								  - second line	with tab and escaped char [!]total 14924
+								  - drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
+								  - drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
+								  - drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
+								  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
+								  ...
+								  ```
+		- ### FreeDesktop/XDG
+		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
+		  :LOGBOOK:
+		  CLOCK: [2024-07-15 Mon 11:05:00]
+		  CLOCK: [2024-07-15 Mon 11:06:32]
+		  :END:
+		  "Cross-Desktop Group"
+			- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://specifications.freedesktop.org/
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Freedesktop.org
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://www.freedesktop.org/wiki/Specifications/
+			- `.desktop` file
+			- Autostart
+			- XDG Base Directory
+			  id:: 66949bc7-a1ae-4da3-b889-efbe35abf56d
+			  :LOGBOOK:
+			  CLOCK: [2024-07-15 Mon 11:07:42]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) https://wiki.archlinux.org/title/XDG_Base_Directory
+		- ### GNOME Desktop
+		- ### Wayland
 	- ## ItelliJ
 	  collapsed:: true
 		- Settings
