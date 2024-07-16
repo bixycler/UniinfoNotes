@@ -9,7 +9,8 @@ The Theory of Universal Information
   “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
 - ### Contents
 - ### The metaphysical theory of Unïnfo (𝕄)
-- [[Trinion|The Trinion]]: The union of the three basic components Circle - Arrow - Equal, with the correspondent three basic postulates and the intrinsics unifying them together
+- [[Trinion]]: The union of the three basic components Circle - Arrow - Equal, with the correspondent three basic postulates and the intrinsics unifying them together
+  id:: 669a58b8-ebb3-4877-a5ef-96ea571ec22e
 - [[FoC|The FoC]]: The Trinion as a subject with three components Form - Operator - Content
 - [[CIE|The CIE (Ψ)]]: The subjective and quantitative view of the Universe as Content - Intent - Extent and their three partitions
 - [[sCIfEr|The sCIfEr (∅)]]: The fabric of the Universe woven by the interleaving between object and subject

@@ -394,6 +394,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
 	- ## self
 	  id:: 667c015e-6223-4f8a-ae84-a93a49f4ff94
+	  collapsed:: true
+		- ### self circle
+		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the shape of all ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), so when referring to the body of a self, we call it ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
 	- ## subject
 	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
 	- ## object
@@ -409,16 +413,81 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		-
 	- ## arrow
 	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [physical arrow](https://en.wikipedia.org/wiki/Arrow) [projectile](https://en.wikipedia.org/wiki/Projectile), ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is abstracted into a [symbol (→)](https://en.wikipedia.org/wiki/Arrow_(symbol)) representing many aspects of meaning, including direction "from A to B" (A → B), differentiation "B is different from A" (B ← A), relation "A is related to B" (A → B), mapping, transformation, projection, etc.
+		- Components: tail >--[body]--> head
+		  collapsed:: true
+			- concrete body
+			  id:: 669de102-8f98-4d96-bf00-4f4e602cb689
+			   of an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is the whole arrow itself, including its ((669de25b-a52b-4eed-99a0-4ba86b9ee5ea)), ((669e007d-7336-4010-be08-e54e962eae2e)) and its ((669de24d-9e5e-4514-bfd5-5f506666e42b)).
+				- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), whenever mentioning "arrow", we means its ((669de102-8f98-4d96-bf00-4f4e602cb689)).
+			- head
+			  id:: 669de25b-a52b-4eed-99a0-4ba86b9ee5ea
+			   of an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is the end where the arrow is heading toward.
+			- tail
+			  id:: 669e007d-7336-4010-be08-e54e962eae2e
+			   of an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is the opposite end of the ((669de25b-a52b-4eed-99a0-4ba86b9ee5ea)).
+			- abstract body (shaft)
+			  id:: 669de24d-9e5e-4514-bfd5-5f506666e42b
+			  of an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is the part connecting the ((669e007d-7336-4010-be08-e54e962eae2e)) and ((669de25b-a52b-4eed-99a0-4ba86b9ee5ea)).
+				- In many theories (maths & informatics), only the abstract body is used as an "arrow", e.g. function, morphism, mapping, etc.
+		- ((66725725-f76a-4328-b162-f469b87e871b))
+		  collapsed:: true
+			- source → target: morphism
+			  id:: 669df777-8863-439f-8a0a-7b95a8e2bba5
+			- source → sink: flow
+			- source → destination: transportation
+			- object → image: projection
+			- domain → range: mapping
+			- input → output: function, process
 	- ## circle
 	  id:: 667d15c6-67c4-4998-a549-c8b3f9de3d60
 	- ## equal
 	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The third component of the [[Trinion]].
+		- ### equilibrium
+		  id:: 669a1bec-3347-4915-83e4-dcffc4d482d1
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c))
+			- balance
+			  id:: 669a1d82-91c8-40fd-81f5-e8ffe56e9e9c
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a1bec-3347-4915-83e4-dcffc4d482d1))
+			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) equilibrium = equal (`=`) + Libra (`♎︎`)
+			  id:: 669a1d85-ebf1-4f7d-8834-fc68f3ab7f0c
+			- Balance as the destination of all forces: ((669a1bec-3347-4915-83e4-dcffc4d482d1)), optimum, flatness, roundness, ...
+			  id:: 6667c99a-792f-4230-9fc6-c5fae874daef
+			  :LOGBOOK:
+			  CLOCK: [2024-06-11 Tue 10:50:54]
+			  :END:
+			- DOING multiplication by contact/touch => spreading, smearing, wave dispersion
+			  id:: 669dc0b1-21f2-4454-ab40-ea156269e195
+			  :LOGBOOK:
+			  CLOCK: [2024-07-22 Mon 09:15:15]
+			  CLOCK: [2024-07-22 Mon 09:15:21]
+			  :END:
+			- DOING equilibrium = static balance = balance at all scales, vs. intrinsic balance = dynamic balance = balance between scales
+			  :LOGBOOK:
+			  CLOCK: [2024-07-22 Mon 09:18:17]
+			  CLOCK: [2024-07-22 Mon 09:18:24]
+			  :END:
+				- Heat (static) dispersion vs wave (momentum) propagation
+					- spreading: phép cuốn chiếu, sigmoid function in ANN, string searching algorithm => exp to log
+				- Deep learning = learning at all scales = heat (static) dispersion
+					- Pure functional = non-dispersive wave
+					- Turing machine (with memory & side effect) = shallow learning
+			- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
+			- ((668d0046-6d0f-4af9-8a2a-c446084a5f1f))
+			- ((669a58b8-5018-4d00-abf9-3e69d36897d5))
+		- equanimity
+		  id:: 669a3da2-1e6c-48bd-950f-af1ea1ceda25
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Equanimity
+			- Buddhism: [upekṣā](https://en.wikipedia.org/wiki/Upek%E1%B9%A3%C4%81), [xả](https://vi.wikipedia.org/wiki/Bu%C3%B4ng_x%E1%BA%A3)
+			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) equanimity = equal + mind
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) is the sequence of ((66723642-58f1-4a74-bba3-0108f14c6bac))s where views are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))).
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667bef22-b272-4a7d-b613-3f1ed1a47329))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) is the sequence of ((66723642-58f1-4a74-bba3-0108f14c6bac))s where views are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each reference flow is drawn by an ((669a2487-054d-4408-ae41-189e34af81a9)).
 		- ((667bf816-d1c8-4ac3-b315-764c14bfbb1f)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) is in opposite direction with ((667bef22-b272-4a7d-b613-3f1ed1a47329)). This opposition is in the sense of 2 complement arrows in a circle (🔄), and does not mean the exactly backward flow.
 		  id:: 667bf653-a1ea-4a02-8669-a1a70901e9c3
 		  collapsed:: true
@@ -436,19 +505,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56)) is a ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) whose sink is viewed as coinciding with its source.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Due to [complementarity](((667bf653-a1ea-4a02-8669-a1a70901e9c3))), in space, there's a ((667bf520-a80c-4b6d-98d8-1f71cae6fb56)) for each ((667bf36a-581a-4abe-b544-2d849608a3e4)).
-				- A subject guides its ((66727858-979d-4d95-8a90-7a749218cfba))s via its self-positioning in the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)), i.e. via the ((667c0481-27f1-4cd4-adcc-390de0e56cb7)) including both the world and its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). All subject's actions are toward the target equilibrium which is the ((667c0481-27f1-4cd4-adcc-390de0e56cb7)) accurately matching the corresponding ((667c0031-0a87-44c9-9e98-6d45893b095f)) from itself via the world back to itself.
+				- A subject guides its ((66727858-979d-4d95-8a90-7a749218cfba))s via its self-positioning in the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)), i.e. via the ((667c0481-27f1-4cd4-adcc-390de0e56cb7)) including both the world and its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). All subject's actions are toward the target ((669a1bec-3347-4915-83e4-dcffc4d482d1)) which is the ((667c0481-27f1-4cd4-adcc-390de0e56cb7)) accurately matching the corresponding ((667c0031-0a87-44c9-9e98-6d45893b095f)) from itself via the world back to itself.
 				  collapsed:: true
-					- Learning is the update of ((667c0481-27f1-4cd4-adcc-390de0e56cb7)).
-					- Controlling is the update of ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
+					- Learning is the update of ((667c0481-27f1-4cd4-adcc-390de0e56cb7)). This is the [internal effect circle](((669a06b6-82cd-4e04-b5bf-ca60b89725d7))).
+						- All observations of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) are about itself which create various distorted views of itself.
+					- Controlling is the update of ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)). This is the [external effect circle](((669a0848-a7a2-402f-b704-68cea407e43d))).
 						- When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) handle an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) with no purpose for itself, it's not controlling but just acting for the effect circle of the object to bring ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) to the owner subject of that object.
-					- All actions of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) are for itself.
-						- "Helping people or harming people, all are just for ourselves!"
-						  "Giúp người hay hại người cũng đều vì mình cả!"
-						  is the saying that i usually say.
+						- All actions of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) are for itself.
+						  collapsed:: true
+							- "Helping people or harming people, all are just for ourselves!"
+							  "Giúp người hay hại người cũng đều vì mình cả!"
+							  is the saying that i usually say.
 	- ## effect flow
 	  id:: 667bef22-b272-4a7d-b613-3f1ed1a47329
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the sequence of ((66727858-979d-4d95-8a90-7a749218cfba))s where actions are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))).
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the sequence of ((66727858-979d-4d95-8a90-7a749218cfba))s where actions are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)).
 		- circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
 			- self-effect
@@ -465,6 +537,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
+		-
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
 	  collapsed:: true
@@ -476,6 +549,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## view
 	  id:: 66723642-58f1-4a74-bba3-0108f14c6bac
 	  collapsed:: true
+	  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66727858-979d-4d95-8a90-7a749218cfba))
+	  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) projected by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a [worldview](https://en.wikipedia.org/wiki/Worldview), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)), and all knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
 		  id:: 6672364a-2cc2-4360-a174-1e4432c67a16
 		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
@@ -699,10 +774,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Graphically, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Euler diagram](https://en.wikipedia.org/wiki/Euler_diagram), [nested set collection](https://en.wikipedia.org/wiki/Nested_set_collection), [treemapping](https://en.wikipedia.org/wiki/Treemapping).
 					  id:: 66753405-9afe-478e-abd2-f43100e21c33
 					- Textually, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Dyck word](https://en.wikipedia.org/wiki/Dyck_language) and ((6675369a-1d13-48c5-8a77-d588aa8b59b8)).
+		- ### eye
+		  id:: 669a2487-054d-4408-ae41-189e34af81a9
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((669a2697-56af-445c-9197-24aa498a5d5b)), ((669a2886-9e03-41a4-a790-24bf6b7dcd96))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+		  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+			- observer
+			  id:: 669a2697-56af-445c-9197-24aa498a5d5b
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			- sensor
+			  id:: 669a2886-9e03-41a4-a790-24bf6b7dcd96
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2487-054d-4408-ae41-189e34af81a9)) is the ((66532bb2-7680-461b-80b2-71fc96c89fb9)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of a ((66723642-58f1-4a74-bba3-0108f14c6bac)) which the subject uses to create that view.
 	- ## action
 	  id:: 66727858-979d-4d95-8a90-7a749218cfba
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6672785f-ac9e-42ba-921e-0264d0d83ae2))
+	  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
+	  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 		- operation
 		  id:: 6672785f-ac9e-42ba-921e-0264d0d83ae2
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66727858-979d-4d95-8a90-7a749218cfba))
@@ -714,12 +803,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In Chinese philosophy, ((66727858-979d-4d95-8a90-7a749218cfba)) is called [行(hành)](https://en.wikipedia.org/wiki/Wuxing_(Chinese_philosophy)).
 		- light cone
 		  id:: 667bd931-8759-4008-8a9a-33e78a5cbdf3
+		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bd93a-cce4-4dbf-9831-725e4dffe463))
 			- cone of effect
 			  id:: 667bd93a-cce4-4dbf-9831-725e4dffe463
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- The future [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
+		- ### actor
+		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a2487-054d-4408-ae41-189e34af81a9))
+		  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+			- hand
+			  id:: b67b7276-441e-43f2-a5c1-81e3cbe0659e
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((66532bb2-7680-461b-80b2-71fc96c89fb9)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of an ((66727858-979d-4d95-8a90-7a749218cfba)) which the subject uses to make that action.
 	- ## view-control
 	  id:: 66725144-6bc9-4c9f-ba48-2cef02651e52
 	  collapsed:: true
@@ -727,11 +826,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- viewcontrol
 		  id:: 66727388-ed2b-4f62-b8d7-ed70a0ad4ef3
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
+		- ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((66723642-58f1-4a74-bba3-0108f14c6bac)), ((66727858-979d-4d95-8a90-7a749218cfba))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is the dual view of the 
-		  effect flow through any subject including both inward effect flow ( ((66723642-58f1-4a74-bba3-0108f14c6bac)), observation) and outward effect flow (control, operation, ((66727858-979d-4d95-8a90-7a749218cfba))).
+		  ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) including both inward effect flow ( ((66723642-58f1-4a74-bba3-0108f14c6bac)), observation) and outward effect flow (control, operation, ((66727858-979d-4d95-8a90-7a749218cfba))). The subject of a ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is called a ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- Force = curvature => F_{in} + F_{ex} = 0 <=> my curvature + your curvature = 0 <=> |my distortion| = |your distortion|
+			- Force = curvature 
 			  collapsed:: true
+			  => F_{in} + F_{ex} = 0 
+			  <=> my curvature + your curvature = 0 
+			  <=> |my distortion| = |your distortion|
 				- Uniform me vs distorted you <=> distorted me vs uniform you.
 				  ```
 				  M:[--------|--------]
@@ -740,6 +843,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  M:[------------|----] F_in = -->
 				  W:[--------|--------]
 				  ```
+		- Mutual inclusiveness
+		  id:: 6699e3b1-754c-4665-b7aa-12cbc833a8d0
+			- Seeing is an action of the ((669a2487-054d-4408-ae41-189e34af81a9)) itself.
 			- Every ((6672785f-ac9e-42ba-921e-0264d0d83ae2)), i.e. change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (transform), is a change of ((66723642-58f1-4a74-bba3-0108f14c6bac)) via the change of ((667272b8-88a8-4928-a22a-35035c9edf05)).
 			  collapsed:: true
 				- Traversal = listing = enumeration = moving the ((667272b8-88a8-4928-a22a-35035c9edf05)) across the object to view it in a linear view, i.e. thread-view.
@@ -748,20 +854,51 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Sort = change from object-view to thread-view.
 				- Organize = change from object-view to target ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- Classification, categorization = change from object-view to class/property/category view.
+			- DOING Every action ...
+			  :LOGBOOK:
+			  CLOCK: [2024-07-19 Fri 15:50:42]
+			  :END:
+		- Mutual exclusiveness
+		  "thấy không làm, làm không thấy"
+		  "eyes no hands, hands no eyes"
+			- "Seers don't do, doers don't see." 
+			  "Kẻ thấy thì không làm, kẻ làm thì không thấy."
+				- This is the the nature of the extreme dualistic view. They are exclusive "by definition", just like "the right is not wrong, the wrong is not right!"
+				- At the internal extreme, the body carries the the ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((669a2487-054d-4408-ae41-189e34af81a9)).
+				  id:: 669a06b6-82cd-4e04-b5bf-ca60b89725d7
+				  collapsed:: true
+					- Here, the seer withdraws all its energy into the ((669a2487-054d-4408-ae41-189e34af81a9)), the inner circle, to observe, to modify its body (memory) in reflection of the external objects, hence leaving no energy for the doing of the body.
+					- This is the "quantum effect of measurement".
+				- At the external extreme, the world carries the the ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the body.
+				  id:: 669a0848-a7a2-402f-b704-68cea407e43d
+				  collapsed:: true
+					- Here, the doer exerts all its power to the working of the body (hands) to rotate the external circle to change the external world, hence leaving no energy for the ((669a2487-054d-4408-ae41-189e34af81a9)).
+					- This is the mechanical extreme.
+			- "Eyes are useless without hands, hands are blind without eyes."
+			  "Thấy mà không làm là vô dụng, làm mà không thấy là mù quáng."
+				- This criticizes the weakness of the dualistic view and guides toward the holistic view of ((6699e3b1-754c-4665-b7aa-12cbc833a8d0)) and the ((6699f85b-fe03-4fb6-8b80-915e376954ff)).
+		- Harmony of seeing and doing
+		  id:: 6699f85b-fe03-4fb6-8b80-915e376954ff
+			- WAIT ... ((669a1bec-3347-4915-83e4-dcffc4d482d1))
+			  :LOGBOOK:
+			  CLOCK: [2024-07-19 Fri 15:51:35]--[2024-07-19 Fri 15:51:35] =>  00:00:00
+			  :END:
 	- ## observer-operator
-	  id:: 667273fc-9314-4b9b-94bf-6a3d0f8ffe99
+	  id:: 669a2c12-1dad-42a0-ab31-f03642b4aa8a
 	  collapsed:: true
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66727437-fab6-4e57-8c0c-fced1b665548)), ((66727533-2566-490b-8694-f7de7882d9b1)), ((667277cf-2f88-419d-8342-e5bb20edf9a5))
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), ((5d7a0798-907d-46b7-8481-99d3be30de9e)), ((fa0b2bc6-05ac-418f-9a86-17635936a656))
+	  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 		- obop
-		  id:: 66727437-fab6-4e57-8c0c-fced1b665548
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667273fc-9314-4b9b-94bf-6a3d0f8ffe99))
+		  id:: 94e87dc9-71af-477c-aa70-0f448c2f1e20
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+		  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 		- seer-doer
-		  id:: 66727533-2566-490b-8694-f7de7882d9b1
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667273fc-9314-4b9b-94bf-6a3d0f8ffe99))
+		  id:: 5d7a0798-907d-46b7-8481-99d3be30de9e
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 		- viewer-actor
-		  id:: 667277cf-2f88-419d-8342-e5bb20edf9a5
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667273fc-9314-4b9b-94bf-6a3d0f8ffe99))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667273fc-9314-4b9b-94bf-6a3d0f8ffe99)) is the dual role of any subject performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
+		  id:: fa0b2bc6-05ac-418f-9a86-17635936a656
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
 	- ## `in`-`ex` partition
 	  collapsed:: true
 		-
@@ -776,10 +913,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This note is in the ((666baccf-6be1-4b9a-b186-f883ea04daf1)) itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- Hard links are used to share doc content between places.
+			- ((66978876-9378-4059-8783-868d041e8e2e)) are used to share doc content between places.
+			  collapsed:: true
 				- Because [Git doesn't preserve hard links](((666ba5a7-598a-4b66-86bd-b1622a28ada6))), let's try not to do write oprations like  `pull`, `checkout`, `reset`. When some repo must be overwritten, let's re-link these files.
-				- `pages/publish/Theme Demo.md` is hard-linked to other projects (graphs).
-				- `logseq/{config.edn,custom.css}` are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
+		- Hard links
+		  id:: 66978876-9378-4059-8783-868d041e8e2e
+			- `logseq/{config.edn,custom.css}` are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
+			- pages hard-linked to other projects (graphs)
+				- [[logseq/custom.css]]
+				- [`pages/publish/Theme Demo.md`]([[Theme Demo]])
+				- [`pages/publish/technical/Git.md`]([[Git]])
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
@@ -787,7 +930,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Unïnfo
 		  id:: 66537a44-f579-4fcc-a02b-2f32d0d409fc
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537a41-f229-4891-803e-828573eb44f3))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) " ((66537a44-f579-4fcc-a02b-2f32d0d409fc))" is the umbrella term for both [[Unïnfo Theory]], as the theoretical aspect, and ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) " ((66537a44-f579-4fcc-a02b-2f32d0d409fc))" is the umbrella term for both ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), as the theoretical aspect, and ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
+	- ## Unïnfo Theory
+	  id:: 669dfc9f-b5e2-448a-b6f4-be13c5bfbccb
+	  collapsed:: true
+		- [[Unïnfo Theory]]
+	- ## Trinion
+	  id:: 669dfc7d-5355-41db-93a1-8d590e8ec9d8
+	  collapsed:: true
+		- [[Trinion]]
 	- ## question
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Question
@@ -805,7 +956,37 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## Balance Way
 	  id:: 665379b7-e4f6-4240-8029-fd143e2230c7
 	  collapsed:: true
-		- "Balance" is the natural ((665379e5-5bf4-4e00-ab03-9f41ff14cccc)) of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) and should be the chosen way of life.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) is the natural ((665379e5-5bf4-4e00-ab03-9f41ff14cccc)) of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) and should be the chosen way of life. In Buddhism, it's called [Middle Way](https://en.wikipedia.org/wiki/Middle_Way), and in Taoism, it's called simply [The Way](https://en.wikipedia.org/wiki/Tao).
+		- Refinement techniques
+		  collapsed:: true
+			- ### letting go
+			  id:: 669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) buông xả, ((669a5162-19e1-4c52-8888-ab7cbfe275ec))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In Buddhism, this is the main technique to achieve ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
+				- relax-reduce
+				  id:: 669a5162-19e1-4c52-8888-ab7cbfe275ec
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, relax the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) so that it doesn't hold on objects anymore, then reduce the size of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) by letting all uneven stuffs go away so that only the round circle remains.
+			- ### sublimation - channeling
+			  id:: 668f5490-c223-4a8a-9cc4-0bd71af4c097
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66951d98-ebd4-4ac2-a164-7664683ad1bb)), thăng hoa - dẫn lưu
+			  ((665c9af1-1ce2-461c-af33-671690618c8f))
+				- sublime-channel
+				  id:: 66951d98-ebd4-4ac2-a164-7664683ad1bb
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, use breathwork to dissolve, to sublimate the hard ((669a5387-2a97-4311-a295-aa0afd9c4d76)) into a fluid (qi, khí, 氣), then use qigong (氣功) to transform & channel the fluid to the required target form. The process should repeat until we reach [equilibrium](((669a58b9-2104-4d4c-b68f-7a45e2adb915))).
+				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+				  collapsed:: true
+					- I discovered sublimation first (from [the start of February](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice), but without proper transformation & channeling, i've been struck by a serious lung disease (pneumonia, from the end of Mars to April).
+					  collapsed:: true
+						- ![Pneumonia_2024-04.jpg](../assets/Will/Pneumonia_2024-04.jpg)
+					- Throughout the weeks facing that lung inflammation (with blood coughing), i've discovered
+						- the qigong technique to transform the qi,
+						- the key point in my chest to control the cough reflex, and
+						- revisit the formless meditation to deal with serious pain (my first application was at the previous serious illness of herpes zoster/zona).
+				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
+				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
+				-
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
@@ -870,6 +1051,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the part of that object appears to a ((66723642-58f1-4a74-bba3-0108f14c6bac)) of some ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The external form is called "appearance" and the internal form is called ((6678d596-9526-405a-968c-e73860e524f3)) of the object.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [Buddhist form](https://en.wikipedia.org/wiki/Rūpa) in the pair "name & form", [logical form](https://en.wikipedia.org/wiki/Logical_form), Plato's [ideal form](https://en.wikipedia.org/wiki/Theory_of_forms), Marx' [form of value](https://en.wikipedia.org/wiki/Value-form), etc.
+		  id:: 669a58b9-b3d0-4cec-abaa-55b6260d914c
 		- formation
 		- conformation
 		  id:: 6678282b-d710-4c6b-b584-5f65012c192d
@@ -879,6 +1061,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- {{video https://youtu.be/Og4sxXfUC0Y}}
 			- Links: [fb post in Nov 2023](https://www.facebook.com/lexuandinhct/videos/728404692637310), [GeoGebra applet](https://www.geogebra.org/m/j7czr4s5)
 		- transformation
+		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
 		  collapsed:: true
 			- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
 			- Function/mapping/projection/light-cone is an abstraction of the flow into just 2 ends of that flow.
@@ -893,6 +1076,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
 						- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
 					- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
+		- transform
+		  id:: 669dd16c-1836-40ec-86e5-772f8f4774ce
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)) includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
 	- ## content
 	  id:: 6678288e-699b-4325-bdba-bf6349fe0d57
 	- ## structure
@@ -922,7 +1108,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
 		- ### solidity
+		  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
 		-
+	- ## uninet
+	  id:: 669dcdf8-a48c-40b1-bdb1-54a73fc5ae71
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-07-22 Mon 10:24:16]
+	  :END:
+		- ((669dfa9a-3322-4669-9d00-9093a7b14b38)) ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) = ((669dd16c-1836-40ec-86e5-772f8f4774ce)) + ((669a1bec-3347-4915-83e4-dcffc4d482d1)) = "trans" ((667d15b7-6364-49a9-ac58-c64d2a992b63)) + "form" ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) + ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
+		  :LOGBOOK:
+		  CLOCK: [2024-07-22 Mon 10:24:33]
+		  :END:
+			- transform = body = program (data structure + algorithm); equal = head
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) is an implementation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) on computer.
+			- ((667d15b7-6364-49a9-ac58-c64d2a992b63)) -> ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) -> ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) -> ((665ca429-84e3-49ff-921e-c07d19cd99ba)) -> ((669dd16c-1836-40ec-86e5-772f8f4774ce)) [content-form] -> ((669a1bec-3347-4915-83e4-dcffc4d482d1)) -> ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
+			  id:: 669dcbb4-ebec-4b6d-b1be-490ccab11f49
+			  :LOGBOOK:
+			  CLOCK: [2024-07-22 Mon 10:07:23]
+			  CLOCK: [2024-07-22 Mon 10:08:10]
+			  :END:
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
 	  collapsed:: true
@@ -1034,17 +1239,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Japanese name: LÊ Harusada
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
-	- ## Git
-	  id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
-	  collapsed:: true
-		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.git-scm.com/
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) is a [free and open source](https://www.git-scm.com/about/free-and-open-source) distributed version control system (VCS), which is now the most popular VCS in the world.
-		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- File link: symbolic link (symlink) is supported by ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) but hard link is not.
-				- Symlink has portability problem between Linux and Windows.
-					- [From Windows 10+, symlink can be used](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/) when Developer mode is turned on.
-				- Hard link is not support (will be broken when ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) overwrites the link file), but ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) will let the hard link live as long as we don't do any write operation on that link file, e.g. `pull`, `checkout`, `reset`, etc.
-				  id:: 666ba5a7-598a-4b66-86bd-b1622a28ada6
+	- ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 	- ## GitHub
 	  id:: 66536662-052f-46a4-a624-38858bffb334
 	  collapsed:: true
@@ -1353,7 +1548,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 						- Each time switching to `DOING` and back to plaintext, a single timestamp (without end-time) is logged into `:LOGBOOK:`.
 					-
-			- [!] Cannot link file/dir to avoid dupes!
+			- [!] Difficult to link file/dir to avoid dupes!
 			  id:: 665fe765-2bb7-4392-9140-10e187f0f208
 			  collapsed:: true
 				- [!] File name conflict (the same name in different directories):
@@ -1367,7 +1562,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Refs:
 						- [Symlinks are not followed when loading a Graph/Directory](https://github.com/logseq/logseq/issues/5489)
 						- [Using symbolic link to add existing external .md file to logsek break on restart](https://discuss.logseq.com/t/using-symbolic-link-to-add-existing-external-md-file-to-logsek-break-on-restart/16229)
-				- Hard-link does keep index, but are broken by git 😞!
+				- **Hard-link** does keep index, but are [broken by git](((666ba5a7-598a-4b66-86bd-b1622a28ada6)))! This is the better-than-nothing solution now.
 			- [!] Each #tag corresponds to a *page*, not a block!
 			  collapsed:: true
 				- This is a problem to my projects, because my approach is pure block-based.

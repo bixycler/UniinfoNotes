@@ -8,11 +8,16 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		-
-		-
 		- TODO Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs)
 		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
 		  :LOGBOOK:
 		  CLOCK: [2024-06-23 Sun 16:26:28]
+		  :END:
+		-
+		- DOING ((669a1bec-3347-4915-83e4-dcffc4d482d1))
+		  :LOGBOOK:
+		  CLOCK: [2024-07-22 Mon 09:57:18]
+		  CLOCK: [2024-07-22 Mon 09:57:20]
 		  :END:
 		-
 		- WAIT ((66536e1b-6466-4153-90d6-583003d99a81)): Write a script to convert all headless block ref to `[named link](((uuid)))`
@@ -83,24 +88,21 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  id:: 6677b986-ada2-4c73-8a11-980cdf9cb6d4
 		  collapsed:: true
 			- As i dive deep inside, it's hard to surface up to do external works, hence many delays in (official) works.
+				- I'm hooked to the deep works in front of my eyes. This hook is the tool that helps me to concentrate and avoid distraction from surrounding environment. 
+				  id:: 669dc514-e137-43de-be7d-6b0a1ac2302d
+				  :LOGBOOK:
+				  CLOCK: [2024-07-22 Mon 09:34:02]
+				  CLOCK: [2024-07-22 Mon 09:34:43]
+				  :END:
+					- Without distraction, it's easier for me to stay in the free & mindful state. But in the free state, it's also difficult for me to interact with external tools like note taking, speaking, writing, forming formula, etc.
+					- This hook can be replaced with the [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))). Using the internal tool (breath) gives me more control than the external tool (external sink).
 			- When i interrupt the internal work, my self is fragmented, heavy, lack motivation to do anything.
 			- Perfectionism
 			  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
 			  collapsed:: true
 			  The requirement that my self must be smooth, full, round, coherent, unfragmented is the sign of perfectionism.
-				- First, let's refine the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works.
+				- First, let's [refine](((669a5162-19e1-4c52-8888-ab7cbfe275ec))) the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works.
 				  id:: 6677bc01-44ec-4e4a-aeed-d63996bc0c46
-				- Sublime & transform: a technique of refinement is using breathwork to dissolve, to sublimate the hard circle into a fluid (qi, khí, 氣), then use qigong (氣功) to transform & channel the fluid to the required target form.
-				  id:: 6677bc58-68f5-4c6a-a08e-4417a9b8ac84
-				  collapsed:: true
-					- I discovered sublimation first (from [the start of February](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice), but without proper transformation & channeling, i've been struck by a serious lung disease (pneumonia, from the end of Mars to April).
-					  collapsed:: true
-						- ![Pneumonia_2024-04.jpg](../assets/Will/Pneumonia_2024-04.jpg)
-					- Throughout the weeks facing that lung inflammation (with blood coughing), i've discovered
-					  collapsed:: true
-						- the qigong technique to transform the qi,
-						- the key point in my chest to control the cough reflex, and
-						- revisit the formless meditation to deal with serious pain (my first application was at the previous serious illness of herpes zoster/zona).
 				- The illusion of "finish soon"
 				  collapsed:: true
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When we feel something is finishing soon, we concentrate more on it, put all of our effort to it to get it finished... until we're out of resource and recognize that it's still far from the finish line.
@@ -124,7 +126,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  collapsed:: true
 						- The clarity of the goal shows that it's very large, like the Sun & Moon, hence a form outside.
 						- Just be mindful that although it's worth pursuing, it's still very far.
-					- The [refinement](((6677bc01-44ec-4e4a-aeed-d63996bc0c46))) is to divide the form, the [sublime & transform](((6677bc58-68f5-4c6a-a08e-4417a9b8ac84))) is to dissolve the form and direct it to the new form.
+					- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((66951d98-ebd4-4ac2-a164-7664683ad1bb)) is to dissolve the form and direct it to the new form.
 					- Mindfulness as a hole-punching tool to escape the form.
 					  collapsed:: true
 						- The tantric practice shows that both the accumulation of momentum and the "finish soon" effect require ignorance in the form of attachment to the external signal (sign of the goal).
@@ -132,6 +134,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- Unmindfulness of the illusion of the external signal makes it feel near outside while in fact it's near inside and very far outside. That's because the signal outside is just the image/shadow of the goal inside.
 						  collapsed:: true
 							- This discrepancy forces all of us to chase shadows from life to life.
+				- Export mental loads to "second brains" like ((66536e1b-6466-4153-90d6-583003d99a81)) help keeping mind in ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)), not too heavy to handle, reduce momentum.
 			- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing internal load so that i can switch easier.
 		- [!] The issue of love, i.e. emotional attatchment
 		  collapsed:: true

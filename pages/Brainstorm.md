@@ -215,11 +215,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  collapsed:: true
 		- The wholeness (the roundness) -> there's a center point in each circle, even invisible, common (shared) to all parts (arrows) of that circle -> the common
 		- The common -> all parts are linked together via that common (center) -> the wholeness
-	- Balance as the destination of all forces: equilibrium, optimum, flatness, roundness, ...
-	  id:: 6667c99a-792f-4230-9fc6-c5fae874daef
-	  :LOGBOOK:
-	  CLOCK: [2024-06-11 Tue 10:50:54]
-	  :END:
 	- Levels of numbers & thread
 	  collapsed:: true
 		- 4. Relaxed thread, constant velocity c, "straight/round", Turing machine, searching
@@ -288,7 +283,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2024-06-28 Fri 08:11:13]
 		  :END:
-			- spirorus extending, thread solidity
+			- spirorus extending, thread ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
 		- constant velocity of light = constant sum of squares 
 		  id:: 667e0e4b-9f87-45b5-adb1-297b79943502
 		  => distortion (from [perfect circle](((6667c99a-792f-4230-9fc6-c5fae874daef)))) = extending to other dimensions
@@ -392,31 +387,40 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :END:
 	  "đơn thân độc đạo", "một chiếc xe một con đường"
 	- DOING The role of circle refinement and of sublimation - channeling
+	  id:: 669a58b8-5018-4d00-abf9-3e69d36897d5
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-07-11 Thu 10:36:24]
 	  CLOCK: [2024-07-11 Thu 10:40:07]
 	  :END:
 		- circle refinement
-			- stable
+		  collapsed:: true
+			- stable, toward the ((669a2697-56af-445c-9197-24aa498a5d5b))
 			- reduce to the perfect circle
-			  collapsed:: true
 				- related to my ((6678d594-9819-4624-abd6-d4ec62b3874f))
-		- sublimation - channeling
-		  id:: 668f5490-c223-4a8a-9cc4-0bd71af4c097
-			- sublime-channel
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
-			- thăng hoa - dẫn lưu
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
-			- ((668f52e2-2935-4980-bdbb-04a54d9288d9))
+			- ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)):
+		- ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+			- toward the ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 			- no branching, energy conservation
-			- equilibrium: input = output
-			-
-	- Breathing technique for sublime-channel
+			- ((668f52e2-2935-4980-bdbb-04a54d9288d9))
+	- Breathing technique for ((66951d98-ebd4-4ac2-a164-7664683ad1bb))
 	  id:: 66952126-bf33-40e1-a208-369df7aa9488
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-07-15 Mon 20:28:28]
 	  :END:
-		- With the mind sublime-channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
+		- With the ((66951d98-ebd4-4ac2-a164-7664683ad1bb))ing mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
 		- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
+	- Round = uniform = scale invariant = all frequencies = white light = ((669a1bec-3347-4915-83e4-dcffc4d482d1))
+	  id:: 66960ee2-d6dd-404b-a9d0-96340fce3cd2
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-07-16 Tue 13:11:56]
+	  :END:
+		- center = form = center of mass = concentration of the whole body (circle), not only the abstract central point
+		- radius = constraint of circumference via the center = all-scale constraint (r := 0..R), not only between 2 points 0 & R = rubber band constraint = ujjayi breath = backtracking thread
+		- The quality of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is roundness vs quantity of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is the length of thread.
+		  id:: 669dcbc4-6274-484e-bd26-b06157ee8cca
+		  :LOGBOOK:
+		  CLOCK: [2024-07-22 Mon 10:04:03]
+		  :END:

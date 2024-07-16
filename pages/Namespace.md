@@ -11,6 +11,8 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 			  id:: 665359e4-4597-4775-b849-f9acbb98960a
 				- alias of
 				  id:: 665c9af1-1ce2-461c-af33-671690618c8f
+			- Etymology:
+			  id:: 669a1e5f-734c-41c1-bf1c-21813b6e81d8
 		- Description:
 		  id:: 6651ecba-793d-43c5-8020-a9f260b032d8
 		  collapsed:: true
@@ -21,10 +23,11 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 66600918-67d0-429b-af78-f804ea65d9cc
 		- Form:
 		  id:: 665ca47c-476a-4bef-b982-d9a31a669fb1
-		  collapsed:: true
 			- ((665ca495-93b4-47d4-a022-ce511b021a3d)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 			- form of
 			  id:: 665ca480-5ac8-4728-a331-2f68b48759d1
+			- Formula:
+			  id:: 669dfa9a-3322-4669-9d00-9093a7b14b38
 		- Plaintext:
 		  id:: 66600918-729f-4c23-97fe-577353cb8b53
 		- Subprop:
@@ -42,6 +45,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 				  id:: 66600918-3d55-4bad-bd42-4e94708efc5e
 		- to
 		  id:: 665caf87-7dd9-4e9e-9ebc-7df259e7d711
+		  collapsed:: true
 			- ⇒
 			  id:: 66602f68-e23f-4b24-921e-b1a9fc0cc731
 			- So,
@@ -54,12 +58,21 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 			  id:: 66600918-9cef-4a33-bdeb-3b64d71c7034
 	- Composite:
 	  id:: 6652048c-27b3-47b6-84e5-25af8d9ce801
-	  collapsed:: true
 		- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
-	- Component:
-	  id:: 66532ccc-ae21-4940-8714-715060d6bd90
-	  collapsed:: true
-		- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bb2-7680-461b-80b2-71fc96c89fb9))
+		- Component:
+		  id:: 66532ccc-ae21-4940-8714-715060d6bd90
+		  collapsed:: true
+			- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bb2-7680-461b-80b2-71fc96c89fb9))
+		- Complementarity:
+		  id:: 667bf816-d1c8-4ac3-b315-764c14bfbb1f
+			- Complement:
+			  id:: 6699e4db-2e75-4427-94bb-96dfe0367dd1
+				- Dual:
+				  id:: 6699ea73-dc77-4227-a293-b501f2eb1759
+			- Whole:
+			  id:: 6699e5f2-7788-46c7-8233-87699a65ca30
+				- Complementary components:
+				  id:: 6699eb54-ce9e-4472-a784-c59ffd47f02b
 	- Website:
 	  id:: 66600918-bde2-49ca-8f91-740fb282ea13
 		- Official website:
@@ -68,6 +81,8 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 665359c0-a89a-41b5-9f28-503f79107a08
 	  collapsed:: true
 		- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66536a32-fddd-465f-a47f-fa8e0ea9c8db))
+	- Git:
+	  id:: 665f1a5c-6c98-4785-a177-3cd01507595d
 	- Plugin:
 	  id:: 66535a44-8a13-4d5a-808e-10baa97ebaf0
 	- Theme:
@@ -81,5 +96,3 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 666a697a-6f40-4749-ab5b-03c82aeda1ee
 	- Example:
 	  id:: 66725725-f76a-4328-b162-f469b87e871b
-	- Complementarity:
-	  id:: 667bf816-d1c8-4ac3-b315-764c14bfbb1f
