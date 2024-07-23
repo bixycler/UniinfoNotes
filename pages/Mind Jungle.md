@@ -392,6 +392,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6675369a-1d13-48c5-8a77-d588aa8b59b8
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
+	- ## resource
+	  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
 	- ## self
 	  id:: 667c015e-6223-4f8a-ae84-a93a49f4ff94
 	  collapsed:: true
@@ -409,7 +411,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## vector
 	  id:: 667d16f8-206e-4a85-80f3-24c2aa1bf4ad
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)). Due to the dynamic nature of the arrow, a vector is a carrier of motion, like velocity vector, a carrier of direction, like ship vector, or a carrier of biological material, like insect vector.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)). Due to the dynamic nature of the arrow, a vector is a carrier of motion, like [velocity vector](https://en.wikipedia.org/wiki/Euclidean_vector), a carrier of direction, like [aircraft vector](https://www.paramountbusinessjets.com/aviation-terminology/vector), [thrust vector](https://en.wikipedia.org/wiki/Thrust_vectoring), or a carrier of biological material, like [disease vector](https://en.wikipedia.org/wiki/Disease_vector).
 		-
 	- ## arrow
 	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
@@ -442,6 +444,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- input → output: function, process
 	- ## circle
 	  id:: 667d15c6-67c4-4998-a549-c8b3f9de3d60
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of a closed ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), which is called a ((66ab675b-2778-4f51-80ad-20a8f6988691)). The _perfect circle_ is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99)), which is the [geometrical circle](https://en.wikipedia.org/wiki/Circle). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of all forms.
+		- cycle
+		  id:: 66ab675b-2778-4f51-80ad-20a8f6988691
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99))
+			- loop
+			  id:: 66ab6761-b62d-486b-bd15-44a4ecee8a99
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab675b-2778-4f51-80ad-20a8f6988691))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab675b-2778-4f51-80ad-20a8f6988691)) does not require to be round like the [geometrical circle](https://en.wikipedia.org/wiki/Circle). The term "cycle" is usually used for the form of time, while the term ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) is usually used for the form of objects in space.
+		- Symbols: small ○, large ◯
+		- round
+		  id:: 66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)) is ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) when every point in that shape has the same distance (radius) to a fixed point called ((66ab7477-c060-4d07-ab13-bc3d11246854)), i.e. it has [circular symetry](https://en.wikipedia.org/wiki/Circular_symmetry).
+			- center
+			  id:: 66ab7477-c060-4d07-ab13-bc3d11246854
 	- ## equal
 	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
 	  collapsed:: true
@@ -1049,7 +1067,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665ca429-84e3-49ff-921e-c07d19cd99ba
 	  collapsed:: true
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the part of that object appears to a ((66723642-58f1-4a74-bba3-0108f14c6bac)) of some ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The external form is called "appearance" and the internal form is called ((6678d596-9526-405a-968c-e73860e524f3)) of the object.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the part of that object appears to a ((66723642-58f1-4a74-bba3-0108f14c6bac)) of some ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The external form is called ((66ab6161-0306-42d5-ac16-4155c69216f5)) or ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)), and the internal form is called ((6678d596-9526-405a-968c-e73860e524f3)) or ((66ab6059-7a9d-4419-99be-69c9944a543f)) of the object.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [Buddhist form](https://en.wikipedia.org/wiki/Rūpa) in the pair "name & form", [logical form](https://en.wikipedia.org/wiki/Logical_form), Plato's [ideal form](https://en.wikipedia.org/wiki/Theory_of_forms), Marx' [form of value](https://en.wikipedia.org/wiki/Value-form), etc.
 		  id:: 669a58b9-b3d0-4cec-abaa-55b6260d914c
 		- formation
@@ -1081,9 +1099,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)) includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
 	- ## content
 	  id:: 6678288e-699b-4325-bdba-bf6349fe0d57
+	- ## appearance
+	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee))
+		- shape
+		  id:: 66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee
+		  collapsed:: true
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab6161-0306-42d5-ac16-4155c69216f5))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)) is somehow more abstract than ((66ab6161-0306-42d5-ac16-4155c69216f5)), e.g. [geometrical shape](https://en.wikipedia.org/wiki/Shape) excludes some details like texture, color, etc.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab6161-0306-42d5-ac16-4155c69216f5)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the external ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of that object.
 	- ## structure
 	  id:: 6678d596-9526-405a-968c-e73860e524f3
 	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ab6059-7a9d-4419-99be-69c9944a543f))
+		- configuration
+		  id:: 66ab6059-7a9d-4419-99be-69c9944a543f
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6678d596-9526-405a-968c-e73860e524f3))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678d596-9526-405a-968c-e73860e524f3)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the internal ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of that object. A structure of a ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) object can be decomposed into ((667d0b78-fff6-49bc-90d5-165648ed56d3))s between its ((66532bb2-7680-461b-80b2-71fc96c89fb9))s.
 		- Variations:
 		  id:: 667d09ec-4da1-428b-a7c9-bae1eb37a7ae
@@ -1107,8 +1139,32 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
-		- ### solidity
-		  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) can be seen as a sequence of abstract ((667d15b7-6364-49a9-ac58-c64d2a992b63))s, and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply "threads".
+		- ((66725725-f76a-4328-b162-f469b87e871b)) [execution thread](https://en.wikipedia.org/wiki/Thread_(computing)), [conversation thread](https://en.wikipedia.org/wiki/Thread_(online_communication)), [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), [screw thread](https://en.wikipedia.org/wiki/Screw_thread), [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic))
+		- Vietnamese: sợi, mạch
+		- ### Ω-thread
+		  id:: 66ab75a1-f4a0-4bab-a002-8e573546623a
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language, and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.
+				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology).
+				- DOING from nondimensional blob, dot, extend, project, extract to dimensions
+				  id:: 66ab774d-91d2-4c47-8546-78bb17e7e2bf
+				  :LOGBOOK:
+				  CLOCK: [2024-08-01 Thu 18:58:40]
+				  :END:
+			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Ōṁ-thread [Ω,ॐ], One-thread [Ω,𝟙], Omni-thread or Overall thread, Ouroboros thread, etc.
+			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
+			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
+			- ### solidity
+			  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
+		-
+	- ## Universal Thread
+	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d))
+		- UniThread
+		  id:: 66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ac41d1-09e7-44b1-9290-ea7d5f02a817))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is the representation of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) in mathematical language, where everything is represented by the ((66ab75a1-f4a0-4bab-a002-8e573546623a)). ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
 		-
 	- ## uninet
 	  id:: 669dcdf8-a48c-40b1-bdb1-54a73fc5ae71
@@ -1437,6 +1493,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Logseq was originally developed as a side project by [Tienson Qin](https://twitter.com/tiensonqin) [from Feb 2020](https://fission.codes/blog/overview-of-logseq-by-tienson-qin/), to bring [Org Mode](https://orgmode.org/) task features to ((66535e71-3b71-416c-98dc-5dde5e6a76ff)).
 				- It has been [open sourced to GitHub](https://github.com/logseq/logseq) with first alpha version from Jan 2021, first beta version ([0.1.2](https://github.com/logseq/logseq/releases/tag/0.1.2)) in May 2021 until... today (May 2024) still beta ([0.10.9](https://github.com/logseq/logseq/releases/tag/0.10.9))!
 				- A new branch [based on database](https://github.com/logseq/logseq/pull/9858), and will be bi-dir-synced with ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), is being developed from Jul 2023.
+		- Community:
+		  collapsed:: true
+			- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/logseq/logseq
+			- Forum: https://discuss.logseq.com/
+			- Community hub: https://hub.logseq.com/
+			- Documentation: https://docs.logseq.com/
+				- Plugin API: https://plugins-doc.logseq.com/
+			- Discord: https://discord.gg/logseq
+			- Roadmap: https://trello.com/b/8txSM12G/roadmap
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  id:: 66600918-66b3-4d4b-9ef3-6b3d6986ebdd
 		  collapsed:: true
@@ -1585,6 +1650,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :LOGBOOK:
 					  CLOCK: [2024-06-11 Tue 15:35:08]--[2024-06-11 Tue 15:49:35] =>  00:14:27
 					  :END:
+			- [!] ((66ab12fd-cc14-4789-b70b-48b8b599f9eb)): ((66ab130c-bee8-40e6-aa11-489eb4c34ec4))
 		- Features & Usage:
 		  collapsed:: true
 			- Block id
@@ -1617,6 +1683,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Automatic brief title (suggested)
 				  id:: 66626356-0ad9-4219-9b33-8ab7c6cd0508
 				  When the first line is too long, a brief title with ellipsis `...` should be automatically generated.
+			- Block moving via cut & paste
+			  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-08-01 Thu 11:46:07]
+			  :END:
+				- This is a complicated & risky operation
+				  id:: 66ab130c-bee8-40e6-aa11-489eb4c34ec4
+				  collapsed:: true
+					- When cut, Logseq replaces all refs to the cut block with the content of that block's heading item, and remembers these refs somewhere in its internal DB.
+					- When pasted, Logseq restore replaced refs of this block.
+					- Some times, Logseq fails to restore refs, usually due to the pasted block being associated with new id.
+					- Some times, Logseq even hangs when at the cutting step.
+				- => We must always checkpoint with ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) before moving blocks!
+				- DOING => Using the standard ((66acc7cb-c144-4f1f-aaf7-344a0cf40b58)), we should try pushing to GitHub a `[tmp]` commit after each move to make sure that move does not break anything.
+				  id:: 94649b98-9711-4adf-ae25-aaf32b521c14
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-08-02 Fri 18:47:42]
+				  :END:
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
 			- Sidebar
 			  collapsed:: true
 				- Right sidebar is used as a stack of docs, started from [[Contents]], for column-styled editing in parallel with the main edit pane.
@@ -1632,7 +1720,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [!] Breadcrumb bar does not contain the target/focused item! 
 				  id:: 66625c65-5d2e-4f4b-9d87-4eadefca681a
 				  This make much confusion, esp. in the header of each pane in the sidebar, and esp. when collapsed into header only.
-					- Breadcrumb bar should contain the target item as the last non-link element.
+					- [Breadcrumb bar should contain the target item](https://discuss.logseq.com/t/breadcrumb-navigation-bar-should-contain-the-target-item/27511) as the last non-link element.
 				- Breadcrumb bar should contain ((66626356-0ad9-4219-9b33-8ab7c6cd0508)) instead of full length items.
 				- Sticky breadcrumbs [via CSS](https://discuss.logseq.com/t/have-the-page-title-or-block-breadcrumbs-as-an-always-visible-overlay-at-the-top-of-the-screen-when-scrolling-down/20617/5).
 			- Task management
@@ -1641,14 +1729,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- A task with status `DOING` will be time tracked in `:LOGBOOK:`.
 					- Switching to `DOING` (clicking `marker-switch` button) marks the start time, then switching to `TODO` (clicking `marker-switch` button) or `DONE` (clicking checkbox) marks the end time.
 					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext.
+			- [DataScript](https://github.com/tonsky/datascript) Query
+			  id:: 66acc24c-4cd7-4568-8c47-79798fc09433
+			  collapsed:: true
+				- [Simple `{{query}}`](https://docs.logseq.com/#/page/queries) from [macro](https://docs.logseq.com/#/page/macros) syntax
+				- [Advanced query](https://docs.logseq.com/#/page/advanced%20queries) with [Datalog](https://en.wikipedia.org/wiki/Datalog) to the [DataScript](https://github.com/tonsky/datascript) database
+					- More [Logseq/Advanced Queries Examples](https://siferiax.github.io/#/page/logseq%2Fadvanced%20queries)
+			- [Graph Validator](https://github.com/logseq/graph-validator): a [GitHub action](https://github.com/features/actions) to run [validations](https://github.com/logseq/graph-validator#validations) on each push
+			  id:: 66acc7cb-c144-4f1f-aaf7-344a0cf40b58
 			- Web API
 			  id:: 6673f8ff-995c-455f-ae09-49bcb5311e2e
 			  collapsed:: true
 				- Local server: [localhost:12315](http://localhost:12315)
 				  collapsed:: true
 					- Due to [bug #10337](https://github.com/logseq/logseq/issues/10337), until now (June 2024), `Auto start server` doesn't work.
+				- Plugin API docs: https://plugins-doc.logseq.com/
 				- The JSON result of query `logseq.Editor.getBlock` is different from `Export graph` > `Export as JSON`.
 					- API returns a bare block with children are just UUIDs, not embedded JSON like in the exported one.
+				-
 			- Logseq publish
 			  id:: 66600918-8c61-42af-b8a2-04bf05e9f782
 			  collapsed:: true
@@ -1698,11 +1796,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Tabs (`logseq-tabs`)](https://github.com/pengx17/logseq-plugin-tabs) provides tabs for browsing and concurrent editing with the very useful feature **pinned tabs**.
 			  collapsed:: true
 				- We can pin "root nodes" like ((66519638-cf5d-409b-9b98-15acabf2268c)) so that all other nodes will be opened in new tabs instead of overriding the content in that tab.
+			- [Copy Code (`logseq-copy-code-plugin`)](https://github.com/vyleung/logseq-copy-code-plugin) adds a copy button to each code block and inline code for easy copying codes, especially the **inline codes**.
+			  collapsed:: true
+				- Note: Must **restart Logseq** for installation & settings to take effect.
 			- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) lets us define custom flow of task status, e.g. `TODO -> WAIT -> DOING -> DONE`, and show `:LOGBOOK:` in edit mode when using its custom hotkey (`Ctrl Shift Enter`).
 			  collapsed:: true
 				- Settings: The workflow change take effect immediately, but the hotkey change requires Logseq restart.
 				- 2 workflows defined: {{embed ((66602f1d-a572-4fe8-997f-0fae15c6a3de))}}
 				  id:: 6661341b-bd00-4444-a44d-99b489f6c8cb
+			- [Block Reference Context (`logseq-brc`)](https://github.com/tejonaco/logseq-brc) provides the command `/Block Reference Context` to add block text content to the block ref.
+			  id:: 66ac509d-cc10-4b99-9a70-a27bed316a3a
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-08-02 Fri 10:25:07]--[2024-08-02 Fri 13:50:44] =>  03:25:37
+			  :END:
+				- Buggy: ((66ac85cb-b5ee-4b6b-8ab1-82f90200be26))
 			- [Time Recorder (`logseq-time-recorder`)](https://github.com/5hir0kur0/logseq-time-recorder) adds time tracker similar to the built-in `:LOGBOOK:`, but not yet integrated with `:LOGBOOK:`.
 			- [File explorer from within Logseq](https://discuss.logseq.com/t/file-explorer-from-within-logseq/21703/1) with [File picker for linking local files](https://discuss.logseq.com/t/file-picker-for-linking-local-files/21704)
 			  id:: 66600918-fe64-4ef5-965e-c085d29bb88b

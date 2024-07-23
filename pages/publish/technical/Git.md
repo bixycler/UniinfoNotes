@@ -32,6 +32,20 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			- Merge with log & merge commit (without fast-forward):    
 			  `git merge --no-ff --log --signoff`  
 			  Use this to force a merge commit even if it can be fast-forwarded, and collect all titles of the merged commits into this merge commit message.
+			- `merge --squash` = `cherry-pick -m1` to squash a merge into a single commit for linear history.
+			  collapsed:: true
+				- ![](https://docs.google.com/drawings/d/e/2PACX-1vRAF4K2JU7WT0cMyH1hdoKF8pWmwUgBGvKfEzuBBs1yN3xVkifwo2MuU3cXyZGs7z1zmVtTTFSa6Njx/pub?w=603&h=146)
+				- `feature:F> git merge project > m2`: commit `m2` has 2 parents, 1st `F` and 2nd `E`.
+				  collapsed:: true
+					- History of `feature` does contain the 2 merged commits `D` & `E`, and
+					- The changes of `m2` is relative to each parent:
+						- relative to 1st parent `F`, changes of `m2` = changes of `D` & `E`
+						  id:: 669f711c-67b5-4e6e-94c8-ac64e2bd861b
+						- relative to 2st parent `E`, changes of `m2` = changes of `F`
+				- `feature:I> git merge --squash project > s2`: commit `s2` has only one parent `I`
+					- History of `feature` does not contain the 2 merged commits `G` & `H`
+					- The changes of `G` & `H` are included in `s2`.
+				- `work> git cherry-pick -m1 m2 > s1`: commit `s1` includes [changes of `F` relative to 1st parent `F`](((669f711c-67b5-4e6e-94c8-ac64e2bd861b)))
 		- Selectively add diff hunks (patches):   
 		  `git add --patch`  
 		  Use this to interactively search for appropriate diff hunks via `/`, then stage them with `y` or skip with `n`, or even manually edit hunks with `e`, and so on.
@@ -60,40 +74,49 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/bixycler/GitWorkflows
 		- `work`-`feature`-`project` workflow
 		  id:: 6686731f-e794-4d7a-8e56-09128b3224b2
+		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The `work` branch is the working place storing all fine-grained commits, including 3 types of commits: project commits (in cyan) from `project` branch,  feature commits (in blue) to be cherry-picked to `feature` branch, and local commits (in red) for local development environment only. The interactions between these branches are as following:
-			  ((6686806d-5af8-4092-9430-a1b4115edaa8))
-			- ![Workflow: Project-Feature-Work-Store](https://docs.google.com/drawings/d/e/2PACX-1vQhv6u8obu7p4GhPcOhxCZuZ5irV8DROkcdDrUU3Dgwe7jeU5r53nItkhfyYcIcBJMtP0cK1ozPDSgH/pub?w=432)
+			  `project` >-[merge --squash]-> `work`  >-[cherry-pick]->  `feature`  <-[rebase/merge]->  `project`
+			- ![Workflow: Project-Feature-Work-Store](https://docs.google.com/drawings/d/e/2PACX-1vQhv6u8obu7p4GhPcOhxCZuZ5irV8DROkcdDrUU3Dgwe7jeU5r53nItkhfyYcIcBJMtP0cK1ozPDSgH/pub?w=430)
 			- Branches
 				- `work` branch
-				  is the working branch keeping the full-detail history of all works, hence:
+				  is the working branch keeping the full-detail history of all works.
 					- Its working commits are kept as small as possible so that we can have fine-grained control of our works.
-					- For a clear history, it's kept linear with `cherry-pick` instead of `merge`.
-				- `feature` branch
-				  is the middleman to bridge between the linear `work` branch and the octopus `project` branch, hence:
-					- Use `cherry-pick` on the linear side and `merge` on the octopus side:
-						- `work`  <-[cherry-pick]->  `feature`  <-[merge]->  `project`
-						  id:: 6686806d-5af8-4092-9430-a1b4115edaa8
-					- To get codes from `project`, just `merge` from `project` and `cherry-pick` to `work`:
+					- For a clear history, it's kept linear with `merge --squash` and `cherry-pick` instead of `merge`.
+					- Use `merge --squash` to get codes from `project`
 						- ```sh
-						  work> git checkout feature
-						  feature> git merge project
-						  feature> git checkout work
-						  work> git cherry-pick -m1 feature [ -X theirs ]
+						  work> git merge --squash project
 						  ```
-						- The command `cherry-pick -m1` will create a squashed commit on `work` branch.
-					- To prepare feature commit(s) to merge-request to `project`, just `cherry-pick` from `work` and (optionally) squash them down:
+				- `feature` branch
+				  is the middleman to bridge between the linear `work` branch and the octopus `project` branch.
+					- For new `feature` branch, `checkout -b` from `project` branch.
+						- ```sh
+						  project> git checkout -b feature 
+						  ```
+					- `cherry-pick` feature commits from `work` for merge-request to `project`
 					  id:: 66868431-a1d0-4df9-a250-0f8bb7bc1a56
 						- ```sh
 						  #work> git log # store commits to be cherry-picked, from old to new: ${base_exclusive}..${head_inclusive} ${ref1} ${ref2}
 						  work> git checkout feature 
-						  #feature> feature_base_exclusive=$(git rev-parse HEAD)
 						  feature> git cherry-pick ${base_exclusive}..${head_inclusive} ${ref1} ${ref2}
-						  feature> git rebase -i ${feature_base_exclusive}
 						  ```
-						- Then create a merge request to `project` branch, optionally with "Squash commits" checked.
+					- `rebase project` (and optionally squash feature commits them down with option `-i`) before creating merge request to `project` branch
+					  id:: 669f79cc-08d5-4507-bd72-f8e1af4892d8
+						- ```sh
+						  feature> git rebase -i project
+						  ```
+						- Note: on the Merge request page, there's an option "Squash commits", but it's better to squash before hand with `rebase -i`.
 				- `store` branch
 				  is an optional branch to store coarse-grained commits of `work` branch corresponding to merge requests to `project`.
-					- Whenever a [merge request](((66868431-a1d0-4df9-a250-0f8bb7bc1a56))) is created, the corresponding chunk of `work` commits should be stored to `store` branch via a `merge --no-ff --log`.
+					- Whenever a [merge request](((669f79cc-08d5-4507-bd72-f8e1af4892d8))) is created, the corresponding chunk of `work` commits should be stored to `store` branch via a `merge --no-ff --log`.
+						- ```sh
+						  store> git merge --no-ff --log work
+						  ```
+						- This command can be stored as alias in `~/.gitconfig`.
+							- ```ini
+							  [alias]
+							      mergel = merge --no-ff --log
+							  ```
 		- Revise commits from downstream (local, personal) to upstream (remote, redmine, project)
 		  collapsed:: true
 			- In case of only 1 commit to upstream: (for redmine)

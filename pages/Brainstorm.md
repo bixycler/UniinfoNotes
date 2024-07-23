@@ -95,10 +95,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  collapsed:: true
 				- a component
 				- another component
-	- Let's test `{{query}}` in Logseq:
+	- Let's test ((66acc24c-4cd7-4568-8c47-79798fc09433)) in Logseq:
 	  collapsed:: true
 		- Today: {{query <% today %> }}
 		  id:: 66521398-7318-4d06-ac79-899f244a31c0
+		- [Logseq Docs: Advanced Queries](https://docs.logseq.com/#/page/advanced%20queries)
+		- [Logseq/Advanced Queries Examples](https://siferiax.github.io/#/page/logseq%2Fadvanced%20queries)
+		- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
 		- query-table:: true
 		  query-sort-by:: block
 		  query-sort-desc:: false
@@ -111,10 +114,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		    :where
 		      [?b :block/properties ?prop] 
 		      [(get ?prop :name) ?name]
-		      (or
-		        [(= ?name ?uuid)]  
-		        [(contains? ?name ?uuid)]  
-		      )
 		    ] ; end query
 		    :inputs[ "((6652048c-27b3-47b6-84e5-25af8d9ce801))" ]
 		  }
@@ -134,8 +133,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		   :inputs [ [:block/uuid #uuid "66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5"] ]
 		  }
 		  #+END_QUERY
-		- [Logseq/Advanced Queries Examples](https://siferiax.github.io/#/page/logseq%2Fadvanced%20queries)
-		- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
+		- collapsed:: true
+		  #+BEGIN_QUERY
+		  {:title ["List of Tasks"]
+		    :query [ 
+		    :find (pull ?b [*])
+		    :where
+		      [?b :block/marker ?m]
+		      (not [(contains? #{"DONE" "CANCELLED"} ?m)] )
+		    ] ; end query
+		    ;:result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
+		  }
+		  #+END_QUERY
 	- Special properties built in Logseq
 	  collapsed:: true
 		- Example:
@@ -365,11 +374,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Varying $dt$ from ∞ -> 1 -> 0, we have the average (center of mass) $\bar{x} = E[f(t)]$ -> the function $x = f(t)$ itself  -> derivative $\dot{x} = f'(t)$
 		- [?] What's the relation to
 		  ((66875f13-3385-48d5-99b1-fb72dc53291d))
-	- DOING i, the internal imaginary impression that bridges the gap, complete the circle, reverts (reduces) the entropy of the external "real" world, is the internal image reflecting the external world.
+	- $i$, the internal imaginary impression that bridges the gap, complete the circle, reverts (reduces) the entropy of the external "real" world, is the internal image reflecting the external world.
 	  id:: 668d08c7-ec2d-4188-9745-6ccf643c9132
 	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2024-07-09 Tue 16:38:07]
+	  CLOCK: [2024-07-09 Tue 16:38:07]--[2024-07-23 Tue 11:30:20] =>  330:52:13
 	  :END:
 		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) this ((668d0827-7ff2-468c-b62c-3f1d072119ac))
 		  :LOGBOOK:
@@ -378,7 +387,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- The "real vs imaginary" is just a relative pair like the "real object - virtual image" & "real image - virtual object" in optical physics.
 		  collapsed:: true
 			- ![real-virtual-object-image.jpg](../assets/physics/real-virtual-object-image.jpg)
-		- fasdf
+		- The resolution $i_ω$ is the bridge that closes internal circles of the self $i_0$.
+		  id:: 669a58b8-64ad-409b-8e14-0211eaab2570
+		  :LOGBOOK:
+		  CLOCK: [2024-07-23 Tue 10:00:53]--[2024-07-23 Tue 10:14:53] =>  00:14:00
+		  :END:
+			- Even the cutting edge of the arrow (of time/content) always cuts all circles open,
+			- the self body $i_0$ containing circle $i_k$ sees $i_k$ closes within $i_0$
+				- due to aliasing caused by the resolution $i_ω$
+			- so the effect flow inside $i_0$ is constrained by these close circles,
+			- i.e. the content (effect flow) is forced to conform the form (to follow the map) of these internal circles.
+		- The ignorance of the self $i$ turns the whole self into a point to connect external objects in touch with it.
+		  :LOGBOOK:
+		  CLOCK: [2024-07-23 Tue 10:54:56]
+		  CLOCK: [2024-07-23 Tue 10:55:40]--[2024-07-23 Tue 11:01:31] =>  00:05:51
+		  :END:
+			- This connection pulverizes the great self into smaller selves, divides the intent to multiply the extent, and effectively entends the space.
+			- The imaginary space inside is the space of possibility created by each self.
 	- DOING "one body one way"
 	  id:: 668f52e2-2935-4980-bdbb-04a54d9288d9
 	  :LOGBOOK:
@@ -424,3 +449,54 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2024-07-22 Mon 10:04:03]
 		  :END:
+		- equilibrium = straight on circle = round = smooth = continuous at all scales = zero returning gap = static at all scales
+		  id:: 669f323d-9f0f-4b6d-b2b2-0f40e52d500d
+		  :LOGBOOK:
+		  CLOCK: [2024-07-23 Tue 11:32:09]--[2024-07-23 Tue 11:36:05] =>  00:03:56
+		  :END:
+			- linear thread is smooth by def., only smooth *on circle* is equilibrium
+			- like [phase flower of interunion](https://www.geogebra.org/m/etenmkub)
+	- ((669f3107-a33a-4b26-a636-6da62fa5520e)) constraint
+	  id:: 669f243f-41b7-4274-b954-9824ec3ac33b
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-07-23 Tue 10:44:58]
+	  CLOCK: [2024-07-23 Tue 10:45:36]--[2024-07-23 Tue 11:25:48] =>  00:40:12
+	  CLOCK: [2024-07-23 Tue 11:28:46]--[2024-07-23 Tue 11:29:27] =>  00:00:41
+	  :END:
+		- Like experience, resource is collected from the past into a form to shape the future.
+		- All maps are distribution of resources which are formed inside selves.
+		- The limit of resource is the constraint of the form upon actions.
+			- The head controls the distribution of resources, according the the currently earned resource, to put constraints on its body parts.
+				- There are many layers of distributions, just like positions of digits.
+				  collapsed:: true
+					- The thickness of experience determines the depth of distribution.
+					- These layers are like orders of derivatives.
+				- constraint flow: in contrast with the effect flow to the target/head, the constraints are established from the target/head back to the organs.
+					- affect flow: affect = - constraint = energy, but flows in the same direction with the constraint flow
+						- Attraction to the target is an expression of affection.
+					- Type propagation in programming is a constraint flow.
+			- The wall of "no resource left" is the dead-end wall. Such a hard wall is orgasm triggered by the lack of breath.
+			- breath of change
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-07-23 Tue 10:32:18]
+			  CLOCK: [2024-07-23 Tue 10:32:27]--[2024-07-23 Tue 11:15:28] =>  00:43:01
+			  :END:
+			  is the breath with mind turned inward to re-program the body.
+				- This breathing resource relaxes the constraints programmed to the body, gives organs space to adjust to adapt to the new changes directed from the mind.
+				- [Posted on fb](https://www.facebook.com/lexuandinhct/posts/pfbid03u2u52SK6m3getZKoBriexdSgwnUiLZicQ7PyLWpCX7F4ucJCAUm31gAYuXr5SSRl) to mark this discovery.
+		- Balance between resource stored inside, i.e. energy, and resource outside that will be earned at target is the ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)).
+			- Intrinsic balance of the ultimate Self: it's always balance at the scale of Universe because the total energy = 1.
+			- Each self tries to restore to its own balance, static, to conserve its energy.
+		- The granularity of the cycle of recharging resource defines the granularity of self circle.
+	- Everything is memory: learning is just a deep memorization
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-01 Thu 15:24:26]--[2024-08-01 Thu 15:24:42] =>  00:00:16
+	  :END:
+		- hand-eye mixing (pulverization): train making this circle smaller: stop - breathe - view - act; <=> reduce the radius from the center "stop" to the peripheral "act"
+		- see the need to change but cannot change = only see/remember in the head, not the whole body
+		  => When we pulverize the memory into each cell, each breath seeing the whole life, we can charge in one breath
+		- (ujjayi) breath is the thread connecting the "blind doer" with the "inactive seer", the back link "act -> stop"
+		- training = abstract mirroring = emotion: reward & punishment = abstraction of pro & cons pathways in the environment = affection & aversion

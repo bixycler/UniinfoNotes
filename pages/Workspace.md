@@ -7,8 +7,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
+		- ((66ab774d-91d2-4c47-8546-78bb17e7e2bf)) < [](((66ab75a1-f4a0-4bab-a002-8e573546623a)) "description, 'title', notes, or anything else")
 		-
-		- TODO Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs)
+		- ((66ab33e0-7646-4340-bdbc-28d581d1655d))
+		-
+		- TODO Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
 		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
 		  :LOGBOOK:
 		  CLOCK: [2024-06-23 Sun 16:26:28]
@@ -20,12 +23,43 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-07-22 Mon 09:57:20]
 		  :END:
 		-
-		- WAIT ((66536e1b-6466-4153-90d6-583003d99a81)): Write a script to convert all headless block ref to `[named link](((uuid)))`
+		- WAIT ((66536e1b-6466-4153-90d6-583003d99a81)): Write a script to convert headless block ref to `[](((uuid)) "block content")` and a plugin to copy block ref in that format.
 		  id:: 667d2479-487a-49ab-949f-722eb47a16ef
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-06-27 Thu 15:36:19]
 		  :END:
-			- This also solve the current bug/issue that ((667d263b-658b-4560-b8cc-f6838534956d))
+			- Use [`[](ref "title")` syntax](https://www.markdownguide.org/basic-syntax/#adding-titles "add a title to a link")
+			  id:: 66ac8222-836c-40b1-9f26-fc94c69f9f8e
+			  collapsed:: true
+				- Label-less block link syntax `[](((uuid)))` keeps rendering the block content as is (the same as `((uuid))`), like this: [](((66ac8222-836c-40b1-9f26-fc94c69f9f8e))).
+				  collapsed:: true
+					- Whereas putting block content into link label will make it not rendered properly, like this: [Use [`[](ref "title")` syntax](https://www.markdownguide.org/basic-syntax/#adding-titles "add a title to a link")](((66ac8222-836c-40b1-9f26-fc94c69f9f8e))).
+					  id:: 66ac85cb-b5ee-4b6b-8ab1-82f90200be26
+					  collapsed:: true
+						- The rule of "first line as title" will also not applied.
+					- Note that label-less external link shows nothing, like this "[](https://www.markdownguide.org/basic-syntax/#adding-titles)", and label-less block link without double parenthesis shows `Untitled`, like this [](66ac8222-836c-40b1-9f26-fc94c69f9f8e "hidden title").
+				- The `title` is not shown, unlike in [external link](https://www.markdownguide.org/basic-syntax/#adding-titles "add a title to a link").
+			- Plugin `Copy Block Link`
+			  collapsed:: true
+				- Copy to clipboard: [`await navigator.clipboard.writeText(textContent)`](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText).
+				- Context menu `Copy block link`
+					- [`logseq.Editor.registerBlockContextMenuItem()`](https://plugins-doc.logseq.com/logseq/Editor/registerBlockContextMenuItem)
+					- Ref: [Block Shallow Copy (`logseq-shallow-copy`)](https://github.com/MateuszMyalski/logseq-plugin-shallow-copy)
+				- ((66536710-7441-4fb8-986b-50d2eec762d7)) `Ctrl Shift C`
+					- [`logseq.App.registerCommand{,Palette,Shortcut}()`](https://plugins-doc.logseq.com/logseq/App/registerCommand)
+					- Ref: [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin)
+			- Related plugins:
+			  collapsed:: true
+				- ((66ac509d-cc10-4b99-9a70-a27bed316a3a))
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			  collapsed:: true
+				- This also solves the current bug/issue that ((667d263b-658b-4560-b8cc-f6838534956d))
+				- The issue of back-propagation of edit of block content to its refs:
+					- Should it be automatized? It should be done manually, because the block content used in refs depends on these refs' contexts.
+				- [Future-proof block references in Logseq](https://99rabbits.com/future-proof-block-references-in-logseq/) > ((66ac8222-836c-40b1-9f26-fc94c69f9f8e)) as [suggested by AlessandroLongo](https://www.reddit.com/r/logseq/comments/15x0qsv/comment/jx49poz/)
+				- [Block reference to allow ((page-name#block-ref-name)) not just UUID](https://discuss.logseq.com/t/block-reference-to-allow-page-name-block-ref-name-not-just-uuid/2746)
+			- ((94649b98-9711-4adf-ae25-aaf32b521c14))
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
 		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  collapsed:: true
@@ -43,7 +77,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
 					  id:: 6673fb2f-ef98-484a-b289-b50482edea47
 					- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
-			- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.Editor.getBlock`)
+			- DONE Write [LogseqUtils.js](../assets/HTML/LogseqUtils.js)( ![src](../assets/HTML/LogseqUtils.js), for posting request to http://localhost:12315/api)
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
+			  :END:
+				- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) I need to know what's in the hidden `:LOGBOOK:`.
+				  collapsed:: true
+					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
+			- DONE Write [LogseqGet.html](../assets/HTML/LogseqGet.html)( ![src](../assets/HTML/LogseqGet.html), for `logseq.Editor.get{Block,Page}`)
 			  id:: 6675860a-c135-4a92-b4fe-206ebde974ff
 			  collapsed:: true
 			  :LOGBOOK:
@@ -55,6 +97,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				  collapsed:: true
 					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
 					  id:: 6669a3bd-5b32-4088-982a-2c359b66610d
+			- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.DB.q`)
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-08-02 Fri 15:00:26]--[2024-08-02 Fri 15:36:01] =>  00:35:35
+			  :END:
+				- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) I need to know what's in the hidden `:LOGBOOK:`.
+				  collapsed:: true
+					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
+			- TODO Check if `logseq.DB.onChanged` can catch block creation event... to automatically timestamp newly created blocks.
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
 		-
@@ -69,7 +120,26 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :END:
 		-
 		- TODO Auto-complete & typing assistant for **quotation marks**, symbols...
+		- TODO Backup & republish my contents on Facebook
+		  collapsed:: true
+			- Some of the fb posts have been migrated to the blog [CreatZy Notes](https://creatzynotes.blogspot.com/).
+			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) Trigger: i had a hard time finding back [my post about catenary curve](https://www.facebook.com/share/p/9LfU1A6Mmxo2KTH3/).
 		-
+		- query-table:: false
+		  #+BEGIN_QUERY
+		  {:title [:h3 "Other Tasks"]
+		    :query [ 
+		    :find (pull ?b [*])
+		    :where
+		      [?b :block/marker ?m]
+		      (not [(contains? #{"DONE" "CANCELLED"} ?m)] )
+		      [?b :block/page ?p]
+		      [?p :block/original-name ?pn]
+		      (not [(contains? #{"Workspace"  "Theme Demo"} ?pn)] )
+		    ] ; end query
+		    :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
+		  }
+		  #+END_QUERY
 	- ## Problems
 	  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
 		-
@@ -384,3 +454,37 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :LOGBOOK:
 		  CLOCK: [2024-07-15 Mon 11:10:32]--[2024-07-15 Mon 19:54:25] =>  08:43:53
 		  :END:
+		- DOING Last weekend, my wife caught a cold after some days relaxing, then hospitalized due to [lung abscess](https://en.wikipedia.org/wiki/Lung_abscess).
+		  id:: 66ab33e0-7646-4340-bdbc-28d581d1655d
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-01 Thu 15:06:06]
+		  :END:
+			- Last week, i reminded her about nearly 1 year she has been lost in the unconscious flow, and put some pressure on her to relax and review.
+			- Finally she relaxed, went to deep sleeps, and unconsciously let the cold slip in.
+			  collapsed:: true
+				- On Saturday night - Sunday early morning, she caught a deep cold while sleeping which brought her from the deep sleep directly back to the waking state.
+				- Because she was to conscious, she didn't think that it was a severe cold.
+				- Throughout Sunday, she had temperature up and down. Then at that night, she reported me that she has used breathwork to cure all pains... except the one pain deep inside her lung is still incurable. So i told her to go to hospital next day.
+			- This Monday (July 29), after image diagnosing, the doctor told us a bad news of ((66ab3ac5-3b81-4a63-bf9b-81118dc1b1c0)). That evening, the [CT scan result](http://qrpacs.bvndgiadinh.org.vn/m.QR/viewer.html) showed us the situation is complicated:
+			  collapsed:: true
+				- a large part of [liquefactive necrosis](https://en.wikipedia.org/wiki/Liquefactive_necrosis) at the top right part of her lung
+				  id:: 66ab3ac5-3b81-4a63-bf9b-81118dc1b1c0
+				- a mild [pleural effusion](https://en.wikipedia.org/wiki/Pleural_effusion)
+				- 2 spots of [lung nodule](https://en.wikipedia.org/wiki/Lung_nodule)s
+				  collapsed:: true
+					- => observing for lung tumors
+			- This week, she's hospitalized to treat that lug abscess and monitoring the possible tumors.
+		- The end of the theorist karma
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-01 Thu 15:08:34]
+		  CLOCK: [2024-08-01 Thu 15:09:41]
+		  CLOCK: [2024-08-01 Thu 15:10:15]--[2024-08-01 Thu 15:14:14] =>  00:03:59
+		  :END:
+			- Through tantric practice, tonight i discovered the middle way between "exploring the whole space = let it loose" and "staying in one place = hold it on". It's the straight arrow cutting through all layers of derivatives right to the target. However i don't want to formulate this shortcut and don't want to publish it. Because this shortcut is prone to be abused, it's preserved for emergency use only.
+			- Chat with Huy:
+			  collapsed:: true
+				- Dạo này chắc là giai đoạn cuối của nghiệp lý thuyết của tui: tui bắt đầu không còn muốn formulate những thứ tui thấy nữa, cảm giác không còn thú vị với việc vẽ bản đồ nữa... cảm giác "hãy cứ để mọi người cùng explore sẽ thú vị hơn" ![😊](https://static.xx.fbcdn.net/images/emoji.php/v9/t7f/1/16/1f60a.png)
+				- Hồi đó tui bị nhiễm nặng tư tưởng đại thừa và "khoa học giúp ích mọi người". Đến lúc làm hành giả thì tui đã bỏ tư tưởng đó, tập trung vào giải thoát cho chính mình. Tuy nhiên cả chục năm nay tui vẫn muốn để lại con đường mình đi bằng một cách nào đó để giúp số ít những người cùng khổ (chuyển từ số nhiều, đại, sang số ít, tiểu). Nhưng dạo gần đây tui không những chứng nghiệm cái sướng của vô minh trên người khác mà còn trên chính bản thân mình, nên thấy rõ việc ngày xưa mình muốn "cứu giúp người ta" là tào lao 😂 Mình khổ rồi mình ngoại suy ra người ta khổ 😁 Thôi dẹp! Hãy cứ tận hưởng cái sướng của vô minh, khi nào khổ thì tự khắc phải mò tìm đường giải thoát à. Ông cha mình nói chí phải: 
+				  Đói đầu gối cũng phải bò 😁

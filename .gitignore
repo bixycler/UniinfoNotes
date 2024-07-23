@@ -1,6 +1,8 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
-.trash/
-.DS_Store
 logseq/bak
 logseq/.recycle
+.idea/
+*.iml
+.trash/
+.DS_Store
