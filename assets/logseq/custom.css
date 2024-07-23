@@ -102,6 +102,10 @@ html[data-theme=light] .cp__right-sidebar .sidebar-item {
   color: hsl(var(--foreground));
 }
 
+.cm-s-lsradix .cm-header {
+    color: var(--lx-gray-10,#586e75)
+}
+
 /* Selection */
 
 
