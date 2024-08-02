@@ -1705,6 +1705,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :END:
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
+					- [!] 2 failures in `block-refs-link-to-blocks-that-exist`
+						- [665374b0-1ed9-420b-afc4-897a942c0be0](((665374b0-1ed9-420b-afc4-897a942c0be0))), [667d2689-4ce0-4c79-b82a-25b0bba87d39](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
+						- Log
+							- ```log
+							  FAIL in (block-refs-link-to-blocks-that-exist) (:42)
+							  expected: (empty? (set/difference (set block-refs) (->> (d/q (quote [:find (pull ?b [:block/properties]) :in $ % :where (has-property ?b :id)]) (clojure.core/deref state/db-conn) (vals rules/query-dsl-rules)) (map first) (map (comp :id :block/properties)) set)))
+							    actual: (not (empty? #{"(665374b0-1ed9-420b-afc4-897a942c0be0" "(667d2689-4ce0-4c79-b82a-25b0bba87d39"}))
+							  ```
 			- Sidebar
 			  collapsed:: true
 				- Right sidebar is used as a stack of docs, started from [[Contents]], for column-styled editing in parallel with the main edit pane.
