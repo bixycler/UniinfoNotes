@@ -978,22 +978,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) is the natural ((665379e5-5bf4-4e00-ab03-9f41ff14cccc)) of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) and should be the chosen way of life. In Buddhism, it's called [Middle Way](https://en.wikipedia.org/wiki/Middle_Way), and in Taoism, it's called simply [The Way](https://en.wikipedia.org/wiki/Tao).
 		- Refinement techniques
 		  collapsed:: true
-			- ### letting go
+			- ### let-go
 			  id:: 669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) buông xả, ((669a5162-19e1-4c52-8888-ab7cbfe275ec))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In Buddhism, this is the main technique to achieve ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
 				- relax-reduce
 				  id:: 669a5162-19e1-4c52-8888-ab7cbfe275ec
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, relax the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) so that it doesn't hold on objects anymore, then reduce the size of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) by letting all uneven stuffs go away so that only the round circle remains.
-			- ### sublimation - channeling
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, _relax_ the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) so that it doesn't hold on objects anymore, then _reduce_ the size of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) by letting all uneven stuffs go away so that only the round circle remains.
+			- ### sublime-channel
 			  id:: 668f5490-c223-4a8a-9cc4-0bd71af4c097
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66951d98-ebd4-4ac2-a164-7664683ad1bb)), thăng hoa - dẫn lưu
-			  ((665c9af1-1ce2-461c-af33-671690618c8f))
-				- sublime-channel
-				  id:: 66951d98-ebd4-4ac2-a164-7664683ad1bb
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, use breathwork to dissolve, to sublimate the hard ((669a5387-2a97-4311-a295-aa0afd9c4d76)) into a fluid (qi, khí, 氣), then use qigong (氣功) to transform & channel the fluid to the required target form. The process should repeat until we reach [equilibrium](((669a58b9-2104-4d4c-b68f-7a45e2adb915))).
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) thăng hoa - dẫn lưu
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, use breathwork to dissolve, to _sublimate_ the hard ((669a5387-2a97-4311-a295-aa0afd9c4d76)) into a fluid (qi, khí, 氣), then use qigong (氣功) to transform & _channel_ the fluid to the required target form. The process should repeat until we reach [equilibrium](((669a58b9-2104-4d4c-b68f-7a45e2adb915))).
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				  collapsed:: true
 					- I discovered sublimation first (from [the start of February](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice), but without proper transformation & channeling, i've been struck by a serious lung disease (pneumonia, from the end of Mars to April).
@@ -1005,7 +1001,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- revisit the formless meditation to deal with serious pain (my first application was at the previous serious illness of herpes zoster/zona).
 				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
 				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
-				-
+			- ### subtilize
+			- ### purify
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
@@ -1042,6 +1039,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 665c9fb9-28e8-48e3-bd81-f773549f145d
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537617-23c2-43a9-9a14-5e18fe9aa36f))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A foldable object, usually a block of text, is an object that can be folded (or collapsed, abstracted) into a brief like header, title, name, summary, and that brief can be unfolded (or expanded, extended) back to the full object. This is a technical implementation of the general ((66537674-6cf9-4459-8bea-7c1858c694a3)).
+		  id:: c6770550-24e0-453d-9159-5040ce045c5f
 		- ((66725725-f76a-4328-b162-f469b87e871b))
 			- Foldable [code block](https://en.wikipedia.org/wiki/Block_(programming))s in [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or blocks of text in [text editor](https://en.wikipedia.org/wiki/Text_editor)s
 			- The ((665361eb-5339-451e-957d-362b946d796d)) [`<summary>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) within the `<details>` tag
@@ -1297,14 +1295,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
 	- ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
-	  id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
-	  collapsed:: true
 	- ## GitHub
 	  id:: 66536662-052f-46a4-a624-38858bffb334
 	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://github.com/
+		  id:: 66536669-edd2-4c36-a4da-52f25a090459
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/GitHub
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536662-052f-46a4-a624-38858bffb334)) is an online hub for ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536662-052f-46a4-a624-38858bffb334)) is an online hub for ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)).
 		- ((66536578-c4d3-43f1-b35c-bf71120f0570))'s profile: https://github.com/bixycler
 	- ## obsidian
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
@@ -1682,6 +1679,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Should be `<Block ref>`: <[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))>
 						- Should be `N-Block ref`: N-[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
 					- But ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) can be suffixed with no problems, e.g. ((667d2689-4ce0-4c79-b82a-25b0bba87d39))erence.
+				- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) is not rendered correctly in the label of ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) link.
+					- Should be `link to Block ref`: [link to ((667d2689-4ce0-4c79-b82a-25b0bba87d39))](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
+					- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) This may stem from the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
 			- Block title
 			  collapsed:: true
 				- The first line in a block is considered title of that block.
@@ -1725,6 +1725,35 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- [using a  `dataviewjs` script (Bosidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
 							- [667d2689-4ce0-4c79-b82a-25b0bba87d39: Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
 								- [Should be `(Block ref...)`](((6683ea7c-a48c-4998-8f2b-40d4d9bc16a9))) < ((6683ea7c-c94f-4970-bcd1-d3b468c32ab7)) < ((667d263b-658b-4560-b8cc-f6838534956d))
+						- DOING [!] Info (warning) about re-assigning new id for block `Git` in parsing phase
+						  :LOGBOOK:
+						  CLOCK: [2024-08-03 Sat 18:00:08]
+						  :END:
+							- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) `Mind Jungle` > `Git` has been move to [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) but the block `Git` is still kept in `Mind Jungle` 
+							  id:: 66ae1489-c8cd-4341-9b2b-90047434943b
+							  collapsed:: true
+							  => the two have the same uuid `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
+								- `Mind Jungle` > `Git`
+								  ```
+								  - ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
+								    id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
+								  ```
+							- Log (after `Parsing 31 files...` and before `Ast node count: 2919`)
+								- ```log
+								  Logseq will assign a new id for this block:  #:block{:properties {:id 666ba1e2-19d1-409e-b30e-42a99b7e4ec0, :heading 2}, :tags [], :format :markdown, :path-refs (), :macros [], :unordered false, :content ## Git
+								  id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0, :refs (), :properties-text-values {:id 666ba1e2-19d1-409e-b30e-42a99b7e4ec0}, :level 1, :uuid #uuid "666ba1e2-19d1-409e-b30e-42a99b7e4ec0", :properties-order [:id]}
+								  ```
+							- Git diff right after that push to ((66536662-052f-46a4-a624-38858bffb334))
+								- ```diff
+								  --- a/pages/publish/technical/Git.md
+								  +++ b/pages/publish/technical/Git.md
+								  @@ -1,14 +1,14 @@
+								   ## Git
+								  -id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
+								  +id:: 66aded24-8ec4-4bc5-b7a5-972025161721
+								  ```
+							- `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
+								- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
 			- Sidebar
 			  collapsed:: true
 				- Right sidebar is used as a stack of docs, started from [[Contents]], for column-styled editing in parallel with the main edit pane.
@@ -1877,6 +1906,61 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66536cad-a232-4b90-bf32-439144aac1ec
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Hyperlink
+		- [HTML Anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) `<a>`
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-03 Sat 20:42:25]
+		  :END:
+			- Action triggering elements like `<a>` and `<button>` are required to be action-atomic, hence not permitted to nest other action triggering elements inside.
+			  id:: 66ae293c-b2ea-44cb-9e39-268c5a45c364
+			  :LOGBOOK:
+			  CLOCK: [2024-08-03 Sat 20:42:40]
+			  :END:
+				- Documentations
+				  collapsed:: true
+					- [Permitted content in `<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#technical_summary)
+						- [Transparent](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#transparent_content_model), except that no descendant may be [interactive content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#interactive_content) or an `<a>` element, and no descendant may have a specified [tabindex](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) attribute.
+					- [Permitted content in `<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#technical_summary)
+						- [Phrasing content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#phrasing_content) but there must be no [Interactive content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#interactive_content)
+					- [Permitted content in `<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#technical_summary)
+						- None; it is a [void element](https://developer.mozilla.org/en-US/docs/Glossary/Void_element).
+				- ((66725725-f76a-4328-b162-f469b87e871b)) ((66ae1e22-a253-4c78-8a51-b45e646ccb66))
+				- See more about ((66ae2d1a-8009-4dc0-85f5-93728b22d1fb)).
+		- fat link
+		  id:: 66ae2d1a-8009-4dc0-85f5-93728b22d1fb
+		  :LOGBOOK:
+		  CLOCK: [2024-08-03 Sat 20:42:13]
+		  :END:
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ae2dbf-58df-4aa7-925b-b694cb8b84c7)), ((66ae2dc6-0a8b-4f3d-80c1-f37c17cc6e81))
+			- nested link
+			  id:: 66ae2dbf-58df-4aa7-925b-b694cb8b84c7
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ae2d1a-8009-4dc0-85f5-93728b22d1fb))
+			- layered link
+			  id:: 66ae2dc6-0a8b-4f3d-80c1-f37c17cc6e81
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ae2d1a-8009-4dc0-85f5-93728b22d1fb))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ae2d1a-8009-4dc0-85f5-93728b22d1fb)) is a ((66536cad-a232-4b90-bf32-439144aac1ec)) that links to more than one target, as defined in [this wiki](https://wiki.edunitas.com/IT/en/114-10/Fat-link_18794_eduNitas.html). It's useful when there is little space for the link anchor, so many links should be [collapsed](((66537617-23c2-43a9-9a14-5e18fe9aa36f))) into a single anchor.
+			- ((66ae2dbf-58df-4aa7-925b-b694cb8b84c7)) of blocks is rendered well in ((66536e1b-6466-4153-90d6-583003d99a81)).
+				- ((66725725-f76a-4328-b162-f469b87e871b)) ((66ae25de-8bfe-4da8-9483-8ae16f704c59))
+			- ((66ae2dbf-58df-4aa7-925b-b694cb8b84c7)) is not supported by HTML: ((66ae293c-b2ea-44cb-9e39-268c5a45c364))
+				- Workarounds
+					- use `onclick` event
+					  collapsed:: true
+						- E.g. ![source code](../assets/HTML/FatLink.html) in [FatLink.html](../assets/HTML/FatLink.html)
+							- ```html
+							  This is
+							  <span 
+							    onclick="window.location='https://css-tricks.com'"
+							    style="cursor: pointer;"
+							    tabindex="1"
+							  >
+							    a blog about 
+							    <a href="https://css-tricks.com/nested-links/">
+							      nested links
+							    </a>
+							    on css-tricks.com
+							  </span>.
+							  ```
+					- Sara's blog: [Nested Links Without Nesting Links](https://www.sarasoueidan.com/blog/nested-links/)
 	- ## wikilink
 	  id:: e6a21858-1849-462e-b2b0-0bc57b38fb0a
 	  collapsed:: true

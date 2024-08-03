@@ -100,6 +100,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Today: {{query <% today %> }}
 		  id:: 66521398-7318-4d06-ac79-899f244a31c0
 		- [Logseq Docs: Advanced Queries](https://docs.logseq.com/#/page/advanced%20queries)
+		  collapsed:: true
 		- [Logseq/Advanced Queries Examples](https://siferiax.github.io/#/page/logseq%2Fadvanced%20queries)
 		- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
 		- query-table:: true
@@ -428,13 +429,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- toward the ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 			- no branching, energy conservation
 			- ((668f52e2-2935-4980-bdbb-04a54d9288d9))
-	- Breathing technique for ((66951d98-ebd4-4ac2-a164-7664683ad1bb))
+	- Breathing technique for ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
 	  id:: 66952126-bf33-40e1-a208-369df7aa9488
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-07-15 Mon 20:28:28]
 	  :END:
-		- With the ((66951d98-ebd4-4ac2-a164-7664683ad1bb))ing mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
+		- With the ((668f5490-c223-4a8a-9cc4-0bd71af4c097))ing mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
 		- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
 	- Round = uniform = scale invariant = all frequencies = white light = ((669a1bec-3347-4915-83e4-dcffc4d482d1))
 	  id:: 66960ee2-d6dd-404b-a9d0-96340fce3cd2

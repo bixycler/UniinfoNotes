@@ -17,9 +17,19 @@ public: true
   ___
   ===
   
-  Normal text, *italic*, **bold**, ***bold italic***, ~~strikethrough~~, ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), [markdown link](https://www.markdownguide.org/basic-syntax/#links "this is a tooltip/title of this link"), [reference][1] do they look OK?
-  
-  **List**
+  Normal text, *italic*, **bold**, ***bold italic***, ~~strikethrough~~, ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), [Markdown link](https://www.markdownguide.org/basic-syntax/#links "this is a tooltip/title of this link"), [reference][1] do they look OK?
+- Nested links
+	- This is [a [Hyperlink](https://en.wikipedia.org/wiki/Hyperlink) within a Markdown link](https://www.markdownguide.org/basic-syntax/#links).
+	  id:: 66ae1e22-a253-4c78-8a51-b45e646ccb66
+	  collapsed:: true
+		- This is [an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code> tag</a> within a Markdown link](https://www.markdownguide.org/basic-syntax/#links).
+		- This is <a href="https://en.wikipedia.org/wiki/Hyperlink">an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code> tag</a> within an <code>&lt;a&gt;</code> tag</a>.
+	- This is ((66ae2602-edc5-4281-a9fb-fc03f1992c93)), which is linked/mirrored here.
+	  id:: 66ae25de-8bfe-4da8-9483-8ae16f704c59
+		- a ((66536cad-a232-4b90-bf32-439144aac1ec)) within a block
+		  id:: 66ae2602-edc5-4281-a9fb-fc03f1992c93
+-
+- ## List
 - first with `inline code`
   1. one  
     next line, and code block:

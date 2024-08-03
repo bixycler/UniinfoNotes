@@ -197,7 +197,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  collapsed:: true
 						- The clarity of the goal shows that it's very large, like the Sun & Moon, hence a form outside.
 						- Just be mindful that although it's worth pursuing, it's still very far.
-					- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((66951d98-ebd4-4ac2-a164-7664683ad1bb)) is to dissolve the form and direct it to the new form.
+					- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) is to dissolve the form and direct it to the new form.
 					- Mindfulness as a hole-punching tool to escape the form.
 					  collapsed:: true
 						- The tantric practice shows that both the accumulation of momentum and the "finish soon" effect require ignorance in the form of attachment to the external signal (sign of the goal).
