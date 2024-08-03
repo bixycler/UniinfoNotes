@@ -126,6 +126,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) Trigger: i had a hard time finding back [my post about catenary curve](https://www.facebook.com/share/p/9LfU1A6Mmxo2KTH3/).
 		-
 		- query-table:: false
+		  collapsed:: true
 		  #+BEGIN_QUERY
 		  {:title [:h3 "Other Tasks"]
 		    :query [ 
@@ -209,6 +210,22 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- [!] The issue of love, i.e. emotional attatchment
 		  collapsed:: true
 			- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
+		- [!] Windows 10 (seems from Windows 7) lets its window borders be dragged off the screen!
+		  id:: 66adf2e5-ddde-4ee3-8086-78ce57483837
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-03 Sat 15:30:44]--[2024-08-03 Sat 17:01:02] =>  01:30:18
+		  :END:
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- This is a feature for seamless multi-display settings, but should be across displays next to each other only, not protruding out of visible areas like this.
+				- Sometime we need to _intentionally drag windows partly off the screen_ to leave space for other windows and because we **don't want to resize** that window.
+					- This can be balanced with the normal constraint of windows within screen by edge snapping.
+						- But [Windows Snap](https://support.microsoft.com/en-us/windows/snap-your-windows-885a9b1e-a983-a3b1-16cd-c531795e6241) feature **always resize** the snapped window.
+						- There's an option "When I snap a window, automatically resize it to fill available space", but unchecking it has no effect.
+						  collapsed:: true
+							- ![Windows10-SnapWindow-settings.png](../assets/GUI/Windows/Windows10-SnapWindow-settings.png)
+				- StackOverflow question with negative answer: [Prevent windows from being dragged past the edge of screen](https://stackoverflow.com/questions/44219386/prevent-windows-from-being-dragged-past-the-edge-of-screen)
+				- Someone met the problem of [windows open off screen](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-windows-open-off-screen/0f2432ad-c60d-4bce-808b-3f0c403ce9f2) with no effective solution, too.
 		- [!] The barrier between workspaces ("graphs" in Logseq)
 		  collapsed:: true
 			- In Logseq, ((665fe765-2bb7-4392-9140-10e187f0f208))
@@ -466,7 +483,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- On Saturday night - Sunday early morning, she caught a deep cold while sleeping which brought her from the deep sleep directly back to the waking state.
 				- Because she was to conscious, she didn't think that it was a severe cold.
 				- Throughout Sunday, she had temperature up and down. Then at that night, she reported me that she has used breathwork to cure all pains... except the one pain deep inside her lung is still incurable. So i told her to go to hospital next day.
-			- This Monday (July 29), after image diagnosing, the doctor told us a bad news of ((66ab3ac5-3b81-4a63-bf9b-81118dc1b1c0)). That evening, the [CT scan result](http://qrpacs.bvndgiadinh.org.vn/m.QR/viewer.html) showed us the situation is complicated:
+			- This Monday, July 29th, after image diagnosing, the doctor told us a bad news of ((66ab3ac5-3b81-4a63-bf9b-81118dc1b1c0)). That evening, the [CT scan result](http://qrpacs.bvndgiadinh.org.vn/m.QR/viewer.html) showed us the situation is complicated:
 			  collapsed:: true
 				- a large part of [liquefactive necrosis](https://en.wikipedia.org/wiki/Liquefactive_necrosis) at the top right part of her lung
 				  id:: 66ab3ac5-3b81-4a63-bf9b-81118dc1b1c0
@@ -475,6 +492,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				  collapsed:: true
 					- => observing for lung tumors
 			- This week, she's hospitalized to treat that lug abscess and monitoring the possible tumors.
+			- Today, April 3rd, with the actual scenes in the hospital, i reminded her about "meditation as training dying everyday".
+			  id:: 66ae037f-5757-4a9e-868e-b787cce5d9fe
+			  :LOGBOOK:
+			  CLOCK: [2024-08-03 Sat 17:16:41]--[2024-08-03 Sat 17:21:09] =>  00:04:28
+			  :END:
 		- The end of the theorist karma
 		  collapsed:: true
 		  :LOGBOOK:
@@ -488,3 +510,4 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- Dạo này chắc là giai đoạn cuối của nghiệp lý thuyết của tui: tui bắt đầu không còn muốn formulate những thứ tui thấy nữa, cảm giác không còn thú vị với việc vẽ bản đồ nữa... cảm giác "hãy cứ để mọi người cùng explore sẽ thú vị hơn" ![😊](https://static.xx.fbcdn.net/images/emoji.php/v9/t7f/1/16/1f60a.png)
 				- Hồi đó tui bị nhiễm nặng tư tưởng đại thừa và "khoa học giúp ích mọi người". Đến lúc làm hành giả thì tui đã bỏ tư tưởng đó, tập trung vào giải thoát cho chính mình. Tuy nhiên cả chục năm nay tui vẫn muốn để lại con đường mình đi bằng một cách nào đó để giúp số ít những người cùng khổ (chuyển từ số nhiều, đại, sang số ít, tiểu). Nhưng dạo gần đây tui không những chứng nghiệm cái sướng của vô minh trên người khác mà còn trên chính bản thân mình, nên thấy rõ việc ngày xưa mình muốn "cứu giúp người ta" là tào lao 😂 Mình khổ rồi mình ngoại suy ra người ta khổ 😁 Thôi dẹp! Hãy cứ tận hưởng cái sướng của vô minh, khi nào khổ thì tự khắc phải mò tìm đường giải thoát à. Ông cha mình nói chí phải: 
 				  Đói đầu gối cũng phải bò 😁
+		- ((66adf2e5-ddde-4ee3-8086-78ce57483837))

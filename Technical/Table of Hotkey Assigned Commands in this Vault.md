@@ -1,4 +1,5 @@
-- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This table shows all commands with ((66536710-7441-4fb8-986b-50d2eec762d7)) assigned, with ==custom hotkeys highlighted==, and checks for **duplicates**, using a  `dataviewjs` script (((665374b0-1ed9-420b-afc4-897a942c0be0))) from [Obsidian forum](https://forum.obsidian.md/t/obsidian-commands-hotkeys-and-duplicate-hotkey-assignments/55193).
+- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This table shows all commands with ((66536710-7441-4fb8-986b-50d2eec762d7)) assigned, with ==custom hotkeys highlighted==, and checks for **duplicates**, using a  `dataviewjs` script ( ((665374b0-1ed9-420b-afc4-897a942c0be0))) from [Obsidian forum](https://forum.obsidian.md/t/obsidian-commands-hotkeys-and-duplicate-hotkey-assignments/55193).
+  id:: 66535389-2af3-4fea-a036-e6fe716c995f
 - ### Options
 - ### Result
   

@@ -603,6 +603,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
+			  collapsed:: true
 				- The past [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
 			- #### tree view
@@ -1296,6 +1297,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
 	- ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
+	  id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
+	  collapsed:: true
 	- ## GitHub
 	  id:: 66536662-052f-46a4-a624-38858bffb334
 	  collapsed:: true
@@ -1665,9 +1668,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 667d263b-658b-4560-b8cc-f6838534956d
 				  collapsed:: true
 					- Not renderred correctly:
+					  id:: 6683ea7c-c94f-4970-bcd1-d3b468c32ab7
 					  collapsed:: true
 						- Should be `"Block ref"`: "((667d2689-4ce0-4c79-b82a-25b0bba87d39))"
-						- Should be `(Block ref...)`: (((667d2689-4ce0-4c79-b82a-25b0bba87d39))...).
+						- Should be `(Block ref...)`: ( ((667d2689-4ce0-4c79-b82a-25b0bba87d39))...)
+						  id:: 6683ea7c-a48c-4998-8f2b-40d4d9bc16a9
 						- Should be `<Block ref>`: <((667d2689-4ce0-4c79-b82a-25b0bba87d39))>
 						- Should be `N-Block ref`: N-((667d2689-4ce0-4c79-b82a-25b0bba87d39))
 					- Renderred correctly with standard ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) link syntax:
@@ -1705,14 +1710,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :END:
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
-					- [!] 2 failures in `block-refs-link-to-blocks-that-exist`
-						- [665374b0-1ed9-420b-afc4-897a942c0be0](((665374b0-1ed9-420b-afc4-897a942c0be0))), [667d2689-4ce0-4c79-b82a-25b0bba87d39](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
-						- Log
-							- ```log
-							  FAIL in (block-refs-link-to-blocks-that-exist) (:42)
-							  expected: (empty? (set/difference (set block-refs) (->> (d/q (quote [:find (pull ?b [:block/properties]) :in $ % :where (has-property ?b :id)]) (clojure.core/deref state/db-conn) (vals rules/query-dsl-rules)) (map first) (map (comp :id :block/properties)) set)))
-							    actual: (not (empty? #{"(665374b0-1ed9-420b-afc4-897a942c0be0" "(667d2689-4ce0-4c79-b82a-25b0bba87d39"}))
-							  ```
+					- Verification ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+						- DONE [!] 2 failures in `block-refs-link-to-blocks-that-exist`
+						  :LOGBOOK:
+						  CLOCK: [2024-08-02 Fri 19:00:30]--[2024-08-03 Sat 17:46:43] =>  22:46:13
+						  :END:
+							- Log
+								- ```log
+								  FAIL in (block-refs-link-to-blocks-that-exist) (:42)
+								  expected: (empty? (set/difference (set block-refs) (->> (d/q (quote [:find (pull ?b [:block/properties]) :in $ % :where (has-property ?b :id)]) (clojure.core/deref state/db-conn) (vals rules/query-dsl-rules)) (map first) (map (comp :id :block/properties)) set)))
+								    actual: (not (empty? #{"(665374b0-1ed9-420b-afc4-897a942c0be0" "(667d2689-4ce0-4c79-b82a-25b0bba87d39"}))
+								  ```
+							- [665374b0-1ed9-420b-afc4-897a942c0be0: Bosidian Dataview](((665374b0-1ed9-420b-afc4-897a942c0be0)))
+								- [using a  `dataviewjs` script (Bosidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
+							- [667d2689-4ce0-4c79-b82a-25b0bba87d39: Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
+								- [Should be `(Block ref...)`](((6683ea7c-a48c-4998-8f2b-40d4d9bc16a9))) < ((6683ea7c-c94f-4970-bcd1-d3b468c32ab7)) < ((667d263b-658b-4560-b8cc-f6838534956d))
 			- Sidebar
 			  collapsed:: true
 				- Right sidebar is used as a stack of docs, started from [[Contents]], for column-styled editing in parallel with the main edit pane.
@@ -1750,7 +1762,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- Local server: [localhost:12315](http://localhost:12315)
 				  collapsed:: true
-					- Due to [bug #10337](https://github.com/logseq/logseq/issues/10337), until now (June 2024), `Auto start server` doesn't work.
+					- Due to [bug #10337](https://github.com/logseq/logseq/issues/10337), until now (June 2024), `Auto start server` doesn't work by default.
+						- => We must manually uncheck that option (`API` > `Server configurations` > `Auto start server with the app launched`), restart app, then check to turn that option on again. The next app launch, the API server will be started automatically. Good luck!
 				- Plugin API docs: https://plugins-doc.logseq.com/
 				- The JSON result of query `logseq.Editor.getBlock` is different from `Export graph` > `Export as JSON`.
 					- API returns a bare block with children are just UUIDs, not embedded JSON like in the exported one.
