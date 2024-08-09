@@ -1052,6 +1052,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Abstraction
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Abstraction is the process of abstracting details, i.e. removing details that are irrelevant to the subject's focus, from an object to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)).
+		-
 	- ## projection
 	  id:: 6653769c-3334-46fa-a1d5-4ce6a7fc23e8
 	  collapsed:: true
@@ -1295,6 +1296,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
 	- ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
+	  id:: 66b1cfa4-5be7-40ff-b86f-6eed3685fcb3
 	- ## GitHub
 	  id:: 66536662-052f-46a4-a624-38858bffb334
 	  collapsed:: true
@@ -1651,6 +1653,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2024-06-11 Tue 15:35:08]--[2024-06-11 Tue 15:49:35] =>  00:14:27
 					  :END:
 			- [!] ((66ab12fd-cc14-4789-b70b-48b8b599f9eb)): ((66ab130c-bee8-40e6-aa11-489eb4c34ec4))
+			- [!] Pasting (move or copy) blocks usually mess up the management of ((66610c13-5045-42a8-948f-6426d698fd2c)).
+			  id:: 66b1d45e-f8fa-427c-82aa-197689ee04c5
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-08-06 Tue 14:56:50]--[2024-08-06 Tue 17:36:53] =>  02:40:03
+			  :END:
+				- The pasted block and/or its enclosing blocks have the function `Copy block ref` ineffective.
+					- => A **re-index** is required to clean the mess up.
+					- Seems that after re-indexing, the copy paste does not cause problem anymore.
+				- The pasted block is not reflected well between views.
+					- => Closing & refreshing views usually solve the problem.
+				- The meess seems to be caused by `((block ref))` in the pasted block.
+				- MIME types in clipboard: `web application/logseq`, `text/html`, `text/plain`
+					- Inspect the cut/copied content with [ClipboardRead.html](../assets/HTML/ClipboardRead.html) ( ![src](../assets/HTML/ClipboardRead.html) ).
+				- When pasted from a different graph, some page unrelated to the pasted block is messed up with diff between version on disk and in Logseq memory.
 		- Features & Usage:
 		  collapsed:: true
 			- Block id
@@ -1661,27 +1678,46 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  A block can be referenced/mirrored with block ref synatx `((block-uuid))`.
 				- Block id is a lengthy UUID, which is generated when corresponding block is linked or zoomed in (opened).
 				- Block id is stored as `id::` property in markdown.
-				- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) cannot be prefixed.
-				  id:: 667d263b-658b-4560-b8cc-f6838534956d
-				  collapsed:: true
-					- Not renderred correctly:
-					  id:: 6683ea7c-c94f-4970-bcd1-d3b468c32ab7
+				- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) is not rendered correctly in many cases
+					- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) cannot be prefixed.
+					  id:: 667d263b-658b-4560-b8cc-f6838534956d
 					  collapsed:: true
-						- Should be `"Block ref"`: "((667d2689-4ce0-4c79-b82a-25b0bba87d39))"
-						- Should be `(Block ref...)`: ( ((667d2689-4ce0-4c79-b82a-25b0bba87d39))...)
-						  id:: 6683ea7c-a48c-4998-8f2b-40d4d9bc16a9
-						- Should be `<Block ref>`: <((667d2689-4ce0-4c79-b82a-25b0bba87d39))>
-						- Should be `N-Block ref`: N-((667d2689-4ce0-4c79-b82a-25b0bba87d39))
-					- Renderred correctly with standard ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) link syntax:
+						- Not renderred correctly:
+						  id:: 6683ea7c-c94f-4970-bcd1-d3b468c32ab7
+						  collapsed:: true
+							- Should be `"Block ref"`: "((667d2689-4ce0-4c79-b82a-25b0bba87d39))"
+							- Should be `(Block ref...)`: ( ((667d2689-4ce0-4c79-b82a-25b0bba87d39))...)
+							  id:: 6683ea7c-a48c-4998-8f2b-40d4d9bc16a9
+							- Should be `<Block ref>`: <((667d2689-4ce0-4c79-b82a-25b0bba87d39))>
+							- Should be `N-Block ref`: N-((667d2689-4ce0-4c79-b82a-25b0bba87d39))
+						- Renderred correctly with standard ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) link syntax:
+						  collapsed:: true
+							- Should be `"Block ref"`: "[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))"
+							- Should be `(Block ref...)`: ([Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))...).
+							- Should be `<Block ref>`: <[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))>
+							- Should be `N-Block ref`: N-[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
+						- But ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) can be suffixed with no problems, e.g. ((667d2689-4ce0-4c79-b82a-25b0bba87d39))erence.
+					- in the label of ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) link:
 					  collapsed:: true
-						- Should be `"Block ref"`: "[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))"
-						- Should be `(Block ref...)`: ([Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))...).
-						- Should be `<Block ref>`: <[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))>
-						- Should be `N-Block ref`: N-[Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
-					- But ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) can be suffixed with no problems, e.g. ((667d2689-4ce0-4c79-b82a-25b0bba87d39))erence.
-				- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) is not rendered correctly in the label of ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) link.
-					- Should be `link to Block ref`: [link to ((667d2689-4ce0-4c79-b82a-25b0bba87d39))](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
-					- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) This may stem from the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
+						- Should be `link to Block ref`: [link to ((667d2689-4ce0-4c79-b82a-25b0bba87d39))](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
+						- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) This may stem from the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
+					- inside font formatted span:
+					  collapsed:: true
+						- Should be `bold Block ref ...`: **bold ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...**
+						- Should be `bold Block ref ...`: <b>bold ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...</b>
+						- Should be `italic Block ref ...`: *italic ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...*
+						- Should be `italic Block ref ...`: _italic ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ..._
+						- Should be `italic Block ref ...`: <i>italic ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...</i>
+						- Should be `strikethrough Block ref ...`: ~~strikethrough ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...~~
+						- Should be `strikethrough Block ref ...`: <s>strikethrough ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...</s>
+						- Should be `underlined Block ref ...`: <u>underlined ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...</u>
+						- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) maybe because its not rendered correctly ((66b0aa93-0ae4-416b-9103-16b9b6704ad4))
+					- when enclosed by any HTML tags
+					  id:: 66b0aa93-0ae4-416b-9103-16b9b6704ad4
+					  collapsed:: true
+						- Should be `span Block ref ...`: <span>span ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...</span>
+						- Should be `del Block ref ...`: <del>del ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...</del>
+						- Should be `code Block ref ...`: <code>code ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...</code>
 			- Block title
 			  collapsed:: true
 				- The first line in a block is considered title of that block.
@@ -1702,11 +1738,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Some times, Logseq fails to restore refs, usually due to the pasted block being associated with new id.
 					- Some times, Logseq even hangs when at the cutting step.
 				- => We must always checkpoint with ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) before moving blocks!
-				- DOING => Using the standard ((66acc7cb-c144-4f1f-aaf7-344a0cf40b58)), we should try pushing to GitHub a `[tmp]` commit after each move to make sure that move does not break anything.
+				- ((66b1d45e-f8fa-427c-82aa-197689ee04c5))
+				- DONE => Using the standard ((66acc7cb-c144-4f1f-aaf7-344a0cf40b58)), we should try pushing to GitHub a `[tmp]` commit after each move to make sure that move does not break anything.
 				  id:: 94649b98-9711-4adf-ae25-aaf32b521c14
 				  collapsed:: true
 				  :LOGBOOK:
-				  CLOCK: [2024-08-02 Fri 18:47:42]
+				  CLOCK: [2024-08-02 Fri 18:47:42]--[2024-08-06 Tue 14:43:23] =>  91:55:41
 				  :END:
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
@@ -1725,9 +1762,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- [using a  `dataviewjs` script (Bosidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
 							- [667d2689-4ce0-4c79-b82a-25b0bba87d39: Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
 								- [Should be `(Block ref...)`](((6683ea7c-a48c-4998-8f2b-40d4d9bc16a9))) < ((6683ea7c-c94f-4970-bcd1-d3b468c32ab7)) < ((667d263b-658b-4560-b8cc-f6838534956d))
-						- DOING [!] Info (warning) about re-assigning new id for block `Git` in parsing phase
+							- => Temporarily insert space between open parenthesis and block refs.
+						- DONE [!] Info (warning) about re-assigning new id for block `Git` in parsing phase
 						  :LOGBOOK:
-						  CLOCK: [2024-08-03 Sat 18:00:08]
+						  CLOCK: [2024-08-03 Sat 18:00:08]--[2024-08-09 Fri 18:37:03] =>  144:36:55
 						  :END:
 							- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) `Mind Jungle` > `Git` has been move to [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) but the block `Git` is still kept in `Mind Jungle` 
 							  id:: 66ae1489-c8cd-4341-9b2b-90047434943b
@@ -1754,6 +1792,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  ```
 							- `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
 								- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
+							- => Delete the old `Mind Jungle` > `Git` and add the new one: ((66b1cfa4-5be7-40ff-b86f-6eed3685fcb3))
 			- Sidebar
 			  collapsed:: true
 				- Right sidebar is used as a stack of docs, started from [[Contents]], for column-styled editing in parallel with the main edit pane.
