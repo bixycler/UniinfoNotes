@@ -392,8 +392,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6675369a-1d13-48c5-8a77-d588aa8b59b8
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
-	- ## resource
+	- DOING ## resource
 	  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
+	  :LOGBOOK:
+	  CLOCK: [2024-08-12 Mon 08:38:11]
+	  :END:
+		- Resource = between content & form: crystallized to form, vaporized to content 
+		    = currency = sensor = balancer bringing diff (content) back to sim (form) = energy = action (S) in mechanics = worker = maintainer of self = weaver of form = driver of content = mixer of content & form = constructor of self form & destructor of other form
+		- equilibrium = balance = optimum = least resource consumption = least action (S min) = max entropy = perfect circle **within a view**, not absolutely!!!
+		- all balance will be broken spontaneously = radioactive decay = all circles will be open = intrinsic dynamic
+		- black hole distortion: inside intrinsic static <> outside intrinsic dynamic <=> Zeno arrow paradox
 	- ## self
 	  id:: 667c015e-6223-4f8a-ae84-a93a49f4ff94
 	  collapsed:: true

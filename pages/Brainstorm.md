@@ -274,9 +274,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  collapsed:: true
 		- The good old diagram 😊 ([from Mar 2011](https://docs.google.com/drawings/d/1ki-Zwf4N5KTbGZ5XdGlEOrDyV7SWIYnlPi_uKoblWdA/edit?usp=sharing))
 		  ![Constructive vs Predicative In/extension](https://docs.google.com/drawings/d/e/2PACX-1vRMG3kI6P4QLYvd9uyosDG07EP7TyCkJCGDoydCdoIK2i1SeS5-TJE-b3-w_2S7-F2WF6AiTcCrZaDu/pub?w=575&h=522)
-	- Ways to extend space:
+	- DOING Ways to extend space:
 	  id:: 667d202e-f401-46ba-ab32-c4fd77b49ab1
 	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-12 Mon 09:12:30]
+	  :END:
 		- [extension by time](((667c001e-83b9-4de5-bf81-1c71898340a2))) = $e^t$ = continuous extension vs. extension by combination = $2^n$ (power set, CombiNat) = discrete extension
 		- extension by power set
 		  id:: 667e1011-5dff-46c6-8e1b-85587e2f0e3e
@@ -341,6 +344,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- That plot was added to Wikipedia page of Pascal's triangle at [17:07, 11 March 2011](https://en.wikipedia.org/w/index.php?title=Pascal%27s_triangle&oldid=418321493)‎, but then removed and replaced with the [animation](https://en.wikipedia.org/wiki/Pascal%27s_triangle#/media/File:Pascal's_Triangle_animated_binary_rows.gif).
 				  collapsed:: true
 					- ![Pascal-Triangle-animated-binary-rows.gif](../assets/geometry/Pascal-Triangle-animated-binary-rows.gif)
+		- DOING 3 ways to extend dimensions:
+		  :LOGBOOK:
+		  CLOCK: [2024-08-12 Mon 08:35:03]
+		  :END:
+			- volume: S f'(x)*dx = S dy = 1 => f'(x) _|_ x
+			- radius: (dx)^2 + (dy)^2 + (dz)^2 = 1^2
+			- phase: Sc dx = epsilon (intent) = dy (extent)
+			  + CIfEr: the internal resource circle (intent) rolls against the external object circle (content), the mismatch dy is the further internal sustent circle
 	- mặc cảm
 	  id:: 6684f334-6db2-4e2e-8e03-d62f6ec97364
 	  collapsed:: true
@@ -436,6 +447,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-07-15 Mon 20:28:28]
 	  :END:
 		- With the ((668f5490-c223-4a8a-9cc4-0bd71af4c097))ing mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
+		  id:: 66b1cfa3-93c4-4de3-8904-06fb065ded70
 		- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
 	- Round = uniform = scale invariant = all frequencies = white light = ((669a1bec-3347-4915-83e4-dcffc4d482d1))
 	  id:: 66960ee2-d6dd-404b-a9d0-96340fce3cd2

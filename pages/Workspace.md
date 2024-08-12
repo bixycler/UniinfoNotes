@@ -8,6 +8,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		- ((66ab774d-91d2-4c47-8546-78bb17e7e2bf)) < [](((66ab75a1-f4a0-4bab-a002-8e573546623a)) "description, 'title', notes, or anything else")
+		- ((667d202e-f401-46ba-ab32-c4fd77b49ab1))
+		- ((669f3107-a33a-4b26-a636-6da62fa5520e))
+			- ((669f243f-41b7-4274-b954-9824ec3ac33b))
 		-
 		- ((66ab33e0-7646-4340-bdbc-28d581d1655d))
 		-
@@ -465,3 +468,24 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- Hồi đó tui bị nhiễm nặng tư tưởng đại thừa và "khoa học giúp ích mọi người". Đến lúc làm hành giả thì tui đã bỏ tư tưởng đó, tập trung vào giải thoát cho chính mình. Tuy nhiên cả chục năm nay tui vẫn muốn để lại con đường mình đi bằng một cách nào đó để giúp số ít những người cùng khổ (chuyển từ số nhiều, đại, sang số ít, tiểu). Nhưng dạo gần đây tui không những chứng nghiệm cái sướng của vô minh trên người khác mà còn trên chính bản thân mình, nên thấy rõ việc ngày xưa mình muốn "cứu giúp người ta" là tào lao 😂 Mình khổ rồi mình ngoại suy ra người ta khổ 😁 Thôi dẹp! Hãy cứ tận hưởng cái sướng của vô minh, khi nào khổ thì tự khắc phải mò tìm đường giải thoát à. Ông cha mình nói chí phải: 
 				  Đói đầu gối cũng phải bò 😁
 		- ((66adf2e5-ddde-4ee3-8086-78ce57483837))
+		- DOING From yesterday, 12 August, I've got back to basics to train the "conscious breath throughout the day" with [ujjayi](((66952126-bf33-40e1-a208-369df7aa9488))).
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-13 Tue 14:51:33]
+		  CLOCK: [2024-08-13 Tue 14:51:49]
+		  :END:
+			- fb [comment](https://www.facebook.com/lexuandinhct/posts/pfbid02TMUTwnYQ36FTPd1oAkmzr8z4oKvJwGe965BRh4JXbzZcExYUKJmn8FGPGf8bHvgXl?comment_id=8188161734567562) on the post about Tứ Niệm Xứ
+			- group chat:
+			  collapsed:: true
+				- Back to basics tập "thở xuyên thời gian" vẫn là bài tập cực khó
+				- Hơn 10 năm trước mình tập "ý thức hơi thở suốt ngày" với hơi thở của thiền quán (thở tự nhiên) đã thấy rất khó và hầu như chẳng thấy kết quả gì, chỉ coi như một bài tập tính kiên nhẫn thôi.... Mãi mấy năm sau, khi có duyên test lại mới biết là nó có tác dụng tăng định lực của mình.
+				- Dạo này với yêu cầu của công việc, mình chuyển sang tập hơi thở hành động (ujjayi) để tăng sức định trong công việc. Nhưng cái khó nhứt là làm việc đầu óc, là phải suy nghĩ. Cảnh giới thiền định của mình đó giờ là không suy nghĩ.... giờ vừa phải suy nghĩ trong công việc vừa phải định thì vẫn thấy khó như không tưởng. Tuy nhiên, mình có vision rằng hơi thở ujjayi có thể giúp mình định được trong công việc đầu óc. Thế là tập lại bài "thở có ý thức suốt ngày", vẫn thấy gần như bất khả thi khi cần phải suy nghĩ (làm việc tay chân thì mình đã tập được mấy năm trước rồi)
+				- Qua mỗi món mới thì đều phải đi bằng niềm tin và sự quyết tâm nhẫn nại, ít nhất vài năm mới có kết quả có thể thấy được. Nên nhân dịp này cũng chia sẻ cho ông Hiệp có thêm động lực, đừng vội nản khi "tập hoài chẳng thấy được gì cả"
+				- lục hình lại mới thấy mình tập "thở xuyên thời gian" từ hồi 2013, tức cũng 11 năm trước rồi. Cái chuyến xe đi xuống Nam Du đó tui cứ tập ý thức hơi thở mà khiến bạn tui ganh tị luôn... bạn nào đó có nhớ không nhỉ. Thấm thoắt đã 11 năm rồi, nhanh thiệt 😊
+				  [Nam Du 10/2013](https://www.facebook.com/media/set/?set=a.746897175327572)
+				- rồi từ định trên hơi thở, mình mới tập thiền quán Tứ Niệm Xứ, có oánh dấu bằng bài này đầu năm 2015 nè. Cũng trong năm đó mình xin nghỉ dạy để đưa mẹ lên An Lạc Trang làm vườn và chuyên tu nè 😊
+				  ["Lại nữa, khi đi tới hoặc đi lui, hành giả cũng ý thức rõ ràng về việc ấy; khi nhìn trước hay nhìn sau..."](https://www.facebook.com/share/p/jCwQ6nVAdK4NnT4z/)
+			- DONE Although still very hard to keep it while doing mental works, the first night applying it for physical activities yielded a good result.
+			  :LOGBOOK:
+			  CLOCK: [2024-08-13 Tue 15:25:44]--[2024-08-13 Tue 15:25:47] =>  00:00:03
+			  :END:
