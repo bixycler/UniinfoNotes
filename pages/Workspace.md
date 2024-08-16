@@ -12,7 +12,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- ((669f3107-a33a-4b26-a636-6da62fa5520e))
 			- ((669f243f-41b7-4274-b954-9824ec3ac33b))
 		-
-		- ((66ab33e0-7646-4340-bdbc-28d581d1655d))
 		-
 		-
 		-
@@ -225,8 +224,26 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- Unmindfulness of the illusion of the external signal makes it feel near outside while in fact it's near inside and very far outside. That's because the signal outside is just the image/shadow of the goal inside.
 						  collapsed:: true
 							- This discrepancy forces all of us to chase shadows from life to life.
-				- Export mental loads to "second brains" like ((66536e1b-6466-4153-90d6-583003d99a81)) help keeping mind in ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)), not too heavy to handle, reduce momentum.
-			- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing internal load so that i can switch easier.
+				- ((66b1cfa4-369c-49ec-a461-cdda61633460))
+			- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
+			  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
+			  collapsed:: true
+				- Any new block, even plain text, should be [time tracked](((66b1cfa4-0f03-4da2-b34b-d995d3c888b0))) [with `Ctrl Enter` -> `TODO`](((66b1cfa4-8842-4b3c-876b-e60d4b7fd819))) or [with `Alt Enter` -> `DOING`](((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))).
+				  :LOGBOOK:
+				  CLOCK: [2024-08-15 Thu 16:29:20]
+				  :END:
+				- [!] Too many fragmented non-`DONE` & non-`DOING` works will cost high overhead to reload these works into the mind later on.
+				  :LOGBOOK:
+				  CLOCK: [2024-08-15 Thu 16:29:13]
+				  :END:
+					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Must keep balance between leaving unfinished works and [completing works](((6678d594-9819-4624-abd6-d4ec62b3874f))).
+					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) We should regularly **clean up and reorganize** works so that later accesses will be easier, clearer.
+				- addition = insertion sort
+				  Each addition of new items into a previous work is a step of insertion sort.
+				- access = reorganize
+					- Each access of an old work from a new context reveals a new ((66723642-58f1-4a74-bba3-0108f14c6bac)), new ((667d0b78-fff6-49bc-90d5-165648ed56d3)), hence the old work should be updated to reflect this new view.
+					- When a later access shows any difficulty in understanding or any inconsistency, the old work should be reorganized.
+					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the more accesses to a work, the better organized that work will be.
 		- [!] The issue of love, i.e. emotional attatchment
 		  collapsed:: true
 			- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
@@ -468,24 +485,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- Hồi đó tui bị nhiễm nặng tư tưởng đại thừa và "khoa học giúp ích mọi người". Đến lúc làm hành giả thì tui đã bỏ tư tưởng đó, tập trung vào giải thoát cho chính mình. Tuy nhiên cả chục năm nay tui vẫn muốn để lại con đường mình đi bằng một cách nào đó để giúp số ít những người cùng khổ (chuyển từ số nhiều, đại, sang số ít, tiểu). Nhưng dạo gần đây tui không những chứng nghiệm cái sướng của vô minh trên người khác mà còn trên chính bản thân mình, nên thấy rõ việc ngày xưa mình muốn "cứu giúp người ta" là tào lao 😂 Mình khổ rồi mình ngoại suy ra người ta khổ 😁 Thôi dẹp! Hãy cứ tận hưởng cái sướng của vô minh, khi nào khổ thì tự khắc phải mò tìm đường giải thoát à. Ông cha mình nói chí phải: 
 				  Đói đầu gối cũng phải bò 😁
 		- ((66adf2e5-ddde-4ee3-8086-78ce57483837))
-		- DOING From yesterday, 12 August, I've got back to basics to train the "conscious breath throughout the day" with [ujjayi](((66952126-bf33-40e1-a208-369df7aa9488))).
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2024-08-13 Tue 14:51:33]
-		  CLOCK: [2024-08-13 Tue 14:51:49]
-		  :END:
-			- fb [comment](https://www.facebook.com/lexuandinhct/posts/pfbid02TMUTwnYQ36FTPd1oAkmzr8z4oKvJwGe965BRh4JXbzZcExYUKJmn8FGPGf8bHvgXl?comment_id=8188161734567562) on the post about Tứ Niệm Xứ
-			- group chat:
-			  collapsed:: true
-				- Back to basics tập "thở xuyên thời gian" vẫn là bài tập cực khó
-				- Hơn 10 năm trước mình tập "ý thức hơi thở suốt ngày" với hơi thở của thiền quán (thở tự nhiên) đã thấy rất khó và hầu như chẳng thấy kết quả gì, chỉ coi như một bài tập tính kiên nhẫn thôi.... Mãi mấy năm sau, khi có duyên test lại mới biết là nó có tác dụng tăng định lực của mình.
-				- Dạo này với yêu cầu của công việc, mình chuyển sang tập hơi thở hành động (ujjayi) để tăng sức định trong công việc. Nhưng cái khó nhứt là làm việc đầu óc, là phải suy nghĩ. Cảnh giới thiền định của mình đó giờ là không suy nghĩ.... giờ vừa phải suy nghĩ trong công việc vừa phải định thì vẫn thấy khó như không tưởng. Tuy nhiên, mình có vision rằng hơi thở ujjayi có thể giúp mình định được trong công việc đầu óc. Thế là tập lại bài "thở có ý thức suốt ngày", vẫn thấy gần như bất khả thi khi cần phải suy nghĩ (làm việc tay chân thì mình đã tập được mấy năm trước rồi)
-				- Qua mỗi món mới thì đều phải đi bằng niềm tin và sự quyết tâm nhẫn nại, ít nhất vài năm mới có kết quả có thể thấy được. Nên nhân dịp này cũng chia sẻ cho ông Hiệp có thêm động lực, đừng vội nản khi "tập hoài chẳng thấy được gì cả"
-				- lục hình lại mới thấy mình tập "thở xuyên thời gian" từ hồi 2013, tức cũng 11 năm trước rồi. Cái chuyến xe đi xuống Nam Du đó tui cứ tập ý thức hơi thở mà khiến bạn tui ganh tị luôn... bạn nào đó có nhớ không nhỉ. Thấm thoắt đã 11 năm rồi, nhanh thiệt 😊
-				  [Nam Du 10/2013](https://www.facebook.com/media/set/?set=a.746897175327572)
-				- rồi từ định trên hơi thở, mình mới tập thiền quán Tứ Niệm Xứ, có oánh dấu bằng bài này đầu năm 2015 nè. Cũng trong năm đó mình xin nghỉ dạy để đưa mẹ lên An Lạc Trang làm vườn và chuyên tu nè 😊
-				  ["Lại nữa, khi đi tới hoặc đi lui, hành giả cũng ý thức rõ ràng về việc ấy; khi nhìn trước hay nhìn sau..."](https://www.facebook.com/share/p/jCwQ6nVAdK4NnT4z/)
-			- DONE Although still very hard to keep it while doing mental works, the first night applying it for physical activities yielded a good result.
-			  :LOGBOOK:
-			  CLOCK: [2024-08-13 Tue 15:25:44]--[2024-08-13 Tue 15:25:47] =>  00:00:03
-			  :END:
+		- ((66bb1083-3349-4769-86da-035ec7ef3e89))
+		- ((66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e))
+		-

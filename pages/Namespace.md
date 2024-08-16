@@ -20,11 +20,12 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 			- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532914-003a-4bbb-9e97-6f1c87170d7d))
 		- Discussion:
 		  id:: 665359ff-79f1-4669-b10b-f2b0e633a7c1
+		- References:
+		  id:: 66c33468-23d5-44d7-955e-6711cb608157
 	- Property:
 	  id:: 66600918-67d0-429b-af78-f804ea65d9cc
 		- Form:
 		  id:: 665ca47c-476a-4bef-b982-d9a31a669fb1
-		  collapsed:: true
 			- ((665ca495-93b4-47d4-a022-ce511b021a3d)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 			- form of
 			  id:: 665ca480-5ac8-4728-a331-2f68b48759d1
@@ -49,7 +50,6 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 					  id:: 66600918-3d55-4bad-bd42-4e94708efc5e
 		- to
 		  id:: 665caf87-7dd9-4e9e-9ebc-7df259e7d711
-		  collapsed:: true
 			- ⇒
 			  id:: 66602f68-e23f-4b24-921e-b1a9fc0cc731
 			- So,
@@ -99,5 +99,5 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 666a539d-499f-43c0-8b2e-74818cc3a0f5
 	- Screenshot:
 	  id:: 666a697a-6f40-4749-ab5b-03c82aeda1ee
-	- Example:
+	- Examples:
 	  id:: 66725725-f76a-4328-b162-f469b87e871b

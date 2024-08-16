@@ -40,11 +40,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Bỗng mình thấy lại hình tượng con đĩ nhỏ làm bà mẹ đơn thân ôm cái bụng bầu đi lang thang chẳng nơi nào nhận....
 			- Thế là lần thứ 2 mình trào nước mắt quay lại khóc cho bản thân và những số phận của những cá nhân nhỏ bé (từ khi dậm chưn trên di-văng ở nhà hồi lớp 9 tuyên bố không khóc [tự ái cho bản thân] nữa.)
 				- Lần thứ 1 là đợt em nhập viện mổ ruột thừa, mình ở nhà xem thầy Minh Tuệ xong thì lan qua xem bộ phim tâm lý tình cảm ["Tiếng Sét Trong Mưa"](https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_s%C3%A9t_trong_m%C6%B0a)... và đã khóc ngất cho tất cả những mảnh đời đó, đi tâm hành lại, nhập lại tất cả các vai đó, từ Cậu 3 bạo lực đập đầu con ở tới con ở - mợ 3 Thị Bình, rồi thằng ở đợ Lũ, con ở Hiểm, bà hội đồng, v.v.
-	- DOING Last weekend, my wife caught a cold after some days relaxing, then hospitalized due to [lung abscess](https://en.wikipedia.org/wiki/Lung_abscess).
+	- DONE Last weekend, my wife caught a cold after some days relaxing, then hospitalized due to [lung abscess](https://en.wikipedia.org/wiki/Lung_abscess).
 	  id:: 66ab33e0-7646-4340-bdbc-28d581d1655d
 	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2024-08-01 Thu 15:06:06]
+	  CLOCK: [2024-08-01 Thu 15:06:06]--[2024-08-17 Sat 21:14:35] =>  390:08:29
 	  :END:
 		- Last week, i reminded her about nearly 1 year she has been lost in the unconscious flow, and put some pressure on her to relax and review.
 		  id:: 66ab357a-540a-4330-a5fe-b1a08d06eecc
@@ -69,6 +69,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 		- Today, August 6th, she was subject to a bronchoscopy but she couldn't bear it be cause of the hurt from the nasal anesthetic. The doctors advised her to have it under general anesthesia (unconsciousness) tomorrow.
 		- Today, August 7th, the bronchoscopy has been done successfully to take some liquid sample to the Nam Khoa lab in Q7 to test for tuberculosis.
+		  id:: 66c092d8-24cf-4c65-a845-ac76eb09a663
 		  collapsed:: true
 			- At first, she was still very scared and didn't want to be subject to the procedure.
 			- After sitting & talking with me and the doctor, she accepted it.
@@ -76,7 +77,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- She actively relaxed her respiratory tracts before unconsciousness, and has very mild hurt after the procedure.
 			- The hospital let her go home with no more medicine while waiting for the test result.
 		- August 8th, we went eating [Mikado sushi](https://maps.app.goo.gl/7Hf3c4bwP6C7BVhY9) to celebrate her success yesterday.
-		- TODO August 9th, re-scan with CT...
+		- DONE August 16th, re-scanned with CT -> the images show improvement; the sample testing result shows no tuberculosis infection.
+		  :LOGBOOK:
+		  CLOCK: [2024-08-17 Sat 21:16:33]--[2024-08-17 Sat 21:21:36] =>  00:05:03
+		  :END:
+		  => Doctors prescribed her some lung antibiotics and supplements, and told her to revisit after a month, just like my previous lung imflammation.
 	- Cha Định phá lệ kể về 3 đời Giới - Định - Tuệ
 	  collapsed:: true
 	  :LOGBOOK:
@@ -544,6 +549,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Để diễn tả cái khác cơ bản của đạo với đời, thì tui hay dùng hình tượng "cái đích là chân trời". Người đời thích một cái đích tĩnh, là một cái cột, một ngọn núi. Còn ai cảm nhận được "cái đích là chân trời" thì có thể vững bước trên đường đạo.
 		- Từ chữ "xả" hồi nhỏ nghe qua băng thầy Thanh Từ, tức "xả" trong "từ - bi - hỉ - xả", tới chữ "xả" của lần giác ngộ đầu tiên trong "xả niệm thanh tịnh", qua những thăng trầm, vướng mắc rồi gáo gỡ, từ bỏ rồi tìm lại được chân lý... không biết có gì tương ứng với các bạn nói chung và ông Hiệp nói riêng không?! 😊
 	- Bit-wise negation vs multiple-bit negation vs all-bit negation
+	  id:: 66bd7ee4-6dbb-4563-9fb9-0809ca29407a
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-08-15 Thu 11:08:02]--[2024-08-15 Thu 11:25:18] =>  00:17:16
@@ -600,8 +606,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  
 		  Như bên trên ông gom cả các loại bất lực lại với nhau và coi như chúng "bằng nhau" thì mới sinh ra mâu thuẫn. Sự khác nhau, thậm chí đối lập nhau nằm ở những bit (thuộc tính) khác, không phải ở bit "bất lực".
 		- Nhưng ngặt nỗi, cái phần "vô số bit còn lại" là phần context là background, là thứ by def. đã nằm ngoài khả năng diễn tả của ngôn ngữ, không thể hiểu bằng chữ mà chỉ có thể cảm nhận trực tiếp. Ông đòi hỏi kinh điển phải có context thì cũng đã cố gắng hết sức để có context, là những câu chuyện dài dài xung quanh như "một thời nọ ở làng XXX, đức Thế Tôn  gặp ông YYY.... giảng rằng ZZZ". Nhưng sau hơn 2000 năm thì cái làng XXX đó đã biến mất, ông YYY thì lại càng không thể rõ là như thế nào, chỉ còn lại lời giảng ZZZ thôi. Nên bản chất 1 lời thốt ra, 1 chữ viết xuống đã là abstraction rồi, đã là "lừa dối" rồi, vì nó đã abstract đi vô số bit còn lại. Tất cả những context trong văn bản cũng chỉ là cố gắng lưu lại một chút, chút xíu xiu context thôi, và qua thời gian thì luật Vô thường đã strip off tất cả những context đó.
-		- Đó là kinh, phần kinh nguyên thuỷ toàn là những câu chuyện cụ thể, nhưng qua thời gian nó mất tính cụ thể. Còn phần công án thì lại càng ngược lại nữa. Công án không phải để hiểu, ko phải để biện giải, mà là để phá chấp. Công án đưa ra những vấn đề, những câu hỏi *không có context* để dụ những đầu óc bám chấp nhào vào suy luận, suy diễn, suy đoán, suy suy suy cho tới khi nào suy gan, suy thận, suy não thì đã "bước tới đầu sao trăm thước", lúc ấy, sư phụ chỉ cần tống thêm 1 đạp nữa là đệ tử té lộn cổ rơi xuống, đại tử đại ngộ.
-		- Ngay cái việc sư phụ "tống thêm một đạp" hay "gõ cái cóc" mà đệ tử "đốn ngộ" thì cũng là một công án của thiền tông, vì cả quá trình suy suy suy, cả quá trình leo lên tới "đầu sao trăm thước" của hành giả đó như thế nào thì người ngoài không biết, chỉ biết cái đạp cuối cùng. Rồi có kẻ bắt chước gõ mà gõ tầm bậy tầm bạ, ko đúng lúc đúng điểm huyệt thì có gõ mòn tay, đập mòn gậy cũng không ra được miếng ngộ nào, cùng lắm là ngộ... nhận 😃
+		- Đó là kinh, phần kinh nguyên thuỷ toàn là những câu chuyện cụ thể, nhưng qua thời gian nó mất tính cụ thể. Còn phần công án thì lại càng ngược lại nữa. Công án không phải để hiểu, ko phải để biện giải, mà là để phá chấp. Công án đưa ra những vấn đề, những câu hỏi *không có context* để dụ những đầu óc bám chấp nhào vào suy luận, suy diễn, suy đoán, suy suy suy cho tới khi nào suy gan, suy thận, suy não thì đã "bước tới đầu sào trăm thước", lúc ấy, sư phụ chỉ cần tống thêm 1 đạp nữa là đệ tử té lộn cổ rơi xuống, đại tử đại ngộ.
+		- Ngay cái việc sư phụ "tống thêm một đạp" hay "gõ cái cóc" mà đệ tử "đốn ngộ" thì cũng là một công án của thiền tông, vì cả quá trình suy suy suy, cả quá trình leo lên tới "đầu sào trăm thước" của hành giả đó như thế nào thì người ngoài không biết, chỉ biết cái đạp cuối cùng. Rồi có kẻ bắt chước gõ mà gõ tầm bậy tầm bạ, ko đúng lúc đúng điểm huyệt thì có gõ mòn tay, đập mòn gậy cũng không ra được miếng ngộ nào, cùng lắm là ngộ... nhận 😃
 		- Cái "cóc" cuối cùng đó là "nhát búa giá ngàn đô" này nè:
 		  collapsed:: true
 			- *Sau nhiều ngày trên biển, chiếc tàu chở hàng đột nhiên gặp sự cố.*
@@ -614,3 +620,45 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- *Và, họ nhận lại hóa đơn ghi:*
 				- **Tiền công gõ búa: 2$**
 				- **Tìm ra nơi cần gõ: 9.998$**
+	- IN-PROGRESS From yesterday, 12 August, I've got back to basics to train the "conscious breath throughout the day" with [ujjayi](((66952126-bf33-40e1-a208-369df7aa9488))).
+	  id:: 66bb1083-3349-4769-86da-035ec7ef3e89
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-13 Tue 14:51:33]
+	  CLOCK: [2024-08-13 Tue 14:51:49]
+	  :END:
+		- fb [comment](https://www.facebook.com/lexuandinhct/posts/pfbid02TMUTwnYQ36FTPd1oAkmzr8z4oKvJwGe965BRh4JXbzZcExYUKJmn8FGPGf8bHvgXl?comment_id=8188161734567562) on the post about Tứ Niệm Xứ
+		- group chat:
+		  collapsed:: true
+			- Back to basics tập "thở xuyên thời gian" vẫn là bài tập cực khó
+			- Hơn 10 năm trước mình tập "ý thức hơi thở suốt ngày" với hơi thở của thiền quán (thở tự nhiên) đã thấy rất khó và hầu như chẳng thấy kết quả gì, chỉ coi như một bài tập tính kiên nhẫn thôi.... Mãi mấy năm sau, khi có duyên test lại mới biết là nó có tác dụng tăng định lực của mình.
+			- Dạo này với yêu cầu của công việc, mình chuyển sang tập hơi thở hành động (ujjayi) để tăng sức định trong công việc. Nhưng cái khó nhứt là làm việc đầu óc, là phải suy nghĩ. Cảnh giới thiền định của mình đó giờ là không suy nghĩ.... giờ vừa phải suy nghĩ trong công việc vừa phải định thì vẫn thấy khó như không tưởng. Tuy nhiên, mình có vision rằng hơi thở ujjayi có thể giúp mình định được trong công việc đầu óc. Thế là tập lại bài "thở có ý thức suốt ngày", vẫn thấy gần như bất khả thi khi cần phải suy nghĩ (làm việc tay chân thì mình đã tập được mấy năm trước rồi)
+			- Qua mỗi món mới thì đều phải đi bằng niềm tin và sự quyết tâm nhẫn nại, ít nhất vài năm mới có kết quả có thể thấy được. Nên nhân dịp này cũng chia sẻ cho ông Hiệp có thêm động lực, đừng vội nản khi "tập hoài chẳng thấy được gì cả"
+			- lục hình lại mới thấy mình tập "thở xuyên thời gian" từ hồi 2013, tức cũng 11 năm trước rồi. Cái chuyến xe đi xuống Nam Du đó tui cứ tập ý thức hơi thở mà khiến bạn tui ganh tị luôn... bạn nào đó có nhớ không nhỉ. Thấm thoắt đã 11 năm rồi, nhanh thiệt 😊
+			  [Nam Du 10/2013](https://www.facebook.com/media/set/?set=a.746897175327572)
+			- rồi từ định trên hơi thở, mình mới tập thiền quán Tứ Niệm Xứ, có oánh dấu bằng bài này đầu năm 2015 nè. Cũng trong năm đó mình xin nghỉ dạy để đưa mẹ lên An Lạc Trang làm vườn và chuyên tu nè 😊
+			  ["Lại nữa, khi đi tới hoặc đi lui, hành giả cũng ý thức rõ ràng về việc ấy; khi nhìn trước hay nhìn sau..."](https://www.facebook.com/share/p/jCwQ6nVAdK4NnT4z/)
+		- DONE Although still very hard to keep it while doing mental works, the first night applying it for physical activities yielded a good result.
+		  :LOGBOOK:
+		  CLOCK: [2024-08-13 Tue 15:25:44]--[2024-08-13 Tue 15:25:47] =>  00:00:03
+		  :END:
+		- DONE Still a lot of ups and downs (downs more than ups), but keep trying...
+		  :LOGBOOK:
+		  CLOCK: [2024-08-20 Tue 08:48:31]--[2024-08-20 Tue 08:48:57] =>  00:00:26
+		  :END:
+	- WAIT Today, August 17th, thanks to Ms. Thu, i've known about the [Aimesoft company](https://www.aimesoft.com/multimodalai.html) with ((66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa)).
+	  id:: 66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-17 Sat 21:24:08]
+	  CLOCK: [2024-08-17 Sat 21:24:15]--[2024-08-20 Tue 08:53:17] =>  59:29:02
+	  :END:
+		- This is the company founded by [Dr. Đức](http://www.milresh.com/duc/vn/), a Monbusho friend from Tokyo University.
+			- My friends working there: Thu & Lê are working part-time, Việt is opening a new branch in HCM city.
+			- Đức is also interested in Personal Artificial Intelligence with his contribution of [Personal AI @ Alt Inc.](https://alt.ai/pai_en/)
+			- Before Aimesoft, Đức worked as data scientist at DeNA, at the same department with Tùng.
+			  collapsed:: true
+				- My current company Hybrid Technologies is a subsidiary of Air Trip whose a previous body was DeNA Travel which was rebranded from Air Link... and in our source code we still have the packages `jp.airlink.*` 😊
+		- I'm eager to know if they've done ((66c2ff75-e8fc-452f-be33-6e9b593ba124)) or just combining different unimodal models.
+			- Đức has shown a paper from Aimesoft experimenting with a light-weight multimodal learning: [Multimodal Fusion with BERT and Attention Mechanism for Fake News Detection](https://arxiv.org/abs/2104.11476).
+			- However the product most related to multimodal AI is AI clone (for virtual assistant, virtual lover) is still using simple set of rules instead of multimodal learning.

@@ -4,6 +4,121 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66600918-70a9-49da-ac23-5bfbbf006854
 	-
 	-
+	- ## complex system
+	  id:: 66c30abb-c97b-426b-a1ee-d9f795d18fb2
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-19 Mon 16:05:06]--[2024-08-19 Mon 20:50:10] =>  04:45:04
+	  :END:
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) [complex system](https://en.wikipedia.org/wiki/Complex_system)
+		- emergence
+		  id:: 66c30b69-5b96-4793-bcce-bce51553a454
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) [emergence](https://en.wikipedia.org/wiki/Emergence)
+			- ((66725725-f76a-4328-b162-f469b87e871b)) [bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory) in complex systems, [Broken Neural Scaling Laws](https://en.wikipedia.org/wiki/Neural_scaling_law#Broken_Neural_Scaling_Laws_(BNSL)) in ((66c3000d-51bb-4d1b-b298-0f66304a6e64)), [phase transition](https://en.wikipedia.org/wiki/Phase_transition) in physics, [regime shift](https://en.wikipedia.org/wiki/Regime_shift) in ecosystems, etc.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Negative feedback (hold-back, constraint to linear) vs positive feedback (explode exponentially)
+			- ((66c33468-23d5-44d7-955e-6711cb608157))
+				- [Critical point: Could One Physics Theory Unlock the Mysteries of the Brain?](https://youtu.be/hjGFp7lMi9A)
+				- [Percolation: a Mathematical Phase Transition](https://youtu.be/a-767WnbaCQ)
+	- ## Artificial General Inteligence
+	  id:: 66c2fec4-d5ac-47e6-9109-a3623904dc34
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-19 Mon 15:12:22]--[2024-08-19 Mon 15:24:15] =>  00:11:53
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((e12b7b64-ffdf-4283-8010-03abfc1c99ef))
+		- AGI
+		  id:: e12b7b64-ffdf-4283-8010-03abfc1c99ef
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c2fec4-d5ac-47e6-9109-a3623904dc34))
+	- DOING ## Artificial Inteligence
+	  id:: 66c2fe59-2e41-4273-9171-b78f51a9b18e
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-19 Mon 15:12:22]
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c2fe83-1dd7-4c95-9f33-92249c3e0e86))
+		- AI
+		  id:: 66c2fe83-1dd7-4c95-9f33-92249c3e0e86
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c2fe59-2e41-4273-9171-b78f51a9b18e))
+		- Multimodal AI
+		  id:: 66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa
+		  collapsed:: true
+			- multimodal learning
+			  id:: 66c2ff75-e8fc-452f-be33-6e9b593ba124
+			  collapsed:: true
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) [multimodal learning](https://en.wikipedia.org/wiki/Multimodal_learning)
+			- ((66c33468-23d5-44d7-955e-6711cb608157))
+			  collapsed:: true
+				- blog.roboflow.com: [Multimodal Models and Computer Vision: A Deep Dive](https://blog.roboflow.com/multimodal-models/)
+				- addepto.com/blog: [Multimodal AI Models: Understanding Their Complexity](https://addepto.com/blog/multimodal-ai-models-understanding-their-complexity/)
+				- v7labs.com/blog: [Multimodal Deep Learning: Definition, Examples, Applications](https://www.v7labs.com/blog/multimodal-deep-learning-guide)
+		- Artificial Neural Network
+		  id:: 66c2fff8-94e2-4633-9a37-ee3972e5fd11
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c3000d-51bb-4d1b-b298-0f66304a6e64))
+			- ANN
+			  id:: 66c3000d-51bb-4d1b-b298-0f66304a6e64
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c2fff8-94e2-4633-9a37-ee3972e5fd11))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) [neural network (machine learning)](https://en.wikipedia.org/wiki/Neural_network_(machine_learning))
+			- large language model
+			  id:: 66c30085-818a-411c-be4a-01d40a6c618d
+			  collapsed:: true
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))
+				- LLM
+				  id:: 66c300a9-beb5-4395-ae20-e9bb34ca8aae
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c30085-818a-411c-be4a-01d40a6c618d))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) [large language model](https://en.wikipedia.org/wiki/Large_language_model)
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ...
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				  collapsed:: true
+					- The task to "predict next word from previous context" is the ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))ing of natural language. In order to output the next word, it must understand the previous context, including its own output up to now, and [focus](((66c32936-618a-43d3-b2c8-a254badeb987))) on the current concept related to the word to be output.
+				- attention mechanism
+				  id:: 66c32936-618a-43d3-b2c8-a254badeb987
+				  collapsed:: true
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) [Attention (machine learning)](https://en.wikipedia.org/wiki/Attention_(machine_learning))
+					- ((66c33468-23d5-44d7-955e-6711cb608157))
+						- [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+				- transformer architecture
+				  collapsed:: true
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) [Transformer (deep learning architecture)](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))
+				- [Emergent](((66c30b69-5b96-4793-bcce-bce51553a454))) abilities
+				  collapsed:: true
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the LLM is scaled up to some threshold, there emerge some "breaks" in performance due to [Broken Neural Scaling Laws](https://en.wikipedia.org/wiki/Neural_scaling_law#Broken_Neural_Scaling_Laws_(BNSL)) which is a kind of phase transition (bifurcation) in complex systems. The famous break in LLM like GPT-3 is around the scale of $10^{10}$ parameters.
+						- The bifurcation between correct and incorrect scores around $10^{10}$-parameter scale
+						  ![LLM-bifurcation-periodic_elements_log_probability.png](../assets/AI/LLM/LLM-bifurcation-periodic_elements_log_probability.png)
+					- in-context learning
+					  id:: 66c30a85-66c4-4916-8ea8-1f150e6a246a
+					  is the ability to temporarily "learn" from context in the input (prompt).
+						- ((665359c0-a89a-41b5-9f28-503f79107a08)) [prompt engineering > In-context learning]((https://en.wikipedia.org/wiki/Prompt_engineering#In-context_learning))
+						- The term "learning" is misleading because the model will forget that "lesson" right after the output. Actually it's just the ability to understand the underlying knowledge provided by the context, on the fly, thanks to the large ((66c3189a-7d0f-446a-973e-11c8fdf3412c)) (order of kilo-token). However, it can be actual learning with ((66c320b5-45f6-4e49-a8a0-8e84a4c7f51f)).
+					- generalizability
+					  collapsed:: true
+					  is the ability to generalize the pre-trained knowledge to a broader domain.
+						- ((66c33468-23d5-44d7-955e-6711cb608157))
+							- [Generalization: A Key Ability in Large Language Models](https://promptengineering.org/balancing-memorization-and-generalization-in-large-language-models/#generalization-a-key-ability-in-large-language-models)
+							- [Do Large Language Models Really Generalize? This Paper Says Yes](https://nyudatascience.medium.com/do-large-language-models-really-generalize-this-paper-says-yes-ca99fbb00a44)
+							- [Non-Vacuous Generalization Bounds for Large Language Models](https://arxiv.org/abs/2312.17173)
+							- [Brilliant New Paper: LLM’s can generalize through fine tuning.](https://www.reddit.com/r/singularity/comments/1dmj8t8/brilliant_new_paper_llms_can_generalize_through/)
+					- ((66c33468-23d5-44d7-955e-6711cb608157))
+						- [Emergent Abilities of Large Language Models](https://www.assemblyai.com/blog/emergent-abilities-of-large-language-models/)
+				- context window
+				  id:: 66c3189a-7d0f-446a-973e-11c8fdf3412c
+				  collapsed:: true
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c3189a-7d0f-446a-973e-11c8fdf3412c)) is the [working memory](https://en.wikipedia.org/wiki/Working_memory) of ((66c300a9-beb5-4395-ae20-e9bb34ca8aae)).
+				- fine-tuning
+				  id:: 66c31d1a-1e9c-4c12-acd0-c130c5fd4db2
+				  collapsed:: true
+				  is the technique to train a pre-trained ((66c300a9-beb5-4395-ae20-e9bb34ca8aae)) with a domain-specific datasets under supervised learning. Thanks to ((66c30a85-66c4-4916-8ea8-1f150e6a246a)) ability of the pre-trained model, this training is much cost-effective than the pre-training.
+					- instruction fine-tuning
+					  id:: 66c320b5-45f6-4e49-a8a0-8e84a4c7f51f
+					  is the training technique using prompt as instruction to teach the LLM new knowledge. This method exploits the ((66c30a85-66c4-4916-8ea8-1f150e6a246a)) ability of the pre-trained model.
+					- ((66c33468-23d5-44d7-955e-6711cb608157))
+						- [An Introductory Guide to Fine-Tuning LLMs](https://www.datacamp.com/tutorial/fine-tuning-large-language-models)
+						- [Fine-tuning large language models (LLMs) in 2024](https://www.superannotate.com/blog/llm-fine-tuning)
+				- Chain-of-thought (CoT) prompting
+				  collapsed:: true
+				  is the prompting technique that instruct the ((66c300a9-beb5-4395-ae20-e9bb34ca8aae)) to think step by step, so that it can exploit the knowledge of reasoning in its pre-trained dataset.
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- This technique is also effective in ((66c31d1a-1e9c-4c12-acd0-c130c5fd4db2)): [Exploring Length Generalization in Large Language Models](https://openreview.net/forum?id=zSkYVeX7bC4)
 	- ## Linux
 	  id:: 66949495-3846-4f89-9ea5-c62b624d282c
 	  collapsed:: true
@@ -394,6 +509,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
 	- DOING ## resource
 	  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-08-12 Mon 08:38:11]
 	  :END:
@@ -1009,8 +1125,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- revisit the formless meditation to deal with serious pain (my first application was at the previous serious illness of herpes zoster/zona).
 				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
 				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
-			- ### subtilize
-			- ### purify
+			- DOING ### subtilize
+			  id:: 66aded27-9701-4b6e-85e8-22049ddbe2d2
+			  :LOGBOOK:
+			  CLOCK: [2024-08-17 Sat 19:09:56]
+			  :END:
+			- DOING ### purify
+			  :LOGBOOK:
+			  CLOCK: [2024-08-17 Sat 19:09:59]
+			  :END:
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
@@ -1149,6 +1272,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) can be seen as a sequence of abstract ((667d15b7-6364-49a9-ac58-c64d2a992b63))s, and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply "threads".
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [execution thread](https://en.wikipedia.org/wiki/Thread_(computing)), [conversation thread](https://en.wikipedia.org/wiki/Thread_(online_communication)), [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), [screw thread](https://en.wikipedia.org/wiki/Screw_thread), [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic))
+		  id:: 66b1cfa4-6ce7-447b-b637-30d86f0e748e
 		- Vietnamese: sợi, mạch
 		- ### Ω-thread
 		  id:: 66ab75a1-f4a0-4bab-a002-8e573546623a
@@ -1606,10 +1730,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Other status (`WAIT`, `WAITING`, `IN-PROGRESS`) are hard-coded as just [`task-status` (`marker-cp`)](https://github.com/logseq/logseq/blob/d8c6ca264bdf9a6a0f03c46dbf3509210367624a/src/main/frontend/components/block.cljs#L1879).
 				- Workflow configuration has been [suggested](https://discuss.logseq.com/t/now-next-later-tasks-workflow/3703/6) without response.
 				- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) plugin lets us define custom flow of task status, e.g. `DOING -> TODO ->  WAIT`, but cannot touch the `marker-switch` `TODO <-> DOING`.
-				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) workaround: use `logseq-custom-workflows` in combination with the built-in `marker-switch` (`Ctrl Enter`).
+				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) workaround: use [`logseq-custom-workflows` plugin](((66b1cfa4-31a0-4954-b75e-e0d5c6d1aa72))) in combination with the built-in `marker-switch` (`Ctrl Enter`).
 				  id:: 66602f1d-a572-4fe8-997f-0fae15c6a3de
 				  collapsed:: true
 					- Workflow 1: `(TODO -> WAIT) <-> DOING -> DONE` with `Ctrl Enter` for forward phase and  `Ctrl Shift Enter` for backward phase.
+					  id:: 66b1cfa4-8842-4b3c-876b-e60d4b7fd819
 					  collapsed:: true
 						- Forward: `Ctrl Enter` for plaintext -> `TODO` (planned) -> `DOING` (started, start-time logged) -> `DONE`
 							- Just start without planning: `Alt Enter` for plaintext -> `DOING` (started, start-time logged)
@@ -1620,9 +1745,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Re-backward, and so on...
 						- Finally click checkbox for -> `DONE` (stopped, end-time logged)
 					- Workflow 2: `plaintext <-> DOING` with `Alt Enter` for time tracking of plaintext.
+					  id:: 66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac
 					  collapsed:: true
 						- Each time switching to `DOING` and back to plaintext, a single timestamp (without end-time) is logged into `:LOGBOOK:`.
-					-
 			- [!] Difficult to link file/dir to avoid dupes!
 			  id:: 665fe765-2bb7-4392-9140-10e187f0f208
 			  collapsed:: true
@@ -1823,8 +1948,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- ((66600918-740c-4b67-be6e-5b3bd7535fb7))
 				- A task with status `DOING` will be time tracked in `:LOGBOOK:`.
+				  id:: 66b1cfa4-0f03-4da2-b34b-d995d3c888b0
 					- Switching to `DOING` (clicking `marker-switch` button) marks the start time, then switching to `TODO` (clicking `marker-switch` button) or `DONE` (clicking checkbox) marks the end time.
-					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext.
+					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext. I defined ((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))
 			- [DataScript](https://github.com/tonsky/datascript) Query
 			  id:: 66acc24c-4cd7-4568-8c47-79798fc09433
 			  collapsed:: true
@@ -1897,6 +2023,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- Note: Must **restart Logseq** for installation & settings to take effect.
 			- [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin) lets us define custom flow of task status, e.g. `TODO -> WAIT -> DOING -> DONE`, and show `:LOGBOOK:` in edit mode when using its custom hotkey (`Ctrl Shift Enter`).
+			  id:: 66b1cfa4-31a0-4954-b75e-e0d5c6d1aa72
 			  collapsed:: true
 				- Settings: The workflow change take effect immediately, but the hotkey change requires Logseq restart.
 				- 2 workflows defined: {{embed ((66602f1d-a572-4fe8-997f-0fae15c6a3de))}}
