@@ -15,7 +15,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		- List files changed:
 		  `git {diff,show,log} --{name-{only,status},stat}`
 			- `--name-status` -> `{A,D,M,R}  file-path [new-file-path]` for {Add, Delete, Modify, Rename}
-			- `--stat` -> `[trimmed-]file-path | change-num ++---` with file path trimmed off left side to fit the screen width.
+			- `--stat` -> `[trimmed-]file-path | change-num ++---` with file path trimmed off left side to fit the screen width, and with visually friendly syntax for file rename `{old-dir => new-dir}/{old-filename => new-filename}`.
 		- Push another branch, not the current:   
 		  `git push <repo> <another_branch>`
 		- Force pull: To overwrite this branch with its upstream, from the common base, don't use the misleading `git pull --force` because it's only [`git fetch --force`](https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/#the-other-git-pull-force).  

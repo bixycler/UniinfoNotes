@@ -253,6 +253,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  /usr/bin/ls
 						  /bin/ls
 						  ```
+			- `$-` special variables
+			  collapsed:: true
+				- `$$`: pid of the running shell (script)
+				  id:: 66c6c8e6-54be-4b4f-80a1-c535d429d05c
+				- `$0`: filename of the running shell (script)
+				- arguments to the running shell (script)
+				  collapsed:: true
+					- `$#`: number of arguments
+					- `$*`: all arguments
+					- `$@`: all arguments where each argument is separated via quotation
+					- `$n`: n-th argument
+				- `$?`: exit status of the last command executed
+				- `$!`: pid of the last background command
 			- Command directories
 			  collapsed:: true
 				- Home: `${HOME}/bin`, `${HOME}/.local/bin`
@@ -474,6 +487,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
 								  ...
 								  ```
+		- commands
+			- process handling
+			  collapsed:: true
+				- "pid" := "process ID"
+				- ((66c6c8e6-54be-4b4f-80a1-c535d429d05c))
+				- `pidof`: find the pid of a process via process name.
+				- `pgrep`, `pkill`, `pidwait`:  look up, signal, or wait for processes based on process name pattern and other attributes.
+				- `kill`, `killall`: send a signal (`TERM`, `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid or process name.
+				- `pstree`: display a tree of processes.
+				- `top`: display Linux processes similar to ((66c6bda1-7a64-4832-af2b-906b3beb8927)).
+			- window handling
+			  collapsed:: true
+				- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
+				- `xkill`: kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
+				- `xprop`: display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 		  :LOGBOOK:
@@ -485,7 +513,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Freedesktop.org
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://www.freedesktop.org/wiki/Specifications/
 			- `.desktop` file
+				- installed in `/usr/share/applications/` and `~/.local/share/applications/`
 			- Autostart
+			  id:: 66b1cfa4-1438-4699-9f02-b84075f2a167
+				- `.desktop` files in `~/.config/autostart/`
+				- Startup Applications Preference: app drawer search (`startup`, `applications`)
 			- XDG Base Directory
 			  id:: 66949bc7-a1ae-4da3-b889-efbe35abf56d
 			  :LOGBOOK:
@@ -493,7 +525,87 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) https://wiki.archlinux.org/title/XDG_Base_Directory
 		- ### GNOME Desktop
+		  id:: 66b1cfa4-808f-407c-bf5a-b93812604b5d
+			- GNOME Shell
+			  id:: 66c6b316-ef58-4b86-a6ca-fbf9125dad92
+			  collapsed:: true
+			  `gnome-shell`
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c6b316-ef58-4b86-a6ca-fbf9125dad92)) provides core user interface functions for ((66b1cfa4-808f-407c-bf5a-b93812604b5d)), like switching to windows and launching applications. User interface elements provided by GNOME Shell include the Panel at the top of the screen, the Activities Overview, and Message Tray at the bottom of the screen.
+				- Terminal
+				  id:: 66c6bd7d-c9af-4f64-a65b-f4ff075961bb
+				  `gnome-terminal[-server]`
+				- Nautilus (file browser)
+				  id:: 66c6bd94-76a7-4b80-bf2e-b8af02737af2
+				  `nautilus`
+				- System Monitor
+				  id:: 66c6bda1-7a64-4832-af2b-906b3beb8927
+				  `gnome-system-monitor`
+			- GNOME Extensions
+			  id:: 66c6ae6d-c722-43fa-888c-9b914387294f
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-08-22 Thu 10:47:24]
+			  :END:
+			  `gnome-extensions`
+				- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://extensions.gnome.org/
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c6ae6d-c722-43fa-888c-9b914387294f)) extend ((66c6b316-ef58-4b86-a6ca-fbf9125dad92)). They are managed on the website https://extensions.gnome.org which requires a ((66c6b15d-bbf8-42bd-93c4-fb19c0490264)) to work. The installed extensions can also be configured via ((66c6e677-d0b2-48f7-92da-8a38d8e9bd9c)).
+					- `Extensions` desktop app
+					  id:: 66c6e677-d0b2-48f7-92da-8a38d8e9bd9c
+					  collapsed:: true
+					  `gnome-extensions-app`
+						- app drawer search (`gnome`, `shell`, `extensions`, `app`) > `Extensions` > `Manually Installed` > e.g.(`Smart Auto Move`) > `Settings`
+				- Browser integration
+				  id:: 66c6b15d-bbf8-42bd-93c4-fb19c0490264
+				  collapsed:: true
+					- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://gnome.pages.gitlab.gnome.org/gnome-browser-integration/
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) `gnome-browser-connector` is required for managing ((66c6ae6d-c722-43fa-888c-9b914387294f)).
+				- #### Smart Auto Move
+				  id:: 66c6aef1-998a-45fb-8ad8-8550a008859d
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-08-22 Thu 10:46:49]--[2024-08-22 Thu 18:03:09] =>  07:16:20
+				  :END:
+				  `smart-auto-move@khimaros.com`
+					- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://extensions.gnome.org/extension/4736/smart-auto-move/
+					- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/khimaros/smart-auto-move
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c6aef1-998a-45fb-8ad8-8550a008859d)) learns the position, size, and workspace of your application windows and restores them on subsequent launches. ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)) is supported.
+						- Saved Windows
+						  id:: 66c70945-3ce5-4f95-8cce-1b8a3f2bd464
+						  `saved-windows`
+						  stores the info of opened windows (in the past) which will be restored to a newly opening window only when it matches the saved one via an ((66c709d4-2541-45ba-a3ad-139ea44d9b04)).
+						- override
+						  id:: 66c709d4-2541-45ba-a3ad-139ea44d9b04
+						  `overrides`
+						  defines a matching criteria (`title` or {`any`, `threshold`}) and an action (`1`=`RESTORE` or `0`=`IGNORE`) to be taken when a newly opening window matches a [saved window](((66c70945-3ce5-4f95-8cce-1b8a3f2bd464))). An override can be created by clicking the button `OVERRIDE` or `OVERRIDE (ANY)` in the ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464)) tab.
+					- Config: command `gnome-extensions prefs smart-auto-move@khimaros.com` or via ((66c6e677-d0b2-48f7-92da-8a38d8e9bd9c))
+						- Set `freeze-saves=true` to freeze the ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464)). Whenever we want to update a saved window, just open & close it `freeze-saves`=`true -> false -> true` to get all currently opening windows captured in Saved Windows, then delete all irrelevant ones in the Saved Windows.
+						- Set default `sync-mode='IGNORE'` to ignore irrelevant windows, then manually set ((66c709d4-2541-45ba-a3ad-139ea44d9b04)) `action:1`=`RESTORE` only to the ones we want to restore.
+						- backup config
+						  ```
+						  dconf dump /org/gnome/shell/extensions/smart-auto-move/ > ~/Documents/smart-auto-move.dconf
+						  ```
+						- restore config
+						  ```
+						  dconf load /org/gnome/shell/extensions/smart-auto-move/ < ~/Documents/smart-auto-move.dconf
+						  ```
+						- sample config: [smart-auto-move.dconf](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.dconf) > ![saved-windows](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.saved-windows.json), ![overrides](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.overrides.json)
+					- Settings for ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb))
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Matching terminals is a complicated task, so we must combine ((66c6f1cd-52d3-4606-8f54-08bef7acf4ea)) with ((66c710d9-241d-46b2-8dc1-bf2591492565)) and ((66c70166-889c-419e-8fd0-79d404e63e00)).
+						- autostart `.desktop` files
+						  id:: 66c6f1cd-52d3-4606-8f54-08bef7acf4ea
+							- `~/.config/autostart/gnome-terminal-{1,2}.desktop`: {1st, 2nd} Terminal window on the {left, right}
+							- Exec=`gnome-terminal --window --tab` to create new window with 2 tabs so that the window height includes tab title.
+								- Note that `--title` is ineffective because the title will be overridden right away! So we must rely on [the order of launching](((66c70166-889c-419e-8fd0-79d404e63e00))) instead.
+						- `title` in ((66c709d4-2541-45ba-a3ad-139ea44d9b04))
+						  id:: 66c710d9-241d-46b2-8dc1-bf2591492565
+						  `dinhlx@CPU000375:~` is the title of the startup terminals.
+						- `sequence` in ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464))
+						  id:: 66c70166-889c-419e-8fd0-79d404e63e00
+						  the order of launching determines which terminal to be placed where.
 		- ### Wayland
+		  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
+			- [XWayland](https://wayland.freedesktop.org/xserver.html)
+			  id:: 66c6cd8c-5367-4ae4-a76c-970732c2aebb
 	- ## ItelliJ
 	  collapsed:: true
 		- Settings
@@ -2228,6 +2340,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Templates and slots](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots)
 		- ### CSS
 			-
+	- ## Google Chrome
+	  :LOGBOOK:
+	  CLOCK: [2024-08-22 Thu 18:44:04]
+	  :END:
+		- Disable automatic update
+			- Use command switch `--simulate-outdated='Tue, 31 Dec 2099 23:59:59 GMT'` to simulates that it will be out of date in the far future.
+				- On my machine, i just add this switch to the ((66b1cfa4-1438-4699-9f02-b84075f2a167)) `.desktop` and leave the system `.desktop` untouched.
+				- other switches in [chrome_switches.cc](https://chromium.googlesource.com/chromium/src/+/HEAD/chrome/common/chrome_switches.cc)
+				  collapsed:: true
+					- `--simulate-outdated`: Simulates that current version is outdated.
+					- `--simulate-outdated-no-au`: Simulates that current version is outdated and auto-update is off.
+					- `--simulate-upgrade`: Simulates an update being available.
+			- [Old technique for Linux](https://support.google.com/chrome/a/answer/9052345) which has been ineffective: edit `/etc/default/google-chrome`
+				- ```
+				  repo_add_once="false"
+				  repo_reenable_on_distupgrade="true"
+				  ```
 	- ## Vacancy
 	  id:: 66600918-9f92-4730-b056-c2cd87a742aa
 	  collapsed:: true

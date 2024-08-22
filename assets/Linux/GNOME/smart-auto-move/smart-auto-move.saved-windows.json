@@ -1,0 +1,72 @@
+{
+  "gnome-terminal-server": [
+    {
+      "id": 2911641721,
+      "hash": 2911641721,
+      "sequence": 2,
+      "title": "dinhlx@CPU000375:~",
+      "workspace": 0,
+      "maximized": 0,
+      "fullscreen": false,
+      "above": false,
+      "monitor": 1,
+      "x": 1006,
+      "y": 288,
+      "width": 914,
+      "height": 792,
+      "occupied": true
+    },
+    {
+      "id": 2911641722,
+      "hash": 2911641722,
+      "sequence": 3,
+      "title": "dinhlx@CPU000375:~",
+      "workspace": 0,
+      "maximized": 0,
+      "fullscreen": false,
+      "above": false,
+      "monitor": 1,
+      "x": 0,
+      "y": 288,
+      "width": 914,
+      "height": 792,
+      "occupied": true
+    }
+  ],
+  "org.gnome.Nautilus": [
+    {
+      "id": 2911641723,
+      "hash": 2911641723,
+      "sequence": 4,
+      "title": "Home",
+      "workspace": 0,
+      "maximized": 0,
+      "fullscreen": false,
+      "above": false,
+      "monitor": 0,
+      "x": 2248,
+      "y": 27,
+      "width": 890,
+      "height": 550,
+      "occupied": true
+    }
+  ],
+  "gnome-system-monitor": [
+    {
+      "id": 2911641731,
+      "hash": 2911641731,
+      "sequence": 5,
+      "title": "System Monitor",
+      "workspace": 0,
+      "maximized": 0,
+      "fullscreen": false,
+      "above": false,
+      "monitor": 0,
+      "x": 3140,
+      "y": 27,
+      "width": 700,
+      "height": 744,
+      "occupied": true
+    }
+  ]
+}
