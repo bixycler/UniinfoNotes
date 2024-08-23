@@ -274,11 +274,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  collapsed:: true
 		- The good old diagram 😊 ([from Mar 2011](https://docs.google.com/drawings/d/1ki-Zwf4N5KTbGZ5XdGlEOrDyV7SWIYnlPi_uKoblWdA/edit?usp=sharing))
 		  ![Constructive vs Predicative In/extension](https://docs.google.com/drawings/d/e/2PACX-1vRMG3kI6P4QLYvd9uyosDG07EP7TyCkJCGDoydCdoIK2i1SeS5-TJE-b3-w_2S7-F2WF6AiTcCrZaDu/pub?w=575&h=522)
-	- DOING Ways to extend space:
+	- WAIT Ways to extend space:
 	  id:: 667d202e-f401-46ba-ab32-c4fd77b49ab1
 	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2024-08-12 Mon 09:12:30]
+	  CLOCK: [2024-08-12 Mon 09:12:30]--[2024-08-23 Fri 09:45:45] =>  264:33:15
 	  :END:
 		- [extension by time](((667c001e-83b9-4de5-bf81-1c71898340a2))) = $e^t$ = continuous extension vs. extension by combination = $2^n$ (power set, CombiNat) = discrete extension
 		- extension by power set
@@ -300,7 +300,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- constant velocity of light = constant sum of squares 
 		  id:: 667e0e4b-9f87-45b5-adb1-297b79943502
 		  => distortion (from [perfect circle](((6667c99a-792f-4230-9fc6-c5fae874daef)))) = extending to other dimensions
-			- Radius of circle = height of tree 🎄 = intension = log(intent) = articulated limb = const length loop collapsed into a polyline
+			- Radius of circle = height of tree 🎄 = digit sequence = intension = log(intent) = articulated limb = dimensions of space = orders of derivatives = independent layers in holographic world = sequence of self circles = const length loop collapsed into a polyline
 			  id:: 66875f13-3385-48d5-99b1-fb72dc53291d
 			  collapsed:: true
 				- each segment = a level of diff (derivative) = a digit of number
@@ -416,19 +416,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- This connection pulverizes the great self into smaller selves, divides the intent to multiply the extent, and effectively entends the space.
 			- The imaginary space inside is the space of possibility created by each self.
-	- DOING "one body one way"
+	- "one body one way"
 	  id:: 668f52e2-2935-4980-bdbb-04a54d9288d9
 	  :LOGBOOK:
 	  CLOCK: [2024-07-11 Thu 10:35:03]
 	  CLOCK: [2024-07-11 Thu 10:35:37]
 	  :END:
 	  "đơn thân độc đạo", "một chiếc xe một con đường"
-	- DOING The role of circle refinement and of sublimation - channeling
+	- WAIT The role of circle refinement and of sublimation - channeling
 	  id:: 669a58b8-5018-4d00-abf9-3e69d36897d5
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-07-11 Thu 10:36:24]
-	  CLOCK: [2024-07-11 Thu 10:40:07]
+	  CLOCK: [2024-07-11 Thu 10:40:07]--[2024-08-23 Fri 09:46:09] =>  1031:06:02
 	  :END:
 		- circle refinement
 		  collapsed:: true
@@ -513,3 +513,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  => When we pulverize the memory into each cell, each breath seeing the whole life, we can charge in one breath
 		- (ujjayi) breath is the thread connecting the "blind doer" with the "inactive seer", the back link "act -> stop"
 		- training = abstract mirroring = emotion: reward & punishment = abstraction of pro & cons pathways in the environment = affection & aversion
+	- mechanical = one-way effect flow "bottom up"= one-way static constraint "top down" <> biological = two/all-way effect & constraint spreading wave = deep & broad learning = imprinting/memorizing to all parties
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-23 Fri 10:10:25]
+	  :END:
+		- observe = upward/inward effect
+		- operate = downward/outward effect
+		- self = constant inner most circle = the unchanged program of the Mecha = the top boss <> selfless = no circle is constant = all circles change = impermanent = no attachment
+		- radius = constraint arrow <> arc = effect arrow
+			- constraint flow = input & invocation from center out <> effect flow = output return from circumference in
+	- Absolute vs relative = amount ⭕️ lượng vs direction ⬆️ tính chất = form vs content = extent vs intent = norm vs abnorm = modulus/correct vs remainder/diff/error
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-23 Fri 10:11:43]
+	  :END:
+		- direction = sub-amount (angle, tính) + dimension (basis, chất)
+		- magnitude (external amount) = sub-amount angle projected out (up to ♾️) via projective geometry (stereographic projection) =  angle projected into a sub-space (up to c) via vector scalar product (radius parallel projection)
+		- angle is a circular number = abnorm vs norm = linear number
+		- CIE: content (tính, nature, property) - intent (chất, substance) - extent (lượng, amount, quantity); quality (tính chất) = property (tính) + substance (chất)
+		- Chat with Gemini: [Absolute vs relative = amount ⭕ vs direction ⬆️](https://g.co/gemini/share/355ff13f7f19)

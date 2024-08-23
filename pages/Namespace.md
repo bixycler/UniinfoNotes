@@ -4,7 +4,6 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 66600918-a37f-46cb-810e-837aa5e89771
 		- Name:
 		  id:: 665ca48e-f7c1-4541-b5cf-486d86b02997
-		  collapsed:: true
 			- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((665cab38-f8e8-472e-b0a1-60776d492835))
 			- name of
 			  id:: 665ca495-93b4-47d4-a022-ce511b021a3d
@@ -14,6 +13,18 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 				  id:: 665c9af1-1ce2-461c-af33-671690618c8f
 			- Etymology:
 			  id:: 669a1e5f-734c-41c1-bf1c-21813b6e81d8
+			- Noun:
+			  id:: 66c80d5c-181f-4f06-a285-0624a65e9951
+				- noun of
+				  id:: 66c80dde-a097-4744-8af8-c6e26dcfdda2
+			- Verb:
+			  id:: 66c80da7-c0e8-46d2-85e5-71318fd44eff
+				- verb of
+				  id:: 66c80dfd-95e2-4b5a-bd56-06e8307e81ca
+			- Adjective:
+			  id:: 66c80da9-4cfb-4de7-b83d-8b70665207bf
+				- adjective of
+				  id:: 66c80e01-002b-42ae-9c60-49bf3fc6e159
 		- Description:
 		  id:: 6651ecba-793d-43c5-8020-a9f260b032d8
 		  collapsed:: true

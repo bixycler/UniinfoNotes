@@ -40,11 +40,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Bỗng mình thấy lại hình tượng con đĩ nhỏ làm bà mẹ đơn thân ôm cái bụng bầu đi lang thang chẳng nơi nào nhận....
 			- Thế là lần thứ 2 mình trào nước mắt quay lại khóc cho bản thân và những số phận của những cá nhân nhỏ bé (từ khi dậm chưn trên di-văng ở nhà hồi lớp 9 tuyên bố không khóc [tự ái cho bản thân] nữa.)
 				- Lần thứ 1 là đợt em nhập viện mổ ruột thừa, mình ở nhà xem thầy Minh Tuệ xong thì lan qua xem bộ phim tâm lý tình cảm ["Tiếng Sét Trong Mưa"](https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_s%C3%A9t_trong_m%C6%B0a)... và đã khóc ngất cho tất cả những mảnh đời đó, đi tâm hành lại, nhập lại tất cả các vai đó, từ Cậu 3 bạo lực đập đầu con ở tới con ở - mợ 3 Thị Bình, rồi thằng ở đợ Lũ, con ở Hiểm, bà hội đồng, v.v.
-	- DONE Last weekend, my wife caught a cold after some days relaxing, then hospitalized due to [lung abscess](https://en.wikipedia.org/wiki/Lung_abscess).
+	- DOING Last weekend, my wife caught a cold after some days relaxing, then hospitalized due to [lung abscess](https://en.wikipedia.org/wiki/Lung_abscess).
 	  id:: 66ab33e0-7646-4340-bdbc-28d581d1655d
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-08-01 Thu 15:06:06]--[2024-08-17 Sat 21:14:35] =>  390:08:29
+	  CLOCK: [2024-08-23 Fri 09:36:17]
 	  :END:
 		- Last week, i reminded her about nearly 1 year she has been lost in the unconscious flow, and put some pressure on her to relax and review.
 		  id:: 66ab357a-540a-4330-a5fe-b1a08d06eecc
@@ -82,6 +83,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2024-08-17 Sat 21:16:33]--[2024-08-17 Sat 21:21:36] =>  00:05:03
 		  :END:
 		  => Doctors prescribed her some lung antibiotics and supplements, and told her to revisit after a month, just like my previous lung imflammation.
+		- DOING August 22nd, re-testing the sample, now tuberculosis infection has been found!
+		  :LOGBOOK:
+		  CLOCK: [2024-08-23 Fri 09:36:50]
+		  CLOCK: [2024-08-23 Fri 09:36:52]
+		  :END:
+			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) vitsit Phạm Ngọc Thạch hospital to get medicines.
 	- Cha Định phá lệ kể về 3 đời Giới - Định - Tuệ
 	  collapsed:: true
 	  :LOGBOOK:
@@ -620,6 +627,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- *Và, họ nhận lại hóa đơn ghi:*
 				- **Tiền công gõ búa: 2$**
 				- **Tìm ra nơi cần gõ: 9.998$**
+	- The end of the theorist karma
+	  id:: 66ab4281-68c2-4752-8a76-aede265449b6
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-01 Thu 15:08:34]
+	  CLOCK: [2024-08-01 Thu 15:09:41]
+	  CLOCK: [2024-08-01 Thu 15:10:15]--[2024-08-01 Thu 15:14:14] =>  00:03:59
+	  :END:
+		- Through tantric practice, tonight i discovered the middle way between "exploring the whole space = let it loose" and "staying in one place = hold it on". It's the straight arrow cutting through all layers of derivatives right to the target. However i don't want to formulate this shortcut and don't want to publish it. Because this shortcut is prone to be abused, it's preserved for emergency use only.
+		- Chat with Huy:
+		  collapsed:: true
+			- Dạo này chắc là giai đoạn cuối của nghiệp lý thuyết của tui: tui bắt đầu không còn muốn formulate những thứ tui thấy nữa, cảm giác không còn thú vị với việc vẽ bản đồ nữa... cảm giác "hãy cứ để mọi người cùng explore sẽ thú vị hơn" ![😊](https://static.xx.fbcdn.net/images/emoji.php/v9/t7f/1/16/1f60a.png)
+			- Hồi đó tui bị nhiễm nặng tư tưởng đại thừa và "khoa học giúp ích mọi người". Đến lúc làm hành giả thì tui đã bỏ tư tưởng đó, tập trung vào giải thoát cho chính mình. Tuy nhiên cả chục năm nay tui vẫn muốn để lại con đường mình đi bằng một cách nào đó để giúp số ít những người cùng khổ (chuyển từ số nhiều, đại, sang số ít, tiểu). Nhưng dạo gần đây tui không những chứng nghiệm cái sướng của vô minh trên người khác mà còn trên chính bản thân mình, nên thấy rõ việc ngày xưa mình muốn "cứu giúp người ta" là tào lao 😂 Mình khổ rồi mình ngoại suy ra người ta khổ 😁 Thôi dẹp! Hãy cứ tận hưởng cái sướng của vô minh, khi nào khổ thì tự khắc phải mò tìm đường giải thoát à. Ông cha mình nói chí phải: 
+			  Đói đầu gối cũng phải bò 😁
 	- IN-PROGRESS From yesterday, 12 August, I've got back to basics to train the "conscious breath throughout the day" with [ujjayi](((66952126-bf33-40e1-a208-369df7aa9488))).
 	  id:: 66bb1083-3349-4769-86da-035ec7ef3e89
 	  collapsed:: true
@@ -662,3 +683,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- I'm eager to know if they've done ((66c2ff75-e8fc-452f-be33-6e9b593ba124)) or just combining different unimodal models.
 			- Đức has shown a paper from Aimesoft experimenting with a light-weight multimodal learning: [Multimodal Fusion with BERT and Attention Mechanism for Fake News Detection](https://arxiv.org/abs/2104.11476).
 			- However the product most related to multimodal AI is AI clone (for virtual assistant, virtual lover) is still using simple set of rules instead of multimodal learning.
+	- I'm practicing clean-room method of mental works with ujjayi
+	  id:: 66c7f663-6ff0-4a6c-a5b4-99b3848a94db
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-15 Thu 09:39:36]
+	  :END:
+		- [cleanroom software engineering](https://en.wikipedia.org/wiki/Cleanroom_software_engineering)
+		- [cleanroom](https://en.wikipedia.org/wiki/Cleanroom)
+	- Tonight, my tantric practice shows the art of non-forcing: 
+	  id:: 66c7feaa-db1e-40ef-917d-be2a6efacdde
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-23 Fri 10:14:53]
+	  CLOCK: [2024-08-23 Fri 10:14:54]
+	  :END:
+	  Selfless = pure reflection of the object = no subjective force ~ scale relative = sensitive & adaptive to all scales --> contact down to the epsilon scale, seems to crease but actually still in touch, hence magical!
+		- the focus/concentration/samadhi increases sensitivity & fineness
+		- when the lower limit is coarse, the subject is insensitive
+			- => forcing if following the subjective experience
+			- => Non-forcing if withdrawing at the right time. The remaining fraction (finer than the limit) will be left in the emotion/feeling, just observe it to subtilize the limit with breath.

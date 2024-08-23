@@ -7,6 +7,17 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
+		- DOING symbols for ((66c8941d-6427-4e5c-9009-3af349500d7b))
+		  :LOGBOOK:
+		  CLOCK: [2024-08-23 Fri 12:16:21]
+		  CLOCK: [2024-08-23 Fri 12:16:24]
+		  :END:
+		- DOING view, projection, effect flow via wave propagation across a ((66c810a0-9861-4787-bdcf-1378219332be))
+		  :LOGBOOK:
+		  CLOCK: [2024-08-23 Fri 12:16:32]
+		  CLOCK: [2024-08-23 Fri 12:16:43]
+		  :END:
+		-
 		- ((66ab774d-91d2-4c47-8546-78bb17e7e2bf)) < [](((66ab75a1-f4a0-4bab-a002-8e573546623a)) "description, 'title', notes, or anything else")
 		- ((667d202e-f401-46ba-ab32-c4fd77b49ab1))
 		- ((669f3107-a33a-4b26-a636-6da62fa5520e))
@@ -470,21 +481,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :END:
 		- ((66ab33e0-7646-4340-bdbc-28d581d1655d))
 		  id:: 66b1c109-cf4f-4595-ac53-4102cd644505
-		- The end of the theorist karma
-		  id:: 66ab4281-68c2-4752-8a76-aede265449b6
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2024-08-01 Thu 15:08:34]
-		  CLOCK: [2024-08-01 Thu 15:09:41]
-		  CLOCK: [2024-08-01 Thu 15:10:15]--[2024-08-01 Thu 15:14:14] =>  00:03:59
-		  :END:
-			- Through tantric practice, tonight i discovered the middle way between "exploring the whole space = let it loose" and "staying in one place = hold it on". It's the straight arrow cutting through all layers of derivatives right to the target. However i don't want to formulate this shortcut and don't want to publish it. Because this shortcut is prone to be abused, it's preserved for emergency use only.
-			- Chat with Huy:
-			  collapsed:: true
-				- Dạo này chắc là giai đoạn cuối của nghiệp lý thuyết của tui: tui bắt đầu không còn muốn formulate những thứ tui thấy nữa, cảm giác không còn thú vị với việc vẽ bản đồ nữa... cảm giác "hãy cứ để mọi người cùng explore sẽ thú vị hơn" ![😊](https://static.xx.fbcdn.net/images/emoji.php/v9/t7f/1/16/1f60a.png)
-				- Hồi đó tui bị nhiễm nặng tư tưởng đại thừa và "khoa học giúp ích mọi người". Đến lúc làm hành giả thì tui đã bỏ tư tưởng đó, tập trung vào giải thoát cho chính mình. Tuy nhiên cả chục năm nay tui vẫn muốn để lại con đường mình đi bằng một cách nào đó để giúp số ít những người cùng khổ (chuyển từ số nhiều, đại, sang số ít, tiểu). Nhưng dạo gần đây tui không những chứng nghiệm cái sướng của vô minh trên người khác mà còn trên chính bản thân mình, nên thấy rõ việc ngày xưa mình muốn "cứu giúp người ta" là tào lao 😂 Mình khổ rồi mình ngoại suy ra người ta khổ 😁 Thôi dẹp! Hãy cứ tận hưởng cái sướng của vô minh, khi nào khổ thì tự khắc phải mò tìm đường giải thoát à. Ông cha mình nói chí phải: 
-				  Đói đầu gối cũng phải bò 😁
+		- ((66ab4281-68c2-4752-8a76-aede265449b6))
 		- ((66adf2e5-ddde-4ee3-8086-78ce57483837))
 		- ((66bb1083-3349-4769-86da-035ec7ef3e89))
 		- ((66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e))
-		-
+		- ((66c7f663-6ff0-4a6c-a5b4-99b3848a94db))
+		- ((66c7feaa-db1e-40ef-917d-be2a6efacdde))

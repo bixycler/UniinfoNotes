@@ -633,17 +633,72 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## self
 	  id:: 667c015e-6223-4f8a-ae84-a93a49f4ff94
 	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) from that subject to itself. This circle can be extended to the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the "I", or can be ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))ed to the pure ((669a2697-56af-445c-9197-24aa498a5d5b)) within the subject, i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)), the "soul", the "spirit" in contrast to the ((66c810a0-9861-4787-bdcf-1378219332be)).
 		- ### self circle
 		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the shape of all ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), so when referring to the body of a self, we call it ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as belonging to itself.
+		- ### self-essence
+		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) svabhāva, 自性
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c8772a-9b29-45b0-b169-2fa847333e02)) is the pure ((669a2697-56af-445c-9197-24aa498a5d5b)) within the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). Self-essence is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) which cannot be seen directly and can only be felt indirectly via reflection.
 	- ## subject
 	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
+	  collapsed:: true
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
+		- subjective
+		  id:: 66c88055-a994-4e59-a7dc-83f3331a6e1d
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a thing is ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) when it's dependent on an individual subject.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
 	- ## object
 	  id:: 667cfa42-ade7-4310-9a7b-6d14d01c16da
+	  collapsed:: true
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c82f42-16bb-4886-a32b-5c246187cfee))
+		- objective
+		  id:: 66c82f42-16bb-4886-a32b-5c246187cfee
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa42-ade7-4310-9a7b-6d14d01c16da))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a thing is ((66c82f42-16bb-4886-a32b-5c246187cfee)) when it's independent from individual subjects.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is a thing that is ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))n by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), which may be another subject. The same object can be seen as many different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s by different subjects, which are called ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) images. The common of these forms is the ((66c82f42-16bb-4886-a32b-5c246187cfee)) image of the object.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) can only directly see the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an object. All other properties like ((66727858-979d-4d95-8a90-7a749218cfba)) and/or ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that object, the subject must infer from the collections of the seen forms then attribute to the object.
+	- ## body
+	  id:: 66c810a0-9861-4787-bdcf-1378219332be
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-23 Fri 11:31:32]
+	  :END:
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c810a0-9861-4787-bdcf-1378219332be)) is the thing that is ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))n by the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) when it looks at itself. Basically, body of a subject is just an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of that subject where the ability to see is abstracted. In modern science, body means the matter, the material/physical part of the subject, but in ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), body also includes all information of the subject, e.g. [body of knowledge](https://en.wikipedia.org/wiki/Body_of_knowledge), [text corpus](https://en.wikipedia.org/wiki/Text_corpus).
 	- ## particle
 	  id:: 667d162c-16cf-44d3-81a5-29b1b885164f
 	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c80fad-4e06-449c-9d63-00f906601b06))
+		- corpuscle
+		  id:: 66c80fad-4e06-449c-9d63-00f906601b06
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667d162c-16cf-44d3-81a5-29b1b885164f))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d162c-16cf-44d3-81a5-29b1b885164f)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)).
+		- ((66725725-f76a-4328-b162-f469b87e871b)) [particles](https://en.wikipedia.org/wiki/Particle) in [physics](https://en.wikipedia.org/wiki/Physics), [material point](https://en.wikipedia.org/wiki/Material_point_method) in [computational mechanics](https://en.wikipedia.org/wiki/Computational_mechanics), corpuscle (corpuscule) in [corpuscularism](https://en.wikipedia.org/wiki/Corpuscularianism)
+		- About the terms
+			- "particle" was originally just a small part as opposed to the larger whole. However, scaling smaller and smaller, the [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) turn out to be the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))s. This ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60)) between the whole and the parts is captured well by the concept of ((667d162c-16cf-44d3-81a5-29b1b885164f)).
+			- "corpusc[u]le", as a small body (corpus), is nearer to the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) than the term "particle".
+	- ## whole
+	  id:: 66c8046e-c5fe-4f27-b3cf-40f5f39b646b
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-23 Fri 10:39:31]
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c87463-4f07-420a-b12e-f456154f7dc8))
+		- totality
+		  id:: 66c87463-4f07-420a-b12e-f456154f7dc8
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a [perfect circle](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))). That means a whole is a perfect ((667d162c-16cf-44d3-81a5-29b1b885164f)).
+		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
+	- ## complement
+	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-23 Fri 20:52:50]
+	  :END:
+		-
 	- ## vector
 	  id:: 667d16f8-206e-4a85-80f3-24c2aa1bf4ad
 	  collapsed:: true
@@ -670,12 +725,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  of an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is the part connecting the ((669e007d-7336-4010-be08-e54e962eae2e)) and ((669de25b-a52b-4eed-99a0-4ba86b9ee5ea)).
 				- In many theories (maths & informatics), only the abstract body is used as an "arrow", e.g. function, morphism, mapping, etc.
 		- ((66725725-f76a-4328-b162-f469b87e871b))
-		  collapsed:: true
 			- source → target: morphism
 			  id:: 669df777-8863-439f-8a0a-7b95a8e2bba5
 			- source → sink: flow
 			- source → destination: transportation
-			- object → image: projection
+			- object → image: ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
 			- domain → range: mapping
 			- input → output: function, process
 	- ## circle
@@ -732,11 +786,25 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
 			- ((668d0046-6d0f-4af9-8a2a-c446084a5f1f))
 			- ((669a58b8-5018-4d00-abf9-3e69d36897d5))
+			- DOING round = divisible = reached GCD (unit) = distributed content (change) to all digits = equilibrium = reached Mecha/Turing machine (from bio, uninet)
+			  :LOGBOOK:
+			  CLOCK: [2024-08-23 Fri 10:05:07]
+			  :END:
 		- equanimity
 		  id:: 669a3da2-1e6c-48bd-950f-af1ea1ceda25
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Equanimity
 			- Buddhism: [upekṣā](https://en.wikipedia.org/wiki/Upek%E1%B9%A3%C4%81), [xả](https://vi.wikipedia.org/wiki/Bu%C3%B4ng_x%E1%BA%A3)
 			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) equanimity = equal + mind
+	- ## relative
+	  id:: 66c80cbf-6626-4cb7-9b58-8ac3396e03da
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-23 Fri 11:15:34]
+	  :END:
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60))
+		- relativity
+		  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
 	  collapsed:: true
@@ -760,6 +828,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Due to [complementarity](((667bf653-a1ea-4a02-8669-a1a70901e9c3))), in space, there's a ((667bf520-a80c-4b6d-98d8-1f71cae6fb56)) for each ((667bf36a-581a-4abe-b544-2d849608a3e4)).
 				- A subject guides its ((66727858-979d-4d95-8a90-7a749218cfba))s via its self-positioning in the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)), i.e. via the ((667c0481-27f1-4cd4-adcc-390de0e56cb7)) including both the world and its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). All subject's actions are toward the target ((669a1bec-3347-4915-83e4-dcffc4d482d1)) which is the ((667c0481-27f1-4cd4-adcc-390de0e56cb7)) accurately matching the corresponding ((667c0031-0a87-44c9-9e98-6d45893b095f)) from itself via the world back to itself.
+				  id:: 66b1cfa4-ec86-433e-b5ea-c52c991717c1
 				  collapsed:: true
 					- Learning is the update of ((667c0481-27f1-4cd4-adcc-390de0e56cb7)). This is the [internal effect circle](((669a06b6-82cd-4e04-b5bf-ca60b89725d7))).
 						- All observations of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) are about itself which create various distorted views of itself.
@@ -795,7 +864,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) is a place where at least a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) live with many ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s. A world usually contains many objects and many subjects.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) is a place where at least one ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) lives with many ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s. A world usually contains many objects and many subjects.
 		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
 		  collapsed:: true
 			- The physical ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) on [Earth](https://en.wikipedia.org/wiki/Earth) is called "the World", which itself is a part of the whole physical world called [Universe](https://en.wikipedia.org/wiki/Universe).
@@ -805,7 +874,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 	  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66727858-979d-4d95-8a90-7a749218cfba))
 	  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) projected by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a [worldview](https://en.wikipedia.org/wiki/Worldview), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)), and all knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c811a1-b48b-4f91-9c47-b60be42ee7f4)), ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)), ((66c86420-37bf-4267-bd6f-8d683aaa42d8))
+		- view
+		  id:: 66c811a1-b48b-4f91-9c47-b60be42ee7f4
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
+		- see
+		  id:: 66c811a9-e8c7-42c5-bdc9-25fbd023f93a
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
+		- sense
+		  id:: 66c86420-37bf-4267-bd6f-8d683aaa42d8
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) that is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a [worldview](https://en.wikipedia.org/wiki/Worldview), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)), and all knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
 		  id:: 6672364a-2cc2-4360-a174-1e4432c67a16
 		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
 		  collapsed:: true
@@ -813,6 +892,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- The central doctrine in Jainism is [Anekāntavāda](https://en.wikipedia.org/wiki/Anekantavada) meaning not-one-side emphasizes the nature of many different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same thing.
 			- In Buddhism, a [view](https://en.wikipedia.org/wiki/View_(Buddhism)) is a product of [mental conditioning](https://en.wikipedia.org/wiki/Sankhara), and "[Right view](https://en.wikipedia.org/wiki/Noble_Eightfold_Path#Right_view)" is the neutral ((66723642-58f1-4a74-bba3-0108f14c6bac)) detached from all conditioning, escaped from the "jungle of views".
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		- ### projection
+		  id:: 6653769c-3334-46fa-a1d5-4ce6a7fc23e8
+		  collapsed:: true
+		  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c83149-6ee5-4a8c-b4eb-0308d1a11535)), ((66c82fd4-41e3-43b0-b850-b2b68be68ad5))
+			- project
+			  id:: 66c83149-6ee5-4a8c-b4eb-0308d1a11535
+			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
+			- look
+			  id:: 66c82fd4-41e3-43b0-b850-b2b68be68ad5
+			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) that is made by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to connect an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to an image of that object.
+			- ((66725725-f76a-4328-b162-f469b87e871b)) [projection (homography)](https://en.wikipedia.org/wiki/Homography) in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) and [mapping](https://en.wikipedia.org/wiki/Function_(mathematics)) in mathematics, [projective object](https://en.wikipedia.org/wiki/Projective_object) in [category theory](https://en.wikipedia.org/wiki/Category_theory)
+		- ### observation
+		  id:: 66c835e9-83df-4f36-a133-e5ba5926e4ef
+		  collapsed:: true
+		  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c835f1-29a9-4e07-90b8-92bcd89cdb9b)), ((66c835f5-58ee-485f-914c-3d95167feeb3))
+			- observe
+			  id:: 66c835f1-29a9-4e07-90b8-92bcd89cdb9b
+			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66c835e9-83df-4f36-a133-e5ba5926e4ef))
+			- watch
+			  id:: 66c835f5-58ee-485f-914c-3d95167feeb3
+			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66c835e9-83df-4f36-a133-e5ba5926e4ef))
 		- ### viewpoint
 		  id:: 667272b8-88a8-4928-a22a-35035c9edf05
 		  collapsed:: true
@@ -1031,27 +1132,48 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Textually, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Dyck word](https://en.wikipedia.org/wiki/Dyck_language) and ((6675369a-1d13-48c5-8a77-d588aa8b59b8)).
 		- ### eye
 		  id:: 669a2487-054d-4408-ae41-189e34af81a9
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((669a2697-56af-445c-9197-24aa498a5d5b)), ((669a2886-9e03-41a4-a790-24bf6b7dcd96))
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)), ((669a2697-56af-445c-9197-24aa498a5d5b)), ((669a2886-9e03-41a4-a790-24bf6b7dcd96)), ((66c85d4d-64de-48d9-b384-eebdc2635ab2))
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 		  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+			- viewer
+			  id:: 66c8613b-ce1a-4263-b24d-fc2172d5b59f
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
 			- observer
 			  id:: 669a2697-56af-445c-9197-24aa498a5d5b
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
 			- sensor
 			  id:: 669a2886-9e03-41a4-a790-24bf6b7dcd96
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2487-054d-4408-ae41-189e34af81a9)) is the ((66532bb2-7680-461b-80b2-71fc96c89fb9)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of a ((66723642-58f1-4a74-bba3-0108f14c6bac)) which the subject uses to create that view.
+			- projector
+			  id:: 66c85d4d-64de-48d9-b384-eebdc2635ab2
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2487-054d-4408-ae41-189e34af81a9)) is the ((66532bb2-7680-461b-80b2-71fc96c89fb9)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) which it uses to ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) things. The eye cannot see itself directly, but it can see its ((66c87a15-e49f-4c86-8f31-f21042f4892c)) via reflection on external mirror.
+			- #### eyeball
+			  id:: 66c87a15-e49f-4c86-8f31-f21042f4892c
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c87a15-e49f-4c86-8f31-f21042f4892c)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((669a2487-054d-4408-ae41-189e34af81a9)).
 	- ## action
 	  id:: 66727858-979d-4d95-8a90-7a749218cfba
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6672785f-ac9e-42ba-921e-0264d0d83ae2))
 	  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
 	  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c845ea-635f-4be1-a220-2c7a5049ef83)), ((66c845fe-6e8e-412e-902e-34ae8d728f90))
 		- operation
 		  id:: 6672785f-ac9e-42ba-921e-0264d0d83ae2
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66727858-979d-4d95-8a90-7a749218cfba))
+		- act
+		  id:: 66c845ea-635f-4be1-a220-2c7a5049ef83
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66727858-979d-4d95-8a90-7a749218cfba))
+		- do
+		  id:: 66c845fe-6e8e-412e-902e-34ae8d728f90
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66727858-979d-4d95-8a90-7a749218cfba))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) an ((66727858-979d-4d95-8a90-7a749218cfba)) is a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) carries through time.
+		  id:: 66c846f8-eac8-4daf-add8-121d12871c5a
+		  :LOGBOOK:
+		  CLOCK: [2024-08-23 Fri 15:23:23]
+		  :END:
 		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
-		  collapsed:: true
 			- In Buddhism, ((66727858-979d-4d95-8a90-7a749218cfba)) is called [saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) meaning "formation", "conditioning".
 			- In physics, ((66727858-979d-4d95-8a90-7a749218cfba)) is called "[force](https://en.wikipedia.org/wiki/Force)" and [interaction](https://en.wikipedia.org/wiki/Fundamental_interaction). The "inter" in "interaction" means the duality of action as a ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
 			- Im mathematics, ((66727858-979d-4d95-8a90-7a749218cfba)) has many names: [operation](https://en.wikipedia.org/wiki/Operation_(mathematics)), [transformation](https://en.wikipedia.org/wiki/Transformation_(function)), [group action](https://en.wikipedia.org/wiki/Group_action).
@@ -1073,7 +1195,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- hand
 			  id:: b67b7276-441e-43f2-a5c1-81e3cbe0659e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((66532bb2-7680-461b-80b2-71fc96c89fb9)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of an ((66727858-979d-4d95-8a90-7a749218cfba)) which the subject uses to make that action.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) of an ((66727858-979d-4d95-8a90-7a749218cfba)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) that performs that action. When calling a body an "actor", we emphasize its role of performing action as opposed to the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)) role of the subject of that body.
 	- ## view-control
 	  id:: 66725144-6bc9-4c9f-ba48-2cef02651e52
 	  collapsed:: true
@@ -1098,9 +1220,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  M:[------------|----] F_in = -->
 				  W:[--------|--------]
 				  ```
+		- Mutual exclusiveness
+		  "thấy không làm, làm không thấy"
+		  "eyes no hands, hands no eyes"
+			- "Seers don't do, doers don't see." 
+			  "Kẻ thấy thì không làm, kẻ làm thì không thấy."
+				- This is the the nature of the extreme dualistic view. They are exclusive "by definition", just like "the right is not wrong, the wrong is not right!"
+				- At the internal extreme, the ((66c810a0-9861-4787-bdcf-1378219332be)) carries the the ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((669a2487-054d-4408-ae41-189e34af81a9)).
+				  id:: 669a06b6-82cd-4e04-b5bf-ca60b89725d7
+				  collapsed:: true
+					- Here, the seer withdraws all its energy into the ((669a2487-054d-4408-ae41-189e34af81a9)), the inner circle, to observe, to modify its body (memory) in reflection of the external objects, hence leaving no energy for the doing of the body.
+					- This is the "quantum effect of measurement".
+				- At the external extreme, the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) carries the the ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((66c810a0-9861-4787-bdcf-1378219332be)).
+				  id:: 669a0848-a7a2-402f-b704-68cea407e43d
+				  collapsed:: true
+					- Here, the doer exerts all its power to the working of the body (hands) to rotate the external circle to change the external world, hence leaving no energy for the ((669a2487-054d-4408-ae41-189e34af81a9)).
+					- This is the mechanical extreme.
+			- "Eyes are useless without hands, hands are blind without eyes."
+			  "Thấy mà không làm là vô dụng, làm mà không thấy là mù quáng."
+				- This criticizes the weakness of the dualistic view and guides toward the holistic view of ((6699e3b1-754c-4665-b7aa-12cbc833a8d0)) and the ((6699f85b-fe03-4fb6-8b80-915e376954ff)).
 		- Mutual inclusiveness
 		  id:: 6699e3b1-754c-4665-b7aa-12cbc833a8d0
-			- Seeing is an action of the ((669a2487-054d-4408-ae41-189e34af81a9)) itself.
+			- ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))ing is an ((66727858-979d-4d95-8a90-7a749218cfba)) of the ((669a2487-054d-4408-ae41-189e34af81a9)) itself.
 			- Every ((6672785f-ac9e-42ba-921e-0264d0d83ae2)), i.e. change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (transform), is a change of ((66723642-58f1-4a74-bba3-0108f14c6bac)) via the change of ((667272b8-88a8-4928-a22a-35035c9edf05)).
 			  collapsed:: true
 				- Traversal = listing = enumeration = moving the ((667272b8-88a8-4928-a22a-35035c9edf05)) across the object to view it in a linear view, i.e. thread-view.
@@ -1109,35 +1250,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Sort = change from object-view to thread-view.
 				- Organize = change from object-view to target ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- Classification, categorization = change from object-view to class/property/category view.
-			- DOING Every action ...
+		- Harmony of ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))ing and ((66c845fe-6e8e-412e-902e-34ae8d728f90))ing
+		  id:: 6699f85b-fe03-4fb6-8b80-915e376954ff
+			- All ((66727858-979d-4d95-8a90-7a749218cfba))s are guided and constrained by the ascociated ((66723642-58f1-4a74-bba3-0108f14c6bac))s, thus the view is to action as the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is to ((6678288e-699b-4325-bdba-bf6349fe0d57)).
 			  :LOGBOOK:
 			  CLOCK: [2024-07-19 Fri 15:50:42]
 			  :END:
-		- Mutual exclusiveness
-		  "thấy không làm, làm không thấy"
-		  "eyes no hands, hands no eyes"
-			- "Seers don't do, doers don't see." 
-			  "Kẻ thấy thì không làm, kẻ làm thì không thấy."
-				- This is the the nature of the extreme dualistic view. They are exclusive "by definition", just like "the right is not wrong, the wrong is not right!"
-				- At the internal extreme, the body carries the the ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((669a2487-054d-4408-ae41-189e34af81a9)).
-				  id:: 669a06b6-82cd-4e04-b5bf-ca60b89725d7
-				  collapsed:: true
-					- Here, the seer withdraws all its energy into the ((669a2487-054d-4408-ae41-189e34af81a9)), the inner circle, to observe, to modify its body (memory) in reflection of the external objects, hence leaving no energy for the doing of the body.
-					- This is the "quantum effect of measurement".
-				- At the external extreme, the world carries the the ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the body.
-				  id:: 669a0848-a7a2-402f-b704-68cea407e43d
-				  collapsed:: true
-					- Here, the doer exerts all its power to the working of the body (hands) to rotate the external circle to change the external world, hence leaving no energy for the ((669a2487-054d-4408-ae41-189e34af81a9)).
-					- This is the mechanical extreme.
-			- "Eyes are useless without hands, hands are blind without eyes."
-			  "Thấy mà không làm là vô dụng, làm mà không thấy là mù quáng."
-				- This criticizes the weakness of the dualistic view and guides toward the holistic view of ((6699e3b1-754c-4665-b7aa-12cbc833a8d0)) and the ((6699f85b-fe03-4fb6-8b80-915e376954ff)).
-		- Harmony of seeing and doing
-		  id:: 6699f85b-fe03-4fb6-8b80-915e376954ff
-			- WAIT ... ((669a1bec-3347-4915-83e4-dcffc4d482d1))
+			- Each ((66727858-979d-4d95-8a90-7a749218cfba)) arrow toward an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a corresponding ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) arrow backward from that object.
 			  :LOGBOOK:
-			  CLOCK: [2024-07-19 Fri 15:51:35]--[2024-07-19 Fri 15:51:35] =>  00:00:00
+			  CLOCK: [2024-08-23 Fri 16:14:01]
 			  :END:
+			- ((66b1cfa4-ec86-433e-b5ea-c52c991717c1))
 	- ## observer-operator
 	  id:: 669a2c12-1dad-42a0-ab31-f03642b4aa8a
 	  collapsed:: true
@@ -1221,7 +1344,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- relax-reduce
 				  id:: 669a5162-19e1-4c52-8888-ab7cbfe275ec
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, _relax_ the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) so that it doesn't hold on objects anymore, then _reduce_ the size of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) by letting all uneven stuffs go away so that only the round circle remains.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, _relax_ the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) so that it doesn't hold on objects anymore, then _reduce_ the size of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) by letting all uneven stuffs go away so that only the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle remains.
 			- ### sublime-channel
 			  id:: 668f5490-c223-4a8a-9cc4-0bd71af4c097
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) thăng hoa - dẫn lưu
@@ -1246,6 +1369,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-08-17 Sat 19:09:59]
 			  :END:
+			- About the terms
+				- refine = make it finer
+				- subtilize = make it subtler
+				- pulverize = make the particles more fine-grained
+				  collapsed:: true
+					- General terms: pulverize = "powderize", comminute, levigate (archaic) = "smoothen"
+					- Specialized result granularity: "fragment", "granulate", "decimate", "powderize", "micronize", "atomize", etc.
+					- ((66c33468-23d5-44d7-955e-6711cb608157))
+						- [Pulverization 1: Definition and purpose](https://www.thinkymixer.com/en-us/library/glossary/pulverization-1-definition-and-purpose/)
+						  > When referring to pulverization in a broad sense, “size reduction” is often used, and when it is used for transforming a solid into small pieces, “comminution” is often used.
+						- Chat GPT
+						  > Though "levigate" is not widely used, it's still technically correct, so if you like its specificity, it might be worth using, especially in a scientific or technical context.
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
@@ -1293,13 +1428,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## abstraction
 	  id:: 66537674-6cf9-4459-8bea-7c1858c694a3
 	  collapsed:: true
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))
+		- abstract
+		  id:: 66c8369a-ccb8-4f1f-b12b-bf7054cb79e4
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Abstraction
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Abstraction is the process of abstracting details, i.e. removing details that are irrelevant to the subject's focus, from an object to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537674-6cf9-4459-8bea-7c1858c694a3)) is the process of abstracting details, i.e. removing details that are irrelevant to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s focus, from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)).
 		-
-	- ## projection
-	  id:: 6653769c-3334-46fa-a1d5-4ce6a7fc23e8
-	  collapsed:: true
-		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Projection_(mathematics)
 	- ## name
 	  id:: 665cab38-f8e8-472e-b0a1-60776d492835
 	  collapsed:: true
@@ -1310,7 +1447,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665ca429-84e3-49ff-921e-c07d19cd99ba
 	  collapsed:: true
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the part of that object appears to a ((66723642-58f1-4a74-bba3-0108f14c6bac)) of some ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The external form is called ((66ab6161-0306-42d5-ac16-4155c69216f5)) or ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)), and the internal form is called ((6678d596-9526-405a-968c-e73860e524f3)) or ((66ab6059-7a9d-4419-99be-69c9944a543f)) of the object.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the image of that object in a ((66723642-58f1-4a74-bba3-0108f14c6bac)) of some ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The external form is called ((66ab6161-0306-42d5-ac16-4155c69216f5)) or ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)), and the internal form is called ((6678d596-9526-405a-968c-e73860e524f3)) or ((66ab6059-7a9d-4419-99be-69c9944a543f)) of the object.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [Buddhist form](https://en.wikipedia.org/wiki/Rūpa) in the pair "name & form", [logical form](https://en.wikipedia.org/wiki/Logical_form), Plato's [ideal form](https://en.wikipedia.org/wiki/Theory_of_forms), Marx' [form of value](https://en.wikipedia.org/wiki/Value-form), etc.
 		  id:: 669a58b9-b3d0-4cec-abaa-55b6260d914c
 		- formation
@@ -1323,7 +1460,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Links: [fb post in Nov 2023](https://www.facebook.com/lexuandinhct/videos/728404692637310), [GeoGebra applet](https://www.geogebra.org/m/j7czr4s5)
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
-		  collapsed:: true
 			- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
 			- Function/mapping/projection/light-cone is an abstraction of the flow into just 2 ends of that flow.
 			- A ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
@@ -1382,7 +1518,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) can be seen as a sequence of abstract ((667d15b7-6364-49a9-ac58-c64d2a992b63))s, and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply "threads".
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) can be seen as a sequence of ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) ((667d15b7-6364-49a9-ac58-c64d2a992b63))s, and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply "threads".
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [execution thread](https://en.wikipedia.org/wiki/Thread_(computing)), [conversation thread](https://en.wikipedia.org/wiki/Thread_(online_communication)), [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), [screw thread](https://en.wikipedia.org/wiki/Screw_thread), [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic))
 		  id:: 66b1cfa4-6ce7-447b-b637-30d86f0e748e
 		- Vietnamese: sợi, mạch
@@ -1992,6 +2128,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :END:
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
+						  id:: 66b1cfa4-9b10-4032-a4df-8a4a05fdf46e
 					- Verification ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 						- DONE [!] 2 failures in `block-refs-link-to-blocks-that-exist`
 						  :LOGBOOK:
