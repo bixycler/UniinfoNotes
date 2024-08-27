@@ -2049,6 +2049,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- MIME types in clipboard: `web application/logseq`, `text/html`, `text/plain`
 					- Inspect the cut/copied content with [ClipboardRead.html](../assets/HTML/ClipboardRead.html) ( ![src](../assets/HTML/ClipboardRead.html) ).
 				- When pasted from a different graph, some page unrelated to the pasted block is messed up with diff between version on disk and in Logseq memory.
+			- [!] Logseq indexes all folders including `assets/` which may contains a lot of files not meant to be indexed and duplicated markdown files.
+			  collapsed:: true
+				- This can be overcome with config ((66cdac39-bcf0-4859-b82f-8bd7a7f8e590)). But due to the [currently unsolved issue](https://github.com/logseq/logseq/issues/8822), it's useless!
+				- Community discussions:
+					- [How do I exclude a folder from logseq indexing](https://discuss.logseq.com/t/how-do-i-exclude-a-folder-from-logseq-indexing/12777)
+					- [:hidden In config.edn not working!](https://discuss.logseq.com/t/hidden-in-config-edn-not-working/12302)
 		- Features & Usage:
 		  collapsed:: true
 			- Block id
@@ -2263,6 +2269,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- When we need to cut a long list into some main items, we must indent all items into sub-items instead of simply outdent the main items.
 			- `:outliner/block-title-collapse-enabled` is nice to collapse lengthy body of a long block and its *visible properties*. However, the *invisible built-in properties* like `id::` make this feature confused!
 			- `:publishing/all-pages-public` (`Settings > Editor > All pages public when publishing`) should be `true` to publish most of the pages by default, and manually hide individual pages with page property `public:: false` (right click page title > `Make it private (/public for publishing)`).
+			- `:hidden`
+			  id:: 66cdac39-bcf0-4859-b82f-8bd7a7f8e590
+			  can be used to exclude folders and files from being indexed.
+			-
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  collapsed:: true
 			- [Tabs (`logseq-tabs`)](https://github.com/pengx17/logseq-plugin-tabs) provides tabs for browsing and concurrent editing with the very useful feature **pinned tabs**.
