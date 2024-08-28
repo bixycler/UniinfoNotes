@@ -627,6 +627,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :END:
 		- Resource = between content & form: crystallized to form, vaporized to content 
 		    = currency = sensor = balancer bringing diff (content) back to sim (form) = energy = action (S) in mechanics = worker = maintainer of self = weaver of form = driver of content = mixer of content & form = constructor of self form & destructor of other form
+			- resource limit/[constraint](((66b1cfa3-385f-437c-88f2-f76c0684c9e3))) = form
+			- resource energy = content
 		- equilibrium = balance = optimum = least resource consumption = least action (S min) = max entropy = perfect circle **within a view**, not absolutely!!!
 		- all balance will be broken spontaneously = radioactive decay = all circles will be open = intrinsic dynamic
 		- black hole distortion: inside intrinsic static <> outside intrinsic dynamic <=> Zeno arrow paradox
@@ -675,7 +677,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- corpuscle
 		  id:: 66c80fad-4e06-449c-9d63-00f906601b06
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667d162c-16cf-44d3-81a5-29b1b885164f))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d162c-16cf-44d3-81a5-29b1b885164f)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d162c-16cf-44d3-81a5-29b1b885164f)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)). Even though a particle can have large size, like the [Earth](https://en.wikipedia.org/wiki/Earth), in physics we usually deal with small particles and treat them as [point particles](https://en.wikipedia.org/wiki/Point_particle).
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [particles](https://en.wikipedia.org/wiki/Particle) in [physics](https://en.wikipedia.org/wiki/Physics), [material point](https://en.wikipedia.org/wiki/Material_point_method) in [computational mechanics](https://en.wikipedia.org/wiki/Computational_mechanics), corpuscle (corpuscule) in [corpuscularism](https://en.wikipedia.org/wiki/Corpuscularianism)
 		- About the terms
 			- "particle" was originally just a small part as opposed to the larger whole. However, scaling smaller and smaller, the [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) turn out to be the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))s. This ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60)) between the whole and the parts is captured well by the concept of ((667d162c-16cf-44d3-81a5-29b1b885164f)).
@@ -704,6 +706,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)). Due to the dynamic nature of the arrow, a vector is a carrier of motion, like [velocity vector](https://en.wikipedia.org/wiki/Euclidean_vector), a carrier of direction, like [aircraft vector](https://www.paramountbusinessjets.com/aviation-terminology/vector), [thrust vector](https://en.wikipedia.org/wiki/Thrust_vectoring), or a carrier of biological material, like [disease vector](https://en.wikipedia.org/wiki/Disease_vector).
 		-
+	- ## point
+	  id:: 66e43b94-9183-4d49-af85-8a7a1c194c12
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66e43b94-9183-4d49-af85-8a7a1c194c12)) is an abstraction of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) so that it has no ((66e42a2d-deb3-46dd-b477-94196a5d2d6f)) and its ((66e426ec-d29b-4614-932b-2c70693790d7)) is abstracted into a single id denoted by a ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)). That dot is the image of the original circle projected onto the screen, and the point is the apex of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+			- dot
+			  id:: 66e43ebf-bbaa-4bfc-9601-a5ee40398677
+			  image of point on screen
 	- ## arrow
 	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
 	  collapsed:: true
@@ -735,7 +745,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## circle
 	  id:: 667d15c6-67c4-4998-a549-c8b3f9de3d60
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of a closed ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), which is called a ((66ab675b-2778-4f51-80ad-20a8f6988691)). The _perfect circle_ is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99)), which is the [geometrical circle](https://en.wikipedia.org/wiki/Circle). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of all forms.
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66e41705-54b1-4677-a595-fd01cb88a4fb))
+		- circular
+		  id:: 66e41705-54b1-4677-a595-fd01cb88a4fb
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the perfect shape of [geometrical circle](https://en.wikipedia.org/wiki/Circle), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is abstracted to be the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of any closed ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)). To be precise, this abstraction should be called ((66ab675b-2778-4f51-80ad-20a8f6988691)), but we usually call it "circle" as an abuse of terminology. The true circle is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) which [degenerates](https://en.wikipedia.org/wiki/Degenerate_energy_levels) into all nonround loops via distortion. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of all forms.
 		- cycle
 		  id:: 66ab675b-2778-4f51-80ad-20a8f6988691
 		  collapsed:: true
@@ -743,58 +757,165 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- loop
 			  id:: 66ab6761-b62d-486b-bd15-44a4ecee8a99
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab675b-2778-4f51-80ad-20a8f6988691))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab675b-2778-4f51-80ad-20a8f6988691)) does not require to be round like the [geometrical circle](https://en.wikipedia.org/wiki/Circle). The term "cycle" is usually used for the form of time, while the term ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) is usually used for the form of objects in space.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab675b-2778-4f51-80ad-20a8f6988691)) does not require to be ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) like the [geometrical circle](https://en.wikipedia.org/wiki/Circle). The term "cycle" is usually used for the form of time, while the term ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) is usually used for the form of objects in space.
 		- Symbols: small ○, large ◯
 		- round
 		  id:: 66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)) is ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) when every point in that shape has the same distance (radius) to a fixed point called ((66ab7477-c060-4d07-ab13-bc3d11246854)), i.e. it has [circular symetry](https://en.wikipedia.org/wiki/Circular_symmetry).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)) is ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) when every point in that shape has the same distance (radius) to a fixed point called ((66ab7477-c060-4d07-ab13-bc3d11246854)), i.e. it has [circular symetry](https://en.wikipedia.org/wiki/Circular_symmetry). A round cycle is a perfect and ((66e3ed78-8815-4dcc-964c-5bc8325405dd)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), i.e. a **true circle**.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
+				- ((66ebb5fb-6850-4a83-94eb-dd3039891ffc))
 			- center
 			  id:: 66ab7477-c060-4d07-ab13-bc3d11246854
+				- The concept of center can be extended to center of mass, named "pre-center", in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) and even further to the origin, the center of perspectivity, named "pseudo-center", in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
 	- ## equal
 	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
 	  collapsed:: true
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66e41e14-6c0c-41d7-9089-92916d47d7e0))
+		- equality
+		  id:: 66e41e14-6c0c-41d7-9089-92916d47d7e0
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The third component of the [[Trinion]].
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+			- equal
+			  equal in comparison
+			- symmetry
+			  equal in shape
+			- balance
+			  equal in exchange
+		- DOING Levels of ((66e41e14-6c0c-41d7-9089-92916d47d7e0))
+		  id:: 66e3fe46-dc79-472a-a059-f5ccf5afb437
+		  :LOGBOOK:
+		  CLOCK: [2024-09-13 Fri 16:01:12]
+		  :END:
+			- ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)) > ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) > ((66e40f75-0573-484e-8cb6-b6b8071ffb8c))
+			- ![Levels of The Equal](https://docs.google.com/drawings/d/1ydOhAuBugiOYYoBHLJ5Z6-pQViKL1-GXKgFWLSbE9Sc/pub?w=800)
+			- point equality
+			  id:: 66e40f4b-34ae-499a-8192-0a0f4f580c7e
+			  :LOGBOOK:
+			  CLOCK: [2024-09-13 Fri 19:52:01]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) the most abstract ((66e43b94-9183-4d49-af85-8a7a1c194c12)), conservation of ((66e426ec-d29b-4614-932b-2c70693790d7)) (momentum)
+				- Structure
+					- $p + q = 0$
+					- contents: ((667d15b7-6364-49a9-ac58-c64d2a992b63))s
+					- form: ((66ab675b-2778-4f51-80ad-20a8f6988691)) (closed loop)
+					- ((669a2487-054d-4408-ae41-189e34af81a9)): origin, center of perspectivity
+			- mass equality
+			  id:: 66e40f58-c9dd-47f4-999d-2e4a2aa874fe
+			  :LOGBOOK:
+			  CLOCK: [2024-09-13 Fri 19:52:06]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) equal ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)), conservation of amount (energy)
+				- Structure
+					- $|p| = |q|$ 
+					  ⇔ $|p| - |q| = 0$
+					- contents: ((667d15c6-67c4-4998-a549-c8b3f9de3d60))s
+					- form: symmetric loop
+					- ((669a2487-054d-4408-ae41-189e34af81a9)): center of mass
+			- ((669a1bec-3347-4915-83e4-dcffc4d482d1))
+			  id:: 66e40f75-0573-484e-8cb6-b6b8071ffb8c
+			  :LOGBOOK:
+			  CLOCK: [2024-09-13 Fri 19:52:12]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				- Structure
+					- form: ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
+					- ((669a2487-054d-4408-ae41-189e34af81a9)): ((66ab7477-c060-4d07-ab13-bc3d11246854))
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- ((66ceeca0-a149-4fe0-85a8-9302f96eb669))
 		- ### equilibrium
 		  id:: 669a1bec-3347-4915-83e4-dcffc4d482d1
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c))
+		  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66e3ed38-3108-4d43-944d-9d2c8d1a90f2))
+		  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66e3ed78-8815-4dcc-964c-5bc8325405dd))
 			- balance
 			  id:: 669a1d82-91c8-40fd-81f5-e8ffe56e9e9c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a1bec-3347-4915-83e4-dcffc4d482d1))
+			- equilibrate
+			  id:: 66e3ed38-3108-4d43-944d-9d2c8d1a90f2
+			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((669a1bec-3347-4915-83e4-dcffc4d482d1))
+			- equilibrated
+			  id:: 66e3ed78-8815-4dcc-964c-5bc8325405dd
+			  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((669a1bec-3347-4915-83e4-dcffc4d482d1))
 			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) equilibrium = equal (`=`) + Libra (`♎︎`)
 			  id:: 669a1d85-ebf1-4f7d-8834-fc68f3ab7f0c
-			- Balance as the destination of all forces: ((669a1bec-3347-4915-83e4-dcffc4d482d1)), optimum, flatness, roundness, ...
+			- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+				- ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))
+				  equilibrium in ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
+				- straight
+				  equilibrium in line
+				- uniform
+				  equilibrium in distribution
+				- ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c))
+				  equilibrium in dynamic
+				- optimum
+				  equilibrium in progress
+			- Law of ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) restoration
 			  id:: 6667c99a-792f-4230-9fc6-c5fae874daef
 			  :LOGBOOK:
 			  CLOCK: [2024-06-11 Tue 10:50:54]
+			  CLOCK: [2024-09-13 Fri 15:34:45]
 			  :END:
-			- DOING multiplication by contact/touch => spreading, smearing, wave dispersion
-			  id:: 669dc0b1-21f2-4454-ab40-ea156269e195
-			  :LOGBOOK:
-			  CLOCK: [2024-07-22 Mon 09:15:15]
-			  CLOCK: [2024-07-22 Mon 09:15:21]
-			  :END:
-			- DOING equilibrium = static balance = balance at all scales, vs. intrinsic balance = dynamic balance = balance between scales
-			  :LOGBOOK:
-			  CLOCK: [2024-07-22 Mon 09:18:17]
-			  CLOCK: [2024-07-22 Mon 09:18:24]
-			  :END:
-				- Heat (static) dispersion vs wave (momentum) propagation
-					- spreading: phép cuốn chiếu, sigmoid function in ANN, string searching algorithm => exp to log
-				- Deep learning = learning at all scales = heat (static) dispersion
-					- Pure functional = non-dispersive wave
-					- Turing machine (with memory & side effect) = shallow learning
-			- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
-			- ((668d0046-6d0f-4af9-8a2a-c446084a5f1f))
-			- ((669a58b8-5018-4d00-abf9-3e69d36897d5))
-			- DOING round = divisible = reached GCD (unit) = distributed content (change) to all digits = equilibrium = reached Mecha/Turing machine (from bio, uninet)
-			  :LOGBOOK:
-			  CLOCK: [2024-08-23 Fri 10:05:07]
-			  :END:
+			  Balance is the intent of all forces.
+				- All forces are caused by the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) to cancel its imbalance, hence restoring forces. This is the generalized version of the [law of entropy](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics#Direction_of_spontaneous_processes).
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
+				- WAIT round = divisible = reached GCD (unit) = distributed content (change) to all digits = equilibrium = reached Mecha/Turing machine (from bio, uninet)
+				  :LOGBOOK:
+				  CLOCK: [2024-08-23 Fri 10:05:07]--[2024-09-13 Fri 15:37:57] =>  509:32:50
+				  :END:
+				- ((669a58b8-5018-4d00-abf9-3e69d36897d5))
+				- ((66b1cfa4-70f7-4cc5-94db-c69c9e7e1e4e))
+				- WAIT multiplication by contact/touch => spreading, smearing, wave dispersion
+				  id:: 669dc0b1-21f2-4454-ab40-ea156269e195
+				  :LOGBOOK:
+				  CLOCK: [2024-07-22 Mon 09:15:15]
+				  CLOCK: [2024-07-22 Mon 09:15:21]--[2024-09-13 Fri 15:41:00] =>  1278:25:39
+				  :END:
+				- ((668d0046-6d0f-4af9-8a2a-c446084a5f1f))
 		- equanimity
 		  id:: 669a3da2-1e6c-48bd-950f-af1ea1ceda25
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Equanimity
 			- Buddhism: [upekṣā](https://en.wikipedia.org/wiki/Upek%E1%B9%A3%C4%81), [xả](https://vi.wikipedia.org/wiki/Bu%C3%B4ng_x%E1%BA%A3)
 			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) equanimity = equal + mind
+	- ## quantity
+	  id:: 66e426df-90e4-43c0-9f02-c48c336e830d
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6))
+	  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66e426ec-d29b-4614-932b-2c70693790d7))
+		- amount
+		  id:: 66e42b30-1aa4-4b6f-8c54-b29fc09085c6
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66e426df-90e4-43c0-9f02-c48c336e830d))
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+			- number
+			  countable quantity
+			- ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6))
+			  uncountable quantity
+			- magnitude
+			  id:: 66e42a2d-deb3-46dd-b477-94196a5d2d6f
+			  quantity of form
+			- size
+			  quantity of shape
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- ((66c7fdec-59db-4f96-a8a7-913247586534))
+	- ## quality
+	  id:: 66e426ec-d29b-4614-932b-2c70693790d7
+	  collapsed:: true
+	  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66e426df-90e4-43c0-9f02-c48c336e830d))
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+			- ((66e42d39-a296-4ed9-a686-4cb213783830))
+			  quality of ((667d15b7-6364-49a9-ac58-c64d2a992b63))
+			- intension
+			  quality of object
+			- intent
+			  quality of subject
+		- ### direction
+		  id:: 66e42d39-a296-4ed9-a686-4cb213783830
+			- ...
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Philosophy of mind: [qualia](https://en.wikipedia.org/wiki/Qualia)
+			- Dialectics of Nature: The transformation between the change of ((66e426df-90e4-43c0-9f02-c48c336e830d)) and the change of ((66e426ec-d29b-4614-932b-2c70693790d7)), as [a law in Dialectical Materialism](https://www.marxists.org/reference/archive/spirkin/works/dialectical-materialism/ch02-s09.html)
 	- ## relative
 	  id:: 66c80cbf-6626-4cb7-9b58-8ac3396e03da
 	  collapsed:: true
@@ -805,6 +926,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- relativity
 		  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+	- ## rela
+	  id:: 66eac150-46aa-4728-beca-15b4c6830c99
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-18 Wed 19:02:27]
+	  :END:
+		- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
 	  collapsed:: true
@@ -835,7 +963,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Controlling is the update of ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)). This is the [external effect circle](((669a0848-a7a2-402f-b704-68cea407e43d))).
 						- When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) handle an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) with no purpose for itself, it's not controlling but just acting for the effect circle of the object to bring ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) to the owner subject of that object.
 						- All actions of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) are for itself.
-						  collapsed:: true
 							- "Helping people or harming people, all are just for ourselves!"
 							  "Giúp người hay hại người cũng đều vì mình cả!"
 							  is the saying that i usually say.
@@ -884,11 +1011,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- sense
 		  id:: 66c86420-37bf-4267-bd6f-8d683aaa42d8
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) that is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a [worldview](https://en.wikipedia.org/wiki/Worldview), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)), and all knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) that is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a [worldview](https://en.wikipedia.org/wiki/Worldview), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)). All knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
 		  id:: 6672364a-2cc2-4360-a174-1e4432c67a16
 		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
 		  collapsed:: true
 			- A ((66723642-58f1-4a74-bba3-0108f14c6bac)) in philosophy is a [perspective (point of view)](https://en.wikipedia.org/wiki/Perspectivism), which can be a [worldview](https://en.wikipedia.org/wiki/Worldview).
+			  id:: 66b1cfa4-3db2-4d2c-9b9f-478417632c97
 			- The central doctrine in Jainism is [Anekāntavāda](https://en.wikipedia.org/wiki/Anekantavada) meaning not-one-side emphasizes the nature of many different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same thing.
 			- In Buddhism, a [view](https://en.wikipedia.org/wiki/View_(Buddhism)) is a product of [mental conditioning](https://en.wikipedia.org/wiki/Sankhara), and "[Right view](https://en.wikipedia.org/wiki/Noble_Eightfold_Path#Right_view)" is the neutral ((66723642-58f1-4a74-bba3-0108f14c6bac)) detached from all conditioning, escaped from the "jungle of views".
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -904,6 +1032,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) that is made by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to connect an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to an image of that object.
 			- ((66725725-f76a-4328-b162-f469b87e871b)) [projection (homography)](https://en.wikipedia.org/wiki/Homography) in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) and [mapping](https://en.wikipedia.org/wiki/Function_(mathematics)) in mathematics, [projective object](https://en.wikipedia.org/wiki/Projective_object) in [category theory](https://en.wikipedia.org/wiki/Category_theory)
+			  id:: 66b1cfa4-6de3-4a88-a14f-3265b6fd92e5
 		- ### observation
 		  id:: 66c835e9-83df-4f36-a133-e5ba5926e4ef
 		  collapsed:: true
@@ -1277,15 +1406,25 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: fa0b2bc6-05ac-418f-9a86-17635936a656
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- In the CIE model of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), the core of obop is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) that observes the content to produce the extent which is used to operate the ((66c810a0-9861-4787-bdcf-1378219332be)). At the "operator" side of the obop, the extent is the (mental) ((66727858-979d-4d95-8a90-7a749218cfba)) ([saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra)) and it's intent is the master of that action, i.e. the volition or [cetanā](https://en.wikipedia.org/wiki/Cetan%C4%81) in Buddhism.
+			  id:: 66e79e0c-8be2-49a4-b4d7-5c1fddefeabf
+			  :LOGBOOK:
+			  CLOCK: [2024-09-16 Mon 18:54:11]
+			  :END:
+				- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
+				- At the "observer" side of the obop, the intent itself is the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) which is driven by the underlying tendency, or attitude, or [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))) in Buddhism.
 	- ## `in`-`ex` partition
 	  collapsed:: true
 		-
 	- ## CIE
+	  id:: 66b1cfa4-e22c-4424-bf19-a6ce4649da77
 	  collapsed:: true
 	  content/intent = extent
-		- Content
-		- Intent
-		- Extent
+		- content
+		- intent
+		  id:: 66b1cfa4-01ef-4ee8-9409-32c9884c39cd
+		- extent
 	- ## UniinfoNotes
 	  id:: 666baccf-6be1-4b9a-b186-f883ea04daf1
 	  collapsed:: true
@@ -1564,6 +1703,94 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-07-22 Mon 10:07:23]
 			  CLOCK: [2024-07-22 Mon 10:08:10]
 			  :END:
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- ...
+		- cognition
+			- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960&h=720)
+			- ### perception screen
+			  id:: 66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50
+			  :LOGBOOK:
+			  CLOCK: [2024-09-13 Fri 12:23:24]
+			  :END:
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
+				- màn hình tưởng
+				  id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Just as the retina is where the visual image is projected, ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) is where the [mental image](https://en.wikipedia.org/wiki/Mental_image) is projected via ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)). This screen is related to the [mental workspace](https://en.wikipedia.org/wiki/Global_workspace_theory) and the [working memory](https://en.wikipedia.org/wiki/Working_memory). This screen is the stage where the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)) of interaction between the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), as a force field, and the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)), as a particle in that force field, takes place.
+				- **instantiation**
+				  id:: 66ea4597-f085-4f38-95f7-91bf5cd61b1c
+				  :LOGBOOK:
+				  CLOCK: [2024-09-18 Wed 10:19:59]--[2024-09-18 Wed 16:29:05] =>  06:09:06
+				  :END:
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a signal from the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) reaches a node in the ((66ea8d84-c766-4c47-b06c-a0b57a530096)), that node is activated and it creates a new ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of itself on the screen. This new instance is combined to the source of the signal to develop the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), similar to the "object construction" in OOP. Each cycle of this process is call an ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)). Each object on the screen is usually composed of several instances of several ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s. Only some special objects like the self body, the named objects, have a single corresponding past cone as its id knowledge. The instantiation is related to the "participation" in Plato's [Theory of Forms](https://en.wikipedia.org/wiki/Theory_of_forms).
+					  id:: 66ea9a0f-72df-42b6-8d72-fcc021ed5776
+					  :LOGBOOK:
+					  CLOCK: [2024-09-18 Wed 16:22:05]
+					  :END:
+					- instance
+					  id:: 66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe
+			- ### conscious circle
+			  id:: 66ea5808-8452-4ae9-8eb8-2ef64004bfcf
+			  :LOGBOOK:
+			  CLOCK: [2024-09-18 Wed 11:37:05]
+			  :END:
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66eab543-0b0e-4523-a1a6-740371b81a58)), ((66eac5fb-12db-4d1b-a6a6-ba3220fa34b6))
+				- consciousness
+				  id:: 66eab543-0b0e-4523-a1a6-740371b81a58
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Consciousness
+				- thức
+				  id:: 66eac5fb-12db-4d1b-a6a6-ba3220fa34b6
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) interacts with objects on the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) in the way a particle interacts with a force field. The circle of effect between the intent cone and the whole ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) is called the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), which comprises many individual circles of effect between the intent cone and individual objects which are also called conscious circles.
+					- The main effect of this circle is maintaining ((66eab543-0b0e-4523-a1a6-740371b81a58)) of the subject and its side effects are ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)) of action and ((66eaa550-4e1e-4126-8004-bf3cb8956829)) of knowledge. This circle is also the one that [mixes](((66eac7d3-f1e6-420c-a2a5-1424c86d4185))) objects' ((66ab6161-0306-42d5-ac16-4155c69216f5))s up to make ((6678d596-9526-405a-968c-e73860e524f3))s in the knowledge cone. That means ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)) is actually a ((66eac150-46aa-4728-beca-15b4c6830c99)) between the intent cone and the present cone.
+					- This circle is similar to the [viññāṇa](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na) in Buddhism and is related to the [closed-loop perception](https://en.wikipedia.org/wiki/Perception#Closed-loop_perception).
+			- cones around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
+			  :LOGBOOK:
+			  CLOCK: [2024-09-18 Wed 15:21:27]
+			  :END:
+				- world cone
+				  id:: 66ea8dfa-4dc4-4541-948b-be0e72a0bc8b
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dfa-4dc4-4541-948b-be0e72a0bc8b)) is the external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) in the shape of [worldview](https://en.wikipedia.org/wiki/Worldview) cone. Its peak is the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) containing objects in the present view of the subject. These objects are ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe))s of the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s which are activated and projected onto the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)). That means the ((66ea9505-9532-41ed-9f91-d4d8ddcaacc3)) is reflected across the perception screen to be the present cone, where the images of past cones on the screen are seen as forms of objects.
+					- present cone
+					  id:: 66ea8e12-7c30-449b-9139-bfd8d82394d7
+					  is the peak of the ((66ea8dfa-4dc4-4541-948b-be0e72a0bc8b)). It's similar to the [saññā](https://en.wikipedia.org/wiki/Samjna_(concept)) (tưởng) in Buddhism.
+				- knowledge cone
+				  id:: 66ea8d84-c766-4c47-b06c-a0b57a530096
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8d84-c766-4c47-b06c-a0b57a530096)) is the internal world of the subject in the shape of a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) of concepts which is rooted at the subject's self concept. Its peak is the ((66ea9505-9532-41ed-9f91-d4d8ddcaacc3)) containing knowledge of the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)). At the root/summit, the subject's self extends a pinnacle called ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) poking into the present cone to take action and spreads its effect out to the external world via ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)). The changes of the subject's self image as well as objects on the perception screen are reflected back to the knowledge cone via ((66eaa550-4e1e-4126-8004-bf3cb8956829))s.
+					- past cone
+					  id:: 66ea8df3-d2f3-4856-b24a-5095dd285f9b
+					  is a peak of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)) based on a concept.
+					- collective past cone
+					  id:: 66ea9505-9532-41ed-9f91-d4d8ddcaacc3
+					  is the collective knowledge of objects, where each object is known by a ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
+					- learning cone
+					  id:: 66eaa550-4e1e-4126-8004-bf3cb8956829
+					  is a ((667bd93a-cce4-4dbf-9831-725e4dffe463)) of an object or the subject's self image on the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) toward the base of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)).
+					- mutual reflections
+					  id:: 66eac7d3-f1e6-420c-a2a5-1424c86d4185
+					  collapsed:: true
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) each concept in the ((66ea8d84-c766-4c47-b06c-a0b57a530096)) reflects all other concepts in a [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry). That means the knowledge cone is like the [Indra's Net](https://en.wikipedia.org/wiki/Indra%27s_net).
+						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+							- [fb note](https://www.facebook.com/share/p/qbfkFvBptBxobMLo) about Indra's Net
+							- Trip inside a 3D fractal (Kleinian) {{video https://youtu.be/XIzScwydxOE}}
+				- intent cone
+				  id:: 66ea8dbe-042e-41fc-a07c-841dcb5a737a
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) is the ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the subject's self. It's the particle on the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) representing the subject, which receives effects from the force field of the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) and expresses the subject's will as both external action and reaction to the objects on the screen. Because this cone is extended from the root/center of the knowledge cone, it's the condensation of the whole mass of knowledge, hence has a very strong structure (hard form) to drive the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)). The subject may have many selves (identities) to be activated by different present cones.
+					- intention
+					  id:: 66eab8b0-a5f6-417b-bdb1-effa175ca94e
+					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66eab986-02f0-4e9f-a2a8-f7781c68ebfe))
+						- intent
+						  id:: 66eab986-02f0-4e9f-a2a8-f7781c68ebfe
+						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66eab8b0-a5f6-417b-bdb1-effa175ca94e))
+						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Intention
+						- ((66725725-f76a-4328-b162-f469b87e871b))
+							- intention of a depth-first traversal is "to answer the question"
+							- intention of a breadth-first traversal is "to cover the whole issue"
+							- intention of a recorder is "to keep it"
+					- effect cone
+					  id:: 66eaa51a-32c1-4f3a-830c-30aecb7c45a3
+					  is the ((667bd93a-cce4-4dbf-9831-725e4dffe463)) of the action at the tip of the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)).
 	- ## description
 	  id:: 66532914-003a-4bbb-9e97-6f1c87170d7d
 	  collapsed:: true
@@ -2488,11 +2715,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### CSS
 			-
 	- ## Google Chrome
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-08-22 Thu 18:44:04]
 	  :END:
 		- Disable automatic update
+		  id:: 66c7f42e-5c00-435a-8d30-fe8210c4adf6
 			- Use command switch `--simulate-outdated='Tue, 31 Dec 2099 23:59:59 GMT'` to simulates that it will be out of date in the far future.
+			  id:: 66c7f42e-1084-41d0-8cd8-f51fdc830535
 				- On my machine, i just add this switch to the ((66b1cfa4-1438-4699-9f02-b84075f2a167)) `.desktop` and leave the system `.desktop` untouched.
 				- other switches in [chrome_switches.cc](https://chromium.googlesource.com/chromium/src/+/HEAD/chrome/common/chrome_switches.cc)
 				  collapsed:: true

@@ -83,12 +83,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2024-08-17 Sat 21:16:33]--[2024-08-17 Sat 21:21:36] =>  00:05:03
 		  :END:
 		  => Doctors prescribed her some lung antibiotics and supplements, and told her to revisit after a month, just like my previous lung imflammation.
-		- DOING August 22nd, re-testing the sample, now tuberculosis infection has been found!
+		- DONE August 22nd, my wife is shocked by the false news from her doctor that "the sample re-testing result with tuberculosis infection has been found! prepare to get medicines from Phạm Ngọc Thạch hospital!"
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-08-23 Fri 09:36:50]
-		  CLOCK: [2024-08-23 Fri 09:36:52]
+		  CLOCK: [2024-08-23 Fri 09:36:52]--[2024-09-12 Thu 15:40:21] =>  486:03:29
 		  :END:
-			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) vitsit Phạm Ngọc Thạch hospital to get medicines.
+			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) she feels hurt in the lung, go to hospital to check again with CT scan, and find that the illness has good progress (only a faint shadow of liquefactive necrosis remains).
+		- DONE September 10th, after days of making flower with some lack of sleep, my wife falls into tired sleeps and re-experiences some pain deep inside the lung.
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-12 Thu 15:40:57]--[2024-09-12 Thu 15:53:07] =>  00:12:10
+		  :END:
+			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) she hits to wall again when realizing that all previous expectations and believes about success and happiness are hard wrong which cannot be denied nor ignored anymore. That makes her feel so down and lifeless.
+			- I ask her to try the ujjayi breath, and it works perfectly.
 	- Cha Định phá lệ kể về 3 đời Giới - Định - Tuệ
 	  collapsed:: true
 	  :LOGBOOK:
@@ -528,6 +536,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Dạ vậy để con xác nhận cái con hiểu với thầy trước rồi sẽ thực hành, thực hành rồi sẽ quay lại hỏi thầy thêm.
 						- .... [Hai thầy trò tâm sự còn dài lắm]
 	- Tự sự về giác ngộ đầu tiên về "con đường giải thoát từng bước một"
+	  id:: 66bc67f4-e5ac-4bb6-9979-3ff199815c2e
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-08-14 Wed 15:16:56]
@@ -659,15 +668,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  [Nam Du 10/2013](https://www.facebook.com/media/set/?set=a.746897175327572)
 			- rồi từ định trên hơi thở, mình mới tập thiền quán Tứ Niệm Xứ, có oánh dấu bằng bài này đầu năm 2015 nè. Cũng trong năm đó mình xin nghỉ dạy để đưa mẹ lên An Lạc Trang làm vườn và chuyên tu nè 😊
 			  ["Lại nữa, khi đi tới hoặc đi lui, hành giả cũng ý thức rõ ràng về việc ấy; khi nhìn trước hay nhìn sau..."](https://www.facebook.com/share/p/jCwQ6nVAdK4NnT4z/)
-		- DONE Although still very hard to keep it while doing mental works, the first night applying it for physical activities yielded a good result.
+		- Although still very hard to keep it while doing mental works, the first night applying it for physical activities yielded a good result.
 		  :LOGBOOK:
 		  CLOCK: [2024-08-13 Tue 15:25:44]--[2024-08-13 Tue 15:25:47] =>  00:00:03
 		  :END:
-		- DONE Still a lot of ups and downs (downs more than ups), but keep trying...
+		- Still a lot of ups and downs (downs more than ups), but keep trying...
 		  :LOGBOOK:
 		  CLOCK: [2024-08-20 Tue 08:48:31]--[2024-08-20 Tue 08:48:57] =>  00:00:26
 		  :END:
-	- WAIT Today, August 17th, thanks to Ms. Thu, i've known about the [Aimesoft company](https://www.aimesoft.com/multimodalai.html) with ((66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa)).
+		- These days, thanks to [sinus-throat imflammation](((66e278f7-ce05-4017-99b7-ff69b6228382))), i've done longer series of ujjayi breathing, but doing it while working is still very far from possible!
+	- Today, August 17th, thanks to Ms. Thu, i've known about the [Aimesoft company](https://www.aimesoft.com/multimodalai.html) with ((66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa)).
 	  id:: 66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e
 	  collapsed:: true
 	  :LOGBOOK:
@@ -683,6 +693,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- I'm eager to know if they've done ((66c2ff75-e8fc-452f-be33-6e9b593ba124)) or just combining different unimodal models.
 			- Đức has shown a paper from Aimesoft experimenting with a light-weight multimodal learning: [Multimodal Fusion with BERT and Attention Mechanism for Fake News Detection](https://arxiv.org/abs/2104.11476).
 			- However the product most related to multimodal AI is AI clone (for virtual assistant, virtual lover) is still using simple set of rules instead of multimodal learning.
+		- August 27th, I refuse to work with Aimesoft
+			- Mình cũng khá băn khoăn với cơ hội việc làm này, nhưng ngẫm kỹ lại thì thấy có vẻ mình chưa đủ điều kiện để làm với Aimesoft:
+			- Bên cty mình đang làm thì khá nặng (đối tác với Nhật) nên không có thời gian làm thêm
+			- Mình cũng xem thử nếu được thì nhảy qua làm với Aimesoft, nhưng chắc cũng cần vài tháng thử việc, làm quen và training... trong khi gia đình mình đang gặp khó khăn. 
+			  Nên nói chung là chưa thuận duyên.
 	- I'm practicing clean-room method of mental works with ujjayi
 	  id:: 66c7f663-6ff0-4a6c-a5b4-99b3848a94db
 	  collapsed:: true
@@ -703,3 +718,136 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- when the lower limit is coarse, the subject is insensitive
 			- => forcing if following the subjective experience
 			- => Non-forcing if withdrawing at the right time. The remaining fraction (finer than the limit) will be left in the emotion/feeling, just observe it to subtilize the limit with breath.
+	- First time reverse nose-throat inflammation when it has affected the throat
+	  id:: 66e278f7-ce05-4017-99b7-ff69b6228382
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-12 Thu 15:54:50]
+	  :END:
+		- With the relaxed breath, until now I could only let it progress the full circle when the inflammation has reached the throat. I could only reverse the inflammation at the early phase on the sinus, before reaching the throat.
+		- These days, with ujjayi breath and long series of meditation, i can reverse the inflammation in my throat.
+		- I also discover the technique of masturbation with ujjayi breath, which is related but different from [semen retention](https://en.wikipedia.org/wiki/Coitus_reservatus) techniques because i do ejaculate at the end.
+		  collapsed:: true
+			- [還精補腦 hoàn tinh bổ não](https://en.wikipedia.org/wiki/Huanjing_bunao)
+			  The pre-Tang c. 5th century Dong Xuanzi (洞玄子, Master of the Cavern of Mystery), named after the *Dongxuan* (洞玄, "Mystery Grotto"), which is one of the [Three Grottoes](https://en.wikipedia.org/wiki/Daozang#Three_Grottoes_(sandong)_%E4%B8%89%E6%B4%9E_400) in the *[Daozang](https://en.wikipedia.org/wiki/Daozang)* Daoist canon. One passage lists a number of standard techniques for ejaculation control, mentioning neither squeezing the penis base nor pressing the perineum, and concludes, "the jing will rise of itself."
+			  > Whenever one desires to ejaculate, one must await the woman's orgasm and then bestow the *jing*, ejaculating at the same time. The man should withdraw to a shallow depth and play between the "zither strings" [琴絃] and "wheat teeth [麥齒]." The "*yang* sword tip" [陽鋒] moves deep and shallow like an infant sucking the breast. Then one closes the eyes and turns one's thoughts inward. As the tongue is pressed against the lower palate, arch the back, stretch out the head, dilate the nostrils, hunch the shoulders, close the mouth and inhale, and the *jing* will rise of itself [精便自上]. The degree of control is always dependent on the individual. One should only ejaculate two or three times in ten. (Wile 1992: 111-112)
+		- Today, September 12th, the throat shows no apparent sign of inflammation, but still very sensitive. Whenever i lose focus on my body and am sucked into the computer, the throat catches cold and makes me cough.
+		  collapsed:: true
+			- After a bad cough, i stand up to escape this cold room and go out for a walk under the warm sun. Before returning the the lab room, i sit down for a while to think about the interaction between autonota in the ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)).
+			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((66e2ae92-feca-492f-9278-0f64f9d6d7e9))
+	- Toward the end of love karma/dept
+	  id:: 66e3a0f4-579a-4668-97c2-cbb9984e59c2
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-13 Fri 09:18:30]
+	  CLOCK: [2024-09-13 Fri 09:29:35]--[2024-09-13 Fri 09:54:13] =>  00:24:38
+	  :END:
+		- Thanks to the occasion of Mr. Hiệp, i've seen clearer my dept (attachment) of love.
+			- A lot of online chats like this: ((66bc67f4-e5ac-4bb6-9979-3ff199815c2e))
+			- He visited Vietnam 1 month between August & September.
+			- When his trauma had him refuse my love, i had chances to reflect about my love attachment and let it go: [Sống trong đời sống, cần có một tấm lòng... để gió cuốn đi!](https://www.facebook.com/lexuandinhct/posts/pfbid026uguj6Vj4b5QxhAJoSpEzDKHaK43FtFXSNhc7Cnxk7VXkxZhnL3xgxiA24QeU1dEl)
+			- Somehow i realized my own liar paradox: [Mình đã cố gắng sống thật, thành thực nhứt... nhưng rút cục mình nhận ra mình chỉ là một kẻ đạo đức giả mà thôi 😃](https://www.facebook.com/lexuandinhct/posts/pfbid02XsADRFkdfy8FKSY4EPmn17ep9jAwBCCUzbuJuyZwwtnKdUja9taoEpCZHB3gV3zHl)
+		- Word plays: "thương hại", "trắc ẩn" -> "trắc hiện"
+		- The root of love is pain:
+			- "thương" = "bi" = "trắc" = pain/trauma --> great attachment --> to release it, i must heal my trauma first before loving anyone else
+			- [fb status](https://www.facebook.com/lexuandinhct/posts/pfbid02P7zFg4mGKerAMoThd3NvUqJiJ5Yqz8KQSVViUKWqrrxXFLbS3jH47mDUFg1NxaH3l): Vì tình thương xuất phát từ vết thương nên rất dễ bị tổn thương!
+			  id:: 66e3a161-3283-4cc7-bdca-13156d5b995f
+			  :LOGBOOK:
+			  CLOCK: [2024-09-06 Fri 09:21:20]
+			  :END:
+			  [Còn thấy đau là còn thương](https://youtu.be/_aghWPzkB7M)
+			- "bị thương" & "thương" are just 2 ends of the arrow
+			- equal = "circle = arrow" = through (nonblocking open) circle = fine energy = từ bi (mercy) = selfless
+			- Blocked circle = hurt, suffering = self
+				- Blocked from inside = hate
+				- Blocked from outside = love (with entanglement)
+			- belief in the circles:
+				- External circles: illogical & hurt are just a partial view.
+					- The whole view: everything has its own logic; as long as it can keep from showing suffering, it's sufferings are balanced by the other parts.
+					- ==> No need to intervene/interfere!!!
+				- Internal circles: believe in my parts 
+				  ==> don't hold them tight, can let them go to return to the center of zero (selfless) to dodge the opposite arrow 💘, then we can gather again without problem
+	- [Mount Meru](https://en.wikipedia.org/wiki/Mount_Meru) (Sumeru) and [Buddhist cosmology](https://en.wikipedia.org/wiki/Buddhist_cosmology)
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-18 Wed 19:44:03]
+	  CLOCK: [2024-09-18 Wed 19:46:11]--[2024-09-19 Thu 11:33:21] =>  15:47:10
+	  CLOCK: [2024-09-19 Thu 11:33:22]--[2024-09-19 Thu 11:33:24] =>  00:00:02
+	  :END:
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) **Mount Meru** (मेरु), also known as **Sumeru**, **Sineru**, or **Mahāmeru**, is the [sacred five-peaked mountain](https://en.wikipedia.org/wiki/Sacred_mountain) of [Hindu](https://en.wikipedia.org/wiki/Hindu_cosmology), [Jain](https://en.wikipedia.org/wiki/Jain_cosmology), and [Buddhist cosmology](https://en.wikipedia.org/wiki/Buddhist_cosmology) and is considered to be the centre of all the [physical](https://en.wikipedia.org/wiki/Physical_universe), [metaphysical](https://en.wikipedia.org/wiki/Metaphysics), and spiritual universes.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- [The View from Mount Meru](https://www.lionsroar.com/the-view-from-mount-meru/): Ajahn Punnadhammo explains how traditional Buddhist cosmology contains important insights for practicing the Buddhist teachings.
+			- Indra's Net: is a metaphor used to illustrate the concepts of [Śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) (emptiness), [pratītyasamutpāda](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) (dependent origination), and [interpenetration](https://en.wikipedia.org/wiki/Buddhist_philosophy#Huayan) in [Buddhist philosophy](https://en.wikipedia.org/wiki/Buddhist_philosophy). It is an infinitely large net owned by the [Vedic](https://en.wikipedia.org/wiki/Vedic) [deva](https://en.wikipedia.org/wiki/Deva_(Hinduism)) [Indra](https://en.wikipedia.org/wiki/Indra), which hangs over his palace on [Mount Meru](https://en.wikipedia.org/wiki/Mount_Meru), the [axis mundi](https://en.wikipedia.org/wiki/Axis_mundi) of [Buddhist](https://en.wikipedia.org/wiki/Buddhist_cosmology) and [Hindu cosmology](https://en.wikipedia.org/wiki/Hindu_cosmology).
+			- This is similar to the Biblical [Book of Genesis](https://en.wikipedia.org/wiki/Book_of_Genesis).
+			  collapsed:: true
+				- Thú vị là cũng có trận đại hồng thủy tương tự bên kia !😁
+				- Nhưng sự hình thành từ vật chất đến con người và xã hội thì theo hướng tự diễn biến hơn là kiểu "Chúa phán".
+					- Phần phát triển sinh vật trên trái đất (chúng sanh cõi Dục) thì cũng khá hợp khoa học khi bắt đầu từ nấm ăn đất (đúng ra là ăn đá để tạo thành đất) > cây ăn nấm > động vật ăn cây trái > người ăn lúa
+					- Phần hình thành XH cũng khá hợp khoa học, từ hái lượm tới trồng trọt, tích lũy, hình thành giai cấp
+				- Mắc cười nhứt là vụ giải thích sông ngòi = mồ hôi chảy ra !😁
+				- Phẩm 2: UẤT-ĐAN-VIẾT
+				  Cõi này tương tự như vườn Eden bên kia vậy:
+				  Vườn ấy thường mọc lúa thơm tự nhiên, không có vỏ trấu, trắng như đóa hoa, đầy đủ các vị, như cơm trời Đao-lị. Vườn ấy thường có nồi chõ tự nhiên; có ngọc ma ni, tên là Diệm Quang đặt dưới nồi chõ; khi cơm chín, ánh sáng tắt, chẳng cần lửa củi, chẳng nhọc công người....
+				- Cũng như chúa Giê-su dựa trên nền tảng truyền thống Cựu Ước mà chế ra Tân Ước, Phật Thích Ca cũng dựa trên mô hình vũ trụ quanh núi Tu-di (Mount Meru) của truyền thống Bà-la-môn mà chế thêm nhiều tầng trời cao hơn nữa và cao nhứt là hư không, và giải thích việc Phạm Thiên Vương (Chúa tể Vũ Trụ, Brahman) tự coi mình là "đấng sáng thế" là do "không biết mình được tái sinh từ cõi trời bên trên xuống", và rằng dù có tuổi thọ rất lâu nhưng tất cả các vị trời này đều có sanh, có tử và tái sanh.
+			- Thầy Thích Minh Tuệ trả lời câu hỏi "Nếu ai cũng đi tu như thầy Thích Minh Tuệ, thì lấy đâu ra gạo thóc mà ăn?" bằng ý trong kinh [Kinh Khởi thế nhân bổn](https://suttacentral.net/dn27/vi/minh_chau)
+			  {{video https://youtu.be/dRj5A3T6zTE}}
+		- [Aggañña Sutta](https://en.wikipedia.org/wiki/Agga%C3%B1%C3%B1a_Sutta): Long Discourses > 27. [What Came First](https://suttacentral.net/dn27/en/sujato)
+			- Trường Bộ Kinh > 27. [Kinh Khởi thế nhân bổn](https://suttacentral.net/dn27/vi/minh_chau)
+		- Long Discourses > 30. Description of the World > Chapter 12: [The Origins of the World](https://suttacentral.net/da30/en/patton#12)
+		- KINH TRƯỜNG A-HÀM > 30. [KINH THẾ KÝ [世記]](https://suttacentral.net/da30/vi/tue_sy)
+			- Phẩm 12: [THẾ BỔN DUYÊN](https://suttacentral.net/da30/vi/tue_sy#12) > [Tóm lược](https://docs.google.com/document/d/15SCFIHWMlszEhaBzs1HI0DUKZn-IzuvMrlKtTmAwJHY/edit?usp=sharing)
+			  collapsed:: true
+				- **Chúng sanh cõi Sắc (cõi Tưởng)**
+					- Sau khi qua khỏi hỏa tai (đám cháy lớn, vụ nổ lớn Big Bang), khi trời đất của thế gian này sắp sửa thành tựu trở lại, một số chúng sanh khác phước hết, hành hết, mạng hết, mạng chung ở cõi trời Quang Âm thiên, sinh vào cung điện Phạm thiên trống không, rồi sinh tâm đắm nhiễm chỗ đó, yêu thích chỗ đó, nên nguyện cho chúng sanh khác cũng sinh vào nơi này. Sau khi phát sanh ý nghĩ này rồi, thì những chúng sanh khác phước hết, hành hết, mạng hết, từ cõi trời Quang Âm thiên, sau khi thân hoại mạng chung, sinh vào cung điện Phạm thiên trống không. Bấy giờ, vị Phạm thiên sinh ra trước liền tự nghĩ rằng: ‘Ta là Phạm vương (Chúa tể Vũ Trụ, [Brahmā](https://en.wikipedia.org/wiki/Brahm%C4%81_(Buddhism))), là Đại Phạm thiên vương, không có ai sáng tạo ra ta, ta tự nhiên mà có, không bẩm thọ cái gì từ ai hết; ở trong một nghìn thế giới ta hoàn toàn tự tại, thông rõ các nghĩa lý, giàu có sung mãn, có khả năng tạo hóa vạn vật; ta là cha mẹ của tất cả chúng sanh.’
+					- Các Phạm thiên sanh sau lại tự nghĩ rằng: ‘Vị Phạm thiên sanh trước kia là Phạm vương, là Đại Phạm thiên vương. Vị ấy tự nhiên mà có, không do ai có sáng tạo; là đấng Tối Tôn ở trong một nghìn thế giới, không bẩm thọ từ ai cái gì, thông rõ các nghĩa lý, giàu có sung mãn, có khả năng sáng tạo vạn vật, là cha mẹ của tất cả chúng sanh. Ta từ vị ấy mà có.’
+					- …
+					- Hoặc có lúc, khi thế giới này chuyển thành trở lại, phần lớn chúng sanh có kẻ sinh về Quang Âm thiên, bằng hóa sinh tự nhiên, sống bằng thức ăn là sự hoan hỉ, mình phát ra ánh sáng, có thần túc bay trong hư không, an vui không ngại, mạng sống lâu dài.
+					- Sau đó thế gian này biến thành đại hồng thủy, tràn ngập khắp nơi. Vào lúc bấy giờ thiên hạ hoàn toàn tối tăm, không có mặt trời mặt trăng, tinh tú, ngày đêm, và cũng không có năm tháng hay con số bốn mùa. Sau đó, khi thế gian này bắt đầu sắp chuyển biến, một số chúng sanh khác phước hết, hành hết, mạng hết, từ cõi Quang Âm thiên sau khi mạng chung sinh đến thế gian này, bằng hóa sinh, và ăn bằng sự hoan hỷ, tự thân phát sáng, có thần túc bay trong hư không, an vui không ngại, sống lâu dài ở đây. Khi ấy, không có nam nữ, tôn ty, trên dưới, cũng không có những tên khác nhau. Các chúng cùng sinh ở thế gian này, cho nên gọi là chúng sinh.
+					- …
+					- **Vật chất hình thành trong cõi Sắc**
+						- …
+						- Một thời gian lâu, rất lâu về sau, có một trận cuồng phong mạnh nổi lên thổi nước biển lớn, sâu tám vạn bốn nghìn do-tuần, khiến cho biển bị tách làm hai, mang cung điện Mặt Trời đặt ở lưng núi Tu-di, an trí quỹ đạo Mặt Trời, mọc ở phương Đông và lặn ở phương Tây, đi quanh khắp thiên hạ.
+						- …
+						- Vì duyên gì nên ánh sáng mặt trời nóng bức? Có mười nhân duyên. Những gì là mười? Một, ngoài núi Tu-di có núi Khư-đà-la cao bốn vạn hai nghìn do-tuần, rộng bốn vạn hai nghìn do-tuần, biên núi không ước lượng được; núi được tạo thành bởi bảy báu. Khi ánh sáng mặt trời chiếu đến núi, xúc chạm mà phát sinh ra nhiệt. Đây là duyên thứ nhất ánh sáng mặt trời nóng bức.
+						- 2 là núi Y-sa-đà; 3 là núi… 4, 5, 6, 7, 8 là núi Kim cang luân; 9 là bên trên cung điện Mặt Trời có cung điện Tinh Tú; 10 là ánh sáng cung điện mặt trời chiếu xuống đại địa, xúc chạm mà phát sinh ra nhiệt.
+						- Tại sao cung điện mặt trời mùa đông thì lạnh để không thể ở gần được? Có ánh sáng mà sao lạnh? Có mười ba duyên, tuy có ánh sáng nhưng vẫn lạnh, Những gì là mười ba? Một, vì giữa hai núi Tu-di và Khư-đà-la có nước, rộng tám vạn bốn nghìn do-tuần, chu vi thì vô lượng. Nước này sinh ra rất nhiều loại hoa khác nhau như: hoa ưu-bát-la, hoa câu-vật-đầu, hoa bát-đầu-ma, hoa phân-đà-lợi, hoa tu-kiền-đề; khi ánh sáng mặt trời chiếu xuống, xúc chạm mà sinh ra lạnh. Đó là duyên thứ nhất để ánh sáng mặt trời lạnh.
+						- 2 3 4 5 6 7 8 là giữa núi Điều phục và núi Kim cang luân có nước; 9 là các sông ngòi, biển cả trong đất Diêm-phù-đề khi được ánh sáng mặt trời chiếu xuống một lần chạm nhau thì sinh ra lạnh;
+						- 10 11 12 13 là các sông ngòi biển cả trên Đại Địa.
+						- …
+						- Lại vì duyên gì mà có các sông ngòi? Vì Mặt trời, Mặt trăng có độ nóng. Do độ nóng này mà có nung đốt. Do có nung đốt nên có mồ hôi. Do mồ hôi mà thành sông ngòi. Do đó thế gian có sông ngòi.
+						- …
+						- Vì nhân duyên gì mà thế gian có năm loại hạt giống? Có cuồng phong dữ từ thế giới chưa bị hủy diệt thổi hạt giống đến sanh ở quốc độ này.
+						- …
+				- **Chúng sanh cõi Dục (cõi Vật chất)**
+					- Khi kiếp sơ, chúng sanh sau khi nếm vị đất, rồi tồn tại một thời gian lâu dài. Những ai ăn nhiều, nhan sắc trở nên thô kịch, khô héo. Những ai ăn ít, nhan sắc tươi sáng, mịn màng. Từ đó về sau mới phân biệt nhan sắc tướng mạo của chúng sanh có hơn có kém, và sinh ra thị phi với nhau, nói rằng: ‘Ta hơn ngươi; ngươi không bằng ta.’ Do tâm của chúng phân biệt kia và ta, ôm lòng cạnh tranh, cho nên vị đất tiêu hết.
+					- Sau đó, chúng ăn lớp da đất (nấm 🍄), dần quen cái vị của nó.... có xấu có đẹp... ôm lòng cạnh tranh, cho nên nấm đất tiêu hết.
+					- Sau đó lại xuất hiện một loại da ngoài của đất, càng lúc càng dày thêm, màu của nó như thiên hoa, mềm mại của nó như thiên y, vị của nó như mật... có xấu có đẹp... ôm lòng cạnh tranh, cho nên hoa đất tiêu hết.
+					- Sau đó, lại xuất hiện loại lúa tẻ mọc tự nhiên, không có vỏ trấu, không cần phải gia thêm chế biến mà chúng đã đầy đủ các thứ mỹ vị.... Sau đó, chúng sanh cùng nhau lấy lúa tẻ tự nhiên này ăn, và thân thể chúng, trở nên thô xấu, có hình dáng nam nữ, nhìn ngắm nhau, sinh ra dục tưởng; họ cùng nhau tìm nơi vắng làm hành vi bất tịnh, các chúng sanh khác thấy than rằng: ‘Ôi, việc làm này quấy! Tại sao chúng sanh cùng nhau sinh ra chuyện này?’ Người nam làm việc bất tịnh kia, khi bị người khác quở trách, tự hối hận mà nói rằng: ‘Tôi đã làm quấy.’ Rồi nó gieo mình xuống đất. Người nữ kia thấy người nam này vì hối lỗi mà gieo mình xuống đất, không đứng lên, liền đưa thức ăn đến. Chúng sanh khác thấy vậy, hỏi người nữ rằng: ‘Ngươi đem thức ăn này để cho ai?’ Đáp: ‘Chúng sanh hối lỗi kia đọa lạc thành kẻ làm điều bất thiện, tôi đưa thức ăn cho nó.’ Nhân lời nói này, nên thế gian liền có danh từ ‘người chồng bất thiện’, và vì việc đưa cơm cho chồng nên được gọi là vợ.
+					- Sau đó, chúng sanh bèn làm chuyện dâm dật, pháp bất thiện tăng. Để tự che dấu, chúng tạo ra nhà cửa. Do vì nhân duyên này, bắt đầu có danh từ ‘nhà.’
+					- Sau đó, sự dâm dật của chúng sanh càng ngày càng tăng, nhân đây đã trở thành chồng vợ. Có các chúng sanh khác, khi tuổi thọ hết, hành hết, phước hết, từ cõi trời Quang Âm sau khi mạng chung lại sinh vào thế gian này, ở trong thai mẹ, nhân đây thế gian có danh từ ‘mang thai.’
+					- **Xã Hội hình thành trong cõi Dục**
+						- Bấy giờ, khi chúng sanh bắt đầu ăn lúa tẻ mọc tự nhiên, sáng sớm gặt thì chiều tối lại chín, chiều tối gặt thì sáng sớm lại chín. Sau khi được gặt, lúa sinh trở lại, hoàn toàn không có thân cuống lúa.
+						- Rồi thì, có chúng sanh thầm nghĩ rằng: ‘Sao ta mỗi ngày mỗi gặt chi cho mệt nhọc? Nay hãy gom lấy đủ cho nhiều ngày.’ Nó bèn gặt gộp lại, chứa số lương đủ cho nhiều ngày. Người khác sau đó gọi nó: ‘Nay chúng ta hãy cùng đi lấy lúa.’ Người này bèn trả lời: ‘Tôi đã chứa đủ sẵn rồi, không cần lấy thêm nữa. Anh muốn lấy, cứ tùy ý đi lấy một mình.’ Người kia bèn nghĩ thầm: ‘Gã này có thể lấy đủ lương cho hai ngày, sao ta không thể lấy đủ cho ba ngày?’ Người ấy bèn chứa dư ba ngày lương. Lại có những người khác gọi nó: ‘Hãy cùng đi lấy lương.’ Nó liền đáp: ‘Ta đã lấy dư ba ngày lương rồi. Các người muốn lấy, tùy ý đi mà lấy.’ Các người kia bèn nghĩ: ‘Người kia có thể lấy ba ngày lương, sao ta không thể lấy năm ngày lương?’ Rồi chúng lấy năm ngày lương. Bấy giờ, chúng sanh tranh nhau cất chứa lương dư, nên lúa tẻ ấy bèn sanh ra vỏ trấu; sau khi được gặt, không mọc trở lại nữa; chỉ còn trơ cọng khô mà thôi.
+						- Rồi chúng phân chia ruộng đất, vạch bờ cõi khác nhau, phân biệt của người và của ta. Sau đó mọi người tự cất giấu lúa thóc của mình, trộm lấy lúa ruộng người khác. Các chúng sanh khác trông thấy, nên nói: ‘Việc ngươi làm là quấy! Việc ngươi làm là quấy! Tại sao cất dấu vật của chính mình, mà đi trộm tài vật của người?’ Chúng bèn quở trách rằng: ‘Từ nay về sau không được tái phạm việc trộm cắp nữa!’ Nhưng những việc trộm cắp như vậy vẫn tái phạm không dứt, mọi người lại phải quở trách: ‘Việc ngươi làm sai quấy! Tại sao không chịu bỏ?’ Rôi chúng lấy tay mà đánh, lôi đến giữa đám đông, báo cáo cùng mọi người rằng: ‘Người này tự cất dấu thóc lúa, đi trộm lúa ruộng của người.’ Người ăn trộm nói lại: ‘Người kia đã đánh tôi.’ Mọi người nghe xong, ấm ức rơi lệ, đấm ngực nói rằng: ‘Thế gian trở nên xấu ác, nên đã sinh ra pháp ác này chăng?’ Nhân đấy mà sinh ra ưu kết nhiệt não khổ báo; rằng: ‘Đây là cội nguồn của của sinh, già, bệnh, chết; là nguyên nhân rơi vào đường ác. Do có ruộng nhà, bờ cõi riêng khác, nên sinh ra tranh giành kiện tụng, đưa đến oán thù, không ai có thể giải quyết. Nay chúng ta hãy lập lên một người chủ bình đẳng, để khéo léo giữ gìn nhơn dân, thưởng thiện phạt ác. Mọi người trong chúng ta đều cùng nhau giảm bớt phần của mình để cung cấp cho người chủ này.’
+						- Lúc đó, trong chúng có một người hình thể vạm vỡ, dung mạo đoan chánh, rất có oai đức. Mọi người bảo rằng: ‘Nay, chúng tôi muốn tôn bạn lên làm chủ, để khéo léo giữ gìn nhơn dân, thưởng thiện phạt ác. Chúng tôi sẽ giảm bớt phần của mình mà cung cấp.’ Người này nghe xong, liền nhận làm chủ. Ai đáng thưởng thì thưởng; ai đáng phạt thì phạt. Từ đây mới bắt đầu có danh từ  'vua' tức ‘chủ của dân’, và hình thành chủng tánh Hoàng tộc (Sát-đế-lỵ, Kshatriya caste) ở thế gian.
+						- Bấy giờ, các vua mới cho xây dựng nên thành quách, từ Chiêm-bà, kế đến là thành Già-thi, Ba-la-nại, và tiếp theo là thành Vương xá. Lúc mặt trời mọc thì bắt đầu kiến tạo, tức thì lúc mặt trời lặn là hoàn thành. Do nhân duyên này nên thế gian liền có tên thành, quách, quận, ấp, là chỗ nhà vua cai trị.
+						- ...
+						- Bấy giờ, có một chúng sanh suy nghĩ như vầy: ‘Tất cả mọi sở hữu như gia đình, quyến thuộc, muôn vật ở thế gian đều là gai nhọn, ung nhọt, nay nên lìa bỏ, vào núi hành đạo, ở nơi vắng vẻ mà tư duy.’ Rồi thì, người ấy liền lìa bỏ gai nhọn là gia đình, vào núi, ở nơi vắng vẻ, ngồi dưới gốc cây mà tư duy, hằng ngày ra khỏi núi, vào thôn xóm mà khất thực. Mọi người trong thôn thấy vậy, càng cung kính cúng dường. Mọi người đều cùng khen ngợi rằng: ‘Người này có thể lìa bỏ hệ lụy của gia đình để vào núi tìm đạo.’ Vì người này có thể xa lìa được pháp ác bất thiện, nên nhân đó mà gọi là Bà-la-môn (Brahmin).
+						- Trong chúng Bà-la-môn có người không hành Thiền được, nên ra khỏi rừng núi, du hành trong nhơn gian, và tự nói: ‘Ta không thể tọa thiền.’ Nhân đó gọi là Vô thiền Bà-la-môn. Rồi đi qua các thôn xóm, những kẻ vô thiền bà-la-môn này ghi chép kinh sách và thuyết giảng, nên được gọi là "thầy". Do nhân duyên này mà có chủng tánh Thầy (Bà-la-môn, [Brahmin caste](https://en.wikipedia.org/wiki/Brahmin)) ở thế gian.
+						- Trong các chúng sanh kia, chúng học tập các thứ nghề để tự mưu sống, nhân đây nên có chủng tánh Cư sỹ (Phệ-xá, Vaiśya caste) ở thế gian: thương nhân, thợ thủ công, nông dân, người chăn nuôi, v.v.
+						- Trong các chúng sanh kia, có những chúng sanh yếu thế bị bắt phục vụ chúng sanh khác, nhân đây nên có chủng tánh Tiện dân (Thủ-đà-la, Shudra caste) ở thế gian: kẻ làm thuê, tôi tớ, nô lệ.
+						- ...
+						- Ở trong 4 chúng (Hoàng tộc, Thầy, Cư sỹ, Tiện dân), có người cạo bỏ râu tóc, mặc ba pháp y, xuất gia cầu đạo. Vị ấy tu tập bảy cách giác ngộ (Thất giác chi). Vị ấy do lòng tin kiên cố mà xuất gia hành đạo, tu phạm hạnh vô thượng, ở ngay trong đời này mà tự thân tác chứng: ‘Sự sanh của ta đã dứt, phạm hạnh đã vững, những gì cần làm đã làm xong, tự biết không còn tái sanh đời sau nữa.’ Vị ấy chứng đắc A-la-hán, là đệ nhất tối thượng.
+	- Leader's charisma & aura
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-19 Thu 12:31:27]
+	  CLOCK: [2024-09-19 Thu 12:34:11]
+	  :END:
+		- Krishnamurti's charisma attracts people to listen even hardly understand
+			- Logic, intellect
+			- Seem honest, asking questions (leading questions only), affective
+			- Krishnamurti- His Life and Death
+			  > You seem surprised that people do not understand you but I should be far more surprised if they did!! After all, you are upsetting everything in which they have ever believed –knocking out their foundations and putting in its place a nebulous abstraction.
+			- [Krishnamurti-Love and Freedom: Approaching a Mystery](https://www.theosophical.org/publications/quest-magazine/krishnamurti-love-and-freedom-approaching-a-mystery)
+		- Hitler's strength touches people deep to their hidden anger and desire of winning.

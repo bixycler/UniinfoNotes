@@ -7,6 +7,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
+		- ((66eb7dae-2032-434b-9106-756d4aad7cdb))
+		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
+		- ((66e3fe46-dc79-472a-a059-f5ccf5afb437))
+		-
 		- DOING symbols for ((66c8941d-6427-4e5c-9009-3af349500d7b))
 		  :LOGBOOK:
 		  CLOCK: [2024-08-23 Fri 12:16:21]
@@ -37,6 +41,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-07-22 Mon 09:57:18]
 		  CLOCK: [2024-07-22 Mon 09:57:20]
 		  :END:
+		- WAIT Add to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) various types of [extending dimensions](((667d202e-f401-46ba-ab32-c4fd77b49ab1))).
+		  :LOGBOOK:
+		  CLOCK: [2024-06-28 Fri 08:11:13]
+		  :END:
+		-
+	- ## Tasks
+	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
+		-
 		-
 		- WAIT ((66536e1b-6466-4153-90d6-583003d99a81)): Write a script to convert headless block ref to `[](((uuid)) "block content")` and a plugin to copy block ref in that format.
 		  id:: 667d2479-487a-49ab-949f-722eb47a16ef
@@ -121,18 +133,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				  collapsed:: true
 					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
 			- TODO Check if `logseq.DB.onChanged` can catch block creation event... to automatically timestamp newly created blocks.
-	- ## Tasks
-	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
-		-
-		- WAIT Add to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) various types of [extending dimensions](((667d202e-f401-46ba-ab32-c4fd77b49ab1))).
-		  :LOGBOOK:
-		  CLOCK: [2024-06-28 Fri 08:11:13]
-		  :END:
-		- WAIT ((6667c99a-792f-4230-9fc6-c5fae874daef))
-		  id:: 666d71cd-20bd-4f24-b055-940eebf44591
-		  :LOGBOOK:
-		  CLOCK: [2024-06-11 Tue 10:58:26]--[2024-06-11 Tue 10:58:27] =>  00:00:01
-		  :END:
 		-
 		- TODO Auto-complete & typing assistant for **quotation marks**, symbols...
 		- TODO Backup & republish my contents on Facebook
@@ -255,6 +255,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- Each access of an old work from a new context reveals a new ((66723642-58f1-4a74-bba3-0108f14c6bac)), new ((667d0b78-fff6-49bc-90d5-165648ed56d3)), hence the old work should be updated to reflect this new view.
 					- When a later access shows any difficulty in understanding or any inconsistency, the old work should be reorganized.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the more accesses to a work, the better organized that work will be.
+			- Solution to my problem of "wandering, lost in complexity": shift from depth-first to breadth-first traversal
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-09-19 Thu 12:24:53]
+			  :END:
+				- when it's too deep with analytics (differential), it's too abstract, lacking context, groundless, formless, messy, collapsed, the object is sliced into disconnected parts
+				- traversal on the breadth with CIfEr provides context, condition (duyên), form to stretch the loop out to be a full circle 🌕, to be the whole
 		- [!] The issue of love, i.e. emotional attatchment
 		  collapsed:: true
 			- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
@@ -487,3 +494,27 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- ((66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e))
 		- ((66c7f663-6ff0-4a6c-a5b4-99b3848a94db))
 		- ((66c7feaa-db1e-40ef-917d-be2a6efacdde))
+		- ((66e278f7-ce05-4017-99b7-ff69b6228382))
+		- [fb post](https://www.facebook.com/lexuandinhct/posts/pfbid02LJpymHByLfCFMJwxkpo55jgA4UAjxv6HmdTa2aCgQzFtAe6ukuHkrXKocm57dFNZl): Nhờ nuôi con cóc này trong nhà mà giờ mình đã hiểu tại sao lại gọi là "giương mắt ếch" ! 🐸
+		  :LOGBOOK:
+		  CLOCK: [2024-09-13 Fri 09:27:16]
+		  :END:
+		- ((66e3a0f4-579a-4668-97c2-cbb9984e59c2))
+		- DONE ((6667c99a-792f-4230-9fc6-c5fae874daef))
+		  id:: 666d71cd-20bd-4f24-b055-940eebf44591
+		  :LOGBOOK:
+		  CLOCK: [2024-06-11 Tue 10:58:26]--[2024-06-11 Tue 10:58:27] =>  00:00:01
+		  CLOCK: [2024-09-13 Fri 15:33:28]--[2024-09-13 Fri 15:33:36] =>  00:00:08
+		  :END:
+		- History of my thinking methods
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-13 Fri 16:11:07]
+		  :END:
+			- First, open-eye thinking: use the external scene to pin/nail down my ideas
+			- Then, close-eye thinking: use meditative state to keep from attachment
+			- Now, close eye with ujjayi: use the breath of change (its noise) to blur the ideas, to further detach from them so that i can switch & transform them freelier.
+			- When eyes open, the internal/perception screen is filled with external objects 
+			  --> no space to protect the internal/underlying mechanism/structures
+				- => With eyes closed, i can see deeper into the background, more wholesome
+				- => With eyes open, i dive deeper into the foreground, more detailed

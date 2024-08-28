@@ -299,10 +299,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- spirorus extending, thread ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
 		- constant velocity of light = constant sum of squares 
 		  id:: 667e0e4b-9f87-45b5-adb1-297b79943502
-		  => distortion (from [perfect circle](((6667c99a-792f-4230-9fc6-c5fae874daef)))) = extending to other dimensions
+		  => distortion (from ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))) = extending to other dimensions
 			- Radius of circle = height of tree 🎄 = digit sequence = intension = log(intent) = articulated limb = dimensions of space = orders of derivatives = independent layers in holographic world = sequence of self circles = const length loop collapsed into a polyline
 			  id:: 66875f13-3385-48d5-99b1-fb72dc53291d
-			  collapsed:: true
 				- each segment = a level of diff (derivative) = a digit of number
 				- locus of all segments = locus of intension (collapsed) circle = spirorus
 				  + But only the tip is visible => see only a trace of tip point = extent
@@ -480,6 +479,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Like experience, resource is collected from the past into a form to shape the future.
 		- All maps are distribution of resources which are formed inside selves.
 		- The limit of resource is the constraint of the form upon actions.
+		  id:: 66b1cfa3-385f-437c-88f2-f76c0684c9e3
 			- The head controls the distribution of resources, according the the currently earned resource, to put constraints on its body parts.
 				- There are many layers of distributions, just like positions of digits.
 				  collapsed:: true
@@ -513,6 +513,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  => When we pulverize the memory into each cell, each breath seeing the whole life, we can charge in one breath
 		- (ujjayi) breath is the thread connecting the "blind doer" with the "inactive seer", the back link "act -> stop"
 		- training = abstract mirroring = emotion: reward & punishment = abstraction of pro & cons pathways in the environment = affection & aversion
+	- WAIT equilibrium = static balance = balance at all scales, vs. intrinsic balance = dynamic balance = balance between scales
+	  id:: 66b1cfa4-70f7-4cc5-94db-c69c9e7e1e4e
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-07-22 Mon 09:18:17]
+	  CLOCK: [2024-07-22 Mon 09:18:24]--[2024-09-13 Fri 15:39:37] =>  1278:21:13
+	  :END:
+		- Heat (static) dispersion vs wave (momentum) propagation
+			- spreading: phép cuốn chiếu, sigmoid function in ANN, string searching algorithm => exp to log
+		- Deep learning = learning at all scales = heat (static) dispersion
+			- Pure functional = non-dispersive wave
+			- Turing machine (with memory & side effect) = shallow learning
 	- mechanical = one-way effect flow "bottom up"= one-way static constraint "top down" <> biological = two/all-way effect & constraint spreading wave = deep & broad learning = imprinting/memorizing to all parties
 	  collapsed:: true
 	  :LOGBOOK:
@@ -523,7 +535,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- self = constant inner most circle = the unchanged program of the Mecha = the top boss <> selfless = no circle is constant = all circles change = impermanent = no attachment
 		- radius = constraint arrow <> arc = effect arrow
 			- constraint flow = input & invocation from center out <> effect flow = output return from circumference in
-	- Absolute vs relative = amount ⭕️ lượng vs direction ⬆️ tính chất = form vs content = extent vs intent = norm vs abnorm = modulus/correct vs remainder/diff/error
+	- Absolute vs relative = ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)) ⭕️ lượng vs ((66e42d39-a296-4ed9-a686-4cb213783830)) ⬆️ tính chất = form vs content = extent vs intent = norm vs abnorm = modulus/correct vs remainder/diff/error
+	  id:: 66c7fdec-59db-4f96-a8a7-913247586534
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-08-23 Fri 10:11:43]
@@ -533,3 +546,239 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- angle is a circular number = abnorm vs norm = linear number
 		- CIE: content (tính, nature, property) - intent (chất, substance) - extent (lượng, amount, quantity); quality (tính chất) = property (tính) + substance (chất)
 		- Chat with Gemini: [Absolute vs relative = amount ⭕ vs direction ⬆️](https://g.co/gemini/share/355ff13f7f19)
+	- Circle (the form of all forms, the knowledge of all knowledge)
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-28 Wed 14:20:16]--[2024-08-28 Wed 14:24:57] =>  00:04:41
+	  :END:
+	  Arrow → the content of all contents, the info of all info
+	  Equal = the law of all laws, the wisdom of all wisdom
+		- ```
+		  dot → arrow → circle → equal 
+		   content → form      → law
+		          info → knowledge → wisdom
+		  ```
+		- contents: dot, arrow
+		- forms: arrow, circle
+		- law: equal
+		- info: content, form
+		- knowledge: form, law
+	- The Equal = returning ⬆️ to the complete ⭕️
+	  id:: 66ceeca0-a149-4fe0-85a8-9302f96eb669
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-28 Wed 16:26:56]--[2024-08-28 Wed 17:00:58] =>  00:34:02
+	  :END:
+		- Linear equation without negative
+		  `|yin| = |yang|`
+			- to cancel out, we must combine 2 steps: Return & Balance
+			  id:: 66ceee7e-a483-4e39-a262-572d19eff7fa
+			- Blog: [Giác ngộ toán học](https://creatzynotes.blogspot.com/2024/05/giac-ngo-toan-hoc.html)
+				- "Jabr" (جبر) = "Phục hồi" = "Hoàn thiện" = return the *negative* to the other side (of the Equal) to be *positive*
+				- "Muqābala" (مقابلة) = "Cân bằng", đối lập, gặp nhau, tương ứng = cancelling 2 balanced terms
+		- Circular equation containing both positives and negatives
+		  `yin + yang = 0`
+			- only one operation *Cancel out* is needed where the positive and the negative can mutually *cancel out in place*.
+			- The Equal (`=`) is the Zero dot (`0`), i.e. the "eye" on the marked Circle.
+			- The "return" operation is done automatically via the circular connection at the opposite side of the eye, instead of acrossing the eye.
+		- Blog: [☯ Làm mịn hình sóng = Âm-Dương giao hòa = Giải thoát](https://creatzynotes.blogspot.com/2023/03/lam-min-hinh-song-am-duong-giao-hoa.html)
+			- ⬆️ Cancellation is the conservation of substances (momentum): `yin + yang = 0 ` ⇒ `|yin| = |yang|`
+				- This is the principle of stationary (least) action.
+			- ⭕️ Complementarity is the conservation of ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)) (energy): `|ying| = |yang| = const (π, 1)` ⇒ `yang - yin = 2(π)`
+		- ((66c7fdec-59db-4f96-a8a7-913247586534))
+	- crazy vs normal
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-28 Wed 17:16:17]
+	  CLOCK: [2024-08-28 Wed 17:16:47]
+	  CLOCK: [2024-08-28 Wed 17:16:53]--[2024-08-28 Wed 17:19:52] =>  00:02:59
+	  :END:
+		- [Rosenhan experiment](https://en.wikipedia.org/wiki/Rosenhan_experiment)
+		- [Sẽ ra sao nếu một người bình thường bị nhốt trong bệnh viện tâm thần, vĩnh viễn?](https://genk.vn/doc-cuoi-tuan-se-ra-sao-neu-mot-nguoi-binh-thuong-bi-nhot-trong-benh-vien-tam-than-vinh-vien-20190410185139629.chn)
+		- TED talk from Jon Ronson: [Strange answers to the psychopath test](https://youtu.be/xYemnKEKx0c)
+	- Plus-minus = add-subtract = sum-diff = integral-derivative = circle-arrow = temporal-spatial = tangent-polar view = linear (circular) - spiral view
+	  id:: 66e2ae92-feca-492f-9278-0f64f9d6d7e9
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-12 Thu 16:04:23]
+	  :END:
+		- GeoGebra applet: [SumDiffSpiral](https://www.geogebra.org/m/gt99m7zj)
+		- sum/integral = extension circle <> average/mean = spiral to the center (intent)
+			- circle = parallel-projected helix
+				- phase = remainder = present = content
+			- spiral = perspective-projected helix
+			  :LOGBOOK:
+			  CLOCK: [2024-09-13 Fri 11:16:03]
+			  :END:
+				- center = far past = form = mean
+			- average vs mean:
+			  collapsed:: true
+				- average = expectation: use "average" to represent an abstract value
+				- mean = middle, common, center: use "mean" to refer to the concentrated form of the mass of values
+		- self circles of adjacent levels are perpendicular to each other.
+	- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus ((66727858-979d-4d95-8a90-7a749218cfba)) in karma
+	  id:: 66e7d7dd-5f88-472c-8694-beb7222929bb
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-16 Mon 17:47:14]
+	  :END:
+		- The word "karma" originally meant "action", but has been used [in Buddhism](https://en.wikipedia.org/wiki/Karma_in_Buddhism) mainly as "intention".
+			- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
+			  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetana)) I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
+		- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
+		  collapsed:: true
+			- Read more
+				- [manasikāra](https://en.wikipedia.org/wiki/Manasik%C4%81ra) (attention, tác ý, chú ý, chú tâm) is related to cetanā.
+				- [Nghiệp & tự do ý chí](https://giacngo.vn/nghiep-tu-do-y-chi-post37265.html)
+		- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the underlying tendency/**attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
+			- This anusayā-cetanā junction is the ((fa0b2bc6-05ac-418f-9a86-17635936a656)), the obop of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+				- > Give, and it will be given to you.
+				  
+				  -- Luke 6:38
+			- The anusayā is accumulated and works in the unconsciousness, hence cannot be controlled directly. So, the only way to change karma (fruit) is via intention which is right in our consciousness.
+				- We can indirectly change anusayā by the intention of cleansing it.
+			- > It’s not what happens to you, but how you react to it that matters.
+			  
+			  -- Epictetus
+		- 3 suttas named "Intention" (Cetanā)
+		  collapsed:: true
+			- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
+			  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
+				- This sutta explains the karmic chain from intentional seed to its fruits by examples.
+			- Numbered Discourses > 18. Intention > 4.171. [Intention](https://suttacentral.net/an4.171/en/sujato)
+			  > + Mendicants, as long as there’s a body, the intention that gives rise to bodily action causes pleasure and pain to arise in oneself. ... But these only apply when conditioned by ignorance.
+			  > + By oneself one *makes the choice* that gives rise to bodily, verbal, and mental action, conditioned by which that pleasure and pain arise in oneself. ...
+			  > + Ignorance is included in all these things. But when ignorance fades away > nothing for pleasure and pain to arise.
+				- This sutta states that the karmic chain can be broken by clearing ignorance.
+			- Linked Discourses > 4. Kaḷāra the Aristocrat > 12.38. [Intention (Volition)](https://suttacentral.net/sn12.38/en/sujato)
+			  id:: 66e7e6c2-3856-496b-99b7-75ac46547c86
+			  > + Mendicants, what you intend or plan, and what you have underlying tendencies toward, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
+			  > + Mendicants, if you don’t intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
+			  > + Mendicants, but if you don’t intend or plan, and don't have underlying tendencies toward anything, this doesn’t become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
+				- This sutta states that the karmic chain cannot be broken if "underlying tendencies" (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
+				- Numbered Discourses > 2. Tendencies > 7.12. [Underlying Tendencies (anusayā)](https://suttacentral.net/an7.12/en/sujato)
+				  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they’re called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
+				- These underlying tendencies are latent [kleśas](https://en.wikipedia.org/wiki/Kleshas_(Buddhism)), the most hidden ones.
+					- Vitikamo-kilesa: *Ngoại phiền não, phiền não vi phạm*: các loại phiền não đã bộc lộ ra ngoài bằng thân hay khẩu, thành những hành động phạm giới. Phiền não loại nầy được chế ngự do sự hành trì giới luật.
+					- Pariyutthana-kilesa: *Nội phiền não, phiền não ám ảnh*: các loại phiền não phát sanh trong tâm ngay lúc nhận biết cảnh, không biểu lộ ra ngoài, người nào có người đó biết, người khác không biết được, nhưng nếu với con mắt tinh tế cũng có thể biết được. Phiền não loại nầy được khắc phục do thiền định, dùng tâm thiền để chế ngự chúng.
+					- Anusaya-kilesa: *Tàng phiền não, phiền não ngủ ngầm*: loại phiền não ngủ ngầm nơi tâm, không ai biết được do sự ô nhiễm nhiều đời, nhiều kiếp. Phiền não loại nầy được tiêu diệt bằng tuệ giác, nghĩa là trí tuệ phát sanh ở Đạo tâm siêu thế, khi chứng đắc các tầng thánh Tu Đà Hoàn, Tư Đà Hàm, A Na Hàm, A La Hán.
+				- [KINH CETANA SUTTA: CHỚ DỰNG LẬP Ý NIỆM](https://thuvienhoasen.org/a24172/kinh-cetana-sutta-cho-dung-lap-y-niem)
+		- Nuances about "intention"
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-17 Tue 19:51:07]
+		  :END:
+			- [The Heart’s Intention](https://dharmawisdom.org/the-hearts-intention/)
+			  > Setting intentions is not the same as making goals. Understanding the difference can lead to more skillful living and less suffering.
+			  GOALS VS. INTENTIONS; Misusing Good Intentions; Mixing Motives; Sowing Karmic Seeds; Developing Resolve
+			- [The Power of Intention: Turning Thoughts into Reality](https://www.livinginthegap.org/blog/the-power-of-intention-turning-thoughts-into-reality)
+			- [THOUGHT OR INTENTION?](https://www.linkedin.com/pulse/thought-intention-christine-patton/)
+			  > whenever there is any error or misdeed, the moment of its cause was with the intention... long before the action! If a person would bring correction to his life, he must look beyond the action to the moment when he first created the intention.
+				- > There has been widespread confusion between thought and intention.
+				  Scripture was teaching about the power of intent, and was mistranslated to read as ‘thought’ instead.
+				- [Watch Your Thoughts...](https://quoteinvestigator.com/2013/01/10/watch-your-thoughts/) should be "Watch your intentions..."
+		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((66e97b7e-04be-4a0f-820f-2b2315a803a4))
+	- Intent ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) visualization technique
+	  id:: 66e97b7e-04be-4a0f-820f-2b2315a803a4
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-17 Tue 19:52:32]
+	  CLOCK: [2024-09-17 Tue 19:53:21]
+	  CLOCK: [2024-09-17 Tue 19:53:37]--[2024-09-18 Wed 09:12:13] =>  13:18:36
+	  :END:
+		- The target intent is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle. It's round in the balanced state. Affected by stimuli, it will be distorted, then my intention is to restore it to the round state.
+		  id:: 66e97c0f-6172-46b1-855a-00bd1efae869
+		- Distortion by feeling
+			- Favorable things attract the circle and make its outline protrudes toward the favorable.
+			- Adverse things repel the circle and make its outline curves in away from the adverse.
+		- Distortion by losing track
+			- ...
+		- Restorations
+			- For target task, the restoring force is exerted to the center to move the whole circle. This is the normal mode of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)).
+			- For non-target distractions, just do the releasing technique "stop, breath, relax, release, detach". This is the zen technique for ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
+			  id:: 66ea2e85-560f-4608-bad1-f0eba9925efb
+	- Mutual belief between the center and peripherals is the invisible connection between parts after being unloaded from the working memory.
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-18 Wed 09:30:53]
+	  CLOCK: [2024-09-18 Wed 09:30:54]--[2024-09-18 Wed 10:06:00] =>  00:35:06
+	  :END:
+		- Dodging attacks and restoring the [intent circle](((66e97b7e-04be-4a0f-820f-2b2315a803a4))) should be done with [releasing technique](((66ea2e85-560f-4608-bad1-f0eba9925efb))) which unload the parts from the working memory.
+		- The obop believes in the parts, believes that they can be self-sustained without attention, so it don't hold on to the parts and can release them.
+		- The parts believe in the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) via its representative, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = the ((66ab7477-c060-4d07-ab13-bc3d11246854)) = the zero = the vacant, believe that the whole will do the best to preserve the parts. With this belief, a part can release its self to return resource to the whole.
+		- Via the whole, the parts can believe in each other.
+	- DOING ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) & ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) : intent - content - extent ~ round - amount - arrow  ~ memory/space - resource/time - remainder/phase
+	  id:: 66e3c1b8-eb83-47d6-b71e-193549b47f93
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-13 Fri 11:06:08]
+	  CLOCK: [2024-09-13 Fri 11:06:14]
+	  :END:
+		- FIFO queue memory
+			- the last throughput (now) overwrites the first memory (past).
+			- "forgotten passively" = detached: a "lake" is detached from the river system but not dried up.
+			- forget actively: to actually clear a memory, the obop must actively overwrite it with new knowledge.
+			- implementations
+				- new distribution from a node to its branches updates weights of these branches.
+				- collective throughput at a node updates its mass.
+				- heuristic method: use global time to cut off all past parts of the whole memory
+	- DOING Holographic = viên dung 圓融 perfect interfusion, interfusion = interpenetration 相入 = interconnection = interreflection = interdependence = fractal
+	  id:: 66eb7dae-2032-434b-9106-756d4aad7cdb
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-19 Thu 08:26:20]
+	  CLOCK: [2024-09-19 Thu 08:26:21]
+	  :END:
+		- https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/
+		- https://www.facebook.com/share/p/PV7w5qtofEpAwszK/
+		- https://en.wikipedia.org/wiki/House_of_mirrors
+		- https://en.wikipedia.org/wiki/Holism
+		- https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh
+		- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
+		- dependent origination: https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/?mibextid=xfxF2i
+		- imagination = close/bridge the gap
+		- new node created by projecting the instance back to the concept
+		- new link created by shortcutting the circle
+		- round = complete graph = space
+		- newborn = round (complete graph) -> learning = distort to fit = pruning unused edges
+		- DOING ((665ca429-84e3-49ff-921e-c07d19cd99ba)) = projection of the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
+		  id:: 66d1545b-4783-4545-aa12-a2ffa400eed7
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-30 Fri 12:11:07]
+		  CLOCK: [2024-08-30 Fri 12:12:25]
+		  CLOCK: [2024-08-30 Fri 12:12:42]
+		  :END:
+			- ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) 's ((66c810a0-9861-4787-bdcf-1378219332be)) = apex of the past ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+				- touches ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) = 2 view cones touching by apexes
+				- apex to base = body to world = eye/pointer/current-state to space
+	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-19 Thu 11:35:05]
+	  CLOCK: [2024-09-19 Thu 11:35:18]
+	  CLOCK: [2024-09-19 Thu 11:35:21]--[2024-09-19 Thu 11:36:18] =>  00:00:57
+	  :END:
+		- Xả = negative feedback = length of thread
+		- Nén = positive feedback
+			- thermal static (equilibrium) = length of thread
+			- thermal dynamic = explosive = exp(length of thread)
+	- Why do we forget our roots?
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-19 Thu 11:37:51]--[2024-09-19 Thu 11:38:24] =>  00:00:33
+	  :END:
+		- because of the distortion in the view cone (projective geometry)
+		- the far parts are abstracted into a dot
+		- a single dot of infinity contains all other worlds
+		- the phenomenal world can only see the phenotypes, not the genotypes
+	- ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) = whole relative to a unit (intent) = fit = divisible
+	  id:: 66ebb5fb-6850-4a83-94eb-dd3039891ffc
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-19 Thu 12:26:38]
+	  CLOCK: [2024-09-19 Thu 12:28:13]
+	  :END:
+		- intrinsic dynamic = always remain epsilon indivisible
+		- "objective" round = remainder -> 0 = n-order derivative -> 0 = n-order straight
+		- "subjective" round in this level relative to this unit (intent) = finish this content circle with this intent, considering remainder ~ 0

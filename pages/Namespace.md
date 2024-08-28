@@ -33,6 +33,10 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 		  id:: 665359ff-79f1-4669-b10b-f2b0e633a7c1
 		- References:
 		  id:: 66c33468-23d5-44d7-955e-6711cb608157
+		- Expressions:
+		  id:: 66e4299e-0af8-47ee-adae-c13fb57fd15d
+		- Examples:
+		  id:: 66725725-f76a-4328-b162-f469b87e871b
 	- Property:
 	  id:: 66600918-67d0-429b-af78-f804ea65d9cc
 		- Form:
@@ -73,7 +77,6 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 			  id:: 66600918-9cef-4a33-bdeb-3b64d71c7034
 	- Composite:
 	  id:: 6652048c-27b3-47b6-84e5-25af8d9ce801
-	  collapsed:: true
 		- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
 		- Component:
 		  id:: 66532ccc-ae21-4940-8714-715060d6bd90
@@ -110,5 +113,3 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 666a539d-499f-43c0-8b2e-74818cc3a0f5
 	- Screenshot:
 	  id:: 666a697a-6f40-4749-ab5b-03c82aeda1ee
-	- Examples:
-	  id:: 66725725-f76a-4328-b162-f469b87e871b
