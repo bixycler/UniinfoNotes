@@ -147,10 +147,15 @@
     <div slot="unfoldable">One</div>
     <div slot="foldable">
       <folder-div>
-        <div slot="unfoldable">Two<br>...</div>
+        <div slot="unfoldable">Two<br>... multi-line unfoldable</div>
         <div slot="foldable">
+          This line is a foldable content of Two <br>
+          but not a subfolder
           <folder-div folded>
-            <div slot="unfoldable">Three</div>
+            <div slot="unfoldable">Three
+            ... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long
+...
+            </div>
             <div slot="foldable">
               ... <p>Ref: <a href="https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/">Creating a collapsible markdown on one page</a></p>
             </div>

@@ -35,7 +35,7 @@ label.folding-toggle:hover {
   border-left: solid 1px; /* stem line */
   border-bottom: inset 1px; /* this is required for the stem line to cover the full height */
 }
-.is-folded:not(:checked) + label + .foldable-content {
+.is-folded:not(:checked) + label ~ .foldable-content {
   display: block;
 }
 
@@ -62,7 +62,7 @@ label.folding-toggle:hover {
     <summary>One</summary>
     <ul>
       <li><details>
-        <summary>Two</summary>
+        <summary>Two<br>multi-line label</summary>
         <ul>
           <li><details open>
             <summary>Three</summary>
@@ -88,16 +88,24 @@ label.folding-toggle:hover {
   <label for="#One" class="folding-toggle">One</label>
   <div class="foldable-content">
     <input type="checkbox" class="is-folded" id="#Two" checked />
-    <label for="#Two" class="folding-toggle">Two</label>
+    <label for="#Two" class="folding-toggle">Two<br>multi-line label</label>
+    <div class="foldable-content">
+      This line is in foldable-content of Two<br>
+      but not in a sub folder
+    </div>
     <div class="foldable-content">
       <input type="checkbox" class="is-folded" id="#Three" />
-      <label for="#Three" class="folding-toggle">Three</label>
+      <label for="#Three" class="folding-toggle">Three
+          ... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long...
+      </label>
       <div class="foldable-content">
         ... <p>Ref: <a href="https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/">Creating a collapsible markdown on one page</a></p>
       </div>
     </div>
 
-    <li class="unfoldable-content">Hai</li>
+    <li class="unfoldable-content">Hai
+      <br>with more line
+    </li>
 
     <input type="checkbox" class="is-folded" id="#Deux" checked />
     <label for="#Deux" class="folding-toggle">Deux</label>

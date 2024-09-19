@@ -1247,6 +1247,56 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- seed: hạt, hột
 						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 							- Discussion with Gemini about [node vs. internode](https://gemini.google.com/app/0dbc3f1a3b0cff16).
+						- Root system
+						  id:: 66ec16b8-15b6-43f2-bfb1-a2bfbaaf8203
+							- Opposite to shoot system: Not only downward versus upward, the root system has an *endogenous* origin, i.e. they originate and develop from an inner layer of the mother axis, such as [pericycle](https://en.wikipedia.org/wiki/Pericycle), whereas shoot system has an *exogenous* origin, i.e. they start to develop from the cortex, an outer layer.
+							- Types of roots
+							  collapsed:: true
+								- ![root_types-768x349.png](../assets/ecosystem/root_types-768x349.png)
+								- Ref: [3 Types of Tree Root Systems](https://aplustree.com/3-types-of-tree-root-systems/)
+								- **Tap roots:** Every tree starts with a tap root that provides stability and absorption. Over time, other roots outgrow the taproot. Most taproots don’t continue to grow ever more deeply because deep soils lack the oxygen and nutrients that roots need to survive.
+								- **Lateral roots**: Lateral roots grow outwards right under the soil surface. They absorb a lot of water and nutrients as well as anchoring the tree.
+								- **Oblique/heart roots:** Oblique roots, also known as heart roots, grow at a diagonal and have the same function as lateral roots.
+								- **Sinker roots:** Sinker roots grow downwards from the lateral roots to a depth of several feet. There, lateral roots take advantage of any water and nutrients deeper in the soil in addition to increasing tree stability.
+								- **Fine roots:** All the root types aforesaid can give rise to fine roots, which is where water and nutrients are directly absorbed. They also house mycorrhizae, which are fungal partnerships that increase root absorption capacity.
+							- Types of root systems
+							  id:: 66ec1a78-f952-4387-8ccd-9a9a3b2abf13
+							  collapsed:: true
+								- Ref: [3 Types of Tree Root Systems](https://aplustree.com/3-types-of-tree-root-systems/)
+								- Tap root systems
+									- ![tap_root_system-300x196.png](../assets/ecosystem/tap_root_system-300x196.png)
+									- **Stability:** Tap root systems are very stable, but extremely rare in mature trees.
+									- **Common Species:** Some oaks and pines, hickory, sweet gum, tupelo, walnut.
+								- Heart (Oblique) root systems
+									- ![heart_root_system-300x224.png](../assets/ecosystem/heart_root_system-300x224.png)
+									- **Stability:** Heart root systems obtain their stability from root ball weight and soil resistance. The tree is held up by the weight of its root ball counteracting the weight of its aboveground parts and the strength of the soil around it. Heart root systems are prone to failure in wet soils. Once the soil is wet, wind and gravity can make the tree rotate in the ground, much like a ball-and-socket joint.
+									- **Common Species:** Honey locust, red oak, sycamore. More common in Mediterranean and arid climates.
+								- Lateral root systems
+									- ![lateral_root_system-300x112.png](../assets/ecosystem/lateral_root_system-300x112.png)
+									- **Stability:** Lateral root systems obtain their stability from tree weight and root spread. These root systems don’t necessarily have a lot of root mass, but because the roots are so widespread, the tree can be supported without investing so much in roots. About 80% of tree species and most urban trees have lateral root systems.
+									- **Common Species:** Ash, birch, cottonwood, hackberry, maple.
+							- Depth of roots
+							  collapsed:: true
+								- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The depth of roots depends on ((66ec1a78-f952-4387-8ccd-9a9a3b2abf13)) of the tree, water, oxygen, and soil compaction levels. If all these conditions are met, roots can grow to great depths, which can be more than 20 feet (6 meters) at normal soil, and up to 60 metres (200 ft) at deserts. However in urban areas, soil compaction and poor drainage usually limit root depth to within 3 meters (10 ft).
+									- ![tree-roots-mango.jpg](../assets/ecosystem/tree-roots-mango.jpg)
+								- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+									- [How Deep Do Tree Roots Really Grow?](https://www.deeproot.com/blog/blog-entries/how-deep-do-tree-roots-really-grow/)
+								- Roots can go downward on young trees
+									- ![rootgrowthdepthonelg.jpg](../assets/ecosystem/rootgrowthdepthonelg.jpg)
+									- Roots often grow down under the trunk when trees are young. Two tap roots grew vertically under the trunk on this honeylocust three years after planting. Several oblique roots are also visible, growing down at an angle. Despite the deep roots, the largest diameter roots are the main lateral roots close to the soil surface. The ruler in the photo shows the deepest roots are 32 inches (81 cm) below the surface.
+								- When the tree are grown up, most of the roots go outward
+									- Horizontal rooting to about 4 foot (1.2 m) depth in loam soil over river wash till.
+									  ![Deep-tree-roots-4feet.png](../assets/ecosystem/Deep-tree-roots-4feet.png)
+									- When the tree are grown up, the tap roots stop growing while the lateral roots continue to grow as wide as the tree height.
+								- Deep roots in well drained & uncompacted (nursery) soil
+									- ![Deep-tree-roots-2-small.png](../assets/ecosystem/Deep-tree-roots-2-small.png)
+									- Trees in the nursery often have a number of roots growing straight down under the trunk.
+									  ![rootgrowthdepthseventeenlg.jpg](../assets/ecosystem/rootgrowthdepthseventeenlg.jpg)
+									- Early studies of tree roots from the 1930s, often working in easy-to-dig loose soils, presented an image of trees with deep roots and root architecture that mimicked the structure of the canopy.
+									  ![Traditional-Image-of-Tree-Roots-Tampa.jpeg](../assets/ecosystem/Traditional-Image-of-Tree-Roots-Tampa.jpeg)
+									- In their 1991 paper, “[On The Maximum Extent of Tree Roots](http://soilslab.cfr.washington.edu/publications/Stone&Kalicz-1991.pdf),” E.L. Stone and P.J. Kalicz summarized previous root depth studies of 49 genera and 211 species growing in a wide variety of soil types. They found numerous examples of trees reported to be growing roots to over 33 feet (10 meters), and one report of a tree that grew roots to a depth of 174 feet (53 meters).
+									- The mollisols (deep >20 feet [6 meters] **prairie** soil — all O/A soil horizons) have 2 broadleaf tree root depths: 11 feet (Black Walnut) & 15 feet [4.5 meters] deep (White Oak). Both the Walnut & Oak have the least drought stress. The **loams **in the Silva Cell are functionally equivalent to mollisols. So, a 4 foot [1.2 meter] deep rooting space in O/A in Silva Cells will easily be utilized by tree roots.
+									- Orjan Stahl, a tree researcher in Stockholm, made an exhaustive study of over 500 trees that had root and utility conflicts. He regularly found roots at depths of 7 to 9 feet (2.1 to 2.7 meters) and the deepest root he encountered was at 23 feet (7 meters).
 			- nested viewcone
 			  id:: 66752fbf-a751-4117-ae0d-17d9a19053e4
 			  collapsed:: true

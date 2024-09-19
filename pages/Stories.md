@@ -851,3 +851,4 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  > You seem surprised that people do not understand you but I should be far more surprised if they did!! After all, you are upsetting everything in which they have ever believed –knocking out their foundations and putting in its place a nebulous abstraction.
 			- [Krishnamurti-Love and Freedom: Approaching a Mystery](https://www.theosophical.org/publications/quest-magazine/krishnamurti-love-and-freedom-approaching-a-mystery)
 		- Hitler's strength touches people deep to their hidden anger and desire of winning.
+	-
