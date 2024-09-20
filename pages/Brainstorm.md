@@ -96,11 +96,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- a component
 				- another component
 	- Let's test ((66acc24c-4cd7-4568-8c47-79798fc09433)) in Logseq:
+	  id:: 66b1cfa3-9679-4482-a2a3-4d99486dbe04
 	  collapsed:: true
 		- Today: {{query <% today %> }}
 		  id:: 66521398-7318-4d06-ac79-899f244a31c0
 		- [Logseq Docs: Advanced Queries](https://docs.logseq.com/#/page/advanced%20queries)
-		  collapsed:: true
 		- [Logseq/Advanced Queries Examples](https://siferiax.github.io/#/page/logseq%2Fadvanced%20queries)
 		- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
 		- query-table:: true
@@ -146,6 +146,50 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		    ;:result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
 		  }
 		  #+END_QUERY
+		- ### Search string within a block
+		  query-table:: false
+		  collapsed:: true
+			- Key word(s)
+				- tab
+				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
+			- Scope (ref)
+				- ((66536e1b-6466-4153-90d6-583003d99a81))
+				  id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
+			- Ref: [FInd nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
+			- query-table:: false
+			  #+BEGIN_QUERY
+			  {:title [:h3 "Result"]
+			  :query [
+			    :find (pull ?b [*]) ; ?key  ?scope ; 
+			    :in $ ?params ?container %
+			    :where
+			  
+			     ; ?key parameter
+			     [?params :block/content ?paramlines]
+			     [(re-pattern ".*") ?firstLinePattern]
+			     [(re-find ?firstLinePattern ?paramlines) ?key]
+			  
+			     ; ?scope parameter
+			     [?container :block/refs ?scope]
+			     (check-parent ?scope ?b)
+			     ;[?b :block/parent ?scope]
+			  
+			     ; ?key in block/content
+			     [?b :block/content ?content]
+			     [(clojure.string/includes? ?content ?key)]
+			   ]
+			   :rules [
+			     [(check-parent ?parent ?b)
+			       [?b :block/parent ?parent]
+			     ]
+			     [(check-parent ?parent ?b)
+			       [?b :block/parent ?t]
+			       (check-parent ?parent ?t)
+			     ]
+			   ]
+			   :inputs [ [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"] ]
+			  }
+			  #+END_QUERY
 	- Special properties built in Logseq
 	  collapsed:: true
 		- Example:
@@ -218,9 +262,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- double cone of light & view
 		- 0 & ∞ in Riemann circle
 		- first diagram of Uniinfo
-	- Internal form (substance) = external form (appearance)
-	  collapsed:: true
-		- external to a content form = internal to its container
 	- 2 characteristics of the form are equivalent.
 	  collapsed:: true
 		- The wholeness (the roundness) -> there's a center point in each circle, even invisible, common (shared) to all parts (arrows) of that circle -> the common
@@ -396,6 +437,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2024-07-09 Tue 16:28:26]
 		  :END:
 		- The "real vs imaginary" is just a relative pair like the "real object - virtual image" & "real image - virtual object" in optical physics.
+		  id:: 66b1cfa3-e6c4-405c-9475-2186078a811d
 		  collapsed:: true
 			- ![real-virtual-object-image.jpg](../assets/physics/real-virtual-object-image.jpg)
 		- The resolution $i_ω$ is the bridge that closes internal circles of the self $i_0$.
@@ -631,6 +673,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- [manasikāra](https://en.wikipedia.org/wiki/Manasik%C4%81ra) (attention, tác ý, chú ý, chú tâm) is related to cetanā.
 				- [Nghiệp & tự do ý chí](https://giacngo.vn/nghiep-tu-do-y-chi-post37265.html)
 		- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the underlying tendency/**attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
+		  id:: 66e80666-5f29-4419-8db1-bf8cdce893e4
 			- This anusayā-cetanā junction is the ((fa0b2bc6-05ac-418f-9a86-17635936a656)), the obop of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 				- > Give, and it will be given to you.
 				  
@@ -678,6 +721,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  Scripture was teaching about the power of intent, and was mistranslated to read as ‘thought’ instead.
 				- [Watch Your Thoughts...](https://quoteinvestigator.com/2013/01/10/watch-your-thoughts/) should be "Watch your intentions..."
 		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((66e97b7e-04be-4a0f-820f-2b2315a803a4))
+		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) fb post [Let's make an intensive intent!](https://www.facebook.com/lexuandinhct/posts/pfbid02bpWEDyTFoYZ9Vn223Nq56oMF9nkNnUsDcpJChva4v4kvSXWG6TZqc7YtG5APhvSDl)
+		  :LOGBOOK:
+		  CLOCK: [2024-09-20 Fri 19:48:46]
+		  :END:
+		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) "intensive intent" + commitment -> vow (pranidhāna, a tool usually used in Mahayana)
+			- [Intention is the practice](https://www.lionsroar.com/intention-is-the-practice/)
+			  > On the Buddhist path, our intention deepens into commitment and then into vow. At that point, our intentions and our life become one.
 	- Intent ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) visualization technique
 	  id:: 66e97b7e-04be-4a0f-820f-2b2315a803a4
 	  collapsed:: true
@@ -782,3 +832,34 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- intrinsic dynamic = always remain epsilon indivisible
 		- "objective" round = remainder -> 0 = n-order derivative -> 0 = n-order straight
 		- "subjective" round in this level relative to this unit (intent) = finish this content circle with this intent, considering remainder ~ 0
+	- ((66f267f7-01f9-47b9-8376-abd27fdf2930)) (vi. Thức) - ((66f2681b-796a-4e25-b778-ba4fb6419425)) (vi. Ý Thức) - ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) (vi. Mình, Bản thân) - Ego (vi. cái Tôi) - Ātman (vi. Ngã, Linh hồn)
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-24 Tue 15:08:24]--[2024-09-24 Tue 17:50:18] =>  02:41:54
+	  :END:
+		- ((669a5387-2a97-4311-a295-aa0afd9c4d76)) > ((66c810a0-9861-4787-bdcf-1378219332be)) > ego > selful consciousness > selfless consciousness = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = ((66f267f7-01f9-47b9-8376-abd27fdf2930)) = ((66ab7477-c060-4d07-ab13-bc3d11246854)) of ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) = center of ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)) /information = life force
+		- Ātman (आत्मा, आत्मन्): đại ngã, linh hồn bất diệt (của Thượng Đế), a Sanskrit word that refers to "essence, breath" -> ((66c8772a-9b29-45b0-b169-2fa847333e02))
+			- anātman/anattā: vô ngã, không có linh hồn bất diệt
+		- tôi exclusive  <> mình inclusive
+			- The ego's role is to protect the self, to preserve the completeness, integrity of the self => develop, multiply, reproduce, etc.
+			- The inclusiveness of the self circle is the connection between selves within the large self.
+		- thức intension <> mình extension
+			- To the external world, the intensional awareness is virtual vs the real extensional self.
+			  collapsed:: true
+				- {{embed ((66b1cfa3-e6c4-405c-9475-2186078a811d))}}
+			- In centralized system, the intensional awareness is represented by a real observer like the head, the heart, the leader, the king, etc.
+			- In distributed system, the intensional awareness is shared by all components.
+		- **"thức = equal" is the duality of the** ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+		  id:: 66f29d57-a87f-4370-9f32-722922a7bff1
+		  :LOGBOOK:
+		  CLOCK: [2024-09-25 Wed 20:34:45]
+		  :END:
+			- observer = center of perspective/information for awareness thanks to wholeness: only at the center the whole image of the object/world can be drawn.
+				- Each whole image is a frame in the film that the observer watch.
+			- operator = life force = center of balance for stability & existence: without a center, the body will be decomposed due to imbalance.
+			- This duality is also the [anusayā-cetanā junction](((66e80666-5f29-4419-8db1-bf8cdce893e4))) in the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+			- obop is a [topological defect](https://en.wikipedia.org/wiki/Topological_defect): obop point = [singularity](https://en.wikipedia.org/wiki/Singularity_(mathematics)), obop circle = soliton
+				- |eye soliton| = quantum -> [abstraction](((66f40baf-1aca-40b7-828c-71d6f15f23fe))) = action
+					- The amount of the soliton is the quantum.
+					- That abstraction from the obop circle to the quantum is the action of that soliton: produce the extent
+		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)

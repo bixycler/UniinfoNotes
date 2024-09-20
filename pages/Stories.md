@@ -851,4 +851,67 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  > You seem surprised that people do not understand you but I should be far more surprised if they did!! After all, you are upsetting everything in which they have ever believed –knocking out their foundations and putting in its place a nebulous abstraction.
 			- [Krishnamurti-Love and Freedom: Approaching a Mystery](https://www.theosophical.org/publications/quest-magazine/krishnamurti-love-and-freedom-approaching-a-mystery)
 		- Hitler's strength touches people deep to their hidden anger and desire of winning.
+	- Chat về "Tròn = complete graph", Thức và mắt bão
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-23 Mon 10:55:06]
+	  :END:
+		- 19/9/2024 Tròn = complete graph
+		  collapsed:: true
+			- Mấy nay tui đang quán các biểu hiện của "tròn (round)" trong các loại form khác nhau: với đường mở vô hạn thì là "thẳng", với distribution thì là Normal (bell curve), với nhiệt thì là "đều, cân bằng", equilibrium, v.v. hôm nay quán tới graph thì là complete graph.
+			- Tới complete graph thì thấy rõ vòng tròn của sự phát triển và quay về gốc của mạng neuron:
+			  Các sinh vật đơn giản như vi khuẩn thì là complete graph bị biến dạng 1 chút cho khớp với môi trường Trái Đất => vòng gần tròn
+			  -> càng tiến hoá lên thì vừa tăng số neuron lên vừa biến dạng vòng tròn cho khớp với các môi trường và vai trọ ngày càng chuyên sâu => vòng ngày càng méo mó và phức tạp, nhưng vẫn luôn "tròn" khi nhìn từ view của môi trường của sinh vật đó
+			  -> con người có hệ thần kinh phức tạp nhứt, và cũng tốn thời gian lâu nhứt để học:
+				- mới sinh thì tròn trịa (graph đầy đủ) so với toàn thế giới Thú
+				- càng lớn lên càng bóp méo cho khớp với môi trường & XH, gọi là "học" bằng cách prune đi các liên kết "không cần thiết" trong graph
+				- tới lúc tu tập giải thoát thì lại tập buông xả và prune tiếp để quay về cái lõi tròn trịa của complete graph
+			- Nhìn qua graph thì mình có thể dễ hiểu cái khác nhau giữa học cái form cân bằng, tròn trịa với sự tu tập để quay về cái lõi tròn trịa:
+				- khi học cái form tròn thì vô tình mình đã prune hết cái ruột (content) để giữ lại cái vỏ tròn trịa ==> cân bằng, nhưng khó thích nghi
+				- người sống trong môi trường càng phức tạp, khó khăn, đau khổ thì càng phải "mất dạy", "vô học" và phát triển kiểu amoeba (con amip) ==> rất méo mó dị dạng nhưng bù lại là khả năng thích nghi cao, hơn nữa
+				- nhờ khổ mà người kiểu amoeba sớm tìm đến đường giải thoát để quay về cái chỗ tròn trịa. Nhưng vì đã lớn nên các connection đã "cứng" không dễ prune mà chỉ còn cách "buông", tức nó vẫn còn nguyên đó mà chỉ là mình ko nắm chặt, chỉ là switch off thôi ==> quay về cái lõi tròn trịa nhưng vẫn có đủ các form méo mó bên ngoài
+				- collapsed:: true
+				  > càng phải "mất dạy", "vô học"
+					- Ông Sadhguru thì cứ phải "keep myself uneducated" để được giải thoát 😃
+					  {{video https://youtu.be/4wtnI7FGlk0?si=iESYI0pJ_sE-yvIU}}
+					- Haha, cái vụ "mất dạy", "vô học" này làm tui nhớ hồi nhỏ rất ghét học, nhứt là học thuộc lòng... à giờ thì ông Sadhguru cũng nói tương tự: intellect should be free of the burden of memory
+					  {{video https://youtu.be/YgI5Owxqwts}}
+			- cảm giác của tui giống như cơn bão vậy, bên ngoài rối rắm bão bùng, nhưng trong lõi (mắt bão) vẫn bình an. Và vòng xoáy bão bùng bên ngoài nó đưa mình tới những chỗ khó khăn tới độ cái mắt bão cũng bị động và đó là những lần "bão tan", mắt bão bị phá vỡ thì bão tan rã, tức "chết". Qua những lần tan rã rồi tái hiện thì cái mắt bão lại được làm mịn nhỏ hơn nhỏ hơn nữa... nhỏ tới độ 1 điểm thì "kích thước lõi = 0" nhưng cái điểm đó vẫn là trung tâm, là con mắt, là trái tim, là chỗ bình an, bền vững ==> có mà không, không mà có là vậy.
+			- kích thước lõi tròn đó là số đo của cái Tôi
+			- theo tui thấy thì "vô thường" là nói cái thực tế bên ngoài, nên phải buông xả để phần ngoài tự do biến đổi theo sự vô thường đó, nhưng cái tâm, cái lõi thì vẫn luôn là tròn trịa, bình an và có "ngã". "Vô ngã" chỉ là "kích thước lõi/ngã = 0" mà thôi. Và cụ thể sự đối lập trong ngoài của nhà Phật là:
+				- 3 dấu ấn của Thế giới Đối tượng của Tâm (tam pháp ấn): Vô thường, Khổ, Vô ngã
+				- 4 đặc trưng của Tâm Niết-bàn(Tâm giải thoát): Thường, Lạc, Ngã, Tịnh
+				  Vì bên trong ngược lại với bên ngoài nên tui mới gọi đó là sự lừa dối vĩ đại!
+			- ==> Ngoài 3 cái đối lập (Thường <> Vô thường, Lạc <> Khổ, Ngã <> Vô ngã) thì còn có cái cuối Tịnh là đặc trưng của Niết-bàn. Nên Đại thừa mới bảo chỉ nói 3 pháp ấn tiêu cực thì chưa đủ, nên thêm 1 "pháp ấn" thứ 4 trung tính vào là "Niết-bàn tịch tĩnh". Nhưng cái dấu ấn thứ 4 này là "tâm ấn" chứ ko phải "pháp ấn", nên có thể nói đủ là 3 pháp ấn + 1 (hay 4) tâm ấn.
+				- Nói đủ ra thì phải là 1 (hay 4) Phật tâm ấn
+				  Thực ra thì từ "tâm ấn" hay dùng trong thiền tông cũng phải là "[Phật tâm ấn]([https://phatgiao.org.vn/tu-dien-phat-hoc-online/tam-an-k41358.html](https://phatgiao.org.vn/tu-dien-phat-hoc-online/tam-an-k41358.html))", là dấu ấn của tâm giải thoát, chứ ko phải dấu ấn của tâm người thường. Tâm người thường thì cũng có đủ Vô thường và Khổ hà.
+			- "Tâm vô sở trụ" là giải thoát, vậy thì tâm trụ vào đâu? 😃
+			  Vì tâm là trụ của pháp, nên tâm muốn giải thoát thì ko thể trụ vào bất kỳ pháp nào bên ngoài mà chỉ có thể trụ vào chính mình, tức trụ vào tâm. Vì self-rely cũng có nghĩa là "rely on self" nên cái tâm self-reliance đó chính là "ngã" 😃 chỉ có điều cái "ngã 0" đó nó khác và đối lập với cái "ngã 1" thông thường của mọi người thôi.
+			- Lưu ý là chữ "pháp" này hơi đặc biệt, là một thuật ngữ chuyên dụng của nhà Phật để chỉ "mọi đối tượng của tâm", tức tất cả những gì mà mình thấy, biết, tin, cảm nhận, và nó khác với từ "pháp" với nghĩa thông thường là "luật pháp, phương pháp" như "Phật pháp" hay "mất Lễ mới tới Pháp" trong Đạo Đức Kinh.
+		- 23/9/2024 Thức và mắt bão ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
+		  collapsed:: true
+			- "Mắt bão" được gọi là "mắt" không chỉ vì nó có hình dạng giống con mắt, mà nó thực sự là con mắt của ánh sáng trí tuệ và sự hoà hợp 😉 ➰♾️
+			  https://www.facebook.com/lexuandinhct/posts/pfbid0yz26RjtxS5M8QPLtA9x7qBJcFXQnH2JboGF1yAKNLVzCqX6KNhTNjgtNCEgUMxWwl
+			- Cái Thức nói chung và Ý Thức nói riêng, tui hay lấy đại diện bằng "con mắt", mắt mở là "thức", mắt nhắm là "ngủ" (vô thức). Và thú vị là những từ "mắt" trong dân gian cũng tương ứng với cái Thức đó, từ mắt động vật tới mắt bão, mắt lưới, mắt tre, v.v.
+			- Cái Thức đó vi diệu ở chỗ nó vừa có mà vừa không có. Rõ ràng là có thể hiện ra ngoài là một "subject" làm chủ các "object", nhưng khi đào vào trong thì thấy trống không, chẳng có gì cả. Cái chỗ "không có, trống không" này là thứ khiến các nhà khoa học hướng ngoại bí đường khi nghiên cứu về ý thức.
+			- Cũng như những gì hiện lên màn hình máy tính là đủ thứ hình ảnh nhảy múa nhưng khi đào vào CPU thì chẳng thấy hình ảnh nào cả, thì những gì mình thấy thông qua con mắt Thức này là cả thế giới nhưng bản thân cái lõi của Thức thì chẳng có hình ảnh nào cả. Mọi hình ảnh, mọi thông tin đều được ghi trên các vòng ngoài của cơn bão chứ không có cái nào ở trong mắt bão.
+			- Tuy nhiên phần CPU máy tính thì chỉ là decode/encode thôi nên tuy trong CPU không thấy hình ảnh nhưng vẫn thấy các bit 0/1 có thông tin tương đương. Còn trong Thức thì hoàn toàn không có gì hết, mọi thông tin đều nằm ở những lớp vỏ ngoài. Những lớp vỏ đó tui gọi là những "bức tường Tôi", thuật ngữ khí tượng gọi là eyewalls. Những eyewall đó vừa là những thấu kính vừa là những màn hình để chiếu hình ảnh của thế giới và object lên, nghĩa là cái Tôi chính là thứ định nghĩa cách ta nhìn thấy thế giới như thế nào. Và người đời thì thường đồng nhứt cái Thức với cái Tôi, nên tui hay gọi là "selful consciousness" (ngã thức). Khi thiền định là mình "lột từng lớp củ hành" ra để đến tận cùng bên trong thấy cái Thức đó hoàn toàn trống không, và chứng được selfless consciousness, vô ngã thức = trí tuệ.
+			- Nhưng không có thấu kính, không có màn hình thì cũng chẳng thể thấy được một thứ gì cụ thể, chỉ thấy "không vô biên xứ, thức vô biên xứ, vô sở hữu xứ, phi tưởng - phi phi tưởng xứ" 😃 của thế giới vô hình (vô sắc giới, formless world).
+			- Để thấy hình tướng trong thế giới hữu hình này (sắc giới, form world) thì buộc mình phải đeo kính vào.... chỉ khác là mình vừa thấy hình vừa biết hình này là của cái kính này, biết chỉ cần đổi kính thì hình sẽ đổi, nên không chấp vào một cái form tuyệt đối, và tương đối tự chủ hơn nên gọi là tự do, giải thoát.
+			- Đại khái khi đó sẽ thấy cả 2 thế này: từ trong cái Thức vô ngã (trí tuệ) đó dòm ra thì vừa thấy Mặt Trời chỉ là một đốm sáng giữa khoảng không thanh tịnh (cái thấy của trí, vạn vật đồng nhất thể) ở phía trên hình, vừa thấy Mặt Trời đó hiện thành thiên hình vạn trạng trên những đám mây của eyewall ở phía dưới hình. Những "đám mây" đó vừa là "vô minh" vì nó che khuất trí tuệ, nhưng cũng chính là thế giới muôn màu muôn vẻ, buồn vui sướng khổ, yêu thương, tranh đấu, chiến tranh, sống chết, ốm đau, khoẻ mạnh, v.v.
+			  ![hurricane-Dorian-eye-2019.jpg](../assets/Will/story/2024 Sep/hurricane-Dorian-eye-2019.jpg)
+			- cái "mất dạy" của ông Sadhguru ko phải là không dùng kiến thức, thực tế là ổng biết rất nhiều từ tâm linh tới khoa học, nhưng ổng không đồng nhất mình với nó, biết nó chỉ là những cái kính, những phương tiện để mình giao tiếp với thế giới hữu hình này thôi.
+			- Và khi chứng được cái trí tuệ = vô ngã thức = chỗ trống không này thì mình cũng thấy rõ là khi cái ngã, cái Tôi này tan rã thì cái Thức cũng biến mất, không có một cái Thức nào có thể tồn tại ngoài cái Tôi, ngoài những cái form, ngoài thế giới vật chất này. Tức có căn nhà vật chất và có chủ nhà Thức, nhưng không có một ông chủ nằm ngoài căn nhà đó. Đây là mâu thuẫn cơ bản khi giải thích cho người trong thế giới quen có một "ông chủ độc lập". Cái "linh hồn nằm ngoài thể xác" là kết quả của việc con người đem cái hình ảnh quen thuộc về "ông chủ nằm ngoài căn nhà" để áp vào cho cái thế giới vô hình. Có thế giới vô hình, nhưng nó không độc lập với thế giới hữu hình 😃
+			- Về phần "Thức emerge lên từ Tôi" này thì có vẻ giống với quan điểm duy vật, nhưng nó khác Duy Vật ở chỗ: không có cả cái Tôi, cái Vật nào độc lập với cái Thức, tức mỗi hạt cơ bản đều chỉ là những "vòng xoáy", những "lỗ đen" chứa đựng cái tâm điểm Thức bên trong; một hạt khi mất thức thì nó cũng tan rã (phân rã phóng xạ).
+			- Tới chỗ Thức cơ bản, Thức ở khắp nơi này thì quay về tín ngưỡng cổ xưa nhứt là "vạn vật hữu linh" 😃
+			- Từ nhỏ tui đã cảm thấy tranh luận giữa Duy Vật với Duy Tâm là "tào lao" mà chưa rõ tại sao... Mãi sau này tui mới tìm ra được những mô hình và ví dụ (như mắt bão) để giải thích cái cảm giác mơ hồ hồi nhỏ đó. 
+			  Tóm lại cái "linh hồn ngoài thể xác" chỉ là tưởng tượng, và cái "vật chất vô hồn" chỉ là kết quả của vô minh.
+	- Last Sunday, 22th Sep, i discovered the little miz Thương as the dual of the little mister Động.
+	  id:: 66f41254-a128-4a2c-a9c7-7fa422ec61f4
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-09-25 Wed 20:43:59]
+	  :END:
+		- Động > Thương > Tịnh (Định) > Huệ
+		- Thương là đứa hay khóc, là "con đĩ nhỏ lắm mồm" dẫn tới "nghiệp lý thuyết", là đứa mắc nợ tình cảm.
 	-

@@ -4,6 +4,7 @@ The Theory of Universal Information
 - GitHub: https://github.com/bixycler/Uniinfo
 - ((6651ecba-793d-43c5-8020-a9f260b032d8)) The published theoretical part of the [[Unïnfo].
 - Symbol: ![[Unitorus.png|100]]
+  id:: 66b1cfa3-954e-43cd-8773-ae095f92fcf7
   
   
   “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.

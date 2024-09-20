@@ -7,9 +7,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
+		- ((66f6682b-744a-49b8-8e11-8e020fc24acc))
+		- DOING UniThread: flow of transforms, implemented by projections
+		  :LOGBOOK:
+		  CLOCK: [2024-09-27 Fri 15:15:15]
+		  CLOCK: [2024-09-27 Fri 15:15:30]
+		  :END:
+		-
 		- ((66eb7dae-2032-434b-9106-756d4aad7cdb))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
-		- ((66e3fe46-dc79-472a-a059-f5ccf5afb437))
 		-
 		- DOING symbols for ((66c8941d-6427-4e5c-9009-3af349500d7b))
 		  :LOGBOOK:
@@ -518,3 +524,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  --> no space to protect the internal/underlying mechanism/structures
 				- => With eyes closed, i can see deeper into the background, more wholesome
 				- => With eyes open, i dive deeper into the foreground, more detailed
+		- See the crucial link: ((66f29d57-a87f-4370-9f32-722922a7bff1))
+		  :LOGBOOK:
+		  CLOCK: [2024-09-25 Wed 20:35:03]
+		  :END:
+		- ((66f41254-a128-4a2c-a9c7-7fa422ec61f4))
+		  :LOGBOOK:
+		  CLOCK: [2024-09-25 Wed 20:48:07]
+		  :END:

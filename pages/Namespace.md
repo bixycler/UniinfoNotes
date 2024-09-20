@@ -27,8 +27,9 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 				  id:: 66c80e01-002b-42ae-9c60-49bf3fc6e159
 		- Description:
 		  id:: 6651ecba-793d-43c5-8020-a9f260b032d8
-		  collapsed:: true
 			- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532914-003a-4bbb-9e97-6f1c87170d7d))
+			- Pronunciation:
+			  id:: 66f3c28a-a18f-4cca-90d6-c086ac7fccdf
 		- Discussion:
 		  id:: 665359ff-79f1-4669-b10b-f2b0e633a7c1
 		- References:

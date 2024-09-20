@@ -11,3 +11,15 @@
 	  id:: 66600917-64ee-4de4-8d33-2a3abee518a1
 	- ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
 	- ((66533703-505d-432d-8368-6058eefb45f6))
+	- #+BEGIN_QUERY
+	  {:title "Blocks containing 'string'"
+	   :query [:find (pull ?b [*])
+	           :in $ ?string
+	           :where
+	           [?b :block/content ?s]
+	           [(clojure.string/includes? ?s ?string)]]
+	   :inputs ["What are you grateful for?"]
+	   :result-transform (fn [result]
+	                       (map first result))
+	   :collapsed? false}
+	  #+END_QUERY
