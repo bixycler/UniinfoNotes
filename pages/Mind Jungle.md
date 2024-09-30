@@ -30,7 +30,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- AGI
 		  id:: e12b7b64-ffdf-4283-8010-03abfc1c99ef
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c2fec4-d5ac-47e6-9109-a3623904dc34))
-	- DOING ## Artificial Inteligence
+	- ## Artificial Inteligence
 	  id:: 66c2fe59-2e41-4273-9171-b78f51a9b18e
 	  collapsed:: true
 	  :LOGBOOK:
@@ -272,6 +272,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- System: `/bin`, `/usr/bin`, `/usr/local/bin`
 				- Superuser: `/sbin`, `/usr/sbin`, `/usr/local/sbin`
 				- Snap: `/snap/bin`
+				  id:: 66b1cfa4-59ec-476f-b06f-c14db11f369b
 			- Escape sequences
 			  collapsed:: true
 				- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
@@ -606,6 +607,54 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
 			- [XWayland](https://wayland.freedesktop.org/xserver.html)
 			  id:: 66c6cd8c-5367-4ae4-a76c-970732c2aebb
+		- ### Snap
+			- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://snapcraft.io/about
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Snap_(software)
+			- Snap Sandbox
+			  id:: 66fa8a1d-4fc0-4cb9-ad57-911cba799a04
+				- Each Snap app runs in a limited [sandbox](https://en.wikipedia.org/wiki/Snap_(software)#Configurable_sandbox).
+				- Each Snap app uses a separate home `${HOME}/snap/${app}/current/` instead of the user's `${HOME}`.
+				- Many system calls are blocked (`Permission denied`), e.g. `ssh`, `who`, `free`, etc.
+					- For SSH access, we must explicitly allow via `ssh-keys: allows reading ssh user configuration and keys` < `Permissions` < `${app}` < `Snap Store` (`Ubuntu Software`).
+					  id:: 66fb69ac-95d3-4ba0-b5ec-b1eb04898db5
+						- Ref: [Dbeaver CE Ubuntu snap can't read SSH key in ~/.ssh](https://github.com/dbeaver/dbeaver/issues/10098#issuecomment-770193398)
+						- ![Snap-Logseq-ssh-permission.png](../assets/logseq/Snap-Logseq-ssh-permission.png)
+					- Debugging `core.sshCommand`s in `.gitconfig`
+					  id:: 66fb7680-58c6-4954-8495-f199f5affa4e
+						- `ssh`, `who` are denied, while `date`, `id` and shell-built-in `pwd`, `echo`, `type` are allowed.
+						  collapsed:: true
+							- ```ini
+							  [core]
+							      sshCommand = "ssh -v 2>/home/dinhlx/tmp/ssh.log" # 1: ssh: Permission denied
+							      #sshCommand = "type ssh 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/ssh
+							      #sshCommand = "pwd 1>/home/dinhlx/tmp/ssh.log #" # /home/dinhlx/source/UniinfoNotes
+							      #sshCommand = "echo ${USER}:${HOME} 1>/home/dinhlx/tmp/ssh.log #" # dinhlx:/home/dinhlx/snap/logseq/28
+							      #sshCommand = "who 2>/home/dinhlx/tmp/ssh.log #" # 1: who: Permission denied
+							      #sshCommand = "type who 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/who
+							      #sshCommand = "date 1>/home/dinhlx/tmp/ssh.log #" # 30/09/2024 17:47:30 +07
+							      #sshCommand = "type date 1>/home/dinhlx/tmp/ssh.log #" # date is /usr/bin/date
+							      #sshCommand = "id 1>/home/dinhlx/tmp/ssh.log #" # uid=1001(dinhlx) gid=1001(dinhlx) groups=1001(dinhlx),27(sudo),1002(tomcat)
+							      #sshCommand = "type id 1>/home/dinhlx/tmp/ssh.log #" # id is /usr/bin/id
+							  
+							  [trace2]
+							      normalTarget = /home/dinhlx/tmp/git.trace.log
+							  ```
+					- Ref: [Permission denied for calling system calls from snap app](https://forum.snapcraft.io/t/permission-denied-for-calling-system-calls-from-snap-app/16056)
+				- All hidden files and folder (whose name is started with  dot `.*`) cannot be accessed by Snap app.
+				  id:: 66fb7680-5c9d-4c2f-8b53-e0645b62aa4e
+					- ((665dc545-151a-485a-84b7-1310fef5151c)) for some file to be used by the app, it must be placed in a non-hidden folder.
+		- ### Flatpak
+			- Originally "[XDG](((669499f7-76c4-4ff8-a27e-be9768a6258c)))-app"
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Flatpak
+			- App Store: https://flathub.org/
+			- Flatpak Sandbox
+			  id:: 66fb5dcd-e20c-4e18-b03c-e52a5bb76425
+				- Each Flatpack app is registered with a `${FlatpakID}`, e.g. `com.logseq.Logseq`, and runs in an [OSTree](https://en.wikipedia.org/wiki/OSTree) sandbox.
+				- The sandbox of `${FlatpakID}` can be inspected with `flatpak run --command=bash ${FlatpakID}`
+				- Flatpak sandbox is not as restricted as ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)).
+					- Flatpak sandbox integrates user's `${HOME}` and other parts of the OS so well that it feels like running in the native environment.
+					- Flatpak sandbox can handle SSH well.
+					  id:: 66fb5fd7-b1b0-4e54-96b3-fe6a83e34777
 	- ## ItelliJ
 	  collapsed:: true
 		- Settings
@@ -1230,6 +1279,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ![Tree Anatomy: Defining Trees & Forms](../assets/ecosystem/Tree Anatomy.pdf) from University of Geogia hosted by [BugwoodCloud.org](https://bugwoodcloud.org/resource/files/25389.pdf)
 						- ![Tree Anatomy: Branch Attachment](../assets/ecosystem/Tree Anatomy - BRANCH ATTACHMENT.pdf) from University of Geogia hosted by [BugwoodCloud.org](https://bugwoodcloud.org/resource/files/19019.pdf)
 						- [Britannica: Tree: Tree structure and growth](https://www.britannica.com/plant/tree/Tree-structure-and-growth)
+						  id:: 66b1cfa4-7b88-4ef7-a07e-45a2f6409e26
 						- anatomy of a tree branch (shoot)
 						  id:: 667502e5-b83a-4d2a-a801-34e7bcfa6b38
 						  collapsed:: true
@@ -2008,6 +2058,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Example: [network](https://en.wikipedia.org/wiki/Network_theory), [mathematical graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
 	- ## content
 	  id:: 6678288e-699b-4325-bdba-bf6349fe0d57
+	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678288e-699b-4325-bdba-bf6349fe0d57)) is an umbrella term capturing the abstract notion of "something packed inside the ((667cfa42-ade7-4310-9a7b-6d14d01c16da))": the daily used [content](https://en.wiktionary.org/wiki/content#Noun_2), the dynamic content in ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)), the ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)), etc.
 	- ## intent
 	  id:: 66b1cfa4-01ef-4ee8-9409-32c9884c39cd
@@ -2024,6 +2075,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is an umbrella term capturing the abstract notion of "something packed inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))": the daily used ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) and [intentionality](https://en.wikipedia.org/wiki/Intentionality), the semantical ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)), the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)), etc.
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
+	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f949a4-675e-4c43-8da3-f2754ba2e128))
 		- extension
 		  id:: 66f949a4-675e-4c43-8da3-f2754ba2e128
@@ -2281,8 +2333,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Japanese name: LÊ Harusada
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
-	- ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
-	  id:: 66b1cfa4-5be7-40ff-b86f-6eed3685fcb3
 	- ## GitHub
 	  id:: 66536662-052f-46a4-a624-38858bffb334
 	  collapsed:: true
@@ -2476,8 +2526,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://logseq.com/
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536e1b-6466-4153-90d6-583003d99a81)) is an ((66536d32-30ad-4c07-8585-76ae9eb7fb22)) like [Roam](https://roamresearch.com), but [open-source](https://github.com/logseq/logseq): outlining based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
-		  collapsed:: true
+			- Installations:
+			  collapsed:: true
+				- Windows: Just download and run the `.exe` file at [Downloads page](https://logseq.com/downloads).
+					- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `%USERPROFILE%/{.logseq,.config/Logseq}/`
+				- Linux: There are many choices.
+					- The `.AppImage` file at [Downloads page](https://logseq.com/downloads) can be run right away, just after making it executable (`chmod +x`).
+					  id:: 66faa5f9-d333-47df-88cf-7c6fab827842
+						- App location: `/tmp/.mount_LogseqFUWusr/` mounted from app image just in runtime.
+						- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `${HOME}/{.logseq,.config/Logseq}/`
+					- The Flatpack app [on FlatHub](https://flathub.org/apps/com.logseq.Logseq) requires additional dependencies and run in ((66fb5dcd-e20c-4e18-b03c-e52a5bb76425)) with `flatpak run com.logseq.Logseq`. ((66fb5fd7-b1b0-4e54-96b3-fe6a83e34777))
+					  id:: 66faa5f9-96d5-4d40-a118-0adcedfc016a
+						- App location: `/var/lib/flatpak/app/com.logseq.Logseq/current/active/files/logseq/`
+							- mounted to `/app/logseq/` in `flatpak run` sandbox.
+							- Cache (`instance-path`): `${HOME}/.var/app/com.logseq.Logseq/cache/`
+						- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `${HOME}/{.logseq,.var/app/com.logseq.Logseq/config/Logseq}/`
+					- The Snap app on Snap Store (Ubuntu Software) is stable but suffers limitations of the ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)).
+					  id:: 66faa5f9-bd71-4d05-9c03-b69e4077d6e7
+						- App location: `/snap/logseq/current/app/`
+						- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `${HOME}/snap/logseq/current/{.logseq,.config/Logseq}/`
+				- Android: Can be installed from the `.apk` file at [Downloads page](https://logseq.com/downloads), but useless due to no ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) support.
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+			  collapsed:: true
 				- Logseq was originally developed as a side project by [Tienson Qin](https://twitter.com/tiensonqin) [from Feb 2020](https://fission.codes/blog/overview-of-logseq-by-tienson-qin/), to bring [Org Mode](https://orgmode.org/) task features to ((66535e71-3b71-416c-98dc-5dde5e6a76ff)).
 				- It has been [open sourced to GitHub](https://github.com/logseq/logseq) with first alpha version from Jan 2021, first beta version ([0.1.2](https://github.com/logseq/logseq/releases/tag/0.1.2)) in May 2021 until... today (May 2024) still beta ([0.10.9](https://github.com/logseq/logseq/releases/tag/0.10.9))!
 				- A new branch [based on database](https://github.com/logseq/logseq/pull/9858), and will be bi-dir-synced with ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), is being developed from Jul 2023.
@@ -2665,6 +2735,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [:hidden In config.edn not working!](https://discuss.logseq.com/t/hidden-in-config-edn-not-working/12302)
 		- Features & Usage:
 		  collapsed:: true
+			- Developer mode
+			  collapsed:: true
+				- `Settings` > `Advanced` > `Developer mode`
+				- [Chrome DevTools](https://developer.chrome.com/docs/devtools) can be opened with `Ctrl` `Shift` `i`.
+				- `Plugins` entry will be shown in the three dots (`...`) menu list for installing [plugins](((66faa5f9-9402-4889-8881-dbdc8f179a30))).
+				- Block data: right click block bullet, at the end of the context menu list, there will be `(Dev)` items.
+					- `(Dev) Show block data`
+					  id:: 66fe043e-e745-4369-96ae-3947e1994070
+					  Show data attributes stored in the [graph DB](((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) which are useful for ((66acc24c-4cd7-4568-8c47-79798fc09433)).
+					- `(Dev) Show block AST`
+					  Show the [abstract syntax tree](https://en.wikipedia.org/wiki/Abstract_syntax_tree) of the main content of this block, _**not** including child blocks_, in Clojure format, which corresponds to the [DOM tree](https://en.wikipedia.org/wiki/Document_Object_Model).
 			- Block id
 			  id:: 66610c13-5045-42a8-948f-6426d698fd2c
 			  collapsed:: true
@@ -2714,11 +2795,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Should be `del Block ref ...`: <del>del ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...</del>
 						- Should be `code Block ref ...`: <code>code ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) ...</code>
 			- Block title
+			  id:: 66faa5f9-1da8-40c1-a040-7490fbfdc3bb
 			  collapsed:: true
 				- The first line in a block is considered title of that block.
 				- Automatic brief title (suggested)
 				  id:: 66626356-0ad9-4219-9b33-8ab7c6cd0508
 				  When the first line is too long, a brief title with ellipsis `...` should be automatically generated.
+				- [Discussion to standardize page and block terms](https://discuss.logseq.com/t/discussion-to-standardize-page-and-block-terms/343)
 			- Block moving via cut & paste
 			  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
 			  collapsed:: true
@@ -2786,9 +2869,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  -id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 								  +id:: 66aded24-8ec4-4bc5-b7a5-972025161721
 								  ```
-							- `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
+								- This UUID of `Git > Git` is automatically changed by Logseq to avoid collision with UUID of `Mind Jungle > Git`.
+							- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
 								- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
-							- => Delete the old `Mind Jungle` > `Git` and add the new one: ((66b1cfa4-5be7-40ff-b86f-6eed3685fcb3))
+							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
 			- Sidebar
 			  collapsed:: true
 				- Right sidebar is used as a stack of docs, started from [[Contents]], for column-styled editing in parallel with the main edit pane.
@@ -2799,6 +2883,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Editing system files, like `custom.css`, only work in the main edit pane.
 					- When the same block is _opened in both sidebar and main edit pane_, the modification of that block is buggy: sometime not reflected well, sometime even wrongly delete the whole parent block which is **very dangerous!!!**
+					  id:: 66faa5f9-e82b-49cc-b9ed-2c97d28daa3e
 			- Breadcrumbs
 			  collapsed:: true
 				- [!] Breadcrumb bar does not contain the target/focused item! 
@@ -2819,15 +2904,53 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- [Simple `{{query}}`](https://docs.logseq.com/#/page/queries) from [macro](https://docs.logseq.com/#/page/macros) syntax
 					- Supported [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64)
-				- [Advanced query](https://docs.logseq.com/#/page/advanced%20queries) with [Datalog](https://www.learndatalogtoday.org/) ([Datomic](https://docs.datomic.com/query/query-data-reference.html)) to the [DataScript](https://github.com/tonsky/datascript) database
+				- [Advanced query](https://docs.logseq.com/#/page/advanced%20queries) with [DataScript](https://github.com/tonsky/datascript) database
+					- Tutorial on [Datalog](https://www.learndatalogtoday.org/) and syntax reference from [Datomic](https://docs.datomic.com/query/query-data-reference.html).
 					- [Getting started with advanced queries](https://hub.logseq.com/features/av5LyiLi5xS7EFQXy4h4K8/getting-started-with-advanced-queries/8xwSRJNVKFJhGSvJUxs5B2)
 					  collapsed:: true
-						- {{video https://youtu.be/Iuy5A9LJiVE}}
+						- Video: [LogSeq Advanced Query - Basics & Tips in less then 10 min](https://youtu.be/Iuy5A9LJiVE)
 					- More [Logseq/Advanced Queries Examples](https://siferiax.github.io/#/page/logseq%2Fadvanced%20queries)
-					- LogSeq's database [schema.cljs](https://github.com/logseq/logseq/blob/master/deps/db/src/logseq/db/schema.cljs), e.g. `block/refs`, `block/path-refs`, etc.
+					- For data attributes, like `block/refs`, `block/content`, check LogSeq's database [schema.cljs](https://github.com/logseq/logseq/blob/master/deps/db/src/logseq/db/schema.cljs).
+					  collapsed:: true
+						- Data attributes of a specific block can be inspected from context menu item ((66fe043e-e745-4369-96ae-3947e1994070)).
+						- To get many refs (or tags, macros, aliases) in the same block **at once**, i.e. "AND/join" them into the same result record, we must repeat matching `block/refs`. Otherwise, each ref will be matched in a separate result record.
+							- E.g. 
+							  ```clojure
+							  [?b :block/refs ?ref1]
+							  [?b :block/refs ?ref2]
+							  ...
+							  ```
+							- Ref: [How to get blocks with two linked pages?](https://discuss.logseq.com/t/advanced-query-how-to-get-blocks-with-two-linked-pages/6854/2)
 					- [Special values](https://docs.logseq.com/#/page/advanced%20queries/block/query%20inputs) for `:inputs[]`, e.g. `:parent-block`, `:today`, etc.
 						- defined in [db.cljs](https://github.com/logseq/logseq/blob/master/deps/graph-parser/src/logseq/graph_parser/util/db.cljs#L77)
 					- Built-in functions for `:where` are defined in  [DataScript](https://github.com/tonsky/datascript)'s [built_ins.cljc](https://github.com/tonsky/datascript/blob/master/src/datascript/built_ins.cljc).
+						- Core functions like  `if` are not supported!
+						- Very limited `clojure.string` functions: `blank`, `includes`, `starts-with`, `ends-with`
+					- To get the block with specified `${UUID}`, use `[:block/uuid #uuid "${UUID}"]`.
+					  collapsed:: true
+						- `:inputs[ [:block/uuid #uuid "${UUID}"] ] :query[ :in ?block :where [... ?block ...] ]`
+						- `:where [(identity [:block/uuid #uuid "${UUID}"]) ?block]`
+						- `:where [?b :block/refs [:block/uuid #uuid "${UUID}"]]`
+					- Reusable components of advanced query
+					  collapsed:: true
+						- Ref: [Make Advanced Queries reusable](https://discuss.logseq.com/t/make-advanced-queries-reusable/15281)
+						- Until now (Oct 2024, v.0.10.9), there are only 2 components, `:view` and `:result-transform` functions, are reusable, via `:query/views` and `:query/result-transforms` in `config.edn`.
+						  :LOGBOOK:
+						  CLOCK: [2024-10-01 Tue 14:25:10]
+						  :END:
+						- The whole query can be included in `{{macro}}`, provided double quotes are escaped, and *at least 1 line* (may be empty) before `#+BEGIN_QUERY`.
+							- The first line before query should be used as the query title instead of `:title`.
+							- ((66fbb757-8038-4a79-87df-8d1575faaedb))
+							- Refs:
+							  collapsed:: true
+								- [define an advanced query in a macro](https://discuss.logseq.com/t/is-it-possible-with-macros-to-run-a-db-query-for-a-block-id-an-build-the-embed-block-id-inside-a-page/20952/16?u=willle)
+								- [A no-plugin Insert Template button](https://discuss.logseq.com/t/a-no-plugin-insert-template-button/24793)
+								- ~~[Macros don't work with Advanced Queries](https://github.com/logseq/logseq/issues/8256#issuecomment-2385395687)~~
+						- Suggestions to [increase query reusability](https://discuss.logseq.com/t/make-advanced-queries-reusable/15281/13?u=willle):
+						  collapsed:: true
+							- Add `:query/rules` into `config.edn` for reusable `:rules`.
+							- Add `:embed-block` into `:inputs`, in addition to `:current-block` and `:parent-block`.
+							- Add `:query-result` into `:inputs`...
 					- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
 				- [Example queries](((66b1cfa3-9679-4482-a2a3-4d99486dbe04)))
 			- [Graph Validator](https://github.com/logseq/graph-validator): a [GitHub action](https://github.com/features/actions) to run [validations](https://github.com/logseq/graph-validator#validations) on each push
@@ -2840,9 +2963,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Due to [bug #10337](https://github.com/logseq/logseq/issues/10337), until now (June 2024), `Auto start server` doesn't work by default.
 						- => We must manually uncheck that option (`API` > `Server configurations` > `Auto start server with the app launched`), restart app, then check to turn that option on again. The next app launch, the API server will be started automatically. Good luck!
 				- Plugin API docs: https://plugins-doc.logseq.com/
+				- Some APIs are mapped to DevTools console (`Ctrl` `Shift` `i`) object `[top.]logseq`, but with different name(space).
+					- `api.show_msg()` ~ `UI.showMsg()`; `sdk.git.exec_command()` ~ `Git.execCommand()` ~ `@deprecated App.execGitCommand()`
+					  ```js
+					  logseq.api.show_msg('hi from console!')
+					  await logseq.sdk.git.exec_command(['status'])
+					  ```
+					- The plugin can use both of them, as shown in [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))).
+					  collapsed:: true
+						- [main.tsx](https://github.com/haydenull/logseq-plugin-git/blob/main/src/main.tsx#L30C1-L39C2)
+						  ```js
+						  try {
+						    top.logseq.sdk.git.exec_command(['status'])
+						  } catch (e) {
+						    logseq.Git['execCommand'] = async function (args: string[]) {
+						      const ret = await logseq.App.execGitCommand(args)
+						      return {exitCode: ret == undefined ? 1 : 0, stdout: ret}
+						    }
+						  }
+						  ```
 				- The JSON result of query `logseq.Editor.getBlock` is different from `Export graph` > `Export as JSON`.
 					- API returns a bare block with children are just UUIDs, not embedded JSON like in the exported one.
-				-
 			- Logseq publish
 			  id:: 66600918-8c61-42af-b8a2-04bf05e9f782
 			  collapsed:: true
@@ -2879,6 +3020,94 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- CANCELLED Publish linear (long-form) docs with ((66695307-1334-426c-b953-3e006bc87d74))
 				  id:: 66695280-1674-477a-b4ff-eb508aa679e0
 				- Because the exported SPA is too large (~90MB including Electron), it's better to write a ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d)).
+			- Built-in ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
+			  id:: 66faa5f9-8ffd-4542-b916-6e3528cabad8
+			  collapsed:: true
+				- ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) is built in and provided via ((66fa4733-114e-4923-80a5-7ac2f5f63ae1)) as well as via ((66fa5c73-1f11-4e73-9f04-3a678bfb9912)).
+				- `Settings` > `Version control`
+				  id:: 66fa4733-114e-4923-80a5-7ac2f5f63ae1
+					- `Enable Git auto commit` is useful for periodic backup. Later on, the backup commits, titled `Auto saved by Logseq`, can be squashed down to a manual commit with a meaningful message.
+						- `Git auto commit seconds`
+					- `Git commit on window close`
+				- ((6673f8ff-995c-455f-ae09-49bcb5311e2e))'s `logseq.Git`
+				  id:: 66fa5c73-1f11-4e73-9f04-3a678bfb9912
+					- [!][solved] Linux Snap version denies SSH access.
+					  id:: 66fa5cb5-0f9d-4f70-8eeb-b6c3195c57ea
+						- ```js
+						  await logseq.sdk.git.exec_command(['pull'])
+						  ```
+						  ```
+						  fatal: cannot exec 'ssh': Permission denied
+						  fatal: unable to fork
+						  ```
+						- ((66600918-3d55-4bad-bd42-4e94708efc5e)) the ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04))
+						- ((665dc545-151a-485a-84b7-1310fef5151c)) ((66fb69ac-95d3-4ba0-b5ec-b1eb04898db5))
+					- [!][solved] Linux Snap version cannot bind to SSH socket.
+					  id:: 66fb7680-7854-4be2-8d58-77e591d7533f
+					  :LOGBOOK:
+					  CLOCK: [2024-10-01 Tue 11:07:49]--[2024-10-01 Tue 11:26:59] =>  00:19:10
+					  :END:
+						- ```js
+						  await logseq.sdk.git.exec_command(['pull'])
+						  ```
+						  ```
+						  unix_listener: cannot bind to path /home/dinhlx/.ssh/sockets/git@github.com:22.ZV3PdySqHbTzMYHi: Permission denied
+						  fatal: Could not read from remote repository.
+						  ```
+						- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) ((66fb7680-5c9d-4c2f-8b53-e0645b62aa4e))
+						- ((665dc545-151a-485a-84b7-1310fef5151c)) the socket `ControlPath` must be taken out of `.ssh/` and placed in a non-hidden folder, e.g. `~/tmp/`.
+			- [Hiccup](https://github.com/weavejester/hiccup) syntax
+			  collapsed:: true
+				- Logseq renders [HTML from Hiccup](https://docs.logseq.com/#/page/hiccup).
+				- Input [Tabler icons](https://tabler.io/icons) with `[:i.ti.ti-icon_name]`
+				  collapsed:: true
+					- Logseq is shipped with a `tabler-icons.min.css`
+					- Ref: [Macros to insert icons, buttons and more](https://discuss.logseq.com/t/macros-to-insert-icons-buttons-and-more/15284/8)
+					- Examples
+					  collapsed:: true
+						- [:i.ti.ti-folder] folder
+						- [:i.ti.ti-home] home
+						- [:i.ti.ti-alarm] alarm
+						- [:i.ti.ti-alarm-off] alarm-off
+						- [:i.ti.ti-info-circle] info-circle
+						- [:i.ti.ti-alert-triangle] alert-triangle
+						- [:i.ti.ti-alert-octagon] alert-octagon
+						- [:i.ti.ti-help] help
+						- [:i.ti.ti-key] key
+						- [:i.ti.ti-keyboard] keyboard
+						- [:i.ti.ti-phone] phone
+						- [:i.ti.ti-power] power
+						- [:i.ti.ti-printer] printer
+						- [:i.ti.ti-anchor] anchor
+						- [:i.ti.ti-anchor-off] anchor-off
+						- [:i.ti.ti-arrow-back] arrow-back
+						- [:i.ti.ti-arrow-badge-right] arrow-badge-right
+						- [:i.ti.ti-arrow-up-right-circle] arrow-up-right-circle
+						- [:i.ti.ti-bug] bug
+						- [:i.ti.ti-coins] coins
+						- [:i.ti.ti-ghost-2] ghost-2
+						- [:i.ti.ti-hearts] hearts
+						- [:i.ti.ti-heartbeat] heartbeat
+						- [:i.ti.ti-bed] bed
+						- [:i.ti.ti-eye] eye
+						- [:i.ti.ti-heartbeat] heartbeat
+						- [:i.ti.ti-droplet] droplet
+						- [:i.ti.ti-alien] alien
+						- [:i.ti.ti-pig] pig
+						- [:i.ti.ti-poo] poo
+				- Embed media with Hiccup syntax
+				  collapsed:: true
+					- `[:audio {:controls true :src "https://.../piano2-CoolEdit.mp3"}]`
+					  [:audio {:controls true :src "https://www.kozco.com/tech/piano2-CoolEdit.mp3"}]
+					- `[:video {:controls true :src "http://.../BigBuckBunny.mp4"}]`
+					  [:video {:controls true :src "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"}]
+			- [Latex Math](https://docutils.sourceforge.io/docs/ref/rst/mathematics.html) systax `$E = m \cdot c^2$`: $E = m \cdot c^2$
+			  collapsed:: true
+				- Inline formula: `$E = m \cdot c^2$`: $E = m \cdot c^2$
+					- Note that there cannot be spaces between the formula content and the single-dollar delimiters `$...$`
+				- Block display formula: `$$ \binom{n}{k} = \frac{n!}{k!(n-k)!} $$`
+				  $$ \binom{n}{k} = \frac{n!}{k!(n-k)!} $$
+					- Note that there can be spaces between the formula content and the double-dollar delimiters `$$ ... $$`
 		- Settings: via [[logseq/config.edn]] and menu `Settings`
 		  collapsed:: true
 			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`) is logical, but confused & messy:
@@ -2890,29 +3119,52 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `:hidden`
 			  id:: 66cdac39-bcf0-4859-b82f-8bd7a7f8e590
 			  can be used to exclude folders and files from being indexed.
-			-
-		- Global `${HOME}/.logseq` home
+			- `:macros {:marco-x "... $1 ... $2 ..."}` defines macros to be used with syntax `{{macro-x param1, param2}}`.
+		- Global home/config folder
+		  id:: 66faaa5c-6a8a-42d9-a1bc-410531dbaf81
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-09-28 Sat 14:47:16]
 		  :END:
-			- `plugins/` & `settings/` 
-			  contain all installed plugins and their settings.
-			- `graphs/*.transit`
-			  id:: 66f7b4fd-e34e-4fc3-9c2d-d468206d279b
-			  contains all graphs loaded by LogSeq. Each graph is managed by LogSeq internally, with a `.transit` file, to be a "mirror" of the corresponding `.md` files ... as much as possible.
+			- Location of home folder is different between installations:
+			  collapsed:: true
+				- On Windows: `%USERPROFILE%` = `%HOMEDRIVE%%HOMEPATH%`
+				- On Linux (AppImage & Flatpack): user's`${HOME}`
+				- On Linux installed with Snap: `${HOME}/snap/logseq/current/`
+				  collapsed:: true
+					- Because Logseq uses this separate snap home, some config/env in the user's `${HOME}` must be ported to this snap home.
+						- `.gitconfig` is required by [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))).
+							- ((66fa09f1-64e7-43bc-9b83-f5b5c5a2aaf7))
+			- `.logseq/` config folder in home folder
+				- `plugins/` & `settings/` 
+				  contain all installed plugins and their settings.
+				- `graphs/*.transit`
+				  id:: 66f7b4fd-e34e-4fc3-9c2d-d468206d279b
+				  contains all graphs loaded by LogSeq. Each graph is managed by LogSeq internally, with a `.transit` file, to be a "mirror" of the corresponding `.md` files ... as much as possible.
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
+		  id:: 66faa5f9-9402-4889-8881-dbdc8f179a30
 		  collapsed:: true
-			- DOING [Git (`logseq-git`)](https://github.com/haydenull/logseq-plugin-git) provides easy access to common git commands, and helps you keep your notes synchronized with a remote git repository for easy backup.
+			- [Git (`logseq-git`)](https://github.com/haydenull/logseq-plugin-git) provides easy access to common ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) commands, and helps you keep your notes synchronized with a remote git repository for easy backup.
+			  id:: 66f68ec1-9b7d-402f-b77f-fcd1fc36e500
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-09-27 Fri 17:53:55]
-			  CLOCK: [2024-09-27 Fri 17:53:58]
+			  CLOCK: [2024-09-27 Fri 17:53:58]--[2024-10-01 Tue 10:26:25] =>  88:32:27
+			  CLOCK: [2024-10-01 Tue 10:26:26]--[2024-10-01 Tue 10:26:29] =>  00:00:03
 			  :END:
 				- The operation "commit & push" can be done with hotkey `Ctrl` `S`, or automatically when Logseq app is minimized.
 				- The operation "commit" (without "push") can be done with hotkey `Alt` `Shift` `S`.
-				- [!] [Plugin does not use local .gitconfig files](https://github.com/haydenull/logseq-plugin-git/issues/44)
-					- Use `.git/config` instead of `${HOME}/.gitconfig`.
+				- src: [main.tsx](https://github.com/haydenull/logseq-plugin-git/blob/main/src/main.tsx), [helper/git.ts](https://github.com/haydenull/logseq-plugin-git/blob/main/src/helper/git.ts)
+				- [!][solved] Linux Snap version: [Plugin does not use local .gitconfig files](https://github.com/haydenull/logseq-plugin-git/issues/44)
+				  id:: 66fa09f1-64e7-43bc-9b83-f5b5c5a2aaf7
+				  collapsed:: true
+					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Copy or soft link `.gitconfig`
+					  ```sh
+					   ln -s ~/.gitconfig ~/snap/logseq/current/
+					  ```
+						- or use `.git/config` instead of `.gitconfig`.
+				- ((66fa5cb5-0f9d-4f70-8eeb-b6c3195c57ea))
+				- ((66fb7680-7854-4be2-8d58-77e591d7533f))
 			- [Tabs (`logseq-tabs`)](https://github.com/pengx17/logseq-plugin-tabs) provides tabs for browsing and concurrent editing with the very useful feature **pinned tabs**.
 			  collapsed:: true
 				- We can pin "root nodes" like ((66519638-cf5d-409b-9b98-15acabf2268c)) so that all other nodes will be opened in new tabs instead of overriding the content in that tab.
@@ -2937,6 +3189,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66600918-fe64-4ef5-965e-c085d29bb88b
 			- [Hugo publish (logseq-schrodinger)](https://github.com/sawhney17/logseq-schrodinger) for publishing to [Hugo](https://gohugo.io/).
 			  id:: 66695307-1334-426c-b953-3e006bc87d74
+			- [Full House Templates (`logseq13-full-house`)](https://stdword.github.io/logseq13-full-house-plugin/#/tutorial) provide JavaScript-based dynamic template...
+			  :LOGBOOK:
+			  CLOCK: [2024-10-01 Tue 20:13:05]
+			  :END:
 		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
 			- Check rendered result at [[Theme Demo]].
 			- DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.
@@ -3066,6 +3322,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.latex-project.org/
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A [good old](https://en.wikipedia.org/wiki/LaTeX#History) typesetting language that I've used to write my reports an thesis in my academic era ( ((665c9c28-dfdc-4a7a-8f82-d1367db0c5be)), [JAIST](((665370ae-659d-4fb1-9bdb-6e857e3f5bf3)))).
+		  id:: 66faa5f9-e9c3-4150-be5d-6cef09e8f34c
 	- ## formal methods
 	  id:: 6653711b-1c5f-4a34-b01a-e673b9bb694c
 	  collapsed:: true

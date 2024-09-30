@@ -2,7 +2,7 @@
 id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)) for Will LE.
 	  id:: 66600918-2b2b-417e-910b-2a60fdba7918
-	- ***Pinned***
+	- ***Pinned***: ((66536e1b-6466-4153-90d6-583003d99a81))
 	  id:: 66603d58-ff5b-4e23-8dad-5dba527981f4
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Workstack
@@ -34,14 +34,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- ((669f243f-41b7-4274-b954-9824ec3ac33b))
 		-
 		-
-		-
-		-
-		- TODO Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
-		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
-		  :LOGBOOK:
-		  CLOCK: [2024-06-23 Sun 16:26:28]
-		  :END:
-		-
 		- DOING ((669a1bec-3347-4915-83e4-dcffc4d482d1))
 		  :LOGBOOK:
 		  CLOCK: [2024-07-22 Mon 09:57:18]
@@ -51,6 +43,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :LOGBOOK:
 		  CLOCK: [2024-06-28 Fri 08:11:13]
 		  :END:
+		-
+		- ---
+		- TODO Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
+		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
+		  :LOGBOOK:
+		  CLOCK: [2024-06-23 Sun 16:26:28]
+		  :END:
+		-
 		-
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
@@ -110,14 +110,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
 					  id:: 6673fb2f-ef98-484a-b289-b50482edea47
 					- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
+				- For the new term ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) used in the custom element `<folder-div>`, i [researched](((66602f68-e23f-4b24-921e-b1a9fc0cc731))) ((667407ee-35ae-4d6f-8b58-89c19c0e0936)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6674066a-aeff-45af-96df-b0c2f278a2ae)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))), and drew ((667500cd-a31d-4828-9dc4-93948e27e534)).
 			- DONE Write [LogseqUtils.js](../assets/HTML/LogseqUtils.js)( ![src](../assets/HTML/LogseqUtils.js), for posting request to http://localhost:12315/api)
-			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
 			  :END:
-				- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) I need to know what's in the hidden `:LOGBOOK:`.
-				  collapsed:: true
-					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
 			- DONE Write [LogseqGet.html](../assets/HTML/LogseqGet.html)( ![src](../assets/HTML/LogseqGet.html), for `logseq.Editor.get{Block,Page}`)
 			  id:: 6675860a-c135-4a92-b4fe-206ebde974ff
 			  collapsed:: true
@@ -131,14 +128,22 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
 					  id:: 6669a3bd-5b32-4088-982a-2c359b66610d
 			- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.DB.q`)
-			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-08-02 Fri 15:00:26]--[2024-08-02 Fri 15:36:01] =>  00:35:35
 			  :END:
-				- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) I need to know what's in the hidden `:LOGBOOK:`.
-				  collapsed:: true
-					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
-			- TODO Check if `logseq.DB.onChanged` can catch block creation event... to automatically timestamp newly created blocks.
+			- DONE `logseq.DB.onChanged` catches block creation and modification events
+			  collapsed:: true
+			  => use it to automatically timestamp newly created blocks.
+				- [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))) uses it for its option `checkWhenDBChanged`
+				  id:: 66faa5fa-9fb9-4211-925b-614e5e63214c
+					- [main.tsx](https://github.com/haydenull/logseq-plugin-git/blob/main/src/main.tsx#L171C1-L176C1)
+					  ```js
+					  if (logseq.settings?.checkWhenDBChanged) {
+					    logseq.DB.onChanged(({ blocks, txData, txMeta }) => {
+					      checkStatusWithDebounce();
+					    });
+					  }
+					  ```
 		-
 		- TODO Auto-complete & typing assistant for **quotation marks**, symbols...
 		- TODO Backup & republish my contents on Facebook
@@ -532,3 +537,18 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 20:48:07]
 		  :END:
+		- DONE Last Friday, i've lost the whole work of survey for "Env refactor" project, due to [a bug in the right sidebar](((66faa5f9-e82b-49cc-b9ed-2c97d28daa3e))). Then it's costed me 4 days to debug and do many things for backup:
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-10-02 Wed 18:09:02]
+		  CLOCK: [2024-10-02 Wed 18:09:11]--[2024-10-02 Wed 19:09:11] =>  01:00:00
+		  :END:
+			- Use [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))), ((66faa5f9-8ffd-4542-b916-6e3528cabad8)) for automatic backup commits, then manually squash them down to a commit with a meaningful message.
+			- However, the [Linux Snap version](((66faa5f9-bd71-4d05-9c03-b69e4077d6e7))) of my Logseq had problem with `git push`...
+				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [Debug Git](((66fd1d03-f0d8-41b6-ba5e-7f040d343e33))), [debug SSH](((66fb7680-58c6-4954-8495-f199f5affa4e)))
+				- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) the ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)) didn't allow SSH.
+				- ((665dc545-151a-485a-84b7-1310fef5151c)) i switched to the [Flatpack version](((66faa5f9-96d5-4d40-a118-0adcedfc016a))), and tried the [AppImage version](((66faa5f9-d333-47df-88cf-7c6fab827842))).
+			- Related to the issue of `.gitconfig` (`user.{name,email}`) not loaded, i remember that it was due to the separate home dir used by ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04))...
+				- ((665dc545-151a-485a-84b7-1310fef5151c)) i looked for "home dir"... but i cannot limit the scope to ((66536e1b-6466-4153-90d6-583003d99a81)) only.
+				- ((66600918-5cb0-4833-9e52-acf2b17441c0)) i decided to create my own ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) blocks.
+				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) research about ((66acc24c-4cd7-4568-8c47-79798fc09433)) and Clojure to write the [macro `{{search-query}}`](((66faa5f8-0711-4a23-afe0-fb8d2ebb644e))).

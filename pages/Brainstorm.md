@@ -103,12 +103,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- [Logseq Docs: Advanced Queries](https://docs.logseq.com/#/page/advanced%20queries)
 		- [Logseq/Advanced Queries Examples](https://siferiax.github.io/#/page/logseq%2Fadvanced%20queries)
 		- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
-		- query-table:: true
-		  query-sort-by:: block
+		- query-sort-by:: block
+		  query-table:: true
 		  query-sort-desc:: false
 		  collapsed:: true
 		  #+BEGIN_QUERY
 		  {:title ["Property in namespace [uuid of property name]"]
+		    :inputs[ "((6652048c-27b3-47b6-84e5-25af8d9ce801))" ]
 		    :query [ 
 		    :find (pull ?b [*])
 		    :in $ ?uuid
@@ -116,7 +117,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		      [?b :block/properties ?prop] 
 		      [(get ?prop :name) ?name]
 		    ] ; end query
-		    :inputs[ "((6652048c-27b3-47b6-84e5-25af8d9ce801))" ]
 		  }
 		  #+END_QUERY
 		- query-sort-by:: block
@@ -124,14 +124,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  query-sort-desc:: false
 		  collapsed:: true
 		  #+BEGIN_QUERY
-		  {:title "Block links [ uuid of destination blocks ]"
-		  :query [
+		  {:title "Block links (all blocks referencing [uuid of] destination blocks)"
+		   :inputs [ [:block/uuid #uuid "66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5"] ]
+		   :query [
 		    :find (pull ?b [*])
 		    :in $ ?dest
 		    :where
 		     [?b :block/refs ?dest]
 		   ]
-		   :inputs [ [:block/uuid #uuid "66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5"] ]
 		  }
 		  #+END_QUERY
 		- collapsed:: true
@@ -146,50 +146,180 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		    ;:result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
 		  }
 		  #+END_QUERY
-		- ### Search string within a block
+		- collapsed:: true
+		  #+BEGIN_QUERY
+		  {:title ":blocks-with-content"
+		   :query [
+		    :find (pull ?b [*])
+		    :where 
+		     [?b :block/content ?content]
+		     [(clojure.string/includes? ?content "((665d78a5-6470-4e60-8fd1-d958fd62756e))")]
+		   ]
+		  }
+		  #+END_QUERY
+			- Macro `{{blocks-with-content}}`
+			  id:: 66fbb757-8038-4a79-87df-8d1575faaedb
+				- Test a simple (non-query) macro first: {{hi-macro HiMac}}
+				- {{blocks-with-content custom.css, ((665d78a5-6470-4e60-8fd1-d958fd62756e))}}
+		- Search for string (regex) within a block (scope)
 		  query-table:: false
-		  collapsed:: true
-			- Key word(s)
-				- tab
+		  id:: 66faa5f8-0711-4a23-afe0-fb8d2ebb644e
+			- Pattern (regex): The first line, i.e. ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)), will be used as search pattern. Property `case-sensitive::` is optional (default to `false`).
+				- history.*in\s
 				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
-			- Scope (ref)
-				- ((66536e1b-6466-4153-90d6-583003d99a81))
-				  id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
+				  case-sensitive:: true
+			- id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
+			  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((6653538a-30aa-423f-be89-848ad9c7e331))
+			  Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
 			- Ref: [FInd nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
+			- Source code
+			  collapsed:: true
+				- ```clojure
+				  #+BEGIN_QUERY
+				  {:title [:h3 "Result"]
+				   :inputs [ 
+				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; pattern
+				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; search-scope
+				    ;[:block/uuid #uuid "6651e92e-fb34-4d24-a386-d9698c2e93f7"]  ; Mind Jungle
+				    true ; recursive
+				   ]
+				   :query [
+				    :find (pull ?b [*]) ; ?key ?case-sensitive ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
+				    :in $ ?params ?container ?recursive %
+				    :where
+				     ;
+				     ; ?key parameter
+				     [?params :block/content ?paramlines]
+				     [(re-pattern ".*") ?firstLinePattern]
+				     [(re-find ?firstLinePattern ?paramlines) ?key]
+				     ;
+				     ; ?case-sensitive parameter (default = false) => ?search-pattern
+				     [?params :block/properties ?props]
+				     [(get ?props :case-sensitive false) ?case-sensitive]
+				     (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+				         (and [(= true ?case-sensitive)] [(str ?key) ?key-case])
+				         (and [(= false ?case-sensitive)] [(str "(?i)" ?key) ?key-case])
+				     )
+				     [(re-pattern ?key-case) ?search-pattern]
+				     ;
+				     ; ?scope parameter <= (?search-scope or ?container itself)
+				     [?container :block/properties ?cprops]
+				     [(get ?cprops :search-scope false) ?search-scope]
+				     (or-join [?search-scope ?container ?scope]
+				         (and [(= false ?search-scope)] [(identity ?container) ?scope])
+				         (and [(!= false ?search-scope)] 
+				            [?container :block/refs ?scope]
+				            [?scope :block/uuid ?uuid]
+				            [(clojure.string/includes? ?search-scope ?uuid)]
+				         )
+				     )
+				     ;
+				     ; ?scope parameter contains ?b
+				     [(not ?recursive) ?is-parent]
+				     (check-ancestor-parent ?b ?scope ?is-parent)
+				     ;
+				     ; ?b block/content contains ?search-pattern
+				     [?b :block/content ?content]
+				     [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
+				     ;[(clojure.string/includes? ?content ?key)]
+				   ]
+				   :rules [
+				     ;
+				     ;; Check if ?b has ?ancestor as an ancestor
+				     [(check-ancestor ?b ?ancestor)
+				       [?b :block/parent ?ancestor]
+				     ]
+				     [(check-ancestor ?b ?ancestor)
+				       [?b :block/parent ?t]
+				       (check-ancestor ?t ?ancestor)
+				     ]
+				     ;
+				     ;; Check if ?b has ?ancestor as an ancestor or as a parent (when ?is-parent)
+				     [(check-ancestor-parent ?b ?ancestor ?is-parent)
+				       (or
+				         (and [(= true ?is-parent)] [?b :block/parent ?ancestor])
+				         (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
+				       )
+				     ]
+				   ]
+				  }
+				  #+END_QUERY
+				  ```
 			- query-table:: false
 			  #+BEGIN_QUERY
 			  {:title [:h3 "Result"]
-			  :query [
-			    :find (pull ?b [*]) ; ?key  ?scope ; 
-			    :in $ ?params ?container %
+			   :inputs [ 
+			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; pattern
+			    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; search-scope
+			    ;[:block/uuid #uuid "6651e92e-fb34-4d24-a386-d9698c2e93f7"]  ; Mind Jungle
+			    true ; recursive
+			   ]
+			   :query [
+			    :find (pull ?b [*]) ; ?key ?case-sensitive ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
+			    :in $ ?params ?container ?recursive %
 			    :where
-			  
+			     ;
 			     ; ?key parameter
 			     [?params :block/content ?paramlines]
 			     [(re-pattern ".*") ?firstLinePattern]
 			     [(re-find ?firstLinePattern ?paramlines) ?key]
-			  
-			     ; ?scope parameter
-			     [?container :block/refs ?scope]
-			     (check-parent ?scope ?b)
-			     ;[?b :block/parent ?scope]
-			  
-			     ; ?key in block/content
+			     ;
+			     ; ?case-sensitive parameter (default = false) => ?search-pattern
+			     [?params :block/properties ?props]
+			     [(get ?props :case-sensitive false) ?case-sensitive]
+			     (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+			         (and [(= true ?case-sensitive)] [(str ?key) ?key-case])
+			         (and [(= false ?case-sensitive)] [(str "(?i)" ?key) ?key-case])
+			     )
+			     [(re-pattern ?key-case) ?search-pattern]
+			     ;
+			     ; ?scope parameter <= (?search-scope or ?container itself)
+			     [?container :block/properties ?cprops]
+			     [(get ?cprops :search-scope false) ?search-scope]
+			     (or-join [?search-scope ?container ?scope]
+			         (and [(= false ?search-scope)] [(identity ?container) ?scope])
+			         (and [(!= false ?search-scope)] 
+			            [?container :block/refs ?scope]
+			            [?scope :block/uuid ?uuid]
+			            [(clojure.string/includes? ?search-scope ?uuid)]
+			         )
+			     )
+			     ;
+			     ; ?scope parameter contains ?b
+			     [(not ?recursive) ?is-parent]
+			     (check-ancestor-parent ?b ?scope ?is-parent)
+			     ;
+			     ; ?b block/content contains ?search-pattern
 			     [?b :block/content ?content]
-			     [(clojure.string/includes? ?content ?key)]
+			     [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
+			     ;[(clojure.string/includes? ?content ?key)]
 			   ]
 			   :rules [
-			     [(check-parent ?parent ?b)
-			       [?b :block/parent ?parent]
+			     ;
+			     ;; Check if ?b has ?ancestor as an ancestor
+			     [(check-ancestor ?b ?ancestor)
+			       [?b :block/parent ?ancestor]
 			     ]
-			     [(check-parent ?parent ?b)
+			     [(check-ancestor ?b ?ancestor)
 			       [?b :block/parent ?t]
-			       (check-parent ?parent ?t)
+			       (check-ancestor ?t ?ancestor)
+			     ]
+			     ;
+			     ;; Check if ?b has ?ancestor as an ancestor or as a parent (when ?is-parent)
+			     [(check-ancestor-parent ?b ?ancestor ?is-parent)
+			       (or
+			         (and [(= true ?is-parent)] [?b :block/parent ?ancestor])
+			         (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
+			       )
 			     ]
 			   ]
-			   :inputs [ [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"] ]
 			  }
 			  #+END_QUERY
+			- Macro `{{search-query}}`
+			  collapsed:: true
+				- {{search-query [:h3 "Search Query"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, false}}
+				- {{search-query [:h3 "Search Query Recursively"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, true}}
+				- {{search-query [:h3 "Search Query Recursively on Mind Jungle"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 6651e92e-fb34-4d24-a386-d9698c2e93f7, true}}
 	- Special properties built in Logseq
 	  collapsed:: true
 		- Example:

@@ -77,6 +77,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				- `${ref}~` means the first parent of `${ref}`, just like the option `-m1` in `cherry-pick`.
 			- `${head1_inclusive}...${head2_inclusive}` means roughly "between 2 (branching) heads", and exactly "all commits reachable from either head, but not (the common) from both of them".
 			- Ref: [Git docs](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#_commit_ranges)
+			  id:: 66b1cfa5-6161-4074-bd22-077ef848026b
 	- Git workflows
 	  id:: 666022fc-eeeb-4365-a854-7e14045655be
 	  collapsed:: true
@@ -138,7 +139,8 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				  upstream> git push
 				  ```
 			- In case of many commits to upstream: (for project)
-				- ```shell
+				- id:: 66b1cfa5-1ec8-4313-b635-2b22d705d19f
+				  ```shell
 				  downstream> git checkout upstream
 				  upstream> git pull # make sure it's updated
 				  upstream> git merge --squash --strategy-option=theirs downstream
@@ -154,3 +156,35 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			- Notes: Use `git checkout stash -- .` instead of `git stash apply` to overwrite current workdir
 			  collapsed:: true
 				- Ref: https://stackoverflow.com/a/16625128/789095
+	- Troubleshooting
+	  id:: 66fd1d03-f0d8-41b6-ba5e-7f040d343e33
+	  collapsed:: true
+		- Env.var.
+		  ```sh
+		  GIT_SSH_COMMAND="ssh -vvv" GIT_TRACE=2 GIT_CURL_VERBOSE=1 git push
+		  ```
+		- Config.var.
+			- `.git/config` or `~/.gitconfig`
+			  collapsed:: true
+			  ```ini
+			  [core]
+			      sshCommand = "ssh -v 2>/home/dinhlx/tmp/ssh.log"
+			  [trace2]
+			      normalTarget = /home/dinhlx/tmp/git.trace.log
+			  ```
+				- or `~/.ssh/config`
+				  ```
+				  Host github.com
+				      LogLevel DEBUG3
+				  ```
+			- command option `-c`, `--config-env`
+			  ```sh
+			  git -c core.sshCommand="ssh -vvv" push
+			  git --config-env=core.sshCommand="ssh -vvv" push
+			  ```
+		- References
+			- Git Internals - [Environment Variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables)
+			- Git config - [Variables](https://git-scm.com/docs/git-config#_variables)
+			  id:: 66fa6b26-2c9a-43d6-9856-18321672d800
+			- GitLab's [Troubleshooting Git](https://docs.gitlab.com/ee/topics/git/troubleshooting_git.html)
+			- [Really verbose way to test Git connection over SSH?](https://askubuntu.com/questions/336907/really-verbose-way-to-test-git-connection-over-ssh)

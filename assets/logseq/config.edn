@@ -195,20 +195,22 @@
  ;; Pre-defined :view function to use with advanced queries.
  :query/views
  {:pprint
-  (fn [r] [:pre.code (pprint r)])}
+  (fn [r] [:pre.code (pprint r)])
+ }
 
  ;; Advanced queries `:result-transform` function.
  ;; Transform the query result before displaying it.
  :query/result-transforms
  {:sort-by-priority
-  (fn [result] (sort-by (fn [h] (get h :block/priority "Z")) result))}
+  (fn [result] (sort-by (fn [h] (get h :block/priority "Z")) result))
+ }
 
  ;; The following queries will be displayed at the bottom of today's journal page.
  ;; The "NOW" query returns tasks with "NOW" or "DOING" status.
  ;; The "NEXT" query returns tasks with "NOW", "LATER", or "TODO" status.
  :default-queries
- {:journals
-  [{:title "🔨 NOW"
+ {:journals [
+   {:title "🔨 NOW"
     :query [:find (pull ?h [*])
             :in $ ?start ?today
             :where
@@ -238,7 +240,8 @@
             [(< ?d ?next)]]
     :inputs [:today :7d-after]
     :group-by-page? false
-    :collapsed? false}]}
+    :collapsed? false}
+ ]}
 
  ;; Add custom commands to the command palette
  ;; Example usage:
@@ -265,7 +268,98 @@
  ;; input "{{poem red,blue}}"
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
- :macros {}
+ :macros {
+  :hi-macro "Hi there! I'm $1 from macro `{{hi-macro}}`"
+  :blocks-with-content
+  "(At least 1 line [may be empty] is required before `#+BEGIN_QUERY`)
+(which should replace the query title: **$1**)
+  #+BEGIN_QUERY
+  {;:title [:h3 \"$1\"]
+   :query [
+    :find (pull ?b [*])
+    :where 
+     [?b :block/content ?content]
+     [(clojure.string/includes? ?content \"$2\")]
+   ]
+  }
+  #+END_QUERY
+  "
+          
+  ;; Search for pattern (regex)=$2 in a scope (block)=$3 either recursively=$4 or not.
+  ;; - The title of the result list/table is specified by $1.
+  ;; - The search pattern is default to case-insensitive, and an additional property `case-sensitive:: true` can be specified.
+  :search-query
+  "$1
+#+BEGIN_QUERY
+{
+ :inputs [ 
+  [:block/uuid #uuid \"$2\"]  ; pattern
+  [:block/uuid #uuid \"$3\"]  ; search-scope
+  $4 ; recursive
+ ]
+ :query [
+  :find (pull ?b [*]) ; ?key ?case-sensitive ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
+  :in $ ?params ?container ?recursive %
+  :where
+   ;
+   ; ?key parameter
+   [?params :block/content ?paramlines]
+   [(re-pattern \".*\") ?firstLinePattern]
+   [(re-find ?firstLinePattern ?paramlines) ?key]
+   ;
+   ; ?case-sensitive parameter (default = false) => ?search-pattern
+   [?params :block/properties ?props]
+   [(get ?props :case-sensitive false) ?case-sensitive]
+   (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+       (and [(= true ?case-sensitive)] [(str ?key) ?key-case])
+       (and [(= false ?case-sensitive)] [(str \"(?i)\" ?key) ?key-case])
+   )
+   [(re-pattern ?key-case) ?search-pattern]
+   ;
+   ; ?scope parameter <= (?search-scope or ?container itself)
+   [?container :block/properties ?cprops]
+   [(get ?cprops :search-scope false) ?search-scope]
+   (or-join [?search-scope ?container ?scope]
+       (and [(= false ?search-scope)] [(identity ?container) ?scope])
+       (and [(!= false ?search-scope)] 
+          [?container :block/refs ?scope]
+          [?scope :block/uuid ?uuid]
+          [(clojure.string/includes? ?search-scope ?uuid)]
+       )
+   )
+   ;
+   ; ?scope parameter contains ?b
+   [(not ?recursive) ?is-parent]
+   (check-ancestor-parent ?b ?scope ?is-parent)
+   ;
+   ; ?b block/content contains ?search-pattern
+   [?b :block/content ?content]
+   [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
+   ;[(clojure.string/includes? ?content ?key)]
+ ]
+ :rules [
+   ;
+   ;; Check if ?b has ?ancestor as an ancestor
+   [(check-ancestor ?b ?ancestor)
+     [?b :block/parent ?ancestor]
+   ]
+   [(check-ancestor ?b ?ancestor)
+     [?b :block/parent ?t]
+     (check-ancestor ?t ?ancestor)
+   ]
+   ;
+   ;; Check if ?b has ?ancestor as an ancestor or as a parent (when ?is-parent)
+   [(check-ancestor-parent ?b ?ancestor ?is-parent)
+     (or
+       (and [(= true ?is-parent)] [?b :block/parent ?ancestor])
+       (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
+     )
+   ]
+ ]
+}
+#+END_QUERY
+  "
+ }
 
  ;; Configure the default expansion level for linked references.
  ;; For example, consider the following block hierarchy:
