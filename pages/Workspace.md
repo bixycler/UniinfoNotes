@@ -552,3 +552,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((665dc545-151a-485a-84b7-1310fef5151c)) i looked for "home dir"... but i cannot limit the scope to ((66536e1b-6466-4153-90d6-583003d99a81)) only.
 				- ((66600918-5cb0-4833-9e52-acf2b17441c0)) i decided to create my own ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) blocks.
 				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) research about ((66acc24c-4cd7-4568-8c47-79798fc09433)) and Clojure to write the [macro `{{search-query}}`](((66faa5f8-0711-4a23-afe0-fb8d2ebb644e))).
+		- Yesterday, 1st October 2024, my wife had a birthday cheered with friend sisters but the cost are shared, due to the low salary caused by my may times late and off last months.
+		  id:: 66fe3f98-c4bb-48df-a80d-e1fd41ae0be7
+		  :logbook:
+		  CLOCK: [2024-10-02 Wed 19:14:10]
+		  :END:

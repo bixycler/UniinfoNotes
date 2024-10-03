@@ -127,9 +127,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :END:
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Linux
 		- Distributions
+		  id:: 66faa5fa-fdde-4dd5-a27f-442cea4ba47a
 		  collapsed:: true
 			- ### Ubuntu
+			  id:: 66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
+				-
 		- ### shell
 			- `man [-k]`, `info`, `[run-]help`, `apropos`
 			  collapsed:: true
@@ -488,7 +491,55 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
 								  ...
 								  ```
-		- commands
+			- Oh My Zsh
+			  collapsed:: true
+				- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
+			- My backups via Git repos
+			  collapsed:: true
+				- Hardlinks are used to synchonize files on system with backup Git repositories.
+				- [linux-commands](https://github.com/bixycler/linux-commands)
+					- ```sh
+					  cd ~/bin
+					  ln aws.sh findapp.sh findname.sh Japencid.sh greprsjis.sh ldiff.sh netstatwatch.sh sping.sh sstp.sh tput-test.sh ovpn.sh vpn.sh \
+					     ~/source/linux-commands/home-bin/
+					  ```
+				- [linux-config](https://github.com/bixycler/linux-config)
+					- ```sh
+					  cd ~
+					  ln .bash_history .bash_logout .bash_profile .bashrc .chzsh .gitconfig .ishrc  .profile .viminfo .vimrc .vimrc.vim .zprofile .zsh_history .zshrc \
+					     ~/source/linux-config/
+					  ln .oh-my-zsh/custom/aliases.zsh ~/source/linux-config/.oh-my-zsh/custom/aliases.zsh
+					  ln .oh-my-zsh/custom/themes/creatzy.zsh-theme ~/source/linux-config/.oh-my-zsh/custom/themes/creatzy.zsh-theme
+					  ln .ssh/config ~/source/linux-config/.ssh/config
+					  # host files used by dnsmasq
+					  ln hosts/others.hosts hosts/active/others.hosts
+					  ln hosts/others.hosts ~/source/linux-config/hosts/active/
+					  ln hosts/* ~/source/linux-config/hosts/
+					  # ibus-bamboo input method
+					  ln .config/ibus-bamboo/ibus-bamboo.macro.text ~/source/linux-config/
+					  ```
+			- Nushell
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-10-04 Fri 10:17:52]
+			  :END:
+				- [Nushell](https://www.nushell.sh/) is a [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language)) based shell for structured data pipelining.
+				- On ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)), `cargo` package manager of Rust must be installed first, then `nu` can be installed by `cargo`.
+					- ```sh
+					  sudo apt install cargo
+					  ```
+					- Make sure of dependencies
+					  ```sh
+					  sudo apt install pkg-config build-essential libssl-dev libx11-dev libxcb-composite0-dev
+					  ```
+					- Check version compatibility between Rust and Nushell in [rust-toolchain.toml](https://github.com/nushell/nushell/blob/0.91.0/rust-toolchain.toml), e.g. Nushell v0.91.0 ~ Rust v1.74.1.
+						- ```sh
+						  cargo install nu --version ^0.91.0
+						  ```
+					- Ref: [Install Nu Shell on Ubuntu 20.04](https://www.osradar.com/install-nu-shell-ubuntu/)
+					  collapsed:: true
+						- Note: Don't install ` --all-features` as instructed here, because some "raw" features make `polars-core` compilation error: `raw_table_mut()` method not found.
+		- ### commands
 			- process handling
 			  collapsed:: true
 				- "pid" := "process ID"
@@ -503,6 +554,39 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
 				- `xkill`: kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
 				- `xprop`: display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
+		- ### editors
+		  collapsed:: true
+			- #### vim
+			  collapsed:: true
+			  Vi IMproved, a programmer's text editor
+				- directory browsing
+				  collapsed:: true
+					- When opening a directory, e.g. `vim .`, vim can browse it for the text file to be edited.
+				- split window
+				  id:: 66fe47b0-71d5-4663-bc43-d4774329a56e
+					- `:[v]sp[lit] [file]` | `Ctrl`-`w`-{`s`,`v`}
+					   to split horizontally (or vertically with `vs`). If no `file` is provided (or hotkey `Ctrl`-`w`-{`s`,`v`}), the current file is mirrored to the new split window.
+					- `Ctrl`-`w`-(arrow key)
+					   to move around.
+					- `:[w]q[!]` | `Ctrl`-`w`-`c`
+					  to close current window. `w` to write before closing, and `!` to discard changes.
+					- `vim -{o,O} $files`
+					  to open each file in a split window (`-o` for horizontal, `-O` for vertical).
+				- tab
+				  id:: 66fe472d-cbfe-49ff-9ec1-4c1b7853895a
+					- `:tabe[dit] [file]`
+					  to open new tab. If no `file` is provided, a new file (empty) is opened which is the same as `:tabnew`.
+					- Each tab can contain many ((66fe47b0-71d5-4663-bc43-d4774329a56e))s.
+					- `vim -p $files`
+					  to open each file in a tab.
+				- buffer
+					- Each file is associated with an editing buffer.
+					- Each buffer can be mirrored in many ((66fe47b0-71d5-4663-bc43-d4774329a56e))s and in many ((66fe472d-cbfe-49ff-9ec1-4c1b7853895a))s.
+					- `:buffers`
+					  to list all buffers.
+			- #### nano
+			  collapsed:: true
+				-
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 		  :LOGBOOK:
@@ -612,6 +696,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Snap_(software)
 			- Snap Sandbox
 			  id:: 66fa8a1d-4fc0-4cb9-ad57-911cba799a04
+			  collapsed:: true
 				- Each Snap app runs in a limited [sandbox](https://en.wikipedia.org/wiki/Snap_(software)#Configurable_sandbox).
 				- Each Snap app uses a separate home `${HOME}/snap/${app}/current/` instead of the user's `${HOME}`.
 				- Many system calls are blocked (`Permission denied`), e.g. `ssh`, `who`, `free`, etc.
@@ -649,6 +734,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- App Store: https://flathub.org/
 			- Flatpak Sandbox
 			  id:: 66fb5dcd-e20c-4e18-b03c-e52a5bb76425
+			  collapsed:: true
 				- Each Flatpack app is registered with a `${FlatpakID}`, e.g. `com.logseq.Logseq`, and runs in an [OSTree](https://en.wikipedia.org/wiki/OSTree) sandbox.
 				- The sandbox of `${FlatpakID}` can be inspected with `flatpak run --command=bash ${FlatpakID}`
 				- Flatpak sandbox is not as restricted as ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)).
@@ -1664,18 +1750,107 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## UniinfoNotes
 	  id:: 666baccf-6be1-4b9a-b186-f883ea04daf1
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This note is in the ((666baccf-6be1-4b9a-b186-f883ea04daf1)) itself.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This meta-note about UniinfoNotes is a note in UniinfoNotes itself.
+		- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/bixycler/UniinfoNotes
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		  collapsed:: true
 			- ((66978876-9378-4059-8783-868d041e8e2e)) are used to share doc content between places.
-			  collapsed:: true
 				- Because [Git doesn't preserve hard links](((666ba5a7-598a-4b66-86bd-b1622a28ada6))), let's try not to do write oprations like  `pull`, `checkout`, `reset`. When some repo must be overwritten, let's re-link these files.
+		- Folder structure (following ((66536e1b-6466-4153-90d6-583003d99a81)))
+			- `pages/`
+			  id:: 66fe69b2-bd2a-4e7e-b4fb-953d62374db7
+			  contains all ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) pages in this project.
+				- `contents.md`
+				  includes the table of ((6678288e-699b-4325-bdba-bf6349fe0d57))s of this project and ((66fe70ac-04d0-45b5-b771-b072cc0fa7be)) queries for it.
+				- `Workspace.md`
+				  is the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)) of this project.
+				- `Namespace.md`
+				  is the [tree](((66faa5f9-b719-4c5d-a1d9-d40b3fcbda21))) of common ((665cab38-f8e8-472e-b0a1-60776d492835))s used in this project. These names are equivalent to the concepts of `#tag` and `property::` in ((66536e1b-6466-4153-90d6-583003d99a81)).
+				- `Mind Jungle.md`
+				  is the ((665c82c0-ee06-4f43-95b8-73dbbe956080)) of this project.
+				- `Brainstorm.md`
+				  is the ((665c92d1-565b-4911-a706-b32af429c3aa)) place for this project.
+				- `Stories.md`
+				  contains life stories around this project.
+				- `materials/`
+				  contains meta pages about [materials in `assets/`](((66fe77c8-05b8-44b2-bf66-b8d62b005a3d))).
+				- `publish/`
+				  contains published pages.
+				- `share/`
+				  contains pages that are shared with other projects.
+			- `assets/`
+			  id:: 66fe77c8-05b8-44b2-bf66-b8d62b005a3d
+			  contains all materials to be embedded/included in [Markdown pages](((66fe69b2-bd2a-4e7e-b4fb-953d62374db7))).
 		- Hard links
 		  id:: 66978876-9378-4059-8783-868d041e8e2e
-			- `logseq/{config.edn,custom.css}` are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
+			- `logseq/{config.edn,custom.css}` and global `.logseq/config/config.edn` are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
 			- pages hard-linked to other projects (graphs)
+				- [[logseq/config.edn]]
 				- [[logseq/custom.css]]
 				- [`pages/publish/Theme Demo.md`]([[Theme Demo]])
 				- [`pages/publish/technical/Git.md`]([[Git]])
+		- DOING CreatZy [shorthands](((66ff4478-6eae-4633-b7be-fd42e2bcda5b)))
+		  :LOGBOOK:
+		  CLOCK: [2024-10-03 Thu 20:57:00]
+		  :END:
+			- DOING TSV database of shorthands + translator to: `<table>`, markdown table, logseq commands, JSON
+			  :LOGBOOK:
+			  CLOCK: [2024-10-04 Fri 09:33:12]
+			  :END:
+				- Alternatives (aliases, different keywords) are separated by comma `,`.
+				- Sequence: names & code-points in sequence are joined by plus sign `+`, while characters & HTML entities are joined without joiner (actually emoji sequence contains [zero-width joiner](https://en.wikipedia.org/wiki/Zero-width_joiner) already).
+				- [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) is a special case of [DSV](https://en.wikipedia.org/wiki/Delimiter-separated_values) which is usually called [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) due to the popularity of CSV, as [in Python](https://thepythonguru.com/python-how-to-read-and-write-csv-files/).
+				- [HTML Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) = [character reference](https://developer.mozilla.org/en-US/docs/Glossary/Character_reference)
+					- Unicode Compart's [DB of HTML Entities](https://www.compart.com/en/unicode/html) shows HTML5 names.
+					- The mapping [named-references.ts](https://github.com/mdevils/html-entities/blob/master/src/named-references.ts) of `mdevils/html-entities` includes both HTML5 and HTML4 names.
+					- There are 3 forms of reference:
+					  collapsed:: true
+						- named ref (HTML Entity) like `&lt;`,
+						- decimal numeric ref (HTML Decimal Code) like `&#60;`, and
+						- hexadecimal numeric ref (HTML Hex Code) like `&#x3c;`.
+					- Each entity may have many names (aliases).
+						- E.g.
+							- `↓` = `&darr;` (HTML 4.0) = `&downarrow;`, `&DownArrow;`, `&ShortDownArrow;` (HTML 5.0)
+							- [Non-breaking Space](https://en.wikipedia.org/wiki/Non-breaking_space) = `&nbsp;`  (HTML 3.2) = `&NonBreakingSpace;` (HTML 5.0)
+						- The Unicode Compart DB shows the last (HTML5) alias as the "HTML entity", e.g. [U+2193](https://www.compart.com/en/unicode/U+2193).
+						- Aliases are listed in these tables: [List of XML and HTML character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#List_of_character_entity_references_in_HTML), [ISONUM Characters and Glyphs](https://www.w3.org/TR/MathML2/isonum.html) of MathML2
+				- Emoji
+					- The mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser` corresponds to the [Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html) of The Unicode Consortium.
+						- `emoji-lib.json` also includes additional keywords and emoticon codes (as keywords) to be searched easily.
+						- This mapping is different from Unicode Compart DB, e.g. 😃 = "grinning face with big eyes" ([emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/c2508f15975d9f4c54121049166b5070939f4b3e/src/lib/emoji-lib.json#L13C14-L13C41)) = "Smiling Face with Open Mouth" ([Compart](https://www.compart.com/en/unicode/U+1F603)).
+					- [List of emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) maps various emoticon codes with emojis.
+				- About the `U+` prefix of Unicode's code-point:
+				  collapsed:: true
+					- In the email [Re: Origin of the U+nnnn notation](https://unicode.org/mail-arch/unicode-ml/y2005-m11/0060.html), Kenneth Whistler explained that it originated from the [Multiset Union](https://www.compart.com/en/unicode/U+228E) `⊎` (`&uplus;`).
+					  > What is little-known generally is that the "U+" convention itself
+					  was an ASCII-fied compromise for what the Unicode designers
+					  *really* wanted to use for the Unicode hexadecimal prefix,
+					  which was U+228E MULTISET UNION (whose glyph is a union sign
+					  with a plus sign in it).
+					- The `U-` prefix is also preserved for eight-digit hex code-points.
+					  > The full syntax of the notation of a short identifier, in
+					     Backus-Naur form, is:
+					     {U | u}[{+}xxxx | {-}xxxxxxxx] ([Unicode 14-](https://www.unicode.org/versions/Unicode14.0.0/appA.pdf))
+						- `U-` has been obsoleted by [Unicode 15](https://www.unicode.org/versions/Unicode15.0.0/appA.pdf). See HTML version of this [Extended BNF in Unicode 16](https://www.unicode.org/versions/Unicode16.0.0/core-spec/appendix-a/#G7157).
+						  > |--------|----------|
+						  | U+HHHHHH | Unicode code point literal: equivalent to “\u{HHHHHH}”. Between four and six hexadecimal digits; maximum U+10FFFF. |
+						  | U-00HHHHHH | Unicode code point literal: equivalent to “\u{HHHHHH}”. Exactly six hexadecimal digits after the initial two zeroes; maximum U+10FFFF. This format was used in ISO 10646 but is now obsolete. |
+						- [Guide to the use of character set standards in Europe](https://www.unicode.org/L2/L2001/01206-cen908.pdf) > 6.4 Unique identifiers for characters
+						  > Amendment 9 to ISO/IEC 10646-1 proposes several alternative forms for unique identifiers constructed from UCS code positions. ...
+						  > hhhhhhhh or -hhhhhhhh or T-hhhhhhhh or U-hhhhhhhh;
+						  > The significance of the optional prefixes is as follows:
+						  > + a minus sign indicates that the numeric form is the eight-digit form, a plus sign indicates that it is the four-digit form;
+				- `≏` hump equals: [The Mathematical Symbol "Difference Between (≏)"](https://www.mathematics-monster.com/symbols/Difference-Between.html)
+					- The sign of Libra (`♎︎`) is similar to this hump equals sign.
+			- ```
+			  {} Open close
+			  /- ->
+			  \- <-
+			  /| Up
+			  \| down
+			  . Punctuations
+			  > Named tag
+			  ```
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
@@ -2052,6 +2227,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 667d0a09-6a59-483d-91e4-33a019655b42
 			- circular structure
 			- branching structure
+			  id:: 66faa5f9-b719-4c5d-a1d9-d40b3fcbda21
 			  is a [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))).
 			- ### network
 			  id:: 667d1a95-b621-49cd-8a72-a074c963c92a
@@ -2686,7 +2862,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Refs:
 						- [Symlinks are not followed when loading a Graph/Directory](https://github.com/logseq/logseq/issues/5489)
 						- [Using symbolic link to add existing external .md file to logsek break on restart](https://discuss.logseq.com/t/using-symbolic-link-to-add-existing-external-md-file-to-logsek-break-on-restart/16229)
-				- **Hard-link** does keep index, but are [broken by git](((666ba5a7-598a-4b66-86bd-b1622a28ada6)))! This is the better-than-nothing solution now.
+				- **Hard-link** does keep index, but are [broken by git](((666ba5a7-598a-4b66-86bd-b1622a28ada6)))! This is the [better-than-nothing solution](((66978876-9378-4059-8783-868d041e8e2e))) now.
 			- [!] Each #tag corresponds to a *page*, not a block!
 			  collapsed:: true
 				- This is a problem to my projects, because my approach is pure block-based.
@@ -2902,9 +3078,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [DataScript](https://github.com/tonsky/datascript) Query
 			  id:: 66acc24c-4cd7-4568-8c47-79798fc09433
 			  collapsed:: true
-				- [Simple `{{query}}`](https://docs.logseq.com/#/page/queries) from [macro](https://docs.logseq.com/#/page/macros) syntax
+				- [Simple `{{query}}`](https://docs.logseq.com/#/page/queries) from ((66ff3a47-e526-4c63-b0fc-8b260882ea51)) syntax
+				  id:: 66faa5f9-0274-4988-a89a-ea1d0d070e28
 					- Supported [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64)
 				- [Advanced query](https://docs.logseq.com/#/page/advanced%20queries) with [DataScript](https://github.com/tonsky/datascript) database
+				  id:: 66faa5f9-9b88-44ed-97bd-369cc0048c5d
 					- Tutorial on [Datalog](https://www.learndatalogtoday.org/) and syntax reference from [Datomic](https://docs.datomic.com/query/query-data-reference.html).
 					- [Getting started with advanced queries](https://hub.logseq.com/features/av5LyiLi5xS7EFQXy4h4K8/getting-started-with-advanced-queries/8xwSRJNVKFJhGSvJUxs5B2)
 					  collapsed:: true
@@ -2951,6 +3129,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Add `:query/rules` into `config.edn` for reusable `:rules`.
 							- Add `:embed-block` into `:inputs`, in addition to `:current-block` and `:parent-block`.
 							- Add `:query-result` into `:inputs`...
+					- `{{function (fn :proptery)}}` for [summerizing query result table](https://mschmidtkorth.github.io/logseq-msk-docs/#/page/610fdfba-d6cf-4bb1-a88d-b3fe28e0a72d), e.g. `sum`, `average`, `min`.
 					- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
 				- [Example queries](((66b1cfa3-9679-4482-a2a3-4d99486dbe04)))
 			- [Graph Validator](https://github.com/logseq/graph-validator): a [GitHub action](https://github.com/features/actions) to run [validations](https://github.com/logseq/graph-validator#validations) on each push
@@ -3057,6 +3236,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) ((66fb7680-5c9d-4c2f-8b53-e0645b62aa4e))
 						- ((665dc545-151a-485a-84b7-1310fef5151c)) the socket `ControlPath` must be taken out of `.ssh/` and placed in a non-hidden folder, e.g. `~/tmp/`.
 			- [Hiccup](https://github.com/weavejester/hiccup) syntax
+			  id:: 66fbdf84-c5a4-4f96-aece-add980758db1
 			  collapsed:: true
 				- Logseq renders [HTML from Hiccup](https://docs.logseq.com/#/page/hiccup).
 				- Input [Tabler icons](https://tabler.io/icons) with `[:i.ti.ti-icon_name]`
@@ -3070,9 +3250,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [:i.ti.ti-alarm] alarm
 						- [:i.ti.ti-alarm-off] alarm-off
 						- [:i.ti.ti-info-circle] info-circle
+						  id:: 66fbe578-3768-4c36-ae6e-184b5ffd19ed
 						- [:i.ti.ti-alert-triangle] alert-triangle
 						- [:i.ti.ti-alert-octagon] alert-octagon
 						- [:i.ti.ti-help] help
+						  id:: 66fbe302-f6ad-411a-91c1-638b4f97bee6
 						- [:i.ti.ti-key] key
 						- [:i.ti.ti-keyboard] keyboard
 						- [:i.ti.ti-phone] phone
@@ -3108,18 +3290,100 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Block display formula: `$$ \binom{n}{k} = \frac{n!}{k!(n-k)!} $$`
 				  $$ \binom{n}{k} = \frac{n!}{k!(n-k)!} $$
 					- Note that there can be spaces between the formula content and the double-dollar delimiters `$$ ... $$`
+			- `{{`[macro](https://docs.logseq.com/#/page/macros)`}}`
+			  id:: 66ff3a47-e526-4c63-b0fc-8b260882ea51
+			  collapsed:: true
+				- Defined in ((66faa5f9-506c-4e35-83cc-ab6d463b75b9)) in `config.edn`.
+				- Supports positional parameters `{{macro-x param1, param2}}`, [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64), and ((66faa5f9-9b88-44ed-97bd-369cc0048c5d)).
+				- [Simple `{{query}}`](((66faa5f9-0274-4988-a89a-ea1d0d070e28))) is a predefined macros.
+				- Note that macro usage is not autocompleted. This is unlike ((66ff4478-6eae-4633-b7be-fd42e2bcda5b)), ((66ff445c-0f50-4d56-b24e-5533e1dfa322)) and references.
+			- Tag(`<`) command
+			  id:: 66ff4478-6eae-4633-b7be-fd42e2bcda5b
+			  collapsed:: true
+				- A `<`-command is a **shorthands** for [stenography](https://en.wikipedia.org/wiki/Shorthand), defined in ((66fe90ad-7d6f-4516-a219-5dcb886505d9)) in `config.edn`. In editor, typing `<`shorthand will show a drop-down list for autocomplete and the result is the corresponding longhand.
+				- Note that these user-defined `<`-commands should be called `:shorthands`, which are just parameterless ((66ff3a47-e526-4c63-b0fc-8b260882ea51)), and they are very different from the built-in & plugin-defined `/`-commands.
+					- In the official docs, Logseq team calls this "[advanced commands](https://docs.logseq.com/#/page/advanced%20commands)" and does have [a `TODO` to resolve this confusion](https://docs.logseq.com/#/page/66670369-cc69-41d6-b8fc-afecbc0d8c52).
+				- [Predefined](https://docs.logseq.com/#/page/advanced%20commands) shorthands
+				  collapsed:: true
+					- #+BEGIN_CENTER
+					  `<Center` 
+					  #+END_CENTER
+					- `<Comment`
+					  #+BEGIN_COMMENT
+					  This "comment" is a hidden text, just like a "comment" in programming language is hidden from the machine.
+					  #+END_COMMENT
+					  for hidden text
+					- ``` js
+					  <Src.js
+					  ```
+					- `<Query`
+					  #+BEGIN_QUERY
+					  {:title "Advanced Query"}
+					  #+END_QUERY
+					- `<Latex` = `$$  $$`
+					  #+BEGIN_EXPORT latex
+					  E = m \cdot c^2
+					  #+END_EXPORT
+					- #+BEGIN_EXAMPLE
+					  Example
+					  #+END_EXAMPLE
+					- Admonitions
+					  collapsed:: true
+						- #+BEGIN_NOTE
+						  Note
+						  #+END_NOTE
+						- #+BEGIN_IMPORTANT
+						  Important
+						  #+END_IMPORTANT
+						- #+BEGIN_WARNING
+						  Warning
+						  #+END_WARNING
+						- #+BEGIN_TIP
+						  Tip
+						  #+END_TIP
+						- #+BEGIN_CAUTION
+						  Caution
+						  #+END_CAUTION
+						- #+BEGIN_PINNED
+						  Pinned
+						  #+END_PINNED
+			- Slash(`/`) command
+			  id:: 66ff445c-0f50-4d56-b24e-5533e1dfa322
+			- Block cloning [template](https://docs.logseq.com/#/page/templates)
+			  collapsed:: true
+				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
+				- Supports [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64).
 		- Settings: via [[logseq/config.edn]] and menu `Settings`
 		  collapsed:: true
-			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`) is logical, but confused & messy:
+			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`)
 			  collapsed:: true
+			   is logical, but confused & messy:
 				- The outdented item jumping down... is confusing.
 				- When we need to cut a long list into some main items, we must indent all items into sub-items instead of simply outdent the main items.
-			- `:outliner/block-title-collapse-enabled` is nice to collapse lengthy body of a long block and its *visible properties*. However, the *invisible built-in properties* like `id::` make this feature confused!
-			- `:publishing/all-pages-public` (`Settings > Editor > All pages public when publishing`) should be `true` to publish most of the pages by default, and manually hide individual pages with page property `public:: false` (right click page title > `Make it private (/public for publishing)`).
+			- `:outliner/block-title-collapse-enabled`
+			   is nice to collapse lengthy body of a long block and its *visible properties*. However, the *invisible built-in properties* like `id::` make this feature confused!
+			- `:publishing/all-pages-public` (`Settings > Editor > All pages public when publishing`)
+			   should be `true` to publish most of the pages by default, and manually hide individual pages with page property `public:: false` (right click page title > `Make it private (/public for publishing)`).
 			- `:hidden`
 			  id:: 66cdac39-bcf0-4859-b82f-8bd7a7f8e590
 			  can be used to exclude folders and files from being indexed.
-			- `:macros {:marco-x "... $1 ... $2 ..."}` defines macros to be used with syntax `{{macro-x param1, param2}}`.
+			- `:macros`
+			  id:: 66faa5f9-506c-4e35-83cc-ab6d463b75b9
+			  Each `{:marco-x "... $1 ... $2 ..."}` here can be used in editor with syntax `{{macro-x param1, param2}}`.
+			- `:shortcuts` (`Settings > Keymap`)
+			  collapsed:: true
+			   defines ((66536710-7441-4fb8-986b-50d2eec762d7))s for the GUI.
+				- The current keymaps can be looked up at menu `Help > Keyboard shortcuts`.
+				  id:: 66fe8f11-f568-4d2f-89c2-63d9eecbd0af
+				- [frontend/modules/shortcut/config.cljs](https://github.com/logseq/logseq/blob/master/src/main/frontend/modules/shortcut/config.cljs) defines actions and their default keymaps.
+				- `:sidebar/clear`: remove the default `mod+c mod+c` because it's easily mistaken with the copy hotkey, and i don't usually need to clear the right sidebar.
+			- `:commands`
+			  id:: 66fe90ad-7d6f-4516-a219-5dcb886505d9
+			  collapsed:: true
+			  defines **shorthands** to be expanded to corresponding longhands in editor when typing `<`shorthand.
+				- Ref: usage of ((66fbdf84-c5a4-4f96-aece-add980758db1)) like `:editor/input`, `:backward-pos`, `:backward-pos`, etc., and in combination with ((66ff3a47-e526-4c63-b0fc-8b260882ea51)).
+					- [`<`-comand to `{{macro}}` to insert special characters](https://discuss.logseq.com/t/is-there-any-way-to-insert-special-characters/26522/9)
+					- [Macros and Commands - let’s share](https://discuss.logseq.com/t/macros-and-commands-lets-share/9565)
 		- Global home/config folder
 		  id:: 66faaa5c-6a8a-42d9-a1bc-410531dbaf81
 		  collapsed:: true
@@ -3136,6 +3400,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- `.gitconfig` is required by [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))).
 							- ((66fa09f1-64e7-43bc-9b83-f5b5c5a2aaf7))
 			- `.logseq/` config folder in home folder
+				- `config/`
+				  contains global configs `config.edn` and `plugins.edn`.
 				- `plugins/` & `settings/` 
 				  contain all installed plugins and their settings.
 				- `graphs/*.transit`
@@ -3193,6 +3459,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-10-01 Tue 20:13:05]
 			  :END:
+			- [Emoji picker (logseq-emoji-picker-fork)](https://github.com/walsvid/logseq-emoji-picker-fork) provides the slash commandn `/emoji picker` to search and pick up an [emoji](https://en.wikipedia.org/wiki/Emoji) to insert to the editor cursor. 😊
+			  collapsed:: true
+				- This plugin uses the mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser`.
 		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
 			- Check rendered result at [[Theme Demo]].
 			- DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.
@@ -3410,4 +3679,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66691d61-b8e9-4618-ac98-145056b646f4
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66600918-9f92-4730-b056-c2cd87a742aa))
 		- Buddhist: [śūnyatā (Sanskrit: शून्यता; Pali: suññatā)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)
+	- # search
+	  id:: 66fe70ac-04d0-45b5-b771-b072cc0fa7be
+	  collapsed:: true
+		- searching
+		  id:: 66fe7195-1f42-4f8c-b2d4-876c8ba53808
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66fe70ac-04d0-45b5-b771-b072cc0fa7be))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66fe7195-1f42-4f8c-b2d4-876c8ba53808)) is the process of looking for some ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) satisfying some ((66fe7648-45c0-4831-9f78-92f50a268b8d)), within another object called ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd)).
+		- ((66725725-f76a-4328-b162-f469b87e871b)) [search problem](https://en.wikipedia.org/wiki/Search_problem), [search algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
+		- ## search criterion
+		  id:: 66fe763b-09bc-4446-89bb-58a562d2759a
+			- search criteria
+			  id:: 66fe7648-45c0-4831-9f78-92f50a268b8d
+			  plural of ((66fe763b-09bc-4446-89bb-58a562d2759a))
+		- ## search key
+		  id:: 66fe71f9-a903-4797-9041-a66f102bda49
+		- ## search scope
+		  id:: 66fe72c4-3ad3-41a2-b1bc-dd70a97176fd
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66fe754c-1858-4aff-bf23-510cd9ebb5b0))
+			- search space
+			  id:: 66fe754c-1858-4aff-bf23-510cd9ebb5b0
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd)) is the place where the ((66fe70ac-04d0-45b5-b771-b072cc0fa7be)) is taken placed.
 -

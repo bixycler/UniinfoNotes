@@ -72,6 +72,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- Convert all metadata to block-links
 	  collapsed:: true
 		- `#tag` = block-link
+		  id:: 66faa5f8-4513-41d9-97af-65bfab4d13f1
 		- `property.subprop: some string value` is stored as an item with property `name` like this:
 		  collapsed:: true
 			- some string value 
@@ -161,9 +162,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  id:: 66fbb757-8038-4a79-87df-8d1575faaedb
 				- Test a simple (non-query) macro first: {{hi-macro HiMac}}
 				- {{blocks-with-content custom.css, ((665d78a5-6470-4e60-8fd1-d958fd62756e))}}
-		- Search for string (regex) within a block (scope)
+		- Search for pattern (regex) within a block (scope)
 		  query-table:: false
 		  id:: 66faa5f8-0711-4a23-afe0-fb8d2ebb644e
+		  collapsed:: true
 			- Pattern (regex): The first line, i.e. ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)), will be used as search pattern. Property `case-sensitive::` is optional (default to `false`).
 				- history.*in\s
 				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
@@ -172,6 +174,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((6653538a-30aa-423f-be89-848ad9c7e331))
 			  Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
 			- Ref: [FInd nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
+			- TODO add multiple criteria
 			- Source code
 			  collapsed:: true
 				- ```clojure

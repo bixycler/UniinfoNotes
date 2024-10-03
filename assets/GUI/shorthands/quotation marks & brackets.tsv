@@ -1,0 +1,45 @@
+Character	Unicode Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
+# Quotation marks & brackets					
+‘	U+2018	left single quotation mark	&lsquo;, &OpenCurlyQuote;	{'	curly quotes
+’	U+2019	right single quotation mark	&rsquo;, &rsquor;, &CloseCurlyQuote;	}'	curly quotes
+“	U+201C	left double quotation mark	&ldquo;, &OpenCurlyDoubleQuote;	"{"""	curly quotes
+”	U+201D	right double quotation mark	&rdquo;, &rdquor;, &CloseCurlyDoubleQuote;	"}"""	curly quotes
+‹	U+2039	single left-pointing angle quotation mark	&lsaquo;	{.	guillemets
+›	U+203A	single right-pointing angle quotation mark	&rsaquo;	}.	guillemets
+«	U+00AB	left-pointing double angle quotation mark	&laquo;	{;	guillemets
+»	U+00BB	right-pointing double angle quotation mark	&raquo;	};	guillemets
+⟨	U+27E8	mathematical left angle bracket	&lang;, &langle;, &LeftAngleBracket;	{[	
+⟩	U+27E9	mathematical right angle bracket	&rang;, &rangle;, &RightAngleBracket;	}]	
+⟪	U+27EA	mathematical left double angle bracket	&Lang;	{{	
+⟫	U+27EB	mathematical right double angle bracket	&Rang;	}}	
+⸨	U+2E28	left double parenthesis		{(	
+⸩	U+2E29	right double parenthesis		})	
+# Mathematical symbols					
+±	U+00B1	plus-minus sign	&plusmn;, &pm;, &PlusMinus;	=+-	plus-or-minus
+∓	U+2213	minus-plus sign	&mnplus;, &mp;, &MinusPlus;	=-+	minus-or-plus
+×	U+00D7	multiplication sign	&times;	=x	times
+÷	U+00F7	division sign	&divide;, &div;	=%	
+∞	U+221E	infinity	&infin;	=8	
+√	U+221A	square root	&radic;, &Sqrt;	=v	radical sign
+≡	U+2261	identical to	&equiv;, &Congruent;	===	equivalent, congruent
+≢	U+2262	not identical to	&nequiv;, &NotCongruent;	=/==	not equivalent, not congruent
+≠	U+2260	not equal to	&ne;, &NotEqual;	=/=	
+≈	U+2248	almost equal to	&asymp;, &ap;, &TildeTilde;, &approx;, &thkap;, &thickapprox;	=~	
+≅	U+2245	approximately equal to	&cong;, &TildeFullEqual;	=~=	congruent to
+≆	U+2246	approximately but not actually equal to	&simne;	=~/=	similar but not equal to
+≇	U+2247	neither approximately nor actually equal to	&ncong;, &NotTildeFullEqual;	=/~=	not congruent to
+≏	U+224F	difference between	&bumpe;, &HumpEqual;, &bumpeq;	=b=	hump equals
+≏̸	U+2250+0338	not difference between	&nbumpe;, &NotHumpEqual;	=/b=	not hump equals
+≟	U+225F	questioned equal to	&equest;, &questeq;	=?=	test equals
+≤	U+2264	less-than or equal to	&le;, &leq;	=<=	
+≥	U+2265	greater-than or equal to	&ge;, &GreaterEqual;, &geq;	=>=	
+≪	U+226A	much less-than	&Lt;, &NestedLessLess;, &ll;	=<<	
+≫	U+226B	much greater-than	&Gt;, &NestedGreaterGreater;, &gg;	=>>	
+# Arrows					
+⇔	U+21D4	left right double arrow	&hArr;, &Leftrightarrow;, &DoubleLeftRightArrow;, &iff;	/=\	iff, if and only if
+⇒	U+21D2	rightwards double arrow	&rArr;, &Rightarrow;, &Implies;, &DoubleRightArrow;	/=	implies, imply
+⇐	U+21D0	leftwards double arrow	&lArr;, &Leftarrow;, &DoubleLeftArrow;	\=	
+⇏	U+21CF	rightwards double arrow with stroke	&nrArr;, &nRightarrow;	//=	not implies, not imply
+⇍	U+21CD	leftwards double arrow with stroke	&nlArr;, &nLeftarrow;	\/=	
+⇌	U+21CC	rightwards harpoon over leftwards harpoon	&rlhar;, &rightleftharpoons;, &Equilibrium;	/-\-	Equilibrium
+⇋	U+21CB	leftwards harpoon over rightwards harpoon	&lrhar;, &ReverseEquilibrium;, &leftrightharpoons;	\-/-	Reverse Equilibrium
