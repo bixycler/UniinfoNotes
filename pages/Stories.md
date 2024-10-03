@@ -735,7 +735,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  collapsed:: true
 			- After a bad cough, i stand up to escape this cold room and go out for a walk under the warm sun. Before returning the the lab room, i sit down for a while to think about the interaction between autonota in the ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)).
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((66e2ae92-feca-492f-9278-0f64f9d6d7e9))
-	- Toward the end of love karma/dept
+	- Toward the end of love karma/debt
 	  id:: 66e3a0f4-579a-4668-97c2-cbb9984e59c2
 	  collapsed:: true
 	  :LOGBOOK:
@@ -790,7 +790,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  Vườn ấy thường mọc lúa thơm tự nhiên, không có vỏ trấu, trắng như đóa hoa, đầy đủ các vị, như cơm trời Đao-lị. Vườn ấy thường có nồi chõ tự nhiên; có ngọc ma ni, tên là Diệm Quang đặt dưới nồi chõ; khi cơm chín, ánh sáng tắt, chẳng cần lửa củi, chẳng nhọc công người....
 				- Cũng như chúa Giê-su dựa trên nền tảng truyền thống Cựu Ước mà chế ra Tân Ước, Phật Thích Ca cũng dựa trên mô hình vũ trụ quanh núi Tu-di (Mount Meru) của truyền thống Bà-la-môn mà chế thêm nhiều tầng trời cao hơn nữa và cao nhứt là hư không, và giải thích việc Phạm Thiên Vương (Chúa tể Vũ Trụ, Brahman) tự coi mình là "đấng sáng thế" là do "không biết mình được tái sinh từ cõi trời bên trên xuống", và rằng dù có tuổi thọ rất lâu nhưng tất cả các vị trời này đều có sanh, có tử và tái sanh.
 			- Thầy Thích Minh Tuệ trả lời câu hỏi "Nếu ai cũng đi tu như thầy Thích Minh Tuệ, thì lấy đâu ra gạo thóc mà ăn?" bằng ý trong kinh [Kinh Khởi thế nhân bổn](https://suttacentral.net/dn27/vi/minh_chau)
-			  {{video https://youtu.be/dRj5A3T6zTE}}
+			  collapsed:: true
+				- {{video https://youtu.be/dRj5A3T6zTE}}
 		- [Aggañña Sutta](https://en.wikipedia.org/wiki/Agga%C3%B1%C3%B1a_Sutta): Long Discourses > 27. [What Came First](https://suttacentral.net/dn27/en/sujato)
 			- Trường Bộ Kinh > 27. [Kinh Khởi thế nhân bổn](https://suttacentral.net/dn27/vi/minh_chau)
 		- Long Discourses > 30. Description of the World > Chapter 12: [The Origins of the World](https://suttacentral.net/da30/en/patton#12)
@@ -914,4 +915,66 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  :END:
 		- Động > Thương > Tịnh (Định) > Huệ
 		- Thương là đứa hay khóc, là "con đĩ nhỏ lắm mồm" dẫn tới "nghiệp lý thuyết", là đứa mắc nợ tình cảm.
-	-
+	- Hegel's "World of Appearance": from Essence to Form, Content, and Appearance
+	  id:: 66faa5fa-d11a-4828-848e-b24bddba5411
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-14 Mon 20:33:32]
+	  CLOCK: [2024-10-14 Mon 20:38:56]--[2024-10-14 Mon 20:54:52] =>  00:15:56
+	  :END:
+		- **Essence**: This is not only the innermost and permanent nature of the Thing, but also the whole complex of "reflection" (light thrown into itself)... which is so complicated that Hegel himself said that it's ‘the most difficult branch of logic’.
+		  > ... there is a permanence in things, and that permanence is in **the first instance** their Essence.
+		  > That reflection, or light thrown into itself, constitutes the distinction between Essence and immediate Being, and is the peculiar characteristic of Essence itself.
+		- **Form**: This is the "***determinateness***" of the Essence. It's not not an "addition to the Essence" but an emergence from the Essence via the "reflection of essence into essence itself".
+		  > To say that _form determines essence_ means, therefore, that form, in its distinguishing, sublates this very distinguishing, and (form) is the self-identity which essence is as the subsistence of the determination; ...
+		- **Matter**: This is the part of Essence that can naturally be (relatively) "formless". A thing can be disintegrated into their component materials (matters). And 
+		  > this disintegration into independent matters is properly restricted to *inorganic nature only*
+		- **Content**: This is the totality of relations and potentialities of the Thing, which includes Form, Matter, Essence and their complicated relations as well as relations to others via Appearance (External Form).
+		  id:: 670d1f75-b9a6-490a-9759-9f09189167b7
+		  > Outside one another as the phenomena in this phenomenal world are, they form a totality, and are wholly contained in their self-relatedness. In this way **the self-relation of the phenomenon** is completely specified, it has the Form in itself... So it comes about that the form is **Content**: and in its phase is the Law of the Phenomenon.
+		- Hegel summarized them like this:
+			- > At first, form stands opposed to essence; it is then the simple ground relation, and its determinations are the ground and the grounded.
+			- > Secondly, it stands opposed to matter; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.
+			- > Lastly, it stands opposed to content; and then its determinations are again form itself and matter.
+		- ((66c33468-23d5-44d7-955e-6711cb608157))
+			- Chat with Gemini: [Hegel's Philosophy of Form](https://gemini.google.com/app/c8e4b0ec829815c2)
+			- [Marxists Internet Archive Encyclopedia](https://www.marxists.org/glossary/index.htm) > Glossary of Terms > [Content and Form](https://www.marxists.org/glossary/terms/c/o.htm)
+	- The saying about properties of info-knowledge-wisdom:
+	  id:: 670f3de5-bee6-44e4-8757-fb5eba325f79
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-16 Wed 11:23:27]
+	  :END:
+	  > No diff no info, no same no knowledge, no fair no wisdom.
+		- History:
+		  collapsed:: true
+			- First
+			  > No diff no info, no sim no knowledge.
+			- Then added the third
+			  > No diff no info, no sim no knowledge, no fair no wisdom.
+			- Now change the prfix "sim-" to the whole word "same" becaus it's nearer to the Proto-Indo-European root "[sem](https://www.etymonline.com/word/*sem-)".
+			  > No diff no info, no same no knowledge, no fair no wisdom.
+			-
+		- The Proto-Indo-European root "[sem](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sem-)"
+			- -> Sanskrit root "sam-" ([सम्-](https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%AE%E0%A5%8D-#Sanskrit)) -> "saṃsāra" ([संसार](https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A4%BE%E0%A4%B0#Sanskrit))
+			- -> Ancient Greek root "sun-" ([συν-](https://en.wiktionary.org/wiki/%CF%83%CF%85%CE%BD-#Ancient_Greek))
+				- -> English root "[syn-](https://en.wiktionary.org/wiki/syn-#English)"
+					- Compared to the Latin root ["co-" about complementarity](((670f4f06-b543-47d7-ab5d-846dcdd2281e))), "syn-" is more about integration and unification.
+					  id:: 670f4de4-d9da-4bf3-9cb3-1e5c03457c81
+						- "[synthesis](https://en.wiktionary.org/wiki/synthesis#English)" means creating something new from different elements.
+						- "[symphony](https://en.wiktionary.org/wiki/symphony#English)" blends various musical instruments into a harmonious piece.
+						- "[symbiosis](https://en.wiktionary.org/wiki/symbiosis#English)" describes a relationship where both organisms benefit and integrate their lives for mutual support.
+			- -> Proto-Italic [*semalis](https://en.wiktionary.org/wiki/Reconstruction:Proto-Italic/semalis) -> Latin [similis](https://en.wiktionary.org/wiki/similis#Latin) -> English "[similar](https://en.wiktionary.org/wiki/similar#English)"
+			- -> Proto-Indo-European "[*somHós](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/somH%C3%B3s)" -> Proto-Germanic [*samaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/samaz) -> English "[same](https://en.wiktionary.org/wiki/same#English)"
+		- The root "co-" for complementarity (versus ["syn-" for unification](((670f4de4-d9da-4bf3-9cb3-1e5c03457c81))))
+		  id:: 670f4f06-b543-47d7-ab5d-846dcdd2281e
+			- Proto-Indo-European "[*ḱóm](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m)" -> Proto-Italic "[*kom](https://en.wiktionary.org/wiki/Reconstruction:Proto-Italic/kom)" -> Latin preposition "[cum](https://en.wiktionary.org/wiki/cum#Latin)" -> Latin root "[con-](https://en.wiktionary.org/wiki/con-#Latin)" -> English root "[co-](https://en.wiktionary.org/wiki/co-#English)"
+				- "[colatitude](https://en.wikipedia.org/wiki/Colatitude)" is the complement of a latitude, in spherical coordinates, i.e. the difference between a latitude and 90°.
+				- "[codomain](https://en.wikipedia.org/wiki/Codomain)" is the domain $Y$ of the destitation $y$ which is dual to the domain $X$ of the source $x$ in mapping $f: X -> Y$.
+				- "[coarea](https://en.wikipedia.org/wiki/Smooth_coarea_formula)" is the integral over a codomain which is dual to the integral over domain.
+				- "[cocategory](https://ncatlab.org/nlab/show/cocategory)" is the [dual](https://en.wikipedia.org/wiki/Dual_(category_theory)) of a category via the [opposite category](https://ncatlab.org/nlab/show/opposite+category) where all arrows have direction reversed.
+					- cocategory is to category as [colimits is to limits](https://en.wikipedia.org/wiki/Limit_(category_theory))
+						- [initial objects vs terminal objects](https://en.wikipedia.org/wiki/Initial_and_terminal_objects)
+						- [coproduct](https://en.wikipedia.org/wiki/Coproduct) vs [product](https://en.wikipedia.org/wiki/Product_(category_theory))
+						- [pushout](https://en.wikipedia.org/wiki/Pushout_(category_theory)) vs [pullback](https://en.wikipedia.org/wiki/Pullback_(category_theory))
+			- used in ((670f2f5f-ec97-4287-a711-1988ca03a262))
