@@ -2310,7 +2310,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The cointerface vs interface is the dual of complements similar to the [codomain vs domain](((670f5fa5-4e2b-4239-aeea-c1267f124d20))) in function as well as the [cocategory vs category](((670f5dfd-ff92-4122-a1d8-8dfaed3bd122))).
 							- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
 							- The cointerface also shows itself in `D*`, D Star, the protocol-based programming language when dealing with the dialog-like bidirectional protocol.
-							  collapsed:: true
 								- Example interface
 								  id:: 671100b6-4508-456a-b5b8-7245653a9eac
 								  ```
@@ -2326,6 +2325,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  <- (e)
 								  (f) ->
 								  ```
+						- ...
 			- abstract form
 			  id:: 670e0d9a-a926-49ca-951c-7013b2b29e8c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that objec is abstracted away. Abstract form is the normal meaning of the word "form".
@@ -2453,6 +2453,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- cointerface
 		  id:: 67110213-d0ca-4449-811a-b51abf23bf65
 		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670e0fef-2a46-450b-b043-176cccfc804a))
+			-
 	- ## substance
 	  id:: 670e1047-529a-4698-9ad0-5e6c73c18202
 	  collapsed:: true
