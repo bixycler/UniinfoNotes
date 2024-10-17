@@ -947,6 +947,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  :END:
 	  > No diff no info, no same no knowledge, no fair no wisdom.
 		- History:
+		  collapsed:: true
 			- This saying has its root from a lecture of a teacher of mine in my freshman year at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), where he said that "information has no redundancy" just like in [data compression algorithms](https://en.wikipedia.org/wiki/Data_compression).
 			- First
 			  > No diff no info, no sim no knowledge.
