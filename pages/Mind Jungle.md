@@ -3687,7 +3687,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  for ((66faa5f9-8ffd-4542-b916-6e3528cabad8))
 					- `:spell-check`
 				- `window-state.json`
+				  collapsed:: true
 				  contains app window state: `width`, `height`, `x`, `y`, `isMaximized`, ...
+					- Window's position (x, y) is stored at app close but then reset (with some default value elsewhere) at the next app open.
 				- `Preferences`
 				  contains Electron's preferences: `devtools`, `spellcheck`, ...
 				- `Cookies`
