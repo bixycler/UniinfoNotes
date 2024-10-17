@@ -3663,6 +3663,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- On Windows: `%USERPROFILE%` = `%HOMEDRIVE%%HOMEPATH%`
 				- On Linux (AppImage & Flatpack): user's`${HOME}`
+					- Flatpack: the [app folder](((6710c36b-6b29-42c5-b0e4-fc79e5e449a2))) is not the usual `.config/Logseq` but `.var/app/com.logseq.Logseq/config/Logseq}/`
 				- On Linux installed with Snap: `${HOME}/snap/logseq/current/`
 				  collapsed:: true
 					- Because Logseq uses this separate snap home, some config/env in the user's `${HOME}` must be ported to this snap home.
@@ -3677,6 +3678,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66f7b4fd-e34e-4fc3-9c2d-d468206d279b
 				  contains all graphs loaded by LogSeq. Each graph is managed by LogSeq internally, with a `.transit` file, to be a "mirror" of the corresponding `.md` files ... as much as possible.
 			- `config/Logseq/` (Electron) app folder
+			  id:: 6710c36b-6b29-42c5-b0e4-fc79e5e449a2
 				- `config.edn`
 				  contains some app-related configs (`:userAppCfgs`, `:electron/user-cfgs`)
 					- `:server/{host,port,autostart}`
@@ -3688,6 +3690,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  contains app window state: `width`, `height`, `x`, `y`, `isMaximized`, ...
 				- `Preferences`
 				  contains Electron's preferences: `devtools`, `spellcheck`, ...
+				- `Cookies`
+					- [?] can we add cookies, e.g. for YouTube login, here?!
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  id:: 66faa5f9-9402-4889-8881-dbdc8f179a30
 		  collapsed:: true
