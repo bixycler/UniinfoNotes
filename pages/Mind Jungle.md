@@ -3683,7 +3683,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  for ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
 					- `:git/{auto-commit-seconds,commit-on-close}`
 					  for ((66faa5f9-8ffd-4542-b916-6e3528cabad8))
-					- ``
+					- `:spell-check`
+				- `window-state.json`
+				  contains app window state: `width`, `height`, `x`, `y`, `isMaximized`, ...
+				- `Preferences`
+				  contains Electron's preferences: `devtools`, `spellcheck`, ...
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  id:: 66faa5f9-9402-4889-8881-dbdc8f179a30
 		  collapsed:: true
