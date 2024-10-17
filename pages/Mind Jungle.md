@@ -3923,6 +3923,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- [Harusada](((66536578-c4d3-43f1-b35c-bf71120f0570)))'s: I've done my Japanese course here from 2002 to 2003.
 	- ## Viet Nam National University Ho Chi Minh City
 	  id:: 6710fbad-2dbd-481d-92db-b4d7d2e20a93
+	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), ((6710fbf3-db4d-4b17-858c-fe3047cbb7e7))
 		- VNUHCM-US
 		  id:: 6710fbf3-db4d-4b17-858c-fe3047cbb7e7
@@ -3931,6 +3932,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6710fc09-fc5f-447b-9faf-5ea31b29c1fb
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6710fbad-2dbd-481d-92db-b4d7d2e20a93))
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://en.hcmus.edu.vn/
+		- ((66536578-c4d3-43f1-b35c-bf71120f0570))'s:
+			- I did my first 1.5 years of undergraduate course of Information Technology in Thủ Đức campus of ((6710fd6d-e8fb-4b24-b280-726187b7c6ce)), from 2000 to 2002.
+			- After returning from ((665370bb-9619-46b2-97be-a7b52684a56c)), i teach IT here from 2027 to 2014 + 2016.
+	- ## Viet Nam National University Ho Chi Minh City
+	  id:: 6710fcba-e545-4f3d-b74b-4373280534d9
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6710fd6d-e8fb-4b24-b280-726187b7c6ce))
+		- VNUHCM
+		  id:: 6710fd6d-e8fb-4b24-b280-726187b7c6ce
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6710fcba-e545-4f3d-b74b-4373280534d9))
+		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://vnuhcm.edu.vn/
 	- ## XML
 	  id:: 6653624a-5679-4bc5-bd7e-fdee34516314
 	  collapsed:: true
