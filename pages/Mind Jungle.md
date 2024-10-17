@@ -2307,7 +2307,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :END:
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the cointerface, the other face of ((670d0183-aba2-438b-b749-1b550e4a906b)). While inter-form is the form viewed from the outside, for the external world to interact with this subject, co-inter-form is the form viewed from the inside, for the obop to interact with the external world. The co-inter-form is considered a part of the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)).
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-						- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
+						- The cointerface vs interface is the dual of complements similar to the [codomain vs domain](((670f5fa5-4e2b-4239-aeea-c1267f124d20))) in function as well as the [cocategory vs category](((670f5dfd-ff92-4122-a1d8-8dfaed3bd122))).
+							- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
+							- The cointerface also shows itself in `D*`, D Star, the protocol-based programming language when dealing with the dialog-like bidirectional protocol.
+								-
 			- abstract form
 			  id:: 670e0d9a-a926-49ca-951c-7013b2b29e8c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that objec is abstracted away. Abstract form is the normal meaning of the word "form".

@@ -947,14 +947,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  :END:
 	  > No diff no info, no same no knowledge, no fair no wisdom.
 		- History:
-			- This saying has its root from a lecture of a teacher of mine in my freshman year at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), where he said that "information .
+			- This saying has its root from a lecture of a teacher of mine in my freshman year at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), where he said that "information has no redundancy" just like in [data compression algorithms](https://en.wikipedia.org/wiki/Data_compression).
 			- First
 			  > No diff no info, no sim no knowledge.
 			- Then added the third
 			  > No diff no info, no sim no knowledge, no fair no wisdom.
 			- Now change the prfix "sim-" to the whole word "same" becaus it's nearer to the Proto-Indo-European root "[sem](https://www.etymonline.com/word/*sem-)".
 			  > No diff no info, no same no knowledge, no fair no wisdom.
-			-
 		- The Proto-Indo-European root "[sem](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sem-)"
 		  collapsed:: true
 			- -> Sanskrit root "sam-" ([सम्-](https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%AE%E0%A5%8D-#Sanskrit)) -> "saṃsāra" ([संसार](https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A4%BE%E0%A4%B0#Sanskrit))
@@ -969,11 +968,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- -> Proto-Indo-European "[*somHós](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/somH%C3%B3s)" -> Proto-Germanic [*samaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/samaz) -> English "[same](https://en.wiktionary.org/wiki/same#English)"
 		- The root "co-" for complementarity (versus ["syn-" for unification](((670f4de4-d9da-4bf3-9cb3-1e5c03457c81))))
 		  id:: 670f4f06-b543-47d7-ab5d-846dcdd2281e
+		  collapsed:: true
 			- Proto-Indo-European "[*ḱóm](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m)" -> Proto-Italic "[*kom](https://en.wiktionary.org/wiki/Reconstruction:Proto-Italic/kom)" -> Latin preposition "[cum](https://en.wiktionary.org/wiki/cum#Latin)" -> Latin root "[con-](https://en.wiktionary.org/wiki/con-#Latin)" -> English root "[co-](https://en.wiktionary.org/wiki/co-#English)"
 				- "[colatitude](https://en.wikipedia.org/wiki/Colatitude)" is the complement of a latitude, in spherical coordinates, i.e. the difference between a latitude and 90°.
 				- "[codomain](https://en.wikipedia.org/wiki/Codomain)" is the domain $Y$ of the destitation $y$ which is dual to the domain $X$ of the source $x$ in mapping $f: X -> Y$.
+				  id:: 670f5fa5-4e2b-4239-aeea-c1267f124d20
 				- "[coarea](https://en.wikipedia.org/wiki/Smooth_coarea_formula)" is the integral over a codomain which is dual to the integral over domain.
 				- "[cocategory](https://ncatlab.org/nlab/show/cocategory)" is the [dual](https://en.wikipedia.org/wiki/Dual_(category_theory)) of a category via the [opposite category](https://ncatlab.org/nlab/show/opposite+category) where all arrows have direction reversed.
+				  id:: 670f5dfd-ff92-4122-a1d8-8dfaed3bd122
 					- cocategory is to category as [colimits is to limits](https://en.wikipedia.org/wiki/Limit_(category_theory))
 						- [initial objects vs terminal objects](https://en.wikipedia.org/wiki/Initial_and_terminal_objects)
 						- [coproduct](https://en.wikipedia.org/wiki/Coproduct) vs [product](https://en.wikipedia.org/wiki/Product_(category_theory))
