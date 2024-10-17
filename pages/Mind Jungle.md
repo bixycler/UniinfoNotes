@@ -2305,12 +2305,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :LOGBOOK:
 				  CLOCK: [2024-10-16 Wed 20:14:33]--[2024-10-17 Thu 18:48:19] =>  22:33:46
 				  :END:
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the cointerface, the other face of ((670d0183-aba2-438b-b749-1b550e4a906b)). While inter-form is the form viewed from the outside, for the external world to interact with this subject, co-inter-form is the form viewed from the inside, for the obop to interact with the external world. The co-inter-form is considered a part of the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)).
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((67110213-d0ca-4449-811a-b51abf23bf65)), the other face of ((670d0183-aba2-438b-b749-1b550e4a906b)). While inter-form is the form viewed from the outside, for the external world to interact with this subject, co-inter-form is the form viewed from the inside, for the obop to interact with the external world. The co-inter-form is considered a part of the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)).
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- The cointerface vs interface is the dual of complements similar to the [codomain vs domain](((670f5fa5-4e2b-4239-aeea-c1267f124d20))) in function as well as the [cocategory vs category](((670f5dfd-ff92-4122-a1d8-8dfaed3bd122))).
 							- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
 							- The cointerface also shows itself in `D*`, D Star, the protocol-based programming language when dealing with the dialog-like bidirectional protocol.
-								-
+							  collapsed:: true
+								- Example interface
+								  id:: 671100b6-4508-456a-b5b8-7245653a9eac
+								  ```
+								  (a, b) -> 
+								  <- (c, d)
+								  (e) ->
+								  <- (f)
+								  ```
+								- Cointerface of ((671100b6-4508-456a-b5b8-7245653a9eac))
+								  ```
+								  <- (a, b)
+								  (c, d) ->
+								  <- (e)
+								  (f) ->
+								  ```
 			- abstract form
 			  id:: 670e0d9a-a926-49ca-951c-7013b2b29e8c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that objec is abstracted away. Abstract form is the normal meaning of the word "form".
@@ -2430,10 +2445,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2024-10-15 Tue 13:47:19]
 	  :END:
 	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0183-aba2-438b-b749-1b550e4a906b))
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((67110213-d0ca-4449-811a-b51abf23bf65))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0fef-2a46-450b-b043-176cccfc804a)) is the common boundary of two [bodies](((66c810a0-9861-4787-bdcf-1378219332be))) where they interact with each other.
 		- ((66725725-f76a-4328-b162-f469b87e871b))
 			- Information technology's [interfaces](https://en.wikipedia.org/wiki/Interface_(computing)) like [user interface](https://en.wikipedia.org/wiki/User_interface), [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface), [hardware interface](https://en.wikipedia.org/wiki/Electrical_connector), etc.
 			- oil-water interface
+		- cointerface
+		  id:: 67110213-d0ca-4449-811a-b51abf23bf65
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670e0fef-2a46-450b-b043-176cccfc804a))
 	- ## substance
 	  id:: 670e1047-529a-4698-9ad0-5e6c73c18202
 	  collapsed:: true
