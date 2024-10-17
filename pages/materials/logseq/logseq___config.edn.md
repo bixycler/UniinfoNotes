@@ -8,4 +8,4 @@
 	- This file is to catch the configs set by Settings GUI only.
 	- All configs are moved to the ((66fe86b8-f17e-4b3f-b27f-213b3500146f)).
 - [App (Electron) config](((6710c556-1259-4fd5-a9d0-02216274a852))) ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) ![config/configs.edn](../assets/logseq/config/configs.edn)
-	- This file is managed by Logseq: We can edit it manually and the values will be picked up at the next app start but its format will be reset.
+	- This file is managed by Logseq: We can edit it manually and the values will be picked up but its format will be reset.
