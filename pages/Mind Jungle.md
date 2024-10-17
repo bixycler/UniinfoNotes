@@ -2306,6 +2306,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  CLOCK: [2024-10-16 Wed 20:14:33]--[2024-10-17 Thu 18:48:19] =>  22:33:46
 				  :END:
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the cointerface, the other face of ((670d0183-aba2-438b-b749-1b550e4a906b)). While inter-form is the form viewed from the outside, for the external world to interact with this subject, co-inter-form is the form viewed from the inside, for the obop to interact with the external world. The co-inter-form is considered a part of the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)).
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
 			- abstract form
 			  id:: 670e0d9a-a926-49ca-951c-7013b2b29e8c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that objec is abstracted away. Abstract form is the normal meaning of the word "form".
@@ -3919,6 +3921,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537146-078d-4a65-b33a-2a0162f15d8c))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) It was dedicated to area studies and the study of foreign languages and their related cultures. It was merged to ((66536ec6-1a32-431b-b2e2-c73813f5d19f)) in 2007.
 		- [Harusada](((66536578-c4d3-43f1-b35c-bf71120f0570)))'s: I've done my Japanese course here from 2002 to 2003.
+	- ## Viet Nam National University Ho Chi Minh City
+	  id:: 6710fbad-2dbd-481d-92db-b4d7d2e20a93
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), ((6710fbf3-db4d-4b17-858c-fe3047cbb7e7))
+		- VNUHCM-US
+		  id:: 6710fbf3-db4d-4b17-858c-fe3047cbb7e7
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6710fbad-2dbd-481d-92db-b4d7d2e20a93))
+		- HCMUS
+		  id:: 6710fc09-fc5f-447b-9faf-5ea31b29c1fb
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6710fbad-2dbd-481d-92db-b4d7d2e20a93))
+		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://en.hcmus.edu.vn/
 	- ## XML
 	  id:: 6653624a-5679-4bc5-bd7e-fdee34516314
 	  collapsed:: true

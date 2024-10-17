@@ -947,7 +947,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  :END:
 	  > No diff no info, no same no knowledge, no fair no wisdom.
 		- History:
-		  collapsed:: true
+			- This saying has its root from a lecture of a my teacher in my freshman year at ((University))
 			- First
 			  > No diff no info, no sim no knowledge.
 			- Then added the third
@@ -956,6 +956,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  > No diff no info, no same no knowledge, no fair no wisdom.
 			-
 		- The Proto-Indo-European root "[sem](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sem-)"
+		  collapsed:: true
 			- -> Sanskrit root "sam-" ([सम्-](https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%AE%E0%A5%8D-#Sanskrit)) -> "saṃsāra" ([संसार](https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A4%BE%E0%A4%B0#Sanskrit))
 			- -> Ancient Greek root "sun-" ([συν-](https://en.wiktionary.org/wiki/%CF%83%CF%85%CE%BD-#Ancient_Greek))
 				- -> English root "[syn-](https://en.wiktionary.org/wiki/syn-#English)"
@@ -977,7 +978,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [initial objects vs terminal objects](https://en.wikipedia.org/wiki/Initial_and_terminal_objects)
 						- [coproduct](https://en.wikipedia.org/wiki/Coproduct) vs [product](https://en.wikipedia.org/wiki/Product_(category_theory))
 						- [pushout](https://en.wikipedia.org/wiki/Pushout_(category_theory)) vs [pullback](https://en.wikipedia.org/wiki/Pullback_(category_theory))
-			- used in ((670f2f5f-ec97-4287-a711-1988ca03a262))
+			- used in ((670f2f5f-ec97-4287-a711-1988ca03a262)), and "cointerface".
 	- Chat about "free will" and choices, 2024-10-17
 	  collapsed:: true
 	  :LOGBOOK:
