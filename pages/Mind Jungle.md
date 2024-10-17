@@ -3680,6 +3680,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `config/Logseq/` (Electron) app folder
 			  id:: 6710c36b-6b29-42c5-b0e4-fc79e5e449a2
 				- `config.edn`
+				  id:: 6710c556-1259-4fd5-a9d0-02216274a852
 				  contains some app-related configs (`:userAppCfgs`, `:electron/user-cfgs`)
 					- `:server/{host,port,autostart}`
 					  for ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
