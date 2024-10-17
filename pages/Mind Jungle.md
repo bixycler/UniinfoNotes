@@ -2232,6 +2232,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2024-09-27 Fri 15:09:57]--[2024-10-14 Mon 20:55:19] =>  413:45:22
 		  :END:
+			- DOING ![image...]
+			  :LOGBOOK:
+			  CLOCK: [2024-10-17 Thu 19:42:39]
+			  CLOCK: [2024-10-17 Thu 19:42:44]
+			  :END:
 			- external form
 			  id:: 670d0138-8f58-428b-808e-24c05a5239fb
 			  collapsed:: true
@@ -2306,26 +2311,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  CLOCK: [2024-10-16 Wed 20:14:33]--[2024-10-17 Thu 18:48:19] =>  22:33:46
 				  :END:
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((67110213-d0ca-4449-811a-b51abf23bf65)), the other face of ((670d0183-aba2-438b-b749-1b550e4a906b)). While inter-form is the form viewed from the outside, for the external world to interact with this subject, co-inter-form is the form viewed from the inside, for the obop to interact with the external world. The co-inter-form is considered a part of the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)).
-					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-						- The cointerface vs interface is the dual of complements similar to the [codomain vs domain](((670f5fa5-4e2b-4239-aeea-c1267f124d20))) in function as well as the [cocategory vs category](((670f5dfd-ff92-4122-a1d8-8dfaed3bd122))).
-							- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
-							- The cointerface also shows itself in `D*`, D Star, the protocol-based programming language when dealing with the dialog-like bidirectional protocol.
-								- Example interface
-								  id:: 671100b6-4508-456a-b5b8-7245653a9eac
-								  ```
-								  (a, b) -> 
-								  <- (c, d)
-								  (e) ->
-								  <- (f)
-								  ```
-								- Cointerface of ((671100b6-4508-456a-b5b8-7245653a9eac))
-								  ```
-								  <- (a, b)
-								  (c, d) ->
-								  <- (e)
-								  (f) ->
-								  ```
-						- ...
 			- abstract form
 			  id:: 670e0d9a-a926-49ca-951c-7013b2b29e8c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that objec is abstracted away. Abstract form is the normal meaning of the word "form".
@@ -2453,7 +2438,30 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- cointerface
 		  id:: 67110213-d0ca-4449-811a-b51abf23bf65
 		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670e0fef-2a46-450b-b043-176cccfc804a))
-			-
+			- The cointerface vs interface is the dual of complements similar to the [codomain vs domain](((670f5fa5-4e2b-4239-aeea-c1267f124d20))) in function as well as the [cocategory vs category](((670f5dfd-ff92-4122-a1d8-8dfaed3bd122))).
+			  id:: 6711045f-1050-42a8-94f2-c913088ce9cd
+				- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
+				- The cointerface also shows itself in `D*`, D Star, the protocol-based programming language when dealing with the dialog-like bidirectional protocol.
+					- Example interface
+					  ```
+					  (a, b) -> 
+					  <- (c, d)
+					  (e) ->
+					  <- (f)
+					  ```
+					- Cointerface of Example interface
+					  ```
+					  (a, b) -> 
+					  <- (c, d)
+					  (e) ->
+					  <- (f)
+					  ```
+					  ```
+					  <- (a, b)
+					  (c, d) ->
+					  <- (e)
+					  (f) ->
+					  ```
 	- ## substance
 	  id:: 670e1047-529a-4698-9ad0-5e6c73c18202
 	  collapsed:: true
@@ -3174,23 +3182,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2024-06-11 Tue 15:35:08]--[2024-06-11 Tue 15:49:35] =>  00:14:27
 					  :END:
 			- [!] ((66ab12fd-cc14-4789-b70b-48b8b599f9eb)): ((66ab130c-bee8-40e6-aa11-489eb4c34ec4))
-			- [!] Pasting (move or copy) blocks usually mess up the management of ((66610c13-5045-42a8-948f-6426d698fd2c)).
+			- [!] Pasting (move or copy) blocks usually mess up the management of ((66610c13-5045-42a8-948f-6426d698fd2c)), and even causes the [app hang](((67110769-1a89-4c51-98cf-884b9b1fa623))).
 			  id:: 66b1d45e-f8fa-427c-82aa-197689ee04c5
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-08-06 Tue 14:56:50]--[2024-08-06 Tue 17:36:53] =>  02:40:03
 			  :END:
+				- The mess seems to be caused by `((block ref))` in the pasted block.
 				- The pasted block and/or its enclosing blocks have the function `Copy block ref` ineffective.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) A **re-index** is required to clean the mess up.
 					- Seems that after re-indexing, the copy paste does not cause problem anymore.
 				- The pasted block is not reflected well between views.
 					- => Closing & refreshing views usually solve the problem.
-				- The mess seems to be caused by `((block ref))` in the pasted block.
 				- MIME types in clipboard: `web application/logseq`, `text/html`, `text/plain`
 					- Inspect the cut/copied content with [ClipboardRead.html](../assets/HTML/ClipboardRead.html) ( ![src](../assets/HTML/ClipboardRead.html) ).
 				- When pasted from a different graph, some page unrelated to the pasted block is messed up with the diff between the version on disk and the version in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
 				- When a block was moved remotely and then synched (git-pulled) into this local graph, the old ((66610c13-5045-42a8-948f-6426d698fd2c)) is still remembered in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)) and mess the whole refs up.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Close LogSeq; move the corresponding `.transit` file in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)) to a backup folder; then open LogSeq and add this graph again to force LogSeq to read all ids from disk.
+				- In some cases, the app hangs right after copy/cut.
+				  id:: 67110769-1a89-4c51-98cf-884b9b1fa623
+					- E.g. copying [this block of cointerface](((6711045f-1050-42a8-94f2-c913088ce9cd))) makes Logseq hang.
+					-
 			- [!] Logseq indexes all folders including `assets/` which may contains a lot of files not meant to be indexed and duplicated markdown files.
 			  collapsed:: true
 				- This can be overcome with config ((66cdac39-bcf0-4859-b82f-8bd7a7f8e590)). But due to the [currently unsolved issue](https://github.com/logseq/logseq/issues/8822), it's useless!
