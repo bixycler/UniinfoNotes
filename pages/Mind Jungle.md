@@ -3468,13 +3468,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) is built in and provided via ((66fa4733-114e-4923-80a5-7ac2f5f63ae1)) as well as via ((66fa5c73-1f11-4e73-9f04-3a678bfb9912)).
 				- `Settings` > `Version control`
 				  id:: 66fa4733-114e-4923-80a5-7ac2f5f63ae1
-					- `Enable Git auto commit` is useful for periodic backup. Later on, the backup commits, titled `Auto saved by Logseq`, can be squashed down to a manual commit with a meaningful message.
+					- `Enable Git auto commit` is useful for **periodic backup**.
+						- Later on, the backup commits, titled `Auto saved by Logseq`, can be squashed down to a manual commit with a meaningful message.
 						- `Git auto commit seconds`
+						  collapsed:: true
+							- Default value: `60` (1 minute)
+							- My value: `600` (10 minutes)
 					- `Git commit on window close`
 				- ((6673f8ff-995c-455f-ae09-49bcb5311e2e))'s `logseq.Git`
 				  id:: 66fa5c73-1f11-4e73-9f04-3a678bfb9912
 					- [!][solved] Linux Snap version denies SSH access.
 					  id:: 66fa5cb5-0f9d-4f70-8eeb-b6c3195c57ea
+					  collapsed:: true
 						- ```js
 						  await logseq.sdk.git.exec_command(['pull'])
 						  ```
@@ -3486,6 +3491,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((665dc545-151a-485a-84b7-1310fef5151c)) ((66fb69ac-95d3-4ba0-b5ec-b1eb04898db5))
 					- [!][solved] Linux Snap version cannot bind to SSH socket.
 					  id:: 66fb7680-7854-4be2-8d58-77e591d7533f
+					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2024-10-01 Tue 11:07:49]--[2024-10-01 Tue 11:26:59] =>  00:19:10
 					  :END:
