@@ -2232,7 +2232,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2024-09-27 Fri 15:09:57]--[2024-10-14 Mon 20:55:19] =>  413:45:22
 		  :END:
-			- ![obop forms](https://docs.google.com/drawings/d/e/2PACX-1vQVL6i_pDqPDaF6J5Y_ap06oLP4QKyjce13qVtbpPUyh-DNLz_etMQsM2KrUH8B9iYNgWsbgbmXAwFE/pub?w=345&h=289)
+			- ![obop forms](https://docs.google.com/drawings/d/e/2PACX-1vQVL6i_pDqPDaF6J5Y_ap06oLP4QKyjce13qVtbpPUyh-DNLz_etMQsM2KrUH8B9iYNgWsbgbmXAwFE/pub?w=337&h=340)
 			  :LOGBOOK:
 			  CLOCK: [2024-10-17 Thu 19:42:39]
 			  CLOCK: [2024-10-17 Thu 19:42:44]--[2024-10-17 Thu 20:49:03] =>  01:06:19
