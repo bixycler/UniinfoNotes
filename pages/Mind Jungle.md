@@ -3668,7 +3668,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Because Logseq uses this separate snap home, some config/env in the user's `${HOME}` must be ported to this snap home.
 						- `.gitconfig` is required by [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))).
 							- ((66fa09f1-64e7-43bc-9b83-f5b5c5a2aaf7))
-			- `.logseq/` config folder in home folder
+			- `.logseq/` global config folder
 				- `config/`
 				  contains global configs `config.edn` and `plugins.edn`.
 				- `plugins/` & `settings/` 
@@ -3676,6 +3676,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `graphs/*.transit`
 				  id:: 66f7b4fd-e34e-4fc3-9c2d-d468206d279b
 				  contains all graphs loaded by LogSeq. Each graph is managed by LogSeq internally, with a `.transit` file, to be a "mirror" of the corresponding `.md` files ... as much as possible.
+			- `config/Logseq/` (Electron) app folder
+				- `config.edn`
+				  contains `:userAppCfgs`, ``
 			-
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  id:: 66faa5f9-9402-4889-8881-dbdc8f179a30
