@@ -978,3 +978,24 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [coproduct](https://en.wikipedia.org/wiki/Coproduct) vs [product](https://en.wikipedia.org/wiki/Product_(category_theory))
 						- [pushout](https://en.wikipedia.org/wiki/Pushout_(category_theory)) vs [pullback](https://en.wikipedia.org/wiki/Pullback_(category_theory))
 			- used in ((670f2f5f-ec97-4287-a711-1988ca03a262))
+	- Chat about "free will" and choices, 2024-10-17
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-17 Thu 18:26:59]
+	  :END:
+		- Huy
+		  > Tui nghĩ về "ảo tưởng sự lựa chọn", có lẽ nó xuất phát từ đầu óc biện biệt, nghĩ rằng mình có thể tách rời mọi thứ ra để xem xét một cách độc lập mà quên rằng mọi thứ là kết nối chồng chéo nhân duyên với nhau.
+		  > Như có lần tui hỏi giả sử bứng "cái cây" Định qua trồng trên "mảnh đất" của ông Minh Tuệ thì sao. Cả một cuộc đời mà tui còn ảo tưởng có thể lựa chọn được huống hồ gì những sự kiện nhỏ hơn trong đời sống hàng ngày.
+		- Định
+			- 👍️
+			- Thì free will là một chủ đề lớn trong triết học và cả thần học mà 😃
+			- Chúa ban cho con người **cảm giác** tự do lựa chọn để bắt con người phải có trách nhiệm thôi 😃
+			- Cái cảm giác đó được các thí nghiệm tâm lý lẫn thần kinh học hiện đại chứng minh là một "ảo giác". Tui nhớ có thí nghiệm người ta hack não thì biết được kết quả lựa chọn của 1 người trước khi người đó ra quyết định... 0.7 giây 😃
+			- tự do lựa chọn chỉ đơn giản là hệ quả của **blackbox**: cái gì không thấy bên trong thì nó mặc định là Tôi, nó ra quyết định gì thì đó là "Tôi chọn", còn quyết định đó từ đâu ra, do Chúa "giật dây như điều khiển con rối" (thuyết định mệnh) hay do chùm nhân quả chằng chịt nào đó (thuyết nhân quả) thì thường là chúng ta ko biết.
+			- Tui thấy đơn giản như vầy: có tự do tương đối, tức tự do trên interface, nhưng ko có tự do tuyệt đối như cảm giác thông thường của đa số người
+			- Trên interface thì by def. là bất kỳ agent nào, dù là automaton cơ khí đơn giản nhứt cũng là 1 blackbox (phần implementation) nên cũng có tự do lựa chọn. Còn bản thân agent đó  lệ thuộc thế nào vào những thứ khác thì tuỳ vào implementation của nó.
+			- Đó cũng là 1 mâu thuẫn cơ bản: kẻ càng giải thoát càng biết mình chẳng có tự do... nhưng lại thể hiện ra là tự do hơn kẻ khác
+			- ko chỉ giới hạn trong bọn hữu cơ, các bọn vô cơ như máy tính, hay 1 hạt cát cũng thể hiện rõ ràng cái **tự do biểu kiến** trên interface. Bọn vô cơ trong tự nhiên thì thể hiện tự do biểu kiến qua sự **ngẫu nhiên**. Bất kỳ một blackbox nào cũng có quyền lựa chọn phản ứng của nó đáp lại một tín hiệu input mà kẻ input không thể nào biết trước được 100%.
+			- Và thú vị là chính con người thông minh, cho rằng mình có tự do lựa chọn lại nhiều khi bị ghiền việc "nhờ cục xúc-sắc vô tri lựa chọn giùm" 😃
+			- Vì cái tự do biểu kiến đó quá ảo nên nhiều khi bị rơi vào tình huống "lật mặt" thì người ta nhảy sang thái cực "định mệnh", tức pre-determined. Theo tui thì cái tự do thực sự (không biểu kiến) nằm ở chỗ determined nhưng không phải pre-detemined 😃 Cái chỗ này vi tế khó nói, nhưng đại khái là chúng ta có tự do ở **thái độ**, hay nói theo vật lý là tự do ở "lực", và nói theo nhân quả là ở "nhân". Nó khác với cái tự do biểu kiến ở hành động, ở vận tốc, vị trí, ở quả.
+			- Vì nhân, lực, thái độ là những thứ vô hình so với sự hiển hiện của quả, vị trí, vận tốc, hành động, nên cái tự do gốc này = 0 so với sự tự do biểu kiến, tức nếu nhìn theo thước đo của tự do biểu kiến thì ta "không có tự do" 😃
