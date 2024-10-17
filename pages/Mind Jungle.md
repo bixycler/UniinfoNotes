@@ -3202,13 +3202,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- In some cases, the app hangs right after copy/cut.
 				  id:: 67110769-1a89-4c51-98cf-884b9b1fa623
 				  collapsed:: true
-					- Re-indexing does not help!
+					- Neither help: not Re-indexing nor updating ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
 					- E.g., copying [this block of cointerface](((6711045f-1050-42a8-94f2-c913088ce9cd))) makes Logseq hang.
 					- E.g., copying this block makes Logseq hang, due to a block ref.
 						- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
 					- E.g., copying this block makes Logseq hang, due to [this block ref to etymology of the root "co-"](((670f4f06-b543-47d7-ab5d-846dcdd2281e))).
 						- [?] What's wrong with that block?!
 					- Le'ts try each sub-block of that damned block:
+					  collapsed:: true
 						- HANG!!! ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
 						- OK: ((67110460-88c4-480d-9ac7-a9af44271e3b))
 						- OK: ((67110460-c09b-4d62-a9dd-71e8388dc904))
@@ -3220,6 +3221,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- OK: Both
 							- OK: ((67110460-88c4-480d-9ac7-a9af44271e3b))
 							- OK: ((67110460-2f01-4365-a5f4-8053b08136e9))
+					- The same issue when copying the [damned block](((670f4f06-b543-47d7-ab5d-846dcdd2281e))) itself. And no issue copying any of its sub-blocks.
 			- [!] Logseq indexes all folders including `assets/` which may contains a lot of files not meant to be indexed and duplicated markdown files.
 			  collapsed:: true
 				- This can be overcome with config ((66cdac39-bcf0-4859-b82f-8bd7a7f8e590)). But due to the [currently unsolved issue](https://github.com/logseq/logseq/issues/8822), it's useless!
