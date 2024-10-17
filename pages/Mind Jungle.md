@@ -2290,7 +2290,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- i-form
 						  id:: 670e12c8-98eb-4293-b1cc-403c8210208f
 						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) of a composite is the interaction structure including those ((670d0183-aba2-438b-b749-1b550e4a906b))s of its components for interaction between the obop and components, as well as the anti-inter-form of this composite to interact with the external world.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) of a composite is the interaction structure including those ((670d0183-aba2-438b-b749-1b550e4a906b))s of its components for interaction between the obop and components, as well as the ((670f2f5f-ec97-4287-a711-1988ca03a262)) of this composite to interact with the external world.
 				- round form
 				  id:: 670e14c0-70c6-49ff-9bde-89db60b610c2
 				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e14da-ff8d-4ca3-8d19-d2daec1fa296)), ((670e105b-5244-4f95-9f90-c99acdbce0e4))
@@ -2300,12 +2300,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e14c0-70c6-49ff-9bde-89db60b610c2))
 						- Etymology of the word "perform": "per" = complete (perfect) => carry out, finish, accomplish
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e14c0-70c6-49ff-9bde-89db60b610c2)) is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle of content which lies at the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of all ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) and is the target of restoring force.
-				- DOING co-inter-form
+				- co-inter-form
 				  id:: 670f2f5f-ec97-4287-a711-1988ca03a262
 				  :LOGBOOK:
-				  CLOCK: [2024-10-16 Wed 20:14:33]
+				  CLOCK: [2024-10-16 Wed 20:14:33]--[2024-10-17 Thu 18:48:19] =>  22:33:46
 				  :END:
-					- ((670d0183-aba2-438b-b749-1b550e4a906b))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the cointerface, the other face of ((670d0183-aba2-438b-b749-1b550e4a906b)). While inter-form is the form viewed from the outside, for the external world to interact with this subject, co-inter-form is the form viewed from the inside, for the obop to interact with the external world. The co-inter-form is considered a part of the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)).
 			- abstract form
 			  id:: 670e0d9a-a926-49ca-951c-7013b2b29e8c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that objec is abstracted away. Abstract form is the normal meaning of the word "form".
