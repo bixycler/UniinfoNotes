@@ -971,17 +971,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 670f4f06-b543-47d7-ab5d-846dcdd2281e
 		  collapsed:: true
 			- Proto-Indo-European "[*ḱóm](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m)" -> Proto-Italic "[*kom](https://en.wiktionary.org/wiki/Reconstruction:Proto-Italic/kom)" -> Latin preposition "[cum](https://en.wiktionary.org/wiki/cum#Latin)" -> Latin root "[con-](https://en.wiktionary.org/wiki/con-#Latin)" -> English root "[co-](https://en.wiktionary.org/wiki/co-#English)"
+			  id:: 67110460-88c4-480d-9ac7-a9af44271e3b
 				- "[colatitude](https://en.wikipedia.org/wiki/Colatitude)" is the complement of a latitude, in spherical coordinates, i.e. the difference between a latitude and 90°.
+				  id:: 67110460-c09b-4d62-a9dd-71e8388dc904
 				- "[codomain](https://en.wikipedia.org/wiki/Codomain)" is the domain $Y$ of the destitation $y$ which is dual to the domain $X$ of the source $x$ in mapping $f: X -> Y$.
 				  id:: 670f5fa5-4e2b-4239-aeea-c1267f124d20
 				- "[coarea](https://en.wikipedia.org/wiki/Smooth_coarea_formula)" is the integral over a codomain which is dual to the integral over domain.
+				  id:: 67110460-5e1c-4dd0-8ff1-de1f539bcbbe
 				- "[cocategory](https://ncatlab.org/nlab/show/cocategory)" is the [dual](https://en.wikipedia.org/wiki/Dual_(category_theory)) of a category via the [opposite category](https://ncatlab.org/nlab/show/opposite+category) where all arrows have direction reversed.
 				  id:: 670f5dfd-ff92-4122-a1d8-8dfaed3bd122
 					- cocategory is to category as [colimits is to limits](https://en.wikipedia.org/wiki/Limit_(category_theory))
+					  id:: 67110460-0b9a-4d1d-b38d-6280a32b5c4f
 						- [initial objects vs terminal objects](https://en.wikipedia.org/wiki/Initial_and_terminal_objects)
 						- [coproduct](https://en.wikipedia.org/wiki/Coproduct) vs [product](https://en.wikipedia.org/wiki/Product_(category_theory))
 						- [pushout](https://en.wikipedia.org/wiki/Pushout_(category_theory)) vs [pullback](https://en.wikipedia.org/wiki/Pullback_(category_theory))
 			- used in ((670f2f5f-ec97-4287-a711-1988ca03a262)), and "cointerface".
+			  id:: 67110460-2f01-4365-a5f4-8053b08136e9
 	- Chat about "free will" and choices, 2024-10-17
 	  collapsed:: true
 	  :LOGBOOK:
