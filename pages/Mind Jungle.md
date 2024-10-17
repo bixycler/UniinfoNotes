@@ -3470,9 +3470,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66fa4733-114e-4923-80a5-7ac2f5f63ae1
 					- `Enable Git auto commit` is useful for **periodic backup**.
 						- Later on, the backup commits, titled `Auto saved by Logseq`, can be squashed down to a manual commit with a meaningful message.
-						- `Git auto commit seconds`
-						  collapsed:: true
-							- Default value: `60` (1 minute)
+						- `Git auto commit seconds` (`:git/auto-commit-seconds`)
+							- Value: `1` < default `60` (1 minute) < `86400` (24 hours)
 							- My value: `600` (10 minutes)
 					- `Git commit on window close`
 				- ((6673f8ff-995c-455f-ae09-49bcb5311e2e))'s `logseq.Git`
