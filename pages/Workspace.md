@@ -149,6 +149,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) Trigger: i had a hard time finding back [my post about catenary curve](https://www.facebook.com/share/p/9LfU1A6Mmxo2KTH3/).
 		-
 		- query-table:: false
+		  id:: 67110d13-b91a-4ebb-959b-9db4d2f6d61d
 		  collapsed:: true
 		  #+BEGIN_QUERY
 		  {:title [:h3 "Other Tasks"]
