@@ -915,7 +915,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  :END:
 		- Động > Thương > Tịnh (Định) > Huệ
 		- Thương là đứa hay khóc, là "con đĩ nhỏ lắm mồm" dẫn tới "nghiệp lý thuyết", là đứa mắc nợ tình cảm.
-	- Hegel's "[World of Appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm)": from Essence to Form, Content, and Appearance
+	- Hegel's "[World of Appearances](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm)": from Essence to Form, Content, and Appearance
 	  id:: 66faa5fa-d11a-4828-848e-b24bddba5411
 	  collapsed:: true
 	  :LOGBOOK:
@@ -931,8 +931,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  > this disintegration into independent matters is properly restricted to *inorganic nature only*
 		- **Content**: This is the totality of relations and potentialities of the Thing, which includes Form, Matter, Essence and their complicated relations as well as relations to others via Appearance (External Form).
 		  id:: 670d1f75-b9a6-490a-9759-9f09189167b7
+		  [§ 133](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL133)
 		  > Outside one another as the phenomena in this phenomenal world are, they form a totality, and are wholly contained in their self-relatedness. In this way **the self-relation of the phenomenon** is completely specified, it has the Form in itself... So it comes about that the form is **Content**: and in its phase is the Law of the Phenomenon.
-		- Hegel summarized them like this:
+		- Hegel summarized them like this: [§ 989](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455)
 			- > At first, form stands opposed to essence; it is then the simple ground relation, and its determinations are the ground and the grounded.
 			- > Secondly, it stands opposed to matter; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.
 			- > Lastly, it stands opposed to content; and then its determinations are again form itself and matter.
@@ -941,8 +942,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- [Marxists Internet Archive Encyclopedia](https://www.marxists.org/glossary/index.htm) >
 				- Glossary of Terms > [Content and Form](https://www.marxists.org/glossary/terms/c/o.htm)
 				- [Encyclopaedia of the Philosophical Sciences](https://www.marxists.org/reference/archive/hegel/works/ol/encycind.htm) > [(A) The Science of Logic [A.K.A. Shorter Logic]](https://www.marxists.org/reference/archive/hegel/works/sl/) > [VIII. Essence](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm) > [B. Appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm)
-					- [Science of Logic [A.K.A. Greater Logic]](https://www.marxists.org/reference/archive/hegel/works/hl/) > [Book Two: The Doctrine of Essence](https://www.marxists.org/reference/archive/hegel/works/hl/hlessenc.htm) >
-					- [Section One: Essence as Reflection Within Itself](https://www.marxists.org/reference/archive/hegel/works/hl/hlessenc.htm#HL2_393) > [Chapter 3: Ground](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm) > [A. ABSOLUTE GROUND](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_447)
+					- (a) The World of Appearances; [(b) Content and Form](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL133); (c) Relation or Correlation
+				- [Science of Logic [A.K.A. Greater Logic]](https://www.marxists.org/reference/archive/hegel/works/hl/) > [Book Two: The Doctrine of Essence](https://www.marxists.org/reference/archive/hegel/works/hl/hlessenc.htm) >
+					- [Section One: Essence as Reflection Within Itself](https://www.marxists.org/reference/archive/hegel/works/hl/hlessenc.htm#HL2_393) > [Chapter 3: Ground](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm) > [A. ABSOLUTE GROUND](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_447) > (a) Form and Essence; (b) Form and Matter; [(c) Form and Content](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455)
 					- [Section Two: Appearance](https://www.marxists.org/reference/archive/hegel/works/hl/hlessenc.htm#HL2_479)
 			- [Hegel.net](https://hegel.net/) > [1.2.1.3.1.3. Form and Content](https://hegel.net/en/e121313.htm#treeview)
 	- The saying about properties of info-knowledge-wisdom:
