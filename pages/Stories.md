@@ -941,6 +941,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- [Marxists Internet Archive Encyclopedia](https://www.marxists.org/glossary/index.htm) >
 				- Glossary of Terms > [Content and Form](https://www.marxists.org/glossary/terms/c/o.htm)
 				- [Encyclopaedia of the Philosophical Sciences](https://www.marxists.org/reference/archive/hegel/works/ol/encycind.htm) > [(A) The Science of Logic [A.K.A. Shorter Logic]](https://www.marxists.org/reference/archive/hegel/works/sl/) > [VIII. Essence](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm) > [B. Appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm)
+					- [Science of Logic [A.K.A. Greater Logic]](https://www.marxists.org/reference/archive/hegel/works/hl/) > [Book Two: The Doctrine of Essence](https://www.marxists.org/reference/archive/hegel/works/hl/hlessenc.htm) > [Section Two: Appearance](https://www.marxists.org/reference/archive/hegel/works/hl/hlessenc.htm#HL2_479)
 			- [Hegel.net](https://hegel.net/) > [1.2.1.3.1.3. Form and Content](https://hegel.net/en/e121313.htm#treeview)
 	- The saying about properties of info-knowledge-wisdom:
 	  id:: 670f3de5-bee6-44e4-8757-fb5eba325f79
