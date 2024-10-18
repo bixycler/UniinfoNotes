@@ -938,6 +938,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  > Outside one another as the phenomena in this phenomenal world are, they form a totality, and are wholly contained in their self-relatedness. In this way **the self-relation of the phenomenon** is completely specified, it has the Form in itself... So it comes about that the form is **Content**: and in its phase is the Law of the Phenomenon.
 		  When the form, on the contrary, is not reflected into self, it is equivalent to the negative of the phenomenon, to the non-independent and changeable: and that sort of form is the indifferent or _External Form_.
 		  > There is thus a doubling of form. At one time it is reflected into itself; and then is identical with the **content**. At another time it is not reflected into itself, and then it is external existence (_external form_), which does not at all affect the content.
+		  
+		  [§ 135](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL135) [Shorter Logic]
+		  > The content is the whole, and consists of the parts (the form), its counterpart.
 		- **Appearance**: This is the dialectic of Form and Content, the relation between them. Appearance is the outward development of the _mere_ Being by adding relations to the Being.
 		  id:: 67123b17-b024-414a-a5dd-ba05965eefe7
 		  [§ 131](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL131n) [Shorter Logic]
@@ -945,7 +948,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  > Appearance is higher than mere Being — a richer category because it holds in combination the two elements of reflection-into-self and reflection-into-other: whereas Being (or immediacy) is still mere relationlessness, and apparently rests upon itself alone. Still, to say that anything is *only an appearance* suggests a real flaw, which consists in this, that Appearance is still divided against itself and without intrinsic stability.
 		  
 		  [§ 134](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL134) [Shorter Logic]
-		  > When thus explicitly stated, _the phenomenon is **relativity** or **correlation**_: where one and the same thing, viz. the content or the developed form, is seen as the externality and antithesis of independent existences, and as their reduction to a relation of identity in which identification alone the two things distinguished are what they are.
+		  > When thus explicitly stated, _the phenomenon is **relativity** or **correlation**_...
 		- Hegel summarized them like this: [§ 989](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455) [Greater Logic]
 			- > At first, form stands opposed to essence; it is then the simple ground relation, and its determinations are the ground and the grounded.
 			- > Secondly, it stands opposed to matter; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.
