@@ -4,5 +4,6 @@ logseq/bak
 logseq/.recycle
 .idea/
 *.iml
+*.swp
 .trash/
 .DS_Store

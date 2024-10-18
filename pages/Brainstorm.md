@@ -72,6 +72,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- Convert all metadata to block-links
 	  collapsed:: true
 		- `#tag` = block-link
+		  id:: 66faa5f8-4513-41d9-97af-65bfab4d13f1
 		- `property.subprop: some string value` is stored as an item with property `name` like this:
 		  collapsed:: true
 			- some string value 
@@ -161,17 +162,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  id:: 66fbb757-8038-4a79-87df-8d1575faaedb
 				- Test a simple (non-query) macro first: {{hi-macro HiMac}}
 				- {{blocks-with-content custom.css, ((665d78a5-6470-4e60-8fd1-d958fd62756e))}}
-		- Search for string (regex) within a block (scope)
+		- Search for pattern (regex) within a block (scope)
 		  query-table:: false
 		  id:: 66faa5f8-0711-4a23-afe0-fb8d2ebb644e
 			- Pattern (regex): The first line, i.e. ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)), will be used as search pattern. Property `case-sensitive::` is optional (default to `false`).
-				- history.*in\s
+				- history
 				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
 				  case-sensitive:: true
+				  whole-word:: false
 			- id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
 			  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((6653538a-30aa-423f-be89-848ad9c7e331))
 			  Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
-			- Ref: [FInd nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
+			- Ref: [Find nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
+			- TODO add multiple criteria
 			- Source code
 			  collapsed:: true
 				- ```clojure
@@ -184,7 +187,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				    true ; recursive
 				   ]
 				   :query [
-				    :find (pull ?b [*]) ; ?key ?case-sensitive ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
+				    :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
 				    :in $ ?params ?container ?recursive %
 				    :where
 				     ;
@@ -196,9 +199,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     ; ?case-sensitive parameter (default = false) => ?search-pattern
 				     [?params :block/properties ?props]
 				     [(get ?props :case-sensitive false) ?case-sensitive]
+				     [(get ?props :whole-word false) ?whole-word]
 				     (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
-				         (and [(= true ?case-sensitive)] [(str ?key) ?key-case])
-				         (and [(= false ?case-sensitive)] [(str "(?i)" ?key) ?key-case])
+				         (and [(= true ?whole-word)] [(str "\\b" ?key "\\b") ?key-pat])
+				         (and [(= false ?whole-word)] [(str ?key) ?key-pat])
+				     )
+				     (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+				         (and [(= true ?case-sensitive)] [(str ?key-pat) ?key-case])
+				         (and [(= false ?case-sensitive)] [(str "(?i)" ?key-pat) ?key-case])
 				     )
 				     [(re-pattern ?key-case) ?search-pattern]
 				     ;
@@ -255,7 +263,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			    true ; recursive
 			   ]
 			   :query [
-			    :find (pull ?b [*]) ; ?key ?case-sensitive ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
+			    :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
 			    :in $ ?params ?container ?recursive %
 			    :where
 			     ;
@@ -267,9 +275,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			     ; ?case-sensitive parameter (default = false) => ?search-pattern
 			     [?params :block/properties ?props]
 			     [(get ?props :case-sensitive false) ?case-sensitive]
+			     [(get ?props :whole-word false) ?whole-word]
 			     (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
-			         (and [(= true ?case-sensitive)] [(str ?key) ?key-case])
-			         (and [(= false ?case-sensitive)] [(str "(?i)" ?key) ?key-case])
+			         (and [(= true ?whole-word)] [(str "\\b" ?key "\\b") ?key-pat])
+			         (and [(= false ?whole-word)] [(str ?key) ?key-pat])
+			     )
+			     (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+			         (and [(= true ?case-sensitive)] [(str ?key-pat) ?key-case])
+			         (and [(= false ?case-sensitive)] [(str "(?i)" ?key-pat) ?key-case])
 			     )
 			     [(re-pattern ?key-case) ?search-pattern]
 			     ;
@@ -315,8 +328,26 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			   ]
 			  }
 			  #+END_QUERY
-			- Macro `{{search-query}}`
+			- Macro `{{search-query}}` defined in [[logseq/config.edn]]
+			  id:: 66fcd905-2d08-40a9-b33f-900204e1b1e4
 			  collapsed:: true
+				- Preprocess the query source before pasting to `:search-query`
+				  collapsed:: true
+					- Escape all **backslashes _then_ double quotes**: `\` -> `\\`, `"` -> `\"`
+					- Replace **parameters** `$1...$4` (Move `:title` to `$1` above `#+BEGIN_QUERY`)
+					  ```edn
+					    :search-query
+					    "$1
+					  #+BEGIN_QUERY
+					  {
+					   :inputs [ 
+					    [:block/uuid #uuid \"$2\"]  ; pattern
+					    [:block/uuid #uuid \"$3\"]  ; search-scope
+					    ;[:block/uuid #uuid \"6651e92e-fb34-4d24-a386-d9698c2e93f7\"]  ; Mind Jungle
+					    $4 ; recursive
+					   ]
+					  ...
+					  ```
 				- {{search-query [:h3 "Search Query"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, false}}
 				- {{search-query [:h3 "Search Query Recursively"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, true}}
 				- {{search-query [:h3 "Search Query Recursively on Mind Jungle"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 6651e92e-fb34-4d24-a386-d9698c2e93f7, true}}
@@ -556,7 +587,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Varying $dt$ from ∞ -> 1 -> 0, we have the average (center of mass) $\bar{x} = E[f(t)]$ -> the function $x = f(t)$ itself  -> derivative $\dot{x} = f'(t)$
 		- [?] What's the relation to
 		  ((66875f13-3385-48d5-99b1-fb72dc53291d))
-	- $i$, the internal imaginary impression that bridges the gap, complete the circle, reverts (reduces) the entropy of the external "real" world, is the internal image reflecting the external world.
+	- $i$, the *internal imaginary impression* that bridges the gap, complete the circle, reverts (reduces) the entropy of the external "real" world, is the internal image reflecting the external world.
 	  id:: 668d08c7-ec2d-4188-9745-6ccf643c9132
 	  collapsed:: true
 	  :LOGBOOK:
@@ -628,6 +659,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :END:
 		- center = form = center of mass = concentration of the whole body (circle), not only the abstract central point
 		- radius = constraint of circumference via the center = all-scale constraint (r := 0..R), not only between 2 points 0 & R = rubber band constraint = ujjayi breath = backtracking thread
+		  id:: 66faa5f8-f05b-4d1d-8827-60a98bdda4a6
 		- The quality of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is roundness vs quantity of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is the length of thread.
 		  id:: 669dcbc4-6274-484e-bd26-b06157ee8cca
 		  :LOGBOOK:
@@ -706,6 +738,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- operate = downward/outward effect
 		- self = constant inner most circle = the unchanged program of the Mecha = the top boss <> selfless = no circle is constant = all circles change = impermanent = no attachment
 		- radius = constraint arrow <> arc = effect arrow
+		  id:: 66faa5f8-6fa9-4561-8234-296ad2f314d7
 			- constraint flow = input & invocation from center out <> effect flow = output return from circumference in
 	- Absolute vs relative = ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)) ⭕️ lượng vs ((66e42d39-a296-4ed9-a686-4cb213783830)) ⬆️ tính chất = form vs content = extent vs intent = norm vs abnorm = modulus/correct vs remainder/diff/error
 	  id:: 66c7fdec-59db-4f96-a8a7-913247586534
@@ -715,6 +748,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :END:
 		- direction = sub-amount (angle, tính) + dimension (basis, chất)
 		- magnitude (external amount) = sub-amount angle projected out (up to ♾️) via projective geometry (stereographic projection) =  angle projected into a sub-space (up to c) via vector scalar product (radius parallel projection)
+		  id:: 66faa5f8-b0b8-4b3f-9a29-1901f315419e
 		- angle is a circular number = abnorm vs norm = linear number
 		- CIE: content (tính, nature, property) - intent (chất, substance) - extent (lượng, amount, quantity); quality (tính chất) = property (tính) + substance (chất)
 		- Chat with Gemini: [Absolute vs relative = amount ⭕ vs direction ⬆️](https://g.co/gemini/share/355ff13f7f19)
@@ -902,26 +936,32 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- new distribution from a node to its branches updates weights of these branches.
 				- collective throughput at a node updates its mass.
 				- heuristic method: use global time to cut off all past parts of the whole memory
-	- DOING Holographic = viên dung 圓融 perfect interfusion, interfusion = interpenetration 相入 = interconnection = interreflection = interdependence = fractal
+	- Holographic = viên dung 圓融 perfect interfusion, interfusion = interpenetration 相入 = interconnection = interreflection = interdependence = fractal
 	  id:: 66eb7dae-2032-434b-9106-756d4aad7cdb
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-09-19 Thu 08:26:20]
-	  CLOCK: [2024-09-19 Thu 08:26:21]
+	  CLOCK: [2024-09-19 Thu 08:26:21]--[2024-10-14 Mon 18:24:56] =>  609:58:35
 	  :END:
-		- https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/
-		- https://www.facebook.com/share/p/PV7w5qtofEpAwszK/
+		- Reflection - Phản tỉnh: https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/
+		- The Universe is just a giant distorted kaleidoscope: https://www.facebook.com/share/p/PV7w5qtofEpAwszK/
 		- https://en.wikipedia.org/wiki/House_of_mirrors
 		- https://en.wikipedia.org/wiki/Holism
-		- https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh
+		- Hoa Nghiêm Kinh: https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh
 		- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
-		- dependent origination: https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/?mibextid=xfxF2i
-		- imagination = close/bridge the gap
+		- dependent origination: https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/
+			- So-le (staggered): https://www.facebook.com/share/p/35j9SSuqSJj76tWY/
+			- The tarpestry of life: https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/
+			- the mesh of horizonal & vertical threads is related to the ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
+			- 糸：縦の糸はあなた、横の糸は私…
+			  collapsed:: true
+				- {{video https://youtu.be/VI8zQG-yMMI}}
+		- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
 		- new node created by projecting the instance back to the concept
 		- new link created by shortcutting the circle
 		- round = complete graph = space
 		- newborn = round (complete graph) -> learning = distort to fit = pruning unused edges
-		- DOING ((665ca429-84e3-49ff-921e-c07d19cd99ba)) = projection of the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
+		- ((665ca429-84e3-49ff-921e-c07d19cd99ba)) = projection of the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
 		  id:: 66d1545b-4783-4545-aa12-a2ffa400eed7
 		  collapsed:: true
 		  :LOGBOOK:
@@ -932,6 +972,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) 's ((66c810a0-9861-4787-bdcf-1378219332be)) = apex of the past ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 				- touches ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) = 2 view cones touching by apexes
 				- apex to base = body to world = eye/pointer/current-state to space
+			- The world of these projections is best illustrated as a [circle graph](https://en.wikipedia.org/wiki/Circle_graph), where the viewcones are clearly shown.
+				- ![Ageev_5X_circle_graph.svg.png](../assets/Uniinfo/Unithread/Ageev_5X_circle_graph.svg.png)
 	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
 	  collapsed:: true
 	  :LOGBOOK:
@@ -993,3 +1035,22 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The amount of the soliton is the quantum.
 					- That abstraction from the obop circle to the quantum is the action of that soliton: produce the extent
 		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
+	- circle = constant ((670ce8c2-8c54-42c6-84cd-93703c1fa60f)) = constant speed of light = conservation of amount/energy/mass/content ( ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))) = *the same content appears in many forms* = **spring mechanic** (harmonic oscillator)
+	  id:: 670cd7d1-8380-49db-a47c-6aa132256596
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-14 Mon 15:35:31]
+	  CLOCK: [2024-10-14 Mon 15:35:44]--[2024-10-14 Mon 16:39:52] =>  01:04:08
+	  :END:
+		- The radius c is the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) of the quantum: center -> circumference -> center
+		- When the content c compresses into a ((667d162c-16cf-44d3-81a5-29b1b885164f)), it shows ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+		- When the content c relaxes into a ((66ab675b-2778-4f51-80ad-20a8f6988691)), it shows ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
+		- When the content c stretches out to a straight segment, i.e. radius, it shows ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
+		- spring mechanic: the content of the spring is constant, it just compresses and expands.
+			- The external form on x-axis is the "real", i.e. visible part, while the internal content on p-axis is the "imaginary", i.e. invisible part.
+			- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
+		- "Light" is just an arrrow of the relaxed quantum. The light ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))s the original circle into various forms (shapes and sizes). => ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
+	- DOING
+	  :LOGBOOK:
+	  CLOCK: [2024-10-14 Mon 17:16:12]
+	  :END:

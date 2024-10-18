@@ -1,0 +1,429 @@
+<HTML>
+<HEAD>
+    <!--meta charset="ISO-8859-1"><!-- AKA Extended ASCII containing 256 different character codes -->
+    <meta charset="UTF-8">
+    <style>
+        .flexbox {
+            display: flex; 
+            flex-wrap: wrap;
+        }
+        
+        table {
+            border-style: solid
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #e0ffff;
+        }
+        tbody tr th {
+            background-color: #e0e0ff;
+        }
+        thead tr {
+            background-color: #e0e0e0;
+        }
+    </style>
+</HEAD>
+
+<BODY>
+
+<details>
+    <summary><a id="charMapDownloadLink" href="" download="charMap.js">Character (Unicode) Map</a>:</summary>
+    <div class="flexbox">
+    <div id="charMapSearch">
+        <label for="charMapSearchKey">Search for </label>
+        <input type="text" id="charMapSearchKey" name="charMapSearchKey"></input><br>
+        <textarea id="charMapSearchResult" rows="30" cols="50"></textarea>
+    </div>
+    <!-- display:none for the huge charMap.js; Let's change to display:block for UnicodeData.csv -->
+    <textarea id="charMapTextArea" rows="30" cols="50" style="display:none">charMap JSON</textarea>
+    </div>
+</details>
+
+<details>
+    <summary><a id="htmlEntityMapDownloadLink" href="" download="htmlEntityMap.js">HTML Entities</a>: </summary>
+    <div class="flexbox">
+    <div id="htmlEntityMapSearch">
+        <label for="htmlEntityMapSearchKey">Search for </label>
+        <input type="text" id="htmlEntityMapSearchKey" name="htmlEntityMapSearchKey"></input><br>
+        <textarea id="htmlEntityMapSearchResult" rows="30" cols="50"></textarea>
+    </div>
+    <textarea id="htmlEntityMapTextArea" rows="30" cols="50">htmlEntityMap JSON</textarea>
+    </div>
+</details>
+
+<details open>
+    <summary><a id="shorthandMapDownloadLink" href="" download="CreatZy-shorthands.tsv">CreatZy Shorthands</a>: </summary>
+    <div class="flexbox">
+    <div id="shorthandMapSearch">
+        <label for="shorthandMapSearchKey">Search for </label>
+        <input type="text" id="shorthandMapSearchKey" name="shorthandMapSearchKey"></input><br>
+        <textarea id="shorthandMapSearchResult" rows="30" cols="50"></textarea>
+    </div>
+    <table id="shorthandMapTable"></table>
+    <textarea id="shorthandMapTextArea" rows="30" cols="50" style="display:none">shorthands TSV</textarea>
+    </div>
+</details>
+
+
+<script>/***** funtions *****/
+
+    // Clear all enumerable properties in an object (which are owned by that object only, not inherited)
+    Object.defineProperty(Object.prototype, 'clear', {
+        value: function(){
+            // Object.keys: enumerable own
+            // Object.getOwnPropertyNames: all own (enum & non-enum)
+            // for in: all enumerables (own & inherited)
+            for(p of Object.keys(this)){ delete this[p]; }
+        },
+        //enumerable: false, configurable: false, // already by default! A function should not be enumerable.
+        writable: true, // let this function to be updated (overriden) later on with assignment: Object.prototype.clear = function(){ /*new implementation*/ }
+        //Note: If we don't Object.defineProperty, but do assignment `Object.prototype.clear = function(){...}` first, it will create an enumerable & configurable & writable property. But a function in general should not be enumerable though!
+    });
+
+    // This function is to sort htmlEntityMap in a heuristic way, 
+    // which is not exactly the logical order.
+    // E.g. "∖": ["&setmn;","&ssetmn;","&setminus;","&Backslash;","&smallsetminus;"]
+    //      while the logical order should be:
+    //      "∖": ["&setmn;","&setminus;",  "&Backslash;",  "&ssetmn;","&smallsetminus;"]
+    function compareFn(post, pre) {
+        spost = post.toString(); spre = pre.toString();
+        if (spost.length == spre.length) {
+            return spost.localeCompare(spre, 'en', {caseFirst:'lower'}); // ('en', {caseFirst:'lower'}) is default, write here to be explicit only!
+        } else {
+            return spost.length - spre.length;
+        }
+    }
+
+    // Save a Text Areas into a download link so that user can click it to download file
+    function saveTextArea(textArea, link){
+        const blob = new Blob([textArea.value], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        URL.revokeObjectURL(link.href); // don't litter garbage :)
+        link.href = url;        
+    }
+
+    // Search for a text (character or field value) in any char(sequence) map (not only `charMap`)
+    function searchCharMap(key, charMap){
+        if(charMap[key]) return charMap[key];
+        const res = {numberOfCharacters: 0};
+        for(const c in charMap){
+            if(containsValue(charMap[c], key)){ res[c] = charMap[c]; }
+        }
+        res.numberOfCharacters = Object.keys(res).length - 1;
+        return res;
+    }
+    // Check if the obj contains the given value in any of its fields (and in subfields recursively)
+    function containsValue(obj, value){
+        if(!value) return false;
+        if(typeof obj === 'string'){ return (obj.includes(value)); }
+        for(const k in obj){
+            if(containsValue(obj[k], value)) return true;
+        }
+        return false;
+    }
+
+    // Load delimiter-separated values from text file (.csv, .tsv) into table[][]
+    async function loadDsv(dsv, table, delim=',', skipHeader=false, eol='\n', comment='#'){
+        const res = await fetch(dsv, {mode: "no-cors"});
+        if(!res){ console.log(`Fetch ${dsv} error:`,res); }
+        const blob = await res.blob();
+        const txt = await blob.text();
+        console.debug(`Fetch ${dsv}:`,res,txt);
+        let firstLn = true;
+        for(const ln of txt.split(eol)){
+            if(skipHeader && firstLn) { firstLn = false; continue; }
+            if(!ln || !ln.trim() || ln.trim().charAt(0)==comment) continue;
+            table.push(ln.split(delim)); 
+        }
+        return txt;
+    }
+
+    // The Unicode code-point of a character in 4-digit-hex format (without prefix `U+`)
+    function codepoint(c){
+        return c.codePointAt(0).toString(16).toUpperCase().padStart(4,'0');
+    }
+    // The `U+HHHH+HHHH...` code-point for sequence
+    function codepoints(c){
+        const ca = Array.from(c); // to split surrogate pairs. What a trick!
+        let codePoint = 'U';
+        for(const ci of ca){
+            codePoint += '+'+codepoint(ci);
+        }
+        return codePoint;
+    }
+    // Normalize the name to lowercase with all proper names and capital letters capitalized.
+    const properNames = ['Latin', 'Greek', 'Vietnamese', 'Japanese', 'Korean', 'Hangul', 'American', 'Canadian', 'Georgian', 'Sun', 'Moon'];
+    const fixes = {
+        'sun gyeong eum': 'sungyeong-eum', // Hangul lip-light sound (순경음, 脣輕音), i.e. labiodental
+    };
+    function normName(name){
+        let nn = name.toLowerCase();
+
+        for(w in fixes){
+            const pattern = new RegExp('\\b'+w+'\\b','g');
+            nn = nn.replaceAll(pattern, fixes[w]);
+        }
+        for(pn of properNames){
+            const pattern = new RegExp('\\b'+pn.toLowerCase()+'\\b','g');
+            nn = nn.replaceAll(pattern, pn);
+        }
+        nn = nn.replaceAll(/capital letter (\w)/g, (m,n)=>m.slice(0,-1)+n.toUpperCase());
+        return nn;
+    }
+    // fix double quotes escaped by spreadsheet editor
+    function unescapeQuotes(s){
+        if(!s || !s.endsWith('"""')){ return s; } 
+        return s.slice(1, -1).replaceAll('""','"'); 
+    }
+</script>
+
+<!--script>/***** load charMap from UnicodeData.csv *****/
+    const charMap = {};
+    const unicodeData = [];
+    const unicodeCategories = {
+        "Lu": "Uppercase_Letter", // an uppercase letter
+        "Ll": "Lowercase_Letter", // a lowercase letter
+        "Lt": "Titlecase_Letter", // a digraph encoded as a single character, with first part uppercase
+        "LC": "Cased_Letter", // Lu | Ll | Lt
+        "Lm": "Modifier_Letter", // a modifier letter
+        "Lo": "Other_Letter", // other letters, including syllables and ideographs
+        "L": "Letter", // Lu | Ll | Lt | Lm | Lo
+
+        "Mn": "Nonspacing_Mark", // a nonspacing combining mark (zero advance width)
+        "Mc": "Spacing_Mark", // a spacing combining mark (positive advance width)
+        "Me": "Enclosing_Mark", // an enclosing combining mark
+        "M": "Mark", // Mn | Mc | Me
+
+        "Nd": "Decimal_Number", // a decimal digit
+        "Nl": "Letter_Number", // a letterlike numeric character
+        "No": "Other_Number", // a numeric character of other type
+        "N": "Number", // Nd | Nl | No
+
+        "Pc": "Connector_Punctuation", // a connecting punctuation mark, like a tie
+        "Pd": "Dash_Punctuation", // a dash or hyphen punctuation mark
+        "Ps": "Open_Punctuation", // an opening punctuation mark (of a pair)
+        "Pe": "Close_Punctuation", // a closing punctuation mark (of a pair)
+        "Pi": "Initial_Punctuation", // an initial quotation mark
+        "Pf": "Final_Punctuation", // a final quotation mark
+        "Po": "Other_Punctuation", // a punctuation mark of other type
+        "P": "Punctuation", // Pc | Pd | Ps | Pe | Pi | Pf | Po
+
+        "Sm": "Math_Symbol", // a symbol of mathematical use
+        "Sc": "Currency_Symbol", // a currency sign
+        "Sk": "Modifier_Symbol", // a non-letterlike modifier symbol
+        "So": "Other_Symbol", // a symbol of other type
+        "S": "Symbol", // Sm | Sc | Sk | So
+
+        "Zs": "Space_Separator", // a space character (of various non-zero widths)
+        "Zl": "Line_Separator", // U+2028 LINE SEPARATOR only
+        "Zp": "Paragraph_Separator", // U+2029 PARAGRAPH SEPARATOR only
+        "Z": "", // Zs | Zl | Zp
+
+        "Cc": "Control", // a C0 or C1 control code
+        "Cf": "Format", // a format control character
+        "Cs": "Surrogate", // a surrogate code point
+        "Co": "Private_Use", // a private-use character
+        "Cn": "Unassigned", // a reserved unassigned code point or a noncharacter
+        "C": "Other", // Cc | Cf | Cs | Co | Cn
+    };
+
+    async function parseUnicodeData(){
+        for(const ln of unicodeData){
+            const cp = parseInt(ln[0], 16);
+            if(isNaN(cp)){ console.log(cp,ln); continue; }
+            const c = String.fromCodePoint(cp);
+            charMap[c] = { codePoint: 'U+'+ln[0],
+                name:       normName(ln[1]), 
+                name1:      normName(ln[10]),
+                category:   unicodeCategories[ln[2]],
+            };
+        }
+    }
+</script-->
+
+<script src="charMap.js"></script>
+<script>/***** show charMap & update its download link *****/
+    function showCharMap(){
+        const charMapJson = JSON.stringify(charMap, null, '    ');
+        charMapTextArea.value = 'const charMap = '+charMapJson+';';
+        saveTextArea(charMapTextArea, charMapDownloadLink);
+    }
+</script>
+
+<script src="named-references.js"></script>
+<!--script>/***** build htmlEntityMap from namedReferences *****/
+    const htmlEntityMap = {};
+    function addEntities(entities){
+        for(const code in entities){
+            const c = entities[code];
+            if(!htmlEntityMap[c]){ htmlEntityMap[c] = []; }
+            if(code.slice(-1)==';'){ htmlEntityMap[c].push(code); }
+        }
+    }
+    
+    // check if HTML5 entities subsumes HTML4 enitities
+    const html4not5Entities = [];
+    for(const code in namedReferences.html4.entities){
+        if(! code in namedReferences.html5.entities){
+            html4not5Entities.push(code);
+        }
+    }
+    if(html4not5Entities.length){
+        console.log('HTML4 enitities not included in HTML5 entities:', html4not5Entities);
+    }else{
+        console.log('All HTML4 enitities are included in HTML5 entities.');
+    }
+    addEntities(namedReferences.html5.entities);
+
+    // sort htmlEntityMap
+    for(const c in htmlEntityMap){
+        htmlEntityMap[c].sort(compareFn);
+    }
+</script-->
+
+<script src="htmlEntityMap.js"></script>
+<script>/***** show htmlEntityMap & update its download link *****/
+    function showHtmlEntityMap(){
+        const htmlEntityMapJson = JSON.stringify(htmlEntityMap, null, '    ');
+        htmlEntityMapTextArea.value = 'const htmlEntityMap = '+htmlEntityMapJson+';';
+        saveTextArea(htmlEntityMapTextArea, htmlEntityMapDownloadLink);
+    }
+</script>
+
+
+<script src="emoji-lib.js"></script>
+<script>/***** load & show shorthandMap from CreatZy-shorthands.tsv *****/
+    const shorthandMap = {};
+    const shorthands = [];
+    function parseShorthands(){
+        shorthandMap.clear();
+        for(const i in shorthands){ const ln = shorthands[i];
+            if(i==0){ continue; }
+            const c = ln[0]; if(c[0]=='#') continue;
+            if(c in shorthandMap){ console.log('Duplicated shorthand char: ',c,shorthandMap[c],ln); continue; }
+            shorthandMap[c] = { i: i,
+                codePoint:  ln[1],
+                name:       ln[2],
+                entities:   ln[3],//.split(',').map(s=>s.trim()),
+                code:       unescapeQuotes(ln[4]),
+                keywords:   ln[5].split(',').map(s=>s.trim()),
+            };
+        }
+    }
+
+    function appendEmojiShorthands(){
+        parseShorthands(); // pre-parse to detect if newly added chars duplicate some existing ones.
+        shorthands.push(['# Emoji','','','','','']);
+        for(const c in emojiMap){
+            if(c in shorthandMap){ console.log('Emoji conflicts with exsisted char: ',c,shorthandMap[c],emojiMap[c]); continue; }
+            const ca = Array.from(c); if(ca.length > 1){ console.debug('Multi-char emoji: ',c,emojiMap[c].name); }
+            const name = ca.length > 1 ? emojiMap[c].name : charMap[c].name;
+            let keywords = emojiMap[c].keywords.slice(1);
+            if(ca.length == 1){ keywords.unshift(emojiMap[c].name); }
+            keywords = keywords.join(', ');
+            const entities = c in htmlEntityMap ? htmlEntityMap[c].join() : '';
+            shorthands.push([c, codepoints(c), name, entities, '', keywords]);
+        }
+        parseShorthands(); // post-parse to update emoji in shorthandMap
+    }
+
+    // Validate and fill missing fields from character(sequence) -> code-point, name, HTML entities
+    function validateShorthandMap(){
+        for(const c in shorthandMap){ const sh = shorthandMap[c];
+            const ca = Array.from(c); // to split surrogate pairs. What a trick!
+            //console.log('ca:',ca);
+            let codePoint = codepoints(c);
+            if(!sh.codePoint){ sh.codePoint = codePoint; shorthands[sh.i][1] = codePoint; }
+            if(codePoint !== sh.codePoint){ 
+                console.log('Code-point mismatch for ',c,':',codePoint,'<>',sh.codePoint); 
+            }
+            if(ca.length == 1 && !sh.name){ sh.name = charMap[c].name; shorthands[sh.i][2] = sh.name; }
+            if(ca.length == 1 && charMap[c].name !== sh.name){ 
+                console.log('Name mismatch for ',c,':',charMap[c].name,'<>',sh.name); 
+            }
+            if(ca.includes('\u200D') || ca.includes('\uFE0F')) { continue; } // skip entities in emoji (ZWJ = U+200D, VS16 = U+FE0F)
+            for(const ci of ca){ const ea = htmlEntityMap[ci];
+                if(!ea) continue;
+                if (ca.length == 1 && !sh.entities){ sh.entities = ea.join(', '); shorthands[sh.i][3] = sh.entities; }
+                for(e of ea){
+                    if(!sh.entities.includes(e)){ 
+                        console.log('HTML entity not found for ',c,':',e,'in',sh.entities); 
+                    }
+                }
+            }
+        }
+    }
+
+    function showShorthandTable(){
+        const header = shorthandMapTable.createTHead();
+        const body = shorthandMapTable.createTBody();
+        let firstLn = true;
+        let cls = 'general';
+        for(const ln of shorthands){
+            if(firstLn){ firstLn = false; 
+                const row = header.insertRow(0);
+                for(const field of ln){
+                    row.innerHTML += `<th>${field}</th>`;
+                }
+                continue; 
+            }
+            const row = body.insertRow(-1);
+            if(ln[0][0]=='#' && !ln[1] && !ln[2]){ // group header
+                cls = ln[0].slice(2).replaceAll('&','').replaceAll(' ','-');
+                row.className = `group-header-${cls}`;
+                const ccls = cls; // capture its value for click event later
+                row.addEventListener('click', (e)=>{
+                    const closed = e.target.classList.contains('closed');
+                    if(closed) e.target.classList.remove('closed'); else e.target.classList.add('closed');
+                    const sel = document.querySelectorAll(`.${ccls}`);
+                    //console.debug(`ccls=${ccls} <> cls=${cls}`, sel);
+                    sel.forEach(i=>{ i.style.display = closed ? '' : 'none'; })
+                })
+                row.innerHTML = `<th colspan="6">${ln[0]}</th>`;
+                continue;
+            }
+            row.className = cls;
+            for(const i in ln){ const field = ln[i];
+                let style = 'font-size: 1em;';
+                if(i==0 || i==4){ style = 'font-size: 1.5em;'; }
+                row.innerHTML += `<td style="${style}">${unescapeQuotes(field)}</td>`;
+            }
+        }
+        // export TSV
+        const shlns = [];
+        for(sh of shorthands){ shlns.push(sh.join('\t')); }
+        shorthandMapTextArea.value = shlns.join('\n') + '\n';
+        saveTextArea(shorthandMapTextArea, shorthandMapDownloadLink);
+    }
+</script>
+
+
+<script>/***** DOM events *****/
+
+    function setupSearch(charMap, searchKey, searchResult){
+        searchKey.addEventListener("change", (e)=>{
+            const res = searchCharMap(e.target.value, charMap);
+            searchResult.value = JSON.stringify(res, null, '    ');
+        });
+    }
+    setupSearch(charMap, charMapSearchKey, charMapSearchResult);
+    setupSearch(htmlEntityMap, htmlEntityMapSearchKey, htmlEntityMapSearchResult);
+    setupSearch(shorthandMap, shorthandMapSearchKey, shorthandMapSearchResult);
+
+    window.addEventListener('DOMContentLoaded', async (e)=>{
+        //charMapTextArea.value = await loadDsv('UnicodeData.csv', unicodeData, /*delim=*/';');
+        //parseUnicodeData(); 
+
+        await loadDsv('CreatZy-shorthands.tsv', shorthands, /*delim=*/'\t', /*skipHeader=*/false, /*eol=*/'\n', /*comment=*/'');
+        parseShorthands();
+        //appendEmojiShorthands(); // including parseShorthands()
+        validateShorthandMap();
+
+        showCharMap();
+        showHtmlEntityMap();
+        showShorthandTable();
+    });
+
+</script>
+
+</BODY>
+</HTML>
