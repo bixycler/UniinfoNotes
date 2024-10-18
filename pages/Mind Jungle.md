@@ -2489,7 +2489,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678288e-699b-4325-bdba-bf6349fe0d57)) is an umbrella term capturing the abstract notion of "something packed inside the ((667cfa42-ade7-4310-9a7b-6d14d01c16da))": the daily used [content](https://en.wiktionary.org/wiki/content#Noun_2), the dynamic content in ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)), the ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)), etc.
-		- types of content regarding form
+		- types of content regarding ((66f6682b-744a-49b8-8e11-8e020fc24acc))
 			- crystallized content
 			  id:: 670de73b-6fe0-4366-9d81-2d631a3f3ca3
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670df155-ba22-48b9-b7b5-5eb25c78b310)), ((670e363d-c1eb-402a-8283-b4a3a2e65a59))
@@ -2510,11 +2510,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  the content crystallized into ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
 					- i-content
 					  id:: 670df1ef-8f69-420e-ab1e-9c9844396704
-			- DOING partial content
+			- partial content
 			  id:: 670e3842-d910-4776-a3e8-17561a20b556
 			  :LOGBOOK:
-			  CLOCK: [2024-10-15 Tue 20:58:07]
+			  CLOCK: [2024-10-15 Tue 20:58:07]--[2024-10-18 Fri 16:14:10] =>  67:16:03
 			  :END:
+				- This is the implementation of the ((670e0fef-2a46-450b-b043-176cccfc804a)) of components.
 			- loaded content
 			  id:: 670dee3b-4d37-4852-993c-bdb9cdd2c3bc
 			  = ((670df1ef-8f69-420e-ab1e-9c9844396704)) × ((670e3842-d910-4776-a3e8-17561a20b556))
