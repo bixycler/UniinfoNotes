@@ -936,7 +936,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 670d1f75-b9a6-490a-9759-9f09189167b7
 		  [§ 133](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL133) [Shorter Logic]
 		  > Outside one another as the phenomena in this phenomenal world are, they form a totality, and are wholly contained in their self-relatedness. In this way **the self-relation of the phenomenon** is completely specified, it has the Form in itself... So it comes about that the form is **Content**: and in its phase is the Law of the Phenomenon.
-		- **Appearance**: This is the dialectic of Form and Content, the relation between them.
+		- **Appearance**: This is the dialectic of Form and Content, the relation between them. Appearance is the outward development of the _mere_ Being by adding relations to the Being.
+		  id:: 67123b17-b024-414a-a5dd-ba05965eefe7
 		  [§ 131](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL131n) [Shorter Logic]
 		  > But appearance (forth-showing) is not to be confused with a mere show (shining). Show is the proximate truth of Being or [immediacy](https://www.marxists.org/reference/archive/hegel/help/glossary.htm#immediate). ...
 		  > Appearance is higher than mere Being — a richer category because it holds in combination the two elements of reflection-into-self and reflection-into-other: whereas Being (or immediacy) is still mere relationlessness, and apparently rests upon itself alone. Still, to say that anything is *only an appearance* suggests a real flaw, which consists in this, that Appearance is still divided against itself and without intrinsic stability.

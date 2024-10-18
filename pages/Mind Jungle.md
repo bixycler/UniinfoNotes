@@ -2330,7 +2330,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- Hegel also showed this unity via the [world of appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm).
 					  collapsed:: true
-						- {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
+						- {{embed ((67123b17-b024-414a-a5dd-ba05965eefe7))}}
+						  {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Aristotle's forms:
 					- "substantial form" = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
