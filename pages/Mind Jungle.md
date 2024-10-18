@@ -1911,6 +1911,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The sign of Libra (`♎︎`) is similar to this hump equals sign.
 				- [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) is a special case of [DSV](https://en.wikipedia.org/wiki/Delimiter-separated_values) which is usually called [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) due to the popularity of CSV, as [in Python](https://thepythonguru.com/python-how-to-read-and-write-csv-files/).
 			- TODO Write translator to: `<table>`, markdown table, logseq commands, JSON
+				-
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
