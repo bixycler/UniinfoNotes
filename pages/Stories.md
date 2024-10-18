@@ -915,14 +915,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  :END:
 		- Động > Thương > Tịnh (Định) > Huệ
 		- Thương là đứa hay khóc, là "con đĩ nhỏ lắm mồm" dẫn tới "nghiệp lý thuyết", là đứa mắc nợ tình cảm.
-	- Hegel's "[World of Appearances](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm)": from Essence to Form, Content, and Appearance
+	- Hegel's "[World of Appearances](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm)": from Essence to Form, Matter, Content, and Appearance
 	  id:: 66faa5fa-d11a-4828-848e-b24bddba5411
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-10-14 Mon 20:33:32]
 	  CLOCK: [2024-10-14 Mon 20:38:56]--[2024-10-14 Mon 20:54:52] =>  00:15:56
 	  :END:
-		- **Essence**: This is not only the innermost and permanent nature of the Thing, but also the whole complex of "reflection" (light thrown into itself)... which is so complicated that Hegel himself said that it's ‘the most difficult branch of logic’.
+		- **Essence**: This is not only the innermost and permanent nature of the Thing, but also the whole complex of "reflection" (light thrown into itself)... which is so complicated that Hegel himself said that it's [‘the most difficult branch of logic’](https://www.marxists.org/reference/archive/hegel/help/mean03.htm).
 		  [§ 112](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm#SL112n) [Shorter Logic]
 		  > ... there is a permanence in things, and that permanence is in **the first instance** their Essence.
 		  > That reflection, or light thrown into itself, constitutes the distinction between Essence and immediate Being, and is the peculiar characteristic of Essence itself.
