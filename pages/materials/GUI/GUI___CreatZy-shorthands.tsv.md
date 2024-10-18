@@ -1,4 +1,4 @@
-- ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) ![CreatZy-shorthands.tsv](../assets/GUI/shorthands/CreatZy-shorthands.tsv)
+- ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) [CreatZy-shorthands.tsv](../assets/GUI/shorthands/CreatZy-shorthands.tsv)
 - Alternatives (aliases, different keywords) are separated by comma `,`.
 - Character sequence: names & code-points in sequence are joined by plus sign `+`, while characters & HTML entities are joined without joiner (actually emoji sequence contains [zero-width joiner](https://en.wikipedia.org/wiki/Zero-width_joiner) already).
 - Alternative CreatZy code depends on command trigger character: `<>` vs `\/`
@@ -11,3 +11,11 @@
 		- Plus/minus number: `-0`, `+0` -> `0`
 		- `=...` is converted to formula.
 - Local web page: [CreatZy-shorthands.html](../assets/GUI/shorthands/CreatZy-shorthands.html)
+	- DOING Add CreatZy codes to Emoji
+	  :LOGBOOK:
+	  CLOCK: [2024-10-18 Fri 19:42:38]
+	  :END:
+	- DOING convert to Logseq commands
+	  :LOGBOOK:
+	  CLOCK: [2024-10-18 Fri 19:42:38]
+	  :END:
