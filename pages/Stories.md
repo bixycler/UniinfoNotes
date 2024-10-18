@@ -936,6 +936,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  id:: 670d1f75-b9a6-490a-9759-9f09189167b7
 		  [§ 133](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL133) [Shorter Logic]
 		  > Outside one another as the phenomena in this phenomenal world are, they form a totality, and are wholly contained in their self-relatedness. In this way **the self-relation of the phenomenon** is completely specified, it has the Form in itself... So it comes about that the form is **Content**: and in its phase is the Law of the Phenomenon.
+		- **Appearance**: 
+		  [§ 131](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL131n)
+		  > But appearance (forth-showing) is not to be confused with a mere show (shining). Show is the proximate truth of Being or immediacy.
 		- Hegel summarized them like this: [§ 989](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455) [Greater Logic]
 			- > At first, form stands opposed to essence; it is then the simple ground relation, and its determinations are the ground and the grounded.
 			- > Secondly, it stands opposed to matter; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.
