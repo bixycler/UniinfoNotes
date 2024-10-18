@@ -938,7 +938,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- > Lastly, it stands opposed to content; and then its determinations are again form itself and matter.
 		- ((66c33468-23d5-44d7-955e-6711cb608157))
 			- Chat with Gemini: [Hegel's Philosophy of Form](https://gemini.google.com/app/c8e4b0ec829815c2)
-			- [Marxists Internet Archive Encyclopedia](https://www.marxists.org/glossary/index.htm) > Glossary of Terms > [Content and Form](https://www.marxists.org/glossary/terms/c/o.htm)
+			- [Marxists Internet Archive Encyclopedia](https://www.marxists.org/glossary/index.htm) >
+				- Glossary of Terms > [Content and Form](https://www.marxists.org/glossary/terms/c/o.htm)
+				- [Encyclopaedia of the Philosophical Sciences](https://www.marxists.org/reference/archive/hegel/works/ol/encycind.htm) > [(A) The Science of Logic [A.K.A. Shorter Logic]](https://www.marxists.org/reference/archive/hegel/works/sl/) > [VIII. Essence](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm) > [B. Appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm)
 			- [Hegel.net](https://hegel.net/) > [1.2.1.3.1.3. Form and Content](https://hegel.net/en/e121313.htm#treeview)
 	- The saying about properties of info-knowledge-wisdom:
 	  id:: 670f3de5-bee6-44e4-8757-fb5eba325f79
