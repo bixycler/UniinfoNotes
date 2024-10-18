@@ -915,7 +915,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  :END:
 		- Động > Thương > Tịnh (Định) > Huệ
 		- Thương là đứa hay khóc, là "con đĩ nhỏ lắm mồm" dẫn tới "nghiệp lý thuyết", là đứa mắc nợ tình cảm.
-	- Hegel's "World of Appearance": from Essence to Form, Content, and Appearance
+	- Hegel's "[World of Appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm)": from Essence to Form, Content, and Appearance
 	  id:: 66faa5fa-d11a-4828-848e-b24bddba5411
 	  collapsed:: true
 	  :LOGBOOK:
