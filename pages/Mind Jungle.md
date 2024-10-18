@@ -3644,8 +3644,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  <Src.js
 					  ```
 					- `<Query`
+					  query-table:: false
 					  #+BEGIN_QUERY
-					  {:title "Advanced Query"}
+					  {:title "Advanced Query" :query  [:find ?x :in $ ?x ] :inputs ["Ex"]}
 					  #+END_QUERY
 					- `<Latex` = `$$  $$`
 					  #+BEGIN_EXPORT latex
