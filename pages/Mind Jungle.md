@@ -1799,7 +1799,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
 				- The `WIP`s before a merge will be tracked in ((67139355-ac72-4e4c-b882-00bb3a3ea144)), then `[WIP]` commits will be stored in `log` branch.
 				- The final commit in `log` to be merged to `main` will have the full commit message summarizing WIPs.
-					- Merge this commit to `store`, then cherry-pick it to `main`, and copy this final commit message.
+					- Merge this commit to `store` amend with this final commit message, then cherry-pick it to `main`.
+						- ```sh
+						  git checkout store
+						  git merge --no-ff log
+						  git commit --amend #update message
+						  git checkout main
+						  git cherry-pick store
+						  ```
 					- Then clean up the list of ((67139355-ac72-4e4c-b882-00bb3a3ea144)) after the merge.
 			- `store` branch
 			  id:: 67139af7-47a6-4441-bd72-5a75448dbb1b
