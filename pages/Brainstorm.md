@@ -1050,7 +1050,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The external form on x-axis is the "real", i.e. visible part, while the internal content on p-axis is the "imaginary", i.e. invisible part.
 			- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
 		- "Light" is just an arrrow of the relaxed quantum. The light ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))s the original circle into various forms (shapes and sizes). => ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
-	- DOING
+	- DOING karmic 
 	  :LOGBOOK:
-	  CLOCK: [2024-10-14 Mon 17:16:12]
+	  CLOCK: [2024-10-19 Sat 19:42:23]
 	  :END:
