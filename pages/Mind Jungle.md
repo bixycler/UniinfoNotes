@@ -1787,11 +1787,25 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This meta-note about UniinfoNotes is a note in UniinfoNotes itself.
 		- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/bixycler/UniinfoNotes
-			- `log` branch
-			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual checkpoint commits to be squashed & cherry-picked into the ((67138523-d69f-4836-bff7-e464d913b6eb)).
 			- `main` branch
 			  id:: 67138523-d69f-4836-bff7-e464d913b6eb
-			  is the official branch.
+			  collapsed:: true
+			  is the official branch with a linear history.
+				- GitHub & GitLab have not supported history view of first-parent only, so the `main` branch must have linear history to ease the history reading on GitHub.
+				- With `git log --first-parent` supported, it's better to use the branching history and the ((67139af7-47a6-4441-bd72-5a75448dbb1b)) his not needed anymore.
+			- `log` branch
+			  id:: 67138488-2781-42cb-88d4-888346f71c11
+			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual `[WIP]` commits to be merged into ((67139af7-47a6-4441-bd72-5a75448dbb1b)).
+				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
+				- The `WIP`s before a merge will be tracked in ((67139355-ac72-4e4c-b882-00bb3a3ea144)), then `[WIP]` commits will be stored in `log` branch.
+				- The final commit in `log` to be merged to `main` will have the full commit message summarizing WIPs.
+					- Merge this commit to `store`, then cherry-pick it to `main`, and copy this final commit message.
+					- Then clean up the list of ((67139355-ac72-4e4c-b882-00bb3a3ea144)) after the merge.
+			- `store` branch
+			  id:: 67139af7-47a6-4441-bd72-5a75448dbb1b
+			  collapsed:: true
+			  is the store of full history with logs & WIPs from ((67138488-2781-42cb-88d4-888346f71c11)) and merge commits to be cherry-picked to ((67138523-d69f-4836-bff7-e464d913b6eb)).
+				- Brief history can be viewed with `git log --first-parent` command.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
 			- ((66978876-9378-4059-8783-868d041e8e2e)) are used to share doc content between places.
