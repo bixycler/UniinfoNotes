@@ -1798,6 +1798,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  git commit
 				  ```
 				- It's better to just merge without squashing and view log with `git log --first-parent`. However, GitHub has not supported history view of first-parent only, so i use squashing to ease the history reading on GitHub.
+				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
 				- The `WIP`s before a merge will be tracked in ((67139355-ac72-4e4c-b882-00bb3a3ea144)), then `[WIP]` commits will be stored in `log` branch.
 				- The final commit in `log` to be merged to `main` will have the full commit message summarizing WIPs.
 					- When merge-squashed to `main`, just reuse the final commit message and discard all other messages.
