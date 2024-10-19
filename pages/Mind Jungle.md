@@ -1787,25 +1787,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This meta-note about UniinfoNotes is a note in UniinfoNotes itself.
 		- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/bixycler/UniinfoNotes
+			- `main` branch
+			  id:: 67138523-d69f-4836-bff7-e464d913b6eb
+			  is the official branch with a linear history.
 			- `log` branch
 			  id:: 67138488-2781-42cb-88d4-888346f71c11
 			  collapsed:: true
-			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual checkpoint commits to be merge-squashed into the ((67138523-d69f-4836-bff7-e464d913b6eb)).
-				- commands
-				  ```sh
-				  git checkout main
-				  git merge --squash log
-				  git commit
-				  ```
+			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual `[WIP]` commits to be merged into ((67139af7-47a6-4441-bd72-5a75448dbb1b)).
 				- It's better to just merge without squashing and view log with `git log --first-parent`. However, GitHub has not supported history view of first-parent only, so i use squashing to ease the history reading on GitHub.
 				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
 				- The `WIP`s before a merge will be tracked in ((67139355-ac72-4e4c-b882-00bb3a3ea144)), then `[WIP]` commits will be stored in `log` branch.
 				- The final commit in `log` to be merged to `main` will have the full commit message summarizing WIPs.
 					- When merge-squashed to `main`, just reuse the final commit message and discard all other messages.
 					- Then clean up the list of ((67139355-ac72-4e4c-b882-00bb3a3ea144)) after the merge.
-			- `main` branch
-			  id:: 67138523-d69f-4836-bff7-e464d913b6eb
-			  is the official branch.
+			- `store` branch
+			  id:: 67139af7-47a6-4441-bd72-5a75448dbb1b
+			  is the store of full history with logs & WIPs from ((67138488-2781-42cb-88d4-888346f71c11)) and merge commits to be cherry-picked to ((67138523-d69f-4836-bff7-e464d913b6eb)).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
 			- ((66978876-9378-4059-8783-868d041e8e2e)) are used to share doc content between places.
