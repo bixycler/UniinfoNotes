@@ -1060,4 +1060,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2024-10-19 Sat 19:42:23]
 		  :END:
-		- karmic cycle ~ *[saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra)
+		- Blog [Nhân Duyên Nghiệp Quả](https://creatzynotes.blogspot.com/2021/01/nhan-duyen-nghiep-qua.html)
+		- karmic cycle ~ [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra)
+			- Karmic cycle may be small within a day, while samsara is usually refer to the life cycle.
+		- karmic relationship: "có duyên với  nhau"
+		- principle of karma: "luật nhân quả", principle of causality
+		-
