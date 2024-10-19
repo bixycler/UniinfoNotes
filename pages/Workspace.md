@@ -50,7 +50,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	-
 	- ## Git WIPs
 	  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
-		- ((66e7d7dd-5f88-472c-8694-beb7222929bb)): add saṅkhāra, vāsanā, bīja
+		- ((6713a8e1-e460-4622-9ad6-87c804deccd8)): saṅkhāra, vāsanā, bīja
 		- ...
 		-
 	- ## Tasks

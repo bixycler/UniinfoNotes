@@ -1050,7 +1050,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The external form on x-axis is the "real", i.e. visible part, while the internal content on p-axis is the "imaginary", i.e. invisible part.
 			- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
 		- "Light" is just an arrrow of the relaxed quantum. The light ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))s the original circle into various forms (shapes and sizes). => ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
-	- DOING karmic 
+	- DOING karmic cycle
+	  id:: 6713a8e1-e460-4622-9ad6-87c804deccd8
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-10-19 Sat 19:42:23]
 	  :END:
+		- Related: ((66e7d7dd-5f88-472c-8694-beb7222929bb))
+		  :LOGBOOK:
+		  CLOCK: [2024-10-19 Sat 19:42:23]
+		  :END:
+		- karmic cycle ~ *[saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra)
