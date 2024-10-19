@@ -832,6 +832,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
 			  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetana)) I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
 		- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
+		  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
 		  collapsed:: true
 			- Read more
 				- [manasikāra](https://en.wikipedia.org/wiki/Manasik%C4%81ra) (attention, tác ý, chú ý, chú tâm) is related to cetanā.
@@ -1069,9 +1070,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- karma (action, nghiệp)
 			  is the most general term referring the whole causal cycle.
 			- saṃskāra (formation, hành)
+			  collapsed:: true
 				- saṃ-skāra = work (kar) together (sam), with the root "kar" of "karma"
 				- active cause: sankhara-khandha (hành uẩn) in [5 aggregates](https://en.wikipedia.org/wiki/Skandha)
-				- passive effect: conditioned thing
-					- faf
-			- vāsanā (karmic imprint, tập khí)
-			- bīja (karmic seed, chủng tử)
+				- passive effect: conditioned thing in [Three marks of existence](https://en.wikipedia.org/wiki/Three_marks_of_existence)
+				  collapsed:: true
+					- > all conditioned things are impermanent
+					- > sabbe saṅkhārā aniccā
+			- vāsanā (karmic imprint, tập khí), bīja (karmic seed, chủng tử)
+			  is the hidden tendency imprinted in the memory due to the collection of past karma
+				- The Vietnamese word "nghiệp" usually refers to this tendency.
+				-
