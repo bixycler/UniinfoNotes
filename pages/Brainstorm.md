@@ -1065,4 +1065,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Karmic cycle may be small within a day, while samsara is usually refer to the life cycle.
 		- karmic relationship: "có duyên với  nhau"
 		- principle of karma: "luật nhân quả", principle of causality
-		-
+		- [karma](https://en.wikipedia.org/wiki/Karma) ~ [saṃskāra](https://en.wikipedia.org/wiki/Samskara_%28Indian_philosophy%29) = [saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) ~ [vāsanā](https://en.wikipedia.org/wiki/V%C4%81san%C4%81) = [bīja](https://en.wikipedia.org/wiki/B%C4%ABja)
+			- karma (action, nghiệp)
+			  is the most general term referring the whole causal cycle.
+			- saṃskāra (formation, hành)
+				-
+			- vāsanā (karmic imprint, tập khí)
+			- bīja (karmic seed, chủng tử)
