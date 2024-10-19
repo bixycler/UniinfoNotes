@@ -1070,6 +1070,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- karma (action, nghiệp)
 			  is the most general term referring the whole causal cycle.
 			- saṃskāra (formation, hành)
+			  id:: 6713b007-5b0a-4659-9651-1069d9ccf7c6
 			  collapsed:: true
 				- saṃ-skāra = work (kar) together (sam), with the root "kar" of "karma"
 				- active cause: sankhara-khandha (hành uẩn) in [5 aggregates](https://en.wikipedia.org/wiki/Skandha)
@@ -1077,7 +1078,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  collapsed:: true
 					- > all conditioned things are impermanent
 					- > sabbe saṅkhārā aniccā
+				- ((6713b007-5b0a-4659-9651-1069d9ccf7c6)) is related to ((66f7af1d-e9f3-49c4-a9f6-3b614a413a57))
 			- vāsanā (karmic imprint, tập khí), bīja (karmic seed, chủng tử)
+			  id:: 6713b016-effb-4c0a-9b29-746770b99ce6
+			  collapsed:: true
 			  is the hidden tendency imprinted in the memory due to the collection of past karma
 				- The Vietnamese word "nghiệp" usually refers to this tendency.
-				-
+				- ((6713b016-effb-4c0a-9b29-746770b99ce6)) is related to ((66e80666-5f29-4419-8db1-bf8cdce893e4))
+		- [Pratītya-samutpāda](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da): hetu (nhân) + pratītya (duyên) -> [phala](https://en.wikipedia.org/wiki/Phala) (quả)
