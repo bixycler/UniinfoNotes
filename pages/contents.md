@@ -18,7 +18,7 @@ id:: 66faa5f7-f408-406c-befd-8ae69ed56667
 		- [[Theme Demo]]
 - # Search
   id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
-	- logseq
+	- uniinfo
 	  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 	  collapsed:: true
 	  ^ **Term** search
