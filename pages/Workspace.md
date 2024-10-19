@@ -7,14 +7,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
-		- ((66f6682b-744a-49b8-8e11-8e020fc24acc))
-		- DOING UniThread: flow of transforms, implemented by projections
-		  :LOGBOOK:
-		  CLOCK: [2024-09-27 Fri 15:15:15]
-		  CLOCK: [2024-09-27 Fri 15:15:30]
-		  :END:
+		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
-		- ((66eb7dae-2032-434b-9106-756d4aad7cdb))
+		-
+		-
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
 		-
 		- DOING symbols for ((66c8941d-6427-4e5c-9009-3af349500d7b))
@@ -111,6 +107,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  id:: 6673fb2f-ef98-484a-b289-b50482edea47
 					- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
 				- For the new term ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) used in the custom element `<folder-div>`, i [researched](((66602f68-e23f-4b24-921e-b1a9fc0cc731))) ((667407ee-35ae-4d6f-8b58-89c19c0e0936)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6674066a-aeff-45af-96df-b0c2f278a2ae)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))), and drew ((667500cd-a31d-4828-9dc4-93948e27e534)).
+				  collapsed:: true
 			- DONE Write [LogseqUtils.js](../assets/HTML/LogseqUtils.js)( ![src](../assets/HTML/LogseqUtils.js), for posting request to http://localhost:12315/api)
 			  :LOGBOOK:
 			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
@@ -128,6 +125,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
 					  id:: 6669a3bd-5b32-4088-982a-2c359b66610d
 			- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.DB.q`)
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-08-02 Fri 15:00:26]--[2024-08-02 Fri 15:36:01] =>  00:35:35
 			  :END:
@@ -152,6 +150,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) Trigger: i had a hard time finding back [my post about catenary curve](https://www.facebook.com/share/p/9LfU1A6Mmxo2KTH3/).
 		-
 		- query-table:: false
+		  id:: 67110d13-b91a-4ebb-959b-9db4d2f6d61d
 		  collapsed:: true
 		  #+BEGIN_QUERY
 		  {:title [:h3 "Other Tasks"]
@@ -530,6 +529,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- => With eyes closed, i can see deeper into the background, more wholesome
 				- => With eyes open, i dive deeper into the foreground, more detailed
 		- See the crucial link: ((66f29d57-a87f-4370-9f32-722922a7bff1))
+		  id:: 66faa5fa-b843-490d-a7b3-a2400c11be86
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 20:35:03]
 		  :END:
@@ -552,3 +552,20 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((665dc545-151a-485a-84b7-1310fef5151c)) i looked for "home dir"... but i cannot limit the scope to ((66536e1b-6466-4153-90d6-583003d99a81)) only.
 				- ((66600918-5cb0-4833-9e52-acf2b17441c0)) i decided to create my own ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) blocks.
 				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) research about ((66acc24c-4cd7-4568-8c47-79798fc09433)) and Clojure to write the [macro `{{search-query}}`](((66faa5f8-0711-4a23-afe0-fb8d2ebb644e))).
+		- Yesterday, 1st October 2024, my wife had a birthday cheered with friend sisters but the cost are shared, due to the low salary caused by my may times late and off last months.
+		  id:: 66fe3f98-c4bb-48df-a80d-e1fd41ae0be7
+		  :logbook:
+		  CLOCK: [2024-10-02 Wed 19:14:10]
+		  :END:
+		- Today, 14th Oct 2024, when editing ((66f6682b-744a-49b8-8e11-8e020fc24acc)), i need to reference the "world of appearance" of Hegel... and find out that i've lost the whole big note sumerizing Hegel's "world of appearance". 😢
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-10-14 Mon 20:13:25]
+		  :END:
+			- There's no trace about Hegel in [commit dc5a57f](https://github.com/bixycler/UniinfoNotes/commit/dc5a57fe9e60560439cac11240652cc847a9da2d), even though its commit message has the clear mention of "World of Appearance":
+			  collapsed:: true
+				- ```
+				  - Encyclopedia 3.ed., Vol.1 - Logic > World of Appearance – Content Form – Relation
+				  ```
+			- I extract a brief sumerization from the chat with Gemini: [Hegel's Philosophy of Form](https://gemini.google.com/app/c8e4b0ec829815c2) to write this story: ((66faa5fa-d11a-4828-848e-b24bddba5411)).
+			- This shows the [Logseq's danger of accidental deletion](((66faa5f9-e82b-49cc-b9ed-2c97d28daa3e))).

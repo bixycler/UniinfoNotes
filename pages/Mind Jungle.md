@@ -127,9 +127,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :END:
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Linux
 		- Distributions
+		  id:: 66faa5fa-fdde-4dd5-a27f-442cea4ba47a
 		  collapsed:: true
 			- ### Ubuntu
+			  id:: 66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
+				-
 		- ### shell
 			- `man [-k]`, `info`, `[run-]help`, `apropos`
 			  collapsed:: true
@@ -488,7 +491,55 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
 								  ...
 								  ```
-		- commands
+			- Oh My Zsh
+			  collapsed:: true
+				- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
+			- My backups via Git repos
+			  collapsed:: true
+				- Hardlinks are used to synchonize files on system with backup Git repositories.
+				- [linux-commands](https://github.com/bixycler/linux-commands)
+					- ```sh
+					  cd ~/bin
+					  ln aws.sh findapp.sh findname.sh Japencid.sh greprsjis.sh ldiff.sh netstatwatch.sh sping.sh sstp.sh tput-test.sh ovpn.sh vpn.sh \
+					     ~/source/linux-commands/home-bin/
+					  ```
+				- [linux-config](https://github.com/bixycler/linux-config)
+					- ```sh
+					  cd ~
+					  ln .bash_history .bash_logout .bash_profile .bashrc .chzsh .gitconfig .ishrc  .profile .viminfo .vimrc .vimrc.vim .zprofile .zsh_history .zshrc \
+					     ~/source/linux-config/
+					  ln .oh-my-zsh/custom/aliases.zsh ~/source/linux-config/.oh-my-zsh/custom/aliases.zsh
+					  ln .oh-my-zsh/custom/themes/creatzy.zsh-theme ~/source/linux-config/.oh-my-zsh/custom/themes/creatzy.zsh-theme
+					  ln .ssh/config ~/source/linux-config/.ssh/config
+					  # host files used by dnsmasq
+					  ln hosts/others.hosts hosts/active/others.hosts
+					  ln hosts/others.hosts ~/source/linux-config/hosts/active/
+					  ln hosts/* ~/source/linux-config/hosts/
+					  # ibus-bamboo input method
+					  ln .config/ibus-bamboo/ibus-bamboo.macro.text ~/source/linux-config/
+					  ```
+			- Nushell
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-10-04 Fri 10:17:52]
+			  :END:
+				- [Nushell](https://www.nushell.sh/) is a [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language)) based shell for structured data pipelining.
+				- On ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)), `cargo` package manager of Rust must be installed first, then `nu` can be installed by `cargo`.
+					- ```sh
+					  sudo apt install cargo
+					  ```
+					- Make sure of dependencies
+					  ```sh
+					  sudo apt install pkg-config build-essential libssl-dev libx11-dev libxcb-composite0-dev
+					  ```
+					- Check version compatibility between Rust and Nushell in [rust-toolchain.toml](https://github.com/nushell/nushell/blob/0.91.0/rust-toolchain.toml), e.g. Nushell v0.91.0 ~ Rust v1.74.1.
+						- ```sh
+						  cargo install nu --version ^0.91.0
+						  ```
+					- Ref: [Install Nu Shell on Ubuntu 20.04](https://www.osradar.com/install-nu-shell-ubuntu/)
+					  collapsed:: true
+						- Note: Don't install ` --all-features` as instructed here, because some "raw" features make `polars-core` compilation error: `raw_table_mut()` method not found.
+		- ### commands
 			- process handling
 			  collapsed:: true
 				- "pid" := "process ID"
@@ -503,6 +554,39 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
 				- `xkill`: kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
 				- `xprop`: display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
+		- ### editors
+		  collapsed:: true
+			- #### vim
+			  collapsed:: true
+			  Vi IMproved, a programmer's text editor
+				- directory browsing
+				  collapsed:: true
+					- When opening a directory, e.g. `vim .`, vim can browse it for the text file to be edited.
+				- split window
+				  id:: 66fe47b0-71d5-4663-bc43-d4774329a56e
+					- `:[v]sp[lit] [file]` | `Ctrl`-`w`-{`s`,`v`}
+					   to split horizontally (or vertically with `vs`). If no `file` is provided (or hotkey `Ctrl`-`w`-{`s`,`v`}), the current file is mirrored to the new split window.
+					- `Ctrl`-`w`-(arrow key)
+					   to move around.
+					- `:[w]q[!]` | `Ctrl`-`w`-`c`
+					  to close current window. `w` to write before closing, and `!` to discard changes.
+					- `vim -{o,O} $files`
+					  to open each file in a split window (`-o` for horizontal, `-O` for vertical).
+				- tab
+				  id:: 66fe472d-cbfe-49ff-9ec1-4c1b7853895a
+					- `:tabe[dit] [file]`
+					  to open new tab. If no `file` is provided, a new file (empty) is opened which is the same as `:tabnew`.
+					- Each tab can contain many ((66fe47b0-71d5-4663-bc43-d4774329a56e))s.
+					- `vim -p $files`
+					  to open each file in a tab.
+				- buffer
+					- Each file is associated with an editing buffer.
+					- Each buffer can be mirrored in many ((66fe47b0-71d5-4663-bc43-d4774329a56e))s and in many ((66fe472d-cbfe-49ff-9ec1-4c1b7853895a))s.
+					- `:buffers`
+					  to list all buffers.
+			- #### nano
+			  collapsed:: true
+				-
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 		  :LOGBOOK:
@@ -612,6 +696,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Snap_(software)
 			- Snap Sandbox
 			  id:: 66fa8a1d-4fc0-4cb9-ad57-911cba799a04
+			  collapsed:: true
 				- Each Snap app runs in a limited [sandbox](https://en.wikipedia.org/wiki/Snap_(software)#Configurable_sandbox).
 				- Each Snap app uses a separate home `${HOME}/snap/${app}/current/` instead of the user's `${HOME}`.
 				- Many system calls are blocked (`Permission denied`), e.g. `ssh`, `who`, `free`, etc.
@@ -649,6 +734,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- App Store: https://flathub.org/
 			- Flatpak Sandbox
 			  id:: 66fb5dcd-e20c-4e18-b03c-e52a5bb76425
+			  collapsed:: true
 				- Each Flatpack app is registered with a `${FlatpakID}`, e.g. `com.logseq.Logseq`, and runs in an [OSTree](https://en.wikipedia.org/wiki/OSTree) sandbox.
 				- The sandbox of `${FlatpakID}` can be inspected with `flatpak run --command=bash ${FlatpakID}`
 				- Flatpak sandbox is not as restricted as ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)).
@@ -765,6 +851,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 667d16f8-206e-4a85-80f3-24c2aa1bf4ad
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)). Due to the dynamic nature of the arrow, a vector is a carrier of motion, like [velocity vector](https://en.wikipedia.org/wiki/Euclidean_vector), a carrier of direction, like [aircraft vector](https://www.paramountbusinessjets.com/aviation-terminology/vector), [thrust vector](https://en.wikipedia.org/wiki/Thrust_vectoring), or a carrier of biological material, like [disease vector](https://en.wikipedia.org/wiki/Disease_vector).
+		  id:: 66faa5f9-42fd-4fb0-abab-49ffa4aa5d80
 		-
 	- ## point
 	  id:: 66e43b94-9183-4d49-af85-8a7a1c194c12
@@ -821,13 +908,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Symbols: small ○, large ◯
 		- round
 		  id:: 66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)) is ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) when every point in that shape has the same distance (radius) to a fixed point called ((66ab7477-c060-4d07-ab13-bc3d11246854)), i.e. it has [circular symetry](https://en.wikipedia.org/wiki/Circular_symmetry). A round cycle is a perfect and ((66e3ed78-8815-4dcc-964c-5bc8325405dd)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), i.e. a **true circle**.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)) is ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) when every point in that shape has the same distance, called ((670ce8c2-8c54-42c6-84cd-93703c1fa60f)), to a fixed point called ((66ab7477-c060-4d07-ab13-bc3d11246854)), i.e. it has [circular symetry](https://en.wikipedia.org/wiki/Circular_symmetry). A round cycle is a perfect and ((66e3ed78-8815-4dcc-964c-5bc8325405dd)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), i.e. a **true circle**.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
 				- ((66ebb5fb-6850-4a83-94eb-dd3039891ffc))
+				- ((66875f13-3385-48d5-99b1-fb72dc53291d))
+				- ((66faa5f8-6fa9-4561-8234-296ad2f314d7))
+				- ((66faa5f8-b0b8-4b3f-9a29-1901f315419e))
+				- ((670cd7d1-8380-49db-a47c-6aa132256596))
 			- center
 			  id:: 66ab7477-c060-4d07-ab13-bc3d11246854
 				- The concept of center can be extended to center of mass, named "pre-center", in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) and even further to the origin, the center of perspectivity, named "pseudo-center", in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+			- radius
+			  id:: 670ce8c2-8c54-42c6-84cd-93703c1fa60f
 	- ## equal
 	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
 	  collapsed:: true
@@ -1086,10 +1179,31 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- look
 			  id:: 66c82fd4-41e3-43b0-b850-b2b68be68ad5
 			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) that is made by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to connect an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to an image of that object.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) that is made by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to connect an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to an image of that object. This general projection via arrow is called ((670dd4d7-ed37-4954-8379-63138fa072d6)). That arrow can be a cone, hence ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)), or can be implemented by thread winding, hence ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
 				- In maths, a [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) is an [idempotent](https://en.wikipedia.org/wiki/Idempotence) [transformation](https://en.wikipedia.org/wiki/Transformation_(function)).
 			- ((66725725-f76a-4328-b162-f469b87e871b)) [projection (homography)](https://en.wikipedia.org/wiki/Homography) in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) and [mapping](https://en.wikipedia.org/wiki/Function_(mathematics)) in mathematics, [projective object](https://en.wikipedia.org/wiki/Projective_object) in [category theory](https://en.wikipedia.org/wiki/Category_theory)
 			  id:: 66b1cfa4-6de3-4a88-a14f-3265b6fd92e5
+			- arrow projection
+			  id:: 670dd4d7-ed37-4954-8379-63138fa072d6
+			  the most general type of projection.
+			- #### cone projection
+			  id:: 670ce218-a01f-4609-b7f2-beda7cf2ebc3
+			  :LOGBOOK:
+			  CLOCK: [2024-10-15 Tue 09:38:46]
+			  :END:
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a cone: the world at the cone base is projected to its image at the cone apex.
+			- #### winding projection
+			  id:: 670cdcb4-3c85-45af-8c30-3c3284ed37df
+			  :LOGBOOK:
+			  CLOCK: [2024-10-14 Mon 16:04:06]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) For the world line $x = F(t)$, winding $F$ around the t-axis with circumference $dx$, i.e. with radius $dx/2\pi$, we have an image of $F$ projected on $t$ as a coil whose frequency reflects the derivative $dF/dt$ as well as the angle between $F(t_i)$ and $t$. When that frequency is mapped to the orthogonal axis $ν = f(t)$, that graph shows the distribution of the thread [on](((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))) t-axis, whose probability density function is $f$ and cumulative distribution function is $F$. This winding projection is the basis for [analysis](https://en.wikipedia.org/wiki/Analysis) of ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) inclusing the [clasical mathematical analysis](https://en.wikipedia.org/wiki/Mathematical_analysis), [vector analysis](https://en.wikipedia.org/wiki/Vector_calculus), and [statistics](https://en.wikipedia.org/wiki/Statistics).
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- winding projection = disk projection is the orthogonal version of the diagonal ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)).
+					  id:: 670cdd0c-a423-463e-a816-952884c57f88
+						- winding projection is within the space only while cone projection is the diagonal between space and time.
+					- n-th term in Fourier series = winding with $dr_0/n$
 		- ### observation
 		  id:: 66c835e9-83df-4f36-a133-e5ba5926e4ef
 		  collapsed:: true
@@ -1114,7 +1228,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### view cone
 		  id:: 6672513b-c4b0-4c88-8b30-c60a3c6555a7
 		  collapsed:: true
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), ((667bda02-8dc9-488e-ba16-ea75c3d7895c))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
 			- viewcone
 			  id:: 667251ec-d4f7-4c09-adff-73e04a4b22ed
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
@@ -1534,6 +1648,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
 		- Symbols of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+		  id:: 66faa5f9-a3dd-4065-8167-0e49a79e427a
 		  There are many symbols representing many roles of the obop.
 			- In ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), the Equal sign (`=`) is used to emphasize the ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) and unification roles of the obop.
 			- In ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)) , the composition symbols ((66f3b94d-6cf8-461a-9312-c9973ac739fe)) & ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d)) are used to show the dualities of the obop as both observer (`○`) and operator (`·`), composed of both form (`○`) and content (`·`), including both intent (`·`) and extent (`○`).
@@ -1612,6 +1727,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Form ($i$, $e$) - Content ($c$)
 			- Extensive ($e$, $c$) - Intensive ($i$)
 		- TODO Migrate [[CIE]]
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Why the intent is under the content in the division $c/i$:
+				- "**Sub**-ject" = **under**-thrown = the **under**lying agent of the action/operation of measurement.
+				- "Unit" is "the one", the one underlying all measurement and the one that any content is measured against... by division.
+				- "Denominator" is the "name" that gives subjective meaning to the objective content.
+				- Blog [“Bà mẹ” trong “phân số”](https://creatzynotes.blogspot.com/2023/06/ba-me-trong-phan-so.html)
 		- ### SCIFER
 		  id:: 66f40210-cca6-4d81-85e7-d0c54ef20451
 		  :LOGBOOK:
@@ -1664,18 +1785,138 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## UniinfoNotes
 	  id:: 666baccf-6be1-4b9a-b186-f883ea04daf1
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This note is in the ((666baccf-6be1-4b9a-b186-f883ea04daf1)) itself.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This meta-note about UniinfoNotes is a note in UniinfoNotes itself.
+		- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/bixycler/UniinfoNotes
+			- `log` branch
+			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual checkpoint commits to be squashed & cherry-picked into the ((67138523-d69f-4836-bff7-e464d913b6eb)).
+			- `main` branch
+			  id:: 67138523-d69f-4836-bff7-e464d913b6eb
+			  is the official branch.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		  collapsed:: true
 			- ((66978876-9378-4059-8783-868d041e8e2e)) are used to share doc content between places.
-			  collapsed:: true
 				- Because [Git doesn't preserve hard links](((666ba5a7-598a-4b66-86bd-b1622a28ada6))), let's try not to do write oprations like  `pull`, `checkout`, `reset`. When some repo must be overwritten, let's re-link these files.
+		- Folder structure (following ((66536e1b-6466-4153-90d6-583003d99a81)))
+			- `pages/`
+			  id:: 66fe69b2-bd2a-4e7e-b4fb-953d62374db7
+			  contains all ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) pages in this project.
+				- `contents.md`
+				  includes the table of ((6678288e-699b-4325-bdba-bf6349fe0d57))s of this project and ((66fe70ac-04d0-45b5-b771-b072cc0fa7be)) queries for it.
+				- `Workspace.md`
+				  is the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)) of this project.
+				- `Namespace.md`
+				  is the [tree](((66faa5f9-b719-4c5d-a1d9-d40b3fcbda21))) of common ((665cab38-f8e8-472e-b0a1-60776d492835))s used in this project. These names are equivalent to the concepts of `#tag` and `property::` in ((66536e1b-6466-4153-90d6-583003d99a81)).
+				- `Mind Jungle.md`
+				  is the ((665c82c0-ee06-4f43-95b8-73dbbe956080)) of this project.
+				- `Brainstorm.md`
+				  is the ((665c92d1-565b-4911-a706-b32af429c3aa)) place for this project.
+				- `Stories.md`
+				  contains life stories around this project.
+				- `materials/`
+				  contains meta pages about [materials in `assets/`](((66fe77c8-05b8-44b2-bf66-b8d62b005a3d))).
+				- `publish/`
+				  contains published pages.
+				- `share/`
+				  contains pages that are shared with other projects.
+			- `assets/`
+			  id:: 66fe77c8-05b8-44b2-bf66-b8d62b005a3d
+			  contains all materials to be embedded/included in [Markdown pages](((66fe69b2-bd2a-4e7e-b4fb-953d62374db7))).
 		- Hard links
 		  id:: 66978876-9378-4059-8783-868d041e8e2e
-			- `logseq/{config.edn,custom.css}` are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
+			- `logseq/{config.edn,custom.css}` and global `.logseq/config/config.edn` are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
 			- pages hard-linked to other projects (graphs)
+				- [[logseq/config.edn]]
 				- [[logseq/custom.css]]
 				- [`pages/publish/Theme Demo.md`]([[Theme Demo]])
 				- [`pages/publish/technical/Git.md`]([[Git]])
+		- DOING CreatZy [shorthands](((66ff4478-6eae-4633-b7be-fd42e2bcda5b)))
+		  id:: 66fe9e2e-13cf-4b31-96e7-1b050eed47c4
+		  :LOGBOOK:
+		  CLOCK: [2024-10-03 Thu 20:57:00]
+		  :END:
+			- DOING TSV database: [[GUI/CreatZy-shorthands.tsv]]
+			  :LOGBOOK:
+			  CLOCK: [2024-10-04 Fri 09:33:12]
+			  :END:
+				- Unicode names of characters are defined in [UnicodeData.txt](http://unicode.org/Public/UNIDATA/UnicodeData.txt).
+				  collapsed:: true
+					- This is a [semicolon-separated-value table](https://www.unicode.org/reports/tr44/#Format_Conventions) in [the format](https://www.unicode.org/reports/tr44/#UnicodeData.txt):
+					  > 0.Code_Point;1.Name;2.[General_Category](https://www.unicode.org/reports/tr44/#General_Category_Values);3.;4.;5.;6.Decimal_Value;7.Digit_Value;8.Nondecimal_Value;9.;10.Unicode_1_Name;11.;12.;13.Simple_Lowercase_Mapping
+						- Note that the code-point is *not prefixed* with `U+`, and code points of sequence are space-separated.
+						- The names, both new and old "Unicode 1", are in ALL-CAPS.
+					- The ALL-CAPS erases meaningful capitalizations.
+					  collapsed:: true
+						- Proper names like "Latin", "Greek", "Sun", "Moon", "Earth", etc.
+						- The word "sun" appears in Hangul "sun-gyeong-eum".
+						  collapsed:: true
+							- They are special intial consonant with light labial sound (輕脣音), i.e. [labiodentals](https://en.wikipedia.org/wiki/Labiodental_consonant), for writing Chinese- words
+							- Refs:
+								- Wikipedia about the lip-light sound (脣輕音) or light-lip sound (輕脣音): [순경음](https://ko.wikipedia.org/wiki/%EC%88%9C%EA%B2%BD%EC%9D%8C)
+									- Only 4 characters: [ㅱ](https://ko.wikipedia.org/wiki/%E3%85%B1) , [ㅸ](https://ko.wikipedia.org/wiki/%E3%85%B8) , [ㅹ](https://ko.wikipedia.org/wiki/%E3%85%B9) , and [ㆄ](https://ko.wikipedia.org/wiki/%E3%86%84)
+								- [Hunminjeongeum's Sungyeongeum](https://en.namu.wiki/w/%EC%88%9C%EA%B2%BD%EC%9D%8C)
+				- [HTML Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) = [character reference](https://developer.mozilla.org/en-US/docs/Glossary/Character_reference)
+				  collapsed:: true
+					- Unicode Compart's [DB of HTML Entities](https://www.compart.com/en/unicode/html) shows HTML5 names.
+					- The mapping [named-references.ts](https://github.com/mdevils/html-entities/blob/master/src/named-references.ts) of `mdevils/html-entities` includes both HTML5 and HTML4 names.
+					- Math symbols: https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols
+					- There are 3 forms of reference:
+					  collapsed:: true
+						- named ref (HTML Entity) like `&lt;`,
+						- decimal numeric ref (HTML Decimal Code) like `&#60;`, and
+						- hexadecimal numeric ref (HTML Hex Code) like `&#x3c;`.
+					- Each entity may have many names (aliases).
+						- E.g.
+							- `↓` = `&darr;` (HTML 4.0) = `&downarrow;`, `&DownArrow;`, `&ShortDownArrow;` (HTML 5.0)
+							- [Non-breaking Space](https://en.wikipedia.org/wiki/Non-breaking_space) = `&nbsp;`  (HTML 3.2) = `&NonBreakingSpace;` (HTML 5.0)
+						- The Unicode Compart DB shows the last (HTML5) alias as the "HTML entity", e.g. [U+2193](https://www.compart.com/en/unicode/U+2193).
+						- Aliases are listed in these tables: [List of XML and HTML character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#List_of_character_entity_references_in_HTML), [ISONUM Characters and Glyphs](https://www.w3.org/TR/MathML2/isonum.html) of MathML2
+				- Punctuation marks
+					- List of [Punctuation marks in Unicode](https://en.wikipedia.org/wiki/Punctuation#Punctuation_marks_in_Unicode)
+				- Arrows, circles and dots
+					- List of [Unicode Arrows](https://en.wikipedia.org/wiki/Arrow_(symbol))
+					- Unicode block [Miscellaneous Symbols and Arrows](https://en.wikipedia.org/wiki/Miscellaneous_Symbols_and_Arrows)
+					- Unicode block [Geometric Shapes](https://en.wikipedia.org/wiki/Geometric_Shapes_(Unicode_block))
+					- [O mark](https://en.wikipedia.org/wiki/O_mark#Unicode)
+					- Typographic [bullet point](https://en.wikipedia.org/wiki/Bullet_(typography))
+					- Linguistic [interpunct](https://en.wikipedia.org/wiki/Interpunct)
+				- Emoji
+					- The mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser` corresponds to the [Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html) of The Unicode Consortium.
+						- Emoji name is different from Unicode name, e.g. 😃 = "grinning face with big eyes" ([emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/c2508f15975d9f4c54121049166b5070939f4b3e/src/lib/emoji-lib.json#L13C14-L13C41)) = "Smiling Face with Open Mouth" ([Compart](https://www.compart.com/en/unicode/U+1F603)).
+						- `emoji-lib.json` also includes additional keywords and emoticon codes (as keywords) to be searched easily.
+					- [List of emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) maps various emoticon codes with emojis.
+					- Manual corrections
+						- Keywords of 🇻🇳
+						  ```diff
+						       "char": "🇻🇳",
+						  -    "keywords": ["flag_vietnam", "viet", "nam", "vietnam"]
+						  +    "keywords": ["flag_vietnam", "vn", "viet nam", "vietnam"]
+						  ```
+				- About the `U+` prefix of Unicode's code-point:
+				  collapsed:: true
+					- In the email [Re: Origin of the U+nnnn notation](https://unicode.org/mail-arch/unicode-ml/y2005-m11/0060.html), Kenneth Whistler explained that it originated from the [Multiset Union](https://www.compart.com/en/unicode/U+228E) `⊎` (`&uplus;`).
+					  > What is little-known generally is that the "U+" convention itself
+					  was an ASCII-fied compromise for what the Unicode designers
+					  *really* wanted to use for the Unicode hexadecimal prefix,
+					  which was U+228E MULTISET UNION (whose glyph is a union sign
+					  with a plus sign in it).
+					- The `U-` prefix is also preserved for eight-digit hex code-points.
+					  > The full syntax of the notation of a short identifier, in
+					     Backus-Naur form, is:
+					     {U | u}[{+}xxxx | {-}xxxxxxxx] ([Unicode 14-](https://www.unicode.org/versions/Unicode14.0.0/appA.pdf))
+						- `U-` has been obsoleted by [Unicode 15](https://www.unicode.org/versions/Unicode15.0.0/appA.pdf). See HTML version of this [Extended BNF in Unicode 16](https://www.unicode.org/versions/Unicode16.0.0/core-spec/appendix-a/#G7157).
+						  > |--------|----------|
+						  | U+HHHHHH | Unicode code point literal: equivalent to “\u{HHHHHH}”. Between four and six hexadecimal digits; maximum U+10FFFF. |
+						  | U-00HHHHHH | Unicode code point literal: equivalent to “\u{HHHHHH}”. Exactly six hexadecimal digits after the initial two zeroes; maximum U+10FFFF. This format was used in ISO 10646 but is now obsolete. |
+						- [Guide to the use of character set standards in Europe](https://www.unicode.org/L2/L2001/01206-cen908.pdf) > 6.4 Unique identifiers for characters
+						  > Amendment 9 to ISO/IEC 10646-1 proposes several alternative forms for unique identifiers constructed from UCS code positions. ...
+						  > hhhhhhhh or -hhhhhhhh or T-hhhhhhhh or U-hhhhhhhh;
+						  > The significance of the optional prefixes is as follows:
+						  > + a minus sign indicates that the numeric form is the eight-digit form, a plus sign indicates that it is the four-digit form;
+				- `≏` hump equals: [The Mathematical Symbol "Difference Between (≏)"](https://www.mathematics-monster.com/symbols/Difference-Between.html)
+					- The sign of Libra (`♎︎`) is similar to this hump equals sign.
+				- [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) is a special case of [DSV](https://en.wikipedia.org/wiki/Delimiter-separated_values) which is usually called [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) due to the popularity of CSV, as [in Python](https://thepythonguru.com/python-how-to-read-and-write-csv-files/).
+			- TODO Write translator to: `<table>`, markdown table, logseq commands, JSON
+				- testing commands: ☀️ ☉
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
@@ -1982,25 +2223,127 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665ca429-84e3-49ff-921e-c07d19cd99ba
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f4ec9a-6a38-4b02-bd52-5bf031eaf6fa))
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((6678288e-699b-4325-bdba-bf6349fe0d57))
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
 		- hình thức
 		  id:: 66f4ec9a-6a38-4b02-bd52-5bf031eaf6fa
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 			- hình thức = ngoại hình [((66ab6161-0306-42d5-ac16-4155c69216f5))] + nội thức [((6678d596-9526-405a-968c-e73860e524f3))]
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the image of that object in a ((66723642-58f1-4a74-bba3-0108f14c6bac)) of some ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The external form is called ((66ab6161-0306-42d5-ac16-4155c69216f5)) or ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)), and the internal form is called ((6678d596-9526-405a-968c-e73860e524f3)) or ((66ab6059-7a9d-4419-99be-69c9944a543f)) of the object. Beside the obvious external form, the "internal form" is "seen" by the subject via generalization and ((66537674-6cf9-4459-8bea-7c1858c694a3)), i.e. not by the external eyes but by the mind's eye.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the image of that object in a ((66723642-58f1-4a74-bba3-0108f14c6bac)) of some ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The external form is called ((66ab6161-0306-42d5-ac16-4155c69216f5)) or ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)), and the internal form is called ((6678d596-9526-405a-968c-e73860e524f3)) or ((66ab6059-7a9d-4419-99be-69c9944a543f)) of the object. Beside the obvious external form, the "internal form" is "seen" by the subject via generalization, ((66537674-6cf9-4459-8bea-7c1858c694a3)), analysis and reconstruction, i.e. not by the external eyes but by the mind's eye.
 			- Britannica: [form (philosophy)](https://www.britannica.com/topic/form-philosophy)
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [Buddhist form](https://en.wikipedia.org/wiki/Rūpa) in the pair "name & form", [logical form](https://en.wikipedia.org/wiki/Logical_form), Plato's [ideal form](https://en.wikipedia.org/wiki/Theory_of_forms), Aristotelian [substantial form](https://en.wikipedia.org/wiki/Substantial_form), Marx' [form of value](https://en.wikipedia.org/wiki/Value-form), etc.
 		  id:: 669a58b9-b3d0-4cec-abaa-55b6260d914c
-		- concrete form
-		  id:: 66f4e208-37c7-4749-a448-0722f7f7af20
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Most of the forms mentioned by people in the history are instances of the _abstract form_ whose ((6678288e-699b-4325-bdba-bf6349fe0d57)) is abstracted. However, in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), we usually consider the ((66f4e208-37c7-4749-a448-0722f7f7af20)) of an object as its totality of content, external form and internal form. Here we say "(concrete) form is the crystallization of content."
-		- DOING unity of ((66ab6161-0306-42d5-ac16-4155c69216f5)) and ((6678d596-9526-405a-968c-e73860e524f3))
+		- types of forms
 		  id:: 66f6682b-744a-49b8-8e11-8e020fc24acc
 		  :LOGBOOK:
-		  CLOCK: [2024-09-27 Fri 15:09:57]
+		  CLOCK: [2024-09-27 Fri 15:09:57]--[2024-10-14 Mon 20:55:19] =>  413:45:22
 		  :END:
-			- external to a content form = internal to its container
-		- formation
+			- ![obop forms](https://docs.google.com/drawings/d/e/2PACX-1vQVL6i_pDqPDaF6J5Y_ap06oLP4QKyjce13qVtbpPUyh-DNLz_etMQsM2KrUH8B9iYNgWsbgbmXAwFE/pub?w=337&h=340)
+			  :LOGBOOK:
+			  CLOCK: [2024-10-17 Thu 19:42:39]
+			  CLOCK: [2024-10-17 Thu 19:42:44]--[2024-10-17 Thu 20:49:03] =>  01:06:19
+			  :END:
+			- external form
+			  id:: 670d0138-8f58-428b-808e-24c05a5239fb
+			  collapsed:: true
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e18b8-b845-464f-9d93-4172ca3ce6e2)), ((66ab6161-0306-42d5-ac16-4155c69216f5))
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670d0138-9012-4f3e-a9bd-997443fb22a3))
+				- ex-form
+				  id:: 670e18b8-b845-464f-9d93-4172ca3ce6e2
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0138-8f58-428b-808e-24c05a5239fb))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((670d0138-8f58-428b-808e-24c05a5239fb)), or an appearance of an object is the form seen by a subject from the outside of that object. Different external subjects see different appearances, thus interact with the object differently through different [interface](((670d0183-aba2-438b-b749-1b550e4a906b)))s. Within a world, each object has a ((670dd13a-21f3-44dd-9982-c1e129d518b2)) which is seen by the light of that world, hence common to all subjects in that world.
+				- public appearance
+				  id:: 670dd13a-21f3-44dd-9982-c1e129d518b2
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670dd13a-21f3-44dd-9982-c1e129d518b2)) is the superficial form seen by the light of the world where this object exists. This is the normal meaning of the word "appearance" and is usually much shallower than the ((670d0183-aba2-438b-b749-1b550e4a906b))s seen by individual subjects.
+				- inter-form
+				  id:: 670d0183-aba2-438b-b749-1b550e4a906b
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e0fef-2a46-450b-b043-176cccfc804a))
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1)) An ((670d0183-aba2-438b-b749-1b550e4a906b)) of an object is the form that appears to a subject such that the subject can interact with the object.
+			- internal form
+			  id:: 670d0138-9012-4f3e-a9bd-997443fb22a3
+			  collapsed:: true
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e16ab-7b17-4127-8d4d-92516697d27e)), ((6678d596-9526-405a-968c-e73860e524f3))
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670d0138-8f58-428b-808e-24c05a5239fb))
+				- in-from
+				  id:: 670e16ab-7b17-4127-8d4d-92516697d27e
+				  collapsed:: true
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0138-9012-4f3e-a9bd-997443fb22a3))
+					- Etymology of the word "inform":
+						- in-form = put someone into (specific) form = train, teach, instruct => give knowledge => give information
+						- Original "information" = outline, concept, idea (specific kinds of knowledge) => reduced to mere news-like information
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of a subject is what the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that subject sees about its internal structure. Including the obop itself, that structure is a ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) comprising both the [skeletal structure](((670d015b-cd7e-47fc-94aa-1caf98daef0e))) and the [interaction structure](((670d01e7-9f1c-4f50-8b74-d6a51d33f719))) for interaction with its components. The the obop of this form always has a tendency to return its form to the ((670e14c0-70c6-49ff-9bde-89db60b610c2)). When a subject has many obops, each one sees a (slightly) different internal form, where the closed forms of other obops and of component groups are abstracted into components interacting with this obop.
+				- closed form
+				  id:: 670d0160-ee4c-4b5f-b95f-80b0c2f3825f
+				  collapsed:: true
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1227-a0b3-474f-bcc3-8bacdefac269)) 
+				  c-form = ((670e1285-9b00-427b-99f0-98c724677608)) + ((670e12c8-98eb-4293-b1cc-403c8210208f)) = ((670e1047-529a-4698-9ad0-5e6c73c18202))
+				  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e)), ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) is a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of content which is composed of two complements: the ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) and the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) for interaction with its components.
+					- c-form
+					  id:: 670e1227-a0b3-474f-bcc3-8bacdefac269
+					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+						- 'c' stands for "closed", "complete", "circle".
+					- skeletal form
+					  id:: 670d015b-cd7e-47fc-94aa-1caf98daef0e
+					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1285-9b00-427b-99f0-98c724677608))
+					  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
+					  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+						- s-form
+						  id:: 670e1285-9b00-427b-99f0-98c724677608
+						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e))
+							- 's' stands for "skeletal", "structural".
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) is the skeletal structure which the obop uses to operate its body. This skeleton is crystallized from experience about mutual ((670d0183-aba2-438b-b749-1b550e4a906b))s between its components.
+					- interaction form
+					  id:: 670d01e7-9f1c-4f50-8b74-d6a51d33f719
+					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e12c8-98eb-4293-b1cc-403c8210208f))
+					  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e))
+					  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+						- i-form
+						  id:: 670e12c8-98eb-4293-b1cc-403c8210208f
+						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) of a composite is the interaction structure including those ((670d0183-aba2-438b-b749-1b550e4a906b))s of its components for interaction between the obop and components, as well as the ((670f2f5f-ec97-4287-a711-1988ca03a262)) of this composite to interact with the external world.
+				- round form
+				  id:: 670e14c0-70c6-49ff-9bde-89db60b610c2
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e14da-ff8d-4ca3-8d19-d2daec1fa296)), ((670e105b-5244-4f95-9f90-c99acdbce0e4))
+				  per-form = round ((670e1227-a0b3-474f-bcc3-8bacdefac269)) = ((670e105b-5244-4f95-9f90-c99acdbce0e4))
+					- per-form
+					  id:: 670e14da-ff8d-4ca3-8d19-d2daec1fa296
+					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e14c0-70c6-49ff-9bde-89db60b610c2))
+						- Etymology of the word "perform": "per" = complete (perfect) => carry out, finish, accomplish
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e14c0-70c6-49ff-9bde-89db60b610c2)) is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle of content which lies at the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of all ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) and is the target of restoring force.
+				- co-inter-form
+				  id:: 670f2f5f-ec97-4287-a711-1988ca03a262
+				  :LOGBOOK:
+				  CLOCK: [2024-10-16 Wed 20:14:33]--[2024-10-17 Thu 18:48:19] =>  22:33:46
+				  :END:
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((67110213-d0ca-4449-811a-b51abf23bf65)), the other face of ((670d0183-aba2-438b-b749-1b550e4a906b)). While inter-form is the form viewed from the outside, for the external world to interact with this subject, co-inter-form is the form viewed from the inside, for the obop to interact with the external world. The co-inter-form is considered a part of the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)).
+			- abstract form
+			  id:: 670e0d9a-a926-49ca-951c-7013b2b29e8c
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that objec is abstracted away. Abstract form is the normal meaning of the word "form".
+			- concrete form
+			  id:: 66f4e208-37c7-4749-a448-0722f7f7af20
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), we usually consider the ((66f4e208-37c7-4749-a448-0722f7f7af20)) of an object as the totality of  ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and its ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). Here we say:
+				  > (concrete) form is the [crystallization](((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b))) of content.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- The concrete form is united with its crystallized content, and Hegel also showed this unity via the [world of appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm).
+					  collapsed:: true
+						- {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
+			- The unity of ((66ab6161-0306-42d5-ac16-4155c69216f5)) and ((6678d596-9526-405a-968c-e73860e524f3)) via ((670e0fef-2a46-450b-b043-176cccfc804a))
+			  id:: 670e0b40-f9a8-496a-989a-692dbb375f38
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The obop of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) sees the ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of its body through the ((670d0138-8f58-428b-808e-24c05a5239fb)) of the ((66532bb2-7680-461b-80b2-71fc96c89fb9))s, thus the appearance is external to the components but internal to the composite. There, both parts of the composite's structure are appearances of the components:
+					- The ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) is just a collection of ((670d0183-aba2-438b-b749-1b550e4a906b))s of the components toward the obop.
+					- The ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) is the abstraction & crystallization of mutual ((670e0fef-2a46-450b-b043-176cccfc804a))s between the components.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- Hegel also showed this unity via the [world of appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm).
+					  collapsed:: true
+						- {{embed ((67123b17-b024-414a-a5dd-ba05965eefe7))}}
+						  {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Aristotle's forms:
+					- "substantial form" = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+					- "accidental form" = ((670d0138-8f58-428b-808e-24c05a5239fb))
+				- Elementary particles: substance = essence = 1 => cannot bear distortion
+				- Composite particles: substance > essence => bear distortion
 		- conformation
 		  id:: 6678282b-d710-4c6b-b584-5f65012c192d
 		  collapsed:: true
@@ -2010,20 +2353,48 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Links: [fb post in Nov 2023](https://www.facebook.com/lexuandinhct/videos/728404692637310), [GeoGebra applet](https://www.geogebra.org/m/j7czr4s5)
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
-			- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
-			- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
-			- Function/mapping/projection/light-cone is an abstraction of the flow into just 2 ends of that flow.
-			- A ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
-				- Development of view over time:
-					- First, an `ex` object is mirrored to its `in` image.
-					  id:: 667aa63e-acc6-41b1-b716-f97a8afe41a1
-					  collapsed:: true
-						- In digital world, it's usually done statically with `copy`, or better dynamically with `embed`, `import`, `transclude`, etc.
-					- The `in` image will be modified to adapt to the needs of the subject, via which it's transformed.
-					  collapsed:: true
-						- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
-						- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
-					- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			  collapsed:: true
+				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
+				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
+				- Function/mapping/projection/light-cone is an abstraction of the flow into just 2 ends of that flow.
+				- A ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
+					- Development of view over time:
+						- First, an `ex` object is mirrored to its `in` image.
+						  id:: 667aa63e-acc6-41b1-b716-f97a8afe41a1
+						  collapsed:: true
+							- In digital world, it's usually done statically with `copy`, or better dynamically with `embed`, `import`, `transclude`, etc.
+						- The `in` image will be modified to adapt to the needs of the subject, via which it's transformed.
+						  collapsed:: true
+							- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
+							- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
+						- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
+			- life cycle of form
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-10-15 Tue 10:31:35]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+					- From some messy content, the first insight of form apears when that content closes into a ((66ab675b-2778-4f51-80ad-20a8f6988691)) which is the conceived form, and this event is called ((670de10a-74a7-49e7-856f-b77b50f8e3c6)). That closed loop receives more content from its source (mother) and organizes its content into a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle which is the crystal form ready to be separated from its source. This process of crystallization is called ((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b)), and the separation from its source is the birth of the ((670de601-3ca8-4489-8b75-75ca0d9a74bc)).
+					- After birth, the form learns and adapts to the environment by ((670e1e36-8929-4a91-8f29-95775c21988e))ing its crystal structure, i.e. pruning its structure of complete graph, and by [loading more contents](((670dee3b-4d37-4852-993c-bdb9cdd2c3bc))) from the outside onto its crystal form. Throughout its lifetime, the crystal form deforms more and more in interaction with other forms. This deformation is the deviatation from the roundness, the imbalance that makes its ((66c8772a-9b29-45b0-b169-2fa847333e02)) to rebalance by restoring force that pulls it back to the original roundness.
+					- A multi-layered crystal form can bear distortion to the extent that an outer layer of ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) is broken (sick). The inner layers will try to heal the the broken layer by closing it. Each healing crystallizes some content deeper into the core of the this crystal form as well as its components (gene). When the innermost layer is broken, the crystal form is dead, and its contents (components, children) are released to the world.
+					- A death of a crystal form does end the form of the composite but does not end the forms of its components nor its children. The released components with their own crystal forms will continue to participate in the formation of new composites in the process of rebirth.
+					- The crystal form of a composite is thus a ((667d16f8-206e-4a85-80f3-24c2aa1bf4ad)) to carry components of other kinds, to help them transform and crystallize content. It's also a producer to produce children of its own kind.
+				- conception
+				  id:: 670de10a-74a7-49e7-856f-b77b50f8e3c6
+				  the closing of ((6678288e-699b-4325-bdba-bf6349fe0d57)) into a ((66ab675b-2778-4f51-80ad-20a8f6988691)), i.e. conceived form, ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+				- formation
+				  id:: 66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b
+				  crystallization of ((6678288e-699b-4325-bdba-bf6349fe0d57)) into ((665ca429-84e3-49ff-921e-c07d19cd99ba))
+				- crystal form
+				  id:: 670de601-3ca8-4489-8b75-75ca0d9a74bc
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) At birth, the ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) is a ((670e14c0-70c6-49ff-9bde-89db60b610c2)), perfect, full, has a [crystal structure](https://en.wikipedia.org/wiki/Crystal_structure) of [complete graph](https://en.wikipedia.org/wiki/Complete_graph). The content of a crystal form is called ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). In its lifetime, the crystal form usually loses its roundness when it crytallizes more content from the outside, but it still keeps its ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and always try to return to the round form.
+				- deformation
+				  id:: 670dd83a-3b33-4f1c-bce2-b6ab3783a1dd
+				  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((670e1e36-8929-4a91-8f29-95775c21988e))
+					- deform
+					  id:: 670e1e36-8929-4a91-8f29-95775c21988e
+					  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((670dd83a-3b33-4f1c-bce2-b6ab3783a1dd))
 		- transform
 		  id:: 669dd16c-1836-40ec-86e5-772f8f4774ce
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)) includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
@@ -2032,34 +2403,134 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee))
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0138-8f58-428b-808e-24c05a5239fb))
 		- shape
 		  id:: 66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee
 		  collapsed:: true
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab6161-0306-42d5-ac16-4155c69216f5))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)) is somehow more abstract than ((66ab6161-0306-42d5-ac16-4155c69216f5)), e.g. [geometrical shape](https://en.wikipedia.org/wiki/Shape) excludes some details like texture, color, etc.
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab6161-0306-42d5-ac16-4155c69216f5)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the external ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of that object.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab6161-0306-42d5-ac16-4155c69216f5)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the ((670d0138-8f58-428b-808e-24c05a5239fb)) of that object.
 	- ## structure
 	  id:: 6678d596-9526-405a-968c-e73860e524f3
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ab6059-7a9d-4419-99be-69c9944a543f))
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0138-9012-4f3e-a9bd-997443fb22a3))
 		- configuration
 		  id:: 66ab6059-7a9d-4419-99be-69c9944a543f
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6678d596-9526-405a-968c-e73860e524f3))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678d596-9526-405a-968c-e73860e524f3)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the internal ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of that object. A structure of a ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) object can be decomposed into ((667d0b78-fff6-49bc-90d5-165648ed56d3))s between its ((66532bb2-7680-461b-80b2-71fc96c89fb9))s.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678d596-9526-405a-968c-e73860e524f3)) of an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is the ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of that object. A structure of a ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) object can be decomposed into ((667d0b78-fff6-49bc-90d5-165648ed56d3))s between its ((66532bb2-7680-461b-80b2-71fc96c89fb9))s.
 		- Variations:
 		  id:: 667d09ec-4da1-428b-a7c9-bae1eb37a7ae
 			- linear structure
 			  id:: 667d0a09-6a59-483d-91e4-33a019655b42
 			- circular structure
 			- branching structure
+			  id:: 66faa5f9-b719-4c5d-a1d9-d40b3fcbda21
 			  is a [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))).
 			- ### network
 			  id:: 667d1a95-b621-49cd-8a72-a074c963c92a
 				- Example: [network](https://en.wikipedia.org/wiki/Network_theory), [mathematical graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
+	- ## interface
+	  id:: 670e0fef-2a46-450b-b043-176cccfc804a
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-15 Tue 13:47:19]
+	  :END:
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0183-aba2-438b-b749-1b550e4a906b))
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((67110213-d0ca-4449-811a-b51abf23bf65))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0fef-2a46-450b-b043-176cccfc804a)) is the common boundary of two [bodies](((66c810a0-9861-4787-bdcf-1378219332be))) where they interact with each other.
+		- ((66725725-f76a-4328-b162-f469b87e871b))
+			- Information technology's [interfaces](https://en.wikipedia.org/wiki/Interface_(computing)) like [user interface](https://en.wikipedia.org/wiki/User_interface), [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface), [hardware interface](https://en.wikipedia.org/wiki/Electrical_connector), etc.
+			- oil-water interface
+		- cointerface
+		  id:: 67110213-d0ca-4449-811a-b51abf23bf65
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670e0fef-2a46-450b-b043-176cccfc804a))
+			- The cointerface vs interface is the dual of complements similar to the [codomain vs domain](((670f5fa5-4e2b-4239-aeea-c1267f124d20))) in function as well as the [cocategory vs category](((670f5dfd-ff92-4122-a1d8-8dfaed3bd122))).
+			  id:: 6711045f-1050-42a8-94f2-c913088ce9cd
+				- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
+				- The cointerface also shows itself in `D*`, D Star, the protocol-based programming language when dealing with the dialog-like bidirectional protocol.
+					- Example interface
+					  ```
+					  (a, b) -> 
+					  <- (c, d)
+					  (e) ->
+					  <- (f)
+					  ```
+					- Cointerface of Example interface
+					  ```
+					  (a, b) -> 
+					  <- (c, d)
+					  (e) ->
+					  <- (f)
+					  ```
+					  ```
+					  <- (a, b)
+					  (c, d) ->
+					  <- (e)
+					  (f) ->
+					  ```
+	- ## substance
+	  id:: 670e1047-529a-4698-9ad0-5e6c73c18202
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-15 Tue 13:48:45]
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1053-773e-4cbb-9b5f-8bf9715759f7))
+		- chất
+		  id:: 670e1053-773e-4cbb-9b5f-8bf9715759f7
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e1047-529a-4698-9ad0-5e6c73c18202))
+	- ## essence
+	  id:: 670e105b-5244-4f95-9f90-c99acdbce0e4
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-15 Tue 13:49:03]
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e106c-ed23-4496-a774-678a9a1fbb91))
+	  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e14c0-70c6-49ff-9bde-89db60b610c2))
+		- bản chất
+		  id:: 670e106c-ed23-4496-a774-678a9a1fbb91
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e105b-5244-4f95-9f90-c99acdbce0e4))
+		- Variations: ((66c8772a-9b29-45b0-b169-2fa847333e02))
 	- ## content
 	  id:: 6678288e-699b-4325-bdba-bf6349fe0d57
 	  collapsed:: true
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678288e-699b-4325-bdba-bf6349fe0d57)) is an umbrella term capturing the abstract notion of "something packed inside the ((667cfa42-ade7-4310-9a7b-6d14d01c16da))": the daily used [content](https://en.wiktionary.org/wiki/content#Noun_2), the dynamic content in ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)), the ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)), etc.
+		- types of content regarding ((66f6682b-744a-49b8-8e11-8e020fc24acc))
+			- crystallized content
+			  id:: 670de73b-6fe0-4366-9d81-2d631a3f3ca3
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670df155-ba22-48b9-b7b5-5eb25c78b310)), ((670e363d-c1eb-402a-8283-b4a3a2e65a59))
+			  c-content = ((670df1e8-93ee-4d2d-8f6c-74b7aeec2b30)) × ((670df1ef-8f69-420e-ab1e-9c9844396704))
+			  the content crystallized into a ((670de601-3ca8-4489-8b75-75ca0d9a74bc))
+				- c-content
+				  id:: 670df155-ba22-48b9-b7b5-5eb25c78b310
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670de73b-6fe0-4366-9d81-2d631a3f3ca3))
+				- whole content
+				  id:: 670e363d-c1eb-402a-8283-b4a3a2e65a59
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)) 
+				  the content crystallized into ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+				- crystallized skeletal content
+				  the content crystallized into ((670d015b-cd7e-47fc-94aa-1caf98daef0e))
+					- s-content
+					  id:: 670df1e8-93ee-4d2d-8f6c-74b7aeec2b30
+				- crystallized interactive content
+				  the content crystallized into ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
+					- i-content
+					  id:: 670df1ef-8f69-420e-ab1e-9c9844396704
+			- partial content
+			  id:: 670e3842-d910-4776-a3e8-17561a20b556
+			  :LOGBOOK:
+			  CLOCK: [2024-10-15 Tue 20:58:07]--[2024-10-18 Fri 16:14:10] =>  67:16:03
+			  :END:
+				- This is the implementation of the ((670e0fef-2a46-450b-b043-176cccfc804a)) of components.
+			- loaded content
+			  id:: 670dee3b-4d37-4852-993c-bdb9cdd2c3bc
+			  = ((670df1ef-8f69-420e-ab1e-9c9844396704)) × ((670e3842-d910-4776-a3e8-17561a20b556))
+			- total content
+			   = ((670e363d-c1eb-402a-8283-b4a3a2e65a59)) × ((670e3842-d910-4776-a3e8-17561a20b556))
+			- Law of amount & substance
+			  ((670dee3b-4d37-4852-993c-bdb9cdd2c3bc)) (amount) ≤ ((670e363d-c1eb-402a-8283-b4a3a2e65a59)) (substance)
+				- This law is the [triangle inequality](https://en.wikipedia.org/wiki/Triangle_inequality) of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) and is related to the [Law of transformation between quantity & quality](https://www.marxists.org/reference/archive/spirkin/works/dialectical-materialism/ch02-s09.html) in Dialectical Materialism.
 	- ## intent
 	  id:: 66b1cfa4-01ef-4ee8-9409-32c9884c39cd
 	  collapsed:: true
@@ -2106,6 +2577,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :LOGBOOK:
 				  CLOCK: [2024-08-01 Thu 18:58:40]
 				  :END:
+				- DOING flow of transforms, implemented by projections
+				  id:: 66faa5fb-01ea-4623-abb2-caf34f0821d6
+				  :LOGBOOK:
+				  CLOCK: [2024-09-27 Fri 15:15:15]
+				  CLOCK: [2024-09-27 Fri 15:15:30]
+				  :END:
 			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Ōṁ-thread [Ω,ॐ], One-thread [Ω,𝟙], Omni-thread or Overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
@@ -2116,7 +2593,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d))
-		- UniThread
+		- Unithread
 		  id:: 66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ac41d1-09e7-44b1-9290-ea7d5f02a817))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is the representation of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) in mathematical language, where everything is represented by the ((66ab75a1-f4a0-4bab-a002-8e573546623a)). ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
@@ -2333,6 +2810,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Japanese name: LÊ Harusada
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
+	- git
+	  collapsed:: true
+		- moved to ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 	- ## GitHub
 	  id:: 66536662-052f-46a4-a624-38858bffb334
 	  collapsed:: true
@@ -2526,10 +3006,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://logseq.com/
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536e1b-6466-4153-90d6-583003d99a81)) is an ((66536d32-30ad-4c07-8585-76ae9eb7fb22)) like [Roam](https://roamresearch.com), but [open-source](https://github.com/logseq/logseq): outlining based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
+		  collapsed:: true
 			- Installations:
 			  collapsed:: true
 				- Windows: Just download and run the `.exe` file at [Downloads page](https://logseq.com/downloads).
-					- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `%USERPROFILE%/{.logseq,.config/Logseq}/`
+					- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `%USERPROFILE%/{.logseq,AppData/Roaming/Logseq}/`
 				- Linux: There are many choices.
 					- The `.AppImage` file at [Downloads page](https://logseq.com/downloads) can be run right away, just after making it executable (`chmod +x`).
 					  id:: 66faa5f9-d333-47df-88cf-7c6fab827842
@@ -2686,7 +3167,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Refs:
 						- [Symlinks are not followed when loading a Graph/Directory](https://github.com/logseq/logseq/issues/5489)
 						- [Using symbolic link to add existing external .md file to logsek break on restart](https://discuss.logseq.com/t/using-symbolic-link-to-add-existing-external-md-file-to-logsek-break-on-restart/16229)
-				- **Hard-link** does keep index, but are [broken by git](((666ba5a7-598a-4b66-86bd-b1622a28ada6)))! This is the better-than-nothing solution now.
+				- **Hard-link** does keep index, but are [broken by git](((666ba5a7-598a-4b66-86bd-b1622a28ada6)))! This is the [better-than-nothing solution](((66978876-9378-4059-8783-868d041e8e2e))) now.
 			- [!] Each #tag corresponds to a *page*, not a block!
 			  collapsed:: true
 				- This is a problem to my projects, because my approach is pure block-based.
@@ -2710,23 +3191,46 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2024-06-11 Tue 15:35:08]--[2024-06-11 Tue 15:49:35] =>  00:14:27
 					  :END:
 			- [!] ((66ab12fd-cc14-4789-b70b-48b8b599f9eb)): ((66ab130c-bee8-40e6-aa11-489eb4c34ec4))
-			- [!] Pasting (move or copy) blocks usually mess up the management of ((66610c13-5045-42a8-948f-6426d698fd2c)).
+			- [!] Pasting (move or copy) blocks usually mess up the management of ((66610c13-5045-42a8-948f-6426d698fd2c)), and even causes the [app hang](((67110769-1a89-4c51-98cf-884b9b1fa623))).
 			  id:: 66b1d45e-f8fa-427c-82aa-197689ee04c5
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-08-06 Tue 14:56:50]--[2024-08-06 Tue 17:36:53] =>  02:40:03
 			  :END:
+				- The mess seems to be caused by `((block ref))` in the pasted block.
 				- The pasted block and/or its enclosing blocks have the function `Copy block ref` ineffective.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) A **re-index** is required to clean the mess up.
 					- Seems that after re-indexing, the copy paste does not cause problem anymore.
 				- The pasted block is not reflected well between views.
 					- => Closing & refreshing views usually solve the problem.
-				- The mess seems to be caused by `((block ref))` in the pasted block.
 				- MIME types in clipboard: `web application/logseq`, `text/html`, `text/plain`
 					- Inspect the cut/copied content with [ClipboardRead.html](../assets/HTML/ClipboardRead.html) ( ![src](../assets/HTML/ClipboardRead.html) ).
 				- When pasted from a different graph, some page unrelated to the pasted block is messed up with the diff between the version on disk and the version in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
 				- When a block was moved remotely and then synched (git-pulled) into this local graph, the old ((66610c13-5045-42a8-948f-6426d698fd2c)) is still remembered in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)) and mess the whole refs up.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Close LogSeq; move the corresponding `.transit` file in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)) to a backup folder; then open LogSeq and add this graph again to force LogSeq to read all ids from disk.
+				- In some cases, the app hangs right after copy/cut.
+				  id:: 67110769-1a89-4c51-98cf-884b9b1fa623
+				  collapsed:: true
+					- Neither help: not Re-indexing nor updating ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
+					- E.g., copying [this block of cointerface](((6711045f-1050-42a8-94f2-c913088ce9cd))) makes Logseq hang.
+					- E.g., copying this block makes Logseq hang, due to a block ref.
+						- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
+					- E.g., copying this block makes Logseq hang, due to [this block ref to etymology of the root "co-"](((670f4f06-b543-47d7-ab5d-846dcdd2281e))).
+						- [?] What's wrong with that block?!
+					- Le'ts try each sub-block of that damned block:
+					  collapsed:: true
+						- HANG!!! ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
+						- OK: ((67110460-88c4-480d-9ac7-a9af44271e3b))
+						- OK: ((67110460-c09b-4d62-a9dd-71e8388dc904))
+						- OK: ((670f5fa5-4e2b-4239-aeea-c1267f124d20))
+						- OK: ((67110460-5e1c-4dd0-8ff1-de1f539bcbbe))
+						- OK: ((670f5dfd-ff92-4122-a1d8-8dfaed3bd122))
+						- OK: ((67110460-0b9a-4d1d-b38d-6280a32b5c4f))
+						- OK: ((67110460-2f01-4365-a5f4-8053b08136e9))
+						- OK: Both
+							- OK: ((67110460-88c4-480d-9ac7-a9af44271e3b))
+							- OK: ((67110460-2f01-4365-a5f4-8053b08136e9))
+					- The same issue when copying the [damned block](((670f4f06-b543-47d7-ab5d-846dcdd2281e))) itself. And no issue copying any of its sub-blocks.
 			- [!] Logseq indexes all folders including `assets/` which may contains a lot of files not meant to be indexed and duplicated markdown files.
 			  collapsed:: true
 				- This can be overcome with config ((66cdac39-bcf0-4859-b82f-8bd7a7f8e590)). But due to the [currently unsolved issue](https://github.com/logseq/logseq/issues/8822), it's useless!
@@ -2902,9 +3406,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [DataScript](https://github.com/tonsky/datascript) Query
 			  id:: 66acc24c-4cd7-4568-8c47-79798fc09433
 			  collapsed:: true
-				- [Simple `{{query}}`](https://docs.logseq.com/#/page/queries) from [macro](https://docs.logseq.com/#/page/macros) syntax
+				- [Simple `{{query}}`](https://docs.logseq.com/#/page/queries) from ((66ff3a47-e526-4c63-b0fc-8b260882ea51)) syntax
+				  id:: 66faa5f9-0274-4988-a89a-ea1d0d070e28
 					- Supported [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64)
 				- [Advanced query](https://docs.logseq.com/#/page/advanced%20queries) with [DataScript](https://github.com/tonsky/datascript) database
+				  id:: 66faa5f9-9b88-44ed-97bd-369cc0048c5d
 					- Tutorial on [Datalog](https://www.learndatalogtoday.org/) and syntax reference from [Datomic](https://docs.datomic.com/query/query-data-reference.html).
 					- [Getting started with advanced queries](https://hub.logseq.com/features/av5LyiLi5xS7EFQXy4h4K8/getting-started-with-advanced-queries/8xwSRJNVKFJhGSvJUxs5B2)
 					  collapsed:: true
@@ -2951,6 +3457,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Add `:query/rules` into `config.edn` for reusable `:rules`.
 							- Add `:embed-block` into `:inputs`, in addition to `:current-block` and `:parent-block`.
 							- Add `:query-result` into `:inputs`...
+					- `{{function (fn :proptery)}}` for [summerizing query result table](https://mschmidtkorth.github.io/logseq-msk-docs/#/page/610fdfba-d6cf-4bb1-a88d-b3fe28e0a72d), e.g. `sum`, `average`, `min`.
 					- [Graphical explanation of pages, blocks and references](https://discuss.logseq.com/t/graphical-explanation-of-pages-blocks-and-references/15966)
 				- [Example queries](((66b1cfa3-9679-4482-a2a3-4d99486dbe04)))
 			- [Graph Validator](https://github.com/logseq/graph-validator): a [GitHub action](https://github.com/features/actions) to run [validations](https://github.com/logseq/graph-validator#validations) on each push
@@ -3026,13 +3533,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) is built in and provided via ((66fa4733-114e-4923-80a5-7ac2f5f63ae1)) as well as via ((66fa5c73-1f11-4e73-9f04-3a678bfb9912)).
 				- `Settings` > `Version control`
 				  id:: 66fa4733-114e-4923-80a5-7ac2f5f63ae1
-					- `Enable Git auto commit` is useful for periodic backup. Later on, the backup commits, titled `Auto saved by Logseq`, can be squashed down to a manual commit with a meaningful message.
-						- `Git auto commit seconds`
+					- `Enable Git auto commit` is useful for **periodic backup**.
+						- Later on, the backup commits, titled `Auto saved by Logseq`, can be squashed down to a manual commit with a meaningful message.
+						- `Git auto commit seconds` (`:git/auto-commit-seconds`)
+							- Value: `1` < default `60` (1 minute) < `86400` (24 hours)
+							- My value: `600` (10 minutes)
 					- `Git commit on window close`
 				- ((6673f8ff-995c-455f-ae09-49bcb5311e2e))'s `logseq.Git`
 				  id:: 66fa5c73-1f11-4e73-9f04-3a678bfb9912
 					- [!][solved] Linux Snap version denies SSH access.
 					  id:: 66fa5cb5-0f9d-4f70-8eeb-b6c3195c57ea
+					  collapsed:: true
 						- ```js
 						  await logseq.sdk.git.exec_command(['pull'])
 						  ```
@@ -3044,6 +3555,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((665dc545-151a-485a-84b7-1310fef5151c)) ((66fb69ac-95d3-4ba0-b5ec-b1eb04898db5))
 					- [!][solved] Linux Snap version cannot bind to SSH socket.
 					  id:: 66fb7680-7854-4be2-8d58-77e591d7533f
+					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2024-10-01 Tue 11:07:49]--[2024-10-01 Tue 11:26:59] =>  00:19:10
 					  :END:
@@ -3057,6 +3569,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) ((66fb7680-5c9d-4c2f-8b53-e0645b62aa4e))
 						- ((665dc545-151a-485a-84b7-1310fef5151c)) the socket `ControlPath` must be taken out of `.ssh/` and placed in a non-hidden folder, e.g. `~/tmp/`.
 			- [Hiccup](https://github.com/weavejester/hiccup) syntax
+			  id:: 66fbdf84-c5a4-4f96-aece-add980758db1
 			  collapsed:: true
 				- Logseq renders [HTML from Hiccup](https://docs.logseq.com/#/page/hiccup).
 				- Input [Tabler icons](https://tabler.io/icons) with `[:i.ti.ti-icon_name]`
@@ -3070,9 +3583,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [:i.ti.ti-alarm] alarm
 						- [:i.ti.ti-alarm-off] alarm-off
 						- [:i.ti.ti-info-circle] info-circle
+						  id:: 66fbe578-3768-4c36-ae6e-184b5ffd19ed
 						- [:i.ti.ti-alert-triangle] alert-triangle
 						- [:i.ti.ti-alert-octagon] alert-octagon
 						- [:i.ti.ti-help] help
+						  id:: 66fbe302-f6ad-411a-91c1-638b4f97bee6
 						- [:i.ti.ti-key] key
 						- [:i.ti.ti-keyboard] keyboard
 						- [:i.ti.ti-phone] phone
@@ -3108,18 +3623,101 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Block display formula: `$$ \binom{n}{k} = \frac{n!}{k!(n-k)!} $$`
 				  $$ \binom{n}{k} = \frac{n!}{k!(n-k)!} $$
 					- Note that there can be spaces between the formula content and the double-dollar delimiters `$$ ... $$`
+			- `{{`[macro](https://docs.logseq.com/#/page/macros)`}}`
+			  id:: 66ff3a47-e526-4c63-b0fc-8b260882ea51
+			  collapsed:: true
+				- Defined in ((66faa5f9-506c-4e35-83cc-ab6d463b75b9)) in `config.edn`.
+				- Supports positional parameters `{{macro-x param1, param2}}`, [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64), and ((66faa5f9-9b88-44ed-97bd-369cc0048c5d)).
+				- [Simple `{{query}}`](((66faa5f9-0274-4988-a89a-ea1d0d070e28))) is a predefined macros.
+				- Note that macro usage is not autocompleted. This is unlike ((66ff4478-6eae-4633-b7be-fd42e2bcda5b)), ((66ff445c-0f50-4d56-b24e-5533e1dfa322)) and references.
+			- Tag(`<`) command
+			  id:: 66ff4478-6eae-4633-b7be-fd42e2bcda5b
+			  collapsed:: true
+				- A `<`-command is a **shorthands** for [stenography](https://en.wikipedia.org/wiki/Shorthand), defined in ((66fe90ad-7d6f-4516-a219-5dcb886505d9)) in `config.edn`. In editor, typing `<`shorthand will show a drop-down list for autocomplete and the result is the corresponding longhand.
+				- Note that these user-defined `<`-commands should be called `:shorthands`, which are just parameterless ((66ff3a47-e526-4c63-b0fc-8b260882ea51)), and they are very different from the built-in & plugin-defined `/`-commands.
+					- In the official docs, Logseq team calls this "[advanced commands](https://docs.logseq.com/#/page/advanced%20commands)" and does have [a `TODO` to resolve this confusion](https://docs.logseq.com/#/page/66670369-cc69-41d6-b8fc-afecbc0d8c52).
+				- [Predefined](https://docs.logseq.com/#/page/advanced%20commands) shorthands
+				  collapsed:: true
+					- #+BEGIN_CENTER
+					  `<Center` 
+					  #+END_CENTER
+					- `<Comment`
+					  #+BEGIN_COMMENT
+					  This "comment" is a hidden text, just like a "comment" in programming language is hidden from the machine.
+					  #+END_COMMENT
+					  for hidden text
+					- ``` js
+					  <Src.js
+					  ```
+					- `<Query`
+					  query-table:: false
+					  #+BEGIN_QUERY
+					  {:title "Advanced Query" :query  [:find ?x :in $ ?x ] :inputs ["Ex"]}
+					  #+END_QUERY
+					- `<Latex` = `$$  $$`
+					  #+BEGIN_EXPORT latex
+					  E = m \cdot c^2
+					  #+END_EXPORT
+					- #+BEGIN_EXAMPLE
+					  Example
+					  #+END_EXAMPLE
+					- Admonitions
+					  collapsed:: true
+						- #+BEGIN_NOTE
+						  Note
+						  #+END_NOTE
+						- #+BEGIN_IMPORTANT
+						  Important
+						  #+END_IMPORTANT
+						- #+BEGIN_WARNING
+						  Warning
+						  #+END_WARNING
+						- #+BEGIN_TIP
+						  Tip
+						  #+END_TIP
+						- #+BEGIN_CAUTION
+						  Caution
+						  #+END_CAUTION
+						- #+BEGIN_PINNED
+						  Pinned
+						  #+END_PINNED
+			- Slash(`/`) command
+			  id:: 66ff445c-0f50-4d56-b24e-5533e1dfa322
+			- Block cloning [template](https://docs.logseq.com/#/page/templates)
+			  collapsed:: true
+				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
+				- Supports [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64).
 		- Settings: via [[logseq/config.edn]] and menu `Settings`
 		  collapsed:: true
-			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`) is logical, but confused & messy:
+			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`)
 			  collapsed:: true
+			   is logical, but confused & messy:
 				- The outdented item jumping down... is confusing.
 				- When we need to cut a long list into some main items, we must indent all items into sub-items instead of simply outdent the main items.
-			- `:outliner/block-title-collapse-enabled` is nice to collapse lengthy body of a long block and its *visible properties*. However, the *invisible built-in properties* like `id::` make this feature confused!
-			- `:publishing/all-pages-public` (`Settings > Editor > All pages public when publishing`) should be `true` to publish most of the pages by default, and manually hide individual pages with page property `public:: false` (right click page title > `Make it private (/public for publishing)`).
+			- `:outliner/block-title-collapse-enabled`
+			   is nice to collapse lengthy body of a long block and its *visible properties*. However, the *invisible built-in properties* like `id::` make this feature confused!
+			- `:publishing/all-pages-public` (`Settings > Editor > All pages public when publishing`)
+			   should be `true` to publish most of the pages by default, and manually hide individual pages with page property `public:: false` (right click page title > `Make it private (/public for publishing)`).
 			- `:hidden`
 			  id:: 66cdac39-bcf0-4859-b82f-8bd7a7f8e590
 			  can be used to exclude folders and files from being indexed.
-			- `:macros {:marco-x "... $1 ... $2 ..."}` defines macros to be used with syntax `{{macro-x param1, param2}}`.
+			- `:macros`
+			  id:: 66faa5f9-506c-4e35-83cc-ab6d463b75b9
+			  Each `{:marco-x "... $1 ... $2 ..."}` here can be used in editor with syntax `{{macro-x param1, param2}}`.
+			- `:shortcuts` (`Settings > Keymap`)
+			  collapsed:: true
+			   defines ((66536710-7441-4fb8-986b-50d2eec762d7))s for the GUI.
+				- The current keymaps can be looked up at menu `Help > Keyboard shortcuts`.
+				  id:: 66fe8f11-f568-4d2f-89c2-63d9eecbd0af
+				- [frontend/modules/shortcut/config.cljs](https://github.com/logseq/logseq/blob/master/src/main/frontend/modules/shortcut/config.cljs) defines actions and their default keymaps.
+				- `:sidebar/clear`: remove the default `mod+c mod+c` because it's easily mistaken with the copy hotkey, and i don't usually need to clear the right sidebar.
+			- `:commands`
+			  id:: 66fe90ad-7d6f-4516-a219-5dcb886505d9
+			  collapsed:: true
+			  defines **shorthands** to be expanded to corresponding longhands in editor when typing `<`shorthand.
+				- Ref: usage of ((66fbdf84-c5a4-4f96-aece-add980758db1)) like `:editor/input`, `:backward-pos`, `:backward-pos`, etc., and in combination with ((66ff3a47-e526-4c63-b0fc-8b260882ea51)).
+					- [`<`-comand to `{{macro}}` to insert special characters](https://discuss.logseq.com/t/is-there-any-way-to-insert-special-characters/26522/9)
+					- [Macros and Commands - let’s share](https://discuss.logseq.com/t/macros-and-commands-lets-share/9565)
 		- Global home/config folder
 		  id:: 66faaa5c-6a8a-42d9-a1bc-410531dbaf81
 		  collapsed:: true
@@ -3127,20 +3725,43 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-09-28 Sat 14:47:16]
 		  :END:
 			- Location of home folder is different between installations:
+			  id:: 66fb7680-e670-447d-baa4-279bed18e706
 			  collapsed:: true
 				- On Windows: `%USERPROFILE%` = `%HOMEDRIVE%%HOMEPATH%`
 				- On Linux (AppImage & Flatpack): user's`${HOME}`
+					- Flatpack: the [app folder](((6710c36b-6b29-42c5-b0e4-fc79e5e449a2))) is not the usual `.config/Logseq` but `.var/app/com.logseq.Logseq/config/Logseq}/`
 				- On Linux installed with Snap: `${HOME}/snap/logseq/current/`
 				  collapsed:: true
 					- Because Logseq uses this separate snap home, some config/env in the user's `${HOME}` must be ported to this snap home.
 						- `.gitconfig` is required by [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))).
 							- ((66fa09f1-64e7-43bc-9b83-f5b5c5a2aaf7))
-			- `.logseq/` config folder in home folder
+			- `.logseq/` global config folder
+				- `config/`
+				  contains global configs `config.edn` and `plugins.edn`.
 				- `plugins/` & `settings/` 
 				  contain all installed plugins and their settings.
 				- `graphs/*.transit`
 				  id:: 66f7b4fd-e34e-4fc3-9c2d-d468206d279b
 				  contains all graphs loaded by LogSeq. Each graph is managed by LogSeq internally, with a `.transit` file, to be a "mirror" of the corresponding `.md` files ... as much as possible.
+			- `Logseq/` (Electron) app folder
+			  id:: 6710c36b-6b29-42c5-b0e4-fc79e5e449a2
+				- `configs.edn`
+				  id:: 6710c556-1259-4fd5-a9d0-02216274a852
+				  contains some app-related configs (`:userAppCfgs`, `:electron/user-cfgs`)
+					- `:server/{host,port,autostart}`
+					  collapsed:: true
+					  for ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
+					- `:git/{auto-commit-seconds,commit-on-close}`
+					  for ((66faa5f9-8ffd-4542-b916-6e3528cabad8))
+					- `:spell-check`
+				- `window-state.json`
+				  collapsed:: true
+				  contains app window state: `width`, `height`, `x`, `y`, `isMaximized`, ...
+					- Window's position (x, y) is stored at app close but then reset (with some default value elsewhere) at the next app open.
+				- `Preferences`
+				  contains Electron's preferences: `devtools`, `spellcheck`, ...
+				- `Cookies`
+					- [?] can we add cookies, e.g. for YouTube login, here?!
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  id:: 66faa5f9-9402-4889-8881-dbdc8f179a30
 		  collapsed:: true
@@ -3193,6 +3814,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-10-01 Tue 20:13:05]
 			  :END:
+			- [Emoji picker (logseq-emoji-picker-fork)](https://github.com/walsvid/logseq-emoji-picker-fork) provides the slash commandn `/emoji picker` to search and pick up an [emoji](https://en.wikipedia.org/wiki/Emoji) to insert to the editor cursor. 😊
+			  collapsed:: true
+				- This plugin uses the mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser`.
 		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
 			- Check rendered result at [[Theme Demo]].
 			- DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.
@@ -3362,6 +3986,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537146-078d-4a65-b33a-2a0162f15d8c))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) It was dedicated to area studies and the study of foreign languages and their related cultures. It was merged to ((66536ec6-1a32-431b-b2e2-c73813f5d19f)) in 2007.
 		- [Harusada](((66536578-c4d3-43f1-b35c-bf71120f0570)))'s: I've done my Japanese course here from 2002 to 2003.
+	- ## Viet Nam National University Ho Chi Minh City
+	  id:: 6710fbad-2dbd-481d-92db-b4d7d2e20a93
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), ((6710fbf3-db4d-4b17-858c-fe3047cbb7e7))
+		- VNUHCM-US
+		  id:: 6710fbf3-db4d-4b17-858c-fe3047cbb7e7
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6710fbad-2dbd-481d-92db-b4d7d2e20a93))
+		- HCMUS
+		  id:: 6710fc09-fc5f-447b-9faf-5ea31b29c1fb
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6710fbad-2dbd-481d-92db-b4d7d2e20a93))
+		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://en.hcmus.edu.vn/
+		- ((66536578-c4d3-43f1-b35c-bf71120f0570))'s:
+			- I did my first 1.5 years of undergraduate course of Information Technology in Thủ Đức campus of ((6710fd6d-e8fb-4b24-b280-726187b7c6ce)), from 2000 to 2002.
+			- After returning from ((665370bb-9619-46b2-97be-a7b52684a56c)), i teach IT here from 2027 to 2014 + 2016.
+	- ## Viet Nam National University Ho Chi Minh City
+	  id:: 6710fcba-e545-4f3d-b74b-4373280534d9
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6710fd6d-e8fb-4b24-b280-726187b7c6ce))
+		- VNUHCM
+		  id:: 6710fd6d-e8fb-4b24-b280-726187b7c6ce
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6710fcba-e545-4f3d-b74b-4373280534d9))
+		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://vnuhcm.edu.vn/
 	- ## XML
 	  id:: 6653624a-5679-4bc5-bd7e-fdee34516314
 	  collapsed:: true
@@ -3410,4 +4056,29 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66691d61-b8e9-4618-ac98-145056b646f4
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66600918-9f92-4730-b056-c2cd87a742aa))
 		- Buddhist: [śūnyatā (Sanskrit: शून्यता; Pali: suññatā)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)
+	- # search
+	  id:: 66fe70ac-04d0-45b5-b771-b072cc0fa7be
+	  collapsed:: true
+		- searching
+		  id:: 66fe7195-1f42-4f8c-b2d4-876c8ba53808
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66fe70ac-04d0-45b5-b771-b072cc0fa7be))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66fe7195-1f42-4f8c-b2d4-876c8ba53808)) is the process of looking for some ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) satisfying some ((66fe7648-45c0-4831-9f78-92f50a268b8d)), within another object called ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd)).
+		- ((66725725-f76a-4328-b162-f469b87e871b)) [search problem](https://en.wikipedia.org/wiki/Search_problem), [search algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
+		- ## search criterion
+		  id:: 66fe763b-09bc-4446-89bb-58a562d2759a
+			- search criteria
+			  id:: 66fe7648-45c0-4831-9f78-92f50a268b8d
+			  plural of ((66fe763b-09bc-4446-89bb-58a562d2759a))
+		- ## search key
+		  id:: 66fe71f9-a903-4797-9041-a66f102bda49
+		- ## search scope
+		  id:: 66fe72c4-3ad3-41a2-b1bc-dd70a97176fd
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66fe754c-1858-4aff-bf23-510cd9ebb5b0))
+			- search space
+			  id:: 66fe754c-1858-4aff-bf23-510cd9ebb5b0
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd)) is the place where the ((66fe70ac-04d0-45b5-b771-b072cc0fa7be)) is taken placed.
+	- JavaScript
+	  collapsed:: true
+		- moved to ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 -
