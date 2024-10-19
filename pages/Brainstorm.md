@@ -1051,11 +1051,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The external form on x-axis is the "real", i.e. visible part, while the internal content on p-axis is the "imaginary", i.e. invisible part.
 			- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
 		- "Light" is just an arrrow of the relaxed quantum. The light ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))s the original circle into various forms (shapes and sizes). => ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
-	- DOING karmic cycle
+	- karmic cycle
 	  id:: 6713a8e1-e460-4622-9ad6-87c804deccd8
 	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2024-10-19 Sat 19:42:23]
+	  CLOCK: [2024-10-19 Sat 19:42:23]--[2024-10-19 Sat 20:46:35] =>  01:04:12
 	  :END:
 		- Related: ((66e7d7dd-5f88-472c-8694-beb7222929bb))
 		  :LOGBOOK:
@@ -1066,6 +1066,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Karmic cycle may be small within a day, while samsara is usually refer to the life cycle.
 		- karmic relationship: "có duyên với  nhau"
 		- principle of karma: "luật nhân quả", principle of causality
+		  [Pratītya-samutpāda](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da): hetu (nhân) + pratītya (duyên) -> [phala](https://en.wikipedia.org/wiki/Phala) (quả)
 		- [karma](https://en.wikipedia.org/wiki/Karma) ~ [saṃskāra](https://en.wikipedia.org/wiki/Samskara_%28Indian_philosophy%29) = [saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) ~ [vāsanā](https://en.wikipedia.org/wiki/V%C4%81san%C4%81) = [bīja](https://en.wikipedia.org/wiki/B%C4%ABja)
 			- karma (action, nghiệp)
 			  is the most general term referring the whole causal cycle.
@@ -1085,4 +1086,3 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  is the hidden tendency imprinted in the memory due to the collection of past karma
 				- The Vietnamese word "nghiệp" usually refers to this tendency.
 				- ((6713b016-effb-4c0a-9b29-746770b99ce6)) is related to ((66e80666-5f29-4419-8db1-bf8cdce893e4))
-		- [Pratītya-samutpāda](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da): hetu (nhân) + pratītya (duyên) -> [phala](https://en.wikipedia.org/wiki/Phala) (quả)
