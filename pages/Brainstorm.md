@@ -1069,6 +1069,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- karma (action, nghiệp)
 			  is the most general term referring the whole causal cycle.
 			- saṃskāra (formation, hành)
-				-
+				- saṃ-skāra = work (kar) together (sam), with the root "kar" of "karma"
+				- active cause: sankhara-khandha (hành uẩn) in [5 aggregates](https://en.wikipedia.org/wiki/Skandha)
+				- passive effect: conditioned thing
+					- faf
 			- vāsanā (karmic imprint, tập khí)
 			- bīja (karmic seed, chủng tử)
