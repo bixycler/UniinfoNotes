@@ -735,7 +735,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  collapsed:: true
 			- After a bad cough, i stand up to escape this cold room and go out for a walk under the warm sun. Before returning the the lab room, i sit down for a while to think about the interaction between autonota in the ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)).
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((66e2ae92-feca-492f-9278-0f64f9d6d7e9))
-	- Toward the end of love karma/dept
+	- Toward the end of love karma/debt
 	  id:: 66e3a0f4-579a-4668-97c2-cbb9984e59c2
 	  collapsed:: true
 	  :LOGBOOK:
@@ -790,7 +790,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  Vườn ấy thường mọc lúa thơm tự nhiên, không có vỏ trấu, trắng như đóa hoa, đầy đủ các vị, như cơm trời Đao-lị. Vườn ấy thường có nồi chõ tự nhiên; có ngọc ma ni, tên là Diệm Quang đặt dưới nồi chõ; khi cơm chín, ánh sáng tắt, chẳng cần lửa củi, chẳng nhọc công người....
 				- Cũng như chúa Giê-su dựa trên nền tảng truyền thống Cựu Ước mà chế ra Tân Ước, Phật Thích Ca cũng dựa trên mô hình vũ trụ quanh núi Tu-di (Mount Meru) của truyền thống Bà-la-môn mà chế thêm nhiều tầng trời cao hơn nữa và cao nhứt là hư không, và giải thích việc Phạm Thiên Vương (Chúa tể Vũ Trụ, Brahman) tự coi mình là "đấng sáng thế" là do "không biết mình được tái sinh từ cõi trời bên trên xuống", và rằng dù có tuổi thọ rất lâu nhưng tất cả các vị trời này đều có sanh, có tử và tái sanh.
 			- Thầy Thích Minh Tuệ trả lời câu hỏi "Nếu ai cũng đi tu như thầy Thích Minh Tuệ, thì lấy đâu ra gạo thóc mà ăn?" bằng ý trong kinh [Kinh Khởi thế nhân bổn](https://suttacentral.net/dn27/vi/minh_chau)
-			  {{video https://youtu.be/dRj5A3T6zTE}}
+			  collapsed:: true
+				- {{video https://youtu.be/dRj5A3T6zTE}}
 		- [Aggañña Sutta](https://en.wikipedia.org/wiki/Agga%C3%B1%C3%B1a_Sutta): Long Discourses > 27. [What Came First](https://suttacentral.net/dn27/en/sujato)
 			- Trường Bộ Kinh > 27. [Kinh Khởi thế nhân bổn](https://suttacentral.net/dn27/vi/minh_chau)
 		- Long Discourses > 30. Description of the World > Chapter 12: [The Origins of the World](https://suttacentral.net/da30/en/patton#12)
@@ -914,4 +915,120 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  :END:
 		- Động > Thương > Tịnh (Định) > Huệ
 		- Thương là đứa hay khóc, là "con đĩ nhỏ lắm mồm" dẫn tới "nghiệp lý thuyết", là đứa mắc nợ tình cảm.
-	-
+	- Hegel's "[World of Appearances](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm)": from Essence to Form, Matter, Content, and Appearance
+	  id:: 66faa5fa-d11a-4828-848e-b24bddba5411
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-14 Mon 20:33:32]
+	  CLOCK: [2024-10-14 Mon 20:38:56]--[2024-10-14 Mon 20:54:52] =>  00:15:56
+	  :END:
+		- **Essence**: This is not only the innermost and permanent nature of the Thing, but also the whole complex of "reflection" (light thrown into itself)... which is so complicated that Hegel himself said that it's [‘the most difficult branch of logic’](https://www.marxists.org/reference/archive/hegel/help/mean03.htm).
+		  [§ 112](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm#SL112n) [Shorter Logic]
+		  > ... there is a permanence in things, and that permanence is in **the first instance** their Essence.
+		  > That reflection, or light thrown into itself, constitutes the distinction between Essence and immediate Being, and is the peculiar characteristic of Essence itself.
+		- **Form**: This is the "***determinateness***" of the Essence. It's not not an "addition to the Essence" but an emergence from the Essence via the "reflection of essence into essence itself".
+		  [§ 976](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_449a) [Greater Logic]
+		  > To say that _form determines essence_ means, therefore, that form, in its distinguishing, sublates this very distinguishing, and (form) is the self-identity which essence is as the subsistence of the determination; ...
+		- **Matter**: This is the part of Essence that can naturally be (relatively) "formless". A thing can be disintegrated into their component materials (matters). And 
+		  [§ 126](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm#SL126) [Shorter Logic]
+		  > this disintegration into independent matters is properly restricted to *inorganic nature only*
+		- **Content**: This is the totality of relations and potentialities of the Thing, which includes Form, Matter, Essence and their complicated relations as well as relations to others via Appearance (External Form).
+		  id:: 670d1f75-b9a6-490a-9759-9f09189167b7
+		  [§ 133](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL133) [Shorter Logic]
+		  > Outside one another as the phenomena in this phenomenal world are, they form a totality, and are wholly contained in their self-relatedness. In this way **the self-relation of the phenomenon** is completely specified, it has the Form in itself... So it comes about that the form is **Content**: and in its phase is the Law of the Phenomenon.
+		  When the form, on the contrary, is not reflected into self, it is equivalent to the negative of the phenomenon, to the non-independent and changeable: and that sort of form is the indifferent or _External Form_.
+		  > There is thus a doubling of form. At one time it is reflected into itself; and then is identical with the **content**. At another time it is not reflected into itself, and then it is external existence (_external form_), which does not at all affect the content.
+		  
+		  [§ 135](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL135) [Shorter Logic]
+		  > The content is the whole, and consists of the parts (the form), its counterpart.
+		- **Appearance**: This is the dialectic of Form and Content, the relation between them. Appearance is the outward development of the _mere_ Being by adding relations to the Being.
+		  id:: 67123b17-b024-414a-a5dd-ba05965eefe7
+		  [§ 131](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL131n) [Shorter Logic]
+		  > But appearance (forth-showing) is not to be confused with a mere show (shining). Show is the proximate truth of Being or [immediacy](https://www.marxists.org/reference/archive/hegel/help/glossary.htm#immediate). ...
+		  > Appearance is higher than mere Being — a richer category because it holds in combination the two elements of reflection-into-self and reflection-into-other: whereas Being (or immediacy) is still mere relationlessness, and apparently rests upon itself alone. Still, to say that anything is *only an appearance* suggests a real flaw, which consists in this, that Appearance is still divided against itself and without intrinsic stability.
+		  
+		  [§ 134](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL134) [Shorter Logic]
+		  > When thus explicitly stated, _the phenomenon is **relativity** or **correlation**_...
+		- Hegel summarized them like this: [§ 989](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455) [Greater Logic]
+			- > At first, form stands opposed to essence; it is then the simple ground relation, and its determinations are the ground and the grounded.
+			- > Secondly, it stands opposed to matter; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.
+			- > Lastly, it stands opposed to content; and then its determinations are again form itself and matter.
+		- ((66c33468-23d5-44d7-955e-6711cb608157))
+			- Chat with Gemini: [Hegel's Philosophy of Form](https://gemini.google.com/app/c8e4b0ec829815c2)
+			- [Marxists Internet Archive Encyclopedia](https://www.marxists.org/glossary/index.htm) >
+				- Glossary of Terms > [Content and Form](https://www.marxists.org/glossary/terms/c/o.htm)
+				- [Encyclopaedia of the Philosophical Sciences](https://www.marxists.org/reference/archive/hegel/works/ol/encycind.htm) > [(A) The Science of Logic [A.K.A. Shorter Logic]](https://www.marxists.org/reference/archive/hegel/works/sl/) > [VIII. Essence](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm) > [B. Appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm)
+					- (a) The World of Appearances; [(b) Content and Form](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL133); (c) Relation or Correlation
+				- [Science of Logic [A.K.A. Greater Logic]](https://www.marxists.org/reference/archive/hegel/works/hl/) > [Book Two: The Doctrine of Essence](https://www.marxists.org/reference/archive/hegel/works/hl/hlessenc.htm) >
+					- [Section One: Essence as Reflection Within Itself](https://www.marxists.org/reference/archive/hegel/works/hl/hlessenc.htm#HL2_393) > [Chapter 3: Ground](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm) > [A. ABSOLUTE GROUND](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_447) > (a) Form and Essence; (b) Form and Matter; [(c) Form and Content](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455)
+					- [Section Two: Appearance](https://www.marxists.org/reference/archive/hegel/works/hl/hlessenc.htm#HL2_479) > Chapter 2. Appearance > [A. THE LAW OF APPEARANCE](https://www.marxists.org/reference/archive/hegel/works/hl/hl500.htm#HL2_500)
+			- [Hegel.net](https://hegel.net/) > [1.2.1.3.1.3. Form and Content](https://hegel.net/en/e121313.htm#treeview)
+	- The saying about properties of info-knowledge-wisdom:
+	  id:: 670f3de5-bee6-44e4-8757-fb5eba325f79
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-16 Wed 11:23:27]
+	  :END:
+	  > No diff no info, no same no knowledge, no fair no wisdom.
+		- History:
+		  collapsed:: true
+			- This saying has its root from a lecture of a teacher of mine in my freshman year at ((6710fc09-fc5f-447b-9faf-5ea31b29c1fb)), where he said that "information has no redundancy" just like in [data compression algorithms](https://en.wikipedia.org/wiki/Data_compression).
+			- First
+			  > No diff no info, no sim no knowledge.
+			- Then added the third
+			  > No diff no info, no sim no knowledge, no fair no wisdom.
+			- Now change the prfix "sim-" to the whole word "same" becaus it's nearer to the Proto-Indo-European root "[sem](https://www.etymonline.com/word/*sem-)".
+			  > No diff no info, no same no knowledge, no fair no wisdom.
+		- The Proto-Indo-European root "[sem](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/sem-)"
+		  collapsed:: true
+			- -> Sanskrit root "sam-" ([सम्-](https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%AE%E0%A5%8D-#Sanskrit)) -> "saṃsāra" ([संसार](https://en.wiktionary.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A4%BE%E0%A4%B0#Sanskrit))
+			- -> Ancient Greek root "sun-" ([συν-](https://en.wiktionary.org/wiki/%CF%83%CF%85%CE%BD-#Ancient_Greek))
+				- -> English root "[syn-](https://en.wiktionary.org/wiki/syn-#English)"
+					- Compared to the Latin root ["co-" about complementarity](((670f4f06-b543-47d7-ab5d-846dcdd2281e))), "syn-" is more about integration and unification.
+					  id:: 670f4de4-d9da-4bf3-9cb3-1e5c03457c81
+						- "[synthesis](https://en.wiktionary.org/wiki/synthesis#English)" means creating something new from different elements.
+						- "[symphony](https://en.wiktionary.org/wiki/symphony#English)" blends various musical instruments into a harmonious piece.
+						- "[symbiosis](https://en.wiktionary.org/wiki/symbiosis#English)" describes a relationship where both organisms benefit and integrate their lives for mutual support.
+			- -> Proto-Italic [*semalis](https://en.wiktionary.org/wiki/Reconstruction:Proto-Italic/semalis) -> Latin [similis](https://en.wiktionary.org/wiki/similis#Latin) -> English "[similar](https://en.wiktionary.org/wiki/similar#English)"
+			- -> Proto-Indo-European "[*somHós](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/somH%C3%B3s)" -> Proto-Germanic [*samaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/samaz) -> English "[same](https://en.wiktionary.org/wiki/same#English)"
+		- The root "co-" for complementarity (versus ["syn-" for unification](((670f4de4-d9da-4bf3-9cb3-1e5c03457c81))))
+		  id:: 670f4f06-b543-47d7-ab5d-846dcdd2281e
+		  collapsed:: true
+			- Proto-Indo-European "[*ḱóm](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/%E1%B8%B1%C3%B3m)" -> Proto-Italic "[*kom](https://en.wiktionary.org/wiki/Reconstruction:Proto-Italic/kom)" -> Latin preposition "[cum](https://en.wiktionary.org/wiki/cum#Latin)" -> Latin root "[con-](https://en.wiktionary.org/wiki/con-#Latin)" -> English root "[co-](https://en.wiktionary.org/wiki/co-#English)"
+			  id:: 67110460-88c4-480d-9ac7-a9af44271e3b
+				- "[colatitude](https://en.wikipedia.org/wiki/Colatitude)" is the complement of a latitude, in spherical coordinates, i.e. the difference between a latitude and 90°.
+				  id:: 67110460-c09b-4d62-a9dd-71e8388dc904
+				- "[codomain](https://en.wikipedia.org/wiki/Codomain)" is the domain $Y$ of the destitation $y$ which is dual to the domain $X$ of the source $x$ in mapping $f: X -> Y$.
+				  id:: 670f5fa5-4e2b-4239-aeea-c1267f124d20
+				- "[coarea](https://en.wikipedia.org/wiki/Smooth_coarea_formula)" is the integral over a codomain which is dual to the integral over domain.
+				  id:: 67110460-5e1c-4dd0-8ff1-de1f539bcbbe
+				- "[cocategory](https://ncatlab.org/nlab/show/cocategory)" is the [dual](https://en.wikipedia.org/wiki/Dual_(category_theory)) of a category via the [opposite category](https://ncatlab.org/nlab/show/opposite+category) where all arrows have direction reversed.
+				  id:: 670f5dfd-ff92-4122-a1d8-8dfaed3bd122
+					- cocategory is to category as [colimits is to limits](https://en.wikipedia.org/wiki/Limit_(category_theory))
+					  id:: 67110460-0b9a-4d1d-b38d-6280a32b5c4f
+						- [initial objects vs terminal objects](https://en.wikipedia.org/wiki/Initial_and_terminal_objects)
+						- [coproduct](https://en.wikipedia.org/wiki/Coproduct) vs [product](https://en.wikipedia.org/wiki/Product_(category_theory))
+						- [pushout](https://en.wikipedia.org/wiki/Pushout_(category_theory)) vs [pullback](https://en.wikipedia.org/wiki/Pullback_(category_theory))
+			- used in ((670f2f5f-ec97-4287-a711-1988ca03a262)), and "cointerface".
+			  id:: 67110460-2f01-4365-a5f4-8053b08136e9
+	- Chat about "free will" and choices, 2024-10-17
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-17 Thu 18:26:59]
+	  :END:
+		- Huy
+		  > Tui nghĩ về "ảo tưởng sự lựa chọn", có lẽ nó xuất phát từ đầu óc biện biệt, nghĩ rằng mình có thể tách rời mọi thứ ra để xem xét một cách độc lập mà quên rằng mọi thứ là kết nối chồng chéo nhân duyên với nhau.
+		  > Như có lần tui hỏi giả sử bứng "cái cây" Định qua trồng trên "mảnh đất" của ông Minh Tuệ thì sao. Cả một cuộc đời mà tui còn ảo tưởng có thể lựa chọn được huống hồ gì những sự kiện nhỏ hơn trong đời sống hàng ngày.
+		- Định
+			- 👍️
+			- Thì free will là một chủ đề lớn trong triết học và cả thần học mà 😃
+			- Chúa ban cho con người **cảm giác** tự do lựa chọn để bắt con người phải có trách nhiệm thôi 😃
+			- Cái cảm giác đó được các thí nghiệm tâm lý lẫn thần kinh học hiện đại chứng minh là một "ảo giác". Tui nhớ có thí nghiệm người ta hack não thì biết được kết quả lựa chọn của 1 người trước khi người đó ra quyết định... 0.7 giây 😃
+			- tự do lựa chọn chỉ đơn giản là hệ quả của **blackbox**: cái gì không thấy bên trong thì nó mặc định là Tôi, nó ra quyết định gì thì đó là "Tôi chọn", còn quyết định đó từ đâu ra, do Chúa "giật dây như điều khiển con rối" (thuyết định mệnh) hay do chùm nhân quả chằng chịt nào đó (thuyết nhân quả) thì thường là chúng ta ko biết.
+			- Tui thấy đơn giản như vầy: có tự do tương đối, tức tự do trên interface, nhưng ko có tự do tuyệt đối như cảm giác thông thường của đa số người
+			- Trên interface thì by def. là bất kỳ agent nào, dù là automaton cơ khí đơn giản nhứt cũng là 1 blackbox (phần implementation) nên cũng có tự do lựa chọn. Còn bản thân agent đó  lệ thuộc thế nào vào những thứ khác thì tuỳ vào implementation của nó.
+			- Đó cũng là 1 mâu thuẫn cơ bản: kẻ càng giải thoát càng biết mình chẳng có tự do... nhưng lại thể hiện ra là tự do hơn kẻ khác
+			- ko chỉ giới hạn trong bọn hữu cơ, các bọn vô cơ như máy tính, hay 1 hạt cát cũng thể hiện rõ ràng cái **tự do biểu kiến** trên interface. Bọn vô cơ trong tự nhiên thì thể hiện tự do biểu kiến qua sự **ngẫu nhiên**. Bất kỳ một blackbox nào cũng có quyền lựa chọn phản ứng của nó đáp lại một tín hiệu input mà kẻ input không thể nào biết trước được 100%.
+			- Và thú vị là chính con người thông minh, cho rằng mình có tự do lựa chọn lại nhiều khi bị ghiền việc "nhờ cục xúc-sắc vô tri lựa chọn giùm" 😃
+			- Vì cái tự do biểu kiến đó quá ảo nên nhiều khi bị rơi vào tình huống "lật mặt" thì người ta nhảy sang thái cực "định mệnh", tức pre-determined. Theo tui thì cái tự do thực sự (không biểu kiến) nằm ở chỗ determined nhưng không phải pre-detemined 😃 Cái chỗ này vi tế khó nói, nhưng đại khái là chúng ta có tự do ở **thái độ**, hay nói theo vật lý là tự do ở "lực", và nói theo nhân quả là ở "nhân". Nó khác với cái tự do biểu kiến ở hành động, ở vận tốc, vị trí, ở quả.
+			- Vì nhân, lực, thái độ là những thứ vô hình so với sự hiển hiện của quả, vị trí, vận tốc, hành động, nên cái tự do gốc này = 0 so với sự tự do biểu kiến, tức nếu nhìn theo thước đo của tự do biểu kiến thì ta "không có tự do" 😃
