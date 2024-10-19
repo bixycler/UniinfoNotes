@@ -50,7 +50,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	-
 	- ## Git WIPs
 	  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
-		- ((67138488-2781-42cb-88d4-888346f71c11)): process of WIPs & merge-squash
+		- ((67138488-2781-42cb-88d4-888346f71c11)), ((67139af7-47a6-4441-bd72-5a75448dbb1b)): process of WIPs, merge, and cherry-pick
 	-
 	-
 	- ## Tasks
