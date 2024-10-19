@@ -1787,6 +1787,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This meta-note about UniinfoNotes is a note in UniinfoNotes itself.
 		- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/bixycler/UniinfoNotes
+			- `log` branch
+			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual checkpoint commits to be squashed & cherry-picked into the ((67138523-d69f-4836-bff7-e464d913b6eb)).
+			- `main` branch
+			  id:: 67138523-d69f-4836-bff7-e464d913b6eb
+			  is the official branch.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
 			- ((66978876-9378-4059-8783-868d041e8e2e)) are used to share doc content between places.
@@ -3001,10 +3006,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://logseq.com/
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536e1b-6466-4153-90d6-583003d99a81)) is an ((66536d32-30ad-4c07-8585-76ae9eb7fb22)) like [Roam](https://roamresearch.com), but [open-source](https://github.com/logseq/logseq): outlining based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
+		  collapsed:: true
 			- Installations:
 			  collapsed:: true
 				- Windows: Just download and run the `.exe` file at [Downloads page](https://logseq.com/downloads).
-					- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `%USERPROFILE%/{.logseq,.config/Logseq}/`
+					- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `%USERPROFILE%/{.logseq,AppData/Roaming/Logseq}/`
 				- Linux: There are many choices.
 					- The `.AppImage` file at [Downloads page](https://logseq.com/downloads) can be run right away, just after making it executable (`chmod +x`).
 					  id:: 66faa5f9-d333-47df-88cf-7c6fab827842
@@ -3737,12 +3743,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `graphs/*.transit`
 				  id:: 66f7b4fd-e34e-4fc3-9c2d-d468206d279b
 				  contains all graphs loaded by LogSeq. Each graph is managed by LogSeq internally, with a `.transit` file, to be a "mirror" of the corresponding `.md` files ... as much as possible.
-			- `config/Logseq/` (Electron) app folder
+			- `Logseq/` (Electron) app folder
 			  id:: 6710c36b-6b29-42c5-b0e4-fc79e5e449a2
 				- `configs.edn`
 				  id:: 6710c556-1259-4fd5-a9d0-02216274a852
 				  contains some app-related configs (`:userAppCfgs`, `:electron/user-cfgs`)
 					- `:server/{host,port,autostart}`
+					  collapsed:: true
 					  for ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
 					- `:git/{auto-commit-seconds,commit-on-close}`
 					  for ((66faa5f9-8ffd-4542-b916-6e3528cabad8))
