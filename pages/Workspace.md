@@ -19,7 +19,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-10-20 Sun 20:15:42]
 		  :END:
 		-
+		- TODO update Logseq workflow for shared pages
 		- TODO move this block to [[Git]]
+			-
 			- nested repository
 				- When adding folder `$subrepo` containing `.git` to another (outer) git repo, its contents cannot be added. Only one *file* `$subrepo` is added as an anchor to the current `HEAD` commit of a nested repo.
 				  collapsed:: true
@@ -47,16 +49,24 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- This inner repo commit should be chosen to match the current state of the outer repo.
 					- The outer repo's `.gitmodules` tracks metadata (path & URL) of the `$subrepo`.
 				- nested repo as a normal folder
-					- We can workaround by cheating Git: move the `.git` in `$subrepo` away so that Git see `$subrepo` as a normal folder, add this folder, then move its `.git` back.
-					  ```sh
-					  mv $subrepo/.git $tmp/$subrepo.git
-					  git add $subrepo
-					  mv $tmp/$subrepo.git $subrepo/.git
-					  ```
+				  collapsed:: true
+					- We can workaround by cheating Git.
+						- 1st way: Move the `.git` in `$subrepo` away so that Git see `$subrepo` as a normal folder, add this folder, then move its `.git` back.
+						  ```sh
+						  mv $subrepo/.git $tmp/$subrepo.git
+						  git add $subrepo
+						  mv $tmp/$subrepo.git $subrepo/.git
+						  ```
+						- 2nd way: Use the low-level plumbing command
+						  ```sh
+						  git update-index --add $subrepo
+						  ```
 					- If `$subrepo` has been accidentally added as a nested repo, it must be removed first
 					  ```sh
 					  git rm [--cached] $subrepo
 					  ```
+					- References:
+						- StackOverflow: [Git: forcing `add` when file is in nested git repository](https://stackoverflow.com/questions/70289416/git-forcing-add-when-file-is-in-nested-git-repository)
 		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
