@@ -9,8 +9,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		- ### Git WIPs
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
-			-
+			- ((6677ea1b-479e-40b0-ab8e-64cf5c769e57))
+			- Update ((66600918-8c61-42af-b8a2-04bf05e9f782))
 			- ...
+		- DOING Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
+		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
+		  :LOGBOOK:
+		  CLOCK: [2024-06-23 Sun 16:26:28]
+		  CLOCK: [2024-10-20 Sun 20:15:42]
+		  :END:
 		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
@@ -46,11 +53,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :END:
 		-
 		- ---
-		- TODO Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
-		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
-		  :LOGBOOK:
-		  CLOCK: [2024-06-23 Sun 16:26:28]
-		  :END:
 		-
 	-
 	- ## Tasks

@@ -3526,6 +3526,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- Use the built-in feature "Export public pages".
 				  collapsed:: true
+					-
 					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
 					- So i customize `data-color=logseq` to match CreatZy theme.
 					  id:: 66698fb6-d9ac-423f-845c-0f0f5c93abf2
