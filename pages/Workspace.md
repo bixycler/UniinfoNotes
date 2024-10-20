@@ -7,6 +7,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
+		- ### Git WIPs
+		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
+			- Problem of choice
+				- ((67137e75-0e28-4f09-b6a2-0e2276335be3))
+			- ...
+			-
+		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
 		-
@@ -48,11 +55,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :END:
 		-
 	-
-	- ## Git WIPs
-	  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
-		- ((6713a8e1-e460-4622-9ad6-87c804deccd8)): saṅkhāra, vāsanā, bīja
-		- ...
-		-
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
 		-
