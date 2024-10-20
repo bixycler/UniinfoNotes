@@ -1066,7 +1066,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Karmic cycle may be small within a day, while samsara is usually refer to the life cycle.
 		- karmic relationship: "có duyên với  nhau"
 		- principle of karma: "luật nhân quả", principle of causality
-		  [Pratītya-samutpāda](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da): hetu (nhân) + pratītya (duyên) -> [phala](https://en.wikipedia.org/wiki/Phala) (quả)
+		  id:: 6713acf0-2eb0-423b-ac61-6f595ea12b86
+		  collapsed:: true
+		  [Pratītya-samutpāda](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da): hetu + pratītya -> [phala](https://en.wikipedia.org/wiki/Phala)
+			- hetu ([main] cause, seed, nhân)
+			- pratītya (condition, duyên)
+			- phala (fruit, quả)
 		- [karma](https://en.wikipedia.org/wiki/Karma) ~ [saṃskāra](https://en.wikipedia.org/wiki/Samskara_%28Indian_philosophy%29) = [saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) ~ [vāsanā](https://en.wikipedia.org/wiki/V%C4%81san%C4%81) = [bīja](https://en.wikipedia.org/wiki/B%C4%ABja)
 			- karma (action, nghiệp)
 			  is the most general term referring the whole causal cycle.
@@ -1086,7 +1091,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  is the hidden tendency imprinted in the memory due to the collection of past karma
 				- The Vietnamese word "nghiệp" usually refers to this tendency.
 				- ((6713b016-effb-4c0a-9b29-746770b99ce6)) is related to ((66e80666-5f29-4419-8db1-bf8cdce893e4))
-	- The choice determines the self and its ((6713a8e1-e460-4622-9ad6-87c804deccd8)).
+	- DOING The **choice** determines the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) and its ((6713a8e1-e460-4622-9ad6-87c804deccd8)).
 	  id:: 6714a66b-1bd2-4c9d-8ebc-2842f3095b3b
+	  :LOGBOOK:
+	  CLOCK: [2024-10-20 Sun 13:57:09]
+	  :END:
 		- ((67137e75-0e28-4f09-b6a2-0e2276335be3))
 		- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
+		- "Which one is is the seed thread, which one is the condition thread?"
+		  "Đâu là sợi nhân, đâu là sợi duyên?"
+			- This was my very first question about the ((6713acf0-2eb0-423b-ac61-6f595ea12b86))
+			-
