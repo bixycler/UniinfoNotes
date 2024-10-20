@@ -2858,9 +2858,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  default branch: `gh-pages`
 				- This is the "Classic GitHub Pages" with static HTML pages.
 				- Simply push the static content to the chosen branch (default to `gh-pages`), and it will be deployed to `https://$user.github.io/$repo/`!
+				- This deployment is done by the predefined action `pages-build-deployment`.
 			- Custom page from GitHub Actions
 			  id:: 671504da-2c66-46e4-af83-f99b9f488d6d
-				- This will deploy a website using an action defined by `.github/workflows/$publish_action.yml`, e.g.  Logseq's [publish-SPA](https://github.com/logseq/publish-spa) action.
+				- This will deploy a website using an action defined by `.github/workflows/$custom_publish_action.yml`, e.g.  Logseq's [publish-SPA](https://github.com/logseq/publish-spa) action.
 	- ## obsidian
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
 	  collapsed:: true
@@ -3540,9 +3541,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- Use the built-in feature "Export public pages".
 				  collapsed:: true
-					- Chose a separate folder to checkout the `gh-pages` branch, then export to that folder.
-						- Warning: Don't export to the same folder with the `main` branch, because their contents are very different.
-						- The published ((671503e5-690e-4f1f-ad53-419fd57543fe)) is:
+					- Chose a **separate folder** (`$web/`) to checkout the `gh-pages` branch, then export to that folder.
+						- Warning: Don't export to the same folder with the `main` branch (`$src/`), because their contents are very different.
+					- The folder `$web/` can be launched by ((6714f01d-3dd8-461c-9619-c5bac33451b0)).
+					- When `gh-pages` branch is pushed to GitHub, ((671503e5-690e-4f1f-ad53-419fd57543fe)) will deploy it to `https://$user.github.io/$repo/`.
 					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
 					- So i customize `data-color=logseq` to match CreatZy theme.
 					  id:: 66698fb6-d9ac-423f-845c-0f0f5c93abf2
@@ -4081,7 +4083,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `Content-Encoding`
 			- `Cookie`
 		- ### HTTPS
-		- ### HTTP Servers
+		- ### Web Servers
+		  id:: 6714f01d-3dd8-461c-9619-c5bac33451b0
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Web_server
 			- Python's simple [http.server](https://docs.python.org/3/library/http.server.html) ([SimpleHTTPRequestHandler](https://docs.python.org/3/library/http.server.html#http.server.SimpleHTTPRequestHandler))
 			  id:: 6714f028-4e17-41b8-a6d3-88bfb0d5d1f9
 			  collapsed:: true
