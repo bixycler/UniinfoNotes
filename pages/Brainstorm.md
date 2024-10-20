@@ -1112,8 +1112,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The self selects conditions to match that main cause.
 				- The self cherry-picks the fruit according to its criteria which is just another kind of main causes.
 		- ((66e80666-5f29-4419-8db1-bf8cdce893e4))
-		- accept (no choice) vs intent (choice)
+		- accept (choiceless) vs intent (choice)
 			- They are 2 opposite ends but are united in the circle of learning:
 			  accept -> learn -> intent to follow that lesson of "acceptance is the best" -> acceptive attitude -> accept
-			- I usually place my ((667272b8-88a8-4928-a22a-35035c9edf05)) at the "accept", so i see all of the chain of effects as "no choice". But that's just relative.
-			- The choice at the "intent" does affect
+			- I usually place my ((667272b8-88a8-4928-a22a-35035c9edf05)) at the "accept", so i see all of the chain of effects as "no choice". But that's just relative, because...
+			- The choice at the "intent" does affect the acceptance and what will be learnt next.
+			- [choiceless awareness](https://en.wikipedia.org/wiki/Choiceless_awareness) by [Jiddu Krishnamurti](https://en.wikipedia.org/wiki/Jiddu_Krishnamurti)
