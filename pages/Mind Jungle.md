@@ -1855,7 +1855,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [[logseq/custom.css]]
 				- [`pages/publish/Theme Demo.md`]([[Theme Demo]])
 				- [`pages/publish/technical/Git.md`]([[Git]])
-			- Workflow:
+			- Workflow
+				- Never do any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
+				- Always update hard-linked files from local repos.
+				- When a hard-linked file must be updated from remote,
+					- at remote repo, the update contents must be transported via the ((66519638-cf5d-409b-9b98-15acabf2268c)) which is not hard-linked; then
+					- at local repo, these contents (blocks) will be moved to the hard-linked files.
 		- DOING CreatZy [shorthands](((66ff4478-6eae-4633-b7be-fd42e2bcda5b)))
 		  id:: 66fe9e2e-13cf-4b31-96e7-1b050eed47c4
 		  :LOGBOOK:

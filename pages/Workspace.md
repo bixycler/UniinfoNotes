@@ -11,10 +11,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
 			- ((6677ea1b-479e-40b0-ab8e-64cf5c769e57))
 			- Update ((66600918-8c61-42af-b8a2-04bf05e9f782)) with ((671503e5-690e-4f1f-ad53-419fd57543fe))
-			- Update Git
-			- DOING update Logseq workflow for har
+			- ((67151ca6-a2fa-49b5-9f8c-d24eebace7c4))
+			- Update Logseq workflow for ((66978876-9378-4059-8783-868d041e8e2e))
 			  :LOGBOOK:
-			  CLOCK: [2024-10-20 Sun 23:49:20]
+			  CLOCK: [2024-10-20 Sun 23:49:20]--[2024-10-20 Sun 23:59:53] =>  00:10:33
 			  :END:
 			- ...
 		-
@@ -26,6 +26,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :END:
 		-
 		- TODO move this block to [[Git]]
+		  id:: 67151ca6-a2fa-49b5-9f8c-d24eebace7c4
 			- working tree
 			  id:: 67152d29-5cee-475d-a01b-bbc9c9ad3417
 			  collapsed:: true
