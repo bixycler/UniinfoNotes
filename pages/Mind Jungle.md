@@ -4063,7 +4063,32 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `Content-Encoding`
 			- `Cookie`
 		- ### HTTP Servers
-			-
+			- Python's simple [http.server](https://docs.python.org/3/library/http.server.html) ([SimpleHTTPRequestHandler](https://docs.python.org/3/library/http.server.html#http.server.SimpleHTTPRequestHandler))
+			  id:: 6714f028-4e17-41b8-a6d3-88bfb0d5d1f9
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-10-20 Sun 18:35:00]--[2024-10-20 Sun 18:45:19] =>  00:10:19
+			  :END:
+				- Direct use of the module
+				  ```sh
+				  cd $HTTP_host_dir
+				  python3 -m http.server [$PORT]
+				  # Default $PORT = 8000 --^
+				  ```
+				- Use in a python script
+				  ```python
+				  import http.server
+				  import socketserver
+				  
+				  PORT = 8000
+				  
+				  Handler = http.server.SimpleHTTPRequestHandler
+				  
+				  with socketserver.TCPServer(("", PORT), Handler) as httpd:
+				      print("serving at port", PORT)
+				      httpd.serve_forever()
+				  ```
+				- StackOverflow: [Best lightweight web server (only static content)](https://stackoverflow.com/a/5128451/789095)
 	- ## Google Chrome
 	  collapsed:: true
 	  :LOGBOOK:

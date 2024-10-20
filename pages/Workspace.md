@@ -9,17 +9,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		- ### Git WIPs
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
-			- DONE Simple HTTP server with Python
+			- ((6714f028-4e17-41b8-a6d3-88bfb0d5d1f9))
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-10-20 Sun 18:35:00]--[2024-10-20 Sun 18:45:19] =>  00:10:19
 			  :END:
-				- ```sh
-				  cd $HTTP_host_dir
-				  python3 -m http.server [$PORT]
-				  # Default $PORT = 8000 --^
-				  ```
-				- StackOverflow: [Best lightweight web server (only static content)](https://stackoverflow.com/a/5128451/789095)
 			- ...
 			- ...
 			-
