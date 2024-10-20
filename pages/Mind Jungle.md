@@ -1855,6 +1855,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [[logseq/custom.css]]
 				- [`pages/publish/Theme Demo.md`]([[Theme Demo]])
 				- [`pages/publish/technical/Git.md`]([[Git]])
+			- Workflow:
 		- DOING CreatZy [shorthands](((66ff4478-6eae-4633-b7be-fd42e2bcda5b)))
 		  id:: 66fe9e2e-13cf-4b31-96e7-1b050eed47c4
 		  :LOGBOOK:
@@ -3788,6 +3789,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `graphs/*.transit`
 				  id:: 66f7b4fd-e34e-4fc3-9c2d-d468206d279b
 				  contains all graphs loaded by LogSeq. Each graph is managed by LogSeq internally, with a `.transit` file, to be a "mirror" of the corresponding `.md` files ... as much as possible.
+				- `git/`
+				  contains ((67152861-f595-4ad1-88a9-9363082d03eb)) of the graphs that are added from non-Git folders.
+					- A ((67152b95-02b4-473b-a88b-6cbab4b46749)) named `.git` will be added to the folder of that graph instead of the normal `.git/` folder.
 			- `Logseq/` (Electron) app folder
 			  id:: 6710c36b-6b29-42c5-b0e4-fc79e5e449a2
 				- `configs.edn`

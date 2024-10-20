@@ -11,7 +11,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
 			- ((6677ea1b-479e-40b0-ab8e-64cf5c769e57))
 			- Update ((66600918-8c61-42af-b8a2-04bf05e9f782)) with ((671503e5-690e-4f1f-ad53-419fd57543fe))
+			- Update Git
+			- DOING update Logseq workflow for har
+			  :LOGBOOK:
+			  CLOCK: [2024-10-20 Sun 23:49:20]
+			  :END:
 			- ...
+		-
 		- DOING Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
 		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
 		  :LOGBOOK:
@@ -19,7 +25,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-10-20 Sun 20:15:42]
 		  :END:
 		-
-		- TODO update Logseq workflow for shared pages
 		- TODO move this block to [[Git]]
 			- working tree
 			  id:: 67152d29-5cee-475d-a01b-bbc9c9ad3417
@@ -37,6 +42,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67152b95-02b4-473b-a88b-6cbab4b46749)) is a file named `.git` at the root of the working tree pointing to an external folder. This is a convenient way to **separate** ((67152861-f595-4ad1-88a9-9363082d03eb)) from ((67152d29-5cee-475d-a01b-bbc9c9ad3417)), so that Git repo will not be affected _even when the whole working tree is cleared up_. Using `gitfile`, we can configure many separate working trees as separate ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same repo, e.g. to checkout and manage different branches with no need to clone the same remote repo into many local repos.
 					- Use cases: ((67151eb0-94a3-47bb-a7f9-25561690e75d)), `.logseq/git/`
 			- nested repository
+			  collapsed:: true
 				- When adding folder `$subrepo` containing `.git` to another (outer) git repo, its contents cannot be added. Only one *file* `$subrepo` is added as an anchor to the current `HEAD` commit of a nested repo.
 				  collapsed:: true
 					- warning: `adding embedded git repository: $subrepo`
