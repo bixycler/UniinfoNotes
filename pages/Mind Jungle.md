@@ -4089,6 +4089,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				      httpd.serve_forever()
 				  ```
 				- StackOverflow: [Best lightweight web server (only static content)](https://stackoverflow.com/a/5128451/789095)
+			- Modern IDEs like IntelliJ, Visual Studio Code, support live simple HTTP server right from the opening HTML file.
+			- #### Apache
+			- #### NGINX
 	- ## Google Chrome
 	  collapsed:: true
 	  :LOGBOOK:
