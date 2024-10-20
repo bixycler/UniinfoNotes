@@ -2847,6 +2847,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/GitHub
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536662-052f-46a4-a624-38858bffb334)) is an online hub for ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)).
 		- ((66536578-c4d3-43f1-b35c-bf71120f0570))'s profile: https://github.com/bixycler
+		- ### GitHub Pages
+			- Docs: https://docs.github.com/en/pages
+			- `Settings` > `Pages` > `Build and deployment` >
+				- `Source`
+					- Chose [](((67150484-1ae6-4420-a63a-fa1d55503bbb))) or [GitHub Actions](((671504da-2c66-46e4-af83-f99b9f488d6d)))
+			- Pages from a branch
+			  id:: 67150484-1ae6-4420-a63a-fa1d55503bbb
+				- This is the "Classic GitHub Pages" with static HTML pages
+			- Custom page from GitHub Actions
+			  id:: 671504da-2c66-46e4-af83-f99b9f488d6d
 	- ## obsidian
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
 	  collapsed:: true
@@ -3527,6 +3537,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Use the built-in feature "Export public pages".
 				  collapsed:: true
 					-
+						- ((66536662-052f-46a4-a624-38858bffb334)) Pages
 					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
 					- So i customize `data-color=logseq` to match CreatZy theme.
 					  id:: 66698fb6-d9ac-423f-845c-0f0f5c93abf2
