@@ -39,7 +39,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  hint:
 					  hint: See "git help submodule" for more information.
 					  ```
-				- Either
+				- [Submodule]
+					- [](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+					- The outer repo's `.gitmodules` tracks metadata (path & URL) of the `$subrepo`.
+					- The file `$subrepo` contains only a specific commit hash.
 		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
