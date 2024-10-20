@@ -2852,11 +2852,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `Settings` > `Pages` > `Build and deployment` >
 				- `Source`
 					- Chose [](((67150484-1ae6-4420-a63a-fa1d55503bbb))) or [GitHub Actions](((671504da-2c66-46e4-af83-f99b9f488d6d)))
-			- Pages from a branch
+			- Pages from a branch 
 			  id:: 67150484-1ae6-4420-a63a-fa1d55503bbb
-				- This is the "Classic GitHub Pages" with static HTML pages
+			  default branch: `gh-pages`
+				- This is the "Classic GitHub Pages" with static HTML pages.
+				- Simply push the static content to the chosen branch (default to `gh-pages`), and it will be deployed to `https://$user.github.io/$repo/`!
 			- Custom page from GitHub Actions
 			  id:: 671504da-2c66-46e4-af83-f99b9f488d6d
+				- `.github/workflows/$publish.yml` like Logseq's [publish-SPA](https://github.com/logseq/publish-spa).
 	- ## obsidian
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
 	  collapsed:: true
