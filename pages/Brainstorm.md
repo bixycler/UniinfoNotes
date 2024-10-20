@@ -1103,7 +1103,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-10-20 Sun 13:57:09]
 	  :END:
 		- ((67137e75-0e28-4f09-b6a2-0e2276335be3))
-		- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
 		- "Which one is is the seed thread, which one is the condition thread?"
 		  "Đâu là sợi nhân, đâu là sợi duyên?"
 			- This was my very first question about the ((6713acf0-2eb0-423b-ac61-6f595ea12b86))
@@ -1113,3 +1112,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The self selects conditions to match that main cause.
 				- The self cherry-picks the fruit according to its criteria which is just another kind of main causes.
 		- ((66e80666-5f29-4419-8db1-bf8cdce893e4))
+		- accept (no choice) vs intent (choice)
+			- They are 2 opposite ends but are united in the circle of learning:
+			  accept -> learn -> intent to follow that lesson of "acceptance is the best" -> acceptive attitude -> accept
+			- I usually place my ((667272b8-88a8-4928-a22a-35035c9edf05)) at the "accept", so i see all of the chain of effects as "no choice". But that's just relative.
+			- The choice at the "intent" does affect
