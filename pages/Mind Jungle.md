@@ -2848,6 +2848,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536662-052f-46a4-a624-38858bffb334)) is an online hub for ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)).
 		- ((66536578-c4d3-43f1-b35c-bf71120f0570))'s profile: https://github.com/bixycler
 		- ### GitHub Pages
+		  id:: 671503e5-690e-4f1f-ad53-419fd57543fe
 			- Docs: https://docs.github.com/en/pages
 			- `Settings` > `Pages` > `Build and deployment` >
 				- `Source`
@@ -2859,7 +2860,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Simply push the static content to the chosen branch (default to `gh-pages`), and it will be deployed to `https://$user.github.io/$repo/`!
 			- Custom page from GitHub Actions
 			  id:: 671504da-2c66-46e4-af83-f99b9f488d6d
-				- `.github/workflows/$publish.yml` like Logseq's [publish-SPA](https://github.com/logseq/publish-spa).
+				- This will deploy a website using an action defined by `.github/workflows/$publish_action.yml`, e.g.  Logseq's [publish-SPA](https://github.com/logseq/publish-spa) action.
 	- ## obsidian
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
 	  collapsed:: true
@@ -3539,8 +3540,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- Use the built-in feature "Export public pages".
 				  collapsed:: true
-					-
-						- ((66536662-052f-46a4-a624-38858bffb334)) Pages
+					- Chose a separate folder to checkout the `gh-pages` branch, then export to that folder.
+						- Warning: Don't export to the same folder with the `main` branch, because their contents are very different.
+						- The published ((671503e5-690e-4f1f-ad53-419fd57543fe)) is:
 					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
 					- So i customize `data-color=logseq` to match CreatZy theme.
 					  id:: 66698fb6-d9ac-423f-845c-0f0f5c93abf2

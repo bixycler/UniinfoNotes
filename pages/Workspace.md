@@ -10,7 +10,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- ### Git WIPs
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
 			- ((6677ea1b-479e-40b0-ab8e-64cf5c769e57))
-			- Update ((66600918-8c61-42af-b8a2-04bf05e9f782))
+			- Update ((66600918-8c61-42af-b8a2-04bf05e9f782)) with ((671503e5-690e-4f1f-ad53-419fd57543fe))
 			- ...
 		- DOING Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
 		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
