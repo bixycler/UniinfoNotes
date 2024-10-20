@@ -1,0 +1,30 @@
+{
+  "org.gnome.Nautilus": [
+    {
+      "query": {
+        "title": "Home"
+      },
+      "action": 1
+    },
+    {
+      "threshold": 0.9,
+      "action": 0
+    }
+  ],
+  "gnome-system-monitor": [
+    {
+      "query": {
+        "title": "System Monitor"
+      },
+      "action": 1
+    }
+  ],
+  "gnome-terminal-server": [
+    {
+      "query": {
+        "title": "dinhlx@CPU000375:~"
+      },
+      "action": 1
+    }
+  ]
+}
