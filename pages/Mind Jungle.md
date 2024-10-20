@@ -4055,6 +4055,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### CSS
 			-
 	- ## HTTP
+	  id:: 6714ee7d-d83b-4f42-af22-badb410d4a58
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/HTTP
 		- ### HTTP Headers
@@ -4062,6 +4063,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `Content-Type`
 			- `Content-Encoding`
 			- `Cookie`
+		- ### HTTPS
 		- ### HTTP Servers
 			- Python's simple [http.server](https://docs.python.org/3/library/http.server.html) ([SimpleHTTPRequestHandler](https://docs.python.org/3/library/http.server.html#http.server.SimpleHTTPRequestHandler))
 			  id:: 6714f028-4e17-41b8-a6d3-88bfb0d5d1f9
@@ -4088,10 +4090,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				      print("serving at port", PORT)
 				      httpd.serve_forever()
 				  ```
-				- StackOverflow: [Best lightweight web server (only static content)](https://stackoverflow.com/a/5128451/789095)
+				- References
+					- StackOverflow: [Best lightweight web server (only static content)](https://stackoverflow.com/a/5128451/789095)
+					- RealPython: [How to Launch an HTTP Server in One Line of Python Code](https://realpython.com/python-http-server/)
+					  This is a comprehensive instruction to serve from simple static content to dynamic web page via CGI as well as HTTPS.
 			- Modern IDEs like IntelliJ, Visual Studio Code, support live simple HTTP server right from the opening HTML file.
 			- #### Apache
 			- #### NGINX
+		-
 	- ## Google Chrome
 	  collapsed:: true
 	  :LOGBOOK:
