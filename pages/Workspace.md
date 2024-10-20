@@ -21,7 +21,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		-
 		- TODO move this block to [[Git]]
 			- nested repository
-				- When adding folder `$subrepo` containing `.git` to another (outer) git repo, its contents cannot be added. Only one *file* `$subrepo` is added as a marker of a nested repo.
+				- When adding folder `$subrepo` containing `.git` to another (outer) git repo, its contents cannot be added. Only one *file* `$subrepo` is added as an anchor to the current `HEAD` commit of a nested repo.
 				  collapsed:: true
 					- warning: `adding embedded git repository: $subrepo`
 					  ```
@@ -39,10 +39,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  hint:
 					  hint: See "git help submodule" for more information.
 					  ```
-				- [Submodule]
-					- [](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+				- submodule
+				  collapsed:: true
+					- Official docs: [7.11 Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+					- The file `$subrepo` is the link between the two commits of the inner & outer repos.
+						- It contains a specific commit hash which has been added to the outer repo.
+						- This inner repo commit should be chosen to match the current state of the outer repo.
 					- The outer repo's `.gitmodules` tracks metadata (path & URL) of the `$subrepo`.
-					- The file `$subrepo` contains only a specific commit hash.
+				-
 		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
