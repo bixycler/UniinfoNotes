@@ -1062,7 +1062,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2024-10-19 Sat 19:42:23]
 		  :END:
 		- Blog [Nhân Duyên Nghiệp Quả](https://creatzynotes.blogspot.com/2021/01/nhan-duyen-nghiep-qua.html)
-		- karmic cycle ~ [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra)
+		- karmic cycle = ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra)
 			- Karmic cycle may be small within a day, while samsara is usually refer to the life cycle.
 		- karmic relationship: "có duyên với  nhau"
 		- principle of karma: "luật nhân quả", principle of causality
@@ -1086,3 +1086,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  is the hidden tendency imprinted in the memory due to the collection of past karma
 				- The Vietnamese word "nghiệp" usually refers to this tendency.
 				- ((6713b016-effb-4c0a-9b29-746770b99ce6)) is related to ((66e80666-5f29-4419-8db1-bf8cdce893e4))
+	- The choice determines the self and its ((6713a8e1-e460-4622-9ad6-87c804deccd8)).
+	  id:: 6714a66b-1bd2-4c9d-8ebc-2842f3095b3b
+		- ((67137e75-0e28-4f09-b6a2-0e2276335be3))
+		- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
