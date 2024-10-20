@@ -46,7 +46,17 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- It contains a specific commit hash which has been added to the outer repo.
 						- This inner repo commit should be chosen to match the current state of the outer repo.
 					- The outer repo's `.gitmodules` tracks metadata (path & URL) of the `$subrepo`.
-				-
+				- nested repo as a normal folder
+					- We can workaround by cheating Git: move the `.git` in `$subrepo` away so that Git see `$subrepo` as a normal folder, add this folder, then move its `.git` back.
+					  ```sh
+					  mv $subrepo/.git $tmp/$subrepo.git
+					  git add $subrepo
+					  mv $tmp/$subrepo.git $subrepo/.git
+					  ```
+					- If `$subrepo` has been accidentally added as a nested repo, it must be removed first
+					  ```sh
+					  git rm [--cached] $subrepo
+					  ```
 		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
