@@ -4055,6 +4055,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### CSS
 			-
 	- ## HTTP
+	  collapsed:: true
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/HTTP
+		- ### HTTP Headers
+		  collapsed:: true
+			- `Content-Type`
+			- `Content-Encoding`
+			- `Cookie`
+		- ### HTTP Servers
+			-
 	- ## Google Chrome
 	  collapsed:: true
 	  :LOGBOOK:
