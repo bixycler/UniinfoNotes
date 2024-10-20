@@ -18,12 +18,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  :END:
 			- ...
 		-
-		- DOING Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
-		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
-		  :LOGBOOK:
-		  CLOCK: [2024-06-23 Sun 16:26:28]
-		  CLOCK: [2024-10-20 Sun 20:15:42]
-		  :END:
 		-
 		- TODO move this block to [[Git]]
 		  id:: 67151ca6-a2fa-49b5-9f8c-d24eebace7c4
@@ -648,3 +642,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				  ```
 			- I extract a brief sumerization from the chat with Gemini: [Hegel's Philosophy of Form](https://gemini.google.com/app/c8e4b0ec829815c2) to write this story: ((66faa5fa-d11a-4828-848e-b24bddba5411)).
 			- This shows the [Logseq's danger of accidental deletion](((66faa5f9-e82b-49cc-b9ed-2c97d28daa3e))).
+		- DONE Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
+		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
+		  :LOGBOOK:
+		  CLOCK: [2024-06-23 Sun 16:26:28]
+		  CLOCK: [2024-10-20 Sun 20:15:42]--[2024-10-21 Mon 00:02:20] =>  03:46:38
+		  :END:
