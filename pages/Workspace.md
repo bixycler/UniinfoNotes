@@ -21,23 +21,25 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		-
 		- TODO move this block to [[Git]]
 			- nested repository
-				- A folder
-				- warning: `adding embedded git repository: $subrepo`
-				  ```
-				  hint: You've added another git repository inside your current repository.
-				  hint: Clones of the outer repository will not contain the contents of
-				  hint: the embedded repository and will not know how to obtain it.
-				  hint: If you meant to add a submodule, use:
-				  hint:
-				  hint:   git submodule add <url> $subrepo
-				  hint:
-				  hint: If you added this path by mistake, you can remove it from the
-				  hint: index with:
-				  hint:
-				  hint:   git rm --cached $subrepo
-				  hint:
-				  hint: See "git help submodule" for more information.
-				  ```
+				- When adding folder `$subrepo` containing `.git` to another (outer) git repo, its contents cannot be added. Only one *file* `$subrepo` is added as a marker of a nested repo.
+				  collapsed:: true
+					- warning: `adding embedded git repository: $subrepo`
+					  ```
+					  hint: You've added another git repository inside your current repository.
+					  hint: Clones of the outer repository will not contain the contents of
+					  hint: the embedded repository and will not know how to obtain it.
+					  hint: If you meant to add a submodule, use:
+					  hint:
+					  hint:   git submodule add <url> $subrepo
+					  hint:
+					  hint: If you added this path by mistake, you can remove it from the
+					  hint: index with:
+					  hint:
+					  hint:   git rm --cached $subrepo
+					  hint:
+					  hint: See "git help submodule" for more information.
+					  ```
+				- Either
 		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
