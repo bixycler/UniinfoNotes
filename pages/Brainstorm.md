@@ -1070,8 +1070,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  collapsed:: true
 		  [Pratītya-samutpāda](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da): hetu + pratītya -> [phala](https://en.wikipedia.org/wiki/Phala)
 			- hetu ([main] cause, seed, nhân)
+			  id:: 6714a980-e4e5-4c13-a74f-306c32b1dc11
+			  is the main and direct cause which is chosen by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)).
 			- pratītya (condition, duyên)
+			  id:: 6714a997-d883-4f0f-b825-faeb9f588588
+			  is the auxiliary and indirect cause from the environment which supports the ((6714a980-e4e5-4c13-a74f-306c32b1dc11)).
 			- phala (fruit, quả)
+			  is the result, effect caused by the combination of ((6714a980-e4e5-4c13-a74f-306c32b1dc11)) and ((6714a997-d883-4f0f-b825-faeb9f588588)).
 		- [karma](https://en.wikipedia.org/wiki/Karma) ~ [saṃskāra](https://en.wikipedia.org/wiki/Samskara_%28Indian_philosophy%29) = [saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) ~ [vāsanā](https://en.wikipedia.org/wiki/V%C4%81san%C4%81) = [bīja](https://en.wikipedia.org/wiki/B%C4%ABja)
 			- karma (action, nghiệp)
 			  is the most general term referring the whole causal cycle.
@@ -1101,4 +1106,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- "Which one is is the seed thread, which one is the condition thread?"
 		  "Đâu là sợi nhân, đâu là sợi duyên?"
 			- This was my very first question about the ((6713acf0-2eb0-423b-ac61-6f595ea12b86))
-			-
+			- Objectively, all causes are equally causal, but subjectively, the one chosen by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) will be the main cause.
+			- That main cause determines the result thanks to the choice of the self.
+				- The self selects
