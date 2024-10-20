@@ -9,14 +9,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		- ### Git WIPs
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
-			- ((6714f028-4e17-41b8-a6d3-88bfb0d5d1f9)) & ((6714ee7d-d83b-4f42-af22-badb410d4a58)) in Mind Jungle
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-10-20 Sun 18:35:00]--[2024-10-20 Sun 18:45:19] =>  00:10:19
-			  :END:
-			- ...
-			- ...
 			-
+			- ...
 		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
