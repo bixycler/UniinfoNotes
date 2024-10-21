@@ -18,8 +18,15 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		  `git worktree`
 			- Official docs: [Manage multiple working trees](https://git-scm.com/docs/git-worktree)
 			- We can configure many separate working trees as separate ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same repo, e.g. to checkout and manage different branches with no need to clone the same remote repo into many local repos.
-			- Structure: one main working tree and many linked working trees
-				- While the main one has ((67152861-f595-4ad1-88a9-9363082d03eb)), each linked one has a ((67152b95-02b4-473b-a88b-6cbab4b46749)) pointing to gitdir: `${GIT_DIR}/worktrees/$`.
+			- Commands
+				- ```sh
+				  git worktree add ${path_to}/${view} [ ${branch_or_commit} ]
+				  git worktree list
+				  git worktree remove ${view}
+				  git worktree move ${view} ${new_path_to}/${view}
+				  ```
+			- Structure: one main working tree containing ((67152861-f595-4ad1-88a9-9363082d03eb)), and many linked working trees containing ((67152b95-02b4-473b-a88b-6cbab4b46749)) pointing to `${GIT_DIR}/worktrees/${view}`.
+				- Within each linked worktree, `$GIT_COMMON_DIR` is set to point back to the main worktree’s `$GIT_DIR`.
 	- `$GIT_DIR`
 	  id:: 67152861-f595-4ad1-88a9-9363082d03eb
 	  collapsed:: true
