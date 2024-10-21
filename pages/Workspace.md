@@ -26,6 +26,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				  `gitdir: ${external_path}/.git`
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67152b95-02b4-473b-a88b-6cbab4b46749)) is a file named `.git` at the root of the working tree pointing to an external folder. This is a convenient way to **separate** ((67152861-f595-4ad1-88a9-9363082d03eb)) from ((67152d29-5cee-475d-a01b-bbc9c9ad3417)), so that Git repo will not be affected _even when the whole working tree is cleared up_. Using `gitfile`, we can configure many separate working trees as separate ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same repo, e.g. to checkout and manage different branches with no need to clone the same remote repo into many local repos.
 					- Use cases: ((67151eb0-94a3-47bb-a7f9-25561690e75d)), `.logseq/git/`
+			- DOING Move a block with **self references** like ((67152861-f595-4ad1-88a9-9363082d03eb)) is challenging...
+			  :LOGBOOK:
+			  CLOCK: [2024-10-21 Mon 10:53:34]
+			  CLOCK: [2024-10-21 Mon 10:53:36]
+			  :END:
 		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
