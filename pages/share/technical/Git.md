@@ -13,6 +13,13 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 	  id:: 67152d29-5cee-475d-a01b-bbc9c9ad3417
 	  collapsed:: true
 		- glossary: [working tree](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefworkingtreeaworkingtree), [worktree](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefworktreeaworktree)
+		- multiple working trees per repo
+		  id:: 67163453-4d1b-492d-ab06-532cb37e7431
+		  `git worktree`
+			- Official docs: [Manage multiple working trees](https://git-scm.com/docs/git-worktree)
+			- We can configure many separate working trees as separate ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same repo, e.g. to checkout and manage different branches with no need to clone the same remote repo into many local repos.
+			- Structure: one main working tree and many linked working trees
+				- While the main one has ((67152861-f595-4ad1-88a9-9363082d03eb)), each linked one has a ((67152b95-02b4-473b-a88b-6cbab4b46749)) pointing to gitdir: `${GIT_DIR}/worktrees/$`.
 	- `$GIT_DIR`
 	  id:: 67152861-f595-4ad1-88a9-9363082d03eb
 	  collapsed:: true
@@ -26,8 +33,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 	  collapsed:: true
 	  `gitdir: ${external_path}/${GIT_DIR}`
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67152b95-02b4-473b-a88b-6cbab4b46749)) is a file pointing to an external ((67152861-f595-4ad1-88a9-9363082d03eb)) which has default name `.git` and place similar to `$GIT_DIR`. This is a convenient way to **separate** `$GIT_DIR` from ((67152d29-5cee-475d-a01b-bbc9c9ad3417)), so that Git repo will not be affected _even when the whole working tree is cleared up_.
-		- Using `gitfile`, we can configure many separate working trees as separate ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same repo, e.g. to checkout and manage different branches with no need to clone the same remote repo into many local repos.
-		- Use cases: ((67151eb0-94a3-47bb-a7f9-25561690e75d)), `.logseq/git/`
+		- Use cases: ((67163453-4d1b-492d-ab06-532cb37e7431)), ((67151eb0-94a3-47bb-a7f9-25561690e75d)), `.logseq/git/`
 	- nested repository
 	  collapsed:: true
 		- When adding folder `$subrepo` containing `.git` to another (outer) git repo, its contents cannot be added. Only one *file* `$subrepo` is added as an anchor to the current `HEAD` commit of a nested repo.
