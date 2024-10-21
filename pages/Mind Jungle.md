@@ -3420,12 +3420,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
 					- However, only ((671609b3-b815-44b7-90ce-68b609cd2bec)) and ((6716110e-51bb-40b2-b98c-503061212007)) are atomic, while ((66ab12fd-cc14-4789-b70b-48b8b599f9eb)) is non-atomic.
 					- So we can work around with ((671608ec-008a-4d9a-895e-f63b94f4a03b)).
+					- Forum: [Move block to another page](https://discuss.logseq.com/t/move-block-to-another-page)
 					- This is just a test block to be moved around
 					  id:: 67160ca7-8889-451a-b137-a1606c7a94d9
 						- with a sub-block containing self-ref: ((67160ca7-8889-451a-b137-a1606c7a94d9))
 				- Block copy
 				  id:: 67161c46-5a7d-495a-9e04-95db62b6c676
-					- `Ctrl` `c` will copy ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) `((id))` in edit mode, and will copy the whole block including its sub-blocks in view mode.
+				  collapsed:: true
+					- `Ctrl` `c` will copy ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) `((uuid))` in edit mode, and will copy the whole block including its sub-blocks in view mode.
 					- The clipboard content when copying in view mode
 					  id:: 67161e0f-4ded-4c41-a3e9-eab6dfec68ff
 					  collapsed:: true
@@ -3433,6 +3435,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6716110e-c217-49e5-a9e5-cbcdf6a8ef1a
 						- The `web application/logseq` contains the whole AST of the block.
 						- Inspect the cut/copied content with [ClipboardRead.html](../assets/HTML/ClipboardRead.html) ( ![src](../assets/HTML/ClipboardRead.html) ).
+					- Other types of copy via context menu
+					  collapsed:: true
+						- `Copy block embed`: `{{embed ((uuid))}}`
+						- `Copy block URL`: `logseq://graph/UniinfoNotes?block-id=$uuid`
+						- `Copy / Export as..`: advanced feature to extract contents with many options: HTML, PNG, OPML, indentation style, removal of {tags, properties, emphasis}, newline, etc.
+				- Block delete or ~~cut~~
+				  collapsed:: true
+					- Logseq replaces all refs to the block with the content of that block's heading item, and remembers these refs in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
+					  id:: 6716110e-6920-4ca0-9806-70c2e836f109
+					- Even it can be undone with `Ctrl` `z`, it's still dangerous with the possibility to [accidentally delete the whole large block](((66faa5f9-e82b-49cc-b9ed-2c97d28daa3e))).
+					- Warning: Just use the delete function, don't [~~cut & paste~~](((66ab12fd-cc14-4789-b70b-48b8b599f9eb)))!
 				- Adjacent move with hotkey
 				  id:: 671609b3-b815-44b7-90ce-68b609cd2bec
 				  `Alt` `Shift` {`Up`, `Down`}, or {`Tab`, `Shift` `Tab`}
@@ -3454,7 +3467,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- This is a complicated & risky operation
 					  id:: 66ab130c-bee8-40e6-aa11-489eb4c34ec4
 					  collapsed:: true
-						- When cut, Logseq replaces all refs to the cut block with the content of that block's heading item, and remembers these refs in the corresponding in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
+						- When cut, ((6716110e-6920-4ca0-9806-70c2e836f109))
 						- When pasted, Logseq restores the replaced refs of this block.
 						- Sometimes, Logseq fails to restore refs, usually due to the pasted block being associated with new id.
 						- Sometimes, Logseq even hangs when at the cutting step.
