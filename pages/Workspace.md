@@ -9,15 +9,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		- ### Git WIPs
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
-			- ((6677ea1b-479e-40b0-ab8e-64cf5c769e57))
-			- Update ((66600918-8c61-42af-b8a2-04bf05e9f782)) with ((671503e5-690e-4f1f-ad53-419fd57543fe))
-			- ((67151ca6-a2fa-49b5-9f8c-d24eebace7c4))
-			- Update Logseq workflow for ((66978876-9378-4059-8783-868d041e8e2e))
-			  :LOGBOOK:
-			  CLOCK: [2024-10-20 Sun 23:49:20]--[2024-10-20 Sun 23:59:53] =>  00:10:33
-			  :END:
+			-
 			- ...
-		-
+			- ------
 		-
 		- TODO move this block to [[Git]]
 		  id:: 67151ca6-a2fa-49b5-9f8c-d24eebace7c4
@@ -118,8 +112,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-06-28 Fri 08:11:13]
 		  :END:
 		-
-		- ---
 		-
+		- ...
 	-
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
@@ -241,6 +235,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  #+END_QUERY
 	- ## Problems
 	  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
+	  collapsed:: true
 		-
 		- [!] My expression of "arrogance"
 		  collapsed:: true
@@ -378,14 +373,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  collapsed:: true
 		- [!] Time is always gone too fast! :(
 		  id:: 66600918-315b-4f6c-970b-3039ac8ef912
-		-
+		- ...
 	- ## Questions
 	  id:: 6651adea-f2f6-4c9e-80b4-ece0bb5038fb
 	  collapsed:: true
 		-
 		- [?] What's the relation between  [lattice group](https://en.wikipedia.org/wiki/Lattice_(group)) and  [lattice order](https://en.wikipedia.org/wiki/Lattice_(order))?
 		- [?] When will I be liberated :-?
-		-
+		- ...
 	- ## History
 	  id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		- DONE Import [[Unïnfo Theory]] from ((66536662-052f-46a4-a624-38858bffb334)) with ((665376f4-9335-4d38-843f-a4cf6ef6cd10)) ✅ 2024-05-18
@@ -648,3 +643,4 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-06-23 Sun 16:26:28]
 		  CLOCK: [2024-10-20 Sun 20:15:42]--[2024-10-21 Mon 00:02:20] =>  03:46:38
 		  :END:
+		- ...
