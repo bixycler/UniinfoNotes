@@ -1799,21 +1799,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual `[WIP]` commits to be merged into ((67139af7-47a6-4441-bd72-5a75448dbb1b)).
 				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
 				- The `WIP`s before a merge will be tracked in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), then `[WIP]` commits will be stored in `log` branch.
-					- After each `[WIP]` commit,
-				- The final commit in `log` to be merged to `main` will have the full commit message summarizing WIPs.
-					- Merge this commit to `store`, amend with this final commit message, then cherry-pick it to `main`.
-					  collapsed:: true
-						- ```sh
-						  git checkout store
-						  git merge --no-ff log
-						  git commit --amend #update message
-						  git push
-						  git checkout main
-						  git cherry-pick store
-						  git push
-						  git checkout log
-						  ```
-					- Then clean up the list of ((67139355-ac72-4e4c-b882-00bb3a3ea144)) after the merge.
+					- Contents of ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) will be flushed to `[WIP]` commit message
+					- The title of that commit will be moved to ((67164cc1-e500-4889-9b6d-12d8dd7fc029)).
+				- Before merging to `store`, flush contents of ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) to the final commit in `log`.
+				- Merge `log` to `store`, amend with `log`'s final commit message, then cherry-pick it to `main`.
+					- ```sh
+					  git checkout store
+					  git merge --no-ff log
+					  git commit --amend #update message
+					  git push
+					  git checkout main
+					  git cherry-pick store
+					  git push
+					  git checkout log
+					  ```
 			- `store` branch
 			  id:: 67139af7-47a6-4441-bd72-5a75448dbb1b
 			  collapsed:: true
