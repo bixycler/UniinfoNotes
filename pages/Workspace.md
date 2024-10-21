@@ -9,17 +9,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
 		- ### Git WIPs
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
-			-
+			- Update Logseq: ((6716110e-a71e-4a39-8770-18286c41d0fa))
 			- ...
 			- ------
 		-
-		- TODO move this block to [[Git]]
-		  id:: 67151ca6-a2fa-49b5-9f8c-d24eebace7c4
-			- DOING Move a block with **self references** like ((67152861-f595-4ad1-88a9-9363082d03eb)) is challenging...
-			  :LOGBOOK:
-			  CLOCK: [2024-10-21 Mon 10:53:34]
-			  CLOCK: [2024-10-21 Mon 10:53:36]
-			  :END:
 		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-

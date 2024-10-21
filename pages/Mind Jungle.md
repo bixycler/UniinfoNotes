@@ -3250,8 +3250,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Seems that after re-indexing, the copy paste does not cause problem anymore.
 				- The pasted block is not reflected well between views.
 					- => Closing & refreshing views usually solve the problem.
-				- MIME types in clipboard: `web application/logseq`, `text/html`, `text/plain`
-					- Inspect the cut/copied content with [ClipboardRead.html](../assets/HTML/ClipboardRead.html) ( ![src](../assets/HTML/ClipboardRead.html) ).
+				- {{embed ((67161e0f-4ded-4c41-a3e9-eab6dfec68ff))}}
 				- When pasted from a different graph, some page unrelated to the pasted block is messed up with the diff between the version on disk and the version in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
 				- When a block was moved remotely and then synched (git-pulled) into this local graph, the old ((66610c13-5045-42a8-948f-6426d698fd2c)) is still remembered in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)) and mess the whole refs up.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Close LogSeq; move the corresponding `.transit` file in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)) to a backup folder; then open LogSeq and add this graph again to force LogSeq to read all ids from disk.
@@ -3354,47 +3353,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  When the first line is too long, a brief title with ellipsis `...` should be automatically generated.
 				- [Discussion to standardize page and block terms](https://discuss.logseq.com/t/discussion-to-standardize-page-and-block-terms/343)
 			- Block handling
-				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				  collapsed:: true
-					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
-					- However, only ((671609b3-b815-44b7-90ce-68b609cd2bec)) and ((6716110e-51bb-40b2-b98c-503061212007)) are atomic, while ((66ab12fd-cc14-4789-b70b-48b8b599f9eb)) is non-atomic.
-					- So we can work around with ((671608ec-008a-4d9a-895e-f63b94f4a03b)).
-					-
-					- This is just a test block to be moved around
-					  id:: 67160ca7-8889-451a-b137-a1606c7a94d9
-						- with a sub-block containing self-ref: ((67160ca7-8889-451a-b137-a1606c7a94d9))
-				- Adjacent move with hotkey
-				  id:: 671609b3-b815-44b7-90ce-68b609cd2bec
-				  `Alt` `Shift` {`Up`, `Down`}, or {`Tab`, `Shift` `Tab`}
-					- These are the safest operations thanks to their atomicity and proximity.
-				- Block moving via drag & drop
-				  id:: 6716110e-51bb-40b2-b98c-503061212007
-				  collapsed:: true
-					- This is a convenient way to move between the main edit pane and the ((6716110e-5181-4264-8b4f-886b00e9ceff)).
-					- Thanks to atomicity, this operation is rather safe, but...
-						- [!] The moved block usually has problem displaying at its destination.
-						- [!] Sometimes the move on GUI (and in the ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) is not reflected to the Markdown source files.
-				- Block moving via cut & paste
-				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
-				  collapsed:: true
-				  :LOGBOOK:
-				  CLOCK: [2024-08-01 Thu 11:46:07]
-				  :END:
-					- This is a complicated & risky operation
-					  id:: 66ab130c-bee8-40e6-aa11-489eb4c34ec4
-					  collapsed:: true
-						- When cut, Logseq replaces all refs to the cut block with the content of that block's heading item, and remembers these refs in the corresponding in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
-						- When pasted, Logseq restores the replaced refs of this block.
-						- Some times, Logseq fails to restore refs, usually due to the pasted block being associated with new id.
-						- Some times, Logseq even hangs when at the cutting step.
-					- => We must always checkpoint with ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) before moving blocks!
-					- ((66b1d45e-f8fa-427c-82aa-197689ee04c5))
-					- DONE => Using the standard ((66acc7cb-c144-4f1f-aaf7-344a0cf40b58)), we should try pushing to GitHub a `[tmp]` commit after each move to make sure that move does not break anything.
+			  id:: 6716110e-a71e-4a39-8770-18286c41d0fa
+				- **Safety** procedure for block **moving**:
+				  id:: 6716169c-ee4d-4124-84a2-d86c9c1d702e
+					- ➡️ We must always checkpoint with ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) before moving blocks!
+					  id:: 6716110e-17b6-42db-b5bb-b5c3055873cb
+					- ➡️ Using the standard ((66acc7cb-c144-4f1f-aaf7-344a0cf40b58)), 
 					  id:: 94649b98-9711-4adf-ae25-aaf32b521c14
 					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2024-08-02 Fri 18:47:42]--[2024-08-06 Tue 14:43:23] =>  91:55:41
 					  :END:
+					  we should try pushing to GitHub a `[tmp]` commit after each move to make sure that the move does not break anything.
 						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 							- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
 							  id:: 66b1cfa4-9b10-4032-a4df-8a4a05fdf46e
@@ -3445,11 +3415,58 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
 									- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
 								- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				  collapsed:: true
+					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
+					- However, only ((671609b3-b815-44b7-90ce-68b609cd2bec)) and ((6716110e-51bb-40b2-b98c-503061212007)) are atomic, while ((66ab12fd-cc14-4789-b70b-48b8b599f9eb)) is non-atomic.
+					- So we can work around with ((671608ec-008a-4d9a-895e-f63b94f4a03b)).
+					- This is just a test block to be moved around
+					  id:: 67160ca7-8889-451a-b137-a1606c7a94d9
+						- with a sub-block containing self-ref: ((67160ca7-8889-451a-b137-a1606c7a94d9))
+				- Block copy
+				  id:: 67161c46-5a7d-495a-9e04-95db62b6c676
+					- `Ctrl` `c` will copy ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) `((id))` in edit mode, and will copy the whole block including its sub-blocks in view mode.
+					- The clipboard content when copying in view mode
+					  id:: 67161e0f-4ded-4c41-a3e9-eab6dfec68ff
+					  collapsed:: true
+						- MIME types in clipboard: `web application/logseq`, `text/html`, `text/plain`
+						  id:: 6716110e-c217-49e5-a9e5-cbcdf6a8ef1a
+						- The `web application/logseq` contains the whole AST of the block.
+						- Inspect the cut/copied content with [ClipboardRead.html](../assets/HTML/ClipboardRead.html) ( ![src](../assets/HTML/ClipboardRead.html) ).
+				- Adjacent move with hotkey
+				  id:: 671609b3-b815-44b7-90ce-68b609cd2bec
+				  `Alt` `Shift` {`Up`, `Down`}, or {`Tab`, `Shift` `Tab`}
+					- These are the safest operations thanks to their atomicity and proximity.
+				- Block moving via drag & drop
+				  id:: 6716110e-51bb-40b2-b98c-503061212007
+				  collapsed:: true
+					- This is a convenient way to move between the main edit pane and the ((6716110e-5181-4264-8b4f-886b00e9ceff)).
+					- Thanks to atomicity, this operation is rather safe, but...
+						- [!] The moved block usually has problem displaying at its destination.
+						- [!] Sometimes the move on GUI (and in the ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) is not reflected to the Markdown source files.
+					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
+				- ~~Block moving via cut & paste~~
+				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-08-01 Thu 11:46:07]
+				  :END:
+					- This is a complicated & risky operation
+					  id:: 66ab130c-bee8-40e6-aa11-489eb4c34ec4
+					  collapsed:: true
+						- When cut, Logseq replaces all refs to the cut block with the content of that block's heading item, and remembers these refs in the corresponding in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
+						- When pasted, Logseq restores the replaced refs of this block.
+						- Sometimes, Logseq fails to restore refs, usually due to the pasted block being associated with new id.
+						- Sometimes, Logseq even hangs when at the cutting step.
+						- This operation absolutely fails moving blocks with ((667bfebf-a319-46be-a795-d7fc9c156363)) like [this](((67160ca7-8889-451a-b137-a1606c7a94d9))).
+					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
+					- ((66b1d45e-f8fa-427c-82aa-197689ee04c5))
 				- Block moving via copy & paste + manual edit in external editor
 				  id:: 671608ec-008a-4d9a-895e-f63b94f4a03b
 				  collapsed:: true
 					- in Logseq: copy & paste; then close Logseq app;
 					- in external editor: _move **all ids**_ within the source block to the target block; then remove the source block.
+					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 			- Right sidebar
 			  id:: 6716110e-5181-4264-8b4f-886b00e9ceff
 			  collapsed:: true
