@@ -1799,6 +1799,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual `[WIP]` commits to be merged into ((67139af7-47a6-4441-bd72-5a75448dbb1b)).
 				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
 				- The `WIP`s before a merge will be tracked in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), then `[WIP]` commits will be stored in `log` branch.
+					- After each `[WIP]` commit,
 				- The final commit in `log` to be merged to `main` will have the full commit message summarizing WIPs.
 					- Merge this commit to `store`, amend with this final commit message, then cherry-pick it to `main`.
 					  collapsed:: true

@@ -147,7 +147,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  
 			  
 			  *) Notes:
-		- Range of commits
+		- Range of commits (revision range)
 			- `${base_exclusive}..${head_inclusive}` means “all commits reachable from `${head_inclusive}` that aren't reachable from `${base_exclusive}`”.
 			  collapsed:: true
 				- `^${ref}` means "excluding all reachable commits from `${ref}`", hence
