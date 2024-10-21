@@ -9,6 +9,54 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				- [From Windows 10+, symlink can be used](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/) when Developer mode is turned on.
 			- Hard link is not support (will be broken when ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) overwrites the link file), but ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) will let the hard link live as long as we don't do any write operation on that link file, e.g. `pull`, `checkout`, `reset`, etc.
 			  id:: 666ba5a7-598a-4b66-86bd-b1622a28ada6
+	-
+	-
+	- nested repository
+	  collapsed:: true
+		- When adding folder `$subrepo` containing `.git` to another (outer) git repo, its contents cannot be added. Only one *file* `$subrepo` is added as an anchor to the current `HEAD` commit of a nested repo.
+		  collapsed:: true
+			- warning: `adding embedded git repository: $subrepo`
+			  ```
+			  hint: You've added another git repository inside your current repository.
+			  hint: Clones of the outer repository will not contain the contents of
+			  hint: the embedded repository and will not know how to obtain it.
+			  hint: If you meant to add a submodule, use:
+			  hint:
+			  hint:   git submodule add <url> $subrepo
+			  hint:
+			  hint: If you added this path by mistake, you can remove it from the
+			  hint: index with:
+			  hint:
+			  hint:   git rm --cached $subrepo
+			  hint:
+			  hint: See "git help submodule" for more information.
+			  ```
+		- submodule
+		  id:: 67151eb0-94a3-47bb-a7f9-25561690e75d
+			- Official docs: [7.11 Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+			- The file `$subrepo` is the link between the two commits of the inner & outer repos.
+				- It contains a specific commit hash which has been added to the outer repo.
+				- This inner repo commit should be chosen to match the current state of the outer repo.
+			- The outer repo's `.gitmodules` tracks metadata (path & URL) of the `$subrepo`.
+			- Note: A submodule usually use ((67152b95-02b4-473b-a88b-6cbab4b46749)) instead of the normal `.git/` folder, so that the outer repo can `git checkout` a branch that does not have this submodule. That's because the `checkout` has to remove the entire submodule's working tree, without losing the submodule's repo info.
+		- nested repo as a normal folder
+			- We can workaround by cheating Git.
+				- 1st way: Move the `.git` in `$subrepo` away so that Git see `$subrepo` as a normal folder, add this folder, then move its `.git` back.
+				  ```sh
+				  mv $subrepo/.git $tmp/$subrepo.git
+				  git add $subrepo
+				  mv $tmp/$subrepo.git $subrepo/.git
+				  ```
+				- 2nd way: Use the low-level plumbing command
+				  ```sh
+				  git update-index --add $subrepo
+				  ```
+			- If `$subrepo` has been accidentally added as a nested repo, it must be removed first
+			  ```sh
+			  git rm [--cached] $subrepo
+			  ```
+			- References:
+				- StackOverflow: [Git: forcing `add` when file is in nested git repository](https://stackoverflow.com/questions/70289416/git-forcing-add-when-file-is-in-nested-git-repository)
 	- Useful commands (sets)
 	  id:: 666022fc-2700-438d-810e-a6fab07f696f
 	  collapsed:: true
