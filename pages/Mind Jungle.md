@@ -3258,7 +3258,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- In some cases, the app hangs right after copy/cut.
 				  id:: 67110769-1a89-4c51-98cf-884b9b1fa623
 				  collapsed:: true
-					- Neither help: not Re-indexing nor updating ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
+					- Neither help: not re-indexing nor updating ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
 					- E.g., copying [this block of cointerface](((6711045f-1050-42a8-94f2-c913088ce9cd))) makes Logseq hang.
 					- E.g., copying this block makes Logseq hang, due to a block ref.
 						- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
@@ -3353,77 +3353,92 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66626356-0ad9-4219-9b33-8ab7c6cd0508
 				  When the first line is too long, a brief title with ellipsis `...` should be automatically generated.
 				- [Discussion to standardize page and block terms](https://discuss.logseq.com/t/discussion-to-standardize-page-and-block-terms/343)
-			- Block moving via cut & paste
-			  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-08-01 Thu 11:46:07]
-			  :END:
-				- This is a complicated & risky operation
-				  id:: 66ab130c-bee8-40e6-aa11-489eb4c34ec4
+			- Block handling
+				- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)). However, only ((671609b3-b815-44b7-90ce-68b609cd2bec)) is atomic, while distant move is non-atomic via [cut & paste](((66ab12fd-cc14-4789-b70b-48b8b599f9eb))). So we're working around with ((671608ec-008a-4d9a-895e-f63b94f4a03b)).
+				- Adjacent move with hotkey
+				  id:: 671609b3-b815-44b7-90ce-68b609cd2bec
 				  collapsed:: true
-					- When cut, Logseq replaces all refs to the cut block with the content of that block's heading item, and remembers these refs in the corresponding in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
-					- When pasted, Logseq restores the replaced refs of this block.
-					- Some times, Logseq fails to restore refs, usually due to the pasted block being associated with new id.
-					- Some times, Logseq even hangs when at the cutting step.
-				- => We must always checkpoint with ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) before moving blocks!
-				- ((66b1d45e-f8fa-427c-82aa-197689ee04c5))
-				- DONE => Using the standard ((66acc7cb-c144-4f1f-aaf7-344a0cf40b58)), we should try pushing to GitHub a `[tmp]` commit after each move to make sure that move does not break anything.
-				  id:: 94649b98-9711-4adf-ae25-aaf32b521c14
+				  `Alt` `Shift` {`Up`, `Down`}, or {`Tab`, `Shift` `Tab`}
+					- These are the safest operations thanks to their atomicity.
+				- Block moving via drag & drop
+					-
+				- Block moving via cut & paste
+				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
 				  collapsed:: true
 				  :LOGBOOK:
-				  CLOCK: [2024-08-02 Fri 18:47:42]--[2024-08-06 Tue 14:43:23] =>  91:55:41
+				  CLOCK: [2024-08-01 Thu 11:46:07]
 				  :END:
-					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-						- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
-						  id:: 66b1cfa4-9b10-4032-a4df-8a4a05fdf46e
-					- Verification ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
-						- DONE [!] 2 failures in `block-refs-link-to-blocks-that-exist`
-						  :LOGBOOK:
-						  CLOCK: [2024-08-02 Fri 19:00:30]--[2024-08-03 Sat 17:46:43] =>  22:46:13
-						  :END:
-							- Log
-								- ```log
-								  FAIL in (block-refs-link-to-blocks-that-exist) (:42)
-								  expected: (empty? (set/difference (set block-refs) (->> (d/q (quote [:find (pull ?b [:block/properties]) :in $ % :where (has-property ?b :id)]) (clojure.core/deref state/db-conn) (vals rules/query-dsl-rules)) (map first) (map (comp :id :block/properties)) set)))
-								    actual: (not (empty? #{"(665374b0-1ed9-420b-afc4-897a942c0be0" "(667d2689-4ce0-4c79-b82a-25b0bba87d39"}))
-								  ```
-							- [665374b0-1ed9-420b-afc4-897a942c0be0: Bosidian Dataview](((665374b0-1ed9-420b-afc4-897a942c0be0)))
-								- [using a  `dataviewjs` script (Bosidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
-							- [667d2689-4ce0-4c79-b82a-25b0bba87d39: Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
-								- [Should be `(Block ref...)`](((6683ea7c-a48c-4998-8f2b-40d4d9bc16a9))) < ((6683ea7c-c94f-4970-bcd1-d3b468c32ab7)) < ((667d263b-658b-4560-b8cc-f6838534956d))
-							- => Temporarily insert space between open parenthesis and block refs.
-						- DONE [!] Info (warning) about re-assigning new id for block `Git` in parsing phase
-						  :LOGBOOK:
-						  CLOCK: [2024-08-03 Sat 18:00:08]--[2024-08-09 Fri 18:37:03] =>  144:36:55
-						  :END:
-							- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) `Mind Jungle` > `Git` has been move to [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) but the block `Git` is still kept in `Mind Jungle` 
-							  id:: 66ae1489-c8cd-4341-9b2b-90047434943b
-							  collapsed:: true
-							  => the two have the same uuid `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
-								- `Mind Jungle` > `Git`
-								  ```
-								  - ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
-								    id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
-								  ```
-							- Log (after `Parsing 31 files...` and before `Ast node count: 2919`)
-								- ```log
-								  Logseq will assign a new id for this block:  #:block{:properties {:id 666ba1e2-19d1-409e-b30e-42a99b7e4ec0, :heading 2}, :tags [], :format :markdown, :path-refs (), :macros [], :unordered false, :content ## Git
-								  id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0, :refs (), :properties-text-values {:id 666ba1e2-19d1-409e-b30e-42a99b7e4ec0}, :level 1, :uuid #uuid "666ba1e2-19d1-409e-b30e-42a99b7e4ec0", :properties-order [:id]}
-								  ```
-							- Git diff right after that push to ((66536662-052f-46a4-a624-38858bffb334))
-								- ```diff
-								  --- a/pages/publish/technical/Git.md
-								  +++ b/pages/publish/technical/Git.md
-								  @@ -1,14 +1,14 @@
-								   ## Git
-								  -id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
-								  +id:: 66aded24-8ec4-4bc5-b7a5-972025161721
-								  ```
-								- This UUID of `Git > Git` is automatically changed by Logseq to avoid collision with UUID of `Mind Jungle > Git`.
-							- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
-								- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
-							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
+					- This is a complicated & risky operation
+					  id:: 66ab130c-bee8-40e6-aa11-489eb4c34ec4
+					  collapsed:: true
+						- When cut, Logseq replaces all refs to the cut block with the content of that block's heading item, and remembers these refs in the corresponding in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
+						- When pasted, Logseq restores the replaced refs of this block.
+						- Some times, Logseq fails to restore refs, usually due to the pasted block being associated with new id.
+						- Some times, Logseq even hangs when at the cutting step.
+					- => We must always checkpoint with ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) before moving blocks!
+					- ((66b1d45e-f8fa-427c-82aa-197689ee04c5))
+					- DONE => Using the standard ((66acc7cb-c144-4f1f-aaf7-344a0cf40b58)), we should try pushing to GitHub a `[tmp]` commit after each move to make sure that move does not break anything.
+					  id:: 94649b98-9711-4adf-ae25-aaf32b521c14
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2024-08-02 Fri 18:47:42]--[2024-08-06 Tue 14:43:23] =>  91:55:41
+					  :END:
+						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+							- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
+							  id:: 66b1cfa4-9b10-4032-a4df-8a4a05fdf46e
+						- Verification ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+							- DONE [!] 2 failures in `block-refs-link-to-blocks-that-exist`
+							  :LOGBOOK:
+							  CLOCK: [2024-08-02 Fri 19:00:30]--[2024-08-03 Sat 17:46:43] =>  22:46:13
+							  :END:
+								- Log
+									- ```log
+									  FAIL in (block-refs-link-to-blocks-that-exist) (:42)
+									  expected: (empty? (set/difference (set block-refs) (->> (d/q (quote [:find (pull ?b [:block/properties]) :in $ % :where (has-property ?b :id)]) (clojure.core/deref state/db-conn) (vals rules/query-dsl-rules)) (map first) (map (comp :id :block/properties)) set)))
+									    actual: (not (empty? #{"(665374b0-1ed9-420b-afc4-897a942c0be0" "(667d2689-4ce0-4c79-b82a-25b0bba87d39"}))
+									  ```
+								- [665374b0-1ed9-420b-afc4-897a942c0be0: Bosidian Dataview](((665374b0-1ed9-420b-afc4-897a942c0be0)))
+									- [using a  `dataviewjs` script (Bosidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
+								- [667d2689-4ce0-4c79-b82a-25b0bba87d39: Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
+									- [Should be `(Block ref...)`](((6683ea7c-a48c-4998-8f2b-40d4d9bc16a9))) < ((6683ea7c-c94f-4970-bcd1-d3b468c32ab7)) < ((667d263b-658b-4560-b8cc-f6838534956d))
+								- => Temporarily insert space between open parenthesis and block refs.
+							- DONE [!] Info (warning) about re-assigning new id for block `Git` in parsing phase
+							  :LOGBOOK:
+							  CLOCK: [2024-08-03 Sat 18:00:08]--[2024-08-09 Fri 18:37:03] =>  144:36:55
+							  :END:
+								- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) `Mind Jungle` > `Git` has been move to [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) but the block `Git` is still kept in `Mind Jungle` 
+								  id:: 66ae1489-c8cd-4341-9b2b-90047434943b
+								  collapsed:: true
+								  => the two have the same uuid `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
+									- `Mind Jungle` > `Git`
+									  ```
+									  - ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
+									    id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
+									  ```
+								- Log (after `Parsing 31 files...` and before `Ast node count: 2919`)
+									- ```log
+									  Logseq will assign a new id for this block:  #:block{:properties {:id 666ba1e2-19d1-409e-b30e-42a99b7e4ec0, :heading 2}, :tags [], :format :markdown, :path-refs (), :macros [], :unordered false, :content ## Git
+									  id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0, :refs (), :properties-text-values {:id 666ba1e2-19d1-409e-b30e-42a99b7e4ec0}, :level 1, :uuid #uuid "666ba1e2-19d1-409e-b30e-42a99b7e4ec0", :properties-order [:id]}
+									  ```
+								- Git diff right after that push to ((66536662-052f-46a4-a624-38858bffb334))
+									- ```diff
+									  --- a/pages/publish/technical/Git.md
+									  +++ b/pages/publish/technical/Git.md
+									  @@ -1,14 +1,14 @@
+									   ## Git
+									  -id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
+									  +id:: 66aded24-8ec4-4bc5-b7a5-972025161721
+									  ```
+									- This UUID of `Git > Git` is automatically changed by Logseq to avoid collision with UUID of `Mind Jungle > Git`.
+								- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
+									- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
+								- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
+				- Block moving via copy & paste + manual edit in external editor
+				  id:: 671608ec-008a-4d9a-895e-f63b94f4a03b
+					- just a test block to be moved
+					  id:: 67160ca7-8889-451a-b137-a1606c7a94d9
+						- and a subblock with self-ref: ((67160ca7-8889-451a-b137-a1606c7a94d9))
+					-
 			- Sidebar
 			  collapsed:: true
 				- Right sidebar is used as a stack of docs, started from [[Contents]], for column-styled editing in parallel with the main edit pane.
