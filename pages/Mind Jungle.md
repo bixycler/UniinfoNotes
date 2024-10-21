@@ -3354,14 +3354,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  When the first line is too long, a brief title with ellipsis `...` should be automatically generated.
 				- [Discussion to standardize page and block terms](https://discuss.logseq.com/t/discussion-to-standardize-page-and-block-terms/343)
 			- Block handling
-				- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)). However, only ((671609b3-b815-44b7-90ce-68b609cd2bec)) is atomic, while distant move is non-atomic via [cut & paste](((66ab12fd-cc14-4789-b70b-48b8b599f9eb))). So we're working around with ((671608ec-008a-4d9a-895e-f63b94f4a03b)).
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				  collapsed:: true
+					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
+					- However, only ((671609b3-b815-44b7-90ce-68b609cd2bec)) and ((6716110e-51bb-40b2-b98c-503061212007)) are atomic, while ((66ab12fd-cc14-4789-b70b-48b8b599f9eb)) is non-atomic.
+					- So we can work around with ((671608ec-008a-4d9a-895e-f63b94f4a03b)).
+					-
+					- This is just a test block to be moved around
+					  id:: 67160ca7-8889-451a-b137-a1606c7a94d9
+						- with a sub-block containing self-ref: ((67160ca7-8889-451a-b137-a1606c7a94d9))
 				- Adjacent move with hotkey
 				  id:: 671609b3-b815-44b7-90ce-68b609cd2bec
-				  collapsed:: true
 				  `Alt` `Shift` {`Up`, `Down`}, or {`Tab`, `Shift` `Tab`}
-					- These are the safest operations thanks to their atomicity.
+					- These are the safest operations thanks to their atomicity and proximity.
 				- Block moving via drag & drop
-					-
+				  id:: 6716110e-51bb-40b2-b98c-503061212007
+				  collapsed:: true
+					- This is a convenient way to move between the main edit pane and the ((6716110e-5181-4264-8b4f-886b00e9ceff)).
+					- Thanks to atomicity, this operation is rather safe, but...
+						- [!] The moved block usually has problem displaying at its destination.
+						- [!] Sometimes the move on GUI (and in the ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) is not reflected to the Markdown source files.
 				- Block moving via cut & paste
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
 				  collapsed:: true
@@ -3435,13 +3447,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
 				- Block moving via copy & paste + manual edit in external editor
 				  id:: 671608ec-008a-4d9a-895e-f63b94f4a03b
-					- just a test block to be moved
-					  id:: 67160ca7-8889-451a-b137-a1606c7a94d9
-						- and a subblock with self-ref: ((67160ca7-8889-451a-b137-a1606c7a94d9))
-					-
-			- Sidebar
+				  collapsed:: true
+					- in Logseq: copy & paste; then close Logseq app;
+					- in external editor: _move **all ids**_ within the source block to the target block; then remove the source block.
+			- Right sidebar
+			  id:: 6716110e-5181-4264-8b4f-886b00e9ceff
 			  collapsed:: true
 				- Right sidebar is used as a stack of docs, started from [[Contents]], for column-styled editing in parallel with the main edit pane.
+				  id:: 6716110e-5169-4a51-926f-fdf8c8b77bf0
 					- This stack is a more-active form of the ((6653538a-22d3-4807-ad13-a64ac543edba)).
 				- ((66536710-7441-4fb8-986b-50d2eec762d7)): `Shift click` to open links or items in new top pane in sidebar, instead of in the main edit pane. `Ctrl Shift o` in editing mode to open link in sidebar.
 				- [!] However, some functions does not work (well) in right sidebar:
