@@ -3853,6 +3853,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66f7b4fd-e34e-4fc3-9c2d-d468206d279b
 				  contains all graphs loaded by LogSeq. Each graph is managed by LogSeq internally, with a `.transit` file, to be a "mirror" of the corresponding `.md` files ... as much as possible.
 				- `git/`
+				  id:: 6716110e-3c2b-45e8-99a0-d8263b6a42b2
 				  contains ((67152861-f595-4ad1-88a9-9363082d03eb)) of the graphs that are added from non-Git folders.
 					- A ((67152b95-02b4-473b-a88b-6cbab4b46749)) named `.git` will be added to the folder of that graph instead of the normal `.git/` folder.
 			- `Logseq/` (Electron) app folder
