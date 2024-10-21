@@ -7,6 +7,26 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
+		- ### Git Commits
+		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
+			- #### To be merged
+			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
+				- karmic cycle, choice, `BeowulfBuildModDocs/LogseqNotes`, update Git
+				-
+				- Update [[Git]]: multiple working trees per repo
+				- Update Logseq's Block handling
+				- Move update contents to [[Git]]
+				- `BeowulfBuildModDocs/LogseqNotes`, other updates
+				- Python's simple http.server & HTTP in Mind Jungle
+				- The **choice** determines the self circle and its karmic cycle
+				- karmic cycle: saṅkhāra, vāsanā, bīja
+				- Refactor ((67139355-ac72-4e4c-b882-00bb3a3ea144)): ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) + ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
+			- #### WIPs
+			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ...
+			- ------
+		-
+		-
 		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
 		-
@@ -40,18 +60,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-06-28 Fri 08:11:13]
 		  :END:
 		-
-		- ---
-		- TODO Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
-		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
-		  :LOGBOOK:
-		  CLOCK: [2024-06-23 Sun 16:26:28]
-		  :END:
 		-
-	-
-	- ## Git WIPs
-	  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
-		- ((67138488-2781-42cb-88d4-888346f71c11)), ((67139af7-47a6-4441-bd72-5a75448dbb1b)): process of WIPs, merge, and cherry-pick
-	-
+		- ...
 	-
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
@@ -173,6 +183,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  #+END_QUERY
 	- ## Problems
 	  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
+	  collapsed:: true
 		-
 		- [!] My expression of "arrogance"
 		  collapsed:: true
@@ -310,14 +321,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  collapsed:: true
 		- [!] Time is always gone too fast! :(
 		  id:: 66600918-315b-4f6c-970b-3039ac8ef912
-		-
+		- ...
 	- ## Questions
 	  id:: 6651adea-f2f6-4c9e-80b4-ece0bb5038fb
 	  collapsed:: true
 		-
 		- [?] What's the relation between  [lattice group](https://en.wikipedia.org/wiki/Lattice_(group)) and  [lattice order](https://en.wikipedia.org/wiki/Lattice_(order))?
 		- [?] When will I be liberated :-?
-		-
+		- ...
 	- ## History
 	  id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		- DONE Import [[Unïnfo Theory]] from ((66536662-052f-46a4-a624-38858bffb334)) with ((665376f4-9335-4d38-843f-a4cf6ef6cd10)) ✅ 2024-05-18
@@ -574,3 +585,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				  ```
 			- I extract a brief sumerization from the chat with Gemini: [Hegel's Philosophy of Form](https://gemini.google.com/app/c8e4b0ec829815c2) to write this story: ((66faa5fa-d11a-4828-848e-b24bddba5411)).
 			- This shows the [Logseq's danger of accidental deletion](((66faa5f9-e82b-49cc-b9ed-2c97d28daa3e))).
+		- DONE Add `LogseqNotes` to [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs "title")
+		  id:: 6677ea1b-479e-40b0-ab8e-64cf5c769e57
+		  :LOGBOOK:
+		  CLOCK: [2024-06-23 Sun 16:26:28]
+		  CLOCK: [2024-10-20 Sun 20:15:42]--[2024-10-21 Mon 00:02:20] =>  03:46:38
+		  :END:
+		- ...

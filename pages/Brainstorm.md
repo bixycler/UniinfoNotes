@@ -175,6 +175,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
 			- Ref: [Find nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
 			- TODO add multiple criteria
+			- TODO search for ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)) only, to be applied in [term search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
 			- Source code
 			  collapsed:: true
 				- ```clojure
@@ -832,6 +833,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
 			  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetana)) I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
 		- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
+		  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
 		  collapsed:: true
 			- Read more
 				- [manasikāra](https://en.wikipedia.org/wiki/Manasik%C4%81ra) (attention, tác ý, chú ý, chú tâm) is related to cetanā.
@@ -1050,7 +1052,74 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The external form on x-axis is the "real", i.e. visible part, while the internal content on p-axis is the "imaginary", i.e. invisible part.
 			- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
 		- "Light" is just an arrrow of the relaxed quantum. The light ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))s the original circle into various forms (shapes and sizes). => ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
-	- DOING
+	- karmic cycle
+	  id:: 6713a8e1-e460-4622-9ad6-87c804deccd8
+	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2024-10-14 Mon 17:16:12]
+	  CLOCK: [2024-10-19 Sat 19:42:23]--[2024-10-19 Sat 20:46:35] =>  01:04:12
 	  :END:
+		- Related: ((66e7d7dd-5f88-472c-8694-beb7222929bb))
+		  :LOGBOOK:
+		  CLOCK: [2024-10-19 Sat 19:42:23]
+		  :END:
+		- Blog [Nhân Duyên Nghiệp Quả](https://creatzynotes.blogspot.com/2021/01/nhan-duyen-nghiep-qua.html)
+		- karmic cycle = ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra)
+			- Karmic cycle may be small within a day, while samsara is usually refer to the life cycle.
+		- karmic relationship: "có duyên với  nhau"
+		- principle of karma: "luật nhân quả", principle of causality
+		  id:: 6713acf0-2eb0-423b-ac61-6f595ea12b86
+		  collapsed:: true
+		  [Pratītya-samutpāda](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da): hetu + pratītya -> [phala](https://en.wikipedia.org/wiki/Phala)
+			- hetu ([main] cause, seed, nhân)
+			  id:: 6714a980-e4e5-4c13-a74f-306c32b1dc11
+			  is the main and direct cause which is chosen by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)).
+			- pratītya (condition, duyên)
+			  id:: 6714a997-d883-4f0f-b825-faeb9f588588
+			  is the auxiliary and indirect cause from the environment which supports the ((6714a980-e4e5-4c13-a74f-306c32b1dc11)).
+			- phala (fruit, quả)
+			  is the result, effect caused by the combination of ((6714a980-e4e5-4c13-a74f-306c32b1dc11)) and ((6714a997-d883-4f0f-b825-faeb9f588588)).
+			- {{embed ((6714ac17-31b2-4963-9ded-8c35e709621a))}}
+		- [karma](https://en.wikipedia.org/wiki/Karma) ~ [saṃskāra](https://en.wikipedia.org/wiki/Samskara_%28Indian_philosophy%29) = [saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) ~ [vāsanā](https://en.wikipedia.org/wiki/V%C4%81san%C4%81) = [bīja](https://en.wikipedia.org/wiki/B%C4%ABja)
+			- karma (action, nghiệp)
+			  is the most general term referring the whole causal cycle.
+			- saṃskāra (formation, hành)
+			  id:: 6713b007-5b0a-4659-9651-1069d9ccf7c6
+			  collapsed:: true
+				- saṃ-skāra = work (kar) together (sam), with the root "kar" of "karma"
+				- active cause: sankhara-khandha (hành uẩn) in [5 aggregates](https://en.wikipedia.org/wiki/Skandha)
+				- passive effect: conditioned thing in [Three marks of existence](https://en.wikipedia.org/wiki/Three_marks_of_existence)
+				  collapsed:: true
+					- > all conditioned things are impermanent
+					- > sabbe saṅkhārā aniccā
+				- ((6713b007-5b0a-4659-9651-1069d9ccf7c6)) is related to ((66f7af1d-e9f3-49c4-a9f6-3b614a413a57))
+			- vāsanā (karmic imprint, tập khí), bīja (karmic seed, chủng tử)
+			  id:: 6713b016-effb-4c0a-9b29-746770b99ce6
+			  collapsed:: true
+			  is the hidden tendency imprinted in the memory due to the collection of past karma
+				- The Vietnamese word "nghiệp" usually refers to this tendency.
+				- ((6713b016-effb-4c0a-9b29-746770b99ce6)) is related to ((66e80666-5f29-4419-8db1-bf8cdce893e4))
+	- The **choice** determines the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) and its ((6713a8e1-e460-4622-9ad6-87c804deccd8)).
+	  id:: 6714a66b-1bd2-4c9d-8ebc-2842f3095b3b
+	  :LOGBOOK:
+	  CLOCK: [2024-10-20 Sun 13:57:09]--[2024-10-20 Sun 14:46:58] =>  00:49:49
+	  :END:
+		- ((67137e75-0e28-4f09-b6a2-0e2276335be3))
+		- "Which one is is the seed thread, which one is the condition thread?"
+		  "Đâu là sợi nhân, đâu là sợi duyên?"
+			- This was my very first question about the ((6713acf0-2eb0-423b-ac61-6f595ea12b86))
+			- Objectively, all causes are equally causal, but subjectively, the one chosen by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) will be the main cause.
+			- That main cause determines the result thanks to the choice of the self.
+			  id:: 6714ac17-31b2-4963-9ded-8c35e709621a
+				- The self selects conditions to match that main cause.
+				- The self cherry-picks the fruit according to its criteria which is just another kind of main causes.
+		- ((66e80666-5f29-4419-8db1-bf8cdce893e4))
+		- accept (choiceless) vs intent (choice)
+			- They are 2 opposite ends but are united in the circle of learning:
+			  accept -> learn -> intent to follow that lesson of "acceptance is the best" -> acceptive attitude -> accept
+			- I usually place my ((667272b8-88a8-4928-a22a-35035c9edf05)) at the "accept", so i see all of the chain of effects as "no choice". But that's just relative, because...
+			- The choice at the "intent" does affect the acceptance and what will be learnt next.
+				- This is in line with the ((6713acf0-2eb0-423b-ac61-6f595ea12b86)).
+			- [choiceless awareness](https://en.wikipedia.org/wiki/Choiceless_awareness) by [Jiddu Krishnamurti](https://en.wikipedia.org/wiki/Jiddu_Krishnamurti)
+		- Choice & responsibility is the main ethical motivation of the ((6713acf0-2eb0-423b-ac61-6f595ea12b86)).
+		  "We receive whatever we've chosen."
+		  "Gieo nhân nào gặt quả nấy."
