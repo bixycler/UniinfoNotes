@@ -9,7 +9,10 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				- [From Windows 10+, symlink can be used](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/) when Developer mode is turned on.
 			- Hard link is not support (will be broken when ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) overwrites the link file), but ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) will let the hard link live as long as we don't do any write operation on that link file, e.g. `pull`, `checkout`, `reset`, etc.
 			  id:: 666ba5a7-598a-4b66-86bd-b1622a28ada6
-	-
+	- working tree
+	  id:: 67152d29-5cee-475d-a01b-bbc9c9ad3417
+	  collapsed:: true
+		- glossary: [working tree](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefworkingtreeaworkingtree), [worktree](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefworktreeaworktree)
 	-
 	- nested repository
 	  collapsed:: true

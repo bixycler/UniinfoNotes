@@ -15,10 +15,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		-
 		- TODO move this block to [[Git]]
 		  id:: 67151ca6-a2fa-49b5-9f8c-d24eebace7c4
-			- working tree
-			  id:: 67152d29-5cee-475d-a01b-bbc9c9ad3417
-			  collapsed:: true
-				- glossary: [working tree](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefworkingtreeaworkingtree), [worktree](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefworktreeaworktree)
 			- `$GIT_DIR`
 			  id:: 67152861-f595-4ad1-88a9-9363082d03eb
 			  collapsed:: true
