@@ -26,7 +26,9 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				  git worktree move ${view} ${new_path_to}/${view}
 				  ```
 			- Structure: one main working tree containing ((67152861-f595-4ad1-88a9-9363082d03eb)), and many linked working trees containing ((67152b95-02b4-473b-a88b-6cbab4b46749)) pointing to `${GIT_DIR}/worktrees/${view}`.
-				- Within each linked worktree, `$GIT_COMMON_DIR` is set to point back to the main worktree’s `$GIT_DIR`.
+				- worktree
+				  = working tree + repository metadata ( ((67152861-f595-4ad1-88a9-9363082d03eb)))
+				- Metadata of linked worktree `${view}` includes both its private `${GIT_DIR}/worktrees/${view}` and the `$GIT_COMMON_DIR` which is set to point back to the main worktree’s `$GIT_DIR`.
 	- `$GIT_DIR`
 	  id:: 67152861-f595-4ad1-88a9-9363082d03eb
 	  collapsed:: true
