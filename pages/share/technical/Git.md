@@ -9,6 +9,86 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				- [From Windows 10+, symlink can be used](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/) when Developer mode is turned on.
 			- Hard link is not support (will be broken when ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) overwrites the link file), but ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) will let the hard link live as long as we don't do any write operation on that link file, e.g. `pull`, `checkout`, `reset`, etc.
 			  id:: 666ba5a7-598a-4b66-86bd-b1622a28ada6
+	- working tree
+	  id:: 67152d29-5cee-475d-a01b-bbc9c9ad3417
+	  collapsed:: true
+		- glossary: [working tree](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefworkingtreeaworkingtree), [worktree](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefworktreeaworktree)
+		- multiple working trees per repo
+		  id:: 67163453-4d1b-492d-ab06-532cb37e7431
+		  `git worktree`
+			- Official docs: [Manage multiple working trees](https://git-scm.com/docs/git-worktree)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) We can configure many separate ((67152d29-5cee-475d-a01b-bbc9c9ad3417))s as separate ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same repo, e.g. to checkout and manage different branches with no need to clone the same remote repo into many local repos.
+			- Commands
+				- ```sh
+				  git worktree add ${path_to}/${view} [ ${branch_or_commit} ]
+				  git worktree list
+				  git worktree remove ${view}
+				  git worktree move ${view} ${new_path_to}/${view}
+				  ```
+			- Structure: one main working tree containing ((67152861-f595-4ad1-88a9-9363082d03eb)), and many linked working trees containing ((67152b95-02b4-473b-a88b-6cbab4b46749)) pointing to `${GIT_DIR}/worktrees/${view}`.
+				- worktree
+				  = working tree + repository metadata ( ((67152861-f595-4ad1-88a9-9363082d03eb)))
+				- Metadata of linked worktree `${view}` includes both its private `${GIT_DIR}/worktrees/${view}` and the `$GIT_COMMON_DIR` which is set to point back to the main worktree’s `$GIT_DIR`.
+	- `$GIT_DIR`
+	  id:: 67152861-f595-4ad1-88a9-9363082d03eb
+	  collapsed:: true
+	  `--git-dir`
+		- Official docs: [Git Repository Layout](https://git-scm.com/docs/gitrepository-layout)
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67152861-f595-4ad1-88a9-9363082d03eb)) contains the whole Git repo whose current state is the ((67152d29-5cee-475d-a01b-bbc9c9ad3417)). It's default to a folder named `.git` for repo with working tree, or `${repo}.git` for bare repo without working tree, which is by default at the root of the working tree.
+			- Non-default `$GIT_DIR` can be specified by env.var. `${GIT_DIR}` or `git --git-dir` argument.
+			- ((67152861-f595-4ad1-88a9-9363082d03eb)) can also be a specified indirectly through a ((67152b95-02b4-473b-a88b-6cbab4b46749)). The assignment `GIT_DIR=$gitfile` or `--git-dir=$gitfile` is an abuse of terminology!
+	- `gitfile`
+	  id:: 67152b95-02b4-473b-a88b-6cbab4b46749
+	  collapsed:: true
+	  `gitdir: ${external_path}/${GIT_DIR}`
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67152b95-02b4-473b-a88b-6cbab4b46749)) is a file pointing to an external ((67152861-f595-4ad1-88a9-9363082d03eb)) which has default name `.git` and place similar to `$GIT_DIR`. This is a convenient way to **separate** `$GIT_DIR` from ((67152d29-5cee-475d-a01b-bbc9c9ad3417)), so that Git repo will not be affected _even when the whole working tree is cleared up_.
+		- Use cases: ((67163453-4d1b-492d-ab06-532cb37e7431)), ((67151eb0-94a3-47bb-a7f9-25561690e75d)), [`.logseq/git/`](((6716110e-3c2b-45e8-99a0-d8263b6a42b2)))
+	- nested repository
+	  collapsed:: true
+		- When adding folder `$subrepo` containing `.git` to another (outer) git repo, its contents cannot be added. Only one *file* `$subrepo` is added as an anchor to the current `HEAD` commit of a nested repo.
+		  collapsed:: true
+			- warning: `adding embedded git repository: $subrepo`
+			  ```
+			  hint: You've added another git repository inside your current repository.
+			  hint: Clones of the outer repository will not contain the contents of
+			  hint: the embedded repository and will not know how to obtain it.
+			  hint: If you meant to add a submodule, use:
+			  hint:
+			  hint:   git submodule add <url> $subrepo
+			  hint:
+			  hint: If you added this path by mistake, you can remove it from the
+			  hint: index with:
+			  hint:
+			  hint:   git rm --cached $subrepo
+			  hint:
+			  hint: See "git help submodule" for more information.
+			  ```
+		- submodule
+		  id:: 67151eb0-94a3-47bb-a7f9-25561690e75d
+			- Official docs: [7.11 Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+			- The file `$subrepo` is the link between the two commits of the inner & outer repos.
+				- It contains a specific commit hash which has been added to the outer repo.
+				- This inner repo commit should be chosen to match the current state of the outer repo.
+			- The outer repo's `.gitmodules` tracks metadata (path & URL) of the `$subrepo`.
+			- Note: A submodule usually use ((67152b95-02b4-473b-a88b-6cbab4b46749)) instead of the normal `.git/` folder, so that the outer repo can `git checkout` a branch that does not have this submodule. That's because the `checkout` has to remove the entire submodule's working tree, without losing the submodule's repo info.
+		- nested repo as a normal folder
+			- We can workaround by cheating Git.
+				- 1st way: Move the `.git` in `$subrepo` away so that Git see `$subrepo` as a normal folder, add this folder, then move its `.git` back.
+				  ```sh
+				  mv $subrepo/.git $tmp/$subrepo.git
+				  git add $subrepo
+				  mv $tmp/$subrepo.git $subrepo/.git
+				  ```
+				- 2nd way: Use the low-level plumbing command
+				  ```sh
+				  git update-index --add $subrepo
+				  ```
+			- If `$subrepo` has been accidentally added as a nested repo, it must be removed first
+			  ```sh
+			  git rm [--cached] $subrepo
+			  ```
+			- References:
+				- StackOverflow: [Git: forcing `add` when file is in nested git repository](https://stackoverflow.com/questions/70289416/git-forcing-add-when-file-is-in-nested-git-repository)
 	- Useful commands (sets)
 	  id:: 666022fc-2700-438d-810e-a6fab07f696f
 	  collapsed:: true
@@ -67,7 +147,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  
 			  
 			  *) Notes:
-		- Range of commits
+		- Range of commits (revision range)
 			- `${base_exclusive}..${head_inclusive}` means “all commits reachable from `${head_inclusive}` that aren't reachable from `${base_exclusive}`”.
 			  collapsed:: true
 				- `^${ref}` means "excluding all reachable commits from `${ref}`", hence

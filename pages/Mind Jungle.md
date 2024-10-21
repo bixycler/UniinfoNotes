@@ -1122,6 +1122,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the sequence of ((66727858-979d-4d95-8a90-7a749218cfba))s where actions are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)).
 		- circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
 			- self-effect
 			  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
@@ -1797,10 +1798,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 67138488-2781-42cb-88d4-888346f71c11
 			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual `[WIP]` commits to be merged into ((67139af7-47a6-4441-bd72-5a75448dbb1b)).
 				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
-				- The `WIP`s before a merge will be tracked in ((67139355-ac72-4e4c-b882-00bb3a3ea144)), then `[WIP]` commits will be stored in `log` branch.
-				- The final commit in `log` to be merged to `main` will have the full commit message summarizing WIPs.
-					- Merge this commit to `store`, then cherry-pick it to `main`, and copy this final commit message.
-					- Then clean up the list of ((67139355-ac72-4e4c-b882-00bb3a3ea144)) after the merge.
+				- The `WIP`s before a merge will be tracked in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), then `[WIP]` commits will be stored in `log` branch.
+					- Contents of ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) will be flushed to `[WIP]` commit message
+					- The title of that commit will be moved to ((67164cc1-e500-4889-9b6d-12d8dd7fc029)).
+				- Before merging to `store`, flush contents of ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) to the final commit in `log`.
+				- Merge `log` to `store`, amend with `log`'s final commit message, then cherry-pick it to `main`.
+					- ```sh
+					  git checkout store
+					  git merge --no-ff log
+					  git commit --amend #update message
+					  git push
+					  git checkout main
+					  git cherry-pick store
+					  git push
+					  git checkout log
+					  ```
 			- `store` branch
 			  id:: 67139af7-47a6-4441-bd72-5a75448dbb1b
 			  collapsed:: true
@@ -1843,6 +1855,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [[logseq/custom.css]]
 				- [`pages/publish/Theme Demo.md`]([[Theme Demo]])
 				- [`pages/publish/technical/Git.md`]([[Git]])
+			- Workflow
+				- Never do any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
+				- Always update hard-linked files from local repos.
+				- When a hard-linked file must be updated from remote,
+					- at remote repo, the update contents must be transported via the ((66519638-cf5d-409b-9b98-15acabf2268c)) which is not hard-linked; then
+					- at local repo, these contents (blocks) will be moved to the hard-linked files.
 		- DOING CreatZy [shorthands](((66ff4478-6eae-4633-b7be-fd42e2bcda5b)))
 		  id:: 66fe9e2e-13cf-4b31-96e7-1b050eed47c4
 		  :LOGBOOK:
@@ -2835,6 +2853,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/GitHub
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536662-052f-46a4-a624-38858bffb334)) is an online hub for ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)).
 		- ((66536578-c4d3-43f1-b35c-bf71120f0570))'s profile: https://github.com/bixycler
+		- ### GitHub Pages
+		  id:: 671503e5-690e-4f1f-ad53-419fd57543fe
+			- Docs: https://docs.github.com/en/pages
+			- `Settings` > `Pages` > `Build and deployment` >
+				- `Source`
+					- Chose [](((67150484-1ae6-4420-a63a-fa1d55503bbb))) or [GitHub Actions](((671504da-2c66-46e4-af83-f99b9f488d6d)))
+			- Pages from a branch 
+			  id:: 67150484-1ae6-4420-a63a-fa1d55503bbb
+			  default branch: `gh-pages`
+				- This is the "Classic GitHub Pages" with static HTML pages.
+				- Simply push the static content to the chosen branch (default to `gh-pages`), and it will be deployed to `https://$user.github.io/$repo/`!
+				- This deployment is done by the predefined action `pages-build-deployment`.
+			- Custom page from GitHub Actions
+			  id:: 671504da-2c66-46e4-af83-f99b9f488d6d
+				- This will deploy a website using an action defined by `.github/workflows/$custom_publish_action.yml`, e.g.  Logseq's [publish-SPA](https://github.com/logseq/publish-spa) action.
 	- ## obsidian
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
 	  collapsed:: true
@@ -3217,15 +3250,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Seems that after re-indexing, the copy paste does not cause problem anymore.
 				- The pasted block is not reflected well between views.
 					- => Closing & refreshing views usually solve the problem.
-				- MIME types in clipboard: `web application/logseq`, `text/html`, `text/plain`
-					- Inspect the cut/copied content with [ClipboardRead.html](../assets/HTML/ClipboardRead.html) ( ![src](../assets/HTML/ClipboardRead.html) ).
+				- {{embed ((67161e0f-4ded-4c41-a3e9-eab6dfec68ff))}}
 				- When pasted from a different graph, some page unrelated to the pasted block is messed up with the diff between the version on disk and the version in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
 				- When a block was moved remotely and then synched (git-pulled) into this local graph, the old ((66610c13-5045-42a8-948f-6426d698fd2c)) is still remembered in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)) and mess the whole refs up.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Close LogSeq; move the corresponding `.transit` file in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)) to a backup folder; then open LogSeq and add this graph again to force LogSeq to read all ids from disk.
 				- In some cases, the app hangs right after copy/cut.
 				  id:: 67110769-1a89-4c51-98cf-884b9b1fa623
 				  collapsed:: true
-					- Neither help: not Re-indexing nor updating ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
+					- Neither help: not re-indexing nor updating ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
 					- E.g., copying [this block of cointerface](((6711045f-1050-42a8-94f2-c913088ce9cd))) makes Logseq hang.
 					- E.g., copying this block makes Logseq hang, due to a block ref.
 						- ((670f4f06-b543-47d7-ab5d-846dcdd2281e))
@@ -3320,80 +3352,139 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66626356-0ad9-4219-9b33-8ab7c6cd0508
 				  When the first line is too long, a brief title with ellipsis `...` should be automatically generated.
 				- [Discussion to standardize page and block terms](https://discuss.logseq.com/t/discussion-to-standardize-page-and-block-terms/343)
-			- Block moving via cut & paste
-			  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-08-01 Thu 11:46:07]
-			  :END:
-				- This is a complicated & risky operation
-				  id:: 66ab130c-bee8-40e6-aa11-489eb4c34ec4
+			- Block handling
+			  id:: 6716110e-a71e-4a39-8770-18286c41d0fa
+				- **Safety** procedure for block **moving**:
+				  id:: 6716169c-ee4d-4124-84a2-d86c9c1d702e
+					- ➡️ We must always checkpoint with ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) before moving blocks!
+					  id:: 6716110e-17b6-42db-b5bb-b5c3055873cb
+					- ➡️ Using the standard ((66acc7cb-c144-4f1f-aaf7-344a0cf40b58)), 
+					  id:: 94649b98-9711-4adf-ae25-aaf32b521c14
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2024-08-02 Fri 18:47:42]--[2024-08-06 Tue 14:43:23] =>  91:55:41
+					  :END:
+					  we should try pushing to GitHub a `[tmp]` commit after each move to make sure that the move does not break anything.
+						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+							- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
+							  id:: 66b1cfa4-9b10-4032-a4df-8a4a05fdf46e
+						- Verification ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+							- DONE [!] 2 failures in `block-refs-link-to-blocks-that-exist`
+							  :LOGBOOK:
+							  CLOCK: [2024-08-02 Fri 19:00:30]--[2024-08-03 Sat 17:46:43] =>  22:46:13
+							  :END:
+								- Log
+									- ```log
+									  FAIL in (block-refs-link-to-blocks-that-exist) (:42)
+									  expected: (empty? (set/difference (set block-refs) (->> (d/q (quote [:find (pull ?b [:block/properties]) :in $ % :where (has-property ?b :id)]) (clojure.core/deref state/db-conn) (vals rules/query-dsl-rules)) (map first) (map (comp :id :block/properties)) set)))
+									    actual: (not (empty? #{"(665374b0-1ed9-420b-afc4-897a942c0be0" "(667d2689-4ce0-4c79-b82a-25b0bba87d39"}))
+									  ```
+								- [665374b0-1ed9-420b-afc4-897a942c0be0: Bosidian Dataview](((665374b0-1ed9-420b-afc4-897a942c0be0)))
+									- [using a  `dataviewjs` script (Bosidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
+								- [667d2689-4ce0-4c79-b82a-25b0bba87d39: Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
+									- [Should be `(Block ref...)`](((6683ea7c-a48c-4998-8f2b-40d4d9bc16a9))) < ((6683ea7c-c94f-4970-bcd1-d3b468c32ab7)) < ((667d263b-658b-4560-b8cc-f6838534956d))
+								- => Temporarily insert space between open parenthesis and block refs.
+							- DONE [!] Info (warning) about re-assigning new id for block `Git` in parsing phase
+							  :LOGBOOK:
+							  CLOCK: [2024-08-03 Sat 18:00:08]--[2024-08-09 Fri 18:37:03] =>  144:36:55
+							  :END:
+								- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) `Mind Jungle` > `Git` has been move to [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) but the block `Git` is still kept in `Mind Jungle` 
+								  id:: 66ae1489-c8cd-4341-9b2b-90047434943b
+								  collapsed:: true
+								  => the two have the same uuid `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
+									- `Mind Jungle` > `Git`
+									  ```
+									  - ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
+									    id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
+									  ```
+								- Log (after `Parsing 31 files...` and before `Ast node count: 2919`)
+									- ```log
+									  Logseq will assign a new id for this block:  #:block{:properties {:id 666ba1e2-19d1-409e-b30e-42a99b7e4ec0, :heading 2}, :tags [], :format :markdown, :path-refs (), :macros [], :unordered false, :content ## Git
+									  id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0, :refs (), :properties-text-values {:id 666ba1e2-19d1-409e-b30e-42a99b7e4ec0}, :level 1, :uuid #uuid "666ba1e2-19d1-409e-b30e-42a99b7e4ec0", :properties-order [:id]}
+									  ```
+								- Git diff right after that push to ((66536662-052f-46a4-a624-38858bffb334))
+									- ```diff
+									  --- a/pages/publish/technical/Git.md
+									  +++ b/pages/publish/technical/Git.md
+									  @@ -1,14 +1,14 @@
+									   ## Git
+									  -id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
+									  +id:: 66aded24-8ec4-4bc5-b7a5-972025161721
+									  ```
+									- This UUID of `Git > Git` is automatically changed by Logseq to avoid collision with UUID of `Mind Jungle > Git`.
+								- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
+									- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
+								- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
-					- When cut, Logseq replaces all refs to the cut block with the content of that block's heading item, and remembers these refs in the corresponding in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
-					- When pasted, Logseq restores the replaced refs of this block.
-					- Some times, Logseq fails to restore refs, usually due to the pasted block being associated with new id.
-					- Some times, Logseq even hangs when at the cutting step.
-				- => We must always checkpoint with ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) before moving blocks!
-				- ((66b1d45e-f8fa-427c-82aa-197689ee04c5))
-				- DONE => Using the standard ((66acc7cb-c144-4f1f-aaf7-344a0cf40b58)), we should try pushing to GitHub a `[tmp]` commit after each move to make sure that move does not break anything.
-				  id:: 94649b98-9711-4adf-ae25-aaf32b521c14
+					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
+					- However, only ((671609b3-b815-44b7-90ce-68b609cd2bec)) and ((6716110e-51bb-40b2-b98c-503061212007)) are atomic, while ((66ab12fd-cc14-4789-b70b-48b8b599f9eb)) is non-atomic.
+					- So we can work around with ((671608ec-008a-4d9a-895e-f63b94f4a03b)).
+					- Forum: [Move block to another page](https://discuss.logseq.com/t/move-block-to-another-page)
+					- This is just a test block to be moved around
+					  id:: 67160ca7-8889-451a-b137-a1606c7a94d9
+						- with a sub-block containing self-ref: ((67160ca7-8889-451a-b137-a1606c7a94d9))
+				- Block copy
+				  id:: 67161c46-5a7d-495a-9e04-95db62b6c676
+				  collapsed:: true
+					- `Ctrl` `c` will copy ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) `((uuid))` in edit mode, and will copy the whole block including its sub-blocks in view mode.
+					- The clipboard content when copying in view mode
+					  id:: 67161e0f-4ded-4c41-a3e9-eab6dfec68ff
+					  collapsed:: true
+						- MIME types in clipboard: `web application/logseq`, `text/html`, `text/plain`
+						  id:: 6716110e-c217-49e5-a9e5-cbcdf6a8ef1a
+						- The `web application/logseq` contains the whole AST of the block.
+						- Inspect the cut/copied content with [ClipboardRead.html](../assets/HTML/ClipboardRead.html) ( ![src](../assets/HTML/ClipboardRead.html) ).
+					- Other types of copy via context menu
+					  collapsed:: true
+						- `Copy block embed`: `{{embed ((uuid))}}`
+						- `Copy block URL`: `logseq://graph/UniinfoNotes?block-id=$uuid`
+						- `Copy / Export as..`: advanced feature to extract contents with many options: HTML, PNG, OPML, indentation style, removal of {tags, properties, emphasis}, newline, etc.
+				- Block delete or ~~cut~~
+				  collapsed:: true
+					- Logseq replaces all refs to the block with the content of that block's heading item, and remembers these refs in ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b)).
+					  id:: 6716110e-6920-4ca0-9806-70c2e836f109
+					- Even it can be undone with `Ctrl` `z`, it's still dangerous with the possibility to [accidentally delete the whole large block](((66faa5f9-e82b-49cc-b9ed-2c97d28daa3e))).
+					- Warning: Just use the delete function, don't [~~cut & paste~~](((66ab12fd-cc14-4789-b70b-48b8b599f9eb)))!
+				- Adjacent move with hotkey
+				  id:: 671609b3-b815-44b7-90ce-68b609cd2bec
+				  `Alt` `Shift` {`Up`, `Down`}, or {`Tab`, `Shift` `Tab`}
+					- These are the safest operations thanks to their atomicity and proximity.
+				- Block moving via drag & drop
+				  id:: 6716110e-51bb-40b2-b98c-503061212007
+				  collapsed:: true
+					- This is a convenient way to move between the main edit pane and the ((6716110e-5181-4264-8b4f-886b00e9ceff)).
+					- Thanks to atomicity, this operation is rather safe, but...
+						- [!] The moved block usually has problem displaying at its destination.
+						- [!] Sometimes the move on GUI (and in the ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) is not reflected to the Markdown source files.
+					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
+				- ~~Block moving via cut & paste~~
+				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
 				  collapsed:: true
 				  :LOGBOOK:
-				  CLOCK: [2024-08-02 Fri 18:47:42]--[2024-08-06 Tue 14:43:23] =>  91:55:41
+				  CLOCK: [2024-08-01 Thu 11:46:07]
 				  :END:
-					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-						- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
-						  id:: 66b1cfa4-9b10-4032-a4df-8a4a05fdf46e
-					- Verification ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
-						- DONE [!] 2 failures in `block-refs-link-to-blocks-that-exist`
-						  :LOGBOOK:
-						  CLOCK: [2024-08-02 Fri 19:00:30]--[2024-08-03 Sat 17:46:43] =>  22:46:13
-						  :END:
-							- Log
-								- ```log
-								  FAIL in (block-refs-link-to-blocks-that-exist) (:42)
-								  expected: (empty? (set/difference (set block-refs) (->> (d/q (quote [:find (pull ?b [:block/properties]) :in $ % :where (has-property ?b :id)]) (clojure.core/deref state/db-conn) (vals rules/query-dsl-rules)) (map first) (map (comp :id :block/properties)) set)))
-								    actual: (not (empty? #{"(665374b0-1ed9-420b-afc4-897a942c0be0" "(667d2689-4ce0-4c79-b82a-25b0bba87d39"}))
-								  ```
-							- [665374b0-1ed9-420b-afc4-897a942c0be0: Bosidian Dataview](((665374b0-1ed9-420b-afc4-897a942c0be0)))
-								- [using a  `dataviewjs` script (Bosidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
-							- [667d2689-4ce0-4c79-b82a-25b0bba87d39: Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
-								- [Should be `(Block ref...)`](((6683ea7c-a48c-4998-8f2b-40d4d9bc16a9))) < ((6683ea7c-c94f-4970-bcd1-d3b468c32ab7)) < ((667d263b-658b-4560-b8cc-f6838534956d))
-							- => Temporarily insert space between open parenthesis and block refs.
-						- DONE [!] Info (warning) about re-assigning new id for block `Git` in parsing phase
-						  :LOGBOOK:
-						  CLOCK: [2024-08-03 Sat 18:00:08]--[2024-08-09 Fri 18:37:03] =>  144:36:55
-						  :END:
-							- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) `Mind Jungle` > `Git` has been move to [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) but the block `Git` is still kept in `Mind Jungle` 
-							  id:: 66ae1489-c8cd-4341-9b2b-90047434943b
-							  collapsed:: true
-							  => the two have the same uuid `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
-								- `Mind Jungle` > `Git`
-								  ```
-								  - ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
-								    id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
-								  ```
-							- Log (after `Parsing 31 files...` and before `Ast node count: 2919`)
-								- ```log
-								  Logseq will assign a new id for this block:  #:block{:properties {:id 666ba1e2-19d1-409e-b30e-42a99b7e4ec0, :heading 2}, :tags [], :format :markdown, :path-refs (), :macros [], :unordered false, :content ## Git
-								  id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0, :refs (), :properties-text-values {:id 666ba1e2-19d1-409e-b30e-42a99b7e4ec0}, :level 1, :uuid #uuid "666ba1e2-19d1-409e-b30e-42a99b7e4ec0", :properties-order [:id]}
-								  ```
-							- Git diff right after that push to ((66536662-052f-46a4-a624-38858bffb334))
-								- ```diff
-								  --- a/pages/publish/technical/Git.md
-								  +++ b/pages/publish/technical/Git.md
-								  @@ -1,14 +1,14 @@
-								   ## Git
-								  -id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
-								  +id:: 66aded24-8ec4-4bc5-b7a5-972025161721
-								  ```
-								- This UUID of `Git > Git` is automatically changed by Logseq to avoid collision with UUID of `Mind Jungle > Git`.
-							- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
-								- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
-							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
-			- Sidebar
+					- This is a complicated & risky operation
+					  id:: 66ab130c-bee8-40e6-aa11-489eb4c34ec4
+					  collapsed:: true
+						- When cut, ((6716110e-6920-4ca0-9806-70c2e836f109))
+						- When pasted, Logseq restores the replaced refs of this block.
+						- Sometimes, Logseq fails to restore refs, usually due to the pasted block being associated with new id.
+						- Sometimes, Logseq even hangs when at the cutting step.
+						- This operation absolutely fails moving blocks with ((667bfebf-a319-46be-a795-d7fc9c156363)) like [this](((67160ca7-8889-451a-b137-a1606c7a94d9))).
+					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
+					- ((66b1d45e-f8fa-427c-82aa-197689ee04c5))
+				- Block moving via copy & paste + manual edit in external editor
+				  id:: 671608ec-008a-4d9a-895e-f63b94f4a03b
+				  collapsed:: true
+					- in Logseq: copy & paste; then close Logseq app;
+					- in external editor: _move **all ids**_ within the source block to the target block; then remove the source block.
+					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
+			- Right sidebar
+			  id:: 6716110e-5181-4264-8b4f-886b00e9ceff
 			  collapsed:: true
 				- Right sidebar is used as a stack of docs, started from [[Contents]], for column-styled editing in parallel with the main edit pane.
+				  id:: 6716110e-5169-4a51-926f-fdf8c8b77bf0
 					- This stack is a more-active form of the ((6653538a-22d3-4807-ad13-a64ac543edba)).
 				- ((66536710-7441-4fb8-986b-50d2eec762d7)): `Shift click` to open links or items in new top pane in sidebar, instead of in the main edit pane. `Ctrl Shift o` in editing mode to open link in sidebar.
 				- [!] However, some functions does not work (well) in right sidebar:
@@ -3514,6 +3605,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- Use the built-in feature "Export public pages".
 				  collapsed:: true
+					- Chose a **separate folder** (`$web/`) to checkout the `gh-pages` branch, then export to that folder.
+						- Warning: Don't export to the same folder with the `main` branch (`$src/`), because their contents are very different.
+					- The folder `$web/` can be launched by ((6714f01d-3dd8-461c-9619-c5bac33451b0)).
+					- When `gh-pages` branch is pushed to GitHub, ((671503e5-690e-4f1f-ad53-419fd57543fe)) will deploy it to `https://$user.github.io/$repo/`.
 					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
 					- So i customize `data-color=logseq` to match CreatZy theme.
 					  id:: 66698fb6-d9ac-423f-845c-0f0f5c93abf2
@@ -3757,6 +3852,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `graphs/*.transit`
 				  id:: 66f7b4fd-e34e-4fc3-9c2d-d468206d279b
 				  contains all graphs loaded by LogSeq. Each graph is managed by LogSeq internally, with a `.transit` file, to be a "mirror" of the corresponding `.md` files ... as much as possible.
+				- `git/`
+				  id:: 6716110e-3c2b-45e8-99a0-d8263b6a42b2
+				  contains ((67152861-f595-4ad1-88a9-9363082d03eb)) of the graphs that are added from non-Git folders.
+					- A ((67152b95-02b4-473b-a88b-6cbab4b46749)) named `.git` will be added to the folder of that graph instead of the normal `.git/` folder.
 			- `Logseq/` (Electron) app folder
 			  id:: 6710c36b-6b29-42c5-b0e4-fc79e5e449a2
 				- `configs.edn`
@@ -4042,6 +4141,52 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Templates and slots](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots)
 		- ### CSS
 			-
+	- ## HTTP
+	  id:: 6714ee7d-d83b-4f42-af22-badb410d4a58
+	  collapsed:: true
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/HTTP
+		- ### HTTP Headers
+		  collapsed:: true
+			- `Content-Type`
+			- `Content-Encoding`
+			- `Cookie`
+		- ### HTTPS
+		- ### Web Servers
+		  id:: 6714f01d-3dd8-461c-9619-c5bac33451b0
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Web_server
+			- Python's simple [http.server](https://docs.python.org/3/library/http.server.html) ([SimpleHTTPRequestHandler](https://docs.python.org/3/library/http.server.html#http.server.SimpleHTTPRequestHandler))
+			  id:: 6714f028-4e17-41b8-a6d3-88bfb0d5d1f9
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-10-20 Sun 18:35:00]--[2024-10-20 Sun 18:45:19] =>  00:10:19
+			  :END:
+				- Direct use of the module
+				  ```sh
+				  cd $HTTP_host_dir
+				  python3 -m http.server [$PORT]
+				  # Default $PORT = 8000 --^
+				  ```
+				- Use in a python script
+				  ```python
+				  import http.server
+				  import socketserver
+				  
+				  PORT = 8000
+				  
+				  Handler = http.server.SimpleHTTPRequestHandler
+				  
+				  with socketserver.TCPServer(("", PORT), Handler) as httpd:
+				      print("serving at port", PORT)
+				      httpd.serve_forever()
+				  ```
+				- References
+					- StackOverflow: [Best lightweight web server (only static content)](https://stackoverflow.com/a/5128451/789095)
+					- RealPython: [How to Launch an HTTP Server in One Line of Python Code](https://realpython.com/python-http-server/)
+					  This is a comprehensive instruction to serve from simple static content to dynamic web page via CGI as well as HTTPS.
+			- Modern IDEs like IntelliJ, Visual Studio Code, support live simple HTTP server right from the opening HTML file.
+			- #### Apache
+			- #### NGINX
+		-
 	- ## Google Chrome
 	  collapsed:: true
 	  :LOGBOOK:
