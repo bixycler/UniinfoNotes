@@ -11,6 +11,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
+				- karmic cycle, choice, `BeowulfBuildModDocs/LogseqNotes`, update Git
+				-
 				- Update [[Git]]: multiple working trees per repo
 				- Update Logseq's Block handling
 				- Move update contents to [[Git]]
@@ -18,9 +20,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- Python's simple http.server & HTTP in Mind Jungle
 				- The **choice** determines the self circle and its karmic cycle
 				- karmic cycle: saṅkhāra, vāsanā, bīja
+				- Refactor ((67139355-ac72-4e4c-b882-00bb3a3ea144)): ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) + ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- Refactor ((67139355-ac72-4e4c-b882-00bb3a3ea144)): ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) + ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
 				- ...
 			- ------
 		-
