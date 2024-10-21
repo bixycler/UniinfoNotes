@@ -1033,3 +1033,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Và thú vị là chính con người thông minh, cho rằng mình có tự do lựa chọn lại nhiều khi bị ghiền việc "nhờ cục xúc-sắc vô tri lựa chọn giùm" 😃
 			- Vì cái tự do biểu kiến đó quá ảo nên nhiều khi bị rơi vào tình huống "lật mặt" thì người ta nhảy sang thái cực "định mệnh", tức pre-determined. Theo tui thì cái tự do thực sự (không biểu kiến) nằm ở chỗ determined nhưng không phải pre-detemined 😃 Cái chỗ này vi tế khó nói, nhưng đại khái là chúng ta có tự do ở **thái độ**, hay nói theo vật lý là tự do ở "lực", và nói theo nhân quả là ở "nhân". Nó khác với cái tự do biểu kiến ở hành động, ở vận tốc, vị trí, ở quả.
 			- Vì nhân, lực, thái độ là những thứ vô hình so với sự hiển hiện của quả, vị trí, vận tốc, hành động, nên cái tự do gốc này = 0 so với sự tự do biểu kiến, tức nếu nhìn theo thước đo của tự do biểu kiến thì ta "không có tự do" 😃
+	- Linus Torvalds humour on Git mailing list
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-21 Mon 20:46:16]
+	  :END:
+		- ["GIT_INDEX_FILE" environment variable](https://git.vger.kernel.narkive.com/iEYOeYwt/index-file-environment-variable)
+		- [Post by Linus Torvalds](https://git.vger.kernel.narkive.com/iEYOeYwt/index-file-environment-variable#post1)
+		  > Did I already happen to mention that I think that the git model is the
+		  best model ever, and that I'm just not an incredibly good-looking hunk and
+		  becomingly modest, I'm smart too?
+		- [Davide Libenzi's response](https://git.vger.kernel.narkive.com/iEYOeYwt/index-file-environment-variable#post2)
+		  > You forgot, *again*, to take your medications !!
+		- ![Screenshot Linus Torvalds humour.png](../assets/Will/story/2024-Oct/Screenshot Linus Torvalds humour.png)
