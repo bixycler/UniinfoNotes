@@ -15,17 +15,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		-
 		- TODO move this block to [[Git]]
 		  id:: 67151ca6-a2fa-49b5-9f8c-d24eebace7c4
-			- `$GIT_DIR`
-			  id:: 67152861-f595-4ad1-88a9-9363082d03eb
-			  collapsed:: true
-				- Official docs: [Git Repository Layout](https://git-scm.com/docs/gitrepository-layout)
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67152861-f595-4ad1-88a9-9363082d03eb)) contains the whole Git repo whose current state is the ((67152d29-5cee-475d-a01b-bbc9c9ad3417)). It's usually a folder named `.git/` (repo with working tree) or `$repo.git/` (bare repo without working tree). But it can also be a ((67152b95-02b4-473b-a88b-6cbab4b46749)) named `.git` at the root of the working tree pointing to an external folder.
-				- `gitfile`
-				  id:: 67152b95-02b4-473b-a88b-6cbab4b46749
-				  collapsed:: true
-				  `gitdir: ${external_path}/.git`
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67152b95-02b4-473b-a88b-6cbab4b46749)) is a file named `.git` at the root of the working tree pointing to an external folder. This is a convenient way to **separate** ((67152861-f595-4ad1-88a9-9363082d03eb)) from ((67152d29-5cee-475d-a01b-bbc9c9ad3417)), so that Git repo will not be affected _even when the whole working tree is cleared up_. Using `gitfile`, we can configure many separate working trees as separate ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same repo, e.g. to checkout and manage different branches with no need to clone the same remote repo into many local repos.
-					- Use cases: ((67151eb0-94a3-47bb-a7f9-25561690e75d)), `.logseq/git/`
 			- DOING Move a block with **self references** like ((67152861-f595-4ad1-88a9-9363082d03eb)) is challenging...
 			  :LOGBOOK:
 			  CLOCK: [2024-10-21 Mon 10:53:34]
