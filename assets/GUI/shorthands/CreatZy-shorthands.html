@@ -294,7 +294,9 @@
 <script>/***** load & show shorthandMap from CreatZy-shorthands.tsv *****/
     const shorthandMap = {};
     const shorthands = [], chars = [];
+    const commands = [/*{code, text, codepoint}*/];
     let noShorthands = 0, noHeaders = 0;
+
     function parseShorthands(){
         shorthandMap.clear();
         for(const i in shorthands){ const ln = shorthands[i];
@@ -397,6 +399,19 @@
         for(sh of shorthands){ shlns.push(sh.join('\t')); }
         shorthandMapTextArea.value = shlns.join('\n') + '\n';
         saveTextArea(shorthandMapTextArea, shorthandMapDownloadLink);
+    }
+
+    function shorthands2LogseqCommands(){
+        for(i in chars){ if(i >= noShorthands) break;
+            const c = chars[i], sh = shorthandMap[c];
+            for(s of [sh.code, sh.name, ...sh.keywords]){
+                const cmd = {
+                    code: s,
+                    text: c,
+                    codePoint: sh.codePoint,
+                }; commands.push(cmd);
+            }
+        }
     }
 </script>
 
