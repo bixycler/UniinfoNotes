@@ -415,8 +415,8 @@
         //parseUnicodeData(); 
 
         await loadDsv('CreatZy-shorthands.tsv', shorthands, /*delim=*/'\t', /*skipHeader=*/false, /*eol=*/'\n', /*comment=*/'');
-        //parseShorthands();
-        appendEmojiShorthands(); // including parseShorthands()
+        parseShorthands();
+        //appendEmojiShorthands(); // including parseShorthands()
         validateShorthandMap();
 
         showCharMap();
