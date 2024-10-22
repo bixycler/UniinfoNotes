@@ -1916,12 +1916,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Linguistic [interpunct](https://en.wikipedia.org/wiki/Interpunct)
 				- Emoji
 				  id:: 6716110f-5741-4ed0-aeeb-9c150ef847a0
+				  collapsed:: true
 					- The mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser` corresponds to the [Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html) of The Unicode Consortium.
 						- Emoji name is different from Unicode name, e.g. 😃 = "grinning face with big eyes" ([emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/c2508f15975d9f4c54121049166b5070939f4b3e/src/lib/emoji-lib.json#L13C14-L13C41)) = "Smiling Face with Open Mouth" ([Compart](https://www.compart.com/en/unicode/U+1F603)).
 						- `emoji-lib.json` also includes additional keywords and emoticon codes (as keywords) to be searched easily.
 						- When converted to [emoji-lib.js](((671749b8-3705-4377-9a63-c113840eb6dc))), ((67174a19-1aec-4e23-94d5-79373c0019fe))
 					- [List of emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) maps various emoticon codes with emojis.
 					- Manual corrections
+					  collapsed:: true
 						- Keywords of 🇻🇳
 						  ```diff
 						       "char": "🇻🇳",
@@ -1952,8 +1954,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `≏` hump equals: [The Mathematical Symbol "Difference Between (≏)"](https://www.mathematics-monster.com/symbols/Difference-Between.html)
 					- The sign of Libra (`♎︎`) is similar to this hump equals sign.
 				- [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) is a special case of [DSV](https://en.wikipedia.org/wiki/Delimiter-separated_values) which is usually called [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) due to the popularity of CSV, as [in Python](https://thepythonguru.com/python-how-to-read-and-write-csv-files/).
+			- Some commands demo:
+				- `<{"double curly quotes<}"`
+				  “double curly quotes”
+				- `<{}"double curly quotes`
+				  “double curly quotes”
+				- ``
 			- TODO Write translator to: `<table>`, markdown table, logseq commands, JSON
-				- testing commands: ☀️ ☉
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
