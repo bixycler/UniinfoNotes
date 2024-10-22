@@ -318,7 +318,7 @@
             const ca = Array.from(c); if(ca.length > 1){ console.debug('Multi-char emoji: ',c,emojiMap[c].name); }
             const name = ca.length > 1 ? emojiMap[c].name : charMap[c].name;
             let keywords = emojiMap[c].keywords.slice(1);
-            if(ca.length == 1){ keywords.unshift(emojiMap[c].name); }
+            if(ca.length == emojiMap[c].name){ keywords.unshift(emojiMap[c].name); }
             keywords = keywords.join(', ');
             const entities = c in htmlEntityMap ? htmlEntityMap[c].join() : '';
             shorthands.push([c, codepoints(c), name, entities, '', keywords]);
@@ -414,8 +414,8 @@
         //parseUnicodeData(); 
 
         await loadDsv('CreatZy-shorthands.tsv', shorthands, /*delim=*/'\t', /*skipHeader=*/false, /*eol=*/'\n', /*comment=*/'');
-        parseShorthands();
-        //appendEmojiShorthands(); // including parseShorthands()
+        //parseShorthands();
+        appendEmojiShorthands(); // including parseShorthands()
         validateShorthandMap();
 
         showCharMap();
