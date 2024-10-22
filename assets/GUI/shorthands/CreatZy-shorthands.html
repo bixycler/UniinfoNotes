@@ -51,13 +51,17 @@
 </details>
 
 <details open>
-    <summary><a id="shorthandMapDownloadLink" href="" download="CreatZy-shorthands.tsv">CreatZy Shorthands</a>: </summary>
+    <summary>
+        <a id="shorthandMapDownloadLink" href="" download="CreatZy-shorthands.tsv">CreatZy Shorthands</a>: 
+        <a id="commandsDownloadLink" href="" download="Logseq-commands.tsv">Logseq commands</a>
+    </summary>
     <div class="flexbox">
     <div id="shorthandMapSearch">
         <label for="shorthandMapSearchKey">Search for </label>
         <input type="text" id="shorthandMapSearchKey" name="shorthandMapSearchKey"></input><br>
         <textarea id="shorthandMapSearchResult" rows="30" cols="50"></textarea>
     </div>
+    <textarea id="commandsTextArea" rows="30" cols="50">commands</textarea>
     <table id="shorthandMapTable"></table>
     <textarea id="shorthandMapTextArea" rows="30" cols="50" style="display:none">shorthands TSV</textarea>
     </div>
@@ -402,16 +406,25 @@
     }
 
     function shorthands2LogseqCommands(){
+        const cmdlns = [];
         for(i in chars){ if(i >= noShorthands) break;
             const c = chars[i], sh = shorthandMap[c];
+            if(!sh){ if(c[0] != '#'){ console.warn('Not found in shorthandMap:',c); continue; }
+                cmdlns.push(`\n    ;;;;;;;;;;;;;;;;;;;;;;;;;;\n    ;;${c.slice(1)}\n`);
+                continue; 
+            }
             for(s of [sh.code, sh.name, ...sh.keywords]){
                 const cmd = {
-                    code: s,
-                    text: c,
+                    code: s, text: c,
                     codePoint: sh.codePoint,
-                }; commands.push(cmd);
+                }; 
+                commands.push(cmd);
+                cmdlns.push(`    ;${cmd.codePoint}\n    ["${strEscape(cmd.code)}" "${cmd.text}"]`);
             }
         }
+        // export commands
+        commandsTextArea.value = cmdlns.join('\n') + '\n';
+        saveTextArea(commandsTextArea, commandsDownloadLink);
     }
 </script>
 
