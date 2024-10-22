@@ -187,7 +187,7 @@ const emojiMap = {
     "unicode_version": "1.0",
     "skin_tone_support": false,
     "char": "😗",
-    "keywords": ["kissing_face", "3"]
+    "keywords": ["kissing_face"]
   },
   "☺️": {
     "name": "smiling face",
@@ -767,7 +767,7 @@ const emojiMap = {
     "unicode_version": "1.0",
     "skin_tone_support": false,
     "char": "😕",
-    "keywords": ["confused_face", "huh", "weird", ":/"]
+    "keywords": ["confused_face", "huh", "weird"]
   },
   "🫤": {
     "name": "face with diagonal mouth",
@@ -817,7 +817,7 @@ const emojiMap = {
     "unicode_version": "1.0",
     "skin_tone_support": false,
     "char": "😮",
-    "keywords": ["face_with_open_mouth", "surprise", "impressed", "wow", "whoa", ":O"]
+    "keywords": ["face_with_open_mouth", "surprise", "impressed", "wow", "whoa"]
   },
   "😯": {
     "name": "hushed face",
@@ -927,7 +927,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😢",
-    "keywords": ["crying_face", "tears", ":'("]
+    "keywords": ["crying_face", "tears"]
   },
   "😭": {
     "name": "loudly crying face",
@@ -957,7 +957,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😖",
-    "keywords": ["confounded_face", "confused", "unwell", ":S"]
+    "keywords": ["confounded_face", "confused", "unwell"]
   },
   "😣": {
     "name": "persevering face",
