@@ -183,17 +183,25 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 🙂	U+1F642	slightly smiling face		:-)	slightly smiling face, smile
 😊	U+1F60A	smiling face with smiling eyes		:)	smiling face with smiling eyes, flushed, crush, embarrassed
 ☺️	U+263A+FE0F	smiling face		:-}	blush, massage, happiness
-😀	U+1F600	grinning face			face, grin
-😃	U+1F603	smiling face with open mouth			grinning face with big eyes, happy, haha
-😄	U+1F604	smiling face with open mouth and smiling eyes			grinning face with smiling eyes, joy, funny
-😁	U+1F601	grinning face with smiling eyes			beaming face with smiling eyes, kawaii
-😆	U+1F606	smiling face with open mouth and tightly-closed eyes			grinning squinting face, lol, satisfied, glad
-😅	U+1F605	smiling face with open mouth and cold sweat			grinning face with sweat, hot, laugh, relief
-🤣	U+1F923	rolling on the floor laughing			rolling, floor, laughing, rofl
-😂	U+1F602	face with tears of joy			cry, weep, happytears
+😉	U+1F609	winking face		;)	mischievous, secret
+😀	U+1F600	grinning face		:-))	face, grin
+😃	U+1F603	smiling face with open mouth		:-D	grinning face with big eyes, happy, haha
+😄	U+1F604	smiling face with open mouth and smiling eyes		:))	grinning face with smiling eyes, joy, funny
+😁	U+1F601	grinning face with smiling eyes		:D	beaming face with smiling eyes, kawaii
+😆	U+1F606	smiling face with open mouth and tightly-closed eyes		:XD	grinning squinting face, lol, satisfied, glad
+😅	U+1F605	smiling face with open mouth and cold sweat		:’D	grinning face with sweat, hot, laugh, relief
+🤣	U+1F923	rolling on the floor laughing		:’XD	rolling, floor, laughing, rofl
+😂	U+1F602	face with tears of joy		:”D	cry, weep, happytears
+					
+					
+					
+					
+					
+					
+					
+					
 🙃	U+1F643	upside-down face			flipped
 🫠	U+1FAE0	melting face			heat
-😉	U+1F609	winking face			mischievous, secret
 😇	U+1F607	smiling face with halo			angel, halo, innocent
 🥰	U+1F970	smiling face with smiling eyes and three hearts			smiling face with hearts, love, hearts, adore
 😍	U+1F60D	smiling face with heart-shaped eyes			smiling face with heart-eyes, affection
