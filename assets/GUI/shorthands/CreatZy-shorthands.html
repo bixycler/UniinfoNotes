@@ -415,10 +415,11 @@
 
     function shorthands2LogseqCommands(){
         const cmdlns = [];
-        for(i in chars){ if(i >= noShorthands) break;
+        for(i in chars){ 
+            if(i >= noShorthands){ console.log(i,noShorthands, 'shorthands are converted to commands:', commands); break;}
             const c = chars[i], sh = shorthandMap[c];
             if(!sh){ if(c[0] != '#'){ console.warn('Not found in shorthandMap:',c); continue; }
-                cmdlns.push(`\n    ;;;;;;;;;;;;;;;;;;;;;;;;;;\n    ;;${c.slice(1)}\n`);
+                cmdlns.push(`\n    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;\n    ;;${c.slice(1)}\n`);
                 continue; 
             }
             for(s of [sh.code, sh.name, ...sh.keywords]){
