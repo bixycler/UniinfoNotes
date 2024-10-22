@@ -222,8 +222,11 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 😢	U+1F622	crying face		:’(	tears
 😭	U+1F62D	loudly crying face		:”(	sobbing
 🤐	U+1F910	zipper-mouth face		:#	sealed, zipper
-					
-					
+🤔	U+1F914	thinking face		:?	hmmm, think, consider
+🫡	U+1FAE1	saluting face		:!	respect, salute
+😎	U+1F60E	smiling face with sunglasses		:B)	cool, summer, beach, sunglass
+🤓	U+1F913	nerd face		:B.)	nerdy, geek, dork
+🧐	U+1F9D0	face with monocle		:%	stuffy, wealthy
 					
 🫠	U+1FAE0	melting face			heat
 😇	U+1F607	smiling face with halo			angel, halo, innocent
@@ -234,8 +237,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 🫢	U+1FAE2	face with open eyes and hand over mouth			silence
 🫣	U+1FAE3	face with peeking eye			frightening
 🤫	U+1F92B	face with finger covering closed lips			shushing face, quiet, shhh
-🤔	U+1F914	thinking face			hmmm, think, consider
-🫡	U+1FAE1	saluting face			respect, salute
 🤨	U+1F928	face with one eyebrow raised			face with raised eyebrow, distrust, scepticism, disapproval, disbelief, suspicious
 🫥	U+1FAE5	dotted line face			invisible, lonely, isolation, depression
 😶‍🌫️	U+1F636+200D+1F32B+FE0F	face in clouds			steam, dream
@@ -268,9 +269,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 🤠	U+1F920	face with cowboy hat			cowboy hat face, cowgirl, hat
 🥳	U+1F973	face with party horn and party hat			partying face, celebration, woohoo
 🥸	U+1F978	disguised face			pretent, brows
-😎	U+1F60E	smiling face with sunglasses			cool, summer, beach, sunglass
-🤓	U+1F913	nerd face			nerdy, geek, dork
-🧐	U+1F9D0	face with monocle			stuffy, wealthy
 😳	U+1F633	flushed face			shy, flattered
 🥺	U+1F97A	face with pleading eyes			pleading face, begging, mercy, grievance
 🥹	U+1F979	face holding back tears			touched, gratitude
