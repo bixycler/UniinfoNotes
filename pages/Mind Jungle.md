@@ -1861,14 +1861,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- When a hard-linked file must be updated from remote,
 					- at remote repo, the update contents must be transported via the ((66519638-cf5d-409b-9b98-15acabf2268c)) which is not hard-linked; then
 					- at local repo, these contents (blocks) will be moved to the hard-linked files.
-		- DOING CreatZy [shorthands](((66ff4478-6eae-4633-b7be-fd42e2bcda5b)))
+		- CreatZy [shorthands](((66ff4478-6eae-4633-b7be-fd42e2bcda5b)))
 		  id:: 66fe9e2e-13cf-4b31-96e7-1b050eed47c4
 		  :LOGBOOK:
-		  CLOCK: [2024-10-03 Thu 20:57:00]
+		  CLOCK: [2024-10-03 Thu 20:57:00]--[2024-10-22 Tue 20:05:08] =>  455:08:08
 		  :END:
-			- DOING TSV database: [[GUI/CreatZy-shorthands.tsv]]
+			- TSV database: [[GUI/CreatZy-shorthands.tsv]]
 			  :LOGBOOK:
-			  CLOCK: [2024-10-04 Fri 09:33:12]
+			  CLOCK: [2024-10-04 Fri 09:33:12]--[2024-10-22 Tue 20:05:06] =>  442:31:54
 			  :END:
 				- Unicode names of characters are defined in [UnicodeData.txt](http://unicode.org/Public/UNIDATA/UnicodeData.txt).
 				  id:: 6716110f-fa0b-480f-9051-54e0b152d8ec

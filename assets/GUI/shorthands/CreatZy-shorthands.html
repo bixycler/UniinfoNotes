@@ -52,7 +52,8 @@
 
 <details open>
     <summary>
-        <a id="shorthandMapDownloadLink" href="" download="CreatZy-shorthands.tsv">CreatZy Shorthands</a> &amp;
+        <a id="shorthandMapDownloadLink" href="" download="CreatZy-shorthands.tsv">CreatZy Shorthands</a> 
+        (<a id="shorthandJsonDownloadLink" href="" download="CreatZy-shorthands.json">JSON</a>) &amp;
         <a id="commandsDownloadLink" href="" download="Logseq-commands.edn">Logseq commands</a>:
     </summary>
     <div class="flexbox">
@@ -61,9 +62,10 @@
         <input type="text" id="shorthandMapSearchKey" name="shorthandMapSearchKey"></input><br>
         <textarea id="shorthandMapSearchResult" rows="30" cols="50"></textarea>
     </div>
-    <textarea id="commandsTextArea" rows="30" cols="50">commands</textarea>
+    <textarea id="commandsTextArea" rows="30" cols="50">:commands[]</textarea>
     <table id="shorthandMapTable"></table>
     <textarea id="shorthandMapTextArea" rows="30" cols="50" style="display:none">shorthands TSV</textarea>
+    <textarea id="shorthandJsonTextArea" rows="30" cols="50" style="display:none">shorthands JSON</textarea>
     </div>
 </details>
 
@@ -406,7 +408,9 @@
                 row.innerHTML += `<td style="${style}">${unescapeQuotes(field)}</td>`;
             }
         }
-        // export TSV
+        // export TSV & JSON
+        shorthandJsonTextArea.value = JSON.stringify(shorthandMap, null, '    ');
+        saveTextArea(shorthandJsonTextArea, shorthandJsonDownloadLink);
         const shlns = [];
         for(sh of shorthands){ shlns.push(sh.join('\t')); }
         shorthandMapTextArea.value = shlns.join('\n') + '\n';
