@@ -1954,15 +1954,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `≏` hump equals: [The Mathematical Symbol "Difference Between (≏)"](https://www.mathematics-monster.com/symbols/Difference-Between.html)
 					- The sign of Libra (`♎︎`) is similar to this hump equals sign.
 				- [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) is a special case of [DSV](https://en.wikipedia.org/wiki/Delimiter-separated_values) which is usually called [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) due to the popularity of CSV, as [in Python](https://thepythonguru.com/python-how-to-read-and-write-csv-files/).
-			- Some commands demo:
+			- Demo of some commands:
 				- `<{"` ... `<}"`, `<{;` ... `<};`
 				  “ double curly quotes ”, « double guillemets »
 				- `<{}"`, `<{};`, `<{}{`
 				  “double curly quotes”, «double guillemets», ⟪ ○ = ↑ ⟫
 				- `<--`, `<---`, `<---'`, `<-0`, `<-`
 				  –en-dash, —em-dash, ―quotation-dash, 123‒456, non‑breaking hyphen
-				- `<=+-`, `<=x`, `<=%`, `<=x%`
-				  ±, ×, ÷, ⋇
+				- `<=+-`, `<=x`, `<=%`, `<=x%`, `1/<=0 = <=8`
+				  ±, ×, ÷, ⋇, 1/∅ = ∞
+				- `</-\`, `<\-`, `</-`, `</=\`,  `</=`, `<\=`, `</|\`, `</|`, `<\|`
+				  ↔, ←, →, ⇔, ⇒,  `</|\`, `</|`, `<\|`
 			- TODO Write translator to: `<table>`, markdown table, logseq commands, JSON
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
