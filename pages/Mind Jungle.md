@@ -1887,6 +1887,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Only 4 characters: [ㅱ](https://ko.wikipedia.org/wiki/%E3%85%B1) , [ㅸ](https://ko.wikipedia.org/wiki/%E3%85%B8) , [ㅹ](https://ko.wikipedia.org/wiki/%E3%85%B9) , and [ㆄ](https://ko.wikipedia.org/wiki/%E3%86%84)
 								- [Hunminjeongeum's Sungyeongeum](https://en.namu.wiki/w/%EC%88%9C%EA%B2%BD%EC%9D%8C)
 				- [HTML Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) = [character reference](https://developer.mozilla.org/en-US/docs/Glossary/Character_reference)
+				  id:: 6716110f-c249-4ff9-b564-ddc2c71b89ba
 				  collapsed:: true
 					- Unicode Compart's [DB of HTML Entities](https://www.compart.com/en/unicode/html) shows HTML5 names.
 					- The mapping [named-references.ts](https://github.com/mdevils/html-entities/blob/master/src/named-references.ts) of `mdevils/html-entities` includes both HTML5 and HTML4 names.
@@ -1912,10 +1913,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Typographic [bullet point](https://en.wikipedia.org/wiki/Bullet_(typography))
 					- Linguistic [interpunct](https://en.wikipedia.org/wiki/Interpunct)
 				- Emoji
+				  id:: 6716110f-5741-4ed0-aeeb-9c150ef847a0
 					- The mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser` corresponds to the [Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html) of The Unicode Consortium.
 						- Emoji name is different from Unicode name, e.g. 😃 = "grinning face with big eyes" ([emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/c2508f15975d9f4c54121049166b5070939f4b3e/src/lib/emoji-lib.json#L13C14-L13C41)) = "Smiling Face with Open Mouth" ([Compart](https://www.compart.com/en/unicode/U+1F603)).
 						- `emoji-lib.json` also includes additional keywords and emoticon codes (as keywords) to be searched easily.
-						- When converted to , ((67174a19-1aec-4e23-94d5-79373c0019fe))
+						- When converted to [emoji-lib.js](((671749b8-3705-4377-9a63-c113840eb6dc))), ((67174a19-1aec-4e23-94d5-79373c0019fe))
 					- [List of emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) maps various emoticon codes with emojis.
 					- Manual corrections
 						- Keywords of 🇻🇳
