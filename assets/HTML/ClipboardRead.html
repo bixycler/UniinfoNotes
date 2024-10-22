@@ -51,7 +51,6 @@ Code ref: <a href="https://developer.mozilla.org/en-US/docs/Web/API/ClipboardIte
     try {
       const clipboardItems = await navigator.clipboard.read();
       for (const clipboardItem of clipboardItems) {
-        console.log(clipboardItem.presentationStyle);
         clipboard = structuredClone(NullClipboard);
         for (const type of clipboardItem.types) {
           let blob = await clipboardItem.getType(type);
