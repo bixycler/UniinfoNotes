@@ -16,11 +16,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- Update `ClipboardRead.html`: reset buffer each time reading new clipboard
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 				- ...
 			- ------
-		-
-		-
-		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
 		-
 		-
