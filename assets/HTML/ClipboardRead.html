@@ -57,7 +57,7 @@ Code ref: <a href="https://developer.mozilla.org/en-US/docs/Web/API/ClipboardIte
           blob.text = await blob.text();
           clipboard[type] = blob;
         }
-        console.log(clipboard);
+        console.log('clipboard: ',clipboard);
 
         // show content to page
         textContent.value = clipboard['text/plain'].text;
