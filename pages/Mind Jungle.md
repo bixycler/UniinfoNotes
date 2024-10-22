@@ -3824,6 +3824,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66fe90ad-7d6f-4516-a219-5dcb886505d9
 			  collapsed:: true
 			  defines **shorthands** to be expanded to corresponding longhands in editor when typing `<`shorthand.
+				-
 				- Ref: usage of ((66fbdf84-c5a4-4f96-aece-add980758db1)) like `:editor/input`, `:backward-pos`, `:backward-pos`, etc., and in combination with ((66ff3a47-e526-4c63-b0fc-8b260882ea51)).
 					- [`<`-comand to `{{macro}}` to insert special characters](https://discuss.logseq.com/t/is-there-any-way-to-insert-special-characters/26522/9)
 					- [Macros and Commands - let’s share](https://discuss.logseq.com/t/macros-and-commands-lets-share/9565)

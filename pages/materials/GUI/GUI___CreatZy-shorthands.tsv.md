@@ -12,10 +12,12 @@
 		- `=...` is converted to formula.
 - Local web page: [CreatZy-shorthands.html](../assets/GUI/shorthands/CreatZy-shorthands.html)
 	- DOING Add CreatZy codes to Emoji
+	  id:: 6716110d-ea8b-4314-992a-5d60127a572e
 	  :LOGBOOK:
 	  CLOCK: [2024-10-18 Fri 19:42:38]
+	  CLOCK: [2024-10-22 Tue 10:30:30]
 	  :END:
-	- DOING convert to Logseq commands
+	- TODO convert to Logseq commands
 	  :LOGBOOK:
 	  CLOCK: [2024-10-18 Fri 19:42:38]
 	  :END:
