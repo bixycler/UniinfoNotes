@@ -1969,7 +1969,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  ○, ◯, ⥁, ☉, ©, 🄯
 				- `<:)`, `<:))`, `<:D`, `<:(`, `<:p`, `<:*3`, `<..<3`, `<..+^`, `<../-`, `<..v`, `<..x`, `<..O`, `<..8`
 				  😊, 😄, 😁, 🙁, 😛, 😘, ❤️, 👍, ➡️, ✔️, ❌, ⭕, ♾️
-			- TODO Write translator to: `<table>`, markdown table, logseq commands, JSON
+			- DOING Write translator to: `<table>`, markdown table, JSON
+			  :LOGBOOK:
+			  CLOCK: [2024-10-22 Tue 19:45:44]
+			  :END:
 			-
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
