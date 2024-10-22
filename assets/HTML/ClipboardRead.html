@@ -87,7 +87,7 @@ Code ref: <a href="https://developer.mozilla.org/en-US/docs/Web/API/ClipboardIte
     let formatted = '', indent = '';
     const blockContentMatch = ast.match(/:block\/content "([^"]*)"/);
     //console.log(blockContentMatch);
-    blockContent.value = blockContentMatch.length > 1 ? blockContentMatch[1] : '';
+    blockContent.value = blockContentMatch && blockContentMatch.length > 1 ? blockContentMatch[1] : '';
     const nodes = ast.split(/([\[{,\]}])/).filter(node => node.trim());
     //console.log('nodes', nodes);
     for (let i = 0; i < nodes.length; i++) {
