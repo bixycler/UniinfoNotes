@@ -1959,8 +1959,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  “double curly quotes”
 				- `<{}"`
 				  “double curly quotes”
-				- `<--`, `<---`, `<quotation dash`
-				  –en-dash, —em-dash, ―quotation-dash
+				- `<--`, `<---`, `<quotation dash`, `<-0`, `<-`
+				  –en-dash, —em-dash, ―quotation-dash, 123‒456, non‑breaking hyphen
+				-
 			- TODO Write translator to: `<table>`, markdown table, logseq commands, JSON
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3

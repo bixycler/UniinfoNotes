@@ -34,7 +34,7 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ‑	U+2011	non-breaking hyphen		-	
 –	U+2013	en dash	&ndash;	--	
 —	U+2014	em dash	&mdash;	---	
-―	U+2015	horizontal bar	&horbar;	___	quotation dash
+―	U+2015	horizontal bar	&horbar;	---'	quotation dash
 ‒	U+2012	figure dash		-0	numerical separator
 §	U+00A7	section sign	&sect;	.S	
 ¶	U+00B6	pilcrow sign	&para;	.P	paragraph sign
