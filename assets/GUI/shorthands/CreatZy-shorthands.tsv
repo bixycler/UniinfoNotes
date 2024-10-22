@@ -163,7 +163,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 •	U+2022	bullet	&bull;, &bullet;	.*	black small circle
 ◦	U+25E6	white bullet		.+	hollow bullet
 ⚬	U+26AC	medium small white circle			
-⭕	U+2B55	heavy large circle			hollow red circle
 ⬤	U+2B24	black large circle			
 ⬭	U+2B2D	white horizontal ellipse			
 ⬯	U+2B2F	white vertical ellipse			
@@ -233,12 +232,19 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 😡	U+1F621	pouting face		:>:[	enraged face, hate, despise
 😠	U+1F620	angry face		:>:(	mad, annoyed
 ❤️	U+2764+FE0F	red heart		..<3	
-👍	U+1F44D	thumbs up sign		..^	thumbs up, thumbsup, yes, accept, +1
-👎	U+1F44E	thumbs down sign		..V	thumbs down, thumbsdown, dislike, -1
+👍	U+1F44D	thumbs up sign		..+^	thumbs up, thumbsup, yes, accept, +1
+👎	U+1F44E	thumbs down sign		..-v	thumbs down, thumbsdown, dislike, -1
 ⬆️	U+2B06+FE0F	up arrow		../|	continue
 ➡️	U+27A1+FE0F	right arrow		../	next
 ⬇️	U+2B07+FE0F	down arrow		..\|	bottom
 ⬅️	U+2B05+FE0F	left arrow		..\	previous
+⭕	U+2B55	heavy large circle		..O	hollow red circle
+♾️	U+267E+FE0F	infinity		..8	forever
+☑️	U+2611+FE0F	check box with check		..v@	ok, confirm, black-square
+✔️	U+2714+FE0F	check mark		..v	nike, tick
+❌	U+274C	cross mark		..x	delete, remove, cancel
+❎	U+274E	negative squared cross mark		..x@	cross mark button, x, deny
+♎	U+264E	libra		..=b=	Libra
 🫠	U+1FAE0	melting face			heat
 😇	U+1F607	smiling face with halo			angel, halo, innocent
 🤩	U+1F929	grinning face with star eyes			star-struck, starry, grinning
@@ -1652,7 +1658,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ♋	U+264B	cancer			Cancer
 ♌	U+264C	leo			Leo
 ♍	U+264D	virgo			Virgo
-♎	U+264E	libra			Libra
 ♏	U+264F	scorpius			Scorpio
 ♐	U+2650	sagittarius			Sagittarius
 ♑	U+2651	capricorn			Capricorn
@@ -1692,7 +1697,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ➖	U+2796	heavy minus sign			minus, subtract, less
 ➗	U+2797	heavy division sign			divide, divide
 🟰	U+1F7F0	heavy equals sign			
-♾️	U+267E+FE0F	infinity			forever
 ‼️	U+203C+FE0F	double exclamation mark			
 ⁉️	U+2049+FE0F	exclamation question mark			wat
 ❓	U+2753	black question mark ornament			red question mark
@@ -1709,10 +1713,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 📛	U+1F4DB	name badge			
 🔰	U+1F530	Japanese symbol for beginner			badge
 ✅	U+2705	white heavy check mark			check mark button, vote, answer
-☑️	U+2611+FE0F	check box with check			ok, confirm, black-square
-✔️	U+2714+FE0F	check mark			nike, tick
-❌	U+274C	cross mark			delete, remove, cancel
-❎	U+274E	negative squared cross mark			cross mark button, x, deny
 ➰	U+27B0	curly loop			scribble, squiggle
 ➿	U+27BF	double curly loop			tape, cassette
 〽️	U+303D+FE0F	part alternation mark			economics
