@@ -1,5 +1,5 @@
 - ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) [CreatZy-shorthands.tsv](../assets/GUI/shorthands/CreatZy-shorthands.tsv) = [CreatZy-shorthands-noEmoji.tsv](../assets/GUI/shorthands/CreatZy-shorthands-noEmoji.tsv) + [CreatZy-shorthands-emoji.tsv](../assets/GUI/shorthands/CreatZy-shorthands-emoji.tsv)
-	- [CreatZy-shorthands-commands.tsv](../assets/GUI/shorthands/CreatZy-shorthands-commands.tsv) is the first parts of `CreatZy-shorthands.tsv`, excluding the last part `Additional Emoji`, for ((66fe90ad-7d6f-4516-a219-5dcb886505d9)) in `config.edn`.
+	- [Logseq-commands.edn](../assets/GUI/shorthands/Logseq-commands.edn) <- [CreatZy-shorthands-commands.tsv](../assets/GUI/shorthands/CreatZy-shorthands-commands.tsv) is the first parts of `CreatZy-shorthands.tsv`, excluding the last part `Additional Emoji`, for ((66fe90ad-7d6f-4516-a219-5dcb886505d9)) in `config.edn`.
 - Alternatives (aliases, different keywords) are separated by comma `,`.
 - Character sequence: names & code-points in sequence are joined by plus sign `+`, while characters & HTML entities are joined without joiner (actually emoji sequence contains [zero-width joiner](https://en.wikipedia.org/wiki/Zero-width_joiner) already).
 - Alternative CreatZy code depends on command trigger character: `<>` vs `\/`
