@@ -11,15 +11,16 @@
 		- Plus/minus number: `-0`, `+0` -> `0`
 		- `=...` is converted to formula.
 - Local web page: [CreatZy-shorthands.html](../assets/GUI/shorthands/CreatZy-shorthands.html)
-	- DOING Add CreatZy codes to Emoji
+	- DONE Add CreatZy codes to Emoji
 	  id:: 6716110d-ea8b-4314-992a-5d60127a572e
 	  :LOGBOOK:
 	  CLOCK: [2024-10-18 Fri 19:42:38]
-	  CLOCK: [2024-10-22 Tue 10:30:30]
+	  CLOCK: [2024-10-22 Tue 10:30:30]--[2024-10-22 Tue 15:58:22] =>  05:27:52
 	  :END:
-	- TODO convert to Logseq commands
+	- DOING convert to Logseq commands
 	  :LOGBOOK:
 	  CLOCK: [2024-10-18 Fri 19:42:38]
+	  CLOCK: [2024-10-22 Tue 16:06:25]
 	  :END:
 - [Unicode](((6716110f-fa0b-480f-9051-54e0b152d8ec))) database: [charMap.js](../assets/GUI/shorthands/charMap.js)
 	- Source: [UnicodeData.csv](../assets/GUI/shorthands/UnicodeData.csv) = [UnicodeData.txt](http://unicode.org/Public/UNIDATA/UnicodeData.txt)

@@ -178,3 +178,70 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 🄯	U+1F12F	copyleft symbol		.(CL)	
 ®	U+00AE	registered sign	&reg;, &circledR;, &REG;	.(R)	registered trademark symbol
 ℗	U+2117	sound recording copyright	&copysr;	.(P)	phonogram copyright symbol
+# Emoji					
+🙂	U+1F642	slightly smiling face		:-)	slightly smiling face, smile
+😊	U+1F60A	smiling face with smiling eyes		:)	smiling face with smiling eyes, flushed, crush, embarrassed
+☺️	U+263A+FE0F	smiling face		:-}	blush, massage, happiness
+😉	U+1F609	winking face		;)	mischievous, secret
+😀	U+1F600	grinning face		:-))	face, grin
+😃	U+1F603	smiling face with open mouth		:-D	grinning face with big eyes, happy, haha
+😄	U+1F604	smiling face with open mouth and smiling eyes		:))	grinning face with smiling eyes, joy, funny
+😁	U+1F601	grinning face with smiling eyes		:D	beaming face with smiling eyes, kawaii
+😆	U+1F606	smiling face with open mouth and tightly-closed eyes		:XD	grinning squinting face, lol, satisfied, glad
+😅	U+1F605	smiling face with open mouth and cold sweat		:’D	grinning face with sweat, hot, laugh, relief
+🤣	U+1F923	rolling on the floor laughing		:’XD	rolling, floor, laughing, rofl
+😂	U+1F602	face with tears of joy		:”D	cry, weep, happytears
+😗	U+1F617	kissing face		:-*	
+😚	U+1F61A	kissing face with closed eyes		:*	infatuation
+😙	U+1F619	kissing face with smiling eyes		:^*	
+😘	U+1F618	face throwing a kiss		:*3	face blowing a kiss, valentines
+🥰	U+1F970	smiling face with smiling eyes and three hearts		:)3	smiling face with hearts, love, hearts, adore
+😍	U+1F60D	smiling face with heart-shaped eyes		:o3	smiling face with heart-eyes, affection
+🙃	U+1F643	upside-down face		:(-:	flipped
+😟	U+1F61F	worried face		:^(	concern
+🙁	U+1F641	slightly frowning face		:(	frowning
+☹️	U+2639+FE0F	frowning face		:-(	upset, frown
+😮	U+1F62E	face with open mouth		:O	surprise, impressed, wow, whoa
+😯	U+1F62F	hushed face		:o	woo, shh
+😲	U+1F632	astonished face		:0	xox, surprised, poisoned
+😦	U+1F626	frowning face with open mouth		:-(o	aw, what
+😧	U+1F627	anguished face		:(o	stunned
+😋	U+1F60B	face savouring delicious food		:)p	face savoring food, yummy, nom, delicious, savouring
+😛	U+1F61B	face with stuck-out tongue		:p	face with tongue, prank
+😜	U+1F61C	face with stuck-out tongue and winking eye		;p	winking face with tongue, childish, wink
+🤪	U+1F92A	grinning face with one large and one small eye		:/p	zany face, goofy, crazy
+😝	U+1F61D	face with stuck-out tongue and tightly-closed eyes		:xp	squinting face with tongue, playful
+🤑	U+1F911	money-mouth face		:p$	rich
+😐	U+1F610	neutral face		:-|	indifference, meh, neutral
+😑	U+1F611	expressionless face		:|	indifferent, deadpan
+😶	U+1F636	face without mouth		:	
+😕	U+1F615	confused face		:(/	huh, weird
+🫤	U+1FAE4	face with diagonal mouth		:/	skeptic, confuse
+😥	U+1F625	disappointed but relieved face		:,(	sad but relieved face, phew
+😢	U+1F622	crying face		:’(	tears
+😭	U+1F62D	loudly crying face		:”(	sobbing
+🤐	U+1F910	zipper-mouth face		:#	sealed, zipper
+🤫	U+1F92B	face with finger covering closed lips		:!	shushing face, quiet, shhh
+🤔	U+1F914	thinking face		:?	hmmm, think, consider
+🫡	U+1FAE1	saluting face		:!!	respect, salute
+😎	U+1F60E	smiling face with sunglasses		:B)	cool, summer, beach, sunglass
+🤓	U+1F913	nerd face		:B.)	nerdy, geek, dork
+🧐	U+1F9D0	face with monocle		:%	stuffy, wealthy
+😵	U+1F635	dizzy face		:xx	face with crossed-out eyes, spent, unconscious
+😵‍💫	U+1F635+200D+1F4AB	face with spiral eyes		:@@	nauseous, nausea
+😡	U+1F621	pouting face		:>:[	enraged face, hate, despise
+😠	U+1F620	angry face		:>:(	mad, annoyed
+❤️	U+2764+FE0F	red heart		..<3	
+👍	U+1F44D	thumbs up sign		..+^	thumbs up, thumbsup, yes, accept, +1
+👎	U+1F44E	thumbs down sign		..-v	thumbs down, thumbsdown, dislike, -1
+⬆️	U+2B06+FE0F	up arrow		../|	continue
+➡️	U+27A1+FE0F	right arrow		../	next
+⬇️	U+2B07+FE0F	down arrow		..\|	bottom
+⬅️	U+2B05+FE0F	left arrow		..\	previous
+⭕	U+2B55	heavy large circle		..O	hollow red circle
+♾️	U+267E+FE0F	infinity		..8	forever
+☑️	U+2611+FE0F	check box with check		..v@	ok, confirm, black-square
+✔️	U+2714+FE0F	check mark		..v	nike, tick
+❌	U+274C	cross mark		..x	delete, remove, cancel
+❎	U+274E	negative squared cross mark		..x@	cross mark button, x, deny
+♎	U+264E	libra		..=b=	Libra
