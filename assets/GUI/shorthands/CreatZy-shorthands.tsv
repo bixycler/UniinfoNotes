@@ -192,31 +192,34 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 😅	U+1F605	smiling face with open mouth and cold sweat		:’D	grinning face with sweat, hot, laugh, relief
 🤣	U+1F923	rolling on the floor laughing		:’XD	rolling, floor, laughing, rofl
 😂	U+1F602	face with tears of joy		:”D	cry, weep, happytears
-🙃	U+1F643	upside-down face		:(-:	flipped
 😗	U+1F617	kissing face		:-*	
 😚	U+1F61A	kissing face with closed eyes		:*	infatuation
 😙	U+1F619	kissing face with smiling eyes		:^*	
-					
-					
+😘	U+1F618	face throwing a kiss		:*3	face blowing a kiss, valentines
+🥰	U+1F970	smiling face with smiling eyes and three hearts		:)3	smiling face with hearts, love, hearts, adore
+😍	U+1F60D	smiling face with heart-shaped eyes		:o3	smiling face with heart-eyes, affection
+🙃	U+1F643	upside-down face		:(-:	flipped
+😟	U+1F61F	worried face		:^(	concern
+🙁	U+1F641	slightly frowning face		:(	frowning
+☹️	U+2639+FE0F	frowning face		:-(	upset, frown
+😮	U+1F62E	face with open mouth		:O	surprise, impressed, wow, whoa
+😯	U+1F62F	hushed face		:o	woo, shh
+😲	U+1F632	astonished face		:0	xox, surprised, poisoned
+😦	U+1F626	frowning face with open mouth		:-(o	aw, what
+😧	U+1F627	anguished face		:(o	stunned
+😋	U+1F60B	face savouring delicious food		:)p	face savoring food, yummy, nom, delicious, savouring
+😛	U+1F61B	face with stuck-out tongue		:p	face with tongue, prank
+😜	U+1F61C	face with stuck-out tongue and winking eye		;p	winking face with tongue, childish, wink
+🤪	U+1F92A	grinning face with one large and one small eye		:/p	zany face, goofy, crazy
+😝	U+1F61D	face with stuck-out tongue and tightly-closed eyes		:xp	squinting face with tongue, playful
+🤑	U+1F911	money-mouth face		:p$	rich
 					
 					
 					
 🫠	U+1FAE0	melting face			heat
 😇	U+1F607	smiling face with halo			angel, halo, innocent
-🥰	U+1F970	smiling face with smiling eyes and three hearts			smiling face with hearts, love, hearts, adore
-😍	U+1F60D	smiling face with heart-shaped eyes			smiling face with heart-eyes, affection
 🤩	U+1F929	grinning face with star eyes			star-struck, starry, grinning
-😘	U+1F618	face throwing a kiss			face blowing a kiss, valentines
-					
-					
-					
 🥲	U+1F972	smiling face with tear			pretend
-😋	U+1F60B	face savouring delicious food			face savoring food, yummy, nom, delicious, savouring
-😛	U+1F61B	face with stuck-out tongue			face with tongue, prank
-😜	U+1F61C	face with stuck-out tongue and winking eye			winking face with tongue, childish, wink
-🤪	U+1F92A	grinning face with one large and one small eye			zany face, goofy, crazy
-😝	U+1F61D	face with stuck-out tongue and tightly-closed eyes			squinting face with tongue, playful
-🤑	U+1F911	money-mouth face			rich
 🤗	U+1F917	hugging face			smiling face with open hands, hug
 🤭	U+1F92D	smiling face with smiling eyes and hand covering mouth			face with hand over mouth, whoops, shock
 🫢	U+1FAE2	face with open eyes and hand over mouth			silence
@@ -265,17 +268,9 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 🧐	U+1F9D0	face with monocle			stuffy, wealthy
 😕	U+1F615	confused face			huh, weird
 🫤	U+1FAE4	face with diagonal mouth			skeptic, confuse
-😟	U+1F61F	worried face			concern
-🙁	U+1F641	slightly frowning face			frowning
-☹️	U+2639+FE0F	frowning face			upset, frown
-😮	U+1F62E	face with open mouth			surprise, impressed, wow, whoa
-😯	U+1F62F	hushed face			woo, shh
-😲	U+1F632	astonished face			xox, surprised, poisoned
 😳	U+1F633	flushed face			shy, flattered
 🥺	U+1F97A	face with pleading eyes			pleading face, begging, mercy, grievance
 🥹	U+1F979	face holding back tears			touched, gratitude
-😦	U+1F626	frowning face with open mouth			aw, what
-😧	U+1F627	anguished face			stunned
 😨	U+1F628	fearful face			scared, terrified
 😰	U+1F630	face with open mouth and cold sweat			anxious face with sweat, nervous, sweat
 😥	U+1F625	disappointed but relieved face			sad but relieved face, phew
