@@ -52,8 +52,8 @@
 
 <details open>
     <summary>
-        <a id="shorthandMapDownloadLink" href="" download="CreatZy-shorthands.tsv">CreatZy Shorthands</a>: 
-        <a id="commandsDownloadLink" href="" download="Logseq-commands.tsv">Logseq commands</a>
+        <a id="shorthandMapDownloadLink" href="" download="CreatZy-shorthands.tsv">CreatZy Shorthands</a> &amp;
+        <a id="commandsDownloadLink" href="" download="Logseq-commands.tsv">Logseq commands</a>:
     </summary>
     <div class="flexbox">
     <div id="shorthandMapSearch">
@@ -177,6 +177,14 @@
     function unescapeQuotes(s){
         if(!s || !s.endsWith('"""')){ return s; } 
         return s.slice(1, -1).replaceAll('""','"'); 
+    }
+
+    // Escape special chars in str
+    function strEscape(str, chars){
+        for(c of chars){
+            str = str.replaceAll(c, '\\'+c);
+        }
+        return str;
     }
 </script>
 
@@ -419,7 +427,7 @@
                     codePoint: sh.codePoint,
                 }; 
                 commands.push(cmd);
-                cmdlns.push(`    ;${cmd.codePoint}\n    ["${strEscape(cmd.code)}" "${cmd.text}"]`);
+                cmdlns.push(`    ;${cmd.codePoint}\n    ["${strEscape(cmd.code,'"')}" "${cmd.text}"]`);
             }
         }
         // export commands
@@ -453,6 +461,7 @@
         showCharMap();
         showHtmlEntityMap();
         showShorthandTable();
+        shorthands2LogseqCommands();
     });
 
 </script>
