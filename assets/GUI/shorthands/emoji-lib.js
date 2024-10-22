@@ -7,7 +7,7 @@ const emojiMap = {
     "unicode_version": "1.0",
     "skin_tone_support": false,
     "char": "😀",
-    "keywords": ["grinning_face", "face", ":D", "grin"]
+    "keywords": ["grinning_face", "face", "grin"]
   },
   "😃": {
     "name": "grinning face with big eyes",
@@ -17,7 +17,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😃",
-    "keywords": ["grinning_face_with_big_eyes", "happy", "haha", ":)"]
+    "keywords": ["grinning_face_with_big_eyes", "happy", "haha"]
   },
   "😄": {
     "name": "grinning face with smiling eyes",
@@ -47,7 +47,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😆",
-    "keywords": ["grinning_squinting_face", "lol", "satisfied", "glad", "XD"]
+    "keywords": ["grinning_squinting_face", "lol", "satisfied", "glad"]
   },
   "😅": {
     "name": "grinning face with sweat",
