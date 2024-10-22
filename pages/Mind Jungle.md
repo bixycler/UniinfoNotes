@@ -1887,6 +1887,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Wikipedia about the lip-light sound (脣輕音) or light-lip sound (輕脣音): [순경음](https://ko.wikipedia.org/wiki/%EC%88%9C%EA%B2%BD%EC%9D%8C)
 									- Only 4 characters: [ㅱ](https://ko.wikipedia.org/wiki/%E3%85%B1) , [ㅸ](https://ko.wikipedia.org/wiki/%E3%85%B8) , [ㅹ](https://ko.wikipedia.org/wiki/%E3%85%B9) , and [ㆄ](https://ko.wikipedia.org/wiki/%E3%86%84)
 								- [Hunminjeongeum's Sungyeongeum](https://en.namu.wiki/w/%EC%88%9C%EA%B2%BD%EC%9D%8C)
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((67174db9-a20b-45ef-94ec-0febf56f60f8))
 				- [HTML Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) = [character reference](https://developer.mozilla.org/en-US/docs/Glossary/Character_reference)
 				  id:: 6716110f-c249-4ff9-b564-ddc2c71b89ba
 				  collapsed:: true

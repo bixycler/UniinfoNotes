@@ -24,13 +24,13 @@ id:: 66faa5f7-f408-406c-befd-8ae69ed56667
 	  ^ **Term** search
 		- {{search-query [:h3 "Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 6651e92e-fb34-4d24-a386-d9698c2e93f7, false}}
 		  query-table:: false
-	- wiki
+	- so
 	  id:: 66fce8d4-0434-4dd0-941f-4f3bd9b1b456
 	  collapsed:: true
 	  ^ **Name** search
 		- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, true}}
 		  query-table:: false
-	- cheat
+	- 脣輕音
 	  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 	  case-sensitive:: false
 	  whole-word:: false

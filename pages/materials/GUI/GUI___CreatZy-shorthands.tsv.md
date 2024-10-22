@@ -1,4 +1,4 @@
-- ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) [CreatZy-shorthands.tsv](../assets/GUI/shorthands/CreatZy-shorthands.tsv)
+- ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) [CreatZy-shorthands.tsv](../assets/GUI/shorthands/CreatZy-shorthands.tsv) = [CreatZy-shorthands-noEmoji.tsv](../assets/GUI/shorthands/CreatZy-shorthands-noEmoji.tsv) + [CreatZy-shorthands-emoji.tsv](../assets/GUI/shorthands/CreatZy-shorthands-emoji.tsv)
 - Alternatives (aliases, different keywords) are separated by comma `,`.
 - Character sequence: names & code-points in sequence are joined by plus sign `+`, while characters & HTML entities are joined without joiner (actually emoji sequence contains [zero-width joiner](https://en.wikipedia.org/wiki/Zero-width_joiner) already).
 - Alternative CreatZy code depends on command trigger character: `<>` vs `\/`
@@ -23,7 +23,8 @@
 	  :END:
 - [Unicode](((6716110f-fa0b-480f-9051-54e0b152d8ec))) database: [charMap.js](../assets/GUI/shorthands/charMap.js)
 	- Source: [UnicodeData.csv](../assets/GUI/shorthands/UnicodeData.csv) = [UnicodeData.txt](http://unicode.org/Public/UNIDATA/UnicodeData.txt)
-	-
+	- All names are normalized, by function `normName(name)`, to lowercase with all proper names and capital letters capitalized.
+	  id:: 67174db9-a20b-45ef-94ec-0febf56f60f8
 - [HTML entity](((6716110f-c249-4ff9-b564-ddc2c71b89ba))) database: [htmlEntityMap.js](../assets/GUI/shorthands/htmlEntityMap.js)
 	- Source: `namedReferences.html5.characters` in [named-references.js](../assets/GUI/shorthands/named-references.js) <- [named-references.ts](https://github.com/mdevils/html-entities/blob/master/src/named-references.ts) of `mdevils/html-entities`
 - ((6716110f-5741-4ed0-aeeb-9c150ef847a0)) database: [emoji-lib.js](../assets/GUI/shorthands/emoji-lib.js)
