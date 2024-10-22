@@ -51,15 +51,21 @@
 </details>
 
 <details open>
-    <summary><a id="shorthandMapDownloadLink" href="" download="CreatZy-shorthands.tsv">CreatZy Shorthands</a>: </summary>
+    <summary>
+        <a id="shorthandMapDownloadLink" href="" download="CreatZy-shorthands.tsv">CreatZy Shorthands</a> 
+        (<a id="shorthandJsonDownloadLink" href="" download="CreatZy-shorthands.json">JSON</a>) &amp;
+        <a id="commandsDownloadLink" href="" download="Logseq-commands.edn">Logseq commands</a>:
+    </summary>
     <div class="flexbox">
     <div id="shorthandMapSearch">
         <label for="shorthandMapSearchKey">Search for </label>
         <input type="text" id="shorthandMapSearchKey" name="shorthandMapSearchKey"></input><br>
         <textarea id="shorthandMapSearchResult" rows="30" cols="50"></textarea>
     </div>
+    <textarea id="commandsTextArea" rows="30" cols="50">:commands[]</textarea>
     <table id="shorthandMapTable"></table>
     <textarea id="shorthandMapTextArea" rows="30" cols="50" style="display:none">shorthands TSV</textarea>
+    <textarea id="shorthandJsonTextArea" rows="30" cols="50" style="display:none">shorthands JSON</textarea>
     </div>
 </details>
 
@@ -173,6 +179,14 @@
     function unescapeQuotes(s){
         if(!s || !s.endsWith('"""')){ return s; } 
         return s.slice(1, -1).replaceAll('""','"'); 
+    }
+
+    // Escape special chars in str
+    function strEscape(str, chars){
+        for(c of chars){
+            str = str.replaceAll(c, '\\'+c);
+        }
+        return str;
     }
 </script>
 
@@ -293,12 +307,17 @@
 <script src="emoji-lib.js"></script>
 <script>/***** load & show shorthandMap from CreatZy-shorthands.tsv *****/
     const shorthandMap = {};
-    const shorthands = [];
+    const shorthands = [], chars = [];
+    const commands = [/*{code, text, codepoint}*/];
+    let noShorthands = 0, noHeaders = 0;
+
     function parseShorthands(){
         shorthandMap.clear();
         for(const i in shorthands){ const ln = shorthands[i];
             if(i==0){ continue; }
-            const c = ln[0]; if(c[0]=='#') continue;
+            const c = ln[0]; chars[i] = c;
+            if(c == '# Additional Emoji'){ noShorthands = i; };
+            if(c[0]=='#'){ ++noHeaders; continue; }
             if(c in shorthandMap){ console.log('Duplicated shorthand char: ',c,shorthandMap[c],ln); continue; }
             shorthandMap[c] = { i: i,
                 codePoint:  ln[1],
@@ -318,8 +337,9 @@
             const ca = Array.from(c); if(ca.length > 1){ console.debug('Multi-char emoji: ',c,emojiMap[c].name); }
             const name = ca.length > 1 ? emojiMap[c].name : charMap[c].name;
             let keywords = emojiMap[c].keywords.slice(1);
-            if(ca.length == 1){ keywords.unshift(emojiMap[c].name); }
-            keywords = keywords.join(', ');
+            if(name != emojiMap[c].name && keywords.indexOf(name) < 0){ keywords.unshift(emojiMap[c].name); }
+            // remove all appearance of name in keywords (many such dupes in emoji-lib.js)
+            keywords = keywords.filter(k => !(k==name || k.includes('_'))).join(', '); 
             const entities = c in htmlEntityMap ? htmlEntityMap[c].join() : '';
             shorthands.push([c, codepoints(c), name, entities, '', keywords]);
         }
@@ -388,11 +408,36 @@
                 row.innerHTML += `<td style="${style}">${unescapeQuotes(field)}</td>`;
             }
         }
-        // export TSV
+        // export TSV & JSON
+        shorthandJsonTextArea.value = JSON.stringify(shorthandMap, null, '    ');
+        saveTextArea(shorthandJsonTextArea, shorthandJsonDownloadLink);
         const shlns = [];
         for(sh of shorthands){ shlns.push(sh.join('\t')); }
         shorthandMapTextArea.value = shlns.join('\n') + '\n';
         saveTextArea(shorthandMapTextArea, shorthandMapDownloadLink);
+    }
+
+    function shorthands2LogseqCommands(){
+        const cmdlns = [];
+        for(i in chars){ 
+            if(Number(i) >= noShorthands){ console.log(noShorthands, 'shorthands are converted to commands:', commands); break;}
+            const c = chars[i], sh = shorthandMap[c];
+            if(!sh){ if(c[0] != '#'){ console.warn('Not found in shorthandMap:',c); continue; }
+                cmdlns.push(`\n    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;\n    ;;${c.slice(1)}\n`);
+                continue; 
+            }
+            for(s of [sh.code, sh.name, ...sh.keywords]){
+                const cmd = {
+                    code: s, text: c,
+                    codePoint: sh.codePoint,
+                }; 
+                commands.push(cmd);
+                cmdlns.push(`    ;${cmd.codePoint}\n    ["${strEscape(cmd.code,'\\"')}" "${cmd.text}"]`);
+            }
+        }
+        // export commands
+        commandsTextArea.value = cmdlns.join('\n') + '\n';
+        saveTextArea(commandsTextArea, commandsDownloadLink);
     }
 </script>
 
@@ -421,6 +466,7 @@
         showCharMap();
         showHtmlEntityMap();
         showShorthandTable();
+        shorthands2LogseqCommands();
     });
 
 </script>

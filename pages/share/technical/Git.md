@@ -87,6 +87,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  ```sh
 			  git rm [--cached] $subrepo
 			  ```
+			- Optionally, `$subrepo/.git` can also be `.gitignore`d by the outer repo. But this is unnecessary: By default, Git ignores all `.git` files/folders, because that's the default name for ((67152861-f595-4ad1-88a9-9363082d03eb)).
 			- References:
 				- StackOverflow: [Git: forcing `add` when file is in nested git repository](https://stackoverflow.com/questions/70289416/git-forcing-add-when-file-is-in-nested-git-repository)
 	- Useful commands (sets)

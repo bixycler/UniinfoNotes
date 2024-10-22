@@ -7,7 +7,7 @@ const emojiMap = {
     "unicode_version": "1.0",
     "skin_tone_support": false,
     "char": "😀",
-    "keywords": ["grinning_face", "face", ":D", "grin"]
+    "keywords": ["grinning_face", "face", "grin"]
   },
   "😃": {
     "name": "grinning face with big eyes",
@@ -17,7 +17,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😃",
-    "keywords": ["grinning_face_with_big_eyes", "happy", "haha", ":)"]
+    "keywords": ["grinning_face_with_big_eyes", "happy", "haha"]
   },
   "😄": {
     "name": "grinning face with smiling eyes",
@@ -47,7 +47,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😆",
-    "keywords": ["grinning_squinting_face", "lol", "satisfied", "glad", "XD"]
+    "keywords": ["grinning_squinting_face", "lol", "satisfied", "glad"]
   },
   "😅": {
     "name": "grinning face with sweat",
@@ -117,7 +117,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😉",
-    "keywords": ["winking_face", "mischievous", "secret", ";)"]
+    "keywords": ["winking_face", "mischievous", "secret"]
   },
   "😊": {
     "name": "smiling face with smiling eyes",
@@ -187,7 +187,7 @@ const emojiMap = {
     "unicode_version": "1.0",
     "skin_tone_support": false,
     "char": "😗",
-    "keywords": ["kissing_face", "3"]
+    "keywords": ["kissing_face"]
   },
   "☺️": {
     "name": "smiling face",
@@ -387,7 +387,7 @@ const emojiMap = {
     "unicode_version": "0.7",
     "skin_tone_support": false,
     "char": "😐",
-    "keywords": ["neutral_face", "indifference", "meh", ":|", "neutral"]
+    "keywords": ["neutral_face", "indifference", "meh", "neutral"]
   },
   "😑": {
     "name": "expressionless face",
@@ -767,7 +767,7 @@ const emojiMap = {
     "unicode_version": "1.0",
     "skin_tone_support": false,
     "char": "😕",
-    "keywords": ["confused_face", "huh", "weird", ":/"]
+    "keywords": ["confused_face", "huh", "weird"]
   },
   "🫤": {
     "name": "face with diagonal mouth",
@@ -817,7 +817,7 @@ const emojiMap = {
     "unicode_version": "1.0",
     "skin_tone_support": false,
     "char": "😮",
-    "keywords": ["face_with_open_mouth", "surprise", "impressed", "wow", "whoa", ":O"]
+    "keywords": ["face_with_open_mouth", "surprise", "impressed", "wow", "whoa"]
   },
   "😯": {
     "name": "hushed face",
@@ -927,7 +927,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😢",
-    "keywords": ["crying_face", "tears", ":'("]
+    "keywords": ["crying_face", "tears"]
   },
   "😭": {
     "name": "loudly crying face",
@@ -957,7 +957,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😖",
-    "keywords": ["confounded_face", "confused", "unwell", ":S"]
+    "keywords": ["confounded_face", "confused", "unwell"]
   },
   "😣": {
     "name": "persevering face",
@@ -977,7 +977,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😞",
-    "keywords": ["disappointed_face", ":("]
+    "keywords": ["disappointed_face"]
   },
   "😓": {
     "name": "downcast face with sweat",

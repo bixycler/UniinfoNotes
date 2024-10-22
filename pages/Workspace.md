@@ -11,23 +11,24 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
-				- karmic cycle, choice, `BeowulfBuildModDocs/LogseqNotes`, update Git
+			  collapsed:: true
 				-
-				- Update [[Git]]: multiple working trees per repo
-				- Update Logseq's Block handling
-				- Move update contents to [[Git]]
-				- `BeowulfBuildModDocs/LogseqNotes`, other updates
-				- Python's simple http.server & HTTP in Mind Jungle
-				- The **choice** determines the self circle and its karmic cycle
-				- karmic cycle: saṅkhāra, vāsanā, bīja
-				- Refactor ((67139355-ac72-4e4c-b882-00bb3a3ea144)): ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) + ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
+				- Update `ClipboardRead.html`: reset buffer each time reading new clipboard
+				- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
+					- DONE Add CreatZy codes to Emoji
+					  :LOGBOOK:
+					  CLOCK: [2024-10-18 Fri 19:42:38]
+					  CLOCK: [2024-10-22 Tue 10:30:30]--[2024-10-22 Tue 15:58:22] =>  05:27:52
+					  :END:
+					- DONE convert to Logseq commands
+					  :LOGBOOK:
+					  CLOCK: [2024-10-18 Fri 19:42:38]
+					  CLOCK: [2024-10-22 Tue 16:06:25]--[2024-10-22 Tue 19:08:29] =>  03:02:04
+					  :END:
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ...
 			- ------
-		-
-		-
-		- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		-
 		-
 		-
