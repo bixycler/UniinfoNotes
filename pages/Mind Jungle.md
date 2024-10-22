@@ -1861,16 +1861,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- When a hard-linked file must be updated from remote,
 					- at remote repo, the update contents must be transported via the ((66519638-cf5d-409b-9b98-15acabf2268c)) which is not hard-linked; then
 					- at local repo, these contents (blocks) will be moved to the hard-linked files.
-		- DOING CreatZy [shorthands](((66ff4478-6eae-4633-b7be-fd42e2bcda5b)))
+		- CreatZy [shorthands](((66ff4478-6eae-4633-b7be-fd42e2bcda5b)))
 		  id:: 66fe9e2e-13cf-4b31-96e7-1b050eed47c4
 		  :LOGBOOK:
-		  CLOCK: [2024-10-03 Thu 20:57:00]
+		  CLOCK: [2024-10-03 Thu 20:57:00]--[2024-10-22 Tue 20:05:08] =>  455:08:08
 		  :END:
-			- DOING TSV database: [[GUI/CreatZy-shorthands.tsv]]
+			- TSV database: [[GUI/CreatZy-shorthands.tsv]]
 			  :LOGBOOK:
-			  CLOCK: [2024-10-04 Fri 09:33:12]
+			  CLOCK: [2024-10-04 Fri 09:33:12]--[2024-10-22 Tue 20:05:06] =>  442:31:54
 			  :END:
 				- Unicode names of characters are defined in [UnicodeData.txt](http://unicode.org/Public/UNIDATA/UnicodeData.txt).
+				  id:: 6716110f-fa0b-480f-9051-54e0b152d8ec
 				  collapsed:: true
 					- This is a [semicolon-separated-value table](https://www.unicode.org/reports/tr44/#Format_Conventions) in [the format](https://www.unicode.org/reports/tr44/#UnicodeData.txt):
 					  > 0.Code_Point;1.Name;2.[General_Category](https://www.unicode.org/reports/tr44/#General_Category_Values);3.;4.;5.;6.Decimal_Value;7.Digit_Value;8.Nondecimal_Value;9.;10.Unicode_1_Name;11.;12.;13.Simple_Lowercase_Mapping
@@ -1886,7 +1887,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Wikipedia about the lip-light sound (脣輕音) or light-lip sound (輕脣音): [순경음](https://ko.wikipedia.org/wiki/%EC%88%9C%EA%B2%BD%EC%9D%8C)
 									- Only 4 characters: [ㅱ](https://ko.wikipedia.org/wiki/%E3%85%B1) , [ㅸ](https://ko.wikipedia.org/wiki/%E3%85%B8) , [ㅹ](https://ko.wikipedia.org/wiki/%E3%85%B9) , and [ㆄ](https://ko.wikipedia.org/wiki/%E3%86%84)
 								- [Hunminjeongeum's Sungyeongeum](https://en.namu.wiki/w/%EC%88%9C%EA%B2%BD%EC%9D%8C)
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((67174db9-a20b-45ef-94ec-0febf56f60f8))
 				- [HTML Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) = [character reference](https://developer.mozilla.org/en-US/docs/Glossary/Character_reference)
+				  id:: 6716110f-c249-4ff9-b564-ddc2c71b89ba
 				  collapsed:: true
 					- Unicode Compart's [DB of HTML Entities](https://www.compart.com/en/unicode/html) shows HTML5 names.
 					- The mapping [named-references.ts](https://github.com/mdevils/html-entities/blob/master/src/named-references.ts) of `mdevils/html-entities` includes both HTML5 and HTML4 names.
@@ -1912,11 +1915,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Typographic [bullet point](https://en.wikipedia.org/wiki/Bullet_(typography))
 					- Linguistic [interpunct](https://en.wikipedia.org/wiki/Interpunct)
 				- Emoji
+				  id:: 6716110f-5741-4ed0-aeeb-9c150ef847a0
+				  collapsed:: true
 					- The mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser` corresponds to the [Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html) of The Unicode Consortium.
 						- Emoji name is different from Unicode name, e.g. 😃 = "grinning face with big eyes" ([emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/c2508f15975d9f4c54121049166b5070939f4b3e/src/lib/emoji-lib.json#L13C14-L13C41)) = "Smiling Face with Open Mouth" ([Compart](https://www.compart.com/en/unicode/U+1F603)).
 						- `emoji-lib.json` also includes additional keywords and emoticon codes (as keywords) to be searched easily.
+						- When converted to [emoji-lib.js](((671749b8-3705-4377-9a63-c113840eb6dc))), ((67174a19-1aec-4e23-94d5-79373c0019fe))
 					- [List of emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) maps various emoticon codes with emojis.
 					- Manual corrections
+					  collapsed:: true
 						- Keywords of 🇻🇳
 						  ```diff
 						       "char": "🇻🇳",
@@ -1947,8 +1954,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `≏` hump equals: [The Mathematical Symbol "Difference Between (≏)"](https://www.mathematics-monster.com/symbols/Difference-Between.html)
 					- The sign of Libra (`♎︎`) is similar to this hump equals sign.
 				- [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) is a special case of [DSV](https://en.wikipedia.org/wiki/Delimiter-separated_values) which is usually called [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) due to the popularity of CSV, as [in Python](https://thepythonguru.com/python-how-to-read-and-write-csv-files/).
-			- TODO Write translator to: `<table>`, markdown table, logseq commands, JSON
-				- testing commands: ☀️ ☉
+			- Demo of some commands:
+				- `<{"` ... `<}"`, `<{;` ... `<};`
+				  “ double curly quotes ”, « double guillemets »
+				- `<{}"`, `<{};`, `<{}{`
+				  “double curly quotes”, «double guillemets», ⟪ ○ = ↑ ⟫
+				- `<--`, `<---`, `<---'`, `<-0`, `<-`
+				  –en-dash, —em-dash, ―quotation-dash, 123‒456, non‑breaking hyphen
+				- `<=+-`, `<=x`, `<=%`, `<=x%`, `1/<=0 = <=8`
+				  ±, ×, ÷, ⋇, 1/∅ = ∞
+				- `</-\`, `<\-`, `</-`, `</=\`,  `</=`, `<\=`, `</|\`, `</|`, `<\|`, `</!=`, `</==`
+				  ↔, ←, →, ⇔, ⇒, ⇐, ↕, ↑, ↓, ⇏, ⟹
+				- `<.o`, `<.O`, `<.o/`, `<.o.`, `<.(C)`, `<.(CL)`
+				  ○, ◯, ⥁, ☉, ©, 🄯
+				- `<:)`, `<:))`, `<:D`, `<:(`, `<:p`, `<:*3`, `<..<3`, `<..+^`, `<../-`, `<..v`, `<..x`, `<..O`, `<..8`
+				  😊, 😄, 😁, 🙁, 😛, 😘, ❤️, 👍, ➡️, ✔️, ❌, ⭕, ♾️
+			-
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
@@ -3824,6 +3845,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66fe90ad-7d6f-4516-a219-5dcb886505d9
 			  collapsed:: true
 			  defines **shorthands** to be expanded to corresponding longhands in editor when typing `<`shorthand.
+				- Each command is defined by a pair `[$shorthand $longhand]`.
+				- If there are many commands with the same `$shorthand`, only the last command can be activated.
 				- Ref: usage of ((66fbdf84-c5a4-4f96-aece-add980758db1)) like `:editor/input`, `:backward-pos`, `:backward-pos`, etc., and in combination with ((66ff3a47-e526-4c63-b0fc-8b260882ea51)).
 					- [`<`-comand to `{{macro}}` to insert special characters](https://discuss.logseq.com/t/is-there-any-way-to-insert-special-characters/26522/9)
 					- [Macros and Commands - let’s share](https://discuss.logseq.com/t/macros-and-commands-lets-share/9565)
