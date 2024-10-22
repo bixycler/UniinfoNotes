@@ -320,11 +320,7 @@
             let keywords = emojiMap[c].keywords.slice(1);
             if(name != emojiMap[c].name && keywords.indexOf(name) < 0){ keywords.unshift(emojiMap[c].name); }
             // remove all appearance of name in keywords (many such dupes in emoji-lib.js)
-            while(1){
-                const i = keywords.indexOf(name);
-                if(i < 0){ break; } else { keywords.splice(i, 1); }
-            }
-            keywords = keywords.join(', ');
+            keywords = keywords.filter(k => !(k==name || k.includes('_'))).join(', '); 
             const entities = c in htmlEntityMap ? htmlEntityMap[c].join() : '';
             shorthands.push([c, codepoints(c), name, entities, '', keywords]);
         }
