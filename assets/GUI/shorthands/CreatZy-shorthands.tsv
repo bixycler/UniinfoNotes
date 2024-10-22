@@ -235,9 +235,9 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 👍	U+1F44D	thumbs up sign		..+^	thumbs up, thumbsup, yes, accept, +1
 👎	U+1F44E	thumbs down sign		..-v	thumbs down, thumbsdown, dislike, -1
 ⬆️	U+2B06+FE0F	up arrow		../|	continue
-➡️	U+27A1+FE0F	right arrow		../	next
+➡️	U+27A1+FE0F	right arrow		../-	next
 ⬇️	U+2B07+FE0F	down arrow		..\|	bottom
-⬅️	U+2B05+FE0F	left arrow		..\	previous
+⬅️	U+2B05+FE0F	left arrow		..\-	previous
 ⭕	U+2B55	heavy large circle		..O	hollow red circle
 ♾️	U+267E+FE0F	infinity		..8	forever
 ☑️	U+2611+FE0F	check box with check		..v@	ok, confirm, black-square
