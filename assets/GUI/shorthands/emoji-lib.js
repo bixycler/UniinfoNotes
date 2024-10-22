@@ -117,7 +117,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😉",
-    "keywords": ["winking_face", "mischievous", "secret", ";)"]
+    "keywords": ["winking_face", "mischievous", "secret"]
   },
   "😊": {
     "name": "smiling face with smiling eyes",
