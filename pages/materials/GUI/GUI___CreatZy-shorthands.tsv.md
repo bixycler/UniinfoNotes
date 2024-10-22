@@ -1,4 +1,5 @@
 - ((666a539d-499f-43c0-8b2e-74818cc3a0f5)) [CreatZy-shorthands.tsv](../assets/GUI/shorthands/CreatZy-shorthands.tsv) = [CreatZy-shorthands-noEmoji.tsv](../assets/GUI/shorthands/CreatZy-shorthands-noEmoji.tsv) + [CreatZy-shorthands-emoji.tsv](../assets/GUI/shorthands/CreatZy-shorthands-emoji.tsv)
+	- [CreatZy-shorthands-commands.tsv](../assets/GUI/shorthands/CreatZy-shorthands-commands.tsv) is the first parts of `CreatZy-shorthands.tsv`, excluding the last part `Additional Emoji`, for ((66fe90ad-7d6f-4516-a219-5dcb886505d9)) in `config.edn`.
 - Alternatives (aliases, different keywords) are separated by comma `,`.
 - Character sequence: names & code-points in sequence are joined by plus sign `+`, while characters & HTML entities are joined without joiner (actually emoji sequence contains [zero-width joiner](https://en.wikipedia.org/wiki/Zero-width_joiner) already).
 - Alternative CreatZy code depends on command trigger character: `<>` vs `\/`
@@ -18,6 +19,7 @@
 	  CLOCK: [2024-10-22 Tue 10:30:30]--[2024-10-22 Tue 15:58:22] =>  05:27:52
 	  :END:
 	- DOING convert to Logseq commands
+	  id:: 6716110d-d67c-4ef3-b903-0ce6c578ccd2
 	  :LOGBOOK:
 	  CLOCK: [2024-10-18 Fri 19:42:38]
 	  CLOCK: [2024-10-22 Tue 16:06:25]
