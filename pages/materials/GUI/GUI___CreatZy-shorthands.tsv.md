@@ -21,3 +21,7 @@
 	  :LOGBOOK:
 	  CLOCK: [2024-10-18 Fri 19:42:38]
 	  :END:
+- Emoji database: [emoji-lib.js](../assets/GUI/shorthands/emoji-lib.js)
+  id:: 671749b8-3705-4377-9a63-c113840eb6dc
+	- All emoticon codes in keywords are removed, so that they will not conflict with CreatZy codes.
+	  id:: 67174a19-1aec-4e23-94d5-79373c0019fe

@@ -1915,6 +1915,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser` corresponds to the [Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html) of The Unicode Consortium.
 						- Emoji name is different from Unicode name, e.g. 😃 = "grinning face with big eyes" ([emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/c2508f15975d9f4c54121049166b5070939f4b3e/src/lib/emoji-lib.json#L13C14-L13C41)) = "Smiling Face with Open Mouth" ([Compart](https://www.compart.com/en/unicode/U+1F603)).
 						- `emoji-lib.json` also includes additional keywords and emoticon codes (as keywords) to be searched easily.
+						- When converted to , ((67174a19-1aec-4e23-94d5-79373c0019fe))
 					- [List of emoticons](https://en.wikipedia.org/wiki/List_of_emoticons) maps various emoticon codes with emojis.
 					- Manual corrections
 						- Keywords of 🇻🇳

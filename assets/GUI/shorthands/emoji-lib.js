@@ -387,7 +387,7 @@ const emojiMap = {
     "unicode_version": "0.7",
     "skin_tone_support": false,
     "char": "😐",
-    "keywords": ["neutral_face", "indifference", "meh", ":|", "neutral"]
+    "keywords": ["neutral_face", "indifference", "meh", "neutral"]
   },
   "😑": {
     "name": "expressionless face",
@@ -977,7 +977,7 @@ const emojiMap = {
     "unicode_version": "0.6",
     "skin_tone_support": false,
     "char": "😞",
-    "keywords": ["disappointed_face", ":("]
+    "keywords": ["disappointed_face"]
   },
   "😓": {
     "name": "downcast face with sweat",
