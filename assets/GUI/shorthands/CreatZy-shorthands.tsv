@@ -232,6 +232,13 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 😵‍💫	U+1F635+200D+1F4AB	face with spiral eyes		:@@	nauseous, nausea
 😡	U+1F621	pouting face		:>:[	enraged face, hate, despise
 😠	U+1F620	angry face		:>:(	mad, annoyed
+❤️	U+2764+FE0F	red heart		..<3	
+👍	U+1F44D	thumbs up sign		..^	thumbs up, thumbsup, yes, accept, +1
+👎	U+1F44E	thumbs down sign		..V	thumbs down, thumbsdown, dislike, -1
+⬆️	U+2B06+FE0F	up arrow		../|	continue
+➡️	U+27A1+FE0F	right arrow		../	next
+⬇️	U+2B07+FE0F	down arrow		..\|	bottom
+⬅️	U+2B05+FE0F	left arrow		..\	previous
 🫠	U+1FAE0	melting face			heat
 😇	U+1F607	smiling face with halo			angel, halo, innocent
 🤩	U+1F929	grinning face with star eyes			star-struck, starry, grinning
@@ -322,7 +329,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 💔	U+1F494	broken heart			sorry, break, heartbreak
 ❤️‍🔥	U+2764+FE0F+200D+1F525	heart on fire			passionate, enthusiastic
 ❤️‍🩹	U+2764+FE0F+200D+1FA79	mending heart			broken heart, wounded
-❤️	U+2764+FE0F	red heart			
 🩷	U+1FA77	pink heart			
 🧡	U+1F9E1	orange heart			
 💛	U+1F49B	yellow heart			
@@ -375,8 +381,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 👇	U+1F447	white down pointing backhand index			backhand index pointing down
 ☝️	U+261D+FE0F	index pointing up			
 🫵	U+1FAF5	index pointing at the viewer			you, recruit
-👍	U+1F44D	thumbs up sign			thumbs up, thumbsup, yes, accept, +1
-👎	U+1F44E	thumbs down sign			thumbs down, thumbsdown, dislike, -1
 ✊	U+270A	raised fist			grasp
 👊	U+1F44A	fisted hand sign			oncoming fist, violence, fist, hit, attack
 🤛	U+1F91B	left-facing fist			fistbump
@@ -1612,13 +1616,9 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 🔞	U+1F51E	no one under eighteen symbol			no one under eighteen, 18, minor
 ☢️	U+2622+FE0F	radioactive			nuclear
 ☣️	U+2623+FE0F	biohazard			danger
-⬆️	U+2B06+FE0F	up arrow			continue
 ↗️	U+2197+FE0F	up-right arrow			point, northeast
-➡️	U+27A1+FE0F	right arrow			next
 ↘️	U+2198+FE0F	down-right arrow			diagonal, southeast
-⬇️	U+2B07+FE0F	down arrow			bottom
 ↙️	U+2199+FE0F	down-left arrow			southwest
-⬅️	U+2B05+FE0F	left arrow			previous
 ↖️	U+2196+FE0F	up-left arrow			northwest
 ↕️	U+2195+FE0F	up-down arrow			way, vertical
 ↔️	U+2194+FE0F	left-right arrow			shape, horizontal, sideways
