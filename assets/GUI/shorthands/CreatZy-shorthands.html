@@ -293,12 +293,15 @@
 <script src="emoji-lib.js"></script>
 <script>/***** load & show shorthandMap from CreatZy-shorthands.tsv *****/
     const shorthandMap = {};
-    const shorthands = [];
+    const shorthands = [], chars = [];
+    let noShorthands = 0, noHeaders = 0;
     function parseShorthands(){
         shorthandMap.clear();
         for(const i in shorthands){ const ln = shorthands[i];
             if(i==0){ continue; }
-            const c = ln[0]; if(c[0]=='#') continue;
+            const c = ln[0]; chars[i] = c;
+            if(c == '# Additional Emoji'){ noShorthands = i; };
+            if(c[0]=='#'){ ++noHeaders; continue; }
             if(c in shorthandMap){ console.log('Duplicated shorthand char: ',c,shorthandMap[c],ln); continue; }
             shorthandMap[c] = { i: i,
                 codePoint:  ln[1],
