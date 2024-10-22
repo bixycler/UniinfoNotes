@@ -41,8 +41,9 @@ Code ref: <a href="https://developer.mozilla.org/en-US/docs/Web/API/ClipboardIte
 
 <script>
   const NullClipboard = {
-    "text/plain": null,
-    "text/html": null
+    "text/plain": { text:'' },
+    "text/html": { text:'' },
+    "web application/logseq": { text:'' },
   };
   var clipboard = structuredClone(NullClipboard);
 
@@ -60,7 +61,7 @@ Code ref: <a href="https://developer.mozilla.org/en-US/docs/Web/API/ClipboardIte
         console.log('clipboard: ',clipboard);
 
         // show content to page
-        textContent.value = clipboard['text/plain'].text;
+        textContent.value = clipboard['text/plain'] && clipboard['text/plain'].text ? clipboard['text/plain'].text : '';
         htmlCodeContent.value = formatXML(clipboard['text/html'].text, '  ');
         htmlContent.innerHTML = clipboard['text/html'].text;
         logseqAstContent.value = formatClojureAst(clipboard['web application/logseq'].text, '  ');
