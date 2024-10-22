@@ -1871,6 +1871,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-10-04 Fri 09:33:12]
 			  :END:
 				- Unicode names of characters are defined in [UnicodeData.txt](http://unicode.org/Public/UNIDATA/UnicodeData.txt).
+				  id:: 6716110f-fa0b-480f-9051-54e0b152d8ec
 				  collapsed:: true
 					- This is a [semicolon-separated-value table](https://www.unicode.org/reports/tr44/#Format_Conventions) in [the format](https://www.unicode.org/reports/tr44/#UnicodeData.txt):
 					  > 0.Code_Point;1.Name;2.[General_Category](https://www.unicode.org/reports/tr44/#General_Category_Values);3.;4.;5.;6.Decimal_Value;7.Digit_Value;8.Nondecimal_Value;9.;10.Unicode_1_Name;11.;12.;13.Simple_Lowercase_Mapping

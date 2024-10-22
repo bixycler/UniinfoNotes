@@ -21,8 +21,11 @@
 	  :LOGBOOK:
 	  CLOCK: [2024-10-18 Fri 19:42:38]
 	  :END:
+- [Unicode](((6716110f-fa0b-480f-9051-54e0b152d8ec))) database: [charMap.js](../assets/GUI/shorthands/charMap.js)
+	- Source: [UnicodeData.csv](../assets/GUI/shorthands/UnicodeData.csv) = [UnicodeData.txt](http://unicode.org/Public/UNIDATA/UnicodeData.txt)
+	-
 - [HTML entity](((6716110f-c249-4ff9-b564-ddc2c71b89ba))) database: [htmlEntityMap.js](../assets/GUI/shorthands/htmlEntityMap.js)
-	- Source: `namedReferences.html4.characters` in [named-references.js](../assets/GUI/shorthands/named-references.js) <- [named-references.ts](https://github.com/mdevils/html-entities/blob/master/src/named-references.ts) of `mdevils/html-entities`
+	- Source: `namedReferences.html5.characters` in [named-references.js](../assets/GUI/shorthands/named-references.js) <- [named-references.ts](https://github.com/mdevils/html-entities/blob/master/src/named-references.ts) of `mdevils/html-entities`
 - ((6716110f-5741-4ed0-aeeb-9c150ef847a0)) database: [emoji-lib.js](../assets/GUI/shorthands/emoji-lib.js)
   id:: 671749b8-3705-4377-9a63-c113840eb6dc
 	- All emoticon codes in keywords are removed, so that they will not conflict with CreatZy codes.
