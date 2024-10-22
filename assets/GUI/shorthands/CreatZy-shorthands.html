@@ -318,7 +318,12 @@
             const ca = Array.from(c); if(ca.length > 1){ console.debug('Multi-char emoji: ',c,emojiMap[c].name); }
             const name = ca.length > 1 ? emojiMap[c].name : charMap[c].name;
             let keywords = emojiMap[c].keywords.slice(1);
-            if(ca.length == emojiMap[c].name){ keywords.unshift(emojiMap[c].name); }
+            if(name != emojiMap[c].name && keywords.indexOf(name) < 0){ keywords.unshift(emojiMap[c].name); }
+            // remove all appearance of name in keywords (many such dupes in emoji-lib.js)
+            while(1){
+                const i = keywords.indexOf(name);
+                if(i < 0){ break; } else { keywords.splice(i, 1); }
+            }
             keywords = keywords.join(', ');
             const entities = c in htmlEntityMap ? htmlEntityMap[c].join() : '';
             shorthands.push([c, codepoints(c), name, entities, '', keywords]);
