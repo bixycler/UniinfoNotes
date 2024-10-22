@@ -213,6 +213,15 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 🤪	U+1F92A	grinning face with one large and one small eye		:/p	zany face, goofy, crazy
 😝	U+1F61D	face with stuck-out tongue and tightly-closed eyes		:xp	squinting face with tongue, playful
 🤑	U+1F911	money-mouth face		:p$	rich
+😐	U+1F610	neutral face		:-|	indifference, meh, neutral
+😑	U+1F611	expressionless face		:|	indifferent, deadpan
+😶	U+1F636	face without mouth		:	
+😕	U+1F615	confused face		:(/	huh, weird
+🫤	U+1FAE4	face with diagonal mouth		:/	skeptic, confuse
+😥	U+1F625	disappointed but relieved face		:,(	sad but relieved face, phew
+😢	U+1F622	crying face		:’(	tears
+😭	U+1F62D	loudly crying face		:”(	sobbing
+🤐	U+1F910	zipper-mouth face		:#	sealed, zipper
 					
 					
 					
@@ -227,11 +236,7 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 🤫	U+1F92B	face with finger covering closed lips			shushing face, quiet, shhh
 🤔	U+1F914	thinking face			hmmm, think, consider
 🫡	U+1FAE1	saluting face			respect, salute
-🤐	U+1F910	zipper-mouth face			sealed, zipper
 🤨	U+1F928	face with one eyebrow raised			face with raised eyebrow, distrust, scepticism, disapproval, disbelief, suspicious
-😐	U+1F610	neutral face			indifference, meh, neutral
-😑	U+1F611	expressionless face			indifferent, deadpan
-😶	U+1F636	face without mouth			
 🫥	U+1FAE5	dotted line face			invisible, lonely, isolation, depression
 😶‍🌫️	U+1F636+200D+1F32B+FE0F	face in clouds			steam, dream
 😏	U+1F60F	smirking face			mean, smug, sarcasm
@@ -266,16 +271,11 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 😎	U+1F60E	smiling face with sunglasses			cool, summer, beach, sunglass
 🤓	U+1F913	nerd face			nerdy, geek, dork
 🧐	U+1F9D0	face with monocle			stuffy, wealthy
-😕	U+1F615	confused face			huh, weird
-🫤	U+1FAE4	face with diagonal mouth			skeptic, confuse
 😳	U+1F633	flushed face			shy, flattered
 🥺	U+1F97A	face with pleading eyes			pleading face, begging, mercy, grievance
 🥹	U+1F979	face holding back tears			touched, gratitude
 😨	U+1F628	fearful face			scared, terrified
 😰	U+1F630	face with open mouth and cold sweat			anxious face with sweat, nervous, sweat
-😥	U+1F625	disappointed but relieved face			sad but relieved face, phew
-😢	U+1F622	crying face			tears
-😭	U+1F62D	loudly crying face			sobbing
 😱	U+1F631	face screaming in fear			munch, omg
 😖	U+1F616	confounded face			confused, unwell
 😣	U+1F623	persevering face			no, oops
