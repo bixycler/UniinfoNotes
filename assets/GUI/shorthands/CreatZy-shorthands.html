@@ -416,7 +416,7 @@
     function shorthands2LogseqCommands(){
         const cmdlns = [];
         for(i in chars){ 
-            if(i >= noShorthands){ console.log(i,noShorthands, 'shorthands are converted to commands:', commands); break;}
+            if(Number(i) >= noShorthands){ console.log(noShorthands, 'shorthands are converted to commands:', commands); break;}
             const c = chars[i], sh = shorthandMap[c];
             if(!sh){ if(c[0] != '#'){ console.warn('Not found in shorthandMap:',c); continue; }
                 cmdlns.push(`\n    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;\n    ;;${c.slice(1)}\n`);
@@ -428,7 +428,7 @@
                     codePoint: sh.codePoint,
                 }; 
                 commands.push(cmd);
-                cmdlns.push(`    ;${cmd.codePoint}\n    ["${strEscape(cmd.code,'"')}" "${cmd.text}"]`);
+                cmdlns.push(`    ;${cmd.codePoint}\n    ["${strEscape(cmd.code,'\\"')}" "${cmd.text}"]`);
             }
         }
         // export commands
