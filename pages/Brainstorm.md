@@ -1124,6 +1124,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Choice & responsibility is the main ethical motivation of the ((6713acf0-2eb0-423b-ac61-6f595ea12b86)).
 		  "We receive whatever we've chosen."
 		  "Gieo nhân nào gặt quả nấy."
-	- Writing styles & formats
+	- DOING Writing styles & formats
+	  id:: 67187bb2-8a3a-4541-9f19-40e217ce7eb0
 	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-23 Wed 12:04:05]
+	  :END:
 		- CreatZy style
+			-
