@@ -1148,3 +1148,4 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
 		- World's various styles for dialogue
 			- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
+			- For source attribution, while (em) dash is the most common, colon `: author` and parentheses `(from author)` are also used.
