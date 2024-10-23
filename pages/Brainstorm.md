@@ -1143,7 +1143,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are space-separated from the text.
 				-
 		- American style for quotation
-			- [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
-				- Commas `,` and periods `.` are always before the closing quote, “like this.”
-					- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only from mid-19th century, to make the text of typewriter.
-				- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
+		  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
+			- Commas `,` and periods `.` are always before the closing quote, “like this.”
+				- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only [from mid-19th century](https://style.mla.org/the-placement-of-a-comma-or-period-after-a-quotation), to make the text of [typewriter](https://en.wikipedia.org/wiki/Typewriter) [looks “neater”](https://style.mla.org/punctuation-and-quotation-marks/).
+			- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
