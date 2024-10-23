@@ -3628,7 +3628,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Use the built-in feature `Export public pages`.
 					- Chose a **separate folder** (`$web/`) to checkout the `gh-pages` branch, then export to that folder.
 						- Warning: Don't export to the same folder with the `main` branch (`$src/`), because their contents are very different.
-						- Manually copy the whole `assets` folder from `$src/` to `$web/`, because the built-in publisher
+						- Manually copy the whole `assets` folder from `$src/` to `$web/`
+						  id:: 6718b9ba-b96e-44b7-9f13-9acf0e8762e1
+							- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) ((666a6673-0383-471a-ac42-c77c03dd96d7))
 					- The folder `$web/` can be launched by ((6714f01d-3dd8-461c-9619-c5bac33451b0)).
 					- When `gh-pages` branch is pushed to GitHub, ((671503e5-690e-4f1f-ad53-419fd57543fe)) will deploy it to `https://$user.github.io/$repo/`.
 					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
@@ -3636,6 +3638,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 66698fb6-d9ac-423f-845c-0f0f5c93abf2
 					- [!] The built-in publisher still cannot handle assets (embedded or linked) other than embedded image.
 					  id:: 666a6673-0383-471a-ac42-c77c03dd96d7
+					  collapsed:: true
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6718b9ba-b96e-44b7-9f13-9acf0e8762e1))
 				- CANCELLED Use [publish-SPA](https://github.com/logseq/publish-spa) GitHub Action to publish to [GitHub Pages](https://bixycler.github.io/UniinfoNotes/).
 				  collapsed:: true
 				  :LOGBOOK:
