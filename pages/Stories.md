@@ -1046,3 +1046,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- [Davide Libenzi's response](https://git.vger.kernel.narkive.com/iEYOeYwt/index-file-environment-variable#post2)
 		  > You forgot, *again*, to take your medications !!
 		- ![Screenshot Linus Torvalds humour.png](../assets/Will/story/2024-Oct/Screenshot Linus Torvalds humour.png)
+	- Mr. Hiệp's gift: A drawing of my face
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-23 Wed 17:02:46]
+	  :END:
+		- ![gif-from-Hiep.jpg](../assets/Will/story/2024-Oct/gif-from-Hiep.jpg){:width 300}

@@ -16,6 +16,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((67187bb2-8a3a-4541-9f19-40e217ce7eb0))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- Port recent notes from Telegram
 				- ...
 			- ------
 		- ... the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is emerging inside...
