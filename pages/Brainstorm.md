@@ -1124,11 +1124,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Choice & responsibility is the main ethical motivation of the ((6713acf0-2eb0-423b-ac61-6f595ea12b86)).
 		  "We receive whatever we've chosen."
 		  "Gieo nhân nào gặt quả nấy."
-	- DOING Writing styles & formats
+	- Writing styles & formats
 	  id:: 67187bb2-8a3a-4541-9f19-40e217ce7eb0
 	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2024-10-23 Wed 12:04:05]
+	  CLOCK: [2024-10-23 Wed 12:04:05]--[2024-10-23 Wed 15:27:28] =>  03:23:23
 	  :END:
 		- CreatZy style
 			- Quotation
@@ -1148,4 +1148,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
 		- World's various styles for dialogue
 			- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
-			- For source attribution, while (em) dash is the most common, colon `: author` and parentheses `(from author)` are also used.
+			- For source attribution, while (em) [dash](https://en.wikipedia.org/wiki/Dash) is the most common, colon `: author` and parentheses `(from author)` are also used.
+			- References:
+				- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
+				- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
