@@ -15,7 +15,7 @@
 <BODY>
 
 <div>
-  <button onclick="getClipboardContents()">Read clipboard</button> to variable <code>clipboard</code>
+  <button onclick="getClipboardContents()">Read clipboard</button> into variable <code>clipboard</code>
   <br><br>
   <b>Text:</b>
   <textarea id="textContent" rows="5"></textarea>
@@ -41,8 +41,9 @@ Code ref: <a href="https://developer.mozilla.org/en-US/docs/Web/API/ClipboardIte
 
 <script>
   const NullClipboard = {
-    "text/plain": null,
-    "text/html": null
+    "text/plain": { text:'' },
+    "text/html": { text:'' },
+    "web application/logseq": { text:'' },
   };
   var clipboard = structuredClone(NullClipboard);
 
@@ -50,17 +51,16 @@ Code ref: <a href="https://developer.mozilla.org/en-US/docs/Web/API/ClipboardIte
     try {
       const clipboardItems = await navigator.clipboard.read();
       for (const clipboardItem of clipboardItems) {
-        console.log(clipboardItem.presentationStyle);
         clipboard = structuredClone(NullClipboard);
         for (const type of clipboardItem.types) {
           let blob = await clipboardItem.getType(type);
           blob.text = await blob.text();
           clipboard[type] = blob;
         }
-        console.log(clipboard);
+        console.log('clipboard: ',clipboard);
 
         // show content to page
-        textContent.value = clipboard['text/plain'].text;
+        textContent.value = clipboard['text/plain'] && clipboard['text/plain'].text ? clipboard['text/plain'].text : '';
         htmlCodeContent.value = formatXML(clipboard['text/html'].text, '  ');
         htmlContent.innerHTML = clipboard['text/html'].text;
         logseqAstContent.value = formatClojureAst(clipboard['web application/logseq'].text, '  ');
@@ -86,7 +86,7 @@ Code ref: <a href="https://developer.mozilla.org/en-US/docs/Web/API/ClipboardIte
     let formatted = '', indent = '';
     const blockContentMatch = ast.match(/:block\/content "([^"]*)"/);
     //console.log(blockContentMatch);
-    blockContent.value = blockContentMatch.length > 1 ? blockContentMatch[1] : '';
+    blockContent.value = blockContentMatch && blockContentMatch.length > 1 ? blockContentMatch[1] : '';
     const nodes = ast.split(/([\[{,\]}])/).filter(node => node.trim());
     //console.log('nodes', nodes);
     for (let i = 0; i < nodes.length; i++) {

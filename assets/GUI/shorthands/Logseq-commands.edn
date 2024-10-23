@@ -1,0 +1,1706 @@
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Quotation Marks & Brackets
+
+    ;U+2018+2019
+    ["{}'" "‘’"]
+    ;U+2018+2019
+    ["single quotation marks" "‘’"]
+    ;U+2018+2019
+    ["single curly quotes" "‘’"]
+    ;U+2018
+    ["{'" "‘"]
+    ;U+2018
+    ["left single quotation mark" "‘"]
+    ;U+2018
+    ["left single curly quote" "‘"]
+    ;U+2018
+    ["open single curly quote" "‘"]
+    ;U+2019
+    ["}'" "’"]
+    ;U+2019
+    ["right single quotation mark" "’"]
+    ;U+2019
+    ["right single curly quote" "’"]
+    ;U+2019
+    ["close single curly quote" "’"]
+    ;U+201C+201D
+    ["{}\"" "“”"]
+    ;U+201C+201D
+    ["double quotation marks" "“”"]
+    ;U+201C+201D
+    ["double curly quotes" "“”"]
+    ;U+201C
+    ["{\"" "“"]
+    ;U+201C
+    ["left double quotation mark" "“"]
+    ;U+201C
+    ["left double curly quote" "“"]
+    ;U+201C
+    ["open double curly quote" "“"]
+    ;U+201D
+    ["}\"" "”"]
+    ;U+201D
+    ["right double quotation mark" "”"]
+    ;U+201D
+    ["right double curly quote" "”"]
+    ;U+201D
+    ["close double curly quote" "”"]
+    ;U+275B+275C
+    ["{}''" "❛❜"]
+    ;U+275B+275C
+    ["heavy single comma quotation marks ornament" "❛❜"]
+    ;U+275B+275C
+    ["single curly quotes ornament" "❛❜"]
+    ;U+275B
+    ["{''" "❛"]
+    ;U+275B
+    ["heavy single turned comma quotation mark ornament" "❛"]
+    ;U+275B
+    ["left single curly quote ornament" "❛"]
+    ;U+275B
+    ["open single curly quote ornament" "❛"]
+    ;U+275C
+    ["}''" "❜"]
+    ;U+275C
+    ["heavy single comma quotation mark ornament" "❜"]
+    ;U+275C
+    ["right single curly quote ornament" "❜"]
+    ;U+275C
+    ["close single curly quote ornament" "❜"]
+    ;U+275D+275E
+    ["{}\"\"" "❝❞"]
+    ;U+275D+275E
+    ["heavy double comma quotation marks ornament" "❝❞"]
+    ;U+275D+275E
+    ["double curly quotes ornament" "❝❞"]
+    ;U+275D
+    ["{\"\"" "❝"]
+    ;U+275D
+    ["heavy double turned comma quotation mark ornament" "❝"]
+    ;U+275D
+    ["left double curly quote ornament" "❝"]
+    ;U+275D
+    ["open double curly quote ornament" "❝"]
+    ;U+275E
+    ["}\"\"" "❞"]
+    ;U+275E
+    ["heavy double comma quotation mark ornament" "❞"]
+    ;U+275E
+    ["right double curly quote ornament" "❞"]
+    ;U+275E
+    ["close double curly quote ornament" "❞"]
+    ;U+2039+203A
+    ["{}." "‹›"]
+    ;U+2039+203A
+    ["single angle quotation marks" "‹›"]
+    ;U+2039+203A
+    ["single guillemets" "‹›"]
+    ;U+2039
+    ["{." "‹"]
+    ;U+2039
+    ["single left-pointing angle quotation mark" "‹"]
+    ;U+2039
+    ["left single guillemet" "‹"]
+    ;U+2039
+    ["open single guillemet" "‹"]
+    ;U+203A
+    ["}." "›"]
+    ;U+203A
+    ["single right-pointing angle quotation mark" "›"]
+    ;U+203A
+    ["right single guillemet" "›"]
+    ;U+203A
+    ["close single guillemet" "›"]
+    ;U+00AB+00BB
+    ["{};" "«»"]
+    ;U+00AB+00BB
+    ["double angle quotation marks" "«»"]
+    ;U+00AB+00BB
+    ["double guillemets" "«»"]
+    ;U+00AB
+    ["{;" "«"]
+    ;U+00AB
+    ["left-pointing double angle quotation mark" "«"]
+    ;U+00AB
+    ["left double guillemet" "«"]
+    ;U+00AB
+    ["open double guillemet" "«"]
+    ;U+00BB
+    ["};" "»"]
+    ;U+00BB
+    ["right-pointing double angle quotation mark" "»"]
+    ;U+00BB
+    ["right double guillemet" "»"]
+    ;U+00BB
+    ["close double guillemet" "»"]
+    ;U+27E8+27E9
+    ["{}[" "⟨⟩"]
+    ;U+27E8+27E9
+    ["mathematical angle brackets" "⟨⟩"]
+    ;U+27E8+27E9
+    ["" "⟨⟩"]
+    ;U+27E8
+    ["{[" "⟨"]
+    ;U+27E8
+    ["mathematical left angle bracket" "⟨"]
+    ;U+27E8
+    ["mathematical open angle bracket" "⟨"]
+    ;U+27E9
+    ["}]" "⟩"]
+    ;U+27E9
+    ["mathematical right angle bracket" "⟩"]
+    ;U+27E9
+    ["mathematical close angle bracket" "⟩"]
+    ;U+27EA+27EB
+    ["{}{" "⟪⟫"]
+    ;U+27EA+27EB
+    ["mathematical double angle brackets" "⟪⟫"]
+    ;U+27EA+27EB
+    ["" "⟪⟫"]
+    ;U+27EA
+    ["{{" "⟪"]
+    ;U+27EA
+    ["mathematical left double angle bracket" "⟪"]
+    ;U+27EA
+    ["mathematical open double angle bracket" "⟪"]
+    ;U+27EB
+    ["}}" "⟫"]
+    ;U+27EB
+    ["mathematical right double angle bracket" "⟫"]
+    ;U+27EB
+    ["mathematical close double angle bracket" "⟫"]
+    ;U+2E28+2E29
+    ["{}(" "⸨⸩"]
+    ;U+2E28+2E29
+    ["double parentheses" "⸨⸩"]
+    ;U+2E28+2E29
+    ["" "⸨⸩"]
+    ;U+2E28
+    ["{(" "⸨"]
+    ;U+2E28
+    ["left double parenthesis" "⸨"]
+    ;U+2E28
+    ["open double parenthesis" "⸨"]
+    ;U+2E29
+    ["})" "⸩"]
+    ;U+2E29
+    ["right double parenthesis" "⸩"]
+    ;U+2E29
+    ["close double parenthesis" "⸩"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Puntuation Marks
+
+    ;U+00B7
+    ["." "·"]
+    ;U+00B7
+    ["middle dot" "·"]
+    ;U+00B7
+    ["center dot" "·"]
+    ;U+00B7
+    ["Georgian comma" "·"]
+    ;U+00B7
+    ["Greek middle dot" "·"]
+    ;U+00B7
+    ["interpunct" "·"]
+    ;U+00B7
+    ["interpoint" "·"]
+    ;U+00A0
+    [".nbsp" " "]
+    ;U+00A0
+    ["no-break space" " "]
+    ;U+00A0
+    ["non-breaking space" " "]
+    ;U+2423
+    [".blank" "␣"]
+    ;U+2423
+    ["open box" "␣"]
+    ;U+2423
+    ["blank" "␣"]
+    ;U+2011
+    ["-" "‑"]
+    ;U+2011
+    ["non-breaking hyphen" "‑"]
+    ;U+2011
+    ["" "‑"]
+    ;U+2013
+    ["--" "–"]
+    ;U+2013
+    ["en dash" "–"]
+    ;U+2013
+    ["" "–"]
+    ;U+2014
+    ["---" "—"]
+    ;U+2014
+    ["em dash" "—"]
+    ;U+2014
+    ["" "—"]
+    ;U+2015
+    ["---'" "―"]
+    ;U+2015
+    ["horizontal bar" "―"]
+    ;U+2015
+    ["quotation dash" "―"]
+    ;U+2012
+    ["-0" "‒"]
+    ;U+2012
+    ["figure dash" "‒"]
+    ;U+2012
+    ["numerical separator" "‒"]
+    ;U+00A7
+    [".S" "§"]
+    ;U+00A7
+    ["section sign" "§"]
+    ;U+00A7
+    ["" "§"]
+    ;U+00B6
+    [".P" "¶"]
+    ;U+00B6
+    ["pilcrow sign" "¶"]
+    ;U+00B6
+    ["paragraph sign" "¶"]
+    ;U+00A1
+    [".i!" "¡"]
+    ;U+00A1
+    ["inverted exclamation mark" "¡"]
+    ;U+00A1
+    ["" "¡"]
+    ;U+00BF
+    [".i?" "¿"]
+    ;U+00BF
+    ["inverted question mark" "¿"]
+    ;U+00BF
+    ["turned question mark" "¿"]
+    ;U+2023
+    [".>" "‣"]
+    ;U+2023
+    ["triangular bullet" "‣"]
+    ;U+2023
+    ["" "‣"]
+    ;U+2026
+    ["..." "…"]
+    ;U+2026
+    ["horizontal ellipsis" "…"]
+    ;U+2026
+    ["three dot leader" "…"]
+    ;U+2026
+    ["m leader" "…"]
+    ;U+203B
+    [".ref" "※"]
+    ;U+203B
+    ["reference mark" "※"]
+    ;U+203B
+    ["" "※"]
+    ;U+203C
+    [".!!" "‼"]
+    ;U+203C
+    ["double exclamation mark" "‼"]
+    ;U+203C
+    ["" "‼"]
+    ;U+203D
+    [".!?" "‽"]
+    ;U+203D
+    ["interrobang" "‽"]
+    ;U+203D
+    ["" "‽"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Mathematical Symbols
+
+    ;U+00B1
+    ["=+-" "±"]
+    ;U+00B1
+    ["plus-minus sign" "±"]
+    ;U+00B1
+    ["plus-or-minus sign" "±"]
+    ;U+2213
+    ["=-+" "∓"]
+    ;U+2213
+    ["minus-or-plus sign" "∓"]
+    ;U+2213
+    ["minus-plus sign" "∓"]
+    ;U+00D7
+    ["=x" "×"]
+    ;U+00D7
+    ["multiplication sign" "×"]
+    ;U+00D7
+    ["times" "×"]
+    ;U+00F7
+    ["=%" "÷"]
+    ;U+00F7
+    ["division sign" "÷"]
+    ;U+00F7
+    ["" "÷"]
+    ;U+22C7
+    ["=x%" "⋇"]
+    ;U+22C7
+    ["division times" "⋇"]
+    ;U+22C7
+    ["interunion" "⋇"]
+    ;U+22C5
+    ["=." "⋅"]
+    ;U+22C5
+    ["dot operator" "⋅"]
+    ;U+22C5
+    ["small dot" "⋅"]
+    ;U+2219
+    ["=.b" "∙"]
+    ;U+2219
+    ["bullet operator" "∙"]
+    ;U+2219
+    ["" "∙"]
+    ;U+2218
+    ["=.f" "∘"]
+    ;U+2218
+    ["ring operator" "∘"]
+    ;U+2218
+    ["composition function" "∘"]
+    ;U+2218
+    ["small circle" "∘"]
+    ;U+00B0
+    ["=o" "°"]
+    ;U+00B0
+    ["degree sign" "°"]
+    ;U+00B0
+    ["" "°"]
+    ;U+221E
+    ["=8" "∞"]
+    ;U+221E
+    ["infinity" "∞"]
+    ;U+221E
+    ["" "∞"]
+    ;U+221A
+    ["=v" "√"]
+    ;U+221A
+    ["square root" "√"]
+    ;U+221A
+    ["radical sign" "√"]
+    ;U+2200
+    ["=A" "∀"]
+    ;U+2200
+    ["for all" "∀"]
+    ;U+2200
+    ["" "∀"]
+    ;U+2203
+    ["=E" "∃"]
+    ;U+2203
+    ["there exists" "∃"]
+    ;U+2203
+    ["" "∃"]
+    ;U+2204
+    ["=!E" "∄"]
+    ;U+2204
+    ["there does not exist" "∄"]
+    ;U+2204
+    ["" "∄"]
+    ;U+2205
+    ["=0" "∅"]
+    ;U+2205
+    ["empty set" "∅"]
+    ;U+2205
+    ["null set" "∅"]
+    ;U+2205
+    ["empty variable" "∅"]
+    ;U+2205
+    ["variable nothing" "∅"]
+    ;U+2202
+    ["=d" "∂"]
+    ;U+2202
+    ["partial differential" "∂"]
+    ;U+2202
+    ["" "∂"]
+    ;U+2208
+    ["=in" "∈"]
+    ;U+2208
+    ["element of" "∈"]
+    ;U+2208
+    ["in set" "∈"]
+    ;U+2209
+    ["=!in" "∉"]
+    ;U+2209
+    ["not an element of" "∉"]
+    ;U+2209
+    ["not in set" "∉"]
+    ;U+220B
+    ["=ni" "∋"]
+    ;U+220B
+    ["contains as member" "∋"]
+    ;U+220B
+    ["reversed element" "∋"]
+    ;U+220B
+    ["reversed in set" "∋"]
+    ;U+220B
+    ["such that" "∋"]
+    ;U+220C
+    ["=!ni" "∌"]
+    ;U+220C
+    ["does not contain as member" "∌"]
+    ;U+220C
+    ["not reversed element" "∌"]
+    ;U+220C
+    ["not reversed in set" "∌"]
+    ;U+220F
+    ["=P" "∏"]
+    ;U+220F
+    ["n-ary product" "∏"]
+    ;U+220F
+    ["product sign" "∏"]
+    ;U+2211
+    ["=S" "∑"]
+    ;U+2211
+    ["n-ary summation" "∑"]
+    ;U+2211
+    ["sum sign" "∑"]
+    ;U+222B
+    ["=Si" "∫"]
+    ;U+222B
+    ["integral" "∫"]
+    ;U+222B
+    ["integral sign" "∫"]
+    ;U+2229
+    ["=cap" "∩"]
+    ;U+2229
+    ["intersection" "∩"]
+    ;U+2229
+    ["cap" "∩"]
+    ;U+222A
+    ["=cup" "∪"]
+    ;U+222A
+    ["union" "∪"]
+    ;U+222A
+    ["cup" "∪"]
+    ;U+2225
+    ["=||" "∥"]
+    ;U+2225
+    ["parallel to" "∥"]
+    ;U+2225
+    ["double vertical bar" "∥"]
+    ;U+22A5
+    ["=T" "⊥"]
+    ;U+22A5
+    ["up tack" "⊥"]
+    ;U+22A5
+    ["orthogonal to" "⊥"]
+    ;U+22A5
+    ["perpendicular" "⊥"]
+    ;U+22A5
+    ["bottom tack" "⊥"]
+    ;U+22A5
+    ["up tee" "⊥"]
+    ;U+2261
+    ["===" "≡"]
+    ;U+2261
+    ["identical to" "≡"]
+    ;U+2261
+    ["equivalent" "≡"]
+    ;U+2261
+    ["congruent" "≡"]
+    ;U+2262
+    ["=!==" "≢"]
+    ;U+2262
+    ["not identical to" "≢"]
+    ;U+2262
+    ["not equivalent" "≢"]
+    ;U+2262
+    ["not congruent" "≢"]
+    ;U+2260
+    ["=!=" "≠"]
+    ;U+2260
+    ["not equal to" "≠"]
+    ;U+2260
+    ["different from" "≠"]
+    ;U+2248
+    ["=~" "≈"]
+    ;U+2248
+    ["almost equal to" "≈"]
+    ;U+2248
+    ["approximate" "≈"]
+    ;U+2245
+    ["=~=" "≅"]
+    ;U+2245
+    ["approximately equal to" "≅"]
+    ;U+2245
+    ["congruent to" "≅"]
+    ;U+2246
+    ["=~!=" "≆"]
+    ;U+2246
+    ["approximately but not actually equal to" "≆"]
+    ;U+2246
+    ["similar but not equal to" "≆"]
+    ;U+2247
+    ["=!~=" "≇"]
+    ;U+2247
+    ["neither approximately nor actually equal to" "≇"]
+    ;U+2247
+    ["not congruent to" "≇"]
+    ;U+224F
+    ["=b=" "≏"]
+    ;U+224F
+    ["difference between" "≏"]
+    ;U+224F
+    ["hump equals" "≏"]
+    ;U+224F+0338
+    ["=!b=" "≏̸"]
+    ;U+224F+0338
+    ["not difference between" "≏̸"]
+    ;U+224F+0338
+    ["not hump equals" "≏̸"]
+    ;U+225F
+    ["=?=" "≟"]
+    ;U+225F
+    ["questioned equal to" "≟"]
+    ;U+225F
+    ["test equals" "≟"]
+    ;U+2264
+    ["=<=" "≤"]
+    ;U+2264
+    ["less-than or equal to" "≤"]
+    ;U+2264
+    ["" "≤"]
+    ;U+2265
+    ["=>=" "≥"]
+    ;U+2265
+    ["greater-than or equal to" "≥"]
+    ;U+2265
+    ["" "≥"]
+    ;U+226A
+    ["=<<" "≪"]
+    ;U+226A
+    ["much less-than" "≪"]
+    ;U+226A
+    ["" "≪"]
+    ;U+226B
+    ["=>>" "≫"]
+    ;U+226B
+    ["much greater-than" "≫"]
+    ;U+226B
+    ["" "≫"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Arrows
+
+    ;U+21D4
+    ["/=\\" "⇔"]
+    ;U+21D4
+    ["left right double arrow" "⇔"]
+    ;U+21D4
+    ["iff" "⇔"]
+    ;U+21D4
+    ["if and only if" "⇔"]
+    ;U+21D2
+    ["/=" "⇒"]
+    ;U+21D2
+    ["rightwards double arrow" "⇒"]
+    ;U+21D2
+    ["implies" "⇒"]
+    ;U+21D2
+    ["imply" "⇒"]
+    ;U+21D0
+    ["\\=" "⇐"]
+    ;U+21D0
+    ["leftwards double arrow" "⇐"]
+    ;U+21D0
+    ["" "⇐"]
+    ;U+21D1
+    ["/||" "⇑"]
+    ;U+21D1
+    ["upwards double arrow" "⇑"]
+    ;U+21D1
+    ["" "⇑"]
+    ;U+21D3
+    ["\\||" "⇓"]
+    ;U+21D3
+    ["downwards double arrow" "⇓"]
+    ;U+21D3
+    ["" "⇓"]
+    ;U+21CF
+    ["/!=" "⇏"]
+    ;U+21CF
+    ["rightwards double arrow with stroke" "⇏"]
+    ;U+21CF
+    ["not implies" "⇏"]
+    ;U+21CF
+    ["not imply" "⇏"]
+    ;U+21CD
+    ["\\!=" "⇍"]
+    ;U+21CD
+    ["leftwards double arrow with stroke" "⇍"]
+    ;U+21CD
+    ["" "⇍"]
+    ;U+21CC
+    ["/_\\_" "⇌"]
+    ;U+21CC
+    ["rightwards harpoon over leftwards harpoon" "⇌"]
+    ;U+21CC
+    ["equilibrium" "⇌"]
+    ;U+21CB
+    ["\\_/_" "⇋"]
+    ;U+21CB
+    ["leftwards harpoon over rightwards harpoon" "⇋"]
+    ;U+21CB
+    ["reverse equilibrium" "⇋"]
+    ;U+21C4
+    ["/-\\-" "⇄"]
+    ;U+21C4
+    ["rightwards arrow over leftwards arrow" "⇄"]
+    ;U+21C4
+    ["" "⇄"]
+    ;U+21C6
+    ["\\-/-" "⇆"]
+    ;U+21C6
+    ["leftwards arrow over rightwards arrow" "⇆"]
+    ;U+21C6
+    ["" "⇆"]
+    ;U+21C0
+    ["/_" "⇀"]
+    ;U+21C0
+    ["rightwards harpoon with barb upwards" "⇀"]
+    ;U+21C0
+    ["right vector" "⇀"]
+    ;U+21C1
+    ["" "⇁"]
+    ;U+21C1
+    ["rightwards harpoon with barb downwards" "⇁"]
+    ;U+21C1
+    ["down right vector" "⇁"]
+    ;U+21BC
+    ["" "↼"]
+    ;U+21BC
+    ["leftwards harpoon with barb upwards" "↼"]
+    ;U+21BC
+    ["left vector" "↼"]
+    ;U+21BD
+    ["\\_" "↽"]
+    ;U+21BD
+    ["leftwards harpoon with barb downwards" "↽"]
+    ;U+21BD
+    ["down left vector" "↽"]
+    ;U+21BE
+    ["" "↾"]
+    ;U+21BE
+    ["upwards harpoon with barb rightwards" "↾"]
+    ;U+21BE
+    ["right up vector" "↾"]
+    ;U+21BF
+    ["" "↿"]
+    ;U+21BF
+    ["upwards harpoon with barb leftwards" "↿"]
+    ;U+21BF
+    ["left up vector" "↿"]
+    ;U+21C2
+    ["" "⇂"]
+    ;U+21C2
+    ["downwards harpoon with barb rightwards" "⇂"]
+    ;U+21C2
+    ["right down vector" "⇂"]
+    ;U+21C3
+    ["" "⇃"]
+    ;U+21C3
+    ["downwards harpoon with barb leftwards" "⇃"]
+    ;U+21C3
+    ["left down vector" "⇃"]
+    ;U+2194
+    ["/-\\" "↔"]
+    ;U+2194
+    ["left right arrow" "↔"]
+    ;U+2194
+    ["horizontal double-headed arrow" "↔"]
+    ;U+2192
+    ["/-" "→"]
+    ;U+2192
+    ["rightwards arrow" "→"]
+    ;U+2192
+    ["" "→"]
+    ;U+2190
+    ["\\-" "←"]
+    ;U+2190
+    ["leftwards arrow" "←"]
+    ;U+2190
+    ["" "←"]
+    ;U+2195
+    ["/|\\" "↕"]
+    ;U+2195
+    ["up down arrow" "↕"]
+    ;U+2195
+    ["vertical double-headed arrow" "↕"]
+    ;U+2191
+    ["/|" "↑"]
+    ;U+2191
+    ["upwards arrow" "↑"]
+    ;U+2191
+    ["" "↑"]
+    ;U+2193
+    ["\\|" "↓"]
+    ;U+2193
+    ["downwards arrow" "↓"]
+    ;U+2193
+    ["" "↓"]
+    ;U+21FF
+    ["" "⇿"]
+    ;U+21FF
+    ["left right open-headed arrow" "⇿"]
+    ;U+21FF
+    ["horizontal open-headed arrow" "⇿"]
+    ;U+21FE
+    ["" "⇾"]
+    ;U+21FE
+    ["rightwards open-headed arrow" "⇾"]
+    ;U+21FE
+    ["" "⇾"]
+    ;U+21FD
+    ["" "⇽"]
+    ;U+21FD
+    ["leftwards open-headed arrow" "⇽"]
+    ;U+21FD
+    ["" "⇽"]
+    ;U+21A3
+    ["/-/" "↣"]
+    ;U+21A3
+    ["rightwards arrow with tail" "↣"]
+    ;U+21A3
+    ["" "↣"]
+    ;U+21A2
+    ["\\-\\" "↢"]
+    ;U+21A2
+    ["leftwards arrow with tail" "↢"]
+    ;U+21A2
+    ["" "↢"]
+    ;U+291A
+    ["" "⤚"]
+    ;U+291A
+    ["rightwards arrow-tail" "⤚"]
+    ;U+291A
+    ["" "⤚"]
+    ;U+2919
+    ["" "⤙"]
+    ;U+2919
+    ["leftwards arrow-tail" "⤙"]
+    ;U+2919
+    ["" "⤙"]
+    ;U+21A6
+    ["/T" "↦"]
+    ;U+21A6
+    ["rightwards arrow from bar" "↦"]
+    ;U+21A6
+    ["maps to" "↦"]
+    ;U+21A6
+    ["right tee arrow" "↦"]
+    ;U+21A4
+    ["\\T" "↤"]
+    ;U+21A4
+    ["leftwards arrow from bar" "↤"]
+    ;U+21A4
+    ["maps to leftward" "↤"]
+    ;U+21A4
+    ["left tee arrow" "↤"]
+    ;U+21A5
+    ["/|T" "↥"]
+    ;U+21A5
+    ["upwards arrow from bar" "↥"]
+    ;U+21A5
+    ["maps to upward" "↥"]
+    ;U+21A5
+    ["up tee arrow" "↥"]
+    ;U+21A7
+    ["\\|T" "↧"]
+    ;U+21A7
+    ["downwards arrow from bar" "↧"]
+    ;U+21A7
+    ["maps to downward" "↧"]
+    ;U+21A7
+    ["down tee arrow" "↧"]
+    ;U+27F7
+    ["/--\\" "⟷"]
+    ;U+27F7
+    ["long left right arrow" "⟷"]
+    ;U+27F7
+    ["long double-headed arrow" "⟷"]
+    ;U+27F6
+    ["/--" "⟶"]
+    ;U+27F6
+    ["long rightwards arrow" "⟶"]
+    ;U+27F6
+    ["" "⟶"]
+    ;U+27F5
+    ["\\--" "⟵"]
+    ;U+27F5
+    ["long leftwards arrow" "⟵"]
+    ;U+27F5
+    ["" "⟵"]
+    ;U+27FA
+    ["/==\\" "⟺"]
+    ;U+27FA
+    ["long left right double arrow" "⟺"]
+    ;U+27FA
+    ["long double-headed double arrow" "⟺"]
+    ;U+27F9
+    ["/==" "⟹"]
+    ;U+27F9
+    ["long rightwards double arrow" "⟹"]
+    ;U+27F9
+    ["" "⟹"]
+    ;U+27F8
+    ["\\==" "⟸"]
+    ;U+27F8
+    ["long leftwards double arrow" "⟸"]
+    ;U+27F8
+    ["" "⟸"]
+    ;U+2B0C
+    ["" "⬌"]
+    ;U+2B0C
+    ["left right black arrow" "⬌"]
+    ;U+2B0C
+    ["" "⬌"]
+    ;U+2B95
+    ["" "⮕"]
+    ;U+2B95
+    ["rightwards black arrow" "⮕"]
+    ;U+2B95
+    ["rightwards thick arrow" "⮕"]
+    ;U+2B05
+    ["" "⬅"]
+    ;U+2B05
+    ["leftwards black arrow" "⬅"]
+    ;U+2B05
+    ["leftwards thick arrow" "⬅"]
+    ;U+2B0D
+    ["" "⬍"]
+    ;U+2B0D
+    ["up down black arrow" "⬍"]
+    ;U+2B0D
+    ["up down thick arrow" "⬍"]
+    ;U+2B06
+    ["" "⬆"]
+    ;U+2B06
+    ["upwards black arrow" "⬆"]
+    ;U+2B06
+    ["upwards thick arrow" "⬆"]
+    ;U+2B07
+    ["" "⬇"]
+    ;U+2B07
+    ["downwards black arrow" "⬇"]
+    ;U+2B07
+    ["downwards thick arrow" "⬇"]
+    ;U+27A1
+    ["" "➡"]
+    ;U+27A1
+    ["black rightwards arrow" "➡"]
+    ;U+27A1
+    ["" "➡"]
+    ;U+27B3
+    ["" "➳"]
+    ;U+27B3
+    ["white-feathered rightwards arrow" "➳"]
+    ;U+27B3
+    ["" "➳"]
+    ;U+27BB
+    ["" "➻"]
+    ;U+27BB
+    ["heavy teardrop-shanked rightwards arrow" "➻"]
+    ;U+27BB
+    ["" "➻"]
+    ;U+21B7
+    ["" "↷"]
+    ;U+21B7
+    ["clockwise top semicircle arrow" "↷"]
+    ;U+21B7
+    ["curve arrow right" "↷"]
+    ;U+21B6
+    ["" "↶"]
+    ;U+21B6
+    ["anticlockwise top semicircle arrow" "↶"]
+    ;U+21B6
+    ["curve arrow left" "↶"]
+    ;U+21BB
+    ["" "↻"]
+    ;U+21BB
+    ["clockwise open circle arrow" "↻"]
+    ;U+21BB
+    ["circle arrow right" "↻"]
+    ;U+21BB
+    ["open right arrow" "↻"]
+    ;U+21BA
+    ["" "↺"]
+    ;U+21BA
+    ["anticlockwise open circle arrow" "↺"]
+    ;U+21BA
+    ["circle arrow left" "↺"]
+    ;U+21BA
+    ["open left arrow" "↺"]
+    ;U+293E
+    ["" "⤾"]
+    ;U+293E
+    ["lower right semicircular clockwise arrow" "⤾"]
+    ;U+293E
+    ["" "⤾"]
+    ;U+293F
+    ["" "⤿"]
+    ;U+293F
+    ["lower left semicircular anticlockwise arrow" "⤿"]
+    ;U+293F
+    ["" "⤿"]
+    ;U+27F3
+    ["" "⟳"]
+    ;U+27F3
+    ["clockwise gapped circle arrow" "⟳"]
+    ;U+27F3
+    ["" "⟳"]
+    ;U+27F2
+    ["" "⟲"]
+    ;U+27F2
+    ["anticlockwise gapped circle arrow" "⟲"]
+    ;U+27F2
+    ["" "⟲"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Circles & Dots
+
+    ;U+2941
+    [".o/" "⥁"]
+    ;U+2941
+    ["clockwise closed circle arrow" "⥁"]
+    ;U+2941
+    ["clockwise circle" "⥁"]
+    ;U+2940
+    [".o\\" "⥀"]
+    ;U+2940
+    ["anticlockwise closed circle arrow" "⥀"]
+    ;U+2940
+    ["anticlockwise circle" "⥀"]
+    ;U+25EF
+    [".O" "◯"]
+    ;U+25EF
+    ["large circle" "◯"]
+    ;U+25EF
+    ["big circle" "◯"]
+    ;U+25CB
+    [".o" "○"]
+    ;U+25CB
+    ["white circle" "○"]
+    ;U+25CB
+    ["empty circle" "○"]
+    ;U+25CF
+    [".o*" "●"]
+    ;U+25CF
+    ["black circle" "●"]
+    ;U+25CF
+    ["filled circle" "●"]
+    ;U+29BE
+    [".oO" "⦾"]
+    ;U+29BE
+    ["circled white bullet" "⦾"]
+    ;U+29BE
+    ["circled light circle" "⦾"]
+    ;U+29BE
+    ["double circle" "⦾"]
+    ;U+229A
+    ["=oo" "⊚"]
+    ;U+229A
+    ["circled ring operator" "⊚"]
+    ;U+229A
+    ["double circle operator" "⊚"]
+    ;U+25CE
+    [".oo" "◎"]
+    ;U+25CE
+    ["bullseye" "◎"]
+    ;U+25CE
+    ["small double circle" "◎"]
+    ;U+25C9
+    [".O*" "◉"]
+    ;U+25C9
+    ["fisheye" "◉"]
+    ;U+25C9
+    ["small circled bullet" "◉"]
+    ;U+29BF
+    [".o+" "⦿"]
+    ;U+29BF
+    ["circled bullet" "⦿"]
+    ;U+29BF
+    ["" "⦿"]
+    ;U+2609
+    [".o." "☉"]
+    ;U+2609
+    ["Sun" "☉"]
+    ;U+2609
+    ["circled dot" "☉"]
+    ;U+2609
+    ["target circle" "☉"]
+    ;U+2299
+    ["=o." "⊙"]
+    ;U+2299
+    ["circled dot operator" "⊙"]
+    ;U+2299
+    ["target circle operator" "⊙"]
+    ;U+2022
+    [".*" "•"]
+    ;U+2022
+    ["bullet" "•"]
+    ;U+2022
+    ["black small circle" "•"]
+    ;U+25E6
+    [".+" "◦"]
+    ;U+25E6
+    ["white bullet" "◦"]
+    ;U+25E6
+    ["hollow bullet" "◦"]
+    ;U+26AC
+    ["" "⚬"]
+    ;U+26AC
+    ["medium small white circle" "⚬"]
+    ;U+26AC
+    ["" "⚬"]
+    ;U+2B24
+    ["" "⬤"]
+    ;U+2B24
+    ["black large circle" "⬤"]
+    ;U+2B24
+    ["" "⬤"]
+    ;U+2B2D
+    ["" "⬭"]
+    ;U+2B2D
+    ["white horizontal ellipse" "⬭"]
+    ;U+2B2D
+    ["" "⬭"]
+    ;U+2B2F
+    ["" "⬯"]
+    ;U+2B2F
+    ["white vertical ellipse" "⬯"]
+    ;U+2B2F
+    ["" "⬯"]
+    ;U+2B2C
+    ["" "⬬"]
+    ;U+2B2C
+    ["black horizontal ellipse" "⬬"]
+    ;U+2B2C
+    ["" "⬬"]
+    ;U+2B2E
+    ["" "⬮"]
+    ;U+2B2E
+    ["black vertical ellipse" "⬮"]
+    ;U+2B2E
+    ["" "⬮"]
+    ;U+2300
+    ["" "⌀"]
+    ;U+2300
+    ["diameter sign" "⌀"]
+    ;U+2300
+    ["" "⌀"]
+    ;U+00F8
+    ["" "ø"]
+    ;U+00F8
+    ["Latin small letter o with stroke" "ø"]
+    ;U+00F8
+    ["Latin small letter o slash" "ø"]
+    ;U+00D8
+    ["" "Ø"]
+    ;U+00D8
+    ["Latin capital letter O with stroke" "Ø"]
+    ;U+00D8
+    ["Latin capital letter O slash" "Ø"]
+    ;U+03C6
+    ["" "φ"]
+    ;U+03C6
+    ["Greek small letter phi" "φ"]
+    ;U+03C6
+    ["" "φ"]
+    ;U+03A6
+    ["" "Φ"]
+    ;U+03A6
+    ["Greek capital letter Phi" "Φ"]
+    ;U+03A6
+    ["" "Φ"]
+    ;U+03D5
+    ["" "ϕ"]
+    ;U+03D5
+    ["Greek phi symbol" "ϕ"]
+    ;U+03D5
+    ["straight phi" "ϕ"]
+    ;U+03D5
+    ["variant phi" "ϕ"]
+    ;U+00A9
+    [".(C)" "©"]
+    ;U+00A9
+    ["copyright sign" "©"]
+    ;U+00A9
+    ["" "©"]
+    ;U+1F12F
+    [".(CL)" "🄯"]
+    ;U+1F12F
+    ["copyleft symbol" "🄯"]
+    ;U+1F12F
+    ["" "🄯"]
+    ;U+00AE
+    [".(R)" "®"]
+    ;U+00AE
+    ["registered sign" "®"]
+    ;U+00AE
+    ["registered trademark symbol" "®"]
+    ;U+2117
+    [".(P)" "℗"]
+    ;U+2117
+    ["sound recording copyright" "℗"]
+    ;U+2117
+    ["phonogram copyright symbol" "℗"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Emoji
+
+    ;U+1F642
+    [":-)" "🙂"]
+    ;U+1F642
+    ["slightly smiling face" "🙂"]
+    ;U+1F642
+    ["smile" "🙂"]
+    ;U+1F60A
+    [":)" "😊"]
+    ;U+1F60A
+    ["smiling face with smiling eyes" "😊"]
+    ;U+1F60A
+    ["flushed" "😊"]
+    ;U+1F60A
+    ["crush" "😊"]
+    ;U+1F60A
+    ["embarrassed" "😊"]
+    ;U+263A+FE0F
+    [":-}" "☺️"]
+    ;U+263A+FE0F
+    ["smiling face" "☺️"]
+    ;U+263A+FE0F
+    ["blush" "☺️"]
+    ;U+263A+FE0F
+    ["massage" "☺️"]
+    ;U+263A+FE0F
+    ["happiness" "☺️"]
+    ;U+1F609
+    [";)" "😉"]
+    ;U+1F609
+    ["winking face" "😉"]
+    ;U+1F609
+    ["mischievous" "😉"]
+    ;U+1F609
+    ["secret" "😉"]
+    ;U+1F600
+    [":-))" "😀"]
+    ;U+1F600
+    ["grinning face" "😀"]
+    ;U+1F600
+    ["grin" "😀"]
+    ;U+1F603
+    [":-D" "😃"]
+    ;U+1F603
+    ["smiling face with open mouth" "😃"]
+    ;U+1F603
+    ["grinning face with big eyes" "😃"]
+    ;U+1F603
+    ["happy" "😃"]
+    ;U+1F603
+    ["haha" "😃"]
+    ;U+1F604
+    [":))" "😄"]
+    ;U+1F604
+    ["smiling face with open mouth and smiling eyes" "😄"]
+    ;U+1F604
+    ["grinning face with smiling eyes" "😄"]
+    ;U+1F604
+    ["joy" "😄"]
+    ;U+1F604
+    ["funny" "😄"]
+    ;U+1F601
+    [":D" "😁"]
+    ;U+1F601
+    ["grinning face with smiling eyes" "😁"]
+    ;U+1F601
+    ["beaming face with smiling eyes" "😁"]
+    ;U+1F601
+    ["kawaii" "😁"]
+    ;U+1F606
+    [":XD" "😆"]
+    ;U+1F606
+    ["smiling face with open mouth and tightly-closed eyes" "😆"]
+    ;U+1F606
+    ["grinning squinting face" "😆"]
+    ;U+1F606
+    ["lol" "😆"]
+    ;U+1F606
+    ["satisfied" "😆"]
+    ;U+1F606
+    ["glad" "😆"]
+    ;U+1F605
+    [":’D" "😅"]
+    ;U+1F605
+    ["smiling face with open mouth and cold sweat" "😅"]
+    ;U+1F605
+    ["grinning face with sweat" "😅"]
+    ;U+1F605
+    ["hot" "😅"]
+    ;U+1F605
+    ["laugh" "😅"]
+    ;U+1F605
+    ["relief" "😅"]
+    ;U+1F923
+    [":’XD" "🤣"]
+    ;U+1F923
+    ["rolling on the floor laughing" "🤣"]
+    ;U+1F923
+    ["rolling" "🤣"]
+    ;U+1F923
+    ["floor" "🤣"]
+    ;U+1F923
+    ["laughing" "🤣"]
+    ;U+1F923
+    ["rofl" "🤣"]
+    ;U+1F602
+    [":”D" "😂"]
+    ;U+1F602
+    ["face with tears of joy" "😂"]
+    ;U+1F602
+    ["cry" "😂"]
+    ;U+1F602
+    ["weep" "😂"]
+    ;U+1F602
+    ["happytears" "😂"]
+    ;U+1F617
+    [":-*" "😗"]
+    ;U+1F617
+    ["kissing face" "😗"]
+    ;U+1F617
+    ["" "😗"]
+    ;U+1F61A
+    [":*" "😚"]
+    ;U+1F61A
+    ["kissing face with closed eyes" "😚"]
+    ;U+1F61A
+    ["infatuation" "😚"]
+    ;U+1F619
+    [":^*" "😙"]
+    ;U+1F619
+    ["kissing face with smiling eyes" "😙"]
+    ;U+1F619
+    ["" "😙"]
+    ;U+1F618
+    [":*3" "😘"]
+    ;U+1F618
+    ["face throwing a kiss" "😘"]
+    ;U+1F618
+    ["face blowing a kiss" "😘"]
+    ;U+1F618
+    ["valentines" "😘"]
+    ;U+1F970
+    [":)3" "🥰"]
+    ;U+1F970
+    ["smiling face with smiling eyes and three hearts" "🥰"]
+    ;U+1F970
+    ["smiling face with hearts" "🥰"]
+    ;U+1F970
+    ["love" "🥰"]
+    ;U+1F970
+    ["hearts" "🥰"]
+    ;U+1F970
+    ["adore" "🥰"]
+    ;U+1F60D
+    [":o3" "😍"]
+    ;U+1F60D
+    ["smiling face with heart-shaped eyes" "😍"]
+    ;U+1F60D
+    ["smiling face with heart-eyes" "😍"]
+    ;U+1F60D
+    ["affection" "😍"]
+    ;U+1F643
+    [":(-:" "🙃"]
+    ;U+1F643
+    ["upside-down face" "🙃"]
+    ;U+1F643
+    ["flipped" "🙃"]
+    ;U+1F61F
+    [":^(" "😟"]
+    ;U+1F61F
+    ["worried face" "😟"]
+    ;U+1F61F
+    ["concern" "😟"]
+    ;U+1F641
+    [":(" "🙁"]
+    ;U+1F641
+    ["slightly frowning face" "🙁"]
+    ;U+1F641
+    ["frowning" "🙁"]
+    ;U+2639+FE0F
+    [":-(" "☹️"]
+    ;U+2639+FE0F
+    ["frowning face" "☹️"]
+    ;U+2639+FE0F
+    ["upset" "☹️"]
+    ;U+2639+FE0F
+    ["frown" "☹️"]
+    ;U+1F62E
+    [":O" "😮"]
+    ;U+1F62E
+    ["face with open mouth" "😮"]
+    ;U+1F62E
+    ["surprise" "😮"]
+    ;U+1F62E
+    ["impressed" "😮"]
+    ;U+1F62E
+    ["wow" "😮"]
+    ;U+1F62E
+    ["whoa" "😮"]
+    ;U+1F62F
+    [":o" "😯"]
+    ;U+1F62F
+    ["hushed face" "😯"]
+    ;U+1F62F
+    ["woo" "😯"]
+    ;U+1F62F
+    ["shh" "😯"]
+    ;U+1F632
+    [":0" "😲"]
+    ;U+1F632
+    ["astonished face" "😲"]
+    ;U+1F632
+    ["xox" "😲"]
+    ;U+1F632
+    ["surprised" "😲"]
+    ;U+1F632
+    ["poisoned" "😲"]
+    ;U+1F626
+    [":-(o" "😦"]
+    ;U+1F626
+    ["frowning face with open mouth" "😦"]
+    ;U+1F626
+    ["aw" "😦"]
+    ;U+1F626
+    ["what" "😦"]
+    ;U+1F627
+    [":(o" "😧"]
+    ;U+1F627
+    ["anguished face" "😧"]
+    ;U+1F627
+    ["stunned" "😧"]
+    ;U+1F60B
+    [":)p" "😋"]
+    ;U+1F60B
+    ["face savouring delicious food" "😋"]
+    ;U+1F60B
+    ["face savoring food" "😋"]
+    ;U+1F60B
+    ["yummy" "😋"]
+    ;U+1F60B
+    ["nom" "😋"]
+    ;U+1F60B
+    ["delicious" "😋"]
+    ;U+1F60B
+    ["savouring" "😋"]
+    ;U+1F61B
+    [":p" "😛"]
+    ;U+1F61B
+    ["face with stuck-out tongue" "😛"]
+    ;U+1F61B
+    ["face with tongue" "😛"]
+    ;U+1F61B
+    ["prank" "😛"]
+    ;U+1F61C
+    [";p" "😜"]
+    ;U+1F61C
+    ["face with stuck-out tongue and winking eye" "😜"]
+    ;U+1F61C
+    ["winking face with tongue" "😜"]
+    ;U+1F61C
+    ["childish" "😜"]
+    ;U+1F61C
+    ["wink" "😜"]
+    ;U+1F92A
+    [":/p" "🤪"]
+    ;U+1F92A
+    ["grinning face with one large and one small eye" "🤪"]
+    ;U+1F92A
+    ["zany face" "🤪"]
+    ;U+1F92A
+    ["goofy" "🤪"]
+    ;U+1F92A
+    ["crazy" "🤪"]
+    ;U+1F61D
+    [":xp" "😝"]
+    ;U+1F61D
+    ["face with stuck-out tongue and tightly-closed eyes" "😝"]
+    ;U+1F61D
+    ["squinting face with tongue" "😝"]
+    ;U+1F61D
+    ["playful" "😝"]
+    ;U+1F911
+    [":p$" "🤑"]
+    ;U+1F911
+    ["money-mouth face" "🤑"]
+    ;U+1F911
+    ["rich" "🤑"]
+    ;U+1F610
+    [":-|" "😐"]
+    ;U+1F610
+    ["neutral face" "😐"]
+    ;U+1F610
+    ["indifference" "😐"]
+    ;U+1F610
+    ["meh" "😐"]
+    ;U+1F610
+    ["neutral" "😐"]
+    ;U+1F611
+    [":|" "😑"]
+    ;U+1F611
+    ["expressionless face" "😑"]
+    ;U+1F611
+    ["indifferent" "😑"]
+    ;U+1F611
+    ["deadpan" "😑"]
+    ;U+1F636
+    [":" "😶"]
+    ;U+1F636
+    ["face without mouth" "😶"]
+    ;U+1F636
+    ["" "😶"]
+    ;U+1F615
+    [":(/" "😕"]
+    ;U+1F615
+    ["confused face" "😕"]
+    ;U+1F615
+    ["huh" "😕"]
+    ;U+1F615
+    ["weird" "😕"]
+    ;U+1FAE4
+    [":/" "🫤"]
+    ;U+1FAE4
+    ["face with diagonal mouth" "🫤"]
+    ;U+1FAE4
+    ["skeptic" "🫤"]
+    ;U+1FAE4
+    ["confuse" "🫤"]
+    ;U+1F625
+    [":,(" "😥"]
+    ;U+1F625
+    ["disappointed but relieved face" "😥"]
+    ;U+1F625
+    ["sad but relieved face" "😥"]
+    ;U+1F625
+    ["phew" "😥"]
+    ;U+1F622
+    [":’(" "😢"]
+    ;U+1F622
+    ["crying face" "😢"]
+    ;U+1F622
+    ["tears" "😢"]
+    ;U+1F62D
+    [":”(" "😭"]
+    ;U+1F62D
+    ["loudly crying face" "😭"]
+    ;U+1F62D
+    ["sobbing" "😭"]
+    ;U+1F910
+    [":#" "🤐"]
+    ;U+1F910
+    ["zipper-mouth face" "🤐"]
+    ;U+1F910
+    ["sealed" "🤐"]
+    ;U+1F910
+    ["zipper" "🤐"]
+    ;U+1F92B
+    [":!" "🤫"]
+    ;U+1F92B
+    ["face with finger covering closed lips" "🤫"]
+    ;U+1F92B
+    ["shushing face" "🤫"]
+    ;U+1F92B
+    ["quiet" "🤫"]
+    ;U+1F92B
+    ["shhh" "🤫"]
+    ;U+1F914
+    [":?" "🤔"]
+    ;U+1F914
+    ["thinking face" "🤔"]
+    ;U+1F914
+    ["hmmm" "🤔"]
+    ;U+1F914
+    ["think" "🤔"]
+    ;U+1F914
+    ["consider" "🤔"]
+    ;U+1FAE1
+    [":!!" "🫡"]
+    ;U+1FAE1
+    ["saluting face" "🫡"]
+    ;U+1FAE1
+    ["respect" "🫡"]
+    ;U+1FAE1
+    ["salute" "🫡"]
+    ;U+1F60E
+    [":B)" "😎"]
+    ;U+1F60E
+    ["smiling face with sunglasses" "😎"]
+    ;U+1F60E
+    ["cool" "😎"]
+    ;U+1F60E
+    ["summer" "😎"]
+    ;U+1F60E
+    ["beach" "😎"]
+    ;U+1F60E
+    ["sunglass" "😎"]
+    ;U+1F913
+    [":B.)" "🤓"]
+    ;U+1F913
+    ["nerd face" "🤓"]
+    ;U+1F913
+    ["nerdy" "🤓"]
+    ;U+1F913
+    ["geek" "🤓"]
+    ;U+1F913
+    ["dork" "🤓"]
+    ;U+1F9D0
+    [":%" "🧐"]
+    ;U+1F9D0
+    ["face with monocle" "🧐"]
+    ;U+1F9D0
+    ["stuffy" "🧐"]
+    ;U+1F9D0
+    ["wealthy" "🧐"]
+    ;U+1F635
+    [":xx" "😵"]
+    ;U+1F635
+    ["dizzy face" "😵"]
+    ;U+1F635
+    ["face with crossed-out eyes" "😵"]
+    ;U+1F635
+    ["spent" "😵"]
+    ;U+1F635
+    ["unconscious" "😵"]
+    ;U+1F635+200D+1F4AB
+    [":@@" "😵‍💫"]
+    ;U+1F635+200D+1F4AB
+    ["face with spiral eyes" "😵‍💫"]
+    ;U+1F635+200D+1F4AB
+    ["nauseous" "😵‍💫"]
+    ;U+1F635+200D+1F4AB
+    ["nausea" "😵‍💫"]
+    ;U+1F621
+    [":>:[" "😡"]
+    ;U+1F621
+    ["pouting face" "😡"]
+    ;U+1F621
+    ["enraged face" "😡"]
+    ;U+1F621
+    ["hate" "😡"]
+    ;U+1F621
+    ["despise" "😡"]
+    ;U+1F620
+    [":>:(" "😠"]
+    ;U+1F620
+    ["angry face" "😠"]
+    ;U+1F620
+    ["mad" "😠"]
+    ;U+1F620
+    ["annoyed" "😠"]
+    ;U+2764+FE0F
+    ["..<3" "❤️"]
+    ;U+2764+FE0F
+    ["red heart" "❤️"]
+    ;U+2764+FE0F
+    ["" "❤️"]
+    ;U+1F44D
+    ["..+^" "👍"]
+    ;U+1F44D
+    ["thumbs up sign" "👍"]
+    ;U+1F44D
+    ["thumbs up" "👍"]
+    ;U+1F44D
+    ["thumbsup" "👍"]
+    ;U+1F44D
+    ["yes" "👍"]
+    ;U+1F44D
+    ["accept" "👍"]
+    ;U+1F44D
+    ["+1" "👍"]
+    ;U+1F44E
+    ["..-v" "👎"]
+    ;U+1F44E
+    ["thumbs down sign" "👎"]
+    ;U+1F44E
+    ["thumbs down" "👎"]
+    ;U+1F44E
+    ["thumbsdown" "👎"]
+    ;U+1F44E
+    ["dislike" "👎"]
+    ;U+1F44E
+    ["-1" "👎"]
+    ;U+2B06+FE0F
+    ["../|" "⬆️"]
+    ;U+2B06+FE0F
+    ["up arrow" "⬆️"]
+    ;U+2B06+FE0F
+    ["continue" "⬆️"]
+    ;U+27A1+FE0F
+    ["../-" "➡️"]
+    ;U+27A1+FE0F
+    ["right arrow" "➡️"]
+    ;U+27A1+FE0F
+    ["next" "➡️"]
+    ;U+2B07+FE0F
+    ["..\\|" "⬇️"]
+    ;U+2B07+FE0F
+    ["down arrow" "⬇️"]
+    ;U+2B07+FE0F
+    ["bottom" "⬇️"]
+    ;U+2B05+FE0F
+    ["..\\-" "⬅️"]
+    ;U+2B05+FE0F
+    ["left arrow" "⬅️"]
+    ;U+2B05+FE0F
+    ["previous" "⬅️"]
+    ;U+2B55
+    ["..O" "⭕"]
+    ;U+2B55
+    ["heavy large circle" "⭕"]
+    ;U+2B55
+    ["hollow red circle" "⭕"]
+    ;U+267E+FE0F
+    ["..8" "♾️"]
+    ;U+267E+FE0F
+    ["infinity" "♾️"]
+    ;U+267E+FE0F
+    ["forever" "♾️"]
+    ;U+2611+FE0F
+    ["..v@" "☑️"]
+    ;U+2611+FE0F
+    ["check box with check" "☑️"]
+    ;U+2611+FE0F
+    ["ok" "☑️"]
+    ;U+2611+FE0F
+    ["confirm" "☑️"]
+    ;U+2611+FE0F
+    ["black-square" "☑️"]
+    ;U+2714+FE0F
+    ["..v" "✔️"]
+    ;U+2714+FE0F
+    ["check mark" "✔️"]
+    ;U+2714+FE0F
+    ["nike" "✔️"]
+    ;U+2714+FE0F
+    ["tick" "✔️"]
+    ;U+274C
+    ["..x" "❌"]
+    ;U+274C
+    ["cross mark" "❌"]
+    ;U+274C
+    ["delete" "❌"]
+    ;U+274C
+    ["remove" "❌"]
+    ;U+274C
+    ["cancel" "❌"]
+    ;U+274E
+    ["..x@" "❎"]
+    ;U+274E
+    ["negative squared cross mark" "❎"]
+    ;U+274E
+    ["cross mark button" "❎"]
+    ;U+274E
+    ["deny" "❎"]
+    ;U+264E
+    ["..=b=" "♎"]
+    ;U+264E
+    ["libra" "♎"]
+    ;U+264E
+    ["Libra" "♎"]
