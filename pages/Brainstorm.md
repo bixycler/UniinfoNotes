@@ -1147,4 +1147,4 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only [from mid-19th century](https://style.mla.org/the-placement-of-a-comma-or-period-after-a-quotation), to make the text of [typewriter](https://en.wikipedia.org/wiki/Typewriter) [looks “neater”](https://style.mla.org/punctuation-and-quotation-marks/).
 			- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
 		- World's various styles for dialogue
-			- While quotation marks are used in English dialogues, (em, en) dashes are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
+			- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
