@@ -3625,10 +3625,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-06-11 Tue 10:35:39]
 			  CLOCK: [2024-06-11 Tue 10:36:22]--[2024-06-12 Wed 10:17:12] =>  23:40:50
 			  :END:
-				- Use the built-in feature "Export public pages".
-				  collapsed:: true
+				- Use the built-in feature `Export public pages`.
 					- Chose a **separate folder** (`$web/`) to checkout the `gh-pages` branch, then export to that folder.
 						- Warning: Don't export to the same folder with the `main` branch (`$src/`), because their contents are very different.
+						- Manually copy the whole `assets` folder from `$src/` to `$web/`, because the built-in publisher
 					- The folder `$web/` can be launched by ((6714f01d-3dd8-461c-9619-c5bac33451b0)).
 					- When `gh-pages` branch is pushed to GitHub, ((671503e5-690e-4f1f-ad53-419fd57543fe)) will deploy it to `https://$user.github.io/$repo/`.
 					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
