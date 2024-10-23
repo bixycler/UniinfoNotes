@@ -1134,7 +1134,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Quotation
 				- For quick notes, i just use the straight quotation marks `"`.
 				- For notes to be published, i use the curly quotation marks `“”`.
-				- I don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence, i.e. only the quoted material is placed inside quotation marks.
+				- Only the quoted material is placed inside quotation marks.
+				  id:: 67189182-7268-4579-9ef2-b16bf1f06c86
+				  I don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence.
 				- Math forms are quoted by double angle brackets, e.g. $⟪E = m⋅c^2⟫$
 			- Dialogue
 				- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
@@ -1142,5 +1144,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				-
 		- English style
 			- Quotation
-				- Which punctunation marks to be placed right before the closing quotation mark is complicated.
-					-
+				- [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
+					- Commas `,` and periods `.` are always before the closing quote, “like this.”
+					- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
