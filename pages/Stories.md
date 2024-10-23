@@ -1052,3 +1052,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  CLOCK: [2024-10-23 Wed 17:02:46]
 	  :END:
 		- ![gif-from-Hiep.jpg](../assets/Will/story/2024-Oct/gif-from-Hiep.jpg){:width 300}
+		- Hiệp: muốn vẽ thành con sloth mà chưa ra
+		- Định: Ặc, mặt tui buồn muốn chết, chữ Khổ khắc sâu trên trán mà sao ông thấy thành cười nhe răng vậy cũng hay thiệt chứ 😁
+		  Vợ tui mới khen "anh Hiệp vẽ đẹp quá!" kìa 😊
+		  Cảm ơn ông Hiệp đã cho tui reflect qua 1 lăng kính của ông. Có thể ông còn nhiều lăng kính khác nữa, nếu được thì cứ cho tui xem hết các mặt ông thấy ở tui nhé 😊
