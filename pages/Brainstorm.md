@@ -1100,6 +1100,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- ((6713b016-effb-4c0a-9b29-746770b99ce6)) is related to ((66e80666-5f29-4419-8db1-bf8cdce893e4))
 	- The **choice** determines the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) and its ((6713a8e1-e460-4622-9ad6-87c804deccd8)).
 	  id:: 6714a66b-1bd2-4c9d-8ebc-2842f3095b3b
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-10-20 Sun 13:57:09]--[2024-10-20 Sun 14:46:58] =>  00:49:49
 	  :END:
@@ -1123,3 +1124,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Choice & responsibility is the main ethical motivation of the ((6713acf0-2eb0-423b-ac61-6f595ea12b86)).
 		  "We receive whatever we've chosen."
 		  "Gieo nhân nào gặt quả nấy."
+	- Writing styles & formats
+	  collapsed:: true
+		- CreatZy style

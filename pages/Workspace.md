@@ -147,7 +147,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  }
 					  ```
 		-
-		- TODO Auto-complete & typing assistant for **quotation marks**, symbols...
 		- TODO Backup & republish my contents on Facebook
 		  collapsed:: true
 			- Some of the fb posts have been migrated to the blog [CreatZy Notes](https://creatzynotes.blogspot.com/).
@@ -580,4 +579,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-06-23 Sun 16:26:28]
 		  CLOCK: [2024-10-20 Sun 20:15:42]--[2024-10-21 Mon 00:02:20] =>  03:46:38
 		  :END:
+		- DONE ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols... 
+		  using ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		- ...
