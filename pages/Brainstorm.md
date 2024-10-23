@@ -1134,6 +1134,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Quotation
 				- For quick notes, i just use the straight quotation marks `"`.
 				- For notes to be published, i use the curly quotation marks `“”`.
+				- I don't put trailing punctuation marks into the quote, except when quoting the whole sentence.
+				-
 			- Dialogue
 				- For quick notes, i just use the hyphen-minus `-` or item bullet to switch person, double hyphen `--` for source attribution and interruption.
 				- For notes to be published, i use quotation dash `―` to switch person, n-dash `–` for interruption, and m-dash `—` for source attribution.
+				-
