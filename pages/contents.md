@@ -30,7 +30,7 @@ id:: 66faa5f7-f408-406c-befd-8ae69ed56667
 	  ^ **Name** search
 		- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, true}}
 		  query-table:: false
-	- Will LE
+	- CreatZy
 	  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 	  case-sensitive:: false
 	  whole-word:: false
