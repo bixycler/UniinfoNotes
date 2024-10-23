@@ -1131,4 +1131,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-10-23 Wed 12:04:05]
 	  :END:
 		- CreatZy style
-			-
+			- Quotation
+				- For quick notes, i just use the straight quotation marks `"`.
+				- For notes to be published, i use the curly quotation marks `“”`.
+			- Dialogue
+				- For quick notes, i just use the hyphen-minus `-` or item bullet to
