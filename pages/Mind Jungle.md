@@ -1960,7 +1960,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `<{}"`, `<{};`, `<{}{`
 				  “double curly quotes”, «double guillemets», ⟪ ○ = ↑ ⟫
 				- `<--`, `<---`, `<---'`, `<-0`, `<-`
-				  –en-dash, —em-dash, ―quotation-dash, 123‒456, non‑breaking hyphen
+				  – en-dash, — em-dash, ― quotation-dash, 123‒456, ...(test)... non‑breaking hyphen
+				  ..................................................................(test)... versus the normal hyphen-minus
 				- `<=+-`, `<=x`, `<=%`, `<=x%`, `1/<=0 = <=8`
 				  ±, ×, ÷, ⋇, 1/∅ = ∞
 				- `</-\`, `<\-`, `</-`, `</=\`,  `</=`, `<\=`, `</|\`, `</|`, `<\|`, `</!=`, `</==`

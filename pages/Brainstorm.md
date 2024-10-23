@@ -1138,5 +1138,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Math forms are quoted by double angle brackets, e.g. $⟪E = m⋅c^2⟫$
 			- Dialogue
 				- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
-				- For notes to be published, i use quotation dash `―` to switch person, n-dash `–` for interruption, and m-dash `—` for source attribution.
+				- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are space-separated from the text.
 				-
+		- English style
+			-
