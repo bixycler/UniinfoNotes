@@ -581,7 +581,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  to open each file in a tab.
 				- buffer
 					- Each file is associated with an editing buffer.
-					- `:o[pen] $file`
+					- `:e[dit] $file`
 					  to open new file in current buffer.
 					- `:wa`, `:qa`, `:wqa`
 					  to write and/or quit all buffers.
