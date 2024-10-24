@@ -88,6 +88,65 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ≥	U+2265	greater-than or equal to	&ge;, &GreaterEqual;, &geq;	=>=	
 ≪	U+226A	much less-than	&Lt;, &NestedLessLess;, &ll;	=<<	
 ≫	U+226B	much greater-than	&Gt;, &NestedGreaterGreater;, &gg;	=>>	
+# Mathematical Letters					
+Α					Alpha, gre.a
+Β					Beta, gre.b
+Γ					Gamma, gre.g
+Δ					Delta, gre.d
+Ε					Epsilon, gre.e
+Ζ					Zeta, Zêta, gre.z
+Η					Eta, Êta, gre.Ê
+Θ					Theta, Thêta, gre.Th
+Ι					Iota, gre.I
+Κ					Kappa, gre.K
+Λ					Lambda, gre.L
+Μ					Mu, gre.M
+Ν					Nu, gre.N
+Ξ					Xi, gre.Ks
+Ο					Omikron, gre.O
+Π					Pi, gre.P
+Ρ					Rho, gre.R
+Σ					Sigma, gre.S
+Τ					Tau, gre.T
+Υ					Upsilon, gre.U
+Φ					Phi, gre.F
+Χ					Chi, gre.Ch
+Ψ					Psi, gre.Ps
+Ω					Omega, Ômega, gre.ô, Ohm sign
+α					alpha, gre.gre.a
+β					beta, gre.b
+γ					gamma, gre.g
+δ					delta, gre.d
+ε					epsilon, gre.e
+ϵ					variant epsilon, straight epsilon
+϶					back epsilon
+ζ					zeta, zêta, gre.z
+η					eta, êta, gre.ê
+θ					theta, thêta, gre.th
+ι					iota, gre.i
+κ					kappa, gre.k
+λ					lambda, gre.l
+μ					mu, gre.m
+ν					nu, gre.n
+ξ					xi, gre.ks
+ο					omikron, gre.o
+π					pi, gre.p
+ρ					rho, gre.r
+σ					sigma, gre.s
+ς					variant sigma
+τ					tau, gre.t
+υ					upsilon, gre.u
+φ					phi, gre.f
+ϕ					straight phi, variant phi
+χ					chi, gre.ch
+ψ					psi, gre.ps
+ω					omega, ômega, gre.ô
+					
+					
+					
+					
+					
+					
 # Arrows					
 ⇔	U+21D4	left right double arrow	&hArr;, &Leftrightarrow;, &DoubleLeftRightArrow;, &iff;	/=\	iff, if and only if
 ⇒	U+21D2	rightwards double arrow	&rArr;, &Rightarrow;, &Implies;, &DoubleRightArrow;	/=	implies, imply
