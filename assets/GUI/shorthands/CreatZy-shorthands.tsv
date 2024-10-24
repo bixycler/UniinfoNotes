@@ -88,7 +88,7 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ≥	U+2265	greater-than or equal to	&ge;, &GreaterEqual;, &geq;	=>=	
 ≪	U+226A	much less-than	&Lt;, &NestedLessLess;, &ll;	=<<	
 ≫	U+226B	much greater-than	&Gt;, &NestedGreaterGreater;, &gg;	=>>	
-# Mathematical Letters					
+# Letterlike Symbols					
 Α					Alpha, gre.a
 Β					Beta, gre.b
 Γ					Gamma, gre.g
@@ -142,8 +142,8 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ψ					psi, gre.ps
 ω					omega, ômega, gre.ô
 ℂ					Complex number, open-face capital C
-ℋ					Hilbert space, Hamiltonian mechanics
-ℌ					Fraktur capital H, Poincare plane
+ℋ					Hilbert space, Hamiltonian mechanics
+ℌ					Fraktur capital H, Poincare plane
 ℍ					Quaternion, open-face capital H
 ℎ					
 ℏ					h bar, h slash, Planck variant
@@ -153,7 +153,7 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ℓ					mathematical ell
 ℕ					Natural number, open-face capital N
 №					
-℘					power set, Weierstrass p
+℘					power set, Weierstrass p
 ℙ					prime number, open-face capital P
 ℚ					rational number, open-face capital Q
 ℛ					Riemann integral, real line
@@ -161,12 +161,12 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ℝ					real number
 ℞					Rx
 ℤ					integer
-℧					mho
+℧					Mho
 ℨ					Fraktur capital Z, dram
 ℬ					Bernoulli polynomials
 ℭ					Fraktur capital C, 
 ℯ					natural logarithm base, Euler's number, Napier's constant
-ℰ					electromotive force, expected value
+ℰ					electromotive force, expected value
 ℱ					Fourier transform
 ℳ					Mellin transform, M-matrix
 ℴ					order, of inferior order to
@@ -178,7 +178,7 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ⅇ					
 ⅈ					imaginary unit
 Å					
-Å					
+Å					
 ℼ					circle constant
 ℾ					gamma function
 ℿ					product notation
@@ -187,8 +187,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ℃					
 ℉					
 ⅏					
-					
-					
 # Arrows					
 ⇔	U+21D4	left right double arrow	&hArr;, &Leftrightarrow;, &DoubleLeftRightArrow;, &iff;	/=\	iff, if and only if
 ⇒	U+21D2	rightwards double arrow	&rArr;, &Rightarrow;, &Implies;, &DoubleRightArrow;	/=	implies, imply
