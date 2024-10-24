@@ -1153,3 +1153,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- References:
 				- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
 				- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
+	- DOING Loops, springs, coils in Unicode
+	  id:: 671a3ada-40dd-4a43-8ded-532c120cfda1
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-24 Thu 19:18:10]
+	  :END:
+		- Emojis
+			- ➰
+			  curly loop, scribble, squiggle
+			- ➿
+			  double curly loop, tape, cassette
+			- 🎗️
+			  reminder ribbon, awareness, cause
+		- ⅏
+		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
+		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
+			- ꔛ (jee), ꖴ (ku),
+		-
