@@ -2125,6 +2125,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- The Arrow ⟪↑⟫ here is the long and curved arrow (↝) which can be broken into many short and straight arrows ⟪↥, ↧⟫ called “vectors” where the Equation turns out to be ⟪○ = ↥ + ↧⟫.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- About the name “Trinion”
+			  id:: 6716110e-3b83-40b7-965c-3ae44547d832
 			  collapsed:: true
 				- “Trinion” = “Tri-” + “union” is the union of the three components. This puts more emphasis on _the unity of the three_, compared to other triads like the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)). This meaning is very much similar to [the “Holy Trinity”](https://en.wikipedia.org/wiki/Trinity) in theism, where “Trinity” may be considered as “Tri-” + “unity”.
 				- In the course of finding a term not to be confused with the “Holy Trinity”, the “Triad” or simply the “Three” have been considered. But then the term “Trinion” was coined to reflect the harmony of both [the Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [the Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))) as the dynamic of [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) which is not only a “[pre-existence](https://en.wikipedia.org/wiki/Pre-existence)”.
