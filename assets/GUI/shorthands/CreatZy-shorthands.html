@@ -174,6 +174,7 @@
             nn = nn.replaceAll(pattern, pn);
         }
         nn = nn.replaceAll(/capital (\w)/g, (m,c)=>m.slice(0,-1)+c.toUpperCase());
+        nn = nn.replaceAll('capital Letters', 'capital letters');
         nn = nn.replaceAll(/capital (Letter|Ligature|Inverted|Reversed|Turned|Lunate|Dotted|Barred) (\w)/g,
             (m,a,c)=>'capital '+a.toLowerCase()+' '+c.toUpperCase());
         return nn;
