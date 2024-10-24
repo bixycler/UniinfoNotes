@@ -554,7 +554,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- volume: $∫ f'(x) ⋅ dx = ∫ dy = 1 ⇒ f'(x) ⊥ x$
 			- radius: $(dx)^2 + (dy)^2 + (dz)^2 = 1^2$
 			- phase: Sc dx = epsilon (intent) = dy (extent)
-			  + CIfEr: the internal resource circle (intent) rolls against the external object circle (content), the mismatch dy is the further internal sustent circle
+				- SCIFER: the internal resource circle (intent) rolls against the external object circle (content), the mismatch $dy$ is the further internal sustent circle
 	- mặc cảm
 	  id:: 6684f334-6db2-4e2e-8e03-d62f6ec97364
 	  collapsed:: true
