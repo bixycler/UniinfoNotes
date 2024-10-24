@@ -1170,9 +1170,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  cyclone, swirl, vortex, spiral, whirlpool, spin
 			- 🍥
 			  fish cake with swirl design, narutomaki, kamaboko, surimi
+			- ♾️
+			  infinity, forever
 		- ⅏
 		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
 		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
 			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en)
 		- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
 			- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
+		- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
+			- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
+		- ∞, ♾, ♾️
