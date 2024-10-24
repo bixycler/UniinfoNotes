@@ -174,7 +174,8 @@
             nn = nn.replaceAll(pattern, pn);
         }
         nn = nn.replaceAll(/capital (\w)/g, (m,n)=>m.slice(0,-1)+n.toUpperCase());
-        nn = nn.replaceAll(/capital letter (\w)/g, (m,n)=>'capital letter '+n.toUpperCase());
+        nn = nn.replaceAll(/capital Letter, 'capital letter ');
+        nn = nn.replaceAll(/capital letter (\w)/g, (m,n)=>m.slice(0,-1)+n.toUpperCase());
         return nn;
     }
     // fix double quotes escaped by spreadsheet editor
@@ -358,7 +359,12 @@
             if(codePoint !== sh.codePoint){ 
                 console.log('Code-point mismatch for ',c,':',codePoint,'<>',sh.codePoint); 
             }
-            if(ca.length == 1 && !sh.name){ sh.name = charMap[c].name; shorthands[sh.i][2] = sh.name; }
+            if(!sh.name){ 
+                if(ca.length > 1){ console.log('Multi-char shorthand missing name: ',sh); 
+                } else {
+                    sh.name = charMap[c].name; shorthands[sh.i][2] = sh.name; 
+                }
+            }
             if(ca.length == 1 && charMap[c].name !== sh.name){ 
                 console.log('Name mismatch for ',c,':',charMap[c].name,'<>',sh.name); 
             }
@@ -457,8 +463,8 @@
     setupSearch(shorthandMap, shorthandMapSearchKey, shorthandMapSearchResult);
 
     window.addEventListener('DOMContentLoaded', async (e)=>{
-        //charMapTextArea.value = await loadDsv('UnicodeData.csv', unicodeData, /*delim=*/';');
-        //parseUnicodeData(); 
+        charMapTextArea.value = await loadDsv('UnicodeData.csv', unicodeData, /*delim=*/';');
+        parseUnicodeData(); 
 
         await loadDsv('CreatZy-shorthands.tsv', shorthands, /*delim=*/'\t', /*skipHeader=*/false, /*eol=*/'\n', /*comment=*/'');
         parseShorthands();
