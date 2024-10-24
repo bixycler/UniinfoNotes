@@ -1153,11 +1153,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- References:
 				- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
 				- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
-	- DOING Loops, springs, coils in Unicode
+	- Loops, springs, coils in Unicode
 	  id:: 671a3ada-40dd-4a43-8ded-532c120cfda1
 	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2024-10-24 Thu 19:18:10]
+	  CLOCK: [2024-10-24 Thu 19:18:10]--[2024-10-24 Thu 19:57:44] =>  00:39:34
 	  :END:
 		- Emojis
 			- ➰
@@ -1175,9 +1175,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ⅏
 		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
 		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
-			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en)
+			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en), ꕤ (za)
 		- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
 			- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
 		- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
 			- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
-		- ∞, ♾, ♾️
+		- Symbols
+			- Infinity: ∞, ♾
