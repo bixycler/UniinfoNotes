@@ -547,6 +547,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  collapsed:: true
 					- ![Pascal-Triangle-animated-binary-rows.gif](../assets/geometry/Pascal-Triangle-animated-binary-rows.gif)
 		- DOING 3 ways to extend dimensions:
+		  id:: 6716110c-1b10-41cc-9e26-c76ef782b6a3
 		  :LOGBOOK:
 		  CLOCK: [2024-08-12 Mon 08:35:03]
 		  :END:

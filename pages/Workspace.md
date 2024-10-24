@@ -42,11 +42,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- ((669f243f-41b7-4274-b954-9824ec3ac33b))
 		-
 		-
-		- DOING ((669a1bec-3347-4915-83e4-dcffc4d482d1))
-		  :LOGBOOK:
-		  CLOCK: [2024-07-22 Mon 09:57:18]
-		  CLOCK: [2024-07-22 Mon 09:57:20]
-		  :END:
 		- WAIT Add to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) various types of [extending dimensions](((667d202e-f401-46ba-ab32-c4fd77b49ab1))).
 		  :LOGBOOK:
 		  CLOCK: [2024-06-28 Fri 08:11:13]

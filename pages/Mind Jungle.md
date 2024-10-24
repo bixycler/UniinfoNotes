@@ -2627,6 +2627,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66ab75a1-f4a0-4bab-a002-8e573546623a
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language, and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.
 				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology).
+				  id:: 6716110e-05cf-4cda-9bbd-c47fb74eba13
 				- DOING from nondimensional blob, dot, extend, project, extract to dimensions
 				  id:: 66ab774d-91d2-4c47-8546-78bb17e7e2bf
 				  :LOGBOOK:
