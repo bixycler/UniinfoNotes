@@ -69,6 +69,7 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ∏	U+220F	n-ary product	&prod;, &Product;	=P	product sign
 ∑	U+2211	n-ary summation	&sum;, &Sum;	=S	sum sign
 ∫	U+222B	integral	&int;, &Integral;	=Si	integral sign
+∮	U+222E	contour integral	&conint;, &oint;, &ContourIntegral; =Sio	circle integral sign
 ∩	U+2229	intersection	&cap;	=cap	cap
 ∪	U+222A	union	&cup;	=cup	cup
 ∥	U+2225	parallel to	&par;, &parallel;, &DoubleVerticalBar;, &spar;, &shortparallel;	=||	double vertical bar

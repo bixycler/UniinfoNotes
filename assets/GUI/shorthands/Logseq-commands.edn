@@ -458,6 +458,12 @@
     ["integral" "∫"]
     ;U+222B
     ["integral sign" "∫"]
+    ;U+222E
+    ["=Sio" "∮"]
+    ;U+222E
+    ["contour integral" "∮"]
+    ;U+222E
+    ["circle integral sign" "∮"]
     ;U+2229
     ["=cap" "∩"]
     ;U+2229
