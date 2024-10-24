@@ -109,7 +109,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 Σ					Sigma, gre.S
 Τ					Tau, gre.T
 Υ					Upsilon, gre.U
-Φ					Phi, gre.F
 Χ					Chi, gre.Ch
 Ψ					Psi, gre.Ps
 Ω					Omega, Ômega, gre.ô, Ohm sign
@@ -136,8 +135,6 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ς					variant sigma
 τ					tau, gre.t
 υ					upsilon, gre.u
-φ					phi, gre.f
-ϕ					straight phi, variant phi, gre.ph
 χ					chi, gre.ch
 ψ					psi, gre.ps
 ω					omega, ômega, gre.ô
@@ -271,9 +268,9 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ⌀	U+2300	diameter sign			
 ø	U+00F8	Latin small letter o with stroke	&oslash;		Latin small letter o slash
 Ø	U+00D8	Latin capital letter O with stroke	&Oslash;		Latin capital letter O slash
-φ	U+03C6	Greek small letter phi	&phi;		
-Φ	U+03A6	Greek capital letter Phi	&Phi;		
-ϕ	U+03D5	Greek phi symbol	&phiv;, &straightphi;, &varphi;		straight phi, variant phi
+φ	U+03C6	Greek small letter phi	&phi;		phi, gre.f
+Φ	U+03A6	Greek capital letter Phi	&Phi;		Phi, gre.F
+ϕ	U+03D5	Greek phi symbol	&phiv;, &straightphi;, &varphi;		straight phi, variant phi, gre.ph
 ©	U+00A9	copyright sign	&copy;, &COPY;	.(C)	
 🄯	U+1F12F	copyleft symbol		.(CL)	
 ®	U+00AE	registered sign	&reg;, &circledR;, &REG;	.(R)	registered trademark symbol
