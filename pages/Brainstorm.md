@@ -551,7 +551,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2024-08-12 Mon 08:35:03]
 		  :END:
-			- volume: S f'(x)*dx = S dy = 1 => f'(x) _|_ x
+			- volume: $∫ f'(x) ⋅ dx = ∫ dy = 1 ⇒ f'(x) ⊥ x$
 			- radius: (dx)^2 + (dy)^2 + (dz)^2 = 1^2
 			- phase: Sc dx = epsilon (intent) = dy (extent)
 			  + CIfEr: the internal resource circle (intent) rolls against the external object circle (content), the mismatch dy is the further internal sustent circle
