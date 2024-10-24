@@ -1934,6 +1934,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [O mark](https://en.wikipedia.org/wiki/O_mark#Unicode)
 					- Typographic [bullet point](https://en.wikipedia.org/wiki/Bullet_(typography))
 					- Linguistic [interpunct](https://en.wikipedia.org/wiki/Interpunct)
+				- Greek alphabets
+					- No CreatZy code, but mapped with `gre.X` for character `X`, e.g. `gre.ê` = ``
 				- Emoji
 				  id:: 6716110f-5741-4ed0-aeeb-9c150ef847a0
 				  collapsed:: true
