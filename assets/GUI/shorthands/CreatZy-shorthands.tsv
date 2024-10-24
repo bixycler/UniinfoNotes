@@ -89,12 +89,12 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ≪	U+226A	much less-than	&Lt;, &NestedLessLess;, &ll;	=<<	
 ≫	U+226B	much greater-than	&Gt;, &NestedGreaterGreater;, &gg;	=>>	
 # Letterlike Symbols					
-Α					Alpha, gre.a
-Β					Beta, gre.b
-Γ					Gamma, gre.g
-Δ					Delta, gre.d
-Ε					Epsilon, gre.e
-Ζ					Zeta, Zêta, gre.z
+Α					Alpha, gre.A
+Β					Beta, gre.B
+Γ					Gamma, gre.G
+Δ					Delta, gre.D
+Ε					Epsilon, gre.E
+Ζ					Zeta, Zêta, gre.Z
 Η					Eta, Êta, gre.Ê
 Θ					Theta, Thêta, gre.Th
 Ι					Iota, gre.I
@@ -111,7 +111,7 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 Υ					Upsilon, gre.U
 Χ					Chi, gre.Ch
 Ψ					Psi, gre.Ps
-Ω					Omega, Ômega, gre.ô, Ohm sign
+Ω					Omega, Ômega, gre.Ô, Ohm sign
 α					alpha, gre.gre.a
 β					beta, gre.b
 γ					gamma, gre.g
@@ -157,7 +157,7 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ℜ					Fraktur capital R, real part symbol
 ℝ					real number
 ℞					Rx
-ℤ					integer
+ℤ					integer number
 ℧					Mho
 ℨ					Fraktur capital Z, dram
 ℬ					Bernoulli polynomials
