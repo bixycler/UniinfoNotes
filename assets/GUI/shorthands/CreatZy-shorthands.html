@@ -173,8 +173,8 @@
             const pattern = new RegExp('\\b'+pn.toLowerCase()+'\\b','g');
             nn = nn.replaceAll(pattern, pn);
         }
-        nn = nn.replaceAll(/capital letter (\w)/g, (m,n)=>m.slice(0,-1)+n.toUpperCase());
-        nn = nn.replaceAll(/capital \b(\w)\b/g, (m,n)=>m.slice(0,-1)+n.toUpperCase());
+        nn = nn.replaceAll(/capital (\w)/g, (m,n)=>m.slice(0,-1)+n.toUpperCase());
+        nn = nn.replaceAll(/capital letter (\w)/g, (m,n)=>'capital letter '+n.toUpperCase());
         return nn;
     }
     // fix double quotes escaped by spreadsheet editor
@@ -192,7 +192,7 @@
     }
 </script>
 
-<!--script>/***** load charMap from UnicodeData.csv *****/
+<script>/***** load charMap from UnicodeData.csv *****/
     const charMap = {};
     const unicodeData = [];
     const unicodeCategories = {
@@ -254,9 +254,9 @@
             };
         }
     }
-</script-->
+</script>
 
-<script src="charMap.js"></script>
+<!--script src="charMap.js"></script-->
 <script>/***** show charMap & update its download link *****/
     function showCharMap(){
         const charMapJson = JSON.stringify(charMap, null, '    ');
