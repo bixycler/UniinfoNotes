@@ -1166,8 +1166,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  double curly loop, tape, cassette
 			- 🎗️
 			  reminder ribbon, awareness, cause
+			- 🌀
+			  cyclone,
 		- ⅏
 		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
 		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
-			- ꔛ (jee), ꖴ (ku),
-		-
+			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en)
+		- Thai
+			- ๑ (digit one),
