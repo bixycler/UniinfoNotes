@@ -583,17 +583,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Each file is associated with an editing buffer.
 					- `:e[dit] $file`
 					  to open new file in current buffer.
-						- ~~`:o[pen] $file`~~
+						- ~~`:o[pen] $file_or_pattern`~~
+						  collapsed:: true
 						  does somehow works with relative paths but wierdly reacts with absolute paths from `~` or from root `/`.
 							- From `:help open`
-							  ```
-							  :[range]o[pen]    Works like :visual: end Ex mode.
-							                    {Vi: start editing in open mode}
-							  :[range]o[pen] /pattern/        
-							                    As above, additionally move the cursor to the
-							                    column where "pattern" matches in the cursor line.
-							  
-							  ```
+							  collapsed:: true
+								- ```
+								  :[range]o[pen]    Works like :visual: end Ex mode.
+								                    {Vi: start editing in open mode}
+								  :[range]o[pen] /pattern/        
+								                    As above, additionally move the cursor to the column
+								                    where "pattern" matches in the cursor line.
+								  Vim does not support open mode, since it's not really useful.  
+								  For those situations where ":open" would start open mode Vim will leave Ex mode, 
+								  which allows executing the same commands, but updates the whole screen instead of only one line.
+								  ```
+							- StackExchange: [What does :open do in Vim?](https://vi.stackexchange.com/a/2277)
 					- `:wa`, `:qa`, `:wqa`
 					  to write and/or quit all buffers.
 					- Each buffer can be mirrored in many ((66fe47b0-71d5-4663-bc43-d4774329a56e))s and in many ((66fe472d-cbfe-49ff-9ec1-4c1b7853895a))s.
