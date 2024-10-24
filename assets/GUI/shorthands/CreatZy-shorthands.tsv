@@ -89,104 +89,104 @@ Character	Code-point	Unicode Name	HTML Entity	CreatZy Code	Additional Keywords
 ≪	U+226A	much less-than	&Lt;, &NestedLessLess;, &ll;	=<<	
 ≫	U+226B	much greater-than	&Gt;, &NestedGreaterGreater;, &gg;	=>>	
 # Letterlike Symbols					
-Α					Alpha, gre.A
-Β					Beta, gre.B
-Γ					Gamma, gre.G
-Δ					Delta, gre.D
-Ε					Epsilon, gre.E
-Ζ					Zeta, Zêta, gre.Z
-Η					Eta, Êta, gre.Ê
-Θ					Theta, Thêta, gre.Th
-Ι					Iota, gre.I
-Κ					Kappa, gre.K
-Λ					Lambda, gre.L
-Μ					Mu, gre.M
-Ν					Nu, gre.N
-Ξ					Xi, gre.Ks
-Ο					Omikron, gre.O
-Π					Pi, gre.P
-Ρ					Rho, gre.R
-Σ					Sigma, gre.S
-Τ					Tau, gre.T
-Υ					Upsilon, gre.U
+Α	U+0391	Greek capital letter Alpha	&Alpha;		Alpha, gre.A
+Β	U+0392	Greek capital letter Beta	&Beta;		Beta, gre.B
+Γ	U+0393	Greek capital letter Gamma	&Gamma;		Gamma, gre.G
+Δ	U+0394	Greek capital letter Delta	&Delta;		Delta, gre.D
+Ε	U+0395	Greek capital letter Epsilon	&Epsilon;		Epsilon, gre.E
+Ζ	U+0396	Greek capital letter Zeta	&Zeta;		Zeta, Zêta, gre.Z
+Η	U+0397	Greek capital letter Eta	&Eta;		Eta, Êta, gre.Ê
+Θ	U+0398	Greek capital letter Theta	&Theta;		Theta, Thêta, gre.Th
+Ι	U+0399	Greek capital letter Iota	&Iota;		Iota, gre.I
+Κ	U+039A	Greek capital letter Kappa	&Kappa;		Kappa, gre.K
+Λ	U+039B	Greek capital letter Lamda	&Lambda;		Lambda, gre.L
+Μ	U+039C	Greek capital letter Mu	&Mu;		Mu, gre.M
+Ν	U+039D	Greek capital letter Nu	&Nu;		Nu, gre.N
+Ξ	U+039E	Greek capital letter Xi	&Xi;		Xi, gre.Ks
+Ο	U+039F	Greek capital letter Omicron	&Omicron;		Omikron, gre.O
+Π	U+03A0	Greek capital letter Pi	&Pi;		Pi, gre.P
+Ρ	U+03A1	Greek capital letter Rho	&Rho;		Rho, gre.R
+Σ	U+03A3	Greek capital letter Sigma	&Sigma;		Sigma, gre.S
+Τ	U+03A4	Greek capital letter Tau	&Tau;		Tau, gre.T
+Υ	U+03A5	Greek capital letter Upsilon	&Upsilon;		Upsilon, gre.U
 Φ	U+03A6	Greek capital letter Phi	&Phi;		Phi, gre.F
-Χ					Chi, gre.Ch
-Ψ					Psi, gre.Ps
-Ω					Omega, Ômega, gre.Ô, Ohm sign
-α					alpha, gre.gre.a
-β					beta, gre.b
-γ					gamma, gre.g
-δ					delta, gre.d
-ε					epsilon, gre.e
-ϵ					variant epsilon, straight epsilon
-϶					back epsilon
-ζ					zeta, zêta, gre.z
-η					eta, êta, gre.ê
-θ					theta, thêta, gre.th
-ι					iota, gre.i
-κ					kappa, gre.k
-λ					lambda, gre.l
-μ					mu, gre.m
-ν					nu, gre.n
-ξ					xi, gre.ks
-ο					omikron, gre.o
-π					pi, gre.p
-ρ					rho, gre.r
-σ					sigma, gre.s
-ς					variant sigma
-τ					tau, gre.t
-υ					upsilon, gre.u
+Χ	U+03A7	Greek capital letter Chi	&Chi;		Chi, gre.Ch
+Ψ	U+03A8	Greek capital letter Psi	&Psi;		Psi, gre.Ps
+Ω	U+03A9	Greek capital letter Omega	&ohm;, &Omega;		Omega, Ômega, gre.Ô, Ohm sign
+α	U+03B1	Greek small letter alpha	&alpha;		alpha, gre.gre.a
+β	U+03B2	Greek small letter beta	&beta;		beta, gre.b
+γ	U+03B3	Greek small letter gamma	&gamma;		gamma, gre.g
+δ	U+03B4	Greek small letter delta	&delta;		delta, gre.d
+ε	U+03B5	Greek small letter epsilon	&epsi;, &epsilon;		epsilon, gre.e
+ϵ	U+03F5	Greek lunate epsilon symbol	&epsiv;, &varepsilon;, &straightepsilon;		variant epsilon, straight epsilon
+϶	U+03F6	Greek reversed lunate epsilon symbol	&bepsi;, &backepsilon;		back epsilon
+ζ	U+03B6	Greek small letter zeta	&zeta;		zeta, zêta, gre.z
+η	U+03B7	Greek small letter eta	&eta;		eta, êta, gre.ê
+θ	U+03B8	Greek small letter theta	&theta;		theta, thêta, gre.th
+ι	U+03B9	Greek small letter iota	&iota;		iota, gre.i
+κ	U+03BA	Greek small letter kappa	&kappa;		kappa, gre.k
+λ	U+03BB	Greek small letter lamda	&lambda;		lambda, gre.l
+μ	U+03BC	Greek small letter mu	&mu;		mu, gre.m
+ν	U+03BD	Greek small letter nu	&nu;		nu, gre.n
+ξ	U+03BE	Greek small letter xi	&xi;		xi, gre.ks
+ο	U+03BF	Greek small letter omicron	&omicron;		omikron, gre.o
+π	U+03C0	Greek small letter pi	&pi;		pi, gre.p
+ρ	U+03C1	Greek small letter rho	&rho;		rho, gre.r
+σ	U+03C3	Greek small letter sigma	&sigma;		sigma, gre.s
+ς	U+03C2	Greek small letter final sigma	&sigmaf;, &sigmav;, &varsigma;		variant sigma
+τ	U+03C4	Greek small letter tau	&tau;		tau, gre.t
+υ	U+03C5	Greek small letter upsilon	&upsi;, &upsilon;		upsilon, gre.u
 φ	U+03C6	Greek small letter phi	&phi;		phi, gre.f
 ϕ	U+03D5	Greek phi symbol	&phiv;, &straightphi;, &varphi;		straight phi, variant phi, gre.ph
-χ					chi, gre.ch
-ψ					psi, gre.ps
-ω					omega, ômega, gre.ô
-ℂ					Complex number, open-face capital C
-ℋ					Hilbert space, Hamiltonian mechanics
-ℌ					Fraktur capital H, Poincare plane
-ℍ					Quaternion, open-face capital H
-ℎ					
-ℏ					h bar, h slash, Planck variant
-ℐ					imaginary line
-ℑ					Fraktur capital I, imaginary part
-ℒ					Lagrangian mechanics, Laplace transform
-ℓ					mathematical ell
-ℕ					Natural number, open-face capital N
-№					
-℘					power set, Weierstrass p
-ℙ					prime number, open-face capital P
-ℚ					rational number, open-face capital Q
-ℛ					Riemann integral, real line
-ℜ					Fraktur capital R, real part symbol
-ℝ					real number
-℞					Rx
-ℤ					integer number
-℧					Mho
-ℨ					Fraktur capital Z, dram
-ℬ					Bernoulli polynomials
-ℭ					Fraktur capital C, 
-ℯ					natural logarithm base, Euler's number, Napier's constant
-ℰ					electromotive force, expected value
-ℱ					Fourier transform
-ℳ					Mellin transform, M-matrix
-ℴ					order, of inferior order to
-ℵ					first transfinite cardinal
-ℶ					beth symbol
-ℸ					daleth symbol
-ⅅ					derivative symbol
-ⅆ					differential symbol
-ⅇ					
-ⅈ					imaginary unit
-Å					
-Å					Ångström sign
-ℼ					circle constant
-ℾ					gamma function
-ℿ					product notation
-⅀					summation notation
-ⅉ					imaginary unit in physics
-℃					
-℉					
-⅏					
+χ	U+03C7	Greek small letter chi	&chi;		chi, gre.ch
+ψ	U+03C8	Greek small letter psi	&psi;		psi, gre.ps
+ω	U+03C9	Greek small letter omega	&omega;		omega, ômega, gre.ô
+ℂ	U+2102	double-struck capital C	&Copf;, &complexes;		Complex number, open-face capital C
+ℋ	U+210B	script capital H	&Hscr;, &hamilt;, &HilbertSpace;		Hilbert space, Hamiltonian mechanics
+ℌ	U+210C	black-letter capital H	&Hfr;, &Poincareplane;		Fraktur capital H, Poincare plane
+ℍ	U+210D	double-struck capital H	&Hopf;, &quaternions;		Quaternion, open-face capital H
+ℎ	U+210E	planck constant	&planckh;		
+ℏ	U+210F	planck constant over two pi	&hbar;, &hslash;, &planck;, &plankv;		h bar, h slash, Planck variant
+ℐ	U+2110	script capital I	&Iscr;, &imagline;		imaginary line
+ℑ	U+2111	black-letter capital I	&Im;, &Ifr;, &image;, &imagpart;		Fraktur capital I, imaginary part
+ℒ	U+2112	script capital L	&Lscr;, &lagran;, &Laplacetrf;		Lagrangian mechanics, Laplace transform
+ℓ	U+2113	script small l	&ell;		mathematical ell
+ℕ	U+2115	double-struck capital N	&Nopf;, &naturals;		Natural number, open-face capital N
+№	U+2116	numero sign	&numero;		
+℘	U+2118	script capital P	&wp;, &weierp;		power set, Weierstrass p
+ℙ	U+2119	double-struck capital P	&Popf;, &primes;		prime number, open-face capital P
+ℚ	U+211A	double-struck capital Q	&Qopf;, &rationals;		rational number, open-face capital Q
+ℛ	U+211B	script capital R	&Rscr;, &realine;		Riemann integral, real line
+ℜ	U+211C	black-letter capital R	&Re;, &Rfr;, &real;, &realpart;		Fraktur capital R, real part symbol
+ℝ	U+211D	double-struck capital R	&Ropf;, &reals;		real number
+℞	U+211E	prescription take	&rx;		Rx
+ℤ	U+2124	double-struck capital Z	&Zopf;, &integers;		integer number
+℧	U+2127	inverted ohm sign	&mho;		Mho
+ℨ	U+2128	black-letter capital Z	&Zfr;, &zeetrf;		Fraktur capital Z, dram
+ℬ	U+212C	script capital B	&Bscr;, &bernou;, &Bernoullis;		Bernoulli polynomials
+ℭ	U+212D	black-letter capital C	&Cfr;, &Cayleys;		Fraktur capital C, 
+ℯ	U+212F	script small e	&escr;		natural logarithm base, Euler's number, Napier's constant
+ℰ	U+2130	script capital E	&Escr;, &expectation;		electromotive force, expected value
+ℱ	U+2131	script capital F	&Fscr;, &Fouriertrf;		Fourier transform
+ℳ	U+2133	script capital M	&Mscr;, &phmmat;, &Mellintrf;		Mellin transform, M-matrix
+ℴ	U+2134	script small o	&oscr;, &order;, &orderof;		order, of inferior order to
+ℵ	U+2135	alef symbol	&aleph;, &alefsym;		first transfinite cardinal
+ℶ	U+2136	bet symbol	&beth;		beth symbol
+ℸ	U+2138	dalet symbol	&daleth;		daleth symbol
+ⅅ	U+2145	double-struck italic capital D	&DD;, &CapitalDifferentialD;		derivative symbol
+ⅆ	U+2146	double-struck italic small d	&dd;, &DifferentialD;		differential symbol
+ⅇ	U+2147	double-struck italic small e	&ee;, &exponentiale;, &ExponentialE;		
+ⅈ	U+2148	double-struck italic small i	&ii;, &ImaginaryI;		imaginary unit
+Å	U+00C5	Latin capital letter A with ring above	&angst;, &Aring;		
+Å	U+212B	angstrom sign			Ångström sign
+ℼ	U+213C	double-struck small pi			circle constant
+ℾ	U+213E	double-struck capital Gamma			gamma function
+ℿ	U+213F	double-struck capital Pi			product notation
+⅀	U+2140	double-struck n-ary summation			summation notation
+ⅉ	U+2149	double-struck italic small j			imaginary unit in physics
+℃	U+2103	degree Celsius			
+℉	U+2109	degree Fahrenheit			
+⅏	U+214F	symbol for Samaritan source			
 # Arrows					
 ⇔	U+21D4	left right double arrow	&hArr;, &Leftrightarrow;, &DoubleLeftRightArrow;, &iff;	/=\	iff, if and only if
 ⇒	U+21D2	rightwards double arrow	&rArr;, &Rightarrow;, &Implies;, &DoubleRightArrow;	/=	implies, imply

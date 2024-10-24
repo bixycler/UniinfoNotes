@@ -174,7 +174,7 @@
             nn = nn.replaceAll(pattern, pn);
         }
         nn = nn.replaceAll(/capital(?: letter| ligature| inverted| reversed| turned| lunate| dotted| barred| insular| open| half)* (\w)/g,
-            (m,c)=>m.slice(0,-1)+c.toUpperCase());
+            (m,c)=> m.slice(0,-1) + c.toUpperCase());
         nn = nn.replaceAll('capital Letters', 'capital letters');
         return nn;
     }
@@ -193,7 +193,7 @@
     }
 </script>
 
-<script>/***** load charMap from UnicodeData.csv *****/
+<!--script>/***** load charMap from UnicodeData.csv *****/
     const charMap = {};
     const unicodeData = [];
     const unicodeCategories = {
@@ -255,9 +255,9 @@
             };
         }
     }
-</script>
+</script-->
 
-<!--script src="charMap.js"></script-->
+<script src="charMap.js"></script>
 <script>/***** show charMap & update its download link *****/
     function showCharMap(){
         const charMapJson = JSON.stringify(charMap, null, '    ');
@@ -463,8 +463,8 @@
     setupSearch(shorthandMap, shorthandMapSearchKey, shorthandMapSearchResult);
 
     window.addEventListener('DOMContentLoaded', async (e)=>{
-        charMapTextArea.value = await loadDsv('UnicodeData.csv', unicodeData, /*delim=*/';');
-        parseUnicodeData(); 
+        //charMapTextArea.value = await loadDsv('UnicodeData.csv', unicodeData, /*delim=*/';');
+        //parseUnicodeData(); 
 
         await loadDsv('CreatZy-shorthands.tsv', shorthands, /*delim=*/'\t', /*skipHeader=*/false, /*eol=*/'\n', /*comment=*/'');
         parseShorthands();

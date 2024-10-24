@@ -584,6 +584,760 @@
     ["" "≫"]
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Letterlike Symbols
+
+    ;U+0391
+    ["" "Α"]
+    ;U+0391
+    ["Greek capital letter Alpha" "Α"]
+    ;U+0391
+    ["Alpha" "Α"]
+    ;U+0391
+    ["gre.A" "Α"]
+    ;U+0392
+    ["" "Β"]
+    ;U+0392
+    ["Greek capital letter Beta" "Β"]
+    ;U+0392
+    ["Beta" "Β"]
+    ;U+0392
+    ["gre.B" "Β"]
+    ;U+0393
+    ["" "Γ"]
+    ;U+0393
+    ["Greek capital letter Gamma" "Γ"]
+    ;U+0393
+    ["Gamma" "Γ"]
+    ;U+0393
+    ["gre.G" "Γ"]
+    ;U+0394
+    ["" "Δ"]
+    ;U+0394
+    ["Greek capital letter Delta" "Δ"]
+    ;U+0394
+    ["Delta" "Δ"]
+    ;U+0394
+    ["gre.D" "Δ"]
+    ;U+0395
+    ["" "Ε"]
+    ;U+0395
+    ["Greek capital letter Epsilon" "Ε"]
+    ;U+0395
+    ["Epsilon" "Ε"]
+    ;U+0395
+    ["gre.E" "Ε"]
+    ;U+0396
+    ["" "Ζ"]
+    ;U+0396
+    ["Greek capital letter Zeta" "Ζ"]
+    ;U+0396
+    ["Zeta" "Ζ"]
+    ;U+0396
+    ["Zêta" "Ζ"]
+    ;U+0396
+    ["gre.Z" "Ζ"]
+    ;U+0397
+    ["" "Η"]
+    ;U+0397
+    ["Greek capital letter Eta" "Η"]
+    ;U+0397
+    ["Eta" "Η"]
+    ;U+0397
+    ["Êta" "Η"]
+    ;U+0397
+    ["gre.Ê" "Η"]
+    ;U+0398
+    ["" "Θ"]
+    ;U+0398
+    ["Greek capital letter Theta" "Θ"]
+    ;U+0398
+    ["Theta" "Θ"]
+    ;U+0398
+    ["Thêta" "Θ"]
+    ;U+0398
+    ["gre.Th" "Θ"]
+    ;U+0399
+    ["" "Ι"]
+    ;U+0399
+    ["Greek capital letter Iota" "Ι"]
+    ;U+0399
+    ["Iota" "Ι"]
+    ;U+0399
+    ["gre.I" "Ι"]
+    ;U+039A
+    ["" "Κ"]
+    ;U+039A
+    ["Greek capital letter Kappa" "Κ"]
+    ;U+039A
+    ["Kappa" "Κ"]
+    ;U+039A
+    ["gre.K" "Κ"]
+    ;U+039B
+    ["" "Λ"]
+    ;U+039B
+    ["Greek capital letter Lamda" "Λ"]
+    ;U+039B
+    ["Lambda" "Λ"]
+    ;U+039B
+    ["gre.L" "Λ"]
+    ;U+039C
+    ["" "Μ"]
+    ;U+039C
+    ["Greek capital letter Mu" "Μ"]
+    ;U+039C
+    ["Mu" "Μ"]
+    ;U+039C
+    ["gre.M" "Μ"]
+    ;U+039D
+    ["" "Ν"]
+    ;U+039D
+    ["Greek capital letter Nu" "Ν"]
+    ;U+039D
+    ["Nu" "Ν"]
+    ;U+039D
+    ["gre.N" "Ν"]
+    ;U+039E
+    ["" "Ξ"]
+    ;U+039E
+    ["Greek capital letter Xi" "Ξ"]
+    ;U+039E
+    ["Xi" "Ξ"]
+    ;U+039E
+    ["gre.Ks" "Ξ"]
+    ;U+039F
+    ["" "Ο"]
+    ;U+039F
+    ["Greek capital letter Omicron" "Ο"]
+    ;U+039F
+    ["Omikron" "Ο"]
+    ;U+039F
+    ["gre.O" "Ο"]
+    ;U+03A0
+    ["" "Π"]
+    ;U+03A0
+    ["Greek capital letter Pi" "Π"]
+    ;U+03A0
+    ["Pi" "Π"]
+    ;U+03A0
+    ["gre.P" "Π"]
+    ;U+03A1
+    ["" "Ρ"]
+    ;U+03A1
+    ["Greek capital letter Rho" "Ρ"]
+    ;U+03A1
+    ["Rho" "Ρ"]
+    ;U+03A1
+    ["gre.R" "Ρ"]
+    ;U+03A3
+    ["" "Σ"]
+    ;U+03A3
+    ["Greek capital letter Sigma" "Σ"]
+    ;U+03A3
+    ["Sigma" "Σ"]
+    ;U+03A3
+    ["gre.S" "Σ"]
+    ;U+03A4
+    ["" "Τ"]
+    ;U+03A4
+    ["Greek capital letter Tau" "Τ"]
+    ;U+03A4
+    ["Tau" "Τ"]
+    ;U+03A4
+    ["gre.T" "Τ"]
+    ;U+03A5
+    ["" "Υ"]
+    ;U+03A5
+    ["Greek capital letter Upsilon" "Υ"]
+    ;U+03A5
+    ["Upsilon" "Υ"]
+    ;U+03A5
+    ["gre.U" "Υ"]
+    ;U+03A6
+    ["" "Φ"]
+    ;U+03A6
+    ["Greek capital letter Phi" "Φ"]
+    ;U+03A6
+    ["Phi" "Φ"]
+    ;U+03A6
+    ["gre.F" "Φ"]
+    ;U+03A7
+    ["" "Χ"]
+    ;U+03A7
+    ["Greek capital letter Chi" "Χ"]
+    ;U+03A7
+    ["Chi" "Χ"]
+    ;U+03A7
+    ["gre.Ch" "Χ"]
+    ;U+03A8
+    ["" "Ψ"]
+    ;U+03A8
+    ["Greek capital letter Psi" "Ψ"]
+    ;U+03A8
+    ["Psi" "Ψ"]
+    ;U+03A8
+    ["gre.Ps" "Ψ"]
+    ;U+03A9
+    ["" "Ω"]
+    ;U+03A9
+    ["Greek capital letter Omega" "Ω"]
+    ;U+03A9
+    ["Omega" "Ω"]
+    ;U+03A9
+    ["Ômega" "Ω"]
+    ;U+03A9
+    ["gre.Ô" "Ω"]
+    ;U+03A9
+    ["Ohm sign" "Ω"]
+    ;U+03B1
+    ["" "α"]
+    ;U+03B1
+    ["Greek small letter alpha" "α"]
+    ;U+03B1
+    ["alpha" "α"]
+    ;U+03B1
+    ["gre.gre.a" "α"]
+    ;U+03B2
+    ["" "β"]
+    ;U+03B2
+    ["Greek small letter beta" "β"]
+    ;U+03B2
+    ["beta" "β"]
+    ;U+03B2
+    ["gre.b" "β"]
+    ;U+03B3
+    ["" "γ"]
+    ;U+03B3
+    ["Greek small letter gamma" "γ"]
+    ;U+03B3
+    ["gamma" "γ"]
+    ;U+03B3
+    ["gre.g" "γ"]
+    ;U+03B4
+    ["" "δ"]
+    ;U+03B4
+    ["Greek small letter delta" "δ"]
+    ;U+03B4
+    ["delta" "δ"]
+    ;U+03B4
+    ["gre.d" "δ"]
+    ;U+03B5
+    ["" "ε"]
+    ;U+03B5
+    ["Greek small letter epsilon" "ε"]
+    ;U+03B5
+    ["epsilon" "ε"]
+    ;U+03B5
+    ["gre.e" "ε"]
+    ;U+03F5
+    ["" "ϵ"]
+    ;U+03F5
+    ["Greek lunate epsilon symbol" "ϵ"]
+    ;U+03F5
+    ["variant epsilon" "ϵ"]
+    ;U+03F5
+    ["straight epsilon" "ϵ"]
+    ;U+03F6
+    ["" "϶"]
+    ;U+03F6
+    ["Greek reversed lunate epsilon symbol" "϶"]
+    ;U+03F6
+    ["back epsilon" "϶"]
+    ;U+03B6
+    ["" "ζ"]
+    ;U+03B6
+    ["Greek small letter zeta" "ζ"]
+    ;U+03B6
+    ["zeta" "ζ"]
+    ;U+03B6
+    ["zêta" "ζ"]
+    ;U+03B6
+    ["gre.z" "ζ"]
+    ;U+03B7
+    ["" "η"]
+    ;U+03B7
+    ["Greek small letter eta" "η"]
+    ;U+03B7
+    ["eta" "η"]
+    ;U+03B7
+    ["êta" "η"]
+    ;U+03B7
+    ["gre.ê" "η"]
+    ;U+03B8
+    ["" "θ"]
+    ;U+03B8
+    ["Greek small letter theta" "θ"]
+    ;U+03B8
+    ["theta" "θ"]
+    ;U+03B8
+    ["thêta" "θ"]
+    ;U+03B8
+    ["gre.th" "θ"]
+    ;U+03B9
+    ["" "ι"]
+    ;U+03B9
+    ["Greek small letter iota" "ι"]
+    ;U+03B9
+    ["iota" "ι"]
+    ;U+03B9
+    ["gre.i" "ι"]
+    ;U+03BA
+    ["" "κ"]
+    ;U+03BA
+    ["Greek small letter kappa" "κ"]
+    ;U+03BA
+    ["kappa" "κ"]
+    ;U+03BA
+    ["gre.k" "κ"]
+    ;U+03BB
+    ["" "λ"]
+    ;U+03BB
+    ["Greek small letter lamda" "λ"]
+    ;U+03BB
+    ["lambda" "λ"]
+    ;U+03BB
+    ["gre.l" "λ"]
+    ;U+03BC
+    ["" "μ"]
+    ;U+03BC
+    ["Greek small letter mu" "μ"]
+    ;U+03BC
+    ["mu" "μ"]
+    ;U+03BC
+    ["gre.m" "μ"]
+    ;U+03BD
+    ["" "ν"]
+    ;U+03BD
+    ["Greek small letter nu" "ν"]
+    ;U+03BD
+    ["nu" "ν"]
+    ;U+03BD
+    ["gre.n" "ν"]
+    ;U+03BE
+    ["" "ξ"]
+    ;U+03BE
+    ["Greek small letter xi" "ξ"]
+    ;U+03BE
+    ["xi" "ξ"]
+    ;U+03BE
+    ["gre.ks" "ξ"]
+    ;U+03BF
+    ["" "ο"]
+    ;U+03BF
+    ["Greek small letter omicron" "ο"]
+    ;U+03BF
+    ["omikron" "ο"]
+    ;U+03BF
+    ["gre.o" "ο"]
+    ;U+03C0
+    ["" "π"]
+    ;U+03C0
+    ["Greek small letter pi" "π"]
+    ;U+03C0
+    ["pi" "π"]
+    ;U+03C0
+    ["gre.p" "π"]
+    ;U+03C1
+    ["" "ρ"]
+    ;U+03C1
+    ["Greek small letter rho" "ρ"]
+    ;U+03C1
+    ["rho" "ρ"]
+    ;U+03C1
+    ["gre.r" "ρ"]
+    ;U+03C3
+    ["" "σ"]
+    ;U+03C3
+    ["Greek small letter sigma" "σ"]
+    ;U+03C3
+    ["sigma" "σ"]
+    ;U+03C3
+    ["gre.s" "σ"]
+    ;U+03C2
+    ["" "ς"]
+    ;U+03C2
+    ["Greek small letter final sigma" "ς"]
+    ;U+03C2
+    ["variant sigma" "ς"]
+    ;U+03C4
+    ["" "τ"]
+    ;U+03C4
+    ["Greek small letter tau" "τ"]
+    ;U+03C4
+    ["tau" "τ"]
+    ;U+03C4
+    ["gre.t" "τ"]
+    ;U+03C5
+    ["" "υ"]
+    ;U+03C5
+    ["Greek small letter upsilon" "υ"]
+    ;U+03C5
+    ["upsilon" "υ"]
+    ;U+03C5
+    ["gre.u" "υ"]
+    ;U+03C6
+    ["" "φ"]
+    ;U+03C6
+    ["Greek small letter phi" "φ"]
+    ;U+03C6
+    ["phi" "φ"]
+    ;U+03C6
+    ["gre.f" "φ"]
+    ;U+03D5
+    ["" "ϕ"]
+    ;U+03D5
+    ["Greek phi symbol" "ϕ"]
+    ;U+03D5
+    ["straight phi" "ϕ"]
+    ;U+03D5
+    ["variant phi" "ϕ"]
+    ;U+03D5
+    ["gre.ph" "ϕ"]
+    ;U+03C7
+    ["" "χ"]
+    ;U+03C7
+    ["Greek small letter chi" "χ"]
+    ;U+03C7
+    ["chi" "χ"]
+    ;U+03C7
+    ["gre.ch" "χ"]
+    ;U+03C8
+    ["" "ψ"]
+    ;U+03C8
+    ["Greek small letter psi" "ψ"]
+    ;U+03C8
+    ["psi" "ψ"]
+    ;U+03C8
+    ["gre.ps" "ψ"]
+    ;U+03C9
+    ["" "ω"]
+    ;U+03C9
+    ["Greek small letter omega" "ω"]
+    ;U+03C9
+    ["omega" "ω"]
+    ;U+03C9
+    ["ômega" "ω"]
+    ;U+03C9
+    ["gre.ô" "ω"]
+    ;U+2102
+    ["" "ℂ"]
+    ;U+2102
+    ["double-struck capital C" "ℂ"]
+    ;U+2102
+    ["Complex number" "ℂ"]
+    ;U+2102
+    ["open-face capital C" "ℂ"]
+    ;U+210B
+    ["" "ℋ"]
+    ;U+210B
+    ["script capital H" "ℋ"]
+    ;U+210B
+    ["Hilbert space" "ℋ"]
+    ;U+210B
+    ["Hamiltonian mechanics" "ℋ"]
+    ;U+210C
+    ["" "ℌ"]
+    ;U+210C
+    ["black-letter capital H" "ℌ"]
+    ;U+210C
+    ["Fraktur capital H" "ℌ"]
+    ;U+210C
+    ["Poincare plane" "ℌ"]
+    ;U+210D
+    ["" "ℍ"]
+    ;U+210D
+    ["double-struck capital H" "ℍ"]
+    ;U+210D
+    ["Quaternion" "ℍ"]
+    ;U+210D
+    ["open-face capital H" "ℍ"]
+    ;U+210E
+    ["" "ℎ"]
+    ;U+210E
+    ["planck constant" "ℎ"]
+    ;U+210E
+    ["" "ℎ"]
+    ;U+210F
+    ["" "ℏ"]
+    ;U+210F
+    ["planck constant over two pi" "ℏ"]
+    ;U+210F
+    ["h bar" "ℏ"]
+    ;U+210F
+    ["h slash" "ℏ"]
+    ;U+210F
+    ["Planck variant" "ℏ"]
+    ;U+2110
+    ["" "ℐ"]
+    ;U+2110
+    ["script capital I" "ℐ"]
+    ;U+2110
+    ["imaginary line" "ℐ"]
+    ;U+2111
+    ["" "ℑ"]
+    ;U+2111
+    ["black-letter capital I" "ℑ"]
+    ;U+2111
+    ["Fraktur capital I" "ℑ"]
+    ;U+2111
+    ["imaginary part" "ℑ"]
+    ;U+2112
+    ["" "ℒ"]
+    ;U+2112
+    ["script capital L" "ℒ"]
+    ;U+2112
+    ["Lagrangian mechanics" "ℒ"]
+    ;U+2112
+    ["Laplace transform" "ℒ"]
+    ;U+2113
+    ["" "ℓ"]
+    ;U+2113
+    ["script small l" "ℓ"]
+    ;U+2113
+    ["mathematical ell" "ℓ"]
+    ;U+2115
+    ["" "ℕ"]
+    ;U+2115
+    ["double-struck capital N" "ℕ"]
+    ;U+2115
+    ["Natural number" "ℕ"]
+    ;U+2115
+    ["open-face capital N" "ℕ"]
+    ;U+2116
+    ["" "№"]
+    ;U+2116
+    ["numero sign" "№"]
+    ;U+2116
+    ["" "№"]
+    ;U+2118
+    ["" "℘"]
+    ;U+2118
+    ["script capital P" "℘"]
+    ;U+2118
+    ["power set" "℘"]
+    ;U+2118
+    ["Weierstrass p" "℘"]
+    ;U+2119
+    ["" "ℙ"]
+    ;U+2119
+    ["double-struck capital P" "ℙ"]
+    ;U+2119
+    ["prime number" "ℙ"]
+    ;U+2119
+    ["open-face capital P" "ℙ"]
+    ;U+211A
+    ["" "ℚ"]
+    ;U+211A
+    ["double-struck capital Q" "ℚ"]
+    ;U+211A
+    ["rational number" "ℚ"]
+    ;U+211A
+    ["open-face capital Q" "ℚ"]
+    ;U+211B
+    ["" "ℛ"]
+    ;U+211B
+    ["script capital R" "ℛ"]
+    ;U+211B
+    ["Riemann integral" "ℛ"]
+    ;U+211B
+    ["real line" "ℛ"]
+    ;U+211C
+    ["" "ℜ"]
+    ;U+211C
+    ["black-letter capital R" "ℜ"]
+    ;U+211C
+    ["Fraktur capital R" "ℜ"]
+    ;U+211C
+    ["real part symbol" "ℜ"]
+    ;U+211D
+    ["" "ℝ"]
+    ;U+211D
+    ["double-struck capital R" "ℝ"]
+    ;U+211D
+    ["real number" "ℝ"]
+    ;U+211E
+    ["" "℞"]
+    ;U+211E
+    ["prescription take" "℞"]
+    ;U+211E
+    ["Rx" "℞"]
+    ;U+2124
+    ["" "ℤ"]
+    ;U+2124
+    ["double-struck capital Z" "ℤ"]
+    ;U+2124
+    ["integer number" "ℤ"]
+    ;U+2127
+    ["" "℧"]
+    ;U+2127
+    ["inverted ohm sign" "℧"]
+    ;U+2127
+    ["Mho" "℧"]
+    ;U+2128
+    ["" "ℨ"]
+    ;U+2128
+    ["black-letter capital Z" "ℨ"]
+    ;U+2128
+    ["Fraktur capital Z" "ℨ"]
+    ;U+2128
+    ["dram" "ℨ"]
+    ;U+212C
+    ["" "ℬ"]
+    ;U+212C
+    ["script capital B" "ℬ"]
+    ;U+212C
+    ["Bernoulli polynomials" "ℬ"]
+    ;U+212D
+    ["" "ℭ"]
+    ;U+212D
+    ["black-letter capital C" "ℭ"]
+    ;U+212D
+    ["Fraktur capital C" "ℭ"]
+    ;U+212D
+    ["" "ℭ"]
+    ;U+212F
+    ["" "ℯ"]
+    ;U+212F
+    ["script small e" "ℯ"]
+    ;U+212F
+    ["natural logarithm base" "ℯ"]
+    ;U+212F
+    ["Euler's number" "ℯ"]
+    ;U+212F
+    ["Napier's constant" "ℯ"]
+    ;U+2130
+    ["" "ℰ"]
+    ;U+2130
+    ["script capital E" "ℰ"]
+    ;U+2130
+    ["electromotive force" "ℰ"]
+    ;U+2130
+    ["expected value" "ℰ"]
+    ;U+2131
+    ["" "ℱ"]
+    ;U+2131
+    ["script capital F" "ℱ"]
+    ;U+2131
+    ["Fourier transform" "ℱ"]
+    ;U+2133
+    ["" "ℳ"]
+    ;U+2133
+    ["script capital M" "ℳ"]
+    ;U+2133
+    ["Mellin transform" "ℳ"]
+    ;U+2133
+    ["M-matrix" "ℳ"]
+    ;U+2134
+    ["" "ℴ"]
+    ;U+2134
+    ["script small o" "ℴ"]
+    ;U+2134
+    ["order" "ℴ"]
+    ;U+2134
+    ["of inferior order to" "ℴ"]
+    ;U+2135
+    ["" "ℵ"]
+    ;U+2135
+    ["alef symbol" "ℵ"]
+    ;U+2135
+    ["first transfinite cardinal" "ℵ"]
+    ;U+2136
+    ["" "ℶ"]
+    ;U+2136
+    ["bet symbol" "ℶ"]
+    ;U+2136
+    ["beth symbol" "ℶ"]
+    ;U+2138
+    ["" "ℸ"]
+    ;U+2138
+    ["dalet symbol" "ℸ"]
+    ;U+2138
+    ["daleth symbol" "ℸ"]
+    ;U+2145
+    ["" "ⅅ"]
+    ;U+2145
+    ["double-struck italic capital D" "ⅅ"]
+    ;U+2145
+    ["derivative symbol" "ⅅ"]
+    ;U+2146
+    ["" "ⅆ"]
+    ;U+2146
+    ["double-struck italic small d" "ⅆ"]
+    ;U+2146
+    ["differential symbol" "ⅆ"]
+    ;U+2147
+    ["" "ⅇ"]
+    ;U+2147
+    ["double-struck italic small e" "ⅇ"]
+    ;U+2147
+    ["" "ⅇ"]
+    ;U+2148
+    ["" "ⅈ"]
+    ;U+2148
+    ["double-struck italic small i" "ⅈ"]
+    ;U+2148
+    ["imaginary unit" "ⅈ"]
+    ;U+00C5
+    ["" "Å"]
+    ;U+00C5
+    ["Latin capital letter A with ring above" "Å"]
+    ;U+00C5
+    ["" "Å"]
+    ;U+212B
+    ["" "Å"]
+    ;U+212B
+    ["angstrom sign" "Å"]
+    ;U+212B
+    ["Ångström sign" "Å"]
+    ;U+213C
+    ["" "ℼ"]
+    ;U+213C
+    ["double-struck small pi" "ℼ"]
+    ;U+213C
+    ["circle constant" "ℼ"]
+    ;U+213E
+    ["" "ℾ"]
+    ;U+213E
+    ["double-struck capital Gamma" "ℾ"]
+    ;U+213E
+    ["gamma function" "ℾ"]
+    ;U+213F
+    ["" "ℿ"]
+    ;U+213F
+    ["double-struck capital Pi" "ℿ"]
+    ;U+213F
+    ["product notation" "ℿ"]
+    ;U+2140
+    ["" "⅀"]
+    ;U+2140
+    ["double-struck n-ary summation" "⅀"]
+    ;U+2140
+    ["summation notation" "⅀"]
+    ;U+2149
+    ["" "ⅉ"]
+    ;U+2149
+    ["double-struck italic small j" "ⅉ"]
+    ;U+2149
+    ["imaginary unit in physics" "ⅉ"]
+    ;U+2103
+    ["" "℃"]
+    ;U+2103
+    ["degree Celsius" "℃"]
+    ;U+2103
+    ["" "℃"]
+    ;U+2109
+    ["" "℉"]
+    ;U+2109
+    ["degree Fahrenheit" "℉"]
+    ;U+2109
+    ["" "℉"]
+    ;U+214F
+    ["" "⅏"]
+    ;U+214F
+    ["symbol for Samaritan source" "⅏"]
+    ;U+214F
+    ["" "⅏"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;; Arrows
 
     ;U+21D4
@@ -1104,26 +1858,6 @@
     ["Latin capital letter O with stroke" "Ø"]
     ;U+00D8
     ["Latin capital letter O slash" "Ø"]
-    ;U+03C6
-    ["" "φ"]
-    ;U+03C6
-    ["Greek small letter phi" "φ"]
-    ;U+03C6
-    ["" "φ"]
-    ;U+03A6
-    ["" "Φ"]
-    ;U+03A6
-    ["Greek capital letter Phi" "Φ"]
-    ;U+03A6
-    ["" "Φ"]
-    ;U+03D5
-    ["" "ϕ"]
-    ;U+03D5
-    ["Greek phi symbol" "ϕ"]
-    ;U+03D5
-    ["straight phi" "ϕ"]
-    ;U+03D5
-    ["variant phi" "ϕ"]
     ;U+00A9
     [".(C)" "©"]
     ;U+00A9
