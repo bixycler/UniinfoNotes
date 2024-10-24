@@ -175,6 +175,8 @@
         }
         nn = nn.replaceAll(/capital (\w)/g, (m,n)=>m.slice(0,-1)+n.toUpperCase());
         nn = nn.replaceAll('capital Letter', 'capital letter');
+        nn = nn.replaceAll('capital Ligature', 'capital ligature');
+        nn = nn.replaceAll('capital Inverted', 'capital inverted');
         nn = nn.replaceAll(/capital letter (\w)/g, (m,n)=>m.slice(0,-1)+n.toUpperCase());
         return nn;
     }
