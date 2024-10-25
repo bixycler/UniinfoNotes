@@ -860,7 +860,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66c87463-4f07-420a-b12e-f456154f7dc8
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a [perfect circle](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))). That means a whole is a perfect ((667d162c-16cf-44d3-81a5-29b1b885164f)).
-		- Etymology of `whole`: “Whole”, just like “healthy” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”. The prefix `holo-` has the same meaning with “whole”, but is from different root: Greek “holos” (whole, entire, complete) also meaning “safe and sound” ← Proto-Indo-European root [*sol-](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-), whole).
+		- Etymology of `whole`: “Whole”, just like “health” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”. The prefix `holo-` has the same meaning with “whole”, but is from different root: Greek “holos” (whole, entire, complete) also meaning “safe and sound” ← Proto-Indo-European root [*sol-](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-), whole).
 		- # solh₂
 		- # solh₂
 		- # solh₂
@@ -2654,7 +2654,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- related
 		  id:: 671b1669-d31e-4965-adf4-2862cbefdfa8
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by two arrows A → B and B → A, which are the solidation of the corresponding two ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by two arrows A → B and B → A, which are the [solidification](((669a58b9-8e69-43d2-9f59-fedf31bf0670))) of the corresponding two ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
 		- ((671b18a8-ac11-4930-bed3-645c0cc983a8))
 			- binary relation
 			  id:: 667d0d8e-0873-4440-a97d-b08f9405e769
@@ -2706,7 +2706,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
 			- ### solidity
 			  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
-				- Etymology of `solid`: “Solid” is from the the Proto-Indo-European root [*sol](https://www.etymonline.com/word/*sol-) meaning ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)).
+				- Etymology of `solid`: “Solid” is from the the Proto-Indo-European root [*sol](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)).
 		-
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
