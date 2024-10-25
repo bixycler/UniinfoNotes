@@ -1219,10 +1219,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  CLOCK: [2024-10-25 Fri 15:23:55]
 				  :END:
 					- The **arrow of light** is directed by a *subject*, becoming a **projection**, in the form of **view cone**.
+					  id:: 671b5623-9f23-447f-b5be-5b87e4f72f83
 					- A **transformation** is composed by *many view cones* through many eyes.
 						- ![TransformationByViewcones](https://docs.google.com/drawings/d/e/2PACX-1vQkpgx-mFPxBN8-TEgjmYe3VUhnPDxCoT62R43d3qyz5VzxJoZkZtczBrbMNN3dCEuYSoC9_dpihS0I/pub?w=320)
-					- *Transformations of various forms* are spun together into a **thread**.
-					- Some threads are *solidified* into **relations** to weave the **body** of the subject itself.
+					- A **thread** is spun by *transformations of various forms*.
+					- Some threads are *solidified* into **relations** to weave the **body** (memory, knowledge, structure) of the subject itself.
+					- The subject uses the knowledge accumulated in its body to [direct the arrow of light](((671b5623-9f23-447f-b5be-5b87e4f72f83))), and so on.
 				- Arrow of ((66723642-58f1-4a74-bba3-0108f14c6bac))ing is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
 				  collapsed:: true
 					- Development of view over time:
