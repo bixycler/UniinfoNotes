@@ -1195,7 +1195,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- look
 			  id:: 66c82fd4-41e3-43b0-b850-b2b68be68ad5
 			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) that is made by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to connect an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to an image of that object. This general projection via arrow is called ((670dd4d7-ed37-4954-8379-63138fa072d6)). That arrow can be a cone, hence ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)), or can be implemented by thread winding, hence ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s image of that object. This general projection via arrow is called ((670dd4d7-ed37-4954-8379-63138fa072d6)). That arrow can be a cone, hence ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)), or can be implemented by thread winding, hence ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
 				- In maths, a [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) is an [idempotent](https://en.wikipedia.org/wiki/Idempotence) [transformation](https://en.wikipedia.org/wiki/Transformation_(function)).
 			- ((66725725-f76a-4328-b162-f469b87e871b)) [projection (homography)](https://en.wikipedia.org/wiki/Homography) in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) and [mapping](https://en.wikipedia.org/wiki/Function_(mathematics)) in mathematics, [projective object](https://en.wikipedia.org/wiki/Projective_object) in [category theory](https://en.wikipedia.org/wiki/Category_theory)
 			  id:: 66b1cfa4-6de3-4a88-a14f-3265b6fd92e5
@@ -2308,6 +2308,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 669a58b9-b3d0-4cec-abaa-55b6260d914c
 		- types of forms
 		  id:: 66f6682b-744a-49b8-8e11-8e020fc24acc
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-09-27 Fri 15:09:57]--[2024-10-14 Mon 20:55:19] =>  413:45:22
 		  :END:
@@ -2427,6 +2428,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			  collapsed:: true
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
 				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
 				- Function/mapping/projection/light-cone is an abstraction of the flow into just 2 ends of that flow.
@@ -2469,7 +2471,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((670dd83a-3b33-4f1c-bce2-b6ab3783a1dd))
 		- transform
 		  id:: 669dd16c-1836-40ec-86e5-772f8f4774ce
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)) includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
+		  collapsed:: true
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)), as a noun, includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
 				- In maths, "transform", like [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform), [integral transform](https://en.wikipedia.org/wiki/Integral_transform), is usually a [transformation](https://en.wikipedia.org/wiki/Transformation_(function)) in [function space](https://en.wikipedia.org/wiki/Function_space), whereas "transformation", like [geometric transformation](https://en.wikipedia.org/wiki/Geometric_transformation), is usually limited to [vector space](https://en.wikipedia.org/wiki/Vector_space).
 	- ## appearance
 	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
