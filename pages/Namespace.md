@@ -38,6 +38,8 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 		  id:: 66e4299e-0af8-47ee-adae-c13fb57fd15d
 		- Examples:
 		  id:: 66725725-f76a-4328-b162-f469b87e871b
+		- Variations:
+		  id:: 671b18a8-ac11-4930-bed3-645c0cc983a8
 	- Property:
 	  id:: 66600918-67d0-429b-af78-f804ea65d9cc
 		- Form:
