@@ -1201,13 +1201,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66725725-f76a-4328-b162-f469b87e871b)) [projection (homography)](https://en.wikipedia.org/wiki/Homography) in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) and [mapping](https://en.wikipedia.org/wiki/Function_(mathematics)) in mathematics, [projective object](https://en.wikipedia.org/wiki/Projective_object) in [category theory](https://en.wikipedia.org/wiki/Category_theory)
 			  id:: 66b1cfa4-6de3-4a88-a14f-3265b6fd92e5
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) ⇒ ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) ⇒ ((667d15b7-6364-49a9-ac58-c64d2a992b63)) ⇒ ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) ⇒ ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) ⇒ ((667d0b78-fff6-49bc-90d5-165648ed56d3))
+				- ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) ⇒ ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) ⇒ ((667d15b7-6364-49a9-ac58-c64d2a992b63)) = ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) ⇒ ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) ⇒ ((667d0b78-fff6-49bc-90d5-165648ed56d3))
 				  id:: 671b5598-42a8-421d-a942-3819be212d50
 				  :LOGBOOK:
 				  CLOCK: [2024-10-25 Fri 15:23:55]
 				  :END:
 					-
-				- A ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
+				- Arrow of ((66723642-58f1-4a74-bba3-0108f14c6bac))ing is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
 					- Development of view over time:
 						- First, an `ex` object is mirrored to its `in` image.
 						  id:: 667aa63e-acc6-41b1-b716-f97a8afe41a1
