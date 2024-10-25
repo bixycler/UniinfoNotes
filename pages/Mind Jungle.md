@@ -860,7 +860,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66c87463-4f07-420a-b12e-f456154f7dc8
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a [perfect circle](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))). That means a whole is a perfect ((667d162c-16cf-44d3-81a5-29b1b885164f)).
-		- Etymology of `whole`: “Whole”, just like “healthy” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”. The prefix `holo-` has the same meaning
+		- Etymology of `whole`: “Whole”, just like “healthy” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”. The prefix `holo-` has the same meaning with “whole”, but is from different root: Greek “holos” (whole, entire, complete) also meaning “safe and sound” ← Proto-Indo-European root [*sol-](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-), whole).
+		- # solh₂
+		- # solh₂
+		- # solh₂
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
