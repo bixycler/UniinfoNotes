@@ -1208,6 +1208,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :END:
 					-
 				- Arrow of ((66723642-58f1-4a74-bba3-0108f14c6bac))ing is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
+				  collapsed:: true
 					- Development of view over time:
 						- First, an `ex` object is mirrored to its `in` image.
 						  id:: 667aa63e-acc6-41b1-b716-f97a8afe41a1
@@ -1274,6 +1275,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- cone of cause
 			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is projected to its little image, it creates a cone shape at the cone apex.
+				- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 			  collapsed:: true
