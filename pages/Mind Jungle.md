@@ -1275,7 +1275,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- cone of cause
 			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is projected to its little image, it creates a cone shape at the cone apex.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is projected to its little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the image. The direction of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is from base to apex, in opposite to the direction of viewing from apex to base.
 				- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
