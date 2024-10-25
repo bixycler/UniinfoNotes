@@ -2615,6 +2615,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f949a4-675e-4c43-8da3-f2754ba2e128))
+	- ## independent
+	  id:: 671b160c-0589-4f83-a778-a9fb4df6783a
+	  collapsed:: true
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b1616-9958-48d9-95ba-9fc8e76f2867)), ((671b1eef-0820-4e03-8e8f-e9342ca18b26))
+		- independency
+		  id:: 671b1616-9958-48d9-95ba-9fc8e76f2867
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
+		- independence
+		  id:: 671b1eef-0820-4e03-8e8f-e9342ca18b26
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An object A is ((671b160c-0589-4f83-a778-a9fb4df6783a)) from another object B when there is no ((667d0b78-fff6-49bc-90d5-165648ed56d3)) A ← B within the given scope of consideration. ((671b1616-9958-48d9-95ba-9fc8e76f2867)) is always ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to some scope of consideration, and the "absolute independency" is just the independency relative to the universal scope.
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+			- In maths: [independent variable](https://en.wikipedia.org/wiki/Dependent_and_independent_variables), [stochastically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)), [logically independent](https://en.wikipedia.org/wiki/Independence_(mathematical_logic)), [perpendicular](https://en.wikipedia.org/wiki/Perpendicular), [orthogonal](https://en.wikipedia.org/wiki/Orthogonality), [linear independence](https://en.wikipedia.org/wiki/Linear_independence), [algebraic independence](https://en.wikipedia.org/wiki/Algebraic_independence), [independent set](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)), [disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
+			- In politics: [independence](https://en.wikipedia.org/wiki/Independence), [independent city](https://en.wikipedia.org/wiki/Independent_city), [independent politician](https://en.wikipedia.org/wiki/Independent_politician), etc.
+		- ### orthogonal
+			-
 		- extension
 		  id:: 66f949a4-675e-4c43-8da3-f2754ba2e128
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
@@ -2634,6 +2650,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Example: [binary relation](https://en.wikipedia.org/wiki/Binary_relation) and [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) in Maths.
 		- ### relative
 		  id:: 66c80cbf-6626-4cb7-9b58-8ac3396e03da
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-08-23 Fri 11:15:34]
 		  :END:
@@ -2642,19 +2659,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- relativity
 			  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
-		- ### independent
-		  id:: 671b160c-0589-4f83-a778-a9fb4df6783a
-		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b1616-9958-48d9-95ba-9fc8e76f2867)), ((671b1eef-0820-4e03-8e8f-e9342ca18b26))
-			- independency
-			  id:: 671b1616-9958-48d9-95ba-9fc8e76f2867
-			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
-			- independence
-			  id:: 671b1eef-0820-4e03-8e8f-e9342ca18b26
-			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An object A is ((671b160c-0589-4f83-a778-a9fb4df6783a)) from another object B when there is no ((667d0b78-fff6-49bc-90d5-165648ed56d3)) A ← B within the given scope of consideration. ((671b1616-9958-48d9-95ba-9fc8e76f2867)) is always ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to some scope of consideration, and the "absolute independency" is just the independency relative to the universal scope.
-			- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
-				- In maths: [independent variable](https://en.wikipedia.org/wiki/Dependent_and_independent_variables), [stochastically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)), [logically independent](https://en.wikipedia.org/wiki/Independence_(mathematical_logic)), [perpendicular](https://en.wikipedia.org/wiki/Perpendicular), [orthogonal](https://en.wikipedia.org/wiki/Orthogonality), [linear independence](https://en.wikipedia.org/wiki/Linear_independence), [algebraic independence](https://en.wikipedia.org/wiki/Algebraic_independence), [independent set](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)), [disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
-				- In politics: [independence](https://en.wikipedia.org/wiki/Independence), [independent city](https://en.wikipedia.org/wiki/Independent_city), [independent politician](https://en.wikipedia.org/wiki/Independent_politician), etc.
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
