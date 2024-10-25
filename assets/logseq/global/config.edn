@@ -270,6 +270,12 @@
  :commands [
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Shorthands & special terms
+
+    ["Uniinfo" "Unïnfo"]
+
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;; Quotation Marks & Brackets
 
     ;U+2018+2019
