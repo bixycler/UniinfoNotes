@@ -889,7 +889,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## arrow
 	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [physical arrow](https://en.wikipedia.org/wiki/Arrow) [projectile](https://en.wikipedia.org/wiki/Projectile), ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is abstracted into a [symbol (→)](https://en.wikipedia.org/wiki/Arrow_(symbol)) representing many aspects of meaning, including direction "from A to B" (A → B), differentiation "B is different from A" (B ← A), relation "A is related to B" (A → B), mapping, transformation, projection, etc.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [physical arrow](https://en.wikipedia.org/wiki/Arrow) [projectile](https://en.wikipedia.org/wiki/Projectile), ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is abstracted into a [symbol (→)](https://en.wikipedia.org/wiki/Arrow_(symbol)) representing many aspects of meaning, including direction "from A to B" (A → B), differentiation "B is different from A" (B ← A), relation "A is related to B" (A → B), mapping, transformation, projection, etc. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), .
 		- Components: tail >--[body]--> head
 		  collapsed:: true
 			- concrete body
