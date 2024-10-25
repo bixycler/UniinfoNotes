@@ -1161,6 +1161,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- The physical ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) on [Earth](https://en.wikipedia.org/wiki/Earth) is called "the World", which itself is a part of the whole physical world called [Universe](https://en.wikipedia.org/wiki/Universe).
 			- A [possible world](https://en.wikipedia.org/wiki/Possible_world) in modal logic is a complete and consistent way the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) is or could have been.
+	- ## light
+	  id:: 671b6c19-7dee-4548-9154-a5eddbe870fc
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-25 Fri 16:59:59]
+	  :END:
+		-
 	- ## view
 	  id:: 66723642-58f1-4a74-bba3-0108f14c6bac
 	  collapsed:: true
