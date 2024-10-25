@@ -581,6 +581,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  to open each file in a tab.
 				- buffer
 					- Each file is associated with an editing buffer.
+					- `:e[dit] $file`
+					  to open new file in current buffer.
+						- ~~`:o[pen] $file_or_pattern`~~
+						  collapsed:: true
+						  does somehow works with relative paths but wierdly reacts with absolute paths from `~` or from root `/`.
+							- From `:help open`
+							  collapsed:: true
+								- ```
+								  :[range]o[pen]    Works like :visual: end Ex mode.
+								                    {Vi: start editing in open mode}
+								  :[range]o[pen] /pattern/        
+								                    As above, additionally move the cursor to the column
+								                    where "pattern" matches in the cursor line.
+								  Vim does not support open mode, since it's not really useful.  
+								  For those situations where ":open" would start open mode Vim will leave Ex mode, 
+								  which allows executing the same commands, but updates the whole screen instead of only one line.
+								  ```
+							- StackExchange: [What does :open do in Vim?](https://vi.stackexchange.com/a/2277)
+					- `:wa`, `:qa`, `:wqa`
+					  to write and/or quit all buffers.
 					- Each buffer can be mirrored in many ((66fe47b0-71d5-4663-bc43-d4774329a56e))s and in many ((66fe472d-cbfe-49ff-9ec1-4c1b7853895a))s.
 					- `:buffers`
 					  to list all buffers.
@@ -1914,6 +1934,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [O mark](https://en.wikipedia.org/wiki/O_mark#Unicode)
 					- Typographic [bullet point](https://en.wikipedia.org/wiki/Bullet_(typography))
 					- Linguistic [interpunct](https://en.wikipedia.org/wiki/Interpunct)
+				- Greek alphabets
+					- No CreatZy code, but [mapped](https://web.mit.edu/jmorzins/www/greek-alphabet.html) with `gre.X` for letter `X`, e.g. `η` = `êta` = `gre.ê`.
 				- Emoji
 				  id:: 6716110f-5741-4ed0-aeeb-9c150ef847a0
 				  collapsed:: true
@@ -1960,7 +1982,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `<{}"`, `<{};`, `<{}{`
 				  “double curly quotes”, «double guillemets», ⟪ ○ = ↑ ⟫
 				- `<--`, `<---`, `<---'`, `<-0`, `<-`
-				  –en-dash, —em-dash, ―quotation-dash, 123‒456, non‑breaking hyphen
+				  – en-dash, — em-dash, ― quotation-dash, 123‒456, ...(test)... non‑breaking hyphen
+				  ..................................................................(test)... versus the normal hyphen-minus
 				- `<=+-`, `<=x`, `<=%`, `<=x%`, `1/<=0 = <=8`
 				  ±, ×, ÷, ⋇, 1/∅ = ∞
 				- `</-\`, `<\-`, `</-`, `</=\`,  `</=`, `<\=`, `</|\`, `</|`, `<\|`, `</!=`, `</==`
@@ -2124,6 +2147,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- The Arrow ⟪↑⟫ here is the long and curved arrow (↝) which can be broken into many short and straight arrows ⟪↥, ↧⟫ called “vectors” where the Equation turns out to be ⟪○ = ↥ + ↧⟫.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- About the name “Trinion”
+			  id:: 6716110e-3b83-40b7-965c-3ae44547d832
 			  collapsed:: true
 				- “Trinion” = “Tri-” + “union” is the union of the three components. This puts more emphasis on _the unity of the three_, compared to other triads like the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)). This meaning is very much similar to [the “Holy Trinity”](https://en.wikipedia.org/wiki/Trinity) in theism, where “Trinity” may be considered as “Tri-” + “unity”.
 				- In the course of finding a term not to be confused with the “Holy Trinity”, the “Triad” or simply the “Three” have been considered. But then the term “Trinion” was coined to reflect the harmony of both [the Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [the Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))) as the dynamic of [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) which is not only a “[pre-existence](https://en.wikipedia.org/wiki/Pre-existence)”.
@@ -2625,6 +2649,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66ab75a1-f4a0-4bab-a002-8e573546623a
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language, and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.
 				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology).
+				  id:: 6716110e-05cf-4cda-9bbd-c47fb74eba13
 				- DOING from nondimensional blob, dot, extend, project, extract to dimensions
 				  id:: 66ab774d-91d2-4c47-8546-78bb17e7e2bf
 				  :LOGBOOK:
@@ -3624,10 +3649,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-06-11 Tue 10:35:39]
 			  CLOCK: [2024-06-11 Tue 10:36:22]--[2024-06-12 Wed 10:17:12] =>  23:40:50
 			  :END:
-				- Use the built-in feature "Export public pages".
-				  collapsed:: true
+				- Use the built-in feature `Export public pages`.
 					- Chose a **separate folder** (`$web/`) to checkout the `gh-pages` branch, then export to that folder.
 						- Warning: Don't export to the same folder with the `main` branch (`$src/`), because their contents are very different.
+						- Manually copy the whole `assets` folder from `$src/` to `$web/`
+						  id:: 6718b9ba-b96e-44b7-9f13-9acf0e8762e1
+							- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) ((666a6673-0383-471a-ac42-c77c03dd96d7))
 					- The folder `$web/` can be launched by ((6714f01d-3dd8-461c-9619-c5bac33451b0)).
 					- When `gh-pages` branch is pushed to GitHub, ((671503e5-690e-4f1f-ad53-419fd57543fe)) will deploy it to `https://$user.github.io/$repo/`.
 					- [!] The built-in publisher does not give option to set `theme-mode: light/dark` and `accent-color: blue` and it always use the default theme (`data-color=logseq`).
@@ -3635,6 +3662,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 66698fb6-d9ac-423f-845c-0f0f5c93abf2
 					- [!] The built-in publisher still cannot handle assets (embedded or linked) other than embedded image.
 					  id:: 666a6673-0383-471a-ac42-c77c03dd96d7
+					  collapsed:: true
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6718b9ba-b96e-44b7-9f13-9acf0e8762e1))
 				- CANCELLED Use [publish-SPA](https://github.com/logseq/publish-spa) GitHub Action to publish to [GitHub Pages](https://bixycler.github.io/UniinfoNotes/).
 				  collapsed:: true
 				  :LOGBOOK:

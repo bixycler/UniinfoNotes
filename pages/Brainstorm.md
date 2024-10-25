@@ -547,13 +547,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  collapsed:: true
 					- ![Pascal-Triangle-animated-binary-rows.gif](../assets/geometry/Pascal-Triangle-animated-binary-rows.gif)
 		- DOING 3 ways to extend dimensions:
+		  id:: 6716110c-1b10-41cc-9e26-c76ef782b6a3
 		  :LOGBOOK:
 		  CLOCK: [2024-08-12 Mon 08:35:03]
 		  :END:
-			- volume: S f'(x)*dx = S dy = 1 => f'(x) _|_ x
-			- radius: (dx)^2 + (dy)^2 + (dz)^2 = 1^2
-			- phase: Sc dx = epsilon (intent) = dy (extent)
-			  + CIfEr: the internal resource circle (intent) rolls against the external object circle (content), the mismatch dy is the further internal sustent circle
+			- volume: $∫ f'(x) ⋅ dx = ∫ dy = 1 ⇒ f'(x) ⊥ x$
+			- radius: $(dx)^2 + (dy)^2 + (dz)^2 = 1^2$
+			- phase: $∮ dx$ = ε (intent) = dy (extent)
+				- SCIFER: the internal resource circle (intent) rolls against the external object circle (content), the mismatch $dy$ is the further internal sustent circle
 	- mặc cảm
 	  id:: 6684f334-6db2-4e2e-8e03-d62f6ec97364
 	  collapsed:: true
@@ -1100,6 +1101,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- ((6713b016-effb-4c0a-9b29-746770b99ce6)) is related to ((66e80666-5f29-4419-8db1-bf8cdce893e4))
 	- The **choice** determines the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) and its ((6713a8e1-e460-4622-9ad6-87c804deccd8)).
 	  id:: 6714a66b-1bd2-4c9d-8ebc-2842f3095b3b
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-10-20 Sun 13:57:09]--[2024-10-20 Sun 14:46:58] =>  00:49:49
 	  :END:
@@ -1123,3 +1125,60 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Choice & responsibility is the main ethical motivation of the ((6713acf0-2eb0-423b-ac61-6f595ea12b86)).
 		  "We receive whatever we've chosen."
 		  "Gieo nhân nào gặt quả nấy."
+	- Writing styles & formats
+	  id:: 67187bb2-8a3a-4541-9f19-40e217ce7eb0
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-23 Wed 12:04:05]--[2024-10-23 Wed 15:27:28] =>  03:23:23
+	  :END:
+		- CreatZy style
+			- Quotation
+				- For quick notes, i just use the straight quotation marks `"`.
+				- For notes to be published, i use the curly quotation marks `“”`.
+				- Only the quoted material is placed inside quotation marks.
+				  id:: 67189182-7268-4579-9ef2-b16bf1f06c86
+				  I don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence.
+				- Math forms are quoted by double angle brackets, e.g. $⟪E = m⋅c^2⟫$
+			- Dialogue
+				- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
+				- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are space-separated from the text.
+		- American style for quotation
+		  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
+			- Commas `,` and periods `.` are always before the closing quote, “like this.”
+				- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only [from mid-19th century](https://style.mla.org/the-placement-of-a-comma-or-period-after-a-quotation), to make the text of [typewriter](https://en.wikipedia.org/wiki/Typewriter) [looks “neater”](https://style.mla.org/punctuation-and-quotation-marks/).
+			- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
+		- World's various styles for dialogue
+			- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
+			- For source attribution, while (em) [dash](https://en.wikipedia.org/wiki/Dash) is the most common, colon `: author` and parentheses `(from author)` are also used.
+			- References:
+				- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
+				- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
+	- Loops, springs, coils in Unicode
+	  id:: 671a3ada-40dd-4a43-8ded-532c120cfda1
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-24 Thu 19:18:10]--[2024-10-24 Thu 19:57:44] =>  00:39:34
+	  :END:
+		- Emojis
+			- ➰
+			  curly loop, scribble, squiggle
+			- ➿
+			  double curly loop, tape, cassette
+			- 🎗️
+			  reminder ribbon, awareness, cause
+			- 🌀
+			  cyclone, swirl, vortex, spiral, whirlpool, spin
+			- 🍥
+			  fish cake with swirl design, narutomaki, kamaboko, surimi
+			- ♾️
+			  infinity, forever
+		- ⅏
+		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
+		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
+			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en), ꕤ (za)
+		- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
+			- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
+		- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
+			- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
+		- Symbols
+			- Infinity: ∞, ♾

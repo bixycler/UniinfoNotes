@@ -13,23 +13,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
 				-
-				- Update `ClipboardRead.html`: reset buffer each time reading new clipboard
-				- ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
-					- DONE Add CreatZy codes to Emoji
-					  :LOGBOOK:
-					  CLOCK: [2024-10-18 Fri 19:42:38]
-					  CLOCK: [2024-10-22 Tue 10:30:30]--[2024-10-22 Tue 15:58:22] =>  05:27:52
-					  :END:
-					- DONE convert to Logseq commands
-					  :LOGBOOK:
-					  CLOCK: [2024-10-18 Fri 19:42:38]
-					  CLOCK: [2024-10-22 Tue 16:06:25]--[2024-10-22 Tue 19:08:29] =>  03:02:04
-					  :END:
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ...
 			- ------
-		-
+		- ... the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is emerging inside...
+			- ... but the time is restricted...
 		-
 		-
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
@@ -51,11 +40,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- ((669f243f-41b7-4274-b954-9824ec3ac33b))
 		-
 		-
-		- DOING ((669a1bec-3347-4915-83e4-dcffc4d482d1))
-		  :LOGBOOK:
-		  CLOCK: [2024-07-22 Mon 09:57:18]
-		  CLOCK: [2024-07-22 Mon 09:57:20]
-		  :END:
 		- WAIT Add to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) various types of [extending dimensions](((667d202e-f401-46ba-ab32-c4fd77b49ab1))).
 		  :LOGBOOK:
 		  CLOCK: [2024-06-28 Fri 08:11:13]
@@ -159,7 +143,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  }
 					  ```
 		-
-		- TODO Auto-complete & typing assistant for **quotation marks**, symbols...
 		- TODO Backup & republish my contents on Facebook
 		  collapsed:: true
 			- Some of the fb posts have been migrated to the blog [CreatZy Notes](https://creatzynotes.blogspot.com/).
@@ -592,4 +575,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-06-23 Sun 16:26:28]
 		  CLOCK: [2024-10-20 Sun 20:15:42]--[2024-10-21 Mon 00:02:20] =>  03:46:38
 		  :END:
+		- DONE ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols... 
+		  using ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		- ...
