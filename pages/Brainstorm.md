@@ -662,7 +662,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- center = form = center of mass = concentration of the whole body (circle), not only the abstract central point
 		- radius = constraint of circumference via the center = all-scale constraint (r := 0..R), not only between 2 points 0 & R = rubber band constraint = ujjayi breath = backtracking thread
 		  id:: 66faa5f8-f05b-4d1d-8827-60a98bdda4a6
-		- The quality of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is roundness vs quantity of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is the length of thread.
+		- The quality of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is roundness vs quantity of ((671b4cb2-ca87-4e90-89ae-49cebeb573e0)) is the length of thread.
 		  id:: 669dcbc4-6274-484e-bd26-b06157ee8cca
 		  :LOGBOOK:
 		  CLOCK: [2024-07-22 Mon 10:04:03]

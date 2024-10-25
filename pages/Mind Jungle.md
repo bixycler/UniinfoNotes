@@ -860,7 +860,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66c87463-4f07-420a-b12e-f456154f7dc8
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a [perfect circle](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))). That means a whole is a perfect ((667d162c-16cf-44d3-81a5-29b1b885164f)).
-		- Etymology of `whole`: “Whole”, just like “health” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”. The prefix `holo-` has the same meaning with “whole”, but is from different root: Greek “holos” (whole, entire, complete) also meaning “safe and sound” ← Proto-Indo-European root [*sol-](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-), whole).
+		- Etymology of `whole`: “Whole”, just like “health” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”. The prefix `holo-` has the same meaning with “whole”, but is from a different root: Greek “holos” (whole, entire, complete) also meaning “safe and sound” ← Proto-Indo-European root [*sol-](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning “whole”.
 		- # solh₂
 		- # solh₂
 		- # solh₂
@@ -2427,7 +2427,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			  collapsed:: true
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
 				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
 				- Function/mapping/projection/light-cone is an abstraction of the flow into just 2 ends of that flow.
@@ -2654,7 +2653,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- related
 		  id:: 671b1669-d31e-4965-adf4-2862cbefdfa8
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by two arrows A → B and B → A, which are the [solidification](((669a58b9-8e69-43d2-9f59-fedf31bf0670))) of the corresponding two ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by two arrows A → B and B → A, which are the ((671b4d84-1187-4b5c-8592-3d0db462069b)) of the corresponding two ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
 		- ((671b18a8-ac11-4930-bed3-645c0cc983a8))
 			- binary relation
 			  id:: 667d0d8e-0873-4440-a97d-b08f9405e769
@@ -2704,8 +2703,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Ōṁ-thread [Ω,ॐ], One-thread [Ω,𝟙], Omni-thread or Overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
-			- ### solidity
+			- ### solid
 			  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
+			  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b4cb2-ca87-4e90-89ae-49cebeb573e0))
+			  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671b4d62-4337-4557-809c-8693593f1260))
+				- solidity
+				  id:: 671b4cb2-ca87-4e90-89ae-49cebeb573e0
+				  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
+				- solidify
+				  id:: 671b4d62-4337-4557-809c-8693593f1260
+				  collapsed:: true
+				  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
+				  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b4d84-1187-4b5c-8592-3d0db462069b))
+					- solidification
+					  id:: 671b4d84-1187-4b5c-8592-3d0db462069b
+					  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b4d62-4337-4557-809c-8693593f1260))
 				- Etymology of `solid`: “Solid” is from the the Proto-Indo-European root [*sol](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)).
 		-
 	- ## Universal Thread
