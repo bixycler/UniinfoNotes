@@ -2701,6 +2701,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
 			- ### solidity
 			  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
+				- Etimology of `solid`: “Solid” is from the the Proto-Indo-European root [*sol](https://www.etymonline.com/word/*sol-) meaning
 		-
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
