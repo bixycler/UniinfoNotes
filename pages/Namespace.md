@@ -93,6 +93,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 				  id:: 6699ea73-dc77-4227-a293-b501f2eb1759
 			- Whole:
 			  id:: 6699e5f2-7788-46c7-8233-87699a65ca30
+			  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
 				- Complementary components:
 				  id:: 6699eb54-ce9e-4472-a784-c59ffd47f02b
 	- Website:
