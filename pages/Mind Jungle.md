@@ -2623,7 +2623,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 667d0b78-fff6-49bc-90d5-165648ed56d3
 	  collapsed:: true
 	  ((665ca48e-f7c1-4541-b5cf-486d86b02997)) ((66600918-367c-413c-863d-2cf11a89c437))
-	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((671b1669-d31e-4965-adf4-2862cbefdfa8)), ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+		- related
+		  id:: 671b1669-d31e-4965-adf4-2862cbefdfa8
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by an arrow A -> B. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
 		- Variations:
 			- binary relation
@@ -2631,7 +2634,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Example: [binary relation](https://en.wikipedia.org/wiki/Binary_relation) and [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) in Maths.
 		- ### relative
 		  id:: 66c80cbf-6626-4cb7-9b58-8ac3396e03da
-		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-08-23 Fri 11:15:34]
 		  :END:
@@ -2640,6 +2642,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- relativity
 			  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+		- ### independent
+		  id:: 671b160c-0589-4f83-a778-a9fb4df6783a
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b1616-9958-48d9-95ba-9fc8e76f2867))
+			- independency
+			  id:: 671b1616-9958-48d9-95ba-9fc8e76f2867
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
