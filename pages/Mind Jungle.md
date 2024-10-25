@@ -1195,7 +1195,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- look
 			  id:: 66c82fd4-41e3-43b0-b850-b2b68be68ad5
 			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s image of that object. This general projection via arrow is called ((670dd4d7-ed37-4954-8379-63138fa072d6)). That arrow can be a cone, hence ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)), or can be implemented by thread winding, hence ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s image of that object. Projection is a special kind of ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) where the target form (image) is more ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) than the source form (object). This general projection via arrow is called ((670dd4d7-ed37-4954-8379-63138fa072d6)). That arrow can be a cone, hence ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)), or can be implemented by thread winding, hence ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
 				- In maths, a [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) is an [idempotent](https://en.wikipedia.org/wiki/Idempotence) [transformation](https://en.wikipedia.org/wiki/Transformation_(function)).
 			- ((66725725-f76a-4328-b162-f469b87e871b)) [projection (homography)](https://en.wikipedia.org/wiki/Homography) in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) and [mapping](https://en.wikipedia.org/wiki/Function_(mathematics)) in mathematics, [projective object](https://en.wikipedia.org/wiki/Projective_object) in [category theory](https://en.wikipedia.org/wiki/Category_theory)
 			  id:: 66b1cfa4-6de3-4a88-a14f-3265b6fd92e5
@@ -2427,6 +2427,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Links: [fb post in Nov 2023](https://www.facebook.com/lexuandinhct/videos/728404692637310), [GeoGebra applet](https://www.geogebra.org/m/j7czr4s5)
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a source ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a target form.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			  collapsed:: true
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
