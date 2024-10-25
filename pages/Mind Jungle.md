@@ -1215,6 +1215,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((671b6f87-7492-4eab-af49-e3c89bc8c860)) ⇒ ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) ⇒ ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) ⇒ ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) ⇒ ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) ⇒ ((667d0b78-fff6-49bc-90d5-165648ed56d3)) ⇒ ((66c810a0-9861-4787-bdcf-1378219332be))
 				  id:: 671b5598-42a8-421d-a942-3819be212d50
+				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-10-25 Fri 15:23:55]
 				  :END:
@@ -1237,7 +1238,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
 							- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
 						- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
-				-
 			- arrow projection
 			  id:: 670dd4d7-ed37-4954-8379-63138fa072d6
 			  the most general type of projection.
@@ -2697,6 +2697,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Example: [binary relation](https://en.wikipedia.org/wiki/Binary_relation) and [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) in Maths.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- DOING ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) = ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a view into a ((667d162c-16cf-44d3-81a5-29b1b885164f)) = compression = phase distinction in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) winding
+			  id:: 671b29b6-68f7-47e1-b79c-f4d6284690a2
 			  :LOGBOOK:
 			  CLOCK: [2024-10-25 Fri 12:16:46]
 			  CLOCK: [2024-10-25 Fri 12:17:20]
