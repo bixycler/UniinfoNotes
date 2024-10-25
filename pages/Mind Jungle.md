@@ -2615,6 +2615,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f949a4-675e-4c43-8da3-f2754ba2e128))
+		- extension
+		  id:: 66f949a4-675e-4c43-8da3-f2754ba2e128
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of "the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))": the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), etc. Note that the semantical "extension" here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
 	- ## independent
 	  id:: 671b160c-0589-4f83-a778-a9fb4df6783a
 	  collapsed:: true
@@ -2630,11 +2634,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In maths: [independent variable](https://en.wikipedia.org/wiki/Dependent_and_independent_variables), [stochastically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)), [logically independent](https://en.wikipedia.org/wiki/Independence_(mathematical_logic)), [perpendicular](https://en.wikipedia.org/wiki/Perpendicular), [orthogonal](https://en.wikipedia.org/wiki/Orthogonality), [linear independence](https://en.wikipedia.org/wiki/Linear_independence), [algebraic independence](https://en.wikipedia.org/wiki/Algebraic_independence), [independent set](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)), [disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
 			- In politics: [independence](https://en.wikipedia.org/wiki/Independence), [independent city](https://en.wikipedia.org/wiki/Independent_city), [independent politician](https://en.wikipedia.org/wiki/Independent_politician), etc.
 		- ### orthogonal
-			-
-		- extension
-		  id:: 66f949a4-675e-4c43-8da3-f2754ba2e128
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of "the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))": the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), etc. Note that the semantical "extension" here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
+		  id:: 671b206e-c50c-47b0-903d-73e97d512d13
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747))
+			- orthogonality
+			  id:: 671b27ce-a9c8-48d7-b0b5-e056484a6747
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b206e-c50c-47b0-903d-73e97d512d13))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747)) is a special kind of ((671b1616-9958-48d9-95ba-9fc8e76f2867)).
 	- ## relation
 	  id:: 667d0b78-fff6-49bc-90d5-165648ed56d3
 	  collapsed:: true
