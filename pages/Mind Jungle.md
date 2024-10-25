@@ -2650,7 +2650,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An object A is ((671b160c-0589-4f83-a778-a9fb4df6783a)) from another object B when there is no ((667d0b78-fff6-49bc-90d5-165648ed56d3)) A ← B within the given scope of consideration. ((671b1616-9958-48d9-95ba-9fc8e76f2867)) is always ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to some scope of consideration, and the "absolute independency" is just the independency relative to the universal scope.
 			- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
-				- In maths: [independent variable](https://en.wikipedia.org/wiki/Dependent_and_independent_variables), [stochastically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)), [logically independent](https://en.wikipedia.org/wiki/Independence_(mathematical_logic)), [perpendicular](https://en.wikipedia.org/wiki/Perpendicular), [orthogonal](https://en.wikipedia.org/wiki/Orthogonality)
+				- In maths: [independent variable](https://en.wikipedia.org/wiki/Dependent_and_independent_variables), [stochastically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)), [logically independent](https://en.wikipedia.org/wiki/Independence_(mathematical_logic)), [perpendicular](https://en.wikipedia.org/wiki/Perpendicular), [orthogonal](https://en.wikipedia.org/wiki/Orthogonality), [disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
