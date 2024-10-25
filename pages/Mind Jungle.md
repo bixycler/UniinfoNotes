@@ -889,7 +889,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## arrow
 	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [physical arrow](https://en.wikipedia.org/wiki/Arrow) [projectile](https://en.wikipedia.org/wiki/Projectile), ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is abstracted into a [symbol (→)](https://en.wikipedia.org/wiki/Arrow_(symbol)) representing many aspects of meaning, including direction "from A to B" (A → B), differentiation "B is different from A" (B ← A), relation "A is related to B" (A → B), mapping, transformation, projection, etc. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), .
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [physical arrow](https://en.wikipedia.org/wiki/Arrow) [projectile](https://en.wikipedia.org/wiki/Projectile), ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is abstracted into a [symbol (→)](https://en.wikipedia.org/wiki/Arrow_(symbol)) representing many aspects of meaning, including direction "from A to B" (A → B), differentiation "B is different from A" (B ← A), relation "A is related to B" (A → B), mapping, transformation, projection, etc.
 		- Components: tail >--[body]--> head
 		  collapsed:: true
 			- concrete body
@@ -1213,12 +1213,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66725725-f76a-4328-b162-f469b87e871b)) [projection (homography)](https://en.wikipedia.org/wiki/Homography) in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) and [mapping](https://en.wikipedia.org/wiki/Function_(mathematics)) in mathematics, [projective object](https://en.wikipedia.org/wiki/Projective_object) in [category theory](https://en.wikipedia.org/wiki/Category_theory)
 			  id:: 66b1cfa4-6de3-4a88-a14f-3265b6fd92e5
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) ⇒ ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) ⇒ ((667d15b7-6364-49a9-ac58-c64d2a992b63)) = ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) ⇒ ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) ⇒ ((667d0b78-fff6-49bc-90d5-165648ed56d3))
+				- ((671b6f87-7492-4eab-af49-e3c89bc8c860)) ⇒ ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) ⇒ ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) ⇒ ((667d15b7-6364-49a9-ac58-c64d2a992b63)) = ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) ⇒ ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) ⇒ ((667d0b78-fff6-49bc-90d5-165648ed56d3))
 				  id:: 671b5598-42a8-421d-a942-3819be212d50
 				  :LOGBOOK:
 				  CLOCK: [2024-10-25 Fri 15:23:55]
 				  :END:
-					-
+					- The **arrow of light** is directed by a subject to a projection in the
 				- Arrow of ((66723642-58f1-4a74-bba3-0108f14c6bac))ing is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
 				  collapsed:: true
 					- Development of view over time:
@@ -2711,7 +2711,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) can be seen as a sequence of ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) ((667d15b7-6364-49a9-ac58-c64d2a992b63))s, and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply "threads". Threads are spun from ((671b6c19-7dee-4548-9154-a5eddbe870fc)) just like yarns spun from fibers.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) can be seen as a sequence of ((671b6f87-7492-4eab-af49-e3c89bc8c860)), and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. Threads are spun from ((671b6c19-7dee-4548-9154-a5eddbe870fc)) just like yarns are spun from fibers.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [execution thread](https://en.wikipedia.org/wiki/Thread_(computing)), [conversation thread](https://en.wikipedia.org/wiki/Thread_(online_communication)), [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), [screw thread](https://en.wikipedia.org/wiki/Screw_thread), [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic))
 		  id:: 66b1cfa4-6ce7-447b-b637-30d86f0e748e
 		- Vietnamese: sợi, mạch
