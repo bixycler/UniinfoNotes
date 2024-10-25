@@ -2661,6 +2661,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-10-25 Fri 12:17:20]
 			  :END:
 				- The size of particle = resolution of the screen
+				- ((670cdcb4-3c85-45af-8c30-3c3284ed37df)) = memory of time by mapping the mixed up particles on screen to the linear order of particles in temporal memory
 		- ### relative
 		  id:: 66c80cbf-6626-4cb7-9b58-8ac3396e03da
 		  collapsed:: true
