@@ -1195,7 +1195,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  > There's no true/absolute vacuum!
 			  > Không có chân không tuyệt đối!
 			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
-			- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the “*thin air*” of content fills up the empty space of awareness, how it condenses into fluid and then crystalizes into solid of form.
+			- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the “*thin air*” of ((6678288e-699b-4325-bdba-bf6349fe0d57)) fills up the empty space of ((66f267f7-01f9-47b9-8376-abd27fdf2930)), how it condenses into fluid and then crystalizes into solid of ((665ca429-84e3-49ff-921e-c07d19cd99ba)).
 		- Etymology
 			- Seems that “into thin air” was [popularized by Shakespeare](https://en.wiktionary.org/wiki/into_thin_air#Etymology) first (1500s), then “out of thin air” came later (1830s) as an opposite.
 			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
