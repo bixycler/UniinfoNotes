@@ -1182,3 +1182,4 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
 		- Symbols
 			- Infinity: ∞, ♾
+	- “Out of thin air”
