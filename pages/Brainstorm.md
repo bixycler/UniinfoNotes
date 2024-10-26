@@ -1193,6 +1193,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  > The antonym, into thin air, has been used since at least the 1500s. Out of thin air has been used since at least the 1830s.
 			  > Thin air, in this idiom, refers to the air in the upper reaches of the atmosphere, a location that was mysterious and unknown at the time this idiom originated.
 			- The Tempest > [Act 4 > Scene 1](https://www.folger.edu/explore/shakespeares-works/the-tempest/read/4/1/)
+			  collapsed:: true
 				- Prospero releases Ferdinand and gives him Miranda as his bride-to-be. To celebrate the prospect of their union, _Prospero instructs Ariel to have **the spirits** under Prospero’s control perform a masque_. During the masque, Prospero remembers the threat posed by Caliban and stops the masque...
 				- PROSPERO 
 				  > I had forgot that foul conspiracy
