@@ -1192,7 +1192,40 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
 			  > The antonym, into thin air, has been used since at least the 1500s. Out of thin air has been used since at least the 1830s.
 			  > Thin air, in this idiom, refers to the air in the upper reaches of the atmosphere, a location that was mysterious and unknown at the time this idiom originated.
-			- The Tempest > Act 4 > scene 1
-				- Prospero releases Ferdinand and gives him Miranda as his bride-to-be. To celebrate the prospect of their union, _Prospero instructs Ariel to have **the spirits** under Prospero’s control perform a masque_...
+			- The Tempest > [Act 4 > Scene 1](https://www.folger.edu/explore/shakespeares-works/the-tempest/read/4/1/)
+				- Prospero releases Ferdinand and gives him Miranda as his bride-to-be. To celebrate the prospect of their union, _Prospero instructs Ariel to have **the spirits** under Prospero’s control perform a masque_. During the masque, Prospero remembers the threat posed by Caliban and stops the masque...
+				- PROSPERO 
+				  > I had forgot that foul conspiracy
+				   Of the beast Caliban and his confederates
+				   Against my life. The minute of their plot
+				   Is almost come.—Well done. Avoid. No more.
+				  
+				  *To a strange, hollow, and confused noise,
+				  ⌜the spirits⌝ heavily vanish.*
+				- FERDINAND, *⌜to Miranda⌝* 
+				  > This is strange. Your father’s in some passion
+				   That works him strongly.
+				- MIRANDA   
+				  > Never till this day
+				   Saw I him touched with anger, so distempered.
+				- PROSPERO*, ⌜to Ferdinand⌝* 
+				  > You do look, my son, in a moved sort,
+				  As if you were dismayed. Be cheerful, sir.
+				  Our revels now are ended. These our actors,
+				   As I foretold you, were all spirits and
+				   Are melted into air, **into thin air**;
+				   And like the baseless fabric of this vision,
+				   The cloud-capped towers, the gorgeous palaces,
+				  The solemn temples, the great globe itself,
+				   Yea, all which it inherit, shall dissolve,
+				   And, like this insubstantial pageant faded,
+				   Leave not a rack behind. We are such stuff
+				   As dreams are made on, and our little life
+				  Is rounded with a sleep. Sir, I am vexed.
+				   Bear with my weakness. My old brain is troubled.
+				   Be not disturbed with my infirmity.
+				   If you be pleased, retire into my cell
+				   And there repose. A turn or two I’ll walk
+				  To still my beating mind.
 			- [What is the origin of the phrase "Into thin air"](https://english.stackexchange.com/questions/618149/what-is-the-origin-of-the-phrase-into-thin-air)
 			- https://medium.com/@rayjhawk/out-of-thin-air-f7d4b01152cf
