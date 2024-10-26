@@ -1187,6 +1187,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  collapsed:: true
 		- It's not “out of nothing” (*ex nihilo*), but “*out of thin air*” is the correct expression of the nature of emergence, simply because “nothing is formed out of nothing” (*ex nihilo nihil fit*).
 		- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air, the gravitational field.
+		- History
+			- When reviewing for entrance exam to university, i uttered:
+			  > There's no true/absolute vacuum!
+			  > Không có chân không tuyệt đối!
+			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is no empty, and the śūnyatā
 		- Etymology
 			- Seems that “into thin air” was [popularized by Shakespeare](https://en.wiktionary.org/wiki/into_thin_air#Etymology) first (1500s), then “out of thin air” came later (1830s) as an opposite.
 			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
@@ -1237,3 +1242,4 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Out of thin air:** This is the most commonly used phrase in everyday English conversation.
 				- **Out of nothing:** This phrase is also quite common, but slightly less so than "out of thin air."
 				- **Ex nihilo:** This Latin phrase is less common in everyday conversation, but it's often used in philosophical and academic contexts.
+		- Chat with Gemini: [Latin for "Out of Thin Air"](https://gemini.google.com/app/182417258903bcd9)
