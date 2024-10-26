@@ -1192,5 +1192,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
 			  > The antonym, into thin air, has been used since at least the 1500s. Out of thin air has been used since at least the 1830s.
 			  > Thin air, in this idiom, refers to the air in the upper reaches of the atmosphere, a location that was mysterious and unknown at the time this idiom originated.
+			- The Tempest > Act 4 > scene 1
+				- Prospero releases Ferdinand and gives him Miranda as his bride-to-be. To celebrate the prospect of their union, _Prospero instructs Ariel to have **the spirits** under Prospero’s control perform a masque_...
 			- [What is the origin of the phrase "Into thin air"](https://english.stackexchange.com/questions/618149/what-is-the-origin-of-the-phrase-into-thin-air)
 			- https://medium.com/@rayjhawk/out-of-thin-air-f7d4b01152cf
