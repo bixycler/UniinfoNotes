@@ -1187,5 +1187,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  collapsed:: true
 		- It's not “out of nothing” (*ex nihilo*), but “*out of thin air*” is the correct expression of the nature of emergence, simply because “nothing is formed out of nothing” (*ex nihilo nihil fit*).
 		- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air, the gravitational field.
-		- [What is the origin of the phrase "Into thin air"](https://english.stackexchange.com/questions/618149/what-is-the-origin-of-the-phrase-into-thin-air)
-		- https://medium.com/@rayjhawk/out-of-thin-air-f7d4b01152cf
+		- Etymology
+			- Seems that “into thin air” was [popularized by Shakespeare](https://en.wiktionary.org/wiki/into_thin_air#Etymology) first (1500s), then “out of thin air” came later (1830s) as an opposite.
+			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
+			  > The antonym, into thin air, has been used since at least the 1500s. Out of thin air has been used since at least the 1830s.
+			  > Thin air, in this idiom, refers to the air in the upper reaches of the atmosphere, a location that was mysterious and unknown at the time this idiom originated.
+			- [What is the origin of the phrase "Into thin air"](https://english.stackexchange.com/questions/618149/what-is-the-origin-of-the-phrase-into-thin-air)
+			- https://medium.com/@rayjhawk/out-of-thin-air-f7d4b01152cf
