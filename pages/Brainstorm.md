@@ -1182,4 +1182,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
 		- Symbols
 			- Infinity: ∞, ♾
-	- “Out of thin air”
+	- “*Out of thin air*”
+	  id:: 671d06ba-cb96-4424-9bee-4e6327ba7f9d
+	  collapsed:: true
+		- It's not “out of nothing” (*ex nihilo*), but “*out of thin air*” is the correct expression of the nature of emergence, simply because “nothing is formed out of nothing” (*ex nihilo nihil fit*).
+		- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air, the gravitational field.
+		- [What is the origin of the phrase "Into thin air"](https://english.stackexchange.com/questions/618149/what-is-the-origin-of-the-phrase-into-thin-air)
+		- https://medium.com/@rayjhawk/out-of-thin-air-f7d4b01152cf
