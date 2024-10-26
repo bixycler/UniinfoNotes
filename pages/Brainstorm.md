@@ -1218,7 +1218,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- MIRANDA   
 				  > Never till this day
 				   Saw I him touched with anger, so distempered.
-				- PROSPERO*, ⌜to Ferdinand⌝* 
+				- PROSPERO, *⌜to Ferdinand⌝* 
 				  > You do look, my son, in a moved sort,
 				  As if you were dismayed. Be cheerful, sir.
 				  Our revels now are ended. These our actors,
