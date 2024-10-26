@@ -1230,3 +1230,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  To still my beating mind.
 			- [What is the origin of the phrase "Into thin air"](https://english.stackexchange.com/questions/618149/what-is-the-origin-of-the-phrase-into-thin-air)
 			- https://medium.com/@rayjhawk/out-of-thin-air-f7d4b01152cf
+		- Usage frequency
+			- By Google's Books Ngram Viewer, in per 100,000: "ex nihilo" ~ 3-4, "out of nothing" ~ 4.5-5.5, "out of thin air" ~ 1.2-2
+			- By Gemini's experience about : "out of thin air", "out of nothing" and "ex nihilo"
