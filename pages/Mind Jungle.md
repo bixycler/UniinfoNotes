@@ -1948,6 +1948,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Only 4 characters: [ㅱ](https://ko.wikipedia.org/wiki/%E3%85%B1) , [ㅸ](https://ko.wikipedia.org/wiki/%E3%85%B8) , [ㅹ](https://ko.wikipedia.org/wiki/%E3%85%B9) , and [ㆄ](https://ko.wikipedia.org/wiki/%E3%86%84)
 								- [Hunminjeongeum's Sungyeongeum](https://en.namu.wiki/w/%EC%88%9C%EA%B2%BD%EC%9D%8C)
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((67174db9-a20b-45ef-94ec-0febf56f60f8))
+						  collapsed:: true
 				- [HTML Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) = [character reference](https://developer.mozilla.org/en-US/docs/Glossary/Character_reference)
 				  id:: 6716110f-c249-4ff9-b564-ddc2c71b89ba
 				  collapsed:: true
@@ -2158,7 +2159,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
 						- ![Escher - Drawing Hands - 1946.jpg](../assets/Uniinfo/Escher - Drawing Hands - 1946.jpg){:width 200, :height 150}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- The Sanskrit word “śūnyatā” and the Chinese characters “空”, “無” are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
+				- The Sanskrit word “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” and the Chinese characters “空”, “無” are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
 				  id:: 66f3ee6f-9f62-4f7f-ad00-34f5d4b0c800
 					- > “Non-action but nothing is not done!”
 					  「無為而無不為。」
@@ -2473,6 +2474,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a source ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a target form.
+			  collapsed:: true
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
 				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
@@ -3741,6 +3743,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-06-11 Tue 10:36:22]--[2024-06-12 Wed 10:17:12] =>  23:40:50
 			  :END:
 				- Use the built-in feature `Export public pages`.
+				  collapsed:: true
 					- Chose a **separate folder** (`$web/`) to checkout the `gh-pages` branch, then export to that folder.
 						- Warning: Don't export to the same folder with the `main` branch (`$src/`), because their contents are very different.
 						- Manually copy the whole `assets` folder from `$src/` to `$web/`
