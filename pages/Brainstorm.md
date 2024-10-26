@@ -1185,13 +1185,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- “*Out of thin air*”
 	  id:: 671d06ba-cb96-4424-9bee-4e6327ba7f9d
 	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-26 Sat 23:43:15]
+	  :END:
 		- ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)): It's not “out of nothing” (*ex nihilo*), but “*out of thin air*” is the correct expression of the nature of emergence, simply because “nothing is formed out of nothing” (*ex nihilo nihil fit*).
 		- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air, the gravitational field.
 		- History
 			- When reviewing for entrance exam to university, i uttered:
 			  > There's no true/absolute vacuum!
 			  > Không có chân không tuyệt đối!
-			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is no empty, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
+			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
+			- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the “*thin air*” of content fills up the empty space of awareness, how it condenses into fluid and then crystalizes into solid of form.
 		- Etymology
 			- Seems that “into thin air” was [popularized by Shakespeare](https://en.wiktionary.org/wiki/into_thin_air#Etymology) first (1500s), then “out of thin air” came later (1830s) as an opposite.
 			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
