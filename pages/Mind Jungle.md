@@ -883,14 +883,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66e43b94-9183-4d49-af85-8a7a1c194c12)) is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) so that it has no ((66e42a2d-deb3-46dd-b477-94196a5d2d6f)), e.g. the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of a circle, through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) whose base is the original circle and apex is the resulting point. While the quantity (magnitude) of the circle is abstracted, its quality is still preserved in the point, as an identifier of the circle, via its connection with the circle through the viewcone. When the viewcone is further abstracted away, the resulting image of that point on the screen is a ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)) which is an abstraction of the original circle's ((66e426ec-d29b-4614-932b-2c70693790d7)).
 			- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the term “point” is preserved only for the apex or vertex which must be the abstraction or intersection of other larger forms, while the separated, isolated ((671dfbf3-c985-463f-9a1d-3e3994fbdb62)) is called “dot”. Literally, when the tip of a pen, i.e. *pen “point”*, touches the paper, a “dot” is created as an image of that point.
-			- ![pen-point-dot.png](../assets/Uniinfo/pen-point-dot.png){:width 300}
+			  collapsed:: true
+				- ![pen-point-dot.png](../assets/Uniinfo/pen-point-dot.png){:width 300}
+			- Another feature of point and dot in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) different from the ((671dfbf3-c985-463f-9a1d-3e3994fbdb62)) is that they need not to be zero-dimensional with zero
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
 			- dot
 			  id:: 66e43ebf-bbaa-4bfc-9601-a5ee40398677
 			  image of point on screen
 			- geometric point
 			  id:: 671dfbf3-c985-463f-9a1d-3e3994fbdb62
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From [vertex point](https://en.wikipedia.org/wiki/Vertex_(geometry)), which is original ((66e43b94-9183-4d49-af85-8a7a1c194c12)), “[point]((https://en.wikipedia.org/wiki/Point_(geometry)))” in geometry has been abstracted to isolated ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)) on the screen.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From [vertex point](https://en.wikipedia.org/wiki/Vertex_(geometry)), which is original ((66e43b94-9183-4d49-af85-8a7a1c194c12)), “[point](https://en.wikipedia.org/wiki/Point_(geometry))” in geometry has been abstracted to the isolated ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)) on the screen.
+		-
 	- ## arrow
 	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
 	  collapsed:: true
