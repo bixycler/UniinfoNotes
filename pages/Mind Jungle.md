@@ -881,13 +881,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## point
 	  id:: 66e43b94-9183-4d49-af85-8a7a1c194c12
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66e43b94-9183-4d49-af85-8a7a1c194c12)) is an abstraction of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) so that it has no ((66e42a2d-deb3-46dd-b477-94196a5d2d6f)) and its ((66e426ec-d29b-4614-932b-2c70693790d7)) is abstracted into a single id denoted by a ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)). That dot is the image of the original circle projected onto the screen, and the point is the apex of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66e43b94-9183-4d49-af85-8a7a1c194c12)) is an abstraction of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) so that it has no ((66e42a2d-deb3-46dd-b477-94196a5d2d6f)) and its ((66e426ec-d29b-4614-932b-2c70693790d7)) is abstracted into a single id denoted by a ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)). That dot is the image of the original circle projected onto the screen through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), and the point is the apex of the viewcone. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the term “point” is preserved only for the apex or vertex which is just the intersection, the abstraction of other larger forms, while the separated, isolated ((671dfbf3-c985-463f-9a1d-3e3994fbdb62)) is called “dot”.
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
 			- dot
 			  id:: 66e43ebf-bbaa-4bfc-9601-a5ee40398677
 			  image of point on screen
-			- [geometric point](https://en.wikipedia.org/wiki/Point_(geometry))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From [vertex point](https://en.wikipedia.org/wiki/Vertex_(geometry)), which is true ((66e43b94-9183-4d49-af85-8a7a1c194c12)), “point” in geometry has been abstracted to isolated
+			- geometric point
+			  id:: 671dfbf3-c985-463f-9a1d-3e3994fbdb62
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From [vertex point](https://en.wikipedia.org/wiki/Vertex_(geometry)), which is original ((66e43b94-9183-4d49-af85-8a7a1c194c12)), “[point]((https://en.wikipedia.org/wiki/Point_(geometry)))” in geometry has been abstracted to isolated ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)) on the screen.
 	- ## arrow
 	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
 	  collapsed:: true
