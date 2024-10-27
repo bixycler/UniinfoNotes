@@ -886,6 +886,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- dot
 			  id:: 66e43ebf-bbaa-4bfc-9601-a5ee40398677
 			  image of point on screen
+			- [geometric point](https://en.wikipedia.org/wiki/Point_(geometry))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From [vertex point](https://en.wikipedia.org/wiki/Vertex_(geometry)), which is true ((66e43b94-9183-4d49-af85-8a7a1c194c12)), “point” in geometry has been abstracted to isolated
 	- ## arrow
 	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
 	  collapsed:: true
