@@ -1116,7 +1116,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### qualiton
 		  id:: 671e0fcc-37b6-4f03-8e87-8923422ca8e0
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)). The qualiton not only carries and sustains quality, but also applies that quality to ((671e0f99-c35c-45f3-9f80-4d9cf00063de))s to activate them into living qualions. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is an a qualiton of electricity which is an activated quantum
 				- Etymology: qualiton = [quality](https://www.etymonline.com/word/quality) + [-on](https://www.etymonline.com/word/-on)
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
