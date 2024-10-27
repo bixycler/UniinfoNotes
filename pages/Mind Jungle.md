@@ -2306,6 +2306,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Universe
+	- ## solid
+	  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
+	  collapsed:: true
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b4cb2-ca87-4e90-89ae-49cebeb573e0))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671b4d62-4337-4557-809c-8693593f1260))
+		- solidity
+		  id:: 671b4cb2-ca87-4e90-89ae-49cebeb573e0
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
+		- solidify
+		  id:: 671b4d62-4337-4557-809c-8693593f1260
+		  collapsed:: true
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b4d84-1187-4b5c-8592-3d0db462069b))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((671e25e5-1cf2-467f-bac5-a9901c3c265f))
+			- solidification
+			  id:: 671b4d84-1187-4b5c-8592-3d0db462069b
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b4d62-4337-4557-809c-8693593f1260))
+			- freeze
+			  id:: 671e25e5-1cf2-467f-bac5-a9901c3c265f
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((671b4d62-4337-4557-809c-8693593f1260))
+		- Etymology of `solid`: “Solid” is from the the Proto-Indo-European root [*sol](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)).
 	- ## glass
 	  id:: 66537c37-2d4a-4077-9fcf-45c71755c876
 	  collapsed:: true
@@ -2770,22 +2791,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Ōṁ-thread [Ω,ॐ], One-thread [Ω,𝟙], Omni-thread or Overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
-			- ### solid
-			  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
-			  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b4cb2-ca87-4e90-89ae-49cebeb573e0))
-			  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671b4d62-4337-4557-809c-8693593f1260))
-				- solidity
-				  id:: 671b4cb2-ca87-4e90-89ae-49cebeb573e0
-				  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
-				- solidify
-				  id:: 671b4d62-4337-4557-809c-8693593f1260
-				  collapsed:: true
-				  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
-				  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b4d84-1187-4b5c-8592-3d0db462069b))
-					- solidification
-					  id:: 671b4d84-1187-4b5c-8592-3d0db462069b
-					  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b4d62-4337-4557-809c-8693593f1260))
-				- Etymology of `solid`: “Solid” is from the the Proto-Indo-European root [*sol](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)).
 		-
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
