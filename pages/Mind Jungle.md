@@ -885,7 +885,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the term “point” is preserved only for the apex or vertex which must be the abstraction or intersection of other larger forms, while the separated, isolated ((671dfbf3-c985-463f-9a1d-3e3994fbdb62)) is called “dot”. Literally, when the tip of a pen, i.e. *pen “point”*, touches the paper, a “dot” is created as an image of that point.
 			  collapsed:: true
 				- ![pen-point-dot.png](../assets/Uniinfo/pen-point-dot.png){:width 300}
-			- Another feature of point and dot in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) different from the ((671dfbf3-c985-463f-9a1d-3e3994fbdb62)) is that they need not to be zero-dimensional with zero
+			- Another feature of point and dot in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) different from the ((671dfbf3-c985-463f-9a1d-3e3994fbdb62)) is that they need not to be zero-dimensional, i.e. absolutely zero magnitude at any ((671e0b94-9907-43bf-993d-d1aabec46e01)). Their property of “no magnitude” just means that there's no magnitude measurable by the screen of projection, either due to the resolution limit of the screen or because the magnitudes extends in other dimensions orthogonal to the screen.
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
 			- dot
 			  id:: 66e43ebf-bbaa-4bfc-9601-a5ee40398677
@@ -1088,6 +1088,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  quantity of shape
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ((66c7fdec-59db-4f96-a8a7-913247586534))
+	- ## dimension
+	  id:: 671e0b94-9907-43bf-993d-d1aabec46e01
+	  collapsed:: true
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dimension
 	- ## quality
 	  id:: 66e426ec-d29b-4614-932b-2c70693790d7
 	  collapsed:: true
