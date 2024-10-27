@@ -499,7 +499,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2024-06-28 Fri 08:11:13]
 		  :END:
-			- spirorus extending, thread ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
+			- spirorus extending, thread ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec))
 		- constant velocity of light = constant sum of squares 
 		  id:: 667e0e4b-9f87-45b5-adb1-297b79943502
 		  => distortion (from ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))) = extending to other dimensions
@@ -662,7 +662,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- center = form = center of mass = concentration of the whole body (circle), not only the abstract central point
 		- radius = constraint of circumference via the center = all-scale constraint (r := 0..R), not only between 2 points 0 & R = rubber band constraint = ujjayi breath = backtracking thread
 		  id:: 66faa5f8-f05b-4d1d-8827-60a98bdda4a6
-		- The quality of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is roundness vs quantity of ((671b4cb2-ca87-4e90-89ae-49cebeb573e0)) is the length of thread.
+		- The quality of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is roundness vs quantity of ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec)) is the length of thread.
 		  id:: 669dcbc4-6274-484e-bd26-b06157ee8cca
 		  :LOGBOOK:
 		  CLOCK: [2024-07-22 Mon 10:04:03]
@@ -1195,7 +1195,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  > There's no true/absolute vacuum!
 			  > Không có chân không tuyệt đối!
 			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
-			- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the “*thin air*” of ((6678288e-699b-4325-bdba-bf6349fe0d57)) fills up the empty space of ((66f267f7-01f9-47b9-8376-abd27fdf2930)), how it condenses into fluid and then crystalizes into solid of ((665ca429-84e3-49ff-921e-c07d19cd99ba)).
+			- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the “*thin air*” of ((6678288e-699b-4325-bdba-bf6349fe0d57)) fills up the empty space of ((66f267f7-01f9-47b9-8376-abd27fdf2930)), how it ((671e3d98-0006-43be-b714-247f3d3a0c49))s into fluid and then ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))s into solid of ((665ca429-84e3-49ff-921e-c07d19cd99ba)).
 		- Etymology
 			- Seems that “into thin air” was [popularized by Shakespeare](https://en.wiktionary.org/wiki/into_thin_air#Etymology) first (1500s), then “out of thin air” came later (1830s) as an opposite.
 			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)

@@ -2308,6 +2308,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Universe
 	- ## fluid
 	  id:: 671e2794-7edd-4840-8b5d-d2def6df7666
+	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e2794-7edd-4840-8b5d-d2def6df7666)) includes both ((671e2778-b438-4114-9c51-aa73bfb0cfe6)) and ((671e277d-2d1e-42c5-8ea7-58e519a69dca)).
 	- ## gas
 	  id:: 671e2778-b438-4114-9c51-aa73bfb0cfe6
@@ -2315,8 +2316,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 671e277d-2d1e-42c5-8ea7-58e519a69dca
 	- ## condensate
 	  id:: 671e2782-2098-41a3-83a7-e042bfb468d7
+	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((671e31f7-b52b-492c-93cb-3233fa40db5a))
 	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671e3d98-0006-43be-b714-247f3d3a0c49))
 		- condensed matter
 		  id:: 671e31f7-b52b-492c-93cb-3233fa40db5a
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
@@ -2327,6 +2330,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec)) is the property of having high density, usually to the degree that it cannot be compressed further.
+		- condense
+		  id:: 671e3d98-0006-43be-b714-247f3d3a0c49
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
 	- ## solid
 	  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
 	  collapsed:: true
