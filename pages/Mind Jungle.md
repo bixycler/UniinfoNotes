@@ -1088,6 +1088,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  quantity of shape
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ((66c7fdec-59db-4f96-a8a7-913247586534))
+		- ### quantum
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Quantum
 	- ## dimension
 	  id:: 671e0b94-9907-43bf-993d-d1aabec46e01
 	  collapsed:: true
@@ -1109,6 +1111,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Philosophy of mind: [qualia](https://en.wikipedia.org/wiki/Qualia)
 			- Dialectics of Nature: The transformation between the change of ((66e426df-90e4-43c0-9f02-c48c336e830d)) and the change of ((66e426ec-d29b-4614-932b-2c70693790d7)), as [a law in Dialectical Materialism](https://www.marxists.org/reference/archive/spirkin/works/dialectical-materialism/ch02-s09.html)
+		-
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
 	  collapsed:: true
