@@ -1200,7 +1200,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  :LOGBOOK:
 				  CLOCK: [2024-10-27 Sun 20:41:38]
 				  :END:
-				-
+				- Forms: fluid form, solid form, ((670de601-3ca8-4489-8b75-75ca0d9a74bc))
+				- Contents: fluid content, gaseous content
+				- Awareness: when the form, as ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, the awareness arises as the new qualiton activated from that quantum. The
 		- Etymology
 			- Seems that “into thin air” was [popularized by Shakespeare](https://en.wiktionary.org/wiki/into_thin_air#Etymology) first (1500s), then “out of thin air” came later (1830s) as an opposite.
 			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
