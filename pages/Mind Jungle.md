@@ -2319,6 +2319,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- condensed matter
 		  id:: 671e31f7-b52b-492c-93cb-3233fa40db5a
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Condensed_matter_physics
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e2782-2098-41a3-83a7-e042bfb468d7)) includes both ((671e277d-2d1e-42c5-8ea7-58e519a69dca)) and ((669a58b9-8e69-43d2-9f59-fedf31bf0670)).
 	- ## solid
 	  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
@@ -2351,8 +2352,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## crystal
 	  id:: 66537bdd-6c99-4d7b-905a-e2a487cae5ce
 	  collapsed:: true
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Crystal
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A [solid](https://en.wikipedia.org/wiki/Solid "Solid") material whose constituents (such as [atoms](https://en.wikipedia.org/wiki/Atom "Atom"), [molecules](https://en.wikipedia.org/wiki/Molecule "Molecule"), or [ions](https://en.wikipedia.org/wiki/Ion "Ion")) are arranged in [crystal structure](https://en.wikipedia.org/wiki/Crystal_structure)  which is a periodic [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that extends in all directions called ((66537b4c-fa0a-4e95-b854-096e9802aa09)) in math.
+		- crystallize
+		  id:: 671e35d5-231a-4ed4-8c4a-6b200f6ccf20
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537bdd-6c99-4d7b-905a-e2a487cae5ce))
 	- ## lattice
 	  id:: 66537b4c-fa0a-4e95-b854-096e9802aa09
 	  collapsed:: true
