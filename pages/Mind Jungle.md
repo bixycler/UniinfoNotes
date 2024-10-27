@@ -2306,6 +2306,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Universe
+	- ## fluid
+	  id:: 671e2794-7edd-4840-8b5d-d2def6df7666
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e2794-7edd-4840-8b5d-d2def6df7666)) includes both ((671e2778-b438-4114-9c51-aa73bfb0cfe6)) and ((671e277d-2d1e-42c5-8ea7-58e519a69dca)).
+	- ## gas
+	  id:: 671e2778-b438-4114-9c51-aa73bfb0cfe6
+	- ## liquid
+	  id:: 671e277d-2d1e-42c5-8ea7-58e519a69dca
+	- ## condensate
+	  id:: 671e2782-2098-41a3-83a7-e042bfb468d7
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e2782-2098-41a3-83a7-e042bfb468d7)) includes both ((671e277d-2d1e-42c5-8ea7-58e519a69dca)) and ((669a58b9-8e69-43d2-9f59-fedf31bf0670)).
 	- ## solid
 	  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
 	  collapsed:: true
