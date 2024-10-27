@@ -1265,6 +1265,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
 							- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
 						- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
+				- DOING ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) = ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a view into a ((667d162c-16cf-44d3-81a5-29b1b885164f)) = compression = phase distinction in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) winding
+				  id:: 671b29b6-68f7-47e1-b79c-f4d6284690a2
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-10-25 Fri 12:16:46]
+				  CLOCK: [2024-10-25 Fri 12:17:20]
+				  :END:
+					- The size of particle = resolution of the screen
+					- ((670cdcb4-3c85-45af-8c30-3c3284ed37df)) = memory of time by mapping the mixed up particles on screen to the linear order of particles in temporal memory
 			- arrow projection
 			  id:: 670dd4d7-ed37-4954-8379-63138fa072d6
 			  the most general type of projection.
@@ -2781,14 +2790,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 667d0d8e-0873-4440-a97d-b08f9405e769
 				- Example: [binary relation](https://en.wikipedia.org/wiki/Binary_relation) and [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) in Maths.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- DOING ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) = ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a view into a ((667d162c-16cf-44d3-81a5-29b1b885164f)) = compression = phase distinction in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) winding
-			  id:: 671b29b6-68f7-47e1-b79c-f4d6284690a2
-			  :LOGBOOK:
-			  CLOCK: [2024-10-25 Fri 12:16:46]
-			  CLOCK: [2024-10-25 Fri 12:17:20]
-			  :END:
-				- The size of particle = resolution of the screen
-				- ((670cdcb4-3c85-45af-8c30-3c3284ed37df)) = memory of time by mapping the mixed up particles on screen to the linear order of particles in temporal memory
 		- ### relative
 		  id:: 66c80cbf-6626-4cb7-9b58-8ac3396e03da
 		  collapsed:: true
