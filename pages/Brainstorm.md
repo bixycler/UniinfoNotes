@@ -1189,6 +1189,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-10-26 Sat 23:43:15]
 	  :END:
 		- ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)): It's not “out of nothing” (*ex nihilo*), but “*out of thin air*” is the correct expression of the nature of emergence, simply because “nothing is formed out of nothing” (*ex nihilo nihil fit*).
+			- The materialistic version of “ex nihilo nihil fit” is [creatio ex materia](https://en.wikipedia.org/wiki/Creatio_ex_materia).
+			- [Creatio ex nihilo](https://en.wikipedia.org/wiki/Creatio_ex_nihilo) is a doctrine in many religions.
 		- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air, the gravitational field.
 		- History
 			- When reviewing for entrance exam to university, i uttered:
