@@ -1092,6 +1092,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 671e0f99-c35c-45f3-9f80-4d9cf00063de
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0fcc-37b6-4f03-8e87-8923422ca8e0))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Quantum
+			- datum
+			  id:: 671e1634-9974-4845-b4bc-449ea3fe106a
+			  ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) in ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
 	- ## dimension
 	  id:: 671e0b94-9907-43bf-993d-d1aabec46e01
 	  collapsed:: true
@@ -1116,8 +1119,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### qualiton
 		  id:: 671e0fcc-37b6-4f03-8e87-8923422ca8e0
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)). The qualiton not only carries and sustains quality, but also applies that quality to ((671e0f99-c35c-45f3-9f80-4d9cf00063de))s to activate them into living qualions. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is an a qualiton of electricity which is an activated quantum
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)). The qualiton not only carries and sustains quality, but also applies that quality to ((671e0f99-c35c-45f3-9f80-4d9cf00063de))s to activate them into living qualions. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is a qualiton of electricity which is a bundle of quanta (energy, spin, etc.) activated by the [prototype electron](https://en.wikipedia.org/wiki/One-electron_universe) (root qualiton).
 				- Etymology: qualiton = [quality](https://www.etymonline.com/word/quality) + [-on](https://www.etymonline.com/word/-on)
+			- autonoton
+			  id:: 671e1608-1350-4e87-99b6-5492cc6fb449
+			  ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) in ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
 	  collapsed:: true
