@@ -20,13 +20,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ((66f267f7-01f9-47b9-8376-abd27fdf2930))
-				- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 				- ...
 			- ------
-		- ... the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is emerging inside...
-			- ... but the time is restricted...
 		-
 		-
+		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
 		-
 		- DOING symbols for ((66c8941d-6427-4e5c-9009-3af349500d7b))
