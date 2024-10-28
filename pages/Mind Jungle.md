@@ -659,6 +659,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### editors
 		  collapsed:: true
 			- #### vim
+			  id:: 6716110f-c747-4dbe-9af4-5ebee764c436
 			  collapsed:: true
 			  Vi IMproved, a programmer's text editor
 				- directory browsing
@@ -4049,7 +4050,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- CANCELLED Publish linear (long-form) docs with ((66695307-1334-426c-b953-3e006bc87d74))
 				  id:: 66695280-1674-477a-b4ff-eb508aa679e0
 				- Because the exported SPA is too large (~90MB including Electron), it's better to write a ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d)).
-				-
+				- Manually publish with ((67161c46-5a7d-495a-9e04-95db62b6c676)) & ((6716110f-c747-4dbe-9af4-5ebee764c436)) commands:
+					- First, copy the block to be published to a page in `pages/publish/`, e.g. [[Logseq publish]].
 			- Built-in ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 			  id:: 66faa5f9-8ffd-4542-b916-6e3528cabad8
 			  collapsed:: true
