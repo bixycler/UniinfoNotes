@@ -2050,8 +2050,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  contains all materials to be embedded/included in [Markdown pages](((66fe69b2-bd2a-4e7e-b4fb-953d62374db7))).
 		- ((671f5617-1163-4ffc-b65a-b3234e471db0))s in ((666baccf-6be1-4b9a-b186-f883ea04daf1))
 		  id:: 66978876-9378-4059-8783-868d041e8e2e
-			- `logseq/{config.edn,custom.css}` and global `.logseq/config/config.edn` are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
-				- `${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn`: global
+			- `logseq/{config.edn,custom.css}`, as well as global config & app config, are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
+			  collapsed:: true
+				- `${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn`: global config: **3 links**
 					- `${HOME}/.logseq/config/config.edn`: Flatpack & AppImage installations
 					- `${HOME}/snap/logseq/current/.logseq/config/config.edn`: Snap installation
 					- `diff` check first
@@ -2066,7 +2067,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
 						  ```
-				- `${HOME}/source/UniinfoNotes/assets/logseq/config.edn`: local
+				- `${HOME}/source/UniinfoNotes/assets/logseq/config.edn`: local config: **3 links**
 					- `${HOME}/source/UniinfoNotes/logseq/config.edn`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/logseq/config.edn`: Linux logseq-notes
 					- `diff` check first
@@ -2081,7 +2082,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
 						  ```
-				- `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app config
+				- `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app config: **4 links**
 					- `${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn`: Flatpack installation
 					- `${HOME}/.config/Logseq/configs.edn`: AppImage installation
 					- `${HOME}/snap/logseq/current/.config/Logseq/configs.edn`: Snap installation
@@ -2099,23 +2100,38 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.config/Logseq/configs.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
 						  ```
-				- `${HOME}/source/UniinfoNotes/assets/logseq/custom.css`
-					- `${HOME}/source/UniinfoNotes/logseq/config.edn`: UniinfoNotes
-					- `${HOME}/opt/personal/logseq-notes/logseq/config.edn`: Linux logseq-notes
+				- `${HOME}/source/UniinfoNotes/assets/logseq/custom.css`: theme: **3 links**
+					- `${HOME}/source/UniinfoNotes/logseq/custom.css`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/logseq/custom.css`: Linux logseq-notes
 					- `diff` check first
 					  collapsed:: true
 						- ```sh
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
 						  ```
 					- then `ln`
 					  collapsed:: true
 						- ```sh
-						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
-						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
 						  ```
 			- pages hard-linked to other projects (graphs)
 				- [[logseq/config.edn]]
+				- `${HOME}/source/UniinfoNotes/assets/logseq/custom.css`: theme: **3 links**
+					- `${HOME}/source/UniinfoNotes/logseq/custom.css`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/logseq/custom.css`: Linux logseq-notes
+					- `diff` check first
+					  collapsed:: true
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
+						  ```
+					- then `ln`
+					  collapsed:: true
+						- ```sh
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
+						  ```
 				- [[logseq/custom.css]]
 				- [`pages/publish/Theme Demo.md`]([[Theme Demo]])
 				- [`pages/publish/technical/Git.md`]([[Git]])
