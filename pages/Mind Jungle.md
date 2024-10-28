@@ -589,6 +589,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- `%m` = mount point
 				- `tree`
 				  lists contents of directories in a tree-like format.
+				- `find`
+				  search for files in a directory hierarchy
+					- `-samefile $ref_file`
+					  find hard links to `$ref_file`
+				- `ln`
+				  make links (hard & symbolic) between files
+					- default is to make hard link.
+					- `slink` = `ln -sv` (`--symbolic --verbose`)
+				- `df`
+				  report file system disk space usage
+				- `du`
+				  estimate file space usage
 		- ### editors
 		  collapsed:: true
 			- #### vim
