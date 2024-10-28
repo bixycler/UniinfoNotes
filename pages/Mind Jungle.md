@@ -561,7 +561,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- file mode bits
 					  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 						- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
-						- First char: file type {`d`,`-`,`l`,`c`} = {directory, regular file, symlink, character special file}
+						- First char: file type {`d`,`-`,`l`,`p`,`s`,`c`,`b`} = {directory, regular file, symlink, FIFO named pipe, socket, character special file (terminal), block special file (disk)}
+							- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unix_file_types
 						- Last 3×3 chars: (owner, group, other)×(`r`,`w`,{`x`,`s`,`S`})
 							- `r` = readable, `w` = writable
 							- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
