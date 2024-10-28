@@ -4051,7 +4051,57 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66695280-1674-477a-b4ff-eb508aa679e0
 				- Because the exported SPA is too large (~90MB including Electron), it's better to write a ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d)).
 				- Manually publish with ((67161c46-5a7d-495a-9e04-95db62b6c676)) & ((6716110f-c747-4dbe-9af4-5ebee764c436)) commands:
+				  id:: 671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf
 					- First, copy the block to be published to a page in `pages/publish/`, e.g. [[Logseq publish]].
+					- Next, process content wit vim commands
+					  ```vim
+					  %s/^\s*:\(logbook\|LOGBOOK\):\_.\{-}\s*:END:\n//| %s/^\t\(.*\)/\1/| %s/^\t\(.*\)/\1/| %s/^- ## \(.*\)/\r## \1\r/| %s#../assets/projects/java17/aal_gw/##g| %s#(publish/projects/java17/aal_gw/\([^)]*\))#(\1.md)#g
+					  ```
+						- remove `:logbook:` and properties
+						  ```vim
+						  %s/^\s*:\(logbook\|LOGBOOK\):\_.\{-}\s*:END:\n//
+						  %s/\s*\w+::.*\n//
+						  ```
+						- remove first tab with `Ctrl` `v`, or with command
+						  ```vim
+						  %s/^\t\(.*\)/\1/
+						  ```
+						- unitemize `lib.*:`
+						  ```vim
+						  %s/^- ## \(.*\)/\r## \1\r/
+						  ```
+							- `V` select all lines of `lib.*` (just exclude the top notes) to remove first tab
+							  ```vim
+							  '<,'>s/^\t\(.*\)/\1/
+							  ```
+								- or use [range by search](https://vim.fandom.com/wiki/Ranges#Ranges_with_marks_and_searches)
+								  ```vim
+								  /^##/,$s/^\t\(.*\)/\1/
+								  ```
+									- Note: the block folder makes this search-range capturing wrong range in folded blocks!
+						- process code block
+						  ```vim
+						  %s/^\(\t*\)- ```/\r\1```/|%s/  ```/```\r/|%s/\t  /\t/
+						  ```
+						- unitemize headers
+							- ~~H1~~
+							  ```vim
+							  %s/^- # \(.*\)/# \1\r/
+							  ```
+								- after remove Additional notes & tasks, the first H1 header is automatically unitemized by Logseq!
+							- H2
+							  ```vim
+							  %s/^- ## \(.*\)/\r## \1\r/
+							  ```
+						- replace links to `assets` & `publish`
+						  ```vim
+						  %s#../assets/projects/java17/aal_gw/##g
+						  %s#(publish/projects/java17/aal_gw/\([^)]*\))#(\1.md)#g
+						  ```
+					- Postprocess: `V` select all lines of Process to create/update a service to replace items bullets with numbers
+					  ```vim
+					  '<,'>s/^- \(.*\)/1. \1/
+					  ```
 			- Built-in ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 			  id:: 66faa5f9-8ffd-4542-b916-6e3528cabad8
 			  collapsed:: true

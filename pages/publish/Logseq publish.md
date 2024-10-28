@@ -39,3 +39,4 @@
 	- Because the exported SPA is too large (~90MB including Electron), it's better to write a Custom Logseq publish via Web API.
 	- Manually publish with Block copy & vim commands:
 		- First, copy the block to be published to a page in `pages/publish/`, e.g. [[Logseq publish]].
+		-
