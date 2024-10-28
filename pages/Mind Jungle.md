@@ -136,7 +136,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### concepts
 		  collapsed:: true
 			- file mode bits
-id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
+			  collapsed:: true
 			  shown in ((671f4355-d2ad-46ca-af05-db330a8a4fec)) and in ((671f50a5-2987-4e65-b28d-7b08bdcf0a06)), modified by ((671f5863-b392-406a-b6d2-408902e37e29))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
 				- First char: file type {`-`,`d`,`l`,`p`,`s`,`c`,`b`} = {regular file, directory, symlink, FIFO named pipe, socket, character stream (terminal), random-access block device (disk)}
@@ -146,6 +146,7 @@ id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 					- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
 			- inode
 			  id:: 671f438b-617a-4fc5-88ee-e42f07b67b50
+			  collapsed:: true
 			  file index-data node
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Inode
 				- hard link
@@ -156,11 +157,12 @@ id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 					- MacOS and some (old) Linux distributions allow hard link of directory, but most modern Linux distributions prohibit it due to its ambiguousness
 			- symbolic link (symlink)
 			  id:: 671f5784-d89b-4a4a-a6e7-f02a0805322f
+			  collapsed:: true
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Symbolic_link
 				- Mimics:
 					- Windows' shortcut in GUI works similarly to symlink, but doesn't work at the command level.
 				- Equivalence: Git's symlink, [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
-					- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks).
+					- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks). When `symlinks = false`, symbolic links are checked out as plain text files containing the target as text.
 		- ### commands
 			- process handling
 			  collapsed:: true
@@ -180,6 +182,7 @@ id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 			  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 			  collapsed:: true
 				- `ls`
+				  collapsed:: true
 				  lists information about the FILEs (the current directory by default).
 					- `ll` = `ls -lhF`
 					  id:: 671f4355-d2ad-46ca-af05-db330a8a4fec
@@ -193,16 +196,23 @@ id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 					  print the ((671f438b-617a-4fc5-88ee-e42f07b67b50)) number of each file
 				- `stat`
 				  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
+				  collapsed:: true
 				  status of file or file system
 					- Non-default info (`--format`)
 						- `%m` = mount point
 				- `tree`
 				  lists contents of directories in a tree-like format.
 				- `find`
+				  collapsed:: true
 				  search for files in a directory hierarchy
 					- `-samefile $ref_file`
+					  id:: 671f544c-792b-4bd3-bfda-38c8d1fc2b01
 					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$ref_file`
+					- `-inode $inode_number`
+					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$inode_number`
+						-
 				- `ln`
+				  collapsed:: true
 				  make links (hard & symbolic) between files
 					- default is to make ((671f5617-1163-4ffc-b65a-b3234e471db0)).
 					- `slink` = `ln -sv` (`--symbolic --verbose`)
