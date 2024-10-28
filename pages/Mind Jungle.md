@@ -137,7 +137,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- file mode bits
 id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
-			  shown in ((671f4355-d2ad-46ca-af05-db330a8a4fec)) and in ((671f50a5-2987-4e65-b28d-7b08bdcf0a06))
+			  shown in ((671f4355-d2ad-46ca-af05-db330a8a4fec)) and in ((671f50a5-2987-4e65-b28d-7b08bdcf0a06)), modified by ((671f5863-b392-406a-b6d2-408902e37e29))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
 				- First char: file type {`-`,`d`,`l`,`p`,`s`,`c`,`b`} = {regular file, directory, symlink, FIFO named pipe, socket, character stream (terminal), random-access block device (disk)}
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unix_file_types
@@ -153,8 +153,65 @@ id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 				  is just an alias, i.e. a full-path-name, for an ((671f438b-617a-4fc5-88ee-e42f07b67b50)).
 					- All aliases are equivalent, no source/main name like ((671f5784-d89b-4a4a-a6e7-f02a0805322f)).
 					- `mv`/`rm` just move/remove names, not the inode. The inode is only removed when there's no name pointing to it.
-			- symbolic link
+					- MacOS and some (old) Linux distributions allow hard link of directory, but most modern Linux distributions prohibit it due to its ambiguousness
+			- symbolic link (symlink)
 			  id:: 671f5784-d89b-4a4a-a6e7-f02a0805322f
+				- Windows' equivalence: shortcut
+		- ### commands
+			- process handling
+			  collapsed:: true
+				- "pid" := "process ID"
+				- ((66c6c8e6-54be-4b4f-80a1-c535d429d05c))
+				- `pidof`: find the pid of a process via process name.
+				- `pgrep`, `pkill`, `pidwait`:  look up, signal, or wait for processes based on process name pattern and other attributes.
+				- `kill`, `killall`: send a signal (`TERM`, `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid or process name.
+				- `pstree`: display a tree of processes.
+				- `top`: display Linux processes similar to ((66c6bda1-7a64-4832-af2b-906b3beb8927)).
+			- window handling
+			  collapsed:: true
+				- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
+				- `xkill`: kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
+				- `xprop`: display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
+			- file management
+			  id:: 671f4028-c60f-4791-b716-e5226cdf410e
+			  collapsed:: true
+				- `ls`
+				  lists information about the FILEs (the current directory by default).
+					- `ll` = `ls -lhF`
+					  id:: 671f4355-d2ad-46ca-af05-db330a8a4fec
+					  long listing format
+						- Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)), user, group, size, date, file name
+						- number of files
+						  id:: 671f4447-71f3-4ae1-b22c-acc16ac67f5b
+							- for directory: number of files & sub-directories in that dir
+							- for file: number of hard links to this ((671f438b-617a-4fc5-88ee-e42f07b67b50))
+					- `-i`, `--inode`
+					  print the ((671f438b-617a-4fc5-88ee-e42f07b67b50)) number of each file
+				- `stat`
+				  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
+				  status of file or file system
+					- Non-default info (`--format`)
+						- `%m` = mount point
+				- `tree`
+				  lists contents of directories in a tree-like format.
+				- `find`
+				  search for files in a directory hierarchy
+					- `-samefile $ref_file`
+					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$ref_file`
+				- `ln`
+				  make links (hard & symbolic) between files
+					- default is to make ((671f5617-1163-4ffc-b65a-b3234e471db0)).
+					- `slink` = `ln -sv` (`--symbolic --verbose`)
+					  creates ((671f5784-d89b-4a4a-a6e7-f02a0805322f)) to this file.
+				- `chmod`
+				  id:: 671f5863-b392-406a-b6d2-408902e37e29
+				  change file mode bits
+				- `chown`
+				  change file owner and group
+				- `df`
+				  report file system disk space usage
+				- `du`
+				  estimate file space usage
 		- ### shell
 			- `man [-k]`, `info`, `[run-]help`, `apropos`
 			  collapsed:: true
@@ -561,56 +618,6 @@ id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 					- Ref: [Install Nu Shell on Ubuntu 20.04](https://www.osradar.com/install-nu-shell-ubuntu/)
 					  collapsed:: true
 						- Note: Don't install ` --all-features` as instructed here, because some "raw" features make `polars-core` compilation error: `raw_table_mut()` method not found.
-		- ### commands
-			- process handling
-			  collapsed:: true
-				- "pid" := "process ID"
-				- ((66c6c8e6-54be-4b4f-80a1-c535d429d05c))
-				- `pidof`: find the pid of a process via process name.
-				- `pgrep`, `pkill`, `pidwait`:  look up, signal, or wait for processes based on process name pattern and other attributes.
-				- `kill`, `killall`: send a signal (`TERM`, `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid or process name.
-				- `pstree`: display a tree of processes.
-				- `top`: display Linux processes similar to ((66c6bda1-7a64-4832-af2b-906b3beb8927)).
-			- window handling
-			  collapsed:: true
-				- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
-				- `xkill`: kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
-				- `xprop`: display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
-			- file management
-			  id:: 671f4028-c60f-4791-b716-e5226cdf410e
-			  collapsed:: true
-				- `ls`
-				  lists information about the FILEs (the current directory by default).
-					- `ll` = `ls -lhF`
-					  id:: 671f4355-d2ad-46ca-af05-db330a8a4fec
-					  long listing format
-						- Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)), user, group, size, date, file name
-						- number of files
-						  id:: 671f4447-71f3-4ae1-b22c-acc16ac67f5b
-							- for directory: number of files & sub-directories in that dir
-							- for file: number of hard links to this ((671f438b-617a-4fc5-88ee-e42f07b67b50))
-					- `-i`, `--inode`
-					  print the ((671f438b-617a-4fc5-88ee-e42f07b67b50)) number of each file
-				- `stat`
-				  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
-				  status of file or file system
-					- Non-default info (`--format`)
-						- `%m` = mount point
-				- `tree`
-				  lists contents of directories in a tree-like format.
-				- `find`
-				  search for files in a directory hierarchy
-					- `-samefile $ref_file`
-					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$ref_file`
-				- `ln`
-				  make links (hard & symbolic) between files
-					- default is to make ((671f5617-1163-4ffc-b65a-b3234e471db0)).
-					- `slink` = `ln -sv` (`--symbolic --verbose`)
-					  creates ((671f5784-d89b-4a4a-a6e7-f02a0805322f)) to this file.
-				- `df`
-				  report file system disk space usage
-				- `du`
-				  estimate file space usage
 		- ### editors
 		  collapsed:: true
 			- #### vim

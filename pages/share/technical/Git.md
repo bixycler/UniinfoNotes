@@ -4,7 +4,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) is a [free and open source](https://www.git-scm.com/about/free-and-open-source) distributed version control system (VCS), which is now the most popular VCS in the world.
 	- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 	  collapsed:: true
-		- File link: symbolic link (symlink) is supported by ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) but hard link is not.
+		- File link: ((671f5784-d89b-4a4a-a6e7-f02a0805322f)) is supported by ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) but ((671f5617-1163-4ffc-b65a-b3234e471db0)) is not.
 			- Symlink has portability problem between Linux and Windows.
 				- [From Windows 10+, symlink can be used](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/) when Developer mode is turned on.
 			- Hard link is not support (will be broken when ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) overwrites the link file), but ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) will let the hard link live as long as we don't do any write operation on that link file, e.g. `pull`, `checkout`, `reset`, etc.
