@@ -157,8 +157,10 @@ id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 			- symbolic link (symlink)
 			  id:: 671f5784-d89b-4a4a-a6e7-f02a0805322f
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Symbolic_link
-				- Mimics: Windows' shortcut, Git's
-				- Equivalence: [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
+				- Mimics:
+					- Windows' shortcut in GUI works similarly to symlink, but doesn't work at the command level.
+				- Equivalence: Git's symlink, [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
+					- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks).
 		- ### commands
 			- process handling
 			  collapsed:: true
