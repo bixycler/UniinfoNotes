@@ -2067,21 +2067,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
 						  ```
 				- `${HOME}/source/UniinfoNotes/assets/logseq/config.edn`: local
-					- `${HOME}/.logseq/config/config.edn`: Flatpack & AppImage installations
-					- `${HOME}/snap/logseq/current/.logseq/config/config.edn`: Snap installation
+					- `${HOME}/source/UniinfoNotes/logseq/config.edn`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/logseq/config.edn`: Linux logseq-notes
 					- `diff` check first
 					  collapsed:: true
 						- ```sh
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
 						  ```
 					- then `ln`
 					  collapsed:: true
 						- ```sh
-						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
-						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
 						  ```
-				- `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app
+				- `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app config
 					- `${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn`: Flatpack installation
 					- `${HOME}/.config/Logseq/configs.edn`: AppImage installation
 					- `${HOME}/snap/logseq/current/.config/Logseq/configs.edn`: Snap installation
@@ -2098,6 +2098,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.config/Logseq/configs.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
+						  ```
+				- `${HOME}/source/UniinfoNotes/assets/logseq/custom.css`
+					- `${HOME}/source/UniinfoNotes/logseq/config.edn`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/logseq/config.edn`: Linux logseq-notes
+					- `diff` check first
+					  collapsed:: true
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  ```
+					- then `ln`
+					  collapsed:: true
+						- ```sh
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
 						  ```
 			- pages hard-linked to other projects (graphs)
 				- [[logseq/config.edn]]
