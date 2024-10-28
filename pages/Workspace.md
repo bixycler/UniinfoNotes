@@ -12,9 +12,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
+				- projection as basis of arrow, ((671efcf8-b18a-4b37-b56b-0cb0780c8302)), qualiton
 				-
 				- ((671b5598-42a8-421d-a942-3819be212d50))
 				- ((671d06ba-cb96-4424-9bee-4e6327ba7f9d))
+				  id:: 671efcf8-b18a-4b37-b56b-0cb0780c8302
 				- Clarify about ((66e43b94-9183-4d49-af85-8a7a1c194c12)) and ((66e43ebf-bbaa-4bfc-9601-a5ee40398677))
 				- ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) & ((671e0f99-c35c-45f3-9f80-4d9cf00063de)), ((671e1608-1350-4e87-99b6-5492cc6fb449)) & ((671e1634-9974-4845-b4bc-449ea3fe106a)), reword ((671b4cb2-ca87-4e90-89ae-49cebeb573e0)) → ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec))
 				- ((66f267f7-01f9-47b9-8376-abd27fdf2930))
