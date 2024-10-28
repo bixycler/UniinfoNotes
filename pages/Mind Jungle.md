@@ -154,7 +154,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  is just an alias, i.e. a full-path-name, for an ((671f438b-617a-4fc5-88ee-e42f07b67b50)).
 					- All aliases are equivalent, no source/main name like ((671f5784-d89b-4a4a-a6e7-f02a0805322f)).
 					- `mv`/`rm` just move/remove names, not the inode. The inode is only removed when there's no name pointing to it.
-					- MacOS and some (old) Linux distributions allow hard link of directory, but most modern Linux distributions prohibit it due to its ambiguousness
+					- New MacOS (10.5+) and some (old) Linux distributions allow hard link of directory, but most modern Linux distributions prohibit it due to its ambiguousness
 			- symbolic link (symlink)
 			  id:: 671f5784-d89b-4a4a-a6e7-f02a0805322f
 			  collapsed:: true
