@@ -560,12 +560,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  lists information about the FILEs (the current directory by default).
 					- file mode bits
 					  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
-						- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions)
-						- First char: file type {`d`,`-`,`c`} = {directory, regular file, character special file}
-						- Last 3×3 chars: (`r`,`w`,{`x`,`s`,`S`})×(owner, group, other)
+						- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
+						- First char: file type {`d`,`-`,`l`,`c`} = {directory, regular file, symlink, character special file}
+						- Last 3×3 chars: (owner, group, other)×(`r`,`w`,{`x`,`s`,`S`})
+							- `r` = readable, `w` = writable
+							- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
 					- `ll` = `ls -lhF`
 					  long listing format
-						- Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)),
+						- Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)), user, group, size, date, file name
 						- number of files
 						  id:: 671f4447-71f3-4ae1-b22c-acc16ac67f5b
 							- for directory: number of files & sub-directories in that dir
