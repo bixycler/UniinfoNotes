@@ -16,7 +16,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				-
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- technical issues: check hard-links, HTML -> PDF
+				- technical issues: check hard-links & ((671f4028-c60f-4791-b716-e5226cdf410e)), HTML -> PDF
 				- ...
 			- ------
 		-

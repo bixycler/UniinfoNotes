@@ -555,30 +555,37 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `xkill`: kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
 				- `xprop`: display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
 			- file management
+			  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 			  collapsed:: true
+				- file mode bits
+				  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
+				  shown in ((671f4355-d2ad-46ca-af05-db330a8a4fec)) and in ((671f50a5-2987-4e65-b28d-7b08bdcf0a06))
+					- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
+					- First char: file type {`-`,`d`,`l`,`p`,`s`,`c`,`b`} = {regular file, directory, symlink, FIFO named pipe, socket, character stream (terminal), random-access block device (disk)}
+						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unix_file_types
+					- Last 3×3 chars: (owner, group, other)×(`r`,`w`,{`x`,`s`,`S`})
+						- `r` = readable, `w` = writable
+						- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
+				- inode
+				  id:: 671f438b-617a-4fc5-88ee-e42f07b67b50
+				  file index-data node
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Inode
 				- `ls`
 				  lists information about the FILEs (the current directory by default).
-					- file mode bits
-					  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
-						- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
-						- First char: file type {`d`,`-`,`l`,`p`,`s`,`c`,`b`} = {directory, regular file, symlink, FIFO named pipe, socket, character special file (terminal), block special file (disk)}
-							- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unix_file_types
-						- Last 3×3 chars: (owner, group, other)×(`r`,`w`,{`x`,`s`,`S`})
-							- `r` = readable, `w` = writable
-							- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
 					- `ll` = `ls -lhF`
+					  id:: 671f4355-d2ad-46ca-af05-db330a8a4fec
 					  long listing format
 						- Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)), user, group, size, date, file name
 						- number of files
 						  id:: 671f4447-71f3-4ae1-b22c-acc16ac67f5b
 							- for directory: number of files & sub-directories in that dir
 							- for file: number of hard links to this ((671f438b-617a-4fc5-88ee-e42f07b67b50))
-					- inode
-					  id:: 671f438b-617a-4fc5-88ee-e42f07b67b50
-					  file index-data node
-						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Inode
 					- `-i`, `--inode`
 					  print the ((671f438b-617a-4fc5-88ee-e42f07b67b50)) number of each file
+				- `stat`
+				  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
+				  status of file or file system
+					-
 				- `tree`
 				  lists contents of directories in a tree-like format.
 		- ### editors
