@@ -585,7 +585,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `stat`
 				  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
 				  status of file or file system
-					-
+					- Non-default info (`--format`)
+						- `%m` = mount point
 				- `tree`
 				  lists contents of directories in a tree-like format.
 		- ### editors
