@@ -499,7 +499,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2024-06-28 Fri 08:11:13]
 		  :END:
-			- spirorus extending, thread ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
+			- spirorus extending, thread ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec))
 		- constant velocity of light = constant sum of squares 
 		  id:: 667e0e4b-9f87-45b5-adb1-297b79943502
 		  => distortion (from ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))) = extending to other dimensions
@@ -662,7 +662,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- center = form = center of mass = concentration of the whole body (circle), not only the abstract central point
 		- radius = constraint of circumference via the center = all-scale constraint (r := 0..R), not only between 2 points 0 & R = rubber band constraint = ujjayi breath = backtracking thread
 		  id:: 66faa5f8-f05b-4d1d-8827-60a98bdda4a6
-		- The quality of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is roundness vs quantity of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is the length of thread.
+		- The quality of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)) is roundness vs quantity of ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec)) is the length of thread.
 		  id:: 669dcbc4-6274-484e-bd26-b06157ee8cca
 		  :LOGBOOK:
 		  CLOCK: [2024-07-22 Mon 10:04:03]
@@ -1052,7 +1052,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- spring mechanic: the content of the spring is constant, it just compresses and expands.
 			- The external form on x-axis is the "real", i.e. visible part, while the internal content on p-axis is the "imaginary", i.e. invisible part.
 			- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
-		- "Light" is just an arrrow of the relaxed quantum. The light ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))s the original circle into various forms (shapes and sizes). => ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
+		- ((671b6c19-7dee-4548-9154-a5eddbe870fc)) is just an arrrow of the relaxed quantum. The light ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))s the original circle into various forms (shapes and sizes). => ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
 	- karmic cycle
 	  id:: 6713a8e1-e460-4622-9ad6-87c804deccd8
 	  collapsed:: true
@@ -1182,3 +1182,78 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
 		- Symbols
 			- Infinity: ∞, ♾
+	- “*Out of thin air*”
+	  id:: 671d06ba-cb96-4424-9bee-4e6327ba7f9d
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-26 Sat 23:43:15]
+	  :END:
+		- ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)): It's not “out of nothing” (*ex nihilo*), but “*out of thin air*” is the correct expression of the nature of emergence, simply because “nothing is formed out of nothing” (*ex nihilo nihil fit*).
+			- The materialistic version of “ex nihilo nihil fit” is [creatio ex materia](https://en.wikipedia.org/wiki/Creatio_ex_materia).
+			- [Creatio ex nihilo](https://en.wikipedia.org/wiki/Creatio_ex_nihilo) is a doctrine in many religions.
+		- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air, the gravitational field.
+		- History
+			- When reviewing for entrance exam to university, i uttered:
+			  > There's no true/absolute vacuum!
+			  > Không có chân không tuyệt đối!
+			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
+			- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the “*thin air*” of ((6678288e-699b-4325-bdba-bf6349fe0d57)) fills up the empty space of ((66f267f7-01f9-47b9-8376-abd27fdf2930)), how it ((671e3d98-0006-43be-b714-247f3d3a0c49))s into fluid and then ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))s into solid of ((665ca429-84e3-49ff-921e-c07d19cd99ba)).
+				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) = [導引](https://en.wikipedia.org/wiki/Daoyin) ([Đạo Dẫn](https://vi.wikipedia.org/wiki/Ph%C3%A9p_%C4%91%E1%BA%A1o_d%E1%BA%ABn)): (circle = form = condensate = essence [精, tinh]) → (arrow = content = fluid = breath [氣, khí]) → (equal = awareness = space = spirit [神, thần])
+				  :LOGBOOK:
+				  CLOCK: [2024-10-27 Sun 20:41:38]
+				  :END:
+				- Forms: fluid form, solid form, ((670de601-3ca8-4489-8b75-75ca0d9a74bc))
+				- Contents: fluid content, gaseous content
+				- Awareness: {{embed ((671e4a96-c04c-4167-aad0-8efaecf6bf14))}}
+				  id:: 671e4ac3-2ec7-4209-a21f-bddb1da8efce
+		- Etymology
+			- Seems that “into thin air” was [popularized by Shakespeare](https://en.wiktionary.org/wiki/into_thin_air#Etymology) first (1500s), then “out of thin air” came later (1830s) as an opposite.
+			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
+			  > The antonym, into thin air, has been used since at least the 1500s. Out of thin air has been used since at least the 1830s.
+			  > Thin air, in this idiom, refers to the air in the upper reaches of the atmosphere, a location that was mysterious and unknown at the time this idiom originated.
+			- The Tempest > [Act 4 > Scene 1](https://www.folger.edu/explore/shakespeares-works/the-tempest/read/4/1/)
+			  collapsed:: true
+				- Prospero releases Ferdinand and gives him Miranda as his bride-to-be. To celebrate the prospect of their union, _Prospero instructs Ariel to have **the spirits** under Prospero’s control perform a masque_. During the masque, Prospero remembers the threat posed by Caliban and stops the masque...
+				- PROSPERO 
+				  > I had forgot that foul conspiracy
+				   Of the beast Caliban and his confederates
+				   Against my life. The minute of their plot
+				   Is almost come.—Well done. Avoid. No more.
+				  
+				  *To a strange, hollow, and confused noise,
+				  ⌜the spirits⌝ heavily vanish.*
+				- FERDINAND, *⌜to Miranda⌝* 
+				  > This is strange. Your father’s in some passion
+				   That works him strongly.
+				- MIRANDA   
+				  > Never till this day
+				   Saw I him touched with anger, so distempered.
+				- PROSPERO, *⌜to Ferdinand⌝* 
+				  > You do look, my son, in a moved sort,
+				  As if you were dismayed. Be cheerful, sir.
+				  Our revels now are ended. These our actors,
+				   As I foretold you, were all spirits and
+				   Are melted into air, **into thin air**;
+				   And like the baseless fabric of this vision,
+				   The cloud-capped towers, the gorgeous palaces,
+				  The solemn temples, the great globe itself,
+				   Yea, all which it inherit, shall dissolve,
+				   And, like this insubstantial pageant faded,
+				   Leave not a rack behind. We are such stuff
+				   As dreams are made on, and our little life
+				  Is rounded with a sleep. Sir, I am vexed.
+				   Bear with my weakness. My old brain is troubled.
+				   Be not disturbed with my infirmity.
+				   If you be pleased, retire into my cell
+				   And there repose. A turn or two I’ll walk
+				  To still my beating mind.
+			- [What is the origin of the phrase "Into thin air"](https://english.stackexchange.com/questions/618149/what-is-the-origin-of-the-phrase-into-thin-air)
+			- https://medium.com/@rayjhawk/out-of-thin-air-f7d4b01152cf
+		- Usage frequency
+			- By Google's Books Ngram Viewer, in per 100,000: "ex nihilo" ~ 3-4, "out of nothing" ~ 4.5-5.5, "out of thin air" ~ 1.2-2
+			- By Gemini's experience about everyday English conversation: "out of thin air" > "out of nothing" > "ex nihilo"
+			  collapsed:: true
+				- **Out of thin air:** This is the most commonly used phrase in everyday English conversation.
+				- **Out of nothing:** This phrase is also quite common, but slightly less so than "out of thin air."
+				- **Ex nihilo:** This Latin phrase is less common in everyday conversation, but it's often used in philosophical and academic contexts.
+		- Chat with Gemini: [Latin for "Out of Thin Air"](https://gemini.google.com/app/182417258903bcd9)

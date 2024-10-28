@@ -38,6 +38,8 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 		  id:: 66e4299e-0af8-47ee-adae-c13fb57fd15d
 		- Examples:
 		  id:: 66725725-f76a-4328-b162-f469b87e871b
+		- Variations:
+		  id:: 671b18a8-ac11-4930-bed3-645c0cc983a8
 	- Property:
 	  id:: 66600918-67d0-429b-af78-f804ea65d9cc
 		- Form:
@@ -91,6 +93,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 				  id:: 6699ea73-dc77-4227-a293-b501f2eb1759
 			- Whole:
 			  id:: 6699e5f2-7788-46c7-8233-87699a65ca30
+			  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
 				- Complementary components:
 				  id:: 6699eb54-ce9e-4472-a784-c59ffd47f02b
 	- Website:

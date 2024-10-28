@@ -854,11 +854,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2024-08-23 Fri 10:39:31]
 	  :END:
+	  ((665ca48e-f7c1-4541-b5cf-486d86b02997)) ((6699e5f2-7788-46c7-8233-87699a65ca30)) 
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c87463-4f07-420a-b12e-f456154f7dc8))
 		- totality
 		  id:: 66c87463-4f07-420a-b12e-f456154f7dc8
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a [perfect circle](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))). That means a whole is a perfect ((667d162c-16cf-44d3-81a5-29b1b885164f)).
+		- Etymology of `whole`: “Whole”, just like “health” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”. The prefix `holo-` has the same meaning with “whole”, but is from a different root: Greek “holos” (whole, entire, complete) also meaning “safe and sound” ← Proto-Indo-European root [*sol-](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning “whole”.
+		- # solh₂
+		- # solh₂
+		- # solh₂
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
@@ -876,11 +881,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## point
 	  id:: 66e43b94-9183-4d49-af85-8a7a1c194c12
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66e43b94-9183-4d49-af85-8a7a1c194c12)) is an abstraction of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) so that it has no ((66e42a2d-deb3-46dd-b477-94196a5d2d6f)) and its ((66e426ec-d29b-4614-932b-2c70693790d7)) is abstracted into a single id denoted by a ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)). That dot is the image of the original circle projected onto the screen, and the point is the apex of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66e43b94-9183-4d49-af85-8a7a1c194c12)) is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) so that it has no ((66e42a2d-deb3-46dd-b477-94196a5d2d6f)), e.g. the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of a circle, through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) whose base is the original circle and apex is the resulting point. While the quantity (magnitude) of the circle is abstracted, its quality is still preserved in the point, as an identifier of the circle, via its connection with the circle through the viewcone. When the viewcone is further abstracted away, the resulting image of that point on the screen is a ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)) which is an abstraction of the original circle's ((66e426ec-d29b-4614-932b-2c70693790d7)).
+			- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the term “point” is preserved only for the apex or vertex which must be the abstraction or intersection of other larger forms, while the separated, isolated ((671dfbf3-c985-463f-9a1d-3e3994fbdb62)) is called “dot”. Literally, when the tip of a pen, i.e. *pen “point”*, touches the paper, a “dot” is created as an image of that point.
+			  collapsed:: true
+				- ![pen-point-dot.png](../assets/Uniinfo/pen-point-dot.png){:width 300}
+			- Another feature of point and dot in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) different from the ((671dfbf3-c985-463f-9a1d-3e3994fbdb62)) is that they _need **not** be zero-dimensional_, i.e. have not absolutely zero magnitude in any ((671e0b94-9907-43bf-993d-d1aabec46e01)). Their property of “no magnitude” just means that there's no magnitude measurable by the screen of projection, either due to the resolution limit of the screen or because the magnitudes extends in other dimensions orthogonal to the screen.
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
 			- dot
 			  id:: 66e43ebf-bbaa-4bfc-9601-a5ee40398677
 			  image of point on screen
+			- geometric point
+			  id:: 671dfbf3-c985-463f-9a1d-3e3994fbdb62
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From [vertex point](https://en.wikipedia.org/wiki/Vertex_(geometry)), which is original ((66e43b94-9183-4d49-af85-8a7a1c194c12)), “[point](https://en.wikipedia.org/wiki/Point_(geometry))” in geometry has been abstracted to the isolated ((66e43ebf-bbaa-4bfc-9601-a5ee40398677)) on the screen.
+		-
 	- ## arrow
 	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
 	  collapsed:: true
@@ -1075,6 +1088,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  quantity of shape
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ((66c7fdec-59db-4f96-a8a7-913247586534))
+		- ### quantum
+		  id:: 671e0f99-c35c-45f3-9f80-4d9cf00063de
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0fcc-37b6-4f03-8e87-8923422ca8e0))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Quantum
+			- datum
+			  id:: 671e1634-9974-4845-b4bc-449ea3fe106a
+			  ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) in ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
+	- ## dimension
+	  id:: 671e0b94-9907-43bf-993d-d1aabec46e01
+	  collapsed:: true
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dimension
 	- ## quality
 	  id:: 66e426ec-d29b-4614-932b-2c70693790d7
 	  collapsed:: true
@@ -1092,16 +1116,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Philosophy of mind: [qualia](https://en.wikipedia.org/wiki/Qualia)
 			- Dialectics of Nature: The transformation between the change of ((66e426df-90e4-43c0-9f02-c48c336e830d)) and the change of ((66e426ec-d29b-4614-932b-2c70693790d7)), as [a law in Dialectical Materialism](https://www.marxists.org/reference/archive/spirkin/works/dialectical-materialism/ch02-s09.html)
-	- ## relative
-	  id:: 66c80cbf-6626-4cb7-9b58-8ac3396e03da
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-08-23 Fri 11:15:34]
-	  :END:
-	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60))
-		- relativity
-		  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
-		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+		- ### qualiton
+		  id:: 671e0fcc-37b6-4f03-8e87-8923422ca8e0
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)). The qualiton not only carries and sustains quality, but also applies that quality to ((671e0f99-c35c-45f3-9f80-4d9cf00063de))s to activate them into living qualions. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is a qualiton of electricity which is a bundle of quanta (energy, spin, etc.) activated by the [prototype electron](https://en.wikipedia.org/wiki/One-electron_universe) (root qualiton).
+				- Etymology: qualiton = [quality](https://www.etymonline.com/word/quality) + [-on](https://www.etymonline.com/word/-on)
+			- autonoton
+			  id:: 671e1608-1350-4e87-99b6-5492cc6fb449
+			  ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) in ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
 	  collapsed:: true
@@ -1166,6 +1188,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- The physical ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) on [Earth](https://en.wikipedia.org/wiki/Earth) is called "the World", which itself is a part of the whole physical world called [Universe](https://en.wikipedia.org/wiki/Universe).
 			- A [possible world](https://en.wikipedia.org/wiki/Possible_world) in modal logic is a complete and consistent way the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) is or could have been.
+	- ## light
+	  id:: 671b6c19-7dee-4548-9154-a5eddbe870fc
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-25 Fri 16:59:59]
+	  :END:
+		- ((667d15b7-6364-49a9-ac58-c64d2a992b63)) of ((671b6c19-7dee-4548-9154-a5eddbe870fc))
+		  id:: 671b6f87-7492-4eab-af49-e3c89bc8c860
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((671b6fee-d1e3-43f0-a5a5-7033e48d6e56))
+			- light ray
+			  id:: 671b6fee-d1e3-43f0-a5a5-7033e48d6e56
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((671b6f87-7492-4eab-af49-e3c89bc8c860))
 	- ## view
 	  id:: 66723642-58f1-4a74-bba3-0108f14c6bac
 	  collapsed:: true
@@ -1200,10 +1234,46 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- look
 			  id:: 66c82fd4-41e3-43b0-b850-b2b68be68ad5
 			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) that is made by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to connect an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to an image of that object. This general projection via arrow is called ((670dd4d7-ed37-4954-8379-63138fa072d6)). That arrow can be a cone, hence ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)), or can be implemented by thread winding, hence ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((671b6f87-7492-4eab-af49-e3c89bc8c860)) from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s image of that object. Projection is a special kind of ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) where the target form (image) is more ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) than the source form (object). This general projection via arrow is called ((670dd4d7-ed37-4954-8379-63138fa072d6)). That arrow can be a cone, hence ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)), or can be implemented by thread winding, hence ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
+				- Projection is the foundation of all arrows, defining the direction of arrow.
 				- In maths, a [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) is an [idempotent](https://en.wikipedia.org/wiki/Idempotence) [transformation](https://en.wikipedia.org/wiki/Transformation_(function)).
 			- ((66725725-f76a-4328-b162-f469b87e871b)) [projection (homography)](https://en.wikipedia.org/wiki/Homography) in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) and [mapping](https://en.wikipedia.org/wiki/Function_(mathematics)) in mathematics, [projective object](https://en.wikipedia.org/wiki/Projective_object) in [category theory](https://en.wikipedia.org/wiki/Category_theory)
 			  id:: 66b1cfa4-6de3-4a88-a14f-3265b6fd92e5
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((671b6f87-7492-4eab-af49-e3c89bc8c860)) ⇒ ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) ⇒ ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) ⇒ ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) ⇒ ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) ⇒ ((667d0b78-fff6-49bc-90d5-165648ed56d3)) ⇒ ((66c810a0-9861-4787-bdcf-1378219332be))
+				  id:: 671b5598-42a8-421d-a942-3819be212d50
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-10-25 Fri 15:23:55]
+				  :END:
+					- The **arrow of light** is directed by a *subject*, becoming a **projection**, in the form of **view cone**.
+					  id:: 671b5623-9f23-447f-b5be-5b87e4f72f83
+					- A **transformation** is composed by *many view cones* through many eyes.
+						- ![TransformationByViewcones](https://docs.google.com/drawings/d/e/2PACX-1vQkpgx-mFPxBN8-TEgjmYe3VUhnPDxCoT62R43d3qyz5VzxJoZkZtczBrbMNN3dCEuYSoC9_dpihS0I/pub?w=320)
+					- A **thread** is spun by *transformations of various forms*.
+					- Some threads are *solidified* into **relations** to weave the **body** (memory, knowledge, structure) of the subject itself.
+					- The subject uses the knowledge accumulated in its body to [direct the arrow of light](((671b5623-9f23-447f-b5be-5b87e4f72f83))), and so on.
+				- Arrow of ((66723642-58f1-4a74-bba3-0108f14c6bac))ing is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
+				  collapsed:: true
+					- Development of view over time:
+						- First, an `ex` object is mirrored to its `in` image.
+						  id:: 667aa63e-acc6-41b1-b716-f97a8afe41a1
+						  collapsed:: true
+							- In digital world, it's usually done statically with `copy`, or better dynamically with `embed`, `import`, `transclude`, etc.
+						- The `in` image will be modified to adapt to the needs of the subject, via which it's transformed.
+						  collapsed:: true
+							- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
+							- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
+						- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
+				- DOING ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) = ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a view into a ((667d162c-16cf-44d3-81a5-29b1b885164f)) = compression = phase distinction in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) winding
+				  id:: 671b29b6-68f7-47e1-b79c-f4d6284690a2
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-10-25 Fri 12:16:46]
+				  CLOCK: [2024-10-25 Fri 12:17:20]
+				  :END:
+					- The size of particle = resolution of the screen
+					- ((670cdcb4-3c85-45af-8c30-3c3284ed37df)) = memory of time by mapping the mixed up particles on screen to the linear order of particles in temporal memory
 			- arrow projection
 			  id:: 670dd4d7-ed37-4954-8379-63138fa072d6
 			  the most general type of projection.
@@ -1259,6 +1329,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- cone of cause
 			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is projected to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the image. The direction of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is from base to apex, in opposite to the direction of viewing from apex to base.
+				- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
+				  collapsed:: true
+				  view cone of an ((669a2487-054d-4408-ae41-189e34af81a9))
+					- Projection is the ((671b6f87-7492-4eab-af49-e3c89bc8c860)) from the external world in, denoted by the solid-head arrow.
+					- Viewing arrow is from the eye out, denoted by the hollow-head arrow.
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 			  collapsed:: true
@@ -1703,6 +1779,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- thức
 		  id:: 66f274e4-f9d0-4980-b72f-9593816ec02f
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the form, as ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a **concrete awareness** arises as a new form of qualiton activated from that quantum. The collection of all possible forms arising from all quanta of the content when touching all possible states of the qualiton is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
+		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
 	- ## conscious
 	  id:: 66f267df-e3b0-444b-a721-1225ca59d292
 	  collapsed:: true
@@ -1908,6 +1986,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Only 4 characters: [ㅱ](https://ko.wikipedia.org/wiki/%E3%85%B1) , [ㅸ](https://ko.wikipedia.org/wiki/%E3%85%B8) , [ㅹ](https://ko.wikipedia.org/wiki/%E3%85%B9) , and [ㆄ](https://ko.wikipedia.org/wiki/%E3%86%84)
 								- [Hunminjeongeum's Sungyeongeum](https://en.namu.wiki/w/%EC%88%9C%EA%B2%BD%EC%9D%8C)
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((67174db9-a20b-45ef-94ec-0febf56f60f8))
+						  collapsed:: true
 				- [HTML Entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) = [character reference](https://developer.mozilla.org/en-US/docs/Glossary/Character_reference)
 				  id:: 6716110f-c249-4ff9-b564-ddc2c71b89ba
 				  collapsed:: true
@@ -2118,7 +2197,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
 						- ![Escher - Drawing Hands - 1946.jpg](../assets/Uniinfo/Escher - Drawing Hands - 1946.jpg){:width 200, :height 150}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- The Sanskrit word “śūnyatā” and the Chinese characters “空”, “無” are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
+				- The Sanskrit word “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” and the Chinese characters “空”, “無” are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
 				  id:: 66f3ee6f-9f62-4f7f-ad00-34f5d4b0c800
 					- > “Non-action but nothing is not done!”
 					  「無為而無不為。」
@@ -2238,6 +2317,58 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Universe
+	- ## fluid
+	  id:: 671e2794-7edd-4840-8b5d-d2def6df7666
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e2794-7edd-4840-8b5d-d2def6df7666)) includes both ((671e2778-b438-4114-9c51-aa73bfb0cfe6)) and ((671e277d-2d1e-42c5-8ea7-58e519a69dca)).
+	- ## gas
+	  id:: 671e2778-b438-4114-9c51-aa73bfb0cfe6
+	- ## liquid
+	  id:: 671e277d-2d1e-42c5-8ea7-58e519a69dca
+	- ## condensate
+	  id:: 671e2782-2098-41a3-83a7-e042bfb468d7
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-10-27 Sun 20:29:57]
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((671e31f7-b52b-492c-93cb-3233fa40db5a))
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671e3d98-0006-43be-b714-247f3d3a0c49))
+		- condensed matter
+		  id:: 671e31f7-b52b-492c-93cb-3233fa40db5a
+		  collapsed:: true
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Condensed_matter_physics
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e2782-2098-41a3-83a7-e042bfb468d7)) is (relatively) incompressible, usually includes both ((671e277d-2d1e-42c5-8ea7-58e519a69dca)) and ((669a58b9-8e69-43d2-9f59-fedf31bf0670)).
+		- Etymology: condensate = [con-](https://en.wiktionary.org/wiki/con-#English) + [dense](https://en.wiktionary.org/wiki/dense#English) +‎ [-ate](https://en.wiktionary.org/wiki/-ate#English) = [condensed](https://en.wiktionary.org/wiki/condensed#English).
+		- condensity
+		  id:: 671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec)) is the property of having high density, usually to the degree that it cannot be compressed further.
+		- condense
+		  id:: 671e3d98-0006-43be-b714-247f3d3a0c49
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
+	- ## solid
+	  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
+	  collapsed:: true
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b4cb2-ca87-4e90-89ae-49cebeb573e0))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671b4d62-4337-4557-809c-8693593f1260))
+		- solidity
+		  id:: 671b4cb2-ca87-4e90-89ae-49cebeb573e0
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
+		- solidify
+		  id:: 671b4d62-4337-4557-809c-8693593f1260
+		  collapsed:: true
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((669a58b9-8e69-43d2-9f59-fedf31bf0670))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b4d84-1187-4b5c-8592-3d0db462069b))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((671e25e5-1cf2-467f-bac5-a9901c3c265f))
+			- solidification
+			  id:: 671b4d84-1187-4b5c-8592-3d0db462069b
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b4d62-4337-4557-809c-8693593f1260))
+			- freeze
+			  id:: 671e25e5-1cf2-467f-bac5-a9901c3c265f
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((671b4d62-4337-4557-809c-8693593f1260))
+		- Etymology of `solid`: “Solid” is from the the Proto-Indo-European root [*sol](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)).
 	- ## glass
 	  id:: 66537c37-2d4a-4077-9fcf-45c71755c876
 	  collapsed:: true
@@ -2248,8 +2379,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## crystal
 	  id:: 66537bdd-6c99-4d7b-905a-e2a487cae5ce
 	  collapsed:: true
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Crystal
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A [solid](https://en.wikipedia.org/wiki/Solid "Solid") material whose constituents (such as [atoms](https://en.wikipedia.org/wiki/Atom "Atom"), [molecules](https://en.wikipedia.org/wiki/Molecule "Molecule"), or [ions](https://en.wikipedia.org/wiki/Ion "Ion")) are arranged in [crystal structure](https://en.wikipedia.org/wiki/Crystal_structure)  which is a periodic [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that extends in all directions called ((66537b4c-fa0a-4e95-b854-096e9802aa09)) in math.
+		- crystallize
+		  id:: 671e35d5-231a-4ed4-8c4a-6b200f6ccf20
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537bdd-6c99-4d7b-905a-e2a487cae5ce))
 	- ## lattice
 	  id:: 66537b4c-fa0a-4e95-b854-096e9802aa09
 	  collapsed:: true
@@ -2288,6 +2423,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Abstraction
+		  id:: 6716110e-5f12-4484-97ca-fde30d4ff0d3
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537674-6cf9-4459-8bea-7c1858c694a3)) is the process of abstracting details, i.e. removing details that are irrelevant to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s focus, from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)).
 		-
 	- ## name
@@ -2312,6 +2448,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 669a58b9-b3d0-4cec-abaa-55b6260d914c
 		- types of forms
 		  id:: 66f6682b-744a-49b8-8e11-8e020fc24acc
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-09-27 Fri 15:09:57]--[2024-10-14 Mon 20:55:19] =>  413:45:22
 		  :END:
@@ -2430,22 +2567,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Links: [fb post in Nov 2023](https://www.facebook.com/lexuandinhct/videos/728404692637310), [GeoGebra applet](https://www.geogebra.org/m/j7czr4s5)
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
-			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a source ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a target form.
 			  collapsed:: true
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
 				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
 				- Function/mapping/projection/light-cone is an abstraction of the flow into just 2 ends of that flow.
-				- A ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
-					- Development of view over time:
-						- First, an `ex` object is mirrored to its `in` image.
-						  id:: 667aa63e-acc6-41b1-b716-f97a8afe41a1
-						  collapsed:: true
-							- In digital world, it's usually done statically with `copy`, or better dynamically with `embed`, `import`, `transclude`, etc.
-						- The `in` image will be modified to adapt to the needs of the subject, via which it's transformed.
-						  collapsed:: true
-							- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
-							- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
-						- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
 			- life cycle of form
 			  collapsed:: true
 			  :LOGBOOK:
@@ -2474,7 +2601,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((670dd83a-3b33-4f1c-bce2-b6ab3783a1dd))
 		- transform
 		  id:: 669dd16c-1836-40ec-86e5-772f8f4774ce
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)) includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
+		  collapsed:: true
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)), as a noun, includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
 				- In maths, "transform", like [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform), [integral transform](https://en.wikipedia.org/wiki/Integral_transform), is usually a [transformation](https://en.wikipedia.org/wiki/Transformation_(function)) in [function space](https://en.wikipedia.org/wiki/Function_space), whereas "transformation", like [geometric transformation](https://en.wikipedia.org/wiki/Geometric_transformation), is usually limited to [vector space](https://en.wikipedia.org/wiki/Vector_space).
 	- ## appearance
 	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
@@ -2629,19 +2757,56 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66f949a4-675e-4c43-8da3-f2754ba2e128
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of "the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))": the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), etc. Note that the semantical "extension" here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
+	- ## independent
+	  id:: 671b160c-0589-4f83-a778-a9fb4df6783a
+	  collapsed:: true
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b1616-9958-48d9-95ba-9fc8e76f2867)), ((671b1eef-0820-4e03-8e8f-e9342ca18b26))
+		- independency
+		  id:: 671b1616-9958-48d9-95ba-9fc8e76f2867
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
+		- independence
+		  id:: 671b1eef-0820-4e03-8e8f-e9342ca18b26
+		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b160c-0589-4f83-a778-a9fb4df6783a))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An object A is ((671b160c-0589-4f83-a778-a9fb4df6783a)) from another object B when there is no ((667d0b78-fff6-49bc-90d5-165648ed56d3)) A ← B within the given scope of consideration. ((671b1616-9958-48d9-95ba-9fc8e76f2867)) is always ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to some scope of consideration, and the "absolute independency" is just the independency relative to the universal scope.
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+			- In maths: [independent variable](https://en.wikipedia.org/wiki/Dependent_and_independent_variables), [stochastically independent](https://en.wikipedia.org/wiki/Independence_(probability_theory)), [logically independent](https://en.wikipedia.org/wiki/Independence_(mathematical_logic)), [perpendicular](https://en.wikipedia.org/wiki/Perpendicular), [orthogonal](https://en.wikipedia.org/wiki/Orthogonality), [linear independence](https://en.wikipedia.org/wiki/Linear_independence), [algebraic independence](https://en.wikipedia.org/wiki/Algebraic_independence), [independent set](https://en.wikipedia.org/wiki/Independent_set_(graph_theory)), [disjoint sets](https://en.wikipedia.org/wiki/Disjoint_sets)
+			- In politics: [independence](https://en.wikipedia.org/wiki/Independence), [independent city](https://en.wikipedia.org/wiki/Independent_city), [independent politician](https://en.wikipedia.org/wiki/Independent_politician), etc.
+		- ### orthogonal
+		  id:: 671b206e-c50c-47b0-903d-73e97d512d13
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747))
+			- orthogonality
+			  id:: 671b27ce-a9c8-48d7-b0b5-e056484a6747
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b206e-c50c-47b0-903d-73e97d512d13))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747)) is a special kind of ((671b1616-9958-48d9-95ba-9fc8e76f2867)).
 	- ## relation
 	  id:: 667d0b78-fff6-49bc-90d5-165648ed56d3
 	  collapsed:: true
 	  ((665ca48e-f7c1-4541-b5cf-486d86b02997)) ((66600918-367c-413c-863d-2cf11a89c437))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by an arrow A -> B. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
-		- Variations:
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((671b1669-d31e-4965-adf4-2862cbefdfa8)), ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+		- related
+		  id:: 671b1669-d31e-4965-adf4-2862cbefdfa8
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by two arrows A → B and B → A, which are the ((671b4d84-1187-4b5c-8592-3d0db462069b)) of the corresponding two ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
+		- ((671b18a8-ac11-4930-bed3-645c0cc983a8))
 			- binary relation
 			  id:: 667d0d8e-0873-4440-a97d-b08f9405e769
 				- Example: [binary relation](https://en.wikipedia.org/wiki/Binary_relation) and [relation](https://en.wikipedia.org/wiki/Relation_(mathematics)) in Maths.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		- ### relative
+		  id:: 66c80cbf-6626-4cb7-9b58-8ac3396e03da
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-23 Fri 11:15:34]
+		  :END:
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) 
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60))
+			- relativity
+			  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) can be seen as a sequence of ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) ((667d15b7-6364-49a9-ac58-c64d2a992b63))s, and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply "threads".
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) can be seen as a sequence of ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. Threads are spun from ((671b6c19-7dee-4548-9154-a5eddbe870fc)) just like yarns are spun from fibers.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [execution thread](https://en.wikipedia.org/wiki/Thread_(computing)), [conversation thread](https://en.wikipedia.org/wiki/Thread_(online_communication)), [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), [screw thread](https://en.wikipedia.org/wiki/Screw_thread), [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic))
 		  id:: 66b1cfa4-6ce7-447b-b637-30d86f0e748e
 		- Vietnamese: sợi, mạch
@@ -2664,8 +2829,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Ōṁ-thread [Ω,ॐ], One-thread [Ω,𝟙], Omni-thread or Overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
-			- ### solidity
-			  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
 		-
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
@@ -3650,6 +3813,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-06-11 Tue 10:36:22]--[2024-06-12 Wed 10:17:12] =>  23:40:50
 			  :END:
 				- Use the built-in feature `Export public pages`.
+				  collapsed:: true
 					- Chose a **separate folder** (`$web/`) to checkout the `gh-pages` branch, then export to that folder.
 						- Warning: Don't export to the same folder with the `main` branch (`$src/`), because their contents are very different.
 						- Manually copy the whole `assets` folder from `$src/` to `$web/`
