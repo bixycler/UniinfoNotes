@@ -557,7 +557,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- file management
 			  collapsed:: true
 				- `ls`
-				  lists information about the
+				  lists information about the FILEs (the current directory by default).
+					- `ll` = `ls -lhF`
+					  long listing format
+						- Default columns: file mode bits, ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)),
+						- number of files
+						  id:: 671f4447-71f3-4ae1-b22c-acc16ac67f5b
+							- for directory: number of files & sub-directories in that dir
+							- for file: number of hard links to this ((671f438b-617a-4fc5-88ee-e42f07b67b50))
+					- inode
+					  id:: 671f438b-617a-4fc5-88ee-e42f07b67b50
+					  file index-data node
+						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Inode
 				- `tree`
 				  lists contents of directories in a tree-like format.
 		- ### editors
