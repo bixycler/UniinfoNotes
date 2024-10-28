@@ -4049,6 +4049,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- CANCELLED Publish linear (long-form) docs with ((66695307-1334-426c-b953-3e006bc87d74))
 				  id:: 66695280-1674-477a-b4ff-eb508aa679e0
 				- Because the exported SPA is too large (~90MB including Electron), it's better to write a ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d)).
+				-
 			- Built-in ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 			  id:: 66faa5f9-8ffd-4542-b916-6e3528cabad8
 			  collapsed:: true
@@ -4209,6 +4210,59 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
 				- Supports [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64).
+		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
+		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =>  71:47:28
+		  :END:
+			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6673fb2f-ef98-484a-b289-b50482edea47))
+			- DONE Write [FoldableDemo.html](../assets/HTML/FoldableDemo.html)( ![src](../assets/HTML/FoldableDemo.html), showing `<details> <summary>` & CSS-only method) and [FolderDiv.html](../assets/HTML/FolderDiv.html)( ![src](../assets/HTML/FolderDiv.html), with custom element `<folder-div>`)
+			  id:: 6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-19 Wed 08:27:23]--[2024-06-20 Thu 16:31:09] =>  32:03:46
+			  :END:
+				- This unplanned work is [triggered by](((66600918-9f27-44c2-8188-f043c244710c))):
+					- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
+					  id:: 6673fb2f-ef98-484a-b289-b50482edea47
+					- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
+				- For the new term ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) used in the custom element `<folder-div>`, i [researched](((66602f68-e23f-4b24-921e-b1a9fc0cc731))) ((667407ee-35ae-4d6f-8b58-89c19c0e0936)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6674066a-aeff-45af-96df-b0c2f278a2ae)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))), and drew ((667500cd-a31d-4828-9dc4-93948e27e534)).
+				  collapsed:: true
+			- DONE Write [LogseqUtils.js](../assets/HTML/LogseqUtils.js)( ![src](../assets/HTML/LogseqUtils.js), for posting request to http://localhost:12315/api)
+			  :LOGBOOK:
+			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
+			  :END:
+			- DONE Write [LogseqGet.html](../assets/HTML/LogseqGet.html)( ![src](../assets/HTML/LogseqGet.html), for `logseq.Editor.get{Block,Page}`)
+			  id:: 6675860a-c135-4a92-b4fe-206ebde974ff
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
+			  CLOCK: [2024-06-23 Sun 15:00:17]--[2024-06-23 Sun 15:51:18] =>  00:51:01
+			  :END:
+				- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) I need to know what's in the hidden `:LOGBOOK:`.
+				  id:: 6669a3bd-7059-4e5a-b21b-d96cb3288557
+				  collapsed:: true
+					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
+					  id:: 6669a3bd-5b32-4088-982a-2c359b66610d
+			- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.DB.q`)
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-08-02 Fri 15:00:26]--[2024-08-02 Fri 15:36:01] =>  00:35:35
+			  :END:
+			- DONE `logseq.DB.onChanged` catches block creation and modification events
+			  collapsed:: true
+			  => use it to automatically timestamp newly created blocks.
+				- [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))) uses it for its option `checkWhenDBChanged`
+				  id:: 66faa5fa-9fb9-4211-925b-614e5e63214c
+					- [main.tsx](https://github.com/haydenull/logseq-plugin-git/blob/main/src/main.tsx#L171C1-L176C1)
+					  ```js
+					  if (logseq.settings?.checkWhenDBChanged) {
+					    logseq.DB.onChanged(({ blocks, txData, txMeta }) => {
+					      checkStatusWithDebounce();
+					    });
+					  }
+					  ```
 		- Settings: via [[logseq/config.edn]] and menu `Settings`
 		  collapsed:: true
 			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`)
