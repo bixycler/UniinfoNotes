@@ -12,11 +12,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				-
+				- technical issues
 				-
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- technical issues: check hard-links & ((671f4028-c60f-4791-b716-e5226cdf410e)), HTML -> PDF
+				- check ((671f5617-1163-4ffc-b65a-b3234e471db0)) & ((671f4028-c60f-4791-b716-e5226cdf410e))
+				- HTML -> PDF
 				- ...
 			- ------
 		-

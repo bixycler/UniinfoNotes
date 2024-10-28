@@ -212,8 +212,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$inode_number`
 						- Note: This is just an old POSIX option, and it's much simpler to use ((671f544c-792b-4bd3-bfda-38c8d1fc2b01)) instead!
 						- To use this option, we must find the `$inode_number` first via `ls -i` or `stat -c %i`.
-							- Someone even write [a script](https://superuser.com/a/12976) for this route.
+							- Someone even wrote [a script](https://superuser.com/a/12976) using this method.
+							  collapsed:: true
 								- ```sh
+								  #!/bin/bash
+								  if [[ $# -lt 1 ]] ; then
+								      echo 'Usage: find-hard-links $target [$target2 ...]'
+								      exit 1
+								  fi
+								  
+								  while [[ $# -ge 1 ]] ; do
+								      echo "Processing '$1'"
+								      if [[ ! -r "$1" ]] ; then
+								          echo "   '$1' is not accessible"
+								      else
+								          numlinks=$(stat -c '%h' "$1")
+								          inode=$(stat -c '%i' "$1")
+								          mount=$(stat -c '%m' "$1")
+								          echo "   '$1' has inode ${inode} on mount point '${mount}'"
+								          find ${mount} -inum ${inode} 2>/dev/null | sed 's/^/        /'
+								      fi
+								      shift
+								  done
 								  ```
 				- `ln`
 				  collapsed:: true
