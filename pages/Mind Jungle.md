@@ -133,6 +133,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
 				-
+		- ### concepts
+		  collapsed:: true
+			- file mode bits
+id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
+			  shown in ((671f4355-d2ad-46ca-af05-db330a8a4fec)) and in ((671f50a5-2987-4e65-b28d-7b08bdcf0a06))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
+				- First char: file type {`-`,`d`,`l`,`p`,`s`,`c`,`b`} = {regular file, directory, symlink, FIFO named pipe, socket, character stream (terminal), random-access block device (disk)}
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unix_file_types
+				- Last 3×3 chars: (owner, group, other)×(`r`,`w`,{`x`,`s`,`S`})
+					- `r` = readable, `w` = writable
+					- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
+			- inode
+			  id:: 671f438b-617a-4fc5-88ee-e42f07b67b50
+			  file index-data node
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Inode
+				- hard link
+				  id:: 671f5617-1163-4ffc-b65a-b3234e471db0
+				  is just an alias, i.e. a full-path-name, for an ((671f438b-617a-4fc5-88ee-e42f07b67b50)).
+					- All aliases are equivalent, no source/main name like ((671f5784-d89b-4a4a-a6e7-f02a0805322f)).
+					- `mv`/`rm` just move/remove names, not the inode. The inode is only removed when there's no name pointing to it.
+			- symbolic link
+			  id:: 671f5784-d89b-4a4a-a6e7-f02a0805322f
 		- ### shell
 			- `man [-k]`, `info`, `[run-]help`, `apropos`
 			  collapsed:: true
@@ -557,19 +579,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- file management
 			  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 			  collapsed:: true
-				- file mode bits
-				  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
-				  shown in ((671f4355-d2ad-46ca-af05-db330a8a4fec)) and in ((671f50a5-2987-4e65-b28d-7b08bdcf0a06))
-					- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
-					- First char: file type {`-`,`d`,`l`,`p`,`s`,`c`,`b`} = {regular file, directory, symlink, FIFO named pipe, socket, character stream (terminal), random-access block device (disk)}
-						- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unix_file_types
-					- Last 3×3 chars: (owner, group, other)×(`r`,`w`,{`x`,`s`,`S`})
-						- `r` = readable, `w` = writable
-						- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
-				- inode
-				  id:: 671f438b-617a-4fc5-88ee-e42f07b67b50
-				  file index-data node
-					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Inode
 				- `ls`
 				  lists information about the FILEs (the current directory by default).
 					- `ll` = `ls -lhF`
@@ -592,11 +601,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `find`
 				  search for files in a directory hierarchy
 					- `-samefile $ref_file`
-					  find hard links to `$ref_file`
+					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$ref_file`
 				- `ln`
 				  make links (hard & symbolic) between files
-					- default is to make hard link.
+					- default is to make ((671f5617-1163-4ffc-b65a-b3234e471db0)).
 					- `slink` = `ln -sv` (`--symbolic --verbose`)
+					  creates ((671f5784-d89b-4a4a-a6e7-f02a0805322f)) to this file.
 				- `df`
 				  report file system disk space usage
 				- `du`
