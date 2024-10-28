@@ -2117,15 +2117,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 			- `pages/share/**` are hard-linked to other projects (graphs)
 				- [technical/Git]([[Git]]): **2 links**
-					- `${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md`: UniinfoNotes
-					- `${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md`: Linux logseq-notes
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/pages/share/technical/Git.md`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md`: Linux logseq-notes
 					- `diff` check first
 						- ```sh
-						  gdiff "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
+						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
 						  ```
 					- then `ln`
 						- ```sh
-						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
+						  ```
+				- [technical/JavaScript.md]([[JavaScript]]): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
 						  ```
 				- [[Theme Demo]]: **2 links**
 				  collapsed:: true
