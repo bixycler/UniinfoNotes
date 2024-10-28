@@ -156,7 +156,9 @@ id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 					- MacOS and some (old) Linux distributions allow hard link of directory, but most modern Linux distributions prohibit it due to its ambiguousness
 			- symbolic link (symlink)
 			  id:: 671f5784-d89b-4a4a-a6e7-f02a0805322f
-				- Windows' equivalence: shortcut
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Symbolic_link
+				- Mimics: Windows' shortcut, Git's
+				- Equivalence: [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
 		- ### commands
 			- process handling
 			  collapsed:: true
@@ -1950,6 +1952,7 @@ id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This meta-note about UniinfoNotes is a note in UniinfoNotes itself.
 		- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/bixycler/UniinfoNotes
+		  id:: 6716110f-7e02-4e39-b372-4e627e8358e6
 			- `main` branch
 			  id:: 67138523-d69f-4836-bff7-e464d913b6eb
 			  collapsed:: true
@@ -2009,7 +2012,7 @@ id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 			- `assets/`
 			  id:: 66fe77c8-05b8-44b2-bf66-b8d62b005a3d
 			  contains all materials to be embedded/included in [Markdown pages](((66fe69b2-bd2a-4e7e-b4fb-953d62374db7))).
-		- Hard links
+		- ((671f5617-1163-4ffc-b65a-b3234e471db0))s in ((666baccf-6be1-4b9a-b186-f883ea04daf1))
 		  id:: 66978876-9378-4059-8783-868d041e8e2e
 			- `logseq/{config.edn,custom.css}` and global `.logseq/config/config.edn` are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
 			- pages hard-linked to other projects (graphs)
