@@ -2115,26 +2115,30 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
 						  ```
-			- pages hard-linked to other projects (graphs)
-				- [[logseq/config.edn]]
-				- `${HOME}/source/UniinfoNotes/assets/logseq/custom.css`: theme: **3 links**
-					- `${HOME}/source/UniinfoNotes/logseq/custom.css`: UniinfoNotes
-					- `${HOME}/opt/personal/logseq-notes/logseq/custom.css`: Linux logseq-notes
+			- `pages/share/**` are hard-linked to other projects (graphs)
+				- [technical/Git]([[Git]]): **2 links**
+					- `${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md`: Linux logseq-notes
 					- `diff` check first
-					  collapsed:: true
 						- ```sh
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
+						  gdiff "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
 					- then `ln`
-					  collapsed:: true
 						- ```sh
-						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
-						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
-				- [[logseq/custom.css]]
-				- [`pages/publish/Theme Demo.md`]([[Theme Demo]])
-				- [`pages/publish/technical/Git.md`]([[Git]])
+				- [[Theme Demo]]: **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
+						  ```
 			- Workflow
 				- Never do any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
 				- Always update hard-linked files from local repos.
