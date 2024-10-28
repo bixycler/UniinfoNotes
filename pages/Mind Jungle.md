@@ -208,9 +208,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- `-samefile $ref_file`
 					  id:: 671f544c-792b-4bd3-bfda-38c8d1fc2b01
 					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$ref_file`
-					- `-inode $inode_number`
+					- `-inum $inode_number`
 					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$inode_number`
-						-
+						- Note: This is just an old POSIX option, and it's much simpler to use ((671f544c-792b-4bd3-bfda-38c8d1fc2b01)) instead!
+						- To use this option, we must find the `$inode_number` first via `ls -i` or `stat -c %i`.
+							- Someone even write [a script](https://superuser.com/a/12976) for this route.
+								- ```sh
+								  ```
 				- `ln`
 				  collapsed:: true
 				  make links (hard & symbolic) between files
