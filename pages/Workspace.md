@@ -12,15 +12,21 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
+				- projection as basis of arrow, ((671efcf8-b18a-4b37-b56b-0cb0780c8302)), qualiton
 				-
+				- ((671b5598-42a8-421d-a942-3819be212d50))
+				- ((671d06ba-cb96-4424-9bee-4e6327ba7f9d))
+				  id:: 671efcf8-b18a-4b37-b56b-0cb0780c8302
+				- Clarify about ((66e43b94-9183-4d49-af85-8a7a1c194c12)) and ((66e43ebf-bbaa-4bfc-9601-a5ee40398677))
+				- ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) & ((671e0f99-c35c-45f3-9f80-4d9cf00063de)), ((671e1608-1350-4e87-99b6-5492cc6fb449)) & ((671e1634-9974-4845-b4bc-449ea3fe106a)), reword ((671b4cb2-ca87-4e90-89ae-49cebeb573e0)) → ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec))
+				- ((66f267f7-01f9-47b9-8376-abd27fdf2930))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ...
 			- ------
-		- ... the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is emerging inside...
-			- ... but the time is restricted...
 		-
 		-
+		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
 		-
 		- DOING symbols for ((66c8941d-6427-4e5c-9009-3af349500d7b))
