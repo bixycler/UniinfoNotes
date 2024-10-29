@@ -2153,7 +2153,31 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ```sh
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
-			- Some pages in `assets/HTML/`
+			- Some pages in `assets/HTML/` are hard-linked to other projects (graphs)
+				- [markdown-watcher.html](../assets/HTML/markdown-watcher.html): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html"
+						  ```
+				- [diagram-watcher.html](../assets/HTML/diagram-watcher.html): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/assets/docs/diagram-watcher.html`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/diagram-watcher.html"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/diagram-watcher.html"
+						  ```
 			- Workflow
 				- Never do any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
 				- Always update hard-linked files from local repos.

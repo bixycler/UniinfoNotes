@@ -1,0 +1,412 @@
+<html>
+<head>
+    <title>Markdown Watcher</title>
+    <style>
+        form {
+            font-family: sans-serif;
+        }
+        input, select, button {
+            margin: 2px 3px 2px 3px;
+        }
+    </style>
+    <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
+    <!--link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/styles/github.min.css"-->
+    <script src="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/highlight.min.js"></script>
+    <script src="https://docraptor.com/docraptor-1.0.0.js"></script>
+    <script src="https://unpkg.com/modern-screenshot"></script>
+</head>
+<body>
+
+<form id="control">
+    <b>
+        <label for="mdf">Markdown</label>
+        <input type="text" id="mdf" name="mdf" value="temp.md" placeholder="file name (path, URI)" style="font-weight:bold;" size="20">
+    </b>
+    <br>
+    <label for="renderChoice">Render as</label>
+    <select id="renderChoice" name="renderChoice" value="object">
+        <option value="html" id="optAsHtml">HTML Page</option>
+        <option value="pdf" id="optAsPdf">PDF Document</option>
+        <option value="image" id="optAsPng">Raster Image</option>
+    </select>
+    <br>
+    <button id="butLoadNow">Load Now!</button>
+    <button id="butToggleWatching" name="watch" value="">Start Watching</button>
+    <button id="butExport">Export</button>
+    <a id="exportUrl" href="" download="temp.md" style="display:none">exported file</a>
+    <details><summary id="watchStatus"></summary>
+        <label for="reloadInterval">Reload every</label>
+        <input type="number" id="reloadInterval" name="reloadInterval" value="500" style="width:5em;"> miliseconds
+    </details>
+</form>
+<div id="message" style="display: none"></div>
+
+<div id="content" style="border:1px; border-style:solid; border-color:green;">
+    <div id="mdhtml" style="padding: 1em 1em 1em 1em;"></div>
+    <div id="mdpdf" style="padding: 1em 1em 1em 1em;"></div>
+    <img id="mdimg" src="">
+</div>
+
+<script>
+    //// libraries:
+    // highlight.js:
+    //const hljs = window.hljs
+    // markdown-it.js:
+    const mdi = window.markdownit({
+        html: true, // allow HTML tags in markdown code
+        linkify: true, // parse link-like texts
+        typographer: true, // replace (c) by © etc.
+        highlight: function(str, lang) {
+            if (!lang || !hljs.getLanguage(lang)) {
+                return ''; // use external default escaping
+            }
+            return hljs.highlight(str, {language:lang}).value;
+        },
+    });
+    // docraptor-1.0.0.js
+    const toPdf = function() {
+        DocRaptor.createAndDownloadDoc("m7Dhrn_AsezV94C3VL-B", {
+            test: true, // test documents are free, but watermarked
+            type: "pdf",
+            document_content: mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML, 
+            // javascript: true, // enable JavaScript processing 
+            // prince_options: {
+                // use screen styles instead of print styles
+            //   media: "screen",                                       
+            // }
+        })
+      }
+    // modern-screenshot
+    const domto = window.modernScreenshot;
+
+    /////// DOMs
+
+    /* // getElementById() is redundant!
+    const control = document.getElementById("control");
+    const mdf = document.getElementById("mdf");
+    const mdhtml = document.getElementById("mdhtml");
+    const mdpdf = document.getElementById("mdpdf");
+    const mdimg = document.getElementById("mdimg");
+    const renderChoice = document.getElementById("renderChoice");
+    const optAsHtml = document.getElementById("optAsHtml");
+    const optAsPdf = document.getElementById("optAsPdf");
+    const optAsPng = document.getElementById("optAsPng");
+    const message = document.getElementById("message");
+    const butLoadNow = document.getElementById("butLoadNow");
+    const reloadInterval = document.getElementById("reloadInterval");
+    const butToggleWatching = document.getElementById("butToggleWatching");
+    const butExport = document.getElementById("butExport");
+    const exportUrl = document.getElementById("exportUrl");
+    const markdown_style = document.getElementById("markdown_style");
+    const pdf_style = document.getElementById("pdf_style");
+    //*/
+
+    /////// Events
+
+    mdf.addEventListener("input", (e)=>{load(true)});
+    renderChoice.addEventListener("change", (e)=>{load(true)});
+    butLoadNow.addEventListener("click", (e)=>{e.preventDefault(); load(true);});
+    butToggleWatching.addEventListener("click", toggleWatching);
+    butExport.addEventListener("click", (e)=>{e.preventDefault(); exportFile();});
+    mdimg.addEventListener("error", loadError);
+
+    window.addEventListener("DOMContentLoaded", loadPage);
+    reloadInterval.addEventListener("change", rewatch);
+
+    let loopId = 0;
+    let oblob = new Blob();
+    let params = {}; //FormData.entries()
+
+    /** The "god function" */
+    async function load(forced) {
+        let fn = mdf.value.trim();
+
+        // update title & URLs
+        document.title = (fn ? fn : 'Markdown') + ' ' + butToggleWatching.value;
+        if (!fn) {
+            return
+        }
+        let ps = getParams();
+        if (forced || ps.new) {
+            delete ps.new;
+            window.history.replaceState(ps, '', '?' + new URLSearchParams(ps).toString());
+            exportUrl.download = fn.split('/').at(-1).split('?').at(0);
+        }
+
+        // loaf mdf tagged with timestamp
+        let freq = fn + '?ts=' + new Date().getTime();
+        let res = await fetch(freq, {mode: "no-cors"});
+        //console.debug(`fetch(${freq})`,res);
+        if (!res.ok) {
+            //console.log('Fetch error:',res);
+            loadError(res.statusText);
+            return;
+        } else {
+            message.innerHTML = '';
+            message.style.display = 'none';
+        }
+        let blob = await res.blob();
+        if (!forced && equal(blob, oblob)) {
+            return
+        }
+        oblob = blob;
+        console.debug(`fetch(${freq})`, blob);
+        // blob URL will be stored in `exportUrl` and updated in cascade
+        exportUrl.href = URL.createObjectURL(blob);
+
+        // check MIME type
+        if(!['text/markdown','text/x-markdown','text/plain'].includes(blob.type.split(';')[0])) {
+            console.log('Unrecognized markdown type: "', blob.type, '" from', res.url);
+            return;
+        }
+
+        // convert markdown -> HTML/PDF -> SVG/PNG
+        mdhtml.style.display = 'none';
+        mdpdf.style.display = 'none';
+        mdimg.style.display = 'none';
+
+        let md = await blob.text();
+        mdhtml.innerHTML = mdi.render(md);
+        // update `exportUrl`
+        let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
+        updateURL(b);
+        if(renderChoice.value=='html'){
+            mdhtml.style.display = 'block';
+            exportUrl.download = exportUrl.download.replaceAll('.md','.html');
+        } else if(renderChoice.value=='pdf'){
+            mdpdf.style.display = 'block';
+            exportUrl.download = exportUrl.download.replaceAll('.md','.pdf');
+        }
+
+    }
+    function loadError(msg){
+        message.innerHTML = 'Markdown loading error' + (typeof(msg)==='string'? ': '+msg: '!');
+        message.style.display = 'block';
+        message.style.color = 'brown';
+
+        /* Chrome console error messages: GET ... {net:ERR_*, 404 (Not Found), ...}
+        - Issue: those messages are browser's native and **cannot be controlled** by javascript (even they are properly catched/handlled in the script).
+        - Chorme's solution: console config > check "Hide network"
+        - Note that `mdimg.src = freq` is actually a GET request in disguise!
+        */
+    }
+    function watch(){
+        load(false);
+        loopId = setInterval(load, reloadInterval.value, false);
+    }
+    function stop(){
+        // update title & URL
+        document.title = mdf.value +' '+ butToggleWatching.value;
+        let ps = getParams();
+        delete ps.new;
+        window.history.replaceState(ps, '', '?' + new URLSearchParams(ps).toString());
+        clearInterval(loopId);
+    }
+    function rewatch(){
+        stop();
+        if(butToggleWatching.value!='watching'){ return }
+        watch();
+    }
+    function toggleWatching(event){
+        if(typeof event == 'string'){
+            butToggleWatching.value = (event=='watching')? 'stopped': 'watching';
+        }else{
+            event.preventDefault();
+        }
+        if(butToggleWatching.value=='watching'){
+            butToggleWatching.value = watchStatus.innerText = 'stopped';
+            butToggleWatching.innerText = 'Restart Watching';
+            stop();
+        }else{
+            butToggleWatching.value = watchStatus.innerText = 'watching';
+            butToggleWatching.innerText = 'Stop Watching';
+            watch();
+        }
+    }
+    function exportFile(){
+        // window.showSaveFilePicker(); // this Experimental does not work
+        // just use the good old hack of "click the download-link"
+        if(renderChoice.value=='pdf'){
+            toPdf();
+            return;
+        }
+        exportUrl.click();
+    }
+
+    /////// URL history (states)
+
+    function setParams(params){
+        let watchSet = false;
+        console.log('setParams', params);
+        if(params.mdf){ mdf.value = params.mdf };
+        if(params.renderChoice){ renderChoice.value = params.renderChoice };
+        if(params.reloadInterval){ reloadInterval.value = params.reloadInterval };
+        if(params.watch){ toggleWatching(params.watch); watchSet = true; };
+        return watchSet;
+    }
+
+    function getParams(){
+        let form = new FormData(control, butToggleWatching);
+        let ps = Object.fromEntries(form.entries());
+        ps.new = !(ps.mdf===params.mdf
+            && ps.renderChoice===params.renderChoice
+            && ps.reloadInterval===params.reloadInterval
+            && ps.watch===params.watch);
+        params = ps;
+        //console.log('getParams', params);
+        return params;
+    }
+
+    function loadPage() {
+        let query = window.location.href.split('?')[1] || '';
+        let sp = new URLSearchParams(query);
+        setParams(Object.fromEntries(sp.entries()));
+        load(true);
+    }
+
+    /////// utilities
+
+    function eventPromise(dom, eventName) {
+        return new Promise(resolve =>{
+            dom.addEventListener(eventName, event =>{ resolve(event); }, {once:true})
+        })
+    }
+
+    function equal(blob1, blob2) {
+        if(blob1==blob2){ return true; }
+        if(blob1&&!blob2 || blob2&&!blob1){ return false; }
+        if(blob1.type != blob2.type){ return false; }
+        if(blob1.size != blob2.size){ return false; }
+        let a1 = new Int8Array(blob1);
+        let a2 = new Int8Array(blob2);
+        for(let i=0; i<a1.length; i++){
+            if(a1[i] != a2[i]){ return false; }
+        }
+        return true;
+    }
+
+    function updateURL(obj){
+        let url = null;
+        if(obj instanceof Blob) {
+            url = URL.createObjectURL(obj);
+        }else if(obj instanceof HTMLCanvasElement) {
+            url = obj.toDataURL("image/png");
+        }
+        if(!url){ return null; }
+        URL.revokeObjectURL(exportUrl.href); // don't litter garbage :)
+        exportUrl.href = url;
+        return url;
+    }
+
+</script>
+
+</body>
+
+<style id="pdf_style">
+    @page {
+        size: 30cm 40cm; /* A4: 21x30 */
+        margin: 20px;
+    }
+</style>
+
+<style id="markdown_style">
+    ul, ol {
+        padding-inline-start: 0px; /*browser default: 40px*/
+        /*margin-left: -20px;*/
+        margin-left: 20px; /*Prince PDF default: 50+px*/
+    }
+    pre {
+        background: #eeeeee;
+        padding: 10px;
+    }
+    code {
+        background: #eeeeee;
+        padding: 0 2px 0 2px;
+    }
+
+    pre code {
+        display: block;
+        overflow-x: auto;
+    }
+
+    code.hljs {
+        padding: 3px 5px
+    }
+
+    /*!
+      Theme: GitHub
+      Description: Light theme as seen on github.com
+      Author: github.com
+      Maintainer: @Hirse
+      Updated: 2021-05-15
+
+      Outdated base version: https://github.com/primer/github-syntax-light
+      Current colors taken from GitHub's CSS
+    */
+    .hljs {
+        color: #24292e;
+        background: #fff
+    }
+
+    .hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_ {
+        color: #d73a49
+    }
+
+    .hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_ {
+        color: #6f42c1
+    }
+
+    .hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable {
+        color: #005cc5
+    }
+
+    .hljs-meta .hljs-string,.hljs-regexp,.hljs-string {
+        color: #032f62
+    }
+
+    .hljs-built_in,.hljs-symbol {
+        color: #e36209
+    }
+
+    .hljs-code,.hljs-comment,.hljs-formula {
+        color: #6a737d
+    }
+
+    .hljs-name,.hljs-quote,.hljs-selector-pseudo,.hljs-selector-tag {
+        color: #22863a
+    }
+
+    .hljs-subst {
+        color: #24292e
+    }
+
+    .hljs-section {
+        color: #005cc5;
+        font-weight: 700
+    }
+
+    .hljs-bullet {
+        color: #735c0f
+    }
+
+    .hljs-emphasis {
+        color: #24292e;
+        font-style: italic
+    }
+
+    .hljs-strong {
+        color: #24292e;
+        font-weight: 700
+    }
+
+    .hljs-addition {
+        color: #22863a;
+        background-color: #f0fff4
+    }
+
+    .hljs-deletion {
+        color: #b31d28;
+        background-color: #ffeef0
+    }
+</style>
+</html>
