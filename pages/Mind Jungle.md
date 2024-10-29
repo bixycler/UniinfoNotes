@@ -4052,23 +4052,31 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Because the exported SPA is too large (~90MB including Electron), it's better to write a ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d)).
 				- Manually publish with ((67161c46-5a7d-495a-9e04-95db62b6c676)) and ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)) or ((6716110f-c747-4dbe-9af4-5ebee764c436)) commands:
 				  id:: 671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf
-				  draft note → published note → published Markdown → HTML → PDF → →
+				  draft note → published note → published Markdown → HTML → PDF
 					- First, copy the block to be published to a page in `pages/publish/`, e.g. [[Logseq publish]].
 						- Copy to external text editor to get text of block refs.
 						- Copy `{{embed}}`ed contents
 						- Remove additional notes & tasks
 					- Then, load the published note to converter script
-						- preprocess markdown → published Markdown
+						- publish Markdown
 							- unitemize headers & remove first tabs
 							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
+							- process block ref -> `#`anchor link
+								- Detect unresolved refs
 							- replace items bullets with numbers
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
 							- process/check external links to relative paths: `assets`, `publish`, etc.
 							- process code block for strict conventions like in GitLab
-						- markdown -> HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
-						- process block ref -> `#`anchor link
-							- Detect unresolved refs
+						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
+						- HTML → PDF: using DocRaptor
+							- Pagination for PDF: Summary & Details
+								- Summary: each headings has a link (whole text or `...`) to the item in Details
+							- Reduce list indent
+								- Browser default: `padding-inline-start: 40px;`
+								- [Prince](https://www.princexml.com/doc/styling/#lists) default: `margin-left: 52px;`
+								- ⇒ reset `padding-inline-start: 0px;` and set `margin-left: 20px;`
 					- Or, process content with vim commands
+					  collapsed:: true
 						- remove `:logbook:` and properties
 						  ```vim
 						  %s/^\s*:\(logbook\|LOGBOOK\):\_.\{-}\s*:END:\n//
@@ -4701,6 +4709,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- #### Apache
 			- #### NGINX
 		-
+	- ## Portable Document Format
+	  id:: 6720be1c-fb4d-47a9-9dbd-d5cc87cec103
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6720be20-0d0e-478d-bdbe-1b6d33d126a0))
+		- PDF
+		  id:: 6720be20-0d0e-478d-bdbe-1b6d33d126a0
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6720be1c-fb4d-47a9-9dbd-d5cc87cec103))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/PDF
 	- ## Google Chrome
 	  collapsed:: true
 	  :LOGBOOK:
