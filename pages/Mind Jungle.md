@@ -2608,7 +2608,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: c6770550-24e0-453d-9159-5040ce045c5f
 		- ((66725725-f76a-4328-b162-f469b87e871b))
 			- Foldable [code block](https://en.wikipedia.org/wiki/Block_(programming))s in [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or blocks of text in [text editor](https://en.wikipedia.org/wiki/Text_editor)s
-			- The ((665361eb-5339-451e-957d-362b946d796d)) [`<summary>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) within the `<details>` tag
+			- The ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)) [`<summary>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) within the `<details>` tag
 			- [Directory](https://en.wikipedia.org/wiki/Directory_(computing)) in collapsible ((667252dc-e610-4d07-bcd0-9ea6fb4499fd))
 			- [File folder](https://en.wikipedia.org/wiki/File_folder) that holds [papers](https://en.wikipedia.org/wiki/Paper "Paper") together
 			- The [tab](https://en.wikipedia.org/wiki/Tab_(interface)) in [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
@@ -3358,7 +3358,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Obsidian community plugin: [webpage-html-export](obsidian://show-plugin?id=webpage-html-export)
 					- GitHub: https://github.com/KosmosisDire/obsidian-webpage-export
 					- Forum: https://forum.obsidian.md/t/html-export-plugin/51743
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Export to ((665361eb-5339-451e-957d-362b946d796d)) format.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Export to ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)) format.
 				- Obsidian Git
 				  id:: 6653743f-8847-4b24-8c21-795c87254eb2
 				  collapsed:: true
@@ -4567,7 +4567,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Markup_language
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A language to mark text content up with special marks and/or syntax to add metadata like meaning, style, structure to the document.
-		- ((66725725-f76a-4328-b162-f469b87e871b)) ((665361eb-5339-451e-957d-362b946d796d)), ((6653624a-5679-4bc5-bd7e-fdee34516314)), ((66536274-abb0-4f8e-8fa1-da2d4224b7ff)), ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), ...
+		- ((66725725-f76a-4328-b162-f469b87e871b)) ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)), ((6720c001-a22b-47e9-93f6-c0b65d389dfd)), ((66536274-abb0-4f8e-8fa1-da2d4224b7ff)), ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), ...
 	- ## email
 	  id:: 66536383-8033-4105-8cbf-2c1316382df4
 	  collapsed:: true
@@ -4643,13 +4643,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6710fd6d-e8fb-4b24-b280-726187b7c6ce
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6710fcba-e545-4f3d-b74b-4373280534d9))
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://vnuhcm.edu.vn/
-	- ## XML
+	- ## Extensible Markup Language
 	  id:: 6653624a-5679-4bc5-bd7e-fdee34516314
 	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6720c001-a22b-47e9-93f6-c0b65d389dfd))
+		- XML
+		  id:: 6720c001-a22b-47e9-93f6-c0b65d389dfd
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6653624a-5679-4bc5-bd7e-fdee34516314))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/XML
-	- ## HTML
+	- ## Hypertext Markup Language
 	  id:: 665361eb-5339-451e-957d-362b946d796d
 	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb))
+		- HTML
+		  id:: 6720bf1a-fa1f-4c1d-ba6f-2527a47621eb
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((665361eb-5339-451e-957d-362b946d796d))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/HTML
 		- Flexbox
 			- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -4717,6 +4725,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6720be20-0d0e-478d-bdbe-1b6d33d126a0
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6720be1c-fb4d-47a9-9dbd-d5cc87cec103))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/PDF
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) . Nowadays, PDF has been supported by major browsers, both ``
+		- HTML to PDF conversion
+		  collapsed:: true
+			-
 	- ## Google Chrome
 	  collapsed:: true
 	  :LOGBOOK:
