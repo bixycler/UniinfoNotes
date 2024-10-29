@@ -4050,9 +4050,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- CANCELLED Publish linear (long-form) docs with ((66695307-1334-426c-b953-3e006bc87d74))
 				  id:: 66695280-1674-477a-b4ff-eb508aa679e0
 				- Because the exported SPA is too large (~90MB including Electron), it's better to write a ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d)).
-				- Manually publish with ((67161c46-5a7d-495a-9e04-95db62b6c676)) & ((6716110f-c747-4dbe-9af4-5ebee764c436)) commands:
+				- Manually publish with ((67161c46-5a7d-495a-9e04-95db62b6c676)) and ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)) or ((6716110f-c747-4dbe-9af4-5ebee764c436)) commands:
 				  id:: 671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf
+				  draft note → published note → published Markdown → HTML → PDF
 					- First, copy the block to be published to a page in `pages/publish/`, e.g. [[Logseq publish]].
+						- Copy to external text editor to get text of block refs.
+						- Copy `{{embed}}`ed contents
+						- Remove additional notes & tasks
 					- Next, process content wit vim commands
 					  ```vim
 					  %s/^\s*:\(logbook\|LOGBOOK\):\_.\{-}\s*:END:\n//| %s/^\t\(.*\)/\1/| %s/^\t\(.*\)/\1/| %s/^- ## \(.*\)/\r## \1\r/| %s#../assets/projects/java17/aal_gw/##g| %s#(publish/projects/java17/aal_gw/\([^)]*\))#(\1.md)#g
@@ -4759,6 +4763,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd)) is the place where the ((66fe70ac-04d0-45b5-b771-b072cc0fa7be)) is taken placed.
 	- JavaScript
+	  id:: 6716110e-aa2d-41c9-8ae3-be3ceed55407
 	  collapsed:: true
 		- moved to ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 -
