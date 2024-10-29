@@ -2153,6 +2153,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ```sh
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
+			- Some pages in `assets/HTML/`
 			- Workflow
 				- Never do any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
 				- Always update hard-linked files from local repos.
@@ -4068,10 +4069,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- process/check external links to relative paths: `assets`, `publish`, etc.
 							- process code block for strict conventions like in GitLab
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
-						- ((6720c0a4-0294-4065-8016-9853e2a04475)) using DocRaptor
+						- ((6720c0a4-0294-4065-8016-9853e2a04475)) using [DocRaptor](https://docraptor.com/)
+						  id:: 6720bd22-c2f9-42c7-a6e9-99bc51a92225
 							- Pagination for PDF: Summary & Details
 								- Summary: each headings has a link (whole text or `...`) to the item in Details
 							- Reduce list indent
+							  collapsed:: true
 								- Browser default: `padding-inline-start: 40px;`
 								- [Prince](https://www.princexml.com/doc/styling/#lists) default: `margin-left: 52px;`
 								- ⇒ reset `padding-inline-start: 0px;` and set `margin-left: 20px;`
