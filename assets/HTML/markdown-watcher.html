@@ -81,10 +81,19 @@
             //"media": "screen" // use screen styles instead of print styles
         }
     }
+    const Request = {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: '',
+    }
     async function toPdf() {
         DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
 
-        let res = await fetch(DocRaptorRequest);
+        let req = structuredClone(Request); req.body = DocRaptorRequest;
+        let res = await fetch(DocRaptorUrl, req);
         console.debug(`fetch(${DocRaptorRequest})`,res);
         if (!res.ok) {
             //console.log('Fetch error:',res);
