@@ -66,7 +66,7 @@
     // DocRaptor
     const DocRaptorApiKey = "m7Dhrn_AsezV94C3VL-B";
     const DocRaptorUrl = `https://${DocRaptorApiKey}@api.docraptor.com/docs`;
-    const DocRaptorQuery = {
+    const DocRaptorRequest = {
         // Test documents are free, but watermarked **nicely** at the top & bottom of each page
         "test": true,
         // Give a name for the docs 
@@ -81,8 +81,23 @@
             //"media": "screen" // use screen styles instead of print styles
         }
     }
-    const toPdf = function() {
+    async function toPdf() {
+        DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
 
+        let res = await fetch(DocRaptorRequest);
+        console.debug(`fetch(${DocRaptorRequest})`,res);
+        if (!res.ok) {
+            //console.log('Fetch error:',res);
+            loadError(res.statusText);
+            return;
+        } else {
+            message.innerHTML = '';
+            message.style.display = 'none';
+        }
+        let blob = await res.blob();
+        console.debug(`fetch(${DocRaptorRequest})`, blob);
+        // blob URL will be stored in `exportUrl` and updated in cascade
+        exportUrl.href = URL.createObjectURL(blob);
     }
     // modern-screenshot
     const domto = window.modernScreenshot;
