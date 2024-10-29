@@ -65,7 +65,7 @@
     });
     // DocRaptor
     const DocRaptorApiKey = "m7Dhrn_AsezV94C3VL-B";
-    const DocRaptorUrl = `https://${DocRaptorApiKey}@api.docraptor.com/docs`;
+    const DocRaptorUrl = `https://api.docraptor.com/docs`;
     const DocRaptorRequest = {
         // Test documents are free, but watermarked **nicely** at the top & bottom of each page
         "test": true,
@@ -75,11 +75,11 @@
         "document_content": "", 
         // or via a URL
         //"document_url": "http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html", 
-        "javascript": true, // for HTML display before convertion
+        //"javascript": true, // for HTML display before convertion
         "type": "pdf", // Output type can be "pdf" or "xls" or "xlsx"
-        "prince_options": {
+        //"prince_options": {
             //"media": "screen" // use screen styles instead of print styles
-        }
+        //}
     }
     const Request = {
         method: 'POST',
@@ -87,14 +87,17 @@
           'Accept': 'application/json',
           'Content-Type': 'application/json'
         },
+        mode: "no-cors",
         body: '',
     }
     async function toPdf() {
         DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
 
-        let req = structuredClone(Request); req.body = DocRaptorRequest;
+        let req = structuredClone(Request); 
+            req.headers.Authorization = `Basic ${btoa(DocRaptorApiKey)}`;
+            req.body = DocRaptorRequest;
         let res = await fetch(DocRaptorUrl, req);
-        console.debug(`fetch(${DocRaptorRequest})`,res);
+        console.debug('toPdf() fetch',DocRaptorRequest,res);
         if (!res.ok) {
             //console.log('Fetch error:',res);
             loadError(res.statusText);
@@ -104,7 +107,7 @@
             message.style.display = 'none';
         }
         let blob = await res.blob();
-        console.debug(`fetch(${DocRaptorRequest})`, blob);
+        console.debug('toPdf() fetch',DocRaptorRequest,blob);
         // blob URL will be stored in `exportUrl` and updated in cascade
         exportUrl.href = URL.createObjectURL(blob);
     }
