@@ -4057,15 +4057,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Copy to external text editor to get text of block refs.
 						- Copy `{{embed}}`ed contents
 						- Remove additional notes & tasks
-					- Then, load the published note to Converter script
-						- preprocess markdown
-							- unitemize headers
-							- convert metadata to `<a id="UUID" data-property="..." />`
-						- markdown -> HTML
+					- Then, load the published note to converter script
+						- preprocess markdown → published Markdown
+							- unitemize headers & remove first tabs
+							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
+							- replace items bullets with numbers
+							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
+							- process/check external links to relative paths: `assets`, `publish`, etc.
+							- process code block for strict conventions like in GitLab
+						- markdown -> HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 						- process block ref -> `#`anchor link
 							- Detect unresolved refs
 					- Or, process content with vim commands
-					  collapsed:: true
 						- remove `:logbook:` and properties
 						  ```vim
 						  %s/^\s*:\(logbook\|LOGBOOK\):\_.\{-}\s*:END:\n//
@@ -4079,7 +4082,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```vim
 						  %s/^- ## \(.*\)/\r## \1\r/
 						  ```
-						- process code block
+						- process code block for strict conventions like in GitLab
 						  ```vim
 						  %s/^\(\t*\)- ```/\r\1```/|%s/  ```/```\r/|%s/\t  /\t/
 						  ```
