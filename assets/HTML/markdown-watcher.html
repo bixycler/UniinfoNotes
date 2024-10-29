@@ -94,10 +94,10 @@
         DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
 
         let req = structuredClone(Request); 
-            req.headers.Authorization = `Basic ${btoa(DocRaptorApiKey)}`;
+            req.headers.Authorization = `Basic ${btoa(DocRaptorApiKey+':')}`;
             req.body = DocRaptorRequest;
         let res = await fetch(DocRaptorUrl, req);
-        console.debug('toPdf() fetch',DocRaptorRequest,res);
+        console.debug('toPdf() fetch',req,res);
         if (!res.ok) {
             //console.log('Fetch error:',res);
             loadError(res.statusText);
