@@ -84,7 +84,8 @@
     const Request = {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Accept': '*/*',
         },
         mode: "no-cors",
         body: '',
@@ -93,7 +94,7 @@
         DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
 
         let req = structuredClone(Request); 
-            //req.headers.Authorization = 'Basic '+btoa(DocRaptorApiKey+':');
+            req.headers.Authorization = 'Basic '+btoa(DocRaptorApiKey+':');
             req.body = DocRaptorRequest;
         let res = await fetch(DocRaptorUrl, req);
         console.debug('toPdf() fetch',req,res);
