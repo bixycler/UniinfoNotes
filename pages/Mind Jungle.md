@@ -4052,60 +4052,46 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Because the exported SPA is too large (~90MB including Electron), it's better to write a ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d)).
 				- Manually publish with ((67161c46-5a7d-495a-9e04-95db62b6c676)) and ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)) or ((6716110f-c747-4dbe-9af4-5ebee764c436)) commands:
 				  id:: 671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf
-				  draft note → published note → published Markdown → HTML → PDF
+				  draft note → published note → published Markdown → HTML → PDF → →
 					- First, copy the block to be published to a page in `pages/publish/`, e.g. [[Logseq publish]].
 						- Copy to external text editor to get text of block refs.
 						- Copy `{{embed}}`ed contents
 						- Remove additional notes & tasks
-					- Next, process content wit vim commands
-					  ```vim
-					  %s/^\s*:\(logbook\|LOGBOOK\):\_.\{-}\s*:END:\n//| %s/^\t\(.*\)/\1/| %s/^\t\(.*\)/\1/| %s/^- ## \(.*\)/\r## \1\r/| %s#../assets/projects/java17/aal_gw/##g| %s#(publish/projects/java17/aal_gw/\([^)]*\))#(\1.md)#g
-					  ```
+					- Then, load the published note to Converter script
+						- preprocess markdown
+							- unitemize headers
+							- convert metadata to `<a id="UUID" data-property="..." />`
+						- markdown -> HTML
+						- process block ref -> `#`anchor link
+							- Detect unresolved refs
+					- Or, process content with vim commands
+					  collapsed:: true
 						- remove `:logbook:` and properties
 						  ```vim
 						  %s/^\s*:\(logbook\|LOGBOOK\):\_.\{-}\s*:END:\n//
-						  %s/\s*\w+::.*\n//
+						  %s/\s*\w+:: .*\n//
 						  ```
 						- remove first tab with `Ctrl` `v`, or with command
 						  ```vim
 						  %s/^\t\(.*\)/\1/
 						  ```
-						- unitemize `lib.*:`
+						- unitemize headers
 						  ```vim
 						  %s/^- ## \(.*\)/\r## \1\r/
 						  ```
-							- `V` select all lines of `lib.*` (just exclude the top notes) to remove first tab
-							  ```vim
-							  '<,'>s/^\t\(.*\)/\1/
-							  ```
-								- or use [range by search](https://vim.fandom.com/wiki/Ranges#Ranges_with_marks_and_searches)
-								  ```vim
-								  /^##/,$s/^\t\(.*\)/\1/
-								  ```
-									- Note: the block folder makes this search-range capturing wrong range in folded blocks!
 						- process code block
 						  ```vim
 						  %s/^\(\t*\)- ```/\r\1```/|%s/  ```/```\r/|%s/\t  /\t/
 						  ```
-						- unitemize headers
-							- ~~H1~~
-							  ```vim
-							  %s/^- # \(.*\)/# \1\r/
-							  ```
-								- after remove Additional notes & tasks, the first H1 header is automatically unitemized by Logseq!
-							- H2
-							  ```vim
-							  %s/^- ## \(.*\)/\r## \1\r/
-							  ```
+						- replace items bullets with numbers: `V` select all items, then 
+						  ```vim
+						  '<,'>s/^- \(.*\)/1. \1/
+						  ```
 						- replace links to `assets` & `publish`
 						  ```vim
 						  %s#../assets/projects/java17/aal_gw/##g
 						  %s#(publish/projects/java17/aal_gw/\([^)]*\))#(\1.md)#g
 						  ```
-					- Postprocess: `V` select all lines of Process to create/update a service to replace items bullets with numbers
-					  ```vim
-					  '<,'>s/^- \(.*\)/1. \1/
-					  ```
 			- Built-in ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 			  id:: 66faa5f9-8ffd-4542-b916-6e3528cabad8
 			  collapsed:: true
