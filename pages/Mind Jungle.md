@@ -4068,7 +4068,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- process/check external links to relative paths: `assets`, `publish`, etc.
 							- process code block for strict conventions like in GitLab
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
-						- HTML → PDF: using DocRaptor
+						- ((6720c0a4-0294-4065-8016-9853e2a04475)) using DocRaptor
 							- Pagination for PDF: Summary & Details
 								- Summary: each headings has a link (whole text or `...`) to the item in Details
 							- Reduce list indent
@@ -4725,10 +4725,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6720be20-0d0e-478d-bdbe-1b6d33d126a0
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6720be1c-fb4d-47a9-9dbd-d5cc87cec103))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/PDF
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) . Nowadays, PDF has been supported by major browsers, both ``
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Based on the good old [PostScript](https://en.wikipedia.org/wiki/PostScript) language, in 1992, [Adobe](https://en.wikipedia.org/wiki/Adobe_Inc.) created ((6720be20-0d0e-478d-bdbe-1b6d33d126a0)) format for [documents](https://en.wikipedia.org/wiki/Document) presentation independent of [application software](https://en.wikipedia.org/wiki/Application_software), [hardware](https://en.wikipedia.org/wiki/Computer_hardware), and [operating systems](https://en.wikipedia.org/wiki/Operating_system). Nowadays, PDF has been supported by major browsers, with both `<embed>` displaying and to-PDF printing.
 		- HTML to PDF conversion
+		  id:: 6720c0a4-0294-4065-8016-9853e2a04475
 		  collapsed:: true
-			-
+			- ~~Collapsible block~~ is unsupported ⇒ use layout with bookmarks
+			  collapsed:: true
+				- [DocRaptor](https://docraptor.com/) provides a [cloud-based API](https://docraptor.com/documentation/api/making_documents) to [Prince](https://www.princexml.com/) to convert HTML to PDF with [bookmarks](https://docraptor.com/documentation/article/1068005-bookmarks).
+					- DocRaptor's free account provides **5 free official conversions** per month, and unlimited test conversions with watermarks *nicely* placed at the top and bottom of each page.
+				- [Evo PDF](https://www.evopdf.com/demo/html_to_pdf/Bookmarks/Auto_Create_Bookmarks.aspx) can be used offline.
+				- [HiQPdf](https://www.hiqpdf.com/documentation/html/a1094666-433c-441b-a072-c5a64e75ca22.htm) library for .NET
+				- Another workaround is [using multi-layer PDF](https://community.adobe.com/t5/acrobat-discussions/creating-an-option-for-expandable-collapsible-pdf-sections/m-p/12328581), but it's an overkill
 	- ## Google Chrome
 	  collapsed:: true
 	  :LOGBOOK:
