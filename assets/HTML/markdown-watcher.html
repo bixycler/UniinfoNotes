@@ -97,7 +97,7 @@
         element.value = value
         return element
     }
-    async function toPdf_form() {
+    async function toPdf_params() {
         let url = new URL(DocRaptorUrl);
         let params = url.searchParams;
         params.append("user_credentials", DocRaptorApiKey);
