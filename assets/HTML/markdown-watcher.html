@@ -48,6 +48,7 @@
 </div>
 
 <script>
+
     //// libraries:
     // highlight.js:
     //const hljs = window.hljs
@@ -63,6 +64,7 @@
             return hljs.highlight(str, {language:lang}).value;
         },
     });
+
     // DocRaptor
     const DocRaptorApiKey = "m7Dhrn_AsezV94C3VL-B";
     const DocRaptorUrl = `https://api.docraptor.com/docs`;
@@ -81,36 +83,32 @@
             //"media": "screen" // use screen styles instead of print styles
         //}
     }
+    const DocRaptorParams = {
+        "user_credentials": DocRaptorApiKey,
+        "doc[test]": true,
+        "doc[name]": "DocRaptor TestDocs",
+        "doc[type]": "pdf",
+        //"doc[prince_options][media]": "screen", // use screen styles instead of print styles
+    };
     const Request = {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json',
+            //'Content-Type': 'application/json',
+            'Content-Type': 'application/x-www-form-urlencoded',
             'Accept': '*/*',
             //'Credentials': 'include',
-            //'Access-Control-Allow-Origin': '*', // for preflight OPTIONS request
         },
-        //mode: "no-cors",
-        mode: 'cors', // have browser to send preflight OPTIONS request
         body: '',
     }
-    var makeFormElement = function(name, value) {
-        var element = document.createElement("textarea")
-        element.name = name
-        element.value = value
-        return element
-    }
-    async function toPdf_params() {
-        let url = new URL(DocRaptorUrl);
-        let params = url.searchParams;
-        params.append("user_credentials", DocRaptorApiKey);
-        params.append("doc[type]", 'pdf');
-        params.append("doc[test]", true);
-        params.append("doc[name]", 'DocRaptor TestDocs');
-        params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
-        //params.append("doc[document_content]", mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML);
+    async function toPdf() { // use URLSearchParams
+        let params = new URLSearchParams(structuredClone(DocRaptorParams));
+        //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
+        params.append("doc[document_content]", mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML);
+        let req = structuredClone(Request);
+            req.body = params;
 
-         res = await fetch(url.href, {method: 'POST'}); // , mode: "no-cors"
-        console.debug('toPdf() fetch',url,res);
+        res = await fetch(DocRaptorUrl, req);
+        //console.debug('toPdf() fetch',req,res);
         if (!res.ok) {
             //console.log('Fetch error:',res);
             loadError(res.statusText);
@@ -120,33 +118,11 @@
             message.style.display = 'none';
         }
         blob = await res.blob();
-        console.debug('toPdf() fetch',url,blob);
+        console.debug('toPdf() fetch',params,blob);
         // blob URL will be stored in `exportUrl` and updated in cascade
         exportUrl.href = URL.createObjectURL(blob);
     }
-    async function toPdf() {
-        //DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
-        DocRaptorRequest.document_url = "https://docraptor.com/examples/invoice.html";
 
-        let req = structuredClone(Request); 
-            req.headers.Authorization = 'Basic '+btoa(DocRaptorApiKey+':');
-            req.body = DocRaptorRequest;
-        let url = DocRaptorUrl; // `${DocRaptorUrl}?user_credentials=${DocRaptorApiKey}`;
-        let res = await fetch(url, req);
-        console.debug('toPdf() fetch',req,res);
-        if (!res.ok) {
-            //console.log('Fetch error:',res);
-            loadError(res.statusText);
-            return;
-        } else {
-            message.innerHTML = '';
-            message.style.display = 'none';
-        }
-        let blob = await res.blob();
-        console.debug('toPdf() fetch',DocRaptorRequest,blob);
-        // blob URL will be stored in `exportUrl` and updated in cascade
-        exportUrl.href = URL.createObjectURL(blob);
-    }
     // modern-screenshot
     const domto = window.modernScreenshot;
 
