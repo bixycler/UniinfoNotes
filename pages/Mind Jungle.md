@@ -4102,6 +4102,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Browser default: `padding-inline-start: 40px;`
 								- [Prince](https://www.princexml.com/doc/styling/#lists) default: `margin-left: 52px;`
 								- ⇒ reset `padding-inline-start: 0px;` and set `margin-left: 20px;`
+							- [!] JSON `fetch()` error
+								-
+								- The official [docraptor-1.0.0.js](https://docraptor.com/docraptor-1.0.0.js) use `form.submit()` instead of JSON, with `user_credentials` instead of `Authorization: 'Basic API-key:'`
+									- while [its docs](https://docraptor.com/documentation/api/making_documents) says 
+									  > HTTP Basic Authentication (preferred [over Query Parameter Authentication`user_credentials`])
+									  > JSON is preferred, but you can also send form encoded variables by wrapping the option with `doc[]` and adding another `[]` for sub options.
 					- Or, process content with vim commands
 					  collapsed:: true
 						- remove `:logbook:` and properties
