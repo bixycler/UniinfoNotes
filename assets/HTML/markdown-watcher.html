@@ -108,14 +108,14 @@
 
         let res = await fetch(url.href, {method: 'POST', mode: "no-cors"});
         console.debug('toPdf() fetch',url,res);
-        if (!res.ok) {
+        /*if (!res.ok) {
             //console.log('Fetch error:',res);
             loadError(res.statusText);
             return;
         } else {
             message.innerHTML = '';
             message.style.display = 'none';
-        }
+        }*/
         let blob = await res.blob();
         console.debug('toPdf() fetch',url,blob);
         // blob URL will be stored in `exportUrl` and updated in cascade
