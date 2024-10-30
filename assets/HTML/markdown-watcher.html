@@ -125,7 +125,8 @@
         exportUrl.href = URL.createObjectURL(blob);
     }
     async function toPdf() {
-        DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
+        //DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
+        DocRaptorRequest.document_url = "https://docraptor.com/examples/invoice.html";
 
         let req = structuredClone(Request); 
             req.headers.Authorization = 'Basic '+btoa(DocRaptorApiKey+':');
