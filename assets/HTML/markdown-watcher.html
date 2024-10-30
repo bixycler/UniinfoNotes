@@ -106,7 +106,7 @@
         params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
         //params.append("doc[document_content]", mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML);
 
-        let res = await fetch(url.href, {method: 'POST', mode: "no-cors"});
+         res = await fetch(url.href, {method: 'POST', mode: "no-cors"});
         console.debug('toPdf() fetch',url,res);
         /*if (!res.ok) {
             //console.log('Fetch error:',res);
@@ -116,7 +116,7 @@
             message.innerHTML = '';
             message.style.display = 'none';
         }*/
-        let blob = await res.blob();
+        blob = await res.blob();
         console.debug('toPdf() fetch',url,blob);
         // blob URL will be stored in `exportUrl` and updated in cascade
         exportUrl.href = URL.createObjectURL(blob);
