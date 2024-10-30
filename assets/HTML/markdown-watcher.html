@@ -91,6 +91,16 @@
         body: '',
     }
     async function toPdf() {
+        let url = new URL(DocRaptorUrl);
+        let params = url.searchParams;
+        params.append("user_credentials", DocRaptorApiKey);
+        params.append("doc[type]", 'pdf');
+        params.append("doc[test]", true);
+        params.append("doc[name]", 'DocRaptor TestDocs');
+        params.append("doc[document_content]", mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML);
+
+    }
+    async function toPdf_JSON() {
         DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
 
         let req = structuredClone(Request); 
