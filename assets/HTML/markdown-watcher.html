@@ -86,7 +86,7 @@
         headers: {
             'Content-Type': 'application/json',
             'Accept': '*/*',
-            credentials: 'include',
+            'Credentials': 'include',
             'Access-Control-Allow-Origin': '*',
         },
         //mode: "no-cors",
@@ -127,9 +127,9 @@
         DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
 
         let req = structuredClone(Request); 
-            //req.headers.Authorization = 'Basic '+btoa(DocRaptorApiKey+':');
+            req.headers.Authorization = 'Basic '+btoa(DocRaptorApiKey+':');
             req.body = DocRaptorRequest;
-        let url = `${DocRaptorUrl}?user_credentials=${DocRaptorApiKey}`;
+        let url = DocRaptorUrl; // `${DocRaptorUrl}?user_credentials=${DocRaptorApiKey}`;
         let res = await fetch(url, req);
         console.debug('toPdf() fetch',req,res);
         if (!res.ok) {
