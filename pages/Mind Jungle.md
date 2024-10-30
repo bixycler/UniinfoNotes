@@ -4103,11 +4103,89 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- [Prince](https://www.princexml.com/doc/styling/#lists) default: `margin-left: 52px;`
 								- ⇒ reset `padding-inline-start: 0px;` and set `margin-left: 20px;`
 							- [!] JSON `fetch()` error
-								-
+								- Calling `fetch()` with `content-type: application/json` ⇒ `Status Code: 400 Bad Request`
+									- The [preflight request](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request) is OK, though!?!
+										- Request `OPTIONS` → `200 OK`
+										  collapsed:: true
+											- ```
+											  Request URL: https://api.docraptor.com/docs
+											  Request Method: OPTIONS
+											  Status Code: 200 OK
+											  Remote Address: 34.226.73.93:443
+											  Referrer Policy: strict-origin-when-cross-origin
+											  access-control-request-headers: authorization,content-type
+											  access-control-request-method: POST
+											  origin: https://myip
+											  priority: u=1, i
+											  referer: https://myip/
+											  sec-fetch-dest: empty
+											  sec-fetch-mode: cors
+											  sec-fetch-site: cross-site
+											  ```
+										- Response
+										  collapsed:: true
+											- ```
+											  access-control-allow-headers: authorization,content-type
+											  access-control-allow-methods: GET,PUT,POST
+											  access-control-allow-origin: https://myip
+											  access-control-max-age: 900
+											  cache-control: no-cache
+											  referrer-policy: strict-origin-when-cross-origin
+											  server: nginx
+											  x-frame-options: SAMEORIGIN
+											  x-permitted-cross-domain-policies: none
+											  ```
+									- But the real POST request is NG!?!
+										- CORS Error
+										  collapsed:: true
+											- ```
+											  Access to fetch at 'https://api.docraptor.com/docs' from origin 'https://myip' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+											  ```
+										- Request `POST` → `400 Bad Request`
+										  collapsed:: true
+											- ```
+											  Request URL: https://api.docraptor.com/docs
+											  Request Method: POST
+											  Status Code: 400 Bad Request
+											  Referrer Policy: strict-origin-when-cross-origin
+											  accept: */*
+											  accept-encoding: gzip, deflate, br, zstd
+											  accept-language: en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,ja-JP;q=0.6,ja;q=0.5
+											  authorization: Basic bTdEaHJuX0FzZXpWOTRDM1ZMLUI6
+											  content-length: 15
+											  content-type: application/json
+											  origin: https://myip
+											  priority: u=1, i
+											  referer: https://myip/
+											  sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+											  sec-ch-ua-mobile: ?0
+											  sec-ch-ua-platform: "Linux"
+											  sec-fetch-dest: empty
+											  sec-fetch-mode: cors
+											  sec-fetch-site: cross-site
+											  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+											  ```
+										- Response with no `Access-Control-Allow-Origin` header
+										  collapsed:: true
+											- ```
+											  cache-control: no-cache
+											  content-length: 149
+											  content-type: application/xml
+											  date: Wed, 30 Oct 2024 11:56:55 GMT
+											  server: nginx
+											  set-cookie: eb_tracking_id=27f076a0-1782-4eab-b2db-82e421aff0a8; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:56:55 GMT; secure; HttpOnly
+											  strict-transport-security: max-age=63072000; includeSubDomains
+											  x-request-id: 2cbb044e-5120-4b63-990d-5373c8135f23
+											  x-runtime: 0.006626
+											  ```
 								- The official [docraptor-1.0.0.js](https://docraptor.com/docraptor-1.0.0.js) use `form.submit()` instead of JSON, with `user_credentials` instead of `Authorization: 'Basic API-key:'`
 									- while [its docs](https://docraptor.com/documentation/api/making_documents) says 
 									  > HTTP Basic Authentication (preferred [over Query Parameter Authentication`user_credentials`])
 									  > JSON is preferred, but you can also send form encoded variables by wrapping the option with `doc[]` and adding another `[]` for sub options.
+								- Calling `fetch()` with [`URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) ⇒ `200 OK`
+									- Request `POST` with `user_credentials` → `200 OK`
+										- ```
+										  ```
 					- Or, process content with vim commands
 					  collapsed:: true
 						- remove `:logbook:` and properties
