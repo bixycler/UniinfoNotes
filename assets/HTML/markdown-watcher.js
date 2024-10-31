@@ -316,33 +316,15 @@ function loadPage() {
 
 /** Convert from Logseq markdown to normal Markdown */
 function normalizeMardown(md){
+    const patItem = /^\t*- /;
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
     let m = null; // pattern matches
 
-    // unitemize headers & remove first tabs
-    const patIH = /^(\t*)(- )?#/; // itemized header
-    for(let i in lns){ let ln = lns[i];
-        m = ln.match(patIH);
-        if(m){ // unitemize header
-            indent = m[1];
-            nmd += '\n'+ln.replace(patIH, '#')+'\n\n';
-            continue;
-        }
-        // unindent
-        if(indent && ln.slice(0,indent.length) == indent){
-            ln = ln.slice(indent.length);
-        }
-        if(ln.match(/^\t/)){ // unindent sub-items
-            ln = ln.slice(1);
-        }
-        nmd += ln+'\n';
-    }
-
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
-    cosnt metatag = '<a class="logseq-meta"';
+    const metatag = '<a class="logseq-meta" ';
     let logbook = '', inLogbook = false;
     let patProp = /^\s*(\w+):: (.*)$/;
     let props = {}, meta = '';
@@ -362,12 +344,36 @@ function normalizeMardown(md){
             props[m[1]] = escapeQuotes(m[2]); continue;
         }
         // end metadata
-        if('id' in props){ meta += `id="${props.id}" `; delete props.id; }
-        for(let j in props){ meta += `data-${j}="${props[j]}" `; }
-        if(logbook){ meta += `data-logbook="${logbook}" `; }
-        meta += '/>';
-        nmd += meta+' ';
-        logbook = ''; props = {}; 
+        if(meta){
+            if('id' in props){ meta += `id="${props.id}" `; delete props.id; }
+            for(let j in props){ meta += `data-${j}="${props[j]}" `; }
+            if(logbook){ meta += `data-logbook="${logbook}" `; }
+            meta += '/>';
+            nmd += ' '+meta+'\n';
+            logbook = ''; props = {};
+        }
+        meta = ln.match(patItem) ? metatag : '';
+        nmd += ln+'\n';
+    }
+
+    // unitemize headers & remove first tabs
+    const patIH = /^(\t*)(- )?#/; // itemized header
+    lns = nmd.split('\n'); nmd = '';
+    for(let i in lns){ let ln = lns[i];
+        m = ln.match(patIH);
+        if(m){ // unitemize header
+            indent = m[1];
+            nmd += '\n'+ln.replace(patIH, '#')+'\n\n';
+            continue;
+        }
+        // unindent
+        if(indent && ln.slice(0,indent.length) == indent){
+            ln = ln.slice(indent.length);
+        }
+        if(ln.match(/^\t/)){ // unindent sub-items
+            ln = ln.slice(1);
+        }
+        nmd += ln+'\n';
     }
 
     return nmd;
