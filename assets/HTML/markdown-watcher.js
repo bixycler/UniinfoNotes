@@ -321,7 +321,7 @@ function normalizeMardown(md){
     let m = null; // pattern matches
 
     // unitemize headers & remove first tabs
-    let patIH = /^(\t*)(- )?#/; // itemized header
+    const patIH = /^(\t*)(- )?#/; // itemized header
     for(let i in lns){ let ln = lns[i];
         m = ln.match(patIH);
         if(m){ // unitemize header
@@ -340,8 +340,8 @@ function normalizeMardown(md){
     }
 
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
-    let patLB = /^\s*:(logbook|LOGBOOK):$/;
-    let patLBE = /^\s*:END:$/;
+    const patLB = /^\s*:(logbook|LOGBOOK):$/;
+    const patLBE = /^\s*:END:$/;
     let logbook = '', inLogbook = false;
     let patProp = /^\s*(\w+):: (.*)$/;
     let props = {}, metatag = '<a ';
@@ -358,12 +358,12 @@ function normalizeMardown(md){
         // property
         m = ln.match(patProp);
         if(m){
-            props[m[1]] = m[2]; continue;
+            props[m[1]] = escapeQuotes(m[2]); continue;
         }
         // end metadata
         if('id' in props){ metatag += `id="${props.id}" `; delete props.id; }
         for(let j in props){ metatag += `data-${j}="${props[j]}" `; }
-        if(logbook){ metatag += `data-${j}="${props[j]}" `; }
+        if(logbook){ metatag += `data-logbook="${logbook}" `; }
         metatag += '/>';
         nmd += metatag+' ';
         logbook = ''; props = {}; metatag = '<a ';
@@ -409,5 +409,5 @@ function updateURL(exportUrl, obj){
 }
 
 function escapeQuotes(str){
-    return str.replaceAll('"','&quot;').replaceAll("'",'&apos;');
+    return str.replaceAll('"','&quot;').replaceAll("'",'&apos;').replaceAll('\n','&NewLine;');
 }
