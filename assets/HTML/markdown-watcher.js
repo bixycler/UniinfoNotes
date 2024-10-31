@@ -86,6 +86,7 @@ const mdhtml = document.getElementById("mdhtml");
 const mdpdf = document.getElementById("mdpdf");
 const mdimg = document.getElementById("mdimg");
 const renderChoice = document.getElementById("renderChoice");
+const doNormalizeMarkdown = document.getElementById("doNormalizeMarkdown");
 const optAsHtml = document.getElementById("optAsHtml");
 const optAsPdf = document.getElementById("optAsPdf");
 const optAsPng = document.getElementById("optAsPng");
@@ -107,6 +108,7 @@ const pdf_style = document.getElementById("pdf_style");
 
 mdf.addEventListener("input", (e)=>{load(true)});
 renderChoice.addEventListener("change", (e)=>{load(true)});
+doNormalizeMarkdown.addEventListener("change", (e)=>{load(true)});
 butLoadNow.addEventListener("click", (e)=>{e.preventDefault(); load(true);});
 butToggleWatching.addEventListener("click", toggleWatching);
 butExport.addEventListener("click", (e)=>{e.preventDefault(); exportFile();});
@@ -176,6 +178,7 @@ async function load(forced) {
     // convert markdown -> HTML/PDF -> SVG/PNG
     let md = await blob.text();
     mdtxt.value = md;
+    if(doNormalizeMarkdown.checked)
     omdhtml = mdhtml.innerHTML;
     mdhtml.innerHTML = mdi.render(md);
     let mdihtml = mdhtml.innerHTML;
@@ -293,7 +296,9 @@ function getParams(){
     ps.new = !(ps.mdf===params.mdf
         && ps.renderChoice===params.renderChoice
         && ps.reloadInterval===params.reloadInterval
-        && ps.watch===params.watch);
+        && ps.watch===params.watch
+        && ps.norm===params.norm
+    );
     params = ps;
     //console.log('getParams', params);
     return params;
