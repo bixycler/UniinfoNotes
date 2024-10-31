@@ -382,7 +382,9 @@ function normalizeMardown(md){
     const patBRefAll = /\(\((\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w)\)\)/g;
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
-        nmd += ln.replaceAll(patBRefAll, '#$1');
+        ln = ln.replaceAll(patBRefAll, '#$1');
+        // ... check ...
+        nmd += ln+'\n';
     }
 
     //
