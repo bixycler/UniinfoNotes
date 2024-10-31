@@ -160,7 +160,7 @@
     reloadInterval.addEventListener("change", rewatch);
 
     let loopId = 0;
-    let oblob = new Blob(), pdfblob = null;
+    let oblob = new Blob(), pdfblob = null, omdhtml = '';
     let params = {}; //FormData.entries()
 
     /** The "god function" */
@@ -212,11 +212,17 @@
         mdimg.style.display = 'none';
 
         let md = await blob.text();
-        mdhtml.innerHTML = mdi.render(md);
+        omdhtml = mdhtml.innerHTML;
+        let mdihtml = mdi.render(md);
+        if(omdhtml==mdihtml){
+            return; // continue only if there's change in the Markdown HTML
+        }else { omdhtml = mdihtml; }
+        mdhtml.innerHTML = mdihtml;
         // update `exportUrl`
         let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
         updateURL(b);
         console.log('Markdown URL:',exportUrl.href);
+
         if(renderChoice.value=='html'){
             mdhtml.style.display = 'block';
             exportUrl.download = exportUrl.download.replaceAll('.md','.html');
@@ -226,10 +232,8 @@
             message.style.color = 'blue';
             message.style.display = 'block';
             mdpdf.style.display = 'block';
-            console.log('PDF fetching...');
             b = await toPdf();
             if(b){ pdfblob = b;
-                console.log('PDF fetched:',pdfblob);
                 updateURL(pdfblob);
                 exportUrl.download = exportUrl.download.replaceAll('.md','.pdf');
                 console.log('PDF URL:',exportUrl.href);
