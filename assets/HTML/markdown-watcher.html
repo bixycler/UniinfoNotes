@@ -216,7 +216,6 @@
                 return; // continue only if there's change in the Markdown HTML or in renderChoice
             }else{ orenderChoice = renderChoice.value; }
         }else { 
-            omdhtml = mdihtml;
             // update `exportUrl`
             let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
             updateURL(b);
@@ -228,25 +227,29 @@
         mdimg.style.display = 'none';
         if(renderChoice.value=='html'){
             mdhtml.style.display = 'block';
-            exportUrl.download = exportUrl.download.replaceAll('.md','.html');
+            exportUrl.download = exportUrl.download.replace(/\.\w+$/, '.html')
         } else if(renderChoice.value=='pdf'){
-            console.log('PDF loading...');
-            message.innerHTML = 'PDF loading...';
-            message.style.color = 'blue';
-            message.style.display = 'block';
             mdpdf.style.display = 'block';
-            let b = await toPdf();
-            if(b){ pdfblob = b;
-                updateURL(pdfblob);
-                exportUrl.download = exportUrl.download.replaceAll('.md','.pdf');
-                console.log('PDF URL:',exportUrl.href);
-                mdpdf.src = exportUrl.href;
-                mdpdf.innerHTML = '';
-                message.innerHTML = '';
-                message.style.display = 'none';
+            exportUrl.download = exportUrl.download.replace(/\.\w+$/, '.pdf')
+            if(omdhtml != mdihtml){
+                console.log('PDF loading...');
+                message.innerHTML = 'PDF loading...';
+                message.style.color = 'blue';
+                message.style.display = 'block';
+                mdpdf.style.display = 'block';
+                let b = await toPdf();
+                if(b){ pdfblob = b;
+                    updateURL(pdfblob);
+                    console.log('PDF URL:',exportUrl.href);
+                    mdpdf.src = exportUrl.href;
+                    mdpdf.innerHTML = '';
+                    message.innerHTML = '';
+                    message.style.display = 'none';
+                }
             }
         }
 
+        omdhtml = mdihtml;
     }
     function loadError(msg, heading = 'Markdown loading error'){
         message.innerHTML = heading + (typeof(msg)==='string'? ': '+msg: '!');
