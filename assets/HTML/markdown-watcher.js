@@ -119,7 +119,7 @@ reloadInterval.addEventListener("change", rewatch);
 /////// DOM handling
 
 let loopId = 0;
-let oblob = new Blob(), pdfblob = null, omdhtml = '', orenderChoice = null;
+let oblob = new Blob(), pdfblob = null, omdhtml = '', opdfhtml = '', orenderChoice = null;
 let params = {}; //FormData.entries()
 let exportUrl = exportUrlMd;
 
@@ -175,6 +175,7 @@ async function load(forced) {
 
     // convert markdown -> HTML/PDF -> SVG/PNG
     let md = await blob.text();
+    mdtxt.value = md;
     omdhtml = mdhtml.innerHTML;
     mdhtml.innerHTML = mdi.render(md);
     let mdihtml = mdhtml.innerHTML;
@@ -196,7 +197,7 @@ async function load(forced) {
     } else if(renderChoice.value=='pdf'){
         mdpdf.style.display = 'block';
         exportUrl = exportUrlPdf;
-        if(!mdpdf.src || omdhtml != mdihtml){
+        if(!mdpdf.src || opdfhtml != mdihtml){
             console.log('PDF loading...');
             message.innerHTML = 'PDF loading...';
             message.style.color = 'blue';
@@ -210,6 +211,7 @@ async function load(forced) {
                 message.innerHTML = '';
                 message.style.display = 'none';
             }
+            opdfhtml = mdihtml;
         }
     }
 
@@ -307,7 +309,7 @@ function loadPage() {
 //////////////////////////////////////////
 /////// Format converting
 
-function 
+function
 
 //////////////////////////////////////////
 /////// Utilities
