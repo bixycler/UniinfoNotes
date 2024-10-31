@@ -1,5 +1,6 @@
-
+//////////////////////////////////////////
 //// libraries:
+
 // highlight.js:
 //const hljs = window.hljs
 // markdown-it.js:
@@ -75,9 +76,10 @@ async function toPdf() { // use URLSearchParams
 // modern-screenshot
 const domto = window.modernScreenshot;
 
+//////////////////////////////////////////
 /////// DOMs
 
-/* // getElementById() is redundant!
+/*/ getElementById() is redundant!
 const control = document.getElementById("control");
 const mdf = document.getElementById("mdf");
 const mdhtml = document.getElementById("mdhtml");
@@ -98,8 +100,9 @@ const exportUrlPdf = document.getElementById("exportUrlPdf");
 const exportUrlImg = document.getElementById("exportUrlImg");
 const markdown_style = document.getElementById("markdown_style");
 const pdf_style = document.getElementById("pdf_style");
-//*/
+/*/
 
+//////////////////////////////////////////
 /////// Events
 
 mdf.addEventListener("input", (e)=>{load(true)});
@@ -111,6 +114,9 @@ mdimg.addEventListener("error", loadError);
 
 window.addEventListener("DOMContentLoaded", loadPage);
 reloadInterval.addEventListener("change", rewatch);
+
+//////////////////////////////////////////
+/////// DOM handling
 
 let loopId = 0;
 let oblob = new Blob(), pdfblob = null, omdhtml = '', orenderChoice = null;
@@ -210,6 +216,7 @@ async function load(forced) {
     omdhtml = mdihtml;
     orenderChoice = renderChoice.value;
 }
+
 function loadError(msg, heading = 'Markdown loading error'){
     message.innerHTML = heading + (typeof(msg)==='string'? ': '+msg: '!');
     message.style.display = 'block';
@@ -221,10 +228,12 @@ function loadError(msg, heading = 'Markdown loading error'){
     - Note that `mdimg.src = freq` is actually a GET request in disguise!
     */
 }
+
 function watch(){
     load(false);
     loopId = setInterval(load, reloadInterval.value, false);
 }
+
 function stop(){
     // update title & URL
     document.title = mdf.value +' '+ butToggleWatching.value;
@@ -233,11 +242,13 @@ function stop(){
     window.history.replaceState(ps, '', '?' + new URLSearchParams(ps).toString());
     clearInterval(loopId);
 }
+
 function rewatch(){
     stop();
     if(butToggleWatching.value!='watching'){ return }
     watch();
 }
+
 function toggleWatching(event){
     if(typeof event == 'string'){
         butToggleWatching.value = (event=='watching')? 'stopped': 'watching';
@@ -254,12 +265,14 @@ function toggleWatching(event){
         watch();
     }
 }
+
 function exportFile(){
     // window.showSaveFilePicker(); // this Experimental does not work
     // just use the good old hack of "click the download-link"
     exportUrl.click();
 }
 
+//////////////////////////////////////////
 /////// URL history (states)
 
 function setParams(params){
@@ -291,7 +304,13 @@ function loadPage() {
     load(true);
 }
 
-/////// utilities
+//////////////////////////////////////////
+/////// Format converting
+
+function 
+
+//////////////////////////////////////////
+/////// Utilities
 
 function eventPromise(dom, eventName) {
     return new Promise(resolve =>{
