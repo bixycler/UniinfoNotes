@@ -4479,7 +4479,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 						- unitemize headers
 						  ```vim
-						  %s/^- ## \(.*\)/\r## \1\r/
+						  %s/^- #\(.*\)/\r#\1\r/
 						  ```
 						- process code block for strict conventions like in GitLab
 						  ```vim
