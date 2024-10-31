@@ -320,12 +320,12 @@ function normalizeMardown(md){
     let indent = '';
 
     // unitemize headers & remove first tabs
-    let ihPattern = /^(\t*)(- )?#/; // itemized header
+    let patIH = /^(\t*)(- )?#/; // itemized header
     for(let i in lns){ let ln = lns[i];
-        let m = ln.match(ihPattern);
+        let m = ln.match(patIH);
         if(m){ // unitemize header
             indent = m[1];
-            lns[i] = '\n'+ln.replace(ihPattern, '#')+'\n';
+            lns[i] = '\n'+ln.replace(patIH, '#')+'\n';
             continue;
         }
         // unindent
@@ -338,12 +338,14 @@ function normalizeMardown(md){
     }
 
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
-    let ihPattern = /^(\t*)(- )?#/; // itemized header
+    let patLB = /^\s*:(logbook|LOGBOOK):$/;
+    let patLBE = /^\s*:END:$/;
+    let patProp = /^\s*\w+:: .*$/;
     for(let i in lns){ let ln = lns[i];
-        let m = ln.match(ihPattern);
+        let m = ln.match(patIH);
         if(m){ // unitemize header
             indent = m[1];
-            lns[i] = '\n'+ln.replace(ihPattern, '#')+'\n';
+            lns[i] = '\n'+ln.replace(patIH, '#')+'\n';
             continue;
         }
         // unindent
