@@ -316,7 +316,7 @@ function loadPage() {
 
 /** Convert from Logseq markdown to normal Markdown */
 function normalizeMardown(md){
-    let lns = md.split('\n');
+    let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
     let m = null; // pattern matches
 
@@ -326,16 +326,17 @@ function normalizeMardown(md){
         m = ln.match(patIH);
         if(m){ // unitemize header
             indent = m[1];
-            lns[i] = '\n'+ln.replace(patIH, '#')+'\n';
+            nmd += '\n'+ln.replace(patIH, '#')+'\n\n';
             continue;
         }
         // unindent
         if(indent && ln.slice(0,indent.length) == indent){
-            ln = ln.slice(indent.length); lns[i] = ln;
+            ln = ln.slice(indent.length);
         }
         if(ln.match(/^\t/)){ // unindent sub-items
-            ln = ln.slice(1); lns[i] = ln;
+            ln = ln.slice(1);
         }
+        nmd += ln+'\n';
     }
 
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
@@ -343,6 +344,7 @@ function normalizeMardown(md){
     let patLBE = /^\s*:END:$/;
     let logbook = '', inLogbook = false;
     let patProp = /^\s*(\w+):: (.*)$/;
+    let props = {}, metatag = '<a ';
     for(let i in lns){ let ln = lns[i];
         if(ln.match(patLB)){ // start LOGBOOK
             inLogbook = true; continue;
@@ -350,18 +352,24 @@ function normalizeMardown(md){
         if(ln.match(patLBE)){ // end LOGBOOK
             inLogbook = false; continue;
         }
-        // unindent
-        if(indent && ln.slice(0,indent.length) == indent){
-            ln = ln.slice(indent.length); lns[i] = ln;
+        if(inLogbook){
+            logbook += ln+'&NewLine;'; continue;
         }
-        if(ln.match(/^\t/)){ // unindent sub-items
-            ln = ln.slice(1); lns[i] = ln;
+        // property
+        m = ln.match(patProp);
+        if(m){
+            props[m[1]] = m[2]; continue;
         }
+        // end metadata
+        if('id' in props){ metatag += `id="${props.id}" `; delete props.id; }
+        for(let j in props){ metatag += `data-${j}="${props[j]}" `; }
+        if(logbook){ metatag += `data-${j}="${props[j]}" `; }
+        metatag += '/>';
+        nmd += metatag+' ';
+        logbook = ''; props = {}; metatag = '<a ';
     }
 
-
-    md = lns.join('\n');
-    return md;
+    return nmd;
 }
 
 //////////////////////////////////////////
