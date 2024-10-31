@@ -204,12 +204,15 @@
             message.style.display = 'none';
         }
         let blob = await res.blob();
-        if (!forced && equal(blob, oblob)) {
-            return; // continue only if there's change in the input blob, or being forced
-        }
-        oblob = blob;
         console.debug(`fetch(${freq})`, blob);
-        exportUrlMd.href = URL.createObjectURL(blob);
+        if (equal(blob, oblob)) {
+            if(!forced){
+                return; // continue only if there's change in the input blob, or being forced
+            }
+        }else{
+            oblob = blob;
+            updateURL(exportUrlMd, blob);
+        }
 
         // check MIME type
         if(!['text/markdown','text/x-markdown','text/plain'].includes(blob.type.split(';')[0])) {
@@ -225,7 +228,7 @@
         if(omdhtml==mdihtml){
             if(renderChoice.value==orenderChoice){
                 return; // continue only if there's change in the Markdown HTML or in renderChoice
-            }else{ orenderChoice = renderChoice.value; }
+            }
         }else { 
             let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
             updateURL(exportUrlHtml, b);
@@ -240,7 +243,7 @@
         } else if(renderChoice.value=='pdf'){
             mdpdf.style.display = 'block';
             exportUrl = exportUrlPdf;
-            if(omdhtml != mdihtml){
+            if(!mdpdf.src || omdhtml != mdihtml){
                 console.log('PDF loading...');
                 message.innerHTML = 'PDF loading...';
                 message.style.color = 'blue';
@@ -258,6 +261,7 @@
         }
 
         omdhtml = mdihtml;
+        orenderChoice = renderChoice.value;
     }
     function loadError(msg, heading = 'Markdown loading error'){
         message.innerHTML = heading + (typeof(msg)==='string'? ': '+msg: '!');
