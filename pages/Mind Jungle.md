@@ -3748,7 +3748,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Block ref
 				  id:: 667d2689-4ce0-4c79-b82a-25b0bba87d39
 				  A block can be referenced/mirrored with block ref synatx `((block-uuid))`.
-				- Block id is a lengthy UUID, which is generated when corresponding block is linked or zoomed in (opened).
+				- Block id is a lengthy [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier), which is generated when corresponding block is linked or zoomed in (opened).
 				- Block id is stored as `id::` property in markdown.
 				- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) is not rendered correctly in many cases
 					- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) cannot be prefixed.
@@ -4096,8 +4096,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Remove additional notes & tasks
 					- Then, load the published note to converter script
 						- publish Markdown
-							- unitemize headers & remove first tabs
 							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
+							- unitemize headers & remove first tabs
 							- process block ref -> `#`anchor link
 								- Detect unresolved refs
 							- replace items bullets with numbers
