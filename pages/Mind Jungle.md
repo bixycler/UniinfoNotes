@@ -2166,6 +2166,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ```sh
 						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html"
 						  ```
+				- [markdown-watcher.js](../assets/HTML/markdown-watcher.js): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.js`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.js`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.js" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.js"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.js" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.js"
+						  ```
 				- [diagram-watcher.html](../assets/HTML/diagram-watcher.html): **2 links**
 				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html`: UniinfoNotes
