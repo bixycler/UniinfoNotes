@@ -344,19 +344,19 @@ function normalizeMardown(md){
             props[m[1]] = escapeQuotes(m[2]); continue;
         }
         // end metadata
-        if(meta){
+        if(meta && (keys(props) || logbook)){
             if('id' in props){ meta += `id="${props.id}" `; delete props.id; }
             for(let j in props){ meta += `data-${j}="${props[j]}" `; }
             if(logbook){ meta += `data-logbook="${logbook}" `; }
             meta += '/>';
-            nmd += ' '+meta+'\n';
+            nmd = nmd.slice(0, -1) + ' '+meta+'\n';
             logbook = ''; props = {};
         }
         meta = ln.match(patItem) ? metatag : '';
         nmd += ln+'\n';
     }
 
-    // unitemize headers & remove first tabs
+    /*/ unitemize headers & remove first tabs
     const patIH = /^(\t*)(- )?#/; // itemized header
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
@@ -375,6 +375,8 @@ function normalizeMardown(md){
         }
         nmd += ln+'\n';
     }
+
+    /*/
 
     return nmd;
 }
