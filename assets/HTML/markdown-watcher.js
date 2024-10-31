@@ -320,23 +320,41 @@ function normalizeMardown(md){
     let indent = '';
 
     // unitemize headers & remove first tabs
-    let ihPattern = /^(\t*)(- )?#/;
+    let ihPattern = /^(\t*)(- )?#/; // itemized header
     for(let i in lns){ let ln = lns[i];
         let m = ln.match(ihPattern);
-        if(m){
+        if(m){ // unitemize header
             indent = m[1];
-            lns[i] = ln.replace(ihPattern, '#');
+            lns[i] = '\n'+ln.replace(ihPattern, '#')+'\n';
             continue;
         }
+        // unindent
         if(indent && ln.slice(0,indent.length) == indent){
-            ln = ln.slice(0,indent.length); lns[i] = ln;
+            ln = ln.slice(indent.length); lns[i] = ln;
         }
-        if(ln.match(/^\t/)){
-            indent = m[1];
-            lns[i] = ln.replace(ihPattern, '#');
-            continue;
+        if(ln.match(/^\t/)){ // unindent sub-items
+            ln = ln.slice(1); lns[i] = ln;
         }
     }
+
+    // convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
+    let ihPattern = /^(\t*)(- )?#/; // itemized header
+    for(let i in lns){ let ln = lns[i];
+        let m = ln.match(ihPattern);
+        if(m){ // unitemize header
+            indent = m[1];
+            lns[i] = '\n'+ln.replace(ihPattern, '#')+'\n';
+            continue;
+        }
+        // unindent
+        if(indent && ln.slice(0,indent.length) == indent){
+            ln = ln.slice(indent.length); lns[i] = ln;
+        }
+        if(ln.match(/^\t/)){ // unindent sub-items
+            ln = ln.slice(1); lns[i] = ln;
+        }
+    }
+
 
     md = lns.join('\n');
     return md;
