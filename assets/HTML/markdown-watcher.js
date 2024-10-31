@@ -340,10 +340,11 @@ function normalizeMardown(md){
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
     let patLB = /^\s*:(logbook|LOGBOOK):$/;
     let patLBE = /^\s*:END:$/;
-    let patProp = /^\s*\w+:: .*$/;
+    let logbook = '';
+    let patProp = /^\s*(\w+):: (.*)$/;
     for(let i in lns){ let ln = lns[i];
-        let m = ln.match(patIH);
-        if(m){ // unitemize header
+        let m = ln.match(patLB);
+        if(m){ // LOGBOOK
             indent = m[1];
             lns[i] = '\n'+ln.replace(patIH, '#')+'\n';
             continue;
@@ -396,4 +397,8 @@ function updateURL(exportUrl, obj){
     exportUrl.href = url;
     console.log('Export URL update:', exportUrl.download,' = ',exportUrl.href);
     return url;
+}
+
+function escapeQuotes(str){
+    return str.replaceAll('"','&quot;').replaceAll('&gt;','&amp;gt;');
 }
