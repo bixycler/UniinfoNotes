@@ -216,7 +216,7 @@
         let mdihtml = mdi.render(md);
         if(omdhtml==mdihtml){
             return; // continue only if there's change in the Markdown HTML
-        }else { omdhtml = mdihtml; }
+        }else { console.log('omdhtml:',omdhtml, 'mdihtml:',mdihtml) ; omdhtml = mdihtml; }
         mdhtml.innerHTML = mdihtml;
         // update `exportUrl`
         let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
