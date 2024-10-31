@@ -377,7 +377,8 @@ function normalizeMardown(md){
     }
 
     // process block ref -> `#`anchor link
-    const patBRef = /\(\(\)\)/;
+    const patUUID = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
+    const patBRef = /\(\(\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w\)\)/;
 
     return nmd;
 }
