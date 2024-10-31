@@ -319,8 +319,12 @@ function normalizeMardown(md){
     let lns = md.split('\n');
 
     // unitemize headers & remove first tabs
+    let ihPattern = /^(\t*)(- )?#/;
     for(let i in lns){ let ln = lns[i];
-        if
+        let m = ln.match(ihPattern);
+        if(m){
+            lns[i] = ln.replace(ihPattern, '#');
+        }
     }
 
     md = lns.join('\n');
