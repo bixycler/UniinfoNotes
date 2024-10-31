@@ -177,8 +177,8 @@ async function load(forced) {
 
     // convert markdown -> HTML/PDF -> SVG/PNG
     let md = await blob.text();
+    if(doNormalizeMarkdown.checked){ md = normalizeMardown(md); }
     mdtxt.value = md;
-    if(doNormalizeMarkdown.checked)
     omdhtml = mdhtml.innerHTML;
     mdhtml.innerHTML = mdi.render(md);
     let mdihtml = mdhtml.innerHTML;
@@ -315,10 +315,16 @@ function loadPage() {
 /////// Format converting
 
 /** Convert from Logseq markdown to normal Markdown */
-function normalizeMardown(){
-    let ln = mdtxt.value.split('\n');
-    // unitemize headers & remove first tabs
+function normalizeMardown(md){
+    let lns = md.split('\n');
 
+    // unitemize headers & remove first tabs
+    for(let i in lns){ let ln = lns[i];
+        if
+    }
+
+    md = lns.join('\n');
+    return md;
 }
 
 //////////////////////////////////////////
