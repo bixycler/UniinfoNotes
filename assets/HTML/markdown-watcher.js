@@ -317,13 +317,24 @@ function loadPage() {
 /** Convert from Logseq markdown to normal Markdown */
 function normalizeMardown(md){
     let lns = md.split('\n');
+    let indent = '';
 
     // unitemize headers & remove first tabs
     let ihPattern = /^(\t*)(- )?#/;
     for(let i in lns){ let ln = lns[i];
         let m = ln.match(ihPattern);
         if(m){
+            indent = m[1];
             lns[i] = ln.replace(ihPattern, '#');
+            continue;
+        }
+        if(indent && ln.slice(0,indent.length) == indent){
+            ln = ln.slice(0,indent.length); lns[i] = ln;
+        }
+        if(ln.match(/^\t/)){
+            indent = m[1];
+            lns[i] = ln.replace(ihPattern, '#');
+            continue;
         }
     }
 
