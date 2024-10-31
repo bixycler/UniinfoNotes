@@ -145,6 +145,7 @@
     const reloadInterval = document.getElementById("reloadInterval");
     const butToggleWatching = document.getElementById("butToggleWatching");
     const butExport = document.getElementById("butExport");
+    const exportUrlMd = document.getElementById("exportUrlMd");
     const exportUrlHtml = document.getElementById("exportUrlHtml");
     const exportUrlPdf = document.getElementById("exportUrlPdf");
     const exportUrlImg = document.getElementById("exportUrlImg");
@@ -182,7 +183,12 @@
         if (forced || ps.new) {
             delete ps.new;
             window.history.replaceState(ps, '', '?' + new URLSearchParams(ps).toString());
-            exportUrl.download = fn.split('/').at(-1).split('?').at(0);
+            let fnb = fn.split('/').at(-1).split('?').at(0); //base name
+            exportUrlMd.download = fnb
+            fnb = fnb.replace(/\.\w+$/, ''); 
+            exportUrlHtml.download = fnb + '.html';
+            exportUrlPdf.download = fnb + '.pdf';
+            exportUrlImg.download = fnb + '.png';
         }
 
         // loaf mdf tagged with timestamp
@@ -203,8 +209,7 @@
         }
         oblob = blob;
         console.debug(`fetch(${freq})`, blob);
-        // blob URL will be stored in `exportUrl` and updated in cascade
-        exportUrl.href = URL.createObjectURL(blob);
+        exportUrlMd.href = URL.createObjectURL(blob);
 
         // check MIME type
         if(!['text/markdown','text/x-markdown','text/plain'].includes(blob.type.split(';')[0])) {
@@ -222,10 +227,8 @@
                 return; // continue only if there's change in the Markdown HTML or in renderChoice
             }else{ orenderChoice = renderChoice.value; }
         }else { 
-            // update `exportUrl`
             let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
-            updateURL(b);
-            console.log('Markdown URL:',exportUrl.href);
+            updateURL(exportUrlHtml, b);
         }
 
         mdhtml.style.display = 'none';
@@ -233,10 +236,10 @@
         mdimg.style.display = 'none';
         if(renderChoice.value=='html'){
             mdhtml.style.display = 'block';
-            exportUrl.download = exportUrl.download.replace(/\.\w+$/, '.html')
+            exportUrl = exportUrlHtml;
         } else if(renderChoice.value=='pdf'){
             mdpdf.style.display = 'block';
-            exportUrl.download = exportUrl.download.replace(/\.\w+$/, '.pdf')
+            exportUrl = exportUrlPdf;
             if(omdhtml != mdihtml){
                 console.log('PDF loading...');
                 message.innerHTML = 'PDF loading...';
@@ -245,8 +248,7 @@
                 mdpdf.style.display = 'block';
                 let b = await toPdf();
                 if(b){ pdfblob = b;
-                    updateURL(pdfblob);
-                    console.log('PDF URL:',exportUrl.href);
+                    updateURL(exportUrlPdf, pdfblob);
                     mdpdf.src = exportUrl.href;
                     mdpdf.innerHTML = '';
                     message.innerHTML = '';
@@ -359,7 +361,7 @@
         return true;
     }
 
-    function updateURL(obj){
+    function updateURL(exportUrl, obj){
         let url = null;
         if(obj instanceof Blob) {
             url = URL.createObjectURL(obj);
@@ -369,6 +371,7 @@
         if(!url){ return null; }
         URL.revokeObjectURL(exportUrl.href); // don't litter garbage :)
         exportUrl.href = url;
+        console.log('Export URL update:', exportUrl.download,' = ',exportUrl.href);
         return url;
     }
 
