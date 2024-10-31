@@ -342,9 +342,10 @@ function normalizeMardown(md){
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
+    cosnt metatag = '<a class="logseq-meta"';
     let logbook = '', inLogbook = false;
     let patProp = /^\s*(\w+):: (.*)$/;
-    let props = {}, metatag = '<a ';
+    let props = {}, meta = '';
     for(let i in lns){ let ln = lns[i];
         if(ln.match(patLB)){ // start LOGBOOK
             inLogbook = true; continue;
@@ -361,12 +362,12 @@ function normalizeMardown(md){
             props[m[1]] = escapeQuotes(m[2]); continue;
         }
         // end metadata
-        if('id' in props){ metatag += `id="${props.id}" `; delete props.id; }
-        for(let j in props){ metatag += `data-${j}="${props[j]}" `; }
-        if(logbook){ metatag += `data-logbook="${logbook}" `; }
-        metatag += '/>';
-        nmd += metatag+' ';
-        logbook = ''; props = {}; metatag = '<a ';
+        if('id' in props){ meta += `id="${props.id}" `; delete props.id; }
+        for(let j in props){ meta += `data-${j}="${props[j]}" `; }
+        if(logbook){ meta += `data-logbook="${logbook}" `; }
+        meta += '/>';
+        nmd += meta+' ';
+        logbook = ''; props = {}; 
     }
 
     return nmd;
