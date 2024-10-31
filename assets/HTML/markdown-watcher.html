@@ -33,7 +33,10 @@
     <button id="butLoadNow">Load Now!</button>
     <button id="butToggleWatching" name="watch" value="">Start Watching</button>
     <button id="butExport">Export</button>
-    <a id="exportUrl" href="" download="temp.md" style="display:none">exported file</a>
+    <a id="exportUrlMd" href="" download="temp.md" style="display:none">Markdown exported file</a>
+    <a id="exportUrlHtml" href="" download="temp.html" style="display:none">HTML exported file</a>
+    <a id="exportUrlPdf" href="" download="temp.pdf" style="display:none">PDF exported file</a>
+    <a id="exportUrlImg" href="" download="temp.png" style="display:none">PNG/SVG exported file</a>
     <details><summary id="watchStatus"></summary>
         <label for="reloadInterval">Reload every</label>
         <input type="number" id="reloadInterval" name="reloadInterval" value="500" style="width:5em;"> miliseconds
@@ -142,7 +145,9 @@
     const reloadInterval = document.getElementById("reloadInterval");
     const butToggleWatching = document.getElementById("butToggleWatching");
     const butExport = document.getElementById("butExport");
-    const exportUrl = document.getElementById("exportUrl");
+    const exportUrlHtml = document.getElementById("exportUrlHtml");
+    const exportUrlPdf = document.getElementById("exportUrlPdf");
+    const exportUrlImg = document.getElementById("exportUrlImg");
     const markdown_style = document.getElementById("markdown_style");
     const pdf_style = document.getElementById("pdf_style");
     //*/
@@ -162,6 +167,7 @@
     let loopId = 0;
     let oblob = new Blob(), pdfblob = null, omdhtml = '', orenderChoice = null;
     let params = {}; //FormData.entries()
+    let exportUrl = exportUrlMd;
 
     /** The "god function" */
     async function load(forced) {
