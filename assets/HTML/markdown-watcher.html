@@ -43,7 +43,7 @@
 
 <div id="content" style="border:1px; border-style:solid; border-color:green;">
     <div id="mdhtml" style="padding: 1em 1em 1em 1em;"></div>
-    <embed id="mdpdf" src="" type="application/pdf"></embed>
+    <embed id="mdpdf" src="" width="100%" type="application/pdf">Embeded PDF</embed>
     <img id="mdimg" src="">
 </div>
 
@@ -216,17 +216,22 @@
         // update `exportUrl`
         let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
         updateURL(b);
+        console.log('Markdown URL:',exportUrl.href);
         if(renderChoice.value=='html'){
             mdhtml.style.display = 'block';
             exportUrl.download = exportUrl.download.replaceAll('.md','.html');
         } else if(renderChoice.value=='pdf'){
+            console.log('PDF loading...');
             message.innerHTML = 'PDF loading...';
-            message.style.display = 'block';
             message.style.color = 'blue';
+            message.style.display = 'block';
             mdpdf.style.display = 'block';
-            b = toPdf();
+            console.log('PDF fetching...');
+            b = await toPdf();
             if(b){ pdfblob = b;
+                console.log('PDF fetched:',pdfblob);
                 updateURL(pdfblob);
+                console.log('PDF URL:',exportUrl.href);
                 mdpdf.src = exportUrl.href;
                 exportUrl.download = exportUrl.download.replaceAll('.md','.pdf');
                 message.innerHTML = '';
