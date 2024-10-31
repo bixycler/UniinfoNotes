@@ -43,7 +43,7 @@
 
 <div id="content" style="border:1px; border-style:solid; border-color:green;">
     <div id="mdhtml" style="padding: 1em 1em 1em 1em;"></div>
-    <div id="mdpdf" style="padding: 1em 1em 1em 1em;"></div>
+    <embed id="mdpdf" src="" type="application/pdf"></embed>
     <img id="mdimg" src="">
 </div>
 
@@ -111,7 +111,7 @@
         //console.debug('toPdf() fetch',req,res);
         if (!res.ok) {
             //console.log('Fetch error:',res);
-            loadError(res.statusText);
+            loadError(res.statusText, 'PDF loading error');
             return;
         } else {
             message.innerHTML = '';
@@ -119,8 +119,7 @@
         }
         blob = await res.blob();
         console.debug('toPdf() fetch',params,blob);
-        // blob URL will be stored in `exportUrl` and updated in cascade
-        exportUrl.href = URL.createObjectURL(blob);
+        return blob;
     }
 
     // modern-screenshot
@@ -161,7 +160,7 @@
     reloadInterval.addEventListener("change", rewatch);
 
     let loopId = 0;
-    let oblob = new Blob();
+    let oblob = new Blob(), pdfblob = null;
     let params = {}; //FormData.entries()
 
     /** The "god function" */
@@ -194,7 +193,7 @@
         }
         let blob = await res.blob();
         if (!forced && equal(blob, oblob)) {
-            return
+            return; // continue only if there's change in the input blob, or being forced
         }
         oblob = blob;
         console.debug(`fetch(${freq})`, blob);
@@ -221,13 +220,23 @@
             mdhtml.style.display = 'block';
             exportUrl.download = exportUrl.download.replaceAll('.md','.html');
         } else if(renderChoice.value=='pdf'){
+            message.innerHTML = 'PDF loading...';
+            message.style.display = 'block';
+            message.style.color = 'blue';
             mdpdf.style.display = 'block';
-            exportUrl.download = exportUrl.download.replaceAll('.md','.pdf');
+            b = toPdf();
+            if(b){ pdfblob = b;
+                updateURL(pdfblob);
+                mdpdf.src = exportUrl.href;
+                exportUrl.download = exportUrl.download.replaceAll('.md','.pdf');
+                message.innerHTML = '';
+                message.style.display = 'none';
+            }
         }
 
     }
-    function loadError(msg){
-        message.innerHTML = 'Markdown loading error' + (typeof(msg)==='string'? ': '+msg: '!');
+    function loadError(msg, heading = 'Markdown loading error'){
+        message.innerHTML = heading + (typeof(msg)==='string'? ': '+msg: '!');
         message.style.display = 'block';
         message.style.color = 'brown';
 
@@ -273,10 +282,6 @@
     function exportFile(){
         // window.showSaveFilePicker(); // this Experimental does not work
         // just use the good old hack of "click the download-link"
-        if(renderChoice.value=='pdf'){
-            toPdf();
-            return;
-        }
         exportUrl.click();
     }
 
