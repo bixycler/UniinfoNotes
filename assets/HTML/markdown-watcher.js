@@ -318,11 +318,12 @@ function loadPage() {
 function normalizeMardown(md){
     let lns = md.split('\n');
     let indent = '';
+    let m = null; // pattern matches
 
     // unitemize headers & remove first tabs
     let patIH = /^(\t*)(- )?#/; // itemized header
     for(let i in lns){ let ln = lns[i];
-        let m = ln.match(patIH);
+        m = ln.match(patIH);
         if(m){ // unitemize header
             indent = m[1];
             lns[i] = '\n'+ln.replace(patIH, '#')+'\n';
@@ -340,14 +341,14 @@ function normalizeMardown(md){
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
     let patLB = /^\s*:(logbook|LOGBOOK):$/;
     let patLBE = /^\s*:END:$/;
-    let logbook = '';
+    let logbook = '', inLogbook = false;
     let patProp = /^\s*(\w+):: (.*)$/;
     for(let i in lns){ let ln = lns[i];
-        let m = ln.match(patLB);
-        if(m){ // LOGBOOK
-            indent = m[1];
-            lns[i] = '\n'+ln.replace(patIH, '#')+'\n';
-            continue;
+        if(ln.match(patLB)){ // start LOGBOOK
+            inLogbook = true; continue;
+        }
+        if(ln.match(patLBE)){ // end LOGBOOK
+            inLogbook = false; continue;
         }
         // unindent
         if(indent && ln.slice(0,indent.length) == indent){
@@ -400,5 +401,5 @@ function updateURL(exportUrl, obj){
 }
 
 function escapeQuotes(str){
-    return str.replaceAll('"','&quot;').replaceAll('&gt;','&amp;gt;');
+    return str.replaceAll('"','&quot;').replaceAll("'",'&apos;');
 }
