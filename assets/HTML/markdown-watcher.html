@@ -160,7 +160,7 @@
     reloadInterval.addEventListener("change", rewatch);
 
     let loopId = 0;
-    let oblob = new Blob(), pdfblob = null, omdhtml = '';
+    let oblob = new Blob(), pdfblob = null, omdhtml = '', orenderChoice = null;
     let params = {}; //FormData.entries()
 
     /** The "god function" */
@@ -207,22 +207,21 @@
         }
 
         // convert markdown -> HTML/PDF -> SVG/PNG
-        mdhtml.style.display = 'none';
-        mdpdf.style.display = 'none';
-        mdimg.style.display = 'none';
-
         let md = await blob.text();
         omdhtml = mdhtml.innerHTML;
-        let mdihtml = mdi.render(md);
-        if(omdhtml==mdihtml){
+        mdhtml.innerHTML = mdi.render(md);
+        let mdihtml = mdhtml.innerHTML;
+        if(omdhtml==mdihtml || renderChoice.value==orenderChoice){
             return; // continue only if there's change in the Markdown HTML
-        }else { console.log('omdhtml:',omdhtml, 'mdihtml:',mdihtml) ; omdhtml = mdihtml; }
-        mdhtml.innerHTML = mdihtml;
+        }else { omdhtml = mdihtml; orenderChoice = renderChoice.value; }
         // update `exportUrl`
         let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
         updateURL(b);
         console.log('Markdown URL:',exportUrl.href);
 
+        mdhtml.style.display = 'none';
+        mdpdf.style.display = 'none';
+        mdimg.style.display = 'none';
         if(renderChoice.value=='html'){
             mdhtml.style.display = 'block';
             exportUrl.download = exportUrl.download.replaceAll('.md','.html');
