@@ -211,13 +211,17 @@
         omdhtml = mdhtml.innerHTML;
         mdhtml.innerHTML = mdi.render(md);
         let mdihtml = mdhtml.innerHTML;
-        if(omdhtml==mdihtml || renderChoice.value==orenderChoice){
-            return; // continue only if there's change in the Markdown HTML
-        }else { omdhtml = mdihtml; orenderChoice = renderChoice.value; }
-        // update `exportUrl`
-        let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
-        updateURL(b);
-        console.log('Markdown URL:',exportUrl.href);
+        if(omdhtml==mdihtml){
+            if(renderChoice.value==orenderChoice){
+                return; // continue only if there's change in the Markdown HTML or in renderChoice
+            }else{ orenderChoice = renderChoice.value; }
+        }else { 
+            omdhtml = mdihtml;
+            // update `exportUrl`
+            let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
+            updateURL(b);
+            console.log('Markdown URL:',exportUrl.href);
+        }
 
         mdhtml.style.display = 'none';
         mdpdf.style.display = 'none';
@@ -231,7 +235,7 @@
             message.style.color = 'blue';
             message.style.display = 'block';
             mdpdf.style.display = 'block';
-            b = await toPdf();
+            let b = await toPdf();
             if(b){ pdfblob = b;
                 updateURL(pdfblob);
                 exportUrl.download = exportUrl.download.replaceAll('.md','.pdf');
