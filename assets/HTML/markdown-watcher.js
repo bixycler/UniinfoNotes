@@ -309,8 +309,11 @@ function loadPage() {
 //////////////////////////////////////////
 /////// Format converting
 
+/** Convert from Logseq markdown to normal Markdown */
 function normalizeMardown(){
-    
+    let ln = mdtxt.value.split('\n');
+    // unitemize headers & remove first tabs
+
 }
 
 //////////////////////////////////////////
