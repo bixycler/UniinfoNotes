@@ -101,7 +101,7 @@
         }
         exportUrl.download = fn.split('/').at(-1).split('?').at(0);
         if(renderChoice.value=='image') {
-            exportUrl.download = exportUrl.download.replaceAll('.svg', '.png');
+            exportUrl.download = exportUrl.download.replace(/\.\w+$/, '.png')
         }
 
         // loaf diaf tagged with timestamp
