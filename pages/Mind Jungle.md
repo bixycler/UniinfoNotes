@@ -4459,7 +4459,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- remove `:logbook:` and properties
 						  ```vim
 						  %s/^\s*:\(logbook\|LOGBOOK\):\_.\{-}\s*:END:\n//
-						  %s/\s*\w+:: .*\n//
+						  %s/^\s*\w\+:: .*\n//
 						  ```
 						- remove first tab with `Ctrl` `v`, or with command
 						  ```vim
