@@ -62,7 +62,7 @@ async function toPdf() { // use URLSearchParams
     //console.debug('toPdf() fetch',req,res);
     if (!res.ok) {
         //console.log('Fetch error:',res);
-        loadError(res.statusText, 'PDF loading error');
+        showError(res.statusText, 'PDF loading error');
         return;
     } else {
         message.innerHTML = '';
@@ -112,7 +112,7 @@ doNormalizeMarkdown.addEventListener("change", (e)=>{load(true)});
 butLoadNow.addEventListener("click", (e)=>{e.preventDefault(); load(true);});
 butToggleWatching.addEventListener("click", toggleWatching);
 butExport.addEventListener("click", (e)=>{e.preventDefault(); exportFile();});
-mdimg.addEventListener("error", loadError);
+mdimg.addEventListener("error", showError);
 
 window.addEventListener("DOMContentLoaded", loadPage);
 reloadInterval.addEventListener("change", rewatch);
@@ -153,7 +153,7 @@ async function load(forced) {
     //console.debug(`fetch(${freq})`,res);
     if (!res.ok) {
         //console.log('Fetch error:',res);
-        loadError(res.statusText);
+        showError(res.statusText);
         return;
     } else {
         message.innerHTML = '';
@@ -223,7 +223,7 @@ async function load(forced) {
     orenderChoice = renderChoice.value;
 }
 
-function loadError(msg, heading = 'Markdown loading error'){
+function showError(msg, heading = 'Markdown loading error'){
     message.innerHTML = heading + (typeof(msg)==='string'? ': '+msg: '!');
     message.style.display = 'block';
     message.style.color = 'brown';
@@ -316,11 +316,11 @@ function loadPage() {
 /////// Format converting
 
 /** Convert from Logseq markdown to normal Markdown */
+    var mapUuid = {}, noUuid = {};
 function normalizeMardown(md){
     const patItem = /^\t*- /;
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
-    var mapUuid = {};
     let m = null; // pattern matches
 
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
@@ -387,12 +387,20 @@ function normalizeMardown(md){
     const patBLinkAll = new RegExp(patBLink, 'g');
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
+        // check link target against mapUuid before replacing them
         m = ln.matchAll(patBLinkAll);
         for(let mi of m){
-            if(! mi[2] in mapUuid){ console. }
+            if(! mi[2] in mapUuid){ 
+                console.warn('Block UUID not found: ',mi[2], `for`, mi[0]);
+                noUuid[mi[2]] += mi[0]+', '; 
+            }
         }
+        // replace block link -> `#`anchor link
         ln = ln.replaceAll(patBLinkAll, '[$1](#$2');
         nmd += ln+'\n';
+    }
+    if(Object.keys(noUuid).length){ 
+        showError('Unresolved links: '+noUuid, 'Markdown converting error')
     }
 
     //
