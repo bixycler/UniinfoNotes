@@ -166,24 +166,36 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### commands
 			- process handling
 			  collapsed:: true
-				- "pid" := "process ID"
+				- pid
+				  := "process ID"
 				- ((66c6c8e6-54be-4b4f-80a1-c535d429d05c))
-				- `pidof`: find the pid of a process via process name.
-				- `pgrep`, `pkill`, `pidwait`:  look up, signal, or wait for processes based on process name pattern and other attributes.
-				- `kill`, `killall`: send a signal (`TERM`, `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid or process name.
-				- `pstree`: display a tree of processes.
-				- `top`: display Linux processes similar to ((66c6bda1-7a64-4832-af2b-906b3beb8927)).
+				- `pidof`
+				  find the pid of a process via process name.
+				- `pgrep`, `pkill`, `pidwait`
+				  look up, signal, or wait for processes based on process name pattern and other attributes.
+				- `kill`, `killall`
+				  send a signal (`TERM`, `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid or process name.
+				- `pstree`
+				  display a tree of processes.
+				- `top`
+				  display "top CPU" processes similar to ((66c6bda1-7a64-4832-af2b-906b3beb8927)).
+				- `iftop`
+				  display "top network" interfaces.
+				- `nethogs`
+				  NetHogs displays 'net top' processes.
 			- window handling
 			  collapsed:: true
 				- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
-				- `xkill`: kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
-				- `xprop`: display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
+				- `xkill`
+				  kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
+				- `xprop`
+				  display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
 			- file management
 			  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 			  collapsed:: true
 				- `ls`
 				  collapsed:: true
-				  lists information about the FILEs (the current directory by default).
+				  list information about the FILEs (the current directory by default).
 					- `ll` = `ls -lhF`
 					  id:: 671f4355-d2ad-46ca-af05-db330a8a4fec
 					  long listing format
@@ -201,7 +213,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Non-default info (`--format`)
 						- `%m` = mount point
 				- `tree`
-				  lists contents of directories in a tree-like format.
+				  list contents of directories in a tree-like format.
 				- `find`
 				  collapsed:: true
 				  search for files in a directory hierarchy
