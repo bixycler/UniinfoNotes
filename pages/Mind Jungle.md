@@ -4098,11 +4098,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- publish Markdown
 							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
 							- unitemize headers & remove first tabs
-							- process block ref -> `#`anchor link
-								- Detect unresolved refs
+							- process block link -> `#`anchor link
+								- Detect unresolved links
+								- The convertion of `((block ref))` or empty link `[](((UUID)) "comment")` to `[block link](((UUID)))` is another separate task...
+							- process/check external links to relative paths: `assets`, `publish`, etc.
 							- replace items bullets with numbers
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
-							- process/check external links to relative paths: `assets`, `publish`, etc.
 							- process code block for strict conventions like in GitLab
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 						- ((6720c0a4-0294-4065-8016-9853e2a04475)) using [DocRaptor](https://docraptor.com/)
