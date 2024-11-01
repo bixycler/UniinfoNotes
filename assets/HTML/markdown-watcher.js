@@ -363,7 +363,8 @@ function normalizeMardown(md){
 
     // unitemize headers & remove first tabs & process code block
     const patIH = /^(\t*)(- )?#/; // itemized header
-    const patCBF = /^(\t*)(-| ) ```/; // code block fence
+    const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
+    const patCBH = /^(\t*)  /; // code block line's head
     let inCb = false, cbIndent = '';
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
@@ -381,15 +382,33 @@ function normalizeMardown(md){
         if(ln.match(/^\t/)){
             ln = ln.slice(1);
         }
+
         // process code block
         m = ln.match(patCBF);
         if(m){
-            if(inCb && m[2]=='-'){
-                console.warn('Code block fence not closed');
-             }
-            cbIndent = m[1];
-            nmd += '\n'+ln.replace(patIH, '#')+'\n\n';
+            if(inCb && (m[3] || m[2]=='-')){ // exception
+                console.warn('Code block fence not closed before: ',ln);
+                ln = cbIndent+'```\n'+ ln;
+                inCb = false;
+            }
+            if(inCb){ // close code block
+                ln = cbIndent+'```';
+                inCb = false;
+            }else{ // start code block
+                inCb = true;
+                cbIndent = m[1] + (m[2]=='-'? '' : '\t');
+                ln = cbIndent+'```'+m[3];
+            }
+            nmd += ln+'\n';
             continue;
+        }
+        if(inCb){
+            m = ln.match(patCBH);
+            if(!m){
+                console.warn('Code block line format invalid: ',ln);
+            }else{
+                ln = cbIndent + ln.replace(m[0],'');
+            }
         }
 
         // finally, commit this line
