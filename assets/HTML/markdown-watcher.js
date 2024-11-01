@@ -495,6 +495,7 @@ function processLogseqLinks(ln){
         nln += ln.slice(li,mi.index) + l;
         li = mi.index + mi[0].length;
     }
+    nln += ln.slice(li);
     /*/ convert `((block ref))` -> `[target block title](#UUID)`
     ln = nln; nln = ''; li = 0;
     m = ln.matchAll(patBRefAll);
@@ -503,8 +504,9 @@ function processLogseqLinks(ln){
         l = '['+title+']'+'(#'+mi[1]+')';
         nln += ln.slice(li,mi.index) + l;
         li = mi.index + mi[0].length;
-    }*/
-
+    }
+    nln += ln.slice(li);
+*/
     return nln;
 }
 
