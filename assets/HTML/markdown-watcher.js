@@ -320,6 +320,7 @@ function loadPage() {
 /** Convert from Logseq markdown to normal Markdown */
     var mapUuid = {}, noUuid = {};
 function normalizeMardown(md){
+    var mapUuid = {}, noUuid = {};
     const patItem = /^\t*- /;
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
