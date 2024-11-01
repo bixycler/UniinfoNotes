@@ -322,7 +322,7 @@ function normalizeMardown(md){
     let indent = '';
     let m = null; // pattern matches
 
-    // convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
+    // convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
     const metatag = '<a class="logseq-meta" ';
