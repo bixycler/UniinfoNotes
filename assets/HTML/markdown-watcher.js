@@ -388,7 +388,8 @@ function normalizeMardown(md){
         if(m){ // code block fences
             if(inCb && (m[3] || m[2]=='-')){ // exception
                 console.warn('Code block fence not closed before: ',ln);
-                ln = cbIndent+'```\n'+cbIndent+'\n'+ ln;
+                // try to close it!
+                nmd += cbIndent+'```\n'+cbIndent+'\n';
                 inCb = false;
             }
             if(inCb){ // close code block
