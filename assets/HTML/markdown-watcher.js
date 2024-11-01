@@ -340,12 +340,12 @@ function normalizeMardown(md){
             inLogbook = false; continue;
         }
         if(inLogbook){
-            logbook += ln+'&NewLine;'; continue;
+            logbook += escapeXML(ln)+'&NewLine;'; continue;
         }
         // property
         m = ln.match(patProp);
         if(m){
-            props[m[1]] = escapeQuotes(m[2]); continue;
+            props[m[1]] = escapeXML(m[2], /*quote*/true); continue;
         }
         // end metadata
         if(meta && (Object.keys(props).length || logbook)){
@@ -394,7 +394,7 @@ function normalizeMardown(md){
         for(let mi of m){
             if(!(mi[2] in mapUuid)){
                 console.warn('Block UUID not found: ',mi[2], `for`, mi[0]);
-                noUuid[mi[2]] += mi[0]+', '; 
+                noUuid[mi[2]] += mi[0]+'; ';
             }
         }
         // replace block link -> `#`anchor link
@@ -447,6 +447,12 @@ function updateURL(exportUrl, obj){
     return url;
 }
 
-function escapeQuotes(str){
-    return str.replaceAll('"','&quot;').replaceAll("'",'&apos;').replaceAll('\n','&NewLine;');
+function escapeXML(str, quote=false, xml=true){
+    if(xml){
+        str = str.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+    }
+    if(quote){
+        str = str.replaceAll('"','&quot;').replaceAll("'",'&apos;').replaceAll('\n','&NewLine;');
+    }
+    return str;
 }
