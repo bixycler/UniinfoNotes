@@ -350,7 +350,11 @@ function normalizeMardown(md){
         }
         // end metadata
         if(meta && (Object.keys(props).length || logbook)){
-            if('id' in props){ meta += `id="${props.id}" `; mapUuid[props.id] = true; delete props.id; }
+            if('id' in props){
+                meta += `id="${props.id}" `;
+                mapUuid[props.id] = true;
+                delete props.id;
+            }
             for(let j in props){ meta += `data-${j}="${props[j]}" `; }
             if(logbook){ meta += `data-logbook="${logbook}" `; }
             meta += '></a>';
