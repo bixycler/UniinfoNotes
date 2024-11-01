@@ -327,12 +327,13 @@ function normalizeMardown(md){
     let msg = {};
 
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
+    // & record mapUuid[id] = blockTitle
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
+    const patProp = /^\s*(\w+):: (.*)$/;
     const metatag = '<a class="logseq-meta" ';
     let logbook = '', inLogbook = false;
-    let patProp = /^\s*(\w+):: (.*)$/;
-    let props = {}, meta = '';
+    let props = {}, meta = '', blockTitle = '';
     for(let i in lns){ let ln = lns[i];
         if(ln.match(patLB)){ // start LOGBOOK
             inLogbook = true; continue;
@@ -352,7 +353,7 @@ function normalizeMardown(md){
         if(meta && (Object.keys(props).length || logbook)){
             if('id' in props){
                 meta += `id="${props.id}" `;
-                mapUuid[props.id] = true;
+                mapUuid[props.id] = blockTitle;
                 delete props.id;
             }
             for(let j in props){ meta += `data-${j}="${props[j]}" `; }
@@ -361,7 +362,11 @@ function normalizeMardown(md){
             nmd = nmd.slice(0, -1) + ' '+meta+'\n';
             logbook = ''; props = {};
         }
-        meta = ln.match(patItem) ? metatag : '';
+        m = ln.match(patItem);
+        if(m){
+            meta = metatag;
+            blockTitle = ln.replace(m[0],'');
+        }else{ meta = ''; }
         nmd += ln+'\n';
     }
 
