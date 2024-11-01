@@ -360,7 +360,7 @@ function normalizeMardown(md){
         nmd += ln+'\n';
     }
 
-    // unitemize headers & remove first tabs
+    // unitemize headers & remove first tabs & process code block for strict conventions like in GitLab
     const patIH = /^(\t*)(- )?#/; // itemized header
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
@@ -380,7 +380,7 @@ function normalizeMardown(md){
         nmd += ln+'\n';
     }
 
-    // process details: block ref/links,
+    // process details: block ref/links, code blocks,
     const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
     const patUuidAll = new RegExp(patUuid, 'g');
     const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
@@ -399,6 +399,7 @@ function normalizeMardown(md){
         }
         // replace block link -> `#`anchor link
         ln = ln.replaceAll(patBLinkAll, '[$1](#$2');
+        // finally, commit this line
         nmd += ln+'\n';
     }
     if(Object.keys(noUuid).length){ 
