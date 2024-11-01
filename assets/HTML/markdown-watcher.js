@@ -360,8 +360,9 @@ function normalizeMardown(md){
         nmd += ln+'\n';
     }
 
-    // unitemize headers & remove first tabs & process code block for strict conventions like in GitLab
+    // unitemize headers & remove first tabs & process code block
     const patIH = /^(\t*)(- )?#/; // itemized header
+    let cbIndent = ''
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
         m = ln.match(patIH);
@@ -370,13 +371,17 @@ function normalizeMardown(md){
             nmd += '\n'+ln.replace(patIH, '#')+'\n\n';
             continue;
         }
-        // unindent
+        // unindent header's indent
         if(indent && ln.slice(0,indent.length) == indent){
             ln = ln.slice(indent.length);
         }
-        if(ln.match(/^\t/)){ // unindent sub-items
+        // unindent sub-items' indent
+        if(ln.match(/^\t/)){
             ln = ln.slice(1);
         }
+        // process code block
+
+        // finally, commit this line
         nmd += ln+'\n';
     }
 
