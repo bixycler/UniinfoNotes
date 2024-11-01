@@ -4096,7 +4096,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Remove additional notes & tasks
 					- Then, load the published note to converter script
 						- publish Markdown
-							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..." />`
+							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
 							- unitemize headers & remove first tabs
 							- process block ref -> `#`anchor link
 								- Detect unresolved refs

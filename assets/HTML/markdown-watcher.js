@@ -381,6 +381,7 @@ function normalizeMardown(md){
     const patUUID = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
     const patBRef = new RegExp('\\(\\(('+patUUID.source+')\\)\\)');
     const patBRefAll = new RegExp(patBRef, 'g');
+    const patBLink = new RegExp('\\[\\]\\('+patBRef.source);
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
         ln = ln.replaceAll(patBRefAll, '#$1');
