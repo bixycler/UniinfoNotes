@@ -484,17 +484,28 @@ function processLogseqLinks(ln){
         l = l.replace(mi[0],'');
     }
 
-    // replace block link -> `#`anchor link
+    // convert block link -> `#`anchor link
     //   `[](((UUID)) "comment")` -> `[target block title](#UUID "comment")`
+    let nln = ''; // ln -> nln
+    let li = 0; // last index
     m = ln.matchAll(patBLinkAll);
     for(let mi of m){
-        let title = mi[1] ? mi[1] : mapUuid[mi[2]]; // mapUuid[mi[2]] should have been processed before!!!
+        let title = mi[1] ? mi[1] : mapUuid[mi[2]]; // mapUuid[id] should have been processed before!!!
         l = '['+title+']'+'(#'+mi[2]+(mi[3]??'')+')';
-        ln = ln.slice(0,mi.index) +l+ ln.slice(mi.index+mi[0].length);
+        nln += ln.slice(li,mi.index) + l;
+        li = mi.index + mi[0].length;
     }
-    // Convert `((block ref))` -> `[target block title](((UUID)))`
+    /*/ convert `((block ref))` -> `[target block title](#UUID)`
+    ln = nln; nln = ''; li = 0;
+    m = ln.matchAll(patBRefAll);
+    for(let mi of m){
+        let title = mapUuid[mi[1]]; // mapUuid[id] should have been processed before!!!
+        l = '['+title+']'+'(#'+mi[1]+')';
+        nln += ln.slice(li,mi.index) + l;
+        li = mi.index + mi[0].length;
+    }*/
 
-    return ln;
+    return nln;
 }
 
 //////////////////////////////////////////
