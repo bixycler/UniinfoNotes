@@ -334,6 +334,7 @@ function loadPage() {
     const patBLink = new RegExp('\\[([^\\]]*)\\]\\('+patBRef.source+'( "[^"]*")?\\)');
     const patBLinkAll = new RegExp(patBLink, 'g');
     const patLink = new RegExp('\\[([^\\]]*)\\]\\(([^ \\)]+)( "[^"]*")?\\)');
+    const patLinkAll = new RegExp(patLink, 'g');
 function normalizeMardown(md){
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
@@ -442,6 +443,8 @@ function normalizeMardown(md){
         // finally, commit this line
         nmd += ln+'\n';
     }
+
+    // collect error messages
     if(Object.keys(noUuid).length){
         msg['Unresolved links'] = noUuid;
     }
@@ -469,6 +472,7 @@ function processLogseqLinks(ln){
     }
     // replace block link -> `#`anchor link
     ln = ln.replaceAll(patBLinkAll, '[$1](#$2$3)');
+    return ln;
 }
 
 //////////////////////////////////////////
