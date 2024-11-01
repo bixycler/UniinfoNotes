@@ -349,7 +349,7 @@ function normalizeMardown(md){
             if('id' in props){ meta += `id="${props.id}" `; delete props.id; }
             for(let j in props){ meta += `data-${j}="${props[j]}" `; }
             if(logbook){ meta += `data-logbook="${logbook}" `; }
-            meta += '><a/>';
+            meta += '></a>';
             nmd = nmd.slice(0, -1) + ' '+meta+'\n';
             logbook = ''; props = {};
         }
@@ -379,7 +379,7 @@ function normalizeMardown(md){
 
     // process block ref -> `#`anchor link
     const patUUID = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
-    const patBRef = new RegExp('\\(\\(('+patUUID+')\\)\\)');
+    const patBRef = new RegExp('\\(\\(('+patUUID.source+')\\)\\)');
     const patBRefAll = new RegExp(patBRef, 'g');
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
