@@ -4102,6 +4102,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Detect unresolved links
 								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`
 									- All links & block refs in the `target block title` is replaced by plain text due to the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
+								- Note: Parentheses in external link target must be esceped: `(` = `&lpar;`, `)` = `&rpar;`
+									- ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) does allow _**matched** parentheses_ in link target.
+									- But it's dangerous: any unmatched parentheis will break the link sysntax with broken text displayed.
 							- process/check external links to relative paths: `assets`, `publish`, etc.
 							- replace items bullets with numbers
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
