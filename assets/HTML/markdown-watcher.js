@@ -387,8 +387,11 @@ function normalizeMardown(md){
     const patBLinkAll = new RegExp(patBLink, 'g');
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
+        m = ln.matchAll(patBLinkAll);
+        for(let mi of m){
+            if(! mi[2] in mapUuid){ console. }
+        }
         ln = ln.replaceAll(patBLinkAll, '[$1](#$2');
-        if(! in mapUuid)
         nmd += ln+'\n';
     }
 
