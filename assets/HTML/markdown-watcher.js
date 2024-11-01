@@ -467,8 +467,9 @@ function processLogseqLinks(ln){
     m = ln.matchAll(patBLinkAll);
     for(let mi of m){
         if(!(mi[2] in mapUuid)){
-            console.warn('Block UUID not found: ',mi[2], 'for', mi[0]);
-            noUuid[mi[2]] += mi[0]+'; ';
+            let context = l.slice(0,mi.index)+mi[0];
+            console.warn('Block UUID not found: ',mi[2], 'for', context);
+            noUuid[mi[2]] += context+'; ';
         }
         l = ln.replace(mi[0],'');
     }
@@ -476,8 +477,9 @@ function processLogseqLinks(ln){
     m = l.matchAll(patBRefAll);
     for(let mi of m){
         if(!(mi[1] in mapUuid)){
-            console.warn('Block UUID not found: ',mi[1], 'in line:', l);
-            noUuid[mi[1]] += l+'; ';
+            let context = l.slice(0,mi.index)+mi[0];
+            console.warn('Block UUID not found: ',mi[1], 'in line:', context);
+            noUuid[mi[1]] += context+'; ';
         }
         l = l.replace(mi[0],'');
     }
