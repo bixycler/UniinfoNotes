@@ -319,9 +319,22 @@ function loadPage() {
 
 /** Convert from Logseq markdown to normal Markdown */
     var mapUuid = {}, noUuid = {};
-function normalizeMardown(md){
-    mapUuid = {}; noUuid = {};
     const patItem = /^\t*- /;
+    const patLB = /^\s*:(logbook|LOGBOOK):$/;
+    const patLBE = /^\s*:END:$/;
+    const patProp = /^\s*(\w+):: (.*)$/;
+    const metatag = '<a class="logseq-meta" ';
+    const patIH = /^(\t*)(- )?#/; // itemized header
+    const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
+    const patCBH = /^(\t*)  /; // code block line's head
+    const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
+    const patUuidAll = new RegExp(patUuid, 'g');
+    const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
+    const patBRefAll = new RegExp(patBRef, 'g');
+    const patBLink = new RegExp('\\[([^\\]]*)\\]\\('+patBRef.source+'( "[^"]*")?\\)');
+    const patBLinkAll = new RegExp(patBLink, 'g');
+    const patLink = new RegExp('\\[([^\\]]*)\\]\\(([^ \\)]+)( "[^"]*")?\\)');
+function normalizeMardown(md){
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
     let m = null; // pattern matches
@@ -329,10 +342,7 @@ function normalizeMardown(md){
 
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
     // & record mapUuid[id] = blockTitle
-    const patLB = /^\s*:(logbook|LOGBOOK):$/;
-    const patLBE = /^\s*:END:$/;
-    const patProp = /^\s*(\w+):: (.*)$/;
-    const metatag = '<a class="logseq-meta" ';
+    mapUuid = {}; noUuid = {};
     let logbook = '', inLogbook = false;
     let props = {}, meta = '', blockTitle = '';
     for(let i in lns){ let ln = lns[i];
@@ -372,9 +382,6 @@ function normalizeMardown(md){
     }
 
     // unitemize headers & remove first tabs & process code block
-    const patIH = /^(\t*)(- )?#/; // itemized header
-    const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
-    const patCBH = /^(\t*)  /; // code block line's head
     let codeblock = '', cbIndent = '', cbErrors = {};
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
@@ -428,25 +435,10 @@ function normalizeMardown(md){
         nmd += ln+'\n';
     }
 
-    // process details: block ref/links, code blocks,
-    const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
-    const patUuidAll = new RegExp(patUuid, 'g');
-    const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
-    const patBRefAll = new RegExp(patBRef, 'g');
-    const patBLink = new RegExp('\\[([^\\]]*)\\]\\('+patBRef.source); // leave out the closing `)` for potential ` "link title")`
-    const patBLinkAll = new RegExp(patBLink, 'g');
+    // process details: block ref/links,
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
-        // check links' target against mapUuid before replacing them
-        m = ln.matchAll(patBLinkAll);
-        for(let mi of m){
-            if(!(mi[2] in mapUuid)){
-                console.warn('Block UUID not found: ',mi[2], `for`, mi[0]);
-                noUuid[mi[2]] += mi[0]+'; ';
-            }
-        }
-        // replace block link -> `#`anchor link
-        ln = ln.replaceAll(patBLinkAll, '[$1](#$2');
+        ln = processLogseqLinks(ln);
         // finally, commit this line
         nmd += ln+'\n';
     }
@@ -464,6 +456,19 @@ function normalizeMardown(md){
 
     // return the nomalized markdown
     return nmd;
+}
+
+function processLogseqLinks(ln){
+    // check links' target against mapUuid before replacing them
+    m = ln.matchAll(patBLinkAll);
+    for(let mi of m){
+        if(!(mi[2] in mapUuid)){
+            console.warn('Block UUID not found: ',mi[2], `for`, mi[0]);
+            noUuid[mi[2]] += mi[0]+'; ';
+        }
+    }
+    // replace block link -> `#`anchor link
+    ln = ln.replaceAll(patBLinkAll, '[$1](#$2$3)');
 }
 
 //////////////////////////////////////////
