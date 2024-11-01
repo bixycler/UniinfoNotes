@@ -365,7 +365,7 @@ function normalizeMardown(md){
     const patIH = /^(\t*)(- )?#/; // itemized header
     const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
     const patCBH = /^(\t*)  /; // code block line's head
-    let inCb = false, cbIndent = '';
+    let codeblock = '', cbIndent = '', cbErrors = {};
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
         m = ln.match(patIH);
@@ -386,27 +386,28 @@ function normalizeMardown(md){
         // process code block
         m = ln.match(patCBF);
         if(m){ // code block fences
-            if(inCb && (m[3] || m[2]=='-')){ // exception
-                console.warn('Code block fence not closed before: ',ln);
+            if(codeblock && (m[3] || m[2]=='-')){ // exception
+                console.warn('Code block ',codeblock,' not closed before ',`@${i}[${m[0]}]`);
+                cbErrors.get(codeblock)
                 // try to close it!
                 nmd += cbIndent+'```\n'+cbIndent+'\n';
-                inCb = false;
+                codeblock = '';
             }
-            if(inCb){ // close code block
+            if(codeblock){ // close code block
                 ln = cbIndent+'```'+cbIndent+'\n';
-                inCb = false;
+                codeblock = '';
             }else{ // start code block
-                inCb = true;
+                codeblock = `@${i}[${m[0]}]`;
                 cbIndent = m[1] + (m[2]=='-'? '' : '\t');
                 ln = cbIndent+'\n'+cbIndent+'```'+m[3];
             }
             nmd += ln+'\n';
             continue;
         }
-        if(inCb){ // code block content lines
+        if(codeblock){ // code block content lines
             m = ln.match(patCBH);
             if(!m){
-                console.warn('Code block line format invalid: ',ln);
+                console.warn('Code block ',codeblock,' line format invalid: ',ln);
             }else{
                 ln = cbIndent + ln.replace(m[0],'');
             }
