@@ -463,15 +463,15 @@ function normalizeMardown(md){
 
 function processLogseqLinks(ln){
     // check links' target against mapUuid before replacing them
-    let l = ln; // for next check of block refs
-    m = ln.matchAll(patBLinkAll);
+    let l = ln; // for context of current link/ref
+    m = l.matchAll(patBLinkAll);
     for(let mi of m){
         if(!(mi[2] in mapUuid)){
-            let context = l.slice(0,mi.index)+mi[0];
+            let context = mi[1] ? mi[0] : l.slice(0,mi.index)+mi[0];
             console.warn('Block UUID not found: ',mi[2], 'for', context);
             noUuid[mi[2]] += context+'; ';
         }
-        l = ln.replace(mi[0],'');
+        l = l.replace(mi[0],'');
     }
     // check block refs against mapUuid before replacing them
     m = l.matchAll(patBRefAll);
@@ -483,6 +483,7 @@ function processLogseqLinks(ln){
         }
         l = l.replace(mi[0],'');
     }
+    // replace block ref & empty link -> block link
     // replace block link -> `#`anchor link
     ln = ln.replaceAll(patBLinkAll, '[$1](#$2$3)');
     return ln;
