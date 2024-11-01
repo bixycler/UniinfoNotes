@@ -4103,11 +4103,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`
 									- All links & block refs in the `target block title` is replaced by plain text due to the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
 								- Note: Square brackets in link text and parentheses in external link target must be esceped: `[` = `&lbrack;`, `]` = `&rbrack;`, `(` = `&lpar;`, `)` = `&rpar;`
+								  collapsed:: true
 									- ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) does allow _**matched** brackets/parentheses_ in link.
 									  id:: 6724afcc-e45b-43ca-839c-a3462a2fa4f4
+										- This links to [[wiki] Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric))
 									- But it's dangerous: any unmatched bracket/parenthesis will break the link sysntax with broken text displayed.
 									  id:: 6724b036-6dfb-4f58-8e13-b79a8a1806c7
-										- This miss closing braket [unmatched bracket [](((6724b036-6dfb-4f58-8e13-b79a8a1806c7)))
+									  collapsed:: true
+										- This has [only open braket [](((6724b036-6dfb-4f58-8e13-b79a8a1806c7)))
+										- This has [only close braket ]](((6724b036-6dfb-4f58-8e13-b79a8a1806c7)))
+										- This has [only open parenthesis](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric) ...
+										- This has [only close parenthesis](https://en.wikipedia.org/wiki/Parenthesis_rhetoric)) ...
 							- process/check external links to relative paths: `assets`, `publish`, etc.
 							- replace items bullets with numbers
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
