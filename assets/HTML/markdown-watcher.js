@@ -65,8 +65,7 @@ async function toPdf() { // use URLSearchParams
         showError(res.statusText, 'PDF loading error');
         return;
     } else {
-        message.innerHTML = '';
-        message.style.display = 'none';
+        clearMessage();
     }
     blob = await res.blob();
     console.debug('toPdf() fetch',params,blob);
@@ -156,8 +155,7 @@ async function load(forced) {
         showError(res.statusText);
         return;
     } else {
-        message.innerHTML = '';
-        message.style.display = 'none';
+        clearMessage();
     }
     let blob = await res.blob();
     console.debug(`fetch(${freq})`, blob);
@@ -203,17 +201,14 @@ async function load(forced) {
         exportUrl = exportUrlPdf;
         if(!mdpdf.src || opdfhtml != mdihtml){
             console.log('PDF loading...');
-            message.innerHTML = 'PDF loading...';
-            message.style.color = 'blue';
-            message.style.display = 'block';
+            showMessage('PDF loading...');
             mdpdf.style.display = 'block';
             let b = await toPdf();
             if(b){ pdfblob = b;
                 updateURL(exportUrlPdf, pdfblob);
                 mdpdf.src = exportUrl.href;
                 mdpdf.innerHTML = '';
-                message.innerHTML = '';
-                message.style.display = 'none';
+                clearMessage();
             }
             opdfhtml = mdihtml;
         }
@@ -224,15 +219,22 @@ async function load(forced) {
 }
 
 function showError(msg, heading = 'Markdown loading error'){
-    message.innerHTML = heading + (typeof(msg)==='string'? ': '+msg: '!');
-    message.style.display = 'block';
-    message.style.color = 'brown';
+    showMessage(heading + (typeof(msg)==='string'? ': '+msg: '!'), 'brown');
 
     /* Chrome console error messages: GET ... {net:ERR_*, 404 (Not Found), ...}
     - Issue: those messages are browser's native and **cannot be controlled** by javascript (even they are properly catched/handlled in the script).
     - Chorme's solution: console config > check "Hide network"
     - Note that `mdimg.src = freq` is actually a GET request in disguise!
     */
+}
+function showMessage(msg, color='green'){
+    message.innerHTML = msg;
+    message.style.color = color;
+    message.style.display = 'block';
+}
+function clearMessage(){
+    message.innerHTML = '';
+    message.style.display = 'none';
 }
 
 function watch(){
@@ -378,7 +380,7 @@ function normalizeMardown(md){
         nmd += ln+'\n';
     }
 
-    // process block link -> `#`anchor link
+    // process details: block ref/links,
     const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
     const patUuidAll = new RegExp(patUuid, 'g');
     const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
@@ -387,7 +389,7 @@ function normalizeMardown(md){
     const patBLinkAll = new RegExp(patBLink, 'g');
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
-        // check link target against mapUuid before replacing them
+        // check links' target against mapUuid before replacing them
         m = ln.matchAll(patBLinkAll);
         for(let mi of m){
             if(!(mi[2] in mapUuid)){
@@ -401,9 +403,11 @@ function normalizeMardown(md){
     }
     if(Object.keys(noUuid).length){ 
         showError('Unresolved links: <pre>'+JSON.stringify(noUuid, null, '  ')+'</pre>', 'Markdown converting error')
+    }else{
+        clearMessage();
     }
 
-    //
+    // return the nomalized markdown
     return nmd;
 }
 
