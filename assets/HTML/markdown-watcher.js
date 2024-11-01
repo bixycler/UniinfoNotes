@@ -320,6 +320,7 @@ function normalizeMardown(md){
     const patItem = /^\t*- /;
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
+    var mapUuid = {};
     let m = null; // pattern matches
 
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
@@ -346,7 +347,7 @@ function normalizeMardown(md){
         }
         // end metadata
         if(meta && (Object.keys(props).length || logbook)){
-            if('id' in props){ meta += `id="${props.id}" `; delete props.id; }
+            if('id' in props){ meta += `id="${props.id}" `; mapUuid[props.id] = true; delete props.id; }
             for(let j in props){ meta += `data-${j}="${props[j]}" `; }
             if(logbook){ meta += `data-logbook="${logbook}" `; }
             meta += '></a>';
@@ -378,15 +379,16 @@ function normalizeMardown(md){
     }
 
     // process block link -> `#`anchor link
-    const patUUID = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
-    const patBRef = new RegExp('\\(\\(('+patUUID.source+')\\)\\)');
+    const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
+    const patUuidAll = new RegExp(patUuid, 'g');
+    const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
     const patBRefAll = new RegExp(patBRef, 'g');
     const patBLink = new RegExp('\\[([^\\]]*)\\]\\('+patBRef.source); // leave out the closing `)` for potential ` "link title")`
     const patBLinkAll = new RegExp(patBLink, 'g');
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
         ln = ln.replaceAll(patBLinkAll, '[$1](#$2');
-        // ... check ...
+        if(! in mapUuid)
         nmd += ln+'\n';
     }
 
