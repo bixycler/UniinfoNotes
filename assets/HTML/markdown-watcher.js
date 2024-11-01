@@ -483,9 +483,17 @@ function processLogseqLinks(ln){
         }
         l = l.replace(mi[0],'');
     }
-    // replace block ref & empty link -> block link
+
     // replace block link -> `#`anchor link
-    ln = ln.replaceAll(patBLinkAll, '[$1](#$2$3)');
+    //   `[](((UUID)) "comment")` -> `[target block title](#UUID "comment")`
+    m = ln.matchAll(patBLinkAll);
+    for(let mi of m){
+        let title = mi[1] ? mi[1] : mapUuid[mi[2]]; // mapUuid[mi[2]] should have been processed before!!!
+        l = '['+title+']'+'(#'+mi[2]+mi[3]+')';
+        ln = ln.slice(0,mi.index) +l+ ln.slice(mi.index+mi[0].length);
+    }
+    // Convert `((block ref))` -> `[target block title](((UUID)))`
+
     return ln;
 }
 
