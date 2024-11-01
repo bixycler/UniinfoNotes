@@ -17,9 +17,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((66978876-9378-4059-8783-868d041e8e2e)) & ((671f4028-c60f-4791-b716-e5226cdf410e))
 				- Add `markdown-watcher.html`, `diagram-watcher.html`
 				- DocRaptor ((67222374-f7da-4900-a16f-7540013b8b96))
+				- ((6720bd22-c2f9-42c7-a6e9-99bc51a92225))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- ((6720bd22-c2f9-42c7-a6e9-99bc51a92225))
 				- ((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf))
 				- ...
 			- ------
