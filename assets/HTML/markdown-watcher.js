@@ -324,6 +324,7 @@ function normalizeMardown(md){
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
     let m = null; // pattern matches
+    let msg = {};
 
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
@@ -362,7 +363,8 @@ function normalizeMardown(md){
 
     // unitemize headers & remove first tabs & process code block
     const patIH = /^(\t*)(- )?#/; // itemized header
-    let cbIndent = ''
+    const patCBF = /^(\t*)(-| ) ```/; // code block fence
+    let inCb = false, cbIndent = '';
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
         m = ln.match(patIH);
@@ -380,6 +382,15 @@ function normalizeMardown(md){
             ln = ln.slice(1);
         }
         // process code block
+        m = ln.match(patCBF);
+        if(m){
+            if(inCb && m[2]=='-'){
+                console.warn('Code block fence not closed');
+             }
+            cbIndent = m[1];
+            nmd += '\n'+ln.replace(patIH, '#')+'\n\n';
+            continue;
+        }
 
         // finally, commit this line
         nmd += ln+'\n';
@@ -407,8 +418,11 @@ function normalizeMardown(md){
         // finally, commit this line
         nmd += ln+'\n';
     }
-    if(Object.keys(noUuid).length){ 
-        showError('Unresolved links: <pre>'+JSON.stringify(noUuid, null, '  ')+'</pre>', 'Markdown converting error')
+    if(Object.keys(noUuid).length){
+        msg['Unresolved links'] = noUuid;
+    }
+    if(Object.keys(msg).length){
+        showError('<pre>'+JSON.stringify(msg, null, '  ')+'</pre>', 'Markdown converting issues')
     }else{
         clearMessage();
     }
