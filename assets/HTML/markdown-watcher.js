@@ -385,24 +385,24 @@ function normalizeMardown(md){
 
         // process code block
         m = ln.match(patCBF);
-        if(m){
+        if(m){ // code block fences
             if(inCb && (m[3] || m[2]=='-')){ // exception
                 console.warn('Code block fence not closed before: ',ln);
-                ln = cbIndent+'```\n'+ ln;
+                ln = cbIndent+'```\n'+cbIndent+'\n'+ ln;
                 inCb = false;
             }
             if(inCb){ // close code block
-                ln = cbIndent+'```';
+                ln = cbIndent+'```'+cbIndent+'\n';
                 inCb = false;
             }else{ // start code block
                 inCb = true;
                 cbIndent = m[1] + (m[2]=='-'? '' : '\t');
-                ln = cbIndent+'```'+m[3];
+                ln = cbIndent+'\n'+cbIndent+'```'+m[3];
             }
             nmd += ln+'\n';
             continue;
         }
-        if(inCb){
+        if(inCb){ // code block content lines
             m = ln.match(patCBH);
             if(!m){
                 console.warn('Code block line format invalid: ',ln);
