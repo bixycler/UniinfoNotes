@@ -469,7 +469,7 @@ function processLogseqLinks(ln){
         if(!(mi[2] in mapUuid)){
             let context = mi[1] ? mi[0] : l.slice(0,mi.index)+mi[0];
             console.warn('Block UUID not found: ',mi[2], 'for', context);
-            noUuid[mi[2]] += context+'; ';
+            noUuid[mi[2]] = (noUuid[mi[2]] ?? '') + context+'; ';
         }
         l = l.replace(mi[0],'');
     }
@@ -479,7 +479,7 @@ function processLogseqLinks(ln){
         if(!(mi[1] in mapUuid)){
             let context = l.slice(0,mi.index)+mi[0];
             console.warn('Block UUID not found: ',mi[1], 'in line:', context);
-            noUuid[mi[1]] += context+'; ';
+            noUuid[mi[1]] = (noUuid[mi[1]] ?? '') + context+'; ';
         }
         l = l.replace(mi[0],'');
     }
@@ -489,7 +489,7 @@ function processLogseqLinks(ln){
     m = ln.matchAll(patBLinkAll);
     for(let mi of m){
         let title = mi[1] ? mi[1] : mapUuid[mi[2]]; // mapUuid[mi[2]] should have been processed before!!!
-        l = '['+title+']'+'(#'+mi[2]+mi[3]+')';
+        l = '['+title+']'+'(#'+mi[2]+(mi[3]??'')+')';
         ln = ln.slice(0,mi.index) +l+ ln.slice(mi.index+mi[0].length);
     }
     // Convert `((block ref))` -> `[target block title](((UUID)))`
