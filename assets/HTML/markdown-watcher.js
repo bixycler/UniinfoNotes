@@ -390,7 +390,7 @@ function normalizeMardown(md){
         // check link target against mapUuid before replacing them
         m = ln.matchAll(patBLinkAll);
         for(let mi of m){
-            if(!(mi[2] in mapUuid)){ 
+            if(!(mi[2] in mapUuid)){
                 console.warn('Block UUID not found: ',mi[2], `for`, mi[0]);
                 noUuid[mi[2]] += mi[0]+', '; 
             }
@@ -400,7 +400,7 @@ function normalizeMardown(md){
         nmd += ln+'\n';
     }
     if(Object.keys(noUuid).length){ 
-        showError('Unresolved links: '+noUuid, 'Markdown converting error')
+        showError('Unresolved links: <pre>'+JSON.stringify(noUuid, null, '  ')+'</pre>', 'Markdown converting error')
     }
 
     //
