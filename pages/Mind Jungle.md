@@ -4098,9 +4098,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- publish Markdown
 							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
 							- unitemize headers & remove first tabs
-							- process block link -> `#`anchor link
+							- process block link/ref -> `#`anchor link
 								- Detect unresolved links
-								- The convertion of `((block ref))` or empty link `[](((UUID)) "comment")` to `[block link](((UUID)))` is another separate task...
+								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`
+									- All links & block refs in the `target block title` is replaced by plain text due to the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
 							- process/check external links to relative paths: `assets`, `publish`, etc.
 							- replace items bullets with numbers
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
@@ -4897,7 +4898,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Documentations
 				  collapsed:: true
 					- [Permitted content in `<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#technical_summary)
-						- [Transparent](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#transparent_content_model), except that no descendant may be [interactive content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#interactive_content) or an `<a>` element, and no descendant may have a specified [tabindex](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) attribute.
+						- [Transparent](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#transparent_content_model), except that no descendant may be [interactive content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#interactive_content) nor an `<a>` element, and no descendant may have a specified [tabindex](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) attribute.
 					- [Permitted content in `<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#technical_summary)
 						- [Phrasing content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#phrasing_content) but there must be no [Interactive content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#interactive_content)
 					- [Permitted content in `<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#technical_summary)
