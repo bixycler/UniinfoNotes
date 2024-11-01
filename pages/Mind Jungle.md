@@ -4102,9 +4102,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Detect unresolved links
 								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`
 									- All links & block refs in the `target block title` is replaced by plain text due to the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
-								- Note: Square brackets in link text and parentheses in external link target must be esceped: `[` = `&lbrack;`, `]` = `&rbrack;`, `(` = `%28`, `)` = `%29`
+								- Note: Link text must not contain square brackets `[]`, and parentheses `()` in external link target must be esceped: `(` = `%28`, `)` = `%29`
 								  collapsed:: true
-									- E.g. This links to [[wiki Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_%28rhetoric%29)
+									- E.g. This links to [{wiki} Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_%28rhetoric%29)
 									- ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) does allow _**matched** brackets/parentheses_ in link.
 									  id:: 6724afcc-e45b-43ca-839c-a3462a2fa4f4
 										- This links to [[wiki] Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric))
