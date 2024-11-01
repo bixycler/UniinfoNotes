@@ -335,7 +335,7 @@ function loadPage() {
     const patBLinkAll = new RegExp(patBLink, 'g');
     const patLink = new RegExp('\\[([^\\]]*)\\]\\(([^ \\)]+)( "[^"]*")?\\)');
     const patLinkAll = new RegExp(patLink, 'g');
-function normalizeMardown(md){
+function normalizeMardown(md){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
     let m = null; // pattern matches
