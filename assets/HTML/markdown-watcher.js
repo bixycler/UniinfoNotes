@@ -388,7 +388,7 @@ function normalizeMardown(md){
         if(m){ // code block fences
             if(codeblock && (m[3] || m[2]=='-')){ // exception
                 console.warn('Code block ',codeblock,' not closed before ',`@${i}[${m[0]}]`);
-                cbErrors.get(codeblock)
+                arrayPush(cbErrors,codeblock, `Not closed before @${i}[${m[0]}]`);
                 // try to close it!
                 nmd += cbIndent+'```\n'+cbIndent+'\n';
                 codeblock = '';
@@ -408,6 +408,7 @@ function normalizeMardown(md){
             m = ln.match(patCBH);
             if(!m){
                 console.warn('Code block ',codeblock,' line format invalid: ',ln);
+                arrayPush(cbErrors,codeblock, `Line format invalid: ${ln}`);
             }else{
                 ln = cbIndent + ln.replace(m[0],'');
             }
@@ -441,6 +442,9 @@ function normalizeMardown(md){
     }
     if(Object.keys(noUuid).length){
         msg['Unresolved links'] = noUuid;
+    }
+    if(Object.keys(cbErrors).length){
+        msg['Code block errors'] = cbErrors;
     }
     if(Object.keys(msg).length){
         showError('<pre>'+JSON.stringify(msg, null, '  ')+'</pre>', 'Markdown converting issues')
@@ -496,4 +500,9 @@ function escapeXML(str, quote=false, xml=true){
         str = str.replaceAll('"','&quot;').replaceAll("'",'&apos;').replaceAll('\n','&NewLine;');
     }
     return str;
+}
+
+function arrayPush(dict, field, value){
+    if(!(field in dict)){ dict[field] = []; }
+    dict[field].push(value);
 }
