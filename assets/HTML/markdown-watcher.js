@@ -379,8 +379,8 @@ function normalizeMardown(md){
 
     // process block ref -> `#`anchor link
     const patUUID = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
-    const patBRef = /\(\((\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w)\)\)/;
-    const patBRefAll = /\(\((\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w)\)\)/g;
+    const patBRef = new RegExp('\\(\\('+patUUID+'\\)\\)');
+    const patBRefAll = new RegExp(patBRef, 'g');
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
         ln = ln.replaceAll(patBRefAll, '#$1');
