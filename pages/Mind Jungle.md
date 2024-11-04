@@ -928,11 +928,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
 	  collapsed:: true
 	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
 		- subjective
 		  id:: 66c88055-a994-4e59-a7dc-83f3331a6e1d
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a thing is ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) when it's dependent on an individual subject.
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6728a766-210b-462b-8fd4-aee04981b4f9))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c82f42-16bb-4886-a32b-5c246187cfee))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) an image is ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) when it's dependent on an individual subject.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				-
+			- subjectivity
+			  id:: 6728a766-210b-462b-8fd4-aee04981b4f9
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
 	- ## object
 	  id:: 667cfa42-ade7-4310-9a7b-6d14d01c16da
 	  collapsed:: true
@@ -940,10 +947,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- objective
 		  id:: 66c82f42-16bb-4886-a32b-5c246187cfee
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa42-ade7-4310-9a7b-6d14d01c16da))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a thing is ((66c82f42-16bb-4886-a32b-5c246187cfee)) when it's independent from individual subjects.
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6728a7ab-1629-4e23-bc56-10ead0d8348c))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) an image is ((66c82f42-16bb-4886-a32b-5c246187cfee)) when it's independent from individual subjects.
+			- objectivity
+			  id:: 6728a7ab-1629-4e23-bc56-10ead0d8348c
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c82f42-16bb-4886-a32b-5c246187cfee))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is a thing that is ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))n by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), which may be another subject. The same object can be seen as many different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s by different subjects, which are called ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) images. The common of these forms is the ((66c82f42-16bb-4886-a32b-5c246187cfee)) image of the object.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) can only directly see the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an object. All other properties like ((66727858-979d-4d95-8a90-7a749218cfba)) and/or ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that object, the subject must infer from the collections of the seen forms then attribute to the object.
+			-
 	- ## body
 	  id:: 66c810a0-9861-4787-bdcf-1378219332be
 	  collapsed:: true
