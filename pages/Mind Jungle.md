@@ -1949,6 +1949,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- pure consciousness
 		  id:: 672a008c-835f-4e28-b969-2046feaf43b9
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
+		- self-aware
+		  id:: 672a0c51-a6cb-4570-b9ef-266d3e31763d
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((672a0c61-ae93-440a-84e6-13778c8e91ca))
+			- self-awareness
+			  id:: 672a0c61-ae93-440a-84e6-13778c8e91ca
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((672a0c51-a6cb-4570-b9ef-266d3e31763d))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) defines the ojective ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the subjective self, i.e. sense of self, is created by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)).
+			- Ref: [human self-awareness](https://en.wikipedia.org/wiki/Self-awareness)
 	- ## conscious
 	  id:: 66f267df-e3b0-444b-a721-1225ca59d292
 	  collapsed:: true
