@@ -957,9 +957,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Relativity of ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) and ((6728a766-210b-462b-8fd4-aee04981b4f9))
 				- The common dichotomy is the [absolute objectivity versus absolute subjectivity](https://en.wikipedia.org/wiki/Subjectivity_and_objectivity_(philosophy)), whose ((6729c1c5-7eb2-408b-a205-f3039799d19c)) is _fixed by the human center, i.e. **human as the only subject**_: Anything independent from all humans (mind) is "objective", and anything dependent on human mind is "subjective".
 					- This dichotomy is human-absolute, i.e. relative to the whole mankind, i.e. mandkind as the ((6729b90b-1ee3-4efc-b62c-281f9621f487)).
-				- In Unïnfo, we consider the relative version of this dichotomy:
+				- In Unïnfo, we consider the relative version of this dichotomy which is free from the human center:
 					- relative objectivity = [inter-subjectivity](https://en.wikipedia.org/wiki/Intersubjectivity)
 					  tính khách quan tương đối = tính chủ quan chung
+						- Objectivity of coarse subjects is just the  to the common fine subject, i get intersection & interunion of all , hence “inter-subjectivity”.
 					- relative subjectivity = idio-objectivity
 					  tính chủ quan tương đối = tính khách quan riêng
 						- While the subjectivity is idiomorphic and idiochromatic, it's still objective within the subject itself.
@@ -968,7 +969,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- When no one else accept this subjective form, it becomes “idiolect” of an “idiot”; On the other hand,
 							- when many ones accept and adopt this form, it becomes “idiom” which is more objective than subjective.
 						- Etymology: “[idio-](https://en.wiktionary.org/wiki/idio-)” ← Greek “ídios” ([ἴδιος](https://en.wiktionary.org/wiki/%E1%BC%B4%CE%B4%CE%B9%CE%BF%CF%82#Ancient_Greek)) meaning “self, private, distinct, peculiar”
-							- It's easily confused with “[ideo-](https://en.wiktionary.org/wiki/ideo-)” ← Greek “idéa” ([ἰδέα](https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek)) meaning “form, shape, appearance, type, idea”
+							- It's easily confused with “[ideo-](https://en.wiktionary.org/wiki/ideo-)” ← Greek “idéa” ([ἰδέα](https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek)) meaning “form, shape, appearance, type, idea”.
 	- ## body
 	  id:: 66c810a0-9861-4787-bdcf-1378219332be
 	  collapsed:: true
