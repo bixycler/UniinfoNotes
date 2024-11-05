@@ -1943,6 +1943,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the form, as ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a **concrete awareness** arises as a new form of qualiton activated from that quantum. The collection of all possible forms arising from all quanta of the content when touching all possible states of the qualiton is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
+			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
 	- ## conscious
 	  id:: 66f267df-e3b0-444b-a721-1225ca59d292
 	  collapsed:: true
