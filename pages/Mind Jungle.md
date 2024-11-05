@@ -965,8 +965,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- While the subjectivity is idiomorphic and idiochromatic, it's still objective within the subject itself.
 						- Only when comparing to others, can this subject know how much subjective its experience is.
 						- The subjectivity is also relative to the external community:
-							- When no one else accept this subjective form, it becomes “” idiolect" of an "idiot"; On the other hand,
-							- when many ones accept and adopt this experience, it becomes "idiom" which is more objective than subjective.
+							- When no one else accept this subjective form, it becomes “idiolect” of an “idiot”; On the other hand,
+							- when many ones accept and adopt this form, it becomes “idiom” which is more objective than subjective.
+						- Etymology: “[idio-](https://en.wiktionary.org/wiki/idio-)” ← Greek “ídios” ([ἴδιος](https://en.wiktionary.org/wiki/%E1%BC%B4%CE%B4%CE%B9%CE%BF%CF%82#Ancient_Greek)) meaning “self, private, distinct, peculiar”
+							- It's easily confused with “[ideo-](https://en.wiktionary.org/wiki/ideo-)” ← Greek “idéa” ([ἰδέα](https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek)) meaning “form, shape, appearance, type, idea”
 	- ## body
 	  id:: 66c810a0-9861-4787-bdcf-1378219332be
 	  collapsed:: true
