@@ -1076,3 +1076,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Quan niệm "vật vô tri" là một quan niệm ... ngạo mạn, theo tui. Dù ở chỗ không người, mình làm cái gì thì cây cối, đất đá, không khí ở đó đều chứng kiến, đều "biết" hết, cái mà người xưa gọi là "Trời biết, Đất biết".
 		- Nếu những vật vô tri không biết thì ngành khoa học hình sự đâu thể tìm ra được những kẻ giết người giấu tay, phi tang đủ kiểu... 😛
 		- Hồi trước, lúc nói chuyện với ông về vụ ông bị blackout sau lấy máu... ông hỏi "blackout thì sao nhớ được" đã vỗ một cái mạnh vào đầu tui để nhắc rằng đối với người thường thì "thấy, biết, nhớ" là thứ chỉ có trong đầu. Tui thấy quá rõ ràng là mặt đất thấy ông ngã và ghi nhớ lại còn nguyên vết trên đất, còn nguyên vết đất trên người ông.... nên đã không thể nghĩ ra được là ông đã "không nhớ gì". Đối với tui, khi nhìn vào vết lấm lem đó, tui "nhớ lại" mọi thứ một cách khá hiển nhiên.... vì tui ko coi cái thân này tách biệt với đất.
+	- DOING Copilot explains the role of phsysical laws in materialism
+	  id:: 6729d054-d48f-4ffa-b097-9a564a4cc2a5
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-11-05 Tue 14:59:29]
+	  :END:
+		-
