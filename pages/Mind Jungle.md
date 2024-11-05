@@ -936,6 +936,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- This is the viewpoint of [Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) and [Hylozoism](https://en.wikipedia.org/wiki/Hylozoism) which are development of the ancient [Animism](https://en.wikipedia.org/wiki/Animism).
 				- The [observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)) in Quantum Mechanics has shown that any particle can be an “observer” and the physicists do acknowledge it, but they are not serious about this fact.
 					- This [chat with Copilot](((6729d059-7750-4a60-aa6c-766ca9a94ece))) has shown the common attitude about “observer” which is far from particle.
+					- The traditional defintion of “observer” is anything behind the [Heisenberg cut](https://en.wikipedia.org/wiki/Heisenberg_cut) where wave-function collapses. This cut separates the observed system (object) which has wave property, and the the observing system (subject) which has particle property.
+					- In order to collapse a wave-function, the observer must be “heavy”
 					- https://philosophy.stackexchange.com/a/22854
 		- subjective
 		  id:: 66c88055-a994-4e59-a7dc-83f3331a6e1d
