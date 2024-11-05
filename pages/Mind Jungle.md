@@ -930,15 +930,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) 
 	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Traditionally, “subject” is used to refer human only.
 			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((667d162c-16cf-44d3-81a5-29b1b885164f)).
+			  id:: 6729d6db-3a8c-49da-95b0-28e1b2cb9806
 			  collapsed:: true
 				- This is the viewpoint of [Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) and [Hylozoism](https://en.wikipedia.org/wiki/Hylozoism) which are development of the ancient [Animism](https://en.wikipedia.org/wiki/Animism).
 				- The [observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)) in Quantum Mechanics has shown that any particle can be an “observer” and the physicists do acknowledge it, but they are not serious about this fact.
 					- This [chat with Copilot](((6729d059-7750-4a60-aa6c-766ca9a94ece))) has shown the common attitude about “observer” which is far from particle.
 					- The traditional defintion of “observer” is anything behind the [Heisenberg cut](https://en.wikipedia.org/wiki/Heisenberg_cut) where **wave-function collapses**. This cut separates the observed system (object) which has wave property, and the the observing system (subject) which has particle property.
 						- In order to collapse a wave-function, the observer must be “heavy” enough, either with many particles or a particle with strong interaction. This is the probabilistic nature of the [law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers). So in this sense, the observer must be a classical system and cannot be a single [elementary particle](https://en.wikipedia.org/wiki/Elementary_particle).
-					- In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), we don't require an
+				- In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), we don't require an ((66727858-979d-4d95-8a90-7a749218cfba)) to be a [wave-function collapse](https://en.wikipedia.org/wiki/Wave_function_collapse), thus any interfactive particle is a subject of that interaction.
 		- subjective
 		  id:: 66c88055-a994-4e59-a7dc-83f3331a6e1d
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))
