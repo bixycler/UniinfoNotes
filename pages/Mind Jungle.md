@@ -959,8 +959,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- This dichotomy is human-absolute, i.e. relative to the whole mankind, i.e. mandkind as the ((6729b90b-1ee3-4efc-b62c-281f9621f487)).
 				- In Unïnfo, we consider the relative version of this dichotomy:
 					- relative objectivity = [inter-subjectivity](https://en.wikipedia.org/wiki/Intersubjectivity)
+					  tính khách quan tương đối = tính chủ quan chung
 					- relative subjectivity = idio-objectivity
-				-
+					  tính chủ quan tương đối = tính khách quan riêng
+						- While the subjectivity is idiomorphic and idiochromatic, it's still objective within the subject itself.
+						- Only when comparing to others, can this subject know how much subjective its experience is.
+						- The subjectivity is also relative to the external community:
+							- When no one else accept this subjective form, it becomes “” idiolect" of an "idiot"; On the other hand,
+							- when many ones accept and adopt this experience, it becomes "idiom" which is more objective than subjective.
 	- ## body
 	  id:: 66c810a0-9861-4787-bdcf-1378219332be
 	  collapsed:: true
