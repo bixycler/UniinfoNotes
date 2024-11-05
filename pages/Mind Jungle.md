@@ -955,7 +955,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) can only directly see the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an object. All other properties like ((66727858-979d-4d95-8a90-7a749218cfba)) and/or ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that object, the subject must infer from the collections of the seen forms then attribute to the object.
 			- Relativity of ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) and ((6728a766-210b-462b-8fd4-aee04981b4f9))
-				- The common dichotomy is the [absolute objectivity versus absolute subjectivity](https://en.wikipedia.org/wiki/Subjectivity_and_objectivity_(philosophy)), whose _absoluteness is fixed by the human center, i.e. **human as the only subject**_: Anything independent from all humans (mind) is "objective", and anything dependent on human mind is "subjective".
+				- The common dichotomy is the [absolute objectivity versus absolute subjectivity](https://en.wikipedia.org/wiki/Subjectivity_and_objectivity_(philosophy)), whose ((6729c1c5-7eb2-408b-a205-f3039799d19c)) is _fixed by the human center, i.e. **human as the only subject**_: Anything independent from all humans (mind) is "objective", and anything dependent on human mind is "subjective".
 					- This dichotomy is human-absolute, i.e. relative to the whole mankind, i.e. mandkind as the point of reference.
 				- In Unïnfo, we consider the relative version of this dichotomy:
 					- relative objectivity = [inter-subjectivity](https://en.wikipedia.org/wiki/Intersubjectivity)
@@ -3082,7 +3082,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6729b71b-e8ea-414d-8202-b66c1fc2d67d
 		  collapsed:: true
 		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A form is ((6729b71b-e8ea-414d-8202-b66c1fc2d67d)) in a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) when its ((6729b90b-1ee3-4efc-b62c-281f9621f487)) is the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of that world.
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6729c1c5-7eb2-408b-a205-f3039799d19c))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A form is ((6729b71b-e8ea-414d-8202-b66c1fc2d67d)) in a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) when its ((6729b90b-1ee3-4efc-b62c-281f9621f487)) is the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of that world, i.e. _an absolute form is relative to the whole world_ instead of a particular partial viewpoint. That center  The absolute reference point is called by many names like “center”, “root”, “origin”, etc.
+			- absoluteness
+			  id:: 6729c1c5-7eb2-408b-a205-f3039799d19c
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6729b71b-e8ea-414d-8202-b66c1fc2d67d))
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
