@@ -3073,8 +3073,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- relativity
 			  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Any ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is an image ((projection)) some ((669a2487-054d-4408-ae41-189e34af81a9)). The eye c
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Any ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is an image ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by some ((669a2487-054d-4408-ae41-189e34af81a9)). Against the same ((6678288e-699b-4325-bdba-bf6349fe0d57)), different forms are seen via different ((667272b8-88a8-4928-a22a-35035c9edf05))s due to the form being created in relation to the point of projection. These differences show the ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60)) of the form, i.e. the form is
 			- reference point
+			  id:: 6729b90b-1ee3-4efc-b62c-281f9621f487
 				- ((66725725-f76a-4328-b162-f469b87e871b))
 					- [reference frame](https://en.wikipedia.org/wiki/Frame_of_reference) in physics
 		- absolute
