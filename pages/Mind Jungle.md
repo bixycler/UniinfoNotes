@@ -1946,6 +1946,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
 			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state thate “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
+				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
 		- pure consciousness
 		  id:: 672a008c-835f-4e28-b969-2046feaf43b9
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
