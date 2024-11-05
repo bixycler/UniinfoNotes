@@ -960,7 +960,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- In Unïnfo, we consider the relative version of this dichotomy which is free from the human center:
 					- relative objectivity = [inter-subjectivity](https://en.wikipedia.org/wiki/Intersubjectivity)
 					  tính khách quan tương đối = tính chủ quan chung
-						- Objectivity of coarse subjects is just the  to the common fine subject, i get intersection & interunion of all , hence “inter-subjectivity”.
+						- Objectivity of coarse subjects is just the subjectivity of the fine subject common to all these coarse subjects.
+						- So we refine the scale by intersection & interunion of all (coarse) subjects, hence “inter-subjectivity”.
 					- relative subjectivity = idio-objectivity
 					  tính chủ quan tương đối = tính khách quan riêng
 						- While the subjectivity is idiomorphic and idiochromatic, it's still objective within the subject itself.
@@ -968,6 +969,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The subjectivity is also relative to the external community:
 							- When no one else accept this subjective form, it becomes “idiolect” of an “idiot”; On the other hand,
 							- when many ones accept and adopt this form, it becomes “idiom” which is more objective than subjective.
+						- The science is developing toward the objectivity in “nomothetic” way, but it cannot reach objectivity without passing through numerous subjectivities in “idiographic” way.
 						- Etymology: “[idio-](https://en.wiktionary.org/wiki/idio-)” ← Greek “ídios” ([ἴδιος](https://en.wiktionary.org/wiki/%E1%BC%B4%CE%B4%CE%B9%CE%BF%CF%82#Ancient_Greek)) meaning “self, private, distinct, peculiar”
 							- It's easily confused with “[ideo-](https://en.wiktionary.org/wiki/ideo-)” ← Greek “idéa” ([ἰδέα](https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek)) meaning “form, shape, appearance, type, idea”.
 	- ## body
