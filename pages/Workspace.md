@@ -12,16 +12,16 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- technical issues
+				- technical issues; universal subjectivity
 				-
 				- ((66978876-9378-4059-8783-868d041e8e2e)) & ((671f4028-c60f-4791-b716-e5226cdf410e))
 				- Add `markdown-watcher.html`, `diagram-watcher.html`
 				- DocRaptor ((67222374-f7da-4900-a16f-7540013b8b96))
 				- ((6720bd22-c2f9-42c7-a6e9-99bc51a92225))
 				- Refine definition of ((6728a766-210b-462b-8fd4-aee04981b4f9)) & ((6728a7ab-1629-4e23-bc56-10ead0d8348c))
+				- ((6729d054-d48f-4ffa-b097-9a564a4cc2a5))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- ((6729d054-d48f-4ffa-b097-9a564a4cc2a5))
 				- ((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf))
 				- ...
 			- ------
