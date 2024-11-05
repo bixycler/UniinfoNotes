@@ -932,7 +932,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
 			- Traditionally, “subject” is used to refer human only.
 			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((667d162c-16cf-44d3-81a5-29b1b885164f)).
-				- This is the
+			  collapsed:: true
+				- This is the viewpoint of [Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) and [Hylozoism](https://en.wikipedia.org/wiki/Hylozoism) which are development of the ancient [Animism](https://en.wikipedia.org/wiki/Animism).
+				- The [observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)) in Quantum Mechanics has shown that any particle can be an “observer” and the physicists do acknowledge this fact, but they are not serious about this fact, as shown in this [chat with Copilot](((6729d059-7750-4a60-aa6c-766ca9a94ece))).
 		- subjective
 		  id:: 66c88055-a994-4e59-a7dc-83f3331a6e1d
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))
