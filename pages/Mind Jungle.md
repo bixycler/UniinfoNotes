@@ -942,7 +942,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- In order to collapse a wave-function, the observer must be “heavy” enough, either with many particles or a particle with strong interaction. This is the probabilistic nature of the [law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers). So in this sense, the observer must be a classical system and cannot be a single [elementary particle](https://en.wikipedia.org/wiki/Elementary_particle).
 						- Ref: Can observers be particles? > [All you need is a system that is not in thermal equilibrium.](https://philosophy.stackexchange.com/a/7720)
 				- In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), we don't require an ((66727858-979d-4d95-8a90-7a749218cfba)) to be a [wave-function collapse](https://en.wikipedia.org/wiki/Wave_function_collapse), thus any interfactive particle is a subject of that interaction.
-				-
+				- Similar ideas
+					- The [Foundational Questions Institute (FQxI)](https://fqxi.org/) grants to researchers around the globe to work on issues ranging from the origin of the **arrow of time** in quantum gravity to the nature of **consciousness**.
+					- [George Rush](https://www.quora.com/profile/George-Rush-4) > [Do particle physicists consider particles conscious? If not, I think they should start as I have proof they might be.](https://www.quora.com/Do-particle-physicists-consider-particles-conscious-If-not-I-think-they-should-start-as-I-have-proof-they-might-be)
+					-
 		- subjective
 		  id:: 66c88055-a994-4e59-a7dc-83f3331a6e1d
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))
