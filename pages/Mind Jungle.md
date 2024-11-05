@@ -3073,8 +3073,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- relativity
 			  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
-			- point of reference
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Any ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is an image ((projection)) some ((669a2487-054d-4408-ae41-189e34af81a9)). The eye c
+			- reference point
+				- ((66725725-f76a-4328-b162-f469b87e871b))
+					- [reference frame](https://en.wikipedia.org/wiki/Frame_of_reference) in physics
 		- absolute
 		  id:: 6729b71b-e8ea-414d-8202-b66c1fc2d67d
 		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
