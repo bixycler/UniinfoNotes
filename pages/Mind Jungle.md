@@ -934,7 +934,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((667d162c-16cf-44d3-81a5-29b1b885164f)).
 			  collapsed:: true
 				- This is the viewpoint of [Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) and [Hylozoism](https://en.wikipedia.org/wiki/Hylozoism) which are development of the ancient [Animism](https://en.wikipedia.org/wiki/Animism).
-				- The [observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)) in Quantum Mechanics has shown that any particle can be an “observer” and the physicists do acknowledge this fact, but they are not serious about this fact, as shown in this [chat with Copilot](((6729d059-7750-4a60-aa6c-766ca9a94ece))).
+				- The [observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)) in Quantum Mechanics has shown that any particle can be an “observer” and the physicists do acknowledge it, but they are not serious about this fact.
+					- This [chat with Copilot](((6729d059-7750-4a60-aa6c-766ca9a94ece))) has shown the common attitude about “observer” which is far from particle.
+					-
 		- subjective
 		  id:: 66c88055-a994-4e59-a7dc-83f3331a6e1d
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))
