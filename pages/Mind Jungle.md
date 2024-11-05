@@ -2613,6 +2613,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- condense
 		  id:: 671e3d98-0006-43be-b714-247f3d3a0c49
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6729b7cf-83b8-4a42-aac7-ec8cf16fa734))
+			- condensation
+			  id:: 6729b7cf-83b8-4a42-aac7-ec8cf16fa734
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671e3d98-0006-43be-b714-247f3d3a0c49))
 	- ## solid
 	  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
 	  collapsed:: true
@@ -3051,7 +3055,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- related
 		  id:: 671b1669-d31e-4965-adf4-2862cbefdfa8
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by two arrows A → B and B → A, which are the ((671b4d84-1187-4b5c-8592-3d0db462069b)) of the corresponding two ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by two arrows A → B and B → A, which are the ((6729b7cf-83b8-4a42-aac7-ec8cf16fa734)) of the corresponding two ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
 		- ((671b18a8-ac11-4930-bed3-645c0cc983a8))
 			- binary relation
 			  id:: 667d0d8e-0873-4440-a97d-b08f9405e769
@@ -3065,9 +3069,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :END:
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) 
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((6729b71b-e8ea-414d-8202-b66c1fc2d67d))
 			- relativity
 			  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+			- point of reference
+		- absolute
+		  id:: 6729b71b-e8ea-414d-8202-b66c1fc2d67d
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
