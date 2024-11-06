@@ -565,12 +565,14 @@ function balancedBracketsRegexPattern(depth, unrolled)
 {
     // Pattern variants:
     let t = unrolled ? 1 : 0;
-    let p = [
-        ['\\((?:[^)(]|',')*\\)'], // default
-        ['\\([^)(]*(?:','[^)(]*)*\\)'] // unrolled for efficiency
+    let p = [ // [open, close]
+        ['\\((?:[^)(]|', ')*\\)'], // default
+        ['\\([^)(]*(?:', '[^)(]*)*\\)'] // unrolled for efficiency
     ];
 
     // Generate and display the pattern
-    let innerMost = '\\([^)(]*\\)'; // * on the innermost [)(] only, to prevent runaway if unbalanced
-    console.log(p[t][0].repeat(depth) + innerMost + p[t][1].repeat(depth));
+    let noBracket = '\\([^)(]*\\)'; // * only on the innermost noBracket, to prevent runaway if unbalanced
+    let openBrackets  = p[t][0].repeat(depth);
+    let closeBrackets = p[t][1].repeat(depth);
+    console.log(openBrackets + noBracket + closeBrackets);
 }
