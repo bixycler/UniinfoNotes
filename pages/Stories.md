@@ -1178,4 +1178,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  id:: 672ae05e-e686-404e-aba5-3d0469ff4228
 		- Yesterday, on the way home, stopping at red light, i thought of something "telepath..." but that word brought confusion to me "it must be tele-something-else, cannot be tele-pathy because -pathy means sickness!"
 		- This morning, searching for the word "telepathy", i've confirmed that i was right about this word. But the confusion between "sickness" and "feeling" brings me to the Greek word πάθος which actually has both meaning.
+		- So now i can be realy proud to be a "psychopath" = "psychic feeler"! 🤪
 		-
