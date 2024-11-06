@@ -332,11 +332,11 @@ function loadPage() {
     const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
     const patBRefAll = new RegExp(patBRef, 'g');
     const patLinkText = /\[([^\[\]]*(?:\[[^\[\]]*(?:\[[^\[\]]*(?:\[[^\[\]]*\][^\[\]]*)*\][^\[\]]*)*\][^\[\]]*)*)\]/;
-    const patHRef = /\(([^\(\)]*(?:\([^\(\)]*(?:\([^\(\)]*(?:\([^\(\)]*\)[^\(\)]*)*\)[^\(\)]*)*\)[^\(\)]*)*)\)/;
+    const patHRef = /([^\(\) "]*(?:\([^\(\) "]*(?:\([^\(\) "]*(?:\([^\(\) "]*\)[^\(\) "]*)*\)[^\(\) "]*)*\)[^\(\) "]*)*)/;
     const patLinkTip = /( "[^"]*")?/;
     const patBLink = new RegExp(patLinkText.source+ '\\('+patBRef.source + patLinkTip.source+'\\)');
     const patBLinkAll = new RegExp(patBLink, 'g');
-    const patLink = new RegExp(patLinkText.source+ '\\('+patHRef.source + patLinkTip.source+'\\)');
+    const patLink  = new RegExp(patLinkText.source+ '\\('+patHRef.source + patLinkTip.source+'\\)');
     const patLinkAll = new RegExp(patLink, 'g');
 function normalizeMardown(md){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
@@ -511,11 +511,11 @@ function processLogseqLinks(ln){
     nln += ln.slice(li);
 */
 
-    // debug patLinkAll
+    /*/ debug patLinkAll
     m = ln.matchAll(patLinkAll);
     for(let mi of m){
         console.log('title:',mi[1], 'href:',mi[2], 'tip:',mi[3]);
-    }
+    }*/
 
     return nln;
 }
@@ -571,10 +571,10 @@ function arrayPush(dict, field, value){
     dict[field].push(value);
 }
 
-function balancedBracketsRegexPattern(open='[', close=']', depth=1, unrolled=false)
+function balancedBracketsRegexPattern(open='[', close=']', excludes='', depth=1, unrolled=false)
 {
     let lo = '\\'+open, lc = '\\'+close;  // literals
-    let noBracket = '[^'+lo+lc+']';
+    let noBracket = '[^'+lo+lc+excludes+']';
     // Pattern variants:
     let t = unrolled ? 1 : 0;
     let p = [ // [open, close]
