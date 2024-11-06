@@ -514,7 +514,7 @@ function processLogseqLinks(ln){
     // debug patLinkAll
     m = ln.matchAll(patLinkAll);
     for(let mi of m){
-        console.log('title',mi[1], 'href',mi[2], 'tip',mi[3]);
+        console.log('title:',mi[1], 'href:',mi[2], 'tip:',mi[3]);
     }
 
     return nln;
