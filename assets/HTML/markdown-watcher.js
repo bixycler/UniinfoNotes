@@ -560,3 +560,17 @@ function arrayPush(dict, field, value){
     if(!(field in dict)){ dict[field] = []; }
     dict[field].push(value);
 }
+
+function balancedBracketsRegexPattern(depth, unrolled)
+{
+    // Pattern variants:
+    let t = unrolled ? 1 : 0;
+    let p = [
+        ['\\((?:[^)(]|',')*\\)'], // default
+        ['\\([^)(]*(?:','[^)(]*)*\\)'] // unrolled for efficiency
+    ];
+
+    // Generate and display the pattern
+    let innerMost = '\\([^)(]*\\)'; // * on the innermost [)(] only, to prevent runaway if unbalanced
+    console.log(p[t][0].repeat(depth) + innerMost + p[t][1].repeat(depth));
+}
