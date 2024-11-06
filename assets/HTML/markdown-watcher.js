@@ -568,25 +568,29 @@ function balancedBracketsRegexPattern(open='[', close=']', depth=1, unrolled=fal
     // Pattern variants:
     let t = unrolled ? 1 : 0;
     let p = [ // [open, close]
-        [// default
+        [// simple pattern
             lo
             + '(?:'+ noBracket  +'|'/*inner level*/,
               ')*' +
             lc
         ],
-        [// unrolled for efficiency
-            '\\([^)(]*(?:',
-            '[^)(]*)*\\)'
+        [// unrolled pattern for efficiency
+            lo +
+            noBracket+'*'
+            + '(?:' /*inner level*/,
+            noBracket+'*'
+            + ')*' +
+            lc
         ]
     ];
 
     // Generate the pattern
-    let innermostPair = lo + noBracket+'*' + lc; // noBracket* only on the innermost bracket pair, to prevent runaway if unbalanced
+    let innermostPair = lo + noBracket+'*' + lc;
     let openBrackets  = p[t][0].repeat(depth);
     let closeBrackets = p[t][1].repeat(depth);
 
     // Return the pattern
     pattern = new RegExp(openBrackets + innermostPair + closeBrackets);
-    console.debug(pattern);
+    //console.debug(pattern);
     return pattern;
 }
