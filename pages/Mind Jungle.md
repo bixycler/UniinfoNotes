@@ -1958,7 +1958,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- qualiton
 			  is the current internal condition for awareness.
 				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject.
-				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the ((672a008c-835f-4e28-b969-2046feaf43b9)), however, we.
+				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Space = awareness
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
