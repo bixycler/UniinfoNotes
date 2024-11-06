@@ -585,6 +585,8 @@ function balancedBracketsRegexPattern(open='[', close=']', depth=1, unrolled=fal
     let openBrackets  = p[t][0].repeat(depth);
     let closeBrackets = p[t][1].repeat(depth);
 
-    // Print the pattern
-    console.log(openBrackets + innermostPair + closeBrackets);
+    // Return the pattern
+    pattern = new RegExp(openBrackets + innermostPair + closeBrackets);
+    console.debug(pattern);
+    return pattern;
 }
