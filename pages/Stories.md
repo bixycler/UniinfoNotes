@@ -1182,5 +1182,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Other words suffixed by "-pathy" meaning "feeling": sympathy, empathy, antipahty, apathy
 		- A related word is "passion" from the Latin "passio" which was used to translate the Greek "pathos".
 		- Etymology:
-			- Proto-Indo-European root "[*kwent(h)](https://www.etymonline.com/word/*kwent%28h%29-)" (suffer) -> Greek "pathos" -> English: sympathy, psychopathy, pathogen
-			- Proto-Indo-European root "*ph₁-tós" -> Latin "patior" -> "passio" -> English: passion, passive
+			- Proto-Indo-European root "[*kwent(h)](https://www.etymonline.com/word/*kwent%28h%29-)" (suffer, experience) -> Greek "páschō" ([πάσχω](https://en.wiktionary.org/wiki/%CF%80%CE%AC%CF%83%CF%87%CF%89#Ancient_Greek)) -> "pathos" ([πάθος](https://en.wiktionary.org/wiki/%CF%80%CE%AC%CE%B8%CE%BF%CF%82#Ancient_Greek)) -> English: sympathy, psychopathy, pathogen
+			- Proto-Indo-European root "*ph₁-tós" (suffer, endure) -> Latin "[patior](https://en.wiktionary.org/wiki/patior#Latin)" -> "[passio](https://en.wiktionary.org/wiki/passio#Latin)" -> English: passion, passive
