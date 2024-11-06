@@ -932,7 +932,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Traditionally, “subject” is used to refer human only.
-			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((667d162c-16cf-44d3-81a5-29b1b885164f)).
+			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  id:: 6729d6db-3a8c-49da-95b0-28e1b2cb9806
 			  collapsed:: true
 				- This is the viewpoint of [Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) and [Hylozoism](https://en.wikipedia.org/wiki/Hylozoism) which are development of the ancient [Animism](https://en.wikipedia.org/wiki/Animism).
@@ -1942,11 +1942,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- thức
 		  id:: 66f274e4-f9d0-4980-b72f-9593816ec02f
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the form, as ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a **concrete awareness** arises as a new form of qualiton activated from that quantum. The collection of all possible forms arising from all quanta of the content when touching all possible states of the qualiton is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the form, as ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of qualiton activated from that quantum. The collection of all possible forms arising from all quanta of the content when touching all possible states of the qualiton is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
+			- While concrete awareness is being aware of some form
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
 			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state thate “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
 				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
+		- concrete awareness
+		  id:: 672ac785-4f28-4dd0-a36c-07afef0ee83f
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb))
+			- perception
+			  id:: 672ac78d-01b2-48c9-b85b-1fbe946760eb
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f))
+			  = sensation + awareness
 		- pure consciousness
 		  id:: 672a008c-835f-4e28-b969-2046feaf43b9
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
