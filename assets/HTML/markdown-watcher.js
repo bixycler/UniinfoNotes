@@ -563,9 +563,8 @@ function arrayPush(dict, field, value){
 
 function balancedBracketsRegexPattern(open='[', close=']', depth=1, unrolled=false)
 {
-    let o = open, c = close;
-    let lo = '\\'+o, lc = '\\'+c; // literals
-    let noBracket = o!=='[' : '[^'+o+c+']' : '[^'+lo+lc+']';
+    let lo = '\\'+open, lc = '\\'+close;  // literals
+    let noBracket = '[^'+lo+lc+']';
     // Pattern variants:
     let t = unrolled ? 1 : 0;
     let p = [ // [open, close]
