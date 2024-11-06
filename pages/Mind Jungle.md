@@ -1948,6 +1948,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
 			- While concrete awareness, or perception, is being aware of some form brought to the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) through sensation content, i.e. the equation ⟪form = content⟫, abstract awareness is the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ itself.
 			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form accorind to its relation with other internal forms in the subject. This recognization also updates the corresponding internal form with the new content.
+		- Conditions for awareness
+			- record of form as quantum
+			  is the precondition of awareness.
+				- The subject of awareness
+			- Current condition for awareness
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
 			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state thate “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
