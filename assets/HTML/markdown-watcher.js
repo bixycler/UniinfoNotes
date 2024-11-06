@@ -331,9 +331,11 @@ function loadPage() {
     const patUuidAll = new RegExp(patUuid, 'g');
     const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
     const patBRefAll = new RegExp(patBRef, 'g');
-    const patBLink = new RegExp('\\[([^\\]]*)\\]\\('+patBRef.source+'( "[^"]*")?\\)');
+    const patBLink = new RegExp(balancedBracketsRegexPattern('[',']',3,true).source+
+        '\\('+patBRef.source+'( "[^"]*")?\\)');
     const patBLinkAll = new RegExp(patBLink, 'g');
-    const patLink = new RegExp('\\[([^\\]]*)\\]\\(([^ \\)]+)( "[^"]*")?\\)');
+    const patLink = new RegExp(balancedBracketsRegexPattern('[',']',3,true).source+
+        '\\(([^ \\)]+)( "[^"]*")?\\)');
     const patLinkAll = new RegExp(patLink, 'g');
 function normalizeMardown(md){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
@@ -591,6 +593,5 @@ function balancedBracketsRegexPattern(open='[', close=']', depth=1, unrolled=fal
 
     // Return the pattern
     pattern = new RegExp(openBrackets + innermostPair + closeBrackets);
-    //console.debug(pattern);
     return pattern;
 }
