@@ -1263,6 +1263,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 671e0b94-9907-43bf-993d-d1aabec46e01
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dimension
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- In Quantum Mechanics, the wave function of N particles requires 3N dimensions of information. Some
 	- ## quality
 	  id:: 66e426ec-d29b-4614-932b-2c70693790d7
 	  collapsed:: true
