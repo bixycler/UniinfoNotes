@@ -4224,7 +4224,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  :LOGBOOK:
 								  CLOCK: [2024-11-06 Wed 17:45:57]
 								  :END:
-									- [Regular expression to match balanced parentheses](https://stackoverflow.com/a/35271017/789095)
+									- Up to 3 levels of nesting balanced brackets without recursion:
+										-
+										- Ref: [Regular expression to match balanced parentheses](https://stackoverflow.com/a/35271017/789095)
 									- E.g. This links to [{wiki} Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_%28rhetoric%29)
 									- ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) does allow _**matched** brackets/parentheses_ in link.
 									  id:: 6724afcc-e45b-43ca-839c-a3462a2fa4f4
