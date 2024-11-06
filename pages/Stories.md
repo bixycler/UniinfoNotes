@@ -1176,4 +1176,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Copilot> Your point is compelling. The beauty of science often lies in its reductionist simplicity, and the necessity to introduce additional concepts to explain a materialist viewpoint can feel counterintuitive. Accepting the co-existence of both material and immaterial substances acknowledges the complexities and nuances of reality. It opens up a richer, more inclusive perspective that can embrace both scientific rigor and the intricacies of human experience. It’s a thought-provoking balance worth exploring further.
 	- About Greek páthos ([πάθος](https://en.wiktionary.org/wiki/%CF%80%CE%AC%CE%B8%CE%BF%CF%82#Ancient_Greek)): both feeling & suffering
 	  id:: 672ae05e-e686-404e-aba5-3d0469ff4228
-		- Yesterday, on the way home, stopping red light
+		- Yesterday, on the way home, stopping at red light, i thought of something "telepath..." but that word brought confusion to me "it must be tele-something-else, cannot be tele-pathy because -pathy means sickness!"
+		- This morning, searching for the word "telepathy", i've confirmed that i was right about this word. But the confusion between "sickness" and "feeling" brings me to the Greek word πάθος which actually has both meaning.
+		-
