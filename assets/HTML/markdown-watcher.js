@@ -510,6 +510,13 @@ function processLogseqLinks(ln){
     }
     nln += ln.slice(li);
 */
+
+    // debug patLinkAll
+    m = ln.matchAll(patLinkAll);
+    for(let mi of m){
+        console.log('title',mi[1], 'href',mi[2], 'tip',mi[3]);
+    }
+
     return nln;
 }
 
