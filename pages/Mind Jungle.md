@@ -1944,7 +1944,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the form, as ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of qualiton activated from that quantum. The collection of all possible forms arising from all quanta of the content when touching all possible states of the qualiton is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
-			- While concrete awareness is being aware of some form
+			- While concrete awareness is being aware of some form brought to the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) through sensation, abstract awareness is the
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
 			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state thate “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
 				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
@@ -1978,9 +1978,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- consciousness
 		  id:: 66f2681b-796a-4e25-b778-ba4fb6419425
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
 		- ý thức
 		  id:: 66f2750c-a5ee-4ea6-aba5-f6587397ab5e
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Consciousness
 	- ## `in`-`ex` partition
 	  collapsed:: true
 		-
@@ -3226,16 +3228,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-09-18 Wed 11:37:05]
 			  :END:
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66eab543-0b0e-4523-a1a6-740371b81a58)), ((66eac5fb-12db-4d1b-a6a6-ba3220fa34b6))
-				- consciousness
-				  id:: 66eab543-0b0e-4523-a1a6-740371b81a58
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
-					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Consciousness
-				- thức
-				  id:: 66eac5fb-12db-4d1b-a6a6-ba3220fa34b6
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) interacts with objects on the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) in the way a particle interacts with a force field. The circle of effect between the intent cone and the whole ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) is called the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), which comprises many individual circles of effect between the intent cone and individual objects which are also called conscious circles.
-					- The main effect of this circle is maintaining ((66eab543-0b0e-4523-a1a6-740371b81a58)) of the subject and its side effects are ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)) of action and ((66eaa550-4e1e-4126-8004-bf3cb8956829)) of knowledge. This circle is also the one that [mixes](((66eac7d3-f1e6-420c-a2a5-1424c86d4185))) objects' ((66ab6161-0306-42d5-ac16-4155c69216f5))s up to make ((6678d596-9526-405a-968c-e73860e524f3))s in the knowledge cone. That means ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)) is actually a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) between the intent cone and the present cone.
+					- The main effect of this circle is maintaining ((66f2681b-796a-4e25-b778-ba4fb6419425)) of the subject and its side effects are ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)) of action and ((66eaa550-4e1e-4126-8004-bf3cb8956829)) of knowledge. This circle is also the one that [mixes](((66eac7d3-f1e6-420c-a2a5-1424c86d4185))) objects' ((66ab6161-0306-42d5-ac16-4155c69216f5))s up to make ((6678d596-9526-405a-968c-e73860e524f3))s in the knowledge cone. That means ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)) is actually a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) between the intent cone and the present cone.
 					- This circle is similar to the [viññāṇa](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na) in Buddhism and is related to the [closed-loop perception](https://en.wikipedia.org/wiki/Perception#Closed-loop_perception).
 			- cones around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
 			  :LOGBOOK:
