@@ -4199,6 +4199,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Because the exported SPA is too large (~90MB including Electron), it's better to write a ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d)).
 				- Manually publish with ((67161c46-5a7d-495a-9e04-95db62b6c676)) and ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)) or ((6716110f-c747-4dbe-9af4-5ebee764c436)) commands:
 				  id:: 671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf
+				  collapsed:: true
 				  draft note → published note → published Markdown → HTML → PDF
 					- First, copy the block to be published to a page in `pages/publish/`, e.g. [[Logseq publish]].
 						- Copy to external text editor to get text of block refs.
