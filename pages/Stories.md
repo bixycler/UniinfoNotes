@@ -1179,7 +1179,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Yesterday, on the way home, stopping at red light, i thought of something "telepath..." but that word brought confusion to me "it must be tele-something-else, cannot be tele-pathy because -pathy means sickness!"
 		- This morning, searching for the word "telepathy", i've confirmed that i was right about this word. But the confusion between "sickness" and "feeling" brings me to the Greek word "πάθος", adopted in English "[pathos](https://en.wikipedia.org/wiki/Pathos)", which actually has both meaning.
 		- So now i can be realy proud to be a "psychopath" = "psychic feeler"! 🤪
-		- Other words suffixed by "-pathy" meaning "feeling": sympathy, empathy, antipahty, apathy
+		- Other words suffixed by "-pathy" meaning "feeling": sympathy, empathy, antipahty, apathy (diff. apatheia)
 		- A related word is "passion" from the Latin "passio" which was used to translate the Greek "pathos".
 		- Etymology:
 			- Proto-Indo-European root "[*kwent(h)](https://www.etymonline.com/word/*kwent%28h%29-)" (suffer, experience) -> Greek "páschō" ([πάσχω](https://en.wiktionary.org/wiki/%CF%80%CE%AC%CF%83%CF%87%CF%89#Ancient_Greek)) -> "pathos" ([πάθος](https://en.wiktionary.org/wiki/%CF%80%CE%AC%CE%B8%CE%BF%CF%82#Ancient_Greek)) -> English: sympathy, psychopathy, pathogen
