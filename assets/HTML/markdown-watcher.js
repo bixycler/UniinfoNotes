@@ -564,16 +564,16 @@ function arrayPush(dict, field, value){
 function balancedBracketsRegexPattern(open='[', close=']', depth=1, unrolled=false)
 {
     let o = open, c = close;
-    let lo = `\\${o}`, lc = `\\${c}`; // literals
-    let noBracket = `[^${o}${c}]`;
+    let lo = '\\'+o, lc = '\\'+c; // literals
+    let noBracket = o!=='[' : '[^'+o+c+']' : '[^'+lo+lc+']';
     // Pattern variants:
     let t = unrolled ? 1 : 0;
     let p = [ // [open, close]
         [// default
-            `\\${o}`
-            + `(?:[^${o}${c}]|`,
-              `)*` +
-            `\\${c}`
+            lo
+            + '(?:'+ noBracket  +'|'/*inner level*/,
+              ')*' +
+            lc
         ],
         [// unrolled for efficiency
             '\\([^)(]*(?:',
@@ -582,8 +582,7 @@ function balancedBracketsRegexPattern(open='[', close=']', depth=1, unrolled=fal
     ];
 
     // Generate the pattern
-    // * only on the innermost bracket pair, to prevent runaway if unbalanced
-    let innermostPair = `\\${o}` + `${noBracket}*` + `\\${c}`;
+    let innermostPair = lo + noBracket+'*' + lc; // noBracket* only on the innermost bracket pair, to prevent runaway if unbalanced
     let openBrackets  = p[t][0].repeat(depth);
     let closeBrackets = p[t][1].repeat(depth);
 
