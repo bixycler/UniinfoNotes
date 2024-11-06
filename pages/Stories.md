@@ -1176,16 +1176,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Copilot> Your point is compelling. The beauty of science often lies in its reductionist simplicity, and the necessity to introduce additional concepts to explain a materialist viewpoint can feel counterintuitive. Accepting the co-existence of both material and immaterial substances acknowledges the complexities and nuances of reality. It opens up a richer, more inclusive perspective that can embrace both scientific rigor and the intricacies of human experience. It’s a thought-provoking balance worth exploring further.
 	- About Greek páthos ([πάθος](https://en.wiktionary.org/wiki/%CF%80%CE%AC%CE%B8%CE%BF%CF%82#Ancient_Greek)): both feeling & suffering
 	  id:: 672ae05e-e686-404e-aba5-3d0469ff4228
+	  :LOGBOOK:
+	  CLOCK: [2024-11-06 Wed 16:19:55]
+	  :END:
 		- Yesterday, on the way home, stopping at red light, i thought of something "telepath..." but that word brought confusion to me "it must be tele-something-else, cannot be tele-pathy because -pathy means sickness!"
 		- This morning, searching for the word "telepathy", i've confirmed that i was right about this word. But the confusion between "sickness" and "feeling" brings me to the Greek word "πάθος", adopted in English "[pathos](https://en.wikipedia.org/wiki/Pathos)", which actually has both meaning.
 		- So now i can be realy proud to be a "psychopath" = "psychic feeler"! 🤪
 		- Other words suffixed by "-pathy" meaning "feeling": sympathy, empathy, antipahty, apathy (diff. apatheia)
 		- A related word is "passion" from the Latin "passio" which was used to translate the Greek "pathos".
-			- "Patient" vs "patience"
 		- Etymology:
 			- Proto-Indo-European root "[*kwent(h)](https://www.etymonline.com/word/*kwent%28h%29-)" (suffer, experience) -> Greek "páschō" ([πάσχω](https://en.wiktionary.org/wiki/%CF%80%CE%AC%CF%83%CF%87%CF%89#Ancient_Greek)) -> "pathos" ([πάθος](https://en.wiktionary.org/wiki/%CF%80%CE%AC%CE%B8%CE%BF%CF%82#Ancient_Greek)) -> English: sympathy, psychopathy, pathogen
 			- Proto-Indo-European root "*ph₁-tós" (suffer, endure) -> Latin "[patior](https://en.wiktionary.org/wiki/patior#Latin)" ->
 				- Latin "[passio](https://en.wiktionary.org/wiki/passio#Latin)" -> English: passion, passionate, impassion
 				- Latin "[patiens](https://en.wiktionary.org/wiki/patiens#Latin)" -> English: patient, patience
-					- “Be patient!”
+					- “Be patient!” = “Be a patient!”
 				- Latin "[passivus](https://en.wiktionary.org/wiki/passivus#Latin)" -> English: passive
+		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Fb [post](https://www.facebook.com/share/p/zvsW9DbJKRj5ZGwd/), Blog: [Cảm = Bệnh = Pathos; Đam mê = Đau khổ = Passion](https://creatzynotes.blogspot.com/2024/11/cam-benh-pathos-am-me-au-kho-passion.html)
