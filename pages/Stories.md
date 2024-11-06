@@ -1187,4 +1187,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Proto-Indo-European root "*ph₁-tós" (suffer, endure) -> Latin "[patior](https://en.wiktionary.org/wiki/patior#Latin)" ->
 				- Latin "[passio](https://en.wiktionary.org/wiki/passio#Latin)" -> English: passion, passionate, impassion
 				- Latin "[patiens](https://en.wiktionary.org/wiki/patiens#Latin)" -> English: patient, patience
+					- “Be patient!”
 				- Latin "[passivus](https://en.wiktionary.org/wiki/passivus#Latin)" -> English: passive
