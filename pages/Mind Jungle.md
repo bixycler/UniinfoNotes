@@ -1125,6 +1125,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [mathematical equality](https://en.wikipedia.org/wiki/Equality_(mathematics)), ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) is generalized to the [third component](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) which represent various aspects of the Universe, from simple equality, balance, to symmetry, ((669a1bec-3347-4915-83e4-dcffc4d482d1)), ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)), etc.
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+		  collapsed:: true
 			- equal
 			  id:: 66e411b5-6ef9-4695-bca1-dfcc6ca99bfc
 			  equal in comparison
@@ -1177,6 +1178,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66ceeca0-a149-4fe0-85a8-9302f96eb669))
 		- ### equilibrium
 		  id:: 669a1bec-3347-4915-83e4-dcffc4d482d1
+		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c))
 		  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66e3ed38-3108-4d43-944d-9d2c8d1a90f2))
 		  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66e3ed78-8815-4dcc-964c-5bc8325405dd))
@@ -1944,7 +1946,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the form, as ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of qualiton activated from that quantum. The collection of all possible forms arising from all quanta of the content when touching all possible states of the qualiton is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
-			- While concrete awareness is being aware of some form brought to the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) through sensation, abstract awareness is the
+			- While concrete awareness, or perception, is being aware of some form brought to the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) through sensation content, i.e. the equation ⟪form = content⟫, abstract awareness is the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ itself.
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
 			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state thate “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
 				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
