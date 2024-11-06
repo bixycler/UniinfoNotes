@@ -331,11 +331,12 @@ function loadPage() {
     const patUuidAll = new RegExp(patUuid, 'g');
     const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
     const patBRefAll = new RegExp(patBRef, 'g');
-    const patLinkText = /\[([^\[\]]*(?:\[[^\[\]]*(?:\[[^\[\]]*(?:\[[^\[\]]*\][^\[\]]*)*\][^\[\]]*)*\][^\[\]]*)*\)]/
-    const patLinkTitle = 
-    const patBLink = new RegExp(patLinkText.source+ '\\('+patBRef.source+'( "[^"]*")?\\)');
+    const patLinkText = /\[([^\[\]]*(?:\[[^\[\]]*(?:\[[^\[\]]*(?:\[[^\[\]]*\][^\[\]]*)*\][^\[\]]*)*\][^\[\]]*)*)\]/;
+    const patHRef = /\(([^\(\)]*(?:\([^\(\)]*(?:\([^\(\)]*(?:\([^\(\)]*\)[^\(\)]*)*\)[^\(\)]*)*\)[^\(\)]*)*)\)/;
+    const patLinkTip = /( "[^"]*")?/;
+    const patBLink = new RegExp(patLinkText.source+ '\\('+patBRef.source + patLinkTip.source+'\\)');
     const patBLinkAll = new RegExp(patBLink, 'g');
-    const patLink = new RegExp(patLinkText.source+ +'( "[^"]*")?\\)');
+    const patLink = new RegExp(patLinkText.source+ '\\('+patHRef.source + patLinkTip.source+'\\)');
     const patLinkAll = new RegExp(patLink, 'g');
 function normalizeMardown(md){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
