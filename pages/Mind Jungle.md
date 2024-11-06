@@ -1952,7 +1952,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- record of form as quantum
 			  is the precondition for awareness.
 				- In order to be aware of some form, the subject must have that form recorded as a quantum inside, which is usually a memory that has been memorized before, or a “gene” inherited from the source in the process of constructing ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) of the subject.
-			- sensate = open
+			- sensate (open to )
 			  is the current external condition for awareness.
 			- qualiton
 			  is the current internal condition for awareness.
