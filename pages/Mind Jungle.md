@@ -1952,10 +1952,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- record of form as quantum
 			  is the precondition for awareness.
 				- In order to be aware of some form, the subject must have that form recorded as a quantum inside, which is usually a memory that has been memorized before, or a “gene” inherited from the source in the process of constructing ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) of the subject.
-			- sensate (open to )
+			- sensate
 			  is the current external condition for awareness.
+				- To be aware, the ((669a2886-9e03-41a4-a790-24bf6b7dcd96)) must be open to receive content.
 			- qualiton
 			  is the current internal condition for awareness.
+				- To be aware of a form, the qualiton correspondent to that form must be
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Space = awareness
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
@@ -4230,6 +4232,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- replace items bullets with numbers
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
 							- process code block for strict conventions like in GitLab
+							- replace straight quotes `"..."` with curly quotes `“...”`
+							  collapsed:: true
+								- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6716110a-1a05-4c87-93b3-fa9f0db22ba9))
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 						- ((6720c0a4-0294-4065-8016-9853e2a04475)) using [DocRaptor](https://docraptor.com/)
 						  id:: 6720bd22-c2f9-42c7-a6e9-99bc51a92225
@@ -4619,6 +4624,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```vim
 						  %s#../assets/projects/java17/aal_gw/##g
 						  %s#(publish/projects/java17/aal_gw/\([^)]*\))#(\1.md)#g
+						  ```
+						- Replace straight quotes with curly quotes
+						  ```vim
+						  %s/"\</“/g|%s/\>"/”/g
 						  ```
 			- Built-in ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 			  id:: 66faa5f9-8ffd-4542-b916-6e3528cabad8

@@ -28,12 +28,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf))
 				- ...
 			- ------
-		- Replace straight quotes with curly quotes
-			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6716110a-1a05-4c87-93b3-fa9f0db22ba9))
-			- Vim command
-			  ```vim
-			  %s/"\</“/g|%s/\>"/”/g
-			  ```
+		-
 		-
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
