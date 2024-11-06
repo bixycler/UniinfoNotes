@@ -29,6 +29,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ...
 			- ------
 		- Replace straight quotes with curly quotes
+			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6716110a-1a05-4c87-93b3-fa9f0db22ba9))
 			- Vim command
 			  ```vim
 			  %s/"\</“/g|%s/\>"/”/g
@@ -537,5 +538,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-10-20 Sun 20:15:42]--[2024-10-21 Mon 00:02:20] =>  03:46:38
 		  :END:
 		- DONE ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols... 
+		  id:: 6716110a-1a05-4c87-93b3-fa9f0db22ba9
 		  using ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		- ...
