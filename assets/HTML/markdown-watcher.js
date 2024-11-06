@@ -571,6 +571,14 @@ function arrayPush(dict, field, value){
     dict[field].push(value);
 }
 
+/**
+ Examples:
+    [A [very [very [very]...] messy] link](http://to(some(weird(...))).href "with link tip")
+    // 3 levels of []
+    patText = balancedBracketsRegexPattern('[',']','',3,true)
+    // 3 levels of () and exclude space & quote of the link tip
+    patHref = balancedBracketsRegexPattern('(',')',' "',3,true)
+*/
 function balancedBracketsRegexPattern(open='[', close=']', excludes='', depth=1, unrolled=false)
 {
     let lo = '\\'+open, lc = '\\'+close;  // literals
