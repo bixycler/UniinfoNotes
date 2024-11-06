@@ -1264,7 +1264,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dimension
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- [Cardinality of the continuum](https://en.wikipedia.org/wiki/Cardinality_of_the_continuum): |continuum| = |(0, 1)| = |<=R| = |R^N| = |the set of all continuous functions from R to R|
+			- [Cardinality of the continuum](https://en.wikipedia.org/wiki/Cardinality_of_the_continuum): |continuum| = |(0, 1)| = |ℝ| = |ℝ^N| = |the set of all continuous functions from ℝ to ℝ|
 			- In Quantum Mechanics, the wave function of N particles requires 3N dimensions of information. Some wave function realists like [David Z. Albert and Alyssa Ney](https://academic.oup.com/book/32659) state that the physical space is actually 3N-dimensional.
 	- ## quality
 	  id:: 66e426ec-d29b-4614-932b-2c70693790d7
