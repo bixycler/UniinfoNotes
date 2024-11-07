@@ -999,14 +999,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-11-07 Thu 14:50:23]
 			  CLOCK: [2024-11-07 Thu 14:52:14]
 			  :END:
-				- ((6729d0f0-2ce6-4ed1-b9ba-2a3b41a9701b))
 				- The law is an abstraction of the whole which represents the whole to govern the parts.
 				- The objective and subjective views of the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (as the law):
 					- Objective view of the whole: intrinsic balance: The conversation laws, or actually the root law of conservation of content states that the whole is always in balance, i.e. when this part is added, the other part is subtracted, when this dimension is multiplied, the other dimension is divided.
 						- This law is the intrinsic nature of the whole, i.e. an abstraction, a part of the whole.
 					- Subjective view of the part: the active balancer: Any imbalance is just a partial view of the whole, i.e. a view by a part. At any moment this part, as a subject, is aware of its imbalance, it tries to return to the balance state of the whole.
-						- This internal urge of the subject is the restoring force which is a manifestation of the law of balance derived from the whole. In this way, the part is
+						- This internal urge of the subject is the restoring force which is a manifestation of the law of balance derived from the whole. In this way, the part is governed by the whole via the law.
 						- This returning direction defines the arrow of time (internal motion) and any motion externally.
+					- More discussion about ((6729d0f0-2ce6-4ed1-b9ba-2a3b41a9701b))
+						- When saying "matter is governed by physical laws", it means that "matter" is *not* the whole (uniquely independent) as stated by the materialistic dotrine, but just a part, eventhough a very objective part relative to human.
+						- The objectivity of matter relative to human makes materialists think that it's uniquely independent, because objectivity is the manifestation of the whole.
 	- ## body
 	  id:: 66c810a0-9861-4787-bdcf-1378219332be
 	  collapsed:: true
