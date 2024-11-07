@@ -547,11 +547,21 @@ function processLogseqLinks(ln, fillEmptyLinks){
 function processMapUuid(){
     //checkLogseqLinks(ln); // to prevent duplication of error messages, don't check here, only check at normalizeMardown(md)
 
-    const g = structuredClone(mapUuid); // ebref graph
-    while(Object.keys(g).length){ // topo-sort
-        let id = q.shift(), ln = mapUuid[id];
+    // ebref graph of empty block refs
+    const g = structuredClone(mapUuid);
+    for(let id in g){
+        let ln = mapUuid[id];
         let res = processLogseqLinks(ln, /*fillEmptyLinks*/false);
-
+        mapUuid[id] = res.text;
+        if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
+    }
+    // topo-sort & filter ebref graph
+    while(Object.keys(g).length){
+        for(let id in g){
+            for(let t of g[id]){}
+            let ln = mapUuid[id];
+            let res = processLogseqLinks(ln, /*fillEmptyLinks*/true);
+        }
     }
 }
 
