@@ -4237,9 +4237,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`
 									- All links & block refs in the `target block title` is replaced by plain text due to the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
 									- TODO Use `mapUuid[id] = blockTitle` to track block titles; topo-sort it in block ref dependency order; add `target block title` to block ref/links in that order
-								- DOING Note: Link text can contain **matched** square brackets `[]`, and external link target can contain **matched** parentheses `()`... up to **3 levels**.
+								- Note: Link text can contain **matched** square brackets `[]`, and external link target can contain **matched** parentheses `()`... up to **3 levels**.
+								  collapsed:: true
 								  :LOGBOOK:
-								  CLOCK: [2024-11-06 Wed 17:45:57]
+								  CLOCK: [2024-11-06 Wed 17:45:57]--[2024-11-07 Thu 17:19:01] =>  23:33:04
 								  :END:
 									- Some ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) implementations do allow _**matched** brackets/parentheses_ in link.
 									  id:: 6724afcc-e45b-43ca-839c-a3462a2fa4f4
@@ -4248,9 +4249,53 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- Supported by Logseq, Markdown-It, GitLab
 										- Unsupported by GitHub, [Markdown Viewer (Browser Extension)](https://github.com/simov/markdown-viewer), [Stack Exchange](https://math.meta.stackexchange.com/questions/11662/markdown-quirk-including-square-brackets-in-link-text-of-comment)
 											- Parentheses in link target is supported by most of them: HitHub, Markdown Viewer, [Stack Exchange](https://meta.stackexchange.com/questions/13501/links-to-urls-containing-parentheses),
-									- Regex pattern for n-level-nesting balanced brackets:
-										- For unbound n recursion
-										- Ref: [Regular expression to match balanced parentheses](https://stackoverflow.com/a/35271017/789095)
+									- Regex pattern for `n`-level-nesting balanced brackets:
+										- For unbound `n`, [recursive regex](https://www.rexegg.com/regex-recursion.php) is required.
+										- For specific `n` (= 3 in our case), we can construct the pattern with this algorithm:
+										  collapsed:: true
+											- ```js
+											  /**
+											   Examples:
+											      [A [very [very [very]...] messy] link](http://to(some(weird(...))).href "with link tip")
+											      // 3 levels of []
+											      patText = balancedBracketsRegexPattern('[',']','',3,true)
+											      // 3 levels of () and exclude space & quote of the link tip
+											      patHref = balancedBracketsRegexPattern('(',')',' "',3,true)
+											  */
+											  function balancedBracketsRegexPattern(open='[', close=']', excludes='', depth=1, unrolled=false)
+											  {
+											      let lo = '\\'+open, lc = '\\'+close;  // literals
+											      let noBracket = '[^'+lo+lc+excludes+']';
+											      // Pattern variants:
+											      let t = unrolled ? 1 : 0;
+											      let p = [ // [open, close]
+											          [// simple pattern
+											              lo
+											              + '(?:'+ noBracket  +'|'/*inner level*/,
+											                ')*' +
+											              lc
+											          ],
+											          [// unrolled pattern for efficiency
+											              lo +
+											              noBracket+'*'
+											              + '(?:' /*inner level*/,
+											              noBracket+'*'
+											              + ')*' +
+											              lc
+											          ]
+											      ];
+											  
+											      // Generate the pattern
+											      let innermostPair = lo + noBracket+'*' + lc;
+											      let openBrackets  = p[t][0].repeat(depth);
+											      let closeBrackets = p[t][1].repeat(depth);
+											  
+											      // Return the pattern
+											      pattern = new RegExp(openBrackets + innermostPair + closeBrackets);
+											      return pattern;
+											  }
+											  ```
+											- Ref: [Regular expression to match balanced parentheses](https://stackoverflow.com/a/35271017/789095)
 									- [Idealy](https://www.markdownguide.org/basic-syntax/#link-best-practices), link text should not contain brackets, and parentheses in link target should be esceped: `(` = `%28`, `)` = `%29`
 										- E.g. This links to [{wiki} Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_%28rhetoric%29)
 										- Because any unmatched bracket/parenthesis will break the link sysntax with broken text displayed.
