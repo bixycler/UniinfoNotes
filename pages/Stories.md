@@ -1208,7 +1208,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- "con cơ" của TQ thời nhà Thanh to vật như vầy:
 		  collapsed:: true
 			- ![Chinese_Ouija_board-model_figures.jpg](../assets/Will/story/2024-Nov/Chinese_Ouija_board-model_figures.jpg)
-		- Quay về VN thì hình trái tim được phiên âm ra thành "cơ", lá bài cơ, và "con cơ" trong cầu cơ. Rồi qua phong trào Cơ Bút (cầu cơ rồi chấp bút viết ra kinh điển) thì hình thành đạo Cao Đài.... ở đó chữ "cơ" lại trở về chữ Hán như "thiên cơ", "huyền cơ", "cơ mật" 😃
+		- Quay về VN thì hình trái tim được phiên âm ra thành "cơ", lá bài cơ, và "con cơ" trong cầu cơ. Rồi qua phong trào Cơ Bút (cầu cơ rồi chấp bút viết ra kinh điển) thì hình thành đạo Cao Đài.... ở đó chữ "cơ" lại trở về chữ Hán 機 như "thiên cơ", "huyền cơ", "cơ mật" 😃
 			- Đại Từ-Phụ Từ-Bi tạo-hóa,
 			  Tượng mảnh thân giống cả Càn-Khôn.
 			  Vẹn toàn đủ xác đủ hồn,
