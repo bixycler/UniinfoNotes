@@ -1176,6 +1176,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Copilot> Your point is compelling. The beauty of science often lies in its reductionist simplicity, and the necessity to introduce additional concepts to explain a materialist viewpoint can feel counterintuitive. Accepting the co-existence of both material and immaterial substances acknowledges the complexities and nuances of reality. It opens up a richer, more inclusive perspective that can embrace both scientific rigor and the intricacies of human experience. It’s a thought-provoking balance worth exploring further.
 	- About Greek páthos ([πάθος](https://en.wiktionary.org/wiki/%CF%80%CE%AC%CE%B8%CE%BF%CF%82#Ancient_Greek)): both feeling & suffering
 	  id:: 672ae05e-e686-404e-aba5-3d0469ff4228
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-11-06 Wed 16:19:55]
 	  :END:
@@ -1192,3 +1193,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- “Be patient!” = “Be a patient!”
 				- Latin "[passivus](https://en.wiktionary.org/wiki/passivus#Latin)" -> English: passive
 		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Fb [post](https://www.facebook.com/share/p/zvsW9DbJKRj5ZGwd/), Blog: [Cảm = Bệnh = Pathos; Đam mê = Đau khổ = Passion](https://creatzynotes.blogspot.com/2024/11/cam-benh-pathos-am-me-au-kho-passion.html)
+	- The circle of culture around cœur [cơ]
+	  id:: 672c4cdc-fb29-4e92-b574-059617404a20
+	  collapsed:: true
+		- Mới biết 4 chất bài cơ - rô - chuồn/tép/nhép - bích là phiên âm tiếng Pháp, trong đó chỉ có con cơ là trùng với tiếng Anh:
+			- cœur [cơ]: tim = en.heart
+			- carreau [ca-rô]: vuông, en.diamond = kim cương
+			- trèfle [trép-lờ]: cỏ 3 lá, en.clubs = cụm
+			- pique [pích]: kim chích, en.spade = mũi nhọn để đào đất
+			- có con trèfle thì ngoài bắc đọc tép/nhép là phiên âm, còn trong nam gọi "chuồn" thì ko phải phiên âm mà theo hình cái mũ cánh chuồn (mũ ô sa) mà các quan ngày xưa hay đội.
+			- con "rô" là gọi tắt, tên đủ là ca-rô như trò chơi "cờ ca-rô"
+		- Bộ bài Tây thực ra gốc lại từ nhà Đường TQ -> Ai Cập -> Châu Âu -> quay lại châu Á
+		- cũng tương tự như vậy trò cầu cơ mình học từ Pháp ra (con cơ gốc hình trái tim cœur), nhưng gốc nó cũng từ nhà Tống TQ -> Ấn Độ -> Châu Âu -> quay về VN
+		- "con cơ" của TQ thời nhà Thanh to vật như vầy:
+			-
