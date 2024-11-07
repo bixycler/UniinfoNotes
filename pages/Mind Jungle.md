@@ -992,13 +992,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The science is developing toward the objectivity in “nomothetic” way, but it cannot reach objectivity without passing through numerous subjectivities in “idiographic” way.
 						- Etymology: “[idio-](https://en.wiktionary.org/wiki/idio-)” ← Greek “ídios” ([ἴδιος](https://en.wiktionary.org/wiki/%E1%BC%B4%CE%B4%CE%B9%CE%BF%CF%82#Ancient_Greek)) meaning “self, private, distinct, peculiar”
 							- It's easily confused with “[ideo-](https://en.wiktionary.org/wiki/ideo-)” ← Greek “idéa” ([ἰδέα](https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek)) meaning “form, shape, appearance, type, idea”.
-			- DOING ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) / ((6728a766-210b-462b-8fd4-aee04981b4f9)) is the view of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) / part and the nuance of ((671b1616-9958-48d9-95ba-9fc8e76f2867))
+			- ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) / ((6728a766-210b-462b-8fd4-aee04981b4f9)) is the view of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) / part and the nuance of ((671b1616-9958-48d9-95ba-9fc8e76f2867))
 			  id:: 672c6f67-b678-4d99-9614-b4569770a512
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-11-07 Thu 14:50:23]
-			  CLOCK: [2024-11-07 Thu 14:52:14]
+			  CLOCK: [2024-11-07 Thu 14:52:14]--[2024-11-07 Thu 15:39:36] =>  00:47:22
 			  :END:
+				- By definition, all universal properties of the whole is objective and non-universal properties are subjective to some part(s) within the whole.
+					- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) This statement is resulted from the definition of objectivity & subjectivity when extending the "group of subjects" to a whole.
 				- The law is an abstraction of the whole which represents the whole to govern the parts.
 				- The objective and subjective views of the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (as the law):
 					- Objective view of the whole: intrinsic balance: The conversation laws, or actually the root law of conservation of content states that the whole is always in balance, i.e. when this part is added, the other part is subtracted, when this dimension is multiplied, the other dimension is divided.
