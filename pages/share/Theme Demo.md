@@ -24,7 +24,9 @@ public: true
 	  collapsed:: true
 		- This is [an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code> tag</a> within a Markdown link](https://www.markdownguide.org/basic-syntax/#links).
 		- This is <a href="https://en.wikipedia.org/wiki/Hyperlink">an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code> tag</a> within an <code>&lt;a&gt;</code> tag</a>.
-	- This is [a [nested [nested [nested brackets] in] a] link](href.to.a(nested (nested (nested parentheses))) "with tool tip")
+	- This is [a [nested brackets in a] link](href.to.a(nested parentheses) "with tool tip")
+		- 2 layers: [a [nested [nested brackets] in a] link](href.to.a(nested (nested parentheses)) "with tool tip")
+		- 3 layers: [a [nested [nested [nested brackets] in] a] link](href.to.a(nested (nested (nested parentheses))) "with tool tip")
 	- This is ((66ae2602-edc5-4281-a9fb-fc03f1992c93)), which is linked/mirrored here.
 	  id:: 66ae25de-8bfe-4da8-9483-8ae16f704c59
 		- a ((66536cad-a232-4b90-bf32-439144aac1ec)) within a block

@@ -4245,7 +4245,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  id:: 6724afcc-e45b-43ca-839c-a3462a2fa4f4
 										- E.g. This links to [[wiki] Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric))
 										- Supported by Logseq, Markdown-It
-										- Unsupported by
+										- Unsupported by [Markdown Viewer (Browser Extension)](https://github.com/simov/markdown-viewer), [Stack Exchange](https://math.meta.stackexchange.com/questions/11662/markdown-quirk-including-square-brackets-in-link-text-of-comment)
+											- Stack Exchange has already supported [parentheses in link target](https://meta.stackexchange.com/questions/13501/links-to-urls-containing-parentheses), though!
 									- Up to 3 levels of nesting balanced brackets without recursion:
 										-
 										- Ref: [Regular expression to match balanced parentheses](https://stackoverflow.com/a/35271017/789095)
