@@ -443,7 +443,7 @@ function normalizeMardown(md){ // md -> nmd
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
         checkLogseqLinks(ln);
-        ln = processLogseqLinks(ln);
+        ln = processLogseqLinks(ln, /*fillEmptyLinks*/true).text;
         // finally, commit this line
         nmd += ln+'\n';
     }
@@ -490,7 +490,13 @@ function checkLogseqLinks(ln){
     }
 }
 
-function processLogseqLinks(ln){
+/** Process links in ln
+    - fillEmptyLinks = true for replacing empty links with target block titles
+      + Note: Enable this only when mapUuid has been processed before.
+    - Return {text, bref[], href[]}: the processed text with lists of link targets
+*/
+function processLogseqLinks(ln, fillEmptyLinks=false){
+    const bref = [], href = [];
 
     // convert block link -> `#`anchor link
     //   `[](((UUID)) "comment")` -> `[target block title](#UUID "comment")`
@@ -498,7 +504,11 @@ function processLogseqLinks(ln){
     let li = 0; // last index
     m = ln.matchAll(patBLinkAll);
     for(let mi of m){
-        let title = mi[1] ? mi[1] : mapUuid[mi[2]]; // mapUuid[id] should have been processed before!!!
+        let title = mi[1];
+        if(fillEmptyLinks && !title){
+            title = mapUuid[mi[2]] ?? '';
+        }
+        bref.push(mi[2]);
         l = '['+title+']'+'(#'+mi[2]+(mi[3]??'')+')';
         nln += ln.slice(li,mi.index) + l;
         li = mi.index + mi[0].length;
@@ -520,14 +530,17 @@ function processLogseqLinks(ln){
     m = ln.matchAll(patLinkAll);
     for(let mi of m){
         console.log('title:',mi[1], 'href:',mi[2], 'tip:',mi[3]);
+        href.push(mi[2]);
     }*/
 
-    return nln;
+    return {text:nln, bref:bref, href:href };
 }
 
-/**  */
-function processMapUuid(ln){
+/** Replace all empty link in titles with target block title */
+function processMapUuid(){
+    //checkLogseqLinks(ln); // to prevent duplication of error messages, don't check here, only check at normalizeMardown(md)
 
+    processLogseqLinks(ln);
 }
 
 //////////////////////////////////////////
