@@ -516,9 +516,10 @@ function processLogseqLinks(ln, fillEmptyLinks){
         bref.push(mi[2]);
         let title = mi[1];
         if(!title){
-            ebref.push(mi[2]);
             if(fillEmptyLinks){
                 title = mapUuid[mi[2]] ?? '';
+            }else{
+                ebref.push(mi[2]);
             }
         }
         l = '['+title+']'+'(#'+mi[2]+(mi[3]??'')+')';
@@ -531,8 +532,8 @@ function processLogseqLinks(ln, fillEmptyLinks){
     ln = nln; nln = ''; li = 0;
     m = ln.matchAll(patBRefAll);
     for(let mi of m){
-        bref.push(mi[1]); ebref.push(mi[1]);
-        if(!fillEmptyLinks){ continue; }
+        bref.push(mi[1]);
+        if(!fillEmptyLinks){ ebref.push(mi[1]); continue; }
         let title = mapUuid[mi[1]];
         l = '['+title+']'+'(#'+mi[1]+')';
         nln += ln.slice(li,mi.index) + l;
@@ -540,14 +541,14 @@ function processLogseqLinks(ln, fillEmptyLinks){
     }
     nln += ln.slice(li);
 
-    return { text:nln, bref:bref, href:href };
+    return { text:nln, ebref:ebref, bref:bref, href:href };
 }
 
 /** Replace all empty link in mapUuid's titles with target block title */
 function processMapUuid(){
     //checkLogseqLinks(ln); // to prevent duplication of error messages, don't check here, only check at normalizeMardown(md)
 
-    // ebref graph of empty block refs
+    // ebref graph of empty block refs (processed/resolved ones are removed from g)
     const g = structuredClone(mapUuid);
     for(let id in g){
         let ln = mapUuid[id];
@@ -555,8 +556,9 @@ function processMapUuid(){
         mapUuid[id] = res.text;
         if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
     }
-    // topo-orderly resolve ebref graph (resolved ones are removed from g)
-    while(Object.keys(g).length){
+    console.debug('ebref graph:',g);
+    // topo-orderly resolve ebref graph
+    while(Object.keys(g).length){ //TODO: detect circular refs
         for(let id in g){
             let resolvable = true; // all targets have been resolved
             for(let t of g[id]){
@@ -566,6 +568,8 @@ function processMapUuid(){
             let ln = mapUuid[id];
             let res = processLogseqLinks(ln, /*fillEmptyLinks*/true);
             mapUuid[id] = res.text;
+            console.debug('resolved',id,g[id],'ln:',ln);
+            console.assert(res.ebref.length===0);
             if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
         }
     }
