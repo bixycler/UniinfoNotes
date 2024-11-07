@@ -496,7 +496,7 @@ function checkLogseqLinks(ln){
     - Return {text, ebref[], bref[], href[]}: the processed text with lists of link targets
       + ebref: List of empty block refs
 */
-function processLogseqLinks(ln, fillEmptyLinks){
+function processLogseqLinks(ln, fillEmptyLinks, flatten){
     const ebref = [], bref = [], href = [];
 
     // debug patLinkAll
