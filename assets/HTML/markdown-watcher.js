@@ -444,7 +444,6 @@ function normalizeMardown(md){ // md -> nmd
     for(let i in lns){ let ln = lns[i];
         checkLogseqLinks(ln);
         ln = processLogseqLinks(ln, /*fillEmptyLinks*/true).text;
-        // finally, commit this line
         nmd += ln+'\n';
     }
 
@@ -498,42 +497,46 @@ function checkLogseqLinks(ln){
 function processLogseqLinks(ln, fillEmptyLinks=false){
     const bref = [], href = [];
 
+    // debug patLinkAll
+    m = ln.matchAll(patLinkAll);
+    for(let mi of m){
+        if(mi[2].startsWith('((')){ continue; } // skip block refs
+        href.push(mi[2]);
+        console.debug({'title':mi[1], 'href':mi[2], 'tip':mi[3]});
+    }
+
     // convert block link -> `#`anchor link
     //   `[](((UUID)) "comment")` -> `[target block title](#UUID "comment")`
     let nln = ''; // ln -> nln
     let li = 0; // last index
     m = ln.matchAll(patBLinkAll);
     for(let mi of m){
+        bref.push(mi[2]);
         let title = mi[1];
         if(fillEmptyLinks && !title){
             title = mapUuid[mi[2]] ?? '';
         }
-        bref.push(mi[2]);
         l = '['+title+']'+'(#'+mi[2]+(mi[3]??'')+')';
         nln += ln.slice(li,mi.index) + l;
         li = mi.index + mi[0].length;
     }
     nln += ln.slice(li);
-    /*/ convert `((block ref))` -> `[target block title](#UUID)`
-    ln = nln; nln = ''; li = 0;
-    m = ln.matchAll(patBRefAll);
-    for(let mi of m){
-        let title = mapUuid[mi[1]]; // mapUuid[id] should have been processed before!!!
-        l = '['+title+']'+'(#'+mi[1]+')';
-        nln += ln.slice(li,mi.index) + l;
-        li = mi.index + mi[0].length;
+
+    // convert `((block ref))` -> `[target block title](#UUID)`
+    if(fillEmptyLinks){
+        ln = nln; nln = ''; li = 0;
+        m = ln.matchAll(patBRefAll);
+        for(let mi of m){
+            bref.push(mi[1]);
+            let title = mapUuid[mi[1]];
+            l = '['+title+']'+'(#'+mi[1]+')';
+            nln += ln.slice(li,mi.index) + l;
+            li = mi.index + mi[0].length;
+        }
+        nln += ln.slice(li);
     }
-    nln += ln.slice(li);
-*/
 
-    /*/ debug patLinkAll
-    m = ln.matchAll(patLinkAll);
-    for(let mi of m){
-        console.log('title:',mi[1], 'href:',mi[2], 'tip:',mi[3]);
-        href.push(mi[2]);
-    }*/
-
-    return {text:nln, bref:bref, href:href };
+    return { text:nln, bref:bref, href:href };
 }
 
 /** Replace all empty link in titles with target block title */
