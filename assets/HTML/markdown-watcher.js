@@ -502,7 +502,7 @@ function processLogseqLinks(ln, fillEmptyLinks=false){
     for(let mi of m){
         if(mi[2].startsWith('((')){ continue; } // skip block refs
         href.push(mi[2]);
-        console.debug({'title':mi[1], 'href':mi[2], 'tip':mi[3]});
+        //console.debug({'title':mi[1], 'href':mi[2], 'tip':mi[3]});
     }
 
     // convert block link -> `#`anchor link
@@ -539,11 +539,15 @@ function processLogseqLinks(ln, fillEmptyLinks=false){
     return { text:nln, bref:bref, href:href };
 }
 
-/** Replace all empty link in titles with target block title */
+/** Replace all empty link in mapUuid's titles with target block title */
 function processMapUuid(){
     //checkLogseqLinks(ln); // to prevent duplication of error messages, don't check here, only check at normalizeMardown(md)
 
-    processLogseqLinks(ln);
+    const q = Object.keys(mapUuid); // topo-sort queue
+    while(q.length){
+        let ln = q.shift();
+        processLogseqLinks(ln);
+    }
 }
 
 //////////////////////////////////////////
