@@ -1206,4 +1206,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Bộ bài Tây thực ra gốc lại từ nhà Đường TQ -> Ai Cập -> Châu Âu -> quay lại châu Á
 		- cũng tương tự như vậy trò cầu cơ mình học từ Pháp ra (con cơ gốc hình trái tim cœur), nhưng gốc nó cũng từ nhà Tống TQ -> Ấn Độ -> Châu Âu -> quay về VN
 		- "con cơ" của TQ thời nhà Thanh to vật như vầy:
-			-
+		  collapsed:: true
+			- ![Chinese_Ouija_board-model_figures.jpg](../assets/Will/story/2024-Nov/Chinese_Ouija_board-model_figures.jpg)
+		- Quay về VN thì hình trái tim được phiên âm ra thành "cơ", lá bài cơ, và "con cơ" trong cầu cơ. Rồi qua phong trào Cơ Bút (cầu cơ rồi chấp bút viết ra kinh điển) thì hình thành đạo Cao Đài.... ở đó chữ "cơ" lại trở về chữ Hán như "thiên cơ", "huyền cơ", "cơ mật" 😃
+			- Đại Từ-Phụ Từ-Bi tạo-hóa,
+			  Tượng mảnh thân giống cả Càn-Khôn.
+			  Vẹn toàn đủ xác đủ hồn,
+			  Xây cơ chuyển thế bảo-tồn vạn-linh.
+			- Nam-Mô Thượng-Đế Ngọc-Hoàng,
+			  Mở cơ tận độ nhẹ-nhàng chơn-linh.
+			  Cửa Cực-Lạc thinh thinh rộng mở,
+			  Rước vong hồn lui trở ngôi xưa.
+			- "Xây cơ" là kỹ thuật cầu cơ sơ khai (gốc từ Pháp), gọi là "xây bàn cơ": cái "bàn cơ" là con cơ có 3 chân như hình này.
+			  collapsed:: true
+				- ![Norman_Rockwell_Ouija_board_painting.jpg](../assets/Will/story/2024-Nov/Norman_Rockwell_Ouija_board_painting.jpg)
+			- "Mở cơ" là mở hội, lập đàn cầu cơ theo nghĩa đen, nhưng nghĩa bóng ý là "mở thiên cơ ra" để độ chúng sanh 😃
+		- Những vòng tròn văn hoá và ngôn ngữ, đi ráp vòng quay trở lại nhưng "lợi hại hơn xưa", biến hoá khôn lường 😉
+		- "Cầu cơ" tiếng Anh là ouija, nhưng đọc là "wi-jơ", âm đầu "oui" [wi] thì theo Pháp, âm sau "ja" thì theo tiếng Đức 😃
