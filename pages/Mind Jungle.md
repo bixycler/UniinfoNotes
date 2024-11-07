@@ -4245,10 +4245,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  id:: 6724afcc-e45b-43ca-839c-a3462a2fa4f4
 										- E.g. This links to [[wiki] Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric))
 										- Supported by Logseq, Markdown-It
+										- Unsupported by
 									- Up to 3 levels of nesting balanced brackets without recursion:
 										-
 										- Ref: [Regular expression to match balanced parentheses](https://stackoverflow.com/a/35271017/789095)
-									- Idealy, parentheses in link target should be esceped: `(` = `%28`, `)` = `%29`
+									- [Idealy](https://www.markdownguide.org/basic-syntax/#link-best-practices), parentheses in link target should be esceped: `(` = `%28`, `)` = `%29`
 										- E.g. This links to [{wiki} Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_%28rhetoric%29)
 										- Because any unmatched bracket/parenthesis will break the link sysntax with broken text displayed.
 										  id:: 6724b036-6dfb-4f58-8e13-b79a8a1806c7
