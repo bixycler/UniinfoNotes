@@ -4243,12 +4243,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  :END:
 									- Some ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) implementations do allow _**matched** brackets/parentheses_ in link.
 									  id:: 6724afcc-e45b-43ca-839c-a3462a2fa4f4
+									  collapsed:: true
 										- E.g. This links to [[wiki] Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric))
 										- Supported by Logseq, Markdown-It, GitLab
 										- Unsupported by GitHub, [Markdown Viewer (Browser Extension)](https://github.com/simov/markdown-viewer), [Stack Exchange](https://math.meta.stackexchange.com/questions/11662/markdown-quirk-including-square-brackets-in-link-text-of-comment)
-											- Stack Exchange has already supported [parentheses in link target](https://meta.stackexchange.com/questions/13501/links-to-urls-containing-parentheses), though!
-									- Up to 3 levels of nesting balanced brackets without recursion:
-										-
+											- Parentheses in link target is supported by most of them: HitHub, Markdown Viewer, [Stack Exchange](https://meta.stackexchange.com/questions/13501/links-to-urls-containing-parentheses),
+									- Regex pattern for n-level-nesting balanced brackets:
+										- For unbound n recursion
 										- Ref: [Regular expression to match balanced parentheses](https://stackoverflow.com/a/35271017/789095)
 									- [Idealy](https://www.markdownguide.org/basic-syntax/#link-best-practices), link text should not contain brackets, and parentheses in link target should be esceped: `(` = `%28`, `)` = `%29`
 										- E.g. This links to [{wiki} Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_%28rhetoric%29)
