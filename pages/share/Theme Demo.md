@@ -24,8 +24,9 @@ public: true
 	  collapsed:: true
 		- This is [an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code> tag</a> within a Markdown link](https://www.markdownguide.org/basic-syntax/#links).
 		- This is <a href="https://en.wikipedia.org/wiki/Hyperlink">an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code> tag</a> within an <code>&lt;a&gt;</code> tag</a>.
-	- This is a [link (Unix)](https://en.wikipedia.org/wiki/Link_(Unix) "The link utility for hardlink") and a [link ((Unix))](https://en.wikipedia.org/wiki/Link_((Unix)))
+	- This is a [link (Unix)](https://en.wikipedia.org/wiki/Link_(Unix) "The link utility for hardlink") with double [link ((Unix))](https://en.wikipedia.org/wiki/Link_((Unix))) and triple [link (((Unix)))](https://en.wikipedia.org/wiki/Link_(((Unix))))
 	- This is [a [nested brackets in a] link](href.to.a(nested parentheses) "with tool tip")
+	  collapsed:: true
 		- 2 layers: [a [nested [nested brackets] in a] link](href.to.a(nested (nested parentheses)) "with tool tip")
 		- 3 layers: [a [nested [nested [nested brackets] in] a] link](href.to.a(nested (nested (nested parentheses))) "with tool tip")
 	- This is ((66ae2602-edc5-4281-a9fb-fc03f1992c93)), which is linked/mirrored here.
