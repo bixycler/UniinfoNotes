@@ -493,24 +493,33 @@ function checkLogseqLinks(ln){
 /** Process links in ln
     - fillEmptyLinks = true for replacing empty links with target block titles
       + Note: Enable this only when mapUuid has been processed before.
+    - flattenLinks = true to strip off link target, leaving only link text
     - Return {text, ebref[], bref[], href[]}: the processed text with lists of link targets
       + ebref: List of empty block refs
 */
-function processLogseqLinks(ln, fillEmptyLinks, flatten){
+function processLogseqLinks(ln, fillEmptyLinks, flattenLinks=false){
     const ebref = [], bref = [], href = [];
 
     // debug patLinkAll
+    let nln = ''; // ln -> nln
+    let li = 0; // last index
     m = ln.matchAll(patLinkAll);
     for(let mi of m){
-        if(mi[2].startsWith('((')){ continue; } // skip block refs
-        href.push(mi[2]);
-        //console.debug({'title':mi[1], 'href':mi[2], 'tip':mi[3]});
+        if(mi[2].startsWith('((')){ // skip block refs
+            l = mi[0];
+        }else{
+            href.push(mi[2]);
+            //console.debug({'title':mi[1], 'href':mi[2], 'tip':mi[3]});
+            l = flattenLinks ? mi[1] : '['+mi[1]+']'+'('+mi[2]+(mi[3]??'')+')';
+        }
+        nln += ln.slice(li,mi.index) + l;
+        li = mi.index + mi[0].length;
     }
+    nln += ln.slice(li);
 
     // convert block link -> `#`anchor link
     //   `[](((UUID)) "comment")` -> `[target block title](#UUID "comment")`
-    let nln = ''; // ln -> nln
-    let li = 0; // last index
+    ln = nln; nln = ''; li = 0;
     m = ln.matchAll(patBLinkAll);
     for(let mi of m){
         bref.push(mi[2]);
@@ -522,7 +531,7 @@ function processLogseqLinks(ln, fillEmptyLinks, flatten){
                 ebref.push(mi[2]);
             }
         }
-        l = '['+title+']'+'(#'+mi[2]+(mi[3]??'')+')';
+        l = flattenLinks ? title : '['+title+']'+'(#'+mi[2]+(mi[3]??'')+')';
         nln += ln.slice(li,mi.index) + l;
         li = mi.index + mi[0].length;
     }
@@ -535,7 +544,7 @@ function processLogseqLinks(ln, fillEmptyLinks, flatten){
         bref.push(mi[1]);
         if(!fillEmptyLinks){ ebref.push(mi[1]); continue; }
         let title = mapUuid[mi[1]];
-        l = '['+title+']'+'(#'+mi[1]+')';
+        l = flattenLinks ? title : '['+title+']'+'(#'+mi[1]+')';
         nln += ln.slice(li,mi.index) + l;
         li = mi.index + mi[0].length;
     }
@@ -552,7 +561,7 @@ function processMapUuid(){
     const g = structuredClone(mapUuid);
     for(let id in g){
         let ln = mapUuid[id];
-        let res = processLogseqLinks(ln, /*fillEmptyLinks*/false);
+        let res = processLogseqLinks(ln, /*fillEmptyLinks*/false, /*flattenLinks*/true);
         mapUuid[id] = res.text;
         if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
     }
@@ -566,7 +575,7 @@ function processMapUuid(){
             }
             if(!resolvable){ continue; }
             let ln = mapUuid[id];
-            let res = processLogseqLinks(ln, /*fillEmptyLinks*/true);
+            let res = processLogseqLinks(ln, /*fillEmptyLinks*/true, /*flattenLinks*/true);
             mapUuid[id] = res.text;
             console.debug('resolved',id,g[id],'ln:',mapUuid[id]);
             console.assert(res.ebref.length===0);
