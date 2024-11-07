@@ -555,12 +555,18 @@ function processMapUuid(){
         mapUuid[id] = res.text;
         if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
     }
-    // topo-sort & filter ebref graph
+    // topo-orderly resolve ebref graph (resolved ones are removed from g)
     while(Object.keys(g).length){
         for(let id in g){
-            for(let t of g[id]){}
+            let resolvable = true; // all targets have been resolved
+            for(let t of g[id]){
+                if(t in g){ resolvable = false; break; }
+            }
+            if(!resolvable){ continue; }
             let ln = mapUuid[id];
             let res = processLogseqLinks(ln, /*fillEmptyLinks*/true);
+            mapUuid[id] = res.text;
+            if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
         }
     }
 }
