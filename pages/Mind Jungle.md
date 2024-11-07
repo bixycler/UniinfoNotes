@@ -973,6 +973,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) can only directly see the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an object. All other properties like ((66727858-979d-4d95-8a90-7a749218cfba)) and/or ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that object, the subject must infer from the collections of the seen forms then attribute to the object.
 			- Relativity of ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) and ((6728a766-210b-462b-8fd4-aee04981b4f9))
+			  id:: 6728aa9a-9fb2-4afa-864f-0eb049ac771b
 			  collapsed:: true
 				- The common dichotomy is the [absolute objectivity versus absolute subjectivity](https://en.wikipedia.org/wiki/Subjectivity_and_objectivity_(philosophy)), whose ((6729c1c5-7eb2-408b-a205-f3039799d19c)) is _fixed by the human center, i.e. **human as the only subject**_: Anything independent from all humans (mind) is "objective", and anything dependent on human mind is "subjective".
 					- This dichotomy is human-absolute, i.e. relative to the whole mankind, i.e. mandkind as the ((6729b90b-1ee3-4efc-b62c-281f9621f487)).
@@ -991,6 +992,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The science is developing toward the objectivity in “nomothetic” way, but it cannot reach objectivity without passing through numerous subjectivities in “idiographic” way.
 						- Etymology: “[idio-](https://en.wiktionary.org/wiki/idio-)” ← Greek “ídios” ([ἴδιος](https://en.wiktionary.org/wiki/%E1%BC%B4%CE%B4%CE%B9%CE%BF%CF%82#Ancient_Greek)) meaning “self, private, distinct, peculiar”
 							- It's easily confused with “[ideo-](https://en.wiktionary.org/wiki/ideo-)” ← Greek “idéa” ([ἰδέα](https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek)) meaning “form, shape, appearance, type, idea”.
+			- DOING
+			  :LOGBOOK:
+			  CLOCK: [2024-11-07 Thu 14:50:23]
+			  :END:
 	- ## body
 	  id:: 66c810a0-9861-4787-bdcf-1378219332be
 	  collapsed:: true
