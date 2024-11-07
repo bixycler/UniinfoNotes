@@ -384,6 +384,7 @@ function normalizeMardown(md){ // md -> nmd
         }else{ meta = ''; }
         nmd += ln+'\n';
     }
+    processMapUuid();
 
     // unitemize headers & remove first tabs & process code block
     let codeblock = '', cbIndent = '', cbErrors = {};
@@ -492,10 +493,11 @@ function checkLogseqLinks(ln){
 /** Process links in ln
     - fillEmptyLinks = true for replacing empty links with target block titles
       + Note: Enable this only when mapUuid has been processed before.
-    - Return {text, bref[], href[]}: the processed text with lists of link targets
+    - Return {text, ebref[], bref[], href[]}: the processed text with lists of link targets
+      + ebref: List of empty block refs
 */
-function processLogseqLinks(ln, fillEmptyLinks=false){
-    const bref = [], href = [];
+function processLogseqLinks(ln, fillEmptyLinks){
+    const ebref = [], bref = [], href = [];
 
     // debug patLinkAll
     m = ln.matchAll(patLinkAll);
@@ -513,8 +515,11 @@ function processLogseqLinks(ln, fillEmptyLinks=false){
     for(let mi of m){
         bref.push(mi[2]);
         let title = mi[1];
-        if(fillEmptyLinks && !title){
-            title = mapUuid[mi[2]] ?? '';
+        if(!title){
+            ebref.push(mi[2]);
+            if(fillEmptyLinks){
+                title = mapUuid[mi[2]] ?? '';
+            }
         }
         l = '['+title+']'+'(#'+mi[2]+(mi[3]??'')+')';
         nln += ln.slice(li,mi.index) + l;
@@ -523,18 +528,17 @@ function processLogseqLinks(ln, fillEmptyLinks=false){
     nln += ln.slice(li);
 
     // convert `((block ref))` -> `[target block title](#UUID)`
-    if(fillEmptyLinks){
-        ln = nln; nln = ''; li = 0;
-        m = ln.matchAll(patBRefAll);
-        for(let mi of m){
-            bref.push(mi[1]);
-            let title = mapUuid[mi[1]];
-            l = '['+title+']'+'(#'+mi[1]+')';
-            nln += ln.slice(li,mi.index) + l;
-            li = mi.index + mi[0].length;
-        }
-        nln += ln.slice(li);
+    ln = nln; nln = ''; li = 0;
+    m = ln.matchAll(patBRefAll);
+    for(let mi of m){
+        bref.push(mi[1]); ebref.push(mi[1]);
+        if(!fillEmptyLinks){ continue; }
+        let title = mapUuid[mi[1]];
+        l = '['+title+']'+'(#'+mi[1]+')';
+        nln += ln.slice(li,mi.index) + l;
+        li = mi.index + mi[0].length;
     }
+    nln += ln.slice(li);
 
     return { text:nln, bref:bref, href:href };
 }
@@ -543,10 +547,11 @@ function processLogseqLinks(ln, fillEmptyLinks=false){
 function processMapUuid(){
     //checkLogseqLinks(ln); // to prevent duplication of error messages, don't check here, only check at normalizeMardown(md)
 
-    const q = Object.keys(mapUuid); // topo-sort queue
-    while(q.length){
-        let ln = q.shift();
-        processLogseqLinks(ln);
+    const g = structuredClone(mapUuid); // ebref graph
+    while(Object.keys(g).length){ // topo-sort
+        let id = q.shift(), ln = mapUuid[id];
+        let res = processLogseqLinks(ln, /*fillEmptyLinks*/false);
+
     }
 }
 
