@@ -568,7 +568,7 @@ function processMapUuid(){
             let ln = mapUuid[id];
             let res = processLogseqLinks(ln, /*fillEmptyLinks*/true);
             mapUuid[id] = res.text;
-            console.debug('resolved',id,g[id],'ln:',ln);
+            console.debug('resolved',id,g[id],'ln:',mapUuid[id]);
             console.assert(res.ebref.length===0);
             if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
         }
