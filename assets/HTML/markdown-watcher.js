@@ -442,6 +442,7 @@ function normalizeMardown(md){ // md -> nmd
     // process details: block ref/links,
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
+        checkLogseqLinks(ln);
         ln = processLogseqLinks(ln);
         // finally, commit this line
         nmd += ln+'\n';
@@ -464,8 +465,9 @@ function normalizeMardown(md){ // md -> nmd
     return nmd;
 }
 
-function processLogseqLinks(ln){
-    // check links' target against mapUuid before replacing them
+/** Check links & block refs of issues: noUuid, ... */
+function checkLogseqLinks(ln){
+    // check links' target against mapUuid
     let l = ln; // for context of current link/ref
     m = l.matchAll(patBLinkAll);
     for(let mi of m){
@@ -476,7 +478,7 @@ function processLogseqLinks(ln){
         }
         l = l.replace(mi[0],'');
     }
-    // check block refs against mapUuid before replacing them
+    // check block refs against mapUuid
     m = l.matchAll(patBRefAll);
     for(let mi of m){
         if(!(mi[1] in mapUuid)){
@@ -486,6 +488,9 @@ function processLogseqLinks(ln){
         }
         l = l.replace(mi[0],'');
     }
+}
+
+function processLogseqLinks(ln){
 
     // convert block link -> `#`anchor link
     //   `[](((UUID)) "comment")` -> `[target block title](#UUID "comment")`
@@ -518,6 +523,11 @@ function processLogseqLinks(ln){
     }*/
 
     return nln;
+}
+
+/**  */
+function processMapUuid(ln){
+
 }
 
 //////////////////////////////////////////
