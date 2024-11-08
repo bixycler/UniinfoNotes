@@ -632,9 +632,10 @@ function processQuotes(ln){
 function replaceQuotes(ln){ // A.K.A. “smart quotes!”
     let nln = '', li = 0, stack = [], q;
     m = ln.matchAll(patQuoteAll);
-    for(let mi of m){ //TODO test ^$
+    for(let mi of m){
         let leftSpace = mi[1].match(/^|\s/), rightSpace = mi[3].match(/\s|$/);
-        q = leftSpace && !rightSpace ? mi[2]+'<' : !leftSpace && rightSpace ? '>'+mi[2] : mi[2];
+        let leftWord = mi[1].match(/\w/), rightWord = mi[3].match(/\w/);
+        q = (leftSpace && rightSpace || leftWord && rightWord) && mi[2]==stack[-1] ? mi[2] : ;
         q = mi[1] +curlyQuote[q]+ mi[3];
         nln += ln.slice(li,mi.index) + q;
         li = mi.index + mi[0].length;
