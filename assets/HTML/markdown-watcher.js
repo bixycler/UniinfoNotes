@@ -319,7 +319,7 @@ function loadPage() {
 
 /** Convert from Logseq markdown to normal Markdown */
     var mapUuid = {}, noUuid = {}, circularRefs = {};
-    const NBSP = '\u00A0', NNBSP = '\u00A0';//'\u202F';
+    const NBSP = '\u00A0', NNBSP = '\u202F'; ZWSPC = '\u200B';
     const patItem = /^\t*- /;
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
@@ -407,7 +407,8 @@ function normalizeMardown(md){ // md -> nmd
         }
 
         // process code block
-        //   Use NNBSP to mark all lines of code block => cbIndent+NNBSP is the marker
+        //  Use NNBSP to mark all lines of code block => cbIndent+NNBSP is the marker
+        //  This NNBSP will be removed at the end.
         m = ln.match(patCBF);
         if(m){ // code block fences
             if(codeblock && (m[3] || m[2]=='-')){ // exception
@@ -448,6 +449,7 @@ function normalizeMardown(md){ // md -> nmd
         checkLogseqLinks(ln);
         ln = processLogseqLinks(ln, /*fillEmptyLinks*/true).text;
         ln = processQuotes(ln);
+        ln = ln.replace();
         nmd += ln+'\n';
     }
 
