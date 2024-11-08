@@ -459,9 +459,9 @@ function normalizeMardown(md){ // md -> nmd
             if(m){ nln = ln.replace(m[0], m[1]); break CHECK; }
 
             // around inline codes & HTML tags
-            m = ln.match(patCIHtmlAll);
+            m = ln.matchAll(patCIHtmlAll);
             m = m ? Array.from(m) : [];
-            m.push({index:m.length, 0:''}); // add a "line-end match" for processing the trailing text
+            m.push({index:ln.length, 0:''}); // add a "line-end match" for processing the trailing text
             let li = 0;
             for(let mi of m){ let l = ln.slice(li,mi.index);
                 checkLogseqLinks(l);
