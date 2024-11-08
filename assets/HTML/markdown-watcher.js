@@ -539,7 +539,7 @@ function checkLogseqLinks(ln){
 function processLogseqLinks(ln, fillEmptyLinks, flattenLinks=false){
     const ebref = [], bref = [], href = [];
 
-    // debug patLinkAll
+    // flatten and check for target {asset, publish}
     let nln = ''; // ln -> nln
     let li = 0; // last index
     m = ln.matchAll(patLinkAll);
@@ -630,7 +630,7 @@ function processMapUuid(){
     }
 }
 
-/**
+/** A.K.A. “smart quotes!”
  Replace:
  1. foo "some words" bar
  2. foo "-some-words-" bar
@@ -644,7 +644,7 @@ function processMapUuid(){
  5. <tag id="HTML">
 */
     const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
-function replaceQuotes(ln){ // A.K.A. “smart quotes!”
+function replaceQuotes(ln){
     let nln = '', li = 0, stack = [], L = ln.length-1, q;
     for(let i in ln){ i = Number(i);
         if(!(ln[i] in {"'":0, '"':1})){ continue; }

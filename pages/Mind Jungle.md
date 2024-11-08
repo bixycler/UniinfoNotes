@@ -4308,7 +4308,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- This has [only close braket ]](((6724b036-6dfb-4f58-8e13-b79a8a1806c7)))
 											- This has [only open parenthesis](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric) ...
 											- This has [only close parenthesis](https://en.wikipedia.org/wiki/Parenthesis_rhetoric)) ...
-							- process/check external links to relative paths: `assets`, `publish`, etc.
+							- DOING process/check external links to relative paths: `assets`, `publish`, etc.
+							  :LOGBOOK:
+							  CLOCK: [2024-11-08 Fri 18:55:58]
+							  :END:
 							- replace items bullets with numbers
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
 							- process code block for strict conventions like in GitLab
