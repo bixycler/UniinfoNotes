@@ -4317,6 +4317,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6716110a-1a05-4c87-93b3-fa9f0db22ba9))
 								- This has been done by Markdown-It's `typographer: true` in [smartquotes.mjs](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/smartquotes.mjs).
 								- We implement our own function `processQuotes(ln)` to handle our markdown source in Logseq.
+								- Multi-line quotes are not supported.
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 						- ((6720c0a4-0294-4065-8016-9853e2a04475)) using [DocRaptor](https://docraptor.com/)
 						  id:: 6720bd22-c2f9-42c7-a6e9-99bc51a92225
