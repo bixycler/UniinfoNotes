@@ -440,7 +440,7 @@ function normalizeMardown(md){ // md -> nmd
         nmd += ln+'\n';
     }
 
-    // process details: block ref/links,
+    // process details: block ref/links, quotes
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
         checkLogseqLinks(ln);
