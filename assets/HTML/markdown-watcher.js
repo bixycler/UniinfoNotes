@@ -318,7 +318,7 @@ function loadPage() {
 /////// Format converting
 
 /** Convert from Logseq markdown to normal Markdown */
-    var mapUuid = {}, noUuid = {}, circularRefs = {};
+    var mapUuid = {}, noUuid = {}, circularRefs = {}, localLinks = {};
     const NBSP = '\u00A0', NNBSP = '\u202F', ZWSP = '\u200B', ZWNBSP = '\uFEFF';
     const CBMarker = ZWNBSP;
     const patItem = /^\t*- /;
@@ -464,7 +464,7 @@ function normalizeMardown(md){ // md -> nmd
             m.push({index:ln.length, 0:''}); // add a "line-end match" for processing the trailing text
             let li = 0;
             for(let mi of m){ let l = ln.slice(li,mi.index);
-                checkLogseqLinks(l);
+                checkLinks(l);
                 l = processLogseqLinks(l, /*fillEmptyLinks*/true).text;
                 nln += l + mi[0];
                 li = mi.index + mi[0].length;
@@ -494,6 +494,9 @@ function normalizeMardown(md){ // md -> nmd
     if(Object.keys(circularRefs).length){
         msg['Circular references'] = circularRefs;
     }
+    if(Object.keys(localLinks).length){
+        msg['Local links'] = localLinks;
+    }
     if(Object.keys(msg).length){
         showError('<pre>'+JSON.stringify(msg, null, '  ')+'</pre>', 'Markdown converting issues')
     }else{
@@ -505,7 +508,7 @@ function normalizeMardown(md){ // md -> nmd
 }
 
 /** Check links & block refs of issues: noUuid, ... */
-function checkLogseqLinks(ln){
+function checkLinks(ln){
     // check links' target against mapUuid
     let l = ln; // checked link/refs will be removed from l
     m = l.matchAll(patBLinkAll);
@@ -532,10 +535,9 @@ function checkLogseqLinks(ln){
     // check external links for local targets (non-HTTP)
     m = l.matchAll(patLinkAll);
     for(let mi of m){
-        if(!(mi[2].)){
-            let context = l.slice(0,mi.index)+mi[0];
-            console.warn('Block UUID not found: ',mi[1], 'in line:', context);
-            noUuid[mi[1]] = (noUuid[mi[1]] ?? '') + context+'; ';
+        if(!(mi[2].match(/https?:\/\//))){
+            console.warn('Local link to:',mi[2], 'in:', mi[0]);
+            localLinks[mi[2]] = (localLinks[mi[2]] ?? '') + mi[0]+'; ';
         }
         l = l.replace(mi[0],''); // remove it
     }
@@ -606,7 +608,7 @@ function processLogseqLinks(ln, fillEmptyLinks, flattenLinks=false){
 
 /** Replace all empty link in mapUuid's titles with target block title */
 function processMapUuid(){
-    //checkLogseqLinks(ln); // to prevent duplication of error messages, don't check here, only check at normalizeMardown(md)
+    //checkLinks(ln); // to prevent duplication of error messages, don't check here, only check at normalizeMardown(md)
 
     // ebref graph of empty block refs (processed/resolved ones are removed from g)
     const g = structuredClone(mapUuid);
