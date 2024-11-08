@@ -4315,7 +4315,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- replace straight quotes `"..."` with curly quotes `“...”`
 							  collapsed:: true
 								- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6716110a-1a05-4c87-93b3-fa9f0db22ba9))
-								- This has been done by Markdown-It's `typographer: true`.
+								- This has been done by Markdown-It's `typographer: true` in [smartquotes.mjs](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/smartquotes.mjs).
 								- We implement our own function `convertQuotes()` to handle our markdown source in Logseq.
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 						- ((6720c0a4-0294-4065-8016-9853e2a04475)) using [DocRaptor](https://docraptor.com/)
@@ -4709,7 +4709,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 						- Replace straight quotes with curly quotes
 						  ```vim
-						  %s/"\</“/g|%s/\>"/”/g
+						  %s/"\(\S\)/“\1/g|%s/\(\S\)"/\1”/g
 						  ```
 			- Built-in ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 			  id:: 66faa5f9-8ffd-4542-b916-6e3528cabad8
