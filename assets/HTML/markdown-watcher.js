@@ -616,7 +616,7 @@ function processMapUuid(){
 */
     const patQuote = /(.)*('|")(.)*/;
     const patQuoteAll = new RegExp(patQuote.source, 'g');
-    const curlyQuote = {'"<':'“', '>"':'”',   "'<":'‘’', '>"':'”', };
+    const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
 function processQuotes(ln){
     if(ln.match(patCBM)){ return ln; } // skip code blocks
     let nln = '', li = 0;
@@ -629,13 +629,16 @@ function processQuotes(ln){
     return nln;
 }
 function replaceQuotes(ln){
-    let nln = '', li = 0, l;
+    let nln = '', li = 0, q;
     m = ln.matchAll(patQuoteAll);
-    for(let mi of m){
-        nln += replaceQuotes(ln.slice(li,mi.index)) + m[0];
+    for(let mi of m){ //TODO test ^$
+        let leftSpace = mi[1].match(/^|\s/), rightSpace = mi[3].match(/\s|$/);
+        q = leftSpace && !rightSpace ? mi[2]+'<' : !leftSpace && rightSpace ? '>'+mi[2] : mi[2];
+        q = mi[1] +curlyQuote[q]+ mi[3];
+        nln += ln.slice(li,mi.index) + q;
         li = mi.index + mi[0].length;
     }
-    nln += replaceQuotes(ln.slice(li));
+    nln += ln.slice(li);
     return nln;
 }
 
