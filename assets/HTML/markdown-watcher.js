@@ -319,7 +319,7 @@ function loadPage() {
 
 /** Convert from Logseq markdown to normal Markdown */
     var mapUuid = {}, noUuid = {}, circularRefs = {};
-    const NBSP = '\u00A0', NNBSP = '\u202F'; ZWSPC = '\u200B';
+    const NBSP = '\u00A0', NNBSP = '\u202F', ZWSP = '\u200B', ZWNBSP = '\u';
     const patItem = /^\t*- /;
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
@@ -328,6 +328,7 @@ function loadPage() {
     const patIH = /^(\t*)(- )?#/; // itemized header
     const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
     const patCBH = /^(\t*)  /; // code block line's head
+    const patCBM = /^(\t*)\u202F/u; // code block line's marker
     const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
     const patUuidAll = new RegExp(patUuid, 'g');
     const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
@@ -449,7 +450,7 @@ function normalizeMardown(md){ // md -> nmd
         checkLogseqLinks(ln);
         ln = processLogseqLinks(ln, /*fillEmptyLinks*/true).text;
         ln = processQuotes(ln);
-        ln = ln.replace();
+        ln = ln.replace(patCBM, '$1'); // clear code block marker
         nmd += ln+'\n';
     }
 
