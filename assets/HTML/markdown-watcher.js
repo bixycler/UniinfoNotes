@@ -607,12 +607,13 @@ function processMapUuid(){
  Replace:
  1. foo "bar" baz
  2. foo "-bar-" baz
+ 3. foo-"-bar-"-baz
+
  Don't replace:
  1. foo " bar " baz
- 2. foo-"-bar-"-baz
- 3. foo"bar"baz
- 4. `foo "bar" baz`
- 5. ```foo "bar" baz```
+ 2. foo"bar"baz
+ 3. `foo "bar" baz`
+ 4. ```foo "bar" baz```
 */
     const patQuote = /(.)*('|")(.)*/;
     const patQuoteAll = new RegExp(patQuote.source, 'g');
@@ -628,8 +629,8 @@ function processQuotes(ln){
     nln += replaceQuotes(ln.slice(li));
     return nln;
 }
-function replaceQuotes(ln){
-    let nln = '', li = 0, q;
+function replaceQuotes(ln){ // A.K.A. “smart quotes!”
+    let nln = '', li = 0, stack = [], q;
     m = ln.matchAll(patQuoteAll);
     for(let mi of m){ //TODO test ^$
         let leftSpace = mi[1].match(/^|\s/), rightSpace = mi[3].match(/\s|$/);
