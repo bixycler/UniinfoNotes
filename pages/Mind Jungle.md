@@ -2311,6 +2311,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ```sh
 						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/diagram-watcher.html"
 						  ```
+				- [FolderDiv.js](../assets/HTML/FolderDiv.js): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/assets/HTML/FolderDiv.js`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/assets/docs/FolderDiv.js`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/FolderDiv.js" "${HOME}/opt/personal/logseq-notes/assets/docs/FolderDiv.js"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/FolderDiv.js" "${HOME}/opt/personal/logseq-notes/assets/docs/FolderDiv.js"
+						  ```
 			- Workflow
 				- Never do any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
 				- Always update hard-linked files from local repos.

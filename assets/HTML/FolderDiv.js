@@ -1,7 +1,7 @@
-const FolderDivTemplate = `
+const FolderDivTemplateStyle = `
   <style>
 
-    :root { /* ineffective, don't use this! Use `:host` instead. */
+    :root { /* ineffective, don't use this! Use :host instead. */
     }
 
     :host { /* style of the <folder-div> */
@@ -71,7 +71,9 @@ const FolderDivTemplate = `
     }
 
   </style>
+`;
 
+const FolderDivTemplate = FolderDivTemplateStyle + `
   <!--folder-div style="display:flex; flex-direction:row;"-->
     <input type="checkbox" id="isFolded" />
     <label for="isFolded" style="display:flex; flex-direction:column;">
@@ -98,7 +100,7 @@ class FolderDiv extends HTMLElement {
     super();
     const shadowRoot = this.attachShadow({ mode: "open" });
     this.template = document.createElement('template');
-    this.template.innerH
+    this.template.innerHTML = FolderDivTemplate;
     shadowRoot.appendChild(this.template.content.cloneNode(true));
     this._internals = this.attachInternals();
 
