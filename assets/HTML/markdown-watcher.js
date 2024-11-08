@@ -334,6 +334,7 @@ function loadPage() {
     const patCIAll = new RegExp(patCI, 'g');
     const patHtml = /<[^>]+>/; // HTML tag
     const patHtmlAll = new RegExp(patHtml, 'g');
+    const patCIHtmlAll = new RegExp(patCI.source+'|'+patHtml.source, 'g');
     const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
     const patUuidAll = new RegExp(patUuid, 'g');
     const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
@@ -451,22 +452,26 @@ function normalizeMardown(md){ // md -> nmd
 
     // process details: block ref/links, quotes
     lns = nmd.split('\n'); nmd = '';
-    for(let i in lns){ let ln = lns[i];
-        m = ln.match(patCBM);
-        if(m){ return ln; } // skip code blocks
-        let nln = '', li = 0;
-        m = ln.matchAll(patCIAll);
-        for(let mi of m){
-            nln += replaceQuotes(ln.slice(li,mi.index)) + mi[0];
-            li = mi.index + mi[0].length;
-        }
-        nln += replaceQuotes(ln.slice(li));
+    for(let i in lns){ let ln = lns[i], nln = '';
+        CHECK:{
+            // code block line
+            m = ln.match(patCBM);
+            if(m){ nln = ln.replace(m[0], m[1]); break CHECK; }
 
-        checkLogseqLinks(ln);
-        ln = processLogseqLinks(ln, /*fillEmptyLinks*/true).text;
-        ln = processQuotes(ln);
-        ln = ln.replace(patCBM, '$1'); // clear code block marker
-        nmd += ln+'\n';
+            // around inline codes & HTML tags
+            m = ln.match(patCIHtmlAll);
+            m = m ? Array.from(m) : [];
+            m.push({index:m.length, 0:''}); // add a "line-end match" for processing the trailing text
+            let li = 0;
+            for(let mi of m){ let l = ln.slice(li,mi.index);
+                checkLogseqLinks(l);
+                l = processLogseqLinks(l, /*fillEmptyLinks*/true).text;
+                //l = replaceQuotes(l);
+                nln += l + mi[0];
+                li = mi.index + mi[0].length;
+            }
+        }
+        nmd += nln+'\n';
     }
 
     // collect error messages
