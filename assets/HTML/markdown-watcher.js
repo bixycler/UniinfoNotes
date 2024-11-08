@@ -507,7 +507,7 @@ function normalizeMardown(md){ // md -> nmd
 /** Check links & block refs of issues: noUuid, ... */
 function checkLogseqLinks(ln){
     // check links' target against mapUuid
-    let l = ln; // for context of current link/ref
+    let l = ln; // checked link/refs will be removed from l
     m = l.matchAll(patBLinkAll);
     for(let mi of m){
         if(!(mi[2] in mapUuid)){
@@ -515,8 +515,9 @@ function checkLogseqLinks(ln){
             console.warn('Block UUID not found: ',mi[2], 'for', context);
             noUuid[mi[2]] = (noUuid[mi[2]] ?? '') + context+'; ';
         }
-        l = l.replace(mi[0],'');
+        l = l.replace(mi[0],''); // remove it
     }
+
     // check block refs against mapUuid
     m = l.matchAll(patBRefAll);
     for(let mi of m){
@@ -525,7 +526,18 @@ function checkLogseqLinks(ln){
             console.warn('Block UUID not found: ',mi[1], 'in line:', context);
             noUuid[mi[1]] = (noUuid[mi[1]] ?? '') + context+'; ';
         }
-        l = l.replace(mi[0],'');
+        l = l.replace(mi[0],''); // remove it
+    }
+
+    // check external links for local targets (non-HTTP)
+    m = l.matchAll(patLinkAll);
+    for(let mi of m){
+        if(!(mi[2].)){
+            let context = l.slice(0,mi.index)+mi[0];
+            console.warn('Block UUID not found: ',mi[1], 'in line:', context);
+            noUuid[mi[1]] = (noUuid[mi[1]] ?? '') + context+'; ';
+        }
+        l = l.replace(mi[0],''); // remove it
     }
 }
 
@@ -539,7 +551,7 @@ function checkLogseqLinks(ln){
 function processLogseqLinks(ln, fillEmptyLinks, flattenLinks=false){
     const ebref = [], bref = [], href = [];
 
-    // flatten and check for target {asset, publish}
+    // flatten external links
     let nln = ''; // ln -> nln
     let li = 0; // last index
     m = ln.matchAll(patLinkAll);
