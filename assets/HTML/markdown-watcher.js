@@ -7,7 +7,7 @@
 const mdi = window.markdownit({
     html: true, // allow HTML tags in markdown code
     linkify: true, // parse link-like texts
-    typographer: true, // replace (c) by © etc.
+    typographer: false, // replace (c) by © etc.
     highlight: function(str, lang) {
         if (!lang || !hljs.getLanguage(lang)) {
             return ''; // use external default escaping
