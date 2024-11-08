@@ -4313,10 +4313,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
 							- process code block for strict conventions like in GitLab
 							- replace straight quotes `"..."` with curly quotes `“...”` (and `'...'` with `‘...’`)
+							  id:: 6716110a-2f39-40a0-a601-adfe023e3392
 							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-11-08 Fri 18:52:30]
+							  :END:
 								- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6716110a-1a05-4c87-93b3-fa9f0db22ba9))
 								- This has been done by Markdown-It's `typographer: true` in [smartquotes.mjs](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/smartquotes.mjs).
-								- We implement our own function `processQuotes(ln)` to handle our markdown source in Logseq.
+								- We implement our own function `replaceQuotes(ln)` to handle our markdown source in Logseq.
 								- Multi-line quotes are not supported.
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 						- ((6720c0a4-0294-4065-8016-9853e2a04475)) using [DocRaptor](https://docraptor.com/)
