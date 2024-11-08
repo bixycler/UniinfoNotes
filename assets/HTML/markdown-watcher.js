@@ -683,8 +683,9 @@ function replaceQuotes(ln){
 
 function restructureToFolderDiv(){
     for(mdhtml){
-        // convert <ul> to <folder-div>
-        // convert <li> to <>
+        // convert <hN> (N > 1) & <li> to <folder-div>
+        // convert title (first line) to <div slot="unfoldable">
+        // convert remaining lines, including sub-headers & <ul>, to <div slot="foldable">
     }
 }
 
