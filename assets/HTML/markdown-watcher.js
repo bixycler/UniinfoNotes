@@ -445,6 +445,7 @@ function normalizeMardown(md){ // md -> nmd
     for(let i in lns){ let ln = lns[i];
         checkLogseqLinks(ln);
         ln = processLogseqLinks(ln, /*fillEmptyLinks*/true).text;
+        ln = processQuotes(ln);
         nmd += ln+'\n';
     }
 
@@ -591,6 +592,25 @@ function processMapUuid(){
             circularRefs = g;
             break;
         }
+    }
+}
+
+/**
+ Replace:
+ 1. foo "bar" baz
+ 2. foo "-bar-" baz
+ Don't replace:
+ 1. foo " bar " baz
+ 2. foo-"-bar-"-baz
+ 3. foo"bar"baz
+ 4. `foo "bar" baz`
+ 5. ```foo "bar" baz```
+*/
+    const patQuote = /(.)*('|")(.)*/;
+function processQuotes(ln){
+    m = ln.matchAll(patQuote);
+    for(let mi of m){
+
     }
 }
 
