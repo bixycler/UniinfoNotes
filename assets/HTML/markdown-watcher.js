@@ -332,6 +332,8 @@ function loadPage() {
     const patCBM = new RegExp('^(\t*)'+CBMarker, 'u'); // code block line's marker
     const patCI = /`([^`]+)`/; // inline codes
     const patCIAll = new RegExp(patCI, 'g');
+    const patHtml = /<[^>]+>/; // HTML tag
+    const patHtmlAll = new RegExp(patHtml, 'g');
     const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
     const patUuidAll = new RegExp(patUuid, 'g');
     const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
@@ -605,15 +607,16 @@ function processMapUuid(){
 
 /**
  Replace:
- 1. foo "bar" baz
- 2. foo "-bar-" baz
- 3. foo-"-bar-"-baz
+ 1. foo "some words" bar
+ 2. foo "-some-words-" bar
+ 3. foo-"-some-words-"-bar
 
  Don't replace:
- 1. foo " bar " baz
- 2. foo"bar"baz
- 3. `foo "bar" baz`
- 4. ```foo "bar" baz```
+ 1. foo " spaced " bar
+ 2. foo"inword"baz
+ 3. `foo "inline codes" bar`
+ 4. ```foo "code blocks" bar```
+ 5. <tag id="HTML">
 */
     const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
 function processQuotes(ln){
