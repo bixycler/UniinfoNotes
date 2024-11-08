@@ -4308,13 +4308,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- This has [only close braket ]](((6724b036-6dfb-4f58-8e13-b79a8a1806c7)))
 											- This has [only open parenthesis](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric) ...
 											- This has [only close parenthesis](https://en.wikipedia.org/wiki/Parenthesis_rhetoric)) ...
+							- TODO [for `logseq.order-list-type:: number`](((665eef80-baed-4eff-b89d-d1d62d4f0b0e))), replace items bullets with numbers
+							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
+							- process code block for strict conventions like in GitLab
 							- warn for external links to relative paths: non-HTTP
 							  :LOGBOOK:
 							  CLOCK: [2024-11-08 Fri 18:55:58]--[2024-11-08 Fri 19:23:58] =>  00:28:00
 							  :END:
-							- replace items bullets with numbers
-							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
-							- process code block for strict conventions like in GitLab
 							- replace straight quotes `"..."` with curly quotes `“...”` (and `'...'` with `‘...’`)
 							  id:: 6716110a-2f39-40a0-a601-adfe023e3392
 							  collapsed:: true
@@ -4326,7 +4326,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- We implement our own function `replaceQuotes(ln)` to handle our markdown source in Logseq.
 								- Multi-line quotes are not supported.
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
-							- DOING restructure item lists using custom element `<folder-div>`
+							- DOING make item lists foldable with custom element `<folder-div>`
 							  id:: 672e0320-dc07-4c6e-8832-341aaa90cd2a
 							  :LOGBOOK:
 							  CLOCK: [2024-11-08 Fri 19:25:27]
