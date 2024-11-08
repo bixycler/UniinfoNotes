@@ -663,7 +663,7 @@ function replaceQuotes(ln){
     for(let i in ln){ i = Number(i);
         if(!(ln[i] in {"'":0, '"':1})){ continue; }
         q = ln[i];
-        console.debug('replaceQuotes:',q,i, stack, [li,ln.slice(li,i)]);
+        //console.debug('replaceQuotes:',q,i, stack, [li,ln.slice(li,i)]);
         let leftSpace  = i > 0 ? ln[i-1].match(/\s/) : true;
         let rightSpace = i < L ? ln[i+1].match(/\s/) : true;
         let leftWord   = i > 0 ? ln[i-1].match(/\w/) : false;
