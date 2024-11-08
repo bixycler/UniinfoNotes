@@ -4243,7 +4243,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Then, load the published note to converter script
 						- publish Markdown
 							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
-							- unitemize headers & remove first tabs
+							- unitemize headings & remove first tabs
 							- process block link/ref -> `#`anchor link
 								- Detect unresolved links
 								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`

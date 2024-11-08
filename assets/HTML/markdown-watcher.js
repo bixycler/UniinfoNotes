@@ -43,7 +43,7 @@ const DocRaptorParams = {
 };
 const Request = {
     method: 'POST',
-    headers: {
+    headings: {
         //'Content-Type': 'application/json',
         'Content-Type': 'application/x-www-form-urlencoded',
         'Accept': '*/*',
@@ -326,7 +326,7 @@ function loadPage() {
     const patLBE = /^\s*:END:$/;
     const patProp = /^\s*(\w+):: (.*)$/;
     const metatag = '<a class="logseq-meta" ';
-    const patIH = /^(\t*)(- )?#/; // itemized header
+    const patIH = /^(\t*)(- )?#/; // itemized heading
     const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
     const patCBH = /^(\t*)  /; // code block line's head
     const patCBM = new RegExp('^(\t*)'+CBMarker, 'u'); // code block line's marker
@@ -346,7 +346,7 @@ function loadPage() {
     const patBLinkAll = new RegExp(patBLink, 'g');
     const patLink  = new RegExp(patLinkText.source+ '\\('+patHRef.source + patLinkTip.source+'\\)');
     const patLinkAll = new RegExp(patLink, 'g');
-function normalizeMardown(md){ // md -> nmd
+function normalizeMardown(md, flattenHeadings=true){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
     let m = null; // pattern matches
@@ -394,24 +394,25 @@ function normalizeMardown(md){ // md -> nmd
     }
     processMapUuid();
 
-    // unitemize headers & remove first tabs & process code block
+    // unitemize headings & remove first tabs & process code block
     let codeblock = '', cbIndent = '', cbErrors = {};
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
-        m = ln.match(patIH);
-        if(m){ // unitemize header
-            indent = m[1];
-            nmd += '\n'+ln.replace(patIH, '#')+'\n\n';
-            continue;
-        }
-        // unindent header's indent
-        if(indent && ln.slice(0,indent.length) == indent){
-            ln = ln.slice(indent.length);
-        }
-        // unindent sub-items' indent
-        if(ln.match(/^\t/)){
-            ln = ln.slice(1);
-        }
+        if(flattenHeadings)
+            m = ln.match(patIH);
+            if(m){ // unitemize heading
+                indent = m[1];
+                nmd += '\n'+ln.replace(patIH, '#')+'\n\n';
+                continue;
+            }
+            // unindent heading's indent
+            if(indent && ln.slice(0,indent.length) == indent){
+                ln = ln.slice(indent.length);
+            }
+            // unindent sub-items' indent
+            if(ln.match(/^\t/)){
+                ln = ln.slice(1);
+            }
 
         // process code block
         //  Use the special char CBMarker to mark all lines of code block => cbIndent+CBMarker
@@ -682,10 +683,10 @@ function replaceQuotes(ln){
 }
 
 function restructureToFolderDiv(){
-    for(mdhtml){
+    for(let n of mdhtml.childNodes()){
         // convert <hN> (N > 1) & <li> to <folder-div>
-        // convert title (first line) to <div slot="unfoldable">
-        // convert remaining lines, including sub-headers & <ul>, to <div slot="foldable">
+        // convert title (until a.logseq-meta) to <div slot="unfoldable">
+        // convert remaining parts, including sub-headings & <ul>, to <div slot="foldable">
     }
 }
 
