@@ -318,7 +318,7 @@ function loadPage() {
 /////// Format converting
 
 /** Convert from Logseq markdown to normal Markdown */
-    var mapUuid = {}, noUuid = {};
+    var mapUuid = {}, noUuid = {}, circularRefs = {};
     const patItem = /^\t*- /;
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
@@ -455,6 +455,9 @@ function normalizeMardown(md){ // md -> nmd
     if(Object.keys(cbErrors).length){
         msg['Code block errors'] = cbErrors;
     }
+    if(Object.keys(circularRefs).length){
+        msg['Circular references'] = circularRefs;
+    }
     if(Object.keys(msg).length){
         showError('<pre>'+JSON.stringify(msg, null, '  ')+'</pre>', 'Markdown converting issues')
     }else{
@@ -559,6 +562,7 @@ function processMapUuid(){
 
     // ebref graph of empty block refs (processed/resolved ones are removed from g)
     const g = structuredClone(mapUuid);
+    circularRefs = {};
     for(let id in g){
         let ln = mapUuid[id];
         let res = processLogseqLinks(ln, /*fillEmptyLinks*/false, /*flattenLinks*/true);
@@ -567,19 +571,25 @@ function processMapUuid(){
     }
     console.debug('ebref graph:',g);
     // topo-orderly resolve ebref graph
-    while(Object.keys(g).length){ //TODO: detect circular refs
+    while(Object.keys(g).length){
+        let resolved = false;
         for(let id in g){
             let resolvable = true; // all targets have been resolved
             for(let t of g[id]){
                 if(t in g){ resolvable = false; break; }
             }
-            if(!resolvable){ continue; }
+            if(!resolvable){ continue; }else{ resolved = true; }
             let ln = mapUuid[id];
             let res = processLogseqLinks(ln, /*fillEmptyLinks*/true, /*flattenLinks*/true);
             mapUuid[id] = res.text;
-            console.debug('resolved',id,g[id],'ln:',mapUuid[id]);
+            //console.debug('resolved',id,g[id],'ln:',mapUuid[id]);
             console.assert(res.ebref.length===0);
             if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
+        }
+        if(!resolved){ // no one can be resolved <=> circular refs!!!
+            console.warn('Circular refs', g);
+            circularRefs = g;
+            break;
         }
     }
 }

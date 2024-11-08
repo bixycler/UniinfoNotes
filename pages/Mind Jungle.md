@@ -4235,8 +4235,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- process block link/ref -> `#`anchor link
 								- Detect unresolved links
 								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`
-									- All links & block refs in the `target block title` is replaced by plain text due to the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
-									- TODO Use `mapUuid[id] = blockTitle` to track block titles; topo-sort it in block ref dependency order; add `target block title` to block ref/links in that order
+									- All links & block refs in the `target block title` is replaced by **plain text** due to the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
+									- Use `mapUuid[id] = blockTitle` to track block titles; add `target block title` to empty block ref/links in the topo-order of block ref dependency
+									  :LOGBOOK:
+									  CLOCK: [2024-11-07 Thu 20:44:23]--[2024-11-08 Fri 13:36:55] =>  16:52:32
+									  :END:
 								- Note: Link text can contain **matched** square brackets `[]`, and external link target can contain **matched** parentheses `()`... up to **3 levels**.
 								  collapsed:: true
 								  :LOGBOOK:
