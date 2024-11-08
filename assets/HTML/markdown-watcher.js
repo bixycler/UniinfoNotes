@@ -633,10 +633,18 @@ function replaceQuotes(ln){ // A.K.A. “smart quotes!”
     let nln = '', li = 0, stack = [], q;
     m = ln.matchAll(patQuoteAll);
     for(let mi of m){
-        let leftSpace = mi[1].match(/^|\s/), rightSpace = mi[3].match(/\s|$/);
-        let leftWord = mi[1].match(/\w/), rightWord = mi[3].match(/\w/);
-        q = (leftSpace && rightSpace || leftWord && rightWord) && mi[2]==stack[-1] ? mi[2] : ;
-        q = mi[1] +curlyQuote[q]+ mi[3];
+        let leftSpace  = mi[1] ? mi[1].match(/\s|^/) : true;
+        let rightSpace = mi[3] ? mi[3].match(/\s|$/) : true;
+        let leftWord   = mi[1] ? mi[1].match(/\w/) : false;
+        let rightWord  = mi[3] ? mi[3].match(/\w/) : false;
+        if(leftSpace && rightSpace || leftWord && rightWord){ // don't replace
+            q = mi[2];
+        }else if(stack.length==0 || stack[0]!=mi[2]){ // open quote
+            q = curlyQuote[mi[2]+'<']; stack.unshift(mi[2]);
+        }else{ // close quote
+            q = curlyQuote['>'+mi[2]]; stack.shift();
+        }
+        q = mi[1] +q+ mi[3];
         nln += ln.slice(li,mi.index) + q;
         li = mi.index + mi[0].length;
     }
