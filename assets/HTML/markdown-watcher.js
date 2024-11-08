@@ -615,7 +615,7 @@ function processMapUuid(){
  3. `foo "bar" baz`
  4. ```foo "bar" baz```
 */
-    const patQuote = /(.)*('|")(.)*/;
+    const patQuote = /(^|.)('|")(.|$)/;
     const patQuoteAll = new RegExp(patQuote.source, 'g');
     const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
 function processQuotes(ln){
@@ -623,7 +623,7 @@ function processQuotes(ln){
     let nln = '', li = 0;
     m = ln.matchAll(patCIAll);
     for(let mi of m){
-        nln += replaceQuotes(ln.slice(li,mi.index)) + m[0];
+        nln += replaceQuotes(ln.slice(li,mi.index)) + mi[0];
         li = mi.index + mi[0].length;
     }
     nln += replaceQuotes(ln.slice(li));
@@ -632,7 +632,7 @@ function processQuotes(ln){
 function replaceQuotes(ln){ // A.K.A. “smart quotes!”
     let nln = '', li = 0, stack = [], q;
     m = ln.matchAll(patQuoteAll);
-    for(let mi of m){
+    /*for(let mi of m){
         let leftSpace  = mi[1] ? mi[1].match(/\s|^/) : true;
         let rightSpace = mi[3] ? mi[3].match(/\s|$/) : true;
         let leftWord   = mi[1] ? mi[1].match(/\w/) : false;
@@ -647,7 +647,8 @@ function replaceQuotes(ln){ // A.K.A. “smart quotes!”
         q = mi[1] +q+ mi[3];
         nln += ln.slice(li,mi.index) + q;
         li = mi.index + mi[0].length;
-    }
+    }*/
+    console.debug('replaceQuotes:',ln,Array.from(m));
     nln += ln.slice(li);
     return nln;
 }
