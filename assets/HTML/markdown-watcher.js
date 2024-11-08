@@ -319,7 +319,8 @@ function loadPage() {
 
 /** Convert from Logseq markdown to normal Markdown */
     var mapUuid = {}, noUuid = {}, circularRefs = {};
-    const NBSP = '\u00A0', NNBSP = '\u202F', ZWSP = '\u200B', ZWNBSP = '\u';
+    const NBSP = '\u00A0', NNBSP = '\u202F', ZWSP = '\u200B', ZWNBSP = '\uFEFF';
+    const CBMarker = ZWNBSP;
     const patItem = /^\t*- /;
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
@@ -328,7 +329,7 @@ function loadPage() {
     const patIH = /^(\t*)(- )?#/; // itemized header
     const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
     const patCBH = /^(\t*)  /; // code block line's head
-    const patCBM = /^(\t*)\u202F/u; // code block line's marker
+    const patCBM = new RegExp('^(\t*)'+CBMarker, 'u'); // code block line's marker
     const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
     const patUuidAll = new RegExp(patUuid, 'g');
     const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
@@ -408,24 +409,24 @@ function normalizeMardown(md){ // md -> nmd
         }
 
         // process code block
-        //  Use NNBSP to mark all lines of code block => cbIndent+NNBSP is the marker
-        //  This NNBSP will be removed at the end.
+        //  Use the special char CBMarker to mark all lines of code block => cbIndent+CBMarker
+        //  This CBMarker will be removed at the end.
         m = ln.match(patCBF);
         if(m){ // code block fences
             if(codeblock && (m[3] || m[2]=='-')){ // exception
                 console.warn('Code block ',codeblock,' not closed before ',`@${i}[${m[0]}]`);
                 arrayPush(cbErrors,codeblock, `Not closed before @${i}[${m[0]}]`);
                 // try to close it!
-                nmd += cbIndent+NNBSP+'```\n'+cbIndent+'\n';
+                nmd += cbIndent+CBMarker+'```\n'+cbIndent+'\n';
                 codeblock = '';
             }
             if(codeblock){ // close code block
-                ln = cbIndent+NNBSP+'```'+cbIndent+'\n';
+                ln = cbIndent+CBMarker+'```'+cbIndent+'\n';
                 codeblock = '';
             }else{ // start code block
                 codeblock = `@${i}[${m[0]}]`;
                 cbIndent = m[1] + (m[2]=='-'? '' : '\t');
-                ln = cbIndent+'\n'+cbIndent+NNBSP+'```'+m[3];
+                ln = cbIndent+'\n'+cbIndent+CBMarker+'```'+m[3];
             }
             nmd += ln+'\n';
             continue;
@@ -436,7 +437,7 @@ function normalizeMardown(md){ // md -> nmd
                 console.warn('Code block ',codeblock,' line format invalid: ',ln);
                 arrayPush(cbErrors,codeblock, `Line format invalid: ${ln}`);
             }else{
-                ln = cbIndent+NNBSP + ln.replace(m[0],'');
+                ln = cbIndent+CBMarker + ln.replace(m[0],'');
             }
         }
 
