@@ -330,7 +330,7 @@ function loadPage() {
     const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
     const patCBH = /^(\t*)  /; // code block line's head
     const patCBM = new RegExp('^(\t*)'+CBMarker, 'u'); // code block line's marker
-    const patCI = /`[^`]+`/; // inline codes
+    const patCI = /`([^`]+)`/; // inline codes
     const patCIAll = new RegExp(patCI, 'g');
     const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
     const patUuidAll = new RegExp(patUuid, 'g');
@@ -629,9 +629,10 @@ function processQuotes(ln){
 }
 function replaceQuotes(ln){ // A.K.A. “smart quotes!”
     let nln = '', li = 0, stack = [], L = ln.length-1, q;
-    for(let i in ln){
+    for(let i in ln){ i = Number(i);
         if(!(ln[i] in {"'":0, '"':1})){ continue; }
         q = ln[i];
+        console.debug('replaceQuotes:',q,i, stack, [li,ln.slice(li,i)]);
         let leftSpace  = i > 0 ? ln[i-1].match(/\s/) : true;
         let rightSpace = i < L ? ln[i+1].match(/\s/) : true;
         let leftWord   = i > 0 ? ln[i-1].match(/\w/) : false;
@@ -644,7 +645,6 @@ function replaceQuotes(ln){ // A.K.A. “smart quotes!”
         }
         nln += ln.slice(li,i) + q;
         li = i+1;
-        console.debug('replaceQuotes:',q,i, stack, [ln.slice(li,i),ln.slice(li)]);
     }
     nln += ln.slice(li);
     return nln;
