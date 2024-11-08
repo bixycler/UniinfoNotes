@@ -319,6 +319,7 @@ function loadPage() {
 
 /** Convert from Logseq markdown to normal Markdown */
     var mapUuid = {}, noUuid = {}, circularRefs = {};
+    const NBSP = '\u00A0', NNBSP = '\u';
     const patItem = /^\t*- /;
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
