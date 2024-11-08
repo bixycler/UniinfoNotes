@@ -4716,7 +4716,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```vim
 						  %s/^\t\(.*\)/\1/
 						  ```
-						- unitemize headers
+						- unitemize headings
 						  ```vim
 						  %s/^- #\(.*\)/\r#\1\r/
 						  ```

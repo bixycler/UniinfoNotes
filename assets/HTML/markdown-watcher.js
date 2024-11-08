@@ -176,7 +176,7 @@ async function load(forced) {
 
     // convert markdown -> HTML/PDF -> SVG/PNG
     let md = await blob.text();
-    if(doNormalizeMarkdown.checked){ md = normalizeMardown(md); }
+    if(doNormalizeMarkdown.checked){ md = normalizeMardown(md, /*flattenHeadings*/false); }
     mdtxt.value = md;
     omdhtml = mdhtml.innerHTML;
     mdhtml.innerHTML = mdi.render(md);
@@ -398,7 +398,7 @@ function normalizeMardown(md, flattenHeadings=true){ // md -> nmd
     let codeblock = '', cbIndent = '', cbErrors = {};
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
-        if(flattenHeadings)
+        if(flattenHeadings){
             m = ln.match(patIH);
             if(m){ // unitemize heading
                 indent = m[1];
@@ -413,6 +413,7 @@ function normalizeMardown(md, flattenHeadings=true){ // md -> nmd
             if(ln.match(/^\t/)){
                 ln = ln.slice(1);
             }
+        }
 
         // process code block
         //  Use the special char CBMarker to mark all lines of code block => cbIndent+CBMarker
@@ -536,7 +537,7 @@ function checkLinks(ln){
     // check external links for local targets (non-HTTP)
     m = l.matchAll(patLinkAll);
     for(let mi of m){
-        if(!(mi[2].match(/https?:\/\//))){
+        if(!(mi[2].match(/https?:/))){
             console.warn('Local link to:',mi[2], 'in:', mi[0]);
             localLinks[mi[2]] = (localLinks[mi[2]] ?? '') + mi[0]+'; ';
         }
