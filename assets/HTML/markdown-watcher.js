@@ -330,6 +330,8 @@ function loadPage() {
     const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
     const patCBH = /^(\t*)  /; // code block line's head
     const patCBM = new RegExp('^(\t*)'+CBMarker, 'u'); // code block line's marker
+    const patCI = /`[^`]+`/; // inline codes
+    const patCIAll = new RegExp(patCI, 'g');
     const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
     const patUuidAll = new RegExp(patUuid, 'g');
     const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
@@ -614,14 +616,29 @@ function processMapUuid(){
 */
     const patQuote = /(.)*('|")(.)*/;
     const patQuoteAll = new RegExp(patQuote.source, 'g');
+    const curlyQuote = {'"<':'“', '>"':'”',   "'<":'‘’', '>"':'”', };
 function processQuotes(ln){
-    let nln = ln;
-    m = ln.matchAll(patQuoteAll);
+    if(ln.match(patCBM)){ return ln; } // skip code blocks
+    let nln = '', li = 0;
+    m = ln.matchAll(patCIAll);
     for(let mi of m){
-
+        nln += replaceQuotes(ln.slice(li,mi.index)) + m[0];
+        li = mi.index + mi[0].length;
     }
+    nln += replaceQuotes(ln.slice(li));
     return nln;
 }
+function replaceQuotes(ln){
+    let nln = '', li = 0, l;
+    m = ln.matchAll(patQuoteAll);
+    for(let mi of m){
+        nln += replaceQuotes(ln.slice(li,mi.index)) + m[0];
+        li = mi.index + mi[0].length;
+    }
+    nln += replaceQuotes(ln.slice(li));
+    return nln;
+}
+
 
 //////////////////////////////////////////
 /////// Utilities

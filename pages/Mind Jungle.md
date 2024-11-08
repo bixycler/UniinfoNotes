@@ -4312,7 +4312,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- replace items bullets with numbers
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
 							- process code block for strict conventions like in GitLab
-							- replace straight quotes `"..."` with curly quotes `“...”`
+							- replace straight quotes `"..."` with curly quotes `“...”` (and `'...'` with `‘...’`)
 							  collapsed:: true
 								- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6716110a-1a05-4c87-93b3-fa9f0db22ba9))
 								- This has been done by Markdown-It's `typographer: true` in [smartquotes.mjs](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/smartquotes.mjs).
