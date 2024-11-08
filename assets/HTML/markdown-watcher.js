@@ -681,6 +681,13 @@ function replaceQuotes(ln){
     return nln;
 }
 
+function restructureToFolderDiv(){
+    for(mdhtml){
+        // convert <ul> to <folder-div>
+        // convert <li> to <>
+    }
+}
+
 
 //////////////////////////////////////////
 /////// Utilities
