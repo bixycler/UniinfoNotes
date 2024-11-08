@@ -452,6 +452,16 @@ function normalizeMardown(md){ // md -> nmd
     // process details: block ref/links, quotes
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i];
+        m = ln.match(patCBM);
+        if(m){ return ln; } // skip code blocks
+        let nln = '', li = 0;
+        m = ln.matchAll(patCIAll);
+        for(let mi of m){
+            nln += replaceQuotes(ln.slice(li,mi.index)) + mi[0];
+            li = mi.index + mi[0].length;
+        }
+        nln += replaceQuotes(ln.slice(li));
+
         checkLogseqLinks(ln);
         ln = processLogseqLinks(ln, /*fillEmptyLinks*/true).text;
         ln = processQuotes(ln);
