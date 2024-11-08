@@ -319,7 +319,7 @@ function loadPage() {
 
 /** Convert from Logseq markdown to normal Markdown */
     var mapUuid = {}, noUuid = {}, circularRefs = {};
-    const NBSP = '\u00A0', NNBSP = '\u';
+    const NBSP = '\u00A0', NNBSP = '\u00A0';//'\u202F';
     const patItem = /^\t*- /;
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
@@ -407,22 +407,23 @@ function normalizeMardown(md){ // md -> nmd
         }
 
         // process code block
+        //   Use NNBSP to mark all lines of code block => cbIndent+NNBSP is the marker
         m = ln.match(patCBF);
         if(m){ // code block fences
             if(codeblock && (m[3] || m[2]=='-')){ // exception
                 console.warn('Code block ',codeblock,' not closed before ',`@${i}[${m[0]}]`);
                 arrayPush(cbErrors,codeblock, `Not closed before @${i}[${m[0]}]`);
                 // try to close it!
-                nmd += cbIndent+'```\n'+cbIndent+'\n';
+                nmd += cbIndent+NNBSP+'```\n'+cbIndent+'\n';
                 codeblock = '';
             }
             if(codeblock){ // close code block
-                ln = cbIndent+'```'+cbIndent+'\n';
+                ln = cbIndent+NNBSP+'```'+cbIndent+'\n';
                 codeblock = '';
             }else{ // start code block
                 codeblock = `@${i}[${m[0]}]`;
                 cbIndent = m[1] + (m[2]=='-'? '' : '\t');
-                ln = cbIndent+'\n'+cbIndent+'```'+m[3];
+                ln = cbIndent+'\n'+cbIndent+NNBSP+'```'+m[3];
             }
             nmd += ln+'\n';
             continue;
@@ -433,7 +434,7 @@ function normalizeMardown(md){ // md -> nmd
                 console.warn('Code block ',codeblock,' line format invalid: ',ln);
                 arrayPush(cbErrors,codeblock, `Line format invalid: ${ln}`);
             }else{
-                ln = cbIndent + ln.replace(m[0],'');
+                ln = cbIndent+NNBSP + ln.replace(m[0],'');
             }
         }
 
@@ -608,11 +609,14 @@ function processMapUuid(){
  5. ```foo "bar" baz```
 */
     const patQuote = /(.)*('|")(.)*/;
+    const patQuoteAll = new RegExp(patQuote.source, 'g');
 function processQuotes(ln){
-    m = ln.matchAll(patQuote);
+    let nln = ln;
+    m = ln.matchAll(patQuoteAll);
     for(let mi of m){
 
     }
+    return nln;
 }
 
 //////////////////////////////////////////
