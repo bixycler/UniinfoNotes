@@ -628,24 +628,24 @@ function processQuotes(ln){
     return nln;
 }
 function replaceQuotes(ln){ // A.K.A. “smart quotes!”
-    let nln = '', li = 0, stack = [], q;
+    let nln = '', li = 0, stack = [], L = ln.length-1, q;
     for(let i in ln){
-        let leftSpace  = mi[1] ? mi[1].match(/\s|^/) : true;
-        let rightSpace = mi[3] ? mi[3].match(/\s|$/) : true;
-        let leftWord   = mi[1] ? mi[1].match(/\w/) : false;
-        let rightWord  = mi[3] ? mi[3].match(/\w/) : false;
+        if(!(ln[i] in {"'":0, '"':1})){ continue; }
+        q = ln[i];
+        let leftSpace  = i > 0 ? ln[i-1].match(/\s/) : true;
+        let rightSpace = i < L ? ln[i+1].match(/\s/) : true;
+        let leftWord   = i > 0 ? ln[i-1].match(/\w/) : false;
+        let rightWord  = i < L ? ln[i+1].match(/\w/) : false;
         if(leftSpace && rightSpace || leftWord && rightWord){ // don't replace
-            q = mi[2];
-        }else if(stack.length==0 || stack[0]!=mi[2]){ // open quote
-            q = curlyQuote[mi[2]+'<']; stack.unshift(mi[2]);
+        }else if(stack.length==0 || stack[0]!=ln[i]){ // open quote
+            stack.unshift(q); q = curlyQuote[q+'<'];
         }else{ // close quote
-            q = curlyQuote['>'+mi[2]]; stack.shift();
+            stack.shift();    q = curlyQuote['>'+q];
         }
-        q = mi[1] +q+ mi[3];
-        nln += ln.slice(li,mi.index) + q;
-        li = mi.index + mi[0].length;
+        nln += ln.slice(li,i) + q;
+        li = i+1;
+        console.debug('replaceQuotes:',q,i, stack, [ln.slice(li,i),ln.slice(li)]);
     }
-    console.debug('replaceQuotes:',ln,Array.from(m));
     nln += ln.slice(li);
     return nln;
 }
