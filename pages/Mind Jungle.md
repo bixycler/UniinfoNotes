@@ -1989,19 +1989,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- DOING sensation → awareness → consciousness
 			  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-11-11 Mon 12:18:42]
 			  :END:
 				- three levels of awareness
 				  sesation = physical awareness, awareness = mental awareness = universal awareness, consciousness = self-awareness
 				- Awareness in various systems
-					- Any open system, including physical system, is sensate to the environment because it .
+					- Any open system, including physical system, is sensate to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
+					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
 					- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
-						- An automaton with a predetermined routine is basically insensate and unaware of almost anything, when considering the whole automaton as a subject. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is aware of.
+						- An automaton with a predetermined routine is basically insensate and unaware of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is aware of.
 						  :LOGBOOK:
 						  CLOCK: [2024-11-11 Mon 13:17:13]
 						  :END:
-						-
+						- An automaton with controls is exclusively aware of its control signals only.
+						- Instead of considering the whole automaton as the subject, if we consider its components like the gears, they have physical awareness of other connected components so that they can response and work together. This is the [sensation of open physical systems](((6731a0ca-4f7a-45cd-b348-fb72aa338d2c))).
 					- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
 					- Large Language Models
 					- Unitnet
