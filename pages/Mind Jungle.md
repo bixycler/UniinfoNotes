@@ -1979,7 +1979,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- obbject's quantum [projected](((670ce218-a01f-4609-b7f2-beda7cf2ebc3))) from sensory information 
 			  id:: 67315ec8-cbe8-467c-81c4-d4d0e8750824
 			  is the current internal condition for awareness.
-				- For some object to be aware of, it must be pro
+				- For some object to be aware of, it must be projected through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) into a single quantum.
 			- qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
 			  is the current direct condition for awareness.
 				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject, i.e. the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
@@ -1987,6 +1987,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the "assignment" in programming language.
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- DOING sensation → awareness → consciousness
+			  :LOGBOOK:
+			  CLOCK: [2024-11-11 Mon 12:18:42]
+			  :END:
+				- Sesation = arrow, awareness = equal, consciousness = self-awareness
 			- Space = awareness
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
