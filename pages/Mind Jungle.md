@@ -2006,7 +2006,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2024-11-11 Mon 14:10:20]
 					  :END:
 					- Being aware of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
-					- Being conscious of some thing means not only recognizing the form itself but also its relations to other things and its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
+					- Being conscious of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
 				- Awareness in various systems
 					- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
 					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
@@ -2072,12 +2072,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## sense
 	  id:: 6731c3c6-aee6-468d-a86c-0d470c4a6706
 	  collapsed:: true
-	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0))
+	  :LOGBOOK:
+	  CLOCK: [2024-11-11 Mon 15:53:50]
+	  :END:
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0)), ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
 		- sensitive
 		  id:: 6731c3ce-d9ae-4413-bada-7527ad5125b0
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
-			- Note that we use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
-			-
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c3f4-cb64-454e-b104-002b6c9d57a3))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) to some signal means being open to receive that signal.
+				- Note that we use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
+			- sensitivity
+			  id:: 6731c3f4-cb64-454e-b104-002b6c9d57a3
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0))
+		- sensate
+		  id:: 6731c4c4-e803-4de7-9961-e879a8c9c8b9
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c4d6-25b6-4081-a080-4ffaa5218ec7))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A subject is ((6731c4c4-e803-4de7-9961-e879a8c9c8b9)) when that subject is open to receive signals.
+			- sensation
+			  id:: 6731c4d6-25b6-4081-a080-4ffaa5218ec7
 	- ## `in`-`ex` partition
 	  collapsed:: true
 		-
