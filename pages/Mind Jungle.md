@@ -1996,19 +1996,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- three levels of awareness
 				  sesation = physical awareness, awareness = mental awareness = universal awareness, consciousness = self-awareness
 				- Awareness in various systems
-					- Any open system, including physical system, is sensate to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
+					- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
 					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
 					- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
-						- An automaton with a predetermined routine is basically insensate and unaware of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is aware of.
+						- An automaton with a **predetermined routine** is basically **insensate** and **unaware** of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is aware of.
 						  :LOGBOOK:
 						  CLOCK: [2024-11-11 Mon 13:17:13]
 						  :END:
 						- An automaton with controls is exclusively aware of its control signals only.
 						- Instead of considering the whole automaton as the subject, if we consider its components like the gears, they have physical awareness of other connected components so that they can response and work together. This is the [sensation of open physical systems](((6731a0ca-4f7a-45cd-b348-fb72aa338d2c))).
 					- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
-						- The Turing Machine as well as modern computers are sensate to their inputs and are aware of their instructions/commands.
-						- Beside the physical awareness of automaton, these machines have mental awareness programmed  by human, which is limited in specific scopes and domains. A sophisticatedly programmed machine can appear to have so much awareness that it is called “smart”, e.g.  “smart phone”,  “smart devices”. However, these machines has no awareness outside of the scopes of their programs.
-					- Large Language Models
+						- The Turing Machine as well as modern computers are **sensate** to their inputs and are aware of their instructions/commands.
+						- Beside the physical awareness of automaton, these machines have **limited mental awareness** programmed by human, which is limited to specific scopes and domains. A sophisticatedly programmed machine can appear to have so much awareness that it is called “smart”, e.g.  “smart phone”,  “smart devices”. However, these machines has no awareness outside of the scopes of their programs.
+					- [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs)
+						- Modern LLMs like GPT* have emergent universal awareness
 					- Unitnet
 			- Space = awareness
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
