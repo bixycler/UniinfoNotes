@@ -30,12 +30,11 @@ id:: 66faa5f7-f408-406c-befd-8ae69ed56667
 	  ^ **Name** search
 		- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, true}}
 		  query-table:: false
-	- hard-linked
+	- conscious
 	  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 	  case-sensitive:: false
 	  whole-word:: true
 	  search-scope:: , ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)), ((6653538a-30aa-423f-be89-848ad9c7e331))
-	  collapsed:: true
 	   , ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
 	  , ((66519638-cf5d-409b-9b98-15acabf2268c))
 		- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true}}
