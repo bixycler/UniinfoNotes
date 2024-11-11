@@ -684,8 +684,9 @@ function replaceQuotes(ln){
 }
 
 function restructureToFolderDiv(){
-    for(let n of mdhtml.childNodes()){
-        // convert <hN> (N > 1) & <li> to <folder-div>
+    for(let n of mdhtml.childNodes){
+        // convert <li> (including <hN>) to <folder-div>
+
         // convert title (until a.logseq-meta) to <div slot="unfoldable">
         // convert remaining parts, including sub-headings & <ul>, to <div slot="foldable">
     }
