@@ -180,7 +180,7 @@ async function load(forced) {
     if(doNormalizeMarkdown.checked){
         md = normalizeMardown(md,
             /*flattenHeadings*/false,
-            /*emptyLineBeforeCodeBlock*/true
+            /*blankLineBeforeCodeBlock*/true
         );
     }
     mdtxt.value = md;
@@ -355,7 +355,7 @@ function loadPage() {
     const patLinkAll = new RegExp(patLink, 'g');
 function normalizeMardown(md,
     flattenHeadings = false,
-    emptyLineBeforeCodeBlock = false
+    blankLineBeforeCodeBlock = false
 ){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
@@ -429,7 +429,7 @@ function normalizeMardown(md,
         //  Use the special char CBMarker to mark all lines of code block => cbIndent+CBMarker
         //  This CBMarker will be removed at the end.
         m = ln.match(patCBF);
-        let beforeCB = emptyLineBeforeCodeBlock ? cbIndent+'\n' : '';
+        let beforeCB = blankLineBeforeCodeBlock ? cbIndent+'\n' : '';
         if(m){ // code block fences
             if(codeblock && (m[3] || m[2]=='-')){ // exception
                 console.warn('Code block ',codeblock,' not closed before ',`@${i}[${m[0]}]`);
