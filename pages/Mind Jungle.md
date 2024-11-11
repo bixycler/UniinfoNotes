@@ -4315,8 +4315,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Then, load the published note to converter script
 						- publish Markdown
 							- convert newline `\n` to `<br />` (skipped)
+							  collapsed:: true
 								- Note: newline is meaningful in Logseq but not in the standard Markdown (line break requires two space-indented empty line or backslash, for the historical plain text email).
-								- Skipped:  supported by `markdownit({breaks: true})`
+								- Skipped: This process is not trivial, so we use the supported `markdownit({breaks: true})`
+									- For standard markdown, line breaks should be inserted manually when needed.
 							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
 							- unitemize headings & remove first tabs
 							- process block link/ref -> `#`anchor link
