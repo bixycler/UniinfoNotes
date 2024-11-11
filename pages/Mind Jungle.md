@@ -1956,7 +1956,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2024-09-24 Tue 14:18:35]
 	  :END:
 	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f274e4-f9d0-4980-b72f-9593816ec02f))
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f274e4-f9d0-4980-b72f-9593816ec02f)), nhận biết
 		- awareness
 		  id:: 66f267f7-01f9-47b9-8376-abd27fdf2930
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
@@ -1994,7 +1994,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- three levels of awareness
 				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
-				-
+				- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
+				- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
+				- Large Language Models
+				- Unitnet
 			- Space = awareness
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
@@ -2003,7 +2006,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- concrete awareness
 		  id:: 672ac785-4f28-4dd0-a36c-07afef0ee83f
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb))
-			- perception
+			- ### perception
 			  id:: 672ac78d-01b2-48c9-b85b-1fbe946760eb
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f))
 			  = sensation + awareness
@@ -2013,12 +2016,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- self-aware
 		  id:: 672a0c51-a6cb-4570-b9ef-266d3e31763d
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((672a0c61-ae93-440a-84e6-13778c8e91ca))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f267df-e3b0-444b-a721-1225ca59d292))
 			- self-awareness
 			  id:: 672a0c61-ae93-440a-84e6-13778c8e91ca
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((672a0c51-a6cb-4570-b9ef-266d3e31763d))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
 			- ### conscious
 			  id:: 66f267df-e3b0-444b-a721-1225ca59d292
-			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-09-24 Tue 14:19:07]
 			  CLOCK: [2024-09-24 Tue 14:19:10]
@@ -2030,6 +2034,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66f2681b-796a-4e25-b778-ba4fb6419425
 				  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267df-e3b0-444b-a721-1225ca59d292))
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672a0c61-ae93-440a-84e6-13778c8e91ca))
 				- ý thức
 				  id:: 66f2750c-a5ee-4ea6-aba5-f6587397ab5e
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267df-e3b0-444b-a721-1225ca59d292))
