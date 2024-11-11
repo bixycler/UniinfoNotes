@@ -1978,9 +1978,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) of sensory information into a quantum
 			  is the current intermediate condition for awareness.
 				-
-			- qualiton connecting the object's quantum with the subject's quantum
+			- qualiton matching the object's quantum with the subject's quantum
 			  is the current internal condition for awareness.
-				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton
+				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past.
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Space = awareness
