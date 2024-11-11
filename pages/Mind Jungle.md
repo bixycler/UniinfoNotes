@@ -1964,7 +1964,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- thức
 		  id:: 66f274e4-f9d0-4980-b72f-9593816ec02f
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches object's content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of that qualiton activated from that quantum, and the subject is aware of the form in the content, denoted by the equation ⟪form = content⟫.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches object's content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of that qualiton activated from that quantum called “[qualia](https://en.wikipedia.org/wiki/Qualia)”, and the subject is aware of the form in the content, denoted by the equation ⟪form = content⟫.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
 			- While concrete awareness, or perception, is being aware of some form brought to the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) through sensation content, i.e. the equation ⟪form = content⟫, abstract awareness is the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ itself.
 			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
@@ -1982,7 +1982,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				-
 			- qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
 			  is the current direct condition for awareness.
-				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject.
+				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject, i.e. the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
+				- The matching, the “equal”, is
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Space = awareness
