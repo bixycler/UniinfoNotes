@@ -1399,7 +1399,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- sense
 		  id:: 66c86420-37bf-4267-bd6f-8d683aaa42d8
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) that is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a [worldview](https://en.wikipedia.org/wiki/Worldview), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)). All knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) that is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a ((6731b8c8-0ab1-4c16-8783-408258f67a4a)), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)). All knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
 		  id:: 6672364a-2cc2-4360-a174-1e4432c67a16
 		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
 		  collapsed:: true
@@ -1762,6 +1762,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Graphically, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Euler diagram](https://en.wikipedia.org/wiki/Euler_diagram), [nested set collection](https://en.wikipedia.org/wiki/Nested_set_collection), [treemapping](https://en.wikipedia.org/wiki/Treemapping).
 					  id:: 66753405-9afe-478e-abd2-f43100e21c33
 					- Textually, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Dyck word](https://en.wikipedia.org/wiki/Dyck_language) and ((6675369a-1d13-48c5-8a77-d588aa8b59b8)).
+		- worldview
+		  id:: 6731b8c8-0ab1-4c16-8783-408258f67a4a
+		  the ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)) about the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Worldview
 		- ### eye
 		  id:: 669a2487-054d-4408-ae41-189e34af81a9
 		  collapsed:: true
@@ -1995,7 +1999,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- three levels of awareness
 				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
-					- DOING The self-awareness, i.e. the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), not only sustains the sense of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), but also maintains the world view, i.e. the ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)) of the world.
+					- DOING The ((672a0c61-ae93-440a-84e6-13778c8e91ca)) , i.e. the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), not only sustains the sense of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), but also maintains the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
 					  :LOGBOOK:
 					  CLOCK: [2024-11-11 Mon 14:10:20]
 					  :END:
@@ -2058,7 +2062,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66f2750c-a5ee-4ea6-aba5-f6587397ab5e
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267df-e3b0-444b-a721-1225ca59d292))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Consciousness
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) defines the ojective ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the subjective self, i.e. sense of self, is created by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) defines the ojective ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the subjective self, i.e. sense of self, is created by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)). It also maintains the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) integrated from the subject's experiences. All actions of the subject are to keep this worldview integrative.
 			- Ref: [human self-awareness](https://en.wikipedia.org/wiki/Self-awareness)
 	- ## `in`-`ex` partition
 	  collapsed:: true
