@@ -1973,6 +1973,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- While concrete awareness, or perception, is being aware of some form brought to the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) through sensation content, i.e. the equation ⟪form = content⟫, abstract awareness is the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ itself.
 			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
 		- Conditions for awareness
+		  collapsed:: true
 			- subject's quantum recorded from previous form
 			  id:: 672ad2fd-ce09-4831-a9f6-67d95a2654a3
 			  is the precondition for awareness.
@@ -1991,6 +1992,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		  collapsed:: true
 			- sensation → awareness → consciousness
 			  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
 			  collapsed:: true
@@ -1999,10 +2001,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- three levels of awareness
 				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
-					- DOING The ((672a0c61-ae93-440a-84e6-13778c8e91ca)) , i.e. the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), not only sustains the sense of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), but also maintains the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
+					- DOING 
 					  :LOGBOOK:
 					  CLOCK: [2024-11-11 Mon 14:10:20]
 					  :END:
+					- The ((672a0c61-ae93-440a-84e6-13778c8e91ca)) , i.e. the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), not only sustains the sense of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), but also maintains the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
 				- Awareness in various systems
 					- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
 					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
@@ -2038,6 +2041,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
 		- self-aware
 		  id:: 672a0c51-a6cb-4570-b9ef-266d3e31763d
+		  collapsed:: true
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((672a0c61-ae93-440a-84e6-13778c8e91ca))
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f267df-e3b0-444b-a721-1225ca59d292))
 			- self-awareness

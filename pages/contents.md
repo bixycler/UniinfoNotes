@@ -26,6 +26,7 @@ id:: 66faa5f7-f408-406c-befd-8ae69ed56667
 		  query-table:: false
 	- wiki:
 	  id:: 66fce8d4-0434-4dd0-941f-4f3bd9b1b456
+	  collapsed:: true
 	  ^ **Name** search
 		- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, true}}
 		  query-table:: false
