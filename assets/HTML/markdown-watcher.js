@@ -174,7 +174,7 @@ async function load(forced) {
         return;
     }
 
-    // convert markdown -> HTML/PDF -> SVG/PNG
+    // convert markdown -> HTML -> FolderDiv HTML -> PDF -> SVG/PNG
     let md = await blob.text();
     if(doNormalizeMarkdown.checked){ md = normalizeMardown(md, /*flattenHeadings*/false); }
     mdtxt.value = md;
@@ -189,6 +189,7 @@ async function load(forced) {
         let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
         updateURL(exportUrlHtml, b);
     }
+    restructureToFolderDiv(mdhtml);
 
     mdhtml.style.display = 'none';
     mdpdf.style.display = 'none';
@@ -683,10 +684,11 @@ function replaceQuotes(ln){
     return nln;
 }
 
-function restructureToFolderDiv(){
-    for(let n of mdhtml.childNodes){
+/** Restructure item lists to <folder-div> */
+function restructureToFolderDiv(container){
+    for(let n of container.childNodes){
         // convert <li> (including <hN>) to <folder-div>
-
+        if
         // convert title (until a.logseq-meta) to <div slot="unfoldable">
         // convert remaining parts, including sub-headings & <ul>, to <div slot="foldable">
     }
