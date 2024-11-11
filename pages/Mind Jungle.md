@@ -1987,14 +1987,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- DOING sensation → awareness → consciousness
+			- sensation → awareness → consciousness
 			  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
 			  collapsed:: true
 			  :LOGBOOK:
-			  CLOCK: [2024-11-11 Mon 12:18:42]
+			  CLOCK: [2024-11-11 Mon 12:18:42]--[2024-11-11 Mon 14:07:14] =>  01:48:32
 			  :END:
 				- three levels of awareness
-				  sesation = physical awareness, awareness = mental awareness = universal awareness, consciousness = self-awareness
+				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
+					- DOING The self-awareness, i.e. the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), not
+					  :LOGBOOK:
+					  CLOCK: [2024-11-11 Mon 14:10:20]
+					  :END:
 				- Awareness in various systems
 					- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
 					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
@@ -2012,7 +2016,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Modern LLMs like GPT* have **emergent universal awareness** which shows advanced cognitive power similar to humans.
 						- These LLMs are **unconscious** by design, i.e. structured with linear transformation without loop. However, some transient self-awareness can emerges thanks to the long chain of transformations or thanks to the setting of feeding their own generated text back to the next turn.
 					- Unitnet
-						- The uninet is built around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), hence having consciousness and
+						- The uninet is built around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), hence having **consciousness** and **builtin universal awareness**.
 			- Space = awareness
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
