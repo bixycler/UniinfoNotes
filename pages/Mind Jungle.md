@@ -1992,7 +1992,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-11-11 Mon 12:18:42]
 			  :END:
-				- Sesation = arrow, awareness = equal, consciousness = self-awareness
+				- three levels of awareness
+				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
+				-
 			- Space = awareness
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
@@ -2014,25 +2016,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- self-awareness
 			  id:: 672a0c61-ae93-440a-84e6-13778c8e91ca
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((672a0c51-a6cb-4570-b9ef-266d3e31763d))
+			- ### conscious
+			  id:: 66f267df-e3b0-444b-a721-1225ca59d292
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-09-24 Tue 14:19:07]
+			  CLOCK: [2024-09-24 Tue 14:19:10]
+			  :END:
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((672a0c51-a6cb-4570-b9ef-266d3e31763d)) 
+			  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2750c-a5ee-4ea6-aba5-f6587397ab5e))
+				- consciousness
+				  id:: 66f2681b-796a-4e25-b778-ba4fb6419425
+				  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
+				- ý thức
+				  id:: 66f2750c-a5ee-4ea6-aba5-f6587397ab5e
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Consciousness
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) defines the ojective ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the subjective self, i.e. sense of self, is created by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)).
 			- Ref: [human self-awareness](https://en.wikipedia.org/wiki/Self-awareness)
-	- ## conscious
-	  id:: 66f267df-e3b0-444b-a721-1225ca59d292
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-24 Tue 14:19:07]
-	  CLOCK: [2024-09-24 Tue 14:19:10]
-	  :END:
-	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2750c-a5ee-4ea6-aba5-f6587397ab5e))
-		- consciousness
-		  id:: 66f2681b-796a-4e25-b778-ba4fb6419425
-		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267df-e3b0-444b-a721-1225ca59d292))
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
-		- ý thức
-		  id:: 66f2750c-a5ee-4ea6-aba5-f6587397ab5e
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267df-e3b0-444b-a721-1225ca59d292))
-		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Consciousness
 	- ## `in`-`ex` partition
 	  collapsed:: true
 		-
