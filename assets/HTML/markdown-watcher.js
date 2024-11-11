@@ -7,7 +7,7 @@
 const mdi = window.markdownit({
     html: true, // allow HTML tags in markdown code
     linkify: true, // parse link-like texts
-    breaks: true, // Convert '\n' in paragraphs into <br>
+    //breaks: true, // Convert '\n' in paragraphs into <br>
     typographer: false, // replace (c) by © etc.
     highlight: function(str, lang) {
         if (!lang || !hljs.getLanguage(lang)) {
@@ -383,7 +383,7 @@ function normalizeMardown(md, flattenHeadings=true){ // md -> nmd
             }
             for(let j in props){ meta += `data-${j}="${props[j]}" `; }
             if(logbook){ meta += `data-logbook="${logbook}" `; }
-            meta += '></a>';
+            meta += '></a>  '; // two trailing space for line break!
             nmd = nmd.slice(0, -1) + ' '+meta+'\n';
             logbook = ''; props = {};
         }
