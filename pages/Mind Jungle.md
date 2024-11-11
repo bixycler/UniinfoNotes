@@ -1988,6 +1988,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- DOING sensation → awareness → consciousness
+			  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
 			  :LOGBOOK:
 			  CLOCK: [2024-11-11 Mon 12:18:42]
 			  :END:
