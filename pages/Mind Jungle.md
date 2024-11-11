@@ -2001,12 +2001,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- three levels of awareness
 				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
-					- DOING Being sensitive to some signal means simply being open to receive that (raw) signal.
+					- Being sensitive to some signal means simply being open to receive that (raw) signal. 
 					  :LOGBOOK:
 					  CLOCK: [2024-11-11 Mon 14:10:20]
 					  :END:
-						- Note that we usually use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
-					- The ((672a0c61-ae93-440a-84e6-13778c8e91ca)) , i.e. the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), not only sustains the sense of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), but also maintains the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
+					- Being aware of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
+					- Being conscious of some thing means not only recognizing the form itself but also its relations to other things and its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
 				- Awareness in various systems
 					- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
 					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
@@ -2069,6 +2069,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Consciousness
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) defines the ojective ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the subjective self, i.e. sense of self, is created by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)). It also maintains the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) integrated from the subject's experiences. All actions of the subject are to keep this worldview integrative.
 			- Ref: [human self-awareness](https://en.wikipedia.org/wiki/Self-awareness)
+	- ## sense
+	  id:: 6731c3c6-aee6-468d-a86c-0d470c4a6706
+	  collapsed:: true
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0))
+		- sensitive
+		  id:: 6731c3ce-d9ae-4413-bada-7527ad5125b0
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
+			- Note that we use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
+			-
 	- ## `in`-`ex` partition
 	  collapsed:: true
 		-
