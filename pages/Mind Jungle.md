@@ -1993,11 +1993,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-11-11 Mon 12:18:42]
 			  :END:
 				- three levels of awareness
-				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
-				- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
-				- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
-				- Large Language Models
-				- Unitnet
+				  sesation = physical awareness, awareness = mental awareness = universal awareness, consciousness = self-awareness
+				- Awareness in various systems
+					-
+					- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
+						- The automata with predetermined routines are basically insensate and unaware of anything, at the level of behavior.
+					- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
+					- Large Language Models
+					- Unitnet
 			- Space = awareness
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
