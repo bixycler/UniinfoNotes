@@ -1995,7 +1995,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- three levels of awareness
 				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
-					- DOING The self-awareness, i.e. the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), not
+					- DOING The self-awareness, i.e. the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), not only sustains the sense of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), but also maintains the world view, i.e. the ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)) of the world.
 					  :LOGBOOK:
 					  CLOCK: [2024-11-11 Mon 14:10:20]
 					  :END:
