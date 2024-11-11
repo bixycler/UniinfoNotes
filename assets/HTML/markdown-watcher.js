@@ -177,7 +177,12 @@ async function load(forced) {
 
     // convert markdown -> HTML -> FolderDiv HTML -> PDF -> SVG/PNG
     let md = await blob.text();
-    if(doNormalizeMarkdown.checked){ md = normalizeMardown(md, /*flattenHeadings*/false); }
+    if(doNormalizeMarkdown.checked){
+        md = normalizeMardown(md,
+            /*flattenHeadings*/false,
+            /*emptyLineBeforeCodeBlock*/true
+        );
+    }
     mdtxt.value = md;
     omdhtml = mdhtml.innerHTML;
     mdhtml.innerHTML = mdi.render(md);
@@ -349,8 +354,8 @@ function loadPage() {
     const patLink  = new RegExp(patLinkText.source+ '\\('+patHRef.source + patLinkTip.source+'\\)');
     const patLinkAll = new RegExp(patLink, 'g');
 function normalizeMardown(md,
-    flattenHeadings = true,
-    emptyLineBeforeCodeBlock = true
+    flattenHeadings = false,
+    emptyLineBeforeCodeBlock = false
 ){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
@@ -424,12 +429,13 @@ function normalizeMardown(md,
         //  Use the special char CBMarker to mark all lines of code block => cbIndent+CBMarker
         //  This CBMarker will be removed at the end.
         m = ln.match(patCBF);
+        let beforeCB = emptyLineBeforeCodeBlock ? cbIndent+'\n' : '';
         if(m){ // code block fences
             if(codeblock && (m[3] || m[2]=='-')){ // exception
                 console.warn('Code block ',codeblock,' not closed before ',`@${i}[${m[0]}]`);
                 arrayPush(cbErrors,codeblock, `Not closed before @${i}[${m[0]}]`);
                 // try to close it!
-                nmd += cbIndent+CBMarker+'```\n'+cbIndent+'\n';
+                nmd += cbIndent+CBMarker+'```\n'+beforeCB;
                 codeblock = '';
             }
             if(codeblock){ // close code block
@@ -438,7 +444,7 @@ function normalizeMardown(md,
             }else{ // start code block
                 codeblock = `@${i}[${m[0]}]`;
                 cbIndent = m[1] + (m[2]=='-'? '' : '\t');
-                ln = cbIndent+'\n'+cbIndent+CBMarker+'```'+m[3];
+                ln = beforeCB +cbIndent+CBMarker+'```'+m[3];
             }
             nmd += ln+'\n';
             continue;
