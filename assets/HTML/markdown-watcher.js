@@ -348,7 +348,10 @@ function loadPage() {
     const patBLinkAll = new RegExp(patBLink, 'g');
     const patLink  = new RegExp(patLinkText.source+ '\\('+patHRef.source + patLinkTip.source+'\\)');
     const patLinkAll = new RegExp(patLink, 'g');
-function normalizeMardown(md, flattenHeadings=true){ // md -> nmd
+function normalizeMardown(md,
+    flattenHeadings = true,
+    emptyLineBeforeCodeBlock = true
+){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
     let m = null; // pattern matches
@@ -430,7 +433,7 @@ function normalizeMardown(md, flattenHeadings=true){ // md -> nmd
                 codeblock = '';
             }
             if(codeblock){ // close code block
-                ln = cbIndent+CBMarker+'```'+cbIndent+'\n';
+                ln = cbIndent+CBMarker+'```'+cbIndent;
                 codeblock = '';
             }else{ // start code block
                 codeblock = `@${i}[${m[0]}]`;
