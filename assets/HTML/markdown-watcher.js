@@ -7,7 +7,7 @@
 const mdi = window.markdownit({
     html: true, // allow HTML tags in markdown code
     linkify: true, // parse link-like texts
-    breaks: false, // Convert '\n' in paragraphs into <br>
+    breaks: true, // Convert '\n' in paragraphs into <br>
     typographer: false, // replace (c) by © etc.
     highlight: function(str, lang) {
         if (!lang || !hljs.getLanguage(lang)) {
