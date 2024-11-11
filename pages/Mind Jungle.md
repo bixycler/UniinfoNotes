@@ -1969,15 +1969,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- While concrete awareness, or perception, is being aware of some form brought to the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) through sensation content, i.e. the equation ⟪form = content⟫, abstract awareness is the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ itself.
 			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
 		- Conditions for awareness
-			- record of form as quantum
+			- record of form as a subject's quantum
 			  is the precondition for awareness.
 				- In order to be aware of some form, the subject must have that form recorded as a quantum inside, which is usually a memory that has been memorized before, or a “gene” inherited from the source in the process of constructing ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) of the subject.
 			- sensate
 			  is the current external condition for awareness.
 				- To be aware, the ((669a2886-9e03-41a4-a790-24bf6b7dcd96)) must be open to receive content.
-			- qualiton
+			- ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) of sensory information into a quantum
+			  is the current intermediate condition for awareness.
+				-
+			- qualiton connecting the object's quantum with the subject's quantum
 			  is the current internal condition for awareness.
-				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject.
+				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Space = awareness
