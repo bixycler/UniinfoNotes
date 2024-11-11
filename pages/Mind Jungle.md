@@ -1984,7 +1984,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  is the current direct condition for awareness.
 				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject, i.e. the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
 				- The matching can be broken into two parts, the “touching” (xúc) and the “equal” (thức). When two unequal quanta touch, nothing happens, but when two equal quanta touch, the qualiton ignites a “spark, bust, snap, click, tick” that activates the reconstruction of the form previously recorded.
-				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the "assignment" in programming language.
+				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- DOING sensation → awareness → consciousness
@@ -1995,9 +1995,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- three levels of awareness
 				  sesation = physical awareness, awareness = mental awareness = universal awareness, consciousness = self-awareness
 				- Awareness in various systems
-					-
+					- Any open system, including physical system, is sensate to the environment because it .
 					- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
-						- The automata with predetermined routines are basically insensate and unaware of anything, at the level of behavior.
+						- An automaton with a predetermined routine is basically insensate and unaware of almost anything, when considering the whole automaton as a subject. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is aware of.
+						  :LOGBOOK:
+						  CLOCK: [2024-11-11 Mon 13:17:13]
+						  :END:
+						-
 					- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
 					- Large Language Models
 					- Unitnet
