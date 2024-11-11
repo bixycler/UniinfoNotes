@@ -686,14 +686,15 @@ function replaceQuotes(ln){
 
 /** Restructure item lists to <folder-div> */
 function restructureToFolderDiv(node){
-    let nnode = 
+    // convert <li> to <folder-div>
+    let folder = document.createElement("folder-div");
+    // convert title (first child, from start to a.logseq-meta) to <div slot="unfoldable">
+    let title = node.childNodes[0];
+    if
     for(let n of node.childNodes){
-        // convert <li> (including <hN>) to <folder-div>
-        if
-        // convert title (first child, from start to a.logseq-meta) to <div slot="unfoldable">
         // convert remaining parts, including sub-headings & <ul>, to <div slot="foldable">
     }
-    node.replaceWith(nnode);
+    node.replaceWith(folder);
 }
 
 
