@@ -1978,11 +1978,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- To be aware, the ((669a2886-9e03-41a4-a790-24bf6b7dcd96)) must be open to receive content from the object.
 			- obbject's quantum [projected](((670ce218-a01f-4609-b7f2-beda7cf2ebc3))) from sensory information 
 			  id:: 67315ec8-cbe8-467c-81c4-d4d0e8750824
-			  is the current intermediate condition for awareness.
+			  is the current internal condition for awareness.
 				-
 			- qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
-			  is the current internal condition for awareness.
-				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content, the subject's quatum relates to the state and other contens of the subject.
+			  is the current direct condition for awareness.
+				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject.
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Space = awareness
