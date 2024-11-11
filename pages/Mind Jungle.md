@@ -2001,10 +2001,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- three levels of awareness
 				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
-					- DOING Being sensitive to
+					- DOING Being sensitive to some signal means simply being open to receive that (raw) signal.
 					  :LOGBOOK:
 					  CLOCK: [2024-11-11 Mon 14:10:20]
 					  :END:
+						- Note that we usually use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
 					- The ((672a0c61-ae93-440a-84e6-13778c8e91ca)) , i.e. the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), not only sustains the sense of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), but also maintains the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
 				- Awareness in various systems
 					- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
