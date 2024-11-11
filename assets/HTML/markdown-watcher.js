@@ -453,7 +453,7 @@ function normalizeMardown(md, flattenHeadings=true){ // md -> nmd
         nmd += ln+'\n';
     }
 
-    // process details: block ref/links, quotes
+    // process details: block ref/links, quotes, line break
     lns = nmd.split('\n'); nmd = '';
     for(let i in lns){ let ln = lns[i], nln = '';
         Process:{
