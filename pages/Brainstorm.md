@@ -1180,7 +1180,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
 		- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
 			- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
-		- [Bamum script](https://en.wikipedia.org/wiki/Bamum_script) pictographic
+		- [Cham script](https://en.wikipedia.org/wiki/Cham_script)
+			- ꩜ (spiral, beginning of a section)
+		- [Bamum script](https://en.wikipedia.org/wiki/Bamum_script) contains many pictographic characters
+			- 𖦹 (ngkaami in Phase E)
 		- Symbols
 			- Infinity: ∞, ♾
 	- “*Out of thin air*”
