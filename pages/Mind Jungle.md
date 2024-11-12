@@ -1078,6 +1078,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The visible forms and representatives are ((671e2782-2098-41a3-83a7-e042bfb468d7)) of the invisible content. In a sense, the forms are “shadows” of the whole content. The parts following the forms in order to reach the whole is an _infinite cycle of **chasing shadows**_.
 				- Ironically, this “shadow” is so vivid, opposite to the normal illusive “shadow” of the idiom “chasing shadows”. However, the effect is the same, an infinite cycle, because both shadows are elusive. That elusiveness is resulted from the ((67331da7-8b10-4890-ae51-9a92796c5af3)).
 					- In the Vietnamese idiom “đuổi hình bắt bóng”, the visualization is clearer: one chases the vivid form (hình) in order to catch its elusive shadow (bóng).
+					- A better analogy of the vivid form is the image reflection on water surface.
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
 	  collapsed:: true
