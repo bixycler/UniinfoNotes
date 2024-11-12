@@ -2934,17 +2934,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of a subject is what the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that subject sees about its internal structure. Including the obop itself, that structure is a ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) comprising both the [skeletal structure](((670d015b-cd7e-47fc-94aa-1caf98daef0e))) and the [interaction structure](((670d01e7-9f1c-4f50-8b74-d6a51d33f719))) for interaction with its components. The the obop of this form always has a tendency to return its form to the ((670e14c0-70c6-49ff-9bde-89db60b610c2)). When a subject has many obops, each one sees a (slightly) different internal form, where the closed forms of other obops and of component groups are abstracted into components interacting with this obop.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((670d0138-9012-4f3e-a9bd-997443fb22a3)) = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) = ((6678d596-9526-405a-968c-e73860e524f3))
-					  Even though equivalent, each name denote a different aspect of meaning.
-						- “internal form” is to be dual with “external form”: in-form <> ex-form.
-						- “closed form” is to show the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) structure of this form: c-form = s-form + i-form.
-						- “stucture” is to stress the substantiality and stability of this form, hence “substantial form”, in contrast with the insubstantiality and instability of the ((66ab6161-0306-42d5-ac16-4155c69216f5)), hence “accidental form”.
+						- Being “internal”, this form is sealed from the external effects, making it “closed”. Being closed in a circle, this form is stablized to be a “structure” and a “substance”.
+						- Even though equivalent, each name denote a different aspect of meaning.
+							- “internal form” is to be dual with “external form”: in-form <> ex-form.
+							- “closed form” is to show the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) structure of this form and its two components: c-form = s-form + i-form.
+							- “stucture” is to stress the substantiality and stability of this form, hence “substantial form”, in contrast with the insubstantiality and instability of the ((66ab6161-0306-42d5-ac16-4155c69216f5)), hence “accidental form”.
 				- closed form
 				  id:: 670d0160-ee4c-4b5f-b95f-80b0c2f3825f
 				  collapsed:: true
 				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1227-a0b3-474f-bcc3-8bacdefac269)) 
 				  c-form = ((670e1285-9b00-427b-99f0-98c724677608)) + ((670e12c8-98eb-4293-b1cc-403c8210208f)) = ((670e1047-529a-4698-9ad0-5e6c73c18202))
 				  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e)), ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) is a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of content which is composed of two complements: the ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) and the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) for interaction with its components.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) is a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of content which is composed of two complements: the ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) and the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) for interaction with its components. Thanks to this ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) structure, this form is stable, hence a ((670e1047-529a-4698-9ad0-5e6c73c18202)).
 					- c-form
 					  id:: 670e1227-a0b3-474f-bcc3-8bacdefac269
 					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
@@ -3008,7 +3009,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Aristotle's forms:
-					- "substantial form" = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+					- "substantial form" = ((670d0138-9012-4f3e-a9bd-997443fb22a3)) = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
 					- "accidental form" = ((670d0138-8f58-428b-808e-24c05a5239fb))
 				- Elementary particles: substance = essence = 1 => cannot bear distortion
 				- Composite particles: substance > essence => bear distortion
