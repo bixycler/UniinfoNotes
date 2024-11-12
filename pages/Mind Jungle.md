@@ -4372,9 +4372,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
 							- `looseList` to avoiding the style inconsistency between “[loose lists](https://spec.commonmark.org/0.31.2/#loose)” and “tight lists”.
 							  id:: 67333634-482c-4446-95aa-dcd549cb27cd
-							  collapsed:: true
 								- Issue: Any blank line in any list item makes that list “loose”, i.e., all other items in the same list (at the same level) will be wrapped in `<p>` which will be rendered different (more line space) from the unwrapped items of the default “tight list”.
 								- Some convenstions, like [blankLineBeforeCodeBlock](((6731f764-27ba-4a06-b9ca-5817104478f0))), require loose list.
+								- The wrapping
 								- References:
 									- CommonMark talk: [Why are there even tight lists?](https://talk.commonmark.org/t/why-are-there-even-tight-lists/2301)
 									- Markdown-It issues: [#728](https://github.com/markdown-it/markdown-it/issues/728), [#678](https://github.com/markdown-it/markdown-it/issues/678),

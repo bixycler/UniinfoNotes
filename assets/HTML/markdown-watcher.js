@@ -181,7 +181,7 @@ async function load(forced) {
         md = normalizeMardown(md,
             /*flattenHeadings*/false,
             /*blankLineBeforeCodeBlock*/false,
-            /*looseList*/false
+            /*looseList*/true
         );
     }
     mdtxt.value = md;
@@ -329,7 +329,7 @@ function loadPage() {
     var mapUuid = {}, noUuid = {}, circularRefs = {}, localLinks = {};
     const NBSP = '\u00A0', NNBSP = '\u202F', ZWSP = '\u200B', ZWNBSP = '\uFEFF';
     const CBMarker = ZWNBSP;
-    const patItem = /^\t*- /;
+    const patItem = /^(\t*)- /;
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
     const patProp = /^\s*(\w+):: (.*)$/;
@@ -366,6 +366,7 @@ function normalizeMardown(md,
 
     // convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
     // & record mapUuid[id] = blockTitle
+    // & process looseList
     mapUuid = {}; noUuid = {};
     let logbook = '', inLogbook = false;
     let props = {}, meta = '', blockTitle = '';
@@ -384,7 +385,7 @@ function normalizeMardown(md,
         if(m){
             props[m[1]] = escapeXML(m[2], /*quote*/true); continue;
         }
-        // end metadata
+        // end metadata (by any line which is not a property nor logbook)
         if(meta && (Object.keys(props).length || logbook)){
             if('id' in props){
                 meta += `id="${props.id}" `;
@@ -397,10 +398,12 @@ function normalizeMardown(md,
             nmd = nmd.slice(0, -1) + ' '+meta+'\n';
             logbook = ''; props = {};
         }
+        // next item
         m = ln.match(patItem);
         if(m){
             meta = metatag;
             blockTitle = ln.replace(m[0],'');
+            if(looseList){ ln = m[1]+'\n' +ln; }
         }else{ meta = ''; }
         nmd += ln+'\n';
     }
