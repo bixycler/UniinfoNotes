@@ -1077,7 +1077,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  Trò Đuổi Hình Bắt Bóng
 				- The visible forms and representatives are ((671e2782-2098-41a3-83a7-e042bfb468d7)) of the invisible content. In a sense, the forms are “shadows” of the whole content. The parts following the forms in order to reach the whole is an _infinite cycle of **chasing shadows**_.
 				- Ironically, this “shadow” is so vivid, opposite to the normal dark “shadow” of the idiom “chasing shadows”. However, the effect is the same, an infinite cycle, because both shadows are illusive. That illusion is resulted from the ((67331da7-8b10-4890-ae51-9a92796c5af3)) and the hidden intention of the chaser to catch the entity represented by the forms but not the forms themselves.
-					- In the Vietnamese idiom “đuổi hình bắt bóng”, the visualization is clearer: one chases the vivid but illusive form (hình) in order to catch its elusive shadow (bóng).
+					- In the Vietnamese idiom “đuổi hình bắt bóng”, the visualization is clearer: one chases the vivid but form (hình) in order to catch its entity but actually can only catch the illusive shadow (bóng).
 					- A better analogy of the vivid form is the image reflection on water surface.
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
@@ -4466,6 +4466,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- This has been done by Markdown-It's `typographer: true` in [smartquotes.mjs](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/smartquotes.mjs).
 								- We implement our own function `replaceQuotes(ln)` to handle our markdown source in Logseq.
 								- Multi-line quotes are not supported.
+								- Test text:
+								  collapsed:: true
+									- ```md
+									  This "quotation" is for sth like "quot-"+"-ation" or sth like "12398 ^724_242!?" or "- abc =", but not " spaced  " nor a"s nor `in "inline" codes`, etc.  
+									  This 'quotation' is for sth like 'quot-'+'-ation' or sth like '12398 ^724_242!?' or '- abc =', but not ' spaced ' nor a's nor `in 'inline' codes`, etc.\
+									  "line start" and "line end"
+									  'line start' and 'line end'
+									  American style: "double quotes contain 'single quotes'"
+									  British style:  'single quotes contain "double quotes"'
+									  ```
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 							- DOING make item lists foldable with custom element `<folder-div>`
 							  id:: 672e0320-dc07-4c6e-8832-341aaa90cd2a
