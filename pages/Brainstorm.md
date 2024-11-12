@@ -1176,12 +1176,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
 		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
 			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en), ꕤ (za)
-		- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
-			- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
-		- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
-			- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
-		- [Cham script](https://en.wikipedia.org/wiki/Cham_script)
-			- ꩜ (spiral, beginning of a section)
+		- [Brahmi script](https://en.wikipedia.org/wiki/Brahmi_script) descendants
+			- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
+				- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
+			- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
+				- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
+			- [Cham script](https://en.wikipedia.org/wiki/Cham_script) contains spiral punctuation
+				- ꩜ (spiral, beginning of a section)
 		- [Bamum script](https://en.wikipedia.org/wiki/Bamum_script) contains many pictographic characters
 			- 𖦹 (ngkaami in Phase E)
 		- Symbols
