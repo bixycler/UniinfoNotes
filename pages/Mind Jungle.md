@@ -2922,7 +2922,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- internal form
 			  id:: 670d0138-9012-4f3e-a9bd-997443fb22a3
 			  collapsed:: true
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e16ab-7b17-4127-8d4d-92516697d27e)), ((6678d596-9526-405a-968c-e73860e524f3))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e16ab-7b17-4127-8d4d-92516697d27e)), ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
 			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670d0138-8f58-428b-808e-24c05a5239fb))
 				- in-from
 				  id:: 670e16ab-7b17-4127-8d4d-92516697d27e
@@ -2945,7 +2945,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- 'c' stands for "closed", "complete", "circle".
 					- skeletal form
 					  id:: 670d015b-cd7e-47fc-94aa-1caf98daef0e
-					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1285-9b00-427b-99f0-98c724677608))
+					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1285-9b00-427b-99f0-98c724677608)), ((6678d596-9526-405a-968c-e73860e524f3))
 					  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
 					  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
 						- s-form
@@ -2953,6 +2953,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e))
 							- 's' stands for "skeletal", "structural".
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) is the skeletal structure which the obop uses to operate its body. This skeleton is crystallized from experience about mutual ((670d0183-aba2-438b-b749-1b550e4a906b))s between its components.
+						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+							- Normally, when talking about “internal form”, people usually think of this ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) instead of the whole ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)).
 					- interaction form
 					  id:: 670d01e7-9f1c-4f50-8b74-d6a51d33f719
 					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e12c8-98eb-4293-b1cc-403c8210208f))
