@@ -1063,9 +1063,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- While a representative represents the whole, it's not the whole, just a part of the whole. That means a representative does have all properties of a part: incomplete, reflecting the whole with distortion.
 				- Due to
 		- ((669a5387-2a97-4311-a295-aa0afd9c4d76)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
+		  id:: 67330a8d-c966-442c-8948-a9a2dd10ab60
 			- The internal ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the whole is from the center, through layers of ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s to individual parts, and back to the center also through layers of representatives but in different routes and maners.
+				- In the opposite direction, each part is ((66c835f5-58ee-485f-914c-3d95167feeb3))ing and heading toward its representative.
 			- Usually, the downward flow from center is more direct, concentrated, ((67330c03-4e27-414f-bdc5-e5e7e0bed6bd)) and vivid, while the upward flow from the parts is more indirect, distributed, informal and invisible.
-			-
+				- Each part is heading its representative because that's the light end, the source of effect flow.
+				-
 			-
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
