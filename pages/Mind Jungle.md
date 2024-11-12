@@ -1059,7 +1059,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- #### Representative Rule
 			  id:: 6732cf59-2785-4c8b-9fb3-5bee5d1a2f31
 			  A ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) is an _abstraction_ of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) which represents the whole to govern the parts.
-				- While a representative represents the whole, it's not the whole, just a part of the whole. That means a representative does have all properties of a part: incomplete, reflecting the whole with distortion,
+				- While a representative represents the whole, it's not the whole, just a part of the whole. That means a representative does have all properties of a part: incomplete, reflecting the whole with distortion.
+				- Due to
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
 	  collapsed:: true
