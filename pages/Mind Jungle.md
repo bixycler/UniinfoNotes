@@ -4451,7 +4451,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
 							- process code block
 								- `blankLineBeforeCodeBlock` for strict conventions like in GitLab
-									- Note: the added blank line make all other items in the same list (at the same level) be wrapped in `<p>` which will be rendered different (more spacious) from the unwrapped items. Ref: [Prettier's issue](https://github.com/prettier/prettier/issues/10063)
+									- Note: the added blank line makes all other items in the same list (at the same level) be wrapped in `<p>` which will be rendered different (more spacious) from the unwrapped items. Ref: markdown-it issue [#728](https://github.com/markdown-it/markdown-it/issues/728), [#678](https://github.com/markdown-it/markdown-it/issues/678), [Prettier's issue](https://github.com/prettier/prettier/issues/10063)
 									- We use style `li p {margin}` to fix this display issue.
 							- warn for external links to relative paths: non-HTTP
 							  :LOGBOOK:
