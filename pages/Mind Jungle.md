@@ -1066,10 +1066,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 67330a8d-c966-442c-8948-a9a2dd10ab60
 			- The internal ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the whole is from the center, through layers of ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s to individual parts, and back to the center also through layers of representatives but in different routes and maners.
 				- In the opposite direction, each part is ((66c835f5-58ee-485f-914c-3d95167feeb3))ing and heading toward its representative.
-			- Usually, the downward flow from center is more direct, concentrated, ((67330c03-4e27-414f-bdc5-e5e7e0bed6bd)) and vivid, while the upward flow from the parts is more indirect, distributed, informal and invisible.
-				- Each part is heading its representative because that's the light end, the source of effect flow.
-				- The representatives collect distributed upward effects for the whole to condensate into formal effects. This is similar to the sky gathering clouds for the rain.
-				- Due to the process of collec
+			- downward and upward flows
+			  Usually, the downward flow from center is more direct, concentrated, ((67330c03-4e27-414f-bdc5-e5e7e0bed6bd)) and vivid, while the upward flow from the parts is more indirect, distributed, informal and invisible.
+				- Each part is heading toward its representative because that's the light end, the source of effect flow.
+				- The representatives collect distributed upward effects for the whole to condensate into formal effects. This is similar to the sky [gathering clouds](((673312a3-e94e-478f-9e21-bad72ef29d1b))) for the rain.
+				- Due to the process of collection and condensation, the representatives are far from the the parts: lagging behind in time and radically different from each individual part. The larger the whole, the farther its representatives are from the parts.
+				-
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
 	  collapsed:: true

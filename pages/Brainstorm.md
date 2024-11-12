@@ -1040,6 +1040,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
 		  collapsed:: true
 			- Hurricane's structure resembles the self's structure
+			  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
 				- ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-Sep/Hurricane-structure-self-eye-vi.png)
 	- circle = constant ((670ce8c2-8c54-42c6-84cd-93703c1fa60f)) = constant speed of light = conservation of amount/energy/mass/content ( ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))) = *the same content appears in many forms* = **spring mechanic** (harmonic oscillator)
 	  id:: 670cd7d1-8380-49db-a47c-6aa132256596
