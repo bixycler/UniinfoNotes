@@ -1054,7 +1054,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The ((66ab7477-c060-4d07-ab13-bc3d11246854)) is a special representative which lies at the [base](((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))) of the tree of representatives.
 					- In society, the center is called by many names: “king, master, boss, president, head, ...”
 				- The system of all levels of representatives is the ((6678d596-9526-405a-968c-e73860e524f3)) of the whole.
-				- The internal ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the whole is from the center, through layers of representatives to individual parts, and back to the center also through layers of representatives but in different routes and maners.
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- Physical laws in physical world.
 				- People's representatives in society.
@@ -1063,6 +1062,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  A ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) is an _abstraction_ of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) which represents the whole to govern the parts.
 				- While a representative represents the whole, it's not the whole, just a part of the whole. That means a representative does have all properties of a part: incomplete, reflecting the whole with distortion.
 				- Due to
+		- ((669a5387-2a97-4311-a295-aa0afd9c4d76)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
+			- The internal ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the whole is from the center, through layers of ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s to individual parts, and back to the center also through layers of representatives but in different routes and maners.
+			- Usually, the downward flow from center is more direct, concentrated, ((67330c03-4e27-414f-bdc5-e5e7e0bed6bd)) and vivid, while the upward flow from the parts is more indirect, distributed, informal and invisible.
+			-
+			-
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
 	  collapsed:: true
@@ -2903,6 +2907,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f4ec9a-6a38-4b02-bd52-5bf031eaf6fa))
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((6678288e-699b-4325-bdba-bf6349fe0d57))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((67330c03-4e27-414f-bdc5-e5e7e0bed6bd))
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
 		- hình thức
 		  id:: 66f4ec9a-6a38-4b02-bd52-5bf031eaf6fa
@@ -3079,6 +3084,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)), as a noun, includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
 				- In maths, "transform", like [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform), [integral transform](https://en.wikipedia.org/wiki/Integral_transform), is usually a [transformation](https://en.wikipedia.org/wiki/Transformation_(function)) in [function space](https://en.wikipedia.org/wiki/Function_space), whereas "transformation", like [geometric transformation](https://en.wikipedia.org/wiki/Geometric_transformation), is usually limited to [vector space](https://en.wikipedia.org/wiki/Vector_space).
+		- formal
+		  id:: 67330c03-4e27-414f-bdc5-e5e7e0bed6bd
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 	- ## appearance
 	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
 	  collapsed:: true
