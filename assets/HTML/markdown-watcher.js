@@ -371,7 +371,7 @@ function normalizeMardown(md,
     mapUuid = {}; noUuid = {};
     let logbook = '', inLogbook = false;
     let props = {}, meta = '', blockTitle = '';
-    let soliton = true; // soliton list: only one item with no sub-list
+    let firstItem = true; // to detect soliton list: only one item with no sub-list
     indent = '';
     for(let i in lns){ let ln = lns[i];
         if(ln.match(patLB)){ // start LOGBOOK
@@ -407,9 +407,13 @@ function normalizeMardown(md,
             meta = metatag;
             blockTitle = ln.replace(m[0],'');
             if(looseList){
-                if(soliton){ ln = indent+'\t'+LooseListSpace +ln; }
+                if(firstItem && indent > m[1]){
+                    console.debug('Soliton before:',ln);
+                    ln = indent+'\t'+LooseListSpace+'\n' +ln;
+                }
                 ln = indent+'\t\n' +ln;
             }
+            firstItem = indent < m[1];
             indent = m[1];
         }else{ meta = ''; }
         nmd += ln+'\n';
