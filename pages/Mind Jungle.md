@@ -4467,7 +4467,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- `blankLineBeforeCodeBlock` (⇒ [looseList](((67333634-482c-4446-95aa-dcd549cb27cd)))) for strict conventions like in GitLab
 								  id:: 6731f764-27ba-4a06-b9ca-5817104478f0
 								- unitemize items with code blocks only.
-								- unindent the double space `  ` margin for all code blocks.
+								- replace the double space `  ` with `\t`.
 							- warn for external links to relative paths: non-HTTP
 							  :LOGBOOK:
 							  CLOCK: [2024-11-08 Fri 18:55:58]--[2024-11-08 Fri 19:23:58] =>  00:28:00
