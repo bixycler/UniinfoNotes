@@ -329,6 +329,7 @@ function loadPage() {
     var mapUuid = {}, noUuid = {}, circularRefs = {}, localLinks = {};
     const NBSP = '\u00A0', NNBSP = '\u202F', ZWSP = '\u200B', ZWNBSP = '\uFEFF';
     const CBMarker = ZWNBSP;
+    const LooseListSpace = NBSP;
     const patItem = /^(\t*)- /;
     const patLB = /^\s*:(logbook|LOGBOOK):$/;
     const patLBE = /^\s*:END:$/;
@@ -370,6 +371,7 @@ function normalizeMardown(md,
     mapUuid = {}; noUuid = {};
     let logbook = '', inLogbook = false;
     let props = {}, meta = '', blockTitle = '';
+    let soliton = true; // soliton list: only one item with no sub-list
     indent = '';
     for(let i in lns){ let ln = lns[i];
         if(ln.match(patLB)){ // start LOGBOOK
@@ -404,7 +406,10 @@ function normalizeMardown(md,
         if(m){
             meta = metatag;
             blockTitle = ln.replace(m[0],'');
-            if(looseList){ ln = indent+'\n' +ln; }
+            if(looseList){
+                if(){ ln = +ln; }
+                ln = indent+'\n' +ln;
+            }
             indent = m[1];
         }else{ meta = ''; }
         nmd += ln+'\n';
