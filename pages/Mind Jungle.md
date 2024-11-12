@@ -1050,7 +1050,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
 		- ### representative
 		  id:: 6732cf13-5b1b-499d-80ec-4c5b407e9cc5
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) may have different individual parts, called ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s, represent the whole to manage different groups of individual parts. The whole interacts with a specific group of parts through its
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) may have different individual parts, called ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s, represent the whole to manage different groups of individual parts. The whole interacts with a specific group of parts through the representative of that group.
+				- The ((66ab7477-c060-4d07-ab13-bc3d11246854)) is a special representative which lies at the base of the tree of representatives.
+					- In society, the center is called by many names: “king, master, boss, president, head, ...”
+				-
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- Physical laws in physical world.
+				- People's representatives in society.
 			- #### Representative Rule
 			  id:: 6732cf59-2785-4c8b-9fb3-5bee5d1a2f31
 			  The ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) is an abstraction of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) which represents the whole to govern the parts.
@@ -1141,6 +1147,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- center
 			  id:: 66ab7477-c060-4d07-ab13-bc3d11246854
 				- The concept of center can be extended to center of mass, named "pre-center", in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) and even further to the origin, the center of perspectivity, named "pseudo-center", in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+				  id:: 6716110f-c736-43d2-a8e8-f2d6d163bd4d
 			- radius
 			  id:: 670ce8c2-8c54-42c6-84cd-93703c1fa60f
 	- ## equal
