@@ -407,8 +407,8 @@ function normalizeMardown(md,
             meta = metatag;
             blockTitle = ln.replace(m[0],'');
             if(looseList){
-                if(){ ln = +ln; }
-                ln = indent+'\n' +ln;
+                if(soliton){ ln = indent+'\t'+LooseListSpace +ln; }
+                ln = indent+'\t\n' +ln;
             }
             indent = m[1];
         }else{ meta = ''; }
