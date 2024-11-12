@@ -369,7 +369,7 @@ function normalizeMardown(md,
     // & process looseList
     mapUuid = {}; noUuid = {};
     let logbook = '', inLogbook = false;
-    let props = {}, meta = '', blockTitle = '';
+    let props = {}, meta = '', indent = '', blockTitle = '';
     for(let i in lns){ let ln = lns[i];
         if(ln.match(patLB)){ // start LOGBOOK
             inLogbook = true; continue;
@@ -403,7 +403,8 @@ function normalizeMardown(md,
         if(m){
             meta = metatag;
             blockTitle = ln.replace(m[0],'');
-            if(looseList){ ln = m[1]+'\n' +ln; }
+            if(looseList){ ln = indent+'\n' +ln; }
+            indent = m[1];
         }else{ meta = ''; }
         nmd += ln+'\n';
     }
