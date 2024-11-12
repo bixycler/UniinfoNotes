@@ -4380,6 +4380,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- CommonMark talk: [Why are there even tight lists?](https://talk.commonmark.org/t/why-are-there-even-tight-lists/2301)
 									- Markdown-It issues: [#728](https://github.com/markdown-it/markdown-it/issues/728), [#678](https://github.com/markdown-it/markdown-it/issues/678),
 									- [Prettier's issue](https://github.com/prettier/prettier/issues/10063)
+									- Djot's issue: [Revisit the concept of tight/loose list.](https://github.com/jgm/djot/issues/138)
 								- We also use style `li p {margin}` to fix this display issue.
 							- `flattenHeadings` to unitemize headings & remove first tabs
 							  id:: 6720b9eb-687b-4041-99e6-00791a4769bb
