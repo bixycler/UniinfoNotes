@@ -4370,7 +4370,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Skipped: The detection of wich lines to be converted is complicated, so we use the supported `markdownit({breaks: true})`
 									- For standard markdown, line breaks should be inserted manually when needed.
 							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
-							- `looseList` for consistency in style, avoiding the
+							- `looseList` to avoiding the style inconsistency between “[loose lists](https://spec.commonmark.org/0.31.2/#loose)” and “tight lists”.
+							  id:: 67333634-482c-4446-95aa-dcd549cb27cd
+							  collapsed:: true
+								- Issue: Any blank line in any list item makes that list “loose”, i.e., all other items in the same list (at the same level) will be wrapped in `<p>` which will be rendered different (more line space) from the unwrapped items of the default “tight list”.
+								- Some convenstions, like [blankLineBeforeCodeBlock](((6731f764-27ba-4a06-b9ca-5817104478f0))), require loose list.
+								- References:
+									- CommonMark talk: [Why are there even tight lists?](https://talk.commonmark.org/t/why-are-there-even-tight-lists/2301)
+									- Markdown-It issues: [#728](https://github.com/markdown-it/markdown-it/issues/728), [#678](https://github.com/markdown-it/markdown-it/issues/678),
+									- [Prettier's issue](https://github.com/prettier/prettier/issues/10063)
+								- We also use style `li p {margin}` to fix this display issue.
 							- `flattenHeadings` to unitemize headings & remove first tabs
 							- process block link/ref -> `#`anchor link
 								- Detect unresolved links
@@ -4450,14 +4459,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- This has [only close parenthesis](https://en.wikipedia.org/wiki/Parenthesis_rhetoric)) ...
 							- TODO [for `logseq.order-list-type:: number`](((665eef80-baed-4eff-b89d-d1d62d4f0b0e))), replace items bullets with numbers
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
-							- process code block
-								- `blankLineBeforeCodeBlock` for strict conventions like in GitLab
-									- “[Loose list](https://spec.commonmark.org/0.31.2/#loose)” issue: the added blank line makes all other items in the same list (at the same level) be wrapped in `<p>` which will be rendered different (more line space) from the unwrapped items of the default “tight list”.
-									- References:
-										- CommonMark talk: [Why are there even tight lists?](https://talk.commonmark.org/t/why-are-there-even-tight-lists/2301)
-										- Markdown-It issues: [#728](https://github.com/markdown-it/markdown-it/issues/728), [#678](https://github.com/markdown-it/markdown-it/issues/678),
-										- [Prettier's issue](https://github.com/prettier/prettier/issues/10063)
-									- We use style `li p {margin}` to fix this display issue.
+							- process code blocks
+								- `blankLineBeforeCodeBlock` (⇒ [looseList](((67333634-482c-4446-95aa-dcd549cb27cd)))) for strict conventions like in GitLab
+								  id:: 6731f764-27ba-4a06-b9ca-5817104478f0
+								- unitemize items with code blocks only.
 							- warn for external links to relative paths: non-HTTP
 							  :LOGBOOK:
 							  CLOCK: [2024-11-08 Fri 18:55:58]--[2024-11-08 Fri 19:23:58] =>  00:28:00
