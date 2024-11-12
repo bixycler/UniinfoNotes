@@ -4370,7 +4370,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Skipped: The detection of wich lines to be converted is complicated, so we use the supported `markdownit({breaks: true})`
 									- For standard markdown, line breaks should be inserted manually when needed.
 							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
-							- unitemize headings & remove first tabs
+							- `looseList` for consistency in style, avoiding the
+							- `flattenHeadings` to unitemize headings & remove first tabs
 							- process block link/ref -> `#`anchor link
 								- Detect unresolved links
 								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`
@@ -4451,7 +4452,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
 							- process code block
 								- `blankLineBeforeCodeBlock` for strict conventions like in GitLab
-									- “[Loose list](https://spec.commonmark.org/0.29/#loose)” issue: the added blank line makes all other items in the same list (at the same level) be wrapped in `<p>` which will be rendered different (more line space) from the unwrapped items of the default “tight list”.
+									- “[Loose list](https://spec.commonmark.org/0.31.2/#loose)” issue: the added blank line makes all other items in the same list (at the same level) be wrapped in `<p>` which will be rendered different (more line space) from the unwrapped items of the default “tight list”.
 									- References:
 										- CommonMark talk: [Why are there even tight lists?](https://talk.commonmark.org/t/why-are-there-even-tight-lists/2301)
 										- Markdown-It issues: [#728](https://github.com/markdown-it/markdown-it/issues/728), [#678](https://github.com/markdown-it/markdown-it/issues/678),

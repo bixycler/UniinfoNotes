@@ -180,7 +180,8 @@ async function load(forced) {
     if(doNormalizeMarkdown.checked){
         md = normalizeMardown(md,
             /*flattenHeadings*/false,
-            /*blankLineBeforeCodeBlock*/false
+            /*blankLineBeforeCodeBlock*/false,
+            /*looseList*/false
         );
     }
     mdtxt.value = md;
@@ -355,7 +356,8 @@ function loadPage() {
     const patLinkAll = new RegExp(patLink, 'g');
 function normalizeMardown(md,
     flattenHeadings = false,
-    blankLineBeforeCodeBlock = false
+    blankLineBeforeCodeBlock = false,
+    looseList = false
 ){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
