@@ -1060,7 +1060,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- #### Representative Rule
 			  id:: 6732cf59-2785-4c8b-9fb3-5bee5d1a2f31
 			  A ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) is an _abstraction_ of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) which represents the whole to govern the parts.
-				- While a representative represents the whole, it's not the whole, just a part of the whole. That means any representatives is still incomplete and reflects the whole with distortion.
+			- #### Representative Nature
+			  id:: 67331da7-8b10-4890-ae51-9a92796c5af3
+			  While a representative represents the whole, it's not the whole, just a part of the whole. That means any representative is still incomplete and reflects the whole with distortion.
 		- ((669a5387-2a97-4311-a295-aa0afd9c4d76)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
 		  id:: 67330a8d-c966-442c-8948-a9a2dd10ab60
 			- The internal ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the whole is from the center, through layers of ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s to individual parts, and back to the center also through layers of representatives but in different routes and maners.
@@ -1073,7 +1075,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- The Game of Chasing Shadows
 			  Trò Đuổi Hình Bắt Bóng
 				- The visible forms and representatives are ((671e2782-2098-41a3-83a7-e042bfb468d7)) of the invisible content. In a sense, the forms are “shadows” of the whole content. The parts following the forms in order to reach the whole is an infinite _game of **chasing shadows**_.
-				- Ironically, this “shadow” is so vivid, opposite to the normal illusive “shadow” of the idiom “chasing shadows”
+				- Ironically, this “shadow” is so vivid, opposite to the normal illusive “shadow” of the idiom “chasing shadows”. However, the effect is the same, an infinite cycle, due to the ((67331da7-8b10-4890-ae51-9a92796c5af3)).
+					- In the Vietnamese idiom “đuổi hình bắt bóng”, the visualization is clearer: one chases the vivid form (hình) in order to catch its illusive shadow (bóng).
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
 	  collapsed:: true
