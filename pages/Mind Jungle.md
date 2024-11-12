@@ -1001,11 +1001,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- By definition, all universal properties of the whole is objective and non-universal properties are subjective to some part(s) within the whole.
 					- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) This statement is resulted from the definition of objectivity & subjectivity when extending the "group of subjects" to a whole.
-				- **Representative**: The law is an abstraction of the whole which represents the whole to govern the parts.
+				- **Representative Rule**: The law is an abstraction of the whole which represents the whole to govern the parts.
 					-
 				- The objective and subjective views of the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (as the law):
 					- Objective view of the whole: **intrinsic balance**: The conversation laws, or actually the root law of conservation of content states that the whole is always in balance, i.e. when this part is added, the other part is subtracted, when this dimension is multiplied, the other dimension is divided.
-						- This law is the intrinsic nature of the whole, i.e. an abstraction, a part of the whole.
+						- This law is the intrinsic nature of the whole, i.e. an abstraction of the whole, representing the whole, but not actually the whole.
 					- Subjective view of the part: **the active balancer**: Any imbalance is just a partial view of the whole, i.e. a view by a part. At any moment this part, as a subject, is aware of its imbalance, it tries to return to the balance state of the whole.
 						- This internal urge of the subject is the restoring force which is a manifestation of the law of balance derived from the whole. In this way, the part is governed by the whole via the law.
 						- This returning direction defines the arrow of time (internal motion) and any motion externally.
@@ -1045,6 +1045,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a [perfect circle](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))). That means a whole is a perfect ((667d162c-16cf-44d3-81a5-29b1b885164f)).
 		- Etymology of `whole`: “Whole”, just like “health” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”. The prefix `holo-` has the same meaning with “whole”, but is from a different root: Greek “holos” (whole, entire, complete) also meaning “safe and sound” ← Proto-Indo-European root [*sol-](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning “whole”.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
+		- ### representative
+			- #### Representative Rule
+			  The law is an abstraction of the whole which represents the whole to govern the parts.
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
 	  collapsed:: true
