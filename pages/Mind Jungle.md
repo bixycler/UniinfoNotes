@@ -4372,15 +4372,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
 							- `looseList` to avoiding the style inconsistency between “[loose lists](https://spec.commonmark.org/0.31.2/#loose)” and “tight lists”.
 							  id:: 67333634-482c-4446-95aa-dcd549cb27cd
+							  collapsed:: true
 								- Issue: Any blank line in any list item makes that list “loose”, i.e., all other items in the same list (at the same level) will be wrapped in `<p>` which will be rendered different (more line space) from the unwrapped items of the default “tight list”.
 								- Some convenstions, like [blankLineBeforeCodeBlock](((6731f764-27ba-4a06-b9ca-5817104478f0))), require loose list.
-								- The wrapping
+								- The `<p>` wrapping is also convenient for [`<div slot="unfoldable">` in `<folder-div>`](((672e0320-dc07-4c6e-8832-341aaa90cd2a))).
 								- References:
 									- CommonMark talk: [Why are there even tight lists?](https://talk.commonmark.org/t/why-are-there-even-tight-lists/2301)
 									- Markdown-It issues: [#728](https://github.com/markdown-it/markdown-it/issues/728), [#678](https://github.com/markdown-it/markdown-it/issues/678),
 									- [Prettier's issue](https://github.com/prettier/prettier/issues/10063)
 								- We also use style `li p {margin}` to fix this display issue.
 							- `flattenHeadings` to unitemize headings & remove first tabs
+							  id:: 6720b9eb-687b-4041-99e6-00791a4769bb
 							- process block link/ref -> `#`anchor link
 								- Detect unresolved links
 								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`
@@ -4463,6 +4465,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- `blankLineBeforeCodeBlock` (⇒ [looseList](((67333634-482c-4446-95aa-dcd549cb27cd)))) for strict conventions like in GitLab
 								  id:: 6731f764-27ba-4a06-b9ca-5817104478f0
 								- unitemize items with code blocks only.
+								- unindent the double space `  ` margin for all code blocks.
 							- warn for external links to relative paths: non-HTTP
 							  :LOGBOOK:
 							  CLOCK: [2024-11-08 Fri 18:55:58]--[2024-11-08 Fri 19:23:58] =>  00:28:00
@@ -4494,6 +4497,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  CLOCK: [2024-11-08 Fri 19:25:27]
 							  CLOCK: [2024-11-08 Fri 19:27:05]
 							  :END:
+								- For easy DOM traversal, set [looseList](((67333634-482c-4446-95aa-dcd549cb27cd))) = true & [flattenHeadings](((6720b9eb-687b-4041-99e6-00791a4769bb))) = false.
 						- ((6720c0a4-0294-4065-8016-9853e2a04475)) using [DocRaptor](https://docraptor.com/)
 						  id:: 6720bd22-c2f9-42c7-a6e9-99bc51a92225
 							- Pagination for PDF: Summary & Details
