@@ -1073,8 +1073,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The representatives collect distributed upward effects for the whole to condensate into formal effects. This is similar to the sky [gathering clouds](((673312a3-e94e-478f-9e21-bad72ef29d1b))) for the rain.
 				- Due to the process of collection and condensation, the representatives are far from the the parts: lagging behind in time and radically different from each individual part. The larger the whole (relative to its parts), the farther its representatives are from the parts.
 			- The Game of Chasing Shadows
+			  id:: 67331a5a-1815-40c1-96db-ef7be8ee8d7b
 			  Trò Đuổi Hình Bắt Bóng
-				- The visible forms and representatives are ((671e2782-2098-41a3-83a7-e042bfb468d7)) of the invisible content. In a sense, the forms are “shadows” of the whole content. The parts following the forms in order to reach the whole is an infinite _game of **chasing shadows**_.
+				- The visible forms and representatives are ((671e2782-2098-41a3-83a7-e042bfb468d7)) of the invisible content. In a sense, the forms are “shadows” of the whole content. The parts following the forms in order to reach the whole is an _infinite cycle of **chasing shadows**_.
 				- Ironically, this “shadow” is so vivid, opposite to the normal illusive “shadow” of the idiom “chasing shadows”. However, the effect is the same, an infinite cycle, due to the ((67331da7-8b10-4890-ae51-9a92796c5af3)).
 					- In the Vietnamese idiom “đuổi hình bắt bóng”, the visualization is clearer: one chases the vivid form (hình) in order to catch its illusive shadow (bóng).
 	- ## complement
