@@ -1070,8 +1070,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Each part is heading toward its representative because that's the light end, the source of effect flow.
 				- The representatives collect distributed upward effects for the whole to condensate into formal effects. This is similar to the sky [gathering clouds](((673312a3-e94e-478f-9e21-bad72ef29d1b))) for the rain.
 				- Due to the process of collection and condensation, the representatives are far from the the parts: lagging behind in time and radically different from each individual part. The larger the whole (relative to its parts), the farther its representatives are from the parts.
-			- The game of **chasing shadows**
+			- The Game of Chasing Shadows
+			  Trò Đuổi Hình Bắt Bóng
 				- The visible forms and representatives are ((671e2782-2098-41a3-83a7-e042bfb468d7)) of the invisible content. In a sense, the forms are “shadows” of the whole content. The parts following the forms in order to reach the whole is an infinite _game of **chasing shadows**_.
+				- Ironically, this “shadow” is so vivid, opposite to the normal illusive “shadow” of the idiom “chasing shadows”
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
 	  collapsed:: true
