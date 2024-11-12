@@ -1234,6 +1234,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Những vòng tròn văn hoá và ngôn ngữ, đi ráp vòng quay trở lại nhưng "lợi hại hơn xưa", biến hoá khôn lường 😉
 		- "Cầu cơ" tiếng Anh là ouija, nhưng đọc là "wi-jơ", âm đầu "oui" [wi] thì theo Pháp, âm sau "ja" thì theo tiếng Đức 😃
 	- Chat about 
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-11-12 Tue 10:05:34]
 	  :END:
+		- :LOGBOOK:
+		  CLOCK: [2024-11-12 Tue 10:05:34]
+		  :END:
