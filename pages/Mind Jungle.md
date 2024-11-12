@@ -2935,7 +2935,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((670d0138-9012-4f3e-a9bd-997443fb22a3)) = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) = ((6678d596-9526-405a-968c-e73860e524f3))
 					  Even though equivalent, each name denote a different aspect of meaning.
-						-
+						- “internal form” is to be dual with “external form”: in-form <> ex-form.
+						- “closed form” is to show the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) structure of this form: c-form = s-form + i-form.
+						- “stucture” is to stress the substantiality and stability of this form, hence “substantial form”, in contrast with the insubstantiality and instability of the ((66ab6161-0306-42d5-ac16-4155c69216f5)), hence “accidental form”.
 				- closed form
 				  id:: 670d0160-ee4c-4b5f-b95f-80b0c2f3825f
 				  collapsed:: true
