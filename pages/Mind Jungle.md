@@ -1068,7 +1068,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- In the opposite direction, each part is ((66c835f5-58ee-485f-914c-3d95167feeb3))ing and heading toward its representative.
 			- Usually, the downward flow from center is more direct, concentrated, ((67330c03-4e27-414f-bdc5-e5e7e0bed6bd)) and vivid, while the upward flow from the parts is more indirect, distributed, informal and invisible.
 				- Each part is heading its representative because that's the light end, the source of effect flow.
-				-
+				- The representatives collect distributed upward effects for the whole to condensate into formal effects. This is similar to the sky gathering clouds for the rain.
 			-
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
