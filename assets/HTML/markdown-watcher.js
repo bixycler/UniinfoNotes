@@ -406,14 +406,7 @@ function normalizeMardown(md,
         if(m){
             meta = metatag;
             blockTitle = ln.replace(m[0],'');
-            if(looseList){
-                if(firstItem && indent > m[1]){
-                    console.debug('Soliton before:',ln);
-                    ln = indent+'\t'+LooseListSpace+'\n' +ln;
-                }
-                ln = indent+'\t\n' +ln;
-            }
-            firstItem = indent < m[1];
+            if(looseList){ ln = indent+'\t\n' +ln; }
             indent = m[1];
         }else{ meta = ''; }
         nmd += ln+'\n';

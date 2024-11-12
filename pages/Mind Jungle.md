@@ -4376,7 +4376,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Issue: Any blank line in any list item makes that list “loose”, i.e., all other items in the same list (at the same level) will be wrapped in `<p>` which will be rendered different (more line space) from the unwrapped items of the default “tight list”.
 								- [!] Cannot make soliton lists “loose” simply with blank line!
 									- soliton list: only one item with no sub-list
-									- Trick: Add  another line containing `&nbsp` after the blank line.
+									- ~~Trick: Add  another line containing `&nbsp` after the blank line.~~
+									  collapsed:: true
+										- This line has no effect with normal text, but adds new code block after code block!
+									- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Hack: set all `markdown-it`'s tokens `"hidden": false`.
+									- `markdown-it` should have a rule to disable “tight list” feature.
 								- Some convenstions, like [blankLineBeforeCodeBlock](((6731f764-27ba-4a06-b9ca-5817104478f0))), require loose list.
 								- The `<p>` wrapping is also convenient for [`<div slot="unfoldable">` in `<folder-div>`](((672e0320-dc07-4c6e-8832-341aaa90cd2a))).
 								- References:
