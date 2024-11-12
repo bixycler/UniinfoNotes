@@ -2922,7 +2922,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- internal form
 			  id:: 670d0138-9012-4f3e-a9bd-997443fb22a3
 			  collapsed:: true
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e16ab-7b17-4127-8d4d-92516697d27e)), ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e16ab-7b17-4127-8d4d-92516697d27e)), ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)), ((6678d596-9526-405a-968c-e73860e524f3))
 			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670d0138-8f58-428b-808e-24c05a5239fb))
 				- in-from
 				  id:: 670e16ab-7b17-4127-8d4d-92516697d27e
@@ -2932,6 +2932,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- in-form = put someone into (specific) form = train, teach, instruct => give knowledge => give information
 						- Original "information" = outline, concept, idea (specific kinds of knowledge) => reduced to mere news-like information
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of a subject is what the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that subject sees about its internal structure. Including the obop itself, that structure is a ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) comprising both the [skeletal structure](((670d015b-cd7e-47fc-94aa-1caf98daef0e))) and the [interaction structure](((670d01e7-9f1c-4f50-8b74-d6a51d33f719))) for interaction with its components. The the obop of this form always has a tendency to return its form to the ((670e14c0-70c6-49ff-9bde-89db60b610c2)). When a subject has many obops, each one sees a (slightly) different internal form, where the closed forms of other obops and of component groups are abstracted into components interacting with this obop.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((670d0138-9012-4f3e-a9bd-997443fb22a3)) = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) = ((6678d596-9526-405a-968c-e73860e524f3))
+					  Even though equivalent, each name denote a different aspect of meaning.
+						-
 				- closed form
 				  id:: 670d0160-ee4c-4b5f-b95f-80b0c2f3825f
 				  collapsed:: true
@@ -2945,7 +2949,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- 'c' stands for "closed", "complete", "circle".
 					- skeletal form
 					  id:: 670d015b-cd7e-47fc-94aa-1caf98daef0e
-					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1285-9b00-427b-99f0-98c724677608)), ((6678d596-9526-405a-968c-e73860e524f3))
+					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1285-9b00-427b-99f0-98c724677608))
 					  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
 					  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
 						- s-form
