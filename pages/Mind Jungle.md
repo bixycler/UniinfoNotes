@@ -1050,16 +1050,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
 		- ### representative
 		  id:: 6732cf13-5b1b-499d-80ec-4c5b407e9cc5
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) may have different individual parts, called ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s, represent the whole to manage different groups of individual parts. The whole interacts with a specific group of parts through the representative of that group.
-				- The ((66ab7477-c060-4d07-ab13-bc3d11246854)) is a special representative which lies at the base of the tree of representatives.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) may have different individual parts, called ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s, represent the whole to manage different groups of individual parts. The whole interacts with a specific group of parts through the representative of that group with the ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)).
+				- The ((66ab7477-c060-4d07-ab13-bc3d11246854)) is a special representative which lies at the [base](((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))) of the tree of representatives.
 					- In society, the center is called by many names: “king, master, boss, president, head, ...”
-				-
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- Physical laws in physical world.
 				- People's representatives in society.
 			- #### Representative Rule
 			  id:: 6732cf59-2785-4c8b-9fb3-5bee5d1a2f31
-			  The ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) is an abstraction of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) which represents the whole to govern the parts.
+			  A ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) is an _abstraction_ of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) which represents the whole to govern the parts.
+				- While a representative represents the whole, it's not the whole, just a part of the whole. That means a representative does have all properties of a part: incomplete, reflecting the whole with distortion,
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
 	  collapsed:: true
