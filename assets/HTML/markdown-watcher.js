@@ -18,6 +18,27 @@ const mdi = window.markdownit({
 });
 
 // DocRaptor
+const DocRaptorStyle = `
+<style id="pdf_style">
+  @page {
+    size: 30cm 40cm; /* A4: 21x30 */
+    margin: 20px;
+  }
+
+  /* <details> */
+  details {
+    display: block
+  }
+  summary {
+    display: block
+  }
+
+  /* <folder-div> */
+  folder-div div[slot="unfoldable"] {
+    display: block
+  }
+</style>
+`;
 const DocRaptorApiKey = "m7Dhrn_AsezV94C3VL-B";
 const DocRaptorUrl = `https://api.docraptor.com/docs`;
 const DocRaptorRequest = {
@@ -55,7 +76,7 @@ const Request = {
 async function toPdf() { // use URLSearchParams
   let params = new URLSearchParams(structuredClone(DocRaptorParams));
   //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
-  params.append("doc[document_content]", mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML);
+  params.append("doc[document_content]", mdhtml.innerHTML + markdown_style.outerHTML + DocRaptorStyle);
   let req = structuredClone(Request);
     req.body = params;
 
