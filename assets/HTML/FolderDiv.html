@@ -106,6 +106,7 @@
     </label>
     <div id="contents" style="display:flex; flex-direction:column;">
       <div class="unfoldable"><slot name="unfoldable"></slot></div>
+      <label for="isFolded">\|/</label>
       <div class="foldable"><slot name="foldable"></slot></div>
     </div>
   <!--/folder-div-->
@@ -185,7 +186,7 @@
       <folder-div>
         <div slot="unfoldable"><h5>Sub-heading</h5>with some unfoldable descripton</div>
         <div slot="foldable">
-          <div slot="unfoldable-leaf">A leaf item: no unfoldable part</div>
+          <div slot="unfoldable-leaf">Leaf item: no foldable part</div>
         </div>
       </folder-div>
     </div>
