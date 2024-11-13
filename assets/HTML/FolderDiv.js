@@ -112,6 +112,7 @@ const FolderDivTemplateStyle = `
       display: flex;
       flex-direction: column;
       padding-left: .5em;
+      border-bottom: inset 1px;
     }
 
     /* Foldable content */

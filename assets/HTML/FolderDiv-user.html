@@ -1,25 +1,11 @@
 <HTML>
 <HEAD>
   <title>Foldable Hierarchy</title>
-  <script src="FolderDiv.js"></script>
-  <STYLE>
-
-    .unfoldable {
-      display: list-item;
-      border-bottom: inset 1px;
-      margin-left: 1em;
-    }
-    .unfoldable::marker {
-      content: "●  "; /*•*/
-      /*margin-left: .0em; /* cannot adjust spaces of ::marker! */
-    }
-
-
-  </STYLE>
 </HEAD>
 
 <BODY>
 
+<script src="FolderDiv.js"></script>
 
 <H3>Folder hierarchy with custom element <code>&lt;folder-div&gt;</code></H3>
 <div class="folder" style="margin-left: 1.5em;">
@@ -42,7 +28,7 @@
           </folder-div>
         </div>
       </folder-div>
-      <div class="unfoldable">Hai<br>...</div>
+      <div class="unfoldable-leaf">Hai<br>...</div>
       <folder-div>
         <div slot="unfoldable">Deux</div>
         <div slot="foldable">
