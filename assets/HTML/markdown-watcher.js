@@ -7,8 +7,8 @@
 const mdi = window.markdownit({
     html: true, // allow HTML tags in markdown code
     linkify: true, // parse link-like texts
-    breaks: false, // Convert '\n' in paragraphs into <br>
-    typographer: false, // replace (c) by © etc.
+    breaks: true, // Convert '\n' in paragraphs into <br>
+    typographer: false, // replace quotes by curly quotes, (c) by © etc.
     highlight: function(str, lang) {
         if (!lang || !hljs.getLanguage(lang)) {
             return ''; // use external default escaping
@@ -198,7 +198,7 @@ async function load(forced) {
         updateURL(exportUrlHtml, b);
     }
     if(doNormalizeMarkdown.checked){
-        //restructureToFolderDiv(mdhtml, /*root*/true);
+        restructureToFolderDiv(mdhtml, /*root*/true);
     }
 
     mdhtml.style.display = 'none';
@@ -731,8 +731,8 @@ function restructureToFolderDiv(node, root=false){
     }
 
     // convert remaining parts, including <ul> & sub-headings, to <div slot="foldable">
-    let br = node.children[0]; // remove remaining line break after a.logseq-meta
-    if(br && br.tagName=='BR'){ node.remove(br); }
+    let br = foldable.children[0]; // remove remaining line break after a.logseq-meta
+    if(br && br.tagName=='BR'){ foldable.remove(br); }
     for(let n of Array.from(node.childNodes)){
         foldable.append(n);
         if(n.tagName=='UL') for(let li of n.children){
