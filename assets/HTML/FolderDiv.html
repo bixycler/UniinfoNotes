@@ -39,7 +39,7 @@
     #isFolded {
       display: none;
     }
-    label {
+    #isFolded + label {
       color: var(--control-foreground);
     }
     #isFolded + label:hover {
@@ -109,8 +109,12 @@
       </div>
     </label>
     <div id="contents" part="contents" style="display:flex; flex-direction:column;">
-      <label for="isFolded" id="heading" part="heading" style="display:none;">\|/</label>
-      <div class="unfoldable"><slot name="unfoldable" id="unfoldable"></slot></div>
+      <div class="unfoldable">
+        <label for="isFolded" id="heading" part="heading">
+          <slot name="heading"></slot>
+        </label>
+        <slot name="unfoldable" id="unfoldable"></slot>
+      </div>
       <div class="foldable"><slot name="foldable"></slot></div>
     </div>
   <!--/folder-div-->
@@ -138,8 +142,8 @@
       this.arrow = shadowRoot.getElementById("arrow");
       this.stemLine = shadowRoot.getElementById("stemLine");
       this.contents = shadowRoot.getElementById("contents");
-      this.unfoldable = shadowRoot.getElementById("unfoldable");
       this.heading = shadowRoot.getElementById("heading");
+      this.unfoldable = shadowRoot.getElementById("unfoldable");
 
       this.unfoldable.addEventListener('slotchange', (e)=>{
         let udiv = this.unfoldable.assignedElements()[0];
