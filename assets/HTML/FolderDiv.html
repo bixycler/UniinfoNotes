@@ -1,23 +1,29 @@
 <HTML>
 <HEAD>
   <title>Foldable Hierarchy</title>
-  <STYLE>
+</HEAD>
 
+<BODY>
+
+  <style id="folder-div-style">
     .unfoldable {
       display: list-item;
       border-bottom: inset 1px;
       margin-left: 1em;
     }
     .unfoldable::marker {
-      content: "●  "; /*•*/
-      /*margin-left: .0em; /* cannot adjust spaces of ::marker! */
+      color: var(--control-foreground);
+      content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
+
+      /* cannot adjust spaces of ::marker! They are always reset!
+      margin-left: .5em !important;
+      padding-left: .5em !important;
+      text-indent: .5em !important;
+      text-align: center !important;
+      text-align-last: center !important;
+      */
     }
-
-
-  </STYLE>
-</HEAD>
-
-<BODY>
+  </style>
 
 <template id="folder-div">
   <style>
@@ -30,7 +36,8 @@
       flex-direction:row;
       align-items: stretch;
 
-      --control-foreground: grey;
+      --control-foreground: DimGray;
+      --stem-line-foreground: WhiteSmoke;
       --control-foreground-hover: blue;
 
     }
@@ -58,7 +65,7 @@
     /* The stem line aligning unfolded content */
     
     #stemLine {
-      background-color: var(--control-foreground);
+      background-color: var(--stem-line-foreground);
       display: none;
     }
     label:hover #stemLine {
@@ -110,6 +117,10 @@
   <!--/folder-div-->
 </template>
 <script>
+  FolderDivTemplate = document.getElementById("folder-div").innerHTML; // FolderDiv.html
+  //const FolderDivTemplateHtml = ``; // FolderDiv.js
+  //const FolderDivTemplateStyle = ``; // FolderDiv.js
+  //const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle; // FolderDiv.js
 
   class FolderDiv extends HTMLElement {
     static observedAttributes = ["folded"];
@@ -117,7 +128,8 @@
     constructor() {
       super();
       const shadowRoot = this.attachShadow({ mode: "open" });
-      this.template = document.getElementById("folder-div");
+      this.template = document.createElement('template');
+      this.template.innerHTML = FolderDivTemplate;
       shadowRoot.appendChild(this.template.content.cloneNode(true));
       this._internals = this.attachInternals();
 
@@ -129,7 +141,7 @@
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
-      console.log(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
+      //console.debug(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
       if(name == "folded"){
         this.isFolded.setAttribute("checked", newValue);
       }

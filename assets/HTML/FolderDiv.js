@@ -1,3 +1,59 @@
+//<script>
+  //FolderDivTemplate = document.getElementById("folder-div").innerHTML; // FolderDiv.html
+  //const FolderDivTemplateHtml = ``; // FolderDiv.js
+  //const FolderDivTemplateStyle = ``; // FolderDiv.js
+  //const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle; // FolderDiv.js
+
+  class FolderDiv extends HTMLElement {
+    static observedAttributes = ["folded"];
+
+    constructor() {
+      super();
+      const shadowRoot = this.attachShadow({ mode: "open" });
+      this.template = document.createElement('template');
+      this.template.innerHTML = FolderDivTemplate;
+      shadowRoot.appendChild(this.template.content.cloneNode(true));
+      this._internals = this.attachInternals();
+
+      this.isFolded = shadowRoot.getElementById("isFolded");
+      this.arrow = shadowRoot.getElementById("arrow");
+      this.stemLine = shadowRoot.getElementById("stemLine");
+      this.contents = shadowRoot.getElementById("contents");
+
+    }
+
+    attributeChangedCallback(name, oldValue, newValue) {
+      //console.debug(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
+      if(name == "folded"){
+        this.isFolded.setAttribute("checked", newValue);
+      }
+    }
+
+  }
+
+  customElements.define("folder-div", FolderDiv);
+
+//</script>
+
+//<template id="folder-div">
+const FolderDivTemplateHtml = `
+  <!--folder-div style="display:flex; flex-direction:row;"-->
+    <input type="checkbox" id="isFolded" />
+    <label for="isFolded" style="display:flex; flex-direction:column;">
+      <div id="arrow" part="arrow"></div>
+      <div style="display:flex; flex-direction:row; flex:1 0 0;">
+        <div style="flex:3"></div>
+        <div style="flex:1; line-height:0; font-size:0;" id="stemLine" part="stemLine">&nbsp;</div>
+        <div style="flex:3"></div>
+      </div>
+    </label>
+    <div id="contents" style="display:flex; flex-direction:column;">
+      <div class="unfoldable"><slot name="unfoldable"></slot></div>
+      <div class="foldable"><slot name="foldable"></slot></div>
+    </div>
+  <!--/folder-div-->
+`;
+
 const FolderDivTemplateStyle = `
   <style>
 
@@ -9,7 +65,8 @@ const FolderDivTemplateStyle = `
       flex-direction:row;
       align-items: stretch;
 
-      --control-foreground: grey;
+      --control-foreground: DimGray;
+      --stem-line-foreground: WhiteSmoke;
       --control-foreground-hover: blue;
 
     }
@@ -35,9 +92,9 @@ const FolderDivTemplateStyle = `
     }
 
     /* The stem line aligning unfolded content */
-    
+
     #stemLine {
-      background-color: var(--control-foreground);
+      background-color: var(--stem-line-foreground);
       display: none;
     }
     label:hover #stemLine {
@@ -73,51 +130,6 @@ const FolderDivTemplateStyle = `
   </style>
 `;
 
-const FolderDivTemplate = FolderDivTemplateStyle + `
-  <!--folder-div style="display:flex; flex-direction:row;"-->
-    <input type="checkbox" id="isFolded" />
-    <label for="isFolded" style="display:flex; flex-direction:column;">
-      <div id="arrow" part="arrow"></div>
-      <div style="display:flex; flex-direction:row; flex:1 0 0;">
-        <div style="flex:3"></div>
-        <div style="flex:1; line-height:0; font-size:0;" id="stemLine" part="stemLine">&nbsp;</div>
-        <div style="flex:3"></div>
-      </div>
-    </label>
-    <div id="contents" style="display:flex; flex-direction:column;">
-      <div class="unfoldable"><slot name="unfoldable"></slot></div>
-      <div class="foldable"><slot name="foldable"></slot></div>
-    </div>
-  <!--/folder-div-->
-`;
+const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle;
 
-
-
-class FolderDiv extends HTMLElement {
-  static observedAttributes = ["folded"];
-
-  constructor() {
-    super();
-    const shadowRoot = this.attachShadow({ mode: "open" });
-    this.template = document.createElement('template');
-    this.template.innerHTML = FolderDivTemplate;
-    shadowRoot.appendChild(this.template.content.cloneNode(true));
-    this._internals = this.attachInternals();
-
-    this.isFolded = shadowRoot.getElementById("isFolded");
-    this.arrow = shadowRoot.getElementById("arrow");
-    this.stemLine = shadowRoot.getElementById("stemLine");
-    this.contents = shadowRoot.getElementById("contents");
-
-  }
-
-  attributeChangedCallback(name, oldValue, newValue) {
-    console.log(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
-    if(name == "folded"){
-      this.isFolded.setAttribute("checked", newValue);
-    }
-  }
-
-}
-
-customElements.define("folder-div", FolderDiv);
+//</template>
