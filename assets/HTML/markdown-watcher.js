@@ -731,9 +731,11 @@ function restructureToFolderDiv(node){
 function md2html(md, looseList=false){
     let env = null;
     let tokens = mdi.parse(md, env);
-    if(looseList){
-        
+    const process = (token)=>{
+        if(looseList){ token.hidden = true; }
+        if(token.children){  }
     }
+    tokens.forEach(process);
     mdi.renderer.render(tokens, mdi.options, env)
 }
 
