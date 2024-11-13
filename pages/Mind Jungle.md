@@ -5091,6 +5091,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- For the new term ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) used in the custom element `<folder-div>`, i [researched](((66602f68-e23f-4b24-921e-b1a9fc0cc731))) ((667407ee-35ae-4d6f-8b58-89c19c0e0936)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6674066a-aeff-45af-96df-b0c2f278a2ae)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))), and drew ((667500cd-a31d-4828-9dc4-93948e27e534)).
 				  collapsed:: true
 				- For leaf items, don't use `<folder-div>`, just use `<div class="unfoldable">` with `<style id="folder-div-style">`
+				  collapsed:: true
 					- ```css
 					  .unfoldable {
 					    display: list-item;
