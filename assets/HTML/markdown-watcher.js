@@ -186,7 +186,8 @@ async function load(forced) {
     }
     mdtxt.value = md;
     omdhtml = mdhtml.innerHTML;
-    mdhtml.innerHTML = mdi.render(md);
+    //mdhtml.innerHTML = mdi.render(md);
+    mdhtml.innerHTML = md2html(md);
     let mdihtml = mdhtml.innerHTML;
     if(omdhtml==mdihtml){
         if(renderChoice.value==orenderChoice){
@@ -726,6 +727,11 @@ function restructureToFolderDiv(node){
     }
 }
 
+/** */
+function md2html(md, env){
+    let tokens = mdi.parse(md, env);
+    mdi.renderer.render(tokens, mdi.options, env)
+}
 
 //////////////////////////////////////////
 /////// Utilities
