@@ -730,12 +730,12 @@ function restructureToFolderDiv(node){
 function md2html(md, looseList=false){
 
     // parse Markdown to tokens
-    let env = null;
+    let env = {}; // metadata for renderer
     let tokens = mdi.parse(md, env);
 
     // process tokens
     const process = (token)=>{
-        if(looseList){ token.hidden = true; }
+        if(looseList){ token.hidden = false; }
         if(token.children){ token.children.forEach(process); }
     }
     tokens.forEach(process);
