@@ -181,7 +181,8 @@ async function load(forced) {
         md = normalizeMardown(md,
             /*flattenHeadings*/false,
             /*blankLineBeforeCodeBlock*/false,
-            /*looseList*/true
+            /*looseList*/true,
+            /*lineBreakAfterMetadata*/false
         );
     }
     mdtxt.value = md;
@@ -360,7 +361,8 @@ function loadPage() {
 function normalizeMardown(md,
     flattenHeadings = false,
     blankLineBeforeCodeBlock = false,
-    looseList = false
+    looseList = false,
+    lineBreakAfterMetadata = false
 ){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
@@ -399,7 +401,7 @@ function normalizeMardown(md,
             }
             for(let j in props){ meta += `data-${j}="${props[j]}" `; }
             if(logbook){ meta += `data-logbook="${logbook}" `; }
-            meta += '></a>  '; // two trailing space for line break!
+            meta += '></a>' + (lineBreakAfterMetadata ? '  ' : ''); // two trailing space for line break!
             nmd = nmd.slice(0, -1) + ' '+meta+'\n';
             logbook = ''; props = {};
         }
@@ -707,7 +709,6 @@ function replaceQuotes(ln){
 
 /** Restructure item lists to <folder-div> */
 function restructureToFolderDiv(node, root=false){
-    console.debug('convert ',node);
     // convert <li> to <folder-div>
     let unfoldable = document.createElement("div");
         unfoldable.setAttribute('slot', 'unfoldable');
@@ -725,15 +726,12 @@ function restructureToFolderDiv(node, root=false){
     unfoldable.append(title);
     let f = null; // foldable <- the remaining part after a.logseq-meta
     for(let n of Array.from(title.childNodes)){
-        console.debug(f,'<',n);
         f && f.append(n);
         if(n.tagName=='A' && n.classList.contains('logseq-meta')){ f = foldable; }
     }
 
     // convert remaining parts, including <ul> & sub-headings, to <div slot="foldable">
-    console.debug('foldable < ',node.childNodes);
     for(let n of Array.from(node.childNodes)){
-        console.debug('foldable <',n);
         foldable.append(n);
         if(n.tagName=='UL') for(let li of n.children){
             restructureToFolderDiv(li);
