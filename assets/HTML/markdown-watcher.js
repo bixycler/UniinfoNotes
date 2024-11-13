@@ -727,16 +727,16 @@ function restructureToFolderDiv(node, root=false){
     let f = null; // foldable <- the remaining part after a.logseq-meta
     for(let n of Array.from(title.childNodes)){
         f && f.append(n);
-        if(n.tagName=='BR' || n.tagName=='A' && n.classList.contains('logseq-meta')){ f = foldable; }
+        let meta = n.tagName=='A' && n.classList.contains('logseq-meta');
+        if(n.tagName=='BR' || meta){
+            f = foldable;
+            if(meta && n.getAttribute('data-collapsed')){ folder.setAttribute('folded',true); }
+        }
     }
 
     // convert remaining parts, including <ul> & sub-headings, to <div slot="foldable">
     let br = foldable.children[0]; // remove remaining line break after a.logseq-meta
-    if(br && br.tagName=='BR'){
-        console.debug('before:',foldable.childNodes)
-        foldable.remove(br);
-        console.debug('after:',foldable.childNodes)
-    }
+    if(br && br.tagName=='BR'){ br.remove(); }
     for(let n of Array.from(node.childNodes)){
         foldable.append(n);
         if(n.tagName=='UL') for(let li of n.children){
