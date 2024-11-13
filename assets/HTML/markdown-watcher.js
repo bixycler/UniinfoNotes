@@ -749,10 +749,8 @@ function restructureToFolderDiv(node, root=false){
   // convert <li> to <folder-div>
   let unfoldable = document.createElement("div");
     unfoldable.setAttribute('slot', 'unfoldable');
-    unfoldable.setAttribute('class', 'unfoldable');
   let foldable = document.createElement("div");
     foldable.setAttribute('slot', 'foldable');
-    foldable.setAttribute('class', 'foldable');
   let folder = document.createElement("folder-div");
     folder.append(unfoldable, foldable);
 
@@ -785,7 +783,7 @@ function restructureToFolderDiv(node, root=false){
 
   // leaf item = item with no foldable part => just use <div class="unfoldable">
   if(!foldable.childNodes.length){
-    unfoldable.setAttribute('class', 'unfoldable-leaf');
+    unfoldable.setAttribute('slot', 'unfoldable-leaf');
     folder = unfoldable;
   }
 

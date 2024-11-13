@@ -139,13 +139,13 @@ const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle;
 
 //<style id="folder-div-style">
 const FolderDivStyle = `
-    .unfoldable-leaf {
+    div[slot="unfoldable-leaf"] {
       display: list-item;
       border-bottom: inset 1px;
       margin-left: 1em;
       padding-left: .5em;
     }
-    .unfoldable-leaf::marker {
+    div[slot="unfoldable-leaf"]::marker {
       color: var(--control-foreground);
       content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
     }

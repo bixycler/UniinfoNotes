@@ -6,13 +6,13 @@
 <BODY>
 
   <style id="folder-div-style">
-    .unfoldable-leaf {
+    div[slot="unfoldable-leaf"] {
       display: list-item;
       border-bottom: inset 1px;
       margin-left: 1em;
       padding-left: .5em;
     }
-    .unfoldable-leaf::marker {
+    div[slot="unfoldable-leaf"]::marker {
       color: var(--control-foreground);
       content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
     }
@@ -173,7 +173,7 @@
               </folder-div>
             </div>
           </folder-div>
-          <div class="unfoldable-leaf">Hai<br>...</div>
+          <div slot="unfoldable-leaf">Hai<br>...</div>
           <folder-div>
             <div slot="unfoldable">Deux</div>
             <div slot="foldable">
@@ -185,7 +185,7 @@
       <folder-div>
         <div slot="unfoldable"><h5>Sub-heading</h5>with some unfoldable descripton</div>
         <div slot="foldable">
-          <div class="unfoldable-leaf">A leaf item: no unfoldable part</div>
+          <div slot="unfoldable-leaf">A leaf item: no unfoldable part</div>
         </div>
       </folder-div>
     </div>
