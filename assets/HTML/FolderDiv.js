@@ -142,6 +142,7 @@ const FolderDivStyle = `
       display: list-item;
       border-bottom: inset 1px;
       margin-left: 1em;
+      padding-left: .5em;
     }
     .unfoldable-leaf::marker {
       color: var(--control-foreground);
