@@ -110,8 +110,8 @@
     </label>
     <div id="contents" part="contents" style="display:flex; flex-direction:column;">
       <div class="unfoldable">
-        <label for="isFolded" id="heading" part="heading">
-          <slot name="heading"></slot>
+        <label for="isFolded" part="heading">
+          <slot name="heading" id="heading"></slot>
         </label>
         <slot name="unfoldable" id="unfoldable"></slot>
       </div>
@@ -150,8 +150,7 @@
         let h = udiv.children[0];
         if(h && h.tagName.startsWith('H')){
           console.debug(h);
-          this.heading.append(h);
-          this.heading.style.display = 'block';
+          this.heading.assign(h);
         }
       });
     }
