@@ -4380,8 +4380,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  collapsed:: true
 										- This line has no effect with normal text, but adds new code block after code block!
 									- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Hack: set all `markdown-it`'s tokens `"hidden": false`.
-										- break down `MarkdownIt.render()` into:
-										  Markdown →`MarkdownIt.parse()`→ token stream →`Renderer.render()`→ HTML
+										- break down `mdi.render()` into:
+										  Markdown →`mdi.parse()`→ token stream →`mdi.renderer.render()`→ HTML
+										  with `mdi = window.markdownit() || new MarkdownIt()`
+											- Ref source code: [MarkdownIt.prototype.render](https://github.com/markdown-it/markdown-it/blob/master/lib/index.mjs#L516)
+											- Token debug: tab `debug` in [Live demo](https://markdown-it.github.io/)
 									- `markdown-it` should have a rule to disable “tight list” feature.
 								- Some convenstions, like [blankLineBeforeCodeBlock](((6731f764-27ba-4a06-b9ca-5817104478f0))), require loose list.
 								- The `<p>` wrapping is also convenient for [`<div slot="unfoldable">` in `<folder-div>`](((672e0320-dc07-4c6e-8832-341aaa90cd2a))).
