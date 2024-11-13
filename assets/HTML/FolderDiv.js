@@ -3,6 +3,7 @@
   //const FolderDivTemplateHtml = ``; // FolderDiv.js
   //const FolderDivTemplateStyle = ``; // FolderDiv.js
   //const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle; // FolderDiv.js
+  //const FolderDivStyle = ``; // FolderDiv.js
 
   class FolderDiv extends HTMLElement {
     static observedAttributes = ["folded"];
@@ -53,6 +54,8 @@ const FolderDivTemplateHtml = `
     </div>
   <!--/folder-div-->
 `;
+
+const FolderDivStyle
 
 const FolderDivTemplateStyle = `
   <style>
@@ -133,3 +136,23 @@ const FolderDivTemplateStyle = `
 const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle;
 
 //</template>
+
+//<style id="folder-div-style">
+const FolderDivStyle = `
+    .unfoldable {
+      display: list-item;
+      border-bottom: inset 1px;
+      margin-left: 1em;
+    }
+    .unfoldable::marker {
+      color: var(--control-foreground);
+      content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
+    }
+`;
+//</style>
+
+function addFolderDivStyle(){
+  let style = document.createElement('style');
+  style.setAttribute
+  document.querySelector('body').append()
+}()
