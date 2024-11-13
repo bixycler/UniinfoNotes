@@ -718,7 +718,7 @@ function restructureToFolderDiv(node){
     // Note: Use looseList to wrap all item contents into <p>, then use node.children[0], instead of node.childNodes[] which always contains meaningless newline-only text nodes
     let title = node.children[0];
     for(let n of title.children){
-
+        
     }
 
     // convert remaining parts, including sub-headings & <ul>, to <div slot="foldable">
