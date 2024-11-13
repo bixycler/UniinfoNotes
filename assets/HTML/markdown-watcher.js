@@ -726,6 +726,7 @@ function restructureToFolderDiv(node, root=false){
   unfoldable.append(title);
   let f = null; // foldable <- the remaining part after a.logseq-meta
   for(let n of Array.from(title.childNodes)){
+    if(n.nodeType==Node.TEXT_NODE && n.data=='\n'){ continue; } // \n is meaningless in HTML
     f && f.append(n);
     let meta = n.tagName=='A' && n.classList.contains('logseq-meta');
     if(n.tagName=='BR' || meta){
@@ -738,6 +739,7 @@ function restructureToFolderDiv(node, root=false){
   let br = foldable.children[0]; // remove remaining line break after a.logseq-meta
   if(br && br.tagName=='BR'){ br.remove(); }
   for(let n of Array.from(node.childNodes)){
+    if(n.nodeType==Node.TEXT_NODE && n.data=='\n'){ continue; } // \n is meaningless in HTML
     foldable.append(n);
     if(n.tagName=='UL') for(let li of n.children){
       restructureToFolderDiv(li);
@@ -746,7 +748,6 @@ function restructureToFolderDiv(node, root=false){
 
   // leaf item = item with no foldable part => just use <div class="unfoldable">
   if(!foldable.childNodes.length){
-    console.debug('leaf:',unfoldable);
     unfoldable.setAttribute('class', 'unfoldable-leaf');
     folder = unfoldable;
   }
