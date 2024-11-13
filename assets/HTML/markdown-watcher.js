@@ -25,11 +25,6 @@ const DocRaptorStyle = `
     margin: 20px;
   }
 
-  /* fix inconsistent line spacing between <pre>-wrapped and unwrapped items */
-  li pre, .unfoldable pre {
-      margin-top: 5px;
-      margin-bottom: 0px;
-  }
 
   /* <details> */
   details {
