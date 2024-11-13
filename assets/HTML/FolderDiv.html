@@ -140,8 +140,9 @@
       this.contents = shadowRoot.getElementById("contents");
       this.unfoldable = shadowRoot.getElementById("unfoldable");
       this.heading = shadowRoot.getElementById("heading");
-
-      console.debug('this.unfoldable',Array.from(this.unfoldable.childNodes));
+    }
+    connectedCallback() {
+      console.debug('this.unfoldable',this.unfoldable.assignedNodes());
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
