@@ -196,7 +196,9 @@ async function load(forced) {
         let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
         updateURL(exportUrlHtml, b);
     }
-    restructureToFolderDiv(mdhtml, /*root*/true);
+    if(doNormalizeMarkdown.checked){
+        restructureToFolderDiv(mdhtml, /*root*/true);
+    }
 
     mdhtml.style.display = 'none';
     mdpdf.style.display = 'none';
@@ -726,7 +728,9 @@ function restructureToFolderDiv(node, root=false){
     for(let n of node.children){
         if(title){ title = null; continue; }
         foldable.append(n);
-        if(n.tagName=='UL') for(let li of n.children){ restructureToFolderDiv(li); }
+        if(n.tagName=='UL') for(let li of n.children){
+            restructureToFolderDiv(li);
+        }
     }
 
     // then replace this node with the <folder-div>
