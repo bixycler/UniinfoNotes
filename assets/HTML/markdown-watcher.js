@@ -728,8 +728,12 @@ function restructureToFolderDiv(node){
 }
 
 /** */
-function md2html(md, env){
+function md2html(md, looseList=false){
+    let env = null;
     let tokens = mdi.parse(md, env);
+    if(looseList){
+        
+    }
     mdi.renderer.render(tokens, mdi.options, env)
 }
 
