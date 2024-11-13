@@ -718,6 +718,7 @@ function restructureToFolderDiv(node, root=false){
 
     // convert title to <div slot="unfoldable">, title = first child, from start to a.logseq-meta
     // Note: Use looseList to wrap all item contents into <p>, then use node.children[0], instead of node.childNodes[] which always contains meaningless newline-only text nodes
+    // Note: Must store childNodes in array before access, because childNodes will be modified in-the-loop when a child n is moved away by f.append(n)
     let title = node.children[0];
     unfoldable.append(title);
     let f = null; // foldable <- the remaining part after a.logseq-meta
