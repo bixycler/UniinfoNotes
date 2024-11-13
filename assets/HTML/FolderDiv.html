@@ -143,6 +143,10 @@
     }
     connectedCallback() {
       console.debug('this.unfoldable',this.unfoldable,this.unfoldable.assignedNodes());
+      this.unfoldable.addEventListener('slotchange',
+        e => console.debug('slotchange',this.unfoldable,this.unfoldable.assignedNodes())
+      );
+
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
