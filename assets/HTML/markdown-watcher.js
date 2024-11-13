@@ -731,6 +731,8 @@ function restructureToFolderDiv(node, root=false){
     }
 
     // convert remaining parts, including <ul> & sub-headings, to <div slot="foldable">
+    let br = node.children[0]; // remove remaining line break after a.logseq-meta
+    if(br && br.tagName=='BR'){ node.remove(br); }
     for(let n of Array.from(node.childNodes)){
         foldable.append(n);
         if(n.tagName=='UL') for(let li of n.children){
