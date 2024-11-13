@@ -727,7 +727,7 @@ function restructureToFolderDiv(node){
     for(let n of node.children){
         if(title){ title = null; continue; }
         foldable.append(n);
-        if(n.tagName=='UL'){ restructureToFolderDiv(li); }
+        if(n.tagName=='UL') for(let li of n.children){ restructureToFolderDiv(li); }
     }
 }
 
