@@ -707,6 +707,7 @@ function replaceQuotes(ln){
 
 /** Restructure item lists to <folder-div> */
 function restructureToFolderDiv(node, root=false){
+    console.debug('convert ',node);
     // convert <li> to <folder-div>
     let unfoldable = document.createElement("div");
         unfoldable.setAttribute('slot', 'unfoldable');
@@ -718,16 +719,16 @@ function restructureToFolderDiv(node, root=false){
     // convert title to <div slot="unfoldable">, title = first child, from start to a.logseq-meta
     // Note: Use looseList to wrap all item contents into <p>, then use node.children[0], instead of node.childNodes[] which always contains meaningless newline-only text nodes
     let title = node.children[0];
-    let f = unfoldable;
+    unfoldable.append(title);
+    let f = null;
     for(let n of title.childNodes){
-        f.append(n);
+        console.debug(f,'<',n);
+        f && f.append(n);
         if(n.tagName=='A' && n.classList.contains('logseq-meta')){ f = foldable; }
     }
 
     // convert remaining parts, including <ul> & sub-headings, to <div slot="foldable">
-    console.debug('convert ',node);
-    for(let n of node.children){
-        if(title){ title = null; continue; } // skip title, which has been processed above
+    for(let n of node.childNodes){
         console.debug('foldable <',n);
         foldable.append(n);
         if(n.tagName=='UL') for(let li of n.children){
