@@ -196,7 +196,7 @@ async function load(forced) {
         let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
         updateURL(exportUrlHtml, b);
     }
-    restructureToFolderDiv(mdhtml);
+    restructureToFolderDiv(mdhtml, /*root*/true);
 
     mdhtml.style.display = 'none';
     mdpdf.style.display = 'none';
@@ -704,7 +704,7 @@ function replaceQuotes(ln){
 }
 
 /** Restructure item lists to <folder-div> */
-function restructureToFolderDiv(node){
+function restructureToFolderDiv(node, root=false){
     // convert <li> to <folder-div>
     let unfoldable = document.createElement("div");
         unfoldable.setAttribute('slot', 'unfoldable');
@@ -712,7 +712,6 @@ function restructureToFolderDiv(node){
         foldable.setAttribute('slot', 'foldable');
     let folder = document.createElement("folder-div");
         folder.append(unfoldable, foldable);
-    node.replaceWith(folder);
 
     // convert title to <div slot="unfoldable">, title = first child, from start to a.logseq-meta
     // Note: Use looseList to wrap all item contents into <p>, then use node.children[0], instead of node.childNodes[] which always contains meaningless newline-only text nodes
@@ -728,6 +727,14 @@ function restructureToFolderDiv(node){
         if(title){ title = null; continue; }
         foldable.append(n);
         if(n.tagName=='UL') for(let li of n.children){ restructureToFolderDiv(li); }
+    }
+
+    // then replace this node with the <folder-div>
+    if(root){ // don't replace root! Instead, append(folder)
+        node.innerHTML = '';
+        node.append(folder);
+    }else{
+        node.replaceWith(folder);
     }
 }
 
