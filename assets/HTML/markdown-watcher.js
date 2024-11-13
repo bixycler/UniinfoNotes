@@ -725,8 +725,10 @@ function restructureToFolderDiv(node, root=false){
     }
 
     // convert remaining parts, including <ul> & sub-headings, to <div slot="foldable">
+    console.debug('convert ',node);
     for(let n of node.children){
-        if(title){ title = null; continue; }
+        if(title){ title = null; continue; } // skip title, which has been processed above
+        console.debug('foldable <',n);
         foldable.append(n);
         if(n.tagName=='UL') for(let li of n.children){
             restructureToFolderDiv(li);
