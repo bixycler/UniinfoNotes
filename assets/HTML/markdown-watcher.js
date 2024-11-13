@@ -91,6 +91,8 @@ const optAsHtml = document.getElementById("optAsHtml");
 const optAsPdf = document.getElementById("optAsPdf");
 const optAsPng = document.getElementById("optAsPng");
 const message = document.getElementById("message");
+const messageSummary = document.getElementById("messageSummary");
+const messageDetails = document.getElementById("messageDetails");
 const butLoadNow = document.getElementById("butLoadNow");
 const reloadInterval = document.getElementById("reloadInterval");
 const butToggleWatching = document.getElementById("butToggleWatching");
@@ -230,7 +232,7 @@ async function load(forced) {
 }
 
 function showError(msg, heading = 'Markdown loading error'){
-  showMessage(heading + (typeof(msg)==='string'? ': '+msg: '!'), 'brown');
+  showMessage(heading, (typeof(msg)==='string'? ': '+msg: '!'), 'brown');
 
   /* Chrome console error messages: GET ... {net:ERR_*, 404 (Not Found), ...}
   - Issue: those messages are browser's native and **cannot be controlled** by javascript (even they are properly catched/handlled in the script).
@@ -238,8 +240,9 @@ function showError(msg, heading = 'Markdown loading error'){
   - Note that `mdimg.src = freq` is actually a GET request in disguise!
   */
 }
-function showMessage(msg, color='green'){
-  message.innerHTML = msg;
+function showMessage(heading, msg, color='green'){
+  messageSummary.innerHTML = heading;
+  messageDetails.innerHTML = msg;
   message.style.color = color;
   message.style.display = 'block';
 }
