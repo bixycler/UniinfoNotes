@@ -719,7 +719,7 @@ function restructureToFolderDiv(node, root=false){
     let folder = document.createElement("folder-div");
         folder.append(unfoldable, foldable);
 
-    // convert title to <div slot="unfoldable">, title = first child, from start to a.logseq-meta
+    // convert title to <div slot="unfoldable">, title = first line in first child, from start to a.logseq-meta or <br>
     // Note: Use looseList to wrap all item contents into <p>, then use node.children[0], instead of node.childNodes[] which always contains meaningless newline-only text nodes
     // Note: Must store childNodes in array before access, because childNodes will be modified in-the-loop when a child n is moved away by f.append(n)
     let title = node.children[0];
@@ -727,12 +727,16 @@ function restructureToFolderDiv(node, root=false){
     let f = null; // foldable <- the remaining part after a.logseq-meta
     for(let n of Array.from(title.childNodes)){
         f && f.append(n);
-        if(n.tagName=='A' && n.classList.contains('logseq-meta')){ f = foldable; }
+        if(n.tagName=='BR' || n.tagName=='A' && n.classList.contains('logseq-meta')){ f = foldable; }
     }
 
     // convert remaining parts, including <ul> & sub-headings, to <div slot="foldable">
     let br = foldable.children[0]; // remove remaining line break after a.logseq-meta
-    if(br && br.tagName=='BR'){ foldable.remove(br); }
+    if(br && br.tagName=='BR'){
+        console.debug('before:',foldable.childNodes)
+        foldable.remove(br);
+        console.debug('after:',foldable.childNodes)
+    }
     for(let n of Array.from(node.childNodes)){
         foldable.append(n);
         if(n.tagName=='UL') for(let li of n.children){
