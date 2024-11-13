@@ -232,7 +232,8 @@ async function load(forced) {
 }
 
 function showError(msg, heading = 'Markdown loading error'){
-  showMessage(heading, (typeof(msg)==='string'? ': '+msg: '!'), 'brown');
+  if(typeof(msg)==='string'){ heading += ': '; }else{ msg += '!'; }
+  showMessage(heading, msg, 'brown');
 
   /* Chrome console error messages: GET ... {net:ERR_*, 404 (Not Found), ...}
   - Issue: those messages are browser's native and **cannot be controlled** by javascript (even they are properly catched/handlled in the script).
@@ -245,10 +246,13 @@ function showMessage(heading, msg, color='green'){
   messageDetails.innerHTML = msg;
   message.style.color = color;
   message.style.display = 'block';
+  //message.setAttribute('open',true);
 }
 function clearMessage(){
-  message.innerHTML = '';
+  messageSummary.innerHTML = '';
+  messageDetails.innerHTML = '';
   message.style.display = 'none';
+  //message.removeAttribute('open');
 }
 
 function watch(){
