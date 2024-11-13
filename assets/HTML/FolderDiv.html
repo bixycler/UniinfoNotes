@@ -140,12 +140,18 @@
       this.contents = shadowRoot.getElementById("contents");
       this.unfoldable = shadowRoot.getElementById("unfoldable");
       this.heading = shadowRoot.getElementById("heading");
+
+      this.unfoldable.addEventListener('slotchange', (e)=>{
+        let udiv = this.unfoldable.assignedElements()[0];
+        let h = udiv.children[0];
+        if(h && h.tagName.startsWith('H')){
+          console.debug(h);
+          this.heading.append(h);
+          this.heading.style.display = 'block';
+        }
+      });
     }
     connectedCallback() {
-      console.debug('this.unfoldable',this.unfoldable,this.unfoldable.assignedNodes());
-      this.unfoldable.addEventListener('slotchange',
-        e => console.debug('slotchange',this.unfoldable,this.unfoldable.assignedNodes())
-      );
 
     }
 
