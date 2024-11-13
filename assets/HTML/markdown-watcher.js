@@ -720,15 +720,16 @@ function restructureToFolderDiv(node, root=false){
     // Note: Use looseList to wrap all item contents into <p>, then use node.children[0], instead of node.childNodes[] which always contains meaningless newline-only text nodes
     let title = node.children[0];
     unfoldable.append(title);
-    let f = null;
-    for(let n of title.childNodes){
+    let f = null; // foldable <- the remaining part after a.logseq-meta
+    for(let n of Array.from(title.childNodes)){
         console.debug(f,'<',n);
         f && f.append(n);
         if(n.tagName=='A' && n.classList.contains('logseq-meta')){ f = foldable; }
     }
 
     // convert remaining parts, including <ul> & sub-headings, to <div slot="foldable">
-    for(let n of node.childNodes){
+    console.debug('foldable < ',node.childNodes);
+    for(let n of Array.from(node.childNodes)){
         console.debug('foldable <',n);
         foldable.append(n);
         if(n.tagName=='UL') for(let li of n.children){
