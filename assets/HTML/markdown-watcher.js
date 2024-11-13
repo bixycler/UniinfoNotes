@@ -744,6 +744,9 @@ function restructureToFolderDiv(node, root=false){
     }
   }
 
+  // leaf item = item with no foldable part
+  if(foldable.childNodes)
+
   // then replace this node with the <folder-div>
   if(root){ // don't replace root! Instead, append(folder)
     node.innerHTML = '';

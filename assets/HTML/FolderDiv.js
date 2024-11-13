@@ -4,6 +4,7 @@
   //const FolderDivTemplateStyle = ``; // FolderDiv.js
   //const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle; // FolderDiv.js
   //const FolderDivStyle = ``; // FolderDiv.js
+  //(function(){...style.innerHTML = FolderDivStyle...}()); // FolderDiv.js
 
   class FolderDiv extends HTMLElement {
     static observedAttributes = ["folded"];
@@ -54,8 +55,6 @@ const FolderDivTemplateHtml = `
     </div>
   <!--/folder-div-->
 `;
-
-const FolderDivStyle
 
 const FolderDivTemplateStyle = `
   <style>
@@ -151,8 +150,9 @@ const FolderDivStyle = `
 `;
 //</style>
 
-function addFolderDivStyle(){
+(function(){
   let style = document.createElement('style');
-  style.setAttribute
-  document.querySelector('body').append()
-}()
+  style.setAttribute('id', 'folder-div-style');
+  style.innerHTML = FolderDivStyle;
+  document.querySelector('body').append(style);
+}());
