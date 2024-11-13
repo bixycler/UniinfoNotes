@@ -25,6 +25,12 @@ const DocRaptorStyle = `
     margin: 20px;
   }
 
+  /* fix inconsistent line spacing between <pre>-wrapped and unwrapped items */
+  li pre, .unfoldable pre {
+      margin-top: 5px;
+      margin-bottom: 0px;
+  }
+
   /* <details> */
   details {
     display: block
@@ -34,9 +40,17 @@ const DocRaptorStyle = `
   }
 
   /* <folder-div> */
-  folder-div div[slot="unfoldable"] {
-    display: block
+  folder-div, .unfoldable-leaf {
+    display: list-item;
+    //border-bottom: inset 1px;
+    margin-left: 1em;
+    padding-left: .5em;
   }
+  folder-div::marker, .unfoldable-leaf::marker {
+    color: DimGray;
+    content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
+  }
+
 </style>
 `;
 const DocRaptorApiKey = "m7Dhrn_AsezV94C3VL-B";
