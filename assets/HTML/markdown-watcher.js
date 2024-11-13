@@ -746,6 +746,8 @@ function restructureToFolderDiv(node, root=false){
 
   // leaf item = item with no foldable part => just use <div class="unfoldable">
   if(!foldable.childNodes.length){
+    console.debug('leaf:',unfoldable);
+    unfoldable.setAttribute('class', 'unfoldable-leaf');
     folder = unfoldable;
   }
 
