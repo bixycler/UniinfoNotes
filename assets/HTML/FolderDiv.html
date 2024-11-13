@@ -108,9 +108,9 @@
         <div style="flex:3"></div>
       </div>
     </label>
-    <div id="contents" style="display:flex; flex-direction:column;">
+    <div id="contents" part="contents" style="display:flex; flex-direction:column;">
       <label for="isFolded" id="heading" part="heading" style="display:none;">\|/</label>
-      <div class="unfoldable" part="unfoldable"><slot name="unfoldable"></slot></div>
+      <div class="unfoldable"><slot name="unfoldable" id="unfoldable"></slot></div>
       <div class="foldable"><slot name="foldable"></slot></div>
     </div>
   <!--/folder-div-->
@@ -138,7 +138,10 @@
       this.arrow = shadowRoot.getElementById("arrow");
       this.stemLine = shadowRoot.getElementById("stemLine");
       this.contents = shadowRoot.getElementById("contents");
+      this.unfoldable = shadowRoot.getElementById("unfoldable");
+      this.heading = shadowRoot.getElementById("heading");
 
+      console.debug('this.unfoldable',Array.from(this.unfoldable.childNodes));
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
