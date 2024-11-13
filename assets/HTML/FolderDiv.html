@@ -55,6 +55,11 @@
       content: '▼';
     }
 
+    #headingControl {
+      display: block;
+      position: absolute;
+    }
+
     /* The stem line aligning unfolded content */
     
     #stemLine {
@@ -96,7 +101,7 @@
 
   <!--folder-div style="display:flex; flex-direction:row;"-->
     <input type="checkbox" id="isFolded" />
-    <label for="isFolded" style="display:flex; flex-direction:column;">
+    <label for="isFolded" id="sideControl" part="sideControl" style="display:flex; flex-direction:column;">
       <div id="arrow" part="arrow"></div>
       <div style="display:flex; flex-direction:row; flex:1 0 0;">
         <div style="flex:3"></div>
@@ -105,8 +110,8 @@
       </div>
     </label>
     <div id="contents" style="display:flex; flex-direction:column;">
+      <label for="isFolded" id="headingControl" part="headingControl" >\|/</label>
       <div class="unfoldable"><slot name="unfoldable"></slot></div>
-      <label for="isFolded">\|/</label>
       <div class="foldable"><slot name="foldable"></slot></div>
     </div>
   <!--/folder-div-->
