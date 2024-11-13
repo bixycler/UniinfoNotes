@@ -4373,6 +4373,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- `looseList` to avoiding the style inconsistency between “[loose lists](https://spec.commonmark.org/0.31.2/#loose)” and “tight lists”.
 							  id:: 67333634-482c-4446-95aa-dcd549cb27cd
 							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-11-13 Wed 09:31:57]
+							  :END:
 								- Issue: Any blank line in any list item makes that list “loose”, i.e., all other items in the same list (at the same level) will be wrapped in `<p>` which will be rendered different (more line space) from the unwrapped items of the default “tight list”.
 								- [!] Cannot make soliton lists “loose” simply with blank line!
 									- soliton list: only one item with no sub-list

@@ -186,8 +186,7 @@ async function load(forced) {
     }
     mdtxt.value = md;
     omdhtml = mdhtml.innerHTML;
-    //mdhtml.innerHTML = mdi.render(md);
-    mdhtml.innerHTML = md2html(md);
+    mdhtml.innerHTML = md2html(md, /*looseList*/true); //mdi.render(md);
     let mdihtml = mdhtml.innerHTML;
     if(omdhtml==mdihtml){
         if(renderChoice.value==orenderChoice){
@@ -729,14 +728,21 @@ function restructureToFolderDiv(node){
 
 /** */
 function md2html(md, looseList=false){
+
+    // parse Markdown to tokens
     let env = null;
     let tokens = mdi.parse(md, env);
+
+    // process tokens
     const process = (token)=>{
         if(looseList){ token.hidden = true; }
-        if(token.children){  }
+        if(token.children){ token.children.forEach(process); }
     }
     tokens.forEach(process);
-    mdi.renderer.render(tokens, mdi.options, env)
+
+    // then render it to HTML
+    let html = mdi.renderer.render(tokens, mdi.options, env)
+    return html;
 }
 
 //////////////////////////////////////////
