@@ -55,12 +55,6 @@
       content: '▼';
     }
 
-    #headingControl {
-      display: block;
-      position: absolute;
-      top: 3em;
-    }
-
     /* The stem line aligning unfolded content */
     
     #stemLine {
@@ -98,6 +92,10 @@
       display: block;
     }
 
+    #heading {
+      display: block;
+    }
+
   </style>
 
   <!--folder-div style="display:flex; flex-direction:row;"-->
@@ -110,9 +108,9 @@
         <div style="flex:3"></div>
       </div>
     </label>
-    <div id="contents" style="display:flex; flex-direction:column; position:relative;">
-      <label for="isFolded" id="headingControl" part="headingControl" style="position:absolute;">\|/</label>
-      <div class="unfoldable"><slot name="unfoldable"></slot></div>
+    <div id="contents" style="display:flex; flex-direction:column;">
+      <label for="isFolded" id="heading" part="heading" style="display:none;">\|/</label>
+      <div class="unfoldable" part="unfoldable"><slot name="unfoldable"></slot></div>
       <div class="foldable"><slot name="foldable"></slot></div>
     </div>
   <!--/folder-div-->
