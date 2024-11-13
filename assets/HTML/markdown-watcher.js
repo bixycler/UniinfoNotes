@@ -712,18 +712,22 @@ function restructureToFolderDiv(node){
         foldable.setAttribute('slot', 'foldable');
     let folder = document.createElement("folder-div");
         folder.append(unfoldable, foldable);
-    //node.replaceWith(folder);
+    node.replaceWith(folder);
 
     // convert title to <div slot="unfoldable">, title = first child, from start to a.logseq-meta
     // Note: Use looseList to wrap all item contents into <p>, then use node.children[0], instead of node.childNodes[] which always contains meaningless newline-only text nodes
     let title = node.children[0];
+    let f = unfoldable;
     for(let n of title.childNodes){
-        unfoldable.append(n);
-        if(n)
+        f.append(n);
+        if(n.tagName=='A' && n.classList.contains('logseq-meta')){ f = foldable; }
     }
 
-    // convert remaining parts, including sub-headings & <ul>, to <div slot="foldable">
-    for(let n of node.childNodes){
+    // convert remaining parts, including <ul> & sub-headings, to <div slot="foldable">
+    for(let n of node.children){
+        if(title){ title = null; continue; }
+        foldable.append(n);
+        if(n.tagName=='UL'){ restructureToFolderDiv(li); }
     }
 }
 
