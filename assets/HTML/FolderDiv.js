@@ -1,24 +1,29 @@
-<HTML>
-<HEAD>
-  <title>Foldable Hierarchy</title>
-</HEAD>
 
-<BODY>
+//start template id="folder-div">
+const FolderDivTemplateHtml = `
+  <!--folder-div style="display:flex; flex-direction:row;"-->
+    <input type="checkbox" id="isFolded" />
+    <label for="isFolded" id="sideControl" part="sideControl" style="display:flex; flex-direction:column;">
+      <div id="arrow" part="arrow"></div>
+      <div style="display:flex; flex-direction:row; flex:1 0 0;">
+        <div style="flex:3"></div>
+        <div style="flex:1; line-height:0; font-size:0;" id="stemLine" part="stemLine">&nbsp;</div>
+        <div style="flex:3"></div>
+      </div>
+    </label>
+    <div id="contents" part="contents" style="display:flex; flex-direction:column;">
+      <div class="unfoldable">
+        <label for="isFolded" part="heading">
+          <slot name="heading" id="heading"></slot>
+        </label>
+        <slot name="unfoldable" id="unfoldable"></slot>
+      </div>
+      <div class="foldable"><slot name="foldable"></slot></div>
+    </div>
+  <!--/folder-div-->
+`;
 
-  <style id="folder_div_style">
-    div[slot="unfoldable-leaf"] {
-      display: list-item;
-      border-bottom: inset 1px;
-      margin-left: 1em;
-      padding-left: .5em;
-    }
-    div[slot="unfoldable-leaf"]::marker {
-      color: var(--control-foreground);
-      content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
-    }
-  </style>
-
-<template id="folder-div">
+const FolderDivTemplateStyle = `
   <style>
 
     :root { /* ineffective, don't use this! Use :host instead. */
@@ -57,7 +62,7 @@
     }
 
     /* The stem line aligning unfolded content */
-    
+
     #stemLine {
       background-color: var(--stem-line-foreground);
       display: none;
@@ -101,30 +106,14 @@
     }
 
   </style>
+`;
 
-  <!--folder-div style="display:flex; flex-direction:row;"-->
-    <input type="checkbox" id="isFolded" />
-    <label for="isFolded" id="sideControl" part="sideControl" style="display:flex; flex-direction:column;">
-      <div id="arrow" part="arrow"></div>
-      <div style="display:flex; flex-direction:row; flex:1 0 0;">
-        <div style="flex:3"></div>
-        <div style="flex:1; line-height:0; font-size:0;" id="stemLine" part="stemLine">&nbsp;</div>
-        <div style="flex:3"></div>
-      </div>
-    </label>
-    <div id="contents" part="contents" style="display:flex; flex-direction:column;">
-      <div class="unfoldable">
-        <label for="isFolded" part="heading">
-          <slot name="heading" id="heading"></slot>
-        </label>
-        <slot name="unfoldable" id="unfoldable"></slot>
-      </div>
-      <div class="foldable"><slot name="foldable" id="foldable"></slot></div>
-    </div>
-  <!--/folder-div-->
-</template>
-<script>
-  FolderDivTemplate = document.getElementById("folder-div").innerHTML; // FolderDiv.html
+const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle;
+
+//end template>
+
+//start script>
+  //FolderDivTemplate = document.getElementById("folder-div").innerHTML; // FolderDiv.html
   //const FolderDivTemplateHtml = ``; // FolderDiv.js
   //const FolderDivTemplateStyle = ``; // FolderDiv.js
   //const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle; // FolderDiv.js
@@ -151,7 +140,8 @@
         this.unfoldable = shadowRoot.getElementById("unfoldable");
         this.foldable = shadowRoot.getElementById("foldable");
       //console.debug('FolderDiv.constructor()',this.contents);
-
+    }
+    connectedCallback() {
       this.unfoldable.addEventListener('slotchange', (e)=>{
         // detected and moved heading from unfoldable slot to heading slot
         let hdiv = this.heading.assignedElements()[0];
@@ -167,7 +157,7 @@
         }
       });
     }
-    connectedCallback() {
+    disconnectedCallback() {
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
@@ -199,60 +189,26 @@
 
   customElements.define("folder-div", FolderDiv);
 
-</script>
+//end script>
 
-<H2>Folder hierarchy with custom element <code>&lt;folder-div&gt;</code></H2>
-<div class="folder" style="margin-left: 1.5em;">
-  <folder-div>
-    <div slot="unfoldable"><h3>Heading</h3></div>
-    <div slot="foldable">
-      <folder-div>
-        <div slot="unfoldable">One</div>
-        <div slot="foldable">
-          <folder-div>
-            <div slot="unfoldable">Two<br>... multi-line unfoldable</div>
-            <div slot="foldable">
-              This line is a foldable content of Two <br>
-              but not a subfolder
-              <folder-div folded>
-                <div slot="unfoldable">Three
-                ... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long
-    ...
-                </div>
-                <div slot="foldable">
-                  ... <p>Ref: <a href="https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/">Creating a collapsible markdown on one page</a></p>
-                </div>
-              </folder-div>
-            </div>
-          </folder-div>
-          <div slot="unfoldable-leaf">Hai<br>...</div>
-          <folder-div>
-            <div slot="unfoldable">Deux</div>
-            <div slot="foldable">
-              See also <a href="FoldableDemo.html">FoldableDemo</a>
-            </div>
-          </folder-div>
-        </div>
-      </folder-div>
-      <folder-div>
-        <div slot="unfoldable"><h4>Sub-heading</h4>with some unfoldable descripton</div>
-        <div slot="foldable">
-          <div slot="unfoldable-leaf">Leaf item: no foldable part</div>
-          <folder-div>
-            <div slot="heading">This (plain) <b>heading</b> is slotted manually</div>
-            <div slot="unfoldable">
-              so that
-              <h5>this heading is kept in unfoldable, not moved to heading</h5>
-            </div>
-            <div slot="foldable">
-              <div slot="unfoldable-leaf">Leaf item: no foldable part</div>
-            </div>
-          </folder-div>
-        </div>
-      </folder-div>
-    </div>
-  </folder-div>
-</div>
+//start style id="folder_div_style">
+const FolderDivStyle = `
+    div[slot="unfoldable-leaf"] {
+      display: list-item;
+      border-bottom: inset 1px;
+      margin-left: 1em;
+      padding-left: .5em;
+    }
+    div[slot="unfoldable-leaf"]::marker {
+      color: var(--control-foreground);
+      content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
+    }
+`;
+//end style>
 
-</BODY>
-</HTML>
+(function(){
+  let style = document.createElement('style');
+  style.setAttribute('id', 'folder_div_style');
+  style.innerHTML = FolderDivStyle;
+  document.querySelector('body').append(style);
+}());

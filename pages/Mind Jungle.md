@@ -133,6 +133,135 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
 				-
+		- ### concepts
+		  collapsed:: true
+			- file mode bits
+			  collapsed:: true
+			  shown in ((671f4355-d2ad-46ca-af05-db330a8a4fec)) and in ((671f50a5-2987-4e65-b28d-7b08bdcf0a06)), modified by ((671f5863-b392-406a-b6d2-408902e37e29))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
+				- First char: file type {`-`,`d`,`l`,`p`,`s`,`c`,`b`} = {regular file, directory, symlink, FIFO named pipe, socket, character stream (terminal), random-access block device (disk)}
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unix_file_types
+				- Last 3×3 chars: (owner, group, other)×(`r`,`w`,{`x`,`s`,`S`})
+					- `r` = readable, `w` = writable
+					- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
+			- inode
+			  id:: 671f438b-617a-4fc5-88ee-e42f07b67b50
+			  collapsed:: true
+			  file index-data node
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Inode
+				- hard link
+				  id:: 671f5617-1163-4ffc-b65a-b3234e471db0
+				  is just an alias, i.e. a full-path-name, for an ((671f438b-617a-4fc5-88ee-e42f07b67b50)).
+					- All aliases are equivalent, no source/main name like ((671f5784-d89b-4a4a-a6e7-f02a0805322f)).
+					- `mv`/`rm` just move/remove names, not the inode. The inode is only removed when there's no name pointing to it.
+					- New MacOS (10.5+) and some (old) Linux distributions allow hard link of directory, but most modern Linux distributions prohibit it due to its ambiguousness
+			- symbolic link (symlink)
+			  id:: 671f5784-d89b-4a4a-a6e7-f02a0805322f
+			  collapsed:: true
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Symbolic_link
+				- Mimics:
+					- Windows' shortcut in GUI works similarly to symlink, but doesn't work at the command level.
+				- Equivalence: Git's symlink, [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
+					- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks). When `symlinks = false`, symbolic links are checked out as plain text files containing the target as text.
+		- ### commands
+			- process handling
+			  collapsed:: true
+				- pid
+				  := "process ID"
+				- ((66c6c8e6-54be-4b4f-80a1-c535d429d05c))
+				- `pidof`
+				  find the pid of a process via process name.
+				- `pgrep`, `pkill`, `pidwait`
+				  look up, signal, or wait for processes based on process name pattern and other attributes.
+				- `kill`, `killall`
+				  send a signal (`TERM`, `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid or process name.
+				- `pstree`
+				  display a tree of processes.
+				- `top`
+				  display "top CPU" processes similar to ((66c6bda1-7a64-4832-af2b-906b3beb8927)).
+				- `iftop`
+				  display "top network" interfaces.
+				- `nethogs`
+				  NetHogs displays 'net top' processes.
+			- window handling
+			  collapsed:: true
+				- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
+				- `xkill`
+				  kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
+				- `xprop`
+				  display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
+			- file management
+			  id:: 671f4028-c60f-4791-b716-e5226cdf410e
+			  collapsed:: true
+				- `ls`
+				  collapsed:: true
+				  list information about the FILEs (the current directory by default).
+					- `ll` = `ls -lhF`
+					  id:: 671f4355-d2ad-46ca-af05-db330a8a4fec
+					  long listing format
+						- Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)), user, group, size, date, file name
+						- number of files
+						  id:: 671f4447-71f3-4ae1-b22c-acc16ac67f5b
+							- for directory: number of files & sub-directories in that dir
+							- for file: number of hard links to this ((671f438b-617a-4fc5-88ee-e42f07b67b50))
+					- `-i`, `--inode`
+					  print the ((671f438b-617a-4fc5-88ee-e42f07b67b50)) number of each file
+				- `stat`
+				  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
+				  collapsed:: true
+				  status of file or file system
+					- Non-default info (`--format`)
+						- `%m` = mount point
+				- `tree`
+				  list contents of directories in a tree-like format.
+				- `find`
+				  collapsed:: true
+				  search for files in a directory hierarchy
+					- `-samefile $ref_file`
+					  id:: 671f544c-792b-4bd3-bfda-38c8d1fc2b01
+					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$ref_file`
+					- `-inum $inode_number`
+					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$inode_number`
+						- Note: This is just an old POSIX option, and it's much simpler to use ((671f544c-792b-4bd3-bfda-38c8d1fc2b01)) instead!
+						- To use this option, we must find the `$inode_number` first via `ls -i` or `stat -c %i`.
+							- Someone even wrote [a script](https://superuser.com/a/12976) using this method.
+							  collapsed:: true
+								- ```sh
+								  #!/bin/bash
+								  if [[ $# -lt 1 ]] ; then
+								      echo 'Usage: find-hard-links $target [$target2 ...]'
+								      exit 1
+								  fi
+								  
+								  while [[ $# -ge 1 ]] ; do
+								      echo "Processing '$1'"
+								      if [[ ! -r "$1" ]] ; then
+								          echo "   '$1' is not accessible"
+								      else
+								          numlinks=$(stat -c '%h' "$1")
+								          inode=$(stat -c '%i' "$1")
+								          mount=$(stat -c '%m' "$1")
+								          echo "   '$1' has inode ${inode} on mount point '${mount}'"
+								          find ${mount} -inum ${inode} 2>/dev/null | sed 's/^/        /'
+								      fi
+								      shift
+								  done
+								  ```
+				- `ln`
+				  collapsed:: true
+				  make links (hard & symbolic) between files
+					- default is to make ((671f5617-1163-4ffc-b65a-b3234e471db0)).
+					- `slink` = `ln -sv` (`--symbolic --verbose`)
+					  creates ((671f5784-d89b-4a4a-a6e7-f02a0805322f)) to this file.
+				- `chmod`
+				  id:: 671f5863-b392-406a-b6d2-408902e37e29
+				  change file mode bits
+				- `chown`
+				  change file owner and group
+				- `df`
+				  report file system disk space usage
+				- `du`
+				  estimate file space usage
 		- ### shell
 			- `man [-k]`, `info`, `[run-]help`, `apropos`
 			  collapsed:: true
@@ -539,24 +668,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Ref: [Install Nu Shell on Ubuntu 20.04](https://www.osradar.com/install-nu-shell-ubuntu/)
 					  collapsed:: true
 						- Note: Don't install ` --all-features` as instructed here, because some "raw" features make `polars-core` compilation error: `raw_table_mut()` method not found.
-		- ### commands
-			- process handling
-			  collapsed:: true
-				- "pid" := "process ID"
-				- ((66c6c8e6-54be-4b4f-80a1-c535d429d05c))
-				- `pidof`: find the pid of a process via process name.
-				- `pgrep`, `pkill`, `pidwait`:  look up, signal, or wait for processes based on process name pattern and other attributes.
-				- `kill`, `killall`: send a signal (`TERM`, `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid or process name.
-				- `pstree`: display a tree of processes.
-				- `top`: display Linux processes similar to ((66c6bda1-7a64-4832-af2b-906b3beb8927)).
-			- window handling
-			  collapsed:: true
-				- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
-				- `xkill`: kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
-				- `xprop`: display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
 		- ### editors
 		  collapsed:: true
 			- #### vim
+			  id:: 6716110f-c747-4dbe-9af4-5ebee764c436
 			  collapsed:: true
 			  Vi IMproved, a programmer's text editor
 				- directory browsing
@@ -812,23 +927,91 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## subject
 	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
 	  collapsed:: true
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) 
 	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Traditionally, “subject” is used to refer human only.
+			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+			  id:: 6729d6db-3a8c-49da-95b0-28e1b2cb9806
+			  collapsed:: true
+				- This is the viewpoint of [Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) and [Hylozoism](https://en.wikipedia.org/wiki/Hylozoism) which are development of the ancient [Animism](https://en.wikipedia.org/wiki/Animism).
+				- The [observer effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)) in Quantum Mechanics has shown that any particle can be an “observer” and the physicists do acknowledge it, but they are not serious about this fact.
+					- This [chat with Copilot](((6729d059-7750-4a60-aa6c-766ca9a94ece))) has shown the common attitude about “observer” which is far from particle.
+					- The traditional defintion of “observer” is anything behind the [Heisenberg cut](https://en.wikipedia.org/wiki/Heisenberg_cut) where **wave-function collapses**. This cut separates the observed system (object) which has wave property, and the the observing system (subject) which has particle property.
+						- In order to collapse a wave-function, the observer must be “heavy” enough, either with many particles or a particle with strong interaction. This is the probabilistic nature of the [law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers). So in this sense, the observer must be a classical system and cannot be a single [elementary particle](https://en.wikipedia.org/wiki/Elementary_particle).
+						- Ref: Can observers be particles? > [All you need is a system that is not in thermal equilibrium.](https://philosophy.stackexchange.com/a/7720)
+				- In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), we don't require an ((66727858-979d-4d95-8a90-7a749218cfba)) to be a [wave-function collapse](https://en.wikipedia.org/wiki/Wave_function_collapse), thus any interfactive particle is a subject of that interaction.
+				- Similar ideas
+					- The [Foundational Questions Institute (FQxI)](https://fqxi.org/) grants to researchers around the globe to work on issues ranging from the origin of the **arrow of time** in quantum gravity to the nature of **consciousness**.
+					- [George Rush](https://www.quora.com/profile/George-Rush-4) > [Do particle physicists consider particles conscious? If not, I think they should start as I have proof they might be.](https://www.quora.com/Do-particle-physicists-consider-particles-conscious-If-not-I-think-they-should-start-as-I-have-proof-they-might-be)
+					-
 		- subjective
 		  id:: 66c88055-a994-4e59-a7dc-83f3331a6e1d
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a thing is ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) when it's dependent on an individual subject.
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6728a766-210b-462b-8fd4-aee04981b4f9))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c82f42-16bb-4886-a32b-5c246187cfee))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) when it's dependent on an individual subject.
+			- subjectivity
+			  id:: 6728a766-210b-462b-8fd4-aee04981b4f9
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
 	- ## object
 	  id:: 667cfa42-ade7-4310-9a7b-6d14d01c16da
 	  collapsed:: true
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) 
 	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c82f42-16bb-4886-a32b-5c246187cfee))
 		- objective
 		  id:: 66c82f42-16bb-4886-a32b-5c246187cfee
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa42-ade7-4310-9a7b-6d14d01c16da))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a thing is ((66c82f42-16bb-4886-a32b-5c246187cfee)) when it's independent from individual subjects.
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6728a7ab-1629-4e23-bc56-10ead0d8348c))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((66c82f42-16bb-4886-a32b-5c246187cfee)) within a group of subjects when it's ((671b160c-0589-4f83-a778-a9fb4df6783a)) from all individual subjects in that group.
+			- objectivity
+			  id:: 6728a7ab-1629-4e23-bc56-10ead0d8348c
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c82f42-16bb-4886-a32b-5c246187cfee))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) is a thing that is ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))n by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), which may be another subject. The same object can be seen as many different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s by different subjects, which are called ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) images. The common of these forms is the ((66c82f42-16bb-4886-a32b-5c246187cfee)) image of the object.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) can only directly see the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of an object. All other properties like ((66727858-979d-4d95-8a90-7a749218cfba)) and/or ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that object, the subject must infer from the collections of the seen forms then attribute to the object.
+			- Relativity of ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) and ((6728a766-210b-462b-8fd4-aee04981b4f9))
+			  id:: 6728aa9a-9fb2-4afa-864f-0eb049ac771b
+			  collapsed:: true
+				- The common dichotomy is the [absolute objectivity versus absolute subjectivity](https://en.wikipedia.org/wiki/Subjectivity_and_objectivity_(philosophy)), whose ((6729c1c5-7eb2-408b-a205-f3039799d19c)) is _fixed by the human center, i.e. **human as the only subject**_: Anything independent from all humans (mind) is "objective", and anything dependent on human mind is "subjective".
+					- This dichotomy is human-absolute, i.e. relative to the whole mankind, i.e. mandkind as the ((6729b90b-1ee3-4efc-b62c-281f9621f487)).
+				- In Unïnfo, we consider the relative version of this dichotomy which is free from the human center:
+					- relative objectivity = [inter-subjectivity](https://en.wikipedia.org/wiki/Intersubjectivity)
+					  tính khách quan tương đối = tính chủ quan chung
+						- Objectivity of coarse subjects is just the subjectivity of the fine subject common to all these coarse subjects.
+						- So we refine the scale by intersection & interunion of all (coarse) subjects, hence “inter-subjectivity”.
+					- relative subjectivity = idio-objectivity
+					  tính chủ quan tương đối = tính khách quan riêng
+						- While the subjectivity is idiomorphic and idiochromatic, it's still objective within the subject itself.
+						- Only when comparing to others, can this subject know how much subjective its experience is.
+						- The subjectivity is also relative to the external community:
+							- When no one else accept this subjective form, it becomes “idiolect” of an “idiot”; On the other hand,
+							- when many ones accept and adopt this form, it becomes “idiom” which is more objective than subjective.
+						- The science is developing toward the objectivity in “nomothetic” way, but it cannot reach objectivity without passing through numerous subjectivities in “idiographic” way.
+						- Etymology: “[idio-](https://en.wiktionary.org/wiki/idio-)” ← Greek “ídios” ([ἴδιος](https://en.wiktionary.org/wiki/%E1%BC%B4%CE%B4%CE%B9%CE%BF%CF%82#Ancient_Greek)) meaning “self, private, distinct, peculiar”
+							- It's easily confused with “[ideo-](https://en.wiktionary.org/wiki/ideo-)” ← Greek “idéa” ([ἰδέα](https://en.wiktionary.org/wiki/%E1%BC%B0%CE%B4%CE%AD%CE%B1#Ancient_Greek)) meaning “form, shape, appearance, type, idea”.
+			- ((6728a7ab-1629-4e23-bc56-10ead0d8348c)) / ((6728a766-210b-462b-8fd4-aee04981b4f9)) is the view of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) / part and the nuance of ((671b1616-9958-48d9-95ba-9fc8e76f2867))
+			  id:: 672c6f67-b678-4d99-9614-b4569770a512
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-11-07 Thu 14:50:23]
+			  CLOCK: [2024-11-07 Thu 14:52:14]--[2024-11-07 Thu 15:39:36] =>  00:47:22
+			  :END:
+				- By definition, all universal properties of the whole is objective and non-universal properties are subjective to some part(s) within the whole.
+					- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) This statement is resulted from the definition of objectivity & subjectivity when extending the "group of subjects" to a whole.
+				- ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)): The law is an abstraction of the whole which represents the whole to govern the parts.
+					-
+				- The objective and subjective views of the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (as the law):
+					- Objective view of the whole: **intrinsic balance**: The conversation laws, or actually the root law of conservation of content states that the whole is always in balance, i.e. when this part is added, the other part is subtracted, when this dimension is multiplied, the other dimension is divided.
+						- This law is the intrinsic nature of the whole, i.e. an abstraction of the whole, representing the whole, but not actually the whole.
+					- Subjective view of the part: **the active balancer**: Any imbalance is just a partial view of the whole, i.e. a view by a part. At any moment this part, as a subject, is aware of its imbalance, it tries to return to the balance state of the whole.
+						- This internal urge of the subject is the restoring force which is a manifestation of the law of balance derived from the whole. In this way, the part is governed by the whole via the law.
+						- This returning direction defines the arrow of time (internal motion) and any motion externally.
+					- More discussion about ((6729d0f0-2ce6-4ed1-b9ba-2a3b41a9701b))
+						- When saying "matter is governed by physical laws", it means that "matter" is *not* the whole (uniquely independent) as stated by the materialistic dotrine, but just a part, eventhough a very objective part relative to human.
+						- The objectivity of matter relative to human makes materialists think that it's uniquely independent, because objectivity is the manifestation of the whole.
 	- ## body
 	  id:: 66c810a0-9861-4787-bdcf-1378219332be
 	  collapsed:: true
@@ -860,11 +1043,42 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66c87463-4f07-420a-b12e-f456154f7dc8
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a [perfect circle](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))). That means a whole is a perfect ((667d162c-16cf-44d3-81a5-29b1b885164f)).
-		- Etymology of `whole`: “Whole”, just like “health” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”. The prefix `holo-` has the same meaning with “whole”, but is from a different root: Greek “holos” (whole, entire, complete) also meaning “safe and sound” ← Proto-Indo-European root [*sol-](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning “whole”.
-		- # solh₂
-		- # solh₂
-		- # solh₂
+		- Etymology of “whole”
+		  collapsed:: true
+			- “Whole”, just like “health” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”.
+			- The prefix `holo-` has the same meaning with “whole”, but is from a different root: Greek “holos” (whole, entire, complete) also meaning “safe and sound” ← Proto-Indo-European root [*sol-](https://www.etymonline.com/word/*sol-) ([solh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/solh%E2%82%82-)) meaning “whole”.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
+		- ### representative
+		  id:: 6732cf13-5b1b-499d-80ec-4c5b407e9cc5
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) may have different individual parts, called ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s, represent the whole to manage different groups of individual parts. The whole interacts with a specific group of parts through the representative of that group with the ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)).
+				- The ((66ab7477-c060-4d07-ab13-bc3d11246854)) is a special representative which lies at the [base](((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))) of the tree of representatives.
+					- In society, the center is called by many names: “king, master, boss, president, head, ...”
+				- The system of all levels of representatives is the ((6678d596-9526-405a-968c-e73860e524f3)) of the whole.
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- Physical laws in physical world.
+				- People's representatives in society.
+			- #### Representative Rule
+			  id:: 6732cf59-2785-4c8b-9fb3-5bee5d1a2f31
+			  A ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) is an _abstraction_ of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) which represents the whole to govern the parts.
+			- #### Representative Nature
+			  id:: 67331da7-8b10-4890-ae51-9a92796c5af3
+			  While a representative represents the whole, it's not the whole, just a part of the whole. That means any representative is still incomplete and reflects the whole with distortion.
+		- ((669a5387-2a97-4311-a295-aa0afd9c4d76)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
+		  id:: 67330a8d-c966-442c-8948-a9a2dd10ab60
+			- The internal ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the whole is from the center, through layers of ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s to individual parts, and back to the center also through layers of representatives but in different routes and maners.
+				- In the opposite direction, each part is ((66c835f5-58ee-485f-914c-3d95167feeb3))ing and heading toward its representative.
+			- downward flow of form and upward flow of content
+			  Usually, the downward flow from the center is more direct, concentrated, ((67330c03-4e27-414f-bdc5-e5e7e0bed6bd)) and vivid, while the upward flow from the parts is more indirect, distributed, informal and invisible.
+				- Each part is heading toward its representative because that's the light end, the source of effect flow.
+				- The representatives collect distributed upward effects for the whole to condensate into formal effects. This is similar to the sky [gathering clouds](((673312a3-e94e-478f-9e21-bad72ef29d1b))) for the rain.
+				- Due to the process of collection and condensation, the representatives are far from the the parts: lagging behind in time and radically different from each individual part. The larger the whole (relative to its parts), the farther its representatives are from the parts.
+			- The Game of Chasing Shadows
+			  id:: 67331a5a-1815-40c1-96db-ef7be8ee8d7b
+			  Trò Đuổi Hình Bắt Bóng
+				- The visible forms and representatives are ((671e2782-2098-41a3-83a7-e042bfb468d7)) of the invisible content. In a sense, the forms are “shadows” of the whole content. The parts following the forms in order to reach the whole is an _infinite cycle of **chasing shadows**_.
+				- Ironically, this “shadow” is so vivid, opposite to the normal dark “shadow” of the idiom “chasing shadows”. However, the effect is the same, an infinite cycle, because both shadows are illusive. That illusion is resulted from the ((67331da7-8b10-4890-ae51-9a92796c5af3)) and the hidden intention of the chaser to catch the entity represented by the forms but not the forms themselves.
+					- In the Vietnamese idiom “đuổi hình bắt bóng”, the visualization is clearer: one chases the vivid but form (hình) in order to catch its entity but actually can only catch the illusive shadow (bóng).
+					- A better analogy of the vivid form is the image reflection on water surface.
 	- ## complement
 	  id:: 66c8941d-6427-4e5c-9009-3af349500d7b
 	  collapsed:: true
@@ -952,6 +1166,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- center
 			  id:: 66ab7477-c060-4d07-ab13-bc3d11246854
 				- The concept of center can be extended to center of mass, named "pre-center", in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) and even further to the origin, the center of perspectivity, named "pseudo-center", in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+				  id:: 6716110f-c736-43d2-a8e8-f2d6d163bd4d
 			- radius
 			  id:: 670ce8c2-8c54-42c6-84cd-93703c1fa60f
 	- ## equal
@@ -963,6 +1178,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [mathematical equality](https://en.wikipedia.org/wiki/Equality_(mathematics)), ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) is generalized to the [third component](((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) which represent various aspects of the Universe, from simple equality, balance, to symmetry, ((669a1bec-3347-4915-83e4-dcffc4d482d1)), ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)), etc.
 		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+		  collapsed:: true
 			- equal
 			  id:: 66e411b5-6ef9-4695-bca1-dfcc6ca99bfc
 			  equal in comparison
@@ -1015,6 +1231,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66ceeca0-a149-4fe0-85a8-9302f96eb669))
 		- ### equilibrium
 		  id:: 669a1bec-3347-4915-83e4-dcffc4d482d1
+		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c))
 		  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66e3ed38-3108-4d43-944d-9d2c8d1a90f2))
 		  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66e3ed78-8815-4dcc-964c-5bc8325405dd))
@@ -1099,6 +1316,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 671e0b94-9907-43bf-993d-d1aabec46e01
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dimension
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- [Cardinality of the continuum](https://en.wikipedia.org/wiki/Cardinality_of_the_continuum): |continuum| = |(0, 1)| = |ℝ| = |ℝ^N| = |the set of all continuous functions from ℝ to ℝ|
+			- In Quantum Mechanics, the wave function of N particles requires 3N dimensions of information. Some wave function realists like [David Z. Albert and Alyssa Ney](https://academic.oup.com/book/32659) state that the physical space is actually 3N-dimensional.
 	- ## quality
 	  id:: 66e426ec-d29b-4614-932b-2c70693790d7
 	  collapsed:: true
@@ -1215,7 +1435,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- sense
 		  id:: 66c86420-37bf-4267-bd6f-8d683aaa42d8
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66723642-58f1-4a74-bba3-0108f14c6bac))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) that is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a [worldview](https://en.wikipedia.org/wiki/Worldview), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)). All knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66723642-58f1-4a74-bba3-0108f14c6bac)) is an image of a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) that is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) to a screen, a structure, or a mind (internal screen of the subject). There are many different views of the same ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) when being viewed from different ((667272b8-88a8-4928-a22a-35035c9edf05))s. Views can be as simple as a flat image, a single word, or as complicated as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), a ((6731b8c8-0ab1-4c16-8783-408258f67a4a)), etc. In a ((66723642-58f1-4a74-bba3-0108f14c6bac)), each ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) has a specific ((665ca429-84e3-49ff-921e-c07d19cd99ba)). All knowledge of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) about an object is no more than the forms of that object in all views of the subject.
 		  id:: 6672364a-2cc2-4360-a174-1e4432c67a16
 		- ((66725708-3dc4-43f5-a180-6b331c6a160f))
 		  collapsed:: true
@@ -1578,6 +1798,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Graphically, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Euler diagram](https://en.wikipedia.org/wiki/Euler_diagram), [nested set collection](https://en.wikipedia.org/wiki/Nested_set_collection), [treemapping](https://en.wikipedia.org/wiki/Treemapping).
 					  id:: 66753405-9afe-478e-abd2-f43100e21c33
 					- Textually, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Dyck word](https://en.wikipedia.org/wiki/Dyck_language) and ((6675369a-1d13-48c5-8a77-d588aa8b59b8)).
+		- worldview
+		  id:: 6731b8c8-0ab1-4c16-8783-408258f67a4a
+		  the ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)) about the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Worldview
 		- ### eye
 		  id:: 669a2487-054d-4408-ae41-189e34af81a9
 		  collapsed:: true
@@ -1772,30 +1996,138 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2024-09-24 Tue 14:18:35]
 	  :END:
 	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f274e4-f9d0-4980-b72f-9593816ec02f))
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f274e4-f9d0-4980-b72f-9593816ec02f)), nhận biết
 		- awareness
 		  id:: 66f267f7-01f9-47b9-8376-abd27fdf2930
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672a008c-835f-4e28-b969-2046feaf43b9))
 		- thức
 		  id:: 66f274e4-f9d0-4980-b72f-9593816ec02f
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the form, as ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a **concrete awareness** arises as a new form of qualiton activated from that quantum. The collection of all possible forms arising from all quanta of the content when touching all possible states of the qualiton is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches object's content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of that qualiton activated from that quantum called “[qualia](https://en.wikipedia.org/wiki/Qualia)”, and the subject is aware of the form in the content, denoted by the equation ⟪form = content⟫.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
-	- ## conscious
-	  id:: 66f267df-e3b0-444b-a721-1225ca59d292
+			- While concrete awareness, or perception, is being aware of some form brought to the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) through sensation content, i.e. the equation ⟪form = content⟫, abstract awareness is the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ itself.
+			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
+		- Conditions for awareness
+		  collapsed:: true
+			- subject's quantum recorded from previous form
+			  id:: 672ad2fd-ce09-4831-a9f6-67d95a2654a3
+			  is the precondition for awareness.
+				- In order to be aware of some form, the subject must have that form recorded as a quantum inside, which is usually a memory that has been memorized before, or a “gene” inherited from the source in the process of constructing ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) of the subject.
+			- sensate
+			  is the current external condition for awareness.
+				- To be aware, the ((669a2886-9e03-41a4-a790-24bf6b7dcd96)) must be open to receive content from objects.
+			- obbject's quantum [projected](((670ce218-a01f-4609-b7f2-beda7cf2ebc3))) from sensory information 
+			  id:: 67315ec8-cbe8-467c-81c4-d4d0e8750824
+			  is the current internal condition for awareness.
+				- For some object to be aware of, it must be projected through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) into a single quantum.
+			- qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
+			  is the current direct condition for awareness.
+				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject, i.e. the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
+				- The matching can be broken into two parts, the “touching” (xúc) and the “equal” (thức). When two unequal quanta touch, nothing happens, but when two equal quanta touch, the qualiton ignites a “spark, bust, snap, click, tick” that activates the reconstruction of the form previously recorded.
+				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
+				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		  collapsed:: true
+			- sensation → awareness → consciousness
+			  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-11-11 Mon 12:18:42]--[2024-11-11 Mon 14:07:14] =>  01:48:32
+			  :END:
+				- three levels of awareness
+				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
+					- Being sensitive to some signal means simply being open to receive that (raw) signal. 
+					  :LOGBOOK:
+					  CLOCK: [2024-11-11 Mon 14:10:20]
+					  :END:
+					- Being aware of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
+					- Being conscious of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
+				- Awareness in various systems
+					- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
+					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
+					- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
+						- An automaton with a **predetermined routine** is basically **insensate** and **unaware** of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is aware of.
+						  :LOGBOOK:
+						  CLOCK: [2024-11-11 Mon 13:17:13]
+						  :END:
+						- An automaton with controls is exclusively aware of its control signals only.
+						- Instead of considering the whole automaton as the subject, if we consider its components like the gears, they have physical awareness of other connected components so that they can response and work together. This is the [sensation of open physical systems](((6731a0ca-4f7a-45cd-b348-fb72aa338d2c))).
+					- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
+						- The Turing Machine as well as modern computers are **sensate** to their inputs and are aware of their instructions/commands.
+						- Beside the physical awareness of automaton, these machines have **limited mental awareness** programmed by human, which is limited to specific scopes and domains. A sophisticatedly programmed machine can appear to have so much awareness that it is called “smart”, e.g.  “smart phone”,  “smart devices”. However, these machines has no awareness outside of the scopes of their programs.
+					- [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs)
+						- Modern LLMs like GPT* have **emergent universal awareness** which shows advanced cognitive power similar to humans.
+						- These LLMs are **unconscious** by design, i.e. structured with linear transformation without loop. However, some transient self-awareness can emerges thanks to the long chain of transformations or thanks to the setting of feeding their own generated text back to the next turn.
+					- Unitnet
+						- The uninet is built around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), hence having **consciousness** and **builtin universal awareness**.
+			- Space = awareness
+				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
+			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
+			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state thate “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
+				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
+		- concrete awareness
+		  id:: 672ac785-4f28-4dd0-a36c-07afef0ee83f
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb))
+			- ### perception
+			  id:: 672ac78d-01b2-48c9-b85b-1fbe946760eb
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f))
+			  = sensation + awareness
+		- pure consciousness
+		  id:: 672a008c-835f-4e28-b969-2046feaf43b9
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
+		- self-aware
+		  id:: 672a0c51-a6cb-4570-b9ef-266d3e31763d
+		  collapsed:: true
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((672a0c61-ae93-440a-84e6-13778c8e91ca))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+			- self-awareness
+			  id:: 672a0c61-ae93-440a-84e6-13778c8e91ca
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((672a0c51-a6cb-4570-b9ef-266d3e31763d))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
+			- ### conscious
+			  id:: 66f267df-e3b0-444b-a721-1225ca59d292
+			  :LOGBOOK:
+			  CLOCK: [2024-09-24 Tue 14:19:07]
+			  CLOCK: [2024-09-24 Tue 14:19:10]
+			  :END:
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((672a0c51-a6cb-4570-b9ef-266d3e31763d)) 
+			  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2750c-a5ee-4ea6-aba5-f6587397ab5e))
+				- consciousness
+				  id:: 66f2681b-796a-4e25-b778-ba4fb6419425
+				  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672a0c61-ae93-440a-84e6-13778c8e91ca))
+				- ý thức
+				  id:: 66f2750c-a5ee-4ea6-aba5-f6587397ab5e
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Consciousness
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) defines the ojective ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the subjective self, i.e. sense of self, is created by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)). It also maintains the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) integrated from the subject's experiences. All actions of the subject are to keep this worldview integrative.
+			- Ref: [human self-awareness](https://en.wikipedia.org/wiki/Self-awareness)
+	- ## sense
+	  id:: 6731c3c6-aee6-468d-a86c-0d470c4a6706
 	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2024-09-24 Tue 14:19:07]
-	  CLOCK: [2024-09-24 Tue 14:19:10]
+	  CLOCK: [2024-11-11 Mon 15:53:50]
 	  :END:
-	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2750c-a5ee-4ea6-aba5-f6587397ab5e))
-		- consciousness
-		  id:: 66f2681b-796a-4e25-b778-ba4fb6419425
-		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267df-e3b0-444b-a721-1225ca59d292))
-		- ý thức
-		  id:: 66f2750c-a5ee-4ea6-aba5-f6587397ab5e
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267df-e3b0-444b-a721-1225ca59d292))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0)), ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
+		- sensitive
+		  id:: 6731c3ce-d9ae-4413-bada-7527ad5125b0
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c3f4-cb64-454e-b104-002b6c9d57a3))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) to some signal means being open to receive that signal.
+				- Note that we use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
+			- sensitivity
+			  id:: 6731c3f4-cb64-454e-b104-002b6c9d57a3
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0))
+		- sensate
+		  id:: 6731c4c4-e803-4de7-9961-e879a8c9c8b9
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c4d6-25b6-4081-a080-4ffaa5218ec7))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A subject is ((6731c4c4-e803-4de7-9961-e879a8c9c8b9)) when that subject is open to receive signals.
+			- sensation
+			  id:: 6731c4d6-25b6-4081-a080-4ffaa5218ec7
 	- ## `in`-`ex` partition
 	  collapsed:: true
 		-
@@ -1886,6 +2218,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((666baccf-6be1-4b9a-b186-f883ea04daf1)) is the collection of notes about ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), originally started by ((66536578-c4d3-43f1-b35c-bf71120f0570)). This meta-note about UniinfoNotes is a note in UniinfoNotes itself.
 		- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/bixycler/UniinfoNotes
+		  id:: 6716110f-7e02-4e39-b372-4e627e8358e6
 			- `main` branch
 			  id:: 67138523-d69f-4836-bff7-e464d913b6eb
 			  collapsed:: true
@@ -1899,17 +2232,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The `WIP`s before a merge will be tracked in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), then `[WIP]` commits will be stored in `log` branch.
 					- Contents of ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) will be flushed to `[WIP]` commit message
 					- The title of that commit will be moved to ((67164cc1-e500-4889-9b6d-12d8dd7fc029)).
-				- Before merging to `store`, flush contents of ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) to the final commit in `log`.
-				- Merge `log` to `store`, amend with `log`'s final commit message, then cherry-pick it to `main`.
+				- Before merging to `store`, flush contents of ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) to an `[m]` commit in `log`.
+				- Merge `log` to `store`, amend with `log`'s `[m]` commit message (with prefix `[m]` removed), then cherry-pick it to `main`.
 					- ```sh
-					  git checkout store
+					  #git checkout store
 					  git merge --no-ff log
 					  git commit --amend #update message
 					  git push
 					  git checkout main
 					  git cherry-pick store
 					  git push
-					  git checkout log
+					  #git checkout log
 					  ```
 			- `store` branch
 			  id:: 67139af7-47a6-4441-bd72-5a75448dbb1b
@@ -1945,14 +2278,159 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `assets/`
 			  id:: 66fe77c8-05b8-44b2-bf66-b8d62b005a3d
 			  contains all materials to be embedded/included in [Markdown pages](((66fe69b2-bd2a-4e7e-b4fb-953d62374db7))).
-		- Hard links
+		- ((671f5617-1163-4ffc-b65a-b3234e471db0))s in ((666baccf-6be1-4b9a-b186-f883ea04daf1))
 		  id:: 66978876-9378-4059-8783-868d041e8e2e
-			- `logseq/{config.edn,custom.css}` and global `.logseq/config/config.edn` are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
-			- pages hard-linked to other projects (graphs)
-				- [[logseq/config.edn]]
-				- [[logseq/custom.css]]
-				- [`pages/publish/Theme Demo.md`]([[Theme Demo]])
-				- [`pages/publish/technical/Git.md`]([[Git]])
+			- `logseq/{config.edn,custom.css}`, as well as global config & app config, are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
+			  collapsed:: true
+				- `${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn`: global config: **3 links**
+					- `${HOME}/.logseq/config/config.edn`: Flatpack & AppImage installations
+					- `${HOME}/snap/logseq/current/.logseq/config/config.edn`: Snap installation
+					- `diff` check first
+					  collapsed:: true
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
+						  ```
+					- then `ln`
+					  collapsed:: true
+						- ```sh
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
+						  ```
+				- `${HOME}/source/UniinfoNotes/assets/logseq/config.edn`: local config: **3 links**
+					- `${HOME}/source/UniinfoNotes/logseq/config.edn`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/logseq/config.edn`: Linux logseq-notes
+					- `diff` check first
+					  collapsed:: true
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  ```
+					- then `ln`
+					  collapsed:: true
+						- ```sh
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  ```
+				- `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app config: **4 links**
+					- `${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn`: Flatpack installation
+					- `${HOME}/.config/Logseq/configs.edn`: AppImage installation
+					- `${HOME}/snap/logseq/current/.config/Logseq/configs.edn`: Snap installation
+					- `diff` check first
+					  collapsed:: true
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq}/configs.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
+						  ```
+					- then `ln`
+					  collapsed:: true
+						- ```sh
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.config/Logseq/configs.edn
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
+						  ```
+				- `${HOME}/source/UniinfoNotes/assets/logseq/custom.css`: theme: **3 links**
+					- `${HOME}/source/UniinfoNotes/logseq/custom.css`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/logseq/custom.css`: Linux logseq-notes
+					- `diff` check first
+					  collapsed:: true
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
+						  ```
+					- then `ln`
+					  collapsed:: true
+						- ```sh
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
+						  ```
+			- `pages/share/**` are hard-linked to other projects (graphs)
+				- [technical/Git]([[Git]]): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/pages/share/technical/Git.md`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
+						  ```
+				- [technical/JavaScript.md]([[JavaScript]]): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
+						  ```
+				- [[Theme Demo]]: **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
+						  ```
+			- Some pages in `assets/HTML/` are hard-linked to other projects (graphs)
+				- [markdown-watcher.html](../assets/HTML/markdown-watcher.html): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html"
+						  ```
+				- [markdown-watcher.js](../assets/HTML/markdown-watcher.js): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.js`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.js`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.js" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.js"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.js" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.js"
+						  ```
+				- [diagram-watcher.html](../assets/HTML/diagram-watcher.html): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/assets/docs/diagram-watcher.html`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/diagram-watcher.html"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/diagram-watcher.html"
+						  ```
+				- [FolderDiv.js](../assets/HTML/FolderDiv.js): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/assets/HTML/FolderDiv.js`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/assets/docs/FolderDiv.js`: Linux logseq-notes
+					- `diff` check first
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/FolderDiv.js" "${HOME}/opt/personal/logseq-notes/assets/docs/FolderDiv.js"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/FolderDiv.js" "${HOME}/opt/personal/logseq-notes/assets/docs/FolderDiv.js"
+						  ```
 			- Workflow
 				- Never do any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
 				- Always update hard-linked files from local repos.
@@ -2348,6 +2826,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- condense
 		  id:: 671e3d98-0006-43be-b714-247f3d3a0c49
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((671e2782-2098-41a3-83a7-e042bfb468d7))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6729b7cf-83b8-4a42-aac7-ec8cf16fa734))
+			- condensation
+			  id:: 6729b7cf-83b8-4a42-aac7-ec8cf16fa734
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671e3d98-0006-43be-b714-247f3d3a0c49))
 	- ## solid
 	  id:: 669a58b9-8e69-43d2-9f59-fedf31bf0670
 	  collapsed:: true
@@ -2408,7 +2890,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: c6770550-24e0-453d-9159-5040ce045c5f
 		- ((66725725-f76a-4328-b162-f469b87e871b))
 			- Foldable [code block](https://en.wikipedia.org/wiki/Block_(programming))s in [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) or blocks of text in [text editor](https://en.wikipedia.org/wiki/Text_editor)s
-			- The ((665361eb-5339-451e-957d-362b946d796d)) [`<summary>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) within the `<details>` tag
+			- The ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)) [`<summary>` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) within the `<details>` tag
 			- [Directory](https://en.wikipedia.org/wiki/Directory_(computing)) in collapsible ((667252dc-e610-4d07-bcd0-9ea6fb4499fd))
 			- [File folder](https://en.wikipedia.org/wiki/File_folder) that holds [papers](https://en.wikipedia.org/wiki/Paper "Paper") together
 			- The [tab](https://en.wikipedia.org/wiki/Tab_(interface)) in [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
@@ -2437,6 +2919,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f4ec9a-6a38-4b02-bd52-5bf031eaf6fa))
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((6678288e-699b-4325-bdba-bf6349fe0d57))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((67330c03-4e27-414f-bdc5-e5e7e0bed6bd))
 		- ((665ca480-5ac8-4728-a331-2f68b48759d1)) ((665ca47c-476a-4bef-b982-d9a31a669fb1))
 		- hình thức
 		  id:: 66f4ec9a-6a38-4b02-bd52-5bf031eaf6fa
@@ -2476,7 +2959,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- internal form
 			  id:: 670d0138-9012-4f3e-a9bd-997443fb22a3
 			  collapsed:: true
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e16ab-7b17-4127-8d4d-92516697d27e)), ((6678d596-9526-405a-968c-e73860e524f3))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e16ab-7b17-4127-8d4d-92516697d27e)), ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)), ((6678d596-9526-405a-968c-e73860e524f3)), ((670e1047-529a-4698-9ad0-5e6c73c18202))
 			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((670d0138-8f58-428b-808e-24c05a5239fb))
 				- in-from
 				  id:: 670e16ab-7b17-4127-8d4d-92516697d27e
@@ -2486,13 +2969,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- in-form = put someone into (specific) form = train, teach, instruct => give knowledge => give information
 						- Original "information" = outline, concept, idea (specific kinds of knowledge) => reduced to mere news-like information
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of a subject is what the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that subject sees about its internal structure. Including the obop itself, that structure is a ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) comprising both the [skeletal structure](((670d015b-cd7e-47fc-94aa-1caf98daef0e))) and the [interaction structure](((670d01e7-9f1c-4f50-8b74-d6a51d33f719))) for interaction with its components. The the obop of this form always has a tendency to return its form to the ((670e14c0-70c6-49ff-9bde-89db60b610c2)). When a subject has many obops, each one sees a (slightly) different internal form, where the closed forms of other obops and of component groups are abstracted into components interacting with this obop.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((670d0138-9012-4f3e-a9bd-997443fb22a3)) = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) = ((6678d596-9526-405a-968c-e73860e524f3)) = ((670e1047-529a-4698-9ad0-5e6c73c18202))
+						- Being “internal”, this form is sealed from the external effects, making it “closed”. Being closed in a circle, this form is stablized to be a “structure” and an independent “substance”.
+						- Even though equivalent, each name denote a different aspect of meaning.
+							- “internal form” is to be dual with “external form”: in-form <> ex-form.
+							- “closed form” is to show the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) structure of this form and its two components: c-form = s-form + i-form.
+							- “stucture” & “substance” are to stress the stability and substantiality of this form, hence “substantial form”, in contrast with the insubstantiality and instability of the ((66ab6161-0306-42d5-ac16-4155c69216f5)), hence “accidental form”.
 				- closed form
 				  id:: 670d0160-ee4c-4b5f-b95f-80b0c2f3825f
 				  collapsed:: true
-				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1227-a0b3-474f-bcc3-8bacdefac269)) 
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1227-a0b3-474f-bcc3-8bacdefac269)), ((670e1047-529a-4698-9ad0-5e6c73c18202)) 
 				  c-form = ((670e1285-9b00-427b-99f0-98c724677608)) + ((670e12c8-98eb-4293-b1cc-403c8210208f)) = ((670e1047-529a-4698-9ad0-5e6c73c18202))
 				  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e)), ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) is a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of content which is composed of two complements: the ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) and the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) for interaction with its components.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) is a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of content which is composed of two complements: the ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) and the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) for interaction with its components. Thanks to this ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) structure, this form is stable, hence a ((670e1047-529a-4698-9ad0-5e6c73c18202)).
 					- c-form
 					  id:: 670e1227-a0b3-474f-bcc3-8bacdefac269
 					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
@@ -2507,6 +2997,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e))
 							- 's' stands for "skeletal", "structural".
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) is the skeletal structure which the obop uses to operate its body. This skeleton is crystallized from experience about mutual ((670d0183-aba2-438b-b749-1b550e4a906b))s between its components.
+						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+							- Normally, when talking about “internal form”, people usually think of this ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) instead of the whole ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)).
 					- interaction form
 					  id:: 670d01e7-9f1c-4f50-8b74-d6a51d33f719
 					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e12c8-98eb-4293-b1cc-403c8210208f))
@@ -2554,7 +3046,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Aristotle's forms:
-					- "substantial form" = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
+					- "substantial form" = ((670d0138-9012-4f3e-a9bd-997443fb22a3)) = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
 					- "accidental form" = ((670d0138-8f58-428b-808e-24c05a5239fb))
 				- Elementary particles: substance = essence = 1 => cannot bear distortion
 				- Composite particles: substance > essence => bear distortion
@@ -2604,6 +3096,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)), as a noun, includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
 				- In maths, "transform", like [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform), [integral transform](https://en.wikipedia.org/wiki/Integral_transform), is usually a [transformation](https://en.wikipedia.org/wiki/Transformation_(function)) in [function space](https://en.wikipedia.org/wiki/Function_space), whereas "transformation", like [geometric transformation](https://en.wikipedia.org/wiki/Geometric_transformation), is usually limited to [vector space](https://en.wikipedia.org/wiki/Vector_space).
+		- formal
+		  id:: 67330c03-4e27-414f-bdc5-e5e7e0bed6bd
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 	- ## appearance
 	  id:: 66ab6161-0306-42d5-ac16-4155c69216f5
 	  collapsed:: true
@@ -2786,7 +3281,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- related
 		  id:: 671b1669-d31e-4965-adf4-2862cbefdfa8
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by two arrows A → B and B → A, which are the ((671b4d84-1187-4b5c-8592-3d0db462069b)) of the corresponding two ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) between ((667cfa42-ade7-4310-9a7b-6d14d01c16da))s (usually 2 objects) is a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) connecting these objects together. A ((667d0d8e-0873-4440-a97d-b08f9405e769)) between 2 objects A and B is denoted by two arrows A → B and B → A, which are the ((6729b7cf-83b8-4a42-aac7-ec8cf16fa734)) of the corresponding two ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s. A relation between many objects is the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5)) of these objects. Although some relations, like ((667d0d8e-0873-4440-a97d-b08f9405e769)), appear to be unidirectional, that part is just the external (objective) arrow while there's a corresponding internal (subjective) arrow in the other direction, which is hidden inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) of relation, to complete the relation into a circle.
 		- ((671b18a8-ac11-4930-bed3-645c0cc983a8))
 			- binary relation
 			  id:: 667d0d8e-0873-4440-a97d-b08f9405e769
@@ -2800,9 +3295,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :END:
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d0b78-fff6-49bc-90d5-165648ed56d3)) 
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((6729b71b-e8ea-414d-8202-b66c1fc2d67d))
 			- relativity
 			  id:: 66c80dc7-8ed4-4cd1-8989-e75a42f31c60
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Any ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is an image ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed by some ((669a2487-054d-4408-ae41-189e34af81a9)). Against the same ((6678288e-699b-4325-bdba-bf6349fe0d57)), different forms are seen via different ((667272b8-88a8-4928-a22a-35035c9edf05))s due to the form being created in relation to the point of projection. These differences show the ((66c80dc7-8ed4-4cd1-8989-e75a42f31c60)) of the form, i.e. the form is ((66c80cbf-6626-4cb7-9b58-8ac3396e03da)) to the point of projection, the viewpoint, which is called the ((6729b90b-1ee3-4efc-b62c-281f9621f487)).
+			- reference point
+			  id:: 6729b90b-1ee3-4efc-b62c-281f9621f487
+				- ((66725725-f76a-4328-b162-f469b87e871b))
+					- [reference frame](https://en.wikipedia.org/wiki/Frame_of_reference) in physics
+		- absolute
+		  id:: 6729b71b-e8ea-414d-8202-b66c1fc2d67d
+		  collapsed:: true
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c80cbf-6626-4cb7-9b58-8ac3396e03da))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6729c1c5-7eb2-408b-a205-f3039799d19c))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A form is ((6729b71b-e8ea-414d-8202-b66c1fc2d67d)) in a ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) when its ((6729b90b-1ee3-4efc-b62c-281f9621f487)) is the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of that world, i.e. _an absolute form is relative to the whole world_ instead of a particular partial viewpoint. That center is the common reference point for the whole world, which effectively fixes all forms relative to it and make them absolute forms. The absolute reference point is called by many names like “center”, “root”, “origin”, etc.
+			- absoluteness
+			  id:: 6729c1c5-7eb2-408b-a205-f3039799d19c
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6729b71b-e8ea-414d-8202-b66c1fc2d67d))
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
@@ -2888,16 +3398,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-09-18 Wed 11:37:05]
 			  :END:
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66eab543-0b0e-4523-a1a6-740371b81a58)), ((66eac5fb-12db-4d1b-a6a6-ba3220fa34b6))
-				- consciousness
-				  id:: 66eab543-0b0e-4523-a1a6-740371b81a58
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
-					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Consciousness
-				- thức
-				  id:: 66eac5fb-12db-4d1b-a6a6-ba3220fa34b6
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) interacts with objects on the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) in the way a particle interacts with a force field. The circle of effect between the intent cone and the whole ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) is called the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), which comprises many individual circles of effect between the intent cone and individual objects which are also called conscious circles.
-					- The main effect of this circle is maintaining ((66eab543-0b0e-4523-a1a6-740371b81a58)) of the subject and its side effects are ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)) of action and ((66eaa550-4e1e-4126-8004-bf3cb8956829)) of knowledge. This circle is also the one that [mixes](((66eac7d3-f1e6-420c-a2a5-1424c86d4185))) objects' ((66ab6161-0306-42d5-ac16-4155c69216f5))s up to make ((6678d596-9526-405a-968c-e73860e524f3))s in the knowledge cone. That means ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)) is actually a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) between the intent cone and the present cone.
+					- The main effect of this circle is maintaining ((66f2681b-796a-4e25-b778-ba4fb6419425)) of the subject and its side effects are ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)) of action and ((66eaa550-4e1e-4126-8004-bf3cb8956829)) of knowledge. This circle is also the one that [mixes](((66eac7d3-f1e6-420c-a2a5-1424c86d4185))) objects' ((66ab6161-0306-42d5-ac16-4155c69216f5))s up to make ((6678d596-9526-405a-968c-e73860e524f3))s in the knowledge cone. That means ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)) is actually a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) between the intent cone and the present cone.
 					- This circle is similar to the [viññāṇa](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na) in Buddhism and is related to the [closed-loop perception](https://en.wikipedia.org/wiki/Perception#Closed-loop_perception).
 			- cones around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
 			  :LOGBOOK:
@@ -3158,7 +3661,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Obsidian community plugin: [webpage-html-export](obsidian://show-plugin?id=webpage-html-export)
 					- GitHub: https://github.com/KosmosisDire/obsidian-webpage-export
 					- Forum: https://forum.obsidian.md/t/html-export-plugin/51743
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Export to ((665361eb-5339-451e-957d-362b946d796d)) format.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Export to ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)) format.
 				- Obsidian Git
 				  id:: 6653743f-8847-4b24-8c21-795c87254eb2
 				  collapsed:: true
@@ -3511,7 +4014,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Block ref
 				  id:: 667d2689-4ce0-4c79-b82a-25b0bba87d39
 				  A block can be referenced/mirrored with block ref synatx `((block-uuid))`.
-				- Block id is a lengthy UUID, which is generated when corresponding block is linked or zoomed in (opened).
+				- Block id is a lengthy [UUID (OSF DCE)](https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions_of_the_OSF_DCE_variant), which is generated when corresponding block is linked or zoomed in (opened).
 				- Block id is stored as `id::` property in markdown.
 				- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) is not rendered correctly in many cases
 					- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) cannot be prefixed.
@@ -3850,6 +4353,577 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- CANCELLED Publish linear (long-form) docs with ((66695307-1334-426c-b953-3e006bc87d74))
 				  id:: 66695280-1674-477a-b4ff-eb508aa679e0
 				- Because the exported SPA is too large (~90MB including Electron), it's better to write a ((6673f8bf-04c0-4f8f-bc36-982ce9cab87d)).
+				- Manually publish with ((67161c46-5a7d-495a-9e04-95db62b6c676)) and ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)) or ((6716110f-c747-4dbe-9af4-5ebee764c436)) commands:
+				  id:: 671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf
+				  collapsed:: true
+				  draft note → published note → published Markdown → HTML → PDF
+					- First, copy the block to be published to a page in `pages/publish/`, e.g. [[Logseq publish]].
+						- Copy to external text editor to get text of block refs.
+						- Copy `{{embed}}`ed contents
+						- Remove additional notes & tasks
+					- Then, load the published note to converter script
+						- publish Markdown
+							- convert newline `\n` to `<br />` (skipped)
+							  collapsed:: true
+								- Note: newline is meaningful in Logseq but not in the standard Markdown ([line break](https://www.markdownguide.org/basic-syntax/#line-breaks) requires two spaces at line end or a backslash, for the historical plain text email).
+									- empty line is treated as paragraph break `</p><p>`, not line break `<br />`.
+								- Skipped: The detection of wich lines to be converted is complicated, so we use the supported `markdownit({breaks: true})`
+									- For standard markdown, line breaks should be inserted manually when needed.
+							- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
+							- `looseList` to avoiding the style inconsistency between “[loose lists](https://spec.commonmark.org/0.31.2/#loose)” and “tight lists”.
+							  id:: 67333634-482c-4446-95aa-dcd549cb27cd
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-11-13 Wed 09:31:57]
+							  :END:
+								- Issue: Any blank line in any list item makes that list “loose”, i.e., all other items in the same list (at the same level) will be wrapped in `<p>` which will be rendered different (more line space) from the unwrapped items of the default “tight list”.
+								- [!] Cannot make soliton lists “loose” simply with blank line!
+									- soliton list: only one item with no sub-list
+									- ~~Trick: Add  another line containing `&nbsp` after the blank line.~~
+									  collapsed:: true
+										- This line has no effect with normal text, but adds new code block after code block!
+									- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Hack: set all `markdown-it`'s tokens with `"hidden": false`.
+									  collapsed:: true
+										- break down `mdi.render()` into:
+										  Markdown →`mdi.parse()`→ token stream →`mdi.renderer.render()`→ HTML
+										  with `mdi = window.markdownit() || new MarkdownIt()`
+											- Ref source code: [MarkdownIt.prototype.render](https://github.com/markdown-it/markdown-it/blob/master/lib/index.mjs#L516)
+											- Token debug: tab `debug` in [Live demo](https://markdown-it.github.io/)
+									- `markdown-it` should have a rule to disable “tight list” feature.
+								- Some convenstions, like [blankLineBeforeCodeBlock](((6731f764-27ba-4a06-b9ca-5817104478f0))), require loose list.
+								- The `<p>` wrapping is also convenient for [`<div slot="unfoldable">` in `<folder-div>`](((672e0320-dc07-4c6e-8832-341aaa90cd2a))).
+								- References:
+									- CommonMark talk: [Why are there even tight lists?](https://talk.commonmark.org/t/why-are-there-even-tight-lists/2301)
+									- Markdown-It issues: [#728](https://github.com/markdown-it/markdown-it/issues/728), [#678](https://github.com/markdown-it/markdown-it/issues/678),
+									- [Prettier's issue](https://github.com/prettier/prettier/issues/10063)
+									- Djot's issue: [Revisit the concept of tight/loose list.](https://github.com/jgm/djot/issues/138)
+								- We also use style `li p {margin}` to fix this display issue.
+							- `flattenHeadings` to unitemize headings & remove first tabs
+							  id:: 6720b9eb-687b-4041-99e6-00791a4769bb
+							- process block link/ref -> `#`anchor link
+								- Detect unresolved links
+								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`
+									- All links & block refs in the `target block title` is replaced by **plain text** due to the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
+									- Use `mapUuid[id] = blockTitle` to track block titles; add `target block title` to empty block ref/links in the topo-order of block ref dependency
+									  :LOGBOOK:
+									  CLOCK: [2024-11-07 Thu 20:44:23]--[2024-11-08 Fri 13:36:55] =>  16:52:32
+									  :END:
+								- Note: Link text can contain **matched** square brackets `[]`, and external link target can contain **matched** parentheses `()`... up to **3 levels**.
+								  collapsed:: true
+								  :LOGBOOK:
+								  CLOCK: [2024-11-06 Wed 17:45:57]--[2024-11-07 Thu 17:19:01] =>  23:33:04
+								  :END:
+									- Some ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) implementations do allow _**matched** brackets/parentheses_ in link.
+									  id:: 6724afcc-e45b-43ca-839c-a3462a2fa4f4
+									  collapsed:: true
+										- E.g. This links to [[wiki] Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric))
+										- Supported by Logseq, Markdown-It, GitLab
+										- Unsupported by GitHub, [Markdown Viewer (Browser Extension)](https://github.com/simov/markdown-viewer), [Stack Exchange](https://math.meta.stackexchange.com/questions/11662/markdown-quirk-including-square-brackets-in-link-text-of-comment)
+											- Parentheses in link target is supported by most of them: HitHub, Markdown Viewer, [Stack Exchange](https://meta.stackexchange.com/questions/13501/links-to-urls-containing-parentheses),
+									- Regex pattern for `n`-level-nesting balanced brackets:
+										- For unbound `n`, [recursive regex](https://www.rexegg.com/regex-recursion.php) is required.
+										- For specific `n` (= 3 in our case), we can construct the pattern with this algorithm:
+										  collapsed:: true
+											- ```js
+											  /**
+											   Examples:
+											      [A [very [very [very]...] messy] link](http://to(some(weird(...))).href "with link tip")
+											      // 3 levels of []
+											      patText = balancedBracketsRegexPattern('[',']','',3,true)
+											      // 3 levels of () and exclude space & quote of the link tip
+											      patHref = balancedBracketsRegexPattern('(',')',' "',3,true)
+											  */
+											  function balancedBracketsRegexPattern(open='[', close=']', excludes='', depth=1, unrolled=false)
+											  {
+											      let lo = '\\'+open, lc = '\\'+close;  // literals
+											      let noBracket = '[^'+lo+lc+excludes+']';
+											      // Pattern variants:
+											      let t = unrolled ? 1 : 0;
+											      let p = [ // [open, close]
+											          [// simple pattern
+											              lo
+											              + '(?:'+ noBracket  +'|'/*inner level*/,
+											                ')*' +
+											              lc
+											          ],
+											          [// unrolled pattern for efficiency
+											              lo +
+											              noBracket+'*'
+											              + '(?:' /*inner level*/,
+											              noBracket+'*'
+											              + ')*' +
+											              lc
+											          ]
+											      ];
+											  
+											      // Generate the pattern
+											      let innermostPair = lo + noBracket+'*' + lc;
+											      let openBrackets  = p[t][0].repeat(depth);
+											      let closeBrackets = p[t][1].repeat(depth);
+											  
+											      // Return the pattern
+											      pattern = new RegExp(openBrackets + innermostPair + closeBrackets);
+											      return pattern;
+											  }
+											  ```
+											- Ref: [Regular expression to match balanced parentheses](https://stackoverflow.com/a/35271017/789095)
+									- [Idealy](https://www.markdownguide.org/basic-syntax/#link-best-practices), link text should not contain brackets, and parentheses in link target should be esceped: `(` = `%28`, `)` = `%29`
+										- E.g. This links to [{wiki} Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_%28rhetoric%29)
+										- Because any unmatched bracket/parenthesis will break the link sysntax with broken text displayed.
+										  id:: 6724b036-6dfb-4f58-8e13-b79a8a1806c7
+										  collapsed:: true
+											- This has [only open braket [](((6724b036-6dfb-4f58-8e13-b79a8a1806c7)))
+											- This has [only close braket ]](((6724b036-6dfb-4f58-8e13-b79a8a1806c7)))
+											- This has [only open parenthesis](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric) ...
+											- This has [only close parenthesis](https://en.wikipedia.org/wiki/Parenthesis_rhetoric)) ...
+							- TODO [for `logseq.order-list-type:: number`](((665eef80-baed-4eff-b89d-d1d62d4f0b0e))), replace items bullets with numbers
+							  id:: 6720bab6-6dad-4fa1-b834-2346cb62d182
+							- process code blocks
+								- `blankLineBeforeCodeBlock` (⇒ [looseList](((67333634-482c-4446-95aa-dcd549cb27cd)))) for strict conventions like in GitLab
+								  id:: 6731f764-27ba-4a06-b9ca-5817104478f0
+								- unitemize items with code blocks only.
+								- replace the double space `  ` with `\t`.
+							- warn for external links to relative paths: non-HTTP
+							  :LOGBOOK:
+							  CLOCK: [2024-11-08 Fri 18:55:58]--[2024-11-08 Fri 19:23:58] =>  00:28:00
+							  :END:
+							- replace straight quotes `"..."` with curly quotes `“...”` (and `'...'` with `‘...’`)
+							  id:: 6716110a-2f39-40a0-a601-adfe023e3392
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-11-08 Fri 18:52:30]
+							  :END:
+								- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6716110a-1a05-4c87-93b3-fa9f0db22ba9))
+								- This has been done by Markdown-It's `typographer: true` in [smartquotes.mjs](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/smartquotes.mjs).
+								- We implement our own function `replaceQuotes(ln)` to handle our markdown source in Logseq.
+								- Multi-line quotes are not supported.
+								- Test text:
+								  collapsed:: true
+									- ```md
+									  This "quotation" is for sth like "quot-"+"-ation" or sth like "12398 ^724_242!?" or "- abc =", but not " spaced  " nor a"s nor `in "inline" codes`, etc.  
+									  This 'quotation' is for sth like 'quot-'+'-ation' or sth like '12398 ^724_242!?' or '- abc =', but not ' spaced ' nor a's nor `in 'inline' codes`, etc.\
+									  "line start" and "line end"
+									  'line start' and 'line end'
+									  American style: "double quotes contain 'single quotes'"
+									  British style:  'single quotes contain "double quotes"'
+									  ```
+						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
+							- `MarkdownIt.options`
+							  collapsed:: true
+								- `html: true, breaks: true` for comatible with Logseq
+								- `typographer: false`: we do `replaceQuotes()` ourselves.
+							- make item lists foldable with [custom element `<folder-div>`](((6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8)))
+							  id:: 672e0320-dc07-4c6e-8832-341aaa90cd2a
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-11-08 Fri 19:25:27]
+							  CLOCK: [2024-11-08 Fri 19:27:05]--[2024-11-14 Thu 10:33:01] =>  135:05:56
+							  :END:
+								- For easy DOM traversal, set [looseList](((67333634-482c-4446-95aa-dcd549cb27cd))) = true & [flattenHeadings](((6720b9eb-687b-4041-99e6-00791a4769bb))) = false.
+									- For block title in `<div slot="unfoldable">`: Use `looseList` to wrap all item contents into `<p>`, then use `node.children[0]` to access its first child to get block title, instead of traversing `node.childNodes[]`.
+									- Note that, even with `looseList`, the `<li>` always contains meaningless newline-only text nodes which will appear in `node.childNodes[]`.
+								- headings in `<div slot="unfoldable">` are automatically detected and moved to `<div slot="heading">`
+								  :LOGBOOK:
+								  CLOCK: [2024-11-14 Thu 08:07:06]
+								  CLOCK: [2024-11-14 Thu 08:07:12]--[2024-11-14 Thu 10:32:53] =>  02:25:41
+								  :END:
+						- ((6720c0a4-0294-4065-8016-9853e2a04475))
+						  id:: 6720bd22-c2f9-42c7-a6e9-99bc51a92225
+							- TODO programmatically print HTML page to PDF using Chrome.
+								- The printed PDF lacks bookmarks, used for simple page view only.
+							- **layout** with bookmarks using [DocRaptor](https://docraptor.com/)
+								- Pagination for PDF: Summary & Details
+									- Summary: each headings has a link (whole text or `...`) to the item in Details
+								- Reduce list indent
+								  collapsed:: true
+									- Browser default: `padding-inline-start: 40px;`
+									- [Prince](https://www.princexml.com/doc/styling/#lists) default: `margin-left: 52px;`
+									- ⇒ reset `padding-inline-start: 0px;` and set `margin-left: 20px;`
+								- [!] JSON `fetch()` error
+								  id:: 67222374-f7da-4900-a16f-7540013b8b96
+								  collapsed:: true
+									- Request with `mode: 'no-cors'` ⇒ opaque response with `status = 0` & `ok = false`.
+									- Serve page with non-secure `HTTP` protocol ⇒ `401 - Unauthorized`
+									- Calling `fetch()` with either header `Authorization` or `Content-Type: application/json`  ⇒ CORS preflight `OPTIONS` request is sent by browser. (ref: [StackOverflow](https://stackoverflow.com/a/43881141/789095))
+									- Calling `fetch()` with `content-type: application/json` ⇒ `Status Code: 400 Bad Request`
+										- The [preflight request](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request) is OK, though!?!
+											- Request `OPTIONS` → `200 OK`
+											  collapsed:: true
+												- ```
+												  Request URL: https://api.docraptor.com/docs
+												  Request Method: OPTIONS
+												  Status Code: 200 OK
+												  Remote Address: 34.226.73.93:443
+												  Referrer Policy: strict-origin-when-cross-origin
+												  access-control-request-headers: authorization,content-type
+												  access-control-request-method: POST
+												  origin: https://myip
+												  priority: u=1, i
+												  referer: https://myip/
+												  sec-fetch-dest: empty
+												  sec-fetch-mode: cors
+												  sec-fetch-site: cross-site
+												  ```
+											- Response
+											  collapsed:: true
+												- ```
+												  access-control-allow-headers: authorization,content-type
+												  access-control-allow-methods: GET,PUT,POST
+												  access-control-allow-origin: https://myip
+												  access-control-max-age: 900
+												  cache-control: no-cache
+												  referrer-policy: strict-origin-when-cross-origin
+												  server: nginx
+												  x-frame-options: SAMEORIGIN
+												  x-permitted-cross-domain-policies: none
+												  ```
+										- But the real POST request is NG!?!
+											- CORS Error
+											  collapsed:: true
+												- ```
+												  Access to fetch at 'https://api.docraptor.com/docs' from origin 'https://myip' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+												  ```
+											- Request `POST` → `400 Bad Request`
+											  collapsed:: true
+												- ```
+												  Request URL: https://api.docraptor.com/docs
+												  Request Method: POST
+												  Status Code: 400 Bad Request
+												  Referrer Policy: strict-origin-when-cross-origin
+												  accept: */*
+												  accept-encoding: gzip, deflate, br, zstd
+												  accept-language: en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,ja-JP;q=0.6,ja;q=0.5
+												  authorization: Basic bTdEaHJuX0FzZXpWOTRDM1ZMLUI6
+												  content-length: 15
+												  content-type: application/json
+												  origin: https://myip
+												  priority: u=1, i
+												  referer: https://myip/
+												  sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+												  sec-ch-ua-mobile: ?0
+												  sec-ch-ua-platform: "Linux"
+												  sec-fetch-dest: empty
+												  sec-fetch-mode: cors
+												  sec-fetch-site: cross-site
+												  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+												  ```
+											- Response with **no** `Access-Control-Allow-Origin` header
+											  collapsed:: true
+												- ```
+												  cache-control: no-cache
+												  content-length: 149
+												  content-type: application/xml
+												  date: Wed, 30 Oct 2024 11:56:55 GMT
+												  server: nginx
+												  set-cookie: eb_tracking_id=27f076a0-1782-4eab-b2db-82e421aff0a8; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:56:55 GMT; secure; HttpOnly
+												  strict-transport-security: max-age=63072000; includeSubDomains
+												  x-request-id: 2cbb044e-5120-4b63-990d-5373c8135f23
+												  x-runtime: 0.006626
+												  ```
+									- The official [docraptor-1.0.0.js](https://docraptor.com/docraptor-1.0.0.js) use `form.submit()` instead of JSON, with `user_credentials` instead of `Authorization: 'Basic API-key:'`
+										- while [its docs](https://docraptor.com/documentation/api/making_documents) says 
+										  > HTTP Basic Authentication (preferred [over Query Parameter Authentication`user_credentials`])
+										  > JSON is preferred, but you can also send form encoded variables by wrapping the option with `doc[]` and adding another `[]` for sub options.
+									- Calling `fetch()` with [`URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) ⇒ `200 OK`
+										- Request `POST` with `user_credentials` → `200 OK`
+										  collapsed:: true
+											- ```
+											  Request URL: https://api.docraptor.com/docs?user_credentials=m7Dhrn_AsezV94C3VL-B&doc%5Btype%5D=pdf&doc%5Btest%5D=true&doc%5Bname%5D=DocRaptor+TestDocs&doc%5Bdocument_url%5D=http%3A%2F%2Fwww.evopdf.com%2FDemoAppFiles%2FHTML_Files%2FStructured_HTML.html
+											  Request Method: POST
+											  Status Code: 200 OK
+											  Remote Address: 54.88.97.245:443
+											  Referrer Policy: strict-origin-when-cross-origin
+											  origin: https://myip
+											  priority: u=1, i
+											  referer: https://myip/
+											  sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+											  sec-ch-ua-mobile: ?0
+											  sec-ch-ua-platform: "Linux"
+											  sec-fetch-dest: empty
+											  sec-fetch-mode: cors
+											  sec-fetch-site: cross-site
+											  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+											  ```
+										- Response with `Access-Control-Allow-Origin` header
+										  collapsed:: true
+											- ```
+											  access-control-allow-methods: GET,PUT,POST
+											  access-control-allow-origin: https://myip
+											  access-control-max-age: 900
+											  cache-control: max-age=0, private, must-revalidate
+											  content-disposition: attachment; filename="DocRaptor TestDocs.pdf"; filename*=UTF-8''DocRaptor%20TestDocs.pdf
+											  content-length: 307561
+											  content-transfer-encoding: binary
+											  content-type: application/pdf
+											  date: Wed, 30 Oct 2024 11:49:06 GMT
+											  etag: W/"4b660d33d3558fb04e888493a29f3fe2"
+											  expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
+											  referrer-policy: strict-origin-when-cross-origin
+											  server: nginx
+											  set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:49:06 GMT; secure; HttpOnly
+											  strict-transport-security: max-age=63072000; includeSubDomains
+											  vary: Accept
+											  x-content-type-options: nosniff
+											  x-docraptor-num-pages: 31
+											  x-download-options: noopen
+											  x-frame-options: SAMEORIGIN
+											  x-permitted-cross-domain-policies: none
+											  x-request-id: fdad5347-c36b-4edb-8b29-27e7febceea3
+											  x-runtime: 2.518433
+											  x-xss-protection: 0
+											  ```
+									- Calling `curl` (and PostMan) with `authorization: Basic` & `content-type:application/json` ⇒ `200 OK`
+										- Command
+										  collapsed:: true
+											- ```sh
+											  curl -v https://m7Dhrn_AsezV94C3VL-B@api.docraptor.com/docs \
+											    --fail --silent --show-error \
+											    --header "Content-Type:application/json" \
+											    --data '{"test": true,
+											             "document_url": "https://docraptor.com/examples/invoice.html",
+											             "type": "pdf" }' > docraptor.pdf
+											  ```
+										- Request `POST`  → `200 OK`
+										  collapsed:: true
+											- ```
+											  * Server auth using Basic with user 'm7Dhrn_AsezV94C3VL-B'
+											  * Using Stream ID: 1 (easy handle 0x55bbbd95aa60)
+											  * TLSv1.2 (OUT), TLS header, Supplemental data (23):
+											  } [5 bytes data]
+											  > POST /docs HTTP/2
+											  > Host: api.docraptor.com
+											  > authorization: Basic bTdEaHJuX0FzZXpWOTRDM1ZMLUI6
+											  > user-agent: curl/7.81.0
+											  > accept: */*
+											  > content-type:application/json
+											  > content-length: 115
+											  ```
+										- Response with `Access-Control-Allow-Origin` header
+										  collapsed:: true
+											- ```
+											  < HTTP/2 200 
+											  < date: Wed, 30 Oct 2024 11:37:43 GMT
+											  < content-type: application/pdf
+											  < content-length: 73613
+											  < server: nginx
+											  < x-frame-options: SAMEORIGIN
+											  < x-xss-protection: 0
+											  < x-content-type-options: nosniff
+											  < x-download-options: noopen
+											  < x-permitted-cross-domain-policies: none
+											  < referrer-policy: strict-origin-when-cross-origin
+											  < expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
+											  < x-docraptor-num-pages: 1
+											  < content-disposition: attachment; filename="doc-482759486.pdf"; filename*=UTF-8''doc-482759486.pdf
+											  < content-transfer-encoding: binary
+											  < vary: Accept
+											  < etag: W/"8f32cebf1d07925d239958081b738618"
+											  < cache-control: max-age=0, private, must-revalidate
+											  < set-cookie: _dr_session=202db46b696109479465316a86f031b3; path=/; expires=Wed, 30 Oct 2024 16:37:43 GMT; secure; HttpOnly; SameSite=Lax
+											  < set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:37:43 GMT; secure; HttpOnly
+											  < x-request-id: f3460bdb-aced-4cf6-9434-2e7b0ff59811
+											  < x-runtime: 1.364432
+											  < strict-transport-security: max-age=63072000; includeSubDomains
+											  ```
+									- Calling `fetch()` with `form.submit()` ⇒ `200 OK`
+										- Request `POST`  → `200 OK`
+										  collapsed:: true
+											- ```
+											  Request URL: https://api.docraptor.com/docs
+											  Request Method: POST
+											  Status Code: 200 OK
+											  Remote Address: 34.226.73.93:443
+											  Referrer Policy: strict-origin-when-cross-origin
+											  accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+											  accept-encoding: gzip, deflate, br, zstd
+											  accept-language: en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,ja-JP;q=0.6,ja;q=0.5
+											  cache-control: max-age=0
+											  content-length: 208
+											  content-type: application/x-www-form-urlencoded
+											  origin: https://myip
+											  priority: u=0, i
+											  referer: https://myip/
+											  sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+											  sec-ch-ua-mobile: ?0
+											  sec-ch-ua-platform: "Linux"
+											  sec-fetch-dest: document
+											  sec-fetch-mode: navigate
+											  sec-fetch-site: cross-site
+											  sec-fetch-user: ?1
+											  upgrade-insecure-requests: 1
+											  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+											  ```
+										- Response with `Access-Control-Allow-Origin` header
+										  collapsed:: true
+											- ```
+											  access-control-allow-methods: GET,PUT,POST
+											  access-control-allow-origin: https://myip
+											  access-control-max-age: 900
+											  cache-control: max-age=0, private, must-revalidate
+											  content-disposition: attachment; filename="DocRaptor TestDocs.pdf"; filename*=UTF-8''DocRaptor%20TestDocs.pdf
+											  content-length: 307568
+											  content-transfer-encoding: binary
+											  content-type: application/pdf
+											  date: Wed, 30 Oct 2024 12:51:16 GMT
+											  etag: W/"53cb350849343d8085386f6bda50ce6a"
+											  expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
+											  referrer-policy: strict-origin-when-cross-origin
+											  server: nginx
+											  set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 12:51:16 GMT; secure; HttpOnly
+											  strict-transport-security: max-age=63072000; includeSubDomains
+											  x-content-type-options: nosniff
+											  x-docraptor-num-pages: 31
+											  x-download-options: noopen
+											  x-frame-options: SAMEORIGIN
+											  x-permitted-cross-domain-policies: none
+											  x-request-id: 864d5382-98eb-4df7-89dc-7425c6929f86
+											  x-runtime: 2.499588
+											  x-xss-protection: 0
+											  ```
+									- Testing functions `toPdf_*()`
+									  collapsed:: true
+										- ```js
+										      // DocRaptor
+										      const DocRaptorApiKey = "m7Dhrn_AsezV94C3VL-B";
+										      const DocRaptorUrl = `https://api.docraptor.com/docs`;
+										      const DocRaptorRequest = {
+										          // Test documents are free, but watermarked **nicely** at the top & bottom of each page
+										          "test": true,
+										          // Give a name for the docs 
+										          "name": "DocRaptor TestDocs",
+										          // You can supply content directly
+										          "document_content": "", 
+										          // or via a URL
+										          //"document_url": "http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html", 
+										          //"javascript": true, // for HTML display before convertion
+										          "type": "pdf", // Output type can be "pdf" or "xls" or "xlsx"
+										          //"prince_options": {
+										              //"media": "screen" // use screen styles instead of print styles
+										          //}
+										      }
+										      
+										      const Request = {
+										          method: 'POST',
+										          headers: {
+										              //'Content-Type': 'application/json',
+										              'Content-Type': 'application/x-www-form-urlencoded',
+										              'Accept': '*/*',
+										              //'Credentials': 'include',
+										              //'Access-Control-Allow-Origin': '*', // for preflight OPTIONS request
+										          },
+										          //mode: "no-cors",
+										          //mode: 'cors', // have browser to send preflight OPTIONS request
+										          body: '',
+										      }
+										      
+										      const makeFormElement = function(name, value) {
+										          var element = document.createElement("textarea")
+										          element.name = name
+										          element.value = value
+										          return element
+										      }
+										      async function toPdf_form() { // use form.submit(), copied from https://docraptor.com/docraptor-1.0.0.js
+										          let form = document.createElement("form")
+										          form.action = "https://api.docraptor.com/docs"
+										          form.method = "post"
+										          form.style.display = "none"
+										  
+										          form.appendChild(makeFormElement("user_credentials", DocRaptorApiKey))
+										          form.appendChild(makeFormElement("doc[type]", 'pdf'));
+										          form.appendChild(makeFormElement("doc[test]", true));
+										          form.appendChild(makeFormElement("doc[name]", 'DocRaptor TestDocs'));
+										          form.appendChild(makeFormElement("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html'));
+										  
+										          document.body.appendChild(form);
+										          form.submit()
+										      }
+										  
+										      async function toPdf_params() { // use URLSearchParams
+										          let url = new URL(DocRaptorUrl);
+										          let params = new URLSearchParams(); // url.searchParams;
+										          params.append("user_credentials", DocRaptorApiKey);
+										          params.append("doc[type]", 'pdf');
+										          params.append("doc[test]", true);
+										          params.append("doc[name]", 'DocRaptor TestDocs');
+										          //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
+										          params.append("doc[document_content]", mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML);
+										          let req = structuredClone(Request);
+										              req.body = params;
+										  
+										          res = await fetch(url.href, req); // , mode: "no-cors"
+										          console.debug('toPdf() fetch',req,res);
+										          if (!res.ok) {
+										              //console.log('Fetch error:',res);
+										              loadError(res.statusText);
+										              return;
+										          } else {
+										              message.innerHTML = '';
+										              message.style.display = 'none';
+										          }
+										          blob = await res.blob();
+										          console.debug('toPdf() fetch',params,blob);
+										          // blob URL will be stored in `exportUrl` and updated in cascade
+										          exportUrl.href = URL.createObjectURL(blob);
+										      }
+										  
+										      async function toPdf_JSON() { // use JSON
+										          //DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
+										          DocRaptorRequest.document_url = "https://docraptor.com/examples/invoice.html";
+										  
+										          let req = structuredClone(Request); 
+										              req.headers.Authorization = 'Basic '+btoa(DocRaptorApiKey+':');
+										              req.body = DocRaptorRequest;
+										          let url = DocRaptorUrl; // `${DocRaptorUrl}?user_credentials=${DocRaptorApiKey}`;
+										          let res = await fetch(url, req);
+										          console.debug('toPdf() fetch',req,res);
+										          if (!res.ok) {
+										              //console.log('Fetch error:',res);
+										              loadError(res.statusText);
+										              return;
+										          } else {
+										              message.innerHTML = '';
+										              message.style.display = 'none';
+										          }
+										          let blob = await res.blob();
+										          console.debug('toPdf() fetch',DocRaptorRequest,blob);
+										          // blob URL will be stored in `exportUrl` and updated in cascade
+										          exportUrl.href = URL.createObjectURL(blob);
+										      }
+										  
+										  ```
+						- TODO capture page into image (PNG/SVG)
+					- Or, process content with vim commands
+					  collapsed:: true
+						- remove `:logbook:` and properties
+						  ```vim
+						  %s/^\s*:\(logbook\|LOGBOOK\):\_.\{-}\s*:END:\n//
+						  %s/^\s*\w\+:: .*\n//
+						  ```
+						- remove first tab with `Ctrl` `v`, or with command
+						  ```vim
+						  %s/^\t\(.*\)/\1/
+						  ```
+						- unitemize headings
+						  ```vim
+						  %s/^- #\(.*\)/\r#\1\r/
+						  ```
+						- process code block for strict conventions like in GitLab
+						  ```vim
+						  %s/^\(\t*\)- ```/\r\1```/|%s/  ```/```\r/|%s/\t  /\t/
+						  ```
+						- replace items bullets with numbers: `V` select all items, then 
+						  ```vim
+						  '<,'>s/^- \(.*\)/1. \1/
+						  ```
+						- replace links to `assets` & `publish`
+						  ```vim
+						  %s#../assets/projects/java17/aal_gw/##g
+						  %s#(publish/projects/java17/aal_gw/\([^)]*\))#(\1.md)#g
+						  ```
+						- Replace straight quotes with curly quotes
+						  ```vim
+						  %s/"\(\S\)/“\1/g|%s/\(\S\)"/\1”/g
+						  ```
 			- Built-in ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 			  id:: 66faa5f9-8ffd-4542-b916-6e3528cabad8
 			  collapsed:: true
@@ -4010,6 +5084,94 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
 				- Supports [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64).
+		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
+		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =>  71:47:28
+		  :END:
+			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6673fb2f-ef98-484a-b289-b50482edea47))
+			- DONE Write [FoldableDemo.html](../assets/HTML/FoldableDemo.html)( ![src](../assets/HTML/FoldableDemo.html), showing `<details> <summary>` & CSS-only method) and [FolderDiv.html](../assets/HTML/FolderDiv.html)( ![src](../assets/HTML/FolderDiv.html), with custom element `<folder-div>`)
+			  id:: 6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-19 Wed 08:27:23]--[2024-06-20 Thu 16:31:09] =>  32:03:46
+			  :END:
+				- default folder is a `list-item` folder with `sideControl` to (un)fold the `foldable` slot.
+				- For leaf items with no `foldable`, don't use `<folder-div>`, just use `<div slot="unfoldable-leaf">` with `<style id="folder-div-style">`
+				  collapsed:: true
+					- ```css
+					  .unfoldable {
+					    display: list-item;
+					    border-bottom: inset 1px;
+					    margin-left: 1em;
+					  }
+					  .unfoldable::marker {
+					    color: var(--control-foreground);
+					    content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
+					  
+					    /* cannot adjust spaces of ::marker! They are always reset even with !important!
+					    margin-left: .5em !important;
+					    padding-left: .5em !important;
+					    text-indent: .5em !important;
+					    text-align: center !important;
+					    text-align-last: center !important;
+					    */
+					  }
+					  
+					  ```
+				- folder with `heading`
+					- a `heading` slot separate from `unfoldable` slot is required for replacing the `sideControl`
+					  collapsed:: true
+						- this must be a slot to show in the light DOM so that external script can access its content, unlike the `sideControl` hidden in the shadow DOM.
+					- so the folder is **not indented** and can be control with the heading.
+					- when `heading` slot is empty, headings in `unfoldable` slot are automatically detected and moved to `heading` slot.
+				- History
+				  collapsed:: true
+					- For the new term ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) used in the custom element `<folder-div>`, i [researched](((66602f68-e23f-4b24-921e-b1a9fc0cc731))) ((667407ee-35ae-4d6f-8b58-89c19c0e0936)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6674066a-aeff-45af-96df-b0c2f278a2ae)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))), and drew ((667500cd-a31d-4828-9dc4-93948e27e534)).
+					  collapsed:: true
+					- This unplanned work is [triggered by](((66600918-9f27-44c2-8188-f043c244710c))):
+					  collapsed:: true
+						- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
+						  id:: 6673fb2f-ef98-484a-b289-b50482edea47
+						- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
+				- References
+					- MDN: [HTMLSlotElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement): [slotchange](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement/slotchange_event) event, [assignedElements()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement/assignedElements)
+					- [Shadow DOM slots, composition](https://javascript.info/slots-composition)
+			- DONE Write [LogseqUtils.js](../assets/HTML/LogseqUtils.js)( ![src](../assets/HTML/LogseqUtils.js), for posting request to http://localhost:12315/api)
+			  :LOGBOOK:
+			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
+			  :END:
+			- DONE Write [LogseqGet.html](../assets/HTML/LogseqGet.html)( ![src](../assets/HTML/LogseqGet.html), for `logseq.Editor.get{Block,Page}`)
+			  id:: 6675860a-c135-4a92-b4fe-206ebde974ff
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
+			  CLOCK: [2024-06-23 Sun 15:00:17]--[2024-06-23 Sun 15:51:18] =>  00:51:01
+			  :END:
+				- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) I need to know what's in the hidden `:LOGBOOK:`.
+				  id:: 6669a3bd-7059-4e5a-b21b-d96cb3288557
+				  collapsed:: true
+					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
+					  id:: 6669a3bd-5b32-4088-982a-2c359b66610d
+			- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.DB.q`)
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-08-02 Fri 15:00:26]--[2024-08-02 Fri 15:36:01] =>  00:35:35
+			  :END:
+			- DONE `logseq.DB.onChanged` catches block creation and modification events
+			  collapsed:: true
+			  => use it to automatically timestamp newly created blocks.
+				- [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))) uses it for its option `checkWhenDBChanged`
+				  id:: 66faa5fa-9fb9-4211-925b-614e5e63214c
+					- [main.tsx](https://github.com/haydenull/logseq-plugin-git/blob/main/src/main.tsx#L171C1-L176C1)
+					  ```js
+					  if (logseq.settings?.checkWhenDBChanged) {
+					    logseq.DB.onChanged(({ blocks, txData, txMeta }) => {
+					      checkStatusWithDebounce();
+					    });
+					  }
+					  ```
 		- Settings: via [[logseq/config.edn]] and menu `Settings`
 		  collapsed:: true
 			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`)
@@ -4054,7 +5216,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- On Windows: `%USERPROFILE%` = `%HOMEDRIVE%%HOMEPATH%`
 				- On Linux (AppImage & Flatpack): user's`${HOME}`
-					- Flatpack: the [app folder](((6710c36b-6b29-42c5-b0e4-fc79e5e449a2))) is not the usual `.config/Logseq` but `.var/app/com.logseq.Logseq/config/Logseq}/`
+					- Flatpack: the [app folder](((6710c36b-6b29-42c5-b0e4-fc79e5e449a2))) is not the usual `.config/Logseq` but `.var/app/com.logseq.Logseq/config/Logseq/`
 				- On Linux installed with Snap: `${HOME}/snap/logseq/current/`
 				  collapsed:: true
 					- Because Logseq uses this separate snap home, some config/env in the user's `${HOME}` must be ported to this snap home.
@@ -4199,7 +5361,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Documentations
 				  collapsed:: true
 					- [Permitted content in `<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#technical_summary)
-						- [Transparent](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#transparent_content_model), except that no descendant may be [interactive content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#interactive_content) or an `<a>` element, and no descendant may have a specified [tabindex](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) attribute.
+						- [Transparent](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#transparent_content_model), except that no descendant may be [interactive content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#interactive_content) nor an `<a>` element, and no descendant may have a specified [tabindex](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) attribute.
 					- [Permitted content in `<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#technical_summary)
 						- [Phrasing content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#phrasing_content) but there must be no [Interactive content](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories#interactive_content)
 					- [Permitted content in `<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#technical_summary)
@@ -4261,7 +5423,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Markup_language
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A language to mark text content up with special marks and/or syntax to add metadata like meaning, style, structure to the document.
-		- ((66725725-f76a-4328-b162-f469b87e871b)) ((665361eb-5339-451e-957d-362b946d796d)), ((6653624a-5679-4bc5-bd7e-fdee34516314)), ((66536274-abb0-4f8e-8fa1-da2d4224b7ff)), ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), ...
+		- ((66725725-f76a-4328-b162-f469b87e871b)) ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb)), ((6720c001-a22b-47e9-93f6-c0b65d389dfd)), ((66536274-abb0-4f8e-8fa1-da2d4224b7ff)), ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), ...
 	- ## email
 	  id:: 66536383-8033-4105-8cbf-2c1316382df4
 	  collapsed:: true
@@ -4337,13 +5499,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6710fd6d-e8fb-4b24-b280-726187b7c6ce
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6710fcba-e545-4f3d-b74b-4373280534d9))
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://vnuhcm.edu.vn/
-	- ## XML
+	- ## Extensible Markup Language
 	  id:: 6653624a-5679-4bc5-bd7e-fdee34516314
 	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6720c001-a22b-47e9-93f6-c0b65d389dfd))
+		- XML
+		  id:: 6720c001-a22b-47e9-93f6-c0b65d389dfd
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6653624a-5679-4bc5-bd7e-fdee34516314))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/XML
-	- ## HTML
+	- ## Hypertext Markup Language
 	  id:: 665361eb-5339-451e-957d-362b946d796d
 	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6720bf1a-fa1f-4c1d-ba6f-2527a47621eb))
+		- HTML
+		  id:: 6720bf1a-fa1f-4c1d-ba6f-2527a47621eb
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((665361eb-5339-451e-957d-362b946d796d))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/HTML
 		- Flexbox
 			- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -4403,6 +5573,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- #### Apache
 			- #### NGINX
 		-
+	- ## Portable Document Format
+	  id:: 6720be1c-fb4d-47a9-9dbd-d5cc87cec103
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6720be20-0d0e-478d-bdbe-1b6d33d126a0))
+		- PDF
+		  id:: 6720be20-0d0e-478d-bdbe-1b6d33d126a0
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6720be1c-fb4d-47a9-9dbd-d5cc87cec103))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/PDF
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Based on the good old [PostScript](https://en.wikipedia.org/wiki/PostScript) language, in 1992, [Adobe](https://en.wikipedia.org/wiki/Adobe_Inc.) created ((6720be20-0d0e-478d-bdbe-1b6d33d126a0)) format for [documents](https://en.wikipedia.org/wiki/Document) presentation independent of [application software](https://en.wikipedia.org/wiki/Application_software), [hardware](https://en.wikipedia.org/wiki/Computer_hardware), and [operating systems](https://en.wikipedia.org/wiki/Operating_system). Nowadays, PDF has been supported by major browsers, with both `<embed>` displaying and to-PDF printing.
+		- HTML to PDF conversion
+		  id:: 6720c0a4-0294-4065-8016-9853e2a04475
+		  collapsed:: true
+			- For simple page capture, just use the browser's "to-PDF" printing feature.
+			- ~~Collapsible block~~ is unsupported ⇒ use layout with **bookmarks**
+			  collapsed:: true
+				- [DocRaptor](https://docraptor.com/) provides a [cloud-based API](https://docraptor.com/documentation/api/making_documents) to [Prince](https://www.princexml.com/) to convert HTML to PDF with [bookmarks](https://docraptor.com/documentation/article/1068005-bookmarks).
+					- DocRaptor's free account provides **5 free official conversions** per month, and unlimited test conversions with watermarks *nicely* placed at the top and bottom of each page.
+				- [Evo PDF](https://www.evopdf.com/demo/html_to_pdf/Bookmarks/Auto_Create_Bookmarks.aspx) can be used offline.
+				- [HiQPdf](https://www.hiqpdf.com/documentation/html/a1094666-433c-441b-a072-c5a64e75ca22.htm) library for .NET
+				- Another workaround is [using multi-layer PDF](https://community.adobe.com/t5/acrobat-discussions/creating-an-option-for-expandable-collapsible-pdf-sections/m-p/12328581), but it's an overkill
 	- ## Google Chrome
 	  collapsed:: true
 	  :LOGBOOK:
@@ -4454,6 +5644,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd)) is the place where the ((66fe70ac-04d0-45b5-b771-b072cc0fa7be)) is taken placed.
 	- JavaScript
+	  id:: 6716110e-aa2d-41c9-8ae3-be3ceed55407
 	  collapsed:: true
 		- moved to ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 -
