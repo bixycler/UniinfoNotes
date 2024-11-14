@@ -145,12 +145,14 @@
       this.heading = shadowRoot.getElementById("heading");
       this.unfoldable = shadowRoot.getElementById("unfoldable");
 
+      //console.debug('FolderDiv.constructor()',this.contents);
       this.unfoldable.addEventListener('slotchange', (e)=>{
         let udiv = this.unfoldable.assignedElements()[0];
+        if(!udiv){ return; }
         let h = udiv.children[0];
         if(h && h.tagName.startsWith('H')){
-          console.debug(h);
-          this.heading.assign(h);
+          udiv.(h);
+          console.debug('moved',h);
         }
       });
     }
@@ -171,10 +173,10 @@
 
 </script>
 
-<H3>Folder hierarchy with custom element <code>&lt;folder-div&gt;</code></H3>
+<H2>Folder hierarchy with custom element <code>&lt;folder-div&gt;</code></H2>
 <div class="folder" style="margin-left: 1.5em;">
   <folder-div>
-    <div slot="unfoldable"><h4>Heading</h4></div>
+    <div slot="unfoldable"><h3>Heading</h3></div>
     <div slot="foldable">
       <folder-div>
         <div slot="unfoldable">One</div>
@@ -205,9 +207,19 @@
         </div>
       </folder-div>
       <folder-div>
-        <div slot="unfoldable"><h5>Sub-heading</h5>with some unfoldable descripton</div>
+        <div slot="unfoldable"><h4>Sub-heading</h4>with some unfoldable descripton</div>
         <div slot="foldable">
           <div slot="unfoldable-leaf">Leaf item: no foldable part</div>
+          <folder-div>
+            <div slot="heading">This (plain) heading is slotted manually</div>
+            <div slot="unfoldable">
+              so that
+              <h5>this heading is kept in unfoldable, not moved to heading</h5>
+            </div>
+            <div slot="foldable">
+              <div slot="unfoldable-leaf">Leaf item: no foldable part</div>
+            </div>
+          </folder-div>
         </div>
       </folder-div>
     </div>
