@@ -134,6 +134,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
 				-
 		- ### concepts
+		  id:: 6735b188-e391-498b-a01b-35797616f7b6
 		  collapsed:: true
 			- file mode bits
 			  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
@@ -195,6 +196,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 			  collapsed:: true
 				- `ls`
+				  id:: 6735b188-098a-41ac-89ed-8cfcc857d796
 				  collapsed:: true
 				  list information about the FILEs (the current directory by default).
 					- `ll` = `ls -lhF`
@@ -4131,6 +4133,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
 									- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
 								- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
+							- DOING [!] failure in `block-refs-link-to-blocks-that-exist` again: missing `671f467e-6f1f-4436-a0dd-9a03055e11a9` in Linux > ((6735b188-e391-498b-a01b-35797616f7b6)) > ((671f467e-6f1f-4436-a0dd-9a03055e11a9))
+							  :LOGBOOK:
+							  CLOCK: [2024-11-14 Thu 15:40:05]
+							  :END:
+								- Referenced by Linux > commands > ((6735b188-098a-41ac-89ed-8cfcc857d796)) > `ll` = `ls -lhF` > ((6735b188-a46c-4363-8ccc-03fbfcf2cbaa))
+								- Reason: `file mode bits` was originally written in Linux > commands > `ls`, then moved to `concepts` with [drag & drop](((6716110e-51bb-40b2-b98c-503061212007))).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
