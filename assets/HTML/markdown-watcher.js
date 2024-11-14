@@ -746,7 +746,7 @@ function replaceQuotes(ln){
 
 /** Restructure item lists to <folder-div> */
 function restructureToFolderDiv(node, root=false){
-  console.debug('restructuring...',node.children[0].textContent);
+  //console.debug('restructuring...',node.children[0].textContent);
   // convert <li> to <folder-div>
   let unfoldable = document.createElement("div");
     unfoldable.setAttribute('slot', 'unfoldable');
@@ -785,7 +785,8 @@ function restructureToFolderDiv(node, root=false){
   // leaf item = item with no foldable part => just use <div class="unfoldable">
   if(!foldable.childNodes.length){
     unfoldable.setAttribute('slot', 'unfoldable-leaf');
-    folder = unfoldable;
+    foldable.remove(); folder.remove();
+    folder = unfoldable; foldable = null;
   }
 
   // then replace this node with the <folder-div>
@@ -795,7 +796,7 @@ function restructureToFolderDiv(node, root=false){
   }else{
     node.replaceWith(folder);
   }
-  console.debug('converted:',folder);
+  //console.debug('converted:',folder);
 }
 
 /** */
