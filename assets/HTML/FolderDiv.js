@@ -18,31 +18,55 @@
       this._internals = this.attachInternals();
 
       this.isFolded = shadowRoot.getElementById("isFolded");
-      this.arrow = shadowRoot.getElementById("arrow");
-      this.stemLine = shadowRoot.getElementById("stemLine");
+      this.sideControl = shadowRoot.getElementById("sideControl");
+        this.arrow = shadowRoot.getElementById("arrow");
+        this.stemLine = shadowRoot.getElementById("stemLine");
       this.contents = shadowRoot.getElementById("contents");
-      this.heading = shadowRoot.getElementById("heading");
-      this.unfoldable = shadowRoot.getElementById("unfoldable");
-
+        this.heading = shadowRoot.getElementById("heading");
+        this.unfoldable = shadowRoot.getElementById("unfoldable");
+        this.foldable = shadowRoot.getElementById("foldable");
       //console.debug('FolderDiv.constructor()',this.contents);
+
       this.unfoldable.addEventListener('slotchange', (e)=>{
+        // detected and moved heading from unfoldable slot to heading slot
+        let hdiv = this.heading.assignedElements()[0];
+        if(hdiv){ this.setType('heading'); }
         let udiv = this.unfoldable.assignedElements()[0];
         if(!udiv){ return; }
         let h = udiv.children[0];
-        if(h && h.tagName.startsWith('H')){
-          this.heading.assign(h);
+        if(!hdiv && h && h.tagName.startsWith('H')){
+          udiv.before(h);
+          h.setAttribute('slot','heading');
+          this.setType('heading');
           console.debug('moved',h);
         }
       });
     }
     connectedCallback() {
-
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
       //console.debug(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
       if(name == "folded"){
         this.isFolded.setAttribute("checked", newValue);
+      }
+    }
+
+    setType(t){
+      if(t=='item'){
+        let udiv = this.unfoldable.assignedElements()[0];
+        let style = getComputedStyle(this.contents);
+        let indent = style.getPropertyValue('--contents-indent');
+        if(!udiv){ return; }
+        this.sideControl.style.display = 'flex';
+        this.heading.style.display = 'none';
+        this.contents.style.paddingLeft = indent;
+      }else if(t=='heading'){
+        let hdiv = this.heading.assignedElements()[0];
+        if(!hdiv){ return; }
+        this.heading.style.display = 'block';
+        this.sideControl.style.display = 'none';
+        this.contents.style.paddingLeft = 0;
       }
     }
 
@@ -90,7 +114,8 @@ const FolderDivTemplateStyle = `
       --control-foreground: DimGray;
       --stem-line-foreground: WhiteSmoke;
       --control-foreground-hover: blue;
-
+      --heading-background-hover: Lavender;
+      --contents-indent: .5em;
     }
 
     /* The hidden checkbox holding folding state */
@@ -131,7 +156,7 @@ const FolderDivTemplateStyle = `
     #contents {
       display: flex;
       flex-direction: column;
-      padding-left: .5em;
+      padding-left: var(--contents-indent);
       border-bottom: inset 1px;
     }
 
@@ -152,6 +177,9 @@ const FolderDivTemplateStyle = `
 
     #heading {
       display: block;
+    }
+    #heading:hover {
+      background: var(--heading-background-hover);
     }
 
   </style>
