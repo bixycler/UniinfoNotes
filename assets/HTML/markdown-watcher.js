@@ -202,7 +202,7 @@ async function load(forced) {
     md = normalizeMardown(md,
       /*flattenHeadings*/false,
       /*blankLineBeforeCodeBlock*/false,
-      /*looseList*/true,
+      /*looseList*/false,
       /*lineBreakAfterMetadata*/false
     );
   }
