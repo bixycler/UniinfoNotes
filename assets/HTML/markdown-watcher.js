@@ -88,22 +88,22 @@ async function toPdf() { // use URLSearchParams
   let req = structuredClone(Request);
     req.body = params;
 
-  res = await fetch(DocRaptorUrl, req);
-  //console.debug('toPdf() fetch',req,res);
-  if (!res.ok) {
-    //console.log('Fetch error:',res);
-    showError(res.statusText, 'PDF loading error');
-    return;
-  } else {
-    clearMessage();
-  }
-  blob = await res.blob();
+  let blob = await fetchFile(DocRaptorUrl, req, 'PDF loading');
   console.debug('toPdf() fetch',params,blob);
   return blob;
 }
 
 // modern-screenshot
 const domto = window.modernScreenshot;
+
+// FolderDiv
+var FolderDivJS = null;
+(async function(){
+  let blob = await fetchFile('FolderDiv.js', {mode: "no-cors"});
+  FolderDivJS = document.createElement('script');
+  FolderDivJS.setAttribute('id', 'FolderDivJS');
+  FolderDivJS.innerHTML = await blob.text();
+}());
 
 //////////////////////////////////////////
 /////// DOMs
@@ -131,7 +131,7 @@ const exportUrlHtml = document.getElementById("exportUrlHtml");
 const exportUrlPdf = document.getElementById("exportUrlPdf");
 const exportUrlImg = document.getElementById("exportUrlImg");
 const markdown_style = document.getElementById("markdown_style");
-const pdf_style = document.getElementById("pdf_style");
+const folder_div_style = document.getElementById("folder_div_style");
 /*/
 
 //////////////////////////////////////////
@@ -180,17 +180,7 @@ async function load(forced) {
 
   // loaf mdf tagged with timestamp
   let freq = fn + '?ts=' + new Date().getTime();
-  let res = await fetch(freq, {mode: "no-cors"});
-  //console.debug(`fetch(${freq})`,res);
-  if (!res.ok) {
-    //console.log('Fetch error:',res);
-    showError(res.statusText);
-    return;
-  } else {
-    clearMessage();
-  }
-  let blob = await res.blob();
-  console.debug(`fetch(${freq})`, blob);
+  let blob = await fetchFile(freq, {mode: "no-cors"});
   if (equal(blob, oblob)) {
     if(!forced){
       return; // continue only if there's change in the input blob, or being forced
@@ -219,17 +209,17 @@ async function load(forced) {
   mdtxt.value = md;
   omdhtml = mdhtml.innerHTML;
   mdhtml.innerHTML = md2html(md, /*looseList*/true); //mdi.render(md);
+  if(doNormalizeMarkdown.checked){
+    restructureToFolderDiv(mdhtml, /*root*/true);
+  }
   let mdihtml = mdhtml.innerHTML;
   if(omdhtml==mdihtml){
     if(renderChoice.value==orenderChoice){
       return; // continue only if there's change in the Markdown HTML or in renderChoice
     }
-  }else { 
-    let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML], {type: 'text/markdown'});
+  }else{
+    let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/markdown'});
     updateURL(exportUrlHtml, b);
-  }
-  if(doNormalizeMarkdown.checked){
-    restructureToFolderDiv(mdhtml, /*root*/true);
   }
 
   mdhtml.style.display = 'none';
@@ -866,6 +856,22 @@ function escapeXML(str, quote=false, xml=true){
 function arrayPush(dict, field, value){
   if(!(field in dict)){ dict[field] = []; }
   dict[field].push(value);
+}
+
+/** Fetch a file from url then return blob of that file */
+async function fetchFile(url, req, msg='Fetch'){
+  let res = await fetch(url, req);
+  //console.debug(`${msg}(${url})`,res);
+  if (!res.ok) {
+    //console.warn(msg+' error:',res);
+    showError(res.statusText, msg+' error');
+    return;
+  } else {
+    clearMessage();
+  }
+  let blob = await res.blob();
+  console.debug(`${msg}(${url})`, blob);
+  return blob;
 }
 
 /**

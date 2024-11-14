@@ -1,82 +1,5 @@
-//<script>
-  //FolderDivTemplate = document.getElementById("folder-div").innerHTML; // FolderDiv.html
-  //const FolderDivTemplateHtml = ``; // FolderDiv.js
-  //const FolderDivTemplateStyle = ``; // FolderDiv.js
-  //const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle; // FolderDiv.js
-  //const FolderDivStyle = ``; // FolderDiv.js
-  //(function(){...style.innerHTML = FolderDivStyle...}()); // FolderDiv.js
 
-  class FolderDiv extends HTMLElement {
-    static observedAttributes = ["folded"];
-
-    constructor() {
-      super();
-      const shadowRoot = this.attachShadow({ mode: "open" });
-      this.template = document.createElement('template');
-      this.template.innerHTML = FolderDivTemplate;
-      shadowRoot.appendChild(this.template.content.cloneNode(true));
-      this._internals = this.attachInternals();
-
-      this.isFolded = shadowRoot.getElementById("isFolded");
-      this.sideControl = shadowRoot.getElementById("sideControl");
-        this.arrow = shadowRoot.getElementById("arrow");
-        this.stemLine = shadowRoot.getElementById("stemLine");
-      this.contents = shadowRoot.getElementById("contents");
-        this.heading = shadowRoot.getElementById("heading");
-        this.unfoldable = shadowRoot.getElementById("unfoldable");
-        this.foldable = shadowRoot.getElementById("foldable");
-      //console.debug('FolderDiv.constructor()',this.contents);
-
-      this.unfoldable.addEventListener('slotchange', (e)=>{
-        // detected and moved heading from unfoldable slot to heading slot
-        let hdiv = this.heading.assignedElements()[0];
-        if(hdiv){ this.setType('heading'); }
-        let udiv = this.unfoldable.assignedElements()[0];
-        if(!udiv){ return; }
-        let h = udiv.children[0];
-        if(!hdiv && h && h.tagName.startsWith('H')){
-          udiv.before(h);
-          h.setAttribute('slot','heading');
-          this.setType('heading');
-          console.debug('moved',h);
-        }
-      });
-    }
-    connectedCallback() {
-    }
-
-    attributeChangedCallback(name, oldValue, newValue) {
-      //console.debug(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
-      if(name == "folded"){
-        this.isFolded.setAttribute("checked", newValue);
-      }
-    }
-
-    setType(t){
-      if(t=='item'){
-        let udiv = this.unfoldable.assignedElements()[0];
-        let style = getComputedStyle(this.contents);
-        let indent = style.getPropertyValue('--contents-indent');
-        if(!udiv){ return; }
-        this.sideControl.style.display = 'flex';
-        this.heading.style.display = 'none';
-        this.contents.style.paddingLeft = indent;
-      }else if(t=='heading'){
-        let hdiv = this.heading.assignedElements()[0];
-        if(!hdiv){ return; }
-        this.heading.style.display = 'block';
-        this.sideControl.style.display = 'none';
-        this.contents.style.paddingLeft = 0;
-      }
-    }
-
-  }
-
-  customElements.define("folder-div", FolderDiv);
-
-//</script>
-
-//<template id="folder-div">
+//start template id="folder-div">
 const FolderDivTemplateHtml = `
   <!--folder-div style="display:flex; flex-direction:row;"-->
     <input type="checkbox" id="isFolded" />
@@ -187,9 +110,88 @@ const FolderDivTemplateStyle = `
 
 const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle;
 
-//</template>
+//end template>
 
-//<style id="folder-div-style">
+//start script>
+  //FolderDivTemplate = document.getElementById("folder-div").innerHTML; // FolderDiv.html
+  //const FolderDivTemplateHtml = ``; // FolderDiv.js
+  //const FolderDivTemplateStyle = ``; // FolderDiv.js
+  //const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle; // FolderDiv.js
+  //const FolderDivStyle = ``; // FolderDiv.js
+  //(function(){...style.innerHTML = FolderDivStyle...}()); // FolderDiv.js
+
+  class FolderDiv extends HTMLElement {
+    static observedAttributes = ["folded"];
+
+    constructor() {
+      super();
+      const shadowRoot = this.attachShadow({ mode: "open" });
+      this.template = document.createElement('template');
+      this.template.innerHTML = FolderDivTemplate;
+      shadowRoot.appendChild(this.template.content.cloneNode(true));
+      this._internals = this.attachInternals();
+
+      this.isFolded = shadowRoot.getElementById("isFolded");
+      this.sideControl = shadowRoot.getElementById("sideControl");
+        this.arrow = shadowRoot.getElementById("arrow");
+        this.stemLine = shadowRoot.getElementById("stemLine");
+      this.contents = shadowRoot.getElementById("contents");
+        this.heading = shadowRoot.getElementById("heading");
+        this.unfoldable = shadowRoot.getElementById("unfoldable");
+        this.foldable = shadowRoot.getElementById("foldable");
+      //console.debug('FolderDiv.constructor()',this.contents);
+    }
+    connectedCallback() {
+      this.unfoldable.addEventListener('slotchange', (e)=>{
+        // detected and moved heading from unfoldable slot to heading slot
+        let hdiv = this.heading.assignedElements()[0];
+        if(hdiv){ this.setType('heading'); }
+        let udiv = this.unfoldable.assignedElements()[0];
+        if(!udiv){ return; }
+        let h = udiv.children[0];
+        if(!hdiv && h && h.tagName.startsWith('H')){
+          udiv.before(h);
+          h.setAttribute('slot','heading');
+          this.setType('heading');
+          //console.debug('moved',h);
+        }
+      });
+    }
+    disconnectedCallback() {
+    }
+
+    attributeChangedCallback(name, oldValue, newValue) {
+      //console.debug(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
+      if(name == "folded"){
+        this.isFolded.setAttribute("checked", newValue);
+      }
+    }
+
+    setType(t){
+      if(t=='item'){
+        let udiv = this.unfoldable.assignedElements()[0];
+        let style = getComputedStyle(this.contents);
+        let indent = style.getPropertyValue('--contents-indent');
+        if(!udiv){ return; }
+        this.sideControl.style.display = 'flex';
+        this.heading.style.display = 'none';
+        this.contents.style.paddingLeft = indent;
+      }else if(t=='heading'){
+        let hdiv = this.heading.assignedElements()[0];
+        if(!hdiv){ return; }
+        this.heading.style.display = 'block';
+        this.sideControl.style.display = 'none';
+        this.contents.style.paddingLeft = 0;
+      }
+    }
+
+  }
+
+  customElements.define("folder-div", FolderDiv);
+
+//end script>
+
+//start style id="folder_div_style">
 const FolderDivStyle = `
     div[slot="unfoldable-leaf"] {
       display: list-item;
@@ -202,11 +204,11 @@ const FolderDivStyle = `
       content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
     }
 `;
-//</style>
+//end style>
 
 (function(){
   let style = document.createElement('style');
-  style.setAttribute('id', 'folder-div-style');
+  style.setAttribute('id', 'folder_div_style');
   style.innerHTML = FolderDivStyle;
   document.querySelector('body').append(style);
 }());

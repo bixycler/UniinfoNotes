@@ -12,26 +12,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- technical issues; universal subjectivity
 				-
-				- ((66978876-9378-4059-8783-868d041e8e2e)) & ((671f4028-c60f-4791-b716-e5226cdf410e))
-				- Add `markdown-watcher.html`, `diagram-watcher.html`
-				- DocRaptor ((67222374-f7da-4900-a16f-7540013b8b96))
-				- ((6720bd22-c2f9-42c7-a6e9-99bc51a92225))
-				- Refine definition of ((6728a766-210b-462b-8fd4-aee04981b4f9)) & ((6728a7ab-1629-4e23-bc56-10ead0d8348c))
-				- ((6729d054-d48f-4ffa-b097-9a564a4cc2a5))
-				- ((6729d6db-3a8c-49da-95b0-28e1b2cb9806))
-				- ((672ae05e-e686-404e-aba5-3d0469ff4228))
-				- Refine ((66f267bf-5272-4dde-99a1-b220ba5bd852))ness
-				- ((672c4cdc-fb29-4e92-b574-059617404a20))
-				- ((672c6f67-b678-4d99-9614-b4569770a512))
-				- ((6716110a-2f39-40a0-a601-adfe023e3392))
-				- ((6731937b-7d2d-4cdd-843a-cf45453ff4f6))
-				- ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)) & ((67330a8d-c966-442c-8948-a9a2dd10ab60)) & ((67331a5a-1815-40c1-96db-ef7be8ee8d7b))
+				-
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- ((672e0320-dc07-4c6e-8832-341aaa90cd2a))
-				- ((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf))
 				- ...
 			- ------
 		-
