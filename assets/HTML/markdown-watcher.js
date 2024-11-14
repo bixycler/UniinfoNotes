@@ -212,11 +212,13 @@ async function load(forced) {
   if(doNormalizeMarkdown.checked){
     let item = mdhtml;
     if(item.children[0].tagName=='UL'){
-      console.log('Headless document: Use file name as page header: ',fn);
+      let t = decodeURI(fn);
+      console.log('Headless page: Use file name as page header: ',t);
       let title = document.createElement('p');
-      title.innerHTML = fn;
+      title.innerHTML = t;
+      item.prepend(title);
     }
-    restructureToFolderDiv(mdhtml, /*root*/true);
+    restructureToFolderDiv(item, /*root*/true);
   }
   let mdihtml = mdhtml.innerHTML;
   if(omdhtml==mdihtml){
