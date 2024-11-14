@@ -1,8 +1,4 @@
 # Logseq publish
-:LOGBOOK:
-CLOCK: [2024-06-11 Tue 10:35:39]
-CLOCK: [2024-06-11 Tue 10:36:22]--[2024-06-12 Wed 10:17:12] =>  23:40:50
-:END:
 	- Use the built-in feature `Export public pages`.
 	  collapsed:: true
 		- Chose a **separate folder** (`$web/`) to checkout the `gh-pages` branch, then export to that folder.
@@ -43,7 +39,7 @@ CLOCK: [2024-06-11 Tue 10:36:22]--[2024-06-12 Wed 10:17:12] =>  23:40:50
 			- Copy to external text editor to get text of block refs.
 			- Copy `{{embed}}`ed contents
 			- Remove additional notes & tasks
-		- Then, load the published note to converter script
+		- ### Then, load the published note to converter script
 			- publish Markdown
 				- convert newline `\n` to `<br />` (skipped)
 				  collapsed:: true
