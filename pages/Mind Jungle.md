@@ -4133,16 +4133,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
 									- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
 								- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
-							- DOING [!] failure in `block-refs-link-to-blocks-that-exist` again: missing `671f467e-6f1f-4436-a0dd-9a03055e11a9` in Linux > ((6735b188-e391-498b-a01b-35797616f7b6)) > ((671f467e-6f1f-4436-a0dd-9a03055e11a9))
+							- DONE [!] failure in `block-refs-link-to-blocks-that-exist` again: missing `671f467e-6f1f-4436-a0dd-9a03055e11a9` in Linux > ((6735b188-e391-498b-a01b-35797616f7b6)) > ((671f467e-6f1f-4436-a0dd-9a03055e11a9))
 							  id:: 6735b6bf-6141-48e3-9e12-2473a01dafb0
 							  :LOGBOOK:
-							  CLOCK: [2024-11-14 Thu 15:40:05]
+							  CLOCK: [2024-11-14 Thu 15:40:05]--[2024-11-14 Thu 16:12:16] =>  00:32:11
 							  :END:
 								- Referenced by Linux > commands > ((6735b188-098a-41ac-89ed-8cfcc857d796)) > `ll` = `ls -lhF` > ((6735b188-a46c-4363-8ccc-03fbfcf2cbaa))
-								- Reason:
-									- `file mode bits` was [originally](https://github.com/bixycler/UniinfoNotes/commit/4dc012ce0db8b49eda77cc3319bb8eefab9c59fe "commit 4dc012ce") written in Linux > commands > `ls`;
-									- then `file mode bits` was moved to `concepts` with [drag & drop](((6716110e-51bb-40b2-b98c-503061212007)));
-									- then somehow the id of `file mode bits` was removed in [commit 762e2c90c](https://github.com/bixycler/UniinfoNotes/commit/762e2c90c9ffff2519dc5a2b1f7942727f5fcbcc).
+								- The id of `file mode bits` is still stored in Logseq graph, but not in `Mind Jungle.md`.
+									- A `Re-index` does clear the id in the graph, instead of update id in Markdown file!
+								- Reason: in 2024-10-28,
+									- `file mode bits` was [originally](https://github.com/bixycler/UniinfoNotes/commit/4dc012ce0db8b49eda77cc3319bb8eefab9c59fe "15:14:44 commit 4dc012ce") written in Linux > commands > `ls`;
+									- then `file mode bits` was [moved](https://github.com/bixycler/UniinfoNotes/commit/e6d0f7279ee9b3a80e952f92d172eaefa03d0fab "16:24:44 commit e6d0f727") to `concepts` with [drag & drop](((6716110e-51bb-40b2-b98c-503061212007)));
+									- then somehow the id of `file mode bits` was removed in [commit 762e2c90c](https://github.com/bixycler/UniinfoNotes/commit/762e2c90c9ffff2519dc5a2b1f7942727f5fcbcc "17:04:44").
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
