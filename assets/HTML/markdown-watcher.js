@@ -406,7 +406,8 @@ function normalizeMardown(md,
   flattenHeadings = false,
   blankLineBeforeCodeBlock = false,
   looseList = false,
-  lineBreakAfterMetadata = false
+  lineBreakAfterMetadata = false,
+  detectPageHeading = false
 ){ // md -> nmd
   let lns = (md+'\n').split('\n'), nmd = '';
   let indent = '';
