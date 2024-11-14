@@ -16,6 +16,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				-
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- Report broken block ref of ((671f467e-6f1f-4436-a0dd-9a03055e11a9)) in commit 762e2c90c
 				- ...
 			- ------
 		-
