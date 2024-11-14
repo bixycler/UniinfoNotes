@@ -214,7 +214,7 @@ async function load(forced) {
     let item = mdhtml;
     if(item.children[0].tagName=='UL'){
       let l = item.children[0];
-      if(l.children.length = 1){
+      if(l.children.length == 1){
         item = l.children[0];
         console.log('Single-item page: ',item.children[0].textContent);
         // move contents of this single item to the page
