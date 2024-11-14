@@ -533,12 +533,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :END:
 			- [!] Error converting [[Logseq publish]]
 				- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Logseq automatically **unitemizes** the page's header (`H*` any level)
+					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Restore item with `pageHeadingAsItem`
 				- This makes the whole document body be rendered as a giant code block.
-				- When manually itemizing the page header, the whole page is converted to a single `unfoldable-leaf`!
+				- When itemizing the page header, the whole page is converted to a single `unfoldable-leaf`!
 					- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Single-item page
 					  ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Process that single item instead of the page.
 					- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Headless page
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Use file name as page header.
 				- `flattenHeadings = false` for `restructureToFolderDiv()`.
-				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) The single-item page is so problematic!
 		- ...

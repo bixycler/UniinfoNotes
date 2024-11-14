@@ -407,12 +407,18 @@ function normalizeMardown(md,
   blankLineBeforeCodeBlock = false,
   looseList = false,
   lineBreakAfterMetadata = false,
-  detectPageHeading = false
+  pageHeadingAsItem = false
 ){ // md -> nmd
   let lns = (md+'\n').split('\n'), nmd = '';
   let indent = '';
   let m = null; // pattern matches
   let msg = {};
+
+  // convert the page heading to the global item (required for Logseq markdown)
+  if(pageHeadingAsItem && lns[0].startsWith('#')){
+    lns[0] = '- '+lns[0];
+    console.log('Page heading converted to item: ',lns[0]);
+  }
 
   // convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
   //    *) Only collect metadata of item, not of page
