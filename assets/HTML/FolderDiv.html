@@ -32,6 +32,7 @@
       --control-foreground: DimGray;
       --stem-line-foreground: WhiteSmoke;
       --control-foreground-hover: blue;
+      --heading-background-hover: blue;
       --contents-indent: .5em;
     }
 
@@ -94,6 +95,9 @@
 
     #heading {
       display: block;
+    }
+    #heading:hover {
+      background: var(--heading-background-hover);
     }
 
   </style>
@@ -180,13 +184,14 @@
         let indent = style.getPropertyValue('--contents-indent');
         if(!udiv){ return; }
         this.sideControl.style.display = 'flex';
-        this.sideControl.style.display = 'flex';
         this.heading.style.display = 'none';
+        this.contents.style.paddingLeft = indent;
       }else if(t=='heading'){
         let hdiv = this.heading.assignedElements()[0];
         if(!hdiv){ return; }
         this.heading.style.display = 'block';
         this.sideControl.style.display = 'none';
+        this.contents.style.paddingLeft = 0;
       }
     }
 
