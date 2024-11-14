@@ -24,8 +24,10 @@
       this.heading = shadowRoot.getElementById("heading");
       this.unfoldable = shadowRoot.getElementById("unfoldable");
 
+      console.debug('FolderDiv.constructor()',this.contents);
       this.unfoldable.addEventListener('slotchange', (e)=>{
         let udiv = this.unfoldable.assignedElements()[0];
+        if(!udiv){ console.warn('unassigned unfoldable:',this.unfoldable); }
         let h = udiv.children[0];
         if(h && h.tagName.startsWith('H')){
           console.debug(h);
