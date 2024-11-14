@@ -4520,6 +4520,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- For easy DOM traversal, set [looseList](((67333634-482c-4446-95aa-dcd549cb27cd))) = true & [flattenHeadings](((6720b9eb-687b-4041-99e6-00791a4769bb))) = false.
 									- For block title in `<div slot="unfoldable">`: Use `looseList` to wrap all item contents into `<p>`, then use `node.children[0]` to access its first child to get block title, instead of traversing `node.childNodes[]`.
 									- Note that, even with `looseList`, the `<li>` always contains meaningless newline-only text nodes which will appear in `node.childNodes[]`.
+								- DOING headings in `<div slot="unfoldable">` are automatically detected and moved to `<div slot="heading">`
+								  :LOGBOOK:
+								  CLOCK: [2024-11-14 Thu 08:07:06]
+								  CLOCK: [2024-11-14 Thu 08:07:12]
+								  :END:
 						- ((6720c0a4-0294-4065-8016-9853e2a04475))
 						  id:: 6720bd22-c2f9-42c7-a6e9-99bc51a92225
 							- TODO programmatically print HTML page to PDF using Chrome.

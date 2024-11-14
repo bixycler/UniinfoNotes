@@ -21,6 +21,19 @@
       this.arrow = shadowRoot.getElementById("arrow");
       this.stemLine = shadowRoot.getElementById("stemLine");
       this.contents = shadowRoot.getElementById("contents");
+      this.heading = shadowRoot.getElementById("heading");
+      this.unfoldable = shadowRoot.getElementById("unfoldable");
+
+      this.unfoldable.addEventListener('slotchange', (e)=>{
+        let udiv = this.unfoldable.assignedElements()[0];
+        let h = udiv.children[0];
+        if(h && h.tagName.startsWith('H')){
+          console.debug(h);
+          this.heading.assign(h);
+        }
+      });
+    }
+    connectedCallback() {
 
     }
 
@@ -41,7 +54,7 @@
 const FolderDivTemplateHtml = `
   <!--folder-div style="display:flex; flex-direction:row;"-->
     <input type="checkbox" id="isFolded" />
-    <label for="isFolded" style="display:flex; flex-direction:column;">
+    <label for="isFolded" id="sideControl" part="sideControl" style="display:flex; flex-direction:column;">
       <div id="arrow" part="arrow"></div>
       <div style="display:flex; flex-direction:row; flex:1 0 0;">
         <div style="flex:3"></div>
@@ -49,8 +62,13 @@ const FolderDivTemplateHtml = `
         <div style="flex:3"></div>
       </div>
     </label>
-    <div id="contents" style="display:flex; flex-direction:column;">
-      <div class="unfoldable"><slot name="unfoldable"></slot></div>
+    <div id="contents" part="contents" style="display:flex; flex-direction:column;">
+      <div class="unfoldable">
+        <label for="isFolded" part="heading">
+          <slot name="heading" id="heading"></slot>
+        </label>
+        <slot name="unfoldable" id="unfoldable"></slot>
+      </div>
       <div class="foldable"><slot name="foldable"></slot></div>
     </div>
   <!--/folder-div-->
@@ -77,7 +95,7 @@ const FolderDivTemplateStyle = `
     #isFolded {
       display: none;
     }
-    label {
+    #isFolded + label {
       color: var(--control-foreground);
     }
     #isFolded + label:hover {
@@ -127,6 +145,10 @@ const FolderDivTemplateStyle = `
     /* Unfoldable content */
 
     #contents > .unfoldable {
+      display: block;
+    }
+
+    #heading {
       display: block;
     }
 

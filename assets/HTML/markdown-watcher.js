@@ -35,13 +35,13 @@ const DocRaptorStyle = `
   }
 
   /* <folder-div> */
-  folder-div, .unfoldable-leaf {
+  folder-div, div[slot="unfoldable-leaf"] {
     display: list-item;
     //border-bottom: inset 1px;
     margin-left: 1em;
     padding-left: .5em;
   }
-  folder-div::marker, .unfoldable-leaf::marker {
+  folder-div::marker, div[slot="unfoldable-leaf"]::marker {
     color: DimGray;
     content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
   }
