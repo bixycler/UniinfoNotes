@@ -1,5 +1,5 @@
-#### Logseq publish
-id:: 6735c981-7edd-4b51-afd2-23dcc4746238
+- # Logseq publish
+  id:: 6735c981-7edd-4b51-afd2-23dcc4746238
 	- ## test
 	  collapsed:: true
 		- Use the built-in feature `Export public pages`.

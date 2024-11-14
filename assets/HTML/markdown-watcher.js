@@ -212,11 +212,18 @@ async function load(forced) {
   if(doNormalizeMarkdown.checked){
     let item = mdhtml;
     if(item.children[0].tagName=='UL'){
-      let t = decodeURI(fn);
-      console.log('Headless page: Use file name as page header: ',t);
-      let title = document.createElement('p');
-      title.innerHTML = t;
-      item.prepend(title);
+      if(item.children[0].children.length = 1){
+        item = item.children[0].children[0];
+        console.log('Single-item page: ',item.children[0].textContent);
+        mdhtml.append(item); mdhtml.children[0].remove();
+        item = mdhtml;
+      }else{
+        let t = decodeURI(fn);
+        console.log('Headless page: Use file name as page header: ',t);
+        let title = document.createElement('p');
+        title.innerHTML = t;
+        item.prepend(title);
+      }
     }
     restructureToFolderDiv(item, /*root*/true);
   }
