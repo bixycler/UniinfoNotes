@@ -414,6 +414,7 @@ function normalizeMardown(md,
   let msg = {};
 
   // convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
+  //    *) Only collect metadata of item, not of page
   // & record mapUuid[id] = blockTitle
   // & process looseList
   mapUuid = {}; noUuid = {};
@@ -422,6 +423,7 @@ function normalizeMardown(md,
   let firstItem = true; // to detect soliton list: only one item with no sub-list
   indent = '';
   for(let i in lns){ let ln = lns[i];
+    // contiguous lines of metadata, hence `continue`
     if(ln.match(patLB)){ // start LOGBOOK
       inLogbook = true; continue;
     }
@@ -437,6 +439,7 @@ function normalizeMardown(md,
       props[m[1]] = escapeXML(m[2], /*quote*/true); continue;
     }
     // end metadata (by any line which is not a property nor logbook)
+    // collect metadata to meta, then reset them all
     if(meta && (Object.keys(props).length || logbook)){
       if('id' in props){
         meta += `id="${props.id}" `;
@@ -447,16 +450,16 @@ function normalizeMardown(md,
       if(logbook){ meta += `data-logbook="${logbook}" `; }
       meta += '></a>' + (lineBreakAfterMetadata ? '  ' : ''); // two trailing space for line break!
       nmd = nmd.slice(0, -1) + ' '+meta+'\n';
-      logbook = ''; props = {};
     }
+    meta = ''; logbook = ''; props = {}; // reset metadata; meta will be restarted only at next item
     // next item
     m = ln.match(patItem);
     if(m){
-      meta = metatag;
+      meta = metatag; // restart meta
       blockTitle = ln.replace(m[0],'');
       if(looseList){ ln = indent+'\t\n' +ln; }
       indent = m[1];
-    }else{ meta = ''; }
+    }
     nmd += ln+'\n';
   }
   processMapUuid();
