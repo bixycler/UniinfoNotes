@@ -4509,21 +4509,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  ```
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 							- `MarkdownIt.options`
+							  collapsed:: true
 								- `html: true, breaks: true` for comatible with Logseq
 								- `typographer: false`: we do `replaceQuotes()` ourselves.
-							- DOING make item lists foldable with custom element `<folder-div>`
+							- make item lists foldable with [custom element `<folder-div>`](((6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8)))
 							  id:: 672e0320-dc07-4c6e-8832-341aaa90cd2a
+							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2024-11-08 Fri 19:25:27]
-							  CLOCK: [2024-11-08 Fri 19:27:05]
+							  CLOCK: [2024-11-08 Fri 19:27:05]--[2024-11-14 Thu 10:33:01] =>  135:05:56
 							  :END:
 								- For easy DOM traversal, set [looseList](((67333634-482c-4446-95aa-dcd549cb27cd))) = true & [flattenHeadings](((6720b9eb-687b-4041-99e6-00791a4769bb))) = false.
 									- For block title in `<div slot="unfoldable">`: Use `looseList` to wrap all item contents into `<p>`, then use `node.children[0]` to access its first child to get block title, instead of traversing `node.childNodes[]`.
 									- Note that, even with `looseList`, the `<li>` always contains meaningless newline-only text nodes which will appear in `node.childNodes[]`.
-								- DOING headings in `<div slot="unfoldable">` are automatically detected and moved to `<div slot="heading">`
+								- headings in `<div slot="unfoldable">` are automatically detected and moved to `<div slot="heading">`
 								  :LOGBOOK:
 								  CLOCK: [2024-11-14 Thu 08:07:06]
-								  CLOCK: [2024-11-14 Thu 08:07:12]
+								  CLOCK: [2024-11-14 Thu 08:07:12]--[2024-11-14 Thu 10:32:53] =>  02:25:41
 								  :END:
 						- ((6720c0a4-0294-4065-8016-9853e2a04475))
 						  id:: 6720bd22-c2f9-42c7-a6e9-99bc51a92225

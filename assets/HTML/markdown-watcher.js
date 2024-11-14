@@ -25,7 +25,6 @@ const DocRaptorStyle = `
     margin: 20px;
   }
 
-
   /* <details> */
   details {
     display: block
