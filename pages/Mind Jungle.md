@@ -5096,7 +5096,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-06-19 Wed 08:27:23]--[2024-06-20 Thu 16:31:09] =>  32:03:46
 			  :END:
 				- default folder is a `list-item` folder with `sideControl` to (un)fold the `foldable` slot.
-				- For leaf items with no `foldable`, don't use `<folder-div>`, just use `<div class="unfoldable-leaf">` with `<style id="folder-div-style">`
+				- For leaf items with no `foldable`, don't use `<folder-div>`, just use `<div slot="unfoldable-leaf">` with `<style id="folder-div-style">`
 				  collapsed:: true
 					- ```css
 					  .unfoldable {
@@ -5119,9 +5119,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  
 					  ```
 				- folder with `heading`
-					- a `heading` slot separate from `unfoldable` slot is required for replacing the `sideControl`.
+					- a `heading` slot separate from `unfoldable` slot is required for replacing the `sideControl`
 					  collapsed:: true
 						- this must be a slot to show in the light DOM so that external script can access its content, unlike the `sideControl` hidden in the shadow DOM.
+					- so the folder is **not indented** and can be control with the heading.
 					- when `heading` slot is empty, headings in `unfoldable` slot are automatically detected and moved to `heading` slot.
 				- History
 				  collapsed:: true
@@ -5132,6 +5133,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
 						  id:: 6673fb2f-ef98-484a-b289-b50482edea47
 						- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
+				- References
+					- MMDN: [HTMLSlotElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement)
+					- [Shadow DOM slots, composition](https://javascript.info/slots-composition)
 			- DONE Write [LogseqUtils.js](../assets/HTML/LogseqUtils.js)( ![src](../assets/HTML/LogseqUtils.js), for posting request to http://localhost:12315/api)
 			  :LOGBOOK:
 			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16

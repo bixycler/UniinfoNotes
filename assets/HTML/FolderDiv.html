@@ -144,9 +144,10 @@
       this.contents = shadowRoot.getElementById("contents");
       this.heading = shadowRoot.getElementById("heading");
       this.unfoldable = shadowRoot.getElementById("unfoldable");
-
       //console.debug('FolderDiv.constructor()',this.contents);
+
       this.unfoldable.addEventListener('slotchange', (e)=>{
+        // detected and moved heading from unfoldable slot to heading slot
         let hdiv = this.heading.assignedElements()[0];
         let udiv = this.unfoldable.assignedElements()[0];
         if(!udiv){ return; }
@@ -159,7 +160,6 @@
       });
     }
     connectedCallback() {
-
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
@@ -169,6 +169,7 @@
       }
     }
 
+    function 
   }
 
   customElements.define("folder-div", FolderDiv);
