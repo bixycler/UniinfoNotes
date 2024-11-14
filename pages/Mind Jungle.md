@@ -5134,7 +5134,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6673fb2f-ef98-484a-b289-b50482edea47
 						- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
 				- References
-					- MMDN: [HTMLSlotElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement)
+					- MDN: [HTMLSlotElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement): [slotchange](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement/slotchange_event) event, [assignedElements()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement/assignedElements)
 					- [Shadow DOM slots, composition](https://javascript.info/slots-composition)
 			- DONE Write [LogseqUtils.js](../assets/HTML/LogseqUtils.js)( ![src](../assets/HTML/LogseqUtils.js), for posting request to http://localhost:12315/api)
 			  :LOGBOOK:
