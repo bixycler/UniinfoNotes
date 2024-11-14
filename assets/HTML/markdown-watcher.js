@@ -439,7 +439,7 @@ function normalizeMardown(md,
       props[m[1]] = escapeXML(m[2], /*quote*/true); continue;
     }
     // end metadata (by any line which is not a property nor logbook)
-    // collect metadata to meta, then reset them all
+    // => collect metadata to meta, then reset them all
     if(meta && (Object.keys(props).length || logbook)){
       if('id' in props){
         meta += `id="${props.id}" `;
@@ -451,11 +451,11 @@ function normalizeMardown(md,
       meta += '></a>' + (lineBreakAfterMetadata ? '  ' : ''); // two trailing space for line break!
       nmd = nmd.slice(0, -1) + ' '+meta+'\n';
     }
-    meta = ''; logbook = ''; props = {}; // reset metadata; meta will be restarted only at next item
+    meta = ''; logbook = ''; props = {}; // reset meta[data]; meta will be restarted only at next item
     // next item
     m = ln.match(patItem);
     if(m){
-      meta = metatag; // restart meta
+      meta = metatag; // restart meta; metadata lines must be contiguous to this title line
       blockTitle = ln.replace(m[0],'');
       if(looseList){ ln = indent+'\t\n' +ln; }
       indent = m[1];
