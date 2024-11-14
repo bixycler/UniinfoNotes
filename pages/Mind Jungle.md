@@ -4508,6 +4508,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  British style:  'single quotes contain "double quotes"'
 									  ```
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
+							- `MarkdownIt.options`
+								- `html: true, breaks: true` for comatible with Logseq
+								- `typographer: false`: we do `replaceQuotes()` ourselves.
 							- DOING make item lists foldable with custom element `<folder-div>`
 							  id:: 672e0320-dc07-4c6e-8832-341aaa90cd2a
 							  :LOGBOOK:
@@ -4519,7 +4522,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Note that, even with `looseList`, the `<li>` always contains meaningless newline-only text nodes which will appear in `node.childNodes[]`.
 						- ((6720c0a4-0294-4065-8016-9853e2a04475))
 						  id:: 6720bd22-c2f9-42c7-a6e9-99bc51a92225
-							- TODO
+							- TODO programmatically print HTML page to PDF using Chrome.
+								- The printed PDF lacks bookmarks, used for simple page view only.
 							- **layout** with bookmarks using [DocRaptor](https://docraptor.com/)
 								- Pagination for PDF: Summary & Details
 									- Summary: each headings has a link (whole text or `...`) to the item in Details
@@ -4880,6 +4884,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										      }
 										  
 										  ```
+						- TODO capture page into image (PNG/SVG)
 					- Or, process content with vim commands
 					  collapsed:: true
 						- remove `:logbook:` and properties
