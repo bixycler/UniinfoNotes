@@ -134,8 +134,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
 				-
 		- ### concepts
+		  id:: 6735b188-e391-498b-a01b-35797616f7b6
 		  collapsed:: true
 			- file mode bits
+			  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 			  collapsed:: true
 			  shown in ((671f4355-d2ad-46ca-af05-db330a8a4fec)) and in ((671f50a5-2987-4e65-b28d-7b08bdcf0a06)), modified by ((671f5863-b392-406a-b6d2-408902e37e29))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
@@ -194,12 +196,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 			  collapsed:: true
 				- `ls`
+				  id:: 6735b188-098a-41ac-89ed-8cfcc857d796
 				  collapsed:: true
 				  list information about the FILEs (the current directory by default).
 					- `ll` = `ls -lhF`
 					  id:: 671f4355-d2ad-46ca-af05-db330a8a4fec
 					  long listing format
 						- Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)), user, group, size, date, file name
+						  id:: 6735b188-a46c-4363-8ccc-03fbfcf2cbaa
 						- number of files
 						  id:: 671f4447-71f3-4ae1-b22c-acc16ac67f5b
 							- for directory: number of files & sub-directories in that dir
@@ -4081,7 +4085,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
 							  id:: 66b1cfa4-9b10-4032-a4df-8a4a05fdf46e
 						- Verification ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+						  id:: 6735b187-fc89-4d35-b844-ad0db10d8d1d
 							- DONE [!] 2 failures in `block-refs-link-to-blocks-that-exist`
+							  id:: 6735b187-e6d2-49a3-ab2c-5dab86b819dc
 							  :LOGBOOK:
 							  CLOCK: [2024-08-02 Fri 19:00:30]--[2024-08-03 Sat 17:46:43] =>  22:46:13
 							  :END:
@@ -4127,6 +4133,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- The old `666ba1e2-19d1-409e-b30e-42a99b7e4ec0` still remains in many refs
 									- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
 								- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
+							- DONE [!] failure in `block-refs-link-to-blocks-that-exist` again: missing `671f467e-6f1f-4436-a0dd-9a03055e11a9` in Linux > ((6735b188-e391-498b-a01b-35797616f7b6)) > ((671f467e-6f1f-4436-a0dd-9a03055e11a9))
+							  id:: 6735b6bf-6141-48e3-9e12-2473a01dafb0
+							  :LOGBOOK:
+							  CLOCK: [2024-11-14 Thu 15:40:05]--[2024-11-14 Thu 16:12:16] =>  00:32:11
+							  :END:
+								- Referenced by Linux > commands > ((6735b188-098a-41ac-89ed-8cfcc857d796)) > `ll` = `ls -lhF` > ((6735b188-a46c-4363-8ccc-03fbfcf2cbaa))
+								- The id of `file mode bits` is still stored in Logseq graph, but not in `Mind Jungle.md`.
+									- A `Re-index` does **clear the id in the graph**, instead of updating id in the Markdown file!
+								- Reason: in 2024-10-28,
+									- `file mode bits` was [originally](https://github.com/bixycler/UniinfoNotes/commit/4dc012ce0db8b49eda77cc3319bb8eefab9c59fe "15:14:44 commit 4dc012ce") written in Linux > commands > `ls`;
+									- then `file mode bits` was [moved](https://github.com/bixycler/UniinfoNotes/commit/e6d0f7279ee9b3a80e952f92d172eaefa03d0fab "16:24:44 commit e6d0f727") to `concepts` with [drag & drop](((6716110e-51bb-40b2-b98c-503061212007)));
+									- then somehow the id of `file mode bits` was removed in [commit 762e2c90c](https://github.com/bixycler/UniinfoNotes/commit/762e2c90c9ffff2519dc5a2b1f7942727f5fcbcc "17:04:44").
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
@@ -4169,6 +4187,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Thanks to atomicity, this operation is rather safe, but...
 						- [!] The moved block usually has problem displaying at its destination.
 						- [!] Sometimes the move on GUI (and in the ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) is not reflected to the Markdown source files.
+						- [!] Sometimes the moved block [still lacks id!](((6735b6bf-6141-48e3-9e12-2473a01dafb0)))
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
