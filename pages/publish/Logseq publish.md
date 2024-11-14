@@ -50,6 +50,7 @@ id:: 6735c981-7edd-4b51-afd2-23dcc4746238
 						- For standard markdown, line breaks should be inserted manually when needed.
 				- convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
 				- `looseList` to avoiding the style inconsistency between “[loose lists](https://spec.commonmark.org/0.31.2/#loose)” and “tight lists”.
+				  id:: 8bb65585-bc4d-45ec-ac3e-dc0dbebc81a8
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-11-13 Wed 09:31:57]
@@ -68,7 +69,7 @@ id:: 6735c981-7edd-4b51-afd2-23dcc4746238
 								- Ref source code: [MarkdownIt.prototype.render](https://github.com/markdown-it/markdown-it/blob/master/lib/index.mjs#L516)
 								- Token debug: tab `debug` in [Live demo](https://markdown-it.github.io/)
 						- `markdown-it` should have a rule to disable “tight list” feature.
-					- Some convenstions, like [blankLineBeforeCodeBlock](((6731f764-27ba-4a06-b9ca-5817104478f0))), require loose list.
+					- Some convenstions, like [blankLineBeforeCodeBlock](((10425b3d-0b0e-42fa-855f-9d46799ad3fb))), require loose list.
 					- The `<p>` wrapping is also convenient for [`<div slot="unfoldable">` in `<folder-div>`](((672e0320-dc07-4c6e-8832-341aaa90cd2a))).
 					- References:
 						- CommonMark talk: [Why are there even tight lists?](https://talk.commonmark.org/t/why-are-there-even-tight-lists/2301)
@@ -90,7 +91,7 @@ id:: 6735c981-7edd-4b51-afd2-23dcc4746238
 					  :LOGBOOK:
 					  CLOCK: [2024-11-06 Wed 17:45:57]--[2024-11-07 Thu 17:19:01] =>  23:33:04
 					  :END:
-						- Some ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) implementations do allow _**matched** brackets/parentheses_ in link.
+						- Some Markdown implementations do allow _**matched** brackets/parentheses_ in link.
 						  collapsed:: true
 							- E.g. This links to [[wiki] Parenthesis_(rhetoric)](https://en.wikipedia.org/wiki/Parenthesis_(rhetoric))
 							- Supported by Logseq, Markdown-It, GitLab
@@ -153,7 +154,8 @@ id:: 6735c981-7edd-4b51-afd2-23dcc4746238
 								- This has [only close parenthesis](https://en.wikipedia.org/wiki/Parenthesis_rhetoric)) ...
 				- TODO [for `logseq.order-list-type:: number`](((665eef80-baed-4eff-b89d-d1d62d4f0b0e))), replace items bullets with numbers
 				- process code blocks
-					- `blankLineBeforeCodeBlock` (⇒ [looseList](((67333634-482c-4446-95aa-dcd549cb27cd)))) for strict conventions like in GitLab
+					- `blankLineBeforeCodeBlock` (⇒ [looseList](((8bb65585-bc4d-45ec-ac3e-dc0dbebc81a8)))) for strict conventions like in GitLab
+					  id:: 10425b3d-0b0e-42fa-855f-9d46799ad3fb
 					- unitemize items with code blocks only.
 					- replace the double space `  ` with `\t`.
 				- warn for external links to relative paths: non-HTTP
@@ -185,6 +187,7 @@ id:: 6735c981-7edd-4b51-afd2-23dcc4746238
 					- `html: true, breaks: true` for comatible with Logseq
 					- `typographer: false`: we do `replaceQuotes()` ourselves.
 				- make item lists foldable with [custom element `<folder-div>`](((6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8)))
+				  id:: a554e1ea-ccd8-44fc-aa31-bee4e3b2702c
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-11-08 Fri 19:25:27]
@@ -198,7 +201,7 @@ id:: 6735c981-7edd-4b51-afd2-23dcc4746238
 					  CLOCK: [2024-11-14 Thu 08:07:06]
 					  CLOCK: [2024-11-14 Thu 08:07:12]--[2024-11-14 Thu 10:32:53] =>  02:25:41
 					  :END:
-			- ((6720c0a4-0294-4065-8016-9853e2a04475))
+			- HTML to PDF conversion
 				- TODO programmatically print HTML page to PDF using Chrome.
 					- The printed PDF lacks bookmarks, used for simple page view only.
 				- **layout** with bookmarks using [DocRaptor](https://docraptor.com/)
