@@ -40,6 +40,9 @@ id:: 6735c981-7edd-4b51-afd2-23dcc4746238
 			- Copy to external text editor to get text of block refs.
 			- Copy `{{embed}}`ed contents
 			- Remove additional notes & tasks
+			- [!] The biggest problem is block refs
+				- The internal refs to blocks within the page should be resolved automatically.
+				- The external refs should be resolved to plain texts.
 		- ### Then, load the published note to converter script
 			- publish Markdown
 				- convert newline `\n` to `<br />` (skipped)
@@ -167,7 +170,7 @@ id:: 6735c981-7edd-4b51-afd2-23dcc4746238
 				  :LOGBOOK:
 				  CLOCK: [2024-11-08 Fri 18:52:30]
 				  :END:
-					- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6716110a-1a05-4c87-93b3-fa9f0db22ba9))
+					- ⇐ ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols...
 					- This has been done by Markdown-It's `typographer: true` in [smartquotes.mjs](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/smartquotes.mjs).
 					- We implement our own function `replaceQuotes(ln)` to handle our markdown source in Logseq.
 					- Multi-line quotes are not supported.
