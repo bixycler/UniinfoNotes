@@ -212,10 +212,13 @@ async function load(forced) {
   if(doNormalizeMarkdown.checked){
     let item = mdhtml;
     if(item.children[0].tagName=='UL'){
-      if(item.children[0].children.length = 1){
-        item = item.children[0].children[0];
+      let l = item.children[0];
+      if(l.children.length = 1){
+        item = l.children[0];
         console.log('Single-item page: ',item.children[0].textContent);
-        mdhtml.append(item); mdhtml.children[0].remove();
+        // move contents of this single item to the page
+        for(let n of Array.from(item.childNodes)){ mdhtml.append(n); }
+        l.remove();
         item = mdhtml;
       }else{
         let t = decodeURI(fn);
