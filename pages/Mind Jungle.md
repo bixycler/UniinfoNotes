@@ -5095,13 +5095,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-06-19 Wed 08:27:23]--[2024-06-20 Thu 16:31:09] =>  32:03:46
 			  :END:
-				- This unplanned work is [triggered by](((66600918-9f27-44c2-8188-f043c244710c))):
-				  collapsed:: true
-					- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
-					  id:: 6673fb2f-ef98-484a-b289-b50482edea47
-					- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
-				- For the new term ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) used in the custom element `<folder-div>`, i [researched](((66602f68-e23f-4b24-921e-b1a9fc0cc731))) ((667407ee-35ae-4d6f-8b58-89c19c0e0936)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6674066a-aeff-45af-96df-b0c2f278a2ae)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))), and drew ((667500cd-a31d-4828-9dc4-93948e27e534)).
-				  collapsed:: true
 				- For leaf items, don't use `<folder-div>`, just use `<div class="unfoldable">` with `<style id="folder-div-style">`
 				  collapsed:: true
 					- ```css
@@ -5124,6 +5117,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  }
 					  
 					  ```
+				- `heading` slot
+					- this slot can be set manually
+					- headings in `<div slot="unfoldable">` are automatically detected and moved to `<div slot="heading">`
+				- History
+				  collapsed:: true
+					- For the new term ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) used in the custom element `<folder-div>`, i [researched](((66602f68-e23f-4b24-921e-b1a9fc0cc731))) ((667407ee-35ae-4d6f-8b58-89c19c0e0936)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6674066a-aeff-45af-96df-b0c2f278a2ae)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))), and drew ((667500cd-a31d-4828-9dc4-93948e27e534)).
+					  collapsed:: true
+					- This unplanned work is [triggered by](((66600918-9f27-44c2-8188-f043c244710c))):
+					  collapsed:: true
+						- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
+						  id:: 6673fb2f-ef98-484a-b289-b50482edea47
+						- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
 			- DONE Write [LogseqUtils.js](../assets/HTML/LogseqUtils.js)( ![src](../assets/HTML/LogseqUtils.js), for posting request to http://localhost:12315/api)
 			  :LOGBOOK:
 			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16

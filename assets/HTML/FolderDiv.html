@@ -147,11 +147,13 @@
 
       //console.debug('FolderDiv.constructor()',this.contents);
       this.unfoldable.addEventListener('slotchange', (e)=>{
+        let hdiv = this.heading.assignedElements()[0];
         let udiv = this.unfoldable.assignedElements()[0];
         if(!udiv){ return; }
         let h = udiv.children[0];
-        if(h && h.tagName.startsWith('H')){
-          udiv.(h);
+        if(!hdiv && h && h.tagName.startsWith('H')){
+          udiv.before(h);
+          h.setAttribute('slot','heading');
           console.debug('moved',h);
         }
       });
