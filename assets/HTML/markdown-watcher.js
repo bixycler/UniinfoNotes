@@ -203,7 +203,8 @@ async function load(forced) {
       /*flattenHeadings*/false,
       /*blankLineBeforeCodeBlock*/false,
       /*looseList*/false,
-      /*lineBreakAfterMetadata*/false
+      /*lineBreakAfterMetadata*/false,
+      /*pageHeadingAsItem*/true
     );
   }
   mdtxt.value = md;
