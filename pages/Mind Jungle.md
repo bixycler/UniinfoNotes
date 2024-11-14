@@ -5095,7 +5095,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-06-19 Wed 08:27:23]--[2024-06-20 Thu 16:31:09] =>  32:03:46
 			  :END:
-				- For leaf items, don't use `<folder-div>`, just use `<div class="unfoldable">` with `<style id="folder-div-style">`
+				- default folder is a `list-item` folder with `sideControl` to (un)fold the `foldable` slot.
+				- For leaf items with no `foldable`, don't use `<folder-div>`, just use `<div class="unfoldable-leaf">` with `<style id="folder-div-style">`
 				  collapsed:: true
 					- ```css
 					  .unfoldable {
@@ -5117,9 +5118,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  }
 					  
 					  ```
-				- `heading` slot
-					- this slot can be set manually
-					- headings in `<div slot="unfoldable">` are automatically detected and moved to `<div slot="heading">`
+				- folder with `heading`
+					- a `heading` slot separate from `unfoldable` slot is required for replacing the `sideControl`.
+					  collapsed:: true
+						- this must be a slot to show in the light DOM so that external script can access its content, unlike the `sideControl` hidden in the shadow DOM.
+					- when `heading` slot is empty, headings in `unfoldable` slot are automatically detected and moved to `heading` slot.
 				- History
 				  collapsed:: true
 					- For the new term ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) used in the custom element `<folder-div>`, i [researched](((66602f68-e23f-4b24-921e-b1a9fc0cc731))) ((667407ee-35ae-4d6f-8b58-89c19c0e0936)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6674066a-aeff-45af-96df-b0c2f278a2ae)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))), and drew ((667500cd-a31d-4828-9dc4-93948e27e534)).
