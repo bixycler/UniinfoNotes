@@ -4517,72 +4517,111 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- For easy DOM traversal, set [looseList](((67333634-482c-4446-95aa-dcd549cb27cd))) = true & [flattenHeadings](((6720b9eb-687b-4041-99e6-00791a4769bb))) = false.
 									- For block title in `<div slot="unfoldable">`: Use `looseList` to wrap all item contents into `<p>`, then use `node.children[0]` to access its first child to get block title, instead of traversing `node.childNodes[]`.
 									- Note that, even with `looseList`, the `<li>` always contains meaningless newline-only text nodes which will appear in `node.childNodes[]`.
-						- ((6720c0a4-0294-4065-8016-9853e2a04475)) using [DocRaptor](https://docraptor.com/)
+						- ((6720c0a4-0294-4065-8016-9853e2a04475))
 						  id:: 6720bd22-c2f9-42c7-a6e9-99bc51a92225
-							- Pagination for PDF: Summary & Details
-								- Summary: each headings has a link (whole text or `...`) to the item in Details
-							- Reduce list indent
-							  collapsed:: true
-								- Browser default: `padding-inline-start: 40px;`
-								- [Prince](https://www.princexml.com/doc/styling/#lists) default: `margin-left: 52px;`
-								- ⇒ reset `padding-inline-start: 0px;` and set `margin-left: 20px;`
-							- [!] JSON `fetch()` error
-							  id:: 67222374-f7da-4900-a16f-7540013b8b96
-							  collapsed:: true
-								- Request with `mode: 'no-cors'` ⇒ opaque response with `status = 0` & `ok = false`.
-								- Serve page with non-secure `HTTP` protocol ⇒ `401 - Unauthorized`
-								- Calling `fetch()` with either header `Authorization` or `Content-Type: application/json`  ⇒ CORS preflight `OPTIONS` request is sent by browser. (ref: [StackOverflow](https://stackoverflow.com/a/43881141/789095))
-								- Calling `fetch()` with `content-type: application/json` ⇒ `Status Code: 400 Bad Request`
-									- The [preflight request](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request) is OK, though!?!
-										- Request `OPTIONS` → `200 OK`
+							- TODO
+							- **layout** with bookmarks using [DocRaptor](https://docraptor.com/)
+								- Pagination for PDF: Summary & Details
+									- Summary: each headings has a link (whole text or `...`) to the item in Details
+								- Reduce list indent
+								  collapsed:: true
+									- Browser default: `padding-inline-start: 40px;`
+									- [Prince](https://www.princexml.com/doc/styling/#lists) default: `margin-left: 52px;`
+									- ⇒ reset `padding-inline-start: 0px;` and set `margin-left: 20px;`
+								- [!] JSON `fetch()` error
+								  id:: 67222374-f7da-4900-a16f-7540013b8b96
+								  collapsed:: true
+									- Request with `mode: 'no-cors'` ⇒ opaque response with `status = 0` & `ok = false`.
+									- Serve page with non-secure `HTTP` protocol ⇒ `401 - Unauthorized`
+									- Calling `fetch()` with either header `Authorization` or `Content-Type: application/json`  ⇒ CORS preflight `OPTIONS` request is sent by browser. (ref: [StackOverflow](https://stackoverflow.com/a/43881141/789095))
+									- Calling `fetch()` with `content-type: application/json` ⇒ `Status Code: 400 Bad Request`
+										- The [preflight request](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request) is OK, though!?!
+											- Request `OPTIONS` → `200 OK`
+											  collapsed:: true
+												- ```
+												  Request URL: https://api.docraptor.com/docs
+												  Request Method: OPTIONS
+												  Status Code: 200 OK
+												  Remote Address: 34.226.73.93:443
+												  Referrer Policy: strict-origin-when-cross-origin
+												  access-control-request-headers: authorization,content-type
+												  access-control-request-method: POST
+												  origin: https://myip
+												  priority: u=1, i
+												  referer: https://myip/
+												  sec-fetch-dest: empty
+												  sec-fetch-mode: cors
+												  sec-fetch-site: cross-site
+												  ```
+											- Response
+											  collapsed:: true
+												- ```
+												  access-control-allow-headers: authorization,content-type
+												  access-control-allow-methods: GET,PUT,POST
+												  access-control-allow-origin: https://myip
+												  access-control-max-age: 900
+												  cache-control: no-cache
+												  referrer-policy: strict-origin-when-cross-origin
+												  server: nginx
+												  x-frame-options: SAMEORIGIN
+												  x-permitted-cross-domain-policies: none
+												  ```
+										- But the real POST request is NG!?!
+											- CORS Error
+											  collapsed:: true
+												- ```
+												  Access to fetch at 'https://api.docraptor.com/docs' from origin 'https://myip' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+												  ```
+											- Request `POST` → `400 Bad Request`
+											  collapsed:: true
+												- ```
+												  Request URL: https://api.docraptor.com/docs
+												  Request Method: POST
+												  Status Code: 400 Bad Request
+												  Referrer Policy: strict-origin-when-cross-origin
+												  accept: */*
+												  accept-encoding: gzip, deflate, br, zstd
+												  accept-language: en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,ja-JP;q=0.6,ja;q=0.5
+												  authorization: Basic bTdEaHJuX0FzZXpWOTRDM1ZMLUI6
+												  content-length: 15
+												  content-type: application/json
+												  origin: https://myip
+												  priority: u=1, i
+												  referer: https://myip/
+												  sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+												  sec-ch-ua-mobile: ?0
+												  sec-ch-ua-platform: "Linux"
+												  sec-fetch-dest: empty
+												  sec-fetch-mode: cors
+												  sec-fetch-site: cross-site
+												  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+												  ```
+											- Response with **no** `Access-Control-Allow-Origin` header
+											  collapsed:: true
+												- ```
+												  cache-control: no-cache
+												  content-length: 149
+												  content-type: application/xml
+												  date: Wed, 30 Oct 2024 11:56:55 GMT
+												  server: nginx
+												  set-cookie: eb_tracking_id=27f076a0-1782-4eab-b2db-82e421aff0a8; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:56:55 GMT; secure; HttpOnly
+												  strict-transport-security: max-age=63072000; includeSubDomains
+												  x-request-id: 2cbb044e-5120-4b63-990d-5373c8135f23
+												  x-runtime: 0.006626
+												  ```
+									- The official [docraptor-1.0.0.js](https://docraptor.com/docraptor-1.0.0.js) use `form.submit()` instead of JSON, with `user_credentials` instead of `Authorization: 'Basic API-key:'`
+										- while [its docs](https://docraptor.com/documentation/api/making_documents) says 
+										  > HTTP Basic Authentication (preferred [over Query Parameter Authentication`user_credentials`])
+										  > JSON is preferred, but you can also send form encoded variables by wrapping the option with `doc[]` and adding another `[]` for sub options.
+									- Calling `fetch()` with [`URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) ⇒ `200 OK`
+										- Request `POST` with `user_credentials` → `200 OK`
 										  collapsed:: true
 											- ```
-											  Request URL: https://api.docraptor.com/docs
-											  Request Method: OPTIONS
-											  Status Code: 200 OK
-											  Remote Address: 34.226.73.93:443
-											  Referrer Policy: strict-origin-when-cross-origin
-											  access-control-request-headers: authorization,content-type
-											  access-control-request-method: POST
-											  origin: https://myip
-											  priority: u=1, i
-											  referer: https://myip/
-											  sec-fetch-dest: empty
-											  sec-fetch-mode: cors
-											  sec-fetch-site: cross-site
-											  ```
-										- Response
-										  collapsed:: true
-											- ```
-											  access-control-allow-headers: authorization,content-type
-											  access-control-allow-methods: GET,PUT,POST
-											  access-control-allow-origin: https://myip
-											  access-control-max-age: 900
-											  cache-control: no-cache
-											  referrer-policy: strict-origin-when-cross-origin
-											  server: nginx
-											  x-frame-options: SAMEORIGIN
-											  x-permitted-cross-domain-policies: none
-											  ```
-									- But the real POST request is NG!?!
-										- CORS Error
-										  collapsed:: true
-											- ```
-											  Access to fetch at 'https://api.docraptor.com/docs' from origin 'https://myip' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-											  ```
-										- Request `POST` → `400 Bad Request`
-										  collapsed:: true
-											- ```
-											  Request URL: https://api.docraptor.com/docs
+											  Request URL: https://api.docraptor.com/docs?user_credentials=m7Dhrn_AsezV94C3VL-B&doc%5Btype%5D=pdf&doc%5Btest%5D=true&doc%5Bname%5D=DocRaptor+TestDocs&doc%5Bdocument_url%5D=http%3A%2F%2Fwww.evopdf.com%2FDemoAppFiles%2FHTML_Files%2FStructured_HTML.html
 											  Request Method: POST
-											  Status Code: 400 Bad Request
+											  Status Code: 200 OK
+											  Remote Address: 54.88.97.245:443
 											  Referrer Policy: strict-origin-when-cross-origin
-											  accept: */*
-											  accept-encoding: gzip, deflate, br, zstd
-											  accept-language: en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,ja-JP;q=0.6,ja;q=0.5
-											  authorization: Basic bTdEaHJuX0FzZXpWOTRDM1ZMLUI6
-											  content-length: 15
-											  content-type: application/json
 											  origin: https://myip
 											  priority: u=1, i
 											  referer: https://myip/
@@ -4594,290 +4633,253 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											  sec-fetch-site: cross-site
 											  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 											  ```
-										- Response with **no** `Access-Control-Allow-Origin` header
+										- Response with `Access-Control-Allow-Origin` header
 										  collapsed:: true
 											- ```
-											  cache-control: no-cache
-											  content-length: 149
-											  content-type: application/xml
-											  date: Wed, 30 Oct 2024 11:56:55 GMT
+											  access-control-allow-methods: GET,PUT,POST
+											  access-control-allow-origin: https://myip
+											  access-control-max-age: 900
+											  cache-control: max-age=0, private, must-revalidate
+											  content-disposition: attachment; filename="DocRaptor TestDocs.pdf"; filename*=UTF-8''DocRaptor%20TestDocs.pdf
+											  content-length: 307561
+											  content-transfer-encoding: binary
+											  content-type: application/pdf
+											  date: Wed, 30 Oct 2024 11:49:06 GMT
+											  etag: W/"4b660d33d3558fb04e888493a29f3fe2"
+											  expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
+											  referrer-policy: strict-origin-when-cross-origin
 											  server: nginx
-											  set-cookie: eb_tracking_id=27f076a0-1782-4eab-b2db-82e421aff0a8; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:56:55 GMT; secure; HttpOnly
+											  set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:49:06 GMT; secure; HttpOnly
 											  strict-transport-security: max-age=63072000; includeSubDomains
-											  x-request-id: 2cbb044e-5120-4b63-990d-5373c8135f23
-											  x-runtime: 0.006626
+											  vary: Accept
+											  x-content-type-options: nosniff
+											  x-docraptor-num-pages: 31
+											  x-download-options: noopen
+											  x-frame-options: SAMEORIGIN
+											  x-permitted-cross-domain-policies: none
+											  x-request-id: fdad5347-c36b-4edb-8b29-27e7febceea3
+											  x-runtime: 2.518433
+											  x-xss-protection: 0
 											  ```
-								- The official [docraptor-1.0.0.js](https://docraptor.com/docraptor-1.0.0.js) use `form.submit()` instead of JSON, with `user_credentials` instead of `Authorization: 'Basic API-key:'`
-									- while [its docs](https://docraptor.com/documentation/api/making_documents) says 
-									  > HTTP Basic Authentication (preferred [over Query Parameter Authentication`user_credentials`])
-									  > JSON is preferred, but you can also send form encoded variables by wrapping the option with `doc[]` and adding another `[]` for sub options.
-								- Calling `fetch()` with [`URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) ⇒ `200 OK`
-									- Request `POST` with `user_credentials` → `200 OK`
+									- Calling `curl` (and PostMan) with `authorization: Basic` & `content-type:application/json` ⇒ `200 OK`
+										- Command
+										  collapsed:: true
+											- ```sh
+											  curl -v https://m7Dhrn_AsezV94C3VL-B@api.docraptor.com/docs \
+											    --fail --silent --show-error \
+											    --header "Content-Type:application/json" \
+											    --data '{"test": true,
+											             "document_url": "https://docraptor.com/examples/invoice.html",
+											             "type": "pdf" }' > docraptor.pdf
+											  ```
+										- Request `POST`  → `200 OK`
+										  collapsed:: true
+											- ```
+											  * Server auth using Basic with user 'm7Dhrn_AsezV94C3VL-B'
+											  * Using Stream ID: 1 (easy handle 0x55bbbd95aa60)
+											  * TLSv1.2 (OUT), TLS header, Supplemental data (23):
+											  } [5 bytes data]
+											  > POST /docs HTTP/2
+											  > Host: api.docraptor.com
+											  > authorization: Basic bTdEaHJuX0FzZXpWOTRDM1ZMLUI6
+											  > user-agent: curl/7.81.0
+											  > accept: */*
+											  > content-type:application/json
+											  > content-length: 115
+											  ```
+										- Response with `Access-Control-Allow-Origin` header
+										  collapsed:: true
+											- ```
+											  < HTTP/2 200 
+											  < date: Wed, 30 Oct 2024 11:37:43 GMT
+											  < content-type: application/pdf
+											  < content-length: 73613
+											  < server: nginx
+											  < x-frame-options: SAMEORIGIN
+											  < x-xss-protection: 0
+											  < x-content-type-options: nosniff
+											  < x-download-options: noopen
+											  < x-permitted-cross-domain-policies: none
+											  < referrer-policy: strict-origin-when-cross-origin
+											  < expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
+											  < x-docraptor-num-pages: 1
+											  < content-disposition: attachment; filename="doc-482759486.pdf"; filename*=UTF-8''doc-482759486.pdf
+											  < content-transfer-encoding: binary
+											  < vary: Accept
+											  < etag: W/"8f32cebf1d07925d239958081b738618"
+											  < cache-control: max-age=0, private, must-revalidate
+											  < set-cookie: _dr_session=202db46b696109479465316a86f031b3; path=/; expires=Wed, 30 Oct 2024 16:37:43 GMT; secure; HttpOnly; SameSite=Lax
+											  < set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:37:43 GMT; secure; HttpOnly
+											  < x-request-id: f3460bdb-aced-4cf6-9434-2e7b0ff59811
+											  < x-runtime: 1.364432
+											  < strict-transport-security: max-age=63072000; includeSubDomains
+											  ```
+									- Calling `fetch()` with `form.submit()` ⇒ `200 OK`
+										- Request `POST`  → `200 OK`
+										  collapsed:: true
+											- ```
+											  Request URL: https://api.docraptor.com/docs
+											  Request Method: POST
+											  Status Code: 200 OK
+											  Remote Address: 34.226.73.93:443
+											  Referrer Policy: strict-origin-when-cross-origin
+											  accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+											  accept-encoding: gzip, deflate, br, zstd
+											  accept-language: en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,ja-JP;q=0.6,ja;q=0.5
+											  cache-control: max-age=0
+											  content-length: 208
+											  content-type: application/x-www-form-urlencoded
+											  origin: https://myip
+											  priority: u=0, i
+											  referer: https://myip/
+											  sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+											  sec-ch-ua-mobile: ?0
+											  sec-ch-ua-platform: "Linux"
+											  sec-fetch-dest: document
+											  sec-fetch-mode: navigate
+											  sec-fetch-site: cross-site
+											  sec-fetch-user: ?1
+											  upgrade-insecure-requests: 1
+											  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+											  ```
+										- Response with `Access-Control-Allow-Origin` header
+										  collapsed:: true
+											- ```
+											  access-control-allow-methods: GET,PUT,POST
+											  access-control-allow-origin: https://myip
+											  access-control-max-age: 900
+											  cache-control: max-age=0, private, must-revalidate
+											  content-disposition: attachment; filename="DocRaptor TestDocs.pdf"; filename*=UTF-8''DocRaptor%20TestDocs.pdf
+											  content-length: 307568
+											  content-transfer-encoding: binary
+											  content-type: application/pdf
+											  date: Wed, 30 Oct 2024 12:51:16 GMT
+											  etag: W/"53cb350849343d8085386f6bda50ce6a"
+											  expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
+											  referrer-policy: strict-origin-when-cross-origin
+											  server: nginx
+											  set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 12:51:16 GMT; secure; HttpOnly
+											  strict-transport-security: max-age=63072000; includeSubDomains
+											  x-content-type-options: nosniff
+											  x-docraptor-num-pages: 31
+											  x-download-options: noopen
+											  x-frame-options: SAMEORIGIN
+											  x-permitted-cross-domain-policies: none
+											  x-request-id: 864d5382-98eb-4df7-89dc-7425c6929f86
+											  x-runtime: 2.499588
+											  x-xss-protection: 0
+											  ```
+									- Testing functions `toPdf_*()`
 									  collapsed:: true
-										- ```
-										  Request URL: https://api.docraptor.com/docs?user_credentials=m7Dhrn_AsezV94C3VL-B&doc%5Btype%5D=pdf&doc%5Btest%5D=true&doc%5Bname%5D=DocRaptor+TestDocs&doc%5Bdocument_url%5D=http%3A%2F%2Fwww.evopdf.com%2FDemoAppFiles%2FHTML_Files%2FStructured_HTML.html
-										  Request Method: POST
-										  Status Code: 200 OK
-										  Remote Address: 54.88.97.245:443
-										  Referrer Policy: strict-origin-when-cross-origin
-										  origin: https://myip
-										  priority: u=1, i
-										  referer: https://myip/
-										  sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
-										  sec-ch-ua-mobile: ?0
-										  sec-ch-ua-platform: "Linux"
-										  sec-fetch-dest: empty
-										  sec-fetch-mode: cors
-										  sec-fetch-site: cross-site
-										  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+										- ```js
+										      // DocRaptor
+										      const DocRaptorApiKey = "m7Dhrn_AsezV94C3VL-B";
+										      const DocRaptorUrl = `https://api.docraptor.com/docs`;
+										      const DocRaptorRequest = {
+										          // Test documents are free, but watermarked **nicely** at the top & bottom of each page
+										          "test": true,
+										          // Give a name for the docs 
+										          "name": "DocRaptor TestDocs",
+										          // You can supply content directly
+										          "document_content": "", 
+										          // or via a URL
+										          //"document_url": "http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html", 
+										          //"javascript": true, // for HTML display before convertion
+										          "type": "pdf", // Output type can be "pdf" or "xls" or "xlsx"
+										          //"prince_options": {
+										              //"media": "screen" // use screen styles instead of print styles
+										          //}
+										      }
+										      
+										      const Request = {
+										          method: 'POST',
+										          headers: {
+										              //'Content-Type': 'application/json',
+										              'Content-Type': 'application/x-www-form-urlencoded',
+										              'Accept': '*/*',
+										              //'Credentials': 'include',
+										              //'Access-Control-Allow-Origin': '*', // for preflight OPTIONS request
+										          },
+										          //mode: "no-cors",
+										          //mode: 'cors', // have browser to send preflight OPTIONS request
+										          body: '',
+										      }
+										      
+										      const makeFormElement = function(name, value) {
+										          var element = document.createElement("textarea")
+										          element.name = name
+										          element.value = value
+										          return element
+										      }
+										      async function toPdf_form() { // use form.submit(), copied from https://docraptor.com/docraptor-1.0.0.js
+										          let form = document.createElement("form")
+										          form.action = "https://api.docraptor.com/docs"
+										          form.method = "post"
+										          form.style.display = "none"
+										  
+										          form.appendChild(makeFormElement("user_credentials", DocRaptorApiKey))
+										          form.appendChild(makeFormElement("doc[type]", 'pdf'));
+										          form.appendChild(makeFormElement("doc[test]", true));
+										          form.appendChild(makeFormElement("doc[name]", 'DocRaptor TestDocs'));
+										          form.appendChild(makeFormElement("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html'));
+										  
+										          document.body.appendChild(form);
+										          form.submit()
+										      }
+										  
+										      async function toPdf_params() { // use URLSearchParams
+										          let url = new URL(DocRaptorUrl);
+										          let params = new URLSearchParams(); // url.searchParams;
+										          params.append("user_credentials", DocRaptorApiKey);
+										          params.append("doc[type]", 'pdf');
+										          params.append("doc[test]", true);
+										          params.append("doc[name]", 'DocRaptor TestDocs');
+										          //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
+										          params.append("doc[document_content]", mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML);
+										          let req = structuredClone(Request);
+										              req.body = params;
+										  
+										          res = await fetch(url.href, req); // , mode: "no-cors"
+										          console.debug('toPdf() fetch',req,res);
+										          if (!res.ok) {
+										              //console.log('Fetch error:',res);
+										              loadError(res.statusText);
+										              return;
+										          } else {
+										              message.innerHTML = '';
+										              message.style.display = 'none';
+										          }
+										          blob = await res.blob();
+										          console.debug('toPdf() fetch',params,blob);
+										          // blob URL will be stored in `exportUrl` and updated in cascade
+										          exportUrl.href = URL.createObjectURL(blob);
+										      }
+										  
+										      async function toPdf_JSON() { // use JSON
+										          //DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
+										          DocRaptorRequest.document_url = "https://docraptor.com/examples/invoice.html";
+										  
+										          let req = structuredClone(Request); 
+										              req.headers.Authorization = 'Basic '+btoa(DocRaptorApiKey+':');
+										              req.body = DocRaptorRequest;
+										          let url = DocRaptorUrl; // `${DocRaptorUrl}?user_credentials=${DocRaptorApiKey}`;
+										          let res = await fetch(url, req);
+										          console.debug('toPdf() fetch',req,res);
+										          if (!res.ok) {
+										              //console.log('Fetch error:',res);
+										              loadError(res.statusText);
+										              return;
+										          } else {
+										              message.innerHTML = '';
+										              message.style.display = 'none';
+										          }
+										          let blob = await res.blob();
+										          console.debug('toPdf() fetch',DocRaptorRequest,blob);
+										          // blob URL will be stored in `exportUrl` and updated in cascade
+										          exportUrl.href = URL.createObjectURL(blob);
+										      }
+										  
 										  ```
-									- Response with `Access-Control-Allow-Origin` header
-									  collapsed:: true
-										- ```
-										  access-control-allow-methods: GET,PUT,POST
-										  access-control-allow-origin: https://myip
-										  access-control-max-age: 900
-										  cache-control: max-age=0, private, must-revalidate
-										  content-disposition: attachment; filename="DocRaptor TestDocs.pdf"; filename*=UTF-8''DocRaptor%20TestDocs.pdf
-										  content-length: 307561
-										  content-transfer-encoding: binary
-										  content-type: application/pdf
-										  date: Wed, 30 Oct 2024 11:49:06 GMT
-										  etag: W/"4b660d33d3558fb04e888493a29f3fe2"
-										  expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
-										  referrer-policy: strict-origin-when-cross-origin
-										  server: nginx
-										  set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:49:06 GMT; secure; HttpOnly
-										  strict-transport-security: max-age=63072000; includeSubDomains
-										  vary: Accept
-										  x-content-type-options: nosniff
-										  x-docraptor-num-pages: 31
-										  x-download-options: noopen
-										  x-frame-options: SAMEORIGIN
-										  x-permitted-cross-domain-policies: none
-										  x-request-id: fdad5347-c36b-4edb-8b29-27e7febceea3
-										  x-runtime: 2.518433
-										  x-xss-protection: 0
-										  ```
-								- Calling `curl` (and PostMan) with `authorization: Basic` & `content-type:application/json` ⇒ `200 OK`
-									- Command
-									  collapsed:: true
-										- ```sh
-										  curl -v https://m7Dhrn_AsezV94C3VL-B@api.docraptor.com/docs \
-										    --fail --silent --show-error \
-										    --header "Content-Type:application/json" \
-										    --data '{"test": true,
-										             "document_url": "https://docraptor.com/examples/invoice.html",
-										             "type": "pdf" }' > docraptor.pdf
-										  ```
-									- Request `POST`  → `200 OK`
-									  collapsed:: true
-										- ```
-										  * Server auth using Basic with user 'm7Dhrn_AsezV94C3VL-B'
-										  * Using Stream ID: 1 (easy handle 0x55bbbd95aa60)
-										  * TLSv1.2 (OUT), TLS header, Supplemental data (23):
-										  } [5 bytes data]
-										  > POST /docs HTTP/2
-										  > Host: api.docraptor.com
-										  > authorization: Basic bTdEaHJuX0FzZXpWOTRDM1ZMLUI6
-										  > user-agent: curl/7.81.0
-										  > accept: */*
-										  > content-type:application/json
-										  > content-length: 115
-										  ```
-									- Response with `Access-Control-Allow-Origin` header
-									  collapsed:: true
-										- ```
-										  < HTTP/2 200 
-										  < date: Wed, 30 Oct 2024 11:37:43 GMT
-										  < content-type: application/pdf
-										  < content-length: 73613
-										  < server: nginx
-										  < x-frame-options: SAMEORIGIN
-										  < x-xss-protection: 0
-										  < x-content-type-options: nosniff
-										  < x-download-options: noopen
-										  < x-permitted-cross-domain-policies: none
-										  < referrer-policy: strict-origin-when-cross-origin
-										  < expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
-										  < x-docraptor-num-pages: 1
-										  < content-disposition: attachment; filename="doc-482759486.pdf"; filename*=UTF-8''doc-482759486.pdf
-										  < content-transfer-encoding: binary
-										  < vary: Accept
-										  < etag: W/"8f32cebf1d07925d239958081b738618"
-										  < cache-control: max-age=0, private, must-revalidate
-										  < set-cookie: _dr_session=202db46b696109479465316a86f031b3; path=/; expires=Wed, 30 Oct 2024 16:37:43 GMT; secure; HttpOnly; SameSite=Lax
-										  < set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:37:43 GMT; secure; HttpOnly
-										  < x-request-id: f3460bdb-aced-4cf6-9434-2e7b0ff59811
-										  < x-runtime: 1.364432
-										  < strict-transport-security: max-age=63072000; includeSubDomains
-										  ```
-								- Calling `fetch()` with `form.submit()` ⇒ `200 OK`
-									- Request `POST`  → `200 OK`
-									  collapsed:: true
-										- ```
-										  Request URL: https://api.docraptor.com/docs
-										  Request Method: POST
-										  Status Code: 200 OK
-										  Remote Address: 34.226.73.93:443
-										  Referrer Policy: strict-origin-when-cross-origin
-										  accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
-										  accept-encoding: gzip, deflate, br, zstd
-										  accept-language: en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,ja-JP;q=0.6,ja;q=0.5
-										  cache-control: max-age=0
-										  content-length: 208
-										  content-type: application/x-www-form-urlencoded
-										  origin: https://myip
-										  priority: u=0, i
-										  referer: https://myip/
-										  sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
-										  sec-ch-ua-mobile: ?0
-										  sec-ch-ua-platform: "Linux"
-										  sec-fetch-dest: document
-										  sec-fetch-mode: navigate
-										  sec-fetch-site: cross-site
-										  sec-fetch-user: ?1
-										  upgrade-insecure-requests: 1
-										  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-										  ```
-									- Response with `Access-Control-Allow-Origin` header
-									  collapsed:: true
-										- ```
-										  access-control-allow-methods: GET,PUT,POST
-										  access-control-allow-origin: https://myip
-										  access-control-max-age: 900
-										  cache-control: max-age=0, private, must-revalidate
-										  content-disposition: attachment; filename="DocRaptor TestDocs.pdf"; filename*=UTF-8''DocRaptor%20TestDocs.pdf
-										  content-length: 307568
-										  content-transfer-encoding: binary
-										  content-type: application/pdf
-										  date: Wed, 30 Oct 2024 12:51:16 GMT
-										  etag: W/"53cb350849343d8085386f6bda50ce6a"
-										  expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
-										  referrer-policy: strict-origin-when-cross-origin
-										  server: nginx
-										  set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 12:51:16 GMT; secure; HttpOnly
-										  strict-transport-security: max-age=63072000; includeSubDomains
-										  x-content-type-options: nosniff
-										  x-docraptor-num-pages: 31
-										  x-download-options: noopen
-										  x-frame-options: SAMEORIGIN
-										  x-permitted-cross-domain-policies: none
-										  x-request-id: 864d5382-98eb-4df7-89dc-7425c6929f86
-										  x-runtime: 2.499588
-										  x-xss-protection: 0
-										  ```
-								- Testing functions `toPdf_*()`
-								  collapsed:: true
-									- ```js
-									      // DocRaptor
-									      const DocRaptorApiKey = "m7Dhrn_AsezV94C3VL-B";
-									      const DocRaptorUrl = `https://api.docraptor.com/docs`;
-									      const DocRaptorRequest = {
-									          // Test documents are free, but watermarked **nicely** at the top & bottom of each page
-									          "test": true,
-									          // Give a name for the docs 
-									          "name": "DocRaptor TestDocs",
-									          // You can supply content directly
-									          "document_content": "", 
-									          // or via a URL
-									          //"document_url": "http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html", 
-									          //"javascript": true, // for HTML display before convertion
-									          "type": "pdf", // Output type can be "pdf" or "xls" or "xlsx"
-									          //"prince_options": {
-									              //"media": "screen" // use screen styles instead of print styles
-									          //}
-									      }
-									      
-									      const Request = {
-									          method: 'POST',
-									          headers: {
-									              //'Content-Type': 'application/json',
-									              'Content-Type': 'application/x-www-form-urlencoded',
-									              'Accept': '*/*',
-									              //'Credentials': 'include',
-									              //'Access-Control-Allow-Origin': '*', // for preflight OPTIONS request
-									          },
-									          //mode: "no-cors",
-									          //mode: 'cors', // have browser to send preflight OPTIONS request
-									          body: '',
-									      }
-									      
-									      const makeFormElement = function(name, value) {
-									          var element = document.createElement("textarea")
-									          element.name = name
-									          element.value = value
-									          return element
-									      }
-									      async function toPdf_form() { // use form.submit(), copied from https://docraptor.com/docraptor-1.0.0.js
-									          let form = document.createElement("form")
-									          form.action = "https://api.docraptor.com/docs"
-									          form.method = "post"
-									          form.style.display = "none"
-									  
-									          form.appendChild(makeFormElement("user_credentials", DocRaptorApiKey))
-									          form.appendChild(makeFormElement("doc[type]", 'pdf'));
-									          form.appendChild(makeFormElement("doc[test]", true));
-									          form.appendChild(makeFormElement("doc[name]", 'DocRaptor TestDocs'));
-									          form.appendChild(makeFormElement("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html'));
-									  
-									          document.body.appendChild(form);
-									          form.submit()
-									      }
-									  
-									      async function toPdf_params() { // use URLSearchParams
-									          let url = new URL(DocRaptorUrl);
-									          let params = new URLSearchParams(); // url.searchParams;
-									          params.append("user_credentials", DocRaptorApiKey);
-									          params.append("doc[type]", 'pdf');
-									          params.append("doc[test]", true);
-									          params.append("doc[name]", 'DocRaptor TestDocs');
-									          //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
-									          params.append("doc[document_content]", mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML);
-									          let req = structuredClone(Request);
-									              req.body = params;
-									  
-									          res = await fetch(url.href, req); // , mode: "no-cors"
-									          console.debug('toPdf() fetch',req,res);
-									          if (!res.ok) {
-									              //console.log('Fetch error:',res);
-									              loadError(res.statusText);
-									              return;
-									          } else {
-									              message.innerHTML = '';
-									              message.style.display = 'none';
-									          }
-									          blob = await res.blob();
-									          console.debug('toPdf() fetch',params,blob);
-									          // blob URL will be stored in `exportUrl` and updated in cascade
-									          exportUrl.href = URL.createObjectURL(blob);
-									      }
-									  
-									      async function toPdf_JSON() { // use JSON
-									          //DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;
-									          DocRaptorRequest.document_url = "https://docraptor.com/examples/invoice.html";
-									  
-									          let req = structuredClone(Request); 
-									              req.headers.Authorization = 'Basic '+btoa(DocRaptorApiKey+':');
-									              req.body = DocRaptorRequest;
-									          let url = DocRaptorUrl; // `${DocRaptorUrl}?user_credentials=${DocRaptorApiKey}`;
-									          let res = await fetch(url, req);
-									          console.debug('toPdf() fetch',req,res);
-									          if (!res.ok) {
-									              //console.log('Fetch error:',res);
-									              loadError(res.statusText);
-									              return;
-									          } else {
-									              message.innerHTML = '';
-									              message.style.display = 'none';
-									          }
-									          let blob = await res.blob();
-									          console.debug('toPdf() fetch',DocRaptorRequest,blob);
-									          // blob URL will be stored in `exportUrl` and updated in cascade
-									          exportUrl.href = URL.createObjectURL(blob);
-									      }
-									  
-									  ```
 					- Or, process content with vim commands
 					  collapsed:: true
 						- remove `:logbook:` and properties
@@ -5559,7 +5561,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- HTML to PDF conversion
 		  id:: 6720c0a4-0294-4065-8016-9853e2a04475
 		  collapsed:: true
-			- ~~Collapsible block~~ is unsupported ⇒ use layout with bookmarks
+			- For simple page capture, just use the browser's "to-PDF" printing feature.
+			- ~~Collapsible block~~ is unsupported ⇒ use layout with **bookmarks**
 			  collapsed:: true
 				- [DocRaptor](https://docraptor.com/) provides a [cloud-based API](https://docraptor.com/documentation/api/making_documents) to [Prince](https://www.princexml.com/) to convert HTML to PDF with [bookmarks](https://docraptor.com/documentation/article/1068005-bookmarks).
 					- DocRaptor's free account provides **5 free official conversions** per month, and unlimited test conversions with watermarks *nicely* placed at the top and bottom of each page.
