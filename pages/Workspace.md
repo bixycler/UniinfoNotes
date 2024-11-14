@@ -535,6 +535,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Logseq automatically **unitemizes** the page's header (`H1`)
 				- This makes the whole document be rendered as a giant code block.
 				- When manually itemizing the page header, the whole page is converted to a single `unfoldable-leaf`!
+					- Headless document: Use file name as page header
 				- `flattenHeadings = false` for `restructureToFolderDiv()`.
 				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) The single-item page is so problematic!
 			- TODO bug: id `# Logseq publish` is lumped with its sub-item's metadata

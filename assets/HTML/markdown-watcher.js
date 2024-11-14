@@ -210,6 +210,12 @@ async function load(forced) {
   omdhtml = mdhtml.innerHTML;
   mdhtml.innerHTML = md2html(md, /*looseList*/true); //mdi.render(md);
   if(doNormalizeMarkdown.checked){
+    let item = mdhtml;
+    if(item.children[0].tagName=='UL'){
+      console.log('Headless document: Use file name as page header: ',fn);
+      let title = document.createElement('p');
+      title.innerHTML = fn;
+    }
     restructureToFolderDiv(mdhtml, /*root*/true);
   }
   let mdihtml = mdhtml.innerHTML;
