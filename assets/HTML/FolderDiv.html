@@ -32,7 +32,7 @@
       --control-foreground: DimGray;
       --stem-line-foreground: WhiteSmoke;
       --control-foreground-hover: blue;
-      --contents-indent: 
+      --contents-indent: .5em;
     }
 
     /* The hidden checkbox holding folding state */
@@ -73,7 +73,7 @@
     #contents {
       display: flex;
       flex-direction: column;
-      padding-left: .5em;
+      padding-left: var(--contents-indent);
       border-bottom: inset 1px;
     }
 
@@ -176,7 +176,10 @@
     setType(t){
       if(t=='item'){
         let udiv = this.unfoldable.assignedElements()[0];
+        let style = getComputedStyle(this.contents);
+        let indent = style.getPropertyValue('--contents-indent');
         if(!udiv){ return; }
+        this.sideControl.style.display = 'flex';
         this.sideControl.style.display = 'flex';
         this.heading.style.display = 'none';
       }else if(t=='heading'){
