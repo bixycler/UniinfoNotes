@@ -16,6 +16,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				-
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
 				- ...
 			- ------
 		-
@@ -525,12 +526,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- DONE ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols... 
 		  id:: 6716110a-1a05-4c87-93b3-fa9f0db22ba9
 		  using ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
-		- DOING First complete [Logseq publishing with FolderDiv](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf)))
+		- DONE First complete [Logseq publishing with FolderDiv](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf)))
+		  id:: 6735c7ac-17c8-4fea-8d4c-b76a942bc453
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-11-14 Thu 16:49:54]
-		  CLOCK: [2024-11-14 Thu 16:49:57]
+		  CLOCK: [2024-11-14 Thu 16:49:57]--[2024-11-14 Thu 20:32:13] =>  03:42:16
 		  :END:
+			- [[Logseq publish]] → [[Logseq publish.norm]] → [Logseq publish.html](../assets/logseq/publish/Logseq publish.html) → [Logseq publish.pdf](../assets/logseq/publish/Logseq publish.pdf)
 			- [!] Error converting [[Logseq publish]]
 			  collapsed:: true
 				- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Logseq automatically **unitemizes** the page's header (`H*` any level)
