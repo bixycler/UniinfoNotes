@@ -1038,6 +1038,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The amount of the soliton is the quantum.
 					- That abstraction from the obop circle to the quantum is the action of that soliton: produce the extent
 		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
+		  collapsed:: true
+			- Hurricane's structure resembles the self's structure
+			  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
+				- ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-Sep/Hurricane-structure-self-eye-vi.png)
 	- circle = constant ((670ce8c2-8c54-42c6-84cd-93703c1fa60f)) = constant speed of light = conservation of amount/energy/mass/content ( ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))) = *the same content appears in many forms* = **spring mechanic** (harmonic oscillator)
 	  id:: 670cd7d1-8380-49db-a47c-6aa132256596
 	  collapsed:: true
@@ -1176,10 +1180,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
 		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
 			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en), ꕤ (za)
-		- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
-			- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
-		- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
-			- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
+		- [Brahmi script](https://en.wikipedia.org/wiki/Brahmi_script) descendants
+			- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
+				- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
+			- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
+				- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
+			- [Cham script](https://en.wikipedia.org/wiki/Cham_script) contains spiral punctuation
+				- ꩜ (spiral, beginning of a section)
+		- [Bamum script](https://en.wikipedia.org/wiki/Bamum_script) contains many pictographic characters
+			- 𖦹 (ngkaami in Phase E)
 		- Symbols
 			- Infinity: ∞, ♾
 	- “*Out of thin air*”

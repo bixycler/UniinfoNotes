@@ -12,14 +12,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- projection as basis of arrow, ((671efcf8-b18a-4b37-b56b-0cb0780c8302)), qualiton
 				-
-				- ((671b5598-42a8-421d-a942-3819be212d50))
-				- ((671d06ba-cb96-4424-9bee-4e6327ba7f9d))
-				  id:: 671efcf8-b18a-4b37-b56b-0cb0780c8302
-				- Clarify about ((66e43b94-9183-4d49-af85-8a7a1c194c12)) and ((66e43ebf-bbaa-4bfc-9601-a5ee40398677))
-				- ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) & ((671e0f99-c35c-45f3-9f80-4d9cf00063de)), ((671e1608-1350-4e87-99b6-5492cc6fb449)) & ((671e1634-9974-4845-b4bc-449ea3fe106a)), reword ((671b4cb2-ca87-4e90-89ae-49cebeb573e0)) → ((671e3a95-03cf-4fe8-b7c7-c3d7bbe466ec))
-				- ((66f267f7-01f9-47b9-8376-abd27fdf2930))
+				-
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ...
@@ -95,59 +89,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- [Future-proof block references in Logseq](https://99rabbits.com/future-proof-block-references-in-logseq/) > ((66ac8222-836c-40b1-9f26-fc94c69f9f8e)) as [suggested by AlessandroLongo](https://www.reddit.com/r/logseq/comments/15x0qsv/comment/jx49poz/)
 				- [Block reference to allow ((page-name#block-ref-name)) not just UUID](https://discuss.logseq.com/t/block-reference-to-allow-page-name-block-ref-name-not-just-uuid/2746)
 			- ((94649b98-9711-4adf-ae25-aaf32b521c14))
-		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
-		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =>  71:47:28
-		  :END:
-			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) ((6673fb2f-ef98-484a-b289-b50482edea47))
-			- DONE Write [FoldableDemo.html](../assets/HTML/FoldableDemo.html)( ![src](../assets/HTML/FoldableDemo.html), showing `<details> <summary>` & CSS-only method) and [FolderDiv.html](../assets/HTML/FolderDiv.html)( ![src](../assets/HTML/FolderDiv.html), with custom element `<folder-div>`)
-			  id:: 6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-06-19 Wed 08:27:23]--[2024-06-20 Thu 16:31:09] =>  32:03:46
-			  :END:
-				- This unplanned work is [triggered by](((66600918-9f27-44c2-8188-f043c244710c))):
-					- The exported SPA is loaded too slowly (dozens of seconds) from AirTrip Intl. lab server.
-					  id:: 6673fb2f-ef98-484a-b289-b50482edea47
-					- a doc: [Creating a collapsible markdown on one page](https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/)
-				- For the new term ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) used in the custom element `<folder-div>`, i [researched](((66602f68-e23f-4b24-921e-b1a9fc0cc731))) ((667407ee-35ae-4d6f-8b58-89c19c0e0936)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((6674066a-aeff-45af-96df-b0c2f278a2ae)) ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))), and drew ((667500cd-a31d-4828-9dc4-93948e27e534)).
-				  collapsed:: true
-			- DONE Write [LogseqUtils.js](../assets/HTML/LogseqUtils.js)( ![src](../assets/HTML/LogseqUtils.js), for posting request to http://localhost:12315/api)
-			  :LOGBOOK:
-			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
-			  :END:
-			- DONE Write [LogseqGet.html](../assets/HTML/LogseqGet.html)( ![src](../assets/HTML/LogseqGet.html), for `logseq.Editor.get{Block,Page}`)
-			  id:: 6675860a-c135-4a92-b4fe-206ebde974ff
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-06-21 Fri 13:00:24]--[2024-06-21 Fri 20:56:40] =>  07:56:16
-			  CLOCK: [2024-06-23 Sun 15:00:17]--[2024-06-23 Sun 15:51:18] =>  00:51:01
-			  :END:
-				- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) I need to know what's in the hidden `:LOGBOOK:`.
-				  id:: 6669a3bd-7059-4e5a-b21b-d96cb3288557
-				  collapsed:: true
-					- The ((66535e71-3b71-416c-98dc-5dde5e6a76ff)) files and exported JSONs are too large, while i need to view only a specific block.
-					  id:: 6669a3bd-5b32-4088-982a-2c359b66610d
-			- DONE Write [LogseqQuery.html](../assets/HTML/LogseqQuery.html)( ![src](../assets/HTML/LogseqQuery.html), for `logseq.DB.q`)
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-08-02 Fri 15:00:26]--[2024-08-02 Fri 15:36:01] =>  00:35:35
-			  :END:
-			- DONE `logseq.DB.onChanged` catches block creation and modification events
-			  collapsed:: true
-			  => use it to automatically timestamp newly created blocks.
-				- [Git plugin](((66f68ec1-9b7d-402f-b77f-fcd1fc36e500))) uses it for its option `checkWhenDBChanged`
-				  id:: 66faa5fa-9fb9-4211-925b-614e5e63214c
-					- [main.tsx](https://github.com/haydenull/logseq-plugin-git/blob/main/src/main.tsx#L171C1-L176C1)
-					  ```js
-					  if (logseq.settings?.checkWhenDBChanged) {
-					    logseq.DB.onChanged(({ blocks, txData, txMeta }) => {
-					      checkStatusWithDebounce();
-					    });
-					  }
-					  ```
 		-
 		- TODO Backup & republish my contents on Facebook
 		  collapsed:: true
@@ -582,5 +523,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-10-20 Sun 20:15:42]--[2024-10-21 Mon 00:02:20] =>  03:46:38
 		  :END:
 		- DONE ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols... 
+		  id:: 6716110a-1a05-4c87-93b3-fa9f0db22ba9
 		  using ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		- ...
