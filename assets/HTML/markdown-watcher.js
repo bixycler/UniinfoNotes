@@ -533,6 +533,7 @@ function normalizeMardown(md,
 
   // process details: block ref/links, quotes, line break
   lns = nmd.split('\n'); nmd = '';
+  localLinks = {};
   for(let i in lns){ let ln = lns[i], nln = '';
     Process:{
       // code block line: just remove the CBMarker

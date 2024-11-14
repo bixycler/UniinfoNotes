@@ -532,6 +532,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-11-14 Thu 16:49:57]
 		  :END:
 			- [!] Error converting [[Logseq publish]]
+			  collapsed:: true
 				- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Logseq automatically **unitemizes** the page's header (`H*` any level)
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Restore item with `pageHeadingAsItem`
 				- This makes the whole document body be rendered as a giant code block.

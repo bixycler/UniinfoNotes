@@ -4529,6 +4529,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  American style: "double quotes contain 'single quotes'"
 									  British style:  'single quotes contain "double quotes"'
 									  ```
+							- TODO Process markers like `TODO`, `CANCELLED`, ...
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 							- `MarkdownIt.options`
 							  collapsed:: true
