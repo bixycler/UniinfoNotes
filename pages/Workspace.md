@@ -532,7 +532,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-11-14 Thu 16:49:57]
 		  :END:
 			- [!] Error converting [[Logseq publish]]
-				- Reason: Logseq automatically _**unitemizes** the page's header (`H1`) **without unindenting** the body_.
+				- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Logseq automatically **unitemizes** the page's header (`H1`)
 				- This makes the whole document be rendered as a giant code block.
-				- When manually itemizing the page header, the whole page is converted to a single `unfoldable-leaf`!?
+				- When manually itemizing the page header, the whole page is converted to a single `unfoldable-leaf`!
+					- ((66ae15d2-e2dd-443d-a666-c3b244fb6603))
+			- TODO bug: id `# Logseq publish` is lumped with its sub-item's metadata
 		- ...
