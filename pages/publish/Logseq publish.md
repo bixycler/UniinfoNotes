@@ -1,4 +1,5 @@
-# Logseq publish
+- # Logseq publish
+  id:: 6735c981-7edd-4b51-afd2-23dcc4746238
 	- Use the built-in feature `Export public pages`.
 	  collapsed:: true
 		- Chose a **separate folder** (`$web/`) to checkout the `gh-pages` branch, then export to that folder.

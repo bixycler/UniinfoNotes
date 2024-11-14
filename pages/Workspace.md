@@ -531,5 +531,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-11-14 Thu 16:49:54]
 		  CLOCK: [2024-11-14 Thu 16:49:57]
 		  :END:
-			-
+			- [!] Error converting [[Logseq publish]]
+				- Reason: Logseq automatically unitemizes the page's header (`H1`).
 		- ...
