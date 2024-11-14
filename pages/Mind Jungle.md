@@ -4134,11 +4134,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- => They are shown not as broken refs but `Block ref nesting is too deep`... due to the ((667bfebf-a319-46be-a795-d7fc9c156363)) left [at `Mind Jungle` > `Git`](((66ae1489-c8cd-4341-9b2b-90047434943b))).
 								- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
 							- DOING [!] failure in `block-refs-link-to-blocks-that-exist` again: missing `671f467e-6f1f-4436-a0dd-9a03055e11a9` in Linux > ((6735b188-e391-498b-a01b-35797616f7b6)) > ((671f467e-6f1f-4436-a0dd-9a03055e11a9))
+							  id:: 6735b6bf-6141-48e3-9e12-2473a01dafb0
 							  :LOGBOOK:
 							  CLOCK: [2024-11-14 Thu 15:40:05]
 							  :END:
 								- Referenced by Linux > commands > ((6735b188-098a-41ac-89ed-8cfcc857d796)) > `ll` = `ls -lhF` > ((6735b188-a46c-4363-8ccc-03fbfcf2cbaa))
 								- Reason: `file mode bits` was originally written in Linux > commands > `ls`, then moved to `concepts` with [drag & drop](((6716110e-51bb-40b2-b98c-503061212007))).
+									- This move was done sometime between
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
@@ -4181,6 +4183,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Thanks to atomicity, this operation is rather safe, but...
 						- [!] The moved block usually has problem displaying at its destination.
 						- [!] Sometimes the move on GUI (and in the ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) is not reflected to the Markdown source files.
+						- [!] Sometimes the moved block [still lacks id!](((6735b6bf-6141-48e3-9e12-2473a01dafb0)))
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
