@@ -136,6 +136,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### concepts
 		  collapsed:: true
 			- file mode bits
+			  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 			  collapsed:: true
 			  shown in ((671f4355-d2ad-46ca-af05-db330a8a4fec)) and in ((671f50a5-2987-4e65-b28d-7b08bdcf0a06)), modified by ((671f5863-b392-406a-b6d2-408902e37e29))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
@@ -200,6 +201,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 671f4355-d2ad-46ca-af05-db330a8a4fec
 					  long listing format
 						- Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)), user, group, size, date, file name
+						  id:: 6735b188-a46c-4363-8ccc-03fbfcf2cbaa
 						- number of files
 						  id:: 671f4447-71f3-4ae1-b22c-acc16ac67f5b
 							- for directory: number of files & sub-directories in that dir
