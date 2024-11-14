@@ -4083,7 +4083,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [Retrieving all invalid references](https://discuss.logseq.com/t/retrieving-all-invalid-references/8924)
 							  id:: 66b1cfa4-9b10-4032-a4df-8a4a05fdf46e
 						- Verification ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+						  id:: 6735b187-fc89-4d35-b844-ad0db10d8d1d
 							- DONE [!] 2 failures in `block-refs-link-to-blocks-that-exist`
+							  id:: 6735b187-e6d2-49a3-ab2c-5dab86b819dc
 							  :LOGBOOK:
 							  CLOCK: [2024-08-02 Fri 19:00:30]--[2024-08-03 Sat 17:46:43] =>  22:46:13
 							  :END:
