@@ -188,8 +188,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
 					- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just _the **beginning** of a new circle_, either at the same level or at “higher” level.
 					- While the true ending, the true finish is the death, either bodily or mentally, we always try to reach the end of some “hard work” wishing to have an easier living, either on Earth or on Heaven, or at Nibbana (Nirvana). That's the basic illusion of both life & death.
-						- The urge to finish is a manifestation of _the urge to die_ in the dress of life.
-						- Due to the dress
+						- The urge to finish is a manifestation of _the urge to die_ in the guise of life, either as an orgasm or an explosion.
+							- While Freud described [death drive](https://en.wikipedia.org/wiki/Death_drive) (Thanatos) as the opposite of sex drive (Eros), i see they are just two faces of the same coin with the same nature.
+						- Due to the guise of life, we fall into the contradiction of continuously reaching (small) deaths in the hope
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
