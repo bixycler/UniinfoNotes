@@ -17,6 +17,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
 				- ...
 			- ------
 		-
@@ -175,12 +176,18 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 							- => This discrepancy triggers my anger to tackle the problem "to the end".
 						- The butterfly effect from a tiny mistake to a huge error, the [one-unit error](https://www.geogebra.org/m/xhpjjxyn) at the marginal cases, and so on, are just the extension of the abstracted complex systems.
 				- The illusion of “finished” & target reaching
+				  id:: 6736bd1e-5835-46e4-b640-dd35b3fe7c90
 				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-11-15 Fri 10:41:26]
+				  :END:
 					- ((66725725-f76a-4328-b162-f469b87e871b))
+					  collapsed:: true
 						- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
 					- “Complete, finished, done, target reached, ...” are just illusions. Nothing is actually complete, any ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is just a helix or spiral which is projected onto the plane orthogonal to the direction of change/evolution.
 					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
-					- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just the beginning of the new circle, either at the same level or at “higher” level.
+					- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just _the **beginning** of a new circle_, either at the same level or at “higher” level.
+					- While the true ending, the true finish is the death, either bodily or mentally, we always try to reach the end of some “hard work” wishing to have an easier living, either on Earth or on Heaven, or at Nibbana (Nirvana).
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
