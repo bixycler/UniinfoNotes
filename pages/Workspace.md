@@ -164,6 +164,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- The opposite of near-miss effect is the goal-fog effect where we lose motivation to reach a very near goal due to the obscurity of that goal.
 					- It stems from ((669a58b9-422a-40d9-adcf-b2aade86c170))
 						- The seemingly small and easy targets, which are just ((66537674-6cf9-4459-8bea-7c1858c694a3))s, draw me into the rabbit holes.
+						  id:: 6735b189-a8b7-4ff3-b42a-c59f38a8334e
 						  collapsed:: true
 							- An "impossible bug/error" => debug deeply
 							- An "unacceptable term/issue" => research deeply
@@ -546,5 +547,5 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Use file name as page header.
 				- `flattenHeadings = false` for `restructureToFolderDiv()`.
 			- TODO Headless problem still persist!!!
-			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the rabit hole of endless bugs and modifications
+			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the [rabbit hole](((6735b189-a8b7-4ff3-b42a-c59f38a8334e))) of endless bugs and modifications
 		- ...
