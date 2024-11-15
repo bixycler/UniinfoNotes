@@ -174,6 +174,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 							- => It seems that the problem is "impossible!"
 							- => This discrepancy triggers my anger to tackle the problem "to the end".
 						- The butterfly effect from a tiny mistake to a huge error, the [one-unit error](https://www.geogebra.org/m/xhpjjxyn) at the marginal cases, and so on, are just the extension of the abstracted complex systems.
+				- The illusion of “finished” & target reaching
+				  collapsed:: true
+					- ((66725725-f76a-4328-b162-f469b87e871b))
+						- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
+					- “Complete, finished, done, target reached, ...” are just illusions. Nothing is actually complete, any ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is just a helix or spiral which is projected onto the plane orthogonal to the direction of change/evolution.
+					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
