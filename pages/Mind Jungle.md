@@ -1576,10 +1576,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
 						- pricinpal lines = orthogonals = lines parallel to the viewing direction in 3D and are projected onto the image plane as lines converging to the principal vanishing point
 						  id:: 6739fd3d-066d-46a6-b9f3-3dbab8c9d817
-							- “orthogonal” means perpendicular to the image plane.
-							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing).
-						- transversals = lines parallel to the ground line
-							-
+							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in Creative Glossary](http://www.creativeglossary.com/art-perspective/orthogonal-lines.html), [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
+							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “orthogonal” as perpendicular to the image plane.
+						- transversals = lines parallel to the image plane or ground line
+							- “lines parallel to the image plane” [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
 						- vanishing point = the virtual point only on image plane (not in 3D) [where parallel lines converge](https://en.wikipedia.org/wiki/Vanishing_point)
 						  id:: 673a0211-a4ef-4548-acc5-f9141de253cb
 							- principal (or central vanishing) point = the vanishing point of the [principal lines](((6739fd3d-066d-46a6-b9f3-3dbab8c9d817)))
