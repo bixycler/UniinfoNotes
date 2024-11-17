@@ -1076,11 +1076,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Each part is heading toward its representative because that's the light end, the source of effect flow.
 				- The representatives collect distributed upward effects for the whole to condensate into formal effects. This is similar to the sky [gathering clouds](((673312a3-e94e-478f-9e21-bad72ef29d1b))) for the rain.
 				- Due to the process of collection and condensation, the representatives are far from the the parts: lagging behind in time and radically different from each individual part. The larger the whole (relative to its parts), the farther its representatives are from the parts.
+				- content/form = cause/effect = path/target = process/result
+					- The visible form is the ((6729b7cf-83b8-4a42-aac7-ec8cf16fa734)) of a lot of invisible content(s). So is the effect from various causes.
+					- Due to its visibility,
 			- The Game of Chasing Shadows
 			  id:: 67331a5a-1815-40c1-96db-ef7be8ee8d7b
 			  Trò Đuổi Hình Bắt Bóng
 				- The visible forms and representatives are ((671e2782-2098-41a3-83a7-e042bfb468d7)) of the invisible content. In a sense, the forms are “shadows” of the whole content. The parts following the forms in order to reach the whole is an _infinite cycle of **chasing shadows**_.
 				- Ironically, this “shadow” is so vivid, opposite to the normal dark “shadow” of the idiom “chasing shadows”. However, the effect is the same, an infinite cycle, because both shadows are illusive. That illusion is resulted from the ((67331da7-8b10-4890-ae51-9a92796c5af3)) and the hidden intention of the chaser to catch the entity represented by the forms but not the forms themselves.
+				  collapsed:: true
 					- In the Vietnamese idiom “đuổi hình bắt bóng”, the visualization is clearer: one chases the vivid but form (hình) in order to catch its entity but actually can only catch the illusive shadow (bóng).
 					- A better analogy of the vivid form is the image reflection on water surface.
 	- ## complement
@@ -2091,6 +2095,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
 			- ### conscious
 			  id:: 66f267df-e3b0-444b-a721-1225ca59d292
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-09-24 Tue 14:19:07]
 			  CLOCK: [2024-09-24 Tue 14:19:10]
@@ -4139,6 +4144,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  CLOCK: [2024-11-14 Thu 15:40:05]--[2024-11-14 Thu 16:12:16] =>  00:32:11
 							  :END:
 								- Referenced by Linux > commands > ((6735b188-098a-41ac-89ed-8cfcc857d796)) > `ll` = `ls -lhF` > ((6735b188-a46c-4363-8ccc-03fbfcf2cbaa))
+								  collapsed:: true
 								- The id of `file mode bits` is still stored in Logseq graph, but not in `Mind Jungle.md`.
 									- A `Re-index` does **clear the id in the graph**, instead of updating id in the Markdown file!
 								- Reason: in 2024-10-28,
@@ -5108,7 +5114,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
 				- Supports [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64).
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
-		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =>  71:47:28
