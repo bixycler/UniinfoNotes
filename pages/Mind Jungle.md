@@ -1574,6 +1574,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
 						- visual rays = lines of sight (sight lines) = rays from eye to (points of) objects
 							- The central visual ray (central sight line) is the [viewing direction](((6739f671-fe51-4f10-ba24-b492b62fe932))) and is also ambiguously called "the sight line".
+						- orthogonals = lines parallel to the direction of view in 3D and are projected to lines converging
 				- The past [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
 			- #### tree view
