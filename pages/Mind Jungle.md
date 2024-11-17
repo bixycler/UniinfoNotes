@@ -1567,6 +1567,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 			  collapsed:: true
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
+				  id:: 673a17a7-0094-4f4d-bd79-525e7f803b50
 				  collapsed:: true
 					- The cone of vision is the closest example of a viewcone.
 					- There are many terms around this cone of vision and perspective projection.
@@ -1581,8 +1582,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Many ones define “transversal lines” as “lines parallel to the image plane” like [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
 							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “transversal” as “parallel to the ground line”.
 						- orthogonals = parallel line in 3D which are projected onto the image plane as lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
+						  collapsed:: true
 							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in Creative Glossary](http://www.creativeglossary.com/art-perspective/orthogonal-lines.html), [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
-								- Here the term “orthogonal” originates from the 3 set of paralle
+								- Here the term “orthogonal” originates from the 3 sets of parallel lines of the the cube which are perpendicular to each other in three-point perspective.
 							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “orthogonal” as “perpendicular to the image plane”.
 						- vanishing point = the virtual point only on image plane (not in 3D) [where parallel lines converge](https://en.wikipedia.org/wiki/Vanishing_point)
 						  id:: 673a0211-a4ef-4548-acc5-f9141de253cb
