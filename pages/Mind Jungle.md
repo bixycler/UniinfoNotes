@@ -1570,7 +1570,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- The cone of vision is the closest example of a viewcone.
 					- There are many terms around this cone of vision and perspective drawing.
-						- Line of sight (sight line)
+						- direction of view (viewing direction, viewing ray, principal visual ray) = axis of the visual cone
+						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
+						- visual rays = lines of sight (sight lines) = rays from eye to (points of) objects
+							- The central visual ray (central sight line) is the [viewing direction](((6739f671-fe51-4f10-ba24-b492b62fe932))) and is also ambiguously called "the sight line".
 				- The past [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
 			- #### tree view
