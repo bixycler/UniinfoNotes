@@ -1566,9 +1566,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 			  collapsed:: true
+				- The cone of vision (visual cone) in human & computer vision
 				- The past [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
-				- The cone of vision (visual cone)
 			- #### tree view
 			  id:: 667252dc-e610-4d07-bcd0-9ea6fb4499fd
 			  collapsed:: true
