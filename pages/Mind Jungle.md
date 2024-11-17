@@ -1569,15 +1569,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
 				  collapsed:: true
 					- The cone of vision is the closest example of a viewcone.
-					- There are many terms around this cone of vision and perspective drawing.
+					- There are many terms around this cone of vision and perspective projection.
 						- direction of view (viewing direction, viewing ray, principal visual ray) = axis of the visual cone
 						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
 						- visual rays = lines of sight (sight lines) = rays from eye to (points of) objects
 							- The central visual ray (central sight line) is the [viewing direction](((6739f671-fe51-4f10-ba24-b492b62fe932))) and is also ambiguously called "the sight line".
-						- orthogonals = lines parallel to the viewing direction in 3D and are projected onto image plane as lines converging to the principal vanishing point
+						- orthogonals = lines parallel to the viewing direction in 3D and are projected onto the image plane as lines converging to the principal vanishing point
 							- “orthogonal” means perpendicular to the image plane.
 						- transversals = lines parallel to the ground line
-						- vanishing point = the virtual point on
+						- vanishing point = the virtual point only on image plane (not in 3D) [where parallel lines converge](https://en.wikipedia.org/wiki/Vanishing_point)
+						  id:: 673a0211-a4ef-4548-acc5-f9141de253cb
+						- vanishing line = the virtual line only on image plane (not in 3D) [where parallel planes meet at infinity](https://en.wikipedia.org/wiki/Vanishing_point#Vanishing_line)
+							- “vanishing lines” is also ambiguously used to refer to the image of parallel lines, as shown [in Merriam Webster dictionary](https://www.merriam-webster.com/dictionary/vanishing%20line) and some pages like [this article by Kiyeon Kim](https://www.tomboweurope.com/en/inspiration/perspective-drawing)
 				- The past [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
 			- #### tree view
