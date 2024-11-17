@@ -1078,7 +1078,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Due to the process of collection and condensation, the representatives are far from the the parts: lagging behind in time and radically different from each individual part. The larger the whole (relative to its parts), the farther its representatives are from the parts.
 				- content/form = cause/effect = process/result = path/target
 					- The visible form is the ((6729b7cf-83b8-4a42-aac7-ec8cf16fa734)) of a lot of invisible content(s). So is the effect from various causes, as well as the result from the long process.
-					- Due to its visibility, the form is taken as the target for subjects to head to. Directly heading to the the form, subjects are short-cutting the full path of content accumulated in the form, thus effectively using up the form's crystalized content, making it hollower and emptier.
+					- Due to its visibility, the form is taken as the target for subjects to head to. Directly heading to the the form, subjects are short-cutting the full path of content leading to the form, thus effectively using up the form's crystalized content, making it hollower and emptier.
 			- The Game of Chasing Shadows
 			  id:: 67331a5a-1815-40c1-96db-ef7be8ee8d7b
 			  Trò Đuổi Hình Bắt Bóng
