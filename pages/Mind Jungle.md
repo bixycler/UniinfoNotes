@@ -1575,7 +1575,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The central visual ray (central sight line) is the [viewing direction](((6739f671-fe51-4f10-ba24-b492b62fe932))) and is also ambiguously called "the sight line".
 						- direction of view (viewing direction, viewing ray, principal visual ray) = axis of the visual cone
 						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
-						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D and are projected onto the image plane as lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
+						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D corresponding to image lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
 						  id:: 6739fd3d-066d-46a6-b9f3-3dbab8c9d817
 						- perspective lines = orthogonals = parallel lines in 3D with image lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
 						  collapsed:: true
