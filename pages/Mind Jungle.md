@@ -1584,7 +1584,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “orthogonal” as “perpendicular to the image plane”.
 							- The term “orthogonal” seems to originate from the forward lines perpendicular to the image plane in one-point perspective, in constrast with the [transversals](((673ab08d-2389-4306-a7ee-6970e17018c6))). But then, the notion has been generalized to any parallel lines in 2-point & 3-point perspective.
 								- In Live About, [Helen South explains](https://www.liveabout.com/orthogonals-drawing-definition-1123067) the term “orthogonals” in both senses: perpendicular to the image plane and perpendicular to other set of orthogonals.
-						- transversals = parallel lines without converging image lines, because they are parallel to the image plane
+						- transversals = parallel lines with image lines don't converge (because they are parallel to the image plane)
 						  id:: 673ab08d-2389-4306-a7ee-6970e17018c6
 						  collapsed:: true
 							- Many ones define “transversal lines” as “lines parallel to the image plane” like [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
