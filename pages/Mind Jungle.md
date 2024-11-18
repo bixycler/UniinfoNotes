@@ -1578,14 +1578,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D and are projected onto the image plane as lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
 						  id:: 6739fd3d-066d-46a6-b9f3-3dbab8c9d817
 						- transversals = lines parallel to the image plane
+						  id:: 673ab08d-2389-4306-a7ee-6970e17018c6
 						  collapsed:: true
 							- Many ones define “transversal lines” as “lines parallel to the image plane” like [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
 							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “transversal” as “parallel to the ground line”.
-						- orthogonals = parallel line in 3D which are projected onto the image plane as lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
+						- perspective lines = orthogonals = parallel lines in 3D which are projected onto the image plane as lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
 							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in Creative Glossary](http://www.creativeglossary.com/art-perspective/orthogonal-lines.html), [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
 								- Here, “orthogonal” can be understood as one in the 3 sets of parallel lines of the the cube which are perpendicular to each other in three-point perspective.
 							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “orthogonal” as “perpendicular to the image plane”.
-							- The term “orthogonal” seems to originate from the dept
+							- The term “orthogonal” seems to originate from the forward lines perpendicular to the image plane in one-point perspective, in constrast with the ((673ab08d-2389-4306-a7ee-6970e17018c6)). But then, the notion has been generalized to any parallel lines in 2-point & 3-point perspective.
 						- vanishing point = the virtual point only on image plane (not in 3D) [where parallel lines converge](https://en.wikipedia.org/wiki/Vanishing_point)
 						  id:: 673a0211-a4ef-4548-acc5-f9141de253cb
 							- principal (or central vanishing) point = the vanishing point of the [principal lines](((6739fd3d-066d-46a6-b9f3-3dbab8c9d817)))
