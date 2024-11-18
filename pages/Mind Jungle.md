@@ -1582,10 +1582,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Many ones define “transversal lines” as “lines parallel to the image plane” like [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
 							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “transversal” as “parallel to the ground line”.
 						- orthogonals = parallel line in 3D which are projected onto the image plane as lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
-						  collapsed:: true
 							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in Creative Glossary](http://www.creativeglossary.com/art-perspective/orthogonal-lines.html), [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
-								- Here the term “orthogonal” originates from the 3 sets of parallel lines of the the cube which are perpendicular to each other in three-point perspective.
+								- Here, “orthogonal” can be understood as one in the 3 sets of parallel lines of the the cube which are perpendicular to each other in three-point perspective.
 							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “orthogonal” as “perpendicular to the image plane”.
+							- The term “orthogonal” seems to originate from the dept
 						- vanishing point = the virtual point only on image plane (not in 3D) [where parallel lines converge](https://en.wikipedia.org/wiki/Vanishing_point)
 						  id:: 673a0211-a4ef-4548-acc5-f9141de253cb
 							- principal (or central vanishing) point = the vanishing point of the [principal lines](((6739fd3d-066d-46a6-b9f3-3dbab8c9d817)))
@@ -5140,6 +5140,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
 				- Supports [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64).
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
+		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =>  71:47:28
