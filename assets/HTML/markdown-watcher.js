@@ -433,7 +433,6 @@ function normalizeMardown(md,
   mapUuid = {}; noUuid = {};
   let logbook = '', inLogbook = false;
   let props = {}, meta = '', blockTitle = '';
-  let firstItem = true; // to detect soliton list: only one item with no sub-list
   indent = '';
   for(let i in lns){ let ln = lns[i];
     // contiguous lines of metadata, hence `continue`

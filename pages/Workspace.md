@@ -559,7 +559,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- [[Logseq publish]] → [[Logseq publish.norm]] → [Logseq publish.html](../assets/logseq/publish/Logseq publish.html) → [Logseq publish.pdf](../assets/logseq/publish/Logseq publish.pdf)
 			- [!] Error converting [[Logseq publish]]
 			  collapsed:: true
-				- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Logseq automatically **unitemizes** the page's header (`H*` any level)
+				- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Logseq automatically **unitemizes** the page's header (`H*` any level) while leaving all other items in the page unchanged.
+					-
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Restore item with `pageHeadingAsItem`
 				- This makes the whole document body be rendered as a giant code block.
 				- When itemizing the page header, the whole page is converted to a single `unfoldable-leaf`!
