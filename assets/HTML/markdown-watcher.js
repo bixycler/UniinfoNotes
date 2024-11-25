@@ -419,6 +419,9 @@ function normalizeMardown(md,
   if(pageHeadingAsItem && lns[0].startsWith('#')){
     lns[0] = '- '+lns[0];
     console.log('Page heading converted to item: ',lns[0]);
+    for(let i in lns){ // indent contents of this "page" item
+      lns[i] = '\t'+lns[i];
+    }
   }
 
   // convert metadata to `<a id="UUID" data-property="..." data-logbook="..."></a>`
