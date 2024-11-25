@@ -194,8 +194,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- Due to the guise of life, we fall into the contradiction of continuously reaching (small) deaths in the hope of avoiding (big) death.
 						- Accepting death is no problem to me and i've spent my whole life to explore various types of death.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) the mind to _**start** the new journey!_
-					  collapsed:: true
-						- ![reset button](../assets/Will/story/2024-Oct/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png)
+						- ![reset button](../assets/Will/story/2024-Oct/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
+						- [The destination is the horizon!](https://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
@@ -568,6 +568,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Headless page
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Use file name as page header.
 				- `flattenHeadings = false` for `restructureToFolderDiv()`.
-			- TODO Headless problem still persist!!!
+			- TODO Headless problem still persists!!!
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the [rabbit hole](((6735b189-a8b7-4ff3-b42a-c59f38a8334e))) of endless bugs and modifications
 		- ...
