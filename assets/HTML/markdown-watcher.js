@@ -418,11 +418,12 @@ function normalizeMardown(md,
   // convert the page heading to the global item (required for Logseq markdown)
   if(pageHeadingAsItem && lns[0].startsWith('#')){
     console.log('Page heading converted to item: ',lns[0]);
-    for(let i in lns){ // indent contents of this "page item"
+    for(let i in lns){ // indent other lines of this "page item", excluding its sub items
       if(i==0){ lns[0] = '- '+lns[0]; continue; }
-      // replace double space indent with tab indent
+      // replace double space indent, if any, with tab indent
       if(lns[i].startsWith('  ')){ lns[i] = lns[i].slice(2); }
-      if(!lns[i].startsWith('\t')){ lns[i] = '\t'+lns[i]; }
+      if(lns[i].match(patIH)){ break; }
+      lns[i] = '\t'+lns[i];
     }
   }
 
