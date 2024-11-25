@@ -200,7 +200,7 @@ async function load(forced) {
   let md = await blob.text();
   if(doNormalizeMarkdown.checked){
     md = normalizeMardown(md,
-      /*flattenHeadings*/true,
+      /*flattenHeadings*/false,
       /*blankLineBeforeCodeBlock*/false,
       /*looseList*/false,
       /*lineBreakAfterMetadata*/false,
@@ -210,8 +210,7 @@ async function load(forced) {
   mdtxt.value = md;
   omdhtml = mdhtml.innerHTML;
   mdhtml.innerHTML = md2html(md, /*looseList*/true); //mdi.render(md);
-  //if(doNormalizeMarkdown.checked){
-  {
+  if(doNormalizeMarkdown.checked){
     let item = mdhtml;
     if(item.children[0].tagName=='UL'){
       let l = item.children[0];
