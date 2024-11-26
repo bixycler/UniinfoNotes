@@ -25,9 +25,32 @@ class MessageDiv extends HTMLElement {
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
-    if(name == "folded"){
-      this.message.setAttribute("open", newValue);
+    if(name == "hidden"){
+      this.message.style.display = newValue ? 'none' : 'block';
+    }else if(name == "folded"){
+      if(!newValue){ this.message.setAttribute("open", true); }
+      else{ this.message.removeAttribute("open"); }
     }
+  }
+
+  showError(msg, heading = 'Markdown loading error'){
+    if(typeof(msg)==='string'){ heading += ': '; }else{ msg += '!'; }
+    this.showMessage(heading, msg, 'brown');
+  }
+
+  showMessage(heading, msg, color='green'){
+    this.messageSummary.innerHTML = heading;
+    this.messageDetails.innerHTML = msg;
+    this.message.style.color = color;
+    this.message.style.display = 'block';
+    //this.message.setAttribute('open',true);
+  }
+
+  clearMessage(){
+    this.messageSummary.innerHTML = '';
+    this.messageDetails.innerHTML = '';
+    this.message.style.display = 'none';
+    //this.message.removeAttribute('open');
   }
 
 }
@@ -42,23 +65,4 @@ customElements.define("message-div", MessageDiv);
   - Note that `mdimg.src = freq` is actually a GET request in disguise!
   */
 
-function showError(msg, heading = 'Markdown loading error'){
-  if(typeof(msg)==='string'){ heading += ': '; }else{ msg += '!'; }
-  showMessage(heading, msg, 'brown');
-}
-
-function showMessage(heading, msg, color='green'){
-  messageSummary.innerHTML = heading;
-  messageDetails.innerHTML = msg;
-  message.style.color = color;
-  message.style.display = 'block';
-  //message.setAttribute('open',true);
-}
-
-function clearMessage(){
-  messageSummary.innerHTML = '';
-  messageDetails.innerHTML = '';
-  message.style.display = 'none';
-  //message.removeAttribute('open');
-}
 

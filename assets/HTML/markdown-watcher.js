@@ -68,8 +68,6 @@ const optAsHtml = document.getElementById("optAsHtml");
 const optAsPdf = document.getElementById("optAsPdf");
 const optAsPng = document.getElementById("optAsPng");
 const message = document.getElementById("message");
-const messageSummary = document.getElementById("messageSummary");
-const messageDetails = document.getElementById("messageDetails");
 const butLoadNow = document.getElementById("butLoadNow");
 const reloadInterval = document.getElementById("reloadInterval");
 const butToggleWatching = document.getElementById("butToggleWatching");
@@ -92,7 +90,6 @@ doNormalizeMarkdown.addEventListener("change", (e)=>{load(true)});
 butLoadNow.addEventListener("click", (e)=>{e.preventDefault(); load(true);});
 butToggleWatching.addEventListener("click", toggleWatching);
 butExport.addEventListener("click", (e)=>{e.preventDefault(); exportFile();});
-mdimg.addEventListener("error", showError);
 
 window.addEventListener("DOMContentLoaded", loadPage);
 reloadInterval.addEventListener("change", rewatch);
@@ -216,14 +213,14 @@ async function load(forced) {
     exportUrl = exportUrlPdf;
     if(!mdpdf.src || pdfmdihtml != mdihtml){
       console.log('PDF loading...');
-      showMessage('PDF loading...');
+      message.showMessage('PDF loading...');
       mdpdf.style.display = 'block';
       let b = await toPdf(mdrender.innerHTML + markdown_style.outerHTML);
       if(b){ pdfblob = b;
         updateURL(exportUrlPdf, pdfblob);
         mdpdf.src = exportUrl.href;
         mdpdf.innerHTML = '';
-        clearMessage();
+        message.clearMessage();
       }
       pdfmdihtml = mdihtml;
     }
