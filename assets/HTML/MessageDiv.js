@@ -56,8 +56,6 @@ class MessageDiv extends HTMLElement {
     //this.setAttribute('folded',true);
   }
 
-  private
-
 }
 
 customElements.define("message-div", MessageDiv);
