@@ -18,7 +18,7 @@ const DocRaptorRequest = {
 
 const DocRaptorParams = {
   "user_credentials": DocRaptorApiKey,
-  "doc[test]": true,
+  "doc[test]": true, // ALWAYS default to TEST, must use setProduction() for production version!
   "doc[name]": "DocRaptor TestDocs",
   "doc[type]": "pdf",
   //"doc[prince_options][media]": "screen", // use screen styles instead of print styles
@@ -65,11 +65,14 @@ const DocRaptorStyle = `
 </style>
 `;
 
-export function setProduction(){
-  confirm('⚠️ Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?')
+function setProduction(pro=true){
+  if(pro){
+    pro = confirm('⚠️ Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?');
+  }
+  DocRaptorParams['doc[test]'] = !pro;
 }
 
-export async function toPdf(html) { // use URLSearchParams
+async function toPdf(html) { // use URLSearchParams
   let params = new URLSearchParams(structuredClone(DocRaptorParams));
   //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
   params.append("doc[document_content]", html + DocRaptorStyle);
@@ -80,4 +83,9 @@ export async function toPdf(html) { // use URLSearchParams
   console.debug('toPdf() fetch',params,blob);
   return blob;
 }
+
+// export to both module & window
+export {toPdf, setProduction};
+window.toPdf = toPdf;
+window.setProduction = setProduction;
 
