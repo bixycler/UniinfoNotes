@@ -35,18 +35,6 @@ const Request = {
   body: '',
 }
 
-async function toPdf(html) { // use URLSearchParams
-  let params = new URLSearchParams(structuredClone(DocRaptorParams));
-  //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
-  params.append("doc[document_content]", html + DocRaptorStyle);
-  let req = structuredClone(Request);
-    req.body = params;
-
-  let blob = await fetchFile(DocRaptorUrl, req, 'PDF loading');
-  console.debug('toPdf() fetch',params,blob);
-  return blob;
-}
-
 const DocRaptorStyle = `
 <style id="pdf_style">
   @page {
@@ -76,4 +64,16 @@ const DocRaptorStyle = `
 
 </style>
 `;
+
+async function toPdf(html) { // use URLSearchParams
+  let params = new URLSearchParams(structuredClone(DocRaptorParams));
+  //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
+  params.append("doc[document_content]", html + DocRaptorStyle);
+  let req = structuredClone(Request);
+    req.body = params;
+
+  let blob = await fetchFile(DocRaptorUrl, req, 'PDF loading');
+  console.debug('toPdf() fetch',params,blob);
+  return blob;
+}
 
