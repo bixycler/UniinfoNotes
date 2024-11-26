@@ -39,9 +39,6 @@ function md2html(md, looseList=false){
   return html;
 }
 
-// modern-screenshot
-const domto = window.modernScreenshot;
-
 // FolderDiv
 var FolderDivJS = null;
 (async function(){
@@ -51,6 +48,11 @@ var FolderDivJS = null;
   FolderDivJS.setAttribute('type', 'module');
   FolderDivJS.innerHTML = await blob.text();
 }());
+
+// DocRaptor
+
+// modern-screenshot
+const domto = window.modernScreenshot;
 
 //////////////////////////////////////////
 /////// DOMs

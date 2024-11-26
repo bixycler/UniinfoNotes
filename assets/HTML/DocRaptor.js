@@ -65,7 +65,7 @@ const DocRaptorStyle = `
 </style>
 `;
 
-async function toPdf(html) { // use URLSearchParams
+export async function toPdf(html) { // use URLSearchParams
   let params = new URLSearchParams(structuredClone(DocRaptorParams));
   //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
   params.append("doc[document_content]", html + DocRaptorStyle);
