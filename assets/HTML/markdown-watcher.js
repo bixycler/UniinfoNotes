@@ -251,9 +251,9 @@ async function load(forced) {
         item = l.children[0];
         console.log('Single-item page: ',item.children[0].textContent);
         // move contents of this single item to the page
-        for(let n of Array.from(item.childNodes)){ mdrender.append(n); }
+        for(let n of Array.from(item.childNodes)){ mdhtml.append(n); }
         l.remove();
-        item = mdrender;
+        item = mdhtml;
       }else{
         let t = decodeURI(fn);
         console.log('Headless page: Use file name as page header: ',t);
@@ -262,7 +262,7 @@ async function load(forced) {
         item.prepend(title);
       }
     }
-    //restructureToFolderDiv(item, /*root*/true);
+    restructureToFolderDiv(item, /*root*/true);
     let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
     updateURL(exportUrlHtml, b);
   }else if(renderChoice.value=='pdf'){
