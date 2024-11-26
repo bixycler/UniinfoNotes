@@ -231,7 +231,7 @@ async function load(forced) {
   if(renderChoice.value=='mdrender'){
     mdrender.style.display = 'block';
     exportUrl = exportUrlMdRender;
-  } else if(renderChoice.value=='html'){
+  }else if(renderChoice.value=='html'){
     mdhtml.style.display = 'block';
     exportUrl = exportUrlHtml;
     // render md -> HTML
@@ -262,10 +262,10 @@ async function load(forced) {
         item.prepend(title);
       }
     }
-    restructureToFolderDiv(item, /*root*/true);
+    //restructureToFolderDiv(item, /*root*/true);
     let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
     updateURL(exportUrlHtml, b);
-} else if(renderChoice.value=='pdf'){
+  }else if(renderChoice.value=='pdf'){
     mdpdf.style.display = 'block';
     exportUrl = exportUrlPdf;
     if(!mdpdf.src || pdfmdihtml != mdihtml){
