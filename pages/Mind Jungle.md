@@ -2434,6 +2434,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html"
 						  ```
 				- [markdown-watcher.js](../assets/HTML/markdown-watcher.js): **2 links**
+				  id:: 6735b187-132d-4503-af2c-90f4319cc312
 				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.js`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.js`: Linux logseq-notes

@@ -549,15 +549,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- DONE ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols... 
 		  id:: 6716110a-1a05-4c87-93b3-fa9f0db22ba9
 		  using ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
-		- DONE First complete [Logseq publishing with FolderDiv](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf)))
+		- DOING First complete [Logseq publishing with FolderDiv](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf)))
 		  id:: 6735c7ac-17c8-4fea-8d4c-b76a942bc453
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2024-11-14 Thu 16:49:54]
 		  CLOCK: [2024-11-14 Thu 16:49:57]--[2024-11-14 Thu 20:32:13] =>  03:42:16
 		  CLOCK: [2024-11-25 Mon 17:30:00]--[2024-11-25 Mon 19:01:23] =>  01:31:23
+		  CLOCK: [2024-11-26 Tue 08:30:00]
 		  :END:
-			- [[Logseq publish]] → [[Logseq publish.norm]] → [Logseq publish.html](../assets/logseq/publish/Logseq publish.html) → [Logseq publish.pdf](../assets/logseq/publish/Logseq publish.pdf)
+			- [[Logseq publish]] → [[Logseq publish.norm]] → [Logseq publish.md.html](../assets/logseq/publish/Logseq publish.md.html) → [Logseq publish.html](../assets/logseq/publish/Logseq publish.html) → [Logseq publish.pdf](../assets/logseq/publish/Logseq publish.pdf)
 			- [!] Error converting [[Logseq publish]]
 			  collapsed:: true
 				- The whole document body is rendered as a giant code block.
@@ -568,6 +568,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- When itemizing the page header, the whole page is converted to a single `unfoldable-leaf`!
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Single-item page: Process that single item instead of the page.
 				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) `flattenHeadings = false`, `pageHeadingAsItem = true` for `restructureToFolderDiv()`.
-			- TODO Headless problem still persists!!!
+			- DONE Headless problem still persists!!!
+			  :LOGBOOK:
+			  CLOCK: [2024-11-26 Tue 09:55:22]--[2024-11-26 Tue 09:55:44] =>  00:00:22
+			  :END:
+			- DOING Refactor [markdown-watcher.js](((6735b187-132d-4503-af2c-90f4319cc312)))
+			  :LOGBOOK:
+			  CLOCK: [2024-11-26 Tue 09:56:17]
+			  CLOCK: [2024-11-26 Tue 09:56:19]
+			  :END:
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the [rabbit hole](((6735b189-a8b7-4ff3-b42a-c59f38a8334e))) of endless bugs and modifications
 		- ...

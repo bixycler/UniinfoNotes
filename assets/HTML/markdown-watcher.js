@@ -439,7 +439,7 @@ function normalizeMardown(md,
       if(i==0){ lns[0] = '- '+lns[0]; continue; }
       // replace double space indent, if any, with tab indent
       if(lns[i].startsWith('  ')){ lns[i] = lns[i].slice(2); }
-      if(lns[i].match(patIH)){ break; }
+      if(lns[i].match(patItem)){ break; }
       lns[i] = '\t'+lns[i];
     }
   }
