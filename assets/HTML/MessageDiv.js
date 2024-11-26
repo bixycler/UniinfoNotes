@@ -25,11 +25,11 @@ class MessageDiv extends HTMLElement {
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
-    console.debug(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
+    //console.debug(`Attribute "${name}" changed: (${oldValue}) -> (${newValue})`);
     if(name == "hidden"){
       this.message.style.display = newValue ? 'none' : 'block';
     }else if(name == "folded"){
-      if(!newValue){ this.message.setAttribute("open", true); }
+      if(newValue==null){ this.message.setAttribute("open", true); }
       else{ this.message.removeAttribute("open"); }
     }
   }
@@ -51,6 +51,7 @@ class MessageDiv extends HTMLElement {
     this.messageSummary.innerHTML = '';
     this.messageDetails.innerHTML = '';
     this.message.style.display = 'none';
+    //this.setAttribute('folded',true);
     //this.message.removeAttribute('open');
   }
 
