@@ -221,6 +221,44 @@ function normalizeMardown(md,
   return nmd;
 }
 
+/** Replace all empty link in mapUuid's titles with target block title */
+function processMapUuid(){
+  //checkLinks(ln); // to prevent duplication of error messages, don't check here, only check at normalizeMardown(md)
+
+  // ebref graph of empty block refs (processed/resolved ones are removed from g)
+  const g = structuredClone(mapUuid);
+  circularRefs = {};
+  for(let id in g){
+    let ln = mapUuid[id];
+    let res = processLogseqLinks(ln, /*fillEmptyLinks*/false, /*flattenLinks*/true);
+    mapUuid[id] = res.text;
+    if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
+  }
+  console.debug('ebref graph:',g);
+  // topo-orderly resolve ebref graph
+  while(Object.keys(g).length){
+    let resolved = false;
+    for(let id in g){
+      let resolvable = true; // all targets have been resolved
+      for(let t of g[id]){
+        if(t in g){ resolvable = false; break; }
+      }
+      if(!resolvable){ continue; }else{ resolved = true; }
+      let ln = mapUuid[id];
+      let res = processLogseqLinks(ln, /*fillEmptyLinks*/true, /*flattenLinks*/true);
+      mapUuid[id] = res.text;
+      //console.debug('resolved',id,g[id],'ln:',mapUuid[id]);
+      console.assert(res.ebref.length===0);
+      if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
+    }
+    if(!resolved){ // no one can be resolved <=> circular refs!!!
+      console.warn('Circular refs', g);
+      circularRefs = g;
+      break;
+    }
+  }
+}
+
 /** Check links & block refs of issues: noUuid, ... */
 function checkLinks(ln){
   // check links' target against mapUuid
@@ -318,44 +356,6 @@ function processLogseqLinks(ln, fillEmptyLinks, flattenLinks=false){
   nln += ln.slice(li);
 
   return { text:nln, ebref:ebref, bref:bref, href:href };
-}
-
-/** Replace all empty link in mapUuid's titles with target block title */
-function processMapUuid(){
-  //checkLinks(ln); // to prevent duplication of error messages, don't check here, only check at normalizeMardown(md)
-
-  // ebref graph of empty block refs (processed/resolved ones are removed from g)
-  const g = structuredClone(mapUuid);
-  circularRefs = {};
-  for(let id in g){
-    let ln = mapUuid[id];
-    let res = processLogseqLinks(ln, /*fillEmptyLinks*/false, /*flattenLinks*/true);
-    mapUuid[id] = res.text;
-    if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
-  }
-  console.debug('ebref graph:',g);
-  // topo-orderly resolve ebref graph
-  while(Object.keys(g).length){
-    let resolved = false;
-    for(let id in g){
-      let resolvable = true; // all targets have been resolved
-      for(let t of g[id]){
-        if(t in g){ resolvable = false; break; }
-      }
-      if(!resolvable){ continue; }else{ resolved = true; }
-      let ln = mapUuid[id];
-      let res = processLogseqLinks(ln, /*fillEmptyLinks*/true, /*flattenLinks*/true);
-      mapUuid[id] = res.text;
-      //console.debug('resolved',id,g[id],'ln:',mapUuid[id]);
-      console.assert(res.ebref.length===0);
-      if(res.ebref.length){ g[id] = res.ebref; }else{ delete g[id]; }
-    }
-    if(!resolved){ // no one can be resolved <=> circular refs!!!
-      console.warn('Circular refs', g);
-      circularRefs = g;
-      break;
-    }
-  }
 }
 
 
