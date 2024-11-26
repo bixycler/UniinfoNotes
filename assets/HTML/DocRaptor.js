@@ -86,6 +86,7 @@ async function toPdf(html) { // use URLSearchParams
 
 // export to both module & window
 export {toPdf, setProduction};
-window.toPdf = toPdf;
-window.setProduction = setProduction;
+_.
+//window.toPdf = toPdf;
+//window.setProduction = setProduction;
 
