@@ -19,10 +19,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- DOING Refactor `opt/web/static` with `assets/HTML/`  & `docs/`
+				- DONE Refactor `opt/web/static` with `assets/HTML/`  & `docs/`
 				  :LOGBOOK:
 				  CLOCK: [2024-11-26 Tue 09:56:17]
-				  CLOCK: [2024-11-26 Tue 09:56:19]
+				  CLOCK: [2024-11-26 Tue 09:56:19]--[2024-11-26 Tue 11:02:02] =>  01:05:43
 				  :END:
 				- ...
 			- ------
