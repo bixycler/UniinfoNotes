@@ -38,6 +38,7 @@ class MessageDiv extends HTMLElement {
     if(heading===null){ heading = this.getAttribute('heading'); }
     if(typeof(msg)==='string'){ heading += ': '; }else{ msg += '!'; }
     this.show(heading, msg, 'brown');
+    //this.removeAttribute('folded');
   }
 
   show(heading, msg, color='green'){
@@ -45,7 +46,7 @@ class MessageDiv extends HTMLElement {
     this.messageDetails.innerHTML = msg;
     this.message.style.color = color;
     this.message.style.display = 'block';
-    //this.message.setAttribute('open',true);
+    //this.removeAttribute('folded');
   }
 
   clear(){
@@ -53,8 +54,9 @@ class MessageDiv extends HTMLElement {
     this.messageDetails.innerHTML = '';
     this.message.style.display = 'none';
     //this.setAttribute('folded',true);
-    //this.message.removeAttribute('open');
   }
+
+  private
 
 }
 
