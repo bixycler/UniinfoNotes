@@ -1,3 +1,11 @@
+///////////////////////////
+// Interface (to both module & window)
+export {toPdf, setProduction};
+_.assign(window, {toPdf, setProduction});
+
+///////////////////////////
+// Implementation
+
 const DocRaptorApiKey = "m7Dhrn_AsezV94C3VL-B";
 const DocRaptorUrl = `https://api.docraptor.com/docs`;
 const DocRaptorRequest = {
@@ -84,9 +92,4 @@ async function toPdf(html) { // use URLSearchParams
   return blob;
 }
 
-// export to both module & window
-export {toPdf, setProduction};
-_.
-//window.toPdf = toPdf;
-//window.setProduction = setProduction;
 
