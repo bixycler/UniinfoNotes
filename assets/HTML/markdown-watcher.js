@@ -332,6 +332,3 @@ function loadPage() {
   setParams(Object.fromEntries(sp.entries()));
   load(true);
 }
-
-//////////////////////////////////////////
-/////// Format converting
