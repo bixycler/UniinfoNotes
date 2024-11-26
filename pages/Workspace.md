@@ -19,6 +19,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- DOING Refactor `opt/web/static` with `assets/HTML/`  & `docs/`
+				  :LOGBOOK:
+				  CLOCK: [2024-11-26 Tue 09:56:17]
+				  CLOCK: [2024-11-26 Tue 09:56:19]
+				  :END:
 				- ...
 			- ------
 		-
@@ -572,10 +577,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  :LOGBOOK:
 			  CLOCK: [2024-11-26 Tue 09:55:22]--[2024-11-26 Tue 09:55:44] =>  00:00:22
 			  :END:
-			- DOING Refactor [markdown-watcher.js](((6735b187-132d-4503-af2c-90f4319cc312)))
+			- DOING Refactor `markdown-watcher.js`
 			  :LOGBOOK:
-			  CLOCK: [2024-11-26 Tue 09:56:17]
-			  CLOCK: [2024-11-26 Tue 09:56:19]
+			  CLOCK: [2024-11-26 Tue 10:35:48]
+			  CLOCK: [2024-11-26 Tue 10:35:51]
 			  :END:
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the [rabbit hole](((6735b189-a8b7-4ff3-b42a-c59f38a8334e))) of endless bugs and modifications
 		- ...
