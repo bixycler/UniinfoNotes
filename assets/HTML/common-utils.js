@@ -17,20 +17,6 @@ function equal(blob1, blob2) {
   return true;
 }
 
-function updateURL(exportUrl, obj){
-  let url = null;
-  if(obj instanceof Blob) {
-    url = URL.createObjectURL(obj);
-  }else if(obj instanceof HTMLCanvasElement) {
-    url = obj.toDataURL("image/png");
-  }
-  if(!url){ return null; }
-  URL.revokeObjectURL(exportUrl.href); // don't litter garbage :)
-  exportUrl.href = url;
-  console.log('Export URL update:', exportUrl.download,' = ',exportUrl.href);
-  return url;
-}
-
 function escapeXML(str, quote=false, xml=true){
   if(xml){
     str = str.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');

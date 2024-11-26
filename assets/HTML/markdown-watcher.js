@@ -232,30 +232,6 @@ async function load(forced) {
   orenderChoice = renderChoice.value;
 }
 
-function showError(msg, heading = 'Markdown loading error'){
-  if(typeof(msg)==='string'){ heading += ': '; }else{ msg += '!'; }
-  showMessage(heading, msg, 'brown');
-
-  /* Chrome console error messages: GET ... {net:ERR_*, 404 (Not Found), ...}
-  - Issue: those messages are browser's native and **cannot be controlled** by javascript (even they are properly catched/handlled in the script).
-  - Chorme's solution: console config > check "Hide network"
-  - Note that `mdimg.src = freq` is actually a GET request in disguise!
-  */
-}
-function showMessage(heading, msg, color='green'){
-  messageSummary.innerHTML = heading;
-  messageDetails.innerHTML = msg;
-  message.style.color = color;
-  message.style.display = 'block';
-  //message.setAttribute('open',true);
-}
-function clearMessage(){
-  messageSummary.innerHTML = '';
-  messageDetails.innerHTML = '';
-  message.style.display = 'none';
-  //message.removeAttribute('open');
-}
-
 function watch(){
   load(false);
   loopId = setInterval(load, reloadInterval.value, false);
@@ -297,6 +273,20 @@ function exportFile(){
   // window.showSaveFilePicker(); // this Experimental does not work
   // just use the good old hack of "click the download-link"
   exportUrl.click();
+}
+
+function updateURL(exportUrl, obj){
+  let url = null;
+  if(obj instanceof Blob) {
+    url = URL.createObjectURL(obj);
+  }else if(obj instanceof HTMLCanvasElement) {
+    url = obj.toDataURL("image/png");
+  }
+  if(!url){ return null; }
+  URL.revokeObjectURL(exportUrl.href); // don't litter garbage :)
+  exportUrl.href = url;
+  console.log('Export URL update:', exportUrl.download,' = ',exportUrl.href);
+  return url;
 }
 
 //////////////////////////////////////////
