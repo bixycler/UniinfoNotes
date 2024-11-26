@@ -25,6 +25,7 @@ class MessageDiv extends HTMLElement {
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
+    console.debug(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
     if(name == "hidden"){
       this.message.style.display = newValue ? 'none' : 'block';
     }else if(name == "folded"){

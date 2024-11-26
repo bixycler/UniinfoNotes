@@ -128,6 +128,7 @@ async function load(forced) {
   // loaf mdf tagged with timestamp
   let freq = fn + '?ts=' + new Date().getTime();
   let blob = await fetchFile(freq, {mode: "no-cors"});
+  if(!blob){ return; }
   if (equal(blob, oblob)) {
     if(!forced){
       return; // continue only if there's change in the input blob, or being forced
@@ -138,7 +139,7 @@ async function load(forced) {
   }
 
   // check MIME type
-  if(!['text/markdown','text/x-markdown','text/plain'].includes(blob.type.split(';')[0])) {
+  if(!blob.type || !['text/markdown','text/x-markdown','text/plain'].includes(blob.type.split(';')[0])) {
     console.log('Unrecognized markdown type: "', blob.type, '" from', res.url);
     return;
   }

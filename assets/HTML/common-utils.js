@@ -39,7 +39,7 @@ async function fetchFile(url, req, msg='Fetch'){
   if (!res.ok) {
     //console.warn(msg+' error:',res);
     message.showError(res.statusText, msg+' error');
-    message.setAttribute('folded',false);
+    message.removeAttribute('folded');
     return;
   } else {
     message.clearMessage();
