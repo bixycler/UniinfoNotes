@@ -155,7 +155,7 @@ reloadInterval.addEventListener("change", rewatch);
 /////// DOM handling
 
 let loopId = 0;
-let oblob = new Blob(), pdfblob = null, opdfhtml = '', orenderChoice = null;
+let oblob = new Blob(), pdfblob = null, pdfmdihtml = '', orenderChoice = null;
 let params = {}; //FormData.entries()
 let exportUrl = exportUrlMd;
 
@@ -212,9 +212,29 @@ async function load(forced) {
     );
   }
   mdtxt.value = md;
-  let omdrender = mdrender.innerHTML;
+  let omdihtml = mdrender.innerHTML;
   mdrender.innerHTML = md2html(md, /*looseList*/true); //mdi.render(md);
-  if(doNormalizeMarkdown.checked){
+  let mdihtml = mdrender.innerHTML;
+  if(omdihtml==mdihtml){
+    if(renderChoice.value==orenderChoice){
+      return; // continue only if there's change in the Markdown HTML or in renderChoice
+    }
+  }else{
+    let b = new Blob([mdrender.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
+    updateURL(exportUrlHtml, b);
+  }
+
+  mdrender.style.display = 'none';
+  mdhtml.style.display = 'none';
+  mdpdf.style.display = 'none';
+  mdimg.style.display = 'none';
+  if(renderChoice.value=='mdrender'){
+    mdrender.style.display = 'block';
+    exportUrl = exportUrlMdRender;
+  } else if(renderChoice.value=='html'){
+    mdhtml.style.display = 'block';
+    exportUrl = exportUrlHtml;
+    // preprocess abnormalties in rendered markdown before restructuring to FolderDiv
     let item = mdrender;
     if(item.children[0].tagName=='UL'){
       let l = item.children[0];
@@ -234,31 +254,10 @@ async function load(forced) {
       }
     }
     restructureToFolderDiv(item, /*root*/true);
-  }
-  let mdihtml = mdrender.innerHTML;
-  if(omdrender==mdihtml){
-    if(renderChoice.value==orenderChoice){
-      return; // continue only if there's change in the Markdown HTML or in renderChoice
-    }
-  }else{
-    let b = new Blob([mdrender.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
-    updateURL(exportUrlHtml, b);
-  }
-
-  mdrender.style.display = 'none';
-  mdhtml.style.display = 'none';
-  mdpdf.style.display = 'none';
-  mdimg.style.display = 'none';
-  if(renderChoice.value=='mdrender'){
-    mdrender.style.display = 'block';
-    exportUrl = exportUrlMdRender;
-  } else if(renderChoice.value=='html'){
-    mdhtml.style.display = 'block';
-    exportUrl = exportUrlHtml;
   } else if(renderChoice.value=='pdf'){
     mdpdf.style.display = 'block';
     exportUrl = exportUrlPdf;
-    if(!mdpdf.src || opdfhtml != mdihtml){
+    if(!mdpdf.src || pdfmdihtml != mdihtml){
       console.log('PDF loading...');
       showMessage('PDF loading...');
       mdpdf.style.display = 'block';
@@ -269,7 +268,7 @@ async function load(forced) {
         mdpdf.innerHTML = '';
         clearMessage();
       }
-      opdfhtml = mdihtml;
+      pdfmdihtml = mdihtml;
     }
   }
 
