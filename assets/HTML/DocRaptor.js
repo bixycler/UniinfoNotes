@@ -65,6 +65,10 @@ const DocRaptorStyle = `
 </style>
 `;
 
+export function setProduction(){
+  confirm('⚠️ Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?')
+}
+
 export async function toPdf(html) { // use URLSearchParams
   let params = new URLSearchParams(structuredClone(DocRaptorParams));
   //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
