@@ -1,34 +1,35 @@
 
 /** Convert from Logseq markdown to normal Markdown */
   var mapUuid = {}, noUuid = {}, circularRefs = {}, localLinks = {};
-  const NBSP = '\u00A0', NNBSP = '\u202F', ZWSP = '\u200B', ZWNBSP = '\uFEFF';
-  const CBMarker = ZWNBSP;
-  const LooseListSpace = NBSP;
-  const patItem = /^(\t*)- /;
-  const patLB = /^\s*:(logbook|LOGBOOK):$/;
-  const patLBE = /^\s*:END:$/;
-  const patProp = /^\s*(\w+):: (.*)$/;
-  const metatag = '<a class="logseq-meta" ';
-  const patIH = /^(\t*)(- )?#/; // itemized heading
-  const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
-  const patCBH = /^(\t*)  /; // code block line's head
-  const patCBM = new RegExp('^(\t*)'+CBMarker, 'u'); // code block line's marker
-  const patCI = /`([^`]+)`/; // inline codes
-  const patCIAll = new RegExp(patCI, 'g');
-  const patHtml = /<[^>]+>/; // HTML tag
-  const patHtmlAll = new RegExp(patHtml, 'g');
-  const patCIHtmlAll = new RegExp(patCI.source+'|'+patHtml.source, 'g');
-  const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
-  const patUuidAll = new RegExp(patUuid, 'g');
-  const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
-  const patBRefAll = new RegExp(patBRef, 'g');
-  const patLinkText = /\[([^\[\]]*(?:\[[^\[\]]*(?:\[[^\[\]]*(?:\[[^\[\]]*\][^\[\]]*)*\][^\[\]]*)*\][^\[\]]*)*)\]/;
-  const patHRef = /([^\(\) "]*(?:\([^\(\) "]*(?:\([^\(\) "]*(?:\([^\(\) "]*\)[^\(\) "]*)*\)[^\(\) "]*)*\)[^\(\) "]*)*)/;
-  const patLinkTip = /( "[^"]*")?/;
-  const patBLink = new RegExp(patLinkText.source+ '\\('+patBRef.source + patLinkTip.source+'\\)');
-  const patBLinkAll = new RegExp(patBLink, 'g');
-  const patLink  = new RegExp(patLinkText.source+ '\\('+patHRef.source + patLinkTip.source+'\\)');
-  const patLinkAll = new RegExp(patLink, 'g');
+  
+const NBSP = '\u00A0', NNBSP = '\u202F', ZWSP = '\u200B', ZWNBSP = '\uFEFF';
+const CBMarker = ZWNBSP;
+const LooseListSpace = NBSP;
+const patItem = /^(\t*)- /;
+const patLB = /^\s*:(logbook|LOGBOOK):$/;
+const patLBE = /^\s*:END:$/;
+const patProp = /^\s*(\w+):: (.*)$/;
+const metatag = '<a class="logseq-meta" ';
+const patIH = /^(\t*)(- )?#/; // itemized heading
+const patCBF = /^(\t*)(-| ) ```(\w*)/; // code block fence
+const patCBH = /^(\t*)  /; // code block line's head
+const patCBM = new RegExp('^(\t*)'+CBMarker, 'u'); // code block line's marker
+const patCI = /`([^`]+)`/; // inline codes
+const patCIAll = new RegExp(patCI, 'g');
+const patHtml = /<[^>]+>/; // HTML tag
+const patHtmlAll = new RegExp(patHtml, 'g');
+const patCIHtmlAll = new RegExp(patCI.source+'|'+patHtml.source, 'g');
+const patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/;
+const patUuidAll = new RegExp(patUuid, 'g');
+const patBRef = new RegExp('\\(\\(('+patUuid.source+')\\)\\)');
+const patBRefAll = new RegExp(patBRef, 'g');
+const patLinkText = /\[([^\[\]]*(?:\[[^\[\]]*(?:\[[^\[\]]*(?:\[[^\[\]]*\][^\[\]]*)*\][^\[\]]*)*\][^\[\]]*)*)\]/;
+const patHRef = /([^\(\) "]*(?:\([^\(\) "]*(?:\([^\(\) "]*(?:\([^\(\) "]*\)[^\(\) "]*)*\)[^\(\) "]*)*\)[^\(\) "]*)*)/;
+const patLinkTip = /( "[^"]*")?/;
+const patBLink = new RegExp(patLinkText.source+ '\\('+patBRef.source + patLinkTip.source+'\\)');
+const patBLinkAll = new RegExp(patBLink, 'g');
+const patLink  = new RegExp(patLinkText.source+ '\\('+patHRef.source + patLinkTip.source+'\\)');
+const patLinkAll = new RegExp(patLink, 'g');
 
 function normalizeMardown(md,
   flattenHeadings = false,
