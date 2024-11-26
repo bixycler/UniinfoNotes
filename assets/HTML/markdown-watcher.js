@@ -84,7 +84,7 @@ const Request = {
 async function toPdf() { // use URLSearchParams
   let params = new URLSearchParams(structuredClone(DocRaptorParams));
   //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
-  params.append("doc[document_content]", mdhtml.innerHTML + markdown_style.outerHTML + DocRaptorStyle);
+  params.append("doc[document_content]", mdrender.innerHTML + markdown_style.outerHTML + DocRaptorStyle);
   let req = structuredClone(Request);
     req.body = params;
 
@@ -111,7 +111,8 @@ var FolderDivJS = null;
 /*/ getElementById() is redundant!
 const control = document.getElementById("control");
 const mdf = document.getElementById("mdf");
-const mdhtml = document.getElementById("mdhtml");
+const mdrender = document.getElementById("mdrender");
+const mdrender = document.getElementById("mdrender");
 const mdpdf = document.getElementById("mdpdf");
 const mdimg = document.getElementById("mdimg");
 const renderChoice = document.getElementById("renderChoice");
@@ -128,7 +129,7 @@ const reloadInterval = document.getElementById("reloadInterval");
 const butToggleWatching = document.getElementById("butToggleWatching");
 const butExport = document.getElementById("butExport");
 const exportUrlMd = document.getElementById("exportUrlMd");
-const exportUrlMdHtml = document.getElementById("exportUrlMdHtml");
+const exportUrlMdRender = document.getElementById("exportUrlMdRender");
 const exportUrlHtml = document.getElementById("exportUrlHtml");
 const exportUrlPdf = document.getElementById("exportUrlPdf");
 const exportUrlImg = document.getElementById("exportUrlImg");
@@ -154,7 +155,7 @@ reloadInterval.addEventListener("change", rewatch);
 /////// DOM handling
 
 let loopId = 0;
-let oblob = new Blob(), pdfblob = null, omdhtml = '', opdfhtml = '', orenderChoice = null;
+let oblob = new Blob(), pdfblob = null, opdfhtml = '', orenderChoice = null;
 let params = {}; //FormData.entries()
 let exportUrl = exportUrlMd;
 
@@ -211,19 +212,19 @@ async function load(forced) {
     );
   }
   mdtxt.value = md;
-  omdhtml = mdhtml.innerHTML;
-  mdhtml.innerHTML = md2html(md, /*looseList*/true); //mdi.render(md);
+  let omdrender = mdrender.innerHTML;
+  mdrender.innerHTML = md2html(md, /*looseList*/true); //mdi.render(md);
   if(doNormalizeMarkdown.checked){
-    let item = mdhtml;
+    let item = mdrender;
     if(item.children[0].tagName=='UL'){
       let l = item.children[0];
       if(l.children.length == 1){
         item = l.children[0];
         console.log('Single-item page: ',item.children[0].textContent);
         // move contents of this single item to the page
-        for(let n of Array.from(item.childNodes)){ mdhtml.append(n); }
+        for(let n of Array.from(item.childNodes)){ mdrender.append(n); }
         l.remove();
-        item = mdhtml;
+        item = mdrender;
       }else{
         let t = decodeURI(fn);
         console.log('Headless page: Use file name as page header: ',t);
@@ -234,13 +235,13 @@ async function load(forced) {
     }
     restructureToFolderDiv(item, /*root*/true);
   }
-  let mdihtml = mdhtml.innerHTML;
-  if(omdhtml==mdihtml){
+  let mdihtml = mdrender.innerHTML;
+  if(omdrender==mdihtml){
     if(renderChoice.value==orenderChoice){
       return; // continue only if there's change in the Markdown HTML or in renderChoice
     }
   }else{
-    let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/markdown'});
+    let b = new Blob([mdrender.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
     updateURL(exportUrlHtml, b);
   }
 
@@ -248,7 +249,10 @@ async function load(forced) {
   mdhtml.style.display = 'none';
   mdpdf.style.display = 'none';
   mdimg.style.display = 'none';
-  if(renderChoice.value=='html'){
+  if(renderChoice.value=='mdrender'){
+    mdrender.style.display = 'block';
+    exportUrl = exportUrlMdRender;
+  } else if(renderChoice.value=='html'){
     mdhtml.style.display = 'block';
     exportUrl = exportUrlHtml;
   } else if(renderChoice.value=='pdf'){
@@ -269,7 +273,6 @@ async function load(forced) {
     }
   }
 
-  omdhtml = mdihtml;
   orenderChoice = renderChoice.value;
 }
 
