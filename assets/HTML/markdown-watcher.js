@@ -175,7 +175,7 @@ async function load(forced) {
     let fnb = fn.split('/').at(-1).split('?').at(0); //base name
     exportUrlMd.download = fnb
     fnb = fnb.replace(/\.\w+$/, ''); 
-    exportUrlMdHtml.download = fnb + '.html';
+    exportUrlMdRender.download = fnb + '.md.html';
     exportUrlHtml.download = fnb + '.html';
     exportUrlPdf.download = fnb + '.pdf';
     exportUrlImg.download = fnb + '.png';
@@ -202,18 +202,18 @@ async function load(forced) {
 
   // convert markdown -> HTML -> FolderDiv HTML -> PDF -> SVG/PNG
   let md = await blob.text();
+  mdtxt.value = md;
   if(doNormalizeMarkdown.checked){
-    md = normalizeMardown(md,
-      /*flattenHeadings*/false,
-      /*blankLineBeforeCodeBlock*/false,
+    mdtxt.value = normalizeMardown(mdtxt.value,
+      /*flattenHeadings*/true,
+      /*blankLineBeforeCodeBlock*/true,
       /*looseList*/false,
-      /*lineBreakAfterMetadata*/false,
-      /*pageHeadingAsItem*/true
+      /*lineBreakAfterMetadata*/true,
+      /*pageHeadingAsItem*/false
     );
   }
-  mdtxt.value = md;
   let omdihtml = mdrender.innerHTML;
-  mdrender.innerHTML = md2html(md, /*looseList*/true); //mdi.render(md);
+  mdrender.innerHTML = md2html(mdtxt.value, /*looseList*/true); //mdi.render(mdtxt.value);
   let mdihtml = mdrender.innerHTML;
   if(omdihtml==mdihtml){
     if(renderChoice.value==orenderChoice){
@@ -221,7 +221,7 @@ async function load(forced) {
     }
   }else{
     let b = new Blob([mdrender.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
-    updateURL(exportUrlHtml, b);
+    updateURL(exportUrlMdRender, b);
   }
 
   mdrender.style.display = 'none';
@@ -234,8 +234,17 @@ async function load(forced) {
   } else if(renderChoice.value=='html'){
     mdhtml.style.display = 'block';
     exportUrl = exportUrlHtml;
-    // preprocess abnormalties in rendered markdown before restructuring to FolderDiv
-    let item = mdrender;
+    // render md -> HTML
+    mdtxt.value = normalizeMardown(md,
+      /*flattenHeadings*/false,
+      /*blankLineBeforeCodeBlock*/false,
+      /*looseList*/false,
+      /*lineBreakAfterMetadata*/false,
+      /*pageHeadingAsItem*/true
+    );
+    mdhtml.innerHTML = md2html(mdtxt.value, /*looseList*/true); //mdi.render(mdtxt.value);
+    // preprocess abnormalities in rendered markdown before restructuring to FolderDiv
+    let item = mdhtml;
     if(item.children[0].tagName=='UL'){
       let l = item.children[0];
       if(l.children.length == 1){
@@ -254,7 +263,9 @@ async function load(forced) {
       }
     }
     restructureToFolderDiv(item, /*root*/true);
-  } else if(renderChoice.value=='pdf'){
+    let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
+    updateURL(exportUrlHtml, b);
+} else if(renderChoice.value=='pdf'){
     mdpdf.style.display = 'block';
     exportUrl = exportUrlPdf;
     if(!mdpdf.src || pdfmdihtml != mdihtml){
