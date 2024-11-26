@@ -1,5 +1,9 @@
 ///////////////////////////
-// Interface (to both module & window)
+// Interface
+
+
+
+// Export to both module & window
 export {toPdf, setProduction};
 _.assign(window, {toPdf, setProduction});
 
