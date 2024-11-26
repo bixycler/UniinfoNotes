@@ -1,3 +1,57 @@
+
+/** Parse an HTML-escaped string into JSON
+ * @param escjson : string -- The HTML-escaped string of JSON
+ * @returns {any} The JSON (Object, Array, string, boolean, etc.)
+ */
+function parseEscapedJson(escjson){
+    var parser = new DOMParser;
+    var dom = parser.parseFromString(
+        '<!DOCTYPE html><html><body>' + escjson + '</body></html>',
+        'text/html');
+    return JSON.parse(dom.body.textContent);
+}
+
+/** Pad this number with leading zeros (0).
+ * @param places : integer -- The minimal number of digits after padding
+ * @return {string} The padded string
+ */
+Number.prototype.pad = function(places) {
+    return String(this).padStart(places, '0');
+}
+
+/** Export Date to String in a simplified version of {@link https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html|SimpleDateFormat}:
+    - yyyy  : Full year (always 4 digits); Week year (YYYY) is unsupported
+    - MM    : Month in year (always 2 digits)
+    - dd    : Day in month (always 2 digits); Day in year (DD) is unsupported
+    - HH    : Hour in day (always 2 digits); Hour in am/pm (hh,KK) is unsupported
+    - mm    : Minute in hour (always 2 digits)
+    - ss    : Second in minute (always 2 digits)
+    - SSS   : Millisecond (always 3 digits)
+    @param format : string -- The format in SimpleDateFormat
+    @return {string} The formated string
+ */
+Date.prototype.toFormatedString = function(format='yyyy-MM-dd HH:mm:ss.SSS') {
+    return format.
+        replace('yyyy',this.getFullYear().pad(4)).
+        replace('MM',(this.getMonth()+1).pad(2)).
+        replace('dd',this.getDate().pad(2)).
+        replace('HH',this.getHours().pad(2)).
+        replace('mm',this.getMinutes().pad(2)).
+        replace('ss',this.getSeconds().pad(2)).
+        replace('SSS',this.getMilliseconds().pad(3));
+}
+
+/** Add/subtract days from this Date object
+ *
+ * @param days : int -- Number of day(s) to be added, negative number for subtraction
+ * @return {Date} The new Date
+ */
+Date.prototype.addDays = function(days) {
+    var that = new Date(this);
+    that.setDate(this.getDate() + days);
+    return that;
+}
+
 function eventPromise(dom, eventName) {
   return new Promise(resolve =>{
     dom.addEventListener(eventName, event =>{ resolve(event); }, {once:true})
