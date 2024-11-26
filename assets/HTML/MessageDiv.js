@@ -15,38 +15,18 @@ class MessageDiv extends HTMLElement {
     shadowRoot.appendChild(this.template.content.cloneNode(true));
     this._internals = this.attachInternals();
 
-    this.isFolded = shadowRoot.getElementById("isFolded");
-    this.sideControl = shadowRoot.getElementById("sideControl");
-      this.arrow = shadowRoot.getElementById("arrow");
-      this.stemLine = shadowRoot.getElementById("stemLine");
-    this.contents = shadowRoot.getElementById("contents");
-      this.heading = shadowRoot.getElementById("heading");
-      this.unfoldable = shadowRoot.getElementById("unfoldable");
-      this.foldable = shadowRoot.getElementById("foldable");
-    //console.debug('FolderDiv.constructor()',this.contents);
+    this.message = shadowRoot.getElementById("message");
+    this.messageSummary = shadowRoot.getElementById("messageSummary");
+    this.messageDetails = shadowRoot.getElementById("messageDetails");
   }
   connectedCallback() {
-    this.unfoldable.addEventListener('slotchange', (e)=>{
-      // detected and moved heading from unfoldable slot to heading slot
-      let hdiv = this.heading.assignedElements()[0];
-      if(hdiv){ this.setType('heading'); }
-      let udiv = this.unfoldable.assignedElements()[0];
-      if(!udiv){ return; }
-      let h = udiv.children[0];
-      if(!hdiv && h && h.tagName.startsWith('H')){
-        udiv.before(h);
-        h.setAttribute('slot','heading');
-        this.setType('heading');
-        //console.debug('moved',h);
-      }
-    });
   }
   disconnectedCallback() {
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
     if(name == "folded"){
-      this.isFolded.setAttribute("checked", newValue);
+      this.message.setAttribute("open", newValue);
     }
   }
 
