@@ -116,6 +116,7 @@ const mdpdf = document.getElementById("mdpdf");
 const mdimg = document.getElementById("mdimg");
 const renderChoice = document.getElementById("renderChoice");
 const doNormalizeMarkdown = document.getElementById("doNormalizeMarkdown");
+const optAsMdHtml = document.getElementById("optAsMdHtml");
 const optAsHtml = document.getElementById("optAsHtml");
 const optAsPdf = document.getElementById("optAsPdf");
 const optAsPng = document.getElementById("optAsPng");
@@ -127,6 +128,7 @@ const reloadInterval = document.getElementById("reloadInterval");
 const butToggleWatching = document.getElementById("butToggleWatching");
 const butExport = document.getElementById("butExport");
 const exportUrlMd = document.getElementById("exportUrlMd");
+const exportUrlMdHtml = document.getElementById("exportUrlMdHtml");
 const exportUrlHtml = document.getElementById("exportUrlHtml");
 const exportUrlPdf = document.getElementById("exportUrlPdf");
 const exportUrlImg = document.getElementById("exportUrlImg");
@@ -172,6 +174,7 @@ async function load(forced) {
     let fnb = fn.split('/').at(-1).split('?').at(0); //base name
     exportUrlMd.download = fnb
     fnb = fnb.replace(/\.\w+$/, ''); 
+    exportUrlMdHtml.download = fnb + '.html';
     exportUrlHtml.download = fnb + '.html';
     exportUrlPdf.download = fnb + '.pdf';
     exportUrlImg.download = fnb + '.png';
@@ -241,6 +244,7 @@ async function load(forced) {
     updateURL(exportUrlHtml, b);
   }
 
+  mdrender.style.display = 'none';
   mdhtml.style.display = 'none';
   mdpdf.style.display = 'none';
   mdimg.style.display = 'none';

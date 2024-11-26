@@ -25,6 +25,7 @@
   <br>
   <label for="renderChoice">Render as</label>
   <select id="renderChoice" name="renderChoice" value="object">
+    <option value="mdhtml" id="optAsMdHtml">Rendered Markdown</option>
     <option value="html" id="optAsHtml">HTML Page</option>
     <option value="pdf" id="optAsPdf">PDF Document</option>
     <option value="image" id="optAsPng">Raster Image</option>
@@ -36,6 +37,7 @@
   <button id="butToggleWatching" name="watch" value="">Start Watching</button>
   <button id="butExport">Export</button>
   <a id="exportUrlMd" href="" download="temp.md" style="display:none">Markdown exported file</a>
+  <a id="exportUrlMdHtml" href="" download="temp.html" style="display:none">Rendered Markdown exported file</a>
   <a id="exportUrlHtml" href="" download="temp.html" style="display:none">HTML exported file</a>
   <a id="exportUrlPdf" href="" download="temp.pdf" style="display:none">PDF exported file</a>
   <a id="exportUrlImg" href="" download="temp.png" style="display:none">PNG/SVG exported file</a>
@@ -52,6 +54,7 @@
 </details>
 
 <div id="content" style="border:1px; border-style:solid; border-color:green;">
+  <div id="mdrender" style="padding: 1em 1em 1em 1em;"></div>
   <div id="mdhtml" style="padding: 1em 1em 1em 1em;"></div>
   <embed id="mdpdf" src="" width="100%" height="100%" type="application/pdf"/>
   <img id="mdimg" src=""/>
