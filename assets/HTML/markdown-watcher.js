@@ -214,14 +214,14 @@ async function load(forced) {
     exportUrl = exportUrlPdf;
     if(!mdpdf.src || pdfmdihtml != mdihtml){
       console.log('PDF loading...');
-      message.showMessage('PDF loading...');
+      message.show('PDF loading...');
       mdpdf.style.display = 'block';
       let b = await toPdf(mdrender.innerHTML + markdown_style.outerHTML);
       if(b){ pdfblob = b;
         updateURL(exportUrlPdf, pdfblob);
         mdpdf.src = exportUrl.href;
         mdpdf.innerHTML = '';
-        message.clearMessage();
+        message.clear();
       }
       pdfmdihtml = mdihtml;
     }

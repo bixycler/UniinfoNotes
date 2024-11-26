@@ -213,9 +213,9 @@ function normalizeMardown(md,
     msg['Local links'] = localLinks;
   }
   if(Object.keys(msg).length){
-    message.showError('<pre>'+JSON.stringify(msg, null, '  ')+'</pre>', 'Markdown converting issues')
+    message.error('<pre>'+JSON.stringify(msg, null, '  ')+'</pre>', 'Markdown converting issues')
   }else{
-    message.clearMessage();
+    message.clear();
   }
 
   // return the nomalized markdown

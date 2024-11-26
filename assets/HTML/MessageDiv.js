@@ -1,5 +1,5 @@
 const MessageDivTemplate = `
-  <details id="message"><summary id="messageSummary"></summary>
+  <details id="message" open><summary id="messageSummary"></summary>
     <div id="messageDetails"></div>
   </details>
 `;
@@ -34,13 +34,13 @@ class MessageDiv extends HTMLElement {
     }
   }
 
-  showError(msg, heading = null){
+  error(msg, heading = null){
     if(heading===null){ heading = this.getAttribute('heading'); }
     if(typeof(msg)==='string'){ heading += ': '; }else{ msg += '!'; }
-    this.showMessage(heading, msg, 'brown');
+    this.show(heading, msg, 'brown');
   }
 
-  showMessage(heading, msg, color='green'){
+  show(heading, msg, color='green'){
     this.messageSummary.innerHTML = heading;
     this.messageDetails.innerHTML = msg;
     this.message.style.color = color;
@@ -48,7 +48,7 @@ class MessageDiv extends HTMLElement {
     //this.message.setAttribute('open',true);
   }
 
-  clearMessage(){
+  clear(){
     this.messageSummary.innerHTML = '';
     this.messageDetails.innerHTML = '';
     this.message.style.display = 'none';

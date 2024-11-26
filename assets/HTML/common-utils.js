@@ -38,11 +38,11 @@ async function fetchFile(url, req, msg='Fetch'){
   //console.debug(`${msg}(${url})`,res);
   if (!res.ok) {
     //console.warn(msg+' error:',res);
-    message.showError(res.statusText, msg+' error');
+    message.error(res.statusText, msg+' error');
     message.removeAttribute('folded');
     return;
   } else {
-    message.clearMessage();
+    message.clear();
   }
   let blob = await res.blob();
   console.debug(`${msg}(${url})`, blob);

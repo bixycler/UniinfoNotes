@@ -585,7 +585,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- `MessageDiv.js`
 				  The message component storing and showing message on the page
 					- This is shared by many functions, even in ((674571bb-ea17-4635-9158-d5c81381ab86)).
-					- TODO  Encapsulate separate functions `showMessage()`, `showError()`, `clearMessage()` into an object.
+					- TODO  Encapsulate separate functions `showMessage()`, `error()`, `clear()` into an object.
 				- `common-utils.js`
 				  id:: 674571bb-ea17-4635-9158-d5c81381ab86
 				- `DocRaptor.js`
