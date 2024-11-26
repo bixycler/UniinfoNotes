@@ -1,13 +1,15 @@
 
-function showError(msg, heading = 'Markdown loading error'){
-  if(typeof(msg)==='string'){ heading += ': '; }else{ msg += '!'; }
-  showMessage(heading, msg, 'brown');
+
 
   /* Chrome console error messages: GET ... {net:ERR_*, 404 (Not Found), ...}
   - Issue: those messages are browser's native and **cannot be controlled** by javascript (even they are properly catched/handlled in the script).
   - Chorme's solution: console config > check "Hide network"
   - Note that `mdimg.src = freq` is actually a GET request in disguise!
   */
+
+function showError(msg, heading = 'Markdown loading error'){
+  if(typeof(msg)==='string'){ heading += ': '; }else{ msg += '!'; }
+  showMessage(heading, msg, 'brown');
 }
 
 function showMessage(heading, msg, color='green'){
