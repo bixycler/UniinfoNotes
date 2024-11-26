@@ -1,7 +1,7 @@
 
 /** Convert from Logseq markdown to normal Markdown */
   var mapUuid = {}, noUuid = {}, circularRefs = {}, localLinks = {};
-  
+
 const NBSP = '\u00A0', NNBSP = '\u202F', ZWSP = '\u200B', ZWNBSP = '\uFEFF';
 const CBMarker = ZWNBSP;
 const LooseListSpace = NBSP;
