@@ -5,7 +5,7 @@ const MessageDivTemplate = `
 `;
 
 class MessageDiv extends HTMLElement {
-  static observedAttributes = ["hidden", "folded"];
+  static observedAttributes = ['heading', "hidden", "folded"];
 
   constructor() {
     super();
@@ -34,7 +34,8 @@ class MessageDiv extends HTMLElement {
     }
   }
 
-  showError(msg, heading = 'Markdown loading error'){
+  showError(msg, heading = null){
+    if(heading===null){ heading = this.getAttribute('heading'); }
     if(typeof(msg)==='string'){ heading += ': '; }else{ msg += '!'; }
     this.showMessage(heading, msg, 'brown');
   }
