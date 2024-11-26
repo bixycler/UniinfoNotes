@@ -582,7 +582,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  CLOCK: [2024-11-26 Tue 10:35:48]
 			  CLOCK: [2024-11-26 Tue 10:35:51]
 			  :END:
-				- 👍️ Custom elements like `FolderDiv.js` and `MessageDiv.js` can be used as modules without any modification! 🥰
+				- 👍️ Custom element libs like `FolderDiv.js` and `MessageDiv.js` can be used as modules without any modification! 🥰
 					- ```html
 					  <script type="module" src="MessageDiv.js"></script>
 					  <script type="module" src="FolderDiv.js"></script>

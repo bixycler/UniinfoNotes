@@ -48,6 +48,7 @@ var FolderDivJS = null;
   let blob = await fetchFile('FolderDiv.js', {mode: "no-cors"});
   FolderDivJS = document.createElement('script');
   FolderDivJS.setAttribute('id', 'FolderDivJS');
+  FolderDivJS.setAttribute('type', 'module');
   FolderDivJS.innerHTML = await blob.text();
 }());
 
@@ -164,7 +165,7 @@ async function load(forced) {
       return; // continue only if there's change in the Markdown HTML or in renderChoice
     }
   }else{
-    let b = new Blob([mdrender.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
+    let b = new Blob([mdrender.innerHTML, markdown_style.outerHTML], {type: 'text/html'});
     updateURL(exportUrlMdRender, b);
   }
 
