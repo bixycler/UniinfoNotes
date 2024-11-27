@@ -1240,7 +1240,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  CLOCK: [2024-11-27 Wed 15:27:18]
 	  :END:
 		- TODO reset, tái sinh, bắt đầu, 2 lần trải nghiệm "từ đầu"
-		-
+		- Sau mấy tuần "ăn cắp" giờ cty để làm [CreatZy shorthands](((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))) và [Logseq publish](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf))), mình "chốt" lại để làm trả nợ cty... bằng một commit: ((6735c7ac-17c8-4fea-8d4c-b76a942bc453)). Ngay cái "commit chốt" đó lại phát sinh ra một đống vấn đề.
+		  ⇒ Thì ra lại rơi vào cái bẫy "xong rồi"!
+		- Ôn lại không biết bao lần mình đã bị mắc cái bẫy "sắp tới nơi, sắp xong" này, cũng như bao lần mình nhận ra "chẳng bao giờ xong cả!", mình thấy cần phải reset lại cái thái độ cơ bản này, _thay vì hướng đích thì hãy **bắt đầu**_: ((67445065-15b2-475e-a704-78f140d487af))
 		- Mình đã trải nghiệm cái chết nhiều rồi, giờ “thêm một bước nữa” để trải nghiệm sự tái sinh, sự bắt đầu.
 			- “Tới đầu sao trăm thước, thêm một bước nữa thôi; Chết đi phần bản ngã, sống lại cả đất trời” ([fb](https://www.facebook.com/share/p/LYj7TBTB952hVzeN/))
 		- Lễ 20/11, em bán hoa xong thì 2 vợ chồng chạy xuống Vĩnh Kim gặp chị Diệu Sinh.
