@@ -207,7 +207,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- Let's restart from the way/attitude of looking at everything!
 						- Training the non-attached looking
 							- First, detach, keep distance until the mind returns to neutral attitude.
-							- Next, slowly approach the object
+							- Next, slowly approach the object while being aware of all mental reactions.
+							- Observe the reactions and connect them with the whole, reminding the whole with all aspects, all sides, all conflicting parts.
+							- Frequently back off for the holistic relations to emerge.
+							- In the training, all actions should be done automatically without
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
