@@ -205,6 +205,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- ![reset button](../assets/Will/story/2024-Oct/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
 						- [The destination is the horizon!](https://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
 						- Let's restart from the way/attitude of looking at everything!
+						- Training the non-attached looking
+							- First, detach, keep distance until the mind returns to neutral attitude.
+							- Next, slowly approach the object
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
