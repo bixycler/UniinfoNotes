@@ -1240,6 +1240,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  CLOCK: [2024-11-27 Wed 15:27:18]
 	  :END:
 		- TODO reset, tái sinh, bắt đầu, 2 lần trải nghiệm "từ đầu"
+		-
 		- Lễ 20/11, em bán hoa xong thì 2 vợ chồng chạy xuống Vĩnh Kim gặp chị Diệu Sinh.
 		  collapsed:: true
 			- Đêm Thứ 7 (23), ghé Mỹ Tho nghỉ, mình quán về dimentionality, thấy state/possibility space được "kéo sợi" ra thành sợi mảnh extension và khi cuộn lại thì cũng có lượng đúng bằng intension. Các vấn đề về dimensionality bỗng rõ ràng thông qua các **phép biến hình bảo toàn** bằng cách chia nhỏ (vi phân) rồi sắp xếp lại.

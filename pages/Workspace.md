@@ -210,7 +210,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 							- Next, slowly approach the object while being aware of all mental reactions.
 							- Observe the reactions and connect them with the whole, reminding the whole with all aspects, all sides, all conflicting parts.
 							- Frequently back off for the holistic relations to emerge.
-							- In the training, all actions should be done automatically without
+							- Remember to breathe!
+							- In the training, all actions should be done automatically without any intention.
+							- Training sessions should run alternately with actual working sessions.
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
