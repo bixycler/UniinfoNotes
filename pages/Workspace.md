@@ -19,11 +19,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
 				- DONE Refactor `opt/web/static` with `assets/HTML/`  & `docs/`
 				  :LOGBOOK:
 				  CLOCK: [2024-11-26 Tue 09:56:17]
 				  CLOCK: [2024-11-26 Tue 09:56:19]--[2024-11-26 Tue 11:02:02] =>  01:05:43
 				  :END:
+				- ((67454211-668f-40e0-b6b2-ee5e49c0a520))
 				- ...
 			- ------
 		-
@@ -199,8 +201,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- Due to the guise of life, we fall into the contradiction of continuously reaching (small) deaths in the hope of avoiding (big) death.
 						- Accepting death is no problem to me and i've spent my whole life to explore various types of death.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) the mind to _**start** the new journey!_
+					  id:: 67445065-15b2-475e-a704-78f140d487af
 						- ![reset button](../assets/Will/story/2024-Oct/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
 						- [The destination is the horizon!](https://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
+						- Let's restart from the way/attitude of looking at everything!
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
@@ -578,6 +582,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  CLOCK: [2024-11-26 Tue 09:55:22]--[2024-11-26 Tue 09:55:44] =>  00:00:22
 			  :END:
 			- DOING Refactor `markdown-watcher.js`
+			  id:: 67454211-668f-40e0-b6b2-ee5e49c0a520
 			  :LOGBOOK:
 			  CLOCK: [2024-11-26 Tue 10:35:48]
 			  CLOCK: [2024-11-26 Tue 10:35:51]

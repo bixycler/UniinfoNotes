@@ -1233,3 +1233,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- "Mở cơ" là mở hội, lập đàn cầu cơ theo nghĩa đen, nhưng nghĩa bóng ý là "mở thiên cơ ra" để độ chúng sanh 😃
 		- Những vòng tròn văn hoá và ngôn ngữ, đi ráp vòng quay trở lại nhưng "lợi hại hơn xưa", biến hoá khôn lường 😉
 		- "Cầu cơ" tiếng Anh là ouija, nhưng đọc là "wi-jơ", âm đầu "oui" [wi] thì theo Pháp, âm sau "ja" thì theo tiếng Đức 😃
+	- DOING The time to [reset](((67445065-15b2-475e-a704-78f140d487af)))
+	  id:: 6746d7ab-85cb-4705-8668-58e5abfe0754
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-11-27 Wed 15:27:18]
+	  :END:
+		-
