@@ -1240,6 +1240,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  CLOCK: [2024-11-27 Wed 15:27:18]
 	  :END:
 		- Lễ 20/11, em bán hoa xong thì 2 vợ chồng chạy xuống Vĩnh Kim gặp chị Diệu Sinh.
+		  collapsed:: true
 			- Đêm Thứ 7 (23), ghé Mỹ Tho nghỉ, mình quán về dimentionality, thấy state/possibility space được "kéo sợi" ra thành sợi mảnh extension và khi cuộn lại thì cũng có lượng đúng bằng intension. Các vấn đề về dimensionality bỗng rõ ràng thông qua các **phép biến hình bảo toàn** bằng cách chia nhỏ (vi phân) rồi sắp xếp lại.
 			- Sáng Chủ Nhật (24), vào gặp chị đang nằm võng nghỉ trong nhà, còn anh và các đệ tử thì đang giác hơi trị bịnh cho mọi người.
-			- 2 vc mình vào trong hỏi chuyện đạo pháp, chị vẫn xổ thơ như thường lệ (như trên YouTube), và nhiều lần mình muốn hỏi mà không hỏi được. Thế là vợ phải quay sang mình nói "anh có gì muốn hỏi thì hỏi đi" để tạo tình huống mở lời cho mình
+			- 2 vc mình vào trong hỏi chuyện đạo pháp, chị vẫn xổ thơ như thường lệ (như trên YouTube), và nhiều lần mình muốn hỏi mà không hỏi được. Thế là vợ phải quay sang mình nói "anh có gì muốn hỏi thì hỏi đi" để tạo tình huống mở lời cho mình.
+			- Mình hỏi về những vướng mắc của cái "làm quên mọi thứ" thì chị lại cho rằng đó là "định" là tốt.
+			- Vợ cũng hỏi sâu hơn về việc lúc quán thân thì thấy rõ đang bệnh bên trong mà khi làm thì ko còn thấy. Chị bảo "chết thì bỏ!"
+			- Cuối cùng chị chốt bằng lý "buông xả" rồi đứng lên. Mình nhận ra rằng mình đang chưa buông được những câu hỏi này, nên nương theo lời nhắc nhở đó, mình cũng buông ra. Vợ cũng bảo với mình mua ủng hộ đồ chay rồi về.
+		- Hôm qua, sếp Đạt lại kêu lên gặp. Mình tưởng có gì khác, nhưng gặp thì vẫn vậy, vẫn muốn mình làm lẹ, vẫn kêu "nghỉ bên kia đi để tập trung làm cho anh", v.v.
+		- Sáng nay, mình dậy trễ... từ sâu bên trong không muốn dậy. Lên cty ngủ trưa 1 tiếng, rồi ngồi thiền lơ lửng giữa mơ và tỉnh thêm 2 tiếng nữa. Trong mơ mình thấy những màn hình kéo lên kéo xuống và "chọn chương trình này"
