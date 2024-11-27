@@ -1239,6 +1239,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  :LOGBOOK:
 	  CLOCK: [2024-11-27 Wed 15:27:18]
 	  :END:
+		- TODO reset, tái sinh, bắt đầu, 2 lần trải nghiệm "từ đầu"
 		- Lễ 20/11, em bán hoa xong thì 2 vợ chồng chạy xuống Vĩnh Kim gặp chị Diệu Sinh.
 		  collapsed:: true
 			- Đêm Thứ 7 (23), ghé Mỹ Tho nghỉ, mình quán về dimentionality, thấy state/possibility space được "kéo sợi" ra thành sợi mảnh extension và khi cuộn lại thì cũng có lượng đúng bằng intension. Các vấn đề về dimensionality bỗng rõ ràng thông qua các **phép biến hình bảo toàn** bằng cách chia nhỏ (vi phân) rồi sắp xếp lại.
@@ -1250,4 +1251,4 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Hôm qua, sếp Đạt lại kêu lên gặp. Mình tưởng có gì khác, nhưng gặp thì vẫn vậy, vẫn muốn mình làm lẹ, vẫn kêu "nghỉ bên kia đi để tập trung làm cho anh", v.v.
 		- Sáng nay, mình dậy trễ... từ sâu bên trong không muốn dậy. Lên cty ngủ trưa 1 tiếng, rồi ngồi thiền lơ lửng giữa mơ và tỉnh thêm 2 tiếng nữa. Trong mơ mình thấy những màn hình kéo lên kéo xuống và "chọn chương trình này" để mơ y như đang làm việc trên máy tính vậy. Trong mơ, mình ôn lại nhiều thứ trong đời một cách rất khái quát. Lần này mình vào ra cảnh mơ như ra vào một căn nhà hoang không có cửa, trong mơ cũng nghe thấy tiếng mọi người bên ngoài và ra ngoài vẫn thấy cảnh mơ, nói chung là hầu như không còn phân biệt nữa.
 		- Xuất thiền, mở mắt, quan sát mọi thứ trước mặt, nghĩ "giờ mình phải đụng vào chúng mà không để bị vướng mắc, phải bắt đầu từ đầu!" Thế là mình nhìn từng thứ và cảm nhận những ý muốn đối với nó, quán những cảm giác đó rồi buông xuống, một bài tập hết sức cơ bản.
-		-
+		- Sau khi quan sát hết lượt, mình quyết định ghi lại những dòng nhật ký này.
