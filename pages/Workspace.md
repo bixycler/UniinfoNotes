@@ -198,8 +198,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- The target is the hidden boss, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the underlying driving force.
 						- **Revealing the hidden boss** means **detaching the self**.
 							- “Detached self = selfless”
-							- When a boss is brought out to the light, to be examined like anyone else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
-							- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long overpowering of the boss.
+							- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
+							- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
 					- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just _the **beginning** of a new circle_, either at the same level or at “higher” level.
 					- While the true ending, the true finish is the death, either bodily or mentally, we always try to reach the end of some “hard work” wishing to have an easier living, either on Earth or on Heaven, or at Nibbana (Nirvana). That's the basic illusion of both life & death.
 						- The urge to finish is a manifestation of _the urge to die_ in the guise of life, either as an orgasm or an explosion.
