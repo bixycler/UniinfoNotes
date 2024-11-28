@@ -1266,3 +1266,4 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Out of nothing:** This phrase is also quite common, but slightly less so than "out of thin air."
 				- **Ex nihilo:** This Latin phrase is less common in everyday conversation, but it's often used in philosophical and academic contexts.
 		- Chat with Gemini: [Latin for "Out of Thin Air"](https://gemini.google.com/app/182417258903bcd9)
+	-
