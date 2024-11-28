@@ -893,7 +893,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6675369a-1d13-48c5-8a77-d588aa8b59b8
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
-	- DOING ## resource
+	- ## resource
 	  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
 	  collapsed:: true
 	  :LOGBOOK:

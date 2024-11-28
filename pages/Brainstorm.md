@@ -674,13 +674,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- linear thread is smooth by def., only smooth *on circle* is equilibrium
 			- like [phase flower of interunion](https://www.geogebra.org/m/etenmkub)
-	- ((669f3107-a33a-4b26-a636-6da62fa5520e)) constraint
+	- WAIT ((669f3107-a33a-4b26-a636-6da62fa5520e)) constraint
 	  id:: 669f243f-41b7-4274-b954-9824ec3ac33b
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-07-23 Tue 10:44:58]
 	  CLOCK: [2024-07-23 Tue 10:45:36]--[2024-07-23 Tue 11:25:48] =>  00:40:12
-	  CLOCK: [2024-07-23 Tue 11:28:46]--[2024-07-23 Tue 11:29:27] =>  00:00:41
 	  :END:
 		- Like experience, resource is collected from the past into a form to shape the future.
 		- All maps are distribution of resources which are formed inside selves.
@@ -924,12 +923,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- The obop believes in the parts, believes that they can be self-sustained without attention, so it don't hold on to the parts and can release them.
 		- The parts believe in the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) via its representative, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = the ((66ab7477-c060-4d07-ab13-bc3d11246854)) = the zero = the vacant, believe that the whole will do the best to preserve the parts. With this belief, a part can release its self to return resource to the whole.
 		- Via the whole, the parts can believe in each other.
-	- DOING ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) & ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) : intent - content - extent ~ round - amount - arrow  ~ memory/space - resource/time - remainder/phase
+	- WAIT ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) & ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) : intent - content - extent ~ round - amount - arrow  ~ memory/space - resource/time - remainder/phase
 	  id:: 66e3c1b8-eb83-47d6-b71e-193549b47f93
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-09-13 Fri 11:06:08]
-	  CLOCK: [2024-09-13 Fri 11:06:14]
 	  :END:
 		- FIFO queue memory
 			- the last throughput (now) overwrites the first memory (past).
@@ -1266,4 +1264,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Out of nothing:** This phrase is also quite common, but slightly less so than "out of thin air."
 				- **Ex nihilo:** This Latin phrase is less common in everyday conversation, but it's often used in philosophical and academic contexts.
 		- Chat with Gemini: [Latin for "Out of Thin Air"](https://gemini.google.com/app/182417258903bcd9)
-	-
+	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the [halting problem](https://en.wikipedia.org/wiki/Halting_problem) = ((66f3e588-9094-45af-9dff-2225c3ac39ab)) = unlimited refinability = intrinsic openness of the ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
+	  collapsed:: true
+		- The “negation” in Turing's pr
