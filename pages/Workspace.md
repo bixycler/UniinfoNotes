@@ -195,7 +195,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- “Complete, finished, done, target reached, ...” are just illusions. Nothing is actually complete, any ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is just a helix or spiral which is projected onto the plane orthogonal to the direction of change/evolution.
 					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
 						- The inner target of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
-						- The target is the hidden boss
+						- The target is the hidden boss, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the underlying driving force.
+						- **Revealing the hidden boss** means **detaching the self**.
+							- “Detached self = selfless”
+							- When a boss is brought out to the light, to be examined like anyone else, it loses its (absolute) privilege, and its influence is restore
 					- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just _the **beginning** of a new circle_, either at the same level or at “higher” level.
 					- While the true ending, the true finish is the death, either bodily or mentally, we always try to reach the end of some “hard work” wishing to have an easier living, either on Earth or on Heaven, or at Nibbana (Nirvana). That's the basic illusion of both life & death.
 						- The urge to finish is a manifestation of _the urge to die_ in the guise of life, either as an orgasm or an explosion.
