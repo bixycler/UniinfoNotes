@@ -82,6 +82,7 @@ function setProduction(pro=true){
     pro = confirm('⚠️ Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?');
   }
   DocRaptorParams['doc[test]'] = !pro;
+  console.debug('setProduction(): pro=',pro,'DocRaptorParams:',DocRaptorParams)
 }
 
 async function toPdf(html) { // use URLSearchParams
