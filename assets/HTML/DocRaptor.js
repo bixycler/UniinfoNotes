@@ -2,15 +2,9 @@
 // Interface
 
 
-
 // Export to both module & globalThis
-if (typeof import.meta !== 'undefined' && import.meta.url) {
-  console.debug('DocRator.js is loaded as a module: import =', import.meta);
-}else{
-  console.log('DocRator.js is loaded as a non-module script.');
-}
-  export {toPdf, setProduction};
-  _.assign(globalThis, {toPdf, setProduction});
+export {toPdf, setProduction};
+_.assign(globalThis, {toPdf, setProduction});
 
 ///////////////////////////
 // Implementation
