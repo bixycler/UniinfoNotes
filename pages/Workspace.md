@@ -19,6 +19,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ((6747eac1-f683-4ed1-9b06-34fd10103c0c))
 				- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
 				- DONE Refactor `opt/web/static` with `assets/HTML/`  & `docs/`
 				  :LOGBOOK:

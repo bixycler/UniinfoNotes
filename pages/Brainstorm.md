@@ -1264,8 +1264,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Out of nothing:** This phrase is also quite common, but slightly less so than "out of thin air."
 				- **Ex nihilo:** This Latin phrase is less common in everyday conversation, but it's often used in philosophical and academic contexts.
 		- Chat with Gemini: [Latin for "Out of Thin Air"](https://gemini.google.com/app/182417258903bcd9)
-	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the [halting problem](https://en.wikipedia.org/wiki/Halting_problem) = circle-arrow complementarity = ((66f3e588-9094-45af-9dff-2225c3ac39ab)) = unlimited refinability = intrinsic openness of the ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
+	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the [halting problem](https://en.wikipedia.org/wiki/Halting_problem) = [liar paradox](https://en.wikipedia.org/wiki/Liar_paradox) = circle-arrow complementarity = ((66f3e588-9094-45af-9dff-2225c3ac39ab)) = unlimited refinability = intrinsic openness of the ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
+	  id:: 6747eac1-f683-4ed1-9b06-34fd10103c0c
 	  collapsed:: true
 		- circle = completeness = totality <> arrow = consistency = partiality
 		  The ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is contradictory, the consistent is partial.
-		- The “negation” or “opposition” of the “pathological program” p
+		- The “negation” or “opposition” of the “pathological program” `P` in the halting problem = the “lie” of the “liar” = the arrow that differentiate 1 from 0 = the knife that cut the circle open
+		-
