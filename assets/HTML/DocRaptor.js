@@ -84,7 +84,7 @@ export default function DocRaptor(){
 
   ///////////////////////////////////////////
   // Interface
-  const interface = {
+  const self = {
     get name(){
       return params.get('doc[name]');
     },
@@ -102,7 +102,7 @@ export default function DocRaptor(){
     },
     toPdf
   };
-  return interface;
+  return self;
 }
 
 // Also export to globalThis
