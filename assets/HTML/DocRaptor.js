@@ -1,13 +1,3 @@
-///////////////////////////
-// Interface
-
-
-// Export to both module & globalThis
-export {toPdf, setProduction};
-_.assign(globalThis, {toPdf, setProduction});
-
-///////////////////////////
-// Implementation
 
 const DocRaptorApiKey = "m7Dhrn_AsezV94C3VL-B";
 const DocRaptorUrl = `https://api.docraptor.com/docs`;
@@ -76,24 +66,32 @@ const DocRaptorStyle = `
 </style>
 `;
 
-function setProduction(pro=true){
-  if(pro){
-    pro = confirm('[!] Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?');
+
+
+export default function DocRaptor(){
+  const params = new URLSearchParams(structuredClone(DocRaptorParams));
+  const request = structuredClone(Request); {
+    request.body = params;
   }
-  DocRaptorParams['doc[test]'] = !pro;
-  console.debug('setProduction(): pro=',pro,'DocRaptorParams:',DocRaptorParams)
+  const setProduction = function(pro=true){
+    if(pro){
+      pro = confirm('[!] Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?');
+    }
+    params.set('doc[test]', !pro);
+  }
+  const toPdf = async function(html) { // use URLSearchParams
+    //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
+    params.append("doc[document_content]", html + DocRaptorStyle);
+
+    let blob = await fetchFile(DocRaptorUrl, request, 'PDF loading');
+    console.debug('toPdf() fetch',params,blob);
+    return blob;
+  }
+
+  ///////////////////////////////////////////
+  // Interface
+  return {toPdf, setProduction}
 }
 
-async function toPdf(html) { // use URLSearchParams
-  let params = new URLSearchParams(structuredClone(DocRaptorParams));
-  //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
-  params.append("doc[document_content]", html + DocRaptorStyle);
-  let req = structuredClone(Request);
-    req.body = params;
-
-  let blob = await fetchFile(DocRaptorUrl, req, 'PDF loading');
-  console.debug('toPdf() fetch',params,blob);
-  return blob;
-}
-
-
+// Also export to globalThis
+_.assign(globalThis, {DocRaptor});
