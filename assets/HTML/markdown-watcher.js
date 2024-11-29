@@ -50,6 +50,7 @@ var FolderDivJS = null;
 }());
 
 // DocRaptor
+let pdf = DocRaptor();
 
 // modern-screenshot
 const domto = window.modernScreenshot;
@@ -125,7 +126,7 @@ async function load(forced) {
     exportUrlHtml.download = fnb + '.html';
     exportUrlPdf.download = fnb + '.pdf';
     exportUrlImg.download = fnb + '.png';
-    //DocRaptorParams['doc[name]'] = DocRaptorParams['doc[test]'] ? '[t] '+fnb : fnb + '<<<<<<<< [Production]';
+    pdf.name = pdf.production ? fnb + '<<<<<<<< [Production]' : '[t] '+fnb;
   }
 
   // loaf mdf tagged with timestamp
@@ -219,7 +220,7 @@ async function load(forced) {
       console.log('PDF loading...');
       message.show('PDF loading...');
       mdpdf.style.display = 'block';
-      let b = await toPdf(mdrender.innerHTML + markdown_style.outerHTML);
+      let b = await pdf.toPdf(mdrender.innerHTML + markdown_style.outerHTML);
       if(b){ pdfblob = b;
         updateURL(exportUrlPdf, pdfblob);
         mdpdf.src = exportUrl.href;

@@ -87,13 +87,13 @@ export default function DocRaptor(){
   const interface = {
     get name(){
       return params.get('doc[name]');
-    }
+    },
     set name(documentName){
       params.set('doc[name]', documentName);
-    }
+    },
     get production(){
       return !params.get('doc[test]');
-    }
+    },
     set production(pro){
       if(pro){
         pro = confirm('[!] Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?');
@@ -102,7 +102,7 @@ export default function DocRaptor(){
     },
     toPdf
   };
-return interface;
+  return interface;
 }
 
 // Also export to globalThis
