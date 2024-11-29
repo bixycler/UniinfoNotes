@@ -50,7 +50,7 @@ var FolderDivJS = null;
 }());
 
 // DocRaptor
-let pdf = DocRaptor();
+let pdf = null;
 
 // modern-screenshot
 const domto = window.modernScreenshot;
@@ -109,6 +109,7 @@ let exportUrl = exportUrlMd;
 /** The "god function" */
 async function load(forced) {
   let fn = mdf.value.trim();
+  if(!pdf){ pdf = await DocRaptor(); }
 
   // update title & URLs
   document.title = (fn ? fn : 'Markdown') + ' ' + butToggleWatching.value;

@@ -85,6 +85,7 @@ export default function DocRaptor(){
   ///////////////////////////////////////////
   // Interface
   const self = {
+    // Fields
     get name(){
       return params.get('doc[name]');
     },
@@ -100,6 +101,7 @@ export default function DocRaptor(){
       }
       params.set('doc[test]', !pro);
     },
+    // Methods
     toPdf
   };
   return self;
