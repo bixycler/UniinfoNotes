@@ -17,8 +17,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
 				- ((673a17a7-0094-4f4d-bd79-525e7f803b50))
 				- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
-			- #### WIPs
-			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ((6747eac1-f683-4ed1-9b06-34fd10103c0c))
 				- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
 				- DONE Refactor `opt/web/static` with `assets/HTML/`  & `docs/`
@@ -26,6 +24,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				  CLOCK: [2024-11-26 Tue 09:56:17]
 				  CLOCK: [2024-11-26 Tue 09:56:19]--[2024-11-26 Tue 11:02:02] =>  01:05:43
 				  :END:
+			- #### WIPs
+			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ((67454211-668f-40e0-b6b2-ee5e49c0a520))
 				- ...
 			- ------
