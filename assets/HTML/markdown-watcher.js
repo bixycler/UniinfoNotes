@@ -126,7 +126,6 @@ async function load(forced) {
     exportUrlPdf.download = fnb + '.pdf';
     exportUrlImg.download = fnb + '.png';
     //DocRaptorParams['doc[name]'] = DocRaptorParams['doc[test]'] ? '[t] '+fnb : fnb + '<<<<<<<< [Production]';
-    setProduction();
   }
 
   // loaf mdf tagged with timestamp

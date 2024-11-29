@@ -73,12 +73,6 @@ export default function DocRaptor(){
   const request = structuredClone(Request); {
     request.body = params;
   }
-  const setProduction = function(pro=true){
-    if(pro){
-      pro = confirm('[!] Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?');
-    }
-    params.set('doc[test]', !pro);
-  }
   const toPdf = async function(html) { // use URLSearchParams
     //params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');
     params.append("doc[document_content]", html + DocRaptorStyle);
@@ -90,7 +84,25 @@ export default function DocRaptor(){
 
   ///////////////////////////////////////////
   // Interface
-  return {toPdf, setProduction}
+  const interface = {
+    get name(){
+      return params.get('doc[name]');
+    }
+    set name(documentName){
+      params.set('doc[name]', documentName);
+    }
+    get production(){
+      return !params.get('doc[test]');
+    }
+    set production(pro){
+      if(pro){
+        pro = confirm('[!] Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?');
+      }
+      params.set('doc[test]', !pro);
+    },
+    toPdf
+  };
+return interface;
 }
 
 // Also export to globalThis
