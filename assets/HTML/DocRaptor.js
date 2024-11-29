@@ -3,9 +3,9 @@
 
 
 
-// Export to both module & window
+// Export to both module & globalThis
 export {toPdf, setProduction};
-_.assign(window, {toPdf, setProduction});
+_.assign(globalThis, {toPdf, setProduction});
 
 ///////////////////////////
 // Implementation
