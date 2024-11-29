@@ -4,7 +4,8 @@
 
 
 // Export to both module & globalThis
-export {toPdf, setProduction};
+console.debug('this=',this)
+//export {toPdf, setProduction};
 _.assign(globalThis, {toPdf, setProduction});
 
 ///////////////////////////
