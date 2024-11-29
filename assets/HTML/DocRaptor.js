@@ -78,7 +78,7 @@ const DocRaptorStyle = `
 
 function setProduction(pro=true){
   if(pro){
-    pro = confirm('⚠️ Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?');
+    pro = confirm('[!] Attempting to use PRODUCTION version of DocRaptor which may cost money!\nDo you agree?');
   }
   DocRaptorParams['doc[test]'] = !pro;
   console.debug('setProduction(): pro=',pro,'DocRaptorParams:',DocRaptorParams)
