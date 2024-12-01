@@ -980,6 +980,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  ⇒ The world itself is in turn just the combination of all these representatives!
 				- The _Mandelbrot set_ (world) is [a map](https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Julia_Mandelbrot_Relationship.png) of _connected Julia sets_ (representatives).
 					- ![Ageev_5X_circle_graph.svg.png](../assets/Uniinfo/Unithread/Julia_Mandelbrot_Relationship.png)
+					- Video explaining the correlation between Mandelbrot & Julia: 
+					  {{video https://youtu.be/vfteiiTfE0c}}
 				-
 	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
 	  collapsed:: true
