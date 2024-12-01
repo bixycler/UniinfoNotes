@@ -985,8 +985,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Interactive page: [webgl-mandelbrot](https://htmlpreview.github.io/?https://github.com/zbendefy/webgl-mandelbrot/blob/master/index.html) < [GitHub: zbendefy](https://github.com/zbendefy/webgl-mandelbrot)
 					- Video explaining the correlation between Mandelbrot & Julia: 
 					  {{video https://youtu.be/vfteiiTfE0c}}
-				- [Projective clock](https://www.geogebra.org/m/ek7snm8j) is a wall clock whose each “number” H is replaced by a miniature version of that clock with the hour hand pointing to the corresponding hour H.
-				- ![ProjectiveClock.png](../assets/Uniinfo/Unithread/ProjectiveClock.png)
+				- [Projective clock](https://www.geogebra.org/m/ek7snm8j) is a wall clock whose each “number” H is a form, i.e. a miniature version of the clock with the hand pointing to the corresponding hour H.
+					- ![ProjectiveClock.png](../assets/Uniinfo/Unithread/ProjectiveClock.png)
+					- The normal wall clock is just an abstract version of the projective clock, with the forms abstracted into numbers.
+					  ![ProjectiveClock-abstract.png](../assets/Uniinfo/Unithread/ProjectiveClock-abstract.png)
 	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
 	  collapsed:: true
 	  :LOGBOOK:
