@@ -985,11 +985,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Interactive page: [webgl-mandelbrot](https://htmlpreview.github.io/?https://github.com/zbendefy/webgl-mandelbrot/blob/master/index.html) < [GitHub: zbendefy](https://github.com/zbendefy/webgl-mandelbrot)
 					- Video explaining the correlation between Mandelbrot & Julia: 
 					  {{video https://youtu.be/vfteiiTfE0c}}
-				- [Projective clock](https://www.geogebra.org/m/ek7snm8j) is a wall clock whose each “number” H is a form, i.e. a miniature version of the clock with the hand pointing to the corresponding hour H.
+				- [Projective clock](https://www.geogebra.org/m/ek7snm8j) is a wall clock whose each “number” $H$ is a form, i.e. a miniature version of the clock with the hand pointing to the corresponding hour $H$.
 				  collapsed:: true
+					- The state of the clock at any time $t$ is represented by the form of the clock at that state.
+					  ⇒ The whole clock itself is just the state space of its own states.
 					- ![ProjectiveClock.png](../assets/Uniinfo/Unithread/ProjectiveClock.png)
 					- The normal wall clock is just an abstract version of the projective clock, with the forms abstracted into numbers.
 					  ![ProjectiveClock-abstract.png](../assets/Uniinfo/Unithread/ProjectiveClock-abstract.png)
+			- In other words, each form is a manifestation of the world in one aspect, e.g. circles, arrows, equals are just manifestations of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) where corresponding component is shown, magnified,
 	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
 	  collapsed:: true
 	  :LOGBOOK:
