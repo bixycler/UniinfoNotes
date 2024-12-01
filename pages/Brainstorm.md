@@ -944,12 +944,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-09-19 Thu 08:26:20]
 	  CLOCK: [2024-09-19 Thu 08:26:21]--[2024-10-14 Mon 18:24:56] =>  609:58:35
 	  :END:
-		- Reflection - Phản tỉnh: https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/
-		- The Universe is just a giant distorted kaleidoscope: https://www.facebook.com/share/p/PV7w5qtofEpAwszK/
-		- https://en.wikipedia.org/wiki/House_of_mirrors
-		- https://en.wikipedia.org/wiki/Holism
-		- Hoa Nghiêm Kinh: https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh
-		- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
+		- fb posts
+			- [Reflection - Phản tỉnh](https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/)
+			- [The Universe is just a giant distorted kaleidoscope](https://www.facebook.com/share/p/PV7w5qtofEpAwszK/)
+		- [House of mirrors](https://en.wikipedia.org/wiki/House_of_mirrors)
+		- [Holism](https://en.wikipedia.org/wiki/Holism)
+		- [Indra's net](https://en.wikipedia.org/wiki/Indra%27s_net) in [Avatamsaka Sutra](https://en.wikipedia.org/wiki/Avatamsaka_Sutra), [Hoa Nghiêm Kinh](https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh)
+			- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
 		- dependent origination: https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/
 			- So-le (staggered): https://www.facebook.com/share/p/35j9SSuqSJj76tWY/
 			- The tarpestry of life: https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/
@@ -957,11 +958,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- 糸：縦の糸はあなた、横の糸は私…
 			  collapsed:: true
 				- {{video https://youtu.be/VI8zQG-yMMI}}
-		- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
-		- new node created by projecting the instance back to the concept
-		- new link created by shortcutting the circle
-		- round = complete graph = space
-		- newborn = round (complete graph) -> learning = distort to fit = pruning unused edges
 		- ((665ca429-84e3-49ff-921e-c07d19cd99ba)) = projection of the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
 		  id:: 66d1545b-4783-4545-aa12-a2ffa400eed7
 		  collapsed:: true
@@ -993,6 +989,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The normal wall clock is just an abstract version of the projective clock, with the forms abstracted into numbers.
 					  ![ProjectiveClock-abstract.png](../assets/Uniinfo/Unithread/ProjectiveClock-abstract.png)
 			- In other words, each form is a manifestation of the world in one aspect, e.g. circles, arrows, equals are just manifestations of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) where the corresponding component is shown, magnified, and other components are hidden, minimized.
+		- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
+		- new node created by projecting the instance back to the concept
+		- new link created by shortcutting the circle
+		- round = complete graph = space
+		- newborn = round (complete graph) -> learning = distort to fit = pruning unused edges
 	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
 	  collapsed:: true
 	  :LOGBOOK:
