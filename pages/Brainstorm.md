@@ -986,6 +986,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Video explaining the correlation between Mandelbrot & Julia: 
 					  {{video https://youtu.be/vfteiiTfE0c}}
 				- [Projective clock](https://www.geogebra.org/m/ek7snm8j) is a wall clock whose each “number” H is a form, i.e. a miniature version of the clock with the hand pointing to the corresponding hour H.
+				  collapsed:: true
 					- ![ProjectiveClock.png](../assets/Uniinfo/Unithread/ProjectiveClock.png)
 					- The normal wall clock is just an abstract version of the projective clock, with the forms abstracted into numbers.
 					  ![ProjectiveClock-abstract.png](../assets/Uniinfo/Unithread/ProjectiveClock-abstract.png)
