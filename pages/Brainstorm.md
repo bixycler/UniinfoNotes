@@ -981,6 +981,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The _Mandelbrot set_ (world) is [a map](https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Julia_Mandelbrot_Relationship.png) of _connected Julia sets_ (representatives).
 					- ![Mandelbrot-map-of-Julia-sets.png](../assets/Uniinfo/Unithread/Mandelbrot-map-of-Julia-sets.png)
 					- ![Julia_Mandelbrot_Relationship.png](../assets/Uniinfo/Unithread/Julia_Mandelbrot_Relationship.png)
+					- Interactive page: [webgl-mandelbrot](https://htmlpreview.github.io/?https://github.com/zbendefy/webgl-mandelbrot/blob/master/index.html) < [GitHub: zbendefy](https://github.com/zbendefy/webgl-mandelbrot)
 					- Video explaining the correlation between Mandelbrot & Julia: 
 					  {{video https://youtu.be/vfteiiTfE0c}}
 				-
