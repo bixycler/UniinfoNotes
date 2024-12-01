@@ -979,6 +979,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Each form is a miniature version of the whole world which is distorted according to the position of the ((667272b8-88a8-4928-a22a-35035c9edf05)), thus effectively a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the world at that position.
 			  ⇒ The world itself is in turn just the combination of all these representatives!
 				- The _Mandelbrot set_ (world) is [a map](https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Julia_Mandelbrot_Relationship.png) of _connected Julia sets_ (representatives).
+				  collapsed:: true
 					- ![Mandelbrot-map-of-Julia-sets.png](../assets/Uniinfo/Unithread/Mandelbrot-map-of-Julia-sets.png)
 					- ![Julia_Mandelbrot_Relationship.png](../assets/Uniinfo/Unithread/Julia_Mandelbrot_Relationship.png)
 					- Interactive page: [webgl-mandelbrot](https://htmlpreview.github.io/?https://github.com/zbendefy/webgl-mandelbrot/blob/master/index.html) < [GitHub: zbendefy](https://github.com/zbendefy/webgl-mandelbrot)
