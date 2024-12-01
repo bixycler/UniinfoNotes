@@ -948,8 +948,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- fb posts
 			- [Reflection - Phản tỉnh](https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/)
 			- [The Universe is just a giant distorted kaleidoscope](https://www.facebook.com/share/p/PV7w5qtofEpAwszK/)
-		- [Indra's net](https://en.wikipedia.org/wiki/Indra%27s_net) in [Avatamsaka Sutra](https://en.wikipedia.org/wiki/Avatamsaka_Sutra), [Hoa Nghiêm Kinh](https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh), the non-dual Vedanta, i.e. [Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)
+		- [Indra's net](https://en.wikipedia.org/wiki/Indra%27s_net) in [Avatamsaka Sutra](https://en.wikipedia.org/wiki/Avatamsaka_Sutra), [Hoa Nghiêm Kinh](https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh)
 			- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
+		- [vivarta-vada](https://en.wikipedia.org/wiki/Vivartavada) & maya: the manifestation of Brahman/Ātman as different individual selves (jivatman) in the non-dual Vedanta, i.e. [Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)
 		- dependent origination: [mình mới ngộ ra ý nghĩa của một giấc mơ kỳ lạ 16 năm trước về chủ đề "Duyên hợp"](https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/)
 			- So-le (staggered): https://www.facebook.com/share/p/35j9SSuqSJj76tWY/
 			- The tarpestry of life: https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/
