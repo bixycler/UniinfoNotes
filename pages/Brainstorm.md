@@ -944,14 +944,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-09-19 Thu 08:26:20]
 	  CLOCK: [2024-09-19 Thu 08:26:21]--[2024-10-14 Mon 18:24:56] =>  609:58:35
 	  :END:
+		- [Holism](https://en.wikipedia.org/wiki/Holism), [Holographic Principle](https://en.wikipedia.org/wiki/Holographic_principle), [House of mirrors](https://en.wikipedia.org/wiki/House_of_mirrors)
 		- fb posts
 			- [Reflection - Phản tỉnh](https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/)
 			- [The Universe is just a giant distorted kaleidoscope](https://www.facebook.com/share/p/PV7w5qtofEpAwszK/)
-		- [House of mirrors](https://en.wikipedia.org/wiki/House_of_mirrors)
-		- [Holism](https://en.wikipedia.org/wiki/Holism)
 		- [Indra's net](https://en.wikipedia.org/wiki/Indra%27s_net) in [Avatamsaka Sutra](https://en.wikipedia.org/wiki/Avatamsaka_Sutra), [Hoa Nghiêm Kinh](https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh)
 			- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
-		- dependent origination: https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/
+		- dependent origination: [mình mới ngộ ra ý nghĩa của một giấc mơ kỳ lạ 16 năm trước về chủ đề "Duyên hợp"](https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/)
 			- So-le (staggered): https://www.facebook.com/share/p/35j9SSuqSJj76tWY/
 			- The tarpestry of life: https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/
 			- the mesh of horizonal & vertical threads is related to the ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
