@@ -992,7 +992,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ![ProjectiveClock.png](../assets/Uniinfo/Unithread/ProjectiveClock.png)
 					- The normal wall clock is just an abstract version of the projective clock, with the forms abstracted into numbers.
 					  ![ProjectiveClock-abstract.png](../assets/Uniinfo/Unithread/ProjectiveClock-abstract.png)
-			- In other words, each form is a manifestation of the world in one aspect, e.g. circles, arrows, equals are just manifestations of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) where corresponding component is shown, magnified,
+			- In other words, each form is a manifestation of the world in one aspect, e.g. circles, arrows, equals are just manifestations of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) where the corresponding component is shown, magnified, and other components are hidden, minimized.
 	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
 	  collapsed:: true
 	  :LOGBOOK:
