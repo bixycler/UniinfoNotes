@@ -976,7 +976,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The world of these projections is best illustrated as a [circle graph](https://en.wikipedia.org/wiki/Circle_graph), where the viewcones are clearly shown.
 			  collapsed:: true
 				- ![Ageev_5X_circle_graph.svg.png](../assets/Uniinfo/Unithread/Ageev_5X_circle_graph.svg.png)
-			- Each form is a miniature version of the whole world which is distorted
+			- Each form is a miniature version of the whole world which is distorted according to the position of the ((667272b8-88a8-4928-a22a-35035c9edf05)), thus effectively a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the world at that position.
+			  ⇒ The world itself is in turn just the combination of all these representatives!
+				- The _Mandelbrot set_ (world) is [a map](https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Julia_Mandelbrot_Relationship.png) of _connected Julia sets_ (representatives).
+					- ![Ageev_5X_circle_graph.svg.png](../assets/Uniinfo/Unithread/Julia_Mandelbrot_Relationship.png)
+				-
 	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
 	  collapsed:: true
 	  :LOGBOOK:
