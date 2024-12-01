@@ -937,7 +937,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- new distribution from a node to its branches updates weights of these branches.
 				- collective throughput at a node updates its mass.
 				- heuristic method: use global time to cut off all past parts of the whole memory
-	- Holographic = viên dung 圓融 perfect interfusion, interfusion = interpenetration 相入 = interconnection = interreflection = interdependence = fractal
+	- Holographic = interfusion (viên dung 圓融 perfect interfusion) = interpenetration 相入 = interconnection = interreflection = interdependence = fractal
 	  id:: 66eb7dae-2032-434b-9106-756d4aad7cdb
 	  collapsed:: true
 	  :LOGBOOK:
@@ -974,7 +974,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- touches ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) = 2 view cones touching by apexes
 				- apex to base = body to world = eye/pointer/current-state to space
 			- The world of these projections is best illustrated as a [circle graph](https://en.wikipedia.org/wiki/Circle_graph), where the viewcones are clearly shown.
+			  collapsed:: true
 				- ![Ageev_5X_circle_graph.svg.png](../assets/Uniinfo/Unithread/Ageev_5X_circle_graph.svg.png)
+			- Each form is a miniature version of the whole world which is distorted
 	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
 	  collapsed:: true
 	  :LOGBOOK:
