@@ -1285,7 +1285,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- These days, i'm meditating on the [**conservation of content**](((670cd7d1-8380-49db-a47c-6aa132256596))), from ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) to [condensation of the thin air](((6735b185-b053-4651-be76-f0c9032ce119))), ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), ... back to [holographic principle](((66eb7dae-2032-434b-9106-756d4aad7cdb))) and see clearly...
 			- how the conservation expresses in both pairs of add-subtract `±` and multiply-devide `⋇` (interunion)
 				- add-subtract `±` is the arrow in the circle
-				- multiply-devide `⋇`: Each variable $x$ divides the [bulk](((674d6061-7973-47b6-bb9d-a7a816137883))) into slices orthogonal to the dimension of $x$ axis, and indexes these slices by its values $x_0, x_1, x_2, ..., x_k$, i.e. $x_k$ is the spatial index. Then, $x$ also indexes the bulk in time by its current value $x = x_{t0}$, i.e. $x_t$ is the temporal index.
+				- multiply-divide `⋇`: Each variable $x$ divides the [bulk](((674d6061-7973-47b6-bb9d-a7a816137883))) into slices orthogonal to the dimension of $x$ axis, and indexes these slices by its values $x_0, x_1, x_2, ..., x_k$, i.e. $x_k$ is the spatial index. Then, $x$ also indexes the bulk in time by its current value $x = x_{t0}$, i.e. $x_t$ is the temporal index.
 				- the elusive nature of the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) as a bulk: 1 (dimensionless mass) = $1 × 1 × 1 × ... × 1$ (infinite dimensional volume)
 				  id:: 674d6061-7973-47b6-bb9d-a7a816137883
 			- how the change of the intension leads to motion in extensional world (spacetime);
