@@ -1264,10 +1264,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- fb posts:
 		  collapsed:: true
 			- [By the abyss](https://www.facebook.com/share/p/mj1nY6UArLUDEgMp/)
+			  collapsed:: true
 				- Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern
 				  ![Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg](../assets/Will/story/2024-Dec/Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg)
-				- Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern
-				  ![Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg](../assets/Will/story/2024-Dec/Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg)
+				- Preikestolen (Pulpit Rock)
+				  collapsed:: true
+				  ![preikestolen-pulpit-rock-fjord-sitting.jpg](../assets/Will/story/2024-Dec/preikestolen-pulpit-rock-fjord-sitting.jpg)
+					- Preikestolen aerial view
+					  ![Preikestolen_de_face.jpg](../assets/Will/story/2024-Dec/Preikestolen_de_face.jpg)
+					- Preikestolen topdown view
+					  ![Preikestolen_topdown.jpg](../assets/Will/story/2024-Dec/Preikestolen_topdown.jpg)
+				- 0.999999...
+				  ![0.999999....jpg](../assets/Will/story/2024-Dec/0.999999....jpg)
 			- [Touching the bottom and turning back up... there's a long way ahead!](https://www.facebook.com/share/p/LNAfUavxgwGXNWqK/)
 			- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/AqPNJzTTcQA48Qxr/)
 			- [Target is the horizon!](https://www.facebook.com/share/p/Nr5BqKGNDZZE8A6h/)
