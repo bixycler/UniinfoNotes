@@ -1291,7 +1291,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- how the change of the intension leads to motion in extensional world (spacetime);
 				- this connects the condensed intension with the empty space of extension.
 			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
-		-
-		- $e^{x ± r} = e^x ⋇ e^r$
-		- $x ± y = (x + y, x - y)/\sqrt{2}$
-		- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
+		- Usages of `⋇`
+			- Copilot says that `⋇` has been used for [wedge sum](https://en.wikipedia.org/wiki/Wedge_sum), which is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) in Unithread.
+			- $e^{x ± r} = e^x ⋇ e^r$
+				- Confidence intervals around arithmetic mean $x ± r$ (with radius $r$) and geometric mean $y ⋇ s$ (with scale variance $s$).
+					- Ref: [StackExchange](https://math.stackexchange.com/questions/954186/what-is-the-symbol-divideontimes-divide-times-for), Geimini
+				- Involution (self-inverse) operators
+					- $x ± y = (x + y, x - y)/\sqrt{2}$
+					- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
