@@ -1258,3 +1258,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Sáng nay, mình dậy trễ... từ sâu bên trong không muốn dậy. Lên cty ngủ trưa 1 tiếng, rồi ngồi thiền lơ lửng giữa mơ và tỉnh thêm 2 tiếng nữa. Trong mơ mình thấy những màn hình kéo lên kéo xuống và "chọn chương trình này" để mơ y như đang làm việc trên máy tính vậy. Trong mơ, mình ôn lại nhiều thứ trong đời một cách rất khái quát. Lần này mình vào ra cảnh mơ như ra vào một căn nhà hoang không có cửa, trong mơ cũng nghe thấy tiếng mọi người bên ngoài và ra ngoài vẫn thấy cảnh mơ, nói chung là hầu như không còn phân biệt nữa.
 		- Xuất thiền, mở mắt, quan sát mọi thứ trước mặt, nghĩ "giờ mình phải đụng vào chúng mà không để bị vướng mắc, phải bắt đầu từ đầu!" Thế là mình nhìn từng thứ và cảm nhận những ý muốn đối với nó, quán những cảm giác đó rồi buông xuống, một bài tập hết sức cơ bản.
 		- Sau khi quan sát hết lượt, mình quyết định ghi lại những dòng nhật ký này.
+	- By the abyss
+	  id:: 674d48b7-e011-4547-ac17-8997b7bb575c
+	  collapsed:: true
+		-
