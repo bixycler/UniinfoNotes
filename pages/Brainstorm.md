@@ -1293,3 +1293,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  The ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is contradictory, the consistent is partial.
 		- The “negation” or “opposition” of the “pathological program” `P` in the halting problem = the “lie” of the “liar” = the arrow that differentiate 1 from 0 = the knife that cut the circle open
 		-
+	- Usages of `⋇`
+	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
+	  collapsed:: true
+		- Unithread's interunion: $c ⋇ i = s_0 ⋇ s_1 = s_0 / s_1 / s_2 / ... / 1$ ~ [continued fraction](https://en.wikipedia.org/wiki/Continued_fraction)
+		- Copilot says that `⋇` has been used for [wedge sum](https://en.wikipedia.org/wiki/Wedge_sum), which is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) in Unithread.
+		- $e^{x ± r} = e^x ⋇ e^r$
+			- [Confidence intervals](https://en.wikipedia.org/wiki/Confidence_interval) around arithmetic mean $x ± r$ (with radius $r$) and geometric mean $y ⋇ s$ (with scale variance $s$).
+				- Ref: [StackExchange](https://math.stackexchange.com/questions/954186/what-is-the-symbol-divideontimes-divide-times-for), Gemini
+			- [Involutions](https://en.wikipedia.org/wiki/Involution_(mathematics)), self-inverse operators preserving information
+				- $x ± y = (x + y, x - y)/\sqrt{2}$
+				- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
+				- These are genralized “rotation” operations similar to [unitary operators](https://en.wikipedia.org/wiki/Unitary_operator).
