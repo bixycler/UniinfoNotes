@@ -1261,4 +1261,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- By the abyss
 	  id:: 674d48b7-e011-4547-ac17-8997b7bb575c
 	  collapsed:: true
-		-
+		- fb post:
+			- [By the abyss](https://www.facebook.com/share/p/mj1nY6UArLUDEgMp/)
+			- [Touching the bottom and turning back up... there's a long way ahead!](https://www.facebook.com/share/p/LNAfUavxgwGXNWqK/)
+			- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/AqPNJzTTcQA48Qxr/)
+			- [Target is the horizon!](https://www.facebook.com/share/p/Nr5BqKGNDZZE8A6h/)
