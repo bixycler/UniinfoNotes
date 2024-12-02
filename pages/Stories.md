@@ -1270,5 +1270,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- [0.999999999999... + 0.000000000000...1 = 1](https://www.facebook.com/share/p/ddMq3Zmwn4sGnSMT/)
 			- [Just one more step!](https://www.facebook.com/share/p/LYj7TBTB952hVzeN/)
 		- The abyss, the chasm, the canyon inside is the ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), [the radius of the content circle](((66875f13-3385-48d5-99b1-fb72dc53291d))).
-		- These days, i'm meditating on the **conservation of content**, from ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) to [condensation of the thin air](((6735b185-b053-4651-be76-f0c9032ce119))), ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), ... back to [holographic principle](((66eb7dae-2032-434b-9106-756d4aad7cdb))) and see clearly how the change of the intension leads to motion in extensional world (spacetime), how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder links between layers of circles (in different orders),
+		- These days, i'm meditating on the [**conservation of content**](((670cd7d1-8380-49db-a47c-6aa132256596))), from ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) to [condensation of the thin air](((6735b185-b053-4651-be76-f0c9032ce119))), ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), ... back to [holographic principle](((66eb7dae-2032-434b-9106-756d4aad7cdb))) and see clearly...
+			- how the change of the intension leads to motion in extensional world (spacetime);
+			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
+			-
 		-

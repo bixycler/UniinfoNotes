@@ -635,6 +635,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-07-11 Thu 10:40:07]--[2024-08-23 Fri 09:46:09] =>  1031:06:02
 	  :END:
 		- circle refinement
+		  id:: 6735b185-fe68-40b4-8679-9c4de4a1df7d
 		  collapsed:: true
 			- stable, toward the ((669a2697-56af-445c-9197-24aa498a5d5b))
 			- reduce to the perfect circle
