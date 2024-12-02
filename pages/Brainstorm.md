@@ -1304,4 +1304,4 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- [Involutions](https://en.wikipedia.org/wiki/Involution_(mathematics)), self-inverse operators preserving information
 				- $x ± y = (x + y, x - y)/\sqrt{2}$
 				- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
-				- These are genralized “rotation” operations similar to [unitary operators](https://en.wikipedia.org/wiki/Unitary_operator).
+				- These are genralized “rotation” operations similar to [unitary operators](https://en.wikipedia.org/wiki/Unitary_operator) which preserve the norm of state vector.
