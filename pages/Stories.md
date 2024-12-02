@@ -1291,8 +1291,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- how the change of the intension leads to motion in extensional world (spacetime);
 				- this connects the condensed intension with the empty space of extension.
 			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
-		- $$e^{(x + r)} = e^x \cdot e^r$$
-		  and
-		  $$e^{(x - r)} = \frac{e^x}{e^r}$$
+		-
 		- $e^{x ± r} = e^x ⋇ e^r$
-		- ÷ √
+		- $x ± y = (x + y, x - y)/\sqrt{2}$
+		- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
