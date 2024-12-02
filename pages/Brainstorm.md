@@ -1225,6 +1225,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  > Không có chân không tuyệt đối!
 			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
 			- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the “*thin air*” of ((6678288e-699b-4325-bdba-bf6349fe0d57)) fills up the empty space of ((66f267f7-01f9-47b9-8376-abd27fdf2930)), how it ((671e3d98-0006-43be-b714-247f3d3a0c49))s into fluid and then ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))s into solid of ((665ca429-84e3-49ff-921e-c07d19cd99ba)).
+			  id:: 6735b185-b053-4651-be76-f0c9032ce119
 				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) = [導引](https://en.wikipedia.org/wiki/Daoyin) ([Đạo Dẫn](https://vi.wikipedia.org/wiki/Ph%C3%A9p_%C4%91%E1%BA%A1o_d%E1%BA%ABn)): (circle = form = condensate = essence [精, tinh]) → (arrow = content = fluid = breath [氣, khí]) → (equal = awareness = space = spirit [神, thần])
 				  :LOGBOOK:
 				  CLOCK: [2024-10-27 Sun 20:41:38]

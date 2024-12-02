@@ -1261,7 +1261,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- By the abyss
 	  id:: 674d48b7-e011-4547-ac17-8997b7bb575c
 	  collapsed:: true
-		- fb post:
+		- fb posts:
 		  collapsed:: true
 			- [By the abyss](https://www.facebook.com/share/p/mj1nY6UArLUDEgMp/)
 			- [Touching the bottom and turning back up... there's a long way ahead!](https://www.facebook.com/share/p/LNAfUavxgwGXNWqK/)
@@ -1269,4 +1269,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- [Target is the horizon!](https://www.facebook.com/share/p/Nr5BqKGNDZZE8A6h/)
 			- [0.999999999999... + 0.000000000000...1 = 1](https://www.facebook.com/share/p/ddMq3Zmwn4sGnSMT/)
 			- [Just one more step!](https://www.facebook.com/share/p/LYj7TBTB952hVzeN/)
-		- The abyss, the chasm, the canyon inside is the ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), the radius of
+		- The abyss, the chasm, the canyon inside is the ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), [the radius of the content circle](((66875f13-3385-48d5-99b1-fb72dc53291d))).
+		- These days, meditating on the **conservation of content**, from ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) to [condensation of the thin air](((6735b185-b053-4651-be76-f0c9032ce119))),
+		-
