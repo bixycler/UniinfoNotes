@@ -1262,7 +1262,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  id:: 674d48b7-e011-4547-ac17-8997b7bb575c
 	  collapsed:: true
 		- fb post:
+		  collapsed:: true
 			- [By the abyss](https://www.facebook.com/share/p/mj1nY6UArLUDEgMp/)
 			- [Touching the bottom and turning back up... there's a long way ahead!](https://www.facebook.com/share/p/LNAfUavxgwGXNWqK/)
 			- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/AqPNJzTTcQA48Qxr/)
 			- [Target is the horizon!](https://www.facebook.com/share/p/Nr5BqKGNDZZE8A6h/)
+			- [0.999999999999... + 0.000000000000...1 = 1](https://www.facebook.com/share/p/ddMq3Zmwn4sGnSMT/)
+			- [Just one more step!](https://www.facebook.com/share/p/LYj7TBTB952hVzeN/)
+		- The abyss, the chasm, the canyon inside is the ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), the radius of
