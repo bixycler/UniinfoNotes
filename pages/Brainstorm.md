@@ -952,8 +952,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
 		- [vivarta-vada](https://en.wikipedia.org/wiki/Vivartavada) & maya: the manifestation of Brahman/Ātman as different individual selves (jivatman) in the non-dual Vedanta, i.e. [Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)
 		- dependent origination: [mình mới ngộ ra ý nghĩa của một giấc mơ kỳ lạ 16 năm trước về chủ đề "Duyên hợp"](https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/)
-			- So-le (staggered): https://www.facebook.com/share/p/35j9SSuqSJj76tWY/
-			- The tarpestry of life: https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/
+			- fb posts
+				- [So-le (staggered)](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/)
+				- [The tarpestry of life](https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/)
 			- the mesh of horizonal & vertical threads is related to the ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
 			- 糸：縦の糸はあなた、横の糸は私…
 			  collapsed:: true
