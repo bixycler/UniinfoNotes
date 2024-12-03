@@ -100,6 +100,11 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 			  }
 			  
 			  ```
+	- Library difinition
+		- Custom element libs can be used both as modules and as non-module libs, because all interactions are through the custom element instances.
+		- For module to live with non-module scripts:
+			- export to global scope with `_.assign(globalThis, { f1, f2, ..., p1, p2, ..., cls1, cls2, ... })`,
+			- but its user must also wait for it to load asynchrously, like `pdf = await DocRaptor()`.
 	- ## JSON
 	  id:: 6708b36b-54f9-4455-bcb0-f6fb0c39f01e
 	  :LOGBOOK:
