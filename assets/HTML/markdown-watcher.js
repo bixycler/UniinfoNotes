@@ -50,7 +50,7 @@ var FolderDivJS = null;
 }());
 
 // DocRaptor
-let pdf = null;
+let pdf = null; //DocRaptor();
 
 // modern-screenshot
 const domto = window.modernScreenshot;

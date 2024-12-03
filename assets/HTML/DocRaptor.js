@@ -108,4 +108,4 @@ export default function DocRaptor(){
 }
 
 // Also export to globalThis
-_.assign(globalThis, {DocRaptor});
+Object.assign(globalThis, {DocRaptor});
