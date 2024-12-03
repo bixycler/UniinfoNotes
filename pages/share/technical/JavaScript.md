@@ -45,7 +45,9 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 				- This is due to the [complication](((6708b829-9386-4423-8e93-5ce50c1ace1f))) of [object's property](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) (enumerability, configurabiblity, writability, getter, setter), which is designed for general purpose, not only for data storage like ((6708b36b-54f9-4455-bcb0-f6fb0c39f01e)).
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) We extend `Object.prototype` with a `clear()` function just to clear all enumerble properties owned by this object.
 				- ```js
-				  // Clear all enumerable properties in an object (which are owned by that object only, not inherited)
+				  /** Clear all enumerable properties in an object
+				   * (which are owned by that object only, not inherited)
+				   */
 				  Object.defineProperty(Object.prototype, 'clear', {
 				    value: function(){
 				      // Object.keys: enumerable own
@@ -55,8 +57,12 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 				    },
 				    //enumerable: false, configurable: false, // already by default! A function should not be enumerable.
 				    writable: true, // let this function to be updated (overriden) later on with assignment: Object.prototype.clear = function(){ /*new implementation*/ }
-				    //Note: If we don't Object.defineProperty, but do assignment `Object.prototype.clear = function(){...}` first, it will create an enumerable & configurable & writable property. But a function in general should not be enumerable though!
 				  });
+				  /* Note: If we don't defineProperty(), but do assignment
+				    `Object.prototype.clear = function(){...}` first,
+				    it will create an enumerable & configurable & writable property.
+				    But a function in general should __not be enumerable__ though!
+				  */
 				  ```
 		- TODO Extract the `wrap()` and `Backbone.MModel` in [_base.js](../assets/HTML/_base.js) which is copied from `~/opt/web/myhotel/airlink.myhotel/airlink/myhotel/templates/js/`
 		  collapsed:: true

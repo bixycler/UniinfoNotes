@@ -1,15 +1,22 @@
 
-/** Parse an HTML-escaped string into JSON
- * @param escjson : string -- The HTML-escaped string of JSON
- * @returns {any} The JSON (Object, Array, string, boolean, etc.)
+/** Clear all enumerable properties in an object
+ * (which are owned by that object only, not inherited)
  */
-function parseEscapedJson(escjson){
-    var parser = new DOMParser;
-    var dom = parser.parseFromString(
-        '<!DOCTYPE html><html><body>' + escjson + '</body></html>',
-        'text/html');
-    return JSON.parse(dom.body.textContent);
-}
+Object.defineProperty(Object.prototype, 'clear', {
+  value: function(){
+    // Object.keys: enumerable own
+    // Object.getOwnPropertyNames: all own (enum & non-enum)
+    // for in: all enumerables (own & inherited)
+    for(p of Object.keys(this)){ delete this[p]; }
+  },
+  //enumerable: false, configurable: false, // already by default! A function should not be enumerable.
+  writable: true, // let this function to be updated (overriden) later on with assignment: Object.prototype.clear = function(){ /*new implementation*/ }
+});
+/* Note: If we don't defineProperty(), but do assignment
+  `Object.prototype.clear = function(){...}` first,
+  it will create an enumerable & configurable & writable property.
+  But a function in general should __not be enumerable__ though!
+*/
 
 /** Pad this number with leading zeros (0).
  * @param places : integer -- The minimal number of digits after padding
@@ -52,20 +59,17 @@ Date.prototype.addDays = function(days) {
     return that;
 }
 
-/** Clear all enumerable properties in an object
- * (which are owned by that object only, not inherited)
+/** Parse an HTML-escaped string into JSON
+ * @param escjson : string -- The HTML-escaped string of JSON
+ * @returns {any} The JSON (Object, Array, string, boolean, etc.)
  */
-Object.defineProperty(Object.prototype, 'clear', {
-  value: function(){
-    // Object.keys: enumerable own
-    // Object.getOwnPropertyNames: all own (enum & non-enum)
-    // for in: all enumerables (own & inherited)
-    for(p of Object.keys(this)){ delete this[p]; }
-  },
-  //enumerable: false, configurable: false, // already by default! A function should not be enumerable.
-  writable: true, // let this function to be updated (overriden) later on with assignment: Object.prototype.clear = function(){ /*new implementation*/ }
-  //Note: If we don't Object.defineProperty, but do assignment `Object.prototype.clear = function(){...}` first, it will create an enumerable & configurable & writable property. But a function in general should not be enumerable though!
-});
+function parseEscapedJson(escjson){
+    var parser = new DOMParser;
+    var dom = parser.parseFromString(
+        '<!DOCTYPE html><html><body>' + escjson + '</body></html>',
+        'text/html');
+    return JSON.parse(dom.body.textContent);
+}
 
 function eventPromise(dom, eventName) {
   return new Promise(resolve =>{
