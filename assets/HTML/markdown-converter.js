@@ -30,7 +30,7 @@ const patLinkAll = new RegExp(patLink, 'g');
 
 
 /** Convert from Logseq markdown to Common Markdown */
-export default function MardownNormalizer(){
+export default function MarkdownNormalizer(){
   let flattenHeadings = false,
     blankLineBeforeCodeBlock = false,
     looseList = false,
@@ -307,6 +307,7 @@ export default function MardownNormalizer(){
   */
   function processLogseqLinks(ln, fillEmptyLinks, flattenLinks=false){
     const ebref = [], bref = [], href = [];
+    let m = null; // pattern matches
 
     // flatten external links
     let nln = ''; // ln -> nln
@@ -433,5 +434,5 @@ export function restructureToFolderDiv(node, root=false){
 }
 
 // Also export to globalThis
-Object.assign(globalThis, {MardownNormalizer, restructureToFolderDiv});
+Object.assign(globalThis, {MarkdownNormalizer, restructureToFolderDiv});
 

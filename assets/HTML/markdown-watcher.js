@@ -50,11 +50,11 @@ var FolderDivJS = null;
 }());
 
 // DocRaptor
-let pdf = null; //DocRaptor(); //
+let pdf = null; // DocRaptor(); //
 
 // markdown-converter.js
-let mdNorm = MarkdownNormalizer();
-let mdHtmlNorm = MarkdownNormalizer();
+let mdNorm = null; // MarkdownNormalizer(); //
+let mdHtmlNorm = null; // MarkdownNormalizer(); //
 
 // modern-screenshot
 const domto = window.modernScreenshot;
@@ -121,6 +121,14 @@ async function load(forced) {
     mdNorm.looseList = false;
     mdNorm.lineBreakAfterMetadata = true;
     mdNorm.pageHeadingAsItem = false;
+  }
+  if(!mdHtmlNorm){
+    mdHtmlNorm = MarkdownNormalizer();
+    mdHtmlNorm.flattenHeadings = false;
+    mdHtmlNorm.blankLineBeforeCodeBlock = false;
+    mdHtmlNorm.looseList = false;
+    mdHtmlNorm.lineBreakAfterMetadata = false;
+    mdHtmlNorm.pageHeadingAsItem = true;
   }
 
   // update title & URLs
@@ -190,13 +198,7 @@ async function load(forced) {
     mdhtml.style.display = 'block';
     exportUrl = exportUrlHtml;
     // render md -> HTML
-    mdtxt.value = normalizeMardown(md,
-      /*flattenHeadings*/false,
-      /*blankLineBeforeCodeBlock*/false,
-      /*looseList*/false,
-      /*lineBreakAfterMetadata*/false,
-      /*pageHeadingAsItem*/true
-    );
+    mdtxt.value = mdHtmlNorm.normalize(md);
     mdhtml.innerHTML = md2html(mdtxt.value, /*looseList*/true); //mdi.render(mdtxt.value);
     // preprocess abnormalities in rendered markdown before restructuring to FolderDiv
     let item = mdhtml;
