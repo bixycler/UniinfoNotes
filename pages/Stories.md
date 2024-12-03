@@ -1287,7 +1287,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- how the conservation expresses in both pairs of add-subtract `±` and multiply-devide `⋇` (interunion)
 				- add-subtract `±` is the arrow in the circle
 				- multiply-divide `⋇`: Each variable $x$ divides the [bulk](((674d6061-7973-47b6-bb9d-a7a816137883))) into slices orthogonal to the dimension of $x$ axis, and indexes these slices by its values $x_0, x_1, x_2, ..., x_k$, i.e. $x_k$ is the spatial index. Then, $x$ also indexes the bulk in time by its current value $x = x_{t0}$, i.e. $x_t$ is the temporal index.
-					- Unithread: **thread spinning** from fibers <> **thread pulling** form the One = extending from 1 to N
+					- Unithread: **thread spinning** from fibers <> **thread pulling** from the One bulk = extending from 1 to N
 					  collapsed:: true
 						- Common: thread spinning & silk spinning with [spinnerets](https://en.wikipedia.org/wiki/Spinneret)
 						- Precise: thread spinning & silk pulling
@@ -1295,12 +1295,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 674d6061-7973-47b6-bb9d-a7a816137883
 			- how that many obops range the same content circle
 				- = the content circle is twisted many folds at the universal obop
-				- = many sustent circles, touching at the universal obop
+				- = many sustent circles touch at the universal obop
 					- version 1: each sustent circle is a complement part of the content circle.
 					- version 2: each sustent circle is a replicate of the content circle.
-				- = thread folding in the [hyphercube](https://en.wikipedia.org/wiki/Hypercube) (condensed intension)
+				- = Ω-thread folds in the [hyphercube](https://en.wikipedia.org/wiki/Hypercube) (condensed intension)
+					- the folding configuration is the state of the body (of the universe).
+					- the arrows in the folded thread is the dynamic, transformation, state transition.
 				- = straight thread traverses the extentional space (empty extension).
-			- how the change within the intension leads to motion in extensional world (spacetime);
+			- how the change within the intension (body) leads to motion in extensional world (spacetime);
 				- this connects the condensed intension with the empty space of extension.
 			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
 				- This (seemingly) infinite layers of sustents is the “abyss” i'm facing.
