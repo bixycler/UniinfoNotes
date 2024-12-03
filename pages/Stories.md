@@ -1306,6 +1306,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- this connects the **condensed** intension with the **empty** space of extension.
 				- while dynamic in the condensate is wave propagation, dynamic in the empty space is motion.
 					- zoom in: wave = moving particle(s) coliding with (the) other(s) to transfer its arrow, just like the [Newton's cradle](https://en.wikipedia.org/wiki/Newton%27s_cradle) in many folds.
+					- zooming in space-time then in time ⇒ density in time = square of density in space
 			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
 				- This (seemingly) infinite layers of sustents is the “abyss” i'm facing.
 					- While "normal people" can easily cross the gap at the surface to close the circle,
