@@ -1,3 +1,12 @@
+/* Add methods to prototype with Object.defineProperty().
+  Note: If we do assignment `Object.prototype.clear = function(){...}`,
+  it will create an enumerable & configurable & writable property.
+  But a function in general should __not be enumerable__ though!
+  Default for defineProperty():
+    enumerable: false, configurable: false,
+  Let this function to be updated (overriden) later on with assignment:
+    writable: true,
+*/
 
 /** Clear all enumerable properties in an object
  * (which are owned by that object only, not inherited)
@@ -9,22 +18,21 @@ Object.defineProperty(Object.prototype, 'clear', {
     // for in: all enumerables (own & inherited)
     for(p of Object.keys(this)){ delete this[p]; }
   },
-  //enumerable: false, configurable: false, // already by default! A function should not be enumerable.
-  writable: true, // let this function to be updated (overriden) later on with assignment: Object.prototype.clear = function(){ /*new implementation*/ }
+  //enumerable: false, configurable: false, // default
+  writable: true,
 });
-/* Note: If we don't defineProperty(), but do assignment
-  `Object.prototype.clear = function(){...}` first,
-  it will create an enumerable & configurable & writable property.
-  But a function in general should __not be enumerable__ though!
-*/
 
 /** Pad this number with leading zeros (0).
  * @param places : integer -- The minimal number of digits after padding
  * @return {string} The padded string
  */
-Number.prototype.pad = function(places) {
+Object.defineProperty(Number.prototype, 'pad', {
+  value: function(places) {
     return String(this).padStart(places, '0');
-}
+  },
+  //enumerable: false, configurable: false, // default
+  writable: true,
+});
 
 /** Export Date to String in a simplified version of {@link https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html|SimpleDateFormat}:
     - yyyy  : Full year (always 4 digits); Week year (YYYY) is unsupported
@@ -37,27 +45,35 @@ Number.prototype.pad = function(places) {
     @param format : string -- The format in SimpleDateFormat
     @return {string} The formated string
  */
-Date.prototype.toFormatedString = function(format='yyyy-MM-dd HH:mm:ss.SSS') {
+Object.defineProperty(Date.prototype, 'toFormatedString', {
+  value: function(format='yyyy-MM-dd HH:mm:ss.SSS') {
     return format.
-        replace('yyyy',this.getFullYear().pad(4)).
-        replace('MM',(this.getMonth()+1).pad(2)).
-        replace('dd',this.getDate().pad(2)).
-        replace('HH',this.getHours().pad(2)).
-        replace('mm',this.getMinutes().pad(2)).
-        replace('ss',this.getSeconds().pad(2)).
-        replace('SSS',this.getMilliseconds().pad(3));
-}
+      replace('yyyy',this.getFullYear().pad(4)).
+      replace('MM',(this.getMonth()+1).pad(2)).
+      replace('dd',this.getDate().pad(2)).
+      replace('HH',this.getHours().pad(2)).
+      replace('mm',this.getMinutes().pad(2)).
+      replace('ss',this.getSeconds().pad(2)).
+      replace('SSS',this.getMilliseconds().pad(3));
+  },
+  //enumerable: false, configurable: false, // default
+  writable: true,
+});
 
 /** Add/subtract days from this Date object
  *
  * @param days : int -- Number of day(s) to be added, negative number for subtraction
  * @return {Date} The new Date
  */
-Date.prototype.addDays = function(days) {
+Object.defineProperty(Date.prototype, 'addDays', {
+  value: function(days) {
     var that = new Date(this);
     that.setDate(this.getDate() + days);
     return that;
-}
+  },
+  //enumerable: false, configurable: false, // default
+  writable: true,
+});
 
 /** Parse an HTML-escaped string into JSON
  * @param escjson : string -- The HTML-escaped string of JSON
