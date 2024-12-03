@@ -1293,8 +1293,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Precise: thread spinning & silk pulling
 				- the elusive nature of the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) as a **bulk**: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **volume**)
 				  id:: 674d6061-7973-47b6-bb9d-a7a816137883
-			- how many obops ranging the same content circle = the content circle is twisted many folds at the universal obop = many sustent circles () touching at the universal obop = 
-			  thread folding in the [hyphercube](https://en.wikipedia.org/wiki/Hypercube)
+			- how that many obops range the same content circle
+				- = the content circle is twisted many folds at the universal obop
+				- = many sustent circles, touching at the universal obop
+					- version 1: each sustent circle is a complement part of the content circle.
+					- version 2: each sustent circle is a replicate of the content circle.
+				- = thread folding in the [hyphercube](https://en.wikipedia.org/wiki/Hypercube) (condensed intension)
+				- = straight thread traverses the extentional space (empty extension).
 			- how the change within the intension leads to motion in extensional world (spacetime);
 				- this connects the condensed intension with the empty space of extension.
 			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
