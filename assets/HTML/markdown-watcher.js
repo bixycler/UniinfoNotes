@@ -110,6 +110,14 @@ let exportUrl = exportUrlMd;
 async function load(forced) {
   let fn = mdf.value.trim();
   if(!pdf){ pdf = DocRaptor(); }
+  if(!mdNorm){
+    mdNorm = MarkdownNormalizer();
+    mdNorm.flattenHeadings = true;
+    mdNorm.blankLineBeforeCodeBlock = true;
+    mdNorm.looseList = false;
+    mdNorm.lineBreakAfterMetadata = true;
+    mdNorm.pageHeadingAsItem = false;
+  }
 
   // update title & URLs
   document.title = (fn ? fn : 'Markdown') + ' ' + butToggleWatching.value;
@@ -153,13 +161,7 @@ async function load(forced) {
   let md = await blob.text();
   mdtxt.value = md;
   if(doNormalizeMarkdown.checked){
-    mdtxt.value = normalizeMardown(mdtxt.value,
-      /*flattenHeadings*/true,
-      /*blankLineBeforeCodeBlock*/true,
-      /*looseList*/false,
-      /*lineBreakAfterMetadata*/true,
-      /*pageHeadingAsItem*/false
-    );
+    mdtxt.value = mdNorm.normalize(mdtxt.value);
   }
   let omdihtml = mdrender.innerHTML;
   mdrender.innerHTML = md2html(mdtxt.value, /*looseList*/true); //mdi.render(mdtxt.value);

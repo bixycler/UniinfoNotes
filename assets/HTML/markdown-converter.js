@@ -31,12 +31,13 @@ const patLinkAll = new RegExp(patLink, 'g');
 
 /** Convert from Logseq markdown to Common Markdown */
 export default function MardownNormalizer(){
-  let mapUuid = {}, noUuid = {}, circularRefs = {}, localLinks = {};
   let flattenHeadings = false,
     blankLineBeforeCodeBlock = false,
     looseList = false,
     lineBreakAfterMetadata = false,
     pageHeadingAsItem = false;
+
+  let mapUuid = {}, noUuid = {}, circularRefs = {}, localLinks = {};
 
   function normalize(md){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
@@ -431,4 +432,6 @@ export function restructureToFolderDiv(node, root=false){
   //console.debug('converted:',folder);
 }
 
+// Also export to globalThis
+Object.assign(globalThis, {MardownNormalizer, restructureToFolderDiv});
 
