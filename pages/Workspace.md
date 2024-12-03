@@ -12,25 +12,25 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
+				- Time to RESET;
 				-
-				-
-				- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
 				- ((673a17a7-0094-4f4d-bd79-525e7f803b50))
-				- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
 				- ((6747eac1-f683-4ed1-9b06-34fd10103c0c))
 				- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
-				- DONE Refactor `opt/web/static` with `assets/HTML/`  & `docs/`
-				  :LOGBOOK:
-				  CLOCK: [2024-11-26 Tue 09:56:17]
-				  CLOCK: [2024-11-26 Tue 09:56:19]--[2024-11-26 Tue 11:02:02] =>  01:05:43
-				  :END:
 				- ((66d1545b-4783-4545-aa12-a2ffa400eed7))
 				- ((674d48b7-e011-4547-ac17-8997b7bb575c)) & ((674db08a-4c2b-4a73-b17c-d3223bc0e95e))
+				- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
+					- DONE Refactor `opt/web/static` with `assets/HTML/`  & `docs/`
+					  :LOGBOOK:
+					  CLOCK: [2024-11-26 Tue 09:56:17]
+					  CLOCK: [2024-11-26 Tue 09:56:19]--[2024-11-26 Tue 11:02:02] =>  01:05:43
+					  :END:
+					- ((67454211-668f-40e0-b6b2-ee5e49c0a520))
+						- ...
+					- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
+					- JS ((674e9c7a-230a-461f-9846-2fa934fc88fc))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- JS ((674e9c7a-230a-461f-9846-2fa934fc88fc))
-				- ((67454211-668f-40e0-b6b2-ee5e49c0a520))
-				- ...
 			- ------
 		-
 		-
@@ -576,13 +576,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- DONE ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols... 
 		  id:: 6716110a-1a05-4c87-93b3-fa9f0db22ba9
 		  using ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
-		- DOING First complete [Logseq publishing with FolderDiv](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf)))
+		- DONE First complete [Logseq publishing with FolderDiv](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf)))
 		  id:: 6735c7ac-17c8-4fea-8d4c-b76a942bc453
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-11-14 Thu 16:49:57]--[2024-11-14 Thu 20:32:13] =>  03:42:16
 		  CLOCK: [2024-11-25 Mon 17:30:00]--[2024-11-25 Mon 19:01:23] =>  01:31:23
-		  CLOCK: [2024-11-26 Tue 08:30:00]
+		  CLOCK: [2024-11-26 Tue 08:30:00]--[2024-12-03 Tue 16:46:21] =>  176:16:21
 		  :END:
 			- [[Logseq publish]] → [[Logseq publish.norm]] → [Logseq publish.md.html](../assets/logseq/publish/Logseq publish.md.html) → [Logseq publish.html](../assets/logseq/publish/Logseq publish.html) → [Logseq publish.pdf](../assets/logseq/publish/Logseq publish.pdf)
 			- [!] Error converting [[Logseq publish]]
@@ -599,11 +599,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  :LOGBOOK:
 			  CLOCK: [2024-11-26 Tue 09:55:22]--[2024-11-26 Tue 09:55:44] =>  00:00:22
 			  :END:
-			- DOING Refactor `markdown-watcher.js`
+			- DONE Refactor `markdown-watcher.js`
 			  id:: 67454211-668f-40e0-b6b2-ee5e49c0a520
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-11-26 Tue 10:35:48]
-			  CLOCK: [2024-11-26 Tue 10:35:51]
+			  CLOCK: [2024-11-26 Tue 10:35:51]--[2024-12-03 Tue 16:46:12] =>  174:10:21
 			  :END:
 				- 👍️ Custom element libs like `FolderDiv.js` and `MessageDiv.js` can be used as modules without any modification! 🥰
 					- ```html
