@@ -12,12 +12,25 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
+				- Cone of vision; Time to RESET; By the abyss & Usages of `⋇`; Refactor `markdown-watcher.js`
 				-
-				-
-				- Report broken block ref of ((671f467e-6f1f-4436-a0dd-9a03055e11a9)) in commit 762e2c90c
+				- ((673a17a7-0094-4f4d-bd79-525e7f803b50))
+				- ((6747eac1-f683-4ed1-9b06-34fd10103c0c))
+				- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
+				- ((66d1545b-4783-4545-aa12-a2ffa400eed7))
+				- ((674d48b7-e011-4547-ac17-8997b7bb575c)) & ((674db08a-4c2b-4a73-b17c-d3223bc0e95e))
+				- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
+					- DONE Refactor `opt/web/static` with `assets/HTML/`  & `docs/`
+					  :LOGBOOK:
+					  CLOCK: [2024-11-26 Tue 09:56:17]
+					  CLOCK: [2024-11-26 Tue 09:56:19]--[2024-11-26 Tue 11:02:02] =>  01:05:43
+					  :END:
+					- ((67454211-668f-40e0-b6b2-ee5e49c0a520))
+						- ...
+					- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
+					- JS ((674e9c7a-230a-461f-9846-2fa934fc88fc))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- ...
 			- ------
 		-
 		-
@@ -90,7 +103,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- [Future-proof block references in Logseq](https://99rabbits.com/future-proof-block-references-in-logseq/) > ((66ac8222-836c-40b1-9f26-fc94c69f9f8e)) as [suggested by AlessandroLongo](https://www.reddit.com/r/logseq/comments/15x0qsv/comment/jx49poz/)
 				- [Block reference to allow ((page-name#block-ref-name)) not just UUID](https://discuss.logseq.com/t/block-reference-to-allow-page-name-block-ref-name-not-just-uuid/2746)
 			- ((94649b98-9711-4adf-ae25-aaf32b521c14))
-		-
+		- collapsed:: true
 		- TODO Backup & republish my contents on Facebook
 		  collapsed:: true
 			- Some of the fb posts have been migrated to the blog [CreatZy Notes](https://creatzynotes.blogspot.com/).
@@ -164,6 +177,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- The opposite of near-miss effect is the goal-fog effect where we lose motivation to reach a very near goal due to the obscurity of that goal.
 					- It stems from ((669a58b9-422a-40d9-adcf-b2aade86c170))
 						- The seemingly small and easy targets, which are just ((66537674-6cf9-4459-8bea-7c1858c694a3))s, draw me into the rabbit holes.
+						  id:: 6735b189-a8b7-4ff3-b42a-c59f38a8334e
 						  collapsed:: true
 							- An "impossible bug/error" => debug deeply
 							- An "unacceptable term/issue" => research deeply
@@ -173,6 +187,42 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 							- => It seems that the problem is "impossible!"
 							- => This discrepancy triggers my anger to tackle the problem "to the end".
 						- The butterfly effect from a tiny mistake to a huge error, the [one-unit error](https://www.geogebra.org/m/xhpjjxyn) at the marginal cases, and so on, are just the extension of the abstracted complex systems.
+				- The illusion of “finished” & target reaching
+				  id:: 6736bd1e-5835-46e4-b640-dd35b3fe7c90
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-11-15 Fri 10:41:26]
+				  :END:
+					- ((66725725-f76a-4328-b162-f469b87e871b))
+					  collapsed:: true
+						- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
+					- “Complete, finished, done, target reached, ...” are just illusions. Nothing is actually complete, any ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is just a helix or spiral which is projected onto the plane orthogonal to the direction of change/evolution.
+					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
+						- The inner target of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+						- The target is the hidden boss, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the underlying driving force.
+						- **Revealing the hidden boss** means **detaching the self**.
+							- “Detached self = selfless”
+							- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
+							- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
+					- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just _the **beginning** of a new circle_, either at the same level or at “higher” level.
+					- While the true ending, the true finish is the death, either bodily or mentally, we always try to reach the end of some “hard work” wishing to have an easier living, either on Earth or on Heaven, or at Nibbana (Nirvana). That's the basic illusion of both life & death.
+						- The urge to finish is a manifestation of _the urge to die_ in the guise of life, either as an orgasm or an explosion.
+							- While Freud described [death drive](https://en.wikipedia.org/wiki/Death_drive) (Thanatos) as the opposite of sex drive (Eros), i see they are just two faces of the same coin with the same nature.
+						- Due to the guise of life, we fall into the contradiction of continuously reaching (small) deaths in the hope of avoiding (big) death.
+						- Accepting death is no problem to me and i've spent my whole life to explore various types of death.
+					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) the mind to _**start** the new journey!_
+					  id:: 67445065-15b2-475e-a704-78f140d487af
+						- ![reset button](../assets/Will/story/2024-Oct/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
+						- [The destination is the horizon!](https://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
+						- Let's restart from the way/attitude of looking at everything!
+						- Training the non-attached looking
+							- First, detach, keep distance until the mind returns to neutral attitude.
+							- Next, slowly approach the object while being aware of all mental reactions.
+							- Observe the reactions and connect them with the whole, reminding the whole with all aspects, all sides, all conflicting parts.
+							- Frequently back off for the holistic relations to emerge.
+							- Remember to breathe!
+							- In the training, all actions should be done automatically without any intention.
+							- Training sessions should run alternately with actual working sessions.
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
@@ -526,4 +576,56 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- DONE ~~Auto-complete &~~ typing assistant for **quotation marks**, symbols... 
 		  id:: 6716110a-1a05-4c87-93b3-fa9f0db22ba9
 		  using ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
+		- DONE First complete [Logseq publishing with FolderDiv](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf)))
+		  id:: 6735c7ac-17c8-4fea-8d4c-b76a942bc453
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-11-14 Thu 16:49:57]--[2024-11-14 Thu 20:32:13] =>  03:42:16
+		  CLOCK: [2024-11-25 Mon 17:30:00]--[2024-11-25 Mon 19:01:23] =>  01:31:23
+		  CLOCK: [2024-11-26 Tue 08:30:00]--[2024-12-03 Tue 16:46:21] =>  176:16:21
+		  :END:
+			- [[Logseq publish]] → [[Logseq publish.norm]] → [Logseq publish.md.html](../assets/logseq/publish/Logseq publish.md.html) → [Logseq publish.html](../assets/logseq/publish/Logseq publish.html) → [Logseq publish.pdf](../assets/logseq/publish/Logseq publish.pdf)
+			- [!] Error converting [[Logseq publish]]
+			  collapsed:: true
+				- The whole document body is rendered as a giant code block.
+				- ((66ae15d2-e2dd-443d-a666-c3b244fb6603)) Logseq automatically **unitemizes** the page's header (`H*` any level) while leaving all other items in the page unchanged.
+					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Restore the first item with `pageHeadingAsItem`
+					- Note: the first item can be at the same level with other items.
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Consider this page as "headless page": Use file name as page header
+					- When itemizing the page header, the whole page is converted to a single `unfoldable-leaf`!
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Single-item page: Process that single item instead of the page.
+				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) `flattenHeadings = false`, `pageHeadingAsItem = true` for `restructureToFolderDiv()`.
+			- DONE Headless problem still persists!!!
+			  :LOGBOOK:
+			  CLOCK: [2024-11-26 Tue 09:55:22]--[2024-11-26 Tue 09:55:44] =>  00:00:22
+			  :END:
+			- DONE Refactor `markdown-watcher.js`
+			  id:: 67454211-668f-40e0-b6b2-ee5e49c0a520
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-11-26 Tue 10:35:48]
+			  CLOCK: [2024-11-26 Tue 10:35:51]--[2024-12-03 Tue 16:46:12] =>  174:10:21
+			  :END:
+				- 👍️ Custom element libs like `FolderDiv.js` and `MessageDiv.js` can be used as modules without any modification! 🥰
+					- ```html
+					  <script type="module" src="MessageDiv.js"></script>
+					  <script type="module" src="FolderDiv.js"></script>
+					  ```
+				- `MessageDiv.js`
+				  The message component storing and showing message on the page
+					- This is shared by many functions, even in ((674571bb-ea17-4635-9158-d5c81381ab86)).
+					- `customElements.define("message-div", MessageDiv);`
+					- ```html
+					  <message-div id="message" folded heading='Markdown loading error'></message-div>
+					  ```
+				- `common-utils.js`
+				  id:: 674571bb-ea17-4635-9158-d5c81381ab86
+					- Ported some utils from `_base.js`.
+				- `DocRaptor.js`
+				  The client to DocRaptor PDF converter
+					- Each instance `DocRaptor()` holds a separate configuration (`name`, `production`) conversion to PDF.
+				- `markdown-converter.js`
+					- `normalizeMardown(md, options...)` converts from Logseq markdown to common Markdown as return value.
+					- `restructureToFolderDiv()` restructures item lists to `<folder-div>`
+			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the [rabbit hole](((6735b189-a8b7-4ff3-b42a-c59f38a8334e))) of endless bugs and modifications
 		- ...

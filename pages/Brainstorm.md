@@ -635,6 +635,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-07-11 Thu 10:40:07]--[2024-08-23 Fri 09:46:09] =>  1031:06:02
 	  :END:
 		- circle refinement
+		  id:: 6735b185-fe68-40b4-8679-9c4de4a1df7d
 		  collapsed:: true
 			- stable, toward the ((669a2697-56af-445c-9197-24aa498a5d5b))
 			- reduce to the perfect circle
@@ -674,13 +675,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- linear thread is smooth by def., only smooth *on circle* is equilibrium
 			- like [phase flower of interunion](https://www.geogebra.org/m/etenmkub)
-	- ((669f3107-a33a-4b26-a636-6da62fa5520e)) constraint
+	- WAIT ((669f3107-a33a-4b26-a636-6da62fa5520e)) constraint
 	  id:: 669f243f-41b7-4274-b954-9824ec3ac33b
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-07-23 Tue 10:44:58]
 	  CLOCK: [2024-07-23 Tue 10:45:36]--[2024-07-23 Tue 11:25:48] =>  00:40:12
-	  CLOCK: [2024-07-23 Tue 11:28:46]--[2024-07-23 Tue 11:29:27] =>  00:00:41
 	  :END:
 		- Like experience, resource is collected from the past into a form to shape the future.
 		- All maps are distribution of resources which are formed inside selves.
@@ -924,12 +924,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- The obop believes in the parts, believes that they can be self-sustained without attention, so it don't hold on to the parts and can release them.
 		- The parts believe in the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) via its representative, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = the ((66ab7477-c060-4d07-ab13-bc3d11246854)) = the zero = the vacant, believe that the whole will do the best to preserve the parts. With this belief, a part can release its self to return resource to the whole.
 		- Via the whole, the parts can believe in each other.
-	- DOING ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) & ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) : intent - content - extent ~ round - amount - arrow  ~ memory/space - resource/time - remainder/phase
+	- WAIT ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) & ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) : intent - content - extent ~ round - amount - arrow  ~ memory/space - resource/time - remainder/phase
 	  id:: 66e3c1b8-eb83-47d6-b71e-193549b47f93
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-09-13 Fri 11:06:08]
-	  CLOCK: [2024-09-13 Fri 11:06:14]
 	  :END:
 		- FIFO queue memory
 			- the last throughput (now) overwrites the first memory (past).
@@ -939,31 +938,28 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- new distribution from a node to its branches updates weights of these branches.
 				- collective throughput at a node updates its mass.
 				- heuristic method: use global time to cut off all past parts of the whole memory
-	- Holographic = viên dung 圓融 perfect interfusion, interfusion = interpenetration 相入 = interconnection = interreflection = interdependence = fractal
+	- Holographic = interfusion (viên dung 圓融 perfect interfusion) = interpenetration 相入 = interconnection = interreflection = interdependence = fractal
 	  id:: 66eb7dae-2032-434b-9106-756d4aad7cdb
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-09-19 Thu 08:26:20]
 	  CLOCK: [2024-09-19 Thu 08:26:21]--[2024-10-14 Mon 18:24:56] =>  609:58:35
 	  :END:
-		- Reflection - Phản tỉnh: https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/
-		- The Universe is just a giant distorted kaleidoscope: https://www.facebook.com/share/p/PV7w5qtofEpAwszK/
-		- https://en.wikipedia.org/wiki/House_of_mirrors
-		- https://en.wikipedia.org/wiki/Holism
-		- Hoa Nghiêm Kinh: https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh
-		- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
-		- dependent origination: https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/
-			- So-le (staggered): https://www.facebook.com/share/p/35j9SSuqSJj76tWY/
-			- The tarpestry of life: https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/
+		- [Holism](https://en.wikipedia.org/wiki/Holism), [Holographic Principle](https://en.wikipedia.org/wiki/Holographic_principle), [House of mirrors](https://en.wikipedia.org/wiki/House_of_mirrors)
+		- fb posts
+			- [Reflection - Phản tỉnh](https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/)
+			- [The Universe is just a giant distorted kaleidoscope](https://www.facebook.com/share/p/PV7w5qtofEpAwszK/)
+		- [Indra's net](https://en.wikipedia.org/wiki/Indra%27s_net) in [Avatamsaka Sutra](https://en.wikipedia.org/wiki/Avatamsaka_Sutra), [Hoa Nghiêm Kinh](https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh)
+			- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
+		- [vivarta-vada](https://en.wikipedia.org/wiki/Vivartavada) & maya: the manifestation of Brahman/Ātman as different individual selves (jivatman) in the non-dual Vedanta, i.e. [Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)
+		- dependent origination: [mình mới ngộ ra ý nghĩa của một giấc mơ kỳ lạ 16 năm trước về chủ đề "Duyên hợp"](https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/)
+			- fb posts
+				- [So-le (staggered)](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/)
+				- [The tarpestry of life](https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/)
 			- the mesh of horizonal & vertical threads is related to the ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
 			- 糸：縦の糸はあなた、横の糸は私…
 			  collapsed:: true
 				- {{video https://youtu.be/VI8zQG-yMMI}}
-		- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
-		- new node created by projecting the instance back to the concept
-		- new link created by shortcutting the circle
-		- round = complete graph = space
-		- newborn = round (complete graph) -> learning = distort to fit = pruning unused edges
 		- ((665ca429-84e3-49ff-921e-c07d19cd99ba)) = projection of the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
 		  id:: 66d1545b-4783-4545-aa12-a2ffa400eed7
 		  collapsed:: true
@@ -976,7 +972,30 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- touches ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) = 2 view cones touching by apexes
 				- apex to base = body to world = eye/pointer/current-state to space
 			- The world of these projections is best illustrated as a [circle graph](https://en.wikipedia.org/wiki/Circle_graph), where the viewcones are clearly shown.
+			  collapsed:: true
 				- ![Ageev_5X_circle_graph.svg.png](../assets/Uniinfo/Unithread/Ageev_5X_circle_graph.svg.png)
+			- Each form is a miniature version of the whole world which is distorted according to the position of the ((667272b8-88a8-4928-a22a-35035c9edf05)), thus effectively a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the world at that position.
+			  ⇒ The world itself is in turn just the combination of all these representatives!
+				- The _Mandelbrot set_ (world) is [a map](https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Julia_Mandelbrot_Relationship.png) of _connected Julia sets_ (representatives).
+				  collapsed:: true
+					- ![Mandelbrot-map-of-Julia-sets.png](../assets/Uniinfo/Unithread/Mandelbrot-map-of-Julia-sets.png)
+					- ![Julia_Mandelbrot_Relationship.png](../assets/Uniinfo/Unithread/Julia_Mandelbrot_Relationship.png)
+					- Interactive page: [webgl-mandelbrot](https://htmlpreview.github.io/?https://github.com/zbendefy/webgl-mandelbrot/blob/master/index.html) < [GitHub: zbendefy](https://github.com/zbendefy/webgl-mandelbrot)
+					- Video explaining the correlation between Mandelbrot & Julia: 
+					  {{video https://youtu.be/vfteiiTfE0c}}
+				- [Projective clock](https://www.geogebra.org/m/ek7snm8j) is a wall clock whose each “number” $H$ is a form, i.e. a miniature version of the clock with the hand pointing to the corresponding hour $H$.
+				  collapsed:: true
+					- The state of the clock at any time $t$ is represented by the form of the clock at that state.
+					  ⇒ The whole clock itself is just the state space of its own states.
+					- ![ProjectiveClock.png](../assets/Uniinfo/Unithread/ProjectiveClock.png)
+					- The normal wall clock is just an abstract version of the projective clock, with the forms abstracted into numbers.
+					  ![ProjectiveClock-abstract.png](../assets/Uniinfo/Unithread/ProjectiveClock-abstract.png)
+			- In other words, each form is a manifestation of the world in one aspect, e.g. circles, arrows, equals are just manifestations of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) where the corresponding component is shown, magnified, and other components are hidden, minimized.
+		- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
+		- new node created by projecting the instance back to the concept
+		- new link created by shortcutting the circle
+		- round = complete graph = space
+		- newborn = round (complete graph) -> learning = distort to fit = pruning unused edges
 	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
 	  collapsed:: true
 	  :LOGBOOK:
@@ -1207,6 +1226,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  > Không có chân không tuyệt đối!
 			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
 			- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the “*thin air*” of ((6678288e-699b-4325-bdba-bf6349fe0d57)) fills up the empty space of ((66f267f7-01f9-47b9-8376-abd27fdf2930)), how it ((671e3d98-0006-43be-b714-247f3d3a0c49))s into fluid and then ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))s into solid of ((665ca429-84e3-49ff-921e-c07d19cd99ba)).
+			  id:: 6735b185-b053-4651-be76-f0c9032ce119
 				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) = [導引](https://en.wikipedia.org/wiki/Daoyin) ([Đạo Dẫn](https://vi.wikipedia.org/wiki/Ph%C3%A9p_%C4%91%E1%BA%A1o_d%E1%BA%ABn)): (circle = form = condensate = essence [精, tinh]) → (arrow = content = fluid = breath [氣, khí]) → (equal = awareness = space = spirit [神, thần])
 				  :LOGBOOK:
 				  CLOCK: [2024-10-27 Sun 20:41:38]
@@ -1266,3 +1286,22 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Out of nothing:** This phrase is also quite common, but slightly less so than "out of thin air."
 				- **Ex nihilo:** This Latin phrase is less common in everyday conversation, but it's often used in philosophical and academic contexts.
 		- Chat with Gemini: [Latin for "Out of Thin Air"](https://gemini.google.com/app/182417258903bcd9)
+	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the [halting problem](https://en.wikipedia.org/wiki/Halting_problem) = [liar paradox](https://en.wikipedia.org/wiki/Liar_paradox) = circle-arrow complementarity = ((66f3e588-9094-45af-9dff-2225c3ac39ab)) = unlimited refinability = intrinsic openness of the ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
+	  id:: 6747eac1-f683-4ed1-9b06-34fd10103c0c
+	  collapsed:: true
+		- circle = completeness = totality <> arrow = consistency = partiality
+		  The ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is contradictory, the consistent is partial.
+		- The “negation” or “opposition” of the “pathological program” `P` in the halting problem = the “lie” of the “liar” = the arrow that differentiate 1 from 0 = the knife that cut the circle open
+		-
+	- Usages of `⋇`
+	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
+	  collapsed:: true
+		- Unithread's interunion: $c ⋇ i = s_0 ⋇ s_1 = s_0 / s_1 / s_2 / ... / 1$ ~ [continued fraction](https://en.wikipedia.org/wiki/Continued_fraction)
+		- Copilot says that `⋇` has been used for [wedge sum](https://en.wikipedia.org/wiki/Wedge_sum), which is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) in Unithread.
+		- $e^{x ± r} = e^x ⋇ e^r$
+			- [Confidence intervals](https://en.wikipedia.org/wiki/Confidence_interval) around arithmetic mean $x ± r$ (with radius $r$) and geometric mean $y ⋇ s$ (with scale variance $s$).
+				- Ref: [StackExchange](https://math.stackexchange.com/questions/954186/what-is-the-symbol-divideontimes-divide-times-for), Gemini
+			- [Involutions](https://en.wikipedia.org/wiki/Involution_(mathematics)), self-inverse operators preserving information
+				- $x ± y = (x + y, x - y)/\sqrt{2}$
+				- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
+				- These are genralized “rotation” operations similar to [unitary operators](https://en.wikipedia.org/wiki/Unitary_operator) which preserve the norm of state vector.

@@ -893,7 +893,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6675369a-1d13-48c5-8a77-d588aa8b59b8
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
-	- DOING ## resource
+	- ## resource
 	  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
 	  collapsed:: true
 	  :LOGBOOK:
@@ -1076,11 +1076,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Each part is heading toward its representative because that's the light end, the source of effect flow.
 				- The representatives collect distributed upward effects for the whole to condensate into formal effects. This is similar to the sky [gathering clouds](((673312a3-e94e-478f-9e21-bad72ef29d1b))) for the rain.
 				- Due to the process of collection and condensation, the representatives are far from the the parts: lagging behind in time and radically different from each individual part. The larger the whole (relative to its parts), the farther its representatives are from the parts.
+				- content/form = cause/effect = process/result = path/target
+					- The visible form is the ((6729b7cf-83b8-4a42-aac7-ec8cf16fa734)) of a lot of invisible content(s). So is the effect from various causes, as well as the result from the long process.
+					- Due to its visibility, the form is taken as the target for subjects to head to. Directly heading to the the form, subjects are short-cutting the full path of content leading to the form, thus effectively using up the form's crystalized content, making it hollower and emptier.
 			- The Game of Chasing Shadows
 			  id:: 67331a5a-1815-40c1-96db-ef7be8ee8d7b
 			  Trò Đuổi Hình Bắt Bóng
 				- The visible forms and representatives are ((671e2782-2098-41a3-83a7-e042bfb468d7)) of the invisible content. In a sense, the forms are “shadows” of the whole content. The parts following the forms in order to reach the whole is an _infinite cycle of **chasing shadows**_.
 				- Ironically, this “shadow” is so vivid, opposite to the normal dark “shadow” of the idiom “chasing shadows”. However, the effect is the same, an infinite cycle, because both shadows are illusive. That illusion is resulted from the ((67331da7-8b10-4890-ae51-9a92796c5af3)) and the hidden intention of the chaser to catch the entity represented by the forms but not the forms themselves.
+				  collapsed:: true
 					- In the Vietnamese idiom “đuổi hình bắt bóng”, the visualization is clearer: one chases the vivid but form (hình) in order to catch its entity but actually can only catch the illusive shadow (bóng).
 					- A better analogy of the vivid form is the image reflection on water surface.
 	- ## complement
@@ -1562,6 +1566,35 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 			  collapsed:: true
+				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
+				  id:: 673a17a7-0094-4f4d-bd79-525e7f803b50
+				  collapsed:: true
+					- The cone of vision is the closest example of a viewcone.
+					- There are many terms around this cone of vision and perspective projection.
+						- visual rays = lines of sight (sight lines) = rays from eye to (points of) objects
+							- The central visual ray (central sight line) is the [viewing direction](((6739f671-fe51-4f10-ba24-b492b62fe932))) and is also ambiguously called "the sight line".
+						- direction of view (viewing direction, viewing ray, principal visual ray) = axis of the visual cone
+						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
+						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D corresponding to image lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
+						  id:: 6739fd3d-066d-46a6-b9f3-3dbab8c9d817
+						- perspective lines = orthogonals = parallel lines in 3D with image lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
+						  collapsed:: true
+							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in Creative Glossary](http://www.creativeglossary.com/art-perspective/orthogonal-lines.html), [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
+								- Here, “orthogonal” can be understood as one in the 3 sets of parallel lines of the the cube which are perpendicular to each other in three-point perspective.
+							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “orthogonal” as “perpendicular to the image plane”.
+							- The term “orthogonal” seems to originate from the forward lines perpendicular to the image plane in one-point perspective, in constrast with the [transversals](((673ab08d-2389-4306-a7ee-6970e17018c6))). But then, the notion has been generalized to any parallel lines in 2-point & 3-point perspective.
+								- In Live About, [Helen South explains](https://www.liveabout.com/orthogonals-drawing-definition-1123067) the term “orthogonals” in both senses: perpendicular to the image plane and perpendicular to other set of orthogonals.
+						- transversals = parallel lines with image lines don't converge (because they are parallel to the image plane)
+						  id:: 673ab08d-2389-4306-a7ee-6970e17018c6
+						  collapsed:: true
+							- Many ones define “transversal lines” as “lines parallel to the image plane” like [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
+							- Only [Bruce MacEvoy at Handprint](https://handprint.com/HP/WCL/perspect1.html) defines “transversal” as “parallel to the ground line”.
+						- vanishing point = the virtual point only on image plane (not in 3D) [where parallel lines converge](https://en.wikipedia.org/wiki/Vanishing_point)
+						  id:: 673a0211-a4ef-4548-acc5-f9141de253cb
+							- principal (or central vanishing) point = the vanishing point of the [principal lines](((6739fd3d-066d-46a6-b9f3-3dbab8c9d817)))
+							  id:: 673a04c4-6c6a-4b75-b336-45a8f149550d
+						- vanishing line = the virtual line only on image plane (not in 3D) [where parallel planes meet at infinity](https://en.wikipedia.org/wiki/Vanishing_point#Vanishing_line)
+							- “vanishing lines” is also ambiguously used to refer to the image of parallel lines, as shown [in Merriam Webster dictionary](https://www.merriam-webster.com/dictionary/vanishing%20line) and some pages like [this article by Kiyeon Kim](https://www.tomboweurope.com/en/inspiration/perspective-drawing)
 				- The past [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
 			- #### tree view
@@ -2091,6 +2124,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
 			- ### conscious
 			  id:: 66f267df-e3b0-444b-a721-1225ca59d292
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-09-24 Tue 14:19:07]
 			  CLOCK: [2024-09-24 Tue 14:19:10]
@@ -2385,55 +2419,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- then `ln`
 						- ```sh
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
-						  ```
-			- Some pages in `assets/HTML/` are hard-linked to other projects (graphs)
-				- [markdown-watcher.html](../assets/HTML/markdown-watcher.html): **2 links**
-				  collapsed:: true
-					- `${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html`: UniinfoNotes
-					- `${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html`: Linux logseq-notes
-					- `diff` check first
-						- ```sh
-						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html"
-						  ```
-					- then `ln`
-						- ```sh
-						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.html"
-						  ```
-				- [markdown-watcher.js](../assets/HTML/markdown-watcher.js): **2 links**
-				  collapsed:: true
-					- `${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.js`: UniinfoNotes
-					- `${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.js`: Linux logseq-notes
-					- `diff` check first
-						- ```sh
-						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.js" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.js"
-						  ```
-					- then `ln`
-						- ```sh
-						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/markdown-watcher.js" "${HOME}/opt/personal/logseq-notes/assets/docs/markdown-watcher.js"
-						  ```
-				- [diagram-watcher.html](../assets/HTML/diagram-watcher.html): **2 links**
-				  collapsed:: true
-					- `${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html`: UniinfoNotes
-					- `${HOME}/opt/personal/logseq-notes/assets/docs/diagram-watcher.html`: Linux logseq-notes
-					- `diff` check first
-						- ```sh
-						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/diagram-watcher.html"
-						  ```
-					- then `ln`
-						- ```sh
-						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/diagram-watcher.html" "${HOME}/opt/personal/logseq-notes/assets/docs/diagram-watcher.html"
-						  ```
-				- [FolderDiv.js](../assets/HTML/FolderDiv.js): **2 links**
-				  collapsed:: true
-					- `${HOME}/source/UniinfoNotes/assets/HTML/FolderDiv.js`: UniinfoNotes
-					- `${HOME}/opt/personal/logseq-notes/assets/docs/FolderDiv.js`: Linux logseq-notes
-					- `diff` check first
-						- ```sh
-						  gdiff "${HOME}/source/UniinfoNotes/assets/HTML/FolderDiv.js" "${HOME}/opt/personal/logseq-notes/assets/docs/FolderDiv.js"
-						  ```
-					- then `ln`
-						- ```sh
-						  ln -fv "${HOME}/source/UniinfoNotes/assets/HTML/FolderDiv.js" "${HOME}/opt/personal/logseq-notes/assets/docs/FolderDiv.js"
 						  ```
 			- Workflow
 				- Never do any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
@@ -4139,6 +4124,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  CLOCK: [2024-11-14 Thu 15:40:05]--[2024-11-14 Thu 16:12:16] =>  00:32:11
 							  :END:
 								- Referenced by Linux > commands > ((6735b188-098a-41ac-89ed-8cfcc857d796)) > `ll` = `ls -lhF` > ((6735b188-a46c-4363-8ccc-03fbfcf2cbaa))
+								  collapsed:: true
 								- The id of `file mode bits` is still stored in Logseq graph, but not in `Mind Jungle.md`.
 									- A `Re-index` does **clear the id in the graph**, instead of updating id in the Markdown file!
 								- Reason: in 2024-10-28,
@@ -4380,6 +4366,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Copy to external text editor to get text of block refs.
 						- Copy `{{embed}}`ed contents
 						- Remove additional notes & tasks
+						- [!] The biggest problem is block refs
+							- The internal refs to blocks within the page should be resolved automatically.
+							- The external refs should be resolved to plain texts.
 					- Then, load the published note to converter script
 						- publish Markdown
 							- convert newline `\n` to `<br />` (skipped)
@@ -4526,6 +4515,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  American style: "double quotes contain 'single quotes'"
 									  British style:  'single quotes contain "double quotes"'
 									  ```
+							- TODO Process markers like `TODO`, `CANCELLED`, ...
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 							- `MarkdownIt.options`
 							  collapsed:: true

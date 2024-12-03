@@ -1,4 +1,4 @@
-{
+const shorthandMap = {
     "‘’": {
         "i": "2",
         "codePoint": "U+2018+2019",

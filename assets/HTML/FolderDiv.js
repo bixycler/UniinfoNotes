@@ -206,6 +206,8 @@ const FolderDivStyle = `
 `;
 //end style>
 
+
+// Export <style id="folder_div_style">${FolderDivStyle}</style> to HTML body
 (function(){
   let style = document.createElement('style');
   style.setAttribute('id', 'folder_div_style');
