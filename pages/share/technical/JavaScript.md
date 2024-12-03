@@ -69,7 +69,8 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 				  */
 				  ```
 		- [lodash](https://lodash.com/) (`_`) provide utils for arrays, numbers, objects, strings, composite functions, etc.
-			- The default "build" is in the good old non-module js
+		  collapsed:: true
+			- The default "build" is in the good old non-module format.
 			- ES module format: [lodash-es](https://www.npmjs.com/package/lodash-es)
 		- TODO Extract the `wrap()` and `Backbone.MModel` in [_base.js](../assets/HTML/_base.js) which is copied from `~/opt/web/myhotel/airlink.myhotel/airlink/myhotel/templates/js/`
 		  collapsed:: true
@@ -103,7 +104,10 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 			  }
 			  
 			  ```
-	- Library difinition
+	- Library definition
+		- ES [module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+			- [Loading non-JavaScript resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#loading_non-javascript_resources): Can import JSON as a JavaScript object, or import CSS as a [`CSSStyleSheet`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet) object.
+			-
 		- Custom element libs can be used both as modules and as non-module libs, because all interactions are through the custom element instances.
 		- For module to live with non-module scripts:
 			- export to global scope with `Object.assign(globalThis, { func, prop, cls, ... })`
