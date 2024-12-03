@@ -109,7 +109,7 @@ let exportUrl = exportUrlMd;
 /** The "god function" */
 async function load(forced) {
   let fn = mdf.value.trim();
-  if(!pdf){ pdf = await DocRaptor(); }
+  if(!pdf){ pdf = DocRaptor(); }
 
   // update title & URLs
   document.title = (fn ? fn : 'Markdown') + ' ' + butToggleWatching.value;

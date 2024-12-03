@@ -618,10 +618,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  ```
 				- `common-utils.js`
 				  id:: 674571bb-ea17-4635-9158-d5c81381ab86
+					- Ported some utils from `_base.js`.
 				- `DocRaptor.js`
-					- Module: try to live with non-module scripts
-						- can export to global scope with `_.assign(globalThis, {DocRaptor})`,
-						- but its user must also wait for it to load asynchrously, like `pdf = await DocRaptor()`.
+					- Each instance `DocRaptor()` holds a separate configuration (`name`, `production`) conversion to PDF.
 				- `markdown-converter.js`
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the [rabbit hole](((6735b189-a8b7-4ff3-b42a-c59f38a8334e))) of endless bugs and modifications
 		- ...
