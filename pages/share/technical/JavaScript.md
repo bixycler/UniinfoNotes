@@ -107,12 +107,13 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 	- Library definition
 		- ES [module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 			- [Loading non-JavaScript resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#loading_non-javascript_resources): Can import JSON as a JavaScript object, or import CSS as a [`CSSStyleSheet`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet) object.
+				- The `import()` function is very handy: `import("data.json", { with: { type: "json" } });`
 				- In the plain old js, JSON must be loaded with `fetch()` or converted to `.json.js`: `const jsonObject = {...}`.
 			-
 		- Custom element libs can be used both as modules and as non-module libs, because all interactions are through the custom element instances.
 		- For module to live with non-module scripts:
 			- export to global scope with `Object.assign(globalThis, { func, prop, cls, ... })`
-			- but its user must wait for it to load asynchrously, like `f1 = await DocRaptor()`.
+			- but its user must wait for `DOMContentLoaded` event to use exported features, because it is loaded asynchrously.
 	- ## JSON
 	  id:: 6708b36b-54f9-4455-bcb0-f6fb0c39f01e
 	  :LOGBOOK:
