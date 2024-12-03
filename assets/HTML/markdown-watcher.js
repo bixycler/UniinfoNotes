@@ -52,6 +52,10 @@ var FolderDivJS = null;
 // DocRaptor
 let pdf = null; //DocRaptor(); //
 
+// markdown-converter.js
+let mdNorm = MarkdownNormalizer();
+let mdHtmlNorm = MarkdownNormalizer();
+
 // modern-screenshot
 const domto = window.modernScreenshot;
 
