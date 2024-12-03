@@ -29,16 +29,16 @@ const patLink  = new RegExp(patLinkText.source+ '\\('+patHRef.source + patLinkTi
 const patLinkAll = new RegExp(patLink, 'g');
 
 
-/** Convert from Logseq markdown to normal Markdown */
-export default function DocRaptor(){
+/** Convert from Logseq markdown to Common Markdown */
+export default function MardownNormalizer(){
   let mapUuid = {}, noUuid = {}, circularRefs = {}, localLinks = {};
-  function normalizeMardown(md,
-    flattenHeadings = false,
+  let flattenHeadings = false,
     blankLineBeforeCodeBlock = false,
     looseList = false,
     lineBreakAfterMetadata = false,
-    pageHeadingAsItem = false
-  ){ // md -> nmd
+    pageHeadingAsItem = false;
+
+  function normalize(md){ // md -> nmd
     let lns = (md+'\n').split('\n'), nmd = '';
     let indent = '';
     let m = null; // pattern matches
@@ -364,11 +364,20 @@ export default function DocRaptor(){
   ///////////////////////////////////////////
   // Interface
   const self = {
+    // Fields:
+    flattenHeadings,
+    blankLineBeforeCodeBlock,
+    looseList,
+    lineBreakAfterMetadata,
+    pageHeadingAsItem,
+    // Methods:
+    normalize,
   }
+  return self;
 }
 
 /** Restructure item lists to <folder-div> */
-function restructureToFolderDiv(node, root=false){
+export function restructureToFolderDiv(node, root=false){
   //console.debug('restructuring...',node.children[0].textContent);
   // convert <li> to <folder-div>
   let unfoldable = document.createElement("div");
