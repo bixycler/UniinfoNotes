@@ -110,7 +110,7 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 			- Using with `<script type="module" src="module.js"></script>`
 			  or with [dynamic `import()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import) in non-module scripts.
 			- Only the main module needs to be placed in the HTML `<script>`, all dependencies of it are resolved automatically following `import` graph.
-				- That means dependency declarations are moved from HTML side to JavaScript side.
+				- That means dependency declarations are moved from HTML `<script>` to JavaScript `import`.
 				- We can manually repload dependencies with `<link rel="modulepreload" href="deps.js"/>` to increase startup performance in some cases.
 			- [Loading non-JavaScript resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#loading_non-javascript_resources): Can import JSON as a JavaScript object, or import CSS as a [`CSSStyleSheet`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet) object.
 				- The `import()` function is very handy: `json = await import("data.json", { with: { type: "json" } });`
