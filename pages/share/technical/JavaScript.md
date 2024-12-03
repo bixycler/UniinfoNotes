@@ -29,7 +29,11 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 				- [obj.`propertyIsEnumerable`()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable)
 				- [`Object.keys`(obj)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys), [`Object.values`(obj)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values), [`Object.entries`(obj)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
 				- [`Object.assign`(target, source1...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
-				  can copy any property, whose key is either string or Symbol.
+				  can copy any own enumerable property, whose key is either string or Symbol.
+					- This is equivalent to direct assignment with `obj.id = v` and `obj[exp] = v` (for Symbol).
+					- This will create new enumerable (& configurable & writable) properties if the object hasn't owned them yet.
+					- This cannot assign to inherited properties, but create new own ones shadowing inherited ones.
+					- This will use setters if available.
 				- [Spread syntax `...`obj](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 				  is complicated by [`Symbol.iterator`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/iterator) and 3 types of spreading: [object literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_object_literals), [array literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_array_literals), and [function argument list](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#spread_in_function_calls).
 			- control structure for **any enumerable** property, either own or inherited
@@ -45,7 +49,9 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 				- This is due to the [complication](((6708b829-9386-4423-8e93-5ce50c1ace1f))) of [object's property](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) (enumerability, configurabiblity, writability, getter, setter), which is designed for general purpose, not only for data storage like ((6708b36b-54f9-4455-bcb0-f6fb0c39f01e)).
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) We extend `Object.prototype` with a `clear()` function just to clear all enumerble properties owned by this object.
 				- ```js
-				  // Clear all enumerable properties in an object (which are owned by that object only, not inherited)
+				  /** Clear all enumerable properties in an object
+				   * (which are owned by that object only, not inherited)
+				   */
 				  Object.defineProperty(Object.prototype, 'clear', {
 				    value: function(){
 				      // Object.keys: enumerable own
@@ -55,9 +61,17 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 				    },
 				    //enumerable: false, configurable: false, // already by default! A function should not be enumerable.
 				    writable: true, // let this function to be updated (overriden) later on with assignment: Object.prototype.clear = function(){ /*new implementation*/ }
-				    //Note: If we don't Object.defineProperty, but do assignment `Object.prototype.clear = function(){...}` first, it will create an enumerable & configurable & writable property. But a function in general should not be enumerable though!
 				  });
+				  /* Note: If we don't defineProperty(), but do assignment
+				    `Object.prototype.clear = function(){...}` first,
+				    it will create an enumerable & configurable & writable property.
+				    But a function in general should __not be enumerable__ though!
+				  */
 				  ```
+		- [lodash](https://lodash.com/) (`_`) provide utils for arrays, numbers, objects, strings, composite functions, etc.
+		  collapsed:: true
+			- The default "build" is in the good old non-module format.
+			- ES module format: [lodash-es](https://www.npmjs.com/package/lodash-es)
 		- TODO Extract the `wrap()` and `Backbone.MModel` in [_base.js](../assets/HTML/_base.js) which is copied from `~/opt/web/myhotel/airlink.myhotel/airlink/myhotel/templates/js/`
 		  collapsed:: true
 		  :LOGBOOK:
@@ -90,6 +104,26 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 			  }
 			  
 			  ```
+	- Library definition
+	  id:: 674e9c7a-230a-461f-9846-2fa934fc88fc
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-12-03 Tue 15:13:17]
+	  :END:
+		- ES [module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+		  with encapsulation and dependency management via `import` which is loaded **asynchrously**
+			- Using with `<script type="module" src="module.js"></script>`
+			  or with [dynamic `import()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import) in non-module scripts.
+			- Only the main module needs to be placed in the HTML `<script>`, all dependencies of it are resolved automatically following `import` graph.
+				- That means dependency declarations are moved from HTML `<script>` to JavaScript `import`.
+				- We can manually repload dependencies with `<link rel="modulepreload" href="deps.js"/>` to increase startup performance in some cases.
+			- [Loading non-JavaScript resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#loading_non-javascript_resources): Can import JSON as a JavaScript object, or import CSS as a [`CSSStyleSheet`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet) object.
+				- The `import()` function is very handy: `json = await import("data.json", { with: { type: "json" } });`
+				- In the plain old js, JSON must be loaded with `fetch()` or converted to `.json.js`: `const jsonObject = {...}`.
+		- [Custom element](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) libs can be used both as modules and as plain old libs, because all interactions are through the custom element instances.
+		- For module to live with non-module scripts:
+			- export to global scope with `Object.assign(globalThis, { func, prop, cls, ... })`
+			- but its user must **wait** for `DOMContentLoaded` event, or `await import('./my-module.js')`, to use exported features, because it is loaded asynchrously.
 	- ## JSON
 	  id:: 6708b36b-54f9-4455-bcb0-f6fb0c39f01e
 	  :LOGBOOK:

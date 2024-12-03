@@ -1233,3 +1233,87 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- "Mở cơ" là mở hội, lập đàn cầu cơ theo nghĩa đen, nhưng nghĩa bóng ý là "mở thiên cơ ra" để độ chúng sanh 😃
 		- Những vòng tròn văn hoá và ngôn ngữ, đi ráp vòng quay trở lại nhưng "lợi hại hơn xưa", biến hoá khôn lường 😉
 		- "Cầu cơ" tiếng Anh là ouija, nhưng đọc là "wi-jơ", âm đầu "oui" [wi] thì theo Pháp, âm sau "ja" thì theo tiếng Đức 😃
+	- The time to [reset](((67445065-15b2-475e-a704-78f140d487af)))
+	  id:: 6746d7ab-85cb-4705-8668-58e5abfe0754
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-11-27 Wed 15:27:18]--[2024-11-27 Wed 18:32:07] =>  03:04:49
+	  :END:
+		- Sau mấy tuần "ăn cắp" giờ cty để làm [CreatZy shorthands](((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))) và [Logseq publish](((671f7f9d-58c0-48ce-aeb6-d3d0663ea7bf))), mình "chốt" lại để làm trả nợ cty... bằng một commit: ((6735c7ac-17c8-4fea-8d4c-b76a942bc453)). Ngay cái "commit chốt" đó lại phát sinh ra một đống vấn đề.
+		  ⇒ Thì ra lại rơi vào cái bẫy "xong rồi"!
+		- Ôn lại không biết bao lần mình đã bị mắc cái bẫy "sắp tới nơi, sắp xong" này, cũng như bao lần mình nhận ra "chẳng bao giờ xong cả!", mình thấy cần phải reset lại cái thái độ cơ bản này, _thay vì hướng đích thì hãy **bắt đầu**_: ((67445065-15b2-475e-a704-78f140d487af))
+		- Ngày hôm sau lên cty, lần đầu mình trải nghiệm cảm giác "mọi thứ bày ra trước mắt để bắt đầu".
+		- Mình đã trải nghiệm cái chết nhiều rồi, giờ “thêm một bước nữa” để trải nghiệm sự tái sinh, sự bắt đầu.
+			- “Tới đầu sao trăm thước, thêm một bước nữa thôi; Chết đi phần bản ngã, sống lại cả đất trời” ([fb](https://www.facebook.com/share/p/LYj7TBTB952hVzeN/))
+		- Lễ 20/11, em bán hoa xong thì 2 vợ chồng chạy xuống Vĩnh Kim gặp chị Diệu Sinh.
+		  collapsed:: true
+			- Đêm Thứ 7 (23), ghé Mỹ Tho nghỉ, mình quán về dimentionality, thấy state/possibility space được "kéo sợi" ra thành sợi mảnh extension và khi cuộn lại thì cũng có lượng đúng bằng intension. Các vấn đề về dimensionality bỗng rõ ràng thông qua các **phép biến hình bảo toàn** bằng cách chia nhỏ (vi phân) rồi sắp xếp lại.
+			  id:: 6746d8fb-fe6d-4fe2-9d5d-158a07d59996
+			- Sáng Chủ Nhật (24), vào gặp chị đang nằm võng nghỉ trong nhà, còn anh và các đệ tử thì đang giác hơi trị bịnh cho mọi người.
+			- 2 vc mình vào trong hỏi chuyện đạo pháp, chị vẫn xổ thơ như thường lệ (như trên YouTube), và nhiều lần mình muốn hỏi mà không hỏi được. Thế là vợ phải quay sang mình nói "anh có gì muốn hỏi thì hỏi đi" để tạo tình huống mở lời cho mình.
+			- Mình hỏi về những vướng mắc của cái "làm quên mọi thứ" thì chị lại cho rằng đó là "định" là tốt.
+			- Vợ cũng hỏi sâu hơn về việc lúc quán thân thì thấy rõ đang bệnh bên trong mà khi làm thì ko còn thấy. Chị bảo "chết thì bỏ!"
+			- Cuối cùng chị chốt bằng lý "buông xả" rồi đứng lên. Mình nhận ra rằng mình đang chưa buông được những câu hỏi này, nên nương theo lời nhắc nhở đó, mình cũng buông ra. Vợ cũng bảo với mình mua ủng hộ đồ chay rồi về.
+		- Thứ 2 (25), vẽ xong được 3 cái diagram cho project Pre.Env., kết thúc được trong thoải mái, không bị kéo dài, không bị áp lực, lần thứ 2 mình cảm nhận được cái sự "mọi thứ bày ra trước mặt để bắt đầu hành trình mới". Về sớm 19h, mình tranh thủ qua hỗ trợ vấn đề máy in cho ba.
+		- Hôm qua, sếp Đạt lại kêu lên gặp. Mình tưởng có gì khác, nhưng gặp thì vẫn vậy, vẫn muốn mình làm lẹ, vẫn kêu "nghỉ bên kia đi để tập trung làm cho anh", v.v.
+		- Sáng nay, mình dậy trễ... từ sâu bên trong không muốn dậy. Lên cty ngủ trưa 1 tiếng, rồi ngồi thiền lơ lửng giữa mơ và tỉnh thêm 2 tiếng nữa. Trong mơ mình thấy những màn hình kéo lên kéo xuống và "chọn chương trình này" để mơ y như đang làm việc trên máy tính vậy. Trong mơ, mình ôn lại nhiều thứ trong đời một cách rất khái quát. Lần này mình vào ra cảnh mơ như ra vào một căn nhà hoang không có cửa, trong mơ cũng nghe thấy tiếng mọi người bên ngoài và ra ngoài vẫn thấy cảnh mơ, nói chung là hầu như không còn phân biệt nữa.
+		- Xuất thiền, mở mắt, quan sát mọi thứ trước mặt, nghĩ "giờ mình phải đụng vào chúng mà không để bị vướng mắc, phải bắt đầu từ đầu!" Thế là mình nhìn từng thứ và cảm nhận những ý muốn đối với nó, quán những cảm giác đó rồi buông xuống, một bài tập hết sức cơ bản.
+		- Sau khi quan sát hết lượt, mình quyết định ghi lại những dòng nhật ký này.
+	- By the abyss
+	  id:: 674d48b7-e011-4547-ac17-8997b7bb575c
+	  collapsed:: true
+		- fb posts:
+		  collapsed:: true
+			- [By the abyss](https://www.facebook.com/share/p/mj1nY6UArLUDEgMp/)
+			  collapsed:: true
+				- Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern
+				  ![Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg](../assets/Will/story/2024-Dec/Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg)
+				- Preikestolen (Pulpit Rock)
+				  collapsed:: true
+				  ![preikestolen-pulpit-rock-fjord-sitting.jpg](../assets/Will/story/2024-Dec/preikestolen-pulpit-rock-fjord-sitting.jpg)
+					- Preikestolen aerial view
+					  ![Preikestolen_de_face.jpg](../assets/Will/story/2024-Dec/Preikestolen_de_face.jpg)
+					- Preikestolen topdown view
+					  ![Preikestolen_topdown.jpg](../assets/Will/story/2024-Dec/Preikestolen_topdown.jpg)
+				- 0.999999...
+				  ![0.999999....jpg](../assets/Will/story/2024-Dec/0.999999....jpg)
+			- [Touching the bottom and turning back up... there's a long way ahead!](https://www.facebook.com/share/p/LNAfUavxgwGXNWqK/)
+			- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/AqPNJzTTcQA48Qxr/)
+			- [Target is the horizon!](https://www.facebook.com/share/p/Nr5BqKGNDZZE8A6h/)
+			- [0.999999999999... + 0.000000000000...1 = 1](https://www.facebook.com/share/p/ddMq3Zmwn4sGnSMT/)
+			- [Just one more step!](https://www.facebook.com/share/p/LYj7TBTB952hVzeN/)
+		- The abyss, the chasm, the canyon inside is the ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), [the radius of the content circle](((66875f13-3385-48d5-99b1-fb72dc53291d))).
+		- These days, i'm meditating on the [**conservation of content**](((670cd7d1-8380-49db-a47c-6aa132256596))), from ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) to [condensation of the thin air](((6735b185-b053-4651-be76-f0c9032ce119))), ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), [thread pulling](((6746d8fb-fe6d-4fe2-9d5d-158a07d59996))) ... back to [holographic principle](((66eb7dae-2032-434b-9106-756d4aad7cdb))) and see clearly...
+			- how the conservation expresses in both pairs of add-subtract `±` and multiply-devide `⋇` (interunion)
+				- add-subtract `±` is the arrow in the circle
+				- multiply-divide `⋇`: Each variable $x$ divides the [bulk](((674d6061-7973-47b6-bb9d-a7a816137883))) into slices orthogonal to the dimension of $x$ axis, and indexes these slices by its values $x_0, x_1, x_2, ..., x_k$, i.e. $x_k$ is the spatial index. Then, $x$ also indexes the bulk in time by its current value $x = x_{t0}$, i.e. $x_t$ is the temporal index.
+					- Unithread: **thread spinning** from fibers <> **thread pulling** from the One bulk = extending from 1 to N
+					  collapsed:: true
+						- Common: thread spinning & silk spinning with [spinnerets](https://en.wikipedia.org/wiki/Spinneret)
+						- Precise: thread spinning & silk pulling
+				- the elusive nature of the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) as a **bulk**: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **volume**)
+				  id:: 674d6061-7973-47b6-bb9d-a7a816137883
+			- how that many obops range the same content circle
+				- = the content circle is twisted many folds at the universal obop
+				- = many sustent circles touch at the universal obop
+					- version 1: each sustent circle is a complement part of the content circle.
+					- version 2: each sustent circle is a replicate of the content circle.
+				- = Ω-thread folds in the [hyphercube](https://en.wikipedia.org/wiki/Hypercube) (condensed intension)
+					- the folding configuration is the state of the body (of the universe).
+					- the arrows in the folded thread is the dynamic, transformation, state transition.
+				- = straight thread traverses the extentional space (empty extension).
+			- how the change within the intension (body) leads to motion in extensional world (spacetime);
+				- this connects the **condensed** intension with the **empty** space of extension.
+				- while dynamic in the condensate is wave propagation, dynamic in the empty space is motion.
+					- zoom in: wave = moving particle(s) coliding with (the) other(s) to transfer its arrow, just like the [Newton's cradle](https://en.wikipedia.org/wiki/Newton%27s_cradle) in many folds.
+					- zooming in space-time then in time ⇒ density in time = square of density in space
+			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
+				- This (seemingly) infinite layers of sustents is the “abyss” i'm facing.
+					- While "normal people" can easily cross the gap at the surface to close the circle,
+					- i'm drawn down to the abyss to dive into it: the subtle cracks, chasms inside have accumulated enough, just like the limit number 0.999999999999.
+					- In other words, the subtle bugs, mismatches, defects are all levels deep inside me. 
+					  ⇒ I'm a [debugger for God](https://www.facebook.com/share/p/4ESfXL4dVm2n7oLx/).
+				- Although they are infinite in extent (infinite number of layers), the total content is finite, 
+				  e.g. $\sum_{k=0}^n{1/b^k} = (1 - 1/b^{n+1})/(1 - 1/b)$.
+		- When writing this note, i [chat with Gemini](https://gemini.google.com/app/908aa4fc71c41ab7) ([trimmed publish](https://g.co/gemini/share/1faa0d2af166)) about the  ((674db08a-4c2b-4a73-b17c-d3223bc0e95e)).
+		-
