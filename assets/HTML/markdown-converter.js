@@ -226,6 +226,7 @@ export default function MarkdownNormalizer(){
 
   /** Replace all empty link in mapUuid's titles with target block title */
   function processMapUuid(){
+    console.debug('mapUuid:',mapUuid);
     //checkLinks(ln); // to prevent duplication of error messages, don't check here, only check at normalizeMardown(md)
 
     // ebref graph of empty block refs (processed/resolved ones are removed from g)
