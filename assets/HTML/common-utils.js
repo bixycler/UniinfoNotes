@@ -52,6 +52,21 @@ Date.prototype.addDays = function(days) {
     return that;
 }
 
+/** Clear all enumerable properties in an object
+ * (which are owned by that object only, not inherited)
+ */
+Object.defineProperty(Object.prototype, 'clear', {
+  value: function(){
+    // Object.keys: enumerable own
+    // Object.getOwnPropertyNames: all own (enum & non-enum)
+    // for in: all enumerables (own & inherited)
+    for(p of Object.keys(this)){ delete this[p]; }
+  },
+  //enumerable: false, configurable: false, // already by default! A function should not be enumerable.
+  writable: true, // let this function to be updated (overriden) later on with assignment: Object.prototype.clear = function(){ /*new implementation*/ }
+  //Note: If we don't Object.defineProperty, but do assignment `Object.prototype.clear = function(){...}` first, it will create an enumerable & configurable & writable property. But a function in general should not be enumerable though!
+});
+
 function eventPromise(dom, eventName) {
   return new Promise(resolve =>{
     dom.addEventListener(eventName, event =>{ resolve(event); }, {once:true})
