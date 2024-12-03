@@ -1,0 +1,887 @@
+<folder-div><div slot="unfoldable"><h1>Logseq publish <a class="logseq-meta" id="6735c981-7edd-4b51-afd2-23dcc4746238"></a></h1></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p>Use the built-in feature <code>Export public pages</code>. <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>Chose a <strong>separate folder</strong> (<code>$web/</code>) to checkout the <code>gh-pages</code> branch, then export to that folder.</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>Warning: Don't export to the same folder with the <code>main</code> branch (<code>$src/</code>), because their contents are very different.</p></div>
+<folder-div><div slot="unfoldable"><p>Manually copy the whole <code>assets</code> folder from <code>$src/</code> to <code>$web/</code></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>because [!] The built-in publisher still cannot handle assets (embedded or linked) other than embedded image.</p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p>The folder <code>$web/</code> can be launched by Web Servers.</p></div>
+<div slot="unfoldable-leaf"><p>When <code>gh-pages</code> branch is pushed to GitHub, GitHub Pages will deploy it to <code>https://$user.github.io/$repo/</code>.</p></div>
+<div slot="unfoldable-leaf"><p>[!] The built-in publisher does not give option to set <code>theme-mode: light/dark</code> and <code>accent-color: blue</code> and it always use the default theme (<code>data-color=logseq</code>).</p></div>
+<div slot="unfoldable-leaf"><p>So i customize <code>data-color=logseq</code> to match CreatZy theme.</p></div>
+<folder-div><div slot="unfoldable"><p>[!] The built-in publisher still cannot handle assets (embedded or linked) other than embedded image.</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>⇒ Manually copy the whole <code>assets</code> folder from <code>$src/</code> to <code>$web/</code></p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>CANCELLED Use <a href="https://github.com/logseq/publish-spa">publish-SPA</a> GitHub Action to publish to <a href="https://bixycler.github.io/UniinfoNotes/">GitHub Pages</a>. <a class="logseq-meta" data-collapsed="true" data-logbook="	  CLOCK: [2024-06-11 Tue 10:37:00]
+"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>[!] The published SPA has some style mismatch with the desktop app.</p></div>
+<div slot="unfoldable-leaf"><p>[!] The published SPA still cannot handle assets (embedded or linked) other than embedded image.</p></div>
+<folder-div folded="true"><div slot="unfoldable"><p>CANCELLED Local publishing with <a href="https://github.com/logseq/publish-spa?tab=readme-ov-file#cli">publish-SPA CLI</a> to publish local graph of HTV's works. <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p><code>publish-spa</code> requires <code>logseq</code> to be built for it to use <code>logseq/static</code>, but <code>logseq &gt; yarn install</code> fails :(</p></div><div slot="foldable"><pre><code>yarn install &gt; Link step &gt; logseq@workspace:. must be built because it never has been before
+
+Ambiguous Syntax Error: Cannot find which to pick amongst the following alternatives:
+  0. yarn install [--json] [--immutable] [--immutable-cache] [--check-cache] [--inline-builds] [--mode #0]
+  1. yarn install [--json] [--immutable] [--immutable-cache] [--check-cache] [--inline-builds] [--mode #0]
+While running --cwd tldraw install
+
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p>CANCELLED Publish linear (long-form) docs with <a href="https://github.com/sawhney17/logseq-schrodinger">Hugo publish (logseq-schrodinger)</a> for publishing to <a href="https://gohugo.io/">Hugo</a>.</p></div>
+<div slot="unfoldable-leaf"><p>Because the exported SPA is too large (~90MB including Electron), it's better to write a Custom Logseq publish via Web API.</p></div>
+<folder-div><div slot="unfoldable"><h2>Manually publish with Block copy and JavaScript or vim commands <a class="logseq-meta" id="baccbbc3-d175-4a52-aa43-c1eedbad2ebc"></a></h2></div><div slot="foldable"><p>draft note → published note → published Markdown → HTML → PDF</p><ul>
+<folder-div><div slot="unfoldable"><p>First, copy the block to be published to a page in <code>pages/publish/</code>, e.g. [[Logseq publish]].</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>Copy to external text editor to get text of block refs.</p></div>
+<div slot="unfoldable-leaf"><p>Copy <code>{{embed}}</code>ed contents</p></div>
+<div slot="unfoldable-leaf"><p>Remove additional notes &amp; tasks</p></div>
+<folder-div><div slot="unfoldable"><p>[!] The biggest problem is block refs</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>The internal refs to blocks within the page should be resolved automatically.</p></div>
+<div slot="unfoldable-leaf"><p>The external refs should be resolved to plain texts.</p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><h3>Then, load the published note to converter script</h3></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>publish Markdown</p></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p>convert newline <code>\n</code> to <code>&lt;br /&gt;</code> (skipped) <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>Note: newline is meaningful in Logseq but not in the standard Markdown (<a href="https://www.markdownguide.org/basic-syntax/#line-breaks">line break</a> requires two spaces at line end or a backslash, for the historical plain text email).</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>empty line is treated as paragraph break <code>&lt;/p&gt;&lt;p&gt;</code>, not line break <code>&lt;br /&gt;</code>.</p></div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>Skipped: The detection of wich lines to be converted is complicated, so we use the supported <code>markdownit({breaks: true})</code></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>For standard markdown, line breaks should be inserted manually when needed.</p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p>convert metadata to <code>&lt;a id="UUID" data-property="..." data-logbook="..."&gt;&lt;/a&gt;</code></p></div>
+<folder-div folded="true"><div slot="unfoldable"><p><code>looseList</code> to avoiding the style inconsistency between “<a href="https://spec.commonmark.org/0.31.2/#loose">loose lists</a>” and “tight lists”. <a class="logseq-meta" id="8bb65585-bc4d-45ec-ac3e-dc0dbebc81a8" data-collapsed="true" data-logbook="				  CLOCK: [2024-11-13 Wed 09:31:57]
+"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>Issue: Any blank line in any list item makes that list “loose”, i.e., all other items in the same list (at the same level) will be wrapped in <code>&lt;p&gt;</code> which will be rendered different (more line space) from the unwrapped items of the default “tight list”.</p></div>
+<folder-div><div slot="unfoldable"><p>[!] Cannot make soliton lists “loose” simply with blank line!</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>soliton list: only one item with no sub-list</p></div>
+<folder-div folded="true"><div slot="unfoldable"><p><s>Trick: Add  another line containing <code>&amp;nbsp</code> after the blank line.</s> <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>This line has no effect with normal text, but adds new code block after code block!</p></div>
+</ul></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>⇒ Hack: set all <code>markdown-it</code>‘s tokens with <code>"hidden": false</code>. <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>break down <code>mdi.render()</code> into:<br></p></div><div slot="foldable">
+Markdown →<code>mdi.parse()</code>→ token stream →<code>mdi.renderer.render()</code>→ HTML<br>
+with <code>mdi = window.markdownit() || new MarkdownIt()</code><ul>
+<div slot="unfoldable-leaf"><p>Ref source code: <a href="https://github.com/markdown-it/markdown-it/blob/master/lib/index.mjs#L516">MarkdownIt.prototype.render</a></p></div>
+<div slot="unfoldable-leaf"><p>Token debug: tab <code>debug</code> in <a href="https://markdown-it.github.io/">Live demo</a></p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p><code>markdown-it</code> should have a rule to disable “tight list” feature.</p></div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p>Some convenstions, like <a href="#10425b3d-0b0e-42fa-855f-9d46799ad3fb">blankLineBeforeCodeBlock</a>, require loose list.</p></div>
+<div slot="unfoldable-leaf"><p>The <code>&lt;p&gt;</code> wrapping is also convenient for <a href="%5Bundefined%5D(#672e0320-dc07-4c6e-8832-341aaa90cd2a)"><code>&lt;div slot="unfoldable"&gt;</code> in <code>&lt;folder-div&gt;</code></a>.</p></div>
+<folder-div><div slot="unfoldable"><p>References:</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>CommonMark talk: <a href="https://talk.commonmark.org/t/why-are-there-even-tight-lists/2301">Why are there even tight lists?</a></p></div>
+<div slot="unfoldable-leaf"><p>Markdown-It issues: <a href="https://github.com/markdown-it/markdown-it/issues/728">#728</a>, <a href="https://github.com/markdown-it/markdown-it/issues/678">#678</a>,</p></div>
+<div slot="unfoldable-leaf"><p><a href="https://github.com/prettier/prettier/issues/10063">Prettier's issue</a></p></div>
+<div slot="unfoldable-leaf"><p>Djot's issue: <a href="https://github.com/jgm/djot/issues/138">Revisit the concept of tight/loose list.</a></p></div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p>We also use style <code>li p {margin}</code> to fix this display issue.</p></div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p><code>flattenHeadings</code> to unitemize headings &amp; remove first tabs</p></div>
+<folder-div><div slot="unfoldable"><p>process block link/ref -&gt; <code>#</code>anchor link</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>Detect unresolved links</p></div>
+<folder-div><div slot="unfoldable"><p>Convert <code>((block ref))</code> and empty link <code>[](((UUID)) "comment")</code> to <code>[target block title](((UUID)))</code></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>All links &amp; block refs in the <code>target block title</code> is replaced by <strong>plain text</strong> due to the <a href="#66ae293c-b2ea-44cb-9e39-268c5a45c364">limitation of HTML anchor</a>.</p></div>
+<div slot="unfoldable-leaf"><p>Use <code>mapUuid[id] = blockTitle</code> to track block titles; add <code>target block title</code> to empty block ref/links in the topo-order of block ref dependency <a class="logseq-meta" data-logbook="						  CLOCK: [2024-11-07 Thu 20:44:23]--[2024-11-08 Fri 13:36:55] =>  16:52:32
+"></a></p></div>
+</ul></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Note: Link text can contain <strong>matched</strong> square brackets <code>[]</code>, and external link target can contain <strong>matched</strong> parentheses <code>()</code>... up to <strong>3 levels</strong>. <a class="logseq-meta" data-collapsed="true" data-logbook="					  CLOCK: [2024-11-06 Wed 17:45:57]--[2024-11-07 Thu 17:19:01] =>  23:33:04
+"></a></p></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p>Some Markdown implementations do allow <em><strong>matched</strong> brackets/parentheses</em> in link. <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>E.g. This links to <a href="https://en.wikipedia.org/wiki/Parenthesis_(rhetoric)">[wiki] Parenthesis_(rhetoric)</a></p></div>
+<div slot="unfoldable-leaf"><p>Supported by Logseq, Markdown-It, GitLab</p></div>
+<folder-div><div slot="unfoldable"><p>Unsupported by GitHub, <a href="https://github.com/simov/markdown-viewer">Markdown Viewer (Browser Extension)</a>, <a href="https://math.meta.stackexchange.com/questions/11662/markdown-quirk-including-square-brackets-in-link-text-of-comment">Stack Exchange</a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>Parentheses in link target is supported by most of them: HitHub, Markdown Viewer, <a href="https://meta.stackexchange.com/questions/13501/links-to-urls-containing-parentheses">Stack Exchange</a>,</p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>Regex pattern for <code>n</code>-level-nesting balanced brackets:</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>For unbound <code>n</code>, <a href="https://www.rexegg.com/regex-recursion.php">recursive regex</a> is required.</p></div>
+<folder-div folded="true"><div slot="unfoldable"><p>For specific <code>n</code> (= 3 in our case), we can construct the pattern with this algorithm: <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code class="language-js"><span class="hljs-comment">/**
+ Examples:
+    [A [very [very [very]...] messy] link](http://to(some(weird(...))).href "with link tip")
+    // 3 levels of []
+    patText = balancedBracketsRegexPattern('[',']','',3,true)
+    // 3 levels of () and exclude space &amp; quote of the link tip
+    patHref = balancedBracketsRegexPattern('(',')',' "',3,true)
+*/</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">balancedBracketsRegexPattern</span>(<span class="hljs-params">open=<span class="hljs-string">'['</span>, close=<span class="hljs-string">']'</span>, excludes=<span class="hljs-string">''</span>, depth=<span class="hljs-number">1</span>, unrolled=<span class="hljs-literal">false</span></span>)
+{
+    <span class="hljs-keyword">let</span> lo = <span class="hljs-string">'\\'</span>+open, lc = <span class="hljs-string">'\\'</span>+close;  <span class="hljs-comment">// literals</span>
+    <span class="hljs-keyword">let</span> noBracket = <span class="hljs-string">'[^'</span>+lo+lc+excludes+<span class="hljs-string">']'</span>;
+    <span class="hljs-comment">// Pattern variants:</span>
+    <span class="hljs-keyword">let</span> t = unrolled ? <span class="hljs-number">1</span> : <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">let</span> p = [ <span class="hljs-comment">// [open, close]</span>
+        [<span class="hljs-comment">// simple pattern</span>
+            lo
+            + <span class="hljs-string">'(?:'</span>+ noBracket  +<span class="hljs-string">'|'</span><span class="hljs-comment">/*inner level*/</span>,
+              <span class="hljs-string">')*'</span> +
+            lc
+        ],
+        [<span class="hljs-comment">// unrolled pattern for efficiency</span>
+            lo +
+            noBracket+<span class="hljs-string">'*'</span>
+            + <span class="hljs-string">'(?:'</span> <span class="hljs-comment">/*inner level*/</span>,
+            noBracket+<span class="hljs-string">'*'</span>
+            + <span class="hljs-string">')*'</span> +
+            lc
+        ]
+    ];
+
+    <span class="hljs-comment">// Generate the pattern</span>
+    <span class="hljs-keyword">let</span> innermostPair = lo + noBracket+<span class="hljs-string">'*'</span> + lc;
+    <span class="hljs-keyword">let</span> openBrackets  = p[t][<span class="hljs-number">0</span>].<span class="hljs-title function_">repeat</span>(depth);
+    <span class="hljs-keyword">let</span> closeBrackets = p[t][<span class="hljs-number">1</span>].<span class="hljs-title function_">repeat</span>(depth);
+
+    <span class="hljs-comment">// Return the pattern</span>
+    pattern = <span class="hljs-keyword">new</span> <span class="hljs-title class_">RegExp</span>(openBrackets + innermostPair + closeBrackets);
+    <span class="hljs-keyword">return</span> pattern;
+}
+</code></pre><ul>
+<div slot="unfoldable-leaf"><p>Ref: <a href="https://stackoverflow.com/a/35271017/789095">Regular expression to match balanced parentheses</a></p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p><a href="https://www.markdownguide.org/basic-syntax/#link-best-practices">Idealy</a>, link text should not contain brackets, and parentheses in link target should be esceped: <code>(</code> = <code>%28</code>, <code>)</code> = <code>%29</code></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>E.g. This links to <a href="https://en.wikipedia.org/wiki/Parenthesis_%28rhetoric%29">{wiki} Parenthesis_(rhetoric)</a></p></div>
+<folder-div folded="true"><div slot="unfoldable"><p>Because any unmatched bracket/parenthesis will break the link sysntax with broken text displayed. <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>This has [only open braket <a href="#6724b036-6dfb-4f58-8e13-b79a8a1806c7"></a></p></div>
+<div slot="unfoldable-leaf"><p>This has [only close braket ]](<a href="#6724b036-6dfb-4f58-8e13-b79a8a1806c7">undefined</a>)</p></div>
+<div slot="unfoldable-leaf"><p>This has [only open parenthesis](<a href="https://en.wikipedia.org/wiki/Parenthesis_(rhetoric)">https://en.wikipedia.org/wiki/Parenthesis_(rhetoric)</a> ...</p></div>
+<div slot="unfoldable-leaf"><p>This has <a href="https://en.wikipedia.org/wiki/Parenthesis_rhetoric">only close parenthesis</a>) ...</p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p>TODO <a href="#665eef80-baed-4eff-b89d-d1d62d4f0b0e">for <code>logseq.order-list-type:: number</code></a>, replace items bullets with numbers</p></div>
+<folder-div><div slot="unfoldable"><p>process code blocks</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p><code>blankLineBeforeCodeBlock</code> (⇒ <a href="#8bb65585-bc4d-45ec-ac3e-dc0dbebc81a8">looseList</a>) for strict conventions like in GitLab <a class="logseq-meta" id="10425b3d-0b0e-42fa-855f-9d46799ad3fb"></a></p></div>
+<div slot="unfoldable-leaf"><p>unitemize items with code blocks only.</p></div>
+<div slot="unfoldable-leaf"><p>replace the double space <code>  </code> with <code>\t</code>.</p></div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p>warn for external links to relative paths: non-HTTP <a class="logseq-meta" data-logbook="				  CLOCK: [2024-11-08 Fri 18:55:58]--[2024-11-08 Fri 19:23:58] =>  00:28:00
+"></a></p></div>
+<folder-div folded="true"><div slot="unfoldable"><p>replace straight quotes <code>"..."</code> with curly quotes <code>“...”</code> (and <code>'...'</code> with <code>‘...’</code>) <a class="logseq-meta" data-collapsed="true" data-logbook="				  CLOCK: [2024-11-08 Fri 18:52:30]
+"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>⇐ <s>Auto-complete &amp;</s> typing assistant for <strong>quotation marks</strong>, symbols...</p></div>
+<div slot="unfoldable-leaf"><p>This has been done by Markdown-It's <code>typographer: true</code> in <a href="https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/smartquotes.mjs">smartquotes.mjs</a>.</p></div>
+<div slot="unfoldable-leaf"><p>We implement our own function <code>replaceQuotes(ln)</code> to handle our markdown source in Logseq.</p></div>
+<div slot="unfoldable-leaf"><p>Multi-line quotes are not supported.</p></div>
+<folder-div folded="true"><div slot="unfoldable"><p>Test text: <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code class="language-md">This "quotation" is for sth like "quot-"+"-ation" or sth like "12398 ^724<span class="hljs-emphasis">_242!?" or "- abc =", but not " spaced  " nor a"s nor `in "inline" codes`, etc.  
+This 'quotation' is for sth like 'quot-'+'-ation' or sth like '12398 ^724_</span>242!?' or '- abc =', but not ' spaced ' nor a's nor <span class="hljs-code">`in 'inline' codes`</span>, etc.\
+"line start" and "line end"
+'line start' and 'line end'
+American style: "double quotes contain 'single quotes'"
+British style:  'single quotes contain "double quotes"'
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p>TODO Process markers like <code>TODO</code>, <code>CANCELLED</code>, ...</p></div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>markdown → HTML: using <a href="https://github.com/markdown-it/markdown-it">markdown-it</a></p></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p><code>MarkdownIt.options</code> <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p><code>html: true, breaks: true</code> for comatible with Logseq</p></div>
+<div slot="unfoldable-leaf"><p><code>typographer: false</code>: we do <code>replaceQuotes()</code> ourselves.</p></div>
+</ul></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>make item lists foldable with <a href="%5Bundefined%5D(#6677b47a-fcbb-47a0-bd60-cdf5ef1a17b8)">custom element <code>&lt;folder-div&gt;</code></a> <a class="logseq-meta" id="a554e1ea-ccd8-44fc-aa31-bee4e3b2702c" data-collapsed="true" data-logbook="				  CLOCK: [2024-11-08 Fri 19:25:27]
+				  CLOCK: [2024-11-08 Fri 19:27:05]--[2024-11-14 Thu 10:33:01] =>  135:05:56
+"></a></p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>For easy DOM traversal, set <a href="#67333634-482c-4446-95aa-dcd549cb27cd">looseList</a> = true &amp; <a href="#6720b9eb-687b-4041-99e6-00791a4769bb">flattenHeadings</a> = false.</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>For block title in <code>&lt;div slot="unfoldable"&gt;</code>: Use <code>looseList</code> to wrap all item contents into <code>&lt;p&gt;</code>, then use <code>node.children[0]</code> to access its first child to get block title, instead of traversing <code>node.childNodes[]</code>.</p></div>
+<div slot="unfoldable-leaf"><p>Note that, even with <code>looseList</code>, the <code>&lt;li&gt;</code> always contains meaningless newline-only text nodes which will appear in <code>node.childNodes[]</code>.</p></div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p>headings in <code>&lt;div slot="unfoldable"&gt;</code> are automatically detected and moved to <code>&lt;div slot="heading"&gt;</code> <a class="logseq-meta" data-logbook="					  CLOCK: [2024-11-14 Thu 08:07:06]
+					  CLOCK: [2024-11-14 Thu 08:07:12]--[2024-11-14 Thu 10:32:53] =>  02:25:41
+"></a></p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>HTML to PDF conversion</p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>TODO programmatically print HTML page to PDF using Chrome.</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>The printed PDF lacks bookmarks, used for simple page view only.</p></div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p><strong>layout</strong> with bookmarks using <a href="https://docraptor.com/">DocRaptor</a></p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>Pagination for PDF: Summary &amp; Details</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>Summary: each headings has a link (whole text or <code>...</code>) to the item in Details</p></div>
+</ul></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Reduce list indent <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>Browser default: <code>padding-inline-start: 40px;</code></p></div>
+<div slot="unfoldable-leaf"><p><a href="https://www.princexml.com/doc/styling/#lists">Prince</a> default: <code>margin-left: 52px;</code></p></div>
+<div slot="unfoldable-leaf"><p>⇒ reset <code>padding-inline-start: 0px;</code> and set <code>margin-left: 20px;</code></p></div>
+</ul></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>[!] JSON <code>fetch()</code> error <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>Request with <code>mode: 'no-cors'</code> ⇒ opaque response with <code>status = 0</code> &amp; <code>ok = false</code>.</p></div>
+<div slot="unfoldable-leaf"><p>Serve page with non-secure <code>HTTP</code> protocol ⇒ <code>401 - Unauthorized</code></p></div>
+<div slot="unfoldable-leaf"><p>Calling <code>fetch()</code> with&nbsp;either header <code>Authorization</code>&nbsp;or&nbsp;<code>Content-Type: application/json</code>&nbsp; ⇒ CORS preflight <code>OPTIONS</code>&nbsp;request is sent by browser. (ref: <a href="https://stackoverflow.com/a/43881141/789095">StackOverflow</a>)</p></div>
+<folder-div><div slot="unfoldable"><p>Calling <code>fetch()</code> with <code>content-type: application/json</code> ⇒ <code>Status Code: 400 Bad Request</code></p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>The <a href="https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request">preflight request</a> is OK, though!?!</p></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p>Request <code>OPTIONS</code> → <code>200 OK</code> <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>Request URL: https://api.docraptor.com/docs
+Request Method: OPTIONS
+Status Code: 200 OK
+Remote Address: 34.226.73.93:443
+Referrer Policy: strict-origin-when-cross-origin
+access-control-request-headers: authorization,content-type
+access-control-request-method: POST
+origin: https://myip
+priority: u=1, i
+referer: https://myip/
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: cross-site
+</code></pre></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Response <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>access-control-allow-headers: authorization,content-type
+access-control-allow-methods: GET,PUT,POST
+access-control-allow-origin: https://myip
+access-control-max-age: 900
+cache-control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+server: nginx
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>But the real POST request is NG!?!</p></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p>CORS Error <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>Access to fetch at 'https://api.docraptor.com/docs' from origin 'https://myip' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+</code></pre></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Request <code>POST</code> → <code>400 Bad Request</code> <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>Request URL: https://api.docraptor.com/docs
+Request Method: POST
+Status Code: 400 Bad Request
+Referrer Policy: strict-origin-when-cross-origin
+accept: */*
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,ja-JP;q=0.6,ja;q=0.5
+authorization: Basic bTdEaHJuX0FzZXpWOTRDM1ZMLUI6
+content-length: 15
+content-type: application/json
+origin: https://myip
+priority: u=1, i
+referer: https://myip/
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Linux"
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: cross-site
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+</code></pre></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Response with <strong>no</strong> <code>Access-Control-Allow-Origin</code> header <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>cache-control: no-cache
+content-length: 149
+content-type: application/xml
+date: Wed, 30 Oct 2024 11:56:55 GMT
+server: nginx
+set-cookie: eb_tracking_id=27f076a0-1782-4eab-b2db-82e421aff0a8; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:56:55 GMT; secure; HttpOnly
+strict-transport-security: max-age=63072000; includeSubDomains
+x-request-id: 2cbb044e-5120-4b63-990d-5373c8135f23
+x-runtime: 0.006626
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>The official <a href="https://docraptor.com/docraptor-1.0.0.js">docraptor-1.0.0.js</a> use <code>form.submit()</code> instead of JSON, with <code>user_credentials</code> instead of <code>Authorization: 'Basic API-key:'</code></p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>while <a href="https://docraptor.com/documentation/api/making_documents">its docs</a> says</p></div><div slot="foldable"><blockquote>
+<p>HTTP Basic Authentication (preferred [over Query Parameter Authentication<code>user_credentials</code>])<br>
+JSON is preferred, but you can also send form encoded variables by wrapping the option with&nbsp;<code>doc[]</code>&nbsp;and adding another&nbsp;<code>[]</code>&nbsp;for sub options.</p>
+</blockquote></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>Calling <code>fetch()</code> with <a href="https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams"><code>URLSearchParams</code></a> ⇒ <code>200 OK</code></p></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p>Request <code>POST</code> with <code>user_credentials</code> → <code>200 OK</code> <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>Request URL: https://api.docraptor.com/docs?user_credentials=m7Dhrn_AsezV94C3VL-B&amp;doc%5Btype%5D=pdf&amp;doc%5Btest%5D=true&amp;doc%5Bname%5D=DocRaptor+TestDocs&amp;doc%5Bdocument_url%5D=http%3A%2F%2Fwww.evopdf.com%2FDemoAppFiles%2FHTML_Files%2FStructured_HTML.html
+Request Method: POST
+Status Code: 200 OK
+Remote Address: 54.88.97.245:443
+Referrer Policy: strict-origin-when-cross-origin
+origin: https://myip
+priority: u=1, i
+referer: https://myip/
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Linux"
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: cross-site
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+</code></pre></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Response with <code>Access-Control-Allow-Origin</code> header <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>access-control-allow-methods: GET,PUT,POST
+access-control-allow-origin: https://myip
+access-control-max-age: 900
+cache-control: max-age=0, private, must-revalidate
+content-disposition: attachment; filename="DocRaptor TestDocs.pdf"; filename*=UTF-8''DocRaptor%20TestDocs.pdf
+content-length: 307561
+content-transfer-encoding: binary
+content-type: application/pdf
+date: Wed, 30 Oct 2024 11:49:06 GMT
+etag: W/"4b660d33d3558fb04e888493a29f3fe2"
+expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
+referrer-policy: strict-origin-when-cross-origin
+server: nginx
+set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:49:06 GMT; secure; HttpOnly
+strict-transport-security: max-age=63072000; includeSubDomains
+vary: Accept
+x-content-type-options: nosniff
+x-docraptor-num-pages: 31
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: fdad5347-c36b-4edb-8b29-27e7febceea3
+x-runtime: 2.518433
+x-xss-protection: 0
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>Calling <code>curl</code> (and PostMan) with <code>authorization: Basic</code> &amp; <code>content-type:application/json</code> ⇒ <code>200 OK</code></p></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p>Command <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code class="language-sh">curl -v https://m7Dhrn_AsezV94C3VL-B@api.docraptor.com/docs \
+  --fail --silent --show-error \
+  --header <span class="hljs-string">"Content-Type:application/json"</span> \
+  --data <span class="hljs-string">'{"test": true,
+           "document_url": "https://docraptor.com/examples/invoice.html",
+           "type": "pdf" }'</span> &gt; docraptor.pdf
+</code></pre></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Request <code>POST</code>  → <code>200 OK</code> <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>* Server auth using Basic with user 'm7Dhrn_AsezV94C3VL-B'
+* Using Stream ID: 1 (easy handle 0x55bbbd95aa60)
+* TLSv1.2 (OUT), TLS header, Supplemental data (23):
+} [5 bytes data]
+&gt; POST /docs HTTP/2
+&gt; Host: api.docraptor.com
+&gt; authorization: Basic bTdEaHJuX0FzZXpWOTRDM1ZMLUI6
+&gt; user-agent: curl/7.81.0
+&gt; accept: */*
+&gt; content-type:application/json
+&gt; content-length: 115
+</code></pre></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Response with <code>Access-Control-Allow-Origin</code> header <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>&lt; HTTP/2 200 
+&lt; date: Wed, 30 Oct 2024 11:37:43 GMT
+&lt; content-type: application/pdf
+&lt; content-length: 73613
+&lt; server: nginx
+&lt; x-frame-options: SAMEORIGIN
+&lt; x-xss-protection: 0
+&lt; x-content-type-options: nosniff
+&lt; x-download-options: noopen
+&lt; x-permitted-cross-domain-policies: none
+&lt; referrer-policy: strict-origin-when-cross-origin
+&lt; expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
+&lt; x-docraptor-num-pages: 1
+&lt; content-disposition: attachment; filename="doc-482759486.pdf"; filename*=UTF-8''doc-482759486.pdf
+&lt; content-transfer-encoding: binary
+&lt; vary: Accept
+&lt; etag: W/"8f32cebf1d07925d239958081b738618"
+&lt; cache-control: max-age=0, private, must-revalidate
+&lt; set-cookie: _dr_session=202db46b696109479465316a86f031b3; path=/; expires=Wed, 30 Oct 2024 16:37:43 GMT; secure; HttpOnly; SameSite=Lax
+&lt; set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 11:37:43 GMT; secure; HttpOnly
+&lt; x-request-id: f3460bdb-aced-4cf6-9434-2e7b0ff59811
+&lt; x-runtime: 1.364432
+&lt; strict-transport-security: max-age=63072000; includeSubDomains
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>Calling <code>fetch()</code> with <code>form.submit()</code> ⇒ <code>200 OK</code></p></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p>Request <code>POST</code>  → <code>200 OK</code> <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>Request URL: https://api.docraptor.com/docs
+Request Method: POST
+Status Code: 200 OK
+Remote Address: 34.226.73.93:443
+Referrer Policy: strict-origin-when-cross-origin
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-US,en;q=0.9,vi-VN;q=0.8,vi;q=0.7,ja-JP;q=0.6,ja;q=0.5
+cache-control: max-age=0
+content-length: 208
+content-type: application/x-www-form-urlencoded
+origin: https://myip
+priority: u=0, i
+referer: https://myip/
+sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Linux"
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: cross-site
+sec-fetch-user: ?1
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+</code></pre></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Response with <code>Access-Control-Allow-Origin</code> header <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code>access-control-allow-methods: GET,PUT,POST
+access-control-allow-origin: https://myip
+access-control-max-age: 900
+cache-control: max-age=0, private, must-revalidate
+content-disposition: attachment; filename="DocRaptor TestDocs.pdf"; filename*=UTF-8''DocRaptor%20TestDocs.pdf
+content-length: 307568
+content-transfer-encoding: binary
+content-type: application/pdf
+date: Wed, 30 Oct 2024 12:51:16 GMT
+etag: W/"53cb350849343d8085386f6bda50ce6a"
+expect-ct: max-age=86400, enforce, report-uri="https://o8095.ingest.sentry.io/api/15415/security/?sentry_key=7f5f5d4c4104451d8b56b1a148a65915"
+referrer-policy: strict-origin-when-cross-origin
+server: nginx
+set-cookie: eb_tracking_id=6d84dcd6-e2f3-4657-ace7-6302d6de34f9; domain=.docraptor.com; path=/; expires=Tue, 25 Oct 2044 12:51:16 GMT; secure; HttpOnly
+strict-transport-security: max-age=63072000; includeSubDomains
+x-content-type-options: nosniff
+x-docraptor-num-pages: 31
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 864d5382-98eb-4df7-89dc-7425c6929f86
+x-runtime: 2.499588
+x-xss-protection: 0
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Testing functions <code>toPdf_*()</code> <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><pre><code class="language-js">    <span class="hljs-comment">// DocRaptor</span>
+    <span class="hljs-keyword">const</span> <span class="hljs-title class_">DocRaptorApiKey</span> = <span class="hljs-string">"m7Dhrn_AsezV94C3VL-B"</span>;
+    <span class="hljs-keyword">const</span> <span class="hljs-title class_">DocRaptorUrl</span> = <span class="hljs-string">`https://api.docraptor.com/docs`</span>;
+    <span class="hljs-keyword">const</span> <span class="hljs-title class_">DocRaptorRequest</span> = {
+        <span class="hljs-comment">// Test documents are free, but watermarked **nicely** at the top &amp; bottom of each page</span>
+        <span class="hljs-string">"test"</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-comment">// Give a name for the docs </span>
+        <span class="hljs-string">"name"</span>: <span class="hljs-string">"DocRaptor TestDocs"</span>,
+        <span class="hljs-comment">// You can supply content directly</span>
+        <span class="hljs-string">"document_content"</span>: <span class="hljs-string">""</span>, 
+        <span class="hljs-comment">// or via a URL</span>
+        <span class="hljs-comment">//"document_url": "http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html", </span>
+        <span class="hljs-comment">//"javascript": true, // for HTML display before convertion</span>
+        <span class="hljs-string">"type"</span>: <span class="hljs-string">"pdf"</span>, <span class="hljs-comment">// Output type can be "pdf" or "xls" or "xlsx"</span>
+        <span class="hljs-comment">//"prince_options": {</span>
+            <span class="hljs-comment">//"media": "screen" // use screen styles instead of print styles</span>
+        <span class="hljs-comment">//}</span>
+    }
+    
+    <span class="hljs-keyword">const</span> <span class="hljs-title class_">Request</span> = {
+        <span class="hljs-attr">method</span>: <span class="hljs-string">'POST'</span>,
+        <span class="hljs-attr">headers</span>: {
+            <span class="hljs-comment">//'Content-Type': 'application/json',</span>
+            <span class="hljs-string">'Content-Type'</span>: <span class="hljs-string">'application/x-www-form-urlencoded'</span>,
+            <span class="hljs-string">'Accept'</span>: <span class="hljs-string">'*/*'</span>,
+            <span class="hljs-comment">//'Credentials': 'include',</span>
+            <span class="hljs-comment">//'Access-Control-Allow-Origin': '*', // for preflight OPTIONS request</span>
+        },
+        <span class="hljs-comment">//mode: "no-cors",</span>
+        <span class="hljs-comment">//mode: 'cors', // have browser to send preflight OPTIONS request</span>
+        <span class="hljs-attr">body</span>: <span class="hljs-string">''</span>,
+    }
+    
+    <span class="hljs-keyword">const</span> makeFormElement = <span class="hljs-keyword">function</span>(<span class="hljs-params">name, value</span>) {
+        <span class="hljs-keyword">var</span> element = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">"textarea"</span>)
+        element.<span class="hljs-property">name</span> = name
+        element.<span class="hljs-property">value</span> = value
+        <span class="hljs-keyword">return</span> element
+    }
+    <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">toPdf_form</span>(<span class="hljs-params"></span>) { <span class="hljs-comment">// use form.submit(), copied from https://docraptor.com/docraptor-1.0.0.js</span>
+        <span class="hljs-keyword">let</span> form = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">"form"</span>)
+        form.<span class="hljs-property">action</span> = <span class="hljs-string">"https://api.docraptor.com/docs"</span>
+        form.<span class="hljs-property">method</span> = <span class="hljs-string">"post"</span>
+        form.<span class="hljs-property">style</span>.<span class="hljs-property">display</span> = <span class="hljs-string">"none"</span>
+
+        form.<span class="hljs-title function_">appendChild</span>(<span class="hljs-title function_">makeFormElement</span>(<span class="hljs-string">"user_credentials"</span>, <span class="hljs-title class_">DocRaptorApiKey</span>))
+        form.<span class="hljs-title function_">appendChild</span>(<span class="hljs-title function_">makeFormElement</span>(<span class="hljs-string">"doc[type]"</span>, <span class="hljs-string">'pdf'</span>));
+        form.<span class="hljs-title function_">appendChild</span>(<span class="hljs-title function_">makeFormElement</span>(<span class="hljs-string">"doc[test]"</span>, <span class="hljs-literal">true</span>));
+        form.<span class="hljs-title function_">appendChild</span>(<span class="hljs-title function_">makeFormElement</span>(<span class="hljs-string">"doc[name]"</span>, <span class="hljs-string">'DocRaptor TestDocs'</span>));
+        form.<span class="hljs-title function_">appendChild</span>(<span class="hljs-title function_">makeFormElement</span>(<span class="hljs-string">"doc[document_url]"</span>, <span class="hljs-string">'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html'</span>));
+
+        <span class="hljs-variable language_">document</span>.<span class="hljs-property">body</span>.<span class="hljs-title function_">appendChild</span>(form);
+        form.<span class="hljs-title function_">submit</span>()
+    }
+
+    <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">toPdf_params</span>(<span class="hljs-params"></span>) { <span class="hljs-comment">// use URLSearchParams</span>
+        <span class="hljs-keyword">let</span> url = <span class="hljs-keyword">new</span> <span class="hljs-title function_">URL</span>(<span class="hljs-title class_">DocRaptorUrl</span>);
+        <span class="hljs-keyword">let</span> params = <span class="hljs-keyword">new</span> <span class="hljs-title class_">URLSearchParams</span>(); <span class="hljs-comment">// url.searchParams;</span>
+        params.<span class="hljs-title function_">append</span>(<span class="hljs-string">"user_credentials"</span>, <span class="hljs-title class_">DocRaptorApiKey</span>);
+        params.<span class="hljs-title function_">append</span>(<span class="hljs-string">"doc[type]"</span>, <span class="hljs-string">'pdf'</span>);
+        params.<span class="hljs-title function_">append</span>(<span class="hljs-string">"doc[test]"</span>, <span class="hljs-literal">true</span>);
+        params.<span class="hljs-title function_">append</span>(<span class="hljs-string">"doc[name]"</span>, <span class="hljs-string">'DocRaptor TestDocs'</span>);
+        <span class="hljs-comment">//params.append("doc[document_url]", 'http://www.evopdf.com/DemoAppFiles/HTML_Files/Structured_HTML.html');</span>
+        params.<span class="hljs-title function_">append</span>(<span class="hljs-string">"doc[document_content]"</span>, mdhtml.<span class="hljs-property">innerHTML</span> + markdown_style.<span class="hljs-property">outerHTML</span> + pdf_style.<span class="hljs-property">outerHTML</span>);
+        <span class="hljs-keyword">let</span> req = <span class="hljs-title function_">structuredClone</span>(<span class="hljs-title class_">Request</span>);
+            req.<span class="hljs-property">body</span> = params;
+
+        res = <span class="hljs-keyword">await</span> <span class="hljs-title function_">fetch</span>(url.<span class="hljs-property">href</span>, req); <span class="hljs-comment">// , mode: "no-cors"</span>
+        <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">debug</span>(<span class="hljs-string">'toPdf() fetch'</span>,req,res);
+        <span class="hljs-keyword">if</span> (!res.<span class="hljs-property">ok</span>) {
+            <span class="hljs-comment">//console.log('Fetch error:',res);</span>
+            <span class="hljs-title function_">loadError</span>(res.<span class="hljs-property">statusText</span>);
+            <span class="hljs-keyword">return</span>;
+        } <span class="hljs-keyword">else</span> {
+            message.<span class="hljs-property">innerHTML</span> = <span class="hljs-string">''</span>;
+            message.<span class="hljs-property">style</span>.<span class="hljs-property">display</span> = <span class="hljs-string">'none'</span>;
+        }
+        blob = <span class="hljs-keyword">await</span> res.<span class="hljs-title function_">blob</span>();
+        <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">debug</span>(<span class="hljs-string">'toPdf() fetch'</span>,params,blob);
+        <span class="hljs-comment">// blob URL will be stored in `exportUrl` and updated in cascade</span>
+        exportUrl.<span class="hljs-property">href</span> = <span class="hljs-variable constant_">URL</span>.<span class="hljs-title function_">createObjectURL</span>(blob);
+    }
+
+    <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">toPdf_JSON</span>(<span class="hljs-params"></span>) { <span class="hljs-comment">// use JSON</span>
+        <span class="hljs-comment">//DocRaptorRequest.document_content = mdhtml.innerHTML + markdown_style.outerHTML + pdf_style.outerHTML;</span>
+        <span class="hljs-title class_">DocRaptorRequest</span>.<span class="hljs-property">document_url</span> = <span class="hljs-string">"https://docraptor.com/examples/invoice.html"</span>;
+
+        <span class="hljs-keyword">let</span> req = <span class="hljs-title function_">structuredClone</span>(<span class="hljs-title class_">Request</span>); 
+            req.<span class="hljs-property">headers</span>.<span class="hljs-property">Authorization</span> = <span class="hljs-string">'Basic '</span>+<span class="hljs-title function_">btoa</span>(<span class="hljs-title class_">DocRaptorApiKey</span>+<span class="hljs-string">':'</span>);
+            req.<span class="hljs-property">body</span> = <span class="hljs-title class_">DocRaptorRequest</span>;
+        <span class="hljs-keyword">let</span> url = <span class="hljs-title class_">DocRaptorUrl</span>; <span class="hljs-comment">// `${DocRaptorUrl}?user_credentials=${DocRaptorApiKey}`;</span>
+        <span class="hljs-keyword">let</span> res = <span class="hljs-keyword">await</span> <span class="hljs-title function_">fetch</span>(url, req);
+        <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">debug</span>(<span class="hljs-string">'toPdf() fetch'</span>,req,res);
+        <span class="hljs-keyword">if</span> (!res.<span class="hljs-property">ok</span>) {
+            <span class="hljs-comment">//console.log('Fetch error:',res);</span>
+            <span class="hljs-title function_">loadError</span>(res.<span class="hljs-property">statusText</span>);
+            <span class="hljs-keyword">return</span>;
+        } <span class="hljs-keyword">else</span> {
+            message.<span class="hljs-property">innerHTML</span> = <span class="hljs-string">''</span>;
+            message.<span class="hljs-property">style</span>.<span class="hljs-property">display</span> = <span class="hljs-string">'none'</span>;
+        }
+        <span class="hljs-keyword">let</span> blob = <span class="hljs-keyword">await</span> res.<span class="hljs-title function_">blob</span>();
+        <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">debug</span>(<span class="hljs-string">'toPdf() fetch'</span>,<span class="hljs-title class_">DocRaptorRequest</span>,blob);
+        <span class="hljs-comment">// blob URL will be stored in `exportUrl` and updated in cascade</span>
+        exportUrl.<span class="hljs-property">href</span> = <span class="hljs-variable constant_">URL</span>.<span class="hljs-title function_">createObjectURL</span>(blob);
+    }
+
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<div slot="unfoldable-leaf"><p>TODO capture page into image (PNG/SVG)</p></div>
+</ul></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><h3>Or, process content with vim commands <a class="logseq-meta" data-collapsed="true"></a></h3></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>remove <code>:logbook:</code> and properties</p></div><div slot="foldable"><pre><code class="language-vim">%s/^\s*:\(logbook\|LOGBOOK\):\_.\{-}\s*:END:\n//
+%s/^\s*\w\+:: .*\n//
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>remove first tab with <code>Ctrl</code> <code>v</code>, or with command</p></div><div slot="foldable"><pre><code class="language-vim">%s/^\t\(.*\)/\1/
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>unitemize headings</p></div><div slot="foldable"><pre><code class="language-vim">%s/^- #\(.*\)/\r#\1\r/
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>process code block for strict conventions like in GitLab</p></div><div slot="foldable"><pre><code class="language-vim">%s/^\(\t*\)- ```/\r\1```/|%s/  ```/```\r/|%s/\t  /\t/
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>replace items bullets with numbers: <code>V</code> select all items, then</p></div><div slot="foldable"><pre><code class="language-vim">'&lt;,'&gt;s/^- \(.*\)/1. \1/
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>replace links to <code>assets</code> &amp; <code>publish</code></p></div><div slot="foldable"><pre><code class="language-vim">%s#../assets/projects/java17/aal_gw/##g
+%s#(publish/projects/java17/aal_gw/\([^)]*\))#(\1.md)#g
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>Replace straight quotes with curly quotes</p></div><div slot="foldable"><pre><code class="language-vim">%s/"\(\S\)/“\1/g|%s/\(\S\)"/\1”/g
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div><style id="markdown_style">
+  ul, ol {
+      padding-inline-start: 0px; /*browser default: 40px*/
+      /*margin-left: -20px;*/
+      margin-left: 20px; /*Prince PDF default: 50+px*/
+  }
+  folder-div ul, folder-div ol {
+      padding-inline-start: 0px;
+      margin-left: 0px;
+  }
+  li, folder-div, div[slot="unfoldable-leaf"] {
+      margin-top: 5px;
+      margin-bottom: 0px;
+  }
+  p { /* reduce line spacing */
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+  li p, folder-div p { /* fix inconsistent line spacing between <p>-wrapped and unwrapped items */
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+  li pre, folder-div pre { /* fix inconsistent line spacing between <pre>-wrapped and unwrapped items */
+      margin-top: 5px;
+      margin-bottom: 0px;
+  }
+  pre {
+      background: #eeeeee;
+      padding: 10px;
+  }
+  code {
+      background: #eeeeee;
+      padding: 0 2px 0 2px;
+  }
+
+  pre code {
+      display: block;
+      overflow-x: auto;
+  }
+
+  code.hljs {
+      padding: 3px 5px
+  }
+
+  /*!
+    Theme: GitHub
+    Description: Light theme as seen on github.com
+    Author: github.com
+    Maintainer: @Hirse
+    Updated: 2021-05-15
+
+    Outdated base version: https://github.com/primer/github-syntax-light
+    Current colors taken from GitHub's CSS
+  */
+  .hljs {
+      color: #24292e;
+      background: #fff
+  }
+
+  .hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_ {
+      color: #d73a49
+  }
+
+  .hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_ {
+      color: #6f42c1
+  }
+
+  .hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable {
+      color: #005cc5
+  }
+
+  .hljs-meta .hljs-string,.hljs-regexp,.hljs-string {
+      color: #032f62
+  }
+
+  .hljs-built_in,.hljs-symbol {
+      color: #e36209
+  }
+
+  .hljs-code,.hljs-comment,.hljs-formula {
+      color: #6a737d
+  }
+
+  .hljs-name,.hljs-quote,.hljs-selector-pseudo,.hljs-selector-tag {
+      color: #22863a
+  }
+
+  .hljs-subst {
+      color: #24292e
+  }
+
+  .hljs-section {
+      color: #005cc5;
+      font-weight: 700
+  }
+
+  .hljs-bullet {
+      color: #735c0f
+  }
+
+  .hljs-emphasis {
+      color: #24292e;
+      font-style: italic
+  }
+
+  .hljs-strong {
+      color: #24292e;
+      font-weight: 700
+  }
+
+  .hljs-addition {
+      color: #22863a;
+      background-color: #f0fff4
+  }
+
+  .hljs-deletion {
+      color: #b31d28;
+      background-color: #ffeef0
+  }
+</style><script id="FolderDivJS">
+//start template id="folder-div">
+const FolderDivTemplateHtml = `
+  <!--folder-div style="display:flex; flex-direction:row;"-->
+    <input type="checkbox" id="isFolded" />
+    <label for="isFolded" id="sideControl" part="sideControl" style="display:flex; flex-direction:column;">
+      <div id="arrow" part="arrow"></div>
+      <div style="display:flex; flex-direction:row; flex:1 0 0;">
+        <div style="flex:3"></div>
+        <div style="flex:1; line-height:0; font-size:0;" id="stemLine" part="stemLine">&nbsp;</div>
+        <div style="flex:3"></div>
+      </div>
+    </label>
+    <div id="contents" part="contents" style="display:flex; flex-direction:column;">
+      <div class="unfoldable">
+        <label for="isFolded" part="heading">
+          <slot name="heading" id="heading"></slot>
+        </label>
+        <slot name="unfoldable" id="unfoldable"></slot>
+      </div>
+      <div class="foldable"><slot name="foldable"></slot></div>
+    </div>
+  <!--/folder-div-->
+`;
+
+const FolderDivTemplateStyle = `
+  <style>
+
+    :root { /* ineffective, don't use this! Use :host instead. */
+    }
+
+    :host { /* style of the <folder-div> */
+      display: flex;
+      flex-direction:row;
+      align-items: stretch;
+
+      --control-foreground: DimGray;
+      --stem-line-foreground: WhiteSmoke;
+      --control-foreground-hover: blue;
+      --heading-background-hover: Lavender;
+      --contents-indent: .5em;
+    }
+
+    /* The hidden checkbox holding folding state */
+    #isFolded {
+      display: none;
+    }
+    #isFolded + label {
+      color: var(--control-foreground);
+    }
+    #isFolded + label:hover {
+      color: var(--control-foreground-hover);
+    }
+
+    /* The arrow control to toggle folding state */
+
+    #arrow::before {
+      content: '►'; /*▶‣*/
+    }
+    #isFolded:not(:checked) + label > #arrow::before {
+      content: '▼';
+    }
+
+    /* The stem line aligning unfolded content */
+
+    #stemLine {
+      background-color: var(--stem-line-foreground);
+      display: none;
+    }
+    label:hover #stemLine {
+      background-color: var(--control-foreground-hover);
+    }
+    #isFolded:not(:checked) + label #stemLine {
+      display: block;
+    }
+
+    /* Folder contents */
+
+    #contents {
+      display: flex;
+      flex-direction: column;
+      padding-left: var(--contents-indent);
+      border-bottom: inset 1px;
+    }
+
+    /* Foldable content */
+
+    #contents > .foldable {
+      display: none;
+    }
+    #isFolded:not(:checked) ~ #contents > .foldable {
+      display: block;
+    }
+
+    /* Unfoldable content */
+
+    #contents > .unfoldable {
+      display: block;
+    }
+
+    #heading {
+      display: block;
+    }
+    #heading:hover {
+      background: var(--heading-background-hover);
+    }
+
+  </style>
+`;
+
+const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle;
+
+//end template>
+
+//start script>
+  //FolderDivTemplate = document.getElementById("folder-div").innerHTML; // FolderDiv.html
+  //const FolderDivTemplateHtml = ``; // FolderDiv.js
+  //const FolderDivTemplateStyle = ``; // FolderDiv.js
+  //const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle; // FolderDiv.js
+  //const FolderDivStyle = ``; // FolderDiv.js
+  //(function(){...style.innerHTML = FolderDivStyle...}()); // FolderDiv.js
+
+  class FolderDiv extends HTMLElement {
+    static observedAttributes = ["folded"];
+
+    constructor() {
+      super();
+      const shadowRoot = this.attachShadow({ mode: "open" });
+      this.template = document.createElement('template');
+      this.template.innerHTML = FolderDivTemplate;
+      shadowRoot.appendChild(this.template.content.cloneNode(true));
+      this._internals = this.attachInternals();
+
+      this.isFolded = shadowRoot.getElementById("isFolded");
+      this.sideControl = shadowRoot.getElementById("sideControl");
+        this.arrow = shadowRoot.getElementById("arrow");
+        this.stemLine = shadowRoot.getElementById("stemLine");
+      this.contents = shadowRoot.getElementById("contents");
+        this.heading = shadowRoot.getElementById("heading");
+        this.unfoldable = shadowRoot.getElementById("unfoldable");
+        this.foldable = shadowRoot.getElementById("foldable");
+      //console.debug('FolderDiv.constructor()',this.contents);
+    }
+    connectedCallback() {
+      this.unfoldable.addEventListener('slotchange', (e)=>{
+        // detected and moved heading from unfoldable slot to heading slot
+        let hdiv = this.heading.assignedElements()[0];
+        if(hdiv){ this.setType('heading'); }
+        let udiv = this.unfoldable.assignedElements()[0];
+        if(!udiv){ return; }
+        let h = udiv.children[0];
+        if(!hdiv && h && h.tagName.startsWith('H')){
+          udiv.before(h);
+          h.setAttribute('slot','heading');
+          this.setType('heading');
+          //console.debug('moved',h);
+        }
+      });
+    }
+    disconnectedCallback() {
+    }
+
+    attributeChangedCallback(name, oldValue, newValue) {
+      //console.debug(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
+      if(name == "folded"){
+        this.isFolded.setAttribute("checked", newValue);
+      }
+    }
+
+    setType(t){
+      if(t=='item'){
+        let udiv = this.unfoldable.assignedElements()[0];
+        let style = getComputedStyle(this.contents);
+        let indent = style.getPropertyValue('--contents-indent');
+        if(!udiv){ return; }
+        this.sideControl.style.display = 'flex';
+        this.heading.style.display = 'none';
+        this.contents.style.paddingLeft = indent;
+      }else if(t=='heading'){
+        let hdiv = this.heading.assignedElements()[0];
+        if(!hdiv){ return; }
+        this.heading.style.display = 'block';
+        this.sideControl.style.display = 'none';
+        this.contents.style.paddingLeft = 0;
+      }
+    }
+
+  }
+
+  customElements.define("folder-div", FolderDiv);
+
+//end script>
+
+//start style id="folder_div_style">
+const FolderDivStyle = `
+    div[slot="unfoldable-leaf"] {
+      display: list-item;
+      border-bottom: inset 1px;
+      margin-left: 1em;
+      padding-left: .5em;
+    }
+    div[slot="unfoldable-leaf"]::marker {
+      color: var(--control-foreground);
+      content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
+    }
+`;
+//end style>
+
+(function(){
+  let style = document.createElement('style');
+  style.setAttribute('id', 'folder_div_style');
+  style.innerHTML = FolderDivStyle;
+  document.querySelector('body').append(style);
+}());
+</script>

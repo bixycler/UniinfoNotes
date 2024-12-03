@@ -1,0 +1,64 @@
+<HTML>
+<HEAD>
+  <title>Foldable Hierarchy</title>
+  <script type="module" src="FolderDiv.js"></script>
+</HEAD>
+
+<BODY>
+
+
+<H2>Folder hierarchy with custom element <code>&lt;folder-div&gt;</code></H2>
+<div class="folder" style="margin-left: 1.5em;">
+  <folder-div>
+    <div slot="unfoldable"><h3>Heading</h3></div>
+    <div slot="foldable">
+      <folder-div>
+        <div slot="unfoldable">One</div>
+        <div slot="foldable">
+          <folder-div>
+            <div slot="unfoldable">Two<br>... multi-line unfoldable</div>
+            <div slot="foldable">
+              This line is a foldable content of Two <br>
+              but not a subfolder
+              <folder-div folded>
+                <div slot="unfoldable">Three
+                ... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long
+    ...
+                </div>
+                <div slot="foldable">
+                  ... <p>Ref: <a href="https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/">Creating a collapsible markdown on one page</a></p>
+                </div>
+              </folder-div>
+            </div>
+          </folder-div>
+          <div slot="unfoldable-leaf">Hai<br>...</div>
+          <folder-div>
+            <div slot="unfoldable">Deux</div>
+            <div slot="foldable">
+              See also <a href="FoldableDemo.html">FoldableDemo</a>
+            </div>
+          </folder-div>
+        </div>
+      </folder-div>
+      <folder-div>
+        <div slot="unfoldable"><h4>Sub-heading</h4>with some unfoldable descripton</div>
+        <div slot="foldable">
+          <div slot="unfoldable-leaf">Leaf item: no foldable part</div>
+          <folder-div>
+            <div slot="heading">This (plain) <b>heading</b> is slotted manually</div>
+            <div slot="unfoldable">
+              so that
+              <h5>this heading is kept in unfoldable, not moved to heading</h5>
+            </div>
+            <div slot="foldable">
+              <div slot="unfoldable-leaf">Leaf item: no foldable part</div>
+            </div>
+          </folder-div>
+        </div>
+      </folder-div>
+    </div>
+  </folder-div>
+</div>
+
+</BODY>
+</HTML>

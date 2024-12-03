@@ -1,5 +1,6 @@
 <HTML>
 <HEAD>
+    <title>CreatZy Shorthands</title>
     <!--meta charset="ISO-8859-1"><!-- AKA Extended ASCII containing 256 different character codes -->
     <meta charset="UTF-8">
     <style>
@@ -157,7 +158,7 @@
         return codePoint;
     }
     // Normalize the name to lowercase with all proper names and capital letters capitalized.
-    const properNames = ['Latin', 'Greek', 'Vietnamese', 'Japanese', 'Korean', 'Hangul', 'American', 'Canadian', 'Georgian', 'Sun', 'Moon'];
+    const properNames = ['Latin', 'Greek', 'Vietnamese', 'Japanese', 'Korean', 'Hangul', 'American', 'Canadian', 'Georgian', 'Samaritan', 'Sun', 'Moon', 'Celsius', 'Fahrenheit'];
     const fixes = {
         'sun gyeong eum': 'sungyeong-eum', // Hangul lip-light sound (순경음, 脣輕音), i.e. labiodental
     };
@@ -172,7 +173,9 @@
             const pattern = new RegExp('\\b'+pn.toLowerCase()+'\\b','g');
             nn = nn.replaceAll(pattern, pn);
         }
-        nn = nn.replaceAll(/capital letter (\w)/g, (m,n)=>m.slice(0,-1)+n.toUpperCase());
+        nn = nn.replaceAll(/capital(?: letter| ligature| inverted| reversed| turned| lunate| dotted| barred| insular| open| half)* (\w)/g,
+            (m,c)=> m.slice(0,-1) + c.toUpperCase());
+        nn = nn.replaceAll('capital Letters', 'capital letters');
         return nn;
     }
     // fix double quotes escaped by spreadsheet editor
@@ -356,7 +359,12 @@
             if(codePoint !== sh.codePoint){ 
                 console.log('Code-point mismatch for ',c,':',codePoint,'<>',sh.codePoint); 
             }
-            if(ca.length == 1 && !sh.name){ sh.name = charMap[c].name; shorthands[sh.i][2] = sh.name; }
+            if(!sh.name){ 
+                if(ca.length > 1){ console.log('Multi-char shorthand missing name: ',sh); 
+                } else {
+                    sh.name = charMap[c].name; shorthands[sh.i][2] = sh.name; 
+                }
+            }
             if(ca.length == 1 && charMap[c].name !== sh.name){ 
                 console.log('Name mismatch for ',c,':',charMap[c].name,'<>',sh.name); 
             }

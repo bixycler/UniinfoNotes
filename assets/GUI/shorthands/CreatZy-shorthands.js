@@ -692,8 +692,18 @@ const shorthandMap = {
             "integral sign"
         ]
     },
-    "∩": {
+    "∮": {
         "i": "71",
+        "codePoint": "U+222E",
+        "name": "contour integral",
+        "entities": "&conint;, &oint;, &ContourIntegral;",
+        "code": "=Sio",
+        "keywords": [
+            "circle integral sign"
+        ]
+    },
+    "∩": {
+        "i": "72",
         "codePoint": "U+2229",
         "name": "intersection",
         "entities": "&cap;",
@@ -703,7 +713,7 @@ const shorthandMap = {
         ]
     },
     "∪": {
-        "i": "72",
+        "i": "73",
         "codePoint": "U+222A",
         "name": "union",
         "entities": "&cup;",
@@ -713,7 +723,7 @@ const shorthandMap = {
         ]
     },
     "∥": {
-        "i": "73",
+        "i": "74",
         "codePoint": "U+2225",
         "name": "parallel to",
         "entities": "&par;, &parallel;, &DoubleVerticalBar;, &spar;, &shortparallel;",
@@ -723,7 +733,7 @@ const shorthandMap = {
         ]
     },
     "⊥": {
-        "i": "74",
+        "i": "75",
         "codePoint": "U+22A5",
         "name": "up tack",
         "entities": "&bottom;, &bot;, &perp;, &UpTee;",
@@ -736,7 +746,7 @@ const shorthandMap = {
         ]
     },
     "≡": {
-        "i": "75",
+        "i": "76",
         "codePoint": "U+2261",
         "name": "identical to",
         "entities": "&equiv;, &Congruent;",
@@ -747,7 +757,7 @@ const shorthandMap = {
         ]
     },
     "≢": {
-        "i": "76",
+        "i": "77",
         "codePoint": "U+2262",
         "name": "not identical to",
         "entities": "&nequiv;, &NotCongruent;",
@@ -758,7 +768,7 @@ const shorthandMap = {
         ]
     },
     "≠": {
-        "i": "77",
+        "i": "78",
         "codePoint": "U+2260",
         "name": "not equal to",
         "entities": "&ne;, &NotEqual;",
@@ -768,7 +778,7 @@ const shorthandMap = {
         ]
     },
     "≈": {
-        "i": "78",
+        "i": "79",
         "codePoint": "U+2248",
         "name": "almost equal to",
         "entities": "&asymp;, &ap;, &TildeTilde;, &approx;, &thkap;, &thickapprox;",
@@ -778,7 +788,7 @@ const shorthandMap = {
         ]
     },
     "≅": {
-        "i": "79",
+        "i": "80",
         "codePoint": "U+2245",
         "name": "approximately equal to",
         "entities": "&cong;, &TildeFullEqual;",
@@ -788,7 +798,7 @@ const shorthandMap = {
         ]
     },
     "≆": {
-        "i": "80",
+        "i": "81",
         "codePoint": "U+2246",
         "name": "approximately but not actually equal to",
         "entities": "&simne;",
@@ -798,7 +808,7 @@ const shorthandMap = {
         ]
     },
     "≇": {
-        "i": "81",
+        "i": "82",
         "codePoint": "U+2247",
         "name": "neither approximately nor actually equal to",
         "entities": "&ncong;, &NotTildeFullEqual;",
@@ -808,7 +818,7 @@ const shorthandMap = {
         ]
     },
     "≏": {
-        "i": "82",
+        "i": "83",
         "codePoint": "U+224F",
         "name": "difference between",
         "entities": "&bumpe;, &HumpEqual;, &bumpeq;",
@@ -818,7 +828,7 @@ const shorthandMap = {
         ]
     },
     "≏̸": {
-        "i": "83",
+        "i": "84",
         "codePoint": "U+224F+0338",
         "name": "not difference between",
         "entities": "&nbumpe;, &NotHumpEqual;, &bumpe;&#x338;, &HumpEqual;&#x338;, &bumpeq;&#x338;",
@@ -828,7 +838,7 @@ const shorthandMap = {
         ]
     },
     "≟": {
-        "i": "84",
+        "i": "85",
         "codePoint": "U+225F",
         "name": "questioned equal to",
         "entities": "&equest;, &questeq;",
@@ -838,7 +848,7 @@ const shorthandMap = {
         ]
     },
     "≤": {
-        "i": "85",
+        "i": "86",
         "codePoint": "U+2264",
         "name": "less-than or equal to",
         "entities": "&le;, &leq;",
@@ -848,7 +858,7 @@ const shorthandMap = {
         ]
     },
     "≥": {
-        "i": "86",
+        "i": "87",
         "codePoint": "U+2265",
         "name": "greater-than or equal to",
         "entities": "&ge;, &GreaterEqual;, &geq;",
@@ -858,7 +868,7 @@ const shorthandMap = {
         ]
     },
     "≪": {
-        "i": "87",
+        "i": "88",
         "codePoint": "U+226A",
         "name": "much less-than",
         "entities": "&Lt;, &NestedLessLess;, &ll;",
@@ -868,7 +878,7 @@ const shorthandMap = {
         ]
     },
     "≫": {
-        "i": "88",
+        "i": "89",
         "codePoint": "U+226B",
         "name": "much greater-than",
         "entities": "&Gt;, &NestedGreaterGreater;, &gg;",
@@ -877,8 +887,1069 @@ const shorthandMap = {
             ""
         ]
     },
+    "Α": {
+        "i": "91",
+        "codePoint": "U+0391",
+        "name": "Greek capital letter Alpha",
+        "entities": "&Alpha;",
+        "code": "",
+        "keywords": [
+            "Alpha",
+            "gre.A"
+        ]
+    },
+    "Β": {
+        "i": "92",
+        "codePoint": "U+0392",
+        "name": "Greek capital letter Beta",
+        "entities": "&Beta;",
+        "code": "",
+        "keywords": [
+            "Beta",
+            "gre.B"
+        ]
+    },
+    "Γ": {
+        "i": "93",
+        "codePoint": "U+0393",
+        "name": "Greek capital letter Gamma",
+        "entities": "&Gamma;",
+        "code": "",
+        "keywords": [
+            "Gamma",
+            "gre.G"
+        ]
+    },
+    "Δ": {
+        "i": "94",
+        "codePoint": "U+0394",
+        "name": "Greek capital letter Delta",
+        "entities": "&Delta;",
+        "code": "",
+        "keywords": [
+            "Delta",
+            "gre.D"
+        ]
+    },
+    "Ε": {
+        "i": "95",
+        "codePoint": "U+0395",
+        "name": "Greek capital letter Epsilon",
+        "entities": "&Epsilon;",
+        "code": "",
+        "keywords": [
+            "Epsilon",
+            "gre.E"
+        ]
+    },
+    "Ζ": {
+        "i": "96",
+        "codePoint": "U+0396",
+        "name": "Greek capital letter Zeta",
+        "entities": "&Zeta;",
+        "code": "",
+        "keywords": [
+            "Zeta",
+            "Zêta",
+            "gre.Z"
+        ]
+    },
+    "Η": {
+        "i": "97",
+        "codePoint": "U+0397",
+        "name": "Greek capital letter Eta",
+        "entities": "&Eta;",
+        "code": "",
+        "keywords": [
+            "Eta",
+            "Êta",
+            "gre.Ê"
+        ]
+    },
+    "Θ": {
+        "i": "98",
+        "codePoint": "U+0398",
+        "name": "Greek capital letter Theta",
+        "entities": "&Theta;",
+        "code": "",
+        "keywords": [
+            "Theta",
+            "Thêta",
+            "gre.Th"
+        ]
+    },
+    "Ι": {
+        "i": "99",
+        "codePoint": "U+0399",
+        "name": "Greek capital letter Iota",
+        "entities": "&Iota;",
+        "code": "",
+        "keywords": [
+            "Iota",
+            "gre.I"
+        ]
+    },
+    "Κ": {
+        "i": "100",
+        "codePoint": "U+039A",
+        "name": "Greek capital letter Kappa",
+        "entities": "&Kappa;",
+        "code": "",
+        "keywords": [
+            "Kappa",
+            "gre.K"
+        ]
+    },
+    "Λ": {
+        "i": "101",
+        "codePoint": "U+039B",
+        "name": "Greek capital letter Lamda",
+        "entities": "&Lambda;",
+        "code": "",
+        "keywords": [
+            "Lambda",
+            "gre.L"
+        ]
+    },
+    "Μ": {
+        "i": "102",
+        "codePoint": "U+039C",
+        "name": "Greek capital letter Mu",
+        "entities": "&Mu;",
+        "code": "",
+        "keywords": [
+            "Mu",
+            "gre.M"
+        ]
+    },
+    "Ν": {
+        "i": "103",
+        "codePoint": "U+039D",
+        "name": "Greek capital letter Nu",
+        "entities": "&Nu;",
+        "code": "",
+        "keywords": [
+            "Nu",
+            "gre.N"
+        ]
+    },
+    "Ξ": {
+        "i": "104",
+        "codePoint": "U+039E",
+        "name": "Greek capital letter Xi",
+        "entities": "&Xi;",
+        "code": "",
+        "keywords": [
+            "Xi",
+            "gre.Ks"
+        ]
+    },
+    "Ο": {
+        "i": "105",
+        "codePoint": "U+039F",
+        "name": "Greek capital letter Omicron",
+        "entities": "&Omicron;",
+        "code": "",
+        "keywords": [
+            "Omikron",
+            "gre.O"
+        ]
+    },
+    "Π": {
+        "i": "106",
+        "codePoint": "U+03A0",
+        "name": "Greek capital letter Pi",
+        "entities": "&Pi;",
+        "code": "",
+        "keywords": [
+            "Pi",
+            "gre.P"
+        ]
+    },
+    "Ρ": {
+        "i": "107",
+        "codePoint": "U+03A1",
+        "name": "Greek capital letter Rho",
+        "entities": "&Rho;",
+        "code": "",
+        "keywords": [
+            "Rho",
+            "gre.R"
+        ]
+    },
+    "Σ": {
+        "i": "108",
+        "codePoint": "U+03A3",
+        "name": "Greek capital letter Sigma",
+        "entities": "&Sigma;",
+        "code": "",
+        "keywords": [
+            "Sigma",
+            "gre.S"
+        ]
+    },
+    "Τ": {
+        "i": "109",
+        "codePoint": "U+03A4",
+        "name": "Greek capital letter Tau",
+        "entities": "&Tau;",
+        "code": "",
+        "keywords": [
+            "Tau",
+            "gre.T"
+        ]
+    },
+    "Υ": {
+        "i": "110",
+        "codePoint": "U+03A5",
+        "name": "Greek capital letter Upsilon",
+        "entities": "&Upsilon;",
+        "code": "",
+        "keywords": [
+            "Upsilon",
+            "gre.U"
+        ]
+    },
+    "Φ": {
+        "i": "111",
+        "codePoint": "U+03A6",
+        "name": "Greek capital letter Phi",
+        "entities": "&Phi;",
+        "code": "",
+        "keywords": [
+            "Phi",
+            "gre.F"
+        ]
+    },
+    "Χ": {
+        "i": "112",
+        "codePoint": "U+03A7",
+        "name": "Greek capital letter Chi",
+        "entities": "&Chi;",
+        "code": "",
+        "keywords": [
+            "Chi",
+            "gre.Ch"
+        ]
+    },
+    "Ψ": {
+        "i": "113",
+        "codePoint": "U+03A8",
+        "name": "Greek capital letter Psi",
+        "entities": "&Psi;",
+        "code": "",
+        "keywords": [
+            "Psi",
+            "gre.Ps"
+        ]
+    },
+    "Ω": {
+        "i": "114",
+        "codePoint": "U+03A9",
+        "name": "Greek capital letter Omega",
+        "entities": "&ohm;, &Omega;",
+        "code": "",
+        "keywords": [
+            "Omega",
+            "Ômega",
+            "gre.Ô",
+            "Ohm sign"
+        ]
+    },
+    "α": {
+        "i": "115",
+        "codePoint": "U+03B1",
+        "name": "Greek small letter alpha",
+        "entities": "&alpha;",
+        "code": "",
+        "keywords": [
+            "alpha",
+            "gre.gre.a"
+        ]
+    },
+    "β": {
+        "i": "116",
+        "codePoint": "U+03B2",
+        "name": "Greek small letter beta",
+        "entities": "&beta;",
+        "code": "",
+        "keywords": [
+            "beta",
+            "gre.b"
+        ]
+    },
+    "γ": {
+        "i": "117",
+        "codePoint": "U+03B3",
+        "name": "Greek small letter gamma",
+        "entities": "&gamma;",
+        "code": "",
+        "keywords": [
+            "gamma",
+            "gre.g"
+        ]
+    },
+    "δ": {
+        "i": "118",
+        "codePoint": "U+03B4",
+        "name": "Greek small letter delta",
+        "entities": "&delta;",
+        "code": "",
+        "keywords": [
+            "delta",
+            "gre.d"
+        ]
+    },
+    "ε": {
+        "i": "119",
+        "codePoint": "U+03B5",
+        "name": "Greek small letter epsilon",
+        "entities": "&epsi;, &epsilon;",
+        "code": "",
+        "keywords": [
+            "epsilon",
+            "gre.e"
+        ]
+    },
+    "ϵ": {
+        "i": "120",
+        "codePoint": "U+03F5",
+        "name": "Greek lunate epsilon symbol",
+        "entities": "&epsiv;, &varepsilon;, &straightepsilon;",
+        "code": "",
+        "keywords": [
+            "variant epsilon",
+            "straight epsilon"
+        ]
+    },
+    "϶": {
+        "i": "121",
+        "codePoint": "U+03F6",
+        "name": "Greek reversed lunate epsilon symbol",
+        "entities": "&bepsi;, &backepsilon;",
+        "code": "",
+        "keywords": [
+            "back epsilon"
+        ]
+    },
+    "ζ": {
+        "i": "122",
+        "codePoint": "U+03B6",
+        "name": "Greek small letter zeta",
+        "entities": "&zeta;",
+        "code": "",
+        "keywords": [
+            "zeta",
+            "zêta",
+            "gre.z"
+        ]
+    },
+    "η": {
+        "i": "123",
+        "codePoint": "U+03B7",
+        "name": "Greek small letter eta",
+        "entities": "&eta;",
+        "code": "",
+        "keywords": [
+            "eta",
+            "êta",
+            "gre.ê"
+        ]
+    },
+    "θ": {
+        "i": "124",
+        "codePoint": "U+03B8",
+        "name": "Greek small letter theta",
+        "entities": "&theta;",
+        "code": "",
+        "keywords": [
+            "theta",
+            "thêta",
+            "gre.th"
+        ]
+    },
+    "ι": {
+        "i": "125",
+        "codePoint": "U+03B9",
+        "name": "Greek small letter iota",
+        "entities": "&iota;",
+        "code": "",
+        "keywords": [
+            "iota",
+            "gre.i"
+        ]
+    },
+    "κ": {
+        "i": "126",
+        "codePoint": "U+03BA",
+        "name": "Greek small letter kappa",
+        "entities": "&kappa;",
+        "code": "",
+        "keywords": [
+            "kappa",
+            "gre.k"
+        ]
+    },
+    "λ": {
+        "i": "127",
+        "codePoint": "U+03BB",
+        "name": "Greek small letter lamda",
+        "entities": "&lambda;",
+        "code": "",
+        "keywords": [
+            "lambda",
+            "gre.l"
+        ]
+    },
+    "μ": {
+        "i": "128",
+        "codePoint": "U+03BC",
+        "name": "Greek small letter mu",
+        "entities": "&mu;",
+        "code": "",
+        "keywords": [
+            "mu",
+            "gre.m"
+        ]
+    },
+    "ν": {
+        "i": "129",
+        "codePoint": "U+03BD",
+        "name": "Greek small letter nu",
+        "entities": "&nu;",
+        "code": "",
+        "keywords": [
+            "nu",
+            "gre.n"
+        ]
+    },
+    "ξ": {
+        "i": "130",
+        "codePoint": "U+03BE",
+        "name": "Greek small letter xi",
+        "entities": "&xi;",
+        "code": "",
+        "keywords": [
+            "xi",
+            "gre.ks"
+        ]
+    },
+    "ο": {
+        "i": "131",
+        "codePoint": "U+03BF",
+        "name": "Greek small letter omicron",
+        "entities": "&omicron;",
+        "code": "",
+        "keywords": [
+            "omikron",
+            "gre.o"
+        ]
+    },
+    "π": {
+        "i": "132",
+        "codePoint": "U+03C0",
+        "name": "Greek small letter pi",
+        "entities": "&pi;",
+        "code": "",
+        "keywords": [
+            "pi",
+            "gre.p"
+        ]
+    },
+    "ρ": {
+        "i": "133",
+        "codePoint": "U+03C1",
+        "name": "Greek small letter rho",
+        "entities": "&rho;",
+        "code": "",
+        "keywords": [
+            "rho",
+            "gre.r"
+        ]
+    },
+    "σ": {
+        "i": "134",
+        "codePoint": "U+03C3",
+        "name": "Greek small letter sigma",
+        "entities": "&sigma;",
+        "code": "",
+        "keywords": [
+            "sigma",
+            "gre.s"
+        ]
+    },
+    "ς": {
+        "i": "135",
+        "codePoint": "U+03C2",
+        "name": "Greek small letter final sigma",
+        "entities": "&sigmaf;, &sigmav;, &varsigma;",
+        "code": "",
+        "keywords": [
+            "variant sigma"
+        ]
+    },
+    "τ": {
+        "i": "136",
+        "codePoint": "U+03C4",
+        "name": "Greek small letter tau",
+        "entities": "&tau;",
+        "code": "",
+        "keywords": [
+            "tau",
+            "gre.t"
+        ]
+    },
+    "υ": {
+        "i": "137",
+        "codePoint": "U+03C5",
+        "name": "Greek small letter upsilon",
+        "entities": "&upsi;, &upsilon;",
+        "code": "",
+        "keywords": [
+            "upsilon",
+            "gre.u"
+        ]
+    },
+    "φ": {
+        "i": "138",
+        "codePoint": "U+03C6",
+        "name": "Greek small letter phi",
+        "entities": "&phi;",
+        "code": "",
+        "keywords": [
+            "phi",
+            "gre.f"
+        ]
+    },
+    "ϕ": {
+        "i": "139",
+        "codePoint": "U+03D5",
+        "name": "Greek phi symbol",
+        "entities": "&phiv;, &straightphi;, &varphi;",
+        "code": "",
+        "keywords": [
+            "straight phi",
+            "variant phi",
+            "gre.ph"
+        ]
+    },
+    "χ": {
+        "i": "140",
+        "codePoint": "U+03C7",
+        "name": "Greek small letter chi",
+        "entities": "&chi;",
+        "code": "",
+        "keywords": [
+            "chi",
+            "gre.ch"
+        ]
+    },
+    "ψ": {
+        "i": "141",
+        "codePoint": "U+03C8",
+        "name": "Greek small letter psi",
+        "entities": "&psi;",
+        "code": "",
+        "keywords": [
+            "psi",
+            "gre.ps"
+        ]
+    },
+    "ω": {
+        "i": "142",
+        "codePoint": "U+03C9",
+        "name": "Greek small letter omega",
+        "entities": "&omega;",
+        "code": "",
+        "keywords": [
+            "omega",
+            "ômega",
+            "gre.ô"
+        ]
+    },
+    "ℂ": {
+        "i": "143",
+        "codePoint": "U+2102",
+        "name": "double-struck capital C",
+        "entities": "&Copf;, &complexes;",
+        "code": "",
+        "keywords": [
+            "Complex number",
+            "open-face capital C"
+        ]
+    },
+    "ℋ": {
+        "i": "144",
+        "codePoint": "U+210B",
+        "name": "script capital H",
+        "entities": "&Hscr;, &hamilt;, &HilbertSpace;",
+        "code": "",
+        "keywords": [
+            "Hilbert space",
+            "Hamiltonian mechanics"
+        ]
+    },
+    "ℌ": {
+        "i": "145",
+        "codePoint": "U+210C",
+        "name": "black-letter capital H",
+        "entities": "&Hfr;, &Poincareplane;",
+        "code": "",
+        "keywords": [
+            "Fraktur capital H",
+            "Poincare plane"
+        ]
+    },
+    "ℍ": {
+        "i": "146",
+        "codePoint": "U+210D",
+        "name": "double-struck capital H",
+        "entities": "&Hopf;, &quaternions;",
+        "code": "",
+        "keywords": [
+            "Quaternion",
+            "open-face capital H"
+        ]
+    },
+    "ℎ": {
+        "i": "147",
+        "codePoint": "U+210E",
+        "name": "planck constant",
+        "entities": "&planckh;",
+        "code": "",
+        "keywords": [
+            ""
+        ]
+    },
+    "ℏ": {
+        "i": "148",
+        "codePoint": "U+210F",
+        "name": "planck constant over two pi",
+        "entities": "&hbar;, &hslash;, &planck;, &plankv;",
+        "code": "",
+        "keywords": [
+            "h bar",
+            "h slash",
+            "Planck variant"
+        ]
+    },
+    "ℐ": {
+        "i": "149",
+        "codePoint": "U+2110",
+        "name": "script capital I",
+        "entities": "&Iscr;, &imagline;",
+        "code": "",
+        "keywords": [
+            "imaginary line"
+        ]
+    },
+    "ℑ": {
+        "i": "150",
+        "codePoint": "U+2111",
+        "name": "black-letter capital I",
+        "entities": "&Im;, &Ifr;, &image;, &imagpart;",
+        "code": "",
+        "keywords": [
+            "Fraktur capital I",
+            "imaginary part"
+        ]
+    },
+    "ℒ": {
+        "i": "151",
+        "codePoint": "U+2112",
+        "name": "script capital L",
+        "entities": "&Lscr;, &lagran;, &Laplacetrf;",
+        "code": "",
+        "keywords": [
+            "Lagrangian mechanics",
+            "Laplace transform"
+        ]
+    },
+    "ℓ": {
+        "i": "152",
+        "codePoint": "U+2113",
+        "name": "script small l",
+        "entities": "&ell;",
+        "code": "",
+        "keywords": [
+            "mathematical ell"
+        ]
+    },
+    "ℕ": {
+        "i": "153",
+        "codePoint": "U+2115",
+        "name": "double-struck capital N",
+        "entities": "&Nopf;, &naturals;",
+        "code": "",
+        "keywords": [
+            "Natural number",
+            "open-face capital N"
+        ]
+    },
+    "№": {
+        "i": "154",
+        "codePoint": "U+2116",
+        "name": "numero sign",
+        "entities": "&numero;",
+        "code": "",
+        "keywords": [
+            ""
+        ]
+    },
+    "℘": {
+        "i": "155",
+        "codePoint": "U+2118",
+        "name": "script capital P",
+        "entities": "&wp;, &weierp;",
+        "code": "",
+        "keywords": [
+            "power set",
+            "Weierstrass p"
+        ]
+    },
+    "ℙ": {
+        "i": "156",
+        "codePoint": "U+2119",
+        "name": "double-struck capital P",
+        "entities": "&Popf;, &primes;",
+        "code": "",
+        "keywords": [
+            "prime number",
+            "open-face capital P"
+        ]
+    },
+    "ℚ": {
+        "i": "157",
+        "codePoint": "U+211A",
+        "name": "double-struck capital Q",
+        "entities": "&Qopf;, &rationals;",
+        "code": "",
+        "keywords": [
+            "rational number",
+            "open-face capital Q"
+        ]
+    },
+    "ℛ": {
+        "i": "158",
+        "codePoint": "U+211B",
+        "name": "script capital R",
+        "entities": "&Rscr;, &realine;",
+        "code": "",
+        "keywords": [
+            "Riemann integral",
+            "real line"
+        ]
+    },
+    "ℜ": {
+        "i": "159",
+        "codePoint": "U+211C",
+        "name": "black-letter capital R",
+        "entities": "&Re;, &Rfr;, &real;, &realpart;",
+        "code": "",
+        "keywords": [
+            "Fraktur capital R",
+            "real part symbol"
+        ]
+    },
+    "ℝ": {
+        "i": "160",
+        "codePoint": "U+211D",
+        "name": "double-struck capital R",
+        "entities": "&Ropf;, &reals;",
+        "code": "",
+        "keywords": [
+            "real number"
+        ]
+    },
+    "℞": {
+        "i": "161",
+        "codePoint": "U+211E",
+        "name": "prescription take",
+        "entities": "&rx;",
+        "code": "",
+        "keywords": [
+            "Rx"
+        ]
+    },
+    "ℤ": {
+        "i": "162",
+        "codePoint": "U+2124",
+        "name": "double-struck capital Z",
+        "entities": "&Zopf;, &integers;",
+        "code": "",
+        "keywords": [
+            "integer number"
+        ]
+    },
+    "℧": {
+        "i": "163",
+        "codePoint": "U+2127",
+        "name": "inverted ohm sign",
+        "entities": "&mho;",
+        "code": "",
+        "keywords": [
+            "Mho"
+        ]
+    },
+    "ℨ": {
+        "i": "164",
+        "codePoint": "U+2128",
+        "name": "black-letter capital Z",
+        "entities": "&Zfr;, &zeetrf;",
+        "code": "",
+        "keywords": [
+            "Fraktur capital Z",
+            "dram"
+        ]
+    },
+    "ℬ": {
+        "i": "165",
+        "codePoint": "U+212C",
+        "name": "script capital B",
+        "entities": "&Bscr;, &bernou;, &Bernoullis;",
+        "code": "",
+        "keywords": [
+            "Bernoulli polynomials"
+        ]
+    },
+    "ℭ": {
+        "i": "166",
+        "codePoint": "U+212D",
+        "name": "black-letter capital C",
+        "entities": "&Cfr;, &Cayleys;",
+        "code": "",
+        "keywords": [
+            "Fraktur capital C",
+            ""
+        ]
+    },
+    "ℯ": {
+        "i": "167",
+        "codePoint": "U+212F",
+        "name": "script small e",
+        "entities": "&escr;",
+        "code": "",
+        "keywords": [
+            "natural logarithm base",
+            "Euler's number",
+            "Napier's constant"
+        ]
+    },
+    "ℰ": {
+        "i": "168",
+        "codePoint": "U+2130",
+        "name": "script capital E",
+        "entities": "&Escr;, &expectation;",
+        "code": "",
+        "keywords": [
+            "electromotive force",
+            "expected value"
+        ]
+    },
+    "ℱ": {
+        "i": "169",
+        "codePoint": "U+2131",
+        "name": "script capital F",
+        "entities": "&Fscr;, &Fouriertrf;",
+        "code": "",
+        "keywords": [
+            "Fourier transform"
+        ]
+    },
+    "ℳ": {
+        "i": "170",
+        "codePoint": "U+2133",
+        "name": "script capital M",
+        "entities": "&Mscr;, &phmmat;, &Mellintrf;",
+        "code": "",
+        "keywords": [
+            "Mellin transform",
+            "M-matrix"
+        ]
+    },
+    "ℴ": {
+        "i": "171",
+        "codePoint": "U+2134",
+        "name": "script small o",
+        "entities": "&oscr;, &order;, &orderof;",
+        "code": "",
+        "keywords": [
+            "order",
+            "of inferior order to"
+        ]
+    },
+    "ℵ": {
+        "i": "172",
+        "codePoint": "U+2135",
+        "name": "alef symbol",
+        "entities": "&aleph;, &alefsym;",
+        "code": "",
+        "keywords": [
+            "first transfinite cardinal"
+        ]
+    },
+    "ℶ": {
+        "i": "173",
+        "codePoint": "U+2136",
+        "name": "bet symbol",
+        "entities": "&beth;",
+        "code": "",
+        "keywords": [
+            "beth symbol"
+        ]
+    },
+    "ℸ": {
+        "i": "174",
+        "codePoint": "U+2138",
+        "name": "dalet symbol",
+        "entities": "&daleth;",
+        "code": "",
+        "keywords": [
+            "daleth symbol"
+        ]
+    },
+    "ⅅ": {
+        "i": "175",
+        "codePoint": "U+2145",
+        "name": "double-struck italic capital D",
+        "entities": "&DD;, &CapitalDifferentialD;",
+        "code": "",
+        "keywords": [
+            "derivative symbol"
+        ]
+    },
+    "ⅆ": {
+        "i": "176",
+        "codePoint": "U+2146",
+        "name": "double-struck italic small d",
+        "entities": "&dd;, &DifferentialD;",
+        "code": "",
+        "keywords": [
+            "differential symbol"
+        ]
+    },
+    "ⅇ": {
+        "i": "177",
+        "codePoint": "U+2147",
+        "name": "double-struck italic small e",
+        "entities": "&ee;, &exponentiale;, &ExponentialE;",
+        "code": "",
+        "keywords": [
+            ""
+        ]
+    },
+    "ⅈ": {
+        "i": "178",
+        "codePoint": "U+2148",
+        "name": "double-struck italic small i",
+        "entities": "&ii;, &ImaginaryI;",
+        "code": "",
+        "keywords": [
+            "imaginary unit"
+        ]
+    },
+    "Å": {
+        "i": "179",
+        "codePoint": "U+00C5",
+        "name": "Latin capital letter A with ring above",
+        "entities": "&angst;, &Aring;",
+        "code": "",
+        "keywords": [
+            ""
+        ]
+    },
+    "Å": {
+        "i": "180",
+        "codePoint": "U+212B",
+        "name": "angstrom sign",
+        "entities": "",
+        "code": "",
+        "keywords": [
+            "Ångström sign"
+        ]
+    },
+    "ℼ": {
+        "i": "181",
+        "codePoint": "U+213C",
+        "name": "double-struck small pi",
+        "entities": "",
+        "code": "",
+        "keywords": [
+            "circle constant"
+        ]
+    },
+    "ℾ": {
+        "i": "182",
+        "codePoint": "U+213E",
+        "name": "double-struck capital Gamma",
+        "entities": "",
+        "code": "",
+        "keywords": [
+            "gamma function"
+        ]
+    },
+    "ℿ": {
+        "i": "183",
+        "codePoint": "U+213F",
+        "name": "double-struck capital Pi",
+        "entities": "",
+        "code": "",
+        "keywords": [
+            "product notation"
+        ]
+    },
+    "⅀": {
+        "i": "184",
+        "codePoint": "U+2140",
+        "name": "double-struck n-ary summation",
+        "entities": "",
+        "code": "",
+        "keywords": [
+            "summation notation"
+        ]
+    },
+    "ⅉ": {
+        "i": "185",
+        "codePoint": "U+2149",
+        "name": "double-struck italic small j",
+        "entities": "",
+        "code": "",
+        "keywords": [
+            "imaginary unit in physics"
+        ]
+    },
+    "℃": {
+        "i": "186",
+        "codePoint": "U+2103",
+        "name": "degree Celsius",
+        "entities": "",
+        "code": "",
+        "keywords": [
+            ""
+        ]
+    },
+    "℉": {
+        "i": "187",
+        "codePoint": "U+2109",
+        "name": "degree Fahrenheit",
+        "entities": "",
+        "code": "",
+        "keywords": [
+            ""
+        ]
+    },
+    "⅏": {
+        "i": "188",
+        "codePoint": "U+214F",
+        "name": "symbol for Samaritan source",
+        "entities": "",
+        "code": "",
+        "keywords": [
+            ""
+        ]
+    },
     "⇔": {
-        "i": "90",
+        "i": "190",
         "codePoint": "U+21D4",
         "name": "left right double arrow",
         "entities": "&hArr;, &Leftrightarrow;, &DoubleLeftRightArrow;, &iff;",
@@ -889,7 +1960,7 @@ const shorthandMap = {
         ]
     },
     "⇒": {
-        "i": "91",
+        "i": "191",
         "codePoint": "U+21D2",
         "name": "rightwards double arrow",
         "entities": "&rArr;, &Rightarrow;, &Implies;, &DoubleRightArrow;",
@@ -900,7 +1971,7 @@ const shorthandMap = {
         ]
     },
     "⇐": {
-        "i": "92",
+        "i": "192",
         "codePoint": "U+21D0",
         "name": "leftwards double arrow",
         "entities": "&lArr;, &Leftarrow;, &DoubleLeftArrow;",
@@ -910,7 +1981,7 @@ const shorthandMap = {
         ]
     },
     "⇑": {
-        "i": "93",
+        "i": "193",
         "codePoint": "U+21D1",
         "name": "upwards double arrow",
         "entities": "&uArr;, &Uparrow;, &DoubleUpArrow;",
@@ -920,7 +1991,7 @@ const shorthandMap = {
         ]
     },
     "⇓": {
-        "i": "94",
+        "i": "194",
         "codePoint": "U+21D3",
         "name": "downwards double arrow",
         "entities": "&dArr;, &Downarrow;, &DoubleDownArrow;",
@@ -930,7 +2001,7 @@ const shorthandMap = {
         ]
     },
     "⇏": {
-        "i": "95",
+        "i": "195",
         "codePoint": "U+21CF",
         "name": "rightwards double arrow with stroke",
         "entities": "&nrArr;, &nRightarrow;",
@@ -941,7 +2012,7 @@ const shorthandMap = {
         ]
     },
     "⇍": {
-        "i": "96",
+        "i": "196",
         "codePoint": "U+21CD",
         "name": "leftwards double arrow with stroke",
         "entities": "&nlArr;, &nLeftarrow;",
@@ -951,7 +2022,7 @@ const shorthandMap = {
         ]
     },
     "⇌": {
-        "i": "97",
+        "i": "197",
         "codePoint": "U+21CC",
         "name": "rightwards harpoon over leftwards harpoon",
         "entities": "&rlhar;, &rightleftharpoons;, &Equilibrium;",
@@ -961,7 +2032,7 @@ const shorthandMap = {
         ]
     },
     "⇋": {
-        "i": "98",
+        "i": "198",
         "codePoint": "U+21CB",
         "name": "leftwards harpoon over rightwards harpoon",
         "entities": "&lrhar;, &ReverseEquilibrium;, &leftrightharpoons;",
@@ -971,7 +2042,7 @@ const shorthandMap = {
         ]
     },
     "⇄": {
-        "i": "99",
+        "i": "199",
         "codePoint": "U+21C4",
         "name": "rightwards arrow over leftwards arrow",
         "entities": "&rlarr;, &rightleftarrows;, &RightArrowLeftArrow;",
@@ -981,7 +2052,7 @@ const shorthandMap = {
         ]
     },
     "⇆": {
-        "i": "100",
+        "i": "200",
         "codePoint": "U+21C6",
         "name": "leftwards arrow over rightwards arrow",
         "entities": "&lrarr;, &leftrightarrows;, &LeftArrowRightArrow;",
@@ -991,7 +2062,7 @@ const shorthandMap = {
         ]
     },
     "⇀": {
-        "i": "101",
+        "i": "201",
         "codePoint": "U+21C0",
         "name": "rightwards harpoon with barb upwards",
         "entities": "&rharu;, &RightVector;, &rightharpoonup;",
@@ -1001,7 +2072,7 @@ const shorthandMap = {
         ]
     },
     "⇁": {
-        "i": "102",
+        "i": "202",
         "codePoint": "U+21C1",
         "name": "rightwards harpoon with barb downwards",
         "entities": "&rhard;, &rightharpoondown;, &DownRightVector;",
@@ -1011,7 +2082,7 @@ const shorthandMap = {
         ]
     },
     "↼": {
-        "i": "103",
+        "i": "203",
         "codePoint": "U+21BC",
         "name": "leftwards harpoon with barb upwards",
         "entities": "&lharu;, &LeftVector;, &leftharpoonup;",
@@ -1021,7 +2092,7 @@ const shorthandMap = {
         ]
     },
     "↽": {
-        "i": "104",
+        "i": "204",
         "codePoint": "U+21BD",
         "name": "leftwards harpoon with barb downwards",
         "entities": "&lhard;, &leftharpoondown;, &DownLeftVector;",
@@ -1031,7 +2102,7 @@ const shorthandMap = {
         ]
     },
     "↾": {
-        "i": "105",
+        "i": "205",
         "codePoint": "U+21BE",
         "name": "upwards harpoon with barb rightwards",
         "entities": "&uharr;, &upharpoonright;, &RightUpVector;",
@@ -1041,7 +2112,7 @@ const shorthandMap = {
         ]
     },
     "↿": {
-        "i": "106",
+        "i": "206",
         "codePoint": "U+21BF",
         "name": "upwards harpoon with barb leftwards",
         "entities": "&uharl;, &upharpoonleft;, &LeftUpVector;",
@@ -1051,7 +2122,7 @@ const shorthandMap = {
         ]
     },
     "⇂": {
-        "i": "107",
+        "i": "207",
         "codePoint": "U+21C2",
         "name": "downwards harpoon with barb rightwards",
         "entities": "&dharr;, &RightDownVector;, &downharpoonright;",
@@ -1061,7 +2132,7 @@ const shorthandMap = {
         ]
     },
     "⇃": {
-        "i": "108",
+        "i": "208",
         "codePoint": "U+21C3",
         "name": "downwards harpoon with barb leftwards",
         "entities": "&dharl;, &LeftDownVector;, &downharpoonleft;",
@@ -1071,7 +2142,7 @@ const shorthandMap = {
         ]
     },
     "↔": {
-        "i": "109",
+        "i": "209",
         "codePoint": "U+2194",
         "name": "left right arrow",
         "entities": "&harr;, &leftrightarrow;, &LeftRightArrow;, ",
@@ -1081,7 +2152,7 @@ const shorthandMap = {
         ]
     },
     "→": {
-        "i": "110",
+        "i": "210",
         "codePoint": "U+2192",
         "name": "rightwards arrow",
         "entities": "&rarr;, &rightarrow;, &RightArrow;, &srarr;, &ShortRightArrow;, ",
@@ -1091,7 +2162,7 @@ const shorthandMap = {
         ]
     },
     "←": {
-        "i": "111",
+        "i": "211",
         "codePoint": "U+2190",
         "name": "leftwards arrow",
         "entities": "&larr;, &leftarrow;, &LeftArrow;, &slarr;, &ShortLeftArrow;, ",
@@ -1101,7 +2172,7 @@ const shorthandMap = {
         ]
     },
     "↕": {
-        "i": "112",
+        "i": "212",
         "codePoint": "U+2195",
         "name": "up down arrow",
         "entities": "&varr;, &updownarrow;, &UpDownArrow;, ",
@@ -1111,7 +2182,7 @@ const shorthandMap = {
         ]
     },
     "↑": {
-        "i": "113",
+        "i": "213",
         "codePoint": "U+2191",
         "name": "upwards arrow",
         "entities": "&uarr;, &uparrow;, &UpArrow;, &ShortUpArrow;, ",
@@ -1121,7 +2192,7 @@ const shorthandMap = {
         ]
     },
     "↓": {
-        "i": "114",
+        "i": "214",
         "codePoint": "U+2193",
         "name": "downwards arrow",
         "entities": "&darr;, &downarrow;, &DownArrow;, &ShortDownArrow;, ",
@@ -1131,7 +2202,7 @@ const shorthandMap = {
         ]
     },
     "⇿": {
-        "i": "115",
+        "i": "215",
         "codePoint": "U+21FF",
         "name": "left right open-headed arrow",
         "entities": "&hoarr;",
@@ -1141,7 +2212,7 @@ const shorthandMap = {
         ]
     },
     "⇾": {
-        "i": "116",
+        "i": "216",
         "codePoint": "U+21FE",
         "name": "rightwards open-headed arrow",
         "entities": "&roarr;",
@@ -1151,7 +2222,7 @@ const shorthandMap = {
         ]
     },
     "⇽": {
-        "i": "117",
+        "i": "217",
         "codePoint": "U+21FD",
         "name": "leftwards open-headed arrow",
         "entities": "&loarr;",
@@ -1161,7 +2232,7 @@ const shorthandMap = {
         ]
     },
     "↣": {
-        "i": "118",
+        "i": "218",
         "codePoint": "U+21A3",
         "name": "rightwards arrow with tail",
         "entities": "&rarrtl;, &rightarrowtail;, ",
@@ -1171,7 +2242,7 @@ const shorthandMap = {
         ]
     },
     "↢": {
-        "i": "119",
+        "i": "219",
         "codePoint": "U+21A2",
         "name": "leftwards arrow with tail",
         "entities": "&larrtl;, &leftarrowtail;",
@@ -1181,7 +2252,7 @@ const shorthandMap = {
         ]
     },
     "⤚": {
-        "i": "120",
+        "i": "220",
         "codePoint": "U+291A",
         "name": "rightwards arrow-tail",
         "entities": "&ratail;",
@@ -1191,7 +2262,7 @@ const shorthandMap = {
         ]
     },
     "⤙": {
-        "i": "121",
+        "i": "221",
         "codePoint": "U+2919",
         "name": "leftwards arrow-tail",
         "entities": "&latail;",
@@ -1201,7 +2272,7 @@ const shorthandMap = {
         ]
     },
     "↦": {
-        "i": "122",
+        "i": "222",
         "codePoint": "U+21A6",
         "name": "rightwards arrow from bar",
         "entities": "&map;, &RightTeeArrow;, &mapsto;, ",
@@ -1212,7 +2283,7 @@ const shorthandMap = {
         ]
     },
     "↤": {
-        "i": "123",
+        "i": "223",
         "codePoint": "U+21A4",
         "name": "leftwards arrow from bar",
         "entities": "&LeftTeeArrow;, &mapstoleft;, ",
@@ -1223,7 +2294,7 @@ const shorthandMap = {
         ]
     },
     "↥": {
-        "i": "124",
+        "i": "224",
         "codePoint": "U+21A5",
         "name": "upwards arrow from bar",
         "entities": "&UpTeeArrow;, &mapstoup;, ",
@@ -1234,7 +2305,7 @@ const shorthandMap = {
         ]
     },
     "↧": {
-        "i": "125",
+        "i": "225",
         "codePoint": "U+21A7",
         "name": "downwards arrow from bar",
         "entities": "&DownTeeArrow;, &mapstodown;",
@@ -1245,7 +2316,7 @@ const shorthandMap = {
         ]
     },
     "⟷": {
-        "i": "126",
+        "i": "226",
         "codePoint": "U+27F7",
         "name": "long left right arrow",
         "entities": "&xharr;, &longleftrightarrow;, &LongLeftRightArrow;",
@@ -1255,7 +2326,7 @@ const shorthandMap = {
         ]
     },
     "⟶": {
-        "i": "127",
+        "i": "227",
         "codePoint": "U+27F6",
         "name": "long rightwards arrow",
         "entities": "&xrarr;, &longrightarrow;, &LongRightArrow;",
@@ -1265,7 +2336,7 @@ const shorthandMap = {
         ]
     },
     "⟵": {
-        "i": "128",
+        "i": "228",
         "codePoint": "U+27F5",
         "name": "long leftwards arrow",
         "entities": "&xlarr;, &longleftarrow;, &LongLeftArrow;",
@@ -1275,7 +2346,7 @@ const shorthandMap = {
         ]
     },
     "⟺": {
-        "i": "129",
+        "i": "229",
         "codePoint": "U+27FA",
         "name": "long left right double arrow",
         "entities": "&xhArr;, &Longleftrightarrow;, &DoubleLongLeftRightArrow;",
@@ -1285,7 +2356,7 @@ const shorthandMap = {
         ]
     },
     "⟹": {
-        "i": "130",
+        "i": "230",
         "codePoint": "U+27F9",
         "name": "long rightwards double arrow",
         "entities": "&xrArr;, &Longrightarrow;, &DoubleLongRightArrow;",
@@ -1295,7 +2366,7 @@ const shorthandMap = {
         ]
     },
     "⟸": {
-        "i": "131",
+        "i": "231",
         "codePoint": "U+27F8",
         "name": "long leftwards double arrow",
         "entities": "&xlArr;, &Longleftarrow;, &DoubleLongLeftArrow;",
@@ -1305,7 +2376,7 @@ const shorthandMap = {
         ]
     },
     "⬌": {
-        "i": "132",
+        "i": "232",
         "codePoint": "U+2B0C",
         "name": "left right black arrow",
         "entities": "",
@@ -1315,7 +2386,7 @@ const shorthandMap = {
         ]
     },
     "⮕": {
-        "i": "133",
+        "i": "233",
         "codePoint": "U+2B95",
         "name": "rightwards black arrow",
         "entities": "",
@@ -1325,7 +2396,7 @@ const shorthandMap = {
         ]
     },
     "⬅": {
-        "i": "134",
+        "i": "234",
         "codePoint": "U+2B05",
         "name": "leftwards black arrow",
         "entities": "",
@@ -1335,7 +2406,7 @@ const shorthandMap = {
         ]
     },
     "⬍": {
-        "i": "135",
+        "i": "235",
         "codePoint": "U+2B0D",
         "name": "up down black arrow",
         "entities": "",
@@ -1345,7 +2416,7 @@ const shorthandMap = {
         ]
     },
     "⬆": {
-        "i": "136",
+        "i": "236",
         "codePoint": "U+2B06",
         "name": "upwards black arrow",
         "entities": "",
@@ -1355,7 +2426,7 @@ const shorthandMap = {
         ]
     },
     "⬇": {
-        "i": "137",
+        "i": "237",
         "codePoint": "U+2B07",
         "name": "downwards black arrow",
         "entities": "",
@@ -1365,7 +2436,7 @@ const shorthandMap = {
         ]
     },
     "➡": {
-        "i": "138",
+        "i": "238",
         "codePoint": "U+27A1",
         "name": "black rightwards arrow",
         "entities": "",
@@ -1375,7 +2446,7 @@ const shorthandMap = {
         ]
     },
     "➳": {
-        "i": "139",
+        "i": "239",
         "codePoint": "U+27B3",
         "name": "white-feathered rightwards arrow",
         "entities": "",
@@ -1385,7 +2456,7 @@ const shorthandMap = {
         ]
     },
     "➻": {
-        "i": "140",
+        "i": "240",
         "codePoint": "U+27BB",
         "name": "heavy teardrop-shanked rightwards arrow",
         "entities": "",
@@ -1395,7 +2466,7 @@ const shorthandMap = {
         ]
     },
     "↷": {
-        "i": "141",
+        "i": "241",
         "codePoint": "U+21B7",
         "name": "clockwise top semicircle arrow",
         "entities": "&curarr;, &curvearrowright;, ",
@@ -1405,7 +2476,7 @@ const shorthandMap = {
         ]
     },
     "↶": {
-        "i": "142",
+        "i": "242",
         "codePoint": "U+21B6",
         "name": "anticlockwise top semicircle arrow",
         "entities": "&cularr;, &curvearrowleft;, ",
@@ -1415,7 +2486,7 @@ const shorthandMap = {
         ]
     },
     "↻": {
-        "i": "143",
+        "i": "243",
         "codePoint": "U+21BB",
         "name": "clockwise open circle arrow",
         "entities": "&orarr;, &circlearrowright;, ",
@@ -1426,7 +2497,7 @@ const shorthandMap = {
         ]
     },
     "↺": {
-        "i": "144",
+        "i": "244",
         "codePoint": "U+21BA",
         "name": "anticlockwise open circle arrow",
         "entities": "&olarr;, &circlearrowleft;",
@@ -1437,7 +2508,7 @@ const shorthandMap = {
         ]
     },
     "⤾": {
-        "i": "145",
+        "i": "245",
         "codePoint": "U+293E",
         "name": "lower right semicircular clockwise arrow",
         "entities": "",
@@ -1447,7 +2518,7 @@ const shorthandMap = {
         ]
     },
     "⤿": {
-        "i": "146",
+        "i": "246",
         "codePoint": "U+293F",
         "name": "lower left semicircular anticlockwise arrow",
         "entities": "",
@@ -1457,7 +2528,7 @@ const shorthandMap = {
         ]
     },
     "⟳": {
-        "i": "147",
+        "i": "247",
         "codePoint": "U+27F3",
         "name": "clockwise gapped circle arrow",
         "entities": "",
@@ -1467,7 +2538,7 @@ const shorthandMap = {
         ]
     },
     "⟲": {
-        "i": "148",
+        "i": "248",
         "codePoint": "U+27F2",
         "name": "anticlockwise gapped circle arrow",
         "entities": "",
@@ -1477,7 +2548,7 @@ const shorthandMap = {
         ]
     },
     "⥁": {
-        "i": "150",
+        "i": "250",
         "codePoint": "U+2941",
         "name": "clockwise closed circle arrow",
         "entities": "",
@@ -1487,7 +2558,7 @@ const shorthandMap = {
         ]
     },
     "⥀": {
-        "i": "151",
+        "i": "251",
         "codePoint": "U+2940",
         "name": "anticlockwise closed circle arrow",
         "entities": "",
@@ -1497,7 +2568,7 @@ const shorthandMap = {
         ]
     },
     "◯": {
-        "i": "152",
+        "i": "252",
         "codePoint": "U+25EF",
         "name": "large circle",
         "entities": "&xcirc;, &bigcirc;",
@@ -1507,7 +2578,7 @@ const shorthandMap = {
         ]
     },
     "○": {
-        "i": "153",
+        "i": "253",
         "codePoint": "U+25CB",
         "name": "white circle",
         "entities": "&cir;",
@@ -1517,7 +2588,7 @@ const shorthandMap = {
         ]
     },
     "●": {
-        "i": "154",
+        "i": "254",
         "codePoint": "U+25CF",
         "name": "black circle",
         "entities": "",
@@ -1527,7 +2598,7 @@ const shorthandMap = {
         ]
     },
     "⦾": {
-        "i": "155",
+        "i": "255",
         "codePoint": "U+29BE",
         "name": "circled white bullet",
         "entities": "&olcir;",
@@ -1538,7 +2609,7 @@ const shorthandMap = {
         ]
     },
     "⊚": {
-        "i": "156",
+        "i": "256",
         "codePoint": "U+229A",
         "name": "circled ring operator",
         "entities": "&ocir;, &circledcirc;",
@@ -1548,7 +2619,7 @@ const shorthandMap = {
         ]
     },
     "◎": {
-        "i": "157",
+        "i": "257",
         "codePoint": "U+25CE",
         "name": "bullseye",
         "entities": "",
@@ -1558,7 +2629,7 @@ const shorthandMap = {
         ]
     },
     "◉": {
-        "i": "158",
+        "i": "258",
         "codePoint": "U+25C9",
         "name": "fisheye",
         "entities": "",
@@ -1568,7 +2639,7 @@ const shorthandMap = {
         ]
     },
     "⦿": {
-        "i": "159",
+        "i": "259",
         "codePoint": "U+29BF",
         "name": "circled bullet",
         "entities": "&ofcir;",
@@ -1578,7 +2649,7 @@ const shorthandMap = {
         ]
     },
     "☉": {
-        "i": "160",
+        "i": "260",
         "codePoint": "U+2609",
         "name": "Sun",
         "entities": "",
@@ -1589,7 +2660,7 @@ const shorthandMap = {
         ]
     },
     "⊙": {
-        "i": "161",
+        "i": "261",
         "codePoint": "U+2299",
         "name": "circled dot operator",
         "entities": "&odot;, &CircleDot;",
@@ -1599,7 +2670,7 @@ const shorthandMap = {
         ]
     },
     "•": {
-        "i": "162",
+        "i": "262",
         "codePoint": "U+2022",
         "name": "bullet",
         "entities": "&bull;, &bullet;",
@@ -1609,7 +2680,7 @@ const shorthandMap = {
         ]
     },
     "◦": {
-        "i": "163",
+        "i": "263",
         "codePoint": "U+25E6",
         "name": "white bullet",
         "entities": "",
@@ -1619,7 +2690,7 @@ const shorthandMap = {
         ]
     },
     "⚬": {
-        "i": "164",
+        "i": "264",
         "codePoint": "U+26AC",
         "name": "medium small white circle",
         "entities": "",
@@ -1629,7 +2700,7 @@ const shorthandMap = {
         ]
     },
     "⬤": {
-        "i": "165",
+        "i": "265",
         "codePoint": "U+2B24",
         "name": "black large circle",
         "entities": "",
@@ -1639,7 +2710,7 @@ const shorthandMap = {
         ]
     },
     "⬭": {
-        "i": "166",
+        "i": "266",
         "codePoint": "U+2B2D",
         "name": "white horizontal ellipse",
         "entities": "",
@@ -1649,7 +2720,7 @@ const shorthandMap = {
         ]
     },
     "⬯": {
-        "i": "167",
+        "i": "267",
         "codePoint": "U+2B2F",
         "name": "white vertical ellipse",
         "entities": "",
@@ -1659,7 +2730,7 @@ const shorthandMap = {
         ]
     },
     "⬬": {
-        "i": "168",
+        "i": "268",
         "codePoint": "U+2B2C",
         "name": "black horizontal ellipse",
         "entities": "",
@@ -1669,7 +2740,7 @@ const shorthandMap = {
         ]
     },
     "⬮": {
-        "i": "169",
+        "i": "269",
         "codePoint": "U+2B2E",
         "name": "black vertical ellipse",
         "entities": "",
@@ -1679,7 +2750,7 @@ const shorthandMap = {
         ]
     },
     "⌀": {
-        "i": "170",
+        "i": "270",
         "codePoint": "U+2300",
         "name": "diameter sign",
         "entities": "",
@@ -1689,7 +2760,7 @@ const shorthandMap = {
         ]
     },
     "ø": {
-        "i": "171",
+        "i": "271",
         "codePoint": "U+00F8",
         "name": "Latin small letter o with stroke",
         "entities": "&oslash;",
@@ -1699,7 +2770,7 @@ const shorthandMap = {
         ]
     },
     "Ø": {
-        "i": "172",
+        "i": "272",
         "codePoint": "U+00D8",
         "name": "Latin capital letter O with stroke",
         "entities": "&Oslash;",
@@ -1708,39 +2779,8 @@ const shorthandMap = {
             "Latin capital letter O slash"
         ]
     },
-    "φ": {
-        "i": "173",
-        "codePoint": "U+03C6",
-        "name": "Greek small letter phi",
-        "entities": "&phi;",
-        "code": "",
-        "keywords": [
-            ""
-        ]
-    },
-    "Φ": {
-        "i": "174",
-        "codePoint": "U+03A6",
-        "name": "Greek capital letter Phi",
-        "entities": "&Phi;",
-        "code": "",
-        "keywords": [
-            ""
-        ]
-    },
-    "ϕ": {
-        "i": "175",
-        "codePoint": "U+03D5",
-        "name": "Greek phi symbol",
-        "entities": "&phiv;, &straightphi;, &varphi;",
-        "code": "",
-        "keywords": [
-            "straight phi",
-            "variant phi"
-        ]
-    },
     "©": {
-        "i": "176",
+        "i": "273",
         "codePoint": "U+00A9",
         "name": "copyright sign",
         "entities": "&copy;, &COPY;",
@@ -1750,7 +2790,7 @@ const shorthandMap = {
         ]
     },
     "🄯": {
-        "i": "177",
+        "i": "274",
         "codePoint": "U+1F12F",
         "name": "copyleft symbol",
         "entities": "",
@@ -1760,7 +2800,7 @@ const shorthandMap = {
         ]
     },
     "®": {
-        "i": "178",
+        "i": "275",
         "codePoint": "U+00AE",
         "name": "registered sign",
         "entities": "&reg;, &circledR;, &REG;",
@@ -1770,7 +2810,7 @@ const shorthandMap = {
         ]
     },
     "℗": {
-        "i": "179",
+        "i": "276",
         "codePoint": "U+2117",
         "name": "sound recording copyright",
         "entities": "&copysr;",
@@ -1780,7 +2820,7 @@ const shorthandMap = {
         ]
     },
     "🙂": {
-        "i": "181",
+        "i": "278",
         "codePoint": "U+1F642",
         "name": "slightly smiling face",
         "entities": "",
@@ -1790,7 +2830,7 @@ const shorthandMap = {
         ]
     },
     "😊": {
-        "i": "182",
+        "i": "279",
         "codePoint": "U+1F60A",
         "name": "smiling face with smiling eyes",
         "entities": "",
@@ -1802,7 +2842,7 @@ const shorthandMap = {
         ]
     },
     "☺️": {
-        "i": "183",
+        "i": "280",
         "codePoint": "U+263A+FE0F",
         "name": "smiling face",
         "entities": "",
@@ -1814,7 +2854,7 @@ const shorthandMap = {
         ]
     },
     "😉": {
-        "i": "184",
+        "i": "281",
         "codePoint": "U+1F609",
         "name": "winking face",
         "entities": "",
@@ -1825,7 +2865,7 @@ const shorthandMap = {
         ]
     },
     "😀": {
-        "i": "185",
+        "i": "282",
         "codePoint": "U+1F600",
         "name": "grinning face",
         "entities": "",
@@ -1835,7 +2875,7 @@ const shorthandMap = {
         ]
     },
     "😃": {
-        "i": "186",
+        "i": "283",
         "codePoint": "U+1F603",
         "name": "smiling face with open mouth",
         "entities": "",
@@ -1847,7 +2887,7 @@ const shorthandMap = {
         ]
     },
     "😄": {
-        "i": "187",
+        "i": "284",
         "codePoint": "U+1F604",
         "name": "smiling face with open mouth and smiling eyes",
         "entities": "",
@@ -1859,7 +2899,7 @@ const shorthandMap = {
         ]
     },
     "😁": {
-        "i": "188",
+        "i": "285",
         "codePoint": "U+1F601",
         "name": "grinning face with smiling eyes",
         "entities": "",
@@ -1870,7 +2910,7 @@ const shorthandMap = {
         ]
     },
     "😆": {
-        "i": "189",
+        "i": "286",
         "codePoint": "U+1F606",
         "name": "smiling face with open mouth and tightly-closed eyes",
         "entities": "",
@@ -1883,7 +2923,7 @@ const shorthandMap = {
         ]
     },
     "😅": {
-        "i": "190",
+        "i": "287",
         "codePoint": "U+1F605",
         "name": "smiling face with open mouth and cold sweat",
         "entities": "",
@@ -1896,7 +2936,7 @@ const shorthandMap = {
         ]
     },
     "🤣": {
-        "i": "191",
+        "i": "288",
         "codePoint": "U+1F923",
         "name": "rolling on the floor laughing",
         "entities": "",
@@ -1909,7 +2949,7 @@ const shorthandMap = {
         ]
     },
     "😂": {
-        "i": "192",
+        "i": "289",
         "codePoint": "U+1F602",
         "name": "face with tears of joy",
         "entities": "",
@@ -1921,7 +2961,7 @@ const shorthandMap = {
         ]
     },
     "😗": {
-        "i": "193",
+        "i": "290",
         "codePoint": "U+1F617",
         "name": "kissing face",
         "entities": "",
@@ -1931,7 +2971,7 @@ const shorthandMap = {
         ]
     },
     "😚": {
-        "i": "194",
+        "i": "291",
         "codePoint": "U+1F61A",
         "name": "kissing face with closed eyes",
         "entities": "",
@@ -1941,7 +2981,7 @@ const shorthandMap = {
         ]
     },
     "😙": {
-        "i": "195",
+        "i": "292",
         "codePoint": "U+1F619",
         "name": "kissing face with smiling eyes",
         "entities": "",
@@ -1951,7 +2991,7 @@ const shorthandMap = {
         ]
     },
     "😘": {
-        "i": "196",
+        "i": "293",
         "codePoint": "U+1F618",
         "name": "face throwing a kiss",
         "entities": "",
@@ -1962,7 +3002,7 @@ const shorthandMap = {
         ]
     },
     "🥰": {
-        "i": "197",
+        "i": "294",
         "codePoint": "U+1F970",
         "name": "smiling face with smiling eyes and three hearts",
         "entities": "",
@@ -1975,7 +3015,7 @@ const shorthandMap = {
         ]
     },
     "😍": {
-        "i": "198",
+        "i": "295",
         "codePoint": "U+1F60D",
         "name": "smiling face with heart-shaped eyes",
         "entities": "",
@@ -1986,7 +3026,7 @@ const shorthandMap = {
         ]
     },
     "🙃": {
-        "i": "199",
+        "i": "296",
         "codePoint": "U+1F643",
         "name": "upside-down face",
         "entities": "",
@@ -1996,7 +3036,7 @@ const shorthandMap = {
         ]
     },
     "😟": {
-        "i": "200",
+        "i": "297",
         "codePoint": "U+1F61F",
         "name": "worried face",
         "entities": "",
@@ -2006,7 +3046,7 @@ const shorthandMap = {
         ]
     },
     "🙁": {
-        "i": "201",
+        "i": "298",
         "codePoint": "U+1F641",
         "name": "slightly frowning face",
         "entities": "",
@@ -2016,7 +3056,7 @@ const shorthandMap = {
         ]
     },
     "☹️": {
-        "i": "202",
+        "i": "299",
         "codePoint": "U+2639+FE0F",
         "name": "frowning face",
         "entities": "",
@@ -2027,7 +3067,7 @@ const shorthandMap = {
         ]
     },
     "😮": {
-        "i": "203",
+        "i": "300",
         "codePoint": "U+1F62E",
         "name": "face with open mouth",
         "entities": "",
@@ -2040,7 +3080,7 @@ const shorthandMap = {
         ]
     },
     "😯": {
-        "i": "204",
+        "i": "301",
         "codePoint": "U+1F62F",
         "name": "hushed face",
         "entities": "",
@@ -2051,7 +3091,7 @@ const shorthandMap = {
         ]
     },
     "😲": {
-        "i": "205",
+        "i": "302",
         "codePoint": "U+1F632",
         "name": "astonished face",
         "entities": "",
@@ -2063,7 +3103,7 @@ const shorthandMap = {
         ]
     },
     "😦": {
-        "i": "206",
+        "i": "303",
         "codePoint": "U+1F626",
         "name": "frowning face with open mouth",
         "entities": "",
@@ -2074,7 +3114,7 @@ const shorthandMap = {
         ]
     },
     "😧": {
-        "i": "207",
+        "i": "304",
         "codePoint": "U+1F627",
         "name": "anguished face",
         "entities": "",
@@ -2084,7 +3124,7 @@ const shorthandMap = {
         ]
     },
     "😋": {
-        "i": "208",
+        "i": "305",
         "codePoint": "U+1F60B",
         "name": "face savouring delicious food",
         "entities": "",
@@ -2098,7 +3138,7 @@ const shorthandMap = {
         ]
     },
     "😛": {
-        "i": "209",
+        "i": "306",
         "codePoint": "U+1F61B",
         "name": "face with stuck-out tongue",
         "entities": "",
@@ -2109,7 +3149,7 @@ const shorthandMap = {
         ]
     },
     "😜": {
-        "i": "210",
+        "i": "307",
         "codePoint": "U+1F61C",
         "name": "face with stuck-out tongue and winking eye",
         "entities": "",
@@ -2121,7 +3161,7 @@ const shorthandMap = {
         ]
     },
     "🤪": {
-        "i": "211",
+        "i": "308",
         "codePoint": "U+1F92A",
         "name": "grinning face with one large and one small eye",
         "entities": "",
@@ -2133,7 +3173,7 @@ const shorthandMap = {
         ]
     },
     "😝": {
-        "i": "212",
+        "i": "309",
         "codePoint": "U+1F61D",
         "name": "face with stuck-out tongue and tightly-closed eyes",
         "entities": "",
@@ -2144,7 +3184,7 @@ const shorthandMap = {
         ]
     },
     "🤑": {
-        "i": "213",
+        "i": "310",
         "codePoint": "U+1F911",
         "name": "money-mouth face",
         "entities": "",
@@ -2154,7 +3194,7 @@ const shorthandMap = {
         ]
     },
     "😐": {
-        "i": "214",
+        "i": "311",
         "codePoint": "U+1F610",
         "name": "neutral face",
         "entities": "",
@@ -2166,7 +3206,7 @@ const shorthandMap = {
         ]
     },
     "😑": {
-        "i": "215",
+        "i": "312",
         "codePoint": "U+1F611",
         "name": "expressionless face",
         "entities": "",
@@ -2177,7 +3217,7 @@ const shorthandMap = {
         ]
     },
     "😶": {
-        "i": "216",
+        "i": "313",
         "codePoint": "U+1F636",
         "name": "face without mouth",
         "entities": "",
@@ -2187,7 +3227,7 @@ const shorthandMap = {
         ]
     },
     "😕": {
-        "i": "217",
+        "i": "314",
         "codePoint": "U+1F615",
         "name": "confused face",
         "entities": "",
@@ -2198,7 +3238,7 @@ const shorthandMap = {
         ]
     },
     "🫤": {
-        "i": "218",
+        "i": "315",
         "codePoint": "U+1FAE4",
         "name": "face with diagonal mouth",
         "entities": "",
@@ -2209,7 +3249,7 @@ const shorthandMap = {
         ]
     },
     "😥": {
-        "i": "219",
+        "i": "316",
         "codePoint": "U+1F625",
         "name": "disappointed but relieved face",
         "entities": "",
@@ -2220,7 +3260,7 @@ const shorthandMap = {
         ]
     },
     "😢": {
-        "i": "220",
+        "i": "317",
         "codePoint": "U+1F622",
         "name": "crying face",
         "entities": "",
@@ -2230,7 +3270,7 @@ const shorthandMap = {
         ]
     },
     "😭": {
-        "i": "221",
+        "i": "318",
         "codePoint": "U+1F62D",
         "name": "loudly crying face",
         "entities": "",
@@ -2240,7 +3280,7 @@ const shorthandMap = {
         ]
     },
     "🤐": {
-        "i": "222",
+        "i": "319",
         "codePoint": "U+1F910",
         "name": "zipper-mouth face",
         "entities": "",
@@ -2251,7 +3291,7 @@ const shorthandMap = {
         ]
     },
     "🤫": {
-        "i": "223",
+        "i": "320",
         "codePoint": "U+1F92B",
         "name": "face with finger covering closed lips",
         "entities": "",
@@ -2263,7 +3303,7 @@ const shorthandMap = {
         ]
     },
     "🤔": {
-        "i": "224",
+        "i": "321",
         "codePoint": "U+1F914",
         "name": "thinking face",
         "entities": "",
@@ -2275,7 +3315,7 @@ const shorthandMap = {
         ]
     },
     "🫡": {
-        "i": "225",
+        "i": "322",
         "codePoint": "U+1FAE1",
         "name": "saluting face",
         "entities": "",
@@ -2286,7 +3326,7 @@ const shorthandMap = {
         ]
     },
     "😎": {
-        "i": "226",
+        "i": "323",
         "codePoint": "U+1F60E",
         "name": "smiling face with sunglasses",
         "entities": "",
@@ -2299,7 +3339,7 @@ const shorthandMap = {
         ]
     },
     "🤓": {
-        "i": "227",
+        "i": "324",
         "codePoint": "U+1F913",
         "name": "nerd face",
         "entities": "",
@@ -2311,7 +3351,7 @@ const shorthandMap = {
         ]
     },
     "🧐": {
-        "i": "228",
+        "i": "325",
         "codePoint": "U+1F9D0",
         "name": "face with monocle",
         "entities": "",
@@ -2322,7 +3362,7 @@ const shorthandMap = {
         ]
     },
     "😵": {
-        "i": "229",
+        "i": "326",
         "codePoint": "U+1F635",
         "name": "dizzy face",
         "entities": "",
@@ -2334,7 +3374,7 @@ const shorthandMap = {
         ]
     },
     "😵‍💫": {
-        "i": "230",
+        "i": "327",
         "codePoint": "U+1F635+200D+1F4AB",
         "name": "face with spiral eyes",
         "entities": "",
@@ -2345,7 +3385,7 @@ const shorthandMap = {
         ]
     },
     "😡": {
-        "i": "231",
+        "i": "328",
         "codePoint": "U+1F621",
         "name": "pouting face",
         "entities": "",
@@ -2357,7 +3397,7 @@ const shorthandMap = {
         ]
     },
     "😠": {
-        "i": "232",
+        "i": "329",
         "codePoint": "U+1F620",
         "name": "angry face",
         "entities": "",
@@ -2368,7 +3408,7 @@ const shorthandMap = {
         ]
     },
     "❤️": {
-        "i": "233",
+        "i": "330",
         "codePoint": "U+2764+FE0F",
         "name": "red heart",
         "entities": "",
@@ -2378,7 +3418,7 @@ const shorthandMap = {
         ]
     },
     "👍": {
-        "i": "234",
+        "i": "331",
         "codePoint": "U+1F44D",
         "name": "thumbs up sign",
         "entities": "",
@@ -2392,7 +3432,7 @@ const shorthandMap = {
         ]
     },
     "👎": {
-        "i": "235",
+        "i": "332",
         "codePoint": "U+1F44E",
         "name": "thumbs down sign",
         "entities": "",
@@ -2405,7 +3445,7 @@ const shorthandMap = {
         ]
     },
     "⬆️": {
-        "i": "236",
+        "i": "333",
         "codePoint": "U+2B06+FE0F",
         "name": "up arrow",
         "entities": "",
@@ -2415,7 +3455,7 @@ const shorthandMap = {
         ]
     },
     "➡️": {
-        "i": "237",
+        "i": "334",
         "codePoint": "U+27A1+FE0F",
         "name": "right arrow",
         "entities": "",
@@ -2425,7 +3465,7 @@ const shorthandMap = {
         ]
     },
     "⬇️": {
-        "i": "238",
+        "i": "335",
         "codePoint": "U+2B07+FE0F",
         "name": "down arrow",
         "entities": "",
@@ -2435,7 +3475,7 @@ const shorthandMap = {
         ]
     },
     "⬅️": {
-        "i": "239",
+        "i": "336",
         "codePoint": "U+2B05+FE0F",
         "name": "left arrow",
         "entities": "",
@@ -2445,7 +3485,7 @@ const shorthandMap = {
         ]
     },
     "⭕": {
-        "i": "240",
+        "i": "337",
         "codePoint": "U+2B55",
         "name": "heavy large circle",
         "entities": "",
@@ -2455,7 +3495,7 @@ const shorthandMap = {
         ]
     },
     "♾️": {
-        "i": "241",
+        "i": "338",
         "codePoint": "U+267E+FE0F",
         "name": "infinity",
         "entities": "",
@@ -2465,7 +3505,7 @@ const shorthandMap = {
         ]
     },
     "☑️": {
-        "i": "242",
+        "i": "339",
         "codePoint": "U+2611+FE0F",
         "name": "check box with check",
         "entities": "",
@@ -2477,7 +3517,7 @@ const shorthandMap = {
         ]
     },
     "✔️": {
-        "i": "243",
+        "i": "340",
         "codePoint": "U+2714+FE0F",
         "name": "check mark",
         "entities": "",
@@ -2488,7 +3528,7 @@ const shorthandMap = {
         ]
     },
     "❌": {
-        "i": "244",
+        "i": "341",
         "codePoint": "U+274C",
         "name": "cross mark",
         "entities": "",
@@ -2500,7 +3540,7 @@ const shorthandMap = {
         ]
     },
     "❎": {
-        "i": "245",
+        "i": "342",
         "codePoint": "U+274E",
         "name": "negative squared cross mark",
         "entities": "",
@@ -2511,7 +3551,7 @@ const shorthandMap = {
         ]
     },
     "♎": {
-        "i": "246",
+        "i": "343",
         "codePoint": "U+264E",
         "name": "libra",
         "entities": "",
@@ -2521,7 +3561,7 @@ const shorthandMap = {
         ]
     },
     "🫠": {
-        "i": "248",
+        "i": "345",
         "codePoint": "U+1FAE0",
         "name": "melting face",
         "entities": "",
@@ -2531,7 +3571,7 @@ const shorthandMap = {
         ]
     },
     "😇": {
-        "i": "249",
+        "i": "346",
         "codePoint": "U+1F607",
         "name": "smiling face with halo",
         "entities": "",
@@ -2543,7 +3583,7 @@ const shorthandMap = {
         ]
     },
     "🤩": {
-        "i": "250",
+        "i": "347",
         "codePoint": "U+1F929",
         "name": "grinning face with star eyes",
         "entities": "",
@@ -2555,7 +3595,7 @@ const shorthandMap = {
         ]
     },
     "🥲": {
-        "i": "251",
+        "i": "348",
         "codePoint": "U+1F972",
         "name": "smiling face with tear",
         "entities": "",
@@ -2565,7 +3605,7 @@ const shorthandMap = {
         ]
     },
     "🤗": {
-        "i": "252",
+        "i": "349",
         "codePoint": "U+1F917",
         "name": "hugging face",
         "entities": "",
@@ -2576,7 +3616,7 @@ const shorthandMap = {
         ]
     },
     "🤭": {
-        "i": "253",
+        "i": "350",
         "codePoint": "U+1F92D",
         "name": "smiling face with smiling eyes and hand covering mouth",
         "entities": "",
@@ -2588,7 +3628,7 @@ const shorthandMap = {
         ]
     },
     "🫢": {
-        "i": "254",
+        "i": "351",
         "codePoint": "U+1FAE2",
         "name": "face with open eyes and hand over mouth",
         "entities": "",
@@ -2598,7 +3638,7 @@ const shorthandMap = {
         ]
     },
     "🫣": {
-        "i": "255",
+        "i": "352",
         "codePoint": "U+1FAE3",
         "name": "face with peeking eye",
         "entities": "",
@@ -2608,7 +3648,7 @@ const shorthandMap = {
         ]
     },
     "🤨": {
-        "i": "256",
+        "i": "353",
         "codePoint": "U+1F928",
         "name": "face with one eyebrow raised",
         "entities": "",
@@ -2623,7 +3663,7 @@ const shorthandMap = {
         ]
     },
     "🫥": {
-        "i": "257",
+        "i": "354",
         "codePoint": "U+1FAE5",
         "name": "dotted line face",
         "entities": "",
@@ -2636,7 +3676,7 @@ const shorthandMap = {
         ]
     },
     "😶‍🌫️": {
-        "i": "258",
+        "i": "355",
         "codePoint": "U+1F636+200D+1F32B+FE0F",
         "name": "face in clouds",
         "entities": "",
@@ -2647,7 +3687,7 @@ const shorthandMap = {
         ]
     },
     "😏": {
-        "i": "259",
+        "i": "356",
         "codePoint": "U+1F60F",
         "name": "smirking face",
         "entities": "",
@@ -2659,7 +3699,7 @@ const shorthandMap = {
         ]
     },
     "😒": {
-        "i": "260",
+        "i": "357",
         "codePoint": "U+1F612",
         "name": "unamused face",
         "entities": "",
@@ -2675,7 +3715,7 @@ const shorthandMap = {
         ]
     },
     "🙄": {
-        "i": "261",
+        "i": "358",
         "codePoint": "U+1F644",
         "name": "face with rolling eyes",
         "entities": "",
@@ -2686,7 +3726,7 @@ const shorthandMap = {
         ]
     },
     "😬": {
-        "i": "262",
+        "i": "359",
         "codePoint": "U+1F62C",
         "name": "grimacing face",
         "entities": "",
@@ -2696,7 +3736,7 @@ const shorthandMap = {
         ]
     },
     "😮‍💨": {
-        "i": "263",
+        "i": "360",
         "codePoint": "U+1F62E+200D+1F4A8",
         "name": "face exhaling",
         "entities": "",
@@ -2707,7 +3747,7 @@ const shorthandMap = {
         ]
     },
     "🤥": {
-        "i": "264",
+        "i": "361",
         "codePoint": "U+1F925",
         "name": "lying face",
         "entities": "",
@@ -2718,7 +3758,7 @@ const shorthandMap = {
         ]
     },
     "🫨": {
-        "i": "265",
+        "i": "362",
         "codePoint": "U+1FAE8",
         "name": "shaking face",
         "entities": "",
@@ -2729,7 +3769,7 @@ const shorthandMap = {
         ]
     },
     "🙂‍↔️": {
-        "i": "266",
+        "i": "363",
         "codePoint": "U+1F642+200D+2194+FE0F",
         "name": "head shaking horizontally",
         "entities": "",
@@ -2740,7 +3780,7 @@ const shorthandMap = {
         ]
     },
     "🙂‍↕️": {
-        "i": "267",
+        "i": "364",
         "codePoint": "U+1F642+200D+2195+FE0F",
         "name": "head shaking vertically",
         "entities": "",
@@ -2751,7 +3791,7 @@ const shorthandMap = {
         ]
     },
     "😌": {
-        "i": "268",
+        "i": "365",
         "codePoint": "U+1F60C",
         "name": "relieved face",
         "entities": "",
@@ -2761,7 +3801,7 @@ const shorthandMap = {
         ]
     },
     "😔": {
-        "i": "269",
+        "i": "366",
         "codePoint": "U+1F614",
         "name": "pensive face",
         "entities": "",
@@ -2772,7 +3812,7 @@ const shorthandMap = {
         ]
     },
     "😪": {
-        "i": "270",
+        "i": "367",
         "codePoint": "U+1F62A",
         "name": "sleepy face",
         "entities": "",
@@ -2784,7 +3824,7 @@ const shorthandMap = {
         ]
     },
     "🤤": {
-        "i": "271",
+        "i": "368",
         "codePoint": "U+1F924",
         "name": "drooling face",
         "entities": "",
@@ -2794,7 +3834,7 @@ const shorthandMap = {
         ]
     },
     "😴": {
-        "i": "272",
+        "i": "369",
         "codePoint": "U+1F634",
         "name": "sleeping face",
         "entities": "",
@@ -2804,7 +3844,7 @@ const shorthandMap = {
         ]
     },
     "😷": {
-        "i": "273",
+        "i": "370",
         "codePoint": "U+1F637",
         "name": "face with medical mask",
         "entities": "",
@@ -2817,7 +3857,7 @@ const shorthandMap = {
         ]
     },
     "🤒": {
-        "i": "274",
+        "i": "371",
         "codePoint": "U+1F912",
         "name": "face with thermometer",
         "entities": "",
@@ -2829,7 +3869,7 @@ const shorthandMap = {
         ]
     },
     "🤕": {
-        "i": "275",
+        "i": "372",
         "codePoint": "U+1F915",
         "name": "face with head-bandage",
         "entities": "",
@@ -2841,7 +3881,7 @@ const shorthandMap = {
         ]
     },
     "🤢": {
-        "i": "276",
+        "i": "373",
         "codePoint": "U+1F922",
         "name": "nauseated face",
         "entities": "",
@@ -2854,7 +3894,7 @@ const shorthandMap = {
         ]
     },
     "🤮": {
-        "i": "277",
+        "i": "374",
         "codePoint": "U+1F92E",
         "name": "face with open mouth vomiting",
         "entities": "",
@@ -2864,7 +3904,7 @@ const shorthandMap = {
         ]
     },
     "🤧": {
-        "i": "278",
+        "i": "375",
         "codePoint": "U+1F927",
         "name": "sneezing face",
         "entities": "",
@@ -2876,7 +3916,7 @@ const shorthandMap = {
         ]
     },
     "🥵": {
-        "i": "279",
+        "i": "376",
         "codePoint": "U+1F975",
         "name": "overheated face",
         "entities": "",
@@ -2888,7 +3928,7 @@ const shorthandMap = {
         ]
     },
     "🥶": {
-        "i": "280",
+        "i": "377",
         "codePoint": "U+1F976",
         "name": "freezing face",
         "entities": "",
@@ -2903,7 +3943,7 @@ const shorthandMap = {
         ]
     },
     "🥴": {
-        "i": "281",
+        "i": "378",
         "codePoint": "U+1F974",
         "name": "face with uneven eyes and wavy mouth",
         "entities": "",
@@ -2916,7 +3956,7 @@ const shorthandMap = {
         ]
     },
     "🤯": {
-        "i": "282",
+        "i": "379",
         "codePoint": "U+1F92F",
         "name": "shocked face with exploding head",
         "entities": "",
@@ -2929,7 +3969,7 @@ const shorthandMap = {
         ]
     },
     "🤠": {
-        "i": "283",
+        "i": "380",
         "codePoint": "U+1F920",
         "name": "face with cowboy hat",
         "entities": "",
@@ -2941,7 +3981,7 @@ const shorthandMap = {
         ]
     },
     "🥳": {
-        "i": "284",
+        "i": "381",
         "codePoint": "U+1F973",
         "name": "face with party horn and party hat",
         "entities": "",
@@ -2953,7 +3993,7 @@ const shorthandMap = {
         ]
     },
     "🥸": {
-        "i": "285",
+        "i": "382",
         "codePoint": "U+1F978",
         "name": "disguised face",
         "entities": "",
@@ -2964,7 +4004,7 @@ const shorthandMap = {
         ]
     },
     "😳": {
-        "i": "286",
+        "i": "383",
         "codePoint": "U+1F633",
         "name": "flushed face",
         "entities": "",
@@ -2975,7 +4015,7 @@ const shorthandMap = {
         ]
     },
     "🥺": {
-        "i": "287",
+        "i": "384",
         "codePoint": "U+1F97A",
         "name": "face with pleading eyes",
         "entities": "",
@@ -2988,7 +4028,7 @@ const shorthandMap = {
         ]
     },
     "🥹": {
-        "i": "288",
+        "i": "385",
         "codePoint": "U+1F979",
         "name": "face holding back tears",
         "entities": "",
@@ -2999,7 +4039,7 @@ const shorthandMap = {
         ]
     },
     "😨": {
-        "i": "289",
+        "i": "386",
         "codePoint": "U+1F628",
         "name": "fearful face",
         "entities": "",
@@ -3010,7 +4050,7 @@ const shorthandMap = {
         ]
     },
     "😰": {
-        "i": "290",
+        "i": "387",
         "codePoint": "U+1F630",
         "name": "face with open mouth and cold sweat",
         "entities": "",
@@ -3022,7 +4062,7 @@ const shorthandMap = {
         ]
     },
     "😱": {
-        "i": "291",
+        "i": "388",
         "codePoint": "U+1F631",
         "name": "face screaming in fear",
         "entities": "",
@@ -3033,7 +4073,7 @@ const shorthandMap = {
         ]
     },
     "😖": {
-        "i": "292",
+        "i": "389",
         "codePoint": "U+1F616",
         "name": "confounded face",
         "entities": "",
@@ -3044,7 +4084,7 @@ const shorthandMap = {
         ]
     },
     "😣": {
-        "i": "293",
+        "i": "390",
         "codePoint": "U+1F623",
         "name": "persevering face",
         "entities": "",
@@ -3055,7 +4095,7 @@ const shorthandMap = {
         ]
     },
     "😞": {
-        "i": "294",
+        "i": "391",
         "codePoint": "U+1F61E",
         "name": "disappointed face",
         "entities": "",
@@ -3065,7 +4105,7 @@ const shorthandMap = {
         ]
     },
     "😓": {
-        "i": "295",
+        "i": "392",
         "codePoint": "U+1F613",
         "name": "face with cold sweat",
         "entities": "",
@@ -3076,7 +4116,7 @@ const shorthandMap = {
         ]
     },
     "😩": {
-        "i": "296",
+        "i": "393",
         "codePoint": "U+1F629",
         "name": "weary face",
         "entities": "",
@@ -3086,7 +4126,7 @@ const shorthandMap = {
         ]
     },
     "😫": {
-        "i": "297",
+        "i": "394",
         "codePoint": "U+1F62B",
         "name": "tired face",
         "entities": "",
@@ -3096,7 +4136,7 @@ const shorthandMap = {
         ]
     },
     "🥱": {
-        "i": "298",
+        "i": "395",
         "codePoint": "U+1F971",
         "name": "yawning face",
         "entities": "",
@@ -3106,7 +4146,7 @@ const shorthandMap = {
         ]
     },
     "😤": {
-        "i": "299",
+        "i": "396",
         "codePoint": "U+1F624",
         "name": "face with look of triumph",
         "entities": "",
@@ -3120,7 +4160,7 @@ const shorthandMap = {
         ]
     },
     "🤬": {
-        "i": "300",
+        "i": "397",
         "codePoint": "U+1F92C",
         "name": "serious face with symbols covering mouth",
         "entities": "",
@@ -3135,7 +4175,7 @@ const shorthandMap = {
         ]
     },
     "😈": {
-        "i": "301",
+        "i": "398",
         "codePoint": "U+1F608",
         "name": "smiling face with horns",
         "entities": "",
@@ -3145,7 +4185,7 @@ const shorthandMap = {
         ]
     },
     "👿": {
-        "i": "302",
+        "i": "399",
         "codePoint": "U+1F47F",
         "name": "imp",
         "entities": "",
@@ -3156,7 +4196,7 @@ const shorthandMap = {
         ]
     },
     "💀": {
-        "i": "303",
+        "i": "400",
         "codePoint": "U+1F480",
         "name": "skull",
         "entities": "",
@@ -3168,7 +4208,7 @@ const shorthandMap = {
         ]
     },
     "☠️": {
-        "i": "304",
+        "i": "401",
         "codePoint": "U+2620+FE0F",
         "name": "skull and crossbones",
         "entities": "",
@@ -3180,7 +4220,7 @@ const shorthandMap = {
         ]
     },
     "💩": {
-        "i": "305",
+        "i": "402",
         "codePoint": "U+1F4A9",
         "name": "pile of poo",
         "entities": "",
@@ -3194,7 +4234,7 @@ const shorthandMap = {
         ]
     },
     "🤡": {
-        "i": "306",
+        "i": "403",
         "codePoint": "U+1F921",
         "name": "clown face",
         "entities": "",
@@ -3204,7 +4244,7 @@ const shorthandMap = {
         ]
     },
     "👹": {
-        "i": "307",
+        "i": "404",
         "codePoint": "U+1F479",
         "name": "Japanese ogre",
         "entities": "",
@@ -3217,7 +4257,7 @@ const shorthandMap = {
         ]
     },
     "👺": {
-        "i": "308",
+        "i": "405",
         "codePoint": "U+1F47A",
         "name": "Japanese goblin",
         "entities": "",
@@ -3228,7 +4268,7 @@ const shorthandMap = {
         ]
     },
     "👻": {
-        "i": "309",
+        "i": "406",
         "codePoint": "U+1F47B",
         "name": "ghost",
         "entities": "",
@@ -3239,7 +4279,7 @@ const shorthandMap = {
         ]
     },
     "👽": {
-        "i": "310",
+        "i": "407",
         "codePoint": "U+1F47D",
         "name": "extraterrestrial alien",
         "entities": "",
@@ -3251,7 +4291,7 @@ const shorthandMap = {
         ]
     },
     "👾": {
-        "i": "311",
+        "i": "408",
         "codePoint": "U+1F47E",
         "name": "alien monster",
         "entities": "",
@@ -3262,7 +4302,7 @@ const shorthandMap = {
         ]
     },
     "🤖": {
-        "i": "312",
+        "i": "409",
         "codePoint": "U+1F916",
         "name": "robot face",
         "entities": "",
@@ -3275,7 +4315,7 @@ const shorthandMap = {
         ]
     },
     "😺": {
-        "i": "313",
+        "i": "410",
         "codePoint": "U+1F63A",
         "name": "smiling cat face with open mouth",
         "entities": "",
@@ -3286,7 +4326,7 @@ const shorthandMap = {
         ]
     },
     "😸": {
-        "i": "314",
+        "i": "411",
         "codePoint": "U+1F638",
         "name": "grinning cat face with smiling eyes",
         "entities": "",
@@ -3297,7 +4337,7 @@ const shorthandMap = {
         ]
     },
     "😹": {
-        "i": "315",
+        "i": "412",
         "codePoint": "U+1F639",
         "name": "cat face with tears of joy",
         "entities": "",
@@ -3307,7 +4347,7 @@ const shorthandMap = {
         ]
     },
     "😻": {
-        "i": "316",
+        "i": "413",
         "codePoint": "U+1F63B",
         "name": "smiling cat face with heart-shaped eyes",
         "entities": "",
@@ -3317,7 +4357,7 @@ const shorthandMap = {
         ]
     },
     "😼": {
-        "i": "317",
+        "i": "414",
         "codePoint": "U+1F63C",
         "name": "cat face with wry smile",
         "entities": "",
@@ -3328,7 +4368,7 @@ const shorthandMap = {
         ]
     },
     "😽": {
-        "i": "318",
+        "i": "415",
         "codePoint": "U+1F63D",
         "name": "kissing cat face with closed eyes",
         "entities": "",
@@ -3338,7 +4378,7 @@ const shorthandMap = {
         ]
     },
     "🙀": {
-        "i": "319",
+        "i": "416",
         "codePoint": "U+1F640",
         "name": "weary cat face",
         "entities": "",
@@ -3349,7 +4389,7 @@ const shorthandMap = {
         ]
     },
     "😿": {
-        "i": "320",
+        "i": "417",
         "codePoint": "U+1F63F",
         "name": "crying cat face",
         "entities": "",
@@ -3359,7 +4399,7 @@ const shorthandMap = {
         ]
     },
     "😾": {
-        "i": "321",
+        "i": "418",
         "codePoint": "U+1F63E",
         "name": "pouting cat face",
         "entities": "",
@@ -3369,7 +4409,7 @@ const shorthandMap = {
         ]
     },
     "🙈": {
-        "i": "322",
+        "i": "419",
         "codePoint": "U+1F648",
         "name": "see-no-evil monkey",
         "entities": "",
@@ -3379,7 +4419,7 @@ const shorthandMap = {
         ]
     },
     "🙉": {
-        "i": "323",
+        "i": "420",
         "codePoint": "U+1F649",
         "name": "hear-no-evil monkey",
         "entities": "",
@@ -3389,7 +4429,7 @@ const shorthandMap = {
         ]
     },
     "🙊": {
-        "i": "324",
+        "i": "421",
         "codePoint": "U+1F64A",
         "name": "speak-no-evil monkey",
         "entities": "",
@@ -3399,7 +4439,7 @@ const shorthandMap = {
         ]
     },
     "💌": {
-        "i": "325",
+        "i": "422",
         "codePoint": "U+1F48C",
         "name": "love letter",
         "entities": "",
@@ -3409,7 +4449,7 @@ const shorthandMap = {
         ]
     },
     "💘": {
-        "i": "326",
+        "i": "423",
         "codePoint": "U+1F498",
         "name": "heart with arrow",
         "entities": "",
@@ -3419,7 +4459,7 @@ const shorthandMap = {
         ]
     },
     "💝": {
-        "i": "327",
+        "i": "424",
         "codePoint": "U+1F49D",
         "name": "heart with ribbon",
         "entities": "",
@@ -3429,7 +4469,7 @@ const shorthandMap = {
         ]
     },
     "💖": {
-        "i": "328",
+        "i": "425",
         "codePoint": "U+1F496",
         "name": "sparkling heart",
         "entities": "",
@@ -3439,7 +4479,7 @@ const shorthandMap = {
         ]
     },
     "💗": {
-        "i": "329",
+        "i": "426",
         "codePoint": "U+1F497",
         "name": "growing heart",
         "entities": "",
@@ -3449,7 +4489,7 @@ const shorthandMap = {
         ]
     },
     "💓": {
-        "i": "330",
+        "i": "427",
         "codePoint": "U+1F493",
         "name": "beating heart",
         "entities": "",
@@ -3459,7 +4499,7 @@ const shorthandMap = {
         ]
     },
     "💞": {
-        "i": "331",
+        "i": "428",
         "codePoint": "U+1F49E",
         "name": "revolving hearts",
         "entities": "",
@@ -3469,7 +4509,7 @@ const shorthandMap = {
         ]
     },
     "💕": {
-        "i": "332",
+        "i": "429",
         "codePoint": "U+1F495",
         "name": "two hearts",
         "entities": "",
@@ -3479,7 +4519,7 @@ const shorthandMap = {
         ]
     },
     "💟": {
-        "i": "333",
+        "i": "430",
         "codePoint": "U+1F49F",
         "name": "heart decoration",
         "entities": "",
@@ -3489,7 +4529,7 @@ const shorthandMap = {
         ]
     },
     "❣️": {
-        "i": "334",
+        "i": "431",
         "codePoint": "U+2763+FE0F",
         "name": "heart exclamation",
         "entities": "",
@@ -3499,7 +4539,7 @@ const shorthandMap = {
         ]
     },
     "💔": {
-        "i": "335",
+        "i": "432",
         "codePoint": "U+1F494",
         "name": "broken heart",
         "entities": "",
@@ -3511,7 +4551,7 @@ const shorthandMap = {
         ]
     },
     "❤️‍🔥": {
-        "i": "336",
+        "i": "433",
         "codePoint": "U+2764+FE0F+200D+1F525",
         "name": "heart on fire",
         "entities": "",
@@ -3522,7 +4562,7 @@ const shorthandMap = {
         ]
     },
     "❤️‍🩹": {
-        "i": "337",
+        "i": "434",
         "codePoint": "U+2764+FE0F+200D+1FA79",
         "name": "mending heart",
         "entities": "",
@@ -3533,7 +4573,7 @@ const shorthandMap = {
         ]
     },
     "🩷": {
-        "i": "338",
+        "i": "435",
         "codePoint": "U+1FA77",
         "name": "pink heart",
         "entities": "",
@@ -3543,7 +4583,7 @@ const shorthandMap = {
         ]
     },
     "🧡": {
-        "i": "339",
+        "i": "436",
         "codePoint": "U+1F9E1",
         "name": "orange heart",
         "entities": "",
@@ -3553,7 +4593,7 @@ const shorthandMap = {
         ]
     },
     "💛": {
-        "i": "340",
+        "i": "437",
         "codePoint": "U+1F49B",
         "name": "yellow heart",
         "entities": "",
@@ -3563,7 +4603,7 @@ const shorthandMap = {
         ]
     },
     "💚": {
-        "i": "341",
+        "i": "438",
         "codePoint": "U+1F49A",
         "name": "green heart",
         "entities": "",
@@ -3573,7 +4613,7 @@ const shorthandMap = {
         ]
     },
     "💙": {
-        "i": "342",
+        "i": "439",
         "codePoint": "U+1F499",
         "name": "blue heart",
         "entities": "",
@@ -3583,7 +4623,7 @@ const shorthandMap = {
         ]
     },
     "🩵": {
-        "i": "343",
+        "i": "440",
         "codePoint": "U+1FA75",
         "name": "light blue heart",
         "entities": "",
@@ -3593,7 +4633,7 @@ const shorthandMap = {
         ]
     },
     "💜": {
-        "i": "344",
+        "i": "441",
         "codePoint": "U+1F49C",
         "name": "purple heart",
         "entities": "",
@@ -3603,7 +4643,7 @@ const shorthandMap = {
         ]
     },
     "🤎": {
-        "i": "345",
+        "i": "442",
         "codePoint": "U+1F90E",
         "name": "brown heart",
         "entities": "",
@@ -3613,7 +4653,7 @@ const shorthandMap = {
         ]
     },
     "🖤": {
-        "i": "346",
+        "i": "443",
         "codePoint": "U+1F5A4",
         "name": "black heart",
         "entities": "",
@@ -3623,7 +4663,7 @@ const shorthandMap = {
         ]
     },
     "🩶": {
-        "i": "347",
+        "i": "444",
         "codePoint": "U+1FA76",
         "name": "grey heart",
         "entities": "",
@@ -3634,7 +4674,7 @@ const shorthandMap = {
         ]
     },
     "🤍": {
-        "i": "348",
+        "i": "445",
         "codePoint": "U+1F90D",
         "name": "white heart",
         "entities": "",
@@ -3644,7 +4684,7 @@ const shorthandMap = {
         ]
     },
     "💋": {
-        "i": "349",
+        "i": "446",
         "codePoint": "U+1F48B",
         "name": "kiss mark",
         "entities": "",
@@ -3654,7 +4694,7 @@ const shorthandMap = {
         ]
     },
     "💯": {
-        "i": "350",
+        "i": "447",
         "codePoint": "U+1F4AF",
         "name": "hundred points symbol",
         "entities": "",
@@ -3670,7 +4710,7 @@ const shorthandMap = {
         ]
     },
     "💢": {
-        "i": "351",
+        "i": "448",
         "codePoint": "U+1F4A2",
         "name": "anger symbol",
         "entities": "",
@@ -3680,7 +4720,7 @@ const shorthandMap = {
         ]
     },
     "💥": {
-        "i": "352",
+        "i": "449",
         "codePoint": "U+1F4A5",
         "name": "collision symbol",
         "entities": "",
@@ -3692,7 +4732,7 @@ const shorthandMap = {
         ]
     },
     "💫": {
-        "i": "353",
+        "i": "450",
         "codePoint": "U+1F4AB",
         "name": "dizzy symbol",
         "entities": "",
@@ -3703,7 +4743,7 @@ const shorthandMap = {
         ]
     },
     "💦": {
-        "i": "354",
+        "i": "451",
         "codePoint": "U+1F4A6",
         "name": "splashing sweat symbol",
         "entities": "",
@@ -3714,7 +4754,7 @@ const shorthandMap = {
         ]
     },
     "💨": {
-        "i": "355",
+        "i": "452",
         "codePoint": "U+1F4A8",
         "name": "dash symbol",
         "entities": "",
@@ -3730,7 +4770,7 @@ const shorthandMap = {
         ]
     },
     "🕳️": {
-        "i": "356",
+        "i": "453",
         "codePoint": "U+1F573+FE0F",
         "name": "hole",
         "entities": "",
@@ -3740,7 +4780,7 @@ const shorthandMap = {
         ]
     },
     "💬": {
-        "i": "357",
+        "i": "454",
         "codePoint": "U+1F4AC",
         "name": "speech balloon",
         "entities": "",
@@ -3752,7 +4792,7 @@ const shorthandMap = {
         ]
     },
     "👁️‍🗨️": {
-        "i": "358",
+        "i": "455",
         "codePoint": "U+1F441+FE0F+200D+1F5E8+FE0F",
         "name": "eye in speech bubble",
         "entities": "",
@@ -3762,7 +4802,7 @@ const shorthandMap = {
         ]
     },
     "🗨️": {
-        "i": "359",
+        "i": "456",
         "codePoint": "U+1F5E8+FE0F",
         "name": "left speech bubble",
         "entities": "",
@@ -3773,7 +4813,7 @@ const shorthandMap = {
         ]
     },
     "🗯️": {
-        "i": "360",
+        "i": "457",
         "codePoint": "U+1F5EF+FE0F",
         "name": "right anger bubble",
         "entities": "",
@@ -3784,7 +4824,7 @@ const shorthandMap = {
         ]
     },
     "💭": {
-        "i": "361",
+        "i": "458",
         "codePoint": "U+1F4AD",
         "name": "thought balloon",
         "entities": "",
@@ -3794,7 +4834,7 @@ const shorthandMap = {
         ]
     },
     "💤": {
-        "i": "362",
+        "i": "459",
         "codePoint": "U+1F4A4",
         "name": "sleeping symbol",
         "entities": "",
@@ -3804,7 +4844,7 @@ const shorthandMap = {
         ]
     },
     "👋": {
-        "i": "363",
+        "i": "460",
         "codePoint": "U+1F44B",
         "name": "waving hand sign",
         "entities": "",
@@ -3820,7 +4860,7 @@ const shorthandMap = {
         ]
     },
     "🤚": {
-        "i": "364",
+        "i": "461",
         "codePoint": "U+1F91A",
         "name": "raised back of hand",
         "entities": "",
@@ -3832,7 +4872,7 @@ const shorthandMap = {
         ]
     },
     "🖐️": {
-        "i": "365",
+        "i": "462",
         "codePoint": "U+1F590+FE0F",
         "name": "hand with fingers splayed",
         "entities": "",
@@ -3842,7 +4882,7 @@ const shorthandMap = {
         ]
     },
     "✋": {
-        "i": "366",
+        "i": "463",
         "codePoint": "U+270B",
         "name": "raised hand",
         "entities": "",
@@ -3854,7 +4894,7 @@ const shorthandMap = {
         ]
     },
     "🖖": {
-        "i": "367",
+        "i": "464",
         "codePoint": "U+1F596",
         "name": "raised hand with part between middle and ring fingers",
         "entities": "",
@@ -3866,7 +4906,7 @@ const shorthandMap = {
         ]
     },
     "🫱": {
-        "i": "368",
+        "i": "465",
         "codePoint": "U+1FAF1",
         "name": "rightwards hand",
         "entities": "",
@@ -3876,7 +4916,7 @@ const shorthandMap = {
         ]
     },
     "🫲": {
-        "i": "369",
+        "i": "466",
         "codePoint": "U+1FAF2",
         "name": "leftwards hand",
         "entities": "",
@@ -3886,7 +4926,7 @@ const shorthandMap = {
         ]
     },
     "🫳": {
-        "i": "370",
+        "i": "467",
         "codePoint": "U+1FAF3",
         "name": "palm down hand",
         "entities": "",
@@ -3896,7 +4936,7 @@ const shorthandMap = {
         ]
     },
     "🫴": {
-        "i": "371",
+        "i": "468",
         "codePoint": "U+1FAF4",
         "name": "palm up hand",
         "entities": "",
@@ -3906,7 +4946,7 @@ const shorthandMap = {
         ]
     },
     "🫷": {
-        "i": "372",
+        "i": "469",
         "codePoint": "U+1FAF7",
         "name": "leftwards pushing hand",
         "entities": "",
@@ -3916,7 +4956,7 @@ const shorthandMap = {
         ]
     },
     "🫸": {
-        "i": "373",
+        "i": "470",
         "codePoint": "U+1FAF8",
         "name": "rightwards pushing hand",
         "entities": "",
@@ -3926,7 +4966,7 @@ const shorthandMap = {
         ]
     },
     "👌": {
-        "i": "374",
+        "i": "471",
         "codePoint": "U+1F44C",
         "name": "ok hand sign",
         "entities": "",
@@ -3938,7 +4978,7 @@ const shorthandMap = {
         ]
     },
     "🤌": {
-        "i": "375",
+        "i": "472",
         "codePoint": "U+1F90C",
         "name": "pinched fingers",
         "entities": "",
@@ -3948,7 +4988,7 @@ const shorthandMap = {
         ]
     },
     "🤏": {
-        "i": "376",
+        "i": "473",
         "codePoint": "U+1F90F",
         "name": "pinching hand",
         "entities": "",
@@ -3959,7 +4999,7 @@ const shorthandMap = {
         ]
     },
     "✌️": {
-        "i": "377",
+        "i": "474",
         "codePoint": "U+270C+FE0F",
         "name": "victory hand",
         "entities": "",
@@ -3972,7 +5012,7 @@ const shorthandMap = {
         ]
     },
     "🤞": {
-        "i": "378",
+        "i": "475",
         "codePoint": "U+1F91E",
         "name": "hand with index and middle fingers crossed",
         "entities": "",
@@ -3984,7 +5024,7 @@ const shorthandMap = {
         ]
     },
     "🫰": {
-        "i": "379",
+        "i": "476",
         "codePoint": "U+1FAF0",
         "name": "hand with index finger and thumb crossed",
         "entities": "",
@@ -3994,7 +5034,7 @@ const shorthandMap = {
         ]
     },
     "🤟": {
-        "i": "380",
+        "i": "477",
         "codePoint": "U+1F91F",
         "name": "i love you hand sign",
         "entities": "",
@@ -4004,7 +5044,7 @@ const shorthandMap = {
         ]
     },
     "🤘": {
-        "i": "381",
+        "i": "478",
         "codePoint": "U+1F918",
         "name": "sign of the horns",
         "entities": "",
@@ -4014,7 +5054,7 @@ const shorthandMap = {
         ]
     },
     "🤙": {
-        "i": "382",
+        "i": "479",
         "codePoint": "U+1F919",
         "name": "call me hand",
         "entities": "",
@@ -4025,7 +5065,7 @@ const shorthandMap = {
         ]
     },
     "👈": {
-        "i": "383",
+        "i": "480",
         "codePoint": "U+1F448",
         "name": "white left pointing backhand index",
         "entities": "",
@@ -4036,7 +5076,7 @@ const shorthandMap = {
         ]
     },
     "👉": {
-        "i": "384",
+        "i": "481",
         "codePoint": "U+1F449",
         "name": "white right pointing backhand index",
         "entities": "",
@@ -4047,7 +5087,7 @@ const shorthandMap = {
         ]
     },
     "👆": {
-        "i": "385",
+        "i": "482",
         "codePoint": "U+1F446",
         "name": "white up pointing backhand index",
         "entities": "",
@@ -4058,7 +5098,7 @@ const shorthandMap = {
         ]
     },
     "🖕": {
-        "i": "386",
+        "i": "483",
         "codePoint": "U+1F595",
         "name": "reversed hand with middle finger extended",
         "entities": "",
@@ -4071,7 +5111,7 @@ const shorthandMap = {
         ]
     },
     "👇": {
-        "i": "387",
+        "i": "484",
         "codePoint": "U+1F447",
         "name": "white down pointing backhand index",
         "entities": "",
@@ -4081,7 +5121,7 @@ const shorthandMap = {
         ]
     },
     "☝️": {
-        "i": "388",
+        "i": "485",
         "codePoint": "U+261D+FE0F",
         "name": "index pointing up",
         "entities": "",
@@ -4091,7 +5131,7 @@ const shorthandMap = {
         ]
     },
     "🫵": {
-        "i": "389",
+        "i": "486",
         "codePoint": "U+1FAF5",
         "name": "index pointing at the viewer",
         "entities": "",
@@ -4102,7 +5142,7 @@ const shorthandMap = {
         ]
     },
     "✊": {
-        "i": "390",
+        "i": "487",
         "codePoint": "U+270A",
         "name": "raised fist",
         "entities": "",
@@ -4112,7 +5152,7 @@ const shorthandMap = {
         ]
     },
     "👊": {
-        "i": "391",
+        "i": "488",
         "codePoint": "U+1F44A",
         "name": "fisted hand sign",
         "entities": "",
@@ -4126,7 +5166,7 @@ const shorthandMap = {
         ]
     },
     "🤛": {
-        "i": "392",
+        "i": "489",
         "codePoint": "U+1F91B",
         "name": "left-facing fist",
         "entities": "",
@@ -4136,7 +5176,7 @@ const shorthandMap = {
         ]
     },
     "🤜": {
-        "i": "393",
+        "i": "490",
         "codePoint": "U+1F91C",
         "name": "right-facing fist",
         "entities": "",
@@ -4146,7 +5186,7 @@ const shorthandMap = {
         ]
     },
     "👏": {
-        "i": "394",
+        "i": "491",
         "codePoint": "U+1F44F",
         "name": "clapping hands sign",
         "entities": "",
@@ -4160,7 +5200,7 @@ const shorthandMap = {
         ]
     },
     "🙌": {
-        "i": "395",
+        "i": "492",
         "codePoint": "U+1F64C",
         "name": "person raising both hands in celebration",
         "entities": "",
@@ -4173,7 +5213,7 @@ const shorthandMap = {
         ]
     },
     "🫶": {
-        "i": "396",
+        "i": "493",
         "codePoint": "U+1FAF6",
         "name": "heart hands",
         "entities": "",
@@ -4184,7 +5224,7 @@ const shorthandMap = {
         ]
     },
     "👐": {
-        "i": "397",
+        "i": "494",
         "codePoint": "U+1F450",
         "name": "open hands sign",
         "entities": "",
@@ -4195,7 +5235,7 @@ const shorthandMap = {
         ]
     },
     "🤲": {
-        "i": "398",
+        "i": "495",
         "codePoint": "U+1F932",
         "name": "palms up together",
         "entities": "",
@@ -4206,7 +5246,7 @@ const shorthandMap = {
         ]
     },
     "🤝": {
-        "i": "399",
+        "i": "496",
         "codePoint": "U+1F91D",
         "name": "handshake",
         "entities": "",
@@ -4217,7 +5257,7 @@ const shorthandMap = {
         ]
     },
     "🙏": {
-        "i": "400",
+        "i": "497",
         "codePoint": "U+1F64F",
         "name": "person with folded hands",
         "entities": "",
@@ -4234,7 +5274,7 @@ const shorthandMap = {
         ]
     },
     "✍️": {
-        "i": "401",
+        "i": "498",
         "codePoint": "U+270D+FE0F",
         "name": "writing hand",
         "entities": "",
@@ -4244,7 +5284,7 @@ const shorthandMap = {
         ]
     },
     "💅": {
-        "i": "402",
+        "i": "499",
         "codePoint": "U+1F485",
         "name": "nail polish",
         "entities": "",
@@ -4258,7 +5298,7 @@ const shorthandMap = {
         ]
     },
     "🤳": {
-        "i": "403",
+        "i": "500",
         "codePoint": "U+1F933",
         "name": "selfie",
         "entities": "",
@@ -4268,7 +5308,7 @@ const shorthandMap = {
         ]
     },
     "💪": {
-        "i": "404",
+        "i": "501",
         "codePoint": "U+1F4AA",
         "name": "flexed biceps",
         "entities": "",
@@ -4281,7 +5321,7 @@ const shorthandMap = {
         ]
     },
     "🦾": {
-        "i": "405",
+        "i": "502",
         "codePoint": "U+1F9BE",
         "name": "mechanical arm",
         "entities": "",
@@ -4291,7 +5331,7 @@ const shorthandMap = {
         ]
     },
     "🦿": {
-        "i": "406",
+        "i": "503",
         "codePoint": "U+1F9BF",
         "name": "mechanical leg",
         "entities": "",
@@ -4301,7 +5341,7 @@ const shorthandMap = {
         ]
     },
     "🦵": {
-        "i": "407",
+        "i": "504",
         "codePoint": "U+1F9B5",
         "name": "leg",
         "entities": "",
@@ -4312,7 +5352,7 @@ const shorthandMap = {
         ]
     },
     "🦶": {
-        "i": "408",
+        "i": "505",
         "codePoint": "U+1F9B6",
         "name": "foot",
         "entities": "",
@@ -4322,7 +5362,7 @@ const shorthandMap = {
         ]
     },
     "👂": {
-        "i": "409",
+        "i": "506",
         "codePoint": "U+1F442",
         "name": "ear",
         "entities": "",
@@ -4333,7 +5373,7 @@ const shorthandMap = {
         ]
     },
     "🦻": {
-        "i": "410",
+        "i": "507",
         "codePoint": "U+1F9BB",
         "name": "ear with hearing aid",
         "entities": "",
@@ -4343,7 +5383,7 @@ const shorthandMap = {
         ]
     },
     "👃": {
-        "i": "411",
+        "i": "508",
         "codePoint": "U+1F443",
         "name": "nose",
         "entities": "",
@@ -4354,7 +5394,7 @@ const shorthandMap = {
         ]
     },
     "🧠": {
-        "i": "412",
+        "i": "509",
         "codePoint": "U+1F9E0",
         "name": "brain",
         "entities": "",
@@ -4365,7 +5405,7 @@ const shorthandMap = {
         ]
     },
     "🫀": {
-        "i": "413",
+        "i": "510",
         "codePoint": "U+1FAC0",
         "name": "anatomical heart",
         "entities": "",
@@ -4375,7 +5415,7 @@ const shorthandMap = {
         ]
     },
     "🫁": {
-        "i": "414",
+        "i": "511",
         "codePoint": "U+1FAC1",
         "name": "lungs",
         "entities": "",
@@ -4385,7 +5425,7 @@ const shorthandMap = {
         ]
     },
     "🦷": {
-        "i": "415",
+        "i": "512",
         "codePoint": "U+1F9B7",
         "name": "tooth",
         "entities": "",
@@ -4396,7 +5436,7 @@ const shorthandMap = {
         ]
     },
     "🦴": {
-        "i": "416",
+        "i": "513",
         "codePoint": "U+1F9B4",
         "name": "bone",
         "entities": "",
@@ -4406,7 +5446,7 @@ const shorthandMap = {
         ]
     },
     "👀": {
-        "i": "417",
+        "i": "514",
         "codePoint": "U+1F440",
         "name": "eyes",
         "entities": "",
@@ -4418,7 +5458,7 @@ const shorthandMap = {
         ]
     },
     "👁️": {
-        "i": "418",
+        "i": "515",
         "codePoint": "U+1F441+FE0F",
         "name": "eye",
         "entities": "",
@@ -4429,7 +5469,7 @@ const shorthandMap = {
         ]
     },
     "👅": {
-        "i": "419",
+        "i": "516",
         "codePoint": "U+1F445",
         "name": "tongue",
         "entities": "",
@@ -4439,7 +5479,7 @@ const shorthandMap = {
         ]
     },
     "👄": {
-        "i": "420",
+        "i": "517",
         "codePoint": "U+1F444",
         "name": "mouth",
         "entities": "",
@@ -4449,7 +5489,7 @@ const shorthandMap = {
         ]
     },
     "🫦": {
-        "i": "421",
+        "i": "518",
         "codePoint": "U+1FAE6",
         "name": "biting lip",
         "entities": "",
@@ -4462,7 +5502,7 @@ const shorthandMap = {
         ]
     },
     "👶": {
-        "i": "422",
+        "i": "519",
         "codePoint": "U+1F476",
         "name": "baby",
         "entities": "",
@@ -4472,7 +5512,7 @@ const shorthandMap = {
         ]
     },
     "🧒": {
-        "i": "423",
+        "i": "520",
         "codePoint": "U+1F9D2",
         "name": "child",
         "entities": "",
@@ -4483,7 +5523,7 @@ const shorthandMap = {
         ]
     },
     "👦": {
-        "i": "424",
+        "i": "521",
         "codePoint": "U+1F466",
         "name": "boy",
         "entities": "",
@@ -4495,7 +5535,7 @@ const shorthandMap = {
         ]
     },
     "👧": {
-        "i": "425",
+        "i": "522",
         "codePoint": "U+1F467",
         "name": "girl",
         "entities": "",
@@ -4505,7 +5545,7 @@ const shorthandMap = {
         ]
     },
     "🧑": {
-        "i": "426",
+        "i": "523",
         "codePoint": "U+1F9D1",
         "name": "adult",
         "entities": "",
@@ -4515,7 +5555,7 @@ const shorthandMap = {
         ]
     },
     "👱": {
-        "i": "427",
+        "i": "524",
         "codePoint": "U+1F471",
         "name": "person with blond hair",
         "entities": "",
@@ -4526,7 +5566,7 @@ const shorthandMap = {
         ]
     },
     "👨": {
-        "i": "428",
+        "i": "525",
         "codePoint": "U+1F468",
         "name": "man",
         "entities": "",
@@ -4539,7 +5579,7 @@ const shorthandMap = {
         ]
     },
     "🧔": {
-        "i": "429",
+        "i": "526",
         "codePoint": "U+1F9D4",
         "name": "bearded person",
         "entities": "",
@@ -4550,7 +5590,7 @@ const shorthandMap = {
         ]
     },
     "🧔‍♂️": {
-        "i": "430",
+        "i": "527",
         "codePoint": "U+1F9D4+200D+2642+FE0F",
         "name": "man beard",
         "entities": "",
@@ -4560,7 +5600,7 @@ const shorthandMap = {
         ]
     },
     "🧔‍♀️": {
-        "i": "431",
+        "i": "528",
         "codePoint": "U+1F9D4+200D+2640+FE0F",
         "name": "woman beard",
         "entities": "",
@@ -4570,7 +5610,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🦰": {
-        "i": "432",
+        "i": "529",
         "codePoint": "U+1F468+200D+1F9B0",
         "name": "man red hair",
         "entities": "",
@@ -4580,7 +5620,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🦱": {
-        "i": "433",
+        "i": "530",
         "codePoint": "U+1F468+200D+1F9B1",
         "name": "man curly hair",
         "entities": "",
@@ -4590,7 +5630,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🦳": {
-        "i": "434",
+        "i": "531",
         "codePoint": "U+1F468+200D+1F9B3",
         "name": "man white hair",
         "entities": "",
@@ -4600,7 +5640,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🦲": {
-        "i": "435",
+        "i": "532",
         "codePoint": "U+1F468+200D+1F9B2",
         "name": "man bald",
         "entities": "",
@@ -4610,7 +5650,7 @@ const shorthandMap = {
         ]
     },
     "👩": {
-        "i": "436",
+        "i": "533",
         "codePoint": "U+1F469",
         "name": "woman",
         "entities": "",
@@ -4621,7 +5661,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🦰": {
-        "i": "437",
+        "i": "534",
         "codePoint": "U+1F469+200D+1F9B0",
         "name": "woman red hair",
         "entities": "",
@@ -4631,7 +5671,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🦰": {
-        "i": "438",
+        "i": "535",
         "codePoint": "U+1F9D1+200D+1F9B0",
         "name": "person red hair",
         "entities": "",
@@ -4641,7 +5681,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🦱": {
-        "i": "439",
+        "i": "536",
         "codePoint": "U+1F469+200D+1F9B1",
         "name": "woman curly hair",
         "entities": "",
@@ -4651,7 +5691,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🦱": {
-        "i": "440",
+        "i": "537",
         "codePoint": "U+1F9D1+200D+1F9B1",
         "name": "person curly hair",
         "entities": "",
@@ -4661,7 +5701,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🦳": {
-        "i": "441",
+        "i": "538",
         "codePoint": "U+1F469+200D+1F9B3",
         "name": "woman white hair",
         "entities": "",
@@ -4671,7 +5711,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🦳": {
-        "i": "442",
+        "i": "539",
         "codePoint": "U+1F9D1+200D+1F9B3",
         "name": "person white hair",
         "entities": "",
@@ -4681,7 +5721,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🦲": {
-        "i": "443",
+        "i": "540",
         "codePoint": "U+1F469+200D+1F9B2",
         "name": "woman bald",
         "entities": "",
@@ -4691,7 +5731,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🦲": {
-        "i": "444",
+        "i": "541",
         "codePoint": "U+1F9D1+200D+1F9B2",
         "name": "person bald",
         "entities": "",
@@ -4701,7 +5741,7 @@ const shorthandMap = {
         ]
     },
     "👱‍♀️": {
-        "i": "445",
+        "i": "542",
         "codePoint": "U+1F471+200D+2640+FE0F",
         "name": "woman blond hair",
         "entities": "",
@@ -4711,7 +5751,7 @@ const shorthandMap = {
         ]
     },
     "👱‍♂️": {
-        "i": "446",
+        "i": "543",
         "codePoint": "U+1F471+200D+2642+FE0F",
         "name": "man blond hair",
         "entities": "",
@@ -4721,7 +5761,7 @@ const shorthandMap = {
         ]
     },
     "🧓": {
-        "i": "447",
+        "i": "544",
         "codePoint": "U+1F9D3",
         "name": "older adult",
         "entities": "",
@@ -4733,7 +5773,7 @@ const shorthandMap = {
         ]
     },
     "👴": {
-        "i": "448",
+        "i": "545",
         "codePoint": "U+1F474",
         "name": "older man",
         "entities": "",
@@ -4744,7 +5784,7 @@ const shorthandMap = {
         ]
     },
     "👵": {
-        "i": "449",
+        "i": "546",
         "codePoint": "U+1F475",
         "name": "older woman",
         "entities": "",
@@ -4755,7 +5795,7 @@ const shorthandMap = {
         ]
     },
     "🙍": {
-        "i": "450",
+        "i": "547",
         "codePoint": "U+1F64D",
         "name": "person frowning",
         "entities": "",
@@ -4765,7 +5805,7 @@ const shorthandMap = {
         ]
     },
     "🙍‍♂️": {
-        "i": "451",
+        "i": "548",
         "codePoint": "U+1F64D+200D+2642+FE0F",
         "name": "man frowning",
         "entities": "",
@@ -4775,7 +5815,7 @@ const shorthandMap = {
         ]
     },
     "🙍‍♀️": {
-        "i": "452",
+        "i": "549",
         "codePoint": "U+1F64D+200D+2640+FE0F",
         "name": "woman frowning",
         "entities": "",
@@ -4785,7 +5825,7 @@ const shorthandMap = {
         ]
     },
     "🙎": {
-        "i": "453",
+        "i": "550",
         "codePoint": "U+1F64E",
         "name": "person with pouting face",
         "entities": "",
@@ -4795,7 +5835,7 @@ const shorthandMap = {
         ]
     },
     "🙎‍♂️": {
-        "i": "454",
+        "i": "551",
         "codePoint": "U+1F64E+200D+2642+FE0F",
         "name": "man pouting",
         "entities": "",
@@ -4805,7 +5845,7 @@ const shorthandMap = {
         ]
     },
     "🙎‍♀️": {
-        "i": "455",
+        "i": "552",
         "codePoint": "U+1F64E+200D+2640+FE0F",
         "name": "woman pouting",
         "entities": "",
@@ -4815,7 +5855,7 @@ const shorthandMap = {
         ]
     },
     "🙅": {
-        "i": "456",
+        "i": "553",
         "codePoint": "U+1F645",
         "name": "face with no good gesture",
         "entities": "",
@@ -4826,7 +5866,7 @@ const shorthandMap = {
         ]
     },
     "🙅‍♂️": {
-        "i": "457",
+        "i": "554",
         "codePoint": "U+1F645+200D+2642+FE0F",
         "name": "man gesturing NO",
         "entities": "",
@@ -4836,7 +5876,7 @@ const shorthandMap = {
         ]
     },
     "🙅‍♀️": {
-        "i": "458",
+        "i": "555",
         "codePoint": "U+1F645+200D+2640+FE0F",
         "name": "woman gesturing NO",
         "entities": "",
@@ -4846,7 +5886,7 @@ const shorthandMap = {
         ]
     },
     "🙆": {
-        "i": "459",
+        "i": "556",
         "codePoint": "U+1F646",
         "name": "face with ok gesture",
         "entities": "",
@@ -4857,7 +5897,7 @@ const shorthandMap = {
         ]
     },
     "🙆‍♂️": {
-        "i": "460",
+        "i": "557",
         "codePoint": "U+1F646+200D+2642+FE0F",
         "name": "man gesturing OK",
         "entities": "",
@@ -4867,7 +5907,7 @@ const shorthandMap = {
         ]
     },
     "🙆‍♀️": {
-        "i": "461",
+        "i": "558",
         "codePoint": "U+1F646+200D+2640+FE0F",
         "name": "woman gesturing OK",
         "entities": "",
@@ -4877,7 +5917,7 @@ const shorthandMap = {
         ]
     },
     "💁": {
-        "i": "462",
+        "i": "559",
         "codePoint": "U+1F481",
         "name": "information desk person",
         "entities": "",
@@ -4887,7 +5927,7 @@ const shorthandMap = {
         ]
     },
     "💁‍♂️": {
-        "i": "463",
+        "i": "560",
         "codePoint": "U+1F481+200D+2642+FE0F",
         "name": "man tipping hand",
         "entities": "",
@@ -4897,7 +5937,7 @@ const shorthandMap = {
         ]
     },
     "💁‍♀️": {
-        "i": "464",
+        "i": "561",
         "codePoint": "U+1F481+200D+2640+FE0F",
         "name": "woman tipping hand",
         "entities": "",
@@ -4907,7 +5947,7 @@ const shorthandMap = {
         ]
     },
     "🙋": {
-        "i": "465",
+        "i": "562",
         "codePoint": "U+1F64B",
         "name": "happy person raising one hand",
         "entities": "",
@@ -4918,7 +5958,7 @@ const shorthandMap = {
         ]
     },
     "🙋‍♂️": {
-        "i": "466",
+        "i": "563",
         "codePoint": "U+1F64B+200D+2642+FE0F",
         "name": "man raising hand",
         "entities": "",
@@ -4928,7 +5968,7 @@ const shorthandMap = {
         ]
     },
     "🙋‍♀️": {
-        "i": "467",
+        "i": "564",
         "codePoint": "U+1F64B+200D+2640+FE0F",
         "name": "woman raising hand",
         "entities": "",
@@ -4938,7 +5978,7 @@ const shorthandMap = {
         ]
     },
     "🧏": {
-        "i": "468",
+        "i": "565",
         "codePoint": "U+1F9CF",
         "name": "deaf person",
         "entities": "",
@@ -4948,7 +5988,7 @@ const shorthandMap = {
         ]
     },
     "🧏‍♂️": {
-        "i": "469",
+        "i": "566",
         "codePoint": "U+1F9CF+200D+2642+FE0F",
         "name": "deaf man",
         "entities": "",
@@ -4958,7 +5998,7 @@ const shorthandMap = {
         ]
     },
     "🧏‍♀️": {
-        "i": "470",
+        "i": "567",
         "codePoint": "U+1F9CF+200D+2640+FE0F",
         "name": "deaf woman",
         "entities": "",
@@ -4968,7 +6008,7 @@ const shorthandMap = {
         ]
     },
     "🙇": {
-        "i": "471",
+        "i": "568",
         "codePoint": "U+1F647",
         "name": "person bowing deeply",
         "entities": "",
@@ -4979,7 +6019,7 @@ const shorthandMap = {
         ]
     },
     "🙇‍♂️": {
-        "i": "472",
+        "i": "569",
         "codePoint": "U+1F647+200D+2642+FE0F",
         "name": "man bowing",
         "entities": "",
@@ -4989,7 +6029,7 @@ const shorthandMap = {
         ]
     },
     "🙇‍♀️": {
-        "i": "473",
+        "i": "570",
         "codePoint": "U+1F647+200D+2640+FE0F",
         "name": "woman bowing",
         "entities": "",
@@ -4999,7 +6039,7 @@ const shorthandMap = {
         ]
     },
     "🤦": {
-        "i": "474",
+        "i": "571",
         "codePoint": "U+1F926",
         "name": "face palm",
         "entities": "",
@@ -5010,7 +6050,7 @@ const shorthandMap = {
         ]
     },
     "🤦‍♂️": {
-        "i": "475",
+        "i": "572",
         "codePoint": "U+1F926+200D+2642+FE0F",
         "name": "man facepalming",
         "entities": "",
@@ -5020,7 +6060,7 @@ const shorthandMap = {
         ]
     },
     "🤦‍♀️": {
-        "i": "476",
+        "i": "573",
         "codePoint": "U+1F926+200D+2640+FE0F",
         "name": "woman facepalming",
         "entities": "",
@@ -5030,7 +6070,7 @@ const shorthandMap = {
         ]
     },
     "🤷": {
-        "i": "477",
+        "i": "574",
         "codePoint": "U+1F937",
         "name": "shrug",
         "entities": "",
@@ -5041,7 +6081,7 @@ const shorthandMap = {
         ]
     },
     "🤷‍♂️": {
-        "i": "478",
+        "i": "575",
         "codePoint": "U+1F937+200D+2642+FE0F",
         "name": "man shrugging",
         "entities": "",
@@ -5051,7 +6091,7 @@ const shorthandMap = {
         ]
     },
     "🤷‍♀️": {
-        "i": "479",
+        "i": "576",
         "codePoint": "U+1F937+200D+2640+FE0F",
         "name": "woman shrugging",
         "entities": "",
@@ -5061,7 +6101,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍⚕️": {
-        "i": "480",
+        "i": "577",
         "codePoint": "U+1F9D1+200D+2695+FE0F",
         "name": "health worker",
         "entities": "",
@@ -5071,7 +6111,7 @@ const shorthandMap = {
         ]
     },
     "👨‍⚕️": {
-        "i": "481",
+        "i": "578",
         "codePoint": "U+1F468+200D+2695+FE0F",
         "name": "man health worker",
         "entities": "",
@@ -5082,7 +6122,7 @@ const shorthandMap = {
         ]
     },
     "👩‍⚕️": {
-        "i": "482",
+        "i": "579",
         "codePoint": "U+1F469+200D+2695+FE0F",
         "name": "woman health worker",
         "entities": "",
@@ -5093,7 +6133,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🎓": {
-        "i": "483",
+        "i": "580",
         "codePoint": "U+1F9D1+200D+1F393",
         "name": "student",
         "entities": "",
@@ -5103,7 +6143,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🎓": {
-        "i": "484",
+        "i": "581",
         "codePoint": "U+1F468+200D+1F393",
         "name": "man student",
         "entities": "",
@@ -5113,7 +6153,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🎓": {
-        "i": "485",
+        "i": "582",
         "codePoint": "U+1F469+200D+1F393",
         "name": "woman student",
         "entities": "",
@@ -5123,7 +6163,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🏫": {
-        "i": "486",
+        "i": "583",
         "codePoint": "U+1F9D1+200D+1F3EB",
         "name": "teacher",
         "entities": "",
@@ -5133,7 +6173,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🏫": {
-        "i": "487",
+        "i": "584",
         "codePoint": "U+1F468+200D+1F3EB",
         "name": "man teacher",
         "entities": "",
@@ -5143,7 +6183,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🏫": {
-        "i": "488",
+        "i": "585",
         "codePoint": "U+1F469+200D+1F3EB",
         "name": "woman teacher",
         "entities": "",
@@ -5153,7 +6193,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍⚖️": {
-        "i": "489",
+        "i": "586",
         "codePoint": "U+1F9D1+200D+2696+FE0F",
         "name": "judge",
         "entities": "",
@@ -5163,7 +6203,7 @@ const shorthandMap = {
         ]
     },
     "👨‍⚖️": {
-        "i": "490",
+        "i": "587",
         "codePoint": "U+1F468+200D+2696+FE0F",
         "name": "man judge",
         "entities": "",
@@ -5173,7 +6213,7 @@ const shorthandMap = {
         ]
     },
     "👩‍⚖️": {
-        "i": "491",
+        "i": "588",
         "codePoint": "U+1F469+200D+2696+FE0F",
         "name": "woman judge",
         "entities": "",
@@ -5183,7 +6223,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🌾": {
-        "i": "492",
+        "i": "589",
         "codePoint": "U+1F9D1+200D+1F33E",
         "name": "farmer",
         "entities": "",
@@ -5193,7 +6233,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🌾": {
-        "i": "493",
+        "i": "590",
         "codePoint": "U+1F468+200D+1F33E",
         "name": "man farmer",
         "entities": "",
@@ -5203,7 +6243,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🌾": {
-        "i": "494",
+        "i": "591",
         "codePoint": "U+1F469+200D+1F33E",
         "name": "woman farmer",
         "entities": "",
@@ -5213,7 +6253,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🍳": {
-        "i": "495",
+        "i": "592",
         "codePoint": "U+1F9D1+200D+1F373",
         "name": "cook",
         "entities": "",
@@ -5225,7 +6265,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🍳": {
-        "i": "496",
+        "i": "593",
         "codePoint": "U+1F468+200D+1F373",
         "name": "man cook",
         "entities": "",
@@ -5235,7 +6275,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🍳": {
-        "i": "497",
+        "i": "594",
         "codePoint": "U+1F469+200D+1F373",
         "name": "woman cook",
         "entities": "",
@@ -5245,7 +6285,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🔧": {
-        "i": "498",
+        "i": "595",
         "codePoint": "U+1F9D1+200D+1F527",
         "name": "mechanic",
         "entities": "",
@@ -5256,7 +6296,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🔧": {
-        "i": "499",
+        "i": "596",
         "codePoint": "U+1F468+200D+1F527",
         "name": "man mechanic",
         "entities": "",
@@ -5266,7 +6306,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🔧": {
-        "i": "500",
+        "i": "597",
         "codePoint": "U+1F469+200D+1F527",
         "name": "woman mechanic",
         "entities": "",
@@ -5276,7 +6316,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🏭": {
-        "i": "501",
+        "i": "598",
         "codePoint": "U+1F9D1+200D+1F3ED",
         "name": "factory worker",
         "entities": "",
@@ -5286,7 +6326,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🏭": {
-        "i": "502",
+        "i": "599",
         "codePoint": "U+1F468+200D+1F3ED",
         "name": "man factory worker",
         "entities": "",
@@ -5296,7 +6336,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🏭": {
-        "i": "503",
+        "i": "600",
         "codePoint": "U+1F469+200D+1F3ED",
         "name": "woman factory worker",
         "entities": "",
@@ -5306,7 +6346,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍💼": {
-        "i": "504",
+        "i": "601",
         "codePoint": "U+1F9D1+200D+1F4BC",
         "name": "office worker",
         "entities": "",
@@ -5316,7 +6356,7 @@ const shorthandMap = {
         ]
     },
     "👨‍💼": {
-        "i": "505",
+        "i": "602",
         "codePoint": "U+1F468+200D+1F4BC",
         "name": "man office worker",
         "entities": "",
@@ -5326,7 +6366,7 @@ const shorthandMap = {
         ]
     },
     "👩‍💼": {
-        "i": "506",
+        "i": "603",
         "codePoint": "U+1F469+200D+1F4BC",
         "name": "woman office worker",
         "entities": "",
@@ -5336,7 +6376,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🔬": {
-        "i": "507",
+        "i": "604",
         "codePoint": "U+1F9D1+200D+1F52C",
         "name": "scientist",
         "entities": "",
@@ -5346,7 +6386,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🔬": {
-        "i": "508",
+        "i": "605",
         "codePoint": "U+1F468+200D+1F52C",
         "name": "man scientist",
         "entities": "",
@@ -5357,7 +6397,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🔬": {
-        "i": "509",
+        "i": "606",
         "codePoint": "U+1F469+200D+1F52C",
         "name": "woman scientist",
         "entities": "",
@@ -5368,7 +6408,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍💻": {
-        "i": "510",
+        "i": "607",
         "codePoint": "U+1F9D1+200D+1F4BB",
         "name": "technologist",
         "entities": "",
@@ -5378,7 +6418,7 @@ const shorthandMap = {
         ]
     },
     "👨‍💻": {
-        "i": "511",
+        "i": "608",
         "codePoint": "U+1F468+200D+1F4BB",
         "name": "man technologist",
         "entities": "",
@@ -5389,7 +6429,7 @@ const shorthandMap = {
         ]
     },
     "👩‍💻": {
-        "i": "512",
+        "i": "609",
         "codePoint": "U+1F469+200D+1F4BB",
         "name": "woman technologist",
         "entities": "",
@@ -5400,7 +6440,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🎤": {
-        "i": "513",
+        "i": "610",
         "codePoint": "U+1F9D1+200D+1F3A4",
         "name": "singer",
         "entities": "",
@@ -5411,7 +6451,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🎤": {
-        "i": "514",
+        "i": "611",
         "codePoint": "U+1F468+200D+1F3A4",
         "name": "man singer",
         "entities": "",
@@ -5421,7 +6461,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🎤": {
-        "i": "515",
+        "i": "612",
         "codePoint": "U+1F469+200D+1F3A4",
         "name": "woman singer",
         "entities": "",
@@ -5431,7 +6471,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🎨": {
-        "i": "516",
+        "i": "613",
         "codePoint": "U+1F9D1+200D+1F3A8",
         "name": "artist",
         "entities": "",
@@ -5442,7 +6482,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🎨": {
-        "i": "517",
+        "i": "614",
         "codePoint": "U+1F468+200D+1F3A8",
         "name": "man artist",
         "entities": "",
@@ -5452,7 +6492,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🎨": {
-        "i": "518",
+        "i": "615",
         "codePoint": "U+1F469+200D+1F3A8",
         "name": "woman artist",
         "entities": "",
@@ -5462,7 +6502,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍✈️": {
-        "i": "519",
+        "i": "616",
         "codePoint": "U+1F9D1+200D+2708+FE0F",
         "name": "pilot",
         "entities": "",
@@ -5472,7 +6512,7 @@ const shorthandMap = {
         ]
     },
     "👨‍✈️": {
-        "i": "520",
+        "i": "617",
         "codePoint": "U+1F468+200D+2708+FE0F",
         "name": "man pilot",
         "entities": "",
@@ -5482,7 +6522,7 @@ const shorthandMap = {
         ]
     },
     "👩‍✈️": {
-        "i": "521",
+        "i": "618",
         "codePoint": "U+1F469+200D+2708+FE0F",
         "name": "woman pilot",
         "entities": "",
@@ -5492,7 +6532,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🚀": {
-        "i": "522",
+        "i": "619",
         "codePoint": "U+1F9D1+200D+1F680",
         "name": "astronaut",
         "entities": "",
@@ -5502,7 +6542,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🚀": {
-        "i": "523",
+        "i": "620",
         "codePoint": "U+1F468+200D+1F680",
         "name": "man astronaut",
         "entities": "",
@@ -5512,7 +6552,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🚀": {
-        "i": "524",
+        "i": "621",
         "codePoint": "U+1F469+200D+1F680",
         "name": "woman astronaut",
         "entities": "",
@@ -5522,7 +6562,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🚒": {
-        "i": "525",
+        "i": "622",
         "codePoint": "U+1F9D1+200D+1F692",
         "name": "firefighter",
         "entities": "",
@@ -5532,7 +6572,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🚒": {
-        "i": "526",
+        "i": "623",
         "codePoint": "U+1F468+200D+1F692",
         "name": "man firefighter",
         "entities": "",
@@ -5542,7 +6582,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🚒": {
-        "i": "527",
+        "i": "624",
         "codePoint": "U+1F469+200D+1F692",
         "name": "woman firefighter",
         "entities": "",
@@ -5552,7 +6592,7 @@ const shorthandMap = {
         ]
     },
     "👮": {
-        "i": "528",
+        "i": "625",
         "codePoint": "U+1F46E",
         "name": "police officer",
         "entities": "",
@@ -5562,7 +6602,7 @@ const shorthandMap = {
         ]
     },
     "👮‍♂️": {
-        "i": "529",
+        "i": "626",
         "codePoint": "U+1F46E+200D+2642+FE0F",
         "name": "man police officer",
         "entities": "",
@@ -5573,7 +6613,7 @@ const shorthandMap = {
         ]
     },
     "👮‍♀️": {
-        "i": "530",
+        "i": "627",
         "codePoint": "U+1F46E+200D+2640+FE0F",
         "name": "woman police officer",
         "entities": "",
@@ -5583,7 +6623,7 @@ const shorthandMap = {
         ]
     },
     "🕵️": {
-        "i": "531",
+        "i": "628",
         "codePoint": "U+1F575+FE0F",
         "name": "detective",
         "entities": "",
@@ -5593,7 +6633,7 @@ const shorthandMap = {
         ]
     },
     "🕵️‍♂️": {
-        "i": "532",
+        "i": "629",
         "codePoint": "U+1F575+FE0F+200D+2642+FE0F",
         "name": "man detective",
         "entities": "",
@@ -5603,7 +6643,7 @@ const shorthandMap = {
         ]
     },
     "🕵️‍♀️": {
-        "i": "533",
+        "i": "630",
         "codePoint": "U+1F575+FE0F+200D+2640+FE0F",
         "name": "woman detective",
         "entities": "",
@@ -5613,7 +6653,7 @@ const shorthandMap = {
         ]
     },
     "💂": {
-        "i": "534",
+        "i": "631",
         "codePoint": "U+1F482",
         "name": "guardsman",
         "entities": "",
@@ -5624,7 +6664,7 @@ const shorthandMap = {
         ]
     },
     "💂‍♂️": {
-        "i": "535",
+        "i": "632",
         "codePoint": "U+1F482+200D+2642+FE0F",
         "name": "man guard",
         "entities": "",
@@ -5635,7 +6675,7 @@ const shorthandMap = {
         ]
     },
     "💂‍♀️": {
-        "i": "536",
+        "i": "633",
         "codePoint": "U+1F482+200D+2640+FE0F",
         "name": "woman guard",
         "entities": "",
@@ -5645,7 +6685,7 @@ const shorthandMap = {
         ]
     },
     "🥷": {
-        "i": "537",
+        "i": "634",
         "codePoint": "U+1F977",
         "name": "ninja",
         "entities": "",
@@ -5656,7 +6696,7 @@ const shorthandMap = {
         ]
     },
     "👷": {
-        "i": "538",
+        "i": "635",
         "codePoint": "U+1F477",
         "name": "construction worker",
         "entities": "",
@@ -5666,7 +6706,7 @@ const shorthandMap = {
         ]
     },
     "👷‍♂️": {
-        "i": "539",
+        "i": "636",
         "codePoint": "U+1F477+200D+2642+FE0F",
         "name": "man construction worker",
         "entities": "",
@@ -5676,7 +6716,7 @@ const shorthandMap = {
         ]
     },
     "👷‍♀️": {
-        "i": "540",
+        "i": "637",
         "codePoint": "U+1F477+200D+2640+FE0F",
         "name": "woman construction worker",
         "entities": "",
@@ -5686,7 +6726,7 @@ const shorthandMap = {
         ]
     },
     "🫅": {
-        "i": "541",
+        "i": "638",
         "codePoint": "U+1FAC5",
         "name": "person with crown",
         "entities": "",
@@ -5696,7 +6736,7 @@ const shorthandMap = {
         ]
     },
     "🤴": {
-        "i": "542",
+        "i": "639",
         "codePoint": "U+1F934",
         "name": "prince",
         "entities": "",
@@ -5706,7 +6746,7 @@ const shorthandMap = {
         ]
     },
     "👸": {
-        "i": "543",
+        "i": "640",
         "codePoint": "U+1F478",
         "name": "princess",
         "entities": "",
@@ -5717,7 +6757,7 @@ const shorthandMap = {
         ]
     },
     "👳": {
-        "i": "544",
+        "i": "641",
         "codePoint": "U+1F473",
         "name": "man with turban",
         "entities": "",
@@ -5728,7 +6768,7 @@ const shorthandMap = {
         ]
     },
     "👳‍♂️": {
-        "i": "545",
+        "i": "642",
         "codePoint": "U+1F473+200D+2642+FE0F",
         "name": "man wearing turban",
         "entities": "",
@@ -5739,7 +6779,7 @@ const shorthandMap = {
         ]
     },
     "👳‍♀️": {
-        "i": "546",
+        "i": "643",
         "codePoint": "U+1F473+200D+2640+FE0F",
         "name": "woman wearing turban",
         "entities": "",
@@ -5749,7 +6789,7 @@ const shorthandMap = {
         ]
     },
     "👲": {
-        "i": "547",
+        "i": "644",
         "codePoint": "U+1F472",
         "name": "man with gua pi mao",
         "entities": "",
@@ -5759,7 +6799,7 @@ const shorthandMap = {
         ]
     },
     "🧕": {
-        "i": "548",
+        "i": "645",
         "codePoint": "U+1F9D5",
         "name": "person with headscarf",
         "entities": "",
@@ -5772,7 +6812,7 @@ const shorthandMap = {
         ]
     },
     "🤵": {
-        "i": "549",
+        "i": "646",
         "codePoint": "U+1F935",
         "name": "man in tuxedo",
         "entities": "",
@@ -5784,7 +6824,7 @@ const shorthandMap = {
         ]
     },
     "🤵‍♂️": {
-        "i": "550",
+        "i": "647",
         "codePoint": "U+1F935+200D+2642+FE0F",
         "name": "man in tuxedo",
         "entities": "",
@@ -5794,7 +6834,7 @@ const shorthandMap = {
         ]
     },
     "🤵‍♀️": {
-        "i": "551",
+        "i": "648",
         "codePoint": "U+1F935+200D+2640+FE0F",
         "name": "woman in tuxedo",
         "entities": "",
@@ -5804,7 +6844,7 @@ const shorthandMap = {
         ]
     },
     "👰": {
-        "i": "552",
+        "i": "649",
         "codePoint": "U+1F470",
         "name": "bride with veil",
         "entities": "",
@@ -5815,7 +6855,7 @@ const shorthandMap = {
         ]
     },
     "👰‍♂️": {
-        "i": "553",
+        "i": "650",
         "codePoint": "U+1F470+200D+2642+FE0F",
         "name": "man with veil",
         "entities": "",
@@ -5825,7 +6865,7 @@ const shorthandMap = {
         ]
     },
     "👰‍♀️": {
-        "i": "554",
+        "i": "651",
         "codePoint": "U+1F470+200D+2640+FE0F",
         "name": "woman with veil",
         "entities": "",
@@ -5835,7 +6875,7 @@ const shorthandMap = {
         ]
     },
     "🤰": {
-        "i": "555",
+        "i": "652",
         "codePoint": "U+1F930",
         "name": "pregnant woman",
         "entities": "",
@@ -5845,7 +6885,7 @@ const shorthandMap = {
         ]
     },
     "🫃": {
-        "i": "556",
+        "i": "653",
         "codePoint": "U+1FAC3",
         "name": "pregnant man",
         "entities": "",
@@ -5855,7 +6895,7 @@ const shorthandMap = {
         ]
     },
     "🫄": {
-        "i": "557",
+        "i": "654",
         "codePoint": "U+1FAC4",
         "name": "pregnant person",
         "entities": "",
@@ -5865,7 +6905,7 @@ const shorthandMap = {
         ]
     },
     "🤱": {
-        "i": "558",
+        "i": "655",
         "codePoint": "U+1F931",
         "name": "breast-feeding",
         "entities": "",
@@ -5875,7 +6915,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🍼": {
-        "i": "559",
+        "i": "656",
         "codePoint": "U+1F469+200D+1F37C",
         "name": "woman feeding baby",
         "entities": "",
@@ -5885,7 +6925,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🍼": {
-        "i": "560",
+        "i": "657",
         "codePoint": "U+1F468+200D+1F37C",
         "name": "man feeding baby",
         "entities": "",
@@ -5895,7 +6935,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🍼": {
-        "i": "561",
+        "i": "658",
         "codePoint": "U+1F9D1+200D+1F37C",
         "name": "person feeding baby",
         "entities": "",
@@ -5905,7 +6945,7 @@ const shorthandMap = {
         ]
     },
     "👼": {
-        "i": "562",
+        "i": "659",
         "codePoint": "U+1F47C",
         "name": "baby angel",
         "entities": "",
@@ -5915,7 +6955,7 @@ const shorthandMap = {
         ]
     },
     "🎅": {
-        "i": "563",
+        "i": "660",
         "codePoint": "U+1F385",
         "name": "father christmas",
         "entities": "",
@@ -5925,7 +6965,7 @@ const shorthandMap = {
         ]
     },
     "🤶": {
-        "i": "564",
+        "i": "661",
         "codePoint": "U+1F936",
         "name": "mother christmas",
         "entities": "",
@@ -5935,7 +6975,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🎄": {
-        "i": "565",
+        "i": "662",
         "codePoint": "U+1F9D1+200D+1F384",
         "name": "mx claus",
         "entities": "",
@@ -5945,7 +6985,7 @@ const shorthandMap = {
         ]
     },
     "🦸": {
-        "i": "566",
+        "i": "663",
         "codePoint": "U+1F9B8",
         "name": "superhero",
         "entities": "",
@@ -5955,7 +6995,7 @@ const shorthandMap = {
         ]
     },
     "🦸‍♂️": {
-        "i": "567",
+        "i": "664",
         "codePoint": "U+1F9B8+200D+2642+FE0F",
         "name": "man superhero",
         "entities": "",
@@ -5966,7 +7006,7 @@ const shorthandMap = {
         ]
     },
     "🦸‍♀️": {
-        "i": "568",
+        "i": "665",
         "codePoint": "U+1F9B8+200D+2640+FE0F",
         "name": "woman superhero",
         "entities": "",
@@ -5976,7 +7016,7 @@ const shorthandMap = {
         ]
     },
     "🦹": {
-        "i": "569",
+        "i": "666",
         "codePoint": "U+1F9B9",
         "name": "supervillain",
         "entities": "",
@@ -5986,7 +7026,7 @@ const shorthandMap = {
         ]
     },
     "🦹‍♂️": {
-        "i": "570",
+        "i": "667",
         "codePoint": "U+1F9B9+200D+2642+FE0F",
         "name": "man supervillain",
         "entities": "",
@@ -5996,7 +7036,7 @@ const shorthandMap = {
         ]
     },
     "🦹‍♀️": {
-        "i": "571",
+        "i": "668",
         "codePoint": "U+1F9B9+200D+2640+FE0F",
         "name": "woman supervillain",
         "entities": "",
@@ -6006,7 +7046,7 @@ const shorthandMap = {
         ]
     },
     "🧙": {
-        "i": "572",
+        "i": "669",
         "codePoint": "U+1F9D9",
         "name": "mage",
         "entities": "",
@@ -6016,7 +7056,7 @@ const shorthandMap = {
         ]
     },
     "🧙‍♂️": {
-        "i": "573",
+        "i": "670",
         "codePoint": "U+1F9D9+200D+2642+FE0F",
         "name": "man mage",
         "entities": "",
@@ -6026,7 +7066,7 @@ const shorthandMap = {
         ]
     },
     "🧙‍♀️": {
-        "i": "574",
+        "i": "671",
         "codePoint": "U+1F9D9+200D+2640+FE0F",
         "name": "woman mage",
         "entities": "",
@@ -6036,7 +7076,7 @@ const shorthandMap = {
         ]
     },
     "🧚": {
-        "i": "575",
+        "i": "672",
         "codePoint": "U+1F9DA",
         "name": "fairy",
         "entities": "",
@@ -6046,7 +7086,7 @@ const shorthandMap = {
         ]
     },
     "🧚‍♂️": {
-        "i": "576",
+        "i": "673",
         "codePoint": "U+1F9DA+200D+2642+FE0F",
         "name": "man fairy",
         "entities": "",
@@ -6056,7 +7096,7 @@ const shorthandMap = {
         ]
     },
     "🧚‍♀️": {
-        "i": "577",
+        "i": "674",
         "codePoint": "U+1F9DA+200D+2640+FE0F",
         "name": "woman fairy",
         "entities": "",
@@ -6066,7 +7106,7 @@ const shorthandMap = {
         ]
     },
     "🧛": {
-        "i": "578",
+        "i": "675",
         "codePoint": "U+1F9DB",
         "name": "vampire",
         "entities": "",
@@ -6076,7 +7116,7 @@ const shorthandMap = {
         ]
     },
     "🧛‍♂️": {
-        "i": "579",
+        "i": "676",
         "codePoint": "U+1F9DB+200D+2642+FE0F",
         "name": "man vampire",
         "entities": "",
@@ -6086,7 +7126,7 @@ const shorthandMap = {
         ]
     },
     "🧛‍♀️": {
-        "i": "580",
+        "i": "677",
         "codePoint": "U+1F9DB+200D+2640+FE0F",
         "name": "woman vampire",
         "entities": "",
@@ -6096,7 +7136,7 @@ const shorthandMap = {
         ]
     },
     "🧜": {
-        "i": "581",
+        "i": "678",
         "codePoint": "U+1F9DC",
         "name": "merperson",
         "entities": "",
@@ -6106,7 +7146,7 @@ const shorthandMap = {
         ]
     },
     "🧜‍♂️": {
-        "i": "582",
+        "i": "679",
         "codePoint": "U+1F9DC+200D+2642+FE0F",
         "name": "merman",
         "entities": "",
@@ -6116,7 +7156,7 @@ const shorthandMap = {
         ]
     },
     "🧜‍♀️": {
-        "i": "583",
+        "i": "680",
         "codePoint": "U+1F9DC+200D+2640+FE0F",
         "name": "mermaid",
         "entities": "",
@@ -6127,7 +7167,7 @@ const shorthandMap = {
         ]
     },
     "🧝": {
-        "i": "584",
+        "i": "681",
         "codePoint": "U+1F9DD",
         "name": "elf",
         "entities": "",
@@ -6137,7 +7177,7 @@ const shorthandMap = {
         ]
     },
     "🧝‍♂️": {
-        "i": "585",
+        "i": "682",
         "codePoint": "U+1F9DD+200D+2642+FE0F",
         "name": "man elf",
         "entities": "",
@@ -6147,7 +7187,7 @@ const shorthandMap = {
         ]
     },
     "🧝‍♀️": {
-        "i": "586",
+        "i": "683",
         "codePoint": "U+1F9DD+200D+2640+FE0F",
         "name": "woman elf",
         "entities": "",
@@ -6157,7 +7197,7 @@ const shorthandMap = {
         ]
     },
     "🧞": {
-        "i": "587",
+        "i": "684",
         "codePoint": "U+1F9DE",
         "name": "genie",
         "entities": "",
@@ -6167,7 +7207,7 @@ const shorthandMap = {
         ]
     },
     "🧞‍♂️": {
-        "i": "588",
+        "i": "685",
         "codePoint": "U+1F9DE+200D+2642+FE0F",
         "name": "man genie",
         "entities": "",
@@ -6177,7 +7217,7 @@ const shorthandMap = {
         ]
     },
     "🧞‍♀️": {
-        "i": "589",
+        "i": "686",
         "codePoint": "U+1F9DE+200D+2640+FE0F",
         "name": "woman genie",
         "entities": "",
@@ -6187,7 +7227,7 @@ const shorthandMap = {
         ]
     },
     "🧟": {
-        "i": "590",
+        "i": "687",
         "codePoint": "U+1F9DF",
         "name": "zombie",
         "entities": "",
@@ -6197,7 +7237,7 @@ const shorthandMap = {
         ]
     },
     "🧟‍♂️": {
-        "i": "591",
+        "i": "688",
         "codePoint": "U+1F9DF+200D+2642+FE0F",
         "name": "man zombie",
         "entities": "",
@@ -6207,7 +7247,7 @@ const shorthandMap = {
         ]
     },
     "🧟‍♀️": {
-        "i": "592",
+        "i": "689",
         "codePoint": "U+1F9DF+200D+2640+FE0F",
         "name": "woman zombie",
         "entities": "",
@@ -6217,7 +7257,7 @@ const shorthandMap = {
         ]
     },
     "🧌": {
-        "i": "593",
+        "i": "690",
         "codePoint": "U+1F9CC",
         "name": "troll",
         "entities": "",
@@ -6227,7 +7267,7 @@ const shorthandMap = {
         ]
     },
     "💆": {
-        "i": "594",
+        "i": "691",
         "codePoint": "U+1F486",
         "name": "face massage",
         "entities": "",
@@ -6238,7 +7278,7 @@ const shorthandMap = {
         ]
     },
     "💆‍♂️": {
-        "i": "595",
+        "i": "692",
         "codePoint": "U+1F486+200D+2642+FE0F",
         "name": "man getting massage",
         "entities": "",
@@ -6248,7 +7288,7 @@ const shorthandMap = {
         ]
     },
     "💆‍♀️": {
-        "i": "596",
+        "i": "693",
         "codePoint": "U+1F486+200D+2640+FE0F",
         "name": "woman getting massage",
         "entities": "",
@@ -6258,7 +7298,7 @@ const shorthandMap = {
         ]
     },
     "💇": {
-        "i": "597",
+        "i": "694",
         "codePoint": "U+1F487",
         "name": "haircut",
         "entities": "",
@@ -6268,7 +7308,7 @@ const shorthandMap = {
         ]
     },
     "💇‍♂️": {
-        "i": "598",
+        "i": "695",
         "codePoint": "U+1F487+200D+2642+FE0F",
         "name": "man getting haircut",
         "entities": "",
@@ -6278,7 +7318,7 @@ const shorthandMap = {
         ]
     },
     "💇‍♀️": {
-        "i": "599",
+        "i": "696",
         "codePoint": "U+1F487+200D+2640+FE0F",
         "name": "woman getting haircut",
         "entities": "",
@@ -6288,7 +7328,7 @@ const shorthandMap = {
         ]
     },
     "🚶": {
-        "i": "600",
+        "i": "697",
         "codePoint": "U+1F6B6",
         "name": "pedestrian",
         "entities": "",
@@ -6299,7 +7339,7 @@ const shorthandMap = {
         ]
     },
     "🚶‍♂️": {
-        "i": "601",
+        "i": "698",
         "codePoint": "U+1F6B6+200D+2642+FE0F",
         "name": "man walking",
         "entities": "",
@@ -6309,7 +7349,7 @@ const shorthandMap = {
         ]
     },
     "🚶‍♀️": {
-        "i": "602",
+        "i": "699",
         "codePoint": "U+1F6B6+200D+2640+FE0F",
         "name": "woman walking",
         "entities": "",
@@ -6319,7 +7359,7 @@ const shorthandMap = {
         ]
     },
     "🚶‍➡️": {
-        "i": "603",
+        "i": "700",
         "codePoint": "U+1F6B6+200D+27A1+FE0F",
         "name": "person walking facing right",
         "entities": "",
@@ -6329,7 +7369,7 @@ const shorthandMap = {
         ]
     },
     "🚶‍♀️‍➡️": {
-        "i": "604",
+        "i": "701",
         "codePoint": "U+1F6B6+200D+2640+FE0F+200D+27A1+FE0F",
         "name": "woman walking facing right",
         "entities": "",
@@ -6339,7 +7379,7 @@ const shorthandMap = {
         ]
     },
     "🚶‍♂️‍➡️": {
-        "i": "605",
+        "i": "702",
         "codePoint": "U+1F6B6+200D+2642+FE0F+200D+27A1+FE0F",
         "name": "man walking facing right",
         "entities": "",
@@ -6349,7 +7389,7 @@ const shorthandMap = {
         ]
     },
     "🧍": {
-        "i": "606",
+        "i": "703",
         "codePoint": "U+1F9CD",
         "name": "standing person",
         "entities": "",
@@ -6360,7 +7400,7 @@ const shorthandMap = {
         ]
     },
     "🧍‍♂️": {
-        "i": "607",
+        "i": "704",
         "codePoint": "U+1F9CD+200D+2642+FE0F",
         "name": "man standing",
         "entities": "",
@@ -6370,7 +7410,7 @@ const shorthandMap = {
         ]
     },
     "🧍‍♀️": {
-        "i": "608",
+        "i": "705",
         "codePoint": "U+1F9CD+200D+2640+FE0F",
         "name": "woman standing",
         "entities": "",
@@ -6380,7 +7420,7 @@ const shorthandMap = {
         ]
     },
     "🧎": {
-        "i": "609",
+        "i": "706",
         "codePoint": "U+1F9CE",
         "name": "kneeling person",
         "entities": "",
@@ -6391,7 +7431,7 @@ const shorthandMap = {
         ]
     },
     "🧎‍♂️": {
-        "i": "610",
+        "i": "707",
         "codePoint": "U+1F9CE+200D+2642+FE0F",
         "name": "man kneeling",
         "entities": "",
@@ -6401,7 +7441,7 @@ const shorthandMap = {
         ]
     },
     "🧎‍♀️": {
-        "i": "611",
+        "i": "708",
         "codePoint": "U+1F9CE+200D+2640+FE0F",
         "name": "woman kneeling",
         "entities": "",
@@ -6411,7 +7451,7 @@ const shorthandMap = {
         ]
     },
     "🧎‍➡️": {
-        "i": "612",
+        "i": "709",
         "codePoint": "U+1F9CE+200D+27A1+FE0F",
         "name": "person kneeling facing right",
         "entities": "",
@@ -6421,7 +7461,7 @@ const shorthandMap = {
         ]
     },
     "🧎‍♀️‍➡️": {
-        "i": "613",
+        "i": "710",
         "codePoint": "U+1F9CE+200D+2640+FE0F+200D+27A1+FE0F",
         "name": "woman kneeling facing right",
         "entities": "",
@@ -6431,7 +7471,7 @@ const shorthandMap = {
         ]
     },
     "🧎‍♂️‍➡️": {
-        "i": "614",
+        "i": "711",
         "codePoint": "U+1F9CE+200D+2642+FE0F+200D+27A1+FE0F",
         "name": "man kneeling facing right",
         "entities": "",
@@ -6441,7 +7481,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🦯": {
-        "i": "615",
+        "i": "712",
         "codePoint": "U+1F9D1+200D+1F9AF",
         "name": "person with white cane",
         "entities": "",
@@ -6451,7 +7491,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🦯‍➡️": {
-        "i": "616",
+        "i": "713",
         "codePoint": "U+1F9D1+200D+1F9AF+200D+27A1+FE0F",
         "name": "person with white cane facing right",
         "entities": "",
@@ -6462,7 +7502,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🦯": {
-        "i": "617",
+        "i": "714",
         "codePoint": "U+1F468+200D+1F9AF",
         "name": "man with white cane",
         "entities": "",
@@ -6472,7 +7512,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🦯‍➡️": {
-        "i": "618",
+        "i": "715",
         "codePoint": "U+1F468+200D+1F9AF+200D+27A1+FE0F",
         "name": "man with white cane facing right",
         "entities": "",
@@ -6482,7 +7522,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🦯": {
-        "i": "619",
+        "i": "716",
         "codePoint": "U+1F469+200D+1F9AF",
         "name": "woman with white cane",
         "entities": "",
@@ -6492,7 +7532,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🦯‍➡️": {
-        "i": "620",
+        "i": "717",
         "codePoint": "U+1F469+200D+1F9AF+200D+27A1+FE0F",
         "name": "woman with white cane facing right",
         "entities": "",
@@ -6502,7 +7542,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🦼": {
-        "i": "621",
+        "i": "718",
         "codePoint": "U+1F9D1+200D+1F9BC",
         "name": "person in motorized wheelchair",
         "entities": "",
@@ -6512,7 +7552,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🦼‍➡️": {
-        "i": "622",
+        "i": "719",
         "codePoint": "U+1F9D1+200D+1F9BC+200D+27A1+FE0F",
         "name": "person in motorized wheelchair facing right",
         "entities": "",
@@ -6522,7 +7562,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🦼": {
-        "i": "623",
+        "i": "720",
         "codePoint": "U+1F468+200D+1F9BC",
         "name": "man in motorized wheelchair",
         "entities": "",
@@ -6532,7 +7572,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🦼‍➡️": {
-        "i": "624",
+        "i": "721",
         "codePoint": "U+1F468+200D+1F9BC+200D+27A1+FE0F",
         "name": "man in motorized wheelchair facing right",
         "entities": "",
@@ -6542,7 +7582,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🦼": {
-        "i": "625",
+        "i": "722",
         "codePoint": "U+1F469+200D+1F9BC",
         "name": "woman in motorized wheelchair",
         "entities": "",
@@ -6552,7 +7592,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🦼‍➡️": {
-        "i": "626",
+        "i": "723",
         "codePoint": "U+1F469+200D+1F9BC+200D+27A1+FE0F",
         "name": "woman in motorized wheelchair facing right",
         "entities": "",
@@ -6562,7 +7602,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🦽": {
-        "i": "627",
+        "i": "724",
         "codePoint": "U+1F9D1+200D+1F9BD",
         "name": "person in manual wheelchair",
         "entities": "",
@@ -6572,7 +7612,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🦽‍➡️": {
-        "i": "628",
+        "i": "725",
         "codePoint": "U+1F9D1+200D+1F9BD+200D+27A1+FE0F",
         "name": "person in manual wheelchair facing right",
         "entities": "",
@@ -6582,7 +7622,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🦽": {
-        "i": "629",
+        "i": "726",
         "codePoint": "U+1F468+200D+1F9BD",
         "name": "man in manual wheelchair",
         "entities": "",
@@ -6592,7 +7632,7 @@ const shorthandMap = {
         ]
     },
     "👨‍🦽‍➡️": {
-        "i": "630",
+        "i": "727",
         "codePoint": "U+1F468+200D+1F9BD+200D+27A1+FE0F",
         "name": "man in manual wheelchair facing right",
         "entities": "",
@@ -6602,7 +7642,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🦽": {
-        "i": "631",
+        "i": "728",
         "codePoint": "U+1F469+200D+1F9BD",
         "name": "woman in manual wheelchair",
         "entities": "",
@@ -6612,7 +7652,7 @@ const shorthandMap = {
         ]
     },
     "👩‍🦽‍➡️": {
-        "i": "632",
+        "i": "729",
         "codePoint": "U+1F469+200D+1F9BD+200D+27A1+FE0F",
         "name": "woman in manual wheelchair facing right",
         "entities": "",
@@ -6622,7 +7662,7 @@ const shorthandMap = {
         ]
     },
     "🏃": {
-        "i": "633",
+        "i": "730",
         "codePoint": "U+1F3C3",
         "name": "runner",
         "entities": "",
@@ -6632,7 +7672,7 @@ const shorthandMap = {
         ]
     },
     "🏃‍♂️": {
-        "i": "634",
+        "i": "731",
         "codePoint": "U+1F3C3+200D+2642+FE0F",
         "name": "man running",
         "entities": "",
@@ -6643,7 +7683,7 @@ const shorthandMap = {
         ]
     },
     "🏃‍♀️": {
-        "i": "635",
+        "i": "732",
         "codePoint": "U+1F3C3+200D+2640+FE0F",
         "name": "woman running",
         "entities": "",
@@ -6653,7 +7693,7 @@ const shorthandMap = {
         ]
     },
     "🏃‍➡️": {
-        "i": "636",
+        "i": "733",
         "codePoint": "U+1F3C3+200D+27A1+FE0F",
         "name": "person running facing right",
         "entities": "",
@@ -6663,7 +7703,7 @@ const shorthandMap = {
         ]
     },
     "🏃‍♀️‍➡️": {
-        "i": "637",
+        "i": "734",
         "codePoint": "U+1F3C3+200D+2640+FE0F+200D+27A1+FE0F",
         "name": "woman running facing right",
         "entities": "",
@@ -6673,7 +7713,7 @@ const shorthandMap = {
         ]
     },
     "🏃‍♂️‍➡️": {
-        "i": "638",
+        "i": "735",
         "codePoint": "U+1F3C3+200D+2642+FE0F+200D+27A1+FE0F",
         "name": "man running facing right",
         "entities": "",
@@ -6683,7 +7723,7 @@ const shorthandMap = {
         ]
     },
     "💃": {
-        "i": "639",
+        "i": "736",
         "codePoint": "U+1F483",
         "name": "dancer",
         "entities": "",
@@ -6694,7 +7734,7 @@ const shorthandMap = {
         ]
     },
     "🕺": {
-        "i": "640",
+        "i": "737",
         "codePoint": "U+1F57A",
         "name": "man dancing",
         "entities": "",
@@ -6704,7 +7744,7 @@ const shorthandMap = {
         ]
     },
     "🕴️": {
-        "i": "641",
+        "i": "738",
         "codePoint": "U+1F574+FE0F",
         "name": "person in suit levitating",
         "entities": "",
@@ -6717,7 +7757,7 @@ const shorthandMap = {
         ]
     },
     "👯": {
-        "i": "642",
+        "i": "739",
         "codePoint": "U+1F46F",
         "name": "woman with bunny ears",
         "entities": "",
@@ -6729,7 +7769,7 @@ const shorthandMap = {
         ]
     },
     "👯‍♂️": {
-        "i": "643",
+        "i": "740",
         "codePoint": "U+1F46F+200D+2642+FE0F",
         "name": "men with bunny ears",
         "entities": "",
@@ -6740,7 +7780,7 @@ const shorthandMap = {
         ]
     },
     "👯‍♀️": {
-        "i": "644",
+        "i": "741",
         "codePoint": "U+1F46F+200D+2640+FE0F",
         "name": "women with bunny ears",
         "entities": "",
@@ -6750,7 +7790,7 @@ const shorthandMap = {
         ]
     },
     "🧖": {
-        "i": "645",
+        "i": "742",
         "codePoint": "U+1F9D6",
         "name": "person in steamy room",
         "entities": "",
@@ -6760,7 +7800,7 @@ const shorthandMap = {
         ]
     },
     "🧖‍♂️": {
-        "i": "646",
+        "i": "743",
         "codePoint": "U+1F9D6+200D+2642+FE0F",
         "name": "man in steamy room",
         "entities": "",
@@ -6770,7 +7810,7 @@ const shorthandMap = {
         ]
     },
     "🧖‍♀️": {
-        "i": "647",
+        "i": "744",
         "codePoint": "U+1F9D6+200D+2640+FE0F",
         "name": "woman in steamy room",
         "entities": "",
@@ -6780,7 +7820,7 @@ const shorthandMap = {
         ]
     },
     "🧗": {
-        "i": "648",
+        "i": "745",
         "codePoint": "U+1F9D7",
         "name": "person climbing",
         "entities": "",
@@ -6790,7 +7830,7 @@ const shorthandMap = {
         ]
     },
     "🧗‍♂️": {
-        "i": "649",
+        "i": "746",
         "codePoint": "U+1F9D7+200D+2642+FE0F",
         "name": "man climbing",
         "entities": "",
@@ -6800,7 +7840,7 @@ const shorthandMap = {
         ]
     },
     "🧗‍♀️": {
-        "i": "650",
+        "i": "747",
         "codePoint": "U+1F9D7+200D+2640+FE0F",
         "name": "woman climbing",
         "entities": "",
@@ -6810,7 +7850,7 @@ const shorthandMap = {
         ]
     },
     "🤺": {
-        "i": "651",
+        "i": "748",
         "codePoint": "U+1F93A",
         "name": "fencer",
         "entities": "",
@@ -6822,7 +7862,7 @@ const shorthandMap = {
         ]
     },
     "🏇": {
-        "i": "652",
+        "i": "749",
         "codePoint": "U+1F3C7",
         "name": "horse racing",
         "entities": "",
@@ -6834,7 +7874,7 @@ const shorthandMap = {
         ]
     },
     "⛷️": {
-        "i": "653",
+        "i": "750",
         "codePoint": "U+26F7+FE0F",
         "name": "skier",
         "entities": "",
@@ -6844,7 +7884,7 @@ const shorthandMap = {
         ]
     },
     "🏂": {
-        "i": "654",
+        "i": "751",
         "codePoint": "U+1F3C2",
         "name": "snowboarder",
         "entities": "",
@@ -6854,7 +7894,7 @@ const shorthandMap = {
         ]
     },
     "🏌️": {
-        "i": "655",
+        "i": "752",
         "codePoint": "U+1F3CC+FE0F",
         "name": "person golfing",
         "entities": "",
@@ -6864,7 +7904,7 @@ const shorthandMap = {
         ]
     },
     "🏌️‍♂️": {
-        "i": "656",
+        "i": "753",
         "codePoint": "U+1F3CC+FE0F+200D+2642+FE0F",
         "name": "man golfing",
         "entities": "",
@@ -6874,7 +7914,7 @@ const shorthandMap = {
         ]
     },
     "🏌️‍♀️": {
-        "i": "657",
+        "i": "754",
         "codePoint": "U+1F3CC+FE0F+200D+2640+FE0F",
         "name": "woman golfing",
         "entities": "",
@@ -6884,7 +7924,7 @@ const shorthandMap = {
         ]
     },
     "🏄": {
-        "i": "658",
+        "i": "755",
         "codePoint": "U+1F3C4",
         "name": "surfer",
         "entities": "",
@@ -6894,7 +7934,7 @@ const shorthandMap = {
         ]
     },
     "🏄‍♂️": {
-        "i": "659",
+        "i": "756",
         "codePoint": "U+1F3C4+200D+2642+FE0F",
         "name": "man surfing",
         "entities": "",
@@ -6904,7 +7944,7 @@ const shorthandMap = {
         ]
     },
     "🏄‍♀️": {
-        "i": "660",
+        "i": "757",
         "codePoint": "U+1F3C4+200D+2640+FE0F",
         "name": "woman surfing",
         "entities": "",
@@ -6914,7 +7954,7 @@ const shorthandMap = {
         ]
     },
     "🚣": {
-        "i": "661",
+        "i": "758",
         "codePoint": "U+1F6A3",
         "name": "rowboat",
         "entities": "",
@@ -6924,7 +7964,7 @@ const shorthandMap = {
         ]
     },
     "🚣‍♂️": {
-        "i": "662",
+        "i": "759",
         "codePoint": "U+1F6A3+200D+2642+FE0F",
         "name": "man rowing boat",
         "entities": "",
@@ -6934,7 +7974,7 @@ const shorthandMap = {
         ]
     },
     "🚣‍♀️": {
-        "i": "663",
+        "i": "760",
         "codePoint": "U+1F6A3+200D+2640+FE0F",
         "name": "woman rowing boat",
         "entities": "",
@@ -6944,7 +7984,7 @@ const shorthandMap = {
         ]
     },
     "🏊": {
-        "i": "664",
+        "i": "761",
         "codePoint": "U+1F3CA",
         "name": "swimmer",
         "entities": "",
@@ -6955,7 +7995,7 @@ const shorthandMap = {
         ]
     },
     "🏊‍♂️": {
-        "i": "665",
+        "i": "762",
         "codePoint": "U+1F3CA+200D+2642+FE0F",
         "name": "man swimming",
         "entities": "",
@@ -6965,7 +8005,7 @@ const shorthandMap = {
         ]
     },
     "🏊‍♀️": {
-        "i": "666",
+        "i": "763",
         "codePoint": "U+1F3CA+200D+2640+FE0F",
         "name": "woman swimming",
         "entities": "",
@@ -6975,7 +8015,7 @@ const shorthandMap = {
         ]
     },
     "⛹️": {
-        "i": "667",
+        "i": "764",
         "codePoint": "U+26F9+FE0F",
         "name": "person bouncing ball",
         "entities": "",
@@ -6985,7 +8025,7 @@ const shorthandMap = {
         ]
     },
     "⛹️‍♂️": {
-        "i": "668",
+        "i": "765",
         "codePoint": "U+26F9+FE0F+200D+2642+FE0F",
         "name": "man bouncing ball",
         "entities": "",
@@ -6995,7 +8035,7 @@ const shorthandMap = {
         ]
     },
     "⛹️‍♀️": {
-        "i": "669",
+        "i": "766",
         "codePoint": "U+26F9+FE0F+200D+2640+FE0F",
         "name": "woman bouncing ball",
         "entities": "",
@@ -7005,7 +8045,7 @@ const shorthandMap = {
         ]
     },
     "🏋️": {
-        "i": "670",
+        "i": "767",
         "codePoint": "U+1F3CB+FE0F",
         "name": "person lifting weights",
         "entities": "",
@@ -7015,7 +8055,7 @@ const shorthandMap = {
         ]
     },
     "🏋️‍♂️": {
-        "i": "671",
+        "i": "768",
         "codePoint": "U+1F3CB+FE0F+200D+2642+FE0F",
         "name": "man lifting weights",
         "entities": "",
@@ -7025,7 +8065,7 @@ const shorthandMap = {
         ]
     },
     "🏋️‍♀️": {
-        "i": "672",
+        "i": "769",
         "codePoint": "U+1F3CB+FE0F+200D+2640+FE0F",
         "name": "woman lifting weights",
         "entities": "",
@@ -7035,7 +8075,7 @@ const shorthandMap = {
         ]
     },
     "🚴": {
-        "i": "673",
+        "i": "770",
         "codePoint": "U+1F6B4",
         "name": "bicyclist",
         "entities": "",
@@ -7046,7 +8086,7 @@ const shorthandMap = {
         ]
     },
     "🚴‍♂️": {
-        "i": "674",
+        "i": "771",
         "codePoint": "U+1F6B4+200D+2642+FE0F",
         "name": "man biking",
         "entities": "",
@@ -7056,7 +8096,7 @@ const shorthandMap = {
         ]
     },
     "🚴‍♀️": {
-        "i": "675",
+        "i": "772",
         "codePoint": "U+1F6B4+200D+2640+FE0F",
         "name": "woman biking",
         "entities": "",
@@ -7066,7 +8106,7 @@ const shorthandMap = {
         ]
     },
     "🚵": {
-        "i": "676",
+        "i": "773",
         "codePoint": "U+1F6B5",
         "name": "mountain bicyclist",
         "entities": "",
@@ -7076,7 +8116,7 @@ const shorthandMap = {
         ]
     },
     "🚵‍♂️": {
-        "i": "677",
+        "i": "774",
         "codePoint": "U+1F6B5+200D+2642+FE0F",
         "name": "man mountain biking",
         "entities": "",
@@ -7086,7 +8126,7 @@ const shorthandMap = {
         ]
     },
     "🚵‍♀️": {
-        "i": "678",
+        "i": "775",
         "codePoint": "U+1F6B5+200D+2640+FE0F",
         "name": "woman mountain biking",
         "entities": "",
@@ -7096,7 +8136,7 @@ const shorthandMap = {
         ]
     },
     "🤸": {
-        "i": "679",
+        "i": "776",
         "codePoint": "U+1F938",
         "name": "person doing cartwheel",
         "entities": "",
@@ -7107,7 +8147,7 @@ const shorthandMap = {
         ]
     },
     "🤸‍♂️": {
-        "i": "680",
+        "i": "777",
         "codePoint": "U+1F938+200D+2642+FE0F",
         "name": "man cartwheeling",
         "entities": "",
@@ -7117,7 +8157,7 @@ const shorthandMap = {
         ]
     },
     "🤸‍♀️": {
-        "i": "681",
+        "i": "778",
         "codePoint": "U+1F938+200D+2640+FE0F",
         "name": "woman cartwheeling",
         "entities": "",
@@ -7127,7 +8167,7 @@ const shorthandMap = {
         ]
     },
     "🤼": {
-        "i": "682",
+        "i": "779",
         "codePoint": "U+1F93C",
         "name": "wrestlers",
         "entities": "",
@@ -7137,7 +8177,7 @@ const shorthandMap = {
         ]
     },
     "🤼‍♂️": {
-        "i": "683",
+        "i": "780",
         "codePoint": "U+1F93C+200D+2642+FE0F",
         "name": "men wrestling",
         "entities": "",
@@ -7147,7 +8187,7 @@ const shorthandMap = {
         ]
     },
     "🤼‍♀️": {
-        "i": "684",
+        "i": "781",
         "codePoint": "U+1F93C+200D+2640+FE0F",
         "name": "women wrestling",
         "entities": "",
@@ -7157,7 +8197,7 @@ const shorthandMap = {
         ]
     },
     "🤽": {
-        "i": "685",
+        "i": "782",
         "codePoint": "U+1F93D",
         "name": "water polo",
         "entities": "",
@@ -7167,7 +8207,7 @@ const shorthandMap = {
         ]
     },
     "🤽‍♂️": {
-        "i": "686",
+        "i": "783",
         "codePoint": "U+1F93D+200D+2642+FE0F",
         "name": "man playing water polo",
         "entities": "",
@@ -7177,7 +8217,7 @@ const shorthandMap = {
         ]
     },
     "🤽‍♀️": {
-        "i": "687",
+        "i": "784",
         "codePoint": "U+1F93D+200D+2640+FE0F",
         "name": "woman playing water polo",
         "entities": "",
@@ -7187,7 +8227,7 @@ const shorthandMap = {
         ]
     },
     "🤾": {
-        "i": "688",
+        "i": "785",
         "codePoint": "U+1F93E",
         "name": "handball",
         "entities": "",
@@ -7197,7 +8237,7 @@ const shorthandMap = {
         ]
     },
     "🤾‍♂️": {
-        "i": "689",
+        "i": "786",
         "codePoint": "U+1F93E+200D+2642+FE0F",
         "name": "man playing handball",
         "entities": "",
@@ -7207,7 +8247,7 @@ const shorthandMap = {
         ]
     },
     "🤾‍♀️": {
-        "i": "690",
+        "i": "787",
         "codePoint": "U+1F93E+200D+2640+FE0F",
         "name": "woman playing handball",
         "entities": "",
@@ -7217,7 +8257,7 @@ const shorthandMap = {
         ]
     },
     "🤹": {
-        "i": "691",
+        "i": "788",
         "codePoint": "U+1F939",
         "name": "juggling",
         "entities": "",
@@ -7228,7 +8268,7 @@ const shorthandMap = {
         ]
     },
     "🤹‍♂️": {
-        "i": "692",
+        "i": "789",
         "codePoint": "U+1F939+200D+2642+FE0F",
         "name": "man juggling",
         "entities": "",
@@ -7239,7 +8279,7 @@ const shorthandMap = {
         ]
     },
     "🤹‍♀️": {
-        "i": "693",
+        "i": "790",
         "codePoint": "U+1F939+200D+2640+FE0F",
         "name": "woman juggling",
         "entities": "",
@@ -7249,7 +8289,7 @@ const shorthandMap = {
         ]
     },
     "🧘": {
-        "i": "694",
+        "i": "791",
         "codePoint": "U+1F9D8",
         "name": "person in lotus position",
         "entities": "",
@@ -7259,7 +8299,7 @@ const shorthandMap = {
         ]
     },
     "🧘‍♂️": {
-        "i": "695",
+        "i": "792",
         "codePoint": "U+1F9D8+200D+2642+FE0F",
         "name": "man in lotus position",
         "entities": "",
@@ -7271,7 +8311,7 @@ const shorthandMap = {
         ]
     },
     "🧘‍♀️": {
-        "i": "696",
+        "i": "793",
         "codePoint": "U+1F9D8+200D+2640+FE0F",
         "name": "woman in lotus position",
         "entities": "",
@@ -7282,7 +8322,7 @@ const shorthandMap = {
         ]
     },
     "🛀": {
-        "i": "697",
+        "i": "794",
         "codePoint": "U+1F6C0",
         "name": "bath",
         "entities": "",
@@ -7293,7 +8333,7 @@ const shorthandMap = {
         ]
     },
     "🛌": {
-        "i": "698",
+        "i": "795",
         "codePoint": "U+1F6CC",
         "name": "sleeping accommodation",
         "entities": "",
@@ -7303,7 +8343,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🤝‍🧑": {
-        "i": "699",
+        "i": "796",
         "codePoint": "U+1F9D1+200D+1F91D+200D+1F9D1",
         "name": "people holding hands",
         "entities": "",
@@ -7313,7 +8353,7 @@ const shorthandMap = {
         ]
     },
     "👭": {
-        "i": "700",
+        "i": "797",
         "codePoint": "U+1F46D",
         "name": "two women holding hands",
         "entities": "",
@@ -7324,7 +8364,7 @@ const shorthandMap = {
         ]
     },
     "👫": {
-        "i": "701",
+        "i": "798",
         "codePoint": "U+1F46B",
         "name": "man and woman holding hands",
         "entities": "",
@@ -7335,7 +8375,7 @@ const shorthandMap = {
         ]
     },
     "👬": {
-        "i": "702",
+        "i": "799",
         "codePoint": "U+1F46C",
         "name": "two men holding hands",
         "entities": "",
@@ -7346,7 +8386,7 @@ const shorthandMap = {
         ]
     },
     "💏": {
-        "i": "703",
+        "i": "800",
         "codePoint": "U+1F48F",
         "name": "kiss",
         "entities": "",
@@ -7356,7 +8396,7 @@ const shorthandMap = {
         ]
     },
     "👩‍❤️‍💋‍👨": {
-        "i": "704",
+        "i": "801",
         "codePoint": "U+1F469+200D+2764+FE0F+200D+1F48B+200D+1F468",
         "name": "kiss woman, man",
         "entities": "",
@@ -7366,7 +8406,7 @@ const shorthandMap = {
         ]
     },
     "👨‍❤️‍💋‍👨": {
-        "i": "705",
+        "i": "802",
         "codePoint": "U+1F468+200D+2764+FE0F+200D+1F48B+200D+1F468",
         "name": "kiss man, man",
         "entities": "",
@@ -7376,7 +8416,7 @@ const shorthandMap = {
         ]
     },
     "👩‍❤️‍💋‍👩": {
-        "i": "706",
+        "i": "803",
         "codePoint": "U+1F469+200D+2764+FE0F+200D+1F48B+200D+1F469",
         "name": "kiss woman, woman",
         "entities": "",
@@ -7386,7 +8426,7 @@ const shorthandMap = {
         ]
     },
     "💑": {
-        "i": "707",
+        "i": "804",
         "codePoint": "U+1F491",
         "name": "couple with heart",
         "entities": "",
@@ -7396,7 +8436,7 @@ const shorthandMap = {
         ]
     },
     "👩‍❤️‍👨": {
-        "i": "708",
+        "i": "805",
         "codePoint": "U+1F469+200D+2764+FE0F+200D+1F468",
         "name": "couple with heart woman, man",
         "entities": "",
@@ -7406,7 +8446,7 @@ const shorthandMap = {
         ]
     },
     "👨‍❤️‍👨": {
-        "i": "709",
+        "i": "806",
         "codePoint": "U+1F468+200D+2764+FE0F+200D+1F468",
         "name": "couple with heart man, man",
         "entities": "",
@@ -7416,7 +8456,7 @@ const shorthandMap = {
         ]
     },
     "👩‍❤️‍👩": {
-        "i": "710",
+        "i": "807",
         "codePoint": "U+1F469+200D+2764+FE0F+200D+1F469",
         "name": "couple with heart woman, woman",
         "entities": "",
@@ -7426,7 +8466,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👩‍👦": {
-        "i": "711",
+        "i": "808",
         "codePoint": "U+1F468+200D+1F469+200D+1F466",
         "name": "family man, woman, boy",
         "entities": "",
@@ -7436,7 +8476,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👩‍👧": {
-        "i": "712",
+        "i": "809",
         "codePoint": "U+1F468+200D+1F469+200D+1F467",
         "name": "family man, woman, girl",
         "entities": "",
@@ -7446,7 +8486,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👩‍👧‍👦": {
-        "i": "713",
+        "i": "810",
         "codePoint": "U+1F468+200D+1F469+200D+1F467+200D+1F466",
         "name": "family man, woman, girl, boy",
         "entities": "",
@@ -7456,7 +8496,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👩‍👦‍👦": {
-        "i": "714",
+        "i": "811",
         "codePoint": "U+1F468+200D+1F469+200D+1F466+200D+1F466",
         "name": "family man, woman, boy, boy",
         "entities": "",
@@ -7466,7 +8506,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👩‍👧‍👧": {
-        "i": "715",
+        "i": "812",
         "codePoint": "U+1F468+200D+1F469+200D+1F467+200D+1F467",
         "name": "family man, woman, girl, girl",
         "entities": "",
@@ -7476,7 +8516,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👨‍👦": {
-        "i": "716",
+        "i": "813",
         "codePoint": "U+1F468+200D+1F468+200D+1F466",
         "name": "family man, man, boy",
         "entities": "",
@@ -7486,7 +8526,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👨‍👧": {
-        "i": "717",
+        "i": "814",
         "codePoint": "U+1F468+200D+1F468+200D+1F467",
         "name": "family man, man, girl",
         "entities": "",
@@ -7496,7 +8536,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👨‍👧‍👦": {
-        "i": "718",
+        "i": "815",
         "codePoint": "U+1F468+200D+1F468+200D+1F467+200D+1F466",
         "name": "family man, man, girl, boy",
         "entities": "",
@@ -7506,7 +8546,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👨‍👦‍👦": {
-        "i": "719",
+        "i": "816",
         "codePoint": "U+1F468+200D+1F468+200D+1F466+200D+1F466",
         "name": "family man, man, boy, boy",
         "entities": "",
@@ -7516,7 +8556,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👨‍👧‍👧": {
-        "i": "720",
+        "i": "817",
         "codePoint": "U+1F468+200D+1F468+200D+1F467+200D+1F467",
         "name": "family man, man, girl, girl",
         "entities": "",
@@ -7526,7 +8566,7 @@ const shorthandMap = {
         ]
     },
     "👩‍👩‍👦": {
-        "i": "721",
+        "i": "818",
         "codePoint": "U+1F469+200D+1F469+200D+1F466",
         "name": "family woman, woman, boy",
         "entities": "",
@@ -7536,7 +8576,7 @@ const shorthandMap = {
         ]
     },
     "👩‍👩‍👧": {
-        "i": "722",
+        "i": "819",
         "codePoint": "U+1F469+200D+1F469+200D+1F467",
         "name": "family woman, woman, girl",
         "entities": "",
@@ -7546,7 +8586,7 @@ const shorthandMap = {
         ]
     },
     "👩‍👩‍👧‍👦": {
-        "i": "723",
+        "i": "820",
         "codePoint": "U+1F469+200D+1F469+200D+1F467+200D+1F466",
         "name": "family woman, woman, girl, boy",
         "entities": "",
@@ -7556,7 +8596,7 @@ const shorthandMap = {
         ]
     },
     "👩‍👩‍👦‍👦": {
-        "i": "724",
+        "i": "821",
         "codePoint": "U+1F469+200D+1F469+200D+1F466+200D+1F466",
         "name": "family woman, woman, boy, boy",
         "entities": "",
@@ -7566,7 +8606,7 @@ const shorthandMap = {
         ]
     },
     "👩‍👩‍👧‍👧": {
-        "i": "725",
+        "i": "822",
         "codePoint": "U+1F469+200D+1F469+200D+1F467+200D+1F467",
         "name": "family woman, woman, girl, girl",
         "entities": "",
@@ -7576,7 +8616,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👦": {
-        "i": "726",
+        "i": "823",
         "codePoint": "U+1F468+200D+1F466",
         "name": "family man, boy",
         "entities": "",
@@ -7586,7 +8626,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👦‍👦": {
-        "i": "727",
+        "i": "824",
         "codePoint": "U+1F468+200D+1F466+200D+1F466",
         "name": "family man, boy, boy",
         "entities": "",
@@ -7596,7 +8636,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👧": {
-        "i": "728",
+        "i": "825",
         "codePoint": "U+1F468+200D+1F467",
         "name": "family man, girl",
         "entities": "",
@@ -7606,7 +8646,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👧‍👦": {
-        "i": "729",
+        "i": "826",
         "codePoint": "U+1F468+200D+1F467+200D+1F466",
         "name": "family man, girl, boy",
         "entities": "",
@@ -7616,7 +8656,7 @@ const shorthandMap = {
         ]
     },
     "👨‍👧‍👧": {
-        "i": "730",
+        "i": "827",
         "codePoint": "U+1F468+200D+1F467+200D+1F467",
         "name": "family man, girl, girl",
         "entities": "",
@@ -7626,7 +8666,7 @@ const shorthandMap = {
         ]
     },
     "👩‍👦": {
-        "i": "731",
+        "i": "828",
         "codePoint": "U+1F469+200D+1F466",
         "name": "family woman, boy",
         "entities": "",
@@ -7636,7 +8676,7 @@ const shorthandMap = {
         ]
     },
     "👩‍👦‍👦": {
-        "i": "732",
+        "i": "829",
         "codePoint": "U+1F469+200D+1F466+200D+1F466",
         "name": "family woman, boy, boy",
         "entities": "",
@@ -7646,7 +8686,7 @@ const shorthandMap = {
         ]
     },
     "👩‍👧": {
-        "i": "733",
+        "i": "830",
         "codePoint": "U+1F469+200D+1F467",
         "name": "family woman, girl",
         "entities": "",
@@ -7656,7 +8696,7 @@ const shorthandMap = {
         ]
     },
     "👩‍👧‍👦": {
-        "i": "734",
+        "i": "831",
         "codePoint": "U+1F469+200D+1F467+200D+1F466",
         "name": "family woman, girl, boy",
         "entities": "",
@@ -7666,7 +8706,7 @@ const shorthandMap = {
         ]
     },
     "👩‍👧‍👧": {
-        "i": "735",
+        "i": "832",
         "codePoint": "U+1F469+200D+1F467+200D+1F467",
         "name": "family woman, girl, girl",
         "entities": "",
@@ -7676,7 +8716,7 @@ const shorthandMap = {
         ]
     },
     "🗣️": {
-        "i": "736",
+        "i": "833",
         "codePoint": "U+1F5E3+FE0F",
         "name": "speaking head",
         "entities": "",
@@ -7687,7 +8727,7 @@ const shorthandMap = {
         ]
     },
     "👤": {
-        "i": "737",
+        "i": "834",
         "codePoint": "U+1F464",
         "name": "bust in silhouette",
         "entities": "",
@@ -7697,7 +8737,7 @@ const shorthandMap = {
         ]
     },
     "👥": {
-        "i": "738",
+        "i": "835",
         "codePoint": "U+1F465",
         "name": "busts in silhouette",
         "entities": "",
@@ -7707,7 +8747,7 @@ const shorthandMap = {
         ]
     },
     "🫂": {
-        "i": "739",
+        "i": "836",
         "codePoint": "U+1FAC2",
         "name": "people hugging",
         "entities": "",
@@ -7717,7 +8757,7 @@ const shorthandMap = {
         ]
     },
     "👪": {
-        "i": "740",
+        "i": "837",
         "codePoint": "U+1F46A",
         "name": "family",
         "entities": "",
@@ -7728,7 +8768,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🧑‍🧒": {
-        "i": "741",
+        "i": "838",
         "codePoint": "U+1F9D1+200D+1F9D1+200D+1F9D2",
         "name": "family adult, adult, child",
         "entities": "",
@@ -7738,7 +8778,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🧑‍🧒‍🧒": {
-        "i": "742",
+        "i": "839",
         "codePoint": "U+1F9D1+200D+1F9D1+200D+1F9D2+200D+1F9D2",
         "name": "family adult, adult, child, child",
         "entities": "",
@@ -7748,7 +8788,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🧒": {
-        "i": "743",
+        "i": "840",
         "codePoint": "U+1F9D1+200D+1F9D2",
         "name": "family adult, child",
         "entities": "",
@@ -7758,7 +8798,7 @@ const shorthandMap = {
         ]
     },
     "🧑‍🧒‍🧒": {
-        "i": "744",
+        "i": "841",
         "codePoint": "U+1F9D1+200D+1F9D2+200D+1F9D2",
         "name": "family adult, child, child",
         "entities": "",
@@ -7768,7 +8808,7 @@ const shorthandMap = {
         ]
     },
     "👣": {
-        "i": "745",
+        "i": "842",
         "codePoint": "U+1F463",
         "name": "footprints",
         "entities": "",
@@ -7778,7 +8818,7 @@ const shorthandMap = {
         ]
     },
     "🐵": {
-        "i": "746",
+        "i": "843",
         "codePoint": "U+1F435",
         "name": "monkey face",
         "entities": "",
@@ -7788,7 +8828,7 @@ const shorthandMap = {
         ]
     },
     "🐒": {
-        "i": "747",
+        "i": "844",
         "codePoint": "U+1F412",
         "name": "monkey",
         "entities": "",
@@ -7798,7 +8838,7 @@ const shorthandMap = {
         ]
     },
     "🦍": {
-        "i": "748",
+        "i": "845",
         "codePoint": "U+1F98D",
         "name": "gorilla",
         "entities": "",
@@ -7808,7 +8848,7 @@ const shorthandMap = {
         ]
     },
     "🦧": {
-        "i": "749",
+        "i": "846",
         "codePoint": "U+1F9A7",
         "name": "orangutan",
         "entities": "",
@@ -7818,7 +8858,7 @@ const shorthandMap = {
         ]
     },
     "🐶": {
-        "i": "750",
+        "i": "847",
         "codePoint": "U+1F436",
         "name": "dog face",
         "entities": "",
@@ -7830,7 +8870,7 @@ const shorthandMap = {
         ]
     },
     "🐕": {
-        "i": "751",
+        "i": "848",
         "codePoint": "U+1F415",
         "name": "dog",
         "entities": "",
@@ -7841,7 +8881,7 @@ const shorthandMap = {
         ]
     },
     "🦮": {
-        "i": "752",
+        "i": "849",
         "codePoint": "U+1F9AE",
         "name": "guide dog",
         "entities": "",
@@ -7851,7 +8891,7 @@ const shorthandMap = {
         ]
     },
     "🐕‍🦺": {
-        "i": "753",
+        "i": "850",
         "codePoint": "U+1F415+200D+1F9BA",
         "name": "service dog",
         "entities": "",
@@ -7861,7 +8901,7 @@ const shorthandMap = {
         ]
     },
     "🐩": {
-        "i": "754",
+        "i": "851",
         "codePoint": "U+1F429",
         "name": "poodle",
         "entities": "",
@@ -7871,7 +8911,7 @@ const shorthandMap = {
         ]
     },
     "🐺": {
-        "i": "755",
+        "i": "852",
         "codePoint": "U+1F43A",
         "name": "wolf face",
         "entities": "",
@@ -7882,7 +8922,7 @@ const shorthandMap = {
         ]
     },
     "🦊": {
-        "i": "756",
+        "i": "853",
         "codePoint": "U+1F98A",
         "name": "fox face",
         "entities": "",
@@ -7892,7 +8932,7 @@ const shorthandMap = {
         ]
     },
     "🦝": {
-        "i": "757",
+        "i": "854",
         "codePoint": "U+1F99D",
         "name": "raccoon",
         "entities": "",
@@ -7902,7 +8942,7 @@ const shorthandMap = {
         ]
     },
     "🐱": {
-        "i": "758",
+        "i": "855",
         "codePoint": "U+1F431",
         "name": "cat face",
         "entities": "",
@@ -7913,7 +8953,7 @@ const shorthandMap = {
         ]
     },
     "🐈": {
-        "i": "759",
+        "i": "856",
         "codePoint": "U+1F408",
         "name": "cat",
         "entities": "",
@@ -7923,7 +8963,7 @@ const shorthandMap = {
         ]
     },
     "🐈‍⬛": {
-        "i": "760",
+        "i": "857",
         "codePoint": "U+1F408+200D+2B1B",
         "name": "black cat",
         "entities": "",
@@ -7933,7 +8973,7 @@ const shorthandMap = {
         ]
     },
     "🦁": {
-        "i": "761",
+        "i": "858",
         "codePoint": "U+1F981",
         "name": "lion face",
         "entities": "",
@@ -7943,7 +8983,7 @@ const shorthandMap = {
         ]
     },
     "🐯": {
-        "i": "762",
+        "i": "859",
         "codePoint": "U+1F42F",
         "name": "tiger face",
         "entities": "",
@@ -7953,7 +8993,7 @@ const shorthandMap = {
         ]
     },
     "🐅": {
-        "i": "763",
+        "i": "860",
         "codePoint": "U+1F405",
         "name": "tiger",
         "entities": "",
@@ -7963,7 +9003,7 @@ const shorthandMap = {
         ]
     },
     "🐆": {
-        "i": "764",
+        "i": "861",
         "codePoint": "U+1F406",
         "name": "leopard",
         "entities": "",
@@ -7973,7 +9013,7 @@ const shorthandMap = {
         ]
     },
     "🐴": {
-        "i": "765",
+        "i": "862",
         "codePoint": "U+1F434",
         "name": "horse face",
         "entities": "",
@@ -7983,7 +9023,7 @@ const shorthandMap = {
         ]
     },
     "🫎": {
-        "i": "766",
+        "i": "863",
         "codePoint": "U+1FACE",
         "name": "moose",
         "entities": "",
@@ -7996,7 +9036,7 @@ const shorthandMap = {
         ]
     },
     "🫏": {
-        "i": "767",
+        "i": "864",
         "codePoint": "U+1FACF",
         "name": "donkey",
         "entities": "",
@@ -8007,7 +9047,7 @@ const shorthandMap = {
         ]
     },
     "🐎": {
-        "i": "768",
+        "i": "865",
         "codePoint": "U+1F40E",
         "name": "horse",
         "entities": "",
@@ -8018,7 +9058,7 @@ const shorthandMap = {
         ]
     },
     "🦄": {
-        "i": "769",
+        "i": "866",
         "codePoint": "U+1F984",
         "name": "unicorn face",
         "entities": "",
@@ -8028,7 +9068,7 @@ const shorthandMap = {
         ]
     },
     "🦓": {
-        "i": "770",
+        "i": "867",
         "codePoint": "U+1F993",
         "name": "zebra face",
         "entities": "",
@@ -8040,7 +9080,7 @@ const shorthandMap = {
         ]
     },
     "🦌": {
-        "i": "771",
+        "i": "868",
         "codePoint": "U+1F98C",
         "name": "deer",
         "entities": "",
@@ -8050,7 +9090,7 @@ const shorthandMap = {
         ]
     },
     "🦬": {
-        "i": "772",
+        "i": "869",
         "codePoint": "U+1F9AC",
         "name": "bison",
         "entities": "",
@@ -8060,7 +9100,7 @@ const shorthandMap = {
         ]
     },
     "🐮": {
-        "i": "773",
+        "i": "870",
         "codePoint": "U+1F42E",
         "name": "cow face",
         "entities": "",
@@ -8071,7 +9111,7 @@ const shorthandMap = {
         ]
     },
     "🐂": {
-        "i": "774",
+        "i": "871",
         "codePoint": "U+1F402",
         "name": "ox",
         "entities": "",
@@ -8081,7 +9121,7 @@ const shorthandMap = {
         ]
     },
     "🐃": {
-        "i": "775",
+        "i": "872",
         "codePoint": "U+1F403",
         "name": "water buffalo",
         "entities": "",
@@ -8091,7 +9131,7 @@ const shorthandMap = {
         ]
     },
     "🐄": {
-        "i": "776",
+        "i": "873",
         "codePoint": "U+1F404",
         "name": "cow",
         "entities": "",
@@ -8101,7 +9141,7 @@ const shorthandMap = {
         ]
     },
     "🐷": {
-        "i": "777",
+        "i": "874",
         "codePoint": "U+1F437",
         "name": "pig face",
         "entities": "",
@@ -8111,7 +9151,7 @@ const shorthandMap = {
         ]
     },
     "🐖": {
-        "i": "778",
+        "i": "875",
         "codePoint": "U+1F416",
         "name": "pig",
         "entities": "",
@@ -8121,7 +9161,7 @@ const shorthandMap = {
         ]
     },
     "🐗": {
-        "i": "779",
+        "i": "876",
         "codePoint": "U+1F417",
         "name": "boar",
         "entities": "",
@@ -8131,7 +9171,7 @@ const shorthandMap = {
         ]
     },
     "🐽": {
-        "i": "780",
+        "i": "877",
         "codePoint": "U+1F43D",
         "name": "pig nose",
         "entities": "",
@@ -8141,7 +9181,7 @@ const shorthandMap = {
         ]
     },
     "🐏": {
-        "i": "781",
+        "i": "878",
         "codePoint": "U+1F40F",
         "name": "ram",
         "entities": "",
@@ -8151,7 +9191,7 @@ const shorthandMap = {
         ]
     },
     "🐑": {
-        "i": "782",
+        "i": "879",
         "codePoint": "U+1F411",
         "name": "sheep",
         "entities": "",
@@ -8163,7 +9203,7 @@ const shorthandMap = {
         ]
     },
     "🐐": {
-        "i": "783",
+        "i": "880",
         "codePoint": "U+1F410",
         "name": "goat",
         "entities": "",
@@ -8173,7 +9213,7 @@ const shorthandMap = {
         ]
     },
     "🐪": {
-        "i": "784",
+        "i": "881",
         "codePoint": "U+1F42A",
         "name": "dromedary camel",
         "entities": "",
@@ -8184,7 +9224,7 @@ const shorthandMap = {
         ]
     },
     "🐫": {
-        "i": "785",
+        "i": "882",
         "codePoint": "U+1F42B",
         "name": "bactrian camel",
         "entities": "",
@@ -8194,7 +9234,7 @@ const shorthandMap = {
         ]
     },
     "🦙": {
-        "i": "786",
+        "i": "883",
         "codePoint": "U+1F999",
         "name": "llama",
         "entities": "",
@@ -8204,7 +9244,7 @@ const shorthandMap = {
         ]
     },
     "🦒": {
-        "i": "787",
+        "i": "884",
         "codePoint": "U+1F992",
         "name": "giraffe face",
         "entities": "",
@@ -8215,7 +9255,7 @@ const shorthandMap = {
         ]
     },
     "🐘": {
-        "i": "788",
+        "i": "885",
         "codePoint": "U+1F418",
         "name": "elephant",
         "entities": "",
@@ -8225,7 +9265,7 @@ const shorthandMap = {
         ]
     },
     "🦣": {
-        "i": "789",
+        "i": "886",
         "codePoint": "U+1F9A3",
         "name": "mammoth",
         "entities": "",
@@ -8235,7 +9275,7 @@ const shorthandMap = {
         ]
     },
     "🦏": {
-        "i": "790",
+        "i": "887",
         "codePoint": "U+1F98F",
         "name": "rhinoceros",
         "entities": "",
@@ -8245,7 +9285,7 @@ const shorthandMap = {
         ]
     },
     "🦛": {
-        "i": "791",
+        "i": "888",
         "codePoint": "U+1F99B",
         "name": "hippopotamus",
         "entities": "",
@@ -8255,7 +9295,7 @@ const shorthandMap = {
         ]
     },
     "🐭": {
-        "i": "792",
+        "i": "889",
         "codePoint": "U+1F42D",
         "name": "mouse face",
         "entities": "",
@@ -8265,7 +9305,7 @@ const shorthandMap = {
         ]
     },
     "🐁": {
-        "i": "793",
+        "i": "890",
         "codePoint": "U+1F401",
         "name": "mouse",
         "entities": "",
@@ -8275,7 +9315,7 @@ const shorthandMap = {
         ]
     },
     "🐀": {
-        "i": "794",
+        "i": "891",
         "codePoint": "U+1F400",
         "name": "rat",
         "entities": "",
@@ -8285,7 +9325,7 @@ const shorthandMap = {
         ]
     },
     "🐹": {
-        "i": "795",
+        "i": "892",
         "codePoint": "U+1F439",
         "name": "hamster face",
         "entities": "",
@@ -8295,7 +9335,7 @@ const shorthandMap = {
         ]
     },
     "🐰": {
-        "i": "796",
+        "i": "893",
         "codePoint": "U+1F430",
         "name": "rabbit face",
         "entities": "",
@@ -8305,7 +9345,7 @@ const shorthandMap = {
         ]
     },
     "🐇": {
-        "i": "797",
+        "i": "894",
         "codePoint": "U+1F407",
         "name": "rabbit",
         "entities": "",
@@ -8315,7 +9355,7 @@ const shorthandMap = {
         ]
     },
     "🐿️": {
-        "i": "798",
+        "i": "895",
         "codePoint": "U+1F43F+FE0F",
         "name": "chipmunk",
         "entities": "",
@@ -8325,7 +9365,7 @@ const shorthandMap = {
         ]
     },
     "🦫": {
-        "i": "799",
+        "i": "896",
         "codePoint": "U+1F9AB",
         "name": "beaver",
         "entities": "",
@@ -8335,7 +9375,7 @@ const shorthandMap = {
         ]
     },
     "🦔": {
-        "i": "800",
+        "i": "897",
         "codePoint": "U+1F994",
         "name": "hedgehog",
         "entities": "",
@@ -8345,7 +9385,7 @@ const shorthandMap = {
         ]
     },
     "🦇": {
-        "i": "801",
+        "i": "898",
         "codePoint": "U+1F987",
         "name": "bat",
         "entities": "",
@@ -8355,7 +9395,7 @@ const shorthandMap = {
         ]
     },
     "🐻": {
-        "i": "802",
+        "i": "899",
         "codePoint": "U+1F43B",
         "name": "bear face",
         "entities": "",
@@ -8365,7 +9405,7 @@ const shorthandMap = {
         ]
     },
     "🐻‍❄️": {
-        "i": "803",
+        "i": "900",
         "codePoint": "U+1F43B+200D+2744+FE0F",
         "name": "polar bear",
         "entities": "",
@@ -8375,7 +9415,7 @@ const shorthandMap = {
         ]
     },
     "🐨": {
-        "i": "804",
+        "i": "901",
         "codePoint": "U+1F428",
         "name": "koala",
         "entities": "",
@@ -8385,7 +9425,7 @@ const shorthandMap = {
         ]
     },
     "🐼": {
-        "i": "805",
+        "i": "902",
         "codePoint": "U+1F43C",
         "name": "panda face",
         "entities": "",
@@ -8395,7 +9435,7 @@ const shorthandMap = {
         ]
     },
     "🦥": {
-        "i": "806",
+        "i": "903",
         "codePoint": "U+1F9A5",
         "name": "sloth",
         "entities": "",
@@ -8405,7 +9445,7 @@ const shorthandMap = {
         ]
     },
     "🦦": {
-        "i": "807",
+        "i": "904",
         "codePoint": "U+1F9A6",
         "name": "otter",
         "entities": "",
@@ -8415,7 +9455,7 @@ const shorthandMap = {
         ]
     },
     "🦨": {
-        "i": "808",
+        "i": "905",
         "codePoint": "U+1F9A8",
         "name": "skunk",
         "entities": "",
@@ -8425,7 +9465,7 @@ const shorthandMap = {
         ]
     },
     "🦘": {
-        "i": "809",
+        "i": "906",
         "codePoint": "U+1F998",
         "name": "kangaroo",
         "entities": "",
@@ -8438,7 +9478,7 @@ const shorthandMap = {
         ]
     },
     "🦡": {
-        "i": "810",
+        "i": "907",
         "codePoint": "U+1F9A1",
         "name": "badger",
         "entities": "",
@@ -8448,7 +9488,7 @@ const shorthandMap = {
         ]
     },
     "🐾": {
-        "i": "811",
+        "i": "908",
         "codePoint": "U+1F43E",
         "name": "paw prints",
         "entities": "",
@@ -8458,7 +9498,7 @@ const shorthandMap = {
         ]
     },
     "🦃": {
-        "i": "812",
+        "i": "909",
         "codePoint": "U+1F983",
         "name": "turkey",
         "entities": "",
@@ -8468,7 +9508,7 @@ const shorthandMap = {
         ]
     },
     "🐔": {
-        "i": "813",
+        "i": "910",
         "codePoint": "U+1F414",
         "name": "chicken",
         "entities": "",
@@ -8478,7 +9518,7 @@ const shorthandMap = {
         ]
     },
     "🐓": {
-        "i": "814",
+        "i": "911",
         "codePoint": "U+1F413",
         "name": "rooster",
         "entities": "",
@@ -8488,7 +9528,7 @@ const shorthandMap = {
         ]
     },
     "🐣": {
-        "i": "815",
+        "i": "912",
         "codePoint": "U+1F423",
         "name": "hatching chick",
         "entities": "",
@@ -8498,7 +9538,7 @@ const shorthandMap = {
         ]
     },
     "🐤": {
-        "i": "816",
+        "i": "913",
         "codePoint": "U+1F424",
         "name": "baby chick",
         "entities": "",
@@ -8508,7 +9548,7 @@ const shorthandMap = {
         ]
     },
     "🐥": {
-        "i": "817",
+        "i": "914",
         "codePoint": "U+1F425",
         "name": "front-facing baby chick",
         "entities": "",
@@ -8518,7 +9558,7 @@ const shorthandMap = {
         ]
     },
     "🐦": {
-        "i": "818",
+        "i": "915",
         "codePoint": "U+1F426",
         "name": "bird",
         "entities": "",
@@ -8528,7 +9568,7 @@ const shorthandMap = {
         ]
     },
     "🐧": {
-        "i": "819",
+        "i": "916",
         "codePoint": "U+1F427",
         "name": "penguin",
         "entities": "",
@@ -8538,7 +9578,7 @@ const shorthandMap = {
         ]
     },
     "🕊️": {
-        "i": "820",
+        "i": "917",
         "codePoint": "U+1F54A+FE0F",
         "name": "dove",
         "entities": "",
@@ -8548,7 +9588,7 @@ const shorthandMap = {
         ]
     },
     "🦅": {
-        "i": "821",
+        "i": "918",
         "codePoint": "U+1F985",
         "name": "eagle",
         "entities": "",
@@ -8558,7 +9598,7 @@ const shorthandMap = {
         ]
     },
     "🦆": {
-        "i": "822",
+        "i": "919",
         "codePoint": "U+1F986",
         "name": "duck",
         "entities": "",
@@ -8568,7 +9608,7 @@ const shorthandMap = {
         ]
     },
     "🦢": {
-        "i": "823",
+        "i": "920",
         "codePoint": "U+1F9A2",
         "name": "swan",
         "entities": "",
@@ -8578,7 +9618,7 @@ const shorthandMap = {
         ]
     },
     "🦉": {
-        "i": "824",
+        "i": "921",
         "codePoint": "U+1F989",
         "name": "owl",
         "entities": "",
@@ -8588,7 +9628,7 @@ const shorthandMap = {
         ]
     },
     "🦤": {
-        "i": "825",
+        "i": "922",
         "codePoint": "U+1F9A4",
         "name": "dodo",
         "entities": "",
@@ -8598,7 +9638,7 @@ const shorthandMap = {
         ]
     },
     "🪶": {
-        "i": "826",
+        "i": "923",
         "codePoint": "U+1FAB6",
         "name": "feather",
         "entities": "",
@@ -8608,7 +9648,7 @@ const shorthandMap = {
         ]
     },
     "🦩": {
-        "i": "827",
+        "i": "924",
         "codePoint": "U+1F9A9",
         "name": "flamingo",
         "entities": "",
@@ -8618,7 +9658,7 @@ const shorthandMap = {
         ]
     },
     "🦚": {
-        "i": "828",
+        "i": "925",
         "codePoint": "U+1F99A",
         "name": "peacock",
         "entities": "",
@@ -8628,7 +9668,7 @@ const shorthandMap = {
         ]
     },
     "🦜": {
-        "i": "829",
+        "i": "926",
         "codePoint": "U+1F99C",
         "name": "parrot",
         "entities": "",
@@ -8638,7 +9678,7 @@ const shorthandMap = {
         ]
     },
     "🪽": {
-        "i": "830",
+        "i": "927",
         "codePoint": "U+1FABD",
         "name": "wing",
         "entities": "",
@@ -8649,7 +9689,7 @@ const shorthandMap = {
         ]
     },
     "🐦‍⬛": {
-        "i": "831",
+        "i": "928",
         "codePoint": "U+1F426+200D+2B1B",
         "name": "black bird",
         "entities": "",
@@ -8659,7 +9699,7 @@ const shorthandMap = {
         ]
     },
     "🪿": {
-        "i": "832",
+        "i": "929",
         "codePoint": "U+1FABF",
         "name": "goose",
         "entities": "",
@@ -8671,7 +9711,7 @@ const shorthandMap = {
         ]
     },
     "🐦‍🔥": {
-        "i": "833",
+        "i": "930",
         "codePoint": "U+1F426+200D+1F525",
         "name": "phoenix",
         "entities": "",
@@ -8683,7 +9723,7 @@ const shorthandMap = {
         ]
     },
     "🐸": {
-        "i": "834",
+        "i": "931",
         "codePoint": "U+1F438",
         "name": "frog face",
         "entities": "",
@@ -8695,7 +9735,7 @@ const shorthandMap = {
         ]
     },
     "🐊": {
-        "i": "835",
+        "i": "932",
         "codePoint": "U+1F40A",
         "name": "crocodile",
         "entities": "",
@@ -8706,7 +9746,7 @@ const shorthandMap = {
         ]
     },
     "🐢": {
-        "i": "836",
+        "i": "933",
         "codePoint": "U+1F422",
         "name": "turtle",
         "entities": "",
@@ -8717,7 +9757,7 @@ const shorthandMap = {
         ]
     },
     "🦎": {
-        "i": "837",
+        "i": "934",
         "codePoint": "U+1F98E",
         "name": "lizard",
         "entities": "",
@@ -8727,7 +9767,7 @@ const shorthandMap = {
         ]
     },
     "🐍": {
-        "i": "838",
+        "i": "935",
         "codePoint": "U+1F40D",
         "name": "snake",
         "entities": "",
@@ -8738,7 +9778,7 @@ const shorthandMap = {
         ]
     },
     "🐲": {
-        "i": "839",
+        "i": "936",
         "codePoint": "U+1F432",
         "name": "dragon face",
         "entities": "",
@@ -8748,7 +9788,7 @@ const shorthandMap = {
         ]
     },
     "🐉": {
-        "i": "840",
+        "i": "937",
         "codePoint": "U+1F409",
         "name": "dragon",
         "entities": "",
@@ -8758,7 +9798,7 @@ const shorthandMap = {
         ]
     },
     "🦕": {
-        "i": "841",
+        "i": "938",
         "codePoint": "U+1F995",
         "name": "sauropod",
         "entities": "",
@@ -8771,7 +9811,7 @@ const shorthandMap = {
         ]
     },
     "🦖": {
-        "i": "842",
+        "i": "939",
         "codePoint": "U+1F996",
         "name": "t-rex",
         "entities": "",
@@ -8783,7 +9823,7 @@ const shorthandMap = {
         ]
     },
     "🐳": {
-        "i": "843",
+        "i": "940",
         "codePoint": "U+1F433",
         "name": "spouting whale",
         "entities": "",
@@ -8793,7 +9833,7 @@ const shorthandMap = {
         ]
     },
     "🐋": {
-        "i": "844",
+        "i": "941",
         "codePoint": "U+1F40B",
         "name": "whale",
         "entities": "",
@@ -8803,7 +9843,7 @@ const shorthandMap = {
         ]
     },
     "🐬": {
-        "i": "845",
+        "i": "942",
         "codePoint": "U+1F42C",
         "name": "dolphin",
         "entities": "",
@@ -8814,7 +9854,7 @@ const shorthandMap = {
         ]
     },
     "🦭": {
-        "i": "846",
+        "i": "943",
         "codePoint": "U+1F9AD",
         "name": "seal",
         "entities": "",
@@ -8824,7 +9864,7 @@ const shorthandMap = {
         ]
     },
     "🐟": {
-        "i": "847",
+        "i": "944",
         "codePoint": "U+1F41F",
         "name": "fish",
         "entities": "",
@@ -8834,7 +9874,7 @@ const shorthandMap = {
         ]
     },
     "🐠": {
-        "i": "848",
+        "i": "945",
         "codePoint": "U+1F420",
         "name": "tropical fish",
         "entities": "",
@@ -8845,7 +9885,7 @@ const shorthandMap = {
         ]
     },
     "🐡": {
-        "i": "849",
+        "i": "946",
         "codePoint": "U+1F421",
         "name": "blowfish",
         "entities": "",
@@ -8855,7 +9895,7 @@ const shorthandMap = {
         ]
     },
     "🦈": {
-        "i": "850",
+        "i": "947",
         "codePoint": "U+1F988",
         "name": "shark",
         "entities": "",
@@ -8865,7 +9905,7 @@ const shorthandMap = {
         ]
     },
     "🐙": {
-        "i": "851",
+        "i": "948",
         "codePoint": "U+1F419",
         "name": "octopus",
         "entities": "",
@@ -8875,7 +9915,7 @@ const shorthandMap = {
         ]
     },
     "🐚": {
-        "i": "852",
+        "i": "949",
         "codePoint": "U+1F41A",
         "name": "spiral shell",
         "entities": "",
@@ -8885,7 +9925,7 @@ const shorthandMap = {
         ]
     },
     "🪸": {
-        "i": "853",
+        "i": "950",
         "codePoint": "U+1FAB8",
         "name": "coral",
         "entities": "",
@@ -8895,7 +9935,7 @@ const shorthandMap = {
         ]
     },
     "🪼": {
-        "i": "854",
+        "i": "951",
         "codePoint": "U+1FABC",
         "name": "jellyfish",
         "entities": "",
@@ -8906,7 +9946,7 @@ const shorthandMap = {
         ]
     },
     "🐌": {
-        "i": "855",
+        "i": "952",
         "codePoint": "U+1F40C",
         "name": "snail",
         "entities": "",
@@ -8916,7 +9956,7 @@ const shorthandMap = {
         ]
     },
     "🦋": {
-        "i": "856",
+        "i": "953",
         "codePoint": "U+1F98B",
         "name": "butterfly",
         "entities": "",
@@ -8927,7 +9967,7 @@ const shorthandMap = {
         ]
     },
     "🐛": {
-        "i": "857",
+        "i": "954",
         "codePoint": "U+1F41B",
         "name": "bug",
         "entities": "",
@@ -8937,7 +9977,7 @@ const shorthandMap = {
         ]
     },
     "🐜": {
-        "i": "858",
+        "i": "955",
         "codePoint": "U+1F41C",
         "name": "ant",
         "entities": "",
@@ -8947,7 +9987,7 @@ const shorthandMap = {
         ]
     },
     "🐝": {
-        "i": "859",
+        "i": "956",
         "codePoint": "U+1F41D",
         "name": "honeybee",
         "entities": "",
@@ -8957,7 +9997,7 @@ const shorthandMap = {
         ]
     },
     "🪲": {
-        "i": "860",
+        "i": "957",
         "codePoint": "U+1FAB2",
         "name": "beetle",
         "entities": "",
@@ -8967,7 +10007,7 @@ const shorthandMap = {
         ]
     },
     "🐞": {
-        "i": "861",
+        "i": "958",
         "codePoint": "U+1F41E",
         "name": "lady beetle",
         "entities": "",
@@ -8977,7 +10017,7 @@ const shorthandMap = {
         ]
     },
     "🦗": {
-        "i": "862",
+        "i": "959",
         "codePoint": "U+1F997",
         "name": "cricket",
         "entities": "",
@@ -8987,7 +10027,7 @@ const shorthandMap = {
         ]
     },
     "🪳": {
-        "i": "863",
+        "i": "960",
         "codePoint": "U+1FAB3",
         "name": "cockroach",
         "entities": "",
@@ -8997,7 +10037,7 @@ const shorthandMap = {
         ]
     },
     "🕷️": {
-        "i": "864",
+        "i": "961",
         "codePoint": "U+1F577+FE0F",
         "name": "spider",
         "entities": "",
@@ -9007,7 +10047,7 @@ const shorthandMap = {
         ]
     },
     "🕸️": {
-        "i": "865",
+        "i": "962",
         "codePoint": "U+1F578+FE0F",
         "name": "spider web",
         "entities": "",
@@ -9017,7 +10057,7 @@ const shorthandMap = {
         ]
     },
     "🦂": {
-        "i": "866",
+        "i": "963",
         "codePoint": "U+1F982",
         "name": "scorpion",
         "entities": "",
@@ -9027,7 +10067,7 @@ const shorthandMap = {
         ]
     },
     "🦟": {
-        "i": "867",
+        "i": "964",
         "codePoint": "U+1F99F",
         "name": "mosquito",
         "entities": "",
@@ -9037,7 +10077,7 @@ const shorthandMap = {
         ]
     },
     "🪰": {
-        "i": "868",
+        "i": "965",
         "codePoint": "U+1FAB0",
         "name": "fly",
         "entities": "",
@@ -9047,7 +10087,7 @@ const shorthandMap = {
         ]
     },
     "🪱": {
-        "i": "869",
+        "i": "966",
         "codePoint": "U+1FAB1",
         "name": "worm",
         "entities": "",
@@ -9057,7 +10097,7 @@ const shorthandMap = {
         ]
     },
     "🦠": {
-        "i": "870",
+        "i": "967",
         "codePoint": "U+1F9A0",
         "name": "microbe",
         "entities": "",
@@ -9069,7 +10109,7 @@ const shorthandMap = {
         ]
     },
     "💐": {
-        "i": "871",
+        "i": "968",
         "codePoint": "U+1F490",
         "name": "bouquet",
         "entities": "",
@@ -9079,7 +10119,7 @@ const shorthandMap = {
         ]
     },
     "🌸": {
-        "i": "872",
+        "i": "969",
         "codePoint": "U+1F338",
         "name": "cherry blossom",
         "entities": "",
@@ -9089,7 +10129,7 @@ const shorthandMap = {
         ]
     },
     "💮": {
-        "i": "873",
+        "i": "970",
         "codePoint": "U+1F4AE",
         "name": "white flower",
         "entities": "",
@@ -9099,7 +10139,7 @@ const shorthandMap = {
         ]
     },
     "🪷": {
-        "i": "874",
+        "i": "971",
         "codePoint": "U+1FAB7",
         "name": "lotus",
         "entities": "",
@@ -9110,7 +10150,7 @@ const shorthandMap = {
         ]
     },
     "🏵️": {
-        "i": "875",
+        "i": "972",
         "codePoint": "U+1F3F5+FE0F",
         "name": "rosette",
         "entities": "",
@@ -9120,7 +10160,7 @@ const shorthandMap = {
         ]
     },
     "🌹": {
-        "i": "876",
+        "i": "973",
         "codePoint": "U+1F339",
         "name": "rose",
         "entities": "",
@@ -9130,7 +10170,7 @@ const shorthandMap = {
         ]
     },
     "🥀": {
-        "i": "877",
+        "i": "974",
         "codePoint": "U+1F940",
         "name": "wilted flower",
         "entities": "",
@@ -9140,7 +10180,7 @@ const shorthandMap = {
         ]
     },
     "🌺": {
-        "i": "878",
+        "i": "975",
         "codePoint": "U+1F33A",
         "name": "hibiscus",
         "entities": "",
@@ -9150,7 +10190,7 @@ const shorthandMap = {
         ]
     },
     "🌻": {
-        "i": "879",
+        "i": "976",
         "codePoint": "U+1F33B",
         "name": "sunflower",
         "entities": "",
@@ -9160,7 +10200,7 @@ const shorthandMap = {
         ]
     },
     "🌼": {
-        "i": "880",
+        "i": "977",
         "codePoint": "U+1F33C",
         "name": "blossom",
         "entities": "",
@@ -9170,7 +10210,7 @@ const shorthandMap = {
         ]
     },
     "🌷": {
-        "i": "881",
+        "i": "978",
         "codePoint": "U+1F337",
         "name": "tulip",
         "entities": "",
@@ -9180,7 +10220,7 @@ const shorthandMap = {
         ]
     },
     "🪻": {
-        "i": "882",
+        "i": "979",
         "codePoint": "U+1FABB",
         "name": "hyacinth",
         "entities": "",
@@ -9190,7 +10230,7 @@ const shorthandMap = {
         ]
     },
     "🌱": {
-        "i": "883",
+        "i": "980",
         "codePoint": "U+1F331",
         "name": "seedling",
         "entities": "",
@@ -9201,7 +10241,7 @@ const shorthandMap = {
         ]
     },
     "🪴": {
-        "i": "884",
+        "i": "981",
         "codePoint": "U+1FAB4",
         "name": "potted plant",
         "entities": "",
@@ -9211,7 +10251,7 @@ const shorthandMap = {
         ]
     },
     "🌲": {
-        "i": "885",
+        "i": "982",
         "codePoint": "U+1F332",
         "name": "evergreen tree",
         "entities": "",
@@ -9221,7 +10261,7 @@ const shorthandMap = {
         ]
     },
     "🌳": {
-        "i": "886",
+        "i": "983",
         "codePoint": "U+1F333",
         "name": "deciduous tree",
         "entities": "",
@@ -9231,7 +10271,7 @@ const shorthandMap = {
         ]
     },
     "🌴": {
-        "i": "887",
+        "i": "984",
         "codePoint": "U+1F334",
         "name": "palm tree",
         "entities": "",
@@ -9242,7 +10282,7 @@ const shorthandMap = {
         ]
     },
     "🌵": {
-        "i": "888",
+        "i": "985",
         "codePoint": "U+1F335",
         "name": "cactus",
         "entities": "",
@@ -9252,7 +10292,7 @@ const shorthandMap = {
         ]
     },
     "🌾": {
-        "i": "889",
+        "i": "986",
         "codePoint": "U+1F33E",
         "name": "ear of rice",
         "entities": "",
@@ -9262,7 +10302,7 @@ const shorthandMap = {
         ]
     },
     "🌿": {
-        "i": "890",
+        "i": "987",
         "codePoint": "U+1F33F",
         "name": "herb",
         "entities": "",
@@ -9273,7 +10313,7 @@ const shorthandMap = {
         ]
     },
     "☘️": {
-        "i": "891",
+        "i": "988",
         "codePoint": "U+2618+FE0F",
         "name": "shamrock",
         "entities": "",
@@ -9284,7 +10324,7 @@ const shorthandMap = {
         ]
     },
     "🍀": {
-        "i": "892",
+        "i": "989",
         "codePoint": "U+1F340",
         "name": "four leaf clover",
         "entities": "",
@@ -9294,7 +10334,7 @@ const shorthandMap = {
         ]
     },
     "🍁": {
-        "i": "893",
+        "i": "990",
         "codePoint": "U+1F341",
         "name": "maple leaf",
         "entities": "",
@@ -9304,7 +10344,7 @@ const shorthandMap = {
         ]
     },
     "🍂": {
-        "i": "894",
+        "i": "991",
         "codePoint": "U+1F342",
         "name": "fallen leaf",
         "entities": "",
@@ -9314,7 +10354,7 @@ const shorthandMap = {
         ]
     },
     "🍃": {
-        "i": "895",
+        "i": "992",
         "codePoint": "U+1F343",
         "name": "leaf fluttering in wind",
         "entities": "",
@@ -9324,7 +10364,7 @@ const shorthandMap = {
         ]
     },
     "🪹": {
-        "i": "896",
+        "i": "993",
         "codePoint": "U+1FAB9",
         "name": "empty nest",
         "entities": "",
@@ -9334,7 +10374,7 @@ const shorthandMap = {
         ]
     },
     "🪺": {
-        "i": "897",
+        "i": "994",
         "codePoint": "U+1FABA",
         "name": "nest with eggs",
         "entities": "",
@@ -9344,7 +10384,7 @@ const shorthandMap = {
         ]
     },
     "🍄": {
-        "i": "898",
+        "i": "995",
         "codePoint": "U+1F344",
         "name": "mushroom",
         "entities": "",
@@ -9354,7 +10394,7 @@ const shorthandMap = {
         ]
     },
     "🍇": {
-        "i": "899",
+        "i": "996",
         "codePoint": "U+1F347",
         "name": "grapes",
         "entities": "",
@@ -9364,7 +10404,7 @@ const shorthandMap = {
         ]
     },
     "🍈": {
-        "i": "900",
+        "i": "997",
         "codePoint": "U+1F348",
         "name": "melon",
         "entities": "",
@@ -9374,7 +10414,7 @@ const shorthandMap = {
         ]
     },
     "🍉": {
-        "i": "901",
+        "i": "998",
         "codePoint": "U+1F349",
         "name": "watermelon",
         "entities": "",
@@ -9384,7 +10424,7 @@ const shorthandMap = {
         ]
     },
     "🍊": {
-        "i": "902",
+        "i": "999",
         "codePoint": "U+1F34A",
         "name": "tangerine",
         "entities": "",
@@ -9394,7 +10434,7 @@ const shorthandMap = {
         ]
     },
     "🍋": {
-        "i": "903",
+        "i": "1000",
         "codePoint": "U+1F34B",
         "name": "lemon",
         "entities": "",
@@ -9404,7 +10444,7 @@ const shorthandMap = {
         ]
     },
     "🍋‍🟩": {
-        "i": "904",
+        "i": "1001",
         "codePoint": "U+1F34B+200D+1F7E9",
         "name": "lime",
         "entities": "",
@@ -9415,7 +10455,7 @@ const shorthandMap = {
         ]
     },
     "🍌": {
-        "i": "905",
+        "i": "1002",
         "codePoint": "U+1F34C",
         "name": "banana",
         "entities": "",
@@ -9425,7 +10465,7 @@ const shorthandMap = {
         ]
     },
     "🍍": {
-        "i": "906",
+        "i": "1003",
         "codePoint": "U+1F34D",
         "name": "pineapple",
         "entities": "",
@@ -9435,7 +10475,7 @@ const shorthandMap = {
         ]
     },
     "🥭": {
-        "i": "907",
+        "i": "1004",
         "codePoint": "U+1F96D",
         "name": "mango",
         "entities": "",
@@ -9445,7 +10485,7 @@ const shorthandMap = {
         ]
     },
     "🍎": {
-        "i": "908",
+        "i": "1005",
         "codePoint": "U+1F34E",
         "name": "red apple",
         "entities": "",
@@ -9455,7 +10495,7 @@ const shorthandMap = {
         ]
     },
     "🍏": {
-        "i": "909",
+        "i": "1006",
         "codePoint": "U+1F34F",
         "name": "green apple",
         "entities": "",
@@ -9465,7 +10505,7 @@ const shorthandMap = {
         ]
     },
     "🍐": {
-        "i": "910",
+        "i": "1007",
         "codePoint": "U+1F350",
         "name": "pear",
         "entities": "",
@@ -9475,7 +10515,7 @@ const shorthandMap = {
         ]
     },
     "🍑": {
-        "i": "911",
+        "i": "1008",
         "codePoint": "U+1F351",
         "name": "peach",
         "entities": "",
@@ -9485,7 +10525,7 @@ const shorthandMap = {
         ]
     },
     "🍒": {
-        "i": "912",
+        "i": "1009",
         "codePoint": "U+1F352",
         "name": "cherries",
         "entities": "",
@@ -9495,7 +10535,7 @@ const shorthandMap = {
         ]
     },
     "🍓": {
-        "i": "913",
+        "i": "1010",
         "codePoint": "U+1F353",
         "name": "strawberry",
         "entities": "",
@@ -9505,7 +10545,7 @@ const shorthandMap = {
         ]
     },
     "🫐": {
-        "i": "914",
+        "i": "1011",
         "codePoint": "U+1FAD0",
         "name": "blueberries",
         "entities": "",
@@ -9515,7 +10555,7 @@ const shorthandMap = {
         ]
     },
     "🥝": {
-        "i": "915",
+        "i": "1012",
         "codePoint": "U+1F95D",
         "name": "kiwifruit",
         "entities": "",
@@ -9525,7 +10565,7 @@ const shorthandMap = {
         ]
     },
     "🍅": {
-        "i": "916",
+        "i": "1013",
         "codePoint": "U+1F345",
         "name": "tomato",
         "entities": "",
@@ -9535,7 +10575,7 @@ const shorthandMap = {
         ]
     },
     "🫒": {
-        "i": "917",
+        "i": "1014",
         "codePoint": "U+1FAD2",
         "name": "olive",
         "entities": "",
@@ -9545,7 +10585,7 @@ const shorthandMap = {
         ]
     },
     "🥥": {
-        "i": "918",
+        "i": "1015",
         "codePoint": "U+1F965",
         "name": "coconut",
         "entities": "",
@@ -9555,7 +10595,7 @@ const shorthandMap = {
         ]
     },
     "🥑": {
-        "i": "919",
+        "i": "1016",
         "codePoint": "U+1F951",
         "name": "avocado",
         "entities": "",
@@ -9565,7 +10605,7 @@ const shorthandMap = {
         ]
     },
     "🍆": {
-        "i": "920",
+        "i": "1017",
         "codePoint": "U+1F346",
         "name": "aubergine",
         "entities": "",
@@ -9575,7 +10615,7 @@ const shorthandMap = {
         ]
     },
     "🥔": {
-        "i": "921",
+        "i": "1018",
         "codePoint": "U+1F954",
         "name": "potato",
         "entities": "",
@@ -9587,7 +10627,7 @@ const shorthandMap = {
         ]
     },
     "🥕": {
-        "i": "922",
+        "i": "1019",
         "codePoint": "U+1F955",
         "name": "carrot",
         "entities": "",
@@ -9597,7 +10637,7 @@ const shorthandMap = {
         ]
     },
     "🌽": {
-        "i": "923",
+        "i": "1020",
         "codePoint": "U+1F33D",
         "name": "ear of maize",
         "entities": "",
@@ -9607,7 +10647,7 @@ const shorthandMap = {
         ]
     },
     "🌶️": {
-        "i": "924",
+        "i": "1021",
         "codePoint": "U+1F336+FE0F",
         "name": "hot pepper",
         "entities": "",
@@ -9619,7 +10659,7 @@ const shorthandMap = {
         ]
     },
     "🫑": {
-        "i": "925",
+        "i": "1022",
         "codePoint": "U+1FAD1",
         "name": "bell pepper",
         "entities": "",
@@ -9629,7 +10669,7 @@ const shorthandMap = {
         ]
     },
     "🥒": {
-        "i": "926",
+        "i": "1023",
         "codePoint": "U+1F952",
         "name": "cucumber",
         "entities": "",
@@ -9639,7 +10679,7 @@ const shorthandMap = {
         ]
     },
     "🥬": {
-        "i": "927",
+        "i": "1024",
         "codePoint": "U+1F96C",
         "name": "leafy green",
         "entities": "",
@@ -9651,7 +10691,7 @@ const shorthandMap = {
         ]
     },
     "🥦": {
-        "i": "928",
+        "i": "1025",
         "codePoint": "U+1F966",
         "name": "broccoli",
         "entities": "",
@@ -9661,7 +10701,7 @@ const shorthandMap = {
         ]
     },
     "🧄": {
-        "i": "929",
+        "i": "1026",
         "codePoint": "U+1F9C4",
         "name": "garlic",
         "entities": "",
@@ -9671,7 +10711,7 @@ const shorthandMap = {
         ]
     },
     "🧅": {
-        "i": "930",
+        "i": "1027",
         "codePoint": "U+1F9C5",
         "name": "onion",
         "entities": "",
@@ -9681,7 +10721,7 @@ const shorthandMap = {
         ]
     },
     "🥜": {
-        "i": "931",
+        "i": "1028",
         "codePoint": "U+1F95C",
         "name": "peanuts",
         "entities": "",
@@ -9691,7 +10731,7 @@ const shorthandMap = {
         ]
     },
     "🫘": {
-        "i": "932",
+        "i": "1029",
         "codePoint": "U+1FAD8",
         "name": "beans",
         "entities": "",
@@ -9701,7 +10741,7 @@ const shorthandMap = {
         ]
     },
     "🌰": {
-        "i": "933",
+        "i": "1030",
         "codePoint": "U+1F330",
         "name": "chestnut",
         "entities": "",
@@ -9711,7 +10751,7 @@ const shorthandMap = {
         ]
     },
     "🫚": {
-        "i": "934",
+        "i": "1031",
         "codePoint": "U+1FADA",
         "name": "ginger root",
         "entities": "",
@@ -9721,7 +10761,7 @@ const shorthandMap = {
         ]
     },
     "🫛": {
-        "i": "935",
+        "i": "1032",
         "codePoint": "U+1FADB",
         "name": "pea pod",
         "entities": "",
@@ -9731,7 +10771,7 @@ const shorthandMap = {
         ]
     },
     "🍄‍🟫": {
-        "i": "936",
+        "i": "1033",
         "codePoint": "U+1F344+200D+1F7EB",
         "name": "brown mushroom",
         "entities": "",
@@ -9742,7 +10782,7 @@ const shorthandMap = {
         ]
     },
     "🍞": {
-        "i": "937",
+        "i": "1034",
         "codePoint": "U+1F35E",
         "name": "bread",
         "entities": "",
@@ -9753,7 +10793,7 @@ const shorthandMap = {
         ]
     },
     "🥐": {
-        "i": "938",
+        "i": "1035",
         "codePoint": "U+1F950",
         "name": "croissant",
         "entities": "",
@@ -9763,7 +10803,7 @@ const shorthandMap = {
         ]
     },
     "🥖": {
-        "i": "939",
+        "i": "1036",
         "codePoint": "U+1F956",
         "name": "baguette bread",
         "entities": "",
@@ -9773,7 +10813,7 @@ const shorthandMap = {
         ]
     },
     "🫓": {
-        "i": "940",
+        "i": "1037",
         "codePoint": "U+1FAD3",
         "name": "flatbread",
         "entities": "",
@@ -9783,7 +10823,7 @@ const shorthandMap = {
         ]
     },
     "🥨": {
-        "i": "941",
+        "i": "1038",
         "codePoint": "U+1F968",
         "name": "pretzel",
         "entities": "",
@@ -9794,7 +10834,7 @@ const shorthandMap = {
         ]
     },
     "🥯": {
-        "i": "942",
+        "i": "1039",
         "codePoint": "U+1F96F",
         "name": "bagel",
         "entities": "",
@@ -9805,7 +10845,7 @@ const shorthandMap = {
         ]
     },
     "🥞": {
-        "i": "943",
+        "i": "1040",
         "codePoint": "U+1F95E",
         "name": "pancakes",
         "entities": "",
@@ -9817,7 +10857,7 @@ const shorthandMap = {
         ]
     },
     "🧇": {
-        "i": "944",
+        "i": "1041",
         "codePoint": "U+1F9C7",
         "name": "waffle",
         "entities": "",
@@ -9827,7 +10867,7 @@ const shorthandMap = {
         ]
     },
     "🧀": {
-        "i": "945",
+        "i": "1042",
         "codePoint": "U+1F9C0",
         "name": "cheese wedge",
         "entities": "",
@@ -9838,7 +10878,7 @@ const shorthandMap = {
         ]
     },
     "🍖": {
-        "i": "946",
+        "i": "1043",
         "codePoint": "U+1F356",
         "name": "meat on bone",
         "entities": "",
@@ -9848,7 +10888,7 @@ const shorthandMap = {
         ]
     },
     "🍗": {
-        "i": "947",
+        "i": "1044",
         "codePoint": "U+1F357",
         "name": "poultry leg",
         "entities": "",
@@ -9858,7 +10898,7 @@ const shorthandMap = {
         ]
     },
     "🥩": {
-        "i": "948",
+        "i": "1045",
         "codePoint": "U+1F969",
         "name": "cut of meat",
         "entities": "",
@@ -9871,7 +10911,7 @@ const shorthandMap = {
         ]
     },
     "🥓": {
-        "i": "949",
+        "i": "1046",
         "codePoint": "U+1F953",
         "name": "bacon",
         "entities": "",
@@ -9881,7 +10921,7 @@ const shorthandMap = {
         ]
     },
     "🍔": {
-        "i": "950",
+        "i": "1047",
         "codePoint": "U+1F354",
         "name": "hamburger",
         "entities": "",
@@ -9894,7 +10934,7 @@ const shorthandMap = {
         ]
     },
     "🍟": {
-        "i": "951",
+        "i": "1048",
         "codePoint": "U+1F35F",
         "name": "french fries",
         "entities": "",
@@ -9904,7 +10944,7 @@ const shorthandMap = {
         ]
     },
     "🍕": {
-        "i": "952",
+        "i": "1049",
         "codePoint": "U+1F355",
         "name": "slice of pizza",
         "entities": "",
@@ -9915,7 +10955,7 @@ const shorthandMap = {
         ]
     },
     "🌭": {
-        "i": "953",
+        "i": "1050",
         "codePoint": "U+1F32D",
         "name": "hot dog",
         "entities": "",
@@ -9926,7 +10966,7 @@ const shorthandMap = {
         ]
     },
     "🥪": {
-        "i": "954",
+        "i": "1051",
         "codePoint": "U+1F96A",
         "name": "sandwich",
         "entities": "",
@@ -9936,7 +10976,7 @@ const shorthandMap = {
         ]
     },
     "🌮": {
-        "i": "955",
+        "i": "1052",
         "codePoint": "U+1F32E",
         "name": "taco",
         "entities": "",
@@ -9946,7 +10986,7 @@ const shorthandMap = {
         ]
     },
     "🌯": {
-        "i": "956",
+        "i": "1053",
         "codePoint": "U+1F32F",
         "name": "burrito",
         "entities": "",
@@ -9956,7 +10996,7 @@ const shorthandMap = {
         ]
     },
     "🫔": {
-        "i": "957",
+        "i": "1054",
         "codePoint": "U+1FAD4",
         "name": "tamale",
         "entities": "",
@@ -9966,7 +11006,7 @@ const shorthandMap = {
         ]
     },
     "🥙": {
-        "i": "958",
+        "i": "1055",
         "codePoint": "U+1F959",
         "name": "stuffed flatbread",
         "entities": "",
@@ -9977,7 +11017,7 @@ const shorthandMap = {
         ]
     },
     "🧆": {
-        "i": "959",
+        "i": "1056",
         "codePoint": "U+1F9C6",
         "name": "falafel",
         "entities": "",
@@ -9987,7 +11027,7 @@ const shorthandMap = {
         ]
     },
     "🥚": {
-        "i": "960",
+        "i": "1057",
         "codePoint": "U+1F95A",
         "name": "egg",
         "entities": "",
@@ -9997,7 +11037,7 @@ const shorthandMap = {
         ]
     },
     "🍳": {
-        "i": "961",
+        "i": "1058",
         "codePoint": "U+1F373",
         "name": "cooking",
         "entities": "",
@@ -10007,7 +11047,7 @@ const shorthandMap = {
         ]
     },
     "🥘": {
-        "i": "962",
+        "i": "1059",
         "codePoint": "U+1F958",
         "name": "shallow pan of food",
         "entities": "",
@@ -10018,7 +11058,7 @@ const shorthandMap = {
         ]
     },
     "🍲": {
-        "i": "963",
+        "i": "1060",
         "codePoint": "U+1F372",
         "name": "pot of food",
         "entities": "",
@@ -10029,7 +11069,7 @@ const shorthandMap = {
         ]
     },
     "🫕": {
-        "i": "964",
+        "i": "1061",
         "codePoint": "U+1FAD5",
         "name": "fondue",
         "entities": "",
@@ -10040,7 +11080,7 @@ const shorthandMap = {
         ]
     },
     "🥣": {
-        "i": "965",
+        "i": "1062",
         "codePoint": "U+1F963",
         "name": "bowl with spoon",
         "entities": "",
@@ -10052,7 +11092,7 @@ const shorthandMap = {
         ]
     },
     "🥗": {
-        "i": "966",
+        "i": "1063",
         "codePoint": "U+1F957",
         "name": "green salad",
         "entities": "",
@@ -10063,7 +11103,7 @@ const shorthandMap = {
         ]
     },
     "🍿": {
-        "i": "967",
+        "i": "1064",
         "codePoint": "U+1F37F",
         "name": "popcorn",
         "entities": "",
@@ -10075,7 +11115,7 @@ const shorthandMap = {
         ]
     },
     "🧈": {
-        "i": "968",
+        "i": "1065",
         "codePoint": "U+1F9C8",
         "name": "butter",
         "entities": "",
@@ -10085,7 +11125,7 @@ const shorthandMap = {
         ]
     },
     "🧂": {
-        "i": "969",
+        "i": "1066",
         "codePoint": "U+1F9C2",
         "name": "salt shaker",
         "entities": "",
@@ -10097,7 +11137,7 @@ const shorthandMap = {
         ]
     },
     "🥫": {
-        "i": "970",
+        "i": "1067",
         "codePoint": "U+1F96B",
         "name": "canned food",
         "entities": "",
@@ -10107,7 +11147,7 @@ const shorthandMap = {
         ]
     },
     "🍱": {
-        "i": "971",
+        "i": "1068",
         "codePoint": "U+1F371",
         "name": "bento box",
         "entities": "",
@@ -10117,7 +11157,7 @@ const shorthandMap = {
         ]
     },
     "🍘": {
-        "i": "972",
+        "i": "1069",
         "codePoint": "U+1F358",
         "name": "rice cracker",
         "entities": "",
@@ -10128,7 +11168,7 @@ const shorthandMap = {
         ]
     },
     "🍙": {
-        "i": "973",
+        "i": "1070",
         "codePoint": "U+1F359",
         "name": "rice ball",
         "entities": "",
@@ -10139,7 +11179,7 @@ const shorthandMap = {
         ]
     },
     "🍚": {
-        "i": "974",
+        "i": "1071",
         "codePoint": "U+1F35A",
         "name": "cooked rice",
         "entities": "",
@@ -10149,7 +11189,7 @@ const shorthandMap = {
         ]
     },
     "🍛": {
-        "i": "975",
+        "i": "1072",
         "codePoint": "U+1F35B",
         "name": "curry and rice",
         "entities": "",
@@ -10159,7 +11199,7 @@ const shorthandMap = {
         ]
     },
     "🍜": {
-        "i": "976",
+        "i": "1073",
         "codePoint": "U+1F35C",
         "name": "steaming bowl",
         "entities": "",
@@ -10170,7 +11210,7 @@ const shorthandMap = {
         ]
     },
     "🍝": {
-        "i": "977",
+        "i": "1074",
         "codePoint": "U+1F35D",
         "name": "spaghetti",
         "entities": "",
@@ -10181,7 +11221,7 @@ const shorthandMap = {
         ]
     },
     "🍠": {
-        "i": "978",
+        "i": "1075",
         "codePoint": "U+1F360",
         "name": "roasted sweet potato",
         "entities": "",
@@ -10191,7 +11231,7 @@ const shorthandMap = {
         ]
     },
     "🍢": {
-        "i": "979",
+        "i": "1076",
         "codePoint": "U+1F362",
         "name": "oden",
         "entities": "",
@@ -10201,7 +11241,7 @@ const shorthandMap = {
         ]
     },
     "🍣": {
-        "i": "980",
+        "i": "1077",
         "codePoint": "U+1F363",
         "name": "sushi",
         "entities": "",
@@ -10211,7 +11251,7 @@ const shorthandMap = {
         ]
     },
     "🍤": {
-        "i": "981",
+        "i": "1078",
         "codePoint": "U+1F364",
         "name": "fried shrimp",
         "entities": "",
@@ -10221,7 +11261,7 @@ const shorthandMap = {
         ]
     },
     "🍥": {
-        "i": "982",
+        "i": "1079",
         "codePoint": "U+1F365",
         "name": "fish cake with swirl design",
         "entities": "",
@@ -10235,7 +11275,7 @@ const shorthandMap = {
         ]
     },
     "🥮": {
-        "i": "983",
+        "i": "1080",
         "codePoint": "U+1F96E",
         "name": "Moon cake",
         "entities": "",
@@ -10246,7 +11286,7 @@ const shorthandMap = {
         ]
     },
     "🍡": {
-        "i": "984",
+        "i": "1081",
         "codePoint": "U+1F361",
         "name": "dango",
         "entities": "",
@@ -10257,7 +11297,7 @@ const shorthandMap = {
         ]
     },
     "🥟": {
-        "i": "985",
+        "i": "1082",
         "codePoint": "U+1F95F",
         "name": "dumpling",
         "entities": "",
@@ -10270,7 +11310,7 @@ const shorthandMap = {
         ]
     },
     "🥠": {
-        "i": "986",
+        "i": "1083",
         "codePoint": "U+1F960",
         "name": "fortune cookie",
         "entities": "",
@@ -10280,7 +11320,7 @@ const shorthandMap = {
         ]
     },
     "🥡": {
-        "i": "987",
+        "i": "1084",
         "codePoint": "U+1F961",
         "name": "takeout box",
         "entities": "",
@@ -10290,7 +11330,7 @@ const shorthandMap = {
         ]
     },
     "🦀": {
-        "i": "988",
+        "i": "1085",
         "codePoint": "U+1F980",
         "name": "crab",
         "entities": "",
@@ -10300,7 +11340,7 @@ const shorthandMap = {
         ]
     },
     "🦞": {
-        "i": "989",
+        "i": "1086",
         "codePoint": "U+1F99E",
         "name": "lobster",
         "entities": "",
@@ -10311,7 +11351,7 @@ const shorthandMap = {
         ]
     },
     "🦐": {
-        "i": "990",
+        "i": "1087",
         "codePoint": "U+1F990",
         "name": "shrimp",
         "entities": "",
@@ -10321,7 +11361,7 @@ const shorthandMap = {
         ]
     },
     "🦑": {
-        "i": "991",
+        "i": "1088",
         "codePoint": "U+1F991",
         "name": "squid",
         "entities": "",
@@ -10331,7 +11371,7 @@ const shorthandMap = {
         ]
     },
     "🦪": {
-        "i": "992",
+        "i": "1089",
         "codePoint": "U+1F9AA",
         "name": "oyster",
         "entities": "",
@@ -10341,7 +11381,7 @@ const shorthandMap = {
         ]
     },
     "🍦": {
-        "i": "993",
+        "i": "1090",
         "codePoint": "U+1F366",
         "name": "soft ice cream",
         "entities": "",
@@ -10351,7 +11391,7 @@ const shorthandMap = {
         ]
     },
     "🍧": {
-        "i": "994",
+        "i": "1091",
         "codePoint": "U+1F367",
         "name": "shaved ice",
         "entities": "",
@@ -10361,7 +11401,7 @@ const shorthandMap = {
         ]
     },
     "🍨": {
-        "i": "995",
+        "i": "1092",
         "codePoint": "U+1F368",
         "name": "ice cream",
         "entities": "",
@@ -10371,7 +11411,7 @@ const shorthandMap = {
         ]
     },
     "🍩": {
-        "i": "996",
+        "i": "1093",
         "codePoint": "U+1F369",
         "name": "doughnut",
         "entities": "",
@@ -10382,7 +11422,7 @@ const shorthandMap = {
         ]
     },
     "🍪": {
-        "i": "997",
+        "i": "1094",
         "codePoint": "U+1F36A",
         "name": "cookie",
         "entities": "",
@@ -10393,7 +11433,7 @@ const shorthandMap = {
         ]
     },
     "🎂": {
-        "i": "998",
+        "i": "1095",
         "codePoint": "U+1F382",
         "name": "birthday cake",
         "entities": "",
@@ -10403,7 +11443,7 @@ const shorthandMap = {
         ]
     },
     "🍰": {
-        "i": "999",
+        "i": "1096",
         "codePoint": "U+1F370",
         "name": "shortcake",
         "entities": "",
@@ -10413,7 +11453,7 @@ const shorthandMap = {
         ]
     },
     "🧁": {
-        "i": "1000",
+        "i": "1097",
         "codePoint": "U+1F9C1",
         "name": "cupcake",
         "entities": "",
@@ -10423,7 +11463,7 @@ const shorthandMap = {
         ]
     },
     "🥧": {
-        "i": "1001",
+        "i": "1098",
         "codePoint": "U+1F967",
         "name": "pie",
         "entities": "",
@@ -10433,7 +11473,7 @@ const shorthandMap = {
         ]
     },
     "🍫": {
-        "i": "1002",
+        "i": "1099",
         "codePoint": "U+1F36B",
         "name": "chocolate bar",
         "entities": "",
@@ -10443,7 +11483,7 @@ const shorthandMap = {
         ]
     },
     "🍬": {
-        "i": "1003",
+        "i": "1100",
         "codePoint": "U+1F36C",
         "name": "candy",
         "entities": "",
@@ -10453,7 +11493,7 @@ const shorthandMap = {
         ]
     },
     "🍭": {
-        "i": "1004",
+        "i": "1101",
         "codePoint": "U+1F36D",
         "name": "lollipop",
         "entities": "",
@@ -10463,7 +11503,7 @@ const shorthandMap = {
         ]
     },
     "🍮": {
-        "i": "1005",
+        "i": "1102",
         "codePoint": "U+1F36E",
         "name": "custard",
         "entities": "",
@@ -10474,7 +11514,7 @@ const shorthandMap = {
         ]
     },
     "🍯": {
-        "i": "1006",
+        "i": "1103",
         "codePoint": "U+1F36F",
         "name": "honey pot",
         "entities": "",
@@ -10484,7 +11524,7 @@ const shorthandMap = {
         ]
     },
     "🍼": {
-        "i": "1007",
+        "i": "1104",
         "codePoint": "U+1F37C",
         "name": "baby bottle",
         "entities": "",
@@ -10494,7 +11534,7 @@ const shorthandMap = {
         ]
     },
     "🥛": {
-        "i": "1008",
+        "i": "1105",
         "codePoint": "U+1F95B",
         "name": "glass of milk",
         "entities": "",
@@ -10504,7 +11544,7 @@ const shorthandMap = {
         ]
     },
     "☕": {
-        "i": "1009",
+        "i": "1106",
         "codePoint": "U+2615",
         "name": "hot beverage",
         "entities": "",
@@ -10518,7 +11558,7 @@ const shorthandMap = {
         ]
     },
     "🫖": {
-        "i": "1010",
+        "i": "1107",
         "codePoint": "U+1FAD6",
         "name": "teapot",
         "entities": "",
@@ -10528,7 +11568,7 @@ const shorthandMap = {
         ]
     },
     "🍵": {
-        "i": "1011",
+        "i": "1108",
         "codePoint": "U+1F375",
         "name": "teacup without handle",
         "entities": "",
@@ -10538,7 +11578,7 @@ const shorthandMap = {
         ]
     },
     "🍶": {
-        "i": "1012",
+        "i": "1109",
         "codePoint": "U+1F376",
         "name": "sake bottle and cup",
         "entities": "",
@@ -10550,7 +11590,7 @@ const shorthandMap = {
         ]
     },
     "🍾": {
-        "i": "1013",
+        "i": "1110",
         "codePoint": "U+1F37E",
         "name": "bottle with popping cork",
         "entities": "",
@@ -10560,7 +11600,7 @@ const shorthandMap = {
         ]
     },
     "🍷": {
-        "i": "1014",
+        "i": "1111",
         "codePoint": "U+1F377",
         "name": "wine glass",
         "entities": "",
@@ -10570,7 +11610,7 @@ const shorthandMap = {
         ]
     },
     "🍸": {
-        "i": "1015",
+        "i": "1112",
         "codePoint": "U+1F378",
         "name": "cocktail glass",
         "entities": "",
@@ -10580,7 +11620,7 @@ const shorthandMap = {
         ]
     },
     "🍹": {
-        "i": "1016",
+        "i": "1113",
         "codePoint": "U+1F379",
         "name": "tropical drink",
         "entities": "",
@@ -10590,7 +11630,7 @@ const shorthandMap = {
         ]
     },
     "🍺": {
-        "i": "1017",
+        "i": "1114",
         "codePoint": "U+1F37A",
         "name": "beer mug",
         "entities": "",
@@ -10600,7 +11640,7 @@ const shorthandMap = {
         ]
     },
     "🍻": {
-        "i": "1018",
+        "i": "1115",
         "codePoint": "U+1F37B",
         "name": "clinking beer mugs",
         "entities": "",
@@ -10610,7 +11650,7 @@ const shorthandMap = {
         ]
     },
     "🥂": {
-        "i": "1019",
+        "i": "1116",
         "codePoint": "U+1F942",
         "name": "clinking glasses",
         "entities": "",
@@ -10622,7 +11662,7 @@ const shorthandMap = {
         ]
     },
     "🥃": {
-        "i": "1020",
+        "i": "1117",
         "codePoint": "U+1F943",
         "name": "tumbler glass",
         "entities": "",
@@ -10637,7 +11677,7 @@ const shorthandMap = {
         ]
     },
     "🫗": {
-        "i": "1021",
+        "i": "1118",
         "codePoint": "U+1FAD7",
         "name": "pouring liquid",
         "entities": "",
@@ -10647,7 +11687,7 @@ const shorthandMap = {
         ]
     },
     "🥤": {
-        "i": "1022",
+        "i": "1119",
         "codePoint": "U+1F964",
         "name": "cup with straw",
         "entities": "",
@@ -10657,7 +11697,7 @@ const shorthandMap = {
         ]
     },
     "🧋": {
-        "i": "1023",
+        "i": "1120",
         "codePoint": "U+1F9CB",
         "name": "bubble tea",
         "entities": "",
@@ -10670,7 +11710,7 @@ const shorthandMap = {
         ]
     },
     "🧃": {
-        "i": "1024",
+        "i": "1121",
         "codePoint": "U+1F9C3",
         "name": "beverage box",
         "entities": "",
@@ -10680,7 +11720,7 @@ const shorthandMap = {
         ]
     },
     "🧉": {
-        "i": "1025",
+        "i": "1122",
         "codePoint": "U+1F9C9",
         "name": "mate drink",
         "entities": "",
@@ -10691,7 +11731,7 @@ const shorthandMap = {
         ]
     },
     "🧊": {
-        "i": "1026",
+        "i": "1123",
         "codePoint": "U+1F9CA",
         "name": "ice cube",
         "entities": "",
@@ -10701,7 +11741,7 @@ const shorthandMap = {
         ]
     },
     "🥢": {
-        "i": "1027",
+        "i": "1124",
         "codePoint": "U+1F962",
         "name": "chopsticks",
         "entities": "",
@@ -10711,7 +11751,7 @@ const shorthandMap = {
         ]
     },
     "🍽️": {
-        "i": "1028",
+        "i": "1125",
         "codePoint": "U+1F37D+FE0F",
         "name": "fork and knife with plate",
         "entities": "",
@@ -10724,7 +11764,7 @@ const shorthandMap = {
         ]
     },
     "🍴": {
-        "i": "1029",
+        "i": "1126",
         "codePoint": "U+1F374",
         "name": "fork and knife",
         "entities": "",
@@ -10734,7 +11774,7 @@ const shorthandMap = {
         ]
     },
     "🥄": {
-        "i": "1030",
+        "i": "1127",
         "codePoint": "U+1F944",
         "name": "spoon",
         "entities": "",
@@ -10744,7 +11784,7 @@ const shorthandMap = {
         ]
     },
     "🔪": {
-        "i": "1031",
+        "i": "1128",
         "codePoint": "U+1F52A",
         "name": "hocho",
         "entities": "",
@@ -10756,7 +11796,7 @@ const shorthandMap = {
         ]
     },
     "🫙": {
-        "i": "1032",
+        "i": "1129",
         "codePoint": "U+1FAD9",
         "name": "jar",
         "entities": "",
@@ -10766,7 +11806,7 @@ const shorthandMap = {
         ]
     },
     "🏺": {
-        "i": "1033",
+        "i": "1130",
         "codePoint": "U+1F3FA",
         "name": "amphora",
         "entities": "",
@@ -10776,7 +11816,7 @@ const shorthandMap = {
         ]
     },
     "🌍": {
-        "i": "1034",
+        "i": "1131",
         "codePoint": "U+1F30D",
         "name": "earth globe europe-africa",
         "entities": "",
@@ -10788,7 +11828,7 @@ const shorthandMap = {
         ]
     },
     "🌎": {
-        "i": "1035",
+        "i": "1132",
         "codePoint": "U+1F30E",
         "name": "earth globe americas",
         "entities": "",
@@ -10800,7 +11840,7 @@ const shorthandMap = {
         ]
     },
     "🌏": {
-        "i": "1036",
+        "i": "1133",
         "codePoint": "U+1F30F",
         "name": "earth globe asia-australia",
         "entities": "",
@@ -10811,7 +11851,7 @@ const shorthandMap = {
         ]
     },
     "🌐": {
-        "i": "1037",
+        "i": "1134",
         "codePoint": "U+1F310",
         "name": "globe with meridians",
         "entities": "",
@@ -10824,7 +11864,7 @@ const shorthandMap = {
         ]
     },
     "🗺️": {
-        "i": "1038",
+        "i": "1135",
         "codePoint": "U+1F5FA+FE0F",
         "name": "world map",
         "entities": "",
@@ -10834,7 +11874,7 @@ const shorthandMap = {
         ]
     },
     "🗾": {
-        "i": "1039",
+        "i": "1136",
         "codePoint": "U+1F5FE",
         "name": "silhouette of japan",
         "entities": "",
@@ -10846,7 +11886,7 @@ const shorthandMap = {
         ]
     },
     "🧭": {
-        "i": "1040",
+        "i": "1137",
         "codePoint": "U+1F9ED",
         "name": "compass",
         "entities": "",
@@ -10858,7 +11898,7 @@ const shorthandMap = {
         ]
     },
     "🏔️": {
-        "i": "1041",
+        "i": "1138",
         "codePoint": "U+1F3D4+FE0F",
         "name": "snow-capped mountain",
         "entities": "",
@@ -10868,7 +11908,7 @@ const shorthandMap = {
         ]
     },
     "⛰️": {
-        "i": "1042",
+        "i": "1139",
         "codePoint": "U+26F0+FE0F",
         "name": "mountain",
         "entities": "",
@@ -10878,7 +11918,7 @@ const shorthandMap = {
         ]
     },
     "🌋": {
-        "i": "1043",
+        "i": "1140",
         "codePoint": "U+1F30B",
         "name": "volcano",
         "entities": "",
@@ -10888,7 +11928,7 @@ const shorthandMap = {
         ]
     },
     "🗻": {
-        "i": "1044",
+        "i": "1141",
         "codePoint": "U+1F5FB",
         "name": "mount fuji",
         "entities": "",
@@ -10898,7 +11938,7 @@ const shorthandMap = {
         ]
     },
     "🏕️": {
-        "i": "1045",
+        "i": "1142",
         "codePoint": "U+1F3D5+FE0F",
         "name": "camping",
         "entities": "",
@@ -10908,7 +11948,7 @@ const shorthandMap = {
         ]
     },
     "🏖️": {
-        "i": "1046",
+        "i": "1143",
         "codePoint": "U+1F3D6+FE0F",
         "name": "beach with umbrella",
         "entities": "",
@@ -10920,7 +11960,7 @@ const shorthandMap = {
         ]
     },
     "🏜️": {
-        "i": "1047",
+        "i": "1144",
         "codePoint": "U+1F3DC+FE0F",
         "name": "desert",
         "entities": "",
@@ -10931,7 +11971,7 @@ const shorthandMap = {
         ]
     },
     "🏝️": {
-        "i": "1048",
+        "i": "1145",
         "codePoint": "U+1F3DD+FE0F",
         "name": "desert island",
         "entities": "",
@@ -10941,7 +11981,7 @@ const shorthandMap = {
         ]
     },
     "🏞️": {
-        "i": "1049",
+        "i": "1146",
         "codePoint": "U+1F3DE+FE0F",
         "name": "national park",
         "entities": "",
@@ -10951,7 +11991,7 @@ const shorthandMap = {
         ]
     },
     "🏟️": {
-        "i": "1050",
+        "i": "1147",
         "codePoint": "U+1F3DF+FE0F",
         "name": "stadium",
         "entities": "",
@@ -10962,7 +12002,7 @@ const shorthandMap = {
         ]
     },
     "🏛️": {
-        "i": "1051",
+        "i": "1148",
         "codePoint": "U+1F3DB+FE0F",
         "name": "classical building",
         "entities": "",
@@ -10973,7 +12013,7 @@ const shorthandMap = {
         ]
     },
     "🏗️": {
-        "i": "1052",
+        "i": "1149",
         "codePoint": "U+1F3D7+FE0F",
         "name": "building construction",
         "entities": "",
@@ -10983,7 +12023,7 @@ const shorthandMap = {
         ]
     },
     "🧱": {
-        "i": "1053",
+        "i": "1150",
         "codePoint": "U+1F9F1",
         "name": "brick",
         "entities": "",
@@ -10993,7 +12033,7 @@ const shorthandMap = {
         ]
     },
     "🪨": {
-        "i": "1054",
+        "i": "1151",
         "codePoint": "U+1FAA8",
         "name": "rock",
         "entities": "",
@@ -11003,7 +12043,7 @@ const shorthandMap = {
         ]
     },
     "🪵": {
-        "i": "1055",
+        "i": "1152",
         "codePoint": "U+1FAB5",
         "name": "wood",
         "entities": "",
@@ -11014,7 +12054,7 @@ const shorthandMap = {
         ]
     },
     "🛖": {
-        "i": "1056",
+        "i": "1153",
         "codePoint": "U+1F6D6",
         "name": "hut",
         "entities": "",
@@ -11024,7 +12064,7 @@ const shorthandMap = {
         ]
     },
     "🏘️": {
-        "i": "1057",
+        "i": "1154",
         "codePoint": "U+1F3D8+FE0F",
         "name": "houses",
         "entities": "",
@@ -11034,7 +12074,7 @@ const shorthandMap = {
         ]
     },
     "🏚️": {
-        "i": "1058",
+        "i": "1155",
         "codePoint": "U+1F3DA+FE0F",
         "name": "derelict house",
         "entities": "",
@@ -11046,7 +12086,7 @@ const shorthandMap = {
         ]
     },
     "🏠": {
-        "i": "1059",
+        "i": "1156",
         "codePoint": "U+1F3E0",
         "name": "house building",
         "entities": "",
@@ -11057,7 +12097,7 @@ const shorthandMap = {
         ]
     },
     "🏡": {
-        "i": "1060",
+        "i": "1157",
         "codePoint": "U+1F3E1",
         "name": "house with garden",
         "entities": "",
@@ -11067,7 +12107,7 @@ const shorthandMap = {
         ]
     },
     "🏢": {
-        "i": "1061",
+        "i": "1158",
         "codePoint": "U+1F3E2",
         "name": "office building",
         "entities": "",
@@ -11078,7 +12118,7 @@ const shorthandMap = {
         ]
     },
     "🏣": {
-        "i": "1062",
+        "i": "1159",
         "codePoint": "U+1F3E3",
         "name": "Japanese post office",
         "entities": "",
@@ -11088,7 +12128,7 @@ const shorthandMap = {
         ]
     },
     "🏤": {
-        "i": "1063",
+        "i": "1160",
         "codePoint": "U+1F3E4",
         "name": "european post office",
         "entities": "",
@@ -11098,7 +12138,7 @@ const shorthandMap = {
         ]
     },
     "🏥": {
-        "i": "1064",
+        "i": "1161",
         "codePoint": "U+1F3E5",
         "name": "hospital",
         "entities": "",
@@ -11108,7 +12148,7 @@ const shorthandMap = {
         ]
     },
     "🏦": {
-        "i": "1065",
+        "i": "1162",
         "codePoint": "U+1F3E6",
         "name": "bank",
         "entities": "",
@@ -11119,7 +12159,7 @@ const shorthandMap = {
         ]
     },
     "🏨": {
-        "i": "1066",
+        "i": "1163",
         "codePoint": "U+1F3E8",
         "name": "hotel",
         "entities": "",
@@ -11130,7 +12170,7 @@ const shorthandMap = {
         ]
     },
     "🏩": {
-        "i": "1067",
+        "i": "1164",
         "codePoint": "U+1F3E9",
         "name": "love hotel",
         "entities": "",
@@ -11140,7 +12180,7 @@ const shorthandMap = {
         ]
     },
     "🏪": {
-        "i": "1068",
+        "i": "1165",
         "codePoint": "U+1F3EA",
         "name": "convenience store",
         "entities": "",
@@ -11151,7 +12191,7 @@ const shorthandMap = {
         ]
     },
     "🏫": {
-        "i": "1069",
+        "i": "1166",
         "codePoint": "U+1F3EB",
         "name": "school",
         "entities": "",
@@ -11162,7 +12202,7 @@ const shorthandMap = {
         ]
     },
     "🏬": {
-        "i": "1070",
+        "i": "1167",
         "codePoint": "U+1F3EC",
         "name": "department store",
         "entities": "",
@@ -11172,7 +12212,7 @@ const shorthandMap = {
         ]
     },
     "🏭": {
-        "i": "1071",
+        "i": "1168",
         "codePoint": "U+1F3ED",
         "name": "factory",
         "entities": "",
@@ -11184,7 +12224,7 @@ const shorthandMap = {
         ]
     },
     "🏯": {
-        "i": "1072",
+        "i": "1169",
         "codePoint": "U+1F3EF",
         "name": "Japanese castle",
         "entities": "",
@@ -11194,7 +12234,7 @@ const shorthandMap = {
         ]
     },
     "🏰": {
-        "i": "1073",
+        "i": "1170",
         "codePoint": "U+1F3F0",
         "name": "european castle",
         "entities": "",
@@ -11205,7 +12245,7 @@ const shorthandMap = {
         ]
     },
     "💒": {
-        "i": "1074",
+        "i": "1171",
         "codePoint": "U+1F492",
         "name": "wedding",
         "entities": "",
@@ -11215,7 +12255,7 @@ const shorthandMap = {
         ]
     },
     "🗼": {
-        "i": "1075",
+        "i": "1172",
         "codePoint": "U+1F5FC",
         "name": "tokyo tower",
         "entities": "",
@@ -11225,7 +12265,7 @@ const shorthandMap = {
         ]
     },
     "🗽": {
-        "i": "1076",
+        "i": "1173",
         "codePoint": "U+1F5FD",
         "name": "statue of liberty",
         "entities": "",
@@ -11237,7 +12277,7 @@ const shorthandMap = {
         ]
     },
     "⛪": {
-        "i": "1077",
+        "i": "1174",
         "codePoint": "U+26EA",
         "name": "church",
         "entities": "",
@@ -11248,7 +12288,7 @@ const shorthandMap = {
         ]
     },
     "🕌": {
-        "i": "1078",
+        "i": "1175",
         "codePoint": "U+1F54C",
         "name": "mosque",
         "entities": "",
@@ -11259,7 +12299,7 @@ const shorthandMap = {
         ]
     },
     "🛕": {
-        "i": "1079",
+        "i": "1176",
         "codePoint": "U+1F6D5",
         "name": "hindu temple",
         "entities": "",
@@ -11269,7 +12309,7 @@ const shorthandMap = {
         ]
     },
     "🕍": {
-        "i": "1080",
+        "i": "1177",
         "codePoint": "U+1F54D",
         "name": "synagogue",
         "entities": "",
@@ -11279,7 +12319,7 @@ const shorthandMap = {
         ]
     },
     "⛩️": {
-        "i": "1081",
+        "i": "1178",
         "codePoint": "U+26E9+FE0F",
         "name": "shinto shrine",
         "entities": "",
@@ -11290,7 +12330,7 @@ const shorthandMap = {
         ]
     },
     "🕋": {
-        "i": "1082",
+        "i": "1179",
         "codePoint": "U+1F54B",
         "name": "kaaba",
         "entities": "",
@@ -11300,7 +12340,7 @@ const shorthandMap = {
         ]
     },
     "⛲": {
-        "i": "1083",
+        "i": "1180",
         "codePoint": "U+26F2",
         "name": "fountain",
         "entities": "",
@@ -11310,7 +12350,7 @@ const shorthandMap = {
         ]
     },
     "⛺": {
-        "i": "1084",
+        "i": "1181",
         "codePoint": "U+26FA",
         "name": "tent",
         "entities": "",
@@ -11320,7 +12360,7 @@ const shorthandMap = {
         ]
     },
     "🌁": {
-        "i": "1085",
+        "i": "1182",
         "codePoint": "U+1F301",
         "name": "foggy",
         "entities": "",
@@ -11330,7 +12370,7 @@ const shorthandMap = {
         ]
     },
     "🌃": {
-        "i": "1086",
+        "i": "1183",
         "codePoint": "U+1F303",
         "name": "night with stars",
         "entities": "",
@@ -11342,7 +12382,7 @@ const shorthandMap = {
         ]
     },
     "🏙️": {
-        "i": "1087",
+        "i": "1184",
         "codePoint": "U+1F3D9+FE0F",
         "name": "cityscape",
         "entities": "",
@@ -11353,7 +12393,7 @@ const shorthandMap = {
         ]
     },
     "🌄": {
-        "i": "1088",
+        "i": "1185",
         "codePoint": "U+1F304",
         "name": "sunrise over mountains",
         "entities": "",
@@ -11363,7 +12403,7 @@ const shorthandMap = {
         ]
     },
     "🌅": {
-        "i": "1089",
+        "i": "1186",
         "codePoint": "U+1F305",
         "name": "sunrise",
         "entities": "",
@@ -11373,7 +12413,7 @@ const shorthandMap = {
         ]
     },
     "🌆": {
-        "i": "1090",
+        "i": "1187",
         "codePoint": "U+1F306",
         "name": "cityscape at dusk",
         "entities": "",
@@ -11383,7 +12423,7 @@ const shorthandMap = {
         ]
     },
     "🌇": {
-        "i": "1091",
+        "i": "1188",
         "codePoint": "U+1F307",
         "name": "sunset over buildings",
         "entities": "",
@@ -11395,7 +12435,7 @@ const shorthandMap = {
         ]
     },
     "🌉": {
-        "i": "1092",
+        "i": "1189",
         "codePoint": "U+1F309",
         "name": "bridge at night",
         "entities": "",
@@ -11405,7 +12445,7 @@ const shorthandMap = {
         ]
     },
     "♨️": {
-        "i": "1093",
+        "i": "1190",
         "codePoint": "U+2668+FE0F",
         "name": "hot springs",
         "entities": "",
@@ -11415,7 +12455,7 @@ const shorthandMap = {
         ]
     },
     "🎠": {
-        "i": "1094",
+        "i": "1191",
         "codePoint": "U+1F3A0",
         "name": "carousel horse",
         "entities": "",
@@ -11425,7 +12465,7 @@ const shorthandMap = {
         ]
     },
     "🛝": {
-        "i": "1095",
+        "i": "1192",
         "codePoint": "U+1F6DD",
         "name": "playground slide",
         "entities": "",
@@ -11435,7 +12475,7 @@ const shorthandMap = {
         ]
     },
     "🎡": {
-        "i": "1096",
+        "i": "1193",
         "codePoint": "U+1F3A1",
         "name": "ferris wheel",
         "entities": "",
@@ -11445,7 +12485,7 @@ const shorthandMap = {
         ]
     },
     "🎢": {
-        "i": "1097",
+        "i": "1194",
         "codePoint": "U+1F3A2",
         "name": "roller coaster",
         "entities": "",
@@ -11455,7 +12495,7 @@ const shorthandMap = {
         ]
     },
     "💈": {
-        "i": "1098",
+        "i": "1195",
         "codePoint": "U+1F488",
         "name": "barber pole",
         "entities": "",
@@ -11467,7 +12507,7 @@ const shorthandMap = {
         ]
     },
     "🎪": {
-        "i": "1099",
+        "i": "1196",
         "codePoint": "U+1F3AA",
         "name": "circus tent",
         "entities": "",
@@ -11477,7 +12517,7 @@ const shorthandMap = {
         ]
     },
     "🚂": {
-        "i": "1100",
+        "i": "1197",
         "codePoint": "U+1F682",
         "name": "steam locomotive",
         "entities": "",
@@ -11488,7 +12528,7 @@ const shorthandMap = {
         ]
     },
     "🚃": {
-        "i": "1101",
+        "i": "1198",
         "codePoint": "U+1F683",
         "name": "railway car",
         "entities": "",
@@ -11498,7 +12538,7 @@ const shorthandMap = {
         ]
     },
     "🚄": {
-        "i": "1102",
+        "i": "1199",
         "codePoint": "U+1F684",
         "name": "high-speed train",
         "entities": "",
@@ -11508,7 +12548,7 @@ const shorthandMap = {
         ]
     },
     "🚅": {
-        "i": "1103",
+        "i": "1200",
         "codePoint": "U+1F685",
         "name": "high-speed train with bullet nose",
         "entities": "",
@@ -11519,7 +12559,7 @@ const shorthandMap = {
         ]
     },
     "🚆": {
-        "i": "1104",
+        "i": "1201",
         "codePoint": "U+1F686",
         "name": "train",
         "entities": "",
@@ -11529,7 +12569,7 @@ const shorthandMap = {
         ]
     },
     "🚇": {
-        "i": "1105",
+        "i": "1202",
         "codePoint": "U+1F687",
         "name": "metro",
         "entities": "",
@@ -11542,7 +12582,7 @@ const shorthandMap = {
         ]
     },
     "🚈": {
-        "i": "1106",
+        "i": "1203",
         "codePoint": "U+1F688",
         "name": "light rail",
         "entities": "",
@@ -11552,7 +12592,7 @@ const shorthandMap = {
         ]
     },
     "🚉": {
-        "i": "1107",
+        "i": "1204",
         "codePoint": "U+1F689",
         "name": "station",
         "entities": "",
@@ -11562,7 +12602,7 @@ const shorthandMap = {
         ]
     },
     "🚊": {
-        "i": "1108",
+        "i": "1205",
         "codePoint": "U+1F68A",
         "name": "tram",
         "entities": "",
@@ -11572,7 +12612,7 @@ const shorthandMap = {
         ]
     },
     "🚝": {
-        "i": "1109",
+        "i": "1206",
         "codePoint": "U+1F69D",
         "name": "monorail",
         "entities": "",
@@ -11582,7 +12622,7 @@ const shorthandMap = {
         ]
     },
     "🚞": {
-        "i": "1110",
+        "i": "1207",
         "codePoint": "U+1F69E",
         "name": "mountain railway",
         "entities": "",
@@ -11592,7 +12632,7 @@ const shorthandMap = {
         ]
     },
     "🚋": {
-        "i": "1111",
+        "i": "1208",
         "codePoint": "U+1F68B",
         "name": "tram car",
         "entities": "",
@@ -11602,7 +12642,7 @@ const shorthandMap = {
         ]
     },
     "🚌": {
-        "i": "1112",
+        "i": "1209",
         "codePoint": "U+1F68C",
         "name": "bus",
         "entities": "",
@@ -11612,7 +12652,7 @@ const shorthandMap = {
         ]
     },
     "🚍": {
-        "i": "1113",
+        "i": "1210",
         "codePoint": "U+1F68D",
         "name": "oncoming bus",
         "entities": "",
@@ -11622,7 +12662,7 @@ const shorthandMap = {
         ]
     },
     "🚎": {
-        "i": "1114",
+        "i": "1211",
         "codePoint": "U+1F68E",
         "name": "trolleybus",
         "entities": "",
@@ -11632,7 +12672,7 @@ const shorthandMap = {
         ]
     },
     "🚐": {
-        "i": "1115",
+        "i": "1212",
         "codePoint": "U+1F690",
         "name": "minibus",
         "entities": "",
@@ -11642,7 +12682,7 @@ const shorthandMap = {
         ]
     },
     "🚑": {
-        "i": "1116",
+        "i": "1213",
         "codePoint": "U+1F691",
         "name": "ambulance",
         "entities": "",
@@ -11653,7 +12693,7 @@ const shorthandMap = {
         ]
     },
     "🚒": {
-        "i": "1117",
+        "i": "1214",
         "codePoint": "U+1F692",
         "name": "fire engine",
         "entities": "",
@@ -11663,7 +12703,7 @@ const shorthandMap = {
         ]
     },
     "🚓": {
-        "i": "1118",
+        "i": "1215",
         "codePoint": "U+1F693",
         "name": "police car",
         "entities": "",
@@ -11673,7 +12713,7 @@ const shorthandMap = {
         ]
     },
     "🚔": {
-        "i": "1119",
+        "i": "1216",
         "codePoint": "U+1F694",
         "name": "oncoming police car",
         "entities": "",
@@ -11683,7 +12723,7 @@ const shorthandMap = {
         ]
     },
     "🚕": {
-        "i": "1120",
+        "i": "1217",
         "codePoint": "U+1F695",
         "name": "taxi",
         "entities": "",
@@ -11693,7 +12733,7 @@ const shorthandMap = {
         ]
     },
     "🚖": {
-        "i": "1121",
+        "i": "1218",
         "codePoint": "U+1F696",
         "name": "oncoming taxi",
         "entities": "",
@@ -11703,7 +12743,7 @@ const shorthandMap = {
         ]
     },
     "🚗": {
-        "i": "1122",
+        "i": "1219",
         "codePoint": "U+1F697",
         "name": "automobile",
         "entities": "",
@@ -11713,7 +12753,7 @@ const shorthandMap = {
         ]
     },
     "🚘": {
-        "i": "1123",
+        "i": "1220",
         "codePoint": "U+1F698",
         "name": "oncoming automobile",
         "entities": "",
@@ -11723,7 +12763,7 @@ const shorthandMap = {
         ]
     },
     "🚙": {
-        "i": "1124",
+        "i": "1221",
         "codePoint": "U+1F699",
         "name": "recreational vehicle",
         "entities": "",
@@ -11733,7 +12773,7 @@ const shorthandMap = {
         ]
     },
     "🛻": {
-        "i": "1125",
+        "i": "1222",
         "codePoint": "U+1F6FB",
         "name": "pickup truck",
         "entities": "",
@@ -11743,7 +12783,7 @@ const shorthandMap = {
         ]
     },
     "🚚": {
-        "i": "1126",
+        "i": "1223",
         "codePoint": "U+1F69A",
         "name": "delivery truck",
         "entities": "",
@@ -11753,7 +12793,7 @@ const shorthandMap = {
         ]
     },
     "🚛": {
-        "i": "1127",
+        "i": "1224",
         "codePoint": "U+1F69B",
         "name": "articulated lorry",
         "entities": "",
@@ -11763,7 +12803,7 @@ const shorthandMap = {
         ]
     },
     "🚜": {
-        "i": "1128",
+        "i": "1225",
         "codePoint": "U+1F69C",
         "name": "tractor",
         "entities": "",
@@ -11774,7 +12814,7 @@ const shorthandMap = {
         ]
     },
     "🏎️": {
-        "i": "1129",
+        "i": "1226",
         "codePoint": "U+1F3CE+FE0F",
         "name": "racing car",
         "entities": "",
@@ -11785,7 +12825,7 @@ const shorthandMap = {
         ]
     },
     "🏍️": {
-        "i": "1130",
+        "i": "1227",
         "codePoint": "U+1F3CD+FE0F",
         "name": "motorcycle",
         "entities": "",
@@ -11795,7 +12835,7 @@ const shorthandMap = {
         ]
     },
     "🛵": {
-        "i": "1131",
+        "i": "1228",
         "codePoint": "U+1F6F5",
         "name": "motor scooter",
         "entities": "",
@@ -11806,7 +12846,7 @@ const shorthandMap = {
         ]
     },
     "🦽": {
-        "i": "1132",
+        "i": "1229",
         "codePoint": "U+1F9BD",
         "name": "manual wheelchair",
         "entities": "",
@@ -11816,7 +12856,7 @@ const shorthandMap = {
         ]
     },
     "🦼": {
-        "i": "1133",
+        "i": "1230",
         "codePoint": "U+1F9BC",
         "name": "motorized wheelchair",
         "entities": "",
@@ -11826,7 +12866,7 @@ const shorthandMap = {
         ]
     },
     "🛺": {
-        "i": "1134",
+        "i": "1231",
         "codePoint": "U+1F6FA",
         "name": "auto rickshaw",
         "entities": "",
@@ -11836,7 +12876,7 @@ const shorthandMap = {
         ]
     },
     "🚲": {
-        "i": "1135",
+        "i": "1232",
         "codePoint": "U+1F6B2",
         "name": "bicycle",
         "entities": "",
@@ -11846,7 +12886,7 @@ const shorthandMap = {
         ]
     },
     "🛴": {
-        "i": "1136",
+        "i": "1233",
         "codePoint": "U+1F6F4",
         "name": "scooter",
         "entities": "",
@@ -11856,7 +12896,7 @@ const shorthandMap = {
         ]
     },
     "🛹": {
-        "i": "1137",
+        "i": "1234",
         "codePoint": "U+1F6F9",
         "name": "skateboard",
         "entities": "",
@@ -11866,7 +12906,7 @@ const shorthandMap = {
         ]
     },
     "🛼": {
-        "i": "1138",
+        "i": "1235",
         "codePoint": "U+1F6FC",
         "name": "roller skate",
         "entities": "",
@@ -11876,7 +12916,7 @@ const shorthandMap = {
         ]
     },
     "🚏": {
-        "i": "1139",
+        "i": "1236",
         "codePoint": "U+1F68F",
         "name": "bus stop",
         "entities": "",
@@ -11886,7 +12926,7 @@ const shorthandMap = {
         ]
     },
     "🛣️": {
-        "i": "1140",
+        "i": "1237",
         "codePoint": "U+1F6E3+FE0F",
         "name": "motorway",
         "entities": "",
@@ -11899,7 +12939,7 @@ const shorthandMap = {
         ]
     },
     "🛤️": {
-        "i": "1141",
+        "i": "1238",
         "codePoint": "U+1F6E4+FE0F",
         "name": "railway track",
         "entities": "",
@@ -11909,7 +12949,7 @@ const shorthandMap = {
         ]
     },
     "🛢️": {
-        "i": "1142",
+        "i": "1239",
         "codePoint": "U+1F6E2+FE0F",
         "name": "oil drum",
         "entities": "",
@@ -11919,7 +12959,7 @@ const shorthandMap = {
         ]
     },
     "⛽": {
-        "i": "1143",
+        "i": "1240",
         "codePoint": "U+26FD",
         "name": "fuel pump",
         "entities": "",
@@ -11930,7 +12970,7 @@ const shorthandMap = {
         ]
     },
     "🛞": {
-        "i": "1144",
+        "i": "1241",
         "codePoint": "U+1F6DE",
         "name": "wheel",
         "entities": "",
@@ -11940,7 +12980,7 @@ const shorthandMap = {
         ]
     },
     "🚨": {
-        "i": "1145",
+        "i": "1242",
         "codePoint": "U+1F6A8",
         "name": "police cars revolving light",
         "entities": "",
@@ -11953,7 +12993,7 @@ const shorthandMap = {
         ]
     },
     "🚥": {
-        "i": "1146",
+        "i": "1243",
         "codePoint": "U+1F6A5",
         "name": "horizontal traffic light",
         "entities": "",
@@ -11963,7 +13003,7 @@ const shorthandMap = {
         ]
     },
     "🚦": {
-        "i": "1147",
+        "i": "1244",
         "codePoint": "U+1F6A6",
         "name": "vertical traffic light",
         "entities": "",
@@ -11973,7 +13013,7 @@ const shorthandMap = {
         ]
     },
     "🛑": {
-        "i": "1148",
+        "i": "1245",
         "codePoint": "U+1F6D1",
         "name": "octagonal sign",
         "entities": "",
@@ -11983,7 +13023,7 @@ const shorthandMap = {
         ]
     },
     "🚧": {
-        "i": "1149",
+        "i": "1246",
         "codePoint": "U+1F6A7",
         "name": "construction sign",
         "entities": "",
@@ -11995,7 +13035,7 @@ const shorthandMap = {
         ]
     },
     "⚓": {
-        "i": "1150",
+        "i": "1247",
         "codePoint": "U+2693",
         "name": "anchor",
         "entities": "",
@@ -12005,7 +13045,7 @@ const shorthandMap = {
         ]
     },
     "🛟": {
-        "i": "1151",
+        "i": "1248",
         "codePoint": "U+1F6DF",
         "name": "ring buoy",
         "entities": "",
@@ -12016,7 +13056,7 @@ const shorthandMap = {
         ]
     },
     "⛵": {
-        "i": "1152",
+        "i": "1249",
         "codePoint": "U+26F5",
         "name": "sailboat",
         "entities": "",
@@ -12026,7 +13066,7 @@ const shorthandMap = {
         ]
     },
     "🛶": {
-        "i": "1153",
+        "i": "1250",
         "codePoint": "U+1F6F6",
         "name": "canoe",
         "entities": "",
@@ -12036,7 +13076,7 @@ const shorthandMap = {
         ]
     },
     "🚤": {
-        "i": "1154",
+        "i": "1251",
         "codePoint": "U+1F6A4",
         "name": "speedboat",
         "entities": "",
@@ -12046,7 +13086,7 @@ const shorthandMap = {
         ]
     },
     "🛳️": {
-        "i": "1155",
+        "i": "1252",
         "codePoint": "U+1F6F3+FE0F",
         "name": "passenger ship",
         "entities": "",
@@ -12057,7 +13097,7 @@ const shorthandMap = {
         ]
     },
     "⛴️": {
-        "i": "1156",
+        "i": "1253",
         "codePoint": "U+26F4+FE0F",
         "name": "ferry",
         "entities": "",
@@ -12067,7 +13107,7 @@ const shorthandMap = {
         ]
     },
     "🛥️": {
-        "i": "1157",
+        "i": "1254",
         "codePoint": "U+1F6E5+FE0F",
         "name": "motor boat",
         "entities": "",
@@ -12077,7 +13117,7 @@ const shorthandMap = {
         ]
     },
     "🚢": {
-        "i": "1158",
+        "i": "1255",
         "codePoint": "U+1F6A2",
         "name": "ship",
         "entities": "",
@@ -12088,7 +13128,7 @@ const shorthandMap = {
         ]
     },
     "✈️": {
-        "i": "1159",
+        "i": "1256",
         "codePoint": "U+2708+FE0F",
         "name": "airplane",
         "entities": "",
@@ -12098,7 +13138,7 @@ const shorthandMap = {
         ]
     },
     "🛩️": {
-        "i": "1160",
+        "i": "1257",
         "codePoint": "U+1F6E9+FE0F",
         "name": "small airplane",
         "entities": "",
@@ -12108,7 +13148,7 @@ const shorthandMap = {
         ]
     },
     "🛫": {
-        "i": "1161",
+        "i": "1258",
         "codePoint": "U+1F6EB",
         "name": "airplane departure",
         "entities": "",
@@ -12119,7 +13159,7 @@ const shorthandMap = {
         ]
     },
     "🛬": {
-        "i": "1162",
+        "i": "1259",
         "codePoint": "U+1F6EC",
         "name": "airplane arriving",
         "entities": "",
@@ -12130,7 +13170,7 @@ const shorthandMap = {
         ]
     },
     "🪂": {
-        "i": "1163",
+        "i": "1260",
         "codePoint": "U+1FA82",
         "name": "parachute",
         "entities": "",
@@ -12140,7 +13180,7 @@ const shorthandMap = {
         ]
     },
     "💺": {
-        "i": "1164",
+        "i": "1261",
         "codePoint": "U+1F4BA",
         "name": "seat",
         "entities": "",
@@ -12150,7 +13190,7 @@ const shorthandMap = {
         ]
     },
     "🚁": {
-        "i": "1165",
+        "i": "1262",
         "codePoint": "U+1F681",
         "name": "helicopter",
         "entities": "",
@@ -12160,7 +13200,7 @@ const shorthandMap = {
         ]
     },
     "🚟": {
-        "i": "1166",
+        "i": "1263",
         "codePoint": "U+1F69F",
         "name": "suspension railway",
         "entities": "",
@@ -12170,7 +13210,7 @@ const shorthandMap = {
         ]
     },
     "🚠": {
-        "i": "1167",
+        "i": "1264",
         "codePoint": "U+1F6A0",
         "name": "mountain cableway",
         "entities": "",
@@ -12180,7 +13220,7 @@ const shorthandMap = {
         ]
     },
     "🚡": {
-        "i": "1168",
+        "i": "1265",
         "codePoint": "U+1F6A1",
         "name": "aerial tramway",
         "entities": "",
@@ -12190,7 +13230,7 @@ const shorthandMap = {
         ]
     },
     "🛰️": {
-        "i": "1169",
+        "i": "1266",
         "codePoint": "U+1F6F0+FE0F",
         "name": "satellite",
         "entities": "",
@@ -12203,7 +13243,7 @@ const shorthandMap = {
         ]
     },
     "🚀": {
-        "i": "1170",
+        "i": "1267",
         "codePoint": "U+1F680",
         "name": "rocket",
         "entities": "",
@@ -12216,7 +13256,7 @@ const shorthandMap = {
         ]
     },
     "🛸": {
-        "i": "1171",
+        "i": "1268",
         "codePoint": "U+1F6F8",
         "name": "flying saucer",
         "entities": "",
@@ -12226,7 +13266,7 @@ const shorthandMap = {
         ]
     },
     "🛎️": {
-        "i": "1172",
+        "i": "1269",
         "codePoint": "U+1F6CE+FE0F",
         "name": "bellhop bell",
         "entities": "",
@@ -12236,7 +13276,7 @@ const shorthandMap = {
         ]
     },
     "🧳": {
-        "i": "1173",
+        "i": "1270",
         "codePoint": "U+1F9F3",
         "name": "luggage",
         "entities": "",
@@ -12246,7 +13286,7 @@ const shorthandMap = {
         ]
     },
     "⌛": {
-        "i": "1174",
+        "i": "1271",
         "codePoint": "U+231B",
         "name": "hourglass",
         "entities": "",
@@ -12259,7 +13299,7 @@ const shorthandMap = {
         ]
     },
     "⏳": {
-        "i": "1175",
+        "i": "1272",
         "codePoint": "U+23F3",
         "name": "hourglass with flowing sand",
         "entities": "",
@@ -12271,7 +13311,7 @@ const shorthandMap = {
         ]
     },
     "⌚": {
-        "i": "1176",
+        "i": "1273",
         "codePoint": "U+231A",
         "name": "watch",
         "entities": "",
@@ -12281,7 +13321,7 @@ const shorthandMap = {
         ]
     },
     "⏰": {
-        "i": "1177",
+        "i": "1274",
         "codePoint": "U+23F0",
         "name": "alarm clock",
         "entities": "",
@@ -12291,7 +13331,7 @@ const shorthandMap = {
         ]
     },
     "⏱️": {
-        "i": "1178",
+        "i": "1275",
         "codePoint": "U+23F1+FE0F",
         "name": "stopwatch",
         "entities": "",
@@ -12301,7 +13341,7 @@ const shorthandMap = {
         ]
     },
     "⏲️": {
-        "i": "1179",
+        "i": "1276",
         "codePoint": "U+23F2+FE0F",
         "name": "timer clock",
         "entities": "",
@@ -12311,7 +13351,7 @@ const shorthandMap = {
         ]
     },
     "🕰️": {
-        "i": "1180",
+        "i": "1277",
         "codePoint": "U+1F570+FE0F",
         "name": "mantelpiece clock",
         "entities": "",
@@ -12321,7 +13361,7 @@ const shorthandMap = {
         ]
     },
     "🕛": {
-        "i": "1181",
+        "i": "1278",
         "codePoint": "U+1F55B",
         "name": "clock face twelve oclock",
         "entities": "",
@@ -12339,7 +13379,7 @@ const shorthandMap = {
         ]
     },
     "🕧": {
-        "i": "1182",
+        "i": "1279",
         "codePoint": "U+1F567",
         "name": "clock face twelve-thirty",
         "entities": "",
@@ -12354,7 +13394,7 @@ const shorthandMap = {
         ]
     },
     "🕐": {
-        "i": "1183",
+        "i": "1280",
         "codePoint": "U+1F550",
         "name": "clock face one oclock",
         "entities": "",
@@ -12369,7 +13409,7 @@ const shorthandMap = {
         ]
     },
     "🕜": {
-        "i": "1184",
+        "i": "1281",
         "codePoint": "U+1F55C",
         "name": "clock face one-thirty",
         "entities": "",
@@ -12384,7 +13424,7 @@ const shorthandMap = {
         ]
     },
     "🕑": {
-        "i": "1185",
+        "i": "1282",
         "codePoint": "U+1F551",
         "name": "clock face two oclock",
         "entities": "",
@@ -12399,7 +13439,7 @@ const shorthandMap = {
         ]
     },
     "🕝": {
-        "i": "1186",
+        "i": "1283",
         "codePoint": "U+1F55D",
         "name": "clock face two-thirty",
         "entities": "",
@@ -12413,7 +13453,7 @@ const shorthandMap = {
         ]
     },
     "🕒": {
-        "i": "1187",
+        "i": "1284",
         "codePoint": "U+1F552",
         "name": "clock face three oclock",
         "entities": "",
@@ -12427,7 +13467,7 @@ const shorthandMap = {
         ]
     },
     "🕞": {
-        "i": "1188",
+        "i": "1285",
         "codePoint": "U+1F55E",
         "name": "clock face three-thirty",
         "entities": "",
@@ -12441,7 +13481,7 @@ const shorthandMap = {
         ]
     },
     "🕓": {
-        "i": "1189",
+        "i": "1286",
         "codePoint": "U+1F553",
         "name": "clock face four oclock",
         "entities": "",
@@ -12456,7 +13496,7 @@ const shorthandMap = {
         ]
     },
     "🕟": {
-        "i": "1190",
+        "i": "1287",
         "codePoint": "U+1F55F",
         "name": "clock face four-thirty",
         "entities": "",
@@ -12470,7 +13510,7 @@ const shorthandMap = {
         ]
     },
     "🕔": {
-        "i": "1191",
+        "i": "1288",
         "codePoint": "U+1F554",
         "name": "clock face five oclock",
         "entities": "",
@@ -12485,7 +13525,7 @@ const shorthandMap = {
         ]
     },
     "🕠": {
-        "i": "1192",
+        "i": "1289",
         "codePoint": "U+1F560",
         "name": "clock face five-thirty",
         "entities": "",
@@ -12499,7 +13539,7 @@ const shorthandMap = {
         ]
     },
     "🕕": {
-        "i": "1193",
+        "i": "1290",
         "codePoint": "U+1F555",
         "name": "clock face six oclock",
         "entities": "",
@@ -12515,7 +13555,7 @@ const shorthandMap = {
         ]
     },
     "🕡": {
-        "i": "1194",
+        "i": "1291",
         "codePoint": "U+1F561",
         "name": "clock face six-thirty",
         "entities": "",
@@ -12529,7 +13569,7 @@ const shorthandMap = {
         ]
     },
     "🕖": {
-        "i": "1195",
+        "i": "1292",
         "codePoint": "U+1F556",
         "name": "clock face seven oclock",
         "entities": "",
@@ -12544,7 +13584,7 @@ const shorthandMap = {
         ]
     },
     "🕢": {
-        "i": "1196",
+        "i": "1293",
         "codePoint": "U+1F562",
         "name": "clock face seven-thirty",
         "entities": "",
@@ -12558,7 +13598,7 @@ const shorthandMap = {
         ]
     },
     "🕗": {
-        "i": "1197",
+        "i": "1294",
         "codePoint": "U+1F557",
         "name": "clock face eight oclock",
         "entities": "",
@@ -12573,7 +13613,7 @@ const shorthandMap = {
         ]
     },
     "🕣": {
-        "i": "1198",
+        "i": "1295",
         "codePoint": "U+1F563",
         "name": "clock face eight-thirty",
         "entities": "",
@@ -12587,7 +13627,7 @@ const shorthandMap = {
         ]
     },
     "🕘": {
-        "i": "1199",
+        "i": "1296",
         "codePoint": "U+1F558",
         "name": "clock face nine oclock",
         "entities": "",
@@ -12602,7 +13642,7 @@ const shorthandMap = {
         ]
     },
     "🕤": {
-        "i": "1200",
+        "i": "1297",
         "codePoint": "U+1F564",
         "name": "clock face nine-thirty",
         "entities": "",
@@ -12616,7 +13656,7 @@ const shorthandMap = {
         ]
     },
     "🕙": {
-        "i": "1201",
+        "i": "1298",
         "codePoint": "U+1F559",
         "name": "clock face ten oclock",
         "entities": "",
@@ -12631,7 +13671,7 @@ const shorthandMap = {
         ]
     },
     "🕥": {
-        "i": "1202",
+        "i": "1299",
         "codePoint": "U+1F565",
         "name": "clock face ten-thirty",
         "entities": "",
@@ -12645,7 +13685,7 @@ const shorthandMap = {
         ]
     },
     "🕚": {
-        "i": "1203",
+        "i": "1300",
         "codePoint": "U+1F55A",
         "name": "clock face eleven oclock",
         "entities": "",
@@ -12660,7 +13700,7 @@ const shorthandMap = {
         ]
     },
     "🕦": {
-        "i": "1204",
+        "i": "1301",
         "codePoint": "U+1F566",
         "name": "clock face eleven-thirty",
         "entities": "",
@@ -12674,7 +13714,7 @@ const shorthandMap = {
         ]
     },
     "🌑": {
-        "i": "1205",
+        "i": "1302",
         "codePoint": "U+1F311",
         "name": "new Moon symbol",
         "entities": "",
@@ -12685,7 +13725,7 @@ const shorthandMap = {
         ]
     },
     "🌒": {
-        "i": "1206",
+        "i": "1303",
         "codePoint": "U+1F312",
         "name": "waxing crescent Moon symbol",
         "entities": "",
@@ -12696,7 +13736,7 @@ const shorthandMap = {
         ]
     },
     "🌓": {
-        "i": "1207",
+        "i": "1304",
         "codePoint": "U+1F313",
         "name": "first quarter Moon symbol",
         "entities": "",
@@ -12707,7 +13747,7 @@ const shorthandMap = {
         ]
     },
     "🌔": {
-        "i": "1208",
+        "i": "1305",
         "codePoint": "U+1F314",
         "name": "waxing gibbous Moon symbol",
         "entities": "",
@@ -12718,7 +13758,7 @@ const shorthandMap = {
         ]
     },
     "🌕": {
-        "i": "1209",
+        "i": "1306",
         "codePoint": "U+1F315",
         "name": "full Moon symbol",
         "entities": "",
@@ -12728,7 +13768,7 @@ const shorthandMap = {
         ]
     },
     "🌖": {
-        "i": "1210",
+        "i": "1307",
         "codePoint": "U+1F316",
         "name": "waning gibbous Moon symbol",
         "entities": "",
@@ -12738,7 +13778,7 @@ const shorthandMap = {
         ]
     },
     "🌗": {
-        "i": "1211",
+        "i": "1308",
         "codePoint": "U+1F317",
         "name": "last quarter Moon symbol",
         "entities": "",
@@ -12748,7 +13788,7 @@ const shorthandMap = {
         ]
     },
     "🌘": {
-        "i": "1212",
+        "i": "1309",
         "codePoint": "U+1F318",
         "name": "waning crescent Moon symbol",
         "entities": "",
@@ -12758,7 +13798,7 @@ const shorthandMap = {
         ]
     },
     "🌙": {
-        "i": "1213",
+        "i": "1310",
         "codePoint": "U+1F319",
         "name": "crescent Moon",
         "entities": "",
@@ -12769,7 +13809,7 @@ const shorthandMap = {
         ]
     },
     "🌚": {
-        "i": "1214",
+        "i": "1311",
         "codePoint": "U+1F31A",
         "name": "new Moon with face",
         "entities": "",
@@ -12779,7 +13819,7 @@ const shorthandMap = {
         ]
     },
     "🌛": {
-        "i": "1215",
+        "i": "1312",
         "codePoint": "U+1F31B",
         "name": "first quarter Moon with face",
         "entities": "",
@@ -12789,7 +13829,7 @@ const shorthandMap = {
         ]
     },
     "🌜": {
-        "i": "1216",
+        "i": "1313",
         "codePoint": "U+1F31C",
         "name": "last quarter Moon with face",
         "entities": "",
@@ -12799,7 +13839,7 @@ const shorthandMap = {
         ]
     },
     "🌡️": {
-        "i": "1217",
+        "i": "1314",
         "codePoint": "U+1F321+FE0F",
         "name": "thermometer",
         "entities": "",
@@ -12809,7 +13849,7 @@ const shorthandMap = {
         ]
     },
     "☀️": {
-        "i": "1218",
+        "i": "1315",
         "codePoint": "U+2600+FE0F",
         "name": "sun",
         "entities": "",
@@ -12819,7 +13859,7 @@ const shorthandMap = {
         ]
     },
     "🌝": {
-        "i": "1219",
+        "i": "1316",
         "codePoint": "U+1F31D",
         "name": "full Moon with face",
         "entities": "",
@@ -12829,7 +13869,7 @@ const shorthandMap = {
         ]
     },
     "🌞": {
-        "i": "1220",
+        "i": "1317",
         "codePoint": "U+1F31E",
         "name": "Sun with face",
         "entities": "",
@@ -12839,7 +13879,7 @@ const shorthandMap = {
         ]
     },
     "🪐": {
-        "i": "1221",
+        "i": "1318",
         "codePoint": "U+1FA90",
         "name": "ringed planet",
         "entities": "",
@@ -12849,7 +13889,7 @@ const shorthandMap = {
         ]
     },
     "⭐": {
-        "i": "1222",
+        "i": "1319",
         "codePoint": "U+2B50",
         "name": "white medium star",
         "entities": "",
@@ -12859,7 +13899,7 @@ const shorthandMap = {
         ]
     },
     "🌟": {
-        "i": "1223",
+        "i": "1320",
         "codePoint": "U+1F31F",
         "name": "glowing star",
         "entities": "",
@@ -12869,7 +13909,7 @@ const shorthandMap = {
         ]
     },
     "🌠": {
-        "i": "1224",
+        "i": "1321",
         "codePoint": "U+1F320",
         "name": "shooting star",
         "entities": "",
@@ -12879,7 +13919,7 @@ const shorthandMap = {
         ]
     },
     "🌌": {
-        "i": "1225",
+        "i": "1322",
         "codePoint": "U+1F30C",
         "name": "milky way",
         "entities": "",
@@ -12889,7 +13929,7 @@ const shorthandMap = {
         ]
     },
     "☁️": {
-        "i": "1226",
+        "i": "1323",
         "codePoint": "U+2601+FE0F",
         "name": "cloud",
         "entities": "",
@@ -12899,7 +13939,7 @@ const shorthandMap = {
         ]
     },
     "⛅": {
-        "i": "1227",
+        "i": "1324",
         "codePoint": "U+26C5",
         "name": "Sun behind cloud",
         "entities": "",
@@ -12910,7 +13950,7 @@ const shorthandMap = {
         ]
     },
     "⛈️": {
-        "i": "1228",
+        "i": "1325",
         "codePoint": "U+26C8+FE0F",
         "name": "cloud with lightning and rain",
         "entities": "",
@@ -12920,7 +13960,7 @@ const shorthandMap = {
         ]
     },
     "🌤️": {
-        "i": "1229",
+        "i": "1326",
         "codePoint": "U+1F324+FE0F",
         "name": "sun behind small cloud",
         "entities": "",
@@ -12930,7 +13970,7 @@ const shorthandMap = {
         ]
     },
     "🌥️": {
-        "i": "1230",
+        "i": "1327",
         "codePoint": "U+1F325+FE0F",
         "name": "sun behind large cloud",
         "entities": "",
@@ -12940,7 +13980,7 @@ const shorthandMap = {
         ]
     },
     "🌦️": {
-        "i": "1231",
+        "i": "1328",
         "codePoint": "U+1F326+FE0F",
         "name": "sun behind rain cloud",
         "entities": "",
@@ -12950,7 +13990,7 @@ const shorthandMap = {
         ]
     },
     "🌧️": {
-        "i": "1232",
+        "i": "1329",
         "codePoint": "U+1F327+FE0F",
         "name": "cloud with rain",
         "entities": "",
@@ -12960,7 +14000,7 @@ const shorthandMap = {
         ]
     },
     "🌨️": {
-        "i": "1233",
+        "i": "1330",
         "codePoint": "U+1F328+FE0F",
         "name": "cloud with snow",
         "entities": "",
@@ -12970,7 +14010,7 @@ const shorthandMap = {
         ]
     },
     "🌩️": {
-        "i": "1234",
+        "i": "1331",
         "codePoint": "U+1F329+FE0F",
         "name": "cloud with lightning",
         "entities": "",
@@ -12980,7 +14020,7 @@ const shorthandMap = {
         ]
     },
     "🌪️": {
-        "i": "1235",
+        "i": "1332",
         "codePoint": "U+1F32A+FE0F",
         "name": "tornado",
         "entities": "",
@@ -12990,7 +14030,7 @@ const shorthandMap = {
         ]
     },
     "🌫️": {
-        "i": "1236",
+        "i": "1333",
         "codePoint": "U+1F32B+FE0F",
         "name": "fog",
         "entities": "",
@@ -13000,7 +14040,7 @@ const shorthandMap = {
         ]
     },
     "🌬️": {
-        "i": "1237",
+        "i": "1334",
         "codePoint": "U+1F32C+FE0F",
         "name": "wind face",
         "entities": "",
@@ -13010,7 +14050,7 @@ const shorthandMap = {
         ]
     },
     "🌀": {
-        "i": "1238",
+        "i": "1335",
         "codePoint": "U+1F300",
         "name": "cyclone",
         "entities": "",
@@ -13026,7 +14066,7 @@ const shorthandMap = {
         ]
     },
     "🌈": {
-        "i": "1239",
+        "i": "1336",
         "codePoint": "U+1F308",
         "name": "rainbow",
         "entities": "",
@@ -13036,7 +14076,7 @@ const shorthandMap = {
         ]
     },
     "🌂": {
-        "i": "1240",
+        "i": "1337",
         "codePoint": "U+1F302",
         "name": "closed umbrella",
         "entities": "",
@@ -13047,7 +14087,7 @@ const shorthandMap = {
         ]
     },
     "☂️": {
-        "i": "1241",
+        "i": "1338",
         "codePoint": "U+2602+FE0F",
         "name": "umbrella",
         "entities": "",
@@ -13057,7 +14097,7 @@ const shorthandMap = {
         ]
     },
     "☔": {
-        "i": "1242",
+        "i": "1339",
         "codePoint": "U+2614",
         "name": "umbrella with rain drops",
         "entities": "",
@@ -13067,7 +14107,7 @@ const shorthandMap = {
         ]
     },
     "⛱️": {
-        "i": "1243",
+        "i": "1340",
         "codePoint": "U+26F1+FE0F",
         "name": "umbrella on ground",
         "entities": "",
@@ -13077,7 +14117,7 @@ const shorthandMap = {
         ]
     },
     "⚡": {
-        "i": "1244",
+        "i": "1341",
         "codePoint": "U+26A1",
         "name": "high voltage sign",
         "entities": "",
@@ -13089,7 +14129,7 @@ const shorthandMap = {
         ]
     },
     "❄️": {
-        "i": "1245",
+        "i": "1342",
         "codePoint": "U+2744+FE0F",
         "name": "snowflake",
         "entities": "",
@@ -13099,7 +14139,7 @@ const shorthandMap = {
         ]
     },
     "☃️": {
-        "i": "1246",
+        "i": "1343",
         "codePoint": "U+2603+FE0F",
         "name": "snowman",
         "entities": "",
@@ -13109,7 +14149,7 @@ const shorthandMap = {
         ]
     },
     "⛄": {
-        "i": "1247",
+        "i": "1344",
         "codePoint": "U+26C4",
         "name": "snowman without snow",
         "entities": "",
@@ -13119,7 +14159,7 @@ const shorthandMap = {
         ]
     },
     "☄️": {
-        "i": "1248",
+        "i": "1345",
         "codePoint": "U+2604+FE0F",
         "name": "comet",
         "entities": "",
@@ -13129,7 +14169,7 @@ const shorthandMap = {
         ]
     },
     "🔥": {
-        "i": "1249",
+        "i": "1346",
         "codePoint": "U+1F525",
         "name": "fire",
         "entities": "",
@@ -13139,7 +14179,7 @@ const shorthandMap = {
         ]
     },
     "💧": {
-        "i": "1250",
+        "i": "1347",
         "codePoint": "U+1F4A7",
         "name": "droplet",
         "entities": "",
@@ -13149,7 +14189,7 @@ const shorthandMap = {
         ]
     },
     "🌊": {
-        "i": "1251",
+        "i": "1348",
         "codePoint": "U+1F30A",
         "name": "water wave",
         "entities": "",
@@ -13159,7 +14199,7 @@ const shorthandMap = {
         ]
     },
     "🎃": {
-        "i": "1252",
+        "i": "1349",
         "codePoint": "U+1F383",
         "name": "jack-o-lantern",
         "entities": "",
@@ -13170,7 +14210,7 @@ const shorthandMap = {
         ]
     },
     "🎄": {
-        "i": "1253",
+        "i": "1350",
         "codePoint": "U+1F384",
         "name": "christmas tree",
         "entities": "",
@@ -13182,7 +14222,7 @@ const shorthandMap = {
         ]
     },
     "🎆": {
-        "i": "1254",
+        "i": "1351",
         "codePoint": "U+1F386",
         "name": "fireworks",
         "entities": "",
@@ -13192,7 +14232,7 @@ const shorthandMap = {
         ]
     },
     "🎇": {
-        "i": "1255",
+        "i": "1352",
         "codePoint": "U+1F387",
         "name": "firework sparkler",
         "entities": "",
@@ -13203,7 +14243,7 @@ const shorthandMap = {
         ]
     },
     "🧨": {
-        "i": "1256",
+        "i": "1353",
         "codePoint": "U+1F9E8",
         "name": "firecracker",
         "entities": "",
@@ -13214,7 +14254,7 @@ const shorthandMap = {
         ]
     },
     "✨": {
-        "i": "1257",
+        "i": "1354",
         "codePoint": "U+2728",
         "name": "sparkles",
         "entities": "",
@@ -13224,7 +14264,7 @@ const shorthandMap = {
         ]
     },
     "🎈": {
-        "i": "1258",
+        "i": "1355",
         "codePoint": "U+1F388",
         "name": "balloon",
         "entities": "",
@@ -13234,7 +14274,7 @@ const shorthandMap = {
         ]
     },
     "🎉": {
-        "i": "1259",
+        "i": "1356",
         "codePoint": "U+1F389",
         "name": "party popper",
         "entities": "",
@@ -13244,7 +14284,7 @@ const shorthandMap = {
         ]
     },
     "🎊": {
-        "i": "1260",
+        "i": "1357",
         "codePoint": "U+1F38A",
         "name": "confetti ball",
         "entities": "",
@@ -13254,7 +14294,7 @@ const shorthandMap = {
         ]
     },
     "🎋": {
-        "i": "1261",
+        "i": "1358",
         "codePoint": "U+1F38B",
         "name": "tanabata tree",
         "entities": "",
@@ -13265,7 +14305,7 @@ const shorthandMap = {
         ]
     },
     "🎍": {
-        "i": "1262",
+        "i": "1359",
         "codePoint": "U+1F38D",
         "name": "pine decoration",
         "entities": "",
@@ -13275,7 +14315,7 @@ const shorthandMap = {
         ]
     },
     "🎎": {
-        "i": "1263",
+        "i": "1360",
         "codePoint": "U+1F38E",
         "name": "Japanese dolls",
         "entities": "",
@@ -13285,7 +14325,7 @@ const shorthandMap = {
         ]
     },
     "🎏": {
-        "i": "1264",
+        "i": "1361",
         "codePoint": "U+1F38F",
         "name": "carp streamer",
         "entities": "",
@@ -13296,7 +14336,7 @@ const shorthandMap = {
         ]
     },
     "🎐": {
-        "i": "1265",
+        "i": "1362",
         "codePoint": "U+1F390",
         "name": "wind chime",
         "entities": "",
@@ -13306,7 +14346,7 @@ const shorthandMap = {
         ]
     },
     "🎑": {
-        "i": "1266",
+        "i": "1363",
         "codePoint": "U+1F391",
         "name": "Moon viewing ceremony",
         "entities": "",
@@ -13317,7 +14357,7 @@ const shorthandMap = {
         ]
     },
     "🧧": {
-        "i": "1267",
+        "i": "1364",
         "codePoint": "U+1F9E7",
         "name": "red gift envelope",
         "entities": "",
@@ -13328,7 +14368,7 @@ const shorthandMap = {
         ]
     },
     "🎀": {
-        "i": "1268",
+        "i": "1365",
         "codePoint": "U+1F380",
         "name": "ribbon",
         "entities": "",
@@ -13338,7 +14378,7 @@ const shorthandMap = {
         ]
     },
     "🎁": {
-        "i": "1269",
+        "i": "1366",
         "codePoint": "U+1F381",
         "name": "wrapped present",
         "entities": "",
@@ -13349,7 +14389,7 @@ const shorthandMap = {
         ]
     },
     "🎗️": {
-        "i": "1270",
+        "i": "1367",
         "codePoint": "U+1F397+FE0F",
         "name": "reminder ribbon",
         "entities": "",
@@ -13360,7 +14400,7 @@ const shorthandMap = {
         ]
     },
     "🎟️": {
-        "i": "1271",
+        "i": "1368",
         "codePoint": "U+1F39F+FE0F",
         "name": "admission tickets",
         "entities": "",
@@ -13371,7 +14411,7 @@ const shorthandMap = {
         ]
     },
     "🎫": {
-        "i": "1272",
+        "i": "1369",
         "codePoint": "U+1F3AB",
         "name": "ticket",
         "entities": "",
@@ -13382,7 +14422,7 @@ const shorthandMap = {
         ]
     },
     "🎖️": {
-        "i": "1273",
+        "i": "1370",
         "codePoint": "U+1F396+FE0F",
         "name": "military medal",
         "entities": "",
@@ -13393,7 +14433,7 @@ const shorthandMap = {
         ]
     },
     "🏆": {
-        "i": "1274",
+        "i": "1371",
         "codePoint": "U+1F3C6",
         "name": "trophy",
         "entities": "",
@@ -13405,7 +14445,7 @@ const shorthandMap = {
         ]
     },
     "🏅": {
-        "i": "1275",
+        "i": "1372",
         "codePoint": "U+1F3C5",
         "name": "sports medal",
         "entities": "",
@@ -13415,7 +14455,7 @@ const shorthandMap = {
         ]
     },
     "🥇": {
-        "i": "1276",
+        "i": "1373",
         "codePoint": "U+1F947",
         "name": "first place medal",
         "entities": "",
@@ -13426,7 +14466,7 @@ const shorthandMap = {
         ]
     },
     "🥈": {
-        "i": "1277",
+        "i": "1374",
         "codePoint": "U+1F948",
         "name": "second place medal",
         "entities": "",
@@ -13437,7 +14477,7 @@ const shorthandMap = {
         ]
     },
     "🥉": {
-        "i": "1278",
+        "i": "1375",
         "codePoint": "U+1F949",
         "name": "third place medal",
         "entities": "",
@@ -13448,7 +14488,7 @@ const shorthandMap = {
         ]
     },
     "⚽": {
-        "i": "1279",
+        "i": "1376",
         "codePoint": "U+26BD",
         "name": "soccer ball",
         "entities": "",
@@ -13458,7 +14498,7 @@ const shorthandMap = {
         ]
     },
     "⚾": {
-        "i": "1280",
+        "i": "1377",
         "codePoint": "U+26BE",
         "name": "baseball",
         "entities": "",
@@ -13468,7 +14508,7 @@ const shorthandMap = {
         ]
     },
     "🥎": {
-        "i": "1281",
+        "i": "1378",
         "codePoint": "U+1F94E",
         "name": "softball",
         "entities": "",
@@ -13478,7 +14518,7 @@ const shorthandMap = {
         ]
     },
     "🏀": {
-        "i": "1282",
+        "i": "1379",
         "codePoint": "U+1F3C0",
         "name": "basketball and hoop",
         "entities": "",
@@ -13489,7 +14529,7 @@ const shorthandMap = {
         ]
     },
     "🏐": {
-        "i": "1283",
+        "i": "1380",
         "codePoint": "U+1F3D0",
         "name": "volleyball",
         "entities": "",
@@ -13499,7 +14539,7 @@ const shorthandMap = {
         ]
     },
     "🏈": {
-        "i": "1284",
+        "i": "1381",
         "codePoint": "U+1F3C8",
         "name": "American football",
         "entities": "",
@@ -13510,7 +14550,7 @@ const shorthandMap = {
         ]
     },
     "🏉": {
-        "i": "1285",
+        "i": "1382",
         "codePoint": "U+1F3C9",
         "name": "rugby football",
         "entities": "",
@@ -13520,7 +14560,7 @@ const shorthandMap = {
         ]
     },
     "🎾": {
-        "i": "1286",
+        "i": "1383",
         "codePoint": "U+1F3BE",
         "name": "tennis racquet and ball",
         "entities": "",
@@ -13530,7 +14570,7 @@ const shorthandMap = {
         ]
     },
     "🥏": {
-        "i": "1287",
+        "i": "1384",
         "codePoint": "U+1F94F",
         "name": "flying disc",
         "entities": "",
@@ -13541,7 +14581,7 @@ const shorthandMap = {
         ]
     },
     "🎳": {
-        "i": "1288",
+        "i": "1385",
         "codePoint": "U+1F3B3",
         "name": "bowling",
         "entities": "",
@@ -13551,7 +14591,7 @@ const shorthandMap = {
         ]
     },
     "🏏": {
-        "i": "1289",
+        "i": "1386",
         "codePoint": "U+1F3CF",
         "name": "cricket bat and ball",
         "entities": "",
@@ -13561,7 +14601,7 @@ const shorthandMap = {
         ]
     },
     "🏑": {
-        "i": "1290",
+        "i": "1387",
         "codePoint": "U+1F3D1",
         "name": "field hockey stick and ball",
         "entities": "",
@@ -13571,7 +14611,7 @@ const shorthandMap = {
         ]
     },
     "🏒": {
-        "i": "1291",
+        "i": "1388",
         "codePoint": "U+1F3D2",
         "name": "ice hockey stick and puck",
         "entities": "",
@@ -13581,7 +14621,7 @@ const shorthandMap = {
         ]
     },
     "🥍": {
-        "i": "1292",
+        "i": "1389",
         "codePoint": "U+1F94D",
         "name": "lacrosse stick and ball",
         "entities": "",
@@ -13592,7 +14632,7 @@ const shorthandMap = {
         ]
     },
     "🏓": {
-        "i": "1293",
+        "i": "1390",
         "codePoint": "U+1F3D3",
         "name": "table tennis paddle and ball",
         "entities": "",
@@ -13603,7 +14643,7 @@ const shorthandMap = {
         ]
     },
     "🏸": {
-        "i": "1294",
+        "i": "1391",
         "codePoint": "U+1F3F8",
         "name": "badminton racquet and shuttlecock",
         "entities": "",
@@ -13613,7 +14653,7 @@ const shorthandMap = {
         ]
     },
     "🥊": {
-        "i": "1295",
+        "i": "1392",
         "codePoint": "U+1F94A",
         "name": "boxing glove",
         "entities": "",
@@ -13623,7 +14663,7 @@ const shorthandMap = {
         ]
     },
     "🥋": {
-        "i": "1296",
+        "i": "1393",
         "codePoint": "U+1F94B",
         "name": "martial arts uniform",
         "entities": "",
@@ -13635,7 +14675,7 @@ const shorthandMap = {
         ]
     },
     "🥅": {
-        "i": "1297",
+        "i": "1394",
         "codePoint": "U+1F945",
         "name": "goal net",
         "entities": "",
@@ -13645,7 +14685,7 @@ const shorthandMap = {
         ]
     },
     "⛳": {
-        "i": "1298",
+        "i": "1395",
         "codePoint": "U+26F3",
         "name": "flag in hole",
         "entities": "",
@@ -13655,7 +14695,7 @@ const shorthandMap = {
         ]
     },
     "⛸️": {
-        "i": "1299",
+        "i": "1396",
         "codePoint": "U+26F8+FE0F",
         "name": "ice skate",
         "entities": "",
@@ -13665,7 +14705,7 @@ const shorthandMap = {
         ]
     },
     "🎣": {
-        "i": "1300",
+        "i": "1397",
         "codePoint": "U+1F3A3",
         "name": "fishing pole and fish",
         "entities": "",
@@ -13675,7 +14715,7 @@ const shorthandMap = {
         ]
     },
     "🤿": {
-        "i": "1301",
+        "i": "1398",
         "codePoint": "U+1F93F",
         "name": "diving mask",
         "entities": "",
@@ -13685,7 +14725,7 @@ const shorthandMap = {
         ]
     },
     "🎽": {
-        "i": "1302",
+        "i": "1399",
         "codePoint": "U+1F3BD",
         "name": "running shirt with sash",
         "entities": "",
@@ -13697,7 +14737,7 @@ const shorthandMap = {
         ]
     },
     "🎿": {
-        "i": "1303",
+        "i": "1400",
         "codePoint": "U+1F3BF",
         "name": "ski and ski boot",
         "entities": "",
@@ -13708,7 +14748,7 @@ const shorthandMap = {
         ]
     },
     "🛷": {
-        "i": "1304",
+        "i": "1401",
         "codePoint": "U+1F6F7",
         "name": "sled",
         "entities": "",
@@ -13720,7 +14760,7 @@ const shorthandMap = {
         ]
     },
     "🥌": {
-        "i": "1305",
+        "i": "1402",
         "codePoint": "U+1F94C",
         "name": "curling stone",
         "entities": "",
@@ -13730,7 +14770,7 @@ const shorthandMap = {
         ]
     },
     "🎯": {
-        "i": "1306",
+        "i": "1403",
         "codePoint": "U+1F3AF",
         "name": "direct hit",
         "entities": "",
@@ -13743,7 +14783,7 @@ const shorthandMap = {
         ]
     },
     "🪀": {
-        "i": "1307",
+        "i": "1404",
         "codePoint": "U+1FA80",
         "name": "yo-yo",
         "entities": "",
@@ -13753,7 +14793,7 @@ const shorthandMap = {
         ]
     },
     "🪁": {
-        "i": "1308",
+        "i": "1405",
         "codePoint": "U+1FA81",
         "name": "kite",
         "entities": "",
@@ -13763,7 +14803,7 @@ const shorthandMap = {
         ]
     },
     "🔫": {
-        "i": "1309",
+        "i": "1406",
         "codePoint": "U+1F52B",
         "name": "pistol",
         "entities": "",
@@ -13773,7 +14813,7 @@ const shorthandMap = {
         ]
     },
     "🎱": {
-        "i": "1310",
+        "i": "1407",
         "codePoint": "U+1F3B1",
         "name": "billiards",
         "entities": "",
@@ -13783,7 +14823,7 @@ const shorthandMap = {
         ]
     },
     "🔮": {
-        "i": "1311",
+        "i": "1408",
         "codePoint": "U+1F52E",
         "name": "crystal ball",
         "entities": "",
@@ -13793,7 +14833,7 @@ const shorthandMap = {
         ]
     },
     "🪄": {
-        "i": "1312",
+        "i": "1409",
         "codePoint": "U+1FA84",
         "name": "magic wand",
         "entities": "",
@@ -13803,7 +14843,7 @@ const shorthandMap = {
         ]
     },
     "🎮": {
-        "i": "1313",
+        "i": "1410",
         "codePoint": "U+1F3AE",
         "name": "video game",
         "entities": "",
@@ -13815,7 +14855,7 @@ const shorthandMap = {
         ]
     },
     "🕹️": {
-        "i": "1314",
+        "i": "1411",
         "codePoint": "U+1F579+FE0F",
         "name": "joystick",
         "entities": "",
@@ -13825,7 +14865,7 @@ const shorthandMap = {
         ]
     },
     "🎰": {
-        "i": "1315",
+        "i": "1412",
         "codePoint": "U+1F3B0",
         "name": "slot machine",
         "entities": "",
@@ -13838,7 +14878,7 @@ const shorthandMap = {
         ]
     },
     "🎲": {
-        "i": "1316",
+        "i": "1413",
         "codePoint": "U+1F3B2",
         "name": "game die",
         "entities": "",
@@ -13850,7 +14890,7 @@ const shorthandMap = {
         ]
     },
     "🧩": {
-        "i": "1317",
+        "i": "1414",
         "codePoint": "U+1F9E9",
         "name": "jigsaw puzzle piece",
         "entities": "",
@@ -13863,7 +14903,7 @@ const shorthandMap = {
         ]
     },
     "🧸": {
-        "i": "1318",
+        "i": "1415",
         "codePoint": "U+1F9F8",
         "name": "teddy bear",
         "entities": "",
@@ -13873,7 +14913,7 @@ const shorthandMap = {
         ]
     },
     "🪅": {
-        "i": "1319",
+        "i": "1416",
         "codePoint": "U+1FA85",
         "name": "pinata",
         "entities": "",
@@ -13884,7 +14924,7 @@ const shorthandMap = {
         ]
     },
     "🪩": {
-        "i": "1320",
+        "i": "1417",
         "codePoint": "U+1FAA9",
         "name": "mirror ball",
         "entities": "",
@@ -13894,7 +14934,7 @@ const shorthandMap = {
         ]
     },
     "🪆": {
-        "i": "1321",
+        "i": "1418",
         "codePoint": "U+1FA86",
         "name": "nesting dolls",
         "entities": "",
@@ -13904,7 +14944,7 @@ const shorthandMap = {
         ]
     },
     "♠️": {
-        "i": "1322",
+        "i": "1419",
         "codePoint": "U+2660+FE0F",
         "name": "spade suit",
         "entities": "",
@@ -13914,7 +14954,7 @@ const shorthandMap = {
         ]
     },
     "♥️": {
-        "i": "1323",
+        "i": "1420",
         "codePoint": "U+2665+FE0F",
         "name": "heart suit",
         "entities": "",
@@ -13924,7 +14964,7 @@ const shorthandMap = {
         ]
     },
     "♦️": {
-        "i": "1324",
+        "i": "1421",
         "codePoint": "U+2666+FE0F",
         "name": "diamond suit",
         "entities": "",
@@ -13934,7 +14974,7 @@ const shorthandMap = {
         ]
     },
     "♣️": {
-        "i": "1325",
+        "i": "1422",
         "codePoint": "U+2663+FE0F",
         "name": "club suit",
         "entities": "",
@@ -13944,7 +14984,7 @@ const shorthandMap = {
         ]
     },
     "♟️": {
-        "i": "1326",
+        "i": "1423",
         "codePoint": "U+265F+FE0F",
         "name": "chess pawn",
         "entities": "",
@@ -13954,7 +14994,7 @@ const shorthandMap = {
         ]
     },
     "🃏": {
-        "i": "1327",
+        "i": "1424",
         "codePoint": "U+1F0CF",
         "name": "playing card black joker",
         "entities": "",
@@ -13964,7 +15004,7 @@ const shorthandMap = {
         ]
     },
     "🀄": {
-        "i": "1328",
+        "i": "1425",
         "codePoint": "U+1F004",
         "name": "mahjong tile red dragon",
         "entities": "",
@@ -13975,7 +15015,7 @@ const shorthandMap = {
         ]
     },
     "🎴": {
-        "i": "1329",
+        "i": "1426",
         "codePoint": "U+1F3B4",
         "name": "flower playing cards",
         "entities": "",
@@ -13985,7 +15025,7 @@ const shorthandMap = {
         ]
     },
     "🎭": {
-        "i": "1330",
+        "i": "1427",
         "codePoint": "U+1F3AD",
         "name": "performing arts",
         "entities": "",
@@ -13996,7 +15036,7 @@ const shorthandMap = {
         ]
     },
     "🖼️": {
-        "i": "1331",
+        "i": "1428",
         "codePoint": "U+1F5BC+FE0F",
         "name": "framed picture",
         "entities": "",
@@ -14006,7 +15046,7 @@ const shorthandMap = {
         ]
     },
     "🎨": {
-        "i": "1332",
+        "i": "1429",
         "codePoint": "U+1F3A8",
         "name": "artist palette",
         "entities": "",
@@ -14018,7 +15058,7 @@ const shorthandMap = {
         ]
     },
     "🧵": {
-        "i": "1333",
+        "i": "1430",
         "codePoint": "U+1F9F5",
         "name": "spool of thread",
         "entities": "",
@@ -14032,7 +15072,7 @@ const shorthandMap = {
         ]
     },
     "🪡": {
-        "i": "1334",
+        "i": "1431",
         "codePoint": "U+1FAA1",
         "name": "sewing needle",
         "entities": "",
@@ -14042,7 +15082,7 @@ const shorthandMap = {
         ]
     },
     "🧶": {
-        "i": "1335",
+        "i": "1432",
         "codePoint": "U+1F9F6",
         "name": "ball of yarn",
         "entities": "",
@@ -14054,7 +15094,7 @@ const shorthandMap = {
         ]
     },
     "🪢": {
-        "i": "1336",
+        "i": "1433",
         "codePoint": "U+1FAA2",
         "name": "knot",
         "entities": "",
@@ -14065,7 +15105,7 @@ const shorthandMap = {
         ]
     },
     "👓": {
-        "i": "1337",
+        "i": "1434",
         "codePoint": "U+1F453",
         "name": "eyeglasses",
         "entities": "",
@@ -14077,7 +15117,7 @@ const shorthandMap = {
         ]
     },
     "🕶️": {
-        "i": "1338",
+        "i": "1435",
         "codePoint": "U+1F576+FE0F",
         "name": "sunglasses",
         "entities": "",
@@ -14087,7 +15127,7 @@ const shorthandMap = {
         ]
     },
     "🥽": {
-        "i": "1339",
+        "i": "1436",
         "codePoint": "U+1F97D",
         "name": "goggles",
         "entities": "",
@@ -14098,7 +15138,7 @@ const shorthandMap = {
         ]
     },
     "🥼": {
-        "i": "1340",
+        "i": "1437",
         "codePoint": "U+1F97C",
         "name": "lab coat",
         "entities": "",
@@ -14108,7 +15148,7 @@ const shorthandMap = {
         ]
     },
     "🦺": {
-        "i": "1341",
+        "i": "1438",
         "codePoint": "U+1F9BA",
         "name": "safety vest",
         "entities": "",
@@ -14118,7 +15158,7 @@ const shorthandMap = {
         ]
     },
     "👔": {
-        "i": "1342",
+        "i": "1439",
         "codePoint": "U+1F454",
         "name": "necktie",
         "entities": "",
@@ -14129,7 +15169,7 @@ const shorthandMap = {
         ]
     },
     "👕": {
-        "i": "1343",
+        "i": "1440",
         "codePoint": "U+1F455",
         "name": "t-shirt",
         "entities": "",
@@ -14141,7 +15181,7 @@ const shorthandMap = {
         ]
     },
     "👖": {
-        "i": "1344",
+        "i": "1441",
         "codePoint": "U+1F456",
         "name": "jeans",
         "entities": "",
@@ -14151,7 +15191,7 @@ const shorthandMap = {
         ]
     },
     "🧣": {
-        "i": "1345",
+        "i": "1442",
         "codePoint": "U+1F9E3",
         "name": "scarf",
         "entities": "",
@@ -14161,7 +15201,7 @@ const shorthandMap = {
         ]
     },
     "🧤": {
-        "i": "1346",
+        "i": "1443",
         "codePoint": "U+1F9E4",
         "name": "gloves",
         "entities": "",
@@ -14171,7 +15211,7 @@ const shorthandMap = {
         ]
     },
     "🧥": {
-        "i": "1347",
+        "i": "1444",
         "codePoint": "U+1F9E5",
         "name": "coat",
         "entities": "",
@@ -14181,7 +15221,7 @@ const shorthandMap = {
         ]
     },
     "🧦": {
-        "i": "1348",
+        "i": "1445",
         "codePoint": "U+1F9E6",
         "name": "socks",
         "entities": "",
@@ -14191,7 +15231,7 @@ const shorthandMap = {
         ]
     },
     "👗": {
-        "i": "1349",
+        "i": "1446",
         "codePoint": "U+1F457",
         "name": "dress",
         "entities": "",
@@ -14201,7 +15241,7 @@ const shorthandMap = {
         ]
     },
     "👘": {
-        "i": "1350",
+        "i": "1447",
         "codePoint": "U+1F458",
         "name": "kimono",
         "entities": "",
@@ -14211,7 +15251,7 @@ const shorthandMap = {
         ]
     },
     "🥻": {
-        "i": "1351",
+        "i": "1448",
         "codePoint": "U+1F97B",
         "name": "sari",
         "entities": "",
@@ -14221,7 +15261,7 @@ const shorthandMap = {
         ]
     },
     "🩱": {
-        "i": "1352",
+        "i": "1449",
         "codePoint": "U+1FA71",
         "name": "one-piece swimsuit",
         "entities": "",
@@ -14231,7 +15271,7 @@ const shorthandMap = {
         ]
     },
     "🩲": {
-        "i": "1353",
+        "i": "1450",
         "codePoint": "U+1FA72",
         "name": "briefs",
         "entities": "",
@@ -14241,7 +15281,7 @@ const shorthandMap = {
         ]
     },
     "🩳": {
-        "i": "1354",
+        "i": "1451",
         "codePoint": "U+1FA73",
         "name": "shorts",
         "entities": "",
@@ -14251,7 +15291,7 @@ const shorthandMap = {
         ]
     },
     "👙": {
-        "i": "1355",
+        "i": "1452",
         "codePoint": "U+1F459",
         "name": "bikini",
         "entities": "",
@@ -14261,7 +15301,7 @@ const shorthandMap = {
         ]
     },
     "👚": {
-        "i": "1356",
+        "i": "1453",
         "codePoint": "U+1F45A",
         "name": "womans clothes",
         "entities": "",
@@ -14271,7 +15311,7 @@ const shorthandMap = {
         ]
     },
     "🪭": {
-        "i": "1357",
+        "i": "1454",
         "codePoint": "U+1FAAD",
         "name": "folding hand fan",
         "entities": "",
@@ -14281,7 +15321,7 @@ const shorthandMap = {
         ]
     },
     "👛": {
-        "i": "1358",
+        "i": "1455",
         "codePoint": "U+1F45B",
         "name": "purse",
         "entities": "",
@@ -14291,7 +15331,7 @@ const shorthandMap = {
         ]
     },
     "👜": {
-        "i": "1359",
+        "i": "1456",
         "codePoint": "U+1F45C",
         "name": "handbag",
         "entities": "",
@@ -14301,7 +15341,7 @@ const shorthandMap = {
         ]
     },
     "👝": {
-        "i": "1360",
+        "i": "1457",
         "codePoint": "U+1F45D",
         "name": "pouch",
         "entities": "",
@@ -14312,7 +15352,7 @@ const shorthandMap = {
         ]
     },
     "🛍️": {
-        "i": "1361",
+        "i": "1458",
         "codePoint": "U+1F6CD+FE0F",
         "name": "shopping bags",
         "entities": "",
@@ -14323,7 +15363,7 @@ const shorthandMap = {
         ]
     },
     "🎒": {
-        "i": "1362",
+        "i": "1459",
         "codePoint": "U+1F392",
         "name": "school satchel",
         "entities": "",
@@ -14333,7 +15373,7 @@ const shorthandMap = {
         ]
     },
     "🩴": {
-        "i": "1363",
+        "i": "1460",
         "codePoint": "U+1FA74",
         "name": "thong sandal",
         "entities": "",
@@ -14343,7 +15383,7 @@ const shorthandMap = {
         ]
     },
     "👞": {
-        "i": "1364",
+        "i": "1461",
         "codePoint": "U+1F45E",
         "name": "mans shoe",
         "entities": "",
@@ -14353,7 +15393,7 @@ const shorthandMap = {
         ]
     },
     "👟": {
-        "i": "1365",
+        "i": "1462",
         "codePoint": "U+1F45F",
         "name": "athletic shoe",
         "entities": "",
@@ -14365,7 +15405,7 @@ const shorthandMap = {
         ]
     },
     "🥾": {
-        "i": "1366",
+        "i": "1463",
         "codePoint": "U+1F97E",
         "name": "hiking boot",
         "entities": "",
@@ -14376,7 +15416,7 @@ const shorthandMap = {
         ]
     },
     "🥿": {
-        "i": "1367",
+        "i": "1464",
         "codePoint": "U+1F97F",
         "name": "flat shoe",
         "entities": "",
@@ -14388,7 +15428,7 @@ const shorthandMap = {
         ]
     },
     "👠": {
-        "i": "1368",
+        "i": "1465",
         "codePoint": "U+1F460",
         "name": "high-heeled shoe",
         "entities": "",
@@ -14399,7 +15439,7 @@ const shorthandMap = {
         ]
     },
     "👡": {
-        "i": "1369",
+        "i": "1466",
         "codePoint": "U+1F461",
         "name": "womans sandal",
         "entities": "",
@@ -14410,7 +15450,7 @@ const shorthandMap = {
         ]
     },
     "🩰": {
-        "i": "1370",
+        "i": "1467",
         "codePoint": "U+1FA70",
         "name": "ballet shoes",
         "entities": "",
@@ -14420,7 +15460,7 @@ const shorthandMap = {
         ]
     },
     "👢": {
-        "i": "1371",
+        "i": "1468",
         "codePoint": "U+1F462",
         "name": "womans boots",
         "entities": "",
@@ -14430,7 +15470,7 @@ const shorthandMap = {
         ]
     },
     "🪮": {
-        "i": "1372",
+        "i": "1469",
         "codePoint": "U+1FAAE",
         "name": "hair pick",
         "entities": "",
@@ -14441,7 +15481,7 @@ const shorthandMap = {
         ]
     },
     "👑": {
-        "i": "1373",
+        "i": "1470",
         "codePoint": "U+1F451",
         "name": "crown",
         "entities": "",
@@ -14453,7 +15493,7 @@ const shorthandMap = {
         ]
     },
     "👒": {
-        "i": "1374",
+        "i": "1471",
         "codePoint": "U+1F452",
         "name": "womans hat",
         "entities": "",
@@ -14463,7 +15503,7 @@ const shorthandMap = {
         ]
     },
     "🎩": {
-        "i": "1375",
+        "i": "1472",
         "codePoint": "U+1F3A9",
         "name": "top hat",
         "entities": "",
@@ -14474,7 +15514,7 @@ const shorthandMap = {
         ]
     },
     "🎓": {
-        "i": "1376",
+        "i": "1473",
         "codePoint": "U+1F393",
         "name": "graduation cap",
         "entities": "",
@@ -14487,7 +15527,7 @@ const shorthandMap = {
         ]
     },
     "🧢": {
-        "i": "1377",
+        "i": "1474",
         "codePoint": "U+1F9E2",
         "name": "billed cap",
         "entities": "",
@@ -14497,7 +15537,7 @@ const shorthandMap = {
         ]
     },
     "🪖": {
-        "i": "1378",
+        "i": "1475",
         "codePoint": "U+1FA96",
         "name": "military helmet",
         "entities": "",
@@ -14507,7 +15547,7 @@ const shorthandMap = {
         ]
     },
     "⛑️": {
-        "i": "1379",
+        "i": "1476",
         "codePoint": "U+26D1+FE0F",
         "name": "rescue worker’s helmet",
         "entities": "",
@@ -14517,7 +15557,7 @@ const shorthandMap = {
         ]
     },
     "📿": {
-        "i": "1380",
+        "i": "1477",
         "codePoint": "U+1F4FF",
         "name": "prayer beads",
         "entities": "",
@@ -14528,7 +15568,7 @@ const shorthandMap = {
         ]
     },
     "💄": {
-        "i": "1381",
+        "i": "1478",
         "codePoint": "U+1F484",
         "name": "lipstick",
         "entities": "",
@@ -14538,7 +15578,7 @@ const shorthandMap = {
         ]
     },
     "💍": {
-        "i": "1382",
+        "i": "1479",
         "codePoint": "U+1F48D",
         "name": "ring",
         "entities": "",
@@ -14550,7 +15590,7 @@ const shorthandMap = {
         ]
     },
     "💎": {
-        "i": "1383",
+        "i": "1480",
         "codePoint": "U+1F48E",
         "name": "gem stone",
         "entities": "",
@@ -14561,7 +15601,7 @@ const shorthandMap = {
         ]
     },
     "🔇": {
-        "i": "1384",
+        "i": "1481",
         "codePoint": "U+1F507",
         "name": "speaker with cancellation stroke",
         "entities": "",
@@ -14572,7 +15612,7 @@ const shorthandMap = {
         ]
     },
     "🔈": {
-        "i": "1385",
+        "i": "1482",
         "codePoint": "U+1F508",
         "name": "speaker",
         "entities": "",
@@ -14584,7 +15624,7 @@ const shorthandMap = {
         ]
     },
     "🔉": {
-        "i": "1386",
+        "i": "1483",
         "codePoint": "U+1F509",
         "name": "speaker with one sound wave",
         "entities": "",
@@ -14595,7 +15635,7 @@ const shorthandMap = {
         ]
     },
     "🔊": {
-        "i": "1387",
+        "i": "1484",
         "codePoint": "U+1F50A",
         "name": "speaker with three sound waves",
         "entities": "",
@@ -14607,7 +15647,7 @@ const shorthandMap = {
         ]
     },
     "📢": {
-        "i": "1388",
+        "i": "1485",
         "codePoint": "U+1F4E2",
         "name": "public address loudspeaker",
         "entities": "",
@@ -14617,7 +15657,7 @@ const shorthandMap = {
         ]
     },
     "📣": {
-        "i": "1389",
+        "i": "1486",
         "codePoint": "U+1F4E3",
         "name": "cheering megaphone",
         "entities": "",
@@ -14627,7 +15667,7 @@ const shorthandMap = {
         ]
     },
     "📯": {
-        "i": "1390",
+        "i": "1487",
         "codePoint": "U+1F4EF",
         "name": "postal horn",
         "entities": "",
@@ -14637,7 +15677,7 @@ const shorthandMap = {
         ]
     },
     "🔔": {
-        "i": "1391",
+        "i": "1488",
         "codePoint": "U+1F514",
         "name": "bell",
         "entities": "",
@@ -14648,7 +15688,7 @@ const shorthandMap = {
         ]
     },
     "🔕": {
-        "i": "1392",
+        "i": "1489",
         "codePoint": "U+1F515",
         "name": "bell with cancellation stroke",
         "entities": "",
@@ -14660,7 +15700,7 @@ const shorthandMap = {
         ]
     },
     "🎼": {
-        "i": "1393",
+        "i": "1490",
         "codePoint": "U+1F3BC",
         "name": "musical score",
         "entities": "",
@@ -14671,7 +15711,7 @@ const shorthandMap = {
         ]
     },
     "🎵": {
-        "i": "1394",
+        "i": "1491",
         "codePoint": "U+1F3B5",
         "name": "musical note",
         "entities": "",
@@ -14681,7 +15721,7 @@ const shorthandMap = {
         ]
     },
     "🎶": {
-        "i": "1395",
+        "i": "1492",
         "codePoint": "U+1F3B6",
         "name": "multiple musical notes",
         "entities": "",
@@ -14692,7 +15732,7 @@ const shorthandMap = {
         ]
     },
     "🎙️": {
-        "i": "1396",
+        "i": "1493",
         "codePoint": "U+1F399+FE0F",
         "name": "studio microphone",
         "entities": "",
@@ -14703,7 +15743,7 @@ const shorthandMap = {
         ]
     },
     "🎚️": {
-        "i": "1397",
+        "i": "1494",
         "codePoint": "U+1F39A+FE0F",
         "name": "level slider",
         "entities": "",
@@ -14713,7 +15753,7 @@ const shorthandMap = {
         ]
     },
     "🎛️": {
-        "i": "1398",
+        "i": "1495",
         "codePoint": "U+1F39B+FE0F",
         "name": "control knobs",
         "entities": "",
@@ -14723,7 +15763,7 @@ const shorthandMap = {
         ]
     },
     "🎤": {
-        "i": "1399",
+        "i": "1496",
         "codePoint": "U+1F3A4",
         "name": "microphone",
         "entities": "",
@@ -14734,7 +15774,7 @@ const shorthandMap = {
         ]
     },
     "🎧": {
-        "i": "1400",
+        "i": "1497",
         "codePoint": "U+1F3A7",
         "name": "headphone",
         "entities": "",
@@ -14744,7 +15784,7 @@ const shorthandMap = {
         ]
     },
     "📻": {
-        "i": "1401",
+        "i": "1498",
         "codePoint": "U+1F4FB",
         "name": "radio",
         "entities": "",
@@ -14755,7 +15795,7 @@ const shorthandMap = {
         ]
     },
     "🎷": {
-        "i": "1402",
+        "i": "1499",
         "codePoint": "U+1F3B7",
         "name": "saxophone",
         "entities": "",
@@ -14766,7 +15806,7 @@ const shorthandMap = {
         ]
     },
     "🪗": {
-        "i": "1403",
+        "i": "1500",
         "codePoint": "U+1FA97",
         "name": "accordion",
         "entities": "",
@@ -14776,7 +15816,7 @@ const shorthandMap = {
         ]
     },
     "🎸": {
-        "i": "1404",
+        "i": "1501",
         "codePoint": "U+1F3B8",
         "name": "guitar",
         "entities": "",
@@ -14786,7 +15826,7 @@ const shorthandMap = {
         ]
     },
     "🎹": {
-        "i": "1405",
+        "i": "1502",
         "codePoint": "U+1F3B9",
         "name": "musical keyboard",
         "entities": "",
@@ -14796,7 +15836,7 @@ const shorthandMap = {
         ]
     },
     "🎺": {
-        "i": "1406",
+        "i": "1503",
         "codePoint": "U+1F3BA",
         "name": "trumpet",
         "entities": "",
@@ -14806,7 +15846,7 @@ const shorthandMap = {
         ]
     },
     "🎻": {
-        "i": "1407",
+        "i": "1504",
         "codePoint": "U+1F3BB",
         "name": "violin",
         "entities": "",
@@ -14817,7 +15857,7 @@ const shorthandMap = {
         ]
     },
     "🪕": {
-        "i": "1408",
+        "i": "1505",
         "codePoint": "U+1FA95",
         "name": "banjo",
         "entities": "",
@@ -14827,7 +15867,7 @@ const shorthandMap = {
         ]
     },
     "🥁": {
-        "i": "1409",
+        "i": "1506",
         "codePoint": "U+1F941",
         "name": "drum with drumsticks",
         "entities": "",
@@ -14839,7 +15879,7 @@ const shorthandMap = {
         ]
     },
     "🪘": {
-        "i": "1410",
+        "i": "1507",
         "codePoint": "U+1FA98",
         "name": "long drum",
         "entities": "",
@@ -14849,7 +15889,7 @@ const shorthandMap = {
         ]
     },
     "🪇": {
-        "i": "1411",
+        "i": "1508",
         "codePoint": "U+1FA87",
         "name": "maracas",
         "entities": "",
@@ -14859,7 +15899,7 @@ const shorthandMap = {
         ]
     },
     "🪈": {
-        "i": "1412",
+        "i": "1509",
         "codePoint": "U+1FA88",
         "name": "flute",
         "entities": "",
@@ -14870,7 +15910,7 @@ const shorthandMap = {
         ]
     },
     "📱": {
-        "i": "1413",
+        "i": "1510",
         "codePoint": "U+1F4F1",
         "name": "mobile phone",
         "entities": "",
@@ -14881,7 +15921,7 @@ const shorthandMap = {
         ]
     },
     "📲": {
-        "i": "1414",
+        "i": "1511",
         "codePoint": "U+1F4F2",
         "name": "mobile phone with rightwards arrow at left",
         "entities": "",
@@ -14893,7 +15933,7 @@ const shorthandMap = {
         ]
     },
     "☎️": {
-        "i": "1415",
+        "i": "1512",
         "codePoint": "U+260E+FE0F",
         "name": "telephone",
         "entities": "",
@@ -14903,7 +15943,7 @@ const shorthandMap = {
         ]
     },
     "📞": {
-        "i": "1416",
+        "i": "1513",
         "codePoint": "U+1F4DE",
         "name": "telephone receiver",
         "entities": "",
@@ -14913,7 +15953,7 @@ const shorthandMap = {
         ]
     },
     "📟": {
-        "i": "1417",
+        "i": "1514",
         "codePoint": "U+1F4DF",
         "name": "pager",
         "entities": "",
@@ -14924,7 +15964,7 @@ const shorthandMap = {
         ]
     },
     "📠": {
-        "i": "1418",
+        "i": "1515",
         "codePoint": "U+1F4E0",
         "name": "fax machine",
         "entities": "",
@@ -14934,7 +15974,7 @@ const shorthandMap = {
         ]
     },
     "🔋": {
-        "i": "1419",
+        "i": "1516",
         "codePoint": "U+1F50B",
         "name": "battery",
         "entities": "",
@@ -14946,7 +15986,7 @@ const shorthandMap = {
         ]
     },
     "🪫": {
-        "i": "1420",
+        "i": "1517",
         "codePoint": "U+1FAAB",
         "name": "low battery",
         "entities": "",
@@ -14956,7 +15996,7 @@ const shorthandMap = {
         ]
     },
     "🔌": {
-        "i": "1421",
+        "i": "1518",
         "codePoint": "U+1F50C",
         "name": "electric plug",
         "entities": "",
@@ -14966,7 +16006,7 @@ const shorthandMap = {
         ]
     },
     "💻": {
-        "i": "1422",
+        "i": "1519",
         "codePoint": "U+1F4BB",
         "name": "personal computer",
         "entities": "",
@@ -14979,7 +16019,7 @@ const shorthandMap = {
         ]
     },
     "🖥️": {
-        "i": "1423",
+        "i": "1520",
         "codePoint": "U+1F5A5+FE0F",
         "name": "desktop computer",
         "entities": "",
@@ -14989,7 +16029,7 @@ const shorthandMap = {
         ]
     },
     "🖨️": {
-        "i": "1424",
+        "i": "1521",
         "codePoint": "U+1F5A8+FE0F",
         "name": "printer",
         "entities": "",
@@ -15000,7 +16040,7 @@ const shorthandMap = {
         ]
     },
     "⌨️": {
-        "i": "1425",
+        "i": "1522",
         "codePoint": "U+2328+FE0F",
         "name": "keyboard",
         "entities": "",
@@ -15011,7 +16051,7 @@ const shorthandMap = {
         ]
     },
     "🖱️": {
-        "i": "1426",
+        "i": "1523",
         "codePoint": "U+1F5B1+FE0F",
         "name": "computer mouse",
         "entities": "",
@@ -15021,7 +16061,7 @@ const shorthandMap = {
         ]
     },
     "🖲️": {
-        "i": "1427",
+        "i": "1524",
         "codePoint": "U+1F5B2+FE0F",
         "name": "trackball",
         "entities": "",
@@ -15031,7 +16071,7 @@ const shorthandMap = {
         ]
     },
     "💽": {
-        "i": "1428",
+        "i": "1525",
         "codePoint": "U+1F4BD",
         "name": "minidisc",
         "entities": "",
@@ -15043,7 +16083,7 @@ const shorthandMap = {
         ]
     },
     "💾": {
-        "i": "1429",
+        "i": "1526",
         "codePoint": "U+1F4BE",
         "name": "floppy disk",
         "entities": "",
@@ -15054,7 +16094,7 @@ const shorthandMap = {
         ]
     },
     "💿": {
-        "i": "1430",
+        "i": "1527",
         "codePoint": "U+1F4BF",
         "name": "optical disc",
         "entities": "",
@@ -15066,7 +16106,7 @@ const shorthandMap = {
         ]
     },
     "📀": {
-        "i": "1431",
+        "i": "1528",
         "codePoint": "U+1F4C0",
         "name": "dvd",
         "entities": "",
@@ -15076,7 +16116,7 @@ const shorthandMap = {
         ]
     },
     "🧮": {
-        "i": "1432",
+        "i": "1529",
         "codePoint": "U+1F9EE",
         "name": "abacus",
         "entities": "",
@@ -15086,7 +16126,7 @@ const shorthandMap = {
         ]
     },
     "🎥": {
-        "i": "1433",
+        "i": "1530",
         "codePoint": "U+1F3A5",
         "name": "movie camera",
         "entities": "",
@@ -15096,7 +16136,7 @@ const shorthandMap = {
         ]
     },
     "🎞️": {
-        "i": "1434",
+        "i": "1531",
         "codePoint": "U+1F39E+FE0F",
         "name": "film frames",
         "entities": "",
@@ -15106,7 +16146,7 @@ const shorthandMap = {
         ]
     },
     "📽️": {
-        "i": "1435",
+        "i": "1532",
         "codePoint": "U+1F4FD+FE0F",
         "name": "film projector",
         "entities": "",
@@ -15116,7 +16156,7 @@ const shorthandMap = {
         ]
     },
     "🎬": {
-        "i": "1436",
+        "i": "1533",
         "codePoint": "U+1F3AC",
         "name": "clapper board",
         "entities": "",
@@ -15126,7 +16166,7 @@ const shorthandMap = {
         ]
     },
     "📺": {
-        "i": "1437",
+        "i": "1534",
         "codePoint": "U+1F4FA",
         "name": "television",
         "entities": "",
@@ -15136,7 +16176,7 @@ const shorthandMap = {
         ]
     },
     "📷": {
-        "i": "1438",
+        "i": "1535",
         "codePoint": "U+1F4F7",
         "name": "camera",
         "entities": "",
@@ -15146,7 +16186,7 @@ const shorthandMap = {
         ]
     },
     "📸": {
-        "i": "1439",
+        "i": "1536",
         "codePoint": "U+1F4F8",
         "name": "camera with flash",
         "entities": "",
@@ -15156,7 +16196,7 @@ const shorthandMap = {
         ]
     },
     "📹": {
-        "i": "1440",
+        "i": "1537",
         "codePoint": "U+1F4F9",
         "name": "video camera",
         "entities": "",
@@ -15166,7 +16206,7 @@ const shorthandMap = {
         ]
     },
     "📼": {
-        "i": "1441",
+        "i": "1538",
         "codePoint": "U+1F4FC",
         "name": "videocassette",
         "entities": "",
@@ -15176,7 +16216,7 @@ const shorthandMap = {
         ]
     },
     "🔍": {
-        "i": "1442",
+        "i": "1539",
         "codePoint": "U+1F50D",
         "name": "left-pointing magnifying glass",
         "entities": "",
@@ -15188,7 +16228,7 @@ const shorthandMap = {
         ]
     },
     "🔎": {
-        "i": "1443",
+        "i": "1540",
         "codePoint": "U+1F50E",
         "name": "right-pointing magnifying glass",
         "entities": "",
@@ -15199,7 +16239,7 @@ const shorthandMap = {
         ]
     },
     "🕯️": {
-        "i": "1444",
+        "i": "1541",
         "codePoint": "U+1F56F+FE0F",
         "name": "candle",
         "entities": "",
@@ -15209,7 +16249,7 @@ const shorthandMap = {
         ]
     },
     "💡": {
-        "i": "1445",
+        "i": "1542",
         "codePoint": "U+1F4A1",
         "name": "electric light bulb",
         "entities": "",
@@ -15221,7 +16261,7 @@ const shorthandMap = {
         ]
     },
     "🔦": {
-        "i": "1446",
+        "i": "1543",
         "codePoint": "U+1F526",
         "name": "electric torch",
         "entities": "",
@@ -15233,7 +16273,7 @@ const shorthandMap = {
         ]
     },
     "🏮": {
-        "i": "1447",
+        "i": "1544",
         "codePoint": "U+1F3EE",
         "name": "izakaya lantern",
         "entities": "",
@@ -15243,7 +16283,7 @@ const shorthandMap = {
         ]
     },
     "🪔": {
-        "i": "1448",
+        "i": "1545",
         "codePoint": "U+1FA94",
         "name": "diya lamp",
         "entities": "",
@@ -15253,7 +16293,7 @@ const shorthandMap = {
         ]
     },
     "📔": {
-        "i": "1449",
+        "i": "1546",
         "codePoint": "U+1F4D4",
         "name": "notebook with decorative cover",
         "entities": "",
@@ -15264,7 +16304,7 @@ const shorthandMap = {
         ]
     },
     "📕": {
-        "i": "1450",
+        "i": "1547",
         "codePoint": "U+1F4D5",
         "name": "closed book",
         "entities": "",
@@ -15274,7 +16314,7 @@ const shorthandMap = {
         ]
     },
     "📖": {
-        "i": "1451",
+        "i": "1548",
         "codePoint": "U+1F4D6",
         "name": "open book",
         "entities": "",
@@ -15284,7 +16324,7 @@ const shorthandMap = {
         ]
     },
     "📗": {
-        "i": "1452",
+        "i": "1549",
         "codePoint": "U+1F4D7",
         "name": "green book",
         "entities": "",
@@ -15294,7 +16334,7 @@ const shorthandMap = {
         ]
     },
     "📘": {
-        "i": "1453",
+        "i": "1550",
         "codePoint": "U+1F4D8",
         "name": "blue book",
         "entities": "",
@@ -15304,7 +16344,7 @@ const shorthandMap = {
         ]
     },
     "📙": {
-        "i": "1454",
+        "i": "1551",
         "codePoint": "U+1F4D9",
         "name": "orange book",
         "entities": "",
@@ -15314,7 +16354,7 @@ const shorthandMap = {
         ]
     },
     "📚": {
-        "i": "1455",
+        "i": "1552",
         "codePoint": "U+1F4DA",
         "name": "books",
         "entities": "",
@@ -15324,7 +16364,7 @@ const shorthandMap = {
         ]
     },
     "📓": {
-        "i": "1456",
+        "i": "1553",
         "codePoint": "U+1F4D3",
         "name": "notebook",
         "entities": "",
@@ -15334,7 +16374,7 @@ const shorthandMap = {
         ]
     },
     "📒": {
-        "i": "1457",
+        "i": "1554",
         "codePoint": "U+1F4D2",
         "name": "ledger",
         "entities": "",
@@ -15344,7 +16384,7 @@ const shorthandMap = {
         ]
     },
     "📃": {
-        "i": "1458",
+        "i": "1555",
         "codePoint": "U+1F4C3",
         "name": "page with curl",
         "entities": "",
@@ -15354,7 +16394,7 @@ const shorthandMap = {
         ]
     },
     "📜": {
-        "i": "1459",
+        "i": "1556",
         "codePoint": "U+1F4DC",
         "name": "scroll",
         "entities": "",
@@ -15364,7 +16404,7 @@ const shorthandMap = {
         ]
     },
     "📄": {
-        "i": "1460",
+        "i": "1557",
         "codePoint": "U+1F4C4",
         "name": "page facing up",
         "entities": "",
@@ -15374,7 +16414,7 @@ const shorthandMap = {
         ]
     },
     "📰": {
-        "i": "1461",
+        "i": "1558",
         "codePoint": "U+1F4F0",
         "name": "newspaper",
         "entities": "",
@@ -15384,7 +16424,7 @@ const shorthandMap = {
         ]
     },
     "🗞️": {
-        "i": "1462",
+        "i": "1559",
         "codePoint": "U+1F5DE+FE0F",
         "name": "rolled-up newspaper",
         "entities": "",
@@ -15394,7 +16434,7 @@ const shorthandMap = {
         ]
     },
     "📑": {
-        "i": "1463",
+        "i": "1560",
         "codePoint": "U+1F4D1",
         "name": "bookmark tabs",
         "entities": "",
@@ -15406,7 +16446,7 @@ const shorthandMap = {
         ]
     },
     "🔖": {
-        "i": "1464",
+        "i": "1561",
         "codePoint": "U+1F516",
         "name": "bookmark",
         "entities": "",
@@ -15416,7 +16456,7 @@ const shorthandMap = {
         ]
     },
     "🏷️": {
-        "i": "1465",
+        "i": "1562",
         "codePoint": "U+1F3F7+FE0F",
         "name": "label",
         "entities": "",
@@ -15427,7 +16467,7 @@ const shorthandMap = {
         ]
     },
     "💰": {
-        "i": "1466",
+        "i": "1563",
         "codePoint": "U+1F4B0",
         "name": "money bag",
         "entities": "",
@@ -15438,7 +16478,7 @@ const shorthandMap = {
         ]
     },
     "🪙": {
-        "i": "1467",
+        "i": "1564",
         "codePoint": "U+1FA99",
         "name": "coin",
         "entities": "",
@@ -15448,7 +16488,7 @@ const shorthandMap = {
         ]
     },
     "💴": {
-        "i": "1468",
+        "i": "1565",
         "codePoint": "U+1F4B4",
         "name": "banknote with yen sign",
         "entities": "",
@@ -15459,7 +16499,7 @@ const shorthandMap = {
         ]
     },
     "💵": {
-        "i": "1469",
+        "i": "1566",
         "codePoint": "U+1F4B5",
         "name": "banknote with dollar sign",
         "entities": "",
@@ -15470,7 +16510,7 @@ const shorthandMap = {
         ]
     },
     "💶": {
-        "i": "1470",
+        "i": "1567",
         "codePoint": "U+1F4B6",
         "name": "banknote with euro sign",
         "entities": "",
@@ -15480,7 +16520,7 @@ const shorthandMap = {
         ]
     },
     "💷": {
-        "i": "1471",
+        "i": "1568",
         "codePoint": "U+1F4B7",
         "name": "banknote with pound sign",
         "entities": "",
@@ -15493,7 +16533,7 @@ const shorthandMap = {
         ]
     },
     "💸": {
-        "i": "1472",
+        "i": "1569",
         "codePoint": "U+1F4B8",
         "name": "money with wings",
         "entities": "",
@@ -15503,7 +16543,7 @@ const shorthandMap = {
         ]
     },
     "💳": {
-        "i": "1473",
+        "i": "1570",
         "codePoint": "U+1F4B3",
         "name": "credit card",
         "entities": "",
@@ -15513,7 +16553,7 @@ const shorthandMap = {
         ]
     },
     "🧾": {
-        "i": "1474",
+        "i": "1571",
         "codePoint": "U+1F9FE",
         "name": "receipt",
         "entities": "",
@@ -15524,7 +16564,7 @@ const shorthandMap = {
         ]
     },
     "💹": {
-        "i": "1475",
+        "i": "1572",
         "codePoint": "U+1F4B9",
         "name": "chart with upwards trend and yen sign",
         "entities": "",
@@ -15535,7 +16575,7 @@ const shorthandMap = {
         ]
     },
     "✉️": {
-        "i": "1476",
+        "i": "1573",
         "codePoint": "U+2709+FE0F",
         "name": "envelope",
         "entities": "",
@@ -15546,7 +16586,7 @@ const shorthandMap = {
         ]
     },
     "📧": {
-        "i": "1477",
+        "i": "1574",
         "codePoint": "U+1F4E7",
         "name": "e-mail symbol",
         "entities": "",
@@ -15557,7 +16597,7 @@ const shorthandMap = {
         ]
     },
     "📨": {
-        "i": "1478",
+        "i": "1575",
         "codePoint": "U+1F4E8",
         "name": "incoming envelope",
         "entities": "",
@@ -15567,7 +16607,7 @@ const shorthandMap = {
         ]
     },
     "📩": {
-        "i": "1479",
+        "i": "1576",
         "codePoint": "U+1F4E9",
         "name": "envelope with downwards arrow above",
         "entities": "",
@@ -15577,7 +16617,7 @@ const shorthandMap = {
         ]
     },
     "📤": {
-        "i": "1480",
+        "i": "1577",
         "codePoint": "U+1F4E4",
         "name": "outbox tray",
         "entities": "",
@@ -15587,7 +16627,7 @@ const shorthandMap = {
         ]
     },
     "📥": {
-        "i": "1481",
+        "i": "1578",
         "codePoint": "U+1F4E5",
         "name": "inbox tray",
         "entities": "",
@@ -15597,7 +16637,7 @@ const shorthandMap = {
         ]
     },
     "📦": {
-        "i": "1482",
+        "i": "1579",
         "codePoint": "U+1F4E6",
         "name": "package",
         "entities": "",
@@ -15609,7 +16649,7 @@ const shorthandMap = {
         ]
     },
     "📫": {
-        "i": "1483",
+        "i": "1580",
         "codePoint": "U+1F4EB",
         "name": "closed mailbox with raised flag",
         "entities": "",
@@ -15619,7 +16659,7 @@ const shorthandMap = {
         ]
     },
     "📪": {
-        "i": "1484",
+        "i": "1581",
         "codePoint": "U+1F4EA",
         "name": "closed mailbox with lowered flag",
         "entities": "",
@@ -15629,7 +16669,7 @@ const shorthandMap = {
         ]
     },
     "📬": {
-        "i": "1485",
+        "i": "1582",
         "codePoint": "U+1F4EC",
         "name": "open mailbox with raised flag",
         "entities": "",
@@ -15639,7 +16679,7 @@ const shorthandMap = {
         ]
     },
     "📭": {
-        "i": "1486",
+        "i": "1583",
         "codePoint": "U+1F4ED",
         "name": "open mailbox with lowered flag",
         "entities": "",
@@ -15649,7 +16689,7 @@ const shorthandMap = {
         ]
     },
     "📮": {
-        "i": "1487",
+        "i": "1584",
         "codePoint": "U+1F4EE",
         "name": "postbox",
         "entities": "",
@@ -15659,7 +16699,7 @@ const shorthandMap = {
         ]
     },
     "🗳️": {
-        "i": "1488",
+        "i": "1585",
         "codePoint": "U+1F5F3+FE0F",
         "name": "ballot box with ballot",
         "entities": "",
@@ -15669,7 +16709,7 @@ const shorthandMap = {
         ]
     },
     "✏️": {
-        "i": "1489",
+        "i": "1586",
         "codePoint": "U+270F+FE0F",
         "name": "pencil",
         "entities": "",
@@ -15679,7 +16719,7 @@ const shorthandMap = {
         ]
     },
     "✒️": {
-        "i": "1490",
+        "i": "1587",
         "codePoint": "U+2712+FE0F",
         "name": "black nib",
         "entities": "",
@@ -15689,7 +16729,7 @@ const shorthandMap = {
         ]
     },
     "🖋️": {
-        "i": "1491",
+        "i": "1588",
         "codePoint": "U+1F58B+FE0F",
         "name": "fountain pen",
         "entities": "",
@@ -15699,7 +16739,7 @@ const shorthandMap = {
         ]
     },
     "🖊️": {
-        "i": "1492",
+        "i": "1589",
         "codePoint": "U+1F58A+FE0F",
         "name": "pen",
         "entities": "",
@@ -15709,7 +16749,7 @@ const shorthandMap = {
         ]
     },
     "🖌️": {
-        "i": "1493",
+        "i": "1590",
         "codePoint": "U+1F58C+FE0F",
         "name": "paintbrush",
         "entities": "",
@@ -15719,7 +16759,7 @@ const shorthandMap = {
         ]
     },
     "🖍️": {
-        "i": "1494",
+        "i": "1591",
         "codePoint": "U+1F58D+FE0F",
         "name": "crayon",
         "entities": "",
@@ -15729,7 +16769,7 @@ const shorthandMap = {
         ]
     },
     "📝": {
-        "i": "1495",
+        "i": "1592",
         "codePoint": "U+1F4DD",
         "name": "memo",
         "entities": "",
@@ -15739,7 +16779,7 @@ const shorthandMap = {
         ]
     },
     "💼": {
-        "i": "1496",
+        "i": "1593",
         "codePoint": "U+1F4BC",
         "name": "briefcase",
         "entities": "",
@@ -15750,7 +16790,7 @@ const shorthandMap = {
         ]
     },
     "📁": {
-        "i": "1497",
+        "i": "1594",
         "codePoint": "U+1F4C1",
         "name": "file folder",
         "entities": "",
@@ -15760,7 +16800,7 @@ const shorthandMap = {
         ]
     },
     "📂": {
-        "i": "1498",
+        "i": "1595",
         "codePoint": "U+1F4C2",
         "name": "open file folder",
         "entities": "",
@@ -15770,7 +16810,7 @@ const shorthandMap = {
         ]
     },
     "🗂️": {
-        "i": "1499",
+        "i": "1596",
         "codePoint": "U+1F5C2+FE0F",
         "name": "card index dividers",
         "entities": "",
@@ -15780,7 +16820,7 @@ const shorthandMap = {
         ]
     },
     "📅": {
-        "i": "1500",
+        "i": "1597",
         "codePoint": "U+1F4C5",
         "name": "calendar",
         "entities": "",
@@ -15790,7 +16830,7 @@ const shorthandMap = {
         ]
     },
     "📆": {
-        "i": "1501",
+        "i": "1598",
         "codePoint": "U+1F4C6",
         "name": "tear-off calendar",
         "entities": "",
@@ -15800,7 +16840,7 @@ const shorthandMap = {
         ]
     },
     "🗒️": {
-        "i": "1502",
+        "i": "1599",
         "codePoint": "U+1F5D2+FE0F",
         "name": "spiral notepad",
         "entities": "",
@@ -15810,7 +16850,7 @@ const shorthandMap = {
         ]
     },
     "🗓️": {
-        "i": "1503",
+        "i": "1600",
         "codePoint": "U+1F5D3+FE0F",
         "name": "spiral calendar",
         "entities": "",
@@ -15820,7 +16860,7 @@ const shorthandMap = {
         ]
     },
     "📇": {
-        "i": "1504",
+        "i": "1601",
         "codePoint": "U+1F4C7",
         "name": "card index",
         "entities": "",
@@ -15830,7 +16870,7 @@ const shorthandMap = {
         ]
     },
     "📈": {
-        "i": "1505",
+        "i": "1602",
         "codePoint": "U+1F4C8",
         "name": "chart with upwards trend",
         "entities": "",
@@ -15843,7 +16883,7 @@ const shorthandMap = {
         ]
     },
     "📉": {
-        "i": "1506",
+        "i": "1603",
         "codePoint": "U+1F4C9",
         "name": "chart with downwards trend",
         "entities": "",
@@ -15856,7 +16896,7 @@ const shorthandMap = {
         ]
     },
     "📊": {
-        "i": "1507",
+        "i": "1604",
         "codePoint": "U+1F4CA",
         "name": "bar chart",
         "entities": "",
@@ -15866,7 +16906,7 @@ const shorthandMap = {
         ]
     },
     "📋": {
-        "i": "1508",
+        "i": "1605",
         "codePoint": "U+1F4CB",
         "name": "clipboard",
         "entities": "",
@@ -15876,7 +16916,7 @@ const shorthandMap = {
         ]
     },
     "📌": {
-        "i": "1509",
+        "i": "1606",
         "codePoint": "U+1F4CC",
         "name": "pushpin",
         "entities": "",
@@ -15886,7 +16926,7 @@ const shorthandMap = {
         ]
     },
     "📍": {
-        "i": "1510",
+        "i": "1607",
         "codePoint": "U+1F4CD",
         "name": "round pushpin",
         "entities": "",
@@ -15896,7 +16936,7 @@ const shorthandMap = {
         ]
     },
     "📎": {
-        "i": "1511",
+        "i": "1608",
         "codePoint": "U+1F4CE",
         "name": "paperclip",
         "entities": "",
@@ -15906,7 +16946,7 @@ const shorthandMap = {
         ]
     },
     "🖇️": {
-        "i": "1512",
+        "i": "1609",
         "codePoint": "U+1F587+FE0F",
         "name": "linked paperclips",
         "entities": "",
@@ -15916,7 +16956,7 @@ const shorthandMap = {
         ]
     },
     "📏": {
-        "i": "1513",
+        "i": "1610",
         "codePoint": "U+1F4CF",
         "name": "straight ruler",
         "entities": "",
@@ -15928,7 +16968,7 @@ const shorthandMap = {
         ]
     },
     "📐": {
-        "i": "1514",
+        "i": "1611",
         "codePoint": "U+1F4D0",
         "name": "triangular ruler",
         "entities": "",
@@ -15939,7 +16979,7 @@ const shorthandMap = {
         ]
     },
     "✂️": {
-        "i": "1515",
+        "i": "1612",
         "codePoint": "U+2702+FE0F",
         "name": "scissors",
         "entities": "",
@@ -15949,7 +16989,7 @@ const shorthandMap = {
         ]
     },
     "🗃️": {
-        "i": "1516",
+        "i": "1613",
         "codePoint": "U+1F5C3+FE0F",
         "name": "card file box",
         "entities": "",
@@ -15959,7 +16999,7 @@ const shorthandMap = {
         ]
     },
     "🗄️": {
-        "i": "1517",
+        "i": "1614",
         "codePoint": "U+1F5C4+FE0F",
         "name": "file cabinet",
         "entities": "",
@@ -15969,7 +17009,7 @@ const shorthandMap = {
         ]
     },
     "🗑️": {
-        "i": "1518",
+        "i": "1615",
         "codePoint": "U+1F5D1+FE0F",
         "name": "wastebasket",
         "entities": "",
@@ -15981,7 +17021,7 @@ const shorthandMap = {
         ]
     },
     "🔒": {
-        "i": "1519",
+        "i": "1616",
         "codePoint": "U+1F512",
         "name": "lock",
         "entities": "",
@@ -15994,7 +17034,7 @@ const shorthandMap = {
         ]
     },
     "🔓": {
-        "i": "1520",
+        "i": "1617",
         "codePoint": "U+1F513",
         "name": "open lock",
         "entities": "",
@@ -16005,7 +17045,7 @@ const shorthandMap = {
         ]
     },
     "🔏": {
-        "i": "1521",
+        "i": "1618",
         "codePoint": "U+1F50F",
         "name": "lock with ink pen",
         "entities": "",
@@ -16015,7 +17055,7 @@ const shorthandMap = {
         ]
     },
     "🔐": {
-        "i": "1522",
+        "i": "1619",
         "codePoint": "U+1F510",
         "name": "closed lock with key",
         "entities": "",
@@ -16025,7 +17065,7 @@ const shorthandMap = {
         ]
     },
     "🔑": {
-        "i": "1523",
+        "i": "1620",
         "codePoint": "U+1F511",
         "name": "key",
         "entities": "",
@@ -16035,7 +17075,7 @@ const shorthandMap = {
         ]
     },
     "🗝️": {
-        "i": "1524",
+        "i": "1621",
         "codePoint": "U+1F5DD+FE0F",
         "name": "old key",
         "entities": "",
@@ -16045,7 +17085,7 @@ const shorthandMap = {
         ]
     },
     "🔨": {
-        "i": "1525",
+        "i": "1622",
         "codePoint": "U+1F528",
         "name": "hammer",
         "entities": "",
@@ -16055,7 +17095,7 @@ const shorthandMap = {
         ]
     },
     "🪓": {
-        "i": "1526",
+        "i": "1623",
         "codePoint": "U+1FA93",
         "name": "axe",
         "entities": "",
@@ -16065,7 +17105,7 @@ const shorthandMap = {
         ]
     },
     "⛏️": {
-        "i": "1527",
+        "i": "1624",
         "codePoint": "U+26CF+FE0F",
         "name": "pick",
         "entities": "",
@@ -16075,7 +17115,7 @@ const shorthandMap = {
         ]
     },
     "⚒️": {
-        "i": "1528",
+        "i": "1625",
         "codePoint": "U+2692+FE0F",
         "name": "hammer and pick",
         "entities": "",
@@ -16085,7 +17125,7 @@ const shorthandMap = {
         ]
     },
     "🛠️": {
-        "i": "1529",
+        "i": "1626",
         "codePoint": "U+1F6E0+FE0F",
         "name": "hammer and wrench",
         "entities": "",
@@ -16095,7 +17135,7 @@ const shorthandMap = {
         ]
     },
     "🗡️": {
-        "i": "1530",
+        "i": "1627",
         "codePoint": "U+1F5E1+FE0F",
         "name": "dagger",
         "entities": "",
@@ -16105,7 +17145,7 @@ const shorthandMap = {
         ]
     },
     "⚔️": {
-        "i": "1531",
+        "i": "1628",
         "codePoint": "U+2694+FE0F",
         "name": "crossed swords",
         "entities": "",
@@ -16115,7 +17155,7 @@ const shorthandMap = {
         ]
     },
     "💣": {
-        "i": "1532",
+        "i": "1629",
         "codePoint": "U+1F4A3",
         "name": "bomb",
         "entities": "",
@@ -16126,7 +17166,7 @@ const shorthandMap = {
         ]
     },
     "🪃": {
-        "i": "1533",
+        "i": "1630",
         "codePoint": "U+1FA83",
         "name": "boomerang",
         "entities": "",
@@ -16136,7 +17176,7 @@ const shorthandMap = {
         ]
     },
     "🏹": {
-        "i": "1534",
+        "i": "1631",
         "codePoint": "U+1F3F9",
         "name": "bow and arrow",
         "entities": "",
@@ -16146,7 +17186,7 @@ const shorthandMap = {
         ]
     },
     "🛡️": {
-        "i": "1535",
+        "i": "1632",
         "codePoint": "U+1F6E1+FE0F",
         "name": "shield",
         "entities": "",
@@ -16156,7 +17196,7 @@ const shorthandMap = {
         ]
     },
     "🪚": {
-        "i": "1536",
+        "i": "1633",
         "codePoint": "U+1FA9A",
         "name": "carpentry saw",
         "entities": "",
@@ -16166,7 +17206,7 @@ const shorthandMap = {
         ]
     },
     "🔧": {
-        "i": "1537",
+        "i": "1634",
         "codePoint": "U+1F527",
         "name": "wrench",
         "entities": "",
@@ -16177,7 +17217,7 @@ const shorthandMap = {
         ]
     },
     "🪛": {
-        "i": "1538",
+        "i": "1635",
         "codePoint": "U+1FA9B",
         "name": "screwdriver",
         "entities": "",
@@ -16187,7 +17227,7 @@ const shorthandMap = {
         ]
     },
     "🔩": {
-        "i": "1539",
+        "i": "1636",
         "codePoint": "U+1F529",
         "name": "nut and bolt",
         "entities": "",
@@ -16197,7 +17237,7 @@ const shorthandMap = {
         ]
     },
     "⚙️": {
-        "i": "1540",
+        "i": "1637",
         "codePoint": "U+2699+FE0F",
         "name": "gear",
         "entities": "",
@@ -16207,7 +17247,7 @@ const shorthandMap = {
         ]
     },
     "🗜️": {
-        "i": "1541",
+        "i": "1638",
         "codePoint": "U+1F5DC+FE0F",
         "name": "clamp",
         "entities": "",
@@ -16217,7 +17257,7 @@ const shorthandMap = {
         ]
     },
     "⚖️": {
-        "i": "1542",
+        "i": "1639",
         "codePoint": "U+2696+FE0F",
         "name": "balance scale",
         "entities": "",
@@ -16228,7 +17268,7 @@ const shorthandMap = {
         ]
     },
     "🦯": {
-        "i": "1543",
+        "i": "1640",
         "codePoint": "U+1F9AF",
         "name": "probing cane",
         "entities": "",
@@ -16238,7 +17278,7 @@ const shorthandMap = {
         ]
     },
     "🔗": {
-        "i": "1544",
+        "i": "1641",
         "codePoint": "U+1F517",
         "name": "link symbol",
         "entities": "",
@@ -16250,7 +17290,7 @@ const shorthandMap = {
         ]
     },
     "⛓️‍💥": {
-        "i": "1545",
+        "i": "1642",
         "codePoint": "U+26D3+FE0F+200D+1F4A5",
         "name": "broken chain",
         "entities": "",
@@ -16260,7 +17300,7 @@ const shorthandMap = {
         ]
     },
     "⛓️": {
-        "i": "1546",
+        "i": "1643",
         "codePoint": "U+26D3+FE0F",
         "name": "chains",
         "entities": "",
@@ -16270,7 +17310,7 @@ const shorthandMap = {
         ]
     },
     "🪝": {
-        "i": "1547",
+        "i": "1644",
         "codePoint": "U+1FA9D",
         "name": "hook",
         "entities": "",
@@ -16280,7 +17320,7 @@ const shorthandMap = {
         ]
     },
     "🧰": {
-        "i": "1548",
+        "i": "1645",
         "codePoint": "U+1F9F0",
         "name": "toolbox",
         "entities": "",
@@ -16291,7 +17331,7 @@ const shorthandMap = {
         ]
     },
     "🧲": {
-        "i": "1549",
+        "i": "1646",
         "codePoint": "U+1F9F2",
         "name": "magnet",
         "entities": "",
@@ -16301,7 +17341,7 @@ const shorthandMap = {
         ]
     },
     "🪜": {
-        "i": "1550",
+        "i": "1647",
         "codePoint": "U+1FA9C",
         "name": "ladder",
         "entities": "",
@@ -16311,7 +17351,7 @@ const shorthandMap = {
         ]
     },
     "⚗️": {
-        "i": "1551",
+        "i": "1648",
         "codePoint": "U+2697+FE0F",
         "name": "alembic",
         "entities": "",
@@ -16321,7 +17361,7 @@ const shorthandMap = {
         ]
     },
     "🧪": {
-        "i": "1552",
+        "i": "1649",
         "codePoint": "U+1F9EA",
         "name": "test tube",
         "entities": "",
@@ -16331,7 +17371,7 @@ const shorthandMap = {
         ]
     },
     "🧫": {
-        "i": "1553",
+        "i": "1650",
         "codePoint": "U+1F9EB",
         "name": "petri dish",
         "entities": "",
@@ -16342,7 +17382,7 @@ const shorthandMap = {
         ]
     },
     "🧬": {
-        "i": "1554",
+        "i": "1651",
         "codePoint": "U+1F9EC",
         "name": "dna double helix",
         "entities": "",
@@ -16354,7 +17394,7 @@ const shorthandMap = {
         ]
     },
     "🔬": {
-        "i": "1555",
+        "i": "1652",
         "codePoint": "U+1F52C",
         "name": "microscope",
         "entities": "",
@@ -16365,7 +17405,7 @@ const shorthandMap = {
         ]
     },
     "🔭": {
-        "i": "1556",
+        "i": "1653",
         "codePoint": "U+1F52D",
         "name": "telescope",
         "entities": "",
@@ -16376,7 +17416,7 @@ const shorthandMap = {
         ]
     },
     "📡": {
-        "i": "1557",
+        "i": "1654",
         "codePoint": "U+1F4E1",
         "name": "satellite antenna",
         "entities": "",
@@ -16386,7 +17426,7 @@ const shorthandMap = {
         ]
     },
     "💉": {
-        "i": "1558",
+        "i": "1655",
         "codePoint": "U+1F489",
         "name": "syringe",
         "entities": "",
@@ -16396,7 +17436,7 @@ const shorthandMap = {
         ]
     },
     "🩸": {
-        "i": "1559",
+        "i": "1656",
         "codePoint": "U+1FA78",
         "name": "drop of blood",
         "entities": "",
@@ -16409,7 +17449,7 @@ const shorthandMap = {
         ]
     },
     "💊": {
-        "i": "1560",
+        "i": "1657",
         "codePoint": "U+1F48A",
         "name": "pill",
         "entities": "",
@@ -16420,7 +17460,7 @@ const shorthandMap = {
         ]
     },
     "🩹": {
-        "i": "1561",
+        "i": "1658",
         "codePoint": "U+1FA79",
         "name": "adhesive bandage",
         "entities": "",
@@ -16430,7 +17470,7 @@ const shorthandMap = {
         ]
     },
     "🩼": {
-        "i": "1562",
+        "i": "1659",
         "codePoint": "U+1FA7C",
         "name": "crutch",
         "entities": "",
@@ -16440,7 +17480,7 @@ const shorthandMap = {
         ]
     },
     "🩺": {
-        "i": "1563",
+        "i": "1660",
         "codePoint": "U+1FA7A",
         "name": "stethoscope",
         "entities": "",
@@ -16450,7 +17490,7 @@ const shorthandMap = {
         ]
     },
     "🩻": {
-        "i": "1564",
+        "i": "1661",
         "codePoint": "U+1FA7B",
         "name": "x-ray",
         "entities": "",
@@ -16460,7 +17500,7 @@ const shorthandMap = {
         ]
     },
     "🚪": {
-        "i": "1565",
+        "i": "1662",
         "codePoint": "U+1F6AA",
         "name": "door",
         "entities": "",
@@ -16471,7 +17511,7 @@ const shorthandMap = {
         ]
     },
     "🛗": {
-        "i": "1566",
+        "i": "1663",
         "codePoint": "U+1F6D7",
         "name": "elevator",
         "entities": "",
@@ -16481,7 +17521,7 @@ const shorthandMap = {
         ]
     },
     "🪞": {
-        "i": "1567",
+        "i": "1664",
         "codePoint": "U+1FA9E",
         "name": "mirror",
         "entities": "",
@@ -16491,7 +17531,7 @@ const shorthandMap = {
         ]
     },
     "🪟": {
-        "i": "1568",
+        "i": "1665",
         "codePoint": "U+1FA9F",
         "name": "window",
         "entities": "",
@@ -16501,7 +17541,7 @@ const shorthandMap = {
         ]
     },
     "🛏️": {
-        "i": "1569",
+        "i": "1666",
         "codePoint": "U+1F6CF+FE0F",
         "name": "bed",
         "entities": "",
@@ -16511,7 +17551,7 @@ const shorthandMap = {
         ]
     },
     "🛋️": {
-        "i": "1570",
+        "i": "1667",
         "codePoint": "U+1F6CB+FE0F",
         "name": "couch and lamp",
         "entities": "",
@@ -16521,7 +17561,7 @@ const shorthandMap = {
         ]
     },
     "🪑": {
-        "i": "1571",
+        "i": "1668",
         "codePoint": "U+1FA91",
         "name": "chair",
         "entities": "",
@@ -16531,7 +17571,7 @@ const shorthandMap = {
         ]
     },
     "🚽": {
-        "i": "1572",
+        "i": "1669",
         "codePoint": "U+1F6BD",
         "name": "toilet",
         "entities": "",
@@ -16543,7 +17583,7 @@ const shorthandMap = {
         ]
     },
     "🪠": {
-        "i": "1573",
+        "i": "1670",
         "codePoint": "U+1FAA0",
         "name": "plunger",
         "entities": "",
@@ -16553,7 +17593,7 @@ const shorthandMap = {
         ]
     },
     "🚿": {
-        "i": "1574",
+        "i": "1671",
         "codePoint": "U+1F6BF",
         "name": "shower",
         "entities": "",
@@ -16563,7 +17603,7 @@ const shorthandMap = {
         ]
     },
     "🛁": {
-        "i": "1575",
+        "i": "1672",
         "codePoint": "U+1F6C1",
         "name": "bathtub",
         "entities": "",
@@ -16573,7 +17613,7 @@ const shorthandMap = {
         ]
     },
     "🪤": {
-        "i": "1576",
+        "i": "1673",
         "codePoint": "U+1FAA4",
         "name": "mouse trap",
         "entities": "",
@@ -16583,7 +17623,7 @@ const shorthandMap = {
         ]
     },
     "🪒": {
-        "i": "1577",
+        "i": "1674",
         "codePoint": "U+1FA92",
         "name": "razor",
         "entities": "",
@@ -16593,7 +17633,7 @@ const shorthandMap = {
         ]
     },
     "🧴": {
-        "i": "1578",
+        "i": "1675",
         "codePoint": "U+1F9F4",
         "name": "lotion bottle",
         "entities": "",
@@ -16604,7 +17644,7 @@ const shorthandMap = {
         ]
     },
     "🧷": {
-        "i": "1579",
+        "i": "1676",
         "codePoint": "U+1F9F7",
         "name": "safety pin",
         "entities": "",
@@ -16614,7 +17654,7 @@ const shorthandMap = {
         ]
     },
     "🧹": {
-        "i": "1580",
+        "i": "1677",
         "codePoint": "U+1F9F9",
         "name": "broom",
         "entities": "",
@@ -16625,7 +17665,7 @@ const shorthandMap = {
         ]
     },
     "🧺": {
-        "i": "1581",
+        "i": "1678",
         "codePoint": "U+1F9FA",
         "name": "basket",
         "entities": "",
@@ -16635,7 +17675,7 @@ const shorthandMap = {
         ]
     },
     "🧻": {
-        "i": "1582",
+        "i": "1679",
         "codePoint": "U+1F9FB",
         "name": "roll of paper",
         "entities": "",
@@ -16645,7 +17685,7 @@ const shorthandMap = {
         ]
     },
     "🪣": {
-        "i": "1583",
+        "i": "1680",
         "codePoint": "U+1FAA3",
         "name": "bucket",
         "entities": "",
@@ -16655,7 +17695,7 @@ const shorthandMap = {
         ]
     },
     "🧼": {
-        "i": "1584",
+        "i": "1681",
         "codePoint": "U+1F9FC",
         "name": "bar of soap",
         "entities": "",
@@ -16667,7 +17707,7 @@ const shorthandMap = {
         ]
     },
     "🫧": {
-        "i": "1585",
+        "i": "1682",
         "codePoint": "U+1FAE7",
         "name": "bubbles",
         "entities": "",
@@ -16678,7 +17718,7 @@ const shorthandMap = {
         ]
     },
     "🪥": {
-        "i": "1586",
+        "i": "1683",
         "codePoint": "U+1FAA5",
         "name": "toothbrush",
         "entities": "",
@@ -16689,7 +17729,7 @@ const shorthandMap = {
         ]
     },
     "🧽": {
-        "i": "1587",
+        "i": "1684",
         "codePoint": "U+1F9FD",
         "name": "sponge",
         "entities": "",
@@ -16700,7 +17740,7 @@ const shorthandMap = {
         ]
     },
     "🧯": {
-        "i": "1588",
+        "i": "1685",
         "codePoint": "U+1F9EF",
         "name": "fire extinguisher",
         "entities": "",
@@ -16710,7 +17750,7 @@ const shorthandMap = {
         ]
     },
     "🛒": {
-        "i": "1589",
+        "i": "1686",
         "codePoint": "U+1F6D2",
         "name": "shopping trolley",
         "entities": "",
@@ -16721,7 +17761,7 @@ const shorthandMap = {
         ]
     },
     "🚬": {
-        "i": "1590",
+        "i": "1687",
         "codePoint": "U+1F6AC",
         "name": "smoking symbol",
         "entities": "",
@@ -16734,7 +17774,7 @@ const shorthandMap = {
         ]
     },
     "⚰️": {
-        "i": "1591",
+        "i": "1688",
         "codePoint": "U+26B0+FE0F",
         "name": "coffin",
         "entities": "",
@@ -16748,7 +17788,7 @@ const shorthandMap = {
         ]
     },
     "🪦": {
-        "i": "1592",
+        "i": "1689",
         "codePoint": "U+1FAA6",
         "name": "headstone",
         "entities": "",
@@ -16759,7 +17799,7 @@ const shorthandMap = {
         ]
     },
     "⚱️": {
-        "i": "1593",
+        "i": "1690",
         "codePoint": "U+26B1+FE0F",
         "name": "funeral urn",
         "entities": "",
@@ -16770,7 +17810,7 @@ const shorthandMap = {
         ]
     },
     "🧿": {
-        "i": "1594",
+        "i": "1691",
         "codePoint": "U+1F9FF",
         "name": "nazar amulet",
         "entities": "",
@@ -16781,7 +17821,7 @@ const shorthandMap = {
         ]
     },
     "🪬": {
-        "i": "1595",
+        "i": "1692",
         "codePoint": "U+1FAAC",
         "name": "hamsa",
         "entities": "",
@@ -16791,7 +17831,7 @@ const shorthandMap = {
         ]
     },
     "🗿": {
-        "i": "1596",
+        "i": "1693",
         "codePoint": "U+1F5FF",
         "name": "moyai",
         "entities": "",
@@ -16802,7 +17842,7 @@ const shorthandMap = {
         ]
     },
     "🪧": {
-        "i": "1597",
+        "i": "1694",
         "codePoint": "U+1FAA7",
         "name": "placard",
         "entities": "",
@@ -16812,7 +17852,7 @@ const shorthandMap = {
         ]
     },
     "🪪": {
-        "i": "1598",
+        "i": "1695",
         "codePoint": "U+1FAAA",
         "name": "identification card",
         "entities": "",
@@ -16822,7 +17862,7 @@ const shorthandMap = {
         ]
     },
     "🏧": {
-        "i": "1599",
+        "i": "1696",
         "codePoint": "U+1F3E7",
         "name": "automated teller machine",
         "entities": "",
@@ -16833,7 +17873,7 @@ const shorthandMap = {
         ]
     },
     "🚮": {
-        "i": "1600",
+        "i": "1697",
         "codePoint": "U+1F6AE",
         "name": "put litter in its place symbol",
         "entities": "",
@@ -16844,7 +17884,7 @@ const shorthandMap = {
         ]
     },
     "🚰": {
-        "i": "1601",
+        "i": "1698",
         "codePoint": "U+1F6B0",
         "name": "potable water symbol",
         "entities": "",
@@ -16855,7 +17895,7 @@ const shorthandMap = {
         ]
     },
     "♿": {
-        "i": "1602",
+        "i": "1699",
         "codePoint": "U+267F",
         "name": "wheelchair symbol",
         "entities": "",
@@ -16865,7 +17905,7 @@ const shorthandMap = {
         ]
     },
     "🚹": {
-        "i": "1603",
+        "i": "1700",
         "codePoint": "U+1F6B9",
         "name": "mens symbol",
         "entities": "",
@@ -16876,7 +17916,7 @@ const shorthandMap = {
         ]
     },
     "🚺": {
-        "i": "1604",
+        "i": "1701",
         "codePoint": "U+1F6BA",
         "name": "womens symbol",
         "entities": "",
@@ -16887,7 +17927,7 @@ const shorthandMap = {
         ]
     },
     "🚻": {
-        "i": "1605",
+        "i": "1702",
         "codePoint": "U+1F6BB",
         "name": "restroom",
         "entities": "",
@@ -16897,7 +17937,7 @@ const shorthandMap = {
         ]
     },
     "🚼": {
-        "i": "1606",
+        "i": "1703",
         "codePoint": "U+1F6BC",
         "name": "baby symbol",
         "entities": "",
@@ -16907,7 +17947,7 @@ const shorthandMap = {
         ]
     },
     "🚾": {
-        "i": "1607",
+        "i": "1704",
         "codePoint": "U+1F6BE",
         "name": "water closet",
         "entities": "",
@@ -16917,7 +17957,7 @@ const shorthandMap = {
         ]
     },
     "🛂": {
-        "i": "1608",
+        "i": "1705",
         "codePoint": "U+1F6C2",
         "name": "passport control",
         "entities": "",
@@ -16927,7 +17967,7 @@ const shorthandMap = {
         ]
     },
     "🛃": {
-        "i": "1609",
+        "i": "1706",
         "codePoint": "U+1F6C3",
         "name": "customs",
         "entities": "",
@@ -16938,7 +17978,7 @@ const shorthandMap = {
         ]
     },
     "🛄": {
-        "i": "1610",
+        "i": "1707",
         "codePoint": "U+1F6C4",
         "name": "baggage claim",
         "entities": "",
@@ -16948,7 +17988,7 @@ const shorthandMap = {
         ]
     },
     "🛅": {
-        "i": "1611",
+        "i": "1708",
         "codePoint": "U+1F6C5",
         "name": "left luggage",
         "entities": "",
@@ -16958,7 +17998,7 @@ const shorthandMap = {
         ]
     },
     "⚠️": {
-        "i": "1612",
+        "i": "1709",
         "codePoint": "U+26A0+FE0F",
         "name": "warning",
         "entities": "",
@@ -16971,7 +18011,7 @@ const shorthandMap = {
         ]
     },
     "🚸": {
-        "i": "1613",
+        "i": "1710",
         "codePoint": "U+1F6B8",
         "name": "children crossing",
         "entities": "",
@@ -16981,7 +18021,7 @@ const shorthandMap = {
         ]
     },
     "⛔": {
-        "i": "1614",
+        "i": "1711",
         "codePoint": "U+26D4",
         "name": "no entry",
         "entities": "",
@@ -16992,7 +18032,7 @@ const shorthandMap = {
         ]
     },
     "🚫": {
-        "i": "1615",
+        "i": "1712",
         "codePoint": "U+1F6AB",
         "name": "no entry sign",
         "entities": "",
@@ -17004,7 +18044,7 @@ const shorthandMap = {
         ]
     },
     "🚳": {
-        "i": "1616",
+        "i": "1713",
         "codePoint": "U+1F6B3",
         "name": "no bicycles",
         "entities": "",
@@ -17014,7 +18054,7 @@ const shorthandMap = {
         ]
     },
     "🚭": {
-        "i": "1617",
+        "i": "1714",
         "codePoint": "U+1F6AD",
         "name": "no smoking symbol",
         "entities": "",
@@ -17024,7 +18064,7 @@ const shorthandMap = {
         ]
     },
     "🚯": {
-        "i": "1618",
+        "i": "1715",
         "codePoint": "U+1F6AF",
         "name": "do not litter symbol",
         "entities": "",
@@ -17036,7 +18076,7 @@ const shorthandMap = {
         ]
     },
     "🚱": {
-        "i": "1619",
+        "i": "1716",
         "codePoint": "U+1F6B1",
         "name": "non-potable water symbol",
         "entities": "",
@@ -17048,7 +18088,7 @@ const shorthandMap = {
         ]
     },
     "🚷": {
-        "i": "1620",
+        "i": "1717",
         "codePoint": "U+1F6B7",
         "name": "no pedestrians",
         "entities": "",
@@ -17059,7 +18099,7 @@ const shorthandMap = {
         ]
     },
     "📵": {
-        "i": "1621",
+        "i": "1718",
         "codePoint": "U+1F4F5",
         "name": "no mobile phones",
         "entities": "",
@@ -17069,7 +18109,7 @@ const shorthandMap = {
         ]
     },
     "🔞": {
-        "i": "1622",
+        "i": "1719",
         "codePoint": "U+1F51E",
         "name": "no one under eighteen symbol",
         "entities": "",
@@ -17081,7 +18121,7 @@ const shorthandMap = {
         ]
     },
     "☢️": {
-        "i": "1623",
+        "i": "1720",
         "codePoint": "U+2622+FE0F",
         "name": "radioactive",
         "entities": "",
@@ -17091,7 +18131,7 @@ const shorthandMap = {
         ]
     },
     "☣️": {
-        "i": "1624",
+        "i": "1721",
         "codePoint": "U+2623+FE0F",
         "name": "biohazard",
         "entities": "",
@@ -17101,7 +18141,7 @@ const shorthandMap = {
         ]
     },
     "↗️": {
-        "i": "1625",
+        "i": "1722",
         "codePoint": "U+2197+FE0F",
         "name": "up-right arrow",
         "entities": "",
@@ -17112,7 +18152,7 @@ const shorthandMap = {
         ]
     },
     "↘️": {
-        "i": "1626",
+        "i": "1723",
         "codePoint": "U+2198+FE0F",
         "name": "down-right arrow",
         "entities": "",
@@ -17123,7 +18163,7 @@ const shorthandMap = {
         ]
     },
     "↙️": {
-        "i": "1627",
+        "i": "1724",
         "codePoint": "U+2199+FE0F",
         "name": "down-left arrow",
         "entities": "",
@@ -17133,7 +18173,7 @@ const shorthandMap = {
         ]
     },
     "↖️": {
-        "i": "1628",
+        "i": "1725",
         "codePoint": "U+2196+FE0F",
         "name": "up-left arrow",
         "entities": "",
@@ -17143,7 +18183,7 @@ const shorthandMap = {
         ]
     },
     "↕️": {
-        "i": "1629",
+        "i": "1726",
         "codePoint": "U+2195+FE0F",
         "name": "up-down arrow",
         "entities": "",
@@ -17154,7 +18194,7 @@ const shorthandMap = {
         ]
     },
     "↔️": {
-        "i": "1630",
+        "i": "1727",
         "codePoint": "U+2194+FE0F",
         "name": "left-right arrow",
         "entities": "",
@@ -17166,7 +18206,7 @@ const shorthandMap = {
         ]
     },
     "↩️": {
-        "i": "1631",
+        "i": "1728",
         "codePoint": "U+21A9+FE0F",
         "name": "right arrow curving left",
         "entities": "",
@@ -17178,7 +18218,7 @@ const shorthandMap = {
         ]
     },
     "↪️": {
-        "i": "1632",
+        "i": "1729",
         "codePoint": "U+21AA+FE0F",
         "name": "left arrow curving right",
         "entities": "",
@@ -17189,7 +18229,7 @@ const shorthandMap = {
         ]
     },
     "⤴️": {
-        "i": "1633",
+        "i": "1730",
         "codePoint": "U+2934+FE0F",
         "name": "right arrow curving up",
         "entities": "",
@@ -17199,7 +18239,7 @@ const shorthandMap = {
         ]
     },
     "⤵️": {
-        "i": "1634",
+        "i": "1731",
         "codePoint": "U+2935+FE0F",
         "name": "right arrow curving down",
         "entities": "",
@@ -17209,7 +18249,7 @@ const shorthandMap = {
         ]
     },
     "🔃": {
-        "i": "1635",
+        "i": "1732",
         "codePoint": "U+1F503",
         "name": "clockwise downwards and upwards open circle arrows",
         "entities": "",
@@ -17221,7 +18261,7 @@ const shorthandMap = {
         ]
     },
     "🔄": {
-        "i": "1636",
+        "i": "1733",
         "codePoint": "U+1F504",
         "name": "anticlockwise downwards and upwards open circle arrows",
         "entities": "",
@@ -17232,7 +18272,7 @@ const shorthandMap = {
         ]
     },
     "🔙": {
-        "i": "1637",
+        "i": "1734",
         "codePoint": "U+1F519",
         "name": "back with leftwards arrow above",
         "entities": "",
@@ -17243,7 +18283,7 @@ const shorthandMap = {
         ]
     },
     "🔚": {
-        "i": "1638",
+        "i": "1735",
         "codePoint": "U+1F51A",
         "name": "end with leftwards arrow above",
         "entities": "",
@@ -17253,7 +18293,7 @@ const shorthandMap = {
         ]
     },
     "🔛": {
-        "i": "1639",
+        "i": "1736",
         "codePoint": "U+1F51B",
         "name": "on with exclamation mark with left right arrow above",
         "entities": "",
@@ -17263,7 +18303,7 @@ const shorthandMap = {
         ]
     },
     "🔜": {
-        "i": "1640",
+        "i": "1737",
         "codePoint": "U+1F51C",
         "name": "soon with rightwards arrow above",
         "entities": "",
@@ -17273,7 +18313,7 @@ const shorthandMap = {
         ]
     },
     "🔝": {
-        "i": "1641",
+        "i": "1738",
         "codePoint": "U+1F51D",
         "name": "top with upwards arrow above",
         "entities": "",
@@ -17283,7 +18323,7 @@ const shorthandMap = {
         ]
     },
     "🛐": {
-        "i": "1642",
+        "i": "1739",
         "codePoint": "U+1F6D0",
         "name": "place of worship",
         "entities": "",
@@ -17293,7 +18333,7 @@ const shorthandMap = {
         ]
     },
     "⚛️": {
-        "i": "1643",
+        "i": "1740",
         "codePoint": "U+269B+FE0F",
         "name": "atom symbol",
         "entities": "",
@@ -17303,7 +18343,7 @@ const shorthandMap = {
         ]
     },
     "🕉️": {
-        "i": "1644",
+        "i": "1741",
         "codePoint": "U+1F549+FE0F",
         "name": "om",
         "entities": "",
@@ -17314,7 +18354,7 @@ const shorthandMap = {
         ]
     },
     "✡️": {
-        "i": "1645",
+        "i": "1742",
         "codePoint": "U+2721+FE0F",
         "name": "star of David",
         "entities": "",
@@ -17324,7 +18364,7 @@ const shorthandMap = {
         ]
     },
     "☸️": {
-        "i": "1646",
+        "i": "1743",
         "codePoint": "U+2638+FE0F",
         "name": "wheel of dharma",
         "entities": "",
@@ -17334,7 +18374,7 @@ const shorthandMap = {
         ]
     },
     "☯️": {
-        "i": "1647",
+        "i": "1744",
         "codePoint": "U+262F+FE0F",
         "name": "yin yang",
         "entities": "",
@@ -17344,7 +18384,7 @@ const shorthandMap = {
         ]
     },
     "✝️": {
-        "i": "1648",
+        "i": "1745",
         "codePoint": "U+271D+FE0F",
         "name": "latin cross",
         "entities": "",
@@ -17354,7 +18394,7 @@ const shorthandMap = {
         ]
     },
     "☦️": {
-        "i": "1649",
+        "i": "1746",
         "codePoint": "U+2626+FE0F",
         "name": "orthodox cross",
         "entities": "",
@@ -17364,7 +18404,7 @@ const shorthandMap = {
         ]
     },
     "☪️": {
-        "i": "1650",
+        "i": "1747",
         "codePoint": "U+262A+FE0F",
         "name": "star and crescent",
         "entities": "",
@@ -17374,7 +18414,7 @@ const shorthandMap = {
         ]
     },
     "☮️": {
-        "i": "1651",
+        "i": "1748",
         "codePoint": "U+262E+FE0F",
         "name": "peace symbol",
         "entities": "",
@@ -17384,7 +18424,7 @@ const shorthandMap = {
         ]
     },
     "🕎": {
-        "i": "1652",
+        "i": "1749",
         "codePoint": "U+1F54E",
         "name": "menorah with nine branches",
         "entities": "",
@@ -17396,7 +18436,7 @@ const shorthandMap = {
         ]
     },
     "🔯": {
-        "i": "1653",
+        "i": "1750",
         "codePoint": "U+1F52F",
         "name": "six pointed star with middle dot",
         "entities": "",
@@ -17408,7 +18448,7 @@ const shorthandMap = {
         ]
     },
     "🪯": {
-        "i": "1654",
+        "i": "1751",
         "codePoint": "U+1FAAF",
         "name": "khanda",
         "entities": "",
@@ -17418,7 +18458,7 @@ const shorthandMap = {
         ]
     },
     "♈": {
-        "i": "1655",
+        "i": "1752",
         "codePoint": "U+2648",
         "name": "aries",
         "entities": "",
@@ -17429,7 +18469,7 @@ const shorthandMap = {
         ]
     },
     "♉": {
-        "i": "1656",
+        "i": "1753",
         "codePoint": "U+2649",
         "name": "taurus",
         "entities": "",
@@ -17440,7 +18480,7 @@ const shorthandMap = {
         ]
     },
     "♊": {
-        "i": "1657",
+        "i": "1754",
         "codePoint": "U+264A",
         "name": "gemini",
         "entities": "",
@@ -17450,7 +18490,7 @@ const shorthandMap = {
         ]
     },
     "♋": {
-        "i": "1658",
+        "i": "1755",
         "codePoint": "U+264B",
         "name": "cancer",
         "entities": "",
@@ -17460,7 +18500,7 @@ const shorthandMap = {
         ]
     },
     "♌": {
-        "i": "1659",
+        "i": "1756",
         "codePoint": "U+264C",
         "name": "leo",
         "entities": "",
@@ -17470,7 +18510,7 @@ const shorthandMap = {
         ]
     },
     "♍": {
-        "i": "1660",
+        "i": "1757",
         "codePoint": "U+264D",
         "name": "virgo",
         "entities": "",
@@ -17480,7 +18520,7 @@ const shorthandMap = {
         ]
     },
     "♏": {
-        "i": "1661",
+        "i": "1758",
         "codePoint": "U+264F",
         "name": "scorpius",
         "entities": "",
@@ -17490,7 +18530,7 @@ const shorthandMap = {
         ]
     },
     "♐": {
-        "i": "1662",
+        "i": "1759",
         "codePoint": "U+2650",
         "name": "sagittarius",
         "entities": "",
@@ -17500,7 +18540,7 @@ const shorthandMap = {
         ]
     },
     "♑": {
-        "i": "1663",
+        "i": "1760",
         "codePoint": "U+2651",
         "name": "capricorn",
         "entities": "",
@@ -17510,7 +18550,7 @@ const shorthandMap = {
         ]
     },
     "♒": {
-        "i": "1664",
+        "i": "1761",
         "codePoint": "U+2652",
         "name": "aquarius",
         "entities": "",
@@ -17520,7 +18560,7 @@ const shorthandMap = {
         ]
     },
     "♓": {
-        "i": "1665",
+        "i": "1762",
         "codePoint": "U+2653",
         "name": "pisces",
         "entities": "",
@@ -17530,7 +18570,7 @@ const shorthandMap = {
         ]
     },
     "⛎": {
-        "i": "1666",
+        "i": "1763",
         "codePoint": "U+26CE",
         "name": "ophiuchus",
         "entities": "",
@@ -17541,7 +18581,7 @@ const shorthandMap = {
         ]
     },
     "🔀": {
-        "i": "1667",
+        "i": "1764",
         "codePoint": "U+1F500",
         "name": "twisted rightwards arrows",
         "entities": "",
@@ -17552,7 +18592,7 @@ const shorthandMap = {
         ]
     },
     "🔁": {
-        "i": "1668",
+        "i": "1765",
         "codePoint": "U+1F501",
         "name": "clockwise rightwards and leftwards open circle arrows",
         "entities": "",
@@ -17563,7 +18603,7 @@ const shorthandMap = {
         ]
     },
     "🔂": {
-        "i": "1669",
+        "i": "1766",
         "codePoint": "U+1F502",
         "name": "clockwise rightwards and leftwards open circle arrows with circled one overlay",
         "entities": "",
@@ -17573,7 +18613,7 @@ const shorthandMap = {
         ]
     },
     "▶️": {
-        "i": "1670",
+        "i": "1767",
         "codePoint": "U+25B6+FE0F",
         "name": "play button",
         "entities": "",
@@ -17583,7 +18623,7 @@ const shorthandMap = {
         ]
     },
     "⏩": {
-        "i": "1671",
+        "i": "1768",
         "codePoint": "U+23E9",
         "name": "black right-pointing double triangle",
         "entities": "",
@@ -17593,7 +18633,7 @@ const shorthandMap = {
         ]
     },
     "⏭️": {
-        "i": "1672",
+        "i": "1769",
         "codePoint": "U+23ED+FE0F",
         "name": "next track button",
         "entities": "",
@@ -17603,7 +18643,7 @@ const shorthandMap = {
         ]
     },
     "⏯️": {
-        "i": "1673",
+        "i": "1770",
         "codePoint": "U+23EF+FE0F",
         "name": "play or pause button",
         "entities": "",
@@ -17613,7 +18653,7 @@ const shorthandMap = {
         ]
     },
     "◀️": {
-        "i": "1674",
+        "i": "1771",
         "codePoint": "U+25C0+FE0F",
         "name": "reverse button",
         "entities": "",
@@ -17623,7 +18663,7 @@ const shorthandMap = {
         ]
     },
     "⏪": {
-        "i": "1675",
+        "i": "1772",
         "codePoint": "U+23EA",
         "name": "black left-pointing double triangle",
         "entities": "",
@@ -17633,7 +18673,7 @@ const shorthandMap = {
         ]
     },
     "⏮️": {
-        "i": "1676",
+        "i": "1773",
         "codePoint": "U+23EE+FE0F",
         "name": "last track button",
         "entities": "",
@@ -17643,7 +18683,7 @@ const shorthandMap = {
         ]
     },
     "🔼": {
-        "i": "1677",
+        "i": "1774",
         "codePoint": "U+1F53C",
         "name": "up-pointing small red triangle",
         "entities": "",
@@ -17654,7 +18694,7 @@ const shorthandMap = {
         ]
     },
     "⏫": {
-        "i": "1678",
+        "i": "1775",
         "codePoint": "U+23EB",
         "name": "black up-pointing double triangle",
         "entities": "",
@@ -17664,7 +18704,7 @@ const shorthandMap = {
         ]
     },
     "🔽": {
-        "i": "1679",
+        "i": "1776",
         "codePoint": "U+1F53D",
         "name": "down-pointing small red triangle",
         "entities": "",
@@ -17674,7 +18714,7 @@ const shorthandMap = {
         ]
     },
     "⏬": {
-        "i": "1680",
+        "i": "1777",
         "codePoint": "U+23EC",
         "name": "black down-pointing double triangle",
         "entities": "",
@@ -17684,7 +18724,7 @@ const shorthandMap = {
         ]
     },
     "⏸️": {
-        "i": "1681",
+        "i": "1778",
         "codePoint": "U+23F8+FE0F",
         "name": "pause button",
         "entities": "",
@@ -17694,7 +18734,7 @@ const shorthandMap = {
         ]
     },
     "⏹️": {
-        "i": "1682",
+        "i": "1779",
         "codePoint": "U+23F9+FE0F",
         "name": "stop button",
         "entities": "",
@@ -17704,7 +18744,7 @@ const shorthandMap = {
         ]
     },
     "⏺️": {
-        "i": "1683",
+        "i": "1780",
         "codePoint": "U+23FA+FE0F",
         "name": "record button",
         "entities": "",
@@ -17714,7 +18754,7 @@ const shorthandMap = {
         ]
     },
     "⏏️": {
-        "i": "1684",
+        "i": "1781",
         "codePoint": "U+23CF+FE0F",
         "name": "eject button",
         "entities": "",
@@ -17724,7 +18764,7 @@ const shorthandMap = {
         ]
     },
     "🎦": {
-        "i": "1685",
+        "i": "1782",
         "codePoint": "U+1F3A6",
         "name": "cinema",
         "entities": "",
@@ -17735,7 +18775,7 @@ const shorthandMap = {
         ]
     },
     "🔅": {
-        "i": "1686",
+        "i": "1783",
         "codePoint": "U+1F505",
         "name": "low brightness symbol",
         "entities": "",
@@ -17746,7 +18786,7 @@ const shorthandMap = {
         ]
     },
     "🔆": {
-        "i": "1687",
+        "i": "1784",
         "codePoint": "U+1F506",
         "name": "high brightness symbol",
         "entities": "",
@@ -17756,7 +18796,7 @@ const shorthandMap = {
         ]
     },
     "📶": {
-        "i": "1688",
+        "i": "1785",
         "codePoint": "U+1F4F6",
         "name": "antenna with bars",
         "entities": "",
@@ -17770,7 +18810,7 @@ const shorthandMap = {
         ]
     },
     "🛜": {
-        "i": "1689",
+        "i": "1786",
         "codePoint": "U+1F6DC",
         "name": "wireless",
         "entities": "",
@@ -17781,7 +18821,7 @@ const shorthandMap = {
         ]
     },
     "📳": {
-        "i": "1690",
+        "i": "1787",
         "codePoint": "U+1F4F3",
         "name": "vibration mode",
         "entities": "",
@@ -17791,7 +18831,7 @@ const shorthandMap = {
         ]
     },
     "📴": {
-        "i": "1691",
+        "i": "1788",
         "codePoint": "U+1F4F4",
         "name": "mobile phone off",
         "entities": "",
@@ -17801,7 +18841,7 @@ const shorthandMap = {
         ]
     },
     "♀️": {
-        "i": "1692",
+        "i": "1789",
         "codePoint": "U+2640+FE0F",
         "name": "female sign",
         "entities": "",
@@ -17811,7 +18851,7 @@ const shorthandMap = {
         ]
     },
     "♂️": {
-        "i": "1693",
+        "i": "1790",
         "codePoint": "U+2642+FE0F",
         "name": "male sign",
         "entities": "",
@@ -17821,7 +18861,7 @@ const shorthandMap = {
         ]
     },
     "⚧️": {
-        "i": "1694",
+        "i": "1791",
         "codePoint": "U+26A7+FE0F",
         "name": "transgender symbol",
         "entities": "",
@@ -17831,7 +18871,7 @@ const shorthandMap = {
         ]
     },
     "✖️": {
-        "i": "1695",
+        "i": "1792",
         "codePoint": "U+2716+FE0F",
         "name": "multiply",
         "entities": "",
@@ -17841,7 +18881,7 @@ const shorthandMap = {
         ]
     },
     "➕": {
-        "i": "1696",
+        "i": "1793",
         "codePoint": "U+2795",
         "name": "heavy plus sign",
         "entities": "",
@@ -17854,7 +18894,7 @@ const shorthandMap = {
         ]
     },
     "➖": {
-        "i": "1697",
+        "i": "1794",
         "codePoint": "U+2796",
         "name": "heavy minus sign",
         "entities": "",
@@ -17866,7 +18906,7 @@ const shorthandMap = {
         ]
     },
     "➗": {
-        "i": "1698",
+        "i": "1795",
         "codePoint": "U+2797",
         "name": "heavy division sign",
         "entities": "",
@@ -17877,7 +18917,7 @@ const shorthandMap = {
         ]
     },
     "🟰": {
-        "i": "1699",
+        "i": "1796",
         "codePoint": "U+1F7F0",
         "name": "heavy equals sign",
         "entities": "",
@@ -17887,7 +18927,7 @@ const shorthandMap = {
         ]
     },
     "‼️": {
-        "i": "1700",
+        "i": "1797",
         "codePoint": "U+203C+FE0F",
         "name": "double exclamation mark",
         "entities": "",
@@ -17897,7 +18937,7 @@ const shorthandMap = {
         ]
     },
     "⁉️": {
-        "i": "1701",
+        "i": "1798",
         "codePoint": "U+2049+FE0F",
         "name": "exclamation question mark",
         "entities": "",
@@ -17907,7 +18947,7 @@ const shorthandMap = {
         ]
     },
     "❓": {
-        "i": "1702",
+        "i": "1799",
         "codePoint": "U+2753",
         "name": "black question mark ornament",
         "entities": "",
@@ -17917,7 +18957,7 @@ const shorthandMap = {
         ]
     },
     "❔": {
-        "i": "1703",
+        "i": "1800",
         "codePoint": "U+2754",
         "name": "white question mark ornament",
         "entities": "",
@@ -17928,7 +18968,7 @@ const shorthandMap = {
         ]
     },
     "❕": {
-        "i": "1704",
+        "i": "1801",
         "codePoint": "U+2755",
         "name": "white exclamation mark ornament",
         "entities": "",
@@ -17939,7 +18979,7 @@ const shorthandMap = {
         ]
     },
     "❗": {
-        "i": "1705",
+        "i": "1802",
         "codePoint": "U+2757",
         "name": "heavy exclamation mark symbol",
         "entities": "",
@@ -17949,7 +18989,7 @@ const shorthandMap = {
         ]
     },
     "〰️": {
-        "i": "1706",
+        "i": "1803",
         "codePoint": "U+3030+FE0F",
         "name": "wavy dash",
         "entities": "",
@@ -17961,7 +19001,7 @@ const shorthandMap = {
         ]
     },
     "💱": {
-        "i": "1707",
+        "i": "1804",
         "codePoint": "U+1F4B1",
         "name": "currency exchange",
         "entities": "",
@@ -17971,7 +19011,7 @@ const shorthandMap = {
         ]
     },
     "💲": {
-        "i": "1708",
+        "i": "1805",
         "codePoint": "U+1F4B2",
         "name": "heavy dollar sign",
         "entities": "",
@@ -17982,7 +19022,7 @@ const shorthandMap = {
         ]
     },
     "⚕️": {
-        "i": "1709",
+        "i": "1806",
         "codePoint": "U+2695+FE0F",
         "name": "medical symbol",
         "entities": "",
@@ -17992,7 +19032,7 @@ const shorthandMap = {
         ]
     },
     "♻️": {
-        "i": "1710",
+        "i": "1807",
         "codePoint": "U+267B+FE0F",
         "name": "recycling symbol",
         "entities": "",
@@ -18002,7 +19042,7 @@ const shorthandMap = {
         ]
     },
     "⚜️": {
-        "i": "1711",
+        "i": "1808",
         "codePoint": "U+269C+FE0F",
         "name": "fleur-de-lis",
         "entities": "",
@@ -18012,7 +19052,7 @@ const shorthandMap = {
         ]
     },
     "🔱": {
-        "i": "1712",
+        "i": "1809",
         "codePoint": "U+1F531",
         "name": "trident emblem",
         "entities": "",
@@ -18022,7 +19062,7 @@ const shorthandMap = {
         ]
     },
     "📛": {
-        "i": "1713",
+        "i": "1810",
         "codePoint": "U+1F4DB",
         "name": "name badge",
         "entities": "",
@@ -18032,7 +19072,7 @@ const shorthandMap = {
         ]
     },
     "🔰": {
-        "i": "1714",
+        "i": "1811",
         "codePoint": "U+1F530",
         "name": "Japanese symbol for beginner",
         "entities": "",
@@ -18042,7 +19082,7 @@ const shorthandMap = {
         ]
     },
     "✅": {
-        "i": "1715",
+        "i": "1812",
         "codePoint": "U+2705",
         "name": "white heavy check mark",
         "entities": "",
@@ -18054,7 +19094,7 @@ const shorthandMap = {
         ]
     },
     "➰": {
-        "i": "1716",
+        "i": "1813",
         "codePoint": "U+27B0",
         "name": "curly loop",
         "entities": "",
@@ -18065,7 +19105,7 @@ const shorthandMap = {
         ]
     },
     "➿": {
-        "i": "1717",
+        "i": "1814",
         "codePoint": "U+27BF",
         "name": "double curly loop",
         "entities": "",
@@ -18076,7 +19116,7 @@ const shorthandMap = {
         ]
     },
     "〽️": {
-        "i": "1718",
+        "i": "1815",
         "codePoint": "U+303D+FE0F",
         "name": "part alternation mark",
         "entities": "",
@@ -18086,7 +19126,7 @@ const shorthandMap = {
         ]
     },
     "✳️": {
-        "i": "1719",
+        "i": "1816",
         "codePoint": "U+2733+FE0F",
         "name": "eight-spoked asterisk",
         "entities": "",
@@ -18096,7 +19136,7 @@ const shorthandMap = {
         ]
     },
     "✴️": {
-        "i": "1720",
+        "i": "1817",
         "codePoint": "U+2734+FE0F",
         "name": "eight-pointed star",
         "entities": "",
@@ -18106,7 +19146,7 @@ const shorthandMap = {
         ]
     },
     "❇️": {
-        "i": "1721",
+        "i": "1818",
         "codePoint": "U+2747+FE0F",
         "name": "sparkle",
         "entities": "",
@@ -18116,7 +19156,7 @@ const shorthandMap = {
         ]
     },
     "©️": {
-        "i": "1722",
+        "i": "1819",
         "codePoint": "U+00A9+FE0F",
         "name": "copyright",
         "entities": "",
@@ -18127,7 +19167,7 @@ const shorthandMap = {
         ]
     },
     "®️": {
-        "i": "1723",
+        "i": "1820",
         "codePoint": "U+00AE+FE0F",
         "name": "registered",
         "entities": "",
@@ -18137,7 +19177,7 @@ const shorthandMap = {
         ]
     },
     "™️": {
-        "i": "1724",
+        "i": "1821",
         "codePoint": "U+2122+FE0F",
         "name": "trade mark",
         "entities": "",
@@ -18148,7 +19188,7 @@ const shorthandMap = {
         ]
     },
     "*️⃣": {
-        "i": "1726",
+        "i": "1823",
         "codePoint": "U+002A+FE0F+20E3",
         "name": "keycap *",
         "entities": "",
@@ -18158,7 +19198,7 @@ const shorthandMap = {
         ]
     },
     "0️⃣": {
-        "i": "1727",
+        "i": "1824",
         "codePoint": "U+0030+FE0F+20E3",
         "name": "keycap 0",
         "entities": "",
@@ -18170,7 +19210,7 @@ const shorthandMap = {
         ]
     },
     "1️⃣": {
-        "i": "1728",
+        "i": "1825",
         "codePoint": "U+0031+FE0F+20E3",
         "name": "keycap 1",
         "entities": "",
@@ -18180,7 +19220,7 @@ const shorthandMap = {
         ]
     },
     "2️⃣": {
-        "i": "1729",
+        "i": "1826",
         "codePoint": "U+0032+FE0F+20E3",
         "name": "keycap 2",
         "entities": "",
@@ -18190,7 +19230,7 @@ const shorthandMap = {
         ]
     },
     "3️⃣": {
-        "i": "1730",
+        "i": "1827",
         "codePoint": "U+0033+FE0F+20E3",
         "name": "keycap 3",
         "entities": "",
@@ -18201,7 +19241,7 @@ const shorthandMap = {
         ]
     },
     "4️⃣": {
-        "i": "1731",
+        "i": "1828",
         "codePoint": "U+0034+FE0F+20E3",
         "name": "keycap 4",
         "entities": "",
@@ -18211,7 +19251,7 @@ const shorthandMap = {
         ]
     },
     "5️⃣": {
-        "i": "1732",
+        "i": "1829",
         "codePoint": "U+0035+FE0F+20E3",
         "name": "keycap 5",
         "entities": "",
@@ -18221,7 +19261,7 @@ const shorthandMap = {
         ]
     },
     "6️⃣": {
-        "i": "1733",
+        "i": "1830",
         "codePoint": "U+0036+FE0F+20E3",
         "name": "keycap 6",
         "entities": "",
@@ -18231,7 +19271,7 @@ const shorthandMap = {
         ]
     },
     "7️⃣": {
-        "i": "1734",
+        "i": "1831",
         "codePoint": "U+0037+FE0F+20E3",
         "name": "keycap 7",
         "entities": "",
@@ -18241,7 +19281,7 @@ const shorthandMap = {
         ]
     },
     "8️⃣": {
-        "i": "1735",
+        "i": "1832",
         "codePoint": "U+0038+FE0F+20E3",
         "name": "keycap 8",
         "entities": "",
@@ -18251,7 +19291,7 @@ const shorthandMap = {
         ]
     },
     "9️⃣": {
-        "i": "1736",
+        "i": "1833",
         "codePoint": "U+0039+FE0F+20E3",
         "name": "keycap 9",
         "entities": "",
@@ -18261,7 +19301,7 @@ const shorthandMap = {
         ]
     },
     "🔟": {
-        "i": "1737",
+        "i": "1834",
         "codePoint": "U+1F51F",
         "name": "keycap ten",
         "entities": "",
@@ -18272,7 +19312,7 @@ const shorthandMap = {
         ]
     },
     "🔠": {
-        "i": "1738",
+        "i": "1835",
         "codePoint": "U+1F520",
         "name": "input symbol for Latin capital letters",
         "entities": "",
@@ -18284,7 +19324,7 @@ const shorthandMap = {
         ]
     },
     "🔡": {
-        "i": "1739",
+        "i": "1836",
         "codePoint": "U+1F521",
         "name": "input symbol for Latin small letters",
         "entities": "",
@@ -18295,7 +19335,7 @@ const shorthandMap = {
         ]
     },
     "🔢": {
-        "i": "1740",
+        "i": "1837",
         "codePoint": "U+1F522",
         "name": "input symbol for numbers",
         "entities": "",
@@ -18306,7 +19346,7 @@ const shorthandMap = {
         ]
     },
     "🔣": {
-        "i": "1741",
+        "i": "1838",
         "codePoint": "U+1F523",
         "name": "input symbol for symbols",
         "entities": "",
@@ -18321,7 +19361,7 @@ const shorthandMap = {
         ]
     },
     "🔤": {
-        "i": "1742",
+        "i": "1839",
         "codePoint": "U+1F524",
         "name": "input symbol for Latin letters",
         "entities": "",
@@ -18331,7 +19371,7 @@ const shorthandMap = {
         ]
     },
     "🅰️": {
-        "i": "1743",
+        "i": "1840",
         "codePoint": "U+1F170+FE0F",
         "name": "A button (blood type)",
         "entities": "",
@@ -18341,7 +19381,7 @@ const shorthandMap = {
         ]
     },
     "🆎": {
-        "i": "1744",
+        "i": "1841",
         "codePoint": "U+1F18E",
         "name": "negative squared ab",
         "entities": "",
@@ -18351,7 +19391,7 @@ const shorthandMap = {
         ]
     },
     "🅱️": {
-        "i": "1745",
+        "i": "1842",
         "codePoint": "U+1F171+FE0F",
         "name": "B button (blood type)",
         "entities": "",
@@ -18361,7 +19401,7 @@ const shorthandMap = {
         ]
     },
     "🆑": {
-        "i": "1746",
+        "i": "1843",
         "codePoint": "U+1F191",
         "name": "squared cl",
         "entities": "",
@@ -18371,7 +19411,7 @@ const shorthandMap = {
         ]
     },
     "🆒": {
-        "i": "1747",
+        "i": "1844",
         "codePoint": "U+1F192",
         "name": "squared cool",
         "entities": "",
@@ -18381,7 +19421,7 @@ const shorthandMap = {
         ]
     },
     "🆓": {
-        "i": "1748",
+        "i": "1845",
         "codePoint": "U+1F193",
         "name": "squared free",
         "entities": "",
@@ -18391,7 +19431,7 @@ const shorthandMap = {
         ]
     },
     "ℹ️": {
-        "i": "1749",
+        "i": "1846",
         "codePoint": "U+2139+FE0F",
         "name": "information",
         "entities": "",
@@ -18401,7 +19441,7 @@ const shorthandMap = {
         ]
     },
     "🆔": {
-        "i": "1750",
+        "i": "1847",
         "codePoint": "U+1F194",
         "name": "squared id",
         "entities": "",
@@ -18411,7 +19451,7 @@ const shorthandMap = {
         ]
     },
     "Ⓜ️": {
-        "i": "1751",
+        "i": "1848",
         "codePoint": "U+24C2+FE0F",
         "name": "circled M",
         "entities": "",
@@ -18421,7 +19461,7 @@ const shorthandMap = {
         ]
     },
     "🆕": {
-        "i": "1752",
+        "i": "1849",
         "codePoint": "U+1F195",
         "name": "squared new",
         "entities": "",
@@ -18432,7 +19472,7 @@ const shorthandMap = {
         ]
     },
     "🆖": {
-        "i": "1753",
+        "i": "1850",
         "codePoint": "U+1F196",
         "name": "squared ng",
         "entities": "",
@@ -18443,7 +19483,7 @@ const shorthandMap = {
         ]
     },
     "🅾️": {
-        "i": "1754",
+        "i": "1851",
         "codePoint": "U+1F17E+FE0F",
         "name": "O button (blood type)",
         "entities": "",
@@ -18453,7 +19493,7 @@ const shorthandMap = {
         ]
     },
     "🆗": {
-        "i": "1755",
+        "i": "1852",
         "codePoint": "U+1F197",
         "name": "squared ok",
         "entities": "",
@@ -18463,7 +19503,7 @@ const shorthandMap = {
         ]
     },
     "🅿️": {
-        "i": "1756",
+        "i": "1853",
         "codePoint": "U+1F17F+FE0F",
         "name": "P button",
         "entities": "",
@@ -18473,7 +19513,7 @@ const shorthandMap = {
         ]
     },
     "🆘": {
-        "i": "1757",
+        "i": "1854",
         "codePoint": "U+1F198",
         "name": "squared sos",
         "entities": "",
@@ -18484,7 +19524,7 @@ const shorthandMap = {
         ]
     },
     "🆙": {
-        "i": "1758",
+        "i": "1855",
         "codePoint": "U+1F199",
         "name": "squared up with exclamation mark",
         "entities": "",
@@ -18496,7 +19536,7 @@ const shorthandMap = {
         ]
     },
     "🆚": {
-        "i": "1759",
+        "i": "1856",
         "codePoint": "U+1F19A",
         "name": "squared vs",
         "entities": "",
@@ -18506,7 +19546,7 @@ const shorthandMap = {
         ]
     },
     "🈁": {
-        "i": "1760",
+        "i": "1857",
         "codePoint": "U+1F201",
         "name": "squared katakana koko",
         "entities": "",
@@ -18518,7 +19558,7 @@ const shorthandMap = {
         ]
     },
     "🈂️": {
-        "i": "1761",
+        "i": "1858",
         "codePoint": "U+1F202+FE0F",
         "name": "Japanese “service charge” button",
         "entities": "",
@@ -18528,7 +19568,7 @@ const shorthandMap = {
         ]
     },
     "🈷️": {
-        "i": "1762",
+        "i": "1859",
         "codePoint": "U+1F237+FE0F",
         "name": "Japanese “monthly amount” button",
         "entities": "",
@@ -18539,7 +19579,7 @@ const shorthandMap = {
         ]
     },
     "🈶": {
-        "i": "1763",
+        "i": "1860",
         "codePoint": "U+1F236",
         "name": "squared cjk unified ideograph-6709",
         "entities": "",
@@ -18550,7 +19590,7 @@ const shorthandMap = {
         ]
     },
     "🈯": {
-        "i": "1764",
+        "i": "1861",
         "codePoint": "U+1F22F",
         "name": "squared cjk unified ideograph-6307",
         "entities": "",
@@ -18560,7 +19600,7 @@ const shorthandMap = {
         ]
     },
     "🉐": {
-        "i": "1765",
+        "i": "1862",
         "codePoint": "U+1F250",
         "name": "circled ideograph advantage",
         "entities": "",
@@ -18573,7 +19613,7 @@ const shorthandMap = {
         ]
     },
     "🈹": {
-        "i": "1766",
+        "i": "1863",
         "codePoint": "U+1F239",
         "name": "squared cjk unified ideograph-5272",
         "entities": "",
@@ -18584,7 +19624,7 @@ const shorthandMap = {
         ]
     },
     "🈚": {
-        "i": "1767",
+        "i": "1864",
         "codePoint": "U+1F21A",
         "name": "squared cjk unified ideograph-7121",
         "entities": "",
@@ -18595,7 +19635,7 @@ const shorthandMap = {
         ]
     },
     "🈲": {
-        "i": "1768",
+        "i": "1865",
         "codePoint": "U+1F232",
         "name": "squared cjk unified ideograph-7981",
         "entities": "",
@@ -18607,7 +19647,7 @@ const shorthandMap = {
         ]
     },
     "🉑": {
-        "i": "1769",
+        "i": "1866",
         "codePoint": "U+1F251",
         "name": "circled ideograph accept",
         "entities": "",
@@ -18618,7 +19658,7 @@ const shorthandMap = {
         ]
     },
     "🈸": {
-        "i": "1770",
+        "i": "1867",
         "codePoint": "U+1F238",
         "name": "squared cjk unified ideograph-7533",
         "entities": "",
@@ -18628,7 +19668,7 @@ const shorthandMap = {
         ]
     },
     "🈴": {
-        "i": "1771",
+        "i": "1868",
         "codePoint": "U+1F234",
         "name": "squared cjk unified ideograph-5408",
         "entities": "",
@@ -18639,7 +19679,7 @@ const shorthandMap = {
         ]
     },
     "🈳": {
-        "i": "1772",
+        "i": "1869",
         "codePoint": "U+1F233",
         "name": "squared cjk unified ideograph-7a7a",
         "entities": "",
@@ -18650,7 +19690,7 @@ const shorthandMap = {
         ]
     },
     "㊗️": {
-        "i": "1773",
+        "i": "1870",
         "codePoint": "U+3297+FE0F",
         "name": "Japanese “congratulations” button",
         "entities": "",
@@ -18660,7 +19700,7 @@ const shorthandMap = {
         ]
     },
     "㊙️": {
-        "i": "1774",
+        "i": "1871",
         "codePoint": "U+3299+FE0F",
         "name": "Japanese “secret” button",
         "entities": "",
@@ -18670,7 +19710,7 @@ const shorthandMap = {
         ]
     },
     "🈺": {
-        "i": "1775",
+        "i": "1872",
         "codePoint": "U+1F23A",
         "name": "squared cjk unified ideograph-55b6",
         "entities": "",
@@ -18681,7 +19721,7 @@ const shorthandMap = {
         ]
     },
     "🈵": {
-        "i": "1776",
+        "i": "1873",
         "codePoint": "U+1F235",
         "name": "squared cjk unified ideograph-6e80",
         "entities": "",
@@ -18692,7 +19732,7 @@ const shorthandMap = {
         ]
     },
     "🔴": {
-        "i": "1777",
+        "i": "1874",
         "codePoint": "U+1F534",
         "name": "large red circle",
         "entities": "",
@@ -18702,7 +19742,7 @@ const shorthandMap = {
         ]
     },
     "🟠": {
-        "i": "1778",
+        "i": "1875",
         "codePoint": "U+1F7E0",
         "name": "large orange circle",
         "entities": "",
@@ -18712,7 +19752,7 @@ const shorthandMap = {
         ]
     },
     "🟡": {
-        "i": "1779",
+        "i": "1876",
         "codePoint": "U+1F7E1",
         "name": "large yellow circle",
         "entities": "",
@@ -18722,7 +19762,7 @@ const shorthandMap = {
         ]
     },
     "🟢": {
-        "i": "1780",
+        "i": "1877",
         "codePoint": "U+1F7E2",
         "name": "large green circle",
         "entities": "",
@@ -18732,7 +19772,7 @@ const shorthandMap = {
         ]
     },
     "🔵": {
-        "i": "1781",
+        "i": "1878",
         "codePoint": "U+1F535",
         "name": "large blue circle",
         "entities": "",
@@ -18743,7 +19783,7 @@ const shorthandMap = {
         ]
     },
     "🟣": {
-        "i": "1782",
+        "i": "1879",
         "codePoint": "U+1F7E3",
         "name": "large purple circle",
         "entities": "",
@@ -18753,7 +19793,7 @@ const shorthandMap = {
         ]
     },
     "🟤": {
-        "i": "1783",
+        "i": "1880",
         "codePoint": "U+1F7E4",
         "name": "large brown circle",
         "entities": "",
@@ -18763,7 +19803,7 @@ const shorthandMap = {
         ]
     },
     "⚫": {
-        "i": "1784",
+        "i": "1881",
         "codePoint": "U+26AB",
         "name": "medium black circle",
         "entities": "",
@@ -18773,7 +19813,7 @@ const shorthandMap = {
         ]
     },
     "⚪": {
-        "i": "1785",
+        "i": "1882",
         "codePoint": "U+26AA",
         "name": "medium white circle",
         "entities": "",
@@ -18783,7 +19823,7 @@ const shorthandMap = {
         ]
     },
     "🟥": {
-        "i": "1786",
+        "i": "1883",
         "codePoint": "U+1F7E5",
         "name": "large red square",
         "entities": "",
@@ -18793,7 +19833,7 @@ const shorthandMap = {
         ]
     },
     "🟧": {
-        "i": "1787",
+        "i": "1884",
         "codePoint": "U+1F7E7",
         "name": "large orange square",
         "entities": "",
@@ -18803,7 +19843,7 @@ const shorthandMap = {
         ]
     },
     "🟨": {
-        "i": "1788",
+        "i": "1885",
         "codePoint": "U+1F7E8",
         "name": "large yellow square",
         "entities": "",
@@ -18813,7 +19853,7 @@ const shorthandMap = {
         ]
     },
     "🟩": {
-        "i": "1789",
+        "i": "1886",
         "codePoint": "U+1F7E9",
         "name": "large green square",
         "entities": "",
@@ -18823,7 +19863,7 @@ const shorthandMap = {
         ]
     },
     "🟦": {
-        "i": "1790",
+        "i": "1887",
         "codePoint": "U+1F7E6",
         "name": "large blue square",
         "entities": "",
@@ -18833,7 +19873,7 @@ const shorthandMap = {
         ]
     },
     "🟪": {
-        "i": "1791",
+        "i": "1888",
         "codePoint": "U+1F7EA",
         "name": "large purple square",
         "entities": "",
@@ -18843,7 +19883,7 @@ const shorthandMap = {
         ]
     },
     "🟫": {
-        "i": "1792",
+        "i": "1889",
         "codePoint": "U+1F7EB",
         "name": "large brown square",
         "entities": "",
@@ -18853,7 +19893,7 @@ const shorthandMap = {
         ]
     },
     "⬛": {
-        "i": "1793",
+        "i": "1890",
         "codePoint": "U+2B1B",
         "name": "black large square",
         "entities": "",
@@ -18863,7 +19903,7 @@ const shorthandMap = {
         ]
     },
     "⬜": {
-        "i": "1794",
+        "i": "1891",
         "codePoint": "U+2B1C",
         "name": "white large square",
         "entities": "",
@@ -18873,7 +19913,7 @@ const shorthandMap = {
         ]
     },
     "◼️": {
-        "i": "1795",
+        "i": "1892",
         "codePoint": "U+25FC+FE0F",
         "name": "black medium square",
         "entities": "",
@@ -18883,7 +19923,7 @@ const shorthandMap = {
         ]
     },
     "◻️": {
-        "i": "1796",
+        "i": "1893",
         "codePoint": "U+25FB+FE0F",
         "name": "white medium square",
         "entities": "",
@@ -18893,7 +19933,7 @@ const shorthandMap = {
         ]
     },
     "◾": {
-        "i": "1797",
+        "i": "1894",
         "codePoint": "U+25FE",
         "name": "black medium small square",
         "entities": "",
@@ -18903,7 +19943,7 @@ const shorthandMap = {
         ]
     },
     "◽": {
-        "i": "1798",
+        "i": "1895",
         "codePoint": "U+25FD",
         "name": "white medium small square",
         "entities": "",
@@ -18913,7 +19953,7 @@ const shorthandMap = {
         ]
     },
     "▪️": {
-        "i": "1799",
+        "i": "1896",
         "codePoint": "U+25AA+FE0F",
         "name": "black small square",
         "entities": "",
@@ -18923,7 +19963,7 @@ const shorthandMap = {
         ]
     },
     "▫️": {
-        "i": "1800",
+        "i": "1897",
         "codePoint": "U+25AB+FE0F",
         "name": "white small square",
         "entities": "",
@@ -18933,7 +19973,7 @@ const shorthandMap = {
         ]
     },
     "🔶": {
-        "i": "1801",
+        "i": "1898",
         "codePoint": "U+1F536",
         "name": "large orange diamond",
         "entities": "",
@@ -18943,7 +19983,7 @@ const shorthandMap = {
         ]
     },
     "🔷": {
-        "i": "1802",
+        "i": "1899",
         "codePoint": "U+1F537",
         "name": "large blue diamond",
         "entities": "",
@@ -18953,7 +19993,7 @@ const shorthandMap = {
         ]
     },
     "🔸": {
-        "i": "1803",
+        "i": "1900",
         "codePoint": "U+1F538",
         "name": "small orange diamond",
         "entities": "",
@@ -18963,7 +20003,7 @@ const shorthandMap = {
         ]
     },
     "🔹": {
-        "i": "1804",
+        "i": "1901",
         "codePoint": "U+1F539",
         "name": "small blue diamond",
         "entities": "",
@@ -18973,7 +20013,7 @@ const shorthandMap = {
         ]
     },
     "🔺": {
-        "i": "1805",
+        "i": "1902",
         "codePoint": "U+1F53A",
         "name": "up-pointing red triangle",
         "entities": "",
@@ -18983,7 +20023,7 @@ const shorthandMap = {
         ]
     },
     "🔻": {
-        "i": "1806",
+        "i": "1903",
         "codePoint": "U+1F53B",
         "name": "down-pointing red triangle",
         "entities": "",
@@ -18993,7 +20033,7 @@ const shorthandMap = {
         ]
     },
     "💠": {
-        "i": "1807",
+        "i": "1904",
         "codePoint": "U+1F4A0",
         "name": "diamond shape with a dot inside",
         "entities": "",
@@ -19006,7 +20046,7 @@ const shorthandMap = {
         ]
     },
     "🔘": {
-        "i": "1808",
+        "i": "1905",
         "codePoint": "U+1F518",
         "name": "radio button",
         "entities": "",
@@ -19016,7 +20056,7 @@ const shorthandMap = {
         ]
     },
     "🔳": {
-        "i": "1809",
+        "i": "1906",
         "codePoint": "U+1F533",
         "name": "white square button",
         "entities": "",
@@ -19026,7 +20066,7 @@ const shorthandMap = {
         ]
     },
     "🔲": {
-        "i": "1810",
+        "i": "1907",
         "codePoint": "U+1F532",
         "name": "black square button",
         "entities": "",
@@ -19036,7 +20076,7 @@ const shorthandMap = {
         ]
     },
     "🏁": {
-        "i": "1811",
+        "i": "1908",
         "codePoint": "U+1F3C1",
         "name": "chequered flag",
         "entities": "",
@@ -19048,7 +20088,7 @@ const shorthandMap = {
         ]
     },
     "🚩": {
-        "i": "1812",
+        "i": "1909",
         "codePoint": "U+1F6A9",
         "name": "triangular flag on post",
         "entities": "",
@@ -19059,7 +20099,7 @@ const shorthandMap = {
         ]
     },
     "🎌": {
-        "i": "1813",
+        "i": "1910",
         "codePoint": "U+1F38C",
         "name": "crossed flags",
         "entities": "",
@@ -19069,7 +20109,7 @@ const shorthandMap = {
         ]
     },
     "🏴": {
-        "i": "1814",
+        "i": "1911",
         "codePoint": "U+1F3F4",
         "name": "waving black flag",
         "entities": "",
@@ -19080,7 +20120,7 @@ const shorthandMap = {
         ]
     },
     "🏳️": {
-        "i": "1815",
+        "i": "1912",
         "codePoint": "U+1F3F3+FE0F",
         "name": "white flag",
         "entities": "",
@@ -19094,7 +20134,7 @@ const shorthandMap = {
         ]
     },
     "🏳️‍🌈": {
-        "i": "1816",
+        "i": "1913",
         "codePoint": "U+1F3F3+FE0F+200D+1F308",
         "name": "rainbow flag",
         "entities": "",
@@ -19109,7 +20149,7 @@ const shorthandMap = {
         ]
     },
     "🏳️‍⚧️": {
-        "i": "1817",
+        "i": "1914",
         "codePoint": "U+1F3F3+FE0F+200D+26A7+FE0F",
         "name": "transgender flag",
         "entities": "",
@@ -19119,7 +20159,7 @@ const shorthandMap = {
         ]
     },
     "🏴‍☠️": {
-        "i": "1818",
+        "i": "1915",
         "codePoint": "U+1F3F4+200D+2620+FE0F",
         "name": "pirate flag",
         "entities": "",
@@ -19129,7 +20169,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇨": {
-        "i": "1819",
+        "i": "1916",
         "codePoint": "U+1F1E6+1F1E8",
         "name": "flag Ascension Island",
         "entities": "",
@@ -19139,7 +20179,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇩": {
-        "i": "1820",
+        "i": "1917",
         "codePoint": "U+1F1E6+1F1E9",
         "name": "flag Andorra",
         "entities": "",
@@ -19150,7 +20190,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇪": {
-        "i": "1821",
+        "i": "1918",
         "codePoint": "U+1F1E6+1F1EA",
         "name": "flag United Arab Emirates",
         "entities": "",
@@ -19162,7 +20202,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇫": {
-        "i": "1822",
+        "i": "1919",
         "codePoint": "U+1F1E6+1F1EB",
         "name": "flag Afghanistan",
         "entities": "",
@@ -19173,7 +20213,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇬": {
-        "i": "1823",
+        "i": "1920",
         "codePoint": "U+1F1E6+1F1EC",
         "name": "flag Antigua & Barbuda",
         "entities": "",
@@ -19184,7 +20224,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇮": {
-        "i": "1824",
+        "i": "1921",
         "codePoint": "U+1F1E6+1F1EE",
         "name": "flag Anguilla",
         "entities": "",
@@ -19195,7 +20235,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇱": {
-        "i": "1825",
+        "i": "1922",
         "codePoint": "U+1F1E6+1F1F1",
         "name": "flag Albania",
         "entities": "",
@@ -19206,7 +20246,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇲": {
-        "i": "1826",
+        "i": "1923",
         "codePoint": "U+1F1E6+1F1F2",
         "name": "flag Armenia",
         "entities": "",
@@ -19217,7 +20257,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇴": {
-        "i": "1827",
+        "i": "1924",
         "codePoint": "U+1F1E6+1F1F4",
         "name": "flag Angola",
         "entities": "",
@@ -19228,7 +20268,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇶": {
-        "i": "1828",
+        "i": "1925",
         "codePoint": "U+1F1E6+1F1F6",
         "name": "flag Antarctica",
         "entities": "",
@@ -19239,7 +20279,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇷": {
-        "i": "1829",
+        "i": "1926",
         "codePoint": "U+1F1E6+1F1F7",
         "name": "flag Argentina",
         "entities": "",
@@ -19250,7 +20290,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇸": {
-        "i": "1830",
+        "i": "1927",
         "codePoint": "U+1F1E6+1F1F8",
         "name": "flag American Samoa",
         "entities": "",
@@ -19260,7 +20300,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇹": {
-        "i": "1831",
+        "i": "1928",
         "codePoint": "U+1F1E6+1F1F9",
         "name": "flag Austria",
         "entities": "",
@@ -19271,7 +20311,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇺": {
-        "i": "1832",
+        "i": "1929",
         "codePoint": "U+1F1E6+1F1FA",
         "name": "flag Australia",
         "entities": "",
@@ -19281,7 +20321,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇼": {
-        "i": "1833",
+        "i": "1930",
         "codePoint": "U+1F1E6+1F1FC",
         "name": "flag Aruba",
         "entities": "",
@@ -19291,7 +20331,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇽": {
-        "i": "1834",
+        "i": "1931",
         "codePoint": "U+1F1E6+1F1FD",
         "name": "flag Åland Islands",
         "entities": "",
@@ -19301,7 +20341,7 @@ const shorthandMap = {
         ]
     },
     "🇦🇿": {
-        "i": "1835",
+        "i": "1932",
         "codePoint": "U+1F1E6+1F1FF",
         "name": "flag Azerbaijan",
         "entities": "",
@@ -19312,7 +20352,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇦": {
-        "i": "1836",
+        "i": "1933",
         "codePoint": "U+1F1E7+1F1E6",
         "name": "flag Bosnia & Herzegovina",
         "entities": "",
@@ -19323,7 +20363,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇧": {
-        "i": "1837",
+        "i": "1934",
         "codePoint": "U+1F1E7+1F1E7",
         "name": "flag Barbados",
         "entities": "",
@@ -19334,7 +20374,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇩": {
-        "i": "1838",
+        "i": "1935",
         "codePoint": "U+1F1E7+1F1E9",
         "name": "flag Bangladesh",
         "entities": "",
@@ -19345,7 +20385,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇪": {
-        "i": "1839",
+        "i": "1936",
         "codePoint": "U+1F1E7+1F1EA",
         "name": "flag Belgium",
         "entities": "",
@@ -19356,7 +20396,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇫": {
-        "i": "1840",
+        "i": "1937",
         "codePoint": "U+1F1E7+1F1EB",
         "name": "flag Burkina Faso",
         "entities": "",
@@ -19367,7 +20407,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇬": {
-        "i": "1841",
+        "i": "1938",
         "codePoint": "U+1F1E7+1F1EC",
         "name": "flag Bulgaria",
         "entities": "",
@@ -19378,7 +20418,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇭": {
-        "i": "1842",
+        "i": "1939",
         "codePoint": "U+1F1E7+1F1ED",
         "name": "flag Bahrain",
         "entities": "",
@@ -19389,7 +20429,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇮": {
-        "i": "1843",
+        "i": "1940",
         "codePoint": "U+1F1E7+1F1EE",
         "name": "flag Burundi",
         "entities": "",
@@ -19400,7 +20440,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇯": {
-        "i": "1844",
+        "i": "1941",
         "codePoint": "U+1F1E7+1F1EF",
         "name": "flag Benin",
         "entities": "",
@@ -19411,7 +20451,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇱": {
-        "i": "1845",
+        "i": "1942",
         "codePoint": "U+1F1E7+1F1F1",
         "name": "flag St. Barthélemy",
         "entities": "",
@@ -19422,7 +20462,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇲": {
-        "i": "1846",
+        "i": "1943",
         "codePoint": "U+1F1E7+1F1F2",
         "name": "flag Bermuda",
         "entities": "",
@@ -19433,7 +20473,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇳": {
-        "i": "1847",
+        "i": "1944",
         "codePoint": "U+1F1E7+1F1F3",
         "name": "flag Brunei",
         "entities": "",
@@ -19445,7 +20485,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇴": {
-        "i": "1848",
+        "i": "1945",
         "codePoint": "U+1F1E7+1F1F4",
         "name": "flag Bolivia",
         "entities": "",
@@ -19456,7 +20496,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇶": {
-        "i": "1849",
+        "i": "1946",
         "codePoint": "U+1F1E7+1F1F6",
         "name": "flag Caribbean Netherlands",
         "entities": "",
@@ -19466,7 +20506,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇷": {
-        "i": "1850",
+        "i": "1947",
         "codePoint": "U+1F1E7+1F1F7",
         "name": "flag Brazil",
         "entities": "",
@@ -19477,7 +20517,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇸": {
-        "i": "1851",
+        "i": "1948",
         "codePoint": "U+1F1E7+1F1F8",
         "name": "flag Bahamas",
         "entities": "",
@@ -19488,7 +20528,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇹": {
-        "i": "1852",
+        "i": "1949",
         "codePoint": "U+1F1E7+1F1F9",
         "name": "flag Bhutan",
         "entities": "",
@@ -19499,7 +20539,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇻": {
-        "i": "1853",
+        "i": "1950",
         "codePoint": "U+1F1E7+1F1FB",
         "name": "flag Bouvet Island",
         "entities": "",
@@ -19509,7 +20549,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇼": {
-        "i": "1854",
+        "i": "1951",
         "codePoint": "U+1F1E7+1F1FC",
         "name": "flag Botswana",
         "entities": "",
@@ -19520,7 +20560,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇾": {
-        "i": "1855",
+        "i": "1952",
         "codePoint": "U+1F1E7+1F1FE",
         "name": "flag Belarus",
         "entities": "",
@@ -19531,7 +20571,7 @@ const shorthandMap = {
         ]
     },
     "🇧🇿": {
-        "i": "1856",
+        "i": "1953",
         "codePoint": "U+1F1E7+1F1FF",
         "name": "flag Belize",
         "entities": "",
@@ -19542,7 +20582,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇦": {
-        "i": "1857",
+        "i": "1954",
         "codePoint": "U+1F1E8+1F1E6",
         "name": "flag Canada",
         "entities": "",
@@ -19552,7 +20592,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇨": {
-        "i": "1858",
+        "i": "1955",
         "codePoint": "U+1F1E8+1F1E8",
         "name": "flag Cocos (Keeling) Islands",
         "entities": "",
@@ -19563,7 +20603,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇩": {
-        "i": "1859",
+        "i": "1956",
         "codePoint": "U+1F1E8+1F1E9",
         "name": "flag Congo - Kinshasa",
         "entities": "",
@@ -19574,7 +20614,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇫": {
-        "i": "1860",
+        "i": "1957",
         "codePoint": "U+1F1E8+1F1EB",
         "name": "flag Central African Republic",
         "entities": "",
@@ -19585,7 +20625,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇬": {
-        "i": "1861",
+        "i": "1958",
         "codePoint": "U+1F1E8+1F1EC",
         "name": "flag Congo - Brazzaville",
         "entities": "",
@@ -19595,7 +20635,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇭": {
-        "i": "1862",
+        "i": "1959",
         "codePoint": "U+1F1E8+1F1ED",
         "name": "flag Switzerland",
         "entities": "",
@@ -19606,7 +20646,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇮": {
-        "i": "1863",
+        "i": "1960",
         "codePoint": "U+1F1E8+1F1EE",
         "name": "flag Côte d’Ivoire",
         "entities": "",
@@ -19617,7 +20657,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇰": {
-        "i": "1864",
+        "i": "1961",
         "codePoint": "U+1F1E8+1F1F0",
         "name": "flag Cook Islands",
         "entities": "",
@@ -19627,7 +20667,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇱": {
-        "i": "1865",
+        "i": "1962",
         "codePoint": "U+1F1E8+1F1F1",
         "name": "flag Chile",
         "entities": "",
@@ -19637,7 +20677,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇲": {
-        "i": "1866",
+        "i": "1963",
         "codePoint": "U+1F1E8+1F1F2",
         "name": "flag Cameroon",
         "entities": "",
@@ -19648,7 +20688,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇳": {
-        "i": "1867",
+        "i": "1964",
         "codePoint": "U+1F1E8+1F1F3",
         "name": "flag China",
         "entities": "",
@@ -19659,7 +20699,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇴": {
-        "i": "1868",
+        "i": "1965",
         "codePoint": "U+1F1E8+1F1F4",
         "name": "flag Colombia",
         "entities": "",
@@ -19670,7 +20710,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇵": {
-        "i": "1869",
+        "i": "1966",
         "codePoint": "U+1F1E8+1F1F5",
         "name": "flag Clipperton Island",
         "entities": "",
@@ -19680,7 +20720,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇷": {
-        "i": "1870",
+        "i": "1967",
         "codePoint": "U+1F1E8+1F1F7",
         "name": "flag Costa Rica",
         "entities": "",
@@ -19691,7 +20731,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇺": {
-        "i": "1871",
+        "i": "1968",
         "codePoint": "U+1F1E8+1F1FA",
         "name": "flag Cuba",
         "entities": "",
@@ -19702,7 +20742,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇻": {
-        "i": "1872",
+        "i": "1969",
         "codePoint": "U+1F1E8+1F1FB",
         "name": "flag Cape Verde",
         "entities": "",
@@ -19713,7 +20753,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇼": {
-        "i": "1873",
+        "i": "1970",
         "codePoint": "U+1F1E8+1F1FC",
         "name": "flag Curaçao",
         "entities": "",
@@ -19724,7 +20764,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇽": {
-        "i": "1874",
+        "i": "1971",
         "codePoint": "U+1F1E8+1F1FD",
         "name": "flag Christmas Island",
         "entities": "",
@@ -19735,7 +20775,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇾": {
-        "i": "1875",
+        "i": "1972",
         "codePoint": "U+1F1E8+1F1FE",
         "name": "flag Cyprus",
         "entities": "",
@@ -19746,7 +20786,7 @@ const shorthandMap = {
         ]
     },
     "🇨🇿": {
-        "i": "1876",
+        "i": "1973",
         "codePoint": "U+1F1E8+1F1FF",
         "name": "flag Czechia",
         "entities": "",
@@ -19757,7 +20797,7 @@ const shorthandMap = {
         ]
     },
     "🇩🇪": {
-        "i": "1877",
+        "i": "1974",
         "codePoint": "U+1F1E9+1F1EA",
         "name": "flag Germany",
         "entities": "",
@@ -19767,7 +20807,7 @@ const shorthandMap = {
         ]
     },
     "🇩🇬": {
-        "i": "1878",
+        "i": "1975",
         "codePoint": "U+1F1E9+1F1EC",
         "name": "flag Diego Garcia",
         "entities": "",
@@ -19777,7 +20817,7 @@ const shorthandMap = {
         ]
     },
     "🇩🇯": {
-        "i": "1879",
+        "i": "1976",
         "codePoint": "U+1F1E9+1F1EF",
         "name": "flag Djibouti",
         "entities": "",
@@ -19788,7 +20828,7 @@ const shorthandMap = {
         ]
     },
     "🇩🇰": {
-        "i": "1880",
+        "i": "1977",
         "codePoint": "U+1F1E9+1F1F0",
         "name": "flag Denmark",
         "entities": "",
@@ -19799,7 +20839,7 @@ const shorthandMap = {
         ]
     },
     "🇩🇲": {
-        "i": "1881",
+        "i": "1978",
         "codePoint": "U+1F1E9+1F1F2",
         "name": "flag Dominica",
         "entities": "",
@@ -19810,7 +20850,7 @@ const shorthandMap = {
         ]
     },
     "🇩🇴": {
-        "i": "1882",
+        "i": "1979",
         "codePoint": "U+1F1E9+1F1F4",
         "name": "flag Dominican Republic",
         "entities": "",
@@ -19821,7 +20861,7 @@ const shorthandMap = {
         ]
     },
     "🇩🇿": {
-        "i": "1883",
+        "i": "1980",
         "codePoint": "U+1F1E9+1F1FF",
         "name": "flag Algeria",
         "entities": "",
@@ -19832,7 +20872,7 @@ const shorthandMap = {
         ]
     },
     "🇪🇦": {
-        "i": "1884",
+        "i": "1981",
         "codePoint": "U+1F1EA+1F1E6",
         "name": "flag Ceuta & Melilla",
         "entities": "",
@@ -19842,7 +20882,7 @@ const shorthandMap = {
         ]
     },
     "🇪🇨": {
-        "i": "1885",
+        "i": "1982",
         "codePoint": "U+1F1EA+1F1E8",
         "name": "flag Ecuador",
         "entities": "",
@@ -19853,7 +20893,7 @@ const shorthandMap = {
         ]
     },
     "🇪🇪": {
-        "i": "1886",
+        "i": "1983",
         "codePoint": "U+1F1EA+1F1EA",
         "name": "flag Estonia",
         "entities": "",
@@ -19864,7 +20904,7 @@ const shorthandMap = {
         ]
     },
     "🇪🇬": {
-        "i": "1887",
+        "i": "1984",
         "codePoint": "U+1F1EA+1F1EC",
         "name": "flag Egypt",
         "entities": "",
@@ -19875,7 +20915,7 @@ const shorthandMap = {
         ]
     },
     "🇪🇭": {
-        "i": "1888",
+        "i": "1985",
         "codePoint": "U+1F1EA+1F1ED",
         "name": "flag Western Sahara",
         "entities": "",
@@ -19886,7 +20926,7 @@ const shorthandMap = {
         ]
     },
     "🇪🇷": {
-        "i": "1889",
+        "i": "1986",
         "codePoint": "U+1F1EA+1F1F7",
         "name": "flag Eritrea",
         "entities": "",
@@ -19897,7 +20937,7 @@ const shorthandMap = {
         ]
     },
     "🇪🇸": {
-        "i": "1890",
+        "i": "1987",
         "codePoint": "U+1F1EA+1F1F8",
         "name": "flag Spain",
         "entities": "",
@@ -19907,7 +20947,7 @@ const shorthandMap = {
         ]
     },
     "🇪🇹": {
-        "i": "1891",
+        "i": "1988",
         "codePoint": "U+1F1EA+1F1F9",
         "name": "flag Ethiopia",
         "entities": "",
@@ -19918,7 +20958,7 @@ const shorthandMap = {
         ]
     },
     "🇪🇺": {
-        "i": "1892",
+        "i": "1989",
         "codePoint": "U+1F1EA+1F1FA",
         "name": "flag European Union",
         "entities": "",
@@ -19929,7 +20969,7 @@ const shorthandMap = {
         ]
     },
     "🇫🇮": {
-        "i": "1893",
+        "i": "1990",
         "codePoint": "U+1F1EB+1F1EE",
         "name": "flag Finland",
         "entities": "",
@@ -19940,7 +20980,7 @@ const shorthandMap = {
         ]
     },
     "🇫🇯": {
-        "i": "1894",
+        "i": "1991",
         "codePoint": "U+1F1EB+1F1EF",
         "name": "flag Fiji",
         "entities": "",
@@ -19951,7 +20991,7 @@ const shorthandMap = {
         ]
     },
     "🇫🇰": {
-        "i": "1895",
+        "i": "1992",
         "codePoint": "U+1F1EB+1F1F0",
         "name": "flag Falkland Islands",
         "entities": "",
@@ -19962,7 +21002,7 @@ const shorthandMap = {
         ]
     },
     "🇫🇲": {
-        "i": "1896",
+        "i": "1993",
         "codePoint": "U+1F1EB+1F1F2",
         "name": "flag Micronesia",
         "entities": "",
@@ -19973,7 +21013,7 @@ const shorthandMap = {
         ]
     },
     "🇫🇴": {
-        "i": "1897",
+        "i": "1994",
         "codePoint": "U+1F1EB+1F1F4",
         "name": "flag Faroe Islands",
         "entities": "",
@@ -19983,7 +21023,7 @@ const shorthandMap = {
         ]
     },
     "🇫🇷": {
-        "i": "1898",
+        "i": "1995",
         "codePoint": "U+1F1EB+1F1F7",
         "name": "flag France",
         "entities": "",
@@ -19993,7 +21033,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇦": {
-        "i": "1899",
+        "i": "1996",
         "codePoint": "U+1F1EC+1F1E6",
         "name": "flag Gabon",
         "entities": "",
@@ -20004,7 +21044,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇧": {
-        "i": "1900",
+        "i": "1997",
         "codePoint": "U+1F1EC+1F1E7",
         "name": "flag United Kingdom",
         "entities": "",
@@ -20018,7 +21058,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇩": {
-        "i": "1901",
+        "i": "1998",
         "codePoint": "U+1F1EC+1F1E9",
         "name": "flag Grenada",
         "entities": "",
@@ -20029,7 +21069,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇪": {
-        "i": "1902",
+        "i": "1999",
         "codePoint": "U+1F1EC+1F1EA",
         "name": "flag Georgia",
         "entities": "",
@@ -20040,7 +21080,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇫": {
-        "i": "1903",
+        "i": "2000",
         "codePoint": "U+1F1EC+1F1EB",
         "name": "flag French Guiana",
         "entities": "",
@@ -20050,7 +21090,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇬": {
-        "i": "1904",
+        "i": "2001",
         "codePoint": "U+1F1EC+1F1EC",
         "name": "flag Guernsey",
         "entities": "",
@@ -20061,7 +21101,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇭": {
-        "i": "1905",
+        "i": "2002",
         "codePoint": "U+1F1EC+1F1ED",
         "name": "flag Ghana",
         "entities": "",
@@ -20072,7 +21112,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇮": {
-        "i": "1906",
+        "i": "2003",
         "codePoint": "U+1F1EC+1F1EE",
         "name": "flag Gibraltar",
         "entities": "",
@@ -20083,7 +21123,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇱": {
-        "i": "1907",
+        "i": "2004",
         "codePoint": "U+1F1EC+1F1F1",
         "name": "flag Greenland",
         "entities": "",
@@ -20094,7 +21134,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇲": {
-        "i": "1908",
+        "i": "2005",
         "codePoint": "U+1F1EC+1F1F2",
         "name": "flag Gambia",
         "entities": "",
@@ -20105,7 +21145,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇳": {
-        "i": "1909",
+        "i": "2006",
         "codePoint": "U+1F1EC+1F1F3",
         "name": "flag Guinea",
         "entities": "",
@@ -20116,7 +21156,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇵": {
-        "i": "1910",
+        "i": "2007",
         "codePoint": "U+1F1EC+1F1F5",
         "name": "flag Guadeloupe",
         "entities": "",
@@ -20127,7 +21167,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇶": {
-        "i": "1911",
+        "i": "2008",
         "codePoint": "U+1F1EC+1F1F6",
         "name": "flag Equatorial Guinea",
         "entities": "",
@@ -20137,7 +21177,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇷": {
-        "i": "1912",
+        "i": "2009",
         "codePoint": "U+1F1EC+1F1F7",
         "name": "flag Greece",
         "entities": "",
@@ -20148,7 +21188,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇸": {
-        "i": "1913",
+        "i": "2010",
         "codePoint": "U+1F1EC+1F1F8",
         "name": "flag South Georgia & South Sandwich Islands",
         "entities": "",
@@ -20158,7 +21198,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇹": {
-        "i": "1914",
+        "i": "2011",
         "codePoint": "U+1F1EC+1F1F9",
         "name": "flag Guatemala",
         "entities": "",
@@ -20169,7 +21209,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇺": {
-        "i": "1915",
+        "i": "2012",
         "codePoint": "U+1F1EC+1F1FA",
         "name": "flag Guam",
         "entities": "",
@@ -20180,7 +21220,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇼": {
-        "i": "1916",
+        "i": "2013",
         "codePoint": "U+1F1EC+1F1FC",
         "name": "flag Guinea-Bissau",
         "entities": "",
@@ -20191,7 +21231,7 @@ const shorthandMap = {
         ]
     },
     "🇬🇾": {
-        "i": "1917",
+        "i": "2014",
         "codePoint": "U+1F1EC+1F1FE",
         "name": "flag Guyana",
         "entities": "",
@@ -20202,7 +21242,7 @@ const shorthandMap = {
         ]
     },
     "🇭🇰": {
-        "i": "1918",
+        "i": "2015",
         "codePoint": "U+1F1ED+1F1F0",
         "name": "flag Hong Kong SAR China",
         "entities": "",
@@ -20213,7 +21253,7 @@ const shorthandMap = {
         ]
     },
     "🇭🇲": {
-        "i": "1919",
+        "i": "2016",
         "codePoint": "U+1F1ED+1F1F2",
         "name": "flag Heard & McDonald Islands",
         "entities": "",
@@ -20223,7 +21263,7 @@ const shorthandMap = {
         ]
     },
     "🇭🇳": {
-        "i": "1920",
+        "i": "2017",
         "codePoint": "U+1F1ED+1F1F3",
         "name": "flag Honduras",
         "entities": "",
@@ -20234,7 +21274,7 @@ const shorthandMap = {
         ]
     },
     "🇭🇷": {
-        "i": "1921",
+        "i": "2018",
         "codePoint": "U+1F1ED+1F1F7",
         "name": "flag Croatia",
         "entities": "",
@@ -20245,7 +21285,7 @@ const shorthandMap = {
         ]
     },
     "🇭🇹": {
-        "i": "1922",
+        "i": "2019",
         "codePoint": "U+1F1ED+1F1F9",
         "name": "flag Haiti",
         "entities": "",
@@ -20256,7 +21296,7 @@ const shorthandMap = {
         ]
     },
     "🇭🇺": {
-        "i": "1923",
+        "i": "2020",
         "codePoint": "U+1F1ED+1F1FA",
         "name": "flag Hungary",
         "entities": "",
@@ -20267,7 +21307,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇨": {
-        "i": "1924",
+        "i": "2021",
         "codePoint": "U+1F1EE+1F1E8",
         "name": "flag Canary Islands",
         "entities": "",
@@ -20277,7 +21317,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇩": {
-        "i": "1925",
+        "i": "2022",
         "codePoint": "U+1F1EE+1F1E9",
         "name": "flag Indonesia",
         "entities": "",
@@ -20287,7 +21327,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇪": {
-        "i": "1926",
+        "i": "2023",
         "codePoint": "U+1F1EE+1F1EA",
         "name": "flag Ireland",
         "entities": "",
@@ -20298,7 +21338,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇱": {
-        "i": "1927",
+        "i": "2024",
         "codePoint": "U+1F1EE+1F1F1",
         "name": "flag Israel",
         "entities": "",
@@ -20309,7 +21349,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇲": {
-        "i": "1928",
+        "i": "2025",
         "codePoint": "U+1F1EE+1F1F2",
         "name": "flag Isle of Man",
         "entities": "",
@@ -20319,7 +21359,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇳": {
-        "i": "1929",
+        "i": "2026",
         "codePoint": "U+1F1EE+1F1F3",
         "name": "flag India",
         "entities": "",
@@ -20330,7 +21370,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇴": {
-        "i": "1930",
+        "i": "2027",
         "codePoint": "U+1F1EE+1F1F4",
         "name": "flag British Indian Ocean Territory",
         "entities": "",
@@ -20340,7 +21380,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇶": {
-        "i": "1931",
+        "i": "2028",
         "codePoint": "U+1F1EE+1F1F6",
         "name": "flag Iraq",
         "entities": "",
@@ -20351,7 +21391,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇷": {
-        "i": "1932",
+        "i": "2029",
         "codePoint": "U+1F1EE+1F1F7",
         "name": "flag Iran",
         "entities": "",
@@ -20362,7 +21402,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇸": {
-        "i": "1933",
+        "i": "2030",
         "codePoint": "U+1F1EE+1F1F8",
         "name": "flag Iceland",
         "entities": "",
@@ -20373,7 +21413,7 @@ const shorthandMap = {
         ]
     },
     "🇮🇹": {
-        "i": "1934",
+        "i": "2031",
         "codePoint": "U+1F1EE+1F1F9",
         "name": "flag Italy",
         "entities": "",
@@ -20383,7 +21423,7 @@ const shorthandMap = {
         ]
     },
     "🇯🇪": {
-        "i": "1935",
+        "i": "2032",
         "codePoint": "U+1F1EF+1F1EA",
         "name": "flag Jersey",
         "entities": "",
@@ -20394,7 +21434,7 @@ const shorthandMap = {
         ]
     },
     "🇯🇲": {
-        "i": "1936",
+        "i": "2033",
         "codePoint": "U+1F1EF+1F1F2",
         "name": "flag Jamaica",
         "entities": "",
@@ -20405,7 +21445,7 @@ const shorthandMap = {
         ]
     },
     "🇯🇴": {
-        "i": "1937",
+        "i": "2034",
         "codePoint": "U+1F1EF+1F1F4",
         "name": "flag Jordan",
         "entities": "",
@@ -20416,7 +21456,7 @@ const shorthandMap = {
         ]
     },
     "🇯🇵": {
-        "i": "1938",
+        "i": "2035",
         "codePoint": "U+1F1EF+1F1F5",
         "name": "flag Japan",
         "entities": "",
@@ -20427,7 +21467,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇪": {
-        "i": "1939",
+        "i": "2036",
         "codePoint": "U+1F1F0+1F1EA",
         "name": "flag Kenya",
         "entities": "",
@@ -20438,7 +21478,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇬": {
-        "i": "1940",
+        "i": "2037",
         "codePoint": "U+1F1F0+1F1EC",
         "name": "flag Kyrgyzstan",
         "entities": "",
@@ -20449,7 +21489,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇭": {
-        "i": "1941",
+        "i": "2038",
         "codePoint": "U+1F1F0+1F1ED",
         "name": "flag Cambodia",
         "entities": "",
@@ -20460,7 +21500,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇮": {
-        "i": "1942",
+        "i": "2039",
         "codePoint": "U+1F1F0+1F1EE",
         "name": "flag Kiribati",
         "entities": "",
@@ -20471,7 +21511,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇲": {
-        "i": "1943",
+        "i": "2040",
         "codePoint": "U+1F1F0+1F1F2",
         "name": "flag Comoros",
         "entities": "",
@@ -20482,7 +21522,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇳": {
-        "i": "1944",
+        "i": "2041",
         "codePoint": "U+1F1F0+1F1F3",
         "name": "flag St. Kitts & Nevis",
         "entities": "",
@@ -20493,7 +21533,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇵": {
-        "i": "1945",
+        "i": "2042",
         "codePoint": "U+1F1F0+1F1F5",
         "name": "flag North Korea",
         "entities": "",
@@ -20503,7 +21543,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇷": {
-        "i": "1946",
+        "i": "2043",
         "codePoint": "U+1F1F0+1F1F7",
         "name": "flag South Korea",
         "entities": "",
@@ -20513,7 +21553,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇼": {
-        "i": "1947",
+        "i": "2044",
         "codePoint": "U+1F1F0+1F1FC",
         "name": "flag Kuwait",
         "entities": "",
@@ -20524,7 +21564,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇾": {
-        "i": "1948",
+        "i": "2045",
         "codePoint": "U+1F1F0+1F1FE",
         "name": "flag Cayman Islands",
         "entities": "",
@@ -20534,7 +21574,7 @@ const shorthandMap = {
         ]
     },
     "🇰🇿": {
-        "i": "1949",
+        "i": "2046",
         "codePoint": "U+1F1F0+1F1FF",
         "name": "flag Kazakhstan",
         "entities": "",
@@ -20545,7 +21585,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇦": {
-        "i": "1950",
+        "i": "2047",
         "codePoint": "U+1F1F1+1F1E6",
         "name": "flag Laos",
         "entities": "",
@@ -20556,7 +21596,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇧": {
-        "i": "1951",
+        "i": "2048",
         "codePoint": "U+1F1F1+1F1E7",
         "name": "flag Lebanon",
         "entities": "",
@@ -20567,7 +21607,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇨": {
-        "i": "1952",
+        "i": "2049",
         "codePoint": "U+1F1F1+1F1E8",
         "name": "flag St. Lucia",
         "entities": "",
@@ -20577,7 +21617,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇮": {
-        "i": "1953",
+        "i": "2050",
         "codePoint": "U+1F1F1+1F1EE",
         "name": "flag Liechtenstein",
         "entities": "",
@@ -20588,7 +21628,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇰": {
-        "i": "1954",
+        "i": "2051",
         "codePoint": "U+1F1F1+1F1F0",
         "name": "flag Sri Lanka",
         "entities": "",
@@ -20599,7 +21639,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇷": {
-        "i": "1955",
+        "i": "2052",
         "codePoint": "U+1F1F1+1F1F7",
         "name": "flag Liberia",
         "entities": "",
@@ -20610,7 +21650,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇸": {
-        "i": "1956",
+        "i": "2053",
         "codePoint": "U+1F1F1+1F1F8",
         "name": "flag Lesotho",
         "entities": "",
@@ -20621,7 +21661,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇹": {
-        "i": "1957",
+        "i": "2054",
         "codePoint": "U+1F1F1+1F1F9",
         "name": "flag Lithuania",
         "entities": "",
@@ -20632,7 +21672,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇺": {
-        "i": "1958",
+        "i": "2055",
         "codePoint": "U+1F1F1+1F1FA",
         "name": "flag Luxembourg",
         "entities": "",
@@ -20643,7 +21683,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇻": {
-        "i": "1959",
+        "i": "2056",
         "codePoint": "U+1F1F1+1F1FB",
         "name": "flag Latvia",
         "entities": "",
@@ -20654,7 +21694,7 @@ const shorthandMap = {
         ]
     },
     "🇱🇾": {
-        "i": "1960",
+        "i": "2057",
         "codePoint": "U+1F1F1+1F1FE",
         "name": "flag Libya",
         "entities": "",
@@ -20665,7 +21705,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇦": {
-        "i": "1961",
+        "i": "2058",
         "codePoint": "U+1F1F2+1F1E6",
         "name": "flag Morocco",
         "entities": "",
@@ -20676,7 +21716,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇨": {
-        "i": "1962",
+        "i": "2059",
         "codePoint": "U+1F1F2+1F1E8",
         "name": "flag Monaco",
         "entities": "",
@@ -20687,7 +21727,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇩": {
-        "i": "1963",
+        "i": "2060",
         "codePoint": "U+1F1F2+1F1E9",
         "name": "flag Moldova",
         "entities": "",
@@ -20697,7 +21737,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇪": {
-        "i": "1964",
+        "i": "2061",
         "codePoint": "U+1F1F2+1F1EA",
         "name": "flag Montenegro",
         "entities": "",
@@ -20708,7 +21748,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇫": {
-        "i": "1965",
+        "i": "2062",
         "codePoint": "U+1F1F2+1F1EB",
         "name": "flag St. Martin",
         "entities": "",
@@ -20718,7 +21758,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇬": {
-        "i": "1966",
+        "i": "2063",
         "codePoint": "U+1F1F2+1F1EC",
         "name": "flag Madagascar",
         "entities": "",
@@ -20729,7 +21769,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇭": {
-        "i": "1967",
+        "i": "2064",
         "codePoint": "U+1F1F2+1F1ED",
         "name": "flag Marshall Islands",
         "entities": "",
@@ -20739,7 +21779,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇰": {
-        "i": "1968",
+        "i": "2065",
         "codePoint": "U+1F1F2+1F1F0",
         "name": "flag North Macedonia",
         "entities": "",
@@ -20749,7 +21789,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇱": {
-        "i": "1969",
+        "i": "2066",
         "codePoint": "U+1F1F2+1F1F1",
         "name": "flag Mali",
         "entities": "",
@@ -20760,7 +21800,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇲": {
-        "i": "1970",
+        "i": "2067",
         "codePoint": "U+1F1F2+1F1F2",
         "name": "flag Myanmar (Burma)",
         "entities": "",
@@ -20771,7 +21811,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇳": {
-        "i": "1971",
+        "i": "2068",
         "codePoint": "U+1F1F2+1F1F3",
         "name": "flag Mongolia",
         "entities": "",
@@ -20782,7 +21822,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇴": {
-        "i": "1972",
+        "i": "2069",
         "codePoint": "U+1F1F2+1F1F4",
         "name": "flag Macao SAR China",
         "entities": "",
@@ -20792,7 +21832,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇵": {
-        "i": "1973",
+        "i": "2070",
         "codePoint": "U+1F1F2+1F1F5",
         "name": "flag Northern Mariana Islands",
         "entities": "",
@@ -20803,7 +21843,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇶": {
-        "i": "1974",
+        "i": "2071",
         "codePoint": "U+1F1F2+1F1F6",
         "name": "flag Martinique",
         "entities": "",
@@ -20814,7 +21854,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇷": {
-        "i": "1975",
+        "i": "2072",
         "codePoint": "U+1F1F2+1F1F7",
         "name": "flag Mauritania",
         "entities": "",
@@ -20825,7 +21865,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇸": {
-        "i": "1976",
+        "i": "2073",
         "codePoint": "U+1F1F2+1F1F8",
         "name": "flag Montserrat",
         "entities": "",
@@ -20836,7 +21876,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇹": {
-        "i": "1977",
+        "i": "2074",
         "codePoint": "U+1F1F2+1F1F9",
         "name": "flag Malta",
         "entities": "",
@@ -20847,7 +21887,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇺": {
-        "i": "1978",
+        "i": "2075",
         "codePoint": "U+1F1F2+1F1FA",
         "name": "flag Mauritius",
         "entities": "",
@@ -20858,7 +21898,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇻": {
-        "i": "1979",
+        "i": "2076",
         "codePoint": "U+1F1F2+1F1FB",
         "name": "flag Maldives",
         "entities": "",
@@ -20869,7 +21909,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇼": {
-        "i": "1980",
+        "i": "2077",
         "codePoint": "U+1F1F2+1F1FC",
         "name": "flag Malawi",
         "entities": "",
@@ -20880,7 +21920,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇽": {
-        "i": "1981",
+        "i": "2078",
         "codePoint": "U+1F1F2+1F1FD",
         "name": "flag Mexico",
         "entities": "",
@@ -20890,7 +21930,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇾": {
-        "i": "1982",
+        "i": "2079",
         "codePoint": "U+1F1F2+1F1FE",
         "name": "flag Malaysia",
         "entities": "",
@@ -20901,7 +21941,7 @@ const shorthandMap = {
         ]
     },
     "🇲🇿": {
-        "i": "1983",
+        "i": "2080",
         "codePoint": "U+1F1F2+1F1FF",
         "name": "flag Mozambique",
         "entities": "",
@@ -20912,7 +21952,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇦": {
-        "i": "1984",
+        "i": "2081",
         "codePoint": "U+1F1F3+1F1E6",
         "name": "flag Namibia",
         "entities": "",
@@ -20923,7 +21963,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇨": {
-        "i": "1985",
+        "i": "2082",
         "codePoint": "U+1F1F3+1F1E8",
         "name": "flag New Caledonia",
         "entities": "",
@@ -20934,7 +21974,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇪": {
-        "i": "1986",
+        "i": "2083",
         "codePoint": "U+1F1F3+1F1EA",
         "name": "flag Niger",
         "entities": "",
@@ -20945,7 +21985,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇫": {
-        "i": "1987",
+        "i": "2084",
         "codePoint": "U+1F1F3+1F1EB",
         "name": "flag Norfolk Island",
         "entities": "",
@@ -20955,7 +21995,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇬": {
-        "i": "1988",
+        "i": "2085",
         "codePoint": "U+1F1F3+1F1EC",
         "name": "flag Nigeria",
         "entities": "",
@@ -20965,7 +22005,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇮": {
-        "i": "1989",
+        "i": "2086",
         "codePoint": "U+1F1F3+1F1EE",
         "name": "flag Nicaragua",
         "entities": "",
@@ -20976,7 +22016,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇱": {
-        "i": "1990",
+        "i": "2087",
         "codePoint": "U+1F1F3+1F1F1",
         "name": "flag Netherlands",
         "entities": "",
@@ -20987,7 +22027,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇴": {
-        "i": "1991",
+        "i": "2088",
         "codePoint": "U+1F1F3+1F1F4",
         "name": "flag Norway",
         "entities": "",
@@ -20997,7 +22037,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇵": {
-        "i": "1992",
+        "i": "2089",
         "codePoint": "U+1F1F3+1F1F5",
         "name": "flag Nepal",
         "entities": "",
@@ -21008,7 +22048,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇷": {
-        "i": "1993",
+        "i": "2090",
         "codePoint": "U+1F1F3+1F1F7",
         "name": "flag Nauru",
         "entities": "",
@@ -21019,7 +22059,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇺": {
-        "i": "1994",
+        "i": "2091",
         "codePoint": "U+1F1F3+1F1FA",
         "name": "flag Niue",
         "entities": "",
@@ -21030,7 +22070,7 @@ const shorthandMap = {
         ]
     },
     "🇳🇿": {
-        "i": "1995",
+        "i": "2092",
         "codePoint": "U+1F1F3+1F1FF",
         "name": "flag New Zealand",
         "entities": "",
@@ -21040,7 +22080,7 @@ const shorthandMap = {
         ]
     },
     "🇴🇲": {
-        "i": "1996",
+        "i": "2093",
         "codePoint": "U+1F1F4+1F1F2",
         "name": "flag Oman",
         "entities": "",
@@ -21050,7 +22090,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇦": {
-        "i": "1997",
+        "i": "2094",
         "codePoint": "U+1F1F5+1F1E6",
         "name": "flag Panama",
         "entities": "",
@@ -21061,7 +22101,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇪": {
-        "i": "1998",
+        "i": "2095",
         "codePoint": "U+1F1F5+1F1EA",
         "name": "flag Peru",
         "entities": "",
@@ -21072,7 +22112,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇫": {
-        "i": "1999",
+        "i": "2096",
         "codePoint": "U+1F1F5+1F1EB",
         "name": "flag French Polynesia",
         "entities": "",
@@ -21082,7 +22122,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇬": {
-        "i": "2000",
+        "i": "2097",
         "codePoint": "U+1F1F5+1F1EC",
         "name": "flag Papua New Guinea",
         "entities": "",
@@ -21092,7 +22132,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇭": {
-        "i": "2001",
+        "i": "2098",
         "codePoint": "U+1F1F5+1F1ED",
         "name": "flag Philippines",
         "entities": "",
@@ -21103,7 +22143,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇰": {
-        "i": "2002",
+        "i": "2099",
         "codePoint": "U+1F1F5+1F1F0",
         "name": "flag Pakistan",
         "entities": "",
@@ -21114,7 +22154,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇱": {
-        "i": "2003",
+        "i": "2100",
         "codePoint": "U+1F1F5+1F1F1",
         "name": "flag Poland",
         "entities": "",
@@ -21125,7 +22165,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇲": {
-        "i": "2004",
+        "i": "2101",
         "codePoint": "U+1F1F5+1F1F2",
         "name": "flag St. Pierre & Miquelon",
         "entities": "",
@@ -21136,7 +22176,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇳": {
-        "i": "2005",
+        "i": "2102",
         "codePoint": "U+1F1F5+1F1F3",
         "name": "flag Pitcairn Islands",
         "entities": "",
@@ -21146,7 +22186,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇷": {
-        "i": "2006",
+        "i": "2103",
         "codePoint": "U+1F1F5+1F1F7",
         "name": "flag Puerto Rico",
         "entities": "",
@@ -21157,7 +22197,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇸": {
-        "i": "2007",
+        "i": "2104",
         "codePoint": "U+1F1F5+1F1F8",
         "name": "flag Palestinian Territories",
         "entities": "",
@@ -21168,7 +22208,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇹": {
-        "i": "2008",
+        "i": "2105",
         "codePoint": "U+1F1F5+1F1F9",
         "name": "flag Portugal",
         "entities": "",
@@ -21179,7 +22219,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇼": {
-        "i": "2009",
+        "i": "2106",
         "codePoint": "U+1F1F5+1F1FC",
         "name": "flag Palau",
         "entities": "",
@@ -21190,7 +22230,7 @@ const shorthandMap = {
         ]
     },
     "🇵🇾": {
-        "i": "2010",
+        "i": "2107",
         "codePoint": "U+1F1F5+1F1FE",
         "name": "flag Paraguay",
         "entities": "",
@@ -21201,7 +22241,7 @@ const shorthandMap = {
         ]
     },
     "🇶🇦": {
-        "i": "2011",
+        "i": "2108",
         "codePoint": "U+1F1F6+1F1E6",
         "name": "flag Qatar",
         "entities": "",
@@ -21212,7 +22252,7 @@ const shorthandMap = {
         ]
     },
     "🇷🇪": {
-        "i": "2012",
+        "i": "2109",
         "codePoint": "U+1F1F7+1F1EA",
         "name": "flag Réunion",
         "entities": "",
@@ -21223,7 +22263,7 @@ const shorthandMap = {
         ]
     },
     "🇷🇴": {
-        "i": "2013",
+        "i": "2110",
         "codePoint": "U+1F1F7+1F1F4",
         "name": "flag Romania",
         "entities": "",
@@ -21234,7 +22274,7 @@ const shorthandMap = {
         ]
     },
     "🇷🇸": {
-        "i": "2014",
+        "i": "2111",
         "codePoint": "U+1F1F7+1F1F8",
         "name": "flag Serbia",
         "entities": "",
@@ -21245,7 +22285,7 @@ const shorthandMap = {
         ]
     },
     "🇷🇺": {
-        "i": "2015",
+        "i": "2112",
         "codePoint": "U+1F1F7+1F1FA",
         "name": "flag Russia",
         "entities": "",
@@ -21257,7 +22297,7 @@ const shorthandMap = {
         ]
     },
     "🇷🇼": {
-        "i": "2016",
+        "i": "2113",
         "codePoint": "U+1F1F7+1F1FC",
         "name": "flag Rwanda",
         "entities": "",
@@ -21268,7 +22308,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇦": {
-        "i": "2017",
+        "i": "2114",
         "codePoint": "U+1F1F8+1F1E6",
         "name": "flag Saudi Arabia",
         "entities": "",
@@ -21278,7 +22318,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇧": {
-        "i": "2018",
+        "i": "2115",
         "codePoint": "U+1F1F8+1F1E7",
         "name": "flag Solomon Islands",
         "entities": "",
@@ -21288,7 +22328,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇨": {
-        "i": "2019",
+        "i": "2116",
         "codePoint": "U+1F1F8+1F1E8",
         "name": "flag Seychelles",
         "entities": "",
@@ -21299,7 +22339,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇩": {
-        "i": "2020",
+        "i": "2117",
         "codePoint": "U+1F1F8+1F1E9",
         "name": "flag Sudan",
         "entities": "",
@@ -21310,7 +22350,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇪": {
-        "i": "2021",
+        "i": "2118",
         "codePoint": "U+1F1F8+1F1EA",
         "name": "flag Sweden",
         "entities": "",
@@ -21320,7 +22360,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇬": {
-        "i": "2022",
+        "i": "2119",
         "codePoint": "U+1F1F8+1F1EC",
         "name": "flag Singapore",
         "entities": "",
@@ -21331,7 +22371,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇭": {
-        "i": "2023",
+        "i": "2120",
         "codePoint": "U+1F1F8+1F1ED",
         "name": "flag St. Helena",
         "entities": "",
@@ -21344,7 +22384,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇮": {
-        "i": "2024",
+        "i": "2121",
         "codePoint": "U+1F1F8+1F1EE",
         "name": "flag Slovenia",
         "entities": "",
@@ -21355,7 +22395,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇯": {
-        "i": "2025",
+        "i": "2122",
         "codePoint": "U+1F1F8+1F1EF",
         "name": "flag Svalbard & Jan Mayen",
         "entities": "",
@@ -21365,7 +22405,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇰": {
-        "i": "2026",
+        "i": "2123",
         "codePoint": "U+1F1F8+1F1F0",
         "name": "flag Slovakia",
         "entities": "",
@@ -21376,7 +22416,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇱": {
-        "i": "2027",
+        "i": "2124",
         "codePoint": "U+1F1F8+1F1F1",
         "name": "flag Sierra Leone",
         "entities": "",
@@ -21387,7 +22427,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇲": {
-        "i": "2028",
+        "i": "2125",
         "codePoint": "U+1F1F8+1F1F2",
         "name": "flag San Marino",
         "entities": "",
@@ -21398,7 +22438,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇳": {
-        "i": "2029",
+        "i": "2126",
         "codePoint": "U+1F1F8+1F1F3",
         "name": "flag Senegal",
         "entities": "",
@@ -21409,7 +22449,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇴": {
-        "i": "2030",
+        "i": "2127",
         "codePoint": "U+1F1F8+1F1F4",
         "name": "flag Somalia",
         "entities": "",
@@ -21420,7 +22460,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇷": {
-        "i": "2031",
+        "i": "2128",
         "codePoint": "U+1F1F8+1F1F7",
         "name": "flag Suriname",
         "entities": "",
@@ -21431,7 +22471,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇸": {
-        "i": "2032",
+        "i": "2129",
         "codePoint": "U+1F1F8+1F1F8",
         "name": "flag South Sudan",
         "entities": "",
@@ -21441,7 +22481,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇹": {
-        "i": "2033",
+        "i": "2130",
         "codePoint": "U+1F1F8+1F1F9",
         "name": "flag São Tomé & Príncipe",
         "entities": "",
@@ -21453,7 +22493,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇻": {
-        "i": "2034",
+        "i": "2131",
         "codePoint": "U+1F1F8+1F1FB",
         "name": "flag El Salvador",
         "entities": "",
@@ -21464,7 +22504,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇽": {
-        "i": "2035",
+        "i": "2132",
         "codePoint": "U+1F1F8+1F1FD",
         "name": "flag Sint Maarten",
         "entities": "",
@@ -21476,7 +22516,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇾": {
-        "i": "2036",
+        "i": "2133",
         "codePoint": "U+1F1F8+1F1FE",
         "name": "flag Syria",
         "entities": "",
@@ -21487,7 +22527,7 @@ const shorthandMap = {
         ]
     },
     "🇸🇿": {
-        "i": "2037",
+        "i": "2134",
         "codePoint": "U+1F1F8+1F1FF",
         "name": "flag Eswatini",
         "entities": "",
@@ -21498,7 +22538,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇦": {
-        "i": "2038",
+        "i": "2135",
         "codePoint": "U+1F1F9+1F1E6",
         "name": "flag Tristan da Cunha",
         "entities": "",
@@ -21508,7 +22548,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇨": {
-        "i": "2039",
+        "i": "2136",
         "codePoint": "U+1F1F9+1F1E8",
         "name": "flag Turks & Caicos Islands",
         "entities": "",
@@ -21519,7 +22559,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇩": {
-        "i": "2040",
+        "i": "2137",
         "codePoint": "U+1F1F9+1F1E9",
         "name": "flag Chad",
         "entities": "",
@@ -21530,7 +22570,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇫": {
-        "i": "2041",
+        "i": "2138",
         "codePoint": "U+1F1F9+1F1EB",
         "name": "flag French Southern Territories",
         "entities": "",
@@ -21541,7 +22581,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇬": {
-        "i": "2042",
+        "i": "2139",
         "codePoint": "U+1F1F9+1F1EC",
         "name": "flag Togo",
         "entities": "",
@@ -21552,7 +22592,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇭": {
-        "i": "2043",
+        "i": "2140",
         "codePoint": "U+1F1F9+1F1ED",
         "name": "flag Thailand",
         "entities": "",
@@ -21562,7 +22602,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇯": {
-        "i": "2044",
+        "i": "2141",
         "codePoint": "U+1F1F9+1F1EF",
         "name": "flag Tajikistan",
         "entities": "",
@@ -21573,7 +22613,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇰": {
-        "i": "2045",
+        "i": "2142",
         "codePoint": "U+1F1F9+1F1F0",
         "name": "flag Tokelau",
         "entities": "",
@@ -21584,7 +22624,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇱": {
-        "i": "2046",
+        "i": "2143",
         "codePoint": "U+1F1F9+1F1F1",
         "name": "flag Timor-Leste",
         "entities": "",
@@ -21595,7 +22635,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇲": {
-        "i": "2047",
+        "i": "2144",
         "codePoint": "U+1F1F9+1F1F2",
         "name": "flag Turkmenistan",
         "entities": "",
@@ -21605,7 +22645,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇳": {
-        "i": "2048",
+        "i": "2145",
         "codePoint": "U+1F1F9+1F1F3",
         "name": "flag Tunisia",
         "entities": "",
@@ -21616,7 +22656,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇴": {
-        "i": "2049",
+        "i": "2146",
         "codePoint": "U+1F1F9+1F1F4",
         "name": "flag Tonga",
         "entities": "",
@@ -21627,7 +22667,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇷": {
-        "i": "2050",
+        "i": "2147",
         "codePoint": "U+1F1F9+1F1F7",
         "name": "flag Türkiye",
         "entities": "",
@@ -21637,7 +22677,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇹": {
-        "i": "2051",
+        "i": "2148",
         "codePoint": "U+1F1F9+1F1F9",
         "name": "flag Trinidad & Tobago",
         "entities": "",
@@ -21648,7 +22688,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇻": {
-        "i": "2052",
+        "i": "2149",
         "codePoint": "U+1F1F9+1F1FB",
         "name": "flag Tuvalu",
         "entities": "",
@@ -21658,7 +22698,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇼": {
-        "i": "2053",
+        "i": "2150",
         "codePoint": "U+1F1F9+1F1FC",
         "name": "flag Taiwan",
         "entities": "",
@@ -21668,7 +22708,7 @@ const shorthandMap = {
         ]
     },
     "🇹🇿": {
-        "i": "2054",
+        "i": "2151",
         "codePoint": "U+1F1F9+1F1FF",
         "name": "flag Tanzania",
         "entities": "",
@@ -21678,7 +22718,7 @@ const shorthandMap = {
         ]
     },
     "🇺🇦": {
-        "i": "2055",
+        "i": "2152",
         "codePoint": "U+1F1FA+1F1E6",
         "name": "flag Ukraine",
         "entities": "",
@@ -21689,7 +22729,7 @@ const shorthandMap = {
         ]
     },
     "🇺🇬": {
-        "i": "2056",
+        "i": "2153",
         "codePoint": "U+1F1FA+1F1EC",
         "name": "flag Uganda",
         "entities": "",
@@ -21700,7 +22740,7 @@ const shorthandMap = {
         ]
     },
     "🇺🇲": {
-        "i": "2057",
+        "i": "2154",
         "codePoint": "U+1F1FA+1F1F2",
         "name": "flag U.S. Outlying Islands",
         "entities": "",
@@ -21710,7 +22750,7 @@ const shorthandMap = {
         ]
     },
     "🇺🇳": {
-        "i": "2058",
+        "i": "2155",
         "codePoint": "U+1F1FA+1F1F3",
         "name": "flag United Nations",
         "entities": "",
@@ -21720,7 +22760,7 @@ const shorthandMap = {
         ]
     },
     "🇺🇸": {
-        "i": "2059",
+        "i": "2156",
         "codePoint": "U+1F1FA+1F1F8",
         "name": "flag United States",
         "entities": "",
@@ -21730,7 +22770,7 @@ const shorthandMap = {
         ]
     },
     "🇺🇾": {
-        "i": "2060",
+        "i": "2157",
         "codePoint": "U+1F1FA+1F1FE",
         "name": "flag Uruguay",
         "entities": "",
@@ -21741,7 +22781,7 @@ const shorthandMap = {
         ]
     },
     "🇺🇿": {
-        "i": "2061",
+        "i": "2158",
         "codePoint": "U+1F1FA+1F1FF",
         "name": "flag Uzbekistan",
         "entities": "",
@@ -21752,7 +22792,7 @@ const shorthandMap = {
         ]
     },
     "🇻🇦": {
-        "i": "2062",
+        "i": "2159",
         "codePoint": "U+1F1FB+1F1E6",
         "name": "flag Vatican City",
         "entities": "",
@@ -21762,7 +22802,7 @@ const shorthandMap = {
         ]
     },
     "🇻🇨": {
-        "i": "2063",
+        "i": "2160",
         "codePoint": "U+1F1FB+1F1E8",
         "name": "flag St. Vincent & Grenadines",
         "entities": "",
@@ -21773,7 +22813,7 @@ const shorthandMap = {
         ]
     },
     "🇻🇪": {
-        "i": "2064",
+        "i": "2161",
         "codePoint": "U+1F1FB+1F1EA",
         "name": "flag Venezuela",
         "entities": "",
@@ -21785,7 +22825,7 @@ const shorthandMap = {
         ]
     },
     "🇻🇬": {
-        "i": "2065",
+        "i": "2162",
         "codePoint": "U+1F1FB+1F1EC",
         "name": "flag British Virgin Islands",
         "entities": "",
@@ -21796,7 +22836,7 @@ const shorthandMap = {
         ]
     },
     "🇻🇮": {
-        "i": "2066",
+        "i": "2163",
         "codePoint": "U+1F1FB+1F1EE",
         "name": "flag U.S. Virgin Islands",
         "entities": "",
@@ -21806,7 +22846,7 @@ const shorthandMap = {
         ]
     },
     "🇻🇳": {
-        "i": "2067",
+        "i": "2164",
         "codePoint": "U+1F1FB+1F1F3",
         "name": "flag Vietnam",
         "entities": "",
@@ -21818,7 +22858,7 @@ const shorthandMap = {
         ]
     },
     "🇻🇺": {
-        "i": "2068",
+        "i": "2165",
         "codePoint": "U+1F1FB+1F1FA",
         "name": "flag Vanuatu",
         "entities": "",
@@ -21829,7 +22869,7 @@ const shorthandMap = {
         ]
     },
     "🇼🇫": {
-        "i": "2069",
+        "i": "2166",
         "codePoint": "U+1F1FC+1F1EB",
         "name": "flag Wallis & Futuna",
         "entities": "",
@@ -21840,7 +22880,7 @@ const shorthandMap = {
         ]
     },
     "🇼🇸": {
-        "i": "2070",
+        "i": "2167",
         "codePoint": "U+1F1FC+1F1F8",
         "name": "flag Samoa",
         "entities": "",
@@ -21850,7 +22890,7 @@ const shorthandMap = {
         ]
     },
     "🇽🇰": {
-        "i": "2071",
+        "i": "2168",
         "codePoint": "U+1F1FD+1F1F0",
         "name": "flag Kosovo",
         "entities": "",
@@ -21861,7 +22901,7 @@ const shorthandMap = {
         ]
     },
     "🇾🇪": {
-        "i": "2072",
+        "i": "2169",
         "codePoint": "U+1F1FE+1F1EA",
         "name": "flag Yemen",
         "entities": "",
@@ -21872,7 +22912,7 @@ const shorthandMap = {
         ]
     },
     "🇾🇹": {
-        "i": "2073",
+        "i": "2170",
         "codePoint": "U+1F1FE+1F1F9",
         "name": "flag Mayotte",
         "entities": "",
@@ -21883,7 +22923,7 @@ const shorthandMap = {
         ]
     },
     "🇿🇦": {
-        "i": "2074",
+        "i": "2171",
         "codePoint": "U+1F1FF+1F1E6",
         "name": "flag South Africa",
         "entities": "",
@@ -21893,7 +22933,7 @@ const shorthandMap = {
         ]
     },
     "🇿🇲": {
-        "i": "2075",
+        "i": "2172",
         "codePoint": "U+1F1FF+1F1F2",
         "name": "flag Zambia",
         "entities": "",
@@ -21904,7 +22944,7 @@ const shorthandMap = {
         ]
     },
     "🇿🇼": {
-        "i": "2076",
+        "i": "2173",
         "codePoint": "U+1F1FF+1F1FC",
         "name": "flag Zimbabwe",
         "entities": "",
@@ -21915,7 +22955,7 @@ const shorthandMap = {
         ]
     },
     "🏴󠁧󠁢󠁥󠁮󠁧󠁿": {
-        "i": "2077",
+        "i": "2174",
         "codePoint": "U+1F3F4+E0067+E0062+E0065+E006E+E0067+E007F",
         "name": "flag England",
         "entities": "",
@@ -21925,7 +22965,7 @@ const shorthandMap = {
         ]
     },
     "🏴󠁧󠁢󠁳󠁣󠁴󠁿": {
-        "i": "2078",
+        "i": "2175",
         "codePoint": "U+1F3F4+E0067+E0062+E0073+E0063+E0074+E007F",
         "name": "flag Scotland",
         "entities": "",
@@ -21935,7 +22975,7 @@ const shorthandMap = {
         ]
     },
     "🏴󠁧󠁢󠁷󠁬󠁳󠁿": {
-        "i": "2079",
+        "i": "2176",
         "codePoint": "U+1F3F4+E0067+E0062+E0077+E006C+E0073+E007F",
         "name": "flag Wales",
         "entities": "",
@@ -21944,4 +22984,4 @@ const shorthandMap = {
             "welsh"
         ]
     }
-};
+}

@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Diagram Watcher</title>
+    <style>
+        form {
+            font-family: sans-serif;
+        }
+        input, select, button {
+            margin: 2px 3px 2px 3px;
+        }
+    </style>
+</head>
+<body>
+
+<form id="control">
+    <b>
+    <label for="diaf">Diagram</label>
+    <input type="text" id="diaf" name="diaf" value="temp.svg" placeholder="file name (path, URI)" style="font-weight:bold;" size="20">
+    </b><br>
+    <label for="sizeChoice">Size (width, height)</label>
+    <select id="sizeChoice" name="sizeChoice" value="image">
+        <option value="image">Image (Raw) Size</option>
+        <option value="page">Fit Page Width</option>
+        <option value="svg" id="optSizeSvg">SVG (Scaled) Size</option>
+    </select>
+    <br>
+    <label for="renderChoice">Render as</label>
+    <select id="renderChoice" name="renderChoice" value="object">
+        <option value="object" id="optAsObj">Dynamic SVG</option>
+        <option value="svg" id="optAsSvg">Static SVG</option>
+        <option value="image">Dumb Image</option>
+    </select>
+    <br>
+    <button id="butLoadNow">Load Now!</button>
+    <button id="butToggleWatching" name="watch" value="">Start Watching</button>
+    <button id="butExport">Export</button>
+    <a id="exportUrl" href="" download="temp.svg" style="display:none">exported file</a>
+    <details><summary id="watchStatus"></summary>
+        <label for="reloadInterval">Reload every</label>
+        <input type="number" id="reloadInterval" name="reloadInterval" value="500" style="width:5em;"> miliseconds
+    </details>
+</form>
+<div id="message" style="display: none"></div>
+
+<div id="content" style="border:1px; border-style:solid; border-color:green;">
+    <object id="dobj" type="image/svg+xml" data=''></object>
+    <div id="dsvg" crossOrigin="Anonymous"></div>
+    <img id="dimg" src="" crossOrigin="Anonymous">
+    <canvas id="dcanvas" style="display: none"></canvas>
+</div>
+
+<script src="diagram-watcher.js"></script>
+
+</body>
+</html>

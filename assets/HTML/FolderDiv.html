@@ -1,28 +1,27 @@
 <HTML>
 <HEAD>
   <title>Foldable Hierarchy</title>
-  <STYLE>
-
-    .unfoldable {
-      display: list-item;
-      border-bottom: inset 1px;
-      margin-left: 1em;
-    }
-    .unfoldable::marker {
-      content: "●  "; /*•*/
-      /*margin-left: .0em; /* cannot adjust spaces of ::marker! */
-    }
-
-
-  </STYLE>
 </HEAD>
 
 <BODY>
 
+  <style id="folder_div_style">
+    div[slot="unfoldable-leaf"] {
+      display: list-item;
+      border-bottom: inset 1px;
+      margin-left: 1em;
+      padding-left: .5em;
+    }
+    div[slot="unfoldable-leaf"]::marker {
+      color: var(--control-foreground);
+      content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
+    }
+  </style>
+
 <template id="folder-div">
   <style>
 
-    :root { /* ineffective, don't use this! Use `:host` instead. */
+    :root { /* ineffective, don't use this! Use :host instead. */
     }
 
     :host { /* style of the <folder-div> */
@@ -30,16 +29,18 @@
       flex-direction:row;
       align-items: stretch;
 
-      --control-foreground: grey;
+      --control-foreground: DimGray;
+      --stem-line-foreground: WhiteSmoke;
       --control-foreground-hover: blue;
-
+      --heading-background-hover: Lavender;
+      --contents-indent: .5em;
     }
 
     /* The hidden checkbox holding folding state */
     #isFolded {
       display: none;
     }
-    label {
+    #isFolded + label {
       color: var(--control-foreground);
     }
     #isFolded + label:hover {
@@ -58,7 +59,7 @@
     /* The stem line aligning unfolded content */
     
     #stemLine {
-      background-color: var(--control-foreground);
+      background-color: var(--stem-line-foreground);
       display: none;
     }
     label:hover #stemLine {
@@ -73,7 +74,8 @@
     #contents {
       display: flex;
       flex-direction: column;
-      padding-left: .5em;
+      padding-left: var(--contents-indent);
+      border-bottom: inset 1px;
     }
 
     /* Foldable content */
@@ -91,11 +93,18 @@
       display: block;
     }
 
+    #heading {
+      display: block;
+    }
+    #heading:hover {
+      background: var(--heading-background-hover);
+    }
+
   </style>
 
   <!--folder-div style="display:flex; flex-direction:row;"-->
     <input type="checkbox" id="isFolded" />
-    <label for="isFolded" style="display:flex; flex-direction:column;">
+    <label for="isFolded" id="sideControl" part="sideControl" style="display:flex; flex-direction:column;">
       <div id="arrow" part="arrow"></div>
       <div style="display:flex; flex-direction:row; flex:1 0 0;">
         <div style="flex:3"></div>
@@ -103,13 +112,24 @@
         <div style="flex:3"></div>
       </div>
     </label>
-    <div id="contents" style="display:flex; flex-direction:column;">
-      <div class="unfoldable"><slot name="unfoldable"></slot></div>
-      <div class="foldable"><slot name="foldable"></slot></div>
+    <div id="contents" part="contents" style="display:flex; flex-direction:column;">
+      <div class="unfoldable">
+        <label for="isFolded" part="heading">
+          <slot name="heading" id="heading"></slot>
+        </label>
+        <slot name="unfoldable" id="unfoldable"></slot>
+      </div>
+      <div class="foldable"><slot name="foldable" id="foldable"></slot></div>
     </div>
   <!--/folder-div-->
 </template>
 <script>
+  FolderDivTemplate = document.getElementById("folder-div").innerHTML; // FolderDiv.html
+  //const FolderDivTemplateHtml = ``; // FolderDiv.js
+  //const FolderDivTemplateStyle = ``; // FolderDiv.js
+  //const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle; // FolderDiv.js
+  //const FolderDivStyle = ``; // FolderDiv.js
+  //(function(){...style.innerHTML = FolderDivStyle...}()); // FolderDiv.js
 
   class FolderDiv extends HTMLElement {
     static observedAttributes = ["folded"];
@@ -117,21 +137,61 @@
     constructor() {
       super();
       const shadowRoot = this.attachShadow({ mode: "open" });
-      this.template = document.getElementById("folder-div");
+      this.template = document.createElement('template');
+      this.template.innerHTML = FolderDivTemplate;
       shadowRoot.appendChild(this.template.content.cloneNode(true));
       this._internals = this.attachInternals();
 
       this.isFolded = shadowRoot.getElementById("isFolded");
-      this.arrow = shadowRoot.getElementById("arrow");
-      this.stemLine = shadowRoot.getElementById("stemLine");
+      this.sideControl = shadowRoot.getElementById("sideControl");
+        this.arrow = shadowRoot.getElementById("arrow");
+        this.stemLine = shadowRoot.getElementById("stemLine");
       this.contents = shadowRoot.getElementById("contents");
+        this.heading = shadowRoot.getElementById("heading");
+        this.unfoldable = shadowRoot.getElementById("unfoldable");
+        this.foldable = shadowRoot.getElementById("foldable");
+      //console.debug('FolderDiv.constructor()',this.contents);
 
+      this.unfoldable.addEventListener('slotchange', (e)=>{
+        // detected and moved heading from unfoldable slot to heading slot
+        let hdiv = this.heading.assignedElements()[0];
+        if(hdiv){ this.setType('heading'); }
+        let udiv = this.unfoldable.assignedElements()[0];
+        if(!udiv){ return; }
+        let h = udiv.children[0];
+        if(!hdiv && h && h.tagName.startsWith('H')){
+          udiv.before(h);
+          h.setAttribute('slot','heading');
+          this.setType('heading');
+          //console.debug('moved',h);
+        }
+      });
+    }
+    connectedCallback() {
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
-      console.log(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
+      //console.debug(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
       if(name == "folded"){
         this.isFolded.setAttribute("checked", newValue);
+      }
+    }
+
+    setType(t){
+      if(t=='item'){
+        let udiv = this.unfoldable.assignedElements()[0];
+        let style = getComputedStyle(this.contents);
+        let indent = style.getPropertyValue('--contents-indent');
+        if(!udiv){ return; }
+        this.sideControl.style.display = 'flex';
+        this.heading.style.display = 'none';
+        this.contents.style.paddingLeft = indent;
+      }else if(t=='heading'){
+        let hdiv = this.heading.assignedElements()[0];
+        if(!hdiv){ return; }
+        this.heading.style.display = 'block';
+        this.sideControl.style.display = 'none';
+        this.contents.style.paddingLeft = 0;
       }
     }
 
@@ -141,32 +201,53 @@
 
 </script>
 
-<H3>Folder hierarchy with custom element <code>&lt;folder-div&gt;</code></H3>
+<H2>Folder hierarchy with custom element <code>&lt;folder-div&gt;</code></H2>
 <div class="folder" style="margin-left: 1.5em;">
   <folder-div>
-    <div slot="unfoldable">One</div>
+    <div slot="unfoldable"><h3>Heading</h3></div>
     <div slot="foldable">
       <folder-div>
-        <div slot="unfoldable">Two<br>... multi-line unfoldable</div>
+        <div slot="unfoldable">One</div>
         <div slot="foldable">
-          This line is a foldable content of Two <br>
-          but not a subfolder
-          <folder-div folded>
-            <div slot="unfoldable">Three
-            ... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long
-...
-            </div>
+          <folder-div>
+            <div slot="unfoldable">Two<br>... multi-line unfoldable</div>
             <div slot="foldable">
-              ... <p>Ref: <a href="https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/">Creating a collapsible markdown on one page</a></p>
+              This line is a foldable content of Two <br>
+              but not a subfolder
+              <folder-div folded>
+                <div slot="unfoldable">Three
+                ... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long... still one-line label but very long
+    ...
+                </div>
+                <div slot="foldable">
+                  ... <p>Ref: <a href="https://forum.squarespace.com/topic/64115-creating-a-collapsible-markdown-on-one-page/">Creating a collapsible markdown on one page</a></p>
+                </div>
+              </folder-div>
+            </div>
+          </folder-div>
+          <div slot="unfoldable-leaf">Hai<br>...</div>
+          <folder-div>
+            <div slot="unfoldable">Deux</div>
+            <div slot="foldable">
+              See also <a href="FoldableDemo.html">FoldableDemo</a>
             </div>
           </folder-div>
         </div>
       </folder-div>
-      <div class="unfoldable">Hai<br>...</div>
       <folder-div>
-        <div slot="unfoldable">Deux</div>
+        <div slot="unfoldable"><h4>Sub-heading</h4>with some unfoldable descripton</div>
         <div slot="foldable">
-          See also <a href="FoldableDemo.html">FoldableDemo</a>
+          <div slot="unfoldable-leaf">Leaf item: no foldable part</div>
+          <folder-div>
+            <div slot="heading">This (plain) <b>heading</b> is slotted manually</div>
+            <div slot="unfoldable">
+              so that
+              <h5>this heading is kept in unfoldable, not moved to heading</h5>
+            </div>
+            <div slot="foldable">
+              <div slot="unfoldable-leaf">Leaf item: no foldable part</div>
+            </div>
+          </folder-div>
         </div>
       </folder-div>
     </div>
