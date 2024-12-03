@@ -4326,6 +4326,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Warning: Don't export to the same folder with the `main` branch (`$src/`), because their contents are very different.
 						- Manually copy the whole `assets` folder from `$src/` to `$web/`
 						  id:: 6718b9ba-b96e-44b7-9f13-9acf0e8762e1
+							- ```sh
+							  $
+							  ```
 							- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) ((666a6673-0383-471a-ac42-c77c03dd96d7))
 					- The folder `$web/` can be launched by ((6714f01d-3dd8-461c-9619-c5bac33451b0)).
 					- When `gh-pages` branch is pushed to GitHub, ((671503e5-690e-4f1f-ad53-419fd57543fe)) will deploy it to `https://$user.github.io/$repo/`.
