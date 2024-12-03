@@ -1288,18 +1288,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- add-subtract `±` is the arrow in the circle
 				- multiply-divide `⋇`: Each variable $x$ divides the [bulk](((674d6061-7973-47b6-bb9d-a7a816137883))) into slices orthogonal to the dimension of $x$ axis, and indexes these slices by its values $x_0, x_1, x_2, ..., x_k$, i.e. $x_k$ is the spatial index. Then, $x$ also indexes the bulk in time by its current value $x = x_{t0}$, i.e. $x_t$ is the temporal index.
 					- Unithread: **thread spinning** from fibers <> **thread pulling** form the One = extending from 1 to N
+					  collapsed:: true
 						- Common: thread spinning & silk spinning with [spinnerets](https://en.wikipedia.org/wiki/Spinneret)
 						- Precise: thread spinning & silk pulling
 				- the elusive nature of the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) as a **bulk**: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **volume**)
 				  id:: 674d6061-7973-47b6-bb9d-a7a816137883
-			- how many obops on the same content circle = many sustent circles touching at the universal obop = 
+			- how many obops ranging the same content circle = the content circle is twisted many folds at the universal obop = many sustent circles () touching at the universal obop = 
 			  thread folding in the [hyphercube](https://en.wikipedia.org/wiki/Hypercube)
 			- how the change within the intension leads to motion in extensional world (spacetime);
 				- this connects the condensed intension with the empty space of extension.
 			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
 				- This (seemingly) infinite layers of sustents is the “abyss” i'm facing.
 					- While "normal people" can easily cross the gap at the surface to close the circle,
-					- i'm drawn down to the abyss to dive into it: the subtle cracks
+					- i'm drawn down to the abyss to dive into it: the subtle cracks, chasms inside have accumulated enough, just like the limit number 0.999999999999.
+					- In other words, the subtle bugs, mismatches, defects are all levels deep inside me. 
+					  ⇒ I'm a [debugger for God](https://www.facebook.com/share/p/4ESfXL4dVm2n7oLx/).
 				- Although they are infinite in extent (infinite number of layers), the total content is finite, 
 				  e.g. $\sum_{k=0}^n{1/b^k} = (1 - 1/b^{n+1})/(1 - 1/b)$.
 		- When writing this note, i [chat with Gemini](https://gemini.google.com/app/908aa4fc71c41ab7) ([trimmed publish](https://g.co/gemini/share/1faa0d2af166)) about the  ((674db08a-4c2b-4a73-b17c-d3223bc0e95e)).
