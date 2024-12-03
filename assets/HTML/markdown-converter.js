@@ -264,6 +264,8 @@ export default function MarkdownNormalizer(){
 
   /** Check links & block refs of issues: noUuid, ... */
   function checkLinks(ln){
+    let m = null; // pattern matches
+
     // check links' target against mapUuid
     let l = ln; // checked link/refs will be removed from l
     m = l.matchAll(patBLinkAll);
@@ -308,6 +310,7 @@ export default function MarkdownNormalizer(){
   function processLogseqLinks(ln, fillEmptyLinks, flattenLinks=false){
     const ebref = [], bref = [], href = [];
     let m = null; // pattern matches
+    let l = null; // matched string
 
     // flatten external links
     let nln = ''; // ln -> nln
