@@ -12,7 +12,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- Time to RESET;
+				- Cone of vision; Time to RESET; By the abyss & Usages of `⋇`; Refactor `markdown-watcher.js`
 				-
 				- ((673a17a7-0094-4f4d-bd79-525e7f803b50))
 				- ((6747eac1-f683-4ed1-9b06-34fd10103c0c))
