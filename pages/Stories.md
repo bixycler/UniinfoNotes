@@ -1298,6 +1298,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- this connects the condensed intension with the empty space of extension.
 			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
 				- This (seemingly) infinite layers of sustents is the “abyss” i'm facing.
+					- While "normal people" can easily cross the gap at the surface to close the circle,
+					- i'm drawn down to the abyss to dive into it: the subtle cracks
 				- Although they are infinite in extent (infinite number of layers), the total content is finite, 
 				  e.g. $\sum_{k=0}^n{1/b^k} = (1 - 1/b^{n+1})/(1 - 1/b)$.
 		- When writing this note, i [chat with Gemini](https://gemini.google.com/app/908aa4fc71c41ab7) ([trimmed publish](https://g.co/gemini/share/1faa0d2af166)) about the  ((674db08a-4c2b-4a73-b17c-d3223bc0e95e)).
