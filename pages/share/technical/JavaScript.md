@@ -105,6 +105,11 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 			  
 			  ```
 	- Library definition
+	  id:: 674e9c7a-230a-461f-9846-2fa934fc88fc
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-12-03 Tue 15:13:17]
+	  :END:
 		- ES [module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 		  with encapsulation and dependency management via `import` which is loaded **asynchrously**
 			- Using with `<script type="module" src="module.js"></script>`
@@ -115,7 +120,7 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 			- [Loading non-JavaScript resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#loading_non-javascript_resources): Can import JSON as a JavaScript object, or import CSS as a [`CSSStyleSheet`](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet) object.
 				- The `import()` function is very handy: `json = await import("data.json", { with: { type: "json" } });`
 				- In the plain old js, JSON must be loaded with `fetch()` or converted to `.json.js`: `const jsonObject = {...}`.
-		- Custom element libs can be used both as modules and as non-module libs, because all interactions are through the custom element instances.
+		- [Custom element](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements) libs can be used both as modules and as plain old libs, because all interactions are through the custom element instances.
 		- For module to live with non-module scripts:
 			- export to global scope with `Object.assign(globalThis, { func, prop, cls, ... })`
 			- but its user must **wait** for `DOMContentLoaded` event, or `await import('./my-module.js')`, to use exported features, because it is loaded asynchrously.

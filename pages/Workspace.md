@@ -28,6 +28,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((674d48b7-e011-4547-ac17-8997b7bb575c)) & ((674db08a-4c2b-4a73-b17c-d3223bc0e95e))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- JS ((674e9c7a-230a-461f-9846-2fa934fc88fc))
 				- ((67454211-668f-40e0-b6b2-ee5e49c0a520))
 				- ...
 			- ------
@@ -620,7 +621,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				  id:: 674571bb-ea17-4635-9158-d5c81381ab86
 					- Ported some utils from `_base.js`.
 				- `DocRaptor.js`
+				  The client to DocRaptor PDF converter
 					- Each instance `DocRaptor()` holds a separate configuration (`name`, `production`) conversion to PDF.
 				- `markdown-converter.js`
+					- `normalizeMardown(md, options...)` converts from Logseq markdown to common Markdown as return value.
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the [rabbit hole](((6735b189-a8b7-4ff3-b42a-c59f38a8334e))) of endless bugs and modifications
 		- ...
