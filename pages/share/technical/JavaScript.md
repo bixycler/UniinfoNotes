@@ -68,6 +68,9 @@ CLOCK: [2024-10-11 Fri 12:18:00]
 				    But a function in general should __not be enumerable__ though!
 				  */
 				  ```
+		- [lodash](https://lodash.com/) (`_`) provide utils for arrays, numbers, objects, strings, composite functions, etc.
+			- The default "build" is in the good old non-module js
+			- ES module format: [lodash-es](https://www.npmjs.com/package/lodash-es)
 		- TODO Extract the `wrap()` and `Backbone.MModel` in [_base.js](../assets/HTML/_base.js) which is copied from `~/opt/web/myhotel/airlink.myhotel/airlink/myhotel/templates/js/`
 		  collapsed:: true
 		  :LOGBOOK:
