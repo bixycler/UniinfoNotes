@@ -2225,11 +2225,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$.
 			- Extensive ($e$, $c$) - Intensive ($i$)
 		- Dimensionality
-			- 0 = all directions
-			- 1 = all dimensions
+			- 0 = all directions = omnidirectional
+			- 1 = all dimensions = omnidimensional, but usually confused with unidimensional
 			- Extent =
 				- scalar = scaling ratio =  dimension cancelled = dimensionless, but still has two directions `+` and `-`
-				- [“Scalar quantities” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally accompany a unit
+				- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
+				- The “scalar” in Uniinfo is the [“dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity).
 		- TODO Migrate [[CIE]]
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Why the intent is under the content in the division $c/i$:
