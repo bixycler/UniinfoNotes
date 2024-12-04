@@ -1410,13 +1410,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
-				- DOING Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = dynamic circle = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha) =
+				- DONE Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = dynamic circle = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha) =
 				  id:: 674ff584-00e3-40d8-9b77-21e9dca899dd
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-12-04 Wed 13:24:29]
 				  CLOCK: [2024-12-04 Wed 13:24:51]
-				  CLOCK: [2024-12-04 Wed 13:25:01]
+				  CLOCK: [2024-12-04 Wed 13:25:01]--[2024-12-04 Wed 20:29:40] =>  07:04:39
 				  :END:
 					- Diagram
 					  collapsed:: true
@@ -2223,6 +2223,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- Sustent ($c$, $i$) - Extent ($e$)
 			- Form ($i$, $e$) - Content ($c$)
+				- The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$.
 			- Extensive ($e$, $c$) - Intensive ($i$)
 		- TODO Migrate [[CIE]]
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -2233,12 +2234,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Blog [“Bà mẹ” trong “phân số”](https://creatzynotes.blogspot.com/2023/06/ba-me-trong-phan-so.html)
 		- ### SCIFER
 		  id:: 66f40210-cca6-4d81-85e7-d0c54ef20451
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 19:29:20]
 		  :END:
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) theory, ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
 			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
 				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced  “cipher” /ˈsaɪfə/.
+				- Duals: form-content, sustent-extent
 				- Formulae
 					- $c = e × i + r = f + r$;   $f = e × i$;   $(c, i, r) = (s_0, s_1, s_2)$;   $c/i = [e_0; e_1, e_2, ...]$
 						- [regular continued fraction](https://mathworld.wolfram.com/RegularContinuedFraction.html) & [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
