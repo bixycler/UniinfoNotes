@@ -1410,7 +1410,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
-				- DOING Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha) = circle dynamic
+				- DOING Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = dynamic circle = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha) =
 				  id:: 674ff584-00e3-40d8-9b77-21e9dca899dd
 				  collapsed:: true
 				  :LOGBOOK:
@@ -1418,7 +1418,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  CLOCK: [2024-12-04 Wed 13:24:51]
 				  CLOCK: [2024-12-04 Wed 13:25:01]
 				  :END:
-					- circle dynamic: position → yank → force → momentum → position → ....
+					- Diagram
+					  collapsed:: true
+						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=437&h=382)
+					- SCIFER with add - multiply - subtract - divide and exp-log spiral
+						- $c → → → → → →$
+					- dynamic circle: position → yank → force → momentum → position → ....
 						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f'' = - f$
 						- The `exp()` function arises from the the differential equation $f' = f$
 					-
