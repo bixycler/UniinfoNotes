@@ -2235,7 +2235,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [regular continued fraction](https://mathworld.wolfram.com/RegularContinuedFraction.html) & [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
 							- content as the regular continued fraction of extents
 							  $$c = [e_0; e_1, e_2, ...] = e_0 + {\underset {k=1}{\overset {\infty }{\operatorname {K} }}}{\frac {1}{e_k}} = e_0 + \frac{1}{e_1 + \frac{1}{e_2 + ⋱}}$$
-					- ```
+					- ![SCIFER-sef.png](../assets/Uniinfo/Unithread/SCIFER-sef.png)
+					  ```
 					      f0   f1   f2
 					  s0 / s1 / s2 / s3
 					    e0   e1   e2
