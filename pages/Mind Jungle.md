@@ -1425,10 +1425,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- subject-object (nāmarūpa) $(c, i)$
 						  → sensation ⟪ $c_{k+1} = c_k - i$ ⟫ 
 						  → conception ⟪ $c/i = e$ ⟫ 
-						  → action ⟪ $a_{k+1} = a_k + i$ ⟫ 
-						  → form ⟪ $i×e = a = f$ ⟫ 
-						  → awareness ⟪ $c - f = r = i$ ⟫ 
+						  → action ⟪ $f_{k+1} = f_k + i$ ⟫ 
+						  → form ⟪ $i×e = f$ ⟫ 
+						  → awareness ⟪ $c - f = r = i'$ ⟫ 
 						  → sensation ...
+						- Layers of sustents $s_k$ = layers of awareness = layers of log spiral
+							- $r = c - f < i$ is the distance to target, error, mismatch of this layer which is the intent of the next layer.
 					- dynamic circle: position → yank → force → momentum → position → ....
 						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f'' = - f$
 						- The `exp()` function arises from the the differential equation $f' = f$
