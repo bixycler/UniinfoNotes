@@ -1422,7 +1422,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=437&h=382)
 					- SCIFER with add - multiply - subtract - divide and exp-log spiral
-						- $c → ⟪ c - f = r = i ⟫ → ⟪ c/i = e ⟫ → ⟪ a_{k+1} = a_k + i ⟫ → ⟪ i×e = a = f ⟫ → ⟪ c - f = r ⟫ → ...$
+						- subject-object (nāmarūpa) $(c, i)$
+						  → sensation ⟪ $c_{k+1} = c_k - i$ ⟫ 
+						  → conception ⟪ $c/i = e$ ⟫ 
+						  → action ⟪ $a_{k+1} = a_k + i$ ⟫ 
+						  → form ⟪ $i×e = a = f$ ⟫ 
+						  → awareness ⟪ $c - f = r = i$ ⟫ 
+						  → sensation ...
 					- dynamic circle: position → yank → force → momentum → position → ....
 						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f'' = - f$
 						- The `exp()` function arises from the the differential equation $f' = f$
