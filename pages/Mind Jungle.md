@@ -2226,11 +2226,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Extensive ($e$, $c$) - Intensive ($i$)
 		- Dimensionality
 			- 0 = all directions = omnidirectional
-			- 1 = all dimensions = omnidimensional, but usually confused with unidimensional
-			- Extent =
-				- scalar = scaling ratio =  dimension cancelled = dimensionless, but still has two directions `+` and `-`
-				- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
-				- The “scalar” in Uniinfo is the [“dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity).
+			- 1 = all dimensions = omnidimensional, but usually confused with dimensionless or unidimensional
+			- The extent is dimensionless (dimension cancelled), but still has two directions `+` and `-`
+				- We don't use the term “scalar” (scaling ratio) to avoid confusion.
+					- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
+					- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Uniinfo, but use “dimensionless” for clarity.
 		- TODO Migrate [[CIE]]
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Why the intent is under the content in the division $c/i$:
