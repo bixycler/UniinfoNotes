@@ -1364,6 +1364,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [First note on fb](https://www.facebook.com/lxdinh/posts/pfbid034MLTAC99b6LG7pdmNKYia9hKaCiwAapreeqdb3vEWMeBvFUiPUdE2Y467AXj7v89l) about this complementarity was on 30 Nov 2017.
 		- circular reference flow
 		  id:: 667bf520-a80c-4b6d-98d8-1f71cae6fb56
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bfebf-a319-46be-a795-d7fc9c156363)), ((667c0481-27f1-4cd4-adcc-390de0e56cb7))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- self-reference
 			  id:: 667bfebf-a319-46be-a795-d7fc9c156363
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
@@ -1393,6 +1395,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
 			- self-effect
 			  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
