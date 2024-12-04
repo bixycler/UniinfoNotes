@@ -2231,7 +2231,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
 				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced  “cipher” /ˈsīfər/.
 				- Formulae
-					- $c = e × i + r = f + r$; $f = e × i$; $(c, i, r) = (s_0, s_1, s_2)$
+					- $c = e × i + r = f + r$; $f = e × i$; $(c, i, r) = (s_0, s_1, s_2)$; $[e_0; e_1, e_2, ...] = e_0 + \frac{1}{e_1 + \frac{1}{e_2 + ⋱}}$
 					- ```
 					      f0   f1   f2
 					  s0 / s1 / s2 / s3
@@ -2239,7 +2239,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  c0   c1   c2   c3  
 					       i0   i1   i2
 					            r0   r1
-					  c=e·          
+					  c = e⋅i + r
+					    =  f  + r
 					  ```
 			- TODO Migrate [[sCIfEr]]
 			- WAIT ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
