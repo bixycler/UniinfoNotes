@@ -2236,7 +2236,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- content as the regular continued fraction of extents
 							  $$c = [e_0; e_1, e_2, ...] = e_0 + {\underset {k=1}{\overset {\infty }{\operatorname {K} }}}{\frac {1}{e_k}} = e_0 + \frac{1}{e_1 + \frac{1}{e_2 + ⋱}}$$
 					- ![SCIFER-sef.png](../assets/Uniinfo/Unithread/SCIFER-sef.png)
-						- ```
+						- Horizontal layout
+						  ```
 						      f0   f1   f2
 						  s0 / s1 / s2 / s3
 						    e0   e1   e2
@@ -2246,7 +2247,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  c = e⋅i + r
 						    =  f  + r
 						  ```
-						- ![SCIFER-sef-vertical.png](../assets/Uniinfo/Unithread/SCIFER-sef-vertical.png)
+						- Vertical layout (better for handwriting)
+						  ```
+						  			 c = i⋅e + r
+						  	s0       c0
+						  	—— = e0   
+						  f0  s1       c1  i0
+						  	—— = e1
+						  f1  s2       c2  i1  r0
+						  	—— = e2
+						  f2  s3       c3  i2  r1
+						  f = i × e    
+						  ```
+						  ![SCIFER-sef-vertical.png](../assets/Uniinfo/Unithread/SCIFER-sef-vertical.png)
 			- TODO Migrate [[sCIfEr]]
 			- WAIT ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 			  :LOGBOOK:
