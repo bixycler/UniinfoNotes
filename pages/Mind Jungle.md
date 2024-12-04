@@ -2228,6 +2228,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-09-25 Wed 19:29:20]
 		  :END:
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) theory, ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
+			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
 				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced  “cipher” /ˈsīfər/.
 			- TODO Migrate [[sCIfEr]]
 			- WAIT ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
