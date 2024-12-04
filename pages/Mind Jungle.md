@@ -1421,16 +1421,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Diagram
 					  collapsed:: true
 						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=437&h=382)
-					- SCIFER with add - multiply - subtract - divide and exp-log spiral
+					- SCIFER with subtract - divide - add - multiply, and exp-log spiral
 						- subject-object (nāmarūpa) $(c, i)$
-						  → sensation ⟪ $c_{k+1} = c_k - i$ ⟫ 
+						  → sensation ⟪ $c_k - i = c_{k+1}$ ⟫ 
 						  → conception ⟪ $c/i = e$ ⟫ 
-						  → action ⟪ $f_{k+1} = f_k + i$ ⟫ 
+						  → action ⟪ $f_k + i = f_{k+1}$ ⟫ 
 						  → form ⟪ $i×e = f$ ⟫ 
 						  → awareness ⟪ $c - f = r = i'$ ⟫ 
-						  → sensation ...
+						  → inner subject-object $(c', i') = (i, r)$
+						  → ...
 						- Layers of sustents $s_k$ = layers of awareness = layers of log spiral
-							- $r = c - f < i$ is the distance to target, error, mismatch of this layer which is the intent of the next layer.
+							- $r = c - f < i$ is the distance to target, error, mismatch of the outer layer which is the intent of the inner layer $r = i'$ to look at the outer self $i = c'$.
 					- dynamic circle: position → yank → force → momentum → position → ....
 						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f'' = - f$
 						- The `exp()` function arises from the the differential equation $f' = f$
