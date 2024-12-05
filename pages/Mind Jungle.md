@@ -789,24 +789,25 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
 					  ```
-				- `dig git1.lan.skygate.co.jp` with `CNAME` showing `A` records
-					- ```scheme
-					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
-					  ;; global options: +cmd
-					  ;; Got answer:
-					  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7852
-					  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
-					  
-					  ;; OPT PSEUDOSECTION:
-					  ; EDNS: version: 0, flags:; udp: 1232
-					  ;; QUESTION SECTION:
-					  ;git1.lan.skygate.co.jp.		IN	A
-					  
-					  ;; ANSWER SECTION:
-					  git1.lan.skygate.co.jp.	3600	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
-					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 54.199.127.69
-					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 3.115.124.176
-					  ```
+				- `dig git1.lan.skygate.co.jp` with `CNAME`
+					- showing `A` records on VPN
+						- ```scheme
+						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+						  ;; global options: +cmd
+						  ;; Got answer:
+						  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7852
+						  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+						  
+						  ;; OPT PSEUDOSECTION:
+						  ; EDNS: version: 0, flags:; udp: 1232
+						  ;; QUESTION SECTION:
+						  ;git1.lan.skygate.co.jp.		IN	A
+						  
+						  ;; ANSWER SECTION:
+						  git1.lan.skygate.co.jp.	3600	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+						  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 54.199.127.69
+						  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 3.115.124.176
+						  ```
 				- `dig git1.lan.skygate.co.jp` without `CNAME`
 					- showing `SOA` (`AUTHORITY`) record
 					  id:: 67515558-ad0b-4605-a785-13ce84c60442
