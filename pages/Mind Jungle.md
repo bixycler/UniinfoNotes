@@ -5863,4 +5863,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6716110e-aa2d-41c9-8ae3-be3ceed55407
 	  collapsed:: true
 		- moved to ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
+	- ## D2: Declarative Diagramming
+	  id:: 6751697f-aa5b-4ade-b97c-9ea1f1406581
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67516994-d999-4095-bea1-7b3861089890))
+		- D2
+		  id:: 67516994-d999-4095-bea1-7b3861089890
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6751697f-aa5b-4ade-b97c-9ea1f1406581))
+		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://d2lang.com/
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67516994-d999-4095-bea1-7b3861089890)) is a diagraming language that use layout engines to automate layouting.
+		- Supported [layout engines](https://d2lang.com/tour/layouts#layout-engines)
+			- [Dagre](https://github.com/dagrejs/dagre) (default) is an open-source layout engine that render very fast. But its development has been stopped from 2018.
+			- []
 -
