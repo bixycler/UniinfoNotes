@@ -790,7 +790,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
 					  ```
 				- `dig git1.lan.skygate.co.jp` with `CNAME` showing `A` records
-				  collapsed:: true
 					- ```scheme
 					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
 					  ;; global options: +cmd
