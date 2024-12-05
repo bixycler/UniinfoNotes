@@ -847,6 +847,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ;; ANSWER SECTION:
 						  git1.lan.skygate.co.jp.	0	IN	A	3.115.124.176
 						  ```
+				- Flush DNS cache:
+					- Use commands like `sudo service dnsmasq restart` or `sudo ip addr flush` to clear the DNS cache on your system and force dnsmasq to re-query the DNS server.
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 		  :LOGBOOK:
