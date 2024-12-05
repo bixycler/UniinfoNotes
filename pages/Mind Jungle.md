@@ -763,7 +763,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  # "bert" another name, bertrand
 				  cname=git1.lan.skygate.co.jp,mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 				  ```
+				- [!][?] `dnsmasq` log shows `CNAME` config, but `dig` still [shows `SOA` record](((67515558-ad0b-4605-a785-13ce84c60442)))
+					- ```
+					  Dec  5 14:07:55 dnsmasq[3334473]: query[AAAA] git1.lan.skygate.co.jp from 127.0.0.1
+					  Dec  5 14:07:55 dnsmasq[3334473]: config git1.lan.skygate.co.jp is <CNAME>
+					  ```
 				- `dig mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com`
+				  id:: 675146f7-489d-42f9-8ba9-f2b71a222ec1
 				  collapsed:: true
 					- ```scheme
 					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
@@ -782,7 +788,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
 					  ```
-				- `dig git1.lan.skygate.co.jp` with `CNAME`
+				- `dig git1.lan.skygate.co.jp` with `CNAME` showing `A` records
 				  collapsed:: true
 					- ```scheme
 					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
@@ -802,7 +808,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 3.115.124.176
 					  ```
 				- `dig git1.lan.skygate.co.jp` without `CNAME`
-					- showing `SOA` (`AUTHORITY`)
+					- showing `SOA` (`AUTHORITY`) record
+					  id:: 67515558-ad0b-4605-a785-13ce84c60442
 					  collapsed:: true
 						- ```scheme
 						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
@@ -820,7 +827,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ;; AUTHORITY SECTION:
 						  skygate.co.jp.		204	IN	SOA	ns-1303.awsdns-34.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 300
 						  ```
-					- showing `A` when setting IP directly
+					- showing `A` record when setting IP directly (copied from `mgmt-gitlab-clb-1008603512`)
 					  collapsed:: true
 						- ```scheme
 						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
@@ -837,11 +844,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ;; ANSWER SECTION:
 						  git1.lan.skygate.co.jp.	0	IN	A	3.115.124.176
 						  ```
-				- `dnsmasq` log shows `CNAME` config, but `dig` still shows `SOA`
-					- ```
-					  Dec  5 14:07:55 dnsmasq[3334473]: query[AAAA] git1.lan.skygate.co.jp from 127.0.0.1
-					  Dec  5 14:07:55 dnsmasq[3334473]: config git1.lan.skygate.co.jp is <CNAME>
-					  ```
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 		  :LOGBOOK:
