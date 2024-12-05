@@ -742,7 +742,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
 			- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
 				- `CNAME`
-			- Domain name alias with `CNAME`
+				  id:: 6751469f-ce68-4946-a7e7-ed86fd5735cd
+				  Canonical Name
+			- Domain name alias with ((6751469f-ce68-4946-a7e7-ed86fd5735cd))
 				- Ref: [serverfault.com](https://serverfault.com/a/947713)
 				- `dnsmasq.conf`
 				  ```shell
@@ -751,23 +753,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  # "bert" another name, bertrand
 				  cname=git1.lan.skygate.co.jp,mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 				  ```
-				- `dig git1.lan.skygate.co.jp`
-					- ```scheme
-					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
-					  ;; global options: +cmd
-					  ;; Got answer:
-					  ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7564
-					  ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
-					  
-					  ;; OPT PSEUDOSECTION:
-					  ; EDNS: version: 0, flags:; udp: 1232
-					  ; COOKIE: 7f7484304144a3db01000000675140d16726b2ae31a10949 (good)
-					  ;; QUESTION SECTION:
-					  ;git1.lan.skygate.co.jp.		IN	A
-					  
-					  ;; AUTHORITY SECTION:
-					  skygate.co.jp.		204	IN	SOA	ns-1303.awsdns-34.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 300
-					  ```
 				- `dig mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com`
 					- ```scheme
 					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
@@ -785,6 +770,41 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ;; ANSWER SECTION:
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
+					  ```
+				- `dig git1.lan.skygate.co.jp` with `CNAME`
+					- ```scheme
+					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+					  ;; global options: +cmd
+					  ;; Got answer:
+					  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7852
+					  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+					  
+					  ;; OPT PSEUDOSECTION:
+					  ; EDNS: version: 0, flags:; udp: 1232
+					  ;; QUESTION SECTION:
+					  ;git1.lan.skygate.co.jp.		IN	A
+					  
+					  ;; ANSWER SECTION:
+					  git1.lan.skygate.co.jp.	3600	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 54.199.127.69
+					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 3.115.124.176
+					  ```
+				- `dig git1.lan.skygate.co.jp` without `CNAME`
+					- ```scheme
+					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+					  ;; global options: +cmd
+					  ;; Got answer:
+					  ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7564
+					  ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+					  
+					  ;; OPT PSEUDOSECTION:
+					  ; EDNS: version: 0, flags:; udp: 1232
+					  ; COOKIE: 7f7484304144a3db01000000675140d16726b2ae31a10949 (good)
+					  ;; QUESTION SECTION:
+					  ;git1.lan.skygate.co.jp.		IN	A
+					  
+					  ;; AUTHORITY SECTION:
+					  skygate.co.jp.		204	IN	SOA	ns-1303.awsdns-34.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 300
 					  ```
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
