@@ -726,6 +726,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- #### nano
 			  collapsed:: true
 				-
+		- ### DNS & `hosts`
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-12-05 Thu 13:05:25]
+		  :END:
+			- `ping`
+			  uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from a host or gateway.
+			- `nslookup`
+			  a program to query Internet domain name servers.
+			- `dig`
+			  a  flexible  tool for interrogating DNS name servers.
+			- `dnsmasq`
+			  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
+			- Domain name alias with `CNAME`
+				- `dnsmasq.conf`
+				  ```conf
+				  # Provide an alias for a "local" DNS name. Note that this _only_ works
+				  # for targets which are names from DHCP or /etc/hosts. Give host
+				  # "bert" another name, bertrand
+				  cname=git1.lan.skygate.co.jp,mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+				  ```
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 		  :LOGBOOK:
