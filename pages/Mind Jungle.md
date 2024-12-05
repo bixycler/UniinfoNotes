@@ -814,7 +814,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- without VPN, first, showing `SOA` (`AUTHORITY`) record
 					  collapsed:: true
 						- {{embed ((67514436-ddef-49ab-b794-f26686b572b2))}}
-					- without VPN, then, after some hours
+					- without VPN, then, after some hours (> DNS lease time 3600 = 1h)
 						- showing only `CNAME` but with no `A` record
 						  id:: 67519abb-dba9-4637-9c1a-feebe4b76589
 						  collapsed:: true
@@ -837,8 +837,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  ;; ANSWER SECTION:
 							  git1.lan.skygate.co.jp.	0	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
 							  ```
-						- after clearing the main IP address with `sudo ip addr flush enp1s0`
-						  collapsed:: true
+						- after clearing the main IP address with `sudo ip addr flush enp1s0` (WARN: Internet connection will be lost!)
 							- `host git1.lan.skygate.co.jp`
 							  ```sh
 							  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
@@ -854,6 +853,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  ** server can't find mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: REFUSED
 							  ```
 							- `dig` result is the same as [above](((67519abb-dba9-4637-9c1a-feebe4b76589))).
+							- ⇒ So, the problem is with DHCP: somehow it cannot resolve this `CNAME` record.
+					- without VPN, with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`, finally `A` records appear!
+						- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
 				- `dig git1.lan.skygate.co.jp` without `CNAME`
 					- showing `SOA` (`AUTHORITY`) record
 					  id:: 67515558-ad0b-4605-a785-13ce84c60442
@@ -892,9 +894,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ;; ANSWER SECTION:
 						  git1.lan.skygate.co.jp.	0	IN	A	3.115.124.176
 						  ```
-				- Flush DNS cache:
-					- Use commands like `sudo service dnsmasq restart` or `sudo ip addr flush` to clear the DNS cache on your system and force dnsmasq to re-query the DNS server.
-					- `sudo ip addr flush [dev] enp1s0`
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 		  :LOGBOOK:
