@@ -751,9 +751,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 6751469f-ce68-4946-a7e7-ed86fd5735cd
 				  [Canonical Name record](https://en.wikipedia.org/wiki/CNAME_record)
 				- `DNAME`
-				  [Delegation Name](https://en.wikipedia.org/wiki/DNAME_record)
+				  [Delegation Name record](https://en.wikipedia.org/wiki/DNAME_record)
 				- `SOA`
-				  [Start Of Authority](https://en.wikipedia.org/wiki/SOA_record)
+				  [Start Of Authority record](https://en.wikipedia.org/wiki/SOA_record)
 			- Domain name alias with ((6751469f-ce68-4946-a7e7-ed86fd5735cd))
 				- Ref: [serverfault.com](https://serverfault.com/a/947713)
 				- `dnsmasq.conf`
