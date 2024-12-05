@@ -759,10 +759,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- Ref: [serverfault.com](https://serverfault.com/a/947713)
 				- `dnsmasq.conf`
-				  ```shell
+				  ```sh
 				  # Provide an alias for a "local" DNS name. Note that this _only_ works
-				  # for targets which are names from DHCP or /etc/hosts. Give host
-				  # "bert" another name, bertrand
+				  # for targets which are names from DHCP or /etc/hosts. 
 				  cname=git1.lan.skygate.co.jp,mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 				  ```
 				- [!][?] `dnsmasq` log shows `CNAME` config, but `dig` still [shows `SOA` record](((67515558-ad0b-4605-a785-13ce84c60442)))
