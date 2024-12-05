@@ -734,6 +734,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :END:
 			- `ping`
 			  uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from a host or gateway.
+			- `host`
+			  a simple utility for performing DNS lookups.
 			- `nslookup`
 			  a program to query Internet domain name servers.
 			- `dig`
