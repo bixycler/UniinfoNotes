@@ -838,6 +838,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  git1.lan.skygate.co.jp.	0	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
 							  ```
 						- after clearing the main IP address with `sudo ip addr flush enp1s0`
+						  collapsed:: true
 							- `host git1.lan.skygate.co.jp`
 							  ```sh
 							  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
