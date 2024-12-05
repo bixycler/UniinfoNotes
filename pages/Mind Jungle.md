@@ -806,6 +806,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ;; AUTHORITY SECTION:
 					  skygate.co.jp.		204	IN	SOA	ns-1303.awsdns-34.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 300
 					  ```
+				- `dnsmasq` log shows `CNAME` config, but dig still show `AUTHORITY`
+					- ```
+					  Dec  5 14:07:55 dnsmasq[3334473]: query[AAAA] git1.lan.skygate.co.jp from 127.0.0.1
+					  Dec  5 14:07:55 dnsmasq[3334473]: config git1.lan.skygate.co.jp is <CNAME>
+					  ```
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 		  :LOGBOOK:
