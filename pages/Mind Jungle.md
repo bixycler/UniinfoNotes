@@ -740,7 +740,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  a  flexible  tool for interrogating DNS name servers.
 			- `dnsmasq`
 			  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
+			- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
+				- `CNAME`
 			- Domain name alias with `CNAME`
+				- Ref: [serverfault.com](https://serverfault.com/a/947713)
 				- `dnsmasq.conf`
 				  ```shell
 				  # Provide an alias for a "local" DNS name. Note that this _only_ works
@@ -764,6 +767,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  
 					  ;; AUTHORITY SECTION:
 					  skygate.co.jp.		204	IN	SOA	ns-1303.awsdns-34.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 300
+					  ```
+				- `dig mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com`
+					- ```scheme
+					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+					  ;; global options: +cmd
+					  ;; Got answer:
+					  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19784
+					  ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+					  
+					  ;; OPT PSEUDOSECTION:
+					  ; EDNS: version: 0, flags:; udp: 1232
+					  ; COOKIE: c56b8d8d51904bb80100000067514100ea8c497ab05012df (good)
+					  ;; QUESTION SECTION:
+					  ;mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. IN	A
+					  
+					  ;; ANSWER SECTION:
+					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
+					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
 					  ```
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
