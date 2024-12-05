@@ -741,6 +741,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `dnsmasq`
 			  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
 			- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
+			  collapsed:: true
 				- `A`
 				  Address record
 				- `AAAA`
@@ -755,6 +756,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `SOA`
 				  [Start Of Authority record](https://en.wikipedia.org/wiki/SOA_record)
 			- Domain name alias with ((6751469f-ce68-4946-a7e7-ed86fd5735cd))
+			  collapsed:: true
 				- Ref: [serverfault.com](https://serverfault.com/a/947713)
 				- `dnsmasq.conf`
 				  ```shell
