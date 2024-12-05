@@ -893,7 +893,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 				- Flush DNS cache:
 					- Use commands like `sudo service dnsmasq restart` or `sudo ip addr flush` to clear the DNS cache on your system and force dnsmasq to re-query the DNS server.
-					- `sudo ip addr flush enp1s0`
+					- `sudo ip addr flush [dev] enp1s0`
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 		  :LOGBOOK:
