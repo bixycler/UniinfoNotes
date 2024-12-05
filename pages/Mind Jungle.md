@@ -5873,6 +5873,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://d2lang.com/
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67516994-d999-4095-bea1-7b3861089890)) is a diagraming language that use layout engines to automate layouting.
 		- Supported [layout engines](https://d2lang.com/tour/layouts#layout-engines)
-			- [Dagre](https://github.com/dagrejs/dagre) (default) is an open-source layout engine that render very fast. But its development has been stopped from 2018.
-			- []
+		  collapsed:: true
+			- [Dagre](https://github.com/dagrejs/dagre) (default) is an open-source layout engine that renders very fast. But its development has been stopped from 2018.
+			- [Eclipse Layout Kernel](https://eclipse.dev/elk/) (ELK) is an open-source, mature, hierarchical layout engine, actively maintained by an academic research group at [Christian Albrechts University in Kiel](https://www.rtsys.informatik.uni-kiel.de/en/team).
+			- [TALA](https://github.com/terrastruct/tala) is a proprietary layout engine developed by Terrastruct, designed specifically for software architecture diagrams. This supports position setting with `top` and `left`, and also a `direction` property which is not very effective.
+		- `d2` server start command
+		  ```sh
+		  d2 -w -l tala -d --pad 10 --force-appendix temp.d2 temp.svg
+		  ```
 -
