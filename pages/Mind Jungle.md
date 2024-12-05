@@ -741,9 +741,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- `dnsmasq`
 			  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
 			- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
+				- `A`
+				  Address record
+				- `AAAA`
+				  [IPv6](https://en.wikipedia.org/wiki/IPv6) Address record
+				- `NS`
+				  Name Server record
 				- `CNAME`
 				  id:: 6751469f-ce68-4946-a7e7-ed86fd5735cd
-				  Canonical Name
+				  [Canonical Name record](https://en.wikipedia.org/wiki/CNAME_record)
+				- `DNAME`
+				  [Delegation Name](https://en.wikipedia.org/wiki/DNAME_record)
+				- `SOA`
+				  [Start Of Authority](https://en.wikipedia.org/wiki/SOA_record)
 			- Domain name alias with ((6751469f-ce68-4946-a7e7-ed86fd5735cd))
 				- Ref: [serverfault.com](https://serverfault.com/a/947713)
 				- `dnsmasq.conf`
@@ -792,7 +802,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 3.115.124.176
 					  ```
 				- `dig git1.lan.skygate.co.jp` without `CNAME`
-					- showing `AUTHORITY`
+					- showing `SOA` (`AUTHORITY`)
 					  collapsed:: true
 						- ```scheme
 						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
@@ -827,7 +837,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ;; ANSWER SECTION:
 						  git1.lan.skygate.co.jp.	0	IN	A	3.115.124.176
 						  ```
-				- `dnsmasq` log shows `CNAME` config, but `dig` still shows `AUTHORITY`
+				- `dnsmasq` log shows `CNAME` config, but `dig` still shows `SOA`
 					- ```
 					  Dec  5 14:07:55 dnsmasq[3334473]: query[AAAA] git1.lan.skygate.co.jp from 127.0.0.1
 					  Dec  5 14:07:55 dnsmasq[3334473]: config git1.lan.skygate.co.jp is <CNAME>
