@@ -793,6 +793,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ```
 				- `dig git1.lan.skygate.co.jp` with `CNAME`
 					- showing `A` records on VPN
+					  collapsed:: true
 						- ```scheme
 						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
 						  ;; global options: +cmd
@@ -810,11 +811,54 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 54.199.127.69
 						  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 3.115.124.176
 						  ```
+					- without VPN, first, showing `SOA` (`AUTHORITY`) record
+					  collapsed:: true
+						- {{embed ((67514436-ddef-49ab-b794-f26686b572b2))}}
+					- without VPN, then, after some hours
+						- showing only `CNAME` but with no `A` record
+						  id:: 67519abb-dba9-4637-9c1a-feebe4b76589
+						  collapsed:: true
+							- ```sh
+							  host git1.lan.skygate.co.jp
+							  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+							  ```
+							- ```scheme
+							  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+							  ;; global options: +cmd
+							  ;; Got answer:
+							  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60341
+							  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+							  
+							  ;; OPT PSEUDOSECTION:
+							  ; EDNS: version: 0, flags:; udp: 1232
+							  ;; QUESTION SECTION:
+							  ;git1.lan.skygate.co.jp.		IN	A
+							  
+							  ;; ANSWER SECTION:
+							  git1.lan.skygate.co.jp.	0	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+							  ```
+						- after clearing DNS cache with `sudo ip addr flush enp1s0`
+							- `host git1.lan.skygate.co.jp`
+							  ```sh
+							  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+							  Host mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com not found: 5(REFUSED)
+							  Host mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com not found: 5(REFUSED)
+							  ```
+							- `nslookup git1.lan.skygate.co.jp`
+							  ```sh
+							  Server:		127.0.0.1
+							  Address:	127.0.0.1#53
+							  
+							  git1.lan.skygate.co.jp	canonical name = mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+							  ** server can't find mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: REFUSED
+							  ```
+							- `dig` result is the same as [above](((67519abb-dba9-4637-9c1a-feebe4b76589))).
 				- `dig git1.lan.skygate.co.jp` without `CNAME`
 					- showing `SOA` (`AUTHORITY`) record
 					  id:: 67515558-ad0b-4605-a785-13ce84c60442
 					  collapsed:: true
-						- ```scheme
+						- id:: 67514436-ddef-49ab-b794-f26686b572b2
+						  ```scheme
 						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
 						  ;; global options: +cmd
 						  ;; Got answer:
@@ -849,6 +893,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 				- Flush DNS cache:
 					- Use commands like `sudo service dnsmasq restart` or `sudo ip addr flush` to clear the DNS cache on your system and force dnsmasq to re-query the DNS server.
+					- `sudo ip addr flush enp1s0`
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
 		  :LOGBOOK:
