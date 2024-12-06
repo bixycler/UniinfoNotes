@@ -1317,14 +1317,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  e.g. $\sum_{k=0}^n{1/b^k} = (1 - 1/b^{n+1})/(1 - 1/b)$.
 		- When writing this note, i [chat with Gemini](https://gemini.google.com/app/908aa4fc71c41ab7) ([trimmed publish](https://g.co/gemini/share/1faa0d2af166)) about the  ((674db08a-4c2b-4a73-b17c-d3223bc0e95e)).
 		-
-	- DOING Caught up in the junks
+	- Caught up in the junks
+	  id:: 6752f2ae-a019-400c-9a13-ede363f665ff
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-12-06 Fri 19:48:53]
-	  CLOCK: [2024-12-06 Fri 19:50:42]
+	  CLOCK: [2024-12-06 Fri 19:50:42]--[2024-12-06 Fri 20:07:46] =>  00:17:04
 	  :END:
 		- Last night, after the being caught up in the ((6752e3f2-5d37-4c90-9deb-e4c8134a4591)) without result, getting home, i was caught up in the Facebook sliding/scrolling for hours...
 		- After the first hour, my eyes were already tired, couldn't open, but somehow they opened again for the next 2 hours!
 		- Like many previous times, throughout the last 2 hours, i saw clearly all my tiredness, all the "meaninglessness", but could not escape... until it collapsed.
 		- At the collapse, i fell into the deep meditative state hearing cleary every little sound.
-		- This 3 hours of "junk scrolling"
+		- This 3 hours of "junk scrolling" has brought me the awareness that nothing is completely junk, that everything has meaning, that all these junks are no less captivating than my "worthful" research of Uniinfo.
+		- To put down the junks, i must also be able to put down my researches and attachment to debugging. They are equivalent!
