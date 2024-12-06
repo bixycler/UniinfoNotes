@@ -863,7 +863,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
 						- [?] The `A` records sometimes appear but sometimes disappeared!?!
 							- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
-							- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
+								- Results in minutes
+									- ```sh
+									  Monitoring host git1.lan.skygate.co.jp for A records
+									    from CNAME mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+									   0
+									  ++ 0+3 1+3 2+3 3+3 4+3 5+3 6+3 7+3 8+3 9+3 10+3 11+3 12+3 13+3 14+3 15+3 16+3 17+3 18+3 19+3 20+3
+									  ```
+							- Monitor IPs of CNAMEs with ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh)
+								- Results in minutes
+									- ```sh
+									  Monitoring hosts:
+									    mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+									    mgmt-repo1-clb-243604401.ap-northeast-1.elb.amazonaws.com
+									    mgmt-tools-alb-1633637944.ap-northeast-1.elb.amazonaws.com
+									  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 
+									  60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84
+									  ```
 				- `dig git1.lan.skygate.co.jp` without `CNAME`
 					- showing `SOA` (`AUTHORITY`) record
 					  id:: 67515558-ad0b-4605-a785-13ce84c60442
