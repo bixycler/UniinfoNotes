@@ -1317,3 +1317,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  e.g. $\sum_{k=0}^n{1/b^k} = (1 - 1/b^{n+1})/(1 - 1/b)$.
 		- When writing this note, i [chat with Gemini](https://gemini.google.com/app/908aa4fc71c41ab7) ([trimmed publish](https://g.co/gemini/share/1faa0d2af166)) about the  ((674db08a-4c2b-4a73-b17c-d3223bc0e95e)).
 		-
+	- DOING Caught up i
+	  :LOGBOOK:
+	  CLOCK: [2024-12-06 Fri 19:48:53]
+	  CLOCK: [2024-12-06 Fri 19:50:42]
+	  :END:
