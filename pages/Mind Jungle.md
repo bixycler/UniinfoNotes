@@ -862,6 +862,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- without VPN, with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`, ~~finally `A` records appear!~~
 						- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
 						- [?] The `A` records sometimes appear but sometimes disappeared!?!
+							- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
+							- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
 				- `dig git1.lan.skygate.co.jp` without `CNAME`
 					- showing `SOA` (`AUTHORITY`) record
 					  id:: 67515558-ad0b-4605-a785-13ce84c60442
