@@ -757,8 +757,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  [Delegation Name record](https://en.wikipedia.org/wiki/DNAME_record)
 				- `SOA`
 				  [Start Of Authority record](https://en.wikipedia.org/wiki/SOA_record)
-			- Domain name alias with ((6751469f-ce68-4946-a7e7-ed86fd5735cd))
+			- DOING Domain name alias with ((6751469f-ce68-4946-a7e7-ed86fd5735cd))
+			  id:: 67514336-628d-4f80-b154-3b7cfde988f0
 			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-12-05 Thu 13:05:25]
+			  :END:
 				- Ref: [serverfault.com](https://serverfault.com/a/947713)
 				- `dnsmasq.conf`
 				  ```sh
