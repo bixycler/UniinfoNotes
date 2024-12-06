@@ -838,6 +838,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  git1.lan.skygate.co.jp.	0	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
 							  ```
 						- after clearing the main IP address with `sudo ip addr flush enp1s0` (WARN: Internet connection will be lost!)
+						  collapsed:: true
 							- `host git1.lan.skygate.co.jp`
 							  ```sh
 							  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
@@ -854,8 +855,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  ```
 							- `dig` result is the same as [above](((67519abb-dba9-4637-9c1a-feebe4b76589))).
 							- ⇒ So, the problem is with DHCP: somehow it cannot resolve this `CNAME` record.
-					- without VPN, with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`, finally `A` records appear!
+					- without VPN, with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`, ~~finally `A` records appear!~~
 						- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
+						- The `A` records did appear once... and then disappeared altogether!?!
 				- `dig git1.lan.skygate.co.jp` without `CNAME`
 					- showing `SOA` (`AUTHORITY`) record
 					  id:: 67515558-ad0b-4605-a785-13ce84c60442
