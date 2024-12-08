@@ -1332,7 +1332,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- To put down the junks, i must also be able to put down my researches and attachment to debugging. They are equivalent!
 	- “Hi good old friend!”
 	  collapsed:: true
-		- Last evening, on the way to daddy's house visiting him, as all the memories flushed back
+		- Last evening, on the way to daddy's house visiting him, as all the memories came rushing back, i just realized that “everything is just a memory!”
+		- All my habits, karmas, attachments, perfectionism, and so on, are just good old memories, though very much familiar but not me, not myself.
+		- Actually, they are all parts of myself, both internal parts and external parts like friends, family, relations, etc. But a part is not the whole Self which is the totality of all parts.
 		- > Hello Darkness, my old friend! 
 		  Hello Light, my old friend! 
 		  Hello Suffering, my old friend! 
