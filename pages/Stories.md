@@ -1331,6 +1331,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- This 3 hours of "junk scrolling" has brought me the awareness that nothing is completely junk, that everything has meaning, that all these junks are no less captivating than my "worthful" research of Uniinfo.
 		- To put down the junks, i must also be able to put down my researches and attachment to debugging. They are equivalent!
 	- “Hi good old friend!”
+	  id:: 67555f3a-e296-4ea0-bac9-c0dcffa368d1
 	  collapsed:: true
 		- Last evening, on the way to daddy's house visiting him, as all the memories came rushing back, i just realized that “everything is just a memory!”
 		- All my habits, karmas, attachments, perfectionism, and so on, are just good old memories, though very much familiar but not me, not myself.
