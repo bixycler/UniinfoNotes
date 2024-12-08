@@ -1332,6 +1332,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- To put down the junks, i must also be able to put down my researches and attachment to debugging. They are equivalent!
 	- “Hi good old friend!”
 	  collapsed:: true
+		- Last evening, on the way to daddy's house visiting him, as all the memories flushed back
 		- > Hello Darkness, my old friend! 
 		  Hello Light, my old friend! 
 		  Hello Suffering, my old friend! 
