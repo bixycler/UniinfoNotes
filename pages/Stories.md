@@ -1330,3 +1330,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- At the collapse, i fell into the deep meditative state hearing cleary every little sound.
 		- This 3 hours of "junk scrolling" has brought me the awareness that nothing is completely junk, that everything has meaning, that all these junks are no less captivating than my "worthful" research of Uniinfo.
 		- To put down the junks, i must also be able to put down my researches and attachment to debugging. They are equivalent!
+	- “Hi good old friend!”
+	  collapsed:: true
+		- > Hello Darkness, my old friend! 
+		  Hello Light, my old friend! 
+		  Hello Suffering, my old friend! 
+		  Hello Joy, my old friend! 
+		  Hello Passion, my old friend! 
+		  Hello Boring, my old friend! 
+		  Hello Noise, my old friend! 
+		  Hello Silence, my old friend! 
+		  ...
