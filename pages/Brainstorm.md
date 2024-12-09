@@ -1314,3 +1314,4 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :END:
 		- [Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential anaysis
 		- [Edge case](https://en.wikipedia.org/wiki/Edge_case) in software engineering
+		- [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
