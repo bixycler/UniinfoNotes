@@ -15,8 +15,9 @@ while true; do
         # TTL and IP fields are extracted with `awk`
     IPn=0; TTL=''; mark=''
     if [[ -n "${IPs}" ]]; then  
-        IPn=$(wc -l <<< "${IPs}"); mark="+${IPn}"
-        TTL="_${IPs%% *}"
+        IPn=$(wc -l <<< "${IPs}"); 
+        TTL="${IPs%% *}"
+        mark="+${IPn}_${TTL}"
         IPs=$(printf "${IPs}" | cut -d ' ' -f 2) # keep only IP field
     fi
     oIPs=$(cat ${ipf})
@@ -25,11 +26,12 @@ while true; do
         echo "${dt}:" ${IPs} >> ${logf}
         echo -e "\n${dt}"; [[ -n ${IPs} ]] && printf '  %s\n' ${IPs}
         hmark='..'
-        ( (( $IPn < 1 )) && hmark='--' ) || \
-        ( (( $IPn < 2 )) && hmark=' +' ) || hmark='++'
+        if      [[ ${IPn} -lt 1 ]]; then hmark='--' 
+        else if [[ ${IPn} -lt 2 ]]; then hmark=' +'
+        else                             hmark='++'; fi; fi
         echo -en "${hmark} ${minute}" 
     fi
-    echo -n "${mark}${TTL}"
+    echo -n "${mark}"
     ((minute++))
     sleep 1 #60
 done
