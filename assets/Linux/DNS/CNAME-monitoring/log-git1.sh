@@ -3,24 +3,26 @@
 host=git1.lan.skygate.co.jp
 cname=mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 logf=${host}.log
+ipf=${host}.ip.log
 echo -e "Monitoring host ${host} for A records\n  from CNAME ${cname}"
 minute=0
-last='unresolved'
 while true; do
     echo -n " ${minute}"
     dt=$(date '+%Y-%m-%d_%H:%M:%S')
-    IPs=$(dig +short ${host} | sort)
-    IPn=$(wc -l <<< "${IPs}")
-    if [[ ${IPn} -gt 1 ]]; then
-        st="${dt}"$'\n'"${IPs}"
-        if [[ ${last} == 'unresolved' ]]; then echo -en "\n++ ${minute}"; fi
-        echo "${st}"$'\n' >> ${logf}
-        echo -n "+${IPn}"
-        last='resolved'
-    else
-        if [[ ${last} == 'resolved' ]]; then echo -en "\n-- ${minute}"; fi
-        last='unresolved'
+    IPs=$(dig +short ${host} | sort) # the CNAME line will be sorted to last line
+    IPS=$(printf "${IPs}" | head -n -1) # remove the last line (CNAME)
+    IPn=$(wc -l <<< "${IPs}"); 
+    oIPs=$(cat ${ipf})
+    if [[ "${IPs}" != "${oIPs}" ]]; then
+        printf "${IPs}" > ${ipf}
+        echo "${dt}:" ${IPs} >> ${logf}
+        echo -e "\n${dt}"; printf '  %s\n' ${IPs}
+        [[ ${IPn} -lt 1 ]] && hmark='--' || \ 
+        [[ ${IPn} -lt 2 ]] && hmark=' +' || hmark='++'
+        echo -en "\n${hmark} ${minute}" 
     fi
+    [[ ${IPn} -lt 1 ]] && mark='' || mark="+${IPn}"
+    echo -n "${mark}"
     ((minute++))
     sleep 60
 done
