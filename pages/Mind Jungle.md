@@ -906,6 +906,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  ++ 3498+3 3499+3 3500+3 3501+3 3502+3 3503 ... 3692+3 = 1733709460 (2024-12-09 08:57:40)
 									  ```
 							- Monitor IPs of CNAMEs with ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh)
+								- Only
 								- Results in minutes
 								  collapsed:: true
 									- ```sh

@@ -18,6 +18,8 @@ while true; do
             st="${host}:${dt}"
             echo "${st}:" ${IPs} >> ${logf}
             echo -e "\n${st}"; printf '  %s\n' ${IPs}
+        else :
+            #echo -e "\n= ${host}:${dt}:" ${IPs} # DEBUG
         fi
     done
     ((minute++))
