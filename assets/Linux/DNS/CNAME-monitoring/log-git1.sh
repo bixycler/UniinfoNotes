@@ -25,7 +25,7 @@ while true; do
         printf "${IPs}" > ${ipf}
         echo "${dt}:" ${IPs} >> ${logf}
         echo -e "\n${dt}"; [[ -n ${IPs} ]] && printf '  %s\n' ${IPs}
-        hmark='..'
+        hmark='..' # DEBUG
         if      [[ ${IPn} -lt 1 ]]; then hmark='--' 
         else if [[ ${IPn} -lt 2 ]]; then hmark=' +'
         else                             hmark='++'; fi; fi
