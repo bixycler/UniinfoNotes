@@ -907,13 +907,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  ```
 							- Monitor IPs of CNAMEs with ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh)
 								- Only GitLab IPs are updated.
-								- IP update pattern
+								- IP update pattern: around 21h ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night
 									- ```sh
-									  179 180 181 182 183 184 185 ..... 1642 1643 = 25 minutes
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:45:22
+									  179 180 181 182 183 184 185 ..... 1642 1643 ( 2 minutes to 1 day )
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:45:22
 									    3.113.184.150
-									  1644 1645 1646 1647 1648 1649 1650 1651 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:53:23
+									  1644 1645 1646 1647 1648 1649 1650 1651 ( 2 to 10 minutes )
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:53:23
 									    3.113.184.150
 									    3.115.119.69
 									  ```
