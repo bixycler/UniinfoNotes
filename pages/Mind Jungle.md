@@ -626,16 +626,25 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  ```
 				- String variable manipulations
 					- `${#var}`
-					  string length of `var`
+					  string length of `$var`
 					- `${var:position[:length]}`
 					  extract substring from `position` (zero-based in `bash`) with `length` or until the end
 						- `(-pos_from_right_end)`
+						  collapsed:: true
 							- e.g.
 							  ```sh
 							  var=abcABC123ABCabc
 							  echo ${var:(-4)}
 							  Cabc
 							  ```
+					- `${var#substring}`
+					  Deletes _shortest_ match of `substring` (pattern) **head** (`#`) of `$var`.
+					- `${var##substring}`
+					  Deletes _longest_ match of `substring` (pattern) **head** (`#`) of `$var`.
+					- `${var%substring}`
+					  Deletes _shortest_ match of `substring` (pattern) **tail** (`%` = remainder) of `$var`.
+					- `${var%%substring}`
+					  Deletes _longest_ match of `substring` (pattern) **tail** (`%` = remainder) of `$var`.
 					- Ref: [Advanced Bash-Scripting Guide: 10.1. Manipulating Strings](https://tldp.org/LDP/abs/html/string-manipulation.html)
 			- Oh My Zsh
 			  collapsed:: true
