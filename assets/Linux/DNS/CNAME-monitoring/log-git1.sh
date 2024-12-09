@@ -10,9 +10,9 @@ while true; do
     echo -n " ${minute}"
     dt=$(date '+%Y-%m-%d_%H:%M:%S')
     IPs=$(dig +nocmd +noall +answer +ttlid ${host} | \
-        tail -n +2 | sort | cut -d ' ' -f 2,4 | sed 's/\tIN//')
+        tail -n +2 | sort | awk -F '[[:blank:]]+' '{print $2" "$5}')
         # CNAME line is removed with `tail`, IP lines are `sort`ed 
-        # TTL and IP fields are extracted with `cut` & `sed`
+        # TTL and IP fields are extracted with `awk`
     IPn=0; TTL=''
     if [[ -n "${IPs}" ]]; then  
         IPn=$(wc -l <<< "${IPs}")
