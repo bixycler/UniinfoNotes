@@ -20,6 +20,7 @@ id:: 66faa5f7-f408-406c-befd-8ae69ed56667
   id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	- LInux
 	  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
+	  collapsed:: true
 	  ^ **Term** search
 		- {{search-query [:h3 "Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 6651e92e-fb34-4d24-a386-d9698c2e93f7, false}}
 		  query-table:: false
