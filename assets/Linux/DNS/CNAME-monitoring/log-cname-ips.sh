@@ -14,7 +14,7 @@ while true; do
         IPs=$(dig +short ${host} | sort)
         IPn=$(printf "${IPs}" | wc -l)
         if [[ ${IPn} -lt 2 ]]; then # retry
-            sleep 0.321 # try to avoid the edge
+            sleep 0.321 # try to avoid the expiration threshold (TTL = 0) 
             IPs=$(dig +short ${host} | sort)
         fi
         oIPs=$(cat ${host}.ip.log)

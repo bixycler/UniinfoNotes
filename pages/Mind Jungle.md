@@ -880,7 +880,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- ⇒It's better to just set static IP in `hosts` file every day, instead of using the unstable `CNAME`.
 								- The unstability is due to the short TTL only 1 minute. ((67565823-ee51-4a8d-8523-e02105fe6c94))
 								- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
-									- IP down pattern: Every minute, at the edge (when TTL=0), the IPs of `CNAME` is reset, making the `A` records disappear.
+									- IP down pattern: Every minute, at the expiration threshold (TTL=0), the IPs of `CNAME` is reset, making the `A` records disappear.
 									  id:: 67565823-ee51-4a8d-8523-e02105fe6c94
 									  collapsed:: true
 										- ```sh
