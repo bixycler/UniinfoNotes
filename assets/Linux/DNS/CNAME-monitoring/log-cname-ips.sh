@@ -12,6 +12,11 @@ while true; do
     dt=$(date '+%Y-%m-%d_%H:%M:%S')
     for host in ${hosts[@]}; do
         IPs=$(dig +short ${host} | sort)
+        IPn=$(printf "${IPs}" | wc -l)
+        if [[ ${IPn} -lt 2 ]]; then # retry
+            sleep 0.321 # try to avoid the edge
+            IPs=$(dig +short ${host} | sort)
+        fi
         oIPs=$(cat ${host}.ip.log)
         if [[ "${IPs}" != "${oIPs}" ]]; then
             printf "${IPs}" > ${host}.ip.log
