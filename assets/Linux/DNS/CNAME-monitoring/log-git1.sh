@@ -10,11 +10,10 @@ while true; do
     echo -n " ${minute}"
     dt=$(date '+%Y-%m-%d_%H:%M:%S')
     IPs=$(dig +nocmd +noall +answer +ttlid ${host} | \
-        sort | tail -n +2 | cut -d ' ' -f 2,4 | sed 's/\tIN//')
-        # the CNAME is `sort`ed to last line then removed with `tail`
+        tail -n +2 | sort | cut -d ' ' -f 2,4 | sed 's/\tIN//')
+        # CNAME line is removed with `tail`, IP lines are `sort`ed 
         # TTL and IP fields are extracted with `cut` & `sed`
-    IPn=$(wc -l <<< "${IPs}"); ((--IPn))
-    IPs=$(printf "${IPs}" | head -n -1) # remove CNAME line
+    ( [[ -z "${IPs}" ]] && IPn=0 ) || IPn=$(wc -l <<< "${IPs}")
     oIPs=$(cat ${ipf})
     if [[ "${IPs}" != "${oIPs}" ]]; then
         printf "${IPs}" > ${ipf}
