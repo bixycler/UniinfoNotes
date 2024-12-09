@@ -864,6 +864,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [?] The `A` records sometimes appear but sometimes disappeared!?!
 							- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
 								- IP down pattern: every 1-2 hours, the `git1` host is unresolved for 2-8 minutes.
+									- Interestingly, there's no IP down in the period of [IP update](((675653ab-ea7c-4d8b-8ef6-a378591b6443))) around 21h.
 									- ```sh
 									  ++ 1328+3 1329+3 1330+3 1331+3 1332+3 1333+3 ... 1426+3 1427+3 1428
 									  -- 1428 1429 1430 1431 1432 1433 ( 2024-12-07 19:18:40 )
@@ -913,6 +914,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Monitor IPs of CNAMEs with ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh)
 								- Only GitLab IPs are updated.
 								- IP update pattern: around **21h** ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night, the IPs are updated and _**unstable** in around 1 hour_.
+								  id:: 675653ab-ea7c-4d8b-8ef6-a378591b6443
 									- ```sh
 									  179 180 181 182 183 184 185 ..... 1642 1643 ( 2 minutes to 1 day )
 									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:45:22
@@ -975,6 +977,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  
 									  
 									  ```
+							-
 				- `dig git1.lan.skygate.co.jp` without `CNAME`
 					- showing `SOA` (`AUTHORITY`) record
 					  id:: 67515558-ad0b-4605-a785-13ce84c60442
