@@ -1313,7 +1313,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-12-09 Mon 17:51:48]--[2024-12-09 Mon 18:11:01] =>  00:19:13
 	  :END:
 		- [Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential anaysis
-		- [Edge case](https://en.wikipedia.org/wiki/Edge_case) in software engineering
+		- [Edge case](https://en.wikipedia.org/wiki/Edge_case), including overflows ([integer OF](https://en.wikipedia.org/wiki/Integer_overflow), [buffer OF](https://en.wikipedia.org/wiki/Buffer_overflow), [Stack OF](https://en.wikipedia.org/wiki/Stack_overflow)), in software engineering
 		- [Edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos), [Bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory), [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
 		- [Phase transition point](https://en.wikipedia.org/wiki/Phase_transition) in physics and [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
 		- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe.
