@@ -638,14 +638,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  Cabc
 							  ```
 					- `${var#substring}`
-					  Deletes _shortest_ match of `substring` (pattern) **head** (`#`) of `$var`.
+					  delete _shortest_ match of `substring` (pattern) **head** (`#`) of `$var`.
 					- `${var##substring}`
-					  Deletes _longest_ match of `substring` (pattern) **head** (`#`) of `$var`.
+					  delete _longest_ match of `substring` (pattern) **head** (`#`) of `$var`.
 					- `${var%substring}`
-					  Deletes _shortest_ match of `substring` (pattern) **tail** (`%` = remainder) of `$var`.
+					  delete _shortest_ match of `substring` (pattern) **tail** (`%` = remainder) of `$var`.
 					- `${var%%substring}`
-					  Deletes _longest_ match of `substring` (pattern) **tail** (`%` = remainder) of `$var`.
+					  delete _longest_ match of `substring` (pattern) **tail** (`%` = remainder) of `$var`.
+					- `${var/substring/replacement}`
+					  replace *first* match of `substring` (pattern) with `replacement`.
+					- `${var/substring/replacement}`
+					  replace *all* matches of `substring` (pattern) with `replacement`.
 					- Ref: [Advanced Bash-Scripting Guide: 10.1. Manipulating Strings](https://tldp.org/LDP/abs/html/string-manipulation.html)
+				- Parameter substitution
+					- Ref: [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
 			- Oh My Zsh
 			  collapsed:: true
 				- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
