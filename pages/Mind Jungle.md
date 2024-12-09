@@ -859,9 +859,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  ```
 							- `dig` result is the same as [above](((67519abb-dba9-4637-9c1a-feebe4b76589))).
 							- ⇒ So, the problem is with DHCP: somehow it cannot resolve this `CNAME` record.
-					- without VPN, with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`, ~~finally `A` records appear!~~
-						- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
-						- [?] The `A` records sometimes appear but sometimes disappeared!?!
+						- finally, somehow `A` records appear, but unstable !?!
 							- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
 								- IP down pattern: every 1-2 hours, the `git1` host is unresolved for 2-8 minutes.
 									- ```sh
@@ -1001,6 +999,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  
 									  
 									  ```
+						- with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`
+							- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
 				- `dig git1.lan.skygate.co.jp` without `CNAME`
 					- showing `SOA` (`AUTHORITY`) record
 					  id:: 67515558-ad0b-4605-a785-13ce84c60442
