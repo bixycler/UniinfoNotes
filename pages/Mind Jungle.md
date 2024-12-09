@@ -917,6 +917,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Only GitLab IPs are updated.
 									- IP update pattern: around **21h** ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night, the IPs are updated and _**unstable** in around 1 hour_.
 									  id:: 675653ab-ea7c-4d8b-8ef6-a378591b6443
+									  Moreover, in weekdays, IPs can be update some times in work time.
 										- ```sh
 										  179 180 181 182 183 184 185 ..... 1642 1643 ( 2 minutes to 1 day )
 										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:45:22
