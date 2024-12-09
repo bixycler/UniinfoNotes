@@ -9,8 +9,9 @@ minute=0
 while true; do
     echo -n " ${minute}"
     dt=$(date '+%Y-%m-%d_%H:%M:%S')
-    IPs=$(dig +short ${host} | sort | head -n -1) # remove CNAME line (sorted to last line)
-    IPn=$(wc -l <<< "${IPs}"); 
+    IPs=$(dig +short ${host} | sort) # the CNAME is sorted to last line
+    IPn=$(wc -l <<< "${IPs}"); ((--IPn))
+    IPs=$(printf "${IPs}" | head -n -1) # remove CNAME line
     oIPs=$(cat ${ipf})
     if [[ "${IPs}" != "${oIPs}" ]]; then
         printf "${IPs}" > ${ipf}
