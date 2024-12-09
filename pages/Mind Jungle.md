@@ -906,7 +906,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  ++ 3498+3 3499+3 3500+3 3501+3 3502+3 3503 ... 3692+3 = 1733709460 (2024-12-09 08:57:40)
 									  ```
 							- Monitor IPs of CNAMEs with ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh)
-								- Only
+								- Only GitLab IPs are updated.
+								- IP update pattern
+									- ```sh
+									  179 180 181 182 183 184 185 ..... 1642 1643 = 25 minutes
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:45:22
+									    3.113.184.150
+									  1644 1645 1646 1647 1648 1649 1650 1651 
+									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:53:23
+									    3.113.184.150
+									    3.115.119.69
+									  ```
 								- Results in minutes
 								  collapsed:: true
 									- ```sh
