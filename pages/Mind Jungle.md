@@ -863,7 +863,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
 						- [?] The `A` records sometimes appear but sometimes disappeared!?!
 							- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
-								- IP update pattern: around **21h** ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night, the IPs are updated and _**unstable** in around 1 hour_.
+								- IP down pattern: every 1-2 hours, the `git1` host is unresolved for 2-8 minutes.
+									- ```sh
+									  ++ 1328+3 1329+3 1330+3 1331+3 1332+3 1333+3 ... 1426+3 1427+3 1428
+									  -- 1428 1429 1430 1431 1432 1433 ( 2024-12-07 19:18:40 )
+									  ```
 								- Results in minutes
 								  collapsed:: true
 									- ```sh
