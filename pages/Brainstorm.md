@@ -1305,3 +1305,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- $x ± y = (x + y, x - y)/\sqrt{2}$
 				- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
 				- These are genralized “rotation” operations similar to [unitary operators](https://en.wikipedia.org/wiki/Unitary_operator) which preserve the norm of state vector.
+	- DOING Boundary problem
+	  id:: 6756cbba-4326-499c-a1f1-296a36a14663
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-12-09 Mon 17:51:40]
+	  CLOCK: [2024-12-09 Mon 17:51:48]
+	  :END:
+		- [Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential anaysis
+		- [Edge case](https://en.wikipedia.org/wiki/Edge_case) in software engineering

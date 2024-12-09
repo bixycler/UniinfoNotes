@@ -800,6 +800,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  ```
 				- ((675686a5-3d59-402f-9640-12b991182e32))
 					- Static IP cannot be set (in `hosts` file), due to the [IP update of `CNAME` in work time](((675653ab-ea7c-4d8b-8ef6-a378591b6443))).
+					- Or we must run a background script, like ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh), to detect IP change of `CNAME` then update `hosts` file accordingly.
 				- The history of hunting `A` records is so complicated
 				  collapsed:: true
 					- `dig git1.lan.skygate.co.jp` with `CNAME`
