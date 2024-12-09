@@ -16,12 +16,12 @@ while true; do
     if [[ "${IPs}" != "${oIPs}" ]]; then
         printf "${IPs}" > ${ipf}
         echo "${dt}:" ${IPs} >> ${logf}
-        echo -e "\n${dt}"; printf '  %s\n' ${IPs}
-        [[ ${IPn} -lt 1 ]] && hmark='--' || \
-        [[ ${IPn} -lt 2 ]] && hmark=' +' || hmark='++'
+        echo -e "\n${dt}"; [[ -n ${IPs} ]] && printf '  %s\n' ${IPs}
+        ( [[ ${IPn} -lt 1 ]] && hmark='--' ) || \
+        ( [[ ${IPn} -lt 2 ]] && hmark=' +' ) || hmark='++'
         echo -en "${hmark} ${minute}" 
     fi
-    [[ ${IPn} -lt 1 ]] && mark='' || mark="+${IPn}"
+    ( [[ ${IPn} -lt 1 ]] && mark='' ) || mark="+${IPn}"
     echo -n "${mark}"
     ((minute++))
     sleep 60
