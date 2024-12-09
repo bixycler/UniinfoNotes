@@ -18,7 +18,7 @@ while true; do
         echo -e "\n${dt}"; printf '  %s\n' ${IPs}
         [[ ${IPn} -lt 1 ]] && hmark='--' || \
         [[ ${IPn} -lt 2 ]] && hmark=' +' || hmark='++'
-        echo -en "\n${hmark} ${minute}" 
+        echo -en "${hmark} ${minute}" 
     fi
     [[ ${IPn} -lt 1 ]] && mark='' || mark="+${IPn}"
     echo -n "${mark}"
