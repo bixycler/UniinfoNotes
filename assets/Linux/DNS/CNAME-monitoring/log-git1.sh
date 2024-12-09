@@ -18,7 +18,7 @@ while true; do
         echo -n "+${IPn}"
         last='resolved'
     else
-        if [[ ${last} == 'resolved' ]]; then echo -en "-- ${minute}"; fi
+        if [[ ${last} == 'resolved' ]]; then echo -en "\n-- ${minute}"; fi
         last='unresolved'
     fi
     ((minute++))
