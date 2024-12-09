@@ -799,6 +799,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  cname=git1.lan.skygate.co.jp,mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 				  ```
 				- ((675686a5-3d59-402f-9640-12b991182e32))
+					- Static IP cannot be set (in `hosts` file), due to the [IP update of `CNAME` in work time](((675653ab-ea7c-4d8b-8ef6-a378591b6443))).
 				- The history of hunting `A` records is so complicated
 				  collapsed:: true
 					- `dig git1.lan.skygate.co.jp` with `CNAME`
@@ -877,7 +878,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  :LOGBOOK:
 							  CLOCK: [2024-12-09 Mon 13:44:32]--[2024-12-09 Mon 16:21:21] =>  02:36:49
 							  :END:
-								- ⇒It's better to just set static IP in `hosts` file every day, instead of using the unstable `CNAME`.
 								- The unstability is due to the short TTL only 1 minute. ((67565823-ee51-4a8d-8523-e02105fe6c94))
 								- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
 									- IP down pattern: Every minute, at the expiration threshold (TTL=0), the IPs of `CNAME` is reset, making the `A` records disappear.
@@ -917,7 +917,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Only GitLab IPs are updated.
 									- IP update pattern: around **21h** ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night, the IPs are updated and _**unstable** in around 1 hour_.
 									  id:: 675653ab-ea7c-4d8b-8ef6-a378591b6443
-									  Moreover, in weekdays, IPs can be update some times in work time.
+									  Moreover, in weekdays, IPs can be updated some times **in work time**.
 										- ```sh
 										  179 180 181 182 183 184 185 ..... 1642 1643 ( 2 minutes to 1 day )
 										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:45:22
