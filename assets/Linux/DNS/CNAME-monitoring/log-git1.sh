@@ -25,8 +25,8 @@ while true; do
         echo "${dt}:" ${IPs} >> ${logf}
         echo -e "\n${dt}"; [[ -n ${IPs} ]] && printf '  %s\n' ${IPs}
         hmark='..'
-        ( [[ ${IPn} -lt 1 ]] && hmark='--' ) || \
-        ( [[ ${IPn} -lt 2 ]] && hmark=' +' ) || hmark='++'
+        ( (( $IPn < 1 )) && hmark='--' ) || \
+        ( (( $IPn < 2 )) && hmark=' +' ) || hmark='++'
         echo -en "${hmark} ${minute}" 
     fi
     echo -n "${mark}${TTL}"
