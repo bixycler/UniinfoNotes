@@ -757,11 +757,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  [Delegation Name record](https://en.wikipedia.org/wiki/DNAME_record)
 				- `SOA`
 				  [Start Of Authority record](https://en.wikipedia.org/wiki/SOA_record)
-			- DOING Domain name alias with ((6751469f-ce68-4946-a7e7-ed86fd5735cd))
+			- Domain name alias with ((6751469f-ce68-4946-a7e7-ed86fd5735cd))
 			  id:: 67514336-628d-4f80-b154-3b7cfde988f0
 			  collapsed:: true
 			  :LOGBOOK:
-			  CLOCK: [2024-12-05 Thu 13:05:25]
+			  CLOCK: [2024-12-05 Thu 13:05:25]--[2024-12-09 Mon 13:12:24] =>  96:06:59
 			  :END:
 				- Ref: [serverfault.com](https://serverfault.com/a/947713)
 				- `dnsmasq.conf`
@@ -770,68 +770,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  # for targets which are names from DHCP or /etc/hosts. 
 				  cname=git1.lan.skygate.co.jp,mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 				  ```
-				- [!][?] `dnsmasq` log shows `CNAME` config, but `dig` still [shows `SOA` record](((67515558-ad0b-4605-a785-13ce84c60442)))
-					- ```
-					  Dec  5 14:07:55 dnsmasq[3334473]: query[AAAA] git1.lan.skygate.co.jp from 127.0.0.1
-					  Dec  5 14:07:55 dnsmasq[3334473]: config git1.lan.skygate.co.jp is <CNAME>
-					  ```
-				- `dig mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com`
-				  id:: 675146f7-489d-42f9-8ba9-f2b71a222ec1
+				- ((675686a5-3d59-402f-9640-12b991182e32))
+				- The history of hunting `A` records is so complicated
 				  collapsed:: true
-					- ```scheme
-					  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
-					  ;; global options: +cmd
-					  ;; Got answer:
-					  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19784
-					  ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
-					  
-					  ;; OPT PSEUDOSECTION:
-					  ; EDNS: version: 0, flags:; udp: 1232
-					  ; COOKIE: c56b8d8d51904bb80100000067514100ea8c497ab05012df (good)
-					  ;; QUESTION SECTION:
-					  ;mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. IN	A
-					  
-					  ;; ANSWER SECTION:
-					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
-					  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
-					  ```
-				- `dig git1.lan.skygate.co.jp` with `CNAME`
-					- showing `A` records on VPN
-					  collapsed:: true
-						- ```scheme
-						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
-						  ;; global options: +cmd
-						  ;; Got answer:
-						  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7852
-						  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
-						  
-						  ;; OPT PSEUDOSECTION:
-						  ; EDNS: version: 0, flags:; udp: 1232
-						  ;; QUESTION SECTION:
-						  ;git1.lan.skygate.co.jp.		IN	A
-						  
-						  ;; ANSWER SECTION:
-						  git1.lan.skygate.co.jp.	3600	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
-						  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 54.199.127.69
-						  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 3.115.124.176
-						  ```
-					- without VPN, first, showing `SOA` (`AUTHORITY`) record
-					  collapsed:: true
-						- {{embed ((67514436-ddef-49ab-b794-f26686b572b2))}}
-					- without VPN, then, after some hours (> DNS lease time 3600 = 1h)
-						- showing only `CNAME` but with no `A` record
-						  id:: 67519abb-dba9-4637-9c1a-feebe4b76589
+					- `dig git1.lan.skygate.co.jp` with `CNAME`
+						- showing `A` records on VPN
 						  collapsed:: true
-							- ```sh
-							  host git1.lan.skygate.co.jp
-							  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
-							  ```
 							- ```scheme
 							  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
 							  ;; global options: +cmd
 							  ;; Got answer:
-							  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60341
-							  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+							  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7852
+							  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
 							  
 							  ;; OPT PSEUDOSECTION:
 							  ; EDNS: version: 0, flags:; udp: 1232
@@ -839,36 +789,123 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  ;git1.lan.skygate.co.jp.		IN	A
 							  
 							  ;; ANSWER SECTION:
-							  git1.lan.skygate.co.jp.	0	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+							  git1.lan.skygate.co.jp.	3600	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+							  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 54.199.127.69
+							  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 0 IN A 3.115.124.176
 							  ```
-						- after clearing the main IP address with `sudo ip addr flush enp1s0` (WARN: Internet connection will be lost!)
+						- without VPN, first, showing `SOA` (`AUTHORITY`) record
+						  id:: 67519a83-75fe-48d2-90a1-8c48622a0edf
 						  collapsed:: true
-							- `host git1.lan.skygate.co.jp`
-							  ```sh
-							  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
-							  Host mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com not found: 5(REFUSED)
-							  Host mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com not found: 5(REFUSED)
-							  ```
-							- `nslookup git1.lan.skygate.co.jp`
-							  ```sh
-							  Server:		127.0.0.1
-							  Address:	127.0.0.1#53
-							  
-							  git1.lan.skygate.co.jp	canonical name = mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
-							  ** server can't find mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: REFUSED
-							  ```
-							- `dig` result is the same as [above](((67519abb-dba9-4637-9c1a-feebe4b76589))).
-							- ⇒ So, the problem is with DHCP: somehow it cannot resolve this `CNAME` record.
-						- finally, somehow `A` records appear, but unstable !?!
-							- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
-								- IP down pattern: every 1-2 hours, the `git1` host is unresolved for 2-8 minutes.
-									- ```sh
-									  ++ 1328+2 1329+2 1330+2 1331+2 1332+2 1333+2 ... 1426+2 1427+2 1428
-									  -- 1428 1429 1430 1431 1432 1433 ( 2024-12-07 19:18:40 )
-									  ```
-									- Interestingly, there's no IP down in the period of [IP update](((675653ab-ea7c-4d8b-8ef6-a378591b6443))) around 21h.
+							- {{embed ((67514436-ddef-49ab-b794-f26686b572b2))}}
+							- but `dnsmasq` log shows `CNAME` config
+								- ```
+								  Dec  5 14:07:55 dnsmasq[3334473]: query[AAAA] git1.lan.skygate.co.jp from 127.0.0.1
+								  Dec  5 14:07:55 dnsmasq[3334473]: config git1.lan.skygate.co.jp is <CNAME>
+								  ```
+						- without VPN, then, after some hours (> DNS lease time 3600 = 1h)
+							- showing only `CNAME` but with no `A` record
+							  id:: 67519abb-dba9-4637-9c1a-feebe4b76589
+							  collapsed:: true
+								- ```sh
+								  host git1.lan.skygate.co.jp
+								  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+								  ```
+								- ```scheme
+								  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+								  ;; global options: +cmd
+								  ;; Got answer:
+								  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60341
+								  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+								  
+								  ;; OPT PSEUDOSECTION:
+								  ; EDNS: version: 0, flags:; udp: 1232
+								  ;; QUESTION SECTION:
+								  ;git1.lan.skygate.co.jp.		IN	A
+								  
+								  ;; ANSWER SECTION:
+								  git1.lan.skygate.co.jp.	0	IN	CNAME	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+								  ```
+							- after clearing the main IP address with `sudo ip addr flush enp1s0` (WARN: Internet connection will be lost!)
+							  collapsed:: true
+								- `host git1.lan.skygate.co.jp`
+								  ```sh
+								  git1.lan.skygate.co.jp is an alias for mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+								  Host mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com not found: 5(REFUSED)
+								  Host mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com not found: 5(REFUSED)
+								  ```
+								- `nslookup git1.lan.skygate.co.jp`
+								  ```sh
+								  Server:		127.0.0.1
+								  Address:	127.0.0.1#53
+								  
+								  git1.lan.skygate.co.jp	canonical name = mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
+								  ** server can't find mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: REFUSED
+								  ```
+								- `dig` result is the same as [above](((67519abb-dba9-4637-9c1a-feebe4b76589))).
+								- ⇒ So, the problem is with DHCP: somehow it cannot resolve this `CNAME` record.
+							- finally, somehow `A` records appear, but unstable !?!
+							  id:: 675686a5-3d59-402f-9640-12b991182e32
+							  collapsed:: true
+								- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
+									- IP down pattern: every 1-2 hours, the `git1` host is unresolved for 2-8 minutes.
+										- ```sh
+										  ++ 1328+2 1329+2 1330+2 1331+2 1332+2 1333+2 ... 1426+2 1427+2 1428
+										  -- 1428 1429 1430 1431 1432 1433 ( 2024-12-07 19:18:40 )
+										  ```
+										- Interestingly, there's no IP down in the period of [IP update](((675653ab-ea7c-4d8b-8ef6-a378591b6443))) around 21h.
+										  collapsed:: true
+											- ```sh
+											  -- 2816 2817 2818 2819 2820 2821 2822 ( 2024-12-08 18:27:40 )
+											  ++ 2822+2 2823+2 2824+2 2825+2 2826+2 2827+2 2828+2 ... 2993+2 ( 2024-12-08 21:18:40 )
+											   + 2994+1 2995+1 2996+1 2997+1 2998+1 2999+1 3000+1 3001+1
+											  ++ 3002+2 3003+2 3004+2 3005+2 3006+2 3007+2 3008+2 3009+2 3010+2 3011+2 3012+2
+											   + 3013+1 3014+1 3015+1 3016+1
+											  ++ 3017+2 3018+2 3019+2 3020+2 3021+2 3022+2 3023+2 3024+2 3025+2 3026+2
+											   + 3027+1 3028+1 3029+1 3030+1
+											  ++ 3031+2 ... 3159+2 3160
+											  -- 3160 3161 3162 3163 ( 2024-12-09 00:08:40 )
+											  ```
+									- Results in minutes
 									  collapsed:: true
 										- ```sh
+										  Monitoring host git1.lan.skygate.co.jp for A records
+										    from CNAME mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+										   0
+										  ++ 0+2 1+2 2+2 3+2 4+2 5+2 6+2 7+2 8+2 9+2 10+2 11+2 12+2 13+2 14+2 15+2 16+2 17+2 18+2 19+2 20+2 21+2 22+2 23+2 24+2 25+2 26+2 27+2 28+2 29+2 30+2 31+2 32+2 33+2 34+2 35+2 36+2 37+2 38+2 39+2 40+2 41+2 42+2 43+2 44+2 45+2 46+2 47+2 48+2 49+2 50+2 51+2 52+2 53+2 54+2 55+2 56+2 57+2 58+2 59+2 60+2 61+2 62+2 63+2 64+2 65+2 66+2 67
+										  -- 67 68 69 70 71 72 ( 2024-12-06 20:37:40 )
+										  ++ 72+2 73+2 74+2 75+2 76+2 77+2 ... 109+2
+										   + 110+1 111+1 112+1 113+1 114+1 ( 2024-12-06 21:19:40 )
+										  ++ 115+2 ... 394+2 395
+										  -- 395 396 397 398 399 400 ( 2024-12-07 2:05:40 )
+										  ++ 400+2 401+2 402+2 403+2 404+2 405+2 ... 527+2 528
+										  -- 528 529 ( 024-12-07 4:14:40 )
+										  ++ 529+2 530+2 531+2 532+2 ... 737+2 738
+										  -- 738 739 740 ( 2024-12-07 7:45:40 )
+										  ++ 740+2 741+2 742+2 743+2 ... 899+2 900
+										  -- 900 901 ( 2024-12-07 10:26:40 )
+										  ++ 901+2 902+2 903+2 904+2 905+2 906+2 907+2 908+2 909+2 910+2 911
+										  -- 911 912 ( 024-12-07 10:37:40 )
+										  ++ 912+2 913+2 914+2 915+2 916+2 917+2 918+2 919+2 920+2 921+2 922+2 923+2 924+2 925+2 926+2 927+2 928+2 929+2 930+2 931+2 932+2 933+2 934+2 935+2 936+2 937+2 938+2 939+2 940+2 941+2 942+2 943+2 944+2 945+2 946+2 947+2 948+2 949+2 950+2 951+2 952+2 953+2 954+2 955+2 956+2 957+2 958+2 959+2 960+2 961+2 962+2 963+2 964+2 965+2 966+2 967+2 968+2 969+2 970+2 971+2 972+2 973+2 974+2 975+2 976+2 977+2 978+2 979+2 980+2 981+2 982+2 983+2 984+2 985+2 986+2 987+2 988+2 989
+										  -- 989 990 ( 2024-12-07 11:55:40 )
+										  ++ 990+2 991
+										  -- 991 992 ( 2024-12-07 11:57:40 )
+										  ++ 992+2 993+2 994+2 995+2 996+2 997+2 998+2 999+2 1000+2 1001+2 1002+2 1003+2 1004+2 1005+2 1006+2 1007+2 1008+2 1009+2 1010+2 1011+2 1012+2 1013+2 1014+2 1015+2 1016+2 1017+2 1018+2 1019+2 1020+2 1021+2 1022+2 1023+2 1024+2 1025+2 1026+2 1027+2 1028+2 1029+2 1030+2 1031+2 1032+2 1033+2 1034+2 1035+2 1036+2 1037+2 1038+2 1039+2 1040+2 1041+2 1042+2 1043+2 1044+2 1045+2 1046+2 1047+2 1048+2 1049+2 1050+2 1051+2 1052+2 1053+2 1054+2 1055+2 1056+2 1057+2 1058+2 1059+2 1060+2 1061+2 1062+2 1063+2 1064+2 1065+2 1066+2 1067+2 1068+2 1069+2 1070+2 1071+2 1072+2 1073+2 1074+2 1075+2 1076+2 1077+2 1078+2 1079+2 1080+2 1081+2 1082+2 1083+2 1084+2 1085+2 1086
+										  -- 1086 1087 1088 1089 1090 ( 2024-12-07 13:35:40 )
+										  ++ 1090+2 1091+2 1092+2 1093+2 1094+2 ... 1326+2 1327
+										  -- 1327 1328 ( 2024-12-07 17:33:40 )
+										  ++ 1328+2 1329+2 1330+2 1331+2 1332+2 1333+2 ... 1426+2 1427+2 1428
+										  -- 1428 1429 1430 1431 1432 1433 ( 2024-12-07 19:18:40 )
+										  ++ 1433+2 1434+2 1435+2 1436+2 1437+2 1438+2 ... 1583+2 ( 2024-12-07 21:48:40 )
+										   + 1584+1 1585+1 1586+1 1587+1 1588+1 1589+1 1590+1 1591+1 
+										  ++ 1592+2 1593+2 
+										   + 1594+1
+										  ++ 1595+2 ... 1776+2 1777
+										  -- 1777 1778 1779 ( 2024-12-08 1:04:40 )
+										  ++ 1779+2 1780+2 1781+2 1782+2 1783+2 1784+2 ... 2127+2 2128
+										  -- 2128 2129 2130 2131 2132 ( 2024-12-08 6:57:40 )
+										  ++ 2132+2 2133+2 2134+2 2135+2 2136+2 2137+2 ... 2470+2 2471
+										  -- 2471 2472 2473 2474 2475 2476 ( 2024-12-08 12:41:40 )
+										  ++ 2476+2 2477+2 2478+2 2479+2 2480+2 2481+2 2482+2 ... 2815+2 2816
 										  -- 2816 2817 2818 2819 2820 2821 2822 ( 2024-12-08 18:27:40 )
 										  ++ 2822+2 2823+2 2824+2 2825+2 2826+2 2827+2 2828+2 ... 2993+2 ( 2024-12-08 21:18:40 )
 										   + 2994+1 2995+1 2996+1 2997+1 2998+1 2999+1 3000+1 3001+1
@@ -878,166 +915,137 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										   + 3027+1 3028+1 3029+1 3030+1
 										  ++ 3031+2 ... 3159+2 3160
 										  -- 3160 3161 3162 3163 ( 2024-12-09 00:08:40 )
+										  ++ 3163+2 3164+2 3165+2 3166+2 3167+2 3168+2 3169+2 ... 3493+2 3494
+										  -- 3494 3495 3496 3497 3498 ( 2024-12-09 5:43:40 )
+										  ++ 3498+2 3499+2 3500+2 3501+2 3502+2 3503+2 ... 3692+2 = 1733709460 
 										  ```
-								- Results in minutes
-								  collapsed:: true
-									- ```sh
-									  Monitoring host git1.lan.skygate.co.jp for A records
-									    from CNAME mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
-									   0
-									  ++ 0+2 1+2 2+2 3+2 4+2 5+2 6+2 7+2 8+2 9+2 10+2 11+2 12+2 13+2 14+2 15+2 16+2 17+2 18+2 19+2 20+2 21+2 22+2 23+2 24+2 25+2 26+2 27+2 28+2 29+2 30+2 31+2 32+2 33+2 34+2 35+2 36+2 37+2 38+2 39+2 40+2 41+2 42+2 43+2 44+2 45+2 46+2 47+2 48+2 49+2 50+2 51+2 52+2 53+2 54+2 55+2 56+2 57+2 58+2 59+2 60+2 61+2 62+2 63+2 64+2 65+2 66+2 67
-									  -- 67 68 69 70 71 72 ( 2024-12-06 20:37:40 )
-									  ++ 72+2 73+2 74+2 75+2 76+2 77+2 ... 109+2
-									   + 110+1 111+1 112+1 113+1 114+1 ( 2024-12-06 21:19:40 )
-									  ++ 115+2 ... 394+2 395
-									  -- 395 396 397 398 399 400 ( 2024-12-07 2:05:40 )
-									  ++ 400+2 401+2 402+2 403+2 404+2 405+2 ... 527+2 528
-									  -- 528 529 ( 024-12-07 4:14:40 )
-									  ++ 529+2 530+2 531+2 532+2 ... 737+2 738
-									  -- 738 739 740 ( 2024-12-07 7:45:40 )
-									  ++ 740+2 741+2 742+2 743+2 ... 899+2 900
-									  -- 900 901 ( 2024-12-07 10:26:40 )
-									  ++ 901+2 902+2 903+2 904+2 905+2 906+2 907+2 908+2 909+2 910+2 911
-									  -- 911 912 ( 024-12-07 10:37:40 )
-									  ++ 912+2 913+2 914+2 915+2 916+2 917+2 918+2 919+2 920+2 921+2 922+2 923+2 924+2 925+2 926+2 927+2 928+2 929+2 930+2 931+2 932+2 933+2 934+2 935+2 936+2 937+2 938+2 939+2 940+2 941+2 942+2 943+2 944+2 945+2 946+2 947+2 948+2 949+2 950+2 951+2 952+2 953+2 954+2 955+2 956+2 957+2 958+2 959+2 960+2 961+2 962+2 963+2 964+2 965+2 966+2 967+2 968+2 969+2 970+2 971+2 972+2 973+2 974+2 975+2 976+2 977+2 978+2 979+2 980+2 981+2 982+2 983+2 984+2 985+2 986+2 987+2 988+2 989
-									  -- 989 990 ( 2024-12-07 11:55:40 )
-									  ++ 990+2 991
-									  -- 991 992 ( 2024-12-07 11:57:40 )
-									  ++ 992+2 993+2 994+2 995+2 996+2 997+2 998+2 999+2 1000+2 1001+2 1002+2 1003+2 1004+2 1005+2 1006+2 1007+2 1008+2 1009+2 1010+2 1011+2 1012+2 1013+2 1014+2 1015+2 1016+2 1017+2 1018+2 1019+2 1020+2 1021+2 1022+2 1023+2 1024+2 1025+2 1026+2 1027+2 1028+2 1029+2 1030+2 1031+2 1032+2 1033+2 1034+2 1035+2 1036+2 1037+2 1038+2 1039+2 1040+2 1041+2 1042+2 1043+2 1044+2 1045+2 1046+2 1047+2 1048+2 1049+2 1050+2 1051+2 1052+2 1053+2 1054+2 1055+2 1056+2 1057+2 1058+2 1059+2 1060+2 1061+2 1062+2 1063+2 1064+2 1065+2 1066+2 1067+2 1068+2 1069+2 1070+2 1071+2 1072+2 1073+2 1074+2 1075+2 1076+2 1077+2 1078+2 1079+2 1080+2 1081+2 1082+2 1083+2 1084+2 1085+2 1086
-									  -- 1086 1087 1088 1089 1090 ( 2024-12-07 13:35:40 )
-									  ++ 1090+2 1091+2 1092+2 1093+2 1094+2 ... 1326+2 1327
-									  -- 1327 1328 ( 2024-12-07 17:33:40 )
-									  ++ 1328+2 1329+2 1330+2 1331+2 1332+2 1333+2 ... 1426+2 1427+2 1428
-									  -- 1428 1429 1430 1431 1432 1433 ( 2024-12-07 19:18:40 )
-									  ++ 1433+2 1434+2 1435+2 1436+2 1437+2 1438+2 ... 1583+2 ( 2024-12-07 21:48:40 )
-									   + 1584+1 1585+1 1586+1 1587+1 1588+1 1589+1 1590+1 1591+1 
-									  ++ 1592+2 1593+2 
-									   + 1594+1
-									  ++ 1595+2 ... 1776+2 1777
-									  -- 1777 1778 1779 ( 2024-12-08 1:04:40 )
-									  ++ 1779+2 1780+2 1781+2 1782+2 1783+2 1784+2 ... 2127+2 2128
-									  -- 2128 2129 2130 2131 2132 ( 2024-12-08 6:57:40 )
-									  ++ 2132+2 2133+2 2134+2 2135+2 2136+2 2137+2 ... 2470+2 2471
-									  -- 2471 2472 2473 2474 2475 2476 ( 2024-12-08 12:41:40 )
-									  ++ 2476+2 2477+2 2478+2 2479+2 2480+2 2481+2 2482+2 ... 2815+2 2816
-									  -- 2816 2817 2818 2819 2820 2821 2822 ( 2024-12-08 18:27:40 )
-									  ++ 2822+2 2823+2 2824+2 2825+2 2826+2 2827+2 2828+2 ... 2993+2 ( 2024-12-08 21:18:40 )
-									   + 2994+1 2995+1 2996+1 2997+1 2998+1 2999+1 3000+1 3001+1
-									  ++ 3002+2 3003+2 3004+2 3005+2 3006+2 3007+2 3008+2 3009+2 3010+2 3011+2 3012+2
-									   + 3013+1 3014+1 3015+1 3016+1
-									  ++ 3017+2 3018+2 3019+2 3020+2 3021+2 3022+2 3023+2 3024+2 3025+2 3026+2
-									   + 3027+1 3028+1 3029+1 3030+1
-									  ++ 3031+2 ... 3159+2 3160
-									  -- 3160 3161 3162 3163 ( 2024-12-09 00:08:40 )
-									  ++ 3163+2 3164+2 3165+2 3166+2 3167+2 3168+2 3169+2 ... 3493+2 3494
-									  -- 3494 3495 3496 3497 3498 ( 2024-12-09 5:43:40 )
-									  ++ 3498+2 3499+2 3500+2 3501+2 3502+2 3503+2 ... 3692+2 = 1733709460 
-									  ```
-							- Monitor IPs of CNAMEs with ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh)
-								- Only GitLab IPs are updated.
-								- IP update pattern: around **21h** ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night, the IPs are updated and _**unstable** in around 1 hour_.
-								  id:: 675653ab-ea7c-4d8b-8ef6-a378591b6443
-									- ```sh
-									  179 180 181 182 183 184 185 ..... 1642 1643 ( 2 minutes to 1 day )
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:45:22
-									    3.113.184.150
-									  1644 1645 1646 1647 1648 1649 1650 1651 ( 2 to 10 minutes )
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:53:23
-									    3.113.184.150
-									    3.115.119.69
-									  ```
-								- Results in minutes
-								  collapsed:: true
-									- ```sh
-									  Monitoring hosts:
-									    mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
-									    mgmt-repo1-clb-243604401.ap-northeast-1.elb.amazonaws.com
-									    mgmt-tools-alb-1633637944.ap-northeast-1.elb.amazonaws.com
-									  0 1 2 3 4 5 6 7 8 9 10 ... 173 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-06_21:10:17
-									    3.115.119.69
-									  174 175 176 177 178 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-06_21:15:18
-									    3.113.184.150
-									    3.115.119.69
-									  179 180 181 182 183 184 185 ..... 1642 1643 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:45:22
-									    3.113.184.150
-									  1644 1645 1646 1647 1648 1649 1650 1651 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:53:23
-									    3.113.184.150
-									    3.115.119.69
-									  1652 1653 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:55:24
-									    3.113.184.150
-									  1654 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:56:24
-									    3.113.184.150
-									    54.199.144.98
-									  1655 1656 1657 1658 1659 1660 ... 3049 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:16:09
-									    3.113.184.150
-									  3050 3051 3052 3053 3054 3055 3056 3057 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:24:10
-									    3.113.184.150
-									    54.199.144.98
-									  3058 3059 3060 3061 3062 3063 3064 3065 3066 3067 3068 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:35:13
-									    3.113.184.150
-									  3069 3070 3071 3072 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:39:14
-									    3.113.184.150
-									    54.199.144.98
-									  3073 3074 3075 3076 3077 3078 3079 3080 3081 3082 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:49:16
-									    54.199.144.98
-									  3083 3084 3085 3086 
-									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:53:16
-									    3.113.184.150
-									    54.199.144.98
-									  3087 3088 3089 3090 3091 3092 ...
-									  
-									  
-									  ```
-						- with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`
-							- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
-				- `dig git1.lan.skygate.co.jp` without `CNAME`
-					- showing `SOA` (`AUTHORITY`) record
-					  id:: 67515558-ad0b-4605-a785-13ce84c60442
-					  collapsed:: true
-						- id:: 67514436-ddef-49ab-b794-f26686b572b2
-						  ```scheme
-						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
-						  ;; global options: +cmd
-						  ;; Got answer:
-						  ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7564
-						  ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
-						  
-						  ;; OPT PSEUDOSECTION:
-						  ; EDNS: version: 0, flags:; udp: 1232
-						  ; COOKIE: 7f7484304144a3db01000000675140d16726b2ae31a10949 (good)
-						  ;; QUESTION SECTION:
-						  ;git1.lan.skygate.co.jp.		IN	A
-						  
-						  ;; AUTHORITY SECTION:
-						  skygate.co.jp.		204	IN	SOA	ns-1303.awsdns-34.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 300
-						  ```
-					- showing `A` record when setting IP directly (copied from `mgmt-gitlab-clb-1008603512`)
+								- Monitor IPs of CNAMEs with ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh)
+									- Only GitLab IPs are updated.
+									- IP update pattern: around **21h** ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night, the IPs are updated and _**unstable** in around 1 hour_.
+									  id:: 675653ab-ea7c-4d8b-8ef6-a378591b6443
+										- ```sh
+										  179 180 181 182 183 184 185 ..... 1642 1643 ( 2 minutes to 1 day )
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:45:22
+										    3.113.184.150
+										  1644 1645 1646 1647 1648 1649 1650 1651 ( 2 to 10 minutes )
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:53:23
+										    3.113.184.150
+										    3.115.119.69
+										  ```
+									- Results in minutes
+									  collapsed:: true
+										- ```sh
+										  Monitoring hosts:
+										    mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
+										    mgmt-repo1-clb-243604401.ap-northeast-1.elb.amazonaws.com
+										    mgmt-tools-alb-1633637944.ap-northeast-1.elb.amazonaws.com
+										  0 1 2 3 4 5 6 7 8 9 10 ... 173 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-06_21:10:17
+										    3.115.119.69
+										  174 175 176 177 178 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-06_21:15:18
+										    3.113.184.150
+										    3.115.119.69
+										  179 180 181 182 183 184 185 ..... 1642 1643 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:45:22
+										    3.113.184.150
+										  1644 1645 1646 1647 1648 1649 1650 1651 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:53:23
+										    3.113.184.150
+										    3.115.119.69
+										  1652 1653 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:55:24
+										    3.113.184.150
+										  1654 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-07_21:56:24
+										    3.113.184.150
+										    54.199.144.98
+										  1655 1656 1657 1658 1659 1660 ... 3049 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:16:09
+										    3.113.184.150
+										  3050 3051 3052 3053 3054 3055 3056 3057 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:24:10
+										    3.113.184.150
+										    54.199.144.98
+										  3058 3059 3060 3061 3062 3063 3064 3065 3066 3067 3068 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:35:13
+										    3.113.184.150
+										  3069 3070 3071 3072 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:39:14
+										    3.113.184.150
+										    54.199.144.98
+										  3073 3074 3075 3076 3077 3078 3079 3080 3081 3082 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:49:16
+										    54.199.144.98
+										  3083 3084 3085 3086 
+										  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com:2024-12-08_21:53:16
+										    3.113.184.150
+										    54.199.144.98
+										  3087 3088 3089 3090 3091 3092 ...
+										  
+										  
+										  ```
+							- with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`
+							  collapsed:: true
+								- No apparent difference!
+								- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
+					- `dig git1.lan.skygate.co.jp` without `CNAME`
+						- showing `SOA` (`AUTHORITY`) record
+						  id:: 67515558-ad0b-4605-a785-13ce84c60442
+						  collapsed:: true
+							- id:: 67514436-ddef-49ab-b794-f26686b572b2
+							  ```scheme
+							  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+							  ;; global options: +cmd
+							  ;; Got answer:
+							  ;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7564
+							  ;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+							  
+							  ;; OPT PSEUDOSECTION:
+							  ; EDNS: version: 0, flags:; udp: 1232
+							  ; COOKIE: 7f7484304144a3db01000000675140d16726b2ae31a10949 (good)
+							  ;; QUESTION SECTION:
+							  ;git1.lan.skygate.co.jp.		IN	A
+							  
+							  ;; AUTHORITY SECTION:
+							  skygate.co.jp.		204	IN	SOA	ns-1303.awsdns-34.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 300
+							  ```
+						- showing `A` record when setting IP directly (copied from `mgmt-gitlab-clb-1008603512`)
+						  collapsed:: true
+							- ```scheme
+							  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+							  ;; global options: +cmd
+							  ;; Got answer:
+							  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25891
+							  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+							  
+							  ;; OPT PSEUDOSECTION:
+							  ; EDNS: version: 0, flags:; udp: 1232
+							  ;; QUESTION SECTION:
+							  ;git1.lan.skygate.co.jp.		IN	A
+							  
+							  ;; ANSWER SECTION:
+							  git1.lan.skygate.co.jp.	0	IN	A	3.115.124.176
+							  ```
+					- `dig mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com`
+					  id:: 675146f7-489d-42f9-8ba9-f2b71a222ec1
 					  collapsed:: true
 						- ```scheme
-						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> git1.lan.skygate.co.jp
+						  ; <<>> DiG 9.18.28-0ubuntu0.22.04.1-Ubuntu <<>> mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 						  ;; global options: +cmd
 						  ;; Got answer:
-						  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25891
-						  ;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+						  ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19784
+						  ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
 						  
 						  ;; OPT PSEUDOSECTION:
 						  ; EDNS: version: 0, flags:; udp: 1232
+						  ; COOKIE: c56b8d8d51904bb80100000067514100ea8c497ab05012df (good)
 						  ;; QUESTION SECTION:
-						  ;git1.lan.skygate.co.jp.		IN	A
+						  ;mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. IN	A
 						  
 						  ;; ANSWER SECTION:
-						  git1.lan.skygate.co.jp.	0	IN	A	3.115.124.176
+						  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 3.115.124.176
+						  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 54.199.127.69
 						  ```
 		- ### FreeDesktop/XDG
 		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
