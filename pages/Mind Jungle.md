@@ -863,6 +863,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
 						- [?] The `A` records sometimes appear but sometimes disappeared!?!
 							- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
+								- IP update pattern: around **21h** ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night, the IPs are updated and _**unstable** in around 1 hour_.
 								- Results in minutes
 								  collapsed:: true
 									- ```sh
@@ -902,12 +903,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  ++ 2822+3 2823+3 2824+3 2825+3 2826+3 2827+3 2828+3 ... 3159+3 3160
 									  -- 3160 3161 3162 3163
 									  ++ 3163+3 3164+3 3165+3 3166+3 3167+3 3168+3 3169 ... 3493+3 3494
-									  -- 3494 3495 3496 3497 3498
-									  ++ 3498+3 3499+3 3500+3 3501+3 3502+3 3503 ... 3692+3 = 1733709460 (2024-12-09 08:57:40)
+									  -- 3494 3495 3496 3497 3498 ( 2024-12-09 5:43:40 )
+									  ++ 3498+3 3499+3 3500+3 3501+3 3502+3 3503 ... 3692+3 = 1733709460 
 									  ```
 							- Monitor IPs of CNAMEs with ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh)
 								- Only GitLab IPs are updated.
-								- IP update pattern: around 21h ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night
+								- IP update pattern: around **21h** ([ICT](https://en.wikipedia.org/wiki/UTC%2B07:00)) each night, the IPs are updated and _**unstable** in around 1 hour_.
 									- ```sh
 									  179 180 181 182 183 184 185 ..... 1642 1643 ( 2 minutes to 1 day )
 									  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com: 2024-12-07 21:45:22
