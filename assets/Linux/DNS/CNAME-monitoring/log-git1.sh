@@ -13,9 +13,9 @@ while true; do
         tail -n +2 | sort | awk -F '[[:blank:]]+' '{print $2" "$5}')
         # CNAME line is removed with `tail`, IP lines are `sort`ed 
         # TTL and IP fields are extracted with `awk`
-    IPn=0; TTL=''
+    IPn=0; TTL=''; mark=''
     if [[ -n "${IPs}" ]]; then  
-        IPn=$(wc -l <<< "${IPs}")
+        IPn=$(wc -l <<< "${IPs}"); mark="+${IPn}"
         TTL="_${IPs%% *}"
         IPs=$(printf "${IPs}" | cut -d ' ' -f 2) # keep only IP field
     fi
@@ -24,11 +24,11 @@ while true; do
         printf "${IPs}" > ${ipf}
         echo "${dt}:" ${IPs} >> ${logf}
         echo -e "\n${dt}"; [[ -n ${IPs} ]] && printf '  %s\n' ${IPs}
+        hmark='..'
         ( [[ ${IPn} -lt 1 ]] && hmark='--' ) || \
         ( [[ ${IPn} -lt 2 ]] && hmark=' +' ) || hmark='++'
         echo -en "${hmark} ${minute}" 
     fi
-    ( [[ ${IPn} -lt 1 ]] && mark='' ) || mark="+${IPn}"
     echo -n "${mark}${TTL}"
     ((minute++))
     sleep 1 #60
