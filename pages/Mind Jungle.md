@@ -877,7 +877,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  :LOGBOOK:
 							  CLOCK: [2024-12-09 Mon 13:44:32]
 							  :END:
-								-
+								- ⇒It's better to just set static IP in `hosts` file every day, instead of using the unstable `CNAME`.
 								- Monitor `dig git1.lan.skygate.co.jp` with ![log-git1.sh](../assets/Linux/DNS/CNAME-monitoring/log-git1.sh)
 									- IP down pattern: every 1-2 hours, the `git1` host is unresolved for 2-8 minutes.
 										- ```sh

@@ -13,7 +13,12 @@ while true; do
         tail -n +2 | sort | cut -d ' ' -f 2,4 | sed 's/\tIN//')
         # CNAME line is removed with `tail`, IP lines are `sort`ed 
         # TTL and IP fields are extracted with `cut` & `sed`
-    ( [[ -z "${IPs}" ]] && IPn=0 ) || IPn=$(wc -l <<< "${IPs}")
+    IPn=0; TTL=''
+    if [[ -n "${IPs}" ]]; then  
+        IPn=$(wc -l <<< "${IPs}")
+        TTL="_${IPs%% *}"
+        IPs=$(printf "${IPs}" | cut -d ' ' -f 2) # keep only IP field
+    fi
     oIPs=$(cat ${ipf})
     if [[ "${IPs}" != "${oIPs}" ]]; then
         printf "${IPs}" > ${ipf}
@@ -24,8 +29,8 @@ while true; do
         echo -en "${hmark} ${minute}" 
     fi
     ( [[ ${IPn} -lt 1 ]] && mark='' ) || mark="+${IPn}"
-    echo -n "${mark}"
+    echo -n "${mark}${TTL}"
     ((minute++))
-    sleep 60
+    sleep 1 #60
 done
 
