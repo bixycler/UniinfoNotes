@@ -32,11 +32,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :END:
 			- $φ_0⋅dr = d(r⋅φ)$
 			- $(φ_0 - φ)dr = r⋅dφ$
-			- $dφ/dr = (φ_0 - φ)/r$
+			- $dφ/dr = -(φ - φ_0)/r$
 			- $dφ'/dr = -φ'/r$   with   $φ' = φ - φ_0$
-			- $φ = c/r + φ_0$
+			- $φ' = c/r$   and   $φ = c/r + φ_0$
 			- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$.
 			- $dφ = c⋅d(1/r) = -c/r^2⋅dr$
+			- $dφ/dr = -(c/r + φ_0 - φ_0)/r = -(φ - φ_0)/r$
 		-
 		-
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
