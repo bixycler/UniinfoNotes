@@ -26,6 +26,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ...
 			- ------
+		- DOING Constant velocity in polar coordinates
+		  :LOGBOOK:
+		  CLOCK: [2024-12-12 Thu 11:35:12]
+		  :END:
+			- $dr = k⋅d(r⋅φ)$
+			- $(1 - k⋅φ)dr = k⋅r⋅dφ$
+			-
 		-
 		-
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
