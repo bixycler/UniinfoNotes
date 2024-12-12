@@ -42,6 +42,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ⇒ $dφ = r_0⋅d(1/r) = -r_0/r^2⋅dr$
 				- $dφ/dr = -(r_0/r + φ_0 - φ_0)/r = -(φ - φ_0)/r$   ⇔   [`[1]`](((675a6873-6404-4747-90b9-0d53436f0c62)))
 			- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$.
+				- Reciprocal spiral and [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral) are 2 in 5 cases of [Cotes's spiral](https://en.wikipedia.org/wiki/Cotes%27s_spiral)
 		-
 		-
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
