@@ -44,6 +44,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$.
 				- Reciprocal spiral and [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral) are 2 in 5 cases of [Cotes's spiral](https://en.wikipedia.org/wiki/Cotes%27s_spiral), which are trajectories of a particle moving under an _**inverse-cube** central force_.
 				- [Newton's theorem of revolving orbits](https://en.wikipedia.org/wiki/Newton's_theorem_of_revolving_orbits#Illustrative_example:_Cotes's_spirals)
+				- General formulae (general solutions of ODE) in [3 cases of Cotes's spiral](https://physics.stackexchange.com/a/596235)
 				- [Derivation of inverse-cube force from Logarithmic spiral trajectory](https://www.physicsforums.com/threads/central-force-on-a-particle-following-a-logarithmic-spiral.982655/)
 				- Dual between Hooke's law & Newton's law: [Planetary Motion and the Duality of Force Laws](https://www.researchgate.net/publication/228571130_Planetary_Motion_and_the_Duality_of_Force_Laws)
 		-
