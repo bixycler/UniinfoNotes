@@ -136,9 +136,29 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					- History of `feature` does not contain the 2 merged commits `G` & `H`
 					- The changes of `G` & `H` are included in `s2`.
 				- `work> git cherry-pick -m1 m2 > s1`: commit `s1` includes [changes of `F` relative to 1st parent `F`](((669f711c-67b5-4e6e-94c8-ac64e2bd861b)))
+			- Merge specific files (interactive checkout)
+			  `git checkout --patch ${branch} [--] ${file1}, ${file2}, ...`
+				- ((6758f04c-5604-475f-bf81-d9739200e4e6))
 		- Selectively add diff hunks (patches):   
 		  `git add --patch`  
 		  Use this to interactively search for appropriate diff hunks via `/`, then stage them with `y` or skip with `n`, or even manually edit hunks with `e`, and so on.
+			- List of commands, as shown in `INTERACTIVE MODE` > `patch` of `git help add`
+			  id:: 6758f04c-5604-475f-bf81-d9739200e4e6
+			  collapsed:: true
+				- `y`: **Yes**, stage this hunk
+				- `n`: **No**, do not stage this hunk
+				- `q`: **Quit**, do not stage this hunk or any of the remaining ones
+				- `a`: stage this hunk and **all** later hunks in the file
+				- `d`: **Don't** stage this hunk or any of the later hunks in the file
+				- `g`: select a hunk to **go** to
+				- `/`: **search** for a hunk matching the given regex
+				- `j`: leave this hunk undecided, see **next undecided** hunk
+				- `J`: leave this hunk undecided, see **next** hunk
+				- `k`: leave this hunk undecided, see **previous undecided** hunk
+				- `K`: leave this hunk undecided, see **previous** hunk
+				- `s`: **Split** the current hunk into smaller hunks
+				- `e`: manually **edit** the current hunk
+				- `?`: print **help**
 			- Other tools in the Debian package `patchutils`, like `grepdiff`, `filterdiff`.   
 			  ```
 			  git diff | grepdiff --output-matching=hunk <pattern>
