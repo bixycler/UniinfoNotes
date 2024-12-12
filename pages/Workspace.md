@@ -30,6 +30,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :LOGBOOK:
 		  CLOCK: [2024-12-12 Thu 11:35:12]
 		  :END:
+			- $dl = k⋅dr$   with   $l = r⋅ φ$   and   $k = φ_0$
 			- $φ_0⋅dr = d(r⋅φ)$
 			- $(φ_0 - φ)dr = r⋅dφ$
 			- $dφ/dr = -(φ - φ_0)/r$
