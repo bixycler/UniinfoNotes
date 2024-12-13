@@ -2544,7 +2544,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Dimensionality
 			- 0 = nondirectional = all directions = omnidirectional
 			  id:: 67505a65-19d8-415a-8b80-c955a8768647
-				- Zero identity: 0 (nondirectional **blob**) =
+				- Zero identity: 0 (nondirectional **blob**) = $-1 + 1 = -1 - 2 - 3 - ... - ∞ + 1 + 2 + 3 + ... + ∞$ (balanced infinite **structure**)
 			- 1 = nondimensional = dimensionless = all dimensions = omnidimensional
 			  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
 			  but usually confused with unidimensional
