@@ -3722,7 +3722,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-12-13 Fri 16:59:25]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((675c03d8-3185-41a8-9f98-e869fabec793)) is the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) folded and crumpled into an [omnidimensional](((67505a68-91b9-4abb-bf92-4dddad8c5803))) blob that contains all possible forms in any dimensional space.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((675c03d8-3185-41a8-9f98-e869fabec793)) is the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) folded and crumpled into a nondimensional & nondirectional blob that contains all possible forms in infinite dimensional space. That means the Omnithread is nondimensional & nondirectional, yet [omnidimensional](((67505a68-91b9-4abb-bf92-4dddad8c5803))) & [], as shown in the identity of the unit: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **volume**).
 				- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
 		-
 	- ## Universal Thread
