@@ -3037,7 +3037,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Moreover, the Trinion unifies the [emptiness](https://en.wikipedia.org/wiki/Śūnyatā) in the invisible world with the [infinity](https://en.wikipedia.org/wiki/Infinity) in the visible world, thus sometimes is denoted with a circled infinity symbol “♾”.
 				- The vacantism is also expressed in Dao De Jing as the following:
 					- > “The Way is vacant, yet never used up.  
-					  Immeasurable abyss it is, as the ancestor of all things!”_  
+					  Immeasurable abyss it is, as the ancestor of all things!”  
 					  「道沖而用之或不盈。  
 					  淵兮似萬物之宗。」
 					  
