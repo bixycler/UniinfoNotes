@@ -3729,7 +3729,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((675c03d8-3185-41a8-9f98-e869fabec793)) is the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) folded and crumpled into a nondimensional & nondirectional blob that contains all possible forms in infinite dimensional space. That means the Omnithread is nondimensional & nondirectional, yet [omnidimensional](((67505a68-91b9-4abb-bf92-4dddad8c5803))) & [omnidirectional](((67505a65-19d8-415a-8b80-c955a8768647))).
 					- For an ((669a2487-054d-4408-ae41-189e34af81a9)) (hypothetically) outside of the Omnifold, it can only see a ((66e43b94-9183-4d49-af85-8a7a1c194c12)) because all content of the Omnifold has been *abstracted*. This point shows its nondirectionality.
 					- When the outside ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) handles the point from the outside, it can only feels the “mass” of the Omnifold, which shows its nondimensionality.
-					- Only when the subject immerses
+					- Only when the subject involves in the Omnithread, can it experience dimensions of the Omnithread as volumes and structures of information, as well as directions of the Ω-thread as changes and motions.
+						- The information extraction through observation is called “**thread pulling**”.
+						- The construction of new forms to return back to the Omnithread through action is called “**thread spinning**”.
 				- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
 				- DOING Compared with other models of the Universe
 				  :LOGBOOK:
