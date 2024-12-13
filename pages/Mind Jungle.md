@@ -2542,11 +2542,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$.
 			- Extensive ($e$, $c$) - Intensive ($i$)
 		- Dimensionality
-			- 0 = all directions = omnidirectional
-			- 1 = all dimensions = omnidimensional, but usually confused with dimensionless or unidimensional
+			- 0 = nondirectional = all directions = omnidirectional
+			- 1 = nondimensionl = dimensionless = all dimensions = omnidimensional, but usually confused with unidimensional
 			  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
 			- The extent is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
 				- We don't use the term “scalar” (scaling ratio) to avoid confusion.
+				  collapsed:: true
 					- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
 					- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Uniinfo, but use “dimensionless” for clarity.
 			- The mass (amount of content) is nondirectional, a.k.a. “absolute value”.
