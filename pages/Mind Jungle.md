@@ -2543,14 +2543,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Extensive ($e$, $c$) - Intensive ($i$)
 		- Dimensionality
 			- 0 = nondirectional = all directions = omnidirectional
-			- 1 = nondimensional = dimensionless = all dimensions = omnidimensional, but usually confused with unidimensional
+			  id:: 67505a65-19d8-415a-8b80-c955a8768647
+				- Zero identity: 0 (nondirectional **blob**) =
+			- 1 = nondimensional = dimensionless = all dimensions = omnidimensional
 			  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
+			  but usually confused with unidimensional
+				- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **volume**)
 			- The extent is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
 				- We don't use the term “scalar” (scaling ratio) to avoid confusion.
 				  collapsed:: true
 					- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
 					- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Uniinfo, but use “dimensionless” for clarity.
-			- The mass (amount of content) is nondirectional, a.k.a. “absolute value”.
+			- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
 		- TODO Migrate [[CIE]]
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Why the intent is under the content in the division $c/i$:
@@ -3722,8 +3726,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-12-13 Fri 16:59:25]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((675c03d8-3185-41a8-9f98-e869fabec793)) is the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) folded and crumpled into a nondimensional & nondirectional blob that contains all possible forms in infinite dimensional space. That means the Omnithread is nondimensional & nondirectional, yet [omnidimensional](((67505a68-91b9-4abb-bf92-4dddad8c5803))) & [], as shown in the identity of the unit: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **volume**).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((675c03d8-3185-41a8-9f98-e869fabec793)) is the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) folded and crumpled into a nondimensional & nondirectional blob that contains all possible forms in infinite dimensional space. That means the Omnithread is nondimensional & nondirectional, yet [omnidimensional](((67505a68-91b9-4abb-bf92-4dddad8c5803))) & [omnidirectional](((67505a65-19d8-415a-8b80-c955a8768647))).
 				- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
+				- DOING Compared with other models of the Universe
+				  :LOGBOOK:
+				  CLOCK: [2024-12-13 Fri 18:37:00]
+				  :END:
+					- Block universe
+					- Bulk universe
 		-
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
