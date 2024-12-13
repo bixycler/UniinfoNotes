@@ -3707,11 +3707,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language, and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.
 				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology).
 				  id:: 6716110e-05cf-4cda-9bbd-c47fb74eba13
-				- DOING from Omnifold (nondimensional blob, dot), extend, project, extract to dimensions
-				  id:: 66ab774d-91d2-4c47-8546-78bb17e7e2bf
-				  :LOGBOOK:
-				  CLOCK: [2024-08-01 Thu 18:58:40]
-				  :END:
 				- DOING flow of transforms, implemented by projections
 				  id:: 66faa5fb-01ea-4623-abb2-caf34f0821d6
 				  :LOGBOOK:
@@ -3733,7 +3728,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The information extraction through observation is called “**thread pulling**”.
 						- The construction of new forms to return back to the Omnifold through action is called “**thread spinning**”.
 					- Different subjects pull out different Ω-threads from the same Omnifold, which are just different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same objects, as different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of the same content.
-						- For example, for a m × n table of Omnifold, one subject pull out
+					  collapsed:: true
+						- For example, for an Omnifold in the form of an $m × n$ table,
+							- one subject pulling out row by row will get the thread of $m$ rows, while
+							- the other subject pulling out column by column will get the thread of $n$ columns.
 					- Each subject uses the pulled out threads as contents to spin other threads as new forms, new folds of the Omnifold.
 				- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
 				- DOING Compared with other models of the Universe

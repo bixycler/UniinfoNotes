@@ -72,7 +72,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-08-23 Fri 12:16:43]
 		  :END:
 		-
-		- ((66ab774d-91d2-4c47-8546-78bb17e7e2bf)) < [](((66ab75a1-f4a0-4bab-a002-8e573546623a)) "description, 'title', notes, or anything else")
 		- ((667d202e-f401-46ba-ab32-c4fd77b49ab1))
 		- ((669f3107-a33a-4b26-a636-6da62fa5520e))
 			- ((669f243f-41b7-4274-b954-9824ec3ac33b))
