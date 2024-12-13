@@ -1326,6 +1326,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-12-12 Thu 11:35:12]
 	  :END:
 		- $dl = k⋅dr$   with   $l = r⋅ φ$   and   $k = φ_0$
+			- $k$ is the ratio between velocity in transverse direction and in radial direction.
+			- $\hat{φ} = (-\sin φ, \cos φ)$
 		- $φ_0⋅dr = d(r⋅φ)$
 			- $(φ_0 - φ)dr = r⋅dφ$
 			- $dφ/dr = -(φ - φ_0)/r$  `[1]`
