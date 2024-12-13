@@ -2543,7 +2543,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Extensive ($e$, $c$) - Intensive ($i$)
 		- Dimensionality
 			- 0 = nondirectional = all directions = omnidirectional
-			- 1 = nondimensionl = dimensionless = all dimensions = omnidimensional, but usually confused with unidimensional
+			- 1 = nondimensional = dimensionless = all dimensions = omnidimensional, but usually confused with unidimensional
 			  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
 			- The extent is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
 				- We don't use the term “scalar” (scaling ratio) to avoid confusion.
