@@ -1319,3 +1319,36 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- [Edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos), [Bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory), [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
 		- [Phase transition point](https://en.wikipedia.org/wiki/Phase_transition) in physics and [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
 		- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe.
+	- DOING Reciprocal spiral as the trajectory of a particle moving with constant velocity in the Cartesian plane of polar coordinates, a.k.a. “unwrapped polar grid”
+	  id:: 6735b189-867a-4eee-b5f5-3079bb3da458
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-12-12 Thu 11:35:12]
+	  :END:
+		- $dl = k⋅dr$   with   $l = r⋅ φ$   and   $k = φ_0$
+		- $φ_0⋅dr = d(r⋅φ)$
+			- $(φ_0 - φ)dr = r⋅dφ$
+			- $dφ/dr = -(φ - φ_0)/r$  `[1]`
+			  id:: 675a6873-6404-4747-90b9-0d53436f0c62
+		- $dφ'/dr = -φ'/r$   with   $φ' = φ - φ_0$
+		- ⇒ $φ' = r_0/r$   and   $φ - φ_0 = r_0/r$   and   $(φ - φ_0)(r/r_0) = 1 = l_0$
+		- $φ' = 1/r'$   and   $φ'r' = 1 = l_0$    with    $r' = r/r_0$   and   $φ' = φ - φ_0$
+			- $φ = r_0/r + φ_0$   and    $r = r_0/(φ - φ_0)$
+			- ⇒ $dφ = r_0⋅d(1/r) = -r_0/r^2⋅dr$
+			- $dφ/dr = -(r_0/r + φ_0 - φ_0)/r = -(φ - φ_0)/r$   ⇔   [`[1]`](((675a6873-6404-4747-90b9-0d53436f0c62)))
+		- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$.
+			- The staggered starting marks of footraces on concentric circle lanes are on a reciprocal spiral.
+				- These runners are running “back” to the initial sync position, a.k.a. the “finish line”.
+				  collapsed:: true
+					- ![Men_200_m_French_Athletics_Championships_2013_t161532.jpg](../assets/Uniinfo/Unithread/Men_200_m_French_Athletics_Championships_2013_t161532.jpg)
+				- The particles in the phase circle (phase wheel, phase flower) are moving from the initial sync position (straight line at $t_0$), following the flow of time on concentric time circles, to form a reciprocal spiral at time $t$.
+			- Reciprocal spiral and [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral) are 2 in 5 cases of [Cotes's spiral](https://en.wikipedia.org/wiki/Cotes%27s_spiral), which are trajectories of a particle moving under an _**inverse-cube** central force_.
+			- [Newton's theorem of revolving orbits](https://en.wikipedia.org/wiki/Newton's_theorem_of_revolving_orbits#Illustrative_example:_Cotes's_spirals)
+			- General formulae (general solutions of ODE) in [3 cases of Cotes's spiral](https://physics.stackexchange.com/a/596235)
+			- Transform from general formulae to special ones
+				- [$a⋅e^x + b⋅e^x = c⋅cosh(x - x_0)$](https://math.stackexchange.com/a/2756157/1290859)
+				- $a⋅sinh(x) + b⋅cosh(x) = c⋅cosh(x - x_0)$
+				- $a⋅sin(x) + b⋅cos(x) = c⋅cos(x - x_0)$
+			- [Derivation of inverse-cube force from Logarithmic spiral trajectory](https://www.physicsforums.com/threads/central-force-on-a-particle-following-a-logarithmic-spiral.982655/)
+			- Dual between Hooke's law & Newton's law: [Planetary Motion and the Duality of Force Laws](https://www.researchgate.net/publication/228571130_Planetary_Motion_and_the_Duality_of_Force_Laws)
+	-

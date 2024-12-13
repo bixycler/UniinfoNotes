@@ -22,41 +22,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((6752f2ae-a019-400c-9a13-ede363f665ff))
 				- ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
 				- ((6756cbba-4326-499c-a1f1-296a36a14663))
+				- ((675c03d8-3185-41a8-9f98-e869fabec793))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- ((675c03d8-3185-41a8-9f98-e869fabec793))
+				- ((6735b189-867a-4eee-b5f5-3079bb3da458))
 				- ...
 			- ------
-		- DOING Constant velocity in polar coordinates
-		  :LOGBOOK:
-		  CLOCK: [2024-12-12 Thu 11:35:12]
-		  :END:
-			- $dl = k⋅dr$   with   $l = r⋅ φ$   and   $k = φ_0$
-			- $φ_0⋅dr = d(r⋅φ)$
-				- $(φ_0 - φ)dr = r⋅dφ$
-				- $dφ/dr = -(φ - φ_0)/r$  `[1]`
-				  id:: 675a6873-6404-4747-90b9-0d53436f0c62
-			- $dφ'/dr = -φ'/r$   with   $φ' = φ - φ_0$
-			- ⇒ $φ' = r_0/r$   and   $φ - φ_0 = r_0/r$   and   $(φ - φ_0)(r/r_0) = 1 = l_0$
-			- $φ' = 1/r'$   and   $φ'r' = 1 = l_0$    with    $r' = r/r_0$   and   $φ' = φ - φ_0$
-				- $φ = r_0/r + φ_0$   and    $r = r_0/(φ - φ_0)$
-				- ⇒ $dφ = r_0⋅d(1/r) = -r_0/r^2⋅dr$
-				- $dφ/dr = -(r_0/r + φ_0 - φ_0)/r = -(φ - φ_0)/r$   ⇔   [`[1]`](((675a6873-6404-4747-90b9-0d53436f0c62)))
-			- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$.
-				- The staggered starting marks of footraces on concentric circle lanes are on a reciprocal spiral.
-					- These runners are running “back” to the initial sync position, a.k.a. the “finish line”.
-					  collapsed:: true
-						- ![Men_200_m_French_Athletics_Championships_2013_t161532.jpg](../assets/Uniinfo/Unithread/Men_200_m_French_Athletics_Championships_2013_t161532.jpg)
-					- The particles in the phase circle (phase wheel, phase flower) are moving from the initial sync position (straight line at $t_0$), following the flow of time on concentric time circles, to form a reciprocal spiral at time $t$.
-				- Reciprocal spiral and [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral) are 2 in 5 cases of [Cotes's spiral](https://en.wikipedia.org/wiki/Cotes%27s_spiral), which are trajectories of a particle moving under an _**inverse-cube** central force_.
-				- [Newton's theorem of revolving orbits](https://en.wikipedia.org/wiki/Newton's_theorem_of_revolving_orbits#Illustrative_example:_Cotes's_spirals)
-				- General formulae (general solutions of ODE) in [3 cases of Cotes's spiral](https://physics.stackexchange.com/a/596235)
-				- Transform from general formulae to special ones
-					- [$a⋅e^x + b⋅e^x = c⋅cosh(x - x_0)$](https://math.stackexchange.com/a/2756157/1290859)
-					- $a⋅sinh(x) + b⋅cosh(x) = c⋅cosh(x - x_0)$
-					- $a⋅sin(x) + b⋅cos(x) = c⋅cos(x - x_0)$
-				- [Derivation of inverse-cube force from Logarithmic spiral trajectory](https://www.physicsforums.com/threads/central-force-on-a-particle-following-a-logarithmic-spiral.982655/)
-				- Dual between Hooke's law & Newton's law: [Planetary Motion and the Duality of Force Laws](https://www.researchgate.net/publication/228571130_Planetary_Motion_and_the_Duality_of_Force_Laws)
 		-
 		-
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
@@ -652,4 +623,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- `normalizeMardown(md, options...)` converts from Logseq markdown to common Markdown as return value.
 					- `restructureToFolderDiv()` restructures item lists to `<folder-div>`
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the [rabbit hole](((6735b189-a8b7-4ff3-b42a-c59f38a8334e))) of endless bugs and modifications
+		- Chat with Copilot to coin the term ((675c03d8-3185-41a8-9f98-e869fabec793)) for the blob of ((66ab75a1-f4a0-4bab-a002-8e573546623a))s.
+		  :LOGBOOK:
+		  CLOCK: [2024-12-13 Fri 20:39:05]
+		  CLOCK: [2024-12-13 Fri 20:39:12]--[2024-12-13 Fri 20:40:08] =>  00:00:56
+		  :END:
 		- ...
