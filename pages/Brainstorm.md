@@ -1338,7 +1338,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This plane is unwrapped directly from the wrapped plane without scaling.
 		- Case 1: $dl = k⋅dr = r⋅dφ$   with    $k = ω/v_r$
 			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $ω = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
-			- Note: This particle has *variant* velocity $v$ in the “wrapped object plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
+			- Note: The velocity of this particle is constant in both planes: $v = |\vec{v}| = const$ in “wrapped object plane” and $\vec{v_l} = (dl, dr)/dt = \overrightarrow{const}$ in “unwrapped linear plane”.
 		- $dl = k⋅dr$   with   $l = r⋅ φ$   and   $k = φ_0$
 			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
 			- Note: This particle has *variant* velocity $v$ in the “wrapped object plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
