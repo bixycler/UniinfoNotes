@@ -630,7 +630,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-12-13 Fri 20:39:12]--[2024-12-13 Fri 20:40:08] =>  00:00:56
 		  :END:
 		- ((6735b189-867a-4eee-b5f5-3079bb3da458))
-			- DONE Resolve the confusion between [transverse total arc in reciprocal spiral](((675fb739-c295-4d9d-b388-94d989dffc02))) and [transverse velocity in log spiral](((675c3e57-d3d2-4829-9b82-9f38eabbbf56)))
+		  collapsed:: true
+			- WAIT Resolve the confusion between [transverse total arc in reciprocal spiral](((675fb739-c295-4d9d-b388-94d989dffc02))) and [transverse velocity in log spiral](((675c3e57-d3d2-4829-9b82-9f38eabbbf56)))
 			  id:: 36499c7b-d58a-4eb5-a780-ad4afc813c64
 			  :LOGBOOK:
 			  CLOCK: [2024-12-16 Mon 17:29:54]

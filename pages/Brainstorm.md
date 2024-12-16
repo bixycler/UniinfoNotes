@@ -1319,11 +1319,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- [Edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos), [Bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory), [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
 		- [Phase transition point](https://en.wikipedia.org/wiki/Phase_transition) in physics and [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
 		- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe.
-	- DOING Spiral trajectories of a particle moving with constant velocity ...
+	- WAIT Spiral trajectories of a particle moving with constant velocity ...
 	  id:: 6735b189-867a-4eee-b5f5-3079bb3da458
 	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2024-12-12 Thu 11:35:12]
+	  CLOCK: [2024-12-12 Thu 11:35:12]--[2024-12-16 Mon 20:55:24] =>  105:20:12
 	  :END:
 		- Planes and [components]((https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus)) in polar plane
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
@@ -1333,7 +1333,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- arc from $(r_1, φ_1, t_1)$ to $(r_2, φ_2, t_2)$: $\overset{\curvearrowright}{s}(r_1, r_2) : d\overset{\curvearrowright}{s} = d\vec{r}$
 				- arc length:  $S(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = S(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
 				- radial component: $R(r_1, r_2) = \int_{r_1}^{r_2} \hat{r}d\vec{r} = \int_{r_1}^{r_2} dr = r_2 - r_1$
-				- transverse component: $L(φ_1, φ_2) = \int_{φ_1}^{φ_2} \hat{φ}d\vec{r}  = \int_{φ_1}^{φ_2} rdφ$
+				- WAIT transverse component: $L(φ_1, φ_2) = \int_{φ_1}^{φ_2} \hat{φ}d\vec{r}  = \int_{φ_1}^{φ_2} rdφ$
+				  :LOGBOOK:
+				  CLOCK: [2024-12-16 Mon 20:53:41]--[2024-12-16 Mon 20:53:42] =>  00:00:01
+				  :END:
 				- Note: the arc length is usually denoted by $L$, but here $L$ is preserved for transverse component.
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
@@ -1374,7 +1377,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- **Case 2**: $ds = k_s⋅dr$   with   $s = r⋅ φ$ ,    $k_s = φ_0$   and   $φ_0, v_r : const$
 		  id:: 675fb739-c295-4d9d-b388-94d989dffc02
 			- $k_s$ is the ratio of two components of the total arc $\overset{\curvearrowright}{s}$ between transverse direction $s = \overset{\curvearrowright}{s}\hat{φ}$ and radial direction $r = \overset{\curvearrowright}{s}\hat{r}$.
-				- Confusions of the differential transverse component $ds$ of the total arc $\overset{\curvearrowright}{s}$:
+				- WAIT Confusions of the differential transverse component $ds$ of the total arc $\overset{\curvearrowright}{s}$:
+				  :LOGBOOK:
+				  CLOCK: [2024-12-16 Mon 20:53:48]--[2024-12-16 Mon 20:53:49] =>  00:00:01
+				  :END:
 					- $ds$ can be easily confused with the transverse component $dl$ of the velocity $\vec{v}$ which is actually a subcomponent of $ds$: $ds = dl + φ⋅dr$.
 					- Otherwise, $ds$ can also be confused with the tangential component $|d\vec{r}| = |\vec{v}|dt$ of the velocity $\vec{v}$.
 			- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) is $\vec{v_l} = (dl, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction. Its trajectory there is a vertical line $l = l_0 = s_0 = r_0 ⋅ φ_0$.
