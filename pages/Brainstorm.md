@@ -1359,11 +1359,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- $k_s$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
 			- Note: This particle has *variant* velocity $v$ in the “wrapped object plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
 			- Differential equation:
-			- $φ_0⋅dr = d(r⋅φ)$
+				- $φ_0⋅dr = d(r⋅φ)$
 				- $(φ_0 - φ)dr = r⋅dφ$
 				- $dφ/dr = -(φ - φ_0)/r$  `[2]`
 				  id:: 675a6873-6404-4747-90b9-0d53436f0c62
-			- $dφ'/dr = -φ'/r$   with   $φ' = φ - φ_0$
+				- $dφ'/dr = -φ'/r$   with   $φ' = φ - φ_0$
 			- ⇒ $φ' = r_0/r$   and   $φ - φ_0 = r_0/r$   and   $(φ - φ_0)(r/r_0) = 1 = l_0$
 			- $φ' = 1/r'$   and   $φ'r' = 1 = l_0$    with    $r' = r/r_0$   and   $φ' = φ - φ_0$
 				- $φ = r_0/r + φ_0$   and    $r = r_0/(φ - φ_0)$
