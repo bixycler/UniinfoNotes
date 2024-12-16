@@ -1330,21 +1330,26 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}iφ = φ(-\sin φ, \cos φ)$   ;  $\hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dl = \hat{φ}⋅d\vec{r} = rdφ$
 			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
 			- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
-			- wrapped object plane: $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
+			- wrapped object plane
+			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
+			  $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
 				- This is the object plane where polar coordinates are normally embedded. It is the warped phase plane with the angular coordinate (phase $φ$) wrapped around and scaled down by the factor $r$ when $r$ approaches the pole.
-			- unwrapped phase plane: $P_φ(r, φ) = (φ, r)$
+			- unwrapped phase plane
+			  $P_φ(r, φ) = (φ, r)$
 				- This plane is unwrapped from the wrapped plane with the horizontal lines scaled up back to angular coordinate (phase $φ$).
-			- unwrapped linear plane: $P_l(r, φ) = (l, r)$
+			- unwrapped linear plane
+			  id:: 675f8af0-7b21-4483-908c-25ce0cec02cc
+			  $P_l(r, φ) = (l, r)$
 				- This plane is unwrapped directly from the wrapped plane without scaling.
-		- Case 0: $\vec{v} = \overrightarrow{const}$  in radial direction ($\vec{v} = \vec{v_r} = v⋅\hat{r}$)
+		- Case 0: $\vec{v} = v⋅\hat{r}$  in radial direction with $v = v_r : const$
 			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_l = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
 			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| = const$ in “wrapped object plane” and $\vec{v_l} = (dl, dr)/dt = \overrightarrow{const}$ in “unwrapped linear plane”.
 			- Differential equation:
 				- $dφ/dr = k/r$  `[1]`
 			- ⇒ $φ = k⋅\ln(r)$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
-		- Case 1: $dl = k⋅dr = r⋅dφ$   with    $k = v_l/v_r$
+		- Case 1: $dl = k⋅dr = r⋅dφ$   with    $k = v_l/v_r, v_l, v_r : const$
 			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_l = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
-			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| = const$ in “wrapped object plane” and $\vec{v_l} = (dl, dr)/dt = \overrightarrow{const}$ in “unwrapped linear plane”.
+			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| : const$ in ((675f8a74-7fef-4e88-a65e-856f5e494bb8)) and $\vec{v_l} = (dl, dr)/dt : \overrightarrow{const}$ in ((675f8af0-7b21-4483-908c-25ce0cec02cc)).
 			- Differential equation:
 				- $dφ/dr = k/r$  `[1]`
 			- ⇒ $φ = k⋅\ln(r)$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
