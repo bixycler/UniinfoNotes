@@ -1356,7 +1356,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- $(φ - φ_0)/v_l = \ln(r)/v_r$
 				- $r = \exp((φ - φ_0) ⋅ v_r/v_l)$
 				- Pitch angle: $α = \arctan(v_r/v_l): const$ , hence [equiangular spiral](https://www.mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
-				- Arc length: $L(r_1, r_2) = (r_2 - r_1) ⋅ \sqrt{}$
+				- Arc length: $L(r_1, r_2) = (r_2 - r_1) ⋅ \sqrt{v_l^2 + v_r^2}/v_r = (r_2 - r_1)/\sin(α)$
 		- **Case 2**: $ds = k_s⋅dr$   with   $s = r⋅ φ$ ,    $k_s = φ_0$   and   $φ_0, v_r : const$
 			- $k_s$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
 			- Note: This particle has *variant* velocity $v$ in the “wrapped object plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
@@ -1372,6 +1372,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- ⇒ $dφ = r_0⋅d(1/r) = -r_0/r^2⋅dr$
 				- $dφ/dr = -(r_0/r + φ_0 - φ_0)/r = -(φ - φ_0)/r$   ⇔   [`[2]`](((675a6873-6404-4747-90b9-0d53436f0c62)))
 			- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$.
+				- Sector area: $A(r_1, r_2) = ½ r_0(r_2 - r_1)$
 				- The staggered starting marks of footraces on concentric circle lanes are on a reciprocal spiral.
 					- These runners are running “back” to the initial sync position, a.k.a. the “finish line”.
 					  collapsed:: true
