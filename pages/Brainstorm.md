@@ -1355,8 +1355,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- ⇒ $φ = \ln(r)⋅v_l/v_r + φ_0$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
 				- $(φ - φ_0)/v_l = \ln(r)/v_r$
 				- $r = \exp((φ - φ_0) ⋅ v_r/v_l)$
-				- Pitch angle: $α = : const$ hence [equiangular spiral](https://www.mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
-				- Arc length: $L(r_1, r_2) = (r_2 - r_1)$
+				- Pitch angle: $α = \arctan(v_r/v_l): const$ , hence [equiangular spiral](https://www.mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
+				- Arc length: $L(r_1, r_2) = (r_2 - r_1) ⋅ \sqrt{}$
 		- **Case 2**: $ds = k_s⋅dr$   with   $s = r⋅ φ$ ,    $k_s = φ_0$   and   $φ_0, v_r : const$
 			- $k_s$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
 			- Note: This particle has *variant* velocity $v$ in the “wrapped object plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
