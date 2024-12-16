@@ -1342,17 +1342,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  id:: 675f8af0-7b21-4483-908c-25ce0cec02cc
 			  $P_l(r, φ) = (l, r)$
 				- This plane is unwrapped directly from the wrapped plane without scaling.
-		- Case 0: $dφ = k⋅dr$    with  $k = ω/v_r$   and  $ω, v_r : const$
+		- Case 0: $dφ = k_0⋅dr$    with  $k_0 = ω/v_r$   and  $ω, v_r : const$
 			- Property: The velocity of this particle in ((675f8b5a-dbce-4c3b-a111-3a2088b723a0)) is $\vec{v_φ} = (ω, v_r) : \overrightarrow{const}$.
 			- Differential equation:
 				- $dφ/dr = ω/v_r$  `[0]`
 			- ⇒ $φ/r = ω/v_r$  ; result is an [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral#Derivation_of_general_equation_of_spiral).
-		- Case 1: $dl = k⋅dr = r⋅dφ$   with    $k = v_l/v_r$   and  $v_l, v_r : const$
-			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_l = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
+		- Case 1: $dl = k_1⋅dr = r⋅dφ$   with    $k_1 = v_l/v_r$   and  $v_l, v_r : const$
+			- $k_1$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_l = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
 			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| : const$ in ((675f8a74-7fef-4e88-a65e-856f5e494bb8)) and $\vec{v_l} = (dl, dr)/dt : \overrightarrow{const}$ in ((675f8af0-7b21-4483-908c-25ce0cec02cc)).
 			- Differential equation:
-				- $dφ/dr = k/r$  `[1]`
-			- ⇒ $φ = k⋅\ln(r)$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
+				- $dφ/dr = 1/r ⋅ v_l/v_r$  `[1]`
+			- ⇒ $φ = \ln(r)⋅v_l/v_r + φ_0$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
 		- Case 2: $dl = k⋅dr$   with   $l = r⋅ φ$   and   $k = φ_0$
 			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
 			- Note: This particle has *variant* velocity $v$ in the “wrapped object plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
