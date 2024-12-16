@@ -1364,7 +1364,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Confusions of the differential transverse component $ds$ of the total arc $\overset{\curvearrowright}{s}$:
 					- $ds$ can be easily confused with the transverse component $dl$ of the velocity $\vec{v}$ which is actually a subcomponent of $ds$: $ds = dl + φ⋅dr$.
 					- Otherwise, $ds$ can also be confused with the tangential component $|d\vec{r}| = |\vec{v}|dt$ of the velocity $\vec{v}$.
-			- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) is $\vec{v_l} = (dl, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction. Its trajectory there is a vertical line $l = s_0 = r_0 ⋅ φ_0$.
+			- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) is $\vec{v_l} = (dl, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction. Its trajectory there is a vertical line $l = l_0 = s_0 = r_0 ⋅ φ_0$.
 			- Differential equation:
 				- $φ_0⋅dr = d(r⋅φ)$
 				- $(φ_0 - φ)dr = r⋅dφ$
