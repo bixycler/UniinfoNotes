@@ -1360,10 +1360,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Arc length: $L(r_1, r_2) = (r_2 - r_1) ⋅ \sqrt{v_l^2 + v_r^2}/v_r = (r_2 - r_1)/\sin(α)$
 		- **Case 2**: $ds = k_s⋅dr$   with   $s = r⋅ φ$ ,    $k_s = φ_0$   and   $φ_0, v_r : const$
 		  id:: 675fb739-c295-4d9d-b388-94d989dffc02
-			- $k_s$ is the ratio of two components of the total arc $\int\vec{s}$ between transverse direction $s = \vec{s}\hat{φ}$ and radial direction $r = \vec{s}\hat{r}$.
-				- Confusions:
-					- When taking differential, the differential transverse component $ds$ of the total arc $\vec{s}$ can be easily confused with the transverse component $dl$ of the velocity $\vec{v}$ which is actually a subcomponent of $ds$: $ds = dl + φ⋅dr$.
-					- Otherwise, $ds$ can also be confused with the tangential component of the velocity $|d\vec{r}| = |\vec{v}|dt$
+			- $k_s$ is the ratio of two components of the total arc $\overset{\curvearrowright}{s}$ between transverse direction $s = \overset{\curvearrowright}{s}\hat{φ}$ and radial direction $r = \overset{\curvearrowright}{s}\hat{r}$.
+				- Confusions of the differential transverse component $ds$ of the total arc $\overset{\curvearrowright}{s}$:
+					- $ds$ can be easily confused with the transverse component $dl$ of the velocity $\vec{v}$ which is actually a subcomponent of $ds$: $ds = dl + φ⋅dr$.
+					- Otherwise, $ds$ can also be confused with the tangential component $|d\vec{r}| = |\vec{v}|dt$ of the velocity $\vec{v}$.
 			- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) is $\vec{v_l} = (dl, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction. Its trajectory there is a vertical line $l = s_0 = r_0 ⋅ φ_0$.
 			- Differential equation:
 				- $φ_0⋅dr = d(r⋅φ)$
