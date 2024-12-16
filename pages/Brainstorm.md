@@ -1331,9 +1331,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
 			- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
 			- arc from $(r_1, φ_1, t_1)$ to $(r_2, φ_2, t_2)$: $\overset{\curvearrowright}{s}(r_1, r_2) : d\overset{\curvearrowright}{s} = d\vec{r}$
-				- arc length:  $L(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = L(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
-				- radial component: $R(r_1, r_2) = \int_{r_1}^{r_2} \hat{r}d\overset{\curvearrowright}{s} = r_2 - r_1$
-				- transverse component: $S(r_1, r_2) = \int_{r_1}^{r_2} \hat{φ}d\overset{\curvearrowright}{s} = r_2 - r_1$
+				- arc length:  $S(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = S(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
+				- radial component: $R(r_1, r_2) = \int_{r_1}^{r_2} \hat{r}d\vec{r} = \int_{r_1}^{r_2} dr = r_2 - r_1$
+				- transverse component: $L(φ_1, φ_2) = \int_{φ_1}^{φ_2} \hat{φ}d\vec{r}  = \int_{φ_1}^{φ_2} rdφ$
+				- Note: the arc length is usually denoted by $L$, but here $L$ is preserved for transverse component.
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
 			  a.k.a. polar plane
