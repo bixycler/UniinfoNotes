@@ -1319,7 +1319,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- [Edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos), [Bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory), [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
 		- [Phase transition point](https://en.wikipedia.org/wiki/Phase_transition) in physics and [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
 		- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe.
-	- DOING Reciprocal spiral as the trajectory of a particle moving with constant velocity in the “unwrapped polar coordinate grid”, i.e. in the Cartesian plane of polar coordinates
+	- DOING Reciprocal spiral as the trajectory of a particle moving with constant velocity in the “unwrapped polar linear plane”
 	  id:: 6735b189-867a-4eee-b5f5-3079bb3da458
 	  collapsed:: true
 	  :LOGBOOK:
@@ -1332,7 +1332,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- transverse: $\hat{φ} = (-\sin φ, \cos φ)$   and    $dl = d\vec{r}\hat{φ}$
 			- wrapped plane: $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
 			- unwrapped linear plane: $P_l(r, φ) = (l, r)$
-			- Note: This particle has *variant* velocity $v$ in the object plane where polar coordinates are embedded, i.e. in the plane of “wrapped polar coordinate grid”, while having constant velocity $v_l = (dr, dl)/dt = const$ in the plane of “unwrapped polar coordinate grid”.
+				- This plane is unwrapped directly from the wrapped plane without scaling.
+			- unwrapped phase plane: $P_φ(r, φ) = (φ, r)$
+				- This plane is unwrapped with the horizontal lines scaled up to angular coordinate (phase φ).
+			- Note: This particle has *variant* velocity $v$ in the “wrapped plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
 		- $φ_0⋅dr = d(r⋅φ)$
 			- $(φ_0 - φ)dr = r⋅dφ$
 			- $dφ/dr = -(φ - φ_0)/r$  `[1]`
