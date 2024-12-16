@@ -1326,7 +1326,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-12-12 Thu 11:35:12]
 	  :END:
 		- Planes and components in object plane
-			- radial: $\vec{r} = r(\cos φ, \sin φ)$   ;   $\hat{r} = (\cos φ, \sin φ)$   and   $dr = d\vec{r}\hat{r}$
+			- radial: $\vec{r} = r(\cos φ, \sin φ) = r⋅\exp(iφ)$   ;   $\hat{r} = (\cos φ, \sin φ)$   and   $dr = d\vec{r}\hat{r}$
 			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
 			- transverse: $\hat{φ} = (-\sin φ, \cos φ)$   and    $dl = d\vec{r}\hat{φ} = rdφ$
 			- wrapped object plane: $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
