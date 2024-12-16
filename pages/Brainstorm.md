@@ -1353,6 +1353,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Differential equation:
 				- $dφ/dr = 1/r ⋅ v_l/v_r$  `[1]`
 			- ⇒ $φ = \ln(r)⋅v_l/v_r + φ_0$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
+				- $(φ - φ_0)/v_l = \ln(r)/v_r$
+				- $r = \exp((φ - φ_0) ⋅ v_r/v_l)$   is also called [equiangular spiral](https://www.mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
 		- Case 2: $dl = k⋅dr$   with   $l = r⋅ φ$   and   $k = φ_0$
 			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
 			- Note: This particle has *variant* velocity $v$ in the “wrapped object plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
