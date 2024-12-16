@@ -1360,8 +1360,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- **Case 2**: $ds = k_s⋅dr$   with   $s = r⋅ φ$ ,    $k_s = φ_0$   and   $φ_0, v_r : const$
 			- $k_s$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
 			- Note: This particle has *variant* velocity $v$ in the “wrapped object plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
-			- [?] The meaning of $s = r⋅ φ$ is difficult to be interpreted. Maybe it somehow relates to the sector area.
-			-
+			- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) $\vec{v_l} = (dl, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction.
 			- Differential equation:
 				- $φ_0⋅dr = d(r⋅φ)$
 				- $(φ_0 - φ)dr = r⋅dφ$
