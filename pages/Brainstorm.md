@@ -1325,7 +1325,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :LOGBOOK:
 	  CLOCK: [2024-12-12 Thu 11:35:12]
 	  :END:
-		- Planes and components in object plane
+		- Planes and [components]((https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus)) in object plane
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
 			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}iφ = φ(-\sin φ, \cos φ)$   ;  $\hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dl = \hat{φ}⋅d\vec{r} = rdφ$
 			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
@@ -1336,8 +1336,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This plane is unwrapped from the wrapped plane with the horizontal lines scaled up back to angular coordinate (phase $φ$).
 			- unwrapped linear plane: $P_l(r, φ) = (l, r)$
 				- This plane is unwrapped directly from the wrapped plane without scaling.
+		- Case 1: $dl = k⋅dr = r⋅dφ$   with   $l = r⋅ φ$   and   $k = φ_0$
+			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
+			- Note: This particle has *variant* velocity $v$ in the “wrapped object plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
 		- $dl = k⋅dr$   with   $l = r⋅ φ$   and   $k = φ_0$
-			- $k$ is the ratio of two components of velocity $\vec{v}$ between [transverse direction](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
+			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
 			- Note: This particle has *variant* velocity $v$ in the “wrapped object plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
 		- $φ_0⋅dr = d(r⋅φ)$
 			- $(φ_0 - φ)dr = r⋅dφ$
