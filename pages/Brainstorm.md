@@ -1330,7 +1330,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- radial: $\vec{r} = r(\cos φ, \sin φ)$   ;   $\hat{r} = (\cos φ, \sin φ)$   and   $dr = d\vec{r}\hat{r}$
 			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
 			- transverse: $\hat{φ} = (-\sin φ, \cos φ)$   and    $dl = d\vec{r}\hat{φ}$
-			- Note: This particle has *variant* velocity $v$ in the object plane where polar coordinates are embedded, i.e. in the plane of “wrapped polar coordinate grid”, while having constant velocity $v' = (dr, dl)/dt = const$ in the “unwrapped polar coordinate grid”.
+			- wrapped plane: $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
+			- unwrapped linear plane: $P_l(r, φ) = (l, r)$
+			- Note: This particle has *variant* velocity $v$ in the object plane where polar coordinates are embedded, i.e. in the plane of “wrapped polar coordinate grid”, while having constant velocity $v_l = (dr, dl)/dt = const$ in the plane of “unwrapped polar coordinate grid”.
 		- $φ_0⋅dr = d(r⋅φ)$
 			- $(φ_0 - φ)dr = r⋅dφ$
 			- $dφ/dr = -(φ - φ_0)/r$  `[1]`
