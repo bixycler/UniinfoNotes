@@ -1329,6 +1329,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
 			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}iφ = φ(-\sin φ, \cos φ)$   ;  $\hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dl = \hat{φ}⋅d\vec{r} = rdφ$
 			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
+			- forms of the : complex form $e^{iφ}$ = vector form $\vec{φ}$ = simple form $\mbold{φ}$
 			- wrapped object plane: $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
 				- This is the object plane where polar coordinates are normally embedded. It is the warped phase plane with the angular coordinate (phase $φ$) wrapped around and scaled down by the factor $r$ when $r$ approaches the pole.
 			- unwrapped phase plane: $P_φ(r, φ) = (φ, r)$
