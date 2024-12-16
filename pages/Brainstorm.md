@@ -1328,9 +1328,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- $dl = k⋅dr$   with   $l = r⋅ φ$   and   $k = φ_0$
 			- $k$ is the ratio of two components of velocity $\vec{v}$ between [transverse direction](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) $\vec{v}\hat{φ}$ and radial direction $\vec{v}\hat{r}$.
 			- radial: $\vec{r} = r(\cos φ, \sin φ)$   ;   $\hat{r} = (\cos φ, \sin φ)$   and   $dr = d\vec{r}\hat{r}$
-			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v$
+			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
 			- transverse: $\hat{φ} = (-\sin φ, \cos φ)$   and    $dl = d\vec{r}\hat{φ}$
-			- “Constant velocity” here does not mean $v = const$ but
+			- Note: This particle has *variant* velocity $v$ in polar “Constant velocity” here does not mean $v = const$ but
 		- $φ_0⋅dr = d(r⋅φ)$
 			- $(φ_0 - φ)dr = r⋅dφ$
 			- $dφ/dr = -(φ - φ_0)/r$  `[1]`
