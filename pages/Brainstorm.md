@@ -1330,9 +1330,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}iφ = φ(-\sin φ, \cos φ)$   ;  $\hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dl = \hat{φ}⋅d\vec{r} = rdφ$
 			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
 			- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
-			- arc from $(r_1, φ_1, t_1)$ to $(r_2, φ_2, t_2)$
+			- arc from $(r_1, φ_1, t_1)$ to $(r_2, φ_2, t_2)$: \overset{\curvearrowright}{s}(r_1, r_2)$
 				- arc length:  $L(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = L(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
-				-
+				- radial component:
+				- transverse component:
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
 			  a.k.a. polar plane
