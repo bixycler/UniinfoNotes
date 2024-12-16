@@ -1325,13 +1325,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :LOGBOOK:
 	  CLOCK: [2024-12-12 Thu 11:35:12]
 	  :END:
-		- Planes and [components]((https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus)) in object plane
+		- Planes and [components]((https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus)) in polar plane
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
 			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}iφ = φ(-\sin φ, \cos φ)$   ;  $\hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dl = \hat{φ}⋅d\vec{r} = rdφ$
 			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
 			- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
+			  a.k.a. polar plane
 			  $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
 				- This is the object plane where polar coordinates are normally embedded. It is the warped phase plane with the angular coordinate (phase $φ$) wrapped around and scaled down by the factor $r$ when $r$ approaches the pole.
 			- unwrapped phase plane
@@ -1346,7 +1347,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  :LOGBOOK:
 				  CLOCK: [2024-12-16 Mon 18:59:56]
 				  :END:
-				  initial/root phase, SCIFER mechanism, aliasing, ...
+				  initial/root phase $φ_0$ , SCIFER mechanism, aliasing, ...
 			- Relation between the two unwrapped planes
 				- $P(r, φ, l): l = r⋅φ$ is the surface combining 2 planes in the unwrapped space.
 		- **Case 0**: $dφ = k_φ⋅dr$    with  $k_φ = ω/v_r$   and  $ω, v_r : const$
