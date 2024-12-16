@@ -1331,10 +1331,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
 			- transverse: $\hat{φ} = (-\sin φ, \cos φ)$   and    $dl = d\vec{r}\hat{φ}$
 			- wrapped plane: $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
+				- This is the object plane where polar coordinates are normally embedded. It is wrapped by the scaling down of the angular coordinate (phase φ) by the factor $r$ when $r$ approaches the pole.
 			- unwrapped linear plane: $P_l(r, φ) = (l, r)$
 				- This plane is unwrapped directly from the wrapped plane without scaling.
 			- unwrapped phase plane: $P_φ(r, φ) = (φ, r)$
-				- This plane is unwrapped with the horizontal lines scaled up to angular coordinate (phase φ).
+				- This plane is unwrapped from the wrapped plane with the horizontal lines scaled up to angular coordinate (phase $φ$).
 			- Note: This particle has *variant* velocity $v$ in the “wrapped plane” where polar coordinates are normally embedded, while having constant velocity $v_l = (dr, dl)/dt = const$ in the “unwrapped linear plane”.
 		- $φ_0⋅dr = d(r⋅φ)$
 			- $(φ_0 - φ)dr = r⋅dφ$
