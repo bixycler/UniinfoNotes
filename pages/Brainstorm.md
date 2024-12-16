@@ -1342,6 +1342,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  id:: 675f8af0-7b21-4483-908c-25ce0cec02cc
 			  $P_l(r, φ) = (l, r)$
 				- This plane is unwrapped directly from the wrapped plane without scaling.
+				- WAIT A lot of magics in this plane: 
+				  :LOGBOOK:
+				  CLOCK: [2024-12-16 Mon 18:59:56]
+				  :END:
+			- Relation between the two unwrapped planes
+				- $P(r, φ, l): l = r⋅φ$ is the surface combining 2 planes in the unwrapped space.
 		- **Case 0**: $dφ = k_φ⋅dr$    with  $k_φ = ω/v_r$   and  $ω, v_r : const$
 			- Property: The velocity of this particle in ((675f8b5a-dbce-4c3b-a111-3a2088b723a0)) is $\vec{v_φ} = (dφ, dr)/dt = (ω, v_r) : \overrightarrow{const}$.
 			- Differential equation:
