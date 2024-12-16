@@ -1335,18 +1335,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
 				- This is the object plane where polar coordinates are normally embedded. It is the warped phase plane with the angular coordinate (phase $φ$) wrapped around and scaled down by the factor $r$ when $r$ approaches the pole.
 			- unwrapped phase plane
+			  id:: 675f8b5a-dbce-4c3b-a111-3a2088b723a0
 			  $P_φ(r, φ) = (φ, r)$
 				- This plane is unwrapped from the wrapped plane with the horizontal lines scaled up back to angular coordinate (phase $φ$).
 			- unwrapped linear plane
 			  id:: 675f8af0-7b21-4483-908c-25ce0cec02cc
 			  $P_l(r, φ) = (l, r)$
 				- This plane is unwrapped directly from the wrapped plane without scaling.
-		- Case 0: $\vec{v} = v⋅\hat{r}$  in radial direction with $v = v_r : const$
-			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_l = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
-			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| = const$ in “wrapped object plane” and $\vec{v_l} = (dl, dr)/dt = \overrightarrow{const}$ in “unwrapped linear plane”.
+		- Case 0: $dφ = k⋅dr$    with  $k = ω/v_r,  ω, v_r : const$
+			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| : const$ in ((675f8a74-7fef-4e88-a65e-856f5e494bb8)) and $\vec{v_r} : \overrightarrow{const}$ in ((675f8b5a-dbce-4c3b-a111-3a2088b723a0)).
 			- Differential equation:
 				- $dφ/dr = k/r$  `[1]`
-			- ⇒ $φ = k⋅\ln(r)$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
+			- ⇒ $φ = k⋅\ln(r)$  ; result is an [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral#Derivation_of_general_equation_of_spiral).
 		- Case 1: $dl = k⋅dr = r⋅dφ$   with    $k = v_l/v_r, v_l, v_r : const$
 			- $k$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_l = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
 			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| : const$ in ((675f8a74-7fef-4e88-a65e-856f5e494bb8)) and $\vec{v_l} = (dl, dr)/dt : \overrightarrow{const}$ in ((675f8af0-7b21-4483-908c-25ce0cec02cc)).
