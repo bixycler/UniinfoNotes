@@ -1348,6 +1348,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- $dφ/dr = ω/v_r$  `[0]`
 			- ⇒ $φ/r = ω/v_r$  ; result is an [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral#Derivation_of_general_equation_of_spiral).
 		- **Case 1**: $dl = k_l⋅dr = r⋅dφ$   with    $k_l = v_l/v_r$   and  $v_l, v_r : const$
+		  id:: 675c3e57-d3d2-4829-9b82-9f38eabbbf56
 			- $k_l$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_l = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
 			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| = \sqrt{v_l^2 + v_r^2} : const$ in ((675f8a74-7fef-4e88-a65e-856f5e494bb8)) and $\vec{v_l} = (dl, dr)/dt = (v_l, v_r) : \overrightarrow{const}$ in ((675f8af0-7b21-4483-908c-25ce0cec02cc)).
 			- Differential equation:
@@ -1358,8 +1359,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Pitch angle: $α = \arctan(v_r/v_l): const$ , hence [equiangular spiral](https://www.mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
 				- Arc length: $L(r_1, r_2) = (r_2 - r_1) ⋅ \sqrt{v_l^2 + v_r^2}/v_r = (r_2 - r_1)/\sin(α)$
 		- **Case 2**: $ds = k_s⋅dr$   with   $s = r⋅ φ$ ,    $k_s = φ_0$   and   $φ_0, v_r : const$
+		  id:: 675fb739-c295-4d9d-b388-94d989dffc02
 			- $k_s$ is the ratio of two components of the total arc $\int\vec{s}$ between transverse direction $s = \vec{s}\hat{φ}$ and radial direction $r = \vec{s}\hat{r}$.
-			- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) is $\vec{v_l} = (dl, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction. Its trajectory there is a vertical line $l = l_0 = r_0 ⋅ φ_0$.
+				- Note: When taking differential, the transverse component $ds$ of the total arc $\vec{s}$ can be easily confused with the transverse component $dl$ of the velocity $\vec{v}$ which is actually a subcomponent.
+			- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) is $\vec{v_l} = (dl, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction. Its trajectory there is a vertical line $l = s_0 = r_0 ⋅ φ_0$.
 			- Differential equation:
 				- $φ_0⋅dr = d(r⋅φ)$
 				- $(φ_0 - φ)dr = r⋅dφ$
