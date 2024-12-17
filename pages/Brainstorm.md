@@ -1388,7 +1388,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- [Intro to the Quantum Harmonic Oscillator in 9 Minutes]({{video https://youtu.be/RCIz2hdJQy0}})
 						  {{video https://youtu.be/RCIz2hdJQy0}}
 					- Parabolic rotation, the bridge between elliptic and hyperbolic rotations
+					  collapsed:: true
 						- See [planar algebras & kinematic geometries in non-Euclidean geometries](https://en.wikipedia.org/wiki/Non-Euclidean_geometry#Planar_algebras) with [split-complex number](https://en.wikipedia.org/wiki/Split-complex_number) and [dual number](https://en.wikipedia.org/wiki/Dual_number) as metrics other than the elliptic metric of [complex number](https://en.wikipedia.org/wiki/Complex_number).
+						- [ProjectiveGeometry-AlexanderI.Bobenko.pdf](../assets/geometry/ProjectiveGeometry-AlexanderI.Bobenko.pdf)
 						- [Planar rotations on Wikipedia](https://en.wikipedia.org/wiki/Linear_fractional_transformation#/media/File:Planar_rotations.png)
 						  ![Planar_rotations-elliptic-hyperbolic-parabolic.png](../assets/geometry/Planar_rotations-elliptic-hyperbolic-parabolic.png)
 					- The fractal nature of this plane is somehow related to the [Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) in hyperbolic geometry.
