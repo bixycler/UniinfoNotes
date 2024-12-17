@@ -1369,6 +1369,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  CLOCK: [2024-12-16 Mon 18:59:56]
 				  :END:
 				  initial/root phase $φ_0$ , SCIFER mechanism, aliasing, extensional space for function, hyperbolic rotation, ...
+					- This is similar to the time-frequency plane in Fourier transform.
+					  collapsed:: true
+						- ![Fourier-transform-time-frequency-square-wave-transparent.png](../assets/physics/Fourier-transform-time-frequency-square-wave-transparent.png)
+						- ![Fourier-transform-time-frequency-square-wave-1.png](../assets/physics/Fourier-transform-time-frequency-square-wave-1.png)
+						- [Animation on Wikipedia](https://en.wikipedia.org/wiki/Fourier_transform#/media/File:Fourier_transform_time_and_frequency_domains_(small).gif)
+						  ![Fourier_transform_time_and_frequency_domains.gif](../assets/physics/Fourier_transform_time_and_frequency_domains.gif)
+					- This is somehow related to the
 			- Relation between the two unwrapped planes
 				- $P(r, φ, τ): τ = r⋅φ$ is the surface combining 2 planes in the unwrapped space.
 		- **Case 0**: $dφ = k_φ⋅dr$    with  $k_φ = ω/v_r$   and  $ω, v_r : const$
