@@ -1368,7 +1368,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  :LOGBOOK:
 				  CLOCK: [2024-12-16 Mon 18:59:56]
 				  :END:
-				  initial/root phase $φ_0$ , SCIFER mechanism, aliasing, extensional space for function, hyperbolic rotation, ...
+				  initial/root phase $φ_0$ , SCIFER mechanism, aliasing, extensional space for function, hyperbolic rotation (actually parabolic rotation), ...
 					- 🌈Rainbow description 🏳️‍🌈
 					  collapsed:: true
 						- Let's consider a phase-color disk of radius 1 with a rainbow of colors spreading around from $φ = 0$ to $2π$.
