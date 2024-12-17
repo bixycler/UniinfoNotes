@@ -1333,9 +1333,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |d\vec{r}|$
 			- normal: $\hat{n} = \hat{l} × \hat{r}$
 			- arc from $(r_1, φ_1, t_1)$ to $(r_2, φ_2, t_2)$: $\overset{\curvearrowright}{s}(r_1, r_2) : d\overset{\curvearrowright}{s} = d\vec{r}$
-				- arc length:  $S(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = S(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
+				- arc length:  $L(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = L(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
 				- radial component: $R(r_1, r_2) = \int_{r_1}^{r_2} \hat{r}d\vec{r} = \int_{r_1}^{r_2} dr = r_2 - r_1$
-				- WAIT transverse component: $L(φ_1, φ_2) = \int_{φ_1}^{φ_2} \hat{φ}d\vec{r}  = \int_{φ_1}^{φ_2} rdφ$
+				- WAIT transverse component: $T(φ_1, φ_2) = \int_{φ_1}^{φ_2} \hat{φ}d\vec{r}  = \int_{φ_1}^{φ_2} rdφ = T(t_1, t_2) = \int_{t_1}^{t_2} dt = t_2 - t_1$
 				  :LOGBOOK:
 				  CLOCK: [2024-12-16 Mon 20:53:41]--[2024-12-16 Mon 20:53:42] =>  00:00:01
 				  :END:
