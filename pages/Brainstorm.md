@@ -1338,7 +1338,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  :LOGBOOK:
 				  CLOCK: [2024-12-16 Mon 20:53:41]--[2024-12-16 Mon 20:53:42] =>  00:00:01
 				  :END:
-				- Note: the arc length is usually denoted by $L$, but here $L$ is preserved for transverse component.
+				- Note:
+					- the arc length is usually denoted by $L$, but here $L$ is preserved for transverse component.
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
 			  a.k.a. polar plane
