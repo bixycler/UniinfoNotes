@@ -1325,7 +1325,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :LOGBOOK:
 	  CLOCK: [2024-12-12 Thu 11:35:12]--[2024-12-16 Mon 20:55:24] =>  105:20:12
 	  :END:
-		- Planes and [components]((https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus)) in polar plane
+		- Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
 			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{t} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dt = \hat{φ}⋅d\vec{r} = rdφ$
 				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{t} ⋅ \hat{r} = d\vec{φ} ⋅ \vec{φ}$
@@ -1340,8 +1340,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  CLOCK: [2024-12-16 Mon 20:53:41]--[2024-12-16 Mon 20:53:42] =>  00:00:01
 				  :END:
 				- Terminology notes:
-					- In other fields, there are different set of terms: (radial, transverse ~ tangential, normal) in polar  (radial, tangential, longitudinal) in wood anatomy
-					- the arc length is usually denoted by $L$, but here $L$ is preserved for transverse component.
+					- In different fields, there are different sets of terms: (radial, transverse ~ tangential, normal) in polar calculus ~ (radial, tangential, longitudinal) in wood anatomy ~ (radial, tangential, axial) in cylindrical analysis
+						- wood directions
+						  ![wood-directions.jpg](../assets/ecosystem/wood-directions.jpg)
+						- cylindrical directions
+						  ![cylinder-directions.png](../assets/physics/cylinder-directions.png)
+					- Because the arc length is usually denoted by $L$, here $l$ is used to denote the arc itself. $l$ can be
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
 			  a.k.a. polar plane
