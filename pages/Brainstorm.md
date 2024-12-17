@@ -1329,8 +1329,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
 			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{t} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dt = \hat{φ}⋅d\vec{r} = rdφ$
 				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{t} ⋅ \hat{r} = d\vec{φ} ⋅ \vec{φ}$
+				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
 			- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |\vec{r}|$
-			- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
+			- normal:
 			- arc from $(r_1, φ_1, t_1)$ to $(r_2, φ_2, t_2)$: $\overset{\curvearrowright}{s}(r_1, r_2) : d\overset{\curvearrowright}{s} = d\vec{r}$
 				- arc length:  $S(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = S(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
 				- radial component: $R(r_1, r_2) = \int_{r_1}^{r_2} \hat{r}d\vec{r} = \int_{r_1}^{r_2} dr = r_2 - r_1$
@@ -1338,7 +1339,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  :LOGBOOK:
 				  CLOCK: [2024-12-16 Mon 20:53:41]--[2024-12-16 Mon 20:53:42] =>  00:00:01
 				  :END:
-				- Note:
+				- Terminology notes:
+					- In other fields, there are different set of terms: (radial, transverse ~ tangential, normal) in polar  (radial, tangential, longitudinal) in wood anatomy
 					- the arc length is usually denoted by $L$, but here $L$ is preserved for transverse component.
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
