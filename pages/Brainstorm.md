@@ -1387,16 +1387,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- $r = \exp((φ - φ_0) ⋅ v_r/v_τ)$
 				- Pitch angle: $α = \arctan(v_r/v_τ): const$ , hence [equiangular spiral](https://www.mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
 				- Arc length: $L(r_1, r_2) = (r_2 - r_1) ⋅ \sqrt{v_τ^2 + v_r^2}/v_r = (r_2 - r_1)/\sin(α)$
-		- **Case 2**: $ds = k_s⋅dr$   with   $τ = r⋅ φ$ ,    $k_s = φ_0$   and   $φ_0, v_r : const$
+		- **Case 2**: $ds = k_l⋅dr$   with   $s = r⋅ φ$ ,    $k_l = φ_0$   and   $φ_0, v_r : const$
 		  id:: 675fb739-c295-4d9d-b388-94d989dffc02
-			- $k_s$ is the ratio of two components of the total arc $\overset{\curvearrowright}{s}$ between transverse direction $s = \overset{\curvearrowright}{s}\hat{φ}$ and radial direction $r = \overset{\curvearrowright}{s}\hat{r}$.
-				- WAIT Confusions of the differential transverse component $ds$ of the total arc $\overset{\curvearrowright}{s}$:
+			- $k_l$ is the ratio of two components of the total arc $\overset{\curvearrowright}{l}$ between transverse direction $s = \overset{\curvearrowright}{l}\hat{φ}$ and radial direction $r = \overset{\curvearrowright}{l}\hat{r}$.
+				- WAIT Confusions of the differential transverse component $ds$ of the total arc $\overset{\curvearrowright}{l}$:
 				  :LOGBOOK:
 				  CLOCK: [2024-12-16 Mon 20:53:48]--[2024-12-16 Mon 20:53:49] =>  00:00:01
 				  :END:
-					- $ds$ can be easily confused with the transverse component $dl$ of the velocity $\vec{v}$ which is actually a subcomponent of $ds$: $ds = dl + φ⋅dr$.
+					- $ds$ can be easily confused with the transverse component $dτ$ of the velocity $\vec{v}$ which is actually a subcomponent of $ds$: $ds = dτ + φ⋅dr$.
 					- Otherwise, $ds$ can also be confused with the tangential component $|d\vec{r}| = |\vec{v}|dt$ of the velocity $\vec{v}$.
-			- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) is $\vec{v_l} = (dl, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction. Its trajectory there is a vertical line $l = l_0 = s_0 = r_0 ⋅ φ_0$.
+			- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) is $\vec{v_τ} = (dτ, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction. Its trajectory there is a vertical line $τ = τ_0 = s_0 = r_0 ⋅ φ_0$.
 			- Differential equation:
 				- $φ_0⋅dr = d(r⋅φ)$
 				- $(φ_0 - φ)dr = r⋅dφ$
