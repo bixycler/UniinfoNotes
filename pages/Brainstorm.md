@@ -1328,11 +1328,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
 				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
-			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{t} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dt = \hat{φ}⋅d\vec{r} = rdφ$
-				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{t} ⋅ \hat{r} = \hat{φ} ⋅ \vec{φ} = d\vec{φ} ⋅ \vec{φ}$
+			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{τ} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dτ = \hat{φ}⋅d\vec{r} = rdφ$
+				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{τ} ⋅ \hat{r} = \hat{φ} ⋅ \vec{φ} = d\vec{φ} ⋅ \vec{φ}$
 			- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |d\vec{r}|$
-			- normal: $\hat{n} = \hat{r} × \hat{l} = \hat{r} × \hat{t}$
-				- 3D [orthonormal basis](https://en.wikipedia.org/wiki/Orthonormal_basis) (radial, transverse, normal): $\hat{r} = \hat{t} × \hat{n}$   ;   $\hat{t} = \hat{n} × \hat{r}$  ;   $\hat{n} = \hat{r} × \hat{t}$
+			- normal: $\hat{n} = \hat{r} × \hat{l} = \hat{r} × \hat{τ}$
+				- 3D [orthonormal basis](https://en.wikipedia.org/wiki/Orthonormal_basis) (radial, transverse, normal): $\hat{r} = \hat{τ} × \hat{n}$   ;   $\hat{τ} = \hat{n} × \hat{r}$  ;   $\hat{n} = \hat{r} × \hat{τ}$
 			- arc from $(r_1, φ_1, t_1)$ to $(r_2, φ_2, t_2)$: $\overset{\curvearrowright}{l}(r_1, r_2) : d\overset{\curvearrowright}{l} = d\vec{r}$
 				- arc length:  $L(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = L(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
 				- radial component: $R(r_1, r_2) = \int_{r_1}^{r_2} \hat{r}d\vec{r} = \int_{r_1}^{r_2} dr = r_2 - r_1$
@@ -1349,7 +1349,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  ![cylinder-directions.png](../assets/physics/cylinder-directions.png)
 					- Because the arc length is usually denoted by $L$, here $l$ is used to denote the arc itself. In this sense, $\hat{l}$ denotes the direction along the arc, hence “longitudinal” like [longitudinal wave](https://en.wikipedia.org/wiki/Longitudinal_wave). Don't confuse this “longitudinal” direction with wood's longitudinal direction along its axis.
 					- The term “transverse” is to the “radial” direction of the (light/view) rays emanating from the pole, not to the “tangetial/longitudinal” direction of the arc. This “transverse” is similar to the [“transversals” in perspective drawing](((673ab08d-2389-4306-a7ee-6970e17018c6))).
-					- Because the (radial, transverse) directions are also the (spatial, temporal) directions in SCIFER mechanism, $t$ is used to denote both transverse displacement and time. When time is separate from transverse displacement, $τ$ can be used to denote the transverse.
+					- In SCIFER mechanism, the (radial, transverse) directions are also the (spatial, temporal) directions, so the transverse component $τ$ is alsot the time $t$.
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
 			  a.k.a. polar plane
