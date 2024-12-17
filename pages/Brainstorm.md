@@ -1347,6 +1347,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- cylindrical directions
 						  ![cylinder-directions.png](../assets/physics/cylinder-directions.png)
 					- Because the arc length is usually denoted by $L$, here $l$ is used to denote the arc itself. In this sense, $\hat{l}$ denotes the direction along the arc, hence “longitudinal”. Don't confuse this “longitudinal” direction with wood's longitudinal direction along its axis.
+					-
+					- Because the (radial, transverse) directions are also the (spatial, temporal) directions in SCIFER mechanism, $t$ is used to denote both transverse displacement and time. When time is separate from transverse displacement, $τ$ can be used to denote transverse component.
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
 			  a.k.a. polar plane
