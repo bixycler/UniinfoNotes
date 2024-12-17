@@ -1327,8 +1327,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :END:
 		- Planes and [components]((https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus)) in polar plane
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
-			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dt = \hat{φ}⋅d\vec{r} = rdφ$
-				-
+			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{t} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dt = \hat{φ}⋅d\vec{r} = rdφ$
+				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{t} ⋅ \hat{r} = d\vec{φ} ⋅ \vec{φ}$
 			- tangential: $\vec{v} = d\vec{r}/dt$   and    $\hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$
 			- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
 			- arc from $(r_1, φ_1, t_1)$ to $(r_2, φ_2, t_2)$: $\overset{\curvearrowright}{s}(r_1, r_2) : d\overset{\curvearrowright}{s} = d\vec{r}$
