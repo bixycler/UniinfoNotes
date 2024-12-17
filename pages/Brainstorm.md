@@ -1360,7 +1360,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  id:: 675f8b5a-dbce-4c3b-a111-3a2088b723a0
 			  $P_φ(r, φ) = (φ, r)$
 				- This plane is unwrapped from the wrapped plane with the horizontal lines scaled up back to angular coordinate (phase $φ$).
-			- unwrapped linear plane
+			- unwrapped linear plane 
 			  id:: 675f8af0-7b21-4483-908c-25ce0cec02cc
 			  $P_τ(r, φ) = (τ, r)$
 				- This plane is unwrapped directly from the wrapped plane without scaling.
