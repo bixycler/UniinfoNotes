@@ -1326,6 +1326,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-12-12 Thu 11:35:12]--[2024-12-16 Mon 20:55:24] =>  105:20:12
 	  :END:
 		- Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane
+		  collapsed:: true
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
 				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
 			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{τ} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dτ = \hat{φ}⋅d\vec{r} = rdφ$
@@ -1333,10 +1334,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |d\vec{r}|$
 			- normal: $\hat{n} = \hat{r} × \hat{l} = \hat{r} × \hat{τ}$
 				- 3D [orthonormal basis](https://en.wikipedia.org/wiki/Orthonormal_basis) (radial, transverse, normal): $\hat{r} = \hat{τ} × \hat{n}$   ;   $\hat{τ} = \hat{n} × \hat{r}$  ;   $\hat{n} = \hat{r} × \hat{τ}$
-			- arc from $(r_1, φ_1, t_1)$ to $(r_2, φ_2, t_2)$: $\overset{\curvearrowright}{l}(r_1, r_2) : d\overset{\curvearrowright}{l} = d\vec{r}$
+			- arc from $(r_1, φ_1, τ_1, t_1)$ to $(r_2, φ_2, τ_2, t_2)$: $\overset{\curvearrowright}{l}(r_1, r_2) : d\overset{\curvearrowright}{l} = d\vec{r}$
 				- arc length:  $L(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = L(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
 				- radial component: $R(r_1, r_2) = \int_{r_1}^{r_2} \hat{r}d\vec{r} = \int_{r_1}^{r_2} dr = r_2 - r_1$
-				- WAIT transverse component: $T(φ_1, φ_2) = \int_{φ_1}^{φ_2} \hat{φ}d\vec{r}  = \int_{φ_1}^{φ_2} rdφ = T(t_1, t_2) = \int_{t_1}^{t_2} dt = t_2 - t_1$
+				- WAIT transverse component: $T(φ_1, φ_2) = \int_{φ_1}^{φ_2} \hat{φ}d\vec{r}  = \int_{φ_1}^{φ_2} rdφ = T(τ_1, τ_2) = \int_{τ_1}^{τ_2} dτ = τ_2 - τ_1$
 				  :LOGBOOK:
 				  CLOCK: [2024-12-16 Mon 20:53:41]--[2024-12-16 Mon 20:53:42] =>  00:00:01
 				  :END:
@@ -1361,7 +1362,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This plane is unwrapped from the wrapped plane with the horizontal lines scaled up back to angular coordinate (phase $φ$).
 			- unwrapped linear plane
 			  id:: 675f8af0-7b21-4483-908c-25ce0cec02cc
-			  $P_t(r, φ) = (t, r)$
+			  $P_τ(r, φ) = (τ, r)$
 				- This plane is unwrapped directly from the wrapped plane without scaling.
 				- WAIT A lot of magics in this plane: view cones, angle relative to 
 				  :LOGBOOK:
@@ -1369,24 +1370,24 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  :END:
 				  initial/root phase $φ_0$ , SCIFER mechanism, aliasing, extensional space for function, hyperbolic rotation, ...
 			- Relation between the two unwrapped planes
-				- $P(r, φ, t): t = r⋅φ$ is the surface combining 2 planes in the unwrapped space.
+				- $P(r, φ, τ): τ = r⋅φ$ is the surface combining 2 planes in the unwrapped space.
 		- **Case 0**: $dφ = k_φ⋅dr$    with  $k_φ = ω/v_r$   and  $ω, v_r : const$
 			- Property: The velocity of this particle in ((675f8b5a-dbce-4c3b-a111-3a2088b723a0)) is $\vec{v_φ} = (dφ, dr)/dt = (ω, v_r) : \overrightarrow{const}$.
 			- Differential equation:
 				- $dφ/dr = ω/v_r$  `[0]`
 			- ⇒ $φ/r = ω/v_r$  ; result is an [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral#Derivation_of_general_equation_of_spiral).
-		- **Case 1**: $dl = k_l⋅dr = r⋅dφ$   with    $k_l = v_l/v_r$   and  $v_l, v_r : const$
+		- **Case 1**: $dτ = k_τ⋅dr = r⋅dφ$   with    $k_τ = v_τ/v_r$   and  $v_τ, v_r : const$
 		  id:: 675c3e57-d3d2-4829-9b82-9f38eabbbf56
-			- $k_l$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_l = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
-			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| = \sqrt{v_l^2 + v_r^2} : const$ in ((675f8a74-7fef-4e88-a65e-856f5e494bb8)) and $\vec{v_l} = (dl, dr)/dt = (v_l, v_r) : \overrightarrow{const}$ in ((675f8af0-7b21-4483-908c-25ce0cec02cc)).
+			- $k_τ$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_τ = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
+			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| = \sqrt{v_l^2 + v_r^2} : const$ in ((675f8a74-7fef-4e88-a65e-856f5e494bb8)) and $\vec{v_τ} = (dτ, dr)/dt = (v_τ, v_r) : \overrightarrow{const}$ in ((675f8af0-7b21-4483-908c-25ce0cec02cc)).
 			- Differential equation:
-				- $dφ/dr = 1/r ⋅ v_l/v_r$  `[1]`
-			- ⇒ $φ = \ln(r)⋅v_l/v_r + φ_0$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
-				- $(φ - φ_0)/v_l = \ln(r)/v_r$
-				- $r = \exp((φ - φ_0) ⋅ v_r/v_l)$
-				- Pitch angle: $α = \arctan(v_r/v_l): const$ , hence [equiangular spiral](https://www.mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
-				- Arc length: $L(r_1, r_2) = (r_2 - r_1) ⋅ \sqrt{v_l^2 + v_r^2}/v_r = (r_2 - r_1)/\sin(α)$
-		- **Case 2**: $ds = k_s⋅dr$   with   $s = r⋅ φ$ ,    $k_s = φ_0$   and   $φ_0, v_r : const$
+				- $dφ/dr = 1/r ⋅ v_τ/v_r$  `[1]`
+			- ⇒ $φ = \ln(r)⋅v_τ/v_r + φ_0$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
+				- $(φ - φ_0)/v_τ = \ln(r)/v_r$
+				- $r = \exp((φ - φ_0) ⋅ v_r/v_τ)$
+				- Pitch angle: $α = \arctan(v_r/v_τ): const$ , hence [equiangular spiral](https://www.mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
+				- Arc length: $L(r_1, r_2) = (r_2 - r_1) ⋅ \sqrt{v_τ^2 + v_r^2}/v_r = (r_2 - r_1)/\sin(α)$
+		- **Case 2**: $ds = k_s⋅dr$   with   $τ = r⋅ φ$ ,    $k_s = φ_0$   and   $φ_0, v_r : const$
 		  id:: 675fb739-c295-4d9d-b388-94d989dffc02
 			- $k_s$ is the ratio of two components of the total arc $\overset{\curvearrowright}{s}$ between transverse direction $s = \overset{\curvearrowright}{s}\hat{φ}$ and radial direction $r = \overset{\curvearrowright}{s}\hat{r}$.
 				- WAIT Confusions of the differential transverse component $ds$ of the total arc $\overset{\curvearrowright}{s}$:
