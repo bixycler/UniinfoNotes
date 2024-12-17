@@ -1347,7 +1347,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- cylindrical directions
 						  ![cylinder-directions.png](../assets/physics/cylinder-directions.png)
 					- Because the arc length is usually denoted by $L$, here $l$ is used to denote the arc itself. In this sense, $\hat{l}$ denotes the direction along the arc, hence “longitudinal” like [longitudinal wave](https://en.wikipedia.org/wiki/Longitudinal_wave). Don't confuse this “longitudinal” direction with wood's longitudinal direction along its axis.
-					- The term “transverse” is to the “radial” direction of the (light/view) rays emanating from the pole, not to the “tangetial/longitudinal” direction of the arc.
+					- The term “transverse” is to the “radial” direction of the (light/view) rays emanating from the pole, not to the “tangetial/longitudinal” direction of the arc. This “transverse” is similar to the [“transversals” in perspective drawing](((673ab08d-2389-4306-a7ee-6970e17018c6))).
 					- Because the (radial, transverse) directions are also the (spatial, temporal) directions in SCIFER mechanism, $t$ is used to denote both transverse displacement and time. When time is separate from transverse displacement, $τ$ can be used to denote the transverse.
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
