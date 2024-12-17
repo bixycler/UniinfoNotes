@@ -1383,6 +1383,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- ![Fourier-transform-time-frequency-square-wave-1.png](../assets/physics/Fourier-transform-time-frequency-square-wave-1.png)
 						- [Animation on Wikipedia](https://en.wikipedia.org/wiki/Fourier_transform#/media/File:Fourier_transform_time_and_frequency_domains_(small).gif)
 						  ![Fourier_transform_time_and_frequency_domains.gif](../assets/physics/Fourier_transform_time_and_frequency_domains.gif)
+						- [Animation of wave packet on Wikipedia](https://en.wikipedia.org/wiki/Group_velocity#/media/File:Wavepacket1.gif)
+						  ![Wavepacket-in-time-frequency-plane.gif](../assets/physics/Wavepacket-in-time-frequency-plane.gif)
+						- [Intro to the Quantum Harmonic Oscillator in 9 Minutes]({{video https://youtu.be/RCIz2hdJQy0}})
+						  {{video https://youtu.be/RCIz2hdJQy0}}
 					- The fractal nature of this plane is somehow related to the [Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) in hyperbolic geometry.
 			- Relation between the two unwrapped planes
 				- $P(r, φ, τ): τ = r⋅φ$ is the surface combining 2 planes in the unwrapped space.
