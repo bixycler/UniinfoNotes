@@ -1369,13 +1369,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  CLOCK: [2024-12-16 Mon 18:59:56]
 				  :END:
 				  initial/root phase $φ_0$ , SCIFER mechanism, aliasing, extensional space for function, hyperbolic rotation, ...
+					- 🌈Rainbow description 🏳️‍🌈
+					  collapsed:: true
+						- Let's consider a phase-color disk of radius 1 with a rainbow of colors spreading around from $φ = 0$ to $2π$.
+						- In the unwrapped phase plane of $P_φ(φ, r)$, we have a rectangular range $[0, 2π]×[0, 1]$ with the rainbow spreading from left to right and uniformly from top to bottom (the whole column $φ = φ_k$ have the same color).
+						- In the unwrapped linear plane of $P_τ(τ, r)$, we have a rectangular range $[0, 2π]×[0, 1]$ with the very intricate display of color:
+							- At the top line $r = 1$, we have 1 rainbow spreading from left to right, similar to the unwrapped phase plane.
+							- At the middle line $r = 1/2$, we have 2 rainbows spreading from the left edge to the middle then from the middle to the right edge.
+							- Futher down, at each line $r = 1/n$, we have $n$ rainbows. And in between, we have transitional (non-whole) numbers of rainbows.
 					- This is similar to the time-frequency plane in Fourier transform.
 					  collapsed:: true
 						- ![Fourier-transform-time-frequency-square-wave-transparent.png](../assets/physics/Fourier-transform-time-frequency-square-wave-transparent.png)
 						- ![Fourier-transform-time-frequency-square-wave-1.png](../assets/physics/Fourier-transform-time-frequency-square-wave-1.png)
 						- [Animation on Wikipedia](https://en.wikipedia.org/wiki/Fourier_transform#/media/File:Fourier_transform_time_and_frequency_domains_(small).gif)
 						  ![Fourier_transform_time_and_frequency_domains.gif](../assets/physics/Fourier_transform_time_and_frequency_domains.gif)
-					- This is somehow related to the
+					- The fractal nature of this plane is somehow related to the [Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) in hyperbolic geometry.
 			- Relation between the two unwrapped planes
 				- $P(r, φ, τ): τ = r⋅φ$ is the surface combining 2 planes in the unwrapped space.
 		- **Case 0**: $dφ = k_φ⋅dr$    with  $k_φ = ω/v_r$   and  $ω, v_r : const$
