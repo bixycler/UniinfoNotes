@@ -1329,9 +1329,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
 				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
 			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{t} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dt = \hat{φ}⋅d\vec{r} = rdφ$
-				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{t} ⋅ \hat{r} = d\vec{φ} ⋅ \vec{φ}$
-			- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |\vec{r}|$
-			- normal:
+				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{t} ⋅ \hat{r} = \hat{φ} ⋅ \vec{φ} = d\vec{φ} ⋅ \vec{φ}$
+			- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |d\vec{r}|$
+			- normal: $\hat{n} = \hat{l} × \hat{r}$
 			- arc from $(r_1, φ_1, t_1)$ to $(r_2, φ_2, t_2)$: $\overset{\curvearrowright}{s}(r_1, r_2) : d\overset{\curvearrowright}{s} = d\vec{r}$
 				- arc length:  $S(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = S(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
 				- radial component: $R(r_1, r_2) = \int_{r_1}^{r_2} \hat{r}d\vec{r} = \int_{r_1}^{r_2} dr = r_2 - r_1$
