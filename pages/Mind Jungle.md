@@ -6108,6 +6108,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 676539ca-ff29-4749-ab33-b00dfe8fb936
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Pendulum_wave
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((676539ca-ff29-4749-ab33-b00dfe8fb936)) is a physics toy using spatial [aliasing](https://en.wikipedia.org/wiki/Aliasing#Sampling_sinusoidal_functions) to demonstrate the ((66c30b69-5b96-4793-bcce-bce51553a454)) of various types of waveforms in a simple array of uncoupled [simple pendulums](https://en.wikipedia.org/wiki/Simple_pendulum) with [monotonically](https://en.wikipedia.org/wiki/Monotonic) increasing lengths: from travelling waves, [standing waves](https://en.wikipedia.org/wiki/Standing_wave), to [beats](https://en.wikipedia.org/wiki/Beat_(acoustics)), and random motions.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((676539ca-ff29-4749-ab33-b00dfe8fb936)) is a physics toy using spatial [aliasing](https://en.wikipedia.org/wiki/Aliasing#Sampling_sinusoidal_functions) to demonstrate the ((66c30b69-5b96-4793-bcce-bce51553a454)) of various types of waveforms in a simple array of uncoupled [simple pendulums](https://en.wikipedia.org/wiki/Simple_pendulum) with [monotonically](https://en.wikipedia.org/wiki/Monotonic) increasing lengths: from travelling waves, [standing waves](https://en.wikipedia.org/wiki/Standing_wave), to [beats](https://en.wikipedia.org/wiki/Beat_(acoustics)), and [chaos](https://en.wikipedia.org/wiki/Chaos_theory).
+			- Aliasing as well as  is the basic
 			- This aliasing can also be in in [oscilloscope](https://en.wikipedia.org/wiki/Oscilloscope).
 -
