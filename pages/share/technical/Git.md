@@ -97,7 +97,10 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		  `git {diff,show,log} --{name-{only,status},stat}`
 			- `--name-status` -> `{A,D,M,R}  file-path [new-file-path]` for {Add, Delete, Modify, Rename}
 			- `--stat` -> `[trimmed-]file-path | change-num ++---` with file path trimmed off left side to fit the screen width, and with visually friendly syntax for file rename `{old-dir => new-dir}/{old-filename => new-filename}`.
-		- Log history
+			- `--word-diff` → `[-removed-]{+added+}` output word-by-word where "word" is defined as `\S+`, i.e. non-space string, which is coarser than the normal word.
+			- `--color-words='(\w+|\W+)'` = `--word-diff=color --word-diff-regex='(\w+|\W+)'` to highlight changed words using only colors, without markups like `[-...-]{+...+}`.
+				- Use the regex `(\w+|\W+)`, instead of the default (empty)=`\S+`, to separate joined words like `object.field` or comma-separated list like `QP,CI,SK|AA`.
+		- History log & blame
 			- Linear history of this branch only
 			  ```sh
 			  git log --first-parent
@@ -106,6 +109,17 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  ```sh
 			  git log --graph
 			  ```
+			- Edit history of lines in a file
+			  collapsed:: true
+			  ```sh
+			  git blame [-L 100,+10]  [hash0rcommit^] [--] path/to/file.md
+			  ```
+				- Range with `-L $start`, `-L ,$end`, `-L $start,$end`
+					- Both `$start` and `$end` can be a line number or a `/regex/`
+					- `$end` can be `+offset` or `-offset`
+				- Revision `$rev` can be given to blame edits from that `$rev` up, instead of from now (working directory).
+					- Usually we use `$rev^` to find edits *before* `$rev` to trace back the history.
+				- Many options for output format: `-s -b -w --date=human -M --color-lines --color-by-age`
 		- Push another branch, not the current:   
 		  `git push <repo> <another_branch>`
 		- Force pull: To overwrite this branch with its upstream, from the common base, don't use the misleading `git pull --force` because it's only [`git fetch --force`](https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/#the-other-git-pull-force).  

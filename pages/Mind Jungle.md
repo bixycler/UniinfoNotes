@@ -6104,4 +6104,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ```sh
 		  d2 -w -l tala -d --pad 10 --force-appendix temp.d2 temp.svg
 		  ```
+	- ## pendulum wave
+	  id:: 676539ca-ff29-4749-ab33-b00dfe8fb936
+	  collapsed:: true
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Pendulum_wave
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 -
