@@ -3292,10 +3292,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### φ-abstraction
 		  phase abstraction
 			- tube ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
-		- ### ε-abstraction
-			- ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
 		- ### ω-abstraction
 			- circle winding projection
+		- ### ε-abstraction
+			- ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
 	- ## name
 	  id:: 665cab38-f8e8-472e-b0a1-60776d492835
 	  collapsed:: true
