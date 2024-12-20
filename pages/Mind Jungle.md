@@ -3289,7 +3289,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Abstraction
 		  id:: 6716110e-5f12-4484-97ca-fde30d4ff0d3
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537674-6cf9-4459-8bea-7c1858c694a3)) is the process of abstracting details, i.e. removing details that are irrelevant to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s focus, from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)).
-		-
+		- ### φ-abstraction
+		  phase abstraction
+			- tube ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
+		- ### ε-abstraction
+			- ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
+		- ### ω-abstraction
+			- circle winding projection
 	- ## name
 	  id:: 665cab38-f8e8-472e-b0a1-60776d492835
 	  collapsed:: true
@@ -6109,6 +6115,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Pendulum_wave
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((676539ca-ff29-4749-ab33-b00dfe8fb936)) is a physics toy using spatial [aliasing](https://en.wikipedia.org/wiki/Aliasing#Sampling_sinusoidal_functions) to demonstrate the ((66c30b69-5b96-4793-bcce-bce51553a454)) of various types of waveforms in a simple array of uncoupled [simple pendulums](https://en.wikipedia.org/wiki/Simple_pendulum) with [monotonically](https://en.wikipedia.org/wiki/Monotonic) increasing lengths: from travelling waves, [standing waves](https://en.wikipedia.org/wiki/Standing_wave), to [beats](https://en.wikipedia.org/wiki/Beat_(acoustics)), and [chaos](https://en.wikipedia.org/wiki/Chaos_theory).
-			- Aliasing as well as the [Gestalt priciple of continuation](https://en.wikipedia.org/wiki/Principles_of_grouping#Good_continuation) is the basic connection in ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), particularly shown in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism.
+			- Aliasing as well as the [Gestalt priciple of continuation](https://en.wikipedia.org/wiki/Principles_of_grouping#Good_continuation) is the basic connection in ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), particularly shown as the circle ((66537674-6cf9-4459-8bea-7c1858c694a3)) in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism.
 			- This aliasing can also be in in [oscilloscope](https://en.wikipedia.org/wiki/Oscilloscope).
 -
