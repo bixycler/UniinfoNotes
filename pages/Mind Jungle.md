@@ -2579,7 +2579,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
 				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced  “cipher” /ˈsaɪfə/.
 				- Duals: form-content, sustent-extent, intent-extent, extent-phase
-					- phase = 1/extent
+					- extent-phase: the intent sees the _**extent** of the **content**_, as it looks up, and the _**phase** of the **remainder**_, as it looks down.
+						- extent = content/intent
+						- phase = remainder/intent = intent'/content' = 1/extent'
+							- Etymology: “phase” is from from the Greek word “phásis” (φάσις) meaning “appearance” of the Moon and
 				- Formulae
 					- $c = e × i + r = f + r$;   $f = e × i$;   $(c, i, r) = (s_0, s_1, s_2)$;   $c/i = [e_0; e_1, e_2, ...]$
 						- [regular continued fraction](https://mathworld.wolfram.com/RegularContinuedFraction.html) & [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
