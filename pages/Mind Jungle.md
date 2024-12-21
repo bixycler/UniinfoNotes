@@ -2578,7 +2578,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) theory, ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
 			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
 				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced  “cipher” /ˈsaɪfə/.
-				- Duals: form-content, sustent-extent
+				- Duals: form-content, sustent-extent, intent-extent, extent-phase
+					- phase = 1/extent
 				- Formulae
 					- $c = e × i + r = f + r$;   $f = e × i$;   $(c, i, r) = (s_0, s_1, s_2)$;   $c/i = [e_0; e_1, e_2, ...]$
 						- [regular continued fraction](https://mathworld.wolfram.com/RegularContinuedFraction.html) & [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
@@ -2598,7 +2599,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 						- Vertical layout (better for handwriting)
 						  ```
-						  			 c = i⋅e + r
+						  			 c = i⋅e + r  = f + r
 						  	s0       c0
 						  	—— = e0   
 						  f0  s1       c1  i0
@@ -4585,6 +4586,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- then `file mode bits` was [moved](https://github.com/bixycler/UniinfoNotes/commit/e6d0f7279ee9b3a80e952f92d172eaefa03d0fab "16:24:44 commit e6d0f727") to `concepts` with [drag & drop](((6716110e-51bb-40b2-b98c-503061212007)));
 									- then somehow the id of `file mode bits` was removed in [commit 762e2c90c](https://github.com/bixycler/UniinfoNotes/commit/762e2c90c9ffff2519dc5a2b1f7942727f5fcbcc "17:04:44").
 							- DONE [!] Failure in `assets-exist-and-are-used`: the file `Logseq publish.edn` is "unused"
+							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2024-12-03 Tue 17:46:05]
 							  CLOCK: [2024-12-03 Tue 17:46:07]--[2024-12-03 Tue 17:55:25] =>  00:09:18
@@ -5564,7 +5566,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
 				- Supports [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64).
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
-		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =>  71:47:28
