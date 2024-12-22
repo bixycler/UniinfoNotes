@@ -1393,10 +1393,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- [ProjectiveGeometry-AlexanderI.Bobenko.pdf](../assets/geometry/ProjectiveGeometry-AlexanderI.Bobenko.pdf)
 						- [Planar rotations on Wikipedia](https://en.wikipedia.org/wiki/Linear_fractional_transformation#/media/File:Planar_rotations.png)
 						  ![Planar_rotations-elliptic-hyperbolic-parabolic.png](../assets/geometry/Planar_rotations-elliptic-hyperbolic-parabolic.png)
-					- The fractal nature of this plane is somehow related to the [Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) in hyperbolic geometry, which hosts the [modular group](https://en.wikipedia.org/wiki/Modular_group) $SL(2, \Z)$ including [modular forms](https://en.wikipedia.org/wiki/Modular_form) and [elliptic functions](https://en.wikipedia.org/wiki/Elliptic_functions).
+					- The fractal nature of this plane is somehow related to the [Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) in hyperbolic geometry, which hosts the [modular group](https://en.wikipedia.org/wiki/Modular_group) $SL(2, \Z)$ including [modular forms](https://en.wikipedia.org/wiki/Modular_form) and [elliptic functions](https://en.wikipedia.org/wiki/Elliptic_functions), via [Möbius transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation).
+					  id:: 6766ea7c-3eb8-4463-9a79-d66509daf176
 					  collapsed:: true
 						- The correspondence between modular forms and elliptic curves is the first bridge “harmonic anlysis - number theory” in the [Langlands program](https://en.wikipedia.org/wiki/Langlands_program).
-							- Langlands program - [The Biggest Project in Modern Mathematics](https://youtu.be/_bJeKUosqoY)
+						  collapsed:: true
+							- Video: Langlands program - [The Biggest Project in Modern Mathematics](https://youtu.be/_bJeKUosqoY)
+							  collapsed:: true
 								- {{video https://youtu.be/_bJeKUosqoY}}
 							- Note: the Langlands program can be confused with the [Erlangen program](https://en.wikipedia.org/wiki/Erlangen_program) earlier by Klein to characterize [geometries](https://en.wikipedia.org/wiki/Geometry) based on [group theory](https://en.wikipedia.org/wiki/Group_theory) and [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry).
 							- The Langlands program is interesting, but i have to little math knowledge to grasp the lots of complicated formalisms there!
