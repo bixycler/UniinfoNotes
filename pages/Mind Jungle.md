@@ -2583,7 +2583,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 						- extent = content/intent
 						- phase = remainder/intent = intent'/content' = 1/extent'
-							- Etymology: “phase” is from from the Greek word “phásis” (φάσις) meaning “appearance” of the Moon, planets and celestial bodies.
+							- Etymology: “phase” is from from the Greek word “phásis” (φάσις) meaning “appearance” of the Moon, planets and celestial bodies in general.
 							- [Antikythera mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism) calculating cosmos phases.
 				- Formulae
 					- $c = e × i + r = f + r$;   $f = e × i$;   $(c, i, r) = (s_0, s_1, s_2)$;   $c/i = [e_0; e_1, e_2, ...]$
