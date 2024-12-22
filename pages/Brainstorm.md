@@ -1402,7 +1402,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							  collapsed:: true
 								- {{video https://youtu.be/_bJeKUosqoY}}
 							- Note: the Langlands program can be confused with the [Erlangen program](https://en.wikipedia.org/wiki/Erlangen_program) earlier by Klein to characterize [geometries](https://en.wikipedia.org/wiki/Geometry) based on [group theory](https://en.wikipedia.org/wiki/Group_theory) and [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry).
-							- The Langlands program is interesting, but i have to little math knowledge to grasp the lots of complicated formalisms there!
+							- [!] The Langlands program is interesting, but i have too little math knowledge to grasp the lots of complicated formalisms there!
 							- In 2024, the [geometric Langlands correspondence](https://en.wikipedia.org/wiki/Geometric_Langlands_correspondence) has been [proven by a group of mathematicians](https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/) over the course of three decades.
 						- [?] Is there some relation with the [law of (quadratic) reciprocity](https://en.wikipedia.org/wiki/Quadratic_reciprocity)?
 						-
