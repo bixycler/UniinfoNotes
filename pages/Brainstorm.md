@@ -1461,14 +1461,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- $a⋅sin(x) + b⋅cos(x) = c⋅cos(x - x_0)$
 				- [Derivation of inverse-cube force from Logarithmic spiral trajectory](https://www.physicsforums.com/threads/central-force-on-a-particle-following-a-logarithmic-spiral.982655/)
 				- Dual between Hooke's law & Newton's law: [Planetary Motion and the Duality of Force Laws](https://www.researchgate.net/publication/228571130_Planetary_Motion_and_the_Duality_of_Force_Laws)
-	- DOING The feeling, emotion is difficult to release due to its subtlety
+	- DOING The feeling, emotion is difficult to release due to its subtlety.
+	  id:: 675c399e-06a9-4c00-91a2-f2340a3a9bac
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-12-23 Mon 15:26:30]
 	  CLOCK: [2024-12-23 Mon 15:26:35]
 	  :END:
-		- subtle → elusive and controls the body-mind deep from inside.
+		- subtle → elusive and master in controling the body-mind deep from inside.
 		- It's just a driving force with no clear feature, hence logic is renderd useless.
+		- The [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the underlying tendency/feeling is the driving force of all actions.
 		- Actually, it's a condensate from lots of concrete incidences. The current feeling is just a rising of the underlying condensate due to some trigger.
 		- Breathing is the best way to release emotions.
-			- With conscious
+			- With concetrated observation, the conscious breath can effectively cleanse the underlying condensate.
