@@ -1461,12 +1461,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- $a⋅sin(x) + b⋅cos(x) = c⋅cos(x - x_0)$
 				- [Derivation of inverse-cube force from Logarithmic spiral trajectory](https://www.physicsforums.com/threads/central-force-on-a-particle-following-a-logarithmic-spiral.982655/)
 				- Dual between Hooke's law & Newton's law: [Planetary Motion and the Duality of Force Laws](https://www.researchgate.net/publication/228571130_Planetary_Motion_and_the_Duality_of_Force_Laws)
-	- DOING The feeling, emotion is difficult to release due to its subtlety.
+	- The feeling, emotion is difficult to release due to its subtlety.
 	  id:: 675c399e-06a9-4c00-91a2-f2340a3a9bac
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-12-23 Mon 15:26:30]
-	  CLOCK: [2024-12-23 Mon 15:26:35]
+	  CLOCK: [2024-12-23 Mon 15:26:35]--[2024-12-23 Mon 16:12:23] =>  00:45:48
 	  :END:
 		- subtle → elusive and master in controling the body-mind deep from inside.
 		- It's just a driving force with no clear feature, hence logic is renderd useless.
@@ -1476,6 +1476,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The “threshold people” have various subtle but deep feelings driving their life deep from within.
 			- The role of normal people is to work, while the role of threshold people is to resolve the conflicts between these deep feelings.
 		- Conscious breathing is the best way to release & resolve emotions.
-			- With concetrated observation, the conscious breath can effectively cleanse the underlying condensate.
+			- With concetrated observation, the conscious breath can effectively cleanse and transform the underlying condensate.
 			- My tendency is toward resolution more than releasing. It makes me suffer longer with attachments.
-			- So the
+			- So the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique is essential for me to transform and resolve them.
