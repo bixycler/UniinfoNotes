@@ -1470,7 +1470,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  :END:
 		- subtle → elusive and master in controling the body-mind deep from inside.
 		- It's just a driving force with no clear feature, hence logic is renderd useless.
-		- The [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the underlying tendency/feeling is the driving force of all actions.
-		- Actually, it's a condensate from lots of concrete incidences. The current feeling is just a rising of the underlying condensate due to some trigger.
+			- The [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the underlying tendency/feeling is the driving force of all actions.
+			- Actually, it's a ((671e2782-2098-41a3-83a7-e042bfb468d7)) from lots of concrete incidences. The current feeling is just a rising of the underlying condensate due to some trigger.
+			- Normal people “surfing on the surface”, while meeting many incidences and accumulating emotions, their condenstates are not thick enough to interfere with their actions and decisions.
+			- The “threashold people” have various subtle but deep feelings
 		- Breathing is the best way to release emotions.
 			- With concetrated observation, the conscious breath can effectively cleanse the underlying condensate.
