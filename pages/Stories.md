@@ -681,6 +681,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2024-08-20 Tue 08:48:31]--[2024-08-20 Tue 08:48:57] =>  00:00:26
 		  :END:
 		- These days, thanks to [sinus-throat imflammation](((66e278f7-ce05-4017-99b7-ff69b6228382))), i've done longer series of ujjayi breathing, but doing it while working is still very far from possible!
+		- ((66c7f663-6ff0-4a6c-a5b4-99b3848a94db))
+		- ((66c7feaa-db1e-40ef-917d-be2a6efacdde))
+		- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
+		- New practice: ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
+		- First time [reset](((67445065-15b2-475e-a704-78f140d487af)))
 	- Today, August 17th, thanks to Ms. Thu, i've known about the [Aimesoft company](https://www.aimesoft.com/multimodalai.html) with ((66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa)).
 	  id:: 66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e
 	  collapsed:: true
@@ -717,7 +722,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  CLOCK: [2024-08-23 Fri 10:14:53]
 	  CLOCK: [2024-08-23 Fri 10:14:54]
 	  :END:
-	  Selfless = pure reflection of the object = no subjective force ~ scale relative = sensitive & adaptive to all scales --> contact down to the epsilon scale, seems to crease but actually still in touch, hence magical!
+	  Selfless = pure reflection of the object = no subjective force ~ scale relative = sensitive & adaptive to all scales --> contact down to the epsilon scale, seems to cease but actually still in touch, hence magical!
 		- the focus/concentration/samadhi increases sensitivity & fineness
 		- when the lower limit is coarse, the subject is insensitive
 			- => forcing if following the subjective experience
