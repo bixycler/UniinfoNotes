@@ -40,12 +40,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Bỗng mình thấy lại hình tượng con đĩ nhỏ làm bà mẹ đơn thân ôm cái bụng bầu đi lang thang chẳng nơi nào nhận....
 			- Thế là lần thứ 2 mình trào nước mắt quay lại khóc cho bản thân và những số phận của những cá nhân nhỏ bé (từ khi dậm chưn trên di-văng ở nhà hồi lớp 9 tuyên bố không khóc [tự ái cho bản thân] nữa.)
 				- Lần thứ 1 là đợt em nhập viện mổ ruột thừa, mình ở nhà xem thầy Minh Tuệ xong thì lan qua xem bộ phim tâm lý tình cảm ["Tiếng Sét Trong Mưa"](https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_s%C3%A9t_trong_m%C6%B0a)... và đã khóc ngất cho tất cả những mảnh đời đó, đi tâm hành lại, nhập lại tất cả các vai đó, từ Cậu 3 bạo lực đập đầu con ở tới con ở - mợ 3 Thị Bình, rồi thằng ở đợ Lũ, con ở Hiểm, bà hội đồng, v.v.
-	- DOING Last weekend, my wife caught a cold after some days relaxing, then hospitalized due to [lung abscess](https://en.wikipedia.org/wiki/Lung_abscess).
+	- DONE Last weekend, my wife caught a cold after some days relaxing, then hospitalized due to [lung abscess](https://en.wikipedia.org/wiki/Lung_abscess).
 	  id:: 66ab33e0-7646-4340-bdbc-28d581d1655d
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-08-01 Thu 15:06:06]--[2024-08-17 Sat 21:14:35] =>  390:08:29
-	  CLOCK: [2024-08-23 Fri 09:36:17]
+	  CLOCK: [2024-08-23 Fri 09:36:17]--[2024-12-23 Mon 08:27:36] =>  2926:51:19
 	  :END:
 		- Last week, i reminded her about nearly 1 year she has been lost in the unconscious flow, and put some pressure on her to relax and review.
 		  id:: 66ab357a-540a-4330-a5fe-b1a08d06eecc
@@ -97,6 +97,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) she hits to wall again when realizing that all previous expectations and believes about success and happiness are hard wrong which cannot be denied nor ignored anymore. That makes her feel so down and lifeless.
 			- I ask her to try the ujjayi breath, and it works perfectly.
+		- After many ups and downs, around Dec 15th, she went to Bình Thạnh hospital for checking, and her lung was shown clean.
+		  :LOGBOOK:
+		  CLOCK: [2024-12-23 Mon 08:27:33]
+		  :END:
 	- Cha Định phá lệ kể về 3 đời Giới - Định - Tuệ
 	  collapsed:: true
 	  :LOGBOOK:
