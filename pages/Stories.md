@@ -686,7 +686,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
 		- New practice: ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
 		- Last weekends, Dec 21-22, the first times i can [reset](((67445065-15b2-475e-a704-78f140d487af))) within a day, didn't wait for the next day.
-			- The reset is still hard with the full process: [yawning](https://en.wikipedia.org/wiki/Yawn), [burping/belching](https://en.wikipedia.org/wiki/Burping),
+			- The reset was still hard with the full process: [yawning](https://en.wikipedia.org/wiki/Yawn), [burping/belching](https://en.wikipedia.org/wiki/Burping), deep relaxation, then falling asleep for about half an hour down to the total blackout... On the way back, there were dreams about unfinished tasks.
+			- Shared with Tuấn DMT:
+			  collapsed:: true
+				- mỗi khi anh buông cái con người hiện tại ra để reset về 0 thì đi qua một loạt phản ứng y như trip thuốc.... rồi vô cảnh mơ, rồi lịm đi một khoảng thì nó mới reset được hết.
+				- hồi trẻ thì mỗi vòng của anh tính bằng năm... sau vài năm cắm đầu thì mới tới giới hạn, đổ bể hay đổ bệnh hay gì đó, tức là bị bức tử rồi mới reset, ôn lại (life review) ở chỗ 0 đó, rồi lao tiếp vào vòng mới.
+				- đến sau khi mẹ anh mất, anh chủ động khám phá cửa tử, bằng thiền, bằng thuốc thức thần, v.v. thì anh rút nó xuống còn vài tháng. Vài tháng đổ bệnh để mình nằm đó mà review.
+				- Lần bệnh cuối anh viêm phổi là anh chủ động reset, chủ động đi vào cửa tử
+				- Từ đó về sau thì anh cứ quán sự vướng mắc của  mình, cũng cố gắng hết sức và tìm đủ mọi cách để kéo mình ra... thì từ từ nó giảm tiếp xuống còn hằng tuần... thường cuối tuần là lúc mình buông ra, reset
+				- rồi dạo gần đây là hằng ngày, cuối ngày buông ra, đi ngủ là lúc mình reset và review
+				- đến mấy hôm nay thì anh mới rút xuống dưới 1 ngày, hồi nãy anh vừa đi qua một đoạn chết lịm giờ mới hồi sinh nè 🙂
 	- Today, August 17th, thanks to Ms. Thu, i've known about the [Aimesoft company](https://www.aimesoft.com/multimodalai.html) with ((66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa)).
 	  id:: 66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e
 	  collapsed:: true
