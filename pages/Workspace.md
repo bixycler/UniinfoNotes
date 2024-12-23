@@ -27,9 +27,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- ((36499c7b-d58a-4eb5-a780-ad4afc813c64))
 				- ((676539ca-ff29-4749-ab33-b00dfe8fb936)) & ((66537674-6cf9-4459-8bea-7c1858c694a3)) & ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
 				- [Langlands program, modular forms, elliptic functions](((6766ea7c-3eb8-4463-9a79-d66509daf176)))
+				- [first times reset within a day](((6768bf20-deec-41bf-ac18-adc753ebb15f)))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- [first times reset within a day](((6768bf20-deec-41bf-ac18-adc753ebb15f)))
 				- ...
 			- ------
 		-
