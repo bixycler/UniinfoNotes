@@ -685,7 +685,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- ((66c7feaa-db1e-40ef-917d-be2a6efacdde))
 		- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
 		- New practice: ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
-		- Last weekends, Dec 21-22, the first times i can [reset](((67445065-15b2-475e-a704-78f140d487af))) within a day, didn't wait for the next day.
+		- Last weekends, Dec 21-22, the first times i can [reset](((67445065-15b2-475e-a704-78f140d487af))) within a day, didn't wait for the next day. Before and after these resets, i was back into the deep ujjayi breathing.
 			- The reset was still hard with the full process: [yawning](https://en.wikipedia.org/wiki/Yawn), [burping/belching](https://en.wikipedia.org/wiki/Burping), deep relaxation, then falling asleep for about half an hour down to the total blackout... On the way back, there were dreams about unfinished tasks.
 			- Shared with Tuấn DMT:
 			  collapsed:: true
