@@ -29,6 +29,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- [Langlands program, modular forms, elliptic functions](((6766ea7c-3eb8-4463-9a79-d66509daf176)))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- [first times reset within a day](((6768bf20-deec-41bf-ac18-adc753ebb15f)))
 				- ...
 			- ------
 		-
@@ -101,8 +102,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- [Future-proof block references in Logseq](https://99rabbits.com/future-proof-block-references-in-logseq/) > ((66ac8222-836c-40b1-9f26-fc94c69f9f8e)) as [suggested by AlessandroLongo](https://www.reddit.com/r/logseq/comments/15x0qsv/comment/jx49poz/)
 				- [Block reference to allow ((page-name#block-ref-name)) not just UUID](https://discuss.logseq.com/t/block-reference-to-allow-page-name-block-ref-name-not-just-uuid/2746)
 			- ((94649b98-9711-4adf-ae25-aaf32b521c14))
-		- id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
-		  collapsed:: true
+		- collapsed:: true
 		- TODO Backup & republish my contents on Facebook
 		  collapsed:: true
 			- Some of the fb posts have been migrated to the blog [CreatZy Notes](https://creatzynotes.blogspot.com/).

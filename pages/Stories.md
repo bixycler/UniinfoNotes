@@ -685,7 +685,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- ((66c7feaa-db1e-40ef-917d-be2a6efacdde))
 		- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
 		- New practice: ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
+			- Dec 8th, chat with Trung & Hiệp, on the occation of the first time foreseeing the black hole to redirect away before being sucked into it.
+			  collapsed:: true
+				- Hi good old friend! Xin chia sẻ về một người bạn mới cũ của tui: kỹ thuật "full circle review". Kỹ thuật này khá cũ với tui nhưng cũng không quá cũ, nên gọi là "mới cũ" vậy ![😁](https://static.xx.fbcdn.net/images/emoji.php/v9/t4f/1/16/1f601.png)
+				- Mỗi lần vấp ngã, thất bại, nằm xuống, đổ bệnh, v.v. là mỗi lần tui review lại cả vòng tròn từ lúc leo lên, bay nhảy, gãy cánh, rồi quay lại số 0 như thế nào.
+				- Tuy lúc ở 0 đó thì mình thấy hết cả vòng tròn, nhưng khi sung sức, khi đang chạy nhảy thì mình chỉ có thể thấy được một mảnh nhỏ ngay trước mắt thôi. Đó là lý do dù mình ý thức được về lý thuyết (rằng nên làm gì thì tốt hơn) nhưng khi thực hành (trên đường đi) thì mình vẫn chưa làm được.
+				- Thế nên vòng tròn cứ xoay, mình cứ lao vào rồi bật ra, trèo lên rồi té xuống... Sau mỗi lần review đó thì mình nhớ kỹ hơn về cả vòng tròn, holistic hơn. Kiểu như những lần đầu khi ôn thì phải lần từng bước, đi miên man cả buổi rồi mới quay lại được chỗ cũ, tức ráp được vòng tròn. Càng về sau thì mỗi lần ôn càng nhanh hơn, và cuối cùng là vừa nhìn một cái thấy nguyên vòng tròn luôn, không còn phải lần mò từng bước nữa. Cái này mình gọi là "thu nhỏ vòng tròn".
+				- Và kết quả là khi đi đường, sống và làm việc hàng ngày, những vòng tròn nào mình đã "nắm gọn trong tay" rồi thì khi vừa bước chân tới ngưỡng cửa của nó, mình đã thấy cả quãng đường cho tới lúc bước ra như thế nào, nên sẽ có quyết định sáng suốt cho nó.
 		- Last weekends, Dec 21-22, the first times i can [reset](((67445065-15b2-475e-a704-78f140d487af))) within a day, didn't wait for the next day. Before and after these resets, i was back into the deep ujjayi breathing.
+		  id:: 6768bf20-deec-41bf-ac18-adc753ebb15f
 			- The reset was still hard with the full process: [yawning](https://en.wikipedia.org/wiki/Yawn), [burping/belching](https://en.wikipedia.org/wiki/Burping), deep relaxation, then falling asleep for about half an hour down to the total blackout... On the way back, there were dreams about unfinished tasks.
 			- Shared with Tuấn DMT:
 			  collapsed:: true
