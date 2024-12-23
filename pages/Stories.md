@@ -685,7 +685,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- ((66c7feaa-db1e-40ef-917d-be2a6efacdde))
 		- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
 		- New practice: ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
-		- First time [reset](((67445065-15b2-475e-a704-78f140d487af)))
+		- Last weekends, Dec 21-22, the first times i can [reset](((67445065-15b2-475e-a704-78f140d487af))) within a day, didn't wait for the next day.
+			- The reset is still hard with the full process: [yawning](https://en.wikipedia.org/wiki/Yawn), [burping/belching](https://en.wikipedia.org/wiki/Burping),
 	- Today, August 17th, thanks to Ms. Thu, i've known about the [Aimesoft company](https://www.aimesoft.com/multimodalai.html) with ((66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa)).
 	  id:: 66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e
 	  collapsed:: true
