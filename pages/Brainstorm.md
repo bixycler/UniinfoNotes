@@ -1467,4 +1467,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  CLOCK: [2024-12-23 Mon 15:26:30]
 	  CLOCK: [2024-12-23 Mon 15:26:35]
 	  :END:
-		-
+		- subtle → elusive and controls the body-mind deep from inside.
+		- It's just a driving force with no clear feature, hence logic is renderd useless.
+		- Actually, it's a condensate from lots of concrete incidences. The current feeling is just a rising of the underlying condensate due to some trigger.
+		- Breathing is the best way to release emotions.
+			- With conscious
