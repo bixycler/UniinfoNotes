@@ -683,6 +683,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- These days, thanks to [sinus-throat imflammation](((66e278f7-ce05-4017-99b7-ff69b6228382))), i've done longer series of ujjayi breathing, but doing it while working is still very far from possible!
 		- ((66c7f663-6ff0-4a6c-a5b4-99b3848a94db))
 		- ((66c7feaa-db1e-40ef-917d-be2a6efacdde))
+		- ((66e278f7-ce05-4017-99b7-ff69b6228382))
 		- ((6746d7ab-85cb-4705-8668-58e5abfe0754))
 		- New practice: ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
 			- Dec 8th, chat with Trung & Hiệp, on the occation of the first time foreseeing the black hole to redirect away before being sucked into it.
