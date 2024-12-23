@@ -1461,4 +1461,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- $a⋅sin(x) + b⋅cos(x) = c⋅cos(x - x_0)$
 				- [Derivation of inverse-cube force from Logarithmic spiral trajectory](https://www.physicsforums.com/threads/central-force-on-a-particle-following-a-logarithmic-spiral.982655/)
 				- Dual between Hooke's law & Newton's law: [Planetary Motion and the Duality of Force Laws](https://www.researchgate.net/publication/228571130_Planetary_Motion_and_the_Duality_of_Force_Laws)
-	-
+	- DOING The feeling, emotion is difficult to release due to its subtlety
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-12-23 Mon 15:26:30]
+	  CLOCK: [2024-12-23 Mon 15:26:35]
+	  :END:
+		-
