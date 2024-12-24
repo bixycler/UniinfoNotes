@@ -213,7 +213,72 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) the mind to _**start** the new journey!_
 					  id:: 67445065-15b2-475e-a704-78f140d487af
 						- ![reset button](../assets/Will/story/2024-Oct/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
-						- [The destination is the horizon!](https://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
+						- [The destination is the horizon!](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)
+							- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.
+							  collapsed:: true
+								- Let's go, don't get too engrossed in this place.
+								- But haven’t we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn’t we enjoy the fruits of our labor instead of moving on, master?!
+								- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
+								- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
+								- If you still want liberation, follow me.
+								- But why do we need to move on when we've reached the destination of liberation?
+								- This is not the destination.
+								- Clearly, back in the city, when I asked, “Where do we go to find freedom?” you pointed to this mountain.
+								- At that time, the city’s buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
+								- So we can never reach the destination 😮‍💨?!
+								- We can.
+								- Have we reached the destination, master?
+								- I have.
+								- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
+								- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn’t say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
+								- I see the horizon as a straight line in front of me, but it’s just an illusion; there’s no actual line!
+								- I only asked if you see it or not!
+								- Yes, I see it.
+								- Now, look behind; do you see the horizon?
+								- Yes, I do.
+								- Look to both the left and right; do you see the horizon?
+								- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don’t ask such redundant questions!!!
+								- If you've seen it, let's go!
+								- Why move on if we'll never reach it?!!!
+								- I've reached it, which is why I'm leading you. If you don't want to go, you can stay here.
+								- Wait, master, you can't leave! You owe me an explanation of how you can reach that endless horizon!
+								- I've reached it by bringing the horizon right beneath my feet.
+								- 😮 How is that possible...
+								- I told you before that you wouldn't understand! It's only because you pushed me that I had to say it.
+								- ...
+							- [Cái đích là chân trời](http://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
+								- Hai thầy trò sau một tuần thưởng thức phong cảnh hữu tình ở núi Cực Lạc thì sáng ra thầy lại giục trò lên đường đi tiếp.
+								  collapsed:: true
+									- Đi thôi con, đừng để mình chìm đắm vào chỗ này.
+									- Ủa, chẳng phải chúng ta đã tới đích rồi sao?! Đi bao nhiêu lâu, mất bao sức lực, mồ hồi và cả máu mới tới được đích... không hưởng thành quả mà còn đi đâu nữa thầy?!
+									- Ta đã cho con hưởng thụ cả tuần qua rồi đó thôi, nếu con thấy chưa đủ thì cứ ở lại hưởng thụ đi, thầy đi một mình.
+									- Vấn đề không phải là hưởng thụ, con theo thầy là để tới chỗ giải thoát chứ không phải để hưởng thụ. Nếu thích hưởng thụ thì còn đã ở lại trong đời rồi, có bao nhiêu thú vui ở đó chứ theo thầy lên núi chi cho mệt vậy?!
+									- Nếu còn muốn giải thoát thì theo ta đi tiếp.
+									- Nhưng tại sao phải đi tiếp khi chúng ta đã tới được đích giải thoát?
+									- Đây không phải là đích.
+									- Rõ ràng hồi ở trong thành phố, khi con hỏi “đi đâu để tìm được tự do” thì thầy đã chỉ tay về phía ngọn núi này mà.
+									- Lúc đó trong thành phố bị nhà cửa che khuất tầm mắt nên ta phải chỉ ngọn núi cao để cho con thấy thôi, chứ thực ra ý ta muốn nói rằng “cái đích nằm ở chân trời”.
+									- Vậy là không bao giờ tới được đích sao 😮‍💨?!
+									- Tới được.
+									- Vậy thầy đã tới đích chưa?
+									- Ta tới rồi.
+									- Thầy nói dối! Ngày xưa trong thành phố con chưa thấy chân trời bao giờ thì thầy còn có thể lừa con được, chứ mấy tháng nay đi ra ngoài thì con đã chứng thực rồi: Chân trời là vô tận, mình càng đi tới bao nhiêu thì nó càng lùi về xa bấy nhiêu, nên không thể nào chạm được tới chân trời đâu.
+									- Ta không lừa con, ta chỉ nói theo những gì con có thể thấy và hiểu được. Ngày trước ta không nói “đích là chân trời” vì lúc đó con chưa thấy và hiểu rõ chân trời là gì. Hôm nay ta cũng không lừa con, ta chỉ nói theo những gì con đang thấy mà thôi. Này, nhìn thẳng về trước, con có thấy chân trời không?
+									- Con thấy chân trời như một đường thẳng trước mặt, nhưng đó chỉ là ảo giác, thực ra không có đường đó!
+									- Ta chỉ hỏi có thấy hay không?!
+									- Dạ có thấy.
+									- Giờ quay về phía sau, con có thấy chân trời không?
+									- Dạ thấy.
+									- Con nhìn cả trái lẫn phải đi xem có thấy chân trời không?
+									- Thôi khỏi! Trên đỉnh núi 🗻 này thì dòm đâu chẳng thấy chân trời, thầy đừng hỏi những câu thừa thải như vậy nữa!!!
+									- Thấy rồi thì đi thôi!
+									- Đi chẳng bao giờ tới thì đi làm gì cơ chứ?!!!
+									- Ta đã tới rồi nên mới dẫn con đi. Con không muốn đi thì cứ ở lại đây.
+									- Khoan, thầy không được đi! Thầy còn nợ con lời giải thích làm sao thầy có thể tới được cái chân trời vô tận đó!
+									- Ta tới được bằng cách kéo chân trời về ngay dưới chân ta.
+									- 😮 Làm sao có thể được...
+									- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
+									- ...
 						- Let's restart from the way/attitude of looking at everything!
 							- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
 						- Training the non-attached looking
