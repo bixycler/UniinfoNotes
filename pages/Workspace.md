@@ -228,10 +228,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- At that time, the city’s buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
 								- So we can never reach the destination 😮‍💨?!
 								- We can.
-								- Have we reached the destination, master?
+								- Have you reached the destination, master?
 								- I have.
 								- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
-								- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn’t say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
+								- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn’t say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
 								- I see the horizon as a straight line in front of me, but it’s just an illusion; there’s no actual line!
 								- I only asked if you see it or not!
 								- Yes, I see it.
