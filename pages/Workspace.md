@@ -241,7 +241,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don’t ask such redundant questions!!!
 								- If you've seen it, let's go!
 								- Why move on if we'll never reach it?!!!
-								- I've reached it, which is why I'm leading you. If you don't want to go, you can stay here.
+								- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
 								- Wait, master, you can't leave! You owe me an explanation of how you can reach that endless horizon!
 								- I've reached it by bringing the horizon right beneath my feet.
 								- 😮 How is that possible...
