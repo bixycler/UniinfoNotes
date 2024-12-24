@@ -284,6 +284,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 									- ...
 						- Let's restart from the way/attitude of looking at everything!
 							- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
+							- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
+								-
 						- Training the non-attached looking
 							- First, detach, keep distance until the mind returns to neutral attitude.
 							- Next, slowly approach the object while being aware of all mental reactions.
