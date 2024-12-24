@@ -31,6 +31,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((675c399e-06a9-4c00-91a2-f2340a3a9bac))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ((67445223-9459-4aa9-b102-70c63943577b))
 				- ...
 			- ------
 		- ―
@@ -215,6 +216,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  id:: 67445065-15b2-475e-a704-78f140d487af
 						- ![reset button](../assets/Will/story/2024-Oct/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
 						- [The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)
+						  id:: 67445223-9459-4aa9-b102-70c63943577b
 							- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.
 							  collapsed:: true
 								- Let's go, don't get too engrossed in this place.
