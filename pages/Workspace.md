@@ -213,7 +213,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) the mind to _**start** the new journey!_
 					  id:: 67445065-15b2-475e-a704-78f140d487af
 						- ![reset button](../assets/Will/story/2024-Oct/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
-						- [The destination is the horizon!](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)
+						- [The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)
 							- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.
 							  collapsed:: true
 								- Let's go, don't get too engrossed in this place.
