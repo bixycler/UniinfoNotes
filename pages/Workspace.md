@@ -285,7 +285,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- Let's restart from the way/attitude of looking at everything!
 							- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
 							- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
-								-
+							  collapsed:: true
+								- There is the ultimate purpose, but it's **not "final"**. The ultimate goal/purpos is the "[horizon](((67445223-9459-4aa9-b102-70c63943577b)))" which is always vividly there, always the guiding direction for us, but can never be "final" or "finished".
+								- As long as we're walking, we're "on the horizon"; anytime one thinks "i've reached the target", that one is deluding itself and effectively withdraw itself away from the horizon.
+								- It's the difference between cyclic nature and linear nature, between the circle and the arrow.
+								- The ultimate goal is (the center of) the totality, the whole, while all targets are intermediate points on the (endless) way to the goal.
 						- Training the non-attached looking
 							- First, detach, keep distance until the mind returns to neutral attitude.
 							- Next, slowly approach the object while being aware of all mental reactions.
