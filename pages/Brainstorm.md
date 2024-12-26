@@ -1446,6 +1446,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- ⇒ $dφ = r_0⋅d(1/r) = -r_0/r^2⋅dr$
 				- $dφ/dr = -(r_0/r + φ_0 - φ_0)/r = -(φ - φ_0)/r$   ⇔   [`[2]`](((675a6873-6404-4747-90b9-0d53436f0c62)))
 			- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$.
+			  id:: 675a85a5-1927-468b-b11d-e2057b8dbe63
 				- Sector area: $A(r_1, r_2) = ½ r_0(r_2 - r_1)$
 				- The staggered starting marks of footraces on concentric circle lanes are on a reciprocal spiral.
 					- These runners are running “back” to the initial sync position, a.k.a. the “finish line”.

@@ -712,7 +712,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- It's simlar to how Cesar the dog trainer [handled a terrified dog](https://youtu.be/xTkMT2I1Kl0) with a firm but flexible leash hold.
 				  collapsed:: true
 					- {{video https://youtu.be/xTkMT2I1Kl0}}
-				- The center is the
+				- The center is the mean of the whole past, the projection of the present (as a foreground) onto the distant past (as the background), via perspective projection (as a special kind of ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))) and [reciprocal spiral](((675a85a5-1927-468b-b11d-e2057b8dbe63))).
 	- Today, August 17th, thanks to Ms. Thu, i've known about the [Aimesoft company](https://www.aimesoft.com/multimodalai.html) with ((66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa)).
 	  id:: 66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e
 	  collapsed:: true
