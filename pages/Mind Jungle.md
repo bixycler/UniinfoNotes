@@ -3818,6 +3818,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ...
 		- cognition
+		  collapsed:: true
 			- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960&h=720)
 			- ### perception screen
 			  id:: 66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50
