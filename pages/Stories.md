@@ -713,6 +713,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- {{video https://youtu.be/xTkMT2I1Kl0}}
 				- The center is the mean of the whole past, the projection of the present (as a foreground) onto the distant past (as the background), via perspective projection (as a special kind of ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))) and [reciprocal spiral](((675a85a5-1927-468b-b11d-e2057b8dbe63))).
+					- Actually there is no single center but “the center” is just the image of the “the present”.
+					- Any point in the past can be the center, just as any point in the time line can be the present. It's “**the paradox of the present**”: the present (intension) is an infinitesimally small point on the time line, yet (its extension) encompassing the whole time line because nothing can happen outside of it.
 				- From the center, i.e. the image of the present in the past, the present is looked back as the point of the ((66ea8dfa-4dc4-4541-948b-be0e72a0bc8b)).
 				- radius of the worldview = height of the world cone = distance from the center (to the present) = distance between the object (present) and its image (meta, past) = depth of [the canyon](((674d48b7-e011-4547-ac17-8997b7bb575c)))
 				- While people have short radius and holding too tight on their centers, separating themselves from the whole, i have too long radius, diving too deep into rabit holes and black holes. Let's train traveling up and down the abyss, keeping a firm grip on the lanyard when diving down.
