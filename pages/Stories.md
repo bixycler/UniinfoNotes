@@ -706,6 +706,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- rồi dạo gần đây là hằng ngày, cuối ngày buông ra, đi ngủ là lúc mình reset và review
 				- đến mấy hôm nay thì anh mới rút xuống dưới 1 ngày, hồi nãy anh vừa đi qua một đoạn chết lịm giờ mới hồi sinh nè 🙂
 		- Combine all techniques to stay in the present
+		  id:: 676a5f10-724c-474f-bf47-4e19c8f0c177
 			- Don't chase the future: ((67445065-15b2-475e-a704-78f140d487af))
 			- Don't get stuck with the past: ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
 			- Stay in the present: stay firm with [ujjayi](((66952126-bf33-40e1-a208-369df7aa9488))) = orgasm all the time! = hold firmly on the lanyard/leash connecting to the ((66ab7477-c060-4d07-ab13-bc3d11246854)) but not too tight
@@ -717,7 +718,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Any point in the past can be the center, just as any point in the time line can be the present. It's “**the paradox of the present**”: the present (intension) is an infinitesimally small point on the time line, yet (its extension) encompassing the whole time line because nothing can happen outside of it.
 				- From the center, i.e. the image of the present in the past, the present is looked back as the point of the ((66ea8dfa-4dc4-4541-948b-be0e72a0bc8b)).
 				- radius of the worldview = height of the world cone = distance from the center (to the present) = distance between the object (present) and its image (meta, past) = depth of [the canyon](((674d48b7-e011-4547-ac17-8997b7bb575c)))
-				- While people have short radius and holding too tight on their centers, separating themselves from the whole, i have too long radius, diving too deep into rabit holes and black holes. Let's train traveling up and down the abyss, keeping a firm grip on the lanyard when diving down.
+				- While people have short radius and holding too tight on their centers, separating themselves from the whole, i have too long radius, diving too deep into rabit holes and black holes. Let's train traveling up and down the abyss, keeping a firm grip on the lanyard when diving down, ready to retract it back whenever needed.
 	- Today, August 17th, thanks to Ms. Thu, i've known about the [Aimesoft company](https://www.aimesoft.com/multimodalai.html) with ((66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa)).
 	  id:: 66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e
 	  collapsed:: true
