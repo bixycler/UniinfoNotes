@@ -708,7 +708,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Combine all techniques to stay in the present
 			- Don't chase the future: ((67445065-15b2-475e-a704-78f140d487af))
 			- Don't get stuck with the past: ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
-			- Stay in the present: stay firm with [ujjayi](((66952126-bf33-40e1-a208-369df7aa9488))) = orgasm all the time!
+			- Stay in the present: stay firm with [ujjayi](((66952126-bf33-40e1-a208-369df7aa9488))) = orgasm all the time! =
 	- Today, August 17th, thanks to Ms. Thu, i've known about the [Aimesoft company](https://www.aimesoft.com/multimodalai.html) with ((66c2ff0a-9ad0-4058-b5aa-a7fff563a3aa)).
 	  id:: 66c2a1ae-d109-4a3d-b5a4-18fd040b4f3e
 	  collapsed:: true
