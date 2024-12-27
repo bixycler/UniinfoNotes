@@ -3322,7 +3322,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- phase abstraction
 			  id:: 676550e5-6420-425a-97a8-33e5c4a5963e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((676545e8-429c-41e7-97ed-12cc8e8870d4))
-			- tube ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
+			- pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
 			- rounding = abstracting remainder, leaving quotient (extent) & denominator (intent)
 			- φ-extension = add phase refinement (remainder/denominator) to extent
 		- ### ε-abstraction
