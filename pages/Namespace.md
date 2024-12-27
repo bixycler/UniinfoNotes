@@ -1,7 +1,30 @@
-# Name List
+# Name Lists
 id:: 676e5861-1220-40e4-9546-e319e17df1aa
 collapsed:: true
-	-
+	- collapsed:: true
+	  #+BEGIN_QUERY
+	  {:title [:h2 "List of Composite Names"]
+	   :inputs [ 
+	    [:block/uuid #uuid "6699e4db-2e75-4427-94bb-96dfe0367dd1"] ; Complement:
+	    [:block/uuid #uuid "6699ea73-dc77-4227-a293-b501f2eb1759"] ; Dual:
+	    [:block/uuid #uuid "6699e5f2-7788-46c7-8233-87699a65ca30"] ; Whole:
+	    [:block/uuid #uuid "6699eb54-ce9e-4472-a784-c59ffd47f02b"] ; Complementary components:
+	   ]
+	   :query [
+	    :find (pull ?b [*])
+	    :in $ ?comp ?dual ?whole ?comps
+	    :where
+	     (or 
+	      [?b :block/refs ?comp]
+	      [?b :block/refs ?dual]
+	      [?b :block/refs ?whole]
+	      [?b :block/refs ?comps]
+	     )
+	   ] ; end query
+	   ;:remove-block-children? false
+	   ;:result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
+	  }
+	  #+END_QUERY
 	- query-table:: false
 	  query-properties:: [:block :page]
 	  collapsed:: true
