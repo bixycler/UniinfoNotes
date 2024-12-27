@@ -4751,6 +4751,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- [A no-plugin Insert Template button](https://discuss.logseq.com/t/a-no-plugin-insert-template-button/24793)
 								- ~~[Macros don't work with Advanced Queries](https://github.com/logseq/logseq/issues/8256#issuecomment-2385395687)~~
 						- Suggestions to [increase query reusability](https://discuss.logseq.com/t/make-advanced-queries-reusable/15281/13?u=willle):
+						  id:: 6735b187-4c75-49da-b2f9-050a033d27e8
 						  collapsed:: true
 							- Add `:query/rules` into `config.edn` for reusable `:rules`.
 							- Add `:embed-block` into `:inputs`, in addition to `:current-block` and `:parent-block`.

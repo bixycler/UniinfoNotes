@@ -2,7 +2,7 @@
 id:: 676e5861-1220-40e4-9546-e319e17df1aa
 collapsed:: true
 	- #+BEGIN_QUERY
-	  {:title [:h3 "Other Tasks"]
+	  {:title [:h2 "Terms and Names"]
 	    :query [ 
 	    :find (pull ?b [*])
 	    :where
