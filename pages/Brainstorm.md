@@ -172,6 +172,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
 				  case-sensitive:: true
 				  whole-word:: false
+				  child-filter:: propose
 			- id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
 			  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((6653538a-30aa-423f-be89-848ad9c7e331))
 			  Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
@@ -236,12 +237,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
 				     [(get ?props :filter ".*") ?filter]
 				     [(get ?props :child-filter ".*") ?child-filter]
-				     (or-join [?child-filter]
-				         [(= false ?child-filter)]
-				         (and [(!= false ?child-filter)] 
-				            [?container :block/refs ?scope]
-				            [?scope :block/uuid ?uuid]
-				            [(clojure.string/includes? ?search-scope ?uuid)]
+				     [(re-pattern ?filter) ?filter-pattern]
+				     [(re-pattern ?child-filter) ?child-filter-pattern]
+				     (or-join [?b ?filter-pattern ?child-filter-pattern]
+				         (and [?bchild :block/parent ?b]
+				  		   [?bchild :block/content ?child-content]
+				             [(re-find ?child-filter-pattern ?child-content)]     
+				         )
+				         (and [?b :block/content ?content]
+				         	   [(re-find ?filter-pattern ?content)]     
 				         )
 				     )
 				     ;
@@ -274,11 +278,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  ```
 			- query-table:: false
 			  #+BEGIN_QUERY
-			  {:title [:h3 "Result"]
+			  {:title [:h3 "Result"]  ; $1
 			   :inputs [ 
-			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; pattern
-			    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; search-scope
-			    true ; recursive
+			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 pattern
+			    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope
+			    true ; $4 recursive
 			   ]
 			   :query [
 			    :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
@@ -290,7 +294,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			     [(re-pattern ".*") ?firstLinePattern]
 			     [(re-find ?firstLinePattern ?paramlines) ?key]
 			     ;
-			     ; ?case-sensitive parameter (default = false) => ?search-pattern
+			     ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
 			     [?params :block/properties ?props]
 			     [(get ?props :case-sensitive false) ?case-sensitive]
 			     [(get ?props :whole-word false) ?whole-word]
@@ -319,6 +323,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			     ; ?scope parameter contains ?b
 			     [(not ?recursive) ?is-parent]
 			     (check-ancestor-parent ?b ?scope ?is-parent)
+			     ; 
+			     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
+			     [(get ?props :filter ".*") ?filter]
+			     [(get ?props :child-filter ".*") ?child-filter]
+			     [(re-pattern ?filter) ?filter-pattern]
+			     [(re-pattern ?child-filter) ?child-filter-pattern]
+			     (or-join [?b ?filter-pattern ?child-filter-pattern]
+			         (and [?bchild :block/parent ?b]
+			  		   [?bchild :block/content ?child-content]
+			             [(re-find ?child-filter-pattern ?child-content)]     
+			         )
+			         (and [?b :block/content ?content]
+			         	   [(re-find ?filter-pattern ?content)]     
+			         )
+			     )
 			     ;
 			     ; ?b block/content contains ?search-pattern
 			     [?b :block/content ?content]
