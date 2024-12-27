@@ -236,16 +236,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     ; 
 				     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
 				     [(get ?props :filter ".*") ?filter]
-				     [(get ?props :child-filter ".*") ?child-filter]
+				     [(get ?props :child-filter false) ?child-filter]
 				     [(re-pattern ?filter) ?filter-pattern]
 				     [(re-pattern ?child-filter) ?child-filter-pattern]
 				     (or-join [?b ?filter-pattern ?child-filter-pattern]
-				         (and [?bchild :block/parent ?b]
-				  		   [?bchild :block/content ?child-content]
-				             [(re-find ?child-filter-pattern ?child-content)]     
-				         )
 				         (and [?b :block/content ?content]
 				         	   [(re-find ?filter-pattern ?content)]     
+				         )
+				         [(= false ?child-filter-pattern)]
+				         (not [?bchild :block/parent ?b])
+				         (and [(!= false ?child-filter-pattern)] 
+				             [?bchild :block/parent ?b]
+				  		   [?bchild :block/content ?child-content]
+				             [(re-find ?child-filter-pattern ?child-content)]     
 				         )
 				     )
 				     ;
@@ -326,16 +329,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			     ; 
 			     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
 			     [(get ?props :filter ".*") ?filter]
-			     [(get ?props :child-filter ".*") ?child-filter]
+			     [(get ?props :child-filter false) ?child-filter]
 			     [(re-pattern ?filter) ?filter-pattern]
 			     [(re-pattern ?child-filter) ?child-filter-pattern]
 			     (or-join [?b ?filter-pattern ?child-filter-pattern]
-			         (and [?bchild :block/parent ?b]
-			  		   [?bchild :block/content ?child-content]
-			             [(re-find ?child-filter-pattern ?child-content)]     
-			         )
 			         (and [?b :block/content ?content]
 			         	   [(re-find ?filter-pattern ?content)]     
+			         )
+			         [(= false ?child-filter-pattern)]
+			         (not [?bchild :block/parent ?b])
+			         (and [(!= false ?child-filter-pattern)] 
+			             [?bchild :block/parent ?b]
+			  		   [?bchild :block/content ?child-content]
+			             [(re-find ?child-filter-pattern ?child-content)]     
 			         )
 			     )
 			     ;
