@@ -4735,12 +4735,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- `:inputs[ [:block/uuid #uuid "${UUID}"] ] :query[ :in ?block :where [... ?block ...] ]`
 						- `:where [(identity [:block/uuid #uuid "${UUID}"]) ?block]`
 						- `:where [?b :block/refs [:block/uuid #uuid "${UUID}"]]`
-					- Result display: merge child blocks into parent, table view, collapsed list
+					- Result display: merge child blocks into parent, table, collapsed list
+					  id:: 676e7df0-0066-4544-9413-240f7eea5315
 						- There are 2 views of result: list (default) and table
-							- List view (default): shows results in semi-hierarchical list where blocks are grouped by default (:remove-block-children? true).
-							- Table view: shows results in a table with columns like `block`, `page`, and custom properties appearing in result blocks.
-						- `:remove-block-children? true` (default `true`), in list view, will merge child blocks into common parents and group blocks into pages.
-						- `:result-transform` can be used to collapse blocks in list view.
+							- List view (default)
+							  shows results in semi-hierarchical list where blocks are grouped by default (:remove-block-children? true).
+							- Table view
+							  id:: 676e80e2-5420-4c4c-ad8c-5356cb550411
+							  shows results in a table with columns like `block`, `page`, and custom properties appearing in result blocks.
+						- `:remove-block-children?` (default `true`)
+						  id:: 676e7e9f-492c-4932-9ebe-8241b76c22e2
+						  in list view, will merge child blocks into common parents and group blocks into pages.
+							- This option should be turned off for ((676e80e2-5420-4c4c-ad8c-5356cb550411)) and ((676e7f22-4b92-4ef6-98ee-72626d8b6799)).
+						- collapsed list view
+						  id:: 676e7f22-4b92-4ef6-98ee-72626d8b6799
+						  `:result-transform` can be used to collapse blocks in list view.
 					- Reusable components of advanced query
 					  collapsed:: true
 						- Ref: [Make Advanced Queries reusable](https://discuss.logseq.com/t/make-advanced-queries-reusable/15281)
