@@ -1,6 +1,6 @@
 # Mind Jungle
 id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
-	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665c82c0-ee06-4f43-95b8-73dbbe956080)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
+	- This is the ((665c82c0-ee06-4f43-95b8-73dbbe956080)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 	  id:: 66600918-70a9-49da-ac23-5bfbbf006854
 	-
 	-
