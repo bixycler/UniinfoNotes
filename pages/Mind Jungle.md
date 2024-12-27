@@ -5662,6 +5662,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  }
 					  ```
 		- Settings: via [[logseq/config.edn]] and menu `Settings`
+		  id:: 6735b187-e461-441e-976a-b81bea23104e
 		  collapsed:: true
 			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`)
 			  collapsed:: true
