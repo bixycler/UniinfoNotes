@@ -1,5 +1,23 @@
 # Namespace
-id:: 66533703-505d-432d-8368-6058eefb45f6
+id:: 676e5861-1220-40e4-9546-e319e17df1aa
+collapsed:: true
+	- #+BEGIN_QUERY
+	  {:title [:h3 "Other Tasks"]
+	    :query [ 
+	    :find (pull ?b [*])
+	    :where
+	      [?b :block/marker ?m]
+	      (not [(contains? #{"DONE" "CANCELLED" "CANCELED"} ?m)] )
+	      [?b :block/page ?p]
+	      [?p :block/original-name ?pn]
+	      (not [(contains? #{"Workspace"  "Theme Demo"} ?pn)] )
+	    ] ; end query
+	    :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
+	  }
+	  #+END_QUERY
+- # Elements
+  id:: 66533703-505d-432d-8368-6058eefb45f6
+  collapsed:: true
 	- Attribute:
 	  id:: 66600918-a37f-46cb-810e-837aa5e89771
 		- Name:

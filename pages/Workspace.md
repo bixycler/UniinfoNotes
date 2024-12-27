@@ -721,17 +721,17 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  CLOCK: [2024-12-16 Mon 17:29:54]
 			  CLOCK: [2024-12-16 Mon 17:29:56]--[2024-12-16 Mon 17:30:41] =>  00:00:45
 			  :END:
-		- DOING Refactor `Namespace`
+		- DOING Refactor [[Namespace]]
 		  id:: 676e5401-5951-445c-b109-61d61c11fc59
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-12-27 Fri 14:15:18]
 		  CLOCK: [2024-12-27 Fri 14:15:24]
 		  :END:
-			- The current ((66533703-505d-432d-8368-6058eefb45f6)) was created with the intension to cover the whole space of names, hence named `Namespace`.
+			- The block ((66533703-505d-432d-8368-6058eefb45f6)) was created with the intension to cover the whole space of names, hence named `Namespace`.
 				- But it ends up containing only commonly used nouns and verbs.
 				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) rename it to `Elements`
-					- “Element” in linguistics is defined as 
+					- “Element” in linguistics is [defined as](https://www.collinsdictionary.com/us/dictionary/english/element) 
 					  > any word, part of a word, or group of words that recurs in various contexts in a language with relatively constant meaning
-			- Create an auto-generated page [[Namespace]]
+			- Create an auto-generated block ((676e5861-1220-40e4-9546-e319e17df1aa))
 		- ...

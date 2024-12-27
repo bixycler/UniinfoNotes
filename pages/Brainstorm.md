@@ -397,7 +397,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- External context = external form
 	  collapsed:: true
 		- Each work item has an `ex` space (environment, address space, context) as the world view in contrast to the `in` space (self, component space, content).
-		- Global context: ((66533703-505d-432d-8368-6058eefb45f6))
+		- Global context: [[Namespace]]
 		- Local context: link collection in each project
 		- Temporal context: pinned items (globally to ((66519638-cf5d-409b-9b98-15acabf2268c)) or locally to each project)
 		- This ex-form is in contrast to the in-form discussed at...
