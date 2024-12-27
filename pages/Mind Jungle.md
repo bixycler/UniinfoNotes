@@ -4735,6 +4735,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- `:inputs[ [:block/uuid #uuid "${UUID}"] ] :query[ :in ?block :where [... ?block ...] ]`
 						- `:where [(identity [:block/uuid #uuid "${UUID}"]) ?block]`
 						- `:where [?b :block/refs [:block/uuid #uuid "${UUID}"]]`
+					- Result display: merge child blocks into parent, table display, collapsed list
+						- `:remove-block-children?` merge child blocks into parent in list display
 					- Reusable components of advanced query
 					  collapsed:: true
 						- Ref: [Make Advanced Queries reusable](https://discuss.logseq.com/t/make-advanced-queries-reusable/15281)

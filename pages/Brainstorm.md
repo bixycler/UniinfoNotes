@@ -149,7 +149,22 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  #+END_QUERY
 		- collapsed:: true
 		  #+BEGIN_QUERY
-		  {:title ":blocks-with-content"
+		  {:title "List of Names with Description"
+		   :inputs [ [:block/uuid #uuid "6651ecba-793d-43c5-8020-a9f260b032d8"] ]
+		   :query [
+		    :find (pull ?b [*])
+		    :in $ ?desc
+		    :where
+		     [?descb :block/parent ?b]
+		     [?descb :block/refs ?desc]
+		   ] ; end query
+		   :remove-block-children? false
+		   :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
+		  }
+		  #+END_QUERY
+		- collapsed:: true
+		  #+BEGIN_QUERY
+		  {:title "Blocks with content"
 		   :query [
 		    :find (pull ?b [*])
 		    :where 
