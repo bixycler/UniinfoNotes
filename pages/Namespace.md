@@ -2,17 +2,14 @@
 id:: 676e5861-1220-40e4-9546-e319e17df1aa
 collapsed:: true
 	- #+BEGIN_QUERY
-	  {:title [:h2 "Terms and Names"]
-	    :query [ 
+	  {:title "List of Names"
+	   :inputs [ [:block/uuid #uuid "66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5"] ]
+	   :query [
 	    :find (pull ?b [*])
+	    :in $ ?dest
 	    :where
-	      [?b :block/marker ?m]
-	      (not [(contains? #{"DONE" "CANCELLED" "CANCELED"} ?m)] )
-	      [?b :block/page ?p]
-	      [?p :block/original-name ?pn]
-	      (not [(contains? #{"Workspace"  "Theme Demo"} ?pn)] )
-	    ] ; end query
-	    :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
+	     [?b :block/refs ?dest]
+	   ]
 	  }
 	  #+END_QUERY
 - # Elements
