@@ -150,7 +150,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
 		- collapsed:: true
 		  #+BEGIN_QUERY
-		  {:title "Blocks with content"
+		  {:title "Macro {{blocks-with-content}}"
 		   :query [
 		    :find (pull ?b [*])
 		    :where 
