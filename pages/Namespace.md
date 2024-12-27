@@ -1,8 +1,10 @@
 # Name List
 id:: 676e5861-1220-40e4-9546-e319e17df1aa
 collapsed:: true
+	-
 	- query-table:: false
 	  query-properties:: [:block :page]
+	  collapsed:: true
 	  #+BEGIN_QUERY
 	  {:title [:h2 "List of Names with Description or Alias"]
 	   :inputs [ 
@@ -127,8 +129,7 @@ collapsed:: true
 	  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
 		- Component:
 		  id:: 66532ccc-ae21-4940-8714-715060d6bd90
-		  collapsed:: true
-			- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bb2-7680-461b-80b2-71fc96c89fb9))
+		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bb2-7680-461b-80b2-71fc96c89fb9))
 		- Complementarity:
 		  id:: 667bf816-d1c8-4ac3-b315-764c14bfbb1f
 			- Complement:
