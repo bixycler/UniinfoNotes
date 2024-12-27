@@ -31,7 +31,8 @@ collapsed:: true
 	  #+BEGIN_QUERY
 	  {:title [:h2 "List of Names with Description or Alias"]
 	   :inputs [ 
-	    [:block/uuid #uuid "6651ecba-793d-43c5-8020-a9f260b032d8"] ; Description:
+	    ;[:block/uuid #uuid "6651ecba-793d-43c5-8020-a9f260b032d8"] ; Description:
+	    [:block/uuid #uuid "676e5573-29fa-4d67-819b-73e0d3977a61"] ; xxx:
 	    [:block/uuid #uuid "665c9af1-1ce2-461c-af33-671690618c8f"] ; Alias:
 	    [:block/uuid #uuid "665c9af1-1ce2-461c-af33-671690618c8f"] ; alias of
 	   ]
@@ -39,9 +40,11 @@ collapsed:: true
 	    :find (pull ?b [*])
 	    :in $ ?desc ?alias ?aliasof
 	    :where
-	     [?descb :block/parent ?b]
-	     (or 
-	      ;[?descb :block/refs ?desc]
+	     (or-join [?b]
+	      (and
+	       [?descb :block/parent ?b]
+	       [?descb :block/refs ?desc]
+	      )
 	      [?b :block/refs ?alias]
 	      [?b :block/refs ?aliasof]
 	     )

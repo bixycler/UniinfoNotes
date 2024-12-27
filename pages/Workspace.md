@@ -730,6 +730,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :END:
 			- The block ((66533703-505d-432d-8368-6058eefb45f6)) was created with the intention to cover the whole space of names, hence named `Namespace`.
 				- But it ends up containing only commonly used nouns and verbs.
+				  id:: 676e5573-29fa-4d67-819b-73e0d3977a61
 				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) rename it to `Elements`
 					- “Element” in linguistics is [defined as](https://www.collinsdictionary.com/us/dictionary/english/element) 
 					  > any word, part of a word, or group of words that recurs in various contexts in a language with relatively constant meaning
