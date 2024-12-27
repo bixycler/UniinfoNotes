@@ -203,7 +203,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     [(re-pattern ".*") ?firstLinePattern]
 				     [(re-find ?firstLinePattern ?paramlines) ?key]
 				     ;
-				     ; ?case-sensitive parameter (default = false) => ?search-pattern
+				     ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
 				     [?params :block/properties ?props]
 				     [(get ?props :case-sensitive false) ?case-sensitive]
 				     [(get ?props :whole-word false) ?whole-word]
@@ -232,6 +232,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     ; ?scope parameter contains ?b
 				     [(not ?recursive) ?is-parent]
 				     (check-ancestor-parent ?b ?scope ?is-parent)
+				     ; 
+				     ; Match ?child-filter against child block(s) if any
+				     [(get ?props :child-pattern false) ?child-filter]
+				     (or-join [?child-filter]
+				         [(= false ?child-filter)]
+				         (and [(!= false ?child-filter)] 
+				            [?container :block/refs ?scope]
+				            [?scope :block/uuid ?uuid]
+				            [(clojure.string/includes? ?search-scope ?uuid)]
+				         )
+				     )
 				     ;
 				     ; ?b block/content contains ?search-pattern
 				     [?b :block/content ?content]

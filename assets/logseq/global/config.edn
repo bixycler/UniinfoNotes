@@ -2759,9 +2759,12 @@
   ;; - The title of the result list/table is specified by $1.
   ;; - In $2, only the first line (title) is used as regex, 
   ;;   next lines can be comments or optional properties:
-  ;;   + `case-sensitive:: true` (default = false) adds (?i) to the main regex
-  ;;   + `whole-word:: true` (default = false) adds \b to the main regex
-  ;;   + `child-pattern::` the regex pattern that at least on child block (if any) must match
+  ;;   + `case-sensitive:: true` (default = false) adds (?i) to the main pattern
+  ;;   + `whole-word:: true` (default = false) adds \b to the main pattern
+  ;;   + `filter::` the regex pattern that result blocks must match,
+  ;;     in conjunction with the main pattern
+  ;;   + `child-filter::` the regex pattern that at least on child block (if any) must match,
+  ;;     in disjunction with filter pattern
   :search-query
   "$1
 #+BEGIN_QUERY
