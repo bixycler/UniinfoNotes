@@ -7,10 +7,10 @@ collapsed:: true
 	   :inputs [ [:block/uuid #uuid "6651ecba-793d-43c5-8020-a9f260b032d8"] ]
 	   :query [
 	    :find (pull ?b [*])
-	    :in $ ?dest
+	    :in $ ?desc
 	    :where
-	     [?b :block/parent ?parent]
-	     [?b :block/refs ?dest]
+	     [?descb :block/parent ?b]
+	     [?descb :block/refs ?desc]
 	   ]
 	  }
 	  #+END_QUERY
