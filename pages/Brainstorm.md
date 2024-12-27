@@ -266,7 +266,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			   :inputs [ 
 			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; pattern
 			    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; search-scope
-			    ;[:block/uuid #uuid "6651e92e-fb34-4d24-a386-d9698c2e93f7"]  ; Mind Jungle
 			    true ; recursive
 			   ]
 			   :query [
