@@ -184,14 +184,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- TODO search for ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)) only with `first-line::` and limited `content-length::`, to be applied in [term search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
 			- Source code
 			  collapsed:: true
-				- ```clojure
+				- id:: 6735b185-3584-42f7-86e4-0d65a5c555d0
+				  ```clojure
 				  #+BEGIN_QUERY
-				  {:title [:h3 "Result"]
+				  {:title [:h3 "Result"]  ; $1
 				   :inputs [ 
-				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; pattern
-				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; search-scope
-				    ;[:block/uuid #uuid "6651e92e-fb34-4d24-a386-d9698c2e93f7"]  ; Mind Jungle
-				    true ; recursive
+				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 pattern
+				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope
+				    true ; $4 recursive
 				   ]
 				   :query [
 				    :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
@@ -349,7 +349,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					   :inputs [ 
 					    [:block/uuid #uuid \"$2\"]  ; pattern
 					    [:block/uuid #uuid \"$3\"]  ; search-scope
-					    ;[:block/uuid #uuid \"6651e92e-fb34-4d24-a386-d9698c2e93f7\"]  ; Mind Jungle
 					    $4 ; recursive
 					   ]
 					  ...

@@ -2757,9 +2757,11 @@
           
   ;; Search for pattern (regex)=$2 in a scope (block)=$3 either recursively=$4 or not.
   ;; - The title of the result list/table is specified by $1.
-  ;; - Optional properties in search pattern $2:
-  ;;   + `case-sensitive:: true` (default = false).
-  ;;   + `whole-word:: true` (default = false).
+  ;; - In $2, only the first line (title) is used as regex, 
+  ;;   next lines can be comments or optional properties:
+  ;;   + `case-sensitive:: true` (default = false)
+  ;;   + `whole-word:: true` (default = false)
+  ;;   + `child-pattern::` the regex pattern that at least on child block (if any) must match
   :search-query
   "$1
 #+BEGIN_QUERY
