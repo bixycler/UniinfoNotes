@@ -233,8 +233,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     [(not ?recursive) ?is-parent]
 				     (check-ancestor-parent ?b ?scope ?is-parent)
 				     ; 
-				     ; Match ?child-filter against child block(s) if any
-				     [(get ?props :child-pattern false) ?child-filter]
+				     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
+				     [(get ?props :filter ".*") ?filter]
+				     [(get ?props :child-filter ".*") ?child-filter]
 				     (or-join [?child-filter]
 				         [(= false ?child-filter)]
 				         (and [(!= false ?child-filter)] 
