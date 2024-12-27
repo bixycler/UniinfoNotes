@@ -147,21 +147,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		    ;:result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
 		  }
 		  #+END_QUERY
-		- collapsed:: true
-		  #+BEGIN_QUERY
-		  {:title "List of Names with Description"
-		   :inputs [ [:block/uuid #uuid "6651ecba-793d-43c5-8020-a9f260b032d8"] ]
-		   :query [
-		    :find (pull ?b [*])
-		    :in $ ?desc
-		    :where
-		     [?descb :block/parent ?b]
-		     [?descb :block/refs ?desc]
-		   ] ; end query
-		   :remove-block-children? false
-		   :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
-		  }
-		  #+END_QUERY
+		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
 		- collapsed:: true
 		  #+BEGIN_QUERY
 		  {:title "Blocks with content"
@@ -191,7 +177,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
 			- Ref: [Find nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
 			- TODO add multiple criteria
-			- TODO search for ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)) only, to be applied in [term search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
+			- TODO search for ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)) only with `first-line::` and limited `content-length::`, to be applied in [term search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
 			- Source code
 			  collapsed:: true
 				- ```clojure

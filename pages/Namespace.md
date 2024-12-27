@@ -50,7 +50,8 @@ collapsed:: true
 	   :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
 	  }
 	  #+END_QUERY
-	- collapsed:: true
+	- id:: 676e8305-edc2-4379-a6f4-e7d9cc5ef765
+	  collapsed:: true
 	  #+BEGIN_QUERY
 	  {:title [:h2 "List of Topics with Discussion"]
 	   :inputs [ [:block/uuid #uuid "665359ff-79f1-4669-b10b-f2b0e633a7c1"] ]
