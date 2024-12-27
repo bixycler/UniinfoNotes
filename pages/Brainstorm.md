@@ -165,6 +165,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Search for pattern (regex) within a block (scope)
 		  query-table:: false
 		  id:: 66faa5f8-0711-4a23-afe0-fb8d2ebb644e
+		  collapsed:: true
 			- Pattern (regex): The first line, i.e. ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)), will be used as search pattern. Property `case-sensitive::` is optional (default to `false`).
 				- history
 				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
