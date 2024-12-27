@@ -25,7 +25,7 @@ collapsed:: true
 	   ;:result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
 	  }
 	  #+END_QUERY
-	- query-table:: false
+	- query-table:: true
 	  query-properties:: [:block :page]
 	  collapsed:: true
 	  #+BEGIN_QUERY
@@ -41,7 +41,7 @@ collapsed:: true
 	    :where
 	     [?descb :block/parent ?b]
 	     (or 
-	      [?descb :block/refs ?desc]
+	      ;[?descb :block/refs ?desc]
 	      [?b :block/refs ?alias]
 	      [?b :block/refs ?aliasof]
 	     )
