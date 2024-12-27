@@ -4,7 +4,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 66600918-a37f-46cb-810e-837aa5e89771
 		- Name:
 		  id:: 665ca48e-f7c1-4541-b5cf-486d86b02997
-			- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((665cab38-f8e8-472e-b0a1-60776d492835))
+		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((665cab38-f8e8-472e-b0a1-60776d492835))
 			- name of
 			  id:: 665ca495-93b4-47d4-a022-ce511b021a3d
 			- Alias:
@@ -27,7 +27,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 				  id:: 66c80e01-002b-42ae-9c60-49bf3fc6e159
 		- Description:
 		  id:: 6651ecba-793d-43c5-8020-a9f260b032d8
-			- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532914-003a-4bbb-9e97-6f1c87170d7d))
+		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532914-003a-4bbb-9e97-6f1c87170d7d))
 			- Pronunciation:
 			  id:: 66f3c28a-a18f-4cca-90d6-c086ac7fccdf
 		- Discussion:
@@ -44,7 +44,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 66600918-67d0-429b-af78-f804ea65d9cc
 		- Form:
 		  id:: 665ca47c-476a-4bef-b982-d9a31a669fb1
-			- ((665ca495-93b4-47d4-a022-ce511b021a3d)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
+		  ((665ca495-93b4-47d4-a022-ce511b021a3d)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 			- form of
 			  id:: 665ca480-5ac8-4728-a331-2f68b48759d1
 			- Formula:
@@ -81,7 +81,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 			  id:: 66600918-9cef-4a33-bdeb-3b64d71c7034
 	- Composite:
 	  id:: 6652048c-27b3-47b6-84e5-25af8d9ce801
-		- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
+	  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
 		- Component:
 		  id:: 66532ccc-ae21-4940-8714-715060d6bd90
 		  collapsed:: true
@@ -103,8 +103,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 		  id:: 665359c3-61fd-4858-a117-ecbcd6fbc9ea
 	- Wiki:
 	  id:: 665359c0-a89a-41b5-9f28-503f79107a08
-	  collapsed:: true
-		- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66536a32-fddd-465f-a47f-fa8e0ea9c8db))
+	  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66536a32-fddd-465f-a47f-fa8e0ea9c8db))
 	- Git:
 	  id:: 665f1a5c-6c98-4785-a177-3cd01507595d
 	- Plugin:
@@ -113,8 +112,7 @@ id:: 66533703-505d-432d-8368-6058eefb45f6
 	  id:: 665dcac9-5698-496c-9a14-c5c0425d0998
 	- History:
 	  id:: 6667abd2-14eb-4145-b9e3-e6f3037b3117
-	  collapsed:: true
-		- ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((6667ac3c-8fff-43aa-92ac-fca2002e58f4))
+	  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((6667ac3c-8fff-43aa-92ac-fca2002e58f4))
 	- File:
 	  id:: 666a539d-499f-43c0-8b2e-74818cc3a0f5
 	- Screenshot:
