@@ -30,15 +30,16 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- [first times reset within a day](((6768bf20-deec-41bf-ac18-adc753ebb15f)))
 				- ((675c399e-06a9-4c00-91a2-f2340a3a9bac))
 				- ((67445223-9459-4aa9-b102-70c63943577b))
+				- ((676a5f10-724c-474f-bf47-4e19c8f0c177))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- ((676a5f10-724c-474f-bf47-4e19c8f0c177))
+				- ((676e5401-5951-445c-b109-61d61c11fc59))
 				- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 				- ...
 			- ------
-		-
-			- ```
-			  ```
+		- :LOGBOOK:
+		  CLOCK: [2024-12-27 Fri 14:14:48]
+		  :END:
 		-
 		-
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
@@ -720,4 +721,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  CLOCK: [2024-12-16 Mon 17:29:54]
 			  CLOCK: [2024-12-16 Mon 17:29:56]--[2024-12-16 Mon 17:30:41] =>  00:00:45
 			  :END:
+		- DOING Refactor `Namespace`
+		  id:: 676e5401-5951-445c-b109-61d61c11fc59
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-12-27 Fri 14:15:18]
+		  CLOCK: [2024-12-27 Fri 14:15:24]
+		  :END:
+			- The current ((66533703-505d-432d-8368-6058eefb45f6)) was created with the intension to cover the whole space of names, hence named `Namespace`. But it
 		- ...
