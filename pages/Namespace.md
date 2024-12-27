@@ -1,18 +1,25 @@
-# Namespace
+# Name List
 id:: 676e5861-1220-40e4-9546-e319e17df1aa
 collapsed:: true
 	- query-table:: false
 	  query-properties:: [:block :page]
-	  collapsed:: true
 	  #+BEGIN_QUERY
-	  {:title [:h2 "List of Names with Description"]
-	   :inputs [ [:block/uuid #uuid "6651ecba-793d-43c5-8020-a9f260b032d8"] ]
+	  {:title [:h2 "List of Names with Description or Alias"]
+	   :inputs [ 
+	    [:block/uuid #uuid "6651ecba-793d-43c5-8020-a9f260b032d8"] ; Description:
+	    [:block/uuid #uuid "665c9af1-1ce2-461c-af33-671690618c8f"] ; Alias:
+	    [:block/uuid #uuid "665c9af1-1ce2-461c-af33-671690618c8f"] ; alias of
+	   ]
 	   :query [
 	    :find (pull ?b [*])
-	    :in $ ?desc
+	    :in $ ?desc ?alias ?aliasof
 	    :where
 	     [?descb :block/parent ?b]
-	     [?descb :block/refs ?desc]
+	     (or 
+	      [?descb :block/refs ?desc]
+	      [?b :block/refs ?alias]
+	      [?b :block/refs ?aliasof]
+	     )
 	   ] ; end query
 	   :remove-block-children? false
 	   :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
