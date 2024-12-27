@@ -1,8 +1,9 @@
 # Namespace
 id:: 676e5861-1220-40e4-9546-e319e17df1aa
 collapsed:: true
-	- query-table:: false
+	- query-table:: true
 	  query-properties:: [:block :page]
+	  collapsed:: true
 	  #+BEGIN_QUERY
 	  {:title "List of Names with Description"
 	   :inputs [ [:block/uuid #uuid "6651ecba-793d-43c5-8020-a9f260b032d8"] ]
@@ -13,7 +14,7 @@ collapsed:: true
 	     [?descb :block/parent ?b]
 	     [?descb :block/refs ?desc]
 	   ] ; end query
-	   :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
+	   ;:result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
 	  }
 	  #+END_QUERY
 - # Elements
