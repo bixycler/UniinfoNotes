@@ -1,13 +1,15 @@
 # Namespace
 id:: 676e5861-1220-40e4-9546-e319e17df1aa
 collapsed:: true
-	- #+BEGIN_QUERY
-	  {:title "List of Names"
-	   :inputs [ [:block/uuid #uuid "66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5"] ]
+	- collapsed:: true
+	  #+BEGIN_QUERY
+	  {:title "List of Described Names"
+	   :inputs [ [:block/uuid #uuid "6651ecba-793d-43c5-8020-a9f260b032d8"] ]
 	   :query [
 	    :find (pull ?b [*])
 	    :in $ ?dest
 	    :where
+	     [?b :block/parent ?parent]
 	     [?b :block/refs ?dest]
 	   ]
 	  }
