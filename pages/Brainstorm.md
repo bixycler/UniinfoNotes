@@ -1481,3 +1481,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- My tendency is toward resolution more than releasing. It makes me suffer longer with attachments.
 			- So the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique is essential for me to transform and resolve them.
 	- [pipe wrapping](((670cdcb4-3c85-45af-8c30-3c3284ed37df))) = signal piping = message conveyance
+	  id:: 676e46bc-5c19-4e37-a301-e3b818d8cb1a
+	  collapsed:: true
+		-
