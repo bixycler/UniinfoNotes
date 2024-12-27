@@ -728,5 +728,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-12-27 Fri 14:15:18]
 		  CLOCK: [2024-12-27 Fri 14:15:24]
 		  :END:
-			- The current ((66533703-505d-432d-8368-6058eefb45f6)) was created with the intension to cover the whole space of names, hence named `Namespace`. But it
+			- The current ((66533703-505d-432d-8368-6058eefb45f6)) was created with the intension to cover the whole space of names, hence named `Namespace`.
+				- But it ends up containing only commonly used nouns and verbs.
+				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) rename it to `Elements`
+					- “Element” in linguistics is defined as 
+					  > any word, part of a word, or group of words that recurs in various contexts in a language with relatively constant meaning
+			- Create an auto-generated page [[Namespace]]
 		- ...
