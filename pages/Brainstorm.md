@@ -172,6 +172,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
 				  case-sensitive:: true
 				  whole-word:: false
+				  filter:: history
 				  child-filter:: propose
 			- id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
 			  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((6653538a-30aa-423f-be89-848ad9c7e331))
@@ -238,7 +239,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     [(get ?props :filter false) ?filter]
 				     [(get ?props :child-filter false) ?child-filter]
 				     (or-join [?b ?filter ?child-filter]
-				         (and [(= false ?child)]
+				         (and [(= false ?filter)]
 				             [(= false ?child-filter)]
 				         )
 				         (and [(!= false ?filter)] 
@@ -290,7 +291,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			    true ; $4 recursive
 			   ]
 			   :query [
-			    :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
+			    :find ?filter-match (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
 			    :in $ ?params ?container ?recursive %
 			    :where
 			     ;
@@ -332,14 +333,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
 			     [(get ?props :filter false) ?filter]
 			     [(get ?props :child-filter false) ?child-filter]
-			     (or-join [?b ?filter ?child-filter]
-			         (and [(= false ?child)]
+			     (or-join [?b ?filter ?child-filter ?filter-match]
+			         (and [(= false ?filter)]
 			             [(= false ?child-filter)]
 			         )
 			         (and [(!= false ?filter)] 
 			  		   [(re-pattern ?filter) ?filter-pattern]
 			             [?b :block/content ?content]
-			         	   [(re-find ?filter-pattern ?content)]     
+			         	   [(re-find ?filter-pattern ?content) ?filter-match]     
 			         )
 			         (and [(!= false ?child-filter)] 
 			  		   [(re-pattern ?child-filter) ?child-filter-pattern]
