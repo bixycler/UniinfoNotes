@@ -4735,8 +4735,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- `:inputs[ [:block/uuid #uuid "${UUID}"] ] :query[ :in ?block :where [... ?block ...] ]`
 						- `:where [(identity [:block/uuid #uuid "${UUID}"]) ?block]`
 						- `:where [?b :block/refs [:block/uuid #uuid "${UUID}"]]`
-					- Result display: merge child blocks into parent, table display, collapsed list
-						- `:remove-block-children?` merge child blocks into parent in list display
+					- Result display: merge child blocks into parent, table view, collapsed list
+						- There are 2 views of result: list (default) and table
+							- List view (default): shows results in semi-hierarchical list where blocks are grouped by default (:remove-block-children? true).
+							- Table view: shows results in a table with columns like `block`, `page`, and custom properties appearing in result blocks.
+						- `:remove-block-children? true` (default `true`), in list view, will merge child blocks into common parents and group blocks into pages.
+						- `:result-transform` can be used to collapse blocks in list view.
 					- Reusable components of advanced query
 					  collapsed:: true
 						- Ref: [Make Advanced Queries reusable](https://discuss.logseq.com/t/make-advanced-queries-reusable/15281)
