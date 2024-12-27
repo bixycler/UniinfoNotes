@@ -235,17 +235,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     (check-ancestor-parent ?b ?scope ?is-parent)
 				     ; 
 				     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
-				     [(get ?props :filter ".*") ?filter]
+				     [(get ?props :filter false) ?filter]
 				     [(get ?props :child-filter false) ?child-filter]
-				     [(re-pattern ?filter) ?filter-pattern]
-				     [(re-pattern ?child-filter) ?child-filter-pattern]
-				     (or-join [?b ?filter-pattern ?child-filter-pattern]
-				         (and [?b :block/content ?content]
+				     (or-join [?b ?filter ?child-filter]
+				         (and [(= false ?child)]
+				             [(= false ?child-filter)]
+				         )
+				         (and [(!= false ?filter)] 
+				  		   [(re-pattern ?filter) ?filter-pattern]
+				             [?b :block/content ?content]
 				         	   [(re-find ?filter-pattern ?content)]     
 				         )
-				         [(= false ?child-filter-pattern)]
-				         (not [?bchild :block/parent ?b])
-				         (and [(!= false ?child-filter-pattern)] 
+				         (and [(!= false ?child-filter)] 
+				  		   [(re-pattern ?child-filter) ?child-filter-pattern]
 				             [?bchild :block/parent ?b]
 				  		   [?bchild :block/content ?child-content]
 				             [(re-find ?child-filter-pattern ?child-content)]     
@@ -328,17 +330,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			     (check-ancestor-parent ?b ?scope ?is-parent)
 			     ; 
 			     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
-			     [(get ?props :filter ".*") ?filter]
+			     [(get ?props :filter false) ?filter]
 			     [(get ?props :child-filter false) ?child-filter]
-			     [(re-pattern ?filter) ?filter-pattern]
-			     [(re-pattern ?child-filter) ?child-filter-pattern]
-			     (or-join [?b ?filter-pattern ?child-filter-pattern]
-			         (and [?b :block/content ?content]
+			     (or-join [?b ?filter ?child-filter]
+			         (and [(= false ?child)]
+			             [(= false ?child-filter)]
+			         )
+			         (and [(!= false ?filter)] 
+			  		   [(re-pattern ?filter) ?filter-pattern]
+			             [?b :block/content ?content]
 			         	   [(re-find ?filter-pattern ?content)]     
 			         )
-			         [(= false ?child-filter-pattern)]
-			         (not [?bchild :block/parent ?b])
-			         (and [(!= false ?child-filter-pattern)] 
+			         (and [(!= false ?child-filter)] 
+			  		   [(re-pattern ?child-filter) ?child-filter-pattern]
 			             [?bchild :block/parent ?b]
 			  		   [?bchild :block/content ?child-content]
 			             [(re-find ?child-filter-pattern ?child-content)]     
