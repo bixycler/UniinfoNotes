@@ -173,10 +173,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
 				  case-sensitive:: true
 				  whole-word:: false
-				  filter:: linear
-				  child-filter:: with
 				  this is just a comment line, not counted into the search keywords
 				- Filters
+				  filter:: linear
+				  child-filter:: with
+				  id:: 67700577-5afb-4e6c-8722-3147c18bfa2c
 				- Properties:
 				  collapsed:: true
 					- `case-sensitive::``true` (default = false) adds `(?i)` to the main pattern
@@ -206,7 +207,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				   :inputs [ 
 				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 search pattern ?params
 				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
-				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $4 ?filters
+				    [:block/uuid #uuid "67700577-5afb-4e6c-8722-3147c18bfa2c"]  ; $4 ?filters
 				    true ; $5 ?recursive
 				   ]
 				   ;;;;;;;; query body ;;;;;;;;
@@ -309,7 +310,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			   :inputs [ 
 			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 search pattern ?params
 			    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
-			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $4 ?filters
+			    [:block/uuid #uuid "67700577-5afb-4e6c-8722-3147c18bfa2c"]  ; $4 ?filters
 			    true ; $5 ?recursive
 			   ]
 			   ;;;;;;;; query body ;;;;;;;;
