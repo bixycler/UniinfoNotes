@@ -300,12 +300,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				         (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
 				       )
 				     ]
-				     ;
-				     ;; Replace block-ref `((block-id))` with bare `block-id`
-				     [(block-ref-to-block-id ?str ?res)
-				       [(re-pattern ".*") ?block-pattern]
-				  	 [(re-find ?block-pattern ?str) ?res]
-				     ]
 				   ]; end :rules[]
 				  }
 				  #+END_QUERY
