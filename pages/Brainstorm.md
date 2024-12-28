@@ -206,6 +206,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope
 				    true ; $4 recursive
 				   ]
+				   ;;;;;;;; query body ;;;;;;;;
 				   :query [
 				    :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
 				    :in $ ?params ?container ?recursive %
@@ -240,7 +241,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				            [?scope :block/uuid ?uuid]
 				            [(clojure.string/includes? ?search-scope ?uuid)]
 				         )
-				     )
+				     ); end or-join
 				     ;
 				     ; ?scope parameter contains ?b
 				     [(not ?recursive) ?is-parent]
@@ -264,13 +265,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  		   [?bchild :block/content ?child-content]
 				             [(re-find ?child-filter-pattern ?child-content)]     
 				         )
-				     )
+				     ); end or-join
 				     ;
 				     ; ?b block/content contains ?search-pattern
 				     [?b :block/content ?content]
 				     [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
 				     ;[(clojure.string/includes? ?content ?key)]
-				   ]
+				   ]; end :query[]
+				   ;;;;;;;; rules ;;;;;;;;
 				   :rules [
 				     ;
 				     ;; Check if ?b has ?ancestor as an ancestor
@@ -289,7 +291,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				         (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
 				       )
 				     ]
-				   ]
+				   ]; end :rules[]
 				  }
 				  #+END_QUERY
 				  ```
