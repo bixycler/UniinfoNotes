@@ -204,12 +204,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				   :inputs [ 
 				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 pattern
 				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope
-				    true ; $4 recursive
+				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $4 filters
+				    true ; $5 recursive
 				   ]
 				   ;;;;;;;; query body ;;;;;;;;
 				   :query [
 				    :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
-				    :in $ ?params ?container ?recursive %
+				    :in $ ?params ?container ?filters ?recursive %
 				    :where
 				     ;
 				     ; ?key parameter
@@ -248,8 +249,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     (check-ancestor-parent ?b ?scope ?is-parent)
 				     ; 
 				     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
-				     [(get ?props :filter false) ?filter]
-				     [(get ?props :child-filter false) ?child-filter]
+				     [(get ?filters :filter false) ?filter]
+				     [(get ?filters :child-filter false) ?child-filter]
 				     (or-join [?b ?filter ?child-filter]
 				         (and [(= false ?filter)]
 				             [(= false ?child-filter)]
@@ -272,6 +273,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
 				     ;[(clojure.string/includes? ?content ?key)]
 				   ]; end :query[]
+				   ;
+				   ;; query options:
+				   :remove-block-children? true ; $6 group-results
+				   ;
 				   ;;;;;;;; rules ;;;;;;;;
 				   :rules [
 				     ;
@@ -297,15 +302,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  ```
 			- query-table:: false
 			  #+BEGIN_QUERY
-			  {:title [:h3 "Result"]  ; $1
+			  {:title [:h3 "Result"]  ; replaced by $1
 			   :inputs [ 
 			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 pattern
 			    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope
-			    true ; $4 recursive
+			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $4 filters
+			    true ; $5 recursive
 			   ]
+			   ;;;;;;;; query body ;;;;;;;;
 			   :query [
 			    :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
-			    :in $ ?params ?container ?recursive %
+			    :in $ ?params ?container ?filters ?recursive %
 			    :where
 			     ;
 			     ; ?key parameter
@@ -337,15 +344,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			            [?scope :block/uuid ?uuid]
 			            [(clojure.string/includes? ?search-scope ?uuid)]
 			         )
-			     )
+			     ); end or-join
 			     ;
 			     ; ?scope parameter contains ?b
 			     [(not ?recursive) ?is-parent]
 			     (check-ancestor-parent ?b ?scope ?is-parent)
 			     ; 
 			     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
-			     [(get ?props :filter false) ?filter]
-			     [(get ?props :child-filter false) ?child-filter]
+			     [(get ?filters :filter false) ?filter]
+			     [(get ?filters :child-filter false) ?child-filter]
 			     (or-join [?b ?filter ?child-filter]
 			         (and [(= false ?filter)]
 			             [(= false ?child-filter)]
@@ -361,13 +368,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  		   [?bchild :block/content ?child-content]
 			             [(re-find ?child-filter-pattern ?child-content)]     
 			         )
-			     )
+			     ); end or-join
 			     ;
 			     ; ?b block/content contains ?search-pattern
 			     [?b :block/content ?content]
 			     [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
 			     ;[(clojure.string/includes? ?content ?key)]
-			   ]
+			   ]; end :query[]
+			   ;
+			   ;; query options:
+			   :remove-block-children? true ; $6 group-results
+			   ;
+			   ;;;;;;;; rules ;;;;;;;;
 			   :rules [
 			     ;
 			     ;; Check if ?b has ?ancestor as an ancestor
@@ -386,7 +398,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			         (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
 			       )
 			     ]
-			   ]
+			   ]; end :rules[]
 			  }
 			  #+END_QUERY
 			- Macro `{{search-query}}` defined in [[logseq/config.edn]]
@@ -395,7 +407,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Preprocess the query source before pasting to `:search-query`
 				  collapsed:: true
 					- Escape all **backslashes _then_ double quotes**: `\` -> `\\`, `"` -> `\"`
-					- Replace **parameters** `$1...$4` (Move `:title` to `$1` above `#+BEGIN_QUERY`)
+					- Tab
+					- Replace **parameters** `$1...$6` (Move `:title` to `$1` above `#+BEGIN_QUERY`)
 					  ```edn
 					    :search-query
 					    "$1
