@@ -175,9 +175,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  whole-word:: false
 				  this is just a comment line, not counted into the search keywords
 				- Filters
-				  filter:: linear
-				  child-filter:: with
 				  id:: 67700577-5afb-4e6c-8722-3147c18bfa2c
+				  filter:: linear|((67139af7-47a6-4441-bd72-5a75448dbb1b))
+				  child-filter:: with
 				- Properties:
 				  collapsed:: true
 					- `case-sensitive::``true` (default = false) adds `(?i)` to the main pattern
@@ -305,6 +305,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  #+END_QUERY
 				  ```
 			- query-table:: false
+			  query-properties:: [:block :page]
 			  #+BEGIN_QUERY
 			  {:title [:h3 "Result"]  ; replaced by $1 above #+BEGIN_QUERY
 			   :inputs [ 

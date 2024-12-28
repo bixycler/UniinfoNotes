@@ -24,8 +24,8 @@ id:: 66faa5f7-f408-406c-befd-8ae69ed56667
 	  ^ **Name & Term** search
 		- Filters
 		  id:: 677010ec-01b9-48d6-9a3b-ea53bd62cea3
-		  filter:: ((665359e4-4597-4775-b849-f9acbb98960a))|.*((665c9af1-1ce2-461c-af33-671690618c8f))|.*((6699e4db-2e75-4427-94bb-96dfe0367dd1))|.*((6699ea73-dc77-4227-a293-b501f2eb1759))|.*((6699e5f2-7788-46c7-8233-87699a65ca30))|.*((6699eb54-ce9e-4472-a784-c59ffd47f02b))
-		  child-filter:: ((6651ecba-793d-43c5-8020-a9f260b032d8))
+		  filter:: 665359e4-4597-4775-b849-f9acbb98960a|665c9af1-1ce2-461c-af33-671690618c8f|6699e4db-2e75-4427-94bb-96dfe0367dd1|6699ea73-dc77-4227-a293-b501f2eb1759|6699e5f2-7788-46c7-8233-87699a65ca30|6699eb54-ce9e-4472-a784-c59ffd47f02b
+		  child-filter:: 6651ecba-793d-43c5-8020-a9f260b032d8
 		- {{search-query [:h3 "Name & Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 6651e92e-fb34-4d24-a386-d9698c2e93f7, 677010ec-01b9-48d6-9a3b-ea53bd62cea3, true, false}}
 		  query-table:: false
 	- wiki:
