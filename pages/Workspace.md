@@ -733,7 +733,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- But it ends up containing only commonly used nouns and verbs.
 				  id:: 676e5573-29fa-4d67-819b-73e0d3977a61
 				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) rename it to `Elements`
-					- “Element” in linguistics is [defined as](https://www.collinsdictionary.com/us/dictionary/english/element) 
+					- “Element” in linguistics is [defined as](https://www.collinsdictionary.com/us/dictionary/english/element) lexemes, morphemes, and idioms
 					  > any word, part of a word, or group of words that recurs in various contexts in a language with relatively constant meaning
 			- Create backlink-based ((676e5861-1220-40e4-9546-e319e17df1aa)).
 			- ((6735b185-f544-4733-918c-883788292569)) to Macro `{{search-query}}` and apply to [Name search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
