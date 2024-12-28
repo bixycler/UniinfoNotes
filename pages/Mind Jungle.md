@@ -4730,6 +4730,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Built-in functions for `:where` are defined in  [DataScript](https://github.com/tonsky/datascript)'s [built_ins.cljc](https://github.com/tonsky/datascript/blob/master/src/datascript/built_ins.cljc).
 						- Core functions like  `if` are not supported!
 						- Very limited [clojure.string](https://clojuredocs.org/clojure.string) functions: `blank`, `includes`, `starts-with`, `ends-with`
+						- Supported RegEx in [clojure.core](https://clojuredocs.org/clojure.core): `re-pattern`, `re-find`, `re-matches`, `re-seq`
 					- To get the block with specified `${UUID}`, use `[:block/uuid #uuid "${UUID}"]`.
 					  collapsed:: true
 						- `:inputs[ [:block/uuid #uuid "${UUID}"] ] :query[ :in ?block :where [... ?block ...] ]`
