@@ -3792,7 +3792,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d))
-		- Unithread
+		- **Unithread**
 		  id:: 66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ac41d1-09e7-44b1-9290-ea7d5f02a817))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is the representation of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) in mathematical language, where everything is represented by the ((66ab75a1-f4a0-4bab-a002-8e573546623a)). ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
@@ -5589,7 +5589,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
 				- Supports [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64).
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
-		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =>  71:47:28

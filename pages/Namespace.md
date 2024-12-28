@@ -155,6 +155,7 @@ collapsed:: true
 	  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bc2-a18e-43ab-86ac-a0f0f7dcbbb5))
 		- Component:
 		  id:: 66532ccc-ae21-4940-8714-715060d6bd90
+		  collapsed:: true
 		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532bb2-7680-461b-80b2-71fc96c89fb9))
 		- Complementarity:
 		  id:: 667bf816-d1c8-4ac3-b315-764c14bfbb1f
@@ -173,6 +174,7 @@ collapsed:: true
 		  id:: 665359c3-61fd-4858-a117-ecbcd6fbc9ea
 	- Wiki:
 	  id:: 665359c0-a89a-41b5-9f28-503f79107a08
+	  collapsed:: true
 	  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66536a32-fddd-465f-a47f-fa8e0ea9c8db))
 	- Git:
 	  id:: 665f1a5c-6c98-4785-a177-3cd01507595d
@@ -182,6 +184,7 @@ collapsed:: true
 	  id:: 665dcac9-5698-496c-9a14-c5c0425d0998
 	- History:
 	  id:: 6667abd2-14eb-4145-b9e3-e6f3037b3117
+	  collapsed:: true
 	  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((6667ac3c-8fff-43aa-92ac-fca2002e58f4))
 	- File:
 	  id:: 666a539d-499f-43c0-8b2e-74818cc3a0f5
