@@ -2755,12 +2755,13 @@
   #+END_QUERY
   "
           
-  ;; Search for pattern (regex)=$2 in a scope (block)=$3 either recursively=$4 or not.
+  ;; Search for pattern (regex)=$2 in a scope (block)=$3 either recursively=$5 or not.
   ;; - The title of the result list/table is specified by $1.
   ;; - In $2, only the first line (title) is used as regex, 
   ;;   next lines can be comments or optional properties:
-  ;;   + `case-sensitive:: true` (default = false) adds (?i) to the main pattern
-  ;;   + `whole-word:: true` (default = false) adds \b to the main pattern
+  ;;   + `case-sensitive:: true` (default = false) adds `(?i)` to the main pattern
+  ;;   + `whole-word:: true` (default = false) adds `\b` to the main pattern
+  ;; - Additional filters can be provided via properties in (block)=$4:
   ;;   + `filter::` the regex pattern that result blocks must match,
   ;;     in conjunction with the main pattern
   ;;   + `child-filter::` the regex pattern that at least on child block (if any) must match,
@@ -2769,24 +2770,30 @@
   ;;     - An empty filter, e.g. `filter::` means "everything is allowed" which is 
   ;;       different from lacking such filter whose meaning depends (see next...)
   ;;     - When no filters appear, the search domain includes all blocks.
-  ;;     - When at least one filter appears, the search domain is filtered by 
+  ;;     - When at least one filter appears, the search domain includes  
   ;;       the disjunction of appearing filters.
   ;;       + An empty `child-filter::` means "blocks with at least one child are allowed".
   ;;       + An empty `filter::` means "all blocks are allowed", ignoring `child-filter::`.
   ;;       + To disable a filter, instead of removing that filter, we can 
   ;;         use contradiction patterns like `$^` or `(nothing)^` as a placeholder.
+  ;;         * Note: Don't set both `filter::(nothing)^` and `child-filter::(nothing)^`
+  ;;           because it makes the search domain empty!
+  ;; - $6 group-results: {true,false} value set to `:remove-block-children?` 
+  ;;   + When using table view, this option must be set to `false` to display all child block results.
   :search-query
   "$1
     #+BEGIN_QUERY
-    {;:title [:h3 \"Result\"]  ; replaced by $1
+    {;:title [:h3 \"Result\"]  ; replaced by $.1 above #+BEGIN_QUERY
      :inputs [ 
-      [:block/uuid #uuid \"$2\"]  ; $2 pattern
-      [:block/uuid #uuid \"$3\"]  ; $3 search-scope
-      $4 ; $4 recursive
+      [:block/uuid #uuid \"$2\"]  ;  search pattern ?params
+      [:block/uuid #uuid \"$3\"]  ;  search-scope ?container
+      [:block/uuid #uuid \"$4\"]  ;  ?filters
+      $5 ; ?recursive
      ]
+     ;;;;;;;; query body ;;;;;;;;
      :query [
       :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
-      :in $ ?params ?container ?recursive %
+      :in $ ?params ?container ?filters ?recursive %
       :where
        ;
        ; ?key parameter
@@ -2818,37 +2825,43 @@
               [?scope :block/uuid ?uuid]
               [(clojure.string/includes? ?search-scope ?uuid)]
            )
-       )
+       ); end or-join
        ;
        ; ?scope parameter contains ?b
        [(not ?recursive) ?is-parent]
        (check-ancestor-parent ?b ?scope ?is-parent)
        ; 
-       ; Match filter patterns (?filter, ?child-filter) against result/child blocks
-       [(get ?props :filter false) ?filter]
-       [(get ?props :child-filter false) ?child-filter]
+       ; Match filter patterns in ?filters against result/child blocks
+       [?filters :block/properties ?pfilters]
+       [(get ?pfilters :filter false) ?filter]
+       [(get ?pfilters :child-filter false) ?child-filter]
        (or-join [?b ?filter ?child-filter]
            (and [(= false ?filter)]
                [(= false ?child-filter)]
            )
            (and [(!= false ?filter)] 
-               [(re-pattern ?filter) ?filter-pattern]
+    		   [(re-pattern ?filter) ?filter-pattern]
                [?b :block/content ?content]
-               [(re-find ?filter-pattern ?content)]     
+           	   [(re-find ?filter-pattern ?content)]     
            )
            (and [(!= false ?child-filter)] 
-               [(re-pattern ?child-filter) ?child-filter-pattern]
+    		   [(re-pattern ?child-filter) ?child-filter-pattern]
                [?bchild :block/parent ?b]
-               [?bchild :block/content ?child-content]
+    		   [?bchild :block/content ?child-content]
                [(re-find ?child-filter-pattern ?child-content)]     
            )
-       )
+       ); end or-join
        ;
        ; ?b block/content contains ?search-pattern
        [?b :block/content ?content]
        [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
        ;[(clojure.string/includes? ?content ?key)]
-     ]
+     ]; end :query[]
+     ;
+     ;; query options:
+     :remove-block-children? $6 ; group-results
+     ;
+     ;;;;;;;; rules ;;;;;;;;
      :rules [
        ;
        ;; Check if ?b has ?ancestor as an ancestor
@@ -2867,9 +2880,10 @@
            (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
          )
        ]
-     ]
+     ]; end :rules[]
     }
-    #+END_QUERY  "
+    #+END_QUERY
+  "
  }
 
  ;; Configure the default expansion level for linked references.
