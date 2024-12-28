@@ -735,5 +735,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) rename it to `Elements`
 					- “Element” in linguistics is [defined as](https://www.collinsdictionary.com/us/dictionary/english/element) lexemes, morphemes, and idioms
 					  > any word, part of a word, or group of words that recurs in various contexts in a language with relatively constant meaning
+			- DOING add `filter::` & `child-filter::` to Macro `{{search-query}}` and apply to [Name search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
+			  id:: 6735b185-f544-4733-918c-883788292569
+			  :LOGBOOK:
+			  CLOCK: [2024-12-27 Fri 18:23:01]
+			  :END:
 			- Create backlink-based ((676e5861-1220-40e4-9546-e319e17df1aa)).
 		- ...
