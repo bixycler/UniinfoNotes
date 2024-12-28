@@ -2742,7 +2742,7 @@
   :hi-macro "Hi there! I'm $1 from macro `{{hi-macro}}`"
   :blocks-with-content
   "(At least 1 line [may be empty] is required before `#+BEGIN_QUERY`)
-(which should replace the query title: **$1**)
+  (which should replace the query title: **$1**)
   #+BEGIN_QUERY
   {;:title [:h3 \"$1\"]
    :query [
@@ -2767,80 +2767,99 @@
   ;;     in disjunction with filter pattern
   :search-query
   "$1
-#+BEGIN_QUERY
-{
- :inputs [ 
-  [:block/uuid #uuid \"$2\"]  ; pattern
-  [:block/uuid #uuid \"$3\"]  ; search-scope
-  $4 ; recursive
- ]
- :query [
-  :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
-  :in $ ?params ?container ?recursive %
-  :where
-   ;
-   ; ?key parameter
-   [?params :block/content ?paramlines]
-   [(re-pattern \".*\") ?firstLinePattern]
-   [(re-find ?firstLinePattern ?paramlines) ?key]
-   ;
-   ; ?case-sensitive parameter (default = false) => ?search-pattern
-   [?params :block/properties ?props]
-   [(get ?props :case-sensitive false) ?case-sensitive]
-   [(get ?props :whole-word false) ?whole-word]
-   (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
-       (and [(= true ?whole-word)] [(str \"\\\\b\" ?key \"\\\\b\") ?key-pat])
-       (and [(= false ?whole-word)] [(str ?key) ?key-pat])
-   )
-   (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
-       (and [(= true ?case-sensitive)] [(str ?key-pat) ?key-case])
-       (and [(= false ?case-sensitive)] [(str \"(?i)\" ?key-pat) ?key-case])
-   )
-   [(re-pattern ?key-case) ?search-pattern]
-   ;
-   ; ?scope parameter <= (?search-scope or ?container itself)
-   [?container :block/properties ?cprops]
-   [(get ?cprops :search-scope false) ?search-scope]
-   (or-join [?search-scope ?container ?scope]
-       (and [(= false ?search-scope)] [(identity ?container) ?scope])
-       (and [(!= false ?search-scope)] 
-          [?container :block/refs ?scope]
-          [?scope :block/uuid ?uuid]
-          [(clojure.string/includes? ?search-scope ?uuid)]
+    #+BEGIN_QUERY
+    {;:title [:h3 \"Result\"]  ; replaced by $1
+     :inputs [ 
+      [:block/uuid #uuid \"$2\"]  ; $2 pattern
+      [:block/uuid #uuid \"$3\"]  ; $3 search-scope
+      $4 ; $4 recursive
+     ]
+     :query [
+      :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
+      :in $ ?params ?container ?recursive %
+      :where
+       ;
+       ; ?key parameter
+       [?params :block/content ?paramlines]
+       [(re-pattern \".*\") ?firstLinePattern]
+       [(re-find ?firstLinePattern ?paramlines) ?key]
+       ;
+       ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
+       [?params :block/properties ?props]
+       [(get ?props :case-sensitive false) ?case-sensitive]
+       [(get ?props :whole-word false) ?whole-word]
+       (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+           (and [(= true ?whole-word)] [(str \"\\b\" ?key \"\\b\") ?key-pat])
+           (and [(= false ?whole-word)] [(str ?key) ?key-pat])
        )
-   )
-   ;
-   ; ?scope parameter contains ?b
-   [(not ?recursive) ?is-parent]
-   (check-ancestor-parent ?b ?scope ?is-parent)
-   ;
-   ; ?b block/content contains ?search-pattern
-   [?b :block/content ?content]
-   [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
-   ;[(clojure.string/includes? ?content ?key)]
- ]
- :rules [
-   ;
-   ;; Check if ?b has ?ancestor as an ancestor
-   [(check-ancestor ?b ?ancestor)
-     [?b :block/parent ?ancestor]
-   ]
-   [(check-ancestor ?b ?ancestor)
-     [?b :block/parent ?t]
-     (check-ancestor ?t ?ancestor)
-   ]
-   ;
-   ;; Check if ?b has ?ancestor as an ancestor or as a parent (when ?is-parent)
-   [(check-ancestor-parent ?b ?ancestor ?is-parent)
-     (or
-       (and [(= true ?is-parent)] [?b :block/parent ?ancestor])
-       (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
-     )
-   ]
- ]
-}
-#+END_QUERY
-  "
+       (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+           (and [(= true ?case-sensitive)] [(str ?key-pat) ?key-case])
+           (and [(= false ?case-sensitive)] [(str \"(?i)\" ?key-pat) ?key-case])
+       )
+       [(re-pattern ?key-case) ?search-pattern]
+       ;
+       ; ?scope parameter <= (?search-scope or ?container itself)
+       [?container :block/properties ?cprops]
+       [(get ?cprops :search-scope false) ?search-scope]
+       (or-join [?search-scope ?container ?scope]
+           (and [(= false ?search-scope)] [(identity ?container) ?scope])
+           (and [(!= false ?search-scope)] 
+              [?container :block/refs ?scope]
+              [?scope :block/uuid ?uuid]
+              [(clojure.string/includes? ?search-scope ?uuid)]
+           )
+       )
+       ;
+       ; ?scope parameter contains ?b
+       [(not ?recursive) ?is-parent]
+       (check-ancestor-parent ?b ?scope ?is-parent)
+       ; 
+       ; Match filter patterns (?filter, ?child-filter) against result/child blocks
+       [(get ?props :filter false) ?filter]
+       [(get ?props :child-filter false) ?child-filter]
+       (or-join [?b ?filter ?child-filter]
+           (and [(= false ?filter)]
+               [(= false ?child-filter)]
+           )
+           (and [(!= false ?filter)] 
+               [(re-pattern ?filter) ?filter-pattern]
+               [?b :block/content ?content]
+               [(re-find ?filter-pattern ?content)]     
+           )
+           (and [(!= false ?child-filter)] 
+               [(re-pattern ?child-filter) ?child-filter-pattern]
+               [?bchild :block/parent ?b]
+               [?bchild :block/content ?child-content]
+               [(re-find ?child-filter-pattern ?child-content)]     
+           )
+       )
+       ;
+       ; ?b block/content contains ?search-pattern
+       [?b :block/content ?content]
+       [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
+       ;[(clojure.string/includes? ?content ?key)]
+     ]
+     :rules [
+       ;
+       ;; Check if ?b has ?ancestor as an ancestor
+       [(check-ancestor ?b ?ancestor)
+         [?b :block/parent ?ancestor]
+       ]
+       [(check-ancestor ?b ?ancestor)
+         [?b :block/parent ?t]
+         (check-ancestor ?t ?ancestor)
+       ]
+       ;
+       ;; Check if ?b has ?ancestor as an ancestor or as a parent (when ?is-parent)
+       [(check-ancestor-parent ?b ?ancestor ?is-parent)
+         (or
+           (and [(= true ?is-parent)] [?b :block/parent ?ancestor])
+           (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
+         )
+       ]
+     ]
+    }
+    #+END_QUERY  "
  }
 
  ;; Configure the default expansion level for linked references.
