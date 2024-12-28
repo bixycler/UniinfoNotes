@@ -177,24 +177,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  child-filter:: with
 				  this is just a comment line, not counted into the search keywords
 				- Properties:
+				  collapsed:: true
 					- `case-sensitive::``true` (default = false) adds `(?i)` to the main pattern
-					- `whole-word: true` (default = false) adds `\b` to the main pattern
-					- `filter::` the regex pattern that result blocks must match,
-					  in conjunction with the main pattern
-					- `child-filter::` the regex pattern that at least on child block (if any) must match,
-					  in disjunction with filter pattern
+					- `whole-word::``true` (default = false) adds `\b` to the main pattern
+					- `filter::` the regex pattern that result blocks must match, in **conjunction** with the main pattern
+					- `child-filter::` the regex pattern that at least on child block (if any) must match, in **disjunction** with filter pattern
 					- Filter combinations:
-						- An empty filter, e.g. `filter::` means "everything is allowed" which is 
-						  different from lacking such filter whose meaning depends (see next...)
-						- When no filters appear, the search domain includes all blocks.
-						- When at least one filter appears, the search domain includes  
-						  the disjunction of appearing filters.
+						- An empty filter, e.g. `filter::` means "everything is allowed" which is different from lacking such filter whose meaning depends (see next...)
+						- When **no filters** appear, the search domain includes **all blocks**.
+						- When at least one filter appears, the search domain includes the **disjunction** of appearing filters.
 							- An empty `child-filter::` means "blocks with at least one child are allowed".
 							- An empty `filter::` means "all blocks are allowed", ignoring `child-filter::`.
-							- To disable a filter, instead of removing that filter, we can 
-							  use contradiction patterns like `$^` or `(nothing)^` as a placeholder.
-							  * Note: Don't set both `filter::(nothing)^` and `child-filter::(nothing)^`
-							    because it makes the search domain empty!
+							- To disable a filter, instead of removing that filter, we can use *contradiction patterns* like `$^` or `(nothing)^` as a placeholder.
+								- Note: Don't set both `filter:: (nothing)^` and `child-filter:: (nothing)^` because it makes the search domain empty!
 			- id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
 			  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((6653538a-30aa-423f-be89-848ad9c7e331))
 			  Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
