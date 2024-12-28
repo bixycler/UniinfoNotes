@@ -4729,7 +4729,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- defined in [db.cljs](https://github.com/logseq/logseq/blob/master/deps/graph-parser/src/logseq/graph_parser/util/db.cljs#L77)
 					- Built-in functions for `:where` are defined in  [DataScript](https://github.com/tonsky/datascript)'s [built_ins.cljc](https://github.com/tonsky/datascript/blob/master/src/datascript/built_ins.cljc).
 						- Core functions like  `if` are not supported!
-						- Very limited `clojure.string` functions: `blank`, `includes`, `starts-with`, `ends-with`
+						- Very limited [clojure.string](https://clojuredocs.org/clojure.string) functions: `blank`, `includes`, `starts-with`, `ends-with`
 					- To get the block with specified `${UUID}`, use `[:block/uuid #uuid "${UUID}"]`.
 					  collapsed:: true
 						- `:inputs[ [:block/uuid #uuid "${UUID}"] ] :query[ :in ?block :where [... ?block ...] ]`

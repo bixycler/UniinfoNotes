@@ -303,8 +303,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     ;
 				     ;; Replace block-ref `((block-id))` with bare `block-id`
 				     [(block-ref-to-block-id ?str ?res)
-				       [(re-pattern ".*") ?firstLinePattern]
-				  	 [(re-find ?firstLinePattern ?paramlines) ?key]
+				       [(re-pattern ".*") ?block-pattern]
+				  	 [(re-find ?block-pattern ?str) ?res]
 				     ]
 				   ]; end :rules[]
 				  }
