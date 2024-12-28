@@ -178,6 +178,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  id:: 67700577-5afb-4e6c-8722-3147c18bfa2c
 				  filter:: linear|67139af7-47a6-4441-bd72-5a75448dbb1b
 				  child-filter:: with
+					- filter: linear | ((67139af7-47a6-4441-bd72-5a75448dbb1b))
 				- Properties:
 				  collapsed:: true
 					- `case-sensitive::``true` (default = false) adds `(?i)` to the main pattern
