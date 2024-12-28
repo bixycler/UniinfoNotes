@@ -168,7 +168,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  query-table:: false
 		  id:: 66faa5f8-0711-4a23-afe0-fb8d2ebb644e
 		  collapsed:: true
-			- Pattern (regex): The first line, i.e. ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)), will be used as search pattern.
+			- Patterns (regex): The first line, i.e. ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)), will be used as search pattern.
 				- history
 				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
 				  case-sensitive:: true
@@ -176,6 +176,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  filter:: linear
 				  child-filter:: with
 				  this is just a comment line, not counted into the search keywords
+				- Filters
 				- Properties:
 				  collapsed:: true
 					- `case-sensitive::``true` (default = false) adds `(?i)` to the main pattern
@@ -192,7 +193,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 								- Note: Don't set both `filter:: (nothing)^` and `child-filter:: (nothing)^` because it makes the search domain empty!
 			- id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
 			  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((6653538a-30aa-423f-be89-848ad9c7e331))
-			  Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
+			  collapsed:: true
+				- Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
 			- Ref: [Find nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
 			- TODO search for ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)) only with `first-line::` and limited `content-length::`, to be applied in [term search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
 			- Source code
@@ -200,12 +202,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- id:: 6735b185-3584-42f7-86e4-0d65a5c555d0
 				  ```clojure
 				  #+BEGIN_QUERY
-				  {:title [:h3 "Result"]  ; replaced by $1
+				  {:title [:h3 "Result"]  ; replaced by $1 above #+BEGIN_QUERY
 				   :inputs [ 
-				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 pattern
-				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope
-				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $4 filters
-				    true ; $5 recursive
+				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 search pattern ?params
+				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
+				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $4 ?filters
+				    true ; $5 ?recursive
 				   ]
 				   ;;;;;;;; query body ;;;;;;;;
 				   :query [
@@ -248,9 +250,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				     [(not ?recursive) ?is-parent]
 				     (check-ancestor-parent ?b ?scope ?is-parent)
 				     ; 
-				     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
-				     [(get ?filters :filter false) ?filter]
-				     [(get ?filters :child-filter false) ?child-filter]
+				     ; Match filter patterns in ?filters against result/child blocks
+				     [?filters :block/properties ?pfilters]
+				     [(get ?pfilters :filter false) ?filter]
+				     [(get ?pfilters :child-filter false) ?child-filter]
 				     (or-join [?b ?filter ?child-filter]
 				         (and [(= false ?filter)]
 				             [(= false ?child-filter)]
@@ -302,12 +305,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  ```
 			- query-table:: false
 			  #+BEGIN_QUERY
-			  {:title [:h3 "Result"]  ; replaced by $1
+			  {:title [:h3 "Result"]  ; replaced by $1 above #+BEGIN_QUERY
 			   :inputs [ 
-			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 pattern
-			    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope
-			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $4 filters
-			    true ; $5 recursive
+			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 search pattern ?params
+			    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
+			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $4 ?filters
+			    true ; $5 ?recursive
 			   ]
 			   ;;;;;;;; query body ;;;;;;;;
 			   :query [
@@ -350,9 +353,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			     [(not ?recursive) ?is-parent]
 			     (check-ancestor-parent ?b ?scope ?is-parent)
 			     ; 
-			     ; Match filter patterns (?filter, ?child-filter) against result/child blocks
-			     [(get ?filters :filter false) ?filter]
-			     [(get ?filters :child-filter false) ?child-filter]
+			     ; Match filter patterns in ?filters against result/child blocks
+			     [?filters :block/properties ?pfilters]
+			     [(get ?pfilters :filter false) ?filter]
+			     [(get ?pfilters :child-filter false) ?child-filter]
 			     (or-join [?b ?filter ?child-filter]
 			         (and [(= false ?filter)]
 			             [(= false ?child-filter)]
@@ -407,7 +411,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Preprocess the query source before pasting to `:search-query`
 				  collapsed:: true
 					- Escape all **backslashes _then_ double quotes**: `\` -> `\\`, `"` -> `\"`
-					- Tab
+					- Indent 4 spaces
 					- Replace **parameters** `$1...$6` (Move `:title` to `$1` above `#+BEGIN_QUERY`)
 					  ```edn
 					    :search-query
