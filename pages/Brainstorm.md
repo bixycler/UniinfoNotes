@@ -279,7 +279,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				   ]; end :query[]
 				   ;
 				   ;; query options:
-				   :remove-block-children? true ; $6 group-results
+				   :remove-block-children? false ; $6 group-results
 				   ;
 				   ;;;;;;;; rules ;;;;;;;;
 				   :rules [
@@ -382,7 +382,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			   ]; end :query[]
 			   ;
 			   ;; query options:
-			   :remove-block-children? true ; $6 group-results
+			   :remove-block-children? false ; $6 group-results
 			   ;
 			   ;;;;;;;; rules ;;;;;;;;
 			   :rules [
@@ -429,9 +429,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					       :remove-block-children? $6 ; group-results
 					    ...
 					  ```
-				- {{search-query [:h3 "Search Query"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, 67700577-5afb-4e6c-8722-3147c18bfa2c, false, true}}
-				- {{search-query [:h3 "Search Query Recursively"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, 67700577-5afb-4e6c-8722-3147c18bfa2c, true, true}}
-				- {{search-query [:h3 "Search Query Recursively on Mind Jungle"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 6651e92e-fb34-4d24-a386-d9698c2e93f7, 67700577-5afb-4e6c-8722-3147c18bfa2c, true, true}}
+				- {{search-query [:h3 "Search Query"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, 67700577-5afb-4e6c-8722-3147c18bfa2c, false, false}}
+				- {{search-query [:h3 "Search Query Recursively"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, 67700577-5afb-4e6c-8722-3147c18bfa2c, true, false}}
+				- {{search-query [:h3 "Search Query Recursively on Mind Jungle"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 6651e92e-fb34-4d24-a386-d9698c2e93f7, 67700577-5afb-4e6c-8722-3147c18bfa2c, true, false}}
 	- Special properties built in Logseq
 	  collapsed:: true
 		- Example:
