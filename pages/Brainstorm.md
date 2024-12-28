@@ -148,6 +148,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  }
 		  #+END_QUERY
 		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
+		  collapsed:: true
 		- collapsed:: true
 		  #+BEGIN_QUERY
 		  {:title "Macro {{blocks-with-content}}"
@@ -172,6 +173,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
 				  case-sensitive:: true
 				  whole-word:: false
+				  filter:: linear
 				  child-filter:: propose
 			- id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
 			  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((6653538a-30aa-423f-be89-848ad9c7e331))
