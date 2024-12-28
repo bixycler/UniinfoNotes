@@ -173,8 +173,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  id:: 66f6b7fd-9444-4869-9a4d-01f6941c9a9b
 				  case-sensitive:: true
 				  whole-word:: false
-				  filter:: linear
-				  child-filter:: with
+				  filter:: (nothing)^ 
+				  child-filter::
 			- id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
 			  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((6653538a-30aa-423f-be89-848ad9c7e331))
 			  Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
