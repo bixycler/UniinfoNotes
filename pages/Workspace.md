@@ -723,12 +723,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  CLOCK: [2024-12-16 Mon 17:29:54]
 			  CLOCK: [2024-12-16 Mon 17:29:56]--[2024-12-16 Mon 17:30:41] =>  00:00:45
 			  :END:
-		- DOING Refactor [[Namespace]]
+		- DONE Refactor [[Namespace]]
 		  id:: 676e5401-5951-445c-b109-61d61c11fc59
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-12-27 Fri 14:15:18]
-		  CLOCK: [2024-12-27 Fri 14:15:24]
+		  CLOCK: [2024-12-27 Fri 14:15:24]--[2024-12-28 Sat 23:51:54] =>  33:36:30
 		  :END:
 			- The block ((66533703-505d-432d-8368-6058eefb45f6)) was created with the intention to cover the whole space of names, hence named `Namespace`.
 				- But it ends up containing only commonly used nouns and verbs.
@@ -736,10 +736,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) rename it to `Elements`
 					- “Element” in linguistics is [defined as](https://www.collinsdictionary.com/us/dictionary/english/element) lexemes, morphemes, and idioms
 					  > any word, part of a word, or group of words that recurs in various contexts in a language with relatively constant meaning
-			- DOING add `filter::` & `child-filter::` to [Macro `{{search-query}}`](((66fcd905-2d08-40a9-b33f-900204e1b1e4))) and apply to [Name search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
+			- DONE add `filter::` & `child-filter::` to [Macro `{{search-query}}`](((66fcd905-2d08-40a9-b33f-900204e1b1e4))) and apply to [Name search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
 			  id:: 6735b185-f544-4733-918c-883788292569
 			  :LOGBOOK:
-			  CLOCK: [2024-12-27 Fri 18:23:01]
+			  CLOCK: [2024-12-27 Fri 18:23:01]--[2024-12-28 Sat 23:51:39] =>  29:28:38
 			  :END:
 			- Create backlink-based ((676e5861-1220-40e4-9546-e319e17df1aa)).
 		- ...
