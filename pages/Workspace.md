@@ -37,7 +37,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 				- ...
 			- ------
-		- :LOGBOOK:
+		- TODO Relink ((676fa38e-d32f-493b-97e8-9e348eaf572b))
+		  :LOGBOOK:
 		  CLOCK: [2024-12-27 Fri 14:14:48]
 		  :END:
 		-

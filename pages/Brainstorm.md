@@ -185,7 +185,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- id:: 6735b185-3584-42f7-86e4-0d65a5c555d0
 				  ```clojure
 				  #+BEGIN_QUERY
-				  {:title [:h3 "Result"]  ; $1
+				  {:title [:h3 "Result"]  ; replaced by $1
 				   :inputs [ 
 				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 pattern
 				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope
@@ -382,14 +382,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  ```edn
 					    :search-query
 					    "$1
-					  #+BEGIN_QUERY
-					  {
-					   :inputs [ 
-					    [:block/uuid #uuid \"$2\"]  ; pattern
-					    [:block/uuid #uuid \"$3\"]  ; search-scope
-					    $4 ; recursive
-					   ]
-					  ...
+					      #+BEGIN_QUERY
+					      {;:title [:h3 \"Result\"]  ; replaced by $1
+					       :inputs [ 
+					        [:block/uuid #uuid \"$2\"]  ; $2 pattern
+					        [:block/uuid #uuid \"$3\"]  ; $3 search-scope
+					        $4 ; $4 recursive
+					       ]
+					    ...
 					  ```
 				- {{search-query [:h3 "Search Query"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, false}}
 				- {{search-query [:h3 "Search Query Recursively"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, true}}
