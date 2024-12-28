@@ -2765,6 +2765,16 @@
   ;;     in conjunction with the main pattern
   ;;   + `child-filter::` the regex pattern that at least on child block (if any) must match,
   ;;     in disjunction with filter pattern
+  ;;   * Filter combinations:
+  ;;     - An empty filter, e.g. `filter::` means "everything is allowed" which is 
+  ;;       different from lacking such filter whose meaning depends (see next...)
+  ;;     - When no filters appear, the search domain includes all blocks.
+  ;;     - When at least one filter appears, the search domain is filtered by 
+  ;;       the disjunction of appearing filters.
+  ;;       + An empty `child-filter::` means "blocks with at least one child are allowed".
+  ;;       + An empty `filter::` means "all blocks are allowed", ignoring `child-filter::`.
+  ;;       + To disable a filter, instead of removing that filter, we can 
+  ;;         use contradiction patterns like `$^` or `(nothing)^` as a placeholder.
   :search-query
   "$1
     #+BEGIN_QUERY
