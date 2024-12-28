@@ -20,17 +20,19 @@ id:: 66faa5f7-f408-406c-befd-8ae69ed56667
   id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	- thread
 	  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
-	  filter:: ((665359e4-4597-4775-b849-f9acbb98960a))|((665c9af1-1ce2-461c-af33-671690618c8f))
-	  child-filter:: ((6651ecba-793d-43c5-8020-a9f260b032d8))
 	  collapsed:: true
 	  ^ **Name & Term** search
-		- {{search-query [:h3 "Name & Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 6651e92e-fb34-4d24-a386-d9698c2e93f7, true}}
+		- Filters
+		  filter:: ((665359e4-4597-4775-b849-f9acbb98960a))|((665c9af1-1ce2-461c-af33-671690618c8f))
+		  child-filter:: ((6651ecba-793d-43c5-8020-a9f260b032d8))
+		  id:: 677010ec-01b9-48d6-9a3b-ea53bd62cea3
+		- {{search-query [:h3 "Name & Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 6651e92e-fb34-4d24-a386-d9698c2e93f7, 677010ec-01b9-48d6-9a3b-ea53bd62cea3, true, false}}
 		  query-table:: false
 	- wiki:
 	  id:: 66fce8d4-0434-4dd0-941f-4f3bd9b1b456
 	  collapsed:: true
 	  ^ **Element** search
-		- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, true}}
+		- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 		  query-table:: false
 	- search-query
 	  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
