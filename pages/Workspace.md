@@ -55,7 +55,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	-
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
-		- ### Git Commits
+		- ### Git Tracks
 		  id:: 67139355-ac72-4e4c-b882-00bb3a3ea144
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
@@ -93,6 +93,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ((67714850-43c0-4c7f-8b50-838e014b06e0))
+					- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 				- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 				- ...
 			- ------
@@ -374,8 +375,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 							- Remember to breathe!
 							- In the training, all actions should be done automatically without any intention.
 							- Training sessions should run alternately with actual working sessions.
-						- “**Stop - Breath - Observe - Plan**”
+						- DOING “**Stop - Breath - Observe - Plan**”
 						  id:: 67714c6b-68b6-4f73-b209-56f5f184c4d9
+						  :LOGBOOK:
+						  CLOCK: [2024-12-29 Sun 21:06:08]
+						  :END:
 							-
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
