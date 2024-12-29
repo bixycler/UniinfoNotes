@@ -9,7 +9,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	  collapsed:: true
-		- linux
+		- workflow
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  collapsed:: true
 		  ^ **Name & Term** search
@@ -36,7 +36,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- linux
+		- workstack
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
 		  whole-word:: false
@@ -232,9 +232,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  :END:
 				- I usually dive head-first, _without planning_, into the works and issues, which usually **branch off** into lots of new works and issues, hence quickly become a forest from the starting single seed.
 				- The [task & issue tracking steps](((66f7af1f-783e-489b-af9c-3ff01fc7d872))) are forgotten many times.
-				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Beside tracking, i must deploy a **planning** step with 
-				  “**Stop - Breath - Observe - Plan**” 
-				  method.
+				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Beside tracking, i must deploy a **planning** step with ((67714c6b-68b6-4f73-b209-56f5f184c4d9)) method.
+				  id:: 67714aaf-1e7f-4312-9f3c-cb4f06e9b562
+				-
 			- **Perfectionism**
 			  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
 			  collapsed:: true
@@ -374,6 +374,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 							- Remember to breathe!
 							- In the training, all actions should be done automatically without any intention.
 							- Training sessions should run alternately with actual working sessions.
+						- “**Stop - Breath - Observe - Plan**”
+						  id:: 67714c6b-68b6-4f73-b209-56f5f184c4d9
+							-
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.

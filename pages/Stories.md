@@ -707,6 +707,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- đến mấy hôm nay thì anh mới rút xuống dưới 1 ngày, hồi nãy anh vừa đi qua một đoạn chết lịm giờ mới hồi sinh nè 🙂
 		- Combine all techniques to stay in the present
 		  id:: 676a5f10-724c-474f-bf47-4e19c8f0c177
+		  collapsed:: true
 			- Don't chase the future: ((67445065-15b2-475e-a704-78f140d487af))
 			- Don't get stuck with the past: ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
 			- Stay in the present: stay firm with [ujjayi](((66952126-bf33-40e1-a208-369df7aa9488))) = orgasm all the time! = hold firmly on the lanyard/leash connecting to the ((66ab7477-c060-4d07-ab13-bc3d11246854)) but not too tight
