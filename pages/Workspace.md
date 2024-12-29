@@ -92,6 +92,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- ((67711d1f-39a7-42c5-83ac-641d0b838e87))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 				- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 				- ...
 			- ------
@@ -225,10 +226,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- This hook can be replaced with the [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))). Using the internal tool (breath) gives me more control than the external tool (external sink).
 			- When i interrupt the internal work, my self is fragmented, heavy, lack motivation to do anything.
 			- DOING **Duck dive** is a serious problem!
+			  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
 			  :LOGBOOK:
 			  CLOCK: [2024-12-29 Sun 20:02:37]
 			  :END:
-				- I usually dive head-first, _without planning_, into the works and issues, which usually **branch off** into lots of new works and issues
+				- I usually dive head-first, _without planning_, into the works and issues, which usually **branch off** into lots of new works and issues, hence quickly become a forest from the starting single seed.
+				- The [task & issue tracking steps](((66f7af1f-783e-489b-af9c-3ff01fc7d872))) are forgotten many times.
+				- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Beside tracking, i must deploy a **planning** step with 
+				  “**Stop - Breath - Observe - Plan**” 
+				  method.
 			- **Perfectionism**
 			  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
 			  collapsed:: true
@@ -391,8 +397,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((66b1cfa4-369c-49ec-a461-cdda61633460))
 			- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
 			  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
-			  collapsed:: true
 				- Any new block, even plain text, should be [time tracked](((66b1cfa4-0f03-4da2-b34b-d995d3c888b0))) [with `Ctrl Enter` -> `TODO`](((66b1cfa4-8842-4b3c-876b-e60d4b7fd819))) or [with `Alt Enter` -> `DOING`](((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))).
+				  id:: 66f7af1f-783e-489b-af9c-3ff01fc7d872
 				  :LOGBOOK:
 				  CLOCK: [2024-08-15 Thu 16:29:20]
 				  :END:
@@ -409,6 +415,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- When a later access shows any difficulty in understanding or any inconsistency, the old work should be reorganized.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the more accesses to a work, the better organized that work will be.
 			- Solution to my problem of "wandering, lost in complexity": shift from depth-first to breadth-first traversal
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-09-19 Thu 12:24:53]
 			  :END:
