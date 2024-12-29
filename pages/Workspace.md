@@ -398,12 +398,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						  CLOCK: [2024-12-29 Sun 21:06:08]
 						  :END:
 							- This checkstop is required so that all hidden ones can be [revealed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
-							- The master plan keeps the mind near the root, and have a bird's eye view.
 							- DOING Design ((6651adea-52dd-4aa8-9942-a75af9a6a23f)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
 							  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
 							  :LOGBOOK:
 							  CLOCK: [2024-12-29 Sun 21:32:09]
 							  :END:
+								- The master plan keeps the mind near the root, and have a bird's eye view.
+								- The task is usually placed in the context work with status `TODO`, `DOING`, `WAIT`, `IN-PROGRESS`, or `CANCELED`.
+								- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
+								- The plan is to the work as the
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
