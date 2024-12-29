@@ -9,14 +9,16 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	  collapsed:: true
-		- linux
+		- directory
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  collapsed:: true
 		  ^ **Name & Term** search
 			- Filters
+			  collapsed:: true
 				- Containers
 				  id:: 67710fcc-08c4-4a3e-96fd-bc4207f6ec8f
-				  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), ((66949495-3846-4f89-9ea5-c62b624d282c)), [[Linux]] , ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
+				  search-scope::
+				  search-scope-page:: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]]
 				- Block ids
 				  id:: 677010ec-01b9-48d6-9a3b-ea53bd62cea3
 				  filter:: 665359e4-4597-4775-b849-f9acbb98960a|665c9af1-1ce2-461c-af33-671690618c8f|6699e4db-2e75-4427-94bb-96dfe0367dd1|6699ea73-dc77-4227-a293-b501f2eb1759|6699e5f2-7788-46c7-8233-87699a65ca30|6699eb54-ce9e-4472-a784-c59ffd47f02b|66c80d5c-181f-4f06-a285-0624a65e9951|66c80dde-a097-4744-8af8-c6e26dcfdda2|66c80da7-c0e8-46d2-85e5-71318fd44eff|66c80dfd-95e2-4b5a-bd56-06e8307e81ca|66c80da9-4cfb-4de7-b83d-8b70665207bf|66c80e01-002b-42ae-9c60-49bf3fc6e159
@@ -40,9 +42,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  whole-word:: false
 		  filter::
 		  child-filter::
-		  search-scope:: Specific block: ; Main docs: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), ((66949495-3846-4f89-9ea5-c62b624d282c)), ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4));
+		  search-scope:: Specific blocks: ;
+		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]];
 		  collapsed:: true
-		  Extended: ((6653538a-30aa-423f-be89-848ad9c7e331)) , ((66519638-cf5d-409b-9b98-15acabf2268c)) , ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
+		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 	-
