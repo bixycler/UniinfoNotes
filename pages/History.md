@@ -347,11 +347,11 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  CLOCK: [2024-12-27 Fri 18:23:01]--[2024-12-28 Sat 23:51:39] =>  29:28:38
 		  :END:
 		- Create backlink-based ((676e5861-1220-40e4-9546-e319e17df1aa)).
-	- DOING Refractor [[Workspace]]
+	- DONE Refractor [[Workspace]]
 	  id:: 67710747-2982-4134-875e-3b715313db87
 	  collapsed:: true
 	  :LOGBOOK:
-	  CLOCK: [2024-12-29 Sun 15:24:43]
+	  CLOCK: [2024-12-29 Sun 15:24:43]--[2024-12-29 Sun 15:54:52] =>  00:30:09
 	  :END:
 		- move ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) from [[Contents]] to ((66519638-cf5d-409b-9b98-15acabf2268c))
 		- move ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) from ((66519638-cf5d-409b-9b98-15acabf2268c)) to [[History]]

@@ -1,6 +1,5 @@
 ## Linux
 id:: 66949495-3846-4f89-9ea5-c62b624d282c
-collapsed:: true
 :LOGBOOK:
 CLOCK: [2024-07-15 Mon 11:04:21]
 :END:
