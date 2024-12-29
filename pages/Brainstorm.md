@@ -164,7 +164,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  id:: 66fbb757-8038-4a79-87df-8d1575faaedb
 				- Test a simple (non-query) macro first: {{hi-macro HiMac}}
 				- {{blocks-with-content custom.css, ((665d78a5-6470-4e60-8fd1-d958fd62756e))}}
-		- Search for pattern (regex) within a block (scope)
+		- Search for pattern (regex) within scopes of blocks and pages
 		  query-table:: false
 		  id:: 66faa5f8-0711-4a23-afe0-fb8d2ebb644e
 		  collapsed:: true
@@ -234,7 +234,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					          (and [(!= false ?search-scope-page)]
 					              [?container :block/refs ?scope]
 					              [?scope :block/original-name ?name] ; only page has name
-					              [(clojure.string/includes? ?search-scope-page ?name)]
+					              [(contains? ?search-scope-page ?name)]
 					          )                     
 					      ); end or-join 
 					   ]; end query[]
@@ -249,7 +249,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				   ]
 				   ;;;;;;;; query body ;;;;;;;;
 				   :query [
-				    :find ?scope ; ?search-scope ?search-scope-page (pull ?b [*])
+				    :find ?scope ; ?search-scope ?search-scope-page ; (pull ?b [*])
 				    :in $ ?container
 				    :where
 				      ; ?scope parameter <= (?search-scope or ?container itself)
@@ -259,10 +259,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				      (or-join [?search-scope ?search-scope-page ?container ?scope]
 				          (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
 				              [(identity ?container) ?scope] )
+				          (and [(!= false ?search-scope)]
+				              [?container :block/refs ?scope]
+				              [?scope :block/uuid ?uuid] ; both block and page have UUID
+				              [(clojure.string/includes? ?search-scope ?uuid)]
+				          )                     
 				          (and [(!= false ?search-scope-page)]
 				              [?container :block/refs ?scope]
-				              [?scope :block/original-name ?name]
-				              ;[(clojure.string/includes? ?search-scope-page ?name)]
+				              [?scope :block/original-name ?name] ; only page has name
+				              [(contains? ?search-scope-page ?name)]
 				          )                     
 				      ); end or-join 
 				   ]; end query[]
@@ -275,7 +280,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- id:: 6735b185-3584-42f7-86e4-0d65a5c555d0
 				  ```clojure
 				  #+BEGIN_QUERY
-				  {:title [:h3 "Result"]  ; replaced by $.1 above #+BEGIN_QUERY
+				  {:title [:h3 "Search for Pattern"]  ; replaced by $.1 above #+BEGIN_QUERY
 				   :inputs [ 
 				    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 search pattern ?params
 				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
@@ -310,19 +315,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				      ; ?scope parameter <= (?search-scope or ?container itself)
 				      [?container :block/properties ?cprops]
 				      [(get ?cprops :search-scope false) ?search-scope]
-				      (or-join [?search-scope ?container ?scope]
-				          (and [(= false ?search-scope)] [(identity ?container) ?scope])
-				          (and [(!= false ?search-scope)] 
+				      [(get ?cprops :search-scope-page false) ?search-scope-page]
+				      (or-join [?search-scope ?search-scope-page ?container ?scope]
+				          (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
+				              [(identity ?container) ?scope] )
+				          (and [(!= false ?search-scope)]
 				              [?container :block/refs ?scope]
-				              [?scope :block/page ?parent-page]
-				              (or-join [?search-scope ?scope ?parent-page]
-				                  (and [(?parent-page)]
-				                      [?scope :block/uuid ?uuid]
-				                      [(clojure.string/includes? ?search-scope ?uuid)]
-				                  )
-				              )
-				          )
-				      ); end or-join
+				              [?scope :block/uuid ?uuid] ; both block and page have UUID
+				              [(clojure.string/includes? ?search-scope ?uuid)]
+				          )                     
+				          (and [(!= false ?search-scope-page)]
+				              [?container :block/refs ?scope]
+				              [?scope :block/original-name ?name] ; only page has name
+				              [(contains? ?search-scope-page ?name)]
+				          )                     
+				      ); end or-join 
 				      ;
 				      ; ?scope parameter contains ?b
 				      [(not ?recursive) ?is-parent]
@@ -384,7 +391,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- query-table:: false
 			  query-properties:: [:block :page]
 			  #+BEGIN_QUERY
-			  {:title [:h3 "Result"]  ; replaced by $1 above #+BEGIN_QUERY
+			  {:title [:h3 "Search for Pattern"]  ; replaced by $.1 above #+BEGIN_QUERY
 			   :inputs [ 
 			    [:block/uuid #uuid "66f6b7fd-9444-4869-9a4d-01f6941c9a9b"]  ; $2 search pattern ?params
 			    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
@@ -396,67 +403,74 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			    :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
 			    :in $ ?params ?container ?filters ?recursive %
 			    :where
-			     ;
-			     ; ?key parameter
-			     [?params :block/content ?paramlines]
-			     [(re-pattern ".*") ?firstLinePattern]
-			     [(re-find ?firstLinePattern ?paramlines) ?key]
-			     ;
-			     ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
-			     [?params :block/properties ?props]
-			     [(get ?props :case-sensitive false) ?case-sensitive]
-			     [(get ?props :whole-word false) ?whole-word]
-			     (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
-			         (and [(= true ?whole-word)] [(str "\\b" ?key "\\b") ?key-pat])
-			         (and [(= false ?whole-word)] [(str ?key) ?key-pat])
-			     )
-			     (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
-			         (and [(= true ?case-sensitive)] [(str ?key-pat) ?key-case])
-			         (and [(= false ?case-sensitive)] [(str "(?i)" ?key-pat) ?key-case])
-			     )
-			     [(re-pattern ?key-case) ?search-pattern]
-			     ;
-			     ; ?scope parameter <= (?search-scope or ?container itself)
-			     [?container :block/properties ?cprops]
-			     [(get ?cprops :search-scope false) ?search-scope]
-			     (or-join [?search-scope ?container ?scope]
-			         (and [(= false ?search-scope)] [(identity ?container) ?scope])
-			         (and [(!= false ?search-scope)] 
-			            [?container :block/refs ?scope]
-			            [?scope :block/uuid ?uuid]
-			            [(clojure.string/includes? ?search-scope ?uuid)]
-			         )
-			     ); end or-join
-			     ;
-			     ; ?scope parameter contains ?b
-			     [(not ?recursive) ?is-parent]
-			     (check-ancestor-parent ?b ?scope ?is-parent)
-			     ; 
-			     ; Match filter patterns in ?filters against result/child blocks
-			     [?filters :block/properties ?pfilters]
-			     [(get ?pfilters :filter false) ?filter]
-			     [(get ?pfilters :child-filter false) ?child-filter]
-			     (or-join [?b ?filter ?child-filter]
-			         (and [(= false ?filter)]
-			             [(= false ?child-filter)]
-			         )
-			         (and [(!= false ?filter)] 
-			  		   [(re-pattern ?filter) ?filter-pattern]
-			             [?b :block/content ?content]
-			         	   [(re-find ?filter-pattern ?content)]     
-			         )
-			         (and [(!= false ?child-filter)] 
-			  		   [(re-pattern ?child-filter) ?child-filter-pattern]
-			             [?bchild :block/parent ?b]
-			  		   [?bchild :block/content ?child-content]
-			             [(re-find ?child-filter-pattern ?child-content)]     
-			         )
-			     ); end or-join
-			     ;
-			     ; ?b block/content contains ?search-pattern
-			     [?b :block/content ?content]
-			     [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
-			     ;[(clojure.string/includes? ?content ?key)]
+			      ;
+			      ; ?key parameter
+			      [?params :block/content ?paramlines]
+			      [(re-pattern ".*") ?firstLinePattern]
+			      [(re-find ?firstLinePattern ?paramlines) ?key]
+			      ;
+			      ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
+			      [?params :block/properties ?props]
+			      [(get ?props :case-sensitive false) ?case-sensitive]
+			      [(get ?props :whole-word false) ?whole-word]
+			      (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+			          (and [(= true ?whole-word)] [(str "\\b" ?key "\\b") ?key-pat])
+			          (and [(= false ?whole-word)] [(str ?key) ?key-pat])
+			      )
+			      (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+			          (and [(= true ?case-sensitive)] [(str ?key-pat) ?key-case])
+			          (and [(= false ?case-sensitive)] [(str "(?i)" ?key-pat) ?key-case])
+			      )
+			      [(re-pattern ?key-case) ?search-pattern]
+			      ;
+			      ; ?scope parameter <= (?search-scope or ?container itself)
+			      [?container :block/properties ?cprops]
+			      [(get ?cprops :search-scope false) ?search-scope]
+			      [(get ?cprops :search-scope-page false) ?search-scope-page]
+			      (or-join [?search-scope ?search-scope-page ?container ?scope]
+			          (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
+			              [(identity ?container) ?scope] )
+			          (and [(!= false ?search-scope)]
+			              [?container :block/refs ?scope]
+			              [?scope :block/uuid ?uuid] ; both block and page have UUID
+			              [(clojure.string/includes? ?search-scope ?uuid)]
+			          )                     
+			          (and [(!= false ?search-scope-page)]
+			              [?container :block/refs ?scope]
+			              [?scope :block/original-name ?name] ; only page has name
+			              [(contains? ?search-scope-page ?name)]
+			          )                     
+			      ); end or-join 
+			      ;
+			      ; ?scope parameter contains ?b
+			      [(not ?recursive) ?is-parent]
+			      (check-ancestor-parent ?b ?scope ?is-parent)
+			      ; 
+			      ; Match filter patterns in ?filters against result/child blocks
+			      [?filters :block/properties ?pfilters]
+			      [(get ?pfilters :filter false) ?filter]
+			      [(get ?pfilters :child-filter false) ?child-filter]
+			      (or-join [?b ?filter ?child-filter]
+			          (and [(= false ?filter)]
+			              [(= false ?child-filter)]
+			          )
+			          (and [(!= false ?filter)] 
+			  		    [(re-pattern ?filter) ?filter-pattern]
+			              [?b :block/content ?content]
+			              [(re-find ?filter-pattern ?content)]     
+			          )
+			          (and [(!= false ?child-filter)] 
+			  		    [(re-pattern ?child-filter) ?child-filter-pattern]
+			              [?bchild :block/parent ?b]
+			  		    [?bchild :block/content ?child-content]
+			              [(re-find ?child-filter-pattern ?child-content)]     
+			          )
+			      ); end or-join
+			      ;
+			      ; ?b block/content contains ?search-pattern
+			      [?b :block/content ?content]
+			      [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
+			      ;[(clojure.string/includes? ?content ?key)]
 			   ]; end :query[]
 			   ;
 			   ;; query options:
@@ -464,23 +478,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			   ;
 			   ;;;;;;;; rules ;;;;;;;;
 			   :rules [
-			     ;
-			     ;; Check if ?b has ?ancestor as an ancestor
-			     [(check-ancestor ?b ?ancestor)
-			       [?b :block/parent ?ancestor]
-			     ]
-			     [(check-ancestor ?b ?ancestor)
-			       [?b :block/parent ?t]
-			       (check-ancestor ?t ?ancestor)
-			     ]
-			     ;
-			     ;; Check if ?b has ?ancestor as an ancestor or as a parent (when ?is-parent)
-			     [(check-ancestor-parent ?b ?ancestor ?is-parent)
-			       (or
-			         (and [(= true ?is-parent)] [?b :block/parent ?ancestor])
-			         (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
-			       )
-			     ]
+			      ;
+			      ;; Check if ?b has ?ancestor as an ancestor
+			      [(check-ancestor ?b ?ancestor)
+			          [?b :block/parent ?ancestor]
+			      ]
+			      [(check-ancestor ?b ?ancestor)
+			          [?b :block/parent ?t]
+			          (check-ancestor ?t ?ancestor)
+			      ]
+			      ;
+			      ;; Check if ?b has ?ancestor as an ancestor or as a parent (when ?is-parent)
+			      [(check-ancestor-parent ?b ?ancestor ?is-parent)
+			          (or
+			              (and [(= true ?is-parent)] [?b :block/parent ?ancestor])
+			              (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
+			          )
+			      ]
 			   ]; end :rules[]
 			  }
 			  #+END_QUERY
