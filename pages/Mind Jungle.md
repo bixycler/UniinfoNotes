@@ -4581,6 +4581,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
 							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again: missing `671f467e-6f1f-4436-a0dd-9a03055e11a9` in Linux > ((6735b188-e391-498b-a01b-35797616f7b6)) > ((671f467e-6f1f-4436-a0dd-9a03055e11a9))
 							  id:: 6735b6bf-6141-48e3-9e12-2473a01dafb0
+							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2024-11-14 Thu 15:40:05]--[2024-11-14 Thu 16:12:16] =>  00:32:11
 							  :END:
@@ -4593,7 +4594,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- then `file mode bits` was [moved](https://github.com/bixycler/UniinfoNotes/commit/e6d0f7279ee9b3a80e952f92d172eaefa03d0fab "16:24:44 commit e6d0f727") to `concepts` with [drag & drop](((6716110e-51bb-40b2-b98c-503061212007)));
 									- then somehow the id of `file mode bits` was removed in [commit 762e2c90c](https://github.com/bixycler/UniinfoNotes/commit/762e2c90c9ffff2519dc5a2b1f7942727f5fcbcc "17:04:44").
 							- DONE [!] Failure in `assets-exist-and-are-used`: the file `Logseq publish.edn` is "unused"
-							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2024-12-03 Tue 17:46:05]
 							  CLOCK: [2024-12-03 Tue 17:46:07]--[2024-12-03 Tue 17:55:25] =>  00:09:18
@@ -4607,6 +4607,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								    actual: (not (empty? #{"Logseq publish.edn"}))
 								  ```
 								- The PDF embedding feature is not very useful, so we always remove the auto-generated `.edn` files which are placed at the root of `assets/` instead of at the same folder as `.pdf` files.
+							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-12-29 Sun 14:57:40]--[2024-12-29 Sun 15:04:21] =>  00:06:41
+							  :END:
+								- Situation
+									- Different Logseq instances were synced by Git only, without refreshing graph DBs.
+									- Block ids in page [[logseq/config.edn]] are missing in this instance's graph, but Logseq didn't update them from `logseq___config.edn.md`.
+									- When the block ref `TODO Relink $GlobalConfig` was created, it invoked the creation of a new block id for `$GlobalConfig`
+								- Faulty commit: `85656fb`: Auto saved by Logseq
+									- Block id replaced: `Global File: global/config.edn`
+										- New block id was created with new block ref
+											- > `TODO` Relink [Global File: global/config.edn]
+											- > `TODO` Relink `((``676fa38e-d32f-493b-97e8-9e348eaf572b``))`
+										- **conflict** with already indexed id in `logseq___config.edn.md`.
+											- > All configs are moved to the `((``66fe86b8-f17e-4b3f-b27f-213b3500146f``))`.
+									- Block id removed: `Local File: config.edn`
+										- `((``66faa5f7-af4f-4ca6-9621-56ab8dadbe94``))` overrides config keys in this global file except for maps which are merged.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
