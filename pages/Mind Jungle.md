@@ -4624,7 +4624,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- **conflict** with already indexed id in `logseq___config.edn.md`.
 											- > All configs are moved to the `((``66fe86b8-f17e-4b3f-b27f-213b3500146f``))`.
 									- Block id removed: `Local File: config.edn`
-										- `((``66faa5f7-af4f-4ca6-9621-56ab8dadbe94``))` overrides config keys in this global file except for maps which are merged.
+										- > `((``66faa5f7-af4f-4ca6-9621-56ab8dadbe94``))` overrides config keys in this global file except for maps which are merged.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
