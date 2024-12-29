@@ -194,7 +194,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							- To disable a filter, instead of removing that filter, we can use *contradiction patterns* like `$^` or `(nothing)^` as a placeholder.
 								- Note: Don't set both `filter:: (nothing)^` and `child-filter:: (nothing)^` because it makes the search domain empty!
 			- id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
-			  search-scope:: [[Mind Jungle]] , ((6653538a-30aa-423f-be89-848ad9c7e331))
+			  search-scope:: , ((6653538a-30aa-423f-be89-848ad9c7e331)), [[Mind Jungle]], abc, [[Contents]]
 			  collapsed:: true
 				- Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
 			- DOING Allow `search-scope::` to contain `[[page]]`
@@ -203,6 +203,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  CLOCK: [2024-12-29 Sun 16:53:34]
 			  CLOCK: [2024-12-29 Sun 16:59:53]
 			  :END:
+				- [?] Page refs overwrite all other texts, including block refs: `:search-scope #{"Mind Jungle" "Contents"}`
 				- Source code:
 				  collapsed:: true
 					- ```clojure
@@ -236,32 +237,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  }
 					  #+END_QUERY
 					  ```
-				- #+BEGIN_QUERY
+				- query-table:: false
+				  #+BEGIN_QUERY
 				  {:title [:h3 "Extract Block Refs & Page Refs"]
 				   :inputs [ 
 				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
 				   ]
 				   ;;;;;;;; query body ;;;;;;;;
 				   :query [
-				    :find ?scope ?search-scope ; (pull ?b [*])
+				    :find ?cprops ; ?search-scope ;?scope  (pull ?b [*])
 				    :in $ ?container
 				    :where
 				      ; ?scope parameter <= (?search-scope or ?container itself)
 				      [?container :block/properties ?cprops]
 				      [(get ?cprops :search-scope false) ?search-scope]
-				      (or-join [?search-scope ?container ?scope]
-				          (and [(= false ?search-scope)] [(identity ?container) ?scope])
-				          (and [(!= false ?search-scope)] 
-				              [?container :block/refs ?scope]
-				              [?scope :block/page ?parent-page]
-				              ;(or-join [?search-scope ?scope ?parent-page]
-				              ;    (and [(?parent-page)]
-				              ;        [?scope :block/uuid ?uuid]
-				              ;        [(clojure.string/includes? ?search-scope ?uuid)]
-				              ;    )                     
-				              ;)             
-				          )
-				      ); end or-join
+				  
 				   ]; end query[]
 				  }
 				  #+END_QUERY
