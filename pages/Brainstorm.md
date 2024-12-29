@@ -216,22 +216,22 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					   ]
 					   ;;;;;;;; query body ;;;;;;;;
 					   :query [
-					    :find ?search-scope ?search-scope-page ?scope ; (pull ?b [*])
+					    :find ?scope ; ?search-scope ?search-scope-page ; (pull ?b [*])
 					    :in $ ?container
 					    :where
 					      ; ?scope parameter <= (?search-scope or ?container itself)
 					      [?container :block/properties ?cprops]
 					      [(get ?cprops :search-scope false) ?search-scope]
 					      [(get ?cprops :search-scope-page false) ?search-scope-page]
-					      (or-join [?search-scope ?container ?scope]
+					      (or-join [?search-scope ?search-scope-page ?container ?scope]
 					          (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
 					              [(identity ?container) ?scope] )
-					          (and [(!= false ?search-scope)] 
+					          (and [(!= false ?search-scope)]
 					              [?container :block/refs ?scope]
 					              [?scope :block/uuid ?uuid]
 					              [(clojure.string/includes? ?search-scope ?uuid)]
 					          )                     
-					          (and [(!= false ?search-scope-page)] 
+					          (and [(!= false ?search-scope-page)]
 					              [?container :block/refs ?scope]
 					              [?scope :block/original-name ?name]
 					              [(clojure.string/includes? ?search-scope-page ?name)]
@@ -249,27 +249,22 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				   ]
 				   ;;;;;;;; query body ;;;;;;;;
 				   :query [
-				    :find ?search-scope ?search-scope-page ?scope ; (pull ?b [*])
+				    :find ?scope  ?uuid ; ?search-scope ?search-scope-page (pull ?b [*])
 				    :in $ ?container
 				    :where
 				      ; ?scope parameter <= (?search-scope or ?container itself)
 				      [?container :block/properties ?cprops]
 				      [(get ?cprops :search-scope false) ?search-scope]
 				      [(get ?cprops :search-scope-page false) ?search-scope-page]
-				      (or-join [?search-scope ?container ?scope]
+				      (or-join [?search-scope ?search-scope-page ?container ?scope]
 				          (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
 				              [(identity ?container) ?scope] )
-				          (and [(!= false ?search-scope)] 
+				          (and [(!= false ?search-scope)]
 				              [?container :block/refs ?scope]
 				              [?scope :block/uuid ?uuid]
-				              [(clojure.string/includes? ?search-scope ?uuid)]
-				          )                     
-				          (and [(!= false ?search-scope-page)] 
-				              [?container :block/refs ?scope]
-				              [?scope :block/original-name ?name]
-				              [(clojure.string/includes? ?search-scope-page ?name)]
 				          )                     
 				      ); end or-join 
+				      [?scope :block/uuid ?uuid]
 				   ]; end query[]
 				  }
 				  #+END_QUERY
