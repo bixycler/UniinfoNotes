@@ -9,7 +9,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	  collapsed:: true
-		- Unïnfo
+		- linux
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  collapsed:: true
 		  ^ **Name & Term** search
@@ -70,6 +70,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((676e5401-5951-445c-b109-61d61c11fc59))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- DOING update Search: add Wiki, noun, verb, etc.
+				  :LOGBOOK:
+				  CLOCK: [2024-12-29 Sun 15:48:05]
+				  :END:
 				- ((67710747-2982-4134-875e-3b715313db87))
 				- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 				- ...

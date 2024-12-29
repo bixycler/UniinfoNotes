@@ -17,5 +17,6 @@ id:: 66faa5f7-f408-406c-befd-8ae69ed56667
 	- Shared pages
 	  id:: 66f7af1c-bb80-46ae-a896-10f31c113e84
 		- ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
+		- ((66949495-3846-4f89-9ea5-c62b624d282c))
 		- ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 		- [[Theme Demo]]
