@@ -3548,6 +3548,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- > All configs are moved to the `((``66fe86b8-f17e-4b3f-b27f-213b3500146f``))`.
 									- Block id removed: `Local File: config.edn`
 										- > `((``66faa5f7-af4f-4ca6-9621-56ab8dadbe94``))` overrides config keys in this global file except for maps which are merged.
+							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again after ((67710af1-e3f0-4f94-917c-5235c210f082))
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-12-29 Sun 19:28:58]--[2024-12-29 Sun 19:36:53] =>  00:07:55
+							  :END:
+								- The [Name search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))) has its block id ripped off from markdown 🙁, while still retained in graph DB!
+								- This is the known issue: ((6766ef9d-3add-4400-90b0-131f51d8c23a))
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
@@ -3591,6 +3598,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [!] The moved block usually has problem displaying at its destination.
 						- [!] Sometimes the move on GUI (and in the ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) is not reflected to the Markdown source files.
 						- [!] Sometimes the moved block [still lacks id!](((6735b6bf-6141-48e3-9e12-2473a01dafb0)))
+						  id:: 6766ef9d-3add-4400-90b0-131f51d8c23a
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
