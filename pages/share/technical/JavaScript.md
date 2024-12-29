@@ -1,5 +1,6 @@
 # JavaScript
 id:: 6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4
+collapsed:: true
 :LOGBOOK:
 CLOCK: [2024-10-11 Fri 12:18:00]
 :END:
