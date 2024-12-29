@@ -80,8 +80,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((676a5f10-724c-474f-bf47-4e19c8f0c177))
 				- ((676e5401-5951-445c-b109-61d61c11fc59))
 				- ((67710747-2982-4134-875e-3b715313db87))
-			- #### WIPs
-			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- DONE update Search: add Wiki, noun, verb, etc.
 				  :LOGBOOK:
 				  CLOCK: [2024-12-29 Sun 15:48:05]--[2024-12-29 Sun 19:07:34] =>  03:19:29
@@ -91,10 +89,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  CLOCK: [2024-12-29 Sun 16:06:17]--[2024-12-29 Sun 16:06:19] =>  00:00:02
 					  :END:
 					- ((67711d1f-39a7-42c5-83ac-641d0b838e87))
+			- #### WIPs
+			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 				- ...
 			- ------
-		- TODO Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f))
+		- TODO Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
 		  :LOGBOOK:
 		  CLOCK: [2024-12-27 Fri 14:14:48]
 		  :END:

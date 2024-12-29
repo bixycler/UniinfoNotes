@@ -389,7 +389,34 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  }
 				  #+END_QUERY
 				  ```
-			- query-table:: false
+			- Macro `{{search-query}}` defined in [[logseq/config.edn]]
+			  id:: 66fcd905-2d08-40a9-b33f-900204e1b1e4
+			  collapsed:: true
+				- Preprocess the query source before pasting to `:search-query`
+				  collapsed:: true
+					- Escape all **backslashes _then_ double quotes**: `\` -> `\\`, `"` -> `\"`
+					- Indent 4 spaces
+					- Replace **parameters** `$1...$6` (Move `:title` to `$1` above `#+BEGIN_QUERY`)
+					  ```edn
+					    :search-query
+					    "$1
+					      #+BEGIN_QUERY
+					      {;:title [:h3 \"Result\"]  ; replaced by $.1 above #+BEGIN_QUERY
+					       :inputs [ 
+					        [:block/uuid #uuid \"$2\"]  ;  search pattern ?params
+					        [:block/uuid #uuid \"$3\"]  ;  search-scope ?container
+					        [:block/uuid #uuid \"$4\"]  ;  ?filters
+					        $5 ; ?recursive
+					       ]
+					       ...
+					       :remove-block-children? $6 ; group-results
+					    ...
+					  ```
+				- {{search-query [:h3 "Search Query"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, 67700577-5afb-4e6c-8722-3147c18bfa2c, false, false}}
+				- {{search-query [:h3 "Search Query Recursively"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, 67700577-5afb-4e6c-8722-3147c18bfa2c, true, false}}
+				- {{search-query [:h3 "Search Query Recursively on Mind Jungle"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 6651e92e-fb34-4d24-a386-d9698c2e93f7, 67700577-5afb-4e6c-8722-3147c18bfa2c, true, false}}
+			- RESULT
+			  query-table:: false
 			  query-properties:: [:block :page]
 			  #+BEGIN_QUERY
 			  {:title [:h3 "Search for Pattern"]  ; replaced by $.1 above #+BEGIN_QUERY
@@ -499,32 +526,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			   ]; end :rules[]
 			  }
 			  #+END_QUERY
-			- Macro `{{search-query}}` defined in [[logseq/config.edn]]
-			  id:: 66fcd905-2d08-40a9-b33f-900204e1b1e4
-			  collapsed:: true
-				- Preprocess the query source before pasting to `:search-query`
-				  collapsed:: true
-					- Escape all **backslashes _then_ double quotes**: `\` -> `\\`, `"` -> `\"`
-					- Indent 4 spaces
-					- Replace **parameters** `$1...$6` (Move `:title` to `$1` above `#+BEGIN_QUERY`)
-					  ```edn
-					    :search-query
-					    "$1
-					      #+BEGIN_QUERY
-					      {;:title [:h3 \"Result\"]  ; replaced by $.1 above #+BEGIN_QUERY
-					       :inputs [ 
-					        [:block/uuid #uuid \"$2\"]  ;  search pattern ?params
-					        [:block/uuid #uuid \"$3\"]  ;  search-scope ?container
-					        [:block/uuid #uuid \"$4\"]  ;  ?filters
-					        $5 ; ?recursive
-					       ]
-					       ...
-					       :remove-block-children? $6 ; group-results
-					    ...
-					  ```
-				- {{search-query [:h3 "Search Query"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, 67700577-5afb-4e6c-8722-3147c18bfa2c, false, false}}
-				- {{search-query [:h3 "Search Query Recursively"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, 67700577-5afb-4e6c-8722-3147c18bfa2c, true, false}}
-				- {{search-query [:h3 "Search Query Recursively on Mind Jungle"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 6651e92e-fb34-4d24-a386-d9698c2e93f7, 67700577-5afb-4e6c-8722-3147c18bfa2c, true, false}}
 	- Special properties built in Logseq
 	  collapsed:: true
 		- Example:
