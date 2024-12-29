@@ -197,6 +197,46 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((6653538a-30aa-423f-be89-848ad9c7e331))
 			  collapsed:: true
 				- Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
+			- DOING Allow `search-scope::` to contain `[[page]]`
+			  id:: 67711d1f-39a7-42c5-83ac-641d0b838e87
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-12-29 Sun 16:53:34]
+			  CLOCK: [2024-12-29 Sun 16:59:53]
+			  :END:
+				- Source code:
+				  ```clojure
+				  #+BEGIN_QUERY
+				  {:title [:h3 "Search in Page"]
+				   :inputs [ 
+				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
+				   ]
+				   ;;;;;;;; query body ;;;;;;;;
+				   :query [
+				    :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
+				    :in $ ?container
+				    :where
+				   
+				     ; ?scope parameter <= (?search-scope or ?container itself)
+				     [?container :block/properties ?cprops]
+				     [(get ?cprops :search-scope false) ?search-scope]
+				     (or-join [?search-scope ?container ?scope]
+				         (and [(= false ?search-scope)] [(identity ?container) ?scope])
+				         (and [(!= false ?search-scope)] 
+				            [?container :block/refs ?scope]
+				            [?scope :block/page ?parent-page]
+				            (or-join [?search-scope ?scope ?parent-page]
+				                (and [(?parent-page)]
+				                    [?scope :block/uuid ?uuid]
+				                    [(clojure.string/includes? ?search-scope ?uuid)]
+				                )
+				            )
+				         )
+				     ); end or-join
+				   ]; end query[]
+				  }
+				  #+END_QUERY
+				  ```
 			- Ref: [Find nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
 			- TODO search for ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)) only with `first-line::` and limited `content-length::`, to be applied in [term search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
 			- Source code
