@@ -115,15 +115,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  CLOCK: [2024-08-23 Fri 12:16:43]
 		  :END:
 		-
-		- ((667d202e-f401-46ba-ab32-c4fd77b49ab1))
 		- ((669f3107-a33a-4b26-a636-6da62fa5520e))
 			- ((669f243f-41b7-4274-b954-9824ec3ac33b))
 		-
 		-
-		- WAIT Add to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) various types of [extending dimensions](((667d202e-f401-46ba-ab32-c4fd77b49ab1))).
-		  :LOGBOOK:
-		  CLOCK: [2024-06-28 Fri 08:11:13]
-		  :END:
+		- ((667d202e-f401-46ba-ab32-c4fd77b49ab1))
+			- WAIT Add to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) various types of [extending dimensions](((667d202e-f401-46ba-ab32-c4fd77b49ab1))).
+			  :LOGBOOK:
+			  CLOCK: [2024-06-28 Fri 08:11:13]
+			  :END:
 		-
 		-
 		- ...
@@ -224,7 +224,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- Without distraction, it's easier for me to stay in the free & mindful state. But in the free state, it's also difficult for me to interact with external tools like note taking, speaking, writing, forming formula, etc.
 					- This hook can be replaced with the [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))). Using the internal tool (breath) gives me more control than the external tool (external sink).
 			- When i interrupt the internal work, my self is fragmented, heavy, lack motivation to do anything.
-			- Perfectionism
+			- DOING **Duck dive** is a serious problem!
+			  :LOGBOOK:
+			  CLOCK: [2024-12-29 Sun 20:02:37]
+			  :END:
+				- I usually dive head-first, _without planning_, into the works and issues, which usually **branch off** into lots of new works and issues
+			- **Perfectionism**
 			  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
 			  collapsed:: true
 			  The requirement that my self must be smooth, full, round, coherent, unfragmented is the sign of perfectionism.
@@ -404,12 +409,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- When a later access shows any difficulty in understanding or any inconsistency, the old work should be reorganized.
 					- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the more accesses to a work, the better organized that work will be.
 			- Solution to my problem of "wandering, lost in complexity": shift from depth-first to breadth-first traversal
-			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-09-19 Thu 12:24:53]
 			  :END:
 				- when it's too deep with analytics (differential), it's too abstract, lacking context, groundless, formless, messy, collapsed, the object is sliced into disconnected parts
-				- traversal on the breadth with CIfEr provides context, condition (duyên), form to stretch the loop out to be a full circle 🌕, to be the whole
+				- traversal on the breadth with CIfEr provides context, condition (duyên), and form to stretch the loop out to be a full circle 🌕, to be the whole
 		- [!] The issue of love, i.e. emotional attatchment
 		  collapsed:: true
 			- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
