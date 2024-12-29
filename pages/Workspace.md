@@ -102,6 +102,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  :END:
 		-
 		-
+		- DOING [#C] Task with priority, deadline
+		  DEADLINE: <2024-12-30 Mon 21:45 .+1d>
+		  :LOGBOOK:
+		  CLOCK: [2024-12-29 Sun 21:38:52]
+		  :END:
+		-
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
 		-
