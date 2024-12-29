@@ -9,8 +9,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	  collapsed:: true
-		- directory
-		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
+		- linux
 		  collapsed:: true
 		  ^ **Name & Term** search
 			- Filters
@@ -46,11 +45,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]];
 		  collapsed:: true
 		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
-		  + Instruction: Input Regex pattern to the first line, then just open (unfold) this block to see result (automatically updated in the Right Sidebar, not in the Main Edit Pane).
-		    + `search-scope:` Limit to specific block(s). Remember to disable `search-scope-page`!
-		    + `search-scope-page:` Break down unwanted pages, join back wanted pages
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
+		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
+		  collapsed:: true
+			- `search-scope:` Limit to specific block(s). Remember to disable `search-scope-page`!
+			- `search-scope-page:` Break down unwanted pages, join back wanted pages
 	-
 	- ## Workstack
 	  id:: 6651adea-81d4-40a5-b96d-af6739e572eb
@@ -82,9 +82,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((67710747-2982-4134-875e-3b715313db87))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- DOING update Search: add Wiki, noun, verb, etc.
+				- DONE update Search: add Wiki, noun, verb, etc.
 				  :LOGBOOK:
-				  CLOCK: [2024-12-29 Sun 15:48:05]
+				  CLOCK: [2024-12-29 Sun 15:48:05]--[2024-12-29 Sun 19:07:34] =>  03:19:29
 				  :END:
 					- DONE Add shared pages
 					  :LOGBOOK:
