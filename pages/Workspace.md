@@ -46,6 +46,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]];
 		  collapsed:: true
 		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
+		  + Instruction: Input Regex pattern to the first line, then just open (unfold) this block to see result (automatically updated in the Right Sidebar, not in the Main Edit Pane).
+		    + `search-scope:` Limit to specific block(s). Remember to disable `search-scope-page`!
+		    + `search-scope-page:` Break down unwanted pages, join back wanted pages
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 	-
