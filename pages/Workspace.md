@@ -93,20 +93,27 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 					- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
-				- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 				- ...
 			- ------
-		- TODO Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
-		  :LOGBOOK:
-		  CLOCK: [2024-12-27 Fri 14:14:48]
-		  :END:
+		-
+		- ### Master Plan
+			- TODO Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
+			  :LOGBOOK:
+			  CLOCK: [2024-12-27 Fri 14:14:48]
+			  :END:
+			- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
+			- DOING Task with priority, deadline
+			  DEADLINE: <2024-12-30 Mon 21:45 .+1d>
+			  :LOGBOOK:
+			  CLOCK: [2024-12-29 Sun 21:38:52]
+			  :END:
 		-
 		-
-		- DOING [#C] Task with priority, deadline
-		  DEADLINE: <2024-12-30 Mon 21:45 .+1d>
-		  :LOGBOOK:
-		  CLOCK: [2024-12-29 Sun 21:38:52]
-		  :END:
+		-
+		- ...
+	-
+	- ## Tasks
+	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
 		-
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
@@ -131,13 +138,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  :LOGBOOK:
 			  CLOCK: [2024-06-28 Fri 08:11:13]
 			  :END:
-		-
-		-
-		- ...
-	-
-	- ## Tasks
-	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
-		-
 		-
 		- WAIT ((66536e1b-6466-4153-90d6-583003d99a81)): Write a script to convert headless block ref to `[](((uuid)) "block content")` and a plugin to copy block ref in that format.
 		  id:: 667d2479-487a-49ab-949f-722eb47a16ef
@@ -182,7 +182,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  collapsed:: true
 			- Some of the fb posts have been migrated to the blog [CreatZy Notes](https://creatzynotes.blogspot.com/).
 			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) Trigger: i had a hard time finding back [my post about catenary curve](https://www.facebook.com/share/p/9LfU1A6Mmxo2KTH3/).
+		-
 		- ...
+		-
 		- query-table:: false
 		  id:: 67110d13-b91a-4ebb-959b-9db4d2f6d61d
 		  collapsed:: true

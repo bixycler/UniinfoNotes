@@ -2870,7 +2870,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ### Workspace
 		  id:: 665d1a03-4c61-4d81-ac58-a5a1a7efe568
-			- Each person has a Workspace to work with, which includes a ((6653538a-22d3-4807-ad13-a64ac543edba)) for active tasks at hand, a Task list for future tasks, a [History](((6667add9-3076-4a19-8b15-d1888665a3c0))) for past (done, cancelled) tasks, and other lists like Problem list, Question list, etc. These lists, except History, are in general sorted in reverse chronological order. The Task list is additionally sorted in priority, if any, and the History is in chronological order.
+			- Each person has a Workspace to work with, which includes a ((6653538a-22d3-4807-ad13-a64ac543edba)) for active tasks at hand, a ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) for future tasks, a [History](((6667add9-3076-4a19-8b15-d1888665a3c0))) for past (done, cancelled) tasks, and other lists like Problem list, Question list, etc. These lists, except History, are in general sorted in reverse chronological order. The Task list is additionally sorted in priority, if any, and the History is in chronological order.
 		- ### Workstack
 		  id:: 6653538a-22d3-4807-ad13-a64ac543edba
 			- Just like the [call stack](https://en.wikipedia.org/wiki/Call_stack) of [computer program](https://en.wikipedia.org/wiki/Computer_program), Workstack is a non-strict last-in-first-out (LIFO) list of tasks being worked on by the subject.
@@ -2882,12 +2882,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- **Block `WIPs`** keeps track of the WIPs before a merge .
 					- Each done work in block `WIPs` will be recorded with a `[WIP]` commit message, then moved to **block `To be merged`**.
 				- Before merging to `store`, flush contents of block `To be merged` to an `[m]` commit in `log` branch.
-			-
+		- ### Task list
+		  id:: 67715dbd-5ba6-4fc8-bd3e-5fab97885ae7
+		-
 		- ### Workflow
 			- New works will be carried out from the ((6653538a-22d3-4807-ad13-a64ac543edba)), whose statuses are tracked in [`WIPs` and `To be merged`](((67714f65-8591-43ed-8af6-6aa8b9e101e0))), and their bodies should be placed in document storages like ((665c82c0-ee06-4f43-95b8-73dbbe956080)), ((6653538a-30aa-423f-be89-848ad9c7e331)), etc. Old works from document storages may be continued to be worked with by linking them back to the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)).
 			- In the course of working on the current task,
 				- a new task that can/must be done immediately will be pushed to the ((6653538a-22d3-4807-ad13-a64ac543edba));
-				- a new task that should be done later will be pushed to Task list;
+				- a task that should be done later, either new task of old task being paused, will be pushed to ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7));
 				- a problem that cannot or should not be solved right now will be pushed to Problem list;
 				  id:: 665c8a2e-8de9-445f-b7c8-042244afe1c7
 				- a question that cannot or should not be answered right now will be pushed to Question list;
