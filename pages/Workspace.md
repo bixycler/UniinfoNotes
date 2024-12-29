@@ -16,14 +16,17 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- Filters
 				- Containers
 				  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), ((66949495-3846-4f89-9ea5-c62b624d282c)), ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
+				  id:: 67710fcc-08c4-4a3e-96fd-bc4207f6ec8f
 				- Block ids
 				  id:: 677010ec-01b9-48d6-9a3b-ea53bd62cea3
 				  filter:: 665359e4-4597-4775-b849-f9acbb98960a|665c9af1-1ce2-461c-af33-671690618c8f|6699e4db-2e75-4427-94bb-96dfe0367dd1|6699ea73-dc77-4227-a293-b501f2eb1759|6699e5f2-7788-46c7-8233-87699a65ca30|6699eb54-ce9e-4472-a784-c59ffd47f02b
-				  child-filter:: 6651ecba-793d-43c5-8020-a9f260b032d8
+				  child-filter:: 6651ecba-793d-43c5-8020-a9f260b032d8|665359c0-a89a-41b5-9f28-503f79107a08
 				- Block refs
-					- filter:: ((665359e4-4597-4775-b849-f9acbb98960a)) | ((665c9af1-1ce2-461c-af33-671690618c8f)) | ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) | ((6699ea73-dc77-4227-a293-b501f2eb1759)) | ((6699e5f2-7788-46c7-8233-87699a65ca30)) | ((6699eb54-ce9e-4472-a784-c59ffd47f02b))
-					- child-filter:: ((6651ecba-793d-43c5-8020-a9f260b032d8))
-			- {{search-query [:h3 "Name & Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 6651e92e-fb34-4d24-a386-d9698c2e93f7, 677010ec-01b9-48d6-9a3b-ea53bd62cea3, true, false}}
+					- filter:: ((665359e4-4597-4775-b849-f9acbb98960a)) | ((665c9af1-1ce2-461c-af33-671690618c8f))
+						- **Components**: ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) | ((6699ea73-dc77-4227-a293-b501f2eb1759)) | ((6699e5f2-7788-46c7-8233-87699a65ca30)) | ((6699eb54-ce9e-4472-a784-c59ffd47f02b))
+						- Word classes:
+					- child-filter:: ((6651ecba-793d-43c5-8020-a9f260b032d8)) | ((665359c0-a89a-41b5-9f28-503f79107a08))
+			- {{search-query [:h3 "Name & Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 67710fcc-08c4-4a3e-96fd-bc4207f6ec8f, 677010ec-01b9-48d6-9a3b-ea53bd62cea3, true, false}}
 			  query-table:: false
 		- wiki:
 		  id:: 66fce8d4-0434-4dd0-941f-4f3bd9b1b456
@@ -37,7 +40,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  whole-word:: false
 		  filter::
 		  child-filter::
-		  search-scope:: Block: ; : ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), ((66949495-3846-4f89-9ea5-c62b624d282c)), ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4));
+		  search-scope:: Specific block: ; Main docs: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), ((66949495-3846-4f89-9ea5-c62b624d282c)), ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4));
 		  collapsed:: true
 		  Extended: ((6653538a-30aa-423f-be89-848ad9c7e331)) , ((66519638-cf5d-409b-9b98-15acabf2268c)) , ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
@@ -77,7 +80,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				  :LOGBOOK:
 				  CLOCK: [2024-12-29 Sun 15:48:05]
 				  :END:
-					- Add shared pages
+					- DONE Add shared pages
+					  :LOGBOOK:
+					  CLOCK: [2024-12-29 Sun 16:06:17]--[2024-12-29 Sun 16:06:19] =>  00:00:02
+					  :END:
 				- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 				- ...
 			- ------
