@@ -2876,9 +2876,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Just like the [call stack](https://en.wikipedia.org/wiki/Call_stack) of [computer program](https://en.wikipedia.org/wiki/Computer_program), Workstack is a non-strict last-in-first-out (LIFO) list of tasks being worked on by the subject.
 			- All items in the workstack must be prefixed (bullet, task, [?], [!], etc.) to separate with each other, because their order (*from bottom to top*) is opposite to the normal text order (from top to bottom).
 			- Git working
-				- `log` branch is the **working branch** containing `[WIP]` commits to be merged into `store` branch.
-				- The WIPs before a merge will be tracked in block `WIPs`, then `[WIP]` commits will be stored in `log` branch.
-					- Each done work in block `WIPs` will be recorded with a `[WIP]` commit message, then moved to block `To be merged`.
+				- **`log` branch** is the **working branch** containing `[WIP]` commits to be merged into `store` branch.
+				- **`store` branch** is the store of full history with logs & WIPs from `log` branch and merge commits to be cherry-picked to `main` branch.
+				- **Block `WIPs`** keeps track of the WIPs before a merge .
+					- Each done work in block `WIPs` will be recorded with a `[WIP]` commit message, then moved to **block `To be merged`**.
+				- Before merging to `store`, flush contents of block `To be merged` to an `[m]` commit in `log` branch.
 		- ### Workflow
 			- New works will be carried out from the ((6653538a-22d3-4807-ad13-a64ac543edba)), and their bodies should be placed in document storages like ((665c82c0-ee06-4f43-95b8-73dbbe956080)), ((6653538a-30aa-423f-be89-848ad9c7e331)), etc. Old works from document storages may be continued to be worked with by linking them back to the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)).
 			- In the course of working on the current task,
