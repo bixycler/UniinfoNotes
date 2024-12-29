@@ -94,6 +94,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 					- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 					- ((67715d03-9dbc-42b0-8589-064396a9c52b))
+					- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7))
 				- ...
 			- ------
 		-
@@ -108,10 +109,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  :LOGBOOK:
 			  CLOCK: [2024-12-29 Sun 21:38:52]
 			  :END:
-			- DONE a scheduled Task
+			- DOING a scheduled Task
 			  SCHEDULED: <2025-01-02 Thu>
 			  :LOGBOOK:
 			  CLOCK: [2024-12-29 Sun 22:26:10]--[2024-12-29 Sun 22:26:17] =>  00:00:07
+			  CLOCK: [2024-12-29 Sun 22:26:25]
 			  :END:
 		-
 		-
@@ -396,6 +398,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						  CLOCK: [2024-12-29 Sun 21:06:08]
 						  :END:
 							- This checkstop is required so that all hidden ones can be [revealed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
+							- The master plan keeps the mind near the root, and have a bird's eye view.
 							- DOING Design ((6651adea-52dd-4aa8-9942-a75af9a6a23f)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
 							  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
 							  :LOGBOOK:
