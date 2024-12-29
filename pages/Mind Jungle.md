@@ -1596,10 +1596,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 67138488-2781-42cb-88d4-888346f71c11
 			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual `[WIP]` commits to be merged into ((67139af7-47a6-4441-bd72-5a75448dbb1b)).
 				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
-				- The `WIP`s before a merge will be tracked in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), then `[WIP]` commits will be stored in `log` branch.
-					- Contents of ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) will be flushed to `[WIP]` commit message
-					- The title of that commit will be moved to ((67164cc1-e500-4889-9b6d-12d8dd7fc029)).
-				- Before merging to `store`, flush contents of ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) to an `[m]` commit in `log`.
+				- The WIPs before a merge will be tracked in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), then `[WIP]` commits will be stored in `log` branch.
+					- Each done work in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) will be recorded with a `[WIP]` commit message, then moved to ((67164cc1-e500-4889-9b6d-12d8dd7fc029)).
+				- Before merging to `store`, flush contents of ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) to an `[m]` commit in `log` branch.
 				- Merge `log` to `store`, amend with `log`'s `[m]` commit message (with prefix `[m]` removed), then cherry-pick it to `main`.
 					- ```sh
 					  #git checkout store
@@ -2876,10 +2875,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6653538a-22d3-4807-ad13-a64ac543edba
 			- Just like the [call stack](https://en.wikipedia.org/wiki/Call_stack) of [computer program](https://en.wikipedia.org/wiki/Computer_program), Workstack is a non-strict last-in-first-out (LIFO) list of tasks being worked on by the subject.
 			- All items in the workstack must be prefixed (bullet, task, [?], [!], etc.) to separate with each other, because their order (*from bottom to top*) is opposite to the normal text order (from top to bottom).
-			- Git workflow
-				- The `WIP`s before a merge will be tracked in block `WIPs`, then `[WIP]` commits will be stored in `log` branch.
-					- Contents of `WIPs` will be flushed to `[WIP]` commit message
-					- The title of that commit will be moved to block `To be merged`.
+			- Git working
+				- `log` branch is the **working branch** containing `[WIP]` commits to be merged into `store` branch.
+				- The WIPs before a merge will be tracked in block `WIPs`, then `[WIP]` commits will be stored in `log` branch.
+					- Each done work in block `WIPs` will be recorded with a `[WIP]` commit message, then moved to block `To be merged`.
 		- ### Workflow
 			- New works will be carried out from the ((6653538a-22d3-4807-ad13-a64ac543edba)), and their bodies should be placed in document storages like ((665c82c0-ee06-4f43-95b8-73dbbe956080)), ((6653538a-30aa-423f-be89-848ad9c7e331)), etc. Old works from document storages may be continued to be worked with by linking them back to the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)).
 			- In the course of working on the current task,
