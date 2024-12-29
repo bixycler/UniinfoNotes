@@ -14,7 +14,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  collapsed:: true
 		  ^ **Name & Term** search
 			- Filters
-			  collapsed:: true
+				- Containers
+				  search-scope:: ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), ((66949495-3846-4f89-9ea5-c62b624d282c)), ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 				- Block ids
 				  id:: 677010ec-01b9-48d6-9a3b-ea53bd62cea3
 				  filter:: 665359e4-4597-4775-b849-f9acbb98960a|665c9af1-1ce2-461c-af33-671690618c8f|6699e4db-2e75-4427-94bb-96dfe0367dd1|6699ea73-dc77-4227-a293-b501f2eb1759|6699e5f2-7788-46c7-8233-87699a65ca30|6699eb54-ce9e-4472-a784-c59ffd47f02b
@@ -36,8 +37,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  whole-word:: false
 		  filter::
 		  child-filter::
-		  search-scope:: , ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4)), ((6653538a-30aa-423f-be89-848ad9c7e331)) , ((66519638-cf5d-409b-9b98-15acabf2268c)) , ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
+		  search-scope:: Block: ; : ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), ((66949495-3846-4f89-9ea5-c62b624d282c)), ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4));
 		  collapsed:: true
+		  Extended: ((6653538a-30aa-423f-be89-848ad9c7e331)) , ((66519638-cf5d-409b-9b98-15acabf2268c)) , ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 	-
@@ -68,13 +70,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((67445223-9459-4aa9-b102-70c63943577b))
 				- ((676a5f10-724c-474f-bf47-4e19c8f0c177))
 				- ((676e5401-5951-445c-b109-61d61c11fc59))
+				- ((67710747-2982-4134-875e-3b715313db87))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- ((67710747-2982-4134-875e-3b715313db87))
 				- DOING update Search: add Wiki, noun, verb, etc.
 				  :LOGBOOK:
 				  CLOCK: [2024-12-29 Sun 15:48:05]
 				  :END:
+					- Add shared pages
 				- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 				- ...
 			- ------
