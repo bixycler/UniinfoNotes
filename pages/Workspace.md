@@ -94,6 +94,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 					- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 					- ((67715d03-9dbc-42b0-8589-064396a9c52b))
+						- Here i'm planning for the task of designing master plan! 😉
 					- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7))
 				- ...
 			- ------
@@ -406,7 +407,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- The master plan keeps the mind near the root, and have a bird's eye view.
 								- The task is usually placed in the context work with status `TODO`, `DOING`, `WAIT`, `IN-PROGRESS`, or `CANCELED`.
 								- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
-								- The plan is to the work as the
+								- The plan is to the work as the table of contents is to the document.
+								- [?] How to move between ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), short-term plans, and ((6651adea-52dd-4aa8-9942-a75af9a6a23f))...
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
