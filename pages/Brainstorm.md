@@ -198,84 +198,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  search-scope:: ((6653538a-30aa-423f-be89-848ad9c7e331)), ((66519638-cf5d-409b-9b98-15acabf2268c))
 			  collapsed:: true
 				- Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
-			- DONE Add `search-scope-page::`
-			  id:: 67711d1f-39a7-42c5-83ac-641d0b838e87
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-12-29 Sun 16:53:34]
-			  CLOCK: [2024-12-29 Sun 16:59:53]--[2024-12-29 Sun 18:43:34] =>  01:43:41
-			  :END:
-				- For `search-scope::` to contain `[[page]]`, it must be split into a separate property: `search-scope-page::`
-					- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) page refs overwrite all other texts, including block refs: `:search-scope #{"Mind Jungle" "Workspace"}`
-				- Source code:
-				  collapsed:: true
-					- ```clojure
-					  #+BEGIN_QUERY
-					  {:title [:h3 "Extract Block Refs & Page Refs"]
-					   :inputs [ 
-					    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
-					   ]
-					   ;;;;;;;; query body ;;;;;;;;
-					   :query [
-					    :find ?scope ; ?search-scope ?search-scope-page ; (pull ?b [*])
-					    :in $ ?container
-					    :where
-					      ; ?scope parameter <= (?search-scope or ?container itself)
-					      [?container :block/properties ?cprops]
-					      [(get ?cprops :search-scope false) ?search-scope]
-					      [(get ?cprops :search-scope-page false) ?search-scope-page]
-					      (or-join [?search-scope ?search-scope-page ?container ?scope]
-					          (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
-					              [(identity ?container) ?scope] )
-					          (and [(!= false ?search-scope)]
-					              [?container :block/refs ?scope]
-					              [?scope :block/uuid ?uuid] ; both block and page have UUID
-					              [(clojure.string/includes? ?search-scope ?uuid)]
-					          )                     
-					          (and [(!= false ?search-scope-page)]
-					              [?container :block/refs ?scope]
-					              [?scope :block/original-name ?name] ; only page has name
-					              [(contains? ?search-scope-page ?name)]
-					          )                     
-					      ); end or-join 
-					   ]; end query[]
-					  }
-					  #+END_QUERY
-					  ```
-				- query-table:: false
-				  #+BEGIN_QUERY
-				  {:title [:h3 "Extract Block Refs & Page Refs"]
-				   :inputs [ 
-				    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
-				   ]
-				   ;;;;;;;; query body ;;;;;;;;
-				   :query [
-				    :find ?scope ; ?search-scope ?search-scope-page ; (pull ?b [*])
-				    :in $ ?container
-				    :where
-				      ; ?scope parameter <= (?search-scope or ?container itself)
-				      [?container :block/properties ?cprops]
-				      [(get ?cprops :search-scope false) ?search-scope]
-				      [(get ?cprops :search-scope-page false) ?search-scope-page]
-				      (or-join [?search-scope ?search-scope-page ?container ?scope]
-				          (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
-				              [(identity ?container) ?scope] )
-				          (and [(!= false ?search-scope)]
-				              [?container :block/refs ?scope]
-				              [?scope :block/uuid ?uuid] ; both block and page have UUID
-				              [(clojure.string/includes? ?search-scope ?uuid)]
-				          )                     
-				          (and [(!= false ?search-scope-page)]
-				              [?container :block/refs ?scope]
-				              [?scope :block/original-name ?name] ; only page has name
-				              [(contains? ?search-scope-page ?name)]
-				          )                     
-				      ); end or-join 
-				   ]; end query[]
-				  }
-				  #+END_QUERY
-			- Ref: [Find nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
-			- TODO search for ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)) only with `first-line::` and limited `content-length::`, to be applied in [term search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
 			- Source code
 			  collapsed:: true
 				- id:: 6735b185-3584-42f7-86e4-0d65a5c555d0
@@ -389,7 +311,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  }
 				  #+END_QUERY
 				  ```
-			- Macro `{{search-query}}` defined in [[logseq/config.edn]]
+			- Macro `{{search-query}}` in [[logseq/config.edn]] is cloned from this query.
 			  id:: 66fcd905-2d08-40a9-b33f-900204e1b1e4
 			  collapsed:: true
 				- Preprocess the query source before pasting to `:search-query`
@@ -415,6 +337,85 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- {{search-query [:h3 "Search Query"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, 67700577-5afb-4e6c-8722-3147c18bfa2c, false, false}}
 				- {{search-query [:h3 "Search Query Recursively"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 66f6b7c0-d8af-4d48-9b98-e82f314449d5, 67700577-5afb-4e6c-8722-3147c18bfa2c, true, false}}
 				- {{search-query [:h3 "Search Query Recursively on Mind Jungle"], 66f6b7fd-9444-4869-9a4d-01f6941c9a9b, 6651e92e-fb34-4d24-a386-d9698c2e93f7, 67700577-5afb-4e6c-8722-3147c18bfa2c, true, false}}
+			- Works
+				- DONE Add `search-scope-page::`
+				  id:: 67711d1f-39a7-42c5-83ac-641d0b838e87
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-12-29 Sun 16:53:34]
+				  CLOCK: [2024-12-29 Sun 16:59:53]--[2024-12-29 Sun 18:43:34] =>  01:43:41
+				  :END:
+					- For `search-scope::` to contain `[[page]]`, it must be split into a separate property: `search-scope-page::`
+						- ((666022fc-5a51-4e87-ba7c-6f67a0cf19de)) page refs overwrite all other texts, including block refs: `:search-scope #{"Mind Jungle" "Workspace"}`
+					- Source code:
+					  collapsed:: true
+						- ```clojure
+						  #+BEGIN_QUERY
+						  {:title [:h3 "Extract Block Refs & Page Refs"]
+						   :inputs [ 
+						    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
+						   ]
+						   ;;;;;;;; query body ;;;;;;;;
+						   :query [
+						    :find ?scope ; ?search-scope ?search-scope-page ; (pull ?b [*])
+						    :in $ ?container
+						    :where
+						      ; ?scope parameter <= (?search-scope or ?container itself)
+						      [?container :block/properties ?cprops]
+						      [(get ?cprops :search-scope false) ?search-scope]
+						      [(get ?cprops :search-scope-page false) ?search-scope-page]
+						      (or-join [?search-scope ?search-scope-page ?container ?scope]
+						          (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
+						              [(identity ?container) ?scope] )
+						          (and [(!= false ?search-scope)]
+						              [?container :block/refs ?scope]
+						              [?scope :block/uuid ?uuid] ; both block and page have UUID
+						              [(clojure.string/includes? ?search-scope ?uuid)]
+						          )                     
+						          (and [(!= false ?search-scope-page)]
+						              [?container :block/refs ?scope]
+						              [?scope :block/original-name ?name] ; only page has name
+						              [(contains? ?search-scope-page ?name)]
+						          )                     
+						      ); end or-join 
+						   ]; end query[]
+						  }
+						  #+END_QUERY
+						  ```
+					- query-table:: false
+					  #+BEGIN_QUERY
+					  {:title [:h3 "Extract Block Refs & Page Refs"]
+					   :inputs [ 
+					    [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 search-scope ?container
+					   ]
+					   ;;;;;;;; query body ;;;;;;;;
+					   :query [
+					    :find ?scope ; ?search-scope ?search-scope-page ; (pull ?b [*])
+					    :in $ ?container
+					    :where
+					      ; ?scope parameter <= (?search-scope or ?container itself)
+					      [?container :block/properties ?cprops]
+					      [(get ?cprops :search-scope false) ?search-scope]
+					      [(get ?cprops :search-scope-page false) ?search-scope-page]
+					      (or-join [?search-scope ?search-scope-page ?container ?scope]
+					          (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
+					              [(identity ?container) ?scope] )
+					          (and [(!= false ?search-scope)]
+					              [?container :block/refs ?scope]
+					              [?scope :block/uuid ?uuid] ; both block and page have UUID
+					              [(clojure.string/includes? ?search-scope ?uuid)]
+					          )                     
+					          (and [(!= false ?search-scope-page)]
+					              [?container :block/refs ?scope]
+					              [?scope :block/original-name ?name] ; only page has name
+					              [(contains? ?search-scope-page ?name)]
+					          )                     
+					      ); end or-join 
+					   ]; end query[]
+					  }
+					  #+END_QUERY
+				- TODO search for ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)) only with `first-line::` and limited `content-length::`, to be applied in [term search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
+				- Ref: [Find nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
 			- RESULT
 			  query-table:: false
 			  query-properties:: [:block :page]
