@@ -243,8 +243,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				         (and [(= false ?search-scope)] [(identity ?container) ?scope])
 				         (and [(!= false ?search-scope)] 
 				            [?container :block/refs ?scope]
-				            [?scope :block/uuid ?uuid]
-				            [(clojure.string/includes? ?search-scope ?uuid)]
+				            [?scope :block/page ?parent-page]
+				            (or-join [?search-scope ?scope ?parent-page]
+				                (and [(?parent-page)]
+				                    [?scope :block/uuid ?uuid]
+				                    [(clojure.string/includes? ?search-scope ?uuid)]
+				                )
+				            )
 				         )
 				     ); end or-join
 				     ;

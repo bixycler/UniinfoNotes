@@ -84,6 +84,28 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  :LOGBOOK:
 					  CLOCK: [2024-12-29 Sun 16:06:17]--[2024-12-29 Sun 16:06:19] =>  00:00:02
 					  :END:
+					- DOING Allow `search-scope::` to contain `[[page]]`
+					  :LOGBOOK:
+					  CLOCK: [2024-12-29 Sun 16:53:34]
+					  :END:
+					  ```clojure
+					     ; ?scope parameter <= (?search-scope or ?container itself)
+					     [?container :block/properties ?cprops]
+					     [(get ?cprops :search-scope false) ?search-scope]
+					     (or-join [?search-scope ?container ?scope]
+					         (and [(= false ?search-scope)] [(identity ?container) ?scope])
+					         (and [(!= false ?search-scope)] 
+					            [?container :block/refs ?scope]
+					            [?scope :block/page ?parent-page]
+					            (or-join [?search-scope ?scope ?parent-page]
+					                (and [(?parent-page)]
+					                    [?scope :block/uuid ?uuid]
+					                    [(clojure.string/includes? ?search-scope ?uuid)]
+					                )
+					            )
+					         )
+					     ); end or-join
+					  ```
 				- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 				- ...
 			- ------
