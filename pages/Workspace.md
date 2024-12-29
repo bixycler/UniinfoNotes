@@ -391,7 +391,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						  CLOCK: [2024-12-29 Sun 21:06:08]
 						  :END:
 							- This checkstop is required so that all hidden ones can be [revealed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
-							- DOING Design a master plan...
+							- DOING Design ((6651adea-52dd-4aa8-9942-a75af9a6a23f)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
 							  :LOGBOOK:
 							  CLOCK: [2024-12-29 Sun 21:32:09]
 							  :END:
