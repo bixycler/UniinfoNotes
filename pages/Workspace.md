@@ -36,16 +36,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- workstack
+		- boss
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
 		  child-filter::
 		  search-scope:: Specific blocks: ;
-		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]];
+		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]]; Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
 		  collapsed:: true
-		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
@@ -280,7 +279,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- The inner target of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 						- The target is the hidden boss, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the underlying driving force.
 						- **Revealing the hidden boss** means **detaching the self**.
+						  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
 							- “Detached self = selfless”
+							- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 							- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
 							- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
 					- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just _the **beginning** of a new circle_, either at the same level or at “higher” level.
@@ -361,6 +362,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 									- ...
 						- Let's restart from the way/attitude of looking at everything!
 							- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
+							- The goal is a hidden boss which must be [revealed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
 							- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
 							  collapsed:: true
 								- There is the ultimate purpose, but it's **not "final"**. The ultimate goal/purpos is the "[horizon](((67445223-9459-4aa9-b102-70c63943577b)))" which is always vividly there, always the guiding direction for us, but can never be "final" or "finished".
