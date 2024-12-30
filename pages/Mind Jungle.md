@@ -120,8 +120,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- This technique is also effective in ((66c31d1a-1e9c-4c12-acd0-c130c5fd4db2)): [Exploring Length Generalization in Large Language Models](https://openreview.net/forum?id=zSkYVeX7bC4)
 	- ((66949495-3846-4f89-9ea5-c62b624d282c))
-	  id:: 66949495-3846-4f89-9ea5-c62b624d282c
-	  collapsed:: true
 	- ## ItelliJ
 	  collapsed:: true
 		- Settings
