@@ -120,6 +120,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- This technique is also effective in ((66c31d1a-1e9c-4c12-acd0-c130c5fd4db2)): [Exploring Length Generalization in Large Language Models](https://openreview.net/forum?id=zSkYVeX7bC4)
 	- ((66949495-3846-4f89-9ea5-c62b624d282c))
+	  id:: 66949495-3846-4f89-9ea5-c62b624d282c
+	  collapsed:: true
 	- ## ItelliJ
 	  collapsed:: true
 		- Settings
@@ -3530,6 +3532,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- then `file mode bits` was [moved](https://github.com/bixycler/UniinfoNotes/commit/e6d0f7279ee9b3a80e952f92d172eaefa03d0fab "16:24:44 commit e6d0f727") to `concepts` with [drag & drop](((6716110e-51bb-40b2-b98c-503061212007)));
 									- then somehow the id of `file mode bits` was removed in [commit 762e2c90c](https://github.com/bixycler/UniinfoNotes/commit/762e2c90c9ffff2519dc5a2b1f7942727f5fcbcc "17:04:44").
 							- DONE [!] Failure in `assets-exist-and-are-used`: the file `Logseq publish.edn` is "unused"
+							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2024-12-03 Tue 17:46:05]
 							  CLOCK: [2024-12-03 Tue 17:46:07]--[2024-12-03 Tue 17:55:25] =>  00:09:18
@@ -4554,6 +4557,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
 				- Supports [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64).
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
+		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-06-20 Thu 16:39:28]--[2024-06-23 Sun 16:26:56] =>  71:47:28
