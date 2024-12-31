@@ -3612,11 +3612,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Thanks to atomicity, this operation is rather safe, but...
 						- [!] The moved block usually has problem displaying at its destination.
 						- [!] Sometimes the move on GUI (and in the ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) is not reflected to the Markdown source files.
-						- DOING [!] Sometimes the moved block still has **problem with block id**!
+						- [!] Sometimes the moved block still has **problem with block id**!
 						  id:: 6766ef9d-3add-4400-90b0-131f51d8c23a
 						  collapsed:: true
 						  :LOGBOOK:
-						  CLOCK: [2024-12-31 Tue 14:31:33]
+						  CLOCK: [2024-12-31 Tue 14:31:33]--[2024-12-31 Tue 15:11:25] =>  00:39:52
 						  :END:
 							- ((6735b6bf-6141-48e3-9e12-2473a01dafb0))
 							- ((6772a6cd-319d-49d5-acec-ff6053a97a34))
