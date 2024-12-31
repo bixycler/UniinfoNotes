@@ -104,7 +104,24 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  CLOCK: [2024-12-27 Fri 14:14:48]
 			  CLOCK: [2024-12-31 Tue 15:33:00]
 			  :END:
-				- The global/`config.edn` has 1 extra hard link!?!
+				- [?] The global/`config.edn` has 1 extra hard link!?!
+					- ```sh
+					  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn
+					  stat -c '%i %h' ${HOME}/.logseq/config/config.edn
+					  stat -c '%i %h' ${HOME}/snap/logseq/current/.logseq/config/config.edn
+					  2109288 4
+					  2109288 4
+					  2109288 4
+					  ```
+				- ⇒ find that extra link
+					- ```sh
+					  find ~ -samefile ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn
+					  /home/dinhlx/source/UniinfoNotes/assets/logseq/global/config.edn
+					  /home/dinhlx/snap/logseq/29/.logseq/config/config.edn
+					  /home/dinhlx/snap/logseq/28/.logseq/config/config.edn
+					  /home/dinhlx/.logseq/config/config.edn
+					  ```
+				- The current
 					- ```sh
 					  ```
 			-
