@@ -1749,7 +1749,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ```sh
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
 						  ```
+				- [technical/Linux]([[Linux]]): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md`: Linux logseq-notes
+					- first, check `stat` & `diff`
+						- ```sh
+						  stat -c '%i %h' "${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md" 
+						  stat -c '%i %h' "${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md"
+						  ```
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md"
+						  ```
 				- [technical/JavaScript.md]([[JavaScript]]): **2 links**
+				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md`: Linux logseq-notes
 					- first, check `stat` & `diff`
@@ -1765,9 +1782,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
 						  ```
 				- [[Theme Demo]]: **2 links**
+				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md`: Linux logseq-notes
 					- first, check `stat` & `diff`
+						- ```sh
+						  stat -c '%i %h' "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md"
+						  stat -c '%i %h' "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
+						  ```
 						- ```sh
 						  gdiff "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
@@ -1776,8 +1798,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
 			- Workflow
-				- Never do any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
-				- Always update hard-linked files from local repos.
+				- Always update hard-linked files from local repos, after any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
 				- When a hard-linked file must be updated from remote,
 					- at remote repo, the update contents must be transported via the ((66519638-cf5d-409b-9b98-15acabf2268c)) which is not hard-linked; then
 					- at local repo, these contents (blocks) will be moved to the hard-linked files.
