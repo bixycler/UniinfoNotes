@@ -101,7 +101,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ...
 			- ------
 		- ### Working
-			- ((6653538a-30aa-423f-be89-848ad9c7e331))
+			- ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
 		-
 		- ### Master Plan
 			-
@@ -415,9 +415,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 										- [[Brainstorm]]  is sorted in inverse chronological order.
 									- [[History]] > Tasks[ past > current > future > deferred & backlog]
 										- Move past tasks → history
-									- Brainstorm < brainstorming (in ((6651adea-81d4-40a5-b96d-af6739e572eb)), after ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) < ((67164cc1-e500-4889-9b6d-12d8dd7fc029)))
-										- Move from brainstorming → brainstorm, from WIPs → To be merged
-										- from braindumping → braindump within [[Braindump]]
+									- Year Brainstorms < ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) (in ((6651adea-81d4-40a5-b96d-af6739e572eb)), after ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) < ((67164cc1-e500-4889-9b6d-12d8dd7fc029)))
+										- Move from Brainstorming → Year Brainstorm, from WIPs → To be merged
+										- from Braindumping → Year Braindump in [[Braindump]]
 									-
 								- Matter plan: spatial over temporal (like [urban planning](https://en.wikipedia.org/wiki/Urban_planning))
 									- the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> WIPs & brainstorming = 0 = out
