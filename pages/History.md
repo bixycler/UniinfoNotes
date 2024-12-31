@@ -363,6 +363,16 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			- Add missing ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 			- Move ((66949495-3846-4f89-9ea5-c62b624d282c)) to [[Linux]]
 			  id:: 6772a6cb-1dee-402a-bee2-d41337e74eb6
+		- DOING Refactor [[Brainstorm]]
+		  id:: 6773f59b-066f-41dc-9c87-6214278bca03
+		  :LOGBOOK:
+		  CLOCK: [2024-12-31 Tue 20:46:16]
+		  CLOCK: [2024-12-31 Tue 20:46:18]
+		  :END:
+			- DOING resort to inverse chronological order
+			  :LOGBOOK:
+			  CLOCK: [2024-12-31 Tue 20:47:06]
+			  :END:
 	- DONE Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
 	  id:: 6772a6c7-bf00-405a-83f7-6fe7dd181cba
 	  collapsed:: true

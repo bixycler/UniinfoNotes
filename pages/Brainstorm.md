@@ -7,9 +7,283 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ...
 		- to be flushed down!
 		- the next goes up
-		- do brainstorming here
-		-
+		- some ideas here
 	- ## 2024 Brainstorms
+		- [pipe wrapping](((670cdcb4-3c85-45af-8c30-3c3284ed37df))) = signal piping = message conveyance
+		  id:: 676e46bc-5c19-4e37-a301-e3b818d8cb1a
+		  collapsed:: true
+			-
+		- The feeling, emotion is difficult to release due to its subtlety.
+		  id:: 675c399e-06a9-4c00-91a2-f2340a3a9bac
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-12-23 Mon 15:26:30]
+		  CLOCK: [2024-12-23 Mon 15:26:35]--[2024-12-23 Mon 16:12:23] =>  00:45:48
+		  :END:
+			- subtle → elusive and master in controling the body-mind deep from inside.
+			- It's just a driving force with no clear feature, hence logic is renderd useless.
+				- The [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the underlying tendency/feeling is the driving force of all actions.
+				- Actually, it's a ((671e2782-2098-41a3-83a7-e042bfb468d7)) from lots of concrete incidences. The current feeling is just a rising of the underlying condensate due to some trigger.
+				- Normal people “surfing on the surface”, while meeting many incidences and accumulating emotions, their condenstates are not thick enough to interfere with their actions and decisions.
+				- The “threshold people” have various subtle but deep feelings driving their life deep from within.
+				- The role of normal people is to work, while the role of threshold people is to resolve the conflicts between these deep feelings.
+			- Conscious breathing is the best way to release & resolve emotions.
+				- With concetrated observation, the conscious breath can effectively cleanse and transform the underlying condensate.
+				- My tendency is toward resolution more than releasing. It makes me suffer longer with attachments.
+				- So the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique is essential for me to transform and resolve them.
+		- WAIT Spiral trajectories of a particle moving with constant velocity ...
+		  id:: 6735b189-867a-4eee-b5f5-3079bb3da458
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-12-12 Thu 11:35:12]--[2024-12-16 Mon 20:55:24] =>  105:20:12
+		  :END:
+			- Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane
+			  collapsed:: true
+				- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
+					- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
+				- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{τ} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dτ = \hat{φ}⋅d\vec{r} = rdφ$
+					- transverse (temporal) ⊥ radial (spatial): $0 = \hat{τ} ⋅ \hat{r} = \hat{φ} ⋅ \vec{φ} = d\vec{φ} ⋅ \vec{φ}$
+				- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |d\vec{r}|$
+				- normal: $\hat{n} = \hat{r} × \hat{l} = \hat{r} × \hat{τ}$
+					- 3D [orthonormal basis](https://en.wikipedia.org/wiki/Orthonormal_basis) (radial, transverse, normal): $\hat{r} = \hat{τ} × \hat{n}$   ;   $\hat{τ} = \hat{n} × \hat{r}$  ;   $\hat{n} = \hat{r} × \hat{τ}$
+				- arc from $(r_1, φ_1, τ_1, t_1)$ to $(r_2, φ_2, τ_2, t_2)$: $\overset{\curvearrowright}{l}(r_1, r_2) : d\overset{\curvearrowright}{l} = d\vec{r}$
+					- arc length:  $L(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = L(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
+					- radial component: $R(r_1, r_2) = \int_{r_1}^{r_2} \hat{r}d\vec{r} = \int_{r_1}^{r_2} dr = r_2 - r_1$
+					- WAIT transverse component: $T(φ_1, φ_2) = \int_{φ_1}^{φ_2} \hat{φ}d\vec{r}  = \int_{φ_1}^{φ_2} rdφ = T(τ_1, τ_2) = \int_{τ_1}^{τ_2} dτ = τ_2 - τ_1$
+					  :LOGBOOK:
+					  CLOCK: [2024-12-16 Mon 20:53:41]--[2024-12-16 Mon 20:53:42] =>  00:00:01
+					  :END:
+					- Terminology notes:
+						- In different fields, there are different sets of terms: (radial, transverse ~ tangential, normal) in polar calculus ~ (radial, tangential, longitudinal) in wood anatomy ~ (radial, tangential, axial) in cylindrical analysis
+						  collapsed:: true
+							- wood directions
+							  ![wood-directions.jpg](../assets/ecosystem/wood-directions.jpg)
+							- cylindrical directions
+							  ![cylinder-directions.png](../assets/physics/cylinder-directions.png)
+						- Because the arc length is usually denoted by $L$, here $l$ is used to denote the arc itself. In this sense, $\hat{l}$ denotes the direction along the arc, hence “longitudinal” like [longitudinal wave](https://en.wikipedia.org/wiki/Longitudinal_wave). Don't confuse this “longitudinal” direction with wood's longitudinal direction along its axis.
+						- The term “transverse” is to the “radial” direction of the (light/view) rays emanating from the pole, not to the “tangetial/longitudinal” direction of the arc. This “transverse” is similar to the [“transversals” in perspective drawing](((673ab08d-2389-4306-a7ee-6970e17018c6))).
+						- In SCIFER mechanism, the (radial, transverse) directions are also the (spatial, temporal) directions, so the transverse component $τ$ is alsot the time $t$.
+				- wrapped object plane
+				  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
+				  a.k.a. polar plane
+				  $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
+					- This is the object plane where polar coordinates are normally embedded. It is the warped phase plane with the angular coordinate (phase $φ$) wrapped around and scaled down by the factor $r$ when $r$ approaches the pole.
+				- unwrapped phase plane
+				  id:: 675f8b5a-dbce-4c3b-a111-3a2088b723a0
+				  $P_φ(r, φ) = (φ, r)$
+					- This plane is unwrapped from the wrapped plane with the horizontal lines scaled up back to angular coordinate (phase $φ$).
+				- unwrapped linear plane  
+				  id:: 675f8af0-7b21-4483-908c-25ce0cec02cc
+				  $P_τ(r, φ) = (τ, r)$
+					- This plane is unwrapped directly from the wrapped plane without scaling.
+					- WAIT A lot of magics in this plane: view cones, angle relative to 
+					  :LOGBOOK:
+					  CLOCK: [2024-12-16 Mon 18:59:56]
+					  :END:
+					  initial/root phase $φ_0$ , SCIFER mechanism, aliasing, extensional space for function, hyperbolic rotation (actually parabolic rotation), ...
+						- 🌈Rainbow description 🏳️‍🌈
+						  collapsed:: true
+							- Let's consider a phase-color disk of radius 1 with a rainbow of colors spreading around from $φ = 0$ to $2π$.
+							- In the unwrapped phase plane of $P_φ(φ, r)$, we have a rectangular range $[0, 2π]×[0, 1]$ with the rainbow spreading from left to right and uniformly from top to bottom (the whole column $φ = φ_k$ have the same color).
+							- In the unwrapped linear plane of $P_τ(τ, r)$, we have a rectangular range $[0, 2π]×[0, 1]$ with the very intricate display of color:
+								- At the top line $r = 1$, we have 1 rainbow spreading from left to right, similar to the unwrapped phase plane.
+								- At the middle line $r = 1/2$, we have 2 rainbows spreading from the left edge to the middle then from the middle to the right edge.
+								- Futher down, at each line $r = 1/n$, we have $n$ rainbows. And in between, we have transitional (non-whole) numbers of rainbows.
+						- This is similar to the time-frequency plane in Fourier transform.
+						  collapsed:: true
+							- ![Fourier-transform-time-frequency-square-wave-transparent.png](../assets/physics/Fourier-transform-time-frequency-square-wave-transparent.png)
+							- ![Fourier-transform-time-frequency-square-wave-1.png](../assets/physics/Fourier-transform-time-frequency-square-wave-1.png)
+							- [Animation on Wikipedia](https://en.wikipedia.org/wiki/Fourier_transform#/media/File:Fourier_transform_time_and_frequency_domains_(small).gif)
+							  ![Fourier_transform_time_and_frequency_domains.gif](../assets/physics/Fourier_transform_time_and_frequency_domains.gif)
+							- [Animation of wave packet on Wikipedia](https://en.wikipedia.org/wiki/Group_velocity#/media/File:Wavepacket1.gif)
+							  ![Wavepacket-in-time-frequency-plane.gif](../assets/physics/Wavepacket-in-time-frequency-plane.gif)
+							- [Intro to the Quantum Harmonic Oscillator in 9 Minutes]({{video https://youtu.be/RCIz2hdJQy0}})
+							  {{video https://youtu.be/RCIz2hdJQy0}}
+						- Parabolic rotation, the bridge between elliptic and hyperbolic rotations
+						  collapsed:: true
+							- See [planar algebras & kinematic geometries in non-Euclidean geometries](https://en.wikipedia.org/wiki/Non-Euclidean_geometry#Planar_algebras) with [split-complex number](https://en.wikipedia.org/wiki/Split-complex_number) and [dual number](https://en.wikipedia.org/wiki/Dual_number) as metrics other than the elliptic metric of [complex number](https://en.wikipedia.org/wiki/Complex_number).
+							- [ProjectiveGeometry-AlexanderI.Bobenko.pdf](../assets/geometry/ProjectiveGeometry-AlexanderI.Bobenko.pdf)
+							- [Planar rotations on Wikipedia](https://en.wikipedia.org/wiki/Linear_fractional_transformation#/media/File:Planar_rotations.png)
+							  ![Planar_rotations-elliptic-hyperbolic-parabolic.png](../assets/geometry/Planar_rotations-elliptic-hyperbolic-parabolic.png)
+						- The fractal nature of this plane is somehow related to the [Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) in hyperbolic geometry, which hosts the [modular group](https://en.wikipedia.org/wiki/Modular_group) $SL(2, \Z)$ including [modular forms](https://en.wikipedia.org/wiki/Modular_form) and [elliptic functions](https://en.wikipedia.org/wiki/Elliptic_functions), via [Möbius transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation).
+						  id:: 6766ea7c-3eb8-4463-9a79-d66509daf176
+						  collapsed:: true
+							- The correspondence between modular forms and elliptic curves is the first bridge “harmonic anlysis - number theory” in the [Langlands program](https://en.wikipedia.org/wiki/Langlands_program).
+							  collapsed:: true
+								- Video: Langlands program - [The Biggest Project in Modern Mathematics](https://youtu.be/_bJeKUosqoY)
+								  collapsed:: true
+									- {{video https://youtu.be/_bJeKUosqoY}}
+								- Note: the Langlands program can be confused with the [Erlangen program](https://en.wikipedia.org/wiki/Erlangen_program) earlier by Klein to characterize [geometries](https://en.wikipedia.org/wiki/Geometry) based on [group theory](https://en.wikipedia.org/wiki/Group_theory) and [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry).
+								- [!] The Langlands program is interesting, but i have too little math knowledge to grasp the lots of complicated formalisms there!
+								- In 2024, the [geometric Langlands correspondence](https://en.wikipedia.org/wiki/Geometric_Langlands_correspondence) has been [proven by a group of mathematicians](https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/) over the course of three decades.
+							- [?] Is there some relation with the [law of (quadratic) reciprocity](https://en.wikipedia.org/wiki/Quadratic_reciprocity)?
+							-
+				- Relation between the two unwrapped planes
+					- $P(r, φ, τ): τ = r⋅φ$ is the surface combining 2 planes in the unwrapped space.
+			- **Case 0**: $dφ = k_φ⋅dr$    with  $k_φ = ω/v_r$   and  $ω, v_r : const$
+				- Property: The velocity of this particle in ((675f8b5a-dbce-4c3b-a111-3a2088b723a0)) is $\vec{v_φ} = (dφ, dr)/dt = (ω, v_r) : \overrightarrow{const}$.
+				- Differential equation:
+					- $dφ/dr = ω/v_r$  `[0]`
+				- ⇒ $φ/r = ω/v_r$  ; result is an [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral#Derivation_of_general_equation_of_spiral).
+			- **Case 1**: $dτ = k_τ⋅dr = r⋅dφ$   with    $k_τ = v_τ/v_r$   and  $v_τ, v_r : const$
+			  id:: 675c3e57-d3d2-4829-9b82-9f38eabbbf56
+				- $k_τ$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_τ = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
+				- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| = \sqrt{v_l^2 + v_r^2} : const$ in ((675f8a74-7fef-4e88-a65e-856f5e494bb8)) and $\vec{v_τ} = (dτ, dr)/dt = (v_τ, v_r) : \overrightarrow{const}$ in ((675f8af0-7b21-4483-908c-25ce0cec02cc)).
+				- Differential equation:
+					- $dφ/dr = 1/r ⋅ v_τ/v_r$  `[1]`
+				- ⇒ $φ = \ln(r)⋅v_τ/v_r + φ_0$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
+					- $(φ - φ_0)/v_τ = \ln(r)/v_r$
+					- $r = \exp((φ - φ_0) ⋅ v_r/v_τ)$
+					- Pitch angle: $α = \arctan(v_r/v_τ): const$ , hence [equiangular spiral](https://www.mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
+					- Arc length: $L(r_1, r_2) = (r_2 - r_1) ⋅ \sqrt{v_τ^2 + v_r^2}/v_r = (r_2 - r_1)/\sin(α)$
+			- **Case 2**: $ds = k_l⋅dr$   with   $s = r⋅ φ$ ,    $k_l = φ_0$   and   $φ_0, v_r : const$
+			  id:: 675fb739-c295-4d9d-b388-94d989dffc02
+				- $k_l$ is the ratio of two components of the total arc $\overset{\curvearrowright}{l}$ between transverse direction $s = \overset{\curvearrowright}{l}\hat{φ}$ and radial direction $r = \overset{\curvearrowright}{l}\hat{r}$.
+					- WAIT Confusions of the differential transverse component $ds$ of the total arc $\overset{\curvearrowright}{l}$:
+					  :LOGBOOK:
+					  CLOCK: [2024-12-16 Mon 20:53:48]--[2024-12-16 Mon 20:53:49] =>  00:00:01
+					  :END:
+						- $ds$ can be easily confused with the transverse component $dτ$ of the velocity $\vec{v}$ which is actually a subcomponent of $ds$: $ds = dτ + φ⋅dr$.
+						- Otherwise, $ds$ can also be confused with the tangential component $|d\vec{r}| = |\vec{v}|dt$ of the velocity $\vec{v}$.
+				- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) is $\vec{v_τ} = (dτ, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction. Its trajectory there is a vertical line $τ = τ_0 = s_0 = r_0 ⋅ φ_0$.
+				- Differential equation:
+					- $φ_0⋅dr = d(r⋅φ)$
+					- $(φ_0 - φ)dr = r⋅dφ$
+					- $dφ/dr = -(φ - φ_0)/r$  `[2]`
+					  id:: 675a6873-6404-4747-90b9-0d53436f0c62
+					- $dφ'/dr = -φ'/r$   with   $φ' = φ - φ_0$
+				- ⇒ $φ' = r_0/r$   and   $φ - φ_0 = r_0/r$   and   $(φ - φ_0)(r/r_0) = 1 = l_0$
+				- $φ' = 1/r'$   and   $φ'r' = 1 = l_0$    with    $r' = r/r_0$   and   $φ' = φ - φ_0$
+					- $φ = r_0/r + φ_0$   and    $r = r_0/(φ - φ_0)$
+					- ⇒ $dφ = r_0⋅d(1/r) = -r_0/r^2⋅dr$
+					- $dφ/dr = -(r_0/r + φ_0 - φ_0)/r = -(φ - φ_0)/r$   ⇔   [`[2]`](((675a6873-6404-4747-90b9-0d53436f0c62)))
+				- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$.
+				  id:: 675a85a5-1927-468b-b11d-e2057b8dbe63
+					- Sector area: $A(r_1, r_2) = ½ r_0(r_2 - r_1)$
+					- The staggered starting marks of footraces on concentric circle lanes are on a reciprocal spiral.
+						- These runners are running “back” to the initial sync position, a.k.a. the “finish line”.
+						  collapsed:: true
+							- ![Men_200_m_French_Athletics_Championships_2013_t161532.jpg](../assets/Uniinfo/Unithread/Men_200_m_French_Athletics_Championships_2013_t161532.jpg)
+						- The particles in the phase circle (phase wheel, phase flower) are moving from the initial sync position (straight line at $t_0$), following the flow of time on concentric time circles, to form a reciprocal spiral at time $t$.
+					- Reciprocal spiral and [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral) are 2 in 5 cases of [Cotes's spiral](https://en.wikipedia.org/wiki/Cotes%27s_spiral), which are trajectories of a particle moving under an _**inverse-cube** central force_.
+					- [Newton's theorem of revolving orbits](https://en.wikipedia.org/wiki/Newton's_theorem_of_revolving_orbits#Illustrative_example:_Cotes's_spirals)
+					- General formulae (general solutions of ODE) in [3 cases of Cotes's spiral](https://physics.stackexchange.com/a/596235)
+					- Transform from general formulae to special ones
+						- [$a⋅e^x + b⋅e^x = c⋅cosh(x - x_0)$](https://math.stackexchange.com/a/2756157/1290859)
+						- $a⋅sinh(x) + b⋅cosh(x) = c⋅cosh(x - x_0)$
+						- $a⋅sin(x) + b⋅cos(x) = c⋅cos(x - x_0)$
+					- [Derivation of inverse-cube force from Logarithmic spiral trajectory](https://www.physicsforums.com/threads/central-force-on-a-particle-following-a-logarithmic-spiral.982655/)
+					- Dual between Hooke's law & Newton's law: [Planetary Motion and the Duality of Force Laws](https://www.researchgate.net/publication/228571130_Planetary_Motion_and_the_Duality_of_Force_Laws)
+		- Boundary problem
+		  id:: 6756cbba-4326-499c-a1f1-296a36a14663
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-12-09 Mon 17:51:40]
+		  CLOCK: [2024-12-09 Mon 17:51:48]--[2024-12-09 Mon 18:11:01] =>  00:19:13
+		  :END:
+			- [Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential anaysis
+			- Digit overflow/waterfall/cascade ([domino effect](https://en.wikipedia.org/wiki/Domino_effect)) in positional numerals
+				- Limit numbers in [ordinal numbers](https://en.wikipedia.org/wiki/Limit_ordinal) and [p-adic numbers](https://en.wikipedia.org/wiki/P-adic_number)
+			- [Edge case](https://en.wikipedia.org/wiki/Edge_case), including overflows ([integer OF](https://en.wikipedia.org/wiki/Integer_overflow), [buffer OF](https://en.wikipedia.org/wiki/Buffer_overflow), [Stack OF](https://en.wikipedia.org/wiki/Stack_overflow)), in software engineering
+			- [Edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos), [Bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory), [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
+			- [Phase transition point](https://en.wikipedia.org/wiki/Phase_transition) in physics and [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
+			- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe.
+		- Usages of `⋇`
+		  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
+		  collapsed:: true
+			- Unithread's interunion: $c ⋇ i = s_0 ⋇ s_1 = s_0 / s_1 / s_2 / ... / 1$ ~ [continued fraction](https://en.wikipedia.org/wiki/Continued_fraction)
+			- Copilot says that `⋇` has been used for [wedge sum](https://en.wikipedia.org/wiki/Wedge_sum), which is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) in Unithread.
+			- $e^{x ± r} = e^x ⋇ e^r$
+				- [Confidence intervals](https://en.wikipedia.org/wiki/Confidence_interval) around arithmetic mean $x ± r$ (with radius $r$) and geometric mean $y ⋇ s$ (with scale variance $s$).
+					- Ref: [StackExchange](https://math.stackexchange.com/questions/954186/what-is-the-symbol-divideontimes-divide-times-for), Gemini
+				- [Involutions](https://en.wikipedia.org/wiki/Involution_(mathematics)), self-inverse operators preserving information
+					- $x ± y = (x + y, x - y)/\sqrt{2}$
+					- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
+					- These are genralized “rotation” operations similar to [unitary operators](https://en.wikipedia.org/wiki/Unitary_operator) which preserve the norm of state vector.
+		- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the [halting problem](https://en.wikipedia.org/wiki/Halting_problem) = [liar paradox](https://en.wikipedia.org/wiki/Liar_paradox) = circle-arrow complementarity = ((66f3e588-9094-45af-9dff-2225c3ac39ab)) = unlimited refinability = intrinsic openness of the ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
+		  id:: 6747eac1-f683-4ed1-9b06-34fd10103c0c
+		  collapsed:: true
+			- circle = completeness = totality <> arrow = consistency = partiality
+			  The ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is contradictory, the consistent is partial.
+			- The “negation” or “opposition” of the “pathological program” `P` in the halting problem = the “lie” of the “liar” = the arrow that differentiate 1 from 0 = the knife that cut the circle open
+			-
+		- “*Out of thin air*”
+		  id:: 671d06ba-cb96-4424-9bee-4e6327ba7f9d
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-10-26 Sat 23:43:15]
+		  :END:
+			- ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)): It's not “out of nothing” (*ex nihilo*), but “*out of thin air*” is the correct expression of the nature of emergence, simply because “nothing is formed out of nothing” (*ex nihilo nihil fit*).
+				- The materialistic version of “ex nihilo nihil fit” is [creatio ex materia](https://en.wikipedia.org/wiki/Creatio_ex_materia).
+				- [Creatio ex nihilo](https://en.wikipedia.org/wiki/Creatio_ex_nihilo) is a doctrine in many religions.
+			- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air, the gravitational field.
+			- History
+				- When reviewing for entrance exam to university, i uttered:
+				  > There's no true/absolute vacuum!
+				  > Không có chân không tuyệt đối!
+				- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
+				- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the “*thin air*” of ((6678288e-699b-4325-bdba-bf6349fe0d57)) fills up the empty space of ((66f267f7-01f9-47b9-8376-abd27fdf2930)), how it ((671e3d98-0006-43be-b714-247f3d3a0c49))s into fluid and then ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))s into solid of ((665ca429-84e3-49ff-921e-c07d19cd99ba)).
+				  id:: 6735b185-b053-4651-be76-f0c9032ce119
+					- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) = [導引](https://en.wikipedia.org/wiki/Daoyin) ([Đạo Dẫn](https://vi.wikipedia.org/wiki/Ph%C3%A9p_%C4%91%E1%BA%A1o_d%E1%BA%ABn)): (circle = form = condensate = essence [精, tinh]) → (arrow = content = fluid = breath [氣, khí]) → (equal = awareness = space = spirit [神, thần])
+					  :LOGBOOK:
+					  CLOCK: [2024-10-27 Sun 20:41:38]
+					  :END:
+					- Forms: fluid form, solid form, ((670de601-3ca8-4489-8b75-75ca0d9a74bc))
+					- Contents: fluid content, gaseous content
+					- Awareness: {{embed ((671e4a96-c04c-4167-aad0-8efaecf6bf14))}}
+					  id:: 671e4ac3-2ec7-4209-a21f-bddb1da8efce
+			- Etymology
+				- Seems that “into thin air” was [popularized by Shakespeare](https://en.wiktionary.org/wiki/into_thin_air#Etymology) first (1500s), then “out of thin air” came later (1830s) as an opposite.
+				- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
+				  > The antonym, into thin air, has been used since at least the 1500s. Out of thin air has been used since at least the 1830s.
+				  > Thin air, in this idiom, refers to the air in the upper reaches of the atmosphere, a location that was mysterious and unknown at the time this idiom originated.
+				- The Tempest > [Act 4 > Scene 1](https://www.folger.edu/explore/shakespeares-works/the-tempest/read/4/1/)
+				  collapsed:: true
+					- Prospero releases Ferdinand and gives him Miranda as his bride-to-be. To celebrate the prospect of their union, _Prospero instructs Ariel to have **the spirits** under Prospero’s control perform a masque_. During the masque, Prospero remembers the threat posed by Caliban and stops the masque...
+					- PROSPERO 
+					  > I had forgot that foul conspiracy
+					   Of the beast Caliban and his confederates
+					   Against my life. The minute of their plot
+					   Is almost come.—Well done. Avoid. No more.
+					  
+					  *To a strange, hollow, and confused noise,
+					  ⌜the spirits⌝ heavily vanish.*
+					- FERDINAND, *⌜to Miranda⌝* 
+					  > This is strange. Your father’s in some passion
+					   That works him strongly.
+					- MIRANDA   
+					  > Never till this day
+					   Saw I him touched with anger, so distempered.
+					- PROSPERO, *⌜to Ferdinand⌝* 
+					  > You do look, my son, in a moved sort,
+					  As if you were dismayed. Be cheerful, sir.
+					  Our revels now are ended. These our actors,
+					   As I foretold you, were all spirits and
+					   Are melted into air, **into thin air**;
+					   And like the baseless fabric of this vision,
+					   The cloud-capped towers, the gorgeous palaces,
+					  The solemn temples, the great globe itself,
+					   Yea, all which it inherit, shall dissolve,
+					   And, like this insubstantial pageant faded,
+					   Leave not a rack behind. We are such stuff
+					   As dreams are made on, and our little life
+					  Is rounded with a sleep. Sir, I am vexed.
+					   Bear with my weakness. My old brain is troubled.
+					   Be not disturbed with my infirmity.
+					   If you be pleased, retire into my cell
+					   And there repose. A turn or two I’ll walk
+					  To still my beating mind.
+				- [What is the origin of the phrase "Into thin air"](https://english.stackexchange.com/questions/618149/what-is-the-origin-of-the-phrase-into-thin-air)
+				- https://medium.com/@rayjhawk/out-of-thin-air-f7d4b01152cf
+			- Usage frequency
+				- By Google's Books Ngram Viewer, in per 100,000: "ex nihilo" ~ 3-4, "out of nothing" ~ 4.5-5.5, "out of thin air" ~ 1.2-2
+				- By Gemini's experience about everyday English conversation: "out of thin air" > "out of nothing" > "ex nihilo"
+				  collapsed:: true
+					- **Out of thin air:** This is the most commonly used phrase in everyday English conversation.
+					- **Out of nothing:** This phrase is also quite common, but slightly less so than "out of thin air."
+					- **Ex nihilo:** This Latin phrase is less common in everyday conversation, but it's often used in philosophical and academic contexts.
+			- Chat with Gemini: [Latin for "Out of Thin Air"](https://gemini.google.com/app/182417258903bcd9)
+		- ...
 	- In possessive form like "Will's note", [the apostrophe `'` stands for](https://www.merriam-webster.com/grammar/history-and-use-of-the-apostrophe) the "e" in the suffix "-es" of [genitive form](https://www.merriam-webster.com/dictionary/genitive) of noun in the [Old English](https://en.wikipedia.org/wiki/Old_English).
 	  id:: 66536ad3-264b-4351-868b-e7e8a7a82774
 	  collapsed:: true
@@ -1457,277 +1731,3 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- 𖦹 (ngkaami in Phase E)
 		- Symbols
 			- Infinity: ∞, ♾
-	- “*Out of thin air*”
-	  id:: 671d06ba-cb96-4424-9bee-4e6327ba7f9d
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-10-26 Sat 23:43:15]
-	  :END:
-		- ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)): It's not “out of nothing” (*ex nihilo*), but “*out of thin air*” is the correct expression of the nature of emergence, simply because “nothing is formed out of nothing” (*ex nihilo nihil fit*).
-			- The materialistic version of “ex nihilo nihil fit” is [creatio ex materia](https://en.wikipedia.org/wiki/Creatio_ex_materia).
-			- [Creatio ex nihilo](https://en.wikipedia.org/wiki/Creatio_ex_nihilo) is a doctrine in many religions.
-		- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air, the gravitational field.
-		- History
-			- When reviewing for entrance exam to university, i uttered:
-			  > There's no true/absolute vacuum!
-			  > Không có chân không tuyệt đối!
-			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
-			- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the “*thin air*” of ((6678288e-699b-4325-bdba-bf6349fe0d57)) fills up the empty space of ((66f267f7-01f9-47b9-8376-abd27fdf2930)), how it ((671e3d98-0006-43be-b714-247f3d3a0c49))s into fluid and then ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))s into solid of ((665ca429-84e3-49ff-921e-c07d19cd99ba)).
-			  id:: 6735b185-b053-4651-be76-f0c9032ce119
-				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) = [導引](https://en.wikipedia.org/wiki/Daoyin) ([Đạo Dẫn](https://vi.wikipedia.org/wiki/Ph%C3%A9p_%C4%91%E1%BA%A1o_d%E1%BA%ABn)): (circle = form = condensate = essence [精, tinh]) → (arrow = content = fluid = breath [氣, khí]) → (equal = awareness = space = spirit [神, thần])
-				  :LOGBOOK:
-				  CLOCK: [2024-10-27 Sun 20:41:38]
-				  :END:
-				- Forms: fluid form, solid form, ((670de601-3ca8-4489-8b75-75ca0d9a74bc))
-				- Contents: fluid content, gaseous content
-				- Awareness: {{embed ((671e4a96-c04c-4167-aad0-8efaecf6bf14))}}
-				  id:: 671e4ac3-2ec7-4209-a21f-bddb1da8efce
-		- Etymology
-			- Seems that “into thin air” was [popularized by Shakespeare](https://en.wiktionary.org/wiki/into_thin_air#Etymology) first (1500s), then “out of thin air” came later (1830s) as an opposite.
-			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
-			  > The antonym, into thin air, has been used since at least the 1500s. Out of thin air has been used since at least the 1830s.
-			  > Thin air, in this idiom, refers to the air in the upper reaches of the atmosphere, a location that was mysterious and unknown at the time this idiom originated.
-			- The Tempest > [Act 4 > Scene 1](https://www.folger.edu/explore/shakespeares-works/the-tempest/read/4/1/)
-			  collapsed:: true
-				- Prospero releases Ferdinand and gives him Miranda as his bride-to-be. To celebrate the prospect of their union, _Prospero instructs Ariel to have **the spirits** under Prospero’s control perform a masque_. During the masque, Prospero remembers the threat posed by Caliban and stops the masque...
-				- PROSPERO 
-				  > I had forgot that foul conspiracy
-				   Of the beast Caliban and his confederates
-				   Against my life. The minute of their plot
-				   Is almost come.—Well done. Avoid. No more.
-				  
-				  *To a strange, hollow, and confused noise,
-				  ⌜the spirits⌝ heavily vanish.*
-				- FERDINAND, *⌜to Miranda⌝* 
-				  > This is strange. Your father’s in some passion
-				   That works him strongly.
-				- MIRANDA   
-				  > Never till this day
-				   Saw I him touched with anger, so distempered.
-				- PROSPERO, *⌜to Ferdinand⌝* 
-				  > You do look, my son, in a moved sort,
-				  As if you were dismayed. Be cheerful, sir.
-				  Our revels now are ended. These our actors,
-				   As I foretold you, were all spirits and
-				   Are melted into air, **into thin air**;
-				   And like the baseless fabric of this vision,
-				   The cloud-capped towers, the gorgeous palaces,
-				  The solemn temples, the great globe itself,
-				   Yea, all which it inherit, shall dissolve,
-				   And, like this insubstantial pageant faded,
-				   Leave not a rack behind. We are such stuff
-				   As dreams are made on, and our little life
-				  Is rounded with a sleep. Sir, I am vexed.
-				   Bear with my weakness. My old brain is troubled.
-				   Be not disturbed with my infirmity.
-				   If you be pleased, retire into my cell
-				   And there repose. A turn or two I’ll walk
-				  To still my beating mind.
-			- [What is the origin of the phrase "Into thin air"](https://english.stackexchange.com/questions/618149/what-is-the-origin-of-the-phrase-into-thin-air)
-			- https://medium.com/@rayjhawk/out-of-thin-air-f7d4b01152cf
-		- Usage frequency
-			- By Google's Books Ngram Viewer, in per 100,000: "ex nihilo" ~ 3-4, "out of nothing" ~ 4.5-5.5, "out of thin air" ~ 1.2-2
-			- By Gemini's experience about everyday English conversation: "out of thin air" > "out of nothing" > "ex nihilo"
-			  collapsed:: true
-				- **Out of thin air:** This is the most commonly used phrase in everyday English conversation.
-				- **Out of nothing:** This phrase is also quite common, but slightly less so than "out of thin air."
-				- **Ex nihilo:** This Latin phrase is less common in everyday conversation, but it's often used in philosophical and academic contexts.
-		- Chat with Gemini: [Latin for "Out of Thin Air"](https://gemini.google.com/app/182417258903bcd9)
-	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the [halting problem](https://en.wikipedia.org/wiki/Halting_problem) = [liar paradox](https://en.wikipedia.org/wiki/Liar_paradox) = circle-arrow complementarity = ((66f3e588-9094-45af-9dff-2225c3ac39ab)) = unlimited refinability = intrinsic openness of the ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
-	  id:: 6747eac1-f683-4ed1-9b06-34fd10103c0c
-	  collapsed:: true
-		- circle = completeness = totality <> arrow = consistency = partiality
-		  The ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is contradictory, the consistent is partial.
-		- The “negation” or “opposition” of the “pathological program” `P` in the halting problem = the “lie” of the “liar” = the arrow that differentiate 1 from 0 = the knife that cut the circle open
-		-
-	- Usages of `⋇`
-	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
-	  collapsed:: true
-		- Unithread's interunion: $c ⋇ i = s_0 ⋇ s_1 = s_0 / s_1 / s_2 / ... / 1$ ~ [continued fraction](https://en.wikipedia.org/wiki/Continued_fraction)
-		- Copilot says that `⋇` has been used for [wedge sum](https://en.wikipedia.org/wiki/Wedge_sum), which is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) in Unithread.
-		- $e^{x ± r} = e^x ⋇ e^r$
-			- [Confidence intervals](https://en.wikipedia.org/wiki/Confidence_interval) around arithmetic mean $x ± r$ (with radius $r$) and geometric mean $y ⋇ s$ (with scale variance $s$).
-				- Ref: [StackExchange](https://math.stackexchange.com/questions/954186/what-is-the-symbol-divideontimes-divide-times-for), Gemini
-			- [Involutions](https://en.wikipedia.org/wiki/Involution_(mathematics)), self-inverse operators preserving information
-				- $x ± y = (x + y, x - y)/\sqrt{2}$
-				- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
-				- These are genralized “rotation” operations similar to [unitary operators](https://en.wikipedia.org/wiki/Unitary_operator) which preserve the norm of state vector.
-	- Boundary problem
-	  id:: 6756cbba-4326-499c-a1f1-296a36a14663
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-12-09 Mon 17:51:40]
-	  CLOCK: [2024-12-09 Mon 17:51:48]--[2024-12-09 Mon 18:11:01] =>  00:19:13
-	  :END:
-		- [Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential anaysis
-		- Digit overflow/waterfall/cascade ([domino effect](https://en.wikipedia.org/wiki/Domino_effect)) in positional numerals
-			- Limit numbers in [ordinal numbers](https://en.wikipedia.org/wiki/Limit_ordinal) and [p-adic numbers](https://en.wikipedia.org/wiki/P-adic_number)
-		- [Edge case](https://en.wikipedia.org/wiki/Edge_case), including overflows ([integer OF](https://en.wikipedia.org/wiki/Integer_overflow), [buffer OF](https://en.wikipedia.org/wiki/Buffer_overflow), [Stack OF](https://en.wikipedia.org/wiki/Stack_overflow)), in software engineering
-		- [Edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos), [Bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory), [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
-		- [Phase transition point](https://en.wikipedia.org/wiki/Phase_transition) in physics and [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
-		- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe.
-	- WAIT Spiral trajectories of a particle moving with constant velocity ...
-	  id:: 6735b189-867a-4eee-b5f5-3079bb3da458
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-12-12 Thu 11:35:12]--[2024-12-16 Mon 20:55:24] =>  105:20:12
-	  :END:
-		- Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane
-		  collapsed:: true
-			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
-				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
-			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{τ} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dτ = \hat{φ}⋅d\vec{r} = rdφ$
-				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{τ} ⋅ \hat{r} = \hat{φ} ⋅ \vec{φ} = d\vec{φ} ⋅ \vec{φ}$
-			- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |d\vec{r}|$
-			- normal: $\hat{n} = \hat{r} × \hat{l} = \hat{r} × \hat{τ}$
-				- 3D [orthonormal basis](https://en.wikipedia.org/wiki/Orthonormal_basis) (radial, transverse, normal): $\hat{r} = \hat{τ} × \hat{n}$   ;   $\hat{τ} = \hat{n} × \hat{r}$  ;   $\hat{n} = \hat{r} × \hat{τ}$
-			- arc from $(r_1, φ_1, τ_1, t_1)$ to $(r_2, φ_2, τ_2, t_2)$: $\overset{\curvearrowright}{l}(r_1, r_2) : d\overset{\curvearrowright}{l} = d\vec{r}$
-				- arc length:  $L(r_1, r_2) = \int_{r_1}^{r_2}|d\vec{r}| = L(t_1, t_2) = \int_{t_1}^{t_2}v⋅dt$
-				- radial component: $R(r_1, r_2) = \int_{r_1}^{r_2} \hat{r}d\vec{r} = \int_{r_1}^{r_2} dr = r_2 - r_1$
-				- WAIT transverse component: $T(φ_1, φ_2) = \int_{φ_1}^{φ_2} \hat{φ}d\vec{r}  = \int_{φ_1}^{φ_2} rdφ = T(τ_1, τ_2) = \int_{τ_1}^{τ_2} dτ = τ_2 - τ_1$
-				  :LOGBOOK:
-				  CLOCK: [2024-12-16 Mon 20:53:41]--[2024-12-16 Mon 20:53:42] =>  00:00:01
-				  :END:
-				- Terminology notes:
-					- In different fields, there are different sets of terms: (radial, transverse ~ tangential, normal) in polar calculus ~ (radial, tangential, longitudinal) in wood anatomy ~ (radial, tangential, axial) in cylindrical analysis
-					  collapsed:: true
-						- wood directions
-						  ![wood-directions.jpg](../assets/ecosystem/wood-directions.jpg)
-						- cylindrical directions
-						  ![cylinder-directions.png](../assets/physics/cylinder-directions.png)
-					- Because the arc length is usually denoted by $L$, here $l$ is used to denote the arc itself. In this sense, $\hat{l}$ denotes the direction along the arc, hence “longitudinal” like [longitudinal wave](https://en.wikipedia.org/wiki/Longitudinal_wave). Don't confuse this “longitudinal” direction with wood's longitudinal direction along its axis.
-					- The term “transverse” is to the “radial” direction of the (light/view) rays emanating from the pole, not to the “tangetial/longitudinal” direction of the arc. This “transverse” is similar to the [“transversals” in perspective drawing](((673ab08d-2389-4306-a7ee-6970e17018c6))).
-					- In SCIFER mechanism, the (radial, transverse) directions are also the (spatial, temporal) directions, so the transverse component $τ$ is alsot the time $t$.
-			- wrapped object plane
-			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
-			  a.k.a. polar plane
-			  $P(r, φ) = \vec{r} = r(\cos φ, \sin φ)$
-				- This is the object plane where polar coordinates are normally embedded. It is the warped phase plane with the angular coordinate (phase $φ$) wrapped around and scaled down by the factor $r$ when $r$ approaches the pole.
-			- unwrapped phase plane
-			  id:: 675f8b5a-dbce-4c3b-a111-3a2088b723a0
-			  $P_φ(r, φ) = (φ, r)$
-				- This plane is unwrapped from the wrapped plane with the horizontal lines scaled up back to angular coordinate (phase $φ$).
-			- unwrapped linear plane  
-			  id:: 675f8af0-7b21-4483-908c-25ce0cec02cc
-			  $P_τ(r, φ) = (τ, r)$
-				- This plane is unwrapped directly from the wrapped plane without scaling.
-				- WAIT A lot of magics in this plane: view cones, angle relative to 
-				  :LOGBOOK:
-				  CLOCK: [2024-12-16 Mon 18:59:56]
-				  :END:
-				  initial/root phase $φ_0$ , SCIFER mechanism, aliasing, extensional space for function, hyperbolic rotation (actually parabolic rotation), ...
-					- 🌈Rainbow description 🏳️‍🌈
-					  collapsed:: true
-						- Let's consider a phase-color disk of radius 1 with a rainbow of colors spreading around from $φ = 0$ to $2π$.
-						- In the unwrapped phase plane of $P_φ(φ, r)$, we have a rectangular range $[0, 2π]×[0, 1]$ with the rainbow spreading from left to right and uniformly from top to bottom (the whole column $φ = φ_k$ have the same color).
-						- In the unwrapped linear plane of $P_τ(τ, r)$, we have a rectangular range $[0, 2π]×[0, 1]$ with the very intricate display of color:
-							- At the top line $r = 1$, we have 1 rainbow spreading from left to right, similar to the unwrapped phase plane.
-							- At the middle line $r = 1/2$, we have 2 rainbows spreading from the left edge to the middle then from the middle to the right edge.
-							- Futher down, at each line $r = 1/n$, we have $n$ rainbows. And in between, we have transitional (non-whole) numbers of rainbows.
-					- This is similar to the time-frequency plane in Fourier transform.
-					  collapsed:: true
-						- ![Fourier-transform-time-frequency-square-wave-transparent.png](../assets/physics/Fourier-transform-time-frequency-square-wave-transparent.png)
-						- ![Fourier-transform-time-frequency-square-wave-1.png](../assets/physics/Fourier-transform-time-frequency-square-wave-1.png)
-						- [Animation on Wikipedia](https://en.wikipedia.org/wiki/Fourier_transform#/media/File:Fourier_transform_time_and_frequency_domains_(small).gif)
-						  ![Fourier_transform_time_and_frequency_domains.gif](../assets/physics/Fourier_transform_time_and_frequency_domains.gif)
-						- [Animation of wave packet on Wikipedia](https://en.wikipedia.org/wiki/Group_velocity#/media/File:Wavepacket1.gif)
-						  ![Wavepacket-in-time-frequency-plane.gif](../assets/physics/Wavepacket-in-time-frequency-plane.gif)
-						- [Intro to the Quantum Harmonic Oscillator in 9 Minutes]({{video https://youtu.be/RCIz2hdJQy0}})
-						  {{video https://youtu.be/RCIz2hdJQy0}}
-					- Parabolic rotation, the bridge between elliptic and hyperbolic rotations
-					  collapsed:: true
-						- See [planar algebras & kinematic geometries in non-Euclidean geometries](https://en.wikipedia.org/wiki/Non-Euclidean_geometry#Planar_algebras) with [split-complex number](https://en.wikipedia.org/wiki/Split-complex_number) and [dual number](https://en.wikipedia.org/wiki/Dual_number) as metrics other than the elliptic metric of [complex number](https://en.wikipedia.org/wiki/Complex_number).
-						- [ProjectiveGeometry-AlexanderI.Bobenko.pdf](../assets/geometry/ProjectiveGeometry-AlexanderI.Bobenko.pdf)
-						- [Planar rotations on Wikipedia](https://en.wikipedia.org/wiki/Linear_fractional_transformation#/media/File:Planar_rotations.png)
-						  ![Planar_rotations-elliptic-hyperbolic-parabolic.png](../assets/geometry/Planar_rotations-elliptic-hyperbolic-parabolic.png)
-					- The fractal nature of this plane is somehow related to the [Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) in hyperbolic geometry, which hosts the [modular group](https://en.wikipedia.org/wiki/Modular_group) $SL(2, \Z)$ including [modular forms](https://en.wikipedia.org/wiki/Modular_form) and [elliptic functions](https://en.wikipedia.org/wiki/Elliptic_functions), via [Möbius transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation).
-					  id:: 6766ea7c-3eb8-4463-9a79-d66509daf176
-					  collapsed:: true
-						- The correspondence between modular forms and elliptic curves is the first bridge “harmonic anlysis - number theory” in the [Langlands program](https://en.wikipedia.org/wiki/Langlands_program).
-						  collapsed:: true
-							- Video: Langlands program - [The Biggest Project in Modern Mathematics](https://youtu.be/_bJeKUosqoY)
-							  collapsed:: true
-								- {{video https://youtu.be/_bJeKUosqoY}}
-							- Note: the Langlands program can be confused with the [Erlangen program](https://en.wikipedia.org/wiki/Erlangen_program) earlier by Klein to characterize [geometries](https://en.wikipedia.org/wiki/Geometry) based on [group theory](https://en.wikipedia.org/wiki/Group_theory) and [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry).
-							- [!] The Langlands program is interesting, but i have too little math knowledge to grasp the lots of complicated formalisms there!
-							- In 2024, the [geometric Langlands correspondence](https://en.wikipedia.org/wiki/Geometric_Langlands_correspondence) has been [proven by a group of mathematicians](https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/) over the course of three decades.
-						- [?] Is there some relation with the [law of (quadratic) reciprocity](https://en.wikipedia.org/wiki/Quadratic_reciprocity)?
-						-
-			- Relation between the two unwrapped planes
-				- $P(r, φ, τ): τ = r⋅φ$ is the surface combining 2 planes in the unwrapped space.
-		- **Case 0**: $dφ = k_φ⋅dr$    with  $k_φ = ω/v_r$   and  $ω, v_r : const$
-			- Property: The velocity of this particle in ((675f8b5a-dbce-4c3b-a111-3a2088b723a0)) is $\vec{v_φ} = (dφ, dr)/dt = (ω, v_r) : \overrightarrow{const}$.
-			- Differential equation:
-				- $dφ/dr = ω/v_r$  `[0]`
-			- ⇒ $φ/r = ω/v_r$  ; result is an [Archimedean spiral](https://en.wikipedia.org/wiki/Archimedean_spiral#Derivation_of_general_equation_of_spiral).
-		- **Case 1**: $dτ = k_τ⋅dr = r⋅dφ$   with    $k_τ = v_τ/v_r$   and  $v_τ, v_r : const$
-		  id:: 675c3e57-d3d2-4829-9b82-9f38eabbbf56
-			- $k_τ$ is the ratio of two components of velocity $\vec{v}$ between transverse direction $v_τ = \vec{v}\hat{φ}$ and radial direction $v_r = \vec{v}\hat{r}$.
-			- Property: The velocity of this particle is constant in both planes: $v = |\vec{v}| = \sqrt{v_l^2 + v_r^2} : const$ in ((675f8a74-7fef-4e88-a65e-856f5e494bb8)) and $\vec{v_τ} = (dτ, dr)/dt = (v_τ, v_r) : \overrightarrow{const}$ in ((675f8af0-7b21-4483-908c-25ce0cec02cc)).
-			- Differential equation:
-				- $dφ/dr = 1/r ⋅ v_τ/v_r$  `[1]`
-			- ⇒ $φ = \ln(r)⋅v_τ/v_r + φ_0$  ; result is a [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral).
-				- $(φ - φ_0)/v_τ = \ln(r)/v_r$
-				- $r = \exp((φ - φ_0) ⋅ v_r/v_τ)$
-				- Pitch angle: $α = \arctan(v_r/v_τ): const$ , hence [equiangular spiral](https://www.mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
-				- Arc length: $L(r_1, r_2) = (r_2 - r_1) ⋅ \sqrt{v_τ^2 + v_r^2}/v_r = (r_2 - r_1)/\sin(α)$
-		- **Case 2**: $ds = k_l⋅dr$   with   $s = r⋅ φ$ ,    $k_l = φ_0$   and   $φ_0, v_r : const$
-		  id:: 675fb739-c295-4d9d-b388-94d989dffc02
-			- $k_l$ is the ratio of two components of the total arc $\overset{\curvearrowright}{l}$ between transverse direction $s = \overset{\curvearrowright}{l}\hat{φ}$ and radial direction $r = \overset{\curvearrowright}{l}\hat{r}$.
-				- WAIT Confusions of the differential transverse component $ds$ of the total arc $\overset{\curvearrowright}{l}$:
-				  :LOGBOOK:
-				  CLOCK: [2024-12-16 Mon 20:53:48]--[2024-12-16 Mon 20:53:49] =>  00:00:01
-				  :END:
-					- $ds$ can be easily confused with the transverse component $dτ$ of the velocity $\vec{v}$ which is actually a subcomponent of $ds$: $ds = dτ + φ⋅dr$.
-					- Otherwise, $ds$ can also be confused with the tangential component $|d\vec{r}| = |\vec{v}|dt$ of the velocity $\vec{v}$.
-			- Property: The velocity of this particle in ((675f8af0-7b21-4483-908c-25ce0cec02cc)) is $\vec{v_τ} = (dτ, dr)/dt = (0, v_r) : \overrightarrow{const}$ in the vertical direction. Its trajectory there is a vertical line $τ = τ_0 = s_0 = r_0 ⋅ φ_0$.
-			- Differential equation:
-				- $φ_0⋅dr = d(r⋅φ)$
-				- $(φ_0 - φ)dr = r⋅dφ$
-				- $dφ/dr = -(φ - φ_0)/r$  `[2]`
-				  id:: 675a6873-6404-4747-90b9-0d53436f0c62
-				- $dφ'/dr = -φ'/r$   with   $φ' = φ - φ_0$
-			- ⇒ $φ' = r_0/r$   and   $φ - φ_0 = r_0/r$   and   $(φ - φ_0)(r/r_0) = 1 = l_0$
-			- $φ' = 1/r'$   and   $φ'r' = 1 = l_0$    with    $r' = r/r_0$   and   $φ' = φ - φ_0$
-				- $φ = r_0/r + φ_0$   and    $r = r_0/(φ - φ_0)$
-				- ⇒ $dφ = r_0⋅d(1/r) = -r_0/r^2⋅dr$
-				- $dφ/dr = -(r_0/r + φ_0 - φ_0)/r = -(φ - φ_0)/r$   ⇔   [`[2]`](((675a6873-6404-4747-90b9-0d53436f0c62)))
-			- This is a [reciprocal spiral](https://mathcurve.com/courbes2d.gb/hyperbolic/hyperbolic.shtml) or [hyperbolic spiral](https://en.wikipedia.org/wiki/Hyperbolic_spiral) with initial phase $φ_0$.
-			  id:: 675a85a5-1927-468b-b11d-e2057b8dbe63
-				- Sector area: $A(r_1, r_2) = ½ r_0(r_2 - r_1)$
-				- The staggered starting marks of footraces on concentric circle lanes are on a reciprocal spiral.
-					- These runners are running “back” to the initial sync position, a.k.a. the “finish line”.
-					  collapsed:: true
-						- ![Men_200_m_French_Athletics_Championships_2013_t161532.jpg](../assets/Uniinfo/Unithread/Men_200_m_French_Athletics_Championships_2013_t161532.jpg)
-					- The particles in the phase circle (phase wheel, phase flower) are moving from the initial sync position (straight line at $t_0$), following the flow of time on concentric time circles, to form a reciprocal spiral at time $t$.
-				- Reciprocal spiral and [log spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral) are 2 in 5 cases of [Cotes's spiral](https://en.wikipedia.org/wiki/Cotes%27s_spiral), which are trajectories of a particle moving under an _**inverse-cube** central force_.
-				- [Newton's theorem of revolving orbits](https://en.wikipedia.org/wiki/Newton's_theorem_of_revolving_orbits#Illustrative_example:_Cotes's_spirals)
-				- General formulae (general solutions of ODE) in [3 cases of Cotes's spiral](https://physics.stackexchange.com/a/596235)
-				- Transform from general formulae to special ones
-					- [$a⋅e^x + b⋅e^x = c⋅cosh(x - x_0)$](https://math.stackexchange.com/a/2756157/1290859)
-					- $a⋅sinh(x) + b⋅cosh(x) = c⋅cosh(x - x_0)$
-					- $a⋅sin(x) + b⋅cos(x) = c⋅cos(x - x_0)$
-				- [Derivation of inverse-cube force from Logarithmic spiral trajectory](https://www.physicsforums.com/threads/central-force-on-a-particle-following-a-logarithmic-spiral.982655/)
-				- Dual between Hooke's law & Newton's law: [Planetary Motion and the Duality of Force Laws](https://www.researchgate.net/publication/228571130_Planetary_Motion_and_the_Duality_of_Force_Laws)
-	- The feeling, emotion is difficult to release due to its subtlety.
-	  id:: 675c399e-06a9-4c00-91a2-f2340a3a9bac
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-12-23 Mon 15:26:30]
-	  CLOCK: [2024-12-23 Mon 15:26:35]--[2024-12-23 Mon 16:12:23] =>  00:45:48
-	  :END:
-		- subtle → elusive and master in controling the body-mind deep from inside.
-		- It's just a driving force with no clear feature, hence logic is renderd useless.
-			- The [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the underlying tendency/feeling is the driving force of all actions.
-			- Actually, it's a ((671e2782-2098-41a3-83a7-e042bfb468d7)) from lots of concrete incidences. The current feeling is just a rising of the underlying condensate due to some trigger.
-			- Normal people “surfing on the surface”, while meeting many incidences and accumulating emotions, their condenstates are not thick enough to interfere with their actions and decisions.
-			- The “threshold people” have various subtle but deep feelings driving their life deep from within.
-			- The role of normal people is to work, while the role of threshold people is to resolve the conflicts between these deep feelings.
-		- Conscious breathing is the best way to release & resolve emotions.
-			- With concetrated observation, the conscious breath can effectively cleanse and transform the underlying condensate.
-			- My tendency is toward resolution more than releasing. It makes me suffer longer with attachments.
-			- So the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique is essential for me to transform and resolve them.
-	- [pipe wrapping](((670cdcb4-3c85-45af-8c30-3c3284ed37df))) = signal piping = message conveyance
-	  id:: 676e46bc-5c19-4e37-a301-e3b818d8cb1a
-	  collapsed:: true
-		-
