@@ -1,6 +1,6 @@
 # Workspace
 id:: 66519638-cf5d-409b-9b98-15acabf2268c
-	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)) for Will LE.
+	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 	  id:: 66600918-2b2b-417e-910b-2a60fdba7918
 	- ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
 	- ***Pinned***: ((66536e1b-6466-4153-90d6-583003d99a81))
@@ -9,7 +9,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	  collapsed:: true
-		- workflow
+		- obop
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  collapsed:: true
 		  ^ **Name & Term** search
@@ -36,14 +36,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- Custom Logseq publish via Web API
+		- Will LE
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
 		  child-filter::
 		  search-scope:: Specific blocks: ;
-		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]]; Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
+		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]];
 		  collapsed:: true
+		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
