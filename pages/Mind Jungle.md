@@ -1671,11 +1671,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `${HOME}/source/UniinfoNotes/assets/logseq/config.edn`: local config: **3 links**
 					- `${HOME}/source/UniinfoNotes/logseq/config.edn`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/logseq/config.edn`: Linux logseq-notes
-					- `diff` check first
+					- `diff` & `stat` check first
 					  collapsed:: true
 						- ```sh
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  ```
+						- ```sh
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/config.edn
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  stat -c '%i %h' ${HOME}/opt/personal/logseq-notes/logseq/config.edn
 						  ```
 					- then `ln`
 					  collapsed:: true
@@ -1687,15 +1692,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- `${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn`: Flatpack installation
 					- `${HOME}/.config/Logseq/configs.edn`: AppImage installation
 					- `${HOME}/snap/logseq/current/.config/Logseq/configs.edn`: Snap installation
-					- `diff` check first
-					  collapsed:: true
+					- `diff` & `stat` check first
 						- ```sh
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq}/configs.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
 						  ```
+						- ```sh
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn
+						  stat -c '%i %h' ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
+						  stat -c '%i %h' ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
+						  stat -c '%i %h' ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
+						  ```
 					- then `ln`
-					  collapsed:: true
 						- ```sh
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.config/Logseq/configs.edn

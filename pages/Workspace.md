@@ -121,9 +121,16 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					  /home/dinhlx/snap/logseq/28/.logseq/config/config.edn
 					  /home/dinhlx/.logseq/config/config.edn
 					  ```
-				- The current
+				- The current version: 29 = [Beta 0.10.9 @ Apr 23rd, 2024](https://docs.logseq.com/#/page/changelog/block/beta%200.10.9%20%5B%5Bapr%2023rd%2C%202024%5D%5D) = latest in 2024, and the same for all 3 app versions (Flatpak, Snap, and AppImage)
 					- ```sh
+					  tree -d ~/snap/logseq/                                                                    [dd57718]
+					  /home/dinhlx/snap/logseq/
+					  ├── 28
+					  ├── 29
+					  ├── common
+					  └── current -> 29
 					  ```
+				- ⇒ Just remove the `28`!
 			-
 			- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 			- DOING Task with deadline
