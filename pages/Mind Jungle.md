@@ -1651,16 +1651,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn`: global config: **3 links**
 					- `${HOME}/.logseq/config/config.edn`: Flatpack & AppImage installations
 					- `${HOME}/snap/logseq/current/.logseq/config/config.edn`: Snap installation
-					- `diff` & `stat` check first
+					- first, check `stat` & `diff`
 					  collapsed:: true
-						- ```sh
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
-						  ```
 						- ```sh
 						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn 
 						  stat -c '%i %h' ${HOME}/.logseq/config/config.edn
 						  stat -c '%i %h' ${HOME}/snap/logseq/current/.logseq/config/config.edn
+						  ```
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
 						  ```
 					- then `ln`
 					  collapsed:: true
@@ -1671,16 +1671,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `${HOME}/source/UniinfoNotes/assets/logseq/config.edn`: local config: **3 links**
 					- `${HOME}/source/UniinfoNotes/logseq/config.edn`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/logseq/config.edn`: Linux logseq-notes
-					- `diff` & `stat` check first
+					- first, check `stat` & `diff`
 					  collapsed:: true
-						- ```sh
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
-						  ```
 						- ```sh
 						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/config.edn
 						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/logseq/config.edn
 						  stat -c '%i %h' ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  ```
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
 						  ```
 					- then `ln`
 					  collapsed:: true
@@ -1692,19 +1692,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- `${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn`: Flatpack installation
 					- `${HOME}/.config/Logseq/configs.edn`: AppImage installation
 					- `${HOME}/snap/logseq/current/.config/Logseq/configs.edn`: Snap installation
-					- `diff` & `stat` check first
-						- ```sh
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
-						  ```
+					- first, check `stat` & `diff`
+					  collapsed:: true
 						- ```sh
 						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn
 						  stat -c '%i %h' ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  stat -c '%i %h' ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  stat -c '%i %h' ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
 						  ```
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
+						  ```
 					- then `ln`
+					  collapsed:: true
 						- ```sh
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.config/Logseq/configs.edn
@@ -1713,8 +1715,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `${HOME}/source/UniinfoNotes/assets/logseq/custom.css`: theme: **3 links**
 					- `${HOME}/source/UniinfoNotes/logseq/custom.css`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/logseq/custom.css`: Linux logseq-notes
-					- `diff` check first
+					- first, check `stat` & `diff`
 					  collapsed:: true
+						- ```sh
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/custom.css
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  stat -c '%i %h' ${HOME}/opt/personal/logseq-notes/logseq/custom.css
+						  ```
 						- ```sh
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
@@ -1730,7 +1737,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/pages/share/technical/Git.md`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md`: Linux logseq-notes
-					- `diff` check first
+					- first, check `stat` & `diff`
+						- ```sh
+						  stat -c '%i %h' "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" 
+						  stat -c '%i %h' "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
+						  ```
 						- ```sh
 						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
 						  ```
@@ -1739,10 +1750,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
 						  ```
 				- [technical/JavaScript.md]([[JavaScript]]): **2 links**
-				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md`: Linux logseq-notes
-					- `diff` check first
+					- first, check `stat` & `diff`
+						- ```sh
+						  stat -c '%i %h' "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" 
+						  stat -c '%i %h' "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
+						  ```
 						- ```sh
 						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
 						  ```
@@ -1751,10 +1765,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
 						  ```
 				- [[Theme Demo]]: **2 links**
-				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md`: Linux logseq-notes
-					- `diff` check first
+					- first, check `stat` & `diff`
 						- ```sh
 						  gdiff "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
