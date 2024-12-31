@@ -2,7 +2,6 @@
 id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 	  id:: 66600918-2b2b-417e-910b-2a60fdba7918
-	- ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
 	- ***Pinned***: ((66536e1b-6466-4153-90d6-583003d99a81))
 	  id:: 66603d58-ff5b-4e23-8dad-5dba527981f4
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
@@ -99,9 +98,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- Here i'm planning for the task of designing master plan! 😉
 					- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7))
 				- ...
-			- ------
+			- <<End WIPs>>
+			  ------
 		- ### Working
+		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
+			- ((db954501-95d0-46e2-b1fc-39b6a966300e))
+			  id:: 6773ee55-acdb-442d-a56c-deab6b59fe3d
 			- ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
+			  id:: 6772a6c7-e051-465a-adee-b6c86e7d36ed
 		-
 		- ### Master Plan
 			-
@@ -124,6 +128,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	-
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
+	  ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
 		-
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))

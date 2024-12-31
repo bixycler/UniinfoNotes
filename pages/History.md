@@ -347,15 +347,18 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  CLOCK: [2024-12-27 Fri 18:23:01]--[2024-12-28 Sat 23:51:39] =>  29:28:38
 		  :END:
 		- Create backlink-based ((676e5861-1220-40e4-9546-e319e17df1aa)).
-	- DONE Refractor [[Workspace]]; ((6772a6cb-1dee-402a-bee2-d41337e74eb6))
+	- DOING Refractor [[Workspace]]; ((6772a6cb-1dee-402a-bee2-d41337e74eb6))
 	  id:: 67710747-2982-4134-875e-3b715313db87
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-12-29 Sun 15:24:43]--[2024-12-29 Sun 15:54:52] =>  00:30:09
+	  CLOCK: [2024-12-31 Tue 20:16:59]
 	  :END:
 		- move ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) from [[Contents]] to ((66519638-cf5d-409b-9b98-15acabf2268c))
 		  id:: 67710af1-e3f0-4f94-917c-5235c210f082
 		- move ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) from ((66519638-cf5d-409b-9b98-15acabf2268c)) to [[History]]
+		- refactor ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place into ((6773ee55-acdb-442d-a56c-deab6b59fe3d)) and ((6772a6c7-e051-465a-adee-b6c86e7d36ed)) so that they can be opened in the right side bar to work in parallel with other docs in the main edit pane.
+			- Previously, the "working place" was just anywhere in the ((6651adea-81d4-40a5-b96d-af6739e572eb)).
 		- Update ((66f7af1c-bb80-46ae-a896-10f31c113e84))
 			- Add missing ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 			- Move ((66949495-3846-4f89-9ea5-c62b624d282c)) to [[Linux]]
