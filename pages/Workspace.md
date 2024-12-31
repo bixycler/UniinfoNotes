@@ -36,15 +36,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- effect circle
+		- reveal
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
 		  child-filter::
 		  search-scope:: Specific blocks: ;
-		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]];
-		  collapsed:: true
-		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
+		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]]; Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
@@ -100,6 +98,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7))
 				- ...
 			- ------
+		- ### Brainstorming
+			- ((6653538a-30aa-423f-be89-848ad9c7e331))
 		-
 		- ### Master Plan
 			-
@@ -376,7 +376,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 									- ...
 						- Let's restart from the way/attitude of looking at everything!
 							- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
-							- The goal is a hidden boss which must be [revealed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
+							- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
 							- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
 							  collapsed:: true
 								- There is the ultimate purpose, but it's **not "final"**. The ultimate goal/purpos is the "[horizon](((67445223-9459-4aa9-b102-70c63943577b)))" which is always vividly there, always the guiding direction for us, but can never be "final" or "finished".
@@ -396,7 +396,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						  :LOGBOOK:
 						  CLOCK: [2024-12-29 Sun 21:06:08]
 						  :END:
-							- This checkstop is required so that all hidden ones can be [revealed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
+							- This checkstop is required so that all hidden ones can be [exposeed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
 							- DOING Design ((6651adea-52dd-4aa8-9942-a75af9a6a23f)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
 							  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
 							  :LOGBOOK:
@@ -409,8 +409,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- [?] How to move between ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), short-term plans, and ((6651adea-52dd-4aa8-9942-a75af9a6a23f))...
 								- Matter plan: spatial over temporal (like [urban planning](https://en.wikipedia.org/wiki/Urban_planning))
 									- the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> WIPs & brainstorming = 0 = out
-									- implement ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982))), start from the issues
-									  + Machines lack effect circle, don't know the "why", the root purpose.
+									- implement ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982))), start from the issues in [[Braindump]]
+										- Machines lack effect circle, don't know the "why", the root purpose.
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
