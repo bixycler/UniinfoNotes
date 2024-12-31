@@ -2798,8 +2798,9 @@
         ;
         ; ?key parameter
         [?params :block/content ?paramlines]
-        [(re-pattern \".*\") ?firstLinePattern]
-        [(re-find ?firstLinePattern ?paramlines) ?key]
+        [(re-pattern \".*\") ?line-pattern]
+        [(re-find ?line-pattern ?paramlines) ?key] ; only the first line, a.k.a. block title
+
         ;
         ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
         [?params :block/properties ?props]

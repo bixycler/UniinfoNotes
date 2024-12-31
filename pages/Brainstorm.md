@@ -219,7 +219,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				      ; ?key parameter
 				      [?params :block/content ?paramlines]
 				      [(re-pattern ".*") ?line-pattern]
-				      [(re-find ?line-pattern ?paramlines) ?key] ; only the first line, a.k.a. "block title"
+				      [(re-find ?line-pattern ?paramlines) ?key] ; only the first line, a.k.a. block title
 				      ;
 				      ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
 				      [?params :block/properties ?props]
@@ -415,11 +415,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					   ]; end query[]
 					  }
 					  #+END_QUERY
-				- DOING `re-find` can match multiple lines, but `re-find (re-pattern ".*")` returns only the **first match** (line)! Use `re-seq` for a sequence of **all matches**.
+				- DONE `re-find` can match multiple lines, but it only returns the **first match**! Use `re-seq` for a sequence of **all matches**.
 				  id:: 6773ba79-d2a7-442d-be3d-f679f91eda41
 				  collapsed:: true
 				  :LOGBOOK:
-				  CLOCK: [2024-12-31 Tue 16:33:57]
+				  CLOCK: [2024-12-31 Tue 16:33:57]--[2024-12-31 Tue 17:24:58] =>  00:51:01
 				  :END:
 					- This is the first line, a.k.a. "block title"
 					  id:: 6773bc4d-e221-4632-9882-06b1dfff8b65
@@ -499,8 +499,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			      ;
 			      ; ?key parameter
 			      [?params :block/content ?paramlines]
-			      [(re-pattern ".*") ?firstLinePattern]
-			      [(re-find ?firstLinePattern ?paramlines) ?key]
+			      [(re-pattern ".*") ?line-pattern]
+			      [(re-find ?line-pattern ?paramlines) ?key] ; only the first line, a.k.a. block title
 			      ;
 			      ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
 			      [?params :block/properties ?props]
