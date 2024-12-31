@@ -426,16 +426,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  This is the 2nd line
 					  This is the 3rd line
 					- This is the first line, a.k.a. "block title"
+					  id:: 6773bc4d-e221-4632-9882-06b1dfff8b65
+					  note:: all properties, including `id::` will be moved to right after the "block title"
 					  This is the 2nd line
 					  This is the 3rd line
-					  note:: all properties will be moved to right after the "block title"
 					- Source code:
 					  collapsed:: true
 						- ```clojure
 						  #+BEGIN_QUERY
 						  {:title [:h3 "Extract lines with RegEx"]
 						   :inputs [ 
-						    [:block/uuid #uuid "6773bbf6-e001-4d38-8dc1-e4744b753a93"]  ; $3 search-scope ?container
+						    [:block/uuid #uuid "6773bc4d-e221-4632-9882-06b1dfff8b65"]  ; $3 search-scope ?container
 						   ]
 						   ;;;;;;;; query body ;;;;;;;;
 						   :query [
@@ -444,7 +445,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						    :where
 						      [?container :block/content ?content]
 						      [(re-pattern ".*") ?patAll]
-						      [(re-find ?patAll ?content) ?resAll]
+						      [(re-seq ?patAll ?content) ?resAll]
 						      [(str "Match result of `.*`: " ?resAll) ?strAll]
 						      [(re-pattern ".*line") ?patLine]
 						      [(re-find ?patLine ?content) ?resLine]
@@ -456,7 +457,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- #+BEGIN_QUERY
 					  {:title [:h3 "Extract lines with RegEx"]
 					   :inputs [ 
-					    [:block/uuid #uuid "6773bbf6-e001-4d38-8dc1-e4744b753a93"]  ; $3 search-scope ?container
+					    [:block/uuid #uuid "6773bc4d-e221-4632-9882-06b1dfff8b65"]  ; $3 search-scope ?container
 					   ]
 					   ;;;;;;;; query body ;;;;;;;;
 					   :query [
@@ -465,7 +466,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					    :where
 					      [?container :block/content ?content]
 					      [(re-pattern ".*") ?patAll]
-					      [(re-find ?patAll ?content) ?resAll]
+					      [(re-seq ?patAll ?content) ?resAll]
 					      [(str "Match result of `.*`: " ?resAll) ?strAll]
 					      [(re-pattern ".*line") ?patLine]
 					      [(re-find ?patLine ?content) ?resLine]
