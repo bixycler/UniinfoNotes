@@ -283,6 +283,507 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Out of nothing:** This phrase is also quite common, but slightly less so than "out of thin air."
 					- **Ex nihilo:** This Latin phrase is less common in everyday conversation, but it's often used in philosophical and academic contexts.
 			- Chat with Gemini: [Latin for "Out of Thin Air"](https://gemini.google.com/app/182417258903bcd9)
+		- Loops, springs, coils in Unicode
+		  id:: 671a3ada-40dd-4a43-8ded-532c120cfda1
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-10-24 Thu 19:18:10]--[2024-10-24 Thu 19:57:44] =>  00:39:34
+		  :END:
+			- Emojis
+				- ➰
+				  curly loop, scribble, squiggle
+				- ➿
+				  double curly loop, tape, cassette
+				- 🎗️
+				  reminder ribbon, awareness, cause
+				- 🌀
+				  cyclone, swirl, vortex, spiral, whirlpool, spin
+				- 🍥
+				  fish cake with swirl design, narutomaki, kamaboko, surimi
+				- ♾️
+				  infinity, forever
+			- ⅏
+			  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
+			- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
+				- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en), ꕤ (za)
+			- [Brahmi script](https://en.wikipedia.org/wiki/Brahmi_script) descendants
+				- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
+					- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
+				- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
+					- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
+				- [Cham script](https://en.wikipedia.org/wiki/Cham_script) contains spiral punctuation
+					- ꩜ (spiral, beginning of a section)
+			- [Bamum script](https://en.wikipedia.org/wiki/Bamum_script) contains many pictographic characters
+				- 𖦹 (ngkaami in Phase E)
+			- Symbols
+				- Infinity: ∞, ♾
+		- Writing styles & formats
+		  id:: 67187bb2-8a3a-4541-9f19-40e217ce7eb0
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-10-23 Wed 12:04:05]--[2024-10-23 Wed 15:27:28] =>  03:23:23
+		  :END:
+			- CreatZy style
+				- Quotation
+					- For quick notes, i just use the straight quotation marks `"`.
+					- For notes to be published, i use the curly quotation marks `“”`.
+					- Only the quoted material is placed inside quotation marks.
+					  id:: 67189182-7268-4579-9ef2-b16bf1f06c86
+					  I don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence.
+					- Math forms are quoted by double angle brackets, e.g. $⟪E = m⋅c^2⟫$
+				- Dialogue
+					- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
+					- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are space-separated from the text.
+			- American style for quotation
+			  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
+				- Commas `,` and periods `.` are always before the closing quote, “like this.”
+					- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only [from mid-19th century](https://style.mla.org/the-placement-of-a-comma-or-period-after-a-quotation), to make the text of [typewriter](https://en.wikipedia.org/wiki/Typewriter) [looks “neater”](https://style.mla.org/punctuation-and-quotation-marks/).
+				- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
+			- World's various styles for dialogue
+				- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
+				- For source attribution, while (em) [dash](https://en.wikipedia.org/wiki/Dash) is the most common, colon `: author` and parentheses `(from author)` are also used.
+				- References:
+					- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
+					- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
+		- The **choice** determines the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) and its ((6713a8e1-e460-4622-9ad6-87c804deccd8)).
+		  id:: 6714a66b-1bd2-4c9d-8ebc-2842f3095b3b
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-10-20 Sun 13:57:09]--[2024-10-20 Sun 14:46:58] =>  00:49:49
+		  :END:
+			- ((67137e75-0e28-4f09-b6a2-0e2276335be3))
+			- "Which one is is the seed thread, which one is the condition thread?"
+			  "Đâu là sợi nhân, đâu là sợi duyên?"
+				- This was my very first question about the ((6713acf0-2eb0-423b-ac61-6f595ea12b86))
+				- Objectively, all causes are equally causal, but subjectively, the one chosen by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) will be the main cause.
+				- That main cause determines the result thanks to the choice of the self.
+				  id:: 6714ac17-31b2-4963-9ded-8c35e709621a
+					- The self selects conditions to match that main cause.
+					- The self cherry-picks the fruit according to its criteria which is just another kind of main causes.
+			- ((66e80666-5f29-4419-8db1-bf8cdce893e4))
+			- accept (choiceless) vs intent (choice)
+				- They are 2 opposite ends but are united in the circle of learning:
+				  accept -> learn -> intent to follow that lesson of "acceptance is the best" -> acceptive attitude -> accept
+				- I usually place my ((667272b8-88a8-4928-a22a-35035c9edf05)) at the "accept", so i see all of the chain of effects as "no choice". But that's just relative, because...
+				- The choice at the "intent" does affect the acceptance and what will be learnt next.
+					- This is in line with the ((6713acf0-2eb0-423b-ac61-6f595ea12b86)).
+				- [choiceless awareness](https://en.wikipedia.org/wiki/Choiceless_awareness) by [Jiddu Krishnamurti](https://en.wikipedia.org/wiki/Jiddu_Krishnamurti)
+			- Choice & responsibility is the main ethical motivation of the ((6713acf0-2eb0-423b-ac61-6f595ea12b86)).
+			  "We receive whatever we've chosen."
+			  "Gieo nhân nào gặt quả nấy."
+		- karmic cycle
+		  id:: 6713a8e1-e460-4622-9ad6-87c804deccd8
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-10-19 Sat 19:42:23]--[2024-10-19 Sat 20:46:35] =>  01:04:12
+		  :END:
+			- Related: ((66e7d7dd-5f88-472c-8694-beb7222929bb))
+			  :LOGBOOK:
+			  CLOCK: [2024-10-19 Sat 19:42:23]
+			  :END:
+			- Blog [Nhân Duyên Nghiệp Quả](https://creatzynotes.blogspot.com/2021/01/nhan-duyen-nghiep-qua.html)
+			- karmic cycle = ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra)
+				- Karmic cycle may be small within a day, while samsara is usually refer to the life cycle.
+			- karmic relationship: "có duyên với  nhau"
+			- principle of karma: "luật nhân quả", principle of causality
+			  id:: 6713acf0-2eb0-423b-ac61-6f595ea12b86
+			  collapsed:: true
+			  [Pratītya-samutpāda](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da): hetu + pratītya -> [phala](https://en.wikipedia.org/wiki/Phala)
+				- hetu ([main] cause, seed, nhân)
+				  id:: 6714a980-e4e5-4c13-a74f-306c32b1dc11
+				  is the main and direct cause which is chosen by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)).
+				- pratītya (condition, duyên)
+				  id:: 6714a997-d883-4f0f-b825-faeb9f588588
+				  is the auxiliary and indirect cause from the environment which supports the ((6714a980-e4e5-4c13-a74f-306c32b1dc11)).
+				- phala (fruit, quả)
+				  is the result, effect caused by the combination of ((6714a980-e4e5-4c13-a74f-306c32b1dc11)) and ((6714a997-d883-4f0f-b825-faeb9f588588)).
+				- {{embed ((6714ac17-31b2-4963-9ded-8c35e709621a))}}
+			- [karma](https://en.wikipedia.org/wiki/Karma) ~ [saṃskāra](https://en.wikipedia.org/wiki/Samskara_%28Indian_philosophy%29) = [saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) ~ [vāsanā](https://en.wikipedia.org/wiki/V%C4%81san%C4%81) = [bīja](https://en.wikipedia.org/wiki/B%C4%ABja)
+				- karma (action, nghiệp)
+				  is the most general term referring the whole causal cycle.
+				- saṃskāra (formation, hành)
+				  id:: 6713b007-5b0a-4659-9651-1069d9ccf7c6
+				  collapsed:: true
+					- saṃ-skāra = work (kar) together (sam), with the root "kar" of "karma"
+					- active cause: sankhara-khandha (hành uẩn) in [5 aggregates](https://en.wikipedia.org/wiki/Skandha)
+					- passive effect: conditioned thing in [Three marks of existence](https://en.wikipedia.org/wiki/Three_marks_of_existence)
+					  collapsed:: true
+						- > all conditioned things are impermanent
+						- > sabbe saṅkhārā aniccā
+					- ((6713b007-5b0a-4659-9651-1069d9ccf7c6)) is related to ((66f7af1d-e9f3-49c4-a9f6-3b614a413a57))
+				- vāsanā (karmic imprint, tập khí), bīja (karmic seed, chủng tử)
+				  id:: 6713b016-effb-4c0a-9b29-746770b99ce6
+				  collapsed:: true
+				  is the hidden tendency imprinted in the memory due to the collection of past karma
+					- The Vietnamese word "nghiệp" usually refers to this tendency.
+					- ((6713b016-effb-4c0a-9b29-746770b99ce6)) is related to ((66e80666-5f29-4419-8db1-bf8cdce893e4))
+		- circle = constant ((670ce8c2-8c54-42c6-84cd-93703c1fa60f)) = constant speed of light = conservation of amount/energy/mass/content ( ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))) = *the same content appears in many forms* = **spring mechanic** (harmonic oscillator)
+		  id:: 670cd7d1-8380-49db-a47c-6aa132256596
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-10-14 Mon 15:35:31]
+		  CLOCK: [2024-10-14 Mon 15:35:44]--[2024-10-14 Mon 16:39:52] =>  01:04:08
+		  :END:
+			- The radius c is the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) of the quantum: center -> circumference -> center
+			- When the content c compresses into a ((667d162c-16cf-44d3-81a5-29b1b885164f)), it shows ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+			- When the content c relaxes into a ((66ab675b-2778-4f51-80ad-20a8f6988691)), it shows ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
+			- When the content c stretches out to a straight segment, i.e. radius, it shows ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
+			- spring mechanic: the content of the spring is constant, it just compresses and expands.
+				- The external form on x-axis is the "real", i.e. visible part, while the internal content on p-axis is the "imaginary", i.e. invisible part.
+				- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
+			- ((671b6c19-7dee-4548-9154-a5eddbe870fc)) is just an arrrow of the relaxed quantum. The light ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))s the original circle into various forms (shapes and sizes). => ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
+		- ((66f267f7-01f9-47b9-8376-abd27fdf2930)) (vi. Thức) - ((66f2681b-796a-4e25-b778-ba4fb6419425)) (vi. Ý Thức) - ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) (vi. Mình, Bản thân) - Ego (vi. cái Tôi) - Ātman (vi. Ngã, Linh hồn)
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-24 Tue 15:08:24]--[2024-09-24 Tue 17:50:18] =>  02:41:54
+		  :END:
+			- ((669a5387-2a97-4311-a295-aa0afd9c4d76)) > ((66c810a0-9861-4787-bdcf-1378219332be)) > ego > selful consciousness > selfless consciousness = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = ((66f267f7-01f9-47b9-8376-abd27fdf2930)) = ((66ab7477-c060-4d07-ab13-bc3d11246854)) of ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) = center of ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)) /information = life force
+			- Ātman (आत्मा, आत्मन्): đại ngã, linh hồn bất diệt (của Thượng Đế), a Sanskrit word that refers to "essence, breath" -> ((66c8772a-9b29-45b0-b169-2fa847333e02))
+				- anātman/anattā: vô ngã, không có linh hồn bất diệt
+			- tôi exclusive  <> mình inclusive
+				- The ego's role is to protect the self, to preserve the completeness, integrity of the self => develop, multiply, reproduce, etc.
+				- The inclusiveness of the self circle is the connection between selves within the large self.
+			- thức intension <> mình extension
+				- To the external world, the intensional awareness is virtual vs the real extensional self.
+				  collapsed:: true
+					- {{embed ((66b1cfa3-e6c4-405c-9475-2186078a811d))}}
+				- In centralized system, the intensional awareness is represented by a real observer like the head, the heart, the leader, the king, etc.
+				- In distributed system, the intensional awareness is shared by all components.
+			- **"thức = equal" is the duality of the** ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+			  id:: 66f29d57-a87f-4370-9f32-722922a7bff1
+			  :LOGBOOK:
+			  CLOCK: [2024-09-25 Wed 20:34:45]
+			  :END:
+				- observer = center of perspective/information for awareness thanks to wholeness: only at the center the whole image of the object/world can be drawn.
+					- Each whole image is a frame in the film that the observer watch.
+				- operator = life force = center of balance for stability & existence: without a center, the body will be decomposed due to imbalance.
+				- This duality is also the [anusayā-cetanā junction](((66e80666-5f29-4419-8db1-bf8cdce893e4))) in the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+				- obop is a [topological defect](https://en.wikipedia.org/wiki/Topological_defect): obop point = [singularity](https://en.wikipedia.org/wiki/Singularity_(mathematics)), obop circle = soliton
+					- |eye soliton| = quantum -> [abstraction](((66f40baf-1aca-40b7-828c-71d6f15f23fe))) = action
+						- The amount of the soliton is the quantum.
+						- That abstraction from the obop circle to the quantum is the action of that soliton: produce the extent
+			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
+			  collapsed:: true
+				- Hurricane's structure resembles the self's structure
+				  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
+					- ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-Sep/Hurricane-structure-self-eye-vi.png)
+		- ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) = whole relative to a unit (intent) = fit = divisible
+		  id:: 66ebb5fb-6850-4a83-94eb-dd3039891ffc
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-19 Thu 12:26:38]
+		  CLOCK: [2024-09-19 Thu 12:28:13]
+		  :END:
+			- intrinsic dynamic = always remain epsilon indivisible
+			- "objective" round = remainder -> 0 = n-order derivative -> 0 = n-order straight
+			- "subjective" round in this level relative to this unit (intent) = finish this content circle with this intent, considering remainder ~ 0
+		- Why do we forget our roots?
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-19 Thu 11:37:51]--[2024-09-19 Thu 11:38:24] =>  00:00:33
+		  :END:
+			- because of the distortion in the view cone (projective geometry)
+			- the far parts are abstracted into a dot
+			- a single dot of infinity contains all other worlds
+			- the phenomenal world can only see the phenotypes, not the genotypes
+		- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-19 Thu 11:35:05]
+		  CLOCK: [2024-09-19 Thu 11:35:18]
+		  CLOCK: [2024-09-19 Thu 11:35:21]--[2024-09-19 Thu 11:36:18] =>  00:00:57
+		  :END:
+			- Xả = negative feedback = length of thread
+			- Nén = positive feedback
+				- thermal static (equilibrium) = length of thread
+				- thermal dynamic = explosive = exp(length of thread)
+		- Holographic = interfusion (viên dung 圓融 perfect interfusion) = interpenetration 相入 = interconnection = interreflection = interdependence = fractal
+		  id:: 66eb7dae-2032-434b-9106-756d4aad7cdb
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-19 Thu 08:26:20]
+		  CLOCK: [2024-09-19 Thu 08:26:21]--[2024-10-14 Mon 18:24:56] =>  609:58:35
+		  :END:
+			- [Holism](https://en.wikipedia.org/wiki/Holism), [Holographic Principle](https://en.wikipedia.org/wiki/Holographic_principle), [House of mirrors](https://en.wikipedia.org/wiki/House_of_mirrors)
+			- fb posts
+				- [Reflection - Phản tỉnh](https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/)
+				- [The Universe is just a giant distorted kaleidoscope](https://www.facebook.com/share/p/PV7w5qtofEpAwszK/)
+			- [Indra's net](https://en.wikipedia.org/wiki/Indra%27s_net) in [Avatamsaka Sutra](https://en.wikipedia.org/wiki/Avatamsaka_Sutra), [Hoa Nghiêm Kinh](https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh)
+				- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
+			- [vivarta-vada](https://en.wikipedia.org/wiki/Vivartavada) & maya: the manifestation of Brahman/Ātman as different individual selves (jivatman) in the non-dual Vedanta, i.e. [Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)
+			- dependent origination: [mình mới ngộ ra ý nghĩa của một giấc mơ kỳ lạ 16 năm trước về chủ đề "Duyên hợp"](https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/)
+				- fb posts
+					- [So-le (staggered)](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/)
+					- [The tarpestry of life](https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/)
+				- the mesh of horizonal & vertical threads is related to the ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
+				- 糸：縦の糸はあなた、横の糸は私…
+				  collapsed:: true
+					- {{video https://youtu.be/VI8zQG-yMMI}}
+			- ((665ca429-84e3-49ff-921e-c07d19cd99ba)) = projection of the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
+			  id:: 66d1545b-4783-4545-aa12-a2ffa400eed7
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-08-30 Fri 12:11:07]
+			  CLOCK: [2024-08-30 Fri 12:12:25]
+			  CLOCK: [2024-08-30 Fri 12:12:42]
+			  :END:
+				- ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) 's ((66c810a0-9861-4787-bdcf-1378219332be)) = apex of the past ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+					- touches ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) = 2 view cones touching by apexes
+					- apex to base = body to world = eye/pointer/current-state to space
+				- The world of these projections is best illustrated as a [circle graph](https://en.wikipedia.org/wiki/Circle_graph), where the viewcones are clearly shown.
+				  collapsed:: true
+					- ![Ageev_5X_circle_graph.svg.png](../assets/Uniinfo/Unithread/Ageev_5X_circle_graph.svg.png)
+				- Each form is a miniature version of the whole world which is distorted according to the position of the ((667272b8-88a8-4928-a22a-35035c9edf05)), thus effectively a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the world at that position.
+				  ⇒ The world itself is in turn just the combination of all these representatives!
+					- The _Mandelbrot set_ (world) is [a map](https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Julia_Mandelbrot_Relationship.png) of _connected Julia sets_ (representatives).
+					  collapsed:: true
+						- ![Mandelbrot-map-of-Julia-sets.png](../assets/Uniinfo/Unithread/Mandelbrot-map-of-Julia-sets.png)
+						- ![Julia_Mandelbrot_Relationship.png](../assets/Uniinfo/Unithread/Julia_Mandelbrot_Relationship.png)
+						- Interactive page: [webgl-mandelbrot](https://htmlpreview.github.io/?https://github.com/zbendefy/webgl-mandelbrot/blob/master/index.html) < [GitHub: zbendefy](https://github.com/zbendefy/webgl-mandelbrot)
+						- Video explaining the correlation between Mandelbrot & Julia: 
+						  {{video https://youtu.be/vfteiiTfE0c}}
+					- [Projective clock](https://www.geogebra.org/m/ek7snm8j) is a wall clock whose each “number” $H$ is a form, i.e. a miniature version of the clock with the hand pointing to the corresponding hour $H$.
+					  collapsed:: true
+						- The state of the clock at any time $t$ is represented by the form of the clock at that state.
+						  ⇒ The whole clock itself is just the state space of its own states.
+						- ![ProjectiveClock.png](../assets/Uniinfo/Unithread/ProjectiveClock.png)
+						- The normal wall clock is just an abstract version of the projective clock, with the forms abstracted into numbers.
+						  ![ProjectiveClock-abstract.png](../assets/Uniinfo/Unithread/ProjectiveClock-abstract.png)
+				- In other words, each form is a manifestation of the world in one aspect, e.g. circles, arrows, equals are just manifestations of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) where the corresponding component is shown, magnified, and other components are hidden, minimized.
+			- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
+			- new node created by projecting the instance back to the concept
+			- new link created by shortcutting the circle
+			- round = complete graph = space
+			- newborn = round (complete graph) -> learning = distort to fit = pruning unused edges
+		- WAIT ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) & ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) : intent - content - extent ~ round - amount - arrow  ~ memory/space - resource/time - remainder/phase
+		  id:: 66e3c1b8-eb83-47d6-b71e-193549b47f93
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-13 Fri 11:06:08]
+		  :END:
+			- FIFO queue memory
+				- the last throughput (now) overwrites the first memory (past).
+				- "forgotten passively" = detached: a "lake" is detached from the river system but not dried up.
+				- forget actively: to actually clear a memory, the obop must actively overwrite it with new knowledge.
+				- implementations
+					- new distribution from a node to its branches updates weights of these branches.
+					- collective throughput at a node updates its mass.
+					- heuristic method: use global time to cut off all past parts of the whole memory
+		- Mutual belief between the center and peripherals is the invisible connection between parts after being unloaded from the working memory.
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-18 Wed 09:30:53]
+		  CLOCK: [2024-09-18 Wed 09:30:54]--[2024-09-18 Wed 10:06:00] =>  00:35:06
+		  :END:
+			- Dodging attacks and restoring the [intent circle](((66e97b7e-04be-4a0f-820f-2b2315a803a4))) should be done with [releasing technique](((66ea2e85-560f-4608-bad1-f0eba9925efb))) which unload the parts from the working memory.
+			- The obop believes in the parts, believes that they can be self-sustained without attention, so it don't hold on to the parts and can release them.
+			- The parts believe in the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) via its representative, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = the ((66ab7477-c060-4d07-ab13-bc3d11246854)) = the zero = the vacant, believe that the whole will do the best to preserve the parts. With this belief, a part can release its self to return resource to the whole.
+			- Via the whole, the parts can believe in each other.
+		- Intent ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) visualization technique
+		  id:: 66e97b7e-04be-4a0f-820f-2b2315a803a4
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-17 Tue 19:52:32]
+		  CLOCK: [2024-09-17 Tue 19:53:21]
+		  CLOCK: [2024-09-17 Tue 19:53:37]--[2024-09-18 Wed 09:12:13] =>  13:18:36
+		  :END:
+			- The target intent is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle. It's round in the balanced state. Affected by stimuli, it will be distorted, then my intention is to restore it to the round state.
+			  id:: 66e97c0f-6172-46b1-855a-00bd1efae869
+			- Distortion by feeling
+				- Favorable things attract the circle and make its outline protrudes toward the favorable.
+				- Adverse things repel the circle and make its outline curves in away from the adverse.
+			- Distortion by losing track
+				- ...
+			- Restorations
+				- For target task, the restoring force is exerted to the center to move the whole circle. This is the normal mode of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)).
+				- For non-target distractions, just do the releasing technique "stop, breath, relax, release, detach". This is the zen technique for ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
+				  id:: 66ea2e85-560f-4608-bad1-f0eba9925efb
+		- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus ((66727858-979d-4d95-8a90-7a749218cfba)) in karma
+		  id:: 66e7d7dd-5f88-472c-8694-beb7222929bb
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-16 Mon 17:47:14]
+		  :END:
+			- The word "karma" originally meant "action", but has been used [in Buddhism](https://en.wikipedia.org/wiki/Karma_in_Buddhism) mainly as "intention".
+				- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
+				  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetana)) I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
+			- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
+			  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
+			  collapsed:: true
+				- Read more
+					- [manasikāra](https://en.wikipedia.org/wiki/Manasik%C4%81ra) (attention, tác ý, chú ý, chú tâm) is related to cetanā.
+					- [Nghiệp & tự do ý chí](https://giacngo.vn/nghiep-tu-do-y-chi-post37265.html)
+			- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the underlying tendency/**attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
+			  id:: 66e80666-5f29-4419-8db1-bf8cdce893e4
+				- This anusayā-cetanā junction is the ((fa0b2bc6-05ac-418f-9a86-17635936a656)), the obop of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+					- > Give, and it will be given to you.
+					  
+					  -- Luke 6:38
+				- The anusayā is accumulated and works in the unconsciousness, hence cannot be controlled directly. So, the only way to change karma (fruit) is via intention which is right in our consciousness.
+					- We can indirectly change anusayā by the intention of cleansing it.
+				- > It’s not what happens to you, but how you react to it that matters.
+				  
+				  -- Epictetus
+			- 3 suttas named "Intention" (Cetanā)
+			  collapsed:: true
+				- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
+				  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
+					- This sutta explains the karmic chain from intentional seed to its fruits by examples.
+				- Numbered Discourses > 18. Intention > 4.171. [Intention](https://suttacentral.net/an4.171/en/sujato)
+				  > + Mendicants, as long as there’s a body, the intention that gives rise to bodily action causes pleasure and pain to arise in oneself. ... But these only apply when conditioned by ignorance.
+				  > + By oneself one *makes the choice* that gives rise to bodily, verbal, and mental action, conditioned by which that pleasure and pain arise in oneself. ...
+				  > + Ignorance is included in all these things. But when ignorance fades away > nothing for pleasure and pain to arise.
+					- This sutta states that the karmic chain can be broken by clearing ignorance.
+				- Linked Discourses > 4. Kaḷāra the Aristocrat > 12.38. [Intention (Volition)](https://suttacentral.net/sn12.38/en/sujato)
+				  id:: 66e7e6c2-3856-496b-99b7-75ac46547c86
+				  > + Mendicants, what you intend or plan, and what you have underlying tendencies toward, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
+				  > + Mendicants, if you don’t intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
+				  > + Mendicants, but if you don’t intend or plan, and don't have underlying tendencies toward anything, this doesn’t become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
+					- This sutta states that the karmic chain cannot be broken if "underlying tendencies" (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
+					- Numbered Discourses > 2. Tendencies > 7.12. [Underlying Tendencies (anusayā)](https://suttacentral.net/an7.12/en/sujato)
+					  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they’re called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
+					- These underlying tendencies are latent [kleśas](https://en.wikipedia.org/wiki/Kleshas_(Buddhism)), the most hidden ones.
+						- Vitikamo-kilesa: *Ngoại phiền não, phiền não vi phạm*: các loại phiền não đã bộc lộ ra ngoài bằng thân hay khẩu, thành những hành động phạm giới. Phiền não loại nầy được chế ngự do sự hành trì giới luật.
+						- Pariyutthana-kilesa: *Nội phiền não, phiền não ám ảnh*: các loại phiền não phát sanh trong tâm ngay lúc nhận biết cảnh, không biểu lộ ra ngoài, người nào có người đó biết, người khác không biết được, nhưng nếu với con mắt tinh tế cũng có thể biết được. Phiền não loại nầy được khắc phục do thiền định, dùng tâm thiền để chế ngự chúng.
+						- Anusaya-kilesa: *Tàng phiền não, phiền não ngủ ngầm*: loại phiền não ngủ ngầm nơi tâm, không ai biết được do sự ô nhiễm nhiều đời, nhiều kiếp. Phiền não loại nầy được tiêu diệt bằng tuệ giác, nghĩa là trí tuệ phát sanh ở Đạo tâm siêu thế, khi chứng đắc các tầng thánh Tu Đà Hoàn, Tư Đà Hàm, A Na Hàm, A La Hán.
+					- [KINH CETANA SUTTA: CHỚ DỰNG LẬP Ý NIỆM](https://thuvienhoasen.org/a24172/kinh-cetana-sutta-cho-dung-lap-y-niem)
+			- Nuances about "intention"
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2024-09-17 Tue 19:51:07]
+			  :END:
+				- [The Heart’s Intention](https://dharmawisdom.org/the-hearts-intention/)
+				  > Setting intentions is not the same as making goals. Understanding the difference can lead to more skillful living and less suffering.
+				  GOALS VS. INTENTIONS; Misusing Good Intentions; Mixing Motives; Sowing Karmic Seeds; Developing Resolve
+				- [The Power of Intention: Turning Thoughts into Reality](https://www.livinginthegap.org/blog/the-power-of-intention-turning-thoughts-into-reality)
+				- [THOUGHT OR INTENTION?](https://www.linkedin.com/pulse/thought-intention-christine-patton/)
+				  > whenever there is any error or misdeed, the moment of its cause was with the intention... long before the action! If a person would bring correction to his life, he must look beyond the action to the moment when he first created the intention.
+					- > There has been widespread confusion between thought and intention.
+					  Scripture was teaching about the power of intent, and was mistranslated to read as ‘thought’ instead.
+					- [Watch Your Thoughts...](https://quoteinvestigator.com/2013/01/10/watch-your-thoughts/) should be "Watch your intentions..."
+			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((66e97b7e-04be-4a0f-820f-2b2315a803a4))
+			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) fb post [Let's make an intensive intent!](https://www.facebook.com/lexuandinhct/posts/pfbid02bpWEDyTFoYZ9Vn223Nq56oMF9nkNnUsDcpJChva4v4kvSXWG6TZqc7YtG5APhvSDl)
+			  :LOGBOOK:
+			  CLOCK: [2024-09-20 Fri 19:48:46]
+			  :END:
+			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) "intensive intent" + commitment -> vow (pranidhāna, a tool usually used in Mahayana)
+				- [Intention is the practice](https://www.lionsroar.com/intention-is-the-practice/)
+				  > On the Buddhist path, our intention deepens into commitment and then into vow. At that point, our intentions and our life become one.
+		- Plus-minus = add-subtract = sum-diff = integral-derivative = circle-arrow = temporal-spatial = tangent-polar view = linear (circular) - spiral view
+		  id:: 66e2ae92-feca-492f-9278-0f64f9d6d7e9
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-09-12 Thu 16:04:23]
+		  :END:
+			- GeoGebra applet: [SumDiffSpiral](https://www.geogebra.org/m/gt99m7zj)
+			- sum/integral = extension circle <> average/mean = spiral to the center (intent)
+				- circle = parallel-projected helix
+					- phase = remainder = present = content
+				- spiral = perspective-projected helix
+				  :LOGBOOK:
+				  CLOCK: [2024-09-13 Fri 11:16:03]
+				  :END:
+					- center = far past = form = mean
+				- average vs mean:
+				  collapsed:: true
+					- average = expectation: use "average" to represent an abstract value
+					- mean = middle, common, center: use "mean" to refer to the concentrated form of the mass of values
+			- self circles of adjacent levels are perpendicular to each other.
+		- crazy vs normal
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-28 Wed 17:16:17]
+		  CLOCK: [2024-08-28 Wed 17:16:47]
+		  CLOCK: [2024-08-28 Wed 17:16:53]--[2024-08-28 Wed 17:19:52] =>  00:02:59
+		  :END:
+			- [Rosenhan experiment](https://en.wikipedia.org/wiki/Rosenhan_experiment)
+			- [Sẽ ra sao nếu một người bình thường bị nhốt trong bệnh viện tâm thần, vĩnh viễn?](https://genk.vn/doc-cuoi-tuan-se-ra-sao-neu-mot-nguoi-binh-thuong-bi-nhot-trong-benh-vien-tam-than-vinh-vien-20190410185139629.chn)
+			- TED talk from Jon Ronson: [Strange answers to the psychopath test](https://youtu.be/xYemnKEKx0c)
+		- The Equal = returning ⬆️ to the complete ⭕️
+		  id:: 66ceeca0-a149-4fe0-85a8-9302f96eb669
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-28 Wed 16:26:56]--[2024-08-28 Wed 17:00:58] =>  00:34:02
+		  :END:
+			- Linear equation without negative
+			  `|yin| = |yang|`
+				- to cancel out, we must combine 2 steps: Return & Balance
+				  id:: 66ceee7e-a483-4e39-a262-572d19eff7fa
+				- Blog: [Giác ngộ toán học](https://creatzynotes.blogspot.com/2024/05/giac-ngo-toan-hoc.html)
+					- "Jabr" (جبر) = "Phục hồi" = "Hoàn thiện" = return the *negative* to the other side (of the Equal) to be *positive*
+					- "Muqābala" (مقابلة) = "Cân bằng", đối lập, gặp nhau, tương ứng = cancelling 2 balanced terms
+			- Circular equation containing both positives and negatives
+			  `yin + yang = 0`
+				- only one operation *Cancel out* is needed where the positive and the negative can mutually *cancel out in place*.
+				- The Equal (`=`) is the Zero dot (`0`), i.e. the "eye" on the marked Circle.
+				- The "return" operation is done automatically via the circular connection at the opposite side of the eye, instead of acrossing the eye.
+			- Blog: [☯ Làm mịn hình sóng = Âm-Dương giao hòa = Giải thoát](https://creatzynotes.blogspot.com/2023/03/lam-min-hinh-song-am-duong-giao-hoa.html)
+				- ⬆️ Cancellation is the conservation of substances (momentum): `yin + yang = 0 ` ⇒ `|yin| = |yang|`
+					- This is the principle of stationary (least) action.
+				- ⭕️ Complementarity is the conservation of ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)) (energy): `|ying| = |yang| = const (π, 1)` ⇒ `yang - yin = 2(π)`
+			- ((66c7fdec-59db-4f96-a8a7-913247586534))
+		- Circle (the form of all forms, the knowledge of all knowledge)
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-28 Wed 14:20:16]--[2024-08-28 Wed 14:24:57] =>  00:04:41
+		  :END:
+		  Arrow → the content of all contents, the info of all info
+		  Equal = the law of all laws, the wisdom of all wisdom
+			- ```
+			  dot → arrow → circle → equal 
+			   content → form      → law
+			          info → knowledge → wisdom
+			  ```
+			- contents: dot, arrow
+			- forms: arrow, circle
+			- law: equal
+			- info: content, form
+			- knowledge: form, law
+		- Absolute vs relative = ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)) ⭕️ lượng vs ((66e42d39-a296-4ed9-a686-4cb213783830)) ⬆️ tính chất = form vs content = extent vs intent = norm vs abnorm = modulus/correct vs remainder/diff/error
+		  id:: 66c7fdec-59db-4f96-a8a7-913247586534
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-23 Fri 10:11:43]
+		  :END:
+			- direction = sub-amount (angle, tính) + dimension (basis, chất)
+			- magnitude (external amount) = sub-amount angle projected out (up to ♾️) via projective geometry (stereographic projection) =  angle projected into a sub-space (up to c) via vector scalar product (radius parallel projection)
+			  id:: 66faa5f8-b0b8-4b3f-9a29-1901f315419e
+			- angle is a circular number = abnorm vs norm = linear number
+			- CIE: content (tính, nature, property) - intent (chất, substance) - extent (lượng, amount, quantity); quality (tính chất) = property (tính) + substance (chất)
+			- Chat with Gemini: [Absolute vs relative = amount ⭕ vs direction ⬆️](https://g.co/gemini/share/355ff13f7f19)
+		- mechanical = one-way effect flow "bottom up"= one-way static constraint "top down" <> biological = two/all-way effect & constraint spreading wave = deep & broad learning = imprinting/memorizing to all parties
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-23 Fri 10:10:25]
+		  :END:
+			- observe = upward/inward effect
+			- operate = downward/outward effect
+			- self = constant inner most circle = the unchanged program of the Mecha = the top boss <> selfless = no circle is constant = all circles change = impermanent = no attachment
+			- radius = constraint arrow <> arc = effect arrow
+			  id:: 66faa5f8-6fa9-4561-8234-296ad2f314d7
+				- constraint flow = input & invocation from center out <> effect flow = output return from circumference in
+		- WAIT equilibrium = static balance = balance at all scales, vs. intrinsic balance = dynamic balance = balance between scales
+		  id:: 66b1cfa4-70f7-4cc5-94db-c69c9e7e1e4e
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-07-22 Mon 09:18:17]
+		  CLOCK: [2024-07-22 Mon 09:18:24]--[2024-09-13 Fri 15:39:37] =>  1278:21:13
+		  :END:
+			- Heat (static) dispersion vs wave (momentum) propagation
+				- spreading: phép cuốn chiếu, sigmoid function in ANN, string searching algorithm => exp to log
+			- Deep learning = learning at all scales = heat (static) dispersion
+				- Pure functional = non-dispersive wave
+				- Turing machine (with memory & side effect) = shallow learning
+		- Everything is memory: learning is just a deep memorization
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-01 Thu 15:24:26]--[2024-08-01 Thu 15:24:42] =>  00:00:16
+		  :END:
+			- hand-eye mixing (pulverization): train making this circle smaller: stop - breathe - view - act; <=> reduce the radius from the center "stop" to the peripheral "act"
+			- see the need to change but cannot change = only see/remember in the head, not the whole body
+			  => When we pulverize the memory into each cell, each breath seeing the whole life, we can charge in one breath
+			- (ujjayi) breath is the thread connecting the "blind doer" with the "inactive seer", the back link "act -> stop"
+			- training = abstract mirroring = emotion: reward & punishment = abstraction of pro & cons pathways in the environment = affection & aversion
 		- ...
 	- In possessive form like "Will's note", [the apostrophe `'` stands for](https://www.merriam-webster.com/grammar/history-and-use-of-the-apostrophe) the "e" in the suffix "-es" of [genitive form](https://www.merriam-webster.com/dictionary/genitive) of noun in the [Old English](https://en.wikipedia.org/wiki/Old_English).
 	  id:: 66536ad3-264b-4351-868b-e7e8a7a82774
@@ -1230,504 +1731,3 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Intrinsic balance of the ultimate Self: it's always balance at the scale of Universe because the total energy = 1.
 			- Each self tries to restore to its own balance, static, to conserve its energy.
 		- The granularity of the cycle of recharging resource defines the granularity of self circle.
-	- Everything is memory: learning is just a deep memorization
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-08-01 Thu 15:24:26]--[2024-08-01 Thu 15:24:42] =>  00:00:16
-	  :END:
-		- hand-eye mixing (pulverization): train making this circle smaller: stop - breathe - view - act; <=> reduce the radius from the center "stop" to the peripheral "act"
-		- see the need to change but cannot change = only see/remember in the head, not the whole body
-		  => When we pulverize the memory into each cell, each breath seeing the whole life, we can charge in one breath
-		- (ujjayi) breath is the thread connecting the "blind doer" with the "inactive seer", the back link "act -> stop"
-		- training = abstract mirroring = emotion: reward & punishment = abstraction of pro & cons pathways in the environment = affection & aversion
-	- WAIT equilibrium = static balance = balance at all scales, vs. intrinsic balance = dynamic balance = balance between scales
-	  id:: 66b1cfa4-70f7-4cc5-94db-c69c9e7e1e4e
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-07-22 Mon 09:18:17]
-	  CLOCK: [2024-07-22 Mon 09:18:24]--[2024-09-13 Fri 15:39:37] =>  1278:21:13
-	  :END:
-		- Heat (static) dispersion vs wave (momentum) propagation
-			- spreading: phép cuốn chiếu, sigmoid function in ANN, string searching algorithm => exp to log
-		- Deep learning = learning at all scales = heat (static) dispersion
-			- Pure functional = non-dispersive wave
-			- Turing machine (with memory & side effect) = shallow learning
-	- mechanical = one-way effect flow "bottom up"= one-way static constraint "top down" <> biological = two/all-way effect & constraint spreading wave = deep & broad learning = imprinting/memorizing to all parties
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-08-23 Fri 10:10:25]
-	  :END:
-		- observe = upward/inward effect
-		- operate = downward/outward effect
-		- self = constant inner most circle = the unchanged program of the Mecha = the top boss <> selfless = no circle is constant = all circles change = impermanent = no attachment
-		- radius = constraint arrow <> arc = effect arrow
-		  id:: 66faa5f8-6fa9-4561-8234-296ad2f314d7
-			- constraint flow = input & invocation from center out <> effect flow = output return from circumference in
-	- Absolute vs relative = ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)) ⭕️ lượng vs ((66e42d39-a296-4ed9-a686-4cb213783830)) ⬆️ tính chất = form vs content = extent vs intent = norm vs abnorm = modulus/correct vs remainder/diff/error
-	  id:: 66c7fdec-59db-4f96-a8a7-913247586534
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-08-23 Fri 10:11:43]
-	  :END:
-		- direction = sub-amount (angle, tính) + dimension (basis, chất)
-		- magnitude (external amount) = sub-amount angle projected out (up to ♾️) via projective geometry (stereographic projection) =  angle projected into a sub-space (up to c) via vector scalar product (radius parallel projection)
-		  id:: 66faa5f8-b0b8-4b3f-9a29-1901f315419e
-		- angle is a circular number = abnorm vs norm = linear number
-		- CIE: content (tính, nature, property) - intent (chất, substance) - extent (lượng, amount, quantity); quality (tính chất) = property (tính) + substance (chất)
-		- Chat with Gemini: [Absolute vs relative = amount ⭕ vs direction ⬆️](https://g.co/gemini/share/355ff13f7f19)
-	- Circle (the form of all forms, the knowledge of all knowledge)
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-08-28 Wed 14:20:16]--[2024-08-28 Wed 14:24:57] =>  00:04:41
-	  :END:
-	  Arrow → the content of all contents, the info of all info
-	  Equal = the law of all laws, the wisdom of all wisdom
-		- ```
-		  dot → arrow → circle → equal 
-		   content → form      → law
-		          info → knowledge → wisdom
-		  ```
-		- contents: dot, arrow
-		- forms: arrow, circle
-		- law: equal
-		- info: content, form
-		- knowledge: form, law
-	- The Equal = returning ⬆️ to the complete ⭕️
-	  id:: 66ceeca0-a149-4fe0-85a8-9302f96eb669
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-08-28 Wed 16:26:56]--[2024-08-28 Wed 17:00:58] =>  00:34:02
-	  :END:
-		- Linear equation without negative
-		  `|yin| = |yang|`
-			- to cancel out, we must combine 2 steps: Return & Balance
-			  id:: 66ceee7e-a483-4e39-a262-572d19eff7fa
-			- Blog: [Giác ngộ toán học](https://creatzynotes.blogspot.com/2024/05/giac-ngo-toan-hoc.html)
-				- "Jabr" (جبر) = "Phục hồi" = "Hoàn thiện" = return the *negative* to the other side (of the Equal) to be *positive*
-				- "Muqābala" (مقابلة) = "Cân bằng", đối lập, gặp nhau, tương ứng = cancelling 2 balanced terms
-		- Circular equation containing both positives and negatives
-		  `yin + yang = 0`
-			- only one operation *Cancel out* is needed where the positive and the negative can mutually *cancel out in place*.
-			- The Equal (`=`) is the Zero dot (`0`), i.e. the "eye" on the marked Circle.
-			- The "return" operation is done automatically via the circular connection at the opposite side of the eye, instead of acrossing the eye.
-		- Blog: [☯ Làm mịn hình sóng = Âm-Dương giao hòa = Giải thoát](https://creatzynotes.blogspot.com/2023/03/lam-min-hinh-song-am-duong-giao-hoa.html)
-			- ⬆️ Cancellation is the conservation of substances (momentum): `yin + yang = 0 ` ⇒ `|yin| = |yang|`
-				- This is the principle of stationary (least) action.
-			- ⭕️ Complementarity is the conservation of ((66e42b30-1aa4-4b6f-8c54-b29fc09085c6)) (energy): `|ying| = |yang| = const (π, 1)` ⇒ `yang - yin = 2(π)`
-		- ((66c7fdec-59db-4f96-a8a7-913247586534))
-	- crazy vs normal
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-08-28 Wed 17:16:17]
-	  CLOCK: [2024-08-28 Wed 17:16:47]
-	  CLOCK: [2024-08-28 Wed 17:16:53]--[2024-08-28 Wed 17:19:52] =>  00:02:59
-	  :END:
-		- [Rosenhan experiment](https://en.wikipedia.org/wiki/Rosenhan_experiment)
-		- [Sẽ ra sao nếu một người bình thường bị nhốt trong bệnh viện tâm thần, vĩnh viễn?](https://genk.vn/doc-cuoi-tuan-se-ra-sao-neu-mot-nguoi-binh-thuong-bi-nhot-trong-benh-vien-tam-than-vinh-vien-20190410185139629.chn)
-		- TED talk from Jon Ronson: [Strange answers to the psychopath test](https://youtu.be/xYemnKEKx0c)
-	- Plus-minus = add-subtract = sum-diff = integral-derivative = circle-arrow = temporal-spatial = tangent-polar view = linear (circular) - spiral view
-	  id:: 66e2ae92-feca-492f-9278-0f64f9d6d7e9
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-12 Thu 16:04:23]
-	  :END:
-		- GeoGebra applet: [SumDiffSpiral](https://www.geogebra.org/m/gt99m7zj)
-		- sum/integral = extension circle <> average/mean = spiral to the center (intent)
-			- circle = parallel-projected helix
-				- phase = remainder = present = content
-			- spiral = perspective-projected helix
-			  :LOGBOOK:
-			  CLOCK: [2024-09-13 Fri 11:16:03]
-			  :END:
-				- center = far past = form = mean
-			- average vs mean:
-			  collapsed:: true
-				- average = expectation: use "average" to represent an abstract value
-				- mean = middle, common, center: use "mean" to refer to the concentrated form of the mass of values
-		- self circles of adjacent levels are perpendicular to each other.
-	- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus ((66727858-979d-4d95-8a90-7a749218cfba)) in karma
-	  id:: 66e7d7dd-5f88-472c-8694-beb7222929bb
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-16 Mon 17:47:14]
-	  :END:
-		- The word "karma" originally meant "action", but has been used [in Buddhism](https://en.wikipedia.org/wiki/Karma_in_Buddhism) mainly as "intention".
-			- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
-			  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetana)) I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
-		- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
-		  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
-		  collapsed:: true
-			- Read more
-				- [manasikāra](https://en.wikipedia.org/wiki/Manasik%C4%81ra) (attention, tác ý, chú ý, chú tâm) is related to cetanā.
-				- [Nghiệp & tự do ý chí](https://giacngo.vn/nghiep-tu-do-y-chi-post37265.html)
-		- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the underlying tendency/**attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
-		  id:: 66e80666-5f29-4419-8db1-bf8cdce893e4
-			- This anusayā-cetanā junction is the ((fa0b2bc6-05ac-418f-9a86-17635936a656)), the obop of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
-				- > Give, and it will be given to you.
-				  
-				  -- Luke 6:38
-			- The anusayā is accumulated and works in the unconsciousness, hence cannot be controlled directly. So, the only way to change karma (fruit) is via intention which is right in our consciousness.
-				- We can indirectly change anusayā by the intention of cleansing it.
-			- > It’s not what happens to you, but how you react to it that matters.
-			  
-			  -- Epictetus
-		- 3 suttas named "Intention" (Cetanā)
-		  collapsed:: true
-			- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
-			  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
-				- This sutta explains the karmic chain from intentional seed to its fruits by examples.
-			- Numbered Discourses > 18. Intention > 4.171. [Intention](https://suttacentral.net/an4.171/en/sujato)
-			  > + Mendicants, as long as there’s a body, the intention that gives rise to bodily action causes pleasure and pain to arise in oneself. ... But these only apply when conditioned by ignorance.
-			  > + By oneself one *makes the choice* that gives rise to bodily, verbal, and mental action, conditioned by which that pleasure and pain arise in oneself. ...
-			  > + Ignorance is included in all these things. But when ignorance fades away > nothing for pleasure and pain to arise.
-				- This sutta states that the karmic chain can be broken by clearing ignorance.
-			- Linked Discourses > 4. Kaḷāra the Aristocrat > 12.38. [Intention (Volition)](https://suttacentral.net/sn12.38/en/sujato)
-			  id:: 66e7e6c2-3856-496b-99b7-75ac46547c86
-			  > + Mendicants, what you intend or plan, and what you have underlying tendencies toward, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
-			  > + Mendicants, if you don’t intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
-			  > + Mendicants, but if you don’t intend or plan, and don't have underlying tendencies toward anything, this doesn’t become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
-				- This sutta states that the karmic chain cannot be broken if "underlying tendencies" (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
-				- Numbered Discourses > 2. Tendencies > 7.12. [Underlying Tendencies (anusayā)](https://suttacentral.net/an7.12/en/sujato)
-				  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they’re called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
-				- These underlying tendencies are latent [kleśas](https://en.wikipedia.org/wiki/Kleshas_(Buddhism)), the most hidden ones.
-					- Vitikamo-kilesa: *Ngoại phiền não, phiền não vi phạm*: các loại phiền não đã bộc lộ ra ngoài bằng thân hay khẩu, thành những hành động phạm giới. Phiền não loại nầy được chế ngự do sự hành trì giới luật.
-					- Pariyutthana-kilesa: *Nội phiền não, phiền não ám ảnh*: các loại phiền não phát sanh trong tâm ngay lúc nhận biết cảnh, không biểu lộ ra ngoài, người nào có người đó biết, người khác không biết được, nhưng nếu với con mắt tinh tế cũng có thể biết được. Phiền não loại nầy được khắc phục do thiền định, dùng tâm thiền để chế ngự chúng.
-					- Anusaya-kilesa: *Tàng phiền não, phiền não ngủ ngầm*: loại phiền não ngủ ngầm nơi tâm, không ai biết được do sự ô nhiễm nhiều đời, nhiều kiếp. Phiền não loại nầy được tiêu diệt bằng tuệ giác, nghĩa là trí tuệ phát sanh ở Đạo tâm siêu thế, khi chứng đắc các tầng thánh Tu Đà Hoàn, Tư Đà Hàm, A Na Hàm, A La Hán.
-				- [KINH CETANA SUTTA: CHỚ DỰNG LẬP Ý NIỆM](https://thuvienhoasen.org/a24172/kinh-cetana-sutta-cho-dung-lap-y-niem)
-		- Nuances about "intention"
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2024-09-17 Tue 19:51:07]
-		  :END:
-			- [The Heart’s Intention](https://dharmawisdom.org/the-hearts-intention/)
-			  > Setting intentions is not the same as making goals. Understanding the difference can lead to more skillful living and less suffering.
-			  GOALS VS. INTENTIONS; Misusing Good Intentions; Mixing Motives; Sowing Karmic Seeds; Developing Resolve
-			- [The Power of Intention: Turning Thoughts into Reality](https://www.livinginthegap.org/blog/the-power-of-intention-turning-thoughts-into-reality)
-			- [THOUGHT OR INTENTION?](https://www.linkedin.com/pulse/thought-intention-christine-patton/)
-			  > whenever there is any error or misdeed, the moment of its cause was with the intention... long before the action! If a person would bring correction to his life, he must look beyond the action to the moment when he first created the intention.
-				- > There has been widespread confusion between thought and intention.
-				  Scripture was teaching about the power of intent, and was mistranslated to read as ‘thought’ instead.
-				- [Watch Your Thoughts...](https://quoteinvestigator.com/2013/01/10/watch-your-thoughts/) should be "Watch your intentions..."
-		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((66e97b7e-04be-4a0f-820f-2b2315a803a4))
-		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) fb post [Let's make an intensive intent!](https://www.facebook.com/lexuandinhct/posts/pfbid02bpWEDyTFoYZ9Vn223Nq56oMF9nkNnUsDcpJChva4v4kvSXWG6TZqc7YtG5APhvSDl)
-		  :LOGBOOK:
-		  CLOCK: [2024-09-20 Fri 19:48:46]
-		  :END:
-		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) "intensive intent" + commitment -> vow (pranidhāna, a tool usually used in Mahayana)
-			- [Intention is the practice](https://www.lionsroar.com/intention-is-the-practice/)
-			  > On the Buddhist path, our intention deepens into commitment and then into vow. At that point, our intentions and our life become one.
-	- Intent ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) visualization technique
-	  id:: 66e97b7e-04be-4a0f-820f-2b2315a803a4
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-17 Tue 19:52:32]
-	  CLOCK: [2024-09-17 Tue 19:53:21]
-	  CLOCK: [2024-09-17 Tue 19:53:37]--[2024-09-18 Wed 09:12:13] =>  13:18:36
-	  :END:
-		- The target intent is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle. It's round in the balanced state. Affected by stimuli, it will be distorted, then my intention is to restore it to the round state.
-		  id:: 66e97c0f-6172-46b1-855a-00bd1efae869
-		- Distortion by feeling
-			- Favorable things attract the circle and make its outline protrudes toward the favorable.
-			- Adverse things repel the circle and make its outline curves in away from the adverse.
-		- Distortion by losing track
-			- ...
-		- Restorations
-			- For target task, the restoring force is exerted to the center to move the whole circle. This is the normal mode of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)).
-			- For non-target distractions, just do the releasing technique "stop, breath, relax, release, detach". This is the zen technique for ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
-			  id:: 66ea2e85-560f-4608-bad1-f0eba9925efb
-	- Mutual belief between the center and peripherals is the invisible connection between parts after being unloaded from the working memory.
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-18 Wed 09:30:53]
-	  CLOCK: [2024-09-18 Wed 09:30:54]--[2024-09-18 Wed 10:06:00] =>  00:35:06
-	  :END:
-		- Dodging attacks and restoring the [intent circle](((66e97b7e-04be-4a0f-820f-2b2315a803a4))) should be done with [releasing technique](((66ea2e85-560f-4608-bad1-f0eba9925efb))) which unload the parts from the working memory.
-		- The obop believes in the parts, believes that they can be self-sustained without attention, so it don't hold on to the parts and can release them.
-		- The parts believe in the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) via its representative, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) = the ((66ab7477-c060-4d07-ab13-bc3d11246854)) = the zero = the vacant, believe that the whole will do the best to preserve the parts. With this belief, a part can release its self to return resource to the whole.
-		- Via the whole, the parts can believe in each other.
-	- WAIT ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) & ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) : intent - content - extent ~ round - amount - arrow  ~ memory/space - resource/time - remainder/phase
-	  id:: 66e3c1b8-eb83-47d6-b71e-193549b47f93
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-13 Fri 11:06:08]
-	  :END:
-		- FIFO queue memory
-			- the last throughput (now) overwrites the first memory (past).
-			- "forgotten passively" = detached: a "lake" is detached from the river system but not dried up.
-			- forget actively: to actually clear a memory, the obop must actively overwrite it with new knowledge.
-			- implementations
-				- new distribution from a node to its branches updates weights of these branches.
-				- collective throughput at a node updates its mass.
-				- heuristic method: use global time to cut off all past parts of the whole memory
-	- Holographic = interfusion (viên dung 圓融 perfect interfusion) = interpenetration 相入 = interconnection = interreflection = interdependence = fractal
-	  id:: 66eb7dae-2032-434b-9106-756d4aad7cdb
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-19 Thu 08:26:20]
-	  CLOCK: [2024-09-19 Thu 08:26:21]--[2024-10-14 Mon 18:24:56] =>  609:58:35
-	  :END:
-		- [Holism](https://en.wikipedia.org/wiki/Holism), [Holographic Principle](https://en.wikipedia.org/wiki/Holographic_principle), [House of mirrors](https://en.wikipedia.org/wiki/House_of_mirrors)
-		- fb posts
-			- [Reflection - Phản tỉnh](https://www.facebook.com/share/p/QnStZPmUqgAxj1ip/)
-			- [The Universe is just a giant distorted kaleidoscope](https://www.facebook.com/share/p/PV7w5qtofEpAwszK/)
-		- [Indra's net](https://en.wikipedia.org/wiki/Indra%27s_net) in [Avatamsaka Sutra](https://en.wikipedia.org/wiki/Avatamsaka_Sutra), [Hoa Nghiêm Kinh](https://vi.wikipedia.org/wiki/Hoa_nghi%C3%AAm_kinh)
-			- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
-		- [vivarta-vada](https://en.wikipedia.org/wiki/Vivartavada) & maya: the manifestation of Brahman/Ātman as different individual selves (jivatman) in the non-dual Vedanta, i.e. [Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)
-		- dependent origination: [mình mới ngộ ra ý nghĩa của một giấc mơ kỳ lạ 16 năm trước về chủ đề "Duyên hợp"](https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/)
-			- fb posts
-				- [So-le (staggered)](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/)
-				- [The tarpestry of life](https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/)
-			- the mesh of horizonal & vertical threads is related to the ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
-			- 糸：縦の糸はあなた、横の糸は私…
-			  collapsed:: true
-				- {{video https://youtu.be/VI8zQG-yMMI}}
-		- ((665ca429-84e3-49ff-921e-c07d19cd99ba)) = projection of the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
-		  id:: 66d1545b-4783-4545-aa12-a2ffa400eed7
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2024-08-30 Fri 12:11:07]
-		  CLOCK: [2024-08-30 Fri 12:12:25]
-		  CLOCK: [2024-08-30 Fri 12:12:42]
-		  :END:
-			- ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) 's ((66c810a0-9861-4787-bdcf-1378219332be)) = apex of the past ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
-				- touches ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) = 2 view cones touching by apexes
-				- apex to base = body to world = eye/pointer/current-state to space
-			- The world of these projections is best illustrated as a [circle graph](https://en.wikipedia.org/wiki/Circle_graph), where the viewcones are clearly shown.
-			  collapsed:: true
-				- ![Ageev_5X_circle_graph.svg.png](../assets/Uniinfo/Unithread/Ageev_5X_circle_graph.svg.png)
-			- Each form is a miniature version of the whole world which is distorted according to the position of the ((667272b8-88a8-4928-a22a-35035c9edf05)), thus effectively a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the world at that position.
-			  ⇒ The world itself is in turn just the combination of all these representatives!
-				- The _Mandelbrot set_ (world) is [a map](https://en.wikipedia.org/wiki/Mandelbrot_set#/media/File:Julia_Mandelbrot_Relationship.png) of _connected Julia sets_ (representatives).
-				  collapsed:: true
-					- ![Mandelbrot-map-of-Julia-sets.png](../assets/Uniinfo/Unithread/Mandelbrot-map-of-Julia-sets.png)
-					- ![Julia_Mandelbrot_Relationship.png](../assets/Uniinfo/Unithread/Julia_Mandelbrot_Relationship.png)
-					- Interactive page: [webgl-mandelbrot](https://htmlpreview.github.io/?https://github.com/zbendefy/webgl-mandelbrot/blob/master/index.html) < [GitHub: zbendefy](https://github.com/zbendefy/webgl-mandelbrot)
-					- Video explaining the correlation between Mandelbrot & Julia: 
-					  {{video https://youtu.be/vfteiiTfE0c}}
-				- [Projective clock](https://www.geogebra.org/m/ek7snm8j) is a wall clock whose each “number” $H$ is a form, i.e. a miniature version of the clock with the hand pointing to the corresponding hour $H$.
-				  collapsed:: true
-					- The state of the clock at any time $t$ is represented by the form of the clock at that state.
-					  ⇒ The whole clock itself is just the state space of its own states.
-					- ![ProjectiveClock.png](../assets/Uniinfo/Unithread/ProjectiveClock.png)
-					- The normal wall clock is just an abstract version of the projective clock, with the forms abstracted into numbers.
-					  ![ProjectiveClock-abstract.png](../assets/Uniinfo/Unithread/ProjectiveClock-abstract.png)
-			- In other words, each form is a manifestation of the world in one aspect, e.g. circles, arrows, equals are just manifestations of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) where the corresponding component is shown, magnified, and other components are hidden, minimized.
-		- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
-		- new node created by projecting the instance back to the concept
-		- new link created by shortcutting the circle
-		- round = complete graph = space
-		- newborn = round (complete graph) -> learning = distort to fit = pruning unused edges
-	- Compress vs Release ~ positive vs negative feedback ~ exp vs linear
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-19 Thu 11:35:05]
-	  CLOCK: [2024-09-19 Thu 11:35:18]
-	  CLOCK: [2024-09-19 Thu 11:35:21]--[2024-09-19 Thu 11:36:18] =>  00:00:57
-	  :END:
-		- Xả = negative feedback = length of thread
-		- Nén = positive feedback
-			- thermal static (equilibrium) = length of thread
-			- thermal dynamic = explosive = exp(length of thread)
-	- Why do we forget our roots?
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-19 Thu 11:37:51]--[2024-09-19 Thu 11:38:24] =>  00:00:33
-	  :END:
-		- because of the distortion in the view cone (projective geometry)
-		- the far parts are abstracted into a dot
-		- a single dot of infinity contains all other worlds
-		- the phenomenal world can only see the phenotypes, not the genotypes
-	- ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) = whole relative to a unit (intent) = fit = divisible
-	  id:: 66ebb5fb-6850-4a83-94eb-dd3039891ffc
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-19 Thu 12:26:38]
-	  CLOCK: [2024-09-19 Thu 12:28:13]
-	  :END:
-		- intrinsic dynamic = always remain epsilon indivisible
-		- "objective" round = remainder -> 0 = n-order derivative -> 0 = n-order straight
-		- "subjective" round in this level relative to this unit (intent) = finish this content circle with this intent, considering remainder ~ 0
-	- ((66f267f7-01f9-47b9-8376-abd27fdf2930)) (vi. Thức) - ((66f2681b-796a-4e25-b778-ba4fb6419425)) (vi. Ý Thức) - ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) (vi. Mình, Bản thân) - Ego (vi. cái Tôi) - Ātman (vi. Ngã, Linh hồn)
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-09-24 Tue 15:08:24]--[2024-09-24 Tue 17:50:18] =>  02:41:54
-	  :END:
-		- ((669a5387-2a97-4311-a295-aa0afd9c4d76)) > ((66c810a0-9861-4787-bdcf-1378219332be)) > ego > selful consciousness > selfless consciousness = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = ((66f267f7-01f9-47b9-8376-abd27fdf2930)) = ((66ab7477-c060-4d07-ab13-bc3d11246854)) of ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) = center of ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)) /information = life force
-		- Ātman (आत्मा, आत्मन्): đại ngã, linh hồn bất diệt (của Thượng Đế), a Sanskrit word that refers to "essence, breath" -> ((66c8772a-9b29-45b0-b169-2fa847333e02))
-			- anātman/anattā: vô ngã, không có linh hồn bất diệt
-		- tôi exclusive  <> mình inclusive
-			- The ego's role is to protect the self, to preserve the completeness, integrity of the self => develop, multiply, reproduce, etc.
-			- The inclusiveness of the self circle is the connection between selves within the large self.
-		- thức intension <> mình extension
-			- To the external world, the intensional awareness is virtual vs the real extensional self.
-			  collapsed:: true
-				- {{embed ((66b1cfa3-e6c4-405c-9475-2186078a811d))}}
-			- In centralized system, the intensional awareness is represented by a real observer like the head, the heart, the leader, the king, etc.
-			- In distributed system, the intensional awareness is shared by all components.
-		- **"thức = equal" is the duality of the** ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
-		  id:: 66f29d57-a87f-4370-9f32-722922a7bff1
-		  :LOGBOOK:
-		  CLOCK: [2024-09-25 Wed 20:34:45]
-		  :END:
-			- observer = center of perspective/information for awareness thanks to wholeness: only at the center the whole image of the object/world can be drawn.
-				- Each whole image is a frame in the film that the observer watch.
-			- operator = life force = center of balance for stability & existence: without a center, the body will be decomposed due to imbalance.
-			- This duality is also the [anusayā-cetanā junction](((66e80666-5f29-4419-8db1-bf8cdce893e4))) in the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
-			- obop is a [topological defect](https://en.wikipedia.org/wiki/Topological_defect): obop point = [singularity](https://en.wikipedia.org/wiki/Singularity_(mathematics)), obop circle = soliton
-				- |eye soliton| = quantum -> [abstraction](((66f40baf-1aca-40b7-828c-71d6f15f23fe))) = action
-					- The amount of the soliton is the quantum.
-					- That abstraction from the obop circle to the quantum is the action of that soliton: produce the extent
-		- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
-		  collapsed:: true
-			- Hurricane's structure resembles the self's structure
-			  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
-				- ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-Sep/Hurricane-structure-self-eye-vi.png)
-	- circle = constant ((670ce8c2-8c54-42c6-84cd-93703c1fa60f)) = constant speed of light = conservation of amount/energy/mass/content ( ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))) = *the same content appears in many forms* = **spring mechanic** (harmonic oscillator)
-	  id:: 670cd7d1-8380-49db-a47c-6aa132256596
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-10-14 Mon 15:35:31]
-	  CLOCK: [2024-10-14 Mon 15:35:44]--[2024-10-14 Mon 16:39:52] =>  01:04:08
-	  :END:
-		- The radius c is the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) of the quantum: center -> circumference -> center
-		- When the content c compresses into a ((667d162c-16cf-44d3-81a5-29b1b885164f)), it shows ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
-		- When the content c relaxes into a ((66ab675b-2778-4f51-80ad-20a8f6988691)), it shows ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)).
-		- When the content c stretches out to a straight segment, i.e. radius, it shows ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
-		- spring mechanic: the content of the spring is constant, it just compresses and expands.
-			- The external form on x-axis is the "real", i.e. visible part, while the internal content on p-axis is the "imaginary", i.e. invisible part.
-			- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
-		- ((671b6c19-7dee-4548-9154-a5eddbe870fc)) is just an arrrow of the relaxed quantum. The light ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))s the original circle into various forms (shapes and sizes). => ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
-	- karmic cycle
-	  id:: 6713a8e1-e460-4622-9ad6-87c804deccd8
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-10-19 Sat 19:42:23]--[2024-10-19 Sat 20:46:35] =>  01:04:12
-	  :END:
-		- Related: ((66e7d7dd-5f88-472c-8694-beb7222929bb))
-		  :LOGBOOK:
-		  CLOCK: [2024-10-19 Sat 19:42:23]
-		  :END:
-		- Blog [Nhân Duyên Nghiệp Quả](https://creatzynotes.blogspot.com/2021/01/nhan-duyen-nghiep-qua.html)
-		- karmic cycle = ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra)
-			- Karmic cycle may be small within a day, while samsara is usually refer to the life cycle.
-		- karmic relationship: "có duyên với  nhau"
-		- principle of karma: "luật nhân quả", principle of causality
-		  id:: 6713acf0-2eb0-423b-ac61-6f595ea12b86
-		  collapsed:: true
-		  [Pratītya-samutpāda](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da): hetu + pratītya -> [phala](https://en.wikipedia.org/wiki/Phala)
-			- hetu ([main] cause, seed, nhân)
-			  id:: 6714a980-e4e5-4c13-a74f-306c32b1dc11
-			  is the main and direct cause which is chosen by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)).
-			- pratītya (condition, duyên)
-			  id:: 6714a997-d883-4f0f-b825-faeb9f588588
-			  is the auxiliary and indirect cause from the environment which supports the ((6714a980-e4e5-4c13-a74f-306c32b1dc11)).
-			- phala (fruit, quả)
-			  is the result, effect caused by the combination of ((6714a980-e4e5-4c13-a74f-306c32b1dc11)) and ((6714a997-d883-4f0f-b825-faeb9f588588)).
-			- {{embed ((6714ac17-31b2-4963-9ded-8c35e709621a))}}
-		- [karma](https://en.wikipedia.org/wiki/Karma) ~ [saṃskāra](https://en.wikipedia.org/wiki/Samskara_%28Indian_philosophy%29) = [saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) ~ [vāsanā](https://en.wikipedia.org/wiki/V%C4%81san%C4%81) = [bīja](https://en.wikipedia.org/wiki/B%C4%ABja)
-			- karma (action, nghiệp)
-			  is the most general term referring the whole causal cycle.
-			- saṃskāra (formation, hành)
-			  id:: 6713b007-5b0a-4659-9651-1069d9ccf7c6
-			  collapsed:: true
-				- saṃ-skāra = work (kar) together (sam), with the root "kar" of "karma"
-				- active cause: sankhara-khandha (hành uẩn) in [5 aggregates](https://en.wikipedia.org/wiki/Skandha)
-				- passive effect: conditioned thing in [Three marks of existence](https://en.wikipedia.org/wiki/Three_marks_of_existence)
-				  collapsed:: true
-					- > all conditioned things are impermanent
-					- > sabbe saṅkhārā aniccā
-				- ((6713b007-5b0a-4659-9651-1069d9ccf7c6)) is related to ((66f7af1d-e9f3-49c4-a9f6-3b614a413a57))
-			- vāsanā (karmic imprint, tập khí), bīja (karmic seed, chủng tử)
-			  id:: 6713b016-effb-4c0a-9b29-746770b99ce6
-			  collapsed:: true
-			  is the hidden tendency imprinted in the memory due to the collection of past karma
-				- The Vietnamese word "nghiệp" usually refers to this tendency.
-				- ((6713b016-effb-4c0a-9b29-746770b99ce6)) is related to ((66e80666-5f29-4419-8db1-bf8cdce893e4))
-	- The **choice** determines the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) and its ((6713a8e1-e460-4622-9ad6-87c804deccd8)).
-	  id:: 6714a66b-1bd2-4c9d-8ebc-2842f3095b3b
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-10-20 Sun 13:57:09]--[2024-10-20 Sun 14:46:58] =>  00:49:49
-	  :END:
-		- ((67137e75-0e28-4f09-b6a2-0e2276335be3))
-		- "Which one is is the seed thread, which one is the condition thread?"
-		  "Đâu là sợi nhân, đâu là sợi duyên?"
-			- This was my very first question about the ((6713acf0-2eb0-423b-ac61-6f595ea12b86))
-			- Objectively, all causes are equally causal, but subjectively, the one chosen by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) will be the main cause.
-			- That main cause determines the result thanks to the choice of the self.
-			  id:: 6714ac17-31b2-4963-9ded-8c35e709621a
-				- The self selects conditions to match that main cause.
-				- The self cherry-picks the fruit according to its criteria which is just another kind of main causes.
-		- ((66e80666-5f29-4419-8db1-bf8cdce893e4))
-		- accept (choiceless) vs intent (choice)
-			- They are 2 opposite ends but are united in the circle of learning:
-			  accept -> learn -> intent to follow that lesson of "acceptance is the best" -> acceptive attitude -> accept
-			- I usually place my ((667272b8-88a8-4928-a22a-35035c9edf05)) at the "accept", so i see all of the chain of effects as "no choice". But that's just relative, because...
-			- The choice at the "intent" does affect the acceptance and what will be learnt next.
-				- This is in line with the ((6713acf0-2eb0-423b-ac61-6f595ea12b86)).
-			- [choiceless awareness](https://en.wikipedia.org/wiki/Choiceless_awareness) by [Jiddu Krishnamurti](https://en.wikipedia.org/wiki/Jiddu_Krishnamurti)
-		- Choice & responsibility is the main ethical motivation of the ((6713acf0-2eb0-423b-ac61-6f595ea12b86)).
-		  "We receive whatever we've chosen."
-		  "Gieo nhân nào gặt quả nấy."
-	- Writing styles & formats
-	  id:: 67187bb2-8a3a-4541-9f19-40e217ce7eb0
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-10-23 Wed 12:04:05]--[2024-10-23 Wed 15:27:28] =>  03:23:23
-	  :END:
-		- CreatZy style
-			- Quotation
-				- For quick notes, i just use the straight quotation marks `"`.
-				- For notes to be published, i use the curly quotation marks `“”`.
-				- Only the quoted material is placed inside quotation marks.
-				  id:: 67189182-7268-4579-9ef2-b16bf1f06c86
-				  I don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence.
-				- Math forms are quoted by double angle brackets, e.g. $⟪E = m⋅c^2⟫$
-			- Dialogue
-				- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
-				- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are space-separated from the text.
-		- American style for quotation
-		  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
-			- Commas `,` and periods `.` are always before the closing quote, “like this.”
-				- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only [from mid-19th century](https://style.mla.org/the-placement-of-a-comma-or-period-after-a-quotation), to make the text of [typewriter](https://en.wikipedia.org/wiki/Typewriter) [looks “neater”](https://style.mla.org/punctuation-and-quotation-marks/).
-			- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
-		- World's various styles for dialogue
-			- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
-			- For source attribution, while (em) [dash](https://en.wikipedia.org/wiki/Dash) is the most common, colon `: author` and parentheses `(from author)` are also used.
-			- References:
-				- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
-				- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
-	- Loops, springs, coils in Unicode
-	  id:: 671a3ada-40dd-4a43-8ded-532c120cfda1
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-10-24 Thu 19:18:10]--[2024-10-24 Thu 19:57:44] =>  00:39:34
-	  :END:
-		- Emojis
-			- ➰
-			  curly loop, scribble, squiggle
-			- ➿
-			  double curly loop, tape, cassette
-			- 🎗️
-			  reminder ribbon, awareness, cause
-			- 🌀
-			  cyclone, swirl, vortex, spiral, whirlpool, spin
-			- 🍥
-			  fish cake with swirl design, narutomaki, kamaboko, surimi
-			- ♾️
-			  infinity, forever
-		- ⅏
-		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
-		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
-			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en), ꕤ (za)
-		- [Brahmi script](https://en.wikipedia.org/wiki/Brahmi_script) descendants
-			- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
-				- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
-			- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
-				- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
-			- [Cham script](https://en.wikipedia.org/wiki/Cham_script) contains spiral punctuation
-				- ꩜ (spiral, beginning of a section)
-		- [Bamum script](https://en.wikipedia.org/wiki/Bamum_script) contains many pictographic characters
-			- 𖦹 (ngkaami in Phase E)
-		- Symbols
-			- Infinity: ∞, ♾
