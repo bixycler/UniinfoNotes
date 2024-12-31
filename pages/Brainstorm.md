@@ -218,8 +218,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				      ;
 				      ; ?key parameter
 				      [?params :block/content ?paramlines]
-				      [(re-pattern ".*") ?firstLinePattern]
-				      [(re-find ?firstLinePattern ?paramlines) ?key]
+				      [(re-pattern ".*") ?line-pattern]
+				      [(re-find ?line-pattern ?paramlines) ?key] ; only the first line, a.k.a. "block title"
 				      ;
 				      ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
 				      [?params :block/properties ?props]
@@ -415,19 +415,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					   ]; end query[]
 					  }
 					  #+END_QUERY
-				- DOING [?] `re-find` can match multiple lines, but `re-find (re-pattern ".*")` returns only the first line?!
+				- DOING `re-find` can match multiple lines, but `re-find (re-pattern ".*")` returns only the **first match** (line)! Use `re-seq` for a sequence of **all matches**.
 				  id:: 6773ba79-d2a7-442d-be3d-f679f91eda41
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-12-31 Tue 16:33:57]
 				  :END:
 					- This is the first line, a.k.a. "block title"
-					  id:: 6773bbf6-e001-4d38-8dc1-e4744b753a93
-					  This is the 2nd line
-					  This is the 3rd line
-					- This is the first line, a.k.a. "block title"
 					  id:: 6773bc4d-e221-4632-9882-06b1dfff8b65
-					  note:: all properties, including `id::` will be moved to right after the "block title"
+					  note:: all properties, including block `id::` will be moved to right after the "block title"
 					  This is the 2nd line
 					  This is the 3rd line
 					- Source code:
@@ -440,16 +436,20 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						   ]
 						   ;;;;;;;; query body ;;;;;;;;
 						   :query [
-						    :find ?strAll ?strLine ; ?content
+						    :find ?strAll ?sseqAll ?strLine ?sseqLine ; ?content
 						    :in $ ?container
 						    :where
 						      [?container :block/content ?content]
 						      [(re-pattern ".*") ?patAll]
-						      [(re-seq ?patAll ?content) ?resAll]
-						      [(str "Match result of `.*`: " ?resAll) ?strAll]
+						      [(re-find ?patAll ?content) ?resAll]
+						      [(str "re-find[.*]: " ?resAll) ?strAll]
+						      [(re-seq ?patAll ?content) ?seqAll]
+						      [(str "re-seq[.*]: " ?seqAll) ?sseqAll]
 						      [(re-pattern ".*line") ?patLine]
 						      [(re-find ?patLine ?content) ?resLine]
-						      [(str "Match result of `.*line`: " ?resLine) ?strLine]
+						      [(str "re-find[.*line]: " ?resLine) ?strLine]
+						      [(re-seq ?patLine ?content) ?seqLine]
+						      [(str "re-seq[.*line]: " ?seqLine) ?sseqLine]
 						   ]; end query[]
 						  }
 						  #+END_QUERY
@@ -461,16 +461,20 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					   ]
 					   ;;;;;;;; query body ;;;;;;;;
 					   :query [
-					    :find ?strAll ?strLine ; ?content
+					    :find ?strAll ?sseqAll ?strLine ?sseqLine ; ?content
 					    :in $ ?container
 					    :where
 					      [?container :block/content ?content]
 					      [(re-pattern ".*") ?patAll]
-					      [(re-seq ?patAll ?content) ?resAll]
-					      [(str "Match result of `.*`: " ?resAll) ?strAll]
+					      [(re-find ?patAll ?content) ?resAll]
+					      [(str "re-find[.*]: " ?resAll) ?strAll]
+					      [(re-seq ?patAll ?content) ?seqAll]
+					      [(str "re-seq[.*]: " ?seqAll) ?sseqAll]
 					      [(re-pattern ".*line") ?patLine]
 					      [(re-find ?patLine ?content) ?resLine]
-					      [(str "Match result of `.*line`: " ?resLine) ?strLine]
+					      [(str "re-find[.*line]: " ?resLine) ?strLine]
+					      [(re-seq ?patLine ?content) ?seqLine]
+					      [(str "re-seq[.*line]: " ?seqLine) ?sseqLine]
 					   ]; end query[]
 					  }
 					  #+END_QUERY
