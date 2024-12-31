@@ -1657,6 +1657,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
 						  ```
+						- ```sh
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn 
+						  stat -c '%i %h' ${HOME}/.logseq/config/config.edn
+						  stat -c '%i %h' ${HOME}/snap/logseq/current/.logseq/config/config.edn
+						  ```
 					- then `ln`
 					  collapsed:: true
 						- ```sh
