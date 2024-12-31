@@ -36,7 +36,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- Will LE
+		- obop
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
@@ -46,7 +46,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  collapsed:: true
 		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
-			  query-table:: false
+			  query-table:: true
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
 		  collapsed:: true
 			- `search-scope:` Limit to specific block(s). Remember to disable `search-scope-page`!
@@ -92,6 +92,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((6772a6c7-bf00-405a-83f7-6fe7dd181cba))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ((6773ba79-d2a7-442d-be3d-f679f91eda41))
 				- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 					- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 					- ((67715d03-9dbc-42b0-8589-064396a9c52b))
