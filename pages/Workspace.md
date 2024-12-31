@@ -92,6 +92,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((6773ba79-d2a7-442d-be3d-f679f91eda41))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ...
 				- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 					- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 					- ((67715d03-9dbc-42b0-8589-064396a9c52b))
@@ -103,9 +104,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
 		  {{embed ((db954501-95d0-46e2-b1fc-39b6a966300e))}}
 		  {{embed ((6773eb97-ec58-4c48-a017-cd0de2d82e08))}}
+		- <<End Workstack>>
+		  ---------------------
+	- ## Tasks
+	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
+	  ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
+		- ...
 		-
-		- ### Master Plan
-			-
+		- ### TODO Master Plan
 			-
 			- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 			- DOING Task with deadline
@@ -119,14 +125,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  CLOCK: [2024-12-29 Sun 22:26:10]--[2024-12-29 Sun 22:26:17] =>  00:00:07
 			  CLOCK: [2024-12-29 Sun 22:26:25]
 			  :END:
-		-
-		-
-		- ...
-		- <<End Workstack>>
-		  ---------------------
-	- ## Tasks
-	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
-	  ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
 		-
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
@@ -194,7 +192,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- Some of the fb posts have been migrated to the blog [CreatZy Notes](https://creatzynotes.blogspot.com/).
 			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) Trigger: i had a hard time finding back [my post about catenary curve](https://www.facebook.com/share/p/9LfU1A6Mmxo2KTH3/).
 		-
-		- ...
 		-
 		- query-table:: false
 		  id:: 67110d13-b91a-4ebb-959b-9db4d2f6d61d
@@ -217,7 +214,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ---------------
 	- ## Problems
 	  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
-		-
+		- ...
 		- [!] My expression of "arrogance"
 		  collapsed:: true
 			- Even i've never thought that i'm better/higher than anyone else, my expression does show some trace of arrogance which has been fed back by my (close) friends. Is shows something is hidden deep inside my unconsciousness. Here i list some causes that i can reflect on this problem.
@@ -507,15 +504,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  collapsed:: true
 		- [!] Time is always gone too fast! :(
 		  id:: 66600918-315b-4f6c-970b-3039ac8ef912
-		- ...
 		- <<End Problems>>
 		  -------------------
 	- ## Questions
 	  id:: 6651adea-f2f6-4c9e-80b4-ece0bb5038fb
-		-
+		- ...
 		- [?] What's the relation between  [lattice group](https://en.wikipedia.org/wiki/Lattice_(group)) and  [lattice order](https://en.wikipedia.org/wiki/Lattice_(order))?
 		- [?] When will I be liberated :-?
-		- ...
 		- <<End Questions>>
 		  --------------------
 	- <<End Workspace>> 

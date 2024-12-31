@@ -5,6 +5,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## Brainstorming
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ...
+		- to be flushed down!
+		- the next goes up
+		- do brainstorming here
+		-
 	- ## 2024 Brainstorms
 	- In possessive form like "Will's note", [the apostrophe `'` stands for](https://www.merriam-webster.com/grammar/history-and-use-of-the-apostrophe) the "e" in the suffix "-es" of [genitive form](https://www.merriam-webster.com/dictionary/genitive) of noun in the [Old English](https://en.wikipedia.org/wiki/Old_English).
 	  id:: 66536ad3-264b-4351-868b-e7e8a7a82774
