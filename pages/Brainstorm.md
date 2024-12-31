@@ -415,10 +415,55 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					   ]; end query[]
 					  }
 					  #+END_QUERY
-				- DOING [?]
+				- DOING [?] `re-find` can match multiple lines, but `re-find (re-pattern ".*")` returns only the first line?!
+				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2024-12-31 Tue 16:33:57]
 				  :END:
+					- This is the first line, a.k.a. "block title"
+					  id:: 6773bbf6-e001-4d38-8dc1-e4744b753a93
+					  This is the 2nd line
+					  This is the 3rd line
+					- This is the first line, a.k.a. "block title"
+					  This is the 2nd line
+					  This is the 3rd line
+					  note:: all properties will be moved to right after the "block title"
+					- Source code:
+					  collapsed:: true
+						- ```clojure
+						  #+BEGIN_QUERY
+						  {:title [:h3 "Extract lines with RegEx"]
+						   :inputs [ 
+						    [:block/uuid #uuid "6773bbf6-e001-4d38-8dc1-e4744b753a93"]  ; $3 search-scope ?container
+						   ]
+						   ;;;;;;;; query body ;;;;;;;;
+						   :query [
+						    :find ?resAll ?content
+						    :in $ ?container
+						    :where
+						      [?container :block/content ?content]
+						      [(re-pattern ".*") ?patAll]
+						      [(re-find ?patAll ?content) ?resAll]
+						   ]; end query[]
+						  }
+						  #+END_QUERY
+						  ```
+					- #+BEGIN_QUERY
+					  {:title [:h3 "Extract lines with RegEx"]
+					   :inputs [ 
+					    [:block/uuid #uuid "6773bbf6-e001-4d38-8dc1-e4744b753a93"]  ; $3 search-scope ?container
+					   ]
+					   ;;;;;;;; query body ;;;;;;;;
+					   :query [
+					    :find ?resAll ?content
+					    :in $ ?container
+					    :where
+					      [?container :block/content ?content]
+					      [(re-pattern ".*") ?patAll]
+					      [(re-find ?patAll ?content) ?resAll]
+					   ]; end query[]
+					  }
+					  #+END_QUERY
 				- TODO search for ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)) only with `first-line::` and limited `content-length::`, to be applied in [term search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
 				- Ref: [Find nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
 			- RESULT
