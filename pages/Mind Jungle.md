@@ -2963,6 +2963,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6667bf32-ab6a-4d64-842d-45d49137e694
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6667bf32-ab6a-4d64-842d-45d49137e694)) is a technique to empty and free the mind by dumping all thoughts, ideas, feelings,... onto a tangible medium, resulting “braindumps”.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- While many authors consider “braindumping” as a sub-technique of “brainstorming”, i consider braindumping as a “wilder” version of brainstorming
 		- Ref:
 			- [How to Brain Dump: A Guide for Clearer Thinking and Organized Planning](https://janesagenda.com/blogs/planning-201/brain-dump)
 			- [Braindumping as individual brainstorming](https://www.interaction-design.org/literature/article/learn-how-to-use-the-best-ideation-methods-brainstorming-braindumping-brainwriting-and-brainwalking#braindump_%E2%80%93_individual_brainstorm-12)
@@ -2981,7 +2983,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665c92d1-565b-4911-a706-b32af429c3aa
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Brainstorming
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c92d1-565b-4911-a706-b32af429c3aa)) is a thinking technique to spontaneously dump all ideas out quickly without careful organizing, resulting [brainstorms](https://en.wiktionary.org/wiki/brainstorm#Noun). Compared to ((6667bf32-ab6a-4d64-842d-45d49137e694)), ((665c92d1-565b-4911-a706-b32af429c3aa)) is more freely and toward new ideas instead of organizing old stuffs.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c92d1-565b-4911-a706-b32af429c3aa)) is a thinking technique to spontaneously dump all ideas out quickly without careful organizing, resulting [brainstorms](https://en.wiktionary.org/wiki/brainstorm#Noun). Compared to ((6667bf32-ab6a-4d64-842d-45d49137e694)), ((665c92d1-565b-4911-a706-b32af429c3aa)) is more about ideas about specific topics instead of “dumping everything inside out”.
 	- ## Will LE
 	  id:: 66536578-c4d3-43f1-b35c-bf71120f0570
 	  collapsed:: true
