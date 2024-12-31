@@ -100,7 +100,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7))
 				- ...
 			- ------
-		- ### Brainstorming
+		- ### Working
 			- ((6653538a-30aa-423f-be89-848ad9c7e331))
 		-
 		- ### Master Plan
@@ -410,8 +410,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- The plan is to the work as the table of contents is to the document.
 								- [?] How to move between ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), short-term plans, and ((6651adea-52dd-4aa8-9942-a75af9a6a23f))...
 								- Orders & flows
-									- Pagination of [[History]], [[Brainstorm]], [[Braindump]]: page per year
-										-
+									- Pagination: [[History]], [[Braindump]], [[Stories]] are split by page per year and sorted in chronological order.
+									- No pagination: [[Mind Jungle]], [[Brainstorm]]
+										- [[Brainstorm]]  is sorted in inverse chronological order.
 									- [[History]] > Tasks[ past > current > future > deferred & backlog]
 										- Move past tasks → history
 									- Brainstorm < brainstorming (in ((6651adea-81d4-40a5-b96d-af6739e572eb)), after ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) < ((67164cc1-e500-4889-9b6d-12d8dd7fc029)))

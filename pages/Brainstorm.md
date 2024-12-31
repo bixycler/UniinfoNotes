@@ -2,6 +2,9 @@
 id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the store of [brainstorms](((665c92d1-565b-4911-a706-b32af429c3aa))) of ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 	-
+	- ## Brainstorming
+		- ...
+	-
 	- In possessive form like "Will's note", [the apostrophe `'` stands for](https://www.merriam-webster.com/grammar/history-and-use-of-the-apostrophe) the "e" in the suffix "-es" of [genitive form](https://www.merriam-webster.com/dictionary/genitive) of noun in the [Old English](https://en.wikipedia.org/wiki/Old_English).
 	  id:: 66536ad3-264b-4351-868b-e7e8a7a82774
 	  collapsed:: true
