@@ -109,10 +109,14 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  ```sh
 			  git log --graph
 			  ```
+			- Find changes in history
+			  ```sh
+			  git log -S 'string' [-G 'regex']
+			  ```
 			- Edit history of lines in a file
 			  collapsed:: true
 			  ```sh
-			  git blame [-L 100,+10]  [hash0rcommit^] [--] path/to/file.md
+			  git blame [-L 100,+10]  [Hash0rCommit^] [--] path/to/file.md
 			  ```
 				- Range with `-L $start`, `-L ,$end`, `-L $start,$end`
 					- Both `$start` and `$end` can be a line number or a `/regex/`
