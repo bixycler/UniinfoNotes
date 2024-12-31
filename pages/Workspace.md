@@ -97,15 +97,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- ((67715d03-9dbc-42b0-8589-064396a9c52b))
 						- Here i'm planning for the task of designing master plan! 😉
 					- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7))
-				- ...
-			- <<End WIPs>>
-			  ------
+			- <<End Tracks>>
+			  ---------------
 		- ### Working
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
-			- ((db954501-95d0-46e2-b1fc-39b6a966300e))
-			  id:: 6773ee55-acdb-442d-a56c-deab6b59fe3d
-			- ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
-			  id:: 6772a6c7-e051-465a-adee-b6c86e7d36ed
+		  {{embed ((db954501-95d0-46e2-b1fc-39b6a966300e))}}
+		  {{embed ((6773eb97-ec58-4c48-a017-cd0de2d82e08))}}
 		-
 		- ### Master Plan
 			-
@@ -125,7 +122,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		-
 		-
 		- ...
-	-
+		- <<End Workstack>>
+		  ---------------------
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
 	  ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
@@ -215,7 +213,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		    :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
 		  }
 		  #+END_QUERY
-	-
+		- <<End Tasks>>
+		  ---------------
 	- ## Problems
 	  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
 		-
@@ -426,7 +425,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 									-
 								- Matter plan: spatial over temporal (like [urban planning](https://en.wikipedia.org/wiki/Urban_planning))
 									- the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> WIPs & brainstorming = 0 = out
-									- implement ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982))), start from the issues in [[Braindump]]
+									- implement ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982))), start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
 										- Machines lack effect circle, don't know the "why", the root purpose.
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
@@ -509,11 +508,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- [!] Time is always gone too fast! :(
 		  id:: 66600918-315b-4f6c-970b-3039ac8ef912
 		- ...
+		- <<End Problems>>
+		  -------------------
 	- ## Questions
 	  id:: 6651adea-f2f6-4c9e-80b4-ece0bb5038fb
 		-
 		- [?] What's the relation between  [lattice group](https://en.wikipedia.org/wiki/Lattice_(group)) and  [lattice order](https://en.wikipedia.org/wiki/Lattice_(order))?
 		- [?] When will I be liberated :-?
 		- ...
+		- <<End Questions>>
+		  --------------------
 	- <<End Workspace>> 
 	  ---------------------
