@@ -1388,3 +1388,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  Hello Noise, my old friend! 
 		  Hello Silence, my old friend! 
 		  ...
+	- Let's complete the knowledge circle
+	  id:: 6773d7f2-be44-43f0-b4f0-31d910b12982
+		- [Knowledge circle](https://www.facebook.com/share/p/ELxP71XMikbJGPPK/)
+		- [Vòng tròn tri thức](https://www.facebook.com/share/p/3brw3UhstMGzAYsC/)
+		- ![KnowledgeCircle.jpg](../assets/Will/story/2023-Dec/KnowledgeCircle.jpg)

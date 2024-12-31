@@ -9,7 +9,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	  collapsed:: true
-		- obop
+		- effect circle
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  collapsed:: true
 		  ^ **Name & Term** search
@@ -36,7 +36,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- obop
+		- effect circle
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
@@ -46,7 +46,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  collapsed:: true
 		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
-			  query-table:: true
+			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
 		  collapsed:: true
 			- `search-scope:` Limit to specific block(s). Remember to disable `search-scope-page`!
@@ -408,8 +408,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- The plan is to the work as the table of contents is to the document.
 								- [?] How to move between ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), short-term plans, and ((6651adea-52dd-4aa8-9942-a75af9a6a23f))...
 								- Matter plan: spatial over temporal (like [urban planning](https://en.wikipedia.org/wiki/Urban_planning))
-									- the central hub = ∞ = in <antipole/antipode> WIPs & brainstorming = 0 = out
-									- implement effect circle ~ knowledge circle, start from the issues
+									- the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> WIPs & brainstorming = 0 = out
+									- implement ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982))), start from the issues
 									  + Machines lack effect circle, don't know the "why", the root purpose.
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
