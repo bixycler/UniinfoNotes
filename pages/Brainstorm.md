@@ -446,9 +446,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						      [(re-pattern ".*") ?patAll]
 						      [(re-find ?patAll ?content) ?resAll]
 						      [(str "Match result of `.*`: " ?resAll) ?strAll]
-						      [(re-pattern "line") ?patLine]
+						      [(re-pattern ".*line") ?patLine]
 						      [(re-find ?patLine ?content) ?resLine]
-						      [(str "Match result of `line`: " ?resLine) ?strLine]
+						      [(str "Match result of `.*line`: " ?resLine) ?strLine]
 						   ]; end query[]
 						  }
 						  #+END_QUERY
@@ -467,16 +467,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					      [(re-pattern ".*") ?patAll]
 					      [(re-find ?patAll ?content) ?resAll]
 					      [(str "Match result of `.*`: " ?resAll) ?strAll]
-					      [(re-pattern "line") ?patLine]
+					      [(re-pattern ".*line") ?patLine]
 					      [(re-find ?patLine ?content) ?resLine]
-					      [(str "Match result of `line`: " ?resLine) ?strLine]
+					      [(str "Match result of `.*line`: " ?resLine) ?strLine]
 					   ]; end query[]
 					  }
 					  #+END_QUERY
 				- TODO search for ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)) only with `first-line::` and limited `content-length::`, to be applied in [term search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))).
 				- Ref: [Find nested TODOs](https://discuss.logseq.com/t/find-nested-todos/18483/6?u=willle)
 			- RESULT
-			  query-table:: true
+			  query-table:: false
 			  query-properties:: [:block :page]
 			  #+BEGIN_QUERY
 			  {:title [:h3 "Search for Pattern"]  ; replaced by $.1 above #+BEGIN_QUERY
