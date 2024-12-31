@@ -2979,7 +2979,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665c92d1-565b-4911-a706-b32af429c3aa
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Brainstorming
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c92d1-565b-4911-a706-b32af429c3aa)) is a thinking technique to dump all thoughts out quickly without careful organizing. Compared to ((6667bf32-ab6a-4d64-842d-45d49137e694)), ((665c92d1-565b-4911-a706-b32af429c3aa)) is more freely and toward new ideas instead of organizing old stuffs.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c92d1-565b-4911-a706-b32af429c3aa)) is a thinking technique to spontaneously dump all ideas out quickly without careful organizing, resulting [brainstorms](https://en.wiktionary.org/wiki/brainstorm#Noun). Compared to ((6667bf32-ab6a-4d64-842d-45d49137e694)), ((665c92d1-565b-4911-a706-b32af429c3aa)) is more freely and toward new ideas instead of organizing old stuffs.
 	- ## Will LE
 	  id:: 66536578-c4d3-43f1-b35c-bf71120f0570
 	  collapsed:: true
@@ -5092,7 +5092,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Web Components
 			- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) provides good guides and API refs.
 			- [Custom elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)
-				- [Custom states](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet) can be exposed for external CSS to use, e.g. ``
+				- [Custom states](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet) can be exposed for external CSS to use
 				  collapsed:: true
 					- The new pseudo class [`:state()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:state) is too new (from Chrome 125, Feb 2024), so we may need to wait or use [the fallback to the deprecated `:--double-dash-custom-state`](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet#compability_with_dashed-ident_syntax).
 			- [Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM)

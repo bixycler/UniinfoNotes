@@ -36,13 +36,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- reveal
+		- expose
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
 		  child-filter::
 		  search-scope:: Specific blocks: ;
-		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]]; Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
+		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]];
+		  collapsed:: true
+		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
@@ -292,7 +294,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
 						- The inner target of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 						- The target is the hidden boss, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the underlying driving force.
-						- **Revealing the hidden boss** means **detaching the self**.
+						- **Exposing the hidden boss** means **detaching the self**.
 						  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
 							- “Detached self = selfless”
 							- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
@@ -396,7 +398,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						  :LOGBOOK:
 						  CLOCK: [2024-12-29 Sun 21:06:08]
 						  :END:
-							- This checkstop is required so that all hidden ones can be [exposeed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
+							- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
 							- DOING Design ((6651adea-52dd-4aa8-9942-a75af9a6a23f)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
 							  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
 							  :LOGBOOK:
@@ -407,6 +409,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
 								- The plan is to the work as the table of contents is to the document.
 								- [?] How to move between ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), short-term plans, and ((6651adea-52dd-4aa8-9942-a75af9a6a23f))...
+								- Orders & flows
+									- history > Tasks[ past > current > future > deferred & backlog]
+										- Move past tasks to history
+									- brainstorm < brainstorming (in workstack, after WIPs < To be merged)
+										- Move from brainstorming to brainstorm, from braindumping to braindump, from WIPs to To be merged
 								- Matter plan: spatial over temporal (like [urban planning](https://en.wikipedia.org/wiki/Urban_planning))
 									- the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> WIPs & brainstorming = 0 = out
 									- implement ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982))), start from the issues in [[Braindump]]
