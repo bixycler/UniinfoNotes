@@ -2965,10 +2965,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6667bf32-ab6a-4d64-842d-45d49137e694)) is a technique to empty and free the mind by dumping all thoughts, ideas, feelings,... onto a tangible medium, resulting “braindumps”.
 			- “dumping everything inside out”
 			  id:: 6773e4f5-22e4-4628-889f-e8c757fa77a0
-			  The rule of thumb is
+			  The rule of thumb is just let it go, don't keep, don't hold anything back.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- While many authors consider “braindumping” as a sub-technique of “brainstorming”, i consider braindumping as a “wilder” version of brainstorming, i.e. ((6773e4f5-22e4-4628-889f-e8c757fa77a0)).
-				- [Brain*dumping* is simply brainstorming written down.](https://techdayhq.com/blog/2023/08/15/brainstorming-versus-braindumping)
+				- [Braindumping is simply brainstorming written down.](https://techdayhq.com/blog/2023/08/15/brainstorming-versus-braindumping)
 				- [Braindumping as individual brainstorming](https://www.interaction-design.org/literature/article/learn-how-to-use-the-best-ideation-methods-brainstorming-braindumping-brainwriting-and-brainwalking#braindump_%E2%80%93_individual_brainstorm-12)
 		- Ref:
 			- [How to Brain Dump: A Guide for Clearer Thinking and Organized Planning](https://janesagenda.com/blogs/planning-201/brain-dump)
