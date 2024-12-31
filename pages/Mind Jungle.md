@@ -1651,7 +1651,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn`: global config: **3 links**
 					- `${HOME}/.logseq/config/config.edn`: Flatpack & AppImage installations
 					- `${HOME}/snap/logseq/current/.logseq/config/config.edn`: Snap installation
-					- `diff` check first
+					- `diff` & `stat` check first
 					  collapsed:: true
 						- ```sh
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn

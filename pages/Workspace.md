@@ -99,10 +99,15 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- ------
 		-
 		- ### Master Plan
-			- TODO Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
+			- DOING Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
 			  :LOGBOOK:
 			  CLOCK: [2024-12-27 Fri 14:14:48]
+			  CLOCK: [2024-12-31 Tue 15:33:00]
 			  :END:
+				- The global/`config.edn` has 1 extra hard link!?!
+					- ```sh
+					  ```
+			-
 			- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 			- DOING Task with deadline
 			  DEADLINE: <2024-12-30 Mon 21:45 .+1d>
