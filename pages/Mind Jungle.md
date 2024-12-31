@@ -1750,6 +1750,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
 						  ```
 				- [technical/Linux]([[Linux]]): **2 links**
+				  id:: 6773b551-c64e-414e-85af-bbc45eeadaaa
 				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md`: Linux logseq-notes

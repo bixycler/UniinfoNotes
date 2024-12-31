@@ -359,5 +359,40 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		- Update ((66f7af1c-bb80-46ae-a896-10f31c113e84))
 			- Add missing ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 			- Share ((66949495-3846-4f89-9ea5-c62b624d282c)) to [[Linux]]
+	- DONE Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
+	  id:: 6772a6c7-bf00-405a-83f7-6fe7dd181cba
+	  :LOGBOOK:
+	  CLOCK: [2024-12-27 Fri 14:14:48]
+	  CLOCK: [2024-12-31 Tue 15:33:00]--[2024-12-31 Tue 16:14:48] =>  00:41:48
+	  :END:
+		- [?] The global/`config.edn` has 1 extra hard link!?!
+		  collapsed:: true
+			- ```sh
+			  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn
+			  stat -c '%i %h' ${HOME}/.logseq/config/config.edn
+			  stat -c '%i %h' ${HOME}/snap/logseq/current/.logseq/config/config.edn
+			  2109288 4
+			  2109288 4
+			  2109288 4
+			  ```
+			- ⇒ find that extra link
+				- ```sh
+				  find ~ -samefile ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn
+				  /home/dinhlx/source/UniinfoNotes/assets/logseq/global/config.edn
+				  /home/dinhlx/snap/logseq/29/.logseq/config/config.edn
+				  /home/dinhlx/snap/logseq/28/.logseq/config/config.edn
+				  /home/dinhlx/.logseq/config/config.edn
+				  ```
+			- The current version: 29 = [Beta 0.10.9 @ Apr 23rd, 2024](https://docs.logseq.com/#/page/changelog/block/beta%200.10.9%20%5B%5Bapr%2023rd%2C%202024%5D%5D) = latest in 2024, and the same for all 3 app versions (Flatpak, Snap, and AppImage)
+				- ```sh
+				  tree -d ~/snap/logseq/                                                                    [dd57718]
+				  /home/dinhlx/snap/logseq/
+				  ├── 28
+				  ├── 29
+				  ├── common
+				  └── current -> 29
+				  ```
+			- ⇒ Just remove the `28`!
+		- Shared and update: ((6773b551-c64e-414e-85af-bbc45eeadaaa))
 	-
 	- ...
