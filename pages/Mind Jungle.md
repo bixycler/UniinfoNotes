@@ -3479,8 +3479,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  expected: (empty? (set/difference (set block-refs) (->> (d/q (quote [:find (pull ?b [:block/properties]) :in $ % :where (has-property ?b :id)]) (clojure.core/deref state/db-conn) (vals rules/query-dsl-rules)) (map first) (map (comp :id :block/properties)) set)))
 									    actual: (not (empty? #{"(665374b0-1ed9-420b-afc4-897a942c0be0" "(667d2689-4ce0-4c79-b82a-25b0bba87d39"}))
 									  ```
-								- [665374b0-1ed9-420b-afc4-897a942c0be0: Bosidian Dataview](((665374b0-1ed9-420b-afc4-897a942c0be0)))
-									- [using a  `dataviewjs` script (Bosidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
+								- [665374b0-1ed9-420b-afc4-897a942c0be0: Obsidian Dataview](((665374b0-1ed9-420b-afc4-897a942c0be0)))
+									- [using a  `dataviewjs` script (Obsidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
 								- [667d2689-4ce0-4c79-b82a-25b0bba87d39: Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
 									- [Should be `(Block ref...)`](((6683ea7c-a48c-4998-8f2b-40d4d9bc16a9))) < ((6683ea7c-c94f-4970-bcd1-d3b468c32ab7)) < ((667d263b-658b-4560-b8cc-f6838534956d))
 								- => Temporarily insert space between open parenthesis and block refs.
@@ -3563,6 +3563,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Block id removed: `Local File: config.edn`
 										- > `((``66faa5f7-af4f-4ca6-9621-56ab8dadbe94``))` overrides config keys in this global file except for maps which are merged.
 							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again after ((67710af1-e3f0-4f94-917c-5235c210f082))
+							  id:: 6772a6cd-319d-49d5-acec-ff6053a97a34
 							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2024-12-29 Sun 19:28:58]--[2024-12-29 Sun 19:36:53] =>  00:07:55
@@ -3611,8 +3612,58 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Thanks to atomicity, this operation is rather safe, but...
 						- [!] The moved block usually has problem displaying at its destination.
 						- [!] Sometimes the move on GUI (and in the ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) is not reflected to the Markdown source files.
-						- [!] Sometimes the moved block [still lacks id!](((6735b6bf-6141-48e3-9e12-2473a01dafb0)))
+						- DOING [!] Sometimes the moved block still has **problem with block id**!
 						  id:: 6766ef9d-3add-4400-90b0-131f51d8c23a
+						  collapsed:: true
+						  :LOGBOOK:
+						  CLOCK: [2024-12-31 Tue 14:31:33]
+						  :END:
+							- ((6735b6bf-6141-48e3-9e12-2473a01dafb0))
+							- ((6772a6cd-319d-49d5-acec-ff6053a97a34))
+							- DONE [!] **Ghost UUIDs** after moving blocks
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-12-31 Tue 14:41:40]
+							  CLOCK: [2024-12-31 Tue 14:41:46]--[2024-12-31 Tue 15:02:28] =>  00:20:42
+							  :END:
+								- There are two "ghost UUIDs" remembered by Logseq in its graph DB,
+								  which were added back to the old slots after these blocks were moved away:
+									- `6673f8bf-04c0-4f8f-bc36-982ce9cab87d`: `Custom Logseq publish via Web API`
+									     moved from [[Workspace]] to [[Mind Jungle]]
+									- `66949495-3846-4f89-9ea5-c62b624d282c`: `Linux`
+									     moved from [[Mind Jungle]] to [[Linux]]
+									- They were fixed in [commit `6a6477ed`](https://github.com/bixycler/UniinfoNotes/commit/6a6477ed)
+								- Change details for `66949495-3846-4f89-9ea5-c62b624d282c` [((66949495-3846-4f89-9ea5-c62b624d282c))]
+									- a04b60d0: add id to the old slot in Mind Jungle => ((667bfebf-a319-46be-a795-d7fc9c156363))!
+									- 926acf05: move `Linux` from [[Mind Jungle]] to [[Linux]]
+									- 70e37387: add `Linux` to [[Mind Jungle]]
+								- Change details for `6673f8bf-04c0-4f8f-bc36-982ce9cab87d` []
+									- It was first drafted in Workspace, then moved to Mind Jungle.
+									- Since then, the id was **moved back and forth** between the empty block in Workspace and the block in Mind Jungle.
+									- Git commits in 2024/{from 06/23 to 12/30}
+									  collapsed:: true
+										- 2024/12/30
+										  `a04b60d0`: add to Mind Jungle
+										- `e143a5a3`: remove from Mind Jungle
+										- `3370210d`: add id to empty block in Workspace
+										- `f418b4c4`: remove id from empty block in Workspace
+										- `962f2104`: add to Mind Jungle
+										- `df647b94`: remove from Mind Jungle
+										- `fe434a4c`: add id to empty block in Workspace
+										- `6b960a02`: remove id from empty block in Workspace; move a ref block with the same id in Workspace
+										- `9b386359`: add id to empty block in Workspace
+										- `da19d7d1`: add to Mind Jungle
+										- `62a5452c`: remove from Mind Jungle
+										- `8852d96e`: add id to empty block in Workspace
+										- `5663fc46`: remove id from empty block in Workspace
+										- `9c9a54a6`: add to Mind Jungle
+										- `9b68ad70`: remove from Mind Jungle; add id to empty block in Workspace
+										- `71233eec`: move the block with id from Workspace to Mind Jungle
+										- `f95e1668`: add the block with id to Workspace
+										  2024/06/23
+								- Note: `History` was also moved from [[Workspace]] to [[History]] but does not have similar problem!?! Maybe because the old slot was at the last place of [[Workspace]] which was removed completely so that no other block could be mistaken as “the old block” .
+									- `1ae146f4`: move `History` from [[Workspace]] to [[History]]
+									- `ea416165`: create `History` in [[Workspace]]
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
@@ -4681,6 +4732,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-09-28 Sat 14:47:16]
+		  CLOCK: [2024-12-31 Tue 14:06:48]--[2024-12-31 Tue 14:07:12] =>  00:00:24
 		  :END:
 			- Location of home folder is different between installations:
 			  id:: 66fb7680-e670-447d-baa4-279bed18e706
