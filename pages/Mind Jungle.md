@@ -2959,11 +2959,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Records of history
 		  id:: 6667add9-3076-4a19-8b15-d1888665a3c0
 			- Personal [diary](https://en.wikipedia.org/wiki/Diary), traveler's [journal](https://en.wikipedia.org/wiki/Travel_literature#Travel_journals), vehicle and machine's [logbook](https://en.wikipedia.org/wiki/Logbook), [historical record](https://en.wikipedia.org/wiki/Historiography) written by historian.
-	- ## brain dump
+	- ## braindumping
 	  id:: 6667bf32-ab6a-4d64-842d-45d49137e694
 	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6667bf32-ab6a-4d64-842d-45d49137e694)) is a technique to empty and free the mind by dumping all thoughts, ideas, feelings,... onto a tangible medium, resulting “braindumps”.
 		- Ref:
 			- [How to Brain Dump: A Guide for Clearer Thinking and Organized Planning](https://janesagenda.com/blogs/planning-201/brain-dump)
+			- [Braindumping as individual brainstorming](https://www.interaction-design.org/literature/article/learn-how-to-use-the-best-ideation-methods-brainstorming-braindumping-brainwriting-and-brainwalking#braindump_%E2%80%93_individual_brainstorm-12)
 	- ## About Legend app
 	  collapsed:: true
 		- Internal links
