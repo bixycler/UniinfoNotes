@@ -312,17 +312,20 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 									- No pagination: [[Mind Jungle]]
 									- Year Tasks = past tasks> Tasks[ current > future > deferred & backlog]
 										- Move current tasks done, i.e. past tasks → Year Tasks
+										  id:: 67760c43-d4fb-43e3-ab23-16720723f800
 									- Year Braindumps > ((db954501-95d0-46e2-b1fc-39b6a966300e)) 
 									  ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) > Year Brainstorms
 										- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
+										  id:: 67762e67-bcfc-403b-a314-44213523f905
 									- ((6651adea-81d4-40a5-b96d-af6739e572eb)):
 										- ((67139355-ac72-4e4c-b882-00bb3a3ea144)):
 											- ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) > ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
 												- Move WIPs from `WIPs` → `To be merged`
 										- ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place:
 											- ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
-											- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
-									-
+												- ((67762e67-bcfc-403b-a314-44213523f905))
+											- ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
+												- ((67760c43-d4fb-43e3-ab23-16720723f800))
 								- Matter plan: spatial over temporal (like [urban planning](https://en.wikipedia.org/wiki/Urban_planning))
 									- the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> WIPs & brainstorming = 0 = out
 									- implement ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982))), starting from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
