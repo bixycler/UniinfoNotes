@@ -3347,9 +3347,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Or we must prune "unnecessary" links.
 				- [!] Timestamp in Logseq
 				  collapsed:: true
-					- [Displaying block timestamps](https://discuss.logseq.com/t/displaying-block-timestamps/24594)
+					- just `Ctrl` `Enter` and copy from `:LOGBOOK:`, e.g. CLOCK: [2025-01-02 Thu 18:34:53]
+					  :LOGBOOK:
+					  CLOCK: [2025-01-02 Thu 18:34:53]
+					  CLOCK: [2025-01-02 Thu 18:35:56]
+					  :END:
+					- ref: [Displaying block timestamps](https://discuss.logseq.com/t/displaying-block-timestamps/24594)
 					- Dynamic variable `<% today %>`: {{query <% today %> }}
-					  collapsed:: true
 				- [!] Time is always gone too fast! :(
 				  id:: 66600918-315b-4f6c-970b-3039ac8ef912
 				- <<End Problems>>
