@@ -363,20 +363,20 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			- Add missing ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 			- Move ((66949495-3846-4f89-9ea5-c62b624d282c)) to [[Linux]]
 			  id:: 6772a6cb-1dee-402a-bee2-d41337e74eb6
-		- DOING Refactor [[Brainstorm]]
+		- DONE Refactor [[Brainstorm]]
 		  id:: 6773f59b-066f-41dc-9c87-6214278bca03
 		  :LOGBOOK:
 		  CLOCK: [2024-12-31 Tue 20:46:16]
-		  CLOCK: [2024-12-31 Tue 20:46:18]
+		  CLOCK: [2024-12-31 Tue 20:46:18]--[2025-01-02 Thu 11:07:10] =>  38:20:52
 		  :END:
 			- DONE resort to inverse chronological order
 			  :LOGBOOK:
 			  CLOCK: [2024-12-31 Tue 20:47:06]--[2025-01-02 Thu 10:49:01] =>  38:01:55
 			  :END:
-			- DOING evict ((67760c45-14fe-4d91-88a0-923f50ed553c)) out to its own page [[2024 Brainstorms]]
+			- DONE evict ((67760c45-14fe-4d91-88a0-923f50ed553c)) out to its own page [[2024 Brainstorms]]
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 10:51:07]
-			  CLOCK: [2025-01-02 Thu 10:51:28]
+			  CLOCK: [2025-01-02 Thu 10:51:28]--[2025-01-02 Thu 11:06:16] =>  00:14:48
 			  :END:
 			- DONE collect old brainstorms into ((67760db9-eb82-4ef9-9bd5-93b43049a755))
 			  :LOGBOOK:
