@@ -14,7 +14,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- just take a break, breathe, review...
 		- i must close i eyes...
 		- the “master plan” should be split into the spatial ((67760c43-58c6-40eb-b874-40afae448966)), and the temporal ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
-		- TODO what's the structure of Mind Map?
+		- DOING what's the structure of Mind Map?
+		  :LOGBOOK:
+		  CLOCK: [2025-01-02 Thu 16:14:37]
+		  :END:
 			- its roots are the problems and questions
 		- [!] the right sidebar now is very lagging
 		- ...
