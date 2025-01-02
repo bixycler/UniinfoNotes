@@ -22,7 +22,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- [!] the right sidebar now is very lagging
 		- i've just got a walk outside, wandering around
 			- in a silent space, i could zoom out deep into the mind to see meta-info
-			- the braindumping
+			- [!] the braindumping texts didn't show the overall image!!
 		- currently, there are 2 ends about the Mind Map, closing the effect circle
 			- forward end: the urge to design it properly
 			- backward end: some questions arised and should be placed into the Mind Map itself
