@@ -1,7 +1,13 @@
 # History
 id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
+	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the Work ((6667ac3c-8fff-43aa-92ac-fca2002e58f4)) of ((66536578-c4d3-43f1-b35c-bf71120f0570)).
+	- ## 2025 History
+	  collapsed:: true
+		- <<End 2025 History>>
+		  -----------------------
 - ## 2024 History
   id:: 67761267-06ef-4f0d-876a-bd354b896681
+  collapsed:: true
 	- DONE Import [[Unïnfo Theory]] from ((66536662-052f-46a4-a624-38858bffb334)) with ((665376f4-9335-4d38-843f-a4cf6ef6cd10)) ✅ 2024-05-18
 	  id:: 66600918-db5b-43cb-9ce2-c88487b817a3
 	- DONE Sync PC with mobile via GitHub & ((6653743f-8847-4b24-8c21-795c87254eb2)) ✅ 2024-05-19
@@ -398,6 +404,10 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 11:11:54]
 			  :END:
+		- DOING Add refs to ((66536578-c4d3-43f1-b35c-bf71120f0570)).
+		  :LOGBOOK:
+		  CLOCK: [2025-01-02 Thu 11:22:16]
+		  :END:
 	- DONE Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
 	  id:: 6772a6c7-bf00-405a-83f7-6fe7dd181cba
 	  collapsed:: true
@@ -434,5 +444,5 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 				  ```
 			- ⇒ Just remove the `28`!
 		- Shared and update: ((6773b551-c64e-414e-85af-bbc45eeadaaa))
-	-
-	- ...
+	- <<End 2024 History>>
+	  -----------------------

@@ -12,6 +12,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  collapsed:: true
 		- <<End 2025 Brainstorms>>
 		  ----------------------------
-- ## Brainstorm History
-  id:: 67760db9-eb82-4ef9-9bd5-93b43049a755
-	- ((67760c45-14fe-4d91-88a0-923f50ed553c))
+	- ## Brainstorm History
+	  id:: 67760db9-eb82-4ef9-9bd5-93b43049a755
+		- ((67760c45-14fe-4d91-88a0-923f50ed553c))
