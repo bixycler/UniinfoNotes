@@ -1,4 +1,4 @@
-## 2024 History
+## 2024 Tasks
 id:: 67761267-06ef-4f0d-876a-bd354b896681
 	- DONE Import [[Unïnfo Theory]] from ((66536662-052f-46a4-a624-38858bffb334)) with ((665376f4-9335-4d38-843f-a4cf6ef6cd10)) ✅ 2024-05-18
 	  id:: 66600918-db5b-43cb-9ce2-c88487b817a3
@@ -347,7 +347,7 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 		  CLOCK: [2024-12-27 Fri 18:23:01]--[2024-12-28 Sat 23:51:39] =>  29:28:38
 		  :END:
 		- Create backlink-based ((676e5861-1220-40e4-9546-e319e17df1aa)).
-	- DOING Refractor [[Workspace]]; ((6772a6cb-1dee-402a-bee2-d41337e74eb6))
+	- DOING Refractor [[Workspace]]
 	  id:: 67710747-2982-4134-875e-3b715313db87
 	  collapsed:: true
 	  :LOGBOOK:
