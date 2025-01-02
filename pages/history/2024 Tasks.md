@@ -411,17 +411,18 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 			  CLOCK: [2025-01-02 Thu 10:52:53]
 			  CLOCK: [2025-01-02 Thu 10:54:09]--[2025-01-02 Thu 10:57:57] =>  00:03:48
 			  :END:
-		- DOING Refactor [[Story]]
+		- DONE Refactor [[Story]]
+		  id:: 677638ff-2593-42a2-89c3-99c5708bc06a
 		  :LOGBOOK:
-		  CLOCK: [2025-01-02 Thu 13:58:21]
+		  CLOCK: [2025-01-02 Thu 13:58:21]--[2025-01-02 Thu 14:10:51] =>  00:12:30
 		  :END:
-			- DOING evict ((67763a23-89ff-48dc-a3f4-df432c6810c2)) out to its own page [[2024 Stories]]
+			- DONE evict ((67763a23-89ff-48dc-a3f4-df432c6810c2)) out to its own page [[2024 Stories]]
 			  :LOGBOOK:
-			  CLOCK: [2025-01-02 Thu 13:58:59]
+			  CLOCK: [2025-01-02 Thu 13:58:59]--[2025-01-02 Thu 14:06:41] =>  00:07:42
 			  :END:
-			- DOING collect old brainstorms into ((677639ad-7699-4170-a2e3-111a71823794))
+			- DONE collect old brainstorms into ((677639ad-7699-4170-a2e3-111a71823794))
 			  :LOGBOOK:
-			  CLOCK: [2025-01-02 Thu 13:59:17]
+			  CLOCK: [2025-01-02 Thu 13:59:17]--[2025-01-02 Thu 14:04:24] =>  00:05:07
 			  :END:
 		- DONE Add refs [((6653538a-30aa-423f-be89-848ad9c7e331)), ((67760c3e-2ed3-4b91-9698-8dea6913e419)), ((6651adea-e1ed-4884-93eb-5ebd6086b62b)), ((66b1bbf3-ac04-4d4c-a343-d75130323a7f)), ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((66519638-cf5d-409b-9b98-15acabf2268c))], and ((67760c43-58c6-40eb-b874-40afae448966)) to ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 		  :LOGBOOK:
