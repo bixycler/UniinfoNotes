@@ -14,7 +14,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- just take a break, breathe, review...
 		- i must close i eyes...
 		- the “master plan” should be split into the spatial ((67760c43-58c6-40eb-b874-40afae448966)), and the temporal ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
-		- DOING what's the structure of Mind Map?
+		- what's the structure of Mind Map?
 		  :LOGBOOK:
 		  CLOCK: [2025-01-02 Thu 16:14:37]
 		  :END:
@@ -32,4 +32,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- any block (task, issue, quesion) should start in context
 			- then it will be moved out when it's grown big
 		- look into the Problems & Questions in Mind Map, i want to sort and clean them up!
+			- luckily, they are not to much!
+		- How should the braindumps be flushed?
+			- some things should be retained!
 		- ...

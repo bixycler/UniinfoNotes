@@ -3338,13 +3338,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- ![Windows10-SnapWindow-settings.png](../assets/GUI/Windows/Windows10-SnapWindow-settings.png)
 						- StackOverflow question with negative answer: [Prevent windows from being dragged past the edge of screen](https://stackoverflow.com/questions/44219386/prevent-windows-from-being-dragged-past-the-edge-of-screen)
 						- Someone met the problem of [windows open off screen](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-windows-open-off-screen/0f2432ad-c60d-4bce-808b-3f0c403ce9f2) with no effective solution, too.
-				- [!] The barrier between workspaces ("graphs" in Logseq)
-				  collapsed:: true
-					- In Logseq, ((665fe765-2bb7-4392-9140-10e187f0f208))
-					- Some independent works, like [[Theme Demo]] , can be copied (manually).
-					- But interlinked works are complicated:
-						- Either we must copy the whole closure of linked works
-						- Or we must prune "unnecessary" links.
 				- [!] Time is always gone too fast! :(
 				  id:: 66600918-315b-4f6c-970b-3039ac8ef912
 				- <<End Problems>>
@@ -3608,6 +3601,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  id:: 66600918-66b3-4d4b-9ef3-6b3d6986ebdd
 		  collapsed:: true
+			- [!] The barrier between workspaces ("graphs" in Logseq)
+			  collapsed:: true
+				- In Logseq, ((665fe765-2bb7-4392-9140-10e187f0f208))
+				- Some independent works, like [[Theme Demo]] , can be copied (manually).
+				- But interlinked works are complicated:
+					- Either we must copy the whole closure of linked works
+					- Or we must prune "unnecessary" links.
 			- It runs somehow slower and heavier than ((66535660-643e-471a-a332-8f2306c5494f)).
 			- The right sidebar together with the main edit pane is a convenient way to do side-by-side 2-column working.
 			  {{embed ((7ce45435-dfac-4391-a570-ebd0d434d8d6))}}
