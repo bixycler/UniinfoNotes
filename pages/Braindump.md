@@ -23,6 +23,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- i've just got a walk outside, wandering around
 			- in a silent space, i could zoom out deep into the mind to see meta-info
 			- [!] the braindumping texts didn't show the overall image!!
+				- for an overview, the most thing can be done with text is to fold them up... that's why i still use folding blocks in Braindumping.
 		- currently, there are 2 ends about the Mind Map, closing the effect circle
 			- forward end: the urge to design it properly
 			- backward end: some questions arised and should be placed into the Mind Map itself
