@@ -378,9 +378,10 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  CLOCK: [2025-01-02 Thu 10:51:07]
 			  CLOCK: [2025-01-02 Thu 10:51:28]
 			  :END:
-			- DOING
+			- DONE collect old brainstorms into ((67760db9-eb82-4ef9-9bd5-93b43049a755))
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 10:52:53]
+			  CLOCK: [2025-01-02 Thu 10:54:09]--[2025-01-02 Thu 10:57:57] =>  00:03:48
 			  :END:
 	- DONE Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
 	  id:: 6772a6c7-bf00-405a-83f7-6fe7dd181cba
