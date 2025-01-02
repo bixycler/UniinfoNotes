@@ -109,7 +109,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ---------------------
 	- ## Tasks
 	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
-	  ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
 		- ...
 		-
 		-
@@ -387,7 +386,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						  CLOCK: [2024-12-29 Sun 21:06:08]
 						  :END:
 							- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
-							- DOING Design ((6651adea-52dd-4aa8-9942-a75af9a6a23f)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
+							- DOING Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
 							  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
 							  :LOGBOOK:
 							  CLOCK: [2024-12-29 Sun 21:32:09]
@@ -404,8 +403,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 									- No pagination: [[Mind Jungle]]
 									- Year Tasks > Tasks[ past > current > future > deferred & backlog]
 										- Move past tasks → Year Tasks
-									- Year Braindumps < ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
-									  ((db954501-95d0-46e2-b1fc-39b6a966300e))
+									- Year Braindumps > ((db954501-95d0-46e2-b1fc-39b6a966300e)) 
+									  ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) > Year Brainstorms
 										- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
 									- ((6651adea-81d4-40a5-b96d-af6739e572eb)):
 										- ((67139355-ac72-4e4c-b882-00bb3a3ea144)):
@@ -417,7 +416,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 									-
 								- Matter plan: spatial over temporal (like [urban planning](https://en.wikipedia.org/wiki/Urban_planning))
 									- the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> WIPs & brainstorming = 0 = out
-									- implement ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982))), start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
+									- implement ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982))), starting from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
 										- Machines lack effect circle, don't know the "why", the root purpose.
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
