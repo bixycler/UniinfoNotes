@@ -1,9 +1,5 @@
 ## 2024 Brainstorms
 id:: 67760c45-14fe-4d91-88a0-923f50ed553c
-	- [pipe wrapping](((670cdcb4-3c85-45af-8c30-3c3284ed37df))) = signal piping = message conveyance
-	  id:: 676e46bc-5c19-4e37-a301-e3b818d8cb1a
-	  collapsed:: true
-		-
 	- The feeling, emotion is difficult to release due to its subtlety.
 	  id:: 675c399e-06a9-4c00-91a2-f2340a3a9bac
 	  collapsed:: true

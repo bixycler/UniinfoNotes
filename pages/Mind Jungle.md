@@ -3004,10 +3004,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6653538a-30aa-423f-be89-848ad9c7e331))
 			- ((67760c3e-2ed3-4b91-9698-8dea6913e419))
 			- ((66519638-cf5d-409b-9b98-15acabf2268c))
-		- ### TODO Master Plan
+		- ### TODO Mind Map
 		  id:: 67760c43-58c6-40eb-b874-40afae448966
 			-
-			- ((676e46bc-5c19-4e37-a301-e3b818d8cb1a))
 		-
 	- git
 	  collapsed:: true
