@@ -2997,15 +2997,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Japanese name: LÊ Harusada
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
-		- Documents
-			- ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
-			- ((6651e92e-fb34-4d24-a386-d9698c2e93f7))
-			- ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
-			- ((6653538a-30aa-423f-be89-848ad9c7e331))
-			- ((67760c3e-2ed3-4b91-9698-8dea6913e419))
-			- ((66519638-cf5d-409b-9b98-15acabf2268c))
 		- ### TODO Mind Map
 		  id:: 67760c43-58c6-40eb-b874-40afae448966
+			- Documents
+				- ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
+				- ((6651e92e-fb34-4d24-a386-d9698c2e93f7))
+				- ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
+				- ((6653538a-30aa-423f-be89-848ad9c7e331))
+				- ((67760c3e-2ed3-4b91-9698-8dea6913e419))
+				- ((66519638-cf5d-409b-9b98-15acabf2268c))
 			-
 		-
 	- git

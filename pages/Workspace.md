@@ -338,11 +338,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 											- → down to tasks, deep into in-context tasks
 											- → at break points (temporary break, task complete, new issue), return to braindumping
 											- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
-											- → updating Mind Map, update task priority (moving up/down the tak lists)
+											- → updat Mind Map, update task priority (moving up/down the tak lists), and update/add ((67764baf-0cda-464b-84fc-c11b4ebe5539))s
 											- → down to current (new) issue or task
 											- → continue...
-										- Structure of ⟨causes ⇒ action⟩ block in Braindumping
+										- ⟨causes ⇒ action⟩ block
+										  id:: 67764baf-0cda-464b-84fc-c11b4ebe5539
 										  collapsed:: true
+										   in Braindumping
 											- use `[⇒]` to mark the cause block of some action
 												- if it's a compound action, link to that action block
 												- for simple action, just write it in plain text after `[⇒]`
