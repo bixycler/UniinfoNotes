@@ -11,7 +11,7 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 	  CLOCK: [2024-06-03 Mon 01:18:40]--[2024-06-03 Mon 01:18:42] =>  00:00:02
 	  CLOCK: [2024-06-03 Mon 01:18:44]--[2024-06-03 Mon 01:18:45] =>  00:00:01
 	  :END:
-	- DONE Add ((6651adea-52dd-4aa8-9942-a75af9a6a23f)) with ((665373d3-8fd7-4963-9b72-a503e21e54e7)) ✅ 2024-05-21
+	- DONE Add ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) with ((665373d3-8fd7-4963-9b72-a503e21e54e7)) ✅ 2024-05-21
 	  collapsed:: true
 		- DONE Install theme for custom statuses ✅ 2024-05-21
 	- DONE Add themes & [[Theme Demo]] ✅ 2024-05-21
@@ -383,10 +383,10 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 			  CLOCK: [2025-01-02 Thu 10:52:53]
 			  CLOCK: [2025-01-02 Thu 10:54:09]--[2025-01-02 Thu 10:57:57] =>  00:03:48
 			  :END:
-		- DOING Refactor [[Task]]
+		- DONE Refactor [[Task]]
 		  id:: 67761163-a80d-4501-9c43-8bac6612c98d
 		  :LOGBOOK:
-		  CLOCK: [2025-01-02 Thu 11:10:09]
+		  CLOCK: [2025-01-02 Thu 11:10:09]--[2025-01-02 Thu 13:54:07] =>  02:43:58
 		  :END:
 			- DONE rename page & blocks: `History` → `Task`
 			  :LOGBOOK:
@@ -402,9 +402,14 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 11:11:54]--[2025-01-02 Thu 11:31:41] =>  00:19:47
 			  :END:
-			- DOING migrate the old list `Tasks` in ((66519638-cf5d-409b-9b98-15acabf2268c)) to ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
+			- DONE migrate the old list `Tasks` in ((66519638-cf5d-409b-9b98-15acabf2268c)) to ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
 			  :LOGBOOK:
-			  CLOCK: [2025-01-02 Thu 13:06:32]
+			  CLOCK: [2025-01-02 Thu 13:06:32]--[2025-01-02 Thu 13:49:52] =>  00:43:20
+			  :END:
+			- DONE add ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) to ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 13:51:18]
+			  CLOCK: [2025-01-02 Thu 13:51:20]--[2025-01-02 Thu 13:53:24] =>  00:02:04
 			  :END:
 		- DONE Add refs [((6653538a-30aa-423f-be89-848ad9c7e331)), ((67760c3e-2ed3-4b91-9698-8dea6913e419)), ((6651adea-e1ed-4884-93eb-5ebd6086b62b)), ((66b1bbf3-ac04-4d4c-a343-d75130323a7f)), ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((66519638-cf5d-409b-9b98-15acabf2268c))], and ((67760c43-58c6-40eb-b874-40afae448966)) to ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 		  :LOGBOOK:

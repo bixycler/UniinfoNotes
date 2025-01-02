@@ -110,20 +110,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  {{embed ((677630fe-ea99-436f-b39f-8bd2295e2eaf))}}
 		- <<End Workstack>>
 		  ---------------------
-	- ## Tasks
-	  id:: 6651adea-52dd-4aa8-9942-a75af9a6a23f
-		- ...
-		-
-		-
-		-
-		-
-		-
-		-
-		-
-		-
-		-
-		- <<End Tasks>>
-		  ---------------
 	- ## Problems
 	  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
 		- ...
@@ -322,7 +308,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- The task is usually placed in the context work with status `TODO`, `DOING`, `WAIT`, `IN-PROGRESS`, or `CANCELED`.
 								- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
 								- The plan is to the work as the table of contents is to the document.
-								- [?] How to move between ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), short-term plans, and ((6651adea-52dd-4aa8-9942-a75af9a6a23f))...
 								- Orders & flows
 									- Pagination: [[Task]], [[Stories]], [[Braindump]], [[Brainstorm]] are split by page per year.
 										- [[Brainstorm]]  is sorted in inverse chronological order.
