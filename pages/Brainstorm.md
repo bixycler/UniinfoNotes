@@ -9,6 +9,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- the next goes up
 		- some ideas here
 	- ## 2024 Brainstorms
+	  id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  collapsed:: true
 		- [pipe wrapping](((670cdcb4-3c85-45af-8c30-3c3284ed37df))) = signal piping = message conveyance
 		  id:: 676e46bc-5c19-4e37-a301-e3b818d8cb1a
@@ -1736,3 +1737,5 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- `Will.mind.conceptual.head` in programming =
 				- "Will' mind' conceptual' head" in natural language!
 		- ...
+- # Brainstorm History
+  id:: 67760db9-eb82-4ef9-9bd5-93b43049a755

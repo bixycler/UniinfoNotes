@@ -369,9 +369,18 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  CLOCK: [2024-12-31 Tue 20:46:16]
 		  CLOCK: [2024-12-31 Tue 20:46:18]
 		  :END:
-			- DOING resort to inverse chronological order
+			- DONE resort to inverse chronological order
 			  :LOGBOOK:
-			  CLOCK: [2024-12-31 Tue 20:47:06]
+			  CLOCK: [2024-12-31 Tue 20:47:06]--[2025-01-02 Thu 10:49:01] =>  38:01:55
+			  :END:
+			- DOING evict ((67760c45-14fe-4d91-88a0-923f50ed553c)) out to its own page [[2024 Brainstorms]]
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 10:51:07]
+			  CLOCK: [2025-01-02 Thu 10:51:28]
+			  :END:
+			- DOING
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 10:52:53]
 			  :END:
 	- DONE Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
 	  id:: 6772a6c7-bf00-405a-83f7-6fe7dd181cba
