@@ -334,10 +334,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 									- spatial: ((67760c43-58c6-40eb-b874-40afae448966)) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place = 0 = out
 									- temporal: ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
 									- deploy ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982)))
-										- Machines lack effect circle, don't know the "why", the root purpose.
-										- starting from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
-										- down to tasks, deep into in-context tasks
-										-
+										- start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
+										- → down to tasks, deep into in-context tasks
+										- → at break points (temporary break, task complete, new issue), return to braindumping
+										- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
+										- → updating Mind Map and go down to
+										- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+											- Machines lack effect circle, don't know the "why", the root purpose.
 				- The effort justification & sunk-cost fallacy
 				  collapsed:: true
 					- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
