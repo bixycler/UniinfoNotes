@@ -425,8 +425,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 												- Move WIPs from `WIPs` → `To be merged`
 										- ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place:
 											- ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
-										- Move from Brain{storm}ing → Year Brainstorm
-										- from Braindumping → Year Braindump in [[Braindump]]
+											- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
 									-
 								- Matter plan: spatial over temporal (like [urban planning](https://en.wikipedia.org/wiki/Urban_planning))
 									- the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> WIPs & brainstorming = 0 = out
