@@ -326,7 +326,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 												- ((67762e67-bcfc-403b-a314-44213523f905))
 											- ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
 												- ((67760c43-d4fb-43e3-ab23-16720723f800))
-								- Matter plan: spatial over temporal: ((67760c43-58c6-40eb-b874-40afae448966)) is like [urban planning](https://en.wikipedia.org/wiki/Urban_planning)
+								- DOING Matter plan: 
+								  :LOGBOOK:
+								  CLOCK: [2025-01-02 Thu 14:44:16]
+								  :END:
+									- spatial over temporal: ((67760c43-58c6-40eb-b874-40afae448966)) is like [urban planning](https://en.wikipedia.org/wiki/Urban_planning)
 									- the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> WIPs & brainstorming = 0 = out
 									- implement ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982))), starting from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
 										- Machines lack effect circle, don't know the "why", the root purpose.
