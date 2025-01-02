@@ -35,14 +35,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- expose
+		- Task list
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
 		  child-filter::
 		  search-scope:: Specific blocks: ;
 		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]];
-		  collapsed:: true
 		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
@@ -398,11 +397,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- The plan is to the work as the table of contents is to the document.
 								- [?] How to move between ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), short-term plans, and ((6651adea-52dd-4aa8-9942-a75af9a6a23f))...
 								- Orders & flows
-									- Pagination: [[History]], [[Stories]], [[Braindump]], [[Brainstorm]] are split by page per year.
+									- Pagination: [[Task]], [[Stories]], [[Braindump]], [[Brainstorm]] are split by page per year.
 										- [[Brainstorm]]  is sorted in inverse chronological order.
 										- Others are sorted in chronological order.
 									- No pagination: [[Mind Jungle]]
-									- [[History]] > Tasks[ past > current > future > deferred & backlog]
+									- [[Task]] > Tasks[ past > current > future > deferred & backlog]
 										- Move past tasks → history
 									- Year Brain{dump,storm}s < ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) (in
 									- ((6651adea-81d4-40a5-b96d-af6739e572eb)):

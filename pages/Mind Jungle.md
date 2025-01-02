@@ -3730,8 +3730,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- `71233eec`: move the block with id from Workspace to Mind Jungle
 										- `f95e1668`: add the block with id to Workspace
 										  2024/06/23
-								- Note: `History` was also moved from [[Workspace]] to [[History]] but does not have similar problem!?! Maybe because the old slot was at the last place of [[Workspace]] which was removed completely so that no other block could be mistaken as “the old block” .
-									- `1ae146f4`: move `History` from [[Workspace]] to [[History]]
+								- Note: `History` was also moved from [[Workspace]] to [[Task]] but does not have similar problem!?! Maybe because the old slot was at the last place of [[Workspace]] which was removed completely so that no other block could be mistaken as “the old block” .
+									- `1ae146f4`: move `History` from [[Workspace]] to [[Task]]
 									- `ea416165`: create `History` in [[Workspace]]
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~

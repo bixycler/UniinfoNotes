@@ -356,7 +356,7 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 	  :END:
 		- move ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) from [[Contents]] to ((66519638-cf5d-409b-9b98-15acabf2268c))
 		  id:: 67710af1-e3f0-4f94-917c-5235c210f082
-		- move ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) from ((66519638-cf5d-409b-9b98-15acabf2268c)) to [[History]]
+		- move ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) from ((66519638-cf5d-409b-9b98-15acabf2268c)) to [[Task]]
 		- refactor ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place into ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) so that they can be opened in the right side bar to work in parallel with other docs in the main edit pane.
 			- Previously, the "working place" was just anywhere in the ((6651adea-81d4-40a5-b96d-af6739e572eb)).
 		- Update ((66f7af1c-bb80-46ae-a896-10f31c113e84))
@@ -383,12 +383,17 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 			  CLOCK: [2025-01-02 Thu 10:52:53]
 			  CLOCK: [2025-01-02 Thu 10:54:09]--[2025-01-02 Thu 10:57:57] =>  00:03:48
 			  :END:
-		- DOING Refactor [[History]]
+		- DOING Refactor [[Task]]
 		  id:: 67761163-a80d-4501-9c43-8bac6612c98d
 		  :LOGBOOK:
 		  CLOCK: [2025-01-02 Thu 11:10:09]
 		  :END:
-			- DONE evict ((67761267-06ef-4f0d-876a-bd354b896681)) out to its own page [[2024 History]]
+			- DOING rename page & blocks: `History` → `Task`
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 12:58:19]--[2025-01-02 Thu 12:58:23] =>  00:00:04
+			  CLOCK: [2025-01-02 Thu 12:59:52]
+			  :END:
+			- DONE evict ((67761267-06ef-4f0d-876a-bd354b896681)) out to its own page [[2024 Tasks]]
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 11:11:35]--[2025-01-02 Thu 11:31:38] =>  00:20:03
 			  :END:
