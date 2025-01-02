@@ -1180,6 +1180,27 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		    ;:result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
 		  }
 		  #+END_QUERY
+		- Deadline warning
+		  collapsed:: true
+			- #+BEGIN_QUERY
+			  {:title ["List of Tasks"]
+			    :query [
+			      :find (pull ?block [*]) 
+			      :in $ ?start ?next 
+			      :where 
+			          (and [?block :block/deadline ?d] 
+			               [(< ?d ?next)])
+			    ]
+			    :result-transform 
+			          :add-task-attrs 
+			          (if (< ?d :today) 
+			              {:style :color "red"} 
+			              :default) 
+			  }
+			  #+END_QUERY
+			- #+BEGIN_WARNING
+			  BACK TO WORK!
+			  #+END_WARNING
 		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
 		  collapsed:: true
 		- collapsed:: true
