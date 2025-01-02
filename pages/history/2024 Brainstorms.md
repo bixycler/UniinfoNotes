@@ -1182,15 +1182,34 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		  #+END_QUERY
 		- Deadline warning
 		  collapsed:: true
+			- Source code
+				- ```clojure
+				  #+BEGIN_QUERY
+				  {:title ["Deadline warning"]
+				    ;:inputs [:today]
+				    :query [
+				      :find (pull ?b [*]) 
+				      :in $ ;?start ?next 
+				      :where 
+				          [?b :block/deadline ?d] 
+				    ] ; end query[]
+				    :result-transform 
+				          :add-task-attrs 
+				          (if (< ?d :today) 
+				              {:style :color "red"} 
+				              :default) 
+				  }
+				  #+END_QUERY
+				  ```
 			- #+BEGIN_QUERY
-			  {:title ["List of Tasks"]
+			  {:title ["Deadline warning"]
+			    ;:inputs [:today]
 			    :query [
-			      :find (pull ?block [*]) 
-			      :in $ ?start ?next 
+			      :find (pull ?b [*]) 
+			      :in $ ;?start ?next 
 			      :where 
-			          (and [?block :block/deadline ?d] 
-			               [(< ?d ?next)])
-			    ]
+			          [?b :block/deadline ?d] 
+			    ] ; end query[]
 			    :result-transform 
 			          :add-task-attrs 
 			          (if (< ?d :today) 
