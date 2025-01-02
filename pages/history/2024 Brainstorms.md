@@ -1207,11 +1207,12 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			          [?b :block/deadline ?d] 
 			    ] ; end query[]
 			    ;:result-transform 
-			    :group-by-page? false ;
-			    ;:breadcrumb-show? true ;
-			    :collapsed? false ;
 			  }
 			  #+END_QUERY
+			- [:i {:style "background-color:orange; color:red"} "BACK TO WORK!"]
+			- ```clojure
+			  [:div {:style "background-color:#003366"} (escape-html rest)]
+			  ```
 			- #+BEGIN_WARNING
 			  BACK TO WORK!
 			  #+END_WARNING

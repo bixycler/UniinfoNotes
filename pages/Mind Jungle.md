@@ -4191,7 +4191,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- `:group-by-page?` (default `true`)
 						  group blocks into pages in ((6772a6cd-7efb-4dca-878a-0382cf92503b))
 						- `:breadcrumb-show?` (default `true`)
-						  group blocks into pages in ((6772a6cd-7efb-4dca-878a-0382cf92503b))
+						  show breadcrumb of the parent block in ((6772a6cd-7efb-4dca-878a-0382cf92503b))
+						- `:collapsed?` (default `false`)
+						  collapse the whole ((6772a6cd-7efb-4dca-878a-0382cf92503b)) into the query title only
 						- `:remove-block-children?` (default `true`)
 						  id:: 676e7e9f-492c-4932-9ebe-8241b76c22e2
 						  removes any result block being child of another result, effectively reduce the result count.
