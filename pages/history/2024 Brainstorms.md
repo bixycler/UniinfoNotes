@@ -1194,13 +1194,11 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          [?b :block/deadline ?d] 
 				    ] ; end query[]
 				    ;:result-transform 
-				    :group-by-page? false ;
-				    
 				  }
 				  #+END_QUERY
 				  ```
 			- #+BEGIN_QUERY
-			  {:title [:h3 "Deadline warning"]
+			  {:title ["Deadline warning"]
 			    ;:inputs [:today]
 			    :query [
 			      :find (pull ?b [*]) 
@@ -1208,8 +1206,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      :where 
 			          [?b :block/deadline ?d] 
 			    ] ; end query[]
-			    :result-transform 
-			     
+			    ;:result-transform 
+			    :group-by-page? false ;
+			    ;:breadcrumb-show? true ;
+			    :collapsed? false ;
 			  }
 			  #+END_QUERY
 			- #+BEGIN_WARNING
@@ -1262,7 +1262,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 							- To disable a filter, instead of removing that filter, we can use *contradiction patterns* like `$^` or `(nothing)^` as a placeholder.
 								- Note: Don't set both `filter:: (nothing)^` and `child-filter:: (nothing)^` because it makes the search domain empty!
 			- id:: 66f6b7c0-d8af-4d48-9b98-e82f314449d5
-			  search-scope-page:: [[Mind Jungle]], texts and block refs are **ignored**, [[Task]]
+			  search-scope-page:: [[Mind Jungle]], texts and block refs are **ignored**, [[2024 Tasks]]
 			  search-scope:: ((6653538a-30aa-423f-be89-848ad9c7e331)), ((66519638-cf5d-409b-9b98-15acabf2268c))
 			  collapsed:: true
 				- Note: other refs outside of `search-scope::`, e.g. ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)), are not taken into account.
