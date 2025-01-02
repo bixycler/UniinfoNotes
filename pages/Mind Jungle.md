@@ -3345,15 +3345,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- But interlinked works are complicated:
 						- Either we must copy the whole closure of linked works
 						- Or we must prune "unnecessary" links.
-				- [!] Timestamp in Logseq
-				  collapsed:: true
-					- just `Ctrl` `Enter` and copy from `:LOGBOOK:`, e.g. CLOCK: [2025-01-02 Thu 18:34:53]
-					  :LOGBOOK:
-					  CLOCK: [2025-01-02 Thu 18:34:53]
-					  CLOCK: [2025-01-02 Thu 18:35:56]
-					  :END:
-					- ref: [Displaying block timestamps](https://discuss.logseq.com/t/displaying-block-timestamps/24594)
-					- Dynamic variable `<% today %>`: {{query <% today %> }}
 				- [!] Time is always gone too fast! :(
 				  id:: 66600918-315b-4f6c-970b-3039ac8ef912
 				- <<End Problems>>
@@ -4136,13 +4127,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [Breadcrumb bar should contain the target item](https://discuss.logseq.com/t/breadcrumb-navigation-bar-should-contain-the-target-item/27511) as the last non-link element.
 				- Breadcrumb bar should contain ((66626356-0ad9-4219-9b33-8ab7c6cd0508)) instead of full length items.
 				- Sticky breadcrumbs [via CSS](https://discuss.logseq.com/t/have-the-page-title-or-block-breadcrumbs-as-an-always-visible-overlay-at-the-top-of-the-screen-when-scrolling-down/20617/5).
-			- Task management
+			- Task management & timestamp
 			  collapsed:: true
 				- ((66600918-740c-4b67-be6e-5b3bd7535fb7))
 				- A task with status `DOING` will be time tracked in `:LOGBOOK:`.
 				  id:: 66b1cfa4-0f03-4da2-b34b-d995d3c888b0
 					- Switching to `DOING` (clicking `marker-switch` button) marks the start time, then switching to `TODO` (clicking `marker-switch` button) or `DONE` (clicking checkbox) marks the end time.
 					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext. I defined ((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))
+				- Block timestamp
+					- Just [`Alt` `Enter`](((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))) and copy from `:LOGBOOK:`, e.g. CLOCK: [2025-01-02 Thu 18:34:53]
+					  :LOGBOOK:
+					  CLOCK: [2025-01-02 Thu 18:34:53]
+					  CLOCK: [2025-01-02 Thu 18:35:56]
+					  CLOCK: [2025-01-02 Thu 18:44:46]--[2025-01-02 Thu 18:44:46] =>  00:00:00
+					  :END:
+					- ref: [Displaying block timestamps](https://discuss.logseq.com/t/displaying-block-timestamps/24594)
+					- Dynamic variable `<% today %>`: {{query <% today %> }}
 			- [DataScript](https://github.com/tonsky/datascript) Query
 			  id:: 66acc24c-4cd7-4568-8c47-79798fc09433
 			  collapsed:: true
@@ -5029,6 +5029,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  #+END_PINNED
 			- Slash(`/`) command
 			  id:: 66ff445c-0f50-4d56-b24e-5533e1dfa322
+			  collapsed:: true
+				- All user-defined ((66ff4478-6eae-4633-b7be-fd42e2bcda5b))s are also available with slash `/` systax.
 			- Block cloning [template](https://docs.logseq.com/#/page/templates)
 			  collapsed:: true
 				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.

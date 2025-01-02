@@ -31,4 +31,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- [?] why a strong urge to design it no matter how unclear it is?
 		- any block (task, issue, quesion) should start in context
 			- then it will be moved out when it's grown big
+		- look into the Problems & Questions in Mind Map, i want to sort and clean them up!
 		- ...
