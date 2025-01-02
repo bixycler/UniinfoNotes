@@ -347,12 +347,12 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 		  CLOCK: [2024-12-27 Fri 18:23:01]--[2024-12-28 Sat 23:51:39] =>  29:28:38
 		  :END:
 		- Create backlink-based ((676e5861-1220-40e4-9546-e319e17df1aa)).
-	- DOING Refractor [[Workspace]]
+	- DONE Refractor [[Workspace]]
 	  id:: 67710747-2982-4134-875e-3b715313db87
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-12-29 Sun 15:24:43]--[2024-12-29 Sun 15:54:52] =>  00:30:09
-	  CLOCK: [2024-12-31 Tue 20:16:59]
+	  CLOCK: [2024-12-31 Tue 20:16:59]--[2025-01-02 Thu 19:11:24] =>  46:54:25
 	  :END:
 		- move ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) from [[Contents]] to ((66519638-cf5d-409b-9b98-15acabf2268c))
 		  id:: 67710af1-e3f0-4f94-917c-5235c210f082
@@ -373,7 +373,7 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 			  CLOCK: [2025-01-02 Thu 12:58:19]--[2025-01-02 Thu 12:58:23] =>  00:00:04
 			  CLOCK: [2025-01-02 Thu 12:59:52]--[2025-01-02 Thu 13:06:13] =>  00:06:21
 			  :END:
-			- DONE evict ((67761267-06ef-4f0d-876a-bd354b896681)) out to its own page [[2024 Tasks]]
+			- DONE move ((67761267-06ef-4f0d-876a-bd354b896681)) out to its own page [[2024 Tasks]]
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 11:11:35]--[2025-01-02 Thu 11:31:38] =>  00:20:03
 			  :END:
@@ -401,7 +401,7 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 			  :LOGBOOK:
 			  CLOCK: [2024-12-31 Tue 20:47:06]--[2025-01-02 Thu 10:49:01] =>  38:01:55
 			  :END:
-			- DONE evict ((67760c45-14fe-4d91-88a0-923f50ed553c)) out to its own page [[2024 Brainstorms]]
+			- DONE move ((67760c45-14fe-4d91-88a0-923f50ed553c)) out to its own page [[2024 Brainstorms]]
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 10:51:07]
 			  CLOCK: [2025-01-02 Thu 10:51:28]--[2025-01-02 Thu 11:06:16] =>  00:14:48
@@ -416,7 +416,7 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 		  :LOGBOOK:
 		  CLOCK: [2025-01-02 Thu 13:58:21]--[2025-01-02 Thu 14:10:51] =>  00:12:30
 		  :END:
-			- DONE evict ((67763a23-89ff-48dc-a3f4-df432c6810c2)) out to its own page [[2024 Stories]]
+			- DONE move ((67763a23-89ff-48dc-a3f4-df432c6810c2)) out to its own page [[2024 Stories]]
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 13:58:59]--[2025-01-02 Thu 14:06:41] =>  00:07:42
 			  :END:
