@@ -2936,7 +2936,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2024-12-29 Sun 22:23:50]
 		  :END:
-			- This is the master plan...
+			- This contains all global (context-free) tasks, as well as links of in-context tasks.
 			-
 		- ### Workflow
 			- New works will be carried out from the ((6653538a-22d3-4807-ad13-a64ac543edba)), whose statuses are tracked in [`WIPs` and `To be merged`](((67714f65-8591-43ed-8af6-6aa8b9e101e0))), and their bodies should be placed in document storages like ((665c82c0-ee06-4f43-95b8-73dbbe956080)), ((6653538a-30aa-423f-be89-848ad9c7e331)), etc. Old works from document storages may be continued to be worked with by linking them back to the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)).

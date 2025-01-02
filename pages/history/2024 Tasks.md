@@ -388,10 +388,10 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 		  :LOGBOOK:
 		  CLOCK: [2025-01-02 Thu 11:10:09]
 		  :END:
-			- DOING rename page & blocks: `History` → `Task`
+			- DONE rename page & blocks: `History` → `Task`
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 12:58:19]--[2025-01-02 Thu 12:58:23] =>  00:00:04
-			  CLOCK: [2025-01-02 Thu 12:59:52]
+			  CLOCK: [2025-01-02 Thu 12:59:52]--[2025-01-02 Thu 13:06:13] =>  00:06:21
 			  :END:
 			- DONE evict ((67761267-06ef-4f0d-876a-bd354b896681)) out to its own page [[2024 Tasks]]
 			  :LOGBOOK:
@@ -401,6 +401,10 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 			  id:: 3b56e032-dcbb-4a51-8937-8bc8db2a85cc
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 11:11:54]--[2025-01-02 Thu 11:31:41] =>  00:19:47
+			  :END:
+			- DOING migrate the old list `Tasks` in ((66519638-cf5d-409b-9b98-15acabf2268c)) to ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 13:06:32]
 			  :END:
 		- DONE Add refs [((6653538a-30aa-423f-be89-848ad9c7e331)), ((67760c3e-2ed3-4b91-9698-8dea6913e419)), ((6651adea-e1ed-4884-93eb-5ebd6086b62b)), ((66b1bbf3-ac04-4d4c-a343-d75130323a7f)), ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((66519638-cf5d-409b-9b98-15acabf2268c))], and ((67760c43-58c6-40eb-b874-40afae448966)) to ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 		  :LOGBOOK:

@@ -42,6 +42,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  child-filter::
 		  search-scope:: Specific blocks: ;
 		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]];
+		  collapsed:: true
 		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
@@ -401,9 +402,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 										- [[Brainstorm]]  is sorted in inverse chronological order.
 										- Others are sorted in chronological order.
 									- No pagination: [[Mind Jungle]]
-									- [[Task]] > Tasks[ past > current > future > deferred & backlog]
-										- Move past tasks → history
-									- Year Brain{dump,storm}s < ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) (in
+									- Year Tasks > Tasks[ past > current > future > deferred & backlog]
+										- Move past tasks → Year Tasks
+									- Year Braindumps < ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
+									  ((db954501-95d0-46e2-b1fc-39b6a966300e))
+										- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
 									- ((6651adea-81d4-40a5-b96d-af6739e572eb)):
 										- ((67139355-ac72-4e4c-b882-00bb3a3ea144)):
 											- ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) > ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
