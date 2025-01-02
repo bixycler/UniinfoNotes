@@ -412,13 +412,20 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- The plan is to the work as the table of contents is to the document.
 								- [?] How to move between ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), short-term plans, and ((6651adea-52dd-4aa8-9942-a75af9a6a23f))...
 								- Orders & flows
-									- Pagination: [[History]], [[Braindump]], [[Stories]], [[Brainstorm]] are split by page per year and sorted in chronological order.
+									- Pagination: [[History]], [[Stories]], [[Braindump]], [[Brainstorm]] are split by page per year.
 										- [[Brainstorm]]  is sorted in inverse chronological order.
-									- No pagination: [[Mind Jungle]], [[Brainstorm]]
+										- Others are sorted in chronological order.
+									- No pagination: [[Mind Jungle]]
 									- [[History]] > Tasks[ past > current > future > deferred & backlog]
 										- Move past tasks → history
-									- Year Brainstorms < ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) (in ((6651adea-81d4-40a5-b96d-af6739e572eb)), after ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) < ((67164cc1-e500-4889-9b6d-12d8dd7fc029)))
-										- Move from Brainstorming → Year Brainstorm, from WIPs → To be merged
+									- Year Brain{dump,storm}s < ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) (in
+									- ((6651adea-81d4-40a5-b96d-af6739e572eb)):
+										- ((67139355-ac72-4e4c-b882-00bb3a3ea144)):
+											- ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) > ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
+												- Move WIPs from `WIPs` → `To be merged`
+										- ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place:
+											- ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
+										- Move from Brain{storm}ing → Year Brainstorm
 										- from Braindumping → Year Braindump in [[Braindump]]
 									-
 								- Matter plan: spatial over temporal (like [urban planning](https://en.wikipedia.org/wiki/Urban_planning))

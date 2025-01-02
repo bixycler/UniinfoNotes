@@ -357,7 +357,7 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 		- move ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) from [[Contents]] to ((66519638-cf5d-409b-9b98-15acabf2268c))
 		  id:: 67710af1-e3f0-4f94-917c-5235c210f082
 		- move ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) from ((66519638-cf5d-409b-9b98-15acabf2268c)) to [[History]]
-		- refactor ((6772a6c7-e051-465a-adee-b6c86e7d36ed)) place into ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) so that they can be opened in the right side bar to work in parallel with other docs in the main edit pane.
+		- refactor ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place into ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) so that they can be opened in the right side bar to work in parallel with other docs in the main edit pane.
 			- Previously, the "working place" was just anywhere in the ((6651adea-81d4-40a5-b96d-af6739e572eb)).
 		- Update ((66f7af1c-bb80-46ae-a896-10f31c113e84))
 			- Add missing ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
