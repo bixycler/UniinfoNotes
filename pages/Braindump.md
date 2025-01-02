@@ -22,5 +22,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- [!] the right sidebar now is very lagging
 		- i've just got a walk outside, wandering around
 		- currently, there are 2 ends about the Mind Map
-			-
+			- forward end: the urge to design it properly
+			- backward end: some questions arised and should be placed into the Mind Map itself
+				- [?] why is the central Mind Map required?
+				- [?] why a strong urge to design it no matter how unclear it is?
+		-
 		- ...
