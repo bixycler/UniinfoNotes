@@ -9,7 +9,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- the next goes up
 		- some ideas here
 	- ## 2025 Brainstorms
-	  collapsed:: true
 		- <<End 2025 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
