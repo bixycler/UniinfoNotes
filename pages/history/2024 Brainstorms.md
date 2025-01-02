@@ -1186,7 +1186,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- ```clojure
 				  #+BEGIN_QUERY
 				  {:title ["Deadline warning"]
-				    ;:inputs [:today]
+				    :inputs [
+				      [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 ?task
+				             ]
 				    :query [
 				      :find (pull ?b [*]) 
 				      :in $ ;?start ?next 
@@ -1204,17 +1206,17 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      :find (pull ?b [*]) 
 			      :in $ ;?start ?next 
 			      :where 
-			          [?b :block/deadline ?d] 
+			          [?b :block/scheduled ?d] 
 			    ] ; end query[]
 			    ;:result-transform 
 			  }
 			  #+END_QUERY
-			- [:b {:style "background-color:Orange; color:FireBrick"} "BACK TO WORK!"]
+			- [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
 			- ```clojure
-			  [:div {:style "background-color:#003366"} (escape-html rest)]
+			  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
 			  ```
 			- #+BEGIN_WARNING
-			  BACK TO WORK!
+			  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
 			  #+END_WARNING
 		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
 		  collapsed:: true
