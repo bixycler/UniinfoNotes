@@ -1193,16 +1193,14 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				      :where 
 				          [?b :block/deadline ?d] 
 				    ] ; end query[]
-				    :result-transform 
-				          :add-task-attrs 
-				          (if (< ?d :today) 
-				              {:style :color "red"} 
-				              :default) 
+				    ;:result-transform 
+				    :group-by-page? false ;
+				    
 				  }
 				  #+END_QUERY
 				  ```
 			- #+BEGIN_QUERY
-			  {:title ["Deadline warning"]
+			  {:title [:h3 "Deadline warning"]
 			    ;:inputs [:today]
 			    :query [
 			      :find (pull ?b [*]) 
@@ -1211,10 +1209,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			          [?b :block/deadline ?d] 
 			    ] ; end query[]
 			    :result-transform 
-			          :add-task-attrs 
-			          (if (< ?d :today) 
-			              {:style :color "red"} 
-			              :default) 
+			     
 			  }
 			  #+END_QUERY
 			- #+BEGIN_WARNING
