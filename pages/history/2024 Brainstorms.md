@@ -1209,7 +1209,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			    ;:result-transform 
 			  }
 			  #+END_QUERY
-			- [:i {:style "background-color:orange; color:red"} "BACK TO WORK!"]
+			- [:b {:style "background-color:Orange; color:FireBrick"} "BACK TO WORK!"]
 			- ```clojure
 			  [:div {:style "background-color:#003366"} (escape-html rest)]
 			  ```

@@ -5486,7 +5486,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM)
 			- [Templates and slots](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots)
 		- ### CSS
-			-
+			- [HTML Color Names](https://htmlcolorcodes.com/color-names/)
 	- ## HTTP
 	  id:: 6714ee7d-d83b-4f42-af22-badb410d4a58
 	  collapsed:: true
