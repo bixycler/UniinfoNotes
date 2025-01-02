@@ -341,8 +341,14 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 											- → updating Mind Map, update task priority (moving up/down the tak lists)
 											- → down to current (new) issue or task
 											- → continue...
-										- Structure of ⟨action ⇐ causes⟩ in Braindumping
+										- Structure of ⟨causes ⇒ action⟩ block in Braindumping
+										  collapsed:: true
 											- use `[⇒]` to mark the cause block of some action
+												- if it's a compound action, link to that action block
+												- for simple action, just write it in plain text after `[⇒]`
+												- it's better to display the causes above the ⟨`[⇒]` action⟩, just like backlinks
+													- but that's not supported in Logseq now
+												- the ⟨causes ⇒ action⟩ block should be read in reverse order in the current format: causes are sub-blocks of action.
 											- [⇒] ((67764c9e-2cb1-4e0b-a318-9e14dade130d))
 												- cause 1
 												- cause 2
