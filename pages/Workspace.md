@@ -335,10 +335,21 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 									- temporal: ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
 									- deploy ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982)))
 										- start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
-										- → down to tasks, deep into in-context tasks
-										- → at break points (temporary break, task complete, new issue), return to braindumping
-										- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
-										- → updating Mind Map and go down to
+											- → down to tasks, deep into in-context tasks
+											- → at break points (temporary break, task complete, new issue), return to braindumping
+											- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
+											- → updating Mind Map, update task priority (moving up/down the tak lists)
+											- → down to current (new) issue or task
+											- → continue...
+										- Structure of ⟨action ⇐ causes⟩ in Braindumping
+											- use `[⇒]` to mark the cause block of some action
+											- [⇒] ((67764c9e-2cb1-4e0b-a318-9e14dade130d))
+												- cause 1
+												- cause 2
+											- do something
+											  id:: 67764c9e-2cb1-4e0b-a318-9e14dade130d
+												- task 1
+												- task 2
 										- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 											- Machines lack effect circle, don't know the "why", the root purpose.
 				- The effort justification & sunk-cost fallacy
