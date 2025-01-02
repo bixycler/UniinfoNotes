@@ -5,7 +5,9 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 	  id:: 6776152d-99a1-4368-884d-84a15e04329c
 	  collapsed:: true
 		- ((67761267-06ef-4f0d-876a-bd354b896681))
+		- ((677614c4-ea7d-47c0-89ee-afbacceb56e9))
 	- ## 2025 Tasks
+	  id:: 677614c4-ea7d-47c0-89ee-afbacceb56e9
 	  collapsed:: true
 		-
 	- ## Current Tasks

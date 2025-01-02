@@ -363,26 +363,6 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 			- Add missing ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 			- Move ((66949495-3846-4f89-9ea5-c62b624d282c)) to [[Linux]]
 			  id:: 6772a6cb-1dee-402a-bee2-d41337e74eb6
-		- DONE Refactor [[Brainstorm]]
-		  id:: 6773f59b-066f-41dc-9c87-6214278bca03
-		  :LOGBOOK:
-		  CLOCK: [2024-12-31 Tue 20:46:16]
-		  CLOCK: [2024-12-31 Tue 20:46:18]--[2025-01-02 Thu 11:07:10] =>  38:20:52
-		  :END:
-			- DONE resort to inverse chronological order
-			  :LOGBOOK:
-			  CLOCK: [2024-12-31 Tue 20:47:06]--[2025-01-02 Thu 10:49:01] =>  38:01:55
-			  :END:
-			- DONE evict ((67760c45-14fe-4d91-88a0-923f50ed553c)) out to its own page [[2024 Brainstorms]]
-			  :LOGBOOK:
-			  CLOCK: [2025-01-02 Thu 10:51:07]
-			  CLOCK: [2025-01-02 Thu 10:51:28]--[2025-01-02 Thu 11:06:16] =>  00:14:48
-			  :END:
-			- DONE collect old brainstorms into ((67760db9-eb82-4ef9-9bd5-93b43049a755))
-			  :LOGBOOK:
-			  CLOCK: [2025-01-02 Thu 10:52:53]
-			  CLOCK: [2025-01-02 Thu 10:54:09]--[2025-01-02 Thu 10:57:57] =>  00:03:48
-			  :END:
 		- DONE Refactor [[Task]]
 		  id:: 67761163-a80d-4501-9c43-8bac6612c98d
 		  :LOGBOOK:
@@ -410,6 +390,38 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 13:51:18]
 			  CLOCK: [2025-01-02 Thu 13:51:20]--[2025-01-02 Thu 13:53:24] =>  00:02:04
+			  :END:
+		- DONE Refactor [[Brainstorm]]
+		  id:: 6773f59b-066f-41dc-9c87-6214278bca03
+		  :LOGBOOK:
+		  CLOCK: [2024-12-31 Tue 20:46:16]
+		  CLOCK: [2024-12-31 Tue 20:46:18]--[2025-01-02 Thu 11:07:10] =>  38:20:52
+		  :END:
+			- DONE resort to inverse chronological order
+			  :LOGBOOK:
+			  CLOCK: [2024-12-31 Tue 20:47:06]--[2025-01-02 Thu 10:49:01] =>  38:01:55
+			  :END:
+			- DONE evict ((67760c45-14fe-4d91-88a0-923f50ed553c)) out to its own page [[2024 Brainstorms]]
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 10:51:07]
+			  CLOCK: [2025-01-02 Thu 10:51:28]--[2025-01-02 Thu 11:06:16] =>  00:14:48
+			  :END:
+			- DONE collect old brainstorms into ((67760db9-eb82-4ef9-9bd5-93b43049a755))
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 10:52:53]
+			  CLOCK: [2025-01-02 Thu 10:54:09]--[2025-01-02 Thu 10:57:57] =>  00:03:48
+			  :END:
+		- DOING Refactor [[Story]]
+		  :LOGBOOK:
+		  CLOCK: [2025-01-02 Thu 13:58:21]
+		  :END:
+			- DOING evict ((67763a23-89ff-48dc-a3f4-df432c6810c2)) out to its own page [[2024 Stories]]
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 13:58:59]
+			  :END:
+			- DOING collect old brainstorms into ((677639ad-7699-4170-a2e3-111a71823794))
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 13:59:17]
 			  :END:
 		- DONE Add refs [((6653538a-30aa-423f-be89-848ad9c7e331)), ((67760c3e-2ed3-4b91-9698-8dea6913e419)), ((6651adea-e1ed-4884-93eb-5ebd6086b62b)), ((66b1bbf3-ac04-4d4c-a343-d75130323a7f)), ((6651e92e-fb34-4d24-a386-d9698c2e93f7)), ((66519638-cf5d-409b-9b98-15acabf2268c))], and ((67760c43-58c6-40eb-b874-40afae448966)) to ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 		  :LOGBOOK:

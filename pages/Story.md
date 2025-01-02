@@ -1,5 +1,14 @@
-# Stories
+# Story
 id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
+	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the life story of ((66536578-c4d3-43f1-b35c-bf71120f0570)).
+	- ## Story History
+	  id:: 677639ad-7699-4170-a2e3-111a71823794
+		- ((67763a23-89ff-48dc-a3f4-df432c6810c2))
+		- ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	- ## 2025 Stories
+	  id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
+	- ## 2024 Stories
+	  id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 	- [comment on fb](https://www.facebook.com/lexuandinhct/posts/pfbid0RDW7MQ2pzM9LwkP9BhobJCvSiqSY5CVUfURow2xrpYwRHyN4BR4R6ir1zvj4voJ8l?comment_id=4698845016799415&reply_comment_id=856971509813387) about "the fate of a little prostitute" 
 	  id:: 668d0827-7ff2-468c-b62c-3f1d072119ac
 	  collapsed:: true
@@ -1390,6 +1399,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  ...
 	- Let's complete the knowledge circle
 	  id:: 6773d7f2-be44-43f0-b4f0-31d910b12982
+	  collapsed:: true
 		- [Knowledge circle](https://www.facebook.com/share/p/ELxP71XMikbJGPPK/)
 		- [Vòng tròn tri thức](https://www.facebook.com/share/p/3brw3UhstMGzAYsC/)
 		- ![KnowledgeCircle.jpg](../assets/Will/story/2023-Dec/KnowledgeCircle.jpg)

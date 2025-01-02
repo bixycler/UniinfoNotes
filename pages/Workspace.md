@@ -43,7 +43,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  search-scope:: Specific blocks: ;
 		  search-scope-page:: Main docs: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]];
 		  collapsed:: true
-		  Extended: [[Brainstorm]], [[Workspace]], [[Stories]]
+		  Extended: [[Brainstorm]], [[Workspace]], [[Story]]
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
@@ -309,7 +309,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 								- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
 								- The plan is to the work as the table of contents is to the document.
 								- Orders & flows
-									- Pagination: [[Task]], [[Stories]], [[Braindump]], [[Brainstorm]] are split by page per year.
+									- Pagination: [[Task]], [[Story]], [[Braindump]], [[Brainstorm]] are split by page per year.
 										- [[Brainstorm]]  is sorted in inverse chronological order.
 										- Others are sorted in chronological order.
 									- No pagination: [[Mind Jungle]]

@@ -9,8 +9,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- the next goes up
 		- some ideas here
 	- ## 2025 Brainstorms
+	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- <<End 2025 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
 	  id:: 67760db9-eb82-4ef9-9bd5-93b43049a755
+		- ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 		- ((67760c45-14fe-4d91-88a0-923f50ed553c))
