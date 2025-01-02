@@ -3230,6 +3230,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 													- ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
 														- ((67760c43-d4fb-43e3-ab23-16720723f800))
 										- DOING Matter plan: 
+										  id:: 67760c43-5cbd-4b4f-8fd9-5cedf804f56a
 										  :LOGBOOK:
 										  CLOCK: [2025-01-02 Thu 14:44:16]
 										  :END:
