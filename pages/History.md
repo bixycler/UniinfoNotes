@@ -1,5 +1,7 @@
-## History
+# History
 id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
+- ## 2024 History
+  id:: 67761267-06ef-4f0d-876a-bd354b896681
 	- DONE Import [[Unïnfo Theory]] from ((66536662-052f-46a4-a624-38858bffb334)) with ((665376f4-9335-4d38-843f-a4cf6ef6cd10)) ✅ 2024-05-18
 	  id:: 66600918-db5b-43cb-9ce2-c88487b817a3
 	- DONE Sync PC with mobile via GitHub & ((6653743f-8847-4b24-8c21-795c87254eb2)) ✅ 2024-05-19
@@ -382,6 +384,19 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 10:52:53]
 			  CLOCK: [2025-01-02 Thu 10:54:09]--[2025-01-02 Thu 10:57:57] =>  00:03:48
+			  :END:
+		- DOING Refactor [[History]]
+		  id:: 67761163-a80d-4501-9c43-8bac6612c98d
+		  :LOGBOOK:
+		  CLOCK: [2025-01-02 Thu 11:10:09]
+		  :END:
+			- DOING evict ((67761267-06ef-4f0d-876a-bd354b896681)) out to its own page [[2024 History]]
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 11:11:35]
+			  :END:
+			- DOING collect old brainstorms into ((67760db9-eb82-4ef9-9bd5-93b43049a755))
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 11:11:54]
 			  :END:
 	- DONE Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
 	  id:: 6772a6c7-bf00-405a-83f7-6fe7dd181cba
