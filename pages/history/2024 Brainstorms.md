@@ -1187,13 +1187,18 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				  #+BEGIN_QUERY
 				  {:title ["Deadline warning"]
 				    :inputs [
-				      [:block/uuid #uuid "66f6b7c0-d8af-4d48-9b98-e82f314449d5"]  ; $3 ?task
-				             ]
+				      [:block/uuid #uuid "67768438-13eb-43f7-abdd-2759d9b7f616"]  ; $3 ?task
+				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $3 ?warning
+				    ]
 				    :query [
 				      :find (pull ?b [*]) 
-				      :in $ ;?start ?next 
+				      :in $ ?task ?warning
 				      :where 
-				          [?b :block/deadline ?d] 
+				          [?task :block/scheduled ?d] 
+				          (or
+				              (and [(<= ?d :today)] [(identity ?warning) ?b])
+				              (and [(> ?d :today)] [(identity ?task) ?b])
+				          )
 				    ] ; end query[]
 				    ;:result-transform 
 				  }
@@ -1201,23 +1206,32 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				  ```
 			- #+BEGIN_QUERY
 			  {:title ["Deadline warning"]
-			    ;:inputs [:today]
+			    :inputs [
+			      [:block/uuid #uuid "67768438-13eb-43f7-abdd-2759d9b7f616"]  ; $3 ?task
+			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $3 ?warning
+			    ]
 			    :query [
 			      :find (pull ?b [*]) 
-			      :in $ ;?start ?next 
+			      :in $ ?task ?warning
 			      :where 
-			          [?b :block/scheduled ?d] 
+			          [?task :block/scheduled ?d] 
+			          (or
+			              (and [(<= ?d :today)] [(identity ?warning) ?b])
+			              (and [(> ?d :today)] [(identity ?task) ?b])
+			          )
 			    ] ; end query[]
 			    ;:result-transform 
 			  }
 			  #+END_QUERY
-			- [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
-			- ```clojure
-			  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
-			  ```
-			- #+BEGIN_WARNING
+			- id:: 6776890b-c9a4-4ba9-8cf0-ac8d78d76a14
+			  collapsed:: true
+			  #+BEGIN_WARNING
 			  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
 			  #+END_WARNING
+				- [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
+					- ```clojure
+					  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
+					  ```
 		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
 		  collapsed:: true
 		- collapsed:: true

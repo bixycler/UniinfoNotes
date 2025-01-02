@@ -37,8 +37,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- [?] why a strong urge to design it no matter how unclear it is?
 		- [?] a recurrent task as a reminder for
 			- DOING Get back to COMPANY WORK!
+			  SCHEDULED: <2025-01-03 Fri 19:21 .+1h>
 			  id:: 67768438-13eb-43f7-abdd-2759d9b7f616
-			  SCHEDULED: <2025-01-01 Wed 19:21 .+1h>
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 20:41:49]--[2025-01-02 Thu 20:41:55] =>  00:00:06
 			  CLOCK: [2025-01-02 Thu 20:41:58]
