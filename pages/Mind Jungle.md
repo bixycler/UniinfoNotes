@@ -3236,15 +3236,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- spatial versus temporal, like [urban planning](https://en.wikipedia.org/wiki/Urban_planning)
 											- spatial: ((67760c43-58c6-40eb-b874-40afae448966)) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place = 0 = out
 											- temporal: ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
-											- deploy ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982)))
+											- design ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982)))
 												- start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
 													- → down to tasks, deep into in-context tasks
 													- → at break points (temporary break, task complete, new issue), return to braindumping
 													- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
-													- → updat Mind Map, update task priority (moving up/down the tak lists), and update/add ((67764baf-0cda-464b-84fc-c11b4ebe5539))s
+													- → update Mind Map, update task priority (moving up/down the tak lists), and update/add ((67764baf-0cda-464b-84fc-c11b4ebe5539))s
 													- → down to current (new) issue or task
 													- → continue...
-												- ⟨causes ⇒ action⟩ block
+												- The root of all issues and all effect flows is the problems and questions in the Mind Map.
+													- Question is a special kind of problem: ⟪ [?] what is this? ⟫ = ⟪ [!] this knowledge is missing! ⟫
+													-
+												- ⟪causes ⇒ action⟫ block
 												  id:: 67764baf-0cda-464b-84fc-c11b4ebe5539
 												  collapsed:: true
 												   in Braindumping
