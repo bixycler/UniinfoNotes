@@ -428,6 +428,12 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 		  :LOGBOOK:
 		  CLOCK: [2025-01-02 Thu 11:22:16]--[2025-01-02 Thu 12:39:45] =>  01:17:29
 		  :END:
+		- DONE Move ((6651adea-46e0-40ea-8fc4-3ef394068b0f)) & ((6651adea-f2f6-4c9e-80b4-ece0bb5038fb)) to ((67760c43-58c6-40eb-b874-40afae448966))
+		  :LOGBOOK:
+		  CLOCK: [2025-01-02 Thu 15:51:34]
+		  CLOCK: [2025-01-02 Thu 15:51:36]--[2025-01-02 Thu 15:52:08] =>  00:00:32
+		  :END:
+			- Embed them back to Workspace
 	- DONE Relink ((66fe86b8-f17e-4b3f-b27f-213b3500146f)); Share [[Linux]]
 	  id:: 6772a6c7-bf00-405a-83f7-6fe7dd181cba
 	  collapsed:: true
