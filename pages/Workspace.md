@@ -90,10 +90,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- ((67711d1f-39a7-42c5-83ac-641d0b838e87))
 				- ((6772a6c7-bf00-405a-83f7-6fe7dd181cba))
 				- ((6773ba79-d2a7-442d-be3d-f679f91eda41))
+				- ((6773f59b-066f-41dc-9c87-6214278bca03))
 			- #### WIPs
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+			  collapsed:: true
 				- ...
-				- ((6773f59b-066f-41dc-9c87-6214278bca03))
 				- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 					- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 					- ((67715d03-9dbc-42b0-8589-064396a9c52b))
@@ -105,6 +106,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
 		  {{embed ((db954501-95d0-46e2-b1fc-39b6a966300e))}}
 		  {{embed ((6773eb97-ec58-4c48-a017-cd0de2d82e08))}}
+		  {{embed ((67164c57-8f45-46eb-92a9-f00b02dccfc9))}}
 		  {{embed ((677630fe-ea99-436f-b39f-8bd2295e2eaf))}}
 		- <<End Workstack>>
 		  ---------------------
@@ -312,6 +314,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 							- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
 							- DOING Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
 							  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
+							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2024-12-29 Sun 21:32:09]
 							  :END:
@@ -325,8 +328,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 										- [[Brainstorm]]  is sorted in inverse chronological order.
 										- Others are sorted in chronological order.
 									- No pagination: [[Mind Jungle]]
-									- Year Tasks > Tasks[ current > future > deferred & backlog]
-										- Move past tasks → Year Tasks
+									- Year Tasks = past tasks> Tasks[ current > future > deferred & backlog]
+										- Move current tasks done, i.e. past tasks → Year Tasks
 									- Year Braindumps > ((db954501-95d0-46e2-b1fc-39b6a966300e)) 
 									  ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) > Year Brainstorms
 										- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
