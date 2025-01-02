@@ -35,5 +35,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- backward end: some questions arised and should be placed into the Mind Map itself
 				- [?] why is the central Mind Map required?
 				- [?] why a strong urge to design it no matter how unclear it is?
-		-
+		- [?] a recurrent task as a reminder for
+			- TODO Get back to COMPANY WORK!
+			  DEADLINE: <2025-01-01 Wed 19:21 .+1h>
 		- ...
