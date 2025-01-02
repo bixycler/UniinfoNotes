@@ -3242,7 +3242,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 													- → down to tasks, deep into in-context tasks
 													- → at break points (temporary break, task complete, new issue), return to braindumping
 													- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
-													- → update Mind Map, update task priority (moving up/down the tak lists), and update/add ((67764baf-0cda-464b-84fc-c11b4ebe5539))s
+													- → re-evalutate the current task
+														- re-evaluate the workload and relation to other tasks to update the task in Task list
+															- update task priority (moving up/down the tak lists), and update/add ((67764baf-0cda-464b-84fc-c11b4ebe5539))s
+														- ask "why" to return up to the Mind Map
+															- most of the time, this will be just another instance of a problem/question already in the Mind Map, so just link back to it.
+														- → update Mind Map,
 													- → down to current (new) issue or task
 													- → continue...
 												- The root of all issues and all effect flows is the problems and questions in the Mind Map.

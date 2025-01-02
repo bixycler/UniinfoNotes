@@ -19,8 +19,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-01-02 Thu 16:14:37]
 		  :END:
 			- its roots are the problems and questions
-			- re-evalutate the current task
-				- ask "why" to
 		- [!] the right sidebar now is very lagging
 		- i've just got a walk outside, wandering around
+		- currently, there are 2 ends about the Mind Map
+			-
 		- ...
