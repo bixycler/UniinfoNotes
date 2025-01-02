@@ -3246,7 +3246,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 													- → continue...
 												- The root of all issues and all effect flows is the problems and questions in the Mind Map.
 													- Question is a special kind of problem: ⟪ [?] what is this? ⟫ = ⟪ [!] this knowledge is missing! ⟫
-													-
+													- Effect circle: from problem → requirement → task → check result agaist requirement → update requirement (and problem) until the problem is (re)solved.
 												- ⟪causes ⇒ action⟫ block
 												  id:: 67764baf-0cda-464b-84fc-c11b4ebe5539
 												  collapsed:: true
