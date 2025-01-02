@@ -397,7 +397,7 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 			  :LOGBOOK:
 			  CLOCK: [2025-01-02 Thu 11:11:54]--[2025-01-02 Thu 11:31:41] =>  00:19:47
 			  :END:
-		- DOING Add refs, ((6653538a-30aa-423f-be89-848ad9c7e331)), ((6651adea-e1ed-4884-93eb-5ebd6086b62b)), to ((66536578-c4d3-43f1-b35c-bf71120f0570)).
+		- DOING Add refs, ((6653538a-30aa-423f-be89-848ad9c7e331)), ((6651adea-e1ed-4884-93eb-5ebd6086b62b)), and ((67760c43-58c6-40eb-b874-40afae448966)) to ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 		  :LOGBOOK:
 		  CLOCK: [2025-01-02 Thu 11:22:16]
 		  :END:
