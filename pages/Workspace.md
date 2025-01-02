@@ -105,6 +105,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
 		  {{embed ((db954501-95d0-46e2-b1fc-39b6a966300e))}}
 		  {{embed ((6773eb97-ec58-4c48-a017-cd0de2d82e08))}}
+		  {{embed ((677630fe-ea99-436f-b39f-8bd2295e2eaf))}}
 		- <<End Workstack>>
 		  ---------------------
 	- ## Tasks
@@ -112,90 +113,13 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- ...
 		-
 		-
-		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
-		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
-		-
-		- DOING symbols for ((66c8941d-6427-4e5c-9009-3af349500d7b))
-		  :LOGBOOK:
-		  CLOCK: [2024-08-23 Fri 12:16:21]
-		  CLOCK: [2024-08-23 Fri 12:16:24]
-		  :END:
-		- DOING view, projection, effect flow via wave propagation across a ((66c810a0-9861-4787-bdcf-1378219332be))
-		  :LOGBOOK:
-		  CLOCK: [2024-08-23 Fri 12:16:32]
-		  CLOCK: [2024-08-23 Fri 12:16:43]
-		  :END:
-		-
-		- ((669f3107-a33a-4b26-a636-6da62fa5520e))
-			- ((669f243f-41b7-4274-b954-9824ec3ac33b))
 		-
 		-
-		- ((667d202e-f401-46ba-ab32-c4fd77b49ab1))
-			- WAIT Add to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) various types of [extending dimensions](((667d202e-f401-46ba-ab32-c4fd77b49ab1))).
-			  :LOGBOOK:
-			  CLOCK: [2024-06-28 Fri 08:11:13]
-			  :END:
-		-
-		- WAIT ((66536e1b-6466-4153-90d6-583003d99a81)): Write a script to convert headless block ref to `[](((uuid)) "block content")` and a plugin to copy block ref in that format.
-		  id:: 667d2479-487a-49ab-949f-722eb47a16ef
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2024-06-27 Thu 15:36:19]
-		  :END:
-			- Use [`[](ref "title")` syntax](https://www.markdownguide.org/basic-syntax/#adding-titles "add a title to a link")
-			  id:: 66ac8222-836c-40b1-9f26-fc94c69f9f8e
-			  collapsed:: true
-				- Label-less block link syntax `[](((uuid)))` keeps rendering the block content as is (the same as `((uuid))`), like this: [](((66ac8222-836c-40b1-9f26-fc94c69f9f8e))).
-				  collapsed:: true
-					- Whereas putting block content into link label will make it not rendered properly, like this: [Use [`[](ref "title")` syntax](https://www.markdownguide.org/basic-syntax/#adding-titles "add a title to a link")](((66ac8222-836c-40b1-9f26-fc94c69f9f8e))).
-					  id:: 66ac85cb-b5ee-4b6b-8ab1-82f90200be26
-					  collapsed:: true
-						- The rule of "first line as title" will also not applied.
-					- Note that label-less external link shows nothing, like this "[](https://www.markdownguide.org/basic-syntax/#adding-titles)", and label-less block link without double parenthesis shows `Untitled`, like this [](66ac8222-836c-40b1-9f26-fc94c69f9f8e "hidden title").
-				- The `title` is not shown, unlike in [external link](https://www.markdownguide.org/basic-syntax/#adding-titles "add a title to a link").
-			- Plugin `Copy Block Link`
-			  collapsed:: true
-				- Copy to clipboard: [`await navigator.clipboard.writeText(textContent)`](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText).
-				- Context menu `Copy block link`
-					- [`logseq.Editor.registerBlockContextMenuItem()`](https://plugins-doc.logseq.com/logseq/Editor/registerBlockContextMenuItem)
-					- Ref: [Block Shallow Copy (`logseq-shallow-copy`)](https://github.com/MateuszMyalski/logseq-plugin-shallow-copy)
-				- ((66536710-7441-4fb8-986b-50d2eec762d7)) `Ctrl Shift C`
-					- [`logseq.App.registerCommand{,Palette,Shortcut}()`](https://plugins-doc.logseq.com/logseq/App/registerCommand)
-					- Ref: [Custom Workflow (`logseq-custom-workflows`)](https://github.com/sawhney17/logseq-custom-workflow-plugin)
-			- Related plugins:
-			  collapsed:: true
-				- ((66ac509d-cc10-4b99-9a70-a27bed316a3a))
-			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			  collapsed:: true
-				- This also solves the current bug/issue that ((667d263b-658b-4560-b8cc-f6838534956d))
-				- The issue of back-propagation of edit of block content to its refs:
-					- Should it be automatized? It should be done manually, because the block content used in refs depends on these refs' contexts.
-				- [Future-proof block references in Logseq](https://99rabbits.com/future-proof-block-references-in-logseq/) > ((66ac8222-836c-40b1-9f26-fc94c69f9f8e)) as [suggested by AlessandroLongo](https://www.reddit.com/r/logseq/comments/15x0qsv/comment/jx49poz/)
-				- [Block reference to allow ((page-name#block-ref-name)) not just UUID](https://discuss.logseq.com/t/block-reference-to-allow-page-name-block-ref-name-not-just-uuid/2746)
-			- ((94649b98-9711-4adf-ae25-aaf32b521c14))
-		- TODO Backup & republish my contents on Facebook
-		  collapsed:: true
-			- Some of the fb posts have been migrated to the blog [CreatZy Notes](https://creatzynotes.blogspot.com/).
-			- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) Trigger: i had a hard time finding back [my post about catenary curve](https://www.facebook.com/share/p/9LfU1A6Mmxo2KTH3/).
 		-
 		-
-		- query-table:: false
-		  id:: 67110d13-b91a-4ebb-959b-9db4d2f6d61d
-		  collapsed:: true
-		  #+BEGIN_QUERY
-		  {:title [:h3 "Other Tasks"]
-		    :query [ 
-		    :find (pull ?b [*])
-		    :where
-		      [?b :block/marker ?m]
-		      (not [(contains? #{"DONE" "CANCELLED" "CANCELED"} ?m)] )
-		      [?b :block/page ?p]
-		      [?p :block/original-name ?pn]
-		      (not [(contains? #{"Workspace"  "Theme Demo"} ?pn)] )
-		    ] ; end query
-		    :result-transform (fn [r] (map (fn [m] (assoc m :block/collapsed? true)) r))
-		  }
-		  #+END_QUERY
+		-
+		-
+		-
 		- <<End Tasks>>
 		  ---------------
 	- ## Problems
@@ -401,7 +325,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 										- [[Brainstorm]]  is sorted in inverse chronological order.
 										- Others are sorted in chronological order.
 									- No pagination: [[Mind Jungle]]
-									- Year Tasks > Tasks[ past > current > future > deferred & backlog]
+									- Year Tasks > Tasks[ current > future > deferred & backlog]
 										- Move past tasks → Year Tasks
 									- Year Braindumps > ((db954501-95d0-46e2-b1fc-39b6a966300e)) 
 									  ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) > Year Brainstorms
