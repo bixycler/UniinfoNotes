@@ -1196,7 +1196,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				      :where 
 				          [?task :block/scheduled ?d] 
 				          (or
-				              (and [(<= ?d :today)] [(identity ?warning) ?b])
+				              (and [(< ?d :today)] [(identity ?warning) ?b])
 				              (and [(> ?d :today)] [(identity ?task) ?b])
 				          )
 				    ] ; end query[]
@@ -1215,10 +1215,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      :in $ ?task ?warning
 			      :where 
 			          [?task :block/scheduled ?d] 
-			          (or
-			              (and [(<= ?d :today)] [(identity ?warning) ?b])
-			              (and [(> ?d :today)] [(identity ?task) ?b])
-			          )
+			          ;(or
+			              [(< ?d :today)] [(identity ?warning) ?b]
+			              ;(and [(> ?d :today)] [(identity ?task) ?b])
+			          ;)
 			    ] ; end query[]
 			    ;:result-transform 
 			  }
