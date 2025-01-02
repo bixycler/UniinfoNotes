@@ -12,8 +12,12 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		-
 	- ## Current Tasks
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
-		- ((67715d03-9dbc-42b0-8589-064396a9c52b))
 		- ((67710747-2982-4134-875e-3b715313db87))
+		- ((67714850-43c0-4c7f-8b50-838e014b06e0))
+			- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
+			- ((67715d03-9dbc-42b0-8589-064396a9c52b))
+				- Here i'm planning for the task of designing master plan! 😉
+			- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7))
 		- ...
 	- ## Future Tasks
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))

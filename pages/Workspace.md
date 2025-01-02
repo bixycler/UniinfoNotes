@@ -96,11 +96,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 			  collapsed:: true
 				- ...
-				- ((67714850-43c0-4c7f-8b50-838e014b06e0))
-					- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
-					- ((67715d03-9dbc-42b0-8589-064396a9c52b))
-						- Here i'm planning for the task of designing master plan! 😉
-					- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7))
+				- ((67710747-2982-4134-875e-3b715313db87))
 			- <<End Tracks>>
 			  ---------------
 		- ### Working
