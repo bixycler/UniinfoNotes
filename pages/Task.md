@@ -17,7 +17,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 			- ((67715d03-9dbc-42b0-8589-064396a9c52b))
 				- Here i'm planning for the task of designing master plan! 😉
-			- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7))
+			- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
 		- TODO Add ((66533703-505d-432d-8368-6058eefb45f6)) to [[logseq/config.edn]] commands
 		- ...
 	- ## Future Tasks

@@ -7,9 +7,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## 2025 Braindumps
 	  id:: 67760c3e-10a7-4621-8623-383f44bdaf3c
 	  collapsed:: true
-		-
-	- ## Braindumping
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- this [refactoring](((67710747-2982-4134-875e-3b715313db87))) itself is more complicated than i thought!
 		- just take a break, breathe, review...
 		- i must close i eyes...
@@ -24,15 +21,18 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- in a silent space, i could zoom out deep into the mind to see meta-info
 			- [!] the braindumping texts didn't show the overall image!!
 				- for an overview, the most thing can be done with text is to fold them up... that's why i still use folding blocks in Braindumping.
-		- currently, there are 2 ends about the Mind Map, closing the effect circle
-			- forward end: the urge to design it properly
-			- backward end: some questions arised and should be placed into the Mind Map itself
-				- [?] why is the central Mind Map required?
-				- [?] why a strong urge to design it no matter how unclear it is?
 		- any block (task, issue, quesion) should start in context
 			- then it will be moved out when it's grown big
 		- look into the Problems & Questions in Mind Map, i want to sort and clean them up!
 			- luckily, they are not to much!
 		- How should the braindumps be flushed?
 			- some things should be retained!
+			- the old braindumps should be reviewed and restructured before being flushed
+	- ## Braindumping
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- currently, there are 2 ends about the Mind Map, closing the effect circle
+			- forward end: the urge to design it properly
+			- backward end: some questions arised and should be placed into the Mind Map itself
+				- [?] why is the central Mind Map required?
+				- [?] why a strong urge to design it no matter how unclear it is?
 		- ...
