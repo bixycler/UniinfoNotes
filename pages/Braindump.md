@@ -51,5 +51,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- custom property
 				  DEADLINE:: <2025-01-04 Sat 10:04>
 				- just missing a way to convert this property from/to `time-ms`
-		- 10:32
+				- `/Current time` = 10:32
 		- ...
