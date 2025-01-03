@@ -1185,8 +1185,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		  collapsed:: true
 			- Get back to COMPANY WORK!
 			  id:: 677752b3-f8c6-4493-8334-610f04855ffa
-			  DEADLINE:: 20:04
-			  SCHEDULED: <2025-01-04 Sat 19:21 .+1h>
+			  SCHEDULED:: <2025-01-03 Fri 19:21>
+			  DEADLINE:: <2025-01-03 Fri 10:21>
+			  SCHEDULED: <2025-01-03 Fri 19:21>
+			  DEADLINE: <2025-01-03 Fri 10:21>
 			- id:: 6776890b-c9a4-4ba9-8cf0-ac8d78d76a14
 			  collapsed:: true
 			  #+BEGIN_WARNING
@@ -1212,7 +1214,11 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				      :find (pull ?b [*]) ; ?today ?now
 				      :in $ ?today ?today-ms ?now-ms ?task ?warning
 				      :where 
+				          ; get ?scheduled & ?deadline time
+				          ;[?task :block/scheduled ?scheduled] 
+				          ;[?task :block/deadline ?deadline] 
 				          [?task :block/properties ?props]
+				          [(get ?props :deadline false) ?scheduled]
 				          [(get ?props :deadline false) ?deadline]
 				            
 				          ; convert time within today to HH:mm:ss 
@@ -1226,7 +1232,6 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          [(str ?hour ":" ?minute ":" ?second) ?time]
 				            
 				          ; switch block to show
-				          [?task :block/scheduled ?d] 
 				          (or
 				              (and [(<= ?deadline ?time)] [(identity ?warning) ?b])
 				              (and [(> ?deadline ?time)] [(identity ?task) ?b])
