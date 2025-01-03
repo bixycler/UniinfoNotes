@@ -1188,17 +1188,18 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				  {:title ["Deadline warning"]
 				    :inputs [
 				      :today ; ?today
+				      :right-now-ms ; ?now
 				      [:block/uuid #uuid "67768438-13eb-43f7-abdd-2759d9b7f616"]  ; $3 ?task
 				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $3 ?warning
 				    ]
 				    :query [
-				      :find (pull ?b [*]) 
-				      :in $ ?task ?warning
+				      :find (pull ?b [*]) ; ?today ?now
+				      :in $ ?today ?now ?task ?warning
 				      :where 
 				          [?task :block/scheduled ?d] 
 				          (or
-				              (and [(< ?d :today)] [(identity ?warning) ?b])
-				              (and [(> ?d :today)] [(identity ?task) ?b])
+				              (and [(<= ?d ?today)] [(identity ?warning) ?b])
+				              (and [(> ?d ?today)] [(identity ?task) ?b])
 				          )
 				    ] ; end query[]
 				    ;:result-transform 
@@ -1208,16 +1209,20 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- #+BEGIN_QUERY
 			  {:title ["Deadline warning"]
 			    :inputs [
-			      :right-now-ms ; ?today
+			      :today ; ?today
+			      :right-now-ms ; ?now
 			      [:block/uuid #uuid "67768438-13eb-43f7-abdd-2759d9b7f616"]  ; $3 ?task
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $3 ?warning
 			    ]
 			    :query [
-			      :find ?today ?d (pull ?b [*]) 
-			      :in $ ?today ?task ?warning
+			      :find (pull ?b [*]) ; ?today ?now
+			      :in $ ?today ?now ?task ?warning
 			      :where 
 			          [?task :block/scheduled ?d] 
-			          [(< ?d ?today)] [(identity ?task) ?b]
+			          (or
+			              (and [(<= ?d ?today)] [(identity ?warning) ?b])
+			              (and [(> ?d ?today)] [(identity ?task) ?b])
+			          )
 			    ] ; end query[]
 			    ;:result-transform 
 			  }
