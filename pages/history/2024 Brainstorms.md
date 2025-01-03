@@ -1203,8 +1203,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				    :inputs [
 				      :today ; ?today
 				      :right-now-ms ; ?now
-				      [:block/uuid #uuid "677752b3-f8c6-4493-8334-610f04855ffa"]  ; $3 ?task
-				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $3 ?warning
+				      [:block/uuid #uuid "677752b3-f8c6-4493-8334-610f04855ffa"]  ; $1 ?task
+				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 				    ]
 				    :query [
 				      :find (pull ?b [*]) ; ?today ?now
@@ -1215,6 +1215,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				              (and [(<= ?d ?today)] [(identity ?warning) ?b])
 				              (and [(> ?d ?today)] [(identity ?task) ?b])
 				          )
+				          [(?now )]
 				    ] ; end query[]
 				    :breadcrumb-show? false
 				    :group-by-page? false
