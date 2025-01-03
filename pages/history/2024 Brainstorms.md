@@ -1216,7 +1216,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				              (and [(<= ?d ?today)] [(identity ?warning) ?b])
 				              (and [(> ?d ?today)] [(identity ?task) ?b])
 				          )
-				          [(/ ?now 1000) ?secs]
+				          ; convert time-ms to dd-MM-yyyy HH:mm:ss
+				          [(quot ?now 1000) ?secs]
 				          [(mod ?secs 60) ?sec]
 				    ] ; end query[]
 				    :breadcrumb-show? false
@@ -1235,7 +1236,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 			    ]
 			    :query [
-			      :find ?now ?sec (pull ?b [*]) ; ?today ?now
+			      :find ?now ?secs ?sec (pull ?b [*]) ; ?today ?now
 			      :in $ ?today ?now ?task ?warning
 			      :where 
 			          [?task :block/scheduled ?d] 
@@ -1243,7 +1244,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			              (and [(<= ?d ?today)] [(identity ?warning) ?b])
 			              (and [(> ?d ?today)] [(identity ?task) ?b])
 			          )
-			          [(/ ?now 1000) ?secs]
+			          [(quot ?now 1000) ?secs]
 			          [(mod ?secs 60) ?sec]
 			    ] ; end query[]
 			    :breadcrumb-show? false
