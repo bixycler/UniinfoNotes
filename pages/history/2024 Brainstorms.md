@@ -1211,14 +1211,11 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $3 ?warning
 			    ]
 			    :query [
-			      :find (pull ?b [*]) 
+			      :find ?d ;(pull ?b [*]) 
 			      :in $ ?task ?warning
 			      :where 
 			          [?task :block/scheduled ?d] 
-			          ;(or
-			              [(< ?d :today)] [(identity ?warning) ?b]
-			              ;(and [(> ?d :today)] [(identity ?task) ?b])
-			          ;)
+			          [(< ?d :today)] [(identity ?warning) ?b]
 			    ] ; end query[]
 			    ;:result-transform 
 			  }

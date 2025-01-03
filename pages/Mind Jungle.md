@@ -4136,11 +4136,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext. I defined ((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))
 				- Block timestamp
 					- Just [`Alt` `Enter`](((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))) and copy from `:LOGBOOK:`, e.g. CLOCK: [2025-01-02 Thu 18:34:53]
+					  DEADLINE: <2025-01-03 Fri 8:21>
 					  :LOGBOOK:
 					  CLOCK: [2025-01-02 Thu 18:34:53]
 					  CLOCK: [2025-01-02 Thu 18:35:56]
 					  CLOCK: [2025-01-02 Thu 18:44:46]--[2025-01-02 Thu 18:44:46] =>  00:00:00
 					  :END:
+					  or use command `/Deadline` or `/Scheduled` to pick date/time then copy it, e.g. <2025-01-03 Fri 8:21>
 					- ref: [Displaying block timestamps](https://discuss.logseq.com/t/displaying-block-timestamps/24594)
 					- Dynamic variable `<% today %>`: {{query <% today %> }}
 			- [DataScript](https://github.com/tonsky/datascript) Query
