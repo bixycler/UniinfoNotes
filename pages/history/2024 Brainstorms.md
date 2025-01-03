@@ -1187,6 +1187,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				  #+BEGIN_QUERY
 				  {:title ["Deadline warning"]
 				    :inputs [
+				      :today ; ?today
 				      [:block/uuid #uuid "67768438-13eb-43f7-abdd-2759d9b7f616"]  ; $3 ?task
 				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $3 ?warning
 				    ]
@@ -1207,15 +1208,16 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- #+BEGIN_QUERY
 			  {:title ["Deadline warning"]
 			    :inputs [
+			      :today-HHMMSS ; ?today
 			      [:block/uuid #uuid "67768438-13eb-43f7-abdd-2759d9b7f616"]  ; $3 ?task
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $3 ?warning
 			    ]
 			    :query [
-			      :find ?d ;(pull ?b [*]) 
-			      :in $ ?task ?warning
+			      :find ?today ?d ;(pull ?b [*]) 
+			      :in $ ?today ?task ?warning
 			      :where 
 			          [?task :block/scheduled ?d] 
-			          [(< ?d :today)] [(identity ?warning) ?b]
+			          [(< ?d ?today)] [(identity ?warning) ?b]
 			    ] ; end query[]
 			    ;:result-transform 
 			  }
