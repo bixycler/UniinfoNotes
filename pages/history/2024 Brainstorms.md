@@ -1242,6 +1242,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					- ```clojure
 					  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
 					  ```
+			- However, there's no way to get deadline time. I've proposed to [add `:block/scheduled-ms` and `:block/deadline-ms`](https://discuss.logseq.com/t/add-data-attributes-for-querying-scheduled-time-e-g-block-scheduled-ms-and-block-deadline-ms).
+				- The [done time plugin](https://github.com/mjs/logseq-done-time) add  property `done-ms`
 		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
 		  collapsed:: true
 		- collapsed:: true
