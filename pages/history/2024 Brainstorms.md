@@ -1216,7 +1216,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				              (and [(<= ?d ?today)] [(identity ?warning) ?b])
 				              (and [(> ?d ?today)] [(identity ?task) ?b])
 				          )
-				          ; convert time-ms to dd-MM-yyyy HH:mm:ss
+				          ; convert dd-MM-yyyy HH:mm:ss to epoch time (seconds)
 				          [(quot ?now 1000) ?secs]
 				          [(mod ?secs 60) ?sec]
 				    ] ; end query[]
