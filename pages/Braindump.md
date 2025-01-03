@@ -28,14 +28,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- How should the braindumps be flushed?
 			- some things should be retained!
 			- the old braindumps should be reviewed and restructured before being flushed
-	- ## Braindumping
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- currently, there are 2 ends about the Mind Map, closing the effect circle
 			- forward end: the urge to design it properly
 			- backward end: some questions arised and should be placed into the Mind Map itself
 				- [?] why is the central Mind Map required?
 				- [?] why a strong urge to design it no matter how unclear it is?
+	- ## Braindumping
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] a recurrent task as a reminder
+		  collapsed:: true
 			- Get back to COMPANY WORK!
 			  id:: 67768438-13eb-43f7-abdd-2759d9b7f616
 			  DEADLINE:: <2025-01-04 Sat 10:04>
@@ -47,9 +48,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  CLOCK: [2025-01-03 Fri 09:21:08]
 			  :END:
 			- ((677750e2-4074-40d7-8fba-50122aa29c58))
-			- [!] even at this dead end, i still have a strong urge to penetrate it... e.g. with custom property and somehow to convert between HHMMSS to `time-ms` 😕
+			- [!] even at this dead end, i still have a strong urge to penetrate it... e.g. with custom property and somehow to convert between HHMMSS and `time-ms` 😕
 				- custom property
 				  DEADLINE:: <2025-01-04 Sat 10:04>
 				- just missing a way to convert this property from/to `time-ms`
 				- `/Current time` = 10:32
+			- TODO use both: `scheduled::` for warning (yellow), and `deadline::` for error (red)
+		- DOING Get back to company work, now 13:11
+		  id:: 67777f4e-49a9-4537-86da-be69f87918a7
+		  :LOGBOOK:
+		  CLOCK: [2025-01-03 Fri 13:14:16]
+		  :END:
 		- ...

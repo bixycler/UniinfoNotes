@@ -1254,7 +1254,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 			    ]
 			    :query [
-			      :find (pull ?b [*]) ; ?today ?now
+			      :find ?today (pull ?b [*]) ; ?today ?now
 			      :in $ ?today ?today-ms ?now-ms ?task ?warning
 			      :where 
 			          [?task :block/properties ?props]
