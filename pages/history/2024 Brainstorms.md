@@ -1202,6 +1202,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				              (and [(> ?d ?today)] [(identity ?task) ?b])
 				          )
 				    ] ; end query[]
+				    :breadcrumb-show? false
+				    :group-by-page? false
+				    :collapsed? false ; always collapse, must open it to see updated result
 				    ;:result-transform 
 				  }
 				  #+END_QUERY
@@ -1224,6 +1227,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			              (and [(> ?d ?today)] [(identity ?task) ?b])
 			          )
 			    ] ; end query[]
+			    :breadcrumb-show? false
+			    :group-by-page? false
+			    :collapsed? false ; always collapse, must open it to see updated result
 			    ;:result-transform 
 			  }
 			  #+END_QUERY
