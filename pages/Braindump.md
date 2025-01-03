@@ -47,5 +47,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  CLOCK: [2025-01-03 Fri 09:21:08]
 			  :END:
 			- ((677750e2-4074-40d7-8fba-50122aa29c58))
-		-
+			- [!] even at this dead end, i still have a strong urge to penetrate it... e.g. with custom property and somehow to convert between HHMMSS to `time-ms` 😕
+				- custom property
+				  DEADLINE:: <2025-01-04 Sat 10:04>
+				- just missing a way to convert this property from/to `time-ms`
 		- ...

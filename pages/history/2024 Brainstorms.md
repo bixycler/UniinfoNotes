@@ -1197,7 +1197,6 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
 					  ```
 			- Source code
-			  collapsed:: true
 				- ```clojure
 				  #+BEGIN_QUERY
 				  {:title ["Deadline warning"]
