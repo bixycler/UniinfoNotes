@@ -1181,15 +1181,30 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		  }
 		  #+END_QUERY
 		- Deadline warning
+		  id:: 677689e6-7163-4e94-ab65-18d3f51e3eb9
 		  collapsed:: true
+			- Get back to COMPANY WORK!
+			  id:: 677752b3-f8c6-4493-8334-610f04855ffa
+			  DEADLINE:: <2025-01-04 Sat 10:04>
+			  SCHEDULED: <2025-01-04 Sat 19:21 .+1h>
+			- id:: 6776890b-c9a4-4ba9-8cf0-ac8d78d76a14
+			  collapsed:: true
+			  #+BEGIN_WARNING
+			  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
+			  #+END_WARNING
+				- [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
+					- ```clojure
+					  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
+					  ```
 			- Source code
+			  collapsed:: true
 				- ```clojure
 				  #+BEGIN_QUERY
 				  {:title ["Deadline warning"]
 				    :inputs [
 				      :today ; ?today
 				      :right-now-ms ; ?now
-				      [:block/uuid #uuid "67768438-13eb-43f7-abdd-2759d9b7f616"]  ; $3 ?task
+				      [:block/uuid #uuid "677752b3-f8c6-4493-8334-610f04855ffa"]  ; $3 ?task
 				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $3 ?warning
 				    ]
 				    :query [
@@ -1214,7 +1229,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			    :inputs [
 			      :today ; ?today
 			      :right-now-ms ; ?now
-			      [:block/uuid #uuid "67768438-13eb-43f7-abdd-2759d9b7f616"]  ; $3 ?task
+			      [:block/uuid #uuid "677752b3-f8c6-4493-8334-610f04855ffa"]  ; $3 ?task
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $3 ?warning
 			    ]
 			    :query [
@@ -1233,17 +1248,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			    ;:result-transform 
 			  }
 			  #+END_QUERY
-			- id:: 6776890b-c9a4-4ba9-8cf0-ac8d78d76a14
-			  collapsed:: true
-			  #+BEGIN_WARNING
-			  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
-			  #+END_WARNING
-				- [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
-					- ```clojure
-					  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
-					  ```
 			- However, there's no way to get deadline time. I've proposed to [add `:block/scheduled-ms` and `:block/deadline-ms`](https://discuss.logseq.com/t/add-data-attributes-for-querying-scheduled-time-e-g-block-scheduled-ms-and-block-deadline-ms).
-				- The [done time plugin](https://github.com/mjs/logseq-done-time) add  property `done-ms`
+			  id:: 677750e2-4074-40d7-8fba-50122aa29c58
+				- The [done time plugin](https://github.com/mjs/logseq-done-time) adds property `done-ms` = **now**. This cannot be used to schedule ahead of time.
 		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
 		  collapsed:: true
 		- collapsed:: true
