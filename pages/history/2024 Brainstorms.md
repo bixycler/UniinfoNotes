@@ -1211,7 +1211,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 				    ]
 				    :query [
-				      :find ?today ?syear ?time (pull ?b [*]) ; ?today ?now
+				      :find ?date ?time ?scheduled-date-time (pull ?b [*]) ; ?today ?now
 				      :in $ ?today ?today-ms ?now-ms ?task ?warning %
 				      :where 
 				          ; get ?scheduled & ?deadline time
@@ -1244,9 +1244,24 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          [(str ?shour ":" ?sminute ":" ?ssecond) ?time]
 				          ;
 				          ; convert ?today to yyyy:MM:dd 
-				          [(re-pattern "^....") ?pat-year]
-				          [(str ?today) ?stoday]
-				          [(re-find ?pat-year ?stoday) ?syear]
+				          [(mod ?today 100) ?day]
+				          (or
+				              (and [(< ?day 10)] [(str "0" ?day) ?sday])
+				              (and [(>= ?day 10)] [(identity ?day) ?sday])
+				          )
+				          [(quot ?today 100) ?dm]
+				          [(mod ?dm 100) ?month]
+				          (or
+				              (and [(< ?month 10)] [(str "0" ?month) ?smonth])
+				              (and [(>= ?month 10)] [(identity ?month) ?smonth])
+				          )
+				          [(quot ?dm 100) ?dy]
+				          [(mod ?dy 100) ?year]
+				          [(str ?year "-" ?smonth "-" ?sday) ?date]
+				          ;
+				          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled
+				          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
+				          [(re-seq ?pat-date-wd-time ?scheduled) ?scheduled-date-time]
 				          ;
 				          ; switch block to show
 				          (or
@@ -1277,7 +1292,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 			    ]
 			    :query [
-			      :find ?today ?syear ?time (pull ?b [*]) ; ?today ?now
+			      :find ?date ?time ?scheduled-date-time (pull ?b [*]) ; ?today ?now
 			      :in $ ?today ?today-ms ?now-ms ?task ?warning %
 			      :where 
 			          ; get ?scheduled & ?deadline time
@@ -1310,9 +1325,24 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			          [(str ?shour ":" ?sminute ":" ?ssecond) ?time]
 			          ;
 			          ; convert ?today to yyyy:MM:dd 
-			          [(re-pattern "^....") ?pat-year]
-			          [(str ?today) ?stoday]
-			          [(re-find ?pat-year ?stoday) ?syear]
+			          [(mod ?today 100) ?day]
+			          (or
+			              (and [(< ?day 10)] [(str "0" ?day) ?sday])
+			              (and [(>= ?day 10)] [(identity ?day) ?sday])
+			          )
+			          [(quot ?today 100) ?dm]
+			          [(mod ?dm 100) ?month]
+			          (or
+			              (and [(< ?month 10)] [(str "0" ?month) ?smonth])
+			              (and [(>= ?month 10)] [(identity ?month) ?smonth])
+			          )
+			          [(quot ?dm 100) ?dy]
+			          [(mod ?dy 100) ?year]
+			          [(str ?year "-" ?smonth "-" ?sday) ?date]
+			          ;
+			          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled
+			          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
+			          [(re-seq ?pat-date-wd-time ?scheduled) ?scheduled-date-time]
 			          ;
 			          ; switch block to show
 			          (or
