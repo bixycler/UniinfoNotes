@@ -1218,9 +1218,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          ;[?task :block/scheduled ?scheduled] 
 				          ;[?task :block/deadline ?deadline] 
 				          [?task :block/properties ?props]
-				          [(get ?props :deadline false) ?scheduled]
+				          [(get ?props :scheduled false) ?scheduled]
 				          [(get ?props :deadline false) ?deadline]
-				            
+				          ;
 				          ; convert time within today to HH:mm:ss 
 				          [(- ?now-ms ?today-ms) ?ms]
 				          [(quot ?ms 1000)  ?ts]
@@ -1230,17 +1230,23 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          [(quot ?tm 60) ?th]
 				          [(mod ?th 24) ?hour]
 				          [(str ?hour ":" ?minute ":" ?second) ?time]
-				            
+				          ;  
 				          ; switch block to show
 				          (or
 				              (and [(<= ?deadline ?time)] [(identity ?warning) ?b])
 				              (and [(> ?deadline ?time)] [(identity ?task) ?b])
 				          )
 				    ] ; end query[]
+				    ;
+				    ;; query options:
 				    :breadcrumb-show? false
 				    :group-by-page? false
 				    :collapsed? false ; always collapse, must open it to see updated result
 				    ;:result-transform 
+				    ;
+				    ;;;;;;;; rules ;;;;;;;;
+				    :rules [
+				    ]
 				  }
 				  #+END_QUERY
 				  ```
@@ -1254,7 +1260,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 			    ]
 			    :query [
-			      :find ?today (pull ?b [*]) ; ?today ?now
+			      :find ?today ?time (pull ?b [*]) ; ?today ?now
 			      :in $ ?today ?today-ms ?now-ms ?task ?warning
 			      :where 
 			          [?task :block/properties ?props]
