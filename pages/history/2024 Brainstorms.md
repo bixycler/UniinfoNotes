@@ -1185,10 +1185,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		  collapsed:: true
 			- Get back to COMPANY WORK!
 			  id:: 677752b3-f8c6-4493-8334-610f04855ffa
-			  SCHEDULED:: <2025-01-03 Fri 19:21>
-			  DEADLINE:: <2025-01-03 Fri 10:21>
-			  SCHEDULED: <2025-01-03 Fri 19:21>
-			  DEADLINE: <2025-01-03 Fri 10:21>
+			  SCHEDULED:: <2025-01-06 Mon 19:21>
+			  DEADLINE:: <2025-01-06 Tue 10:21>
 			- id:: 677bf3f1-b53b-4d9b-9c4a-5182b2a96a76
 			  collapsed:: true
 			  #+BEGIN_CAUTION
@@ -1281,10 +1279,12 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          [(str ?date " " ?time) ?date-time]
 				          ;
 				          ; switch block to show
+				          [(compare ?date-time ?scheduled-date-time) ?scheduled-rel]
+				          [(compare ?date-time ?deadline-date-time) ?deadline-rel]
 				          (or
-				              (and [(< ?date-time ?scheduled-date-time)] [(identity ?task) ?b])
-				              (and [(>= ?date-time ?scheduled-date-time)] [(<= ?date-time ?deadline-date-time)] [(identity ?warning) ?b])
-				              (and [(> ?date-time ?deadline-date-time)] [(identity ?error) ?b])
+				              (and [(< ?scheduled-rel 0)] [(identity ?task) ?b])
+				              (and [(>= ?scheduled-rel 0)] [(<= ?deadline-rel 0)] [(identity ?warning) ?b])
+				              (and [(> ?deadline-rel 0)] [(identity ?error) ?b])
 				          )
 				    ] ; end query[]
 				    ;
@@ -1371,10 +1371,12 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			          [(str ?date " " ?time) ?date-time]
 			          ;
 			          ; switch block to show
+			          [(compare ?date-time ?scheduled-date-time) ?scheduled-rel]
+			          [(compare ?date-time ?deadline-date-time) ?deadline-rel]
 			          (or
-			              (and [(< ?date-time ?scheduled-date-time)] [(identity ?task) ?b])
-			              (and [(>= ?date-time ?scheduled-date-time)] [(<= ?date-time ?deadline-date-time)] [(identity ?warning) ?b])
-			              (and [(> ?date-time ?deadline-date-time)] [(identity ?error) ?b])
+			              (and [(< ?scheduled-rel 0)] [(identity ?task) ?b])
+			              (and [(>= ?scheduled-rel 0)] [(<= ?deadline-rel 0)] [(identity ?warning) ?b])
+			              (and [(> ?deadline-rel 0)] [(identity ?error) ?b])
 			          )
 			    ] ; end query[]
 			    ;
