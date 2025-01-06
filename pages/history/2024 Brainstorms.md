@@ -1211,7 +1211,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 				    ]
 				    :query [
-				      :find (pull ?b [*]) ; ?today ?now
+				      :find ?today ?time (pull ?b [*]) ; ?today ?now
 				      :in $ ?today ?today-ms ?now-ms ?task ?warning %
 				      :where 
 				          ; get ?scheduled & ?deadline time
@@ -1225,12 +1225,23 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          [(- ?now-ms ?today-ms) ?ms]
 				          [(quot ?ms 1000)  ?ts]
 				          [(mod ?ts 60) ?second]
+				          (or
+				              (and [(< ?second 10)] [(str "0" ?second) ?ssecond])
+				              (and [(>= ?second 10)] [(identity ?second) ?ssecond])
+				          )
 				          [(quot ?ts 60) ?tm]
-				          (div ?ts ?tm)
 				          [(mod ?tm 60) ?minute]
+				          (or
+				              (and [(< ?minute 10)] [(str "0" ?minute) ?sminute])
+				              (and [(>= ?minute 10)] [(identity ?minute) ?sminute])
+				          )
 				          [(quot ?tm 60) ?th]
 				          [(mod ?th 24) ?hour]
-				          [(str ?hour ":" ?minute ":" ?second) ?time]
+				          (or
+				              (and [(< ?hour 10)] [(str "0" ?hour) ?shour])
+				              (and [(>= ?hour 10)] [(identity ?hour) ?shour])
+				          )
+				          [(str ?shour ":" ?sminute ":" ?ssecond) ?time]
 				            
 				          ; switch block to show
 				          (or
@@ -1247,12 +1258,6 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				    ;
 				    ;;;;;;;; rules ;;;;;;;;
 				    :rules [
-				      ;
-				      ;; Check if ?b has ?ancestor as an ancestor
-				      [(div ?n ?r)
-				          [(quot ?n 50) ?q]
-				          [(identity ?q) ?r]
-				      ]
 				    ]
 				  }
 				  #+END_QUERY
@@ -1267,7 +1272,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 			    ]
 			    :query [
-			      :find (pull ?b [*]) ; ?today ?now
+			      :find ?today ?time (pull ?b [*]) ; ?today ?now
 			      :in $ ?today ?today-ms ?now-ms ?task ?warning %
 			      :where 
 			          ; get ?scheduled & ?deadline time
@@ -1279,14 +1284,26 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			            
 			          ; convert time within today to HH:mm:ss 
 			          [(- ?now-ms ?today-ms) ?ms]
-			          [(quot ?ms 1000)  ?ts]
-			          [(mod ?ts 60) ?second]
+			          [(quot ?ms 1000)  ?tss]
+			          [(+ ?tss 180) ?ts]
+			          [(mod ?ts 60) ?secondm]
+			          (or
+			              (and [(< ?second 10)] [(str "0" ?second) ?ssecond])
+			              (and [(>= ?second 10)] [(identity ?second) ?ssecond])
+			          )
 			          [(quot ?ts 60) ?tm]
-			          (div ?ts ?tm )
 			          [(mod ?tm 60) ?minute]
+			          (or
+			              (and [(< ?minute 10)] [(str "0" ?minute) ?sminute])
+			              (and [(>= ?minute 10)] [(identity ?minute) ?sminute])
+			          )
 			          [(quot ?tm 60) ?th]
 			          [(mod ?th 24) ?hour]
-			          [(str ?hour ":" ?minute ":" ?second) ?time]
+			          (or
+			              (and [(< ?hour 10)] [(str "0" ?hour) ?shour])
+			              (and [(>= ?hour 10)] [(identity ?hour) ?shour])
+			          )
+			          [(str ?shour ":" ?sminute ":" ?ssecond) ?time]
 			            
 			          ; switch block to show
 			          (or
