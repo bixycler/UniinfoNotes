@@ -33,8 +33,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- backward end: some questions arised and should be placed into the Mind Map itself
 				- [?] why is the central Mind Map required?
 				- [?] why a strong urge to design it no matter how unclear it is?
-	- ## Braindumping
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] a recurrent task as a reminder
 			- Get back to COMPANY WORK!
 			  id:: 67768438-13eb-43f7-abdd-2759d9b7f616
@@ -52,13 +50,17 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  DEADLINE:: <2025-01-04 Sat 10:04>
 				- just missing a way to convert this property from/to `time-ms`
 				- `/Current time` = 10:32
-			- DOING use both: `scheduled::` for warning (yellow), and `deadline::` for error (red)
+			- DONE use both: `scheduled::` for warning (yellow), and `deadline::` for error (red)
 			  :LOGBOOK:
-			  CLOCK: [2025-01-06 Mon 19:26:29]
+			  CLOCK: [2025-01-06 Mon 19:26:29]--[2025-01-06 Mon 22:41:27] =>  03:14:58
 			  :END:
-		- DOING Get back to company work, now 13:11
+			- ((677bfb6a-cba7-4a55-9d0d-43255445e280))
+		- Get back to company work, now 13:11
 		  id:: 67777f4e-49a9-4537-86da-be69f87918a7
 		  :LOGBOOK:
 		  CLOCK: [2025-01-03 Fri 13:14:16]
 		  :END:
+	- ## Braindumping
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- TODO turn ((677689e6-7163-4e94-ab65-18d3f51e3eb9)) into `{{deadline-warning}}`
 		- ...

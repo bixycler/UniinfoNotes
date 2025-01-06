@@ -1183,10 +1183,13 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		- Deadline warning
 		  id:: 677689e6-7163-4e94-ab65-18d3f51e3eb9
 		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-01-06 Mon 22:40:55]--[2025-01-06 Mon 22:40:57] =>  00:00:02
+		  :END:
 			- Get back to COMPANY WORK!
 			  id:: 677752b3-f8c6-4493-8334-610f04855ffa
-			  SCHEDULED:: <2025-01-06 Mon 19:21>
-			  DEADLINE:: <2025-01-06 Tue 10:21>
+			  SCHEDULED:: <2025-01-06 Mon 22:39>
+			  DEADLINE:: <2025-01-06 Tue 22:40>
 			- id:: 677bf3f1-b53b-4d9b-9c4a-5182b2a96a76
 			  collapsed:: true
 			  #+BEGIN_CAUTION
@@ -1206,7 +1209,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					  [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ BACK TO WORK !!! "]
 					  ```
 			- Source code
-			  collapsed:: true
+				- Due to the very limited clojure functions supported in Datascript `:query`,
+				  id:: 677bfb6a-cba7-4a55-9d0d-43255445e280
 				- ```clojure
 				  #+BEGIN_QUERY
 				  {:title ["Deadline warning"]
