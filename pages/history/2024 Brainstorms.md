@@ -1209,8 +1209,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					  [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ BACK TO WORK !!! "]
 					  ```
 			- Source code
-				- Due to the very limited clojure functions supported in Datascript `:query`,
+				- The code is lengthy, due to the very limited [clojure functions supported in Datascript `:query`](((677bcacd-3de2-48c1-9788-1eab574c4812))). 
 				  id:: 677bfb6a-cba7-4a55-9d0d-43255445e280
+					- ((677bfcff-0990-45e5-9319-19e796ec1e84))
 				- ```clojure
 				  #+BEGIN_QUERY
 				  {:title ["Deadline warning"]

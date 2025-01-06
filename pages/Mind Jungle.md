@@ -4173,7 +4173,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [Special values](https://docs.logseq.com/#/page/advanced%20queries/block/query%20inputs) for `:inputs[]`, e.g. `:parent-block`, `:today`, etc.
 						- defined in [db.cljs](https://github.com/logseq/logseq/blob/master/deps/graph-parser/src/logseq/graph_parser/util/db.cljs#L77)
 					- Built-in functions for `:where` are defined in  [DataScript](https://github.com/tonsky/datascript)'s [built_ins.cljc](https://github.com/tonsky/datascript/blob/master/src/datascript/built_ins.cljc).
+					  id:: 677bcacd-3de2-48c1-9788-1eab574c4812
 						- Core functions like  `if` are not supported!
+						- Sequence basics like `first`, `rest`, `nth` are not supported!
+							- We must use pattern matching to get elements in sequence, e.g.
+							  id:: 677bfcff-0990-45e5-9319-19e796ec1e84
+							  ```clojure
+							  [ (re-seq ?pat-date-wd-time ?deadline) ([_ ?deadline-date ?deadline-time]) ]
+							  ```
 						- Very limited [clojure.string](https://clojuredocs.org/clojure.string) functions: `blank`, `includes`, `starts-with`, `ends-with`
 						- Supported RegEx in [clojure.core](https://clojuredocs.org/clojure.core): `re-pattern`, `re-find`, `re-matches`, `re-seq`
 					- To get the block with specified `${UUID}`, use `[:block/uuid #uuid "${UUID}"]`.
