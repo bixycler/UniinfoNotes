@@ -1211,7 +1211,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 				    ]
 				    :query [
-				      :find ?date ?time ?scheduled-date-time (pull ?b [*]) ; ?today ?now
+				      :find ?date-time ?scheduled-date-time ?deadline-date-time (pull ?b [*]) ; ?today ?now
 				      :in $ ?today ?today-ms ?now-ms ?task ?warning %
 				      :where 
 				          ; get ?scheduled & ?deadline time
@@ -1259,13 +1259,14 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          [(mod ?dy 100) ?year]
 				          [(str ?year "-" ?smonth "-" ?sday) ?date]
 				          ;
-				          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled
+				          [(str ?date " " ?time) ?date-time]
+				          ;
+				          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled & ?deadline
 				          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
-				          [(re-seq ?pat-date-wd-time ?scheduled) ?scheduled-seqq]
-				          [(get ?scheduled-seqq 0) ?scheduled-seq]
-				          [(get ?scheduled-seq 1) ?scheduled-date]
-				          [(get ?scheduled-seq 2) ?scheduled-time]
+				          [(re-seq ?pat-date-wd-time ?scheduled) ([_ ?scheduled-date ?scheduled-time]) ]
 				          [(str ?scheduled-date " " ?scheduled-time) ?scheduled-date-time]
+				          [(re-seq ?pat-date-wd-time ?deadline) ([_ ?deadline-date ?deadline-time]) ]
+				          [(str ?deadline-date " " ?deadline-time) ?deadline-date-time]
 				          ;
 				          ; switch block to show
 				          (or
@@ -1296,7 +1297,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 			    ]
 			    :query [
-			      :find ?date ?time ?scheduled-date-time (pull ?b [*]) ; ?today ?now
+			      :find ?date-time ?scheduled-date-time ?deadline-date-time (pull ?b [*]) ; ?today ?now
 			      :in $ ?today ?today-ms ?now-ms ?task ?warning %
 			      :where 
 			          ; get ?scheduled & ?deadline time
@@ -1344,13 +1345,14 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			          [(mod ?dy 100) ?year]
 			          [(str ?year "-" ?smonth "-" ?sday) ?date]
 			          ;
-			          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled
+			          [(str ?date " " ?time) ?date-time]
+			          ;
+			          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled & ?deadline
 			          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
-			          [(re-seq ?pat-date-wd-time ?scheduled) ?scheduled-seqq]
-			          [(get ?scheduled-seqq)  ?scheduled-seq]
-			          ;[(get ?scheduled-seq 1) ?scheduled-date]
-			          ;[(get ?scheduled-seq 2) ?scheduled-time]
-			          [(str ?scheduled-seq) ?scheduled-date-time]
+			          [(re-seq ?pat-date-wd-time ?scheduled) ([_ ?scheduled-date ?scheduled-time]) ]
+			          [(str ?scheduled-date " " ?scheduled-time) ?scheduled-date-time]
+			          [(re-seq ?pat-date-wd-time ?deadline) ([_ ?deadline-date ?deadline-time]) ]
+			          [(str ?deadline-date " " ?deadline-time) ?deadline-date-time]
 			          ;
 			          ; switch block to show
 			          (or
