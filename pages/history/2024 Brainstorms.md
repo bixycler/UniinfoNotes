@@ -1261,7 +1261,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          ;
 				          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled
 				          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
-				          [(re-seq ?pat-date-wd-time ?scheduled) ?scheduled-date-time]
+				          [(re-seq ?pat-date-wd-time ?scheduled) ?scheduled-seq]
+				          [(nth ?scheduled-seq 1) ?scheduled-date]
+				          [(nth ?scheduled-seq 2) ?scheduled-time]
+				          [(str ?scheduled-date " " ?scheduled-time) ?scheduled-date-time]
 				          ;
 				          ; switch block to show
 				          (or
@@ -1342,7 +1345,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			          ;
 			          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled
 			          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
-			          [(re-seq ?pat-date-wd-time ?scheduled) ?scheduled-date-time]
+			          [(re-seq ?pat-date-wd-time ?scheduled) ?scheduled-seq]
+			          [(nth ?scheduled-seq 1) ?scheduled-date]
+			          [(nth ?scheduled-seq 2) ?scheduled-time]
+			          [(str ?scheduled-date " " ?scheduled-time) ?scheduled-date-time]
 			          ;
 			          ; switch block to show
 			          (or
