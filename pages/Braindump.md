@@ -36,7 +36,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] a recurrent task as a reminder
-		  collapsed:: true
 			- Get back to COMPANY WORK!
 			  id:: 67768438-13eb-43f7-abdd-2759d9b7f616
 			  DEADLINE:: <2025-01-04 Sat 10:04>
@@ -53,7 +52,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  DEADLINE:: <2025-01-04 Sat 10:04>
 				- just missing a way to convert this property from/to `time-ms`
 				- `/Current time` = 10:32
-			- TODO use both: `scheduled::` for warning (yellow), and `deadline::` for error (red)
+			- DOING use both: `scheduled::` for warning (yellow), and `deadline::` for error (red)
+			  :LOGBOOK:
+			  CLOCK: [2025-01-06 Mon 19:26:29]
+			  :END:
 		- DOING Get back to company work, now 13:11
 		  id:: 67777f4e-49a9-4537-86da-be69f87918a7
 		  :LOGBOOK:
