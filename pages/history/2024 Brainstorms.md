@@ -1244,7 +1244,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          [(str ?shour ":" ?sminute ":" ?ssecond) ?time]
 				          ;
 				          ; convert ?today to yyyy:MM:dd 
-				          [(re-find (re-pattern "^....") (str ?today)) ?syear]
+				          [(re-pattern "^....") ?pat-year]
+				          [(str ?today) ?stoday]
+				          [(re-find ?pat-year ?stoday) ?syear]
 				          ;
 				          ; switch block to show
 				          (or
@@ -1308,7 +1310,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			          [(str ?shour ":" ?sminute ":" ?ssecond) ?time]
 			          ;
 			          ; convert ?today to yyyy:MM:dd 
-			          [(re-find (re-pattern "^....") ?today) ?syear]
+			          [(re-pattern "^....") ?pat-year]
+			          [(str ?today) ?stoday]
+			          [(re-find ?pat-year ?stoday) ?syear]
 			          ;
 			          ; switch block to show
 			          (or
