@@ -1347,7 +1347,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled
 			          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
 			          [(re-seq ?pat-date-wd-time ?scheduled) ?scheduled-seqq]
-			          [(count  ?scheduled-seqq ) ?scheduled-seq]
+			          [(hash-map :a ?scheduled-seqq)  ?scheduled-seq]
 			          ;[(get ?scheduled-seq 1) ?scheduled-date]
 			          ;[(get ?scheduled-seq 2) ?scheduled-time]
 			          [(str ?scheduled-seq) ?scheduled-date-time]
