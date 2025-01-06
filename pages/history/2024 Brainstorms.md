@@ -1347,10 +1347,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled
 			          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
 			          [(re-seq ?pat-date-wd-time ?scheduled) ?scheduled-seqq]
-			          ;[(get ?scheduled-seqq 0) ?scheduled-seq]
+			          [(first ?scheduled-seqq ) ?scheduled-seq]
 			          ;[(get ?scheduled-seq 1) ?scheduled-date]
 			          ;[(get ?scheduled-seq 2) ?scheduled-time]
-			          [(str ?scheduled-seqq) ?scheduled-date-time]
+			          [(str ?scheduled-seq) ?scheduled-date-time]
 			          ;
 			          ; switch block to show
 			          (or
