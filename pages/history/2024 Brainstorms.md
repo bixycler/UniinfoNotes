@@ -1198,6 +1198,16 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					- ```clojure
 					  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
 					  ```
+			- #+BEGIN_WARNING
+			  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
+			  #+END_WARNING
+				- [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
+					- ```clojure
+					  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
+					  ```
+			- #+BEGIN_CAUTION
+			  afaa
+			  #+END_CAUTION
 			- Source code
 			  collapsed:: true
 				- ```clojure
@@ -1209,17 +1219,25 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				      :right-now-ms ; ?now-ms
 				      [:block/uuid #uuid "677752b3-f8c6-4493-8334-610f04855ffa"]  ; $1 ?task
 				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
+				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?error
 				    ]
 				    :query [
 				      :find ?date-time ?scheduled-date-time ?deadline-date-time (pull ?b [*]) ; ?today ?now
-				      :in $ ?today ?today-ms ?now-ms ?task ?warning %
+				      :in $ ?today ?today-ms ?now-ms ?task ?warning ?error %
 				      :where 
-				          ; get ?scheduled & ?deadline time
+				          ; get ?scheduled & ?deadline date-time
 				          ;[?task :block/scheduled ?scheduled] 
 				          ;[?task :block/deadline ?deadline] 
 				          [?task :block/properties ?props]
 				          [(get ?props :scheduled false) ?scheduled]
 				          [(get ?props :deadline false) ?deadline]
+				          ;
+				          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled & ?deadline
+				          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
+				          [(re-seq ?pat-date-wd-time ?scheduled) ([_ ?scheduled-date ?scheduled-time]) ]
+				          [(str ?scheduled-date " " ?scheduled-time) ?scheduled-date-time]
+				          [(re-seq ?pat-date-wd-time ?deadline) ([_ ?deadline-date ?deadline-time]) ]
+				          [(str ?deadline-date " " ?deadline-time) ?deadline-date-time]
 				          ;
 				          ; convert time within today to HH:mm:ss 
 				          [(- ?now-ms ?today-ms) ?ms]
@@ -1256,22 +1274,18 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				              (and [(>= ?month 10)] [(identity ?month) ?smonth])
 				          )
 				          [(quot ?dm 100) ?dy]
-				          [(mod ?dy 100) ?year]
+				          [(mod ?dy 100) ?year2]
+				          [(+ ?year2 2000) ?year]
 				          [(str ?year "-" ?smonth "-" ?sday) ?date]
 				          ;
+				          ; concatenate to ?date-time
 				          [(str ?date " " ?time) ?date-time]
-				          ;
-				          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled & ?deadline
-				          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
-				          [(re-seq ?pat-date-wd-time ?scheduled) ([_ ?scheduled-date ?scheduled-time]) ]
-				          [(str ?scheduled-date " " ?scheduled-time) ?scheduled-date-time]
-				          [(re-seq ?pat-date-wd-time ?deadline) ([_ ?deadline-date ?deadline-time]) ]
-				          [(str ?deadline-date " " ?deadline-time) ?deadline-date-time]
 				          ;
 				          ; switch block to show
 				          (or
-				              (and [(<= ?deadline ?time)] [(identity ?warning) ?b])
-				              (and [(> ?deadline ?time)] [(identity ?task) ?b])
+				              (and [(< ?date-time ?scheduled-date-time)] [(identity ?task) ?b])
+				              (and [(>= ?date-time ?scheduled-date-time)] [(<= ?date-time ?deadline-date-time)] [(identity ?warning) ?b])
+				              (and [(> ?date-time ?deadline-date-time)] [(identity ?error) ?b])
 				          )
 				    ] ; end query[]
 				    ;
@@ -1342,7 +1356,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			              (and [(>= ?month 10)] [(identity ?month) ?smonth])
 			          )
 			          [(quot ?dm 100) ?dy]
-			          [(mod ?dy 100) ?year]
+			          [(mod ?dy 100) ?year2]
+			          [(+ ?year2 2000) ?year]
 			          [(str ?year "-" ?smonth "-" ?sday) ?date]
 			          ;
 			          [(str ?date " " ?time) ?date-time]
