@@ -1211,7 +1211,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 				    ]
 				    :query [
-				      :find ?today ?time (pull ?b [*]) ; ?today ?now
+				      :find ?today ?syear ?time (pull ?b [*]) ; ?today ?now
 				      :in $ ?today ?today-ms ?now-ms ?task ?warning %
 				      :where 
 				          ; get ?scheduled & ?deadline time
@@ -1220,7 +1220,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          [?task :block/properties ?props]
 				          [(get ?props :scheduled false) ?scheduled]
 				          [(get ?props :deadline false) ?deadline]
-				            
+				          ;
 				          ; convert time within today to HH:mm:ss 
 				          [(- ?now-ms ?today-ms) ?ms]
 				          [(quot ?ms 1000)  ?ts]
@@ -1242,7 +1242,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				              (and [(>= ?hour 10)] [(identity ?hour) ?shour])
 				          )
 				          [(str ?shour ":" ?sminute ":" ?ssecond) ?time]
-				            
+				          ;
+				          ; convert ?today to yyyy:MM:dd 
+				          [(re-find (re-pattern "^....") (str ?today)) ?syear]
+				          ;
 				          ; switch block to show
 				          (or
 				              (and [(<= ?deadline ?time)] [(identity ?warning) ?b])
@@ -1272,7 +1275,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?warning
 			    ]
 			    :query [
-			      :find ?today ?time (pull ?b [*]) ; ?today ?now
+			      :find ?today ?syear ?time (pull ?b [*]) ; ?today ?now
 			      :in $ ?today ?today-ms ?now-ms ?task ?warning %
 			      :where 
 			          ; get ?scheduled & ?deadline time
@@ -1281,12 +1284,11 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			          [?task :block/properties ?props]
 			          [(get ?props :scheduled false) ?scheduled]
 			          [(get ?props :deadline false) ?deadline]
-			            
+			          ;
 			          ; convert time within today to HH:mm:ss 
 			          [(- ?now-ms ?today-ms) ?ms]
-			          [(quot ?ms 1000)  ?tss]
-			          [(+ ?tss 180) ?ts]
-			          [(mod ?ts 60) ?secondm]
+			          [(quot ?ms 1000)  ?ts]
+			          [(mod ?ts 60) ?second]
 			          (or
 			              (and [(< ?second 10)] [(str "0" ?second) ?ssecond])
 			              (and [(>= ?second 10)] [(identity ?second) ?ssecond])
@@ -1304,7 +1306,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			              (and [(>= ?hour 10)] [(identity ?hour) ?shour])
 			          )
 			          [(str ?shour ":" ?sminute ":" ?ssecond) ?time]
-			            
+			          ;
+			          ; convert ?today to yyyy:MM:dd 
+			          [(re-find (re-pattern "^....") ?today) ?syear]
+			          ;
 			          ; switch block to show
 			          (or
 			              (and [(<= ?deadline ?time)] [(identity ?warning) ?b])
