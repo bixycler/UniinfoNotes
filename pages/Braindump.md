@@ -61,11 +61,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-01-03 Fri 13:14:16]
 		  :END:
-	- ## Braindumping
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- sleepy meditating...
 			- at noon, on the way to company, seeing the karma as the momentum accumulated in our bodies pushing us, making us rush... i want to put all them down... but i also know that nothing can completely stop, the motion just curls inward...
 			- sitting down the chair, i relax and release my mind, then falling asleep.
 			- 2 straight hours sleepy meditation, from 13:00 to 15:00, then half an hour ujjayi breathing
+	- ## Braindumping
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- TODO turn ((677689e6-7163-4e94-ab65-18d3f51e3eb9)) into `{{deadline-warning}}`
 		- ...
