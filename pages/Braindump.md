@@ -34,6 +34,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- [?] why is the central Mind Map required?
 				- [?] why a strong urge to design it no matter how unclear it is?
 		- [?] a recurrent task as a reminder
+		  collapsed:: true
 			- Get back to COMPANY WORK!
 			  id:: 67768438-13eb-43f7-abdd-2759d9b7f616
 			  DEADLINE:: <2025-01-04 Sat 10:04>
@@ -63,4 +64,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- TODO turn ((677689e6-7163-4e94-ab65-18d3f51e3eb9)) into `{{deadline-warning}}`
+		- sleepy meditating...
 		- ...
