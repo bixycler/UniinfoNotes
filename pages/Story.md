@@ -15,7 +15,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-01-08 Wed 14:20:41]
 		  CLOCK: [2025-01-08 Wed 14:21:01]
 		  :END:
-			- ((67714850-43c0-4c7f-8b50-838e014b06e0))
+			- The last weekends of 2025, while working in UTS, i concluded: ((67714850-43c0-4c7f-8b50-838e014b06e0))
 			- ((67710747-2982-4134-875e-3b715313db87)); Design ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
 			- Jan 3rd: everything is but a farce 🤣
 				- a random seed was taken for granted, following a whole lot of descendants around it, making a hard core of form, the intensive intent.
@@ -32,11 +32,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Example:
 						  Imagine someone giving a very serious and formal speech, and suddenly something humorous happens, like a loud, unexpected noise. The stark contrast between the serious tone and the unexpected humor can cause an uncontrollable, infectious wave of laughter.
 			- Jan 6th: Tragedy of Native American with the character Teonna Rainwater in TV series [1923](https://en.wikipedia.org/wiki/1923_(TV_series)), a prequel to the series [Yellowstone](https://en.wikipedia.org/wiki/Yellowstone_(American_TV_series))
+			  collapsed:: true
 				- [Yes, 1923's Most Horrifying Scene Is Based On Real Life](https://screenrant.com/1923-show-teonna-rainwater-native-american-boarding-schools/)
 				- Thousands of children died in [American Indian boarding schools](https://en.wikipedia.org/wiki/American_Indian_boarding_schools)
 					- [Federal Investigation Finds At Least 973 Children Died in Federal Indian Boarding Schools](https://eji.org/news/federal-investigation-finds-at-least-973-children-died-in-federal-indian-boarding-schools/)
 					- [Investigation reveals higher death toll (more than 3,000) at Native American boarding schools](https://www.pbs.org/newshour/show/investigation-reveals-higher-death-toll-at-native-american-boarding-schools)
-						- ![3100-students-died.jpg](../3100-students-died.jpg)
+					  collapsed:: true
+						- ![3100-students-died.jpg](../assets/Will/story/2025-Jan/3100-students-died.jpg)
+				- Scenes in TV series [1923](https://en.wikipedia.org/wiki/1923_(TV_series))
+					- [the "classroom"](https://youtube.com/shorts/2uHG_Xy-LWg)
+					- [i love you by beating you](https://youtube.com/shorts/xRkZ4Q1zZuw)
+					- [trying to "save" the "Indian" (native American)](https://youtube.com/shorts/cKFb6Hyiku4)
+					- [I have sworn to kill the Indian in you!](https://youtube.com/shorts/GoScMSihmOg)
+					- [stop worrying about thorns, worry about me](https://youtube.com/shorts/eqAEzLiL7-g)
+					- [If you speak that filth again, i will bury you alive](https://youtube.com/shorts/6n0uW7OZ8Os)
+					- [Making war](https://youtube.com/shorts/C5dXqHuBA6o)
+					- [How many children died last year](https://youtube.com/shorts/VLJbTbHHz7o)
 			- [seeing the karma as the momentum](((677cc7d2-02f7-4ad9-801c-3079237ed465))) ⇒ ((677cc7d2-02f7-4ad9-801c-3079237ed465))
 		- <<End 2025 Stories>>
 		  -----------------------
