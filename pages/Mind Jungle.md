@@ -646,8 +646,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- effect circle
 			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = intentional cause = “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes)
+					- I don't use the term “final cause” because it's both the first, as a seed, and the last, as a purpose.
+					-
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
 				- Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = dynamic circle = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha)
@@ -659,7 +662,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  CLOCK: [2024-12-04 Wed 13:25:01]--[2024-12-04 Wed 20:29:40] =>  07:04:39
 				  :END:
 					- Diagram
-					  collapsed:: true
 						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=437&h=382)
 					- SCIFER with subtract - divide - add - multiply, and exp-log spiral
 						- subject-object (nāmarūpa) $(c, i)$
@@ -3002,7 +3004,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-01-02 Thu 15:44:30]
 		  :END:
-			- ### Intent
+			- ### [Intent](((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))) of ((66536578-c4d3-43f1-b35c-bf71120f0570))
 			- Documents
 			  collapsed:: true
 				- ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
