@@ -69,7 +69,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((67760c3e-10a7-4621-8623-383f44bdaf3c))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ((67760c43-58c6-40eb-b874-40afae448966)): just sow the seed and throw dirt on it!
+			- the seed is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = intentional cause = "final cause" in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes)
+				- I don't use the term “final cause” because it's both the first, as a seed, and the final, as a fruit.
 			- dirts are thrown into ((6651adea-46e0-40ea-8fc4-3ef394068b0f)) and ((6651adea-f2f6-4c9e-80b4-ece0bb5038fb))
-				- the seed is the intent = intetional cause = "final cause" in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes)
-		- TODO turn ((677689e6-7163-4e94-ab65-18d3f51e3eb9)) into `{{deadline-warning}}`
 		- ...
