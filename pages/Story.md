@@ -50,7 +50,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Making war](https://youtube.com/shorts/C5dXqHuBA6o)
 					- [How many children died last year](https://youtube.com/shorts/VLJbTbHHz7o)
 			- Yesterday, [seeing the karma as the momentum](((677cc7d2-02f7-4ad9-801c-3079237ed465))) ⇒ ((677cc7d2-02f7-4ad9-801c-3079237ed465))
-			- Many days, i've taken off from office the whole morning, and even the whole day, due to the entanglement in the previous night.
+			- Many days, i have the whole morning off from office, and even the whole day, due to the entanglement in the previous night.
 				- entangled with [master Minh Tuệ](https://en.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87)'s journey
 				- entangled with all sort of pathetic stories, as well as [all the junks](((6752f2ae-a019-400c-9a13-ede363f665ff)))
 			- Last night, after being stuck again, i decided to [disconnect from social networks](https://www.facebook.com/share/p/1AvDcWFK52/)
@@ -65,7 +65,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- The vibration of the water surface is forced by the fan below.
 			- The two parallel straight walls of the bucket creates the straight waveforms, which is more profound than the normal circle waveforms of water in the pot.
-			- This forced vibration is similar to the vibration of the fuil
+			- This forced vibration is similar to the vibration of the fluid bath of the [walking droplet](https://en.wikipedia.org/wiki/Hydrodynamic_quantum_analogs).
+				- The pilot-wave dynamics of walking droplets
+				  {{video https://youtu.be/nmC0ygr08tE}}
 			- ![standing-wave-1.jpeg](../assets/Will/story/2025-Jan/standing-wave-1.jpeg)
 			- ![standing-wave.mp4](../assets/Will/story/2025-Jan/standing-wave.mp4)
 			- ![waveform-shift.mp4](../assets/Will/story/2025-Jan/waveform-shift.mp4)
