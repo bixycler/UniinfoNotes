@@ -649,8 +649,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = intentional cause = “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes)
-					- I don't use the term “final cause” because it's both the first, as a seed, and the last, as a purpose.
-					-
+					- I don't use the term “final cause” because _in a single circle_, it's both the first, as the seed, and the last, as the purpose, and never be “final” throughout the never ending cycle of effect.
+						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
+						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
 				- Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = dynamic circle = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha)
