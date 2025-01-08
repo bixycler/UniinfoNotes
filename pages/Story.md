@@ -8,12 +8,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## 2025 Stories
 	  id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 		- ...
-		- DOING Disconnect from the outside to reconnect to the inside
+		- Disconnect from the outside to reconnect to the inside
 		  id:: 677e2745-6664-407e-ab5f-3c18319e2e6b
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-01-08 Wed 14:20:41]
-		  CLOCK: [2025-01-08 Wed 14:21:01]
+		  CLOCK: [2025-01-08 Wed 14:21:01]--[2025-01-08 Wed 15:51:16] =>  01:30:15
 		  :END:
 			- The last weekends of 2025, while working in UTS, i concluded: ((67714850-43c0-4c7f-8b50-838e014b06e0))
 				- ⇒ ((67710747-2982-4134-875e-3b715313db87))
@@ -50,11 +50,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Making war](https://youtube.com/shorts/C5dXqHuBA6o)
 					- [How many children died last year](https://youtube.com/shorts/VLJbTbHHz7o)
 			- Yesterday, [seeing the karma as the momentum](((677cc7d2-02f7-4ad9-801c-3079237ed465))) ⇒ ((677cc7d2-02f7-4ad9-801c-3079237ed465))
-			- Many days, i've taken off from office the whole morning due to the entanglement in the previous night.
+			- Many days, i've taken off from office the whole morning, and even the whole day, due to the entanglement in the previous night.
 				- entangled with [master Minh Tuệ](https://en.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87)'s journey
-				- entangled with all sort of
+				- entangled with all sort of pathetic stories, as well as [all the junks](((6752f2ae-a019-400c-9a13-ede363f665ff)))
 			- Last night, after being stuck again, i decided to [disconnect from social networks](https://www.facebook.com/share/p/1AvDcWFK52/)
-				- just log out and remove apps
-				- don't deactivate, because i wan't to leave the [leaving notification](https://www.facebook.com/share/p/1AvDcWFK52/) for others to see.
+				- squatting in the bathroom, with ujjayi breath, i returned to the zero point and overview the whole entanglement
+				- i decided to just log out and remove apps
+				- i don't deactivate account, because i wan't to leave the [leaving notification](https://www.facebook.com/share/p/1AvDcWFK52/) for others to see.
 		- <<End 2025 Stories>>
 		  -----------------------
