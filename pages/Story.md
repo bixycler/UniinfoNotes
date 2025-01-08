@@ -8,5 +8,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## 2025 Stories
 	  id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
 		- ...
+		- DOING Disconnect from the outside to reconnect to the inside
+		  id:: 677e2745-6664-407e-ab5f-3c18319e2e6b
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-01-08 Wed 14:20:41]
+		  CLOCK: [2025-01-08 Wed 14:21:01]
+		  :END:
+			- [seeing the karma as the momentum](((677cc7d2-02f7-4ad9-801c-3079237ed465))) ⇒ ((677cc7d2-02f7-4ad9-801c-3079237ed465))
 		- <<End 2025 Stories>>
 		  -----------------------

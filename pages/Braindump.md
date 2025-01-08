@@ -6,7 +6,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- ((67760c3e-10a7-4621-8623-383f44bdaf3c))
 	- ## 2025 Braindumps
 	  id:: 67760c3e-10a7-4621-8623-383f44bdaf3c
-	  collapsed:: true
 		- this [refactoring](((67710747-2982-4134-875e-3b715313db87))) itself is more complicated than i thought!
 		- just take a break, breathe, review...
 		- i must close i eyes...
@@ -62,10 +61,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-01-03 Fri 13:14:16]
 		  :END:
 		- sleepy meditating...
+		  id:: 677cc7d2-02f7-4ad9-801c-3079237ed465
 			- at noon, on the way to company, seeing the karma as the momentum accumulated in our bodies pushing us, making us rush... i want to put all them down... but i also know that nothing can completely stop, the motion just curls inward...
 			- sitting down the chair, i relax and release my mind, then falling asleep.
 			- 2 straight hours sleepy meditation, from 13:00 to 15:00, then half an hour ujjayi breathing
-	- ## Braindumping
+	- ## Braindumping < ((67760c3e-10a7-4621-8623-383f44bdaf3c))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- TODO turn ((677689e6-7163-4e94-ab65-18d3f51e3eb9)) into `{{deadline-warning}}`
 		- ...
