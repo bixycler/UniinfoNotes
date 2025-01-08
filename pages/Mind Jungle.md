@@ -3002,6 +3002,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-01-02 Thu 15:44:30]
 		  :END:
+			- ### Intent
 			- Documents
 			  collapsed:: true
 				- ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
