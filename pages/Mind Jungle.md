@@ -3017,8 +3017,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6653538a-30aa-423f-be89-848ad9c7e331))
 				- ((67760c3e-2ed3-4b91-9698-8dea6913e419))
 				- ((66519638-cf5d-409b-9b98-15acabf2268c))
-			- ### [Intent](((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))) of ((66536578-c4d3-43f1-b35c-bf71120f0570))
-				-
+			- ### [Intent](((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))): to be perfect
+				- ((677e8461-3483-4226-9829-127fe79b039a))
+				- ((677e84a1-cb09-43a8-a374-31599c903e11))
 			- #### Problems
 			  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
 				- ...
@@ -3348,6 +3349,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Someone met the problem of [windows open off screen](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-windows-open-off-screen/0f2432ad-c60d-4bce-808b-3f0c403ce9f2) with no effective solution, too.
 				- [!] Time is always gone too fast! :(
 				  id:: 66600918-315b-4f6c-970b-3039ac8ef912
+				- [!] ((66536578-c4d3-43f1-b35c-bf71120f0570)) is not perfect.
+				  id:: 677e84a1-cb09-43a8-a374-31599c903e11
 				- <<End Problems>>
 				  -------------------
 			- #### Questions
@@ -3355,6 +3358,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ...
 				- [?] What's the relation between  [lattice group](https://en.wikipedia.org/wiki/Lattice_(group)) and  [lattice order](https://en.wikipedia.org/wiki/Lattice_(order))?
 				- [?] When will I be liberated :-?
+				- [?] What's “perfect”
+				  id:: 677e8461-3483-4226-9829-127fe79b039a
 				- <<End Questions>>
 				  --------------------
 			- ...
