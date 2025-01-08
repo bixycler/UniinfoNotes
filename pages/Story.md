@@ -57,15 +57,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- squatting in the bathroom, with ujjayi breath, i returned to the zero point and overview the whole entanglement
 				- i decided to just log out and remove apps
 				- i don't deactivate account, because i wan't to leave the [leaving notification](https://www.facebook.com/share/p/1AvDcWFK52/) for others to see.
-		- DOING [Standing wave](https://en.wikipedia.org/wiki/Standing_wave) in the herbal tea bucket placing upon a fan
+		- [Standing wave](https://en.wikipedia.org/wiki/Standing_wave) in the herbal tea bucket placing upon a fan
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-01-08 Wed 17:00:18]
-		  CLOCK: [2025-01-08 Wed 17:00:30]
+		  CLOCK: [2025-01-08 Wed 17:00:30]--[2025-01-08 Wed 17:26:33] =>  00:26:03
 		  :END:
 			- The vibration of the water surface is forced by the fan below.
 			- The two parallel straight walls of the bucket creates the straight waveforms, which is more profound than the normal circle waveforms of water in the pot.
 			- ![standing-wave-1.jpeg](../assets/Will/story/2025-Jan/standing-wave-1.jpeg)
-			- [standing-wave.mp4](../assets/Will/story/2025-Jan/standing-wave.mp4)
+			- ![standing-wave.mp4](../assets/Will/story/2025-Jan/standing-wave.mp4)
+			- ![waveform-shift.mp4](../assets/Will/story/2025-Jan/waveform-shift.mp4)
 		- <<End 2025 Stories>>
 		  -----------------------
