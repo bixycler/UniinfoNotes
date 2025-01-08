@@ -50,8 +50,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Making war](https://youtube.com/shorts/C5dXqHuBA6o)
 					- [How many children died last year](https://youtube.com/shorts/VLJbTbHHz7o)
 			- Yesterday, [seeing the karma as the momentum](((677cc7d2-02f7-4ad9-801c-3079237ed465))) ⇒ ((677cc7d2-02f7-4ad9-801c-3079237ed465))
-			- Many days, i've bee
-			- Last night, i decide to [disconnect from social networks](https://www.facebook.com/share/p/1AvDcWFK52/)
+			- Many days, i've taken off from office the whole morning due to the entanglement in the previous night.
+				- entangled with [master Minh Tuệ](https://en.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87)'s journey
+				- entangled with all sort of
+			- Last night, after being stuck again, i decided to [disconnect from social networks](https://www.facebook.com/share/p/1AvDcWFK52/)
 				- just log out and remove apps
 				- don't deactivate, because i wan't to leave the [leaving notification](https://www.facebook.com/share/p/1AvDcWFK52/) for others to see.
 		- <<End 2025 Stories>>
