@@ -67,5 +67,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- 2 straight hours sleepy meditation, from 13:00 to 15:00, then half an hour ujjayi breathing
 	- ## Braindumping < ((67760c3e-10a7-4621-8623-383f44bdaf3c))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- Let's sum up these days with the first story in 2025: ((677e2745-6664-407e-ab5f-3c18319e2e6b))
 		- TODO turn ((677689e6-7163-4e94-ab65-18d3f51e3eb9)) into `{{deadline-warning}}`
 		- ...

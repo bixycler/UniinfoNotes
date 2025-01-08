@@ -17,6 +17,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 			- ((67710747-2982-4134-875e-3b715313db87)); Design ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
+			- Jan 3rd, everything is but a farce 🤣
+				- a random seed was taken for granted, following a whole lot of descendants around it, making a hard core of form, the intensive intent.
+				- Bản chất đều là sự mâu thuẫn giữa cái tưởng, cái mình cho rằng, cái mình mong cầu, với cái thực tế diễn ra. Nhưng nó ra 2 hiện tượng ngược nhau:
+					- nếu mình coi đó là không phải tôi, là kẻ khác, thì mình cười
+					- nếu mình có rằng đó là tôi, thì mình đau khổ và khóc  😂
+				- 😭=😂
+				  The equation of Life!
+					- Copilot: This paradox is often referred to as [incongruity theory](((677e2ce9-2ac6-4763-a9f0-ffb37bd7cdca))) in humor studies.
+					- Incongruity Theory:
+					  id:: 677e2ce9-2ac6-4763-a9f0-ffb37bd7cdca
+						- Definition: This theory suggests that humor arises when there is a disconnect or incongruity between what is expected and what actually occurs. The more serious or unexpected the context, the greater the contrast, and the funnier it becomes.
+						- Paradox of Seriousness and Laughter: The seriousness of the initial situation heightens the incongruity when something funny happens, leading to more intense laughter. This intensification occurs both for the person who starts laughing and for those around them.
+						- Example:
+						  Imagine someone giving a very serious and formal speech, and suddenly something humorous happens, like a loud, unexpected noise. The stark contrast between the serious tone and the unexpected humor can cause an uncontrollable, infectious wave of laughter.
 			- [seeing the karma as the momentum](((677cc7d2-02f7-4ad9-801c-3079237ed465))) ⇒ ((677cc7d2-02f7-4ad9-801c-3079237ed465))
 		- <<End 2025 Stories>>
 		  -----------------------
