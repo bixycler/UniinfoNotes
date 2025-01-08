@@ -57,5 +57,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- squatting in the bathroom, with ujjayi breath, i returned to the zero point and overview the whole entanglement
 				- i decided to just log out and remove apps
 				- i don't deactivate account, because i wan't to leave the [leaving notification](https://www.facebook.com/share/p/1AvDcWFK52/) for others to see.
+		- DOING [Standing wave](https://en.wikipedia.org/wiki/Standing_wave) in the herbal tea bucket
+		  :LOGBOOK:
+		  CLOCK: [2025-01-08 Wed 17:00:18]
+		  CLOCK: [2025-01-08 Wed 17:00:30]
+		  :END:
 		- <<End 2025 Stories>>
 		  -----------------------
