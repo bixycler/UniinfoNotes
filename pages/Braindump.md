@@ -6,32 +6,36 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- ((67760c3e-10a7-4621-8623-383f44bdaf3c))
 	- ## 2025 Braindumps
 	  id:: 67760c3e-10a7-4621-8623-383f44bdaf3c
+	- ### January
+	  id:: 677e7eda-0c5e-413a-8c08-3a1d39352ba9
 		- this [refactoring](((67710747-2982-4134-875e-3b715313db87))) itself is more complicated than i thought!
 		- just take a break, breathe, review...
 		- i must close i eyes...
-		- the “master plan” should be split into the spatial ((67760c43-58c6-40eb-b874-40afae448966)), and the temporal ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
-		- what's the structure of Mind Map?
-		  :LOGBOOK:
-		  CLOCK: [2025-01-02 Thu 16:14:37]
-		  :END:
-			- its roots are the problems and questions
-		- [!] the right sidebar now is very lagging
-		- i've just got a walk outside, wandering around
-			- in a silent space, i could zoom out deep into the mind to see meta-info
-			- [!] the braindumping texts didn't show the overall image!!
-				- for an overview, the most thing can be done with text is to fold them up... that's why i still use folding blocks in Braindumping.
-		- any block (task, issue, quesion) should start in context
-			- then it will be moved out when it's grown big
-		- look into the Problems & Questions in Mind Map, i want to sort and clean them up!
-			- luckily, they are not to much!
-		- How should the braindumps be flushed?
-			- some things should be retained!
-			- the old braindumps should be reviewed and restructured before being flushed
-		- currently, there are 2 ends about the Mind Map, closing the effect circle
-			- forward end: the urge to design it properly
-			- backward end: some questions arised and should be placed into the Mind Map itself
-				- [?] why is the central Mind Map required?
-				- [?] why a strong urge to design it no matter how unclear it is?
+		- “master plan” & ((67760c43-58c6-40eb-b874-40afae448966))
+		  collapsed:: true
+			- the “master plan” should be split into the spatial ((67760c43-58c6-40eb-b874-40afae448966)), and the temporal ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
+			- what's the structure of Mind Map?
+			  :LOGBOOK:
+			  CLOCK: [2025-01-02 Thu 16:14:37]
+			  :END:
+				- its roots are the problems and questions
+			- [!] the right sidebar now is very lagging
+			- i've just got a walk outside, wandering around
+				- in a silent space, i could zoom out deep into the mind to see meta-info
+				- [!] the braindumping texts didn't show the overall image!!
+					- for an overview, the most thing can be done with text is to fold them up... that's why i still use folding blocks in Braindumping.
+			- any block (task, issue, quesion) should start in context
+				- then it will be moved out when it's grown big
+			- look into the Problems & Questions in Mind Map, i want to sort and clean them up!
+				- luckily, they are not to much!
+			- How should the braindumps be flushed?
+				- some things should be retained!
+				- the old braindumps should be reviewed and restructured before being flushed
+			- currently, there are 2 ends about the Mind Map, closing the effect circle
+				- forward end: the urge to design it properly
+				- backward end: some questions arised and should be placed into the Mind Map itself
+					- [?] why is the central Mind Map required?
+					- [?] why a strong urge to design it no matter how unclear it is?
 		- [?] a recurrent task as a reminder
 		  collapsed:: true
 			- Get back to COMPANY WORK!
@@ -62,13 +66,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 		- sleepy meditating...
 		  id:: 677cc7d2-02f7-4ad9-801c-3079237ed465
+		  collapsed:: true
 			- at noon, on the way to company, seeing the karma as the momentum accumulated in our bodies pushing us, making us rush... i want to put all them down... but i also know that nothing can completely stop, the motion just curls inward...
 			- sitting down the chair, i relax and release my mind, then falling asleep.
 			- 2 straight hours sleepy meditation, from 13:00 to 15:00, then half an hour ujjayi breathing
 		- Let's sum up these days with the first story in 2025: ((677e2745-6664-407e-ab5f-3c18319e2e6b))
-	- ## Braindumping < ((67760c3e-10a7-4621-8623-383f44bdaf3c))
+	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ((67760c43-58c6-40eb-b874-40afae448966)): just sow the seed and throw dirt on it!
 			- the seed is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = intentional cause = "final cause" in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes)
 			- dirts are thrown into ((6651adea-46e0-40ea-8fc4-3ef394068b0f)) and ((6651adea-f2f6-4c9e-80b4-ece0bb5038fb))
+			- but just like these hours, the organizing of the dirts upon the tree developed from the seed is
 		- ...
