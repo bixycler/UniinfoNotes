@@ -648,7 +648,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = intentional cause = “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes)
+				- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = intentional cause = “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) = [the horizon](((67445223-9459-4aa9-b102-70c63943577b)))
+					- The intent is the obop of the effect circle.
+					  collapsed:: true
+						- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=521&h=482)
 					- I don't use the term “final cause” because _in a single circle_, it's both the first, as the seed, and the last, as the purpose, and never be “final” throughout the never ending cycle of effect.
 						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
 						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
