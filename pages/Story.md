@@ -16,7 +16,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-01-08 Wed 14:21:01]
 		  :END:
 			- The last weekends of 2025, while working in UTS, i concluded: ((67714850-43c0-4c7f-8b50-838e014b06e0))
-			- ((67710747-2982-4134-875e-3b715313db87)); Design ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
+				- ⇒ ((67710747-2982-4134-875e-3b715313db87))
+				- ⇒ Design ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
 			- Jan 3rd: everything is but a farce 🤣
 				- a random seed was taken for granted, following a whole lot of descendants around it, making a hard core of form, the intensive intent.
 				- Bản chất đều là sự mâu thuẫn giữa cái tưởng, cái mình cho rằng, cái mình mong cầu, với cái thực tế diễn ra. Nhưng nó ra 2 hiện tượng ngược nhau:
@@ -48,6 +49,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [If you speak that filth again, i will bury you alive](https://youtube.com/shorts/6n0uW7OZ8Os)
 					- [Making war](https://youtube.com/shorts/C5dXqHuBA6o)
 					- [How many children died last year](https://youtube.com/shorts/VLJbTbHHz7o)
-			- [seeing the karma as the momentum](((677cc7d2-02f7-4ad9-801c-3079237ed465))) ⇒ ((677cc7d2-02f7-4ad9-801c-3079237ed465))
+			- Yesterday, [seeing the karma as the momentum](((677cc7d2-02f7-4ad9-801c-3079237ed465))) ⇒ ((677cc7d2-02f7-4ad9-801c-3079237ed465))
+			- Many days, i've bee
+			- Last night, i decide to [disconnect from social networks](https://www.facebook.com/share/p/1AvDcWFK52/)
+				- just log out and remove apps
+				- don't deactivate, because i wan't to leave the [leaving notification](https://www.facebook.com/share/p/1AvDcWFK52/) for others to see.
 		- <<End 2025 Stories>>
 		  -----------------------
