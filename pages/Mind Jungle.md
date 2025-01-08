@@ -3009,7 +3009,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-01-02 Thu 15:44:30]
 		  :END:
-			- ### [Intent](((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))) of ((66536578-c4d3-43f1-b35c-bf71120f0570))
 			- Documents
 			  collapsed:: true
 				- ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
@@ -3018,6 +3017,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6653538a-30aa-423f-be89-848ad9c7e331))
 				- ((67760c3e-2ed3-4b91-9698-8dea6913e419))
 				- ((66519638-cf5d-409b-9b98-15acabf2268c))
+			- ### [Intent](((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))) of ((66536578-c4d3-43f1-b35c-bf71120f0570))
+				-
 			- #### Problems
 			  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
 				- ...
@@ -3057,7 +3058,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The [task & issue tracking steps](((66f7af1f-783e-489b-af9c-3ff01fc7d872))) are forgotten many times.
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Beside tracking, i must deploy a **planning** step with ((67714c6b-68b6-4f73-b209-56f5f184c4d9)) method.
 						  id:: 67714aaf-1e7f-4312-9f3c-cb4f06e9b562
-						-
 					- **Perfectionism**
 					  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
 					  collapsed:: true
