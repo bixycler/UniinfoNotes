@@ -65,6 +65,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- The vibration of the water surface is forced by the fan below.
 			- The two parallel straight walls of the bucket creates the straight waveforms, which is more profound than the normal circle waveforms of water in the pot.
+			- This forced vibration is similar to the vibration of the fuil
 			- ![standing-wave-1.jpeg](../assets/Will/story/2025-Jan/standing-wave-1.jpeg)
 			- ![standing-wave.mp4](../assets/Will/story/2025-Jan/standing-wave.mp4)
 			- ![waveform-shift.mp4](../assets/Will/story/2025-Jan/waveform-shift.mp4)
