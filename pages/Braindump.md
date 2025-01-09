@@ -78,6 +78,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- dirts are thrown into ((6651adea-46e0-40ea-8fc4-3ef394068b0f)) and ((6651adea-f2f6-4c9e-80b4-ece0bb5038fb))
 			- but just like these hours, the organizing of the dirts upon the tree developed from the seed is demanding...
 		- About the term ⟪ ((667bef22-b272-4a7d-b613-3f1ed1a47329)) ⟫
-			- causal chain, cause-and-effect chain (CEC), Chain of Causation
+			- causal chain, cause-and-effect chain (CEC), chain of causation
 			- twelve-linked chain of causation [十二因縁] (twelve nidanas, chain of conditions, [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da))
 		- ...
