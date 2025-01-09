@@ -633,15 +633,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the sequence of ((66727858-979d-4d95-8a90-7a749218cfba))s where actions are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)).
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The direction of the effect flow is from **cause** to **effect** which is reprea.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represents the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the main action from the main cause to the main effect is specified and
 				- ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
 			- ### cause
+			  id:: 677f7108-ffa5-4ea7-9a69-eaa355a7569e
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 			- ### condition
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 			- ### influence
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 			- ### effect
+			  id:: 677f509b-f2db-47b1-aafb-5a475334b532
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- ### circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
