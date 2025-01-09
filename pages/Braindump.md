@@ -71,7 +71,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- sitting down the chair, i relax and release my mind, then falling asleep.
 			- 2 straight hours sleepy meditation, from 13:00 to 15:00, then half an hour ujjayi breathing
 		- Let's sum up these days with the first story in 2025: ((677e2745-6664-407e-ab5f-3c18319e2e6b))
+		- ((67760c43-58c6-40eb-b874-40afae448966)): just sow the seed and throw dirt on it!
+		  collapsed:: true
+			- the seed is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = intentional cause = "final cause" in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes)
+			- dirts are thrown into ((6651adea-46e0-40ea-8fc4-3ef394068b0f)) and ((6651adea-f2f6-4c9e-80b4-ece0bb5038fb))
+			- but just like these hours, the organizing of the dirts upon the tree developed from the seed is demanding...
 		- About the term ⟪ ((667bef22-b272-4a7d-b613-3f1ed1a47329)) ⟫
+		  collapsed:: true
 			- causal chain, cause-and-effect chain (CEC), chain of causation
 			- chain of causation [十二因縁] (, [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle)
 				- twelve links of Dependent Origination are called either by dvādaśa-hetupratyaya [十二因縁] or dvādaśa-nidānāni
@@ -79,8 +85,4 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- effect: impact, impression, infection
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- ((67760c43-58c6-40eb-b874-40afae448966)): just sow the seed and throw dirt on it!
-			- the seed is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = intentional cause = "final cause" in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes)
-			- dirts are thrown into ((6651adea-46e0-40ea-8fc4-3ef394068b0f)) and ((6651adea-f2f6-4c9e-80b4-ece0bb5038fb))
-			- but just like these hours, the organizing of the dirts upon the tree developed from the seed is demanding...
 		- ...
