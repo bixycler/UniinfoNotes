@@ -634,7 +634,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the sequence of ((66727858-979d-4d95-8a90-7a749218cfba))s where actions are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)). In effect flow, each ((677f509b-f2db-47b1-aafb-5a475334b532)) is also the ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) of next actions. That means there's no pure effect nor pure cause in ((667bf36a-581a-4abe-b544-2d849608a3e4)), and only non-circular effect flow has such terminals. The effect flow is [interpenetrative](((66eb7dae-2032-434b-9106-756d4aad7cdb))) thanks to its mutual ((677f7100-e650-464a-a835-15a9f28df649))s.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- “Effect flow” versus causal chain, cause-and-effect chain (CEC), chain of causation
-				- While those “chains” are linear laminar flows (streamlines), effect flow can contain many kinds of nonlinearity: eddies as ((667c0031-0a87-44c9-9e98-6d45893b095f))s, interpenetrative mixing through ((677f7100-e650-464a-a835-15a9f28df649))s, branching in both effect cone and cause cone.
+				- While those “chains” are linear laminar flows (streamlines), effect flow can contain many kinds of **nonlinearity**: eddies as ((667c0031-0a87-44c9-9e98-6d45893b095f))s, interpenetrative mixing through ((677f7100-e650-464a-a835-15a9f28df649))s, branching in both effect cone and cause cone.
 				  collapsed:: true
 					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278&h=482)
 				-
@@ -655,7 +655,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general, ((66727858-979d-4d95-8a90-7a749218cfba)) is any ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) within an effect flow. But the term “action” is usually limited to the primaray action of the subject self.
 			- ### effect
 			  id:: 677f509b-f2db-47b1-aafb-5a475334b532
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677f509b-f2db-47b1-aafb-5a475334b532)) is the target of ((66727858-979d-4d95-8a90-7a749218cfba)) arrow in effect flow. Particularly, effect is the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of the target body resulted from the change in the source body.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677f509b-f2db-47b1-aafb-5a475334b532)) is the target of ((66727858-979d-4d95-8a90-7a749218cfba)) arrow in effect flow. Particularly, effect is the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of the target body resulted from the action.
 		- ### circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
