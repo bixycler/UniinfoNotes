@@ -637,15 +637,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
 			- ### cause
 			  id:: 677f7108-ffa5-4ea7-9a69-eaa355a7569e
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general a ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) is any source of the an ((66727858-979d-4d95-8a90-7a749218cfba)). But the term “cause” is usually limited to the primary cause of the primary action relative to the self.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general, a ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) is any source of an ((66727858-979d-4d95-8a90-7a749218cfba)). But the term “cause” is usually limited to the primary cause of the primary action of the self.
 			- ### condition
 			  id:: 677f7104-7fc4-4034-bb08-0dabd80a586f
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, . In the selfless view, “condition” is any ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) of any action.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7104-7fc4-4034-bb08-0dabd80a586f)) is the source of ((677f7100-e650-464a-a835-15a9f28df649)) upon the primary action of the self. In the selfless view, “condition” is any ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) of any action.
 			- ### influence
 			  id:: 677f7100-e650-464a-a835-15a9f28df649
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7100-e650-464a-a835-15a9f28df649)) is the action of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f)) upon the primary action of the self. In the selfless view, “influence” is any ((66727858-979d-4d95-8a90-7a749218cfba)).
 			- ((66727858-979d-4d95-8a90-7a749218cfba))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general, ((66727858-979d-4d95-8a90-7a749218cfba)) is any ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) within an effect flow. But the term “action” is usually limited to the primaray action of the subject self.
 			- ### effect
 			  id:: 677f509b-f2db-47b1-aafb-5a475334b532
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
