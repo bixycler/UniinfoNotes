@@ -632,6 +632,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the sequence of ((66727858-979d-4d95-8a90-7a749218cfba))s where actions are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)).
+		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				-
 			- ### cause
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 			- ### condition
