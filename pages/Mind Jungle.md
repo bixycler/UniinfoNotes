@@ -599,6 +599,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) is the sequence of ((66723642-58f1-4a74-bba3-0108f14c6bac))s where views are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each reference flow is drawn by an ((669a2487-054d-4408-ae41-189e34af81a9)).
 		- ((667bf816-d1c8-4ac3-b315-764c14bfbb1f)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) is in opposite direction with ((667bef22-b272-4a7d-b613-3f1ed1a47329)). This opposition is in the sense of 2 complement arrows in a circle (🔄), and does not mean the exactly backward flow.
 		  id:: 667bf653-a1ea-4a02-8669-a1a70901e9c3
+		  collapsed:: true
 			- In space, all ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) has a corresponding ((667bef22-b272-4a7d-b613-3f1ed1a47329)), and they are usually refined to the degree that they seem to be exactly backward of each other, due to complement circles being refined to points.
 			- [First note on fb](https://www.facebook.com/lxdinh/posts/pfbid034MLTAC99b6LG7pdmNKYia9hKaCiwAapreeqdb3vEWMeBvFUiPUdE2Y467AXj7v89l) about this complementarity was on 30 Nov 2017.
 		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Refer” means to “carry back to the origin” which is opposite to “effect” which is to “act out”.
