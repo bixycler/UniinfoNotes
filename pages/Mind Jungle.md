@@ -632,7 +632,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the sequence of ((66727858-979d-4d95-8a90-7a749218cfba))s where actions are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)).
-		- circular effect flow
+		- ### influence
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+		- ### circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
@@ -649,12 +651,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
 			- ### intentional cause
 			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
-				- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the effect circle = “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) = [the horizon](((67445223-9459-4aa9-b102-70c63943577b)))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) = ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) = “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) = [the horizon](((67445223-9459-4aa9-b102-70c63943577b)))
 				  collapsed:: true
 					- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=521&h=482)
-				- I don't use the term “final cause” because 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 2) throughout the never ending cycle of effect, it will never be “final”.
-					- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
-					- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- I don't use the term “final cause” because 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 2) throughout the never ending cycle of effect, it will never be “final”.
+						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
+						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
