@@ -1205,6 +1205,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			  [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ BACK TO WORK !!! "]
 			  #+END_WARNING
 				- [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ BACK TO WORK !!! "]
+				  collapsed:: true
 					- ```clojure
 					  [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ BACK TO WORK !!! "]
 					  ```
