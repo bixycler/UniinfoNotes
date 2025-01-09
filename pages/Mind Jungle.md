@@ -3311,6 +3311,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														- task 2
 												- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 													- Machines lack effect circle, don't know the "why", the root purpose.
+												- turn all into problem solving
+													- problem = mismatch = distance to target (center)
+													- question = infinite/open problem
+													- problem for knowledge cone <> problem for effect cone
+														- the knowledge cone reflects the effect cone though the interaction between knowledge circle and effect circle:
+														- intent - question - (sub-intent) - answer = knowledge -> action
+														- intent - problem - (sub-intent) - action - result -> new knowledge
+														- this flow of effect gives knowledge to other threads of knowledge
+														- when this flow gets stuck due to the lack of knowledge in this thread, just switch to the next flow waiting in the task list
+														- effect flow = program execution history = braindumping
 						- The effort justification & sunk-cost fallacy
 						  collapsed:: true
 							- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
