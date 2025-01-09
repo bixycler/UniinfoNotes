@@ -599,9 +599,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) is the sequence of ((66723642-58f1-4a74-bba3-0108f14c6bac))s where views are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each reference flow is drawn by an ((669a2487-054d-4408-ae41-189e34af81a9)).
 		- ((667bf816-d1c8-4ac3-b315-764c14bfbb1f)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) is in opposite direction with ((667bef22-b272-4a7d-b613-3f1ed1a47329)). This opposition is in the sense of 2 complement arrows in a circle (🔄), and does not mean the exactly backward flow.
 		  id:: 667bf653-a1ea-4a02-8669-a1a70901e9c3
-		  collapsed:: true
 			- In space, all ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) has a corresponding ((667bef22-b272-4a7d-b613-3f1ed1a47329)), and they are usually refined to the degree that they seem to be exactly backward of each other, due to complement circles being refined to points.
 			- [First note on fb](https://www.facebook.com/lxdinh/posts/pfbid034MLTAC99b6LG7pdmNKYia9hKaCiwAapreeqdb3vEWMeBvFUiPUdE2Y467AXj7v89l) about this complementarity was on 30 Nov 2017.
+		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Refer” means to “carry back to the origin” which is opposite to “effect” which is to “act out”.
 		- circular reference flow
 		  id:: 667bf520-a80c-4b6d-98d8-1f71cae6fb56
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bfebf-a319-46be-a795-d7fc9c156363)), ((667c0481-27f1-4cd4-adcc-390de0e56cb7))
@@ -637,7 +637,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- While those “chains” are linear laminar flows (streamlines), effect flow can contain many kinds of **nonlinearity**: eddies as ((667c0031-0a87-44c9-9e98-6d45893b095f))s, interpenetrative mixing through ((677f7100-e650-464a-a835-15a9f28df649))s, branching in both effect cone and cause cone.
 				  collapsed:: true
 					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278&h=482)
-				-
+				- In constrast with those “chains”, effect flow is similar to the [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle, a.k.a. twelve-linked chain of conditions (dvādaśa-nidānāni, dvādaśa-hetupratyaya [十二因縁]).
 				- The focus on “effect” instead of “cause” is to show the **observable change** and **emergent** property of the flow. Because, the cause is usually hidden and difficult to see, reasoning about cause usually falls into speculation.
 					- Dispel the illusion of “static causes” with the apparently dynamic effect (change).
 					  Just like in the butterfly effect, the very tiny change at the intial condition leads to the giant change in the result, the **apparent staticness** is due to the small scale of the cause, the seed. That impression of a static cause/seed is but an illusion due to our limit of resolution (cannot see its tiny change). In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the tiny intent (cause) is the reciprocal of the huge extent (effect): $i = 1/e$.

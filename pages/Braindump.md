@@ -79,7 +79,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- but just like these hours, the organizing of the dirts upon the tree developed from the seed is demanding...
 		- About the term ⟪ ((667bef22-b272-4a7d-b613-3f1ed1a47329)) ⟫
 			- causal chain, cause-and-effect chain (CEC), chain of causation
-			- twelve-linked chain of causation [十二因縁] (twelve nidanas, chain of conditions, [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle)
+			- chain of causation [十二因縁] (, [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle)
 				- twelve links of Dependent Origination are called either by dvādaśa-hetupratyaya [十二因縁] or dvādaśa-nidānāni
 			- cause: affect, reference (carry back to the origin) <> effect (act out)
 			- effect: impact, impression, infection
