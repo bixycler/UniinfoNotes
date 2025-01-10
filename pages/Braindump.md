@@ -100,7 +100,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
-		- Here, we're seeing the branching from ((67714850-43c0-4c7f-8b50-838e014b06e0)) to...
+		- Here, we're seeing the branching from ⟪ ((67714850-43c0-4c7f-8b50-838e014b06e0)) ⟫ to...
 			- ((67710747-2982-4134-875e-3b715313db87))
 			- ((67715d03-9dbc-42b0-8589-064396a9c52b))
 				- ((677e7fdb-6da2-47b6-8a07-2de0f1216881))
@@ -108,4 +108,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
 			- ((677e6f51-6670-497b-8697-05b9e057a0ff))
 				- ((677fca96-1e71-4af7-9a99-1c751d145358))
+					- ((677fcaba-d2ca-4afd-9698-b33255a774e0))
+					- ⇒ ((67810b96-586f-49fc-a26e-8ea4139b5816))
+			- refine the ((667bef22-b272-4a7d-b613-3f1ed1a47329))
+			  id:: 67810b96-586f-49fc-a26e-8ea4139b5816
+				- ((677f9ae2-f7bc-47a7-a7e3-4dda29d9d834))
+				- ((6780bc66-29b3-43f7-b577-698bae51aadf))
+			- This very problem of task branching is the “[problem of duck dive](((67714850-43c0-4c7f-8b50-838e014b06e0)))” and the cause of the whole lot of
 		- ...

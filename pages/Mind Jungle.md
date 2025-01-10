@@ -3349,7 +3349,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 												  id:: 677fca96-1e71-4af7-9a99-1c751d145358
 													- problem = mismatch = distance to target (center)
 													- question = infinite/open problem
-													- problem for knowledge cone <> problem for effect cone
+													- question for knowledge cone <> problem for effect cone
+													  id:: 677fcaba-d2ca-4afd-9698-b33255a774e0
 														- the knowledge cone reflects the effect cone though the interaction between knowledge circle and effect circle:
 														- intent - question - (sub-intent) - answer = knowledge -> action
 														- intent - problem - (sub-intent) - action - result -> new knowledge
