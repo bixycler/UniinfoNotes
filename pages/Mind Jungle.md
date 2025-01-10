@@ -645,8 +645,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Effect flow = wave propagation in a (highly distorted) field, in a landscape of possibilities
 				- conditioning = training = programming = space distortion = field formation = landscape shaping
 				- mutual influence = interaction in the field; force field = field of influence
-				- influence of condition on the self = execution
-					- action is just the result of influence; no action exists apart from influence & condition
+				- influence of condition on the self = program execution to [drive the self particle in the field](((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)))
+					- Self's action is just the result of influence; No action exists apart from influence & condition.
 				-
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834
