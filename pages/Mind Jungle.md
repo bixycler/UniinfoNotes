@@ -3049,6 +3049,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Japanese name: LÊ Harusada
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Personal info:
+			- CCCD: `092082007320`
+				- CMND: `025145607`
+			- MST: `8040166197`
+			- HTV staff ID: `230320029`
 		- ### DOING Mind Map
 		  id:: 67760c43-58c6-40eb-b874-40afae448966
 		  :LOGBOOK:
