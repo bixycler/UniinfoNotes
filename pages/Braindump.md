@@ -97,10 +97,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- > the nature of wave propagation
 				- from this discussion: ((6780bc09-6c98-42ed-bbd1-ff940c2a1d10))
 				- ((67810168-747f-4bb5-9594-5c07bddf7041))
-	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
 		- Here, we're seeing the branching from ⟪ ((67714850-43c0-4c7f-8b50-838e014b06e0)) ⟫ to...
+		  collapsed:: true
 			- ((67710747-2982-4134-875e-3b715313db87))
 			- ((67715d03-9dbc-42b0-8589-064396a9c52b))
 				- ((677e7fdb-6da2-47b6-8a07-2de0f1216881))
@@ -116,4 +114,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- ((6780bc66-29b3-43f7-b577-698bae51aadf))
 			- This very problem of task branching is the “[problem of duck dive](((67714850-43c0-4c7f-8b50-838e014b06e0)))” and the cause of the whole lot of these works themselves: refactor, design “master plan” & “Mind Map”, etc.!
 				- It's really a trek in the jungle!
+	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
 		- ...
