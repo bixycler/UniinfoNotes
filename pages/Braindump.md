@@ -92,5 +92,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- even when the editing work finished, i didn't want to switch to company work...
 			- observing the feeling, i see ... because there's still a pending quest(ion) from last night:
 				- > the nature of wave propagation
-				- Wave propagation is simply the
+				- from this discussion: ((6780bc09-6c98-42ed-bbd1-ff940c2a1d10))
+				- ((67810168-747f-4bb5-9594-5c07bddf7041))
 		- ...
