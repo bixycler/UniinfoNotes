@@ -658,7 +658,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Forward influences: In this process, the agent receives influences from the terrain, the objects and the subjects in the field. These factors affect the agent's direction and their influences accumulate in the agent's records, determining the result of the mission.
 					- Backward influences: While working in the field, the agent also removes obstructing objects, makes minor changes to the terrain, and exerts influence on other subjects through communication.
 				- Effect: As the outcome of the effect flow, the effect is whatever the field agent delivers at the destination after completing all the work in the field.
-				- Effect flow: The total effect is not only the outcome (the final effect) but the whole propagation of changes and influences throughout the course of the mission. of the initial cause flows out in the field through the field agent
+				- Effect flow: The total effect is not only the outcome (the final effect) but the whole propagation of changes and influences from the initial cause throughout the course of the mission. The while the primary and intended effect flows with the field agent from the initial cause to the final effect, various secondary and side effects ripple out through influences back upon the whole field. The primary effect itself not only results from the initial cause but is accumulated from all the influences of the whole field.
 				- Relativity of the self:
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834
