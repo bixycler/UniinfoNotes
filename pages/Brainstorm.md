@@ -6,14 +6,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ...
 		- to be flushed down!
-		- DOING ((667bef22-b272-4a7d-b613-3f1ed1a47329)) = wave propagation = traversing of the omnifold by itself = fundamental operation in Unithread
-		  id:: 67810168-747f-4bb5-9594-5c07bddf7041
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-01-10 Fri 18:15:55]
-		  CLOCK: [2025-01-10 Fri 18:16:10]
-		  :END:
-			- ...
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- [pipe wrapping](((670cdcb4-3c85-45af-8c30-3c3284ed37df))) = signal piping = message conveyance

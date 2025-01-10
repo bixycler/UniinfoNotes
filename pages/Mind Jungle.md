@@ -662,6 +662,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Effect: As the outcome of the effect flow, the effect is whatever the field agent delivers at the destination after completing all the work in the field.
 				- Effect flow: The total effect is not only the outcome (the final effect) but the whole propagation of changes and influences from the initial cause throughout the course of the mission. While the primary and intended effect flows with the field agent from the initial cause to the final effect, various secondary and side effects ripple out through influences back upon the whole field. The primary effect itself not only results from the initial cause but is also accumulated from influences of the whole field.
 				- Relativity of the self: There are many different offices in the field. A field agent can choose one office to work for, which it considers as “*my office* giving *my cause* for me to produce *my effect*”, here called “the office”, “the cause” and “the effect”. Actually, the effect of “the cause” is not only “the effect” but also included in the outcomes of all other missions that have interactions with this field agent. That means the linear relation from “the cause” to “the effect” is just relative to the choice of office, i.e. of the self.
+			- TODO ((667bef22-b272-4a7d-b613-3f1ed1a47329)) = wave propagation = traversing of the ((675c03d8-3185-41a8-9f98-e869fabec793)) by itself = fundamental operation in Unithread
+			  id:: 67810168-747f-4bb5-9594-5c07bddf7041
+			  :LOGBOOK:
+			  CLOCK: [2025-01-10 Fri 18:35:42]
+			  :END:
+				- ...
+			-
 			-
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834

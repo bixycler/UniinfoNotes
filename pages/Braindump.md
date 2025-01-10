@@ -84,14 +84,18 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- cause: affect, reference (carry back to the origin) <> effect (act out)
 			- effect: impact, impression, infection
 		- Just another whole day consumed into the edit of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
+		  collapsed:: true
 			- ((6780bc66-29b3-43f7-b577-698bae51aadf))
 			- broken plan: i wanted to do the company work of "locking build-deploy"
-	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- i've just had brief nap (just relaxed not really slept) and realized:
+		  collapsed:: true
 			- even when the editing work finished, i didn't want to switch to company work...
 			- observing the feeling, i see ... because there's still a pending quest(ion) from last night:
 				- > the nature of wave propagation
 				- from this discussion: ((6780bc09-6c98-42ed-bbd1-ff940c2a1d10))
 				- ((67810168-747f-4bb5-9594-5c07bddf7041))
+	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
+		- Here
 		- ...
