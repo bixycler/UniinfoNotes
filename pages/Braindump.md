@@ -83,7 +83,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- twelve links of Dependent Origination are called either by dvādaśa-hetupratyaya [十二因縁] or dvādaśa-nidānāni
 			- cause: affect, reference (carry back to the origin) <> effect (act out)
 			- effect: impact, impression, infection
+		- Just another whole day consumed into the edit of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
+			- ((6780bc66-29b3-43f7-b577-698bae51aadf))
+			- broken plan: i wanted to do the company work of "locking build-deploy"
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Just another whole day consumed into the
+		- i've just had brief nap (just relaxed not really slept) and realized:
+			- even when the editing work finished, i didn't want to switch to company work...
+			- observing the feeling, i see ... because there's still a pending quest(ion) from last night:
+				- > the nature of wave propagation
+				- Wave propagation is simply the
 		- ...
