@@ -642,9 +642,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The focus on “effect” instead of “cause” is to show the **observable change** and **emergent** property of the flow. Because the cause is usually hidden and difficult to see, reasoning about cause usually falls into speculation.
 					- Dispel the illusion of “static causes” with the apparently dynamic effect (change).
 					  Just like in the butterfly effect, the very tiny change at the intial condition leads to the giant change in the result, the **apparent staticness** is due to the small scale of the cause, the seed. That impression of a static cause/seed is but an illusion due to our limit of resolution (cannot see its tiny change). In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the tiny intent (cause) is the reciprocal of the huge extent (effect): $i = 1/e$.
-			- Effect flow = wave propagation in a (highly distorted) field
-				- influence = interaction in the field
-				- conditioning = training = programming = space distortion = field formation;
+			- Effect flow = wave propagation in a (highly distorted) field, in the landscape of possibilities
+				- conditioning = training = programming = space distortion = field formation
+				- mutual influence = interaction in the field; force field = field of influence
 				- influencing = executing
 					- => action is just the result of influence; no action exists apart from influence & condition
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
