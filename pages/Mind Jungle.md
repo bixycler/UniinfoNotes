@@ -649,13 +649,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- influence of condition on the self = program execution to [drive the self particle in the field](((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)))
 					- Self's action is just the result of influence; No action exists apart from influence & condition.
 			- Example: effect flow of a mission via a field agent in the field
-				- Cause: As the source of the effect flow, the cause of this mission is what the field agent receives in the office: task to be done, problem to be solved, etc.
-				- Condition: The condition for this mission is everything in the field: the configuration of the field, other subjects in the field, etc.
-				- Action: The field agent carries out the mission through the field and deliver result to the assigned destination.
-				- Influences: As the field agent works in the field, it navigates the terrain of the field to go to places to meet and communicate with other subjects in order to accomplish the mission.
-					- Forward influences: In this process, the agent receives influences from the terrain, the objects and the subjects in the field. They affect the agent's direction and their influences accumulate in the agent's records which determine the result of the mission.
-					- Backward influences: In the course of working in the field, the agent also removes obstructing objects, minorly changes some terrain, and gives a lot of influence back to other subjects while communicating with them.
-				- Effect: As the target of the effect flow, its effect is whatever the field agent delivers at the destination after
+				- Cause: As the source of the effect flow, the cause of this mission is what the field agent receives in the office: a task to be done, a problem to be solved, etc.
+				- Condition: The condition for this mission includes everything in the field: the configuration of the field, other subjects in the field, etc.
+				- Action: The field agent carries out the mission through the field and deliver the result to the assigned destination.
+				- Influences: As the field agent works in the field, it navigates the terrain, meet and communicate with other subjects in order to accomplish the mission.
+					- Forward influences: In this process, the agent receives influences from the terrain, the objects and the subjects in the field. These factors affect the agent's direction and their influences accumulate in the agent's records, determining the result of the mission.
+					- Backward influences: While working in the field, the agent also removes obstructing objects, makes minor changes to the terrain, and exerts influence on other subjects through communication.
+				- Effect: As the target of the effect flow, the effect is whatever the field agent delivers at the destination after completing all the work in the field.
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the primary action of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Other secondary actions are ((677f7100-e650-464a-a835-15a9f28df649))s from the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self.
