@@ -650,8 +650,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Self's action is just the result of influence; No action exists apart from influence & condition.
 			- Example: effect flow of a mission via a field agent in the field
 				- Cause: As the source of the effect flow, the cause of this mission is what the field agent receives in the office: task to be done, problem to be solved, etc.
-				- Condition: The condition for this mission is everything in the field: the configuration of the field, peoples in the field, etc.
-				-
+				- Condition: The condition for this mission is everything in the field: the configuration of the field, other subjects in the field, etc.
+				- Action: The field agent carries out the mission through the field and deliver result to the assigned destination.
+				- Influences: As the field agent works in the field, it
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the primary action of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Other secondary actions are ((677f7100-e650-464a-a835-15a9f28df649))s from the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self.
