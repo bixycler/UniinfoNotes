@@ -12,6 +12,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- just take a break, breathe, review...
 		- i must close i eyes...
 		- “master plan” & ((67760c43-58c6-40eb-b874-40afae448966))
+		  id:: 677e7fdb-6da2-47b6-8a07-2de0f1216881
 		  collapsed:: true
 			- the “master plan” should be split into the spatial ((67760c43-58c6-40eb-b874-40afae448966)), and the temporal ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
 			- what's the structure of Mind Map?
@@ -37,6 +38,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 					- [?] why is the central Mind Map required?
 					- [?] why a strong urge to design it no matter how unclear it is?
 		- [?] a recurrent task as a reminder
+		  id:: 677681e5-6322-4925-8923-19cd791cfe15
 		  collapsed:: true
 			- Get back to COMPANY WORK!
 			  id:: 67768438-13eb-43f7-abdd-2759d9b7f616
@@ -74,6 +76,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- ((67760c43-58c6-40eb-b874-40afae448966)): just sow the seed and throw dirt on it!
 		  collapsed:: true
 			- the seed is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = intentional cause = "final cause" in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes)
+			  id:: 677e6f51-6670-497b-8697-05b9e057a0ff
 			- dirts are thrown into ((6651adea-46e0-40ea-8fc4-3ef394068b0f)) and ((6651adea-f2f6-4c9e-80b4-ece0bb5038fb))
 			- but just like these hours, the organizing of the dirts upon the tree developed from the seed is demanding...
 		- About the term ⟪ ((667bef22-b272-4a7d-b613-3f1ed1a47329)) ⟫
@@ -97,5 +100,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
-		- Here
+		- Here, we're seeing the branching from ((67714850-43c0-4c7f-8b50-838e014b06e0)) to...
+			- ((67710747-2982-4134-875e-3b715313db87))
+			- ((67715d03-9dbc-42b0-8589-064396a9c52b))
+				- ((677e7fdb-6da2-47b6-8a07-2de0f1216881))
+			- ((677681e5-6322-4925-8923-19cd791cfe15))
+				- ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
+			- ((677e6f51-6670-497b-8697-05b9e057a0ff))
+				- ((677fca96-1e71-4af7-9a99-1c751d145358))
 		- ...

@@ -3271,7 +3271,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  CLOCK: [2024-12-29 Sun 21:06:08]
 								  :END:
 									- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
-									- DOING Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
+									- Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
 									  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
 									  collapsed:: true
 									  :LOGBOOK:
@@ -3302,7 +3302,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														- ((67762e67-bcfc-403b-a314-44213523f905))
 													- ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
 														- ((67760c43-d4fb-43e3-ab23-16720723f800))
-										- DOING Matter plan: 
+										- Matter plan: 
 										  id:: 67760c43-5cbd-4b4f-8fd9-5cedf804f56a
 										  :LOGBOOK:
 										  CLOCK: [2025-01-02 Thu 14:44:16]
@@ -3345,7 +3345,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														- task 2
 												- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 													- Machines lack effect circle, don't know the "why", the root purpose.
-												- turn all into problem solving
+												- turn all works into **problem solving** works _around the **intent**_
+												  id:: 677fca96-1e71-4af7-9a99-1c751d145358
 													- problem = mismatch = distance to target (center)
 													- question = infinite/open problem
 													- problem for knowledge cone <> problem for effect cone
