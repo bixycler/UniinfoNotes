@@ -114,5 +114,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  id:: 67810b96-586f-49fc-a26e-8ea4139b5816
 				- ((677f9ae2-f7bc-47a7-a7e3-4dda29d9d834))
 				- ((6780bc66-29b3-43f7-b577-698bae51aadf))
-			- This very problem of task branching is the “[problem of duck dive](((67714850-43c0-4c7f-8b50-838e014b06e0)))” and the cause of the whole lot of
+			- This very problem of task branching is the “[problem of duck dive](((67714850-43c0-4c7f-8b50-838e014b06e0)))” and the cause of the whole lot of these works themselves: refactor, design “master plan” & “Mind Map”, etc.!
+				- It's really a trek in the jungle!
 		- ...
