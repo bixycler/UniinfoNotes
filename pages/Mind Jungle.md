@@ -3250,7 +3250,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- ...
 									- “Bringing the horizon right beneath the feet”
 										- Gemini's interpretation:
-										  >
+										  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
+									- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
 								- Let's restart from the way/attitude of looking at everything!
 									- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
 									- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
