@@ -88,7 +88,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  With renewed determination, Kai climbed the final stretch, reaching the summit. As he stood there, the world below seemed to stretch out endlessly, and the wind carried a new melody, a song of peace and clarity. He looked within himself, seeing his flaws, but also the strength of his spirit, the unwavering devotion that had brought him to this point.
 				  Descending the mountain, Kai was no longer just a disciple, but a student of his own soul. He carried the lessons of the Mountain of Whispers with him, sharing his newfound understanding with others, proving that even the most challenging mountains can lead to the most profound revelations within oneself.
 			- Chuyện [Ngu Công Di Sơn 愚公移山](https://en.wikipedia.org/wiki/The_Foolish_Old_Man_Removes_the_Mountains)
-			- 「青山常運歩」&「東山水上行」in [山水経 > 第１０文段](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html#10bundan), i.e. [Mountains and Waters Sutra (Sansui kyō)](https://en.wikipedia.org/wiki/Sansui_ky%C5%8D)
+			- 「青山常運歩」&「東山水上行」in [山水経](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html), i.e. [Mountains and Waters Sutra (Sansui kyō)](https://en.wikipedia.org/wiki/Sansui_ky%C5%8D)
+				- [第２文段](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html#2bundan)
+					- > 大陽山（たいようざん）楷和尚示衆に云く、「** 青山常運歩、石女夜生児**」。
+					- Note:
+					  > 大陽山楷和尚：芙蓉道楷（ふようどうかい）禅師（１１４３～１１１８）。
+						- Đại Dương Sơn (Khải hoà thượng) = Phù Dung Đạo Khải (!?)
+				- [第１０文段](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html#10bundan)
+					- > 雲門匡眞大師いはく、**東山水上行**。
+			-
 		- ...
 		- <<End 2025 Stories>>
 		  -----------------------
