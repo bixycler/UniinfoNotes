@@ -77,6 +77,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-01-12 Sun 14:27:25]
 		  :END:
 			-
+		- Núi chẳng dời thì ta dời!
+			- [Núi chẳng dời thì ta dời! & Chân lý tuyệt đối là cái lý có chân!](https://creatzynotes.blogspot.com/2012/01/nhung-mau-chuyen-pha-chap.html)
 		- ...
 		- <<End 2025 Stories>>
 		  -----------------------
