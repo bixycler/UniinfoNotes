@@ -7,7 +7,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	- ## 2025 Stories
 	  id:: 67763a41-4ad6-449f-9d9b-d63ce417082c
-		- ...
 		- Disconnect from the outside to reconnect to the inside
 		  id:: 677e2745-6664-407e-ab5f-3c18319e2e6b
 		  collapsed:: true
@@ -71,5 +70,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- ![standing-wave-1.jpeg](../assets/Will/story/2025-Jan/standing-wave-1.jpeg)
 			- ![standing-wave.mp4](../assets/Will/story/2025-Jan/standing-wave.mp4)
 			- ![waveform-shift.mp4](../assets/Will/story/2025-Jan/waveform-shift.mp4)
+		- Anh Hải mất
+		  id:: 67836ec6-0e46-4a3f-80d9-b27476d12095
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-01-12 Sun 14:27:25]
+		  :END:
+			-
+		- ...
 		- <<End 2025 Stories>>
 		  -----------------------

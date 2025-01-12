@@ -117,4 +117,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
+		- i want to write today's story, ((67836ec6-0e46-4a3f-80d9-b27476d12095)), but too sleepy... just take a nap!
 		- ...
