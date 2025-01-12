@@ -3256,6 +3256,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- [Déyé món gen món](https://asfehaiti.wordpress.com/2015/12/16/deye-mon-gen-mon/)
 										  Haitian Creole proverb meaning “beyond mountains there are mountains”.
 										- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
+										- “When you have reached the top of the mountain, keep climbing!”
+										  a (Tibetan Zen) proverb
 								- Let's restart from the way/attitude of looking at everything!
 									- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
 									- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
