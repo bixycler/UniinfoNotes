@@ -70,7 +70,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- ![standing-wave-1.jpeg](../assets/Will/story/2025-Jan/standing-wave-1.jpeg)
 			- ![standing-wave.mp4](../assets/Will/story/2025-Jan/standing-wave.mp4)
 			- ![waveform-shift.mp4](../assets/Will/story/2025-Jan/waveform-shift.mp4)
-		- Anh Hải mất
+		- DOING Anh Hải mất
 		  id:: 67836ec6-0e46-4a3f-80d9-b27476d12095
 		  collapsed:: true
 		  :LOGBOOK:

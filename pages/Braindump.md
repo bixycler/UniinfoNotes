@@ -118,4 +118,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
 		- i want to write today's story, ((67836ec6-0e46-4a3f-80d9-b27476d12095)), but too sleepy... just take a nap!
+		- i was sucked into 2 other stories when reading my CreatZy Notes
+			- ((6783cfaa-7181-45d0-a9e3-428aa89cf5e3))
+			- ((67445223-9459-4aa9-b102-70c63943577b))
 		- ...
