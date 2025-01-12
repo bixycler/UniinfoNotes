@@ -78,6 +78,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			-
 		- Núi chẳng dời thì ta dời!
+		  id:: 6783cfaa-7181-45d0-a9e3-428aa89cf5e3
 		  collapsed:: true
 			- [Núi chẳng dời thì ta dời! & Chân lý tuyệt đối là cái lý có chân!](https://creatzynotes.blogspot.com/2012/01/nhung-mau-chuyen-pha-chap.html)
 			- Google AI's story of the disciple Kai climbing the Mountain of Whispers
@@ -94,6 +95,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Note:
 					  > 大陽山楷和尚：芙蓉道楷（ふようどうかい）禅師（１１４３～１１１８）。
 						- Đại Dương Sơn (Khải hoà thượng) = Phù Dung Đạo Khải (!?)
+						- “Khải hoà thượng” là một nhân vật phổ biến trong các truyện thiền.
 				- [第１０文段](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html#10bundan)
 					- > 雲門匡眞大師いはく、**東山水上行**。
 			-
