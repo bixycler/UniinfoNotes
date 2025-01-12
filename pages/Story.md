@@ -88,6 +88,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  With renewed determination, Kai climbed the final stretch, reaching the summit. As he stood there, the world below seemed to stretch out endlessly, and the wind carried a new melody, a song of peace and clarity. He looked within himself, seeing his flaws, but also the strength of his spirit, the unwavering devotion that had brought him to this point.
 				  Descending the mountain, Kai was no longer just a disciple, but a student of his own soul. He carried the lessons of the Mountain of Whispers with him, sharing his newfound understanding with others, proving that even the most challenging mountains can lead to the most profound revelations within oneself.
 			- Chuyện [Ngu Công Di Sơn 愚公移山](https://en.wikipedia.org/wiki/The_Foolish_Old_Man_Removes_the_Mountains)
+			- [山水経](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html#10bundan)
 		- ...
 		- <<End 2025 Stories>>
 		  -----------------------
