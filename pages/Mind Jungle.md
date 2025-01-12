@@ -3252,6 +3252,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- Gemini's interpretation:
 										  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
 									- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
+										- [一山還有一山高](https://en.wiktionary.org/wiki/%E4%B8%80%E5%B1%B1%E9%82%84%E6%9C%89%E4%B8%80%E5%B1%B1%E9%AB%98)
+										- [Déyé món gen món]()
+										  Haitian Creole proverb meaning
+										- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
 								- Let's restart from the way/attitude of looking at everything!
 									- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
 									- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
