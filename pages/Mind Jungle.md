@@ -3248,6 +3248,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- 😮 Làm sao có thể được...
 											- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
 											- ...
+									- “Bringing the horizon right beneath the feet”
+										- Gemini's interpretation:
+										  >
 								- Let's restart from the way/attitude of looking at everything!
 									- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
 									- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
