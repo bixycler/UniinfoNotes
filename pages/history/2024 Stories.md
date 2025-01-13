@@ -711,6 +711,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- Don't chase the future: ((67445065-15b2-475e-a704-78f140d487af))
 			- Don't get stuck with the past: ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
 			- Stay in the present: stay firm with [ujjayi](((66952126-bf33-40e1-a208-369df7aa9488))) = orgasm all the time! = hold firmly on the lanyard/leash connecting to the ((66ab7477-c060-4d07-ab13-bc3d11246854)) but not too tight
+			  id:: 6772a6d5-a3a5-4fd9-b923-08031a5cd0aa
 				- It's simlar to how Cesar the dog trainer [handled a terrified dog](https://youtu.be/xTkMT2I1Kl0) with a firm but flexible leash hold.
 				  collapsed:: true
 					- {{video https://youtu.be/xTkMT2I1Kl0}}
