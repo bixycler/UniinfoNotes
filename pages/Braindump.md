@@ -124,5 +124,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  id:: 6784871c-20b5-4ecc-ab02-70b4542690db
 		- last night waiting for my wife to help sister 7 selling, we returned home late... and slept at 4 AM
 		- this morning i heard the alarm at 9 AM but lay more for 30 minutes
-		- on the way to company, i see “the last frontier”
+		- on the way to company, i see “the last frontier” is the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness both in theory and in practical quest for my liberation.
+			-
 		- ...
