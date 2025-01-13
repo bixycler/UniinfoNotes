@@ -83,8 +83,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- the key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
 					- Etymology: “[traverse](https://en.wiktionary.org/wiki/traverse)” ← Latin “[traversare](https://en.wiktionary.org/wiki/traversare)” was the [vulgar version of “trānsversāre”](https://www.etymonline.com/search?q=traverse) ← “[trānsversus](https://en.wiktionary.org/wiki/transversus)” → “[transverse](https://en.wiktionary.org/wiki/transverse)”
 					- “through” = “thông qua” [通過]
-					- “cross” = “vượt qua” [通過]
-					- [fb post](https://www.facebook.com/share/p/1HF14K3nYa/) about “pāragate” 
+						- “throughness” is the most important property in qigong, just like a [through horse](https://en.wikipedia.org/wiki/Throughness).
+					- “cross” = “vượt qua” [[越過](https://en.wiktionary.org/wiki/%E8%B6%8A%E9%81%8E)]: cross over, [surpass](https://en.wiktionary.org/wiki/surpass), go beyond, [transcend](https://en.wiktionary.org/wiki/transcend)
+					- [fb post](https://www.facebook.com/share/p/1HF14K3nYa/) about “pāragate” in the [Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Mantra)
 					  collapsed:: true
 					  > ﻿गते गते पारगते पारसंगते बोधि स्वाहा
 					  > Gate gate pāragate pārasaṃgate bodhi svāhā
