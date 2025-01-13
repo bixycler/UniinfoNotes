@@ -97,7 +97,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- > the nature of wave propagation
 				- from this discussion: ((6780bc09-6c98-42ed-bbd1-ff940c2a1d10))
 				- ((67810168-747f-4bb5-9594-5c07bddf7041))
-		- Here, we're seeing the branching from ⟪ ((67714850-43c0-4c7f-8b50-838e014b06e0)) ⟫ to...
+		- Here, we're witnessing the branching from ⟪ ((67714850-43c0-4c7f-8b50-838e014b06e0)) ⟫ to...
 		  collapsed:: true
 			- ((67710747-2982-4134-875e-3b715313db87))
 			- ((67715d03-9dbc-42b0-8589-064396a9c52b))
