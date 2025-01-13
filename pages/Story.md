@@ -70,14 +70,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- ![standing-wave-1.jpeg](../assets/Will/story/2025-Jan/standing-wave-1.jpeg)
 			- ![standing-wave.mp4](../assets/Will/story/2025-Jan/standing-wave.mp4)
 			- ![waveform-shift.mp4](../assets/Will/story/2025-Jan/waveform-shift.mp4)
-		- DOING Brother Hải decease & my “last frontier” of ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness
+		- Brother Hải decease & my “last frontier” of ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness
 		  id:: 67836ec6-0e46-4a3f-80d9-b27476d12095
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-01-12 Sun 14:27:25]
+		  CLOCK: [2025-01-12 Sun 14:27:25]--[2025-01-13 Mon 17:40:40] =>  27:13:15
 		  :END:
 			- Yesterday, Sunday 12th, we sent brother Hải's body to Bình Hưng Hoà crematorium.
-			- With this event, i
+			- On this occation, i reminded my wife about the renunciation of material and bodily attachements.
 			- Last night waiting for my wife to help sister 7 selling, we returned home late... and slept at 4 AM.
 			- This morning, Monday 13th, i heard the alarm at 9 AM but lay more for 30 minutes.
 			- On the way to company, i see “the last frontier” is the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness both in theory and in practical quest for my liberation.
