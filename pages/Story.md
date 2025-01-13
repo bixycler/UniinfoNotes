@@ -86,7 +86,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The way to make it “occupied” is to [hold firmly on the lanyard/leash](((6772a6d5-a3a5-4fd9-b923-08031a5cd0aa))), with ujjayi breath.
 					- There are 2 suction nozzles: the emptiness and the deep feeling of something “unfinished”.
 						- I have much less problem with the emptiness, but i've witnessed it seriously some times when i let it affect me, like this: ((6752f2ae-a019-400c-9a13-ede363f665ff)).
-						- Most of my problem is the struggle between the things must be done and the urge to finish my internal things
+						- Most of my problem is the struggle between the things must be done and the strong urge to finish my internal things: ((0f9f9026-152c-46b5-964b-c6e1019cc584))
 					- The vague feeling deep inside is just like the itch begging for a scratch!
 					  id:: 0f9f9026-152c-46b5-964b-c6e1019cc584
 					  collapsed:: true

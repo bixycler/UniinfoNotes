@@ -121,9 +121,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  id:: 6784871c-20b5-4ecc-ab02-70b4542690db
 		- on the way to company, i see “[the last frontier](((67836ec6-0e46-4a3f-80d9-b27476d12095)))” is the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness both in theory and in practical quest for my liberation.
 			-
-	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- I was sucked into various  technical details of [trans](((67849429-a90c-45a9-a6ae-dcdd61f7580f))) and [itch](((0f9f9026-152c-46b5-964b-c6e1019cc584))).
 		- Only after stepping back from these details, do i remember the main point: ((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))
+	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
 		- ...
