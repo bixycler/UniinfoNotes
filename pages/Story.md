@@ -82,6 +82,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- the vague feeling inside is just like the itch!
 				- the key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
 					- Etymology: “[traverse](https://en.wiktionary.org/wiki/traverse)” ← Latin “[traversare](https://en.wiktionary.org/wiki/traversare)” was the [vulgar version of “trānsversāre”](https://www.etymonline.com/search?q=traverse) ← “[trānsversus](https://en.wiktionary.org/wiki/transversus)” → “[transverse](https://en.wiktionary.org/wiki/transverse)”
+					- “through” = “thông qua” [通過]
+					- “cross” = “vượt qua” [通過]
+			-
 		- Núi chẳng dời thì ta dời!
 		  id:: 6783cfaa-7181-45d0-a9e3-428aa89cf5e3
 		  collapsed:: true
