@@ -76,7 +76,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-01-12 Sun 14:27:25]
 		  :END:
-			- Yesterday, Sunday 12th, we
+			- Yesterday, Sunday 12th, we sent brother Hải's body to Bình Hưng Hoà crematorium.
+			- With this event, i
 			- Last night waiting for my wife to help sister 7 selling, we returned home late... and slept at 4 AM.
 			- This morning, Monday 13th, i heard the alarm at 9 AM but lay more for 30 minutes.
 			- On the way to company, i see “the last frontier” is the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness both in theory and in practical quest for my liberation.
