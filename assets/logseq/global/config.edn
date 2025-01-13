@@ -2893,6 +2893,107 @@
     #+END_QUERY
     
   "
+
+  ;;Show notification depending on the current time relative to time stamps
+  ;; defined in `scheduled::` and `deadline::` properties.
+  ;; 1. Show task ($2) if now < scheduled time
+  ;; 2. Show warning ($3) if scheduled time < now < deadline
+  ;; 3. Show error ($4) if deadline < now
+  :deadline-warning
+  "$1
+    #+BEGIN_QUERY
+    {;:title [\"Deadline warning\"]  ; replaced by $.1 above #+BEGIN_QUERY
+      :inputs [
+        :today ; ?today
+        :today-start ; ?today-ms
+        :right-now-ms ; ?now-ms
+        [:block/uuid #uuid \"$2\"]  ;  ?task
+        [:block/uuid #uuid \"$3\"]  ;  ?warning
+        [:block/uuid #uuid \"$4\"]  ;  ?error
+      ]
+      :query [
+        :find (pull ?b [*]) ;  ?date-time ?scheduled-date-time ?deadline-date-time
+        :in $ ?today ?today-ms ?now-ms ?task ?warning ?error %
+        :where 
+            ; get ?scheduled & ?deadline date-time
+            ;[?task :block/scheduled ?scheduled] 
+            ;[?task :block/deadline ?deadline] 
+            [?task :block/properties ?props]
+            [(get ?props :scheduled false) ?scheduled]
+            [(get ?props :deadline false) ?deadline]
+            ;
+            ; extract yyyy:MM:dd HH:mm:ss from ?scheduled & ?deadline
+            [(re-pattern \"<(....-..-..) ... (..:..)>\") ?pat-date-wd-time]
+            [(re-seq ?pat-date-wd-time ?scheduled) ([_ ?scheduled-date ?scheduled-time]) ]
+            [(str ?scheduled-date \" \" ?scheduled-time) ?scheduled-date-time]
+            [(re-seq ?pat-date-wd-time ?deadline) ([_ ?deadline-date ?deadline-time]) ]
+            [(str ?deadline-date \" \" ?deadline-time) ?deadline-date-time]
+            ;
+            ; convert time within today to HH:mm:ss 
+            [(- ?now-ms ?today-ms) ?ms]
+            [(quot ?ms 1000)  ?ts]
+            [(mod ?ts 60) ?second]
+            (or
+                (and [(< ?second 10)] [(str \"0\" ?second) ?ssecond])
+                (and [(>= ?second 10)] [(identity ?second) ?ssecond])
+            )
+            [(quot ?ts 60) ?tm]
+            [(mod ?tm 60) ?minute]
+            (or
+                (and [(< ?minute 10)] [(str \"0\" ?minute) ?sminute])
+                (and [(>= ?minute 10)] [(identity ?minute) ?sminute])
+            )
+            [(quot ?tm 60) ?th]
+            [(mod ?th 24) ?hour]
+            (or
+                (and [(< ?hour 10)] [(str \"0\" ?hour) ?shour])
+                (and [(>= ?hour 10)] [(identity ?hour) ?shour])
+            )
+            [(str ?shour \":\" ?sminute \":\" ?ssecond) ?time]
+            ;
+            ; convert ?today to yyyy:MM:dd 
+            [(mod ?today 100) ?day]
+            (or
+                (and [(< ?day 10)] [(str \"0\" ?day) ?sday])
+                (and [(>= ?day 10)] [(identity ?day) ?sday])
+            )
+            [(quot ?today 100) ?dm]
+            [(mod ?dm 100) ?month]
+            (or
+                (and [(< ?month 10)] [(str \"0\" ?month) ?smonth])
+                (and [(>= ?month 10)] [(identity ?month) ?smonth])
+            )
+            [(quot ?dm 100) ?dy]
+            [(mod ?dy 100) ?year2]
+            [(+ ?year2 2000) ?year]
+            [(str ?year \"-\" ?smonth \"-\" ?sday) ?date]
+            ;
+            ; concatenate to ?date-time
+            [(str ?date \" \" ?time) ?date-time]
+            ;
+            ; switch block to show
+            [(compare ?date-time ?scheduled-date-time) ?scheduled-rel]
+            [(compare ?date-time ?deadline-date-time) ?deadline-rel]
+            (or
+                (and [(< ?scheduled-rel 0)] [(identity ?task) ?b])
+                (and [(>= ?scheduled-rel 0)] [(<= ?deadline-rel 0)] [(identity ?warning) ?b])
+                (and [(> ?deadline-rel 0)] [(identity ?error) ?b])
+            )
+      ] ; end query[]
+      ;
+      ;; query options:
+      :breadcrumb-show? false
+      :group-by-page? false
+      :collapsed? false ; always collapse, must open it to see updated result
+      ;:result-transform 
+      ;
+      ;;;;;;;; rules ;;;;;;;;
+      :rules [
+      ]
+    }
+    #+END_QUERY
+    
+  "
  }
 
  ;; Configure the default expansion level for linked references.
