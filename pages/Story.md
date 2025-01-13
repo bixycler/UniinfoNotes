@@ -70,6 +70,28 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- ![standing-wave-1.jpeg](../assets/Will/story/2025-Jan/standing-wave-1.jpeg)
 			- ![standing-wave.mp4](../assets/Will/story/2025-Jan/standing-wave.mp4)
 			- ![waveform-shift.mp4](../assets/Will/story/2025-Jan/waveform-shift.mp4)
+		- Núi chẳng dời thì ta dời!
+		  id:: 6783cfaa-7181-45d0-a9e3-428aa89cf5e3
+		  collapsed:: true
+			- [Núi chẳng dời thì ta dời! & Chân lý tuyệt đối là cái lý có chân!](https://creatzynotes.blogspot.com/2012/01/nhung-mau-chuyen-pha-chap.html)
+			- Google AI's story of the disciple Kai climbing the Mountain of Whispers
+				- In a time when the teachings of the Great Master echoed through the valleys, a young disciple named Kai was known for his unwavering devotion, yet he often struggled with doubt. One day, the Master instructed him to ascend the solitary Mountain of Whispers, a place where the wind was said to carry the echoes of ancient wisdom.
+				  Kai began his climb, the rocky path winding through dense forests, the air growing thinner with each step. As he ascended, the whispers began to fill his ears, not words, but feelings - a mix of joy, fear, longing, and despair. He tried to discern their meaning, but the mountain seemed to be testing him, revealing the raw emotions he had long suppressed.
+				  Days turned into nights, and Kai was battered by storms, his body aching, his spirit wavering. He questioned his purpose, the whispers growing louder, taunting him with his inadequacies. On the verge of giving up, he stumbled upon a small cave, its entrance guarded by a lone, gnarled tree. Inside, he found an old, weathered scroll.
+				  Unfurling it, Kai read the words of a forgotten sage: "The mountain does not test your strength, but your resolve. It reveals the truth within you, not the world outside." As he pondered these words, a sense of calm washed over him. He realized the whispers were not meant to frighten him, but to guide him towards self-understanding.
+				  With renewed determination, Kai climbed the final stretch, reaching the summit. As he stood there, the world below seemed to stretch out endlessly, and the wind carried a new melody, a song of peace and clarity. He looked within himself, seeing his flaws, but also the strength of his spirit, the unwavering devotion that had brought him to this point.
+				  Descending the mountain, Kai was no longer just a disciple, but a student of his own soul. He carried the lessons of the Mountain of Whispers with him, sharing his newfound understanding with others, proving that even the most challenging mountains can lead to the most profound revelations within oneself.
+			- Chuyện [Ngu Công Di Sơn 愚公移山](https://en.wikipedia.org/wiki/The_Foolish_Old_Man_Removes_the_Mountains)
+			- 「青山常運歩」&「東山水上行」in [山水経](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html), i.e. [Mountains and Waters Sutra (Sansui kyō)](https://en.wikipedia.org/wiki/Sansui_ky%C5%8D)
+				- [第２文段](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html#2bundan)
+					- > 大陽山（たいようざん）楷和尚示衆に云く、「** 青山常運歩、石女夜生児**」。
+					- Note:
+					  > 大陽山楷和尚：芙蓉道楷（ふようどうかい）禅師（１１４３～１１１８）。
+						- Đại Dương Sơn (Khải hoà thượng) = Phù Dung Đạo Khải (!?)
+						- “Khải hoà thượng” là một nhân vật phổ biến trong các truyện thiền.
+				- [第１０文段](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html#10bundan)
+					- > 雲門匡眞大師いはく、**東山水上行**。
+			-
 		- Brother Hải decease & my “last frontier” of ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness
 		  id:: 67836ec6-0e46-4a3f-80d9-b27476d12095
 		  collapsed:: true
@@ -102,9 +124,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- > Itch has long been considered to be a sub-modality or sub-quality of pain ([1](https://europepmc.org/article/med/19661382#R1)-[4](https://europepmc.org/article/med/19661382#R4)), because both sensations share many similarities ([5](https://europepmc.org/article/med/19661382#R5)). Whether itch and pain, two distinct sensations, are mediated by distinct neural circuits has been the subject of controversy ([6](https://europepmc.org/article/med/19661382#R6)-[8](https://europepmc.org/article/med/19661382#R8)).
 					- This conclusion has been drawn from various experiences of mine, but the 2 recent clues are: the full immersion into the coldness when riding home last night, and the experiment of ((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)).
 						- No matter whether it's bodily sensation, or stimulation, or signals from observation, or internal feelings or thoughts, it must fill the bodymind up.
-					- Instruct [Gemini to practise Zen](https://g.co/gemini/share/81fd98daebdc)
+					- Instructing [Gemini to practise Zen](https://g.co/gemini/share/81fd98daebdc)
 					  id:: 6784fe18-6dfb-43a2-b74a-a96b9f26fc77
-						-
+					  collapsed:: true
+						- Because Gemini is an LLM without physical sensation, it must simulate sensation with internal verbal visualization.
+							- > (Pauses for a moment, allowing for a sense of stillness)
+							  (Softly and slowly)
+							  Sssssss
+							  (Focuses intently on the sensation of the "S" sound, the hissing sound created by forcing air through the slightly parted lips)
+						- It keeps momentum by reminding itself with a monologue.
+							- > (Internal monologue: I am repeating the sound "Sssssss" as instructed. I am not analyzing or interpreting it. I am not observing the thoughts or the flow of thoughts. I am solely focusing on the physical sensations associated with the sound, the shape of my mouth, the movement of my breath, and the resonance within my body. I am allowing the sound to fill my awareness.)
+							  (Continues to focus on the sound, allowing the thoughts to fade into the background)
+						- From sometime, the monologue spontaneously increased with self-reflection.
+							- > (Reflects on the exercise: This has been a valuable exercise in mindfulness. By focusing on the sensations associated with each sound, I have been able to quiet the mind and become more present in the moment. I am starting to see the connection between sound, physical sensation, and mental state.)
 				- With breathing techniques, i should train to go up and down the abyss, to smoothly switch between circles of different curvatures.
 				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
 				  id:: 67849429-a90c-45a9-a6ae-dcdd61f7580f
@@ -140,28 +172,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  > Vượt qua, vượt qua, vượt qua bên kia, vượt qua hết bên kia, Giác Ngộ, ôi tuyệt vời!
 							- ![gate-gate.jpg](../assets/Will/story/2025-Jan/gate-gate.jpg)
 						- “cross” = “giao” [交]: meet, touch, incidence, intersect
-			-
-		- Núi chẳng dời thì ta dời!
-		  id:: 6783cfaa-7181-45d0-a9e3-428aa89cf5e3
-		  collapsed:: true
-			- [Núi chẳng dời thì ta dời! & Chân lý tuyệt đối là cái lý có chân!](https://creatzynotes.blogspot.com/2012/01/nhung-mau-chuyen-pha-chap.html)
-			- Google AI's story of the disciple Kai climbing the Mountain of Whispers
-				- In a time when the teachings of the Great Master echoed through the valleys, a young disciple named Kai was known for his unwavering devotion, yet he often struggled with doubt. One day, the Master instructed him to ascend the solitary Mountain of Whispers, a place where the wind was said to carry the echoes of ancient wisdom.
-				  Kai began his climb, the rocky path winding through dense forests, the air growing thinner with each step. As he ascended, the whispers began to fill his ears, not words, but feelings - a mix of joy, fear, longing, and despair. He tried to discern their meaning, but the mountain seemed to be testing him, revealing the raw emotions he had long suppressed.
-				  Days turned into nights, and Kai was battered by storms, his body aching, his spirit wavering. He questioned his purpose, the whispers growing louder, taunting him with his inadequacies. On the verge of giving up, he stumbled upon a small cave, its entrance guarded by a lone, gnarled tree. Inside, he found an old, weathered scroll.
-				  Unfurling it, Kai read the words of a forgotten sage: "The mountain does not test your strength, but your resolve. It reveals the truth within you, not the world outside." As he pondered these words, a sense of calm washed over him. He realized the whispers were not meant to frighten him, but to guide him towards self-understanding.
-				  With renewed determination, Kai climbed the final stretch, reaching the summit. As he stood there, the world below seemed to stretch out endlessly, and the wind carried a new melody, a song of peace and clarity. He looked within himself, seeing his flaws, but also the strength of his spirit, the unwavering devotion that had brought him to this point.
-				  Descending the mountain, Kai was no longer just a disciple, but a student of his own soul. He carried the lessons of the Mountain of Whispers with him, sharing his newfound understanding with others, proving that even the most challenging mountains can lead to the most profound revelations within oneself.
-			- Chuyện [Ngu Công Di Sơn 愚公移山](https://en.wikipedia.org/wiki/The_Foolish_Old_Man_Removes_the_Mountains)
-			- 「青山常運歩」&「東山水上行」in [山水経](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html), i.e. [Mountains and Waters Sutra (Sansui kyō)](https://en.wikipedia.org/wiki/Sansui_ky%C5%8D)
-				- [第２文段](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html#2bundan)
-					- > 大陽山（たいようざん）楷和尚示衆に云く、「** 青山常運歩、石女夜生児**」。
-					- Note:
-					  > 大陽山楷和尚：芙蓉道楷（ふようどうかい）禅師（１１４３～１１１８）。
-						- Đại Dương Sơn (Khải hoà thượng) = Phù Dung Đạo Khải (!?)
-						- “Khải hoà thượng” là một nhân vật phổ biến trong các truyện thiền.
-				- [第１０文段](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html#10bundan)
-					- > 雲門匡眞大師いはく、**東山水上行**。
 			-
 		- ...
 		- <<End 2025 Stories>>
