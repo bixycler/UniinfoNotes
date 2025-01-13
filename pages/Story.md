@@ -100,9 +100,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  > Có đóng có mở nên mới sinh **biến hóa**; Có qua có lại không bế tắc nên mới **thông suốt**;
 							  > The alternation between closing and opening is called **change**. The going forward and backward without ceasing is called **throughness**.
 						- “thông” [通] → “clear” = “minh” [明] → “thông minh” [聰明]
+						  collapsed:: true
 							- [一理通，百理明](https://en.wiktionary.org/wiki/%E4%B8%80%E7%90%86%E9%80%9A%EF%BC%8C%E7%99%BE%E7%90%86%E6%98%8E) (nhất lý thông, bách lý minh)
 							- [一法通，萬法通](https://en.wiktionary.org/wiki/%E4%B8%80%E6%B3%95%E9%80%9A%EF%BC%8C%E8%90%AC%E6%B3%95%E9%80%9A) (nhất pháp thông, vạn pháp thông)
-								- Vietnamese usually says “nhất lý thông, vạn lý minh”
+							- Vietnamese usually says “nhất lý thông, vạn lý minh”
 							- 一理通，萬裡徹 (nhất lý thông, vạn lý triệt)
 					- “cross” = “vượt qua” [[越過](https://en.wiktionary.org/wiki/%E8%B6%8A%E9%81%8E)]: cross over, [surpass](https://en.wiktionary.org/wiki/surpass), go beyond, [transcend](https://en.wiktionary.org/wiki/transcend)
 						- [fb post](https://www.facebook.com/share/p/1HF14K3nYa/) about “pāragate” in the [Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Mantra)
