@@ -100,6 +100,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  *chronic* itch and chronic pain share many **similar** mechanisms.
 						- “Itch and pain are two distinct sensations” is the conclusion of the paper [Cellular basis of itch sensation](https://europepmc.org/article/med/19661382)
 							- > Itch has long been considered to be a sub-modality or sub-quality of pain ([1](https://europepmc.org/article/med/19661382#R1)-[4](https://europepmc.org/article/med/19661382#R4)), because both sensations share many similarities ([5](https://europepmc.org/article/med/19661382#R5)). Whether itch and pain, two distinct sensations, are mediated by distinct neural circuits has been the subject of controversy ([6](https://europepmc.org/article/med/19661382#R6)-[8](https://europepmc.org/article/med/19661382#R8)).
+					- This conclusion has been drawn from various experiences of mine, but the 2 recent clues are: the full immersion into the coldness when riding home last night, and the experiment of ((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)).
+						- No matter whether it's bodily sensation, or stimulation, or signals from observation, or internal feelings or thoughts, it must fill the bodymind up.
+					- Instruct [Gemini to practise Zen](https://g.co/gemini/share/81fd98daebdc)
+					  id:: 6784fe18-6dfb-43a2-b74a-a96b9f26fc77
+						-
 				- With breathing techniques, i should train to go up and down the abyss, to smoothly switch between circles of different curvatures.
 				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
 				  id:: 67849429-a90c-45a9-a6ae-dcdd61f7580f
