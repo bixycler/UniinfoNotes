@@ -76,20 +76,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-01-12 Sun 14:27:25]
 		  :END:
-			- last night waiting for my wife to help sister 7 selling, we returned home late... and slept at 4 AM
-			- this morning, Monday 13th, i heard the alarm at 9 AM but lay more for 30 minutes
-			- on the way to company, i see “the last frontier” is the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness both in theory and in practical quest for my liberation.
-				- the vague feeling inside is just like the itch!
+			- Last night waiting for my wife to help sister 7 selling, we returned home late... and slept at 4 AM.
+			- This morning, Monday 13th, i heard the alarm at 9 AM but lay more for 30 minutes.
+			- On the way to company, i see “the last frontier” is the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness both in theory and in practical quest for my liberation.
+				- The vague feeling inside is just like the itch!
 				  collapsed:: true
+					- Meditating on the bodily itch, i can turn it into pain, showing that the itch is just a mild pain.
+					- The **compulsive reaction** to either bodily or mental itch is usually harmful.
 					- “Itch and pain are closely related but distinct sensations” is the conclusion of the paper [New insights into the mechanisms of itch: are pain and itch controlled by distinct mechanisms?](https://pmc.ncbi.nlm.nih.gov/articles/PMC3796138/#S22)
 						- Crosstalk between the itch and pain pathways:
 							- itch can be suppressed by pain; and
 							- inhibition of pain may produce itch
-						- While differences between *acute* pain and acute itch are striking, 
-						  *chronic* itch and chronic pain share many similar mechanisms.
+						- While **differences** between *acute* pain and acute itch are striking, 
+						  *chronic* itch and chronic pain share many **similar** mechanisms.
 					- “Itch and pain are two distinct sensations” is the conclusion of the paper [Cellular basis of itch sensation](https://europepmc.org/article/med/19661382)
 						- > Itch has long been considered to be a sub-modality or sub-quality of pain ([1](https://europepmc.org/article/med/19661382#R1)-[4](https://europepmc.org/article/med/19661382#R4)), because both sensations share many similarities ([5](https://europepmc.org/article/med/19661382#R5)). Whether itch and pain, two distinct sensations, are mediated by distinct neural circuits has been the subject of controversy ([6](https://europepmc.org/article/med/19661382#R6)-[8](https://europepmc.org/article/med/19661382#R8)).
-				- the key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
+				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
 					- Etymology: “[traverse](https://en.wiktionary.org/wiki/traverse)” ← Latin “[traversare](https://en.wiktionary.org/wiki/traversare)” was the [vulgar version of “trānsversāre”](https://www.etymonline.com/search?q=traverse) ← “[trānsversus](https://en.wiktionary.org/wiki/transversus)” → “[transverse](https://en.wiktionary.org/wiki/transverse)”
 					- “through” = “thông qua” [通過], “xuyên qua” (penetrate)
 						- “throughness” = “tòng” [鬆] or “phóng tòng” [放鬆] is the most important property in qigong, just like a [through horse](https://en.wikipedia.org/wiki/Throughness).
