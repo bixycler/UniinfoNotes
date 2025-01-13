@@ -1218,14 +1218,14 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					- ((677bfcff-0990-45e5-9319-19e796ec1e84))
 				- ```clojure
 				  #+BEGIN_QUERY
-				  {:title ["Deadline warning"]
+				  {:title ["Deadline warning"]  ; replaced by $.1 above #+BEGIN_QUERY
 				    :inputs [
 				      :today ; ?today
 				      :today-start ; ?today-ms
 				      :right-now-ms ; ?now-ms
-				      [:block/uuid #uuid "677752b3-f8c6-4493-8334-610f04855ffa"]  ; $1 ?task
-				      [:block/uuid #uuid "677bf3f1-b53b-4d9b-9c4a-5182b2a96a76"]  ; $2 ?warning
-				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $2 ?error
+				      [:block/uuid #uuid "677752b3-f8c6-4493-8334-610f04855ffa"]  ; $2 ?task
+				      [:block/uuid #uuid "677bf3f1-b53b-4d9b-9c4a-5182b2a96a76"]  ; $3 ?warning
+				      [:block/uuid #uuid "6776890b-c9a4-4ba9-8cf0-ac8d78d76a14"]  ; $4 ?error
 				    ]
 				    :query [
 				      :find (pull ?b [*]) ;  ?date-time ?scheduled-date-time ?deadline-date-time
