@@ -106,13 +106,28 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ...
 			- <<End Tracks>>
 			  ---------------
-		-
-		- Get back to COMPANY WORK!
-		  SCHEDULED:: <2025-01-13 Mon 19:39>
-		  DEADLINE:: <2025-01-13 Tue 22:40>
+		- Reminder messages
+		  id:: 67850fb1-04a9-427f-bc0d-f61913d86e4b
+		  collapsed:: true
+			- Get back to COMPANY WORK!
+			  id:: 67850c3d-a026-43a0-8fb8-1febf398bd65
+			  scheduled:: <2025-01-13 Mon 19:39>
+			  deadline:: <2025-01-13 Tue 20:12>
+			- id:: 67850fd2-272d-48fa-9d7c-c649619b5a89
+			  #+BEGIN_CAUTION
+			  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
+			  #+END_CAUTION
+			- id:: 67850fe1-3e22-430e-9af9-a84853766dd7
+			  #+BEGIN_WARNING
+			  [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ BACK TO WORK !!! "]
+			  #+END_WARNING
 		- #### Reminder
+		  id:: 67850c24-b1c9-425a-abc2-af81243befb2
+		  collapsed:: true
+			- {{deadline-warning ((67850fb1-04a9-427f-bc0d-f61913d86e4b)), 67850c3d-a026-43a0-8fb8-1febf398bd65, 67850fd2-272d-48fa-9d7c-c649619b5a89, 67850fe1-3e22-430e-9af9-a84853766dd7}}
 		- ### Working
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
+		  {{embed ((67850c24-b1c9-425a-abc2-af81243befb2))}}
 		  {{embed ((67164c57-8f45-46eb-92a9-f00b02dccfc9))}}
 		  {{embed ((db954501-95d0-46e2-b1fc-39b6a966300e))}}
 		  {{embed ((6773eb97-ec58-4c48-a017-cd0de2d82e08))}}

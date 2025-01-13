@@ -12,13 +12,17 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		- ((67710747-2982-4134-875e-3b715313db87))
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
-		- DOING turn ((677689e6-7163-4e94-ab65-18d3f51e3eb9)) into `{{deadline-warning}}`
+		- DONE turn ((677689e6-7163-4e94-ab65-18d3f51e3eb9)) into `{{deadline-warning}}`
 		  id:: 677e7099-5dfc-43f4-8db0-67189cf8ef74
 		  :LOGBOOK:
 		  CLOCK: [2025-01-10 Fri 18:40:54]--[2025-01-10 Fri 19:27:42] =>  00:46:48
-		  CLOCK: [2025-01-13 Mon 19:05:31]
+		  CLOCK: [2025-01-13 Mon 19:05:31]--[2025-01-13 Mon 20:14:12] =>  01:08:41
 		  :END:
-		- TODO Add ((66533703-505d-432d-8368-6058eefb45f6)) to [[logseq/config.edn]] commands
+		- DOING Add ((66533703-505d-432d-8368-6058eefb45f6)) to [[logseq/config.edn]] commands
+		  id:: 67764f3d-c6b3-4f00-a53f-ec4dab0920f9
+		  :LOGBOOK:
+		  CLOCK: [2025-01-13 Mon 20:14:46]
+		  :END:
 		- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 			- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 			- ((67715d03-9dbc-42b0-8589-064396a9c52b))

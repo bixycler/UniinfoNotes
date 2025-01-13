@@ -126,5 +126,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- Only after stepping back from these details, do i remember the main point: ((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
+		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74)) & ((67764f3d-c6b3-4f00-a53f-ec4dab0920f9))
 		- ...
