@@ -77,9 +77,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-01-12 Sun 14:27:25]
 		  :END:
 			- last night waiting for my wife to help sister 7 selling, we returned home late... and slept at 4 AM
-			- this morning i heard the alarm at 9 AM but lay more for 30 minutes
+			- this morning, Monday 13th, i heard the alarm at 9 AM but lay more for 30 minutes
 			- on the way to company, i see “the last frontier” is the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness both in theory and in practical quest for my liberation.
-				-
+				- the vague feeling inside is just like the itch!
+				- the key is “trans” = “across, on/to the other side, beyond” ~ “traverse”
 		- Núi chẳng dời thì ta dời!
 		  id:: 6783cfaa-7181-45d0-a9e3-428aa89cf5e3
 		  collapsed:: true
