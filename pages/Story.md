@@ -84,6 +84,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Etymology: “[traverse](https://en.wiktionary.org/wiki/traverse)” ← Latin “[traversare](https://en.wiktionary.org/wiki/traversare)” was the [vulgar version of “trānsversāre”](https://www.etymonline.com/search?q=traverse) ← “[trānsversus](https://en.wiktionary.org/wiki/transversus)” → “[transverse](https://en.wiktionary.org/wiki/transverse)”
 					- “through” = “thông qua” [通過]
 					- “cross” = “vượt qua” [通過]
+					- [fb post](https://www.facebook.com/share/p/1HF14K3nYa/) about “pāragate” 
+					  collapsed:: true
+					  > ﻿गते गते पारगते पारसंगते बोधि स्वाहा
+					  > Gate gate pāragate pārasaṃgate bodhi svāhā
+					  > Vượt qua, vượt qua, vượt qua bên kia, vượt qua hết bên kia, Giác Ngộ, ôi tuyệt vời!
+						- ![gate-gate.jpg](../assets/Will/story/2025-Jan/gate-gate.jpg)
 			-
 		- Núi chẳng dời thì ta dời!
 		  id:: 6783cfaa-7181-45d0-a9e3-428aa89cf5e3
