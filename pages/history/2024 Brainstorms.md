@@ -1223,6 +1223,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				  and convert numbers (milliseconds, days) to the string in that format: yyyy-MM-dd HH:mm:ss.
 					- I've proposed to [add `:block/scheduled-ms` and `:block/deadline-ms`](https://discuss.logseq.com/t/add-data-attributes-for-querying-scheduled-time-e-g-block-scheduled-ms-and-block-deadline-ms).
 					- The [done time plugin](https://github.com/mjs/logseq-done-time) adds property `done-ms` = **now**. This cannot be used to schedule ahead of time.
+				- Don't use the query option `:collapsed? true`, because it makes the result of the macro `{{deadline-warning}}` collapsed forever, unable to be expanded!!!
 				- ```clojure
 				  #+BEGIN_QUERY
 				  {:title ["Deadline warning"]  ; replaced by $.1 above #+BEGIN_QUERY
@@ -1307,7 +1308,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				    ;; query options:
 				    :breadcrumb-show? false
 				    :group-by-page? false
-				    :collapsed? false ; always collapse, must open it to see updated result
+				    ;:collapsed? false ; always collapse, must open it to see updated result
 				    ;:result-transform 
 				    ;
 				    ;;;;;;;; rules ;;;;;;;;
@@ -1316,7 +1317,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				  }
 				  #+END_QUERY
 				  ```
-			- #+BEGIN_QUERY
+			- Open this block to see the updated result...
+			  collapsed:: true
+			  #+BEGIN_QUERY
 			  {:title ["Deadline warning"]
 			    :inputs [
 			      :today ; ?today
@@ -1408,7 +1411,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			  }
 			  #+END_QUERY
 			- Macro `{{deadline-warning}}`
-				- {{deadline-warning [:h3 "Deadline Warning"], 677752b3-f8c6-4493-8334-610f04855ffa, 677bf3f1-b53b-4d9b-9c4a-5182b2a96a76, 6776890b-c9a4-4ba9-8cf0-ac8d78d76a14, true}}
+				- {{deadline-warning Deadline Warning, 677752b3-f8c6-4493-8334-610f04855ffa, 677bf3f1-b53b-4d9b-9c4a-5182b2a96a76, 6776890b-c9a4-4ba9-8cf0-ac8d78d76a14}}
 				  query-table:: false
 		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
 		  collapsed:: true

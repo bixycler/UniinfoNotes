@@ -106,8 +106,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ...
 			- <<End Tracks>>
 			  ---------------
-		- #### Status
-			-
+		-
+		- Get back to COMPANY WORK!
+		  SCHEDULED:: <2025-01-13 Mon 19:39>
+		  DEADLINE:: <2025-01-13 Tue 22:40>
+		- #### Reminder
 		- ### Working
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
 		  {{embed ((67164c57-8f45-46eb-92a9-f00b02dccfc9))}}
