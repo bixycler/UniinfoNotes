@@ -122,8 +122,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
 		- i want to write today's story, ((67836ec6-0e46-4a3f-80d9-b27476d12095)), but too sleepy... just take a nap!
 		  id:: 6784871c-20b5-4ecc-ab02-70b4542690db
-		- last night waiting for my wife to help sister 7 selling, we returned home late... and slept at 4 AM
-		- this morning i heard the alarm at 9 AM but lay more for 30 minutes
-		- on the way to company, i see “the last frontier” is the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness both in theory and in practical quest for my liberation.
+		- on the way to company, i see “[the last frontier](((67836ec6-0e46-4a3f-80d9-b27476d12095)))” is the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness both in theory and in practical quest for my liberation.
 			-
 		- ...
