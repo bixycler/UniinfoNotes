@@ -1188,8 +1188,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		  :END:
 			- Get back to COMPANY WORK!
 			  id:: 677752b3-f8c6-4493-8334-610f04855ffa
-			  SCHEDULED:: <2025-01-06 Mon 22:39>
-			  DEADLINE:: <2025-01-06 Tue 22:40>
+			  SCHEDULED:: <2025-01-13 Mon 19:39>
+			  DEADLINE:: <2025-01-13 Tue 22:40>
 			- id:: 677bf3f1-b53b-4d9b-9c4a-5182b2a96a76
 			  collapsed:: true
 			  #+BEGIN_CAUTION
@@ -1399,7 +1399,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			    ;; query options:
 			    :breadcrumb-show? false
 			    :group-by-page? false
-			    :collapsed? false ; always collapse, must open it to see updated result
+			    :collapsed? true ; $5 always collapse, must open it to see updated result
 			    ;:result-transform 
 			    ;
 			    ;;;;;;;; rules ;;;;;;;;
@@ -1408,7 +1408,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			  }
 			  #+END_QUERY
 			- Macro `{{deadline-warning}}`
-				- {{deadline-warning [:h3 "Deadline Warning"] 677752b3-f8c6-4493-8334-610f04855ffa 677bf3f1-b53b-4d9b-9c4a-5182b2a96a76 6776890b-c9a4-4ba9-8cf0-ac8d78d76a14}}
+				- {{deadline-warning [:h3 "Deadline Warning"], 677752b3-f8c6-4493-8334-610f04855ffa, 677bf3f1-b53b-4d9b-9c4a-5182b2a96a76, 6776890b-c9a4-4ba9-8cf0-ac8d78d76a14, true}}
 				  query-table:: false
 		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
 		  collapsed:: true

@@ -2984,7 +2984,7 @@
       ;; query options:
       :breadcrumb-show? false
       :group-by-page? false
-      :collapsed? false ; always collapse, must open it to see updated result
+      :collapsed? $5 ; always collapse, must open it to see updated result
       ;:result-transform 
       ;
       ;;;;;;;; rules ;;;;;;;;
