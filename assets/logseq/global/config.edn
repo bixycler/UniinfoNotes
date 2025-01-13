@@ -2922,7 +2922,7 @@
             [(get ?props :scheduled false) ?scheduled]
             [(get ?props :deadline false) ?deadline]
             ;
-            ; extract yyyy:MM:dd HH:mm:ss from ?scheduled & ?deadline
+            ; extract yyyy-MM-dd HH:mm:ss from ?scheduled & ?deadline
             [(re-pattern \"<(....-..-..) ... (..:..)>\") ?pat-date-wd-time]
             [(re-seq ?pat-date-wd-time ?scheduled) ([_ ?scheduled-date ?scheduled-time]) ]
             [(str ?scheduled-date \" \" ?scheduled-time) ?scheduled-date-time]
@@ -2951,7 +2951,7 @@
             )
             [(str ?shour \":\" ?sminute \":\" ?ssecond) ?time]
             ;
-            ; convert ?today to yyyy:MM:dd 
+            ; convert ?today to yyyy-MM-dd 
             [(mod ?today 100) ?day]
             (or
                 (and [(< ?day 10)] [(str \"0\" ?day) ?sday])

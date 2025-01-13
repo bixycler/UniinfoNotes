@@ -1216,6 +1216,13 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					- ((677bfe2d-e7df-46ba-a306-db1a7e9b771a))
 						- So we must go the other way: convert numbers (milliseconds, days) to string
 					- ((677bfcff-0990-45e5-9319-19e796ec1e84))
+				- Because there's no way to get deadline time (only can get deadline date), i must do it the hard way: use 
+				  id:: 677750e2-4074-40d7-8fba-50122aa29c58
+				  collapsed:: true
+				  {{embed ((677757bc-227a-47c2-abeb-7957d61824cc))}}
+				  and convert numbers (milliseconds, days) to the string in that format: yyyy-MM-dd HH:mm:ss.
+					- I've proposed to [add `:block/scheduled-ms` and `:block/deadline-ms`](https://discuss.logseq.com/t/add-data-attributes-for-querying-scheduled-time-e-g-block-scheduled-ms-and-block-deadline-ms).
+					- The [done time plugin](https://github.com/mjs/logseq-done-time) adds property `done-ms` = **now**. This cannot be used to schedule ahead of time.
 				- ```clojure
 				  #+BEGIN_QUERY
 				  {:title ["Deadline warning"]  ; replaced by $.1 above #+BEGIN_QUERY
@@ -1238,7 +1245,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          [(get ?props :scheduled false) ?scheduled]
 				          [(get ?props :deadline false) ?deadline]
 				          ;
-				          ; extract yyyy:MM:dd HH:mm:ss from ?scheduled & ?deadline
+				          ; extract yyyy-MM-dd HH:mm:ss from ?scheduled & ?deadline
 				          [(re-pattern "<(....-..-..) ... (..:..)>") ?pat-date-wd-time]
 				          [(re-seq ?pat-date-wd-time ?scheduled) ([_ ?scheduled-date ?scheduled-time]) ]
 				          [(str ?scheduled-date " " ?scheduled-time) ?scheduled-date-time]
@@ -1267,7 +1274,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				          )
 				          [(str ?shour ":" ?sminute ":" ?ssecond) ?time]
 				          ;
-				          ; convert ?today to yyyy:MM:dd 
+				          ; convert ?today to yyyy-MM-dd 
 				          [(mod ?today 100) ?day]
 				          (or
 				              (and [(< ?day 10)] [(str "0" ?day) ?sday])
@@ -1400,10 +1407,6 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			    ]
 			  }
 			  #+END_QUERY
-			- Because there's no way to get deadline time (only can get deadline date), i must do it the hardway: .
-			  id:: 677750e2-4074-40d7-8fba-50122aa29c58
-				- I've proposed to [add `:block/scheduled-ms` and `:block/deadline-ms`](https://discuss.logseq.com/t/add-data-attributes-for-querying-scheduled-time-e-g-block-scheduled-ms-and-block-deadline-ms).
-				- The [done time plugin](https://github.com/mjs/logseq-done-time) adds property `done-ms` = **now**. This cannot be used to schedule ahead of time.
 		- [List of Topics with Discussion](((676e8305-edc2-4379-a6f4-e7d9cc5ef765)))
 		  collapsed:: true
 		- collapsed:: true

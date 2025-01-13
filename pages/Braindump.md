@@ -53,7 +53,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- ((677750e2-4074-40d7-8fba-50122aa29c58))
 			- [!] even at this dead end, i still have a strong urge to penetrate it... e.g. with custom property and somehow to convert between HHMMSS and `time-ms` 😕
 				- custom property
-				  DEADLINE:: <2025-01-04 Sat 10:04>
+				  deadline:: <2025-01-04 Sat 10:04>
+				  id:: 677757bc-227a-47c2-abeb-7957d61824cc
 				- just missing a way to convert this property from/to `time-ms`
 				- `/Current time` = 10:32
 			- DONE use both: `scheduled::` for warning (yellow), and `deadline::` for error (red)
