@@ -99,6 +99,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  > Nhất hạp nhất tịch vị chi **biến**.  Vãng lai bất cùng vị chi **thông**.
 							  > Có đóng có mở nên mới sinh **biến hóa**; Có qua có lại không bế tắc nên mới **thông suốt**;
 							  > The alternation between closing and opening is called **change**. The going forward and backward without ceasing is called **throughness**.
+						- “thông” [通] → “clear” = “minh” [明] → “thông minh” [聰明]
 					- “cross” = “vượt qua” [[越過](https://en.wiktionary.org/wiki/%E8%B6%8A%E9%81%8E)]: cross over, [surpass](https://en.wiktionary.org/wiki/surpass), go beyond, [transcend](https://en.wiktionary.org/wiki/transcend)
 						- [fb post](https://www.facebook.com/share/p/1HF14K3nYa/) about “pāragate” in the [Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Mantra)
 						  collapsed:: true
