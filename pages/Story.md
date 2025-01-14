@@ -209,7 +209,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-01-14 Tue 13:03:11]
 		  :END:
 			- Last night, before sleeping, i just turned on YouTube for some news about master Minh Tuệ
-				- There, the intended news about master Minh Tuệ was just a glance, but the unintended
+				- There, the intended news about master Minh Tuệ was just a glance,
+				- but the unintended scenes of movies captured my mind: [Tiếng Sét Trong Mưa](((6772a6d5-567f-4e51-9b49-dfbb7557105e))), [Tể Tướng Lưng Gù](https://vi.wikipedia.org/wiki/T%E1%BB%83_t%C6%B0%E1%BB%9Bng_L%C6%B0u_G%C3%B9), and Chu Nguyên Chương...
+				- then i read about [Chu Nguyên Chương](https://vi.wikipedia.org/wiki/Minh_Th%C3%A1i_T%E1%BB%95)...
+				- seeing the whole circle, many circles round and round, the
 			- I took this morning off from company.
 			- I just went out for lunch and had a walk around the corners
 			- Get back to the computer, seeing the lot of screenshots of the [chat with Gemini](((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)))...
