@@ -212,7 +212,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- There, the intended news about master Minh Tuệ was just a glance,
 				- but the unintended scenes of movies captured my mind: [Tiếng Sét Trong Mưa](((6772a6d5-567f-4e51-9b49-dfbb7557105e))), [Tể Tướng Lưng Gù](https://vi.wikipedia.org/wiki/T%E1%BB%83_t%C6%B0%E1%BB%9Bng_L%C6%B0u_G%C3%B9), and Chu Nguyên Chương...
 				- then i read about [Chu Nguyên Chương](https://vi.wikipedia.org/wiki/Minh_Th%C3%A1i_T%E1%BB%95)...
-				- seeing the whole circle, many circles round and round, the
+				- seeing the whole circle, many circles round and round, the deep care for people just collapsed...
+				- facing the deadend, the wall, i reviewed all the urge, the deep emotion and motivation to fight for people, all the love for people, both in mass and individually... all are just empty, illusive..
+				- i tripped deep into the abyss of the deadend... so down, deep down... the vision in front of my eyes just breathed following my breaths, and wavy
+				- seeing my life lying just like a corpse without any ability to understand me, i was reminded of the same seen when i tripped LSD earlier,
+				- i was asked again “can you hold her, such a corpse?”
+				- i just held her with the anwer “i don't know what i can do for her, but this is the only thing i can do now!”
+				- but my weight, my very heavy weight inside just crushed her, making her
 			- I took this morning off from company.
 			- I just went out for lunch and had a walk around the corners
 			- Get back to the computer, seeing the lot of screenshots of the [chat with Gemini](((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)))...
