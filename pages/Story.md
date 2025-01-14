@@ -235,6 +235,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  Chết đi phần bản ngã,
 				  Sống lại cả đất trời!
 				- bài thơ "Can Đầu Tấn Bộ" (đầu sào tiến bước) của thiền sư Cảnh Sầm:
+				  collapsed:: true
 				  > Đầu sào trăm thước đã đến nơi
 				  Tuy ngộ nhưng chưa phải lý chân.
 				  Đầu sào trăm thước, thêm bước nữa
