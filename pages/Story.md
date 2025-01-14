@@ -228,7 +228,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Thank you, Ms. Trung & Mr. Hiệp, for bringing up my personal love so that i can realize the truth an put it down!
 			- I took this morning off from company for sleeping.
 			- Checking into the compaty, then i just went out for lunch and had a walk around the corners...
-			- From the time receiving chalenge with this HTV company, i'm gradually dying layer by layer of the self
+			- From the time receiving challenge with this HTV company, i'm gradually dying layer by layer of the self
 				- [fb post](https://www.facebook.com/share/p/1Ls8bEeia1/): đầu sào trăm thước
 				  > Tới đầu sào trăm thước,
 				  Thêm một bước nữa thôi!
