@@ -208,7 +208,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-01-14 Tue 13:03:11]
 		  :END:
-			- Last night...
+			- Last night, before sleeping, i just turned on YouTube for some news about master Minh Tuệ
+				- There, the intended news about master Minh Tuệ was just a glance, but the unintended
 			- I took this morning off from company.
 			- I just went out for lunch and had a walk around the corners
 			- Get back to the computer, seeing the lot of screenshots of the [chat with Gemini](((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)))...
