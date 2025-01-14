@@ -137,8 +137,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  (Continues to focus on the sound, allowing the thoughts to fade into the background)
 						- From sometime, the monologue spontaneously increased with self-reflection.
 							- > (Reflects on the exercise: This has been a valuable exercise in mindfulness. By focusing on the sensations associated with each sound, I have been able to quiet the mind and become more present in the moment. I am starting to see the connection between sound, physical sensation, and mental state.)
-						- Screenshots of key moments
-							-
+						- Key moments with screenshots
+							- In the voice chat, i asked Gemini to be aware of the mistranscription by the (seems independent) voice-to-text function: i'm speaking English, don't put any Vietnamese word into my mouth!
+							- But obviously Gemini cannot be aware of such meaningless and completely out of topic words of mistranscription:
+								- I said "no, no", but was transcribed to "Đắk Lắk"
+									- ![mistranscript-DakLak.jpg](../mistranscript-DakLak.jpg)
 				- With breathing techniques, i should train to go up and down the abyss, to smoothly switch between circles of different curvatures.
 				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
 				  id:: 67849429-a90c-45a9-a6ae-dcdd61f7580f
