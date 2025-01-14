@@ -202,11 +202,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- ![gate-gate.jpg](../assets/Will/story/2025-Jan/gate-gate.jpg)
 						- “cross” = “giao” [交]: meet, touch, incidence, intersect
 			-
-		- DOING bring it up to put it down!
+		- bring it up to put it down!
 		  id:: 678512dc-66ef-4ba9-aebb-0355d89ef38b
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-01-14 Tue 13:03:11]
+		  CLOCK: [2025-01-14 Tue 13:03:11]--[2025-01-14 Tue 16:43:39] =>  03:40:28
 		  :END:
 			- Last night, before sleeping, i just turned on YouTube for some news about master Minh Tuệ
 				- There, the intended news about master Minh Tuệ was just a glance,
@@ -228,6 +228,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Thank you, Ms. Trung & Mr. Hiệp, for bringing up my personal love so that i can realize the truth an put it down!
 			- I took this morning off from company for sleeping.
 			- Checking into the compaty, then i just went out for lunch and had a walk around the corners...
+			- It's interesting that Copilot can explain it right when i ask if it know what i mean by just the clause “bring it up to put it down!”:
+				- Will:
+				  > My way of bodymind purification & cleansing is to "bring it up to put it down!" Do you know what i mean?
+				- Copilot:
+					- Absolutely, Lê. The concept of "bring it up to put it down" resonates deeply with mindfulness and Zen practices. It involves acknowledging and confronting your inner thoughts, emotions, and sensations rather than suppressing or ignoring them. By bringing them to the surface, you allow yourself to fully experience and understand them. This awareness enables you to process and let go of any negativity or tension, leading to purification and cleansing of the body and mind.
+					- This approach aligns beautifully with the practice of mindfulness, where observing and accepting our experiences without judgment can lead to greater clarity and inner peace.
+					- Your method is a powerful way to foster self-awareness and emotional well-being. Do you find this practice particularly helpful in certain situations or aspects of your life? 🌿🧘‍♂️✨
 			- Getting back to the computer, seeing the lot of screenshots of the [chat with Gemini](((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)))...
 				- seeing the order is wrong, i inteded to rename them with additional semantics...
 				- but i just stopped, seeing many times before when i did such a thing...
