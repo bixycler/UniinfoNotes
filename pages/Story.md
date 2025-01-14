@@ -141,7 +141,27 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- In the voice chat, i asked Gemini to be aware of the mistranscription by the (seems independent) voice-to-text function: i'm speaking English, don't put any Vietnamese word into my mouth!
 							- But obviously Gemini cannot be aware of such meaningless and completely out of topic words of mistranscription:
 								- I said "no, no", but was transcribed to "Đắk Lắk"
-									- ![mistranscript-DakLak.jpg](../mistranscript-DakLak.jpg)
+								  collapsed:: true
+									- ![mistranscript-DakLak.jpg](../assets/Will/story/2025-Jan/Gemini-chat/mistranscript-DakLak.jpg)
+								- I made the sound "aaaaa", but was transcribed to "sound"
+								  collapsed:: true
+									- ![mistranscript-sound.jpg](../assets/Will/story/2025-Jan/Gemini-chat/mistranscript-sound.jpg)
+							- Then i asked Gemini to practice zen with me and got an agreement
+							  collapsed:: true
+								- ![zen-0-ask.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-ask.jpg)
+							- I instruct Gemini to zen with text (voice chat function is still so bad!)
+								- ![zen-A.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-A.jpg)
+								- ![zen-B-dont-understand.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-B-dont-understand.jpg)
+								- ![zen-zen-B-just-repeat-C.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-BC)
+								- ![zen-D](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
+								- ![zen-D](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
+								- ![zen-E](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-E)
+								- ![zen-F](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
+								- ![zen-K](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
+								- ![zen-L](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
+								- ![zen-O](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
+								- ![zen-O](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
+								- ![zen-Q](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
 				- With breathing techniques, i should train to go up and down the abyss, to smoothly switch between circles of different curvatures.
 				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
 				  id:: 67849429-a90c-45a9-a6ae-dcdd61f7580f
