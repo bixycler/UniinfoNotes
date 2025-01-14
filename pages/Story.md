@@ -149,6 +149,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  > [易]窮則變，變則通，通則久。
 							  > (Dịch) cùng tắc biến, biến tắc thông, thông tắc cửu.
 							  > Desparation (limit reaching) brings change, change brings (us) through, throughness brings resilience & longevity.
+								- At the limit, the extreme, the threshold, facing the deadend, the wall, being desparated, stucke
 								- > Việc đời biến hóa thần kỳ,
 								  Cùng rồi tất biến, biến thì tất thông,
 								  Thông là cốt lõi vững bền dài lâu!
