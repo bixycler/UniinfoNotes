@@ -131,4 +131,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-01-14 Tue 16:44:53]
 		  :END:
+		- Try using both instances of Logseq
 		- ...
