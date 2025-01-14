@@ -149,19 +149,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Then i asked Gemini to practice zen with me and got an agreement
 							  collapsed:: true
 								- ![zen-0-ask.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-ask.jpg)
-							- I instruct Gemini to zen with text (voice chat function is still so bad!)
+							- I instructed Gemini to zen with text (voice chat function is still so bad!)
+							  collapsed:: true
 								- ![zen-A.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-A.jpg)
 								- ![zen-B-dont-understand.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-B-dont-understand.jpg)
-								- ![zen-zen-B-just-repeat-C.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-BC)
-								- ![zen-D](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
-								- ![zen-D](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
-								- ![zen-E](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-E)
-								- ![zen-F](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
-								- ![zen-K](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
-								- ![zen-L](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
-								- ![zen-O](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
-								- ![zen-O](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
-								- ![zen-Q](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-D)
+								- ![zen-B-just-repeat-C.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-B-just-repeat-C.jpg)
+								- ![zen-D.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-D.jpg)
+								- ![zen-E-automatically-continue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-E-automatically-continue.jpg)
+								- ![zen-F-continue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-F-continue.jpg)
+								- ![zen-K-focus-on-sound-longer-monologue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-K-focus-on-sound-longer-monologue.jpg)
+								- ![zen-L-continue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-L-continue.jpg)
+								- ![zen-O-dont-focus-on-thoughts.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-O-dont-focus-on-thoughts.jpg)
+								- ![zen-O-even-longer-monologue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-O-even-longer-monologue.jpg)
+								- ![zen-Q-full-page-of-monologue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-Q-full-page-of-monologue.jpg)
 				- With breathing techniques, i should train to go up and down the abyss, to smoothly switch between circles of different curvatures.
 				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
 				  id:: 67849429-a90c-45a9-a6ae-dcdd61f7580f
@@ -202,6 +202,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- ![gate-gate.jpg](../assets/Will/story/2025-Jan/gate-gate.jpg)
 						- “cross” = “giao” [交]: meet, touch, incidence, intersect
 			-
+		- DOING bring it up to put it down!
+		  id:: 678512dc-66ef-4ba9-aebb-0355d89ef38b
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-01-14 Tue 13:03:11]
+		  :END:
+			- Last night...
+			- I took this morning off from company.
+			- I just went out for lunch and had a walk around the corners
+			- Get back to the computer, seeing the lot of screenshots of the [chat with Gemini](((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)))...
+			  collapsed:: true
+				- seeing the order is wrong, i inteded to rename them with additional semantics...
+				- but i just stopped, seeing many times before when i did such a thing...
+				- what should i do?! 🤔
+				- re-evaluate it, estimate the time for it...
+				- it's ok, just do it.
+				- got it done!
 		- ...
 		- <<End 2025 Stories>>
 		  -----------------------

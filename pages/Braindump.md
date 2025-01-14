@@ -126,18 +126,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- DOING bring it up to put it down!
-		  :LOGBOOK:
-		  CLOCK: [2025-01-14 Tue 13:03:08]
-		  CLOCK: [2025-01-14 Tue 13:03:11]
-		  :END:
-			- Last night...
-			- I took this morning off from company.
-			- I just went out for lunch and had a walk around the corners
-			- Get back to the computer, seeing the lot of screenshots of the [chat with Gemini](((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)))...
-				- seeing the order is wrong, i inteded to rename them with additional semantics...
-				- but i just stopped, seeing many times before when i did such a thing...
-				- what should i do?! 🤔
-				- re-evaluate it, estimate the time for it...
-				- it's ok, just do it.
+		- ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
 		- ...
