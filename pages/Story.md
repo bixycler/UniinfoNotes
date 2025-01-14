@@ -228,6 +228,27 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Thank you, Ms. Trung & Mr. Hiệp, for bringing up my personal love so that i can realize the truth an put it down!
 			- I took this morning off from company for sleeping.
 			- Checking into the compaty, then i just went out for lunch and had a walk around the corners...
+			- From the time receiving chalenge with this HTV company, i'm gradually dying layer by layer of the self
+				- [fb post](https://www.facebook.com/share/p/1Ls8bEeia1/): đầu sào trăm thước
+				  > Tới đầu sào trăm thước,
+				  Thêm một bước nữa thôi!
+				  Chết đi phần bản ngã,
+				  Sống lại cả đất trời!
+				- bài thơ "Can Đầu Tấn Bộ" (đầu sào tiến bước) của thiền sư Cảnh Sầm:
+				  > Đầu sào trăm thước đã đến nơi
+				  Tuy ngộ nhưng chưa phải lý chân.
+				  Đầu sào trăm thước, thêm bước nữa
+				  Mười phương thế giới hiện toàn thân.
+					- > 竿頭進歩
+					  百尺竿頭坐底人，
+					  雖然得入未為真。
+					  百尺竿頭須進步，
+					  十力世界現全身。
+					  Can Đầu Tấn Bộ
+					  Bách xích can đầu tọa để nhân
+					  Tuy nhiên đắc nhập, vị vi chân.
+					  Bách xích can đầu tu tấn bộ
+					  Thập phương thế giới hiện toàn thân.
 			- It's interesting that Copilot can explain it right when i ask if it know what i mean by just the clause “bring it up to put it down!”:
 				- Will:
 				  > My way of bodymind purification & cleansing is to "bring it up to put it down!" Do you know what i mean?
