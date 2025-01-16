@@ -146,5 +146,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Online [GitHub Copilot](https://github.com/copilot)
 			- VS Code & [GitHub Codespaces](https://github.com/codespaces) (a cloud-based VS Code)
 				- `Ctrl` `P` to open File Search
+				- Tab states: keep
 				- `Ctrl` `Shift` `P` to open Command Palette
 		- ...
