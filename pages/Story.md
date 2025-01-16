@@ -272,7 +272,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-01-16 Thu 18:43:59]
 		  :END:
 			- Online [GitHub Copilot](https://github.com/copilot)
-			- The Copilot code assistant for VS Code & plugin into IDEs cannot be installed in the HTV's network
+			- [!] The Copilot code assistant for VS Code & plugin into IDEs cannot be installed in the HTV's network.
+			  collapsed:: true
+				- E.g. this file cannot be accessed: [Microsoft.VisualStudio.Code.Manifest](https://github.gallerycdn.vsassets.io/extensions/github/copilot/1.257.0/1736804263857/Microsoft.VisualStudio.Code.Manifest)
 			- VS Code & [GitHub Codespaces](https://github.com/codespaces) (a cloud-based VS Code)
 			  id:: 6788dfbf-9a55-4076-9a16-bcc92f24a6f8
 				- `Ctrl` `P` to open File Search
