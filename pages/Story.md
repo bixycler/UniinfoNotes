@@ -286,6 +286,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- There's a "paperclip" icon to attach context, including the whole codebase, but there's no way to pin these contexts down.
 				- ⇒ Basically, the current Copilot it working effeciently only within the current file.
 					- Every prompt with codebase context, it seems to re-analyze the whole codebase!
+			- ⇒ For a complicated codebase, VS Code's Copilot with **Codebase context** can help analyze some complex flows.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
