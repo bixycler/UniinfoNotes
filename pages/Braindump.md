@@ -142,6 +142,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :END:
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Try using Copilot code assistant
+		- Try using Copilot code assistant & VS Code
 			- On GitHub website & [GitHub Codespaces](https://github.com/codespaces) (a cloud-based VS Code)
+			- VS Code
+				- `Ctrl` `P` to open File Search
+				- `Ctrl` `Shift` `P` to open Command Palette
 		- ...
