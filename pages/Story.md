@@ -264,10 +264,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- re-evaluate it, estimate the time for it...
 				- it's ok, just do it.
 				- got it done, eventually!
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- Try using Copilot code assistant & VS Code
 		  id:: 6788f0ae-773b-4da2-87f5-c6552d76a00c
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-01-16 Thu 18:43:59]
 		  :END:
@@ -280,6 +279,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- `Ctrl` `P` to open File Search
 				- Tab states:  temporary (default, *italic*), kept open (with Double click), pinned (right click > `Pin`)
 				- `Ctrl` `Shift` `P` to open Command Palette
-			- GitHub Copilot plugin into JetBrains IDEs
-				- PyCharm: Device code = `648E-FF07`
+			- GitHub Copilot plugin in IDEs
+				- JetBrains' PyCharm & IntelliJ
+					- There's no choice for including context other than the current file.
+				- VS Code
+					- There's a "paperclip" icon to attach context, including the whole codebase, but there's no way to pin these contexts down.
+				- ⇒ Basically, the current Copilot it working effeciently only within the current file.
+					- Every prompt with codebase context, it seems to re-analyze the whole codebase!
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
