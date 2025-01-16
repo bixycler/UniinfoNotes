@@ -270,7 +270,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-01-16 Thu 18:43:59]
 		  :END:
+			- Free Plan Subsciption
+				- Limited to 50 messages per month, but there's no way to check the number of messages used up in this month.
+				- "Usage this month" in the [billing summary](https://github.com/settings/billing/summary) doesn't show number of messages.
 			- Online [GitHub Copilot](https://github.com/copilot)
+				- Sellecting a repository, Copilot can read the whole repo, provided the instruction from the user.
+				- Without proper instructions, it just guesses all the things up!
 			- [!] The Copilot code assistant for VS Code & plugin into IDEs cannot be installed in the HTV's network.
 			  collapsed:: true
 				- E.g. this file cannot be accessed: [Microsoft.VisualStudio.Code.Manifest](https://github.gallerycdn.vsassets.io/extensions/github/copilot/1.257.0/1736804263857/Microsoft.VisualStudio.Code.Manifest)
@@ -286,7 +291,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- There's a "paperclip" icon to attach context, including the whole codebase, but there's no way to pin these contexts down.
 				- ⇒ Basically, the current Copilot it working effeciently only within the current file.
 					- Every prompt with codebase context, it seems to re-analyze the whole codebase!
-			- ⇒ For a complicated codebase, VS Code's Copilot with **Codebase context** can help analyze some complex flows.
+			- ⇒ For a complicated codebase, VS Code's Copilot with **Codebase context** or GitHub's Copilot with **Repo context** can help analyze some complex flows.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
