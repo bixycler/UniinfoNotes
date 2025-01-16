@@ -280,4 +280,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- `Ctrl` `P` to open File Search
 				- Tab states:  temporary (default, *italic*), kept open (with Double click), pinned (right click > `Pin`)
 				- `Ctrl` `Shift` `P` to open Command Palette
+			- GitHub Copilot plugin into JetBrains IDEs
+				- PyCharm: Device code = `648E-FF07`
 		- ...
