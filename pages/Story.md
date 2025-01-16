@@ -264,6 +264,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- re-evaluate it, estimate the time for it...
 				- it's ok, just do it.
 				- got it done, eventually!
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- Try using Copilot code assistant & VS Code
+		  id:: 6788f0ae-773b-4da2-87f5-c6552d76a00c
+		  :LOGBOOK:
+		  CLOCK: [2025-01-16 Thu 18:43:59]
+		  :END:
+			- Online [GitHub Copilot](https://github.com/copilot)
+			- The Copilot code assistant for VS Code & plugin into IDEs cannot be installed in the HTV's network
+			- VS Code & [GitHub Codespaces](https://github.com/codespaces) (a cloud-based VS Code)
+			  id:: 6788dfbf-9a55-4076-9a16-bcc92f24a6f8
+				- `Ctrl` `P` to open File Search
+				- Tab states:  temporary (default, *italic*), kept open (with Double click), pinned (right click > `Pin`)
+				- `Ctrl` `Shift` `P` to open Command Palette
 		- ...
-		- <<End 2025 Stories>>
-		  -----------------------
