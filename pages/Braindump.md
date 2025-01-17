@@ -145,5 +145,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] How to highlight hard links `ls --color=auto`
 			- `dircolors`
-			  color setup for `ls`
+			  output commands to set the `LS_COLORS` env.var. for `ls`.
+				- This command simply ```
+				  prints out `LS_COLORS='...'; export LS_COLORS`
+				  ```
+			- `LS_COLORS` value `mh=44;37` has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
+			  ```sh
+			  export LS_COLORS="$LS_COLORS:mh=44;37"
+			  ```
 		- ...
