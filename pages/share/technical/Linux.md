@@ -88,6 +88,18 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- for file: number of hard links to this ((671f438b-617a-4fc5-88ee-e42f07b67b50))
 				- `-i`, `--inode`
 				  print the ((671f438b-617a-4fc5-88ee-e42f07b67b50)) number of each file
+				- `dircolors`
+				  output commands to set the `LS_COLORS` env.var. for `ls`.
+					- This command simply prints out 
+					  ```sh
+					  LS_COLORS='...'; export LS_COLORS
+					  ```
+					- Highlight hard links: `LS_COLORS` value `mh=44;37`
+					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
+						- It has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
+						  ```sh
+						  export LS_COLORS="$LS_COLORS:mh=44;37"
+						  ```
 			- `stat`
 			  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
 			  collapsed:: true

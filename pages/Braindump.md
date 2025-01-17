@@ -141,17 +141,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  CLOCK: [2025-01-16 Thu 16:57:46]--[2025-01-16 Thu 16:57:54] =>  00:00:08
 			  :END:
 		- ((6788f0ae-773b-4da2-87f5-c6552d76a00c))
+		- [?] How to highlight hard links for `ls --color=auto`
+			- ((678a4f10-b109-429d-9c58-f9bd52f807cd))
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- [?] How to highlight hard links for `ls --color=auto`
-			- `dircolors`
-			  output commands to set the `LS_COLORS` env.var. for `ls`.
-				- This command simply prints out 
-				  ```sh
-				  LS_COLORS='...'; export LS_COLORS
-				  ```
-			- `LS_COLORS` value `mh=44;37` has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
-			  ```sh
-			  export LS_COLORS="$LS_COLORS:mh=44;37"
-			  ```
 		- ...
