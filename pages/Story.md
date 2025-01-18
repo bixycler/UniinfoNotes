@@ -295,3 +295,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
+		- [?] What's the right term for the most basic operation: traversal, rolling, ...
+		  collapsed:: true
+			- ![RollingLoop](https://docs.google.com/drawings/d/e/2PACX-1vTc1vvF4Bghp7a62iW_QccyZaVtiJR9eD8d44eIxfqCeXof9NY4tvKP179l3tfLH4M7mLZKQXBqWmKc/pub?w=473&h=123)
+			- I'm discussing with Copilot, but the right image is blocked because it's "too sensitive!" 😯😧
+			  collapsed:: true
+				- Maybe it looks like a crotch 🤔?!
+				- I just want to make it clear that the circle is a loop ➰, not separate from the thread.
+			- Copilot suggests "spooling" & "entwining".
+				- While "entwining" is good for its broad sense, "spooling" is good for its common usage in computing and capturing both "spooling in" and "spooling out".
+				- For a thick coil with many loops in between, "spooling" is great term which can ben be combined with "rolling": at the two ends, the thread is "spooled in/out", while in between, it just rolls around.
