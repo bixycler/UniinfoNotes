@@ -147,5 +147,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] What's the right term for the most basic operation: traversal, rolling, ...
 			- ![RollingLoop](https://docs.google.com/drawings/d/e/2PACX-1vTc1vvF4Bghp7a62iW_QccyZaVtiJR9eD8d44eIxfqCeXof9NY4tvKP179l3tfLH4M7mLZKQXBqWmKc/pub?w=473&h=123)
-			-
+			- I'm discussing with Copilot, but the right image is blocked because it's "too sensitive!" 😯😧
+				- Maybe it looks like a crotch 🤔?!
+				- I just want to make it clear that the circle is a loop ➰, not separate from the thread.
 		- ...
