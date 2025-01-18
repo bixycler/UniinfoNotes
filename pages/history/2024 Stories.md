@@ -1343,7 +1343,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 				- = many sustent circles touch at the universal obop
 					- version 1: each sustent circle is a complement part of the content circle.
 					- version 2: each sustent circle is a replicate of the content circle.
-				- = Ω-thread folds in the [hyphercube](https://en.wikipedia.org/wiki/Hypercube) (condensed intension)
+				- = Ω-thread folds in the [hyphercube](https://en.wikipedia.org/wiki/Hypercube) (condensed intension) = ((675c03d8-3185-41a8-9f98-e869fabec793))
 					- the folding configuration is the state of the body (of the universe).
 					- the arrows in the folded thread is the dynamic, transformation, state transition.
 				- = straight thread traverses the extentional space (empty extension).
