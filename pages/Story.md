@@ -296,7 +296,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
-		- [?] What's the right term for the most basic operation: traversal, sprolling, **transcycling**, ...
+		- [?] What's the right term for the most basic operation: traversal, **transcycling**, sprolling, ...
 		  id:: 678b7762-1187-4330-93cb-7a62e14467a8
 		  collapsed:: true
 		  :LOGBOOK:
@@ -324,3 +324,4 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- “transcycling” is close to “traversal”, with “cycle” ~ “verse = turn”!
 					- ((678b72d3-073a-4763-a49f-5233a3d86614))
 					- The “turn” in “traversal” is the change (nearly reverse) of direction in the zigzag course or switchback: to exhaustively traverse a flat space, we must switchback many times.
+						- A milder “turn” is the “turn away” (nearly perpendicularly) from the main direction of the flow/river/road to **cross over** it, i.e. the original meaning of the Latin verb “[traversare](https://en.wiktionary.org/wiki/traversare)”.
