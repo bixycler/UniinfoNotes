@@ -296,7 +296,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
-		- [?] What's the right term for the most basic operation: traversal, sprolling, ...
+		- [?] What's the right term for the most basic operation: traversal, sprolling, **transcycling**, ...
 		  id:: 678b7762-1187-4330-93cb-7a62e14467a8
 		  collapsed:: true
 		  :LOGBOOK:
@@ -320,4 +320,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- For a single loop ➰ and when it degenerates into just a (soliton) wave packet, its motion is the combination between the "propagation" in the direction of the the main thread and the "curling in & out" of the loop/packet.
 			- In general, there are 3 parts of this movement: thread input, rotating inside, and thread output.
 				- In Unithread view, all bodies in the worlds, from celestial bodies, organisms (thread = food & info), to simple physical objects (thread = energy), are "living" (existing) by this movement. The difference is just how complicated the "rotation" inside that body is.
-				- I think “transcycling = cycling + translation” should be an apt term for this general movement.
+				- I think “**transcycling** = cycling + translation” should be an apt term for this general movement.
+				- “transcycling” is close to “traversal” with “cycle” ~ “verse = turn”!
+					- ((678b72d3-073a-4763-a49f-5233a3d86614))
