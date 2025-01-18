@@ -325,3 +325,4 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ((678b72d3-073a-4763-a49f-5233a3d86614))
 					- The “turn” in “traversal” is the change (nearly reverse) of direction in the zigzag course or switchback: to exhaustively traverse a flat space, we must switchback many times.
 						- A milder “turn” is the “turn away” (nearly perpendicularly) from the main direction of the flow/river/road to **cross over** it, i.e. the original meaning of the Latin verb “[traversare](https://en.wiktionary.org/wiki/traversare)”.
+					- “turn” ~ “rotate”:
