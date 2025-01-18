@@ -319,7 +319,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [The surprising rolling spool: Experiments and theory from mechanics to phase transitions](https://www.researchgate.net/publication/264161700_The_surprising_rolling_spool_Experiments_and_theory_from_mechanics_to_phase_transitions) with [PDF](../assets/physics/Surprising-EJP09JunRev.pdf)
 			- For a single loop ➰ and when it degenerates into just a (soliton) wave packet, its motion is the combination between the "propagation" in the direction of the the main thread and the "curling in & out" of the loop/packet.
 			- In general, there are 3 parts of this movement: thread input, rotating inside, and thread output.
-				- In Unithread view, all bodies in the worlds, from celestial bodies, organisms (thread = food & info), to simple physical objects (thread = energy), are "living" (existing) by this movement. The difference is just how complicated the "rotation" inside that body is.
+				- In Unithread view, all [bodies](((66c810a0-9861-4787-bdcf-1378219332be))) in the worlds, from celestial bodies, organisms (thread = food & info), to simple physical objects (thread = energy), are "living" (existing) by this movement. The difference is just how complicated the "rotation" inside that body is.
 				- I think “**transcycling** = cycling + translation” should be an apt term for this general movement.
 					- “transcycling = cycling + exchange (I/O)”: the bicycle cycling itself includes the translation of the bicycle and the exchange of momentum, but i add the prefix “trans” to stress the intrinsic exchange of content, transition of state, transformation of thread.
 				- “transcycling” is close to “traversal”, with “cycle” ~ “verse = turn”!
