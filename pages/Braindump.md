@@ -146,4 +146,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- ((678b7762-1187-4330-93cb-7a62e14467a8))
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
+			- ((6783e3ff-9e8f-43db-a173-5d0c6972deab))
+			- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
+			- ((67810168-747f-4bb5-9594-5c07bddf7041))
 		- ...

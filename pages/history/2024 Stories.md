@@ -1339,6 +1339,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 				- the elusive nature of the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) as a **bulk**: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **volume**)
 				  id:: 674d6061-7973-47b6-bb9d-a7a816137883
 			- how that many obops range the same content circle
+			  id:: 67836d26-c378-4cc2-9b8d-ecf9ee7f57c1
 				- = the content circle is twisted many folds at the universal obop
 				- = many sustent circles touch at the universal obop
 					- version 1: each sustent circle is a complement part of the content circle.

@@ -1295,6 +1295,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Every ((6672785f-ac9e-42ba-921e-0264d0d83ae2)), i.e. change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (transform), is a change of ((66723642-58f1-4a74-bba3-0108f14c6bac)) via the change of ((667272b8-88a8-4928-a22a-35035c9edf05)).
 			  collapsed:: true
 				- Traversal = listing = enumeration = moving the ((667272b8-88a8-4928-a22a-35035c9edf05)) across the object to view it in a linear view, i.e. thread-view.
+				  id:: 6783e3ff-9e8f-43db-a173-5d0c6972deab
 				- Finding = traversal for a target point-view.
 				- Search = traversal for a target ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- Sort = change from object-view to thread-view.
