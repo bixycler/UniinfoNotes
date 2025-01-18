@@ -321,6 +321,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- In general, there are 3 parts of this movement: thread input, rotating inside, and thread output.
 				- In Unithread view, all bodies in the worlds, from celestial bodies, organisms (thread = food & info), to simple physical objects (thread = energy), are "living" (existing) by this movement. The difference is just how complicated the "rotation" inside that body is.
 				- I think “**transcycling** = cycling + translation” should be an apt term for this general movement.
+					- “transcycling = cycling + exchange (I/O)”: the bicycle cycling itself includes translation of the bicycle and the exchange of momentum, but i add the prefix “trans” to stress the intrinsic exchange and the extrinsic transition.
 				- “transcycling” is close to “traversal”, with “cycle” ~ “verse = turn”!
 					- ((678b72d3-073a-4763-a49f-5233a3d86614))
 					- The “turn” in “traversal” is the change (nearly reverse) of direction in the zigzag course or switchback: to exhaustively traverse a flat space, we must switchback many times.
