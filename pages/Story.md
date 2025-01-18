@@ -295,7 +295,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
-		- [?] What's the right term for the most basic operation: traversal, rolling, ...
+		- [?] What's the right term for the most basic operation: traversal, sprolling, ...
 		  id:: 678b7762-1187-4330-93cb-7a62e14467a8
 		  collapsed:: true
 			- ![RollingLoop](https://docs.google.com/drawings/d/e/2PACX-1vTc1vvF4Bghp7a62iW_QccyZaVtiJR9eD8d44eIxfqCeXof9NY4tvKP179l3tfLH4M7mLZKQXBqWmKc/pub?w=473&h=123)
@@ -306,7 +306,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Copilot suggests "spooling" & "entwining".
 				- While "entwining" is good for its broad sense, "spooling" is good for its common usage in computing and capturing both "spooling in" and "spooling out".
 				- For a thick coil with many loops in between, "spooling" is a great term which can be combined with "rolling": at the two ends, the thread is "spooled in/out", while in between, it just rolls/rotates around.
-				- I'm thinking of the new term “spool-rolling” to combine “spooling” & “rolling”!
+				- I'm thinking of the new term “spool-rolling” or “sprolling” to combine “spooling” & “rolling”!
+					- The slang “[sproll](https://www.urbandictionary.com/define.php?term=Sproll)” can be “spin + roll” or “spam + troll”.
 					- Related to the hot “rolling spool”.
 						- [Rolling and pulling](https://leancrew.com/all-this/2023/06/rolling-and-pulling/)
 						- [The surprising rolling spool: Experiments and theory from mechanics to phase transitions](https://www.researchgate.net/publication/264161700_The_surprising_rolling_spool_Experiments_and_theory_from_mechanics_to_phase_transitions) with [PDF](../assets/physics/Surprising-EJP09JunRev.pdf)
