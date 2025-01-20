@@ -2769,7 +2769,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) can be seen as a sequence of ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. Threads are spun from ((671b6c19-7dee-4548-9154-a5eddbe870fc)) just like yarns are spun from fibers.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), a thread can be seen as a sequence of ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. Threads are spun from ((671b6c19-7dee-4548-9154-a5eddbe870fc)) just like yarns are spun from fibers.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [execution thread](https://en.wikipedia.org/wiki/Thread_(computing)), [conversation thread](https://en.wikipedia.org/wiki/Thread_(online_communication)), [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), [screw thread](https://en.wikipedia.org/wiki/Screw_thread), [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic))
 		  id:: 66b1cfa4-6ce7-447b-b637-30d86f0e748e
 		- Vietnamese: sợi, mạch
@@ -2822,14 +2822,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- 1 = nondimensional = dimensionless = all dimensions = omnidimensional
 				  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
 				  but usually confused with unidimensional
-					- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **volume**)
+					- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **hypervolume**)
 				- The [extent](((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
 				  collapsed:: true
 					- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
 						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
 						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
 				- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
-		-
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
 	  collapsed:: true
