@@ -1624,11 +1624,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 678e1c3f-6202-45aa-8527-f4bdad9927b9
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3b5e5-496a-4545-be7a-b1df2d94bd11))
 		- *All beings have the same content.*
+		  id:: 678e1960-58d6-4cf3-8fe3-25f2f4489b33
 		  :LOGBOOK:
 		  CLOCK: [2025-01-20 Mon 16:37:39]
 		  :END:
 		  They are just the same content in different forms.
-			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Law of the same content
+		  ((665ca48e-f7c1-4541-b5cf-486d86b02997)) ((678e2046-54ac-4284-865d-6f3e38f589a1))
+			- Law of the same content
+			  id:: 678e2046-54ac-4284-865d-6f3e38f589a1
+			  ((665ca495-93b4-47d4-a022-ce511b021a3d)) ⟪ ((678e1960-58d6-4cf3-8fe3-25f2f4489b33)) ⟫
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The total content of each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), i.e. all arrows of this being, is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). One being differs from other beings only through its form. That means each being is just the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) manifests in a particular form.
 			- **Universal content**
 			  id:: 678e1d31-4874-4df6-bfb4-60822a6b5546
