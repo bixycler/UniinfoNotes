@@ -2108,6 +2108,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  
 					  — [Chapter 11. The usage of the vacancy](https://ctext.org/dao-de-jing#n11602), Dao De Jing, Lao Tzu
 			- Grand Circle (◯) of Unïnfo
+			  id:: 6772a6cd-771f-4f24-9c3a-39c442234be5
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Through [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), the Trinion transforms into various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of all beings in the Universe, extensionally. And intensionally, the Trinion is the Universe itself. Then through [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))), intensionally, every being is just the Trinion itself.
 					- ![GrandCircle](https://docs.google.com/drawings/d/1tVAf16aTCaIdMOOLwqFFA6dChUeUqAF14yav-y81JbE/pub?w=386&h=250)
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
@@ -2793,7 +2794,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Vietnamese: sợi, mạch
 		- ### Ω-thread
 		  id:: 66ab75a1-f4a0-4bab-a002-8e573546623a
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.  ((678e2046-54ac-4284-865d-6f3e38f589a1))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.
+				- DOING Similar to the ((6772a6cd-771f-4f24-9c3a-39c442234be5)),  ((678e2046-54ac-4284-865d-6f3e38f589a1)) ...
+				  :LOGBOOK:
+				  CLOCK: [2025-01-20 Mon 20:56:58]
+				  :END:
 				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology).
 				  id:: 6716110e-05cf-4cda-9bbd-c47fb74eba13
 				- DOING flow of transforms, implemented by projections
@@ -2847,6 +2852,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The information extraction through observation is called “**thread pulling**”.
 				- The construction of new forms to return back to the Omnifold through action is called “**thread spinning**”.
 			- Different subjects pull out different Ω-threads from the same Omnifold, which are just different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same objects, as different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of the same content.
+			  id:: 6772a6cd-5b37-43ab-b8cb-b9656d26fdcc
 			  collapsed:: true
 				- For example, for an Omnifold in the form of an $m × n$ table,
 					- one subject pulling out row by row will get the thread of $m$ rows, while
