@@ -2793,7 +2793,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Vietnamese: sợi, mạch
 		- ### Ω-thread
 		  id:: 66ab75a1-f4a0-4bab-a002-8e573546623a
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.  ((678e2046-54ac-4284-865d-6f3e38f589a1))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.  ((678e2046-54ac-4284-865d-6f3e38f589a1))
 				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology).
 				  id:: 6716110e-05cf-4cda-9bbd-c47fb74eba13
 				- DOING flow of transforms, implemented by projections
@@ -2820,35 +2820,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
 						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
 				- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
-			- #### Omnifold (Ω)
-			  id:: 675c03d8-3185-41a8-9f98-e869fabec793
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-12-13 Fri 16:59:25]
-			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((675c03d8-3185-41a8-9f98-e869fabec793)) is the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) folded and crumpled into a nondimensional & nondirectional blob that contains all possible forms in infinite dimensional space. That means the Omnifold is nondimensional & nondirectional, yet [omnidimensional](((67505a68-91b9-4abb-bf92-4dddad8c5803))) & [omnidirectional](((67505a65-19d8-415a-8b80-c955a8768647))).
-					- For an ((669a2487-054d-4408-ae41-189e34af81a9)) (hypothetically) outside of the Omnifold, it can only see a ((66e43b94-9183-4d49-af85-8a7a1c194c12)) because all content of the Omnifold has been *abstracted*. This point shows its nondirectionality.
-					- When the outside ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) handles the point from the outside, it can only feel the “mass” of the Omnifold, which shows its nondimensionality.
-					- Only when the subject involves in the Omnifold, can it experience dimensions of the Omnifold as volumes and structures of information, as well as directions of the Ω-thread as changes and motions.
-						- The information extraction through observation is called “**thread pulling**”.
-						- The construction of new forms to return back to the Omnifold through action is called “**thread spinning**”.
-					- Different subjects pull out different Ω-threads from the same Omnifold, which are just different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same objects, as different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of the same content.
-					  collapsed:: true
-						- For example, for an Omnifold in the form of an $m × n$ table,
-							- one subject pulling out row by row will get the thread of $m$ rows, while
-							- the other subject pulling out column by column will get the thread of $n$ columns.
-					- Each subject uses the pulled out threads as contents to spin other threads as new forms, new folds of the Omnifold.
-				- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
-					- This name has been suggested by Copilot.
-				- |Ω| = 1
-				  The mass (amount of content) of the omnifold is [1](((67505a68-91b9-4abb-bf92-4dddad8c5803))).
-				- DOING Compared with other models of the Universe
-				  :LOGBOOK:
-				  CLOCK: [2024-12-13 Fri 18:37:00]
-				  :END:
-					- Block universe
-					- Bulk universe
-					- Multiverse, parallel worlds
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
 	  collapsed:: true
@@ -2859,6 +2830,39 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is the representation of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) in mathematical language, where everything is represented by the ((66ab75a1-f4a0-4bab-a002-8e573546623a)). ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
 		- Operations
 			-
+	- ## Omnifold
+	  id:: 675c03d8-3185-41a8-9f98-e869fabec793
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-12-13 Fri 16:59:25]
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((678e23b4-0fbe-4a5d-923f-6252405053df))
+		- Ω
+		  id:: 678e23b4-0fbe-4a5d-923f-6252405053df
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((675c03d8-3185-41a8-9f98-e869fabec793))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) As the intension of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)), ((675c03d8-3185-41a8-9f98-e869fabec793)) is the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) folded and crumpled into a nondimensional & nondirectional blob that contains all possible forms in infinite dimensional space. That means the Omnifold is nondimensional & nondirectional, yet [omnidimensional](((67505a68-91b9-4abb-bf92-4dddad8c5803))) & [omnidirectional](((67505a65-19d8-415a-8b80-c955a8768647))).
+			- For an ((669a2487-054d-4408-ae41-189e34af81a9)) (hypothetically) outside of the Omnifold, it can only see a ((66e43b94-9183-4d49-af85-8a7a1c194c12)) because all content of the Omnifold has been *abstracted*. This point shows its nondirectionality.
+			- When the outside ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) handles the point from the outside, it can only feel the “mass” of the Omnifold, which shows its nondimensionality.
+			- Only when the subject involves in the Omnifold, can it experience dimensions of the Omnifold as volumes and structures of information, as well as directions of the Ω-thread as changes and motions.
+				- The information extraction through observation is called “**thread pulling**”.
+				- The construction of new forms to return back to the Omnifold through action is called “**thread spinning**”.
+			- Different subjects pull out different Ω-threads from the same Omnifold, which are just different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same objects, as different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of the same content.
+			  collapsed:: true
+				- For example, for an Omnifold in the form of an $m × n$ table,
+					- one subject pulling out row by row will get the thread of $m$ rows, while
+					- the other subject pulling out column by column will get the thread of $n$ columns.
+			- Each subject uses the pulled out threads as contents to spin other threads as new forms, new folds of the Omnifold.
+		- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
+			- This name has been suggested by Copilot.
+		- |Ω| = 1
+		  The mass (amount of content) of the omnifold is [1](((67505a68-91b9-4abb-bf92-4dddad8c5803))).
+		- DOING Compared with other models of the Universe
+		  :LOGBOOK:
+		  CLOCK: [2024-12-13 Fri 18:37:00]
+		  :END:
+			- Block universe
+			- Bulk universe
+			- Multiverse, parallel worlds
 	- ## uninet
 	  id:: 669dcdf8-a48c-40b1-bdb1-54a73fc5ae71
 	  collapsed:: true
