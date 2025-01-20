@@ -1619,6 +1619,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2024-09-25 Wed 14:04:07]
 	  :END:
 	  ((665ca429-84e3-49ff-921e-c07d19cd99ba)) ☉ ((6678288e-699b-4325-bdba-bf6349fe0d57))
+		- *All beings have the same content.*
+		  :LOGBOOK:
+		  CLOCK: [2025-01-20 Mon 16:37:39]
+		  :END:
+		  They are just the same content in different forms.
+			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Law of the same content
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
