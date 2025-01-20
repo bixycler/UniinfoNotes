@@ -1554,6 +1554,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
 		- TODO Migrate [[CIE]]
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		  collapsed:: true
 			- Why the intent is under the content in the division $c/i$:
 				- "**Sub**-ject" = **under**-thrown = the **under**lying agent of the action/operation of measurement.
 				- "Unit" is "the one", the one underlying all measurement and the one that any content is measured against... by division.
@@ -2797,8 +2798,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  CLOCK: [2024-09-27 Fri 15:15:15]
 				  CLOCK: [2024-09-27 Fri 15:15:30]
 				  :END:
-			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Ōṁ-thread [Ω,ॐ], One-thread [Ω,𝟙], Omni-thread or Overall thread, Ouroboros thread, etc.
+			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Ōm̐-thread [Ω,ॐ], One-thread [Ω,𝟙], Omni-thread or Overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
+				- Vietnamese: mạch Ôông
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
 			- #### Omnifold (Ω)
 			  id:: 675c03d8-3185-41a8-9f98-e869fabec793
