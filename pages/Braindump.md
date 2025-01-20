@@ -144,14 +144,17 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- [?] How to highlight hard links for `ls --color=auto`
 			- ((678a4f10-b109-429d-9c58-f9bd52f807cd))
 		- ((678b7762-1187-4330-93cb-7a62e14467a8))
+		- Here, we're witnessing the development and transmigration of the [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8))):
+		  collapsed:: true
+			- First drafted in ((db954501-95d0-46e2-b1fc-39b6a966300e))
+			- Then moved to ((67763a41-4ad6-449f-9d9b-d63ce417082c)), due to the discussion with Copilot inside.
+			- Now, moves to ((67760e05-2ea1-4f0e-aaa6-158edca80df5)), due to its wide contents.
+			- And it leads to the formal formulation of “transcycle” whose location is [still being considerd...](((678dbff1-19ea-47c5-8794-2638d53ee7dd)))
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
+		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
 			- ((6783e3ff-9e8f-43db-a173-5d0c6972deab))
 			- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
 			- ((67810168-747f-4bb5-9594-5c07bddf7041))
-		- Here, we're witnessing the development and transmigration of the [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8))):
-			- First drafted in ((db954501-95d0-46e2-b1fc-39b6a966300e))
-			- Then moved to ((67763a41-4ad6-449f-9d9b-d63ce417082c)), due to the discussion with Copilot inside.
-			- Now,Then moved to
 		- ...
