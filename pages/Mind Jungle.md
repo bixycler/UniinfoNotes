@@ -2861,7 +2861,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-12-13 Fri 18:37:00]
 		  :END:
 			- Block universe
-			- Bulk universe
+			- Bulk universe: 4D spacetime is just a [brane](https://en.wikipedia.org/wiki/Brane_cosmology) within this bulk.
 			- Multiverse, parallel worlds
 	- ## uninet
 	  id:: 669dcdf8-a48c-40b1-bdb1-54a73fc5ae71
