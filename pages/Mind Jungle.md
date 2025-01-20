@@ -2025,13 +2025,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- the **differential equation** of the microcosm (Trinion), written with the _dynamic equal_ ⟪○ ⇌ ↑⟫.
 		- Three [postulates](((66f3cf07-4be5-4a50-9d99-b190b60f6ffa))) of ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 66f3d61c-35d0-46ae-9786-752af40e64c4
-			- Postulate of Existence
+			- **Postulate of Existence**
 			  id:: 66f3d644-782c-4f33-bd5c-db6e0a2d447a
 			  There _exists_ a ((66f3d561-424a-4e1d-be55-98ac39c48502)) (○).
-			- Postulate of Differentiation
+			- **Postulate of Differentiation**
 			  id:: 1a22a090-6786-4114-8aad-35b122783bff
 			  The Circle transforms into _different_ ((665ca429-84e3-49ff-921e-c07d19cd99ba))s. This transformation is called the ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) (↑) which is itself _different_ from the Circle.
-			- Postulate of Unification
+			- **Postulate of Unification**
 			  id:: c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69
 			  The Circle and the Arrow are two aspects of _the same_ being called ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (⊜). This equivalence is called the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) (`=`). And when the two former components (○, ↑) meet each other, they _recognize_ each other. That recognition is denoted by the _equation_ ⟪○ = ↑⟫.
 		- Three [intrinsics](((66f3e170-dc4b-45ea-8720-de4580a30d01))) of ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
@@ -2775,7 +2775,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Vietnamese: sợi, mạch
 		- ### Ω-thread
 		  id:: 66ab75a1-f4a0-4bab-a002-8e573546623a
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language, and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.
 				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology).
 				  id:: 6716110e-05cf-4cda-9bbd-c47fb74eba13
 				- DOING flow of transforms, implemented by projections
@@ -2788,6 +2788,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 				- Vietnamese: mạch Ôông
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
+			- All
+			- Dimensionality & directionality
+				- 0 = nondirectional = all directions = omnidirectional
+				  id:: 67505a65-19d8-415a-8b80-c955a8768647
+					- Zero identity: 0 (nondirectional **blob**) = $-1 + 1 = -1 - 2 - 3 - ... - ∞ + 1 + 2 + 3 + ... + ∞$ (balanced infinite **structure**)
+				- 1 = nondimensional = dimensionless = all dimensions = omnidimensional
+				  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
+				  but usually confused with unidimensional
+					- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **hypervolume**)
+				- The [extent](((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
+				  collapsed:: true
+					- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
+						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
+						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
+				- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
 			- #### Omnifold (Ω)
 			  id:: 675c03d8-3185-41a8-9f98-e869fabec793
 			  collapsed:: true
@@ -2815,20 +2830,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Block universe
 					- Bulk universe
 					- Multiverse, parallel worlds
-			- Dimensionality & directionality
-				- 0 = nondirectional = all directions = omnidirectional
-				  id:: 67505a65-19d8-415a-8b80-c955a8768647
-					- Zero identity: 0 (nondirectional **blob**) = $-1 + 1 = -1 - 2 - 3 - ... - ∞ + 1 + 2 + 3 + ... + ∞$ (balanced infinite **structure**)
-				- 1 = nondimensional = dimensionless = all dimensions = omnidimensional
-				  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
-				  but usually confused with unidimensional
-					- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **hypervolume**)
-				- The [extent](((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
-				  collapsed:: true
-					- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
-						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
-						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
-				- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
 	  collapsed:: true
