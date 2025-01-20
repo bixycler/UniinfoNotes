@@ -2820,6 +2820,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- the other subject pulling out column by column will get the thread of $n$ columns.
 					- Each subject uses the pulled out threads as contents to spin other threads as new forms, new folds of the Omnifold.
 				- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
+					- This name has been suggested by Copilot.
+				- ...
 				- DOING Compared with other models of the Universe
 				  :LOGBOOK:
 				  CLOCK: [2024-12-13 Fri 18:37:00]
