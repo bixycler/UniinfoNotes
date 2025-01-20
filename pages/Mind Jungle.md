@@ -2790,6 +2790,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
 			- #### Omnifold (Ω)
 			  id:: 675c03d8-3185-41a8-9f98-e869fabec793
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-12-13 Fri 16:59:25]
 			  :END:
@@ -2814,7 +2815,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Block universe
 					- Bulk universe
 					- Multiverse, parallel worlds
-			- Dimensionality
+			- Dimensionality & directionality
 				- 0 = nondirectional = all directions = omnidirectional
 				  id:: 67505a65-19d8-415a-8b80-c955a8768647
 					- Zero identity: 0 (nondirectional **blob**) = $-1 + 1 = -1 - 2 - 3 - ... - ∞ + 1 + 2 + 3 + ... + ∞$ (balanced infinite **structure**)
@@ -2822,8 +2823,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
 				  but usually confused with unidimensional
 					- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **volume**)
-				- The extent is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
-					- We don't use the term “scalar” (scaling ratio) to avoid confusion.
+				- The [extent](((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
+					- Although extent is the scaling factor We don't use the term “scalar” (scaling ratio) to avoid confusion.
 					  collapsed:: true
 						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
 						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
