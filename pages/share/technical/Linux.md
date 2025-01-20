@@ -873,9 +873,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 									  
 									  ```
 						- Root cause: IPs of CNAME are not updated automatically [by DHCP](((6772a6d3-db76-4984-bb94-67367a3f5e54))).
-							- ⇒We must manually request DHCP to update CNAME IPs by query IP for them: `nslookup $CNAME` or `dig $CNAME`
-							- The script ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh)
-						- with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`
+							- ⇒We must manually request DHCP to update CNAME IPs by query IP for them: `[nslookup,dig,ping] $CNAME`
+							- The script ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh) keeps CNAMEs resolved by `dig`ging them every minute.
+						- no benefit with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`
 						  collapsed:: true
 							- No apparent difference!
 							- Ref: [CNAME aliases with dnsmasq](https://groups.google.com/g/uk.comp.os.linux/c/cYFMngIAFi0/m/pcYR1yeDNi4J)
