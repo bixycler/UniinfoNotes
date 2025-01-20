@@ -37,7 +37,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- “transcycling = cycling + exchange (I/O)”: the bicycle cycling itself includes the translation of the bicycle and the exchange of momentum, but i add the prefix “trans” to stress the intrinsic exchange of content, transition of state, transformation of thread.
 					- Verb “to transcycle”: When an obop transcycles *on* the thread from left to right
 						- Intransitive verb: “to transcycle on somebody” ~ “to cycle on road” ~ “to traverse some place”
-						- Transitive verb: “to transcycle something” ~ “to recycle something”; “something is transthrough somebody”
+						- Transitive verb: “to transcycle something” ~ “to recycle something”;
+							- Passive voice: “something is transcycled through somebody” ~ “something is cycled through somebody” ~ “something cycles through somebody's contents” (e.g. “The Earth climate cycles through the "warm" El Niño phase and the "cool" La Niña phase.” )
 				- “transcycling” is close to “traversal”, with “cycle” ~ “verse = turn”!
 					- ((678b72d3-073a-4763-a49f-5233a3d86614))
 					- The “turn” in “traversal” is the change (nearly reverse) of direction in the zigzag course or switchback: to exhaustively traverse a flat space, we must switchback many times.
