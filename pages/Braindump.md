@@ -154,7 +154,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
 		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
+			- [Unithread](((66ac41d1-09e7-44b1-9290-ea7d5f02a817)))'s operations: transcycling ~ CIE and interunion ~ SCIFER
+			- Unithread's laws: all subjects have the same content
 			- ((6783e3ff-9e8f-43db-a173-5d0c6972deab))
 			- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
 			- ((67810168-747f-4bb5-9594-5c07bddf7041))
+		- ((678df0f0-20d2-4995-bfc2-0b953970469d))
 		- ...
