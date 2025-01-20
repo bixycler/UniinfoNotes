@@ -722,7 +722,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  Dec  5 14:07:55 dnsmasq[3334473]: query[AAAA] git1.lan.skygate.co.jp from 127.0.0.1
 							  Dec  5 14:07:55 dnsmasq[3334473]: config git1.lan.skygate.co.jp is <CNAME>
 							  ```
-					- without VPN, then, after some hours (> DNS lease time 3600 = 1h)
+					- without VPN, then, after some hours (> DHCP DNS lease time 3600 = 1h)
 						- showing only `CNAME` but with no `A` record
 						  id:: 67519abb-dba9-4637-9c1a-feebe4b76589
 						  collapsed:: true
