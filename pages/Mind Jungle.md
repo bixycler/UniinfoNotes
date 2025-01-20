@@ -2824,8 +2824,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  but usually confused with unidimensional
 					- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **volume**)
 				- The [extent](((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
-					- Although extent is the scaling factor We don't use the term “scalar” (scaling ratio) to avoid confusion.
-					  collapsed:: true
+				  collapsed:: true
+					- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
 						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
 						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
 				- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
