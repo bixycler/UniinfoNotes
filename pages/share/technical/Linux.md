@@ -299,7 +299,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Superuser: `/sbin`, `/usr/sbin`, `/usr/local/sbin`
 			- Snap: `/snap/bin`
 			  id:: 66b1cfa4-59ec-476f-b06f-c14db11f369b
-		- Escape sequences
+		- Escape sequences & Hex codes
 		  collapsed:: true
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
 			- ((66725725-f76a-4328-b162-f469b87e871b))
@@ -362,6 +362,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				   00 b0 00 bf 00 a0 00 af 00 b0 00 bf
 				  °¿ ¯°¿
 				  ```
+			- `hexdump`
+			- `od`
+			- `xxd`
+				- `xxd -p` to print only hex codes
 		- #### shell script
 		  id:: 6694a210-0bd1-4115-b190-4c41f58a577f
 			- One line of command with many nuances:
