@@ -597,7 +597,6 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  collapsed:: true
 		  Vi IMproved, a programmer's text editor
 			- directory browsing
-			  collapsed:: true
 				- When opening a directory, e.g. `vim .`, vim can browse it for the text file to be edited.
 			- split window
 			  id:: 66fe47b0-71d5-4663-bc43-d4774329a56e
