@@ -115,8 +115,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  collapsed:: true
 			- Get back to COMPANY WORK!
 			  id:: 67850c3d-a026-43a0-8fb8-1febf398bd65
-			  scheduled:: <2025-01-13 Mon 19:39>
-			  deadline:: <2025-01-13 Tue 20:12>
+			  scheduled:: <2025-01-24 xxx 11:00>
+			  deadline:: <2025-01-24 xxx 12:>
 			- id:: 67850fd2-272d-48fa-9d7c-c649619b5a89
 			  #+BEGIN_CAUTION
 			  [:b {:style "background-color:Orange; color:DarkRed"} " BACK TO WORK! "]
@@ -127,7 +127,6 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  #+END_WARNING
 		- #### Reminder
 		  id:: 67850c24-b1c9-425a-abc2-af81243befb2
-		  collapsed:: true
 			- {{deadline-warning ((67850fb1-04a9-427f-bc0d-f61913d86e4b)), 67850c3d-a026-43a0-8fb8-1febf398bd65, 67850fd2-272d-48fa-9d7c-c649619b5a89, 67850fe1-3e22-430e-9af9-a84853766dd7}}
 		- ### Working
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
