@@ -362,9 +362,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				   00 b0 00 bf 00 a0 00 af 00 b0 00 bf
 				  °¿ ¯°¿
 				  ```
-			- `hexdump`
+			- `hexdump`, `hd`
+			  display file contents in hexadecimal, decimal, octal, or ascii
 			- `od`
+			  dump files in octal and other formats
 			- `xxd`
+			  make a hexdump or do the reverse
 				- `xxd -p` to print only hex codes
 		- #### shell script
 		  id:: 6694a210-0bd1-4115-b190-4c41f58a577f
