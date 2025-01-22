@@ -204,7 +204,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-e` for **little-endian** hex (default = big-endian)
 				- `-i` output in C array definition
 			- `dd` `$operand`...
-			  copy a file block-wise, converting and formatting [according to the `$operand`s](https://pubs.opengroup.org/onlinepubs/9699919799.orig/utilities/dd.html)
+			  copy a file block-wise, converting and formatting [according to the `$operand`s](https://www.ibm.com/docs/nl/aix/7.2?topic=d-dd-command)
 			  A.K.A. “data definition”, “disk dump”, “disk duplicator”, or even “disk destroyer” due to its immense power and [ability to directly interact with block devices](https://blog.kubesimplify.com/the-complete-guide-to-the-dd-command-in-linux).
 				- `if=$in_file` `of=$out_file` or default to `stdin` `stdout`
 				- `bs=$size` (or `ibs=$size` `obs=$size`) `cbs=$size` specify block size (default = 512) for copying
@@ -212,9 +212,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `skip=$ni` `seek=$no` `count=$nc` skip the input `$ni` blocks and seek the output to `$no` blocks then copy `$nc` blocks
 				- `status={none,noxfer,progress}` to suppress status, suppress transfer statistics, or to show periodic transfer statistics
 				- `conv=$mode` to set modes of conversion
-					- `notrunc`, `excl` to prevent overwriting (truncating) the output file, or fail
+					- `notrunc`, `excl`, `nocreat` to prevent overwriting (truncating) the `of`, or fail (`excl`) when the `of` already exists, or don't create `of`
 					- `noerror` to continue on any input error
-					- `swab`, `sync` to swap every pair of bytes or
+					- `swab`, `sync` to swap every pair of bytes, or/and pad input block to `ibs`
+					- `lcase`|`ucase`, `block`|`unblock` to convert text to lower/upper case, or/and padding spaces to `cbs`
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
