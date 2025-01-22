@@ -209,7 +209,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `bs=$size` (or `ibs=$size` `obs=$size`) `cbs=$size` specify block size (default = 512) for copying
 					- `cbs=$size` specify conversion block size (default = 0) for `conv={block,unblock}`
 				- `skip=$ni` `seek=$no` `count=$nc` skip the input `$ni` blocks and seek the output to `$no` blocks then copy `$nc` blocks
-				- `conv=$mode` to convert the block
+				- `status={none,noxfer,progress}` to suppress status, suppress transfer statistics, or to show periodic transfer statistics
+				- `conv=$mode` to set modes of conversion
+					- `notrunc` to prevent overwriting (truncating) the output file
+					- `noerror` to continue on any input error
+					- ``
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
