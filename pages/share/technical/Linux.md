@@ -158,13 +158,18 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  collapsed:: true
 			- `tail`
 			  output the last part of files
-				- `-{n,c}[+]$num` to output the last `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or from line/char `$num` (with `+`, e.g. `-n +3`, `-n+3`, `-c+3`). Default is `-n 10`.
+				- `-{n,c} [+]$num` to output the last `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or from line/char `+$num` from the start, e.g. `-n +3`, `-n+3`, `-c+3`. Default is `-n 10`.
 					- `n` can be ommited, e.g. `-3`, `+3`
 				- `-f`, `-F` keep appending output **follow**ing input growth. `-F` = `-f --retry` to follow even when the input is inaccessible.
 			- `head`
 			  output the first part of files
-				- `-{n,c}[-]$num` to output the last `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or from line/char `$num` (with `+`, e.g. `-n +3`, `-n+3`, `-c+3`). Default is `-n 10`.
-					- `n` can be ommited, e.g. `-3`, `+3`
+				- `-{n,c} [-]$num` to output the first `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or until line/char `-$num` from the end, e.g. `-n -3`, `-n-3`, `-c-3`). Default is `-n 10`.
+					- `n` can be ommited, e.g. `-3`
+			- `sed` [option] script [input_file]
+			  stream editor for filtering and transforming text
+				- `-i` to edit inplace, i.e. to overwrite the input file with the output
+				- `-e $script` for additional script
+					- `-E` to use extended regular expressions in the script
 		- hex, binary, encoding converting
 		  id:: 679085ef-facd-4c4a-83f3-f32bdefbaa49
 		  collapsed:: true
