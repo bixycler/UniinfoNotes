@@ -370,8 +370,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `od`
 			  dump files in octal and other formats
 				- `-j $start` `-N $length` to read `$length` bytes from `$start`.
-				- `-t $format` with formats: `{x,o,u,d,f}[$size][a,z]` for {hex, octal, unsigned dec, signed dec, float} of `$size` bytes (default 4 bytes) and optionally `a` or `z` for printable characters under (`a`) or at the end (`z`) of each output line.
+				- `-t $format` with formats: `{x,o,u,d,f}[$size][a,z]` for {*octal*, hex, unsigned dec, signed dec, float} (default = octal) of `$size` bytes (default 4 bytes) 
+				  and optionally `a` or `z` for printable characters under (`a`) or at the end (`z`) of each output line.
 				- `--endian={big|little}` for [endian byte order](https://en.wikipedia.org/wiki/Endianness)
+				- `-A $radix` for radix of address in the first column: `{x,o,d,n}` = {*octal*, hex, dec, **none**} (default = octal)
+				  `-An` to **suppress address** output
 			- `xxd`
 			  make a hexdump or do the **reverse**
 				- `-o $start` `-l $length` to read `$length` bytes from `$start`.
