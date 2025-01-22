@@ -155,7 +155,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `du`
 			  estimate file space usage
 		- text processing
-		- hex & binary
+		- hex, binary, encoding converting
 		  id:: 679085ef-facd-4c4a-83f3-f32bdefbaa49
 		  collapsed:: true
 			- Examples
@@ -202,6 +202,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-p` to print only hex codes, A.K.A. "**plain hex**", **continuously** (`-g` grouping is diabled) without address
 				- `-e` for **little-endian** hex (default = big-endian)
 				- `-i` output in C array definition
+			- `dd`
+			  copy a file, converting and formatting according to the operands
+			  A.K.A. “data definition”, “disk dump”, “disk duplicator”, or even “disk destroyer” due to its immense power and ability to directly interact with block devices.
+				-
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
