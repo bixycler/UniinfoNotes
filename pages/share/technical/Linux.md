@@ -111,6 +111,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `find`
 			  collapsed:: true
 			  search for files in a directory hierarchy
+				- `-{name,path,lname} $pattern`
+				  find files with basename or path or symlink target matching [glob `$pattern`](https://en.wikipedia.org/wiki/Glob_(programming))
+				- `-regex $pattern`
+				  find files with path matching regex `$pattern`
+				- `-type {b,c,d,p,f,l,s,D}`
+				  find files with corresponding ((671f467e-6f1f-4436-a0dd-9a03055e11a9))
+				- `-size [-,+]$n[c,w,b,k,M,G]`
+				  find files with size is less than (`-`), greater (`+`) or equals to `$n` chars, words, bytes, KiB, MiB, GiB
+				- `-links [-,+]$n`
+				  find files with more number of ((671f5617-1163-4ffc-b65a-b3234e471db0))s is than (`-`), greater (`+`) or equals to `$n`
 				- `-samefile $ref_file`
 				  id:: 671f544c-792b-4bd3-bfda-38c8d1fc2b01
 				  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$ref_file`
@@ -139,12 +149,6 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							      fi
 							      shift
 							  done
-				- `-{name,path} $pattern`
-				  find files with basename or path matching [glob `$pattern`](https://en.wikipedia.org/wiki/Glob_(programming))
-				- `-regex $pattern`
-				  find files with path matching regex `$pattern`
-				- `-size [-,+]$n[c,w,b,k,M,G]`
-				  find files with size is less than (`-`), greater (`+`) or equals to `$n` chars, words, bytes, KiB, MiB, GiB
 				- `-true`
 				  find all files (unfiltered) for ((6790bd70-e65e-4053-9b6b-079e0d6ca7a1))
 				- `-exec $action`
