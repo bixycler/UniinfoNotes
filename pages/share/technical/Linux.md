@@ -120,7 +120,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  find files with corresponding ((671f467e-6f1f-4436-a0dd-9a03055e11a9)) (`f` = `-` = regular file)
 				- `-perm [-,/]$mode`
 				  find files with [permission](((6772a6d3-8aec-4e7f-af3c-5373bcc9b221))) is at least (`-`), at most (`/`), or exactly `$mode`
-				- `{amin,atime,cmin,ctim}`
+					- `-executable`
+				- `{{amin,cmin},{atime,ctime},{anewer,cnewer}} {[-,+]$mins,[-,+]$days,$file}`
+				  find files with {access, change} time is less than (`-`), greater (`+`) or equals to `$mins` ago, `$days` ago, or newer than reference `$file`
 				- `-size [-,+]$n[c,w,b,k,M,G]`
 				  find files with size is less than (`-`), greater (`+`) or equals to `$n` chars, words, bytes, KiB, MiB, GiB
 				- `-links [-,+]$n`
