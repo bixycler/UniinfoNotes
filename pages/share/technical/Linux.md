@@ -107,6 +107,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  status of file or file system
 				- Non-default info (`--format`)
 					- `%m` = mount point
+			- `file`
+			  determine file type
 			- `tree`
 			  list contents of directories in a tree-like format.
 			- `find $dir $expr`
@@ -121,8 +123,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-perm [-,/]$mode`
 				  find files with [permission](((6772a6d3-8aec-4e7f-af3c-5373bcc9b221))) is at least (`-`), at most (`/`), or exactly `$mode`
 					- `-executable`
-				- `{{amin,cmin},{atime,ctime},{anewer,cnewer}} {[-,+]$mins,[-,+]$days,$file}`
-				  find files with {access, change} time is less than (`-`), greater (`+`) or equals to `$mins` ago, `$days` ago, or newer than reference `$file`
+					  maches files which are executable and directories which are searchable
+				- `{a,[m],c}{min,time,newer} {[-,+]$mins,[-,+]$days,$file}`
+				  find files with {access, modified, meta change} time is less than (`-`), greater (`+`) or equals to `$mins` ago, `$days` ago, or newer than reference `$file`
+					- Note: modified time: `mmin`, `mtime`, but `-newer` not `-mnewer`
 				- `-size [-,+]$n[c,w,b,k,M,G]`
 				  find files with size is less than (`-`), greater (`+`) or equals to `$n` chars, words, bytes, KiB, MiB, GiB
 				- `-links [-,+]$n`
