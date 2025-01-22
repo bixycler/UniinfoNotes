@@ -181,6 +181,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  estimate file space usage
 		- text processing
 		  collapsed:: true
+			- `grep`
+			  print lines that match patterns
 			- `tail`
 			  output the last part of files
 				- `-{n,c} [+]$num` to output the last `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or from line/char `+$num` from the start, e.g. `-n +3`, `-n+3`, `-c+3`. Default is `-n 10`.
@@ -195,6 +197,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-i` to edit inplace, i.e. to overwrite the input file with the output
 				- `-e $script` for additional script beside the main script without `-e`
 					- `-E` to use extended regular expressions in the script
+			- `awk`
+			  pattern scanning and processing language
+				-
 		- hex, binary, encoding converting
 		  id:: 679085ef-facd-4c4a-83f3-f32bdefbaa49
 		  collapsed:: true
