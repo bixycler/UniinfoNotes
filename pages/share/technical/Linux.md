@@ -366,7 +366,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  display file contents in *little-endian* hexadecimal, decimal, octal, or ascii
 				- `-s $start` `-n $length` to read `$length` bytes (or `{K,M,G,T}[iB]` or `{K,M,G,T}B`) from `$start`.
 				- `-e $format_string` for **output format** similar to C `printf()`
-					- `[$iter[/$count]] "%printf_format"` applies the `%printf_format` for `$iter` times where each time consuming `$count` bytes.
+					- `[$num[/$size]] "%printf_format"` applies the `%printf_format` for `$num` times where each time consuming `$size` bytes.
+						- Supported `$size` values:
+							- Character: `%_c`, `%_p`, `%_u`, `%c`: 1 byte only
+							- Integer: `%X`, `%x`, `%o`, `%u`, `%d`, `%i`: 1, 2 and **4** bytes (default = 4)
+							- Float: `%E`, `%e`, `%f`, `%G`, `%g`: 4, **8** bytes (default = 8)
+						- `"%printf_format"` must be double-quoted.
 					- Multiple `-e` strings can be applied to the same chunk of data to print it in different forms, like the canonical format.
 					  id:: 67907cb8-81f7-494f-92af-14275630e6c6
 				- `-v` for no collapse of duplicates. By default, all dupes are collapsed into `*`.
