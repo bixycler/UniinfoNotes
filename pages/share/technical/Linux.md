@@ -364,20 +364,21 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  ```
 			- `hexdump`, `hd`
 			  display file contents in hexadecimal, decimal, octal, or ascii
-				- `-e $format_string` for **output format** similar to C's `printf()`
 				- `-s $start` `-n $length` to read `$length` bytes (or `{K,M,G,T}[iB]` or `{K,M,G,T}B`) from `$start`.
+				- `-e $format_string` for **output format** similar to C's `printf()`
 				- `-v` for no collapse of duplicates. By default, all dupes are collapsed into `*`.
 			- `od`
 			  dump files in octal and other formats
-				- `--endian={big|little}` for [endian byte order](https://en.wikipedia.org/wiki/Endianness)
 				- `-j $start` `-N $length` to read `$length` bytes from `$start`.
+				- `-t $format` with formats: `{x,o,u,d,f}[$size][a,z]`
+				- `--endian={big|little}` for [endian byte order](https://en.wikipedia.org/wiki/Endianness)
 			- `xxd`
 			  make a hexdump or do the **reverse**
+				- `-o $start` `-l $length` to read `$length` bytes from `$start`.
 				- `-r` **reverse** conversion
 				- `-p` to print only hex codes, A.K.A. "**plain hex**"
 				- `-e` for **little-endian** hex
 				- `-i` output in C's include file style
-				- `-o $start` `-l $length` to read `$length` bytes from `$start`.
 		- #### shell script
 		  id:: 6694a210-0bd1-4115-b190-4c41f58a577f
 			- One line of command with many nuances:
