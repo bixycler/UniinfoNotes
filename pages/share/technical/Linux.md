@@ -367,9 +367,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-s $start` `-n $length` to read `$length` bytes (or `{K,M,G,T}[iB]` or `{K,M,G,T}B`) from `$start`.
 				- `-e $format_string` for **output format** similar to C `printf()`
 					- `[$iter[/$count]] "%printf_format"` applies the `%printf_format`
+					-
 				- `-v` for no collapse of duplicates. By default, all dupes are collapsed into `*`.
-				- `-C` for canonical format of 3 columns: 8-digit hex address -- 8 x 2 bytes hex -- | text | 
-				  `hd` = `hexdump -C` = `hexdump -e '"%08_ax  " 8/1 "%02x " "  "  8/1 "%02x "' -e '"  |" 16/1 "%_p" "|" "\n"'`
+				- `-C` for canonical format of 3 columns: 8-digit hex address ␣␣ 8 x 2 hex bytes ␣␣ | text | 
+				  `hd` = `hexdump -C` = 
+				  ```sh
+				  hexdump \
+				    -e '"%08_ax  " 8/1 "%02x " "  "  8/1 "%02x "' \
+				    -e '"  |" 16 "%_p" "|" "\n"'
+				  ```
+					- -
 			- `od`
 			  dump files in octal, hex and other formats
 				- `-j $start` `-N $length` to read `$length` bytes from `$start`.
