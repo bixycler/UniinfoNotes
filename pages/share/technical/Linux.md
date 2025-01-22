@@ -139,6 +139,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							      fi
 							      shift
 							  done
+				- `-{name,regex} $pattern`
+				  find files with basename or path (with `regex`) matching `$pattern`
+				- `-exec`
 			- `ln`
 			  collapsed:: true
 			  make links (hard & symbolic) between files
@@ -168,7 +171,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `sed` [option] script [input_file]
 			  stream editor for filtering and transforming text
 				- `-i` to edit inplace, i.e. to overwrite the input file with the output
-				- `-e $script` for additional script
+				- `-e $script` for additional script beside the main script without `-e`
 					- `-E` to use extended regular expressions in the script
 		- hex, binary, encoding converting
 		  id:: 679085ef-facd-4c4a-83f3-f32bdefbaa49
