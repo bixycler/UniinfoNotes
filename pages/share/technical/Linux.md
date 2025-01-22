@@ -373,8 +373,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-j $start` `-N $length` to read `$length` bytes from `$start`.
 			- `xxd`
 			  make a hexdump or do the **reverse**
-				- `-r` reverse conversion
-				- `-p` to print only hex codes,
+				- `-r` **reverse** conversion
+				- `-p` to print only hex codes, A.K.A. "**plain hex**"
+				- `-e` for **little-endian** hex
+				- `-i` output in C's include file style
+				- `-o $start` `-l $length` to read `$length` bytes from `$start`.
 		- #### shell script
 		  id:: 6694a210-0bd1-4115-b190-4c41f58a577f
 			- One line of command with many nuances:
