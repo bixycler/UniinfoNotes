@@ -367,6 +367,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-s $start` `-n $length` to read `$length` bytes (or `{K,M,G,T}[iB]` or `{K,M,G,T}B`) from `$start`.
 				- `-e $format_string` for **output format** similar to C `printf()`
 					- `[$num[/$size]] "%printf_format"` applies the `%printf_format` for `$num` times where each time consuming `$size` bytes.
+					  collapsed:: true
 						- Supported `$size` values:
 							- Character: `%_c`, `%_p`, `%_u`, `%c`: 1 byte only
 							- Integer: `%X`, `%x`, `%o`, `%u`, `%d`, `%i`: 1, 2 and **4** bytes (default = 4)
@@ -374,15 +375,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- `"%printf_format"` must be double-quoted.
 					- Multiple `-e` strings can be applied to the same chunk of data to print it in different forms, like the canonical format.
 					  id:: 67907cb8-81f7-494f-92af-14275630e6c6
+					- Address format: `%_a[x,o,d]` for every chunk or `%_A[x,o,d]` for the last address after the last chunk, in hex, octal and decimal numbers.
 				- `-v` for no collapse of duplicates. By default, all dupes are collapsed into `*`.
 				- `-C` for canonical format of 3 columns: 8-digit hex address ␣␣ 8 x 2 hex bytes ␣␣ | text | 
 				  `hd` = `hexdump -C` = 
 				  ```sh
 				  hexdump \
 				    -e '"%08_ax  " 8/1 "%02x " "  "  8/1 "%02x "' \
-				    -e '"  |" 16 "%_p" "|" "\n"'
+				    -e '"  |" 16 "%_p" "|" "\n"' \
+				    -e '"%08_Ax\n"'
 				  ```
-					- -
 			- `od`
 			  dump files in octal, hex and other formats
 				- `-j $start` `-N $length` to read `$length` bytes from `$start`.
