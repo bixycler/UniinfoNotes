@@ -156,11 +156,15 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  estimate file space usage
 		- text processing
 		  collapsed:: true
-			- `head`
-			  output the first part of files
 			- `tail`
 			  output the last part of files
-				- `-[n][+]$num` to output the last `$num` lines, e.g. `-n 3`, `-n3` or from line `$num` (with `+`)
+				- `-{n,c}[+]$num` to output the last `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or from line/char `$num` (with `+`, e.g. `-n +3`, `-n+3`, `-c+3`). Default is `-n 10`.
+					- `n` can be ommited, e.g. `-3`, `+3`
+				- `-f`, `-F` keep appending output **follow**ing input growth. `-F` = `-f --retry` to follow even when the input is inaccessible.
+			- `head`
+			  output the first part of files
+				- `-{n,c}[-]$num` to output the last `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or from line/char `$num` (with `+`, e.g. `-n +3`, `-n+3`, `-c+3`). Default is `-n 10`.
+					- `n` can be ommited, e.g. `-3`, `+3`
 		- hex, binary, encoding converting
 		  id:: 679085ef-facd-4c4a-83f3-f32bdefbaa49
 		  collapsed:: true
