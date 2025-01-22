@@ -172,6 +172,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- Integer: `%X`, `%x`, `%o`, `%u`, `%d`, `%i`: 1, 2 and **4** bytes (default = 4)
 							- Float: `%E`, `%e`, `%f`, `%G`, `%g`: 4, **8** bytes (default = 8)
 						- `"%printf_format"` must be double-quoted.
+						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1)) The notaion `$num/$size` is misleading! It should better be `$num*$size` or `$num x $size`.
 					- Multiple `-e` strings can be applied to the same chunk of data to print it in different forms, like the canonical format.
 					  id:: 67907cb8-81f7-494f-92af-14275630e6c6
 					- Address format: `%_a[x,o,d]` for every chunk or `%_A[x,o,d]` for the last address after the last chunk, in hex, octal and decimal numbers.
@@ -211,9 +212,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `skip=$ni` `seek=$no` `count=$nc` skip the input `$ni` blocks and seek the output to `$no` blocks then copy `$nc` blocks
 				- `status={none,noxfer,progress}` to suppress status, suppress transfer statistics, or to show periodic transfer statistics
 				- `conv=$mode` to set modes of conversion
-					- `notrunc` to prevent overwriting (truncating) the output file
+					- `notrunc`, `excl` to prevent overwriting (truncating) the output file, or fail
 					- `noerror` to continue on any input error
-					- ``
+					- `swab`, `sync` to swap every pair of bytes or
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
