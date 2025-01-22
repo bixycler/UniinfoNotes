@@ -206,7 +206,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  copy a file block-wise, converting and formatting [according to the `$operand`s](https://pubs.opengroup.org/onlinepubs/9699919799.orig/utilities/dd.html)
 			  A.K.A. “data definition”, “disk dump”, “disk duplicator”, or even “disk destroyer” due to its immense power and [ability to directly interact with block devices](https://blog.kubesimplify.com/the-complete-guide-to-the-dd-command-in-linux).
 				- `if=$in_file` `of=$out_file` or default to `stdin` `stdout`
-				- `bs=$size` (or `ibs=$size` `obs=$size`) `cbs=$size` specify block size (default = 512)
+				- `bs=$size` (or `ibs=$size` `obs=$size`) `cbs=$size` specify block size (default = 512) for copying
+					- `cbs=$size` specify conversion block size (default = 0) for `conv={block,unblock}`
+				- `skip=$ni` `seek=$no` `count=$nc` skip the input `$ni` blocks and seek the output to `$no` blocks then copy `$nc` blocks
+				- `conv=$mode` to convert the block
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
