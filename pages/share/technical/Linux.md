@@ -109,9 +109,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `%m` = mount point
 			- `tree`
 			  list contents of directories in a tree-like format.
-			- `find`
+			- `find $dir $expr`
 			  collapsed:: true
-			  search for files in a directory hierarchy
+			  search for files in a directory hierarchy rooted at `$dir`, filtering with `$expr`, and optionally take action with ((6790bd70-e65e-4053-9b6b-079e0d6ca7a1))
 				- `-{name,path,lname} $pattern`
 				  find files with basename or path or symlink target matching [glob `$pattern`](https://en.wikipedia.org/wiki/Glob_(programming))
 				- `-regex $pattern`
@@ -119,7 +119,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-type {f,d,l,p,s,c,b}`
 				  find files with corresponding ((671f467e-6f1f-4436-a0dd-9a03055e11a9)) (`f` = `-` = regular file)
 				- `-perm [-,/]$mode`
-				  find files with [permission](((6772a6d3-8aec-4e7f-af3c-5373bcc9b221))) is at least (`-`),
+				  find files with [permission](((6772a6d3-8aec-4e7f-af3c-5373bcc9b221))) is at least (`-`), at most (`/`), or exactly `$mode`
+				- `{amin,atime,cmin,ctim}`
 				- `-size [-,+]$n[c,w,b,k,M,G]`
 				  find files with size is less than (`-`), greater (`+`) or equals to `$n` chars, words, bytes, KiB, MiB, GiB
 				- `-links [-,+]$n`
@@ -154,7 +155,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  done
 				- `-true`
 				  find all files (unfiltered) for ((6790bd70-e65e-4053-9b6b-079e0d6ca7a1))
-				- `print[f,0]`
+				- `-print[f,0]`
 				- `-exec $action`
 				  id:: 6790bd70-e65e-4053-9b6b-079e0d6ca7a1
 			- `ln`
