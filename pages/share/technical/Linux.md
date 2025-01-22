@@ -372,16 +372,17 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-j $start` `-N $length` to read `$length` bytes from `$start`.
 				- `-t $format` with formats: `{x,o,u,d,f}[$size][a,z]` for {*octal*, hex, unsigned dec, signed dec, float} (default = octal) of `$size` bytes (default 4 bytes) 
 				  and optionally `a` or `z` for printable characters under (`a`) or at the end (`z`) of each output line.
-				- `--endian={big|little}` for [endian byte order](https://en.wikipedia.org/wiki/Endianness)
+				- `--endian={big|little}` for [endian byte order](https://en.wikipedia.org/wiki/Endianness) (default = `little`)
 				- `-A $radix` for radix of address in the first column: `{x,o,d,n}` = {*octal*, hex, dec, **none**} (default = octal)
 				  `-An` to **suppress address** output
 			- `xxd`
 			  make a hexdump or do the **reverse**
 				- `-o $start` `-l $length` to read `$length` bytes from `$start`.
 				- `-r` **reverse** conversion
-				- `-p` to print only hex codes, A.K.A. "**plain hex**"
-				- `-e` for **little-endian** hex
-				- `-i` output in C's include file style
+				- `-g $bytes` to group bytes into a space-separated group
+				- `-p` to print only hex codes, A.K.A. "**plain hex**", continuously (`-g` grouping is diabled) without address
+				- `-e` for **little-endian** hex (default = big-endian)
+				- `-i` output in C array definition
 		- #### shell script
 		  id:: 6694a210-0bd1-4115-b190-4c41f58a577f
 			- One line of command with many nuances:
