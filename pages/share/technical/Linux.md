@@ -366,21 +366,24 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  display file contents in hexadecimal, decimal, octal, or ascii
 				- `-s $start` `-n $length` to read `$length` bytes (or `{K,M,G,T}[iB]` or `{K,M,G,T}B`) from `$start`.
 				- `-e $format_string` for **output format** similar to C's `printf()`
+					- `$iter[/$count]`
 				- `-v` for no collapse of duplicates. By default, all dupes are collapsed into `*`.
 			- `od`
-			  dump files in octal and other formats
+			  dump files in octal, hex and other formats
 				- `-j $start` `-N $length` to read `$length` bytes from `$start`.
 				- `-t $format` with formats: `{x,o,u,d,f}[$size][a,z]` for {*octal*, hex, unsigned dec, signed dec, float} (default = octal) of `$size` bytes (default 4 bytes) 
 				  and optionally `a` or `z` for printable characters under (`a`) or at the end (`z`) of each output line.
 				- `--endian={big|little}` for [endian byte order](https://en.wikipedia.org/wiki/Endianness) (default = `little`)
 				- `-A $radix` for radix of address in the first column: `{x,o,d,n}` = {*octal*, hex, dec, **none**} (default = octal)
 				  `-An` to **suppress address** output
+				- `-w $bytes` to break line after each number of bytes
 			- `xxd`
 			  make a hexdump or do the **reverse**
 				- `-o $start` `-l $length` to read `$length` bytes from `$start`.
 				- `-r` **reverse** conversion
 				- `-g $bytes` to group bytes into a space-separated group
-				- `-p` to print only hex codes, A.K.A. "**plain hex**", continuously (`-g` grouping is diabled) without address
+				- `-c $bytes` to break line after each number of bytes
+				- `-p` to print only hex codes, A.K.A. "**plain hex**", **continuously** (`-g` grouping is diabled) without address
 				- `-e` for **little-endian** hex (default = big-endian)
 				- `-i` output in C array definition
 		- #### shell script
