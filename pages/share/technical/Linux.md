@@ -22,6 +22,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- First char: file type {`-`,`d`,`l`,`p`,`s`,`c`,`b`} = {regular file, directory, symlink, FIFO named pipe, socket, character stream (terminal), random-access block device (disk)}
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unix_file_types
 			- Last 3×3 chars: (owner, group, other)×(`r`,`w`,{`x`,`s`,`S`})
+			  id:: 6772a6d3-8aec-4e7f-af3c-5373bcc9b221
 				- `r` = readable, `w` = writable
 				- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
 		- inode
@@ -115,8 +116,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  find files with basename or path or symlink target matching [glob `$pattern`](https://en.wikipedia.org/wiki/Glob_(programming))
 				- `-regex $pattern`
 				  find files with path matching regex `$pattern`
-				- `-type {b,c,d,p,f,l,s,D}`
-				  find files with corresponding ((671f467e-6f1f-4436-a0dd-9a03055e11a9))
+				- `-type {f,d,l,p,s,c,b}`
+				  find files with corresponding ((671f467e-6f1f-4436-a0dd-9a03055e11a9)) (`f` = `-` = regular file)
+				- `-perm [-,/]$mode`
+				  find files with [permission](((6772a6d3-8aec-4e7f-af3c-5373bcc9b221))) is at least (`-`),
 				- `-size [-,+]$n[c,w,b,k,M,G]`
 				  find files with size is less than (`-`), greater (`+`) or equals to `$n` chars, words, bytes, KiB, MiB, GiB
 				- `-links [-,+]$n`
@@ -151,6 +154,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  done
 				- `-true`
 				  find all files (unfiltered) for ((6790bd70-e65e-4053-9b6b-079e0d6ca7a1))
+				- `print[f,0]`
 				- `-exec $action`
 				  id:: 6790bd70-e65e-4053-9b6b-079e0d6ca7a1
 			- `ln`
