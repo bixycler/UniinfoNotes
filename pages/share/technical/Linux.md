@@ -364,6 +364,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  ```
 			- `hexdump`, `hd`
 			  display file contents in hexadecimal, decimal, octal, or ascii
+				- `-e $format_string` for output format similar to C's `printf()`
 				- `-s $start` `-n $length` to read `$length` bytes (or `{K,M,G,T}[iB]` or `{K,M,G,T}B`) from `$start`.
 			- `od`
 			  dump files in octal and other formats
