@@ -363,9 +363,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  °¿ ¯°¿
 				  ```
 			- **Hex dump**
+			  id:: 679085ef-facd-4c4a-83f3-f32bdefbaa49
 				- Examples
 					- Space-separated hex-byte stream: `hexdump -ve '1/1 "%x "'` = `od -tx1 -An`
-					- Continuous hex-byte stream: `hexdump -ve '1/1 "%x"'` = `od -tx1 -An`
+					- Continuous hex-byte stream: `hexdump -ve '1/1 "%x"'` = `xxd -p`
 				- `hexdump`, `hd`
 				  display file contents in *little-endian* hexadecimal, decimal, octal, or ascii
 					- `-s $start` `-n $length` to read `$length` bytes (or `{K,M,G,T}[iB]` or `{K,M,G,T}B`) from `$start`.
