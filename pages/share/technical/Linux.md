@@ -364,8 +364,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  ```
 			- `hexdump`, `hd`
 			  display file contents in hexadecimal, decimal, octal, or ascii
+				- `-s $start` `-n $length` to read `$length` bytes (or `{K,M,G,T}[iB]` or `{K,M,G,T}B`) from `$start`.
 			- `od`
 			  dump files in octal and other formats
+				- `--endian={big|little}`
+				- `-j $start` `-N $length` to read `$length` bytes from `$start`.
 			- `xxd`
 			  make a hexdump or do the reverse
 				- `xxd -p` to print only hex codes
