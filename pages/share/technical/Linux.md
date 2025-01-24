@@ -45,6 +45,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Equivalence: Git's symlink, [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
 				- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks). When `symlinks = false`, symbolic links are checked out as plain text files containing the target as text.
 		- newline at end-of-file
+		  id:: 6793437b-5ee5-4f7f-a547-bb9e15ac5883
 			- The [POSIX standard](https://en.wikipedia.org/wiki/POSIX) defines a [text file](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_387) as a sequence of [lines](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_185), each ending with a [newline character](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_224).
 			- That means a line without newline is an [incomplete line](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_172).
 				- UNIX & traditional text processors like C compilers [requires the last newline](https://unix.stackexchange.com/a/18789/566548) for proper functioning.
@@ -60,8 +61,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Linux editors automatically add newline when saving, but don't show difference between a file with or without the last newline.
 					- `vim`, `gedit` show **no blank line** at the end! A blank line means a truely empty line, i.e. `^\n`!
 					- `vim` shows `[noeol]` on its status line when openning a file missing the last newline.
+					  collapsed:: true
+						- ![no-last-newline-vim.png](../assets/TextProcessing/last-newline/no-last-newline-vim.png)
 					- `nano` always show a blank line at the end!
-				- IDEs
+				- IDEs usually have setting to automatically add newline on save, and show the last newline as a blank line.
 					- VS Code
 					- JetBrains IDEs
 					- Eclipse
