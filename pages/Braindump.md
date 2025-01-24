@@ -154,6 +154,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
 		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
+		  collapsed:: true
 			- DOING ((678e2046-54ac-4284-865d-6f3e38f589a1)): one ((675c03d8-3185-41a8-9f98-e869fabec793)), many ((66ab75a1-f4a0-4bab-a002-8e573546623a)) through [thread pulling](((6772a6cd-5b37-43ab-b8cb-b9656d26fdcc)))
 			  :LOGBOOK:
 			  CLOCK: [2025-01-20 Mon 20:57:36]
@@ -163,4 +164,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
 			- ((67810168-747f-4bb5-9594-5c07bddf7041))
 		- ((678df0f0-20d2-4995-bfc2-0b953970469d))
+		- ((556c799a-e364-49ad-94ab-5d14bef766ca))
 		- ...
