@@ -47,7 +47,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- newline at end-of-file
 			- The [POSIX standard](https://en.wikipedia.org/wiki/POSIX) defines a [text file](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_387) as a sequence of [lines](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_185), each ending with a [newline character](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_224).
 			- That means a line without newline is an [incomplete line](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_172).
-			- When concatenating files missing last newlines, the first line of next file will be appended right o
+			- When concatenating files missing last newlines, the first line of next file will be merged with the last line of the previous file, which is usually an unintended effect.
 			- Some shells like `zsh` highlights the missing last newline on the console with the mark `%` in inverse color.
 	- ### commands
 		- process handling

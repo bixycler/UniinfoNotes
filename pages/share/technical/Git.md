@@ -52,7 +52,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					  +this line is in commit #3
 					  \ No newline at end of file
 					  ```
-			- 2nd, the last line of the last commit may be blamed for the next commit, which is misleading.
+			- 2nd, the last line of the last commit may be [blamed](https://git-scm.com/docs/git-blame) for the next commit, which is misleading.
 				- Some git implementations do this misleading blame: GitHub, GitLab, VS Code
 				  collapsed:: true
 					- ![last-newline-blame-GitLab-GitHub](../assets/TextProcessing/last-newline/last-newline-blame-GitLab-GitHub.png)
@@ -61,7 +61,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				  collapsed:: true
 					- ![last-newline-blame-console](../assets/TextProcessing/last-newline/last-newline-blame-console.png)
 					- ![last-newline-blame-IDEA](../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png)
-			- **always conflict** because of the lack of the last newline.
+			- 3rd, when merging many branches modifying the same file missing last newline, only one branch appending to the file makes **all other branches conflict**, even when they modify completely different places without overlapping.
 				- Reason: `diff` works with lines, an unterminated line makes it **always "different"!**
 			- UNIX & traditional text processors like C compilers [requires the last newline](https://unix.stackexchange.com/a/18789/566548) for proper functioning.
 				- E.g. `wc -l`, `read` ignore the "incomplete last line"
