@@ -18,9 +18,14 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			- `\ No newline at end of file`
 			  is the warning of `diff` because `diff` is a line-based processor.
 				- Without the last newline,
-				- ```diff
-				  ```
-			- `constant.py` **always conflict** because of the lack of the last newline.
+				- E.g. diffs between commits without the last newline:
+					- ```diff
+					  Test EOL@EOF⏎
+					  - this line is in commit #1.
+					  + this line is in commit #1.⏎
+					  + this line is in commit #2
+					  ```
+			- **always conflict** because of the lack of the last newline.
 				- Reason: `diff` works with lines, an unterminated line makes it **always "different"!**
 			- UNIX & traditional text processors like C compilers [requires the last newline](https://unix.stackexchange.com/a/18789/566548) for proper functioning.
 				- E.g. `wc -l`, `read` ignore the "incomplete last line"
