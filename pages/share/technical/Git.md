@@ -18,21 +18,22 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			- `\ No newline at end of file`
 			  is the warning of `diff` because `diff` is a line-based processor.
 				- Without the last newline,
-				- E.g. diffs between commits without the last newline:
+				- E.g. diffs between commits without the last newline: `EOL` = `⏎` = `\n` = `␤` = `LF` = ␊
 					- Final file
 					  ```
 					  Test EOL@EOF⏎
 					  this line is in commit #1.⏎
 					  this line is in commit #2.⏎
-					  this line is in commit #3.⏎
-					  this line is in commit #4
+					  this line is in commit #3.
 					  ```
-					- ```diff
+					- commit #1
+					  ```diff
 					  +Test EOL@EOF⏎
 					  +this line is in commit #1.
 					  \ No newline at end of file
 					  ```
-					- ```diff
+					- commit #2
+					  ```diff
 					  Test EOL@EOF⏎
 					  -this line is in commit #1.
 					  \ No newline at end of file
@@ -40,20 +41,13 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					  +this line is in commit #2
 					  \ No newline at end of file
 					  ```
-					- ```diff
+					- commit #3
+					  ```diff
 					  this line is in commit #1.⏎
 					  -this line is in commit #2.
 					  \ No newline at end of file
 					  +this line is in commit #2.⏎
 					  +this line is in commit #3
-					  \ No newline at end of file
-					  ```
-					- ```diff
-					  this line is in commit #2.⏎
-					  -this line is in commit #3.
-					  \ No newline at end of file
-					  +this line is in commit #3.⏎
-					  +this line is in commit #4
 					  \ No newline at end of file
 					  ```
 			- **always conflict** because of the lack of the last newline.
