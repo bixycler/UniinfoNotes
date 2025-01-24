@@ -10,16 +10,17 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				- [From Windows 10+, symlink can be used](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/) when Developer mode is turned on.
 			- Hard link is not support (will be broken when ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) overwrites the link file), but ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) will let the hard link live as long as we don't do any write operation on that link file, e.g. `pull`, `checkout`, `reset`, etc.
 			  id:: 666ba5a7-598a-4b66-86bd-b1622a28ada6
-		- DOING Newline at end-of-file
+		- DOING `\ No newline at end of file`
 		  id:: 556c799a-e364-49ad-94ab-5d14bef766ca
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-01-21 Tue 14:07:59]
 		  :END:
-			- `\ No newline at end of file`
-			  is the warning of `diff` because `diff` is a line-based processor.
-				- Without the last newline,
-				- E.g. diffs between commits without the last newline:
+		  is the warning of `diff` because `diff` is a **line-based** text processor.
+			- Without the last newline, whenever the next line is appended to this file, the last line must be edited by adding newline to it, which is an unintended edit. This unintended change of the last line leads to various problem.
+			- 1st, `diff` works with the whole line, hence, the last line will be marked as
+				- E.g. wrong lines in diffs between commits without the last newline:
+				  collapsed:: true
 					- Final file
 					  ```
 					  Test EOL@EOF⏎
