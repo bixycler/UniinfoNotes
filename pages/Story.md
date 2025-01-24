@@ -301,4 +301,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-01-20 Mon 13:45:06]
 		  :END:
 		  vs. total by ∞ = abstraction of complex objects into points
+		- TODO Yesterday, i took a full day off.
+		  :LOGBOOK:
+		  CLOCK: [2025-01-24 Fri 20:04:11]
+		  CLOCK: [2025-01-24 Fri 20:04:13]
+		  :END:
+			- Again, ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
+			- This month may be the most off month!
+			  collapsed:: true
+				- ![the-most-off-month-2025-01.png](../assets/Will/story/2025-Jan/the-most-off-month-2025-01.png)
 		- ...
