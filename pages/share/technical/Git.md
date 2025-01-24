@@ -18,7 +18,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		  :END:
 		  is the warning of `diff` because `diff` is a **line-based** text processor.
 			- Without the last newline, whenever the next line is appended to this file, the last line must be edited by adding newline to it, which is an unintended edit. This unintended change of the last line leads to various problem.
-			- 1st, `diff` works with the whole line, hence, the last line will be marked as
+			- 1st, `diff` works with the whole line, hence, the last line will be marked as modified by the next commit.
 				- E.g. wrong lines in diffs between commits without the last newline:
 				  collapsed:: true
 					- Final file
@@ -52,6 +52,11 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					  +this line is in commit #3
 					  \ No newline at end of file
 					  ```
+			- 2nd, the last line of the last commit may be blamed for the next commit, which is misleading.
+				- Some git implementations do this misleading blame: GitHub, GitLab, VS Code
+					- ![last-newline-blame-GitLab-GitHub](../assets/TextProcessing/last-newline/last-newline-blame-GitLab-GitHub.png)
+					- ![last-newline-blame-GitLab-GitHub](../assets/TextProcessing/last-newline/last-newline-blame-VSCode.png)
+				- Some git implementations tweak themself to avoid this misleading blame: Ubuntu's `git`, JetBrains IDEs
 			- **always conflict** because of the lack of the last newline.
 				- Reason: `diff` works with lines, an unterminated line makes it **always "different"!**
 			- UNIX & traditional text processors like C compilers [requires the last newline](https://unix.stackexchange.com/a/18789/566548) for proper functioning.
