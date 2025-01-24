@@ -44,6 +44,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Windows' shortcut in GUI works similarly to symlink, but doesn't work at the command level.
 			- Equivalence: Git's symlink, [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
 				- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks). When `symlinks = false`, symbolic links are checked out as plain text files containing the target as text.
+		-
 	- ### commands
 		- process handling
 		  collapsed:: true
