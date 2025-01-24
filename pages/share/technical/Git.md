@@ -74,6 +74,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				  
 				  ```
 			- Refactor codes
+			  id:: b8c17a55-f618-43ed-9826-314412a08965
 			  collapsed:: true
 				- Add the missing last newline (ref: [unix.stackexchange](https://unix.stackexchange.com/a/31955/566548))
 				  ```sh
@@ -89,6 +90,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				    -type f -exec sh -c 'tail -c 1 "$1" | grep -q "." && echo "$1"' no-last-newline {} \;
 				  ```
 				- Find files with the last newline
+				  id:: 577c2916-d4ca-461d-85b9-f3b2ff7e6b30
 				  ```sh
 				  find .  -regex '.*\(git\|venv\|idea\)' -prune -o \
 				    -type f -exec sh -c 'tail -c 1 "$1" | grep -q "^$" && echo "$1"' with-last-newline {} \;

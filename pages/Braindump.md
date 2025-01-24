@@ -155,7 +155,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-01-24 Fri 19:43:06]
 		  :END:
-			- From the [unintended conflicts](((ed8333ef-b3b6-4d1b-a5e7-3a2fb4e1b286))) in `python_deploy/java/constant.py`, i thought that it will "always conflict" with any other change in that file, which is a serious problem. This doubt was partially due to Mr. Toanh's complaint
+			- From the [unintended conflicts](((ed8333ef-b3b6-4d1b-a5e7-3a2fb4e1b286))) in `python_deploy/java/constant.py`, i thought that it will "always conflict" with any other change in that file, which is a serious problem. This doubt was partially due to Mr. Toanh's complaint earlier about such issue.
+			  id:: 67938b35-697e-432f-b179-17ce60028e6c
+			- I checked for expression of the last newline [in various editors](((616bfc2b-05f2-4a85-a094-dd771aa12cd1))).
+			- In an effort to [refactor codes](((b8c17a55-f618-43ed-9826-314412a08965))), i reviewed and documented various Linux commands: ((679085ef-facd-4c4a-83f3-f32bdefbaa49)), ((6790a3e2-3f65-42d0-9253-35b6672d8b25))
+				- But at last, i just asked Copilot to have a quick answer, and it gave me the [correct one](((577c2916-d4ca-461d-85b9-f3b2ff7e6b30))).
+			- Today, experimenting with
+			- Finally, it's turned out to be not so serious as [i thought](((67938b35-697e-432f-b179-17ce60028e6c)))!
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
