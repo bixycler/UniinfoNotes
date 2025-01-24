@@ -54,9 +54,13 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					  ```
 			- 2nd, the last line of the last commit may be blamed for the next commit, which is misleading.
 				- Some git implementations do this misleading blame: GitHub, GitLab, VS Code
+				  collapsed:: true
 					- ![last-newline-blame-GitLab-GitHub](../assets/TextProcessing/last-newline/last-newline-blame-GitLab-GitHub.png)
-					- ![last-newline-blame-GitLab-GitHub](../assets/TextProcessing/last-newline/last-newline-blame-VSCode.png)
+					- ![last-newline-blame-VSCode](../assets/TextProcessing/last-newline/last-newline-blame-VSCode.png)
 				- Some git implementations tweak themself to avoid this misleading blame: Ubuntu's `git`, JetBrains IDEs
+				  collapsed:: true
+					- ![last-newline-blame-console](../assets/TextProcessing/last-newline/last-newline-blame-console.png)
+					- ![last-newline-blame-IDEA](../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png)
 			- **always conflict** because of the lack of the last newline.
 				- Reason: `diff` works with lines, an unterminated line makes it **always "different"!**
 			- UNIX & traditional text processors like C compilers [requires the last newline](https://unix.stackexchange.com/a/18789/566548) for proper functioning.
