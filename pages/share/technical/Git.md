@@ -62,6 +62,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					- ![last-newline-blame-console](../assets/TextProcessing/last-newline/last-newline-blame-console.png)
 					- ![last-newline-blame-IDEA](../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png)
 			- 3rd, **unintended conflict**: Some text editors and IDEs [automatically add the last newline](((616bfc2b-05f2-4a85-a094-dd771aa12cd1))) to editing files, making unintended changes which will conflict with appendage to that file in other commits.
+			  id:: ed8333ef-b3b6-4d1b-a5e7-3a2fb4e1b286
 			  collapsed:: true
 				- The conflict will be shown (for resolution) in a very obscure way, due to the difficulty of showing the newline itself.
 				  ```git-merge-conflict

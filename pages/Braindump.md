@@ -150,12 +150,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Then moved to ((67763a41-4ad6-449f-9d9b-d63ce417082c)), due to the discussion with Copilot inside.
 			- Now, moves to ((67760e05-2ea1-4f0e-aaa6-158edca80df5)), due to its wide contents.
 			- And it leads to the formal formulation of “transcycle” whose location is [still being considerd...](((678dbff1-19ea-47c5-8794-2638d53ee7dd)))
-	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- DOING Here, we're witnessing the deep dive into the abyss of ((6793437b-5ee5-4f7f-a547-bb9e15ac5883))
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-01-24 Fri 19:43:06]
 		  :END:
+			- From the [unintended conflicts](((ed8333ef-b3b6-4d1b-a5e7-3a2fb4e1b286))) in `python_deploy/java/constant.py`, i thought that it will "always conflict" with any other change in that file, which is a serious problem. This doubt was partially due to Mr. Toanh's complaint
+	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
 		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
 		  collapsed:: true
