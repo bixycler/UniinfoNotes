@@ -58,16 +58,25 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  :LOGBOOK:
 			  CLOCK: [2025-01-24 Fri 19:01:03]
 			  :END:
-				- Linux editors automatically add newline when saving, but don't show difference between a file with or without the last newline.
+				- Linux editors **automatically add newline** when saving, but _don't show difference_ between a file with or without the last newline.
 					- `vim`, `gedit` show **no blank line** at the end! A blank line means a truely empty line, i.e. `^\n`!
 					- `vim` shows `[noeol]` on its status line when openning a file missing the last newline.
 					  collapsed:: true
 						- ![no-last-newline-vim.png](../assets/TextProcessing/last-newline/no-last-newline-vim.png)
 					- `nano` always show a blank line at the end!
-				- IDEs usually have setting to automatically add newline on save, and show the last newline as a blank line.
+				- IDEs usually have setting to automatically add newline on save, and _show the last newline **as a blank line**_ which can be used to check its presence.
 					- VS Code
+					  collapsed:: true
+						- Settings > Text Editor > Files > Insert Final Newline
+						  ![editor-settings-onsave-lastNewline-VSCode.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-VSCode.png)
+						- The last newline is distinguished by the dimmed line number.
+						  ![last-newline-VSCode.png](../assets/TextProcessing/last-newline/last-newline-VSCode.png)
 					- JetBrains IDEs
+						-
 					- Eclipse
+					- Notepad++
+					  collapsed:: true
+						- ![last-newline-Notepad++.png](../assets/TextProcessing/last-newline/last-newline-Notepad++.png)
 	- ### commands
 		- process handling
 		  collapsed:: true
