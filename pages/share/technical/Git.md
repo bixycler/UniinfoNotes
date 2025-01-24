@@ -17,7 +17,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		  CLOCK: [2025-01-21 Tue 14:07:59]
 		  :END:
 		  is the warning of `diff` because `diff` is a **line-based** text processor.
-			- Without the last newline, whenever the next line is appended to this file, the last line must be edited by adding newline to it, which is an unintended edit. This unintended change of the last line leads to various problem.
+			- Without the last newline, whenever the next line is appended to this file, the last line must be edited by adding newline to it, which is an unintended edit. This **unintended change** of the last line leads to various problem.
 			- 1st, `diff` works with the whole line, hence, the last line will be marked as modified by the next commit.
 				- E.g. wrong lines in diffs between commits without the last newline:
 				  collapsed:: true
@@ -61,8 +61,8 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				  collapsed:: true
 					- ![last-newline-blame-console](../assets/TextProcessing/last-newline/last-newline-blame-console.png)
 					- ![last-newline-blame-IDEA](../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png)
-			- 3rd, **persistent pseudo-conflict**: When merging many branches modifying the same file missing last newline, only one branch appending to the file is enough to make **all other branches conflict**, even when they modify completely different lines without overlapping.
-				- Reason: `diff` works with lines, an unterminated line makes it **always "different"!**
+			- 3rd, **unintended conflict**: Some text editors and IDEs [automatically add the last newline](((616bfc2b-05f2-4a85-a094-dd771aa12cd1))) to editing files, making unintended changes which will conflict with appendage to that file in other commits.
+				- The conflict will be shown (for resolution) in a very
 			- UNIX & traditional text processors like C compilers [requires the last newline](https://unix.stackexchange.com/a/18789/566548) for proper functioning.
 				- E.g. `wc -l`, `read` ignore the "incomplete last line"
 			- Refactor codes
@@ -85,30 +85,6 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					  find .  -regex '.*\(git\|venv\|idea\)' -prune -o \
 					    -type f -exec sh -c 'tail -c 1 "$1" | grep -q "^$" && echo "$1"' with-last-newline {} \;
 					  ```
-				- `java/`
-				  ```
-				  (search_air.py)
-				  sg_back_tools.py
-				  hosts.py
-				  ```
-				- others
-				  collapsed:: true
-					- ```
-					  front/nfsdomtour/fabfile.py
-					  front/nfsdomtour/constant.py
-					  front/nfsdomtour/util.py
-					  api/corgi/fabfaile.py
-					  
-					  otherfab/config.py
-					  back/cradle/config.py
-					  pullrestart/config.py
-					  pullonly/config.py
-					  ```
-			- Last newline in editors
-				- Linux editors automatically add newline when saving, but don't show difference between a file with or without the last newline.
-					- `vim`, `gedit` show **no blank line** at the end! A blank line means a truely empty line, i.e. `^\n`!
-					- `vim` shows `[noeol]` on its status line when openning a file missing the last newline.
-					- `nano` always show a blank line at the end!
 	- working tree
 	  id:: 67152d29-5cee-475d-a01b-bbc9c9ad3417
 	  collapsed:: true
