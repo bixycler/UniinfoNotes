@@ -152,6 +152,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- And it leads to the formal formulation of “transcycle” whose location is [still being considerd...](((678dbff1-19ea-47c5-8794-2638d53ee7dd)))
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- DOING Here, we're witnessing the deep dive into the abyss of ((6793437b-5ee5-4f7f-a547-bb9e15ac5883))
+		  :LOGBOOK:
+		  CLOCK: [2025-01-24 Fri 19:43:06]
+		  :END:
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
 		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
 		  collapsed:: true
@@ -164,5 +168,4 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
 			- ((67810168-747f-4bb5-9594-5c07bddf7041))
 		- ((678df0f0-20d2-4995-bfc2-0b953970469d))
-		- ((6793437b-5ee5-4f7f-a547-bb9e15ac5883)) & ((556c799a-e364-49ad-94ab-5d14bef766ca))
 		- ...

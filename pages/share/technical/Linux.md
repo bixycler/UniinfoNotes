@@ -53,10 +53,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `diff` and `git diff` show the [warning `\ No newline at end of file`](((556c799a-e364-49ad-94ab-5d14bef766ca)))
 			- When concatenating files missing last newlines, the first line of next file will be merged with the last line of the previous file, which is usually an unintended effect.
 			- Some shells like `zsh` highlights the missing last newline on the console with the mark `%` in inverse color.
-			- DOING Last newline in editors
+			- Last newline in editors
 			  id:: 616bfc2b-05f2-4a85-a094-dd771aa12cd1
 			  :LOGBOOK:
-			  CLOCK: [2025-01-24 Fri 19:01:03]
+			  CLOCK: [2025-01-24 Fri 19:01:03]--[2025-01-24 Fri 19:39:52] =>  00:38:49
 			  :END:
 				- Linux editors **automatically add newline** when saving, but _don't show difference_ between a file with or without the last newline.
 					- `vim`, `gedit` show **no blank line** at the end! A blank line means a truely empty line, i.e. `^\n`!
@@ -72,8 +72,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- The last newline is distinguished by the dimmed line number.
 						  ![last-newline-VSCode.png](../assets/TextProcessing/last-newline/last-newline-VSCode.png)
 					- JetBrains IDEs
-						-
+					  collapsed:: true
+						- Settings > Editor > General > On Save > Ensure vevy saved file ends with a line break
+						  ![editor-settings-onsave-lastNewline-IDEA.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-IDEA.png)
 					- Eclipse
+					  collapsed:: true
+						- Settings > (Java, Javascript, etc.) Code Formatters > New Lines > At end of file
+						  ![editor-settings-onsave-lastNewline-Eclipse-2024.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-Eclipse-2024.png)
 					- Notepad++
 					  collapsed:: true
 						- ![last-newline-Notepad++.png](../assets/TextProcessing/last-newline/last-newline-Notepad++.png)
