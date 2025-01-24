@@ -49,14 +49,22 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- That means a line without newline is an [incomplete line](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_172).
 				- UNIX & traditional text processors like C compilers [requires the last newline](https://unix.stackexchange.com/a/18789/566548) for proper functioning.
 				- E.g. `wc -l`, shell's `read` will ignore the "incomplete last line".
+				- `diff` and `git diff` show the [warning `\ No newline at end of file`](((556c799a-e364-49ad-94ab-5d14bef766ca)))
 			- When concatenating files missing last newlines, the first line of next file will be merged with the last line of the previous file, which is usually an unintended effect.
 			- Some shells like `zsh` highlights the missing last newline on the console with the mark `%` in inverse color.
-			- Last newline in editors
+			- DOING Last newline in editors
 			  id:: 616bfc2b-05f2-4a85-a094-dd771aa12cd1
+			  :LOGBOOK:
+			  CLOCK: [2025-01-24 Fri 19:01:03]
+			  :END:
 				- Linux editors automatically add newline when saving, but don't show difference between a file with or without the last newline.
 					- `vim`, `gedit` show **no blank line** at the end! A blank line means a truely empty line, i.e. `^\n`!
 					- `vim` shows `[noeol]` on its status line when openning a file missing the last newline.
 					- `nano` always show a blank line at the end!
+				- IDEs
+					- VS Code
+					- JetBrains IDEs
+					- Eclipse
 	- ### commands
 		- process handling
 		  collapsed:: true
