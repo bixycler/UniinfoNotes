@@ -62,7 +62,9 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					- ![last-newline-blame-console](../assets/TextProcessing/last-newline/last-newline-blame-console.png)
 					- ![last-newline-blame-IDEA](../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png)
 			- 3rd, **unintended conflict**: Some text editors and IDEs [automatically add the last newline](((616bfc2b-05f2-4a85-a094-dd771aa12cd1))) to editing files, making unintended changes which will conflict with appendage to that file in other commits.
-				- The conflict will be shown (for resolution) in a very
+				- The conflict will be shown (for resolution) in a very obscure way, like this:
+				  ```
+				  ```
 			- UNIX & traditional text processors like C compilers [requires the last newline](https://unix.stackexchange.com/a/18789/566548) for proper functioning.
 				- E.g. `wc -l`, `read` ignore the "incomplete last line"
 			- Refactor codes
