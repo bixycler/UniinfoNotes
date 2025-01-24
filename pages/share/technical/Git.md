@@ -5,10 +5,67 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 	- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 	  collapsed:: true
 		- File link: ((671f5784-d89b-4a4a-a6e7-f02a0805322f)) is supported by ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) but ((671f5617-1163-4ffc-b65a-b3234e471db0)) is not.
+		  collapsed:: true
 			- Symlink has portability problem between Linux and Windows.
 				- [From Windows 10+, symlink can be used](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/) when Developer mode is turned on.
 			- Hard link is not support (will be broken when ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) overwrites the link file), but ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) will let the hard link live as long as we don't do any write operation on that link file, e.g. `pull`, `checkout`, `reset`, etc.
 			  id:: 666ba5a7-598a-4b66-86bd-b1622a28ada6
+		- DOING Newline at end-of-file
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-01-21 Tue 14:07:59]
+		  :END:
+			- `\ No newline at end of file`
+			  is the warning of `diff` because `diff` is a line-based processor.
+				- Without the last newline,
+			- `constant.py` **always conflict** because of the lack of the last newline.
+				- Reason: `diff` works with lines, an unterminated line makes it **always "different"!**
+			- UNIX & traditional text processors like C compilers [requires the last newline](https://unix.stackexchange.com/a/18789/566548) for proper functioning.
+				- E.g. `wc -l`, `read` ignore the "incomplete last line"
+			- Refactor codes
+				- Add the missing last newline ([unix.stackexchange](https://unix.stackexchange.com/a/31955/566548))
+				  ```sh
+				  sed -i '$a\' file
+				  ```
+				- Remove last blank line, i.e. truely empty line (`^$` = `\n` only)
+				  ```sh
+				  sed -i '${/^$/d;}' file
+				  ```
+			- Files missing the last newline:
+				- collapsed:: true
+				  ```sh
+				  find . -regex '.*\(git\|venv\|idea\)' -prune -o \
+				    -type f -exec sh -c 'tail -c 1 "$1" | grep -q "." && echo "$1"' no-last-newline {} \;
+				  ```
+					- files with the last newline
+					  ```sh
+					  find .  -regex '.*\(git\|venv\|idea\)' -prune -o \
+					    -type f -exec sh -c 'tail -c 1 "$1" | grep -q "^$" && echo "$1"' with-last-newline {} \;
+					  ```
+				- `java/`
+				  ```
+				  (search_air.py)
+				  sg_back_tools.py
+				  hosts.py
+				  ```
+				- others
+				  collapsed:: true
+					- ```
+					  front/nfsdomtour/fabfile.py
+					  front/nfsdomtour/constant.py
+					  front/nfsdomtour/util.py
+					  api/corgi/fabfaile.py
+					  
+					  otherfab/config.py
+					  back/cradle/config.py
+					  pullrestart/config.py
+					  pullonly/config.py
+					  ```
+			- Last newline in editors
+				- Linux editors automatically add newline when saving, but don't show difference between a file with or without the last newline.
+					- `vim`, `gedit` show **no blank line** at the end! A blank line means a truely empty line, i.e. `^\n`!
+					- `vim` shows `[noeol]` on its status line when openning a file missing the last newline.
+					- `nano` always show a blank line at the end!
 	- working tree
 	  id:: 67152d29-5cee-475d-a01b-bbc9c9ad3417
 	  collapsed:: true
@@ -110,6 +167,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  git log --graph
 			  ```
 			- Find changes in history
+			  collapsed:: true
 			  ```sh
 			  git log -S 'string' [-G 'regex']
 			  ```
