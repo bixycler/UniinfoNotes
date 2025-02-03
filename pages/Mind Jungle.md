@@ -3347,7 +3347,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														- ((67762e67-bcfc-403b-a314-44213523f905))
 													- ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
 														- ((67760c43-d4fb-43e3-ab23-16720723f800))
-										- Matter plan: 
+										- Master plan:
 										  id:: 67760c43-5cbd-4b4f-8fd9-5cedf804f56a
 										  :LOGBOOK:
 										  CLOCK: [2025-01-02 Thu 14:44:16]
@@ -3402,6 +3402,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														- this flow of effect gives knowledge to other threads of knowledge
 														- when this flow gets stuck due to the lack of knowledge in this thread, just switch to the next flow waiting in the task list
 														- effect flow = program execution history = braindumping
+											- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
+											  >
 						- The effort justification & sunk-cost fallacy
 						  collapsed:: true
 							- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
