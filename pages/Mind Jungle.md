@@ -3403,7 +3403,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														- when this flow gets stuck due to the lack of knowledge in this thread, just switch to the next flow waiting in the task list
 														- effect flow = program execution history = braindumping
 											- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
-											  >
+											  > Matter planning is a really apt name.
+											  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
 						- The effort justification & sunk-cost fallacy
 						  collapsed:: true
 							- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
