@@ -803,7 +803,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- `nslookup`
 		  a program to query Internet domain name servers.
 		- `dig`
-		  a  flexible  tool for interrogating DNS name servers.
+		  a flexible tool for interrogating DNS name servers.
 		- `dnsmasq`
 		  a lightweight DNS, TFTP, PXE, router advertisement and DHCP server.
 		- [DNS records](https://en.wikipedia.org/wiki/List_of_DNS_record_types) in [`.zone` file](https://en.wikipedia.org/wiki/Zone_file)
