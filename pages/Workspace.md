@@ -35,7 +35,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- sed
+		- dig
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
 		  whole-word:: true
@@ -43,6 +43,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  child-filter::
 		  search-scope:: Specific blocks: ;
 		  search-scope-page:: [[Linux]],
+		  collapsed:: true
 		  Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]];
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
@@ -115,10 +116,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- Reminder messages
 		  id:: 67850fb1-04a9-427f-bc0d-f61913d86e4b
 		  collapsed:: true
-			- Enter ZAC!
+			- Back to WORK!
 			  id:: 67850c3d-a026-43a0-8fb8-1febf398bd65
-			  scheduled:: <2025-02-03 Fri 13:00>
-			  DEADLINE:: <2025-02-03 Fri 17:00>
+			  scheduled:: <2025-02-03 xxx 13:00>
+			  DEADLINE:: <2025-02-03 xxx 17:00>
 			- id:: 67850fd2-272d-48fa-9d7c-c649619b5a89
 			  #+BEGIN_CAUTION
 			  [:b {:style "background-color:Orange; color:DarkRed"} " Back to WORK! "]
@@ -129,6 +130,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  #+END_WARNING
 		- #### Reminder
 		  id:: 67850c24-b1c9-425a-abc2-af81243befb2
+		  collapsed:: true
 			- {{deadline-warning ((67850fb1-04a9-427f-bc0d-f61913d86e4b)), 67850c3d-a026-43a0-8fb8-1febf398bd65, 67850fd2-272d-48fa-9d7c-c649619b5a89, 67850fe1-3e22-430e-9af9-a84853766dd7}}
 		- ### Working
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663

@@ -910,7 +910,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `dig` result is the same as [above](((67519abb-dba9-4637-9c1a-feebe4b76589))).
 							- ⇒ So, the problem is with DHCP: somehow it cannot resolve this `CNAME` record.
 							  id:: 6772a6d3-db76-4984-bb94-67367a3f5e54
-						- finally, somehow `A` records appear, but unstable !?!
+						- finally, after [digging CNAME](((678de2b7-649c-4c49-9448-e22149a8e407))) of `git1` for IP resolution, `A` records appear , but unstable!
 						  id:: 675686a5-3d59-402f-9640-12b991182e32
 						  collapsed:: true
 						  :LOGBOOK:
@@ -1020,6 +1020,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 									  ```
 						- **Root cause**: IPs of CNAME are not updated automatically [by DHCP](((6772a6d3-db76-4984-bb94-67367a3f5e54))).
 							- ⇒We must manually request DHCP to update CNAME IPs by query IP for them: `[nslookup,dig,ping] $CNAME`
+							  id:: 678de2b7-649c-4c49-9448-e22149a8e407
 							- The script ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh) keeps CNAMEs resolved by `dig`ging them every minute.
 						- no benefit with `domain=hybrid-technologies.vn` in `/etc/dnsmasq.conf`
 						  collapsed:: true
