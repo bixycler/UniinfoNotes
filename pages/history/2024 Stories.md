@@ -1096,7 +1096,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 	  :LOGBOOK:
 	  CLOCK: [2024-10-23 Wed 17:02:46]
 	  :END:
-		- ![gif-from-Hiep.jpg](../assets/Will/story/2024-Oct/gif-from-Hiep.jpg){:width 300}
+		- ![gift-from-Hiep.jpg](../assets/Will/story/2024-Oct/gift-from-Hiep.jpg){:width 300, :height 408}
 		- Hiệp: muốn vẽ thành con sloth mà chưa ra
 		- Định: Ặc, mặt tui buồn muốn chết, chữ Khổ khắc sâu trên trán mà sao ông thấy thành cười nhe răng vậy cũng hay thiệt chứ 😁
 		  Vợ tui mới khen "anh Hiệp vẽ đẹp quá!" kìa 😊
