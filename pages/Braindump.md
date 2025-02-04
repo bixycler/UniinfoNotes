@@ -176,6 +176,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
 			- ((67810168-747f-4bb5-9594-5c07bddf7041))
 		- ((678df0f0-20d2-4995-bfc2-0b953970469d))
-			- Unïnfo
-			  id:: 67a035a8-f826-4b89-8eb4-3d2cd679dd1f
+		- In the course of trying various LLMs, i'm touching various parts of Unïnfo begging for updates...
+		  id:: 67a035a8-f826-4b89-8eb4-3d2cd679dd1f
+		  :LOGBOOK:
+		  CLOCK: [2025-02-04 Tue 10:12:30]
+		  :END:
+			- I'm seeing a dense jungle ahead...
+			-
 		- ...
