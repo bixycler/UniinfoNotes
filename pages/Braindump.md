@@ -171,7 +171,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :LOGBOOK:
 			  CLOCK: [2025-01-20 Mon 20:57:36]
 			  :END:
-				- Space of possibilities: the Omnifold contains all possibilities
+				- **Space** of **possibilities**: the Omnifold contains all possibilities
+					- Potentiality = ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) → spacetime
+				- Each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)).
 			- [Unithread](((66ac41d1-09e7-44b1-9290-ea7d5f02a817)))'s operations: transcycling ~ ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) and interunion ~ ((66f40210-cca6-4d81-85e7-d0c54ef20451))
 			- ((6783e3ff-9e8f-43db-a173-5d0c6972deab))
 			- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
@@ -188,4 +190,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- In my history, such blooming of ideas has had me bogged down a lot.
 			- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
 			- Team leader Quân has just visited asking for Tết holiday and my work 😁!
+			- ⟨⟩ ⸨⸩
 		- ...
