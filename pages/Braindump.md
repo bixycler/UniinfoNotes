@@ -190,5 +190,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- In my history, such blooming of ideas has had me bogged down a lot.
 			- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
 			- Team leader Quân has just visited asking for Tết holiday and my work 😁!
-			- ⟨⟩ ⸨⸩
+			-
 		- ...
