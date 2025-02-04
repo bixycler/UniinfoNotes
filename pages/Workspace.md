@@ -8,9 +8,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	  collapsed:: true
-		- intersubjectivity
+		- omnifold
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
-		  collapsed:: true
 		  ^ **Name & Term** search
 			- Filters
 			  collapsed:: true
@@ -43,6 +42,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  child-filter::
 		  search-scope:: Specific blocks: ;
 		  search-scope-page:: Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]];
+		  collapsed:: true
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
