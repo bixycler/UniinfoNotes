@@ -2799,22 +2799,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- omnithread
 			  id:: 67a17ea8-2d20-45fa-9fe6-e998541aa3a5
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab75a1-f4a0-4bab-a002-8e573546623a))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory. Ω-thread corresponds to a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology) in topology. A part (segment) of the Ω-thread is simply called a “**thread**”.
 				- DOING Similar to the ((6772a6cd-771f-4f24-9c3a-39c442234be5)),  ((678e2046-54ac-4284-865d-6f3e38f589a1)) ...
 				  :LOGBOOK:
 				  CLOCK: [2025-01-20 Mon 20:56:58]
 				  :END:
-				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology).
-				  id:: 6716110e-05cf-4cda-9bbd-c47fb74eba13
 				- DOING flow of transforms, implemented by projections
 				  id:: 66faa5fb-01ea-4623-abb2-caf34f0821d6
 				  :LOGBOOK:
 				  CLOCK: [2024-09-27 Fri 15:15:15]
 				  CLOCK: [2024-09-27 Fri 15:15:30]
 				  :END:
-			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) **Omnithread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df))], Ōm̐-thread [ॐ], One-thread [from 𝟙], or Overall thread, Ouroboros thread, etc.
+			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Beside the formal names **Ω-thread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df))] & **Omnithread** [from ((675c03d8-3185-41a8-9f98-e869fabec793))], it can also be called Ōm̐-thread [from ॐ], One-thread [from ((678e228f-1182-4605-9aad-f66f6fbb57bd))], or Overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
-				- Vietnamese: mạch Ôông
+				- Vietnamese: mạch Ôông (Ōm̐-thread)
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
 			- Dimensionality & directionality
 				- 0 = nondirectional = all directions = omnidirectional
@@ -2866,6 +2864,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
 			- This name has been suggested by Copilot.
 		- |Ω| = 1
+		  id:: 678e228f-1182-4605-9aad-f66f6fbb57bd
 		  The mass (amount of content) of the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [1](((67505a68-91b9-4abb-bf92-4dddad8c5803))).
 		- DOING Compared with other models of the Universe
 		  :LOGBOOK:
