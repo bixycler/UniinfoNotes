@@ -1629,12 +1629,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-01-20 Mon 16:37:39]
 		  :END:
-		  They are just the same content in different forms.
+		  Different beings are just the same content in different forms.
 		  ((665ca48e-f7c1-4541-b5cf-486d86b02997)) ((678e2046-54ac-4284-865d-6f3e38f589a1))
 			- Law of the same content
 			  id:: 678e2046-54ac-4284-865d-6f3e38f589a1
 			  ((665ca495-93b4-47d4-a022-ce511b021a3d)) ⟪ ((678e1960-58d6-4cf3-8fe3-25f2f4489b33)) ⟫
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The total content of each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), i.e. all arrows of this being, is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). One being differs from other beings only through its form. That means each being is just the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) manifests in a particular form.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The total content of each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), i.e. all arrows of this being, is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). One being differs from other beings only through its form. That means each being is an instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) which is the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) manifesting in a particular form.
 			- **Universal content**
 			  id:: 678e1d31-4874-4df6-bfb4-60822a6b5546
 			  content of every being
@@ -2854,7 +2854,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Only when the subject involves in the Omnifold, can it experience dimensions of the Omnifold as volumes and structures of information, as well as directions of the Ω-thread as changes and motions.
 				- The information extraction through observation is called “**thread pulling**”.
 				- The construction of new forms to return back to the Omnifold through action is called “**thread spinning**”.
-			- Different subjects pull out different Ω-threads from the same Omnifold, which are just different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same objects, as different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of the same content.
+			- Different subjects pull out different Ω-threads from the same Omnifold, which are just different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same objects, as different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))).
 			  id:: 6772a6cd-5b37-43ab-b8cb-b9656d26fdcc
 			  collapsed:: true
 				- For example, for an Omnifold in the form of an $m × n$ table,
