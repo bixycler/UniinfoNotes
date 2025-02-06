@@ -173,9 +173,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
 			- Hurricane's structure resembles the self's structure
 			  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
-				- Layers of the self are
+				- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
+				- The eye, inside the eye, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)).
+				- The outflow cirrus shield is ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the ((66c810a0-9861-4787-bdcf-1378219332be)).
 				- Blog post: [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
-					- ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-Sep/Hurricane-structure-self-eye-vi.png)
+				  collapsed:: true
+					- Modified from [Hurricane-vi.svg](https://commons.wikimedia.org/wiki/File:Hurricane-vi.svg) < [Hurricane-en.svg](https://commons.wikimedia.org/wiki/File:Hurricane-en.svg)
+					  ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-Sep/Hurricane-structure-self-eye-vi.png)
 	- ## subject
 	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
 	  collapsed:: true
