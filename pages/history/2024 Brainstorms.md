@@ -450,7 +450,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- |eye soliton| = quantum -> [abstraction](((66f40baf-1aca-40b7-828c-71d6f15f23fe))) = action
 					- The amount of the soliton is the quantum.
 					- That abstraction from the obop circle to the quantum is the action of that soliton: produce the extent
-		- ((673312a3-e94e-478f-9e21-bad72ef29d1b))
+		- ⇒ ((673312a3-e94e-478f-9e21-bad72ef29d1b))
 	- ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) = whole relative to a unit (intent) = fit = divisible
 	  id:: 66ebb5fb-6850-4a83-94eb-dd3039891ffc
 	  collapsed:: true
