@@ -8,9 +8,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	  collapsed:: true
-		- space
+		- change
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
-		  collapsed:: true
 		  ^ **Name & Term** search
 			- Filters
 			  collapsed:: true
