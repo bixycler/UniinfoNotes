@@ -168,10 +168,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) is the Sanskrit term that refering to "essence, breath", đại ngã, linh hồn bất diệt (của Thượng Đế). In Mahayana Buddhism, the Sanskrit term svabhāva (स्वभाव) = pa. सभाव = zh. 自性 = vi. tự tánh is used to denote the [Buddha-nature](https://en.wikipedia.org/wiki/Buddha-nature) = [Brahman](https://en.wikipedia.org/wiki/Brahman) in Hinduism.
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c8772a-9b29-45b0-b169-2fa847333e02)) is the pure ((669a2697-56af-445c-9197-24aa498a5d5b)) within the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). Self-essence is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) which cannot be seen directly and can only be felt indirectly via reflection.
-			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- The argument of whether the self-essence is changing or unchanging, as in ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) versus Budda-nature versus [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) & [śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81), is meaningless due to its intrinsic liar paradox: the self-essence is itself not a concrete self, but just an abstraction of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). In other words, 
-				  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
-				- ((673312a3-e94e-478f-9e21-bad72ef29d1b))
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- The argument of whether the ((66c8772a-9b29-45b0-b169-2fa847333e02)) is changing or unchanging, as in ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) versus Budda-nature versus [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) & [śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81), is meaningless due to its intrinsic liar paradox: the self-essence is itself not a concrete self, but just an abstraction of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). In other words, 
+			  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
+			- Hurricane's structure resembles the self's structure
+			  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
+				- Layers of the self are
+				- Blog post: [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
+					- ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-Sep/Hurricane-structure-self-eye-vi.png)
 	- ## subject
 	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
 	  collapsed:: true
