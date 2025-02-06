@@ -420,6 +420,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- ((668d08c7-ec2d-4188-9745-6ccf643c9132))
 		- ((671b6c19-7dee-4548-9154-a5eddbe870fc)) is just an arrrow of the relaxed quantum. The light ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))s the original circle into various forms (shapes and sizes). => ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
 	- ((66f267f7-01f9-47b9-8376-abd27fdf2930)) (vi. Thức) - ((66f2681b-796a-4e25-b778-ba4fb6419425)) (vi. Ý Thức) - ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) (vi. Mình, Bản thân) - Ego (vi. cái Tôi) - Ātman (vi. Ngã, Linh hồn)
+	  id:: 67760c45-55b9-4b5a-84d2-c4afd0b52fe9
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-09-24 Tue 15:08:24]--[2024-09-24 Tue 17:50:18] =>  02:41:54
