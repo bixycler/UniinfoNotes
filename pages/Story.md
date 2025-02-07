@@ -337,9 +337,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Claude AI](https://claude.ai/)
 					- It's designed for in-depth research with documents, but without Web search.
 					- It's free plan has rather limited number of messages per hour.
+					- [CoT prompting](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-of-thought)
 				- [DeepSeek](https://chat.deepseek.com)
 				  id:: 67a6068e-65d3-44c2-8f1c-b4d532046638
-					- CoT view ()
+					- CoT view (DeepThink) is a pioneer feature. This show details of its [chain of thought](https://www.ibm.com/think/topics/chain-of-thoughts) for verification of the reasoning process.
 					  id:: 67a60696-7991-4817-bf76-795fa9236d95
 				- [Gemini App](https://gemini.google.com/app)
 					- The latest model Gemini 2.0 Flash Thinking (Experimental) with Apps has added a CoT view and searches (Web, YouTube, Maps) like [DeepSeek](((67a6068e-65d3-44c2-8f1c-b4d532046638))).
