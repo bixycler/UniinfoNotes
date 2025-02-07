@@ -338,10 +338,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- It's designed for in-depth research with documents, but without Web search.
 					- It's free plan has rather limited number of messages per hour.
 					- [CoT prompting](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-of-thought)
+				- [Copilot](https://copilot.microsoft.com/)
+				  :LOGBOOK:
+				  CLOCK: [2025-02-07 Fri 20:31:07]--[2025-02-07 Fri 20:31:09] =>  00:00:02
+				  :END:
+					- Features: Web search, read documents and images, and the new feature "Think Deeper" in response to [DeepSeek's DeepThink](((67a60696-7991-4817-bf76-795fa9236d95))).
+					-
 				- [DeepSeek](https://chat.deepseek.com)
 				  id:: 67a6068e-65d3-44c2-8f1c-b4d532046638
 					- CoT view (DeepThink) is a pioneer feature. This show details of its [chain of thought](https://www.ibm.com/think/topics/chain-of-thoughts) for verification of the reasoning process.
 					  id:: 67a60696-7991-4817-bf76-795fa9236d95
+					- Other features: Web search, read documents and images.
+					- DeepSeek is open sourced.
 				- [Gemini App](https://gemini.google.com/app)
 					- The latest model Gemini 2.0 Flash Thinking (Experimental) with Apps has added a CoT view and searches (Web, YouTube, Maps) like [DeepSeek](((67a6068e-65d3-44c2-8f1c-b4d532046638))).
 					- However it still cannot read documents.
