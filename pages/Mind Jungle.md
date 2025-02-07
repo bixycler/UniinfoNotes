@@ -3468,7 +3468,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2024-09-19 Thu 12:24:53]
 					  :END:
 						- when it's too deep with analytics (differential), it's too abstract, lacking context, groundless, formless, messy, collapsed, the object is sliced into disconnected parts
-						- traversal on the breadth with CIfEr provides context, condition (duyên), and form to stretch the loop out to be a full circle 🌕, to be the whole
+						- traversal on the breadth with SCIFER provides context, condition (duyên), and form to stretch the loop out to be a full circle 🌕, to be the whole
+						- However, ((67a5d140-31e4-451d-a8ea-33fa6927ce99))
 				- [!] The issue of love, i.e. emotional attatchment
 				  collapsed:: true
 					- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
