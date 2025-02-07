@@ -323,10 +323,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-02-07 Fri 16:45:39]
 		  :END:
-			- Báu (+ Giáp, Hùng)
+			- Feb 4th, returning home, i slept early, intended to have a long sleep to recover,... But after waking up at midnight (my wife returned after helping sister 7), i was caught into the issue in the traveling monk group of Master Minh Tuệ: Mr. Báu (+ Giáp, Hùng) have just left the group due to the unresolved conflict from the Lunar new year eve (Jan 28).
 			- Yesterday, Feb 6th, even after the straight 10 hour sleep last night, i still had 1 hour noon sleep and 1.5 hours sleepy meditation.
 				- In the afternoon, after [chatting on fb](((67a5f191-079f-4f97-b5b2-c01116db8cef))), i had a mild headache.
-				- In the evening, i stood up late watching the developments of Minh Tuệ d
+				- In the evening, i stood up late watching the developments of Minh Tuệ group's situation.
 			- Today, Feb 7th, when waking up, the headache subsided but it's still there. 
 			  :LOGBOOK:
 			  CLOCK: [2025-02-07 Fri 17:22:30]
