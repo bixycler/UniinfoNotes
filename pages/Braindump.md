@@ -187,6 +187,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- ((678df0f0-20d2-4995-bfc2-0b953970469d))
 		- In the course of trying various LLMs, i'm touching various parts of Unïnfo begging for updates...
 		  id:: 67a035a8-f826-4b89-8eb4-3d2cd679dd1f
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-02-04 Tue 10:12:30]
 		  :END:
@@ -196,5 +197,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- In my history, such blooming of ideas has had me bogged down a lot.
 			- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
 			- Team leader Quân has just visited asking for Tết holiday and my work 😁!
-			-
+		-
 		- ...
