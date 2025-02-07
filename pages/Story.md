@@ -324,7 +324,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-02-07 Fri 16:45:39]
 		  :END:
 			- Báu (+ Giáp, Hùng)
-			- Yesterday, Feb 6th, i logged in to Facebook to
+			- Yesterday, Feb 6th, i logged in to Facebook to chat with Mr. Hiệp (& Ms. Trung)
+				- Trung told me that Mr. Hiệp called me on fb... but when i logged in, i saw no miss call nor messages.
+				- I chat with Hiệp about the Liar's Paradox and he a
 				- I've added Google Authenticator into [2FA settings](https://www.facebook.com/help/148233965247823/).
 			- Today, Feb 7th,
 			  :LOGBOOK:
