@@ -162,8 +162,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- But at last, i just asked Copilot to have a quick answer, and it gave me the [correct one](((577c2916-d4ca-461d-85b9-f3b2ff7e6b30))).
 			- Today, experimenting with my local git repo for testing, eventually, the problem has turned out to be not so serious as [i thought](((67938b35-697e-432f-b179-17ce60028e6c)))!
 				- It's just causes **unintended conflicts**, not "~~perpetual conflicts~~"!
-	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- We're witnessing the [braindumping](((db954501-95d0-46e2-b1fc-39b6a966300e))) and [current stories](((6788f004-d3df-41d4-afc8-c8c5ea52c51c))) and [current stasks](((677630fe-ea99-436f-b39f-8bd2295e2eaf))) stacking up!
 		  collapsed:: true
 			- Too many unfinished stuffs!
@@ -178,9 +176,16 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- This is the very common theme in my life, but undocumented until now.
 			- Switching from depth-first traversal ([duck dive](((67714850-43c0-4c7f-8b50-838e014b06e0)))) to breadth-first traversal has resulted in ((67a5cfdd-d3b3-491b-a7ba-febdc09dca95))
 			  id:: 67a5d140-31e4-451d-a8ea-33fa6927ce99
+				- This ***fragmentation*** is what i've been scared of due to my ((6678d594-9819-4624-abd6-d4ec62b3874f)).
 				- This problem has been foreseen long ago but no solution has been found.
 				- With the help of this documenation & task tracking system, i hope that we can find some way to deal with it!
-				- This ***fragmentation*** is what i've been scared of due to my ((6678d594-9819-4624-abd6-d4ec62b3874f)).
+				- DOING Now, i'm sorting them up...
+				  id:: 67a5dcde-4189-4626-8396-61577b6906a4
+				  :LOGBOOK:
+				  CLOCK: [2025-02-07 Fri 17:14:16]
+				  :END:
+	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
 		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
 		  collapsed:: true
@@ -214,4 +219,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- In my history, such blooming of ideas has had me bogged down a lot.
 			- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
 			- Team leader Quân has just visited asking for Tết holiday and my work 😁!
+		- ((67a5dcde-4189-4626-8396-61577b6906a4))
 		- ...

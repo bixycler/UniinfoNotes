@@ -293,6 +293,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ⇒ Basically, the current Copilot it working effeciently only within the current file.
 					- Every prompt with codebase context, it seems to re-analyze the whole codebase!
 			- ⇒ For a complicated codebase, VS Code's Copilot with **Codebase context** or GitHub's Copilot with **Repo context** can help analyze some complex flows.
+		- January may be the most off month!
+		  id:: 67938fea-f953-4513-9258-80f0cb1b3fcb
+		  collapsed:: true
+			- HTV work time table
+			  collapsed:: true
+				- ![the-most-off-month-2025-01.png](../assets/Will/story/2025-Jan/the-most-off-month-2025-01.png)
+			- Jan 3-6, ((677e2745-6664-407e-ab5f-3c18319e2e6b))
+			- Jan 12, ((67836ec6-0e46-4a3f-80d9-b27476d12095))
+			- Jan 13, ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
+			- Yesterday (Jan 23), i took a full day off.
+			  id:: 67938fc1-3094-4558-bc88-07b68ff64298
+			  :LOGBOOK:
+			  CLOCK: [2025-01-24 Fri 20:04:11]
+			  CLOCK: [2025-01-24 Fri 20:04:13]
+			  :END:
+				- Again, ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- TODO Total by 0 = neutralization of positive and negative 
@@ -308,17 +324,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-02-07 Fri 16:45:39]
 		  :END:
 			- Báu (+ Giáp, Hà)
-			- Last month (January) may be the most off month!
-				- HTV work time table
-				  collapsed:: true
-					- ![the-most-off-month-2025-01.png](../assets/Will/story/2025-Jan/the-most-off-month-2025-01.png)
-				- Jan 12, ((67836ec6-0e46-4a3f-80d9-b27476d12095))
-				- Jan 13, ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
-				- Yesterday (Jan 23), i took a full day off.
-				  id:: 67938fc1-3094-4558-bc88-07b68ff64298
-				  :LOGBOOK:
-				  CLOCK: [2025-01-24 Fri 20:04:11]
-				  CLOCK: [2025-01-24 Fri 20:04:13]
-				  :END:
-					- Again, ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
+			- Last month, ((67938fea-f953-4513-9258-80f0cb1b3fcb))
 		- ...
