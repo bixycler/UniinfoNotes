@@ -324,12 +324,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-02-07 Fri 16:45:39]
 		  :END:
 			- Báu (+ Giáp, Hùng)
-			- Yesterday, Feb 6th,
-			- Today, Feb 7th,
+			- Yesterday, Feb 6th, even after the straight 10 hour sleep last night, i still had 1 hour noon sleep and 1.5 hours sleepy meditation.
+			- Yesterday afternoon, after [chatting on fb](((67a5f191-079f-4f97-b5b2-c01116db8cef))), i had a mild headache.
+			- Today, Feb 7th, when waking up, the headache subsided but it's still there. The whole morning, after typing a lot for Mr. Hiệp,
 			  :LOGBOOK:
 			  CLOCK: [2025-02-07 Fri 17:22:30]
 			  :END:
 			- Yesterday, i logged in to Facebook to chat with Mr. Hiệp (& Ms. Trung), until today.
+			  id:: 67a5f191-079f-4f97-b5b2-c01116db8cef
 				- Trung told me that Mr. Hiệp called me on fb... but when i logged in, i saw no miss call nor messages.
 				- I chat with Hiệp about the Liar's Paradox and he shared about his obstacle in keeping the "no lying" precept.
 				- Trung asked me to help her to visit her sister Tâm at the hospital.
