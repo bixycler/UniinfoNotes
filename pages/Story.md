@@ -92,7 +92,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [第１０文段](https://www.sets.ne.jp/~zenhomepage/sansuikyou1.html#10bundan)
 					- > 雲門匡眞大師いはく、**東山水上行**。
 			-
-		- Brother Hải decease & my “last frontier” of ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness
+		- Brother Hải deceased & my “last frontier” of ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))ness
 		  id:: 67836ec6-0e46-4a3f-80d9-b27476d12095
 		  collapsed:: true
 		  :LOGBOOK:
@@ -324,5 +324,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-02-07 Fri 16:45:39]
 		  :END:
 			- Báu (+ Giáp, Hà)
+			- Yesterday, Feb 6th,
+			- Today, Feb 7th,
+			  :LOGBOOK:
+			  CLOCK: [2025-02-07 Fri 17:22:30]
+			  :END:
 			- Last month, ((67938fea-f953-4513-9258-80f0cb1b3fcb))
 		- ...
