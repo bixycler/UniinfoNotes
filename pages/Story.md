@@ -324,13 +324,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-02-07 Fri 16:45:39]
 		  :END:
 			- Báu (+ Giáp, Hùng)
-			- Yesterday, Feb 6th, i logged in to Facebook to chat with Mr. Hiệp (& Ms. Trung)
-				- Trung told me that Mr. Hiệp called me on fb... but when i logged in, i saw no miss call nor messages.
-				- I chat with Hiệp about the Liar's Paradox and he a
-				- I've added Google Authenticator into [2FA settings](https://www.facebook.com/help/148233965247823/).
+			- Yesterday, Feb 6th,
 			- Today, Feb 7th,
 			  :LOGBOOK:
 			  CLOCK: [2025-02-07 Fri 17:22:30]
 			  :END:
+			- Yesterday, i logged in to Facebook to chat with Mr. Hiệp (& Ms. Trung), until today.
+				- Trung told me that Mr. Hiệp called me on fb... but when i logged in, i saw no miss call nor messages.
+				- I chat with Hiệp about the Liar's Paradox and he shared about his obstacle in keeping the "no lying" precept.
+				- Trung asked me to help her to visit her sister Tâm at the hospital.
+				- I've added Google Authenticator into [2FA settings](https://www.facebook.com/help/148233965247823/).
 			- Last month, ((67938fea-f953-4513-9258-80f0cb1b3fcb))
 		- ...
