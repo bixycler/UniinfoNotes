@@ -179,7 +179,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- This ***fragmentation*** is what i've been scared of due to my ((6678d594-9819-4624-abd6-d4ec62b3874f)).
 				- This problem has been foreseen long ago but no solution has been found.
 				- With the help of this documenation & task tracking system, i hope that we can find some way to deal with it!
-				- DOING Now, i'm sorting them up...
+				- DOING Now, i'm sorting & wrapping them up...
 				  id:: 67a5dcde-4189-4626-8396-61577b6906a4
 				  :LOGBOOK:
 				  CLOCK: [2025-02-07 Fri 17:14:16]
@@ -220,4 +220,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
 			- Team leader Quân has just visited asking for Tết holiday and my work 😁!
 		- ((67a5dcde-4189-4626-8396-61577b6906a4))
+		  id:: 67a5dd00-f5cf-4e51-9ea1-2fea15d3595a
 		- ...
