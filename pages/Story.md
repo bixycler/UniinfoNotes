@@ -324,7 +324,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-02-07 Fri 16:45:39]
 		  :END:
 			- Báu (+ Giáp, Hà)
-			- Yesterday, Feb 6th,
+			- Yesterday, Feb 6th, i logged in to Facebook to
 			- Today, Feb 7th,
 			  :LOGBOOK:
 			  CLOCK: [2025-02-07 Fri 17:22:30]
