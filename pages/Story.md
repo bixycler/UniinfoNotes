@@ -323,7 +323,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-02-07 Fri 16:45:39]
 		  :END:
-			- Feb 4th, returning home, i slept early, intended to have a long sleep to recover,... But after waking up at midnight (my wife returned after helping sister 7), i was caught into the issue in the traveling monk group of Master Minh Tuệ: Mr. Báu (+ Giáp, Hùng) have just left the group due to the unresolved conflict from the Lunar new year eve (Jan 28).
+			- From the Lunar new year eve (Jan 28) throughout the Tết holiday, i've been hooked by two events: ((67a5faa3-c64c-48f7-8b3f-a5311714110f)), and ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)), esp. the ((67a5faeb-c506-42b8-b989-9a7179fe02b3)).
+			- Mr. Báu's conflict with monks in Minh Tuệ's group
+			  id:: 67a5faa3-c64c-48f7-8b3f-a5311714110f
+			- AI chat bot race
+			  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
+				- NotebookLM podcast
+				  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
+					-
+			- Feb 4th, returning home, i slept early, intended to have a long sleep to recover,... But after waking up at midnight (my wife returned after helping sister 7), i was caught into the issue in the traveling monk group of Master Minh Tuệ: Mr. Báu (+ Giáp, Hùng) have just left the group due to the unresolved conflict.
 			- Yesterday, Feb 6th, even after the straight 10 hour sleep last night, i still had 1 hour noon sleep and 1.5 hours sleepy meditation.
 				- In the afternoon, after [chatting on fb](((67a5f191-079f-4f97-b5b2-c01116db8cef))), i had a mild headache.
 				- In the evening, i stood up late watching the developments of Minh Tuệ group's situation.
