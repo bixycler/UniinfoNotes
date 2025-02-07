@@ -301,14 +301,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-01-20 Mon 13:45:06]
 		  :END:
 		  vs. total by ∞ = abstraction of complex objects into points
-		- TODO Yesterday, i took a full day off.
-		  id:: 67938fc1-3094-4558-bc88-07b68ff64298
+		- DOING Another day off due to separation problem in the traveling monk group of Master Minh Tuệ
+		  id:: 67a5d049-d7a3-4a23-baa6-5261a409c694
+		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-01-24 Fri 20:04:11]
-		  CLOCK: [2025-01-24 Fri 20:04:13]
+		  CLOCK: [2025-02-07 Fri 16:45:39]
 		  :END:
-			- Again, ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
-			- This month may be the most off month!
-			  collapsed:: true
-				- ![the-most-off-month-2025-01.png](../assets/Will/story/2025-Jan/the-most-off-month-2025-01.png)
+			- Báu (+ Giáp, Hà)
+			- Last month (January) may be the most off month!
+				- HTV work time table
+				  collapsed:: true
+					- ![the-most-off-month-2025-01.png](../assets/Will/story/2025-Jan/the-most-off-month-2025-01.png)
+				- Yesterday, i took a full day off (Jan 23).
+				  id:: 67938fc1-3094-4558-bc88-07b68ff64298
+				  :LOGBOOK:
+				  CLOCK: [2025-01-24 Fri 20:04:11]
+				  CLOCK: [2025-01-24 Fri 20:04:13]
+				  :END:
+					- Again, ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
 		- ...
