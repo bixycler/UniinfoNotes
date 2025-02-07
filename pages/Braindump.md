@@ -164,14 +164,18 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- It's just causes **unintended conflicts**, not "~~perpetual conflicts~~"!
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- We're witnessing the [braindumping](((db954501-95d0-46e2-b1fc-39b6a966300e))) and [current stories](((6788f004-d3df-41d4-afc8-c8c5ea52c51c))) stacking up!
+		- We're witnessing the [braindumping](((db954501-95d0-46e2-b1fc-39b6a966300e))) and [current stories](((6788f004-d3df-41d4-afc8-c8c5ea52c51c))) and [current stasks](((677630fe-ea99-436f-b39f-8bd2295e2eaf))) stacking up!
 		  collapsed:: true
 			- Too many unfinished stuffs!
 				- ((678dbff1-19ea-47c5-8794-2638d53ee7dd))
 				- ((678df0f0-20d2-4995-bfc2-0b953970469d))
-				-
+				- ((67938fc1-3094-4558-bc88-07b68ff64298))
+				- ((67a035a8-f826-4b89-8eb4-3d2cd679dd1f))
+				- ((67a5d049-d7a3-4a23-baa6-5261a409c694))
+				- ((67764f3d-c6b3-4f00-a53f-ec4dab0920f9))
+				- ((6772a6c7-f434-4911-9fa2-939b8db20c42))
 			- This is the very common theme in my life, but undocumented until now.
-			-
+			- Switching from depth-first traversal ([duck dive](((67714850-43c0-4c7f-8b50-838e014b06e0)))) to breadth-first traversal
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
 		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
 		  collapsed:: true
@@ -206,4 +210,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
 			- Team leader Quân has just visited asking for Tết holiday and my work 😁!
 		- Another day off due to separation problem in the traveling monk group of Master Minh Tuệ
+		  id:: 67a5d049-d7a3-4a23-baa6-5261a409c694
 		- ...
