@@ -329,12 +329,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- AI chatbot race
 			  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 			  collapsed:: true
-				- NotebookLM
+				- [NotebookLM](https://notebooklm.google.com/)
 				  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
 					- It can understand my [[Mind Jungle]] well! 😊
 					- However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.
 					- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
-				-
+				- [Claude AI](https://claude.ai/)
+					- It's designed for in-depth research with documents, but without Web search.
+					- It's free plan has rather limited number of messages per hour.
 			- Feb 4th, returning home, i slept early, intended to have a long sleep to recover,... But after waking up at midnight (my wife returned after helping sister 7), i was caught into the issue in the traveling monk group of Master Minh Tuệ: Mr. Báu (+ Giáp, Hùng) have just left the group due to the unresolved conflict.
 			- Yesterday, Feb 6th, even after the straight 10 hour sleep last night, i still had 1 hour noon sleep and 1.5 hours sleepy meditation.
 				- In the afternoon, after [chatting on fb](((67a5f191-079f-4f97-b5b2-c01116db8cef))), i had a mild headache.
