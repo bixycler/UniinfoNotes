@@ -325,6 +325,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- Báu (+ Giáp, Hà)
 			- Yesterday, Feb 6th, i logged in to Facebook to
+				- I've added Google Authenticator into [2FA settings](https://www.facebook.com/help/148233965247823/).
 			- Today, Feb 7th,
 			  :LOGBOOK:
 			  CLOCK: [2025-02-07 Fri 17:22:30]
