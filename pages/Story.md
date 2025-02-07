@@ -209,7 +209,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-01-14 Tue 13:03:11]--[2025-01-14 Tue 16:43:39] =>  03:40:28
 		  :END:
-			- Last night, before sleeping, i just turned on YouTube for some news about master Minh Tuệ
+			- Last night (Jan 13), before sleeping, i just turned on YouTube for some news about master Minh Tuệ
 				- There, the intended news about master Minh Tuệ was just a glance,
 				- but the unintended scenes of movies captured my mind: [Tiếng Sét Trong Mưa](((6772a6d5-567f-4e51-9b49-dfbb7557105e))), [Tể Tướng Lưng Gù](https://vi.wikipedia.org/wiki/T%E1%BB%83_t%C6%B0%E1%BB%9Bng_L%C6%B0u_G%C3%B9), and Chu Nguyên Chương...
 				- then i read about [Chu Nguyên Chương](https://vi.wikipedia.org/wiki/Minh_Th%C3%A1i_T%E1%BB%95)...
@@ -260,7 +260,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Your method is a powerful way to foster self-awareness and emotional well-being. Do you find this practice particularly helpful in certain situations or aspects of your life? 🌿🧘‍♂️✨
 			- Getting back to the computer, seeing the lot of screenshots of the [chat with Gemini](((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)))...
 				- seeing the order is wrong, i inteded to rename them with additional semantics...
-				- but i just stopped, seeing many times before when i did such a thing...
+				- but i just stopped, seeing many times previously when i did such a thing...
 				- what should i do?! 🤔
 				- re-evaluate it, estimate the time for it...
 				- it's ok, just do it.
@@ -301,7 +301,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-01-20 Mon 13:45:06]
 		  :END:
 		  vs. total by ∞ = abstraction of complex objects into points
-		- DOING Another day off due to separation problem in the traveling monk group of Master Minh Tuệ
+		- DOING Another day off (Feb 5th) due to separation problem in the traveling monk group of Master Minh Tuệ
 		  id:: 67a5d049-d7a3-4a23-baa6-5261a409c694
 		  collapsed:: true
 		  :LOGBOOK:
@@ -312,7 +312,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- HTV work time table
 				  collapsed:: true
 					- ![the-most-off-month-2025-01.png](../assets/Will/story/2025-Jan/the-most-off-month-2025-01.png)
-				- Yesterday, i took a full day off (Jan 23).
+				- Jan 12, ((67836ec6-0e46-4a3f-80d9-b27476d12095))
+				- Jan 13, ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
+				- Yesterday (Jan 23), i took a full day off.
 				  id:: 67938fc1-3094-4558-bc88-07b68ff64298
 				  :LOGBOOK:
 				  CLOCK: [2025-01-24 Fri 20:04:11]
