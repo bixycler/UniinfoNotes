@@ -350,11 +350,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- CoT view (DeepThink) is a pioneer feature. This show details of its [chain of thought](https://www.ibm.com/think/topics/chain-of-thoughts) for verification of the reasoning process.
 					  id:: 67a60696-7991-4817-bf76-795fa9236d95
 					- Other features: Web search, read documents and images.
-					- DeepSeek is open sourced.
+					- DeepSeek is open sourced by Chinese.
 					- The chat history for each topic is limited.
+				- [Qwen LM](https://chat.qwenlm.ai/)
+					- Features: Web search, read documents and images in various formats, generate images and videos.
+					- Qwen is open sourced by Chinese Alibaba.
 				- [Gemini App](https://gemini.google.com/app)
 					- The latest model Gemini 2.0 Flash Thinking (Experimental) with Apps has added a CoT view and searches (Web, YouTube, Maps) like [DeepSeek](((67a6068e-65d3-44c2-8f1c-b4d532046638))).
 					- However it still cannot read documents.
+				- [Kimi AI](https://kimi.ai/)
+					- Features: Web search, read documents and images in various formats.
+					- However current login is limited to Chinese phone numbers.
 			- Feb 4th, returning home, i slept early, intended to have a long sleep to recover,... But after waking up at midnight (my wife returned after helping sister 7), i was caught into the issue in the traveling monk group of Master Minh Tuệ: Mr. Báu (+ Giáp, Hùng) have just left the group due to the unresolved conflict.
 			- Yesterday, Feb 6th, even after the straight 10 hour sleep last night, i still had 1 hour noon sleep and 1.5 hours sleepy meditation.
 				- In the afternoon, after [chatting on fb](((67a5f191-079f-4f97-b5b2-c01116db8cef))), i had a mild headache.
