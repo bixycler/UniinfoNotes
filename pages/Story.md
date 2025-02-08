@@ -335,11 +335,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.
 					- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
 				- [Claude AI](https://claude.ai/)
-					- It's designed for **in-depth research** with documents, but without Web search.
-					- It's free plan has rather limited number of messages per hour.
+					- It's designed for **in-depth research** with **documents**, but without Web search.
+					- It's free plan has rather limited number of messages every 4 hours.
 					- The chat history for each topic is **unlimited** and can be [CoT prompted](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-of-thought)
 				- [Perplexity AI](https://www.perplexity.ai/)
-					- It's designed for **in-depth research** with Web search & documents.
+					- It's designed for **in-depth research** with **Web** search & **documents**.
+						- It always searches on Web first before answering. This search is excessive for normal discussions.
 					- AI models: Perplexity in-house model (default, free), and Pro models: DeepSeek R1, GPT o3-mini, (previously Claude)
 					- It's free plan has limit of 5 follow-up questions every 4 hours.
 				- [Copilot](https://copilot.microsoft.com/)
@@ -355,8 +356,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  id:: 67a60696-7991-4817-bf76-795fa9236d95
 					- Other features: Web search, read documents and images.
 					- DeepSeek is open sourced by Chinese.
-					- The chat history for each topic is limited.
-					- The server is usually busy.
+					- The number of chat messages for each topic is limited.
+					- The server is sometimes busy.
 				- [Qwen LM](https://chat.qwenlm.ai/)
 					- Features: Web search, read documents and images in various formats, generate images and videos.
 					- Qwen is open sourced by Chinese Alibaba.
