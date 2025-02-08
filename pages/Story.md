@@ -330,14 +330,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Khi sang Thái Lan thì anh Báu đã mềm mỏng và thoải mái hơn nhiều, nhưng các sư (cả thầy Minh Tuệ) thì vẫn có nhiều thành kiến với anh.
 				- Đỉnh điểm là trước Tết với các sự kiện căng thẳng giữa anh Báu với sư Minh Tạng và vài sư nữa.
 				- Từ đêm giao thừa tới cả tuần sau đó, cứ họp, các anh hộ pháp tưởng giải toả xong xuôi, rồi lại căng thẳng... Thì ra gốc là do các sư và chính thầy MT vẫn thay thế anh Báu.
-				- Anh Báu cùng anh Hùng & Giáp về rồi, thì qua mấy lần phỏng vấn, thầy MT cho thấy rõ ý chê trách anh Báu và thiên vị các sư. Tệ nhứt là có bạn nữ YouTuber hỏi cách để dung hoà thì thầy lại càng nhấn vào anh Báu, cho rằng ban đầu anh ta "tốt" mà sau này khi đã có danh vọng thì trở nên "xấu" theo hướng vụ lợi, muốn "câu view câu like". Mình thấy đây là nhận xét cảm tính và ngược lại với thực tế diễn ra là anh Báu đã ngày càng tốt hơn (theo hướng giải thoát) và hoàn toàn không có vụ lợi.
+				- Anh Báu cùng anh Hùng & Giáp về rồi (đêm 4 sáng 5/2), thì qua mấy lần phỏng vấn, thầy MT cho thấy rõ ý chê trách anh Báu và thiên vị các sư. Tệ nhứt là có bạn nữ YouTuber hỏi cách để dung hoà thì thầy lại càng nhấn vào anh Báu, cho rằng ban đầu anh ta "tốt" mà sau này khi đã có danh vọng thì trở nên "xấu" theo hướng vụ lợi, muốn "câu view câu like". Mình thấy đây là nhận xét cảm tính và ngược lại với thực tế diễn ra là anh Báu đã ngày càng tốt hơn (theo hướng giải thoát) và hoàn toàn không có vụ lợi.
 					- Rồi thầy cũng cố giữ nguyên tắc "không chủ động nhờ ai" nhưng cũng nói rõ là có mong chờ hết người này tới người khác mà họ không xin vào hỗ trợ nên coi như "chưa hữu duyên".
 					- Mình thấy thầy MT tu Giới nên hiển nhiên là bị cứng nhắc trong quan điểm.
 					- Tuy nhiên việc thầy MT không thấu hiểu cho sự hi sinh, khó khăn của người đời như anh Báu, và một mực thiên vị các sư, muốn càng nhiều sư theo càng tốt, v.v. thể hiện sự thiếu trí tuệ và không được "bình đẳng" như lời thầy đã nói.
 					- Việc thầy MT có thành kiến với anh Báu thì mình thấy đó là phần nghiệp quá khứ của thầy, như thầy đã chia sẻ trước đây.
 					- Mình cảm nhận sự "vô tình" của thầy cũng tương tự như [lần gặp chị Diệu Sinh](((67a7100b-28c9-4b79-bd66-d1b4b42d08fd))). Qua đó mình cũng thấy rõ hơn sự vướng mắc tình cảm của mình.
 				- Anh Hà ở lại thì bị nghi ngờ tùm lum, và anh ấy cũng chấp nhận trả nghiệp vì ngày trước mình cũng làm drama kiểu ngồi nhà vẽ chuyện.
-				- Chỉ 2-3 ngày sau khi anh Báu về VN thì đủ chuyện lộn xộn, từ sư Phúc Giác vạ miệng ti
+				- Chỉ 2-3 ngày sau khi anh Báu về VN thì đủ chuyện lộn xộn, từ sư Phúc Giác vạ miệng về thân thế anh Theerawat (phạm luật Thái về cấm đụng tới hoàng tộc), tới Phước Nghiêm sang quậy tưng bừng kích động tâm bất an của các sư nhỏ (bảo không có cầm hộ chiếu là bị bắt, v.v.)
 			- AI chatbot race
 			  id:: 67a72a32-c67d-440b-95d1-8ddeb0bb7ac3
 				- Around the Lunar new year, Chinese AI chatbots have been released, esp. ((67a6068e-65d3-44c2-8f1c-b4d532046638)) R1, shocking the US AI vendors with open sources, nearly 10 times cheaper in both training and operation.
