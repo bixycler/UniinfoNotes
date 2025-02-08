@@ -117,8 +117,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Chain-of-thought (CoT) prompting
 				  collapsed:: true
 				  is the prompting technique that instruct the ((66c300a9-beb5-4395-ae20-e9bb34ca8aae)) to think step by step, so that it can exploit the knowledge of reasoning in its pre-trained dataset.
+					- ((66725725-f76a-4328-b162-f469b87e871b))
+						- > Think step-by-step about...
+						- >
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- This technique is also effective in ((66c31d1a-1e9c-4c12-acd0-c130c5fd4db2)): [Exploring Length Generalization in Large Language Models](https://openreview.net/forum?id=zSkYVeX7bC4)
+						- ((67a6068e-65d3-44c2-8f1c-b4d532046638)) pioneered automatic CoT prompting with its DeepThink feature.
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
