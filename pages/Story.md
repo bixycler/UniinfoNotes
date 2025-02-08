@@ -355,6 +355,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Other features: Web search, read documents and images.
 					- DeepSeek is open sourced by Chinese.
 					- The chat history for each topic is limited.
+					- The server is usually busy.
 				- [Qwen LM](https://chat.qwenlm.ai/)
 					- Features: Web search, read documents and images in various formats, generate images and videos.
 					- Qwen is open sourced by Chinese Alibaba.
