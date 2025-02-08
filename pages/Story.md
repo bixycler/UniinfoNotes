@@ -326,7 +326,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- From the Lunar new year eve (Jan 28) throughout the Tết holiday, i've been hooked by two events: ((67a5faa3-c64c-48f7-8b3f-a5311714110f)), and ((67a72a32-c67d-440b-95d1-8ddeb0bb7ac3)), esp. the ((67a5faeb-c506-42b8-b989-9a7179fe02b3)) podcast.
 			- The conflict between Mr. Báu's and monks in Minh Tuệ's group
 			  id:: 67a5faa3-c64c-48f7-8b3f-a5311714110f
-				-
+				- Với nghiệp công an, làm tiến sỹ tâm lý học tội phạm, anh Báu đã quản lý đoàn một cách chặt chẽ, ban đầu (đoạn đường Lào) khá nghiêm khắc với nhiều nỗi lo sợ.
+				- Khi sang Thái Lan thì anh Báu đã mềm mỏng và thoải mái hơn nhiều, nhưng các sư (cả thầy Minh Tuệ) thì vẫn có nhiều thành kiến với anh.
+				- Đỉnh điểm là trước Tết với các sự kiện căng thẳng
 			- AI chatbot race
 			  id:: 67a72a32-c67d-440b-95d1-8ddeb0bb7ac3
 				- Around the Lunar new year, Chinese AI chatbots have been released, esp. ((67a6068e-65d3-44c2-8f1c-b4d532046638)) R1, shocking the US AI vendors with open sources, nearly 10 times cheaper in both training and operation.
