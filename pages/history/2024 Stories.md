@@ -1291,6 +1291,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		- Mình đã trải nghiệm cái chết nhiều rồi, giờ “thêm một bước nữa” để trải nghiệm sự tái sinh, sự bắt đầu.
 			- “Tới đầu sao trăm thước, thêm một bước nữa thôi; Chết đi phần bản ngã, sống lại cả đất trời” ([fb](https://www.facebook.com/share/p/LYj7TBTB952hVzeN/))
 		- Lễ 20/11, em bán hoa xong thì 2 vợ chồng chạy xuống Vĩnh Kim gặp chị Diệu Sinh.
+		  id:: 67a7100b-28c9-4b79-bd66-d1b4b42d08fd
 		  collapsed:: true
 			- Đêm Thứ 7 (23), ghé Mỹ Tho nghỉ, mình quán về dimentionality, thấy state/possibility space được "kéo sợi" ra thành sợi mảnh extension và khi cuộn lại thì cũng có lượng đúng bằng intension. Các vấn đề về dimensionality bỗng rõ ràng thông qua các **phép biến hình bảo toàn** bằng cách chia nhỏ (vi phân) rồi sắp xếp lại.
 			  id:: 6746d8fb-fe6d-4fe2-9d5d-158a07d59996
