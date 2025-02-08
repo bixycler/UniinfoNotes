@@ -340,8 +340,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The chat history for each topic is **unlimited** and can be [CoT prompted](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-of-thought)
 				- [Perplexity AI](https://www.perplexity.ai/)
 					- It's designed for **in-depth research** with Web search & documents.
-						- The Web search is actually Pro feature, and the Free plan can only have 3 searches/day.
 					- AI models: Perplexity in-house model (default, free), and Pro models: DeepSeek R1, GPT o3-mini, (previously Claude)
+					- It's free plan has limit of 5 follow-up questions every 4 hours.
 				- [Copilot](https://copilot.microsoft.com/)
 				  :LOGBOOK:
 				  CLOCK: [2025-02-07 Fri 20:31:07]--[2025-02-07 Fri 20:31:09] =>  00:00:02
