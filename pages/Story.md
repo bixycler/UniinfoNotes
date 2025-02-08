@@ -324,11 +324,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-02-07 Fri 16:45:39]
 		  :END:
 			- From the Lunar new year eve (Jan 28) throughout the Tết holiday, i've been hooked by two events: ((67a5faa3-c64c-48f7-8b3f-a5311714110f)), and ((67a72a32-c67d-440b-95d1-8ddeb0bb7ac3)), esp. the ((67a5faeb-c506-42b8-b989-9a7179fe02b3)) podcast.
-			- Mr. Báu's conflict with monks in Minh Tuệ's group
+			- The conflict between Mr. Báu's and monks in Minh Tuệ's group
 			  id:: 67a5faa3-c64c-48f7-8b3f-a5311714110f
+				-
 			- AI chatbot race
 			  id:: 67a72a32-c67d-440b-95d1-8ddeb0bb7ac3
-				-
+				- Around the Lunar new year, Chinese AI chatbots have been released, esp. ((67a6068e-65d3-44c2-8f1c-b4d532046638)) R1, shocking the US AI vendors with open sources, nearly 10 times cheaper in both training and operation.
+				- On this occasion, i've known of ((67a5faeb-c506-42b8-b989-9a7179fe02b3)).
+					- ((67a5faeb-c506-42b8-b989-9a7179fe02b3)) can understand my [[Mind Jungle]] well! 😊
+					  id:: 67a73250-60f2-485c-b9d1-fc43ad993282
+					- However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.
+					  id:: 67a73295-e7ff-445f-831f-df6e79d750dc
 				- I've tried some ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
 				- Currently, ((67a71016-4588-4b2f-8c56-90701528d94d)) is most appropriate for my researches.
 				  id:: 67a71016-d530-4b48-bfcc-495d72b0bf86
@@ -350,5 +356,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- I chat with Hiệp about the Liar's Paradox and he shared about his obstacle in keeping the "no lying" precept.
 				- Trung asked me to help her to visit her sister Tâm at the hospital.
 				- I've added Google Authenticator into [2FA settings](https://www.facebook.com/help/148233965247823/).
-			- Last month, ((67938fea-f953-4513-9258-80f0cb1b3fcb))
+			- This off day seems to continue the trend of last month: ((67938fea-f953-4513-9258-80f0cb1b3fcb))
 		- ...

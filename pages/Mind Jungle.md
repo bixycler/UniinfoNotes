@@ -132,8 +132,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  Most of them are ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s
 			- [NotebookLM](https://notebooklm.google.com/)
 			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
-				- It can understand my [[Mind Jungle]] well! 😊
-				- However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.
+				- It's designed for digesting a lot of documents.
+				- ((67a73250-60f2-485c-b9d1-fc43ad993282))
+				  id:: 67a71016-9fe4-4b8a-bc23-74f1a5ae7c1e
+				- ((67a73295-e7ff-445f-831f-df6e79d750dc))
 				- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
 			- [Claude AI](https://claude.ai/)
 				- It's designed for **in-depth research** with **documents**, but without Web search.
