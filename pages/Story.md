@@ -328,7 +328,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  id:: 67a5faa3-c64c-48f7-8b3f-a5311714110f
 				- Với nghiệp công an, làm tiến sỹ tâm lý học tội phạm, anh Báu đã quản lý đoàn một cách chặt chẽ, ban đầu (đoạn đường Lào) khá nghiêm khắc với nhiều nỗi lo sợ.
 				- Khi sang Thái Lan thì anh Báu đã mềm mỏng và thoải mái hơn nhiều, nhưng các sư (cả thầy Minh Tuệ) thì vẫn có nhiều thành kiến với anh.
-				- Đỉnh điểm là trước Tết với các sự kiện căng thẳng
+				- Đỉnh điểm là trước Tết với các sự kiện căng thẳng giữa anh Báu với sư Minh Tạng và vài sư nữa.
+				- Từ đêm giao thừa tới cả tuần sau đó, cứ họp, các anh hộ pháp tưởng giải toả xong xuôi, rồi lại căng thẳng... Thì ra gốc là do các sư và chính thầy MT vẫn thay thế anh Báu.
+				- Anh Báu cùng anh Hùng & Giáp về rồi, thì qua mấy lần phỏng vấn, thầy MT cho thấy rõ ý chê trách anh Báu và thiên vị các sư. Tệ nhứt là có bạn nữ YouTuber hỏi cách để dung hoà thì thầy lại càng nhấn vào anh Báu, cho rằng ban đầu anh ta "tốt" mà sau này khi đã có danh vọng thì trở nên "xấu" theo hướng vụ lợi, muốn "câu view câu like". Mình thấy đây là nhận xét cảm tính và ngược lại với thực tế diễn ra là anh Báu đã ngày càng tốt hơn (theo hướng giải thoát) và hoàn toàn không có vụ lợi.
+					- Rồi
+					- Mình thấy thầy MT tu Giới nên hiển nhiên
+				- Anh Hà ở lại thì bị nghi ngờ tùm lum, và anh ấy cũng chấp nhận trả nghiệp vì ngày trước mình cũng làm drama kiểu ngồi nhà vẽ chuyện.
+				-
 			- AI chatbot race
 			  id:: 67a72a32-c67d-440b-95d1-8ddeb0bb7ac3
 				- Around the Lunar new year, Chinese AI chatbots have been released, esp. ((67a6068e-65d3-44c2-8f1c-b4d532046638)) R1, shocking the US AI vendors with open sources, nearly 10 times cheaper in both training and operation.
