@@ -119,6 +119,52 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  is the prompting technique that instruct the ((66c300a9-beb5-4395-ae20-e9bb34ca8aae)) to think step by step, so that it can exploit the knowledge of reasoning in its pre-trained dataset.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- This technique is also effective in ((66c31d1a-1e9c-4c12-acd0-c130c5fd4db2)): [Exploring Length Generalization in Large Language Models](https://openreview.net/forum?id=zSkYVeX7bC4)
+		- AI chatbots
+		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
+		  collapsed:: true
+		  Most of them are ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s
+			- [NotebookLM](https://notebooklm.google.com/)
+			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
+				- It can understand my [[Mind Jungle]] well! 😊
+				- However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.
+				- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
+			- [Claude AI](https://claude.ai/)
+				- It's designed for **in-depth research** with **documents**, but without Web search.
+				- It's free plan has rather limited number of messages every 4 hours.
+				- The chat history for each topic is **unlimited** and can be [CoT prompted](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-of-thought)
+			- [Perplexity AI](https://www.perplexity.ai/)
+				- It's designed for **in-depth research** with **Web** search & **documents**.
+					- It always searches on Web first before answering. This search is excessive for normal discussions.
+				- AI models: Perplexity in-house model (default, free), and Pro models: DeepSeek R1, GPT o3-mini, (previously Claude)
+				- It's free plan has limit of 5 follow-up questions every 4 hours.
+			- [Copilot](https://copilot.microsoft.com/)
+			  id:: 67a71016-4588-4b2f-8c56-90701528d94d
+			  :LOGBOOK:
+			  CLOCK: [2025-02-07 Fri 20:31:07]--[2025-02-07 Fri 20:31:09] =>  00:00:02
+			  :END:
+				- Features: **Web** search, read **documents** and **images**, and the new feature "Think Deeper" in response to [DeepSeek's DeepThink](((67a60696-7991-4817-bf76-795fa9236d95))).
+				- The chat history for each topic is **unlimited**.
+				- ((67a71016-d530-4b48-bfcc-495d72b0bf86))
+			- [DeepSeek](https://chat.deepseek.com)
+			  id:: 67a6068e-65d3-44c2-8f1c-b4d532046638
+				- CoT view (DeepThink) is a pioneer feature. This show details of its [chain of thought](https://www.ibm.com/think/topics/chain-of-thoughts) for verification of the reasoning process.
+				  id:: 67a60696-7991-4817-bf76-795fa9236d95
+				- Other features: Web search, read documents and images.
+				- DeepSeek is open sourced by Chinese.
+				- The number of chat messages for each topic is limited.
+				- The server is sometimes busy.
+			- [Qwen LM](https://chat.qwenlm.ai/)
+				- Features: Web search, read documents and images in various formats, generate images and videos.
+				- Qwen is open sourced by Chinese Alibaba.
+			- [Gemini App](https://gemini.google.com/app)
+				- The latest model Gemini 2.0 Flash Thinking (Experimental) with Apps has added a CoT view and searches (Web, YouTube, Maps) like [DeepSeek](((67a6068e-65d3-44c2-8f1c-b4d532046638))).
+				- However it still cannot read documents.
+			- [Kimi AI](https://kimi.ai/)
+				- Features: Web search, read documents and images in various formats.
+				- However current login is limited to Chinese phone numbers.
+			- [Tülu](https://playground.allenai.org/)
+				- Features: only text chat.
+				- Tülu is open sourced.
 	- ((66949495-3846-4f89-9ea5-c62b624d282c))
 	- ## ItelliJ
 	  collapsed:: true
