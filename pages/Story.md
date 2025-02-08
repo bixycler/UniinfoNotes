@@ -328,7 +328,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  id:: 67a5faa3-c64c-48f7-8b3f-a5311714110f
 			- AI chatbot race
 			  id:: 67a72a32-c67d-440b-95d1-8ddeb0bb7ac3
-				- ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db))
+				-
+				- I've tried some ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
 				- Currently, ((67a71016-4588-4b2f-8c56-90701528d94d)) is most appropriate for my researches.
 				  id:: 67a71016-d530-4b48-bfcc-495d72b0bf86
 			- Feb 4th, returning home, i slept early, intended to have a long sleep to recover,... But after waking up at midnight (my wife returned after helping sister 7), i was caught into the issue in the traveling monk group of Master Minh Tuệ: Mr. Báu (+ Giáp, Hùng) have just left the group due to the unresolved conflict.
