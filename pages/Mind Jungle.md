@@ -316,7 +316,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)): The law is an abstraction of the whole which represents the whole to govern the parts.
 					-
 				- The objective and subjective views of the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (as the law):
-					- Objective view of the whole: **intrinsic balance**: The conversation laws, or actually the root law of conservation of content states that the whole is always in balance, i.e. when this part is added, the other part is subtracted, when this dimension is multiplied, the other dimension is divided.
+					- Objective view of the whole: **intrinsic balance**: The conversation laws, or actually the root law of ((67a983b4-f6ad-4abb-b611-7952168d83a2)) states that the whole is always in balance, i.e. when this part is added, the other part is subtracted, when this dimension is multiplied, the other dimension is divided.
 						- This law is the intrinsic nature of the whole, i.e. an abstraction of the whole, representing the whole, but not actually the whole.
 					- Subjective view of the part: **the active balancer**: Any imbalance is just a partial view of the whole, i.e. a view by a part. At any moment this part, as a subject, is aware of its imbalance, it tries to return to the balance state of the whole.
 						- This internal urge of the subject is the restoring force which is a manifestation of the law of balance derived from the whole. In this way, the part is governed by the whole via the law.
@@ -1704,6 +1704,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 678e2046-54ac-4284-865d-6f3e38f589a1
 			  ((665ca495-93b4-47d4-a022-ce511b021a3d)) « ((678e1960-58d6-4cf3-8fe3-25f2f4489b33)) »
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The total content of each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), i.e. all arrows of this being, is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). One being differs from other beings only through its form. That means each being is an instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) which is the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) manifesting in a particular form.
+			- Conservation of content
+			  id:: 67a983b4-f6ad-4abb-b611-7952168d83a2
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a983b4-f6ad-4abb-b611-7952168d83a2)) is a special case of the ((678e2046-54ac-4284-865d-6f3e38f589a1)) when considering a single being throughout time.
 			- **Universal content**
 			  id:: 678e1d31-4874-4df6-bfb4-60822a6b5546
 			  content of every being
