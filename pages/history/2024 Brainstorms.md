@@ -203,8 +203,12 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		- ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)): It's not “out of nothing” (*ex nihilo*), but “*out of thin air*” is the correct expression of the nature of emergence, simply because “nothing is formed out of nothing” (*ex nihilo nihil fit*).
 			- The materialistic version of “ex nihilo nihil fit” is [creatio ex materia](https://en.wikipedia.org/wiki/Creatio_ex_materia).
 			- [Creatio ex nihilo](https://en.wikipedia.org/wiki/Creatio_ex_nihilo) is a doctrine in many religions.
-		- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air and the gravitational field. The “vacant space” is just the ((675c03d8-3185-41a8-9f98-e869fabec793)) inflated up contains all of **potentials** and **possibilities**, not nothing at all.
+		- The seemingly "nothing" is just the very thin substance that's invisible, just like the thin air and the gravitational field. The “vacant space” is just the ((675c03d8-3185-41a8-9f98-e869fabec793)) inflated up, which contains all of **potentials** and **possibilities**, not nothing at all.
 		- ((67a97436-6e09-4730-a65b-55d97a8b71c6))
+		- The questions "What is space?" in my childhood and later "What is spacetime?", "Why is it empty?" in my young age had made me struggle a lot... until i had my answer. After years of meditation on spacetime, i had this conclusion:
+			- Space = space of possibilities
+			- It's "empty" because the possibilities there is potential, not actual.
+			- The bodies in that space embody the actual instances in space, and the current instance in time, hence "solid".
 	- Loops, springs, coils in Unicode
 	  id:: 671a3ada-40dd-4a43-8ded-532c120cfda1
 	  collapsed:: true

@@ -1132,7 +1132,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  :LOGBOOK:
 		  CLOCK: [2024-10-26 Sat 23:43:15]
 		  :END:
-			- When reviewing for entrance exam to university, i uttered:
+			- One day just after my high school graduation, preparing for university entrance exam, gazing into the "emptiness", i just uttered "there's no absolute vacuum!" (That time i had no idea of Quantum nor vacuum fluctuation.)
 			  > There's no true/absolute vacuum!
 			  > Không có chân không tuyệt đối!
 			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
