@@ -351,7 +351,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Với nghiệp công an, làm tiến sỹ tâm lý học tội phạm, anh Báu đã quản lý đoàn một cách chặt chẽ, ban đầu (đoạn đường Lào) khá nghiêm khắc với nhiều nỗi lo sợ.
 				- Khi sang Thái Lan thì anh Báu đã mềm mỏng và thoải mái hơn nhiều, nhưng các sư (cả thầy Minh Tuệ) thì vẫn có nhiều thành kiến với anh.
 				- Đỉnh điểm là trước Tết với các sự kiện căng thẳng giữa anh Báu với sư Minh Tạng và vài sư nữa.
-				- Từ đêm giao thừa tới cả tuần sau đó, cứ họp, các anh hộ pháp tưởng giải toả xong xuôi, rồi lại căng thẳng... Thì ra gốc là do các sư và chính thầy MT vẫn thay thế anh Báu.
+				- Từ đêm giao thừa tới cả tuần sau đó, cứ họp, các anh hộ pháp tưởng giải toả xong xuôi, rồi lại căng thẳng... Thì ra gốc là do các sư và chính thầy MT vẫn còn muốn thay thế anh Báu.
 				- Anh Báu cùng anh Hùng & Giáp về rồi (đêm 4 sáng 5/2), thì qua mấy lần phỏng vấn, thầy MT cho thấy rõ ý chê trách anh Báu và thiên vị các sư. Tệ nhứt là có bạn nữ YouTuber hỏi cách để dung hoà thì thầy lại càng nhấn vào anh Báu, cho rằng ban đầu anh ta "tốt" mà sau này khi đã có danh vọng thì trở nên "xấu" theo hướng vụ lợi, muốn "câu view câu like". Mình thấy đây là nhận xét cảm tính và ngược lại với thực tế diễn ra là anh Báu đã ngày càng tốt hơn (theo hướng giải thoát) và hoàn toàn không có vụ lợi.
 					- Rồi thầy cũng cố giữ nguyên tắc "không chủ động nhờ ai" nhưng cũng nói rõ là có mong chờ hết người này tới người khác mà họ không xin vào hỗ trợ nên coi như "chưa hữu duyên".
 					- Mình thấy thầy MT tu Giới nên hiển nhiên là bị cứng nhắc trong quan điểm.
