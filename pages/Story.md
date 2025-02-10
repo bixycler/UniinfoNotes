@@ -309,21 +309,43 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-01-24 Fri 20:04:13]
 			  :END:
 				- Again, ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- TODO Total by 0 = neutralization of positive and negative 
-		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
-		  :LOGBOOK:
-		  CLOCK: [2025-01-20 Mon 13:45:06]
-		  :END:
-		  vs. total by ∞ = abstraction of complex objects into points
-		- DOING Another day off (Feb 5th) due to separation problem in the traveling monk group of Master Minh Tuệ
+		- Another day off (Feb 5th) due to separation problem in the traveling monk group of Master Minh Tuệ
 		  id:: 67a5d049-d7a3-4a23-baa6-5261a409c694
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-02-07 Fri 16:45:39]
+		  CLOCK: [2025-02-07 Fri 16:45:39]--[2025-02-10 Mon 09:54:42] =>  65:09:03
 		  :END:
 			- From the Lunar new year eve (Jan 28) throughout the Tết holiday, i've been hooked by two events: ((67a5faa3-c64c-48f7-8b3f-a5311714110f)), and ((67a72a32-c67d-440b-95d1-8ddeb0bb7ac3)), esp. the ((67a5faeb-c506-42b8-b989-9a7179fe02b3)) podcast.
+			- Feb 4th, returning home, i slept early, intended to have a long sleep to recover,... But after waking up at midnight (my wife returned after helping sister 7), i was caught into the issue in the traveling monk group of Master Minh Tuệ: Mr. Báu (+ Giáp, Hùng) have just left the group due to the [unresolved conflict](((67a5faa3-c64c-48f7-8b3f-a5311714110f))).
+			- Yesterday, Feb 6th, even after the straight 10 hour sleep last night, i still had 1 hour noon sleep and 1.5 hours sleepy meditation.
+				- In the afternoon, after [chatting on fb](((67a5f191-079f-4f97-b5b2-c01116db8cef))), i had a mild headache.
+				- In the evening, i stood up late watching the developments of Minh Tuệ group's situation.
+			- Today, Feb 7th, when waking up, the headache subsided but it's still there. 
+			  :LOGBOOK:
+			  CLOCK: [2025-02-07 Fri 17:22:30]
+			  :END:
+				- The whole morning, after typing a lot for Mr. Hiệp, the headache got worse.
+				- After lunch, it got so severe that i was almost impossible to sleep.
+				- For a long time, i has been hypersensitive to everything around while trying to sleep.
+				- Eventually, i could enter the sleep, and after that, the headache has gone!
+			- Yesterday, i logged in to Facebook to chat with Mr. Hiệp (& Ms. Trung), until today.
+			  id:: 67a5f191-079f-4f97-b5b2-c01116db8cef
+				- Trung told me that Mr. Hiệp called me on fb... but when i logged in, i saw no miss call nor messages.
+				- I chat with Hiệp about the Liar's Paradox and he shared about his obstacle in keeping the "no lying" precept.
+				- Trung asked me to help her to visit her sister Tâm at the hospital.
+				- I've added Google Authenticator into [2FA settings](https://www.facebook.com/help/148233965247823/).
+			- This off day seems to continue the trend of last month: ((67938fea-f953-4513-9258-80f0cb1b3fcb))
+			- AI chatbot race
+			  id:: 67a72a32-c67d-440b-95d1-8ddeb0bb7ac3
+				- Around the Lunar new year, Chinese AI chatbots have been released, esp. ((67a6068e-65d3-44c2-8f1c-b4d532046638)) R1, shocking the US AI vendors with open sources, nearly 10 times cheaper in both training and operation.
+				- On this occasion, i've known of ((67a5faeb-c506-42b8-b989-9a7179fe02b3)).
+					- ((67a5faeb-c506-42b8-b989-9a7179fe02b3)) can understand my [[Mind Jungle]] well! 😊
+					  id:: 67a73250-60f2-485c-b9d1-fc43ad993282
+					- However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.
+					  id:: 67a73295-e7ff-445f-831f-df6e79d750dc
+				- I've tried some ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
+				- Currently, ((67a71016-4588-4b2f-8c56-90701528d94d)) is most appropriate for my researches.
+				  id:: 67a71016-d530-4b48-bfcc-495d72b0bf86
 			- The conflict between Mr. Báu's and monks in Minh Tuệ's group
 			  id:: 67a5faa3-c64c-48f7-8b3f-a5311714110f
 				- Với nghiệp công an, làm tiến sỹ tâm lý học tội phạm, anh Báu đã quản lý đoàn một cách chặt chẽ, ban đầu (đoạn đường Lào) khá nghiêm khắc với nhiều nỗi lo sợ.
@@ -346,36 +368,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Và cuối cùng, anh Báu còn làm rõ việc "250 giới" bằng cách hỏi ở đây có sư nào đã biết hết 250 giới. Và thầy MT đã trả lời là bản thân thầy còn không thuộc hết 250 giới.
 						- Khi lời nói và hành động bất nhất thì đó đã là nói dối, một cấp nói dối thô ở đời chứ chẳng phải vi tế khó thấy gì.
 						- Sự nói dối này là do thầy đã chấp vào những nguyên tắc mình đặt ra, cũng như giới luật, và/hoặc chưa chấp nhận được tâm nghi kỵ của mình đang trỗi dậy.
+					- Trong buổi đối thoại khi anh Báu quay lại, thầy MT đã thể hiện rõ sự mất định tâm, lặp đi lặp lại nhiều lần cùng một ý, không đủ kiên nhẫn nghe hết ý anh Báu nói mà cứ chen ngang (anh Báu phải "xin phép để con nói hết"), v.v.
 				- Anh Hà ở lại thì bị nghi ngờ tùm lum, và anh ấy cũng chấp nhận trả nghiệp vì ngày trước mình cũng làm drama kiểu ngồi nhà vẽ chuyện.
 				- Chỉ 2-3 ngày sau khi anh Báu về VN thì đủ chuyện lộn xộn, từ sư Phúc Giác vạ miệng về thân thế anh Theerawat (phạm luật Thái về cấm đụng tới hoàng tộc), tới Phước Nghiêm sang quậy tưng bừng kích động tâm bất an của các sư nhỏ (bảo không có cầm hộ chiếu là bị bắt, v.v.)
-			- AI chatbot race
-			  id:: 67a72a32-c67d-440b-95d1-8ddeb0bb7ac3
-				- Around the Lunar new year, Chinese AI chatbots have been released, esp. ((67a6068e-65d3-44c2-8f1c-b4d532046638)) R1, shocking the US AI vendors with open sources, nearly 10 times cheaper in both training and operation.
-				- On this occasion, i've known of ((67a5faeb-c506-42b8-b989-9a7179fe02b3)).
-					- ((67a5faeb-c506-42b8-b989-9a7179fe02b3)) can understand my [[Mind Jungle]] well! 😊
-					  id:: 67a73250-60f2-485c-b9d1-fc43ad993282
-					- However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.
-					  id:: 67a73295-e7ff-445f-831f-df6e79d750dc
-				- I've tried some ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
-				- Currently, ((67a71016-4588-4b2f-8c56-90701528d94d)) is most appropriate for my researches.
-				  id:: 67a71016-d530-4b48-bfcc-495d72b0bf86
-			- Feb 4th, returning home, i slept early, intended to have a long sleep to recover,... But after waking up at midnight (my wife returned after helping sister 7), i was caught into the issue in the traveling monk group of Master Minh Tuệ: Mr. Báu (+ Giáp, Hùng) have just left the group due to the unresolved conflict.
-			- Yesterday, Feb 6th, even after the straight 10 hour sleep last night, i still had 1 hour noon sleep and 1.5 hours sleepy meditation.
-				- In the afternoon, after [chatting on fb](((67a5f191-079f-4f97-b5b2-c01116db8cef))), i had a mild headache.
-				- In the evening, i stood up late watching the developments of Minh Tuệ group's situation.
-			- Today, Feb 7th, when waking up, the headache subsided but it's still there. 
-			  :LOGBOOK:
-			  CLOCK: [2025-02-07 Fri 17:22:30]
-			  :END:
-				- The whole morning, after typing a lot for Mr. Hiệp, the headache got worse.
-				- After lunch, it got so severe that i was almost impossible to sleep.
-				- For a long time, i has been hypersensitive to everything around while trying to sleep.
-				- Eventually, i could enter the sleep, and after that, the headache has gone!
-			- Yesterday, i logged in to Facebook to chat with Mr. Hiệp (& Ms. Trung), until today.
-			  id:: 67a5f191-079f-4f97-b5b2-c01116db8cef
-				- Trung told me that Mr. Hiệp called me on fb... but when i logged in, i saw no miss call nor messages.
-				- I chat with Hiệp about the Liar's Paradox and he shared about his obstacle in keeping the "no lying" precept.
-				- Trung asked me to help her to visit her sister Tâm at the hospital.
-				- I've added Google Authenticator into [2FA settings](https://www.facebook.com/help/148233965247823/).
-			- This off day seems to continue the trend of last month: ((67938fea-f953-4513-9258-80f0cb1b3fcb))
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- TODO Total by 0 = neutralization of positive and negative 
+		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
+		  :LOGBOOK:
+		  CLOCK: [2025-01-20 Mon 13:45:06]
+		  :END:
+		  vs. total by ∞ = abstraction of complex objects into points
 		- ...

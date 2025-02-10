@@ -214,11 +214,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-02-04 Tue 10:12:30]
 		  :END:
 			- I'm seeing a dense jungle ahead...
-			  collapsed:: true
 				- Updating these terms must take time...
 				- In my history, such blooming of ideas has had me bogged down a lot.
 			- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
 			- Team leader Quân has just visited asking for Tết holiday and my work 😁!
+			- DOING Today
+			  :LOGBOOK:
+			  CLOCK: [2025-02-10 Mon 09:57:06]
+			  CLOCK: [2025-02-10 Mon 09:57:09]
+			  :END:
 		- ((67a5dcde-4189-4626-8396-61577b6906a4))
 		  id:: 67a5dd00-f5cf-4e51-9ea1-2fea15d3595a
 		- ...
