@@ -105,10 +105,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- [traversal, **transcycling**, sprolling](((678b7762-1187-4330-93cb-7a62e14467a8)))
 				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49))
 				- ((6793437b-5ee5-4f7f-a547-bb9e15ac5883)) & ((556c799a-e364-49ad-94ab-5d14bef766ca))
+				- [wrap up unfinished stuffs](((67a5dcde-4189-4626-8396-61577b6906a4)))
+				  id:: 67a963d0-33f8-4cf7-bc24-c49cab3bbfbb
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 			  collapsed:: true
-				- [wrap up unfinished stuffs](((67a5dcde-4189-4626-8396-61577b6906a4)))
 				- ...
 			- <<End Tracks>>
 			  ---------------
