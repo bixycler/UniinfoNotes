@@ -373,10 +373,4 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Chỉ 2-3 ngày sau khi anh Báu về VN thì đủ chuyện lộn xộn, từ sư Phúc Giác vạ miệng về thân thế anh Theerawat (phạm luật Thái về cấm đụng tới hoàng tộc), tới Phước Nghiêm sang quậy tưng bừng kích động tâm bất an của các sư nhỏ (bảo không có cầm hộ chiếu là bị bắt, v.v.)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- TODO Total by 0 = neutralization of positive and negative 
-		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
-		  :LOGBOOK:
-		  CLOCK: [2025-01-20 Mon 13:45:06]
-		  :END:
-		  vs. total by ∞ = abstraction of complex objects into points
 		- ...

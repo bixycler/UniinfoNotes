@@ -5,6 +5,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ...
+		- DOING Total by 0 = neutralization of positive and negative 
+		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-01-20 Mon 13:45:06]
+		  CLOCK: [2025-02-10 Mon 10:19:18]
+		  :END:
+		  vs. total by ∞ = abstraction of complex objects into points
+			- The neutral point (0) seems to be absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))).
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
