@@ -186,6 +186,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :END:
 				- Today, Feb 10th, The last 2 items have been far away in my mind:
 					- Nearer thanks to documented contents and a long time focusing on it before: ((678dbff1-19ea-47c5-8794-2638d53ee7dd))
+						- DOING So, i'm resolving this first.
+						  :LOGBOOK:
+						  CLOCK: [2025-02-10 Mon 11:34:28]
+						  CLOCK: [2025-02-10 Mon 11:34:31]
+						  :END:
 					- Farther, no docs, no concrete "story" remaining in my mind, just the general ideas of it: ((678df0f0-20d2-4995-bfc2-0b953970469d))
 		- In the course of trying various LLMs, i'm touching various parts of Unïnfo begging for updates...
 		  id:: 67a035a8-f826-4b89-8eb4-3d2cd679dd1f
@@ -210,12 +215,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
 		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
 		  collapsed:: true
-			- DONE ((678e2046-54ac-4284-865d-6f3e38f589a1)): one ((675c03d8-3185-41a8-9f98-e869fabec793)), many ((66ab75a1-f4a0-4bab-a002-8e573546623a)) through [thread pulling](((6772a6cd-5b37-43ab-b8cb-b9656d26fdcc)))
-			  :LOGBOOK:
-			  CLOCK: [2025-01-20 Mon 20:57:36]--[2025-02-10 Mon 11:19:10] =>  494:21:34
-			  :END:
-				- **Space** of **possibilities**: the Omnifold contains all possibilities
-					- Potentiality = ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) → spacetime
 			- [Unithread](((66ac41d1-09e7-44b1-9290-ea7d5f02a817)))'s operations: transcycling ~ ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) and interunion ~ ((66f40210-cca6-4d81-85e7-d0c54ef20451))
 			- ((6783e3ff-9e8f-43db-a173-5d0c6972deab))
 			- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
