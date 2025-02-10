@@ -182,19 +182,20 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- This ***fragmentation*** is what i've been scared of due to my ((6678d594-9819-4624-abd6-d4ec62b3874f)).
 				- This problem has been foreseen long ago but no solution has been found.
 				- With the help of this documenation & task tracking system, i hope that we can find some way to deal with it!
-			- DOING Now, i'm sorting & wrapping them up...
+			- DONE Now, i'm sorting & wrapping them up...
 			  id:: 67a5dcde-4189-4626-8396-61577b6906a4
 			  :LOGBOOK:
-			  CLOCK: [2025-02-07 Fri 17:14:16]
+			  CLOCK: [2025-02-07 Fri 17:14:16]--[2025-02-10 Mon 13:01:41] =>  67:47:25
 			  :END:
 				- Today, Feb 10th, The last 2 items have been far away in my mind:
 					- Nearer thanks to documented contents and a long time focusing on it before: ((678dbff1-19ea-47c5-8794-2638d53ee7dd))
-						- DOING So, i'm resolving this first.
+						- DONE So, i'm resolving this first.
 						  :LOGBOOK:
 						  CLOCK: [2025-02-10 Mon 11:34:28]
-						  CLOCK: [2025-02-10 Mon 11:34:31]
+						  CLOCK: [2025-02-10 Mon 11:34:31]--[2025-02-10 Mon 13:00:52] =>  01:26:21
 						  :END:
 					- Farther, no docs, no concrete "story" remaining in my mind, just the general ideas of it: ((678df0f0-20d2-4995-bfc2-0b953970469d))
+						- And leave this in Brainstorming.
 		- In the course of trying various LLMs, i'm touching various parts of Unïnfo begging for updates...
 		  id:: 67a035a8-f826-4b89-8eb4-3d2cd679dd1f
 		  collapsed:: true
@@ -213,16 +214,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :END:
 			- The "various parts of Unïnfo begging for updates" have been gone far from my mind...
 			- So just flush this braindump away, now!
-	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
 		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
-		  collapsed:: true
-			- ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [cybernetics](https://en.wikipedia.org/wiki/Cybernetics)
-			  :LOGBOOK:
-			  CLOCK: [2025-01-10 Fri 18:35:42]
-			  :END:
-		-
+			- ⇒ Put it in ((67a963d9-e7d3-4e46-a608-24059d730f4a))
 		- ((67a5dcde-4189-4626-8396-61577b6906a4))
 		  id:: 67a5dd00-f5cf-4e51-9ea1-2fea15d3595a
+	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		-
 		- ...
