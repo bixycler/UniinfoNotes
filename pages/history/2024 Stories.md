@@ -1121,27 +1121,82 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		- Quan niệm "vật vô tri" là một quan niệm ... ngạo mạn, theo tui. Dù ở chỗ không người, mình làm cái gì thì cây cối, đất đá, không khí ở đó đều chứng kiến, đều "biết" hết, cái mà người xưa gọi là "Trời biết, Đất biết".
 		- Nếu những vật vô tri không biết thì ngành khoa học hình sự đâu thể tìm ra được những kẻ giết người giấu tay, phi tang đủ kiểu... 😛
 		- Hồi trước, lúc nói chuyện với ông về vụ ông bị blackout sau lấy máu... ông hỏi "blackout thì sao nhớ được" đã vỗ một cái mạnh vào đầu tui để nhắc rằng đối với người thường thì "thấy, biết, nhớ" là thứ chỉ có trong đầu. Tui thấy quá rõ ràng là mặt đất thấy ông ngã và ghi nhớ lại còn nguyên vết trên đất, còn nguyên vết đất trên người ông.... nên đã không thể nghĩ ra được là ông đã "không nhớ gì". Đối với tui, khi nhìn vào vết lấm lem đó, tui "nhớ lại" mọi thứ một cách khá hiển nhiên.... vì tui ko coi cái thân này tách biệt với đất.
-	-
-	- History of meditation on the “emptiness”
-	  id:: 67a963d3-d5af-4b8a-81a2-d2d6c2340239
+	- Meditating about ((671d06ba-cb96-4424-9bee-4e6327ba7f9d))
+	  id:: 67a97436-6e09-4730-a65b-55d97a8b71c6
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-10-26 Sat 23:43:15]
 	  :END:
-		- When reviewing for entrance exam to university, i uttered:
-		  > There's no true/absolute vacuum!
-		  > Không có chân không tuyệt đối!
-		- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
-		- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the [“*thin air*”](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of ((6678288e-699b-4325-bdba-bf6349fe0d57)) fills up the empty space of ((66f267f7-01f9-47b9-8376-abd27fdf2930)), how it ((671e3d98-0006-43be-b714-247f3d3a0c49))s into fluid and then ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))s into solid of ((665ca429-84e3-49ff-921e-c07d19cd99ba)).
-		  id:: 6735b185-b053-4651-be76-f0c9032ce119
-			- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) = [導引](https://en.wikipedia.org/wiki/Daoyin) ([Đạo Dẫn](https://vi.wikipedia.org/wiki/Ph%C3%A9p_%C4%91%E1%BA%A1o_d%E1%BA%ABn)): (circle = form = condensate = essence [精, tinh]) → (arrow = content = fluid = breath [氣, khí]) → (equal = awareness = space = spirit [神, thần])
-			  :LOGBOOK:
-			  CLOCK: [2024-10-27 Sun 20:41:38]
-			  :END:
-			- Forms: fluid form, solid form, ((670de601-3ca8-4489-8b75-75ca0d9a74bc))
-			- Contents: fluid content, gaseous content
-			- Awareness: {{embed ((671e4a96-c04c-4167-aad0-8efaecf6bf14))}}
-			  id:: 671e4ac3-2ec7-4209-a21f-bddb1da8efce
+		- History of meditation on the “emptiness”
+		  id:: 67a963d3-d5af-4b8a-81a2-d2d6c2340239
+		  :LOGBOOK:
+		  CLOCK: [2024-10-26 Sat 23:43:15]
+		  :END:
+			- When reviewing for entrance exam to university, i uttered:
+			  > There's no true/absolute vacuum!
+			  > Không có chân không tuyệt đối!
+			- Returning home from JAIST, someday looking deep into the reality, i saw the "emptiness" is not empty at all, and the [śūnyatā (空, Không)](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81) is just the negation of the normal attachments. That moment i called Mr. Huy to share this insight.
+			- Tonight, meditating on the formation of ((669a58b9-8e69-43d2-9f59-fedf31bf0670)), finally i see how the [“thin air”](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of ((6678288e-699b-4325-bdba-bf6349fe0d57)) fills up the empty space of ((66f267f7-01f9-47b9-8376-abd27fdf2930)), how it ((671e3d98-0006-43be-b714-247f3d3a0c49))s into fluid and then ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))s into solid of ((665ca429-84e3-49ff-921e-c07d19cd99ba)).
+			  id:: 6735b185-b053-4651-be76-f0c9032ce119
+				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) = [導引](https://en.wikipedia.org/wiki/Daoyin) ([Đạo Dẫn](https://vi.wikipedia.org/wiki/Ph%C3%A9p_%C4%91%E1%BA%A1o_d%E1%BA%ABn)): (circle = form = condensate = essence [精, tinh]) → (arrow = content = fluid = breath [氣, khí]) → (equal = awareness = space = spirit [神, thần])
+				  :LOGBOOK:
+				  CLOCK: [2024-10-27 Sun 20:41:38]
+				  :END:
+				- Forms: fluid form, solid form, ((670de601-3ca8-4489-8b75-75ca0d9a74bc))
+				- Contents: fluid content, gaseous content
+				- Awareness: {{embed ((671e4a96-c04c-4167-aad0-8efaecf6bf14))}}
+				  id:: 671e4ac3-2ec7-4209-a21f-bddb1da8efce
+		- Etymology
+			- Seems that “into thin air” was [popularized by Shakespeare](https://en.wiktionary.org/wiki/into_thin_air#Etymology) first (1500s), then “out of thin air” came later (1830s) as an opposite.
+			- idioms.online: [Meaning of Idiom ‘Out of Thin Air’](https://www.idioms.online/out-of-thin-air/)
+			  > The antonym, into thin air, has been used since at least the 1500s. Out of thin air has been used since at least the 1830s.
+			  > Thin air, in this idiom, refers to the air in the upper reaches of the atmosphere, a location that was mysterious and unknown at the time this idiom originated.
+			- The Tempest > [Act 4 > Scene 1](https://www.folger.edu/explore/shakespeares-works/the-tempest/read/4/1/)
+			  collapsed:: true
+				- Prospero releases Ferdinand and gives him Miranda as his bride-to-be. To celebrate the prospect of their union, _Prospero instructs Ariel to have **the spirits** under Prospero’s control perform a masque_. During the masque, Prospero remembers the threat posed by Caliban and stops the masque...
+				- PROSPERO 
+				  > I had forgot that foul conspiracy
+				   Of the beast Caliban and his confederates
+				   Against my life. The minute of their plot
+				   Is almost come.—Well done. Avoid. No more.
+				  
+				  *To a strange, hollow, and confused noise,
+				  ⌜the spirits⌝ heavily vanish.*
+				- FERDINAND, *⌜to Miranda⌝* 
+				  > This is strange. Your father’s in some passion
+				   That works him strongly.
+				- MIRANDA   
+				  > Never till this day
+				   Saw I him touched with anger, so distempered.
+				- PROSPERO, *⌜to Ferdinand⌝* 
+				  > You do look, my son, in a moved sort,
+				  As if you were dismayed. Be cheerful, sir.
+				  Our revels now are ended. These our actors,
+				   As I foretold you, were all spirits and
+				   Are melted into air, **into thin air**;
+				   And like the baseless fabric of this vision,
+				   The cloud-capped towers, the gorgeous palaces,
+				  The solemn temples, the great globe itself,
+				   Yea, all which it inherit, shall dissolve,
+				   And, like this insubstantial pageant faded,
+				   Leave not a rack behind. We are such stuff
+				   As dreams are made on, and our little life
+				  Is rounded with a sleep. Sir, I am vexed.
+				   Bear with my weakness. My old brain is troubled.
+				   Be not disturbed with my infirmity.
+				   If you be pleased, retire into my cell
+				   And there repose. A turn or two I’ll walk
+				  To still my beating mind.
+			- [What is the origin of the phrase "Into thin air"](https://english.stackexchange.com/questions/618149/what-is-the-origin-of-the-phrase-into-thin-air)
+			- https://medium.com/@rayjhawk/out-of-thin-air-f7d4b01152cf
+		- Usage frequency
+			- By Google's Books Ngram Viewer, in per 100,000: "ex nihilo" ~ 3-4, "out of nothing" ~ 4.5-5.5, "out of thin air" ~ 1.2-2
+			- By Gemini's experience about everyday English conversation: "out of thin air" > "out of nothing" > "ex nihilo"
+			  collapsed:: true
+				- **Out of thin air:** This is the most commonly used phrase in everyday English conversation.
+				- **Out of nothing:** This phrase is also quite common, but slightly less so than "out of thin air."
+				- **Ex nihilo:** This Latin phrase is less common in everyday conversation, but it's often used in philosophical and academic contexts.
+		- Chat with Gemini: [Latin for "Out of Thin Air"](https://gemini.google.com/app/182417258903bcd9)
 	- Chat with Copilot about particle's subjectivity and the role of phsysical laws in materialism
 	  id:: 6729d054-d48f-4ffa-b097-9a564a4cc2a5
 	  collapsed:: true
