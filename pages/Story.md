@@ -336,6 +336,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Tuy nhiên việc thầy MT không thấu hiểu cho sự hi sinh, khó khăn của người đời như anh Báu, và một mực thiên vị các sư, muốn càng nhiều sư theo càng tốt, v.v. thể hiện sự thiếu trí tuệ và không được "bình đẳng" như lời thầy đã nói.
 					- Việc thầy MT có thành kiến với anh Báu thì mình thấy đó là phần nghiệp quá khứ của thầy, như thầy đã chia sẻ trước đây.
 					- Mình cảm nhận sự "vô tình" của thầy cũng tương tự như [lần gặp chị Diệu Sinh](((67a7100b-28c9-4b79-bd66-d1b4b42d08fd))). Qua đó mình cũng thấy rõ hơn sự vướng mắc tình cảm của mình.
+					- Một sự nói dối rõ ràng của thầy MT nữa là việc cho rằng mình không đuổi mà tự anh Báu tới, tự anh Báu đi.
+						- Trước khi anh báu đi thì thầy đã đuổi khéo bằng cách tạo áp lực và liên tục gợi ý rằng anh Báu không kham nhẫn được thì nên đi, và đã hỏi anh Theerawat cho anh Hà thay việc làm giấy tờ.
+						- Trong buổi đối thoại dài 3 tiếng đồng hồ khi anh Báu quay lại xin vào đoàn, thầy đã chạy vòng quanh qua các điều kiện để ngăn cản, và cuối cùng phải "tác ý" (gợi ý) thẳng rằng anh Báu có thể làm YouTuber vòng ngoài.
+							- Đầu tiên là dựa vào lý luận "đã đủ người hỗ trợ rồi". Nhưng khi 2 bạn tình nguyện viên mới chấp nhận nhường cho anh Báu và anh Hùng thì thầy không đề cập đến cái lý này nữa.
+							- Tiếp theo thầy chuyển sang điều kiện cực khó
 				- Anh Hà ở lại thì bị nghi ngờ tùm lum, và anh ấy cũng chấp nhận trả nghiệp vì ngày trước mình cũng làm drama kiểu ngồi nhà vẽ chuyện.
 				- Chỉ 2-3 ngày sau khi anh Báu về VN thì đủ chuyện lộn xộn, từ sư Phúc Giác vạ miệng về thân thế anh Theerawat (phạm luật Thái về cấm đụng tới hoàng tộc), tới Phước Nghiêm sang quậy tưng bừng kích động tâm bất an của các sư nhỏ (bảo không có cầm hộ chiếu là bị bắt, v.v.)
 			- AI chatbot race
