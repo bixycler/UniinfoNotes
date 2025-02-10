@@ -97,7 +97,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- observing the feeling, i see ... because there's still a pending quest(ion) from last night:
 				- > the nature of wave propagation
 				- from this discussion: ((6780bc09-6c98-42ed-bbd1-ff940c2a1d10))
-				- ((67810168-747f-4bb5-9594-5c07bddf7041))
+				- TODO  = wave propagation = traversing of the ((675c03d8-3185-41a8-9f98-e869fabec793)) by itself = fundamental operation in Unithread
+				  :LOGBOOK:
+				  CLOCK: [2025-01-10 Fri 18:35:42]
+				  :END:
 		- Here, we're witnessing the branching from ⟪ ((67714850-43c0-4c7f-8b50-838e014b06e0)) ⟫ to...
 		  collapsed:: true
 			- ((67710747-2982-4134-875e-3b715313db87))
@@ -215,11 +218,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
 		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
 		  collapsed:: true
-			- [Unithread](((66ac41d1-09e7-44b1-9290-ea7d5f02a817)))'s operations: transcycling ~ ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) and interunion ~ ((66f40210-cca6-4d81-85e7-d0c54ef20451))
-			- ((6783e3ff-9e8f-43db-a173-5d0c6972deab))
-			- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
-			- ((67810168-747f-4bb5-9594-5c07bddf7041))
 			- ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [cybernetics](https://en.wikipedia.org/wiki/Cybernetics)
+			  :LOGBOOK:
+			  CLOCK: [2025-01-10 Fri 18:35:42]
+			  :END:
 		-
 		- ((67a5dcde-4189-4626-8396-61577b6906a4))
 		  id:: 67a5dd00-f5cf-4e51-9ea1-2fea15d3595a
