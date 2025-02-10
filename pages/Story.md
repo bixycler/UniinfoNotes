@@ -371,6 +371,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Trong buổi đối thoại khi anh Báu quay lại, thầy MT đã thể hiện rõ sự mất định tâm, lặp đi lặp lại nhiều lần cùng một ý, không đủ kiên nhẫn nghe hết ý anh Báu nói mà cứ chen ngang (anh Báu phải "xin phép để con nói hết"), v.v.
 				- Anh Hà ở lại thì bị nghi ngờ tùm lum, và anh ấy cũng chấp nhận trả nghiệp vì ngày trước mình cũng làm drama kiểu ngồi nhà vẽ chuyện.
 				- Chỉ 2-3 ngày sau khi anh Báu về VN thì đủ chuyện lộn xộn, từ sư Phúc Giác vạ miệng về thân thế anh Theerawat (phạm luật Thái về cấm đụng tới hoàng tộc), tới Phước Nghiêm sang quậy tưng bừng kích động tâm bất an của các sư nhỏ (bảo không có cầm hộ chiếu là bị bắt, v.v.)
+				- Hôm nay, 10/2, thì thầy MT đã và đang lấy lại cân bằng: đã
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
