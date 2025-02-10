@@ -184,6 +184,24 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  :LOGBOOK:
 				  CLOCK: [2025-02-07 Fri 17:14:16]
 				  :END:
+		- In the course of trying various LLMs, i'm touching various parts of Unïnfo begging for updates...
+		  id:: 67a035a8-f826-4b89-8eb4-3d2cd679dd1f
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-04 Tue 10:12:30]
+		  :END:
+			- I'm seeing a dense jungle ahead...
+				- Updating these terms must take time...
+				- In my history, such blooming of ideas has had me bogged down a lot.
+			- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
+			- Team leader Quân has just visited asking for Tết holiday and my work 😁!
+			- Today, 6 days after [the first braindump](((67a035a8-f826-4b89-8eb4-3d2cd679dd1f))), i've done trying various LLMs with a brief of ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
+			  :LOGBOOK:
+			  CLOCK: [2025-02-10 Mon 09:57:06]
+			  CLOCK: [2025-02-10 Mon 09:57:09]--[2025-02-10 Mon 10:00:23] =>  00:03:14
+			  :END:
+			- The "various parts of Unïnfo begging for updates" have been gone far from my mind...
+			- So just flush this braindump away, now!
 	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
@@ -207,22 +225,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- ((67810168-747f-4bb5-9594-5c07bddf7041))
 			- ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [cybernetics](https://en.wikipedia.org/wiki/Cybernetics)
 		- ((678df0f0-20d2-4995-bfc2-0b953970469d))
-		- In the course of trying various LLMs, i'm touching various parts of Unïnfo begging for updates...
-		  id:: 67a035a8-f826-4b89-8eb4-3d2cd679dd1f
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-04 Tue 10:12:30]
-		  :END:
-			- I'm seeing a dense jungle ahead...
-				- Updating these terms must take time...
-				- In my history, such blooming of ideas has had me bogged down a lot.
-			- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
-			- Team leader Quân has just visited asking for Tết holiday and my work 😁!
-			- DOING Today
-			  :LOGBOOK:
-			  CLOCK: [2025-02-10 Mon 09:57:06]
-			  CLOCK: [2025-02-10 Mon 09:57:09]
-			  :END:
 		- ((67a5dcde-4189-4626-8396-61577b6906a4))
 		  id:: 67a5dd00-f5cf-4e51-9ea1-2fea15d3595a
 		- ...
