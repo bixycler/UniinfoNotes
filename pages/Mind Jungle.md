@@ -1692,6 +1692,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- being
 		  id:: 678e1c3f-6202-45aa-8527-f4bdad9927b9
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3b5e5-496a-4545-be7a-b1df2d94bd11))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)).
 		- *All beings have the same content.*
 		  id:: 678e1960-58d6-4cf3-8fe3-25f2f4489b33
 		  :LOGBOOK:
@@ -2176,6 +2177,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  「鑿戶牖以為室，當其無，有室之用。」
 					  
 					  — [Chapter 11. The usage of the vacancy](https://ctext.org/dao-de-jing#n11602), Dao De Jing, Lao Tzu
+				- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)),
 			- Grand Circle (◯) of Unïnfo
 			  id:: 6772a6cd-771f-4f24-9c3a-39c442234be5
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Through [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), the Trinion transforms into various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of all beings in the Universe, extensionally. And intensionally, the Trinion is the Universe itself. Then through [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))), intensionally, every being is just the Trinion itself.
