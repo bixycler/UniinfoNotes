@@ -17,7 +17,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- [?] What's the right term for the most basic operation: traversal, **transcycling**, sprolling, ...
+		- [?] What's the right term for the most basic operation: traversal, ((67a98760-71fa-4033-9c42-f3025d632d04)), sprolling, ...
 		  id:: 678b7762-1187-4330-93cb-7a62e14467a8
 		  collapsed:: true
 		  :LOGBOOK:
