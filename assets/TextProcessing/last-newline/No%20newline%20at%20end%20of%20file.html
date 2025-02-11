@@ -1,0 +1,404 @@
+<folder-div><div slot="unfoldable"><p><code>\ No newline at end of file</code> <a class="logseq-meta" data-logbook="  CLOCK: [2025-01-21 Tue 14:07:59]--[2025-01-24 Fri 19:00:42] =>  76:52:43
+"></a></p></div><div slot="foldable">
+is the warning of <code>diff</code> because <code>diff</code> is a <strong>line-based</strong> text processor.<ul>
+<div slot="unfoldable-leaf"><p>Without the last newline, whenever the next line is appended to this file, the last line must be edited by adding newline to it, which is an unintended edit. This <strong>unintended change</strong> of the last line leads to various problem.</p></div>
+<folder-div><div slot="unfoldable"><p>1st, <code>diff</code> works with the whole line, hence, the last line will be marked as modified by the next commit.</p></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p>E.g. wrong lines in diffs between commits without the last newline: <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>Final file</p></div><div slot="foldable"><pre><code>Test EOL@EOF⏎
+this line is in commit #1.⏎
+this line is in commit #2.⏎
+this line is in commit #3.
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>commit #1</p></div><div slot="foldable"><pre><code class="language-diff"><span class="hljs-addition">+Test EOL@EOF⏎</span>
+<span class="hljs-addition">+this line is in commit #1.</span>
+\ No newline at end of file
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>commit #2</p></div><div slot="foldable"><pre><code class="language-diff">Test EOL@EOF⏎
+<span class="hljs-deletion">-this line is in commit #1.</span>
+\ No newline at end of file
+<span class="hljs-addition">+this line is in commit #1.⏎</span>
+<span class="hljs-addition">+this line is in commit #2</span>
+\ No newline at end of file
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>commit #3</p></div><div slot="foldable"><pre><code class="language-diff">this line is in commit #1.⏎
+<span class="hljs-deletion">-this line is in commit #2.</span>
+\ No newline at end of file
+<span class="hljs-addition">+this line is in commit #2.⏎</span>
+<span class="hljs-addition">+this line is in commit #3</span>
+\ No newline at end of file
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>2nd, the last line of the last commit may be <a href="https://git-scm.com/docs/git-blame">blamed</a> for the next commit, which is misleading.</p></div><div slot="foldable"><ul>
+<folder-div folded="true"><div slot="unfoldable"><p>Some git implementations do this misleading blame: GitHub, GitLab, VS Code <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p><img src="../assets/TextProcessing/last-newline/last-newline-blame-GitLab-GitHub.png" alt="last-newline-blame-GitLab-GitHub"></p></div>
+<div slot="unfoldable-leaf"><p><img src="../assets/TextProcessing/last-newline/last-newline-blame-VSCode.png" alt="last-newline-blame-VSCode"></p></div>
+</ul></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Some git implementations tweak themself to avoid this misleading blame: Ubuntu's <code>git</code>, JetBrains IDEs <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p><img src="../assets/TextProcessing/last-newline/last-newline-blame-console.png" alt="last-newline-blame-console"></p></div>
+<div slot="unfoldable-leaf"><p><img src="../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png" alt="last-newline-blame-IDEA"></p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<folder-div><div slot="unfoldable"><p>3rd, <strong>unintended conflict</strong>: Some text editors and IDEs automatically add the last newline to editing files, making unintended changes which will conflict with appendage to that file in other commits.</p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>The conflict will be shown (for resolution) in a very obscure way, due to the difficulty of showing the newline itself.</p></div><div slot="foldable"><pre><code class="language-git">6: Last line without newline
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+7: Appended line by feature-testEOL-1
+=======
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; feature-testEOL-2
+
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>There are two options to fix this issue:</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>Force all IDEs to automatically add the last newline.</p></div>
+<folder-div><div slot="unfoldable"><p>Stop Linux editors, like <code>vim</code>, <code>nano</code>, from fixing files missing newline at the end of file.</p></div><div slot="foldable"><ul>
+<div slot="unfoldable-leaf"><p>This option should be chosen for a project with lots of legacy codes missing the last newline.</p></div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div>
+<folder-div folded="true"><div slot="unfoldable"><p>Commands to refactor codes <a class="logseq-meta" data-collapsed="true"></a></p></div><div slot="foldable"><ul>
+<folder-div><div slot="unfoldable"><p>Add the missing last newline (ref: <a href="https://unix.stackexchange.com/a/31955/566548">unix.stackexchange</a>)</p></div><div slot="foldable"><pre><code class="language-sh">sed -i <span class="hljs-string">'$a\'</span> file
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>Remove last blank line, i.e. truely empty line (<code>^$</code> = <code>\n</code> only)</p></div><div slot="foldable"><pre><code class="language-sh">sed -i <span class="hljs-string">'${/^$/d;}'</span> file
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>Find files missing the last newline:</p></div><div slot="foldable"><pre><code class="language-sh">find . -regex <span class="hljs-string">'.*\(git\|venv\|idea\)'</span> -prune -o \
+  -<span class="hljs-built_in">type</span> f -<span class="hljs-built_in">exec</span> sh -c <span class="hljs-string">'tail -c 1 "$1" | grep -q "." &amp;&amp; echo "$1"'</span> no-last-newline {} \;
+</code></pre></div></folder-div>
+<folder-div><div slot="unfoldable"><p>Find files with the last newline</p></div><div slot="foldable"><pre><code class="language-sh">find .  -regex <span class="hljs-string">'.*\(git\|venv\|idea\)'</span> -prune -o \
+  -<span class="hljs-built_in">type</span> f -<span class="hljs-built_in">exec</span> sh -c <span class="hljs-string">'tail -c 1 "$1" | grep -q "^$" &amp;&amp; echo "$1"'</span> with-last-newline {} \;
+</code></pre></div></folder-div>
+</ul></div></folder-div>
+</ul></div></folder-div><style id="markdown_style">
+  ul, ol {
+      padding-inline-start: 0px; /*browser default: 40px*/
+      /*margin-left: -20px;*/
+      margin-left: 20px; /*Prince PDF default: 50+px*/
+  }
+  folder-div ul, folder-div ol {
+      padding-inline-start: 0px;
+      margin-left: 0px;
+  }
+  li, folder-div, div[slot="unfoldable-leaf"] {
+      margin-top: 5px;
+      margin-bottom: 0px;
+  }
+  p { /* reduce line spacing */
+      margin-top: 0px;
+      margin-bottom: 5px;
+  }
+  li p, folder-div p { /* fix inconsistent line spacing between <p>-wrapped and unwrapped items */
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+  li pre, folder-div pre { /* fix inconsistent line spacing between <pre>-wrapped and unwrapped items */
+      margin-top: 5px;
+      margin-bottom: 0px;
+  }
+  pre {
+      background: #eeeeee;
+      padding: 10px;
+  }
+  code {
+      background: #eeeeee;
+      padding: 0 2px 0 2px;
+  }
+
+  pre code {
+      display: block;
+      overflow-x: auto;
+  }
+
+  code.hljs {
+      padding: 3px 5px
+  }
+
+  /*!
+    Theme: GitHub
+    Description: Light theme as seen on github.com
+    Author: github.com
+    Maintainer: @Hirse
+    Updated: 2021-05-15
+
+    Outdated base version: https://github.com/primer/github-syntax-light
+    Current colors taken from GitHub's CSS
+  */
+  .hljs {
+      color: #24292e;
+      background: #fff
+  }
+
+  .hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_ {
+      color: #d73a49
+  }
+
+  .hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_ {
+      color: #6f42c1
+  }
+
+  .hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable {
+      color: #005cc5
+  }
+
+  .hljs-meta .hljs-string,.hljs-regexp,.hljs-string {
+      color: #032f62
+  }
+
+  .hljs-built_in,.hljs-symbol {
+      color: #e36209
+  }
+
+  .hljs-code,.hljs-comment,.hljs-formula {
+      color: #6a737d
+  }
+
+  .hljs-name,.hljs-quote,.hljs-selector-pseudo,.hljs-selector-tag {
+      color: #22863a
+  }
+
+  .hljs-subst {
+      color: #24292e
+  }
+
+  .hljs-section {
+      color: #005cc5;
+      font-weight: 700
+  }
+
+  .hljs-bullet {
+      color: #735c0f
+  }
+
+  .hljs-emphasis {
+      color: #24292e;
+      font-style: italic
+  }
+
+  .hljs-strong {
+      color: #24292e;
+      font-weight: 700
+  }
+
+  .hljs-addition {
+      color: #22863a;
+      background-color: #f0fff4
+  }
+
+  .hljs-deletion {
+      color: #b31d28;
+      background-color: #ffeef0
+  }
+</style><script id="FolderDivJS" type="module">
+//start template id="folder-div">
+const FolderDivTemplateHtml = `
+  <!--folder-div style="display:flex; flex-direction:row;"-->
+    <input type="checkbox" id="isFolded" />
+    <label for="isFolded" id="sideControl" part="sideControl" style="display:flex; flex-direction:column;">
+      <div id="arrow" part="arrow"></div>
+      <div style="display:flex; flex-direction:row; flex:1 0 0;">
+        <div style="flex:3"></div>
+        <div style="flex:1; line-height:0; font-size:0;" id="stemLine" part="stemLine">&nbsp;</div>
+        <div style="flex:3"></div>
+      </div>
+    </label>
+    <div id="contents" part="contents" style="display:flex; flex-direction:column;">
+      <div class="unfoldable">
+        <label for="isFolded" part="heading">
+          <slot name="heading" id="heading"></slot>
+        </label>
+        <slot name="unfoldable" id="unfoldable"></slot>
+      </div>
+      <div class="foldable"><slot name="foldable"></slot></div>
+    </div>
+  <!--/folder-div-->
+`;
+
+const FolderDivTemplateStyle = `
+  <style>
+
+    :root { /* ineffective, don't use this! Use :host instead. */
+    }
+
+    :host { /* style of the <folder-div> */
+      display: flex;
+      flex-direction:row;
+      align-items: stretch;
+
+      --control-foreground: DimGray;
+      --stem-line-foreground: WhiteSmoke;
+      --control-foreground-hover: blue;
+      --heading-background-hover: Lavender;
+      --contents-indent: .5em;
+    }
+
+    /* The hidden checkbox holding folding state */
+    #isFolded {
+      display: none;
+    }
+    #isFolded + label {
+      color: var(--control-foreground);
+    }
+    #isFolded + label:hover {
+      color: var(--control-foreground-hover);
+    }
+
+    /* The arrow control to toggle folding state */
+
+    #arrow::before {
+      content: '►'; /*▶‣*/
+    }
+    #isFolded:not(:checked) + label > #arrow::before {
+      content: '▼';
+    }
+
+    /* The stem line aligning unfolded content */
+
+    #stemLine {
+      background-color: var(--stem-line-foreground);
+      display: none;
+    }
+    label:hover #stemLine {
+      background-color: var(--control-foreground-hover);
+    }
+    #isFolded:not(:checked) + label #stemLine {
+      display: block;
+    }
+
+    /* Folder contents */
+
+    #contents {
+      display: flex;
+      flex-direction: column;
+      padding-left: var(--contents-indent);
+      border-bottom: inset 1px;
+    }
+
+    /* Foldable content */
+
+    #contents > .foldable {
+      display: none;
+    }
+    #isFolded:not(:checked) ~ #contents > .foldable {
+      display: block;
+    }
+
+    /* Unfoldable content */
+
+    #contents > .unfoldable {
+      display: block;
+    }
+
+    #heading {
+      display: block;
+    }
+    #heading:hover {
+      background: var(--heading-background-hover);
+    }
+
+  </style>
+`;
+
+const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle;
+
+//end template>
+
+//start script>
+  //FolderDivTemplate = document.getElementById("folder-div").innerHTML; // FolderDiv.html
+  //const FolderDivTemplateHtml = ``; // FolderDiv.js
+  //const FolderDivTemplateStyle = ``; // FolderDiv.js
+  //const FolderDivTemplate = FolderDivTemplateHtml + FolderDivTemplateStyle; // FolderDiv.js
+  //const FolderDivStyle = ``; // FolderDiv.js
+  //(function(){...style.innerHTML = FolderDivStyle...}()); // FolderDiv.js
+
+  class FolderDiv extends HTMLElement {
+    static observedAttributes = ["folded"];
+
+    constructor() {
+      super();
+      const shadowRoot = this.attachShadow({ mode: "open" });
+      this.template = document.createElement('template');
+      this.template.innerHTML = FolderDivTemplate;
+      shadowRoot.appendChild(this.template.content.cloneNode(true));
+      this._internals = this.attachInternals();
+
+      this.isFolded = shadowRoot.getElementById("isFolded");
+      this.sideControl = shadowRoot.getElementById("sideControl");
+        this.arrow = shadowRoot.getElementById("arrow");
+        this.stemLine = shadowRoot.getElementById("stemLine");
+      this.contents = shadowRoot.getElementById("contents");
+        this.heading = shadowRoot.getElementById("heading");
+        this.unfoldable = shadowRoot.getElementById("unfoldable");
+        this.foldable = shadowRoot.getElementById("foldable");
+      //console.debug('FolderDiv.constructor()',this.contents);
+    }
+    connectedCallback() {
+      this.unfoldable.addEventListener('slotchange', (e)=>{
+        // detected and moved heading from unfoldable slot to heading slot
+        let hdiv = this.heading.assignedElements()[0];
+        if(hdiv){ this.setType('heading'); }
+        let udiv = this.unfoldable.assignedElements()[0];
+        if(!udiv){ return; }
+        let h = udiv.children[0];
+        if(!hdiv && h && h.tagName.startsWith('H')){
+          udiv.before(h);
+          h.setAttribute('slot','heading');
+          this.setType('heading');
+          //console.debug('moved',h);
+        }
+      });
+    }
+    disconnectedCallback() {
+    }
+
+    attributeChangedCallback(name, oldValue, newValue) {
+      //console.debug(`Attribute "${name}" changed: ${oldValue} -> ${newValue}`);
+      if(name == "folded"){
+        this.isFolded.setAttribute("checked", newValue);
+      }
+    }
+
+    setType(t){
+      if(t=='item'){
+        let udiv = this.unfoldable.assignedElements()[0];
+        let style = getComputedStyle(this.contents);
+        let indent = style.getPropertyValue('--contents-indent');
+        if(!udiv){ return; }
+        this.sideControl.style.display = 'flex';
+        this.heading.style.display = 'none';
+        this.contents.style.paddingLeft = indent;
+      }else if(t=='heading'){
+        let hdiv = this.heading.assignedElements()[0];
+        if(!hdiv){ return; }
+        this.heading.style.display = 'block';
+        this.sideControl.style.display = 'none';
+        this.contents.style.paddingLeft = 0;
+      }
+    }
+
+  }
+
+  customElements.define("folder-div", FolderDiv);
+
+//end script>
+
+//start style id="folder_div_style">
+const FolderDivStyle = `
+    div[slot="unfoldable-leaf"] {
+      display: list-item;
+      border-bottom: inset 1px;
+      margin-left: 1em;
+      padding-left: .5em;
+    }
+    div[slot="unfoldable-leaf"]::marker {
+      color: var(--control-foreground);
+      content: " ● "; /* Use BLACK CIRCLE U+25CF (●); The standard &bullet; U+2022 (•) is too small! */
+    }
+`;
+//end style>
+
+
+// Export <style id="folder_div_style">${FolderDivStyle}</style> to HTML body
+(function(){
+  let style = document.createElement('style');
+  style.setAttribute('id', 'folder_div_style');
+  style.innerHTML = FolderDivStyle;
+  document.querySelector('body').append(style);
+}());
+</script>

@@ -44,7 +44,6 @@
 			- ![last-newline-blame-GitLab-GitHub](../assets/TextProcessing/last-newline/last-newline-blame-GitLab-GitHub.png)
 			- ![last-newline-blame-VSCode](../assets/TextProcessing/last-newline/last-newline-blame-VSCode.png)
 		- Some git implementations tweak themself to avoid this misleading blame: Ubuntu's `git`, JetBrains IDEs
-		  collapsed:: true
 			- ![last-newline-blame-console](../assets/TextProcessing/last-newline/last-newline-blame-console.png)
 			- ![last-newline-blame-IDEA](../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png)
 	- 3rd, **unintended conflict**: Some text editors and IDEs automatically add the last newline to editing files, making unintended changes which will conflict with appendage to that file in other commits.
