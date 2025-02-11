@@ -219,10 +219,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- ⇒ Put it in ((67a963d9-e7d3-4e46-a608-24059d730f4a))
 		- ((67a5dcde-4189-4626-8396-61577b6906a4))
 		  id:: 67a5dd00-f5cf-4e51-9ea1-2fea15d3595a
-	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Now, i'm wrapping the WIPs up for [a big merge commit](((67164cc1-e500-4889-9b6d-12d8dd7fc029))): `Various stuffs all over the place: Technical stuffs, Unïnfo, Life stories`
+		  collapsed:: true
 			- in `log`: `302bec3f`
 			- in `main`: `6d48b4b3`
-			- published in `gh-pages`:
+			- published in `gh-pages`: `81c9e3b8`
+	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
