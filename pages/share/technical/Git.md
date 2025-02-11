@@ -63,7 +63,6 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					- ![last-newline-blame-IDEA](../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png)
 			- 3rd, **unintended conflict**: Some text editors and IDEs [automatically add the last newline](((616bfc2b-05f2-4a85-a094-dd771aa12cd1))) to editing files, making unintended changes which will conflict with appendage to that file in other commits.
 			  id:: ed8333ef-b3b6-4d1b-a5e7-3a2fb4e1b286
-			  collapsed:: true
 				- The conflict will be shown (for resolution) in a very obscure way, due to the difficulty of showing the newline itself.
 				  ```git-merge-conflict
 				  6: Last line without newline
@@ -75,10 +74,10 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				  ```
 				- There are two options to fix this issue:
 					- [Force all IDEs](((67aabd6b-a257-4eb7-8363-3d29035a30f4))) to automatically add the last newline.
-					- [Stop Linux editors](((67aacefc-f707-49f4-b33d-ed73f63e3a64))), like `vim`, from fixing files missing newline at the end of file.
+					- [Stop Linux editors](((67aacefc-f707-49f4-b33d-ed73f63e3a64))), like `vim`, `nano`, from fixing files missing newline at the end of file.
 					  id:: 67aacbe5-f534-4eac-abe8-15f2f8990691
 						- This option should be chosen for a project with lots of legacy codes missing the last newline.
-			- Refactor codes
+			- Commands to refactor codes
 			  id:: b8c17a55-f618-43ed-9826-314412a08965
 			  collapsed:: true
 				- Add the missing last newline (ref: [unix.stackexchange](https://unix.stackexchange.com/a/31955/566548))

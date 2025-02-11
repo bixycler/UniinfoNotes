@@ -40,6 +40,7 @@
 			  ```
 	- 2nd, the last line of the last commit may be [blamed](https://git-scm.com/docs/git-blame) for the next commit, which is misleading.
 		- Some git implementations do this misleading blame: GitHub, GitLab, VS Code
+		  collapsed:: true
 			- ![last-newline-blame-GitLab-GitHub](../assets/TextProcessing/last-newline/last-newline-blame-GitLab-GitHub.png)
 			- ![last-newline-blame-VSCode](../assets/TextProcessing/last-newline/last-newline-blame-VSCode.png)
 		- Some git implementations tweak themself to avoid this misleading blame: Ubuntu's `git`, JetBrains IDEs
@@ -58,9 +59,9 @@
 		  ```
 		- There are two options to fix this issue:
 			- Force all IDEs to automatically add the last newline.
-			- Stop Linux editors, like `vim`, from fixing files missing newline at the end of file.
+			- Stop Linux editors, like `vim`, `nano`, from fixing files missing newline at the end of file.
 				- This option should be chosen for a project with lots of legacy codes missing the last newline.
-	- Refactor codes
+	- Commands to refactor codes
 	  collapsed:: true
 		- Add the missing last newline (ref: [unix.stackexchange](https://unix.stackexchange.com/a/31955/566548))
 		  ```sh
