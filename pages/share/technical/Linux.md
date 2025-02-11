@@ -67,7 +67,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `nano` always show a blank line at the end!
 				- Stop Linux editors from fixing files missing newline at the end of file.
 				  id:: 67aacefc-f707-49f4-b33d-ed73f63e3a64
-					- `vim`: `:set nofixendofline`
+					- `vim`: `:set nofixendofline` in the current file or in `.vimrc`
+					- `nano`: just use `nano -L`, or set `alias nano="nano --nonewlines"`
+					- `gedit`: `gsettings set org.gnome.gedit.preferences.editor ensure-trailing-newline false`
 				- IDEs usually have settings to automatically add newline on save, and _show the last newline **as a blank line**_ which can be used to check for its presence.
 				  id:: 67aabd6b-a257-4eb7-8363-3d29035a30f4
 					- VS Code
