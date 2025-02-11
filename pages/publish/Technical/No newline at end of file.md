@@ -40,7 +40,6 @@
 			  ```
 	- 2nd, the last line of the last commit may be [blamed](https://git-scm.com/docs/git-blame) for the next commit, which is misleading.
 		- Some git implementations do this misleading blame: GitHub, GitLab, VS Code
-		  collapsed:: true
 			- ![last-newline-blame-GitLab-GitHub](../assets/TextProcessing/last-newline/last-newline-blame-GitLab-GitHub.png)
 			- ![last-newline-blame-VSCode](../assets/TextProcessing/last-newline/last-newline-blame-VSCode.png)
 		- Some git implementations tweak themself to avoid this misleading blame: Ubuntu's `git`, JetBrains IDEs
