@@ -83,8 +83,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- Settings > Editor > General > On Save > Ensure vevy saved file ends with a line break
 						  ![editor-settings-onsave-lastNewline-IDEA.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-IDEA.png)
 					- Eclipse
-					  collapsed:: true
-						- Settings > (Java, Javascript, etc.) Code Formatters > New Lines > At end of file
+						- [Window >] Preferences > (Java, Javascript, etc.) Code Formatters > New Lines > At end of file
 						  ![editor-settings-onsave-lastNewline-Eclipse-2024.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-Eclipse-2024.png)
 					- Notepad++
 					  collapsed:: true
