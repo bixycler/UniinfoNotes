@@ -8,6 +8,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: 67760c3e-10a7-4621-8623-383f44bdaf3c
 	- ### January
 	  id:: 677e7eda-0c5e-413a-8c08-3a1d39352ba9
+	  collapsed:: true
 		- this [refactoring](((67710747-2982-4134-875e-3b715313db87))) itself is more complicated than i thought!
 		- just take a break, breathe, review...
 		- i must close i eyes...
@@ -148,12 +149,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- ((678a4f10-b109-429d-9c58-f9bd52f807cd))
 		- ((678b7762-1187-4330-93cb-7a62e14467a8))
 		- Here, we're witnessing the development and transmigration of the [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8))):
+		  id:: 67aabd5c-3d5e-4f0a-be33-5171520abe62
 		  collapsed:: true
 			- First drafted in ((db954501-95d0-46e2-b1fc-39b6a966300e))
 			- Then moved to ((67763a41-4ad6-449f-9d9b-d63ce417082c)), due to the discussion with Copilot inside.
 			- Now, moves to ((67760e05-2ea1-4f0e-aaa6-158edca80df5)), due to its wide contents.
 			- And it leads to the formal formulation of “transcycle” whose location is [still being considerd...](((678dbff1-19ea-47c5-8794-2638d53ee7dd)))
 		- Here, we're witnessing the deep dive into the abyss of ((6793437b-5ee5-4f7f-a547-bb9e15ac5883))
+		  id:: 67aabd5c-5732-414d-9f4d-180d420a8d69
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-01-24 Fri 19:43:06]--[2025-01-24 Fri 20:03:22] =>  00:20:16
@@ -165,7 +168,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- But at last, i just asked Copilot to have a quick answer, and it gave me the [correct one](((577c2916-d4ca-461d-85b9-f3b2ff7e6b30))).
 			- Today, experimenting with my local git repo for testing, eventually, the problem has turned out to be not so serious as [i thought](((67938b35-697e-432f-b179-17ce60028e6c)))!
 				- It's just causes **unintended conflicts**, not "~~perpetual conflicts~~"!
+	- ### February
+	  id:: 67aac38f-1c60-42e9-a8c5-c262d11a82f0
 		- We're witnessing the [braindumping](((db954501-95d0-46e2-b1fc-39b6a966300e))) and [current stories](((6788f004-d3df-41d4-afc8-c8c5ea52c51c))) and [current stasks](((677630fe-ea99-436f-b39f-8bd2295e2eaf))) stacking up!
+		  id:: 67aabd5c-5846-4b6d-84bd-8be5034dd958
 		  collapsed:: true
 			- Too many unfinished stuffs!
 			  id:: 67a5cfdd-d3b3-491b-a7ba-febdc09dca95
@@ -224,6 +230,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- in `log`: `302bec3f`
 			- in `main`: `6d48b4b3`
 			- published in `gh-pages`: `81c9e3b8`
-	- ## Braindumping < ((677e7eda-0c5e-413a-8c08-3a1d39352ba9))
+	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- Oh i've forgotten that we've been in February
+		  ⇒ Just cut some braindumps into ((67aac38f-1c60-42e9-a8c5-c262d11a82f0)) (February block )
+		  ⇒ Put ((677e7eda-0c5e-413a-8c08-3a1d39352ba9)) into ((67760c3e-10a7-4621-8623-383f44bdaf3c))
 		- ...
