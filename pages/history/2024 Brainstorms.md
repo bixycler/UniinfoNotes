@@ -18,7 +18,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- With concetrated observation, the conscious breath can effectively cleanse and transform the underlying condensate.
 			- My tendency is toward resolution more than releasing. It makes me suffer longer with attachments.
 			- So the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique is essential for me to transform and resolve them.
-	- Spiral trajectories of a particle moving with constant velocity ...
+	- Spiral trajectories of a particle moving with “constant velocity” in various planes
 	  id:: 6735b189-867a-4eee-b5f5-3079bb3da458
 	  collapsed:: true
 	  :LOGBOOK:

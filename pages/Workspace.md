@@ -58,6 +58,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
+				- Various stuffs all over the place: Technical stuffs, Unïnfo, Life stories
 				-
 				- Technical stuffs
 					- Refactor and wrap up pages for new year 2025
@@ -83,36 +84,38 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 						- ((67514336-628d-4f80-b154-3b7cfde988f0))
 						  id:: 6752e3f2-5d37-4c90-9deb-e4c8134a4591
 					- ((6751697f-aa5b-4ade-b97c-9ea1f1406581))
+					- ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
+					- ((6788f0ae-773b-4da2-87f5-c6552d76a00c))
+					- ((679085ef-facd-4c4a-83f3-f32bdefbaa49))
+					- ((6793437b-5ee5-4f7f-a547-bb9e15ac5883)) & ((556c799a-e364-49ad-94ab-5d14bef766ca))
+					- Unfinished task: ((67715d03-9dbc-42b0-8589-064396a9c52b))
 				-
 				- Unïnfo
 					- ((674ff584-00e3-40d8-9b77-21e9dca899dd))
 					- ((6756cbba-4326-499c-a1f1-296a36a14663))
 					- ((675c03d8-3185-41a8-9f98-e869fabec793))
+					- ((6735b189-867a-4eee-b5f5-3079bb3da458))
+					- ((676539ca-ff29-4749-ab33-b00dfe8fb936)) & ((66537674-6cf9-4459-8bea-7c1858c694a3)) & ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
+					- [Langlands program, modular forms, elliptic functions](((6766ea7c-3eb8-4463-9a79-d66509daf176)))
+					- ((677f9ae2-f7bc-47a7-a7e3-4dda29d9d834))
+					- ((6780bc66-29b3-43f7-b577-698bae51aadf))
+					- [traversal, **transcycling**, sprolling](((678b7762-1187-4330-93cb-7a62e14467a8)))
 				-
 				- Life stories
 					- ((6752f2ae-a019-400c-9a13-ede363f665ff))
 					- ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
-				- ((6735b189-867a-4eee-b5f5-3079bb3da458))
-					- ((36499c7b-d58a-4eb5-a780-ad4afc813c64))
-				- ((676539ca-ff29-4749-ab33-b00dfe8fb936)) & ((66537674-6cf9-4459-8bea-7c1858c694a3)) & ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
-				- [Langlands program, modular forms, elliptic functions](((6766ea7c-3eb8-4463-9a79-d66509daf176)))
-				- [first times reset within a day](((6768bf20-deec-41bf-ac18-adc753ebb15f)))
-				- ((675c399e-06a9-4c00-91a2-f2340a3a9bac))
-				- ((67445223-9459-4aa9-b102-70c63943577b))
-				- ((676a5f10-724c-474f-bf47-4e19c8f0c177))
-				- ((677e2745-6664-407e-ab5f-3c18319e2e6b))
-				- ((677f9ae2-f7bc-47a7-a7e3-4dda29d9d834))
-				- ((6780bc66-29b3-43f7-b577-698bae51aadf))
-				- ((6783cfaa-7181-45d0-a9e3-428aa89cf5e3))
-				- ((67836ec6-0e46-4a3f-80d9-b27476d12095))
-				- ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
-				- ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
-				- ((6788f0ae-773b-4da2-87f5-c6552d76a00c))
-				- [traversal, **transcycling**, sprolling](((678b7762-1187-4330-93cb-7a62e14467a8)))
-				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49))
-				- ((6793437b-5ee5-4f7f-a547-bb9e15ac5883)) & ((556c799a-e364-49ad-94ab-5d14bef766ca))
-				- [wrap up unfinished stuffs](((67a5dcde-4189-4626-8396-61577b6906a4)))
-				  id:: 67a963d0-33f8-4cf7-bc24-c49cab3bbfbb
+					- [first times reset within a day](((6768bf20-deec-41bf-ac18-adc753ebb15f)))
+					- ((675c399e-06a9-4c00-91a2-f2340a3a9bac))
+					- ((67445223-9459-4aa9-b102-70c63943577b))
+					- ((676a5f10-724c-474f-bf47-4e19c8f0c177))
+					- ((677e2745-6664-407e-ab5f-3c18319e2e6b))
+					- ((6783cfaa-7181-45d0-a9e3-428aa89cf5e3))
+					- ((67836ec6-0e46-4a3f-80d9-b27476d12095))
+					- ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
+					- [wrap up unfinished stuffs](((67a5dcde-4189-4626-8396-61577b6906a4)))
+					  id:: 67a963d0-33f8-4cf7-bc24-c49cab3bbfbb
+				-
+				-
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 			  collapsed:: true
