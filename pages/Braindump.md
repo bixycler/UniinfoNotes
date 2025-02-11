@@ -168,7 +168,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 					- But at last, i just asked Copilot to have a quick answer, and it gave me the [correct one](((577c2916-d4ca-461d-85b9-f3b2ff7e6b30))).
 				- Today, experimenting with my local git repo for testing, eventually, the problem has turned out to be not so serious as [i thought](((67938b35-697e-432f-b179-17ce60028e6c)))!
 				  id:: 67aabd5c-797c-42dc-92c2-360d3149ee64
-					- It's just causes **unintended conflicts**, not "~~perpetual conflicts~~"!
+					- It just causes **unintended conflicts**, not "~~perpetual conflicts~~"!
 	- ### February
 	  id:: 67aac38f-1c60-42e9-a8c5-c262d11a82f0
 		- We're witnessing the [braindumping](((db954501-95d0-46e2-b1fc-39b6a966300e))) and [current stories](((6788f004-d3df-41d4-afc8-c8c5ea52c51c))) and [current stasks](((677630fe-ea99-436f-b39f-8bd2295e2eaf))) stacking up!
@@ -237,10 +237,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 		  ⇒ Just cut some braindumps into ((67aac38f-1c60-42e9-a8c5-c262d11a82f0)) (February block is at the same level with ((db954501-95d0-46e2-b1fc-39b6a966300e)))
 		  ⇒ Put ((677e7eda-0c5e-413a-8c08-3a1d39352ba9)) into ((67760c3e-10a7-4621-8623-383f44bdaf3c))
-	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Let's remember to add date into braindumps using `/Today`, like [[Tue, 2025/02/11, as well as timestamp it with `Alt` `Enter`
+		- Let's remember to add date into braindumps using `/Today`, like “Tue, 2025/02/11”, as well as timestamp it with `Alt` `Enter`
+		  id:: 67aac5fc-3591-43a1-a283-f51620f8035e
 		  :LOGBOOK:
 		  CLOCK: [2025-02-11 Tue 10:38:38]
 		  :END:
+	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
