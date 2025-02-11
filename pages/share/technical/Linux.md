@@ -44,7 +44,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Windows' shortcut in GUI works similarly to symlink, but doesn't work at the command level.
 			- Equivalence: Git's symlink, [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
 				- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks). When `symlinks = false`, symbolic links are checked out as plain text files containing the target as text.
-		- newline at end-of-file
+		- newline at end-of-file (EOL@EOF)
 		  id:: 6793437b-5ee5-4f7f-a547-bb9e15ac5883
 			- The [POSIX standard](https://en.wikipedia.org/wiki/POSIX) defines a [text file](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_387) as a sequence of [lines](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_185), each ending with a [newline character](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_224).
 				- Newline = end-of-line = [carriage-return +] line-feed: `EOL` = `⏎` = `\n` = `␤` = `LF` = `␊` (`CR` `LF` = `␍␊`)
