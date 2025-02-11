@@ -2720,7 +2720,7 @@
     ;U+264E
     ["Libra" "♎"]
 
-]
+ ]
 
  ;; Enable collapsing blocks with titles but no children.
  ;; By default, only blocks with children can be collapsed.
@@ -2742,7 +2742,7 @@
   :hi-macro "Hi there! I'm $1 from macro `{{hi-macro}}`"
   :blocks-with-content
   "(At least 1 line [may be empty] is required before `#+BEGIN_QUERY`)
-(which should replace the query title: **$1**)
+  (which should replace the query title: **$1**)
   #+BEGIN_QUERY
   {;:title [:h3 \"$1\"]
    :query [
@@ -2755,87 +2755,244 @@
   #+END_QUERY
   "
           
-  ;; Search for pattern (regex)=$2 in a scope (block)=$3 either recursively=$4 or not.
+  ;; Search for pattern (regex)=$2 in a scope (block)=$3 either recursively=$5 or not.
   ;; - The title of the result list/table is specified by $1.
-  ;; - Optional properties in search pattern $2:
-  ;;   + `case-sensitive:: true` (default = false).
-  ;;   + `whole-word:: true` (default = false).
+  ;; - In $2, only the first line (title) is used as regex, 
+  ;;   next lines can be comments or optional properties:
+  ;;   + `case-sensitive:: true` (default = false) adds `(?i)` to the main pattern
+  ;;   + `whole-word:: true` (default = false) adds `\b` to the main pattern
+  ;; - Additional filters can be provided via properties in (block)=$4:
+  ;;   + `filter::` the regex pattern that result blocks must match,
+  ;;     in conjunction with the main pattern
+  ;;   + `child-filter::` the regex pattern that at least on child block (if any) must match,
+  ;;     in disjunction with filter pattern
+  ;;   * Filter combinations:
+  ;;     - An empty filter, e.g. `filter::` means "everything is allowed" which is 
+  ;;       different from lacking such filter whose meaning depends (see next...)
+  ;;     - When no filters appear, the search domain includes all blocks.
+  ;;     - When at least one filter appears, the search domain includes  
+  ;;       the disjunction of appearing filters.
+  ;;       + An empty `child-filter::` means "blocks with at least one child are allowed".
+  ;;       + An empty `filter::` means "all blocks are allowed", ignoring `child-filter::`.
+  ;;       + To disable a filter, instead of removing that filter, we can 
+  ;;         use contradiction patterns like `$^` or `(nothing)^` as a placeholder.
+  ;;         * Note: Don't set both `filter::(nothing)^` and `child-filter::(nothing)^`
+  ;;           because it makes the search domain empty!
+  ;; - $6 group-results: {true,false} value set to `:remove-block-children?` 
+  ;;   + When using table view, this option must be set to `false` to display all child block results.
   :search-query
   "$1
-#+BEGIN_QUERY
-{
- :inputs [ 
-  [:block/uuid #uuid \"$2\"]  ; pattern
-  [:block/uuid #uuid \"$3\"]  ; search-scope
-  ;[:block/uuid #uuid \"6651e92e-fb34-4d24-a386-d9698c2e93f7\"]  ; Mind Jungle
-  $4 ; recursive
- ]
- :query [
-  :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
-  :in $ ?params ?container ?recursive %
-  :where
-   ;
-   ; ?key parameter
-   [?params :block/content ?paramlines]
-   [(re-pattern \".*\") ?firstLinePattern]
-   [(re-find ?firstLinePattern ?paramlines) ?key]
-   ;
-   ; ?case-sensitive parameter (default = false) => ?search-pattern
-   [?params :block/properties ?props]
-   [(get ?props :case-sensitive false) ?case-sensitive]
-   [(get ?props :whole-word false) ?whole-word]
-   (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
-       (and [(= true ?whole-word)] [(str \"\\\\b\" ?key \"\\\\b\") ?key-pat])
-       (and [(= false ?whole-word)] [(str ?key) ?key-pat])
-   )
-   (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
-       (and [(= true ?case-sensitive)] [(str ?key-pat) ?key-case])
-       (and [(= false ?case-sensitive)] [(str \"(?i)\" ?key-pat) ?key-case])
-   )
-   [(re-pattern ?key-case) ?search-pattern]
-   ;
-   ; ?scope parameter <= (?search-scope or ?container itself)
-   [?container :block/properties ?cprops]
-   [(get ?cprops :search-scope false) ?search-scope]
-   (or-join [?search-scope ?container ?scope]
-       (and [(= false ?search-scope)] [(identity ?container) ?scope])
-       (and [(!= false ?search-scope)] 
-          [?container :block/refs ?scope]
-          [?scope :block/uuid ?uuid]
-          [(clojure.string/includes? ?search-scope ?uuid)]
-       )
-   )
-   ;
-   ; ?scope parameter contains ?b
-   [(not ?recursive) ?is-parent]
-   (check-ancestor-parent ?b ?scope ?is-parent)
-   ;
-   ; ?b block/content contains ?search-pattern
-   [?b :block/content ?content]
-   [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
-   ;[(clojure.string/includes? ?content ?key)]
- ]
- :rules [
-   ;
-   ;; Check if ?b has ?ancestor as an ancestor
-   [(check-ancestor ?b ?ancestor)
-     [?b :block/parent ?ancestor]
-   ]
-   [(check-ancestor ?b ?ancestor)
-     [?b :block/parent ?t]
-     (check-ancestor ?t ?ancestor)
-   ]
-   ;
-   ;; Check if ?b has ?ancestor as an ancestor or as a parent (when ?is-parent)
-   [(check-ancestor-parent ?b ?ancestor ?is-parent)
-     (or
-       (and [(= true ?is-parent)] [?b :block/parent ?ancestor])
-       (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
-     )
-   ]
- ]
-}
-#+END_QUERY
+    #+BEGIN_QUERY
+    {;:title [:h3 \"Search for Pattern\"]  ; replaced by $.1 above #+BEGIN_QUERY
+     :inputs [ 
+      [:block/uuid #uuid \"$2\"]  ;  search pattern ?params
+      [:block/uuid #uuid \"$3\"]  ;  search-scope ?container
+      [:block/uuid #uuid \"$4\"]  ;  ?filters
+      $5 ;  ?recursive
+     ]
+     ;;;;;;;; query body ;;;;;;;;
+     :query [
+      :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
+      :in $ ?params ?container ?filters ?recursive %
+      :where
+        ;
+        ; ?key parameter
+        [?params :block/content ?paramlines]
+        [(re-pattern \".*\") ?line-pattern]
+        [(re-find ?line-pattern ?paramlines) ?key] ; only the first line, a.k.a. block title
+
+        ;
+        ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
+        [?params :block/properties ?props]
+        [(get ?props :case-sensitive false) ?case-sensitive]
+        [(get ?props :whole-word false) ?whole-word]
+        (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+            (and [(= true ?whole-word)] [(str \"\\\\b\" ?key \"\\\\b\") ?key-pat])
+            (and [(= false ?whole-word)] [(str ?key) ?key-pat])
+        )
+        (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+            (and [(= true ?case-sensitive)] [(str ?key-pat) ?key-case])
+            (and [(= false ?case-sensitive)] [(str \"(?i)\" ?key-pat) ?key-case])
+        )
+        [(re-pattern ?key-case) ?search-pattern]
+        ;
+        ; ?scope parameter <= (?search-scope or ?container itself)
+        [?container :block/properties ?cprops]
+        [(get ?cprops :search-scope false) ?search-scope]
+        [(get ?cprops :search-scope-page false) ?search-scope-page]
+        (or-join [?search-scope ?search-scope-page ?container ?scope]
+            (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
+                [(identity ?container) ?scope] )
+            (and [(!= false ?search-scope)]
+                [?container :block/refs ?scope]
+                [?scope :block/uuid ?uuid] ; both block and page have UUID
+                [(clojure.string/includes? ?search-scope ?uuid)]
+            )                     
+            (and [(!= false ?search-scope-page)]
+                [?container :block/refs ?scope]
+                [?scope :block/original-name ?name] ; only page has name
+                [(contains? ?search-scope-page ?name)]
+            )                     
+        ); end or-join 
+        ;
+        ; ?scope parameter contains ?b
+        [(not ?recursive) ?is-parent]
+        (check-ancestor-parent ?b ?scope ?is-parent)
+        ; 
+        ; Match filter patterns in ?filters against result/child blocks
+        [?filters :block/properties ?pfilters]
+        [(get ?pfilters :filter false) ?filter]
+        [(get ?pfilters :child-filter false) ?child-filter]
+        (or-join [?b ?filter ?child-filter]
+            (and [(= false ?filter)]
+                [(= false ?child-filter)]
+            )
+            (and [(!= false ?filter)] 
+    		    [(re-pattern ?filter) ?filter-pattern]
+                [?b :block/content ?content]
+                [(re-find ?filter-pattern ?content)]     
+            )
+            (and [(!= false ?child-filter)] 
+    		    [(re-pattern ?child-filter) ?child-filter-pattern]
+                [?bchild :block/parent ?b]
+    		    [?bchild :block/content ?child-content]
+                [(re-find ?child-filter-pattern ?child-content)]     
+            )
+        ); end or-join
+        ;
+        ; ?b block/content contains ?search-pattern
+        [?b :block/content ?content]
+        [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
+        ;[(clojure.string/includes? ?content ?key)]
+     ]; end :query[]
+     ;
+     ;; query options:
+     :remove-block-children? $6 ;  remove results being child of another result
+     ;
+     ;;;;;;;; rules ;;;;;;;;
+     :rules [
+        ;
+        ;; Check if ?b has ?ancestor as an ancestor
+        [(check-ancestor ?b ?ancestor)
+            [?b :block/parent ?ancestor]
+        ]
+        [(check-ancestor ?b ?ancestor)
+            [?b :block/parent ?t]
+            (check-ancestor ?t ?ancestor)
+        ]
+        ;
+        ;; Check if ?b has ?ancestor as an ancestor or as a parent (when ?is-parent)
+        [(check-ancestor-parent ?b ?ancestor ?is-parent)
+            (or
+                (and [(= true ?is-parent)] [?b :block/parent ?ancestor])
+                (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
+            )
+        ]
+     ]; end :rules[]
+    }
+    #+END_QUERY
+    
+  "
+
+  ;;Show notification depending on the current time relative to time stamps
+  ;; defined in `scheduled::` and `deadline::` properties.
+  ;; 1. Show task ($2) if now < scheduled time
+  ;; 2. Show warning ($3) if scheduled time < now < deadline
+  ;; 3. Show error ($4) if deadline < now
+  :deadline-warning
+  "$1
+    #+BEGIN_QUERY
+    {;:title [\"Deadline warning\"]  ; replaced by $.1 above #+BEGIN_QUERY
+      :inputs [
+        :today ; ?today
+        :today-start ; ?today-ms
+        :right-now-ms ; ?now-ms
+        [:block/uuid #uuid \"$2\"]  ;  ?task
+        [:block/uuid #uuid \"$3\"]  ;  ?warning
+        [:block/uuid #uuid \"$4\"]  ;  ?error
+      ]
+      :query [
+        :find (pull ?b [*]) ;  ?date-time ?scheduled-date-time ?deadline-date-time
+        :in $ ?today ?today-ms ?now-ms ?task ?warning ?error %
+        :where 
+            ; get ?scheduled & ?deadline date-time
+            ;[?task :block/scheduled ?scheduled] 
+            ;[?task :block/deadline ?deadline] 
+            [?task :block/properties ?props]
+            [(get ?props :scheduled false) ?scheduled]
+            [(get ?props :deadline false) ?deadline]
+            ;
+            ; extract yyyy-MM-dd HH:mm:ss from ?scheduled & ?deadline
+            [(re-pattern \"<(....-..-..) ... (..:..)>\") ?pat-date-wd-time]
+            [(re-seq ?pat-date-wd-time ?scheduled) ([_ ?scheduled-date ?scheduled-time]) ]
+            [(str ?scheduled-date \" \" ?scheduled-time) ?scheduled-date-time]
+            [(re-seq ?pat-date-wd-time ?deadline) ([_ ?deadline-date ?deadline-time]) ]
+            [(str ?deadline-date \" \" ?deadline-time) ?deadline-date-time]
+            ;
+            ; convert time within today to HH:mm:ss 
+            [(- ?now-ms ?today-ms) ?ms]
+            [(quot ?ms 1000)  ?ts]
+            [(mod ?ts 60) ?second]
+            (or
+                (and [(< ?second 10)] [(str \"0\" ?second) ?ssecond])
+                (and [(>= ?second 10)] [(identity ?second) ?ssecond])
+            )
+            [(quot ?ts 60) ?tm]
+            [(mod ?tm 60) ?minute]
+            (or
+                (and [(< ?minute 10)] [(str \"0\" ?minute) ?sminute])
+                (and [(>= ?minute 10)] [(identity ?minute) ?sminute])
+            )
+            [(quot ?tm 60) ?th]
+            [(mod ?th 24) ?hour]
+            (or
+                (and [(< ?hour 10)] [(str \"0\" ?hour) ?shour])
+                (and [(>= ?hour 10)] [(identity ?hour) ?shour])
+            )
+            [(str ?shour \":\" ?sminute \":\" ?ssecond) ?time]
+            ;
+            ; convert ?today to yyyy-MM-dd 
+            [(mod ?today 100) ?day]
+            (or
+                (and [(< ?day 10)] [(str \"0\" ?day) ?sday])
+                (and [(>= ?day 10)] [(identity ?day) ?sday])
+            )
+            [(quot ?today 100) ?dm]
+            [(mod ?dm 100) ?month]
+            (or
+                (and [(< ?month 10)] [(str \"0\" ?month) ?smonth])
+                (and [(>= ?month 10)] [(identity ?month) ?smonth])
+            )
+            [(quot ?dm 100) ?dy]
+            [(mod ?dy 100) ?year2]
+            [(+ ?year2 2000) ?year]
+            [(str ?year \"-\" ?smonth \"-\" ?sday) ?date]
+            ;
+            ; concatenate to ?date-time
+            [(str ?date \" \" ?time) ?date-time]
+            ;
+            ; switch block to show
+            [(compare ?date-time ?scheduled-date-time) ?scheduled-rel]
+            [(compare ?date-time ?deadline-date-time) ?deadline-rel]
+            (or
+                (and [(< ?scheduled-rel 0)] [(identity ?task) ?b])
+                (and [(>= ?scheduled-rel 0)] [(<= ?deadline-rel 0)] [(identity ?warning) ?b])
+                (and [(> ?deadline-rel 0)] [(identity ?error) ?b])
+            )
+      ] ; end query[]
+      ;
+      ;; query options:
+      :breadcrumb-show? false
+      :group-by-page? false
+      ;:collapsed? ; always collapse, must open it to see updated result
+      ;:result-transform 
+      ;
+      ;;;;;;;; rules ;;;;;;;;
+      :rules [
+      ]
+    }
+    #+END_QUERY
+    
   "
  }
 

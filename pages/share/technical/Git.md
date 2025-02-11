@@ -5,10 +5,96 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 	- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 	  collapsed:: true
 		- File link: ((671f5784-d89b-4a4a-a6e7-f02a0805322f)) is supported by ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) but ((671f5617-1163-4ffc-b65a-b3234e471db0)) is not.
+		  collapsed:: true
 			- Symlink has portability problem between Linux and Windows.
 				- [From Windows 10+, symlink can be used](https://blogs.windows.com/windowsdeveloper/2016/12/02/symlinks-windows-10/) when Developer mode is turned on.
 			- Hard link is not support (will be broken when ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) overwrites the link file), but ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0)) will let the hard link live as long as we don't do any write operation on that link file, e.g. `pull`, `checkout`, `reset`, etc.
 			  id:: 666ba5a7-598a-4b66-86bd-b1622a28ada6
+		- `\ No newline at end of file`
+		  id:: 556c799a-e364-49ad-94ab-5d14bef766ca
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-01-21 Tue 14:07:59]--[2025-01-24 Fri 19:00:42] =>  76:52:43
+		  :END:
+		  is the warning of `diff` because `diff` is a **line-based** text processor.
+			- Without the last newline, whenever the next line is appended to this file, the last line must be edited by adding newline to it, which is an unintended edit. This **unintended change** of the last line leads to various problem.
+			- 1st, `diff` works with the whole line, hence, the last line will be marked as modified by the next commit.
+				- E.g. wrong lines in diffs between commits without the last newline:
+				  collapsed:: true
+					- Final file
+					  ```
+					  Test EOL@EOF⏎
+					  this line is in commit #1.⏎
+					  this line is in commit #2.⏎
+					  this line is in commit #3.
+					  ```
+					- commit #1
+					  ```diff
+					  +Test EOL@EOF⏎
+					  +this line is in commit #1.
+					  \ No newline at end of file
+					  ```
+					- commit #2
+					  ```diff
+					  Test EOL@EOF⏎
+					  -this line is in commit #1.
+					  \ No newline at end of file
+					  +this line is in commit #1.⏎
+					  +this line is in commit #2
+					  \ No newline at end of file
+					  ```
+					- commit #3
+					  ```diff
+					  this line is in commit #1.⏎
+					  -this line is in commit #2.
+					  \ No newline at end of file
+					  +this line is in commit #2.⏎
+					  +this line is in commit #3
+					  \ No newline at end of file
+					  ```
+			- 2nd, the last line of the last commit may be [blamed](https://git-scm.com/docs/git-blame) for the next commit, which is misleading.
+				- Some git implementations do this misleading blame: GitHub, GitLab, VS Code
+				  collapsed:: true
+					- ![last-newline-blame-GitLab-GitHub](../assets/TextProcessing/last-newline/last-newline-blame-GitLab-GitHub.png)
+					- ![last-newline-blame-VSCode](../assets/TextProcessing/last-newline/last-newline-blame-VSCode.png)
+				- Some git implementations tweak themself to avoid this misleading blame: Ubuntu's `git`, JetBrains IDEs
+				  collapsed:: true
+					- ![last-newline-blame-console](../assets/TextProcessing/last-newline/last-newline-blame-console.png)
+					- ![last-newline-blame-IDEA](../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png)
+			- 3rd, **unintended conflict**: Some text editors and IDEs [automatically add the last newline](((616bfc2b-05f2-4a85-a094-dd771aa12cd1))) to editing files, making unintended changes which will conflict with appendage to that file in other commits.
+			  id:: ed8333ef-b3b6-4d1b-a5e7-3a2fb4e1b286
+			  collapsed:: true
+				- The conflict will be shown (for resolution) in a very obscure way, due to the difficulty of showing the newline itself.
+				  ```git-merge-conflict
+				  6: Last line without newline
+				  <<<<<<< HEAD
+				  7: Appended line by feature-testEOL-1
+				  =======
+				  >>>>>>> feature-testEOL-2
+				  
+				  ```
+			- Refactor codes
+			  id:: b8c17a55-f618-43ed-9826-314412a08965
+			  collapsed:: true
+				- Add the missing last newline (ref: [unix.stackexchange](https://unix.stackexchange.com/a/31955/566548))
+				  ```sh
+				  sed -i '$a\' file
+				  ```
+				- Remove last blank line, i.e. truely empty line (`^$` = `\n` only)
+				  ```sh
+				  sed -i '${/^$/d;}' file
+				  ```
+				- Find files missing the last newline:
+				  ```sh
+				  find . -regex '.*\(git\|venv\|idea\)' -prune -o \
+				    -type f -exec sh -c 'tail -c 1 "$1" | grep -q "." && echo "$1"' no-last-newline {} \;
+				  ```
+				- Find files with the last newline
+				  id:: 577c2916-d4ca-461d-85b9-f3b2ff7e6b30
+				  ```sh
+				  find .  -regex '.*\(git\|venv\|idea\)' -prune -o \
+				    -type f -exec sh -c 'tail -c 1 "$1" | grep -q "^$" && echo "$1"' with-last-newline {} \;
+				  ```
 	- working tree
 	  id:: 67152d29-5cee-475d-a01b-bbc9c9ad3417
 	  collapsed:: true
@@ -97,7 +183,10 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		  `git {diff,show,log} --{name-{only,status},stat}`
 			- `--name-status` -> `{A,D,M,R}  file-path [new-file-path]` for {Add, Delete, Modify, Rename}
 			- `--stat` -> `[trimmed-]file-path | change-num ++---` with file path trimmed off left side to fit the screen width, and with visually friendly syntax for file rename `{old-dir => new-dir}/{old-filename => new-filename}`.
-		- Log history
+			- `--word-diff` → `[-removed-]{+added+}` output word-by-word where "word" is defined as `\S+`, i.e. non-space string, which is coarser than the normal word.
+			- `--color-words='(\w+|\W+)'` = `--word-diff=color --word-diff-regex='(\w+|\W+)'` to highlight changed words using only colors, without markups like `[-...-]{+...+}`.
+				- Use the regex `(\w+|\W+)`, instead of the default (empty)=`\S+`, to separate joined words like `object.field` or comma-separated list like `QP,CI,SK|AA`.
+		- History log & blame
 			- Linear history of this branch only
 			  ```sh
 			  git log --first-parent
@@ -106,6 +195,22 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  ```sh
 			  git log --graph
 			  ```
+			- Find changes in history
+			  collapsed:: true
+			  ```sh
+			  git log -S 'string' [-G 'regex']
+			  ```
+			- Edit history of lines in a file
+			  collapsed:: true
+			  ```sh
+			  git blame [-L 100,+10]  [Hash0rCommit^] [--] path/to/file.md
+			  ```
+				- Range with `-L $start`, `-L ,$end`, `-L $start,$end`
+					- Both `$start` and `$end` can be a line number or a `/regex/`
+					- `$end` can be `+offset` or `-offset`
+				- Revision `$rev` can be given to blame edits from that `$rev` up, instead of from now (working directory).
+					- Usually we use `$rev^` to find edits *before* `$rev` to trace back the history.
+				- Many options for output format: `-s -b -w --date=human -M --color-lines --color-by-age`
 		- Push another branch, not the current:   
 		  `git push <repo> <another_branch>`
 		- Force pull: To overwrite this branch with its upstream, from the common base, don't use the misleading `git pull --force` because it's only [`git fetch --force`](https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/#the-other-git-pull-force).  
@@ -136,9 +241,29 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					- History of `feature` does not contain the 2 merged commits `G` & `H`
 					- The changes of `G` & `H` are included in `s2`.
 				- `work> git cherry-pick -m1 m2 > s1`: commit `s1` includes [changes of `F` relative to 1st parent `F`](((669f711c-67b5-4e6e-94c8-ac64e2bd861b)))
+			- Merge specific files (interactive checkout)
+			  `git checkout --patch ${branch} [--] ${file1}, ${file2}, ...`
+				- ((6758f04c-5604-475f-bf81-d9739200e4e6))
 		- Selectively add diff hunks (patches):   
 		  `git add --patch`  
 		  Use this to interactively search for appropriate diff hunks via `/`, then stage them with `y` or skip with `n`, or even manually edit hunks with `e`, and so on.
+			- List of commands, as shown in `INTERACTIVE MODE` > `patch` of `git help add`
+			  id:: 6758f04c-5604-475f-bf81-d9739200e4e6
+			  collapsed:: true
+				- `y`: **Yes**, stage this hunk
+				- `n`: **No**, do not stage this hunk
+				- `q`: **Quit**, do not stage this hunk or any of the remaining ones
+				- `a`: stage this hunk and **all** later hunks in the file
+				- `d`: **Don't** stage this hunk or any of the later hunks in the file
+				- `g`: select a hunk to **go** to
+				- `/`: **search** for a hunk matching the given regex
+				- `j`: leave this hunk undecided, see **next undecided** hunk
+				- `J`: leave this hunk undecided, see **next** hunk
+				- `k`: leave this hunk undecided, see **previous undecided** hunk
+				- `K`: leave this hunk undecided, see **previous** hunk
+				- `s`: **Split** the current hunk into smaller hunks
+				- `e`: manually **edit** the current hunk
+				- `?`: print **help**
 			- Other tools in the Debian package `patchutils`, like `grepdiff`, `filterdiff`.   
 			  ```
 			  git diff | grepdiff --output-matching=hunk <pattern>

@@ -117,769 +117,64 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Chain-of-thought (CoT) prompting
 				  collapsed:: true
 				  is the prompting technique that instruct the ((66c300a9-beb5-4395-ae20-e9bb34ca8aae)) to think step by step, so that it can exploit the knowledge of reasoning in its pre-trained dataset.
+					- ((66725725-f76a-4328-b162-f469b87e871b))
+						- General CoT
+						  > Think step-by-step about...
+						- Guided CoT
+						  > First, think of... Then, think of...
+						- Automatic CoT by ((67a6068e-65d3-44c2-8f1c-b4d532046638))'s DeepThink
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- This technique is also effective in ((66c31d1a-1e9c-4c12-acd0-c130c5fd4db2)): [Exploring Length Generalization in Large Language Models](https://openreview.net/forum?id=zSkYVeX7bC4)
-	- ## Linux
-	  id:: 66949495-3846-4f89-9ea5-c62b624d282c
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-07-15 Mon 11:04:21]
-	  :END:
-		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Linux
-		- Distributions
-		  id:: 66faa5fa-fdde-4dd5-a27f-442cea4ba47a
+						- ((67a6068e-65d3-44c2-8f1c-b4d532046638)) pioneered automatic CoT prompting with its DeepThink feature.
+		- AI chatbots
+		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
-			- ### Ubuntu
-			  id:: 66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7
-				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
-				-
-		- ### concepts
-		  id:: 6735b188-e391-498b-a01b-35797616f7b6
-		  collapsed:: true
-			- file mode bits
-			  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
-			  collapsed:: true
-			  shown in ((671f4355-d2ad-46ca-af05-db330a8a4fec)) and in ((671f50a5-2987-4e65-b28d-7b08bdcf0a06)), modified by ((671f5863-b392-406a-b6d2-408902e37e29))
-				- ((665359c0-a89a-41b5-9f28-503f79107a08))  [Notation of traditional Unix permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_traditional_Unix_permissions), [Structure of File Mode Bits](https://www.gnu.org/software/coreutils/manual/html_node/Mode-Structure.html)
-				- First char: file type {`-`,`d`,`l`,`p`,`s`,`c`,`b`} = {regular file, directory, symlink, FIFO named pipe, socket, character stream (terminal), random-access block device (disk)}
-					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Unix_file_types
-				- Last 3×3 chars: (owner, group, other)×(`r`,`w`,{`x`,`s`,`S`})
-					- `r` = readable, `w` = writable
-					- `x` = executable, `s` = [setuid](https://en.wikipedia.org/wiki/Setuid)/[setgid](https://en.wikipedia.org/wiki/Setgid) executable, `S` = setuid/setgid non-executable
-			- inode
-			  id:: 671f438b-617a-4fc5-88ee-e42f07b67b50
-			  collapsed:: true
-			  file index-data node
-				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Inode
-				- hard link
-				  id:: 671f5617-1163-4ffc-b65a-b3234e471db0
-				  is just an alias, i.e. a full-path-name, for an ((671f438b-617a-4fc5-88ee-e42f07b67b50)).
-					- All aliases are equivalent, no source/main name like ((671f5784-d89b-4a4a-a6e7-f02a0805322f)).
-					- `mv`/`rm` just move/remove names, not the inode. The inode is only removed when there's no name pointing to it.
-					- New MacOS (10.5+) and some (old) Linux distributions allow hard link of directory, but most modern Linux distributions prohibit it due to its ambiguousness
-			- symbolic link (symlink)
-			  id:: 671f5784-d89b-4a4a-a6e7-f02a0805322f
-			  collapsed:: true
-				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Symbolic_link
-				- Mimics:
-					- Windows' shortcut in GUI works similarly to symlink, but doesn't work at the command level.
-				- Equivalence: Git's symlink, [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
-					- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks). When `symlinks = false`, symbolic links are checked out as plain text files containing the target as text.
-		- ### commands
-			- process handling
-			  collapsed:: true
-				- pid
-				  := "process ID"
-				- ((66c6c8e6-54be-4b4f-80a1-c535d429d05c))
-				- `pidof`
-				  find the pid of a process via process name.
-				- `pgrep`, `pkill`, `pidwait`
-				  look up, signal, or wait for processes based on process name pattern and other attributes.
-				- `kill`, `killall`
-				  send a signal (`TERM`, `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid or process name.
-				- `pstree`
-				  display a tree of processes.
-				- `top`
-				  display "top CPU" processes similar to ((66c6bda1-7a64-4832-af2b-906b3beb8927)).
-				- `iftop`
-				  display "top network" interfaces.
-				- `nethogs`
-				  NetHogs displays 'net top' processes.
-			- window handling
-			  collapsed:: true
-				- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
-				- `xkill`
-				  kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
-				- `xprop`
-				  display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
-			- file management
-			  id:: 671f4028-c60f-4791-b716-e5226cdf410e
-			  collapsed:: true
-				- `ls`
-				  id:: 6735b188-098a-41ac-89ed-8cfcc857d796
-				  collapsed:: true
-				  list information about the FILEs (the current directory by default).
-					- `ll` = `ls -lhF`
-					  id:: 671f4355-d2ad-46ca-af05-db330a8a4fec
-					  long listing format
-						- Default columns: ((671f467e-6f1f-4436-a0dd-9a03055e11a9)), ((671f4447-71f3-4ae1-b22c-acc16ac67f5b)), user, group, size, date, file name
-						  id:: 6735b188-a46c-4363-8ccc-03fbfcf2cbaa
-						- number of files
-						  id:: 671f4447-71f3-4ae1-b22c-acc16ac67f5b
-							- for directory: number of files & sub-directories in that dir
-							- for file: number of hard links to this ((671f438b-617a-4fc5-88ee-e42f07b67b50))
-					- `-i`, `--inode`
-					  print the ((671f438b-617a-4fc5-88ee-e42f07b67b50)) number of each file
-				- `stat`
-				  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
-				  collapsed:: true
-				  status of file or file system
-					- Non-default info (`--format`)
-						- `%m` = mount point
-				- `tree`
-				  list contents of directories in a tree-like format.
-				- `find`
-				  collapsed:: true
-				  search for files in a directory hierarchy
-					- `-samefile $ref_file`
-					  id:: 671f544c-792b-4bd3-bfda-38c8d1fc2b01
-					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$ref_file`
-					- `-inum $inode_number`
-					  find ((671f5617-1163-4ffc-b65a-b3234e471db0))s to `$inode_number`
-						- Note: This is just an old POSIX option, and it's much simpler to use ((671f544c-792b-4bd3-bfda-38c8d1fc2b01)) instead!
-						- To use this option, we must find the `$inode_number` first via `ls -i` or `stat -c %i`.
-							- Someone even wrote [a script](https://superuser.com/a/12976) using this method.
-							  collapsed:: true
-								- ```sh
-								  #!/bin/bash
-								  if [[ $# -lt 1 ]] ; then
-								      echo 'Usage: find-hard-links $target [$target2 ...]'
-								      exit 1
-								  fi
-								  
-								  while [[ $# -ge 1 ]] ; do
-								      echo "Processing '$1'"
-								      if [[ ! -r "$1" ]] ; then
-								          echo "   '$1' is not accessible"
-								      else
-								          numlinks=$(stat -c '%h' "$1")
-								          inode=$(stat -c '%i' "$1")
-								          mount=$(stat -c '%m' "$1")
-								          echo "   '$1' has inode ${inode} on mount point '${mount}'"
-								          find ${mount} -inum ${inode} 2>/dev/null | sed 's/^/        /'
-								      fi
-								      shift
-								  done
-								  ```
-				- `ln`
-				  collapsed:: true
-				  make links (hard & symbolic) between files
-					- default is to make ((671f5617-1163-4ffc-b65a-b3234e471db0)).
-					- `slink` = `ln -sv` (`--symbolic --verbose`)
-					  creates ((671f5784-d89b-4a4a-a6e7-f02a0805322f)) to this file.
-				- `chmod`
-				  id:: 671f5863-b392-406a-b6d2-408902e37e29
-				  change file mode bits
-				- `chown`
-				  change file owner and group
-				- `df`
-				  report file system disk space usage
-				- `du`
-				  estimate file space usage
-		- ### shell
-			- `man [-k]`, `info`, `[run-]help`, `apropos`
-			  collapsed:: true
-				- `man` is the traditional UNIX manual pages for specific subjects like commands, functions, configs, etc. `man` pages are viewed with `less` navigation.
-					- ((66725725-f76a-4328-b162-f469b87e871b)) `man ls`
-					  collapsed:: true
-						- ```
-						  ⮕ man ls
-						  NAME
-						         ls - list directory contents
-						  
-						  SYNOPSIS
-						         ls [OPTION]... [FILE]...
-						  
-						  DESCRIPTION
-						         List  information about the FILEs (the current directory by default).  Sort entries alpha‐
-						         betically if none of -cftuvSUX nor --sort is specified.
-						  ...
-						  ```
-					- `man -k ${keyword}` = `apropos ${keyword}` searches the manual page names and descriptions for `${keyword}`.
-					- ((66725725-f76a-4328-b162-f469b87e871b)) `apropos directory`
-					  collapsed:: true
-						- ```
-						  ⮕ apropos directory                                                                     [f54d504e0]
-						  alphasort (3)        - scan a directory for matching entries
-						  basename (1)         - strip directory and suffix from filenames
-						  bindtextdomain (3)   - set directory containing message catalogs
-						  chacl (1)            - change the access control list of a file or directory
-						  chdir (2)            - change working directory
-						  chroot (2)           - change root directory
-						  chroot (8)           - run command or interactive shell with special root directory
-						  closedir (3)         - close a directory
-						  cups-files.conf (5)  - file and directory configuration file for cups
-						  dbus-cleanup-sockets (1) - clean up leftover sockets in a directory
-						  depmod.d (5)         - Configuration directory for depmod
-						  dir (1)              - list directory contents
-						  dirfd (3)            - get directory stream file descriptor
-						  dirsplit (1)         - splits directory into multiple with equal size
-						  ...
-						  ```
-				- `info` is the comprehensive GNU documentation for distributions and systems. It is a system of docs interlinked and indexed with hyper-links like ebooks. `info` docs are viewed with `emacs` navigation.
-					- ((66725725-f76a-4328-b162-f469b87e871b)) `info ls`
-					  collapsed:: true
-						- ```
-						  ⮕ info ls
-						  10.1 ‘ls’: List directory contents
-						  ==================================
-						  
-						  The ‘ls’ program lists information about files (of any type, including
-						  directories).  Options and file arguments can be intermixed arbitrarily,
-						  as usual.
-						  ...
-						  ```
-				- Bash' `help` and ZSh' `run-help` is the built-in command to describe shell-built-in commands. Help pages are viewed with `less` navigation.
-					- ((66725725-f76a-4328-b162-f469b87e871b)) `[run-]help ls`, `[run-]help cd`
-					  collapsed:: true
-						- ```
-						  ⮕ help ls
-						  bash: help: no help topics match `ls'.  Try `help help' or `man -k ls' or `info ls'.
-						  ⮕ run-help ls     
-						  ls is an alias for ls --color=tty
-						  ⮕ help cd
-						  cd: cd [-L|[-P [-e]] [-@]] [dir]
-						      Change the shell working directory.
-						  ...
-						  ⮕ run-help cd      
-						  cd [ -qsLP ] [ arg ]
-						  cd [ -qsLP ] old new
-						  cd [ -qsLP ] {+|-}n
-						         Change  the  current  directory.   In the first form, change the
-						         current directory to arg, or to the value of $HOME if arg is not
-						         specified.  If arg is `-', change to the previous directory.
-						  ...
-						  ```
-			- `which`, `type`, `command -V`, `whence`, `where`
-			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) All these describe the given name as whether a built-in command or an external command (with path) or an alias (with definition), but are different in different shells.
-				- Note: The command `command [-p]` is designed to *execute an external command* distinguishing from buit-in or function or alias of the same name. However, its additional option `[-vV]` does the job of `which`/`type`.
-				- In `bash`
-					- `type` & `command` are built-in, `which` is external, and no `whence` nor `where`.
-					- ((66725725-f76a-4328-b162-f469b87e871b))
-					  collapsed:: true
-						- ```shell
-						  ⮕ which which
-						  /usr/bin/which
-						  ⮕ type which
-						  which is hashed (/usr/bin/which)
-						  ⮕ type type
-						  type is a shell builtin
-						  ⮕ type command
-						  command is a shell builtin
-						  ⮕ type whence
-						  bash: type: whence: not found
-						  ⮕ type where
-						  bash: type: where: not found
-						  ⮕ type ll
-						  ll is aliased to `ls -alF'
-						  ⮕ which -a ls
-						  /usr/bin/ls
-						  /bin/ls
-						  ```
-				- In `zsh`
-					- `whence` & `command` are built-in, with aliases `which`=`whence -c`, `where`=`whence -ca`, `type`=`whence -v`.
-					- ((66725725-f76a-4328-b162-f469b87e871b))
-					  collapsed:: true
-						- ```shell
-						  ⮕ which which
-						  which: shell built-in command
-						  ⮕ which type
-						  type: shell built-in command
-						  ⮕ which command
-						  command: shell built-in command
-						  ⮕ which whence
-						  whence: shell built-in command
-						  ⮕ which where
-						  where: shell built-in command
-						  ⮕ which ll
-						  ll: aliased to ls -lhF
-						  ⮕ which -a ls
-						  ls: aliased to ls --color=tty
-						  /usr/bin/ls
-						  /bin/ls
-						  ```
-			- `$-` special variables
-			  collapsed:: true
-				- `$$`: pid of the running shell (script)
-				  id:: 66c6c8e6-54be-4b4f-80a1-c535d429d05c
-				- `$0`: filename of the running shell (script)
-				- arguments to the running shell (script)
-				  collapsed:: true
-					- `$#`: number of arguments
-					- `$*`: all arguments
-					- `$@`: all arguments where each argument is separated via quotation
-					- `$n`: n-th argument
-				- `$?`: exit status of the last command executed
-				- `$!`: pid of the last background command
-			- Command directories
-			  collapsed:: true
-				- Home: `${HOME}/bin`, `${HOME}/.local/bin`
-				- System: `/bin`, `/usr/bin`, `/usr/local/bin`
-				- Superuser: `/sbin`, `/usr/sbin`, `/usr/local/sbin`
-				- Snap: `/snap/bin`
-				  id:: 66b1cfa4-59ec-476f-b06f-c14db11f369b
-			- Escape sequences
-			  collapsed:: true
-				- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
-				- ((66725725-f76a-4328-b162-f469b87e871b))
-					- ```shell
-					  LANG=C LC_ALL=UTF-16BE printf "\
-					  \0\a\b\t\n\v\f\r\e \"\'\?\\~~\
-					  \07\077\xF\x7F\xA0\xFF\uF\uAB\uF00\uFF9D\
-					  " |od -tx1 -An
-					  ```
-					  results in
-					  ```
-					   00 07 08 09 0a 0b 0c 0d 1b 20 22 27 3f 5c 7e 7e
-					   07 3f 0f 7f a0 ff 0f 00 ab 0f 00 ff 9d
-					  ```
-				- Table of escape sequences
-				  collapsed:: true
-					- | Esc seq |  Hex  | Unicode & Meaning |
-					  |:------- | -----:| ------------------ |
-					  | `\0`        |    00 | [␀] = [U+0000](https://www.compart.com/en/unicode/U+0000) = [NULL (control)](https://en.wikipedia.org/wiki/Null_character) |
-					  | `\a`=`\07`  |    07 | [🔔] = [⍾] = [␇] = [U+0007](https://www.compart.com/en/unicode/U+0007) = [BELL (control)](https://en.wikipedia.org/wiki/Bell_character) |
-					  | `\b`        |    08 | [⌫] = [␈] = [U+0008](https://www.compart.com/en/unicode/U+0008) = [BACKSPACE (control)](https://en.wikipedia.org/wiki/Backspace) |
-					  | `\t`        |    09 | [↹] = [␉] = [U+0009](https://www.compart.com/en/unicode/U+0009) = [HORIZONTAL TAB (control)](https://en.wikipedia.org/wiki/Tab_key) = `&Tab;` |
-					  | `\n`        |    0A | [⏎] = [␊] = [U+000A](https://www.compart.com/en/unicode/U+000A) = [END OF LINE, LINE FEED, NEW LINE (control)](https://en.wikipedia.org/wiki/Newline) = `&NewLine;` |
-					  | `\v`        |    0B | [↨] = [␋] = [U+000B](https://www.compart.com/en/unicode/U+000B) = [VERTICAL TAB (control)](https://en.wikipedia.org/wiki/Tab_key) |
-					  | `\f`        |    0C | [↡] = [␌] = [U+000C](https://www.compart.com/en/unicode/U+000C) = [FORM FEED (control)](https://en.wikipedia.org/wiki/Page_break#Form_feed) |
-					  | `\r`        |    0D | [↵] = [␍] = [U+000D](https://www.compart.com/en/unicode/U+000D) = [CARRIAGE RETURN (control)](https://en.wikipedia.org/wiki/Carriage_return) |
-					  | `\xF`=`\uF` |    0F | [␏] = [U+000F](https://www.compart.com/en/unicode/U+000F) = [SHIFT IN (control)](https://en.wikipedia.org/wiki/Shift_Out_and_Shift_In_characters) |
-					  | `\e`        |    1B | [␛] = [U+001B](https://www.compart.com/en/unicode/U+001B) = [ESCAPE (control)](https://en.wikipedia.org/wiki/Escape_character) |
-					  | `\"`        |    22 | " = [U+0022](https://www.compart.com/en/unicode/U+0022) = [QUOTATION MARK](https://en.wikipedia.org/wiki/Quotation_mark) = `&quot;` |
-					  | `\'`        |    27 | ' = [U+0027](https://www.compart.com/en/unicode/U+0027) = [APOSTROPHE](https://en.wikipedia.org/wiki/Apostrophe) = `&apos;` |
-					  | `\?`=`\077` |    3F | ? = [U+003F](https://www.compart.com/en/unicode/U+003F) = [QUESTION MARK](https://en.wikipedia.org/wiki/Question_mark) = `&quest;` |
-					  | `\\`        |    5C | \ = [U+005C](https://www.compart.com/en/unicode/U+005C) = [REVERSE SOLIDUS](https://en.wikipedia.org/wiki/Backslash) = `&bsol;` |
-					  | `\x7F`      |    7F | [⌦] = [t̶e̶x̶t̶̶] = [␡] = [U+007F](https://www.compart.com/en/unicode/U+007F) = [DELETE (control)](https://en.wikipedia.org/wiki/Delete_character) |
-					  | `\uA0`      |    A0 | [⍽] = ` ` = [U+00A0](https://www.compart.com/en/unicode/U+00A0) = [NO-BREAK SPACE](https://en.wikipedia.org/wiki/Non-breaking_space) = `&nbsp;` = `&NonBreakingSpace;` |
-					  | `\uAB`      |    AB | « = [U+00AB](https://www.compart.com/en/unicode/U+00AB) = [LEFT-POINTING DOUBLE ANGLE QUOTATION MARK](https://en.wikipedia.org/wiki/Guillemet) = `&laquo;` |
-					  | `\xFF`      |    FF | ÿ = [U+00FF](https://www.compart.com/en/unicode/U+00FF) = [SMALL LETTER Y WITH DIAERESIS](https://en.wikipedia.org/wiki/%C5%B8) = `&yuml;` |
-					  | `\uF00`     |  0F00 | ༀ = [U+0F00](https://www.compart.com/en/unicode/U+0F00) = [TIBETAN SYLLABLE OM](https://en.wikipedia.org/wiki/Om) |
-					  | `\uFF9D`    |  FF9D | ﾝ = [U+FF9D](https://www.compart.com/en/unicode/U+FF9D) = [HALFWIDTH KATAKANA LETTER N](https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)) |
-				- Note that, I don't know why but, `printf` wrongly converts `\uC0-\uFF` to `\u80-\uBF` in UTF-16BE. That 6-bit shift right (`÷0x40`) seems to be from UTF-8!
-				  collapsed:: true
-					- Check hex range `\uB0-\uFF`:
-					  ```shell
-					  LANG=C LC_CTYPE=UTF-16BE printf "\uB0\uBF\
-					  \uC0\uCF\uD0\uDF\uE0\uEF\uF0\uFF" |
-					  od -tx1 -An
-					  ```
-					  =>
-					  ```
-					  00 b0 00 bf 00 80 00 8f 00 90 00 9f 00 a0 00 af
-					  00 b0 00 bf
-					  ```
-					- Show printable chars `\uA0-\uBF` (excluding controls in `\u80-\u9F`):
-					  ```shell
-					  LANG=C LC_CTYPE=UTF-16BE printf "\uB0\uBF\uE0\uEF\uF0\uFF" |
-					  tee >(od -tx1 -An 1>&2) |
-					  iconv -f UTF-16BE -t UTF-8
-					  ```
-					  =>
-					  ```
-					   00 b0 00 bf 00 a0 00 af 00 b0 00 bf
-					  °¿ ¯°¿
-					  ```
-			- #### shell script
-			  id:: 6694a210-0bd1-4115-b190-4c41f58a577f
-				- One line of command with many nuances:
-				  collapsed:: true
-				  ```shell
-				  ( IFS=$'\n'; printf -- "- %s\n" ${multiple_lines}$(ls -l) )
-				  ```
-					- Meaning: this command line prints the list of lines in `${multiple_lines}$(ls -l)` in an itemized list format where each line is prefixed with a dash.
-					  collapsed:: true
-						- Execution example
-						  id:: 66950352-cb8c-4657-ae14-e8e2fea8efc2
-							- ```shell
-							  ⮕ multiple_lines=$'first line\nsecond line\twith tab and escaped char [\x21]'
-							  ⮕ ( IFS=$'\n'; printf -- "- %s\n" ${multiple_lines}$(ls -l) )
-							  ```
-							  => 
-							  ```
-							  - first line
-							  - second line	with tab and escaped char [!]total 14924
-							  - drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
-							  - drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
-							  - drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
-							  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
-							  ...
-							  ```
-					- `--`: double-dash in shell command is to signify the _end of command options_ (and begin positional arguments). We must use `--` here because the format string `- %s\n` starts with a dash which will be confused as options for `printf` command.
-					- Unquoted `${multiple_lines}$(ls -l)`: unquoted `$string` (`${var_value}` and `$(subshell_return_value)`) will be handled by the shell, i.e. split by [IFS](https://en.wikipedia.org/wiki/Input_Field_Separators) and [glob](https://en.wikipedia.org/wiki/Glob_(programming))-expanded.
-					  id:: 6694eca8-9a21-42cb-ae00-e604c9ea7ff9
-						- To prevent splitting, we must quote it, either with `'$single_quote'` or with `"$double_quote"`.
-						- To prevent glob-expansion, we must quote it with `'$single_quote'`. `"$double_quoted"` strings are still glob-expanded.
-						- default `IFS`
-						  id:: 66951231-e9b3-4298-b340-c067fae66c48
-							- `bash`: `IFS=' \t\n' = '\x20\x09\x0A'`
-							- `zsh`: `IFS` = `bash IFS`+ null char (`\x00`)
-						- shell glob's wildcards (`*`, `?`, and `[…]`)
-						  collapsed:: true
-							- `*`: matches any number of any characters including none
-							- `?`: matches any single character
-							- `[…]`: matches one character given in the bracket. The character set can be listed explicitly, e.g. `[aAbB]`, or provided via a range, e.g. `[A-z]`, or can also be negated with `!`, e.g. `[!abc]`.
-					- To concatenate strings, we just need to place them right next together, without space, e.g. `${var_value}$(subshell_return_value)`, `${first_line_var}$'\n'${next_line_var}`, etc.
-					- To change the input field separator of the shell, we must assign `IFS=...;` **with semicolon** before the command (`printf` here)
-						- Don't confuse it with the env.var. passing syntax `IFS=... printf`. _Without semicolon_, the new value of `IFS` will be passed to the command `printf` only, and has no effect on the external shell, hence the shell will still split strings by the ((66951231-e9b3-4298-b340-c067fae66c48)).
-						- _Don't separate the equal sign `=`_ from the variable name `IFS`! It's the shell script assignment syntax! If we separate them, that name (`IFS`) will be considered as a command instead of a variable!
-					- `( sub_shell )`: To not affect the `IFS` of other command lines, we enclose these 2 commands (`IFS` assignment & `printf`) in a subshell.
-					- `$'\n'`: [ANSI-C quoting](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html) is a special quoting technique, beside the common [single/double quoting](((6694eca8-9a21-42cb-ae00-e604c9ea7ff9))), to expand the backslash-escaped characters: `\n`, `\t`, `\xHH`, etc.
-					  id:: 6694f4b5-ac24-45b3-af7f-baea35636bcf
-						- Note that this is required by `bash` but not required by `zsh` (`zsh` automatically expands escaped chars in double-quoted strings)
-							- ((66725725-f76a-4328-b162-f469b87e871b))
-							  collapsed:: true
-								- `bash` with ANSI-C quotation
-								  ```shell
-								  command bash -c "echo $'first line\nsecond line\twith tab and escaped char [\x21]'"
-								  ```
-								  =>
-								  ```
-								  first line
-								  second line	with tab and escaped char [!]
-								  ```
-								- `zsh` with ANSI-C  quotation
-								  ```shell
-								  command zsh -c "echo $'first line\nsecond line\twith tab and escaped char [\x21]'"
-								  ```
-								  =>
-								  ```
-								  first line
-								  second line	with tab and escaped char [!]
-								  ```
-								- `zsh` with double quotation
-								  ```shell
-								  command zsh -c 'echo "first line\nsecond line\twith tab and escaped char [\x21]"'
-								  ```
-								  =>
-								  ```
-								  first line
-								  second line	with tab and escaped char [!]
-								  ```
-								- `bash` with double quotation
-								  ```shell
-								  command bash -c 'echo "first line\nsecond line\twith tab and escaped char [\x21]"'
-								  ```
-								  =>
-								  ```
-								  first line\nsecond line\twith tab and escaped char [\x21]
-								  ```
-					- `printf` command will _loop over all strings_ of its arguments which are _split by the shell_ from the joined string `${multiple_lines}$(ls -l)`. With each string, `printf` will replace the string value to `%s` in the format `- %s\n`, where the escaped sequence `\n` is converted to [newline character](https://en.wikipedia.org/wiki/Newline)... _**by printf** not by the shell_.
-					  id:: 6695074a-7545-453e-be59-096d9817a5ea
-						- ((66950352-cb8c-4657-ae14-e8e2fea8efc2)) broken into steps
-						  collapsed:: true
-							- id:: 66950b28-31ab-4bd1-8986-57c6e1ff9d0a
-							  ```shell
-							  ⮕ multiple_lines=$'first line\nsecond line\twith tab and escaped char [\x21]'
-							  ```
-							  => [ANSI-C quoted](((6694f4b5-ac24-45b3-af7f-baea35636bcf))) escape sequences `\n`, `\t`, `\x21` are converted to newline, tab, and exclamation mark; then the whole string, containing 2 lines, is assigned to the variable `multiple_lines`:
-							  ```
-							  first line
-							  second line	with tab and escaped char [!]
-							  ```
-							- ```shell
-							  ⮕ ( IFS=$'\n'; printf -- "- %s\n" ${multiple_lines}$(ls -l) )
-							  ```
-								- id:: 66950cea-b55d-4a3e-bf30-2cb38fa24f32
-								  ```shell
-								  $(ls -l)
-								  ```
-								  => A subshell is forked from this shell to execute command `ls -l`
-								  ```
-								  total 14924
-								  drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
-								  drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
-								  drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
-								  drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
-								  ...
-								  ```
-								- [This result](((66950cea-b55d-4a3e-bf30-2cb38fa24f32))) is concatenated with the [content of the variable `multiple_lines`](((66950b28-31ab-4bd1-8986-57c6e1ff9d0a))):
-								  id:: 66950e0e-a74c-4679-b9aa-ac7a3e57b206
-								  ```
-								  first line
-								  second line	with tab and escaped char [!]total 14924
-								  drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
-								  drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
-								  drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
-								  drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
-								  ...
-								  ```
-								  Let's note that the last line of `${multiple_lines}` is joined with the first line of `$(ls -l)` into a single line:
-								  ```
-								  second line	with tab and escaped char [!]total 14924
-								  ```
-								- The shell will split [this multi-line string](((66950e0e-a74c-4679-b9aa-ac7a3e57b206))) into many substrings according to value of the env.var. `IFS`
-									- With ((66951231-e9b3-4298-b340-c067fae66c48)), it will be split into single words: `first`, `line`, `second`, ... `[!]total` `14924`, `drwxrwxr-x`, `2`, `dinhlx`, `dinhlx`, ...
-									- But here we redefine `IFS`:
-									  ```shell
-									  IFS=$'\n';
-									  ```
-									  => each line will be a string argument passed to `printf`:
-									  `first line`,
-									  `second line	with tab and escaped char [!]total 14924`,
-									  `drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin`,
-									  ...
-								- ```shell
-								  printf -- "- %s\n"
-								  ```
-								  => ((6695074a-7545-453e-be59-096d9817a5ea))
-								  ```
-								  - first line
-								  - second line	with tab and escaped char [!]total 14924
-								  - drwxrwxr-x  2 dinhlx dinhlx     4096 Thg 7  15 16:21 bin
-								  - drwxr-xr-x  2 dinhlx dinhlx     4096 Thg 4  10  2023 Desktop
-								  - drwxr-xr-x  8 dinhlx dinhlx     4096 Thg 6   4 12:13 Documents
-								  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
-								  ...
-								  ```
-			- Oh My Zsh
-			  collapsed:: true
-				- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
-			- My backups via Git repos
-			  collapsed:: true
-				- Hardlinks are used to synchonize files on system with backup Git repositories.
-				- [linux-commands](https://github.com/bixycler/linux-commands)
-					- ```sh
-					  cd ~/bin
-					  ln aws.sh findapp.sh findname.sh Japencid.sh greprsjis.sh ldiff.sh netstatwatch.sh sping.sh sstp.sh tput-test.sh ovpn.sh vpn.sh \
-					     ~/source/linux-commands/home-bin/
-					  ```
-				- [linux-config](https://github.com/bixycler/linux-config)
-					- ```sh
-					  cd ~
-					  ln .bash_history .bash_logout .bash_profile .bashrc .chzsh .gitconfig .ishrc  .profile .viminfo .vimrc .vimrc.vim .zprofile .zsh_history .zshrc \
-					     ~/source/linux-config/
-					  ln .oh-my-zsh/custom/aliases.zsh ~/source/linux-config/.oh-my-zsh/custom/aliases.zsh
-					  ln .oh-my-zsh/custom/themes/creatzy.zsh-theme ~/source/linux-config/.oh-my-zsh/custom/themes/creatzy.zsh-theme
-					  ln .ssh/config ~/source/linux-config/.ssh/config
-					  # host files used by dnsmasq
-					  ln hosts/others.hosts hosts/active/others.hosts
-					  ln hosts/others.hosts ~/source/linux-config/hosts/active/
-					  ln hosts/* ~/source/linux-config/hosts/
-					  # ibus-bamboo input method
-					  ln .config/ibus-bamboo/ibus-bamboo.macro.text ~/source/linux-config/
-					  ```
-			- Nushell
-			  collapsed:: true
+		  Most of them are ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s
+			- [NotebookLM](https://notebooklm.google.com/)
+			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
+				- It's designed for digesting a lot of documents.
+				- ((67a73250-60f2-485c-b9d1-fc43ad993282))
+				  id:: 67a71016-9fe4-4b8a-bc23-74f1a5ae7c1e
+				- ((67a73295-e7ff-445f-831f-df6e79d750dc))
+				- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
+			- [Claude AI](https://claude.ai/)
+				- It's designed for **in-depth research** with **documents**, but without Web search.
+				- It's free plan has rather limited number of messages every 4 hours.
+				- The chat history for each topic is **unlimited** and can be [CoT prompted](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-of-thought)
+			- [Perplexity AI](https://www.perplexity.ai/)
+				- It's designed for **in-depth research** with **Web** search & **documents**.
+					- It always searches on Web first before answering. This search is excessive for normal discussions.
+				- AI models: Perplexity in-house model (default, free), and Pro models: DeepSeek R1, GPT o3-mini, (previously Claude)
+				- It's free plan has limit of 5 follow-up questions every 4 hours.
+			- [Copilot](https://copilot.microsoft.com/)
+			  id:: 67a71016-4588-4b2f-8c56-90701528d94d
 			  :LOGBOOK:
-			  CLOCK: [2024-10-04 Fri 10:17:52]
+			  CLOCK: [2025-02-07 Fri 20:31:07]--[2025-02-07 Fri 20:31:09] =>  00:00:02
 			  :END:
-				- [Nushell](https://www.nushell.sh/) is a [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language)) based shell for structured data pipelining.
-				- On ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)), `cargo` package manager of Rust must be installed first, then `nu` can be installed by `cargo`.
-					- ```sh
-					  sudo apt install cargo
-					  ```
-					- Make sure of dependencies
-					  ```sh
-					  sudo apt install pkg-config build-essential libssl-dev libx11-dev libxcb-composite0-dev
-					  ```
-					- Check version compatibility between Rust and Nushell in [rust-toolchain.toml](https://github.com/nushell/nushell/blob/0.91.0/rust-toolchain.toml), e.g. Nushell v0.91.0 ~ Rust v1.74.1.
-						- ```sh
-						  cargo install nu --version ^0.91.0
-						  ```
-					- Ref: [Install Nu Shell on Ubuntu 20.04](https://www.osradar.com/install-nu-shell-ubuntu/)
-					  collapsed:: true
-						- Note: Don't install ` --all-features` as instructed here, because some "raw" features make `polars-core` compilation error: `raw_table_mut()` method not found.
-		- ### editors
-		  collapsed:: true
-			- #### vim
-			  id:: 6716110f-c747-4dbe-9af4-5ebee764c436
-			  collapsed:: true
-			  Vi IMproved, a programmer's text editor
-				- directory browsing
-				  collapsed:: true
-					- When opening a directory, e.g. `vim .`, vim can browse it for the text file to be edited.
-				- split window
-				  id:: 66fe47b0-71d5-4663-bc43-d4774329a56e
-					- `:[v]sp[lit] [file]` | `Ctrl`-`w`-{`s`,`v`}
-					   to split horizontally (or vertically with `vs`). If no `file` is provided (or hotkey `Ctrl`-`w`-{`s`,`v`}), the current file is mirrored to the new split window.
-					- `Ctrl`-`w`-(arrow key)
-					   to move around.
-					- `:[w]q[!]` | `Ctrl`-`w`-`c`
-					  to close current window. `w` to write before closing, and `!` to discard changes.
-					- `vim -{o,O} $files`
-					  to open each file in a split window (`-o` for horizontal, `-O` for vertical).
-				- tab
-				  id:: 66fe472d-cbfe-49ff-9ec1-4c1b7853895a
-					- `:tabe[dit] [file]`
-					  to open new tab. If no `file` is provided, a new file (empty) is opened which is the same as `:tabnew`.
-					- Each tab can contain many ((66fe47b0-71d5-4663-bc43-d4774329a56e))s.
-					- `vim -p $files`
-					  to open each file in a tab.
-				- buffer
-					- Each file is associated with an editing buffer.
-					- `:e[dit] $file`
-					  to open new file in current buffer.
-						- ~~`:o[pen] $file_or_pattern`~~
-						  collapsed:: true
-						  does somehow works with relative paths but wierdly reacts with absolute paths from `~` or from root `/`.
-							- From `:help open`
-							  collapsed:: true
-								- ```
-								  :[range]o[pen]    Works like :visual: end Ex mode.
-								                    {Vi: start editing in open mode}
-								  :[range]o[pen] /pattern/        
-								                    As above, additionally move the cursor to the column
-								                    where "pattern" matches in the cursor line.
-								  Vim does not support open mode, since it's not really useful.  
-								  For those situations where ":open" would start open mode Vim will leave Ex mode, 
-								  which allows executing the same commands, but updates the whole screen instead of only one line.
-								  ```
-							- StackExchange: [What does :open do in Vim?](https://vi.stackexchange.com/a/2277)
-					- `:wa`, `:qa`, `:wqa`
-					  to write and/or quit all buffers.
-					- Each buffer can be mirrored in many ((66fe47b0-71d5-4663-bc43-d4774329a56e))s and in many ((66fe472d-cbfe-49ff-9ec1-4c1b7853895a))s.
-					- `:buffers`
-					  to list all buffers.
-			- #### nano
-			  collapsed:: true
-				-
-		- ### FreeDesktop/XDG
-		  id:: 669499f7-76c4-4ff8-a27e-be9768a6258c
-		  :LOGBOOK:
-		  CLOCK: [2024-07-15 Mon 11:05:00]
-		  CLOCK: [2024-07-15 Mon 11:06:32]
-		  :END:
-		  "Cross-Desktop Group"
-			- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://specifications.freedesktop.org/
-			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Freedesktop.org
-			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://www.freedesktop.org/wiki/Specifications/
-			- `.desktop` file
-				- installed in `/usr/share/applications/` and `~/.local/share/applications/`
-			- Autostart
-			  id:: 66b1cfa4-1438-4699-9f02-b84075f2a167
-				- `.desktop` files in `~/.config/autostart/`
-				- Startup Applications Preference: app drawer search (`startup`, `applications`)
-			- XDG Base Directory
-			  id:: 66949bc7-a1ae-4da3-b889-efbe35abf56d
-			  :LOGBOOK:
-			  CLOCK: [2024-07-15 Mon 11:07:42]
-			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) https://wiki.archlinux.org/title/XDG_Base_Directory
-		- ### GNOME Desktop
-		  id:: 66b1cfa4-808f-407c-bf5a-b93812604b5d
-			- GNOME Shell
-			  id:: 66c6b316-ef58-4b86-a6ca-fbf9125dad92
-			  collapsed:: true
-			  `gnome-shell`
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c6b316-ef58-4b86-a6ca-fbf9125dad92)) provides core user interface functions for ((66b1cfa4-808f-407c-bf5a-b93812604b5d)), like switching to windows and launching applications. User interface elements provided by GNOME Shell include the Panel at the top of the screen, the Activities Overview, and Message Tray at the bottom of the screen.
-				- Terminal
-				  id:: 66c6bd7d-c9af-4f64-a65b-f4ff075961bb
-				  `gnome-terminal[-server]`
-				- Nautilus (file browser)
-				  id:: 66c6bd94-76a7-4b80-bf2e-b8af02737af2
-				  `nautilus`
-				- System Monitor
-				  id:: 66c6bda1-7a64-4832-af2b-906b3beb8927
-				  `gnome-system-monitor`
-			- GNOME Extensions
-			  id:: 66c6ae6d-c722-43fa-888c-9b914387294f
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-08-22 Thu 10:47:24]
-			  :END:
-			  `gnome-extensions`
-				- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://extensions.gnome.org/
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c6ae6d-c722-43fa-888c-9b914387294f)) extend ((66c6b316-ef58-4b86-a6ca-fbf9125dad92)). They are managed on the website https://extensions.gnome.org which requires a ((66c6b15d-bbf8-42bd-93c4-fb19c0490264)) to work. The installed extensions can also be configured via ((66c6e677-d0b2-48f7-92da-8a38d8e9bd9c)).
-					- `Extensions` desktop app
-					  id:: 66c6e677-d0b2-48f7-92da-8a38d8e9bd9c
-					  collapsed:: true
-					  `gnome-extensions-app`
-						- app drawer search (`gnome`, `shell`, `extensions`, `app`) > `Extensions` > `Manually Installed` > e.g.(`Smart Auto Move`) > `Settings`
-				- Browser integration
-				  id:: 66c6b15d-bbf8-42bd-93c4-fb19c0490264
-				  collapsed:: true
-					- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://gnome.pages.gitlab.gnome.org/gnome-browser-integration/
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) `gnome-browser-connector` is required for managing ((66c6ae6d-c722-43fa-888c-9b914387294f)).
-				- #### Smart Auto Move
-				  id:: 66c6aef1-998a-45fb-8ad8-8550a008859d
-				  collapsed:: true
-				  :LOGBOOK:
-				  CLOCK: [2024-08-22 Thu 10:46:49]--[2024-08-22 Thu 18:03:09] =>  07:16:20
-				  :END:
-				  `smart-auto-move@khimaros.com`
-					- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://extensions.gnome.org/extension/4736/smart-auto-move/
-					- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/khimaros/smart-auto-move
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c6aef1-998a-45fb-8ad8-8550a008859d)) learns the position, size, and workspace of your application windows and restores them on subsequent launches. ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)) is supported.
-						- Saved Windows
-						  id:: 66c70945-3ce5-4f95-8cce-1b8a3f2bd464
-						  `saved-windows`
-						  stores the info of opened windows (in the past) which will be restored to a newly opening window only when it matches the saved one via an ((66c709d4-2541-45ba-a3ad-139ea44d9b04)).
-						- override
-						  id:: 66c709d4-2541-45ba-a3ad-139ea44d9b04
-						  `overrides`
-						  defines a matching criteria (`title` or {`any`, `threshold`}) and an action (`1`=`RESTORE` or `0`=`IGNORE`) to be taken when a newly opening window matches a [saved window](((66c70945-3ce5-4f95-8cce-1b8a3f2bd464))). An override can be created by clicking the button `OVERRIDE` or `OVERRIDE (ANY)` in the ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464)) tab.
-					- Config: command `gnome-extensions prefs smart-auto-move@khimaros.com` or via ((66c6e677-d0b2-48f7-92da-8a38d8e9bd9c))
-						- Set `freeze-saves=true` to freeze the ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464)). Whenever we want to update a saved window, just open & close it `freeze-saves`=`true -> false -> true` to get all currently opening windows captured in Saved Windows, then delete all irrelevant ones in the Saved Windows.
-						- Set default `sync-mode='IGNORE'` to ignore irrelevant windows, then manually set ((66c709d4-2541-45ba-a3ad-139ea44d9b04)) `action:1`=`RESTORE` only to the ones we want to restore.
-						- backup config
-						  ```
-						  dconf dump /org/gnome/shell/extensions/smart-auto-move/ > ~/Documents/smart-auto-move.dconf
-						  ```
-						- restore config
-						  ```
-						  dconf load /org/gnome/shell/extensions/smart-auto-move/ < ~/Documents/smart-auto-move.dconf
-						  ```
-						- sample config: [smart-auto-move.dconf](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.dconf) > ![saved-windows](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.saved-windows.json), ![overrides](../assets/Linux/GNOME/smart-auto-move/smart-auto-move.overrides.json)
-					- Settings for ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb))
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Matching terminals is a complicated task, so we must combine ((66c6f1cd-52d3-4606-8f54-08bef7acf4ea)) with ((66c710d9-241d-46b2-8dc1-bf2591492565)) and ((66c70166-889c-419e-8fd0-79d404e63e00)).
-						- autostart `.desktop` files
-						  id:: 66c6f1cd-52d3-4606-8f54-08bef7acf4ea
-							- `~/.config/autostart/gnome-terminal-{1,2}.desktop`: {1st, 2nd} Terminal window on the {left, right}
-							- Exec=`gnome-terminal --window --tab` to create new window with 2 tabs so that the window height includes tab title.
-								- Note that `--title` is ineffective because the title will be overridden right away! So we must rely on [the order of launching](((66c70166-889c-419e-8fd0-79d404e63e00))) instead.
-						- `title` in ((66c709d4-2541-45ba-a3ad-139ea44d9b04))
-						  id:: 66c710d9-241d-46b2-8dc1-bf2591492565
-						  `dinhlx@CPU000375:~` is the title of the startup terminals.
-						- `sequence` in ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464))
-						  id:: 66c70166-889c-419e-8fd0-79d404e63e00
-						  the order of launching determines which terminal to be placed where.
-		- ### Wayland
-		  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
-			- [XWayland](https://wayland.freedesktop.org/xserver.html)
-			  id:: 66c6cd8c-5367-4ae4-a76c-970732c2aebb
-		- ### Snap
-			- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://snapcraft.io/about
-			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Snap_(software)
-			- Snap Sandbox
-			  id:: 66fa8a1d-4fc0-4cb9-ad57-911cba799a04
-			  collapsed:: true
-				- Each Snap app runs in a limited [sandbox](https://en.wikipedia.org/wiki/Snap_(software)#Configurable_sandbox).
-				- Each Snap app uses a separate home `${HOME}/snap/${app}/current/` instead of the user's `${HOME}`.
-				- Many system calls are blocked (`Permission denied`), e.g. `ssh`, `who`, `free`, etc.
-					- For SSH access, we must explicitly allow via `ssh-keys: allows reading ssh user configuration and keys` < `Permissions` < `${app}` < `Snap Store` (`Ubuntu Software`).
-					  id:: 66fb69ac-95d3-4ba0-b5ec-b1eb04898db5
-						- Ref: [Dbeaver CE Ubuntu snap can't read SSH key in ~/.ssh](https://github.com/dbeaver/dbeaver/issues/10098#issuecomment-770193398)
-						- ![Snap-Logseq-ssh-permission.png](../assets/logseq/Snap-Logseq-ssh-permission.png)
-					- Debugging `core.sshCommand`s in `.gitconfig`
-					  id:: 66fb7680-58c6-4954-8495-f199f5affa4e
-						- `ssh`, `who` are denied, while `date`, `id` and shell-built-in `pwd`, `echo`, `type` are allowed.
-						  collapsed:: true
-							- ```ini
-							  [core]
-							      sshCommand = "ssh -v 2>/home/dinhlx/tmp/ssh.log" # 1: ssh: Permission denied
-							      #sshCommand = "type ssh 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/ssh
-							      #sshCommand = "pwd 1>/home/dinhlx/tmp/ssh.log #" # /home/dinhlx/source/UniinfoNotes
-							      #sshCommand = "echo ${USER}:${HOME} 1>/home/dinhlx/tmp/ssh.log #" # dinhlx:/home/dinhlx/snap/logseq/28
-							      #sshCommand = "who 2>/home/dinhlx/tmp/ssh.log #" # 1: who: Permission denied
-							      #sshCommand = "type who 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/who
-							      #sshCommand = "date 1>/home/dinhlx/tmp/ssh.log #" # 30/09/2024 17:47:30 +07
-							      #sshCommand = "type date 1>/home/dinhlx/tmp/ssh.log #" # date is /usr/bin/date
-							      #sshCommand = "id 1>/home/dinhlx/tmp/ssh.log #" # uid=1001(dinhlx) gid=1001(dinhlx) groups=1001(dinhlx),27(sudo),1002(tomcat)
-							      #sshCommand = "type id 1>/home/dinhlx/tmp/ssh.log #" # id is /usr/bin/id
-							  
-							  [trace2]
-							      normalTarget = /home/dinhlx/tmp/git.trace.log
-							  ```
-					- Ref: [Permission denied for calling system calls from snap app](https://forum.snapcraft.io/t/permission-denied-for-calling-system-calls-from-snap-app/16056)
-				- All hidden files and folder (whose name is started with  dot `.*`) cannot be accessed by Snap app.
-				  id:: 66fb7680-5c9d-4c2f-8b53-e0645b62aa4e
-					- ((665dc545-151a-485a-84b7-1310fef5151c)) for some file to be used by the app, it must be placed in a non-hidden folder.
-		- ### Flatpak
-			- Originally "[XDG](((669499f7-76c4-4ff8-a27e-be9768a6258c)))-app"
-			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Flatpak
-			- App Store: https://flathub.org/
-			- Flatpak Sandbox
-			  id:: 66fb5dcd-e20c-4e18-b03c-e52a5bb76425
-			  collapsed:: true
-				- Each Flatpack app is registered with a `${FlatpakID}`, e.g. `com.logseq.Logseq`, and runs in an [OSTree](https://en.wikipedia.org/wiki/OSTree) sandbox.
-				- The sandbox of `${FlatpakID}` can be inspected with `flatpak run --command=bash ${FlatpakID}`
-				- Flatpak sandbox is not as restricted as ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)).
-					- Flatpak sandbox integrates user's `${HOME}` and other parts of the OS so well that it feels like running in the native environment.
-					- Flatpak sandbox can handle SSH well.
-					  id:: 66fb5fd7-b1b0-4e54-96b3-fe6a83e34777
+				- Features: **Web** search, read **documents** and **images**, and the new feature "Think Deeper" in response to [DeepSeek's DeepThink](((67a60696-7991-4817-bf76-795fa9236d95))).
+				- The chat history for each topic is **unlimited**.
+				- ((67a71016-d530-4b48-bfcc-495d72b0bf86))
+			- [DeepSeek](https://chat.deepseek.com)
+			  id:: 67a6068e-65d3-44c2-8f1c-b4d532046638
+				- CoT view (DeepThink) is a pioneer feature. This show details of its [chain of thought](https://www.ibm.com/think/topics/chain-of-thoughts) for verification of the reasoning process.
+				  id:: 67a60696-7991-4817-bf76-795fa9236d95
+				- Other features: Web search, read documents and images.
+				- DeepSeek is open sourced by Chinese.
+				- The number of chat messages for each topic is limited.
+				- The server is sometimes busy.
+			- [Qwen LM](https://chat.qwenlm.ai/)
+				- Features: Web search, read documents and images in various formats, generate images and videos.
+				- Qwen is open sourced by Chinese Alibaba.
+			- [Gemini App](https://gemini.google.com/app)
+				- The latest model Gemini 2.0 Flash Thinking (Experimental) with Apps has added a CoT view and searches (Web, YouTube, Maps) like [DeepSeek](((67a6068e-65d3-44c2-8f1c-b4d532046638))).
+				- However it still cannot read documents.
+			- [Kimi AI](https://kimi.ai/)
+				- Features: Web search, read documents and images in various formats.
+				- However current login is limited to Chinese phone numbers.
+			- [Tülu](https://playground.allenai.org/)
+				- Features: only text chat.
+				- Tülu is open sourced.
+	- ((66949495-3846-4f89-9ea5-c62b624d282c))
 	- ## ItelliJ
 	  collapsed:: true
 		- Settings
@@ -928,6 +223,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) is the Sanskrit term that refering to "essence, breath", đại ngã, linh hồn bất diệt (của Thượng Đế). In Mahayana Buddhism, the Sanskrit term svabhāva (स्वभाव) = pa. सभाव = zh. 自性 = vi. tự tánh is used to denote the [Buddha-nature](https://en.wikipedia.org/wiki/Buddha-nature) = [Brahman](https://en.wikipedia.org/wiki/Brahman) in Hinduism.
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c8772a-9b29-45b0-b169-2fa847333e02)) is the pure ((669a2697-56af-445c-9197-24aa498a5d5b)) within the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). Self-essence is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) which cannot be seen directly and can only be felt indirectly via reflection.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- The argument of whether the ((66c8772a-9b29-45b0-b169-2fa847333e02)) is changing or unchanging, as in ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) versus Budda-nature versus [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) & [śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81), is meaningless due to its intrinsic liar paradox: the self-essence is itself not a concrete self, but just an abstraction of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). In other words, 
+			  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
+			- Hurricane's structure resembles the self's structure
+			  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
+				- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
+				- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)).
+				- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the ((66c810a0-9861-4787-bdcf-1378219332be)).
+				- Blog post: [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
+				  collapsed:: true
+					- Modified from [Hurricane-vi.svg](https://commons.wikimedia.org/wiki/File:Hurricane-vi.svg) < [Hurricane-en.svg](https://commons.wikimedia.org/wiki/File:Hurricane-en.svg)
+					  ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-Sep/Hurricane-structure-self-eye-vi.png)
+					- The storm's eye is used as a metaphor of the nirvāṇa in the 3rd part “**Thức định** (định vào cái thức, absorption into the consciousness, 👁/=)” of the blog post [3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html), similar to [a post by Michael Gerson](https://missionsixzero.com/the-eye-of-the-hurricane/).
 	- ## subject
 	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
 	  collapsed:: true
@@ -1008,7 +316,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)): The law is an abstraction of the whole which represents the whole to govern the parts.
 					-
 				- The objective and subjective views of the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (as the law):
-					- Objective view of the whole: **intrinsic balance**: The conversation laws, or actually the root law of conservation of content states that the whole is always in balance, i.e. when this part is added, the other part is subtracted, when this dimension is multiplied, the other dimension is divided.
+					- Objective view of the whole: **intrinsic balance**: The conversation laws, or actually the root law of ((67a983b4-f6ad-4abb-b611-7952168d83a2)) states that the whole is always in balance, i.e. when this part is added, the other part is subtracted, when this dimension is multiplied, the other dimension is divided.
 						- This law is the intrinsic nature of the whole, i.e. an abstraction of the whole, representing the whole, but not actually the whole.
 					- Subjective view of the part: **the active balancer**: Any imbalance is just a partial view of the whole, i.e. a view by a part. At any moment this part, as a subject, is aware of its imbalance, it tries to return to the balance state of the whole.
 						- This internal urge of the subject is the restoring force which is a manifestation of the law of balance derived from the whole. In this way, the part is governed by the whole via the law.
@@ -1362,8 +670,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- In space, all ((667bef50-a33a-4275-9ca3-e9d801ab5a81)) has a corresponding ((667bef22-b272-4a7d-b613-3f1ed1a47329)), and they are usually refined to the degree that they seem to be exactly backward of each other, due to complement circles being refined to points.
 			- [First note on fb](https://www.facebook.com/lxdinh/posts/pfbid034MLTAC99b6LG7pdmNKYia9hKaCiwAapreeqdb3vEWMeBvFUiPUdE2Y467AXj7v89l) about this complementarity was on 30 Nov 2017.
+		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Refer” means to “carry back to the origin” which is opposite to “effect” which is to “act out”.
 		- circular reference flow
 		  id:: 667bf520-a80c-4b6d-98d8-1f71cae6fb56
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bfebf-a319-46be-a795-d7fc9c156363)), ((667c0481-27f1-4cd4-adcc-390de0e56cb7))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- self-reference
 			  id:: 667bfebf-a319-46be-a795-d7fc9c156363
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
@@ -1389,10 +700,62 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 667bef22-b272-4a7d-b613-3f1ed1a47329
 	  collapsed:: true
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the sequence of ((66727858-979d-4d95-8a90-7a749218cfba))s where actions are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)).
-		- circular effect flow
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the sequence of ((66727858-979d-4d95-8a90-7a749218cfba))s where actions are arrows [joined head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)). In effect flow, each ((677f509b-f2db-47b1-aafb-5a475334b532)) is also the ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) of next actions. That means there's no pure effect nor pure cause in ((667bf36a-581a-4abe-b544-2d849608a3e4)), and only non-circular effect flow has such terminals. The effect flow is [interpenetrative](((66eb7dae-2032-434b-9106-756d4aad7cdb))) thanks to its mutual ((677f7100-e650-464a-a835-15a9f28df649))s inside.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		  collapsed:: true
+			- “Effect flow” versus causal chain, cause-and-effect chain (CEC), chain of causation
+				- While those “chains” are linear laminar flows (streamlines), effect flow can contain many kinds of **nonlinearity**: eddies as ((667c0031-0a87-44c9-9e98-6d45893b095f))s, interpenetrative mixing through ((677f7100-e650-464a-a835-15a9f28df649))s, branching in both effect cone and cause cone.
+				  collapsed:: true
+					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278&h=482)
+				- In constrast with those “chains”, effect flow is similar to the [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle, a.k.a. twelve-linked chain of conditions (dvādaśa-nidānāni, dvādaśa-hetupratyaya [十二因縁]).
+				- The focus on “effect” instead of “cause” is to show the **observable change** and **emergent** property of the flow. Because the cause is usually hidden and difficult to see, reasoning about cause usually falls into speculation.
+					- Dispel the illusion of “static causes” with the apparently dynamic effect (change).
+					  Just like in the butterfly effect, the very tiny change at the intial condition leads to the giant change in the result, the **apparent staticness** is due to the small scale of the cause, the seed. That impression of a static cause/seed is but an illusion due to our limit of resolution (cannot see its tiny change). In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the tiny intent (cause) is the reciprocal of the huge extent (effect): $i = 1/e$.
+			- Effect flow = wave propagation in a (highly distorted) field, in a landscape of possibilities
+			  id:: 6780bc09-6c98-42ed-bbd1-ff940c2a1d10
+				- conditioning = training = programming = space distortion = field formation = landscape shaping
+					- A circuit is just a field with highly distorted distribution of possibilities, whose landscape contains nearly vertical walls.
+				- mutual influence = interaction in the field; force field = field of influence
+				- influence of condition on the self = program execution to [drive the self particle in the field](((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)))
+					- Self's action is just the result of influence; No action exists apart from influence & condition.
+			- Example: effect flow of a mission via a field agent in the field
+			  id:: 6780bc66-29b3-43f7-b577-698bae51aadf
+			  collapsed:: true
+				- Cause: As the source of the effect flow, the cause of this mission is what the field agent receives in the office: a task to be done, a problem to be solved, etc.
+				- Condition: The condition for this mission includes everything in the field: the configuration of the field, other subjects in the field, etc.
+				- Action: The field agent carries out the mission through the field and deliver the result to the assigned destination.
+				- Influences: As the field agent works in the field, it navigates the terrain, meet and communicate with other subjects in order to accomplish the mission.
+					- Forward influences: In this process, the agent receives influences from the terrain, the objects and the subjects in the field. These factors affect the agent's direction and their influences accumulate in the agent's records, determining the result of the mission.
+					- Backward influences: While working in the field, the agent also removes obstructing objects, makes minor changes to the terrain, and exerts influence on other subjects through communication.
+				- Effect: As the outcome of the effect flow, the effect is whatever the field agent delivers at the destination after completing all the work in the field.
+				- Effect flow: The total effect is not only the outcome (the final effect) but the whole propagation of changes and influences from the initial cause throughout the course of the mission. While the primary and intended effect flows with the field agent from the initial cause to the final effect, various secondary and side effects ripple out through influences back upon the whole field. The primary effect itself not only results from the initial cause but is also accumulated from influences of the whole field.
+				- Relativity of the self: There are many different offices in the field. A field agent can choose one office to work for, which it considers as “*my office* giving *my cause* for me to produce *my effect*”, here called “the office”, “the cause” and “the effect”. Actually, the effect of “the cause” is not only “the effect” but also included in the outcomes of all other missions that have interactions with this field agent. That means the linear relation from “the cause” to “the effect” is just relative to the choice of office, i.e. of the self.
+			-
+			-
+		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
+		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the primary action of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Other secondary actions are ((677f7100-e650-464a-a835-15a9f28df649))s from the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self.
+			  collapsed:: true
+				- ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
+			- ### cause
+			  id:: 677f7108-ffa5-4ea7-9a69-eaa355a7569e
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general, a ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) is any source of an ((66727858-979d-4d95-8a90-7a749218cfba)). But the term “cause” is usually limited to the primary cause of the primary action of the self. Particularly, cause is the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of the source body of the action.
+			- ### condition
+			  id:: 677f7104-7fc4-4034-bb08-0dabd80a586f
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7104-7fc4-4034-bb08-0dabd80a586f)) is the source of ((677f7100-e650-464a-a835-15a9f28df649)) upon the primary action of the self. In the selfless view, “condition” is any ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) of any action.
+			- ### influence
+			  id:: 677f7100-e650-464a-a835-15a9f28df649
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7100-e650-464a-a835-15a9f28df649)) is the action of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f)) upon the primary action of the self. In the selfless view, “influence” is any ((66727858-979d-4d95-8a90-7a749218cfba)).
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Influence” is the “flow into” some body. This inflow is the driving force underlying the [interpenetrative nature](((66eb7dae-2032-434b-9106-756d4aad7cdb))) of the effect flow, as what [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle is to causality.
+			- ((66727858-979d-4d95-8a90-7a749218cfba))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general, ((66727858-979d-4d95-8a90-7a749218cfba)) is any ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) within an effect flow. But the term “action” is usually limited to the primaray action of the subject self.
+			- ### effect
+			  id:: 677f509b-f2db-47b1-aafb-5a475334b532
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677f509b-f2db-47b1-aafb-5a475334b532)) is the target of ((66727858-979d-4d95-8a90-7a749218cfba)) arrow in effect flow. Particularly, effect is the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of the target body resulted from the action. That means the effect is just an ((677f7100-e650-464a-a835-15a9f28df649)) on the target body.
+		- ### circular effect flow
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
 			- self-effect
 			  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
@@ -1403,10 +766,44 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- effect circle
 			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
+				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
+			- ### intentional cause
+			  id:: 677e76ed-b324-4608-b146-90e8fcfa0c32
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((677e76ed-b324-4608-b146-90e8fcfa0c32)) = ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) = the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) = “final cause” in [4 causes by Aristotle](https://en.wikipedia.org/wiki/Four_causes) = [the horizon](((67445223-9459-4aa9-b102-70c63943577b)))
+				  collapsed:: true
+					- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=521&h=482)
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- I don't use the term “final cause” because 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 2) throughout the never ending cycle of effect, it will never be “final”.
+						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
+						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
+				- Various ((667c0031-0a87-44c9-9e98-6d45893b095f))s: ((66f40210-cca6-4d81-85e7-d0c54ef20451)) = dynamic circle = [Five Aggregates](https://en.wikipedia.org/wiki/Skandha)
+				  id:: 674ff584-00e3-40d8-9b77-21e9dca899dd
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-12-04 Wed 13:24:29]
+				  CLOCK: [2024-12-04 Wed 13:24:51]
+				  CLOCK: [2024-12-04 Wed 13:25:01]--[2024-12-04 Wed 20:29:40] =>  07:04:39
+				  :END:
+					- Diagram
+						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=437&h=382)
+					- SCIFER with subtract - divide - add - multiply, and exp-log spiral
+						- subject-object (nāmarūpa) $(c, i)$
+						  → sensation ⟪ $c_k - i = c_{k+1}$ ⟫ 
+						  → conception ⟪ $c/i = e$ ⟫ 
+						  → action ⟪ $f_k + i = f_{k+1}$ ⟫ 
+						  → form ⟪ $i×e = f$ ⟫ 
+						  → awareness ⟪ $c - f = r = i'$ ⟫ 
+						  → inner subject-object $(c', i') = (i, r)$
+						  → ...
+						- Layers of sustents $s_k$ = layers of awareness = layers of log spiral
+							- $r = c - f < i$ is the distance to target, error, mismatch of the outer layer which is the intent of the inner layer $r = i'$ to look at the outer self $i = c'$.
+					- dynamic circle: position → yank → force → momentum → position → ....
+						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f'' = - f$
+						- The `exp()` function arises from the the differential equation $f' = f$
 		-
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
@@ -1449,6 +846,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- A ((66723642-58f1-4a74-bba3-0108f14c6bac)) in philosophy is a [perspective (point of view)](https://en.wikipedia.org/wiki/Perspectivism), which can be a [worldview](https://en.wikipedia.org/wiki/Worldview).
 			  id:: 66b1cfa4-3db2-4d2c-9b9f-478417632c97
+				- Nietzsche's [perspectivism](https://en.wikipedia.org/wiki/Perspectivism) formalized philosophies of [Protagoras](https://en.wikipedia.org/wiki/Protagoras) (pre-Socratic Greek), [Michel de Montaigne](https://en.wikipedia.org/wiki/Michel_de_Montaigne) (French Renaissance), and [Gottfried Leibniz](https://en.wikipedia.org/wiki/Gottfried_Leibniz) (German polymath).
 			- The central doctrine in Jainism is [Anekāntavāda](https://en.wikipedia.org/wiki/Anekantavada) meaning not-one-side emphasizes the nature of many different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same thing.
 			- In Buddhism, a [view](https://en.wikipedia.org/wiki/View_(Buddhism)) is a product of [mental conditioning](https://en.wikipedia.org/wiki/Sankhara), and "[Right view](https://en.wikipedia.org/wiki/Noble_Eightfold_Path#Right_view)" is the neutral ((66723642-58f1-4a74-bba3-0108f14c6bac)) detached from all conditioning, escaped from the "jungle of views".
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -1512,17 +910,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a cone: the world at the cone base is projected to its image at the cone apex.
-			- #### winding projection
+			- #### wrapping projection
 			  id:: 670cdcb4-3c85-45af-8c30-3c3284ed37df
 			  :LOGBOOK:
 			  CLOCK: [2024-10-14 Mon 16:04:06]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) For the world line $x = F(t)$, winding $F$ around the t-axis with circumference $dx$, i.e. with radius $dx/2\pi$, we have an image of $F$ projected on $t$ as a coil whose frequency reflects the derivative $dF/dt$ as well as the angle between $F(t_i)$ and $t$. When that frequency is mapped to the orthogonal axis $ν = f(t)$, that graph shows the distribution of the thread [on](((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))) t-axis, whose probability density function is $f$ and cumulative distribution function is $F$. This winding projection is the basis for [analysis](https://en.wikipedia.org/wiki/Analysis) of ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) inclusing the [clasical mathematical analysis](https://en.wikipedia.org/wiki/Mathematical_analysis), [vector analysis](https://en.wikipedia.org/wiki/Vector_calculus), and [statistics](https://en.wikipedia.org/wiki/Statistics).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) For the world line $x = F(t)$, wrapping $F$ around the t-axis with circumference $dx$, i.e. with radius $dx/2\pi$, we have an image of $F$ projected on $t$ as a coil whose frequency reflects the derivative $dF/dt$ as well as the angle between $F(t_i)$ and $t$. When that frequency is mapped to the orthogonal axis $ν = f(t)$, that graph shows the distribution of the thread [on](((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))) t-axis, whose probability density function is $f$ and cumulative distribution function is $F$. This wrapping projection is the basis for [analysis](https://en.wikipedia.org/wiki/Analysis) of ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) inclusing the [clasical mathematical analysis](https://en.wikipedia.org/wiki/Mathematical_analysis), [vector analysis](https://en.wikipedia.org/wiki/Vector_calculus), and [statistics](https://en.wikipedia.org/wiki/Statistics).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- winding projection = disk projection is the orthogonal version of the diagonal ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)).
+					- wrapping projection = disk projection is the orthogonal version of the diagonal ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)).
 					  id:: 670cdd0c-a423-463e-a816-952884c57f88
-						- winding projection is within the space only while cone projection is the diagonal between space and time.
-					- n-th term in Fourier series = winding with $dr_0/n$
+						- wrapping projection is within the space only while cone projection is the diagonal between space and time.
+					- n-th term in Fourier series = wrapping with $dr_0/n$
+			- #### winding projection
+			  id:: 67654ecb-896a-4421-95e5-f72c07fc62a4
+			  :LOGBOOK:
+			  CLOCK: [2024-12-20 Fri 18:21:59]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				- ((67654618-70d2-49cd-88b7-f7c4e161dfd9))
 		- ### observation
 		  id:: 66c835e9-83df-4f36-a133-e5ba5926e4ef
 		  collapsed:: true
@@ -1953,7 +1358,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))ing is an ((66727858-979d-4d95-8a90-7a749218cfba)) of the ((669a2487-054d-4408-ae41-189e34af81a9)) itself.
 			- Every ((6672785f-ac9e-42ba-921e-0264d0d83ae2)), i.e. change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (transform), is a change of ((66723642-58f1-4a74-bba3-0108f14c6bac)) via the change of ((667272b8-88a8-4928-a22a-35035c9edf05)).
 			  collapsed:: true
-				- Traversal = listing = enumeration = moving the ((667272b8-88a8-4928-a22a-35035c9edf05)) across the object to view it in a linear view, i.e. thread-view.
+				- ((67a98760-71fa-4033-9c42-f3025d632d04)) = traversal = listing = enumeration = moving the ((667272b8-88a8-4928-a22a-35035c9edf05)) across the object to view it in a linear view, i.e. thread-view.
+				  id:: 6783e3ff-9e8f-43db-a173-5d0c6972deab
 				- Finding = traversal for a target point-view.
 				- Search = traversal for a target ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- Sort = change from object-view to thread-view.
@@ -2194,9 +1600,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- Sustent ($c$, $i$) - Extent ($e$)
 			- Form ($i$, $e$) - Content ($c$)
+				- The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$.
 			- Extensive ($e$, $c$) - Intensive ($i$)
 		- TODO Migrate [[CIE]]
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		  collapsed:: true
 			- Why the intent is under the content in the division $c/i$:
 				- "**Sub**-ject" = **under**-thrown = the **under**lying agent of the action/operation of measurement.
 				- "Unit" is "the one", the one underlying all measurement and the one that any content is measured against... by division.
@@ -2204,11 +1612,50 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Blog [“Bà mẹ” trong “phân số”](https://creatzynotes.blogspot.com/2023/06/ba-me-trong-phan-so.html)
 		- ### SCIFER
 		  id:: 66f40210-cca6-4d81-85e7-d0c54ef20451
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 19:29:20]
 		  :END:
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) theory, ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
-				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced  “cipher” /ˈsīfər/.
+			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
+				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced  “cipher” /ˈsaɪfə/.
+				- Duals: form-content, sustent-extent, intent-extent, extent-phase
+					- extent-phase: the intent sees the _**extent** of the **content**_, as it looks up, and the _**phase** of the **remainder**_, as it looks down.
+					  collapsed:: true
+						- extent = content/intent
+						- phase = remainder/intent = intent'/content' = 1/extent'
+							- Etymology: “phase” is from from the Greek word “phásis” (φάσις) meaning “appearance” of the Moon, planets and celestial bodies in general.
+							- [Antikythera mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism) calculating cosmos phases.
+				- Formulae
+					- $c = e × i + r = f + r$;   $f = e × i$;   $(c, i, r) = (s_0, s_1, s_2)$;   $c/i = [e_0; e_1, e_2, ...]$
+						- [regular continued fraction](https://mathworld.wolfram.com/RegularContinuedFraction.html) & [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
+							- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) formula is refined with the regular continued fraction.
+							  $$\frac{c}{i} = [e_0; e_1, e_2, ...] = e_0 + {\underset {k=1}{\overset {\infty }{\operatorname {K} }}}{\frac {1}{e_k}} = e_0 + \frac{1}{e_1 + \frac{1}{e_2 + ⋱}}$$
+					- ![SCIFER-sef.png](../assets/Uniinfo/Unithread/SCIFER-sef.png)
+						- Horizontal layout
+						  ```
+						      f0   f1   f2
+						  s0 / s1 / s2 / s3
+						    e0   e1   e2
+						  c0   c1   c2   c3  
+						       i0   i1   i2
+						            r0   r1
+						  c = e⋅i + r
+						    =  f  + r
+						  ```
+						- Vertical layout (better for handwriting)
+						  ```
+						  			 c = i⋅e + r  = f + r
+						  	s0       c0
+						  	—— = e0   
+						  f0  s1       c1  i0
+						  	—— = e1
+						  f1  s2       c2  i1  r0
+						  	—— = e2
+						  f2  s3       c3  i2  r1
+						  f = i × e    
+						  ```
+						  ![SCIFER-sef-vertical.png](../assets/Uniinfo/Unithread/SCIFER-sef-vertical.png)
 			- TODO Migrate [[sCIfEr]]
 			- WAIT ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 			  :LOGBOOK:
@@ -2236,6 +1683,28 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2024-09-25 Wed 14:04:07]
 	  :END:
 	  ((665ca429-84e3-49ff-921e-c07d19cd99ba)) ☉ ((6678288e-699b-4325-bdba-bf6349fe0d57))
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((678e1c3f-6202-45aa-8527-f4bdad9927b9))
+		- being
+		  id:: 678e1c3f-6202-45aa-8527-f4bdad9927b9
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3b5e5-496a-4545-be7a-b1df2d94bd11))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)).
+		- *All beings have the same content.*
+		  id:: 678e1960-58d6-4cf3-8fe3-25f2f4489b33
+		  :LOGBOOK:
+		  CLOCK: [2025-01-20 Mon 16:37:39]
+		  :END:
+		  Different beings are just the same content in different forms.
+		  ((665ca48e-f7c1-4541-b5cf-486d86b02997)) ((678e2046-54ac-4284-865d-6f3e38f589a1))
+			- Law of the same content
+			  id:: 678e2046-54ac-4284-865d-6f3e38f589a1
+			  ((665ca495-93b4-47d4-a022-ce511b021a3d)) « ((678e1960-58d6-4cf3-8fe3-25f2f4489b33)) »
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The total content of each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), i.e. all arrows of this being, is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). One being differs from other beings only through its form. That means each being is an instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) which is the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) manifesting in a particular form.
+			- Conservation of content
+			  id:: 67a983b4-f6ad-4abb-b611-7952168d83a2
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a983b4-f6ad-4abb-b611-7952168d83a2)) is a special case of the ((678e2046-54ac-4284-865d-6f3e38f589a1)) when considering a single being throughout time.
+			- **Universal content**
+			  id:: 678e1d31-4874-4df6-bfb4-60822a6b5546
+			  content of every being
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
@@ -2267,10 +1736,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 67138488-2781-42cb-88d4-888346f71c11
 			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual `[WIP]` commits to be merged into ((67139af7-47a6-4441-bd72-5a75448dbb1b)).
 				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
-				- The `WIP`s before a merge will be tracked in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), then `[WIP]` commits will be stored in `log` branch.
-					- Contents of ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) will be flushed to `[WIP]` commit message
-					- The title of that commit will be moved to ((67164cc1-e500-4889-9b6d-12d8dd7fc029)).
-				- Before merging to `store`, flush contents of ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) to an `[m]` commit in `log`.
+				- The WIPs before a merge will be tracked in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), then `[WIP]` commits will be stored in `log` branch.
+					- Each done work in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)) will be recorded with a `[WIP]` commit message, then moved to ((67164cc1-e500-4889-9b6d-12d8dd7fc029)).
+				- Before merging to `store`, flush contents of ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) to an `[m]` commit in `log` branch.
 				- Merge `log` to `store`, amend with `log`'s `[m]` commit message (with prefix `[m]` removed), then cherry-pick it to `main`.
 					- ```sh
 					  #git checkout store
@@ -2323,8 +1791,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn`: global config: **3 links**
 					- `${HOME}/.logseq/config/config.edn`: Flatpack & AppImage installations
 					- `${HOME}/snap/logseq/current/.logseq/config/config.edn`: Snap installation
-					- `diff` check first
+					- first, check `stat` & `diff`
 					  collapsed:: true
+						- ```sh
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn 
+						  stat -c '%i %h' ${HOME}/.logseq/config/config.edn
+						  stat -c '%i %h' ${HOME}/snap/logseq/current/.logseq/config/config.edn
+						  ```
 						- ```sh
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
@@ -2338,8 +1811,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `${HOME}/source/UniinfoNotes/assets/logseq/config.edn`: local config: **3 links**
 					- `${HOME}/source/UniinfoNotes/logseq/config.edn`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/logseq/config.edn`: Linux logseq-notes
-					- `diff` check first
+					- first, check `stat` & `diff`
 					  collapsed:: true
+						- ```sh
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/config.edn
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/logseq/config.edn
+						  stat -c '%i %h' ${HOME}/opt/personal/logseq-notes/logseq/config.edn
+						  ```
 						- ```sh
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
@@ -2354,10 +1832,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- `${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn`: Flatpack installation
 					- `${HOME}/.config/Logseq/configs.edn`: AppImage installation
 					- `${HOME}/snap/logseq/current/.config/Logseq/configs.edn`: Snap installation
-					- `diff` check first
+					- first, check `stat` & `diff`
 					  collapsed:: true
 						- ```sh
-						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq}/configs.edn
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn
+						  stat -c '%i %h' ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
+						  stat -c '%i %h' ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
+						  stat -c '%i %h' ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
+						  ```
+						- ```sh
+						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
 						  ```
@@ -2371,8 +1855,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `${HOME}/source/UniinfoNotes/assets/logseq/custom.css`: theme: **3 links**
 					- `${HOME}/source/UniinfoNotes/logseq/custom.css`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/logseq/custom.css`: Linux logseq-notes
-					- `diff` check first
+					- first, check `stat` & `diff`
 					  collapsed:: true
+						- ```sh
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/assets/logseq/custom.css
+						  stat -c '%i %h' ${HOME}/source/UniinfoNotes/logseq/custom.css
+						  stat -c '%i %h' ${HOME}/opt/personal/logseq-notes/logseq/custom.css
+						  ```
 						- ```sh
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/source/UniinfoNotes/logseq/custom.css
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/custom.css ${HOME}/opt/personal/logseq-notes/logseq/custom.css
@@ -2388,7 +1877,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/pages/share/technical/Git.md`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md`: Linux logseq-notes
-					- `diff` check first
+					- first, check `stat` & `diff`
+						- ```sh
+						  stat -c '%i %h' "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" 
+						  stat -c '%i %h' "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
+						  ```
 						- ```sh
 						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
 						  ```
@@ -2396,11 +1889,32 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ```sh
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Git.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Git.md"
 						  ```
+				- [technical/Linux]([[Linux]]): **2 links**
+				  id:: 6773b551-c64e-414e-85af-bbc45eeadaaa
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md`: Linux logseq-notes
+					- first, check `stat` & `diff`
+						- ```sh
+						  stat -c '%i %h' "${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md" 
+						  stat -c '%i %h' "${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md"
+						  ```
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Linux.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Linux.md"
+						  ```
 				- [technical/JavaScript.md]([[JavaScript]]): **2 links**
 				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md`: Linux logseq-notes
-					- `diff` check first
+					- first, check `stat` & `diff`
+						- ```sh
+						  stat -c '%i %h' "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" 
+						  stat -c '%i %h' "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
+						  ```
 						- ```sh
 						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
 						  ```
@@ -2412,7 +1926,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md`: UniinfoNotes
 					- `${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md`: Linux logseq-notes
-					- `diff` check first
+					- first, check `stat` & `diff`
+						- ```sh
+						  stat -c '%i %h' "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md"
+						  stat -c '%i %h' "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
+						  ```
 						- ```sh
 						  gdiff "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
@@ -2421,8 +1939,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md" "${HOME}/opt/personal/logseq-notes/pages/share/Theme Demo.md"
 						  ```
 			- Workflow
-				- Never do any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
-				- Always update hard-linked files from local repos.
+				- Always update hard-linked files from local repos, after any write operation on hard-linked files, e.g. `pull`, `checkout`, `reset`, etc.
 				- When a hard-linked file must be updated from remote,
 					- at remote repo, the update contents must be transported via the ((66519638-cf5d-409b-9b98-15acabf2268c)) which is not hard-linked; then
 					- at local repo, these contents (blocks) will be moved to the hard-linked files.
@@ -2594,13 +2111,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- the **differential equation** of the microcosm (Trinion), written with the _dynamic equal_ ⟪○ ⇌ ↑⟫.
 		- Three [postulates](((66f3cf07-4be5-4a50-9d99-b190b60f6ffa))) of ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 66f3d61c-35d0-46ae-9786-752af40e64c4
-			- Postulate of Existence
+			- **Postulate of Existence**
 			  id:: 66f3d644-782c-4f33-bd5c-db6e0a2d447a
 			  There _exists_ a ((66f3d561-424a-4e1d-be55-98ac39c48502)) (○).
-			- Postulate of Differentiation
+			- **Postulate of Differentiation**
 			  id:: 1a22a090-6786-4114-8aad-35b122783bff
 			  The Circle transforms into _different_ ((665ca429-84e3-49ff-921e-c07d19cd99ba))s. This transformation is called the ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) (↑) which is itself _different_ from the Circle.
-			- Postulate of Unification
+			- **Postulate of Unification**
 			  id:: c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69
 			  The Circle and the Arrow are two aspects of _the same_ being called ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (⊜). This equivalence is called the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) (`=`). And when the two former components (○, ↑) meet each other, they _recognize_ each other. That recognition is denoted by the _equation_ ⟪○ = ↑⟫.
 		- Three [intrinsics](((66f3e170-dc4b-45ea-8720-de4580a30d01))) of ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
@@ -2648,7 +2165,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Moreover, the Trinion unifies the [emptiness](https://en.wikipedia.org/wiki/Śūnyatā) in the invisible world with the [infinity](https://en.wikipedia.org/wiki/Infinity) in the visible world, thus sometimes is denoted with a circled infinity symbol “♾”.
 				- The vacantism is also expressed in Dao De Jing as the following:
 					- > “The Way is vacant, yet never used up.  
-					  Immeasurable abyss it is, as the ancestor of all things!”_  
+					  Immeasurable abyss it is, as the ancestor of all things!”  
 					  「道沖而用之或不盈。  
 					  淵兮似萬物之宗。」
 					  
@@ -2658,7 +2175,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  「鑿戶牖以為室，當其無，有室之用。」
 					  
 					  — [Chapter 11. The usage of the vacancy](https://ctext.org/dao-de-jing#n11602), Dao De Jing, Lao Tzu
+				- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the physical spacetime as well as all informational spaces are “**vacant**” instead of “empty”. That means they are _spaces of **possibilities**, containing **potentials**_, instead of containing nothing.
 			- Grand Circle (◯) of Unïnfo
+			  id:: 6772a6cd-771f-4f24-9c3a-39c442234be5
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Through [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), the Trinion transforms into various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of all beings in the Universe, extensionally. And intensionally, the Trinion is the Universe itself. Then through [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))), intensionally, every being is just the Trinion itself.
 					- ![GrandCircle](https://docs.google.com/drawings/d/1tVAf16aTCaIdMOOLwqFFA6dChUeUqAF14yav-y81JbE/pub?w=386&h=250)
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
@@ -2895,8 +2414,41 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Abstraction
 		  id:: 6716110e-5f12-4484-97ca-fde30d4ff0d3
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537674-6cf9-4459-8bea-7c1858c694a3)) is the process of abstracting details, i.e. removing details that are irrelevant to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s focus, from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)).
-		-
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537674-6cf9-4459-8bea-7c1858c694a3)) is the process of abstracting details, i.e. removing details that are irrelevant to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s focus, from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)), to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)).
+		- ### ω-abstraction
+		  id:: 67654618-70d2-49cd-88b7-f7c4e161dfd9
+		  :LOGBOOK:
+		  CLOCK: [2024-12-20 Fri 18:22:22]
+		  :END:
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((676550af-8792-4eef-afd7-ae0d949d78a4))
+			- extent abstraction
+			  id:: 676550af-8792-4eef-afd7-ae0d949d78a4
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67654618-70d2-49cd-88b7-f7c4e161dfd9))
+			- circle ((67654ecb-896a-4421-95e5-f72c07fc62a4))
+			- ω-expansion = circle unwinding = multiply with extext
+		- ### φ-abstraction
+		  id:: 676545e8-429c-41e7-97ed-12cc8e8870d4
+		  :LOGBOOK:
+		  CLOCK: [2024-12-20 Fri 18:22:29]
+		  :END:
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((676550e5-6420-425a-97a8-33e5c4a5963e))
+			- phase abstraction
+			  id:: 676550e5-6420-425a-97a8-33e5c4a5963e
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((676545e8-429c-41e7-97ed-12cc8e8870d4))
+			- pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
+			- rounding = abstracting remainder, leaving quotient (extent) & denominator (intent)
+			- φ-extension = add phase refinement (remainder/denominator) to extent
+		- ### ε-abstraction
+		  id:: 676545b3-2d9f-43af-8ff0-3543dbe73159
+		  :LOGBOOK:
+		  CLOCK: [2024-12-20 Fri 18:22:34]
+		  :END:
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67655101-067d-45ab-9943-49e209af44d7))
+			- intent abstraction
+			  id:: 67655101-067d-45ab-9943-49e209af44d7
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((676545b3-2d9f-43af-8ff0-3543dbe73159))
+			- ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
+			- ε-expansion = cone action = multiply with intent
 	- ## name
 	  id:: 665cab38-f8e8-472e-b0a1-60776d492835
 	  collapsed:: true
@@ -3048,9 +2600,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Links: [fb post in Nov 2023](https://www.facebook.com/lexuandinhct/videos/728404692637310), [GeoGebra applet](https://www.geogebra.org/m/j7czr4s5)
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a source ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a target form.
-			  collapsed:: true
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a source ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a target form of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			  collapsed:: true
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
 				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
 				- Function/mapping/projection/light-cone is an abstraction of the flow into just 2 ends of that flow.
@@ -3082,7 +2634,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((670dd83a-3b33-4f1c-bce2-b6ab3783a1dd))
 		- transform
 		  id:: 669dd16c-1836-40ec-86e5-772f8f4774ce
-		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669dd16c-1836-40ec-86e5-772f8f4774ce)), as a noun, includes not only the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), as "trans-", but also the source and target ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of that transformation, as "-form".
 				- In maths, "transform", like [Fourier transform](https://en.wikipedia.org/wiki/Fourier_transform), [integral transform](https://en.wikipedia.org/wiki/Integral_transform), is usually a [transformation](https://en.wikipedia.org/wiki/Transformation_(function)) in [function space](https://en.wikipedia.org/wiki/Function_space), whereas "transformation", like [geometric transformation](https://en.wikipedia.org/wiki/Geometric_transformation), is usually limited to [vector space](https://en.wikipedia.org/wiki/Vector_space).
 		- formal
@@ -3305,19 +2856,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), a ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) can be seen as a sequence of ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. Threads are spun from ((671b6c19-7dee-4548-9154-a5eddbe870fc)) just like yarns are spun from fibers.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), a thread can be seen as a sequence of ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), and the thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. Threads are spun from ((671b6c19-7dee-4548-9154-a5eddbe870fc)) just like yarns are spun from fibers.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [execution thread](https://en.wikipedia.org/wiki/Thread_(computing)), [conversation thread](https://en.wikipedia.org/wiki/Thread_(online_communication)), [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), [screw thread](https://en.wikipedia.org/wiki/Screw_thread), [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic))
 		  id:: 66b1cfa4-6ce7-447b-b637-30d86f0e748e
 		- Vietnamese: sợi, mạch
 		- ### Ω-thread
 		  id:: 66ab75a1-f4a0-4bab-a002-8e573546623a
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language, and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory.
-				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology).
-				  id:: 6716110e-05cf-4cda-9bbd-c47fb74eba13
-				- DOING from nondimensional blob, dot, extend, project, extract to dimensions
-				  id:: 66ab774d-91d2-4c47-8546-78bb17e7e2bf
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67a17ea8-2d20-45fa-9fe6-e998541aa3a5)), mạch ôông
+			- omnithread
+			  id:: 67a17ea8-2d20-45fa-9fe6-e998541aa3a5
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab75a1-f4a0-4bab-a002-8e573546623a))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory. Each Ω-thread is an instance of the Trinion, which can be relaxed into a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), and can be folded into the ((675c03d8-3185-41a8-9f98-e869fabec793)) which includes all possible Ω-threads. Ω-thread corresponds to a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology) in topology. A part (segment) of an Ω-thread is simply called a “**thread**”.
+				- DOING Similar to the ((6772a6cd-771f-4f24-9c3a-39c442234be5)),  ((678e2046-54ac-4284-865d-6f3e38f589a1)) ...
 				  :LOGBOOK:
-				  CLOCK: [2024-08-01 Thu 18:58:40]
+				  CLOCK: [2025-01-20 Mon 20:56:58]
 				  :END:
 				- DOING flow of transforms, implemented by projections
 				  id:: 66faa5fb-01ea-4623-abb2-caf34f0821d6
@@ -3325,19 +2877,84 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  CLOCK: [2024-09-27 Fri 15:15:15]
 				  CLOCK: [2024-09-27 Fri 15:15:30]
 				  :END:
-			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Ōṁ-thread [Ω,ॐ], One-thread [Ω,𝟙], Omni-thread or Overall thread, Ouroboros thread, etc.
+			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Beside the formal names **Ω-thread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df))] & **omnithread** [from ((675c03d8-3185-41a8-9f98-e869fabec793))], it can also be called ōm̐-thread [from ॐ], one-thread [from ((678e228f-1182-4605-9aad-f66f6fbb57bd))], or overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
+				- Vietnamese: mạch ôông (ōm̐-thread)
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
-		-
+			- Dimensionality & directionality
+				- 0 = nondirectional = all directions = omnidirectional
+				  id:: 67505a65-19d8-415a-8b80-c955a8768647
+					- Zero identity: 0 (nondirectional **blob**) = $-1 + 1 = -1 - 2 - 3 - ... - ∞ + 1 + 2 + 3 + ... + ∞$ (balanced infinite **structure**)
+				- 1 = nondimensional = dimensionless = all dimensions = omnidimensional
+				  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
+				  but usually confused with unidimensional
+					- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **hypervolume**)
+				- The [extent](((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
+				  collapsed:: true
+					- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
+						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
+						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
+				- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d))
-		- Unithread
+		- **Unithread**
 		  id:: 66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ac41d1-09e7-44b1-9290-ea7d5f02a817))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is the representation of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) in mathematical language, where everything is represented by the ((66ab75a1-f4a0-4bab-a002-8e573546623a)). ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
-		-
+		- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) operations
+		  id:: 67a963d9-e7d3-4e46-a608-24059d730f4a
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a963d9-e7d3-4e46-a608-24059d730f4a)) are ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s of ((66ab75a1-f4a0-4bab-a002-8e573546623a)), including basic operations like ((67a98760-71fa-4033-9c42-f3025d632d04)), ((67a9876d-03ee-4f1f-85be-619fb54c8bc6)), ....
+			- transcycling
+			  id:: 67a98760-71fa-4033-9c42-f3025d632d04
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a98760-71fa-4033-9c42-f3025d632d04)) is the movement of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) on its ((66ab75a1-f4a0-4bab-a002-8e573546623a)) thanks to its ((66f3e588-9094-45af-9dff-2225c3ac39ab)). In general, there are 3 parts of this movement: thread input, rotating inside, and thread output. Transcycling is the “effect” in ((667bef22-b272-4a7d-b613-3f1ed1a47329)) of the Ω-thread. In Unithread view, all [bodies](((66c810a0-9861-4787-bdcf-1378219332be))) in the worlds, from celestial bodies, organisms (thread = food & info), to simple physical objects (thread = energy), are "living" (existing) by this movement. The difference is just how complicated the "rotation" inside that body is.
+					- Illustration
+					  collapsed:: true
+						- ![RollingLoop](https://docs.google.com/drawings/d/e/2PACX-1vTc1vvF4Bghp7a62iW_QccyZaVtiJR9eD8d44eIxfqCeXof9NY4tvKP179l3tfLH4M7mLZKQXBqWmKc/pub?w=473&h=123)
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “transcycling” = “translation + cycling”
+				  {{embed ((67a963d2-c9b5-47e0-9b4d-9d6323a76c28))}}
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- transcycling ~ ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), while interunion ~ ((66f40210-cca6-4d81-85e7-d0c54ef20451))
+					- ((6783e3ff-9e8f-43db-a173-5d0c6972deab))
+					- ((67836d26-c378-4cc2-9b8d-ecf9ee7f57c1))
+			- interunion
+			  id:: 67a9876d-03ee-4f1f-85be-619fb54c8bc6
+	- ## Omnifold
+	  id:: 675c03d8-3185-41a8-9f98-e869fabec793
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-12-13 Fri 16:59:25]
+	  :END:
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((678e23b4-0fbe-4a5d-923f-6252405053df))
+		- Ω
+		  id:: 678e23b4-0fbe-4a5d-923f-6252405053df
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((675c03d8-3185-41a8-9f98-e869fabec793))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((675c03d8-3185-41a8-9f98-e869fabec793)) is the intension of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)), which is equivalent to the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). While extensionally, the Universe is just a point, its intension is a complicated structure of ((66ab75a1-f4a0-4bab-a002-8e573546623a)) folded and crumpled into a nondimensional & nondirectional blob that contains all possible forms in infinite dimensional space. That means the Omnifold is nondimensional & nondirectional, yet [omnidimensional](((67505a68-91b9-4abb-bf92-4dddad8c5803))) & [omnidirectional](((67505a65-19d8-415a-8b80-c955a8768647))).
+			- For an ((669a2487-054d-4408-ae41-189e34af81a9)) (hypothetically) outside of the Omnifold, it can only see a ((66e43b94-9183-4d49-af85-8a7a1c194c12)) because all content of the Omnifold has been *abstracted*. This point shows its nondirectionality.
+			- When the outside ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) handles the point from the outside, it can only feel the “mass” of the Omnifold, which shows its nondimensionality.
+			- Only when the subject involves in the Omnifold, can it experience dimensions of the Omnifold as volumes and structures of information, as well as directions of the Ω-thread as changes and motions.
+				- The information extraction through observation is called “**thread pulling**”.
+				- The construction of new forms to return back to the Omnifold through action is called “**thread spinning**”.
+			- Different subjects pull out different Ω-threads from the same Omnifold, which are just different ((66723642-58f1-4a74-bba3-0108f14c6bac))s of the same objects, as different ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))).
+			  id:: 6772a6cd-5b37-43ab-b8cb-b9656d26fdcc
+			  collapsed:: true
+				- For example, for an Omnifold in the form of an $m × n$ table,
+					- one subject pulling out row by row will get the thread of $m$ rows, while
+					- the other subject pulling out column by column will get the thread of $n$ columns.
+			- Each subject uses the pulled out threads as contents to spin other threads as new forms, new folds of the Omnifold.
+		- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) From “twofold”, “threefold”, ..., “n-fold”, to “manifold”, and now “omnifold” as the ultimate “fold” 😄!
+			- This name has been suggested by Copilot.
+		- |Ω| = 1
+		  id:: 678e228f-1182-4605-9aad-f66f6fbb57bd
+		  The mass (amount of content) of the ((675c03d8-3185-41a8-9f98-e869fabec793)) is [1](((67505a68-91b9-4abb-bf92-4dddad8c5803))).
+		- DOING Compared with other models of the Universe
+		  :LOGBOOK:
+		  CLOCK: [2024-12-13 Fri 18:37:00]
+		  :END:
+			- Block universe
+			- Bulk universe: 4D spacetime is just a [brane](https://en.wikipedia.org/wiki/Brane_cosmology) within this bulk.
+			- Multiverse, parallel worlds
 	- ## uninet
 	  id:: 669dcdf8-a48c-40b1-bdb1-54a73fc5ae71
 	  collapsed:: true
@@ -3359,6 +2976,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ...
 		- cognition
+		  collapsed:: true
 			- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960&h=720)
 			- ### perception screen
 			  id:: 66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50
@@ -3388,10 +3006,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-09-18 Wed 11:37:05]
 			  :END:
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) interacts with objects on the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) in the way a particle interacts with a force field. The circle of effect between the intent cone and the whole ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) is called the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), which comprises many individual circles of effect between the intent cone and individual objects which are also called conscious circles.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) interacts with objects on the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) in the way a particle interacts with a force field. The ((667c0031-0a87-44c9-9e98-6d45893b095f)) between the intent cone and the whole ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) is called the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), which comprises many individual effect circles between the intent cone and individual objects which are also called conscious circles.
 					- The main effect of this circle is maintaining ((66f2681b-796a-4e25-b778-ba4fb6419425)) of the subject and its side effects are ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)) of action and ((66eaa550-4e1e-4126-8004-bf3cb8956829)) of knowledge. This circle is also the one that [mixes](((66eac7d3-f1e6-420c-a2a5-1424c86d4185))) objects' ((66ab6161-0306-42d5-ac16-4155c69216f5))s up to make ((6678d596-9526-405a-968c-e73860e524f3))s in the knowledge cone. That means ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)) is actually a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) between the intent cone and the present cone.
 					- This circle is similar to the [viññāṇa](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na) in Buddhism and is related to the [closed-loop perception](https://en.wikipedia.org/wiki/Perception#Closed-loop_perception).
 			- cones around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
+			  id:: 6735b187-cbe5-4444-bcd4-399d8c36e317
 			  :LOGBOOK:
 			  CLOCK: [2024-09-18 Wed 15:21:27]
 			  :END:
@@ -3487,16 +3106,30 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ### Workspace
 		  id:: 665d1a03-4c61-4d81-ac58-a5a1a7efe568
-			- Each person has a Workspace to work with, which includes a ((6653538a-22d3-4807-ad13-a64ac543edba)) for active tasks at hand, a Task list for future tasks, a [History](((6667add9-3076-4a19-8b15-d1888665a3c0))) for past (done, cancelled) tasks, and other lists like Problem list, Question list, etc. These lists, except History, are in general sorted in reverse chronological order. The Task list is additionally sorted in priority, if any, and the History is in chronological order.
+			- Each person has a Workspace to work with, which includes a ((6653538a-22d3-4807-ad13-a64ac543edba)) for active tasks at hand, a ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) for future tasks, a [History](((6667add9-3076-4a19-8b15-d1888665a3c0))) for past (done, cancelled) tasks, and other lists like Problem list, Question list, etc. These lists, except History, are in general sorted in reverse chronological order. The Task list is additionally sorted in priority, if any, and the History is in chronological order.
 		- ### Workstack
 		  id:: 6653538a-22d3-4807-ad13-a64ac543edba
 			- Just like the [call stack](https://en.wikipedia.org/wiki/Call_stack) of [computer program](https://en.wikipedia.org/wiki/Computer_program), Workstack is a non-strict last-in-first-out (LIFO) list of tasks being worked on by the subject.
 			- All items in the workstack must be prefixed (bullet, task, [?], [!], etc.) to separate with each other, because their order (*from bottom to top*) is opposite to the normal text order (from top to bottom).
+			- Git working with `WIPs`/`log` and `To be merged`/`store`
+			  id:: 67714f65-8591-43ed-8af6-6aa8b9e101e0
+				- **`log` branch** is the **working branch** containing `[WIP]` commits to be merged into `store` branch.
+				- **`store` branch** is the store of full history with logs & WIPs from `log` branch and merge commits to be cherry-picked to `main` branch.
+				- **Block `WIPs`** keeps track of the WIPs before a merge .
+					- Each done work in block `WIPs` will be recorded with a `[WIP]` commit message, then moved to **block `To be merged`**.
+				- Before merging to `store`, flush contents of block `To be merged` to an `[m]` commit in `log` branch.
+		- DOING ### Task list
+		  id:: 67715dbd-5ba6-4fc8-bd3e-5fab97885ae7
+		  :LOGBOOK:
+		  CLOCK: [2024-12-29 Sun 22:23:50]
+		  :END:
+			- This contains all global (context-free) tasks, as well as links of in-context tasks.
+			-
 		- ### Workflow
-			- New works will be carried out from the ((6653538a-22d3-4807-ad13-a64ac543edba)), and their bodies should be placed in document storages like ((665c82c0-ee06-4f43-95b8-73dbbe956080)), ((6653538a-30aa-423f-be89-848ad9c7e331)), etc. Old works from document storages may be continued to be worked with by linking them back to the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)).
+			- New works will be carried out from the ((6653538a-22d3-4807-ad13-a64ac543edba)), whose statuses are tracked in [`WIPs` and `To be merged`](((67714f65-8591-43ed-8af6-6aa8b9e101e0))), and their bodies should be placed in document storages like ((665c82c0-ee06-4f43-95b8-73dbbe956080)), ((6653538a-30aa-423f-be89-848ad9c7e331)), etc. Old works from document storages may be continued to be worked with by linking them back to the ((665d1a03-4c61-4d81-ac58-a5a1a7efe568)).
 			- In the course of working on the current task,
 				- a new task that can/must be done immediately will be pushed to the ((6653538a-22d3-4807-ad13-a64ac543edba));
-				- a new task that should be done later will be pushed to Task list;
+				- a task that should be done later, either new task of old task being paused, will be pushed to ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7));
 				- a problem that cannot or should not be solved right now will be pushed to Problem list;
 				  id:: 665c8a2e-8de9-445f-b7c8-042244afe1c7
 				- a question that cannot or should not be answered right now will be pushed to Question list;
@@ -3513,9 +3146,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Records of history
 		  id:: 6667add9-3076-4a19-8b15-d1888665a3c0
 			- Personal [diary](https://en.wikipedia.org/wiki/Diary), traveler's [journal](https://en.wikipedia.org/wiki/Travel_literature#Travel_journals), vehicle and machine's [logbook](https://en.wikipedia.org/wiki/Logbook), [historical record](https://en.wikipedia.org/wiki/Historiography) written by historian.
-	- ## brain dump
+	- ## braindumping
 	  id:: 6667bf32-ab6a-4d64-842d-45d49137e694
 	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6667bf32-ab6a-4d64-842d-45d49137e694)) is a technique to empty and free the mind by dumping all thoughts, ideas, feelings,... onto a tangible medium, resulting “braindumps”.
+			- “dumping everything inside out”
+			  id:: 6773e4f5-22e4-4628-889f-e8c757fa77a0
+			  The rule of thumb is just let it go, don't keep, don't hold anything back.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- While many authors consider “braindumping” as a sub-technique of “brainstorming”, i consider braindumping as a “wilder” version of brainstorming, i.e. ((6773e4f5-22e4-4628-889f-e8c757fa77a0)).
+				- [Braindumping is simply brainstorming written down.](https://techdayhq.com/blog/2023/08/15/brainstorming-versus-braindumping)
+				- [Braindumping as individual brainstorming](https://www.interaction-design.org/literature/article/learn-how-to-use-the-best-ideation-methods-brainstorming-braindumping-brainwriting-and-brainwalking#braindump_%E2%80%93_individual_brainstorm-12)
 		- Ref:
 			- [How to Brain Dump: A Guide for Clearer Thinking and Organized Planning](https://janesagenda.com/blogs/planning-201/brain-dump)
 	- ## About Legend app
@@ -3533,7 +3174,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665c92d1-565b-4911-a706-b32af429c3aa
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Brainstorming
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c92d1-565b-4911-a706-b32af429c3aa)) is a thinking technique to dump all thoughts out quickly without careful organizing. Compared to ((6667bf32-ab6a-4d64-842d-45d49137e694)), ((665c92d1-565b-4911-a706-b32af429c3aa)) is more freely and toward new ideas instead of organizing old stuffs.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c92d1-565b-4911-a706-b32af429c3aa)) is a thinking technique to spontaneously dump all ideas out quickly without careful organizing, resulting [brainstorms](https://en.wiktionary.org/wiki/brainstorm#Noun). Compared to ((6667bf32-ab6a-4d64-842d-45d49137e694)), ((665c92d1-565b-4911-a706-b32af429c3aa)) is more about ideas about specific topics instead of ((6773e4f5-22e4-4628-889f-e8c757fa77a0)).
 	- ## Will LE
 	  id:: 66536578-c4d3-43f1-b35c-bf71120f0570
 	  collapsed:: true
@@ -3543,6 +3184,399 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Japanese name: LÊ Harusada
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Personal info:
+			- CCCD: `092082007320`
+				- CMND: `025145607`
+			- MST: `8040166197`
+			- HTV staff ID: `230320029`
+		- ### DOING Mind Map
+		  id:: 67760c43-58c6-40eb-b874-40afae448966
+		  :LOGBOOK:
+		  CLOCK: [2025-01-02 Thu 15:44:30]
+		  :END:
+			- Documents
+			  collapsed:: true
+				- ((66b1bbf3-ac04-4d4c-a343-d75130323a7f))
+				- ((6651e92e-fb34-4d24-a386-d9698c2e93f7))
+				- ((6651adea-e1ed-4884-93eb-5ebd6086b62b))
+				- ((6653538a-30aa-423f-be89-848ad9c7e331))
+				- ((67760c3e-2ed3-4b91-9698-8dea6913e419))
+				- ((66519638-cf5d-409b-9b98-15acabf2268c))
+			- ### [Intent](((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))): to be perfect
+				- ((677e8461-3483-4226-9829-127fe79b039a))
+				- ((677e84a1-cb09-43a8-a374-31599c903e11))
+			- #### Problems
+			  id:: 6651adea-46e0-40ea-8fc4-3ef394068b0f
+				- ...
+				- [!] My expression of "arrogance"
+				  collapsed:: true
+					- Even i've never thought that i'm better/higher than anyone else, my expression does show some trace of arrogance which has been fed back by my (close) friends. Is shows something is hidden deep inside my unconsciousness. Here i list some causes that i can reflect on this problem.
+					- 1st, the **illusion of** ((66537674-6cf9-4459-8bea-7c1858c694a3))
+					  id:: 669a58b9-422a-40d9-adcf-b2aade86c170
+					  The (holistic) view from above shows me the way and makes me feel that "i've known the way already, it's just a piece of cake" and forget that it's just a "map" and the actual walking the way is much much harder with much more efforts.
+						- I've called it by many names: the karma of theorist (theorist karma), the sickness of talent (talent sickness).
+						- My karma of theorist also corrodes others' trust on me.
+						  id:: 668f4faf-db30-497a-a271-b2bbf5264413
+						- My karma of theorist is deep.... [inside my trousers 😄](https://www.facebook.com/lexuandinhct/posts/pfbid02kppLiTrw7mWPdp3V8bVLq6MvQDb3FNBaseh1znLspueCQrcC1esTKbsT4PCB8663l)
+						  collapsed:: true
+							- ![KarmaOfTheorist.jpg](../assets/Will/KarmaOfTheorist.jpg)
+						- This illusion contributes greatly to ((669a58b9-1a52-4ad7-932a-9e45ecb9960e)).
+					- 2nd, the **implosive attitude** of my inner self toward external forms as if i'm fighting for the abolition of these forms ("đả phá"). Even though i consider "all views are equal"... they are just "equal in theory" while in practice i have a hidden tendency to consider my "inner view through content" superior to the "external view through form" of others.
+				- [!] The clash between internal work and external work
+				  id:: 6677b986-ada2-4c73-8a11-980cdf9cb6d4
+				  collapsed:: true
+					- As i dive deep inside, it's hard to surface up to do external works, hence many delays in (official) works.
+						- I'm hooked to the deep works in front of my eyes. This hook is the tool that helps me to concentrate and avoid distraction from surrounding environment. 
+						  id:: 669dc514-e137-43de-be7d-6b0a1ac2302d
+						  :LOGBOOK:
+						  CLOCK: [2024-07-22 Mon 09:34:02]
+						  CLOCK: [2024-07-22 Mon 09:34:43]
+						  :END:
+							- Without distraction, it's easier for me to stay in the free & mindful state. But in the free state, it's also difficult for me to interact with external tools like note taking, speaking, writing, forming formula, etc.
+							- This hook can be replaced with the [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))). Using the internal tool (breath) gives me more control than the external tool (external sink).
+					- When i interrupt the internal work, my self is fragmented, heavy, lack motivation to do anything.
+					- DOING **Duck dive** is a serious problem!
+					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
+					  :LOGBOOK:
+					  CLOCK: [2024-12-29 Sun 20:02:37]
+					  :END:
+						- I usually dive head-first, _without planning_, into the works and issues, which usually **branch off** into lots of new works and issues, hence quickly become a forest from the starting single seed.
+						- The [task & issue tracking steps](((66f7af1f-783e-489b-af9c-3ff01fc7d872))) are forgotten many times.
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Beside tracking, i must deploy a **planning** step with ((67714c6b-68b6-4f73-b209-56f5f184c4d9)) method.
+						  id:: 67714aaf-1e7f-4312-9f3c-cb4f06e9b562
+					- **Perfectionism**
+					  id:: 6678d594-9819-4624-abd6-d4ec62b3874f
+					  collapsed:: true
+					  The requirement that my self must be smooth, full, round, coherent, unfragmented is the sign of perfectionism.
+						- First, let's [refine](((669a5162-19e1-4c52-8888-ab7cbfe275ec))) the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works.
+						  id:: 6677bc01-44ec-4e4a-aeed-d63996bc0c46
+						- The illusion of "finish soon"
+						  id:: 669a58b9-1a52-4ad7-932a-9e45ecb9960e
+						  collapsed:: true
+							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When we feel something is finishing soon, we concentrate more on it, put all of our effort to it to get it finished... until we're out of resource and recognize that it's still far from the finish line.
+							- Like the first experience of ["this is not the true peak"](https://www.facebook.com/lexuandinhct/posts/pfbid02eArjSbGz7GhpU2aFwh2qia53BcuwhstSE263jXVvf9tamUbL2K2JCF2LD97RQQ4ql) when i climbed mount Núi Lớn, Vũng Tàu, when i was a child, until now, that illusion is still haunting me.
+							- In gambling/game psychology, it's called "[near-miss effect](https://www.psychologyofgames.com/2016/09/the-near-miss-effect-and-game-rewards/)".
+							  collapsed:: true
+								- ((66602f61-b849-41a9-bdb8-ec91b96adaec)) [chat with Gemini](https://gemini.google.com/app/bdba2d82588d8307)
+							- This [cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias) is just a kind of distortion in perspective view (projective/inversive geometry): 1/∞ = 0.
+							  collapsed:: true
+								- Our view is always distorted so that the far end always look shorter. So, when the goal is clearly visible to us, we can't help seeing the distance to it is short even if it's at infinity, just like the Moon looks very close to us at the horizon like "just some arms away".
+							- The opposite of near-miss effect is the goal-fog effect where we lose motivation to reach a very near goal due to the obscurity of that goal.
+							- It stems from ((669a58b9-422a-40d9-adcf-b2aade86c170))
+								- The seemingly small and easy targets, which are just ((66537674-6cf9-4459-8bea-7c1858c694a3))s, draw me into the rabbit holes.
+								  id:: 6735b189-a8b7-4ff3-b42a-c59f38a8334e
+								  collapsed:: true
+									- An "impossible bug/error" => debug deeply
+									- An "unacceptable term/issue" => research deeply
+									- An "illogical design" => modify deeply
+								- The effect of false contradiction (hidden monster)
+									- Sometime, the whole huge problem is abstracted into a key so small that it becomes a needle lost in a haystack and i cannot find/see that key easily.
+									- => It seems that the problem is "impossible!"
+									- => This discrepancy triggers my anger to tackle the problem "to the end".
+								- The butterfly effect from a tiny mistake to a huge error, the [one-unit error](https://www.geogebra.org/m/xhpjjxyn) at the marginal cases, and so on, are just the extension of the abstracted complex systems.
+						- The illusion of “finished” & target reaching
+						  id:: 6736bd1e-5835-46e4-b640-dd35b3fe7c90
+						  collapsed:: true
+						  :LOGBOOK:
+						  CLOCK: [2024-11-15 Fri 10:41:26]
+						  :END:
+							- ((66725725-f76a-4328-b162-f469b87e871b))
+							  collapsed:: true
+								- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
+							- “Complete, finished, done, target reached, ...” are just illusions. Nothing is actually complete, any ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is just a helix or spiral which is projected onto the plane orthogonal to the direction of change/evolution.
+							- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
+								- The inner target of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+								- The target is the hidden boss, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the underlying driving force.
+								- **Exposing the hidden boss** means **detaching the self**.
+								  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
+									- “Detached self = selfless”
+									- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
+									- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
+									- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
+							- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just _the **beginning** of a new circle_, either at the same level or at “higher” level.
+							- While the true ending, the true finish is the death, either bodily or mentally, we always try to reach the end of some “hard work” wishing to have an easier living, either on Earth or on Heaven, or at Nibbana (Nirvana). That's the basic illusion of both life & death.
+								- The urge to finish is a manifestation of _the urge to die_ in the guise of life, either as an orgasm or an explosion.
+									- While Freud described [death drive](https://en.wikipedia.org/wiki/Death_drive) (Thanatos) as the opposite of sex drive (Eros), i see they are just two faces of the same coin with the same nature.
+								- Due to the guise of life, we fall into the contradiction of continuously reaching (small) deaths in the hope of avoiding (big) death.
+								- Accepting death is no problem to me and i've spent my whole life to explore various types of death.
+							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) the mind to _**start** the new journey!_
+							  id:: 67445065-15b2-475e-a704-78f140d487af
+								- ![reset button](../assets/Will/story/2024-Oct/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
+								- [The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)
+								  id:: 67445223-9459-4aa9-b102-70c63943577b
+									- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.
+									  collapsed:: true
+										- Let's go, don't get too engrossed in this place.
+										- But haven’t we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn’t we enjoy the fruits of our labor instead of moving on, master?!
+										- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
+										- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
+										- If you still want liberation, follow me.
+										- But why do we need to move on when we've reached the destination of liberation?
+										- This is not the destination.
+										- Clearly, back in the city, when I asked, “Where do we go to find freedom?” you pointed to this mountain.
+										- At that time, the city’s buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
+										- So we can never reach the destination 😮‍💨?!
+										- We can.
+										- Have you reached the destination, master?
+										- I have.
+										- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
+										- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn’t say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
+										- I see the horizon as a straight line in front of me, but it’s just an illusion; there’s no actual line!
+										- I only asked if you see it or not!
+										- Yes, I see it.
+										- Now, look behind; do you see the horizon?
+										- Yes, I do.
+										- Look to both the left and right; do you see the horizon?
+										- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don’t ask such redundant questions!!!
+										- If you've seen it, let's go!
+										- Why move on if we'll never reach it?!!!
+										- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
+										- Wait, master, you can't leave! You owe me an explanation of how you can reach that endless horizon!
+										- I've reached it by bringing the horizon right beneath my feet.
+										- 😮 How is that possible...
+										- I told you before that you wouldn't understand! It's only because you pushed me that I had to say it.
+										- ...
+									- [Cái đích là chân trời](http://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
+										- Hai thầy trò sau một tuần thưởng thức phong cảnh hữu tình ở núi Cực Lạc thì sáng ra thầy lại giục trò lên đường đi tiếp.
+										  collapsed:: true
+											- Đi thôi con, đừng để mình chìm đắm vào chỗ này.
+											- Ủa, chẳng phải chúng ta đã tới đích rồi sao?! Đi bao nhiêu lâu, mất bao sức lực, mồ hồi và cả máu mới tới được đích... không hưởng thành quả mà còn đi đâu nữa thầy?!
+											- Ta đã cho con hưởng thụ cả tuần qua rồi đó thôi, nếu con thấy chưa đủ thì cứ ở lại hưởng thụ đi, thầy đi một mình.
+											- Vấn đề không phải là hưởng thụ, con theo thầy là để tới chỗ giải thoát chứ không phải để hưởng thụ. Nếu thích hưởng thụ thì còn đã ở lại trong đời rồi, có bao nhiêu thú vui ở đó chứ theo thầy lên núi chi cho mệt vậy?!
+											- Nếu còn muốn giải thoát thì theo ta đi tiếp.
+											- Nhưng tại sao phải đi tiếp khi chúng ta đã tới được đích giải thoát?
+											- Đây không phải là đích.
+											- Rõ ràng hồi ở trong thành phố, khi con hỏi “đi đâu để tìm được tự do” thì thầy đã chỉ tay về phía ngọn núi này mà.
+											- Lúc đó trong thành phố bị nhà cửa che khuất tầm mắt nên ta phải chỉ ngọn núi cao để cho con thấy thôi, chứ thực ra ý ta muốn nói rằng “cái đích nằm ở chân trời”.
+											- Vậy là không bao giờ tới được đích sao 😮‍💨?!
+											- Tới được.
+											- Vậy thầy đã tới đích chưa?
+											- Ta tới rồi.
+											- Thầy nói dối! Ngày xưa trong thành phố con chưa thấy chân trời bao giờ thì thầy còn có thể lừa con được, chứ mấy tháng nay đi ra ngoài thì con đã chứng thực rồi: Chân trời là vô tận, mình càng đi tới bao nhiêu thì nó càng lùi về xa bấy nhiêu, nên không thể nào chạm được tới chân trời đâu.
+											- Ta không lừa con, ta chỉ nói theo những gì con có thể thấy và hiểu được. Ngày trước ta không nói “đích là chân trời” vì lúc đó con chưa thấy và hiểu rõ chân trời là gì. Hôm nay ta cũng không lừa con, ta chỉ nói theo những gì con đang thấy mà thôi. Này, nhìn thẳng về trước, con có thấy chân trời không?
+											- Con thấy chân trời như một đường thẳng trước mặt, nhưng đó chỉ là ảo giác, thực ra không có đường đó!
+											- Ta chỉ hỏi có thấy hay không?!
+											- Dạ có thấy.
+											- Giờ quay về phía sau, con có thấy chân trời không?
+											- Dạ thấy.
+											- Con nhìn cả trái lẫn phải đi xem có thấy chân trời không?
+											- Thôi khỏi! Trên đỉnh núi 🗻 này thì dòm đâu chẳng thấy chân trời, thầy đừng hỏi những câu thừa thải như vậy nữa!!!
+											- Thấy rồi thì đi thôi!
+											- Đi chẳng bao giờ tới thì đi làm gì cơ chứ?!!!
+											- Ta đã tới rồi nên mới dẫn con đi. Con không muốn đi thì cứ ở lại đây.
+											- Khoan, thầy không được đi! Thầy còn nợ con lời giải thích làm sao thầy có thể tới được cái chân trời vô tận đó!
+											- Ta tới được bằng cách kéo chân trời về ngay dưới chân ta.
+											- 😮 Làm sao có thể được...
+											- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
+											- ...
+									- “Bringing the horizon right beneath the feet”
+										- Gemini's interpretation:
+										  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
+									- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
+										- [一山還有一山高](https://en.wiktionary.org/wiki/%E4%B8%80%E5%B1%B1%E9%82%84%E6%9C%89%E4%B8%80%E5%B1%B1%E9%AB%98)
+										- [Déyé món gen món](https://asfehaiti.wordpress.com/2015/12/16/deye-mon-gen-mon/)
+										  Haitian Creole proverb meaning “beyond mountains there are mountains”.
+										- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
+										- “When you have reached the top of the mountain, keep climbing!”
+										  a (Tibetan Zen) proverb
+								- Let's restart from the way/attitude of looking at everything!
+									- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
+									- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
+									- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
+									  collapsed:: true
+										- There is the ultimate purpose, but it's **not "final"**. The ultimate goal/purpos is the "[horizon](((67445223-9459-4aa9-b102-70c63943577b)))" which is always vividly there, always the guiding direction for us, but can never be "final" or "finished".
+										- As long as we're walking, we're "on the horizon"; anytime one thinks "i've reached the target", that one is deluding itself and effectively withdraw itself away from the horizon.
+										- It's the difference between cyclic nature and linear nature, between the circle and the arrow.
+										- The ultimate goal is (the center of) the totality, the whole, while all targets are intermediate points on the (endless) way to the goal.
+								- Training the non-attached looking
+									- First, detach, keep distance until the mind returns to neutral attitude.
+									- Next, slowly approach the object while being aware of all mental reactions.
+									- Observe the reactions and connect them with the whole, reminding the whole with all aspects, all sides, all conflicting parts.
+									- Frequently back off for the holistic relations to emerge.
+									- Remember to breathe!
+									- In the training, all actions should be done automatically without any intention.
+									- Training sessions should run alternately with actual working sessions.
+								- DOING “**Stop - Breath - Observe - Plan**”
+								  id:: 67714c6b-68b6-4f73-b209-56f5f184c4d9
+								  :LOGBOOK:
+								  CLOCK: [2024-12-29 Sun 21:06:08]
+								  :END:
+									- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
+									- Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
+									  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
+									  collapsed:: true
+									  :LOGBOOK:
+									  CLOCK: [2024-12-29 Sun 21:32:09]
+									  :END:
+										- The master plan keeps the mind near the root, and have a bird's eye view.
+										- The task is usually placed in the context work with status `TODO`, `DOING`, `WAIT`, `IN-PROGRESS`, or `CANCELED`.
+										- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
+										- The plan is to the work as the table of contents is to the document.
+										- Orders & flows
+											- Pagination: [[Task]], [[Story]], [[Braindump]], [[Brainstorm]] are split by page per year.
+												- [[Brainstorm]]  is sorted in inverse chronological order.
+												- Others are sorted in chronological order.
+											- No pagination: [[Mind Jungle]]
+											- Year Tasks = past tasks> Tasks[ current > future > deferred & backlog]
+												- Move current tasks done, i.e. past tasks → Year Tasks
+												  id:: 67760c43-d4fb-43e3-ab23-16720723f800
+											- Year Braindumps > ((db954501-95d0-46e2-b1fc-39b6a966300e)) 
+											  ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) > Year Brainstorms
+												- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
+												  id:: 67762e67-bcfc-403b-a314-44213523f905
+											- ((6651adea-81d4-40a5-b96d-af6739e572eb)):
+												- ((67139355-ac72-4e4c-b882-00bb3a3ea144)):
+													- ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) > ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
+														- Move WIPs from `WIPs` → `To be merged`
+												- ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place:
+													- ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
+														- ((67762e67-bcfc-403b-a314-44213523f905))
+													- ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
+														- ((67760c43-d4fb-43e3-ab23-16720723f800))
+										- Master plan:
+										  id:: 67760c43-5cbd-4b4f-8fd9-5cedf804f56a
+										  :LOGBOOK:
+										  CLOCK: [2025-01-02 Thu 14:44:16]
+										  :END:
+											- spatial versus temporal, like [urban planning](https://en.wikipedia.org/wiki/Urban_planning)
+											- spatial: ((67760c43-58c6-40eb-b874-40afae448966)) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place = 0 = out
+											- temporal: ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
+											- design ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982)))
+												- start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
+													- → down to tasks, deep into in-context tasks
+													- → at break points (temporary break, task complete, new issue), return to braindumping
+													- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
+													- → re-evalutate the current task
+														- re-evaluate the workload and relation to other tasks to update the task in Task list
+															- update task priority (moving up/down the tak lists), and update/add ((67764baf-0cda-464b-84fc-c11b4ebe5539))s
+														- ask "why" to return up to the Mind Map
+															- most of the time, this will be just another instance of a problem/question already in the Mind Map, so just link back to it.
+															- some rare times, Mind Map will need to be updated.
+													- → down to current (new) issue or task
+													- → continue...
+												- The root of all issues and all effect flows is the problems and questions in the Mind Map.
+													- Question is a special kind of problem: ⟪ [?] what is this? ⟫ = ⟪ [!] this knowledge is missing! ⟫
+													- Effect circle: from problem → requirement → task → check result agaist requirement → update requirement (and problem) until the problem is (re)solved.
+												- ⟪causes ⇒ action⟫ block
+												  id:: 67764baf-0cda-464b-84fc-c11b4ebe5539
+												  collapsed:: true
+												   in Braindumping
+													- use `[⇒]` to mark the cause block of some action
+														- if it's a compound action, link to that action block
+														- for simple action, just write it in plain text after `[⇒]`
+														- it's better to display the causes above the ⟨`[⇒]` action⟩, just like backlinks
+															- but that's not supported in Logseq now
+														- the ⟨causes ⇒ action⟩ block should be read in reverse order in the current format: causes are sub-blocks of action.
+													- [⇒] ((67764c9e-2cb1-4e0b-a318-9e14dade130d))
+														- cause 1
+														- cause 2
+													- do something
+													  id:: 67764c9e-2cb1-4e0b-a318-9e14dade130d
+														- task 1
+														- task 2
+												- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+													- Machines lack effect circle, don't know the "why", the root purpose.
+												- turn all works into **problem solving** works _around the **intent**_
+												  id:: 677fca96-1e71-4af7-9a99-1c751d145358
+													- problem = mismatch = distance to target (center)
+													- question = infinite/open problem
+													- question for knowledge cone <> problem for effect cone
+													  id:: 677fcaba-d2ca-4afd-9698-b33255a774e0
+														- the knowledge cone reflects the effect cone though the interaction between knowledge circle and effect circle:
+														- intent - question - (sub-intent) - answer = knowledge -> action
+														- intent - problem - (sub-intent) - action - result -> new knowledge
+														- this flow of effect gives knowledge to other threads of knowledge
+														- when this flow gets stuck due to the lack of knowledge in this thread, just switch to the next flow waiting in the task list
+														- effect flow = program execution history = braindumping
+											- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
+											  > Matter planning is a really apt name.
+											  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
+						- The effort justification & sunk-cost fallacy
+						  collapsed:: true
+							- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
+						- The ((6678282b-d710-4c6b-b584-5f65012c192d)) effect
+						  collapsed:: true
+							- The great momentum of the past is the internal form.
+							  collapsed:: true
+								- Just be mindful that we don't lose that momentum when we switch to other works, just put it down to be picked up later on.
+							- The clearly visible goal of the future is the external form.
+							  collapsed:: true
+								- The clarity of the goal shows that it's very large, like the Sun & Moon, hence a form outside.
+								- Just be mindful that although it's worth pursuing, it's still very far.
+							- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) is to dissolve the form and direct it to the new form.
+							- Mindfulness as a hole-punching tool to escape the form.
+							  collapsed:: true
+								- The tantric practice shows that both the accumulation of momentum and the "finish soon" effect require ignorance in the form of attachment to the external signal (sign of the goal).
+								- Unmindfulness of the internal momentum makes it push us from behind and control us.
+								- Unmindfulness of the illusion of the external signal makes it feel near outside while in fact it's near inside and very far outside. That's because the signal outside is just the image/shadow of the goal inside.
+								  collapsed:: true
+									- This discrepancy forces all of us to chase shadows from life to life.
+						- ((66b1cfa4-369c-49ec-a461-cdda61633460))
+					- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
+					  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
+						- Any new block, even plain text, should be [time tracked](((66b1cfa4-0f03-4da2-b34b-d995d3c888b0))) [with `Ctrl Enter` -> `TODO`](((66b1cfa4-8842-4b3c-876b-e60d4b7fd819))) or [with `Alt Enter` -> `DOING`](((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))).
+						  id:: 66f7af1f-783e-489b-af9c-3ff01fc7d872
+						  :LOGBOOK:
+						  CLOCK: [2024-08-15 Thu 16:29:20]
+						  :END:
+						- [!] Too many fragmented non-`DONE` & non-`DOING` works will cost high overhead to reload these works into the mind later on.
+						  :LOGBOOK:
+						  CLOCK: [2024-08-15 Thu 16:29:13]
+						  :END:
+							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Must keep balance between leaving unfinished works and [completing works](((6678d594-9819-4624-abd6-d4ec62b3874f))).
+							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) We should regularly **clean up and reorganize** works so that later accesses will be easier, clearer.
+						- addition = insertion sort
+						  Each addition of new items into a previous work is a step of insertion sort.
+						- access = reorganize
+							- Each access of an old work from a new context reveals a new ((66723642-58f1-4a74-bba3-0108f14c6bac)), new ((667d0b78-fff6-49bc-90d5-165648ed56d3)), hence the old work should be updated to reflect this new view.
+							- When a later access shows any difficulty in understanding or any inconsistency, the old work should be reorganized.
+							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) the more accesses to a work, the better organized that work will be.
+					- Solution to my problem of "wandering, lost in complexity": shift from depth-first to breadth-first traversal
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2024-09-19 Thu 12:24:53]
+					  :END:
+						- when it's too deep with analytics (differential), it's too abstract, lacking context, groundless, formless, messy, collapsed, the object is sliced into disconnected parts
+						- traversal on the breadth with SCIFER provides context, condition (duyên), and form to stretch the loop out to be a full circle 🌕, to be the whole
+						- However, ((67a5d140-31e4-451d-a8ea-33fa6927ce99))
+				- [!] The issue of love, i.e. emotional attatchment
+				  collapsed:: true
+					- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
+				- [!] Windows 10 (seems from Windows 7) lets its window borders be dragged off the screen!
+				  id:: 66adf2e5-ddde-4ee3-8086-78ce57483837
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-08-03 Sat 15:30:44]--[2024-08-03 Sat 17:01:02] =>  01:30:18
+				  :END:
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- This is a feature for seamless multi-display settings, but should be across displays next to each other only, not protruding out of visible areas like this.
+						- Sometime we need to _intentionally drag windows partly off the screen_ to leave space for other windows and because we **don't want to resize** that window.
+							- This can be balanced with the normal constraint of windows within screen by edge snapping.
+								- But [Windows Snap](https://support.microsoft.com/en-us/windows/snap-your-windows-885a9b1e-a983-a3b1-16cd-c531795e6241) feature **always resize** the snapped window.
+								- There's an option "When I snap a window, automatically resize it to fill available space", but unchecking it has no effect.
+								  collapsed:: true
+									- ![Windows10-SnapWindow-settings.png](../assets/GUI/Windows/Windows10-SnapWindow-settings.png)
+						- StackOverflow question with negative answer: [Prevent windows from being dragged past the edge of screen](https://stackoverflow.com/questions/44219386/prevent-windows-from-being-dragged-past-the-edge-of-screen)
+						- Someone met the problem of [windows open off screen](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-windows-open-off-screen/0f2432ad-c60d-4bce-808b-3f0c403ce9f2) with no effective solution, too.
+				- [!] Time is always gone too fast! :(
+				  id:: 66600918-315b-4f6c-970b-3039ac8ef912
+				- [!] ((66536578-c4d3-43f1-b35c-bf71120f0570)) is not perfect.
+				  id:: 677e84a1-cb09-43a8-a374-31599c903e11
+				- <<End Problems>>
+				  -------------------
+			- #### Questions
+			  id:: 6651adea-f2f6-4c9e-80b4-ece0bb5038fb
+				- ...
+				- [?] What's the relation between  [lattice group](https://en.wikipedia.org/wiki/Lattice_(group)) and  [lattice order](https://en.wikipedia.org/wiki/Lattice_(order))?
+				- [?] When will I be liberated :-?
+				- [?] What's “perfect”
+				  id:: 677e8461-3483-4226-9829-127fe79b039a
+				- <<End Questions>>
+				  --------------------
+			- ...
+			-
+			-
+		-
 	- git
 	  collapsed:: true
 		- moved to ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
@@ -3792,6 +3826,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  id:: 66600918-66b3-4d4b-9ef3-6b3d6986ebdd
 		  collapsed:: true
+			- [!] The barrier between workspaces ("graphs" in Logseq)
+			  collapsed:: true
+				- In Logseq, ((665fe765-2bb7-4392-9140-10e187f0f208))
+				- Some independent works, like [[Theme Demo]] , can be copied (manually).
+				- But interlinked works are complicated:
+					- Either we must copy the whole closure of linked works
+					- Or we must prune "unnecessary" links.
 			- It runs somehow slower and heavier than ((66535660-643e-471a-a332-8f2306c5494f)).
 			- The right sidebar together with the main edit pane is a convenient way to do side-by-side 2-column working.
 			  {{embed ((7ce45435-dfac-4391-a570-ebd0d434d8d6))}}
@@ -4082,8 +4123,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  expected: (empty? (set/difference (set block-refs) (->> (d/q (quote [:find (pull ?b [:block/properties]) :in $ % :where (has-property ?b :id)]) (clojure.core/deref state/db-conn) (vals rules/query-dsl-rules)) (map first) (map (comp :id :block/properties)) set)))
 									    actual: (not (empty? #{"(665374b0-1ed9-420b-afc4-897a942c0be0" "(667d2689-4ce0-4c79-b82a-25b0bba87d39"}))
 									  ```
-								- [665374b0-1ed9-420b-afc4-897a942c0be0: Bosidian Dataview](((665374b0-1ed9-420b-afc4-897a942c0be0)))
-									- [using a  `dataviewjs` script (Bosidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
+								- [665374b0-1ed9-420b-afc4-897a942c0be0: Obsidian Dataview](((665374b0-1ed9-420b-afc4-897a942c0be0)))
+									- [using a  `dataviewjs` script (Obsidian Dataview)...](((66535389-2af3-4fea-a036-e6fe716c995f)))
 								- [667d2689-4ce0-4c79-b82a-25b0bba87d39: Block ref](((667d2689-4ce0-4c79-b82a-25b0bba87d39)))
 									- [Should be `(Block ref...)`](((6683ea7c-a48c-4998-8f2b-40d4d9bc16a9))) < ((6683ea7c-c94f-4970-bcd1-d3b468c32ab7)) < ((667d263b-658b-4560-b8cc-f6838534956d))
 								- => Temporarily insert space between open parenthesis and block refs.
@@ -4120,6 +4161,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Delete the old `Mind Jungle` > `Git` and revert UUID of [Git > Git](((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))) to `666ba1e2-19d1-409e-b30e-42a99b7e4ec0`.
 							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again: missing `671f467e-6f1f-4436-a0dd-9a03055e11a9` in Linux > ((6735b188-e391-498b-a01b-35797616f7b6)) > ((671f467e-6f1f-4436-a0dd-9a03055e11a9))
 							  id:: 6735b6bf-6141-48e3-9e12-2473a01dafb0
+							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2024-11-14 Thu 15:40:05]--[2024-11-14 Thu 16:12:16] =>  00:32:11
 							  :END:
@@ -4132,6 +4174,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- then `file mode bits` was [moved](https://github.com/bixycler/UniinfoNotes/commit/e6d0f7279ee9b3a80e952f92d172eaefa03d0fab "16:24:44 commit e6d0f727") to `concepts` with [drag & drop](((6716110e-51bb-40b2-b98c-503061212007)));
 									- then somehow the id of `file mode bits` was removed in [commit 762e2c90c](https://github.com/bixycler/UniinfoNotes/commit/762e2c90c9ffff2519dc5a2b1f7942727f5fcbcc "17:04:44").
 							- DONE [!] Failure in `assets-exist-and-are-used`: the file `Logseq publish.edn` is "unused"
+							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2024-12-03 Tue 17:46:05]
 							  CLOCK: [2024-12-03 Tue 17:46:07]--[2024-12-03 Tue 17:55:25] =>  00:09:18
@@ -4145,6 +4188,32 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								    actual: (not (empty? #{"Logseq publish.edn"}))
 								  ```
 								- The PDF embedding feature is not very useful, so we always remove the auto-generated `.edn` files which are placed at the root of `assets/` instead of at the same folder as `.pdf` files.
+							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-12-29 Sun 14:57:40]--[2024-12-29 Sun 15:04:21] =>  00:06:41
+							  :END:
+								- Situation
+									- Different Logseq instances were synced by Git only, without refreshing graph DBs.
+									- Block ids in page [[logseq/config.edn]] are missing in this instance's graph, but Logseq didn't update them from `logseq___config.edn.md`.
+									- When the block ref `TODO Relink $GlobalConfig` was created, it invoked the creation of a new block id for `$GlobalConfig`
+								- Faulty commit: `85656fb`: Auto saved by Logseq
+									- Block id replaced: `Global File: global/config.edn`
+										- New block id was created with new block ref
+											- > `TODO` Relink [Global File: global/config.edn]
+											- > `TODO` Relink `((``676fa38e-d32f-493b-97e8-9e348eaf572b``))`
+										- **conflict** with already indexed id in `logseq___config.edn.md`.
+											- > All configs are moved to the `((``66fe86b8-f17e-4b3f-b27f-213b3500146f``))`.
+									- Block id removed: `Local File: config.edn`
+										- > `((``66faa5f7-af4f-4ca6-9621-56ab8dadbe94``))` overrides config keys in this global file except for maps which are merged.
+							- DONE [!] Failure in `block-refs-link-to-blocks-that-exist` again after ((67710af1-e3f0-4f94-917c-5235c210f082))
+							  id:: 6772a6cd-319d-49d5-acec-ff6053a97a34
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-12-29 Sun 19:28:58]--[2024-12-29 Sun 19:36:53] =>  00:07:55
+							  :END:
+								- The [Name search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))) has its block id ripped off from markdown 🙁, while still retained in graph DB!
+								- This is the known issue: ((6766ef9d-3add-4400-90b0-131f51d8c23a))
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
@@ -4187,7 +4256,58 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Thanks to atomicity, this operation is rather safe, but...
 						- [!] The moved block usually has problem displaying at its destination.
 						- [!] Sometimes the move on GUI (and in the ((66f7b4fd-e34e-4fc3-9c2d-d468206d279b))) is not reflected to the Markdown source files.
-						- [!] Sometimes the moved block [still lacks id!](((6735b6bf-6141-48e3-9e12-2473a01dafb0)))
+						- [!] Sometimes the moved block still has **problem with block id**!
+						  id:: 6766ef9d-3add-4400-90b0-131f51d8c23a
+						  collapsed:: true
+						  :LOGBOOK:
+						  CLOCK: [2024-12-31 Tue 14:31:33]--[2024-12-31 Tue 15:11:25] =>  00:39:52
+						  :END:
+							- ((6735b6bf-6141-48e3-9e12-2473a01dafb0))
+							- ((6772a6cd-319d-49d5-acec-ff6053a97a34))
+							- DONE [!] **Ghost UUIDs** after moving blocks
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2024-12-31 Tue 14:41:40]
+							  CLOCK: [2024-12-31 Tue 14:41:46]--[2024-12-31 Tue 15:02:28] =>  00:20:42
+							  :END:
+								- There are two "ghost UUIDs" remembered by Logseq in its graph DB,
+								  which were added back to the old slots after these blocks were moved away:
+									- `6673f8bf-04c0-4f8f-bc36-982ce9cab87d`: `Custom Logseq publish via Web API`
+									     moved from [[Workspace]] to [[Mind Jungle]]
+									- `66949495-3846-4f89-9ea5-c62b624d282c`: `Linux`
+									     moved from [[Mind Jungle]] to [[Linux]]
+									- They were fixed in [commit `6a6477ed`](https://github.com/bixycler/UniinfoNotes/commit/6a6477ed)
+								- Change details for `66949495-3846-4f89-9ea5-c62b624d282c` [((66949495-3846-4f89-9ea5-c62b624d282c))]
+									- a04b60d0: add id to the old slot in Mind Jungle => ((667bfebf-a319-46be-a795-d7fc9c156363))!
+									- 926acf05: move `Linux` from [[Mind Jungle]] to [[Linux]]
+									- 70e37387: add `Linux` to [[Mind Jungle]]
+								- Change details for `6673f8bf-04c0-4f8f-bc36-982ce9cab87d` []
+									- It was first drafted in Workspace, then moved to Mind Jungle.
+									- Since then, the id was **moved back and forth** between the empty block in Workspace and the block in Mind Jungle.
+									- Git commits in 2024/{from 06/23 to 12/30}
+									  collapsed:: true
+										- 2024/12/30
+										  `a04b60d0`: add to Mind Jungle
+										- `e143a5a3`: remove from Mind Jungle
+										- `3370210d`: add id to empty block in Workspace
+										- `f418b4c4`: remove id from empty block in Workspace
+										- `962f2104`: add to Mind Jungle
+										- `df647b94`: remove from Mind Jungle
+										- `fe434a4c`: add id to empty block in Workspace
+										- `6b960a02`: remove id from empty block in Workspace; move a ref block with the same id in Workspace
+										- `9b386359`: add id to empty block in Workspace
+										- `da19d7d1`: add to Mind Jungle
+										- `62a5452c`: remove from Mind Jungle
+										- `8852d96e`: add id to empty block in Workspace
+										- `5663fc46`: remove id from empty block in Workspace
+										- `9c9a54a6`: add to Mind Jungle
+										- `9b68ad70`: remove from Mind Jungle; add id to empty block in Workspace
+										- `71233eec`: move the block with id from Workspace to Mind Jungle
+										- `f95e1668`: add the block with id to Workspace
+										  2024/06/23
+								- Note: `History` was also moved from [[Workspace]] to [[Task]] but does not have similar problem!?! Maybe because the old slot was at the last place of [[Workspace]] which was removed completely so that no other block could be mistaken as “the old block” .
+									- `1ae146f4`: move `History` from [[Workspace]] to [[Task]]
+									- `ea416165`: create `History` in [[Workspace]]
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
@@ -4232,13 +4352,25 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [Breadcrumb bar should contain the target item](https://discuss.logseq.com/t/breadcrumb-navigation-bar-should-contain-the-target-item/27511) as the last non-link element.
 				- Breadcrumb bar should contain ((66626356-0ad9-4219-9b33-8ab7c6cd0508)) instead of full length items.
 				- Sticky breadcrumbs [via CSS](https://discuss.logseq.com/t/have-the-page-title-or-block-breadcrumbs-as-an-always-visible-overlay-at-the-top-of-the-screen-when-scrolling-down/20617/5).
-			- Task management
+			- Task management & timestamp
 			  collapsed:: true
 				- ((66600918-740c-4b67-be6e-5b3bd7535fb7))
 				- A task with status `DOING` will be time tracked in `:LOGBOOK:`.
 				  id:: 66b1cfa4-0f03-4da2-b34b-d995d3c888b0
 					- Switching to `DOING` (clicking `marker-switch` button) marks the start time, then switching to `TODO` (clicking `marker-switch` button) or `DONE` (clicking checkbox) marks the end time.
 					- A plaintext item can get time tracked by being promoted to `DOING` task then demoted back to plaintext. I defined ((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))
+				- Block timestamp
+					- use command `/Today` and `/Current time`, e.g. `/Today` = [[Fri, 2025/01/03]], `/Current time` = 10:35
+					- use command `/Deadline` or `/Scheduled` to pick other date/time then copy it, e.g. <2025-01-03 Fri 8:21>
+					  DEADLINE: <2025-01-03 Fri 8:21>
+						- use `DOING` task, e.g. with [`Alt` `Enter`](((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))), and copy from `:LOGBOOK:`, e.g. CLOCK: [2025-01-02 Thu 18:34:53]
+						  :LOGBOOK:
+						  CLOCK: [2025-01-02 Thu 18:34:53]
+						  CLOCK: [2025-01-02 Thu 18:35:56]
+						  CLOCK: [2025-01-02 Thu 18:44:46]--[2025-01-02 Thu 18:44:46] =>  00:00:00
+						  :END:
+					- ref: [Displaying block timestamps](https://discuss.logseq.com/t/displaying-block-timestamps/24594)
+					- Dynamic variable `<% today %>`: {{query <% today %> }}
 			- [DataScript](https://github.com/tonsky/datascript) Query
 			  id:: 66acc24c-4cd7-4568-8c47-79798fc09433
 			  collapsed:: true
@@ -4266,13 +4398,52 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [Special values](https://docs.logseq.com/#/page/advanced%20queries/block/query%20inputs) for `:inputs[]`, e.g. `:parent-block`, `:today`, etc.
 						- defined in [db.cljs](https://github.com/logseq/logseq/blob/master/deps/graph-parser/src/logseq/graph_parser/util/db.cljs#L77)
 					- Built-in functions for `:where` are defined in  [DataScript](https://github.com/tonsky/datascript)'s [built_ins.cljc](https://github.com/tonsky/datascript/blob/master/src/datascript/built_ins.cljc).
-						- Core functions like  `if` are not supported!
-						- Very limited `clojure.string` functions: `blank`, `includes`, `starts-with`, `ends-with`
+					  id:: 677bcacd-3de2-48c1-9788-1eab574c4812
+						- [!] Core functions like  `if` are not supported!
+						  collapsed:: true
+							- We must use `(or (and [?condition-yes] ...) (and [?condition-no] ...) )`
+						- [!] Sequence basics like `first`, `rest`, `nth` are not supported!
+						  collapsed:: true
+							- We must use pattern matching to get elements in sequence, e.g.
+							  id:: 677bfcff-0990-45e5-9319-19e796ec1e84
+							  ```clojure
+							  [ (re-seq ?pat-date-wd-time ?deadline) ([_ ?deadline-date ?deadline-time]) ]
+							  ```
+						- [!] No way to parse number from string!
+						  id:: 677bfe2d-e7df-46ba-a306-db1a7e9b771a
+						  collapsed:: true
+							- Unsupported: [int](https://clojuredocs.org/clojure.core/int), `Integer/parseInt`, `js/parseInt`
+						- Very limited [clojure.string](https://clojuredocs.org/clojure.string) functions: `blank`, `includes`, `starts-with`, `ends-with`
+						- Supported RegEx in [clojure.core](https://clojuredocs.org/clojure.core): `re-pattern`, `re-find`, `re-matches`, `re-seq`
 					- To get the block with specified `${UUID}`, use `[:block/uuid #uuid "${UUID}"]`.
 					  collapsed:: true
 						- `:inputs[ [:block/uuid #uuid "${UUID}"] ] :query[ :in ?block :where [... ?block ...] ]`
 						- `:where [(identity [:block/uuid #uuid "${UUID}"]) ?block]`
 						- `:where [?b :block/refs [:block/uuid #uuid "${UUID}"]]`
+					- Result display: merge child blocks into parent, table, collapsed list
+					  id:: 676e7df0-0066-4544-9413-240f7eea5315
+					  collapsed:: true
+						- There are 2 views of result: list (default) and table
+							- List view (default)
+							  id:: 6772a6cd-7efb-4dca-878a-0382cf92503b
+							  shows results in semi-hierarchical list where blocks are merged into common parent block and grouped by page.
+							- Table view
+							  id:: 676e80e2-5420-4c4c-ad8c-5356cb550411
+							  shows results in a table with columns like `block`, `page`, and custom properties appearing in result blocks.
+						- `:group-by-page?` (default `true`)
+						  group blocks into pages in ((6772a6cd-7efb-4dca-878a-0382cf92503b))
+						- `:breadcrumb-show?` (default `true`)
+						  show breadcrumb of the parent block in ((6772a6cd-7efb-4dca-878a-0382cf92503b))
+						- `:collapsed?` (default `false`)
+						  collapse the whole ((6772a6cd-7efb-4dca-878a-0382cf92503b)) into the query title only
+						- `:remove-block-children?` (default `true`)
+						  id:: 676e7e9f-492c-4932-9ebe-8241b76c22e2
+						  removes any result block being child of another result, effectively reduce the result count.
+							- This option must be turned **off** for ((676e80e2-5420-4c4c-ad8c-5356cb550411)) and ((676e7f22-4b92-4ef6-98ee-72626d8b6799)) to get the full result.
+							- This should be turned **off** for normal (grouped) list view, too, to reflect the *correct result count* (the grouping by parent block is unaffected).
+						- collapsed list view
+						  id:: 676e7f22-4b92-4ef6-98ee-72626d8b6799
+						  `:result-transform` can be used to collapse blocks in list view, but this **breaks block grouping** and scatter sub-blocks of the same parent block.
 					- Reusable components of advanced query
 					  collapsed:: true
 						- Ref: [Make Advanced Queries reusable](https://discuss.logseq.com/t/make-advanced-queries-reusable/15281)
@@ -4289,6 +4460,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- [A no-plugin Insert Template button](https://discuss.logseq.com/t/a-no-plugin-insert-template-button/24793)
 								- ~~[Macros don't work with Advanced Queries](https://github.com/logseq/logseq/issues/8256#issuecomment-2385395687)~~
 						- Suggestions to [increase query reusability](https://discuss.logseq.com/t/make-advanced-queries-reusable/15281/13?u=willle):
+						  id:: 6735b187-4c75-49da-b2f9-050a033d27e8
 						  collapsed:: true
 							- Add `:query/rules` into `config.edn` for reusable `:rules`.
 							- Add `:embed-block` into `:inputs`, in addition to `:current-block` and `:parent-block`.
@@ -5106,6 +5278,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  #+END_PINNED
 			- Slash(`/`) command
 			  id:: 66ff445c-0f50-4d56-b24e-5533e1dfa322
+			  collapsed:: true
+				- All user-defined ((66ff4478-6eae-4633-b7be-fd42e2bcda5b))s are also available with slash `/` systax.
 			- Block cloning [template](https://docs.logseq.com/#/page/templates)
 			  collapsed:: true
 				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
@@ -5199,6 +5373,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  }
 					  ```
 		- Settings: via [[logseq/config.edn]] and menu `Settings`
+		  id:: 6735b187-e461-441e-976a-b81bea23104e
 		  collapsed:: true
 			- `:editor/logical-outdenting` (`Settings > Editor > Logical outdenting`)
 			  collapsed:: true
@@ -5236,6 +5411,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-09-28 Sat 14:47:16]
+		  CLOCK: [2024-12-31 Tue 14:06:48]--[2024-12-31 Tue 14:07:12] =>  00:00:24
 		  :END:
 			- Location of home folder is different between installations:
 			  id:: 66fb7680-e670-447d-baa4-279bed18e706
@@ -5546,13 +5722,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Web Components
 			- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) provides good guides and API refs.
 			- [Custom elements](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements)
-				- [Custom states](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet) can be exposed for external CSS to use, e.g. ``
+				- [Custom states](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet) can be exposed for external CSS to use
 				  collapsed:: true
 					- The new pseudo class [`:state()`](https://developer.mozilla.org/en-US/docs/Web/CSS/:state) is too new (from Chrome 125, Feb 2024), so we may need to wait or use [the fallback to the deprecated `:--double-dash-custom-state`](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet#compability_with_dashed-ident_syntax).
 			- [Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM)
 			- [Templates and slots](https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots)
 		- ### CSS
-			-
+			- [HTML Color Names](https://htmlcolorcodes.com/color-names/)
 	- ## HTTP
 	  id:: 6714ee7d-d83b-4f42-af22-badb410d4a58
 	  collapsed:: true
@@ -5673,4 +5849,29 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6716110e-aa2d-41c9-8ae3-be3ceed55407
 	  collapsed:: true
 		- moved to ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
+	- ## D2: Declarative Diagramming
+	  id:: 6751697f-aa5b-4ade-b97c-9ea1f1406581
+	  collapsed:: true
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67516994-d999-4095-bea1-7b3861089890))
+		- D2
+		  id:: 67516994-d999-4095-bea1-7b3861089890
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6751697f-aa5b-4ade-b97c-9ea1f1406581))
+		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://d2lang.com/
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67516994-d999-4095-bea1-7b3861089890)) is a diagraming language that use layout engines to automate layouting.
+		- Supported [layout engines](https://d2lang.com/tour/layouts#layout-engines)
+		  collapsed:: true
+			- [Dagre](https://github.com/dagrejs/dagre) (default) is an open-source layout engine that renders very fast. But its development has been stopped from 2018.
+			- [Eclipse Layout Kernel](https://eclipse.dev/elk/) (ELK) is an open-source, mature, hierarchical layout engine, actively maintained by an academic research group at [Christian Albrechts University in Kiel](https://www.rtsys.informatik.uni-kiel.de/en/team).
+			- [TALA](https://github.com/terrastruct/tala) is a proprietary layout engine developed by Terrastruct, designed specifically for software architecture diagrams. This supports position setting with `top` and `left`, and also a `direction` property which is not very effective.
+		- `d2` server start command
+		  ```sh
+		  d2 -w -l tala -d --pad 10 --force-appendix temp.d2 temp.svg
+		  ```
+	- ## pendulum wave
+	  id:: 676539ca-ff29-4749-ab33-b00dfe8fb936
+	  collapsed:: true
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Pendulum_wave
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((676539ca-ff29-4749-ab33-b00dfe8fb936)) is a physics toy using spatial [aliasing](https://en.wikipedia.org/wiki/Aliasing#Sampling_sinusoidal_functions) to demonstrate the ((66c30b69-5b96-4793-bcce-bce51553a454)) of various types of waveforms in a simple array of uncoupled [simple pendulums](https://en.wikipedia.org/wiki/Simple_pendulum) with [monotonically](https://en.wikipedia.org/wiki/Monotonic) increasing lengths: from travelling waves, [standing waves](https://en.wikipedia.org/wiki/Standing_wave), to [beats](https://en.wikipedia.org/wiki/Beat_(acoustics)), and [chaos](https://en.wikipedia.org/wiki/Chaos_theory).
+			- Aliasing as well as the [Gestalt priciple of continuation](https://en.wikipedia.org/wiki/Principles_of_grouping#Good_continuation) is the basic connection in ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), particularly shown as the ((67654618-70d2-49cd-88b7-f7c4e161dfd9)) in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism.
+			- This aliasing can also be in in [oscilloscope](https://en.wikipedia.org/wiki/Oscilloscope).
 -
