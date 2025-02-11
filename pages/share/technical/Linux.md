@@ -65,6 +65,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  collapsed:: true
 						- ![no-last-newline-vim.png](../assets/TextProcessing/last-newline/no-last-newline-vim.png)
 					- `nano` always show a blank line at the end!
+				- Disable the automatic additon of newline in Linux editors
+					- `vim`: `:set nofixendofline`
 				- IDEs usually have settings to automatically add newline on save, and _show the last newline **as a blank line**_ which can be used to check for its presence.
 					- VS Code
 					  collapsed:: true
