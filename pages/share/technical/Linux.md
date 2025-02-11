@@ -65,6 +65,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  collapsed:: true
 						- ![no-last-newline-vim.png](../assets/TextProcessing/last-newline/no-last-newline-vim.png)
 					- `nano` always show a blank line at the end!
+					- `emacs` is an exception
 				- Stop Linux editors from fixing files missing newline at the end of file.
 				  id:: 67aacefc-f707-49f4-b33d-ed73f63e3a64
 					- `vim`: `:set nofixendofline` in the current file or in `.vimrc`
