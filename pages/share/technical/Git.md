@@ -76,6 +76,8 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				- There are two options to fix this issue:
 					- [Force all IDEs](((67aabd6b-a257-4eb7-8363-3d29035a30f4))) to automatically add the last newline.
 					- [Stop Linux editors](((67aacefc-f707-49f4-b33d-ed73f63e3a64))), like `vim`, from fixing files missing newline at the end of file.
+					  id:: 67aacbe5-f534-4eac-abe8-15f2f8990691
+						- This option should be chosen for a project with lots of legacy codes missing the last newline.
 			- Refactor codes
 			  id:: b8c17a55-f618-43ed-9826-314412a08965
 			  collapsed:: true

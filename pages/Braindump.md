@@ -169,6 +169,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- Today, experimenting with my local git repo for testing, eventually, the problem has turned out to be not so serious as [i thought](((67938b35-697e-432f-b179-17ce60028e6c)))!
 				  id:: 67aabd5c-797c-42dc-92c2-360d3149ee64
 					- It just causes **unintended conflicts**, not "~~perpetual conflicts~~"!
+				- ⇒ Instead of forcing IDEs to automatically add newlines, just do the other way: ((67aacbe5-f534-4eac-abe8-15f2f8990691))
+				  :LOGBOOK:
+				  CLOCK: [2025-02-11 Tue 12:07:08]
+				  :END:
 	- ### February
 	  id:: 67aac38f-1c60-42e9-a8c5-c262d11a82f0
 		- We're witnessing the [braindumping](((db954501-95d0-46e2-b1fc-39b6a966300e))) and [current stories](((6788f004-d3df-41d4-afc8-c8c5ea52c51c))) and [current stasks](((677630fe-ea99-436f-b39f-8bd2295e2eaf))) stacking up!

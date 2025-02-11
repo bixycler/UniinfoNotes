@@ -87,8 +87,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- [Window >] Preferences > (Java, Javascript, etc.) Code Formatters > New Lines > At end of file
 						  ![editor-settings-onsave-lastNewline-Eclipse-2024.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-Eclipse-2024.png)
 					- Notepad++
+					  collapsed:: true
 						- ![last-newline-Notepad++.png](../assets/TextProcessing/last-newline/last-newline-Notepad++.png)
-						-
+						- Automatic newline can be added with EditorConfig plugin. [ref](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/1426#issuecomment-578472737)
+						  `insert_final_newline = true`
 	- ### commands
 		- process handling
 		  collapsed:: true
