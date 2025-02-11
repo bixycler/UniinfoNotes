@@ -73,7 +73,9 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				  >>>>>>> feature-testEOL-2
 				  
 				  ```
-				-
+				- There are two options to fix this issue:
+					- Force all IDEs to add the last newline
+					- Set Linux editors like `vim` not to automatically add newline
 			- Refactor codes
 			  id:: b8c17a55-f618-43ed-9826-314412a08965
 			  collapsed:: true
