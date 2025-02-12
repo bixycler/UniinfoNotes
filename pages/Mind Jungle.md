@@ -1700,7 +1700,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- While the general meaning of the noun “being” includes both subjective and objective entities, its everyday usage is more about “living beings” like humans, animals, deities, mythical beings & creatures, etc.
 						- The objective meaning of “being” is used in [ontology](https://en.wikipedia.org/wiki/Ontology), the study of being. ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “ontology” = “ōn” [being] + “logy” [study].
 						- While in general philosophies, “being” is a synonym of “existence” which sounds very objective, [existentialism](https://en.wikipedia.org/wiki/Existentialism) treats such “existence” in a very subjective way.
-						- The verb “be” in the sentence structure “subject verb object”, like “I am a man”
+						- The verb “be” in the sentence structure “subject verb object”, like “I am a man”, “it is a rock”, shows two sides of “being” as both subject and object. That means a “concrete being” must have subjectivity and “object” is just an “abstract being”. In Unïnfo, we preserve the term “being” for concrete things only.
 		- *All beings have the same content.*
 		  id:: 678e1960-58d6-4cf3-8fe3-25f2f4489b33
 		  :LOGBOOK:
