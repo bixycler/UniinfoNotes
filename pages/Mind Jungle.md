@@ -1690,8 +1690,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), which is a ***concrete thing*** containing the three components: ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (○), ((6678288e-699b-4325-bdba-bf6349fe0d57)) (↑) and ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (☉, =). Containing obop, all beings are ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))s.
 			- ((66537674-6cf9-4459-8bea-7c1858c694a3))s of being
 				- Abstracting the obop, the ((66c810a0-9861-4787-bdcf-1378219332be)) of a being is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)).
-				- Further abstracting the form, the fundamental substance underlying all objects is the ((6678288e-699b-4325-bdba-bf6349fe0d57)).
-			-
+				- Further abstracting the form, the fundamental substance underlying all objects is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)).
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is to “thing” as ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is to ((667cfa42-ade7-4310-9a7b-6d14d01c16da)).
+					-
 		- *All beings have the same content.*
 		  id:: 678e1960-58d6-4cf3-8fe3-25f2f4489b33
 		  :LOGBOOK:
@@ -1708,7 +1710,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a983b4-f6ad-4abb-b611-7952168d83a2)) is a special case of the ((678e2046-54ac-4284-865d-6f3e38f589a1)) when considering a single being throughout time.
 			- **Universal content**
 			  id:: 678e1d31-4874-4df6-bfb4-60822a6b5546
-			  content of every being
+			  ((6678288e-699b-4325-bdba-bf6349fe0d57)) of every ((678e1c3f-6202-45aa-8527-f4bdad9927b9))
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
