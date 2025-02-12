@@ -247,7 +247,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-02-11 Tue 10:38:38]
 		  :END:
 		- ((678e1c3f-6202-45aa-8527-f4bdad9927b9))... is object or subject?!
-			- Done with some help from Copilot & Google AI: ((67ac5dfc-2224-4261-a5d2-52def30c3cba))
+			- Done with some helps from Copilot & Google Search's Gemini: ((67ac5dfc-2224-4261-a5d2-52def30c3cba))
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		-
