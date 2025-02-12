@@ -112,6 +112,12 @@ let exportUrl = exportUrlMd;
 
 /** The "god function" */
 async function load(forced) {
+  if(renderChoice.value=='html'){
+    doNormalizeMarkdown.disabled = true;
+  }else{
+    doNormalizeMarkdown.disabled = false;
+  }
+
   let fn = mdf.value.trim();
   if(!pdf){ pdf = DocRaptor(); }
   if(!mdNorm){
@@ -195,7 +201,6 @@ async function load(forced) {
     mdrender.style.display = 'block';
     exportUrl = exportUrlMdRender;
   }else if(renderChoice.value=='html'){
-    doNormalizeMarkdown.enabled = false;
     mdhtml.style.display = 'block';
     exportUrl = exportUrlHtml;
     // render md -> HTML
