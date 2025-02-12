@@ -354,7 +354,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- totality
 		  id:: 66c87463-4f07-420a-b12e-f456154f7dc8
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a [perfect circle](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))). That means a whole is a perfect ((667d162c-16cf-44d3-81a5-29b1b885164f)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) is a ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) whose ((6678d596-9526-405a-968c-e73860e524f3)) is a [perfect circle](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))). That means a whole is a perfect ((667d162c-16cf-44d3-81a5-29b1b885164f)).
 		- Etymology of “whole”
 		  collapsed:: true
 			- “Whole”, just like “health” and “heal”, is from Proto-Germanic root `*haila` (undamaged) ← Proto-Indo-European root [*kailo](https://www.thefreedictionary.com/_/roots.aspx?type=Indo-European&root=kailo-) meaning “uninjured”.
@@ -362,7 +362,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
 		- ### representative
 		  id:: 6732cf13-5b1b-499d-80ec-4c5b407e9cc5
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) may have different individual parts, called ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s, represent the whole to manage different groups of individual parts. The whole interacts with a specific group of parts through the representative of that group with the ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) may have different individual parts, called ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s, representing the whole to manage different groups of individual parts. The whole interacts with a specific group of parts through the representative of that group with the ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)).
 				- The ((66ab7477-c060-4d07-ab13-bc3d11246854)) is a special representative which lies at the [base](((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))) of the tree of representatives.
 					- In society, the center is called by many names: “king, master, boss, president, head, ...”
 				- The system of all levels of representatives is the ((6678d596-9526-405a-968c-e73860e524f3)) of the whole.
