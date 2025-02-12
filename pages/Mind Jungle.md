@@ -1703,6 +1703,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The verb “be” in the sentence structure “subject verb object”, like “I am a man”, “it is a rock”, shows two sides of “being” as both subject and object. That means a “concrete being” must have subjectivity and “object” is just an “abstract being”. In Unïnfo, we preserve the term “being” for concrete things only.
 				- ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is inseparable from “becoming”, as “[existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a)))” is inseparable from “[differentiation](((1a22a090-6786-4114-8aad-35b122783bff)))” as stated by the ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)).
 					- This property is called ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
+					-
 		- *All beings have the same content.*
 		  id:: 678e1960-58d6-4cf3-8fe3-25f2f4489b33
 		  :LOGBOOK:
