@@ -142,7 +142,7 @@ async function load(forced) {
     window.history.replaceState(ps, '', '?' + new URLSearchParams(ps).toString());
     let fnb = fn.split('/').at(-1).split('?').at(0); //base name
     exportUrlMd.download = fnb
-    fnb = fnb.replace(/\.\w+$/, ''); 
+    fnb = fnb.replace(/\.\w+$/, '');
     exportUrlMdRender.download = fnb + '.md.html';
     exportUrlHtml.download = fnb + '.html';
     exportUrlPdf.download = fnb + '.pdf';
@@ -195,6 +195,7 @@ async function load(forced) {
     mdrender.style.display = 'block';
     exportUrl = exportUrlMdRender;
   }else if(renderChoice.value=='html'){
+    doNormalizeMarkdown.enabled = false;
     mdhtml.style.display = 'block';
     exportUrl = exportUrlHtml;
     // render md -> HTML
