@@ -1693,6 +1693,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Further abstracting the form, the fundamental substance underlying all objects is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is to “thing” as ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is to ((667cfa42-ade7-4310-9a7b-6d14d01c16da)).
+				  id:: 67ac5dfc-2224-4261-a5d2-52def30c3cba
 				  collapsed:: true
 					- While “being” must be concrete, “thing” can be abstract.
 					- While “subject” is a synonym of “being”, it emphasizes the presence of the obop, to contrast with “object” as the abstract thing lacking obop.
