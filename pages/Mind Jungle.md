@@ -1695,7 +1695,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is to “thing” as ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is to ((667cfa42-ade7-4310-9a7b-6d14d01c16da)).
 					- While “being” must be concrete, “thing” can be abstract.
 					- While “subject” is a synonym of “being”, it emphasizes the presence of the obop, to contrast with “object” as the abstract thing lacking obop.
-					- While the general meaning of the noun “being” including both subjective and objective entit
+					- While the general meaning of the noun “being” includes both subjective and objective entities, its everyday usage is more about “living beings” like humans, animals, mythological creatures and deities
+						- The objective meaning of “being” is used in [ontology](https://en.wikipedia.org/wiki/Ontology), the study of being. ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “ontology” = “ōn” [being] + “logy” [study].
 		- *All beings have the same content.*
 		  id:: 678e1960-58d6-4cf3-8fe3-25f2f4489b33
 		  :LOGBOOK:
