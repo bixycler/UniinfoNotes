@@ -139,11 +139,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-i`, `--inode`
 				  print the ((671f438b-617a-4fc5-88ee-e42f07b67b50)) number of each file
 				- `dircolors`
-				  output commands to set the ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) env.var. for `ls`.
+				  output commands to set the ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) env.var. for `ls`, optionally reading definitions in a ((67adaa84-c44b-4f36-bc34-ddec3117b7fc)).
 					- This command simply prints out 
 					  ```sh
 					  LS_COLORS='di=01;34:type=color;codes:...'; export LS_COLORS
 					  ```
+					- `DIR_COLORS` file
+					  id:: 67adaa84-c44b-4f36-bc34-ddec3117b7fc
+					  collapsed:: true
+						- Man page: `man DIR_COLORS` (or [on web](https://www.man7.org/linux/man-pages/man5/dir_colors.5.html))
+						- System-wide config `/etc/DIR_COLORS` can be overriden by per-user config `~/.dir_colors`.
 				- `LS_COLORS`
 				  id:: 67ad9184-d0e9-49c1-9584-ac7ced51b385
 				  env.var. defining output colors for `ls --color`.
@@ -175,7 +180,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  0=none 1=bold 4=underscore 5=blink 7=reverse 8=concealed
 							  ```
 							- Many effects can be combined, e.g. `1;3;47;30;7` means _**bold**-italic_ white text on black background (reverse of black text on white background).
-						- Refs: [/etc/LS_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS)
+						- Refs: [/etc/DIR_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS)
 					- Highlight hard links: `LS_COLORS` value `mh=44;37`
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
 						- It has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
