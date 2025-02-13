@@ -152,10 +152,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- file type code
 					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
 						- `di`
-					- color codes
+					- color & effect codes
 					  id:: 67ad927a-3926-4930-bf40-6cefcca3d54e
 					  collapsed:: true
-						- Color codes are separated by semicolon `;` and their *order doesn't matter*.
+						- Color & effect codes are separated by semicolon `;` and their *order doesn't matter*.
 						- Foreground and background are [3-bit ANSI escape color codes](https://en.wikipedia.org/wiki/ANSI_escape_code#3-bit_and_4-bit) (modern terminals also support 8-bit color codes).
 							- Foreground
 							  ```sh
