@@ -159,7 +159,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
 					  collapsed:: true
 						- Codes in `LS_COLORS` and corresponding names in ((67adaa84-c44b-4f36-bc34-ddec3117b7fc))
-							- `no` = `NORMAL`, `NORM`: Normal (nonfilename) text
+							- `rs` = `no` = `NORMAL`, `NORM`: Normal (nonfilename) text
 							- `fi` = `FILE`: Normal file
 							- `di` = `DIR`: Directory
 							- `ex` = `EXEC`: Executable file (i.e. has 'x' set in permissions)
@@ -180,6 +180,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `lc` = `LEFTCODE`, `LEFT`: Opening terminal code
 							- `rc` = `RIGHTCODE`, `RIGHT`: Closing terminal code
 							- `ec`= `ENDCODE`, `END`: Non-filename text
+						- Different names
+							- (see details in )
 					- color & effect codes
 					  id:: 67ad927a-3926-4930-bf40-6cefcca3d54e
 					  collapsed:: true
