@@ -146,8 +146,15 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  ```
 				- `LS_COLORS`
 				  id:: 67ad9184-d0e9-49c1-9584-ac7ced51b385
-				  env.var. defining output color `ls`.
-					- Color codes are separated by semicolon `;` and their order doesn't matter.
+				  env.var. defining output colors for `ls --color`.
+					- Format:  ((67ad9254-2b15-48cd-8f38-8b727e5ed2da)) = ((67ad927a-3926-4930-bf40-6cefcca3d54e)) : other file types ...
+					- file type code
+					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
+						- `di`
+					- color codes
+					  id:: 67ad927a-3926-4930-bf40-6cefcca3d54e
+						- Color codes are separated by semicolon `;` and their *order doesn't matter*.
+						- Foreground and background are [3-bit ANSI escape color codes](https://en.wikipedia.org/wiki/ANSI_escape_code#3-bit_and_4-bit).
 					- Highlight hard links: `LS_COLORS` value `mh=44;37`
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
 						- It has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
