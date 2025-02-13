@@ -23,15 +23,15 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  :LOGBOOK:
 		  CLOCK: [2025-01-13 Mon 20:14:46]--[2025-01-13 Mon 20:27:13] =>  00:12:27
 		  :END:
+		- ...
+	- ## Future Tasks
+	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9
 		- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 		  id:: 6772a6c7-f434-4911-9fa2-939b8db20c42
 			- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 			- ((67715d03-9dbc-42b0-8589-064396a9c52b))
 				- Here i'm planning for the task of designing the master plan itself! 😉
 			- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
-		- ...
-	- ## Future Tasks
-	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
 		- WAIT symbols for ((66c8941d-6427-4e5c-9009-3af349500d7b))
