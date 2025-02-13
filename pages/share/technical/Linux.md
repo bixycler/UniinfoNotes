@@ -234,10 +234,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  collapsed:: true
 							- ```sh
 							  #!/bin/bash
-							  # For each entry in LS_COLORS, print the type, and description if available,
-							  # in the relevant color.
-							  # If two adjacent colors are the same, keep them on one line.
+							  # For each entry in LS_COLORS, print the type, and description if available, in the relevant color.
+							  # All dot-types are printed in one line.
 							  
+							  types=( no rs fi di ex ca ln or mi mh pi so bd cd do su sg st ow tw lc rc ec )
+							  dottypes=()
 							  declare -A descriptions=(
 							      [no]="NORMAL: Non-filename columns of each file"
 							      [rs]="RESET: Color to be (re)set after ls"
@@ -263,25 +264,37 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							      [rc]="RIGHTCODE, RIGHT: Closing terminal code"
 							      [ec]="ENDCODE, END: Terminal code after filename"
 							  )
+							  declare -A colors
+							  declare -A dotcolors
 							  
+							  ls_colors=$LS_COLORS
+							  dir_colors=$(dircolors |head -1)
+							  dir_colors=${dir_colors#*\'}
+							  dir_colors=${dir_colors%\'*}
+							  ls_colors=${dir_colors}${ls_colors}
 							  IFS=:
-							  for ls_color in $LS_COLORS; do
-							      color="${ls_color#*=}"
+							  for ls_color in $ls_colors; do
 							      type="${ls_color%=*}"
-							  
-							      # Add description for named types.
-							      desc="${descriptions[$type]}"
-							  
-							      # Separate each color with a newline.
-							      if [[ $color_prev ]] && [[ $color != "$color_prev" ]]; then
-							          echo
-							      fi
-							  
-							      printf "\e[%sm%s%s\e[m " "$color" "$type" "${desc:+ ($desc)}"
-							  
-							      # For next loop
-							      color_prev="$color"
+							      color="${ls_color#*=}"
+							      [[ -z $type ]] && continue
+							      if [[ "${IFS}${types[*]}${IFS}" =~ "${IFS}${type}${IFS}" ]]; then colors[$type]=$color
+							      else dotcolors["$type"]=$color;  dottypes+=("$type"); fi
 							  done
+							  
+							  # Print descriptions styled by colors
+							  for type in "${types[@]}"; do
+							      color="${colors[$type]}"
+							      desc="${descriptions[$type]}"
+							      printf "\e[%sm%s%s\e[m \n" "$color" "$type" "${desc:+ = $desc}"
+							  done
+							  
+							  # Print dotcolors of dottypes
+							  for type in "${dottypes[@]}"; do
+							      color="${dotcolors[$type]}"
+							      printf "\e[%sm%s\e[m " "$color" "$type"
+							  done
+							  echo
+							  
 							  ```
 					- Refs: [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS), [ls-color-output](https://itsfoss.com/ls-color-output/), [HowtoGeek](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/), [bigsoft](https://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors), [AskUbuntu](https://askubuntu.com/a/884513)
 			- `stat`
