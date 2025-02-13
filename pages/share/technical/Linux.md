@@ -169,6 +169,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- ```sh
 							  0=none 1=bold 4=underscore 5=blink 7=reverse 8=concealed
 							  ```
+							- Many effects can be combined, e.g. `1;3;47;30;7`
 					- Highlight hard links: `LS_COLORS` value `mh=44;37`
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
 						- It has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
