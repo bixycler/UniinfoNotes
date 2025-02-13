@@ -174,15 +174,14 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 								- `or` = `ORPHAN`: Symbolic link pointing to a non-existent file
 								- `mi` = `MISSING`: Non-existent file pointed to by a symbolic link (visible when you type `ls -l`)
 							- `mh` = `MULTIHARDLINK`: File with more than one hard links
-							- `pi` = `FIFO`, `PIPE`: Named pipe
+							- `pi` = `PIPE`, `FIFO`: Named FIFO pipe
 							- `so` = `SOCK`: Socket
 							- `bd` = `BLOCK`, `BLK`: Block device
 							- `cd` =  `CHAR`, `CHR`: Character device
 							- Advanced file types
-							  collapsed:: true
 								- `do` = `DOOR`: [Door](https://en.wikipedia.org/wiki/Doors_(computing)) (in Sun Solaris) for communication between a client and server
-								- `su` = `SETUID`: File that is setuid (`u+s`)
-								- `sg` = `SETGID`: File that is setgid (`g+s`)
+								- `su` = `SETUID`: File that is `setuid` (`u+s`)
+								- `sg` = `SETGID`: File that is `setgid` (`g+s`)
 								- `tw` = `STICKY_OTHER_WRITABLE`: Directory that is sticky and other-writable (`+t`,`o+w`)
 								- `ow` = `OTHER_WRITABLE`: Directory that is other-writable (`o+w`) and not sticky
 								- `st` = `STICKY`: Directory with the sticky bit set (`+t`) and not other-writable
@@ -240,24 +239,24 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  
 							  declare -A descriptions=(
 							      [no]="NORMAL: Non-filename columns of each file"
+							      [rs]="RESET: Color to be (re)set after ls"
 							      [fi]="FILE: Regular file"
-							      [ln]="symbolic link"
-							      [ca]="file with capability"
-							      [cd]="character device"
-							      [di]="directory"
-							      [do]="door"
-							      [ex]="executable file"
-							      [mh]="multi-hardlink"
-							      [mi]="missing file"
-							      [or]="orphan symlink"
-							      [bd]="block device"
+							      [di]="DIR: Directory"
+							      [ex]="EXEC: Executable file"
+							      [ca]="CAPABILITY: Executable file with capabilities"
+							      [ln]="SYMLINK: Symbolic link"
+							      [or]="ORPHAN: Broken symlink"
+							      [mi]="MISSING: Missing target of broken symlink"
+							      [mh]="MULTIHARDLINK: File with multiple hardlinks"
+							      [pi]="PIPE, FIFO: Named FIFO pipe"
+							      [so]="SOCK: Socket"
+							      [bd]="BLOCK: Block device"
+							      [cd]="CHAR: Character device"
+							      [do]="DOOR: Solaris door"
+							      [su]="SETUID: File that is setuid"
+							      [sg]="SETGID: File that is setgid"
 							      [ow]="other-writable directory"
-							      [pi]="named pipe, AKA FIFO"
-							      [rs]="reset to no color"
-							      [sg]="set-group-ID"
-							      [so]="socket"
 							      [st]="sticky directory"
-							      [su]="set-user-ID"
 							      [tw]="sticky and other-writable directory"
 							  )
 							  
