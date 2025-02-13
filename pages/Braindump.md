@@ -247,8 +247,20 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-02-11 Tue 10:38:38]
 		  :END:
 		- ((678e1c3f-6202-45aa-8527-f4bdad9927b9))... is object or subject?!
+		  id:: 67ac4f62-3411-4c88-8d4c-3fc2e6c78258
 			- Done with some helps from Copilot & Google Search's Gemini: ((67ac5dfc-2224-4261-a5d2-52def30c3cba))
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		-
+		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
+		  :LOGBOOK:
+		  CLOCK: [2025-02-13 Thu 09:09:51]
+		  :END:
+			- We should not ~~trim spaces~~ from keywords because sometimes they are intentional.
+			- We should have some **delimiters** around them!
+			- TODO Modify `{{search-query}}` to deal with delimiters.
+		- [!] Putting tasks into `TODO` is so difficult for me...
+		  :LOGBOOK:
+		  CLOCK: [2025-02-13 Thu 09:09:57]
+		  :END:
+			- There's a strong force sucking me deep into these tasks... making ((6772a6c7-f434-4911-9fa2-939b8db20c42))
 		- ...
