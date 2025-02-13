@@ -385,6 +385,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2025-02-13 Thu 10:18:10]
 				  :END:
+			- Cả Obsidian và Logseq đều có app trên Android, nhưng vấn đề Git trên Android khá nan giải: app Obsidian thì implement riêng 1 cái git client bằng python nên xài được, còn app Logseq thì vô dụng vì không có git để sync.
+			  Thế nên tui phải publish lên Web để đọc ở nhà khi cần (máy tính nhà tui hư rồi, chỉ coi qua mobile): https://bixycler.github.io/UniinfoNotes/
 			- Từ những năm mới về VN, tui đã muốn làm cái này rồi mà chưa đủ duyên: lúc đó chưa có các tool graph-note như vầy. Lúc đó tui tính implement bằng wiki, nên đã tìm hiểu các wiki farms, nhưng không thành công vì manual works quá nhiều (tuy wiki links là cơ bản cho graph, nhưng chỉ tiện cho browsing chứ chưa có cơ chế hỗ trợ editing & managing graph)
 			- FB post năm 2014 về dự định dùng Wiki làm workspacce đây: https://www.facebook.com/share/1ASosnwE1B/
 			  À, xem lại mới thấy ngay lúc đó tui đã nói là "Wiki  vẫn chưa đủ": Even the rich structures of wiki are not enough for my organization of events & ideas. I need a system of posts fully connected into threads, though.
