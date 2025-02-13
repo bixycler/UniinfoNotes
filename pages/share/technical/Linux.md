@@ -153,15 +153,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `LS_COLORS`
 				  id:: 67ad9184-d0e9-49c1-9584-ac7ced51b385
 				  env.var. defining output colors for `ls --color`.
-					- Format: colon-separated list of color codes by file type
+					- Format: colon-separated list of color sequences by file type
 					  > ((67ad9254-2b15-48cd-8f38-8b727e5ed2da)) = ((67ad927a-3926-4930-bf40-6cefcca3d54e)) : other file types ...
 					- [file type](((671f467e-6f1f-4436-a0dd-9a03055e11a9))) code
 					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
 					  collapsed:: true
 						- Codes in `LS_COLORS` and corresponding names in ((67adaa84-c44b-4f36-bc34-ddec3117b7fc))
-							- `no` = `NORMAL`, `NORM`: Normal (non-filename) text
+							- `no` = `NORMAL`, `NORM`: Non-filename columns of each file in `ls -l`
 								- `rs` = `RESET`: Color to be (re)set after `ls`
-									- E.g. `ls; echo text after ls`
+								  collapsed:: true
+									- E.g. `ls; echo text after ls` will output `text after ls` in `rs` color.
 									- This is also applied to non-filename symbols in filename column of `ls -lF`, e.g. `->` in symlink, file type indicators (`/`, `*`,...)
 							- `fi` = `FILE`: Normal file
 							- `di` = `DIR`: Directory
@@ -175,12 +176,14 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `so` = `SOCK`: Socket
 							- `bd` = `BLOCK`, `BLK`: Block device
 							- `cd` =  `CHAR`, `CHR`: Character device
-							- `do` = `DOOR`: [Door](https://en.wikipedia.org/wiki/Doors_(computing)) (in Sun Solaris) for communication between a client and server
-							- `su` = `SETUID`: File that is setuid (`u+s`)
-							- `sg` = `SETGID`: File that is setgid (`g+s`)
-							- `tw` = `STICKY_OTHER_WRITABLE`: Directory that is sticky and other-writable (`+t`,`o+w`)
-							- `ow` = `OTHER_WRITABLE`: Directory that is other-writable (`o+w`) and not sticky
-							- `st` = `STICKY`: Directory with the sticky bit set (`+t`) and not other-writable
+							- Advanced file types
+							  collapsed:: true
+								- `do` = `DOOR`: [Door](https://en.wikipedia.org/wiki/Doors_(computing)) (in Sun Solaris) for communication between a client and server
+								- `su` = `SETUID`: File that is setuid (`u+s`)
+								- `sg` = `SETGID`: File that is setgid (`g+s`)
+								- `tw` = `STICKY_OTHER_WRITABLE`: Directory that is sticky and other-writable (`+t`,`o+w`)
+								- `ow` = `OTHER_WRITABLE`: Directory that is other-writable (`o+w`) and not sticky
+								- `st` = `STICKY`: Directory with the sticky bit set (`+t`) and not other-writable
 							- For advanced color capable terminal or printer, the sequence ⟪ `LEFTCODE` [typecode](((67adc11d-b24f-49bd-9bc3-f9d3d6cf06b1))) `RIGHTCODE` filename `ENDCODE` ⟫ will be printed for each filename.
 							  collapsed:: true
 								- `lc` = `LEFTCODE`, `LEFT`: Opening terminal code
@@ -188,7 +191,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 								- `ec`= `ENDCODE`, `END`: Non-filename text or terminal code after filename
 								- typecode: the color sequence that depends on the type or name of file
 								  id:: 67adc11d-b24f-49bd-9bc3-f9d3d6cf06b1
-						- Different names
+						- Different names & history
 							- `MULTIHARDLINK` (`mh`) was initially named `HARDLINK` (`hl`) before `coreutils` 7.5 (in 2009) (see details in [StackExchange](https://unix.stackexchange.com/a/70715/566548)).
 							- `RESET` (`rs`) was added in `coreutils` 6.11.
 							- `CAPABILITY` (`ca`) was added in `coreutils` 7.0.
