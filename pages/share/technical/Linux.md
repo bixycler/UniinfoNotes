@@ -163,6 +163,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `fi` = `FILE`: Normal file
 							- `di` = `DIR`: Directory
 							- `ex` = `EXEC`: Executable file (i.e. has 'x' set in permissions)
+								- `ca` = ``
 							- `ln` = `SYMLINK`, `LINK`, `LNK`: Symbolic link. If you set this to 'target' instead of a numerical value, the colour is as for the file pointed to.
 								- `or` = `ORPHAN`: Symbolic link pointing to a non-existent file
 								- `mi` = `MISSING`: Non-existent file pointed to by a symbolic link (visible when you type `ls -l`)
