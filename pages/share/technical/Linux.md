@@ -225,9 +225,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
 					  collapsed:: true
 						- ```sh
-						  export LS_COLORS="${LS_COLORS}:mh=44;37" # MULTIHARDLINK: more than one hard links: grey text (37) on blue background (44)
-						  export LS_COLORS="${LS_COLORS}:or=40;31;1" # ORPHAN: symlink to nonexistent file: bold (1) red text (31) on black background (40)
-						  export LS_COLORS="${LS_COLORS}:mi=37;41" # MISSING: nonexistent target of symlink: white (37) on redbackground (41)
+						  export LS_COLORS="${LS_COLORS}mh=44;37:" # MULTIHARDLINK: more than one hard links: grey text (37) on blue background (44)
+						  export LS_COLORS="${LS_COLORS}or=40;31;1:" # ORPHAN: symlink to nonexistent file: bold (1) red text (31) on black background (40)
+						  export LS_COLORS="${LS_COLORS}mi=37;41:" # MISSING: nonexistent target of symlink: white (37) on redbackground (41)
 						  ```
 						- Highlight for multiple hard links has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
 						- A shell script to show all colors in `LS_COLORS`, ref: [AskUbuntu](https://askubuntu.com/a/884513)
