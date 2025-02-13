@@ -165,8 +165,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ```sh
 							  40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
 							  ```
-							- 8-bit color codes (fixed order!): `fbg;5;n`
-								- `fbg` = ``
+							- high-bit color codes (fixed order!): [fbg](((67ada479-c1b4-40b5-ba31-73e012b19915)))`;`[hcolor](((67ada493-aea8-4646-92c6-029719d0be8f)))
+								- `fbg`: `38` (foreground) or `48` (background)
+								  id:: 67ada479-c1b4-40b5-ba31-73e012b19915
+								- `hcolor`: `5;n` or `2;r;g;b` where `n` in [16, 255] is a [8-bit color code](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit), and `r;g;b` is red-green-blue code of [24-bit color](https://en.wikipedia.org/wiki/ANSI_escape_code#24-bit).
+								  id:: 67ada493-aea8-4646-92c6-029719d0be8f
 						- Effects are [ANSI Select Graphic Rendition codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters).
 							- ```sh
 							  0=none 1=bold 4=underscore 5=blink 7=reverse 8=concealed
