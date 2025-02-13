@@ -226,7 +226,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  collapsed:: true
 						- Highlight for multiple hard links has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
 						  ```sh
-						  export LS_COLORS="$LS_COLORS:mh=44;37" # MULTIHARDLINK
+						  export LS_COLORS="${LS_COLORS}:mh=44;37" # MULTIHARDLINK: more than one hard links: grey text (37) on blue background (44)
+						  export LS_COLORS="${LS_COLORS}:or=40;31;1" # ORPHAN: symlink to nonexistent file: bold (1) red text (31) on black background (40)
+						  export LS_COLORS="${LS_COLORS}:mi=37;41" # MISSING: nonexistent target of symlink: white (37) on redbackground (41)
 						  ```
 					- Refs: [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS), [ls-color-output](https://itsfoss.com/ls-color-output/), [howtogeek](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/), [bigsoft](https://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors)
 			- `stat`
