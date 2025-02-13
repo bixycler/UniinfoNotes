@@ -147,7 +147,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `LS_COLORS`
 				  id:: 67ad9184-d0e9-49c1-9584-ac7ced51b385
 				  env.var. defining output colors for `ls --color`.
-					- Format:  ((67ad9254-2b15-48cd-8f38-8b727e5ed2da)) = ((67ad927a-3926-4930-bf40-6cefcca3d54e)) : other file types ...
+					- Format: colon-separated list of color codes by file type
+					  > ((67ad9254-2b15-48cd-8f38-8b727e5ed2da)) = ((67ad927a-3926-4930-bf40-6cefcca3d54e)) : other file types ...
 					- file type code
 					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
 						- `di`
@@ -161,6 +162,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  ```sh
 						  export LS_COLORS="$LS_COLORS:mh=44;37" # MULTIHARDLINK
 						  ```
+					- Refs: [ls-color-output](https://itsfoss.com/ls-color-output/), [howtogeek](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/), [bigsoft](https://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors)
 			- `stat`
 			  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
 			  collapsed:: true
