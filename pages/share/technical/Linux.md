@@ -159,13 +159,14 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
 					  collapsed:: true
 						- Codes in `LS_COLORS` and corresponding names in ((67adaa84-c44b-4f36-bc34-ddec3117b7fc))
-							- `no` = `NORMAL`, `NORM`: Global default, although everything should be something
+							- `no` = `NORMAL`, `NORM`: Normal (nonfilename) text
 							- `fi` = `FILE`: Normal file
 							- `di` = `DIR`: Directory
 							- `ex` = `EXEC`: Executable file (i.e. has 'x' set in permissions)
 							- `ln` = `SYMLINK`, `LINK`, `LNK`: Symbolic link. If you set this to 'target' instead of a numerical value, the colour is as for the file pointed to.
 								- `or` = `ORPHAN`: Symbolic link pointing to a non-existent file
 								- `mi` = `MISSING`: Non-existent file pointed to by a symbolic link (visible when you type `ls -l`)
+							- `mh` = `MULTIHARDLINK`: File with more than one hard links
 							- `pi` = `FIFO`, `PIPE`: Named pipe
 							- `so` = `SOCK`: Socket
 							- `bd` = `BLOCK`, `BLK`: Block device

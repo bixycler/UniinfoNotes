@@ -43,6 +43,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  child-filter::
 		  search-scope:: Specific blocks: ;
 		  search-scope-page:: Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]];
+		  collapsed:: true
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
@@ -62,6 +63,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 			  collapsed:: true
+				- Add ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) to Linux
 				- ...
 			- <<End Tracks>>
 			  ---------------
