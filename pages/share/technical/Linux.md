@@ -159,7 +159,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
 					  collapsed:: true
 						- Codes in `LS_COLORS` and corresponding names in ((67adaa84-c44b-4f36-bc34-ddec3117b7fc))
-							- `rs` = `no` = `NORMAL`, `NORM`: Normal (nonfilename) text
+							- `no` = `NORMAL`, `NORM`: Normal (non-filename) text
+								- `rs` = `RESET`: Color to be (re)set after `ls`
+									- E.g. `ls; echo text after ls`
+									- This is also applied to non-filename symbols in filename column of `ls -lF`, e.g. `->` in symlink, file type indicators (`/`, `*`,...)
 							- `fi` = `FILE`: Normal file
 							- `di` = `DIR`: Directory
 							- `ex` = `EXEC`: Executable file (i.e. has `x` set in permissions)
