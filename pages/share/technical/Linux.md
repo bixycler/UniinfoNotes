@@ -155,8 +155,19 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- color codes
 					  id:: 67ad927a-3926-4930-bf40-6cefcca3d54e
 						- Color codes are separated by semicolon `;` and their *order doesn't matter*.
-						- Foreground and background are [3-bit ANSI escape color codes](https://en.wikipedia.org/wiki/ANSI_escape_code#3-bit_and_4-bit).
+						- Foreground and background are [3-bit ANSI escape color codes](https://en.wikipedia.org/wiki/ANSI_escape_code#3-bit_and_4-bit) (modern terminals also support 8-bit color codes).
+							- Foreground
+							  ```sh
+							  30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white
+							  ```
+							- Background
+							  ```sh
+							  40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
+							  ```
 						- Effects are [ANSI Select Graphic Rendition codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters).
+							- ```sh
+							  00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed
+							  ```
 					- Highlight hard links: `LS_COLORS` value `mh=44;37`
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
 						- It has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
