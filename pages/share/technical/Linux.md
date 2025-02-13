@@ -179,12 +179,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `bd` = `BLOCK`, `BLK`: Block device
 							- `cd` =  `CHAR`, `CHR`: Character device
 							- Advanced file types
+							  collapsed:: true
 								- `do` = `DOOR`: [Door](https://en.wikipedia.org/wiki/Doors_(computing)) (in Sun Solaris) for communication between a client and server
 								- `su` = `SETUID`: File that is `setuid` (`u+s`)
 								- `sg` = `SETGID`: File that is `setgid` (`g+s`)
-								- `tw` = `STICKY_OTHER_WRITABLE`: Directory that is sticky and other-writable (`+t`,`o+w`)
-								- `ow` = `OTHER_WRITABLE`: Directory that is other-writable (`o+w`) and not sticky
 								- `st` = `STICKY`: Directory with the sticky bit set (`+t`) and not other-writable
+								- `ow` = `OTHER_WRITABLE`: Directory that is other-writable (`o+w`) and not sticky
+								- `tw` = `STICKY_OTHER_WRITABLE`: Directory that is sticky and other-writable (`+t`,`o+w`)
 							- For advanced color capable terminal or printer, the sequence ⟪ `LEFTCODE` [typecode](((67adc11d-b24f-49bd-9bc3-f9d3d6cf06b1))) `RIGHTCODE` filename `ENDCODE` ⟫ will be printed for each filename.
 							  collapsed:: true
 								- `lc` = `LEFTCODE`, `LEFT`: Opening terminal code
@@ -255,9 +256,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							      [do]="DOOR: Solaris door"
 							      [su]="SETUID: File that is setuid"
 							      [sg]="SETGID: File that is setgid"
-							      [ow]="other-writable directory"
-							      [st]="sticky directory"
-							      [tw]="sticky and other-writable directory"
+							      [st]="STICKY: Sticky directory"
+							      [ow]="OTHER_WRITABLE: Other-writable directory"
+							      [tw]="STICKY_OTHER_WRITABLE: Sticky and other-writable directory"
+							      [lc]="LEFTCODE, LEFT: Opening terminal code"
+							      [rc]="RIGHTCODE, RIGHT: Closing terminal code"
+							      [ec]="ENDCODE, END: Terminal code after filename"
 							  )
 							  
 							  IFS=:
