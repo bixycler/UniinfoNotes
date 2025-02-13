@@ -162,8 +162,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `rs` = `no` = `NORMAL`, `NORM`: Normal (nonfilename) text
 							- `fi` = `FILE`: Normal file
 							- `di` = `DIR`: Directory
-							- `ex` = `EXEC`: Executable file (i.e. has 'x' set in permissions)
-								- `ca` = ``
+							- `ex` = `EXEC`: Executable file (i.e. has `x` set in permissions)
+								- `ca` = `CAPABILITY`: Executable file with [capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html), set with [`setcap` command](https://man7.org/linux/man-pages/man8/setcap.8.html)
 							- `ln` = `SYMLINK`, `LINK`, `LNK`: Symbolic link. If you set this to 'target' instead of a numerical value, the colour is as for the file pointed to.
 								- `or` = `ORPHAN`: Symbolic link pointing to a non-existent file
 								- `mi` = `MISSING`: Non-existent file pointed to by a symbolic link (visible when you type `ls -l`)
@@ -178,11 +178,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `tw` = `STICKY_OTHER_WRITABLE`: Directory that is sticky and other-writable (`+t`,`o+w`)
 							- `ow` = `OTHER_WRITABLE`: Directory that is other-writable (`o+w`) and not sticky
 							- `st` = `STICKY`: Directory with the sticky bit set (`+t`) and not other-writable
-							- `lc` = `LEFTCODE`, `LEFT`: Opening terminal code
-							- `rc` = `RIGHTCODE`, `RIGHT`: Closing terminal code
-							- `ec`= `ENDCODE`, `END`: Non-filename text
+							- For advanced color capable terminal or printer:
+								- `lc` = `LEFTCODE`, `LEFT`: Opening terminal code
+								- `rc` = `RIGHTCODE`, `RIGHT`: Closing terminal code
+								- `ec`= `ENDCODE`, `END`: Non-filename text
 						- Different names
-							- `MULTIHARDLINK` (`mh`) was initially named `HARDLINK` (`hl`) before `coreutils` 7.5 (in 2009) (see details in [stackexchange](https://unix.stackexchange.com/a/70715/566548)).
+							- `MULTIHARDLINK` (`mh`) was initially named `HARDLINK` (`hl`) before `coreutils` 7.5 (in 2009) (see details in [StackExchange](https://unix.stackexchange.com/a/70715/566548)).
 							- `RESET` (`rs`) was added in `coreutils` 6.11.
 							- `CAPABILITY` (`ca`) was added in `coreutils` 7.0.
 					- color & effect codes
