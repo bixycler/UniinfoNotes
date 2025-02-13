@@ -379,9 +379,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-02-13 Thu 10:18:10]
 		  :END:
-			- :LOGBOOK:
-			  CLOCK: [2025-02-13 Thu 10:18:10]
-			  :END:
+			- Workspace của tui trên Logseq nè 😉
+			  collapsed:: true
+				- ![Working-Workstack-Screenshot-2025-02-13.png](../assets/Will/story/2025-Feb/Working-Workstack-Screenshot-2025-02-13.png)
+				  :LOGBOOK:
+				  CLOCK: [2025-02-13 Thu 10:18:10]
+				  :END:
+			- Từ những năm mới về VN, tui đã muốn làm cái này rồi mà chưa đủ duyên: lúc đó chưa có các tool graph-note như vầy. Lúc đó tui tính implement bằng wiki, nên đã tìm hiểu các wiki farms, nhưng không thành công vì manual works quá nhiều (tuy wiki links là cơ bản cho graph, nhưng chỉ tiện cho browsing chứ chưa có cơ chế hỗ trợ editing & managing graph)
+			- FB post năm 2014 về dự định dùng Wiki làm workspacce đây: https://www.facebook.com/share/1ASosnwE1B/
+			  À, xem lại mới thấy ngay lúc đó tui đã nói là "Wiki  vẫn chưa đủ": Even the rich structures of wiki are not enough for my organization of events & ideas. I need a system of posts fully connected into threads, though.
+			- Đến cuối 2023 thì tui đã thiết kế tính viết software để đổ cái graph trong đầu mình ra, dựa trên JSON... Nhưng áp lực thời gian làm việc cty ko cho phép.... nhưng áp lực đổ ra vẫn ngày càng tăng... nên đến giữa 2024 tui bí quá hỏi Google thử về "graph note taking" xem sao... ai ngờ mới lòi ra 2 software mới ra từ 2022-2023 là Obsidian & Logseq. Lúc đầu tui thử Obsidian vì nó popular hơn, nhưng tới đoạn dây leo chằng chịt (wikilinks) ở cấp độ từng câu thì tui buộc phải chuyển sang Logseq, vì Obsidian chỉ hỗ trợ link tới cấp "trang" mà thôi.
+			- Không biết ông sao, chứ với tui thì việc đổ não ra (braindump) là bước đầu quan trọng để cho đầu óc nhẹ nhàng. Cứ để đám rối trong đầu thì khó mà sáng suốt được. Tui thấy viết nhật ký cũng chỉ là 1 cách để đổ ra thôi, chat này cũng vậy nè.
+			- Tuy nhiên, đổ ra ko chỉ để làm sạch đầu mà còn để sắp xếp lại nữa, nên cái chỗ chứa cũng cần có cấu trúc tương tự với những gì trong đầu mình, tức là network. Và đó là lý do mà những app như Obsidian & Logseq được gọi là "2nd brain".
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
