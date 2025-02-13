@@ -166,7 +166,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 								  collapsed:: true
 									- E.g. `ls; echo text after ls` will output `text after ls` in `rs` color.
 									- This is also applied to non-filename symbols in filename column of `ls -lF`, e.g. `->` in symlink, file type indicators (`/`, `*`,...)
-							- `fi` = `FILE`: Normal file
+							- `fi` = `FILE`: Regular file
 							- `di` = `DIR`: Directory
 							- `ex` = `EXEC`: Executable file (i.e. has `x` set in permissions)
 								- `ca` = `CAPABILITY`: Executable file with [capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html), set with [`setcap` command](https://man7.org/linux/man-pages/man8/setcap.8.html)
@@ -230,7 +230,57 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  export LS_COLORS="${LS_COLORS}:mi=37;41" # MISSING: nonexistent target of symlink: white (37) on redbackground (41)
 						  ```
 						- Highlight for multiple hard links has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
-					- Refs: [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS), [ls-color-output](https://itsfoss.com/ls-color-output/), [howtogeek](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/), [bigsoft](https://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors)
+						- A shell script to show all colors in `LS_COLORS`, ref: [AskUbuntu](https://askubuntu.com/a/884513)
+						  collapsed:: true
+							- ```sh
+							  #!/bin/bash
+							  # For each entry in LS_COLORS, print the type, and description if available,
+							  # in the relevant color.
+							  # If two adjacent colors are the same, keep them on one line.
+							  
+							  declare -A descriptions=(
+							      [no]="NORMAL: Non-filename columns of each file"
+							      [fi]="FILE: Regular file"
+							      [ln]="symbolic link"
+							      [ca]="file with capability"
+							      [cd]="character device"
+							      [di]="directory"
+							      [do]="door"
+							      [ex]="executable file"
+							      [mh]="multi-hardlink"
+							      [mi]="missing file"
+							      [or]="orphan symlink"
+							      [bd]="block device"
+							      [ow]="other-writable directory"
+							      [pi]="named pipe, AKA FIFO"
+							      [rs]="reset to no color"
+							      [sg]="set-group-ID"
+							      [so]="socket"
+							      [st]="sticky directory"
+							      [su]="set-user-ID"
+							      [tw]="sticky and other-writable directory"
+							  )
+							  
+							  IFS=:
+							  for ls_color in $LS_COLORS; do
+							      color="${ls_color#*=}"
+							      type="${ls_color%=*}"
+							  
+							      # Add description for named types.
+							      desc="${descriptions[$type]}"
+							  
+							      # Separate each color with a newline.
+							      if [[ $color_prev ]] && [[ $color != "$color_prev" ]]; then
+							          echo
+							      fi
+							  
+							      printf "\e[%sm%s%s\e[m " "$color" "$type" "${desc:+ ($desc)}"
+							  
+							      # For next loop
+							      color_prev="$color"
+							  done
+							  ```
+					- Refs: [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS), [ls-color-output](https://itsfoss.com/ls-color-output/), [HowtoGeek](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/), [bigsoft](https://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors), [AskUbuntu](https://askubuntu.com/a/884513)
 			- `stat`
 			  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
 			  collapsed:: true
