@@ -153,8 +153,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `LS_COLORS`
 				  id:: 67ad9184-d0e9-49c1-9584-ac7ced51b385
 				  env.var. defining output colors for `ls --color`.
-					- Format: colon-separated list of color sequences by file type
+					- Format: colon-separated list of color definitions by file type
 					  > ((67ad9254-2b15-48cd-8f38-8b727e5ed2da)) = ((67ad927a-3926-4930-bf40-6cefcca3d54e)) : other file types ...
+					- When there are many definitions of the same file type, the last will override all previous ones.
+						- And we only need to put in `LS_COLORS` just defs overriding default values.
 					- [file type](((671f467e-6f1f-4436-a0dd-9a03055e11a9))) code
 					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
 					  collapsed:: true
@@ -195,7 +197,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `MULTIHARDLINK` (`mh`) was initially named `HARDLINK` (`hl`) before `coreutils` 7.5 (in 2009) (see details in [StackExchange](https://unix.stackexchange.com/a/70715/566548)).
 							- `RESET` (`rs`) was added in `coreutils` 6.11.
 							- `CAPABILITY` (`ca`) was added in `coreutils` 7.0.
-					- color & effect codes
+					- color sequences
 					  id:: 67ad927a-3926-4930-bf40-6cefcca3d54e
 					  collapsed:: true
 						- Color & effect codes are separated by semicolon `;` and their *order doesn't matter*.
