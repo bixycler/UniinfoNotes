@@ -27,7 +27,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  id:: 6772a6c7-f434-4911-9fa2-939b8db20c42
 			- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 			- ((67715d03-9dbc-42b0-8589-064396a9c52b))
-				- Here i'm planning for the task of designing master plan! 😉
+				- Here i'm planning for the task of designing the master plan itself! 😉
 			- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
 		- ...
 	- ## Future Tasks
