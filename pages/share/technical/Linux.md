@@ -165,18 +165,21 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ```sh
 							  40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
 							  ```
+							- 8-bit color codes (fixed order!): `fbg;5;n`
+								- `fbg` = ``
 						- Effects are [ANSI Select Graphic Rendition codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters).
 							- ```sh
 							  0=none 1=bold 4=underscore 5=blink 7=reverse 8=concealed
 							  ```
-							- Many effects can be combined, e.g. `1;3;47;30;7`
+							- Many effects can be combined, e.g. `1;3;47;30;7` means _**bold**-italic_ white text on black background (reverse of black text on white background).
+						- Refs: [/etc/LS_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS)
 					- Highlight hard links: `LS_COLORS` value `mh=44;37`
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
 						- It has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
 						  ```sh
 						  export LS_COLORS="$LS_COLORS:mh=44;37" # MULTIHARDLINK
 						  ```
-					- Refs: [ls-color-output](https://itsfoss.com/ls-color-output/), [howtogeek](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/), [bigsoft](https://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors)
+					- Refs: [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS), [ls-color-output](https://itsfoss.com/ls-color-output/), [howtogeek](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/), [bigsoft](https://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors)
 			- `stat`
 			  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
 			  collapsed:: true
