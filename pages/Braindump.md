@@ -269,7 +269,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- Chatted with Copilot, searched all over the place,... it's turned out to be not so simple at all!
 				- LLMs like Copilot and Google Search AI are helpful but have many hallucinations & delutions.
 					- Google Search AI invented `lr` code for "broken symlink"
-					  >
+					  collapsed:: true
+						- ![Google Search AI hallucination ls_colors-lr-broken_symlink.png](../assets/Will/story/2025-Feb/Google Search AI hallucination ls_colors-lr-broken_symlink.png)
+					- Respone to Copilot's hallucination: I've searched myself and see `ca` = `CAPABILITY` not `FILECAP`, `rs` = `RESET` not `NORMAL`, as shown in this [stackexchange](https://unix.stackexchange.com/a/70715/566548)
+					- Copilot was obssesed with that GitHub gist so much that you place that link (https://gist.github.com/thomd/7667642) to the "StackExchange discussion"! 🙁
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
