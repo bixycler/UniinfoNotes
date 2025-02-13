@@ -139,11 +139,15 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-i`, `--inode`
 				  print the ((671f438b-617a-4fc5-88ee-e42f07b67b50)) number of each file
 				- `dircolors`
-				  output commands to set the `LS_COLORS` env.var. for `ls`.
+				  output commands to set the ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) env.var. for `ls`.
 					- This command simply prints out 
 					  ```sh
-					  LS_COLORS='...'; export LS_COLORS
+					  LS_COLORS='di=01;34:type=color;codes:...'; export LS_COLORS
 					  ```
+				- `LS_COLORS`
+				  id:: 67ad9184-d0e9-49c1-9584-ac7ced51b385
+				  env.var. defining output color `ls`.
+					- Color codes are separated by semicolon `;` and their order doesn't matter.
 					- Highlight hard links: `LS_COLORS` value `mh=44;37`
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
 						- It has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
