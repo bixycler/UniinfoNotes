@@ -178,10 +178,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `tw` = `STICKY_OTHER_WRITABLE`: Directory that is sticky and other-writable (`+t`,`o+w`)
 							- `ow` = `OTHER_WRITABLE`: Directory that is other-writable (`o+w`) and not sticky
 							- `st` = `STICKY`: Directory with the sticky bit set (`+t`) and not other-writable
-							- For advanced color capable terminal or printer:
+							- For advanced color capable terminal or printer, the sequence ⟪ `LEFTCODE` [typecode](((67adc11d-b24f-49bd-9bc3-f9d3d6cf06b1))) `RIGHTCODE` filename `ENDCODE` ⟫ will be printed for each filename.
+							  collapsed:: true
 								- `lc` = `LEFTCODE`, `LEFT`: Opening terminal code
 								- `rc` = `RIGHTCODE`, `RIGHT`: Closing terminal code
-								- `ec`= `ENDCODE`, `END`: Non-filename text
+								- `ec`= `ENDCODE`, `END`: Non-filename text or terminal code after filename
+								- typecode: the color sequence that depends on the type or name of file
+								  id:: 67adc11d-b24f-49bd-9bc3-f9d3d6cf06b1
 						- Different names
 							- `MULTIHARDLINK` (`mh`) was initially named `HARDLINK` (`hl`) before `coreutils` 7.5 (in 2009) (see details in [StackExchange](https://unix.stackexchange.com/a/70715/566548)).
 							- `RESET` (`rs`) was added in `coreutils` 6.11.
