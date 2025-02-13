@@ -374,6 +374,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Hôm nay, 10/2, thì thầy MT đã và đang lấy lại cân bằng:
 					- Trong cuộc gọi cho anh Báu thì thầy đã sám hối về những phát ngôn đã làm khổ gia đình anh Báu, sau khi nghe anh Báu giải thích về những "sự thật chưa được kiểm chứng" mà thầy nghe được qua các sư nhỏ.
 					- Còn với các sư nhỏ thì thầy cũng đã tách đoàn, đi một mình "để con tự học và cũng để cho các sư phụ tự học" với châm ngôn của Phật là "tự thắp đuối lên mà đi!"
+		- Share with Mr. Huy about my workspace on Logseq
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-13 Thu 10:18:10]
+		  :END:
+			- :LOGBOOK:
+			  CLOCK: [2025-02-13 Thu 10:18:10]
+			  :END:
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
