@@ -260,12 +260,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- We should have some **delimiters** around them!
 			- TODO Modify `{{search-query}}` to deal with delimiters.
 		- [!] Leaving tasks as `TODO` is so difficult for me...
-		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-02-13 Thu 09:09:57]
 		  :END:
 			- There's a strong force sucking me deep into these tasks...
 			- ⇒ ((6772a6c7-f434-4911-9fa2-939b8db20c42))
 			- ⇒ I'm overcoming it by stop-breathe-relax-redirect
-		-
+			- But while working with the project Pre.Env. for company, i was sucked into ((67adb58e-6bf4-43ba-b574-58b112cc3874)) from 9:00 until now 18:21 = !
+			  :LOGBOOK:
+			  CLOCK: [2025-02-13 Thu 18:18:12]
+			  CLOCK: [2025-02-13 Thu 18:20:46]
+			  :END:
 		- ...
