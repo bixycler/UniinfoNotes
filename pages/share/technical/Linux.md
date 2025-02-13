@@ -148,7 +148,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  id:: 67adaa84-c44b-4f36-bc34-ddec3117b7fc
 					  collapsed:: true
 						- Man page: `man DIR_COLORS` (or [on web](https://www.man7.org/linux/man-pages/man5/dir_colors.5.html))
-						- System-wide config `/etc/DIR_COLORS` can be overriden by per-user config `~/.dir_colors`.
+						- On Slackware, SuSE, RedHat: System-wide config `/etc/DIR_COLORS`, which can be overriden by per-user config `~/.dir_colors`.
 				- `LS_COLORS`
 				  id:: 67ad9184-d0e9-49c1-9584-ac7ced51b385
 				  env.var. defining output colors for `ls --color`.
