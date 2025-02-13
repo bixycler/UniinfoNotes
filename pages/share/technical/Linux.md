@@ -521,6 +521,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  ```
 		- #### shell script
 		  id:: 6694a210-0bd1-4115-b190-4c41f58a577f
+		  collapsed:: true
 			- One line of command with many nuances:
 			  collapsed:: true
 			  ```shell
