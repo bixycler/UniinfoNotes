@@ -156,6 +156,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  id:: 67ad927a-3926-4930-bf40-6cefcca3d54e
 						- Color codes are separated by semicolon `;` and their *order doesn't matter*.
 						- Foreground and background are [3-bit ANSI escape color codes](https://en.wikipedia.org/wiki/ANSI_escape_code#3-bit_and_4-bit).
+						- Effects are [ANSI Select Graphic Rendition codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters).
 					- Highlight hard links: `LS_COLORS` value `mh=44;37`
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
 						- It has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
