@@ -156,7 +156,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  > ((67ad9254-2b15-48cd-8f38-8b727e5ed2da)) = ((67ad927a-3926-4930-bf40-6cefcca3d54e)) : other file types ...
 					- file type code
 					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
-						- `di`
+					  collapsed:: true
+						- corresponding names in ((67adaa84-c44b-4f36-bc34-ddec3117b7fc)): `di`
 					- color & effect codes
 					  id:: 67ad927a-3926-4930-bf40-6cefcca3d54e
 					  collapsed:: true
@@ -181,9 +182,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ```
 							- Many effects can be combined, e.g. `1;3;47;30;7` means _**bold**-italic_ white text on black background (reverse of black text on white background).
 						- Refs: [/etc/DIR_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS)
-					- Highlight hard links: `LS_COLORS` value `mh=44;37`
+					- Examples
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
-						- It has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
+					  collapsed:: true
+						- Highlight for multiple hard links has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
 						  ```sh
 						  export LS_COLORS="$LS_COLORS:mh=44;37" # MULTIHARDLINK
 						  ```
