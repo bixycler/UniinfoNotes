@@ -148,6 +148,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  id:: 67adaa84-c44b-4f36-bc34-ddec3117b7fc
 					  collapsed:: true
 						- Man page: `man DIR_COLORS` (or [on web](https://www.man7.org/linux/man-pages/man5/dir_colors.5.html))
+						- See ((67ad9254-2b15-48cd-8f38-8b727e5ed2da)).
 						- On Slackware, SuSE, RedHat: System-wide config `/etc/DIR_COLORS`, which can be overriden by per-user config `~/.dir_colors`.
 				- `LS_COLORS`
 				  id:: 67ad9184-d0e9-49c1-9584-ac7ced51b385
@@ -157,7 +158,27 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- file type code
 					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
 					  collapsed:: true
-						- corresponding names in ((67adaa84-c44b-4f36-bc34-ddec3117b7fc)): `di`
+						- Codes in `LS_COLORS` and corresponding names in ((67adaa84-c44b-4f36-bc34-ddec3117b7fc))
+							- `no` = `NORMAL`, `NORM`: Global default, although everything should be something
+							- `fi` = `FILE`: Normal file
+							- `di` = `DIR`: Directory
+							- `ln` = `SYMLINK`, `LINK`, `LNK`: Symbolic link. If you set this to 'target' instead of a numerical value, the colour is as for the file pointed to.
+								- `or` = `ORPHAN`: Symbolic link pointing to a non-existent file
+								- `mi` = `MISSING`: Non-existent file pointed to by a symbolic link (visible when you type `ls -l`)
+							- `pi` = `FIFO`, `PIPE`: Named pipe
+							- `do` = `DOOR`: Door
+							- `bd` = `BLOCK`, `BLK`: Block device
+							- `cd` =  `CHAR`, `CHR`: Character device
+							- `so` = `SOCK`: Socket
+							- `su` = `SETUID`: File that is setuid (u+s)
+							- `sg` = `SETGID`: File that is setgid (g+s)
+							- `tw` = `STICKY_OTHER_WRITABLE`: Directory that is sticky and other-writable (+t,o+w)
+							- `ow` = `OTHER_WRITABLE`: Directory that is other-writable (o+w) and not sticky
+							- `st` = `STICKY`: Directory with the sticky bit set (+t) and not other-writable
+							- `ex` = `EXEC`: Executable file (i.e. has 'x' set in permissions)
+							- `lc` = `LEFTCODE`, `LEFT`: Opening terminal code
+							- `rc` = `RIGHTCODE`, `RIGHT`: Closing terminal code
+							- `ec`= `ENDCODE`, `END`: Non-filename text
 					- color & effect codes
 					  id:: 67ad927a-3926-4930-bf40-6cefcca3d54e
 					  collapsed:: true
