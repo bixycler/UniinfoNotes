@@ -181,7 +181,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `rc` = `RIGHTCODE`, `RIGHT`: Closing terminal code
 							- `ec`= `ENDCODE`, `END`: Non-filename text
 						- Different names
-							- (see details in )
+							- `MULTIHARDLINK` (`mh`) was initially named `HARDLINK` (`hl`) before `coreutils` 7.5 (in 2009) (see details in [stackexchange](https://unix.stackexchange.com/a/70715/566548)).
+							- `RESET` (`rs`) was added in `coreutils` 6.11.
+							- `CAPABILITY` (`ca`) was added in `coreutils` 7.0.
 					- color & effect codes
 					  id:: 67ad927a-3926-4930-bf40-6cefcca3d54e
 					  collapsed:: true
