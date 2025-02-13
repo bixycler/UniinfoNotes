@@ -252,23 +252,30 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
-		  collapsed:: true
+		  id:: 67ac4f68-8af4-4886-9183-85de0039250c
 		  :LOGBOOK:
 		  CLOCK: [2025-02-13 Thu 09:09:51]
 		  :END:
 			- We should not ~~trim spaces~~ from keywords because sometimes they are intentional.
 			- We should have some **delimiters** around them!
 			- TODO Modify `{{search-query}}` to deal with delimiters.
+			  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- [!] Leaving tasks as `TODO` is so difficult for me...
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-02-13 Thu 09:09:57]
 		  :END:
 			- There's a strong force sucking me deep into these tasks...
 			- ⇒ ((6772a6c7-f434-4911-9fa2-939b8db20c42))
-			- ⇒ I'm overcoming it by stop-breathe-relax-redirect
-			- But while working with the project Pre.Env. for company, i was sucked into ((67adb58e-6bf4-43ba-b574-58b112cc3874)) from 9:00 until now 18:21 = !
+			- ⇒ I'm overcoming it by stop-breathe-relax-redirect, then mark `TODO` for this task: ((67ad537f-9a22-4079-b8d1-352b4c567278))
+			- But while working with the project Pre.Env. for company, i was sucked into ((67adb58e-6bf4-43ba-b574-58b112cc3874)) from 9:00 until now 18:21 = 9.5 hours, just because i **didn't think it complicated**!!!
 			  :LOGBOOK:
 			  CLOCK: [2025-02-13 Thu 18:18:12]
 			  CLOCK: [2025-02-13 Thu 18:20:46]
 			  :END:
+				- This was just because the broken symlink was not hilited as normal.
+				- Then i [searched for `LS_COLORS`](((67ac4f68-8af4-4886-9183-85de0039250c))) but failed due to a trailing space.
+				- I thought it was just a very simple task, just "going to be done now!"
+				- So, i didn't even bother to track that task!
+				- Chatted with Copilot, searched all over the place,... it's turned out to be not so simple at all!
 		- ...
