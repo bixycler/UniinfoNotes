@@ -167,7 +167,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ```
 						- Effects are [ANSI Select Graphic Rendition codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters).
 							- ```sh
-							  00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed
+							  0=none 1=bold 4=underscore 5=blink 7=reverse 8=concealed
 							  ```
 					- Highlight hard links: `LS_COLORS` value `mh=44;37`
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
