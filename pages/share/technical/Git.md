@@ -237,11 +237,12 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				  ```sh
 				  git fetch --force ${remote} ${branch}:${other_branch}
 				  ```
-				- When the , there will be 2 updates, e.g.:
+				- When the remote tracking branch `${remote}/${branch}` is different from the actual `${branch}` on `${remote}` repo, which is the case of remotely `push --force`, there will be 2 updates, e.g.:
 				  ```sh
+				  git fetch --force test_branch:other_branch
 				  From github.com:bixycler/GitWorkflows
-				   + 2174bba...189e558 test -> test_other  (forced update)
-				     233e5d4..189e558  test -> origin/test
+				   + 2174bba...189e558 test_branch -> other_branch  (forced update)
+				     233e5d4..189e558  test_branch -> origin/test_branch
 				  ```
 			- To **merge** with upstream even if the remote tracking branch `@{u}` is diverged from the branch on remote repo,
 			  collapsed:: true
