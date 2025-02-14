@@ -259,6 +259,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					   + 2174bba...189e558 test_branch -> other_branch  (forced update)
 					  ```
 			- To **merge** with upstream even if the remote tracking branch `@{u}` is diverged from the branch on remote repo,
+			  collapsed:: true
 			  ```sh
 			  git pull --force ${remote} ${branch}:${branch}
 			  warning: fetch updated the current branch head.
@@ -327,8 +328,8 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  
 			  *) Notes:
 		- Specifying commits (revisions)
-			- `HEAD` = `@`
-			- **refname**: `master`, `heads/master`, `refs/heads/master`, `ogigin/main`, `refs/ogigin/main`, etc.
+			- `HEAD` = `@`, `[${branchname}]@{upstream,push}` with shorthand `${u}` = `@{upstream}`
+			- **refname**: `master`, `heads/master`, `refs/heads/master`, `ogigin/main`, `remotes/ogigin/main`, `remotes/ogigin`, `origin`, `refs/remotes/ogigin/main`, etc.
 			- SHA1 hash: short `dae86e`, log `dae86e1950b1277e545cee180551750029cfe735`
 			- Ref: [Git docs](https://git-scm.com/docs/revisions/2.42.0)
 		- Range of commits (revision range)
