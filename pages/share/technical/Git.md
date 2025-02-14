@@ -298,7 +298,11 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			- `${head1_inclusive}...${head2_inclusive}` means roughly "between 2 (branching) heads", and exactly "all commits reachable from either head, but not (the common) from both of them".
 			- Ref: [Git docs](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#_commit_ranges)
 			  id:: 66b1cfa5-6161-4074-bd22-077ef848026b
-		- Find the common base of two g
+		- Find the common base of branches
+			- Between this and upstream
+			  ```sh
+			  git merge-base HEAD @{u}
+			  ```
 	- Git workflows
 	  id:: 666022fc-eeeb-4365-a854-7e14045655be
 	  collapsed:: true
