@@ -326,6 +326,11 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  
 			  
 			  *) Notes:
+		- Specifying commits (revisions)
+			- `HEAD` = `@`
+			- **refname**: `master`, `heads/master`, `refs/heads/master`, `ogigin/main`, `refs/ogigin/main`, etc.
+			- SHA1 hash: short `dae86e`, log `dae86e1950b1277e545cee180551750029cfe735`
+			- Ref: [Git docs](https://git-scm.com/docs/revisions/2.42.0)
 		- Range of commits (revision range)
 			- `${base_exclusive}..${head_inclusive}` means “all commits reachable from `${head_inclusive}` that aren't reachable from `${base_exclusive}`”.
 			  collapsed:: true
