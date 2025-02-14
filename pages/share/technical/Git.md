@@ -219,21 +219,23 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		  `git push <repo> <another_branch>`
 		- Force pull
 			- To **overwrite** this branch with its upstream,
+			  id:: 67af0c5c-996c-4065-9533-0ce9fce905bf
 			  ```sh
-			  git pull --force --ff-only ${remote} @:@
+			  git restore . # discard any staged changes
+			  git pull --force --ff-only ${remote} ${branch}:${branch}
 			  ```
 				- Or the “standard combo” 
 				  ```shell
 				  git fetch --all
 				  git reset --hard @{u} # shorthand: @{u} = @{upstream}
 				  ```
-				- Warning: `git reset --hard` is so strong that it can overwrite this branch with another *completely separate branch*, i.e. it's a “**hard set**”, not just a “hard ~~re~~set”!
+					- Warning: `git reset --hard` is so strong that it can overwrite this branch with another *completely separate branch*, i.e. it's a “**hard set**”, not just a “hard ~~re~~set”!
 			- To _**overwrite** another branch_ with its upstream, it's shorter with a single command:
 			  collapsed:: true
 			  ```sh
 			  git fetch --force ${remote} ${branch}:${branch}
 			  ```
-				- What a pity that this command cannot be applied to the current branch!
+				- Note that this command cannot be applied to the current branch! Use [git pull --force](((67af0c5c-996c-4065-9533-0ce9fce905bf))) instead.
 				  ```sh
 				  fatal: Refusing to fetch into current branch refs/heads/test_branch of non-bare repository
 				  ```
