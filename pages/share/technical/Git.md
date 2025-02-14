@@ -219,11 +219,14 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		  `git push <repo> <another_branch>`
 		- Force pull
 			- To **overwrite** this branch with its upstream,
-				- or longer with
-				  ```shell
-				  git reset --hard
-				  git pull --force
-				  ```
+			  ```shell
+			  git fetch --all --force
+			  git reset --hard @{u}
+			  ```
+			- To **merge** with upstream even if the remote tracking branch `@{u}` is diverged from the branch on remote repo,
+			  ```sh
+			  git pull --force
+			  ```
 				- which is equivalent to 
 				  ```shell
 				  git fetch --force @{u}:HEAD
