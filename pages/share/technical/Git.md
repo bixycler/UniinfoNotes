@@ -223,7 +223,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  git fetch --all --force
 			  git reset --hard @{u}
 			  ```
-				- Warning: `git reset --hard` is so strong that it can overwrite this branch with another *completely separate branch*, i.e. it's a “**hard set**”, not just “hard reset”!
+				- Warning: `git reset --hard` is so strong that it can overwrite this branch with another *completely separate branch*, i.e. it's a “**hard set**”, not just a “hard ~~re~~set”!
 			- To **merge** with upstream even if the remote tracking branch `@{u}` is diverged from the branch on remote repo,
 			  collapsed:: true
 			  ```sh
