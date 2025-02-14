@@ -254,13 +254,18 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					  ```
 			- To **merge** with upstream even if the remote tracking branch `@{u}` is diverged from the branch on remote repo,
 			  ```sh
-			  git pull --force
+			  git pull --force ${remote} ${branch}:${branch}
+			  warning: fetch updated the current branch head.
+			  fast-forwarding your working tree from
+			  commit 2174bba0072daa0dc907f9049b9ecf597d812fb1.
+			  fatal: Need to specify how to reconcile divergent branches.
 			  ```
-				- which is equivalent to 
+				- which is equivalent to (depending on `git config pull`)
 				  ```shell
-				  git fetch --force
+				  git fetch --force ${remote} ${branch}:${branch} # warning: fetch updated the current branch head.
 				  git merge @{u} # when git config pull.rebase false (default)
 				  #git rebase @{u} # when git config pull.rebase true
+				  # or don't merge nor rebase # when git config pull.ff only
 				  ```
 		- Merge
 			- Merge favoring `ours`/`theirs` over the other side (using default strategy `-s ort`)
