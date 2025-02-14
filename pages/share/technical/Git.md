@@ -217,15 +217,17 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				- Many options for output format: `-s -b -w --date=human -M --color-lines --color-by-age`
 		- Push another branch, not the current:   
 		  `git push <repo> <another_branch>`
-		- Force pull: To overwrite this branch with its upstream, from the common base, don't use the misleading `git pull --force` because it's only [`git fetch --force`](https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/#the-other-git-pull-force).  
+		- Force pull: To overwrite this branch with its upstream, don't use the misleading `git pull --force` because it's only [`git fetch --force`](https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/#the-other-git-pull-force).  
 		  Use this: (put them all into an alias) 
 		  ```shell
-		  git fetch --all
-		  git reset --hard $(git merge-base HEAD @{u})
-		  git merge @{u}
+		  git fetch --all --force
+		  git reset --hard @{u}
 		  ```
-			- ```sh
-			  git reset --hard @{u}
+			- or longer by getting through the common base:
+			  ```sh
+			  git fetch --all --force
+			  git reset --hard $(git merge-base HEAD @{u})
+			  git merge @{u}
 			  ```
 		- Merge
 			- Merge favoring `ours`/`theirs` over the other side (using default strategy `-s ort`)
