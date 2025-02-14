@@ -219,10 +219,14 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		  `git push <repo> <another_branch>`
 		- Force pull
 			- To **overwrite** this branch with its upstream,
-			  ```shell
-			  git fetch --all
-			  git reset --hard @{u}
+			  ```sh
+			  git pull --force --ff-only ${remote} @:@
 			  ```
+				- Or the “standard combo” 
+				  ```shell
+				  git fetch --all
+				  git reset --hard @{u} # shorthand: @{u} = @{upstream}
+				  ```
 				- Warning: `git reset --hard` is so strong that it can overwrite this branch with another *completely separate branch*, i.e. it's a “**hard set**”, not just a “hard ~~re~~set”!
 			- To _**overwrite** another branch_ with its upstream, it's shorter with a single command:
 			  collapsed:: true
@@ -262,8 +266,8 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  ```
 				- which is equivalent to (depending on `git config pull`)
 				  ```shell
-				  git fetch --force ${remote} ${branch}:${branch} # warning: fetch updated the current branch head.
-				  git merge @{u} # when git config pull.rebase false (default)
+				  git fetch --force ${remote} ${branch}:${branch} # (pseudo-command!) warning: fetch updated the current branch head.
+				  #git merge @{u} # when git config pull.rebase false (default)
 				  #git rebase @{u} # when git config pull.rebase true
 				  # or don't merge nor rebase # when git config pull.ff only
 				  ```
