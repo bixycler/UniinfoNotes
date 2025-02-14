@@ -225,14 +225,24 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  ```
 				- Warning: `git reset --hard` is so strong that it can overwrite this branch with another *completely separate branch*, i.e. it's a “**hard set**”, not just a “hard ~~re~~set”!
 			- To _**overwrite** another branch_ with its upstream, it's shorter with a single command:
+			  collapsed:: true
 			  ```sh
 			  git fetch --force ${remote} ${branch}:${branch}
 			  ```
-				- Note the target local branch can be a completely different branch, e.g.
+				- What a pity that this command cannot be applied to the current branch!
+				  ```sh
+				  fatal: Refusing to fetch into current branch refs/heads/test_branch of non-bare repository
+				  ```
+				- Note the target local branch can be a completely different branch, even a new branch, e.g.
 				  ```sh
 				  git fetch --force ${remote} ${branch}:${other_branch}
 				  ```
-					- This will updates
+				- When the , there will be 2 updates, e.g.:
+				  ```sh
+				  From github.com:bixycler/GitWorkflows
+				   + 2174bba...189e558 test -> test_other  (forced update)
+				     233e5d4..189e558  test -> origin/test
+				  ```
 			- To **merge** with upstream even if the remote tracking branch `@{u}` is diverged from the branch on remote repo,
 			  collapsed:: true
 			  ```sh
