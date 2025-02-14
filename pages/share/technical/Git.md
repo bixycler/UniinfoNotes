@@ -215,8 +215,20 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				- Revision `$rev` can be given to blame edits from that `$rev` up, instead of from now (working directory).
 					- Usually we use `$rev^` to find edits *before* `$rev` to trace back the history.
 				- Many options for output format: `-s -b -w --date=human -M --color-lines --color-by-age`
-		- Push another branch, not the current:   
-		  `git push <repo> <another_branch>`
+		- Push to remote
+			- Push another branch, not the current:   
+			  ```sh
+			  git push ${remote} ${another_branch}
+			  ```
+			- Force  push
+				- Overwrite remote **anyway** (hard force)!
+				  ```sh
+				  git push --force
+				  ```
+				- **Safely** overwrite: be sure that no other people did anything to the remote ref.
+				  ```sh
+				  git push --force-with-lease --force-if-includes
+				  ```
 		- Force pull
 			- To **overwrite** this branch with its upstream,
 			  id:: 67af0c5c-996c-4065-9533-0ce9fce905bf
