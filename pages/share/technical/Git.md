@@ -220,7 +220,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		- Force pull
 			- To **overwrite** this branch with its upstream,
 			  ```shell
-			  git fetch --all --force
+			  git fetch --all
 			  git reset --hard @{u}
 			  ```
 				- Warning: `git reset --hard` is so strong that it can overwrite this branch with another *completely separate branch*, i.e. it's a “**hard set**”, not just a “hard ~~re~~set”!
@@ -239,13 +239,20 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				  ```
 				- When the remote tracking branch `${remote}/${branch}` is different from the actual `${branch}` on `${remote}` repo, which is the case of remotely `push --force`, there will be 2 updates, e.g.:
 				  ```sh
-				  git fetch --force test_branch:other_branch
+				  git fetch --force origin test_branch:other_branch
 				  From github.com:bixycler/GitWorkflows
 				   + 2174bba...189e558 test_branch -> other_branch  (forced update)
 				     233e5d4..189e558  test_branch -> origin/test_branch
 				  ```
+					- 1st,`test_branch` on `origin` remote → remote tracking `origin/test_branch`, like the normal `git fetch`
+					  ```sh
+					     233e5d4..189e558  test_branch -> origin/test_branch
+					  ```
+					- 2nd, remote tracking `origin/test_branch` → local `heads/other_branch`, like `git reset --hard`
+					  ```sh
+					   + 2174bba...189e558 test_branch -> other_branch  (forced update)
+					  ```
 			- To **merge** with upstream even if the remote tracking branch `@{u}` is diverged from the branch on remote repo,
-			  collapsed:: true
 			  ```sh
 			  git pull --force
 			  ```
