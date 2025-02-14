@@ -224,6 +224,9 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 		  git reset --hard $(git merge-base HEAD @{u})
 		  git merge @{u}
 		  ```
+			- ```sh
+			  git reset --hard @{u}
+			  ```
 		- Merge
 			- Merge favoring `ours`/`theirs` over the other side (using default strategy `-s ort`)
 			  id:: 666172e6-15fa-412e-a2ba-a32304da6937
