@@ -224,19 +224,16 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  git reset --hard @{u}
 			  ```
 			- To **merge** with upstream even if the remote tracking branch `@{u}` is diverged from the branch on remote repo,
+			  collapsed:: true
 			  ```sh
 			  git pull --force
 			  ```
 				- which is equivalent to 
 				  ```shell
-				  git fetch --force @{u}:HEAD
+				  git fetch --force
+				  git merge @{u} # when git config pull.rebase false (default)
+				  #git rebase @{u} # when git config pull.rebase true
 				  ```
-			- or longer by getting through the common base:
-			  ```sh
-			  git fetch --all --force
-			  git reset --hard $(git merge-base HEAD @{u})
-			  git merge @{u}
-			  ```
 		- Merge
 			- Merge favoring `ours`/`theirs` over the other side (using default strategy `-s ort`)
 			  id:: 666172e6-15fa-412e-a2ba-a32304da6937
@@ -301,6 +298,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			- `${head1_inclusive}...${head2_inclusive}` means roughly "between 2 (branching) heads", and exactly "all commits reachable from either head, but not (the common) from both of them".
 			- Ref: [Git docs](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#_commit_ranges)
 			  id:: 66b1cfa5-6161-4074-bd22-077ef848026b
+		- Find the common base of two g
 	- Git workflows
 	  id:: 666022fc-eeeb-4365-a854-7e14045655be
 	  collapsed:: true
