@@ -373,7 +373,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Chỉ 2-3 ngày sau khi anh Báu về VN thì đủ chuyện lộn xộn, từ sư Phúc Giác vạ miệng về thân thế anh Theerawat (phạm luật Thái về cấm đụng tới hoàng tộc), tới Phước Nghiêm sang quậy tưng bừng kích động tâm bất an của các sư nhỏ (bảo không có cầm hộ chiếu là bị bắt, v.v.)
 				- Hôm nay, 10/2, thì thầy MT đã và đang lấy lại cân bằng:
 					- Trong cuộc gọi cho anh Báu thì thầy đã sám hối về những phát ngôn đã làm khổ gia đình anh Báu, sau khi nghe anh Báu giải thích về những "sự thật chưa được kiểm chứng" mà thầy nghe được qua các sư nhỏ.
-					- Còn với các sư nhỏ thì thầy cũng đã tách đoàn, đi một mình "để con tự học và cũng để cho các sư phụ tự học" với châm ngôn của Phật là "tự thắp đuối lên mà đi!"
+					- Còn với các sư nhỏ thì thầy cũng đã tách đoàn, nhân cái duyên ở lại để tiếp một sư thầy, thầy đã đi một mình "để con tự học và cũng để cho các sư phụ tự học" với châm ngôn của Phật là "tự thắp đuối lên mà đi!"
+				- Được 1 ngày đi riêng, sau đó thầy lại đi cùng đoàn như trước. Rồi thầy nhận Phước Nghiêm vào đoàn. Rồi vẫn sợ bị bắt tới độ nghĩ "chắc phải lấy dây xích trói mình vào gốc cây để họ không đưa đi!" Rồi vẫn bị cảnh sát bế đi lên đồn như thường, vào trưa ngày 13/2, kiểm tra giấy tờ và không cho đi
 		- Share with Mr. Huy about my workspace on Logseq
 		  collapsed:: true
 		  :LOGBOOK:
