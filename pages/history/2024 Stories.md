@@ -519,27 +519,29 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 				- 2. Người đời chỉ thích cái gì nhanh gọn lẹ, ngon bổ rẻ, nên Đại thừa cũng phải tạo trend kiểu tiktok cho đại chúng. VD nói về lý Duyên khởi hay Duyên hợp hay "vạn vật đều do nhân duyên sinh ra" thì vừa khó hiểu, vừa dài dòng, lại vừa quá tầm thường chẳng có gì là "Phật pháp nhiệm mầu" cả. Cái người đời cần không phải là hiểu mà là chỗ dựa tâm linh và kết quả giải thoát. Nên các tổ sư Đại thừa mới quán xem người đời chấp cái gì thì chế ra cái phương tiện để phá cái chấp đó trước:
 					- Tuyệt đại đa số người đời đều chấp "có", từ có tài sản tới có thân này (là tôi, là bất khả xâm phạm), có tâm này (là tôi, là hiển nhiên đúng). Người ta không nô lệ cho thứ gì khác ngoài những thứ mình cho là "có". Vậy thì phải lấy cái "không" làm gốc của mọi phương tiện phá chấp, đưa đến giải thoát, nên hình thành triết lý "tính Không". À, cái người đang đứng rõ ràng trước mặt đó mà ông sư bảo là "không có" thì quả thực cái thấy của sư là siêu phàm rồi, phải theo thầy cầu giải thoát thôi 😊, thế là 1 ông thầy thu nạp được 1 vạn Phật tử.
 					- Tuyệt đại đa số người đời đều chấp vào 2 thái cực đúng/sai, tốt/xấu, v.v. nhưng Trong một vạn Phật tử học được chữ đầu tiên "Không" thì chỉ may lắm được 10% là theo thầy để học câu tiếp theo (lớp 2): Có cũng là không, không cũng là có! 1 ngàn Phật tử  lớp 2 đó học tới đây thì há hốc mồm, hóa ra bấy nay mình cho rằng giải thoát là phải thấy mọi thứ là không, phải buông bỏ hết, là chưa đúng, đúng ra phải là "có cũng là không, không cũng là có"... thiệt là thâm sâu huyền diệu (tuy đéo hiểu gì đâu, nhưng) cứ theo thầy để học, ráng một tháng dành ra 3 ngày ăn chay niệm Phật đồ... thế nào cũng được giải thoát mà! (Thầy và kinh điển Đại thừa hứa như vậy)
-					- Trong một ngàn Phật tử lớp 2 thì chỉ khoảng 1 trăm người thực hành cái mình học được... trong đó khoảng mười người là bị phản tác dụng, càng thực hành càng khổ, thì mới lên hỏi lại thầy:
-						- Sao con nghe thầy giảng kinh bát nhã là kinh đỉnh cao trí tuệ (bát nhã = pra-nha = trí tuệ) mà con thực hành y theo kinh lại không được giải thoát gì hết?!
-						- Thầy mới hỏi "con thực hành thế nào?"
-						- Thì con kẹt tiền quá nên con cầu Phật gia hộ, cái lúc ra quán ăn con liền thấy bàn bên cạnh có cái điện thoại để không, cái con quán 'người có điện thoại cũng là không có, điện thoại có chủ cũng là vô chủ, mình lấy đi bán giải quyết vấn đề là việc xấu mà cũng là việc tốt', xong cái con cầm nó đi một cách nhẹ nhàng không thấy khó khăn gì cả. Nhưng sau đó con lại bị mấy người xấu tính chỉ điểm cho thằng chủ nó kiếm con nó đòi lại điện thoại còn đánh cho con bầm dập nữa 🙁
-						- Thầy nghe kể chuyện như trò hề, nhưng thầy không cười chê vì đây mà một trong rất ít người thực hành, nên thầy kiên nhẫn hỏi tiếp: "Vậy giờ con quán xem, con bị đánh có đau không?"
-						- Trời ơi thầy bị mù hả, con máu me bầm dập vầy mà thầy còn hỏi kiểu đó, con là người chứ phải gỗ đá đâu mà không đau?
-						- Thầy chỉ hỏi thôi mà, con cứ trả lời thật lòng, đau thì nói "có đau", đừng tức giận.
-						- Dạ con đau lắm!
-						- Vậy con có quán thấy rằng "đau lắm cũng là không đau" được không?
-						- Thua! Dạ cái này con bó tay rồi thầy ơi!
-						- Vậy con thử hình dung về người chủ điện thoại xem anh ta đánh con thì anh ta có đau không?
-						- Không! Nó đánh con đã tay muốn chết, con đâu có đánh trả lại đâu mà nó đau!?!
-						- Vậy thì cùng một vết thương này nhưng vừa có đau, là con thấy đau, mà cũng vừa không đau, là người đánh không thấy đau. Con rõ chưa?
-						- À! Thì ra nó là như vậy! Vậy đó giờ con hiểu sai rồi!! ![🙁](https://static.xx.fbcdn.net/images/emoji.php/v9/tcb/1/16/1f641.png)
-						- Sai nhưng không hoàn toàn sai: Người chủ điện thoại đó đánh con vì anh ta cũng bị đau, vì đau đớn khi mất điện thoại nên mới đánh con, anh ta càng đau xót về cái điện thoại của mình thì càng đánh con mạnh, nghĩa là anh ta chỉ chuyển cái đau từ chỗ này sang chỗ khác thôi. Tức là trong cùng một việc đánh con, anh ta vừa đau mà cũng vừa không biết đau, đau vì mất điện thoại và không biết đau cho con là người bị đánh.
-						- Ồ sao nó lắt léo quá vậy thầy?!
-						- Thì đỉnh cao trí tuệ là kết tinh của cả trời đất mà con nghĩ sao lại không rắc rối phức tạp?!
-						- Tại con thấy kinh Bát nhã ghi có mấy câu đơn giản thôi mà.
-						- Thì đó là để cho con dễ nhớ thôi, vậy mà có được mấy người nhớ đâu, trong mấy người nhớ có mấy người thực hành đâu. Có thực hành thì mới biết mình hiểu đúng hiểu sai chỗ nào chứ.
-						- Dạ vậy để con xác nhận cái con hiểu với thầy trước rồi sẽ thực hành, thực hành rồi sẽ quay lại hỏi thầy thêm.
-						- .... [Hai thầy trò tâm sự còn dài lắm]
+					- Trong một ngàn Phật tử lớp 2 thì chỉ khoảng 1 trăm người thực hành cái mình học được... trong đó khoảng mười người là bị phản tác dụng, càng thực hành càng khổ, thì mới lên hỏi lại thầy: ((67b183f0-c771-49d7-ba8e-d618eb5e07dc))
+		- Đối thoại giữa 2 thầy trò sau qua bài học từ thất bại trong thực tế cuộc sống:
+		  id:: 67b183f0-c771-49d7-ba8e-d618eb5e07dc
+			- Sao con nghe thầy giảng kinh bát nhã là kinh đỉnh cao trí tuệ (bát nhã = pra-nha = trí tuệ) mà con thực hành y theo kinh lại không được giải thoát gì hết?!
+			- Thầy mới hỏi "con thực hành thế nào?"
+			- Thì con kẹt tiền quá nên con cầu Phật gia hộ, cái lúc ra quán ăn con liền thấy bàn bên cạnh có cái điện thoại để không, cái con quán "người có điện thoại cũng là không có, điện thoại có chủ cũng là vô chủ, mình lấy đi bán giải quyết vấn đề là việc xấu mà cũng là việc tốt", xong cái con cầm nó đi một cách nhẹ nhàng không thấy khó khăn gì cả. Nhưng sau đó con lại bị mấy người xấu tính chỉ điểm cho thằng chủ nó kiếm con nó đòi lại điện thoại còn đánh cho con bầm dập nữa 🙁
+			- Thầy nghe kể chuyện như trò hề, nhưng thầy không cười chê vì đây mà một trong rất ít người thực hành, nên thầy kiên nhẫn hỏi tiếp: "Vậy giờ con quán xem, con bị đánh có đau không?"
+			- Trời ơi thầy bị mù hả, con máu me bầm dập vầy mà thầy còn hỏi kiểu đó, con là người chứ phải gỗ đá đâu mà không đau?
+			- Thầy chỉ hỏi thôi mà, con cứ trả lời thật lòng, đau thì nói "có đau", đừng tức giận.
+			- Dạ con đau lắm!
+			- Vậy con có quán thấy rằng "đau lắm cũng là không đau" được không?
+			- Thua! Dạ cái này con bó tay rồi thầy ơi!
+			- Vậy con thử hình dung về người chủ điện thoại xem anh ta đánh con thì anh ta có đau không?
+			- Không! Nó đánh con đã tay muốn chết, con đâu có đánh trả lại đâu mà nó đau!?!
+			- Vậy thì cùng một vết thương này nhưng vừa có đau, là con thấy đau, mà cũng vừa không đau, là người đánh không thấy đau. Con rõ chưa?
+			- À! Thì ra nó là như vậy! Vậy đó giờ con hiểu sai rồi!! ![🙁](https://static.xx.fbcdn.net/images/emoji.php/v9/tcb/1/16/1f641.png)
+			- Sai nhưng không hoàn toàn sai: Người chủ điện thoại đó đánh con vì anh ta cũng bị đau, vì đau đớn khi mất điện thoại nên mới đánh con, anh ta càng đau xót về cái điện thoại của mình thì càng đánh con mạnh tay. Nghĩa là anh ta chỉ chuyển cái đau từ chỗ này sang chỗ khác thôi. Tức là trong cùng một việc đánh con, anh ta vừa đau mà cũng vừa không biết đau, đau vì mất điện thoại và không biết đau cho con là người bị đánh.
+			- Ồ sao nó lắt léo quá vậy thầy?!
+			- Thì đỉnh cao trí tuệ là kết tinh của cả trời đất mà con nghĩ sao lại không rắc rối phức tạp?!
+			- Tại con thấy kinh Bát nhã ghi có mấy câu đơn giản thôi mà.
+			- Thì đó là để cho con dễ nhớ thôi, vậy mà có được mấy người nhớ đâu, trong mấy người nhớ có mấy người thực hành đâu. Có thực hành thì mới biết mình hiểu đúng hiểu sai chỗ nào chứ.
+			- Dạ vậy để con xác nhận cái con hiểu với thầy trước rồi sẽ thực hành, thực hành rồi sẽ quay lại hỏi thầy thêm.
+			- .... [Hai thầy trò tâm sự còn dài lắm]
 	- Tự sự về giác ngộ đầu tiên về "con đường giải thoát từng bước một"
 	  id:: 66bc67f4-e5ac-4bb6-9979-3ff199815c2e
 	  collapsed:: true
