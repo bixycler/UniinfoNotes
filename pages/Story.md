@@ -381,7 +381,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- LuangPor Jiew = หลวง (luang = đáng kính) + พ่อ (por = ba) + จิ๋ว (Jiew = Nhỏ)
 						- Pháp danh: พุทธญาโณ (Th. Phutthayano) = बुद्धञाणो (Pa. Buddhañāṇo) = having Buddha's [jñāna](https://en.wikipedia.org/wiki/J%C3%B1%C4%81na) = Phật [Trí](https://encyclopediaofbuddhism.org/wiki/J%C3%B1%C4%81na) ~ [pañca·jñāna](https://encyclopediaofbuddhism.org/wiki/Five_wisdoms) ([5 wisdoms](https://en.wikipedia.org/wiki/Five_wisdoms))
 							- jñāna (trí) và jhāna (thiền) đều có gốc từ động từ [ध्यै (Sanskrit "dhyā")](https://en.wiktionary.org/wiki/%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A5%88) nghĩa là "thấy, biết, nghĩ".
-							- prajna-jñāna = trí tuệ, là thứ vượt ra khỏi trí thức (vijñāna, thức phân biệt)
+							- prajna-jñāna = trí tuệ, là thứ vượt ra khỏi trí thức ([vijñāna](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na), thức phân biệt)
 						- https://www.youtube.com/@LuangporJiew: Phra Bodhinanthamuni Wi. Luangpor Jiew
 						- https://www.facebook.com/Watpathammachat:
 		- Share with Mr. Huy about my workspace on Logseq
