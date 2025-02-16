@@ -377,6 +377,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Được 1 ngày đi riêng, sau đó thầy lại đi cùng đoàn như trước. Rồi thầy nhận Phước Nghiêm vào đoàn. Rồi vẫn sợ bị bắt tới độ nghĩ "chắc phải lấy dây xích trói mình vào gốc cây để họ không đưa đi!" Rồi vẫn bị cảnh sát bế đi lên đồn như thường, vào trưa ngày 13/2: cảnh sát kiểm tra giấy tờ và không cho đi bộ hành trong tỉnh này nữa, bắt phải ở trong chùa chứ ko được ở bụi nữa, cho xe đưa sang 1 ngôi chùa ở tỉnh khác. Cảnh sát cũng bảo các YouTuber với visa du lịch thì không được hành nghề kiếm tiền (đáng lẽ visa lao động).
 					- Có người đã hỏi "thầy còn lo sợ không?" thì thầy MT đã trả lời là "vẫn còn lo sợ!"
 				- Phần anh Báu thì đã cùng anh Hùng theo thầy LuangPor Jiew và được nhận làm đệ tử với pháp danh Pháp Nhẫn.
+					- Về anh Báu
+						- https://www.facebook.com/doanvanbau
+						- https://www.youtube.com/@DrDoan1977
 					- Về thầy Luangpo Jiew
 						- LuangPor Jiew = หลวง (luang = đáng kính) + พ่อ (por = ba) + จิ๋ว (Jiew = Nhỏ)
 						- Pháp danh: พุทธญาโณ (Th. Phutthayano) = बुद्धञाणो (Pa. Buddhañāṇo) = having Buddha's [jñāna](https://en.wikipedia.org/wiki/J%C3%B1%C4%81na) = Phật [Trí](https://encyclopediaofbuddhism.org/wiki/J%C3%B1%C4%81na) ~ [pañca·jñāna](https://encyclopediaofbuddhism.org/wiki/Five_wisdoms) ([5 wisdoms](https://en.wikipedia.org/wiki/Five_wisdoms))
@@ -384,8 +387,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- prajñā-jñāna = trí tuệ, là kết quả của sự thanh lọc trí thức ([vijñāna](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na), trí phân biệt, thức)
 								- prajñā = pra (siêu việt) + jñā (jñāna = trí) = tuệ giác = trí siêu việt
 								- vijñāna = vi (phân biệt) + jñāna (trí) = trí phân biệt
-						- https://www.youtube.com/@LuangporJiew: Phra Bodhinanthamuni Wi. Luangpor Jiew
-						- https://www.facebook.com/Watpathammachat:
+						- https://www.youtube.com/@LuangporJiew : Vṛa Bodhi·nantha·muni Wi. Luang·por Jiew
+						- https://www.facebook.com/Watpathammachat
 		- Share with Mr. Huy about my workspace on Logseq
 		  collapsed:: true
 		  :LOGBOOK:
