@@ -379,7 +379,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Phần anh Báu thì đã cùng anh Hùng theo thầy LuangPor Jiew và được nhận làm đệ tử với pháp danh Pháp Nhẫn.
 					- Về thầy Luangpo Jiew
 						- LuangPor Jiew = หลวง (luang = đáng kính) + พ่อ (por = ba) + จิ๋ว (Jiew = Nhỏ)
-						- Pháp danh: พุทธญาโณ (Th. Phutthayano) = बुद्धञाणो (Pa. Buddhañāṇo) = having Buddha's [jñāna](https://en.wikipedia.org/wiki/J%C3%B1%C4%81na) = Phật [Trí](https://encyclopediaofbuddhism.org/wiki/J%C3%B1%C4%81na)
+						- Pháp danh: พุทธญาโณ (Th. Phutthayano) = बुद्धञाणो (Pa. Buddhañāṇo) = having Buddha's [jñāna](https://en.wikipedia.org/wiki/J%C3%B1%C4%81na) = Phật [Trí](https://encyclopediaofbuddhism.org/wiki/J%C3%B1%C4%81na) ~ [pañca·jñāna](https://encyclopediaofbuddhism.org/wiki/Five_wisdoms) ([5 wisdoms](https://en.wikipedia.org/wiki/Five_wisdoms))
+							- jñāna (trí) và jhāna (thiền) đều có gốc từ động từ ध्यै (Sanskrit √dhyai)
 						- https://www.youtube.com/@LuangporJiew: Phra Bodhinanthamuni Wi. Luangpor Jiew
 						- https://www.facebook.com/Watpathammachat:
 		- Share with Mr. Huy about my workspace on Logseq
