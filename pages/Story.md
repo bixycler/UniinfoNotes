@@ -413,102 +413,69 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-02-17 Mon 13:14:00]
 		  :END:
-			- vạn pháp giai không, mọi thứ đều là không!
-			- Không = trống rỗng = cửa mở = thức = thông suốt = trí tuệ = mắt bão = trung tâm tĩnh lặng giữa cuồng phong bão tố 🌪️ = cân bằng âm dương = dấu bằng (obop) = 3rd component in Trinion
-			- 2 mũi tên là -1/2 và +1/2 (spin down & up)
-			- vòng tròn là 1 = |-1/2| + |1/2|
-			- dấu bằng là 0 = -1/2 + 1/2, tức 1/2 = 1/2
-			  
-			  À, nói tới đây tui lại nhớ hôm trước ông bảo sao mà hình tượng mắt bão lại làm ông nản??
-			  
-			  Huy, [16/2/25 23:31]
-			  Đó cũng là do cái tâm biện biệt của tui áp đặt lên việc giác ngộ giải thoát, nghĩa là mong chờ sự giải thoát tuyệt đối, tĩnh tại.
-			  
-			  Không chấp nhận cân bằng động của mắt bão hay đường chân trời tương đối.
-			  
-			  Phần lớn người đời thích một cái đích cố định, rõ ràng, thích một nơi tĩnh tại bền vững để an trú, chứ nói thẳng ngay từ đầu đích là chân trời, nơi an trú là tâm bão thì có ai mà đi
-			  
-			  Tui thấy cái tâm lý này của tui cũng giống với tâm lý không chấp nhận chữa đau bằng cách tăng khả năng chịu đau lúc trước nói với Định.
-			  
-			  À, hiểu rồi.
-			  
-			  Còn tui thì đang đối diện với cái mâu thuẫn trong mình: một kẻ lập dị lại cảm thấy sâu trong mình là cả mọi người. Nó thực sự làm tui rất đau khổ. Nếu mình giống người thì việc thấy mình là mọi người nó bình thường, hợp logic. Còn mình khác người mà lại thấy mình là mọi người thì mâu thuẫn đùng đùng, đúng là nghịch lý kẻ nói dối luôn, nên cũng chỉ tìm cách tự hóa giải thôi chứ nói ra thì ai mà tin nổi 😁
-			  
-			  Không biết thầy MT có tâm đại thừa thế nào, còn tui thì nó từ nhỏ, làm khoa học cũng là để cho mọi người... Chỉ đến 2015, tui bắt đầu nghiêm chỉnh thực hành thì tui mới nhận ra thực tế rằng "mình chưa giải thoát được cho mình thì chẳng thể giải thoát cho ai được hết" (tui tự chứng nghiệm điều đó chứ chẳng đọc kinh sách gì cả), nên tui mới theo tiểu thừa.
-			  
-			  Huy, [17/2/25 08:50]
-			  Định chia sẻ thêm về cảm nhận sâu bên trong mình là tất cả mọi người xem.
-			  
-			  Và vì sao điều đó làm Định đau khổ?
-			  
-			  Cái này tui tưởng có nói nhiều rồi chứ nhỉ? Hay tui nhầm với người khác, có thể là nhầm ông với nhóm ông Hiệp bà Trung chăng.
-			  
-			  Cho tới giờ thì tui thấy còn 2 vướng mắc lớn của tui trên con đường giải  thoát là món nợ tình cảm và món nợ Uniinfo.
-			  
-			  1. Món nợ tình cảm: Người ta thương 1 người đã khổ rồi, tui thương cả mọi người thì khổ hơn gấp bội. Dù ý thức mình biết rằng mình chẳng làm gì được cho người ta, mình còn đang chưa cứu được mình còn đang là kẻ vô dụng trong XH, nhưng thẳm sâu bên trong, cái nghiệp sâu dày bên trong nó vẫn "ôm lấy mọi người". Đó là những món nợ đã được cài sâu trong vô thức mà tui đang đối diện và tìm cách hoá giải nó.
-			  
-			  2. Lý thuyết Uniinfo: Những gì tui trải nghiệm, tui quán thấy và kết tinh lại thì nó thành lý thuyết, và tui đổ ra lý thuyết là để mình nhẹ người chứ cũng chẳng phải để cho ai khác. Dù lý thuyết của tui nói về "mọi thứ" nhưng nó cũng chỉ là cái view của tui, nên cái "mọi thứ" đó cũng chỉ là cái "mọi thứ của Định". Nó chỉ như một nhật ký hành trình trên con đường từ nhiều đời tích tụ, gom góp vào, kết tinh lại, rồi buông xả ra, hướng tới giải thoát trở về 0, chứ chẳng có ý nghĩa gì to lớn cả.
-			  
-			  Theo câu hỏi của ông thì hôm nay tui nói về ý thứ 1, món nợ tình cảm, còn ý 2 thì đó giờ cũng đã nói nhiều rồi.
-			  
-			  Từ nhỏ tui đã khóc nhiều cho đến 15 tuổi, lớp 9, suốt thời cấp 1, lúc còn ngồi bô, tui đã nhiều lần muốn đâm đầu vô tường chết quách đi... Thực sự là lúc đó chẳng ai hiểu mình, bản thân mình cũng không biết tại sao mình chán đời, tại sao mình đau khổ trong khi nhìn bên ngoài thì mình không gặp khó khăn gì cả, ba mẹ chăm lo đầy đủ, dù nhà nghèo nhưng không có thiếu thốn gì cả (tui ko thấy thiếu vật chất).
-			  
-			  Lên cấp 2 thì bị nhà trường và XH nhồi sọ đủ thứ nên bắt đầu "ý thức" rằng "phải sống" 😁 Bị cuốn vào việc học nên cũng không còn ý nghĩ tự tử nữa, nhưng vẫn luôn cảm thấy đau khổ, hễ bị đụng tí là khóc. Đến lớp 9, 15 tuổi, cuối cấp 2, một hôm tui đã đứng trên đi-văng trong nhà dập chưn tự tuyên bố rằng "mình đã khóc suốt 15 năm nay rồi, giờ không khóc nữa!" Tưởng đó chỉ là lời tuyên bố ngông cuồng của tuổi mới lớn, nhưng không ngờ là tui hết khóc thiệt, tự mình thấy lạ.
-			  
-			  Thực ra trước đó tui có phân tích:
-			- Mình khóc vì cái gì?
-			- Vì tự ái!
-			- Tự ái với ai?
-			- Với ba mẹ mình!
-			- Ba mẹ mình nuôi nấng, chăm lo đủ kiểu, vậy có lý do gì để mình tự ái không?
-			- Không!
-			- Vậy bản chất của tự ái là gì?
-			- Là tự yêu mình quá đáng, là ích kỷ!
-			- Vậy có cần phải khóc nữa không?
-			- Không!
-			  
-			  Từ đó, tui đã không bao giờ còn cảm thấy bị xúc phạm, bị đau khổ vì người khác làm gì với mình, không còn tự ái... nhưng chuyển sang tha ái.
-			  
-			  Đến năm 1 ĐH, trong một buổi tối ở KTX Tân Phú, đi qua căn-tin thấy một cảnh thế sự gì đó trên TV, bỗng có gì đó sâu bên trong tui trào lên, và tui trào nước mắt trở lại... sau 3-4 năm (suốt cấp 3) tưởng mình đã "vô cảm".
-			  
-			  Từ đó tui khóc trở lại nhưng là khóc vì thế sự, vì thấy nỗi khố của "thế gian", của "người khác". Nếu ngày trước khóc vì mình thì chỉ thút thít, nghẹn ngào tí thôi, thì giờ khóc vì thế sự nó mạnh hơn gấp trăm ngàn lần, không thể thút thít mà phải lăn lộn, khóc ngất.
-			  
-			  Không thể kể hết được, nhưng có thể điểm vài sự kiện nổi bật như vầy:
-			- Hồi mới học xong 1 năm tiếng Nhật, trong một buổi quay về KTX ĐH Ngoại ngữ Osaka để đón đàn em mới qua, tình cờ tui đọc mẩu truyện về thần y Tuệ Tĩnh của nước Nam vẫn còn ngôi mộ lưu vong trên đất Bắc, tui đã khóc lăn lộn từ trên giường xuống sàn, leo lên giường lại té xuống sàn! Câu ngài để lại trên bia mộ ghi tiếng Hán với ý "có ai đi từ nước Nam sang, xin mang di cốt tôi về với!"
-			- Lúc về VN, khi coi cuốn phim tài liệu "Home" về ngôi nhà Trái Đất, từ mấy tỷ năm hình thành vô cơ, mấy trăm triệu năm hình thành cữu cơ, mấy triệu năm hình thành con người, và mấy trăm năm con người đã "ngốn sạch" di sản ngàn xưa đó... tui đã khóc ngất.
-			- Gần đây nhứt là khi coi phim Buddha (Cuộc đời đức Phật) của tỷ phú Modi mới ra, ngay tập đầu tiên tui đã khóc lăn lộn cho tới hết nửa đầu nói về những năm trong đời của thái tử Siddhartha. Lần này thì nhờ có thực hành hít thở mà lần đầu tui cũng quán được chính cơn khóc của mình. Tui thấy & cảm lại hết thảy sự đau khổ của thái tử, và nó đã cho tui lời giải đáp hết sức rõ ràng rằng tại sao thái tử lại dứt khoát vào rừng tu khổ hạnh. Từ trước tui đã không hề phục và không tin rằng "một thái tử cả đời sung sướng, chẳng có mảy may đau khổ, từ trong cung son điện ngọc, nhung lụa êm ấm, bỗng dưng chỉ có đi ra 4 cửa thành thấy  lão - bệnh - tử - tu mà bỏ tất cả đi tu!" Và đúng như những gì tui đã nghĩ, những thứ người ta kể đó chỉ là lớp áo mỏng che đậy bên ngoài thôi, và cái đau khổ nhứt của thái tử là cảm nhận sự giả tạo, che đậy, dối trá đến tận cùng của chính phụ vương trên danh nghĩa "yêu thương". Những cung son điện ngọc đó không thể che đậy được nỗi lo sợ của chính phụ vương, không thể che đậy được thực tế là hoàng tộc đang sắp bị diệt vong... càng che đậy thì nỗi khổ càng khủng khiếp như một trái bom có vỏ càng cứng thì nổ càng to vậy.
-			  
-			  Nhưng cái "khóc vì người khác" đó tui để trong nháy kép là vì bản thân tui không thấy đó là "người khác", chỉ là nói theo ngôn ngữ đại chúng thôi. Nếu mình thấy một kẻ đang giãy chết mà không thấy mình trong đó, VD như khi mình đang thù hận và muốn giết nó, thì không thể nào xót thương nó được. Nên tất cả những nỗi khổ của "người khác" đó cũng chỉ là phản chiếu nỗi khổ trong chính bản thân mình thôi. Cái này ai có trải nghiệm thì mới thấu hiểu được, bằng không thì chỉ là những con chữ vô tình thôi.
-			  
-			  Sau này quán lại thì tui mới hiểu tại sao tui lại muốn tự tử một cách "vô lý" như vậy, và cái "khóc tự ái" thuở nhỏ cũng không phải "ích kỷ" như mình từng nghĩ, mà chỉ là sự bộc phát của nỗi khổ mà thôi. Những nỗi khổ đó tui đã tích tụ từ nhiều đời trước, rồi ở đầu đời này cho tới thời thanh niên, tui đã project nó ra ngoài 2 lần:
-			- Lần đầu là thuở ấu thơ, chứng kiến cảnh "dĩa bay trong nhà", tui đã project ba mẹ mình ra thành người nam và người nữ tổng quát.
-			- Lần sau, sau cái dậm chưn năm lớp 9, tui đã project nỗi khổ của mình ra nỗi khổ của mọi người.
-			  
-			  Và tới 2015, khi bước vào làm hành giả, tui mới quay trở lại thu những "nỗi khổ thế gian" đó về chính mình, nhận thức rõ là "mình đang khổ" cái đã còn người ta có khổ hay không tính sau. Và dạo gần đây thì tui đã đi giáp vòng tròn, quay lại khóc nức nở cho chính mình, như chuyện "thân phận con đĩ nhỏ" tui kể hôm trước đó.
-			  
-			  Đó kể ra thì chỉ có thể nói những sự kiện bộc lộ ra ngoài vậy thôi, chứ bên trong thì sao nói được?! Làm sao có thể diễn tả được cái sự phi lý đùng đùng rằng "mình với nó rõ ràng tách biệt nhau mà sâu bên trong lại là một" được!? 🤪
-			  
-			  Hồi "lên núi" 3 tháng dịch Covid-19, tui đã thí nghiệm vụ này rồi: nhắm mắt lại cảm nhận, tui "thấy rõ" mình với nó là một, nhưng mở mắt ra thì mình cũng thấy rõ bằng cặp mắt ngoài này rằng mình tách biệt với nó. Đó là sự mâu thuẫn cơ bản, là Liar Paradox, là cỗ máy xoay tít, là động cơ của cả thế giới này.
-			  
-			  Đây là cái nhìn bên trong: Cả thế giới bên ngoài chỉ là một quả cầu
-			  
-			  Đối với cái view bên trong thì cặp mắt ngoài này là đang nhìn vào trong quả cầu đó, cái gọi là "thế giới bên ngoài" chỉ là cái "chậu cá" mà thôi. Những thứ bên ngoài là tách biệt với nhau trong cái chậu cá đó nhưng được kết nối với nhau ở thế giới bên trong này. Sự ngược ngạo trong/ngoài đó giống như phim Matrix vậy.
-			  
-			  Circle graph
-			  
-			  Hoặc nói theo dimensionalism thì thế giới bên ngoài là không gian 1D trên cái vòng tròn chu vi của circle graph, bản chất là tách biệt lẫn nhau, còn thế giới bên trong là cả cái đĩa tròn 2D bên trong chứa đựng các kết nối.
-			  
-			  Thế giới vật lý bên ngoài chỉ có 3 chiều, còn thế giới thông tin bên trong thì có vô số chiều (không giới hạn). Nên "chiều không gian khác" không phải nằm bên ngoài khoảng không vũ trụ, mà nằm trong chính chúng ta, trong mỗi hạt cơ bản.
-			  
-			  Cái này thì nãy giờ tui nói nhiều rồi hen. Nhưng câu hỏi có lẽ cần đổi lại là "tại sao thấy cái khổ cả thế gian mà không thấy cái sướng cả thế gian?"
-			  
-			  Thực tình là tui cũng không rõ tại sao, mình chỉ thấy gì (bên trong) thì nói vậy thôi, ko thấy thì chỉ biết là không thấy chứ cũng không biết tại sao. Tui đi qua địa ngục nhiều, từ nhỏ cũng đã muốn "tham quan địa ngục xem sao" chứ chưa bao giờ muốn "tham quan thiên đàng". Thực tế trong tui nó như vậy. Còn nếu cố giải thích thì có thể nói là do nghiệp! 😆
-			  
-			  Tui cũng đã thử qua các cái sướng của thế gian lẫn những vị ngọt vi tế của thiền định xuất thế gian, nhưng không có cái nào hấp dẫn tui cả, luôn thấy chỉ là mặt đối lập của cái khổ mà thôi. Nghĩa là tui luôn thấy "sướng bao nhiêu, khổ bấy nhiêu" nên không thấy nó có gì hay ho.
-			  
-			  Chỉ có điều là sau này tui có áp dụng công thức đảo lại, tức "khổ bao nhiêu, sướng bấy nhiêu" cho thế giới bên ngoài để mình bớt bị vướng vào "tha ái", để không bị cuốn vào nỗi khổ của người khác.
-			  
-			  Nói cách khác thì công thức "sướng = khổ" chỉ là lý thuyết, là ý thức của tui, là cái tui thấy ra, nhưng chưa phải là cái tui đã đạt được trong thực hành. Trên con đừơng thực hành thì tui vẫn thấy khổ nhiều hơn vì nó là động lực thúc đẩy mình giải thoát, là chỗ tui đang đứng, có lẽ vì những đời trước tui đã sướng nhiều rồi.
+			- Will LE, [15/2/25 21:18]
+				- vạn pháp giai không, mọi thứ đều là không!
+					- Không = trống rỗng = cửa mở = thức = thông suốt = trí tuệ = mắt bão = trung tâm tĩnh lặng giữa cuồng phong bão tố 🌪️ = cân bằng âm dương = dấu bằng (obop) = 3rd component in Trinion
+					- 2 mũi tên là -1/2 và +1/2 (spin down & up)
+					- vòng tròn là 1 = |-1/2| + |1/2|
+					- dấu bằng là 0 = -1/2 + 1/2, tức 1/2 = 1/2
+				- À, nói tới đây tui lại nhớ hôm trước ông bảo sao mà hình tượng mắt bão lại làm ông nản??
+			- Huy, [16/2/25 23:31]
+				- Đó cũng là do cái tâm biện biệt của tui áp đặt lên việc giác ngộ giải thoát, nghĩa là mong chờ sự giải thoát tuyệt đối, tĩnh tại.
+				- Không chấp nhận cân bằng động của mắt bão hay đường chân trời tương đối.
+				- Phần lớn người đời thích một cái đích cố định, rõ ràng, thích một nơi tĩnh tại bền vững để an trú, chứ nói thẳng ngay từ đầu đích là chân trời, nơi an trú là tâm bão thì có ai mà đi
+				- Tui thấy cái tâm lý này của tui cũng giống với tâm lý không chấp nhận chữa đau bằng cách tăng khả năng chịu đau lúc trước nói với Định.
+			- Will LE, [16/2/25 23:45]
+				- À, hiểu rồi.
+				- Còn tui thì đang đối diện với cái mâu thuẫn trong mình: một kẻ lập dị lại cảm thấy sâu trong mình là cả mọi người. Nó thực sự làm tui rất đau khổ. Nếu mình giống người thì việc thấy mình là mọi người nó bình thường, hợp logic. Còn mình khác người mà lại thấy mình là mọi người thì mâu thuẫn đùng đùng, đúng là nghịch lý kẻ nói dối luôn, nên cũng chỉ tìm cách tự hóa giải thôi chứ nói ra thì ai mà tin nổi 😁
+				- Không biết thầy MT có tâm đại thừa thế nào, còn tui thì nó từ nhỏ, làm khoa học cũng là để cho mọi người... Chỉ đến 2015, tui bắt đầu nghiêm chỉnh thực hành thì tui mới nhận ra thực tế rằng "mình chưa giải thoát được cho mình thì chẳng thể giải thoát cho ai được hết" (tui tự chứng nghiệm điều đó chứ chẳng đọc kinh sách gì cả), nên tui mới theo tiểu thừa.
+			- Huy, [17/2/25 08:50]
+				- Định chia sẻ thêm về cảm nhận sâu bên trong mình là tất cả mọi người xem.
+				- Và vì sao điều đó làm Định đau khổ?
+			- Will LE, [17/2/25 13:38]
+				- Cái này tui tưởng có nói nhiều rồi chứ nhỉ? Hay tui nhầm với người khác, có thể là nhầm ông với nhóm ông Hiệp bà Trung chăng.
+				- Cho tới giờ thì tui thấy còn 2 vướng mắc lớn của tui trên con đường giải  thoát là món nợ tình cảm và món nợ Uniinfo.
+					- 1. Món nợ tình cảm: Người ta thương 1 người đã khổ rồi, tui thương cả mọi người thì khổ hơn gấp bội. Dù ý thức mình biết rằng mình chẳng làm gì được cho người ta, mình còn đang chưa cứu được mình còn đang là kẻ vô dụng trong XH, nhưng thẳm sâu bên trong, cái nghiệp sâu dày bên trong nó vẫn "ôm lấy mọi người". Đó là những món nợ đã được cài sâu trong vô thức mà tui đang đối diện và tìm cách hoá giải nó.
+					- 2. Lý thuyết Uniinfo: Những gì tui trải nghiệm, tui quán thấy và kết tinh lại thì nó thành lý thuyết, và tui đổ ra lý thuyết là để mình nhẹ người chứ cũng chẳng phải để cho ai khác. Dù lý thuyết của tui nói về "mọi thứ" nhưng nó cũng chỉ là cái view của tui, nên cái "mọi thứ" đó cũng chỉ là cái "mọi thứ của Định". Nó chỉ như một nhật ký hành trình trên con đường từ nhiều đời tích tụ, gom góp vào, kết tinh lại, rồi buông xả ra, hướng tới giải thoát trở về 0, chứ chẳng có ý nghĩa gì to lớn cả.
+				- Theo câu hỏi của ông thì hôm nay tui nói về ý thứ 1, món nợ tình cảm, còn ý 2 thì đó giờ cũng đã nói nhiều rồi.
+				- Từ nhỏ tui đã khóc nhiều cho đến 15 tuổi, lớp 9, suốt thời cấp 1, lúc còn ngồi bô, tui đã nhiều lần muốn đâm đầu vô tường chết quách đi... Thực sự là lúc đó chẳng ai hiểu mình, bản thân mình cũng không biết tại sao mình chán đời, tại sao mình đau khổ trong khi nhìn bên ngoài thì mình không gặp khó khăn gì cả, ba mẹ chăm lo đầy đủ, dù nhà nghèo nhưng không có thiếu thốn gì cả (tui ko thấy thiếu vật chất).
+				- Lên cấp 2 thì bị nhà trường và XH nhồi sọ đủ thứ nên bắt đầu "ý thức" rằng "phải sống" 😁 Bị cuốn vào việc học nên cũng không còn ý nghĩ tự tử nữa, nhưng vẫn luôn cảm thấy đau khổ, hễ bị đụng tí là khóc. Đến lớp 9, 15 tuổi, cuối cấp 2, một hôm tui đã đứng trên đi-văng trong nhà dập chưn tự tuyên bố rằng "mình đã khóc suốt 15 năm nay rồi, giờ không khóc nữa!" Tưởng đó chỉ là lời tuyên bố ngông cuồng của tuổi mới lớn, nhưng không ngờ là tui hết khóc thiệt, tự mình thấy lạ.
+				- Thực ra trước đó tui có phân tích:
+					- Mình khóc vì cái gì?
+					- Vì tự ái!
+					- Tự ái với ai?
+					- Với ba mẹ mình!
+					- Ba mẹ mình nuôi nấng, chăm lo đủ kiểu, vậy có lý do gì để mình tự ái không?
+					- Không!
+					- Vậy bản chất của tự ái là gì?
+					- Là tự yêu mình quá đáng, là ích kỷ!
+					- Vậy có cần phải khóc nữa không?
+					- Không!
+				- Từ đó, tui đã không bao giờ còn cảm thấy bị xúc phạm, bị đau khổ vì người khác làm gì với mình, không còn tự ái... nhưng chuyển sang tha ái.
+				- Đến năm 1 ĐH, trong một buổi tối ở KTX Tân Phú, đi qua căn-tin thấy một cảnh thế sự gì đó trên TV, bỗng có gì đó sâu bên trong tui trào lên, và tui trào nước mắt trở lại... sau 3-4 năm (suốt cấp 3) tưởng mình đã "vô cảm".
+				- Từ đó tui khóc trở lại nhưng là khóc vì thế sự, vì thấy nỗi khố của "thế gian", của "người khác". Nếu ngày trước khóc vì mình thì chỉ thút thít, nghẹn ngào tí thôi, thì giờ khóc vì thế sự nó mạnh hơn gấp trăm ngàn lần, không thể thút thít mà phải lăn lộn, khóc ngất.
+				- Không thể kể hết được, nhưng có thể điểm vài sự kiện nổi bật như vầy:
+					- Hồi mới học xong 1 năm tiếng Nhật, trong một buổi quay về KTX ĐH Ngoại ngữ Osaka để đón đàn em mới qua, tình cờ tui đọc mẩu truyện về thần y Tuệ Tĩnh của nước Nam vẫn còn ngôi mộ lưu vong trên đất Bắc, tui đã khóc lăn lộn từ trên giường xuống sàn, leo lên giường lại té xuống sàn! Câu ngài để lại trên bia mộ ghi tiếng Hán với ý "có ai đi từ nước Nam sang, xin mang di cốt tôi về với!"
+					- Lúc về VN, khi coi cuốn phim tài liệu "Home" về ngôi nhà Trái Đất, từ mấy tỷ năm hình thành vô cơ, mấy trăm triệu năm hình thành cữu cơ, mấy triệu năm hình thành con người, và mấy trăm năm con người đã "ngốn sạch" di sản ngàn xưa đó... tui đã khóc ngất.
+					- Gần đây nhứt là khi coi phim Buddha (Cuộc đời đức Phật) của tỷ phú Modi mới ra, ngay tập đầu tiên tui đã khóc lăn lộn cho tới hết nửa đầu nói về những năm trong đời của thái tử Siddhartha. Lần này thì nhờ có thực hành hít thở mà lần đầu tui cũng quán được chính cơn khóc của mình. Tui thấy & cảm lại hết thảy sự đau khổ của thái tử, và nó đã cho tui lời giải đáp hết sức rõ ràng rằng tại sao thái tử lại dứt khoát vào rừng tu khổ hạnh. Từ trước tui đã không hề phục và không tin rằng "một thái tử cả đời sung sướng, chẳng có mảy may đau khổ, từ trong cung son điện ngọc, nhung lụa êm ấm, bỗng dưng chỉ có đi ra 4 cửa thành thấy  lão - bệnh - tử - tu mà bỏ tất cả đi tu!" Và đúng như những gì tui đã nghĩ, những thứ người ta kể đó chỉ là lớp áo mỏng che đậy bên ngoài thôi, và cái đau khổ nhứt của thái tử là cảm nhận sự giả tạo, che đậy, dối trá đến tận cùng của chính phụ vương trên danh nghĩa "yêu thương". Những cung son điện ngọc đó không thể che đậy được nỗi lo sợ của chính phụ vương, không thể che đậy được thực tế là hoàng tộc đang sắp bị diệt vong... càng che đậy thì nỗi khổ càng khủng khiếp như một trái bom có vỏ càng cứng thì nổ càng to vậy.
+				- Nhưng cái "khóc vì người khác" đó tui để trong nháy kép là vì bản thân tui không thấy đó là "người khác", chỉ là nói theo ngôn ngữ đại chúng thôi. Nếu mình thấy một kẻ đang giãy chết mà không thấy mình trong đó, VD như khi mình đang thù hận và muốn giết nó, thì không thể nào xót thương nó được. Nên tất cả những nỗi khổ của "người khác" đó cũng chỉ là phản chiếu nỗi khổ trong chính bản thân mình thôi. Cái này ai có trải nghiệm thì mới thấu hiểu được, bằng không thì chỉ là những con chữ vô tình thôi.
+				- Sau này quán lại thì tui mới hiểu tại sao tui lại muốn tự tử một cách "vô lý" như vậy, và cái "khóc tự ái" thuở nhỏ cũng không phải "ích kỷ" như mình từng nghĩ, mà chỉ là sự bộc phát của nỗi khổ mà thôi. Những nỗi khổ đó tui đã tích tụ từ nhiều đời trước, rồi ở đầu đời này cho tới thời thanh niên, tui đã project nó ra ngoài 2 lần:
+					- Lần đầu là thuở ấu thơ, chứng kiến cảnh "dĩa bay trong nhà", tui đã project ba mẹ mình ra thành người nam và người nữ tổng quát.
+					- Lần sau, sau cái dậm chưn năm lớp 9, tui đã project nỗi khổ của mình ra nỗi khổ của mọi người.
+				- Và tới 2015, khi bước vào làm hành giả, tui mới quay trở lại thu những "nỗi khổ thế gian" đó về chính mình, nhận thức rõ là "mình đang khổ" cái đã còn người ta có khổ hay không tính sau. Và dạo gần đây thì tui đã đi giáp vòng tròn, quay lại khóc nức nở cho chính mình, như chuyện "thân phận con đĩ nhỏ" tui kể hôm trước đó.
+				- Đó kể ra thì chỉ có thể nói những sự kiện bộc lộ ra ngoài vậy thôi, chứ bên trong thì sao nói được?! Làm sao có thể diễn tả được cái sự phi lý đùng đùng rằng "mình với nó rõ ràng tách biệt nhau mà sâu bên trong lại là một" được!? 🤪
+				- Hồi "lên núi" 3 tháng dịch Covid-19, tui đã thí nghiệm vụ này rồi: nhắm mắt lại cảm nhận, tui "thấy rõ" mình với nó là một, nhưng mở mắt ra thì mình cũng thấy rõ bằng cặp mắt ngoài này rằng mình tách biệt với nó. Đó là sự mâu thuẫn cơ bản, là Liar Paradox, là cỗ máy xoay tít, là động cơ của cả thế giới này.
+				- Đây là cái nhìn bên trong: Cả thế giới bên ngoài chỉ là một quả cầu
+				- Đối với cái view bên trong thì cặp mắt ngoài này là đang nhìn vào trong quả cầu đó, cái gọi là "thế giới bên ngoài" chỉ là cái "chậu cá" mà thôi. Những thứ bên ngoài là tách biệt với nhau trong cái chậu cá đó nhưng được kết nối với nhau ở thế giới bên trong này. Sự ngược ngạo trong/ngoài đó giống như phim Matrix vậy.
+				- Circle graph
+					- ![Ageev_5X_circle_graph.svg.png](../assets/Will/story/2025-Feb/Ageev_5X_circle_graph.svg.png)
+				- Hoặc nói theo dimensionalism thì thế giới bên ngoài là không gian 1D trên cái vòng tròn chu vi của circle graph, bản chất là tách biệt lẫn nhau, còn thế giới bên trong là cả cái đĩa tròn 2D bên trong chứa đựng các kết nối.
+				- Thế giới vật lý bên ngoài chỉ có 3 chiều, còn thế giới thông tin bên trong thì có vô số chiều (không giới hạn). Nên "chiều không gian khác" không phải nằm bên ngoài khoảng không vũ trụ, mà nằm trong chính chúng ta, trong mỗi hạt cơ bản.
+				- Cái này thì nãy giờ tui nói nhiều rồi hen. Nhưng câu hỏi có lẽ cần đổi lại là "tại sao thấy cái khổ cả thế gian mà không thấy cái sướng cả thế gian?"
+				- Thực tình là tui cũng không rõ tại sao, mình chỉ thấy gì (bên trong) thì nói vậy thôi, ko thấy thì chỉ biết là không thấy chứ cũng không biết tại sao. Tui đi qua địa ngục nhiều, từ nhỏ cũng đã muốn "tham quan địa ngục xem sao" chứ chưa bao giờ muốn "tham quan thiên đàng". Thực tế trong tui nó như vậy. Còn nếu cố giải thích thì có thể nói là do nghiệp! 😆
+				- Tui cũng đã thử qua các cái sướng của thế gian lẫn những vị ngọt vi tế của thiền định xuất thế gian, nhưng không có cái nào hấp dẫn tui cả, luôn thấy chỉ là mặt đối lập của cái khổ mà thôi. Nghĩa là tui luôn thấy "sướng bao nhiêu, khổ bấy nhiêu" nên không thấy nó có gì hay ho.
+				- Chỉ có điều là sau này tui có áp dụng công thức đảo lại, tức "khổ bao nhiêu, sướng bấy nhiêu" cho thế giới bên ngoài để mình bớt bị vướng vào "tha ái", để không bị cuốn vào nỗi khổ của người khác.
+				- Nói cách khác thì công thức "sướng = khổ" chỉ là lý thuyết, là ý thức của tui, là cái tui thấy ra, nhưng chưa phải là cái tui đã đạt được trong thực hành. Trên con đừơng thực hành thì tui vẫn thấy khổ nhiều hơn vì nó là động lực thúc đẩy mình giải thoát, là chỗ tui đang đứng, có lẽ vì những đời trước tui đã sướng nhiều rồi.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
