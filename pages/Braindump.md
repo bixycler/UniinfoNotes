@@ -286,5 +286,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- TODO Modify `{{search-query}}` to deal with delimiters.
 			  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- I feel there's a need to tighten my constraint (giới), not only refraining from social network & media, but also from my Uniinfo theory, in order to finish my promise with boss Đạt.
+		  id:: 67b2d619-7ce1-42c5-a331-5d35f0d8f35b
+		  :LOGBOOK:
+		  CLOCK: [2025-02-17 Mon 19:36:32]
+		  :END:
 			- For the theory, maybe i need to litter the UniinfoNotes up with brainstorms and braindumps for whatever i see on the way.
+			- I've just finished a remaining task in the company work (`lock.sh` for `python_deploy`)
+			  :LOGBOOK:
+			  CLOCK: [2025-02-17 Mon 19:36:40]
+			  :END:
+			  → then i just turned out to check Telegram for any reply from Mr. Huy in the last chat.
 		- ...
