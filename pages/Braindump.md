@@ -273,6 +273,20 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 						- ![Google Search AI hallucination ls_colors-lr-broken_symlink.png](../assets/Will/story/2025-Feb/Google Search AI hallucination ls_colors-lr-broken_symlink.png)
 					- Respone to Copilot's hallucination: I've searched myself and see `ca` = `CAPABILITY` not `FILECAP`, `rs` = `RESET` not `NORMAL`, as shown in this [stackexchange](https://unix.stackexchange.com/a/70715/566548)
 					- Copilot was obssesed with that GitHub gist so much that you place [that link](https://gist.github.com/thomd/7667642) to the "StackExchange discussion" text! 🙁
+		- I feel there's a need to tighten my constraint (giới), not only refraining from social network & media, but also from my Uniinfo theory, in order to finish my promise with boss Đạt.
+		  id:: 67b2d619-7ce1-42c5-a331-5d35f0d8f35b
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-17 Mon 19:36:32]
+		  :END:
+			- For the theory, maybe i need to litter the UniinfoNotes up with brainstorms and braindumps for whatever i see on the way.
+			- I've just finished a remaining task in the company work (`lock.sh` for `python_deploy`)
+			  :LOGBOOK:
+			  CLOCK: [2025-02-17 Mon 19:36:40]
+			  :END:
+			  → then i just turned out to check Telegram for any reply from Mr. Huy in [the last chat](((67b2f947-69cb-4183-a99d-204c0beb6dcc))).
+			  → then i just attempted check YoutTube for the current status of [monk group of master Minh Tue](((67a5faa3-c64c-48f7-8b3f-a5311714110f)))... but i just stopped right at the time i realized this attempt.
+			- Let's keep refraining... it's not hard anyway!
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
@@ -285,15 +299,4 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- We should have some **delimiters** around them!
 			- TODO Modify `{{search-query}}` to deal with delimiters.
 			  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
-		- I feel there's a need to tighten my constraint (giới), not only refraining from social network & media, but also from my Uniinfo theory, in order to finish my promise with boss Đạt.
-		  id:: 67b2d619-7ce1-42c5-a331-5d35f0d8f35b
-		  :LOGBOOK:
-		  CLOCK: [2025-02-17 Mon 19:36:32]
-		  :END:
-			- For the theory, maybe i need to litter the UniinfoNotes up with brainstorms and braindumps for whatever i see on the way.
-			- I've just finished a remaining task in the company work (`lock.sh` for `python_deploy`)
-			  :LOGBOOK:
-			  CLOCK: [2025-02-17 Mon 19:36:40]
-			  :END:
-			  → then i just turned out to check Telegram for any reply from Mr. Huy in the last chat.
 		- ...
