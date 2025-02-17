@@ -285,4 +285,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- We should have some **delimiters** around them!
 			- TODO Modify `{{search-query}}` to deal with delimiters.
 			  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
+		- I feel there's a need to tighten my constraint (giới), not only refraining from social network & media, but also from my Uniinfo theory, in order to finish my promise with boss Đạt.
 		- ...
