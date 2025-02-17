@@ -63,10 +63,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- Add ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) to Linux
 				  id:: 67adb58e-6bf4-43ba-b574-58b112cc3874
 				- Update Git's ((666022fc-2700-438d-810e-a6fab07f696f))
+				- ((67b2f947-69cb-4183-a99d-204c0beb6dcc))
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 			  collapsed:: true
-				- ((67b2f947-69cb-4183-a99d-204c0beb6dcc))
 				- ...
 			- <<End Tracks>>
 			  ---------------
