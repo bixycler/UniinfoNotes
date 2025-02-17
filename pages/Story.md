@@ -408,10 +408,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Đến cuối 2023 thì tui đã thiết kế tính viết software để đổ cái graph trong đầu mình ra, dựa trên JSON... Nhưng áp lực thời gian làm việc cty ko cho phép.... nhưng áp lực đổ ra vẫn ngày càng tăng... nên đến giữa 2024 tui bí quá hỏi Google thử về "graph note taking" xem sao... ai ngờ mới lòi ra 2 software mới ra từ 2022-2023 là Obsidian & Logseq. Lúc đầu tui thử Obsidian vì nó popular hơn, nhưng tới đoạn dây leo chằng chịt (wikilinks) ở cấp độ từng câu thì tui buộc phải chuyển sang Logseq, vì Obsidian chỉ hỗ trợ link tới cấp "trang" mà thôi.
 			- Không biết ông sao, chứ với tui thì việc đổ não ra (braindump) là bước đầu quan trọng để cho đầu óc nhẹ nhàng. Cứ để đám rối trong đầu thì khó mà sáng suốt được. Tui thấy viết nhật ký cũng chỉ là 1 cách để đổ ra thôi, chat này cũng vậy nè.
 			- Tuy nhiên, đổ ra ko chỉ để làm sạch đầu mà còn để sắp xếp lại nữa, nên cái chỗ chứa cũng cần có cấu trúc tương tự với những gì trong đầu mình, tức là network. Và đó là lý do mà những app như Obsidian & Logseq được gọi là "2nd brain".
-		- DOING Chat với Huy về vạn pháp giai không & mình = mọi người
+		- chat với Huy về vạn pháp giai không & mình = mọi người [15-17 Feb]
+		  id:: 67b2f947-69cb-4183-a99d-204c0beb6dcc
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-02-17 Mon 13:14:00]
+		  CLOCK: [2025-02-17 Mon 13:14:00]--[2025-02-17 Mon 16:13:53] =>  02:59:53
 		  :END:
 			- Will LE, [15/2/25 21:18]
 				- vạn pháp giai không, mọi thứ đều là không!
@@ -428,7 +429,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Will LE, [16/2/25 23:45]
 				- À, hiểu rồi.
 				- Còn tui thì đang đối diện với cái mâu thuẫn trong mình: một kẻ lập dị lại cảm thấy sâu trong mình là cả mọi người. Nó thực sự làm tui rất đau khổ. Nếu mình giống người thì việc thấy mình là mọi người nó bình thường, hợp logic. Còn mình khác người mà lại thấy mình là mọi người thì mâu thuẫn đùng đùng, đúng là nghịch lý kẻ nói dối luôn, nên cũng chỉ tìm cách tự hóa giải thôi chứ nói ra thì ai mà tin nổi 😁
-				- Không biết thầy MT có tâm đại thừa thế nào, còn tui thì nó từ nhỏ, làm khoa học cũng là để cho mọi người... Chỉ đến 2015, tui bắt đầu nghiêm chỉnh thực hành thì tui mới nhận ra thực tế rằng "mình chưa giải thoát được cho mình thì chẳng thể giải thoát cho ai được hết" (tui tự chứng nghiệm điều đó chứ chẳng đọc kinh sách gì cả), nên tui mới theo tiểu thừa.
+				- Không biết thầy Minh Tuệ có tâm đại thừa thế nào, còn tui thì đã có nó từ nhỏ, làm khoa học cũng là để cho mọi người... Chỉ đến 2015, tui bắt đầu nghiêm chỉnh thực hành thì tui mới nhận ra thực tế rằng "mình chưa giải thoát được cho mình thì chẳng thể giải thoát cho ai được hết" (tui tự chứng nghiệm điều đó chứ chẳng đọc kinh sách gì cả), nên tui mới theo tiểu thừa.
 			- Huy, [17/2/25 08:50]
 				- Định chia sẻ thêm về cảm nhận sâu bên trong mình là tất cả mọi người xem.
 				- Và vì sao điều đó làm Định đau khổ?
@@ -466,8 +467,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Đó kể ra thì chỉ có thể nói những sự kiện bộc lộ ra ngoài vậy thôi, chứ bên trong thì sao nói được?! Làm sao có thể diễn tả được cái sự phi lý đùng đùng rằng "mình với nó rõ ràng tách biệt nhau mà sâu bên trong lại là một" được!? 🤪
 				- Hồi "lên núi" 3 tháng dịch Covid-19, tui đã thí nghiệm vụ này rồi: nhắm mắt lại cảm nhận, tui "thấy rõ" mình với nó là một, nhưng mở mắt ra thì mình cũng thấy rõ bằng cặp mắt ngoài này rằng mình tách biệt với nó. Đó là sự mâu thuẫn cơ bản, là Liar Paradox, là cỗ máy xoay tít, là động cơ của cả thế giới này.
 				- Đây là cái nhìn bên trong: Cả thế giới bên ngoài chỉ là một quả cầu
+					- ![Hand_with_Reflecting_Sphere.jpg](../assets/Will/story/2025-Feb/Hand_with_Reflecting_Sphere.jpg)
 				- Đối với cái view bên trong thì cặp mắt ngoài này là đang nhìn vào trong quả cầu đó, cái gọi là "thế giới bên ngoài" chỉ là cái "chậu cá" mà thôi. Những thứ bên ngoài là tách biệt với nhau trong cái chậu cá đó nhưng được kết nối với nhau ở thế giới bên trong này. Sự ngược ngạo trong/ngoài đó giống như phim Matrix vậy.
 				- Circle graph
+				  collapsed:: true
 					- ![Ageev_5X_circle_graph.svg.png](../assets/Will/story/2025-Feb/Ageev_5X_circle_graph.svg.png)
 				- Hoặc nói theo dimensionalism thì thế giới bên ngoài là không gian 1D trên cái vòng tròn chu vi của circle graph, bản chất là tách biệt lẫn nhau, còn thế giới bên trong là cả cái đĩa tròn 2D bên trong chứa đựng các kết nối.
 				- Thế giới vật lý bên ngoài chỉ có 3 chiều, còn thế giới thông tin bên trong thì có vô số chiều (không giới hạn). Nên "chiều không gian khác" không phải nằm bên ngoài khoảng không vũ trụ, mà nằm trong chính chúng ta, trong mỗi hạt cơ bản.
