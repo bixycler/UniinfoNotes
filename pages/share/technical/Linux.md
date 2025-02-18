@@ -355,11 +355,21 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							      fi
 							      shift
 							  done
+				- `-{user,group} $name`
+				  find files owned by user or group with `$name`
 				- `-true`
 				  find all files (unfiltered) for ((6790bd70-e65e-4053-9b6b-079e0d6ca7a1))
-				- `-print[f,0]`
-				- `-exec $action`
-				  id:: 6790bd70-e65e-4053-9b6b-079e0d6ca7a1
+				- Actions
+					- `-print[f,0] $format`
+					- `ls`
+					- `fls $file`
+					- `-exec $action $delim`
+					  id:: 6790bd70-e65e-4053-9b6b-079e0d6ca7a1
+						- `$delim` can be `;` or `+`
+						- `{}` argument is replaced by the current file name being processed
+					- `-delete`
+					- `-prune`
+					- `-quit`
 			- `ln`
 			  collapsed:: true
 			  make links (hard & symbolic) between files
