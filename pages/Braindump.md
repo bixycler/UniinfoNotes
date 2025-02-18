@@ -287,6 +287,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  → then i just turned out to check Telegram for any reply from Mr. Huy in [the last chat](((67b2f947-69cb-4183-a99d-204c0beb6dcc))).
 			  → then i just attempted check YoutTube for the current status of [monk group of master Minh Tue](((67a5faa3-c64c-48f7-8b3f-a5311714110f)))... but i just stopped right at the time i realized this attempt.
 			- Let's keep refraining... it's not hard anyway!
+		- [!] Logseq Publish with shallow copy issue: When copying a block out to a publish page, its local block refs are still pointing to sub-blocks of the original block.
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-18 Tue 14:05:25]
+		  :END:
+			- Maybe we must write a plugin `deep copy`!
+				- detect local block refs in the source block
+				- add `id::` to these target sub-blocks in the result block
+				- replace block refs with these new UUIDs.
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
@@ -299,12 +308,4 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- We should have some **delimiters** around them!
 			- TODO Modify `{{search-query}}` to deal with delimiters.
 			  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
-		- [!] Logseq Publish with shallow copy issue: When copying a block out to a publish page, its local block refs are still pointing to sub-blocks of the original block.
-		  :LOGBOOK:
-		  CLOCK: [2025-02-18 Tue 14:05:25]
-		  :END:
-			- Maybe we must write a plugin `deep copy`!
-				- detect local block refs in the source block
-				- add `id::` to these target sub-blocks in the result block
-				- replace block refs with these new UUIDs.
 		- ...
