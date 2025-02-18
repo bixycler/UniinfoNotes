@@ -479,6 +479,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Tui cũng đã thử qua các cái sướng của thế gian lẫn những vị ngọt vi tế của thiền định xuất thế gian, nhưng không có cái nào hấp dẫn tui cả, luôn thấy chỉ là mặt đối lập của cái khổ mà thôi. Nghĩa là tui luôn thấy "sướng bao nhiêu, khổ bấy nhiêu" nên không thấy nó có gì hay ho.
 				- Chỉ có điều là sau này tui có áp dụng công thức đảo lại, tức "khổ bao nhiêu, sướng bấy nhiêu" cho thế giới bên ngoài để mình bớt bị vướng vào "tha ái", để không bị cuốn vào nỗi khổ của người khác.
 				- Nói cách khác thì công thức "sướng = khổ" chỉ là lý thuyết, là ý thức của tui, là cái tui thấy ra, nhưng chưa phải là cái tui đã đạt được trong thực hành. Trên con đừơng thực hành thì tui vẫn thấy khổ nhiều hơn vì nó là động lực thúc đẩy mình giải thoát, là chỗ tui đang đứng, có lẽ vì những đời trước tui đã sướng nhiều rồi.
+		- DOING Yesterday, Feb 18th, both i and my wife had strange abdominal pains near midnight.
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-18 Tue 16:30:31]
+		  :END:
+			- Returning
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
