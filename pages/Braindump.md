@@ -306,6 +306,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Now, start dealing with `sgapi`
 				- But before starting, let's have a brief meditation...
 				- that meditation is so good with relax, release through deep yawns.
+				- Now, 18:26, half an hour has past my schedule of leaving work at HTV to work for UTS, due to the ongoing work of many different hosts in `sgapi`.
+				  :LOGBOOK:
+				  CLOCK: [2025-02-18 Tue 18:26:28]
+				  CLOCK: [2025-02-18 Tue 18:26:31]--[2025-02-18 Tue 18:28:50] =>  00:02:19
+				  :END:
+				- Just leave HTV now, 18:29.
+				  :LOGBOOK:
+				  CLOCK: [2025-02-18 Tue 18:29:57]
+				  :END:
 		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
 		  id:: 67ac4f68-8af4-4886-9183-85de0039250c
 		  collapsed:: true
