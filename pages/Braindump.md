@@ -296,9 +296,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- detect local block refs in the source block
 				- add `id::` to these target sub-blocks in the result block
 				- replace block refs with these new UUIDs.
-	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Just wrapped up docs of "update `python_deploy/java`"
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-02-18 Tue 16:24:29]
 		  :END:
@@ -311,10 +310,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  CLOCK: [2025-02-18 Tue 18:26:28]
 				  CLOCK: [2025-02-18 Tue 18:26:31]--[2025-02-18 Tue 18:28:50] =>  00:02:19
 				  :END:
-				- Just leave HTV now, 18:29.
-				  :LOGBOOK:
-				  CLOCK: [2025-02-18 Tue 18:29:57]
-				  :END:
+			- Just leave HTV now, 18:29.
+			  :LOGBOOK:
+			  CLOCK: [2025-02-18 Tue 18:29:57]
+			  :END:
+			- And has just arrived at UTS now, 19:04.
+			- Let's keep this state of vacancy! 😊
+	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
 		  id:: 67ac4f68-8af4-4886-9183-85de0039250c
 		  collapsed:: true
