@@ -309,9 +309,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  list contents of directories in a tree-like format.
 			- `find $dir $expr`
 			  collapsed:: true
-			  search for files in a directory hierarchy rooted at `$dir`, filtering with `$expr`, and optionally take action with ((6790bd70-e65e-4053-9b6b-079e0d6ca7a1))
+			  search for files in a directory hierarchy rooted at `$dir`, filtering with `$expr`, and optionally take ((67b3f8db-00f0-456e-ab94-81df04973740))
 				- `-depth`
-				  depth-first search
+				  depth-first search instead of the default breadth-first search
 				- `-{min,max}depth $n`
 				  search `$n` levels of directories
 				- `-{name,path,lname} $pattern`
@@ -362,8 +362,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-{user,group} $name`
 				  find files owned by user or group with `$name`
 				- `-true`
-				  find all files (unfiltered) for ((6790bd70-e65e-4053-9b6b-079e0d6ca7a1))
+				  find all files (unfiltered) for ((67b3f8db-00f0-456e-ab94-81df04973740)) only
 				- Actions
+				  id:: 67b3f8db-00f0-456e-ab94-81df04973740
 					- `-print[f,0] $format`
 					- `ls`
 					- `fls $file`
