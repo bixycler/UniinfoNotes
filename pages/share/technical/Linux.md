@@ -310,6 +310,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `find $dir $expr`
 			  collapsed:: true
 			  search for files in a directory hierarchy rooted at `$dir`, filtering with `$expr`, and optionally take action with ((6790bd70-e65e-4053-9b6b-079e0d6ca7a1))
+				- `-depth`
+				  depth-first search
+				- `-{min,max}depth $n`
+				  search `$n` levels of directories
 				- `-{name,path,lname} $pattern`
 				  find files with basename or path or symlink target matching [glob `$pattern`](https://en.wikipedia.org/wiki/Glob_(programming))
 				- `-regex $pattern`
