@@ -316,6 +316,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :END:
 			- And has just arrived at UTS now, 19:04.
 			- Let's keep this state of vacancy! 😊
+		- Thanks to BeowulfBuildModDocs' LogseqNotes, now i can recall the incompleted works from last year (3 months ago, from 2024-12-08)
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-18 Tue 19:11:36]
+		  :END:
+			- But my back hurts... so just lie down a little bit...
+			- After messing with tangled deps in `quickom-node-core-v3`, i resorted to build LamHai's `dev` branch... successfully.
+			- So just `cherry-pick` the last commit from `prod` into that branch, instead of creating new `dev` branch from `prod`.
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
@@ -328,10 +336,4 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- We should have some **delimiters** around them!
 			- TODO Modify `{{search-query}}` to deal with delimiters.
 			  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
-		- Thanks to BeowulfBuildModDocs' LogseqNotes, now i can recall the incompleted works from last year (3 months ago, from 2024-12-08)
-		  :LOGBOOK:
-		  CLOCK: [2025-02-18 Tue 19:11:36]
-		  :END:
-			- But my back hurts... so just lie down a little bit...
-			-
 		- ...
