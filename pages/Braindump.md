@@ -299,4 +299,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- We should have some **delimiters** around them!
 			- TODO Modify `{{search-query}}` to deal with delimiters.
 			  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
+		- [!] Local block refs in Logseq Publish: When copying a block out to a publish page, its local block refs are still pointing to sub-blocks of the original block.
+		  :LOGBOOK:
+		  CLOCK: [2025-02-18 Tue 14:05:25]
+		  :END:
+			- [?] How to move these block refs out all together?
 		- ...
