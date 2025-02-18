@@ -484,7 +484,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-02-18 Tue 16:30:31]
 		  :END:
-			- Returning
+			- Returning from work, i visited her mother's house to have diner.
+			- At home, i felt some numbness in both of my arms, then lay down for a nap...
+			- In the middle of the sleep, i was woken up by a strange sharp abdominal pain
+			- After the bowel movement, the pain subsided.
+			- When i was taking bath, i received a phone call that my wife's being hospitalized due to severe abdominal pains and vomiting.
+			- After the vomiting, she
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
