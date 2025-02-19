@@ -432,6 +432,11 @@ export function restructureToFolderDiv(node, root=false){
     folder = unfoldable; foldable = null;
   }
 
+  // HTML style
+  let style = document.createElement("style");
+    style.append(unfoldable, foldable);
+
+
   // then replace this node with the <folder-div>
   if(root){ // don't replace root! Instead, append(folder)
     node.innerHTML = '';
