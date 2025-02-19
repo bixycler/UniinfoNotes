@@ -348,4 +348,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :END:
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- I've just added `padding-bottom` style to [markdown-watcher.js](../assets/HTML/markdown-watcher.js) to
+			- From [superuser](https://superuser.com/a/872654/2425618)
+			  ```css
+			  html {
+			    height: auto !important;
+			    padding-bottom: 100vh !important;
+			  }
+			  ```
 		- ...
