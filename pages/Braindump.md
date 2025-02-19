@@ -256,6 +256,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-02-13 Thu 09:09:51]
 		  :END:
 			- We should not ~~trim spaces~~ from keywords because sometimes they are intentional.
+			  collapsed:: true
 			- We should have some **delimiters** around them!
 			- ((67ad537f-9a22-4079-b8d1-352b4c567278))
 		- [!] Leaving tasks as `TODO` is so difficult for me...
@@ -356,6 +357,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  }
 			  ```
 			  added to `load(){if(renderChoice.value=='html')}`
+		- Feb 19, 21:11, I've just fixed deps in `quickom-node-core-v3/dev` for successful build 😊
+		  :LOGBOOK:
+		  CLOCK: [2025-02-19 Wed 21:11:30]
+		  :END:
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
