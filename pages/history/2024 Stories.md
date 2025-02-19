@@ -1433,6 +1433,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 					- zoom in: wave = moving particle(s) coliding with (the) other(s) to transfer its arrow, just like the [Newton's cradle](https://en.wikipedia.org/wiki/Newton%27s_cradle) in many folds.
 					- zooming in space-time then in time ⇒ density in time = square of density in space
 			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
+			  id:: 67b541cb-a5c9-4634-b5f7-080d367faa4c
 				- This (seemingly) infinite layers of sustents is the “abyss” i'm facing.
 					- While "normal people" can easily cross the gap at the surface to close the circle,
 					- i'm drawn down to the abyss to dive into it: the subtle cracks, chasms inside have accumulated enough, just like the limit number 0.999999999999.

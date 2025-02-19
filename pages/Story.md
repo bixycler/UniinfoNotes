@@ -495,6 +495,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- While i could defecate to help the pain, my wife couldn't!
 			- Today, everything seems OK!
 		- Yesterday night, Feb 18, on the way home, i see ((67b54283-14b2-4753-94bb-4d827d54d7cc))
+		  id:: 67b54432-861a-415e-a7ee-45a3f75bdc7a
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-02-19 Wed 09:39:15]

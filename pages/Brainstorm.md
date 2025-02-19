@@ -14,13 +14,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- stagger = link in space = continuation (in time) = momentum
+		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-02-19 Wed 09:40:27]
 		  :END:
-			- The linkage is due to [dependent origination](((67b541c9-befb-46b8-b2ae-e6e251043153)))
+			- The linkage is due to [stagger = dependent origination](((67b541c9-befb-46b8-b2ae-e6e251043153))) and the [mismatch between circles](((67b541cb-a5c9-4634-b5f7-080d367faa4c))).
+			- All the three parts of ((67a98760-71fa-4033-9c42-f3025d632d04)), i.e. input, output, internal bridge/cycle, are continued by staggering.
+				- Output: integral/accumulation form higher derivative to lower = action = projection outward from potential to actual = actualization = extension (from empty to solid, from attract to concrete)
+				- Input: differentiation/derivation from lover to higher level = attraction = observation = learning
+				- Bridge: innermost bridge between inward & outward flow = equal = driver = switcher/chooser = free will
+					- Fineness of this bridge = 1/size of self = degree of freedom
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
