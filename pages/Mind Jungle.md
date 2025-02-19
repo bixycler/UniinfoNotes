@@ -1330,10 +1330,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 67b541d0-9e59-42ec-9199-9e9e114579e8
 				  ```
 				  M:[========|========]
-				  W:[====|============] F_ex = <--
+				  W:[====|============] F_ex = -->
 				  <=>
-				  M:[============|====] F_in = -->
+				  M:[============|====] F_in = <--
 				  W:[========|========]
+				  - F_ex = external force exerting on [M]y body
+				  - F_in = internal force exerting on the [W]orld
+				  + Both forces are to restore the balance
 				  ```
 		- Mutual exclusiveness
 		  "thấy không làm, làm không thấy"
