@@ -336,11 +336,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- So just `cherry-pick` the last commit from `prod` into that branch, instead of creating new `dev` branch from `prod`.
 		- Feb 19, after a morning walk and meditation beside the river, let's write down the story of ((67b54432-861a-415e-a7ee-45a3f75bdc7a))
 		  id:: 67b54af3-2ccd-4814-ab89-ef85bed9f79b
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-02-19 Wed 10:26:06]
 		  :END:
 			- These 3 levels of abstraction have just been done while writing it down: first the [brainstorm](((67b54283-14b2-4753-94bb-4d827d54d7cc))), then the [story](((67b54432-861a-415e-a7ee-45a3f75bdc7a))), and last this [braindump](((67b54af3-2ccd-4814-ab89-ef85bed9f79b)))
-			- This has taken the whole morning, including more than 1 hour walking, now 11:29, i'm going
+			- This has taken the whole morning, including more than 1 hour walking, now 11:29, i'm going to have lunch 😊
+			  :LOGBOOK:
+			  CLOCK: [2025-02-19 Wed 11:30:10]
+			  :END:
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
