@@ -20,7 +20,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-02-19 Wed 09:40:27]
 		  :END:
-			-
+			- The linkage is due to [dependent origination](((67b541c9-befb-46b8-b2ae-e6e251043153)))
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5

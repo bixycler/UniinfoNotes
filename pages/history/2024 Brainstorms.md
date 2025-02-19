@@ -435,6 +435,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
 		- [vivarta-vada](https://en.wikipedia.org/wiki/Vivartavada) & maya: the manifestation of Brahman/Ātman as different individual selves (jivatman) in the non-dual Vedanta, i.e. [Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)
 		- dependent origination: [mình mới ngộ ra ý nghĩa của một giấc mơ kỳ lạ 16 năm trước về chủ đề "Duyên hợp"](https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/)
+		  id:: 67b541c9-befb-46b8-b2ae-e6e251043153
 			- fb posts
 				- [So-le (staggered)](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/)
 				- [The tarpestry of life](https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/)
