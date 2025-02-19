@@ -26,7 +26,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Input: differentiation/derivation from lover to higher level = attraction = observation = learning
 				- Bridge: innermost bridge between inward & outward flow = equal = driver = switcher/chooser = free will
 					- Fineness of this bridge = 1/size of self = degree of freedom
-			- Stretching out onto the time line,
+			- Stretching out onto the time line, that transcycling becomes a double cone of ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
+				- View cone: spatial distribution → density → curvature
+				- Obop point: curvature = force
+				- Action cone: force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
