@@ -496,4 +496,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Today, everything seems OK!
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- Yesterday night, Feb 18, on the way home, i see ((67b54283-14b2-4753-94bb-4d827d54d7cc))
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-19 Wed 09:39:15]
+		  :END:
+			- Leaving UTS, walking on the sidewalk, i saw the unfinished works running in side my head.
+			- They were just the abstract, the meta, the thoughts which didn't match the external reality right in front of my eyes.
+			- With the staggered sidewalk tile in front my eyes, i saw
 		- ...
