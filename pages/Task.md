@@ -23,6 +23,8 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  :LOGBOOK:
 		  CLOCK: [2025-01-13 Mon 20:14:46]--[2025-01-13 Mon 20:27:13] =>  00:12:27
 		  :END:
+		- TODO Modify `{{search-query}}` to deal with delimiters.
+		  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- ...
 	- ## Future Tasks
 	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9

@@ -249,7 +249,17 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		- ((678e1c3f-6202-45aa-8527-f4bdad9927b9))... is object or subject?!
 		  id:: 67ac4f62-3411-4c88-8d4c-3fc2e6c78258
 			- Done with some helps from Copilot & Google Search's Gemini: ((67ac5dfc-2224-4261-a5d2-52def30c3cba))
+		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
+		  id:: 67ac4f68-8af4-4886-9183-85de0039250c
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-13 Thu 09:09:51]
+		  :END:
+			- We should not ~~trim spaces~~ from keywords because sometimes they are intentional.
+			- We should have some **delimiters** around them!
+			- ((67ad537f-9a22-4079-b8d1-352b4c567278))
 		- [!] Leaving tasks as `TODO` is so difficult for me...
+		  id:: 67b541c7-9547-4964-b19d-c873af1b3f4e
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-02-13 Thu 09:09:57]
@@ -324,20 +334,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- But my back hurts... so just lie down a little bit...
 			- After messing with tangled deps in `quickom-node-core-v3`, i resorted to build LamHai's `dev` branch... successfully.
 			- So just `cherry-pick` the last commit from `prod` into that branch, instead of creating new `dev` branch from `prod`.
-		- After a morning walk and meditation beside the river, let's write down the story of ((67b54432-861a-415e-a7ee-45a3f75bdc7a))
+		- Feb 19, after a morning walk and meditation beside the river, let's write down the story of ((67b54432-861a-415e-a7ee-45a3f75bdc7a))
 		  id:: 67b54af3-2ccd-4814-ab89-ef85bed9f79b
-		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-19 Wed 10:26:06]
+		  :END:
 			- These 3 levels of abstraction have just been done while writing it down: first the [brainstorm](((67b54283-14b2-4753-94bb-4d827d54d7cc))), then the [story](((67b54432-861a-415e-a7ee-45a3f75bdc7a))), and last this [braindump](((67b54af3-2ccd-4814-ab89-ef85bed9f79b)))
+			- This has taken the whole morning, including more than 1 hour walking, now 11:29, i'm going
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
-		  id:: 67ac4f68-8af4-4886-9183-85de0039250c
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-13 Thu 09:09:51]
-		  :END:
-			- We should not ~~trim spaces~~ from keywords because sometimes they are intentional.
-			- We should have some **delimiters** around them!
-			- TODO Modify `{{search-query}}` to deal with delimiters.
-			  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- ...
