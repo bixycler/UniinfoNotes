@@ -14,6 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
+		-
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
