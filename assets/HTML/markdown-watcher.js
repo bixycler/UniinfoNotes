@@ -236,8 +236,8 @@ async function load(forced) {
         padding-bottom: 100vh !important;
       }
     `
-    console.log('html_style:', style);
-
+    mdhtml.prepend(style);
+    // update export URL
     let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
     updateURL(exportUrlHtml, b);
   }else if(renderChoice.value=='pdf'){
