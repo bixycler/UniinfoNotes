@@ -225,7 +225,19 @@ async function load(forced) {
         item.prepend(title);
       }
     }
+    // restructure to FolderDiv
     restructureToFolderDiv(item, /*root*/true);
+    // HTML style
+    let style = document.createElement("style");
+    style.setAttribute('id', 'html_style');
+    style.innerHTML = `
+      html {
+        height: auto !important;
+        padding-bottom: 100vh !important;
+      }
+    `
+    console.log('html_style:', style);
+
     let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
     updateURL(exportUrlHtml, b);
   }else if(renderChoice.value=='pdf'){
