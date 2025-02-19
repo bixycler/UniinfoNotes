@@ -21,7 +21,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-02-19 Wed 09:40:27]
 		  :END:
 			- The linkage is due to [stagger = dependent origination](((67b541c9-befb-46b8-b2ae-e6e251043153))) and the [mismatch between circles](((67b541cb-a5c9-4634-b5f7-080d367faa4c))).
-				-
+				- mismatch to momentum ~ [distortion to force/curvature](((67b541d0-9e59-42ec-9199-9e9e114579e8)))
 			- All the three parts of ((67a98760-71fa-4033-9c42-f3025d632d04)), i.e. input, output, internal bridge/cycle, are continued by staggering.
 				- Output: integral/accumulation form higher derivative to lower level = action = projection outward from potential to actual = actualization = extension (from empty to solid, from abstract to concrete)
 				- Input: differentiation/derivation from lover to higher level = attraction = observation = learning

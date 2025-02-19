@@ -1323,16 +1323,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Force = curvature 
 			  collapsed:: true
-			  => F_{in} + F_{ex} = 0 
-			  <=> my curvature + your curvature = 0 
-			  <=> |my distortion| = |your distortion|
+			  ⇒ F_{in} + F_{ex} = 0 
+			  ⇔ my curvature + your curvature = 0 
+			  ⇔ |my distortion| = |your distortion|
 				- Uniform me vs distorted you <=> distorted me vs uniform you.
+				  id:: 67b541d0-9e59-42ec-9199-9e9e114579e8
 				  ```
-				  M:[--------|--------]
-				  W:[----|------------] F_ex = <--
+				  M:[========|========]
+				  W:[====|============] F_ex = <--
 				  <=>
-				  M:[------------|----] F_in = -->
-				  W:[--------|--------]
+				  M:[============|====] F_in = -->
+				  W:[========|========]
 				  ```
 		- Mutual exclusiveness
 		  "thấy không làm, làm không thấy"
