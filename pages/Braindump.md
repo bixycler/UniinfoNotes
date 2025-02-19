@@ -342,6 +342,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 			- These 3 levels of abstraction have just been done while writing it down: first the [brainstorm](((67b54283-14b2-4753-94bb-4d827d54d7cc))), then the [story](((67b54432-861a-415e-a7ee-45a3f75bdc7a))), and last this [braindump](((67b54af3-2ccd-4814-ab89-ef85bed9f79b)))
 			- This has taken the whole morning, including more than 1 hour walking, now 11:29, i'm going to have lunch 😊
+			  id:: 67b55dda-7840-4691-9e72-0e025e17dc4d
 			  :LOGBOOK:
 			  CLOCK: [2025-02-19 Wed 11:30:10]
 			  :END:
