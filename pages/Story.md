@@ -520,7 +520,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classic logic) $⊥$
 			- **Proof by contradiction**:
 				- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H$ as a program which can decide whether any program $p$ halts xor not.
-					- $∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
+					- $∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$  [$A_1$]
 				- We construct a program $p_H$ based on the decider $H$ given by assumption $A$:
 					- ```python
 					  p_H: if H(p_H) then loop_forever; else halt;
@@ -529,9 +529,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Consider 2 cases of $H(p_H)$:
 					- $H(p_H) = ⊤ ⇒ H(p_H) = H( \text{loop\_forever} ) = ⊥$
 					- $H(p_H) = ⊥ ⇒ H(p_H) = H(\text{halt}) = ⊤$
-				- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$
-				- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP} = ⊤$
-				- ⇒ $\text{HP} = ⊥$
+				- ⇒ $(H(p_H) = ⊤) ↔ (H(p_H) = ⊥)$
+				- **Contradictions**:
+					- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$, effectively negating $A_1$
+					- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP} = ⊤$
+					- ⇒ $\text{HP} = ⊥$, effectively negating $A$
 				- **Conclusion**:  $(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)$, i.e. $\text{HP}$ is undecidable
 		-
 		- ...
