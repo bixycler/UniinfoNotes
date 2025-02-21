@@ -53,17 +53,20 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇒ $[(H(n_H, H) = ⊤) ⊕ (H(n_H, H) = ⊥)] = ⊥$
 					- **Conclusion**: $∀ H, ∃ p = n_H, ∃ x = H:  ¬[H(p, x) = ⊤ ⊕ H(p, x) = ⊥]$, i.e. $\text{HP} = ⊥$
 				- **Proof by [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)**
-					- Instead of considering any _halting_ decider, we show that any decider $D$ in general cannot decide the halting property of the _negation program_ $n_H$.
-					- We construct a _negation program_ $n_H$ receiving **any decider** $D$ as its input:
+					- Instead of considering any _halting_ decider, we show that any algorithmic decider $D$ in general cannot decide the halting property of the _negation program_ $n_H$.
+					- We construct a _negation program_ $n_H$ receiving **any algorithmic decider** $D$ as its input:
 						- ```python
 						  n_H(D): if D(n_H, D) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-					- Consider 2 cases of result given by $D(n_H, D)$, and the corresponding halting status of the program $n_H$ on input $D$, i.e. $H(n_H, D)$:
+					- Let's define $H(·,·)$ as a (hypothetical) function determining the halting status of any program $p$ on input $x$.
+					  id:: cd8323ea-6bcb-41d4-b9b9-fca9ef85bc5a
+					- The result of $H(n_H, D)$ corresponding to $D(n_H, D)$:
 						- $D(n_H, D) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥ ≠ D(n_H, D)$
 						- $D(n_H, D) = ⊥ ⇒ H(n_H, D) = H(\text{halt}, ∅) = ⊤ ≠ D(n_H, D)$
 					- ⇒ $D ≠ H$
-					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D:  ¬[D(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
+					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D:  ¬[D(p, x) = H(p, x)]$, i.e. the
+					- $\text{HP} = ⊥$
 			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
 				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
 				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
