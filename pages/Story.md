@@ -506,5 +506,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- From there, i was going on to contemplate various aspects of the the stagger, meta, abstract, vacancy, etc.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		-
+		- Halting Problem
+		  collapsed:: true
+			- **Halting Proposition** ($HP$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts.
+			  $HP := ∃ H() ∀ p [H(p) = ⊤ ⊕ H(p) = ⊥]$
+			- **Halting Problem**: $HP = ?$
+			- **Resolution**: $HP = ⊥$
+			- **Proof by contradiction**:
+				- Assume: $HP = ⊤$
+				- We construct a program $p_H$ based on the decider $H$:
+					-
+				-
 		- ...
