@@ -54,11 +54,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇒ $[(H(n_H, H) = ⊤) ⊕ (H(n_H, H) = ⊥)] = ⊥$
 					- **Conclusion**: $∀ H, ∃ p = n_H, ∃ x = H:  ¬[(H(p, x) = ⊤) ⊕ (H(p, x) = ⊥)]$, i.e. $\text{HP} = ⊥$
 						- When $H$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_H(H)$ is then an oracle.
-						- If the oracle $H$ only accepts non-oracle inputs, $H(n_H, H)$ can be undetermined (`U`) instead of ⊤ xor ⊥, and the weaker version of $\text{HP}$ with program $p$ and input $x$ restricted in [arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy) may hold.
+						- If the oracle $H$ only accepts inputs from non-oracles or lower-level oracles, $H(n_H, H)$ can be undetermined (`U`) instead of ⊤ xor ⊥, and the weaker version of $\text{HP}$ with program $p$ and input $x$ restricted in [arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy) may hold.
 							- $\text{HP}_1 := ∃ H ∈ \Sigma_{2}^0, ∀ (p, x) ∈ \Delta_{1}^{0}: [(H(p,x) = ⊤) ⊕ (H(p,x) = ⊥)]$
 							  ⇒ $\text{HP}_1 ∈ \Sigma_{2}^0$
-							- In general, an oracle $H ∈ Y$ results in its negation oracle $n_H(H) ∈ \Delta_{1}^{0,Y}$, and the corresponding halting proposition $\text{HP}_{1Y} ∈ \Sigma_{2}^{0,Y}$.
-						- who can effectively negate.
+							- In general, an oracle $H ∈ Y$ results in its negation oracle $n_H(H) ∈ \Delta_{1}^{0,Y}$, and the corresponding halting proposition $\text{HP}_{1Y} ∈ \Sigma_{2}^{0,Y}$, as one of the [main results of the Arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy#Summary_of_main_results).
+						- However, the negation oracle can always effectively negate the unrestricted $\text{HP}$.
+						- This means that $H$ can only determine halting status of other ones at **lower levels**.
 				- **Proof by [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)**
 					- Instead of considering any _halting_ decider, we show that any algorithmic decider $D$ in general cannot decide the halting property of the _negation program_ $n_H$.
 					- We construct a _negation program_ $n_H$ receiving **any algorithmic decider** $D$ as its input:
