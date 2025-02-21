@@ -534,6 +534,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$, effectively negating $A_1$
 					- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP} = ⊤$
 					- ⇒ $\text{HP} = ⊥$, effectively negating $A$
+				- **Anti-assumption** $¬A$: $\text{HP} = ⊥$, i.e.
 				- **Conclusion**:  $(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)$, i.e. $\text{HP}$ is undecidable
 		-
 		- ...
