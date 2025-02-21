@@ -23,7 +23,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  p_H0: if H_0(p_H0) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-					- Consider 2 cases of $H(p_{H0})$:
+					- Consider 2 cases of $H_0(p_{H0})$:
 						- $H_0(p_{H0}) = ⊤ ⇒ H_0(p_{H0}) = H_0( \text{loop\_forever} ) = ⊥$
 						- $H_0(p_{H0}) = ⊥ ⇒ H_0(p_{H0}) = H_0(\text{halt}) = ⊤$
 					- ⇒ $(H_0(p_{H0}) = ⊤) ↔ (H_0(p_{H0}) = ⊥)$
@@ -40,18 +40,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇔ $[(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)]  = ⊤$
 					- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
 				- **Direct Proof**:
-					- We construct a program $p_{H}$ receiving any decider $H$ as its input:
+					- We construct a program $p_{H}$ receiving **any decider** $H$ as its input:
 						- ```python
 						  p_H(H): if H(p_H, H) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-					- Consider 2 cases of $H(p_{H0})$:
-						- $H(p_{H0}) = ⊤ ⇒ H(p_{H0}) = H( \text{loop\_forever} ) = ⊥$
-						- $H(p_{H0}) = ⊥ ⇒ H(p_{H0}) = H(\text{halt}) = ⊤$
-					- ⇒ $(H(p_{H0}) = ⊤) ↔ (H(p_{H0}) = ⊥)$
-					- **Contradictions**:
-						- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$, effectively negating $A_1$
-					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
+					- Consider 2 cases of $H(p_H, H)$:
+						- $H(p_H, H) = ⊤ ⇒ H(p_H, H) = H( \text{loop\_forever}, ∅) = ⊥$
+						- $H(p_H, H) = ⊥ ⇒ H(p_H, H) = H(\text{halt}, ∅) = ⊤$
+					- ⇒ $(H(p_H, H) = ⊤) ↔ (H(p_H, H) = ⊥)$
+					- ⇒ $[(H(p_H, H) = ⊤) ⊕ (H(p_H, H) = ⊥)] = ⊥$
+					- **Conclusion**: $∀ H, ∃ p = p_H, ∃ x = H:  ¬[H(p, x) = ⊤ ⊕ H(p, x) = ⊥]$, i.e. $\text{HP} = ⊥$
 			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
 				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
 				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
