@@ -53,7 +53,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇒ $(H(n_H, H) = ⊤) ↔ (H(n_H, H) = ⊥)$
 					- ⇒ $[(H(n_H, H) = ⊤) ⊕ (H(n_H, H) = ⊥)] = ⊥$
 					- **Conclusion**: $∀ H, ∃ p = n_H, ∃ x = H:  ¬[(H(p, x) = ⊤) ⊕ (H(p, x) = ⊥)]$, i.e. $\text{HP} = ⊥$
-						- When $H$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_H(H)$ is then an oracle, too.
+						- When $H$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_H(H)$ is then an oracle.
+						- If the oracle $H$ only accept non-oracle inputs,
+						- who can effectively negate.
 				- **Proof by [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)**
 					- Instead of considering any _halting_ decider, we show that any algorithmic decider $D$ in general cannot decide the halting property of the _negation program_ $n_H$.
 					- We construct a _negation program_ $n_H$ receiving **any algorithmic decider** $D$ as its input:
@@ -70,7 +72,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D:  [D(p, x) ≠ H(p, x)]$, i.e. the (hypothetical) halting determining function $H$ is not an algorithmic decider.
 						- This indirectly negate the $\text{HP}$.
 						- This indirect proof is weaker than the [direct proof](((6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2))) in the sense that it denies only the the _algorithm_, i.e. the execution, not the definition of $H$.
-						- That means, $H$ can somehow determine the halting status of $n_H(D)$, yielding clear answer of ⊤ xor ⊥. The only requirement is that $H$'s determination is not restricted within the timeline of program execution, like $p$ or $D$.
+						- That means, as an “oracle”, $H$ can somehow determine the halting status of $n_H(D)$, yielding clear answer of ⊤ xor ⊥. The only requirement is that $H$'s determination is not restricted within the timeline of program execution, like $p$ or $D$.
 			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
 				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
 				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
