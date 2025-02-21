@@ -513,15 +513,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-02-21 Fri 14:30:04]
 		  :END:
 			- **Halting Proposition** ($\text{HP}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts.
-			  $HP := ∃ H, ∀ p: [H(p) = ⊤ ⊕ H(p) = ⊥]$
+			  $\text{HP} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
 			- **Halting Problem**: $\text{HP} = ?$
-			- **Resolution**: $\text{HP} = ⊤∧⊥$, i.e. $\text{HP}$ is undecidable
+			- **Resolution**: $[(\text{HP} = ⊤) ⊕ (\text{HP} = ⊥)] = ⊥$, i.e. $\text{HP}$ is undecidable
+				- $\text{HP} = ⊤∧⊥  = ⊥$
 			- **Proof by contradiction**:
 				- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H$ as a program.
 				- We construct a program $p_H$ based on the decider $H$ given by assumption $A$:
 					- ```python
 					  p_H: if H(p_H) then loop_forever; else halt;
-					  loop_forever: while True do nothing;
+					  loop_forever: while True do continue;
 					  ```
 				- Consider 2 cases of $H(p_H)$:
 					- $H(p_H) = ⊤ ⇒ H(p_H) = H( \text{loop\_forever} ) = ⊥$
