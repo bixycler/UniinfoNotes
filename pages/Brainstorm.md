@@ -39,7 +39,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Resolution**: $[(\text{HP} = ⊤) ⊕ (\text{HP} = ⊥)] = ⊥$, i.e. $\text{HP}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem)
 					- ⇔ $[(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)]  = ⊤$
 					- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
-				- **Direct Proof**:
+				- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
 					- We construct a program $p_{H}$ receiving **any decider** $H$ as its input:
 						- ```python
 						  p_H(H): if H(p_H, H) then loop_forever; else halt;
