@@ -508,18 +508,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- Halting Problem
 		  collapsed:: true
-			- **Halting Proposition** ($HP$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts.
+			- **Halting Proposition** ($\text{HP}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts.
 			  $HP := ∃ H() ∀ p [H(p) = ⊤ ⊕ H(p) = ⊥]$
-			- **Halting Problem**: $HP = ?$
-			- **Resolution**: $HP = ⊥$
+			- **Halting Problem**: $\text{HP} = ?$
+			- **Resolution**: $\text{HP} = ⊥$
 			- **Proof by contradiction**:
-				- **Assumption** $A$: $HP = ⊤$, i.e. we have a decider $H$ as a program.
+				- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H$ as a program.
 				- We construct a program $p_H$ based on the decider $H$ given by assumption $A$:
 					- ```python
 					  p_H: if H(p_H) then loop_forever; else halt;
 					  loop_forever: while True do nothing;
 					  ```
-				- Consider 2 cases of H(p_H):
-					- $$H(p_H) = ⊤ ⇒ H(p_H) = H( \text{loop_forever} ) = ⊥$$
-					- $H(p_H) = ⊥ ⇒ H(p_H) = H(halt) = ⊤$
+				- Consider 2 cases of $H(p_H)$:
+					- $H(p_H) = ⊤ ⇒ H(p_H) = H( \text{loop\_forever} ) = ⊥$
+					- $H(p_H) = ⊥ ⇒ H(p_H) = H(\text{halt}) = ⊤$
+				- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$
+				-
 		- ...
