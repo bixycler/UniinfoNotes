@@ -5,6 +5,61 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ...
+		- DOING Halting Problem
+		  id:: 67b81e1b-b801-4e5a-9c00-98e51158712a
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-21 Fri 14:30:04]
+		  :END:
+			- **Simple Halting Proposition** ($\text{HP0}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts xor not.
+				- $\text{HP0} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
+			- **Simple Halting Problem**: $\text{HP0} = ?$
+				- **Resolution**: $[(\text{HP0} = ⊤) ⊕ (\text{HP0} = ⊥)] = ⊥$, i.e. $\text{HP0}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem)
+					- ⇔ $[(\text{HP0} = ⊤) ↔ (\text{HP0} = ⊥)]  = ⊤$
+					- ⇔ $\text{HP0} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
+				- **Proof by contradiction** (in classical logic):
+					- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H_0$ as a program which can decide whether any program $p$ halts xor not.
+						- $∀ p: [(H_0(p) = ⊤) ⊕ (H_0(p) = ⊥)]$  [$A_1$]
+					- We construct a program $p_{H0}$ based on the decider $H_0$ given by assumption $A$:
+						- ```python
+						  p_H0: if H(p_H0) then loop_forever; else halt;
+						  loop_forever: while True do continue;
+						  ```
+					- Consider 2 cases of $H(p_{H0})$:
+						- $H(p_{H0}) = ⊤ ⇒ H(p_{H0}) = H( \text{loop\_forever} ) = ⊥$
+						- $H(p_{H0}) = ⊥ ⇒ H(p_{H0}) = H(\text{halt}) = ⊤$
+					- ⇒ $(H(p_{H0}) = ⊤) ↔ (H(p_{H0}) = ⊥)$
+					- **Contradictions**:
+						- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$, effectively negating $A_1$
+					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
+			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition, without using proof by constradiction, 
+			  i.e., $∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥]$,
+			  we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
+			- **Halting Proposition** ($\text{HP}$): There exists a decider $H(·,·)$ such that for all program $p(·)$ and input $x$, $H(p, x)$ decides whether $p$ halts on $x$ xor not.
+				- $\text{HP0} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
+			- **Simple Halting Problem**: $\text{HP0} = ?$
+				- **Resolution**: $[(\text{HP0} = ⊤) ⊕ (\text{HP0} = ⊥)] = ⊥$, i.e. $\text{HP0}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem)
+					- ⇔ $[(\text{HP0} = ⊤) ↔ (\text{HP0} = ⊥)]  = ⊤$
+					- ⇔ $\text{HP0} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
+				- **Proof by contradiction** (in classical logic):
+					- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H_0$ as a program which can decide whether any program $p$ halts xor not.
+						- $∀ p: [(H_0(p) = ⊤) ⊕ (H_0(p) = ⊥)]$  [$A_1$]
+					- We construct a program $p_{H0}$ based on the decider $H_0$ given by assumption $A$:
+						- ```python
+						  p_H0: if H(p_H0) then loop_forever; else halt;
+						  loop_forever: while True do continue;
+						  ```
+					- Consider 2 cases of $H(p_{H0})$:
+						- $H(p_{H0}) = ⊤ ⇒ H(p_{H0}) = H( \text{loop\_forever} ) = ⊥$
+						- $H(p_{H0}) = ⊥ ⇒ H(p_{H0}) = H(\text{halt}) = ⊤$
+					- ⇒ $(H(p_{H0}) = ⊤) ↔ (H(p_{H0}) = ⊥)$
+					- **Contradictions**:
+						- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$, effectively negating $A_1$
+					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
+			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
+				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
+				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
+				- **Conclusion**:  $(\text{HP0} = ⊤) ↔ (\text{HP0} = ⊥)$, i.e. $\text{HP0}$ is undecidable
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
