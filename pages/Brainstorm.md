@@ -59,12 +59,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  n_H(D): if D(n_H, D) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-					- Consider 2 cases of result given by $D(n_H, D)$:
+					- Consider 2 cases of result given by $D(n_H, D)$, and the corresponding halting status of the program $n_H$ on input $D$, i.e. $H(n_H, D)$:
 						- $D(n_H, D) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥ ≠ D(n_H, D)$
 						- $D(n_H, D) = ⊥ ⇒ H(n_H, D) = H(\text{halt}, ∅) = ⊤ ≠ D(n_H, D)$
-					- ⇒ $D(n_H, D) ≠ $
-					- ⇒ $[(H(n_H, H) = ⊤) ⊕ (H(n_H, H) = ⊥)] = ⊥$
-					- **Conclusion**: $∀ H, ∃ p = n_H, ∃ x = H:  ¬[H(p, x) = ⊤ ⊕ H(p, x) = ⊥]$, i.e. $\text{HP} = ⊥$
+					- ⇒ $D ≠ H$
+					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D:  ¬[D(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
 			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
 				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
 				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
