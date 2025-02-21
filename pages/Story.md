@@ -516,7 +516,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  $\text{HP} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
 			- **Halting Problem**: $\text{HP} = ?$
 			- **Resolution**: $[(\text{HP} = ⊤) ⊕ (\text{HP} = ⊥)] = ⊥$, i.e. $\text{HP}$ is undecidable
-				- $\text{HP} = ⊤∧⊥  = ⊥$
+				- ⇔ $[(\text{HP} = ⊤) ∧ (\text{HP} = ⊥)]  = ⊤$
+				- ⇔ in cl, $\text{HP} = ⊤∧⊥  = ⊥$
 			- **Proof by contradiction**:
 				- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H$ as a program.
 				- We construct a program $p_H$ based on the decider $H$ given by assumption $A$:
