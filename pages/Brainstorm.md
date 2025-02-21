@@ -41,6 +41,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇔ $[(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)]  = ⊤$
 					- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
 				- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
+				  id:: 6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2
 					- We construct a _negation program_ $n_H$ receiving **any halting decider** $H$ as its input:
 						- ```python
 						  n_H(H): if H(n_H, H) then loop_forever; else halt;
@@ -67,7 +68,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇒ $D ≠ H$
 					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D:  [D(p, x) ≠ H(p, x)]$, i.e. the (hypothetical) halting determining function $H$ is not an algorithmic decider.
 						- This indirectly negate the $\text{HP}$.
-						- It shows the crutial point of negation is the _algorithm_, i.e. execution, not the definition itself.
+						- This is indirect proof is weaker than the [direct proof](((6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2))) in the sense that it denies only the the _algorithm_, i.e. the execution, not the definition itself.
 			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
 				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
 				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
