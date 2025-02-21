@@ -5,13 +5,26 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ...
-		- DOING Halting Problem
+		- TODO 0 sum = neutralization of positive and negative 
+		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-01-20 Mon 13:45:06]
+		  CLOCK: [2025-02-10 Mon 10:19:18]
+		  :END:
+		  vs. ∞ sum = abstraction of complex objects into points
+			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
+		- ↓ to be flushed **down**! ↓
+	- ## 2025 Brainstorms
+	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Halting Problem
 		  id:: 67b81e1b-b801-4e5a-9c00-98e51158712a
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-02-21 Fri 14:30:04]
+		  CLOCK: [2025-02-21 Fri 14:30:04]--[2025-02-21 Fri 20:44:33] =>  06:14:29
 		  :END:
 			- Similar to the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the _negation program_ is so “pathological” that no “halting doctor” can detect if it will halt xor not.
+			- [Reduced halting problem](https://creatzyitnotes.blogspot.com/2009/10/reduced-halting-problem.html)
 			- **Simple Halting Proposition** ($\text{HP0}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts xor not.
 				- $\text{HP0} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
 			- **Simple Halting Problem**: $\text{HP0} = ?$
@@ -77,18 +90,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- This indirectly negate the $\text{HP}$.
 						- This indirect proof is weaker than the [direct proof](((6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2))) in the sense that it denies only the the _algorithm_, i.e. the execution, not the definition of $H$.
 						- That means, as an “oracle”, $H$ can somehow determine the halting status of $n_H(D)$, yielding clear answer of ⊤ xor ⊥. The only requirement is that $H$'s determination is not restricted within the timeline of program execution, like $p$ or $D$.
-		- TODO 0 sum = neutralization of positive and negative 
-		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-01-20 Mon 13:45:06]
-		  CLOCK: [2025-02-10 Mon 10:19:18]
-		  :END:
-		  vs. ∞ sum = abstraction of complex objects into points
-			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- ↓ to be flushed **down**! ↓
-	- ## 2025 Brainstorms
-	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true

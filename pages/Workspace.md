@@ -67,6 +67,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 			  collapsed:: true
+				- ((67b81e1b-b801-4e5a-9c00-98e51158712a))
 				- ...
 			- <<End Tracks>>
 			  ---------------

@@ -26,6 +26,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  :END:
 		- TODO Modify `{{search-query}}` to deal with delimiters.
 		  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
+		- TODO Copy [Chuyện Búi Chỉ](https://creatzyitnotes.blogspot.com/2009/11/chuyen-bui-chi.html) to  [CreatZy Notes](https://creatzynotes.blogspot.com/)
 		- ...
 	- ## Future Tasks
 	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9
