@@ -56,7 +56,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- When $H$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_H(H)$ is then an oracle.
 						- If the oracle $H$ only accepts non-oracle inputs, $H(n_H, H)$ can be undetermined (`U`) instead of ⊤ xor ⊥, and the weaker version of $\text{HP}$ with program $p$ and input $x$ restricted in [arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy) may hold.
 							- $\text{HP}_1 := ∃ H(·,·), ∀ (p, x) ∈ \Delta_{1}^{0}: [(H(p,x) = ⊤) ⊕ (H(p,x) = ⊥)]$
-							- In general, an oracle $H$ receiving inputs $ of $\Delta_{n}^{0,Y}$
+							- In general, an oracle $H ∈ Y$ results in its negation oracle $n_H(H) ∈ \Delta_{n}^{0,Y}$, and
 						- who can effectively negate.
 				- **Proof by [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)**
 					- Instead of considering any _halting_ decider, we show that any algorithmic decider $D$ in general cannot decide the halting property of the _negation program_ $n_H$.
