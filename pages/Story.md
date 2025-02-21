@@ -519,21 +519,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ⇔ $[(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)]  = ⊤$
 				- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classic logic) $⊥$
 			- **Proof by contradiction**:
-				- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H$ as a program which can decide whether any program $p$ halts xor not.
-					- $∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$  [$A_1$]
-				- We construct a program $p_H$ based on the decider $H$ given by assumption $A$:
+				- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H_0$ as a program which can decide whether any program $p$ halts xor not.
+					- $∀ p: [(H_0(p) = ⊤) ⊕ (H_0(p) = ⊥)]$  [$A_1$]
+				- We construct a program $p_{H0}$ based on the decider $H_0$ given by assumption $A$:
 					- ```python
-					  p_H: if H(p_H) then loop_forever; else halt;
+					  p_H0: if H(p_H0) then loop_forever; else halt;
 					  loop_forever: while True do continue;
 					  ```
-				- Consider 2 cases of $H(p_H)$:
-					- $H(p_H) = ⊤ ⇒ H(p_H) = H( \text{loop\_forever} ) = ⊥$
-					- $H(p_H) = ⊥ ⇒ H(p_H) = H(\text{halt}) = ⊤$
-				- ⇒ $(H(p_H) = ⊤) ↔ (H(p_H) = ⊥)$
+				- Consider 2 cases of $H(p_{H0})$:
+					- $H(p_{H0}) = ⊤ ⇒ H(p_{H0}) = H( \text{loop\_forever} ) = ⊥$
+					- $H(p_{H0}) = ⊥ ⇒ H(p_{H0}) = H(\text{halt}) = ⊤$
+				- ⇒ $(H(p_{H0}) = ⊤) ↔ (H(p_{H0}) = ⊥)$
 				- **Contradictions**:
 					- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$, effectively negating $A_1$
-					- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP} = ⊤$
-					- ⇒ $\text{HP} = ⊥$, effectively negating $A$
+			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP} = ⊤$
+				- ⇒ $\text{HP} = ⊥$, effectively negating $A$
 				- **Anti-assumption** $¬A$: $\text{HP} = ⊥$, i.e.
 				- **Conclusion**:  $(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)$, i.e. $\text{HP}$ is undecidable
 		-
