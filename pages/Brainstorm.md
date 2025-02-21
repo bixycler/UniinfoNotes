@@ -11,7 +11,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-02-21 Fri 14:30:04]
 		  :END:
-			- Similar to the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the _negation program_ is so “pathological”
+			- Similar to the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the _negation program_ is so “pathological” that no “halting doctor” can detect if it will halt xor not.
 			- **Simple Halting Proposition** ($\text{HP0}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts xor not.
 				- $\text{HP0} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
 			- **Simple Halting Problem**: $\text{HP0} = ?$
@@ -31,7 +31,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Contradictions**:
 						- ⇒ $[H_0(n_{H0}) = ⊤ ⊕ H_0(n_{H0}) = ⊥] = ⊥$, i.e. $H_0$ cannot decide $n_{H0}$, effectively negating $A_1$
 					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
-			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition **for all halt decider** $H$, without using proof by constradiction, 
+			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition **for all halting decider** $H$, without using proof by constradiction, 
 			  i.e., $∀ H, ∃ p:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥]$,
 			  we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
 			- **Halting Proposition** ($\text{HP}$): There exists a decider $H(·,·)$ such that for all program $p(·)$ and input $x$, $H(p, x)$ decides whether $p$ halts on $x$ xor not.
@@ -52,6 +52,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇒ $(H(n_H, H) = ⊤) ↔ (H(n_H, H) = ⊥)$
 					- ⇒ $[(H(n_H, H) = ⊤) ⊕ (H(n_H, H) = ⊥)] = ⊥$
 					- **Conclusion**: $∀ H, ∃ p = n_H, ∃ x = H:  ¬[H(p, x) = ⊤ ⊕ H(p, x) = ⊥]$, i.e. $\text{HP} = ⊥$
+					- **Refinement** by [Cantor's diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)
 			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
 				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
 				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
