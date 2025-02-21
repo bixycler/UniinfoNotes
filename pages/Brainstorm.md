@@ -41,7 +41,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇔ $[(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)]  = ⊤$
 					- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
 				- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
-					- We construct a _negation program_ $n_H$ receiving **any halt decider** $H$ as its input:
+					- We construct a _negation program_ $n_H$ receiving **any halting decider** $H$ as its input:
 						- ```python
 						  n_H(H): if H(n_H, H) then loop_forever; else halt;
 						  loop_forever: while True do continue;
@@ -52,7 +52,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇒ $(H(n_H, H) = ⊤) ↔ (H(n_H, H) = ⊥)$
 					- ⇒ $[(H(n_H, H) = ⊤) ⊕ (H(n_H, H) = ⊥)] = ⊥$
 					- **Conclusion**: $∀ H, ∃ p = n_H, ∃ x = H:  ¬[H(p, x) = ⊤ ⊕ H(p, x) = ⊥]$, i.e. $\text{HP} = ⊥$
-					- **Refinement** by [Cantor's diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)
+				- **Proof by [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)**
+					- Instead of considering any _halting_ decider, we show that any decider $D$ in general cannot decide the halting property of the _negation program_ $n_H$.
+					- We construct a _negation program_ $n_H$ receiving **any decider** $D$ as its input:
+						- ```python
+						  n_H(D): if D(n_H, D) then loop_forever; else halt;
+						  loop_forever: while True do continue;
+						  ```
+					- Consider 2 cases of result given by $D(n_H, D)$:
+						- $D(n_H, D) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥ ≠ D(n_H, D)$
+						- $D(n_H, D) = ⊥ ⇒ H(n_H, D) = H(\text{halt}, ∅) = ⊤ ≠ D(n_H, D)$
+					- ⇒ $D(n_H, D) ≠ $
+					- ⇒ $[(H(n_H, H) = ⊤) ⊕ (H(n_H, H) = ⊥)] = ⊥$
+					- **Conclusion**: $∀ H, ∃ p = n_H, ∃ x = H:  ¬[H(p, x) = ⊤ ⊕ H(p, x) = ⊥]$, i.e. $\text{HP} = ⊥$
 			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
 				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
 				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
