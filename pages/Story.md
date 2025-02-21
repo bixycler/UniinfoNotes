@@ -118,7 +118,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Crosstalk between the itch and pain pathways:
 								- itch can be suppressed by pain; and
 								- inhibition of pain may produce itch
-							- While **differences** between *acute* pain and acute itch are striking, 
+							- While **differences** between *acute* pain and acute itch are striking,
 							  *chronic* itch and chronic pain share many **similar** mechanisms.
 						- “Itch and pain are two distinct sensations” is the conclusion of the paper [Cellular basis of itch sensation](https://europepmc.org/article/med/19661382)
 							- > Itch has long been considered to be a sub-modality or sub-quality of pain ([1](https://europepmc.org/article/med/19661382#R1)-[4](https://europepmc.org/article/med/19661382#R4)), because both sensations share many similarities ([5](https://europepmc.org/article/med/19661382#R5)). Whether itch and pain, two distinct sensations, are mediated by distinct neural circuits has been the subject of controversy ([6](https://europepmc.org/article/med/19661382#R6)-[8](https://europepmc.org/article/med/19661382#R8)).
@@ -171,7 +171,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- “throughness” = “tòng” [鬆] or “phóng tòng” [放鬆] is the most important property in qigong, just like a [through horse](https://en.wikipedia.org/wiki/Throughness).
 						- “throughness” = “thông” [通] or “hanh thông” [亨通] is the ultimate goal state of **change** [變易] in the [Book of Changes (Kinh Dịch [易經])](https://en.wikipedia.org/wiki/I_Ching).
 						  collapsed:: true
-							- [易's meaning](https://baike.baidu.com/item/%E7%A9%B7%E5%88%99%E5%8F%98%EF%BC%8C%E5%8F%98%E5%88%99%E9%80%9A%EF%BC%8C%E9%80%9A%E5%88%99%E4%B9%85/6154981) in Part 2 of the Great Appendix of the Book of Changes, i.e. 《周易·系辞》下, ⟪ [Chu Dịch](https://vi.wikipedia.org/wiki/Chu_D%E1%BB%8Bch) > [Hệ Từ](https://nhantu.net/DichHoc/HAKINH/HTT_Ch01.htm) > Hạ Truyện > [Chương 2](https://nhantu.net/DichHoc/HAKINH/HTH_Ch02.htm) > Tiết 5 ⟫ 
+							- [易's meaning](https://baike.baidu.com/item/%E7%A9%B7%E5%88%99%E5%8F%98%EF%BC%8C%E5%8F%98%E5%88%99%E9%80%9A%EF%BC%8C%E9%80%9A%E5%88%99%E4%B9%85/6154981) in Part 2 of the Great Appendix of the Book of Changes, i.e. 《周易·系辞》下, ⟪ [Chu Dịch](https://vi.wikipedia.org/wiki/Chu_D%E1%BB%8Bch) > [Hệ Từ](https://nhantu.net/DichHoc/HAKINH/HTT_Ch01.htm) > Hạ Truyện > [Chương 2](https://nhantu.net/DichHoc/HAKINH/HTH_Ch02.htm) > Tiết 5 ⟫
 							  > [易]窮則變，變則通，通則久。
 							  > (Dịch) cùng tắc biến, biến tắc thông, thông tắc cửu.
 							  > Desparation (limit reaching) brings change, change brings (us) through, throughness brings resilience & longevity.
@@ -183,7 +183,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  Cùng rồi tất biến, biến thì tất thông,
 								  Thông là cốt lõi vững bền dài lâu!
 							- [Throughness [通] connects and unites all the hexagrams and lines into harmony.](https://cjc.utppublishing.com/doi/full/10.22230/cjc.2016v41n3a3185)
-							  《周易·系辞》上, ⟪ Chu Dịch > Hệ Từ > Thượng Truyện > [Chương 11](https://nhantu.net/DichHoc/HAKINH/HTT_Ch11.htm) > Tiết 4 ⟫ 
+							  《周易·系辞》上, ⟪ Chu Dịch > Hệ Từ > Thượng Truyện > [Chương 11](https://nhantu.net/DichHoc/HAKINH/HTT_Ch11.htm) > Tiết 4 ⟫
 							  > 一闔一闢謂之變；往來不窮謂之通；
 							  > Nhất hạp nhất tịch vị chi **biến**.  Vãng lai bất cùng vị chi **thông**.
 							  > Có đóng có mở nên mới sinh **biến hóa**; Có qua có lại không bế tắc nên mới **thông suốt**;
@@ -320,7 +320,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Yesterday, Feb 6th, even after the straight 10 hour sleep last night, i still had 1 hour noon sleep and 1.5 hours sleepy meditation.
 				- In the afternoon, after [chatting on fb](((67a5f191-079f-4f97-b5b2-c01116db8cef))), i had a mild headache.
 				- In the evening, i stood up late watching the developments of Minh Tuệ group's situation.
-			- Today, Feb 7th, when waking up, the headache subsided but it's still there. 
+			- Today, Feb 7th, when waking up, the headache subsided but it's still there.
 			  :LOGBOOK:
 			  CLOCK: [2025-02-07 Fri 17:22:30]
 			  :END:
@@ -512,29 +512,51 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-02-21 Fri 14:30:04]
 		  :END:
-			- **Halting Proposition** ($\text{HP}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts xor not.
-				- $\text{HP} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
-			- **Halting Problem**: $\text{HP} = ?$
-			- **Resolution**: $[(\text{HP} = ⊤) ⊕ (\text{HP} = ⊥)] = ⊥$, i.e. $\text{HP}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem)
-				- ⇔ $[(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)]  = ⊤$
-				- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classic logic) $⊥$
-			- **Proof by contradiction**:
-				- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H_0$ as a program which can decide whether any program $p$ halts xor not.
-					- $∀ p: [(H_0(p) = ⊤) ⊕ (H_0(p) = ⊥)]$  [$A_1$]
-				- We construct a program $p_{H0}$ based on the decider $H_0$ given by assumption $A$:
-					- ```python
-					  p_H0: if H(p_H0) then loop_forever; else halt;
-					  loop_forever: while True do continue;
-					  ```
-				- Consider 2 cases of $H(p_{H0})$:
-					- $H(p_{H0}) = ⊤ ⇒ H(p_{H0}) = H( \text{loop\_forever} ) = ⊥$
-					- $H(p_{H0}) = ⊥ ⇒ H(p_{H0}) = H(\text{halt}) = ⊤$
-				- ⇒ $(H(p_{H0}) = ⊤) ↔ (H(p_{H0}) = ⊥)$
-				- **Contradictions**:
-					- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$, effectively negating $A_1$
-			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP} = ⊤$
-				- ⇒ $\text{HP} = ⊥$, effectively negating $A$
-				- **Anti-assumption** $¬A$: $\text{HP} = ⊥$, i.e.
-				- **Conclusion**:  $(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)$, i.e. $\text{HP}$ is undecidable
+			- **Simple Halting Proposition** ($\text{HP0}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts xor not.
+				- $\text{HP0} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
+			- **Simple Halting Problem**: $\text{HP0} = ?$
+				- **Resolution**: $[(\text{HP0} = ⊤) ⊕ (\text{HP0} = ⊥)] = ⊥$, i.e. $\text{HP0}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem)
+					- ⇔ $[(\text{HP0} = ⊤) ↔ (\text{HP0} = ⊥)]  = ⊤$
+					- ⇔ $\text{HP0} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
+				- **Proof by contradiction** (in classical logic):
+					- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H_0$ as a program which can decide whether any program $p$ halts xor not.
+						- $∀ p: [(H_0(p) = ⊤) ⊕ (H_0(p) = ⊥)]$  [$A_1$]
+					- We construct a program $p_{H0}$ based on the decider $H_0$ given by assumption $A$:
+						- ```python
+						  p_H0: if H(p_H0) then loop_forever; else halt;
+						  loop_forever: while True do continue;
+						  ```
+					- Consider 2 cases of $H(p_{H0})$:
+						- $H(p_{H0}) = ⊤ ⇒ H(p_{H0}) = H( \text{loop\_forever} ) = ⊥$
+						- $H(p_{H0}) = ⊥ ⇒ H(p_{H0}) = H(\text{halt}) = ⊤$
+					- ⇒ $(H(p_{H0}) = ⊤) ↔ (H(p_{H0}) = ⊥)$
+					- **Contradictions**:
+						- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$, effectively negating $A_1$
+					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
+			- **Halting Proposition** ($\text{HP}$): There exists a decider $H(·,·)$ such that for all program $p$, $H(p)$ decides whether $p$ halts xor not.
+				- $\text{HP0} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
+			- **Simple Halting Problem**: $\text{HP0} = ?$
+				- **Resolution**: $[(\text{HP0} = ⊤) ⊕ (\text{HP0} = ⊥)] = ⊥$, i.e. $\text{HP0}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem)
+					- ⇔ $[(\text{HP0} = ⊤) ↔ (\text{HP0} = ⊥)]  = ⊤$
+					- ⇔ $\text{HP0} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
+				- **Proof by contradiction** (in classical logic):
+					- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H_0$ as a program which can decide whether any program $p$ halts xor not.
+						- $∀ p: [(H_0(p) = ⊤) ⊕ (H_0(p) = ⊥)]$  [$A_1$]
+					- We construct a program $p_{H0}$ based on the decider $H_0$ given by assumption $A$:
+						- ```python
+						  p_H0: if H(p_H0) then loop_forever; else halt;
+						  loop_forever: while True do continue;
+						  ```
+					- Consider 2 cases of $H(p_{H0})$:
+						- $H(p_{H0}) = ⊤ ⇒ H(p_{H0}) = H( \text{loop\_forever} ) = ⊥$
+						- $H(p_{H0}) = ⊥ ⇒ H(p_{H0}) = H(\text{halt}) = ⊤$
+					- ⇒ $(H(p_{H0}) = ⊤) ↔ (H(p_{H0}) = ⊥)$
+					- **Contradictions**:
+						- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$, effectively negating $A_1$
+					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
+			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
+				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
+				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
+				- **Conclusion**:  $(\text{HP0} = ⊤) ↔ (\text{HP0} = ⊥)$, i.e. $\text{HP0}$ is undecidable
 		-
 		- ...
