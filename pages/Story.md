@@ -506,12 +506,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- From there, i was going on to contemplate various aspects of the the stagger, meta, abstract, vacancy, etc.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- Halting Problem
+		- DOING Halting Problem
+		  id:: 67b81e1b-b801-4e5a-9c00-98e51158712a
 		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-21 Fri 14:30:04]
+		  :END:
 			- **Halting Proposition** ($\text{HP}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts.
 			  $HP := ∃ H, ∀ p: [H(p) = ⊤ ⊕ H(p) = ⊥]$
 			- **Halting Problem**: $\text{HP} = ?$
-			- **Resolution**: $\text{HP} = ⊥$
+			- **Resolution**: $\text{HP} = ⊤∧⊥$, i.e. $\text{HP}$ is undecidable
 			- **Proof by contradiction**:
 				- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H$ as a program.
 				- We construct a program $p_H$ based on the decider $H$ given by assumption $A$:
@@ -525,5 +529,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$
 				- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬HP = ⊤$
 				- ⇒ $\text{HP} = ⊥$
-				- Conclusion:
+				- **Conclusion**:  $\text{HP} = ⊤∧⊥$, i.e. $\text{HP}$ is undecidable
 		- ...
