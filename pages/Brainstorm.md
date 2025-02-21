@@ -14,11 +14,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- **Simple Halting Proposition** ($\text{HP0}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts xor not.
 				- $\text{HP0} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
 			- **Simple Halting Problem**: $\text{HP0} = ?$
-				- **Resolution**: $[(\text{HP0} = ⊤) ⊕ (\text{HP0} = ⊥)] = ⊥$, i.e. $\text{HP0}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem)
-					- ⇔ $[(\text{HP0} = ⊤) ↔ (\text{HP0} = ⊥)]  = ⊤$
-					- ⇔ $\text{HP0} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
+				- **Solution** (in classical logic): $\text{HP0} = ⊥$
 				- **Proof by contradiction** (in classical logic):
-					- **Assumption** $A$: $\text{HP} = ⊤$, i.e. we have a decider $H_0$ as a program which can decide whether any program $p$ halts xor not.
+					- **Assumption** $A$: $\text{HP0} = ⊤$, i.e. we have a decider $H_0$ as a program which can decide whether any program $p$ halts xor not.
 						- $∀ p: [(H_0(p) = ⊤) ⊕ (H_0(p) = ⊥)]$  [$A_1$]
 					- We construct a program $p_{H0}$ based on the decider $H_0$ given by assumption $A$:
 						- ```python
@@ -32,12 +30,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Contradictions**:
 						- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$, effectively negating $A_1$
 					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
-			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition, without using proof by constradiction, 
+			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition **for all decider** $H$, without using proof by constradiction, 
 			  i.e., $∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥]$,
 			  we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
 			- **Halting Proposition** ($\text{HP}$): There exists a decider $H(·,·)$ such that for all program $p(·)$ and input $x$, $H(p, x)$ decides whether $p$ halts on $x$ xor not.
-				- $\text{HP0} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
-			- **Simple Halting Problem**: $\text{HP0} = ?$
+				- $\text{HP} := ∃ H(·,·), ∀ p(·), ∀ x: [(H(p,x) = ⊤) ⊕ (H(p,x) = ⊥)]$
+			- **Halting Problem**: $\text{HP} = ?$
 				- **Resolution**: $[(\text{HP0} = ⊤) ⊕ (\text{HP0} = ⊥)] = ⊥$, i.e. $\text{HP0}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem)
 					- ⇔ $[(\text{HP0} = ⊤) ↔ (\text{HP0} = ⊥)]  = ⊤$
 					- ⇔ $\text{HP0} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
