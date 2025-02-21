@@ -65,8 +65,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- $D(n_H, D) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥ ≠ D(n_H, D)$
 						- $D(n_H, D) = ⊥ ⇒ H(n_H, D) = H(\text{halt}, ∅) = ⊤ ≠ D(n_H, D)$
 					- ⇒ $D ≠ H$
-					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D:  ¬[D(p, x) = H(p, x)]$, i.e. the
-					- $\text{HP} = ⊥$
+					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D:  [D(p, x) ≠ H(p, x)]$, i.e. the (hypothetical) halting determining function $H$ is not an algorithmic decider.
+						- This indirectly negate the $\text{HP}$.
+						- It shows the crutial point of negation is the _algorithm_, i.e. execution, not the definition itself.
 			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
 				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
 				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
