@@ -53,6 +53,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇒ $(H(n_H, H) = ⊤) ↔ (H(n_H, H) = ⊥)$
 					- ⇒ $[(H(n_H, H) = ⊤) ⊕ (H(n_H, H) = ⊥)] = ⊥$
 					- **Conclusion**: $∀ H, ∃ p = n_H, ∃ x = H:  ¬[(H(p, x) = ⊤) ⊕ (H(p, x) = ⊥)]$, i.e. $\text{HP} = ⊥$
+						- When $H$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_H(H)$ is then an oracle, too.
 				- **Proof by [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)**
 					- Instead of considering any _halting_ decider, we show that any algorithmic decider $D$ in general cannot decide the halting property of the _negation program_ $n_H$.
 					- We construct a _negation program_ $n_H$ receiving **any algorithmic decider** $D$ as its input:
