@@ -509,7 +509,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		- Halting Problem
 		  collapsed:: true
 			- **Halting Proposition** ($\text{HP}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts.
-			  $HP := ∃ H() ∀ p [H(p) = ⊤ ⊕ H(p) = ⊥]$
+			  $HP := ∃ H, ∀ p: [H(p) = ⊤ ⊕ H(p) = ⊥]$
 			- **Halting Problem**: $\text{HP} = ?$
 			- **Resolution**: $\text{HP} = ⊥$
 			- **Proof by contradiction**:
@@ -523,5 +523,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- $H(p_H) = ⊤ ⇒ H(p_H) = H( \text{loop\_forever} ) = ⊥$
 					- $H(p_H) = ⊥ ⇒ H(p_H) = H(\text{halt}) = ⊤$
 				- ⇒ $[H(p_H) = ⊤ ⊕ H(p_H) = ⊥] = ⊥$, i.e. $H$ cannot decide $p_H$
-				-
+				- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬HP = ⊤$
+				- ⇒ $\text{HP} = ⊥$
+				- Conclusion:
 		- ...
