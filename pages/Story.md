@@ -513,8 +513,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- **Halting Problem**: $HP = ?$
 			- **Resolution**: $HP = ⊥$
 			- **Proof by contradiction**:
-				- Assume: $HP = ⊤$
-				- We construct a program $p_H$ based on the decider $H$:
-					-
-				-
+				- **Assumption** $A$: $HP = ⊤$, i.e. we have a decider $H$ as a program.
+				- We construct a program $p_H$ based on the decider $H$ given by assumption $A$:
+					- ```python
+					  p_H: if H(p_H) then loop_forever;
+					  loop_forever: while True do nothing;
+					  ```
+				- Consider 2 cases of H(p_H):
+					- $H(p_H) = ⊤ ⇒ $
 		- ...
