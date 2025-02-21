@@ -59,7 +59,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							  ⇒ $\text{HP}_1 ∈ \Sigma_{2}^0$
 							- In general, an oracle $H ∈ Y$ results in its negation oracle $n_H(H) ∈ \Delta_{1}^{0,Y}$, and the corresponding halting proposition $\text{HP}_{1Y} ∈ \Sigma_{2}^{0,Y}$, as one of the [main results of the Arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy#Summary_of_main_results).
 						- However, the negation oracle can always effectively negate the unrestricted $\text{HP}$.
-						- This means that $H$ can only determine halting status of other ones at **lower levels**.
+						- This means that $H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
 				- **Proof by [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)**
 					- Instead of considering any _halting_ decider, we show that any algorithmic decider $D$ in general cannot decide the halting property of the _negation program_ $n_H$.
 					- We construct a _negation program_ $n_H$ receiving **any algorithmic decider** $D$ as its input:
@@ -77,10 +77,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- This indirectly negate the $\text{HP}$.
 						- This indirect proof is weaker than the [direct proof](((6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2))) in the sense that it denies only the the _algorithm_, i.e. the execution, not the definition of $H$.
 						- That means, as an “oracle”, $H$ can somehow determine the halting status of $n_H(D)$, yielding clear answer of ⊤ xor ⊥. The only requirement is that $H$'s determination is not restricted within the timeline of program execution, like $p$ or $D$.
-			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
-				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
-				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
-				- **Conclusion**:  $(\text{HP0} = ⊤) ↔ (\text{HP0} = ⊥)$, i.e. $\text{HP0}$ is undecidable
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
