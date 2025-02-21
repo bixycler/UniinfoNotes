@@ -18,17 +18,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Proof by contradiction** (in classical logic):
 					- **Assumption** $A$: $\text{HP0} = ⊤$, i.e. we have a decider $H_0$ as a program which can decide whether any program $p$ halts xor not.
 						- $∀ p: [(H_0(p) = ⊤) ⊕ (H_0(p) = ⊥)]$  [$A_1$]
-					- We construct a program $p_{H0}$ based on the decider $H_0$ given by assumption $A$:
+					- We construct a negation program $n_{H0}$ based on the decider $H_0$ given by assumption $A$:
 						- ```python
-						  p_H0: if H_0(p_H0) then loop_forever; else halt;
+						  n_H0: if H_0(n_H0) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-					- Consider 2 cases of $H_0(p_{H0})$:
-						- $H_0(p_{H0}) = ⊤ ⇒ H_0(p_{H0}) = H_0( \text{loop\_forever} ) = ⊥$
-						- $H_0(p_{H0}) = ⊥ ⇒ H_0(p_{H0}) = H_0(\text{halt}) = ⊤$
-					- ⇒ $(H_0(p_{H0}) = ⊤) ↔ (H_0(p_{H0}) = ⊥)$
+					- Consider 2 cases of result given by $H_0(n_{H0})$:
+						- $H_0(n_{H0}) = ⊤ ⇒ H_0(n_{H0}) = H_0( \text{loop\_forever} ) = ⊥$
+						- $H_0(n_{H0}) = ⊥ ⇒ H_0(n_{H0}) = H_0(\text{halt}) = ⊤$
+					- ⇒ $(H_0(n_{H0}) = ⊤) ↔ (H_0(n_{H0}) = ⊥)$
 					- **Contradictions**:
-						- ⇒ $[H_0(p_{H0}) = ⊤ ⊕ H_0(p_{H0}) = ⊥] = ⊥$, i.e. $H_0$ cannot decide $p_{H0}$, effectively negating $A_1$
+						- ⇒ $[H_0(n_{H0}) = ⊤ ⊕ H_0(n_{H0}) = ⊥] = ⊥$, i.e. $H_0$ cannot decide $n_{H0}$, effectively negating $A_1$
 					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
 			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition **for all decider** $H$, without using proof by constradiction, 
 			  i.e., $∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥]$,
@@ -40,17 +40,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇔ $[(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)]  = ⊤$
 					- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
 				- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
-					- We construct a program $p_{H}$ receiving **any decider** $H$ as its input:
+					- We construct a negation program $n_H$ receiving **any decider** $H$ as its input:
 						- ```python
-						  p_H(H): if H(p_H, H) then loop_forever; else halt;
+						  n_H(H): if H(n_H, H) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-					- Consider 2 cases of $H(p_H, H)$:
-						- $H(p_H, H) = ⊤ ⇒ H(p_H, H) = H( \text{loop\_forever}, ∅) = ⊥$
-						- $H(p_H, H) = ⊥ ⇒ H(p_H, H) = H(\text{halt}, ∅) = ⊤$
-					- ⇒ $(H(p_H, H) = ⊤) ↔ (H(p_H, H) = ⊥)$
-					- ⇒ $[(H(p_H, H) = ⊤) ⊕ (H(p_H, H) = ⊥)] = ⊥$
-					- **Conclusion**: $∀ H, ∃ p = p_H, ∃ x = H:  ¬[H(p, x) = ⊤ ⊕ H(p, x) = ⊥]$, i.e. $\text{HP} = ⊥$
+					- Consider 2 cases of result given by $H(n_H, H)$:
+						- $H(n_H, H) = ⊤ ⇒ H(n_H, H) = H( \text{loop\_forever}, ∅) = ⊥$
+						- $H(n_H, H) = ⊥ ⇒ H(n_H, H) = H(\text{halt}, ∅) = ⊤$
+					- ⇒ $(H(n_H, H) = ⊤) ↔ (H(n_H, H) = ⊥)$
+					- ⇒ $[(H(n_H, H) = ⊤) ⊕ (H(n_H, H) = ⊥)] = ⊥$
+					- **Conclusion**: $∀ H, ∃ p = n_H, ∃ x = H:  ¬[H(p, x) = ⊤ ⊕ H(p, x) = ⊥]$, i.e. $\text{HP} = ⊥$
 			- ⇒ $\{ ∀ H, ∃ p = p_H:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥] \} = ¬\text{HP0} = ⊤$
 				- ⇒ $\text{HP0} = ⊥$, effectively negating $A$
 				- **Anti-assumption** $¬A$: $\text{HP0} = ⊥$, i.e.
