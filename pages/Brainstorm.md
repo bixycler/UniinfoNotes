@@ -62,16 +62,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
 				- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
 				  id:: 6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2
-					- We construct a _negation program_ $n_H$ receiving **any decider** $D_H$ as its input:
+					- We construct a _negation program_ $n_H$ receiving **any universal decider** $D_H$ as its input:
 						- ```python
-						  n_H(D_H): if H(n_H, D_H) then loop_forever; else halt;
+						  n_H(D_H): if D_H(n_H, D_H) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
 					- Consider 2 cases of result given by $D_H(n_H, H)$:
-						- $D_H(n_H, H) = ⊤ ⇒ H(n_H, H) = H( \text{loop\_forever}, ∅) = ⊥$
-						- $D_H(n_H, H) = ⊥ ⇒ H(n_H, H) = H(\text{halt}, ∅) = ⊤$
+						- $D_H(n_H, D_H) = ⊤ ⇒ H(n_H, D_H) = H( \text{loop\_forever}, ∅) = ⊥$
+						- $D_H(n_H, D_H) = ⊥ ⇒ H(n_H, D_H) = H(\text{halt}, ∅) = ⊤$
 					- ⇒ $D_H(n_H) ≠ H(n_H)$, i.e. $D_H$ cannot decide halting status of $n_H$
 					- **Conclusion**: $∀ D_H, ∃ p = n_H, ∃ x = D_H:  ¬[(D_H(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
+						- This proof is a kind of [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument) over all universal deciders, which clearly shows that no universal decider can be a halting status decider.
 						- When $H$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_H(H)$ is then an oracle.
 						- If the oracle $H$ only accepts inputs from non-oracles or lower-level oracles, $H(n_H, H)$ can be undetermined (`U`) instead of ⊤ xor ⊥, and the weaker version of $\text{HP}$ with program $p$ and input $x$ restricted in [arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy) may hold.
 							- $\text{HP}_1 := ∃ H ∈ \Sigma_{2}^0, ∀ (p, x) ∈ \Delta_{1}^{0}: [(H(p,x) = ⊤) ⊕ (H(p,x) = ⊥)]$
@@ -79,23 +80,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							- In general, an oracle $H ∈ Y$ results in its negation oracle $n_H(H) ∈ \Delta_{1}^{0,Y}$, and the corresponding halting proposition $\text{HP}_{1Y} ∈ \Sigma_{2}^{0,Y}$, as one of the [main results of the Arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy#Summary_of_main_results).
 						- However, the negation oracle can always effectively negate the unrestricted $\text{HP}$.
 						- This means that $H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
-				- **Proof by [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument)**
-					- Instead of considering any _halting_ decider, we show that any algorithmic decider $D$ in general cannot decide the halting property of the _negation program_ $n_H$.
-					- We construct a _negation program_ $n_H$ receiving **any algorithmic decider** $D$ as its input:
-						- ```python
-						  n_H(D): if D(n_H, D) then loop_forever; else halt;
-						  loop_forever: while True do continue;
-						  ```
-					- Let's define $H(·,·)$ as a (hypothetical) function determining the halting status of any program $p$ on input $x$.
-					  id:: cd8323ea-6bcb-41d4-b9b9-fca9ef85bc5a
-					- The result of $H(n_H, D)$ corresponding to $D(n_H, D)$:
-						- $D(n_H, D) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥ ≠ D(n_H, D)$
-						- $D(n_H, D) = ⊥ ⇒ H(n_H, D) = H(\text{halt}, ∅) = ⊤ ≠ D(n_H, D)$
-					- ⇒ $D ≠ H$
-					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D:  [D(p, x) ≠ H(p, x)]$, i.e. the (hypothetical) halting determining function $H$ is not an algorithmic decider.
-						- This indirectly negate the $\text{HP}$.
-						- This indirect proof is weaker than the [direct proof](((6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2))) in the sense that it denies only the the _algorithm_, i.e. the execution, not the definition of $H$.
-						- That means, as an “oracle”, $H$ can somehow determine the halting status of $n_H(D)$, yielding clear answer of ⊤ xor ⊥. The only requirement is that $H$'s determination is not restricted within the timeline of program execution, like $p$ or $D$.
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
