@@ -86,7 +86,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- **Halting determining function**
 			  {{embed ((67b9974a-99c9-439e-b36a-8f1bbefe9ff5))}}
 				- Due to the deterministic property of the program $p$ and the bounded size of the input $x$, we tend to think that “$p(x)$ must be definitely halts xor not!” Hence, we usually think of $H$ has a  [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) function.
-				- However, the problem lurks in the absurdity of the infinity ∞ which cannot be definite nor deterministic an.
+				- However, the problem lurks in the _absurdity of the **infinity, ∞**,_ which cannot be definite nor deterministic anyway.
+				- Throughout the history of maths, we've tried hard to manage infinities by canceling them with other infinities.
+					- Some simple infinities can be tamed down, e.g. $\lim_{n→∞}\frac{2n}{3n} = 2/3$.
+					- But most of other infinities are wild, e.g. $∞ - ∞ = U$, $∞/∞ = U$,
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
