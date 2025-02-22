@@ -25,20 +25,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- Similar to the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the _negation program_ is so “pathological” that no “halting doctor” can detect if it will halt xor not.
 			- [Reduced halting problem](https://creatzyitnotes.blogspot.com/2009/10/reduced-halting-problem.html)
-			- **Simple Halting Proposition** ($\text{HP0}$): There exists a decider $H()$ such that for all program $p$, $H(p)$ decides whether $p$ halts xor not.
-				- $\text{HP0} := ∃ H, ∀ p: [(H(p) = ⊤) ⊕ (H(p) = ⊥)]$
+			- **Simple Halting Proposition** ($\text{HP0}$): There exists a decider $D_H()$ such that for all program $p$, $D_H(p)$ decides whether $p$ halts xor not.
+				- $\text{HP0} := ∃ D_H, ∀ p: [D_H(p) = H(p)]$
+				- $H(p) :=$ “execution of program $p$ eventually halts.”
 			- **Simple Halting Problem**: $\text{HP0} = ?$
 				- **Solution** (in classical logic): $\text{HP0} = ⊥$
 				- **Proof by contradiction** (in classical logic):
-					- **Assumption** $A$: $\text{HP0} = ⊤$, i.e. we have a decider $H_0$ as a program which can decide whether any program $p$ halts xor not.
-						- $∀ p: [(H_0(p) = ⊤) ⊕ (H_0(p) = ⊥)]$  [$A_1$]
-					- We construct a _negation program_ $n_{H0}$ based on the decider $H_0$ given by assumption $A$:
+					- **Assumption** $A$: $\text{HP0} = ⊤$, i.e. we have a decider $D_{H0}$ as a program which can decide whether any program $p$ halts xor not.
+						- $∀ p: [D_{H0}(p) = H(p)]$  [$A_1$]
+					- We construct a _negation program_ $n_{H0}$ based on the decider $D_{H0}$ given by assumption $A$:
 						- ```python
-						  n_H0: if H_0(n_H0) then loop_forever; else halt;
+						  n_H0: if D_H0(n_H0) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-					- Consider 2 cases of result given by $H_0(n_{H0})$:
-						- $H_0(n_{H0}) = ⊤ ⇒ H_0(n_{H0}) = H_0( \text{loop\_forever} ) = ⊥$
+					- Consider 2 cases of result given by $D_{H0}(n_{H0})$:
+						- $D_{H0}(n_{H0}) = ⊤ ⇒ H_0(n_{H0}) = H_0( \text{loop\_forever} ) = ⊥$
 						- $H_0(n_{H0}) = ⊥ ⇒ H_0(n_{H0}) = H_0(\text{halt}) = ⊤$
 					- ⇒ $(H_0(n_{H0}) = ⊤) ↔ (H_0(n_{H0}) = ⊥)$
 					- **Contradictions**:
