@@ -361,6 +361,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-02-19 Wed 21:11:30]
 		  :END:
+		- Yesterday, Feb 24, i wrote ((67b81e1b-b801-4e5a-9c00-98e51158712a)) as brainstorm, but now, i move it to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) because it's been rather complete.
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-22 Sat 20:16:37]
+		  :END:
+			- This unintended work was triggered from the old post [The Reduced Halting Problem](https://creatzyitnotes.blogspot.com/2009/10/reduced-halting-problem.html), which i met when trying to ((67b989a4-a041-4511-abe5-77c785ca2d67))
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
