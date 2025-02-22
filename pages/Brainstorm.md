@@ -48,7 +48,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- Because the assumption leads to contradiction with the assumption itself, not with an established fact, we cannot be sure that the assumption is false.
 						- Actually, we have just proved that the assumption $A_1$ is self-contradictory,
 						  $A_1 → ¬A_1$
-						- While the classical logic denies self-contradiction,
+						- While the classical logic denies self-contradiction, self-negation loop is a natural force for development, and is defined as ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) in Unïnfo.
 			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition **for all halting decider** $H$, without using proof by constradiction, 
 			  i.e., $∀ H, ∃ p:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥]$,
 			  we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
