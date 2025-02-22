@@ -92,7 +92,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- But most of other infinities are wild, e.g. $∞ - ∞ =$ U, $∞/∞ =$ U, $H(n_H, D_H) =$ U, etc.
 				- The case of $H(n_H, D_H)$ is complicated by the ever increasing number of states of $n_H(D_H)$ due to its (indirect) recursion.
 					- Like [busy beavers](https://en.wikipedia.org/wiki/Busy_beaver), the negation program $n_H(D_H)$ keeps extending its states infinitely, thus effectively makes any judgement of its halting status indefinite.
-				- Resolution in Unïnfo: $H(n_H, D_H) = ⊥$ but this result cannot be communicated with $n_H(D_H)$
+				- Resolution in Unïnfo: $H(n_H, D_H) = ⊥$ is the meta-algorithmic answer. But this answer cannot be communicated with $n_H(D_H)$.
+					- Any oracle $D_H$ just remains silent when being asked by a non-oracle program like $n_H$ about such meta-algorithmic question like $D_H(n_H, D_H) = ?$.
+					- This is like the [Buddha's noble silence](https://en.wikipedia.org/wiki/Noble_Silence) and is protected by the [right to silence](https://en.wikipedia.org/wiki/Right_to_silence).
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
