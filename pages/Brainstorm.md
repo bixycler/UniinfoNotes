@@ -28,6 +28,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- **Simple Halting Proposition** ($\text{HP0}$): There exists a decider $D_H()$ such that for all program $p$, $D_H(p)$ decides whether $p$ halts xor not.
 				- $\text{HP0} := ∃ D_H, ∀ p: [D_H(p) = H(p)]$
 				- $H(p) :=$ “execution of program $p$ eventually halts.”
+				  id:: 67b98a45-9183-4be8-a699-92e7298d6e80
 			- **Simple Halting Problem**: $\text{HP0} = ?$
 			  collapsed:: true
 				- **Solution** (in classical logic): $\text{HP0} = ⊥$
@@ -73,7 +74,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- However, the negation oracle can always effectively negate the unrestricted $\text{HP0}$.
 						- This means that $D_H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
 						- ...
-			- To avoid [self-referential](https://en.wikipedia.org/wiki/Self-referential) in the negation program at `D(n_H1)`, we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
+			- To avoid [self-referential](https://en.wikipedia.org/wiki/Self-referential) in the negation program, i.e. `n_H: if D(n_H) ...`, we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
 			- **Halting Proposition** ($\text{HP}$): There exists a decider $D_H(·,·)$ such that for all program $p(·)$ and input $x$, $D_H(p, x)$ decides whether $p$ halts on $x$ xor not.
 				- $\text{HP} := ∃ D_H(·,·), ∀ p(·), ∀ x: [(D_H(p,x) = H(p,x)]$
 				- $H(p, x) :=$ “execution of program $p$ on input $x$ eventually halts.”
@@ -94,17 +95,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇒ $D(n_H) ≠ H(n_H)$, i.e. $D$ cannot decide halting status of $n_H$
 					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D_H:  ¬[(D(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
 			- **Halting determining function**
-			  {{embed ((67b9974a-99c9-439e-b36a-8f1bbefe9ff5))}}
-				- Due to the deterministic property of the program $p$ and the bounded size of the input $x$, we tend to think that “$p(x)$ must be definitely halts xor not!” Hence, we usually think of $H$ has a  [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) function.
+			  {{embed ((67b98a45-9183-4be8-a699-92e7298d6e80))}}
+				- Due to the deterministic property of the program $p$, we tend to think that “the execution $p()$ must be definitely halts xor not!” Hence, we usually think of $H$ has a [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) function.
 				- However, the problem lurks in the _absurdity of the **infinity, ∞**,_ which cannot be definite nor deterministic anyway.
 				- Throughout the history of maths, we've tried hard to manage infinities by canceling them with other infinities.
 					- Some simple infinities can be tamed down, e.g. $\lim_{n→∞}\frac{2n}{3n} = 2/3$, $H(\text{loop\_forever}, ∅) = ⊥$.
-					- But most of other infinities are wild, e.g. $∞ - ∞ =$ U, $∞/∞ =$ U, $H(n_H, D_H) =$ U, etc.
-				- The case of $H(n_H, D_H)$ is complicated by the ever increasing number of states of $n_H(D_H)$ due to its (indirect) recursion.
-					- Like [busy beavers](https://en.wikipedia.org/wiki/Busy_beaver), the negation program $n_H(D_H)$ keeps extending its states infinitely, thus effectively makes any judgement of its halting status indefinite.
-				- **Resolution in Unïnfo**: $H(n_H, D_H) = ⊥$ is the meta-algorithmic answer. But this answer cannot be communicated with $n_H(D_H)$.
-					- Any oracle $D_H$ just **remains silent**, i.e. $D_H() = ∅$, when being asked by a non-oracle program like $n_H$ about such meta-algorithmic question like $D_H(n_H, D_H) = ?$.
-					- This silence, combined with the negation program's stubborn request for a clear answer, effectively makes $n_H(D_H)$ stalls right there forever without halting. That's how $H(n_H, D_H) = ⊥$.
+					- But most of other infinities are wild, e.g. $∞ - ∞ =$ U, $∞/∞ =$ U, $H(n_H) =$ U, etc.
+				- The case of $H(n_H)$ is complicated by the ever increasing number of states of $n_H()$ due to its (indirect) recursions, of negation program $n_H$ and of decider $D_H$.
+					- Like [busy beavers](https://en.wikipedia.org/wiki/Busy_beaver), the negation program $n_H()$ keeps extending its states infinitely, thus effectively makes any judgement of its halting status indefinite.
+				- **Resolution in Unïnfo**: $H(n_H) = ⊥$ is the meta-algorithmic answer. But this answer cannot be communicated with $n_H()$.
+					- Any oracle $D_H$ just **remains silent**, i.e. $D_H() = ∅$, when being asked by a non-oracle program like $n_H$ about such meta-algorithmic question like $D_H(n_H) = ?$.
+					- This silence, combined with the negation program's stubborn request for a clear answer, effectively makes $n_H()$ stalls right there forever without halting. That's how $H(n_H) = ⊥$.
 					- This is like the [Buddha's noble silence](https://en.wikipedia.org/wiki/Noble_Silence).
 					- The [right to silence](https://en.wikipedia.org/wiki/Right_to_silence) in civil laws is somehow different, even though it's similar in the aspect of avoiding self negation.
 		- stagger = link (in space) = continuation (in time) = momentum
