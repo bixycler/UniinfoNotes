@@ -74,7 +74,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- However, the negation oracle can always effectively negate the unrestricted $\text{HP0}$.
 						- This means that $D_H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
 						- ...
-			- To avoid [self-referential](https://en.wikipedia.org/wiki/Self-referential) in the negation program, i.e. `n_H: if D(n_H) ...`, we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
+			- To avoid [self-referential](https://en.wikipedia.org/wiki/Self-referential) in the negation program, i.e. `n_H: if D(n_H) ...`, we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$, and put the program $p$ .
 			- **Halting Proposition** ($\text{HP}$): There exists a decider $D_H(·,·)$ such that for all program $p(·)$ and input $x$, $D_H(p, x)$ decides whether $p$ halts on $x$ xor not.
 				- $\text{HP} := ∃ D_H(·,·), ∀ p(·), ∀ x: [(D_H(p,x) = H(p,x)]$
 				- $H(p, x) :=$ “execution of program $p$ on input $x$ eventually halts.”
@@ -84,16 +84,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Resolution**: $\text{HP}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem) = 0 = [U](https://en.wikipedia.org/wiki/Three-valued_logic) = (in classical logic) ⊥
 				- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
 				  id:: 6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2
-					- We construct a _negation program_ $n_H$ receiving **any universal decider** $D$ as its input:
+					- For **any universal decider** $D$, we construct a _negation program_ $n_H$ receiving another program $p$ as input:
 						- ```python
-						  n_H(D): if D(n_H, D) then loop_forever; else halt;
+						  n_H(p): if D(p, p) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-					- Consider 2 cases of result given by $D(n_H, H)$:
-						- $D(n_H, D) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥$
-						- $D(n_H, D) = ⊥ ⇒ H(n_H, D) = H(\text{halt}, ∅) = ⊤$
-					- ⇒ $D(n_H) ≠ H(n_H)$, i.e. $D$ cannot decide halting status of $n_H$
-					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D_H:  ¬[(D(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
+					- Consider 2 cases of result given by $D(n_H, n_H)$ in the execution of $n_H(n_H)$:
+						- $D(n_H, n_H) = ⊤ ⇒ H(n_H, n_H) = H( \text{loop\_forever}, ∅) = ⊥$
+						- $D(n_H, n_H) = ⊥ ⇒ H(n_H, n_H) = H(\text{halt}, ∅) = ⊤$
+					- ⇒ $D(n_H, n_H) ≠ H(n_H, n_H)$, i.e. $D$ cannot decide halting status of $n_H(n_H)$
+					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = n_H:  ¬[(D(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
 			- **Halting determining function**
 			  {{embed ((67b98a45-9183-4be8-a699-92e7298d6e80))}}
 				- Due to the deterministic property of the program $p$, we tend to think that “the execution $p()$ must be definitely halts xor not!” Hence, we usually think of $H$ has a [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) function.
