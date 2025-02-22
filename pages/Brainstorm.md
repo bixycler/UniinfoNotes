@@ -39,12 +39,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  loop_forever: while True do continue;
 						  ```
 					- Consider 2 cases of result given by $D_{H0}(n_{H0})$:
-						- $D_{H0}(n_{H0}) = ⊤ ⇒ H_0(n_{H0}) = H_0( \text{loop\_forever} ) = ⊥$
-						- $H_0(n_{H0}) = ⊥ ⇒ H_0(n_{H0}) = H_0(\text{halt}) = ⊤$
-					- ⇒ $(H_0(n_{H0}) = ⊤) ↔ (H_0(n_{H0}) = ⊥)$
+						- $D_{H0}(n_{H0}) = ⊤ ⇒ H(n_{H0}) = H( \text{loop\_forever} ) = ⊥$
+						- $D_{H0}(n_{H0}) = ⊥ ⇒ H(n_{H0}) = H(\text{halt}) = ⊤$
+					- ⇒ $D_{H0}(n_{H0}) ≠ H(n_{H0})$, i.e. $D_{H0}$ cannot decide halting status of $n_{H0}$
 					- **Contradictions**:
-						- ⇒ $[(H_0(n_{H0}) = ⊤) ⊕ (H_0(n_{H0}) = ⊥)] = ⊥$, i.e. $H_0$ cannot decide $n_{H0}$, effectively negating $A_1$
+						- ⇒ $∃ p=n_{H0}:  ¬[D_{H0}(p) = H(p)]$, negating $A_1$
 					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
+						- Because the assumption leads to contradiction with the assumption itself, not with an established fact, we cannot be sure that
 			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition **for all halting decider** $H$, without using proof by constradiction, 
 			  i.e., $∀ H, ∃ p:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥]$,
 			  we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
