@@ -57,9 +57,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- $\text{HP} := ∃ D_H(·,·), ∀ p(·), ∀ x: [(D_H(p,x) = H(p,x)]$
 				- $H(p, x) :=$ “execution of program $p$ on input $x$ eventually halts.”
 			- **Halting Problem**: $\text{HP} = ?$
-				- **Resolution**: $[(\text{HP} = ⊤) ⊕ (\text{HP} = ⊥)] = ⊥$, i.e. $\text{HP}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem)
-					- ⇔ $[(\text{HP} = ⊤) ↔ (\text{HP} = ⊥)]  = ⊤$
-					- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
+				- **Resolution**: $\text{HP}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem) = 0 = [U](https://en.wikipedia.org/wiki/Three-valued_logic) = (in classical logic) ⊥
 				- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
 				  id:: 6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2
 					- We construct a _negation program_ $n_H$ receiving **any universal decider** $D$ as its input:
@@ -67,7 +65,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  n_H(D): if D(n_H, D) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-						- The universal decider $D$ is only required to give definite answer on any input, hence “universal”, but can decide any property of its input, not just halting status.
+						- The universal decider $D$ is only required to give definite answer on any input, i.e. “universal”, but can decide any property of its input, not just halting status.
 						- The “universality” of $D$ is from the universal quantifiers, $∀ p(·), ∀ x$, of $\text{HP}$.
 					- Consider 2 cases of result given by $D(n_H, H)$:
 						- $D(n_H, D_H) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥$
@@ -75,13 +73,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇒ $D(n_H) ≠ H(n_H)$, i.e. $D$ cannot decide halting status of $n_H$
 					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D_H:  ¬[(D(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
 						- This proof is a kind of [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument) over all universal deciders, which clearly shows that no universal decider can be a halting status decider.
-						- When $H$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_H(H)$ is then an oracle.
-						- If the oracle $H$ only accepts inputs from non-oracles or lower-level oracles, $H(n_H, H)$ can be undetermined (`U`) instead of ⊤ xor ⊥, and the weaker version of $\text{HP}$ with program $p$ and input $x$ restricted in [arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy) may hold.
-							- $\text{HP}_1 := ∃ H ∈ \Sigma_{2}^0, ∀ (p, x) ∈ \Delta_{1}^{0}: [(H(p,x) = ⊤) ⊕ (H(p,x) = ⊥)]$
+						- When $D$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_H(D)$ is then an oracle.
+						- If the oracle $D$ only accepts inputs from non-oracles or lower-level oracles, $D(n_H, D)$ can be undetermined (`U`) instead of ⊤ xor ⊥, and the weaker version of $\text{HP}$ with program $p$ and input $x$ restricted in [arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy) may hold.
+							- $\text{HP}_1 := ∃ D_H ∈ \Sigma_{2}^0, ∀ (p, x) ∈ \Delta_{1}^{0}: [(D_H(p,x) = H(p,x)]$
 							  ⇒ $\text{HP}_1 ∈ \Sigma_{2}^0$
-							- In general, an oracle $H ∈ Y$ results in its negation oracle $n_H(H) ∈ \Delta_{1}^{0,Y}$, and the corresponding halting proposition $\text{HP}_{1Y} ∈ \Sigma_{2}^{0,Y}$, as one of the [main results of the Arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy#Summary_of_main_results).
+							- In general, an oracle $D_H ∈ Y$ results in its negation oracle $n_H(D_H) ∈ \Delta_{1}^{0,Y}$, and the corresponding halting proposition $\text{HP}_{1Y} ∈ \Sigma_{2}^{0,Y}$, as one of the [main results of the Arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy#Summary_of_main_results).
 						- However, the negation oracle can always effectively negate the unrestricted $\text{HP}$.
-						- This means that $H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
+						- This means that $D_H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
