@@ -68,7 +68,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  n_H(D): if D(n_H, D) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-						- The universal decider $D$ is only required to give definite answer on any input, i.e. “universal”, but can decide any property of its input, not just halting status.
+						- The universal decider $D$ is only required to give definite answer on any input, i.e. “universal” or [total](https://en.wikipedia.org/wiki/Total_function), but can decide any property of its input, not just halting status.
 						- The “universality” of $D$ is from the universal quantifiers, $∀ p(·), ∀ x$, of $\text{HP}$.
 					- Consider 2 cases of result given by $D(n_H, H)$:
 						- $D(n_H, D) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥$
