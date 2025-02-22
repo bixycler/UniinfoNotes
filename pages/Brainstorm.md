@@ -45,7 +45,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Contradictions**:
 						- ⇒ $∃ p=n_{H0}:  ¬[D_{H0}(p) = H(p)]$, negating $A_1$
 					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
-						- Because the assumption leads to contradiction with the assumption itself, not with an established fact, we cannot be sure that
+						- Because the assumption leads to contradiction with the assumption itself, not with an established fact, we cannot be sure that the assumption is false.
+						- Actually, we have just proved that the assumption $A_1$ is self-contradictory,
+						  $A_1 → ¬A_1$
+						- While the classical logic denies self-contradiction,
 			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition **for all halting decider** $H$, without using proof by constradiction, 
 			  i.e., $∀ H, ∃ p:  ¬[H(p) = ⊤ ⊕ H(p) = ⊥]$,
 			  we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
