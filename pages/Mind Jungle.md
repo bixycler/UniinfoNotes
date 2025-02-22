@@ -191,8 +191,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## Halting Problem
 	  id:: 67b81e1b-b801-4e5a-9c00-98e51158712a
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b81e1b-b801-4e5a-9c00-98e51158712a)) asks if there is any program (or oracle) computing the ((67b9a136-7946-4029-940e-656bdf6847b0)).
-			- Similar to the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the _negation program_ is so “pathological” that no “halting doctor” can detect if it will halt xor not.
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Halting_problem
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b81e1b-b801-4e5a-9c00-98e51158712a)) asks if there is any program (or oracle) computing the ((67b9a136-7946-4029-940e-656bdf6847b0)). The [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of this problem, together with [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems), and [Tarski's undefinability theorem of truth](https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem), have shown that Hilbert's [Entscheidungsproblem](https://en.wikipedia.org/wiki/Entscheidungsproblem) is unsolvable.
+			- Undecidability: Similar to the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the [_negation program_](((67b989a4-20ad-4ba2-b456-1ce2bd502e90))) is so “pathological” that no “halting doctor” can detect if it will halt xor not.
 		- **Halting determining function**
 		  id:: 67b9a136-7946-4029-940e-656bdf6847b0
 		  collapsed:: true
@@ -220,6 +221,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- **Assumption** $A$: $\text{HP0} = ⊤$, i.e. we have a decider $D_{H0}$ as a program which can decide whether any program $p$ halts xor not.
 					- $∀ p: [D_{H0}(p) = H(p)]$  [$A_1$]
 				- We construct a _negation program_ $n_{H0}$ based on the decider $D_{H0}$ given by assumption $A$:
+				  id:: 67b989a4-20ad-4ba2-b456-1ce2bd502e90
 					- ```python
 					  n_H0: if D_H0(n_H0) then loop_forever; else halt;
 					  loop_forever: while True do continue;
@@ -238,6 +240,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- One way of development is to upgrade the definition of the halting determining function $H()$ from [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) to [nondeterministic](https://en.wikipedia.org/wiki/Nondeterministic_algorithm) or [many-valued](https://en.wikipedia.org/wiki/Many-valued_logic).
 			- **Direct proof** of  $\text{HP0} = ⊥$
 				- For **any given universal decider** $D$, we construct a _negation program_ $n_{H1}$:
+				  id:: 67b9b863-3571-4907-8bb0-3ec14321b899
 					- ```python
 					  n_H1: if D(n_H1) then loop_forever; else halt;
 					  loop_forever: while True do continue;
