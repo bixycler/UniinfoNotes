@@ -43,7 +43,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- $D_{H0}(n_{H0}) = ⊤ ⇒ H(n_{H0}) = H( \text{loop\_forever} ) = ⊥$
 						- $D_{H0}(n_{H0}) = ⊥ ⇒ H(n_{H0}) = H(\text{halt}) = ⊤$
 					- ⇒ $D_{H0}(n_{H0}) ≠ H(n_{H0})$, i.e. $D_{H0}$ cannot decide halting status of $n_{H0}$
-					- **Contradictions**:
+					- **Contradiction**:
 						- ⇒ $∃ p=n_{H0}:  ¬[D_{H0}(p) = H(p)]$, negating $A_1$
 					- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
 						- Because the assumption leads to contradiction with the assumption itself, not with an established fact, we cannot be sure that the assumption is false.
@@ -51,6 +51,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  $A_1 → ¬A_1$
 						- While the classical logic denies self-contradiction, self-negation loop is a driving force for development, as shown in the dialectical process of thesis-antithesis-synthesis, and is defined as ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) in Unïnfo.
 							- One way of development is to upgrade the definition of the halting determining function $H()$ from [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) to [nondeterministic](https://en.wikipedia.org/wiki/Nondeterministic_algorithm) or [many-valued](https://en.wikipedia.org/wiki/Many-valued_logic).
+				- **Direct proof** of  $\text{HP0} = ⊥$
+					-
 			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition **for all halting decider** $H$, without using proof by constradiction, i.e.
 			  $∀ D_H, ∃ p:  ¬[D_H(p) = H(p)]$,
 			  we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
