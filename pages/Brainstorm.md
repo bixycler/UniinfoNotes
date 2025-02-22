@@ -94,7 +94,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Like [busy beavers](https://en.wikipedia.org/wiki/Busy_beaver), the negation program $n_H(D_H)$ keeps extending its states infinitely, thus effectively makes any judgement of its halting status indefinite.
 				- Resolution in Unïnfo: $H(n_H, D_H) = ⊥$ is the meta-algorithmic answer. But this answer cannot be communicated with $n_H(D_H)$.
 					- Any oracle $D_H$ just remains silent when being asked by a non-oracle program like $n_H$ about such meta-algorithmic question like $D_H(n_H, D_H) = ?$.
-					- This is like the [Buddha's noble silence](https://en.wikipedia.org/wiki/Noble_Silence) and is protected by the [right to silence](https://en.wikipedia.org/wiki/Right_to_silence).
+					- This silence combined with the negation program's stubborn request for a clear answer effectively make $n_H(D_H)$ stalls
+					- This is like the [Buddha's noble silence](https://en.wikipedia.org/wiki/Noble_Silence).
+					- The [right to silence](https://en.wikipedia.org/wiki/Right_to_silence) in civil laws is somehow different, even though it's similar in the aspect of avoiding self negation.
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
