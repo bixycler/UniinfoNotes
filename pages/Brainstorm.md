@@ -60,14 +60,20 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- The universal decider $D$ is only required to give definite answer on any input, i.e. “universal” or [total](https://en.wikipedia.org/wiki/Total_function), but can decide any property of its input, not just halting status.
 						- The “universality” of $D$ is from the universal quantifier, $∀ p$, of $\text{HP0}$.
 					- Consider 2 cases of result given by $D(n_{H1})$:
-						- $D(n_{H1})) = ⊤ ⇒ H(n_{H1}) = H( \text{loop\_forever} ) = ⊥$
+						- $D(n_{H1}) = ⊤ ⇒ H(n_{H1}) = H( \text{loop\_forever} ) = ⊥$
 						- $D(n_{H1}) = ⊥ ⇒ H(n_{H1}) = H(\text{halt}) = ⊤$
 					- ⇒ $D(n_{H1}) ≠ H(n_{H1})$, i.e. $D$ cannot decide halting status of $n_{H1}$
-					- **Conclusion**:
-						- ⇒ $∃ p=n_{H0}:  ¬[D_{H0}(p) = H(p)]$,
-			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition **for all halting decider** $H$, without using proof by constradiction, i.e.
-			  $∀ D_H, ∃ p:  ¬[D_H(p) = H(p)]$,
-			  we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
+					- **Conclusion**: $∀ D, ∃ p = n_{H1}:  ¬[(D(p) = H(p)]$, i.e. $\text{HP0} = ⊥$
+						- This proof is a kind of [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument) over all universal deciders, which clearly shows that no universal decider can be a halting status decider.
+						- When $D$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_{H1}$ is then an oracle.
+						- If the oracle $D$ only accepts inputs from non-oracles or lower-level oracles, $D(n_{H1})$ can be undetermined (`U`) instead of ⊤ xor ⊥, and the weaker version of $\text{HP0}$ with program $p$ and input $x$ restricted in [arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy) may hold.
+							- $\text{HP}_1 := ∃ D_H ∈ \Sigma_{2}^0, ∀ p ∈ \Delta_{1}^{0}: [(D_H(p) = H(p)]$
+							  ⇒ $\text{HP}_1 ∈ \Sigma_{2}^0$
+							- In general, an oracle $D_H ∈ Y$ results in its negation oracle $n_{H1} ∈ \Delta_{1}^{0,Y}$, and the corresponding halting proposition $\text{HP}_{1Y} ∈ \Sigma_{2}^{0,Y}$, as one of the [main results of the Arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy#Summary_of_main_results).
+						- However, the negation oracle can always effectively negate the unrestricted $\text{HP0}$.
+						- This means that $D_H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
+						- ...
+			- To avoid [self-referential](https://en.wikipedia.org/wiki/Self-referential) in the negation program at `D(n_H1)`, we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
 			- **Halting Proposition** ($\text{HP}$): There exists a decider $D_H(·,·)$ such that for all program $p(·)$ and input $x$, $D_H(p, x)$ decides whether $p$ halts on $x$ xor not.
 				- $\text{HP} := ∃ D_H(·,·), ∀ p(·), ∀ x: [(D_H(p,x) = H(p,x)]$
 				- $H(p, x) :=$ “execution of program $p$ on input $x$ eventually halts.”
@@ -87,14 +93,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- $D(n_H, D) = ⊥ ⇒ H(n_H, D) = H(\text{halt}, ∅) = ⊤$
 					- ⇒ $D(n_H) ≠ H(n_H)$, i.e. $D$ cannot decide halting status of $n_H$
 					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D_H:  ¬[(D(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
-						- This proof is a kind of [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument) over all universal deciders, which clearly shows that no universal decider can be a halting status decider.
-						- When $D$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_H(D)$ is then an oracle.
-						- If the oracle $D$ only accepts inputs from non-oracles or lower-level oracles, $D(n_H, D)$ can be undetermined (`U`) instead of ⊤ xor ⊥, and the weaker version of $\text{HP}$ with program $p$ and input $x$ restricted in [arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy) may hold.
-							- $\text{HP}_1 := ∃ D_H ∈ \Sigma_{2}^0, ∀ (p, x) ∈ \Delta_{1}^{0}: [(D_H(p,x) = H(p,x)]$
-							  ⇒ $\text{HP}_1 ∈ \Sigma_{2}^0$
-							- In general, an oracle $D_H ∈ Y$ results in its negation oracle $n_H(D_H) ∈ \Delta_{1}^{0,Y}$, and the corresponding halting proposition $\text{HP}_{1Y} ∈ \Sigma_{2}^{0,Y}$, as one of the [main results of the Arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy#Summary_of_main_results).
-						- However, the negation oracle can always effectively negate the unrestricted $\text{HP}$.
-						- This means that $D_H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
 			- **Halting determining function**
 			  {{embed ((67b9974a-99c9-439e-b36a-8f1bbefe9ff5))}}
 				- Due to the deterministic property of the program $p$ and the bounded size of the input $x$, we tend to think that “$p(x)$ must be definitely halts xor not!” Hence, we usually think of $H$ has a  [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) function.
