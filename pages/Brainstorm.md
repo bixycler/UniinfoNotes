@@ -52,7 +52,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- While the classical logic denies self-contradiction, self-negation loop is a driving force for development, as shown in the dialectical process of thesis-antithesis-synthesis, and is defined as ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) in Unïnfo.
 							- One way of development is to upgrade the definition of the halting determining function $H()$ from [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) to [nondeterministic](https://en.wikipedia.org/wiki/Nondeterministic_algorithm) or [many-valued](https://en.wikipedia.org/wiki/Many-valued_logic).
 				- **Direct proof** of  $\text{HP0} = ⊥$
-					-
+					- For any given universal decider $D$, we construct a _negation program_ $n_{H1}$:
+						- ```python
+						  n_H1: if D(n_H1) then loop_forever; else halt;
+						  loop_forever: while True do continue;
+						  ```
+						- The universal decider $D$ is only required to give definite answer on any input, i.e. “universal” or [total](https://en.wikipedia.org/wiki/Total_function), but can decide any property of its input, not just halting status.
+						- The “universality” of $D$ is from the universal quantifier, $∀ p$, of $\text{HP0}$.
+					- Consider 2 cases of result given by $D(n_{H1})$:
+						- $D(n_{H1})) = ⊤ ⇒ H(n_{H1}) = H( \text{loop\_forever} ) = ⊥$
+						- $D(n_{H1}) = ⊥ ⇒ H(n_{H1}) = H(\text{halt}) = ⊤$
+					- ⇒ $D(n_{H1}) ≠ H(n_{H1})$, i.e. $D$ cannot decide halting status of $n_{H1}$
+					- **Conclusion**:
+						- ⇒ $∃ p=n_{H0}:  ¬[D_{H0}(p) = H(p)]$,
 			- In order to have a stronger conclusion by directly proving the negation of Halting Proposition **for all halting decider** $H$, without using proof by constradiction, i.e.
 			  $∀ D_H, ∃ p:  ¬[D_H(p) = H(p)]$,
 			  we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$.
@@ -70,8 +82,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  n_H(D): if D(n_H, D) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-						- The universal decider $D$ is only required to give definite answer on any input, i.e. “universal” or [total](https://en.wikipedia.org/wiki/Total_function), but can decide any property of its input, not just halting status.
-						- The “universality” of $D$ is from the universal quantifiers, $∀ p(·), ∀ x$, of $\text{HP}$.
 					- Consider 2 cases of result given by $D(n_H, H)$:
 						- $D(n_H, D) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥$
 						- $D(n_H, D) = ⊥ ⇒ H(n_H, D) = H(\text{halt}, ∅) = ⊤$
