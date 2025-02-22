@@ -74,7 +74,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- However, the negation oracle can always effectively negate the unrestricted $\text{HP0}$.
 						- This means that $D_H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
 						- ...
-			- To avoid [self-referential](https://en.wikipedia.org/wiki/Self-referential) in the negation program, i.e. `n_H: if D(n_H) ...`, we must rephrase the Halting Proposition to be more general where program $p$ receives input $x$, and put the program $p$ .
+			- Explicit [self-references](https://en.wikipedia.org/wiki/Self-referential):
+				- In the negation program clearer, the code `n_H: if D(n_H) ...` has two layers of self references: of $n_H$ and of $D = D_H$ as a halting status decider.
+				- To make them clear, we rephrase the Halting Proposition to be more general where program $p$ receives inputs $(x, y)$, so that we can put the programs to its inputs: $n_H(n_H)$.
 			- **Halting Proposition** ($\text{HP}$): There exists a decider $D_H(·,·)$ such that for all program $p(·)$ and input $x$, $D_H(p, x)$ decides whether $p$ halts on $x$ xor not.
 				- $\text{HP} := ∃ D_H(·,·), ∀ p(·), ∀ x: [(D_H(p,x) = H(p,x)]$
 				- $H(p, x) :=$ “execution of program $p$ on input $x$ eventually halts.”
