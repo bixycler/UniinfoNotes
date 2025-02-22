@@ -188,6 +188,98 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6675369a-1d13-48c5-8a77-d588aa8b59b8
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6675369a-1d13-48c5-8a77-d588aa8b59b8)) is a [numeral system](https://en.wikipedia.org/wiki/Numeral_system) that use [Dyck words](https://en.wikipedia.org/wiki/Dyck_language), i.e. balanced brackets, to represent numbers.
+	- ## Halting Problem
+	  id:: 67b81e1b-b801-4e5a-9c00-98e51158712a
+	  collapsed:: true
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b81e1b-b801-4e5a-9c00-98e51158712a)) asks if there is any program (or oracle) computing the ((67b9a136-7946-4029-940e-656bdf6847b0)).
+			- Similar to the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the _negation program_ is so “pathological” that no “halting doctor” can detect if it will halt xor not.
+		- **Halting determining function**
+		  id:: 67b9a136-7946-4029-940e-656bdf6847b0
+		  collapsed:: true
+		  {{embed ((67b98a45-9183-4be8-a699-92e7298d6e80))}}
+			- Due to the deterministic property of the program $p$, we tend to think that “the execution $p()$ must be definitely halts xor not!” Hence, we usually think of $H$ has a [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) function.
+			- However, the problem lurks in the _absurdity of the **infinity, ∞**,_ which cannot be definite nor deterministic anyway.
+			- Throughout the history of maths, we've tried hard to manage infinities by canceling them with other infinities.
+				- Some simple infinities can be tamed down, e.g. $\lim_{n→∞}\frac{2n}{3n} = 2/3$, $H(\text{loop\_forever}, ∅) = ⊥$.
+				- But most of other infinities are wild, e.g. $∞ - ∞ =$ U, $∞/∞ =$ U, $H(n_H) =$ U, etc.
+			- The case of $H(n_H)$ is complicated by the ever increasing number of states of $n_H()$ due to its (indirect) recursions, of negation program $n_H$ and of decider $D_H$, as shown explicitly in the [extended HP](((67b989a4-5854-4f75-a771-2308371cdbe5))): $D_H(n_H, n_H, D_H)$.
+				- Like [busy beavers](https://en.wikipedia.org/wiki/Busy_beaver), the negation program $n_H()$ keeps extending its states infinitely, thus effectively makes any judgement of its halting status indefinite.
+			- **Resolution in Unïnfo**: $H(n_H) = ⊥$ is the meta-algorithmic answer. But this answer cannot be communicated with $n_H()$.
+				- Any oracle $D_H$ just **remains silent**, i.e. $D_H() = ∅$, when being asked by a non-oracle program like $n_H$ about such meta-algorithmic question like $D_H(n_H) = ?$.
+				- This silence, combined with the negation program's stubborn request for a clear answer, effectively makes $n_H()$ stalls right there forever without halting. That's how $H(n_H) = ⊥$.
+				- This is like the [Buddha's noble silence](https://en.wikipedia.org/wiki/Noble_Silence).
+				- The [right to silence](https://en.wikipedia.org/wiki/Right_to_silence) in civil laws is somehow different, even though it's similar in the aspect of avoiding self negation.
+		- **Simple Halting Proposition** ($\text{HP0}$): There exists a decider $D_H()$ such that for all program $p$, $D_H(p)$ decides whether $p$ halts xor not.
+			- $\text{HP0} := ∃ D_H, ∀ p: [D_H(p) = H(p)]$
+			- $H(p) :=$ “execution of program $p$ eventually halts.”
+			  id:: 67b98a45-9183-4be8-a699-92e7298d6e80
+		- **Simple Halting Problem**: $\text{HP0} = ?$
+		  collapsed:: true
+			- **Solution** (in classical logic): $\text{HP0} = ⊥$
+			- **Proof by contradiction** (in classical logic):
+				- **Assumption** $A$: $\text{HP0} = ⊤$, i.e. we have a decider $D_{H0}$ as a program which can decide whether any program $p$ halts xor not.
+					- $∀ p: [D_{H0}(p) = H(p)]$  [$A_1$]
+				- We construct a _negation program_ $n_{H0}$ based on the decider $D_{H0}$ given by assumption $A$:
+					- ```python
+					  n_H0: if D_H0(n_H0) then loop_forever; else halt;
+					  loop_forever: while True do continue;
+					  ```
+				- Consider 2 cases of result given by $D_{H0}(n_{H0})$:
+					- $D_{H0}(n_{H0}) = ⊤ ⇒ H(n_{H0}) = H( \text{loop\_forever} ) = ⊥$
+					- $D_{H0}(n_{H0}) = ⊥ ⇒ H(n_{H0}) = H(\text{halt}) = ⊤$
+				- ⇒ $D_{H0}(n_{H0}) ≠ H(n_{H0})$, i.e. $D_{H0}$ cannot decide halting status of $n_{H0}$
+				- **Contradiction**:
+					- ⇒ $∃ p=n_{H0}:  ¬[D_{H0}(p) = H(p)]$, negating $A_1$
+				- **Conclusion** (by classical logic): Assumption $A$ is false, i.e. $\text{HP0} = ⊥$
+					- Because the assumption leads to contradiction with the assumption itself, not with an established fact, we cannot be sure that the assumption is false.
+					- Actually, we have just proved that the assumption $A_1$ is self-contradictory,
+					  $A_1 → ¬A_1$
+					- While the classical logic denies self-contradiction, self-negation loop is a driving force for development, as shown in the dialectical process of thesis-antithesis-synthesis, and is defined as ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) in Unïnfo.
+						- One way of development is to upgrade the definition of the halting determining function $H()$ from [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) to [nondeterministic](https://en.wikipedia.org/wiki/Nondeterministic_algorithm) or [many-valued](https://en.wikipedia.org/wiki/Many-valued_logic).
+			- **Direct proof** of  $\text{HP0} = ⊥$
+				- For **any given universal decider** $D$, we construct a _negation program_ $n_{H1}$:
+					- ```python
+					  n_H1: if D(n_H1) then loop_forever; else halt;
+					  loop_forever: while True do continue;
+					  ```
+					- The universal decider $D$ is only required to give definite answer on any input, i.e. “universal” or [total](https://en.wikipedia.org/wiki/Total_function), but can decide any property of its input, not just halting status.
+					- The “universality” of $D$ is from the universal quantifier, $∀ p$, of $\text{HP0}$.
+				- Consider 2 cases of result given by $D(n_{H1})$:
+					- $D(n_{H1}) = ⊤ ⇒ H(n_{H1}) = H( \text{loop\_forever} ) = ⊥$
+					- $D(n_{H1}) = ⊥ ⇒ H(n_{H1}) = H(\text{halt}) = ⊤$
+				- ⇒ $D(n_{H1}) ≠ H(n_{H1})$, i.e. $D$ cannot decide halting status of $n_{H1}$
+				- **Conclusion**: $∀ D, ∃ p = n_{H1}:  ¬[(D(p) = H(p)]$, i.e. $\text{HP0} = ⊥$
+					- This proof is a kind of [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument) over all universal deciders, which clearly shows that no universal decider can be a halting status decider.
+					- When $D$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_{H1}$ is then an oracle.
+					- If the oracle $D$ only accepts inputs from non-oracles or lower-level oracles, $D(n_{H1})$ can be undetermined (`U`) instead of ⊤ xor ⊥, and the weaker version of $\text{HP0}$ with program $p$ and input $x$ restricted in [arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy) may hold.
+						- $\text{HP}_1 := ∃ D_H ∈ \Sigma_{2}^0, ∀ p ∈ \Delta_{1}^{0}: [(D_H(p) = H(p)]$
+						  ⇒ $\text{HP}_1 ∈ \Sigma_{2}^0$
+						- In general, an oracle $D_H ∈ Y$ results in its negation oracle $n_{H1} ∈ \Delta_{1}^{0,Y}$, and the corresponding halting proposition $\text{HP}_{1Y} ∈ \Sigma_{2}^{0,Y}$, as one of the [main results of the Arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy#Summary_of_main_results).
+					- However, the negation oracle can always effectively negate the unrestricted $\text{HP0}$.
+					- This means that $D_H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
+		- Explicit [self-references](https://en.wikipedia.org/wiki/Self-referential):
+			- In the negation program, the code `n_H: if D(n_H) ...` has two layers of self references: of $n_H$ and of $D = D_H$ as a halting status decider.
+			- To make them clear, we rephrase the Halting Proposition to be more general where program $p$ receives inputs $(x, y)$, so that we can put programs to its inputs: $n_H(n_H, D_H)$.
+		- **Extended Halting Proposition** ($\text{HP}$): There exists a decider $D_H(·,·)$ such that for all program $p(·)$ and inputs $(x, y)$, $D_H(p, x, y)$ decides whether $p$ halts on $(x, y)$ xor not.
+			- $\text{HP} := ∃ D_H(·,·,·), ∀ p(·,·), ∀ (x, y): [(D_H(p,x,y) = H(p,x,y)]$
+			- $H(p, x, y) :=$ “execution of program $p$ on inputs $(x, y)$ eventually halts.”
+			  id:: 67b9974a-99c9-439e-b36a-8f1bbefe9ff5
+		- **Extended Halting Problem**: $\text{HP} = ?$
+		  collapsed:: true
+			- **Resolution**: $\text{HP}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem) = 0 = [U](https://en.wikipedia.org/wiki/Three-valued_logic) = (in classical logic) ⊥
+			- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
+			  id:: 6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2
+				- For **any universal decider** $D$, we construct a _negation program_ $n_H$ receiving other programs $p, d$ as inputs:
+					- ```python
+					  n_H(p, d): if D(p, p, d) then loop_forever; else halt;
+					  loop_forever: while True do continue;
+					  ```
+				- Consider 2 cases of result given by $D(n_H, n_H, D)$ in the execution of $n_H(n_H, D)$:
+				  id:: 67b989a4-5854-4f75-a771-2308371cdbe5
+					- $D(n_H, n_H, D) = ⊤ ⇒ H(n_H, n_H, D) = H( \text{loop\_forever}, ∅) = ⊥$
+					- $D(n_H, n_H, D) = ⊥ ⇒ H(n_H, n_H, D) = H(\text{halt}, ∅) = ⊤$
+				- ⇒ $D(n_H, n_H, D) ≠ H(n_H, n_H, D)$, i.e. $D$ cannot decide halting status of $n_H(n_H, D)$
+				- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = n_H, ∃ y = D:  ¬[(D(p, x, y) = H(p, x, y)]$, i.e. $\text{HP} = ⊥$
 	- ## resource
 	  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
 	  collapsed:: true
