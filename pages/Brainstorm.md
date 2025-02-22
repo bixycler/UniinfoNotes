@@ -29,6 +29,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- $\text{HP0} := ∃ D_H, ∀ p: [D_H(p) = H(p)]$
 				- $H(p) :=$ “execution of program $p$ eventually halts.”
 			- **Simple Halting Problem**: $\text{HP0} = ?$
+			  collapsed:: true
 				- **Solution** (in classical logic): $\text{HP0} = ⊥$
 				- **Proof by contradiction** (in classical logic):
 					- **Assumption** $A$: $\text{HP0} = ⊤$, i.e. we have a decider $D_{H0}$ as a program which can decide whether any program $p$ halts xor not.
@@ -56,7 +57,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- **Halting Proposition** ($\text{HP}$): There exists a decider $D_H(·,·)$ such that for all program $p(·)$ and input $x$, $D_H(p, x)$ decides whether $p$ halts on $x$ xor not.
 				- $\text{HP} := ∃ D_H(·,·), ∀ p(·), ∀ x: [(D_H(p,x) = H(p,x)]$
 				- $H(p, x) :=$ “execution of program $p$ on input $x$ eventually halts.”
+				  id:: 67b9974a-99c9-439e-b36a-8f1bbefe9ff5
 			- **Halting Problem**: $\text{HP} = ?$
+			  collapsed:: true
 				- **Resolution**: $\text{HP}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem) = 0 = [U](https://en.wikipedia.org/wiki/Three-valued_logic) = (in classical logic) ⊥
 				- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
 				  id:: 6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2
@@ -80,6 +83,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							- In general, an oracle $D_H ∈ Y$ results in its negation oracle $n_H(D_H) ∈ \Delta_{1}^{0,Y}$, and the corresponding halting proposition $\text{HP}_{1Y} ∈ \Sigma_{2}^{0,Y}$, as one of the [main results of the Arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy#Summary_of_main_results).
 						- However, the negation oracle can always effectively negate the unrestricted $\text{HP}$.
 						- This means that $D_H$ can only determine halting status of other ones at **lower levels**, and obviously not of itself.
+			- **Halting determining function**
+			  {{embed ((67b9974a-99c9-439e-b36a-8f1bbefe9ff5))}}
+				- Due to the deterministic property of the program $p$ and the bounded size of the input $x$, we tend to think that “$p(x)$ must be definitely halts xor not!” Hence, we usually think of $H$ has a  [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) function.
+				- However, the problem lurks in the absurdity of the infinity ∞ which cannot be definite nor deterministic an.
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
