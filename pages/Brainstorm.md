@@ -77,11 +77,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Explicit [self-references](https://en.wikipedia.org/wiki/Self-referential):
 				- In the negation program, the code `n_H: if D(n_H) ...` has two layers of self references: of $n_H$ and of $D = D_H$ as a halting status decider.
 				- To make them clear, we rephrase the Halting Proposition to be more general where program $p$ receives inputs $(x, y)$, so that we can put programs to its inputs: $n_H(n_H, D_H)$.
-			- **Halting Proposition** ($\text{HP}$): There exists a decider $D_H(·,·)$ such that for all program $p(·)$ and inputs $(x, y)$, $D_H(p, x, y)$ decides whether $p$ halts on $(x, y)$ xor not.
+			- **Extended Halting Proposition** ($\text{HP}$): There exists a decider $D_H(·,·)$ such that for all program $p(·)$ and inputs $(x, y)$, $D_H(p, x, y)$ decides whether $p$ halts on $(x, y)$ xor not.
 				- $\text{HP} := ∃ D_H(·,·,·), ∀ p(·,·), ∀ (x, y): [(D_H(p,x,y) = H(p,x,y)]$
 				- $H(p, x, y) :=$ “execution of program $p$ on inputs $(x, y)$ eventually halts.”
 				  id:: 67b9974a-99c9-439e-b36a-8f1bbefe9ff5
-			- **Halting Problem**: $\text{HP} = ?$
+			- **Extended Halting Problem**: $\text{HP} = ?$
 			  collapsed:: true
 				- **Resolution**: $\text{HP}$ is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem) = 0 = [U](https://en.wikipedia.org/wiki/Three-valued_logic) = (in classical logic) ⊥
 				- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
@@ -92,6 +92,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  loop_forever: while True do continue;
 						  ```
 					- Consider 2 cases of result given by $D(n_H, n_H, D)$ in the execution of $n_H(n_H, D)$:
+					  id:: 67b989a4-5854-4f75-a771-2308371cdbe5
 						- $D(n_H, n_H, D) = ⊤ ⇒ H(n_H, n_H, D) = H( \text{loop\_forever}, ∅) = ⊥$
 						- $D(n_H, n_H, D) = ⊥ ⇒ H(n_H, n_H, D) = H(\text{halt}, ∅) = ⊤$
 					- ⇒ $D(n_H, n_H, D) ≠ H(n_H, n_H, D)$, i.e. $D$ cannot decide halting status of $n_H(n_H, D)$
@@ -103,7 +104,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Throughout the history of maths, we've tried hard to manage infinities by canceling them with other infinities.
 					- Some simple infinities can be tamed down, e.g. $\lim_{n→∞}\frac{2n}{3n} = 2/3$, $H(\text{loop\_forever}, ∅) = ⊥$.
 					- But most of other infinities are wild, e.g. $∞ - ∞ =$ U, $∞/∞ =$ U, $H(n_H) =$ U, etc.
-				- The case of $H(n_H)$ is complicated by the ever increasing number of states of $n_H()$ due to its (indirect) recursions, of negation program $n_H$ and of decider $D_H$.
+				- The case of $H(n_H)$ is complicated by the ever increasing number of states of $n_H()$ due to its (indirect) recursions, of negation program $n_H$ and of decider $D_H$, as shown explicitly in the [extended HP](((67b989a4-5854-4f75-a771-2308371cdbe5))): $D_H(n_H, n_H, D_H)$.
 					- Like [busy beavers](https://en.wikipedia.org/wiki/Busy_beaver), the negation program $n_H()$ keeps extending its states infinitely, thus effectively makes any judgement of its halting status indefinite.
 				- **Resolution in Unïnfo**: $H(n_H) = ⊥$ is the meta-algorithmic answer. But this answer cannot be communicated with $n_H()$.
 					- Any oracle $D_H$ just **remains silent**, i.e. $D_H() = ∅$, when being asked by a non-oracle program like $n_H$ about such meta-algorithmic question like $D_H(n_H) = ?$.
