@@ -24,7 +24,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-02-21 Fri 14:30:04]--[2025-02-21 Fri 20:44:33] =>  06:14:29
 		  :END:
 			- Similar to the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the _negation program_ is so “pathological” that no “halting doctor” can detect if it will halt xor not.
-			- [Reduced halting problem](https://creatzyitnotes.blogspot.com/2009/10/reduced-halting-problem.html)
 			- **Simple Halting Proposition** ($\text{HP0}$): There exists a decider $D_H()$ such that for all program $p$, $D_H(p)$ decides whether $p$ halts xor not.
 				- $\text{HP0} := ∃ D_H, ∀ p: [D_H(p) = H(p)]$
 				- $H(p) :=$ “execution of program $p$ eventually halts.”
