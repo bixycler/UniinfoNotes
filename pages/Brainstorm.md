@@ -90,7 +90,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Throughout the history of maths, we've tried hard to manage infinities by canceling them with other infinities.
 					- Some simple infinities can be tamed down, e.g. $\lim_{n→∞}\frac{2n}{3n} = 2/3$, $H(\text{loop\_forever}, ∅) = ⊥$.
 					- But most of other infinities are wild, e.g. $∞ - ∞ =$ U, $∞/∞ =$ U, $H(n_H, D_H) =$ U, etc.
-				- The case of $H(n_H, D_H)$ is complicated by the ever increasing number of states of $n_H$ due to its
+				- The case of $H(n_H, D_H)$ is complicated by the ever increasing number of states of $n_H(D_H)$ due to its (indirect) recursion.
+					- Like [busy beavers](https://en.wikipedia.org/wiki/Busy_beaver), the negation program $n_H$ keeps extending its states infinitely, thus effectively makes any judgement of its halting status indefinite.
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
