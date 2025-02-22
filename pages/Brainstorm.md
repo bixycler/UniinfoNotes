@@ -62,16 +62,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇔ $\text{HP} = ⊤↔⊥  = 0 =$ [U](https://en.wikipedia.org/wiki/Three-valued_logic) $=$ (in classical logic) $⊥$
 				- **Direct Proof** of the classical solution $\text{HP} = ⊥$:
 				  id:: 6f24d15c-4e73-4c0b-b43a-99b3ba2be1e2
-					- We construct a _negation program_ $n_H$ receiving **any universal decider** $D_H$ as its input:
+					- We construct a _negation program_ $n_H$ receiving **any universal decider** $D$ as its input:
 						- ```python
-						  n_H(D_H): if D_H(n_H, D_H) then loop_forever; else halt;
+						  n_H(D): if D(n_H, D) then loop_forever; else halt;
 						  loop_forever: while True do continue;
 						  ```
-					- Consider 2 cases of result given by $D_H(n_H, H)$:
-						- $D_H(n_H, D_H) = ⊤ ⇒ H(n_H, D_H) = H( \text{loop\_forever}, ∅) = ⊥$
-						- $D_H(n_H, D_H) = ⊥ ⇒ H(n_H, D_H) = H(\text{halt}, ∅) = ⊤$
-					- ⇒ $D_H(n_H) ≠ H(n_H)$, i.e. $D_H$ cannot decide halting status of $n_H$
-					- **Conclusion**: $∀ D_H, ∃ p = n_H, ∃ x = D_H:  ¬[(D_H(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
+						- The universal decider $D$ is only required to give definite answer on any input, hence “universal”, but can decide any property of its input, not just halting status.
+						- The “universality” of $D$ is from the universal quantifiers, $∀ p(·), ∀ x$, of $\text{HP}$.
+					- Consider 2 cases of result given by $D(n_H, H)$:
+						- $D(n_H, D_H) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥$
+						- $D(n_H, D) = ⊥ ⇒ H(n_H, D) = H(\text{halt}, ∅) = ⊤$
+					- ⇒ $D(n_H) ≠ H(n_H)$, i.e. $D$ cannot decide halting status of $n_H$
+					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D_H:  ¬[(D(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
 						- This proof is a kind of [diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument) over all universal deciders, which clearly shows that no universal decider can be a halting status decider.
 						- When $H$ is an [oracle](https://en.wikipedia.org/wiki/Oracle_machine) living outside of the timeline of simple executions like `loop_forever`, $n_H(H)$ is then an oracle.
 						- If the oracle $H$ only accepts inputs from non-oracles or lower-level oracles, $H(n_H, H)$ can be undetermined (`U`) instead of ⊤ xor ⊥, and the weaker version of $\text{HP}$ with program $p$ and input $x$ restricted in [arithmetical hierarchy](https://en.wikipedia.org/wiki/Arithmetical_hierarchy) may hold.
