@@ -71,7 +71,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- The universal decider $D$ is only required to give definite answer on any input, i.e. “universal”, but can decide any property of its input, not just halting status.
 						- The “universality” of $D$ is from the universal quantifiers, $∀ p(·), ∀ x$, of $\text{HP}$.
 					- Consider 2 cases of result given by $D(n_H, H)$:
-						- $D(n_H, D_H) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥$
+						- $D(n_H, D) = ⊤ ⇒ H(n_H, D) = H( \text{loop\_forever}, ∅) = ⊥$
 						- $D(n_H, D) = ⊥ ⇒ H(n_H, D) = H(\text{halt}, ∅) = ⊤$
 					- ⇒ $D(n_H) ≠ H(n_H)$, i.e. $D$ cannot decide halting status of $n_H$
 					- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = D_H:  ¬[(D(p, x) = H(p, x)]$, i.e. $\text{HP} = ⊥$
@@ -88,8 +88,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Due to the deterministic property of the program $p$ and the bounded size of the input $x$, we tend to think that “$p(x)$ must be definitely halts xor not!” Hence, we usually think of $H$ has a  [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) function.
 				- However, the problem lurks in the _absurdity of the **infinity, ∞**,_ which cannot be definite nor deterministic anyway.
 				- Throughout the history of maths, we've tried hard to manage infinities by canceling them with other infinities.
-					- Some simple infinities can be tamed down, e.g. $\lim_{n→∞}\frac{2n}{3n} = 2/3$.
-					- But most of other infinities are wild, e.g. $∞ - ∞ = U$, $∞/∞ = U$,
+					- Some simple infinities can be tamed down, e.g. $\lim_{n→∞}\frac{2n}{3n} = 2/3$, $H(\text{loop\_forever}, ∅) = ⊥$.
+					- But most of other infinities are wild, e.g. $∞ - ∞ =$ U, $∞/∞ =$ U, $H(n_H, D_H) =$ U, etc.
+				- The case of $H(n_H, D_H)$ is complicated by the ever increasing number of states of $n_H$ due to its
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
