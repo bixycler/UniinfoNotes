@@ -368,6 +368,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 			- This unintended work was triggered from the old post [The Reduced Halting Problem](https://creatzyitnotes.blogspot.com/2009/10/reduced-halting-problem.html), which i met when trying to ((67b989a4-a041-4511-abe5-77c785ca2d67))
 		- I've just added duals of wave-particle, plant-animal, ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) to the [EffectCircle Diagram](((67b183f5-dba7-4a11-8a72-3c619e3709ea))).
+		  id:: 67bacb04-7c5c-4004-96b9-2ee237878ce6
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-02-23 Sun 16:25:44]
@@ -383,5 +384,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- And drop an entry of [its story](((67baf8fc-0343-4586-9a45-219052a747c9))) down.
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Let's put down
+		- Let's put down recent vision about the dynamic of the obop, so that i can switch to finish the work for boss William.
+		  :LOGBOOK:
+		  CLOCK: [2025-02-23 Sun 17:55:32]
+		  :END:
+			- I've been reminded about the relativity of views:  as shown in ((67b5c77d-c42c-4dc5-8d47-fd82f535177a))
+				- Various times previously, i've been deluded that when we “relax” all the curvatures to restore its straightness, ee
 		- ...
