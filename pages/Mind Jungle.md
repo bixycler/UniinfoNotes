@@ -884,7 +884,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  CLOCK: [2024-12-04 Wed 13:25:01]--[2024-12-04 Wed 20:29:40] =>  07:04:39
 				  :END:
 					- Diagram
-						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=437&h=382)
+					  id:: 67b183f5-dba7-4a11-8a72-3c619e3709ea
+						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=800)
 					- SCIFER with subtract - divide - add - multiply, and exp-log spiral
 						- subject-object (nāmarūpa) $(c, i)$
 						  → sensation ⟪ $c_k - i = c_{k+1}$ ⟫ 
@@ -896,7 +897,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  → ...
 						- Layers of sustents $s_k$ = layers of awareness = layers of log spiral
 							- $r = c - f < i$ is the distance to target, error, mismatch of the outer layer which is the intent of the inner layer $r = i'$ to look at the outer self $i = c'$.
-					- dynamic circle: position → yank → force → momentum → position → ....
+					- Dynamic circle: distribution (position) → (yank) = density → force → momentum → position → ....
 						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f'' = - f$
 						- The `exp()` function arises from the the differential equation $f' = f$
 		-

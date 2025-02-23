@@ -369,5 +369,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- This unintended work was triggered from the old post [The Reduced Halting Problem](https://creatzyitnotes.blogspot.com/2009/10/reduced-halting-problem.html), which i met when trying to ((67b989a4-a041-4511-abe5-77c785ca2d67))
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- ∞
+		- I've just added duals of wave-particle, plant-animal, ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) to the [EffectCircle Diagram](((67b183f5-dba7-4a11-8a72-3c619e3709ea))).
+			- also added spatial components: distribution, density, curvature.
 		- ...

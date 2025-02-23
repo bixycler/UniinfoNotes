@@ -8,7 +8,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
 	  collapsed:: true
-		- halt
+		- obop
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  collapsed:: true
 		  ^ **Name & Term** search
@@ -35,7 +35,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- \|===
+		- EffectCircle
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
 		  whole-word:: false
