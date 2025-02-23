@@ -373,23 +373,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-02-23 Sun 16:25:44]
 		  :END:
 			- also added spatial components: distribution, density, curvature.
+				- Oh, my recent addition of “spatial distribution” to the dynamic circle is just a recurrence: In [a comment on DynamicsPyramid](((67baf71f-a1dc-4f9e-b62b-f150d7ced6b0))), i did clearly wrote “... distribute energy, thus 'energy field'”.
 			- and moved contents of [a previous brainstorm](((67b5c778-71d6-4f58-9dd4-36a719bd85f0))) to ((67b183f5-1cca-4473-917e-60c644dd5466)).
 			  :LOGBOOK:
 			  CLOCK: [2025-02-23 Sun 16:50:30]
 			  :END:
 			- Where should i place the [DynamicsPyramid Diagram](https://docs.google.com/drawings/d/18PRcRgeFegJ9NEnQwJLdd1LsROhQKDJIA1I0NMMHl_o/)?
 				- OK, now just (temporarily) put it right inside the dynamic circle!
-				- Wow, this diagram was drafted at the very early phase of Unithread when i meditated on Wave Equation & Einstein's Special Relativity. The first paper draft was... maybe before 2015.
-				- On 2020 Aug 17th, i put it down to Google Drawings, just to add this comment:
-					- > The unithread is [directed (bent)](((67baf59b-2da2-497d-b788-8b509715fde0))) around by the constraints set by equations (=)s AKA. “conscious points”, “contact points”
-					- id:: 67baf59b-2da2-497d-b788-8b509715fde0
-					  > 3blue1brown gives an excellent "mirror reflection" analogy of the momentum conservation: [How colliding blocks act like a beam of light...to compute pi.](https://youtu.be/brU5yLm9DZM)
-					  And it shows that light and the unithread is intrinsically straight (as in "flat torus").
-					- Note that in those days, i'd not coined the term ((66ab75a1-f4a0-4bab-a002-8e573546623a)) yet, thus “unithread” is used instead.
-					- id:: 67baf71f-a1dc-4f9e-b62b-f150d7ced6b0
-					  > Space is the place to store and distribute energy, thus "energy field".
-					  Here's also where waves emerge and force applied, hence also named wave/force field.
-				-
+				- And drop an entry of its story down.
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...

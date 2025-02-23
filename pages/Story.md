@@ -506,4 +506,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- From there, i was going on to contemplate various aspects of the the stagger, meta, abstract, vacancy, etc.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- DOING About the good old ((67baf139-aa0c-436e-9e21-983323833c71))
+		  id:: 67baf8fc-0343-4586-9a45-219052a747c9
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-23 Sun 17:32:10]
+		  :END:
+			- ...
+			- This diagram was drafted at the very early phase of Unithread when i meditated on Wave Equation & Einstein's Special Relativity. The first paper draft was... maybe before 2015.
+			- On 2020 Aug 17th, i put it down to Google Drawings, just to add this comment:
+				- > The unithread is [directed (bent)](((67baf59b-2da2-497d-b788-8b509715fde0))) around by the constraints set by equations (=)s AKA. “conscious points”, “contact points”
+				- id:: 67baf59b-2da2-497d-b788-8b509715fde0
+				  > 3blue1brown gives an excellent "mirror reflection" analogy of the momentum conservation: [How colliding blocks act like a beam of light...to compute pi.](https://youtu.be/brU5yLm9DZM)
+				  And it shows that light and the unithread is intrinsically straight (as in "flat torus").
+				- Note that in those days, i'd not coined the term ((66ab75a1-f4a0-4bab-a002-8e573546623a)) yet, thus “unithread” is used instead.
+				- id:: 67baf71f-a1dc-4f9e-b62b-f150d7ced6b0
+				  > Space is the place to store and distribute energy, thus "energy field".
+				  Here's also where waves emerge and force applied, hence also named wave/force field.
 		- ...

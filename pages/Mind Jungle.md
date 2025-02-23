@@ -909,6 +909,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Operating mechanism: integration over time
 						- Universe: spatial distribution = distribution of point masses = energy field = wave field
 						- Dynamics Pyramid
+						  id:: 67baf139-aa0c-436e-9e21-983323833c71
 							- Diagram
 								- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
 					- Emergence of `exp()`, “negativity” `-`, and “imaginary unit” $i$ through effect circles
