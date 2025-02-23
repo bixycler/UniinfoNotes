@@ -384,10 +384,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- And drop an entry of [its story](((67baf8fc-0343-4586-9a45-219052a747c9))) down.
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Let's put down recent vision about the dynamic of the obop, so that i can switch to finish the work for boss William.
+		- Let's put down recent visions about the dynamic of the obop, so that i can switch to finish the work for boss William.
 		  :LOGBOOK:
 		  CLOCK: [2025-02-23 Sun 17:55:32]
 		  :END:
-			- I've been reminded about the relativity of views:  as shown in ((67b5c77d-c42c-4dc5-8d47-fd82f535177a))
-				- Various times previously, i've been deluded that when we “relax” all the curvatures to restore its straightness, ee
+			-
+			- I've been reminded about the _**reciprocal** relation between subject & object in all views_, as shown in ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)).
+			  collapsed:: true
+				- Various times previously, i've been deluded that when we “relax” all the curvatures of the world to restore its straightness, everything will be straight, flat, no more force!
+				- No! That's plain wrong! As the subject straightens the world of objects, the subject itself will be curved accordingly.
+				- In other words, the total curvature is preserved!
 		- ...
