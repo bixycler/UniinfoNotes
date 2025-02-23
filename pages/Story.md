@@ -526,4 +526,36 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  Here's also where waves emerge and force applied, hence also named wave/force field.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- Recent visions about the dynamic of the obop
+		  id:: 67bb3a7a-27a9-42f0-a40b-9b8293103524
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-23 Sun 22:11:01]--[2025-02-23 Sun 22:12:51] =>  00:01:50
+		  :END:
+			- The uniform linear motion of the ((67a98760-71fa-4033-9c42-f3025d632d04)) is just an abstraction at the macro view, just the trailing history of the obop, the extensional product of the interunion between intent circles.
+			  collapsed:: true
+				- At the micro level, the obop “rolls on” with various interactive forces and curvatures. However the total of these forces is 0, hence no force is visible at the macro level.
+				- A uniform obop is just a round circle with intrinsic curvature for **rolling motion**, but all curvatures are canceled out for a uniform linear motion of the center.
+				- In brief, it's **rolling uniformly**, not sliding!
+				- This intrinsic force has been observed and warned from the very early time of Uniinfo, but later on, when focusing on the interunion operation in Unithread, somehow i dismissed it for the sake of simplicity.
+			- The micro-interactions within the obop, carried out by micro-obops, are the ones that mediate changes between levels of abstractions: derivatives in dynamics, layers of sustents in interunion.
+			- The simplest micro-obop is the [Ω-thread loop](((67b183f5-f8fe-4b88-99c1-530fec38ae93))), the “bump” of thread like the shape of letter “capital Omega” `Ω`, the [soliton wave-packet](https://en.wikipedia.org/wiki/Soliton), the _non-touching_ [Newton's cradle](https://en.wikipedia.org/wiki/Newton%27s_cradle).
+			  collapsed:: true
+				- The “non-touching Newton's cradle” is not a cradle with hanging strings, but a frictionless straight track of balls placed in separate positions. When the cue ball (ball #0) is launched, it will collide with and transfer all momentum to ball #1, then ball #1 will collide with transfer all momentum to ball #2 , and so on.
+				- Here's a short video for an array of billiard balls on the table.
+				  collapsed:: true
+					- {{video https://www.youtube.com/shorts/Oh6Q00L8pjs}}
+				- Here's a short video for a chain reaction (domino effect) with balls
+				  collapsed:: true
+					- {{video https://youtube.com/shorts/yn6-1CjwgTk}}
+					- Another snake of chain reaction balls
+					  {{video https://youtube.com/shorts/xxDe7zB1duM}}
+				- Here's a short video for stop-motion of “chain reaction with colored balls 🤔”
+				  collapsed:: true
+					- {{video https://youtube.com/shorts/6gixzJygr2E}}
+			- I've been reminded about the _**reciprocal** relation between subject & object in all views_, as shown in ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)).
+			  collapsed:: true
+				- Various times previously, i've been deluded that when we “relax” all the curvatures of the world to restore its straightness, everything will be straight, flat, no more force!
+				- No! That's plain wrong! As the subject straightens the world of objects, the subject itself will be curved accordingly.
+				- In other words, the total curvature is preserved!
 		- ...
