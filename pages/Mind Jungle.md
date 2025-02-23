@@ -903,11 +903,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- View cone: spatial distribution → density → curvature
 							- This is the characteristic of waves, plants, networks.
 							- Observing mechanism: differentiation in space
-						- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a))
+						- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)) is the [wave equation](https://en.wikipedia.org/wiki/Wave_equation)
 						- Action cone: force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
 							- This is the characteristic of particles, animals.
 							- Operating mechanism: integration over time
-						- Universe: spatial distribution = distribution of point masses
+						- Universe: spatial distribution = distribution of point masses = energy field = wave field
+						- Dynamics Pyramid
+							- Diagram
+								- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
 					- Emergence of `exp()`, “negativity” `-`, and “imaginary unit” $i$ through effect circles
 						- The `exp()` function arises from the the differential equation $f' = f$
 						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f'' = - f$

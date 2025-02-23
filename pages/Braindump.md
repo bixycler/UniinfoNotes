@@ -378,4 +378,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :LOGBOOK:
 			  CLOCK: [2025-02-23 Sun 16:50:30]
 			  :END:
+			- Where should i place the [DynamicsPyramid Diagram](https://docs.google.com/drawings/d/18PRcRgeFegJ9NEnQwJLdd1LsROhQKDJIA1I0NMMHl_o/)?
+				- OK, now just (temporarily) put it right inside the dynamic circle!
 		- ...
