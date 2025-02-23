@@ -380,7 +380,16 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Where should i place the [DynamicsPyramid Diagram](https://docs.google.com/drawings/d/18PRcRgeFegJ9NEnQwJLdd1LsROhQKDJIA1I0NMMHl_o/)?
 				- OK, now just (temporarily) put it right inside the dynamic circle!
 				- Wow, this diagram was drafted at the very early phase of Unithread when i meditated on Wave Equation & Einstein's Special Relativity. The first paper draft was... maybe before 2015.
-				- In 2020, i put it down to Google Drawings.
+				- On 2020 Aug 17th, i put it down to Google Drawings, just to add this comment:
+					- > The unithread is [directed (bent)](((67baf59b-2da2-497d-b788-8b509715fde0))) around by the constraints set by equations (=)s AKA. “conscious points”, “contact points”
+					- id:: 67baf59b-2da2-497d-b788-8b509715fde0
+					  > 3blue1brown gives an excellent "mirror reflection" analogy of the momentum conservation: [How colliding blocks act like a beam of light...to compute pi.](https://youtu.be/brU5yLm9DZM)
+					  And it shows that light and the unithread is intrinsically straight (as in "flat torus").
+					- Note that in those days, i'd not coined the term ((66ab75a1-f4a0-4bab-a002-8e573546623a)) yet, thus “unithread” is used instead.
+					- id:: 67baf71f-a1dc-4f9e-b62b-f150d7ced6b0
+					  > Space is the place to store and distribute energy, thus "energy field".
+					  Here's also where waves emerge and force applied, hence also named wave/force field.
+				-
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
