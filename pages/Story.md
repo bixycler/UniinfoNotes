@@ -514,6 +514,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- ...
 			- This diagram was drafted at the very early phase of Unithread when i meditated on Wave Equation & Einstein's Special Relativity. The first paper draft was... maybe before 2015.
+			- The [action S](https://en.wikipedia.org/wiki/Action_(physics)) in the middle of the bottom was new to me at that time. Its position in the pyramid, has shown me its importance, no less than the [principle of least action](https://en.wikipedia.org/wiki/Principle_of_stationary_action).
+			- Later on, after 2015 (while my mother's illness had got worse), i was used to meditate the corresponding of this pyramid with the [5 aggregates](https://en.wikipedia.org/wiki/Skandha).
 			- On 2020 Aug 17th, i put it down to Google Drawings, just to add this comment:
 				- > The unithread is [directed (bent)](((67baf59b-2da2-497d-b788-8b509715fde0))) around by the constraints set by equations (=)s AKA. “conscious points”, “contact points”
 				- id:: 67baf59b-2da2-497d-b788-8b509715fde0
