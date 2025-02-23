@@ -31,10 +31,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Bridge: innermost bridge between inward & outward flow = equal = driver = switcher/chooser = free will
 					- Fineness of this bridge = 1/size of self = degree of freedom
 			- Stretching out by time, that transcycling becomes a double cone of ((66725144-6bc9-4c9f-ba48-2cef02651e52)) ~ [wave equation](https://en.wikipedia.org/wiki/Wave_equation) ~ [effect circle](((674ff584-00e3-40d8-9b77-21e9dca899dd))) = ((67b183f5-1cca-4473-917e-60c644dd5466)).
-				- View cone: spatial distribution → density → curvature
-				- Obop point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a))
-				- Action cone: force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
-				- Universe: spatial distribution = distribution of point masses
 		- [?] What's the right term for the most basic operation: traversal, ((67a98760-71fa-4033-9c42-f3025d632d04)), sprolling, ...
 		  id:: 678b7762-1187-4330-93cb-7a62e14467a8
 		  collapsed:: true

@@ -900,9 +900,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- dynamic circle
 					  id:: 67b183f5-1cca-4473-917e-60c644dd5466
 					  distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
-						- Emergence of `exp()`,
-						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f'' = - f$
+						- View cone of wave: spatial distribution → density → curvature
+							-
+						- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a))
+						- Action cone of particle: force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
+						- Universe: spatial distribution = distribution of point masses
+					- Emergence of `exp()`, “negativity” `-`, and “imaginary unit” $i$ through effect circles
 						- The `exp()` function arises from the the differential equation $f' = f$
+						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f'' = - f$
 		-
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
