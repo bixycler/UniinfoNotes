@@ -389,10 +389,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-02-23 Sun 17:55:32]
 		  :END:
 			- The uniform linear motion of the ((67a98760-71fa-4033-9c42-f3025d632d04)) is just an abstraction at the macro view, just the trailing history of the obop, the extensional product of the interunion between intent circles.
+			  collapsed:: true
 				- At the micro level, the obop “rolls on” with various interactive forces and curvatures. However the total of these forces is 0, hence no force is visible at the macro level.
 				- A uniform obop is just a round circle with intrinsic curvature for **rolling motion**, but all curvatures are canceled out for a uniform linear motion of the center.
 				- In brief, it's **rolling uniformly**, not sliding!
 				- This intrinsic force has been observed and warned from the very early time of Uniinfo, but later on, when focusing on the interunion operation in Unithread, somehow i dismissed it for the sake of simplicity.
+			- The micro-interactions within the obop, carried out by micro-obops, are the ones that mediate changes between levels of abstractions: derivatives in dynamics, layers of sustents in interunion.
+			- The simplest micro-obop is the [Ω-thread loop](((67b183f5-f8fe-4b88-99c1-530fec38ae93))), the “bump” of thread like the shape of letter “capital Omega” `Ω`, the [soliton wave-packet](https://en.wikipedia.org/wiki/Soliton),
 			- I've been reminded about the _**reciprocal** relation between subject & object in all views_, as shown in ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)).
 			  collapsed:: true
 				- Various times previously, i've been deluded that when we “relax” all the curvatures of the world to restore its straightness, everything will be straight, flat, no more force!

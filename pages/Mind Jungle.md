@@ -3044,6 +3044,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 67a98760-71fa-4033-9c42-f3025d632d04
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a98760-71fa-4033-9c42-f3025d632d04)) is the movement of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) on its ((66ab75a1-f4a0-4bab-a002-8e573546623a)) thanks to its ((66f3e588-9094-45af-9dff-2225c3ac39ab)). In general, there are 3 parts of this movement: thread input, rotating inside, and thread output. Transcycling is the “effect” in ((667bef22-b272-4a7d-b613-3f1ed1a47329)) of the Ω-thread. In Unithread view, all [bodies](((66c810a0-9861-4787-bdcf-1378219332be))) in the worlds, from celestial bodies, organisms (thread = food & info), to simple physical objects (thread = energy), are "living" (existing) by this movement. The difference is just how complicated the "rotation" inside that body is.
 					- Illustration
+					  id:: 67b183f5-f8fe-4b88-99c1-530fec38ae93
 					  collapsed:: true
 						- ![RollingLoop](https://docs.google.com/drawings/d/e/2PACX-1vTc1vvF4Bghp7a62iW_QccyZaVtiJR9eD8d44eIxfqCeXof9NY4tvKP179l3tfLH4M7mLZKQXBqWmKc/pub?w=473&h=123)
 				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “transcycling” = “translation + cycling”
