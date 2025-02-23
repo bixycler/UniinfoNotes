@@ -900,10 +900,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- dynamic circle
 					  id:: 67b183f5-1cca-4473-917e-60c644dd5466
 					  distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
-						- View cone of wave: spatial distribution → density → curvature
-							-
+						- View cone: spatial distribution → density → curvature
+							- This is the characteristic of waves, plants, networks.
+							- Observing mechanism: differentiation in space
 						- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a))
-						- Action cone of particle: force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
+						- Action cone: force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
+							- This is the characteristic of particles, animals.
+							- Operating mechanism: integration over time
 						- Universe: spatial distribution = distribution of point masses
 					- Emergence of `exp()`, “negativity” `-`, and “imaginary unit” $i$ through effect circles
 						- The `exp()` function arises from the the differential equation $f' = f$

@@ -374,4 +374,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-02-23 Sun 16:25:44]
 		  :END:
 			- also added spatial components: distribution, density, curvature.
+			- and moved contents of [a previous brainstorm](((67b5c778-71d6-4f58-9dd4-36a719bd85f0))) to ((67b183f5-1cca-4473-917e-60c644dd5466)).
+			  :LOGBOOK:
+			  CLOCK: [2025-02-23 Sun 16:50:30]
+			  :END:
 		- ...
