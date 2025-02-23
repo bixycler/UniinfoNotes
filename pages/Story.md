@@ -504,18 +504,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- They were just the abstract, the meta, the thoughts which didn't match the external reality right in front of my eyes.
 			- With the staggered sidewalk tile in front my eyes, i saw the staggered intents inside are just the remaining momentum.
 			- From there, i was going on to contemplate various aspects of the the stagger, meta, abstract, vacancy, etc.
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING About the good old ((67baf139-aa0c-436e-9e21-983323833c71))
+		- About the good old ((67baf139-aa0c-436e-9e21-983323833c71))
 		  id:: 67baf8fc-0343-4586-9a45-219052a747c9
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-02-23 Sun 17:32:10]
+		  CLOCK: [2025-02-23 Sun 17:32:10]--[2025-02-23 Sun 17:48:08] =>  00:15:58
 		  :END:
 			- ...
-			- This diagram was drafted at the very early phase of Unithread when i meditated on Wave Equation & Einstein's Special Relativity. The first paper draft was... maybe before 2015.
+			- This diagram was drafted at the very early phase of Unithread when i meditated on Wave Equation & Einstein's Special Relativity. The first paper draft was... i'm not sure but must be before 2015.
 			- The [action S](https://en.wikipedia.org/wiki/Action_(physics)) in the middle of the bottom was new to me at that time. Its position in the pyramid, has shown me its importance, no less than the [principle of least action](https://en.wikipedia.org/wiki/Principle_of_stationary_action).
-			- Later on, after 2015 (while my mother's illness had got worse), i was used to meditate the corresponding of this pyramid with the [5 aggregates](https://en.wikipedia.org/wiki/Skandha).
+			- Later on, after 2015 (while my mother's illness had got worse), i was used to meditate the corresponding of this pyramid with the [5 aggregates](https://en.wikipedia.org/wiki/Skandha)... but always with some mismatch!
+				- Only recently did i find a better match between the 5 aggregates with the [effect circle](((67b183f5-dba7-4a11-8a72-3c619e3709ea))) & ((67b183f5-1cca-4473-917e-60c644dd5466)).
 			- On 2020 Aug 17th, i put it down to Google Drawings, just to add this comment:
 				- > The unithread is [directed (bent)](((67baf59b-2da2-497d-b788-8b509715fde0))) around by the constraints set by equations (=)s AKA. “conscious points”, “contact points”
 				- id:: 67baf59b-2da2-497d-b788-8b509715fde0
@@ -525,4 +524,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- id:: 67baf71f-a1dc-4f9e-b62b-f150d7ced6b0
 				  > Space is the place to store and distribute energy, thus "energy field".
 				  Here's also where waves emerge and force applied, hence also named wave/force field.
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
