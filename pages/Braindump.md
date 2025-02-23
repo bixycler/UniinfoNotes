@@ -397,6 +397,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- The micro-interactions within the obop, carried out by micro-obops, are the ones that mediate changes between levels of abstractions: derivatives in dynamics, layers of sustents in interunion.
 			- The simplest micro-obop is the [Ω-thread loop](((67b183f5-f8fe-4b88-99c1-530fec38ae93))), the “bump” of thread like the shape of letter “capital Omega” `Ω`, the [soliton wave-packet](https://en.wikipedia.org/wiki/Soliton), the _non-touching_ [Newton's cradle](https://en.wikipedia.org/wiki/Newton%27s_cradle).
 				- The “non-touching Newton's cradle” is not a cradle with hanging strings, but a frictionless straight track of balls placed in separate positions. When the cue ball (ball #0) is launched, it will collide with and transfer all momentum to ball #1, then ball #1 will collide with transfer all momentum to ball #2 , and so on.
+				- Here's a short video for an array of billiard balls on the table.
+				  collapsed:: true
+					- {{video https://www.youtube.com/shorts/Oh6Q00L8pjs}}
+				- Here's a short video for a chain reaction (domino effect) with balls
+				  collapsed:: true
+					- {{video https://youtube.com/shorts/yn6-1CjwgTk}}
+					- Another snake of chain reaction balls
+					  {{video https://youtube.com/shorts/xxDe7zB1duM}}
 			- I've been reminded about the _**reciprocal** relation between subject & object in all views_, as shown in ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)).
 			  collapsed:: true
 				- Various times previously, i've been deluded that when we “relax” all the curvatures of the world to restore its straightness, everything will be straight, flat, no more force!
