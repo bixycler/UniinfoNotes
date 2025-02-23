@@ -524,8 +524,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- id:: 67baf71f-a1dc-4f9e-b62b-f150d7ced6b0
 				  > Space is the place to store and distribute energy, thus "energy field".
 				  Here's also where waves emerge and force applied, hence also named wave/force field.
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- Recent visions about the dynamic of the obop
 		  id:: 67bb3a7a-27a9-42f0-a40b-9b8293103524
 		  collapsed:: true
@@ -558,4 +556,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Various times previously, i've been deluded that when we “relax” all the curvatures of the world to restore its straightness, everything will be straight, flat, no more force!
 				- No! That's plain wrong! As the subject straightens the world of objects, the subject itself will be curved accordingly.
 				- In other words, the total curvature is preserved!
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...

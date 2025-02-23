@@ -382,10 +382,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Where should i place the [DynamicsPyramid Diagram](https://docs.google.com/drawings/d/18PRcRgeFegJ9NEnQwJLdd1LsROhQKDJIA1I0NMMHl_o/)?
 				- OK, now just (temporarily) put it right inside the dynamic circle!
 				- And drop an entry of [its story](((67baf8fc-0343-4586-9a45-219052a747c9))) down.
-	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Let's put down ((67bb3a7a-27a9-42f0-a40b-9b8293103524)), so that i can switch to finish the work for boss William.
 		  :LOGBOOK:
 		  CLOCK: [2025-02-23 Sun 17:55:32]
 		  :END:
+	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
