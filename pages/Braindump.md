@@ -405,6 +405,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 					- {{video https://youtube.com/shorts/yn6-1CjwgTk}}
 					- Another snake of chain reaction balls
 					  {{video https://youtube.com/shorts/xxDe7zB1duM}}
+				- Here's a short video for stop-motion of “chain reaction with colored balls 🤔”
+				  collapsed:: true
+					- {{video https://youtube.com/shorts/6gixzJygr2E}}
 			- I've been reminded about the _**reciprocal** relation between subject & object in all views_, as shown in ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)).
 			  collapsed:: true
 				- Various times previously, i've been deluded that when we “relax” all the curvatures of the world to restore its straightness, everything will be straight, flat, no more force!
