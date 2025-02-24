@@ -556,7 +556,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Various times previously, i've been deluded that when we “relax” all the curvatures of the world to restore its straightness, everything will be straight, flat, no more force!
 				- No! That's plain wrong! As the subject straightens the world of objects, the subject itself will be curved accordingly, as shown in the [unwrapped planes of the polar plane](((67b541c9-3b4e-4429-8c35-9afaf9f434bf))).
 				- In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the more curved the intent, the straighter the extent, and their total curvature is 1 (content).
-				- The
+				- The tangent thread is just an extension of the circles rotating. It “feels straight” or actually “curvature-free” just because the curvatures of the intent circles are abstracted.
+					- The curvature-free linear space of tangent thread is just to express the conservation of content, while the cancellation of arrows cannot be expressed there due to
 				- In other words, the total curvature is preserved!
 				  id:: 67bbde65-182a-4e2d-bdde-acf9b5ec124f
 			- Curvature is just another intrisic: intrisic curvature = intrinsic static + intrinsic dynamic = intrinsic imbalance
