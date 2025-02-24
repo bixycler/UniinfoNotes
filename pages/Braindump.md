@@ -388,5 +388,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- From the [conservation of curvature](((67bbde65-182a-4e2d-bdde-acf9b5ec124f))), from yesterday night to today morning, i've been contemplating the curvature & straightness (linearity) and see a long road ahead... Maybe i should start from an entry of curvature in the Mind Jungle.
+		- From the [conservation of curvature](((67bbde65-182a-4e2d-bdde-acf9b5ec124f))), from yesterday night to today morning, i've been contemplating the curvature & straightness (linearity) and see a long road ahead... Maybe i should start from an entry of ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) in the Mind Jungle.
 		- ...

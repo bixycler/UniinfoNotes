@@ -554,15 +554,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- circular
 		  id:: 66e41705-54b1-4677-a595-fd01cb88a4fb
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the perfect shape of [geometrical circle](https://en.wikipedia.org/wiki/Circle), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is abstracted to be the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of any closed ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)). To be precise, this abstraction should be called ((66ab675b-2778-4f51-80ad-20a8f6988691)), but we usually call it "circle" as an abuse of terminology. The true circle is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) which [degenerates](https://en.wikipedia.org/wiki/Degenerate_energy_levels) into all nonround loops via distortion. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of all forms.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the perfect shape of [geometrical circle](https://en.wikipedia.org/wiki/Circle), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is abstracted to be the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of any closed ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)). To be precise, this abstraction should be called ((66ab675b-2778-4f51-80ad-20a8f6988691)), but in Unïnfo we usually call it “circle” as an abuse of terminology. The true circle is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) which [degenerates](https://en.wikipedia.org/wiki/Degenerate_energy_levels) into all nonround loops via distortion. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of all forms.
 		- cycle
 		  id:: 66ab675b-2778-4f51-80ad-20a8f6988691
-		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99))
 			- loop
 			  id:: 66ab6761-b62d-486b-bd15-44a4ecee8a99
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab675b-2778-4f51-80ad-20a8f6988691))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab675b-2778-4f51-80ad-20a8f6988691)) does not require to be ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) like the [geometrical circle](https://en.wikipedia.org/wiki/Circle). The term "cycle" is usually used for the form of time, while the term ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) is usually used for the form of objects in space.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab675b-2778-4f51-80ad-20a8f6988691)) does not require to be ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) like the [geometrical circle](https://en.wikipedia.org/wiki/Circle). The term “cycle” is usually used for the form of time, while the term ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) is usually used for the form of objects in space.
 		- Symbols: small ○, large ◯
 		- round
 		  id:: 66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f
@@ -580,6 +579,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 6716110f-c736-43d2-a8e8-f2d6d163bd4d
 			- radius
 			  id:: 670ce8c2-8c54-42c6-84cd-93703c1fa60f
+		- curvature
+		  id:: 67bc1f83-d9c4-4ee0-ac61-0de196425208
 	- ## equal
 	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
 	  collapsed:: true
