@@ -556,6 +556,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- No! That's plain wrong! As the subject straightens the world of objects, the subject itself will be curved accordingly, as shown in the [unwrapped planes of the polar plane](((67b541c9-3b4e-4429-8c35-9afaf9f434bf))).
 				- In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the more curved the intent, the straighter the extent, and their total curvature is 1 (content).
 				- In other words, the total curvature is preserved!
+				  id:: 67bbde65-182a-4e2d-bdde-acf9b5ec124f
 			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
