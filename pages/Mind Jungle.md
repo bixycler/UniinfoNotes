@@ -574,7 +574,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Formulae:
 				- $κ = dφ/ds = ω/v = 1/r$ for the ratio between turning
 				  id:: 67bc5689-d4f1-4136-b775-92847ddd02f8
-					- This is the firstthe [first Frenet–Serret formula](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas)
+					- This is the [first Frenet–Serret formula](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas): $d {\bf T}/ds = κ⋅{\bf N}$.
 				- $ds_i/ds_o = 1 - κ⋅w$ for the ratio between inside arc $s_i$ and outside arc $s_o$ separted by width $w$.
 		- ### round
 		  id:: 66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f
