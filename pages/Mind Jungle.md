@@ -578,6 +578,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- $κ = (\sin θ)/h = \lim_{h→0}θ/h$ for an upright wheel of height $h$ slanting an angle $θ$ and its axis pointing to the center of the osculating circle.
 						- This has the same form as the $dφ/ds$ formula, because ${\bf h}$ is just the direction vector ${\bf T}$ turned up 90° and scaled by $h$.
 				- $ds_i/ds_o = 1 - κ⋅w$ for the ratio between inside arc $s_i$ and outside arc $s_o$ separted by width $w$.
+				- [?] Relation to the [refraction](https://en.wikipedia.org/wiki/Refraction)?
 		- ### round
 		  id:: 66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)) is ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) when every point in that shape has the same distance, called ((670ce8c2-8c54-42c6-84cd-93703c1fa60f)), to a fixed point called ((66ab7477-c060-4d07-ab13-bc3d11246854)), i.e. it has [circular symetry](https://en.wikipedia.org/wiki/Circular_symmetry). A round cycle is a perfect and ((66e3ed78-8815-4dcc-964c-5bc8325405dd)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), i.e. a **true circle**.
