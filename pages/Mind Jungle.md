@@ -920,8 +920,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Diagram
 							  collapsed:: true
 								- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
-					- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles
-						- The `exp()` function arises from the the differential equation $f' = f$.
+					- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
+						- Let $j_n$ be the new unit arising from $n$-order sel
+						- The `exp()` function arises from the the differential equation $f' = f ⇒ \sqrt[2]{1}$.
 						- The negative unit $-1$ arises from the the differential equation $f'' = f$.
 						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f^{(4)} = f$, or $f'' = - f$.
 		-
