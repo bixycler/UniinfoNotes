@@ -572,7 +572,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 67bc1f83-d9c4-4ee0-ac61-0de196425208
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the reciprocal of its ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)).
 			- Formulae:
-				- $κ = dφ/ds = ω/v = 1/r$ for the ratio between turning
+				- $κ = dφ/ds = ω/v = 1/r$ for the ratio between steering velocity $ω = dφ/dt$ and longitudinal velocity $v = ds/dt$.
 				  id:: 67bc5689-d4f1-4136-b775-92847ddd02f8
 					- This is the [first Frenet–Serret formula](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas): $d {\bf T}/ds = κ⋅{\bf N}$.
 				- $ds_i/ds_o = 1 - κ⋅w$ for the ratio between inside arc $s_i$ and outside arc $s_o$ separted by width $w$.
