@@ -25,6 +25,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  CLOCK: [2024-12-12 Thu 11:35:12]--[2024-12-16 Mon 20:55:24] =>  105:20:12
 	  :END:
 		- Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane
+		  id:: 67b541c9-3b4e-4429-8c35-9afaf9f434bf
 		  collapsed:: true
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
 				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
@@ -41,6 +42,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				  CLOCK: [2024-12-16 Mon 20:53:41]--[2024-12-16 Mon 20:53:42] =>  00:00:01
 				  :END:
 				- Terminology notes:
+				  collapsed:: true
 					- In different fields, there are different sets of terms: (radial, transverse ~ tangential, normal) in polar calculus ~ (radial, tangential, longitudinal) in wood anatomy ~ (radial, tangential, axial) in cylindrical analysis
 					  collapsed:: true
 						- wood directions
