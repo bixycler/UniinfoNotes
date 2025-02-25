@@ -390,6 +390,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- From the [conservation of curvature](((67bbde65-182a-4e2d-bdde-acf9b5ec124f))), from yesterday night to today morning, i've been contemplating the curvature & straightness (linearity) and see a long road ahead... Maybe i should start from an entry of ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) in the Mind Jungle.
 			- I just remember [my formula of curvature ](((67bc5689-d4f1-4136-b775-92847ddd02f8))) $c = dφ/ds$ from high school 9th or 10th grade. There, i used the symbol $c$ for both English “curve” and Vietnamese “cong”. I'd thought that it was my "new concept" until i saw the definition of $κ = 1/r$ in some book.
+			- Note: the [emergence of negativity & imaginarity](((67bbde62-70fc-4d3d-9f65-dcea280db516))) was a rediscovery when i contemplated about , as a note on Telegram on 2023 Feb 21st.
 		- When writing some long descriptions of “dynamical system” vs. “dynamic system”, i'm struck by this:
 		  :LOGBOOK:
 		  CLOCK: [2025-02-25 Tue 11:45:17]
