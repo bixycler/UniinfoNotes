@@ -14,6 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  Action of derivative distribution $T'$ on test function $φ$ is minus action of original distribution $T$ on derivative of test function $φ'$.
 			- Spacetime in General Relativity
 				- [Einstein field equation](https://en.wikipedia.org/wiki/Einstein_field_equations)
+				  Distribution of energy ($T_{μν}$) $  $ distribution of space ($g_{μν}$)
 				  $κ T_{μν} = (Λ - \frac{1}{2} R) g_{μν} + R_{μν}$
 					- Tensors
 						- $T_{μν}$: [Stress–energy tensor](https://en.wikipedia.org/wiki/Stress%E2%80%93energy_tensor) representing the distribution of matter and energy
