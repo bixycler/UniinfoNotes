@@ -574,14 +574,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-02-25 Tue 11:39:41]
 		  :END:
-			- Constructions like “call D N”, “name D N”, “consider D N” are good for a short “D” but not for a “D” with a long description, e.g. 
-			  > We _call_ a system whose phase space is governed by a given law even if the system itself is not moving a **dynamical system**.
+			- Constructions like “call D N”, “name D N”, “consider D N” are good for a short “D” but very confusing for a long description “D”, e.g. 
+			  > We _call_ a system whose phase space is governed by laws of dynamics even if the system itself is not moving a **dynamical system**.
 			- The name “N” can easily be lost after such a long description “D”.
 			- Copilot rephrased it with if/when clause:
-			  > We call a system a **dynamical system** when its phase space is governed by a given law even if the system itself is not moving.
+			  > We call a system a **dynamical system** _when_ its phase space is governed by laws of dynamics even if the system itself is not moving.
 			- Or better with passive voice:
-			  > A system whose phase space is governed by a given law even if the system itself is not moving is _called_ a **dynamical system**.
+			  > A system whose phase space is governed by laws of dynamics even if the system itself is not moving is _called_ a **dynamical system**.
 			- Or simply use a direct description:
-			  > A **dynamical system** _is_ a system whose phase space is governed by a given law even if the system itself is not moving.
-			- Instead, we can use other constructions like “refer to D as N”, “regard D as N”, etc.
+			  > A **dynamical system** _is_ a system whose phase space is governed by laws of dynamics even if the system itself is not moving.
+			- Instead, we can use other constructions like “refer to D as N”, “regard D as N”, “consider D to be N”, etc.
+			- Actually, i've used the old-fashioned “consider D as N” throughout my docs.
+				- Old-fashion: Merriam-Webster's Concise Dictionary of English Usage: "[consider] as constructions are perfectly idiomatic but are not as common in recent use as they have been in the past. Nonetheless, they are still in use and are standard."
 		- ...
