@@ -575,7 +575,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-02-25 Tue 11:39:41]
 		  :END:
 			- Constructions like “call D N”, “name D N”, “consider D N” are good for a short “D” but very confusing for a long description “D”, e.g. 
-			  > We _call_ a system whose phase space is governed by laws of dynamics even if the system itself is not moving a **dynamical system**.
+			  > We _call_ a system whose state space is governed by laws of dynamics even if the system itself is not moving a **dynamical system**.
 			- The name “N” can easily be lost after such a long description “D”.
 			- Copilot rephrased it with if/when clause:
 			  > We call a system a **dynamical system** _when_ its phase space is governed by laws of dynamics even if the system itself is not moving.
