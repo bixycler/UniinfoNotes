@@ -5,6 +5,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ...
+		- The notion of “distribution of space” in Unithread has been formalized as [Schwartz distribution](https://en.wikipedia.org/wiki/Distribution_(mathematics)) with action on a test function projecting the whole test function into a number, usually through integration.
+		  id:: 67bda37c-7085-4a71-b5bf-6c4b54b3abdd
+		  collapsed:: true
+			- Example of distributions: Heaviside step function $H(x)$ --[distributional derivative]--> Dirac delta function $δ(x)$.
+			- Distributional derivative: $T'[φ] = - T[φ']$
+			  Action of derivative distribution $T'$ on test function $φ$ is minus action of original distribution $T$ on derivative of test function $φ'$.
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
