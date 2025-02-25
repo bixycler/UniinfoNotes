@@ -933,6 +933,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The `exp()` function arises from the the differential equation $f' = f ⇒ j_1 = \sqrt[1]{1} = 1$.
 						- The negative unit $-1$ arises from the the differential equation $f'' = f ⇒ j_2 = \sqrt[2]{1} = -1$.
 						- The [imaginary unit](https://en.wikipedia.org/wiki/Imaginary_unit) $i$ arises from the the differential equation $f^{(4)} = f$, or $f'' = - f ⇒ j_4 = \sqrt[4]{1} = i$.
+							- This gives rise to the circle dynamic
 		-
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870
