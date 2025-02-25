@@ -11,6 +11,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Example of distributions: Heaviside step function $H(x)$ --[distributional derivative]--> Dirac delta function $δ(x)$.
 			- Distributional derivative: $T'[φ] = - T[φ']$
 			  Action of derivative distribution $T'$ on test function $φ$ is minus action of original distribution $T$ on derivative of test function $φ'$.
+			-
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
