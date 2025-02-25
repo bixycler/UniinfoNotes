@@ -566,15 +566,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- Every arrow is a arc and every change is a rotation.
 			- ...
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- The English constructions lacking preposition to separate parts make me confused!
 		  id:: 67bd4966-a768-46b9-b947-fac1273be081
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-02-25 Tue 11:39:41]
 		  :END:
-			- Constructions like “call D N”, “name D N”, “consider D N” are good for a short “D” but very confusing for a long description “D”, e.g. 
+			- Constructions like **“call D N”, “name D N”, “consider D N”** are good for a short “D” but very confusing for a long description “D”, e.g. 
 			  > We _call_ a system whose state changes continuously over time even if the system itself is not moving a [**dynamical system**](https://en.wikipedia.org/wiki/Dynamical_system), in contrast to a dynamic system governed by the laws of dynamics.
 			- The name “N” can easily be lost after such a long description “D”.
 			- Copilot rephrased it with if/when clause:
@@ -583,10 +581,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  > A system whose state changes continuously over time even if the system itself is not moving is _called_ a **dynamical system**, in contrast to a dynamic system governed by the laws of dynamics.
 			- Or simply use a direct description:
 			  > A **dynamical system** _is_ a system whose state changes continuously over time even if the system itself is not moving. This is to contrast with a dynamic system governed by the laws of dynamics.
-			- Instead, we can use other constructions like “refer to D as N”, “regard D as N”, “consider D to be N”, etc.
-			- Actually, i've used the old-fashioned “consider D as N” throughout my docs.
+			- Instead, we can use other constructions like **“refer to D as N”, “regard D as N”, “consider D to be N”**, etc.
+			- Actually, i've used the old-fashioned **“consider D as N”** throughout my docs.
 				- The old fashion: From [The Britannica Dictionary](https://www.britannica.com/dictionary/eb/qa/consider-and-consider-as), Merriam-Webster's Concise Dictionary of English Usage states: “[consider] as constructions are perfectly idiomatic but are not as common in recent use as they have been in the past. Nonetheless, they are still in use and are standard.”
 				- The matter gets complicated with [more in-depth discussion about “consider as” on BringMeTheNews](https://bringmethenews.com/life/instagrammar-please-please-stop-saying-considered-as):
 					- The New York Times' headline “[Headquarters Of The Times Is Considered As Landmark](https://www.nytimes.com/2000/10/21/nyregion/headquarters-of-the-times-is-considered-as-landmark.html)” should be “Headquarters Of The Times Is Considered A Landmark”, isn't it?! 😁
 					- Someone said that “We suggest tool B to be considered _as_ another approach to solving the problem” sounds better than without “as”. 🤔
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
