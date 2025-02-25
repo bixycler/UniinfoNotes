@@ -928,7 +928,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Dynamics Circle
 						  id:: 67b183f5-1cca-4473-917e-60c644dd5466
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)).
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)).
 							- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
 						- View cone: spatial distribution → density → curvature
 							- This is the characteristic of waves, plants, networks.

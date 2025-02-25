@@ -392,9 +392,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 		  ((67bd4966-a768-46b9-b947-fac1273be081))
 			- Let's rephrase the construction “consider as” in [[FoC]].
-	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- From the [conservation of curvature](((67bbde65-182a-4e2d-bdde-acf9b5ec124f))), from yesterday night to today morning, i've been contemplating the curvature & straightness (linearity) and see a long road ahead... Maybe i should start from an entry of ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) in the Mind Jungle.
+		  collapsed:: true
 			- I just remember [my formula of curvature ](((67bc5689-d4f1-4136-b775-92847ddd02f8))) $c = dφ/ds$ from high school 9th or 10th grade. There, i used the symbol $c$ for both English “curve” and Vietnamese “cong”. I'd thought that it was my "new concept" until i saw the definition of $κ = 1/r$ in some book.
 			- Note: the [emergence of negativity & imaginarity](((67bbde62-70fc-4d3d-9f65-dcea280db516))) was a rediscovery when i contemplated the spring (elastic) mechanics & `exp()`, as a note on Telegram on 2023 Feb 21st.
 			  collapsed:: true
@@ -410,23 +409,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  Differentials (high order) = orthogonal radix numerals = Turing machine vs uninet = holographic numerals = diagonal multimodular numerals (RNS & continued fraction)
 				  ==> this defines the computation inside the Quantum => geometry => physical laws
 				  #+END_QUOTE
-			- It's interesting that when searching for "circle of dynamic[s]", Google Search AI declares "circle of dynamic" to be “a conceptual model” and "circle of dynamics" to be “a concept in mathematics”, as if they're already established terms... but i think it's just an AI hallucination!
-			  collapsed:: true
-				- The following descriptions show how Google AI understands/infers/guesses about the terms "circle of dynamic[s]".
-				- A "circle of dynamic" refers to *a conceptual model that represents a continuous, cyclical process where elements within a system are constantly interacting, changing, and influencing each other*, often signifying a state of ongoing movement and evolution, much like the circular motion of a wheel.
-				- Key points about the "circle of dynamic":
-					- **Symbolic representation:** The circle itself symbolizes wholeness, completion, and interconnectedness, implying that all parts of the system are interdependent.
-					- **Continual change:** Within the circle, elements are not static but are constantly in flux, moving through different stages or phases of a cycle.
-					- **Feedback loops:** The dynamic nature often involves feedback loops, where the outcome of one action influences the next, creating a continuous cycle of adaptation and adjustment.
-				- Examples of "circle of dynamic" in different contexts:
-					- **Business:** A business cycle could be seen as a circle of dynamic, with stages like product development, launch, growth, maturity, and decline, eventually leading back to innovation and new product development.
-					- **Personal development:** A personal growth cycle might include setting goals, taking action, reflecting on progress, adjusting strategies, and repeating the process.
-					- **Ecology:** The food chain in an ecosystem can be considered a circle of dynamic, with producers creating food for consumers, who then become food for predators, eventually returning nutrients back to the soil.
-				- A "circle of dynamics" refers to *a concept in mathematics, particularly within the field of dynamical systems, where the state space is represented as a circle*, meaning the system's behavior is analyzed within the constraints of a circular boundary, often used to model periodic or cyclical phenomena like rotations or oscillations.
-				- Key points about circle dynamics:
-					- **Simple space:** The circle provides a relatively simple one-dimensional space to study complex dynamics, making it a valuable tool for understanding fundamental concepts in dynamical systems.
-					- **Rotation number:** A crucial concept in circle dynamics, the rotation number describes the average "winding" of a point on the circle as it evolves through time under the dynamical system.
-					- **Applications:** Circle dynamics finds applications in various fields including physics (e.g., planetary motion), biology (e.g., circadian rhythms), and engineering (e.g., oscillator systems).
-				- Example of a circle dynamics system:
-					- **Rotating wheel:** Imagine a point on a spinning wheel - its movement can be modeled as a circle dynamics system, where the rotation angle represents the state and the rotation speed determines the dynamics.
+			- It's interesting that when searching for "circle of dynamic[s]", [Google Search AI declares](((67bd76db-a523-415e-8d4d-812593779ceb))) "circle of dynamic" to be “a conceptual model” and "circle of dynamics" to be “a concept in mathematics”, as if they're already established terms... but i think it's just an AI hallucination!
+	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
