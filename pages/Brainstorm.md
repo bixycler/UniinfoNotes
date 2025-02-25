@@ -14,8 +14,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  Action of derivative distribution $T'$ on test function $φ$ is minus action of original distribution $T$ on derivative of test function $φ'$.
 			- Spacetime in General Relativity
 				- [Einstein field equation](https://en.wikipedia.org/wiki/Einstein_field_equations)
-				  $R_{μν} - {\frac {1}{2}} Rg_{μν} + Λ g_{μν}= κ T_{μν}$
-					- $\kappa ={\frac {8\pi G}{c^{4}}}\approx 2.07665\times 10^{-43}\,{\textrm {N}}^{-1}$ : Einstein gravitational constant
+				  $κ T_{μν} = R_{μν} - \frac{1}{2} Rg_{μν} + Λ g_{μν}$
+					- Tensors
+						- $T_{μν}$: Stress-energy tensor representing the distribution of matter and energy
+						- : A metric tensor that defines the geometric properties of spacetime, such as distances and angles
+					- Constants
+						- $κ = \frac{8πG}{c^4} ≈ 2.07665 × 10^{-43}\,{\textrm N}^{-1}$: Einstein gravitational constant
+						- $G$: Gravitational constant
+						- $c$: Speed of light
+						- $Λ$: [Cosmological constant](https://en.wikipedia.org/wiki/Cosmological_constant)
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
