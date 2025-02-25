@@ -922,7 +922,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Circle Dynamic
 					  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
 						-
-					- dynamical circle
+					- circle of dynamics
 					  id:: 67b183f5-1cca-4473-917e-60c644dd5466
 					  distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
 						- View cone: spatial distribution → density → curvature
