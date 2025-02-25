@@ -921,14 +921,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- This gives rise to the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
 					- Circle Dynamic
 					  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
-						-
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bd3614-2520-4a5d-8b3f-44f60901844e)) is the basic dynamic...
 					- Circle of Dynamics
-					  id:: 67b183f5-1cca-4473-917e-60c644dd5466
-					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
-					  distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
+					  id:: 67bd7811-ce55-402f-8fb2-08b59fb271c9
+					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67b183f5-1cca-4473-917e-60c644dd5466))
 						- Dynamics Circle
-						  id:: 67bd7811-ce55-402f-8fb2-08b59fb271c9
-						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67b183f5-1cca-4473-917e-60c644dd5466))
+						  id:: 67b183f5-1cca-4473-917e-60c644dd5466
+						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)).
+							- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
 						- View cone: spatial distribution → density → curvature
 							- This is the characteristic of waves, plants, networks.
 							- Observing mechanism: differentiation in space
