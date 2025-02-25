@@ -396,6 +396,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  collapsed:: true
 			- I just remember [my formula of curvature ](((67bc5689-d4f1-4136-b775-92847ddd02f8))) $c = dφ/ds$ from high school 9th or 10th grade. There, i used the symbol $c$ for both English “curve” and Vietnamese “cong”. I'd thought that it was my "new concept" until i saw the definition of $κ = 1/r$ in some book.
 			- The intrinsic curvature of the thread, as the 2nd derivative of the distribution of space on the line, is different from the extrinsic curvature of the line $κ = 1/r$.
+				- The notion of such distribution has been formalized as [](https://en.wikipedia.org/wiki/Distribution_(mathematics))
 			- Note: the [emergence of negativity & imaginarity](((67bbde62-70fc-4d3d-9f65-dcea280db516))) was a rediscovery when i contemplated the spring (elastic) mechanics & `exp()`, as a note on Telegram on 2023 Feb 21st.
 			  collapsed:: true
 				- #+BEGIN_QUOTE
