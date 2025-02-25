@@ -568,4 +568,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- ...
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- The English constructions lacking preposition to separate parts make me confused!
+		  id:: 67bd4966-a768-46b9-b947-fac1273be081
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-02-25 Tue 11:39:41]
+		  :END:
+			-
 		- ...
