@@ -585,7 +585,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  > A **dynamical system** _is_ a system whose phase space is governed by laws of dynamics even if the system itself is not moving.
 			- Instead, we can use other constructions like “refer to D as N”, “regard D as N”, “consider D to be N”, etc.
 			- Actually, i've used the old-fashioned “consider D as N” throughout my docs.
-				- Old-fashion: from [The Britannica Dictionary](https://www.britannica.com/dictionary/eb/qa/consider-and-consider-as), Merriam-Webster's Concise Dictionary of English Usage states: “[consider] as constructions are perfectly idiomatic but are not as common in recent use as they have been in the past. Nonetheless, they are still in use and are standard.”
+				- The old fashion: From [The Britannica Dictionary](https://www.britannica.com/dictionary/eb/qa/consider-and-consider-as), Merriam-Webster's Concise Dictionary of English Usage states: “[consider] as constructions are perfectly idiomatic but are not as common in recent use as they have been in the past. Nonetheless, they are still in use and are standard.”
 				- The matter gets complicated with [more in-depth discussion about “consider as” on BringMeTheNews](https://bringmethenews.com/life/instagrammar-please-please-stop-saying-considered-as):
 					- The New York Times' headline “[Headquarters Of The Times Is Considered As Landmark](https://www.nytimes.com/2000/10/21/nyregion/headquarters-of-the-times-is-considered-as-landmark.html)” should be “Headquarters Of The Times Is Considered A Landmark”, isn't it?! 😁
 					- Someone said that “We suggest tool B to be considered _as_ another approach to solving the problem” sounds better than without “as”. 🤔

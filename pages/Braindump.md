@@ -395,4 +395,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-02-25 Tue 11:45:17]
 		  :END:
 		  ((67bd4966-a768-46b9-b947-fac1273be081))
+			- Let's rephrase the construction “consider as” in [[FoC]].
 		- ...
