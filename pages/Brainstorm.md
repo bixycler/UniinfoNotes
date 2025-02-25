@@ -13,7 +13,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Distributional derivative: $T'[φ] = - T[φ']$
 				  Action of derivative distribution $T'$ on test function $φ$ is minus action of original distribution $T$ on derivative of test function $φ'$.
 			- Spacetime in General Relativity
-				-
+				- [Einstein field equation](https://en.wikipedia.org/wiki/Einstein_field_equations)
+				  $R_{μν} - {\frac {1}{2}} Rg_{μν} + Λ g_{μν}= κ T_{μν}$
+					- $\kappa ={\frac {8\pi G}{c^{4}}}\approx 2.07665\times 10^{-43}\,{\textrm {N}}^{-1}$ : Einstein gravitational constant
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
