@@ -922,9 +922,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Circle Dynamic
 					  id:: 67bd3614-2520-4a5d-8b3f-44f60901844e
 						-
-					- circle of dynamics
+					- Circle of Dynamics
 					  id:: 67b183f5-1cca-4473-917e-60c644dd5466
+					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
 					  distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
+						- Dynamics Circle
+						  id:: 67bd7811-ce55-402f-8fb2-08b59fb271c9
+						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67b183f5-1cca-4473-917e-60c644dd5466))
 						- View cone: spatial distribution → density → curvature
 							- This is the characteristic of waves, plants, networks.
 							- Observing mechanism: differentiation in space
@@ -933,11 +937,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- This is the characteristic of particles, animals.
 							- Operating mechanism: integration over time
 						- Universe: spatial distribution = distribution of point masses = energy field = wave field
-						- Dynamics Pyramid
-						  id:: 67baf139-aa0c-436e-9e21-983323833c71
-							- Diagram
-							  collapsed:: true
-								- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
+						- Pyramid of Dynamics
+						  id:: 67bd787d-4b28-42a0-a7b6-ba4bd60e5523
+						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67baf139-aa0c-436e-9e21-983323833c71))
+							- Dynamics Pyramid
+							  id:: 67baf139-aa0c-436e-9e21-983323833c71
+							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67bd787d-4b28-42a0-a7b6-ba4bd60e5523))
+								- Diagram
+								  collapsed:: true
+									- ![DynamicsPyramid](https://docs.google.com/drawings/d/e/2PACX-1vTZeIjOKk3h-3WXdc-xATjDF3YQsr2p0J1iwfFvBtIblsL-jg9aoILR7wiyYUDqXSg8-h3h94owrCFz/pub?w=1000)
 		-
 	- ## world
 	  id:: 667cfac2-17f1-4cbd-9f6d-1e722ff2a870

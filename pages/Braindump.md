@@ -412,7 +412,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  #+END_QUOTE
 			- It's interesting that when searching for "circle of dynamic[s]", Google Search AI declares "circle of dynamic" to be “a conceptual model” and "circle of dynamics" to be “a concept in mathematics”, as if they're already established terms... but i think it's just an AI hallucination!
 			  collapsed:: true
-				- The following descriptions show how Google AI understand/guess about the ters
+				- The following descriptions show how Google AI understands/infers/guesses about the terms "circle of dynamic[s]".
 				- A "circle of dynamic" refers to *a conceptual model that represents a continuous, cyclical process where elements within a system are constantly interacting, changing, and influencing each other*, often signifying a state of ongoing movement and evolution, much like the circular motion of a wheel.
 				- Key points about the "circle of dynamic":
 					- **Symbolic representation:** The circle itself symbolizes wholeness, completion, and interconnectedness, implying that all parts of the system are interdependent.
