@@ -390,7 +390,20 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- From the [conservation of curvature](((67bbde65-182a-4e2d-bdde-acf9b5ec124f))), from yesterday night to today morning, i've been contemplating the curvature & straightness (linearity) and see a long road ahead... Maybe i should start from an entry of ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) in the Mind Jungle.
 			- I just remember [my formula of curvature ](((67bc5689-d4f1-4136-b775-92847ddd02f8))) $c = dφ/ds$ from high school 9th or 10th grade. There, i used the symbol $c$ for both English “curve” and Vietnamese “cong”. I'd thought that it was my "new concept" until i saw the definition of $κ = 1/r$ in some book.
-			- Note: the [emergence of negativity & imaginarity](((67bbde62-70fc-4d3d-9f65-dcea280db516))) was a rediscovery when i contemplated about , as a note on Telegram on 2023 Feb 21st.
+			- Note: the [emergence of negativity & imaginarity](((67bbde62-70fc-4d3d-9f65-dcea280db516))) was a rediscovery when i contemplated the spring (elastic) mechanics & `exp()`, as a note on Telegram on 2023 Feb 21st.
+			  collapsed:: true
+				- #+BEGIN_QUOTE
+				  **Holistic momentum** = const-sized (mc^2) vector = momentum vector (in space) + energy vector (= momentum in time)
+				  - **i=√-1 derived from dynamics**: velocity reflected at the wall must pass through 0 but total momentum is preserved => the whole momentum vector must pokes out of space dimension => space × momentum = phase space:
+				    + The eigenvector of diff is exp() => extended to phase space: x' = p & p' = x => x'' = x =>  √1 = negative (opposite) unit «-1»; x' = -p & p' = x => x'' = -x =>  √-1 = imaginary (internal, intensive) unit «i»; 
+				    + The loop of derivatives in phase space complex plane contains 4 units (+1, +i, -1, -i), ie. x'''' = x => to be extended to quaternion
+				  - the momentum dimension p in phase space is the folded (intensified) of time => spacetime = extended phase space => energy = momentum in time => force = curvature = density of energy = tightness of circle = how much motion in time
+				    + Pythagorean theorem <== circle in phase space ==> everything is circle
+				  
+				  
+				  Differentials (high order) = orthogonal radix numerals = Turing machine vs uninet = holographic numerals = diagonal multimodular numerals (RNS & continued fraction)
+				  ==> this defines the computation inside the Quantum => geometry => physical laws
+				  #+END_QUOTE
 		- When writing some long descriptions of “dynamical system” vs. “dynamic system”, i'm struck by this:
 		  :LOGBOOK:
 		  CLOCK: [2025-02-25 Tue 11:45:17]
