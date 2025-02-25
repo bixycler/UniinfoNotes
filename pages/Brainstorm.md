@@ -20,7 +20,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- $g_{μν}$: Metric tensor defining the geometric properties of spacetime, such as distances and angles
 						- $R_{μν},\,R$: [Ricci curvature tensor](https://en.wikipedia.org/wiki/Ricci_curvature) and [Ricci scalar curvature](https://en.wikipedia.org/wiki/Scalar_curvature) depending on the metric in a complicated nonlinear manner
 							- Ricci curvatures (tensor & scalar) are contractions of [Riemann curvature tensor](https://en.wikipedia.org/wiki/Riemann_curvature_tensor):
-							  $R_{μν} = g^{ab} R_{aμbν} \;;\; R = g^{μν} R_{μν}$
+							  $R_{μν} = g^{ab} R_{aμbν} \;;\; R = g^{μν} R_{μν} = 2 K = 2 κ_{1}\kappa _{2}$
 					- Constants
 						- $κ = \frac{8πG}{c^4} ≈ 2.07665 × 10^{-43}\,{\textrm N}^{-1}$: Einstein gravitational constant
 						- $G$: Gravitational constant
