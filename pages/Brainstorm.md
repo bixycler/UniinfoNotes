@@ -17,15 +17,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  $κ T_{μν} = (Λ - \frac{1}{2} R) g_{μν} + R_{μν}$
 					- Tensors
 						- $T_{μν}$: [Stress–energy tensor](https://en.wikipedia.org/wiki/Stress%E2%80%93energy_tensor) representing the distribution of matter and energy
-						- $g_{μν}$: Metric tensor defining the geometric properties of spacetime, such as distances and angles
-						- $R_{μν},\,R$: [Ricci curvature tensor](https://en.wikipedia.org/wiki/Ricci_curvature) and [Ricci scalar curvature](https://en.wikipedia.org/wiki/Scalar_curvature) depending on the metric in a complicated nonlinear manner
+						- $g_{μν}$: Metric tensor defining the geometric properties of spacetime, such as distances, angles, curvatures, etc.
+						- $R_{μν},\,R$: [Ricci curvature tensor](https://en.wikipedia.org/wiki/Ricci_curvature) and [Ricci scalar curvature](https://en.wikipedia.org/wiki/Scalar_curvature) derived from the metric (tensor $g_{μν}$) in a complicated manner
 							- Ricci curvatures (tensor & scalar) are contractions of [Riemann curvature tensor](https://en.wikipedia.org/wiki/Riemann_curvature_tensor):
-							  $R_{μν} = g^{ab} R_{aμbν} \;;\; R = g^{μν} R_{μν} = 2 K = 2 κ_{1}\kappa _{2}$
+							  $R_{μν} = g^{ab} R_{aμbν} \;;\; R = g^{μν} R_{μν} = 2 K = 2 κ_1 κ_2$
+							- $K$: [Gaussian curvature](https://en.wikipedia.org/wiki/Gaussian_curvature)
+							- $κ_1,\, κ_2$: [principal curvatures](https://en.wikipedia.org/wiki/Principal_curvature)
 					- Constants
 						- $κ = \frac{8πG}{c^4} ≈ 2.07665 × 10^{-43}\,{\textrm N}^{-1}$: Einstein gravitational constant
 						- $G$: Gravitational constant
 						- $c$: Speed of light
 						- $Λ$: [Cosmological constant](https://en.wikipedia.org/wiki/Cosmological_constant)
+				- It's so complicated with all kinds of tensors and curvatures! 🫤
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
