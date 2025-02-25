@@ -17,18 +17,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  Distribution of energy ($T_{μν}$) $\sim$ distribution of space ($g_{μν}$)
 				  $κ T_{μν} = (Λ - \frac{1}{2} R) g_{μν} + R_{μν}$
 					- Tensors
-						- $T_{μν}$: [Stress–energy tensor](https://en.wikipedia.org/wiki/Stress%E2%80%93energy_tensor) representing the distribution of matter and energy
-						- $g_{μν}$: [Metric tensor](https://en.wikipedia.org/wiki/Metric_tensor_(general_relativity)) defining the geometric properties of spacetime, such as distances, angles, curvatures, etc.
-						- $R_{μν},\,R$: [Ricci curvature tensor](https://en.wikipedia.org/wiki/Ricci_curvature) and [Ricci scalar curvature](https://en.wikipedia.org/wiki/Scalar_curvature) derived from the metric (tensor $g_{μν}$) in a complicated manner
+						- $T_{μν}$: [stress–energy tensor](https://en.wikipedia.org/wiki/Stress%E2%80%93energy_tensor) representing the distribution of matter and energy
+						- $g_{μν}$: [metric tensor](https://en.wikipedia.org/wiki/Metric_tensor_(general_relativity)) defining the geometric properties of spacetime, such as distances, angles, curvatures, etc.
+						- $R_{μν},\,R$: [Ricci curvature tensor](https://en.wikipedia.org/wiki/Ricci_curvature) and [Ricci scalar curvature](https://en.wikipedia.org/wiki/Scalar_curvature) derived from the metric tensor $g_{μν}$ in a complicated manner
 							- Ricci curvatures (tensor & scalar) are contractions of [Riemann curvature tensor](https://en.wikipedia.org/wiki/Riemann_curvature_tensor):
 							  $R_{μν} = g^{ab} R_{aμbν} \;;\; R = g^{μν} R_{μν} = 2 K = 2 κ_1 κ_2$
 							- $K$: [Gaussian curvature](https://en.wikipedia.org/wiki/Gaussian_curvature)
 							- $κ_1,\, κ_2$: [principal curvatures](https://en.wikipedia.org/wiki/Principal_curvature)
 					- Constants
 						- $κ = \frac{8πG}{c^4} ≈ 2.07665 × 10^{-43}\,{\textrm N}^{-1}$: Einstein gravitational constant
-						- $G$: Gravitational constant
-						- $c$: Speed of light
-						- $Λ$: [Cosmological constant](https://en.wikipedia.org/wiki/Cosmological_constant)
+						- $G$: gravitational constant
+						- $c$: speed of light
+						- $Λ$: [cosmological constant](https://en.wikipedia.org/wiki/Cosmological_constant)
 				- The Einstein field equation is so complicated with all kinds of tensors and curvatures! 🫤
 				  id:: 67bdb94a-e172-43f9-a59e-a97756fef1f4
 		- TODO 0 sum = neutralization of positive and negative 
