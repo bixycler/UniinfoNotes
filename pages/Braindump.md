@@ -386,6 +386,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-02-23 Sun 17:55:32]
 		  :END:
+		- When writing some long descriptions of “dynamical system” vs. “dynamic system”, i'm struck by this:
+		  :LOGBOOK:
+		  CLOCK: [2025-02-25 Tue 11:45:17]
+		  :END:
+		  ((67bd4966-a768-46b9-b947-fac1273be081))
+			- Let's rephrase the construction “consider as” in [[FoC]].
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- From the [conservation of curvature](((67bbde65-182a-4e2d-bdde-acf9b5ec124f))), from yesterday night to today morning, i've been contemplating the curvature & straightness (linearity) and see a long road ahead... Maybe i should start from an entry of ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) in the Mind Jungle.
@@ -404,10 +410,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  Differentials (high order) = orthogonal radix numerals = Turing machine vs uninet = holographic numerals = diagonal multimodular numerals (RNS & continued fraction)
 				  ==> this defines the computation inside the Quantum => geometry => physical laws
 				  #+END_QUOTE
-		- When writing some long descriptions of “dynamical system” vs. “dynamic system”, i'm struck by this:
-		  :LOGBOOK:
-		  CLOCK: [2025-02-25 Tue 11:45:17]
-		  :END:
-		  ((67bd4966-a768-46b9-b947-fac1273be081))
-			- Let's rephrase the construction “consider as” in [[FoC]].
+			- It's interesting that when searching for "circle of dynamic", Google Search AI declares it “a conceptual model” as if it's already an established term... but i think it's just an AI hallucination!
+			  collapsed:: true
+				- A "circle of dynamic" refers to *a conceptual model that represents a continuous, cyclical process where elements within a system are constantly interacting, changing, and influencing each other*, often signifying a state of ongoing movement and evolution, much like the circular motion of a wheel.
+				- Key points about the "circle of dynamic":
+					- **Symbolic representation:** The circle itself symbolizes wholeness, completion, and interconnectedness, implying that all parts of the system are interdependent.
+					- **Continual change:** Within the circle, elements are not static but are constantly in flux, moving through different stages or phases of a cycle.
+					- **Feedback loops:** The dynamic nature often involves feedback loops, where the outcome of one action influences the next, creating a continuous cycle of adaptation and adjustment.
+				- Examples of "circle of dynamic" in different contexts:
+					- **Business:** A business cycle could be seen as a circle of dynamic, with stages like product development, launch, growth, maturity, and decline, eventually leading back to innovation and new product development.
+					- **Personal development:** A personal growth cycle might include setting goals, taking action, reflecting on progress, adjusting strategies, and repeating the process.
+					- **Ecology:** The food chain in an ecosystem can be considered a circle of dynamic, with producers creating food for consumers, who then become food for predators, eventually returning nutrients back to the soil.
 		- ...
