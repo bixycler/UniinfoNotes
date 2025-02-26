@@ -384,6 +384,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Có người đã hỏi "thầy còn lo sợ không?" thì thầy MT đã trả lời là "vẫn còn lo sợ!"
 				- Phần anh Báu thì đã cùng anh Hùng theo thầy LuangPor Jiew và được nhận làm đệ tử với pháp danh Pháp Nhẫn (ขันติธรรม, K̄hạnti·ṭhrrm).
 				  id:: 67b541d8-128d-4587-a16d-43fff5f08bc7
+				  :LOGBOOK:
+				  CLOCK: [2025-02-16 Sun 14:30:31]
+				  :END:
 					- Về anh Báu
 					  id:: 67b541d8-4c22-4eba-90a3-b2b5259c5df8
 						- https://www.facebook.com/doanvanbau
@@ -636,10 +639,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  
 				  Any information in this article about the top fan badge also applies to a custom top fan badge name.
 				  #+END_QUOTE
-				- I've not engaged anything with his page as the following condition for the default badge.
+				- I've not engaged anything with his page as the following [conditions for the default badge](https://www.facebook.com/help/215734232362020).
 				  #+BEGIN_QUOTE
 				  **Top fans** have earned a badge by continuously engaging with a creator by reacting to their content and commenting on or sharing their posts.
 				  #+END_QUOTE
-				- I've watched a few videos (less than 5), wrote 1-2 comments, and no more! That's because i've left following fb from [Jan 8th](((67b541d8-d6dd-4651-910f-a37ad1300535))) and just returned to fb 2 times: .
+				- I've watched a few videos (less than 5), wrote 1-2 comments, sent a single messenger message, and no more!
+					- That's because i've left following fb from [Jan 8th](((67b541d8-d6dd-4651-910f-a37ad1300535))) and just returned to fb 2 times: [to chat with Ms. Trung & Mr. Hiệp on 6th Feb](((67a5f191-079f-4f97-b5b2-c01116db8cef))) and [to contact Mr. Báu on 16th Feb](((67b541d8-128d-4587-a16d-43fff5f08bc7))).
+					- I think what made Mr. Báu give me this badge was my private message to him.
+						- #+BEGIN_QUOTE
+						  ...
+						  #+END_QUOTE
 			-
 		- ...
