@@ -659,5 +659,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-02-26 Wed 17:10:02]
 			  :END:
-				-
+				- After many days following ((67a5faa3-c64c-48f7-8b3f-a5311714110f)), i felt an urge to cap it off with an action for Mr. Bau.
+				- Then i tried to contact him but soon realized that he has been so famous for such an anonymous like me to have any contact.
+				- I decided to just
 		- ...
