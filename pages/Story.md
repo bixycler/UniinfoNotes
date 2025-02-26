@@ -609,4 +609,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- **Rotating wheel:** Imagine a point on a spinning wheel - its movement can be modeled as a circle dynamics system, where the rotation angle represents the state and the rotation speed determines the dynamics.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- Haha, i've just received a “top fan badge” from Mr. Báu
+		  collapsed:: true
+			- This badge seems to be issued by Mr. Báu himself last night (20h 15th Feb)
+			- ![Top fan perks - DVB - 2025-02-26 15-50-43.png](../Top fan perks - DVB - 2025-02-26 15-50-43.png)
 		- ...
