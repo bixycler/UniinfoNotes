@@ -32,6 +32,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Example:
 						  Imagine someone giving a very serious and formal speech, and suddenly something humorous happens, like a loud, unexpected noise. The stark contrast between the serious tone and the unexpected humor can cause an uncontrollable, infectious wave of laughter.
 			- Jan 6th: Tragedy of Native American with the character Teonna Rainwater in TV series [1923](https://en.wikipedia.org/wiki/1923_(TV_series)), a prequel to the series [Yellowstone](https://en.wikipedia.org/wiki/Yellowstone_(American_TV_series))
+			  id:: 67b541d8-1ab9-4e24-bccf-d9fd4855d755
 			  collapsed:: true
 				- [Yes, 1923's Most Horrifying Scene Is Based On Real Life](https://screenrant.com/1923-show-teonna-rainwater-native-american-boarding-schools/)
 				- Thousands of children died in [American Indian boarding schools](https://en.wikipedia.org/wiki/American_Indian_boarding_schools)
@@ -49,10 +50,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Making war](https://youtube.com/shorts/C5dXqHuBA6o)
 					- [How many children died last year](https://youtube.com/shorts/VLJbTbHHz7o)
 			- Yesterday, [seeing the karma as the momentum](((677cc7d2-02f7-4ad9-801c-3079237ed465))) ⇒ ((677cc7d2-02f7-4ad9-801c-3079237ed465))
+			  id:: 67b541d8-05be-4ce4-8840-87f25787a90c
 			- Many days, i have the whole morning off from the office, and even the whole day off, due to the entanglement in the previous night.
 				- entangled with [master Minh Tuệ](https://en.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87)'s journey
 				- entangled with all sort of pathetic stories, as well as [all the junks](((6752f2ae-a019-400c-9a13-ede363f665ff)))
 			- Last night, after being stuck again, i decided to [disconnect from social networks](https://www.facebook.com/share/p/1AvDcWFK52/)
+			  id:: 67b541d8-d6dd-4651-910f-a37ad1300535
+			  :LOGBOOK:
+			  CLOCK: [2025-01-08 Wed 16:48:53]
+			  :END:
 				- squatting in the bathroom, with ujjayi breath, i returned to the zero point and overview the whole entanglement
 				- i decided to just log out and remove apps
 				- i don't deactivate account, because i wan't to leave the [leaving notification](https://www.facebook.com/share/p/1AvDcWFK52/) for others to see.
@@ -377,7 +383,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Được 1 ngày đi riêng, sau đó thầy lại đi cùng đoàn như trước. Rồi thầy nhận Phước Nghiêm vào đoàn. Rồi vẫn sợ bị bắt tới độ nghĩ "chắc phải lấy dây xích trói mình vào gốc cây để họ không đưa đi!" Rồi vẫn bị cảnh sát bế đi lên đồn như thường, vào trưa ngày 13/2: cảnh sát kiểm tra giấy tờ và không cho đi bộ hành trong tỉnh này nữa, bắt phải ở trong chùa chứ ko được ở bụi nữa, cho xe đưa sang 1 ngôi chùa ở tỉnh khác. Cảnh sát cũng bảo các YouTuber với visa du lịch thì không được hành nghề kiếm tiền (đáng lẽ visa lao động).
 					- Có người đã hỏi "thầy còn lo sợ không?" thì thầy MT đã trả lời là "vẫn còn lo sợ!"
 				- Phần anh Báu thì đã cùng anh Hùng theo thầy LuangPor Jiew và được nhận làm đệ tử với pháp danh Pháp Nhẫn (ขันติธรรม, K̄hạnti·ṭhrrm).
+				  id:: 67b541d8-128d-4587-a16d-43fff5f08bc7
 					- Về anh Báu
+					  id:: 67b541d8-4c22-4eba-90a3-b2b5259c5df8
 						- https://www.facebook.com/doanvanbau
 						- https://www.youtube.com/@DrDoan1977
 					- Về thầy Luangpo Jiew
@@ -632,6 +640,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  #+BEGIN_QUOTE
 				  **Top fans** have earned a badge by continuously engaging with a creator by reacting to their content and commenting on or sharing their posts.
 				  #+END_QUOTE
-				- I've watched a few videos (less than 5), wrote 1-2 comments, and no more! That's because i've left following fb from
+				- I've watched a few videos (less than 5), wrote 1-2 comments, and no more! That's because i've left following fb from [Jan 8th](((67b541d8-d6dd-4651-910f-a37ad1300535))) and just returned to fb 2 times: .
 			-
 		- ...
