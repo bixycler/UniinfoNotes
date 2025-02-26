@@ -618,8 +618,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- **Applications:** Circle dynamics finds applications in various fields including physics (e.g., planetary motion), biology (e.g., circadian rhythms), and engineering (e.g., oscillator systems).
 			- Example of a circle dynamics system:
 				- **Rotating wheel:** Imagine a point on a spinning wheel - its movement can be modeled as a circle dynamics system, where the rotation angle represents the state and the rotation speed determines the dynamics.
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- Haha, i've just received a “top fan badge” from Mr. Báu (25th Feb)
 		  collapsed:: true
 			- Screenshot
@@ -644,6 +642,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  **Top fans** have earned a badge by continuously engaging with a creator by reacting to their content and commenting on or sharing their posts.
 				  #+END_QUOTE
 				- I've watched a few videos (less than 5), wrote 1-2 comments, sent a single messenger message, and no more!
+				  id:: 67bee123-6ab7-44a1-bddf-0bcf8b91ff0e
 					- That's because i've left following fb from [Jan 8th](((67b541d8-d6dd-4651-910f-a37ad1300535))) and just returned to fb 2 times: [to chat with Ms. Trung & Mr. Hiệp on 6th Feb](((67a5f191-079f-4f97-b5b2-c01116db8cef))) and [to contact Mr. Báu on 16th Feb](((67bee12d-0c35-4690-b492-023a19b58af0))).
 					- I think what made Mr. Báu give me this badge was my private message to him:
 						- #+BEGIN_QUOTE
@@ -654,12 +653,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  
 						  Chúc anh Báu tinh tấn!
 						  #+END_QUOTE
-			- DOING The story of me attempting to contact Mr. Báu on [16th Feb](((67b541d8-128d-4587-a16d-43fff5f08bc7)))
+			- The story of me attempting to contact Mr. Báu on [16th Feb](((67b541d8-128d-4587-a16d-43fff5f08bc7)))
 			  id:: 67bee12d-0c35-4690-b492-023a19b58af0
 			  :LOGBOOK:
-			  CLOCK: [2025-02-26 Wed 17:10:02]
+			  CLOCK: [2025-02-26 Wed 17:10:02]--[2025-02-26 Wed 17:36:43] =>  00:26:41
 			  :END:
 				- After many days following ((67a5faa3-c64c-48f7-8b3f-a5311714110f)), i felt an urge to cap it off with an action for Mr. Bau.
 				- Then i tried to contact him but soon realized that he has been so famous for such an anonymous like me to have any contact.
-				- I decided to just
+				- I decided to just do some simple interaction on his fb page: ((67bee123-6ab7-44a1-bddf-0bcf8b91ff0e))
+				- Then just let everything go on its own natural flow.
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
