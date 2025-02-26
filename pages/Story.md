@@ -611,6 +611,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- Haha, i've just received a “top fan badge” from Mr. Báu
 		  collapsed:: true
-			- This badge seems to be issued by Mr. Báu himself last night (20h 15th Feb)
-			- ![Top fan perks - DVB - 2025-02-26 15-50-43.png](../Top fan perks - DVB - 2025-02-26 15-50-43.png)
+			- Screenshot
+			  collapsed:: true
+				- ![Top fan badge notification - DVB - 2025-02-26 15-57-43.png](../assets/Will/story/2025-Feb/Top fan badge notification - DVB - 2025-02-26 15-57-43.png)
+			- Top fan perks
+				- Screenshot
+				  collapsed:: true
+					- ![Top fan perks - DVB - 2025-02-26 15-50-43.png](../assets/Will/story/2025-Feb/Top fan perks - DVB - 2025-02-26 15-50-43.png)
+				- You earned this badge by engaging with [Đoàn Văn Báu](https://www.facebook.com/doanvanbau) and can accept it to stand out from the crowd. The badge will be displayed next to your name when you comment on their posts. Your name and profile photo may also be displayed if you're publicly recognised.
+				- **Top fan perks**
+				  Exclusive and early access to content 
+				  Summary of activity about Đoàn Văn Báu
+			- This badge seems to be issued by Mr. Báu himself last night (20h 15th Feb) through a “custom top fan badge”.
+				- #+BEGIN_QUOTE
+				  We are gradually enabling creators to set a custom top fan badge name for their most engaged fans. If a creator that you engage with has set a custom top fan badge name and you are eligible to accept this badge by being one of their most engaged fans, you'll receive a notification to accept the badge.
+				  
+				  Any information in this article about the top fan badge also applies to a custom top fan badge name.
+				  #+END_QUOTE
 		- ...
