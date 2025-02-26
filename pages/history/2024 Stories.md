@@ -1450,7 +1450,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 	  CLOCK: [2024-12-06 Fri 19:48:53]
 	  CLOCK: [2024-12-06 Fri 19:50:42]--[2024-12-06 Fri 20:07:46] =>  00:17:04
 	  :END:
-		- Last night, after the being caught up in the ((67514336-628d-4f80-b154-3b7cfde988f0)) without result, getting home, i was caught up in the Facebook sliding/scrolling for hours...
+		- Last night, after being caught up in the ((67514336-628d-4f80-b154-3b7cfde988f0)) without result, getting home, i was caught up in the Facebook sliding/scrolling for hours...
 		- After the first hour, my eyes were already tired, couldn't open, but somehow they opened again for the next 2 hours!
 		- Like many previous times, throughout the last 2 hours, i saw clearly all my tiredness, all the "meaninglessness", but could not escape... until it collapsed.
 		- At the collapse, i fell into the deep meditative state hearing clearly every little sound.
