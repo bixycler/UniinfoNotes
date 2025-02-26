@@ -628,4 +628,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  
 				  Any information in this article about the top fan badge also applies to a custom top fan badge name.
 				  #+END_QUOTE
+				- I've not engaged anything with his page as the following condition for the default badge.
+				  #+BEGIN_QUOTE
+				  **Top fans** have earned a badge by continuously engaging with a creator by reacting to their content and commenting on or sharing their posts.
+				  #+END_QUOTE
+				- I've watched a few videos (less than 5), wrote 1-2 comments, and no more! That's because i've left following fb from
+			-
 		- ...
