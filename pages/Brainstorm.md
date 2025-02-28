@@ -31,6 +31,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- $Λ$: [cosmological constant](https://en.wikipedia.org/wiki/Cosmological_constant)
 				- The Einstein field equation is so complicated with all kinds of tensors and curvatures! 🫤
 				  id:: 67bdb94a-e172-43f9-a59e-a97756fef1f4
+				- Einstein
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
