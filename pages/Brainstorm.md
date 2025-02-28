@@ -38,8 +38,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- *Compression/Contraction*: Proper distance/interval at the herenow is greater than the coordinate distance/interval observed by an external observer.
 						- *Stretch/Dilation*: Proper distance/interval at the herenow is less than the coordinate distance/interval observed by an external observer.
 					- Spacetime distribution around a massive object, like the Sun, as shown in [Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
-						- with signature convention (+, -, -, -)
-						  ${ds}^{2}=c^{2}\,{d\tau }^{2}=\left(1-{\frac {r_{\mathrm {s} }}{r}}\right)c^{2}\,dt^{2}-\left(1-{\frac {r_{\mathrm {s} }}{r}}\right)^{-1}\,dr^{2}-r^{2}{d\Omega }^{2}$
+						- Proper distance ($ds$) and proper time interval ($dτ$) in spherical coordinates $(t, r, θ, φ)$ with signature convention (+, -, -, -)
+						  ${ds}^2 = c^2 {dτ}^2 = ( 1 - \frac{R_s }{r} )c^2 {dt}^2 - ( 1 - \frac{R_s }}{r} )^{-1} dr^2 - r^2 {dΩ}^2$
+						  with ${d\Omega }^{2} = (d\theta ^{2}+\sin ^{2}\theta \,d\phi ^{2})$
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
