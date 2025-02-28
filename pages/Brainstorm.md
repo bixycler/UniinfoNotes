@@ -34,11 +34,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  id:: 67bdb94a-e172-43f9-a59e-a97756fef1f4
 				- Einstein use curvature to refer to spacetime warping because it's crutial in General Relativity: [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) in [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) and various curvatures in ((67bdaa5e-66c0-4874-8ca6-95032208e06d)).
 				- However, the spacetime distribution represented by its density is much more intuitive and more fundamental, which is defined directly by the metric tensor.
-					- Let's define space distribution following the convention:
-						- *Compression/Contraction*: Proper distance/interval at the herenow is greater than the coordinate distance/interval.
-						- *Stretch/Dilation*: Proper distance/interval at the herenow is less than the coordinate distance/interval.
-					- Spacetime distribution in Schwarzschild metric
-						-
+					- Spacetime distortion of proper spacetime when projected onto a flat Cartesian coordinate system:
+						- *Compression/Contraction*: Proper distance/interval at the herenow is greater than the coordinate distance/interval observed by an external observer.
+						- *Stretch/Dilation*: Proper distance/interval at the herenow is less than the coordinate distance/interval observed by an external observer.
+					- Spacetime distribution around a massive object, like the Sun, as shown in [Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
+						- with signature convention (+, -, -, -)
+						  ${ds}^{2}=c^{2}\,{d\tau }^{2}=\left(1-{\frac {r_{\mathrm {s} }}{r}}\right)c^{2}\,dt^{2}-\left(1-{\frac {r_{\mathrm {s} }}{r}}\right)^{-1}\,dr^{2}-r^{2}{d\Omega }^{2}$
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
