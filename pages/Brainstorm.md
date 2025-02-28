@@ -41,9 +41,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- Proper distance ($ds$) and proper time interval ($dτ$) in spherical coordinates $(t, r, θ, φ)$ with signature convention (+, -, -, -)
 						  $${ds}^2 = c^2 {dτ}^2 \;=\; ( 1 - \frac{R_s}{r} )c^2 {dt}^2 \; - ( 1 - \frac{R_s}{r} )^{-1} dr^2 \; - r^2 {dΩ}^2$$
 						  with ${dΩ}^2 = ({dθ}^2 + (\sin θ)^2 {dφ}^2)$ and [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius) $R_s = {2GM}/{c^2}$
-						- *Time Dimension (dt²)*: The coefficient (1 - 2GM/r) represents a *stretch/dilation* of time near the Sun. This means that proper time intervals are shorter than coordinate time intervals.
-						- *Radial Dimension (dr²)*: The coefficient (1 - 2GM/r)⁻¹ represents a *compression/contraction* of radial distances near the Sun. This means that proper radial distances are greater than coordinate radial distances.
-						- *Angular Dimensions (dΩ²)*: The coefficient r² remains unchanged, indicating no stretch or compression in the angular dimensions.
+						- **Stretch/dilation** of time: The coefficient $(1 - R_s/r)$ of  ${dt}^2$ is large near the Sun. This means that proper time intervals are shorter than coordinate time intervals.
+						- **Compression/contraction** of radial distances: The coefficient $(1 - R_s/r)^{-1}$ of ${dr}^2$ is small near the Sun. This means that proper radial distances are greater than coordinate radial distances.
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
