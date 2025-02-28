@@ -3956,6 +3956,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66536e1b-6466-4153-90d6-583003d99a81)) is an ((66536d32-30ad-4c07-8585-76ae9eb7fb22)) like [Roam](https://roamresearch.com), but [open-source](https://github.com/logseq/logseq): outlining based on text blocks & ((66535e71-3b71-416c-98dc-5dde5e6a76ff)), with ((e6a21858-1849-462e-b2b0-0bc57b38fb0a)), and [tag](https://en.wikipedia.org/wiki/Tag_(metadata)).
 		  collapsed:: true
 			- Installations:
+			  id:: 67b541cf-92fb-4a5d-9f57-1273662c9b02
 			  collapsed:: true
 				- Windows: Just download and run the `.exe` file at [Downloads page](https://logseq.com/downloads).
 					- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `%USERPROFILE%/{.logseq,AppData/Roaming/Logseq}/`
@@ -4193,6 +4194,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [:hidden In config.edn not working!](https://discuss.logseq.com/t/hidden-in-config-edn-not-working/12302)
 		- Features & Usage:
 		  collapsed:: true
+			- Version checking & Update
+			  collapsed:: true
+				- `Settings` > `General` > `Current version`
+				- The internal version stored in [app folder](((67b541cf-92fb-4a5d-9f57-1273662c9b02)))/`version` is different from the external version! E.g. current
+				- Note: The normal place of `Help` > `About` is just a static online web page about Logseq in general, which is unrelated to the current app.
 			- Developer mode
 			  collapsed:: true
 				- `Settings` > `Advanced` > `Developer mode`
