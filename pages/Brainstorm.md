@@ -14,6 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  Action of derivative distribution $T'$ on test function $φ$ is minus action of original distribution $T$ on derivative of test function $φ'$.
 			- Spacetime in General Relativity
 				- [Einstein field equation](https://en.wikipedia.org/wiki/Einstein_field_equations)
+				  id:: 67bdaa5e-66c0-4874-8ca6-95032208e06d
 				  Distribution of energy ($T_{μν}$) $\sim$ distribution of space ($g_{μν}$)
 				  $κ T_{μν} = (Λ - \frac{1}{2} R) g_{μν} + R_{μν}$
 					- Tensors
@@ -31,7 +32,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- $Λ$: [cosmological constant](https://en.wikipedia.org/wiki/Cosmological_constant)
 				- The Einstein field equation is so complicated with all kinds of tensors and curvatures! 🫤
 				  id:: 67bdb94a-e172-43f9-a59e-a97756fef1f4
-				- Einstein use curvature to refer to spacetime warping because it's
+				- Einstein use curvature to refer to spacetime warping because it's crutial in General Relativity: [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) in [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) and various curvatures in ((67bdaa5e-66c0-4874-8ca6-95032208e06d)).
+				- However, the spacetime distribution represented by its density is much more intuitive
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
