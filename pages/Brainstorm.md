@@ -37,10 +37,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Spacetime distortion of proper spacetime when projected onto a flat Cartesian coordinate system:
 						- *Compression/Contraction*: Proper distance/interval at the herenow is greater than the coordinate distance/interval observed by an external observer.
 						- *Stretch/Dilation*: Proper distance/interval at the herenow is less than the coordinate distance/interval observed by an external observer.
-					- Spacetime distribution around a massive object, like the Sun, as shown in [Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
+					- Spacetime distribution around a massive object, like the Sun 🌞, as shown in [Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
 						- Proper distance ($ds$) and proper time interval ($dτ$) in spherical coordinates $(t, r, θ, φ)$ with signature convention (+, -, -, -)
-						  ${ds}^2 = c^2 {dτ}^2 = ( 1 - \frac{R_s }{r} )c^2 {dt}^2 - ( 1 - \frac{R_s }}{r} )^{-1} dr^2 - r^2 {dΩ}^2$
-						  with ${d\Omega }^{2} = (d\theta ^{2}+\sin ^{2}\theta \,d\phi ^{2})$
+						  $${ds}^2 = c^2 {dτ}^2 \;=\; ( 1 - \frac{R_s}{r} )c^2 {dt}^2 \; - ( 1 - \frac{R_s}{r} )^{-1} dr^2 \; - r^2 {dΩ}^2$$
+						  with ${dΩ}^2 = ({dθ}^2 + (\sin θ)^2 {dφ}^2)$ and [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius) $R_s = {2GM}/{c^2}$
+						- *Time Dimension (dt²)*: The coefficient (1 - 2GM/r) represents a *stretch/dilation* of time near the Sun. This means that proper time intervals are shorter than coordinate time intervals.
+						- *Radial Dimension (dr²)*: The coefficient (1 - 2GM/r)⁻¹ represents a *compression/contraction* of radial distances near the Sun. This means that proper radial distances are greater than coordinate radial distances.
+						- *Angular Dimensions (dΩ²)*: The coefficient r² remains unchanged, indicating no stretch or compression in the angular dimensions.
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
