@@ -1482,6 +1482,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  - F_in = internal force exerting on the [W]orld
 				  + Both forces are to restore the balance
 				  ```
+				- A special case of this equation is the [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) in General Realativity.
 		- Mutual exclusiveness
 		  "thấy không làm, làm không thấy"
 		  "eyes no hands, hands no eyes"
@@ -4197,7 +4198,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Version checking & Update
 			  collapsed:: true
 				- `Settings` > `General` > `Current version`
-				- The internal version stored in [app folder](((67b541cf-92fb-4a5d-9f57-1273662c9b02)))/`version` is different from the external version! E.g. current
+				- The internal version stored in [app folder](((67b541cf-92fb-4a5d-9f57-1273662c9b02)))/`version` is different from the external version shown! E.g. current version [0.10.9](https://github.com/logseq/logseq/releases/tag/0.10.9) (ex) = `27.1.3` (in)
 				- Note: The normal place of `Help` > `About` is just a static online web page about Logseq in general, which is unrelated to the current app.
 			- Developer mode
 			  collapsed:: true
