@@ -35,6 +35,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  id:: 67bdb94a-e172-43f9-a59e-a97756fef1f4
 				- Einstein use curvature to refer to spacetime warping because it's crutial in General Relativity: [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) in [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) and various curvatures in ((67bdaa5e-66c0-4874-8ca6-95032208e06d)).
 				- However, the spacetime distribution represented by its density is much more intuitive and more fundamental, which is defined directly by the metric tensor $g_{μν}$.
+				  collapsed:: true
 					- Spacetime distortion of proper spacetime when projected onto a flat Cartesian coordinate system:
 						- *Compression/Contraction*: Proper distance/interval at the herenow is greater than the coordinate distance/interval observed by an external observer.
 						- *Stretch/Dilation*: Proper distance/interval at the herenow is less than the coordinate distance/interval observed by an external observer.
@@ -44,7 +45,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  with ${dΩ}^2 = ({dθ}^2 + (\sin θ)^2 {dφ}^2)$ and [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius) $R_s = {2GM}/{c^2}$
 						- **Stretch/dilation** of time: The coefficient $(1 - R_s/r)$ of  ${dt}^2$ is large near the Sun. This means that proper time intervals are shorter than coordinate time intervals.
 						- **Compression/contraction** of radial distances: The coefficient $(1 - R_s/r)^{-1}$ of ${dr}^2$ is small near the Sun. This means that proper radial distances are greater than coordinate radial distances.
-				- So, the balance way should be using both distribution for introductory level and curvatures for adavanced level.
+				- So, the balance way should be using both: distribution for introductory level and curvatures for adavanced level.
+				  collapsed:: true
 					- By using both distribution and curvature, students can develop a deeper understanding of general relativity and its underlying principles.
 					- The Benefits of Distribution
 						- *Easier visualization*: Distribution is a more tangible concept, allowing students to visualize how spacetime changes around massive objects.
