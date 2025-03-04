@@ -20,7 +20,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Some established formalisms for the notion of “distribution of space” in Unithread
 		  id:: 67bda37c-7085-4a71-b5bf-6c4b54b3abdd
 		  collapsed:: true
-			- Clarify confusions about “distribution of space”:
+			- Clarify confusions about the “distribution **of** space”:
 				- “Distribution of space” is the configuration of the space itself, not the distribution of objects in that space, nor the [space of probability distributions](https://en.wikipedia.org/wiki/Probability_space).
 					- Google Search AI as well as other chatbots think of “distribution _of_ space” as “distribution _in_ space”.
 					  collapsed:: true
@@ -32,6 +32,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- Examples of spatial distribution: Mapping of a city, the cosmic web
 				- Due to the intrisic relativity, the objective space (physical space) is distributed in, usually ununiformly relative to, the subjective space represented by a coordinate system which is uniform (flat, straight) by definition.
 					- In [spacetime distribution](((67c1273d-c336-4203-bc0d-68150f382c72))), the proper intervals in spacetime is compared to the intervals in coordinates of the observing subject.
+				- While mapping & function is
 			- [Schwartz distribution](https://en.wikipedia.org/wiki/Distribution_(mathematics)) with action on a test function projecting the whole test function into a number, usually through integration.
 				- Example of distributions: Heaviside step function $H(x)$ --[distributional derivative]--> Dirac delta function $δ(x)$.
 				- Distributional derivative: $T'[φ] = - T[φ']$
