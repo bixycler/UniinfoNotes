@@ -22,7 +22,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  collapsed:: true
 			- Clarify confusions about “distribution of space”:
 				- “Distribution of space” is the configuration of the space itself, not the distribution of objects in that space, nor the [space of probability distributions](https://en.wikipedia.org/wiki/Probability_space).
-					- Google Search AI thinks of “distribution _of_ space” as “distribution _in_ space”.
+					- Google Search AI as well as other chatbots think of “distribution _of_ space” as “distribution _in_ space”.
 					  collapsed:: true
 						- > The distribution of space is *the arrangement of objects or phenomena in a given area*. It can be used to describe the organization of people, buildings, or other features in a geographical space.
 						- Features of spatial distribution
@@ -80,6 +80,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The Role of Curvature
 						- [Curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) in [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle)
 						- Curvatures in ((67bdaa5e-66c0-4874-8ca6-95032208e06d))
+			- It's interesting that both Schwartz and Schwarzschild start with the “schwarz” = “black” and coincide with the [schwa `ə`](https://www.britannica.com/topic/schwa) = “null”! 😊
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
