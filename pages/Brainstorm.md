@@ -32,9 +32,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- Examples of spatial distribution: Mapping of a city, the cosmic web
 				- Due to the intrisic relativity, the objective space (physical space) is distributed in, usually ununiformly relative to, the subjective space represented by a coordinate system which is uniform (flat, straight) by definition.
 					- In [spacetime distribution](((67c1273d-c336-4203-bc0d-68150f382c72))), the proper intervals in spacetime is compared to the intervals in coordinates of the observing subject.
-				- While mapping & function focuses on the _individual points_, i.e. “point mapping”, like in “point set topology”, distribution focuses on the **regions**, like segments, areas, volumes and hypervolumes, and corresponding measures of these collections like total amount ($D^{-1}$), center or mean ($D^{0}$), density ($D^{1}$), curvature ($D^{2}$), etc.
-			- [Schwartz distribution](https://en.wikipedia.org/wiki/Distribution_(mathematics)) with action on a test function projecting the whole test function into a number, usually through integration.
-				- The action $T[]$ use the test function $φ()$ to collect the whole region of $φ$'s support into a number $T[φ]$ characterizing the distribution in that region.
+				- Distribution is a
+				- While mapping & function focuses on _individual points_, i.e. “point mapping”, like in “point set topology”, distribution focuses on **regions**, like segments, areas, volumes and hypervolumes, and corresponding measures of these regions like total amount ($D^{-1}$), center or mean ($D^{0}$), density ($D^{1}$), curvature ($D^{2}$), etc.
+			- [Schwartz distribution](https://en.wikipedia.org/wiki/Distribution_(mathematics)) $T$ with action $T[]$ on a test function $φ()$ projecting the whole test function into a number $T[φ]$, usually through integration.
+				- The action $T[]$ uses the test function $φ()$ to collect the whole region of $φ$'s support into a number $T[φ]$ which measures the distribution in that region.
 				- Example of distributions: Heaviside step function $H(x)$ --[distributional derivative]--> Dirac delta function $δ(x)$.
 				- Distributional derivative: $T'[φ] = - T[φ']$
 				  Action of derivative distribution $T'$ on test function $φ$ is the negative action of the original distribution $T$ on derivative of test function $φ'$.
