@@ -32,7 +32,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- Examples of spatial distribution: Mapping of a city, the cosmic web
 				- Due to the intrisic relativity, the objective space (physical space) is distributed in, usually ununiformly relative to, the subjective space represented by a coordinate system which is uniform (flat, straight) by definition.
 					- In [spacetime distribution](((67c1273d-c336-4203-bc0d-68150f382c72))), the proper intervals in spacetime is compared to the intervals in coordinates of the observing subject.
-				- While mapping & function is
+				- While mapping & function focuses on the _individual points_, i.e. “point mapping”, like in “point set topology”, distribution focuses on the collections, like segments, areas, volumes and hypervolumes, and corresponding measures of these collections like density, curvatures, etc.
 			- [Schwartz distribution](https://en.wikipedia.org/wiki/Distribution_(mathematics)) with action on a test function projecting the whole test function into a number, usually through integration.
 				- Example of distributions: Heaviside step function $H(x)$ --[distributional derivative]--> Dirac delta function $δ(x)$.
 				- Distributional derivative: $T'[φ] = - T[φ']$
