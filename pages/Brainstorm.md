@@ -32,8 +32,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- Examples of spatial distribution: Mapping of a city, the cosmic web
 				- Due to the intrisic relativity, the objective space (physical space) is distributed in, usually ununiformly relative to, the subjective space represented by a coordinate system which is uniform (flat, straight) by definition.
 					- In [spacetime distribution](((67c1273d-c336-4203-bc0d-68150f382c72))), the proper intervals in spacetime is compared to the intervals in coordinates of the observing subject.
-				- Distribution is a
-				- While mapping & function focuses on _individual points_, i.e. “point mapping”, like in “point set topology”, distribution focuses on **regions**, like segments, areas, volumes and hypervolumes, and corresponding measures of these regions like total amount ($D^{-1}$), center or mean ($D^{0}$), density ($D^{1}$), curvature ($D^{2}$), etc.
+				- Distribution is a generalization of mapping.
+				- While mapping & function focuses on _individual points_, i.e. “point mapping”, like in “point set topology”, distribution focuses on **regions**, like segments, areas, volumes and hypervolumes, and corresponding measures of these regions like total amount ($D^{-1}$), center or mean ($D^{0}$), density ($D^{1}$), curvature ($D^{2}$), etc., as well as the [tranforms](((669dd16c-1836-40ec-86e5-772f8f4774ce))) of these regions.
 			- [Schwartz distribution](https://en.wikipedia.org/wiki/Distribution_(mathematics)) $T$ with action $T[]$ on a test function $φ()$ projecting the whole test function into a number $T[φ]$, usually through integration.
 				- The action $T[]$ uses the test function $φ()$ to collect the whole region of $φ$'s support into a number $T[φ]$ which measures the distribution in that region.
 				- Example of distributions: Heaviside step function $H(x)$ --[distributional derivative]--> Dirac delta function $δ(x)$.
@@ -61,7 +61,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The Einstein field equation is so complicated with all kinds of tensors and curvatures! 🫤
 				  id:: 67bdb94a-e172-43f9-a59e-a97756fef1f4
 				- Einstein use curvature to refer to spacetime warping because it's crutial in General Relativity: [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) in [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) and various curvatures in ((67bdaa5e-66c0-4874-8ca6-95032208e06d)).
-				- However, the spacetime distribution represented by its density is much more intuitive and more fundamental, which is defined directly by the metric tensor $g_{μν}$.
+				- However, the spacetime distribution represented by its density is much more intuitive and more fundamental, which is defined directly by the metric tensor $g_{μν}$ as the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) of spacetime.
 				  collapsed:: true
 					- Spacetime distortion of proper spacetime when projected onto a flat Cartesian coordinate system:
 					  id:: 67c1273d-c336-4203-bc0d-68150f382c72
