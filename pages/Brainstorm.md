@@ -22,6 +22,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  collapsed:: true
 			- Clarify confusions about “distribution of space”:
 				- “Distribution of space” is the configuration of the space itself, not the distribution of objects in that space, nor the [space of probability distributions](https://en.wikipedia.org/wiki/Probability_space).
+					- Google Search AI thinks of “distribution _of_ space” as “distribution _in_ space”.
+					  collapsed:: true
+						- > The distribution of space is *the arrangement of objects or phenomena in a given area*. It can be used to describe the organization of people, buildings, or other features in a geographical space.
+						- Features of spatial distribution
+							- **Density**: How often something occurs in a space
+							- **Concentration**: How spread out a feature is across a space
+							- **Pattern**: The geometric arrangement of objects in a space
+						- Examples of spatial distribution: Mapping of a city, the cosmic web
+				- Due to the intrisic relativity, the distribution of the objective space (physical space) is relative to the subjective space represented by a coordinate system which is uniform (flat, straight) by definition.
 			- [Schwartz distribution](https://en.wikipedia.org/wiki/Distribution_(mathematics)) with action on a test function projecting the whole test function into a number, usually through integration.
 				- Example of distributions: Heaviside step function $H(x)$ --[distributional derivative]--> Dirac delta function $δ(x)$.
 				- Distributional derivative: $T'[φ] = - T[φ']$
