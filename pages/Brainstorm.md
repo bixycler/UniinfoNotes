@@ -20,6 +20,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Some established formalisms for the notion of “distribution of space” in Unithread
 		  id:: 67bda37c-7085-4a71-b5bf-6c4b54b3abdd
 		  collapsed:: true
+			- Clarify confusions about “distribution of space”:
+				- “Distribution of space” is the configuration of the space itself, not the distribution of objects in that space, nor the [space of probability distributions](https://en.wikipedia.org/wiki/Probability_space).
 			- [Schwartz distribution](https://en.wikipedia.org/wiki/Distribution_(mathematics)) with action on a test function projecting the whole test function into a number, usually through integration.
 				- Example of distributions: Heaviside step function $H(x)$ --[distributional derivative]--> Dirac delta function $δ(x)$.
 				- Distributional derivative: $T'[φ] = - T[φ']$
