@@ -5,6 +5,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ...
+		- TODO 0 sum = neutralization of positive and negative 
+		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-01-20 Mon 13:45:06]
+		  CLOCK: [2025-02-10 Mon 10:19:18]
+		  :END:
+		  vs. ∞ sum = abstraction of complex objects into points
+			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
+		- ↓ to be flushed **down**! ↓
+	- ## 2025 Brainstorms
+	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- Some established formalisms for the notion of “distribution of space” in Unithread
 		  id:: 67bda37c-7085-4a71-b5bf-6c4b54b3abdd
 		  collapsed:: true
@@ -27,7 +39,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							- $κ_1,\, κ_2$: [principal curvatures](https://en.wikipedia.org/wiki/Principal_curvature)
 					- Constants
 					  collapsed:: true
-						- $κ = \frac{8πG}{c^4} ≈ 2.07665 × 10^{-43}\,{\textrm N}^{-1}$: Einstein gravitational constant
+						- $κ = (8πG)/c^4 ≈ 2.07665 × 10^{-43}\,{\textrm N}^{-1}$: Einstein gravitational constant
 						- $G$: gravitational constant
 						- $c$: speed of light
 						- $Λ$: [cosmological constant](https://en.wikipedia.org/wiki/Cosmological_constant)
@@ -55,18 +67,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The Role of Curvature
 						- [Curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) in [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle)
 						- Curvatures in ((67bdaa5e-66c0-4874-8ca6-95032208e06d))
-		- TODO 0 sum = neutralization of positive and negative 
-		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-01-20 Mon 13:45:06]
-		  CLOCK: [2025-02-10 Mon 10:19:18]
-		  :END:
-		  vs. ∞ sum = abstraction of complex objects into points
-			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- ↓ to be flushed **down**! ↓
-	- ## 2025 Brainstorms
-	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
 		  collapsed:: true
