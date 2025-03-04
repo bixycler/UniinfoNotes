@@ -2111,6 +2111,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- at local repo, these contents (blocks) will be moved to the hard-linked files.
 		- CreatZy [shorthands](((66ff4478-6eae-4633-b7be-fd42e2bcda5b)))
 		  id:: 66fe9e2e-13cf-4b31-96e7-1b050eed47c4
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2024-10-03 Thu 20:57:00]--[2024-10-22 Tue 20:05:08] =>  455:08:08
 		  :END:
