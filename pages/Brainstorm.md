@@ -30,7 +30,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							- **Concentration**: How spread out a feature is across a space
 							- **Pattern**: The geometric arrangement of objects in a space
 						- Examples of spatial distribution: Mapping of a city, the cosmic web
-				- Due to the intrisic relativity, the distribution of the objective space (physical space) is relative to the subjective space represented by a coordinate system which is uniform (flat, straight) by definition.
+				- Due to the intrisic relativity, the objective space (physical space) is distributed in, usually ununiformly relative to, the subjective space represented by a coordinate system which is uniform (flat, straight) by definition.
+					- In [spacetime distribution](((67c1273d-c336-4203-bc0d-68150f382c72))), the proper intervals in spacetime is compared to the intervals in coordinates of the observing subject.
 			- [Schwartz distribution](https://en.wikipedia.org/wiki/Distribution_(mathematics)) with action on a test function projecting the whole test function into a number, usually through integration.
 				- Example of distributions: Heaviside step function $H(x)$ --[distributional derivative]--> Dirac delta function $δ(x)$.
 				- Distributional derivative: $T'[φ] = - T[φ']$
@@ -60,10 +61,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- However, the spacetime distribution represented by its density is much more intuitive and more fundamental, which is defined directly by the metric tensor $g_{μν}$.
 				  collapsed:: true
 					- Spacetime distortion of proper spacetime when projected onto a flat Cartesian coordinate system:
+					  id:: 67c1273d-c336-4203-bc0d-68150f382c72
 						- *Compression/Contraction*: Proper distance/interval at the herenow is greater than the coordinate distance/interval observed by an external observer.
 						- *Stretch/Dilation*: Proper distance/interval at the herenow is less than the coordinate distance/interval observed by an external observer.
 					- Spacetime distribution around a massive object, like the Sun 🌞, as shown in [Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
-						- Proper distance ($ds$) and proper time interval ($dτ$) in spherical coordinates $(t, r, θ, φ)$ with signature convention (+, -, -, -)
+						- Spacetime interval ($ds$) and proper time interval ($dτ$) in spherical coordinates $(t, r, θ, φ)$ with signature convention (+, -, -, -)
 						  $${ds}^2 = c^2 {dτ}^2 \;=\; ( 1 - \frac{R_s}{r} )c^2 {dt}^2 \; - ( 1 - \frac{R_s}{r} )^{-1} dr^2 \; - r^2 {dΩ}^2$$
 						  with ${dΩ}^2 = ({dθ}^2 + (\sin θ)^2 {dφ}^2)$ and [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius) $R_s = {2GM}/{c^2}$
 						- **Stretch/dilation** of time: The coefficient $(1 - R_s/r)$ of  ${dt}^2$ is large near the Sun. This means that proper time intervals are shorter than coordinate time intervals.
