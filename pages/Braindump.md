@@ -412,12 +412,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  ==> this defines the computation inside the Quantum => geometry => physical laws
 				  #+END_QUOTE
 			- It's interesting that when searching for "circle of dynamic[s]", [Google Search AI declares](((67bd76db-a523-415e-8d4d-812593779ceb))) "circle of dynamic" to be “a conceptual model” and "circle of dynamics" to be “a concept in mathematics”, as if they're already established terms... but i think it's just an AI hallucination!
-	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- DONE Add [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language) "Textile (markup language)") to ~~both UniinfoNotes &~~ HTV's logseq-notes
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-03-05 Wed 17:19:32]
 		  CLOCK: [2025-03-05 Wed 17:19:34]--[2025-03-05 Wed 17:20:19] =>  00:00:45
 		  :END:
-			- Only add an external link to ``
+			- Only add an external link to `Redmine working process`: [Textile formatting](https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile)
+	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
