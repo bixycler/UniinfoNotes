@@ -4656,6 +4656,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Due to [bug #10337](https://github.com/logseq/logseq/issues/10337), until now (June 2024), `Auto start server` doesn't work by default.
 						- => We must manually uncheck that option (`API` > `Server configurations` > `Auto start server with the app launched`), restart app, then check to turn that option on again. The next app launch, the API server will be started automatically. Good luck!
+					- Server configs are stored in ((67b541cf-5d53-4c7f-aa9a-350a87034aaa)).
 				- Plugin API docs: https://plugins-doc.logseq.com/
 				- Some APIs are mapped to DevTools console (`Ctrl` `Shift` `i`) object `[top.]logseq`, but with different name(space).
 					- `api.show_msg()` ~ `UI.showMsg()`; `sdk.git.exec_command()` ~ `Git.execCommand()` ~ `@deprecated App.execGitCommand()`
@@ -5635,7 +5636,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 6710c556-1259-4fd5-a9d0-02216274a852
 				  contains some app-related configs (`:userAppCfgs`, `:electron/user-cfgs`)
 					- `:server/{host,port,autostart}`
-					  collapsed:: true
+					  id:: 67b541cf-5d53-4c7f-aa9a-350a87034aaa
 					  for ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
 					- `:git/{auto-commit-seconds,commit-on-close}`
 					  for ((66faa5f9-8ffd-4542-b916-6e3528cabad8))

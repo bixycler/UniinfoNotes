@@ -2,9 +2,6 @@
 ;; All configs are moved to the global config.edn.
 {:meta/version 1
 
- ;; Each instance must have a separate server
- :server/port 12315
-
  ;; Some configs for graph export are not effective at global scope, hence must be cloned here:
  :publishing/all-pages-public? true
  :default-home {:page "Workspace"}
