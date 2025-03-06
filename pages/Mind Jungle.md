@@ -4219,8 +4219,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 667d2689-4ce0-4c79-b82a-25b0bba87d39
 				  A block can be referenced/mirrored with block ref synatx `((block-uuid))`.
 				- Block id is a lengthy [UUID (OSF DCE)](https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions_of_the_OSF_DCE_variant), which is generated when corresponding block is linked or zoomed in (opened).
-					- Current UUID format: [version 4 “random”](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_(random))
-						- Text from: 8-4-4-4-12
+					- Current UUID format: [version 4 “random UUID”](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_(random))
+						- Text from: 8(random time_high)-4(random time_low)-4(`4`)-4-12
 							- ```js
 							  patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/
 							  ```
