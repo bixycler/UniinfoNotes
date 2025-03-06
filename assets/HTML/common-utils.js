@@ -147,10 +147,10 @@ async function fetchFile(url, req, msg='Fetch'){
  Don't replace:
  1. foo " spaced " bar
  2. foo"inword"baz
- 3. `foo "inline codes" bar`
- 4. ```foo "code blocks" bar```
- 5. <tag id="HTML">
- 6. `code`'s posessive
+ 3. `code`'s posessive
+ 4. `foo "inline codes" bar`
+ 5. ```foo "code blocks" bar```
+ 6. <tag id="HTML">
 */
   const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
 function replaceQuotes(ln){
@@ -163,7 +163,8 @@ function replaceQuotes(ln){
     let rightSpace = i < L ? ln[i+1].match(/\s/) : true;
     let leftWord   = i > 0 ? ln[i-1].match(/\w/) : false;
     let rightWord  = i < L ? ln[i+1].match(/\w/) : false;
-    if(leftSpace && rightSpace || leftWord && rightWord){ // don't replace
+    let leftCode   = i > 0 ? ln[i-1].match(/`/) : false;
+    if(leftSpace && rightSpace || leftWord && rightWord || leftCode){ // don't replace (1,2,3)
     }else if(stack.length==0 || stack[0]!=ln[i]){ // open quote
       stack.unshift(q); q = curlyQuote[q+'<'];
     }else{ // close quote
