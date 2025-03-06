@@ -4735,6 +4735,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :END:
 							- The internal refs to blocks within the exported page should be resolved automatically.
 							- The external refs should be resolved to plain texts.
+								- Just use the "content" in `LogseqGet.js`
 					- Then, load the published note to converter script
 						- publish Markdown
 							- convert newline `\n` to `<br />` (skipped)
