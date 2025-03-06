@@ -420,6 +420,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 			- Only add an external link to `Redmine working process`: [Textile formatting](https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile)
 		- I've just added another exception for smart quoting function: `replaceQuotes()`'s possessive exception
+		- [!?] markdown-watcher: sometimes, anchor links become ineffective, but i still don't know why!
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...

@@ -4772,6 +4772,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- `flattenHeadings` to unitemize headings & remove first tabs
 							  id:: 6720b9eb-687b-4041-99e6-00791a4769bb
 							- process block link/ref -> `#`anchor link
+							  collapsed:: true
 								- Detect unresolved links
 								- Convert `((block ref))` and empty link `[](((UUID)) "comment")` to `[target block title](((UUID)))`
 									- All links & block refs in the `target block title` is replaced by **plain text** due to the [limitation of HTML anchor](((66ae293c-b2ea-44cb-9e39-268c5a45c364))).
