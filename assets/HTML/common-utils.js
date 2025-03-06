@@ -147,7 +147,8 @@ async function fetchFile(url, req, msg='Fetch'){
  Don't replace:
  1. foo " spaced " bar
  2. foo"inword"baz
- 3. `code`'s posessive
+ 3. `code`'s possessive
+ // handled by external logics, e.g. function normalize(md)
  4. `foo "inline codes" bar`
  5. ```foo "code blocks" bar```
  6. <tag id="HTML">
