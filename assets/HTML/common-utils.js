@@ -150,6 +150,7 @@ async function fetchFile(url, req, msg='Fetch'){
  3. `foo "inline codes" bar`
  4. ```foo "code blocks" bar```
  5. <tag id="HTML">
+ 6. `code`'s posessive
 */
   const curlyQuote = { '"<':'“', '>"':'”',   "'<":"‘", ">'":"’" };
 function replaceQuotes(ln){
