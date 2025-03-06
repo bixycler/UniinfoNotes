@@ -4227,6 +4227,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ```js
 							  patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/
 							  ```
+							- time_high = seconds
+							- time_low = microseconds
 				- Block id is stored as `id::` property in markdown.
 				- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) is not rendered correctly in many cases
 					- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) cannot be prefixed.
