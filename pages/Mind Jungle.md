@@ -4734,6 +4734,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  CLOCK: [2025-03-06 Thu 17:35:11]
 						  :END:
 							- The internal refs to blocks within the exported page should be resolved automatically.
+								- [?] How to match block refs in the source block with those in copy target (published) block?
 							- The external refs should be resolved to plain texts.
 								- Just use the `getBlockResContent` in `LogseqGet.js`
 									- ```js
