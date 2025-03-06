@@ -419,8 +419,16 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-03-05 Wed 17:19:34]--[2025-03-05 Wed 17:20:19] =>  00:00:45
 		  :END:
 			- Only add an external link to `Redmine working process`: [Textile formatting](https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile)
-		- I've just added another exception for smart quoting function: `replaceQuotes()`'s possessive exception
 		- [!?] markdown-watcher: sometimes, anchor links become ineffective, but i still don't know why!
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- Update ((66600918-8c61-42af-b8a2-04bf05e9f782))
+		  :LOGBOOK:
+		  CLOCK: [2025-03-06 Thu 17:42:08]
+		  :END:
+			- I've just added another exception for smart quoting function: `replaceQuotes()`'s possessive exception
+			- Let's add the port to Logseq API in LogseqGet.html
+			  :LOGBOOK:
+			  CLOCK: [2025-03-06 Thu 17:42:54]
+			  :END:
 		- ...

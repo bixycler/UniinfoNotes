@@ -4729,8 +4729,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Copy to external text editor to get text of block refs.
 						- Copy `{{embed}}`ed contents
 						- Remove additional notes & tasks
-						- [!] The biggest problem is block refs
-							- The internal refs to blocks within the page should be resolved automatically.
+						- TODO [!] The biggest problem is block refs
+						  :LOGBOOK:
+						  CLOCK: [2025-03-06 Thu 17:35:11]
+						  :END:
+							- The internal refs to blocks within the exported page should be resolved automatically.
 							- The external refs should be resolved to plain texts.
 					- Then, load the published note to converter script
 						- publish Markdown
