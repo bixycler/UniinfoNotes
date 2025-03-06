@@ -5703,11 +5703,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Emoji picker (logseq-emoji-picker-fork)](https://github.com/walsvid/logseq-emoji-picker-fork) provides the slash commandn `/emoji picker` to search and pick up an [emoji](https://en.wikipedia.org/wiki/Emoji) to insert to the editor cursor. 😊
 			  collapsed:: true
 				- This plugin uses the mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser`.
-			- DOING [Ollama (`ollama-logseq`)](https://github.com/omagdy7/ollama-logseq) to chat with [Ollama](https://github.com/jmorganca/ollama)
+			- [Ollama (`ollama-logseq`)](https://github.com/omagdy7/ollama-logseq) to chat with [Ollama](https://github.com/jmorganca/ollama)
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-03-06 Thu 20:02:08]
-			  CLOCK: [2025-03-06 Thu 20:02:40]
+			  CLOCK: [2025-03-06 Thu 20:02:40]--[2025-03-06 Thu 20:10:01] =>  00:07:21
 			  :END:
+				- Ref: [LogSeq: AI Powered Notes (with Ollama)](https://fossengineer.com/selfhosting-logseq/#making-logseq-better)
 		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
 			- Check rendered result at [[Theme Demo]].
 			- DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.
