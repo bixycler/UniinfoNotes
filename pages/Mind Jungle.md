@@ -1969,6 +1969,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/snap/logseq/current/.logseq/config/config.edn
 						  ```
 					- then `ln`
+					  id:: 67b541d0-202d-4ccb-8958-cf317bb8083a
 					  collapsed:: true
 						- ```sh
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn ${HOME}/.logseq/config/config.edn
@@ -2011,8 +2012,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  gdiff ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/snap/logseq/current/.config/Logseq/configs.edn
 						  ```
-					- then `ln`
+					- CANCELLED then `ln`
 					  collapsed:: true
+					  Don't link `configs.edn` because each instance must have a separate [API server](((67b541cf-4716-408d-a89c-8d89ce7aa645))) with a different config.
 						- ```sh
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.config/Logseq/configs.edn
@@ -4653,6 +4655,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6673f8ff-995c-455f-ae09-49bcb5311e2e
 			  collapsed:: true
 				- Local server: [localhost:12315](http://localhost:12315)
+				  id:: 67b541cf-4716-408d-a89c-8d89ce7aa645
 				  collapsed:: true
 					- Due to [bug #10337](https://github.com/logseq/logseq/issues/10337), until now (June 2024), `Auto start server` doesn't work by default.
 						- => We must manually uncheck that option (`API` > `Server configurations` > `Auto start server with the app launched`), restart app, then check to turn that option on again. The next app launch, the API server will be started automatically. Good luck!
