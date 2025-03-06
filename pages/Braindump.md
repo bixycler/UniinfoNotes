@@ -406,8 +406,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				    + The loop of derivatives in phase space complex plane contains 4 units (+1, +i, -1, -i), ie. x'''' = x => to be extended to quaternion
 				  - the momentum dimension p in phase space is the folded (intensified) of time => spacetime = extended phase space => energy = momentum in time => force = curvature = density of energy = tightness of circle = how much motion in time
 				    + Pythagorean theorem <== circle in phase space ==> everything is circle
-
-
+				  
+				  
 				  Differentials (high order) = orthogonal radix numerals = Turing machine vs uninet = holographic numerals = diagonal multimodular numerals (RNS & continued fraction)
 				  ==> this defines the computation inside the Quantum => geometry => physical laws
 				  #+END_QUOTE
@@ -430,5 +430,22 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Let's parametrize `LogseqApiEndpoint` in [LogseqGet.html](((6675860a-c135-4a92-b4fe-206ebde974ff))) (`LogseqUtils.js`) because now 2 servers are running in parallel at 2 ports: UniinfoNotes @ 12315 (default), HTV's logseq-notes @ 12345.
 			  :LOGBOOK:
 			  CLOCK: [2025-03-06 Thu 17:42:54]
+			  :END:
+			- 20:38
+			  id:: 67c9a54a-017b-4174-8446-98b1d50d9351
+			  :LOGBOOK:
+			  CLOCK: [2025-03-06 Thu 20:38:22]
+			  CLOCK: [2025-03-06 Thu 20:38:32]
+			  :END:
+			- 20:38
+			  id:: 67c9a55a-6be8-4eae-9984-872621e5f4ab
+			  :LOGBOOK:
+			  CLOCK: [2025-03-06 Thu 20:38:45]
+			  CLOCK: [2025-03-06 Thu 20:38:48]
+			  :END:
+			- 20:42:41 
+			  id:: 67c9a64f-6b96-46a3-ab48-4807b3fb8324
+			  :LOGBOOK:
+			  CLOCK: [2025-03-06 Thu 20:42:41]
 			  :END:
 		- ...
