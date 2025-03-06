@@ -159,14 +159,14 @@ function replaceQuotes(ln){
   for(let i in ln){ i = Number(i);
     if(!(ln[i] in {"'":0, '"':1})){ continue; }
     q = ln[i];
-    console.debug('replaceQuotes:',q,i, stack, [li,ln.slice(li,i)]);
+    //console.debug('replaceQuotes:',q,i, stack, [li,ln.slice(li,i)]);
     let leftSpace  = i > 0 ? ln[i-1].match(/\s/) : true;
     let rightSpace = i < L ? ln[i+1].match(/\s/) : true;
     let leftWord   = i > 0 ? ln[i-1].match(/\w/) : false;
     let rightWord  = i < L ? ln[i+1].match(/\w/) : false;
     let leftCode   = i > 0 ? ln[i-1].match(/`/) : false;
     if(leftSpace && rightSpace || leftWord && rightWord || leftCode){ // don't replace (1,2,3)
-      console.debug('NOT replace:',q,i, stack, [li,ln.slice(li,i)]);
+      //console.debug('NOT replaced:',q,i, stack, [li,ln]);
     }else if(stack.length==0 || stack[0]!=ln[i]){ // open quote
       stack.unshift(q); q = curlyQuote[q+'<'];
     }else{ // close quote
