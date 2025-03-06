@@ -402,12 +402,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- #+BEGIN_QUOTE
 				  **Holistic momentum** = const-sized (mc^2) vector = momentum vector (in space) + energy vector (= momentum in time)
 				  - **i=√-1 derived from dynamics**: velocity reflected at the wall must pass through 0 but total momentum is preserved => the whole momentum vector must pokes out of space dimension => space × momentum = phase space:
-				    + The eigenvector of diff is exp() => extended to phase space: x' = p & p' = x => x'' = x =>  √1 = negative (opposite) unit «-1»; x' = -p & p' = x => x'' = -x =>  √-1 = imaginary (internal, intensive) unit «i»; 
+				    + The eigenvector of diff is exp() => extended to phase space: x' = p & p' = x => x'' = x =>  √1 = negative (opposite) unit «-1»; x' = -p & p' = x => x'' = -x =>  √-1 = imaginary (internal, intensive) unit «i»;
 				    + The loop of derivatives in phase space complex plane contains 4 units (+1, +i, -1, -i), ie. x'''' = x => to be extended to quaternion
 				  - the momentum dimension p in phase space is the folded (intensified) of time => spacetime = extended phase space => energy = momentum in time => force = curvature = density of energy = tightness of circle = how much motion in time
 				    + Pythagorean theorem <== circle in phase space ==> everything is circle
-				  
-				  
+
+
 				  Differentials (high order) = orthogonal radix numerals = Turing machine vs uninet = holographic numerals = diagonal multimodular numerals (RNS & continued fraction)
 				  ==> this defines the computation inside the Quantum => geometry => physical laws
 				  #+END_QUOTE
@@ -427,7 +427,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-03-06 Thu 17:42:08]
 		  :END:
 			- I've just added another exception for smart quoting function: `replaceQuotes()`'s possessive exception
-			- Let's add the port to Logseq API in LogseqGet.html
+			- Let's parametrize `LogseqApiEndpoint` in [LogseqGet.html](((6675860a-c135-4a92-b4fe-206ebde974ff))) (`LogseqUtils.js`) because now 2 servers are running in parallel at 2 ports: UniinfoNotes @ 12315 (default), HTV's logseq-notes @ 12345.
 			  :LOGBOOK:
 			  CLOCK: [2025-03-06 Thu 17:42:54]
 			  :END:
