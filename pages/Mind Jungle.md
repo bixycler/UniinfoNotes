@@ -4219,6 +4219,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 667d2689-4ce0-4c79-b82a-25b0bba87d39
 				  A block can be referenced/mirrored with block ref synatx `((block-uuid))`.
 				- Block id is a lengthy [UUID (OSF DCE)](https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions_of_the_OSF_DCE_variant), which is generated when corresponding block is linked or zoomed in (opened).
+					- Current UUID format: [version 4 “random”](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_(random))
 				- Block id is stored as `id::` property in markdown.
 				- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) is not rendered correctly in many cases
 					- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) cannot be prefixed.
@@ -4733,9 +4734,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :LOGBOOK:
 						  CLOCK: [2025-03-06 Thu 17:35:11]
 						  :END:
-							- The internal refs to blocks within the exported page should be resolved automatically.
-								- [?] How to match block refs in the source block with those in copy target (published) block?
-									- For simplicity, we just match the content of
+							- Flow: copy to `publish` > replace external ref by source content > replace internal refs by new UUIDs > copy back to `publish`
 							- The external refs should be resolved to plain texts.
 								- Just use the `getBlockResContent` in `LogseqGet.js`
 									- ```js
@@ -4743,6 +4742,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  let cm = splitContentMeta(res.content); delete res.content;
 									  getBlockResContent.value = cm.content;
 									  ```
+							- The internal refs to blocks within the exported page should be resolved automatically.
+								- [?] How to match block refs in the source block with those in copy target (published) block?
+									- For simplicity, we just match the block content without consider its context.
+								- Generate new UUIDs for target blocks based on original UUIDs of these refs.
 					- Then, load the published note to converter script
 						- publish Markdown
 							- convert newline `\n` to `<br />` (skipped)
