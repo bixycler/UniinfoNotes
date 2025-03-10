@@ -60,6 +60,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Tripartites
 				- Three forces: attration (affinity) - propulsion (aversion) - inertia (momentum)
 				  attractive force - propulsive force - inertial force
+				- Three feelings [vedanā](https://en.wikipedia.org/wiki/Vedan%C4%81): leasant - unpleasant -
 				- Three poisons: greed - anger - delusion
 				-
 		- ↓ to be flushed **down**! ↓
