@@ -57,12 +57,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Vietnamese: thừa → căng **tức** → bực **tức**
 				- Etymology:
 					- **Anger**: PIE [*h₂enǵʰ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82en%C7%B5%CA%B0-) (“constrict, tighten, compress, distressed, anxious”) →  Proto-Germanic [*angazaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/angazaz) (“worry, grief, anxiety”) → Old Norse [angr](https://en.wiktionary.org/wiki/angr#Old_Norse) (“sorrow, resentment, distress”) → Middle English _anger_ (“grief, pain, trouble, affliction, vexation, sorrow, wrath”) → Modern English [anger](https://en.wiktionary.org/wiki/anger) (“hostile attitude, ill will; surliness, distress, suffering; anguish, agony”)
-			- Tripartites
+			- Triads
+				- Three states: lacking - excessive - sufficient
 				- Three forces: attration (affinity) - propulsion (aversion) - inertia (momentum)
 				  attractive force - propulsive force - inertial force
-				- Three feelings [vedanā](https://en.wikipedia.org/wiki/Vedan%C4%81): leasant - unpleasant -
+				- Three feelings ([vedanā](https://en.wikipedia.org/wiki/Vedan%C4%81)): leasant - unpleasant - neutral
 				- Three poisons: greed - anger - delusion
-				-
+				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)): Circle - Arrow - Equal
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
