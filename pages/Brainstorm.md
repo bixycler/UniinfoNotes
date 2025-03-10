@@ -14,7 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- DOING “wanting” = “lacking” ↔ “distress” = “overwhelming stress” = “anger” = “”
+		- DOING “wanting” = “lacking” ↔ “distress” = “overwhelming stress” = “anger” = “excessive pressure”
 		  id:: 67cea2ee-5f77-4576-8c1c-9e31d9b822c9
 		  collapsed:: true
 		  :LOGBOOK:
@@ -23,7 +23,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The greed ([rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism))), desire, wanting are due to the lacking, the incompleteness within the self, which cause that self to look for, be attracted to and attach to its complements.
 			  id:: 67ceb0d9-35c9-4805-8430-35c204658dbd
 			  {{embed ((6667c99a-792f-4230-9fc6-c5fae874daef))}}
-				- Etymology: PIE [*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-) (“empty”) →  Proto-Germanic [*wanô](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/wan%C3%B4) (“lack, deficiency”) → Old Norse [vanta](https://en.wiktionary.org/wiki/vanta#Old_Norse) (“to lack”) → Middle English [wanten](https://en.wiktionary.org/wiki/wanten#Middle_English) [1200] (“to lack”) → Modern English [1700] [want](https://en.wiktionary.org/wiki/want#English) (“desire, wish for, feel the need of”)
+				- Etymology:
+					- **Want**: PIE [*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-) (“empty”) →  Proto-Germanic [*wanô](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/wan%C3%B4) (“lack, deficiency”) → Old Norse [vanta](https://en.wiktionary.org/wiki/vanta#Old_Norse) (“to lack”) → Middle English [wanten](https://en.wiktionary.org/wiki/wanten#Middle_English) [1200] (“to lack”) → Modern English [1700] [want](https://en.wiktionary.org/wiki/want#English) (“desire, wish for, feel the need of”)
+					- **Greed**: Proto-Germanic [*grēdagaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/gr%C4%93dagaz) (“hungry”) → Anglian Old English [grēdiġ](https://en.wiktionary.org/wiki/gredig#Old_English) (“greedy, hungry, eager”) → English [greedy](https://en.wiktionary.org/wiki/greedy) → English [greed](https://en.wiktionary.org/wiki/greed)
 				- “[Wanting](https://en.wiktionary.org/wiki/wanting)” as an adjective (still used in formal writing and literature) or as a preposition (quite rare in modern English) still means “lacking” in modern English.
 					- E.g. as adjective:
 					  collapsed:: true
@@ -52,8 +54,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- **Wanting** clear evidence, the jury found it difficult to reach a unanimous verdict.
 			- The hatred, aversion, dislike, or anger, angst, fear, fretfulness, distress are just the other side, opposite to [wanting](((67ceb0d9-35c9-4805-8430-35c204658dbd))), i.e. due to excessiveness:
 				- While wanting yields negative restoring force, dislike yields positive restoring force.
-				- Vietnamese: thừa → căng tức → bực tức
-				- Etymology: PIE [*h₂enǵʰ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82en%C7%B5%CA%B0-) (“constrict, tighten, compress, distressed, anxious”) →  Proto-Germanic [*angazaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/angazaz) (“worry, grief, anxiety”) → Old Norse [angr](https://en.wiktionary.org/wiki/angr#Old_Norse) (“sorrow, resentment, distress”) → Middle English _anger_ (“grief, pain, trouble, affliction, vexation, sorrow, wrath”) → Modern English [anger](https://en.wiktionary.org/wiki/anger) (“hostile attitude, ill will; surliness, distress, suffering; anguish, agony”)
+				- Vietnamese: thừa → căng **tức** → bực **tức**
+				- Etymology:
+					- **Anger**: PIE [*h₂enǵʰ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82en%C7%B5%CA%B0-) (“constrict, tighten, compress, distressed, anxious”) →  Proto-Germanic [*angazaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/angazaz) (“worry, grief, anxiety”) → Old Norse [angr](https://en.wiktionary.org/wiki/angr#Old_Norse) (“sorrow, resentment, distress”) → Middle English _anger_ (“grief, pain, trouble, affliction, vexation, sorrow, wrath”) → Modern English [anger](https://en.wiktionary.org/wiki/anger) (“hostile attitude, ill will; surliness, distress, suffering; anguish, agony”)
 			- ((6747eac1-f683-4ed1-9b06-34fd10103c0c))
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
