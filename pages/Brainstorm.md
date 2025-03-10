@@ -59,6 +59,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Anger**: PIE [*h₂enǵʰ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82en%C7%B5%CA%B0-) (“constrict, tighten, compress, distressed, anxious”) →  Proto-Germanic [*angazaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/angazaz) (“worry, grief, anxiety”) → Old Norse [angr](https://en.wiktionary.org/wiki/angr#Old_Norse) (“sorrow, resentment, distress”) → Middle English _anger_ (“grief, pain, trouble, affliction, vexation, sorrow, wrath”) → Modern English [anger](https://en.wiktionary.org/wiki/anger) (“hostile attitude, ill will; surliness, distress, suffering; anguish, agony”)
 			- Tripartites
 				- Three forces: attration (affinity) - propulsion (aversion) - inertia (momentum)
+				  attractive force - propulsive force - inertial force
 				- Three poisons: greed - anger - delusion
 				-
 		- ↓ to be flushed **down**! ↓
