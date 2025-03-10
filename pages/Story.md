@@ -664,4 +664,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Then just let everything go on its own natural flow.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- DOING The story of a zombie
+		  id:: 67ce5a8c-4885-4aaf-9215-60460717ae44
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-03-10 Mon 10:22:00]
+		  :END:
+			- Shared with Huy
+				-
 		- ...

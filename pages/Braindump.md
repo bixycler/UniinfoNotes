@@ -420,9 +420,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 			- Only add an external link to `Redmine working process`: [Textile formatting](https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile)
 		- [!?] markdown-watcher: sometimes, anchor links become ineffective, but i still don't know why!
-	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Update ((66600918-8c61-42af-b8a2-04bf05e9f782))
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-03-06 Thu 17:42:08]
 		  :END:
@@ -431,27 +430,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :LOGBOOK:
 			  CLOCK: [2025-03-06 Thu 17:42:54]
 			  :END:
-			- 20:38
-			  id:: 67c9a54a-017b-4174-8446-98b1d50d9351
-			  :LOGBOOK:
-			  CLOCK: [2025-03-06 Thu 20:38:22]
-			  CLOCK: [2025-03-06 Thu 20:38:32]
-			  :END:
-			- 20:38
-			  id:: 67c9a55a-6be8-4eae-9984-872621e5f4ab
-			  :LOGBOOK:
-			  CLOCK: [2025-03-06 Thu 20:38:45]
-			  CLOCK: [2025-03-06 Thu 20:38:48]
-			  :END:
-			- 20:42:41
-			  id:: 67c9a64f-6b96-46a3-ab48-4807b3fb8324
-			  :LOGBOOK:
-			  CLOCK: [2025-03-06 Thu 20:42:41]
-			  :END:
-			- 20:50:37
-			  id:: 67c9a825-b7f8-4693-a54c-9709afbefe12
-			  :LOGBOOK:
-			  CLOCK: [2025-03-06 Thu 20:50:31]
-			  CLOCK: [2025-03-06 Thu 20:50:37]
-			  :END:
+			- I've just designed the overall flow for [updating block refs in Logseq publish](((67b541cf-618d-4607-bdd4-e1afcc8ce70c)))
+	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- Let's write ((67ce5a8c-4885-4aaf-9215-60460717ae44)) 😜
 		- ...

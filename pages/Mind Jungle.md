@@ -4221,15 +4221,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 667d2689-4ce0-4c79-b82a-25b0bba87d39
 				  A block can be referenced/mirrored with block ref synatx `((block-uuid))`.
 				- Block id is a lengthy [UUID (OSF DCE)](https://en.wikipedia.org/wiki/Universally_unique_identifier#Versions_of_the_OSF_DCE_variant), which is generated when corresponding block is linked or zoomed in (opened).
+				  collapsed:: true
 					- Current UUID format: [version 4 “random UUID”](https://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_(random))
-						- Text from: 8(random time_high) - 4(random time_low) - 
-						  4(version `4` & xxx random) - 4(variant `8`|`9`|`A`|`B` & xxx random) - 12(random address)
-							- ```js
-							  patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/
-							  ```
-							- time_high = seconds
-							- time_low = sub-seconds (maybe microseconds)
-							- address: MAC address (in v.1), host ID, random block address (in v.4)
+					- Text form: 8(random time_high) - 4(random time_low) - 
+					  4(version `4` & xxx random) - 4(variant `8`|`9`|`A`|`B` & xxx random) - 
+					  12(random address)
+						- ```js
+						  patUuid = /\w\w\w\w\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w-\w\w\w\w\w\w\w\w\w\w\w\w/
+						  ```
+						- time_high = seconds
+						- time_low = sub-seconds (maybe microseconds)
+						- address: MAC address (in v.1), host ID, random block address (in v.4)
 				- Block id is stored as `id::` property in markdown.
 				- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) is not rendered correctly in many cases
 					- [!] ((667d2689-4ce0-4c79-b82a-25b0bba87d39)) cannot be prefixed.
@@ -4743,6 +4745,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Copy `{{embed}}`ed contents
 						- Remove additional notes & tasks
 						- TODO [!] The biggest problem is block refs
+						  id:: 67b541cf-618d-4607-bdd4-e1afcc8ce70c
 						  :LOGBOOK:
 						  CLOCK: [2025-03-06 Thu 17:35:11]
 						  :END:
