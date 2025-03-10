@@ -23,15 +23,20 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Etymology: [*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-) (“empty”) →  Proto-Germanic [*wanô](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/wan%C3%B4) (“lack, deficiency”) → Old Norse [vanta](https://en.wiktionary.org/wiki/vanta#Old_Norse) (“to lack”) → Middle English [wanten](https://en.wiktionary.org/wiki/wanten#Middle_English) [1200] (“to lack”) → Modern English [1700] “desire, wish for, feel the need of”
 			- “[Wanting](https://en.wiktionary.org/wiki/wanting)” as a adjective or preposition still means “lacking”.
 				- E.g.:
-					- > Kate felt privileged to have been permitted to speak through it and she was glad that, as before, she had been judged and not found **wanting**.
-					- [Cato, a Tragedy](https://en.wikipedia.org/wiki/Cato,_a_Tragedy)
-						- #+BEGIN_QUOTE
-						  Already *Cæsar*
-						  Has ravaged more than half the Globe, and sees
-						  Mankind grown thin by his destructive Sword:
-						  Should he go further, Numbers would be **wanting**
-						  To form new Battels, and support his Crimes.
-						  #+END_QUOTE
+					- *Dead in the Water* [1993]
+					  > Kate felt privileged to have been permitted to speak through it and she was glad that, as before, she had been judged and not found **wanting**.
+					- *Proceedings: Entomological papers* [1902]
+					  > Discal black dot small or **wanting**. Transverse posterior line reduced to two dotlets or altogether **wanting**.
+					- *Pride and Prejudice* [1813]
+					  > […] but where other powers of entertainment are **wanting**, the true philosopher will derive benefit from such as are given.
+					- [Cato, a Tragedy](https://en.wikipedia.org/wiki/Cato,_a_Tragedy) [1712]
+					  #+BEGIN_QUOTE
+					  Already *Cæsar*
+					  Has ravaged more than half the Globe, and sees
+					  Mankind grown thin by his destructive Sword:
+					  Should he go further, Numbers would be **wanting**
+					  To form new Battels, and support his Crimes.
+					  #+END_QUOTE
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
