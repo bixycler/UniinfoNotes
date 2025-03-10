@@ -25,9 +25,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- E.g.:
 					- *Dead in the Water* [1993]
 					  > Kate felt privileged to have been permitted to speak through it and she was glad that, as before, she had been judged and not found **wanting**.
-					- *Proceedings: Entomological papers* [1902]
+					- *Proceedings: [Entomological](https://en.wikipedia.org/wiki/Entomology) papers* [1902]
 					  > Discal black dot small or **wanting**. Transverse posterior line reduced to two dotlets or altogether **wanting**.
-					- *Pride and Prejudice* [1813]
+					- [Pride and Prejudice](https://en.wikipedia.org/wiki/Pride_and_Prejudice) [1813]
 					  > […] but where other powers of entertainment are **wanting**, the true philosopher will derive benefit from such as are given.
 					- [Cato, a Tragedy](https://en.wikipedia.org/wiki/Cato,_a_Tragedy) [1712]
 					  #+BEGIN_QUOTE
