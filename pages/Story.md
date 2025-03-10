@@ -670,6 +670,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-03-10 Mon 10:22:00]
 		  :END:
-			- Shared with Huy
-				-
+			- Last week was the week my wife ran for [March 8th holiday](https://en.wikipedia.org/wiki/International_Women%27s_Day), and was my most work-off
+			- Shared with Huy [9/3/25 21:18]-[10/3/25 10:07]
+				- [9/3/25 21:18]
+				  Hôm nay sau 1 giấc ngủ dài, tui đi tâm hành dạng life review. Trong nhiều cảnh chạy qua, hầu hết là cảnh đời thường, thì có 1 cảnh đậm triết lý nên share ông nè:
+				- Trong một cảnh kiểu như từ trên nhìn xuống, thấy rất nhiều người, có một tiếng nói vọng ra:
+					- 12 ngàn công nhân này cũng không bằng...
+					- AVERAGE! -- Đùng 1 cái từ trên trời rơi xuống 1 chữ "average" cảm giác rất nặng, như 1 tảng đá từ trên trời rơi xuống vậy. Average ở đây là kẻ đại diện cho cả 12 ngàn công nhân kia, là ông vua, ông boss thực chất (có ruột, chứ không phải chỉ là 1 hình thức rỗng ruột)
+				- Cái cảnh này chỉ diễn ra trong chớp mắt, nhưng diễn tả ra thì nó dài dòng như vậy đó
+				- Nó nhắc nhở tui rằng cái tâm vòng tròn đại diện cho cả vòng tròn, rằng kẻ đứng đầu thực thụ, và những cái form kết tinh của content (chưa rỗng ruột) cũng quan trọng và có sức nặng không kém gì số đông contents kia. Đó là vì sâu thẳm trong tui luôn hướng về đại chúng bình dân, luôn coi thường mấy tên boss 😁
+				- Ngày xưa tui còn ghét hết thảy bọn vua chúa, chủ tịch, tổng thống, lớp trưởng, lớp phó đồ 😁
+				- Nhưng rồi đó cũng chỉ là một cảnh trong rất nhiều cảnh khác, những lần khóc ngất khi nghĩ về dân tộc, nhân loại đồ cũng chỉ là một giấc mơ... trong rất nhiều giấc mơ... Và nhìn về phía trước, thấy chút nữa thôi mình lại phải tiếp tục bước vào một giấc mơ mà mình biết chắc là nó sẽ cuốn mình đi xa... tui cảm thấy hơi ngán... Nhưng rồi nghe tiếng vợ ngáp... À thì bả tỉnh dậy 1 chút rồi, mình cũng tranh thủ đưa bả đi ăn để về bả còn ngủ tiếp, ngủ bù sau trận cày bán hoa lễ 8/3 mà...
+				- Thế là mở mắt ra, tui bước vào giấc mơ... và tui đang nhắn cho ông đây cũng trong cái giấc mơ đó. Ha ha, kẻ mở cặp mắt ngoài thì biểu kẻ nhắm mắt là mơ, kẻ mở con mắt trong (thường nhắm mắt ngoài) thì lại thấy kẻ mở mắt thao láo kia là đang mơ 😁
+				- [10/3/25 10:07]
+				  Hôm qua tui mở mắt ra bước vào giấc mơ (view Maya của người Ấn Độ), còn hôm nay tui chuyển sang view của người Kogi, mở mắt ra bước vào một con zombie, hay nói theo ngôn ngữ hiện đại là bước vào một con robot. 🤖
 		- ...
