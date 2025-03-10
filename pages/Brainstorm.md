@@ -14,7 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- DOING “wanting” = “lacking” ↔ “”
+		- DOING “wanting” = “lacking” ↔ “distress” = “anger” = “”
 		  id:: 67cea2ee-5f77-4576-8c1c-9e31d9b822c9
 		  collapsed:: true
 		  :LOGBOOK:
