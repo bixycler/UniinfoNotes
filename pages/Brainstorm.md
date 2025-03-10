@@ -20,7 +20,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-03-10 Mon 15:35:44]
 		  :END:
-			- The greed ([rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism))), desire, wanting are due to the lacking, the incompleteness within the self, which cause that self to look for, be attracted to and attach to its complements.
+			- The greed ([rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism))), desire, wanting are due to the **lacking**, the incompleteness within the self, which cause that self to look for, be **attracted** to and attach to its complements which bring **pleasure** to the self.
 			  id:: 67ceb0d9-35c9-4805-8430-35c204658dbd
 			  {{embed ((6667c99a-792f-4230-9fc6-c5fae874daef))}}
 				- Etymology:
@@ -52,8 +52,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- **Wanting** proper instructions, the team struggled to complete the task.
 						- The room, though elegant, was **wanting** the warmth of natural light.
 						- **Wanting** clear evidence, the jury found it difficult to reach a unanimous verdict.
-			- The hatred, aversion, dislike, or anger, angst, fear, fretfulness, distress are just the other side, opposite to [wanting](((67ceb0d9-35c9-4805-8430-35c204658dbd))), i.e. due to excessiveness:
-				- While wanting yields negative restoring force, dislike yields positive restoring force.
+			- The hatred, aversion, dislike, or anger, angst, fear, fretfulness, distress are just the other side, opposite to [wanting](((67ceb0d9-35c9-4805-8430-35c204658dbd))), i.e. due to **excessiveness** which brings **displeasure** to the self making it to **repel**:
+				- While wanting yields negative restoring force (pulling), dislike yields positive restoring force (pushing).
 				- Vietnamese: thừa → căng **tức** → bực **tức**
 				- Etymology:
 					- **Anger**: PIE [*h₂enǵʰ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82en%C7%B5%CA%B0-) (“constrict, tighten, compress, distressed, anxious”) →  Proto-Germanic [*angazaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/angazaz) (“worry, grief, anxiety”) → Old Norse [angr](https://en.wiktionary.org/wiki/angr#Old_Norse) (“sorrow, resentment, distress”) → Middle English _anger_ (“grief, pain, trouble, affliction, vexation, sorrow, wrath”) → Modern English [anger](https://en.wiktionary.org/wiki/anger) (“hostile attitude, ill will; surliness, distress, suffering; anguish, agony”)
