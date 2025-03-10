@@ -689,8 +689,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-06-11 Tue 10:50:54]
 			  CLOCK: [2024-09-13 Fri 15:34:45]
 			  :END:
-			  Balance is the intent of all forces./{}"
-				- All forces are caused by the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) to cancel its imbalance, hence restoring forces. This is the generalized version of the [law of entropy](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics#Direction_of_spontaneous_processes).
+			  “Balance is the intent of all forces.”
+				- All forces are caused by the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) to cancel its imbalance, hence **restoring forces**.
+				- This is the generalized version of the [law of entropy](https://en.wikipedia.org/wiki/Second_law_of_thermodynamics#Direction_of_spontaneous_processes).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
 				- WAIT round = divisible = reached GCD (unit) = distributed content (change) to all digits = equilibrium = reached Mecha/Turing machine (from bio, uninet)
