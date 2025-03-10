@@ -47,7 +47,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Wanting** proper instructions, the team struggled to complete the task.
 					- The room, though elegant, was **wanting** the warmth of natural light.
 					- **Wanting** clear evidence, the jury found it difficult to reach a unanimous verdict.
-			- {{embed ((6667c99a-792f-4230-9fc6-c5fae874daef))}}
+			- The greed ([mohā](https://en.wikipedia.org/wiki/Moha_(Buddhism))), desire, wanting are due to the lacking, the incompleteness within the self, which cause that self .
+			  {{embed ((6667c99a-792f-4230-9fc6-c5fae874daef))}}
 			- ((6747eac1-f683-4ed1-9b06-34fd10103c0c))
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
