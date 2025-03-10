@@ -674,7 +674,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Working time log
 				  collapsed:: true
 					- ![The most off week.png](../assets/Will/story/2025-Mar/The most off week.png)
-				- March 1st, i and wife w
+				- March 1st, i and wife went to Vũng Tàu to celebrate sister Hiền's wedding. After that we also visited sister Ngọc and share with her a technique for relaxation.
+				- Returning home, i was off every morning due to my tiredness at the previous night, whether from the long journey or from following the troubles in the monk group of master Minh Tuệ.
+				- Friday, i took the whole day off to sleep
 			- Shared with Huy [9/3/25 21:18]-[10/3/25 10:07]
 				- [9/3/25 21:18]
 				  Hôm nay sau 1 giấc ngủ dài, tui đi tâm hành dạng life review. Trong nhiều cảnh chạy qua, hầu hết là cảnh đời thường, thì có 1 cảnh đậm triết lý nên share ông nè:
