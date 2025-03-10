@@ -14,11 +14,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- DOING “wanting” = “lacking” ↔ “distress” = “overwhelming stress” = “anger” = “excessive pressure”
+		- ↓ to be flushed **down**! ↓
+	- ## 2025 Brainstorms
+	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- “wanting” = “lacking” ↔ “distress” = “overwhelming stress” = “anger” = “excessive pressure”
 		  id:: 67cea2ee-5f77-4576-8c1c-9e31d9b822c9
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-03-10 Mon 15:35:44]
+		  CLOCK: [2025-03-10 Mon 15:35:44]--[2025-03-10 Mon 20:07:20] =>  04:31:36
 		  :END:
 			- The greed ([rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism))), desire, wanting are due to the **lacking**, the incompleteness within the self, which cause that self to look for, be **attracted** to and attach to its complements which bring **pleasure** to the self.
 			  id:: 67ceb0d9-35c9-4805-8430-35c204658dbd
@@ -61,12 +64,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Three states: lacking - excessive - sufficient
 				- Three forces: attration (affinity) - propulsion (aversion) - inertia (momentum)
 				  attractive force - propulsive force - inertial force
-				- Three feelings ([vedanā](https://en.wikipedia.org/wiki/Vedan%C4%81)): leasant - unpleasant - neutral
+				- Three feelings ([vedanā](https://en.wikipedia.org/wiki/Vedan%C4%81)): pleasant - unpleasant - neutral
 				- Three poisons: greed - anger - delusion
 				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)): Circle - Arrow - Equal
-		- ↓ to be flushed **down**! ↓
-	- ## 2025 Brainstorms
-	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- Some established formalisms for the notion of “distribution of space” in Unithread
 		  id:: 67bda37c-7085-4a71-b5bf-6c4b54b3abdd
 		  collapsed:: true
