@@ -47,10 +47,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Wanting** proper instructions, the team struggled to complete the task.
 					- The room, though elegant, was **wanting** the warmth of natural light.
 					- **Wanting** clear evidence, the jury found it difficult to reach a unanimous verdict.
-			- The greed ([mohā](https://en.wikipedia.org/wiki/Moha_(Buddhism))), desire, wanting are due to the lacking, the incompleteness within the self, which cause that self to look for, be attracted to and attach to its complements.
+			- The greed ([rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism))), desire, wanting are due to the lacking, the incompleteness within the self, which cause that self to look for, be attracted to and attach to its complements.
 			  id:: 67ceb0d9-35c9-4805-8430-35c204658dbd
 			  {{embed ((6667c99a-792f-4230-9fc6-c5fae874daef))}}
-			- The hatred, aversion, dislike are just the other side, opposite to [wanting](((67ceb0d9-35c9-4805-8430-35c204658dbd))): while wanting yields negative restoring force,
+			- The hatred, aversion, dislike are just the other side, opposite to [wanting](((67ceb0d9-35c9-4805-8430-35c204658dbd))), i.e. due to excessiveness:
+				- While wanting yields negative restoring force, dislike yields positive restoring force.
+				- Vietnamese: thừa → căng
 			- ((6747eac1-f683-4ed1-9b06-34fd10103c0c))
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
