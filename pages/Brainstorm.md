@@ -21,7 +21,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-03-10 Mon 15:35:44]
 		  :END:
 			- Etymology: [*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-) (“empty”) →  Proto-Germanic [*wanô](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/wan%C3%B4) (“lack, deficiency”) → Old Norse [vanta](https://en.wiktionary.org/wiki/vanta#Old_Norse) (“to lack”) → Middle English [wanten](https://en.wiktionary.org/wiki/wanten#Middle_English) [1200] (“to lack”) → Modern English [1700] “desire, wish for, feel the need of”
-			- “[Wanting](https://en.wiktionary.org/wiki/wanting)” as an adjective (still used in formal writing and literature) or as a preposition (quite rare in modern English) means “lacking”.
+			- “[Wanting](https://en.wiktionary.org/wiki/wanting)” as an adjective (still used in formal writing and literature) or as a preposition (quite rare in modern English) still means “lacking” in modern English.
 				- E.g. as adjective:
 				  collapsed:: true
 					- By Copilot
@@ -43,9 +43,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  To form new Battels, and support his Crimes.
 					  #+END_QUOTE
 				- E.g. as preposition: (by Copilot)
+				  collapsed:: true
 					- **Wanting** proper instructions, the team struggled to complete the task.
 					- The room, though elegant, was **wanting** the warmth of natural light.
 					- **Wanting** clear evidence, the jury found it difficult to reach a unanimous verdict.
+			- {{embed ((6667c99a-792f-4230-9fc6-c5fae874daef))}}
+			- ((6747eac1-f683-4ed1-9b06-34fd10103c0c))
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
