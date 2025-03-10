@@ -662,13 +662,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Then i tried to contact him but soon realized that he has been so famous for such an anonymous like me to have any contact.
 				- I decided to just do some simple interaction on his fb page: ((67bee123-6ab7-44a1-bddf-0bcf8b91ff0e))
 				- Then just let everything go on its own natural flow.
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING The story of a zombie [Mon March 10th]
+		- The story of a zombie [Mon March 10th]
 		  id:: 67ce5a8c-4885-4aaf-9215-60460717ae44
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-03-10 Mon 10:22:00]
+		  CLOCK: [2025-03-10 Mon 10:22:00]--[2025-03-10 Mon 11:33:43] =>  01:11:43
 		  :END:
 			- Last week was the week my wife ran for [March 8th holiday](https://en.wikipedia.org/wiki/International_Women%27s_Day), and was my most off-work week with only 2 days at work.
 				- Working time log
@@ -681,7 +679,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 67ce68b8-7f46-462e-acd1-c329c6258f64
 				- After the life review, i entered the [dream (maya) of this life](https://en.wikipedia.org/wiki/Maya_(religion)), where i watched the story of [Armin Meiwes](https://en.wikipedia.org/wiki/Armin_Meiwes).
 				- 7am today morning, i went to bed “just for a moment” to rest my back to go to work... but ended up sleeping until 9am. I got up with a fractal view and entered the zombie or robot 🤖 life.
-				- Here, the zombie is typing
+				- Here, the zombie is typing....
 			- Shared with Huy about the [life review](((67ce68b8-7f46-462e-acd1-c329c6258f64))) [9/3/25 21:18]-[10/3/25 10:07]
 			  id:: 67ce5ad0-198b-45ab-a820-0d0f66a65f2c
 				- [9/3/25 21:18]
@@ -696,4 +694,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Thế là mở mắt ra, tui bước vào giấc mơ... và tui đang nhắn cho ông đây cũng trong cái giấc mơ đó. Ha ha, kẻ mở cặp mắt ngoài thì biểu kẻ nhắm mắt là mơ, kẻ mở con mắt trong (thường nhắm mắt ngoài) thì lại thấy kẻ mở mắt thao láo kia là đang mơ 😁
 				- [10/3/25 10:07]
 				  Hôm qua tui mở mắt ra bước vào giấc mơ (view Maya của người Ấn Độ), còn hôm nay tui chuyển sang view của người Kogi, mở mắt ra bước vào một con zombie, hay nói theo ngôn ngữ hiện đại là bước vào một con robot. 🤖
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
