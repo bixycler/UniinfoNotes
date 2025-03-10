@@ -14,7 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- DOING “wanting” = “lacking”
+		- DOING “wanting” = “lacking” ↔ “”
 		  id:: 67cea2ee-5f77-4576-8c1c-9e31d9b822c9
 		  collapsed:: true
 		  :LOGBOOK:
@@ -50,7 +50,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The greed ([rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism))), desire, wanting are due to the lacking, the incompleteness within the self, which cause that self to look for, be attracted to and attach to its complements.
 			  id:: 67ceb0d9-35c9-4805-8430-35c204658dbd
 			  {{embed ((6667c99a-792f-4230-9fc6-c5fae874daef))}}
-			- The hatred, aversion, dislike, or anger, angst, fear, fretfulness are just the other side, opposite to [wanting](((67ceb0d9-35c9-4805-8430-35c204658dbd))), i.e. due to excessiveness:
+			- The hatred, aversion, dislike, or anger, angst, fear, fretfulness, distress are just the other side, opposite to [wanting](((67ceb0d9-35c9-4805-8430-35c204658dbd))), i.e. due to excessiveness:
 				- While wanting yields negative restoring force, dislike yields positive restoring force.
 				- Vietnamese: thừa → căng tức → bực tức
 			- ((6747eac1-f683-4ed1-9b06-34fd10103c0c))
