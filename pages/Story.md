@@ -677,7 +677,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- March 1st, i and wife went to Vũng Tàu to celebrate sister Hiền's wedding. After that we also visited sister Ngọc and share with her a technique for relaxation.
 				- Returning home, i was off every morning due to my tiredness at the previous night, whether from the long journey or from following the troubles in the monk group of master Minh Tuệ.
 				- Friday, i took the whole day off for sleeping to make up for the sleeplessness of the previous night.
-			- Shared with Huy [9/3/25 21:18]-[10/3/25 10:07]
+				- Saturday, i slept for 17 hours from 0h to 17h, then had a life review nearly 3 hours
+				  id:: 67ce68b8-7f46-462e-acd1-c329c6258f64
+			- Shared with Huy about the [life review](((67ce68b8-7f46-462e-acd1-c329c6258f64))) [9/3/25 21:18]-[10/3/25 10:07]
 				- [9/3/25 21:18]
 				  Hôm nay sau 1 giấc ngủ dài, tui đi tâm hành dạng life review. Trong nhiều cảnh chạy qua, hầu hết là cảnh đời thường, thì có 1 cảnh đậm triết lý nên share ông nè:
 				- Trong một cảnh kiểu như từ trên nhìn xuống, thấy rất nhiều người, có một tiếng nói vọng ra:
