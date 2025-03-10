@@ -664,13 +664,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Then just let everything go on its own natural flow.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING The story of a zombie
+		- DOING The story of a zombie [Mon March 10th]
 		  id:: 67ce5a8c-4885-4aaf-9215-60460717ae44
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-03-10 Mon 10:22:00]
 		  :END:
-			- Last week was the week my wife ran for [March 8th holiday](https://en.wikipedia.org/wiki/International_Women%27s_Day), and was my most work-off
+			- Last week was the week my wife ran for [March 8th holiday](https://en.wikipedia.org/wiki/International_Women%27s_Day), and was my most off-work week with only 2 days at work.
+				- Working time log
+				  collapsed:: true
+					- ![The most off week.png](../assets/Will/story/2025-Mar/The most off week.png)
+				- March 1st, i and wife w
 			- Shared with Huy [9/3/25 21:18]-[10/3/25 10:07]
 				- [9/3/25 21:18]
 				  Hôm nay sau 1 giấc ngủ dài, tui đi tâm hành dạng life review. Trong nhiều cảnh chạy qua, hầu hết là cảnh đời thường, thì có 1 cảnh đậm triết lý nên share ông nè:
