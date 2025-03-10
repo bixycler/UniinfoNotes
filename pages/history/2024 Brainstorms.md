@@ -189,7 +189,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- $x ± y = (x + y, x - y)/\sqrt{2}$
 				- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
 				- These are genralized “rotation” operations similar to [unitary operators](https://en.wikipedia.org/wiki/Unitary_operator) which preserve the norm of state vector.
-	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the [halting problem](https://en.wikipedia.org/wiki/Halting_problem) = [liar paradox](https://en.wikipedia.org/wiki/Liar_paradox) = circle-arrow complementarity = ((66f3e588-9094-45af-9dff-2225c3ac39ab)) = unlimited refinability = intrinsic openness of the ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
+	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the ((67b81e1b-b801-4e5a-9c00-98e51158712a)) = [liar paradox](https://en.wikipedia.org/wiki/Liar_paradox) = circle-arrow complementarity = ((66f3e588-9094-45af-9dff-2225c3ac39ab)) = unlimited refinability = intrinsic openness of the ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
 	  id:: 6747eac1-f683-4ed1-9b06-34fd10103c0c
 	  collapsed:: true
 		- circle = completeness = totality <> arrow = consistency = partiality
