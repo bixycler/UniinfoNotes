@@ -2463,12 +2463,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Frequent short pauses in the middle of the flow, usually from one to three breaths, help us to subtlize the large circle into smaller circles, and train the habit of resetting.
 					- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 						- I discovered this technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
-			- DOING ### purify
+			- ### purify
 			  :LOGBOOK:
 			  CLOCK: [2024-08-17 Sat 19:09:59]
-			  CLOCK: [2025-03-11 Tue 16:07:35]
+			  CLOCK: [2025-03-11 Tue 16:07:35]--[2025-03-11 Tue 16:45:48] =>  00:38:13
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The hardened contaminants & defilements which are difficult to be [broken](((66aded27-9701-4b6e-85e8-22049ddbe2d2))) should be eliminated with [meditation (dhyāna)](https://en.wikipedia.org/wiki/Buddhist_meditation) and contemplation.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The hardened contaminants & defilements which are difficult to be [broken](((66aded27-9701-4b6e-85e8-22049ddbe2d2))) should be eliminated with [meditation (dhyāna) and contemplation](https://en.wikipedia.org/wiki/Buddhist_meditation). We should also protect ourselves from external contaminants using [ethics (sila)](https://en.wikipedia.org/wiki/Buddhist_ethics).
 			- About the terms
 				- refine = make it finer, which can be ether purer (less contaminants, defilements) or subtler (more fine-grained)
 				- purify = make it purer
