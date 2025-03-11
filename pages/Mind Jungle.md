@@ -3416,9 +3416,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The inertia/momentum of the internal work is too large to be changed (in direction) ⇒ delusion.
 							- That large momentum + the need to change = overwhelmed, heavy resistance ⇒ aversion.
 							- When such large momentum is forced to stop, leaving the void inside, the self is hungry ⇒ greed.
-						- Refine to small self circle
+						- Refine to a small self circle
 							- Magnitude of the form is small, but the total amount is still sufficient thanks to temporary connection with others.
-							- The dynamic center is kept close to the static center ⇒ the sight line is level and points at the horizon
+							- To solve the hunger, the greed, the wanting, we must [keep the bodymind fully occupied](((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))) with opposites.
+							- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
+							-
 						- Nothing is completely lost!
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
