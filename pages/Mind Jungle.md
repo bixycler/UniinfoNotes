@@ -2449,11 +2449,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Then i refined the technique with breathwork which resulted in the [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))).
 				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
 				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
-			- DOING ### subtilize
+			- ### subtilize
 			  id:: 66aded27-9701-4b6e-85e8-22049ddbe2d2
 			  :LOGBOOK:
 			  CLOCK: [2024-08-17 Sat 19:09:56]
-			  CLOCK: [2025-03-11 Tue 15:35:24]
+			  CLOCK: [2025-03-11 Tue 15:35:24]--[2025-03-11 Tue 15:51:15] =>  00:15:51
 			  :END:
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67cff615-ec0d-4831-9851-59410cb89cf1))
 				- microreset
@@ -2461,7 +2461,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66aded27-9701-4b6e-85e8-22049ddbe2d2))
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Frequent short pauses in the middle of the flow, usually from one to three breaths, help us to subtlize the large circle and train the habit of resetting.
 					- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
-						- I discovered this technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021
+						- I discovered this technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
 			- TODO ### purify
 			  :LOGBOOK:
 			  CLOCK: [2024-08-17 Sat 19:09:59]
@@ -3437,7 +3437,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
 							- When needed to change direction, some peripheral circles must be released to return to the static center (neutral mode, [point mort](https://en.wiktionary.org/wiki/point_mort)) before engaging in any other direction.
 						- [Reset](((67445065-15b2-475e-a704-78f140d487af)))tability: Peripheral circles must be trained to be released easily.
-							- Techniques: ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) & ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+							- Techniques: ((67cff615-ec0d-4831-9851-59410cb89cf1)), ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+								- Other suggested techniques:
+									- Anchoring: Touch a reminder object, like
 							- Based on the experience & belief that _nothing is completely lost_, we can release them.
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
