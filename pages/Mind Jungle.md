@@ -2456,6 +2456,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-03-11 Tue 15:35:24]--[2025-03-11 Tue 15:51:15] =>  00:15:51
 			  :END:
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67cff615-ec0d-4831-9851-59410cb89cf1))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The (669a5387-2a97-4311-a295-aa0afd9c4d76))  can lead to selflessness.
 				- microreset
 				  id:: 67cff615-ec0d-4831-9851-59410cb89cf1
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66aded27-9701-4b6e-85e8-22049ddbe2d2))
@@ -2467,9 +2468,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-08-17 Sat 19:09:59]
 			  CLOCK: [2025-03-11 Tue 16:07:35]
 			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 			- About the terms
-				- refine = make it finer
-				-
+				- refine = make it finer, which can be ether purer (less contaminants, defilements) or subtler (more fine-grained)
+				- purify = make it purer
 				- subtilize = make it subtler
 				- pulverize = make the particles more fine-grained
 				  collapsed:: true
