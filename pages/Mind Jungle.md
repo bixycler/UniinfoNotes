@@ -3408,7 +3408,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [!] When i interrupt the internal work, my self is fragmented, heavy, lack motivation to do anything.
 					  id:: 67b541cf-4818-45ad-911c-d2c3397f9e3d
 					  collapsed:: true
-						-
+						- Expressed as ((67ced16d-2fbb-4c5d-9061-5d8f490f6073))
+						  :LOGBOOK:
+						  CLOCK: [2025-03-11 Tue 10:39:10]
+						  :END:
+							- The inertia/momentum of the internal work is too large to be changed (direction) ⇒ delusion.
+							- When such large momentum is forced to stop/change, the self get overwhelmed, heavy resistance ⇒ aversion.
+							-
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
 					  :LOGBOOK:
