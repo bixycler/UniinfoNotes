@@ -2459,15 +2459,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- microreset
 				  id:: 67cff615-ec0d-4831-9851-59410cb89cf1
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66aded27-9701-4b6e-85e8-22049ddbe2d2))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Frequent short pauses in the middle of the flow, usually from one to three breaths, help us to subtlize the large circle and train the habit of resetting.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Frequent short pauses in the middle of the flow, usually from one to three breaths, help us to subtlize the large circle into smaller circles, and train the habit of resetting.
 					- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 						- I discovered this technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
-			- TODO ### purify
+			- DOING ### purify
 			  :LOGBOOK:
 			  CLOCK: [2024-08-17 Sat 19:09:59]
+			  CLOCK: [2025-03-11 Tue 16:07:35]
 			  :END:
 			- About the terms
 				- refine = make it finer
+				-
 				- subtilize = make it subtler
 				- pulverize = make the particles more fine-grained
 				  collapsed:: true
@@ -3438,9 +3440,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- When needed to change direction, some peripheral circles must be released to return to the static center (neutral mode, [point mort](https://en.wiktionary.org/wiki/point_mort)) before engaging in any other direction.
 						- [Reset](((67445065-15b2-475e-a704-78f140d487af)))tability: Peripheral circles must be trained to be released easily.
 							- Techniques: ((67cff615-ec0d-4831-9851-59410cb89cf1)), ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
-								- Other suggested techniques:
-									- **Anchoring**: Touching a reminder object, like a [mala lace](https://en.wikipedia.org/wiki/Japamala), hearing a sound, like a bell ring, or praying a mantra can help us to focus on the object and release other stuffs.
-									- **Visualization**: Recalling the calm and focus of the meditative state that we're used to can help us release other stuffs.
+							- Other suggested techniques:
+								- **Anchoring**: Touching a reminder object, like a [mala lace](https://en.wikipedia.org/wiki/Japamala), hearing a sound, like a bell ring, or praying a mantra can help us to focus on the object and release other stuffs.
+								- **Visualization**: Recalling the calm and focus of the meditative state that we're used to can help us release other stuffs.
 							- Based on the experience & belief that _nothing is completely lost_, we can release them.
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
