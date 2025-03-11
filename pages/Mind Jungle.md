@@ -3417,7 +3417,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- That large momentum + the need to change = overwhelmed, heavy resistance ⇒ aversion.
 							- When such large momentum is forced to stop, leaving the void inside, the self is hungry ⇒ greed.
 						- Refine to small self circle
-							-
+							- Magnitude of the form is small, but the total amount is still sufficient thanks to temporary connection with others.
+							- The dynamic center is kept close to the static center ⇒ the sight line is level and points at the horizon
 						- Nothing is completely lost!
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
