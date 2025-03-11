@@ -3427,9 +3427,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The total amount of contents in the bodymind is still sufficient thanks to temporary connection with peripheral circles in the form of pairs of opposites.
 							- The opposites [keep the bodymind fully occupied](((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))) to get rid of the hunger, the greed, the wanting.
 							- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
-							- When needed to change direction, some peripheral circles must be released to return to the static center.
+							- When needed to change direction, some peripheral circles must be released to return to the static center (neutral mode, [point mort](https://en.wiktionary.org/wiki/point_mort)) before setting in any other direction.
 						- Peripheral circles must be trained to be released easily.
-							- Nothing is completely lost!
+							- Techniques: ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) & ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+							- Based on the experience & belief that _nothing is completely lost_, we can release them.
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
 					  :LOGBOOK:
