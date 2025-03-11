@@ -265,12 +265,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- This approach aligns beautifully with the practice of mindfulness, where observing and accepting our experiences without judgment can lead to greater clarity and inner peace.
 					- Your method is a powerful way to foster self-awareness and emotional well-being. Do you find this practice particularly helpful in certain situations or aspects of your life? 🌿🧘‍♂️✨
 			- Getting back to the computer, seeing the lot of screenshots of the [chat with Gemini](((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)))...
+			  id:: 67b541d8-9fb1-4edc-80e5-4e9f3c59fb7c
 				- seeing the order is wrong, i inteded to rename them with additional semantics...
 				- but i just stopped, seeing many times previously when i did such a thing...
 				- what should i do?! 🤔
 				- re-evaluate it, estimate the time for it...
 				- it's ok, just do it.
 				- got it done, eventually!
+				  id:: 67b541d8-78ff-4a9b-b9b4-98fd3e041385
 		- Try using Copilot code assistant & VS Code
 		  id:: 6788f0ae-773b-4da2-87f5-c6552d76a00c
 		  collapsed:: true

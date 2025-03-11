@@ -144,7 +144,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- stagger is to momentum ~ [distortion is to force/curvature](((67b541d0-9e59-42ec-9199-9e9e114579e8)))
 			- All the three parts of ((67a98760-71fa-4033-9c42-f3025d632d04)), i.e. input, output, internal bridge/cycle, are continued by staggering.
 				- Output: integral/accumulation form higher derivative to lower level = action = projection outward from potential to actual = actualization = extension (from empty to solid, from abstract to concrete)
-				- Input: differentiation/derivation from lover to higher level = attraction = observation = learning
+				- Input: differentiation/derivation from lower to higher level = attraction = observation = learning
 				- Bridge: innermost bridge between inward & outward flow = equal = driver = switcher/chooser = free will
 					- Fineness of this bridge = 1/size of self = degree of freedom
 			- Stretching out by time, that transcycling becomes a double cone of ((66725144-6bc9-4c9f-ba48-2cef02651e52)) ~ [wave equation](https://en.wikipedia.org/wiki/Wave_equation) ~ [effect circle](((674ff584-00e3-40d8-9b77-21e9dca899dd))) = ((67b183f5-1cca-4473-917e-60c644dd5466)).
