@@ -771,7 +771,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  :LOGBOOK:
 	  CLOCK: [2024-07-15 Mon 20:28:28]
 	  :END:
-		- With the ((668f5490-c223-4a8a-9cc4-0bd71af4c097))ing mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
+		- With the sublime-channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
 		  id:: 66b1cfa3-93c4-4de3-8904-06fb065ded70
 		- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
 	- WAIT The role of circle refinement and of sublimation - channeling
