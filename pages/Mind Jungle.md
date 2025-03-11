@@ -2449,10 +2449,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Then i refined the technique with breathwork which resulted in the [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))).
 				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
 				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
-			- TODO ### subtilize
+			- DOING ### subtilize
 			  id:: 66aded27-9701-4b6e-85e8-22049ddbe2d2
 			  :LOGBOOK:
 			  CLOCK: [2024-08-17 Sat 19:09:56]
+			  CLOCK: [2025-03-11 Tue 15:35:24]
 			  :END:
 			- TODO ### purify
 			  :LOGBOOK:
@@ -3428,7 +3429,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The opposites [keep the bodymind fully occupied](((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))) to get rid of the hunger, the greed, the wanting.
 							- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
 							- When needed to change direction, some peripheral circles must be released to return to the static center (neutral mode, [point mort](https://en.wiktionary.org/wiki/point_mort)) before engaging in any other direction.
-						- Peripheral circles must be trained to be released easily.
+						- [Reset](((67445065-15b2-475e-a704-78f140d487af)))tability: Peripheral circles must be trained to be released easily.
 							- Techniques: ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) & ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
 							- Based on the experience & belief that _nothing is completely lost_, we can release them.
 					- DOING **Duck dive** is a serious problem!
