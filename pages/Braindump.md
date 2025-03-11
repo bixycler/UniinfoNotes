@@ -439,7 +439,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- From the [triads](((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))) yesterday, this morning, i've
+		- From the [triads](((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))) yesterday, this morning, i've contemplated about my problem of [rigidity/inertia/momentum](((67b541cf-4818-45ad-911c-d2c3397f9e3d))).
 		  id:: 67cfa71c-da0f-4ebb-b390-8c89870711b9
 		  :LOGBOOK:
 		  CLOCK: [2025-03-11 Tue 10:00:17]

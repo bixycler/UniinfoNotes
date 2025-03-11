@@ -3405,7 +3405,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :END:
 							- Without distraction, it's easier for me to stay in the free & mindful state. But in the free state, it's also difficult for me to interact with external tools like note taking, speaking, writing, forming formula, etc.
 							- This hook can be replaced with the [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))). Using the internal tool (breath) gives me more control than the external tool (external sink).
-					- When i interrupt the internal work, my self is fragmented, heavy, lack motivation to do anything.
+					- [!] When i interrupt the internal work, my self is fragmented, heavy, lack motivation to do anything.
+					  id:: 67b541cf-4818-45ad-911c-d2c3397f9e3d
+					  collapsed:: true
+						-
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
 					  :LOGBOOK:
@@ -3685,6 +3688,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((66b1cfa4-369c-49ec-a461-cdda61633460))
 					- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
 					  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
+					  collapsed:: true
 						- Any new block, even plain text, should be [time tracked](((66b1cfa4-0f03-4da2-b34b-d995d3c888b0))) [with `Ctrl Enter` -> `TODO`](((66b1cfa4-8842-4b3c-876b-e60d4b7fd819))) or [with `Alt Enter` -> `DOING`](((66b1cfa4-33e0-4e5a-9a68-2e8e19b207ac))).
 						  id:: 66f7af1f-783e-489b-af9c-3ff01fc7d872
 						  :LOGBOOK:
@@ -3711,8 +3715,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- traversal on the breadth with SCIFER provides context, condition (duyên), and form to stretch the loop out to be a full circle 🌕, to be the whole
 						- However, ((67a5d140-31e4-451d-a8ea-33fa6927ce99))
 				- [!] The issue of love, i.e. emotional attatchment
+				  id:: 67b541cf-323e-4efd-8d6e-ccb2c9d017ff
 				  collapsed:: true
 					- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
+					- ((66e3a0f4-579a-4668-97c2-cbb9984e59c2))
+					- ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
 				- [!] Windows 10 (seems from Windows 7) lets its window borders be dragged off the screen!
 				  id:: 66adf2e5-ddde-4ee3-8086-78ce57483837
 				  collapsed:: true
