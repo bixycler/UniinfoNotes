@@ -3416,18 +3416,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The inertia/momentum of the internal work is too large to be changed (in direction) ⇒ delusion.
 							- That large momentum + the need to change = overwhelmed, heavy resistance ⇒ aversion.
 							- When such large momentum is forced to stop, leaving the void inside, the self is hungry ⇒ greed.
-						- Refine the self obop to a small circle.
+						- Solution: Refine the self obop to a small circle.
 							- Magnitude of the form is small ⇒ high curvature, easy to change direction
 							- Small self leaves room in the bodymind for external requirements ⇒ keep from aversion
 							- Other different directions can be seen ⇒ clear & wise, not ignorant
 							- The small self is never empty ⇒ no greed
-							- To take action, the small self must combine with external circles in the bodymind to drive them.
-						- The total amount of contents in the bodymind is still sufficient thanks to temporary connection with external circles in the form of pairs of opposites.
+							- To take action, the small self must combine with peripheral circles in the bodymind to drive them.
+						- The total amount of contents in the bodymind is still sufficient thanks to temporary connection with peripheral circles in the form of pairs of opposites.
 							- The opposites [keep the bodymind fully occupied](((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))) to get rid of the hunger, the greed, the wanting.
 							- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
-							- When needed to change direction, some external circles must be released to return to the static center.
-						- Peripheral circles
-						- Nothing is completely lost!
+							- When needed to change direction, some peripheral circles must be released to return to the static center.
+						- Peripheral circles must be trained to be released easily.
+							- Nothing is completely lost!
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
 					  :LOGBOOK:
@@ -3739,22 +3739,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
 					- ((66e3a0f4-579a-4668-97c2-cbb9984e59c2))
 					- ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
-				- [!] Windows 10 (seems from Windows 7) lets its window borders be dragged off the screen!
-				  id:: 66adf2e5-ddde-4ee3-8086-78ce57483837
-				  collapsed:: true
-				  :LOGBOOK:
-				  CLOCK: [2024-08-03 Sat 15:30:44]--[2024-08-03 Sat 17:01:02] =>  01:30:18
-				  :END:
-					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-						- This is a feature for seamless multi-display settings, but should be across displays next to each other only, not protruding out of visible areas like this.
-						- Sometime we need to _intentionally drag windows partly off the screen_ to leave space for other windows and because we **don't want to resize** that window.
-							- This can be balanced with the normal constraint of windows within screen by edge snapping.
-								- But [Windows Snap](https://support.microsoft.com/en-us/windows/snap-your-windows-885a9b1e-a983-a3b1-16cd-c531795e6241) feature **always resize** the snapped window.
-								- There's an option "When I snap a window, automatically resize it to fill available space", but unchecking it has no effect.
-								  collapsed:: true
-									- ![Windows10-SnapWindow-settings.png](../assets/GUI/Windows/Windows10-SnapWindow-settings.png)
-						- StackOverflow question with negative answer: [Prevent windows from being dragged past the edge of screen](https://stackoverflow.com/questions/44219386/prevent-windows-from-being-dragged-past-the-edge-of-screen)
-						- Someone met the problem of [windows open off screen](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-windows-open-off-screen/0f2432ad-c60d-4bce-808b-3f0c403ce9f2) with no effective solution, too.
 				- [!] Time is always gone too fast! :(
 				  id:: 66600918-315b-4f6c-970b-3039ac8ef912
 				- [!] ((66536578-c4d3-43f1-b35c-bf71120f0570)) is not perfect.

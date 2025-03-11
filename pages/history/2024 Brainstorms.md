@@ -942,11 +942,28 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- radius: $(dx)^2 + (dy)^2 + (dz)^2 = 1^2$
 			- phase: $∮ dx$ = ε (intent) = dy (extent)
 				- SCIFER: the internal resource circle (intent) rolls against the external object circle (content), the mismatch $dy$ is the further internal sustent circle
+	- [!] Windows 10 (seems from Windows 7) lets its window borders be dragged off the screen!
+	  id:: 66adf2e5-ddde-4ee3-8086-78ce57483837
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-03 Sat 15:30:44]--[2024-08-03 Sat 17:01:02] =>  01:30:18
+	  :END:
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- This is a feature for seamless multi-display settings, but should be across displays next to each other only, not protruding out of visible areas like this.
+			- Sometime we need to _intentionally drag windows partly off the screen_ to leave space for other windows and because we **don't want to resize** that window.
+				- This can be balanced with the normal constraint of windows within screen by edge snapping.
+					- But [Windows Snap](https://support.microsoft.com/en-us/windows/snap-your-windows-885a9b1e-a983-a3b1-16cd-c531795e6241) feature **always resize** the snapped window.
+					- There's an option "When I snap a window, automatically resize it to fill available space", but unchecking it has no effect.
+					  collapsed:: true
+						- ![Windows10-SnapWindow-settings.png](../assets/GUI/Windows/Windows10-SnapWindow-settings.png)
+			- StackOverflow question with negative answer: [Prevent windows from being dragged past the edge of screen](https://stackoverflow.com/questions/44219386/prevent-windows-from-being-dragged-past-the-edge-of-screen)
+			- Someone met the problem of [windows open off screen](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-windows-open-off-screen/0f2432ad-c60d-4bce-808b-3f0c403ce9f2) with no effective solution, too.
 	- Intension (description, address) >-[exp]-> intent (constructive extension, address/name space) >-[complement, reciprocal]-> extent (predicative extension, object/value space)
 	  collapsed:: true
 		- The good old diagram 😊 ([from Mar 2011](https://docs.google.com/drawings/d/1ki-Zwf4N5KTbGZ5XdGlEOrDyV7SWIYnlPi_uKoblWdA/edit?usp=sharing))
 		  ![Constructive vs Predicative In/extension](https://docs.google.com/drawings/d/e/2PACX-1vRMG3kI6P4QLYvd9uyosDG07EP7TyCkJCGDoydCdoIK2i1SeS5-TJE-b3-w_2S7-F2WF6AiTcCrZaDu/pub?w=575&h=522)
 	- Everything (intensionally) is address.
+	  id:: 67b541c9-df24-47b1-90a8-9f7065d53a5f
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-06-12 Wed 10:23:02]
@@ -987,6 +1004,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- An address space A can build its structure based on another meta-space B, where each address on A, called "name" (local name, logical address), is translated to an address on B, called "address" (full address, physical address), like in Markdown syntax `[local.name](address/to/target/object)`.
 			- That namespace A is in general orthogonal to the underlying address space B, but can also reuse some parts of B to create "natural names", i.e. the names following the underlying structure.
 	- Levels of numbers & thread
+	  id:: 67b541c9-56f8-40dc-ab10-e83a7d50ce1d
 	  collapsed:: true
 		- 4. Relaxed thread, constant velocity c, "straight/round", Turing machine, searching
 		- 5. Compressed 1-dir thread (temporal), nonzero acceleration/curvature, probability, AI, optimization toward 1 dir
@@ -996,6 +1014,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		- The wholeness (the roundness) -> there's a center point in each circle, even invisible, common (shared) to all parts (arrows) of that circle -> the common
 		- The common -> all parts are linked together via that common (center) -> the wholeness
 	- In-ex relativity: ways to turn inside out
+	  id:: 67b541c9-0436-4987-9720-b50f736da2d4
 	  collapsed:: true
 		- intension - extension
 		- inversive & projective geometry
@@ -1017,6 +1036,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- Thanks to its conciseness, the name can be used by many subjects. This use is the [mixing](https://en.wikipedia.org/wiki/Mixing_(physics)) of content between objects.
 		- Naming = ε-abstraction is the `ob` part of the obop, while repeating = ω-extension (including, embedding) is the `op` part of the obop.
 	- External context = external form
+	  id:: 67b541c9-f4a6-4c6a-9ff2-33a83accbfda
 	  collapsed:: true
 		- Each work item has an `ex` space (environment, address space, context) as the world view in contrast to the `in` space (self, component space, content).
 		- Global context: [[Namespace]]
@@ -1026,6 +1046,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- here ((66600918-ed92-40c9-bda5-1911865d676c)) and
 			- here ((66600918-bbc8-4d92-8d46-dbda3eed92f0))
 	- function = mapping = transformation = arrow
+	  id:: 67b541c9-45de-43e4-9ea1-054bac477a19
 	  collapsed:: true
 		- relation = 2 way arrow (diff from + diff to = diff with)
 		- Complement of "((667d0b78-fff6-49bc-90d5-165648ed56d3)) as 2 way arrow" is "relation as common part between related objects"
