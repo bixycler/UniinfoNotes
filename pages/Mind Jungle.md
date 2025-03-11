@@ -3416,14 +3416,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The inertia/momentum of the internal work is too large to be changed (in direction) ⇒ delusion.
 							- That large momentum + the need to change = overwhelmed, heavy resistance ⇒ aversion.
 							- When such large momentum is forced to stop, leaving the void inside, the self is hungry ⇒ greed.
-						- Refine the self to a small circle.
+						- Refine the self obop to a small circle.
 							- Magnitude of the form is small ⇒ high curvature, easy to change direction
 							- Small self leaves room in the bodymind for external requirements ⇒ keep from aversion
 							- Other different directions can be seen ⇒ clear & wise, not ignorant
 							- The small self is never empty ⇒ no greed
-						- However, the total amount is still sufficient thanks to temporary connection with other pairs of opposites.
+							- To take action, the small self must combine with external circles in the bodymind to drive them.
+						- The total amount of contents in the bodymind is still sufficient thanks to temporary connection with external circles in the form of pairs of opposites.
 							- The opposites [keep the bodymind fully occupied](((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))) to get rid of the hunger, the greed, the wanting.
 							- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
+							- When needed to change direction, some external circles must be released to return to the static center.
+						- Peripheral circles
 						- Nothing is completely lost!
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
