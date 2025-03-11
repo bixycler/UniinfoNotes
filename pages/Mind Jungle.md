@@ -3409,11 +3409,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 67b541cf-4818-45ad-911c-d2c3397f9e3d
 					  collapsed:: true
 						- Expressed as ((67ced16d-2fbb-4c5d-9061-5d8f490f6073))
+						  id:: 67cfb02d-b633-408c-b19e-1eeb7ed575b9
 						  :LOGBOOK:
 						  CLOCK: [2025-03-11 Tue 10:39:10]
 						  :END:
 							- The inertia/momentum of the internal work is too large to be changed (direction) ⇒ delusion.
-							- That large momentum + the need to change = the self get overwhelmed, heavy resistance ⇒ aversion.
+							- That large momentum + the need to change = overwhelmed, heavy resistance ⇒ aversion.
 							- When such large momentum is forced to stop/change,
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
