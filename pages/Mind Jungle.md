@@ -3439,7 +3439,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [Reset](((67445065-15b2-475e-a704-78f140d487af)))tability: Peripheral circles must be trained to be released easily.
 							- Techniques: ((67cff615-ec0d-4831-9851-59410cb89cf1)), ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
 								- Other suggested techniques:
-									- Anchoring: Touch a reminder object, like
+									- **Anchoring**: Touching a reminder object, like a [mala lace](https://en.wikipedia.org/wiki/Japamala), hearing a sound, like a bell ring, or praying a mantra can help us to focus on the object and release other stuffs.
+									- **Visualization**: Recalling the calm and focus of the meditative state that we're used to can help us release other stuffs.
 							- Based on the experience & belief that _nothing is completely lost_, we can release them.
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
