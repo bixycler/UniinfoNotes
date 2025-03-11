@@ -2424,6 +2424,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) is the natural ((665379e5-5bf4-4e00-ab03-9f41ff14cccc)) of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) and should be the chosen way of life. In Buddhism, it's called [Middle Way](https://en.wikipedia.org/wiki/Middle_Way), and in Taoism, it's called simply [The Way](https://en.wikipedia.org/wiki/Tao).
 		- Refinement techniques
+		  id:: 67b541d0-f477-4c3a-b444-fb522c3fdc4f
 		  collapsed:: true
 			- ### let-go
 			  id:: 669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d
@@ -2448,12 +2449,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- revisit the formless meditation to deal with serious pain (my first application was at the previous serious illness of herpes zoster/zona).
 				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
 				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
-			- DOING ### subtilize
+			- TODO ### subtilize
 			  id:: 66aded27-9701-4b6e-85e8-22049ddbe2d2
 			  :LOGBOOK:
 			  CLOCK: [2024-08-17 Sat 19:09:56]
 			  :END:
-			- DOING ### purify
+			- TODO ### purify
 			  :LOGBOOK:
 			  CLOCK: [2024-08-17 Sat 19:09:59]
 			  :END:
@@ -3416,12 +3417,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The inertia/momentum of the internal work is too large to be changed (in direction) ⇒ delusion.
 							- That large momentum + the need to change = overwhelmed, heavy resistance ⇒ aversion.
 							- When such large momentum is forced to stop, leaving the void inside, the self is hungry ⇒ greed.
-						- Solution: Refine the self obop to a small circle.
+						- Solution: [Refine](((67b541d0-f477-4c3a-b444-fb522c3fdc4f))) the self obop to a small circle.
 							- Magnitude of the form is small ⇒ high curvature, easy to change direction
 							- Small self leaves room in the bodymind for external requirements ⇒ keep from aversion
 							- Other different directions can be seen ⇒ clear & wise, not ignorant
 							- The small self is never empty ⇒ no greed
 							- To take action, the small self must combine with peripheral circles in the bodymind to drive them.
+								- These peripheral circles are automatic motors working in the trained programs (karmas).
 						- The total amount of contents in the bodymind is still sufficient thanks to temporary connection with peripheral circles in the form of pairs of opposites.
 							- The opposites [keep the bodymind fully occupied](((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))) to get rid of the hunger, the greed, the wanting.
 							- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
