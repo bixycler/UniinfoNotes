@@ -3418,8 +3418,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- When such large momentum is forced to stop, leaving the void inside, the self is hungry ⇒ greed.
 						- Refine the self to a small circle.
 							- Magnitude of the form is small ⇒ high curvature, easy to change direction
-							- Small self leaves room for external requirement ⇒ keep from aversion
+							- Small self leaves room in the bodymind for external requirements ⇒ keep from aversion
 							- Other different directions can be seen ⇒ clear & wise, not ignorant
+							- The small self is never empty ⇒ no greed
 						- However, the total amount is still sufficient thanks to temporary connection with other pairs of opposites.
 							- The opposites [keep the bodymind fully occupied](((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))) to get rid of the hunger, the greed, the wanting.
 							- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
