@@ -433,6 +433,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- I've just designed the overall flow for [updating block refs in Logseq publish](((67b541cf-618d-4607-bdd4-e1afcc8ce70c)))
 		- Let's write ((67ce5a8c-4885-4aaf-9215-60460717ae44)) 😜
 		- While chatting with Copilot, i happened to know that ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))!
+		  id:: 67cea427-2865-4cba-98ec-58b0cf779682
+		  :LOGBOOK:
+		  CLOCK: [2025-03-10 Mon 15:35:44]
+		  :END:
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- From the [triads](((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))) yesterday, this morning, i've
+		  id:: 67cfa71c-da0f-4ebb-b390-8c89870711b9
+		  :LOGBOOK:
+		  CLOCK: [2025-03-11 Tue 10:00:17]
+		  :END:
 		- ...

@@ -57,7 +57,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- **Wanting** clear evidence, the jury found it difficult to reach a unanimous verdict.
 			- The hatred, aversion, dislike, or anger, angst, fear, fretfulness, distress are just the other side, opposite to [wanting](((67ceb0d9-35c9-4805-8430-35c204658dbd))), i.e. due to **excessiveness** which brings **displeasure** to the self making it to **repel**:
 				- While wanting yields negative restoring force (pulling), dislike yields positive restoring force (pushing).
-				- Vietnamese: thừa → căng **tức** → bực **tức**
+				- Vietnamese: thừa → căng **tức** → bực **tức** → **tức** giận
 				- Etymology:
 					- **Anger**: PIE [*h₂enǵʰ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82en%C7%B5%CA%B0-) (“constrict, tighten, compress, distressed, anxious”) →  Proto-Germanic [*angazaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/angazaz) (“worry, grief, anxiety”) → Old Norse [angr](https://en.wiktionary.org/wiki/angr#Old_Norse) (“sorrow, resentment, distress”) → Middle English _anger_ (“grief, pain, trouble, affliction, vexation, sorrow, wrath”) → Modern English [anger](https://en.wiktionary.org/wiki/anger) (“hostile attitude, ill will; surliness, distress, suffering; anguish, agony”)
 			- Triads
