@@ -60,7 +60,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Vietnamese: thừa → căng **tức** → bực **tức** → **tức** giận
 				- Etymology:
 					- **Anger**: PIE [*h₂enǵʰ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%82en%C7%B5%CA%B0-) (“constrict, tighten, compress, distressed, anxious”) →  Proto-Germanic [*angazaz](https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/angazaz) (“worry, grief, anxiety”) → Old Norse [angr](https://en.wiktionary.org/wiki/angr#Old_Norse) (“sorrow, resentment, distress”) → Middle English _anger_ (“grief, pain, trouble, affliction, vexation, sorrow, wrath”) → Modern English [anger](https://en.wiktionary.org/wiki/anger) (“hostile attitude, ill will; surliness, distress, suffering; anguish, agony”)
-			- Triads
+			- Triads of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94))
 			  id:: 67ced16d-2fbb-4c5d-9061-5d8f490f6073
 				- Three states: lacking - excessive - sufficient
 				- Three forces: attration (affinity) - propulsion (aversion) - inertia (momentum)

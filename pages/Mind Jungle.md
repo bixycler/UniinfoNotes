@@ -3413,9 +3413,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :LOGBOOK:
 						  CLOCK: [2025-03-11 Tue 10:39:10]
 						  :END:
-							- The inertia/momentum of the internal work is too large to be changed (direction) ⇒ delusion.
+							- The inertia/momentum of the internal work is too large to be changed (in direction) ⇒ delusion.
 							- That large momentum + the need to change = overwhelmed, heavy resistance ⇒ aversion.
-							- When such large momentum is forced to stop/change,
+							- When such large momentum is forced to stop, leaving the void inside, the self is hungry ⇒ greed.
+						- Refine to small self circle
+							-
+						- Nothing is completely lost!
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
 					  :LOGBOOK:
