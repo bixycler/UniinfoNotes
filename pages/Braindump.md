@@ -128,9 +128,25 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- I was sucked into various  technical details of [trans](((67849429-a90c-45a9-a6ae-dcdd61f7580f))) and [itch](((0f9f9026-152c-46b5-964b-c6e1019cc584))).
 				- Only after stepping back from these details, do i remember the main point: ((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))
 			- Now, switch to the a simpler task left from previous days: ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
-			- ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
+			- Let's write down the story “ ((678512dc-66ef-4ba9-aebb-0355d89ef38b)) ”
 			  id:: 67b541c7-e878-4b22-ab06-6f25418f3a9e
+			  :LOGBOOK:
+			  CLOCK: [2025-01-14 Tue 13:03:11]
+			  :END:
+			- Getting back to the computer, seeing the lot of screenshots of the [chat with Gemini](((6784fe18-6dfb-43a2-b74a-a96b9f26fc77)))...
+			  id:: 67b541d8-9fb1-4edc-80e5-4e9f3c59fb7c
+			  :LOGBOOK:
+			  CLOCK: [2025-01-14 Tue 14:36:10]
+			  :END:
+				- seeing the order is wrong, i inteded to rename them with additional semantics...
+				- but i just stopped, seeing many times previously when i did such a thing...
+				- what should i do?! 🤔
+				- re-evaluate it, estimate the time for it...
+				- it's ok, just do it.
+				- got it done, eventually!
+				  id:: 67b541d8-78ff-4a9b-b9b4-98fd3e041385
 			- now, get back to company work!
+			  id:: 67b541c7-955e-4aa5-846c-474e90e47205
 			  :LOGBOOK:
 			  CLOCK: [2025-01-14 Tue 16:44:53]
 			  :END:
