@@ -704,4 +704,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- So, i got back to myself to practise myself!
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- Physics news: [Gravity from entropy](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.066001) and
 		- ...
