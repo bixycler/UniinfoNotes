@@ -689,4 +689,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  Hôm qua tui mở mắt ra bước vào giấc mơ (view Maya của người Ấn Độ), còn hôm nay tui chuyển sang view của người Kogi, mở mắt ra bước vào một con zombie, hay nói theo ngôn ngữ hiện đại là bước vào một con robot. 🤖
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- DOING Reminded about my love with attachment
+		  :LOGBOOK:
+		  CLOCK: [2025-03-12 Wed 11:53:00]
+		  CLOCK: [2025-03-12 Wed 11:53:24]
+		  CLOCK: [2025-03-12 Wed 11:53:26]
+		  :END:
 		- ...
