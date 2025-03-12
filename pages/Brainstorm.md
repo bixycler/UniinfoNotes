@@ -135,8 +135,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							- $γ^2 = (1 - β^2)^{-1}$ : $β = v/c$ in SR (Lorentz), and $β = \sqrt{R_s/r}$ in GR (Schwarzschild)
 							- When the object **flies faster** ($v↑$) in SR, or **approaches the center** ($r↓$) in GR, 
 							  $γ↓$ makes **length contract** and **time dilate**.
-						- Both coordinate view and visual view of the space from a distant observer show space contractions with slightly differences.
-							- The visual [radius](https://en.m.wikipedia.org/wiki/Einstein_radius) of [Einstein ring](https://en.m.wikipedia.org/wiki/Einstein_ring) is smaller than the
+						- Both coordinate view and visual view of the space from a distant observer show space contractions with some differences.
+							- The visual [radius](https://en.m.wikipedia.org/wiki/Einstein_radius) of [Einstein ring](https://en.m.wikipedia.org/wiki/Einstein_ring) is smaller than the Schwarzschild radius due to [gravitational lensing](https://en.m.wikipedia.org/wiki/Gravitational_lens).
+							- Objects near [event horizon](https://en.wikipedia.org/wiki/Event_horizon) is warped arround visually, while it's just infinitely dense in coordinate view.
 						- Illustrations
 						  collapsed:: true
 							- Interactive 3D model: [Gravity warping space-time @ SketchFab](https://sketchfab.com/3d-models/gravity-warping-space-time-749a8acac04049a89dc8d02054a02ee8)
