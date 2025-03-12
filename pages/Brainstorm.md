@@ -124,7 +124,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  with ${dΩ}^2 = ({dθ}^2 + (\sin θ)^2 {dφ}^2)$ and [Schwarzschild radius](https://en.wikipedia.org/wiki/Schwarzschild_radius) $R_s = {2GM}/{c^2}$
 						- **Stretch/dilation** of time: The coefficient $(1 - R_s/r)$ of  ${dt}^2$ is large near the Sun. This means that proper time intervals are shorter than coordinate time intervals.
 						- **Compression/contraction** of radial distances: The coefficient $(1 - R_s/r)^{-1}$ of ${dr}^2$ is small near the Sun. This means that proper radial distances are greater than coordinate radial distances.
-						- These coefficients have the same form with the [Lorentz factor](https://en.wikipedia.org/wiki/Lorentz_factor) $γ^2$ in Special Relativity
+						- These coefficients have the same form with the [Lorentz factor](https://en.wikipedia.org/wiki/Lorentz_factor) $γ^2$ in Special Relativity: $γ^2 = (1 - (v/c)^2)^{-1}$
+							- $γ^2 = (1 - β^2)^{-1}$ : $β = $
 				- So, the balance way should be using both: distribution for introductory level and curvatures for adavanced level.
 				  collapsed:: true
 					- By using both distribution and curvature, students can develop a deeper understanding of general relativity and its underlying principles.
