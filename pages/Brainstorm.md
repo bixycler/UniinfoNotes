@@ -128,6 +128,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							- $γ^2 = (1 - β^2)^{-1}$ : $β = v/c$ in SR (Lorentz), and $β = \sqrt{R_s/r}$ in GR (Schwarzschild)
 							- When the object **flies faster** ($v↑$) in SR, or **approaches the center** ($r↓$) in GR, 
 							  $γ↓$ makes **length contract** and **time dilate**.
+					- DOING Relative to the subject's view, space is compressed under the coordinate view, while stretched under the proper view, or even both compressed and stretched under the middle view.
+					  id:: 67d10ab3-018d-4c04-8d19-096eae010723
+					  :LOGBOOK:
+					  CLOCK: [2025-03-12 Wed 11:20:30]
+					  :END:
+						-
 				- So, the balance way should be using both: distribution for introductory level and curvatures for adavanced level.
 				  collapsed:: true
 					- By using both distribution and curvature, students can develop a deeper understanding of general relativity and its underlying principles.
