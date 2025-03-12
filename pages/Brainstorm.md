@@ -152,18 +152,27 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  :END:
 					- Etymology: Latin [proprius](https://en.wiktionary.org/wiki/proprius#Latin) (own, individual, private) → French [propre](https://en.wiktionary.org/wiki/propre#French) (own, specific, particular, appropriate, correct) → English: proper, property, appropriate
 						- Through time, its meaning has shifted to be “right or suitable for a _particular_ situation or purpose” → “truly what something is said or regarded to be; genuine; suitable or appropriate in society”.
+						- Examples of the meaning “suitable for a _particular_ situation”:
+							- Proper to itself
+							  > She likes everything to be in _its **proper**_ place.
+							- Proper to me
+							  > I've had sandwiches but I haven't eaten a **proper** meal.
+							- Proper to the job
+							  > I would have done the job myself but I didn't have the **proper** equipment.
+							- Proper to the walk
+							  > If you're going to walk long distances you need **proper** walking boots.
 					- Usages of “proper” as “own, specific”: proper name/noun, [proper motion](https://en.wikipedia.org/wiki/Proper_motion), proper to
 					- Some examples using “**proper to**” (given by Copilot) to highlights that certain characteristics, roles, or practices belong specifically to a particular context, group, or individual.
 						- 1. Cultural Practices
-						  > These rituals are proper to the local community and have been passed down through generations.
+						  > These rituals are **proper to** the local community and have been passed down through generations.
 						- 2. Geographical Features
-						  > The flora and fauna proper to this region are unique and diverse.
+						  > The flora and fauna **proper to** this region are unique and diverse.
 						- 3. Customs and Traditions
-						  > The dress code proper to this occasion requires formal attire.
+						  > The dress code **proper to** this occasion requires formal attire.
 						- 4. Specialized Roles
-						  > The duties proper to a physician include diagnosing and treating patients.
+						  > The duties **proper to** a physician include diagnosing and treating patients.
 						- 5. Legal Context
-						  > The responsibilities proper to a trustee are outlined in the legal document.
+						  > The responsibilities **proper to** a trustee are outlined in the legal document.
 			- It's interesting that both Schwartz and Schwarzschild start with the “schwarz” = “black” and coincide with the [schwa `ə`](https://www.britannica.com/topic/schwa) = “null”! 😊
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
