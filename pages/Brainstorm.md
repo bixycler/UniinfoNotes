@@ -112,12 +112,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The Einstein field equation is so complicated with all kinds of tensors and curvatures! 🫤
 				  id:: 67bdb94a-e172-43f9-a59e-a97756fef1f4
 				- Einstein use curvature to refer to spacetime warping because it's crutial in General Relativity: [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) in [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) and various curvatures in ((67bdaa5e-66c0-4874-8ca6-95032208e06d)).
+					-
 				- However, the spacetime distribution represented by its density is much more intuitive and more fundamental, which is defined directly by the metric tensor $g_{μν}$ as the ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) of spacetime.
 				  collapsed:: true
 					- Spacetime distortion of proper spacetime when projected onto a flat Cartesian coordinate system:
 					  id:: 67c1273d-c336-4203-bc0d-68150f382c72
 						- *Compression/Contraction*: Proper distance/interval at the herenow is greater than the coordinate distance/interval observed by an external observer.
 						- *Stretch/Dilation*: Proper distance/interval at the herenow is less than the coordinate distance/interval observed by an external observer.
+						- ![General_relativity_time_and_space_distortion_extract.gif](../assets/physics/General_relativity_time_and_space_distortion_extract.gif)
 					- Spacetime distribution around a massive object, like the Sun 🌞, as shown in [Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)
 						- Spacetime interval ($ds$) and proper time interval ($dτ$) in spherical coordinates $(t, r, θ, φ)$ with signature convention (+, -, -, -)
 						  $${ds}^2 = c^2 {dτ}^2 \;=\; ( 1 - \frac{R_s}{r} )c^2 {dt}^2 \; - ( 1 - \frac{R_s}{r} )^{-1} dr^2 \; - r^2 {dΩ}^2$$
