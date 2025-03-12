@@ -697,5 +697,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-03-12 Wed 11:53:24]
 		  CLOCK: [2025-03-12 Wed 11:53:26]
 		  :END:
-			-
+			- This morning, Mar 12, i waked up early at 5:30, took a bath, the went back to bed for a short nap before going to company.
+			- I lay down and breathed... everything just came briefly and went... the pure serenity is nearly there...
+			- But when the story of Mr. Hiệp and Mrs. Hằng came, suddenly, my mind get disturbed with chatterings.
+			- I felt their uneasy
 		- ...
