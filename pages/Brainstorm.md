@@ -133,7 +133,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  :LOGBOOK:
 					  CLOCK: [2025-03-12 Wed 11:20:30]
 					  :END:
-						-
+						- ...
+						- Due to the traditional image of [curved spacetime](https://en.wikipedia.org/wiki/Curved_spacetime) from Einstein, many LLM chatbots are confused between the “stretch of space” in curved spacetime and the “compressed space” in spacetime distribution.
+							-
 				- So, the balance way should be using both: distribution for introductory level and curvatures for adavanced level.
 				  collapsed:: true
 					- By using both distribution and curvature, students can develop a deeper understanding of general relativity and its underlying principles.
