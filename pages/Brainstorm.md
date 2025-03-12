@@ -134,8 +134,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  CLOCK: [2025-03-12 Wed 11:20:30]
 					  :END:
 						-
-					- “Proper space/time” = “own space/time” = “không/thời gian riêng”
-						-
 				- So, the balance way should be using both: distribution for introductory level and curvatures for adavanced level.
 				  collapsed:: true
 					- By using both distribution and curvature, students can develop a deeper understanding of general relativity and its underlying principles.
@@ -146,7 +144,24 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The Role of Curvature
 						- [Curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) in [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle)
 						- Curvatures in ((67bdaa5e-66c0-4874-8ca6-95032208e06d))
-				- The curvature/distortion of spacetime has proved the ancient wisdom that _only the **herenow**, i.e. the local reference point/frame is proper. Anything out of the herenow is distorted, hence improper! 😊
+				- The curvature/distortion of spacetime has proved the ancient wisdom that _only the **herenow**, i.e. the local reference point/frame is proper_. Anything out of the herenow is distorted, hence improper! 😊
+				- “**Proper** space/time” = “**own** space/time” = “không/thời gian **riêng**”
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-03-12 Wed 12:11:48]
+				  :END:
+					- Etymology: Latin [proprius](https://en.wiktionary.org/wiki/proprius#Latin) (own, individual, private) → French [propre](https://en.wiktionary.org/wiki/propre#French) (own, proper, specific, particular) →  →  →
+					- Some examples using "proper to" (given by Copilot) to highlights that certain characteristics, roles, or practices belong specifically to a particular context, group, or individual.
+						- 1. Cultural Practices
+						  > These rituals are proper to the local community and have been passed down through generations.
+						- 2. Geographical Features
+						  > The flora and fauna proper to this region are unique and diverse.
+						- 3. Customs and Traditions
+						  > The dress code proper to this occasion requires formal attire.
+						- 4. Specialized Roles
+						  > The duties proper to a physician include diagnosing and treating patients.
+						- 5. Legal Context
+						  > The responsibilities proper to a trustee are outlined in the legal document.
 			- It's interesting that both Schwartz and Schwarzschild start with the “schwarz” = “black” and coincide with the [schwa `ə`](https://www.britannica.com/topic/schwa) = “null”! 😊
 		- stagger = link (in space) = continuation (in time) = momentum
 		  id:: 67b54283-14b2-4753-94bb-4d827d54d7cc
