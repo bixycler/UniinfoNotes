@@ -702,15 +702,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- I wanted to “share” this with Mr. Hiệp... But thanks to my renunciation of facebook these days, i got back to myself...
 			- On the way to company, i saw that _my **clingy love** is just like their hatreds_: both want to change others, which is so ignorant as [shown previously](((67b541cb-84e9-4e76-b218-4c515f4f1546))).
 			- So, i got back to myself to practise myself!
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- Physics news: [Gravity from entropy](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.066001) ([PDF](../assets/Will/story/2025-Mar/Gravity from entropy - PhysRevD.111.066001.pdf)) and so on.
 		  id:: 67d184fe-6e61-46ed-ae70-2217cd068ee3
 		  collapsed:: true
 			- In this [paper](../assets/Will/story/2025-Mar/Gravity from entropy - PhysRevD.111.066001.pdf), Ginestra Bianconi extends the [Entropic gravity](https://en.wikipedia.org/wiki/Entropic_gravity), a kind of [entropic force](https://en.wikipedia.org/wiki/Entropic_force), with the G-field as a Lagrangian multiplier, which leads to a dressed Einstein-Hilbert action with an emergent cosmological constant.
 				- This addition provides a potential link to quantum gravity and dark matter, areas that Jacobson, Padmanabhan, and Verlinde also touched upon but did not explore in this specific way.
+				- While Verlinde's model focuses on the holographic principle and emergent spacetime, Bianconi's work incorporates quantum relative entropy and topological matter fields to derive gravity.
+			- Previously i had ideas of [black hole particle](https://en.wikipedia.org/wiki/Black_hole_electron) and [one-electron universe](https://en.wikipedia.org/wiki/One-electron_universe) as well as entropic force. All have been proposed by other scientists.
 			- [AI discovered a simpler way to achieve Quantum entanglement](https://www.space.com/space-exploration/tech/scientists-discover-simpler-way-to-achieve-einsteins-spooky-action-at-a-distance-thanks-to-ai-breakthrough-bringing-quantum-internet-closer-to-reality): [Entangling Independent Particles by Path Identity](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.233601)
 			- Another interesting paper about [Quantum 'yin-yang' shows two photons being entangled in real-time](https://www.livescience.com/physics-mathematics/quantum-physics/quantum-yin-yang-shows-two-photons-being-entangled-in-real-time): [Interferometric imaging of amplitude and phase of spatial biphoton states](https://www.nature.com/articles/s41566-023-01272-3)
 			  collapsed:: true
 				- ![Quantum-yin-yang.jpg](../assets/Will/story/2025-Mar/Quantum-yin-yang.jpg)
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...

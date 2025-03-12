@@ -469,9 +469,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:59:43]
 		  :END:
+		- Google suggested me some ((67d184fe-6e61-46ed-ae70-2217cd068ee3))
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Google suggested me some ((67d184fe-6e61-46ed-ae70-2217cd068ee3))
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:24:25]
