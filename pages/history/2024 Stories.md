@@ -789,7 +789,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 	  CLOCK: [2024-09-13 Fri 09:18:30]
 	  CLOCK: [2024-09-13 Fri 09:29:35]--[2024-09-13 Fri 09:54:13] =>  00:24:38
 	  :END:
-		- Thanks to the occasion of Mr. Hiệp, i've seen clearer my dept (attachment) of love.
+		- Thanks to the occasion of Mr. Hiệp, i've seen clearer about my dept (attachment) of love.
 			- A lot of online chats like this: ((66bc67f4-e5ac-4bb6-9979-3ff199815c2e))
 			- He visited Vietnam 1 month between August & September.
 			- When his trauma had him refuse my love, i had chances to reflect about my love attachment and let it go: [Sống trong đời sống, cần có một tấm lòng... để gió cuốn đi!](https://www.facebook.com/lexuandinhct/posts/pfbid026uguj6Vj4b5QxhAJoSpEzDKHaK43FtFXSNhc7Cnxk7VXkxZhnL3xgxiA24QeU1dEl)

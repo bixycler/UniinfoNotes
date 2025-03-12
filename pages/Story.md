@@ -690,9 +690,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- DOING Reminded about my love with attachment
+		  id:: 67d1132a-dc48-42f2-80ad-b99853be907b
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:53:00]
 		  CLOCK: [2025-03-12 Wed 11:53:24]
 		  CLOCK: [2025-03-12 Wed 11:53:26]
 		  :END:
+			-
 		- ...
