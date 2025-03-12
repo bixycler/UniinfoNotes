@@ -150,8 +150,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  :LOGBOOK:
 				  CLOCK: [2025-03-12 Wed 12:11:48]
 				  :END:
-					- Etymology: Latin [proprius](https://en.wiktionary.org/wiki/proprius#Latin) (own, individual, private) → French [propre](https://en.wiktionary.org/wiki/propre#French) (own, proper, specific, particular) →  →  →
-					- Some examples using "proper to" (given by Copilot) to highlights that certain characteristics, roles, or practices belong specifically to a particular context, group, or individual.
+					- Etymology: Latin [proprius](https://en.wiktionary.org/wiki/proprius#Latin) (own, individual, private) → French [propre](https://en.wiktionary.org/wiki/propre#French) (own, specific, particular, appropriate, correct) → English: proper, property, appropriate
+						- Through time, its meaning has shifted to be “right or suitable for a _particular_ situation or purpose” → “truly what something is said or regarded to be; genuine; suitable or appropriate in society”.
+					- Usages of “proper” as “own, specific”: proper name/noun, [proper motion](https://en.wikipedia.org/wiki/Proper_motion), proper to
+					- Some examples using “**proper to**” (given by Copilot) to highlights that certain characteristics, roles, or practices belong specifically to a particular context, group, or individual.
 						- 1. Cultural Practices
 						  > These rituals are proper to the local community and have been passed down through generations.
 						- 2. Geographical Features
