@@ -112,8 +112,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The Einstein field equation is so complicated with all kinds of tensors and curvatures! 🫤
 				  id:: 67bdb94a-e172-43f9-a59e-a97756fef1f4
 				- Einstein use curvature to refer to spacetime warping because it's crutial in General Relativity: [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) in [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) and various curvatures in ((67bdaa5e-66c0-4874-8ca6-95032208e06d)).
+				  id:: 67c11c75-41db-404c-a349-dd4b4876851d
 				  collapsed:: true
-					- The model of “heavy objects on rubber sheet” is a common analogy.
+					- The model of “heavy objects on a rubber sheet” is a common analogy.
 					- Example curved space around Earth & Sun
 					  ![curved-space-Earth-Sun-GettyImages.png](../assets/physics/curved-space-Earth-Sun-GettyImages.png)
 					- [Steel balls on the trampoline](https://youtu.be/MTY1Kje0yLg), demo at a PTSOS workshop at Los Gatos High School, on March 10, 2012
@@ -149,7 +150,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  CLOCK: [2025-03-12 Wed 11:20:30]
 					  :END:
 						- ...
-						- Due to the traditional image of [curved spacetime](https://en.wikipedia.org/wiki/Curved_spacetime) from Einstein, many LLM chatbots are confused between the “stretch of space” in curved spacetime and the “compressed space” in spacetime distribution.
+						- Due to the traditional image of [curved spacetime](https://en.wikipedia.org/wiki/Curved_spacetime) from Einstein, many LLM chatbots are confused between the “stretch of space” of the model of [“heavy objects on a rubber sheet”](((67c11c75-41db-404c-a349-dd4b4876851d))) and the “compressed space” in spacetime distribution.
 							-
 				- So, the balance way should be using both: distribution for introductory level and curvatures for adavanced level.
 				  collapsed:: true

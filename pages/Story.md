@@ -687,18 +687,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Thế là mở mắt ra, tui bước vào giấc mơ... và tui đang nhắn cho ông đây cũng trong cái giấc mơ đó. Ha ha, kẻ mở cặp mắt ngoài thì biểu kẻ nhắm mắt là mơ, kẻ mở con mắt trong (thường nhắm mắt ngoài) thì lại thấy kẻ mở mắt thao láo kia là đang mơ 😁
 				- [10/3/25 10:07]
 				  Hôm qua tui mở mắt ra bước vào giấc mơ (view Maya của người Ấn Độ), còn hôm nay tui chuyển sang view của người Kogi, mở mắt ra bước vào một con zombie, hay nói theo ngôn ngữ hiện đại là bước vào một con robot. 🤖
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING Reminded about my love with attachment
+		- Reminded about my clingy love
 		  id:: 67d1132a-dc48-42f2-80ad-b99853be907b
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:53:00]
 		  CLOCK: [2025-03-12 Wed 11:53:24]
-		  CLOCK: [2025-03-12 Wed 11:53:26]
+		  CLOCK: [2025-03-12 Wed 11:53:26]--[2025-03-12 Wed 14:01:42] =>  02:08:16
 		  :END:
 			- This morning, Mar 12, i waked up early at 5:30, took a bath, the went back to bed for a short nap before going to company.
 			- I lay down and breathed... everything just came briefly and went... the pure serenity is nearly there...
 			- But when the story of Mr. Hiệp and Mrs. Hằng came, suddenly, my mind get disturbed with chatterings.
-			- I felt their uneasy
+			- I felt their uneasy minds and backgrounds a gain.
+			- I wanted to “share” this with Mr. Hiệp... But thanks to my renunciation of facebook these days, i got back to myself...
+			- On the way to company, i saw that _my **clingy love** is just like their hatreds_: both want to change others, which is so ignorant as [shown previously](((67b541cb-84e9-4e76-b218-4c515f4f1546))).
+			- So, i got back to myself to practise myself!
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
