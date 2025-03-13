@@ -891,76 +891,78 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Ref:
 					- [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
 					- [Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
-			- Command substitution
-			  id:: 67d25330-736b-464e-a926-ccd0771082eb
-			  to capture output of a command
-				- New syntax: `out=$(command)`
-				- Old syntax with backtick
-				  ```sh
-				  out=`command`
-				  ```
-				- Note: `$(function)`, as well as ((67d24bec-ffb8-45ad-a13b-0e22124b9652)), will be executed in a sub-shell, i.e. a separate process, so _it **cannot affect** any variable in this shell_.
-				  collapsed:: true
-					- Best practice: Never combine side effects (variable changes) with output!
-						- For side effects, only use function call, and return everything through variables. Output capture should be done within the function and returned through variables.
-						- Try best to avoid side effects, and return everything through output streams.
-					- If anyway, we want to both capture the **output** of a function and its **side effects** (variable changes), we must use [output redirection](((67d257b8-cce3-4e79-8b42-b82bdd1fe7b0))) or ((67d25950-8596-4c10-a6bb-d4389872578d)), instead of ((67d25330-736b-464e-a926-ccd0771082eb)) or ((67d24bec-ffb8-45ad-a13b-0e22124b9652)).
-						- E.g.: Implement the C expression `printf("%d ", ++i)`
-						  collapsed:: true
-							- `test-cmd-sub.sh`
-							  ```sh
-							  #!/bin/bash
-							  i=0
-							  increment(){
-							  	((++i))
-							      printf $i
-							  }
-							  printf "With function call: "
-							  increment; printf ' '
-							  increment; printf ' '
-							  increment; printf ' '
-							  echo
-							  printf "With command substitution: " # ineffective
-							  printf "%d " $(increment)
-							  printf "%d " $(increment)
-							  printf "%d " $(increment)
-							  echo
-							  printf "With pipeline: " # ineffective
-							  increment |xargs printf "%d "
-							  increment |xargs printf "%d "
-							  increment |xargs printf "%d "
-							  echo
-							  out="test-cmd-sub.txt"
-							  printf "With output redirection: "
-							  rm $out
-							  increment >> $out; printf ' ' >> $out
-							  increment >> $out; printf ' ' >> $out
-							  increment >> $out; printf ' ' >> $out
-							  cat $out
-							  echo
-							  printf "With process substitution: "
-							  rm $out
-							  increment > >(cat >> $out; printf ' ' >> $out)
-							  increment > >(cat >> $out; printf ' ' >> $out)
-							  increment > >(cat >> $out; printf ' ' >> $out)
-							  cat $out
-							  echo
-							  echo "Final i = $i"
-							  ```
-							- Output:
-							  ```sh
-							  $ sh test-cmd-sub.sh
-							  With function call: 1 2 3 
-							  With command substitution: 4 4 4 
-							  With pipeline: 4 4 4 
-							  With output redirection: 4 5 6 
-							  With process substitution: 7 9 
-							  Final i = 9
-							  $ cat test-cmd-sub.txt
-							  7 9 8 %
-							  ```
-							- Note: The process substitution runs sub-shells in parallel with the main shell, hence random order of outputs in `test-cmd-sub.txt`.
-				- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Command_substitution)
+			- Command grouping
+				- Sub-shell
+				- Command substitution
+				  id:: 67d25330-736b-464e-a926-ccd0771082eb
+				  to capture output of a command
+					- New syntax: `out=$(command)`
+					- Old syntax with backtick
+					  ```sh
+					  out=`command`
+					  ```
+					- Note: `$(function)`, as well as ((67d24bec-ffb8-45ad-a13b-0e22124b9652)), will be executed in a sub-shell, i.e. a separate process, so _it **cannot affect** any variable in this shell_.
+					  collapsed:: true
+						- Best practice: Never combine side effects (variable changes) with output!
+							- For side effects, only use function call, and return everything through variables. Output capture should be done within the function and returned through variables.
+							- Try best to avoid side effects, and return everything through output streams.
+						- If anyway, we want to both capture the **output** of a function and its **side effects** (variable changes), we must use [output redirection](((67d257b8-cce3-4e79-8b42-b82bdd1fe7b0))) or ((67d25950-8596-4c10-a6bb-d4389872578d)), instead of ((67d25330-736b-464e-a926-ccd0771082eb)) or ((67d24bec-ffb8-45ad-a13b-0e22124b9652)).
+							- E.g.: Implement the C expression `printf("%d ", ++i)`
+							  collapsed:: true
+								- `test-cmd-sub.sh`
+								  ```sh
+								  #!/bin/bash
+								  i=0
+								  increment(){
+								  	((++i))
+								      printf $i
+								  }
+								  printf "With function call: "
+								  increment; printf ' '
+								  increment; printf ' '
+								  increment; printf ' '
+								  echo
+								  printf "With command substitution: " # ineffective
+								  printf "%d " $(increment)
+								  printf "%d " $(increment)
+								  printf "%d " $(increment)
+								  echo
+								  printf "With pipeline: " # ineffective
+								  increment |xargs printf "%d "
+								  increment |xargs printf "%d "
+								  increment |xargs printf "%d "
+								  echo
+								  out="test-cmd-sub.txt"
+								  printf "With output redirection: "
+								  rm $out
+								  increment >> $out; printf ' ' >> $out
+								  increment >> $out; printf ' ' >> $out
+								  increment >> $out; printf ' ' >> $out
+								  cat $out
+								  echo
+								  printf "With process substitution: "
+								  rm $out
+								  increment > >(cat >> $out; printf ' ' >> $out)
+								  increment > >(cat >> $out; printf ' ' >> $out)
+								  increment > >(cat >> $out; printf ' ' >> $out)
+								  cat $out
+								  echo
+								  echo "Final i = $i"
+								  ```
+								- Output:
+								  ```sh
+								  $ sh test-cmd-sub.sh
+								  With function call: 1 2 3 
+								  With command substitution: 4 4 4 
+								  With pipeline: 4 4 4 
+								  With output redirection: 4 5 6 
+								  With process substitution: 7 9 
+								  Final i = 9
+								  $ cat test-cmd-sub.txt
+								  7 9 8 %
+								  ```
+								- Note: The process substitution runs sub-shells in parallel with the main shell, hence random order of outputs in `test-cmd-sub.txt`.
+					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Command_substitution)
 			- I/O stream [redirection](https://en.wikipedia.org/wiki/Redirection_(computing))
 			  id:: 67d24c08-0890-4864-9ceb-759d519f5e8b
 				- Syntax: `command < infile > outfile`
