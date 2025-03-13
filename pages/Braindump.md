@@ -488,6 +488,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :LOGBOOK:
 			  CLOCK: [2025-03-13 Thu 14:22:31]
 			  :END:
+				- E.g.
+				  ```crontab
+				  00 10  *   * Mon-Fri notify-send -u critical -i ~/Pictures/emblem-generic.png 'Back to WORK!'
+				  30 10  *   * Mon-Fri notify-send -u critical -i ~/Pictures/emblem-important.png 'Back to WORK! NOWWW!!!'
+				  ```
 		- Let's write down the story this morning: ((67d1132a-dc48-42f2-80ad-b99853be907b))
 		  id:: 67d1149e-6084-48ed-886b-39dc6e4640e9
 		  :LOGBOOK:
