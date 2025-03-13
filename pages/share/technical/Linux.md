@@ -885,7 +885,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `${parameter=default value}`, `${parameter:=default value}`
 				  If `parameter` is unset, set it to default value before using its value.
 				- `${parameter=error message}`, `${parameter:=error message}`
-				  If `parameter` is unset, print error message and .
+				  If `parameter` is unset, print error message and *abort the script* with error status `1`.
+				- `${parameter+value}`, `${parameter:+value}`
+				  Use the provided value only when `parameter` is set and not `null`, else do nothing.
 				- Ref:
 					- [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
 					- [Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
