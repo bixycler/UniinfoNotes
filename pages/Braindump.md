@@ -483,7 +483,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 					- `view-refresh` ![view-refresh](../assets/Will/story/2025-Mar/view-refresh.png)
 					- `emblem-new` ![emblem-new](../assets/Will/story/2025-Mar/emblem-new.png)
 					- `face-smile` ![face-smile](../assets/Will/story/2025-Mar/face-smile.png)
-			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced ((67d282e3-3b28-47fb-bc7f-5452fcc54cf5))
+			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced with a cron job or Logseq API call `UI.showMsg()`
 			  id:: 67d28149-2a8a-44f0-9c12-e51741c3d9d2
 			  :LOGBOOK:
 			  CLOCK: [2025-03-13 Thu 14:22:31]

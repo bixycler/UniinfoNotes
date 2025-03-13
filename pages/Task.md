@@ -28,8 +28,6 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- TODO Copy [Chuyện Búi Chỉ](https://creatzyitnotes.blogspot.com/2009/11/chuyen-bui-chi.html) to  [CreatZy Notes](https://creatzynotes.blogspot.com/)
 		  id:: 67b989a4-a041-4511-abe5-77c785ca2d67
-		- TODO Add Reminder applet via API call `UI.showMsg()`.
-		  id:: 67d282e3-3b28-47fb-bc7f-5452fcc54cf5
 		- ...
 	- ## Future Tasks
 	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9
