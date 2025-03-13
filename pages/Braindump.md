@@ -472,6 +472,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :LOGBOOK:
 			  CLOCK: [2025-03-13 Thu 14:29:13]
 			  :END:
+				- Icons:
 			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced ((67d282e3-3b28-47fb-bc7f-5452fcc54cf5))
 			  id:: 67d28149-2a8a-44f0-9c12-e51741c3d9d2
 			  :LOGBOOK:
