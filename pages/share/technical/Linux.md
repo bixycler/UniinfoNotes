@@ -121,6 +121,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `xprop`
 			  display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
 			- `notify-send`
+			  id:: 67d289c6-fcf5-4340-b06e-d3287ca78a4d
 			  collapsed:: true
 			  send desktop notifications to the user via a notification daemon from the command line.
 				- `-u`, `--urgency`=LEVEL
@@ -132,6 +133,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-i`, `--icon`=ICON
 					- a [standard icon name](https://specifications.freedesktop.org/icon-naming-spec/latest/#names), e.g. `system-log-out`, or
 					- a path to an icon file, e.g. `/usr/share/icons/gnome/32x32/actions/system-log-out.png`
+			- `zenity`
+			  display GTK+ dialogs, and return (either in the return code or on standard output) the users input.
+				- `--notification`
+				  similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d))
 		- file management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 		  collapsed:: true
