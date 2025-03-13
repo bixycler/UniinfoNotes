@@ -461,12 +461,17 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 		- DOING Let's [set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
 		  id:: 67d10c06-3fe3-4691-95c0-84278a2dc713
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:27:07]--[2025-03-12 Wed 11:27:08] =>  00:00:01
 		  CLOCK: [2025-03-13 Thu 14:24:55]
 		  :END:
 			- Every 30 mins
-			-
+			- First i tried using Gnome Clock, but its alarm has notification level `normal` which disappears after just 3 seconds ⇒ Missed all the time 🙁!
+			- Now, i call `notify-send` directly with `-u critical` to have the notification ballon stick there until i close it.
+			  :LOGBOOK:
+			  CLOCK: [2025-03-13 Thu 14:29:13]
+			  :END:
 			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced ((67d282e3-3b28-47fb-bc7f-5452fcc54cf5))
 			  id:: 67d28149-2a8a-44f0-9c12-e51741c3d9d2
 			  :LOGBOOK:

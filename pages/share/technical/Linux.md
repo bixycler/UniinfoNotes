@@ -120,6 +120,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
 			- `xprop`
 			  display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
+			- `notify-send`
+			  send desktop notifications to the user via a notification daemon.
+				- `-u`, `--urgency`=LEVEL
+					- `low`: No pop-up, just silently add message to notification list.
+					- `normal`: pops up for 3 seconds.
+					- `critical`: pops up until user close.
 		- file management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 		  collapsed:: true
