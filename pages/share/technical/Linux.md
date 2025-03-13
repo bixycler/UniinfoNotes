@@ -909,6 +909,28 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  ...
 						  Last line
 						  ```
+					- Assign multi-line string to a var with `$(cat <<...)`
+						- Input:
+						  ```sh
+						  multiple_lines=$(cat << __END_OF_STREAM__
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  __END_OF_STREAM__
+						  )
+						  ```
+							- Note: The closing `)` of `$()` must
+						- Output:
+						  ```sh
+						  $ cat <<< "${multiple_lines}"
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  ```
 					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Here_document)
 		- Oh My Zsh
 		  collapsed:: true
