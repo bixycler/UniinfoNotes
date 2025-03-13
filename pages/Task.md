@@ -42,11 +42,21 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 					- `emblem-new` ![emblem-new](../assets/Will/story/2025-Mar/emblem-new.png)
 					- `face-smile` ![face-smile](../assets/Will/story/2025-Mar/face-smile.png)
 				- Oh, `notify-send` must be [configured a lot](https://askubuntu.com/questions/298608/notify-send-doesnt-work-from-crontab) to work under cron job.
+				  collapsed:: true
 				  ⇒ Just use ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) instead!
-					- ```sh
-					  DISPLAY=:0 
+					- Working config:
+					  ```sh
+					  DISPLAY=:0
 					  DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
 					  # 1001 = $(id -u dinhlx)
+					  ```
+					- My `env`
+					  ```sh
+					  $ env |grep -E 'DBUS|DISPLAY'                                                             [f03cd3a]
+					  DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+					  DISPLAY=:0
+					  GNOME_SETUP_DISPLAY=:1
+					  WAYLAND_DISPLAY=wayland-0
 					  ```
 			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced with a cron job or Logseq API call `UI.showMsg()`
 			  id:: 67d28149-2a8a-44f0-9c12-e51741c3d9d2
