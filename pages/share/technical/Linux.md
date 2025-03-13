@@ -862,6 +862,15 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Ref: [Advanced Bash-Scripting Guide: 10.1. Manipulating Strings](https://tldp.org/LDP/abs/html/string-manipulation.html)
 			- Parameter substitution
 				- Ref: [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
+			- Command substitution
+			  id:: 67d25330-736b-464e-a926-ccd0771082eb
+			  to capture output of a command
+				- New syntax: `out=$(command)`
+				- Old syntax with backtick
+				  ```sh
+				  out=`command`
+				  ```
+				- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Command_substitution)
 			- Pipeline
 			- Stream redirection
 				- Here document `<<` & here string `<<<` as input stream
@@ -910,6 +919,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  Last line
 						  ```
 					- Assign multi-line string to a var with `$(cat <<...)`
+					  collapsed:: true
 						- Input:
 						  ```sh
 						  multiple_lines=$(cat << __END_OF_STREAM__
@@ -921,7 +931,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  __END_OF_STREAM__
 						  )
 						  ```
-							- Note: The closing `)` of `$()` must
+							- Note: The closing `)` of ((67d25330-736b-464e-a926-ccd0771082eb)) must be the next line under the stream delimiter.
 						- Output:
 						  ```sh
 						  $ cat <<< "${multiple_lines}"
