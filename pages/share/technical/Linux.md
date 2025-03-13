@@ -862,6 +862,14 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Ref: [Advanced Bash-Scripting Guide: 10.1. Manipulating Strings](https://tldp.org/LDP/abs/html/string-manipulation.html)
 			- Parameter substitution
 				- Ref: [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
+			- Pipeline
+			- Stream redirection
+				- Here document `<<` & here string `<<<` as input stream
+					- Here document with stream delimiter, e.g. `__END_OF_STREAM__`
+					  ```sh
+					  cat << EOF
+					  ```
+					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Here_document)
 		- Oh My Zsh
 		  collapsed:: true
 			- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
