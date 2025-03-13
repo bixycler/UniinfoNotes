@@ -459,18 +459,29 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-03-11 Tue 10:00:17]
 		  :END:
-		- Let's [set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
+		- DOING Let's [set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
 		  id:: 67d10c06-3fe3-4691-95c0-84278a2dc713
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:27:07]--[2025-03-12 Wed 11:27:08] =>  00:00:01
+		  CLOCK: [2025-03-13 Thu 14:24:55]
 		  :END:
 			- Every 30 mins
+			-
+			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced ((67d282e3-3b28-47fb-bc7f-5452fcc54cf5))
+			  id:: 67d28149-2a8a-44f0-9c12-e51741c3d9d2
+			  :LOGBOOK:
+			  CLOCK: [2025-03-13 Thu 14:22:31]
+			  :END:
 		- Let's write down the story this morning: ((67d1132a-dc48-42f2-80ad-b99853be907b))
+		  id:: 67d1149e-6084-48ed-886b-39dc6e4640e9
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:59:43]
 		  :END:
 		- Google suggested me some ((67d184fe-6e61-46ed-ae70-2217cd068ee3))
-		- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced ((67d282e3-3b28-47fb-bc7f-5452fcc54cf5))
+		  id:: 67d1889d-c9ee-4252-8167-253dfff80ce4
+		  :LOGBOOK:
+		  CLOCK: [2025-03-12 Wed 20:16:30]
+		  :END:
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
