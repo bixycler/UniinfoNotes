@@ -865,10 +865,50 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Pipeline
 			- Stream redirection
 				- Here document `<<` & here string `<<<` as input stream
-					- Here document with stream delimiter, e.g. `__END_OF_STREAM__`
+					- Input a multi-line string with here string
 					  ```sh
-					  cat << EOF
+					  cat <<< "${multiple_lines}"
 					  ```
+					- Here document with stream delimiter `__END_OF_STREAM__`
+					  collapsed:: true
+						- Input:
+						  ```sh
+						  cat << __END_OF_STREAM__
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  __END_OF_STREAM__
+						  ```
+						- Output:
+						  ```
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  ```
+					- Here doc `<<-` **indented** with **tabs** (no spaces)
+					  collapsed:: true
+						- Input:
+						  ```sh
+						  cat << __END_OF_STREAM__
+						  	This is a Here Document containing many lines
+						  	First line
+						  	Second line
+						  	...
+						  	Last line
+						  __END_OF_STREAM__
+						  ```
+						- Output:
+						  ```
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  ```
 					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Here_document)
 		- Oh My Zsh
 		  collapsed:: true
