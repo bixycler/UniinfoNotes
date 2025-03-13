@@ -16,22 +16,23 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  CLOCK: [2025-01-10 Fri 18:40:54]--[2025-01-10 Fri 19:27:42] =>  00:46:48
 		  CLOCK: [2025-01-13 Mon 19:05:31]--[2025-01-13 Mon 20:14:12] =>  01:08:41
 		  :END:
-		- DONE [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
+		- DOING [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
 		  id:: 67d10c06-3fe3-4691-95c0-84278a2dc713
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:27:07]--[2025-03-12 Wed 11:27:08] =>  00:00:01
 		  CLOCK: [2025-03-13 Thu 14:24:55]--[2025-03-13 Thu 16:28:58] =>  02:04:03
+		  CLOCK: [2025-03-13 Thu 17:54:04]
 		  :END:
 			- Every 30 mins
 			- First i tried using Gnome Clock, but its alarm has notification level `normal` which disappears after just 3 seconds ⇒ Missed all the time 🙁!
-			- Now, i call `notify-send` directly with `-u critical` to have the notification ballon stick there until i close it.
+			- Now, i call ~~`notify-send` directly with `-u critical`~~ `zenity` to have the notification stick there until i close it.
 			  :LOGBOOK:
 			  CLOCK: [2025-03-13 Thu 14:29:13]
 			  :END:
 				- With `crontab`
 				  ```crontab
-				  00,30 * *   * 1-5 notify-send -u critical -i ~/Pictures/reset.png 'Stop! Breathe, Relax!'
+				  00,30 * *   * 1-5 DISPLAY=:0 /usr/bin/zenity 'Stop! Breathe, Relax!'
 				  ```
 				- Icons: ![colors-chromagreen.png](../assets/Will/story/2025-Mar/colors-chromagreen.png), ![user-available.svg](../assets/Will/story/2025-Mar/user-available.svg), ![Power-Restart.png](../assets/Will/story/2025-Mar/Power-Restart.png){:width 32}
 				  collapsed:: true
@@ -40,6 +41,8 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 					- `view-refresh` ![view-refresh](../assets/Will/story/2025-Mar/view-refresh.png)
 					- `emblem-new` ![emblem-new](../assets/Will/story/2025-Mar/emblem-new.png)
 					- `face-smile` ![face-smile](../assets/Will/story/2025-Mar/face-smile.png)
+				- Oh, `notify-send` must be [configured a lot](https://askubuntu.com/questions/298608/notify-send-doesnt-work-from-crontab) to work under cron job.
+				  ⇒ Just use ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) instead!
 			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced with a cron job or Logseq API call `UI.showMsg()`
 			  id:: 67d28149-2a8a-44f0-9c12-e51741c3d9d2
 			  :LOGBOOK:

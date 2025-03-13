@@ -134,6 +134,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- a [standard icon name](https://specifications.freedesktop.org/icon-naming-spec/latest/#names), e.g. `system-log-out`, or
 					- a path to an icon file, e.g. `/usr/share/icons/gnome/32x32/actions/system-log-out.png`
 			- `zenity`
+			  id:: 67d2ad10-0ca8-4361-94d5-219cf9b737d5
 			  display GTK+ dialogs, and return (either in the return code or on standard output) the users input.
 				- `--notification`
 				  similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d))
