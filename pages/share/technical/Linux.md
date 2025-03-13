@@ -878,8 +878,17 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `${var/substring/replacement}`
 				  replace *all* matches of `substring` (pattern) with `replacement`.
 				- Ref: [Advanced Bash-Scripting Guide: 10.1. Manipulating Strings](https://tldp.org/LDP/abs/html/string-manipulation.html)
-			- Parameter substitution
-				- Ref: [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
+			- Parameter expansion
+				- Note: The version with `:` is for `parameter` declared but `null`.
+				- `${parameter-default value}`, `${parameter:-default value}`
+				  If `parameter` is unset, use default value.
+				- `${parameter=default value}`, `${parameter:=default value}`
+				  If `parameter` is unset, set it to default value before using its value.
+				- `${parameter=error message}`, `${parameter:=error message}`
+				  If `parameter` is unset, print error message and .
+				- Ref:
+					- [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
+					- [Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
 			- Command substitution
 			  id:: 67d25330-736b-464e-a926-ccd0771082eb
 			  to capture output of a command
