@@ -871,7 +871,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  out=`command`
 				  ```
 				- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Command_substitution)
-			- I/O stream redirection
+			- I/O stream [redirection](https://en.wikipedia.org/wiki/Redirection_(computing))
+				- Syntax: `command < infile > outfile`
+					- Appending output: `command >> outfile`
+					- Using [file descriptors](https://en.wikipedia.org/wiki/File_descriptor) (0 = `stdin`, 1 = `stdout`, 2 = `stderr`)
+						- Output to 2 separate files: `command 1>outfile 2>errfile`
+						- Output both streams to a file: `command 2>&1 1>outfile` equivalent to  `command 2>&1 >outfile`
 				- Pipeline
 					- Use `cmd1 | cmd2` to [chain](https://en.wikipedia.org/wiki/Pipeline_(Unix)) output of this command `cmd1` to the input of next command `cmd2`.
 					- [Named pipe](https://en.wikipedia.org/wiki/Named_pipe) (FIFO) as a file can be created with `mkfifo`
@@ -944,6 +949,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  Last line
 						  ```
 					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Here_document)
+			-
 		- Oh My Zsh
 		  collapsed:: true
 			- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
