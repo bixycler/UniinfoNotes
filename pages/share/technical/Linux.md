@@ -913,7 +913,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- If anyway, we want to both capture the **output** of a function and its **side effects** (variable changes), we must use [output redirection](((67d257b8-cce3-4e79-8b42-b82bdd1fe7b0))) or ((67d25950-8596-4c10-a6bb-d4389872578d)), instead of ((67d25330-736b-464e-a926-ccd0771082eb)) or ((67d24bec-ffb8-45ad-a13b-0e22124b9652)).
 							- E.g.: Implement the C expression `printf("%d ", ++i)`
 							  collapsed:: true
-								- `test-cmd-sub.sh`
+								- ![test-cmd-sub.sh](../assets/Linux/scripts/test-cmd-sub.sh)
 								  ```sh
 								  #!/bin/bash
 								  i=0
