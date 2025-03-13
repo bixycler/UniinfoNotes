@@ -472,9 +472,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :LOGBOOK:
 			  CLOCK: [2025-03-13 Thu 14:29:13]
 			  :END:
-				- Icons: 
-				  ![colors-chromagreen.svg](../assets/Will/story/2025-Mar/colors-chromagreen.svg)
-				  ![user-available.svg](../assets/Will/story/2025-Mar/user-available.svg)
+				- Icons: ![colors-chromagreen.png](../assets/Will/story/2025-Mar/colors-chromagreen.png), ![user-available.svg](../assets/Will/story/2025-Mar/user-available.svg), ![Power-Restart.png](../assets/Will/story/2025-Mar/Power-Restart.png){:width 32}
+				  collapsed:: true
 					- `system-log-out` ![system-log-out](../assets/Will/story/2025-Mar/system-log-out.png)
 					- `edit-redo-rtl` ![edit-redo-rtl](../assets/Will/story/2025-Mar/edit-redo-rtl.png)
 					- `view-refresh` ![view-refresh](../assets/Will/story/2025-Mar/view-refresh.png)
