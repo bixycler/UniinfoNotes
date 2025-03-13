@@ -871,8 +871,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  out=`command`
 				  ```
 				- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Command_substitution)
-			- Pipeline
-			- Stream redirection
+			- I/O stream redirection
+				- Pipeline
+					- Use `cmd1 | cmd2` to [chain](https://en.wikipedia.org/wiki/Pipeline_(Unix)) output of this command `cmd1` to the input of next command `cmd2`.
+					- [Named pipe](https://en.wikipedia.org/wiki/Named_pipe) (FIFO) as a file can be created with `mkfifo`
 				- Here document `<<` & here string `<<<` as input stream
 					- Input a multi-line string with here string
 					  ```sh
