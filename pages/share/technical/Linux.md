@@ -877,9 +877,6 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- Using [file descriptors](https://en.wikipedia.org/wiki/File_descriptor) (0 = `stdin`, 1 = `stdout`, 2 = `stderr`)
 						- Output to 2 separate files: `command 1>outfile 2>errfile`
 						- Output both streams to a file: `command 2>&1 1>outfile` equivalent to  `command 2>&1 >outfile`
-				- Pipeline
-					- Use `cmd1 | cmd2` to [chain](https://en.wikipedia.org/wiki/Pipeline_(Unix)) output of this command `cmd1` to the input of next command `cmd2`.
-					- [Named pipe](https://en.wikipedia.org/wiki/Named_pipe) (FIFO) as a file can be created with `mkfifo`
 				- Here document `<<` & here string `<<<` as input stream
 					- Input a multi-line string with here string
 					  ```sh
@@ -949,7 +946,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  Last line
 						  ```
 					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Here_document)
-			-
+				- Pipeline
+				  `cmd1 | cmd2` to [chain](https://en.wikipedia.org/wiki/Pipeline_(Unix)) output of this command `cmd1` to the input of next command `cmd2`.
+					- [Named pipe](https://en.wikipedia.org/wiki/Named_pipe) (FIFO) as a file can be created with `mkfifo`
+				- Process substitution
+				  to treat I/O streams as (FIFO) files
+					- Syntax: 
+					  ```sh
+					  diff <(sort file1) <(sort file2) > >(tee res.diff) 2> >()
+					  ```
+					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Process_substitution)
 		- Oh My Zsh
 		  collapsed:: true
 			- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
