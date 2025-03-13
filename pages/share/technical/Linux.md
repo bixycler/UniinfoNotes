@@ -892,10 +892,14 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
 					- [Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
 			- Command grouping
-				- Sub-shell
+				- Compound command
+				  includes many commands combined by `;`, `||`, `&&`.
+					- Sub-shell `(` Compound command `)`
+					  id:: 67d2df4a-52c6-4b11-85ba-ad28f82fd77e
+					- List `{` Compound command `}`
 				- Command substitution
 				  id:: 67d25330-736b-464e-a926-ccd0771082eb
-				  to capture output of a command
+				  to capture output of a ((67d2df4a-52c6-4b11-85ba-ad28f82fd77e))
 					- New syntax: `out=$(command)`
 					- Old syntax with backtick
 					  ```sh
