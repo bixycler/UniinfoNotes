@@ -130,7 +130,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-t`, `--expire-time`=TIME
 				  ignored in Ubuntu
 				- `-i`, `--icon`=ICON[,ICON...]
-					- ICON: a name in `/usr/share/icons/gnome/32x32/`, or a path to an icon file
+					- a [standard icon name](https://specifications.freedesktop.org/icon-naming-spec/latest/#names), e.g. `system-log-out`, or
+					- a path to an icon file, e.g. `/usr/share/icons/gnome/32x32/actions/system-log-out.png`
 				- `-c`, `--category`=TYPE[,TYPE...]
 		- file management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e
