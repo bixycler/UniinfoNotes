@@ -71,31 +71,12 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((67d24c08-0890-4864-9ceb-759d519f5e8b)) & ((67d25330-736b-464e-a926-ccd0771082eb))
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ((67d10c06-3fe3-4691-95c0-84278a2dc713)); revise [Reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7)))
 				- ...
 			- <<End Tracks>>
 			  ---------------
-		- Reminder messages
-		  id:: 67850fb1-04a9-427f-bc0d-f61913d86e4b
-		  collapsed:: true
-			- Back to WORK!
-			  id:: 67850c3d-a026-43a0-8fb8-1febf398bd65
-			  scheduled:: <2025-02-03 xxx 13:00>
-			  DEADLINE:: <2025-02-03 xxx 17:00>
-			- id:: 67850fd2-272d-48fa-9d7c-c649619b5a89
-			  #+BEGIN_CAUTION
-			  [:b {:style "background-color:Orange; color:DarkRed"} " Back to WORK! "]
-			  #+END_CAUTION
-			- id:: 67850fe1-3e22-430e-9af9-a84853766dd7
-			  #+BEGIN_WARNING
-			  [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ Back to WORK !!! "]
-			  #+END_WARNING
-		- #### Reminder
-		  id:: 67850c24-b1c9-425a-abc2-af81243befb2
-		  collapsed:: true
-			- {{deadline-warning ((67850fb1-04a9-427f-bc0d-f61913d86e4b)), 67850c3d-a026-43a0-8fb8-1febf398bd65, 67850fd2-272d-48fa-9d7c-c649619b5a89, 67850fe1-3e22-430e-9af9-a84853766dd7}}
 		- ### Working
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
-		  {{embed ((67850c24-b1c9-425a-abc2-af81243befb2))}}
 		  {{embed ((67164c57-8f45-46eb-92a9-f00b02dccfc9))}}
 		  {{embed ((db954501-95d0-46e2-b1fc-39b6a966300e))}}
 		  {{embed ((6788f004-d3df-41d4-afc8-c8c5ea52c51c))}}

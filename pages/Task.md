@@ -18,6 +18,64 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  :END:
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
+		- [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
+		  id:: 67d10c06-3fe3-4691-95c0-84278a2dc713
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-03-12 Wed 11:27:07]--[2025-03-12 Wed 11:27:08] =>  00:00:01
+		  CLOCK: [2025-03-13 Thu 14:24:55]--[2025-03-13 Thu 16:28:58] =>  02:04:03
+		  :END:
+			- Every 30 mins
+			- First i tried using Gnome Clock, but its alarm has notification level `normal` which disappears after just 3 seconds ⇒ Missed all the time 🙁!
+			- Now, i call `notify-send` directly with `-u critical` to have the notification ballon stick there until i close it.
+			  :LOGBOOK:
+			  CLOCK: [2025-03-13 Thu 14:29:13]
+			  :END:
+				- With `crontab`
+				  ```crontab
+				  00,30 * *   * Mon-Fri notify-send -u critical -i ~/Pictures/reset.png 'Stop! Breathe, Relax!'
+				  ```
+				- Icons: ![colors-chromagreen.png](../assets/Will/story/2025-Mar/colors-chromagreen.png), ![user-available.svg](../assets/Will/story/2025-Mar/user-available.svg), ![Power-Restart.png](../assets/Will/story/2025-Mar/Power-Restart.png){:width 32}
+				  collapsed:: true
+					- `system-log-out` ![system-log-out](../assets/Will/story/2025-Mar/system-log-out.png)
+					- `edit-redo-rtl` ![edit-redo-rtl](../assets/Will/story/2025-Mar/edit-redo-rtl.png)
+					- `view-refresh` ![view-refresh](../assets/Will/story/2025-Mar/view-refresh.png)
+					- `emblem-new` ![emblem-new](../assets/Will/story/2025-Mar/emblem-new.png)
+					- `face-smile` ![face-smile](../assets/Will/story/2025-Mar/face-smile.png)
+			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced with a cron job or Logseq API call `UI.showMsg()`
+			  id:: 67d28149-2a8a-44f0-9c12-e51741c3d9d2
+			  :LOGBOOK:
+			  CLOCK: [2025-03-13 Thu 14:22:31]
+			  :END:
+				- E.g.
+				  ```crontab
+				  00 10  *   * Mon-Fri notify-send -u critical -i ~/Pictures/emblem-generic.png 'Back to WORK!'
+				  30 10  *   * Mon-Fri notify-send -u critical -i ~/Pictures/emblem-important.png 'Back to WORK! NOWWW!!!'
+				  ```
+				- Icons:
+					- `emblem-generic` ![system-log-out](../assets/Will/story/2025-Mar/emblem-generic.png)
+					- `emblem-important` ![system-log-out](../assets/Will/story/2025-Mar/emblem-important.png)
+			- The old reminders in ((6773d98a-3917-4267-9f8b-7d86b84d3663)) previously:
+			  id:: 67d2a63d-58de-4dbe-bbec-3ec8625737c7
+				- Reminder messages
+				  id:: 67850fb1-04a9-427f-bc0d-f61913d86e4b
+				  collapsed:: true
+					- Back to WORK!
+					  id:: 67850c3d-a026-43a0-8fb8-1febf398bd65
+					  scheduled:: <2025-02-03 xxx 13:00>
+					  DEADLINE:: <2025-02-03 xxx 17:00>
+					- id:: 67850fd2-272d-48fa-9d7c-c649619b5a89
+					  #+BEGIN_CAUTION
+					  [:b {:style "background-color:Orange; color:DarkRed"} " Back to WORK! "]
+					  #+END_CAUTION
+					- id:: 67850fe1-3e22-430e-9af9-a84853766dd7
+					  #+BEGIN_WARNING
+					  [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ Back to WORK !!! "]
+					  #+END_WARNING
+				- #### Reminder
+				  id:: 67850c24-b1c9-425a-abc2-af81243befb2
+				  collapsed:: true
+					- {{deadline-warning ((67850fb1-04a9-427f-bc0d-f61913d86e4b)), 67850c3d-a026-43a0-8fb8-1febf398bd65, 67850fd2-272d-48fa-9d7c-c649619b5a89, 67850fe1-3e22-430e-9af9-a84853766dd7}}
 		- TODO Add logical symbols to ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		- TODO Add ((66533703-505d-432d-8368-6058eefb45f6)) to [[logseq/config.edn]] commands
 		  id:: 67764f3d-c6b3-4f00-a53f-ec4dab0920f9
