@@ -42,7 +42,6 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 					- `emblem-new` ![emblem-new](../assets/Will/story/2025-Mar/emblem-new.png)
 					- `face-smile` ![face-smile](../assets/Will/story/2025-Mar/face-smile.png)
 				- Oh, `notify-send` must be [configured a lot](https://askubuntu.com/questions/298608/notify-send-doesnt-work-from-crontab) to work under cron job.
-				  collapsed:: true
 				  ⇒ Just use ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) instead!
 					- Working config:
 					  ```sh
