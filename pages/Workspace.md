@@ -70,7 +70,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- Ways to resolve the problem of [rigidity/inertia/momentum](((67b541cf-4818-45ad-911c-d2c3397f9e3d)))
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-			  collapsed:: true
+				- ((67d24c08-0890-4864-9ceb-759d519f5e8b)) & ((67d25330-736b-464e-a926-ccd0771082eb))
 				- ...
 			- <<End Tracks>>
 			  ---------------

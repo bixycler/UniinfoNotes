@@ -870,14 +870,79 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  ```sh
 				  out=`command`
 				  ```
+				- Note: `$(function)`, as well as ((67d24bec-ffb8-45ad-a13b-0e22124b9652)), will be executed in a sub-shell, i.e. a separate process, so _it **cannot affect** any variable in this shell_.
+				  collapsed:: true
+					- Best practice: Never combine side effects (variable changes) with output!
+						- For side effects, only use function call, and return everything through variables. Output capture should be done within the function and returned through variables.
+						- Try best to avoid side effects, and return everything through output streams.
+					- If anyway, we want to both capture the **output** of a function and its **side effects** (variable changes), we must use [output redirection](((67d257b8-cce3-4e79-8b42-b82bdd1fe7b0))) or ((67d25950-8596-4c10-a6bb-d4389872578d)), instead of ((67d25330-736b-464e-a926-ccd0771082eb)) or ((67d24bec-ffb8-45ad-a13b-0e22124b9652)).
+						- E.g.: Implement the C expression `printf("%d ", ++i)`
+						  collapsed:: true
+							- `test-cmd-sub.sh`
+							  ```sh
+							  #!/bin/bash
+							  i=0
+							  increment(){
+							  	((++i))
+							      printf $i
+							  }
+							  printf "With function call: "
+							  increment; printf ' '
+							  increment; printf ' '
+							  increment; printf ' '
+							  echo
+							  printf "With command substitution: " # ineffective
+							  printf "%d " $(increment)
+							  printf "%d " $(increment)
+							  printf "%d " $(increment)
+							  echo
+							  printf "With pipeline: " # ineffective
+							  increment |xargs printf "%d "
+							  increment |xargs printf "%d "
+							  increment |xargs printf "%d "
+							  echo
+							  out="test-cmd-sub.txt"
+							  printf "With output redirection: "
+							  rm $out
+							  increment >> $out; printf ' ' >> $out
+							  increment >> $out; printf ' ' >> $out
+							  increment >> $out; printf ' ' >> $out
+							  cat $out
+							  echo
+							  printf "With process substitution: "
+							  rm $out
+							  increment > >(cat >> $out; printf ' ' >> $out)
+							  increment > >(cat >> $out; printf ' ' >> $out)
+							  increment > >(cat >> $out; printf ' ' >> $out)
+							  cat $out
+							  echo
+							  echo "Final i = $i"
+							  ```
+							- Output:
+							  ```sh
+							  $ sh test-cmd-sub.sh
+							  With function call: 1 2 3 
+							  With command substitution: 4 4 4 
+							  With pipeline: 4 4 4 
+							  With output redirection: 4 5 6 
+							  With process substitution: 7 9 
+							  Final i = 9
+							  $ cat test-cmd-sub.txt
+							  7 9 8 %
+							  ```
+							- Note: The process substitution runs sub-shells in parallel with the main shell, hence random order of outputs in `test-cmd-sub.txt`.
 				- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Command_substitution)
 			- I/O stream [redirection](https://en.wikipedia.org/wiki/Redirection_(computing))
+			  id:: 67d24c08-0890-4864-9ceb-759d519f5e8b
 				- Syntax: `command < infile > outfile`
+				  id:: 67d257b8-cce3-4e79-8b42-b82bdd1fe7b0
 					- Appending output: `command >> outfile`
+					  id:: 67d257e9-420a-43df-b715-302cb37df234
 					- Using [file descriptors](https://en.wikipedia.org/wiki/File_descriptor) (0 = `stdin`, 1 = `stdout`, 2 = `stderr`)
 						- Output to 2 separate files: `command 1>outfile 2>errfile`
 						- Output both streams to a file: `command 2>&1 1>outfile` equivalent to  `command 2>&1 >outfile`
 				- Here document `<<` & here string `<<<` as input stream
+				  id:: 67d24c21-82a9-4ff2-9e38-89944bcca455
 					- Input a multi-line string with here string
 					  ```sh
 					  cat <<< "${multiple_lines}"
@@ -947,14 +1012,18 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  ```
 					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Here_document)
 				- Pipeline
+				  id:: 67d24bec-ffb8-45ad-a13b-0e22124b9652
 				  `cmd1 | cmd2` to [chain](https://en.wikipedia.org/wiki/Pipeline_(Unix)) output of this command `cmd1` to the input of next command `cmd2`.
 					- [Named pipe](https://en.wikipedia.org/wiki/Named_pipe) (FIFO) as a file can be created with `mkfifo`
+					  id:: 67d25643-5c55-4ffa-b70a-de0e7b0dff70
 				- Process substitution
+				  id:: 67d25950-8596-4c10-a6bb-d4389872578d
 				  to treat I/O streams as (FIFO) files
-					- Syntax: 
+					- Syntax: `<(input_provider)` and `>(output_filter)` as `infile` and `outfile`
 					  ```sh
-					  diff <(sort file1) <(sort file2) > >(tee res.diff) 2> >()
+					  diff <(sort file1) <(sort file2) > >(tee res.diff) 2> >(tee err)
 					  ```
+					- Note: There must be **space**(s) between process substitution syntax `>()`, `<()` and stream redirection syntax `>`, `<` so that they're not confused with [appending](((67d257e9-420a-43df-b715-302cb37df234))) `>>` and [here doc](((67d24c21-82a9-4ff2-9e38-89944bcca455)))  `<<`.
 					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Process_substitution)
 		- Oh My Zsh
 		  collapsed:: true
