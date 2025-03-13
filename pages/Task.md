@@ -16,8 +16,6 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  CLOCK: [2025-01-10 Fri 18:40:54]--[2025-01-10 Fri 19:27:42] =>  00:46:48
 		  CLOCK: [2025-01-13 Mon 19:05:31]--[2025-01-13 Mon 20:14:12] =>  01:08:41
 		  :END:
-	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
-	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
 		- DONE [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
 		  id:: 67d10c06-3fe3-4691-95c0-84278a2dc713
 		  collapsed:: true
@@ -33,7 +31,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  :END:
 				- With `crontab`
 				  ```crontab
-				  00,30 * *   * Mon-Fri notify-send -u critical -i ~/Pictures/reset.png 'Stop! Breathe, Relax!'
+				  00,30 * *   * 1-5 notify-send -u critical -i ~/Pictures/reset.png 'Stop! Breathe, Relax!'
 				  ```
 				- Icons: ![colors-chromagreen.png](../assets/Will/story/2025-Mar/colors-chromagreen.png), ![user-available.svg](../assets/Will/story/2025-Mar/user-available.svg), ![Power-Restart.png](../assets/Will/story/2025-Mar/Power-Restart.png){:width 32}
 				  collapsed:: true
@@ -49,8 +47,8 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  :END:
 				- E.g.
 				  ```crontab
-				  00 10  *   * Mon-Fri notify-send -u critical -i ~/Pictures/emblem-generic.png 'Back to WORK!'
-				  30 10  *   * Mon-Fri notify-send -u critical -i ~/Pictures/emblem-important.png 'Back to WORK! NOWWW!!!'
+				  00 10  *   * 1-5 notify-send -u critical -i ~/Pictures/emblem-generic.png 'Back to WORK!'
+				  30 10  *   * 1-5 notify-send -u critical -i ~/Pictures/emblem-important.png 'Back to WORK! NOWWW!!!'
 				  ```
 				- Icons:
 					- `emblem-generic` ![system-log-out](../assets/Will/story/2025-Mar/emblem-generic.png)
@@ -76,6 +74,8 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 				  id:: 67850c24-b1c9-425a-abc2-af81243befb2
 				  collapsed:: true
 					- {{deadline-warning ((67850fb1-04a9-427f-bc0d-f61913d86e4b)), 67850c3d-a026-43a0-8fb8-1febf398bd65, 67850fd2-272d-48fa-9d7c-c649619b5a89, 67850fe1-3e22-430e-9af9-a84853766dd7}}
+	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
+	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
 		- TODO Add logical symbols to ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		- TODO Add ((66533703-505d-432d-8368-6058eefb45f6)) to [[logseq/config.edn]] commands
 		  id:: 67764f3d-c6b3-4f00-a53f-ec4dab0920f9
