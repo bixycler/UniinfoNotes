@@ -471,7 +471,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- DOING Done:
+		- Done revising ((67d10c06-3fe3-4691-95c0-84278a2dc713))
 		  :LOGBOOK:
 		  CLOCK: [2025-03-13 Thu 16:36:20]
 		  CLOCK: [2025-03-13 Thu 16:36:29]

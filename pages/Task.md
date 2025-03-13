@@ -18,7 +18,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  :END:
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
-		- [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
+		- DONE [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
 		  id:: 67d10c06-3fe3-4691-95c0-84278a2dc713
 		  collapsed:: true
 		  :LOGBOOK:
