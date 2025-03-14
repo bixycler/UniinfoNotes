@@ -1176,6 +1176,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Each buffer can be mirrored in many ((66fe47b0-71d5-4663-bc43-d4774329a56e))s and in many ((66fe472d-cbfe-49ff-9ec1-4c1b7853895a))s.
 				- `:buffers`
 				  to list all buffers.
+			-
 		- #### nano
 		  collapsed:: true
 			-
