@@ -57,7 +57,9 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 					  GNOME_SETUP_DISPLAY=:1
 					  WAYLAND_DISPLAY=wayland-0
 					  ```
-					- Issues: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit while working!
+					- Issues:
+						- `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit while working!
+							- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
 			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced with a cron job or Logseq API call `UI.showMsg()`
 			  id:: 67d28149-2a8a-44f0-9c12-e51741c3d9d2
 			  :LOGBOOK:

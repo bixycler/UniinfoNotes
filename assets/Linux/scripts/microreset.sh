@@ -9,8 +9,6 @@ today=$(date '+Y-m-d')
 now=$(date '+H:M:S')
 dt="${today}_${now}"
 
-gsettings set org.gnome.desktop.peripherals.keyboard send-events disabled
-
 tension=0; problem=''
 if ! {
     zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."\
@@ -23,4 +21,3 @@ fi
 xinput --reattach "$keyboard_id" 3
 echo -e "${dt}\t${tension}\t${problem}" >> $LOGF
 
-gsettings set org.gnome.desktop.peripherals.keyboard send-events enabled
