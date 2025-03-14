@@ -67,8 +67,8 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  :END:
 				- E.g.
 				  ```crontab
-				  00 10  *   * 1-5 notify-send -u critical -i ~/Pictures/emblem-generic.png 'Back to WORK!'
-				  30 10  *   * 1-5 notify-send -u critical -i ~/Pictures/emblem-important.png 'Back to WORK! NOWWW!!!'
+				  00 10  *   * 1-5 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus /usr/bin/notify-send -u critical -i /home/dinhlx/Pictures/emblem-generic.png 'Back to WORK!'
+				  30 10  *   * 1-5 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus /usr/bin/notify-send -u critical -i /home/dinhlx/Pictures/emblem-important.png 'Back to WORK! NOWWW!!!'
 				  ```
 				- Icons:
 					- `emblem-generic` ![system-log-out](../assets/Will/story/2025-Mar/emblem-generic.png)

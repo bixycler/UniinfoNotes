@@ -17,10 +17,7 @@ then
         true 0 '%' false 10 '%'  false 20 '%' false 30 '%' false 40 '%' false 50 '%' \
         false 60 '%' false 70 '%' false 80 '%' false 90 '%' false 100 '%' false ' -1' '♾️' \
         false '+' 'Comments')) # the space before -1 in ' -1' is to avoid "option" collision, even after `--`!
-    then 
-        tension=(-1 '+'); 
-        echo "FAILED list: ${tension[@]}"
-    fi
+    then tension=(-1 '+'); fi
     if [[ ${tension[-1]} == '+' ]]; then
         [[ ${#tension[@]} -lt 2 ]] && tension=(-1 ${tension[-1]})
         tension=${tension[-2]}
