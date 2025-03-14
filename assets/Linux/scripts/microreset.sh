@@ -20,8 +20,9 @@ then
     then tension=(-1 '+'); fi
     if [[ ${tension[-1]} == '+' ]]; then
         [[ ${#tension[@]} -lt 2 ]] && tension=(-1 ${tension[-1]})
-        tension=${tension[-2]}
-        problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem?")
+        tension=${tension[-2]}; tensionStr=${tension}
+        [[ ${tension} == '-1' ]] && tensionStr='♾️' 
+        problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem with tension = ${tensionStr}?")
     else
         tension=${tension[-1]}
     fi
