@@ -30,7 +30,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  :LOGBOOK:
 			  CLOCK: [2025-03-13 Thu 14:29:13]
 			  :END:
-				- ![microreset.sh](../assets/Linux/scripts/microreset.sh) with `crontab`
+				- ![microreset.sh](../assets/Linux/scripts/microreset.sh) with `crontab`, storing history to [microreset.log](../assets/Will/microreset.log) as a TSV table.
 				  ```crontab
 				  00,30 9-20  *   * 1-5 /home/dinhlx/.local/bin/microreset.sh 2>&1 >> /tmp/cron.log
 				  ```
