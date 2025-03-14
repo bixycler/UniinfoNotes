@@ -852,6 +852,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `$n`: n-th argument
 				- `$?`: exit status of the last command executed
 				- `$!`: pid of the last background command
+				- DOING `$-`: ...
+				  :LOGBOOK:
+				  CLOCK: [2025-03-14 Fri 11:12:27]
+				  :END:
 			- String variable manipulations
 			  collapsed:: true
 				- `${#var}`
