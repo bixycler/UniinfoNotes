@@ -623,6 +623,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Snap: `/snap/bin`
 			  id:: 66b1cfa4-59ec-476f-b06f-c14db11f369b
 		- Double dash `--`
+		  id:: 67d3c57c-6e47-4762-8255-f855af47d5bc
 		  collapsed:: true
 		  usually means “end of command options” in most commands.
 			- An argument with a leading dash/hyphen `-` is considered an option of the command.
@@ -633,7 +634,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `\`-escape sequences are interpreted by [ANSI-C quoted](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html) `$'string\n'` and other commands like `printf`, `echo -e`, etc.
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
 				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49)) commands
-			- The hyphen/dash `-` is not
+			- The hyphen/dash `-` doesn't required to be escaped in normal string, but a leading dash can be unintentinally treated as an option of a command.
+				- Escaping with back slash is ineffective: `\-` is always `\-`, never converted to `-`.
+				- We can use ((67d3c57c-6e47-4762-8255-f855af47d5bc)) to separate option list.
+				- Other
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- ```shell
 				  LANG=C LC_ALL=UTF-16BE printf "\
