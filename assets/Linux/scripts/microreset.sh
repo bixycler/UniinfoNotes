@@ -13,7 +13,7 @@ tension=0; problem=''
 if ! zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."
 then
     if ! tension=($(zenity --list --checklist --title "${now}" --text "How much tension's remaining?"\
-        --separator ' ' --column "" --column "Level of tension" --column ""\
+        --separator=' ' --column "" --column "" --column "" \
         true 0 '%' false 10 '%'  false 20 '%' false 30 '%' false 40 '%' false 50 '%' \
         false 60 '%' false 70 '%' false 80 '%' false 90 '%' false 100 '%' false -1 '♾<fe0f>' \
         false '+' 'Comments'))
