@@ -9,6 +9,9 @@ today=$(date '+Y-m-d')
 now=$(date '+H:M:S')
 dt="${today}_${now}"
 
+keyboard_id=3 # `id=3` in $(xinput --list | grep -i "keyboard")
+xinput --disable "$keyboard_id"
+
 tension=0; problem=''
 if ! {
     zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."\
@@ -17,6 +20,8 @@ if ! {
     zenity 
 then
     tension=-1
+    xinput --enable "$keyboard_id"
     problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem?")
 fi
+xinput --enable "$keyboard_id"
 echo -e "${dt}\t${tension}\t${problem}" >> $LOGF
