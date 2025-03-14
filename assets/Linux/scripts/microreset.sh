@@ -12,18 +12,19 @@ dt="${today}_${now}"
 tension=0; problem=''
 if ! zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."
 then
-    if ! tension=$(zenity --list --title "${now}" --text "How much tension's remaining?\n(Escape for ♾️, enter blank for \ncomments with tension = 0)"\
+    if ! tension=$(zenity --list --title "${now}" --text "How much tension's remaining?\n(Escape for ♾️, \nenter blank to skip comments)"\
         --height 400 --column "" --column "" -- \
         0 '%' 10 '%' 20 '%' 30 '%' 40 '%' 50 '%' \
         60 '%' 70 '%' 80 '%' 90 '%' 100 '%' ' -1' '♾️' )
         # the space before -1 in ' -1' is to avoid "option" collision, even after `--`!
     then tension='-1'; fi
     tension=$(echo $tension | xargs) # trim white spaces
-    if [[ ${tension} != '0' ]]; then
-        [[ -z ${tension} ]] && tension='0'
+    if [[ -n ${tension} ]]; then
         tensionStr="${tension}%"
         [[ ${tension} == '-1' ]] && tensionStr='♾️' 
         problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem with tension = ${tensionStr}?")
+    else
+        tension='0'
     fi
 fi
 echo -e "${dt}\t${tension}\t${problem}" >> $LOGF
