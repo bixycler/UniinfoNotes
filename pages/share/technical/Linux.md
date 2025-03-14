@@ -625,7 +625,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		-
 		- Escape sequences & Hex codes
 		  collapsed:: true
-			-
+			- `\`-escape sequences are interpreted by [ANSI-C quoted](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html) `$'string\n'` and other commands like `printf`, `echo -e`, etc.
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
 				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49)) commands
 			- ((66725725-f76a-4328-b162-f469b87e871b))
