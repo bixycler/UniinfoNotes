@@ -16,13 +16,13 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  CLOCK: [2025-01-10 Fri 18:40:54]--[2025-01-10 Fri 19:27:42] =>  00:46:48
 		  CLOCK: [2025-01-13 Mon 19:05:31]--[2025-01-13 Mon 20:14:12] =>  01:08:41
 		  :END:
-		- DOING [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
+		- DONE [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
 		  id:: 67d10c06-3fe3-4691-95c0-84278a2dc713
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:27:07]--[2025-03-12 Wed 11:27:08] =>  00:00:01
 		  CLOCK: [2025-03-13 Thu 14:24:55]--[2025-03-13 Thu 16:28:58] =>  02:04:03
-		  CLOCK: [2025-03-13 Thu 17:54:04]
+		  CLOCK: [2025-03-13 Thu 17:54:04]--[2025-03-14 Fri 13:53:21] =>  19:59:17
 		  :END:
 			- Every 30 mins
 			- First i tried using Gnome Clock, but its alarm has notification level `normal` which disappears after just 3 seconds ⇒ Missed all the time 🙁!

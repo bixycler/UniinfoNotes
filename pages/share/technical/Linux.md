@@ -863,9 +863,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `$n`: n-th argument
 				- `$?`: exit status of the last command executed
 				- `$!`: pid of the last background command
-				- DOING `$-`: the current set of enabled shell options, e.g. `himBHs` = {`histexpand`, `interactive`, `monitor`, `hashall`, `braceexpand`}.
+				- `$-`: the current set of enabled shell options given through `-o` of the current shell, e.g. `himBH` = (`histexpand`, `interactive`, `monitor`, `braceexpand`, `hashall`).
 				  :LOGBOOK:
-				  CLOCK: [2025-03-14 Fri 11:12:27]
+				  CLOCK: [2025-03-14 Fri 11:12:27]--[2025-03-14 Fri 13:50:18] =>  02:37:51
 				  :END:
 			- String variable manipulations
 			  collapsed:: true
