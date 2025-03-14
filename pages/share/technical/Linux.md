@@ -622,8 +622,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Superuser: `/sbin`, `/usr/sbin`, `/usr/local/sbin`
 			- Snap: `/snap/bin`
 			  id:: 66b1cfa4-59ec-476f-b06f-c14db11f369b
+		-
 		- Escape sequences & Hex codes
 		  collapsed:: true
+			-
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
 				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49)) commands
 			- ((66725725-f76a-4328-b162-f469b87e871b))
