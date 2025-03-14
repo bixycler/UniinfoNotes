@@ -635,9 +635,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
 				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49)) commands
 			- The hyphen/dash `-` doesn't required to be escaped in normal string, but a leading dash can be unintentinally treated as an option of a command.
-				- Escaping with back slash is ineffective: `\-` is always `\-`, never converted to `-`.
+				- Escaping with backslash is ineffective: `\-` is always `\-`, never converted to `-`.
 				- We can use ((67d3c57c-6e47-4762-8255-f855af47d5bc)) to separate option list.
-				- Other
+				- Other way to esccape dash: `$'\x2d'`
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- ```shell
 				  LANG=C LC_ALL=UTF-16BE printf "\
@@ -857,14 +857,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  id:: 66c6c8e6-54be-4b4f-80a1-c535d429d05c
 				- `$0`: filename of the running shell (script)
 				- arguments to the running shell (script)
-				  collapsed:: true
 					- `$#`: number of arguments
 					- `$*`: all arguments
 					- `$@`: all arguments where each argument is separated via quotation
 					- `$n`: n-th argument
 				- `$?`: exit status of the last command executed
 				- `$!`: pid of the last background command
-				- DOING `$-`: ...
+				- DOING `$-`: the current set of enabled shell options, e.g. `himBHs` = {`histexpand`, `interactive`, `monitor`, `hashall`, `braceexpand`}.
 				  :LOGBOOK:
 				  CLOCK: [2025-03-14 Fri 11:12:27]
 				  :END:
