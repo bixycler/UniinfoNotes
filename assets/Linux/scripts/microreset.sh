@@ -10,10 +10,11 @@ now=$(date '+%H:%M:%S')
 dt="${today}_${now}"
 
 tension=0; problem=''
-if ! zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."; then
-    if ! tension=$(zenity --scale --title "${now}" --text "How much tension's remaining?"); then
+if ! {
+    zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."\
+    || tension=$(zenity --scale --title "${now}" --text "How much tension's remaining?"); }
+then
         tension=-1
         problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem?")
-    fi
 fi
 echo -e "${dt}\t${tension}\t${problem}" >> $LOGF
