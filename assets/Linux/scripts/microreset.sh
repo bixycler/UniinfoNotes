@@ -12,13 +12,14 @@ dt="${today}_${now}"
 tension=0; problem=''
 if ! zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."
 then
-    if ! tension=$(zenity --list --title "${now}" --text "How much tension's remaining?"\
+    if ! tension=$(zenity --list --title "${now}" --text "How much tension's remaining?\n(Escape for ♾️)"\
         --height 400 --column "" --column "" -- \
         0 '%' 10 '%' 20 '%' 30 '%' 40 '%' 50 '%' \
         60 '%' 70 '%' 80 '%' 90 '%' 100 '%' ' -1' '♾️' )
         # the space before -1 in ' -1' is to avoid "option" collision, even after `--`!
     then tension='-1'; fi
     if [[ ${tension} != '0' ]]; then
+        [[ -z ${tension} ]] && tension='0'
         tensionStr="${tension}%"
         [[ ${tension} == '-1' ]] && tensionStr='♾️' 
         problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem with tension = ${tensionStr}?")
