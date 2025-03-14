@@ -10,13 +10,17 @@ now=$(date '+H:M:S')
 dt="${today}_${now}"
 
 tension=0; problem=''
-if ! {
-    zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."\
-    || tension=$(zenity --list --checklist --title "${now}" --text "How much tension's remaining?"\
-        --column "" --column "Level of tension" true '0' false '10'  false '20' false '30' false '40' false '50' false '60' false '70' false '80' false '90' false '100' false '♾<fe0f>' false '+ Comments'); }
+if ! zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."
 then
-    tension=-1
-    problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem?")
+    if ! tension=$(zenity --list --checklist --title "${now}" --text "How much tension's remaining?"\
+        --column "" --column "Level of tension" \
+        true '0' false '10'  false '20' false '30' false '40' false '50' \
+        false '60' false '70' false '80' false '90' false '100' false '♾<fe0f>' \
+        false '+ Comments')
+    then
+        tension=-1
+        problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem?")
+    fi
 fi
 xinput --reattach "$keyboard_id" 3
 echo -e "${dt}\t${tension}\t${problem}" >> $LOGF
