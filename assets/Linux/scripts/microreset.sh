@@ -14,7 +14,7 @@ if ! {
     zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."\
     || tension=$(zenity --scale --title "${now}" --text "How much tension's remaining?"); }
 then
-        tension=-1
-        problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem?")
+    tension=-1
+    problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem?")
 fi
 echo -e "${dt}\t${tension}\t${problem}" >> $LOGF
