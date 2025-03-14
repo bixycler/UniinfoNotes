@@ -32,7 +32,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  :END:
 				- ![microreset.sh](../assets/Linux/scripts/microreset.sh) with `crontab`
 				  ```crontab
-				  00,30 *  *   * 1-5 /home/dinhlx/.local/bin/microreset.sh 2>&1 >> /tmp/cron.log
+				  00,30 9-20  *   * 1-5 /home/dinhlx/.local/bin/microreset.sh 2>&1 >> /tmp/cron.log
 				  ```
 				- Icons: ![colors-chromagreen.png](../assets/Will/story/2025-Mar/colors-chromagreen.png), ![user-available.svg](../assets/Will/story/2025-Mar/user-available.svg), ![Power-Restart.png](../assets/Will/story/2025-Mar/Power-Restart.png){:width 32}
 				  collapsed:: true

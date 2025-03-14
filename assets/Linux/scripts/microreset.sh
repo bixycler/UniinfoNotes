@@ -4,7 +4,7 @@
 export DISPLAY=':0'
 export DBUS_SESSION_BUS_ADDRESS='unix:path=/run/user/1001/bus' # 1001 = $(id -u dinhlx)
 
-LOGF=${1:-$HOME/tmp/microreset.log}
+LOGF=${1:-$HOME/Documents/microreset.log}
 today=$(date '+%Y-%m-%d')
 now=$(date '+%H:%M:%S')
 dt="${today}_${now}"
