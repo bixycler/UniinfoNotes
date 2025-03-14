@@ -615,19 +615,6 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  /usr/bin/ls
 					  /bin/ls
 					  ```
-		- `$-` special variables
-		  collapsed:: true
-			- `$$`: pid of the running shell (script)
-			  id:: 66c6c8e6-54be-4b4f-80a1-c535d429d05c
-			- `$0`: filename of the running shell (script)
-			- arguments to the running shell (script)
-			  collapsed:: true
-				- `$#`: number of arguments
-				- `$*`: all arguments
-				- `$@`: all arguments where each argument is separated via quotation
-				- `$n`: n-th argument
-			- `$?`: exit status of the last command executed
-			- `$!`: pid of the last background command
 		- Command directories
 		  collapsed:: true
 			- Home: `${HOME}/bin`, `${HOME}/.local/bin`
@@ -852,7 +839,21 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
 							  ...
 							  ```
+			- `$-` special parameters
+			  collapsed:: true
+				- `$$`: pid of the running shell (script)
+				  id:: 66c6c8e6-54be-4b4f-80a1-c535d429d05c
+				- `$0`: filename of the running shell (script)
+				- arguments to the running shell (script)
+				  collapsed:: true
+					- `$#`: number of arguments
+					- `$*`: all arguments
+					- `$@`: all arguments where each argument is separated via quotation
+					- `$n`: n-th argument
+				- `$?`: exit status of the last command executed
+				- `$!`: pid of the last background command
 			- String variable manipulations
+			  collapsed:: true
 				- `${#var}`
 				  string length of `$var`
 				- `${var:position[:length]}`
@@ -879,6 +880,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  replace *all* matches of `substring` (pattern) with `replacement`.
 				- Ref: [Advanced Bash-Scripting Guide: 10.1. Manipulating Strings](https://tldp.org/LDP/abs/html/string-manipulation.html)
 			- Parameter substitution
+			  collapsed:: true
 				- Note: The version with `:` is for `parameter` declared but `null`.
 				- `${parameter-default value}`, `${parameter:-default value}`
 				  If `parameter` is unset, use default value.
@@ -969,6 +971,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Command_substitution)
 			- I/O stream [redirection](https://en.wikipedia.org/wiki/Redirection_(computing))
 			  id:: 67d24c08-0890-4864-9ceb-759d519f5e8b
+			  collapsed:: true
 				- Syntax: `command < infile > outfile`
 				  id:: 67d257b8-cce3-4e79-8b42-b82bdd1fe7b0
 					- Appending output: `command >> outfile`
