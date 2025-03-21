@@ -748,8 +748,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Then i researched about “phase locking”
 				  collapsed:: true
 					- Only now, can i get the [circle map](https://en.m.wikipedia.org/wiki/Arnold_tongue#Standard_circle_map) 😁
-						- [irrational rotation](https://en.m.wikipedia.org/wiki/Irrational_rotation) + coupling (sine) wave = Arnold circle map
-							- irrational rotation: for each turn of the intent circle $i → i+1$, it covers the content $x_{i+1} - x_{i} = Ω$, an irrational number relative to the content circle (= 1).
+						- [(ir)rational rotation](https://en.m.wikipedia.org/wiki/Irrational_rotation) + coupling (sine) wave = Arnold circle map
+							- (ir)rational rotation: for each turn of the intent circle $i → i+1$, it covers the content $x_{i+1} - x_{i} = Ω$, an (ir)rational number relative to the content circle (= 1).
 							- coupling wave: $\frac{K}{2π} \sin(2π x_{i})$ is the “breathing” obop
 							- Arnold circle map: $θ_{i+1} - θ_{i} = 2πΩ + K \sin(θ_{i})$ where $θ = 2πx$
 							  collapsed:: true
@@ -759,6 +759,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The [rotation number](https://en.m.wikipedia.org/wiki/Rotation_number) is the “frequency” of content cycle over intent turns.
 						  $ω = \lim_{n \to ∞} x_{n}/n ≈ Ω$
 							- It's also the [winding number](https://en.m.wikipedia.org/wiki/Winding_number) of the intent thread around the content circle.
-							- Phase locking := rational rotation number
+							- Phase locking := rotation number is **rational** ⇒ the limiting rotation number $ω_0$ at $K = 0$ is stable/locked no matter how much “breathing” the coupling wave is.
+						-
 					- And found that [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) is what I'm looking for.
 		- ...
