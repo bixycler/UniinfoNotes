@@ -715,4 +715,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ![Quantum-yin-yang.jpg](../assets/Will/story/2025-Mar/Quantum-yin-yang.jpg)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- The second experience of drowning
+		  id:: 67dcc012-44d3-4041-b17a-0ef201b3ff6c
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-03-21 Fri 08:25:58]
+		  :END:
+			- Last midnight, 13 March, i started to get a sore throat.
+			  id:: 67d421d7-0df5-46f4-8f5a-07926551b701
+			  :LOGBOOK:
+			  CLOCK: [2025-03-14 Fri 19:32:24]
+			  :END:
+				- I got worse while i slept, but then it turned milder this morning.
+				  :LOGBOOK:
+				  CLOCK: [2025-03-14 Fri 19:32:24]
+				  :END:
+				- At the end of working hours today, it became worse due to the pressure of both personal works and company works.
+			- Saturday, 15 March, with meditation, i
+			- Sunday,
 		- ...

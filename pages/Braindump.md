@@ -477,17 +477,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Last midnight, i started to get a sore throat.
+		- Let's write the ongoing story of ((67dcc012-44d3-4041-b17a-0ef201b3ff6c)).
 		  :LOGBOOK:
-		  CLOCK: [2025-03-14 Fri 19:32:24]
+		  CLOCK: [2025-03-21 Fri 08:28:14]
 		  :END:
-			- I got worse while i slept, but then it turned milder this morning.
-			  :LOGBOOK:
-			  CLOCK: [2025-03-14 Fri 19:32:24]
-			  :END:
-			- At the end of working hours, it became worse due to the pressure of both personal works and company works.
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:24:25]
 		  :END:
-		- ... ♾️ ∞
+		- ...
