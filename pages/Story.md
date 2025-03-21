@@ -770,18 +770,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 67dce5ed-429b-4279-9fb4-7bf78ddd649a
 			- Tuesday, i practised âm dương đan the whole day and also advertised it to leader Quân.
 				- Going to bed, i found the mental switch to turn the [cough reflex](https://en.wikipedia.org/wiki/Cough_reflex) off: while still facing the cough, zoom out and hold on other stuffs to pull the mind out of the cough.
-				- After 4 hours, i woke up and returned to bed with the same technique... and contemplated the [equivalence of 2 aspects of the zero](((67dcec86-db94-47b0-8687-ab2aa95d7c8a))).
-			- Wednesday,
+				- After 4 hours, i woke up and returned to bed with the same technique... and contemplated the [equivalence of 2 aspects of the zero](((67dcec86-db94-47b0-8687-ab2aa95d7c8a))) before falling asleep.
+			- Wednesday, i was shown that
 				- This early morning, i saw the equivalence of 2 aspects of the zero: 
 				  id:: 67dcec86-db94-47b0-8687-ab2aa95d7c8a
 				  Zero = center = balance = cancellation = concentration = abstraction = point (cone) projection
 					- obop = ε =[projection]= 1/ω =[cancellation]= ω - ω
-					- wider the world 🌎 ω, there are more opposites to be cancelled, leaving less things to see as ε, nearer to the center, the average.
-					- to return to the center, we must zoom out, back up/off, retreat, refrain, to let the opposites within the objects cancel themselves, instead of going forward to control them, and let the form of the objects recede themselves.
-				- [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates)
+					- Wider the world 🌎 ω, there are more opposites to be cancelled, leaving less things to see as ε, nearer to the center, the average.
+					- To return to the center, we must zoom out, back up/off, retreat, refrain, to let the opposites within the objects cancel themselves, instead of going forward to control them, and let the form of the objects recede themselves.
+				- From afternoon to midnight, i researched various themes in which the most prominent one is [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) at last.
 					- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
-				- Due to the catching up in these researches, i was fallen into severe coughs again.
+				- Due to being caught up in these researches, i was fallen into severe coughs again.
 			- Thursday
+				-
 			- Today, Friday 21 March,
 			  id:: 67dcf5de-9861-4ce5-8d1e-1b311580574a
 			  :LOGBOOK:
