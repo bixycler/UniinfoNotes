@@ -736,5 +736,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- There's nothing strange.
 				- In stead of deeper meditation into my lung as i expected, the trip let me go around the overview circle where this sickness is just an essential part. So just enjoy it, enjoy the caugh, no need to take it seriously.
 				- Next day (Monday), instead of going to hospital, i decided to share this view on liberation and about "the ultimate result is sickness and dead" with leader Quân.
-				- I went to bed to relax my back, where i saw that "just shi
+				- I went to bed to relax my back, where i saw that "just shift the (inner deep) focus, the cough will subside."
+			- Monday, i went to company to wrap up the "Java heap" task with Mr. Phương, and return right in that morning because leader Quân was off.
+				- Afternoon, waking up after some hours sleeping, i reviewed and saw the cause of my severe cough
 		- ...
