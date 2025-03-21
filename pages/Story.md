@@ -731,6 +731,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  CLOCK: [2025-03-14 Fri 19:32:24]
 				  :END:
 				- At the end of working hours today, it became worse due to the pressure of both personal works and company works.
-			- Saturday, 15 March, with meditation, i
-			- Sunday,
+			- Saturday, 15 March, with meditation, i shifted the sore throat to phlegm.
+			- Sunday, the phlegm seemed to be under control. From 18:00, i took 1 tab of 200μg LSD to see what will be seen while i'm sick.
+				- There's nothing strange.
+				- In stead of deeper meditation into my lung as i expected, the trip went around the overview circle
 		- ...
