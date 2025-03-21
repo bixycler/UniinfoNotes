@@ -2441,9 +2441,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				  collapsed:: true
 					- I discovered sublimation first (from [the start of February](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice), but without proper transformation & channeling, i've been struck by a serious lung disease (pneumonia, from the end of Mars to April).
+					  id:: 67b541d0-e82f-422b-9c0d-f7924abce981
 					  collapsed:: true
 						- ![Pneumonia_2024-04.jpg](../assets/Will/Pneumonia_2024-04.jpg)
-					- Throughout the weeks facing that lung inflammation (with blood coughing), i've discovered
+					- Throughout the weeks facing [that lung inflammation](((67b541d0-e82f-422b-9c0d-f7924abce981))) (with blood coughing), i've discovered
+					  id:: 67b541d0-8a10-4eae-8370-8ebab4dd7300
 						- the qigong technique to transform the qi,
 						- the key point in my chest to control the cough reflex, and
 						- revisit the formless meditation to deal with serious pain (my first application was at the previous serious illness of herpes zoster/zona).

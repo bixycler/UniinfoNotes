@@ -764,5 +764,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  collapsed:: true
 							- ![Circle_map_bifurcation.jpeg](../assets/Will/story/2025-Mar/Circle_map_bifurcation.jpeg)
 					- And found that [synchronization network](https://en.wikipedia.org/wiki/Synchronization_network) & [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) are what I'm looking for.
-			-
+				- Caught up in the “phase locking” research, my cough got severe.
+				- That midnight, recalling [the previous time](((67b541d0-8a10-4eae-8370-8ebab4dd7300))), i produce the “”
+			- Tuesday,
 		- ...
