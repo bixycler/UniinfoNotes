@@ -788,8 +788,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Displacement matrix $D$
 						  id:: 67dd6cb0-7522-427c-b714-5dd53a678b8d
 						  $$ D = \begin{pmatrix} 0 & 0 & dx \\ 0 & 0 &  dy \\ 0 & 0 &  0 \end{pmatrix} $$
-					- Line
-					- Point at infinity (limit point)
+					- Line $l = (x_0+dx⋅t : y_0+dy⋅t : 1) = (x_0+dx⋅t, y_0+dy⋅t)$ [on Euclidean plane $z = 1$] $=$ plane [in 3D]
+					- DOING Point at infinity = limit point on line $l$
+					  :LOGBOOK:
+					  CLOCK: [2025-03-21 Fri 20:58:44]
+					  :END:
 					- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
 					- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
 					  :LOGBOOK:
