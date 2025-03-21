@@ -755,5 +755,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  the breathing intent circle transcycles the content circle
 								- ![Another_way_to_view_the_circle_map.png](../assets/Will/story/2025-Mar/Another_way_to_view_the_circle_map.png)
 						- The general circle map $θ_{i+1} = g(θ_{i}) + Ω$ is just a general quasiperiodic function $g$ between intent circle & content circle.
+						- The [rotation number](https://en.m.wikipedia.org/wiki/Rotation_number) is the “frequency” of content cycle over intent turns.
+							- It's also the [winding number](https://en.m.wikipedia.org/wiki/Winding_number) of the intent thread around the content circle.
 					- And found that [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) is what I'm looking for.
 		- ...
