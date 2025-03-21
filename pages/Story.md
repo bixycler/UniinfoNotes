@@ -745,7 +745,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Coarse grained version of resampling is ignoring which is usually done by people.
 						- The normal (subjective) way is to shift focus.
 						- [Âm dương đan](((67dce5ed-429b-4279-9fb4-7bf78ddd649a)))
-				- Then i researched about “phase locking”
+				- Then i did research on “phase locking”.
 				  id:: 67dcc974-63c1-4bd5-87f9-4885770b2827
 				  collapsed:: true
 					- Only now, can i get the [circle map](https://en.wikipedia.org/wiki/Arnold_tongue#Standard_circle_map) 😁
@@ -782,6 +782,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
 			- Thursday
 			- Today, Friday 21 March,
+			  id:: 67dcf5de-9861-4ce5-8d1e-1b311580574a
 			  :LOGBOOK:
 			  CLOCK: [2025-03-21 Fri 12:15:43]
 			  :END:
