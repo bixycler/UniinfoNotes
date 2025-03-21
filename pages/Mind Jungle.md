@@ -2443,7 +2443,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- I discovered sublimation first (from [the start of February](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice), but without proper transformation & channeling, i've been struck by a serious lung disease (pneumonia, from the end of Mars to April).
 					  id:: 67b541d0-e82f-422b-9c0d-f7924abce981
 					  collapsed:: true
-						- ![Pneumonia_2024-04.jpg](../assets/Will/Pneumonia_2024-04.jpg)
+						- ![Pneumonia_2024-04.jpg](../assets/Will/story/2024-04/Pneumonia_2024-04.jpg)
+						- ![Pneumonia_2024-04-CT.png](../assets/Will/story/2024-04/Pneumonia_2024-04-CT.png)
 					- Throughout the weeks facing [that lung inflammation](((67b541d0-e82f-422b-9c0d-f7924abce981))) (with blood coughing), i've discovered
 					  id:: 67b541d0-8a10-4eae-8370-8ebab4dd7300
 						- the qigong technique to transform the qi,

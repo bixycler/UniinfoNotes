@@ -783,7 +783,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Due to being caught up in these researches, i was fallen into severe coughs again.
 			- Thursday, a day of meditation.
 				- With deep meditation, my cough had nearly gone before i went to bed.
-				- Going to bed, i'd experienced the full process of drowning then passed away
+				- Going to bed, i'd experienced the full process of drowning then passed away.
+					- In [the previous time](((67b541d0-8a10-4eae-8370-8ebab4dd7300))) as well as the last days, i
 			- Today, Friday 21 March,
 			  id:: 67dcf5de-9861-4ce5-8d1e-1b311580574a
 			  :LOGBOOK:
