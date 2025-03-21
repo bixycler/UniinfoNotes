@@ -746,6 +746,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The normal (subjective) way is to shift focus.
 						- Âm dương đơn
 				- Then i researched about “phase locking”
-					- Only now, can i get the [circle map](https://en.wikipedia.org/wiki/Circle_Map) 😁
+					- Only now, can i get the [circle map](https://en.m.wikipedia.org/wiki/Arnold_tongue#Standard_circle_map) 😁
+						- [irrational rotation](https://en.m.wikipedia.org/wiki/Irrational_rotation) + coupling (sine) wave = Arnold circle map
+						- The general circle map $θ_{i+1} = g(θ_{i}) + Ω$ is  two circles
 					- And found that [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) is what I'm looking for.
 		- ...
