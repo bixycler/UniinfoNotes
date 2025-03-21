@@ -779,6 +779,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Wider the world 🌎 ω, there are more opposites to be cancelled, leaving less things to see as ε, nearer to the center, the average.
 					- To return to the center, we must zoom out, back up/off, retreat, refrain, to let the opposites within the objects cancel themselves, instead of going forward to control them, and let the form of the objects recede themselves.
 				- From afternoon to midnight, i researched various themes in which the most prominent one is [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) at last.
+					- Point $P = (x:y:1) = (x,y)$ on Euclidean plane $z = 1$
+					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ on Euclidean plane $z = 1$
 					- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
 					- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
 					  :LOGBOOK:
