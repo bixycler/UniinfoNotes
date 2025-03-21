@@ -746,6 +746,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The normal (subjective) way is to shift focus.
 						- [Âm dương đan](((67dce5ed-429b-4279-9fb4-7bf78ddd649a)))
 				- Then i researched about “phase locking”
+				  id:: 67dcc974-63c1-4bd5-87f9-4885770b2827
 				  collapsed:: true
 					- Only now, can i get the [circle map](https://en.wikipedia.org/wiki/Arnold_tongue#Standard_circle_map) 😁
 						- [(ir)rational rotation](https://en.wikipedia.org/wiki/Irrational_rotation) + coupling (sine) wave = Arnold circle map
@@ -777,4 +778,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- obop = ε =[projection]= 1/ω =[cancellation]= ω - ω
 					- wider the world 🌎 ω, there are more opposites to be cancelled, leaving less things to see as ε, nearer to the center, the average.
 					- to return to the center, we must zoom out, back up/off, retreat, refrain, to let the opposites within the objects cancel themselves, instead of going forward to control them, and let the form of the objects recede themselves.
+				-
 		- ...
