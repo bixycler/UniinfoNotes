@@ -780,6 +780,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- to return to the center, we must zoom out, back up/off, retreat, refrain, to let the opposites within the objects cancel themselves, instead of going forward to control them, and let the form of the objects recede themselves.
 				- [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates)
 					- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
+				- Due to the catching up in these researches,
 			- Thursday
 			- Today, Friday 21 March,
 			  id:: 67dcf5de-9861-4ce5-8d1e-1b311580574a
