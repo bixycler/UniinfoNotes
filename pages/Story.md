@@ -748,11 +748,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Then i researched about “phase locking”
 					- Only now, can i get the [circle map](https://en.m.wikipedia.org/wiki/Arnold_tongue#Standard_circle_map) 😁
 						- [irrational rotation](https://en.m.wikipedia.org/wiki/Irrational_rotation) + coupling (sine) wave = Arnold circle map
-							- irrational rotation: for each turn of the intent circle $i → i+1$, it covers the content $θ_{i+1} - θ_{i} = Ω$, an irrational number relative to the content circle (= 1).
-							- coupling wave: $\frac{K}{2π} \sin(2π θ_{i})$ is the “breathing” content
-							- Arnold circle map: $θ_{i+1} - θ_{i} = Ω + \frac{K}{2π} \sin(2π θ_{i})$
+							- irrational rotation: for each turn of the intent circle $i → i+1$, it covers the content $x_{i+1} - x_{i} = Ω$, an irrational number relative to the content circle (= 1).
+							- coupling wave: $\frac{K}{2π} \sin(2π x_{i})$ is the “breathing” obop
+							- Arnold circle map: $θ_{i+1} - θ_{i} = Ω + K \sin(θ_{i})$
 							  collapsed:: true
-							  the intent circle transcycles the breathing content circle
+							  the breathing intent circle transcycles the content circle 1
 								- ![Another_way_to_view_the_circle_map.png](../assets/Will/story/2025-Mar/Another_way_to_view_the_circle_map.png)
 						- The general circle map $θ_{i+1} = g(θ_{i}) + Ω$ is just a general quasiperiodic function $g$ between intent circle & content circle.
 					- And found that [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) is what I'm looking for.
