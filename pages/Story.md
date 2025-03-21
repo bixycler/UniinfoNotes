@@ -780,9 +780,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- To return to the center, we must zoom out, back up/off, retreat, refrain, to let the opposites within the objects cancel themselves, instead of going forward to control them, and let the form of the objects recede themselves.
 				- From afternoon to midnight, i researched various themes in which the most prominent one is [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) at last.
 					- Point $P = (x_0 : y_0 : 1) = (x_0, y_0)$ [on Euclidean plane $z = 1$] $=$ line $(x_0, y_0)⋅t$ [in 3D]
-					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅v$
-						- Displacement matrix
-						  $$ D = $\begin{pmatrix} dx \\ dy \\ 0 \end{pmatrix}$
+					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅P$ with ((67dd6cb0-7522-427c-b714-5dd53a678b8d)) and any point $P$
+					- Translation $T = I + D  ⇒  T⋅P = I⋅P+D⋅P = P + \vec{v}$
+					  collapsed:: true
+						- Identity matrix $I$
+						  $$ I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 &  0 \\ 0 & 0 & 1 \end{pmatrix} $$
+						- Displacement matrix $D$
+						  id:: 67dd6cb0-7522-427c-b714-5dd53a678b8d
+						  $$ D = \begin{pmatrix} 0 & 0 & dx \\ 0 & 0 &  dy \\ 0 & 0 &  0 \end{pmatrix} $$
+					- Line
+					- Point at infinity (limit point)
 					- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
 					- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
 					  :LOGBOOK:
