@@ -643,7 +643,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- *Và, họ nhận lại hóa đơn ghi:*
 				- **Tiền công gõ búa: 2$**
 				- **Tìm ra nơi cần gõ: 9.998$**
-	- The end of the theorist karma
+	- The end of the [theorist karma](((669a58b9-422a-40d9-adcf-b2aade86c170)))
 	  id:: 66ab4281-68c2-4752-8a76-aede265449b6
 	  collapsed:: true
 	  :LOGBOOK:

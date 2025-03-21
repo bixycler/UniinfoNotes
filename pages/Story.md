@@ -771,7 +771,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Tuesday, i practised âm dương đan the whole day and also advertised it to leader Quân.
 				- Going to bed, i found the mental switch to turn the [cough reflex](https://en.wikipedia.org/wiki/Cough_reflex) off: while still facing the cough, zoom out and hold on other stuffs to pull the mind out of the cough.
 				- After 4 hours, i woke up and returned to bed with the same technique... and contemplated the [equivalence of 2 aspects of the zero](((67dcec86-db94-47b0-8687-ab2aa95d7c8a))) before falling asleep.
-			- Wednesday, i was shown that
+			- Wednesday, i was shown how badly my [theorist karma](((669a58b9-422a-40d9-adcf-b2aade86c170))) affect my helth.
 				- This early morning, i saw the equivalence of 2 aspects of the zero: 
 				  id:: 67dcec86-db94-47b0-8687-ab2aa95d7c8a
 				  Zero = center = balance = cancellation = concentration = abstraction = point (cone) projection
@@ -781,8 +781,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- From afternoon to midnight, i researched various themes in which the most prominent one is [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) at last.
 					- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
 				- Due to being caught up in these researches, i was fallen into severe coughs again.
-			- Thursday
-				-
+			- Thursday, a day of meditation.
+				- With deep meditation, my cough had nearly gone before i went to bed.
+				- Going to bed, i'd experienced the full process of drowning then passed away
 			- Today, Friday 21 March,
 			  id:: 67dcf5de-9861-4ce5-8d1e-1b311580574a
 			  :LOGBOOK:
