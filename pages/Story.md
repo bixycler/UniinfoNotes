@@ -768,5 +768,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- That midnight, recalling [the previous time](((67b541d0-8a10-4eae-8370-8ebab4dd7300))), i produced the “âm dương đan” (陰陽丹) qigong exercise to tame my cough.
 				  id:: 67dce5ed-429b-4279-9fb4-7bf78ddd649a
 			- Tuesday, i practised âm dương đan the whole day and also advertised it to leader Quân.
-				- Going to bed, i
+				- Going to bed, i found the mental switch to turn the [cough reflex](https://en.wikipedia.org/wiki/Cough_reflex) off: while still facing the cough, zoom out and hold on other stuffs to pull the mind out of the cough.
+				-
+			- Wednesday,
 		- ...
