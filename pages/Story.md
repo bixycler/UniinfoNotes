@@ -804,7 +804,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2025-03-21 Fri 20:58:44]
 					  :END:
 						- Point at infinity is just the direction vector $\vec{v}$ of the line $l$, as well as all other lines parallel to $l$.
-						- This is how all parallel lines “converge” to the point at infinity.
+						- Because translation is a parallel tra  all parallel lines “converge” to the point at infinity.
 					- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
 					- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
 					  :LOGBOOK:
