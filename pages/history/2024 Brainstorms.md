@@ -90,7 +90,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 						  {{video https://youtu.be/RCIz2hdJQy0}}
 					- Parabolic rotation, the bridge between elliptic and hyperbolic rotations
 					  collapsed:: true
-						- See [planar algebras & kinematic geometries in non-Euclidean geometries](https://en.wikipedia.org/wiki/Non-Euclidean_geometry#Planar_algebras) with [split-complex number](https://en.wikipedia.org/wiki/Split-complex_number) and [dual number](https://en.wikipedia.org/wiki/Dual_number) as metrics other than the elliptic metric of [complex number](https://en.wikipedia.org/wiki/Complex_number).
+						- See [planar algebras & kinematic geometries in non-Euclidean geometries](https://en.wikipedia.org/wiki/Non-Euclidean_geometry#Planar_algebras) with
+							- elliptic metric of [complex number](https://en.wikipedia.org/wiki/Complex_number): $i^2 = -1$.
+							- hyperbolic metric of [split-complex number](https://en.wikipedia.org/wiki/Split-complex_number): $j^2 = +1$
+							- parabolic metric of [dual number](https://en.wikipedia.org/wiki/Dual_number): $ε^2 = 0$
 						- [ProjectiveGeometry-AlexanderI.Bobenko.pdf](../assets/geometry/ProjectiveGeometry-AlexanderI.Bobenko.pdf)
 						- [Linear fractional transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation#Conformal_property) > [Planar rotations](https://en.wikipedia.org/wiki/Linear_fractional_transformation#/media/File:Planar_rotations.png)
 						  ![Planar_rotations-elliptic-hyperbolic-parabolic.png](../assets/geometry/Planar_rotations-elliptic-hyperbolic-parabolic.png)
