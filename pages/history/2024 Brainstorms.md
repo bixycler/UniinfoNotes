@@ -92,7 +92,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					  collapsed:: true
 						- See [planar algebras & kinematic geometries in non-Euclidean geometries](https://en.wikipedia.org/wiki/Non-Euclidean_geometry#Planar_algebras) with [split-complex number](https://en.wikipedia.org/wiki/Split-complex_number) and [dual number](https://en.wikipedia.org/wiki/Dual_number) as metrics other than the elliptic metric of [complex number](https://en.wikipedia.org/wiki/Complex_number).
 						- [ProjectiveGeometry-AlexanderI.Bobenko.pdf](../assets/geometry/ProjectiveGeometry-AlexanderI.Bobenko.pdf)
-						- [Planar rotations on Wikipedia](https://en.wikipedia.org/wiki/Linear_fractional_transformation#/media/File:Planar_rotations.png)
+						- [Linear fractional transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation#Conformal_property) > [Planar rotations](https://en.wikipedia.org/wiki/Linear_fractional_transformation#/media/File:Planar_rotations.png)
 						  ![Planar_rotations-elliptic-hyperbolic-parabolic.png](../assets/geometry/Planar_rotations-elliptic-hyperbolic-parabolic.png)
 					- The fractal nature of this plane is somehow related to the [Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) in hyperbolic geometry, which hosts the [modular group](https://en.wikipedia.org/wiki/Modular_group) $SL(2, \Z)$ including [modular forms](https://en.wikipedia.org/wiki/Modular_form) and [elliptic functions](https://en.wikipedia.org/wiki/Elliptic_functions), via [Möbius transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation).
 					  id:: 6766ea7c-3eb8-4463-9a79-d66509daf176
