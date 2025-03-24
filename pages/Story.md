@@ -819,8 +819,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Mr. Hiệp's returned to Vietnam and will stay here for 3 months. So i logged in to fb to exchange phone number to contact via phone.
 				- I also gave phone number to Mr. Thanh Long because he asked when i said [good bye on fb](https://www.facebook.com/share/p/14ebMRYAf4/).
 				- The cough has improved a lot, but i still get strong coughing reflex every time i get to bed. This a good chance for me to contemplate it and train focusing on death.
-				- Last night, before going to bed, i see
-				- Sampling via view cone (cone projection)
-				- sampling: cone project from large base (population) to small apex (sample), then parallel project back to the base via tube winding as the ratio
-				- intent via effect circle:
+				- Last night, before going to bed, i see the nature of **sampling** via ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) & ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
+					- sampling: cone project from large base (population) to small apex (sample), then parallel project back to the base via ((670cdcb4-3c85-45af-8c30-3c3284ed37df)) as the ratio
+					- intent via effect circle:
 		- ...
