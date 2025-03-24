@@ -803,11 +803,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- With deep meditation, my cough had nearly gone before i went to bed.
 				- Going to bed, i'd experienced the full process of drowning then passed away.
 					- In [the previous time](((67b541d0-8a10-4eae-8370-8ebab4dd7300))) as well as the last days, the process was not clear because of the sleepiness at the end.
-					- This time, being awake like a god (“thức thần”), i experienced the full range of the cough reflex, the wrestle, and then the liberation with the death.
+					- This time, being awake like a god (“thức thần”), i experienced the full range of the cough reflex, the wrestle, and then the liberation through the death.
 					- I experimented both mehods of shifting focus: focus on the imaginations, and focus on the death.
-			- Today, Friday 21 March, i went to company in order to attend a meeting, but leader Quân is off again! So i just write these stories down...
+			- Today, Friday 21 March, i went to company in order to attend a meeting, but leader Quân is off again! So i just write these stories down.
 			  id:: 67dcf5de-9861-4ce5-8d1e-1b311580574a
 			  :LOGBOOK:
 			  CLOCK: [2025-03-21 Fri 12:15:43]
 			  :END:
+			- Weekends, i spent time for sleeping and reconnecting with friends.
+				- Mr. Hiệp's returned to Vietnam and will stay here for 3 months. So i logged in to fb to exchange phone number to contact via phone.
+				- I also gave phone number to Mr. Thanh Long because he asked when i said [good bye on fb](https://www.facebook.com/share/p/14ebMRYAf4/).
+				-
 		- ...
