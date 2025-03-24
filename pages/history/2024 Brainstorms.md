@@ -27,10 +27,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		- Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane
 		  id:: 67b541c9-3b4e-4429-8c35-9afaf9f434bf
 		  collapsed:: true
-			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
-				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\overrightarrow{⟨φ⟩} = \overrightarrow{⟨φ⟩}$ = angle form $∠φ$ = simple form $\bm{φ}$
-			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{τ} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dτ = \hat{φ}⋅d\vec{r} = rdφ$
-				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{τ} ⋅ \hat{r} = \hat{φ} ⋅ \vec{φ} = d\vec{φ} ⋅ \vec{φ}$
+			- radial: $\vec{r} = r⋅\overrightarrow{⟨φ⟩} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \overrightarrow{⟨φ⟩} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
+				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\overrightarrow{⟨φ⟩}$ = angle form $∠φ$ = simple form $\hat{\bm{φ}}$
+			- transverse: $d\overrightarrow{⟨φ⟩} = de^{iφ} = \overrightarrow{⟨φ⟩}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{τ} = \hat{φ} = d\overrightarrow{⟨φ⟩}/dφ = (-\sin φ, \cos φ)$   and    $dτ = \hat{φ}⋅d\vec{r} = rdφ$
+				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{τ} ⋅ \hat{r} = \hat{φ} ⋅ \overrightarrow{⟨φ⟩} = d\overrightarrow{⟨φ⟩} ⋅ \overrightarrow{⟨φ⟩}$
 			- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |d\vec{r}|$
 			- normal: $\hat{n} = \hat{r} × \hat{l} = \hat{r} × \hat{τ}$
 				- 3D [orthonormal basis](https://en.wikipedia.org/wiki/Orthonormal_basis) (radial, transverse, normal): $\hat{r} = \hat{τ} × \hat{n}$   ;   $\hat{τ} = \hat{n} × \hat{r}$  ;   $\hat{n} = \hat{r} × \hat{τ}$
