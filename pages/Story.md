@@ -782,7 +782,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- From afternoon to midnight, i researched various themes in which the most prominent one is [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) at last.
 				  id:: 67dcf2d3-4020-4477-b375-9bbb8c0b1336
 				  collapsed:: true
-					- Point $P = (x_0 : y_0 : 1) = (x_0, y_0)$ [on Euclidean plane $z = 1$] $= k(x_0 : y_0 : 1)$ [for all scalar $k≠0$] $=$ line $(x_0, y_0)⋅t$ [in 3D]
+					- Point $P = (x_0 : y_0 : 1) = (x_0, y_0)$ [on Euclidean plane $z = 1$] $= (x_0⋅z : y_0⋅z : z)$ [for z-scaled Euclidean plane $z≠0$] $= (x_0 : y_0 : 1)⋅z =$ line $(x_0, y_0)⋅t$ [in 3D]
+						- The scaler $z$ is the “depth” of view
 					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅P$ with ((67dd6cb0-7522-427c-b714-5dd53a678b8d)) and any point $P$ on Euclidean plane $z = 1$
 					- Translation $T = I + D  ⇒  T⋅P = I⋅P+D⋅P = P + \vec{v}$
 					  collapsed:: true
