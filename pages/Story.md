@@ -813,10 +813,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2025-03-24 Mon 13:59:25]
 					  :END:
-						- fafa
+						- Transverse direction = translation (addition, subtraction)
 						  :LOGBOOK:
 						  CLOCK: [2025-03-24 Mon 13:30:46]
 						  :END:
+						-
 						- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
 					- Refs:
 						- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
@@ -846,5 +847,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The cough has improved a lot, but i still get strong coughing reflex every time i get to bed. This a good chance for me to contemplate it and train focusing on death.
 				- Last night, before going to bed, i see the nature of **sampling** via ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) & ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
 					- Sampling: cone project from large base (population) to small apex (sample), then parallel project back to the base via ((670cdcb4-3c85-45af-8c30-3c3284ed37df)) as the ratio of intent over content.
-					- intent via effect circle:
+					- intent via effect circle: ...
+			- Today, Mon 24 March, back to the company, i'm completing the theories in the previous days.
 		- ...
