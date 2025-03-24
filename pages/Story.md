@@ -806,6 +806,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Translation: All points in space are shifted parallelly in direction $\vec{v}$ via vector $\vec{v}⋅t$ along lines parallel to $l$.
 						- Limit: When they are shifted to infinity with $t→∞$, they all converge to the point $(dx:dy:0)$. This is how all parallel lines “converge” to the point at infinity.
 						- I.e., point at infinity is just the direction vector $\vec{v}$ of the line $l$, as well as all other lines parallel to $l$.
+					- The translation by $\vec{v} = (dx:dy:0)$ is actually a **rotation** due to its ***scale invariance***.
+						- DOING fafa
+						  :LOGBOOK:
+						  CLOCK: [2025-03-24 Mon 13:30:46]
+						  :END:
 					- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
 					- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
 					  :LOGBOOK:
