@@ -814,13 +814,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2025-03-24 Mon 13:59:25]
 					  :END:
 						-
-						- Components of the tranformation $(r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
+						- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
 							- Note: don't confuse $\overrightarrow{⟨dφ⟩}$ with $d\overrightarrow{⟨φ⟩}$!
-								- While $\overrightarrow{⟨dφ⟩}$ is unit vector around x-axis, $d\overrightarrow{⟨φ⟩}$ is a near-zero vector perpendicular to $\vec{φ}$.
+							  collapsed:: true
+							  While $\overrightarrow{⟨dφ⟩}$ is unit vector around x-axis, $d\overrightarrow{⟨φ⟩}$ is a near-zero vector perpendicular to $\overrightarrow{⟨φ⟩}$.
 								- $|\overrightarrow{⟨dφ⟩}| = 1 \; ; \; \arg(\overrightarrow{⟨dφ⟩}) = dφ$
 								- $d\overrightarrow{⟨φ⟩} = d(e^{iφ}) = (e^{iφ})idφ = \overrightarrow{⟨φ⟩}i⋅dφ$
 									- $|d\overrightarrow{⟨φ⟩}| = dφ \; ; \; \arg(d\overrightarrow{⟨φ⟩}) = φ+π/2$
-							- transverse component = translation (addition, subtraction): $z⋅d\vec{φ}$ with magnitude $zdφ$
+							- transverse component = translation (addition, subtraction): $+dφ$
 							  :LOGBOOK:
 							  CLOCK: [2025-03-24 Mon 13:30:46]
 							  CLOCK: [2025-03-24 Mon 14:16:57]
