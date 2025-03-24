@@ -801,7 +801,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2025-03-21 Fri 20:09:27]
 					  :END:
-					-
+					- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
 				- Due to being caught up in these researches, i was fallen into severe coughs again.
 			- Thursday, a day of meditation.
 				- With deep meditation, my cough had nearly gone before i went to bed.
