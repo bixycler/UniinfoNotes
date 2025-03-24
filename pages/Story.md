@@ -785,7 +785,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Scale invariance: thanks to ratios $(x:y:z)$, instead of absolute values $(x,y,z)$, the homogeneous coordinates are unchanged throughout all z-scaled planes: $(x:y:z) = (x/z : y/z : 1)⋅z$.
 					  id:: 67e1004d-1533-483b-ab39-4b91ffbedbdd
 					- Point $P = (x_0 : y_0 : 1) = (x_0, y_0)$ [on Euclidean plane $z = 1$] $= P_z = (x_0⋅z : y_0⋅z : z)$ [for z-scaled Euclidean plane $z≠0$] $= (x_0 : y_0 : 1)⋅z =$ line $(x_0, y_0)⋅t$ [in 3D]
-						- The scaler $z$ is the “**depth**” of the object, which is the **distance** from the object to the viewpoint, and is the height of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
+						- The scaler $z$ is the “**depth**” of the object, which is the **distance** from the object plane to the viewpoint, and is the height of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
 						- An object at $(x,y,z)$ in 3D space is projected onto the “screen” of Euclidean plane as an image at $(x/z:y/z:1)$.
 						- The image of P on a z-scaled plane is $P_z = (x_0⋅z : y_0⋅z : z)$
 					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅P$ with ((67dd6cb0-7522-427c-b714-5dd53a678b8d)) and any point $P$ on Euclidean plane $z = 1$
@@ -813,11 +813,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2025-03-24 Mon 13:59:25]
 					  :END:
-						- Transverse direction = translation (addition, subtraction)
-						  :LOGBOOK:
-						  CLOCK: [2025-03-24 Mon 13:30:46]
-						  :END:
 						-
+						- Components of tranformation
+							- transverse component = translation (addition, subtraction): $e^{iφ}$
+							  :LOGBOOK:
+							  CLOCK: [2025-03-24 Mon 13:30:46]
+							  CLOCK: [2025-03-24 Mon 14:16:57]
+							  :END:
+							- radial component = scaling (multiplication, division): $r^φ$
 						- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
 					- Refs:
 						- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
