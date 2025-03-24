@@ -814,7 +814,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2025-03-24 Mon 13:59:25]
 					  :END:
 						-
-						- Components of the tranformation $⋅(r⋅d\vec{φ}) = ⋅(r⋅e^{idφ})$
+						- Components of the tranformation $(r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{dφ})⋅$
+							- $d\vec{φ} = d(e^{iφ}) = (e^{iφ})idφ = \vec{φ}idφ$
 							- transverse component = translation (addition, subtraction): $z⋅d\vec{φ}$ with magnitude $zdφ$
 							  :LOGBOOK:
 							  CLOCK: [2025-03-24 Mon 13:30:46]
