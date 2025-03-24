@@ -786,7 +786,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The scaler $z$ is the “**depth**” of the object, which is the **distance** from the object to the viewpoint, and is the height of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
 						- An object at $(x,y,z)$ in 3D space is projected onto the “screen” of Euclidean plane as an image at $(x/z:y/z:1)$.
 					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅P$ with ((67dd6cb0-7522-427c-b714-5dd53a678b8d)) and any point $P$ on Euclidean plane $z = 1$
-						- Vector = “depthless” point = absolute point (point on the absolute plane $z = 0$)
+						- Vector = “depthless” point = absolute point (point on the absolute plane $z = 0$) = point on the horizon = 
+						  [point at infinity](((67dd6f28-2497-4a11-bd16-afd31f24eaa4))) (vanishing point)
 							- The absolute plane $z = 0$ corresponds to the **horizon**, or the Cayley absolute, which is the **limit circle**.
 						- Its magnitude (length) is defined at the stander plane $z =1$, and is scaled accordingly in other z-scaled plane, i.e., on plane $z≠0, (dx:dy:0)⋅z = \overrightarrow{(dx⋅z,\, dy⋅z)}$.
 					- Translation $T = I + D  ⇒  T⋅P = I⋅P+D⋅P = P + \vec{v}$
@@ -798,6 +799,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  $$ D = \begin{pmatrix} 0 & 0 & dx \\ 0 & 0 &  dy \\ 0 & 0 &  0 \end{pmatrix} $$
 					- Line $l = (x_0+dx⋅t : y_0+dy⋅t : 1) = (x_0+dx⋅t,\; y_0+dy⋅t)$ [on Euclidean plane $z = 1$] $=$ plane [in 3D]
 					- Point at infinity = limit point of line $l$ = $\lim_{t→∞}(x_0+dx⋅t : y_0+dy⋅t : 1) = \lim_{t→∞}(x_0/t+dx : y_0/t+dy : 1/t) = (dx:dy:0) =$ vector $\vec{v}$
+					  id:: 67dd6f28-2497-4a11-bd16-afd31f24eaa4
 					  :LOGBOOK:
 					  CLOCK: [2025-03-21 Fri 20:58:44]
 					  :END:
