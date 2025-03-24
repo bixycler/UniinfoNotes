@@ -28,7 +28,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		  id:: 67b541c9-3b4e-4429-8c35-9afaf9f434bf
 		  collapsed:: true
 			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
-				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
+				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\overrightarrow{⟨φ⟩} = \overrightarrow{φ⟩}$ = angle form $∠φ$ = simple form $\bm{φ}$
 			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{τ} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dτ = \hat{φ}⋅d\vec{r} = rdφ$
 				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{τ} ⋅ \hat{r} = \hat{φ} ⋅ \vec{φ} = d\vec{φ} ⋅ \vec{φ}$
 			- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |d\vec{r}|$
