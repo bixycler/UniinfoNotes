@@ -829,6 +829,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- $|d\overrightarrow{⟨φ⟩}| = dφ \; ; \; \arg(d\overrightarrow{⟨φ⟩}) = φ+π/2$
 							- Ref: ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
 						- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
+						- Ref: ((67b541c9-dbe4-4b0f-a2a8-810805bbfce8))
 					- Refs:
 						- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
 						- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)

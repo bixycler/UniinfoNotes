@@ -89,14 +89,15 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 						- [Intro to the Quantum Harmonic Oscillator in 9 Minutes]({{video https://youtu.be/RCIz2hdJQy0}})
 						  {{video https://youtu.be/RCIz2hdJQy0}}
 					- Parabolic rotation, the bridge between elliptic and hyperbolic rotations
+					  id:: 67b541c9-dbe4-4b0f-a2a8-810805bbfce8
 					  collapsed:: true
 						- See [planar algebras & kinematic geometries in non-Euclidean geometries](https://en.wikipedia.org/wiki/Non-Euclidean_geometry#Planar_algebras) with
 							- elliptic metric of [complex number](https://en.wikipedia.org/wiki/Complex_number): $i^2 = -1$.
 							- hyperbolic metric of [split-complex number](https://en.wikipedia.org/wiki/Split-complex_number): $j^2 = +1$
 							- parabolic metric of [dual number](https://en.wikipedia.org/wiki/Dual_number): $ε^2 = 0$
-						- [ProjectiveGeometry-AlexanderI.Bobenko.pdf](../assets/geometry/ProjectiveGeometry-AlexanderI.Bobenko.pdf)
-						- [Linear fractional transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation#Conformal_property) > [Planar rotations](https://en.wikipedia.org/wiki/Linear_fractional_transformation#/media/File:Planar_rotations.png)
+						- [Linear fractional transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation#Conformal_property) & [Möbius transformation](https://en.wikipedia.org/wiki/M%C3%B6bius_transformation#Classification) > [Planar rotations](https://upload.wikimedia.org/wikipedia/commons/5/5e/Planar_rotations.png)
 						  ![Planar_rotations-elliptic-hyperbolic-parabolic.png](../assets/geometry/Planar_rotations-elliptic-hyperbolic-parabolic.png)
+						- [ProjectiveGeometry-AlexanderI.Bobenko.pdf](../assets/geometry/ProjectiveGeometry-AlexanderI.Bobenko.pdf)
 					- The fractal nature of this plane is somehow related to the [Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) in hyperbolic geometry, which hosts the [modular group](https://en.wikipedia.org/wiki/Modular_group) $SL(2, \Z)$ including [modular forms](https://en.wikipedia.org/wiki/Modular_form) and [elliptic functions](https://en.wikipedia.org/wiki/Elliptic_functions), via [Möbius transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation).
 					  id:: 6766ea7c-3eb8-4463-9a79-d66509daf176
 					  collapsed:: true
