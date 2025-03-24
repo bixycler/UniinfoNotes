@@ -787,6 +787,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- An object at $(x,y,z)$ in 3D space is projected onto the “screen” of Euclidean plane as an image at $(x/z:y/z:1)$.
 					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅P$ with ((67dd6cb0-7522-427c-b714-5dd53a678b8d)) and any point $P$ on Euclidean plane $z = 1$
 						- Vector = “depthless” point = absolute point (point on the absolute plane $z = 0$)
+							- The absolute plane $z = 0$ corresponds to the **horizon**, or the Cayley absolute, which is the **limit circle**.
 						- Its magnitude (length) is defined at the stander plane $z =1$, and is scaled accordingly in other z-scaled plane, i.e., on plane $z≠0, (dx:dy:0)⋅z = \overrightarrow{(dx⋅z,\, dy⋅z)}$.
 					- Translation $T = I + D  ⇒  T⋅P = I⋅P+D⋅P = P + \vec{v}$
 					  collapsed:: true
