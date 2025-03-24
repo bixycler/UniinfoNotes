@@ -782,14 +782,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- From afternoon to midnight, i researched various themes in which the most prominent one is [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) at last.
 				  id:: 67dcf2d3-4020-4477-b375-9bbb8c0b1336
 				  collapsed:: true
-					- Point $P = (x_0 : y_0 : 1) = (x_0, y_0)$ [on Euclidean plane $z = 1$] $= (x_0⋅z : y_0⋅z : z)$ [for z-scaled Euclidean plane $z≠0$] $= (x_0 : y_0 : 1)⋅z =$ line $(x_0, y_0)⋅t$ [in 3D]
+					- Point $P = (x_0 : y_0 : 1) = (x_0, y_0)$ [on Euclidean plane $z = 1$] $= P_z = (x_0⋅z : y_0⋅z : z)$ [for z-scaled Euclidean plane $z≠0$] $= (x_0 : y_0 : 1)⋅z =$ line $(x_0, y_0)⋅t$ [in 3D]
 						- The scaler $z$ is the “**depth**” of the object, which is the **distance** from the object to the viewpoint, and is the height of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
 						- An object at $(x,y,z)$ in 3D space is projected onto the “screen” of Euclidean plane as an image at $(x/z:y/z:1)$.
+						- The image of P on a z-scaled plane is $P_z = (x_0⋅z : y_0⋅z : z)$
 					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅P$ with ((67dd6cb0-7522-427c-b714-5dd53a678b8d)) and any point $P$ on Euclidean plane $z = 1$
 						- Vector = “depthless” point = absolute point (point on the absolute plane $z = 0$) = point on the horizon = 
 						  [point at infinity](((67dd6f28-2497-4a11-bd16-afd31f24eaa4))) (vanishing point)
 							- The absolute plane $z = 0$ corresponds to the **horizon**, or the Cayley absolute, which is the **limit circle**.
-						- Its magnitude (length) is defined at the stander plane $z =1$, and is scaled accordingly in other z-scaled plane, i.e., on plane $z≠0, (dx:dy:0)⋅z = \overrightarrow{(dx⋅z,\, dy⋅z)}$.
+						- Its magnitude (length) is defined at the stander plane $z =1$, and is scaled accordingly in other z-scaled planes, i.e., on plane $z≠0, \vec{v_z} = (dx:dy:0)⋅z = \overrightarrow{(dx⋅z,\, dy⋅z)}$.
 					- Translation $T = I + D  ⇒  T⋅P = I⋅P+D⋅P = P + \vec{v}$
 					  collapsed:: true
 						- Identity matrix $I$
@@ -806,8 +807,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Translation: All points in space are shifted parallelly in direction $\vec{v}$ via vector $\vec{v}⋅t$ along lines parallel to $l$.
 						- Limit: When they are shifted to infinity with $t→∞$, they all converge to the point $(dx:dy:0)$. This is how all parallel lines “converge” to the point at infinity.
 						- I.e., point at infinity is just the direction vector $\vec{v}$ of the line $l$, as well as all other lines parallel to $l$.
-					- The translation by $\vec{v} = (dx:dy:0)$ is actually a **rotation** due to its ***scale invariance***.
-						- DOING fafa
+					- The translation by $\vec{v} = (dx:dy:0)$ is actually a **rotation** due to its ***scale invariance*** throughout all z-scaled planes: .
+						- fafa
 						  :LOGBOOK:
 						  CLOCK: [2025-03-24 Mon 13:30:46]
 						  :END:
