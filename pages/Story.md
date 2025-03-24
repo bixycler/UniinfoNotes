@@ -815,12 +815,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :END:
 						-
 						- Components of tranformation
-							- transverse component = translation (addition, subtraction): $e^{iφ}$
+							- transverse component = translation (addition, subtraction): $e^{iφ} = \vec{φ} = ∠φ$ (phasor)
 							  :LOGBOOK:
 							  CLOCK: [2025-03-24 Mon 13:30:46]
 							  CLOCK: [2025-03-24 Mon 14:16:57]
 							  :END:
 							- radial component = scaling (multiplication, division): $r^φ$
+							- Ref: ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
 						- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
 					- Refs:
 						- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
