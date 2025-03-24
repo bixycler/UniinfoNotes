@@ -782,7 +782,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- From afternoon to midnight, i researched various themes in which the most prominent one is [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) at last.
 				  id:: 67dcf2d3-4020-4477-b375-9bbb8c0b1336
 				  collapsed:: true
-					- Scale invariance: thanks to ratios $(x:y:z)$, instead of absolute values $(x,y,z)$, the homogeneous coordinates are the same throughout all z-scaled planes: $(x:y:z) = (x/z : y/z : 1)⋅z$.
+					- Scale invariance: thanks to ratios $(x:y:z)$, instead of absolute values $(x,y,z)$, the homogeneous coordinates are unchanged throughout all z-scaled planes: $(x:y:z) = (x/z : y/z : 1)⋅z$.
 					  id:: 67e1004d-1533-483b-ab39-4b91ffbedbdd
 					- Point $P = (x_0 : y_0 : 1) = (x_0, y_0)$ [on Euclidean plane $z = 1$] $= P_z = (x_0⋅z : y_0⋅z : z)$ [for z-scaled Euclidean plane $z≠0$] $= (x_0 : y_0 : 1)⋅z =$ line $(x_0, y_0)⋅t$ [in 3D]
 						- The scaler $z$ is the “**depth**” of the object, which is the **distance** from the object to the viewpoint, and is the height of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
@@ -809,17 +809,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Translation: All points in space are shifted parallelly in direction $\vec{v}$ via vector $\vec{v}⋅t$ along lines parallel to $l$.
 						- Limit: When they are shifted to infinity with $t→∞$, they all converge to the point $(dx:dy:0)$. This is how all parallel lines “converge” to the point at infinity.
 						- I.e., point at infinity is just the direction vector $\vec{v}$ of the line $l$, as well as all other lines parallel to $l$.
-					- The translation by $\vec{v} = (dx:dy:0)$ is actually a **rotation** due to its [*scale invariance*](((67e1004d-1533-483b-ab39-4b91ffbedbdd))) throughout all z-scaled planes: $\vec{v}_z = (dx:dy:0)⋅z = (dx:dy:0) = \vec{v}$.
+					- The translation by $\vec{v} = (dx:dy:0)$ is actually a **rotation** due to its [*scale invariance*](((67e1004d-1533-483b-ab39-4b91ffbedbdd))) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$].
+					  :LOGBOOK:
+					  CLOCK: [2025-03-24 Mon 13:59:25]
+					  :END:
 						- fafa
 						  :LOGBOOK:
 						  CLOCK: [2025-03-24 Mon 13:30:46]
 						  :END:
-					- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
-					- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
-					  :LOGBOOK:
-					  CLOCK: [2025-03-21 Fri 20:09:27]
-					  :END:
-					- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
+						- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
+					- Refs:
+						- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
+						- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
+						  :LOGBOOK:
+						  CLOCK: [2025-03-21 Fri 20:09:27]
+						  :END:
+						- Wikipedia: [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates)
 				- Due to being caught up in these researches, i was fallen into severe coughs again.
 			- Thursday, a day of meditation.
 				- With deep meditation, my cough had nearly gone before i went to bed.
