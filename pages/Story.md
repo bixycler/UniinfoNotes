@@ -813,7 +813,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2025-03-24 Mon 13:59:25]
 					  :END:
-						-
+						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping))
+						- In 2D, a circular rotation can be [decomposed into 3 parabolic rotations](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears).
 						- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
 							- radial component = scaling (multiplication, division): $⋅r$
 							- transverse component = translation (addition, subtraction): $+dφ$
