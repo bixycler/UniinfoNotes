@@ -820,8 +820,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Parabolic rotation = shearing, with **parabolic angle = shear factor** $s = \tan(φ)$
 							  $(x, y) → (x, \; y + s⋅x)$
 								- φ is the direct (apparent) circular angle between the sheared line and the horizontal line.
-							- Wrapping $s$ around the unit circle, we have the circular rotation with circular angle $θ = s \mod 2π = \tan(φ)$.
-							-
+							- Wrapping $s$ around the unit circle, we have the circular rotation with circular angle $θ = s \mod 2π = \tan(φ) \mod 2π$.
+							- Shearing in the direction perpendicular to the first shearing direction such that the first sheared line is mirrored in the horizontal line, we have the hyperbolic rotation with angle ψ.
+								-
 						- GeoGebra applets: [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt), [Rotations](https://www.geogebra.org/m/myrbtbnw) ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 						  id:: 67e299fa-4f76-482a-b586-adacb17dc064
 						- In 2D, a circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  scaling.
