@@ -815,7 +815,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :END:
 						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping))
 						- In 2D, a circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  scaling.
-							-
+							- Video: [Rotation by shearing](https://youtu.be/tHekokkHmlM)
+							  collapsed:: true
+								- {{video https://youtu.be/tHekokkHmlM}}
+							- Video: [Rotation without rotating](https://youtu.be/1LCEiVDHJmc) for the good old low resolution Mario sprite.
+							  collapsed:: true
+								- {{video https://youtu.be/1LCEiVDHJmc}}
 						- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
 							- radial component = scaling (multiplication, division): $⋅r$
 							- transverse component = translation (addition, subtraction): $+dφ$
