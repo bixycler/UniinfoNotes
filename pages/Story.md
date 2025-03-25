@@ -821,7 +821,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  $(x, y) → (x, \; y + s⋅x)$
 								- φ is the direct (apparent) circular angle between the radial (sheared) line and the horizontal line.
 							- Wrapping $s$ around the unit circle, we have the circular rotation with **circular angle** $θ = s \mod 2π = \tan(φ) \mod 2π$.
-							- Hyperbolic rotation = double shearing, with the second (non-uniform) shearing in the direction perpendicular to the first shearing direction such that the first sheared line is mirrored in the horizontal line.
+							- DOING Hyperbolic rotation = double shearing, with the second (non-uniform) shearing in the direction perpendicular to the first shearing direction such that the first sheared line is mirrored in the horizontal line.
+							  :LOGBOOK:
+							  CLOCK: [2025-03-25 Tue 20:47:33]
+							  :END:
 								- The circular angle $ψ_c$ and **hyperbolic angle** $ψ$ between the radial line and the horizontal line, together with the circular angle of the first sheared line $φ$ have a nice relation:
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ)$
 								- Combining with previous relation, we have:
