@@ -816,10 +816,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping)): ((67b541c9-dbe4-4b0f-a2a8-810805bbfce8))
 						- circular θ > parabolic φ > hyperbolic ψ
 						  id:: 67e29bdb-9bce-4cb8-b993-79aa130a1831
+							- The circular rotation is on the ((675f8a74-7fef-4e88-a65e-856f5e494bb8)), the parabolic rotation is on the ((675f8af0-7b21-4483-908c-25ce0cec02cc)), and the hyperbolic rotation is on the squeezed unwrapped linear plane.
 							- Parabolic rotation = shearing, with **parabolic angle = shear factor** $s = \tan(φ)$
 							  $(x, y) → (x, \; y + s⋅x)$
-								- φ is the corresponding circular
-							-
+								- φ is the direct (apparent) circular angle betwen the shear line and the horizontal line.
+							- Wrapping $s$ around the unit circle, we have the circular rotation
 						- GeoGebra applets: [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt), [Rotations](https://www.geogebra.org/m/myrbtbnw) ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 						  id:: 67e299fa-4f76-482a-b586-adacb17dc064
 						- In 2D, a circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  scaling.
