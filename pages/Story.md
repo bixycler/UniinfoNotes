@@ -876,4 +876,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- I dealt with it until morning, hence only 3 hours sleep!
 			- Tuesday, i'm tired due to the lack of sleep.
 				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation.
+				-
 		- ...
