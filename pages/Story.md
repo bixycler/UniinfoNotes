@@ -814,7 +814,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2025-03-24 Mon 13:59:25]
 					  :END:
 						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping)): ((67b541c9-dbe4-4b0f-a2a8-810805bbfce8))
-						- GeoGebra applets: [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt), [Rotations](https://www.geogebra.org/m/myrbtbnw) (circular θ > parabolic φ > hyperbolic ψ)
+						- circular θ > parabolic φ > hyperbolic ψ
+						  id:: 67e29bdb-9bce-4cb8-b993-79aa130a1831
+							- Parabolic rotation = shearing, with **parabolic angle = shear factor** $s = \tan(φ)$
+							  $(x, y) → (x, \; y + s⋅x)$
+								- φ is the corresponding circular
+							-
+						- GeoGebra applets: [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt), [Rotations](https://www.geogebra.org/m/myrbtbnw) ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 						  id:: 67e299fa-4f76-482a-b586-adacb17dc064
 						- In 2D, a circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  scaling.
 							- Video: [Rotation by shearing](https://youtu.be/tHekokkHmlM)
@@ -876,6 +882,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Going to bed, there was no more cough reflex.... but just nearly 3 hours later, the cough emerged from the sleep.
 					- I dealt with it until morning, hence only 3 hours sleep!
 			- Tuesday, i'm tired due to the lack of sleep.
-				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation.
+				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation: ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 				- Created ((67e299fa-4f76-482a-b586-adacb17dc064))
 		- ...
