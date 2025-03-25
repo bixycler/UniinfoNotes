@@ -791,7 +791,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅P$ with ((67dd6cb0-7522-427c-b714-5dd53a678b8d)) and any point $P$ on Euclidean plane $z = 1$
 						- Vector = “depthless” point = absolute point (point on the absolute plane $z = 0$) = point on the horizon = 
 						  [point at infinity](((67dd6f28-2497-4a11-bd16-afd31f24eaa4))) (vanishing point)
-							- The absolute plane $z = 0$ corresponds to the **horizon**, or the Cayley absolute, which is the **limit circle**.
+							- The absolute plane $z = 0$ corresponds to the **horizon**, or the Cayley absolute, which is the **limit circle**, the null .
 						- Its magnitude (length) is defined at the standard plane $z =1$, and is scaled accordingly in other z-scaled planes, i.e., on plane $z≠0,\; \vec{v}_z = (dx:dy:0)⋅z = \overrightarrow{(dx⋅z,\, dy⋅z)}$.
 					- Translation $T = I + D  ⇒  T⋅P = I⋅P+D⋅P = P + \vec{v}$
 					  collapsed:: true
@@ -860,9 +860,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Last night, before going to bed, i see the nature of **sampling** via ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) & ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
 					- Sampling: cone project from large base (population) to small apex (sample), then parallel project back to the base via ((670cdcb4-3c85-45af-8c30-3c3284ed37df)) as the ratio of intent over content.
 					- intent via effect circle: ...
-			- Today, Mon 24 March, back to the company, i'm completing the theories in the previous days.
+			- Today, Monday 24 March, back to the company, i'm completing the theories in the previous days.
 				- Before sleep, in the restroom, i recalled the property “everything is a rotation”:
 					- Every change is just a transformation preserving content.
 					- The unchanged content is the “radius” of the rotation making it turn around.
 					- The change of the visible forms (yang) is always balanced by the complementary change of the invisible forms (yin).
+					- So, every change is a group action.
+				- Going to bed, there was no more cough reflex.... but just nearly 3 hours later, the cough emerged from the sleep.
+					- I dealt with it until morning, hence only 3 hours sleep!
+			- Tuesday, i'm tired due to the lack of sleep.
+				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see the trans
 		- ...
