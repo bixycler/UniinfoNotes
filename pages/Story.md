@@ -825,6 +825,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- The circular angle $ψ_c$ and **hyperbolic angle** $ψ$ between the radial line and the horizontal line, together with the circular angle of the first sheared line $φ$ have a nice relation:
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ)$
 								- Combining with previous relation, we have:
+								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2} \approx θ/\sqrt{1+θ^2} ; \; θ = s \mod 2π$
 						- GeoGebra applets: [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt), [Rotations](https://www.geogebra.org/m/myrbtbnw) ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 						  id:: 67e299fa-4f76-482a-b586-adacb17dc064
 						- In 2D, a circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  scaling.
