@@ -791,7 +791,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅P$ with ((67dd6cb0-7522-427c-b714-5dd53a678b8d)) and any point $P$ on Euclidean plane $z = 1$
 						- Vector = “depthless” point = absolute point (point on the absolute plane $z = 0$) = point on the horizon = 
 						  [point at infinity](((67dd6f28-2497-4a11-bd16-afd31f24eaa4))) (vanishing point)
-							- The absolute plane $z = 0$ corresponds to the **horizon**, or the Cayley absolute, which is the **limit circle**, the null .
+							- The absolute plane $z = 0$ corresponds to the **horizon**, or the Cayley absolute, which is the **limit circle**, the null plane, the light cone.
 						- Its magnitude (length) is defined at the standard plane $z =1$, and is scaled accordingly in other z-scaled planes, i.e., on plane $z≠0,\; \vec{v}_z = (dx:dy:0)⋅z = \overrightarrow{(dx⋅z,\, dy⋅z)}$.
 					- Translation $T = I + D  ⇒  T⋅P = I⋅P+D⋅P = P + \vec{v}$
 					  collapsed:: true
@@ -815,6 +815,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :END:
 						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping))
 						- In 2D, a circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  scaling.
+							-
 						- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
 							- radial component = scaling (multiplication, division): $⋅r$
 							- transverse component = translation (addition, subtraction): $+dφ$
@@ -869,5 +870,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Going to bed, there was no more cough reflex.... but just nearly 3 hours later, the cough emerged from the sleep.
 					- I dealt with it until morning, hence only 3 hours sleep!
 			- Tuesday, i'm tired due to the lack of sleep.
-				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see the trans
+				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation.
 		- ...
