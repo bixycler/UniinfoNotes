@@ -813,7 +813,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2025-03-24 Mon 13:59:25]
 					  :END:
-						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping))
+						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping)): ((67b541c9-dbe4-4b0f-a2a8-810805bbfce8))
+						- GeoGebra applets: [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt), [Rotations](https://www.geogebra.org/m/myrbtbnw) (circular θ > parabolic φ > hyperbolic ψ)
+						  id:: 67e299fa-4f76-482a-b586-adacb17dc064
 						- In 2D, a circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  scaling.
 							- Video: [Rotation by shearing](https://youtu.be/tHekokkHmlM)
 							  collapsed:: true
@@ -836,7 +838,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- $|d\overrightarrow{⟨φ⟩}| = dφ \; ; \; \arg(d\overrightarrow{⟨φ⟩}) = φ+π/2$
 							- Ref: ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
 						- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
-						- Ref: ((67b541c9-dbe4-4b0f-a2a8-810805bbfce8))
 					- Refs:
 						- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
 						- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
@@ -876,5 +877,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- I dealt with it until morning, hence only 3 hours sleep!
 			- Tuesday, i'm tired due to the lack of sleep.
 				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation.
-				-
+				- Created ((67e299fa-4f76-482a-b586-adacb17dc064))
 		- ...
