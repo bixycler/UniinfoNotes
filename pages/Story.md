@@ -814,7 +814,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2025-03-24 Mon 13:59:25]
 					  :END:
 						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping))
-						- In 2D, a circular rotation can be [decomposed into 3 parabolic rotations](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears).
+						- In 2D, a circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  scaling.
 						- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
 							- radial component = scaling (multiplication, division): $⋅r$
 							- transverse component = translation (addition, subtraction): $+dφ$
@@ -861,4 +861,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Sampling: cone project from large base (population) to small apex (sample), then parallel project back to the base via ((670cdcb4-3c85-45af-8c30-3c3284ed37df)) as the ratio of intent over content.
 					- intent via effect circle: ...
 			- Today, Mon 24 March, back to the company, i'm completing the theories in the previous days.
+				- Before sleep, in the restroom, i recalled the property “everything is a rotation”:
+					- Every change is just a transformation preserving content.
+					- The unchanged content is the “radius” of the rotation making it turn around.
+					- The change of the visible forms (yang) is always balanced by the complementary change of the invisible forms (yin).
 		- ...
