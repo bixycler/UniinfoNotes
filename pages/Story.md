@@ -905,6 +905,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Pierre de Fermat (1601–1665) independently developed similar ideas around the same time. Fermat worked on a treatise titled *Ad locus planos et solidos isagoge*, which outlined concepts of analytic geometry, but he did not publish his work widely.
 					- History of $\vec{dx}⋅\vec{dy}$ β α ∞ °
 					- [The story of maternal and paternal grand fathers walking](https://www.facebook.com/share/p/18GjbjRoxQ/)
+						- Every now and then, the two grandfathers in my family get a chance to meet. But no sooner do they exchange a few words than they find themselves in disagreement:
+							- **Maternal Grandfather**: I've already walked 3 meters while you've only managed 1 meter. Why are you so slow?!
+							- **Paternal Grandfather**: Well, with each step, I cover 30 centimeters, while you only manage 10 centimeters per step. Why are your steps so short?!
+							- **Maternal Grandfather**: My steps are short but fast; you can't compare step by step like that! While you take one of your long 30-centimeter strides, I take 9 short steps, covering a total of 90 centimeters. In the end, I'm still ahead! 😃
+							- **Paternal Grandfather**: That’s just an external measurement! One must conserve their energy. Look here, I take long and slow strides, while you take short and rapid ones. In terms of effort, one of my steps requires just as much energy as one of yours. So, in a journey where we have the energy for 1000 steps, you'd only manage 100 meters before getting tired, whereas I'd cover 300 meters before tiring out. 🙂
+						- ... Back and forth they go, each with their own perspective and merits. In the end, neither is better than the other. It's what we call "relativity." 😉 As shown in the diagram below, in reality, Maternal Grandfather (Ps) and Paternal Grandfather (Pt) both lie on the same circle, only separated by an angle. But if one were to project "the other" onto their axis, each would only see the other as a third of themselves.
 				- The sleep was better:
 				  :LOGBOOK:
 				  CLOCK: [2025-03-26 Wed 10:19:16]
