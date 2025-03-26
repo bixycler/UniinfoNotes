@@ -903,7 +903,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Nicole Oresme (1323–1382), a medieval mathematician, made earlier contributions by [visualizing quantities as geometric representations](https://en.wikipedia.org/wiki/Nicole_Oresme#Mathematics), which can be seen as precursors to modern graphing.
 						- René Descartes (1596–1650) is often credited with formalizing the use of orthogonal coordinates (the [Cartesian plane](https://en.wikipedia.org/wiki/Cartesian_plane)) in his work *La Géométrie* (1637), where he introduced the idea of representing algebraic equations as geometric curves.
 						- Pierre de Fermat (1601–1665) independently developed similar ideas around the same time. Fermat worked on a treatise titled *Ad locus planos et solidos isagoge*, which outlined concepts of analytic geometry, but he did not publish his work widely.
-					- History of $\vec{dx}⋅\vec{dy}$
+					- History of $\vec{dx}⋅\vec{dy}$ β α
 				- The sleep was better:
 				  :LOGBOOK:
 				  CLOCK: [2025-03-26 Wed 10:19:16]
