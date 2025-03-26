@@ -891,10 +891,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Going to bed, there was no more cough reflex.... but just nearly 3 hours later, the cough emerged from the sleep.
 					- I dealt with it until morning, hence only 3 hours sleep!
 			- Tuesday, i'm tired due to the lack of sleep.
+			  id:: 67e23c75-6de6-43de-8c41-8bf55216c08f
 				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation: ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 				- Created ((67e299fa-4f76-482a-b586-adacb17dc064))
+				- Before sleep, in the restroom, i recalled that the hyperbolic rotation is just a plane projection (conic section) of the parabolic rotation projected onto the light cone.
 				- The sleep was better:
-					- no cough at the onset
-					- one cough reflex emerged after more than 2 hours but i managed to calm it down easily to continue the sleep.
+				  :LOGBOOK:
+				  CLOCK: [2025-03-26 Wed 10:19:16]
+				  :END:
+					- no cough at the onset;
+					- one cough reflex emerged after more than 2 hours but i managed to calm it down easily to continue the sleep;
+					- one wake up in the early morning for urination and contiue to sleep.
+						- This time, my wife fell into a sharp cold. I turned the fan off and reminded her to concentrate on the breath. With concentration and warm keeping, she could stablize it finally.
 			- Wednesday,
+			  :LOGBOOK:
+			  CLOCK: [2025-03-26 Wed 10:19:04]
+			  :END:
 		- ...
