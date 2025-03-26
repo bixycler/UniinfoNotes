@@ -904,7 +904,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- René Descartes (1596–1650) is often credited with formalizing the use of orthogonal coordinates (the [Cartesian plane](https://en.wikipedia.org/wiki/Cartesian_plane)) in his work *La Géométrie* (1637), where he introduced the idea of representing algebraic equations as geometric curves.
 						- Pierre de Fermat (1601–1665) independently developed similar ideas around the same time. Fermat worked on a treatise titled *Ad locus planos et solidos isagoge*, which outlined concepts of analytic geometry, but he did not publish his work widely.
 					- History of projective thread
-						-
+						- Newton and Leibniz utilized Cartesian coordinates to develop the calculus of differential and integral, pioneering the field of vector analysis, e.g. the [parallelogram law](https://en.wikipedia.org/wiki/Parallelogram_law) in *Principia Mathematica* (1687).
+						- by Hamilton in 1843.
 						- $\vec{dx}⋅\vec{dy}$ β α ∞ °
 						- In October 2019, ((67e38d9c-aec4-460f-acf3-d91a382372be)) was written to illustrate the relativity between qualities.
 						- The argument between maternal and paternal grand fathers about their walking ([fb post](https://www.facebook.com/share/p/18GjbjRoxQ/))
