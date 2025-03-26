@@ -894,7 +894,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  id:: 67e23c75-6de6-43de-8c41-8bf55216c08f
 				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation: ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 				- Created ((67e299fa-4f76-482a-b586-adacb17dc064))
-				- Before sleep, in the restroom, i recalled that the hyperbolic rotation is just a plane projection (conic section) of the parabolic rotation projected onto the light cone.
+				- Before sleep, in the restroom, i recalled that the hyperbolic rotation is just a plane projection (conic section) of the parabolic rotation projected onto the light cone which was shown in my very first GeoGebra applet [MixedCoords](https://www.geogebra.org/m/jeexkfrd).
+					- The dual view of parabolic & hyperbolic rotations is also the dual view of
 				- The sleep was better:
 				  :LOGBOOK:
 				  CLOCK: [2025-03-26 Wed 10:19:16]
