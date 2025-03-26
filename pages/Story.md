@@ -896,8 +896,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Created ((67e299fa-4f76-482a-b586-adacb17dc064))
 				- Before sleep, in the restroom, i recalled that the hyperbolic rotation is just a plane projection (conic section) of the parabolic rotation projected onto the light cone which was shown in my very first GeoGebra applet [MixedCoords](https://www.geogebra.org/m/jeexkfrd).
 				  collapsed:: true
-					- The dual view of parabolic & hyperbolic rotations is also the dual view of ... and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).
-					- Ironically, i met the dual view of & function graphing (around 2018) long after the dicovery of the “mixed coordinates” (before 2015), and even the projective nature of conic sections, i.e. [“why slicing the cone”](https://www.geogebra.org/m/nknaryzz), was discovered much later only when i studied projective geometry (2020).
+					- The dual view of parabolic & hyperbolic rotations is also the dual view of projective trajectory and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).
+					- Ironically, i met the dual view of projective trajectory & function graphing (around 2018) long after the dicovery of the “mixed coordinates” (before 2015), and even the projective nature of conic sections, i.e. [“why slicing the cone”](https://www.geogebra.org/m/nknaryzz), was discovered much later only when i studied projective geometry (2020).
 					- History of graphing of functions, loci of relations (curves), and trajectories of objects
 						- The invention of function graphing on orthogonal coordinates is closely tied to the development of **analytic geometry**, which emerged in the 17th century, but it has precursors from medieval maths.
 						- Nicole Oresme (1323–1382), a medieval mathematician, made earlier contributions by [visualizing quantities as geometric representations](https://en.wikipedia.org/wiki/Nicole_Oresme#Mathematics), which can be seen as precursors to modern graphing.
