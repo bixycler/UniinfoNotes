@@ -912,10 +912,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Near the end of the 19th century, Gibbs and Heaviside simplified the 4D quaternions to create the [vector calculus](https://en.wikipedia.org/wiki/Vector_calculus) for 3D space, as shown in the book *Vector Analysis* (1901). This was in parallel with the development of [vector space](https://en.wikipedia.org/wiki/Vector_space) for linear algebra by Peano in 1888 and Salvatore Pincherle in 1897.
 					- History of the projective thread of relation between quantities.
 						- Traditionally, the relationship between quantities, e.g. (x, y), is usually decribed with function, e.g. $y = f(x)$, or more generally with relation, e.g. $R(x, y) = 0$, both of which can be plotted on the Cartesian plane xOy as a graph (of function) or a curve (of relation). There, each quantity is expressed by an orthogonal axis.
-						- However, in ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), the relation is usually expressed as the relative distances/angles between threads of these quantities, where the angles are measured by the scalar product.
-							- This expression shows relativity, i.e. how much they are apart/differenct from each other.
+						- However, in ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), the relation is usually expressed as the relative angles between the threads of these quantities.
+							- Relativity:
+								- The angles show how much they are apart/different from each other.
+								- In reverse, the scalar product of the direction vectors shows the correlation between them.
 							- All these threads are combined into a **compound thread** by synchronizing points, which are called [coincidences](https://en.wikipedia.org/wiki/Incidence_(geometry)), knots, contact points, etc.
-							- When the compound thread is projected to different lines and curves, the images are called “**projective threads**” which show different views of the same relation.
+							- When the compound thread is projected to different lines and curves (spaces in general), the images are called “**projective threads**” which show the **distributions** of these quantities in different spaces.
 						- Around 2018,
 						- In October 2019, ((67e38d9c-aec4-460f-acf3-d91a382372be)) was written to illustrate the relativity between quantities.
 						- The argument between maternal and paternal grand fathers about their walking ([fb post](https://www.facebook.com/share/p/18GjbjRoxQ/))
