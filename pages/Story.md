@@ -916,6 +916,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Relativity:
 								- The angles show how much they are apart/different from each other.
 								- In reverse, the scalar product of the direction vectors shows the correlation between them.
+								- The relativity is shown by the distance, angle, scalar product, shear-stretching
 							- All these threads are combined into a **compound thread** by synchronizing points, which are called [coincidences](https://en.wikipedia.org/wiki/Incidence_(geometry)), knots, contact points, etc.
 							- When the compound thread is projected to different lines and curves (spaces in general), the images are called “**projective threads**” which show the **distributions** of these quantities in different spaces.
 						- Around 2018,
