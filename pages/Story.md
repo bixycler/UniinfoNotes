@@ -905,7 +905,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Pierre de Fermat (1601–1665) independently developed similar ideas around the same time. Fermat worked on a treatise titled *Ad locus planos et solidos isagoge*, which outlined concepts of analytic geometry, but he did not publish his work widely.
 					- History of projective thread
 						- Newton and Leibniz utilized Cartesian coordinates to develop the calculus of differential and integral, pioneering the field of vector analysis, e.g. the [parallelogram law](https://en.wikipedia.org/wiki/Parallelogram_law) in *Principia Mathematica* (1687).
-						- by Hamilton in 1843.
+						- Hamilton invented the [quaternion numbers](https://en.wikipedia.org/wiki/Quaternion) (1843) extending the [complex numbers](https://en.wikipedia.org/wiki/Complex_number) to handle mechanics in 3D space properly, esp. the rotation.
+						- Near the end of the 19th century, Gibbs and Heaviside simplified the quaternions to create the [vector calculus](https://en.wikipedia.org/wiki/Vector_calculus), as shown in the book *Vector Analysis* (1901).
 						- $\vec{dx}⋅\vec{dy}$ β α ∞ °
 						- In October 2019, ((67e38d9c-aec4-460f-acf3-d91a382372be)) was written to illustrate the relativity between qualities.
 						- The argument between maternal and paternal grand fathers about their walking ([fb post](https://www.facebook.com/share/p/18GjbjRoxQ/))
