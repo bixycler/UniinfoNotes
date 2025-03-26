@@ -816,7 +816,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping)): ((67b541c9-dbe4-4b0f-a2a8-810805bbfce8))
 						- circular θ > parabolic φ > hyperbolic ψ
 						  id:: 67e29bdb-9bce-4cb8-b993-79aa130a1831
-							- The circular rotation is on the ((675f8a74-7fef-4e88-a65e-856f5e494bb8)), the parabolic rotation is on the ((675f8af0-7b21-4483-908c-25ce0cec02cc)), and the hyperbolic rotation is on the squeezed unwrapped linear plane.
+							- The circular rotation is on the ((675f8a74-7fef-4e88-a65e-856f5e494bb8)), the parabolic rotation is on the ((675f8af0-7b21-4483-908c-25ce0cec02cc)), and the hyperbolic rotation is on the squeezed unwrapped circumference plane.
 							- Parabolic rotation = shearing, with **parabolic angle = shear factor** $s = \tan(φ)$
 							  $(x, y) → (x, \; y + s⋅x)$
 								- φ is the direct (apparent) circular angle between the radial (sheared) line and the horizontal line.
@@ -893,4 +893,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Tuesday, i'm tired due to the lack of sleep.
 				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation: ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 				- Created ((67e299fa-4f76-482a-b586-adacb17dc064))
+				- The sleep was better:
+					- no cough at the onset
+					- one cough reflex emerged after more than 2 hours but i managed to calm it down easily to continue the sleep.
+			- Wednesday,
 		- ...
