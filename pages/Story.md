@@ -896,21 +896,34 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Created ((67e299fa-4f76-482a-b586-adacb17dc064))
 				- Before sleep, in the restroom, i recalled that the hyperbolic rotation is just a plane projection (conic section) of the parabolic rotation projected onto the light cone which was shown in my very first GeoGebra applet [MixedCoords](https://www.geogebra.org/m/jeexkfrd).
 				  collapsed:: true
-					- The dual view of parabolic & hyperbolic rotations is also the dual view of projective trajectory and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).
-					- Ironically, i met the dual view of projective trajectory & function graphing (around 2018) long after the dicovery of the “mixed coordinates” (before 2015), and even the projective nature of conic sections, i.e. [“why slicing the cone”](https://www.geogebra.org/m/nknaryzz), was discovered much later only when i studied projective geometry (2020).
+					- The dual view of parabolic & hyperbolic rotations is also the dual view of projective thread and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).
+					- Ironically, i met the dual view of projective thread & function graphing (around 2018) long after the dicovery of the “mixed coordinates” (before 2015) without recognizing they are one. Moreover, the projective nature of conic sections, i.e. [“why slicing the cone”](https://www.geogebra.org/m/nknaryzz), was discovered much later, only when i studied projective geometry (2020).
 					- History of graphing of functions, loci of relations (curves), and trajectories of objects
 						- The invention of function graphing on orthogonal coordinates is closely tied to the development of **analytic geometry**, which emerged in the 17th century, but it has precursors from medieval maths.
 						- Nicole Oresme (1323–1382), a medieval mathematician, made earlier contributions by [visualizing quantities as geometric representations](https://en.wikipedia.org/wiki/Nicole_Oresme#Mathematics), which can be seen as precursors to modern graphing.
 						- René Descartes (1596–1650) is often credited with formalizing the use of orthogonal coordinates (the [Cartesian plane](https://en.wikipedia.org/wiki/Cartesian_plane)) in his work *La Géométrie* (1637), where he introduced the idea of representing algebraic equations as geometric curves.
 						- Pierre de Fermat (1601–1665) independently developed similar ideas around the same time. Fermat worked on a treatise titled *Ad locus planos et solidos isagoge*, which outlined concepts of analytic geometry, but he did not publish his work widely.
-					- History of $\vec{dx}⋅\vec{dy}$ β α ∞ °
-					- [The story of maternal and paternal grand fathers walking](https://www.facebook.com/share/p/18GjbjRoxQ/)
-						- Every now and then, the two grandfathers in my family get a chance to meet. But no sooner do they exchange a few words than they find themselves in disagreement:
-							- **Maternal Grandfather**: I've already walked 3 meters while you've only managed 1 meter. Why are you so slow?!
-							- **Paternal Grandfather**: Well, with each step, I cover 30 centimeters, while you only manage 10 centimeters per step. Why are your steps so short?!
-							- **Maternal Grandfather**: My steps are short but fast; you can't compare step by step like that! While you take one of your long 30-centimeter strides, I take 9 short steps, covering a total of 90 centimeters. In the end, I'm still ahead! 😃
-							- **Paternal Grandfather**: That’s just an external measurement! One must conserve their energy. Look here, I take long and slow strides, while you take short and rapid ones. In terms of effort, one of my steps requires just as much energy as one of yours. So, in a journey where we have the energy for 1000 steps, you'd only manage 100 meters before getting tired, whereas I'd cover 300 meters before tiring out. 🙂
-						- ... Back and forth they go, each with their own perspective and merits. In the end, neither is better than the other. It's what we call "relativity." 😉 As shown in the diagram below, in reality, Maternal Grandfather (Ps) and Paternal Grandfather (Pt) both lie on the same circle, only separated by an angle. But if one were to project "the other" onto their axis, each would only see the other as a third of themselves.
+					- History of projective thread
+						- $\vec{dx}⋅\vec{dy}$ β α ∞ °
+						- [The story of maternal and paternal grand fathers walking](https://www.facebook.com/share/p/18GjbjRoxQ/)
+						  collapsed:: true
+							- Diagram of vector relativity
+							  collapsed:: true
+								- ![vector-relativity.jpg](../assets/Will/story/2025-Mar/vector-relativity.jpg)
+							- The original Vietnamese version
+							  collapsed:: true
+								- Lâu lâu 2 ông cụ nhà mình mới có dịp gặp nhau, ấy thế mà nói được vài câu là đã mâu thuẫn rồi:
+									- Ô.Ngoại: Tôi đi được 3 mét rồi ông mới đi được có 1 mét. Sao ông đi chậm vậy?!
+									- Ô.Nội: Mỗi bước tôi đi được 3 tấc còn ông mỗi bước chỉ được có 1 tấc. Sao ông bước ngắn thế?!
+									- Ô.Ngoại: Tôi bước ngắn nhưng mà nhanh, ông so từng bước thế sao được?! Trong lúc ông bước được một bước 3 tấc của ông thì tôi đã bước được 9 bước, tức là 9 tấc rồi. Rốt cuộc tôi vẫn hơn! 😃
+									- Ô.Nội: Đó chỉ là số đo bên ngoài thôi! Mình phải biết tiết kiệm sức chứ: Này nhé, tôi bước dài và chậm còn ông bước ngắn và nhanh nên một bước của tôi cũng tốn sức bằng với một bước của ông thôi. Nếu như trong một chuyến đi, nếu mình đủ sức cho 1000 bước, thì ông đi được 100 mét đã mệt, còn tôi đi được tới 300 mét mới mệt. 🙂
+								- ... Nói qua nói lại, ai cũng có cái hay riêng của người đó, nên rốt cuộc chẳng ai hơn ai. Ấy gọi là "tương đối" vậy. 😉 Như trên sơ đồ bên dưới, thực ra ông Ngoại (Ps) và ông Nội (Pt) đều nằm trên cùng một vòng tròn, chỉ lệch nhau một góc mà thôi. Nhưng nếu đem "ông kia" chiếu lên trục của "ông này" thì bên nào cũng thấy bên kia chỉ bằng có 1/3 của mình mà thôi.
+							- Every now and then, the two grandfathers in my family get a chance to meet. But no sooner do they exchange a few words than they find themselves in disagreement:
+								- Ma.Granny: I've already walked 3 meters while you've only managed 1 meter. Why are you so slow?!
+								- Pa.Granny: Well, with each step, I cover 30 centimeters, while you only manage 10 centimeters per step. Why are your steps so short?!
+								- Ma.Granny: My steps are short but fast; you can't compare step by step like that! While you take one of your long 30-centimeter strides, I take 9 short steps, covering a total of 90 centimeters. In the end, I'm still ahead! 😃
+								- Pa.Granny: That’s just an external measurement! One must conserve their energy. Look here, I take long and slow strides, while you take short and rapid ones. In terms of effort, one of my steps requires just as much energy as one of yours. So, in a journey where we have the energy for 1000 steps, you'd only manage 100 meters before getting tired, whereas I'd cover 300 meters before tiring out. 🙂
+							- ... Back and forth they go, each with their own perspective and merits. In the end, neither is better than the other. It's what we call "relativity." 😉 As shown in the diagram below, in reality, Maternal Grandfather (Ps) and Paternal Grandfather (Pt) both lie on the same circle, only separated by an angle. But if one were to project "the other" onto their axis, each would only see the other as a third of themselves.
 				- The sleep was better:
 				  :LOGBOOK:
 				  CLOCK: [2025-03-26 Wed 10:19:16]
