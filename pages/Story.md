@@ -822,6 +822,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- φ is the direct (apparent) circular angle between the radial (sheared) line and the horizontal line.
 							- Wrapping $s$ around the unit circle, we have the circular rotation with **circular angle** $θ = s \mod 2π = \tan(φ) \mod 2π$.
 							- Squeezing & shearing in the direction perpendicular to the first shearing direction such that the first sheared line is mirrored in the horizontal line, we have hyperbolic rotation.
+							  id:: 67e2a0e0-a6d9-4ad8-a601-24289f44d383
 							  :LOGBOOK:
 							  CLOCK: [2025-03-25 Tue 20:47:33]--[2025-03-25 Tue 20:57:06] =>  00:09:33
 							  :END:
@@ -952,8 +953,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- one cough reflex emerged after more than 2 hours but i managed to calm it down easily to continue the sleep;
 					- one wake up in the early morning for urination and contiue to sleep.
 						- This time, my wife fell into a sharp cold. I turned the fan off and reminded her to concentrate on the breath. With concentration and warm keeping, she could stablize it finally.
-			- Wednesday,
+			- Wednesday, the cough in sleep has gone.
 			  :LOGBOOK:
 			  CLOCK: [2025-03-26 Wed 10:19:04]
 			  :END:
+				- Before sleep, in the restroom, i contemplated the tranformation of conic sections through 1 axis scaling, and checked that the double shearing (along x and y) is very near but not exactly the [squeezing](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))).
+				- The sleep was good, i only coughed in the morning, just 30 minutes before my alarm.
+			- Thursday, ...
+			  :LOGBOOK:
+			  CLOCK: [2025-03-27 Thu 12:22:51]
+			  CLOCK: [2025-03-27 Thu 12:22:54]
+			  :END:
+				- In the riverside sitting time before work, i
 		- ...
