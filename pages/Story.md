@@ -961,7 +961,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-03-26 Wed 10:19:04]
 			  :END:
-				- Before sleep, in the restroom, i contemplated the tranformation of conic sections through 1 axis scaling, and checked that the double shearing (along x and y) is very near but not exactly the [squeezing](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))).
+				- Before sleep, in the restroom, i contemplated the [tranformation of conic metrics](https://www.geogebra.org/m/yrzmwxqv) through 1 axis scaling, and checked that the double shearing (along x and y) is very near but not exactly the [squeezing](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))).
 				- The sleep was good, i only coughed in the morning, just 30 minutes before my alarm.
 			- Thursday, ...
 			  :LOGBOOK:
