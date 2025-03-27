@@ -964,5 +964,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-03-27 Thu 12:22:51]
 			  CLOCK: [2025-03-27 Thu 12:22:54]
 			  :END:
-				- In the riverside sitting time before work, i
+				- In the riverside sitting time before work, i revised the connection between shearing and [squeezing](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))): there are 2 types of sync: edge sync & area sync
+				-
 		- ...
