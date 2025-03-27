@@ -715,7 +715,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ![Quantum-yin-yang.jpg](../assets/Will/story/2025-Mar/Quantum-yin-yang.jpg)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- The second experience of drowning
+		- The second experience of drowning via cough reflex
 		  id:: 67dcc012-44d3-4041-b17a-0ef201b3ff6c
 		  collapsed:: true
 		  :LOGBOOK:
@@ -911,7 +911,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Hamilton invented the [quaternion numbers](https://en.wikipedia.org/wiki/Quaternion) (1843), extending the complex numbers, to handle mechanics in 3D space properly, esp. the 3D rotation and [scalar product](https://en.wikipedia.org/wiki/Dot_product).
 						- In 1844 Hermann Grassmann published his "Theory of Extension" founding the modern [linear algebra](https://en.wikipedia.org/wiki/Linear_algebra) with "inner product" for [scalar product](https://en.wikipedia.org/wiki/Dot_product) and "outer product" for [exterior product](https://en.wikipedia.org/wiki/Exterior_product). Because his theory predated vector calculus, he use terms like “stretch” to call the modern notion of “vector”.
 						- Near the end of the 19th century, Gibbs and Heaviside simplified the 4D quaternions to create the [vector calculus](https://en.wikipedia.org/wiki/Vector_calculus) for 3D space, as shown in the book *Vector Analysis* (1901). This was in parallel with the development of [vector space](https://en.wikipedia.org/wiki/Vector_space) for linear algebra by Peano in 1888 and Salvatore Pincherle in 1897.
-					- History of the projective thread of relation between quantities.
+					- DOING History of the projective thread of relation between quantities.
+					  id:: 67e3b3e4-66d6-4c72-92d1-faeef2cf2165
+					  :LOGBOOK:
+					  CLOCK: [2025-03-27 Thu 12:52:34]
+					  :END:
 						- Traditionally, the relationship between quantities, e.g. (x, y), is usually decribed with function, e.g. $y = f(x)$, or more generally with relation, e.g. $R(x, y) = 0$, both of which can be plotted on the Cartesian plane xOy as a graph (of function) or a curve (of relation). There, each quantity is expressed by an orthogonal axis.
 						- However, in ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), the relation is usually expressed as the relative angles between the threads of these quantities.
 							- Relativity:
