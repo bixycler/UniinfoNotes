@@ -830,8 +830,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ)$
 								- Combining with previous relation, we have:
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2} \approx θ/\sqrt{1+θ^2} ; \; θ = s \mod 2π$
-							- Rotations on conic grids
-								- On polar grid, the circular rotation moves objects along the “vertical” lines, i.e. concentric circles $(x^2 + y^2) = r^2$.
+							- Rotations as flows on conic grids
+								- On polar grid, the circular rotation moves objects along the “vertical” lines, i.e. concentric circles $x^2 + y^2 = r^2$.
 								  id:: 67e64337-65df-48fd-af37-3ee21245e154
 								- On Cartesian grid, the y-parabolic rotation moves objects along the vertical lines $x^2 = r^2$, and x-parabolic rotation along the horizontal lines $y^2 = r^2$.
 								- On hyperbolic grid, the standard hyperbolic rotation moves objects along the “vertical” lines $(x^2 - y^2)^2 = r^4$, and the standard squeeze mapping along the horizontal lines $(2xy)^2 = r^4$.
