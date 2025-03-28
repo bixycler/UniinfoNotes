@@ -957,16 +957,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2025-03-27 Thu 12:52:34]
 					  :END:
 						- Traditionally, the relationship between quantities, e.g. (x, y), is usually decribed with function, e.g. $y = f(x)$, or more generally with relation, e.g. $R(x, y) = 0$, both of which can be plotted on the Cartesian plane xOy as a graph (of function) or a curve (of relation). There, each quantity is expressed by an orthogonal axis.
-							- This curve corresponds to the **map thread**, the elementary thread in Unithread, which shows a **distribution** (static relation) of these quantities.
-						- However, ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) focus more on relative & dynamic relations which are usually expressed as the relative angles between the threads of these quantities.
+							- This curve corresponds to the **projective thread**, the elementary thread in Unithread, which shows a **distribution** (static relation) of these quantities.
+						- However, ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) focus more on relative & dynamic relations which are usually expressed as the relative angles between the elementary threads of these quantities.
 							- Relativity:
 								- The angles show how much they are apart/different from each other.
 								- In reverse, the scalar product of the direction vectors shows the correlation between them.
 								- The relativity is shown by the mutual distance, mutual angle, scalar product, mutual stretch in shearing, etc.
 							- All these threads are combined into a **compound thread** by synchronizing points, which are called [coincidences](https://en.wikipedia.org/wiki/Incidence_(geometry)), knots, contact points, etc.
-							- When the compound thread is projected to different lines and curves (spaces in general), the images are called “**projective threads**” which show the **distributions** of these quantities in different spaces.
-						- Around 2018,
-						- In October 2019, ((67e38d9c-aec4-460f-acf3-d91a382372be)) was written to illustrate the relativity between quantities.
+							- When the compound thread is projected to different lines and curves (spaces in general), the images are projective threads showing different distributions of these quantities in different spaces.
+						- Around 2018, i used scalar product of vectors to map the projective thread. This creates the map with the angle/slope between quantities smaller than the slope of the graph $y = f(x)$: As the .
+						- In October 2019, ((67e38d9c-aec4-460f-acf3-d91a382372be)) was written to illustrate the relativity between quantities in a comound thread.
 						- The argument between maternal and paternal grand fathers about their walking ([fb post](https://www.facebook.com/share/p/18GjbjRoxQ/))
 						  id:: 67e38d9c-aec4-460f-acf3-d91a382372be
 						  collapsed:: true
