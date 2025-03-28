@@ -837,6 +837,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- On hyperbolic grid, the standard hyperbolic rotation moves objects along the “vertical” lines $(x^2 - y^2)^2 = r^4$, and the standard squeeze mapping along the horizontal lines $(2xy)^2 = r^4$.
 								- These grids are the conic version of [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates) which are the most common cases of [curvilinear coordinates](https://en.wikipedia.org/wiki/Curvilinear_coordinates).
 									- While the **shear** is *usually thought as unidirectional*, its **bidirectional** nature, i.e. rotating around the origin, is stressed with the pair of lines (a degenerate parabola) $x^2 = r^2$ instead of single lines $x = r$.
+									- Transforming the complex plane, we have similar grids with distortions:
+										- Log-polar grid $\exp(u+iv)$ has vary exponentially.
+										- Square root hyperbolic grid $\sqrt{u+iv}$ has $u$ component vary exponentially.
 									- Notes:
 										- Don't confuse the Cartesian grid $(u+iv)$ with the [“parabolic grid”](https://en.wikipedia.org/wiki/Parabolic_coordinates) $(u+iv)^2$.
 										- The [“hyperbolic coordinates”](https://en.wikipedia.org/wiki/Hyperbolic_coordinates) is may be defined with the different “vertical lines” = radial lines $x/y = e^{2r}$, instead of hyperbolas $(x^2 - y^2)^2 = r^4$. This grid with radials is not orthogonal and is used in relativity physics.
