@@ -840,6 +840,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- While the **shear** is *usually thought as unidirectional*, its **bidirectional** nature, i.e. rotating around the origin, is stressed with the pair of lines (a degenerate parabola) $x^2 = r^2$ instead of single lines $x = r$.
 							- The conic rotations are special cases of the Lie group [SL(2,ℝ)](https://en.wikipedia.org/wiki/SL2(R)).
 								- All actions in this group are [classified](https://en.wikipedia.org/wiki/SL2(R)#Classification_of_elements) into elliptic, parabolic, and hyperbolic rotations (may be nonstandard: different axis, scaled).
+								- The flows are Lie exponentiations of generators:
+									- Elliptic: $\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$
+									- Parabolic: $\begin{bmatrix} 0 & 0 \\ 0 & 1 \end{bmatrix}$
+									- Hyperbolic: $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
 						- In 2D, parabolic rotations can be used to compose both circular and hyperbolic rotations.
 						  id:: 67e238fb-771f-483d-a04a-badff7c7c70a
 							- 4 triples of parabolic rotations equivalent to circular and hyperbolic rotations:
