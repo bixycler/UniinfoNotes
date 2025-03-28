@@ -831,17 +831,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Combining with previous relation, we have:
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2} \approx θ/\sqrt{1+θ^2} ; \; θ = s \mod 2π$
 						- In 2D, parabolic rotations can be used to compose both circular and hyperbolic rotations.
+						  id:: 67e238fb-771f-483d-a04a-badff7c7c70a
 							- 4 triples of parabolic rotations equivalent to circular and hyperbolic rotations:
+							  id:: 67e6168e-ff58-4d9d-94a7-6fee6f533044
 								- X-T-X triples
-									- $R = S_x(−\tan(θ/2))⋅S_y(\sin(θ))⋅S_x(−\tan(θ/2))$
-									- $H = S_x(\tanh(ψ/2))⋅S_y(\sinh(ψ))⋅S_x(\tanh(ψ/2))$
+									- $R(θ) = S_x(−\tan(θ/2))⋅S_y(\sin(θ))⋅S_x(−\tan(θ/2))$
+									- $H(ψ) = S_x(\tanh(ψ/2))⋅S_y(\sinh(ψ))⋅S_x(\tanh(ψ/2))$
 								- Y-X-Y triples
-									- $R = S_y(\tan(θ/2))⋅S_x(-\sin(θ))⋅S_y(\tan(θ/2))$
-									- $H = S_y(\tanh(ψ/2))⋅S_x(\sinh(ψ))⋅S_y(\tanh(ψ/2))$
+									- $R(θ) = S_y(\tan(θ/2))⋅S_x(-\sin(θ))⋅S_y(\tan(θ/2))$
+									- $H(ψ) = S_y(\tanh(ψ/2))⋅S_x(\sinh(ψ))⋅S_y(\tanh(ψ/2))$
 								- These are so beautiful with symmetries! 😊
 									- **H = tanh ⋅ sinh ⋅ tanh** for both triples
 									- **R = (-/+)tan ⋅ (+/-)sin ⋅ (-/+)tan** for X-T-X / Y-X-Y
-								- Here $S_x(k_x), S_y(k_y)$ are X & Y shears with shear factors $k_x, k_y$, and $R, H$ are circular and hyperbolic rotation.
+								- Here $S_x(k_x), S_y(k_y)$ are X & Y shears with shear factors $k_x, k_y$ (parabolic angles), and $R(θ), H(ψ)$ are circular and hyperbolic rotation with angles $θ, ψ$ .
 							- A circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations, or 2 parabolic rotations + squeeze.
 								- Video: [Rotation by shearing](https://youtu.be/tHekokkHmlM)
 								  collapsed:: true
@@ -983,8 +985,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-03-27 Thu 12:22:54]
 			  :END:
 				- In the riverside sitting time before work, i revised the connection between shear and [squeeze](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))): there are 2 types of sync: edge sync & area sync
-				- I worked out the decomposition of hyperbolic rotation into 2 shrears and asked Grok 3 to help. Finally we had the conclusion of a nice symmetry.
-					-
+				- I worked out the decomposition of hyperbolic rotation into 3 shears and asked Grok 3 to help. Finally we had the conclusion of [a nice symmetry](((67e6168e-ff58-4d9d-94a7-6fee6f533044))).
+				-
 			- Friday 28 March,
 			  id:: 67e4e16d-d58d-4189-b79c-26d2e7360046
 			  :LOGBOOK:
