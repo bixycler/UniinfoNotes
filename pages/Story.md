@@ -988,7 +988,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- I worked out the decomposition of hyperbolic rotation into 3 shears and asked Grok 3 to help. Finally we had the conclusion of [a nice symmetry](((67e6168e-ff58-4d9d-94a7-6fee6f533044))).
 				- 3 hours into the sleep, i woke up to cough... no more phlegm, only thick clear mucus. It's so sticky in my throat that i's about the vomit, just like the first days of this illness.
 					- The cough reflex kicked in and persisted... I meditated to calm it down.
-					-
+					- After half an hour dealing with the cough, i lay down to sleep but got sleepy for just an hour and then woke up.
+					- From then on, i has been godly awake (thức thần) after my meditation entering the “dead state” !
+					- Then i called my wife up to share with her the meditative state. I guided her to review her own state
 			- Friday 28 March,
 			  id:: 67e4e16d-d58d-4189-b79c-26d2e7360046
 			  :LOGBOOK:
