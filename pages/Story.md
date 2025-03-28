@@ -830,15 +830,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ)$
 								- Combining with previous relation, we have:
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2} \approx θ/\sqrt{1+θ^2} ; \; θ = s \mod 2π$
+						- In 2D, parabolic rotations can be used to compose both circular and hyperbolic rotations.
+							- A circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  squeezing.
+								- Video: [Rotation by shearing](https://youtu.be/tHekokkHmlM)
+								  collapsed:: true
+									- {{video https://youtu.be/tHekokkHmlM}}
+								- Video: [Rotation without rotating](https://youtu.be/1LCEiVDHJmc) for the good old low resolution Mario sprite.
+								  collapsed:: true
+									- {{video https://youtu.be/1LCEiVDHJmc}}
 						- GeoGebra applets: [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt), [ConicRotations](https://www.geogebra.org/m/d67tfadb) for ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 						  id:: 67e299fa-4f76-482a-b586-adacb17dc064
-						- In 2D, a circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  squeezing.
-							- Video: [Rotation by shearing](https://youtu.be/tHekokkHmlM)
-							  collapsed:: true
-								- {{video https://youtu.be/tHekokkHmlM}}
-							- Video: [Rotation without rotating](https://youtu.be/1LCEiVDHJmc) for the good old low resolution Mario sprite.
-							  collapsed:: true
-								- {{video https://youtu.be/1LCEiVDHJmc}}
 						- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
 							- radial component = scaling (multiplication, division): $⋅r$
 							- transverse component = translation (addition, subtraction): $+dφ$
@@ -970,7 +971,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-03-27 Thu 12:22:51]
 			  CLOCK: [2025-03-27 Thu 12:22:54]
 			  :END:
-				- In the riverside sitting time before work, i revised the connection between shearing and [squeezing](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))): there are 2 types of sync: edge sync & area sync
+				- In the riverside sitting time before work, i revised the connection between shear and [squeeze](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))): there are 2 types of sync: edge sync & area sync
+				- I worked out the decomposition of hyperbolic rotation into 2 shrears and asked Grok 3 to help. Finally we had the conclusion of a nice symmetry.
+					-
 			- Friday 28 March,
 			  id:: 67e4e16d-d58d-4189-b79c-26d2e7360046
 			  :LOGBOOK:
