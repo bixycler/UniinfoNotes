@@ -979,7 +979,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- Before sleep, in the restroom, i contemplated the [tranformation of conic metrics](https://www.geogebra.org/m/yrzmwxqv) through 1 axis scaling, and checked that the double shearing (along x and y) is very near but not exactly the [squeezing](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))).
 				- The sleep was good, i only coughed in the morning, just 30 minutes before my alarm.
-			- Thursday, ...
+			- Thursday, another weird day!
 			  :LOGBOOK:
 			  CLOCK: [2025-03-27 Thu 12:22:51]
 			  CLOCK: [2025-03-27 Thu 12:22:54]
@@ -989,9 +989,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- 3 hours into the sleep, i woke up to cough... no more phlegm, only thick clear mucus. It's so sticky in my throat that i's about the vomit, just like the first days of this illness.
 					- The cough reflex kicked in and persisted... I meditated to calm it down.
 					- After half an hour dealing with the cough, i lay down to sleep but got sleepy for just an hour and then woke up.
-					- From then on, i has been godly awake (thức thần) after my meditation entering the “dead state” !
-					- Then i called my wife up to share with her the meditative state. I guided her to review her own state
-			- Friday 28 March,
+					- From then on, i has been godly awake (thức thần) after my meditation entering the “dead state”!
+					- Then i called my wife up to share with her the meditative state. I guided her to review her own state: she discovered that she had been heavy, not as “normal” as she thought. She relaxed, reviewed, and we had sex before i went to work.
+			- Friday 28 March, ...
 			  id:: 67e4e16d-d58d-4189-b79c-26d2e7360046
 			  :LOGBOOK:
 			  CLOCK: [2025-03-28 Fri 09:58:59]
