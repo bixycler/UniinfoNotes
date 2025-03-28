@@ -978,5 +978,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-03-28 Fri 09:59:01]
 			  :END:
 				- While sitting at the riverside, i contemplated the relativity of lengths in the parabolic rotation as well as the unity of the three conic rotations.
-					-
+					- I saw the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in the right triangle where the selection of 2 edges yielding circular, parabolic, and hyperbolic rotation.
+					- Hence, the three conic rotations are unified beautifully under the views of ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)).
+					- I also saw my urge to see with eyes the seemingly “impossible” equivalence between triple of shears and circular rotation.
+						- There, i breathed to let it go and accept such an ignorance of mine.
 		- ...

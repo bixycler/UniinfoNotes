@@ -1753,6 +1753,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$.
 			- Extensive ($e$, $c$) - Intensive ($i$)
 		- TODO Migrate [[CIE]]
+		  id:: 67b541d0-0c8c-4186-b5fd-460cfa4e3e27
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
 			- Why the intent is under the content in the division $c/i$:
