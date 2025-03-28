@@ -839,7 +839,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- While the **shear** is *usually thought as unidirectional*, its **bidirectional** nature, i.e. rotating around the origin, is stressed with the pair of lines (a degenerate parabola) $x^2 = r^2$ instead of single lines $x = r$.
 									- Notes:
 										- Don't confuse the Cartesian grid $(u+iv)$ with the [“parabolic grid”](https://en.wikipedia.org/wiki/Parabolic_coordinates) $(u+iv)^2/2$.
-										- The [“hyperbolic coordinates”](https://en.wikipedia.org/wiki/Hyperbolic_coordinates) is may be defined with the different “vertical lines”: $x/y = e^{2r}$ instead of $(x^2 - y^2)^2 = r^4$.
+										- The [“hyperbolic coordinates”](https://en.wikipedia.org/wiki/Hyperbolic_coordinates) is may be defined with the different “vertical lines” = radial lines $x/y = e^{2r}$, instead of parabolas $(x^2 - y^2)^2 = r^4$. This grid with radials is not orthogonal and is used in relativity physics.
 										- It's interesting that as late as 2015, there was still a paper to “present and construct a new kind of orthogonal coordinate system, hyperbolic coordinate system”: [Hyperbolic-symmetry vector fields](https://www.researchgate.net/publication/286403709_Hyperbolic-symmetry_vector_fields).
 							- The conic rotations are special cases of the Lie group [SL(2,ℝ)](https://en.wikipedia.org/wiki/SL2(R)).
 							  collapsed:: true
