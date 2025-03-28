@@ -855,7 +855,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Ref: ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
 						- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
 					- Refs:
-						- [Chat with Grok 3](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d)
+						- Chats with Grok 3
+							- [Homogeneous Coordinates: Points vs Vectors](https://grok.com/chat/0be0eda4-8509-4752-8443-2c61f9a0e300) ([published](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d))
+							- [Projective rotations](https://grok.com/chat/baa501bc-baed-4968-9dcc-84f8b3c23b9b)
 						- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
 						  :LOGBOOK:
 						  CLOCK: [2025-03-21 Fri 20:09:27]
@@ -969,5 +971,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-03-27 Thu 12:22:54]
 			  :END:
 				- In the riverside sitting time before work, i revised the connection between shearing and [squeezing](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))): there are 2 types of sync: edge sync & area sync
-				-
+			- Friday 28 March,
+			  id:: 67e4e16d-d58d-4189-b79c-26d2e7360046
+			  :LOGBOOK:
+			  CLOCK: [2025-03-28 Fri 09:58:59]
+			  CLOCK: [2025-03-28 Fri 09:59:01]
+			  :END:
+				- While sitting at the riverside, i contemplated the relativity of lengths in the parabolic rotation as well as the unity of the three conic rotations.
+					-
 		- ...
