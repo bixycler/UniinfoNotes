@@ -836,6 +836,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- On Cartesian grid, the y-parabolic rotation moves objects along the vertical lines $x^2 = r^2$, and x-parabolic rotation along the horizontal lines $y^2 = r^2$.
 								- On hyperbolic grid, the standard hyperbolic rotation moves objects along the “vertical” lines $(x^2 - y^2)^2 = r^4$, and the standard squeeze mapping along the horizontal lines $(2xy)^2 = r^4$.
 								- These grids are the conic version of [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates) which are the most common cases of [curvilinear coordinates](https://en.wikipedia.org/wiki/Curvilinear_coordinates).
+									- Note: Don't confuse Cartesian grid with the [“parabolic grid”](https://en.wikipedia.org/wiki/Parabolic_coordinates)
 						- In 2D, parabolic rotations can be used to compose both circular and hyperbolic rotations.
 						  id:: 67e238fb-771f-483d-a04a-badff7c7c70a
 							- 4 triples of parabolic rotations equivalent to circular and hyperbolic rotations:
