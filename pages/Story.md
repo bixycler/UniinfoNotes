@@ -841,9 +841,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The conic rotations are special cases of the Lie group [SL(2,ℝ)](https://en.wikipedia.org/wiki/SL2(R)).
 								- All actions in this group are [classified](https://en.wikipedia.org/wiki/SL2(R)#Classification_of_elements) into elliptic, parabolic, and hyperbolic rotations (may be nonstandard: different axis, scaled).
 								- The flows are [Lie exponentiations](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) of generators:
-									- Elliptic: $\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$
-									- Parabolic: $\begin{bmatrix} 0 & 0 \\ 0 & 1 \end{bmatrix}$
-									- Hyperbolic: $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
+									- Elliptic: $G_c = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \; ; \; \exp(θG_c) = \begin{bmatrix} \cos θ & -\sin θ \\ \sin θ & \cos θ \end{bmatrix}$
+									- Parabolic: $G_py = \begin{bmatrix} 0 & 0 \\ 1 & 0 \end{bmatrix} \; ; \; \exp(sG_p) = \begin{bmatrix} 1 & 0 \\ s & 1 \end{bmatrix}$
+									- Hyperbolic: $G_h = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \; ; \; \exp(ψG_h) = \begin{bmatrix} \cosh ψ & \sinh ψ \\ \sinh ψ & \cosh ψ \end{bmatrix}$
 						- In 2D, parabolic rotations can be used to compose both circular and hyperbolic rotations.
 						  id:: 67e238fb-771f-483d-a04a-badff7c7c70a
 							- 4 triples of parabolic rotations equivalent to circular and hyperbolic rotations:
