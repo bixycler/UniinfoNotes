@@ -936,7 +936,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation: ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 				- Created ((67e299fa-4f76-482a-b586-adacb17dc064))
 				- Before sleep, in the restroom, i recalled that the hyperbolic rotation is just a plane projection (conic section) of the parabolic rotation projected onto the light cone which was shown in my very first GeoGebra applet [MixedCoords](https://www.geogebra.org/m/jeexkfrd).
-				  collapsed:: true
 					- The dual view of parabolic & hyperbolic rotations is also the dual view of projective thread and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).
 					- Ironically, i met the dual view of projective thread & function graphing (around 2018) long after the dicovery of the “mixed coordinates” (before 2015) without recognizing they are one. Moreover, the projective nature of conic sections, i.e. [“why slicing the cone”](https://www.geogebra.org/m/nknaryzz), was discovered much later, only when i studied projective geometry (2020).
 					- History of graphing of functions, loci of relations (curves), and trajectories of objects
@@ -951,10 +950,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Hamilton invented the [quaternion numbers](https://en.wikipedia.org/wiki/Quaternion) (1843), extending the complex numbers, to handle mechanics in 3D space properly, esp. the 3D rotation and [scalar product](https://en.wikipedia.org/wiki/Dot_product).
 						- In 1844 Hermann Grassmann published his "Theory of Extension" founding the modern [linear algebra](https://en.wikipedia.org/wiki/Linear_algebra) with "inner product" for [scalar product](https://en.wikipedia.org/wiki/Dot_product) and "outer product" for [exterior product](https://en.wikipedia.org/wiki/Exterior_product). Because his theory predated vector calculus, he use terms like “stretch” to call the modern notion of “vector”.
 						- Near the end of the 19th century, Gibbs and Heaviside simplified the 4D quaternions to create the [vector calculus](https://en.wikipedia.org/wiki/Vector_calculus) for 3D space, as shown in the book *Vector Analysis* (1901). This was in parallel with the development of [vector space](https://en.wikipedia.org/wiki/Vector_space) for linear algebra by Peano in 1888 and Salvatore Pincherle in 1897.
-					- DOING History of the projective thread of relation between quantities.
+					- History of the projective thread of relation between quantities.
 					  id:: 67e3b3e4-66d6-4c72-92d1-faeef2cf2165
 					  :LOGBOOK:
-					  CLOCK: [2025-03-27 Thu 12:52:34]
+					  CLOCK: [2025-03-27 Thu 12:52:34]--[2025-03-28 Fri 18:59:13] =>  30:06:39
 					  :END:
 						- Traditionally, the relationship between quantities, e.g. (x, y), is usually decribed with function, e.g. $y = f(x)$, or more generally with relation, e.g. $R(x, y) = 0$, both of which can be plotted on the Cartesian plane xOy as a graph (of function) or a curve (of relation). There, each quantity is expressed by an orthogonal axis.
 							- This curve corresponds to the **projective thread**, the elementary thread in Unithread, which shows a **distribution** (static relation) of these quantities.
@@ -965,7 +964,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- The relativity is shown by the mutual distance, mutual angle, scalar product, mutual stretch in shearing, etc.
 							- All these threads are combined into a **compound thread** by synchronizing points, which are called [coincidences](https://en.wikipedia.org/wiki/Incidence_(geometry)), knots, contact points, etc.
 							- When the compound thread is projected to different lines and curves (spaces in general), the images are projective threads showing different distributions of these quantities in different spaces.
-						- Around 2018, i used scalar product of vectors to map the projective thread. This creates the map with the angle/slope between quantities smaller than the slope of the graph $y = f(x)$: As the .
+						- Around 2018, i used scalar product of vectors to map the projective thread.
+							- This creates the map with the angle/slope between quantities smaller than the slope of the graph $y = f(x)$: As the mapped angle varies from 0° to 90°, the slope of the corresponding graph varies from 45° to 90°.
+							- While having different slopes, the projective thread is equivalent to the function graph, actually the graph of distribution.
 						- In October 2019, ((67e38d9c-aec4-460f-acf3-d91a382372be)) was written to illustrate the relativity between quantities in a comound thread.
 						- The argument between maternal and paternal grand fathers about their walking ([fb post](https://www.facebook.com/share/p/18GjbjRoxQ/))
 						  id:: 67e38d9c-aec4-460f-acf3-d91a382372be
@@ -974,10 +975,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2025-03-26 Wed 13:19:35]
 						  :END:
 							- Diagram of vector relativity
-							  collapsed:: true
 								- ![vector-relativity.jpg](../assets/Will/story/2025-Mar/vector-relativity.jpg)
 							- The original Vietnamese version
-							  collapsed:: true
 								- Lâu lâu 2 ông cụ nhà mình mới có dịp gặp nhau, ấy thế mà nói được vài câu là đã mâu thuẫn rồi:
 									- Ô.Ngoại: Tôi đi được 3 mét rồi ông mới đi được có 1 mét. Sao ông đi chậm vậy?!
 									- Ô.Nội: Mỗi bước tôi đi được 3 tấc còn ông mỗi bước chỉ được có 1 tấc. Sao ông bước ngắn thế?!
