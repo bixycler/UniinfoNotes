@@ -831,7 +831,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Combining with previous relation, we have:
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2} \approx θ/\sqrt{1+θ^2} ; \; θ = s \mod 2π$
 						- In 2D, parabolic rotations can be used to compose both circular and hyperbolic rotations.
-							- A circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations or 2 parabolic rotations +  squeezing.
+							- 4 triples of parabolic rotations equivalent to circular and hyperbolic rotations:
+								- x-y-x triples
+									- $R = Sx(−tan(θ/2))⋅Sy(sin(θ))⋅Sx(−tan(θ/2))$
+									- $H = Sx(tanh(ψ/2))⋅Sy(sinh(ψ))⋅Sx(tanh(ψ/2))$
+								- y-x-y triples
+									- $R = Sy(tan(θ/2))⋅Sx(-sin(θ))⋅Sy(tan(θ/2))$
+									- $H = Sy(tanh(ψ/2))⋅Sx(sinh(ψ))⋅Sy(tanh(ψ/2))$
+								- These are so beautiful with symmetries! 😊
+							- A circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations, or 2 parabolic rotations + squeeze.
 								- Video: [Rotation by shearing](https://youtu.be/tHekokkHmlM)
 								  collapsed:: true
 									- {{video https://youtu.be/tHekokkHmlM}}
