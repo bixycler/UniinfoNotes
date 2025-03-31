@@ -1065,8 +1065,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Then i recalled the impermanence even for arahants, as shown in [the case of Bāhiya](https://www.accesstoinsight.org/ati/tipitaka/kn/ud/ud.1.10.than.html).
 					- There are 3 cases of people being killed by cows with the same pattern, as shown by [mikenz66 @ DhammaWheel](https://www.dhammawheel.com/viewtopic.php?t=3496#p50624): 
 					  (nghe Phật giảng (thanh văn), đốn ngộ, bò húc chết, được Phật thọ ký một trong 4 bậc thánh)
-						- Bāhiya: [Bāhiya Sutta](https://www.accesstoinsight.org/tipitaka/kn/ud/ud.1.10.irel.html): from a “bark-cloth” to an arahant.
-						- : from a leper to a
+						- Bāhiya: [Bāhiya Sutta](https://www.accesstoinsight.org/tipitaka/kn/ud/ud.1.10.irel.html): from a “bark-cloth” to an [arahant](https://en.wikipedia.org/wiki/Arhat).
+						- Pukkusati: [Dhatu-vibhanga Sutta](https://www.accesstoinsight.org/tipitaka/mn/mn.140.than.html): from a “outside clansman” to a [non-returner](https://en.wikipedia.org/wiki/An%C4%81g%C4%81mi).
+						- Kuṭṭhi: [Kuṭṭhi Sutta](https://www.accesstoinsight.org/tipitaka/kn/ud/ud.5.03.than.html): from a “leper” to a [stream-enterer](https://en.wikipedia.org/wiki/Sot%C4%81panna) or [once-returner](https://en.wikipedia.org/wiki/Sakadagami).
 					- Gemini Deep Research also confirms these 3 cases are the only ones explicitly killed by cows.
 			- Today, Monday, 31 March, ...
 				-
