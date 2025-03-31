@@ -772,7 +772,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Tuesday, i practised âm dương đan the whole day and also advertised it to leader Quân.
 				- Going to bed, i found the mental switch to turn the [cough reflex](https://en.wikipedia.org/wiki/Cough_reflex) off: while still facing the cough, zoom out and hold on other stuffs to pull the mind out of the cough.
 				- After 4 hours, i woke up and returned to bed with the same technique... and contemplated the [equivalence of 2 aspects of the zero](((67dcec86-db94-47b0-8687-ab2aa95d7c8a))) before falling asleep.
-			- Wednesday, i was shown how badly my [theorist karma](((669a58b9-422a-40d9-adcf-b2aade86c170))) affect my helth.
+			- Wednesday, i was shown how badly my [theorist karma](((669a58b9-422a-40d9-adcf-b2aade86c170))) affect my health.
 				- This early morning, i saw the equivalence of 2 aspects of the zero: 
 				  id:: 67dcec86-db94-47b0-8687-ab2aa95d7c8a
 				  Zero = center = balance = cancellation = concentration = abstraction = point (cone) projection
@@ -1095,7 +1095,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ...
 					- Gemini even hallucinated a hole content of such "notice":
 						- #+BEGIN_QUOTE
-						  เรื่อง กลุ่มภิกษุสงฆ์แต่งกายเลียนแบบพระ (hallucinated)
+						  เรื่อง กลุ่มภิกษุสงฆ์แต่งกายเลียนแบบพระ (hallucinated content)
 						  
 						  ประกาศ สำนักงานพระพุทธศาสนาแห่งชาติ
 						  เรื่อง กลุ่มภิกษุสงฆ์แต่งกายเลียนแบบพระ
