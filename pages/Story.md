@@ -834,7 +834,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  $\tanh(ψ) = \tan(ψ_c)$
 								- **Edge sync**: Project the shear line up to the light cone $z = \sqrt{x^2 + y^2}$, then project to xOz plane, then reflect back to xOy plane, i.e., the sheared line is mirrored into the horizontal line:
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2}$
-									- This is the “”
+									- This is the [“function mapping view”](((67e37475-13e3-4a9f-af60-7bec7517c108))) of the shear where the shear is considered a projective thread.
 							- Rotations as flows on conic grids
 								- On polar grid, the circular rotation moves objects along the “vertical” lines, i.e. concentric circles $x^2 + y^2 = r^2$.
 								  id:: 67e64337-65df-48fd-af37-3ee21245e154
@@ -953,6 +953,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Before sleep, in the restroom, i recalled that the hyperbolic rotation is just a plane projection (conic section) of the parabolic rotation projected onto the light cone which was shown in my very first GeoGebra applet [MixedCoords](https://www.geogebra.org/m/jeexkfrd).
 				  collapsed:: true
 					- The dual view of parabolic & hyperbolic rotations is also the dual view of projective thread and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).
+					  id:: 67e37475-13e3-4a9f-af60-7bec7517c108
 					- Ironically, i met the dual view of projective thread & function graphing (around 2018) long after the dicovery of the “mixed coordinates” (before 2015) without recognizing they are one. Moreover, the projective nature of conic sections, i.e. [“why slicing the cone”](https://www.geogebra.org/m/nknaryzz), was discovered much later, only when i studied projective geometry (2020).
 					- History of graphing of functions, loci of relations (curves), and trajectories of objects
 						- The invention of function graphing on orthogonal coordinates is closely tied to the development of **analytic geometry**, which emerged in the 17th century, but it has precursors from medieval maths.
