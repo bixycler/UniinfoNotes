@@ -1077,7 +1077,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Pukkusati: [Dhātu-vibhaṅga Sutta](https://suttacentral.net/mn140/en/sujato) ([vi.](https://suttacentral.net/mn140/vi/minh_chau)): from a “homeless clansman” (with faith in Buddha) to a [non-returner](https://en.wikipedia.org/wiki/An%C4%81g%C4%81mi).
 						- Kuṭṭhi: [Kuṭṭhi Sutta](https://suttacentral.net/ud5.3/en/sujato): from a “leper” to a [stream-enterer](https://en.wikipedia.org/wiki/Sot%C4%81panna) or [once-returner](https://en.wikipedia.org/wiki/Sakadagami).
 					- Gemini Deep Research also confirms these 3 cases are the only ones explicitly killed by cows.
-				- There was a news related to the monk group of master Minh Tuệ stating that
+				- There was a news by Vietnamese online news sites related to the monk group of master Minh Tuệ stating that “the National Office Of Buddhism of Thailand issued the nationwide notice number "พศ 0007/1442" regarding a group of pedestrians dressed as monks.” But no such notice can be found in Thai sites.
+					- Nothing's found at `onab.go.th`, the site of the [National Office Of Buddhism of Thailand](onab.go.th).
+					- Even Gemini Deep Search cannot find such notice anywhere!
+					- There are only 3
 			- Today, Monday, 31 March, ...
 				-
 		- ...
