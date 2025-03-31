@@ -1026,4 +1026,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Hence, the three conic rotations are unified beautifully under the views of ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)).
 					- I also saw my urge to see with eyes the seemingly “impossible” equivalence between triple of shears and circular rotation.
 						- There, i breathed to let it go and accept such an ignorance of mine.
+			- Weekends,
+			  :LOGBOOK:
+			  CLOCK: [2025-03-31 Mon 07:56:48]
+			  CLOCK: [2025-03-31 Mon 07:56:51]
+			  :END:
+				- Nibbana (niết-bàn) = complete death 😁: extinction, diệt tận, tịch diệt, viên tịch, ... hay nói nôm ra cho dễ hiểu là "chết hết" 😂
 		- ...
