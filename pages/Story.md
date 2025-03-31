@@ -879,8 +879,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Video: [Rotation without rotating](https://youtu.be/1LCEiVDHJmc) for the good old low resolution Mario sprite.
 								  collapsed:: true
 									- {{video https://youtu.be/1LCEiVDHJmc}}
-						- GeoGebra applets: [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt), [ConicRotations](https://www.geogebra.org/m/d67tfadb) for ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
+						- GeoGebra applets: 
 						  id:: 67e299fa-4f76-482a-b586-adacb17dc064
+							- [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt)
+							- [ConicRotations](https://www.geogebra.org/m/d67tfadb) for ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
+							- [ShearRotations](https://www.geogebra.org/m/mkwqufvk) to [compose circular & hyperbolic rotations](((67e238fb-771f-483d-a04a-badff7c7c70a)))
 						- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
 							- radial component = scaling (multiplication, division): $⋅r$
 							- transverse component = translation (addition, subtraction): $+dφ$
