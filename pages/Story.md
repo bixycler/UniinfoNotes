@@ -832,12 +832,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- Hyperbolic rotation is a [squeeze](https://en.wikipedia.org/wiki/Squeeze_mapping) with **squeeze factor** $k = e^ψ$ which is the up-scale factor along $x = y$ and the down-scale factor along $x+y=0$.
 									- The corresponding (circular) angle $ψ_c$ between the radial (squeezed) line and the horizontal line: 
 									  $\tanh(ψ) = \tan(ψ_c)$
-								- **Edge sync**:
-								- shearing in the direction perpendicular to the first shearing direction such that the first sheared line is mirrored in the horizontal line, we have hyperbolic rotation.
-								- The circular angle $ψ_c$ and **hyperbolic angle** $ψ$ between the radial line and the horizontal line, together with the circular angle of the first sheared line $φ$ have a nice relation:
-								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ)$
-								- Combining with previous relation, we have:
-								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2} \approx θ/\sqrt{1+θ^2} ; \; θ = s \mod 2π$
+								- **Edge sync**: Project the shear line up to the light cone $z = \sqrt{x^2 + y^2}$, then project to xOz plane, then reflect back to xOy plane, i.e., the sheared line is mirrored into the horizontal line:
+								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2}$
+									- This is the “”
 							- Rotations as flows on conic grids
 								- On polar grid, the circular rotation moves objects along the “vertical” lines, i.e. concentric circles $x^2 + y^2 = r^2$.
 								  id:: 67e64337-65df-48fd-af37-3ee21245e154
