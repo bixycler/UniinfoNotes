@@ -862,10 +862,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  id:: 67e238fb-771f-483d-a04a-badff7c7c70a
 							- 4 triples of parabolic rotations equivalent to circular and hyperbolic rotations:
 							  id:: 67e6168e-ff58-4d9d-94a7-6fee6f533044
-								- X-T-X triples
+								- x-y-x triples
 									- $R(θ) = S_x(−\tan(θ/2))⋅S_y(\sin(θ))⋅S_x(−\tan(θ/2))$
 									- $H(ψ) = S_x(\tanh(ψ/2))⋅S_y(\sinh(ψ))⋅S_x(\tanh(ψ/2))$
-								- Y-X-Y triples
+								- y-x-y triples
 									- $R(θ) = S_y(\tan(θ/2))⋅S_x(-\sin(θ))⋅S_y(\tan(θ/2))$
 									- $H(ψ) = S_y(\tanh(ψ/2))⋅S_x(\sinh(ψ))⋅S_y(\tanh(ψ/2))$
 								- These are so beautiful with symmetries! 😊
