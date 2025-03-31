@@ -1067,7 +1067,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- mới mấy hôm trước, trong 1 chuyến tâm hành trên giường, tui cũng đã nhập định được nhờ xả: sau khi cho tự động life review... review đâu hết 3 tiếng rưỡi... thì tự nhiên nhập định hoà với vạn vật 🙂
 						- Another milder experience was after 3 hours and a half of life review in the [20th night - 21st early morning July 2021](http://tamsudoithuong.blogspot.com/2021/07/1515-hom-kia-nghe-ien-thoai-em-xong.html) within the Covid-19 lockdown.
 				- Then i recalled the impermanence even for arahants, as shown in [the case of Bāhiya](https://www.accesstoinsight.org/ati/tipitaka/kn/ud/ud.1.10.than.html).
-				  collapsed:: true
 					- There are 3 cases of people being killed by cows with the same pattern, as shown by [mikenz66 @ DhammaWheel](https://www.dhammawheel.com/viewtopic.php?t=3496#p50624): 
 					  + listened to Buddha's teachings ([hearer](https://en.wikipedia.org/wiki/%C5%9Ar%C4%81vaka)), 
 					  + suddenly enlightened, 
@@ -1079,6 +1078,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- In the second version of [Bāhiya Sutta](https://suttacentral.net/sn47.15/en/sujato) ([vi.](https://suttacentral.net/sn47.15/vi/minh_chau)), he attained arahantship through practicing [four foundations of mindfulness](https://en.wikipedia.org/wiki/Satipatthana) and was not killed. In Commentaries, this person is named “Bāhika” to distinguish from the “Bāhiya Dāru-ciriya” (Bāhiya the bark-wearer) who was killed by a cow.
 							- In the third version of [Bāhiya Sutta](https://suttacentral.net/sn35.89/en/sujato) ([vi.](https://suttacentral.net/sn35.89/vi/minh_chau)), he attained arahantship through observing [three marks of existence](https://en.wikipedia.org/wiki/Three_marks_of_existence) and was not killed.
 						- Pukkusati: [Dhātu-vibhaṅga Sutta](https://suttacentral.net/mn140/en/sujato) ([vi.](https://suttacentral.net/mn140/vi/minh_chau)): from a “homeless clansman” (with faith in Buddha) to a [non-returner](https://en.wikipedia.org/wiki/An%C4%81g%C4%81mi).
+						  id:: 67ea1006-7d4b-4ac6-ba9e-80eaa1e9c19a
 						- Kuṭṭhi: [Kuṭṭhi Sutta](https://suttacentral.net/ud5.3/en/sujato): from a “leper” to a [stream-enterer](https://en.wikipedia.org/wiki/Sot%C4%81panna) or [once-returner](https://en.wikipedia.org/wiki/Sakadagami).
 					- Gemini Deep Research also confirms these 3 cases are the only ones explicitly killed by cows.
 				- Recently, there was a news by Vietnamese online news sites related to the monk group of master Minh Tuệ stating that “the National Office Of Buddhism of Thailand issued the nationwide notice number "พศ 0007/1442" (issued on 13rd Feb) regarding a group of pedestrians dressed as monks.” But no such notice can be found in Thai sites.
@@ -1106,6 +1106,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  สำนักงานพระพุทธศาสนาแห่งชาติ
 						  ๑๓ กุมภาพันธ์ ๒๕๖๘
 						  #+END_QUOTE
+				- It's interesting that the [story of Pukkusati](((67ea1006-7d4b-4ac6-ba9e-80eaa1e9c19a))) clearly shows that both Gotama Buddha and Ven. Pukkusati did sleep in the [lotus position](https://en.wikipedia.org/wiki/Lotus_position) just like master Minh Tuệ's doing nowadays.
 			- Today, Monday, 31 March, ...
 				-
 		- ...
