@@ -1045,5 +1045,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ((67b541cb-5177-4e91-be40-4126f798605b))
 					- Previously, all experiences were passive through exhaustion or psychedelic drugs:
 						- Many experiences were on the trips of Ketamine, LSD, DMT and 5MEO-DMT.
-						- One notable death & resolution of ego
+						- One notable [death & dissolution of ego](https://en.wikipedia.org/wiki/Ego_death) was thanks to the exhaustion after a week of stubborn trial to build the “quicklog” system. The experience coincided with the election day 23rd May 2021.
+							- Trong nhật ký thì mình chỉ nhắc đến nó trong một vế trong một câu vào dịp Covid-19, [ngày 30/7/2021](http://tamsudoithuong.blogspot.com/2021/07/200-hom-thu-2-minh-lo-thuc-tu-toi-hom.html) mà thôi:
+							  > ... như cái chứng nghiệm "nhập định xả hôm bầu cử" tháng trước vậy.
 		- ...
