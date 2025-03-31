@@ -821,11 +821,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  $(x, y) → (x, \; y + s⋅x)$
 								- φ is the (circular) angle between the radial (sheared) line and the horizontal line.
 							- Wrapping $s$ around the unit circle, we have the circular rotation with **circular angle** $θ = s \mod 2π = \tan(φ) \mod 2π$.
-							- Squeezing & shearing in the direction perpendicular to the first shearing direction such that the first sheared line is mirrored in the horizontal line, we have hyperbolic rotation.
+							- The corresponding hyperbolic rotation can be constructed in 2 ways:
 							  id:: 67e2a0e0-a6d9-4ad8-a601-24289f44d383
 							  :LOGBOOK:
 							  CLOCK: [2025-03-25 Tue 20:47:33]--[2025-03-25 Tue 20:57:06] =>  00:09:33
 							  :END:
+								- **Area sync**: The [hyperbolic angle](https://en.wikipedia.org/wiki/Hyperbolic_angle) $ψ$ is defined to be double the area of the corresponding hyperbolic sector.
+									- Actually, this definition is the same for all conic angles agains conic sectors.
+									- The corresponding (circular) angle $ψ_c$ between the radial (squeezed) line and the horizontal line: 
+									  $\tanh(ψ) = \tan(ψ_c)$
+								- **Edge sync**:
+								- shearing in the direction perpendicular to the first shearing direction such that the first sheared line is mirrored in the horizontal line, we have hyperbolic rotation.
 								- The circular angle $ψ_c$ and **hyperbolic angle** $ψ$ between the radial line and the horizontal line, together with the circular angle of the first sheared line $φ$ have a nice relation:
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ)$
 								- Combining with previous relation, we have:
