@@ -870,7 +870,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- $H(ψ) = S_y(\tanh(ψ/2))⋅S_x(\sinh(ψ))⋅S_y(\tanh(ψ/2))$
 								- These are so beautiful with symmetries! 😊
 									- **H = tanh ⋅ sinh ⋅ tanh** for both triples
-									- **R = (-/+)tan ⋅ (+/-)sin ⋅ (-/+)tan** for X-T-X / Y-X-Y
+									- **R = (-/+)tan ⋅ (+/-)sin ⋅ (-/+)tan** for x-y-x / y-x-y
 								- Here $S_x(k_x), S_y(k_y)$ are X & Y shears with shear factors $k_x, k_y$ (parabolic angles), and $R(θ), H(ψ)$ are circular and hyperbolic rotation with angles $θ, ψ$ .
 							- A circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations, or 2 parabolic rotations + squeeze.
 								- Video: [Rotation by shearing](https://youtu.be/tHekokkHmlM)
