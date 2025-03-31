@@ -936,6 +936,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Before work, i contemplated the 3 types of rotations: circular, parabolic and hyperbolic. I see how the spitting of the null lines (horizons) extends the circular ratation to parabolic rotation, and then squeezes it into hyperbolic rotation: ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 				- Created ((67e299fa-4f76-482a-b586-adacb17dc064))
 				- Before sleep, in the restroom, i recalled that the hyperbolic rotation is just a plane projection (conic section) of the parabolic rotation projected onto the light cone which was shown in my very first GeoGebra applet [MixedCoords](https://www.geogebra.org/m/jeexkfrd).
+				  collapsed:: true
 					- The dual view of parabolic & hyperbolic rotations is also the dual view of projective thread and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).
 					- Ironically, i met the dual view of projective thread & function graphing (around 2018) long after the dicovery of the “mixed coordinates” (before 2015) without recognizing they are one. Moreover, the projective nature of conic sections, i.e. [“why slicing the cone”](https://www.geogebra.org/m/nknaryzz), was discovered much later, only when i studied projective geometry (2020).
 					- History of graphing of functions, loci of relations (curves), and trajectories of objects
@@ -1015,7 +1016,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- After half an hour dealing with the cough, i lay down to sleep but got sleepy for just an hour and then woke up.
 					- From then on, i has been godly awake (thức thần) after my meditation entering the “dead state”!
 					- Then i called my wife up to share with her the meditative state. I guided her to review her own state: she discovered that she had been heavy, not as “normal” as she thought. She relaxed, reviewed, and we had sex before i went to work.
-			- Friday 28 March, ...
+			- Friday 28 March, godly awake at work until 20:30
 			  id:: 67e4e16d-d58d-4189-b79c-26d2e7360046
 			  :LOGBOOK:
 			  CLOCK: [2025-03-28 Fri 09:58:59]
@@ -1026,10 +1027,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Hence, the three conic rotations are unified beautifully under the views of ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)).
 					- I also saw my urge to see with eyes the seemingly “impossible” equivalence between triple of shears and circular rotation.
 						- There, i breathed to let it go and accept such an ignorance of mine.
-			- Weekends,
+			- Weekends, mostly sleeping
 			  :LOGBOOK:
 			  CLOCK: [2025-03-31 Mon 07:56:48]
 			  CLOCK: [2025-03-31 Mon 07:56:51]
 			  :END:
+				- Recalling the godly awake experiences, i saw that “dead state” is just the Buddhist Nibbana
 				- Nibbana (niết-bàn) = complete death 😁: extinction, diệt tận, tịch diệt, viên tịch, ... hay nói nôm ra cho dễ hiểu là "chết hết" 😂
 		- ...
