@@ -1035,12 +1035,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-03-31 Mon 07:56:51]
 			  :END:
 				- Recalling the godly awake experiences, i saw that such “dead state” is just the [Buddhist Nibbāna](https://en.wikipedia.org/wiki/Nirvana_(Buddhism)).
+				  collapsed:: true
 					- Nibbāna ([Niết-bàn](https://vi.wikipedia.org/wiki/Ni%E1%BA%BFt-b%C3%A0n)) = complete death 😁: extinction, diệt tận, tịch diệt, viên tịch, ... hay nói nôm ra cho dễ hiểu là "chết hết" 😂
 					- Two times of active “dead state entrance” through meditation in the late Thursday night (early Friday morning) in this “drowning experience”:
 						- ((67dd1682-6d19-4de4-8b4b-7233d9ea41a3))
 						- ((67e62305-1f02-4945-836b-f3984e1f0e45))
-						- These times,
-					- Previous mild experience through exhaustion after 3 hours of junk scrolling:
+						- These times, beside meditation, there were still some exhaustion (from coughing) boosting the entrance into the dead state.
+					- The previous mild experience through exhaustion after 3 hours of junk scrolling:
 						- ((67b541cb-5177-4e91-be40-4126f798605b))
-					- Previously
+					- Previously, all experiences were passive through exhaustion or psychedelic drugs:
+						- Many experiences were on the trips of Ketamine, LSD, DMT and 5MEO-DMT.
+						- One notable death & resolution of ego
 		- ...
