@@ -1032,6 +1032,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-03-31 Mon 07:56:48]
 			  CLOCK: [2025-03-31 Mon 07:56:51]
 			  :END:
-				- Recalling the godly awake experiences, i saw that “dead state” is just the Buddhist Nibbana
-				- Nibbana (niết-bàn) = complete death 😁: extinction, diệt tận, tịch diệt, viên tịch, ... hay nói nôm ra cho dễ hiểu là "chết hết" 😂
+				- Recalling the godly awake experiences, i saw that such “dead state” is just the [Buddhist Nibbāna](https://en.wikipedia.org/wiki/Nirvana_(Buddhism)).
+					- Nibbāna ([Niết-bàn](https://vi.wikipedia.org/wiki/Ni%E1%BA%BFt-b%C3%A0n)) = complete death 😁: extinction, diệt tận, tịch diệt, viên tịch, ... hay nói nôm ra cho dễ hiểu là "chết hết" 😂
+					- Two times of active “dead state entrance” through meditation in the late night
 		- ...
