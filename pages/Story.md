@@ -817,7 +817,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- circular θ > parabolic φ > hyperbolic ψ
 						  id:: 67e29bdb-9bce-4cb8-b993-79aa130a1831
 							- The circular rotation is on the ((675f8a74-7fef-4e88-a65e-856f5e494bb8)), the parabolic rotation is on the ((675f8af0-7b21-4483-908c-25ce0cec02cc)), and the hyperbolic rotation is on the squeezed unwrapped circumference plane.
-							- Parabolic rotation = shearing, with **parabolic angle = shear factor** $s = \tan(φ)$
+							- Parabolic rotation = [shear](https://en.wikipedia.org/wiki/Shear_mapping), with **parabolic angle = shear factor** $s = \tan(φ)$
 							  $(x, y) → (x, \; y + s⋅x)$
 								- φ is the (circular) angle between the radial (sheared) line and the horizontal line.
 							- Wrapping $s$ around the unit circle, we have the circular rotation with **circular angle** $θ = s \mod 2π = \tan(φ) \mod 2π$.
@@ -826,8 +826,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  :LOGBOOK:
 							  CLOCK: [2025-03-25 Tue 20:47:33]--[2025-03-25 Tue 20:57:06] =>  00:09:33
 							  :END:
-								- **Area sync**: The [hyperbolic angle](https://en.wikipedia.org/wiki/Hyperbolic_angle) $ψ$ is defined to be double the area of the corresponding hyperbolic sector.
-									- Actually, this definition is the same for all conic angles agains conic sectors.
+								- **Area sync**: hyperbolic angle $ψ = s$
+									- The [hyperbolic angle](https://en.wikipedia.org/wiki/Hyperbolic_angle) $ψ$ is defined to be double the area of the corresponding hyperbolic sector.
+										- Actually, this definition is the same for all conic angles agains conic sectors.
+									- Hyperbolic rotation is a [squeeze](https://en.wikipedia.org/wiki/Squeeze_mapping) with **squeeze factor** $k = e^ψ$ which is the up-scale factor along $x = y$ and the down-scale factor along $x+y=0$.
 									- The corresponding (circular) angle $ψ_c$ between the radial (squeezed) line and the horizontal line: 
 									  $\tanh(ψ) = \tan(ψ_c)$
 								- **Edge sync**:
