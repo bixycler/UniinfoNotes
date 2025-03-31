@@ -809,9 +809,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Translation: All points in space are shifted parallelly in direction $\vec{v}$ via vector $\vec{v}⋅t$ along lines parallel to $l$.
 						- Limit: When they are shifted to infinity with $t→∞$, they all converge to the point $(dx:dy:0)$. This is how all parallel lines “converge” to the point at infinity.
 						- I.e., point at infinity is just the direction vector $\vec{v}$ of the line $l$, as well as all other lines parallel to $l$.
-					- DOING The translation by $\vec{v} = (dx:dy:0)$ is actually a **rotation** due to its [*scale invariance*](((67e1004d-1533-483b-ab39-4b91ffbedbdd))) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$].
+					- The translation by $\vec{v} = (dx:dy:0)$ is actually a **rotation** due to its [*scale invariance*](((67e1004d-1533-483b-ab39-4b91ffbedbdd))) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$].
 					  :LOGBOOK:
-					  CLOCK: [2025-03-24 Mon 13:59:25]
+					  CLOCK: [2025-03-24 Mon 13:59:25]--[2025-03-31 Mon 18:40:44] =>  172:41:19
 					  :END:
 						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping)): ((67b541c9-dbe4-4b0f-a2a8-810805bbfce8))
 						- circular θ > parabolic φ > hyperbolic ψ
@@ -884,7 +884,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt)
 							- [ConicRotations](https://www.geogebra.org/m/d67tfadb) for ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
 							- [ShearRotations](https://www.geogebra.org/m/mkwqufvk) to [compose circular & hyperbolic rotations](((67e238fb-771f-483d-a04a-badff7c7c70a)))
-							- [ConicMetricTransform](https://www.geogebra.org/m/yrzmwxqv) to transform the angle metric between el
+							- [ConicMetricTransform](https://www.geogebra.org/m/yrzmwxqv) to transform the angle metric between elliptic, parabolic, hyperbolic, through y-axis scaling
+							  id:: 67ea7d5e-1cbe-4815-984d-d843d65d4b83
 						- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
 							- radial component = scaling (multiplication, division): $⋅r$
 							- transverse component = translation (addition, subtraction): $+dφ$
@@ -1011,7 +1012,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-03-26 Wed 10:19:04]
 			  :END:
-				- Before sleep, in the restroom, i contemplated the [tranformation of conic metrics](https://www.geogebra.org/m/yrzmwxqv) through 1 axis scaling, and checked that the double shearing (along x and y) is very near but not exactly the [squeezing](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))).
+				- Before sleep, in the restroom, i contemplated the ((67ea7d5e-1cbe-4815-984d-d843d65d4b83)), and checked that the double shearing (along x and y) is very near but not exactly the [squeezing](((67e2a0e0-a6d9-4ad8-a601-24289f44d383))).
 				- The sleep was good, i only coughed in the morning, just 30 minutes before my alarm.
 			- Thursday, another weird day!
 			  :LOGBOOK:
@@ -1111,6 +1112,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ๑๓ กุมภาพันธ์ ๒๕๖๘
 						  #+END_QUOTE
 				- It's interesting that the [story of Pukkusati](((67ea1006-7d4b-4ac6-ba9e-80eaa1e9c19a))) clearly shows that both Gotama Buddha and ven. Pukkusati spent most of the night time in the [lotus position](https://en.wikipedia.org/wiki/Lotus_position) just like [master Minh Tuệ](https://en.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87)'s doing nowadays. The difference may be that in that night the Buddha could spend a little time lying down instead of sitting the whole time like master Minh Tuệ.
-			- Today, Monday, 31 March, ...
-				-
+			- Today, Monday, 31 March, i wrap up things and restart working for the company by receiving a new task.
+			  id:: 67ea0923-28b8-40c2-bf28-334a444bb109
+			  :LOGBOOK:
+			  CLOCK: [2025-03-31 Mon 18:37:09]
+			  :END:
+			-
 		- ...
