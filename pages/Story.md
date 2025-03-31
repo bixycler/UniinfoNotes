@@ -1063,9 +1063,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- mới mấy hôm trước, trong 1 chuyến tâm hành trên giường, tui cũng đã nhập định được nhờ xả: sau khi cho tự động life review... review đâu hết 3 tiếng rưỡi... thì tự nhiên nhập định hoà với vạn vật 🙂
 						- Another milder experience was after 3 hours and a half of life review in the [20th night - 21st early morning July 2021](http://tamsudoithuong.blogspot.com/2021/07/1515-hom-kia-nghe-ien-thoai-em-xong.html) within the Covid-19 lockdown.
 				- Then i recalled the impermanence even for arahants, as shown in [the case of Bāhiya](https://www.accesstoinsight.org/ati/tipitaka/kn/ud/ud.1.10.than.html).
-					- There are 3 cases of people being killed by cows with the same pattern: 
+					- There are 3 cases of people being killed by cows with the same pattern, as shown by [mikenz66 @ DhammaWheel](https://www.dhammawheel.com/viewtopic.php?t=3496#p50624): 
 					  (nghe Phật giảng (thanh văn), đốn ngộ, bò húc chết, được Phật thọ ký một trong 4 bậc thánh)
-					  https://www.dhammawheel.com/viewtopic.php?t=3496
+						- Bāhiya: [Bāhiya Sutta](https://www.accesstoinsight.org/tipitaka/kn/ud/ud.1.10.irel.html): from a “bark-cloth” to an arahant.
+						- : from a leper to a
 					- Gemini Deep Research also confirms these 3 cases are the only ones explicitly killed by cows.
 			- Today, Monday, 31 March, ...
 				-
