@@ -1045,9 +1045,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ((67b541cb-5177-4e91-be40-4126f798605b))
 					- Previously, all experiences were passive through exhaustion or psychedelic drugs:
 						- Many experiences were on the trips of Ketamine, LSD, DMT and 5MEO-DMT.
-						- One notable [death & dissolution of ego](https://en.wikipedia.org/wiki/Ego_death) was thanks to the exhaustion after a week of stubborn trial to build the “quicklog” system. The experience coincided with the election day 23rd May 2021.
+						- One notable [death & dissolution of ego](https://en.wikipedia.org/wiki/Ego_death) was thanks to the exhaustion after a week of stubborn trial to build the “quicklog” system and the last night sleepless from Saturday (22th May) to Sunday (23rd). The experience coincided with the election day 23rd May 2021.
 							- Trong nhật ký thì mình chỉ nhắc đến nó trong một vế trong một câu vào dịp Covid-19, [ngày 30/7/2021](http://tamsudoithuong.blogspot.com/2021/07/200-hom-thu-2-minh-lo-thuc-tu-toi-hom.html) mà thôi:
 							  > ... như cái chứng nghiệm "nhập định xả hôm bầu cử" tháng trước vậy.
-							-
-						- Another milder experience was after 3 hours hand a half of life review on within the Covid-19 lockdown
+							- Chat với Huy cuối tháng 7:
+								- Mới hồi bầu cử tháng trước đó, tui viết một cái trang web nhỏ thôi "quicklog" nhưng gặp nhiều vấn đề ngoài dự tính của mình... nó cuốn mình đi...
+								- lần này nó chỉ cuốn tui đi có 1 đêm Thứ 7 đến sáng CN thôi, sáng đó tui vẫn đủ sức đi bầu cử nữa mà...
+								- nhưng buông ra, nằm vật xuống ngủ tới chiều... lúc mở mắt ra, à ko, tỉnh bên trong nhưng còn nhắm mắt... thì tui chứng nghiệm sự hoà nhập với vạn vật: cảm nhận từng rung động nhỏ, bên ngoài cũng như bên trong, như mỗi lỗ chân lông là một con mắt, một cái tai vậy
+								- lúc đó mình hoàn toàn ko còn cái tôi nào hết, những ý muốn, ý định chỉ là những ý tồn tại ở đó thôi, nó ko phải là mình
+								- những cảm nhận, những cái thấy biết hiện tại đến từ bên trong lẫn bên ngoài ... có thể gọi là mình, nhưng thực ra cũng ko có cảm giác "mình" trong đó, nó chỉ là những luồng thông tin, như những làn gió, những dòng nước vậy thôi
+								- khi mình nhập vào một làn gió thì mình trở thành làn gió đó vậy
+								- thế là để ngồi dậy, tui nhập tâm vào thân thể này và vào ý định ngồi dậy
+								- lúc đó mình làm cái gì cũng cảm nhận rõ, thấy rõ những luồng tín hiệu từ trên xuống chỉ đạo ra sao, phản ứng dưới cơ thể thế nào, bị cuốn vào ngoại cảnh và vào những ý muốn của mình thế nào, v.v.
+								- kiểu như mình cho chạy trương trình trong mode debug vậy
+								- ==> Đó là chứng nghiệm đầu tiên nhắc tui quay lại hướng tập "xả" dạo này
+								- hồi đó giờ tui "debug" thân tâm này toàn bằng sự tập trung quan sát, tui nhập định cũng bằng sự tập trung tư tưởng
+								- mới mấy hôm trước, trong 1 chuyến tâm hành trên giường, tui cũng đã nhập định được nhờ xả: sau khi cho tự động life review... review đâu hết 3 tiếng rưỡi... thì tự nhiên nhập định hoà với vạn vật 🙂
+						- Another milder experience was after 3 hours and a half of life review in the [20th night - 21st early morning July 2021](http://tamsudoithuong.blogspot.com/2021/07/1515-hom-kia-nghe-ien-thoai-em-xong.html) within the Covid-19 lockdown.
 		- ...
