@@ -907,6 +907,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Going to bed, i'd experienced the full process of drowning then passed away.
 					- In [the previous time](((67b541d0-8a10-4eae-8370-8ebab4dd7300))) as well as the last days, the process was not clear because of the sleepiness at the end.
 					- This time, being awake like a god (“thức thần”), i experienced the full range of the cough reflex, the wrestle, and then the liberation through the death.
+					  id:: 67dd1682-6d19-4de4-8b4b-7233d9ea41a3
 					- I experimented both mehods of shifting focus: focus on the imaginations, and focus on the death.
 			- Today, Friday 21 March, after 4 days off, i went to company in order to attend a meeting, but leader Quân is off again! So i just write these stories down.
 			  id:: 67dcf5de-9861-4ce5-8d1e-1b311580574a
@@ -1015,6 +1016,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The cough reflex kicked in and persisted... I meditated to calm it down.
 					- After half an hour dealing with the cough, i lay down to sleep but got sleepy for just an hour and then woke up.
 					- From then on, i has been godly awake (thức thần) after my meditation entering the “dead state”!
+					  id:: 67e62305-1f02-4945-836b-f3984e1f0e45
 					- Then i called my wife up to share with her the meditative state. I guided her to review her own state: she discovered that she had been heavy, not as “normal” as she thought. She relaxed, reviewed, and we had sex before i went to work.
 			- Friday 28 March, godly awake at work until 20:30
 			  id:: 67e4e16d-d58d-4189-b79c-26d2e7360046
@@ -1034,5 +1036,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- Recalling the godly awake experiences, i saw that such “dead state” is just the [Buddhist Nibbāna](https://en.wikipedia.org/wiki/Nirvana_(Buddhism)).
 					- Nibbāna ([Niết-bàn](https://vi.wikipedia.org/wiki/Ni%E1%BA%BFt-b%C3%A0n)) = complete death 😁: extinction, diệt tận, tịch diệt, viên tịch, ... hay nói nôm ra cho dễ hiểu là "chết hết" 😂
-					- Two times of active “dead state entrance” through meditation in the late night
+					- Two times of active “dead state entrance” through meditation in the late Thursday night (early Friday morning) in this “drowning experience”:
+						- ((67dd1682-6d19-4de4-8b4b-7233d9ea41a3))
+						- ((67e62305-1f02-4945-836b-f3984e1f0e45))
+					- Previous mild experience through exhaustion after 3 hours of junk scrolling:
+						- ((67b541cb-5177-4e91-be40-4126f798605b))
+					-
 		- ...
