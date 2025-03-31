@@ -1039,7 +1039,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Two times of active “dead state entrance” through meditation in the late Thursday night (early Friday morning) in this “drowning experience”:
 						- ((67dd1682-6d19-4de4-8b4b-7233d9ea41a3))
 						- ((67e62305-1f02-4945-836b-f3984e1f0e45))
+						- These times,
 					- Previous mild experience through exhaustion after 3 hours of junk scrolling:
 						- ((67b541cb-5177-4e91-be40-4126f798605b))
-					-
+					- Previously
 		- ...
