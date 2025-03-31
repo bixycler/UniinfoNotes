@@ -1063,14 +1063,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- mới mấy hôm trước, trong 1 chuyến tâm hành trên giường, tui cũng đã nhập định được nhờ xả: sau khi cho tự động life review... review đâu hết 3 tiếng rưỡi... thì tự nhiên nhập định hoà với vạn vật 🙂
 						- Another milder experience was after 3 hours and a half of life review in the [20th night - 21st early morning July 2021](http://tamsudoithuong.blogspot.com/2021/07/1515-hom-kia-nghe-ien-thoai-em-xong.html) within the Covid-19 lockdown.
 				- Then i recalled the impermanence even for arahants, as shown in [the case of Bāhiya](https://www.accesstoinsight.org/ati/tipitaka/kn/ud/ud.1.10.than.html).
+				  collapsed:: true
 					- There are 3 cases of people being killed by cows with the same pattern, as shown by [mikenz66 @ DhammaWheel](https://www.dhammawheel.com/viewtopic.php?t=3496#p50624): 
-					  listened to Buddha's teachings ([hearer](https://en.wikipedia.org/wiki/%C5%9Ar%C4%81vaka)), suddenly enlightened, gored to death by a cow, then prophesied by the Buddha to enter one of the [four stages of enlightment](https://en.wikipedia.org/wiki/Fruits_of_the_noble_path).
+					  + listened to Buddha's teachings ([hearer](https://en.wikipedia.org/wiki/%C5%9Ar%C4%81vaka)), 
+					  + suddenly enlightened, 
+					  + gored to death by a cow, then 
+					  + prophesied by the Buddha to enter one of the [four stages of enlightment](https://en.wikipedia.org/wiki/Fruits_of_the_noble_path).
 					  (nghe Phật giảng (thanh văn), đốn ngộ, bò húc chết, được Phật thọ ký một trong 4 bậc thánh.)
 						- Bāhiya: [Bāhiya Sutta](https://suttacentral.net/ud1.10/en/sujato) ([vi.](https://theravada.vn/kinh-bahiya/)): from a “bark-wearer” to an [arahant](https://en.wikipedia.org/wiki/Arhat).
-							- In the second version of [Bāhiya Sutta](https://suttacentral.net/sn47.15/en/sujato) ([vi.](https://suttacentral.net/sn47.15/vi/minh_chau)), he attained arahantship through practicing [Four Foundations of Mindfulness](https://en.wikipedia.org/wiki/Satipatthana) and was not killed. In Commentaries, this person is named “Bāhika” to distinguish from the “Bāhiya Dāru-ciriya” (Bāhiya the bark-wearer) who was killed by a cow.
+						  collapsed:: true
+							- In the second version of [Bāhiya Sutta](https://suttacentral.net/sn47.15/en/sujato) ([vi.](https://suttacentral.net/sn47.15/vi/minh_chau)), he attained arahantship through practicing [four foundations of mindfulness](https://en.wikipedia.org/wiki/Satipatthana) and was not killed. In Commentaries, this person is named “Bāhika” to distinguish from the “Bāhiya Dāru-ciriya” (Bāhiya the bark-wearer) who was killed by a cow.
+							- In the third version of [Bāhiya Sutta](https://suttacentral.net/sn35.89/en/sujato) ([vi.](https://suttacentral.net/sn35.89/vi/minh_chau)), he attained arahantship through observing [three marks of existence](https://en.wikipedia.org/wiki/Three_marks_of_existence) and was not killed.
 						- Pukkusati: [Dhātu-vibhaṅga Sutta](https://suttacentral.net/mn140/en/sujato) ([vi.](https://suttacentral.net/mn140/vi/minh_chau)): from a “homeless clansman” (with faith in Buddha) to a [non-returner](https://en.wikipedia.org/wiki/An%C4%81g%C4%81mi).
 						- Kuṭṭhi: [Kuṭṭhi Sutta](https://suttacentral.net/ud5.3/en/sujato): from a “leper” to a [stream-enterer](https://en.wikipedia.org/wiki/Sot%C4%81panna) or [once-returner](https://en.wikipedia.org/wiki/Sakadagami).
 					- Gemini Deep Research also confirms these 3 cases are the only ones explicitly killed by cows.
+				- There was a news related to the monk group of master Minh Tuệ stating that
 			- Today, Monday, 31 March, ...
 				-
 		- ...
