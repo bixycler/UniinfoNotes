@@ -839,14 +839,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  collapsed:: true
 									- While the **shear** is *usually thought as unidirectional*, its **bidirectional** nature, i.e. rotating around the origin, is stressed with the pair of lines (a degenerate parabola) $x^2 = r^2$ instead of single lines $x = r$.
 									- Transforming the complex plane, we have similar grids (some with distortions):
-										- Cartesian grid $(u+iv)$ is the standard complex plane.
-										- Polar grid $\exp(\ln u+iv)$ has circles expanding uniformly against $u$.
-											- [Log-polar grid](https://en.wikipedia.org/wiki/Log-polar_coordinates) $\exp(u+iv)$ has circles expanding exponentially against $u$, i.e. the coordinate $u$ is the logarithm of the distance.
-										- Hyperbolic grid $\sqrt{u^2+iv^2}$ has hyperbolas spacing uniformly against $u, v$.
-											- Squared hyperbolic grid $\sqrt{u+iv}$ has hyperbolas spacing in square roots of $u, v$.
+										- **Cartesian grid** $(u+iv)$ is the standard complex plane.
+										- **Polar grid** $\exp(\ln u+iv)$ has circles expanding uniformly against $u$.
+											- The [log-lin](https://en.wikipedia.org/wiki/Semi-log_plot#log%E2%80%93linear_plot) grid $(\ln u+iv)$ is useful for data with exponential relationships.
+											- [Log-polar grid](https://en.wikipedia.org/wiki/Log-polar_coordinates) $\exp(u+iv)$ has circles expanding exponentially against $u$, i.e., the coordinate $u$ is the logarithm of the radius of the corresponding circle on the grid.
+										- **Hyperbolic grid** $\sqrt{u^2+iv^2}$ has hyperbolas spacing uniformly against $u, v$.
+											- **Squared hyperbolic grid** $\sqrt{u+iv}$ has hyperbolas spacing in square roots of $u, v$, i.e., coordinates $u, v$ are squares of the distance from the corresponding hyperbola on the grid to the origin.
 									- Notes:
 										- Don't confuse the Cartesian grid $(u+iv)$ with the [“parabolic grid”](https://en.wikipedia.org/wiki/Parabolic_coordinates) $(u+iv)^2$.
-										- The [“hyperbolic coordinates”](https://en.wikipedia.org/wiki/Hyperbolic_coordinates) is may be defined with the different “vertical lines” = radial lines $x/y = e^{2r}$, instead of hyperbolas $(x^2 - y^2)^2 = r^4$. This grid with radials is not orthogonal and is used in relativity physics.
+										- The [“radial hyperbolic coordinates”](https://en.wikipedia.org/wiki/Hyperbolic_coordinates) is different from the “orthogonal hyperbolic coordinates” above in that the “vertical lines” are radial lines $x/y = e^{2r}$, instead of hyperbolas $(x^2 - y^2)^2 = r^4$. This grid with radials is not orthogonal and is used in relativity physics.
 										- It's interesting that as late as 2015, there was still a paper to “present and construct a new kind of orthogonal coordinate system, hyperbolic coordinate system”: [Hyperbolic-symmetry vector fields](https://www.researchgate.net/publication/286403709_Hyperbolic-symmetry_vector_fields).
 							- The conic rotations are special cases of the Lie group [SL(2,ℝ)](https://en.wikipedia.org/wiki/SL2(R)).
 							  collapsed:: true
