@@ -1077,16 +1077,31 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Pukkusati: [Dhātu-vibhaṅga Sutta](https://suttacentral.net/mn140/en/sujato) ([vi.](https://suttacentral.net/mn140/vi/minh_chau)): from a “homeless clansman” (with faith in Buddha) to a [non-returner](https://en.wikipedia.org/wiki/An%C4%81g%C4%81mi).
 						- Kuṭṭhi: [Kuṭṭhi Sutta](https://suttacentral.net/ud5.3/en/sujato): from a “leper” to a [stream-enterer](https://en.wikipedia.org/wiki/Sot%C4%81panna) or [once-returner](https://en.wikipedia.org/wiki/Sakadagami).
 					- Gemini Deep Research also confirms these 3 cases are the only ones explicitly killed by cows.
-				- There was a news by Vietnamese online news sites related to the monk group of master Minh Tuệ stating that “the National Office Of Buddhism of Thailand issued the nationwide notice number "พศ 0007/1442" (issued on 13rd Feb) regarding a group of pedestrians dressed as monks.” But no such notice can be found in Thai sites.
-					- Why not around 13rd Feb but now, a month and a half later, did
+				- Recently, there was a news by Vietnamese online news sites related to the monk group of master Minh Tuệ stating that “the National Office Of Buddhism of Thailand issued the nationwide notice number "พศ 0007/1442" (issued on 13rd Feb) regarding a group of pedestrians dressed as monks.” But no such notice can be found in Thai sites.
+				  collapsed:: true
+					- Why not around 13rd Feb but now, a month and a half later, did this "notice" emerged?! 🤔
 					- Nothing's found at `onab.go.th`, the site of the [National Office Of Buddhism of Thailand](onab.go.th).
-					- Even Gemini Deep Search cannot find such notice anywhere!
+						- Even Gemini Deep Search cannot find such notice anywhere! 😕
 					- There are only Vietnamese sites publishing the same news from Giác Ngộ Online in Vietnamese and in Thai:
 						- [Giác Ngộ Online](https://giacngo.vn/van-phong-phat-giao-quoc-gia-thai-lan-thong-bao-toan-quoc-ve-nhom-bo-hanh-khat-thuc-an-mac-giong-tu-si-post75294.html)
 						- [Vietnam.vn in Thai](https://www.vietnam.vn/th/van-phong-phat-giao-quoc-gia-thai-lan-thong-bao-ve-nhom-bo-hanh-khat-thuc-an-mac-giong-tu-si)
 						- [Tuổi Trẻ Online](https://tuoitre.vn/van-phong-phat-giao-quoc-gia-thai-lan-thong-bao-ve-nhom-bo-hanh-khat-thuc-an-mac-giong-tu-si-20250329200044848.htm)
 						- [Người Lao Động](https://nld.com.vn/van-phong-phat-giao-quoc-gia-thai-lan-thong-bao-ve-nhom-bo-hanh-khat-thuc-an-mac-giong-tu-si-196250329203650753.htm)
 						- [Báo Mới](https://baomoi.com/van-phong-phat-giao-quoc-gia-thai-lan-thong-bao-toan-quoc-ve-nhom-bo-hanh-khat-thuc-an-mac-giong-tu-si-c51842254.epi)
+						- ...
+					- Gemini even hallucinated a hole content of such "notice":
+						- #+BEGIN_QUOTE
+						  เรื่อง กลุ่มภิกษุสงฆ์แต่งกายเลียนแบบพระ (hallucinated)
+						  
+						  ประกาศ สำนักงานพระพุทธศาสนาแห่งชาติ
+						  เรื่อง กลุ่มภิกษุสงฆ์แต่งกายเลียนแบบพระ
+						  ตามที่ปรากฏข่าวสารในสื่อต่างๆ เกี่ยวกับกลุ่มบุคคลที่แต่งกายคล้ายพระภิกษุสงฆ์ เดินทางธุดงค์ และมีกลุ่มยูทูบเบอร์ชาวเวียดนามติดตามถ่ายทำ เผยแพร่ทางสื่อออนไลน์ต่างๆ นั้น
+						  สำนักงานพระพุทธศาสนาแห่งชาติ ขอเรียนว่า กลุ่มบุคคลดังกล่าว ไม่ได้อยู่ในระบบการปกครองคณะสงฆ์ไทย และมิใช่พระภิกษุสงฆ์ที่ได้รับการรับรองจากรัฐบาลเวียดนามแต่อย่างใด
+						  การกระทำดังกล่าว ได้สร้างความสับสนแก่ประชาชน และอาจส่งผลกระทบต่อภาพลักษณ์ของพระพุทธศาสนาในประเทศไทย
+						  จึงขอแจ้งให้ทราบโดยทั่วกัน และขอความร่วมมือหน่วยงานที่เกี่ยวข้อง ตรวจสอบและดำเนินการตามอำนาจหน้าที่ เพื่อป้องกันมิให้เกิดความเสียหายต่อพระพุทธศาสนา และความสงบเรียบร้อยของสังคม
+						  สำนักงานพระพุทธศาสนาแห่งชาติ
+						  ๑๓ กุมภาพันธ์ ๒๕๖๘
+						  #+END_QUOTE
 			- Today, Monday, 31 March, ...
 				-
 		- ...
