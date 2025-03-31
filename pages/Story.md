@@ -1106,7 +1106,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  สำนักงานพระพุทธศาสนาแห่งชาติ
 						  ๑๓ กุมภาพันธ์ ๒๕๖๘
 						  #+END_QUOTE
-				- It's interesting that the [story of Pukkusati](((67ea1006-7d4b-4ac6-ba9e-80eaa1e9c19a))) clearly shows that both Gotama Buddha and ven. Pukkusati did “sleep” in the [lotus position](https://en.wikipedia.org/wiki/Lotus_position) just like [master Minh Tuệ](https://en.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87)'s doing nowadays.
+				- It's interesting that the [story of Pukkusati](((67ea1006-7d4b-4ac6-ba9e-80eaa1e9c19a))) clearly shows that both Gotama Buddha and ven. Pukkusati spent most of the night time in the [lotus position](https://en.wikipedia.org/wiki/Lotus_position) just like [master Minh Tuệ](https://en.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87)'s doing nowadays. The difference may be that in that night the Buddha could spend a little time lying down instead of sitting the whole time like master Minh Tuệ.
 			- Today, Monday, 31 March, ...
 				-
 		- ...
