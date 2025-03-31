@@ -1064,10 +1064,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Another milder experience was after 3 hours and a half of life review in the [20th night - 21st early morning July 2021](http://tamsudoithuong.blogspot.com/2021/07/1515-hom-kia-nghe-ien-thoai-em-xong.html) within the Covid-19 lockdown.
 				- Then i recalled the impermanence even for arahants, as shown in [the case of Bāhiya](https://www.accesstoinsight.org/ati/tipitaka/kn/ud/ud.1.10.than.html).
 					- There are 3 cases of people being killed by cows with the same pattern, as shown by [mikenz66 @ DhammaWheel](https://www.dhammawheel.com/viewtopic.php?t=3496#p50624): 
-					  listened to Buddha's teachings ([hearer](https://en.wikipedia.org/wiki/%C5%9Ar%C4%81vaka)), suddenly enlightened, gored to death by a cow, then prophesied by the Buddha to become one of the [four stages of ](https://en.wikipedia.org/wiki/Fruits_of_the_noble_path)
-					  (nghe Phật giảng (thanh văn), đốn ngộ, bò húc chết, được Phật thọ ký một trong 4 bậc thánh)
+					  listened to Buddha's teachings ([hearer](https://en.wikipedia.org/wiki/%C5%9Ar%C4%81vaka)), suddenly enlightened, gored to death by a cow, then prophesied by the Buddha to enter one of the [four stages of enlightment](https://en.wikipedia.org/wiki/Fruits_of_the_noble_path).
+					  (nghe Phật giảng (thanh văn), đốn ngộ, bò húc chết, được Phật thọ ký một trong 4 bậc thánh.)
 						- Bāhiya: [Bāhiya Sutta](https://www.accesstoinsight.org/tipitaka/kn/ud/ud.1.10.irel.html): from a “bark-cloth” to an [arahant](https://en.wikipedia.org/wiki/Arhat).
-						- Pukkusati: [Dhatu-vibhanga Sutta](https://www.accesstoinsight.org/tipitaka/mn/mn.140.than.html): from a “outside clansman” to a [non-returner](https://en.wikipedia.org/wiki/An%C4%81g%C4%81mi).
+						- Pukkusati: [Dhatu-vibhanga Sutta](https://suttacentral.net/mn140/en/bodhi?lang=en): from a “outside clansman” to a [non-returner](https://en.wikipedia.org/wiki/An%C4%81g%C4%81mi).
 						- Kuṭṭhi: [Kuṭṭhi Sutta](https://www.accesstoinsight.org/tipitaka/kn/ud/ud.5.03.than.html): from a “leper” to a [stream-enterer](https://en.wikipedia.org/wiki/Sot%C4%81panna) or [once-returner](https://en.wikipedia.org/wiki/Sakadagami).
 					- Gemini Deep Research also confirms these 3 cases are the only ones explicitly killed by cows.
 			- Today, Monday, 31 March, ...
