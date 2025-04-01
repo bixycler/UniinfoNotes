@@ -138,12 +138,17 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  collapsed:: true
 			  display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/), and return (either in the return code or on standard output) the users input.
 				- Return values:
-					-
-				- `--notification`
-				  similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d))
+					- Command exit code: {`0`, `1`, `5`} for {OK, Cancel, timeout}
+					- Print to `stdout` the value user entered or chose.
 				- Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!
 				  id:: 67d3a821-ed1c-48d5-a935-bfab8a57cd8e
 					- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
+				- Message dialogs `--{info,question,warning,error}` with icon
+					- Icon: `--window-icon`, `--icon-name`
+				- Input dialogs
+					-
+				- `--notification`
+				  similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d))
 				-
 		- file management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e
