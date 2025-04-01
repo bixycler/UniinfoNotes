@@ -1540,7 +1540,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  :LOGBOOK:
 		  CLOCK: [2024-07-15 Mon 11:07:42]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) https://wiki.archlinux.org/title/XDG_Base_Directory
+			- ((665359c0-a89a-41b5-9f28-503f79107a08))  https://wiki.archlinux.org/title/XDG_Base_Directory
+		- Standard Icon Names
+		  id:: 67eb7908-267d-4091-840f-eaf405632317
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://specifications.freedesktop.org/icon-naming-spec/latest/#names
 	- ### GNOME Desktop
 	  id:: 66b1cfa4-808f-407c-bf5a-b93812604b5d
 		- GNOME Shell
@@ -1622,7 +1625,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- `/usr/share/icons/`
 		  collapsed:: true
 			- Gnome: `/usr/share/icons/gnome/`
-			- Default Gnome (Tango) icons: [wikimedia](https://commons.wikimedia.org/wiki/GNOME_Desktop_icons)
+			- Default Gnome (Tango) icons using ((67eb7908-267d-4091-840f-eaf405632317)): [shown on wikimedia](https://commons.wikimedia.org/wiki/GNOME_Desktop_icons)
 	- ### Wayland
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
 		- [XWayland](https://wayland.freedesktop.org/xserver.html)
