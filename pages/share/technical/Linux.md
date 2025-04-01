@@ -1627,6 +1627,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Gnome: `/usr/share/icons/gnome/`
 			- Humanity: `/usr/share/icons/Humanity/`
 			- Yaru: default theme for Ubuntu
+				- `Yaru/scalable/`: `*-symbolic.svg` are [symbolic icons](https://wiki.gnome.org/Design/OS/SymbolicIcons), mostly-monochrome, used
 			- Default Gnome (Tango) icons using ((67eb7908-267d-4091-840f-eaf405632317)): [shown on wikimedia](https://commons.wikimedia.org/wiki/GNOME_Desktop_icons)
 	- ### Wayland
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
