@@ -5532,10 +5532,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `![image](../assets/path/to/image){:width 111, :height 222}` displays the image in place.
 				- `![text file](../assets/path/to/file)` opens the text file in `Journal` window.
 				- `![PDF file](../assets/path/to/PDF)` opens the PDF file in a side pane.
+				- `{{embed ((UUID))}}` displays the full block [referenced](((667d2689-4ce0-4c79-b82a-25b0bba87d39))) by the UUID, including the ((66faa5f9-1da8-40c1-a040-7490fbfdc3bb)).
 				- `{{video https://youtu.be/hash}}` displays video in place.
 					- However, YouTube video cannot be played in place due to the lack of user account in the isolated Electron profile.
 					  > Sign in to confirm you’re not a bot
-				- `{{embed ((UUID))}}` displays the full block re
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
 		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  collapsed:: true

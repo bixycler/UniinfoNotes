@@ -152,8 +152,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `warning-small-symbolic`: ![warning-small-symbolic.svg](../assets/Linux/GNOME/icons/warning-small-symbolic.svg){:width 32}
 							- `dialog-warning`: ![dialog-warning.png](../assets/Linux/GNOME/icons/dialog-warning.png){:width 32}
 							- `dialog-error`: ![dialog-error.png](../assets/Linux/GNOME/icons/dialog-error.png){:width 32}
-				- Input dialogs
-					-
+				- `--{entry,password,scale}` are input dialogs for user to enter text or a numeric value in a scale.
+				- `--{list,calendar,color-selection,file-selection}` are selection dialogs for user to choose items.
+				-
 				- `--notification`
 				  similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d))
 				-
