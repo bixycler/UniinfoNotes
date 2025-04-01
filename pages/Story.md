@@ -1076,6 +1076,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- mới mấy hôm trước, trong 1 chuyến tâm hành trên giường, tui cũng đã nhập định được nhờ xả: sau khi cho tự động life review... review đâu hết 3 tiếng rưỡi... thì tự nhiên nhập định hoà với vạn vật 🙂
 						- Another milder experience was after 3 hours and a half of life review in the [20th night - 21st early morning July 2021](http://tamsudoithuong.blogspot.com/2021/07/1515-hom-kia-nghe-ien-thoai-em-xong.html) within the Covid-19 lockdown.
 				- Then i recalled the impermanence even for arahants, as shown in [the case of Bāhiya](https://www.accesstoinsight.org/ati/tipitaka/kn/ud/ud.1.10.than.html).
+				  collapsed:: true
 					- There are 3 cases of people being killed by cows with the same pattern, as shown by [mikenz66 @ DhammaWheel](https://www.dhammawheel.com/viewtopic.php?t=3496#p50624): 
 					  + listened to Buddha's teachings ([hearer](https://en.wikipedia.org/wiki/%C5%9Ar%C4%81vaka)), 
 					  + suddenly enlightened, 
@@ -1121,7 +1122,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-03-31 Mon 18:37:09]
 			  :END:
-				- Despite the mucus being clear and thin, i still got some cough in the middle of the sleep.
+				- Despite the mucus being clear and thin, i still got some coughs in the middle of the sleep.
+			- Tuesday, 1st April, ...
+			  id:: 67eb5587-1606-468c-a728-c3ccfb23e561
+			  :LOGBOOK:
+			  CLOCK: [2025-04-01 Tue 09:55:06]
+			  :END:
+				- At the riverside, i reviewed
+				  :LOGBOOK:
+				  CLOCK: [2025-04-01 Tue 09:55:06]
+				  :END:
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
