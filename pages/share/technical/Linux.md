@@ -1631,6 +1631,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  id:: 66c70166-889c-419e-8fd0-79d404e63e00
 					  the order of launching determines which terminal to be placed where.
 		- `/usr/share/icons/`
+		  id:: 67eb7601-ab2c-41df-a42c-84a77a88ec08
 		  collapsed:: true
 			- Default Gnome (Tango) icons using ((67eb7908-267d-4091-840f-eaf405632317)): [shown on wikimedia](https://commons.wikimedia.org/wiki/GNOME_Desktop_icons)
 			- Yaru: default theme for Ubuntu

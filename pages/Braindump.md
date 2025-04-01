@@ -495,6 +495,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-04-01 Tue 11:05:50]
 		  :END:
+			- But first, it's taken a long time for me to update ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) and [GNOME icons](((67eb7601-ab2c-41df-a42c-84a77a88ec08))). There i installed `Icon Browser` (not GTK+ Icon Browser) to check the current icons used
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
