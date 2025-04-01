@@ -714,7 +714,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Another interesting paper about [Quantum 'yin-yang' shows two photons being entangled in real-time](https://www.livescience.com/physics-mathematics/quantum-physics/quantum-yin-yang-shows-two-photons-being-entangled-in-real-time): [Interferometric imaging of amplitude and phase of spatial biphoton states](https://www.nature.com/articles/s41566-023-01272-3)
 			  collapsed:: true
 				- ![Quantum-yin-yang.jpg](../assets/Will/story/2025-Mar/Quantum-yin-yang.jpg)
-		- The second experience of drowning via cough reflex
+		- The second experience of drowning via cough reflex, from 13rd March to April
 		  id:: 67dcc012-44d3-4041-b17a-0ef201b3ff6c
 		  collapsed:: true
 		  :LOGBOOK:
@@ -733,7 +733,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Saturday, 15 March, with meditation, i shifted the sore throat to phlegm.
 			- Sunday, the phlegm seemed to be under control. From 18:00, i took 1 tab of 200μg LSD to see what will be seen while i'm sick.
 				- There's nothing strange.
-				- In stead of deeper meditation into my lung as i expected, the trip let me go around the overview circle where this sickness is just an essential part. So just enjoy it, enjoy the caugh, no need to take it seriously.
+				- In stead of deeper meditation into my lungs as i expected, the trip let me go around the overview circle where this sickness is just an essential part. So just enjoy it, enjoy the caugh, no need to take it seriously.
 				- Next day (Monday), instead of going to hospital, i decided to share this view on liberation and about "the ultimate result is sickness and dead" with leader Quân.
 				- I went to bed to relax my back, where i saw that "just shift the (inner deep) focus, the cough will subside."
 			- Monday, i went to company to wrap up the "Java heap" task with Mr. Phương, and returned right in that morning because leader Quân was off.

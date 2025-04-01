@@ -190,303 +190,307 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  :LOGBOOK:
 				  CLOCK: [2025-02-11 Tue 12:07:08]
 				  :END:
-	- ### February
-	  id:: 67aac38f-1c60-42e9-a8c5-c262d11a82f0
-	  collapsed:: true
-		- We're witnessing the [braindumping](((db954501-95d0-46e2-b1fc-39b6a966300e))) and [current stories](((6788f004-d3df-41d4-afc8-c8c5ea52c51c))) and [current stasks](((677630fe-ea99-436f-b39f-8bd2295e2eaf))) stacking up!
-		  id:: 67aabd5c-5846-4b6d-84bd-8be5034dd958
+		- ### February
+		  id:: 67aac38f-1c60-42e9-a8c5-c262d11a82f0
 		  collapsed:: true
-			- Too many unfinished stuffs!
-			  id:: 67a5cfdd-d3b3-491b-a7ba-febdc09dca95
-				- ((678dbff1-19ea-47c5-8794-2638d53ee7dd))
-				- ((678df0f0-20d2-4995-bfc2-0b953970469d))
-				- ((67938fc1-3094-4558-bc88-07b68ff64298))
-				- ((67a035a8-f826-4b89-8eb4-3d2cd679dd1f))
-				- ((67a5d049-d7a3-4a23-baa6-5261a409c694))
-				- ((67764f3d-c6b3-4f00-a53f-ec4dab0920f9))
-				- ((6772a6c7-f434-4911-9fa2-939b8db20c42))
-			- This is the very common theme in my life, but undocumented until now.
-			- Switching from depth-first traversal ([duck dive](((67714850-43c0-4c7f-8b50-838e014b06e0)))) to breadth-first traversal has resulted in ((67a5cfdd-d3b3-491b-a7ba-febdc09dca95))
-			  id:: 67a5d140-31e4-451d-a8ea-33fa6927ce99
-				- This ***fragmentation*** is what i've been scared of due to my ((6678d594-9819-4624-abd6-d4ec62b3874f)).
-				- This problem has been foreseen long ago but no solution has been found.
-				- With the help of this documenation & task tracking system, i hope that we can find some way to deal with it!
-			- DONE Now, i'm sorting & wrapping them up...
-			  id:: 67a5dcde-4189-4626-8396-61577b6906a4
-			  :LOGBOOK:
-			  CLOCK: [2025-02-07 Fri 17:14:16]--[2025-02-10 Mon 13:01:41] =>  67:47:25
-			  :END:
-				- Today, Feb 10th, The last 2 items have been far away in my mind:
-					- Nearer thanks to documented contents and a long time focusing on it before: ((678dbff1-19ea-47c5-8794-2638d53ee7dd))
-						- DONE So, i'm resolving this first.
-						  :LOGBOOK:
-						  CLOCK: [2025-02-10 Mon 11:34:28]
-						  CLOCK: [2025-02-10 Mon 11:34:31]--[2025-02-10 Mon 13:00:52] =>  01:26:21
-						  :END:
-					- Farther, no docs, no concrete "story" remaining in my mind, just the general ideas of it: ((678df0f0-20d2-4995-bfc2-0b953970469d))
-						- And leave this in Brainstorming.
-		- In the course of trying various LLMs, i'm touching various parts of Unïnfo begging for updates...
-		  id:: 67a035a8-f826-4b89-8eb4-3d2cd679dd1f
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-04 Tue 10:12:30]
-		  :END:
-			- I'm seeing a dense jungle ahead...
-				- Updating these terms must take time...
-				- In my history, such blooming of ideas has had me bogged down a lot.
-			- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
-			- Team leader Quân has just visited asking for Tết holiday and my work 😁!
-			- Today, 6 days after [the first braindump](((67a035a8-f826-4b89-8eb4-3d2cd679dd1f))), i've done trying various LLMs with a brief of ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
-			  :LOGBOOK:
-			  CLOCK: [2025-02-10 Mon 09:57:06]
-			  CLOCK: [2025-02-10 Mon 09:57:09]--[2025-02-10 Mon 10:00:23] =>  00:03:14
-			  :END:
-			- The "various parts of Unïnfo begging for updates" have been gone far from my mind...
-			- So just flush this braindump away, now!
-		- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
-		  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
-			- ⇒ Put it in ((67a963d9-e7d3-4e46-a608-24059d730f4a))
-		- ((67a5dcde-4189-4626-8396-61577b6906a4))
-		  id:: 67a5dd00-f5cf-4e51-9ea1-2fea15d3595a
-		- Now, i'm wrapping the WIPs up for [a big merge commit](((67164cc1-e500-4889-9b6d-12d8dd7fc029))): `Various stuffs all over the place: Technical stuffs, Unïnfo, Life stories`
-		  collapsed:: true
-			- in `log`: `302bec3f`
-			- in `main`: `6d48b4b3`
-			- published in `gh-pages`: `81c9e3b8`
-		- Oh i've forgotten that we've been in February
-		  :LOGBOOK:
-		  CLOCK: [2025-02-11 Tue 10:32:17]
-		  :END:
-		  ⇒ Just cut some braindumps into ((67aac38f-1c60-42e9-a8c5-c262d11a82f0)) (February block is at the same level with ((db954501-95d0-46e2-b1fc-39b6a966300e)))
-		  ⇒ Put ((677e7eda-0c5e-413a-8c08-3a1d39352ba9)) into ((67760c3e-10a7-4621-8623-383f44bdaf3c))
-		- Let's remember to add date into braindumps using `/Today`, like “Tue, 2025/02/11”, as well as timestamp it with `Alt` `Enter`
-		  id:: 67aac5fc-3591-43a1-a283-f51620f8035e
-		  :LOGBOOK:
-		  CLOCK: [2025-02-11 Tue 10:38:38]
-		  :END:
-		- ((678e1c3f-6202-45aa-8527-f4bdad9927b9))... is object or subject?!
-		  id:: 67ac4f62-3411-4c88-8d4c-3fc2e6c78258
-			- Done with some helps from Copilot & Google Search's Gemini: ((67ac5dfc-2224-4261-a5d2-52def30c3cba))
-		- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
-		  id:: 67ac4f68-8af4-4886-9183-85de0039250c
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-13 Thu 09:09:51]
-		  :END:
-			- We should not ~~trim spaces~~ from keywords because sometimes they are intentional.
+			- We're witnessing the [braindumping](((db954501-95d0-46e2-b1fc-39b6a966300e))) and [current stories](((6788f004-d3df-41d4-afc8-c8c5ea52c51c))) and [current stasks](((677630fe-ea99-436f-b39f-8bd2295e2eaf))) stacking up!
+			  id:: 67aabd5c-5846-4b6d-84bd-8be5034dd958
 			  collapsed:: true
-			- We should have some **delimiters** around them!
-			- ((67ad537f-9a22-4079-b8d1-352b4c567278))
-		- [!] Leaving tasks as `TODO` is so difficult for me...
-		  id:: 67b541c7-9547-4964-b19d-c873af1b3f4e
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-13 Thu 09:09:57]
-		  :END:
-			- There's a strong force sucking me deep into these tasks...
-			- ⇒ ((6772a6c7-f434-4911-9fa2-939b8db20c42))
-			- ⇒ I'm overcoming it by stop-breathe-relax-redirect, then mark `TODO` for this task: ((67ad537f-9a22-4079-b8d1-352b4c567278))
-			- But still... i've been sucked into ((67adb58e-6bf4-43ba-b574-58b112cc3874)) from 9:00 until now 18:21 = 9.5 hours, just because i **didn't think it complicated**!!!
-			  :LOGBOOK:
-			  CLOCK: [2025-02-13 Thu 18:18:12]
-			  CLOCK: [2025-02-13 Thu 18:20:46]
-			  :END:
-				- While working with the project Pre.Env. for company, i saw a broken symlink not hilited as normal.
-				- Then i [searched for `LS_COLORS`](((67ac4f68-8af4-4886-9183-85de0039250c))) but failed due to a trailing space.
-				- I thought it was just a very simple task, just "going to be done now!"
-				- So, i didn't even bother to track that task!
-				- Chatted with Copilot, searched all over the place,... it's turned out to be not so simple at all!
-				- LLMs like Copilot and Google Search AI are helpful but have many hallucinations & delutions.
-					- Google Search AI invented `lr` code for "broken symlink"
-					  collapsed:: true
-						- ![Google Search AI hallucination ls_colors-lr-broken_symlink.png](../assets/Will/story/2025-Feb/Google Search AI hallucination ls_colors-lr-broken_symlink.png)
-					- Respone to Copilot's hallucination: I've searched myself and see `ca` = `CAPABILITY` not `FILECAP`, `rs` = `RESET` not `NORMAL`, as shown in this [stackexchange](https://unix.stackexchange.com/a/70715/566548)
-					- Copilot was obssesed with that GitHub gist so much that you place [that link](https://gist.github.com/thomd/7667642) to the "StackExchange discussion" text! 🙁
-		- I feel there's a need to tighten my constraint (giới), not only refraining from social network & media, but also from my Uniinfo theory, in order to finish my promise with boss Đạt.
-		  id:: 67b2d619-7ce1-42c5-a331-5d35f0d8f35b
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-17 Mon 19:36:32]
-		  :END:
-			- For the theory, maybe i need to litter the UniinfoNotes up with brainstorms and braindumps for whatever i see on the way.
-			- I've just finished a remaining task in the company work (`lock.sh` for `python_deploy`)
-			  :LOGBOOK:
-			  CLOCK: [2025-02-17 Mon 19:36:40]
-			  :END:
-			  → then i just turned out to check Telegram for any reply from Mr. Huy in [the last chat](((67b2f947-69cb-4183-a99d-204c0beb6dcc))).
-			  → then i just attempted check YoutTube for the current status of [monk group of master Minh Tue](((67a5faa3-c64c-48f7-8b3f-a5311714110f)))... but i just stopped right at the time i realized this attempt.
-			- Let's keep refraining... it's not hard anyway!
-		- [!] Logseq Publish with shallow copy issue: When copying a block out to a publish page, its local block refs are still pointing to sub-blocks of the original block.
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-18 Tue 14:05:25]
-		  :END:
-			- Maybe we must write a plugin `deep copy`!
-				- detect local block refs in the source block
-				- add `id::` to these target sub-blocks in the result block
-				- replace block refs with these new UUIDs.
-		- Just wrapped up docs of "update `python_deploy/java`"
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-18 Tue 16:24:29]
-		  :END:
-			- It costed so long time!
-			- Now, start dealing with `sgapi`
-				- But before starting, let's have a brief meditation...
-				- that meditation is so good with relax, release through deep yawns.
-				- Now, 18:26, half an hour has past my schedule of leaving work at HTV to work for UTS, due to the ongoing work of many different hosts in `sgapi`.
+				- Too many unfinished stuffs!
+				  id:: 67a5cfdd-d3b3-491b-a7ba-febdc09dca95
+					- ((678dbff1-19ea-47c5-8794-2638d53ee7dd))
+					- ((678df0f0-20d2-4995-bfc2-0b953970469d))
+					- ((67938fc1-3094-4558-bc88-07b68ff64298))
+					- ((67a035a8-f826-4b89-8eb4-3d2cd679dd1f))
+					- ((67a5d049-d7a3-4a23-baa6-5261a409c694))
+					- ((67764f3d-c6b3-4f00-a53f-ec4dab0920f9))
+					- ((6772a6c7-f434-4911-9fa2-939b8db20c42))
+				- This is the very common theme in my life, but undocumented until now.
+				- Switching from depth-first traversal ([duck dive](((67714850-43c0-4c7f-8b50-838e014b06e0)))) to breadth-first traversal has resulted in ((67a5cfdd-d3b3-491b-a7ba-febdc09dca95))
+				  id:: 67a5d140-31e4-451d-a8ea-33fa6927ce99
+					- This ***fragmentation*** is what i've been scared of due to my ((6678d594-9819-4624-abd6-d4ec62b3874f)).
+					- This problem has been foreseen long ago but no solution has been found.
+					- With the help of this documenation & task tracking system, i hope that we can find some way to deal with it!
+				- DONE Now, i'm sorting & wrapping them up...
+				  id:: 67a5dcde-4189-4626-8396-61577b6906a4
 				  :LOGBOOK:
-				  CLOCK: [2025-02-18 Tue 18:26:28]
-				  CLOCK: [2025-02-18 Tue 18:26:31]--[2025-02-18 Tue 18:28:50] =>  00:02:19
+				  CLOCK: [2025-02-07 Fri 17:14:16]--[2025-02-10 Mon 13:01:41] =>  67:47:25
 				  :END:
-			- Just leave HTV now, 18:29.
-			  :LOGBOOK:
-			  CLOCK: [2025-02-18 Tue 18:29:57]
-			  :END:
-			- And has just arrived at UTS now, 19:04.
-			- Let's keep this state of vacancy! 😊
-		- Thanks to BeowulfBuildModDocs' LogseqNotes, now i can recall the incompleted works from last year (3 months ago, from 2024-12-08)
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-18 Tue 19:11:36]
-		  :END:
-			- But my back hurts... so just lie down a little bit...
-			- After messing with tangled deps in `quickom-node-core-v3`, i resorted to build LamHai's `dev` branch... successfully.
-			- So just `cherry-pick` the last commit from `prod` into that branch, instead of creating new `dev` branch from `prod`.
-		- Feb 19, after a morning walk and meditation beside the river, let's write down the story of ((67b54432-861a-415e-a7ee-45a3f75bdc7a))
-		  id:: 67b54af3-2ccd-4814-ab89-ef85bed9f79b
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-19 Wed 10:26:06]
-		  :END:
-			- These 3 levels of abstraction have just been done while writing it down: first the [brainstorm](((67b54283-14b2-4753-94bb-4d827d54d7cc))), then the [story](((67b54432-861a-415e-a7ee-45a3f75bdc7a))), and last this [braindump](((67b54af3-2ccd-4814-ab89-ef85bed9f79b)))
-			- This has taken the whole morning, including more than 1 hour walking, now 11:29, i'm going to have lunch 😊
-			  id:: 67b55dda-7840-4691-9e72-0e025e17dc4d
-			  :LOGBOOK:
-			  CLOCK: [2025-02-19 Wed 11:30:10]
-			  :END:
-		- I've just added `padding-bottom` style to [markdown-watcher.js](../assets/HTML/markdown-watcher.js) so that when clicking a ref of a block at the end of page, we can jump to that block, instead of stopping short above.
-		  collapsed:: true
-			- From [superuser](https://superuser.com/a/872654/2425618)
-			  ```css
-			  html {
-			    height: auto !important;
-			    padding-bottom: 100vh !important;
-			  }
-			  ```
-			  added to `load(){if(renderChoice.value=='html')}`
-		- Feb 19, 21:11, I've just fixed deps in `quickom-node-core-v3/dev` for successful build 😊
-		  :LOGBOOK:
-		  CLOCK: [2025-02-19 Wed 21:11:30]
-		  :END:
-		- Yesterday, Feb 24, i wrote ((67b81e1b-b801-4e5a-9c00-98e51158712a)) as brainstorm, but now, i move it to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) because it's been rather complete.
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-22 Sat 20:16:37]
-		  :END:
-			- This unintended work was triggered from the old post [The Reduced Halting Problem](https://creatzyitnotes.blogspot.com/2009/10/reduced-halting-problem.html), which i met when trying to ((67b989a4-a041-4511-abe5-77c785ca2d67))
-		- I've just added duals of wave-particle, plant-animal, ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) to the [EffectCircle Diagram](((67b183f5-dba7-4a11-8a72-3c619e3709ea))).
-		  id:: 67bacb04-7c5c-4004-96b9-2ee237878ce6
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-02-23 Sun 16:25:44]
-		  :END:
-			- also added spatial components: distribution, density, curvature.
-				- Oh, my recent addition of “spatial distribution” to the dynamic circle is just a recurrence: In [a comment on DynamicsPyramid](((67baf71f-a1dc-4f9e-b62b-f150d7ced6b0))), i did clearly wrote “... distribute energy, thus 'energy field'”.
-			- and moved contents of [a previous brainstorm](((67b5c778-71d6-4f58-9dd4-36a719bd85f0))) to ((67b183f5-1cca-4473-917e-60c644dd5466)).
-			  :LOGBOOK:
-			  CLOCK: [2025-02-23 Sun 16:50:30]
-			  :END:
-			- Where should i place the [DynamicsPyramid Diagram](https://docs.google.com/drawings/d/18PRcRgeFegJ9NEnQwJLdd1LsROhQKDJIA1I0NMMHl_o/)?
-				- OK, now just (temporarily) put it right inside the dynamic circle!
-				- And drop an entry of [its story](((67baf8fc-0343-4586-9a45-219052a747c9))) down.
-		- Let's put down ((67bb3a7a-27a9-42f0-a40b-9b8293103524)), so that i can switch to finish the work for boss William.
-		  :LOGBOOK:
-		  CLOCK: [2025-02-23 Sun 17:55:32]
-		  :END:
-		- When writing some long descriptions of “dynamical system” vs. “dynamic system”, i'm struck by this:
-		  id:: 67bd4a6a-4385-4d45-8146-7c6e53fe77b7
-		  :LOGBOOK:
-		  CLOCK: [2025-02-25 Tue 11:45:17]
-		  :END:
-		  ((67bd4966-a768-46b9-b947-fac1273be081))
-			- Let's rephrase the construction “consider as” in [[FoC]].
-		- From the [conservation of curvature](((67bbde65-182a-4e2d-bdde-acf9b5ec124f))), from yesterday night to today morning, i've been contemplating the curvature & straightness (linearity) and see a long road ahead... Maybe i should start from an entry of ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) in the Mind Jungle.
-		  id:: 67bbe327-6899-4909-868d-4951b6b28685
-		  collapsed:: true
-			- I just remember [my formula of curvature ](((67bc5689-d4f1-4136-b775-92847ddd02f8))) $c = dφ/ds$ from high school 9th or 10th grade. There, i used the symbol $c$ for both English “curve” and Vietnamese “cong”. I'd thought that it was my "new concept" until i saw the definition of $κ = 1/r$ in some book.
-			- The intrinsic curvature of the thread, as the 2nd derivative of the [distribution of space](((67bda37c-7085-4a71-b5bf-6c4b54b3abdd))) on the line, is different from the extrinsic curvature of the line $κ = 1/r$.
-				- While the thread's distribution of space is simple, ((67bdb94a-e172-43f9-a59e-a97756fef1f4))
-			- Note: the [emergence of negativity & imaginarity](((67bbde62-70fc-4d3d-9f65-dcea280db516))) was a rediscovery when i contemplated the spring (elastic) mechanics & `exp()`, as a note on Telegram on 2023 Feb 21st.
+					- Today, Feb 10th, The last 2 items have been far away in my mind:
+						- Nearer thanks to documented contents and a long time focusing on it before: ((678dbff1-19ea-47c5-8794-2638d53ee7dd))
+							- DONE So, i'm resolving this first.
+							  :LOGBOOK:
+							  CLOCK: [2025-02-10 Mon 11:34:28]
+							  CLOCK: [2025-02-10 Mon 11:34:31]--[2025-02-10 Mon 13:00:52] =>  01:26:21
+							  :END:
+						- Farther, no docs, no concrete "story" remaining in my mind, just the general ideas of it: ((678df0f0-20d2-4995-bfc2-0b953970469d))
+							- And leave this in Brainstorming.
+			- In the course of trying various LLMs, i'm touching various parts of Unïnfo begging for updates...
+			  id:: 67a035a8-f826-4b89-8eb4-3d2cd679dd1f
 			  collapsed:: true
-				- #+BEGIN_QUOTE
-				  **Holistic momentum** = const-sized (mc^2) vector = momentum vector (in space) + energy vector (= momentum in time)
-				  - **i=√-1 derived from dynamics**: velocity reflected at the wall must pass through 0 but total momentum is preserved => the whole momentum vector must pokes out of space dimension => space × momentum = phase space:
-				    + The eigenvector of diff is exp() => extended to phase space: x' = p & p' = x => x'' = x =>  √1 = negative (opposite) unit «-1»; x' = -p & p' = x => x'' = -x =>  √-1 = imaginary (internal, intensive) unit «i»;
-				    + The loop of derivatives in phase space complex plane contains 4 units (+1, +i, -1, -i), ie. x'''' = x => to be extended to quaternion
-				  - the momentum dimension p in phase space is the folded (intensified) of time => spacetime = extended phase space => energy = momentum in time => force = curvature = density of energy = tightness of circle = how much motion in time
-				    + Pythagorean theorem <== circle in phase space ==> everything is circle
-				  
-				  
-				  Differentials (high order) = orthogonal radix numerals = Turing machine vs uninet = holographic numerals = diagonal multimodular numerals (RNS & continued fraction)
-				  ==> this defines the computation inside the Quantum => geometry => physical laws
-				  #+END_QUOTE
-			- It's interesting that when searching for "circle of dynamic[s]", [Google Search AI declares](((67bd76db-a523-415e-8d4d-812593779ceb))) "circle of dynamic" to be “a conceptual model” and "circle of dynamics" to be “a concept in mathematics”, as if they're already established terms... but i think it's just an AI hallucination!
-	- ### March
-		- DONE Add [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language) "Textile (markup language)") to ~~both UniinfoNotes &~~ HTV's logseq-notes
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-03-05 Wed 17:19:32]
-		  CLOCK: [2025-03-05 Wed 17:19:34]--[2025-03-05 Wed 17:20:19] =>  00:00:45
-		  :END:
-			- Only add an external link to `Redmine working process`: [Textile formatting](https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile)
-		- [!?] markdown-watcher: sometimes, anchor links become ineffective, but i still don't know why!
-		- Update ((66600918-8c61-42af-b8a2-04bf05e9f782))
-		  id:: 67c97ba4-7e89-4e53-b531-4eb12e6c1580
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-03-06 Thu 17:42:08]
-		  :END:
-			- I've just added another exception for smart quoting function: `replaceQuotes()`'s possessive exception
-			- Let's parametrize `LogseqApiEndpoint` in [LogseqGet.html](((6675860a-c135-4a92-b4fe-206ebde974ff))) (`LogseqUtils.js`) because now 2 servers are running in parallel at 2 ports: UniinfoNotes @ 12315 (default), HTV's logseq-notes @ 12345.
 			  :LOGBOOK:
-			  CLOCK: [2025-03-06 Thu 17:42:54]
+			  CLOCK: [2025-02-04 Tue 10:12:30]
 			  :END:
-			- I've just designed the overall flow for [updating block refs in Logseq publish](((67b541cf-618d-4607-bdd4-e1afcc8ce70c)))
-		- Let's write ((67ce5a8c-4885-4aaf-9215-60460717ae44)) 😜
-		  id:: 67ce5aad-3eda-403f-8860-bd1ce8e6a007
-		- While chatting with Copilot, i happened to know that ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))!
-		  id:: 67cea427-2865-4cba-98ec-58b0cf779682
-		  :LOGBOOK:
-		  CLOCK: [2025-03-10 Mon 15:35:44]
-		  :END:
-		- From the [triads](((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))) yesterday, this morning, i've contemplated about my problem of [rigidity/inertia/momentum](((67b541cf-4818-45ad-911c-d2c3397f9e3d))).
-		  id:: 67cfa71c-da0f-4ebb-b390-8c89870711b9
-		  :LOGBOOK:
-		  CLOCK: [2025-03-11 Tue 10:00:17]
-		  :END:
-		- Let's write down the story this morning: ((67d1132a-dc48-42f2-80ad-b99853be907b))
-		  id:: 67d1149e-6084-48ed-886b-39dc6e4640e9
-		  :LOGBOOK:
-		  CLOCK: [2025-03-12 Wed 11:59:43]
-		  :END:
-		- Google suggested me some ((67d184fe-6e61-46ed-ae70-2217cd068ee3))
-		  id:: 67d1889d-c9ee-4252-8167-253dfff80ce4
-		  :LOGBOOK:
-		  CLOCK: [2025-03-12 Wed 20:16:30]
-		  :END:
-		- Done revising ((67d10c06-3fe3-4691-95c0-84278a2dc713))
-		  id:: 67d2a713-9762-450a-b7e2-e414c0cb6069
-		  :LOGBOOK:
-		  CLOCK: [2025-03-13 Thu 16:36:20]
-		  CLOCK: [2025-03-13 Thu 16:36:29]
-		  :END:
-	- ## Braindumping < ((67aac38f-1c60-42e9-a8c5-c262d11a82f0))
+				- I'm seeing a dense jungle ahead...
+					- Updating these terms must take time...
+					- In my history, such blooming of ideas has had me bogged down a lot.
+				- But i don't want to loose these ideas... so maybe just litter them with `TODO`s... or separate them into brainstorms....?!
+				- Team leader Quân has just visited asking for Tết holiday and my work 😁!
+				- Today, 6 days after [the first braindump](((67a035a8-f826-4b89-8eb4-3d2cd679dd1f))), i've done trying various LLMs with a brief of ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
+				  :LOGBOOK:
+				  CLOCK: [2025-02-10 Mon 09:57:06]
+				  CLOCK: [2025-02-10 Mon 09:57:09]--[2025-02-10 Mon 10:00:23] =>  00:03:14
+				  :END:
+				- The "various parts of Unïnfo begging for updates" have been gone far from my mind...
+				- So just flush this braindump away, now!
+			- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
+			  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
+				- ⇒ Put it in ((67a963d9-e7d3-4e46-a608-24059d730f4a))
+			- ((67a5dcde-4189-4626-8396-61577b6906a4))
+			  id:: 67a5dd00-f5cf-4e51-9ea1-2fea15d3595a
+			- Now, i'm wrapping the WIPs up for [a big merge commit](((67164cc1-e500-4889-9b6d-12d8dd7fc029))): `Various stuffs all over the place: Technical stuffs, Unïnfo, Life stories`
+			  collapsed:: true
+				- in `log`: `302bec3f`
+				- in `main`: `6d48b4b3`
+				- published in `gh-pages`: `81c9e3b8`
+			- Oh i've forgotten that we've been in February
+			  :LOGBOOK:
+			  CLOCK: [2025-02-11 Tue 10:32:17]
+			  :END:
+			  ⇒ Just cut some braindumps into ((67aac38f-1c60-42e9-a8c5-c262d11a82f0)) (February block is at the same level with ((db954501-95d0-46e2-b1fc-39b6a966300e)))
+			  ⇒ Put ((677e7eda-0c5e-413a-8c08-3a1d39352ba9)) into ((67760c3e-10a7-4621-8623-383f44bdaf3c))
+			- Let's remember to add date into braindumps using `/Today`, like “Tue, 2025/02/11”, as well as timestamp it with `Alt` `Enter`
+			  id:: 67aac5fc-3591-43a1-a283-f51620f8035e
+			  :LOGBOOK:
+			  CLOCK: [2025-02-11 Tue 10:38:38]
+			  :END:
+			- ((678e1c3f-6202-45aa-8527-f4bdad9927b9))... is object or subject?!
+			  id:: 67ac4f62-3411-4c88-8d4c-3fc2e6c78258
+				- Done with some helps from Copilot & Google Search's Gemini: ((67ac5dfc-2224-4261-a5d2-52def30c3cba))
+			- [!] The ((66fce880-77a2-41f7-8bdb-a86b7fc6fc77)) usually fails due to invisible spaces in the keywords
+			  id:: 67ac4f68-8af4-4886-9183-85de0039250c
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-02-13 Thu 09:09:51]
+			  :END:
+				- We should not ~~trim spaces~~ from keywords because sometimes they are intentional.
+				  collapsed:: true
+				- We should have some **delimiters** around them!
+				- ((67ad537f-9a22-4079-b8d1-352b4c567278))
+			- [!] Leaving tasks as `TODO` is so difficult for me...
+			  id:: 67b541c7-9547-4964-b19d-c873af1b3f4e
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-02-13 Thu 09:09:57]
+			  :END:
+				- There's a strong force sucking me deep into these tasks...
+				- ⇒ ((6772a6c7-f434-4911-9fa2-939b8db20c42))
+				- ⇒ I'm overcoming it by stop-breathe-relax-redirect, then mark `TODO` for this task: ((67ad537f-9a22-4079-b8d1-352b4c567278))
+				- But still... i've been sucked into ((67adb58e-6bf4-43ba-b574-58b112cc3874)) from 9:00 until now 18:21 = 9.5 hours, just because i **didn't think it complicated**!!!
+				  :LOGBOOK:
+				  CLOCK: [2025-02-13 Thu 18:18:12]
+				  CLOCK: [2025-02-13 Thu 18:20:46]
+				  :END:
+					- While working with the project Pre.Env. for company, i saw a broken symlink not hilited as normal.
+					- Then i [searched for `LS_COLORS`](((67ac4f68-8af4-4886-9183-85de0039250c))) but failed due to a trailing space.
+					- I thought it was just a very simple task, just "going to be done now!"
+					- So, i didn't even bother to track that task!
+					- Chatted with Copilot, searched all over the place,... it's turned out to be not so simple at all!
+					- LLMs like Copilot and Google Search AI are helpful but have many hallucinations & delutions.
+						- Google Search AI invented `lr` code for "broken symlink"
+						  collapsed:: true
+							- ![Google Search AI hallucination ls_colors-lr-broken_symlink.png](../assets/Will/story/2025-Feb/Google Search AI hallucination ls_colors-lr-broken_symlink.png)
+						- Respone to Copilot's hallucination: I've searched myself and see `ca` = `CAPABILITY` not `FILECAP`, `rs` = `RESET` not `NORMAL`, as shown in this [stackexchange](https://unix.stackexchange.com/a/70715/566548)
+						- Copilot was obssesed with that GitHub gist so much that you place [that link](https://gist.github.com/thomd/7667642) to the "StackExchange discussion" text! 🙁
+			- I feel there's a need to tighten my constraint (giới), not only refraining from social network & media, but also from my Uniinfo theory, in order to finish my promise with boss Đạt.
+			  id:: 67b2d619-7ce1-42c5-a331-5d35f0d8f35b
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-02-17 Mon 19:36:32]
+			  :END:
+				- For the theory, maybe i need to litter the UniinfoNotes up with brainstorms and braindumps for whatever i see on the way.
+				- I've just finished a remaining task in the company work (`lock.sh` for `python_deploy`)
+				  :LOGBOOK:
+				  CLOCK: [2025-02-17 Mon 19:36:40]
+				  :END:
+				  → then i just turned out to check Telegram for any reply from Mr. Huy in [the last chat](((67b2f947-69cb-4183-a99d-204c0beb6dcc))).
+				  → then i just attempted check YoutTube for the current status of [monk group of master Minh Tue](((67a5faa3-c64c-48f7-8b3f-a5311714110f)))... but i just stopped right at the time i realized this attempt.
+				- Let's keep refraining... it's not hard anyway!
+			- [!] Logseq Publish with shallow copy issue: When copying a block out to a publish page, its local block refs are still pointing to sub-blocks of the original block.
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-02-18 Tue 14:05:25]
+			  :END:
+				- Maybe we must write a plugin `deep copy`!
+					- detect local block refs in the source block
+					- add `id::` to these target sub-blocks in the result block
+					- replace block refs with these new UUIDs.
+			- Just wrapped up docs of "update `python_deploy/java`"
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-02-18 Tue 16:24:29]
+			  :END:
+				- It costed so long time!
+				- Now, start dealing with `sgapi`
+					- But before starting, let's have a brief meditation...
+					- that meditation is so good with relax, release through deep yawns.
+					- Now, 18:26, half an hour has past my schedule of leaving work at HTV to work for UTS, due to the ongoing work of many different hosts in `sgapi`.
+					  :LOGBOOK:
+					  CLOCK: [2025-02-18 Tue 18:26:28]
+					  CLOCK: [2025-02-18 Tue 18:26:31]--[2025-02-18 Tue 18:28:50] =>  00:02:19
+					  :END:
+				- Just leave HTV now, 18:29.
+				  :LOGBOOK:
+				  CLOCK: [2025-02-18 Tue 18:29:57]
+				  :END:
+				- And has just arrived at UTS now, 19:04.
+				- Let's keep this state of vacancy! 😊
+			- Thanks to BeowulfBuildModDocs' LogseqNotes, now i can recall the incompleted works from last year (3 months ago, from 2024-12-08)
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-02-18 Tue 19:11:36]
+			  :END:
+				- But my back hurts... so just lie down a little bit...
+				- After messing with tangled deps in `quickom-node-core-v3`, i resorted to build LamHai's `dev` branch... successfully.
+				- So just `cherry-pick` the last commit from `prod` into that branch, instead of creating new `dev` branch from `prod`.
+			- Feb 19, after a morning walk and meditation beside the river, let's write down the story of ((67b54432-861a-415e-a7ee-45a3f75bdc7a))
+			  id:: 67b54af3-2ccd-4814-ab89-ef85bed9f79b
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-02-19 Wed 10:26:06]
+			  :END:
+				- These 3 levels of abstraction have just been done while writing it down: first the [brainstorm](((67b54283-14b2-4753-94bb-4d827d54d7cc))), then the [story](((67b54432-861a-415e-a7ee-45a3f75bdc7a))), and last this [braindump](((67b54af3-2ccd-4814-ab89-ef85bed9f79b)))
+				- This has taken the whole morning, including more than 1 hour walking, now 11:29, i'm going to have lunch 😊
+				  id:: 67b55dda-7840-4691-9e72-0e025e17dc4d
+				  :LOGBOOK:
+				  CLOCK: [2025-02-19 Wed 11:30:10]
+				  :END:
+			- I've just added `padding-bottom` style to [markdown-watcher.js](../assets/HTML/markdown-watcher.js) so that when clicking a ref of a block at the end of page, we can jump to that block, instead of stopping short above.
+			  collapsed:: true
+				- From [superuser](https://superuser.com/a/872654/2425618)
+				  ```css
+				  html {
+				    height: auto !important;
+				    padding-bottom: 100vh !important;
+				  }
+				  ```
+				  added to `load(){if(renderChoice.value=='html')}`
+			- Feb 19, 21:11, I've just fixed deps in `quickom-node-core-v3/dev` for successful build 😊
+			  :LOGBOOK:
+			  CLOCK: [2025-02-19 Wed 21:11:30]
+			  :END:
+			- Yesterday, Feb 24, i wrote ((67b81e1b-b801-4e5a-9c00-98e51158712a)) as brainstorm, but now, i move it to ((6651e92e-fb34-4d24-a386-d9698c2e93f7)) because it's been rather complete.
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-02-22 Sat 20:16:37]
+			  :END:
+				- This unintended work was triggered from the old post [The Reduced Halting Problem](https://creatzyitnotes.blogspot.com/2009/10/reduced-halting-problem.html), which i met when trying to ((67b989a4-a041-4511-abe5-77c785ca2d67))
+			- I've just added duals of wave-particle, plant-animal, ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) to the [EffectCircle Diagram](((67b183f5-dba7-4a11-8a72-3c619e3709ea))).
+			  id:: 67bacb04-7c5c-4004-96b9-2ee237878ce6
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-02-23 Sun 16:25:44]
+			  :END:
+				- also added spatial components: distribution, density, curvature.
+					- Oh, my recent addition of “spatial distribution” to the dynamic circle is just a recurrence: In [a comment on DynamicsPyramid](((67baf71f-a1dc-4f9e-b62b-f150d7ced6b0))), i did clearly wrote “... distribute energy, thus 'energy field'”.
+				- and moved contents of [a previous brainstorm](((67b5c778-71d6-4f58-9dd4-36a719bd85f0))) to ((67b183f5-1cca-4473-917e-60c644dd5466)).
+				  :LOGBOOK:
+				  CLOCK: [2025-02-23 Sun 16:50:30]
+				  :END:
+				- Where should i place the [DynamicsPyramid Diagram](https://docs.google.com/drawings/d/18PRcRgeFegJ9NEnQwJLdd1LsROhQKDJIA1I0NMMHl_o/)?
+					- OK, now just (temporarily) put it right inside the dynamic circle!
+					- And drop an entry of [its story](((67baf8fc-0343-4586-9a45-219052a747c9))) down.
+			- Let's put down ((67bb3a7a-27a9-42f0-a40b-9b8293103524)), so that i can switch to finish the work for boss William.
+			  :LOGBOOK:
+			  CLOCK: [2025-02-23 Sun 17:55:32]
+			  :END:
+			- When writing some long descriptions of “dynamical system” vs. “dynamic system”, i'm struck by this:
+			  id:: 67bd4a6a-4385-4d45-8146-7c6e53fe77b7
+			  :LOGBOOK:
+			  CLOCK: [2025-02-25 Tue 11:45:17]
+			  :END:
+			  ((67bd4966-a768-46b9-b947-fac1273be081))
+				- Let's rephrase the construction “consider as” in [[FoC]].
+			- From the [conservation of curvature](((67bbde65-182a-4e2d-bdde-acf9b5ec124f))), from yesterday night to today morning, i've been contemplating the curvature & straightness (linearity) and see a long road ahead... Maybe i should start from an entry of ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) in the Mind Jungle.
+			  id:: 67bbe327-6899-4909-868d-4951b6b28685
+			  collapsed:: true
+				- I just remember [my formula of curvature ](((67bc5689-d4f1-4136-b775-92847ddd02f8))) $c = dφ/ds$ from high school 9th or 10th grade. There, i used the symbol $c$ for both English “curve” and Vietnamese “cong”. I'd thought that it was my "new concept" until i saw the definition of $κ = 1/r$ in some book.
+				- The intrinsic curvature of the thread, as the 2nd derivative of the [distribution of space](((67bda37c-7085-4a71-b5bf-6c4b54b3abdd))) on the line, is different from the extrinsic curvature of the line $κ = 1/r$.
+					- While the thread's distribution of space is simple, ((67bdb94a-e172-43f9-a59e-a97756fef1f4))
+				- Note: the [emergence of negativity & imaginarity](((67bbde62-70fc-4d3d-9f65-dcea280db516))) was a rediscovery when i contemplated the spring (elastic) mechanics & `exp()`, as a note on Telegram on 2023 Feb 21st.
+				  collapsed:: true
+					- #+BEGIN_QUOTE
+					  **Holistic momentum** = const-sized (mc^2) vector = momentum vector (in space) + energy vector (= momentum in time)
+					  - **i=√-1 derived from dynamics**: velocity reflected at the wall must pass through 0 but total momentum is preserved => the whole momentum vector must pokes out of space dimension => space × momentum = phase space:
+					    + The eigenvector of diff is exp() => extended to phase space: x' = p & p' = x => x'' = x =>  √1 = negative (opposite) unit «-1»; x' = -p & p' = x => x'' = -x =>  √-1 = imaginary (internal, intensive) unit «i»;
+					    + The loop of derivatives in phase space complex plane contains 4 units (+1, +i, -1, -i), ie. x'''' = x => to be extended to quaternion
+					  - the momentum dimension p in phase space is the folded (intensified) of time => spacetime = extended phase space => energy = momentum in time => force = curvature = density of energy = tightness of circle = how much motion in time
+					    + Pythagorean theorem <== circle in phase space ==> everything is circle
+					  
+					  
+					  Differentials (high order) = orthogonal radix numerals = Turing machine vs uninet = holographic numerals = diagonal multimodular numerals (RNS & continued fraction)
+					  ==> this defines the computation inside the Quantum => geometry => physical laws
+					  #+END_QUOTE
+				- It's interesting that when searching for "circle of dynamic[s]", [Google Search AI declares](((67bd76db-a523-415e-8d4d-812593779ceb))) "circle of dynamic" to be “a conceptual model” and "circle of dynamics" to be “a concept in mathematics”, as if they're already established terms... but i think it's just an AI hallucination!
+		- ### March
+		  id:: 67eb5e0b-e1a2-4e31-aeac-fe1b14f17662
+		  collapsed:: true
+			- DONE Add [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language) "Textile (markup language)") to ~~both UniinfoNotes &~~ HTV's logseq-notes
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-03-05 Wed 17:19:32]
+			  CLOCK: [2025-03-05 Wed 17:19:34]--[2025-03-05 Wed 17:20:19] =>  00:00:45
+			  :END:
+				- Only add an external link to `Redmine working process`: [Textile formatting](https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile)
+			- [!?] markdown-watcher: sometimes, anchor links become ineffective, but i still don't know why!
+			- Update ((66600918-8c61-42af-b8a2-04bf05e9f782))
+			  id:: 67c97ba4-7e89-4e53-b531-4eb12e6c1580
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-03-06 Thu 17:42:08]
+			  :END:
+				- I've just added another exception for smart quoting function: `replaceQuotes()`'s possessive exception
+				- Let's parametrize `LogseqApiEndpoint` in [LogseqGet.html](((6675860a-c135-4a92-b4fe-206ebde974ff))) (`LogseqUtils.js`) because now 2 servers are running in parallel at 2 ports: UniinfoNotes @ 12315 (default), HTV's logseq-notes @ 12345.
+				  :LOGBOOK:
+				  CLOCK: [2025-03-06 Thu 17:42:54]
+				  :END:
+				- I've just designed the overall flow for [updating block refs in Logseq publish](((67b541cf-618d-4607-bdd4-e1afcc8ce70c)))
+			- Let's write ((67ce5a8c-4885-4aaf-9215-60460717ae44)) 😜
+			  id:: 67ce5aad-3eda-403f-8860-bd1ce8e6a007
+			- While chatting with Copilot, i happened to know that ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))!
+			  id:: 67cea427-2865-4cba-98ec-58b0cf779682
+			  :LOGBOOK:
+			  CLOCK: [2025-03-10 Mon 15:35:44]
+			  :END:
+			- From the [triads](((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))) yesterday, this morning, i've contemplated about my problem of [rigidity/inertia/momentum](((67b541cf-4818-45ad-911c-d2c3397f9e3d))).
+			  id:: 67cfa71c-da0f-4ebb-b390-8c89870711b9
+			  :LOGBOOK:
+			  CLOCK: [2025-03-11 Tue 10:00:17]
+			  :END:
+			- Let's write down the story this morning: ((67d1132a-dc48-42f2-80ad-b99853be907b))
+			  id:: 67d1149e-6084-48ed-886b-39dc6e4640e9
+			  :LOGBOOK:
+			  CLOCK: [2025-03-12 Wed 11:59:43]
+			  :END:
+			- Google suggested me some ((67d184fe-6e61-46ed-ae70-2217cd068ee3))
+			  id:: 67d1889d-c9ee-4252-8167-253dfff80ce4
+			  :LOGBOOK:
+			  CLOCK: [2025-03-12 Wed 20:16:30]
+			  :END:
+			- Done revising ((67d10c06-3fe3-4691-95c0-84278a2dc713))
+			  id:: 67d2a713-9762-450a-b7e2-e414c0cb6069
+			  :LOGBOOK:
+			  CLOCK: [2025-03-13 Thu 16:36:20]
+			  CLOCK: [2025-03-13 Thu 16:36:29]
+			  :END:
+			- Let's write the ongoing story of ((67dcc012-44d3-4041-b17a-0ef201b3ff6c)).
+			  :LOGBOOK:
+			  CLOCK: [2025-03-21 Fri 08:28:14]
+			  :END:
+	- ### April
+	  id:: 67eb5f0b-6328-4b14-9425-a58a3b6718ca
+	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Let's write the ongoing story of ((67dcc012-44d3-4041-b17a-0ef201b3ff6c)).
-		  :LOGBOOK:
-		  CLOCK: [2025-03-21 Fri 08:28:14]
-		  :END:
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
