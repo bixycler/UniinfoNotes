@@ -144,7 +144,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  id:: 67d3a821-ed1c-48d5-a935-bfab8a57cd8e
 					- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
 				- `--{info,question,warning,error}` are message dialogs with icons
-					- Icon: `--window-icon`, `--icon-name`
+					- Icons: `--icon-name` (name only), `--window-icon` (/path/to/file, but doesn't work!)
+						- ((66725725-f76a-4328-b162-f469b87e871b))
+							- `dialog-information`: ![dialog-information.png](../assets/Linux/GNOME/icons/dialog-information.png)
 				- Input dialogs
 					-
 				- `--notification`
@@ -1624,6 +1626,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  the order of launching determines which terminal to be placed where.
 		- `/usr/share/icons/`
 		  collapsed:: true
+			- Default Gnome (Tango) icons using ((67eb7908-267d-4091-840f-eaf405632317)): [shown on wikimedia](https://commons.wikimedia.org/wiki/GNOME_Desktop_icons)
 			- Yaru: default theme for Ubuntu
 				- `Yaru/scalable/`: `*-symbolic.svg` are [symbolic icons](https://wiki.gnome.org/Design/OS/SymbolicIcons), mostly monochrome and some low colors instead of colorful [app icons](((67eb8856-16c0-4c50-8bc5-e00b32ddb51f))), for [various context-dependent usages](https://developer.gnome.org/hig/guidelines/ui-icons.html): UI elements, actions in Clear-text fields, etc.
 				- `Yaru/${scale}/`: colorful [app icons](https://developer.gnome.org/hig/guidelines/app-icons.html) for buttons and windows of applications
@@ -1631,7 +1634,6 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Humanity: default theme for GTK
 			- Adwaita: default theme for GNOME
 			- Gnome: legacy GNOME theme
-			- Default Gnome (Tango) icons using ((67eb7908-267d-4091-840f-eaf405632317)): [shown on wikimedia](https://commons.wikimedia.org/wiki/GNOME_Desktop_icons)
 	- ### Wayland
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
 		- [XWayland](https://wayland.freedesktop.org/xserver.html)
