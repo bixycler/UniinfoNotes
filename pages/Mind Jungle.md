@@ -5408,6 +5408,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((665dc545-151a-485a-84b7-1310fef5151c)) the socket `ControlPath` must be taken out of `.ssh/` and placed in a non-hidden folder, e.g. `~/tmp/`.
 			- [Hiccup](https://github.com/weavejester/hiccup) syntax
 			  id:: 66fbdf84-c5a4-4f96-aece-add980758db1
+			  collapsed:: true
 				- Logseq renders [HTML from Hiccup](https://docs.logseq.com/#/page/hiccup).
 				- Input [Tabler icons](https://tabler.io/icons) with `[:i.ti.ti-icon_name]`
 				  collapsed:: true
@@ -5526,7 +5527,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- Just right click a block's bullet and chose `Make a Template`, give it a name, then clone it with `/Template` and type/choose the given name.
 				- Supports [dynamic variables](https://docs.logseq.com/#/page/60311eda-b6f7-4779-8187-8830545b3a64).
-			-
+			- Embeddings
+			  collapsed:: true
+				- `![image](../assets/path/to/image){:width 111, :height 222}` displays the image in place.
+				- `![text file](../assets/path/to/file)` opens the text file in `Journal` window.
+				- `![PDF file](../assets/path/to/PDF)` opens the PDF file in a side pane.
+				-
 		- WAIT Custom ((66600918-8c61-42af-b8a2-04bf05e9f782)) via ((6673f8ff-995c-455f-ae09-49bcb5311e2e))
 		  id:: 6673f8bf-04c0-4f8f-bc36-982ce9cab87d
 		  collapsed:: true

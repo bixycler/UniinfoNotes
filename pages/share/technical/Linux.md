@@ -146,7 +146,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `--{info,question,warning,error}` are message dialogs with icons
 					- Icons: `--icon-name` (name only), `--window-icon` (/path/to/file, but doesn't work!)
 						- ((66725725-f76a-4328-b162-f469b87e871b))
-							- `dialog-information`: ![dialog-information.png](../assets/Linux/GNOME/icons/dialog-information.png)
+						  collapsed:: true
+							- `dialog-information`: ![dialog-information.png](../assets/Linux/GNOME/icons/dialog-information.png){:width 32}
+							- `gtk-dialog-question`: ![gtk-dialog-question.svg](../assets/Linux/GNOME/icons/gtk-dialog-question.svg){:width 32}
+							- `warning-small-symbolic`: ![warning-small-symbolic.svg](../assets/Linux/GNOME/icons/warning-small-symbolic.svg){:width 32}
+							- `dialog-warning`: ![dialog-warning.png](../assets/Linux/GNOME/icons/dialog-warning.png){:width 32}
+							- `dialog-error`: ![dialog-error.png](../assets/Linux/GNOME/icons/dialog-error.png){:width 32}
 				- Input dialogs
 					-
 				- `--notification`
