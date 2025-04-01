@@ -1134,7 +1134,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 					- I saw the cough reflex inside despite the very thin mucus, so i meditated to practice the technique of “entering dead state” again.
 					- Thanks to this mild cough, i discovered the technique of _**combining** both qigong when **inhale** and release when **exhale**_. This combination brought me to a deep meditative state.
+						- The inhalation brings up force, engergy for concentration and do things.
+						- The exhalation releases all of them, let me relax and fall back to the zero.
 				- Back to the office, the cold air made me get back to ujjayi breath for the continuous qigong without release.
+					- After the internal state was stablized, i can do some release, but still very limited compared to when outside in the warm air.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
