@@ -192,6 +192,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  :END:
 	- ### February
 	  id:: 67aac38f-1c60-42e9-a8c5-c262d11a82f0
+	  collapsed:: true
 		- We're witnessing the [braindumping](((db954501-95d0-46e2-b1fc-39b6a966300e))) and [current stories](((6788f004-d3df-41d4-afc8-c8c5ea52c51c))) and [current stasks](((677630fe-ea99-436f-b39f-8bd2295e2eaf))) stacking up!
 		  id:: 67aabd5c-5846-4b6d-84bd-8be5034dd958
 		  collapsed:: true
@@ -404,12 +405,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-02-23 Sun 17:55:32]
 		  :END:
 		- When writing some long descriptions of “dynamical system” vs. “dynamic system”, i'm struck by this:
+		  id:: 67bd4a6a-4385-4d45-8146-7c6e53fe77b7
 		  :LOGBOOK:
 		  CLOCK: [2025-02-25 Tue 11:45:17]
 		  :END:
 		  ((67bd4966-a768-46b9-b947-fac1273be081))
 			- Let's rephrase the construction “consider as” in [[FoC]].
 		- From the [conservation of curvature](((67bbde65-182a-4e2d-bdde-acf9b5ec124f))), from yesterday night to today morning, i've been contemplating the curvature & straightness (linearity) and see a long road ahead... Maybe i should start from an entry of ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) in the Mind Jungle.
+		  id:: 67bbe327-6899-4909-868d-4951b6b28685
 		  collapsed:: true
 			- I just remember [my formula of curvature ](((67bc5689-d4f1-4136-b775-92847ddd02f8))) $c = dφ/ds$ from high school 9th or 10th grade. There, i used the symbol $c$ for both English “curve” and Vietnamese “cong”. I'd thought that it was my "new concept" until i saw the definition of $κ = 1/r$ in some book.
 			- The intrinsic curvature of the thread, as the 2nd derivative of the [distribution of space](((67bda37c-7085-4a71-b5bf-6c4b54b3abdd))) on the line, is different from the extrinsic curvature of the line $κ = 1/r$.
@@ -429,6 +432,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  ==> this defines the computation inside the Quantum => geometry => physical laws
 				  #+END_QUOTE
 			- It's interesting that when searching for "circle of dynamic[s]", [Google Search AI declares](((67bd76db-a523-415e-8d4d-812593779ceb))) "circle of dynamic" to be “a conceptual model” and "circle of dynamics" to be “a concept in mathematics”, as if they're already established terms... but i think it's just an AI hallucination!
+	- ### March
 		- DONE Add [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language) "Textile (markup language)") to ~~both UniinfoNotes &~~ HTV's logseq-notes
 		  collapsed:: true
 		  :LOGBOOK:
@@ -438,6 +442,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Only add an external link to `Redmine working process`: [Textile formatting](https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile)
 		- [!?] markdown-watcher: sometimes, anchor links become ineffective, but i still don't know why!
 		- Update ((66600918-8c61-42af-b8a2-04bf05e9f782))
+		  id:: 67c97ba4-7e89-4e53-b531-4eb12e6c1580
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-03-06 Thu 17:42:08]
@@ -449,6 +454,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :END:
 			- I've just designed the overall flow for [updating block refs in Logseq publish](((67b541cf-618d-4607-bdd4-e1afcc8ce70c)))
 		- Let's write ((67ce5a8c-4885-4aaf-9215-60460717ae44)) 😜
+		  id:: 67ce5aad-3eda-403f-8860-bd1ce8e6a007
 		- While chatting with Copilot, i happened to know that ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))!
 		  id:: 67cea427-2865-4cba-98ec-58b0cf779682
 		  :LOGBOOK:
@@ -482,6 +488,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-03-21 Fri 08:28:14]
 		  :END:
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
+		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:24:25]
 		  :END:

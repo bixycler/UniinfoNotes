@@ -555,6 +555,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- {{video https://youtube.com/shorts/6gixzJygr2E}}
 			- I've been reminded about the _**reciprocal** relation of curvature between subject & object in all views_, as shown in ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)).
+			  id:: 67bbde65-92e3-4650-939f-eaa1669dc5fb
 			  collapsed:: true
 				- Various times previously, i've been deluded that when we “relax” all the curvatures of the world to restore its straightness, everything will be straight, flat, no more force!
 				- No! That's plain wrong! As the subject straightens the world of objects, the subject itself will be curved accordingly, as shown in the [unwrapped planes of the polar plane](((67b541c9-3b4e-4429-8c35-9afaf9f434bf))).
@@ -1137,6 +1138,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The inhalation brings up force, engergy for concentration and do things.
 						- The exhalation releases all of them, let me relax and fall back to the zero.
 				- Back to the office, the cold air made me get back to ujjayi breath for the continuous qigong without release.
+				  :LOGBOOK:
+				  CLOCK: [2025-04-01 Tue 10:25:53]
+				  :END:
 					- After the internal state was stablized, i can do some release, but still very limited compared to when outside in the warm air.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
