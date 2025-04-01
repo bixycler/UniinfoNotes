@@ -136,7 +136,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `zenity`
 			  id:: 67d2ad10-0ca8-4361-94d5-219cf9b737d5
 			  collapsed:: true
-			  display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/), and return (either in the return code or on standard output) the users input.
+			  display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/#dialogs), and return (either in the return code or on standard output) the users input.
 				- Return values:
 					- Command exit code: {`0`, `1`, `5`} for {OK, Cancel, timeout}
 					- Print to `stdout` the value user entered or chose.
@@ -1619,6 +1619,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `sequence` in ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464))
 					  id:: 66c70166-889c-419e-8fd0-79d404e63e00
 					  the order of launching determines which terminal to be placed where.
+		- `/usr/share/icons/`
+		  collapsed:: true
+			- Gnome: `/usr/share/icons/gnome/`
 	- ### Wayland
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
 		- [XWayland](https://wayland.freedesktop.org/xserver.html)
