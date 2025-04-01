@@ -10,8 +10,10 @@ now=$(date '+%H:%M:%S')
 dt="${today}_${now}"
 msg="Stop! Breath, Relax..."
 
+# First, show a short-timeout window to capture accidental inputs from user, if any
+( sleep 3; echo 100 ) |
+zenity --progress --no-cancel --auto-close --percentage=50 --width=500 --text="$msg"
 tension=0; problem=''
-zenity --progress --no-cancel --auto-close --percentage=50 --text="$msg"
 if ! zenity --question --icon-name=emblem-generic --title "${now}" --text="$msg"
 then
     if ! tension=$(zenity --list --title "${now}" --text "How much tension's remaining?\n(Escape for ♾️, \nenter blank to skip comments)"\
@@ -24,7 +26,7 @@ then
     if [[ -n ${tension} ]]; then
         tensionStr="${tension}%"
         [[ ${tension} == '-1' ]] && tensionStr='♾️' 
-        problem=$(zenity --entry --width 500 --title "${now}" --text "What's the problem with tension = ${tensionStr}?")
+        problem=$(zenity --entry --width=500 --title "${now}" --text "What's the problem with tension = ${tensionStr}?")
     else
         tension='0'
     fi

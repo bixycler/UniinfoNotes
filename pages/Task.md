@@ -64,6 +64,9 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 							  :LOGBOOK:
 							  CLOCK: [2025-04-01 Tue 11:04:18]
 							  :END:
+								- ```sh
+								  zenity --progress --no-cancel --auto-close --percentage=50 --width=500 --text="$msg"
+								  ```
 						- `zenity` has "option" collision with `-1`, _even after `--`!_ 
 						  ⇒ Add a space before -1: ` -1`
 			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced with a cron job or Logseq API call `UI.showMsg()`
