@@ -143,7 +143,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!
 				  id:: 67d3a821-ed1c-48d5-a935-bfab8a57cd8e
 					- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
-				- Message dialogs `--{info,question,warning,error}` with icon
+				- `--{info,question,warning,error}` are message dialogs with icons
 					- Icon: `--window-icon`, `--icon-name`
 				- Input dialogs
 					-
