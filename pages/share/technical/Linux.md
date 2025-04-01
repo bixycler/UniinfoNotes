@@ -154,10 +154,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							- `dialog-error`: ![dialog-error.png](../assets/Linux/GNOME/icons/dialog-error.png){:width 32}
 				- `--{entry,password,scale}` are input dialogs for user to enter text or a numeric value in a scale.
 				- `--{list,calendar,color-selection,file-selection}` are selection dialogs for user to choose items.
-				-
+				- `--forms` shows an input form which can contain text entries, password fields, calendars, description texts.
 				- `--notification`
 				  similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d))
-				-
+				- `--progress` shows a progress bar increments by inputs from `stdin`.
 		- file management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 		  collapsed:: true
