@@ -8,9 +8,11 @@ LOGF=${1:-$HOME/Documents/microreset.log}
 today=$(date '+%Y-%m-%d')
 now=$(date '+%H:%M:%S')
 dt="${today}_${now}"
+msg="Stop! Breath, Relax..."
 
 tension=0; problem=''
-if ! zenity --question --icon-name=emblem-generic --title "${now}" --text "Stop! Breath, Relax..."
+zenity --progress --no-cancel --auto-close --percentage=50 --text="$msg"
+if ! zenity --question --icon-name=emblem-generic --title "${now}" --text="$msg"
 then
     if ! tension=$(zenity --list --title "${now}" --text "How much tension's remaining?\n(Escape for ♾️, \nenter blank to skip comments)"\
         --height 400 --column "" --column "" -- \
