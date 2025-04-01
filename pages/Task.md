@@ -61,7 +61,8 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 						- `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit while working!
 						  id:: 67d3a821-ed1c-48d5-a935-bfab8a57cd8e
 							- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
-							- DOING ⇒
+							- DOING ⇒ add a dummy window to redirect inputs of the main `zenity` notification window.
+							  id:: 67eb65bc-78a4-4e6d-8a3c-dcc171b71235
 							  :LOGBOOK:
 							  CLOCK: [2025-04-01 Tue 11:04:18]
 							  :END:
