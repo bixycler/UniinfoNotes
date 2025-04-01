@@ -59,12 +59,14 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 					  ```
 					- Issues:
 						- ((67d3a821-ed1c-48d5-a935-bfab8a57cd8e))
-							- DOING ⇒ add a short-timeout window before the main `zenity` notification window to capture accidental inputs from user, if any.
+						  collapsed:: true
+							- ⇒ add a short-timeout window before the main `zenity` notification window to capture accidental inputs from user, if any.
 							  id:: 67eb65bc-78a4-4e6d-8a3c-dcc171b71235
 							  :LOGBOOK:
-							  CLOCK: [2025-04-01 Tue 11:04:18]
+							  CLOCK: [2025-04-01 Tue 11:04:18]--[2025-04-01 Tue 15:34:35] =>  04:30:17
 							  :END:
 								- ```sh
+								  ( sleep 3; echo 100 ) |
 								  zenity --progress --no-cancel --auto-close --percentage=50 --width=500 --text="$msg"
 								  ```
 						- `zenity` has "option" collision with `-1`, _even after `--`!_ 
