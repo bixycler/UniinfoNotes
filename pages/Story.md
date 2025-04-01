@@ -1128,10 +1128,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-04-01 Tue 09:55:06]
 			  :END:
-				- At the riverside, i reviewed
+				- At the riverside, i reviewed the practices for liberation. 
 				  :LOGBOOK:
 				  CLOCK: [2025-04-01 Tue 09:55:06]
 				  :END:
+					- I saw the cough reflex inside despite the very thin mucus, so i meditated to practice the technique of “entering dead state” again.
+					- Thanks to this mild cough, i discovered the technique of _**combining** both qigong when **inhale** and release when **exhale**_. This combination brought me to a deep meditative state.
+				- Back to the office, the cold air made me get back to ujjayi breath for the continuous qigong without release.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
