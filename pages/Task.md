@@ -59,7 +59,12 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 					  ```
 					- Issues:
 						- `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit while working!
+						  id:: 67d3a821-ed1c-48d5-a935-bfab8a57cd8e
 							- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
+							- DOING ⇒
+							  :LOGBOOK:
+							  CLOCK: [2025-04-01 Tue 11:04:18]
+							  :END:
 						- `zenity` has "option" collision with `-1`, _even after `--`!_ 
 						  ⇒ Add a space before -1: ` -1`
 			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced with a cron job or Logseq API call `UI.showMsg()`

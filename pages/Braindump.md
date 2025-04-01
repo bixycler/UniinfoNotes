@@ -491,6 +491,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: 67eb5f0b-6328-4b14-9425-a58a3b6718ca
 	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- Let's add a dummy window to redirect input of
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
