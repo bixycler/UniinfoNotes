@@ -135,9 +135,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- a path to an icon file, e.g. `/usr/share/icons/gnome/32x32/actions/system-log-out.png`
 			- `zenity`
 			  id:: 67d2ad10-0ca8-4361-94d5-219cf9b737d5
-			  display GTK+ dialogs, and return (either in the return code or on standard output) the users input.
+			  collapsed:: true
+			  display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/), and return (either in the return code or on standard output) the users input.
+				- Return values:
+					-
 				- `--notification`
 				  similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d))
+				- Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!
+				  id:: 67d3a821-ed1c-48d5-a935-bfab8a57cd8e
+					- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
+				-
 		- file management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 		  collapsed:: true
