@@ -1625,10 +1625,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- `/usr/share/icons/`
 		  collapsed:: true
 			- Yaru: default theme for Ubuntu
-				- `Yaru/scalable/`: `*-symbolic.svg` are [symbolic icons](https://wiki.gnome.org/Design/OS/SymbolicIcons), mostly monochrome and some low colors, for [various context-dependent usages](https://developer.gnome.org/hig/guidelines/ui-icons.html) instead of coloful app icons: actions in Clear-text fields, UI elements, etc.
-				- `Yaru/${scale}/`: coloful [app icons](https://developer.gnome.org/hig/guidelines/app-icons.html)
-			- Gnome: `/usr/share/icons/gnome/`
-			- Humanity: `/usr/share/icons/Humanity/`
+				- `Yaru/scalable/`: `*-symbolic.svg` are [symbolic icons](https://wiki.gnome.org/Design/OS/SymbolicIcons), mostly monochrome and some low colors instead of colorful [app icons](((67eb8856-16c0-4c50-8bc5-e00b32ddb51f))), for [various context-dependent usages](https://developer.gnome.org/hig/guidelines/ui-icons.html): UI elements, actions in Clear-text fields, etc.
+				- `Yaru/${scale}/`: colorful [app icons](https://developer.gnome.org/hig/guidelines/app-icons.html) for buttons and windows of applications
+				  id:: 67eb8856-16c0-4c50-8bc5-e00b32ddb51f
+			- Humanity: default theme for GTK
+			- Adwaita: default theme for GNOME
+			- Gnome: legacy GNOME theme
 			- Default Gnome (Tango) icons using ((67eb7908-267d-4091-840f-eaf405632317)): [shown on wikimedia](https://commons.wikimedia.org/wiki/GNOME_Desktop_icons)
 	- ### Wayland
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
