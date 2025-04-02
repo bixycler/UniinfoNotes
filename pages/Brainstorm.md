@@ -9,6 +9,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-04-02 Wed 19:06:19]
 		  :END:
+		- DOING normed space + parallelogram law = inner product space
+		  :LOGBOOK:
+		  CLOCK: [2025-04-02 Wed 19:53:56]
+		  CLOCK: [2025-04-02 Wed 19:54:26]
+		  :END:
 		- ...
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
