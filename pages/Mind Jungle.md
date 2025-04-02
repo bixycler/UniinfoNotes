@@ -604,7 +604,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- conics
 			  id:: 67ed24b6-777e-40b2-9c42-fbafe7a66a82
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67ed249b-742e-4944-b048-dd6bf68d45fd))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) [conic section](https://en.wikipedia.org/wiki/Conic_section)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67ed249b-742e-4944-b048-dd6bf68d45fd)) are different images of the [perfect](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))) circle projected onto a plane by different ((667251ec-d4f7-4c09-adff-73e04a4b22ed))s.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				-
 	- ## equal
 	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
 	  collapsed:: true
