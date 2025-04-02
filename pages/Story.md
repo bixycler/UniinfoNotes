@@ -1124,7 +1124,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-03-31 Mon 18:37:09]
 			  :END:
 				- Despite the mucus being clear and thin, i still got some coughs in the middle of the sleep.
-			- Tuesday, 1st April, ...
+			- Tuesday, 1st April, active breathing in meditation
 			  id:: 67eb5587-1606-468c-a728-c3ccfb23e561
 			  :LOGBOOK:
 			  CLOCK: [2025-04-01 Tue 09:55:06]

@@ -136,7 +136,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `zenity`
 			  id:: 67d2ad10-0ca8-4361-94d5-219cf9b737d5
 			  collapsed:: true
-			  display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/#dialogs), and return (either in the return code or on standard output) the users input.
+			  display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/#dialogs), and return the users input (either in the return code or on standard output).
 				- Return values:
 					- Command exit code: {`0`, `1`, `5`} for {OK, Cancel, timeout}
 					- Print to `stdout` the value user entered or chose.
@@ -147,7 +147,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- Icons: `--icon-name` (name only), `--window-icon` (/path/to/file, but doesn't work!)
 						- ((66725725-f76a-4328-b162-f469b87e871b))
 						  collapsed:: true
-							- `dialog-information`: ![dialog-information.png](../assets/Linux/GNOME/icons/dialog-information.png){:width 32}
+							- `gtk-dialog-info`: ![gtk-dialog-info.svg](../assets/Linux/GNOME/icons/gtk-dialog-info.svg){:width 32}
 							- `gtk-dialog-question`: ![gtk-dialog-question.svg](../assets/Linux/GNOME/icons/gtk-dialog-question.svg){:width 32}
 							- `warning-small-symbolic`: ![warning-small-symbolic.svg](../assets/Linux/GNOME/icons/warning-small-symbolic.svg){:width 32}
 							- `dialog-warning`: ![dialog-warning.png](../assets/Linux/GNOME/icons/dialog-warning.png){:width 32}
