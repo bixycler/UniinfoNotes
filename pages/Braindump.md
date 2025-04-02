@@ -501,5 +501,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:24:25]
 		  :END:
-		- From the [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))),
+		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed249b-742e-4944-b048-dd6bf68d45fd)) the in the MInd Jungle.
 		- ...
