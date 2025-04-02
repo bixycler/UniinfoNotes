@@ -595,19 +595,34 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 6716110f-c736-43d2-a8e8-f2d6d163bd4d
 			- #### radius
 			  id:: 670ce8c2-8c54-42c6-84cd-93703c1fa60f
-		- ### conic sections
+		- ### rotation
+		  id:: 67ed2855-1512-4db0-bc61-f714ea891106
+		  :LOGBOOK:
+		  CLOCK: [2025-04-02 Wed 19:09:10]
+		  :END:
+		  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((67ed285c-62ef-4608-9f6e-b642c7bc5d77))
+			- rotate
+			  id:: 67ed285c-62ef-4608-9f6e-b642c7bc5d77
+			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((67ed2855-1512-4db0-bc61-f714ea891106))
+		- ### conic section
 		  id:: 67ed249b-742e-4944-b048-dd6bf68d45fd
 		  :LOGBOOK:
 		  CLOCK: [2025-04-02 Wed 18:51:25]
 		  :END:
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67ed24b6-777e-40b2-9c42-fbafe7a66a82))
-			- conics
+			- conic
 			  id:: 67ed24b6-777e-40b2-9c42-fbafe7a66a82
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67ed249b-742e-4944-b048-dd6bf68d45fd))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) [conic section](https://en.wikipedia.org/wiki/Conic_section)
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67ed249b-742e-4944-b048-dd6bf68d45fd)) are different images of the [perfect](((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))) circle projected onto a plane by different ((667251ec-d4f7-4c09-adff-73e04a4b22ed))s.
-			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				-
+			- #### conic rotation
+			  id:: 67ed28ed-9acb-4458-be90-c11bebec7f0f
+			  :LOGBOOK:
+			  CLOCK: [2025-04-02 Wed 19:09:35]
+			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) is the ((67ed2855-1512-4db0-bc61-f714ea891106)) along a ((67ed249b-742e-4944-b048-dd6bf68d45fd)).
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa))
 	- ## equal
 	  id:: 6653751a-a1b4-44b0-a81e-0a446eb8918c
 	  collapsed:: true
