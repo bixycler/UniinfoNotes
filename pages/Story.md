@@ -809,6 +809,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Limit: When they are shifted to infinity with $t→∞$, they all converge to the point $(dx:dy:0)$. This is how all parallel lines “converge” to the point at infinity.
 						- I.e., point at infinity is just the direction vector $\vec{v}$ of the line $l$, as well as all other lines parallel to $l$.
 					- The translation by $\vec{v} = (dx:dy:0)$ is actually a **rotation** due to its [*scale invariance*](((67e1004d-1533-483b-ab39-4b91ffbedbdd))) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$].
+					  id:: 67e0fb13-1c89-4f27-825e-02027f368fa2
 					  :LOGBOOK:
 					  CLOCK: [2025-03-24 Mon 13:59:25]--[2025-03-31 Mon 18:40:44] =>  172:41:19
 					  :END:

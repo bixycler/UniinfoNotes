@@ -501,4 +501,5 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:24:25]
 		  :END:
+		- From the [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))),
 		- ...
