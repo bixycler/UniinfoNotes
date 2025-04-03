@@ -952,7 +952,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Created ((67e299fa-4f76-482a-b586-adacb17dc064))
 				- Before sleep, in the restroom, i recalled that the hyperbolic rotation is just a plane projection (conic section) of the parabolic rotation projected onto the light cone which was shown in my very first GeoGebra applet [MixedCoords](https://www.geogebra.org/m/jeexkfrd).
 				  collapsed:: true
-					- The dual view of parabolic & hyperbolic rotations is also the dual view of projective thread and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).
+					- The dual view of parabolic & hyperbolic rotations is also the dual view of **projective thread** with inner product and [function graphing](https://en.wikipedia.org/wiki/Graph_of_a_function) on [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates).
 					  id:: 67e37475-13e3-4a9f-af60-7bec7517c108
 					- Ironically, i met the dual view of projective thread & function graphing (around 2018) long after the dicovery of the “mixed coordinates” (before 2015) without recognizing they are one. Moreover, the projective nature of conic sections, i.e. [“why slicing the cone”](https://www.geogebra.org/m/nknaryzz), was discovered much later, only when i studied projective geometry (2020).
 					- History of graphing of functions, loci of relations (curves), and trajectories of objects
@@ -961,13 +961,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- René Descartes (1596–1650) is often credited with formalizing the use of orthogonal coordinates (the [Cartesian plane](https://en.wikipedia.org/wiki/Cartesian_plane)) in his work *La Géométrie* (1637), where he introduced the idea of representing algebraic equations as geometric curves.
 						- Pierre de Fermat (1601–1665) independently developed similar ideas around the same time. Fermat worked on a treatise titled *Ad locus planos et solidos isagoge*, which outlined concepts of analytic geometry, but he did not publish his work widely.
 					- History of vector analysis
-						- Newton and Leibniz utilized Cartesian coordinates to develop the calculus of differential and integral, laying groundwork the field of vector analysis, like the [parallelogram law](https://en.wikipedia.org/wiki/Parallelogram_law) in *Principia Mathematica* (1687), and of linear algebra, like the solution of linear systems by Leibniz in 1693.
+						- Newton and Leibniz utilized Cartesian coordinates to develop the calculus of differential and integral, laying groundwork for the field of vector analysis, like the [parallelogram law](https://en.wikipedia.org/wiki/Parallelogram_law) in *Principia Mathematica* (1687), and for linear algebra, like the solution of linear systems by Leibniz in 1693.
 						- By the end of 18th century and early 19th century, [complex number](https://en.wikipedia.org/wiki/Complex_number) was brought to the Cartesian plane, called [complex plane](https://en.wikipedia.org/wiki/Complex_plane), by Caspar Wessel (1797), Jean-Robert Argand (1806), and Carl Friedrich Gauss (early 19th century).
 							- Ironically, while Descartes gave the name “[imaginary number](https://en.wikipedia.org/wiki/Imaginary_number)” to $i$, he didn't put complex numbers onto his own Cartesian plane!
 						- Hamilton invented the [quaternion numbers](https://en.wikipedia.org/wiki/Quaternion) (1843), extending the complex numbers, to handle mechanics in 3D space properly, esp. the 3D rotation and [scalar product](https://en.wikipedia.org/wiki/Dot_product).
 						- In 1844 Hermann Grassmann published his "Theory of Extension" founding the modern [linear algebra](https://en.wikipedia.org/wiki/Linear_algebra) with "inner product" for [scalar product](https://en.wikipedia.org/wiki/Dot_product) and "outer product" for [exterior product](https://en.wikipedia.org/wiki/Exterior_product). Because his theory predated vector calculus, he use terms like “stretch” to call the modern notion of “vector”.
 						- Near the end of the 19th century, Gibbs and Heaviside simplified the 4D quaternions to create the [vector calculus](https://en.wikipedia.org/wiki/Vector_calculus) for 3D space, as shown in the book *Vector Analysis* (1901). This was in parallel with the development of [vector space](https://en.wikipedia.org/wiki/Vector_space) for linear algebra by Peano in 1888 and Salvatore Pincherle in 1897.
-					- History of the projective thread of relation between quantities.
+					- History of the **projective thread** of relation between quantities.
 					  id:: 67e3b3e4-66d6-4c72-92d1-faeef2cf2165
 					  :LOGBOOK:
 					  CLOCK: [2025-03-27 Thu 12:52:34]--[2025-03-28 Fri 18:59:13] =>  30:06:39
