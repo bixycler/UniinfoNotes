@@ -28,6 +28,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- parallelogram law ⇒ inner product ⇒ orthogonality ⇒ Pythagorean theorem
 				- Pythagorean theorem + structure of inner product space ⇒ ((67ee0ea8-b68d-4adc-8d57-2f0a7be16d22)) ⇒ parallelogram law
 			- [parallelogram law](https://en.wikipedia.org/wiki/Parallelogram_law): $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2$
+			  collapsed:: true
 			  square sum of four sides = square sum of two diagonals
 				- ⇐ Generalized: [Euler's quadrilateral theorem](https://en.wikipedia.org/wiki/Euler%27s_quadrilateral_theorem): $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2 + DP_D^2$
 				  for any quadrilateral $ABCD$: square sum of four sides = square sum of two diagonals and deviation from parallelogram
@@ -39,6 +40,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  $2MN = AP_A = BP_B = CP_C = DP_D$ = deviation from parallelogram
 				- ⇒ Specialized: [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem): $AB^2 + BC^2 = AC^2$
 				  for right angle $∠ABC = 90°$
+			-
 		- ...
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
