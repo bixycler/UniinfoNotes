@@ -16,7 +16,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-04-02 Wed 19:54:26]
 		  :END:
 			- Sum of squares is just the [diagonalized version](https://en.wikipedia.org/wiki/Diagonal_form) of [quadratic form](https://en.wikipedia.org/wiki/Quadratic_form).
-				- (Squared) norm and parallelogram law are diagonals (sums of squares), whereas inner product is
+				- (Squared) norm and parallelogram law are relations on the diagonal (of squares, zero angle), whereas inner product is the relation at anywhere (any angle).
 			- [parallelogram law](https://en.wikipedia.org/wiki/Parallelogram_law): $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2$
 			  square sum of four sides = square sum of two diagonals
 				- ⇐ Generalized: [Euler's quadrilateral theorem](https://en.wikipedia.org/wiki/Euler%27s_quadrilateral_theorem): $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2 + DP_D^2$
