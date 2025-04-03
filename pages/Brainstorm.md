@@ -17,12 +17,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- [parallelogram law](https://en.wikipedia.org/wiki/Parallelogram_law): $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2$
 			  square sum of four sides = square sum of two diagonals
-				- ⇐ Generalized: [Euler's quadrilateral theorem](https://en.wikipedia.org/wiki/Euler%27s_quadrilateral_theorem): $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2 + CE^2$
+				- ⇐ Generalized: [Euler's quadrilateral theorem](https://en.wikipedia.org/wiki/Euler%27s_quadrilateral_theorem): $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2 + DP_D^2$
 				  for any quadrilateral $ABCD$: square sum of four sides = square sum of two diagonals and deviation from parallelogram
-					- Here, $E$ is the “parallelized point” of $C$, i.e., $ABED$ is the parallelogram erected from the triangle $ABD$.
-					- That means $CE$ is the deviation of $ABCD$ from the parallelogram ($ABED$).
-					- When $M, N$ are midpoints of the two diagonals $AC, BD$, we have another formula:
+					- Here, $P_D$ is the “parallelized point” of $D$, i.e., $ABCP_D$ is the parallelogram erected from the triangle $ABC$.
+						- That means $DP_D$ is the deviation of $ABCD$ from the parallelogram $ABCP_D$.
+					- When $M, N$ are midpoints of the two diagonals $AC, BD$, then $DP_D = 2MN$, we have another formula:
 					  $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2 + (2MN)^2$
+						- This shows that the **deviation from parallelogram** can be calculated fron any vertex of the quadrilateral $ABCD$:
+						  $2MN = AP_A = BP_B = CP_C = DP_D$
 				- ⇒ Specialized: [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem): $AB^2 + BC^2 = AC^2$
 				  for right angle $∠ABC = 90°$
 			- Parallelogram Law ⇒ Inner Product ⇒ Orthogonality
