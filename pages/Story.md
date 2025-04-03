@@ -781,6 +781,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- From afternoon to midnight, i researched various themes in which the most prominent one is [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) at last.
 				  id:: 67dcf2d3-4020-4477-b375-9bbb8c0b1336
 				  collapsed:: true
+					- The homogeneous coordinates is created from the Cartesian coordinates, as the screen, using the basic technique of projective geometry: “step back to look forward at the screen” or “fly up to look down at the screen”.
 					- Scale invariance: thanks to ratios $(x:y:z)$, instead of absolute values $(x,y,z)$, the homogeneous coordinates are unchanged throughout all z-scaled planes: $(x:y:z) = (x/z : y/z : 1)⋅z$.
 					  id:: 67e1004d-1533-483b-ab39-4b91ffbedbdd
 					- Point $P = (x_0 : y_0 : 1) = (x_0, y_0)$ [on Euclidean plane $z = 1$] $= P_z = (x_0⋅z : y_0⋅z : z)$ [for z-scaled Euclidean plane $z≠0$] $= (x_0 : y_0 : 1)⋅z =$ line $(x_0, y_0)⋅t$ [in 3D]

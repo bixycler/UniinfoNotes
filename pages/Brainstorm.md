@@ -36,7 +36,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This is the ((67ee3a68-db55-49a9-947a-9399b4c3e3fa))
 				  collapsed:: true
 					- ![PipeWrapping-Denso-Korean-2009.jpg](../assets/Uniinfo/Unithread/PipeWrapping-Denso-Korean-2009.jpg)
-				- From tangent ratio (angle 45°-90°), use projective geometry technique of “step back/up an look” $y = 1/(1+x)$, we turn it into inner product (angle 0°-90°):
+				- From tangent ratio (angle 45°-90°), use the projective geometry technique of “step back/up to look” $y = 1/(1+x)$, we turn it into inner product (angle 0°-90°): $\cos^{2}θ=1/(1+\tan^{2}θ)$
 			- [parallelogram law](https://en.wikipedia.org/wiki/Parallelogram_law): $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2$
 			  collapsed:: true
 			  square sum of four sides = square sum of two diagonals
