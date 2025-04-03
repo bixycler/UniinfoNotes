@@ -4,15 +4,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	-
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
-		- DOING Conic rotations: rotation (from circular) = flow (from parabolic) = transformation (from hyperbolic)
+		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-02 Wed 19:06:19]
 		  :END:
-			- Circle = rotation
-			- Arrow = shift = flow
-			- Equal = transformation = product = projection
+			- Circle = rotation → angle
+			- Arrow = shift = flow → distance (displacement)
+			- Equal = transformation = product = projection → scale
+			- angle (area) = square of distance = log of scale
 		- DOING normed space + parallelogram law = inner product space
 		  collapsed:: true
 		  :LOGBOOK:
