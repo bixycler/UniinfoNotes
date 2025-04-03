@@ -17,7 +17,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- parallelogram law: $AC^2 + BD^2 = AB^2 + BC^2 + CD^2 + DA^2$
 			  square sum of diagonals = square sum of sides
-			- Pythagorean theorem: $AC^2 = AB^2 + BC^2$
+				- Pythagorean theorem: $AC^2 = AB^2 + BC^2$
 			- Parallelogram Law ⇒ Inner Product ⇒ Orthogonality
 			- Orthogonality ⇒ Pythagorean Theorem
 			- Pythagorean Theorem + Context ⇒ "Roundness"
