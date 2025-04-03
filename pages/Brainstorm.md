@@ -27,10 +27,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  $2MN = AP_A = BP_B = CP_C = DP_D$ = deviation from parallelogram
 				- ⇒ Specialized: [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem): $AB^2 + BC^2 = AC^2$
 				  for right angle $∠ABC = 90°$
-			- Parallelogram Law ⇒ Inner Product ⇒ Orthogonality
-			- Orthogonality ⇒ Pythagorean Theorem
-			- Pythagorean Theorem + Context ⇒ "Roundness"
-			- "Roundness" ⇒ Parallelogram Law
+			-
+			- Relations
+				- Parallelogram Law ⇒ Inner Product ⇒ Orthogonality
+				- Orthogonality ⇒ Pythagorean Theorem
+				- Pythagorean Theorem + Context ⇒ "Roundness"
+				- "Roundness" ⇒ Parallelogram Law
 		- ...
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
