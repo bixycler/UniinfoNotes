@@ -581,6 +581,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [?] Relation to [refraction](https://en.wikipedia.org/wiki/Refraction)?
 		- ### round
 		  id:: 66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((67ee0ea8-b68d-4adc-8d57-2f0a7be16d22))
+			- roundness
+			  id:: 67ee0ea8-b68d-4adc-8d57-2f0a7be16d22
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((66ab6170-ea0d-4bd7-be7a-2e226a7ea7ee)) is ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) when every point in that shape has the same distance, called ((670ce8c2-8c54-42c6-84cd-93703c1fa60f)), to a fixed point called ((66ab7477-c060-4d07-ab13-bc3d11246854)), i.e. it has [circular symetry](https://en.wikipedia.org/wiki/Circular_symmetry). A round cycle is a perfect and ((66e3ed78-8815-4dcc-964c-5bc8325405dd)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), i.e. a **true circle**.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66960ee2-d6dd-404b-a9d0-96340fce3cd2))
