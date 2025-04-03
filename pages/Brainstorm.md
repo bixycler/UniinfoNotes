@@ -27,8 +27,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Relations
 				- parallelogram law ⇒ inner product ⇒ orthogonality ⇒ Pythagorean theorem
 				- Pythagorean theorem + structure of inner product space ⇒ ((67ee0ea8-b68d-4adc-8d57-2f0a7be16d22)) ⇒ parallelogram law
-			- Inner product of unit vectors = ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))
+			- DOING Inner product of unit vectors = ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))
 			  id:: 67ee2e11-9371-4290-94c0-95f2e5bf8c54
+			  :LOGBOOK:
+			  CLOCK: [2025-04-03 Thu 14:01:54]
+			  :END:
 				-
 			- [parallelogram law](https://en.wikipedia.org/wiki/Parallelogram_law): $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2$
 			  collapsed:: true
