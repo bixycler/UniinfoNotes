@@ -33,6 +33,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  CLOCK: [2025-04-03 Thu 14:01:54]
 			  :END:
 				- This is the ((67ee3a68-db55-49a9-947a-9399b4c3e3fa))
+				  collapsed:: true
+					- ![PipeWrapping-Denso-Korean-2009.jpg](../assets/Uniinfo/Unithread/PipeWrapping-Denso-Korean-2009.jpg)
 			- [parallelogram law](https://en.wikipedia.org/wiki/Parallelogram_law): $AB^2 + BC^2 + CD^2 + DA^2 = AC^2 + BD^2$
 			  collapsed:: true
 			  square sum of four sides = square sum of two diagonals
