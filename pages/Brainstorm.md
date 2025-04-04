@@ -14,7 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Circle (circular) = rotation = exponential → angle
 				- Arrow (parabolic) = shift = flow = addition → distance (displacement)
 				- Equal (hyperbolic) = transformation = product = projection = multiplication → scale
-			- $\tan⋅\cot = 1 \;\; ⇔ \;\; \sin^2 + \cos^2 = 1 \;\; ⇔ \;\; φ + φ_c = ∟$
+			- $\tan⋅\cot = 1 \;\; ⇔ \;\; \sin^2 + \cos^2 = 1 \;\; ⇔ \;\; φ + φ_c = ∟$ (hyp ⇔ cir ⇔ par)
 		- DOING normed space + parallelogram law = inner product space
 		  collapsed:: true
 		  :LOGBOOK:
