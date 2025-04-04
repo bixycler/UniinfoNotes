@@ -10,10 +10,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-04-02 Wed 19:06:19]
 		  :END:
-			- Circle = rotation → angle
-			- Arrow = shift = flow → distance (displacement)
-			- Equal = transformation = product = projection → scale
 			- angle (area) = square of distance = log of scale
+				- Circle (circular) = rotation = exponential → angle
+				- Arrow (parabolic) = shift = flow = addition → distance (displacement)
+				- Equal (hyperbolic) = transformation = product = projection = multiplication → scale
 		- DOING normed space + parallelogram law = inner product space
 		  collapsed:: true
 		  :LOGBOOK:
