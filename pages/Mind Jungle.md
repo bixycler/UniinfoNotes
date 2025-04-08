@@ -4048,6 +4048,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 66faa5f9-96d5-4d40-a118-0adcedfc016a
 						- App location: `/var/lib/flatpak/app/com.logseq.Logseq/current/active/files/logseq/`
 							- mounted to `/app/logseq/` in `flatpak run` sandbox.
+							  id:: 67f4eaf0-bc2c-470d-9590-be149267e750
 							- Cache (`instance-path`): `${HOME}/.var/app/com.logseq.Logseq/cache/`
 						- ((66faaa5c-6a8a-42d9-a1bc-410531dbaf81)): `${HOME}/{.logseq,.var/app/com.logseq.Logseq/config/Logseq}/`
 					- The Snap app on Snap Store (Ubuntu Software) is stable but suffers limitations of the ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)).
@@ -4586,10 +4587,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  ```
 										  Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!
 										  ```
-									- But until today, 8th April, does the issue of ghost UUID appear... after a `reboot` command!
-										- Something may be broken in this sudden reboot, e.g. NGINX service has been failed to start.
+									- But until today, 8th April, does the issue of ghost UUID appear... after a system `reboot` command!
+										- Something may be broken in this **sudden reboot**, e.g. NGINX service has been failed to start.
+											- So a `restart` (`gnome-session-quit --reboot`) is safer than a `reboot` (`/usr/sbin/reboot`).
 										- [?] Why the first 2 times of removing graph DB and reload app didn't take effect?
-											-
+											- Maybe some caches were still remaining in the [Flatpack sandbox](((67f4eaf0-bc2c-470d-9590-be149267e750)))!?
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
