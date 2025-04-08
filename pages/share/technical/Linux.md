@@ -104,7 +104,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `pgrep`, `pkill`, `pidwait`
 			  look up, signal, or wait for processes based on process name pattern and other attributes.
 			- `kill`, `killall`
-			  send a signal (`TERM`, `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid or process name.
+			  collapsed:: true
+			  send a signal (`TERM` [default], `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid (with `kill`) or process name (with `killall`).
+				- The default `TERM` is the **nicest** signal: The process is given time to gracefully shutdown, and even to ignore this signal.
+				- To send `KILL` signal.
 			- `pstree`
 			  display a tree of processes.
 			- `top`
