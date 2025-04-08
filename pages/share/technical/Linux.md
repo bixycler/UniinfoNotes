@@ -105,9 +105,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  look up, signal, or wait for processes based on process name pattern and other attributes.
 			- `kill`, `killall`
 			  collapsed:: true
-			  send a signal (`TERM` [default], `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid (with `kill`) or process name (with `killall`).
-				- The default `TERM` is the **nicest** signal: The process is given time to gracefully shutdown, and even to ignore this signal.
-				- To send `KILL` signal.
+			  send a signal (`TERM` [default], `KILL`, `STOP`, `QUIT`, `INT`, `HUP`, `CONT`) to a process via pid (with `kill`) or process name (with `killall`).
+				- To **force** stop, send `KILL` signal: `kill -s KILL` or `kill -9`
+				- The default `TERM` is the **nicest** signal: The process is given time to gracefully shutdown, and even to **ignore** this signal.
+					- `INT` = `Ctrl` `C` (≈ `TERM`): Interrupt the process, but can be **ignored**.
+					- `HUP`: Disconnects a process from the parent process, or **restart** the process.
+					- `QUIT`:
 			- `pstree`
 			  display a tree of processes.
 			- `top`
