@@ -105,12 +105,15 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  look up, signal, or wait for processes based on process name pattern and other attributes.
 			- `kill`, `killall`
 			  collapsed:: true
-			  send a signal (`TERM` [default], `KILL`, `STOP`, `QUIT`, `INT`, `HUP`, `CONT`) to a process via pid (with `kill`) or process name (with `killall`).
-				- To **force** stop, send `KILL` signal: `kill -s KILL` or `kill -9`
-				- The default `TERM` is the **nicest** signal: The process is given time to gracefully shutdown, and even to **ignore** this signal.
-					- `INT` = `Ctrl` `C` (≈ `TERM`): Interrupt the process, but can be **ignored**.
-					- `HUP`: Disconnects a process from the parent process, or **restart** the process.
-					- `QUIT`:
+			  send a signal (`TERM` [default], `KILL`, `STOP`, `QUIT`, `INT`, `HUP`, `CONT`, `NULL`) to a process via pid (with `kill`) or process name (with `killall`).
+				- To **force** stop, send `KILL` = `9` signal: `kill -s KILL` or `kill -9`
+					- `STOP` = `24`: The OS pauses the process and cannot be ignored.
+				- The default `TERM` = `15` is the **nicest** signal: The process is given time to gracefully shutdown, and even to **ignore** this signal.
+					- `INT` = `2` = `Ctrl` `C` (≈ `TERM`): Interrupt the process, but can be **ignored**.
+					  id:: 67f4fa57-ed02-48ee-a72c-366cf83748c2
+					- `QUIT` = `3` = `Ctrl` `D` = [INT](((67f4fa57-ed02-48ee-a72c-366cf83748c2))) + core dump
+					- `HUP` = `1`: Disconnects a process from the parent process, or **restart** the process.
+				- `NULL` = `0`:
 			- `pstree`
 			  display a tree of processes.
 			- `top`
