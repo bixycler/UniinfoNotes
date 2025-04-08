@@ -1147,5 +1147,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- After the internal state was stablized, i can do some release, but still very limited compared to when outside in the warm air.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- Hùng Kings Festival
+		- Hùng Kings Festival, meeting with Ms. Trung, Mr. Hiệp, and online sharing about “mastering birth, aging, sickness and death” with ego death & living in the present.
+		  id:: 67f4c7e0-7de0-48c4-83fd-4b994960efba
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-08 Tue 13:54:47]
+		  :END:
+			- Last Friday, 4th April, on the occation that Ms. Trung came to Saigon to to on-site translation, we had a quick gathering at a coffe shop.
+			- Saturday morning, i met Mr. Hiệp to have deeper sharings, where i suggested him to use his sleep to contemplate his .
 		- ...
