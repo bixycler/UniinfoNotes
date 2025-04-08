@@ -51,7 +51,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 					  ```
 					- My `env`
 					  ```sh
-					  $ env |grep -E 'DBUS|DISPLAY'                                                             [f03cd3a]
+					  $ env |grep -E 'DBUS|DISPLAY'
 					  DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
 					  DISPLAY=:0
 					  GNOME_SETUP_DISPLAY=:1
