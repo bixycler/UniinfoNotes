@@ -529,10 +529,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  CLOCK: [2025-04-08 Tue 17:52:38]
 		  :END:
 			- `systemctl`
+			  Control the `systemd` system and **service manager**.
 			- `gnome-session-quit`
-				- `--reboot`
+			  id:: 67f4ffeb-5e02-4fd5-bd33-19abc23f60aa
+			  `--logout`|`--power-off`|`--reboot`
+			  End the current GNOME session.
 			- `shutdown`
-				- `poweroff`, `reboot`, `halt`
+			  id:: 67f500dd-ff43-46ec-b9e0-9dcc097b2bc3
+			  `poweroff`, `reboot`, or `halt` the machine.
+				- Note: ((67f4ffeb-5e02-4fd5-bd33-19abc23f60aa)) is safer than ((67f500dd-ff43-46ec-b9e0-9dcc097b2bc3)).
+				  id:: 67f4f5e3-e739-41cd-8b95-14c7bbe9eebe
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
