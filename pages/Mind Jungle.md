@@ -4540,9 +4540,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									     moved from [[Mind Jungle]] to [[Linux]]
 									- They were fixed in [commit `6a6477ed`](https://github.com/bixycler/UniinfoNotes/commit/6a6477ed)
 								- Change details for `66949495-3846-4f89-9ea5-c62b624d282c` [((66949495-3846-4f89-9ea5-c62b624d282c))]
-									- a04b60d0: add id to the old slot in Mind Jungle => ((667bfebf-a319-46be-a795-d7fc9c156363))!
-									- 926acf05: move `Linux` from [[Mind Jungle]] to [[Linux]]
-									- 70e37387: add `Linux` to [[Mind Jungle]]
+									- `a04b60d0`: add id to the old slot in Mind Jungle => ((667bfebf-a319-46be-a795-d7fc9c156363))!
+									- `926acf05`: move `Linux` from [[Mind Jungle]] to [[Linux]]
+									- `70e37387`: add `Linux` to [[Mind Jungle]]
 								- Change details for `6673f8bf-04c0-4f8f-bc36-982ce9cab87d` []
 									- It was first drafted in Workspace, then moved to Mind Jungle.
 									- Since then, the id was **moved back and forth** between the empty block in Workspace and the block in Mind Jungle.
@@ -4570,6 +4570,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Note: `History` was also moved from [[Workspace]] to [[Task]] but does not have similar problem!?! Maybe because the old slot was at the last place of [[Workspace]] which was removed completely so that no other block could be mistaken as “the old block” .
 									- `1ae146f4`: move `History` from [[Workspace]] to [[Task]]
 									- `ea416165`: create `History` in [[Workspace]]
+								- Removing graph DB `.transit` file doesn't take effect... until the 3rd time! 🤔 
+								  :LOGBOOK:
+								  CLOCK: [2025-04-08 Tue 16:51:31]
+								  :END:
+								  ```sh
+								  rm -r logseq/bak
+								  mv ~/.logseq/graphs/logseq_local_++home++dinhlx++source++UniinfoNotes.transit ~/.logseq/
+								  ```
+									- commit `e5396c10`: Created block at [[Task]] with `id::` `67d3a821-ed1c-48d5-a935-bfab8a57cd8e`
+									- commit `ad522fa5`: Moved it to [[Linux]] and link back to [[Task]] via block ref `((67d3a821-ed1c-48d5-a935-bfab8a57cd8e))`: `` ((67d3a821-ed1c-48d5-a935-bfab8a57cd8e))
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
