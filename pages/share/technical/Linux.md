@@ -537,7 +537,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `shutdown`
 			  id:: 67f500dd-ff43-46ec-b9e0-9dcc097b2bc3
 			  `poweroff`, `reboot`, or `halt` the machine.
-				- Note: ((67f4ffeb-5e02-4fd5-bd33-19abc23f60aa)) is safer than ((67f500dd-ff43-46ec-b9e0-9dcc097b2bc3)).
+				- Note: ((67f4ffeb-5e02-4fd5-bd33-19abc23f60aa)) could be safer than ((67f500dd-ff43-46ec-b9e0-9dcc097b2bc3)).
 				  id:: 67f4f5e3-e739-41cd-8b95-14c7bbe9eebe
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`

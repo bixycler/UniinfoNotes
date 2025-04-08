@@ -4590,7 +4590,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  ```
 									- But until today, 8th April, does the issue of ghost UUID appear... after a system `reboot` command!
 										- Something may be broken in this **sudden reboot**, e.g. NGINX service has been failed to start.
-											- So let's always use `restart` (`gnome-session-quit --reboot`), because ((67f4f5e3-e739-41cd-8b95-14c7bbe9eebe))
+										  id:: 67f50958-c8c9-4c11-943d-5efca5b7f12f
+											- I've tested and confirmed that `restart` (`gnome-session-quit --reboot`) has the same effect as `reboot` (`/usr/sbin/reboot --no-wall`), even if ((67f4f5e3-e739-41cd-8b95-14c7bbe9eebe))
 										- [?] Why the first 2 times of removing graph DB and reload app didn't take effect?
 											- Maybe some caches were still remaining in the [Flatpack sandbox](((67f4eaf0-bc2c-470d-9590-be149267e750)))!?
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}

@@ -499,12 +499,24 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-04-08 Tue 13:58:12]
 		  CLOCK: [2025-04-08 Tue 13:58:20]
 		  :END:
+		- From this issue: ((67f50958-c8c9-4c11-943d-5efca5b7f12f))
+		  id:: 67f509e1-525d-4d74-9b5a-b40367cd1b72
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-08 Tue 18:41:02]
+		  :END:
+			- Let's try moving `67f4f5e3-e739-41cd-8b95-14c7bbe9eebe` from Logseq's ((67f4eaf0-f9c3-4257-a221-eccf0e92535d)) to [[Linux]]'s ((67f4ffe3-488c-4d61-9622-26ecbed945ac)).
+			  :LOGBOOK:
+			  CLOCK: [2025-04-08 Tue 17:55:16]
+			  :END:
+				- ⇒ No issue with both `gnome-session-quit --reboot` and `reboot`.
+		- DOING Let's add a task at 17:30
+		  :LOGBOOK:
+		  CLOCK: [2025-04-08 Tue 18:41:39]
+		  CLOCK: [2025-04-08 Tue 18:42:00]
+		  :END:
 	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Let's try moving `67f4f5e3-e739-41cd-8b95-14c7bbe9eebe` from Logseq's ((67f4eaf0-f9c3-4257-a221-eccf0e92535d)) to [[Linux]]'s ((67f4ffe3-488c-4d61-9622-26ecbed945ac)).
-		  :LOGBOOK:
-		  CLOCK: [2025-04-08 Tue 17:55:16]
-		  :END:
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
