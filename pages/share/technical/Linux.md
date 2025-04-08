@@ -108,12 +108,14 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  send a signal (`TERM` [default], `KILL`, `STOP`, `QUIT`, `INT`, `HUP`, `CONT`, `NULL`) to a process via pid (with `kill`) or process name (with `killall`).
 				- To **force** stop, send `KILL` = `9` signal: `kill -s KILL` or `kill -9`
 					- `STOP` = `24`: The OS pauses the process and cannot be ignored.
+					  id:: 67f4fd18-2a1a-43bb-9d67-710bfe096615
+					- `CONT` = `26`: Resume the process after being paused by [STOP](((67f4fd18-2a1a-43bb-9d67-710bfe096615))).
 				- The default `TERM` = `15` is the **nicest** signal: The process is given time to gracefully shutdown, and even to **ignore** this signal.
 					- `INT` = `2` = `Ctrl` `C` (≈ `TERM`): Interrupt the process, but can be **ignored**.
 					  id:: 67f4fa57-ed02-48ee-a72c-366cf83748c2
 					- `QUIT` = `3` = `Ctrl` `D` = [INT](((67f4fa57-ed02-48ee-a72c-366cf83748c2))) + core dump
 					- `HUP` = `1`: Disconnects a process from the parent process, or **restart** the process.
-				- `NULL` = `0`:
+				- `NULL` = `0`: Sending no signal, just **check** validity of a PID: whether the process is running and this user as permission to access it.
 			- `pstree`
 			  display a tree of processes.
 			- `top`
@@ -520,6 +522,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `noerror` to continue on any input error
 					- `swab`, `sync` to swap every pair of bytes, or/and pad input block to `ibs`
 					- `lcase`|`ucase`, `block`|`unblock` to convert text to lower/upper case, or/and padding/unpadding spaces to line to reach `cbs`
+		- system handling
+		  id:: 67f4ffe3-488c-4d61-9622-26ecbed945ac
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-08 Tue 17:52:38]
+		  :END:
+			-
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
