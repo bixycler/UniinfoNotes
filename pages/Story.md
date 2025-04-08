@@ -714,7 +714,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Another interesting paper about [Quantum 'yin-yang' shows two photons being entangled in real-time](https://www.livescience.com/physics-mathematics/quantum-physics/quantum-yin-yang-shows-two-photons-being-entangled-in-real-time): [Interferometric imaging of amplitude and phase of spatial biphoton states](https://www.nature.com/articles/s41566-023-01272-3)
 			  collapsed:: true
 				- ![Quantum-yin-yang.jpg](../assets/Will/story/2025-Mar/Quantum-yin-yang.jpg)
-		- The second experience of drowning via cough reflex, from 13rd March to April
+		- The second experience of drowning via cough reflex, from 13rd March to 1st April
 		  id:: 67dcc012-44d3-4041-b17a-0ef201b3ff6c
 		  collapsed:: true
 		  :LOGBOOK:
