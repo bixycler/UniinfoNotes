@@ -4568,9 +4568,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- `f95e1668`: add the block with id to Workspace
 										  2024/06/23
 								- Note: `History` was also moved from [[Workspace]] to [[Task]] but does not have similar problem!?! Maybe because the old slot was at the last place of [[Workspace]] which was removed completely so that no other block could be mistaken as “the old block” .
+								  id:: 67f4eaf0-b3b1-460d-9caa-4a6bd2b7973a
 									- `1ae146f4`: move `History` from [[Workspace]] to [[Task]]
 									- `ea416165`: create `History` in [[Workspace]]
 								- Removing graph DB `.transit` file doesn't take effect... until the 3rd time! 🤔 
+								  id:: 67f4f19d-3bb0-41ad-8d94-ab93c3c543a9
 								  :LOGBOOK:
 								  CLOCK: [2025-04-08 Tue 16:51:31]
 								  :END:
@@ -4578,8 +4580,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  rm -r logseq/bak
 								  mv ~/.logseq/graphs/logseq_local_++home++dinhlx++source++UniinfoNotes.transit ~/.logseq/
 								  ```
-									- commit `e5396c10`: Created block at [[Task]] with `id::` `67d3a821-ed1c-48d5-a935-bfab8a57cd8e`
-									- commit `ad522fa5`: Moved it to [[Linux]] and link back to [[Task]] via block ref `((67d3a821-ed1c-48d5-a935-bfab8a57cd8e))`: `` ((67d3a821-ed1c-48d5-a935-bfab8a57cd8e))
+									- The move was done from April 1st
+										- commit `e5396c10`: Created block at [[Task]] with `id::` `67d3a821-ed1c-48d5-a935-bfab8a57cd8e`
+										- commit `ad522fa5`: Moved it to [[Linux]] and link back to [[Task]] via block ref `((67d3a821-ed1c-48d5-a935-bfab8a57cd8e))`:
+										  ```
+										  Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!
+										  ```
+									- But until today, 8th April, does the issue of ghost UUID appear... after a `reboot` command!
+										- Something may be broken in this sudden reboot, e.g. NGINX service has been failed to start.
+										- [?] Why the first 2 times of removing graph DB and reload app didn't take effect?
+											-
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
