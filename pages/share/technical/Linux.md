@@ -528,7 +528,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  :LOGBOOK:
 		  CLOCK: [2025-04-08 Tue 17:52:38]
 		  :END:
-			-
+			- `systemctl`
+			- `gnome-session-quit`
+				- `--reboot`
+			- `shutdown`
+				- `poweroff`, `reboot`, `halt`
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
