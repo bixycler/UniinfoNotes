@@ -908,6 +908,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
 							  ...
 							  ```
+			- Shell & environment variables
+				-
 			- `$-` special parameters
 			  collapsed:: true
 				- `$$`: pid of the running shell (script)
@@ -920,10 +922,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `$n`: n-th argument
 				- `$?`: exit status of the last command executed
 				- `$!`: pid of the last background command
-				- `$-`: the current set of enabled shell options given through `-o` of the current shell, e.g. `himBH` = (`histexpand`, `interactive`, `monitor`, `braceexpand`, `hashall`).
+				- `$-`: the current set of enabled shell options given through `-o` of the current shell, 
 				  :LOGBOOK:
 				  CLOCK: [2025-03-14 Fri 11:12:27]--[2025-03-14 Fri 13:50:18] =>  02:37:51
 				  :END:
+				  e.g., `himBH` = (`histexpand`, `interactive`, `monitor`, `braceexpand`, `hashall`).
 			- String variable manipulations
 			  collapsed:: true
 				- `${#var}`
