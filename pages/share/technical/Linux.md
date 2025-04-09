@@ -101,11 +101,19 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- ((66c6c8e6-54be-4b4f-80a1-c535d429d05c))
 			- `pidof`
 			  find the pid of a process via process name.
-			- `pgrep`, `pkill`, `pidwait`
-			  look up, signal, or wait for processes based on process name pattern and other attributes.
+			- `pgrep`, `pkill`, `pidwait` `$xregex`
+			  collapsed:: true
+			  look up, signal, or wait for processes based on process name pattern (Extended Regular Expression) and other attributes.
+				- `-f`, `--full`: Match against the full command line (with arguments), instead of only the process name as normal.
+				- `-v`, `--inverse`: Negates the matching.
+				  collapsed:: true
+					- Note, in `pkill`, the short option `-v` is disabled to avoid accidental usage of the option.
+				- `-x`, `--exact`: Match exactly.
+				- Options for `pgrep`
+					- `-l`, `--list-name`, `-a`, `--list-full`: List PID and process name/
 			- `kill`, `killall`
 			  collapsed:: true
-			  send a signal (`TERM` [default], `KILL`, `STOP`, `QUIT`, `INT`, `HUP`, `CONT`, `NULL`) to a process via pid (with `kill`) or process name (with `killall`).
+			  send a signal (`TERM` [default], `KILL`, `STOP`, `QUIT`, `INT`, `HUP`, `CONT`, `NULL`) to process(es) via pid (with `kill`) or process name (with `killall`).
 				- To **force** stop, send `KILL` = `9` signal: `kill -s KILL` or `kill -9`
 					- `STOP` = `24`: The OS pauses the process and cannot be ignored.
 					  id:: 67f4fd18-2a1a-43bb-9d67-710bfe096615
