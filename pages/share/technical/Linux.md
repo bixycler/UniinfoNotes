@@ -909,7 +909,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ...
 							  ```
 			- Shell & environment variables
-				-
+				- Note: there's no way to
 			- `$-` special parameters
 			  collapsed:: true
 				- `$$`: pid of the running shell (script)
