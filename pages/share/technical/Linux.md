@@ -104,14 +104,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `pgrep`, `pkill`, `pidwait` `$xregex`
 			  collapsed:: true
 			  look up, signal, or wait for processes based on process name pattern (Extended Regular Expression) and other attributes.
+				- `-s`, `-$signal`: see list of signals in ((67f4eaf8-4b5d-4807-ab6f-d43cd38c4860))
 				- `-f`, `--full`: Match against the full command line (with arguments), instead of only the process name as normal.
 				- `-v`, `--inverse`: Negates the matching.
 				  collapsed:: true
 					- Note, in `pkill`, the short option `-v` is disabled to avoid accidental usage of the option.
 				- `-x`, `--exact`: Match exactly.
 				- Options for `pgrep`
-					- `-l`, `--list-name`, `-a`, `--list-full`: List PID and process name/
+					- `-l`, `--list-name`, `-a`, `--list-full`: List PID and process name or full command line.
 			- `kill`, `killall`
+			  id:: 67f4eaf8-4b5d-4807-ab6f-d43cd38c4860
 			  collapsed:: true
 			  send a signal (`TERM` [default], `KILL`, `STOP`, `QUIT`, `INT`, `HUP`, `CONT`, `NULL`) to process(es) via pid (with `kill`) or process name (with `killall`).
 				- To **force** stop, send `KILL` = `9` signal: `kill -s KILL` or `kill -9`
