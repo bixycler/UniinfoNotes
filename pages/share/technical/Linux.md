@@ -914,7 +914,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  CLOCK: [2025-04-09 Wed 15:30:43]
 			  :END:
 				- **Shell variables** are local to the current shell and its sub-shells only. They are anavailable to other subprocesses spawned by this shell.
-					- Check shell vars: `set | grep varname`
+					- Check shell vars: `set | grep varname`, `declare -p varname`
 					- Scoping and typing with `declare`
 						- Within a function, `var=val` ⇔ `declare -g var=val` declares a **global var**, while 
 						  `local var=val` ⇔ `declare var=val` declares a **local var**.
