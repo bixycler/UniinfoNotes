@@ -536,12 +536,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Add ((67f6185f-5efc-4fd0-b924-c175917092d8)) with ((67f61875-3740-45ce-ae88-1c5aed77435a))
-		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-09 Wed 14:58:05]
 		  CLOCK: [2025-04-09 Wed 14:58:07]
 		  :END:
 			- Occation: i was confused again with the statement `export CATALINA_OPTS` in `skygserv/config/shell/setenv.sh`
+			- Copilot helps me a lot here!
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
