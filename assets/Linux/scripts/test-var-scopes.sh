@@ -24,5 +24,6 @@ local_readonly(){
 }
 
 echo "global lrvar=$lrvar"
-f
-g
+declare_r
+local_then_readonly
+local_readonly

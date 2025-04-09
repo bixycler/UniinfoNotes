@@ -910,6 +910,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ```
 			- Shell & environment variables
 			  id:: 67f6185f-5efc-4fd0-b924-c175917092d8
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-04-09 Wed 15:30:43]
 			  :END:
@@ -992,6 +993,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- [Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
 			- Command grouping
 			  id:: 67f4eaf7-9214-44a6-a607-885930ade2de
+			  collapsed:: true
 				- Compound command
 				  includes many commands combined by `;`, `||`, `&&`.
 					- Sub-shell `(` Compound command `)`
