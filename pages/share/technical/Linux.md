@@ -910,18 +910,22 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ```
 			- Shell & environment variables
 			  id:: 67f6185f-5efc-4fd0-b924-c175917092d8
+			  :LOGBOOK:
+			  CLOCK: [2025-04-09 Wed 15:30:43]
+			  :END:
 				- **Shell variables** are local to the current shell and its sub-shells only. They are anavailable to other subprocesses spawned by this shell.
 					- Check shell vars: `set | grep varname`
 				- **Environment variables** are shell vars `export`ed to all **subprocesses** spawned by this shell.
 					- Check env.vars: `export | grep varname`, `env | grep varname`, `printenv varname`
 					- Beside the standard `export` command, `csh` provides `setenv` = `export`.
-					- **One-time env.vars**: `[env] var=val $command` will execute `$command` with env.var `$var` containing value `val`, then discard them.
+					- **One-time env.vars**: `[env] var=val $command` will execute `$command` with temporary env.var `$var` containing value `val`, then discard them.
 						- `env` is only required for old version of `sudo` and some old commands like `doas`.
 				- Nuances... warning: very confusing! 🤪
 				  id:: 67f61875-3740-45ce-ae88-1c5aed77435a
 					- There's _**no way** to export a variable **out to parent** shell!_ The name `export` is so misleading: It only “exports” vars downward to its own subprocesses!!!
 					- `sudo` sanitizes (resets) all env.vars by default for security, unless explicitly requested to preserve them with `-E`, `--preserve-env`, `--preserve-env=list`.
 					- **Sub-shells** by [compound command](((67d2df4a-52c6-4b11-85ba-ad28f82fd77e))) and ((67d25330-736b-464e-a926-ccd0771082eb)) _inherits **read-only values** of all shell vars_ of their parent shell. So no need to export for these sub-shells to use, but they cannot return values through these vars.
+						- Warning: `sh $command` is treated as a normal _**subprocesses**, not a sub-shell_!
 			- `$-` special parameters
 			  collapsed:: true
 				- `$$`: pid of the running shell (script)
