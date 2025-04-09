@@ -911,8 +911,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Shell & environment variables
 				- Shell variables are local to the current shell
 				- Nuances... lots of nuances
-					- There's _**no way** to export a variable **out to parent** shell!_ The name `export` is so misleading: It only "exports" vars downward to its own sub-shells!!!
-					- `sudo` sanitize (reset) all env.vars by default, unless
+					- There's _**no way** to export a variable **out to parent** shell!_ The name `export` is so misleading: It only "exports" vars downward to its own sub-processes!!!
+					- `sudo` sanitizes (resets) all env.vars by default for security, unless explicitly requested to preserve them with `-E`, `--preserve-env`, `--preserve-env=list`.
+					- **“Built-in sub-shells”** by [compound command](((67d2df4a-52c6-4b11-85ba-ad28f82fd77e))) and ((67d25330-736b-464e-a926-ccd0771082eb)) _inherits **read-only values** of all shell vars_ of their parent shell. So no need to export for these built-in sub-shells.
 			- `$-` special parameters
 			  collapsed:: true
 				- `$$`: pid of the running shell (script)
@@ -972,6 +973,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
 					- [Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
 			- Command grouping
+			  id:: 67f4eaf7-9214-44a6-a607-885930ade2de
 				- Compound command
 				  includes many commands combined by `;`, `||`, `&&`.
 					- Sub-shell `(` Compound command `)`
