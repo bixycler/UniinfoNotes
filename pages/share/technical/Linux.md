@@ -910,7 +910,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ```
 			- Shell & environment variables
 				- Shell variables are local to the current shell
-				- Note: There's no way to export a variable out to parent shell! The name `export` is so misleading: It only "exports" vars downward to its own sub-shells!!!
+				- Nuances... lots of nuances
+					- There's _**no way** to export a variable **out to parent** shell!_ The name `export` is so misleading: It only "exports" vars downward to its own sub-shells!!!
+					- `sudo` sanitize (reset) all env.vars by default, unless
 			- `$-` special parameters
 			  collapsed:: true
 				- `$$`: pid of the running shell (script)
