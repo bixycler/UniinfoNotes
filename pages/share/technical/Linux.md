@@ -916,7 +916,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- **Shell variables** are local to the current shell and its sub-shells only. They are anavailable to other subprocesses spawned by this shell.
 					- Check shell vars: `set | grep varname`
 					- Scoping and typing with `declare`
-						-
+						- Within a function, `var=val` ⇔ `declare -g var=val` declaring a global var, while 
+						  `local var=val` ⇔ `declare var=val` declaring a local var
 				- **Environment variables** are shell vars `export`ed to all **subprocesses** spawned by this shell.
 					- Check env.vars: `export | grep varname`, `env | grep varname`, `printenv varname`
 					- Beside the standard `export` command, `csh` provides `setenv` = `export`.
