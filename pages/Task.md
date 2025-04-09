@@ -16,7 +16,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  CLOCK: [2025-01-10 Fri 18:40:54]--[2025-01-10 Fri 19:27:42] =>  00:46:48
 		  CLOCK: [2025-01-13 Mon 19:05:31]--[2025-01-13 Mon 20:14:12] =>  01:08:41
 		  :END:
-		- DONE [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for microresetting & miniresetting
+		- DONE [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for [microresetting](((67cff615-ec0d-4831-9851-59410cb89cf1))) & miniresetting
 		  id:: 67d10c06-3fe3-4691-95c0-84278a2dc713
 		  collapsed:: true
 		  :LOGBOOK:
