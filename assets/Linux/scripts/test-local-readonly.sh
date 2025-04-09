@@ -41,7 +41,7 @@ readonly_local(){
 echo "global lrvar=$lrvar"
 declare_r
 local_then_readonly
-readonly_then_local
+#readonly_then_local
 local_readonly
 readonly_local
 echo "global lrvar=$lrvar"
