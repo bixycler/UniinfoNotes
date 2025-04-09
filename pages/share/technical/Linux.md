@@ -924,7 +924,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- `readonly` ≈ `declare -r` but *not exactly*!
 							- `readonly var=val` ⇔ `var=val; readonly var`
 								- While `declare -r` declares a new var, global outside function or local inside function, `readonly` only modify the read-only attribute of a declared var.
-							- `local readonly lr=val` doesn't work: `$lr` can be modified later!
+							- `readonly local` works but `local readonly` doesn't! 😵‍💫🤪
 							- Test script: ![test-var-scopes.sh](../assets/Linux/scripts/test-var-scopes.sh)
 				- **Environment variables** are shell vars `export`ed to all **subprocesses** spawned by this shell.
 				  id:: 67f6257e-455e-46f1-8225-8510f60b8b47
