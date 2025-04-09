@@ -1,15 +1,23 @@
 #!/bin/bash
-shcmd=$(ps -p $$ -o comm='')
-echo "Shell: $shcmd"
 lrvar='global lrvar'
-f(){
-    local readonly lrvar='local readonly'
+declare_r(){
+    echo 'declare_r()-----------'
+    declare -r lrvar='local readonly'
     echo "local lrvar=$lrvar"
     lrvar='locally changed'
     echo "local lrvar=$lrvar" 
 }
-g(){
-    declare -r lrvar='local readonly'
+local_then_readonly(){
+    echo 'local_then_readonly()-----------'
+    local lrvar='local readonly'
+    readonly lrvar
+    echo "local lrvar=$lrvar"
+    lrvar='locally changed'
+    echo "local lrvar=$lrvar" 
+}
+local_readonly(){
+    echo 'local_readonly()-----------'
+    local readonly lrvar='local readonly'
     echo "local lrvar=$lrvar"
     lrvar='locally changed'
     echo "local lrvar=$lrvar" 
