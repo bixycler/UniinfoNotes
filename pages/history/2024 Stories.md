@@ -998,9 +998,9 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  [§ 134](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL134) [Shorter Logic]
 		  > When thus explicitly stated, _the phenomenon is **relativity** or **correlation**_...
 		- Hegel summarized them like this: [§ 989](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455) [Greater Logic]
-			- > At first, form stands opposed to essence; it is then the simple ground relation, and its determinations are the ground and the grounded.
-			- > Secondly, it stands opposed to matter; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.
-			- > Lastly, it stands opposed to content; and then its determinations are again form itself and matter.
+			- > At first, **form** stands opposed to **essence**; it is then the simple ground relation, and its determinations are the ground and the grounded.
+			- > Secondly, it stands opposed to **matter**; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.
+			- > Lastly, it stands opposed to **content**; and then its determinations are again form itself and matter.
 		- ((66c33468-23d5-44d7-955e-6711cb608157))
 			- Chat with Gemini: [Hegel's Philosophy of Form](https://gemini.google.com/app/c8e4b0ec829815c2)
 			- [Marxists Internet Archive Encyclopedia](https://www.marxists.org/glossary/index.htm) >

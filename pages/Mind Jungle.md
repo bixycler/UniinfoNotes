@@ -2807,6 +2807,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) is the abstraction & crystallization of mutual ((670e0fef-2a46-450b-b043-176cccfc804a))s between the components.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- Hegel also showed this unity via the [world of appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm).
+					  id:: 67f4eaf0-31af-45ad-a843-1a9e03aec79b
 					  collapsed:: true
 						- {{embed ((67123b17-b024-414a-a5dd-ba05965eefe7))}}
 						  {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
