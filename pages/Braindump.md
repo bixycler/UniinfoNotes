@@ -543,6 +543,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Copilot helps me a lot here!
 	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- Walking back to the office from the morning riverside sitting, i felt an urge to write down the complex of “free will” via ((671b160c-0589-4f83-a778-a9fb4df6783a)), ((66725144-6bc9-4c9f-ba48-2cef02651e52)), agency & ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-10 Thu 09:38:28]
+		  :END:
+			- faa
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
