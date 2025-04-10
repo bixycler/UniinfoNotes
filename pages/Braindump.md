@@ -548,7 +548,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-04-10 Thu 09:38:28]
 		  :END:
-			- faa
+			- Representative > agent > controller > master
+			- The “sense of agency” is more about “autonomy” than representativeness.
+			- “agent” = “subject of action”
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
