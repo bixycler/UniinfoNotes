@@ -551,8 +551,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Representative > agent > controller > master
 			- The “sense of agency” is more about “autonomy” than representativeness.
 			- “agent” = “subject of action”
-			- Layers of re-re-re-...presentatives are just like the layers of ((66ab6161-0306-42d5-ac16-4155c69216f5))s in Hegel's [world of appearance](((67123b17-b024-414a-a5dd-ba05965eefe7)))
-				- >
+			- Layers of re-re-re-...presentatives are just like the layers of ((665ca429-84e3-49ff-921e-c07d19cd99ba))s and ((66ab6161-0306-42d5-ac16-4155c69216f5))s in Hegel's [world of appearances](((67123b17-b024-414a-a5dd-ba05965eefe7))) (phenomenal world)
+				- > ... the phenomenon accordingly goes on to an endless mediation of subsistence by means of form, and thus equally by non-subsistence.
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
