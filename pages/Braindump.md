@@ -551,10 +551,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 			- “free will” = “free” [((671b160c-0589-4f83-a778-a9fb4df6783a))] + “will” [intention, determination]
 				- free = independent = orthogonal = unrelated = separated
-				- will = intention → determination = self-control → control → dominate → master
+				- will = intention = agency → determination = self-control → control → dominate → master
 			- Representative > agent > controller > master
 			- The “sense of agency” is more about “autonomy” than representativeness.
-			- “agent” = “subject of action”
+			- “agent” = “initiator & subject of action”
 			- Layers of re-re-re-...presentatives are just like the layers of ((665ca429-84e3-49ff-921e-c07d19cd99ba))s and ((66ab6161-0306-42d5-ac16-4155c69216f5))s in Hegel's [world of appearances](((67123b17-b024-414a-a5dd-ba05965eefe7))) (phenomenal world)
 				- [§ 132](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL132) [Shorter Logic] > Essense > Appearance > The World of Appearances
 				  > ... the phenomenon accordingly _goes on to an **endless mediation**_ of subsistence _by means of **form**_, and thus equally by non-subsistence.
