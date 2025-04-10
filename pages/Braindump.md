@@ -551,7 +551,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 			- “free will” = “free” [((671b160c-0589-4f83-a778-a9fb4df6783a))] + “will” [intention, determination]
 				- free = independent = orthogonal = unrelated = separated
-				- will = determination → control
+				- will = intention → determination = self-control → control → dominate → master
 			- Representative > agent > controller > master
 			- The “sense of agency” is more about “autonomy” than representativeness.
 			- “agent” = “subject of action”
