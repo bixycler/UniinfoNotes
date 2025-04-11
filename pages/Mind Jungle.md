@@ -310,6 +310,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### self circle
 		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as belonging to itself. This is the extension of the ((66c810a0-9861-4787-bdcf-1378219332be)).
+			-
 		- ### self-essence
 		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
@@ -323,6 +324,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
 			- Hurricane's structure resembles the self's structure
 			  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
+			  collapsed:: true
 				- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
 				- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)).
 				- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the ((66c810a0-9861-4787-bdcf-1378219332be)).
