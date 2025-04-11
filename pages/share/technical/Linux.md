@@ -134,6 +134,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  display "top network" interfaces.
 			- `nethogs`
 			  NetHogs displays 'net top' processes.
+			- `jobs`, `disown`, `nohup`, `bg`, `fg`
+			  collapsed:: true
+			  Manage shell jobs (background processes).
+				- [disown](https://www.cyberciti.biz/faq/unix-linux-disown-command-examples-usage-syntax/)
 		- window handling
 		  collapsed:: true
 			- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
