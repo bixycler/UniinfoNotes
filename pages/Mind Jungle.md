@@ -296,6 +296,29 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- equilibrium = balance = optimum = least resource consumption = least action (S min) = max entropy = perfect circle **within a view**, not absolutely!!!
 		- all balance will be broken spontaneously = radioactive decay = all circles will be open = intrinsic dynamic
 		- black hole distortion: inside intrinsic static <> outside intrinsic dynamic <=> Zeno arrow paradox
+	- ## mind
+	  id:: 67f90bf0-ebcd-46fa-b99d-eda9bbbd3522
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2025-04-11 Fri 19:32:51]
+	  :END:
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is ... in contrast to the ((66c810a0-9861-4787-bdcf-1378219332be)).
+		- ### consciousness
+		  id:: 67f90c9f-2ee6-4265-9cb6-6a7c5091b775
+		  :LOGBOOK:
+		  CLOCK: [2025-04-11 Fri 19:36:03]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) mano-vijñāna
+		- ### subconsciousness
+		  :LOGBOOK:
+		  CLOCK: [2025-04-11 Fri 19:36:03]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) mānas-vijñāna
+		- ### unconsciousness
+		  :LOGBOOK:
+		  CLOCK: [2025-04-11 Fri 19:36:03]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ālāya-vijñāna
 	- ## self
 	  id:: 667c015e-6223-4f8a-ae84-a93a49f4ff94
 	  collapsed:: true
@@ -312,7 +335,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as itself and belonging to itself. There are various self circles:
 				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle self circle.
 				- Outside, we have many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
-				- Inside, we have many intensions of the body: mind, consciousness, subconsciousness, unconsciousness, ((66c8772a-9b29-45b0-b169-2fa847333e02))
+				- Inside, we have many intensions of the body: ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)), consciousness, subconsciousness, unconsciousness, ((66c8772a-9b29-45b0-b169-2fa847333e02))
 		- ### self-essence
 		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
