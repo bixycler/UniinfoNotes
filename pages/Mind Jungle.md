@@ -309,7 +309,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) from that subject to itself. This circle can be extended to the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the "I", or can be ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))ed to the pure ((669a2697-56af-445c-9197-24aa498a5d5b)) within the subject, i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)), the "soul", the "spirit" in contrast to the ((66c810a0-9861-4787-bdcf-1378219332be)).
 		- ### self circle
 		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as belonging to itself. This is the extension of the ((66c810a0-9861-4787-bdcf-1378219332be)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as itself and belonging to itself. There are various self circles:
+				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle circle
+				- Outside, we have all belongings the extension of the .
 			-
 		- ### self-essence
 		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
