@@ -310,9 +310,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### self circle
 		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as itself and belonging to itself. There are various self circles:
-				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle circle
-				- Outside, we have all belongings the extension of the .
-			-
+				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle self circle.
+				- Outside, we have many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
+				- Inside, we have many intensions of the body: mind, consciousness, subconsciousness, unconsciousness, ((66c8772a-9b29-45b0-b169-2fa847333e02))
 		- ### self-essence
 		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
