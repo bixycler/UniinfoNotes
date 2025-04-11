@@ -303,18 +303,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2025-04-11 Fri 19:32:51]
 	  :END:
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is ... in contrast to the ((66c810a0-9861-4787-bdcf-1378219332be)).
+			- [Eightfold network of primary consciousnesses](https://en.wikipedia.org/wiki/Eight_Consciousnesses)
 		- ### consciousness
 		  id:: 67f90c9f-2ee6-4265-9cb6-6a7c5091b775
 		  :LOGBOOK:
 		  CLOCK: [2025-04-11 Fri 19:36:03]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) mano-vijñāna
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) mano-vijñāna, ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), ((66f2681b-796a-4e25-b778-ba4fb6419425))
 		- ### subconsciousness
+		  id:: 67f90ce4-e12a-4133-bdec-b73684152322
 		  :LOGBOOK:
 		  CLOCK: [2025-04-11 Fri 19:36:03]
 		  :END:
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) mānas-vijñāna
 		- ### unconsciousness
+		  id:: 67f90ce8-d597-47a0-ad73-43b9e546c096
 		  :LOGBOOK:
 		  CLOCK: [2025-04-11 Fri 19:36:03]
 		  :END:
@@ -335,7 +338,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as itself and belonging to itself. There are various self circles:
 				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle self circle.
 				- Outside, we have many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
-				- Inside, we have many intensions of the body: ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)), consciousness, subconsciousness, unconsciousness, ((66c8772a-9b29-45b0-b169-2fa847333e02))
+				- Inside, we have many intensions of the body: ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
+		- ### sense of self
+		  id:: 67f9100a-b749-4354-ae16-92dc74ff27da
+		  :LOGBOOK:
+		  CLOCK: [2025-04-11 Fri 19:50:21]
+		  CLOCK: [2025-04-11 Fri 19:50:22]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67f91046-34ed-4bb4-a006-db2c33aeabf7)), ((67f91050-a86c-4176-87ca-91010a8fe3c0))
+			- sense of agency
+			  id:: 67f91046-34ed-4bb4-a006-db2c33aeabf7
+			- sense of free will
+			  id:: 67f91050-a86c-4176-87ca-91010a8fe3c0
 		- ### self-essence
 		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
