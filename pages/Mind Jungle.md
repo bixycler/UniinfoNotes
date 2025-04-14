@@ -294,6 +294,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Temporal circle: “storage” is the compact circle in space to be transported through time to be “source again” at later time for later uses.
 		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “re-source” = “source again” = “rise again” = “flow up again”
 			- “source” ← Latin “surgere” = “sub” + “regere” = “flow[regere] (up) from below[sub]” = “rise up”
+			- “tài nguyên” [財源] = “nguồn tiền”
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Resource = between content & form: crystallized to form, vaporized to content 
 			    = currency = sensor = balancer bringing diff (content) back to sim (form) = energy = action (S) in mechanics = worker = maintainer of self = weaver of form = driver of content = mixer of content & form = constructor of self form & destructor of other form
@@ -1100,7 +1101,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Each **transformation** is composed by many ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))s, i.e. many ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))s through many eyes.
 					  id:: 67f4eaf0-b935-45ea-b8ba-b06cbfba5d23
 						- ![TransformationByViewcones](https://docs.google.com/drawings/d/e/2PACX-1vQkpgx-mFPxBN8-TEgjmYe3VUhnPDxCoT62R43d3qyz5VzxJoZkZtczBrbMNN3dCEuYSoC9_dpihS0I/pub?w=320)
-					- A **thread** is spun by *transformations of various forms*.
+					- Each **thread** is spun by *transformations of various forms*.
 					- Some threads are *solidified* into **relations** to weave the **body** (memory, knowledge, structure) of the subject itself.
 					- The subject uses the knowledge accumulated in its body to [direct the arrow of light](((671b5623-9f23-447f-b5be-5b87e4f72f83))), and so on.
 				- Arrow of ((66723642-58f1-4a74-bba3-0108f14c6bac))ing is an inverse projection from the current state back to some past instance, i.e. ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) <-> ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
@@ -2875,6 +2876,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a source ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a target form of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((67f4eaf0-b935-45ea-b8ba-b06cbfba5d23)).
+				- ![TransformationByViewcones](https://docs.google.com/drawings/d/e/2PACX-1vQkpgx-mFPxBN8-TEgjmYe3VUhnPDxCoT62R43d3qyz5VzxJoZkZtczBrbMNN3dCEuYSoC9_dpihS0I/pub?w=320)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
 				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
