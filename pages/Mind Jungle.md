@@ -572,7 +572,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 667d15b7-6364-49a9-ac58-c64d2a992b63
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [physical arrow](https://en.wikipedia.org/wiki/Arrow) [projectile](https://en.wikipedia.org/wiki/Projectile), ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is abstracted into a [symbol (→)](https://en.wikipedia.org/wiki/Arrow_(symbol)) representing many aspects of meaning, including direction "from A to B" (A → B), differentiation "B is different from A" (B ← A), relation "A is related to B" (A → B), mapping, transformation, projection, etc.
-		- Components: tail >--[body]--> head
+		- Components: tail ⤚[body]→ head
 		  collapsed:: true
 			- concrete body
 			  id:: 669de102-8f98-4d96-bf00-4f4e602cb689
@@ -589,10 +589,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  of an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) is the part connecting the ((669e007d-7336-4010-be08-e54e962eae2e)) and ((669de25b-a52b-4eed-99a0-4ba86b9ee5ea)).
 				- In many theories (maths & informatics), only the abstract body is used as an "arrow", e.g. function, morphism, mapping, etc.
 		- ((66725725-f76a-4328-b162-f469b87e871b))
-			- source → target: morphism
+			- source → target: ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), morphism
 			  id:: 669df777-8863-439f-8a0a-7b95a8e2bba5
-			- source → sink: flow
-			- source → destination: transportation
+			- source → sink: ((67fcbbc6-915b-4d28-b9cf-098e916cdc86))
+			- origin → destination: transportation
 			- object → image: ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
 			- domain → range: mapping
 			- input → output: function, process
@@ -2915,7 +2915,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcc51e-2e15-4f82-8b7e-0e2bd0170d60)) of a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is the ((669e007d-7336-4010-be08-e54e962eae2e)) of the arrow of that transformation.
 			- target
 			  id:: 67fcc52c-7f2b-4d50-9cef-f5edc45c4d7c
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcc51e-2e15-4f82-8b7e-0e2bd0170d60)) of a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is the ((669e007d-7336-4010-be08-e54e962eae2e)) of the arrow of that transformation.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcc52c-7f2b-4d50-9cef-f5edc45c4d7c)) of a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is the ((669de25b-a52b-4eed-99a0-4ba86b9ee5ea)) of the arrow of that transformation.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
 				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
