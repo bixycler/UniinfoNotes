@@ -867,6 +867,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-04-14 Mon 14:49:05]
 		  :END:
+		- ### circular flow
+		  id:: 67fcbee7-da00-45d8-bb21-deefb95d164e
+		  :LOGBOOK:
+		  CLOCK: [2025-04-14 Mon 14:49:05]
+		  :END:
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67fcbefb-63b6-438a-a676-82293350d71b))
+			- circuit
+			  id:: 67fcbefb-63b6-438a-a676-82293350d71b
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67fcbee7-da00-45d8-bb21-deefb95d164e))
+		- ### current
+		  :LOGBOOK:
+		  CLOCK: [2025-04-14 Mon 14:49:05]
+		  :END:
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
 	  collapsed:: true
