@@ -290,7 +290,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2024-08-12 Mon 08:38:11]
 	  :END:
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669f3107-a33a-4b26-a636-6da62fa5520e)) = “packed source” is the accumulation of continuous sources into packages (forms, circles) so that they can be transported to remote places and stored for later uses, hence “circle source” and “source again”.
-			- While “transportation” is the circulation extending in space, “storage” is the circulation in time
+			- Spatial circle: “transportation” is the circulation of the original source around in space
+			- Temporal circle: “storage” is the compact circle in space to be transported through time to be “source again” at later time for later uses.
 		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “re-source” = “source again” = “rise again” = “flow up again”
 			- “source” ← Latin “surgere” = “sub” + “regere” = “flow[regere] (up) from below[sub]” = “rise up”
 		- Resource = between content & form: crystallized to form, vaporized to content 
