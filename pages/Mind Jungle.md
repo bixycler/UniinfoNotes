@@ -859,13 +859,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2025-04-14 Mon 14:40:16]
 	  :END:
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) is the continuation of ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s by joining their arrows [head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), all flows are ((66e41705-54b1-4677-a595-fd01cb88a4fb)), hence ((67fcbefb-63b6-438a-a676-82293350d71b))s. However, usually only a part of the circuit is visible
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((67fccdf3-f1a4-45ee-b16a-43e003af85e9))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((67fcce23-bec7-4fde-92c9-56c4f194a118))
+		- flow
+		  id:: 67fccdf3-f1a4-45ee-b16a-43e003af85e9
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86))
+		- flowing
+		  id:: 67fcce23-bec7-4fde-92c9-56c4f194a118
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) is the continuation of ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s by joining their arrows [head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), all flows are ((66e41705-54b1-4677-a595-fd01cb88a4fb)), hence ((67fcbefb-63b6-438a-a676-82293350d71b))s. However, usually only a part of the circuit is visible as a non-circular flow from ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)) to ((67fcbdf7-37e7-4beb-8b1f-f80961596006)).
 		- ### source
 		  id:: 67fcbdea-2ade-4264-b8c4-c419c6fc2779
 		  :LOGBOOK:
 		  CLOCK: [2025-04-14 Mon 14:49:05]
 		  :END:
 		- ### sink
+		  id:: 67fcbdf7-37e7-4beb-8b1f-f80961596006
 		  :LOGBOOK:
 		  CLOCK: [2025-04-14 Mon 14:49:05]
 		  :END:
@@ -883,6 +892,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-04-14 Mon 14:49:05]
 		  :END:
+		  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((67fccd8a-8eb9-47ca-bd1a-1c2a78d1bf93))
+			- current
+			  id:: 67fccd8a-8eb9-47ca-bd1a-1c2a78d1bf93
+			  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((67fcc081-80b9-4179-a6b0-6307adba595a))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Being ((67fccd8a-8eb9-47ca-bd1a-1c2a78d1bf93)) means being in the ((67fcce23-bec7-4fde-92c9-56c4f194a118)) state of the now.
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcc081-80b9-4179-a6b0-6307adba595a)) is an established ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) which is usually stable in time. Its establishment and stability is thanks to the underlying circularity, thus current is just the visible part of an underlying ((67fcbefb-63b6-438a-a676-82293350d71b)).
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
