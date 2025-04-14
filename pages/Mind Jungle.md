@@ -294,7 +294,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Temporal circle: “storage” is the compact circle in space to be transported through time to be “source again” at later time for later uses.
 		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “re-source” = “source again” = “rise again” = “flow up again”
 			- “source” ← Latin “surgere” = “sub” + “regere” = “flow[regere] (up) from below[sub]” = “rise up”
-			- “tài nguyên” [財源] = “nguồn tiền”
+			- “tài nguyên” [財源] = “nguồn tiền”; 資源 = “accumulated source” = source of various things (money, goods, matter, etc.)
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Resource = between content & form: crystallized to form, vaporized to content 
 			    = currency = sensor = balancer bringing diff (content) back to sim (form) = energy = action (S) in mechanics = worker = maintainer of self = weaver of form = driver of content = mixer of content & form = constructor of self form & destructor of other form
