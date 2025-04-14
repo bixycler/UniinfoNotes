@@ -294,13 +294,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Temporal circle: “storage” is the compact circle in space to be transported through time to be “source again” at later time for later uses.
 		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “re-source” = “source again” = “rise again” = “flow up again”
 			- “source” ← Latin “surgere” = “sub” + “regere” = “flow[regere] (up) from below[sub]” = “rise up”
-		- Resource = between content & form: crystallized to form, vaporized to content 
-		    = currency = sensor = balancer bringing diff (content) back to sim (form) = energy = action (S) in mechanics = worker = maintainer of self = weaver of form = driver of content = mixer of content & form = constructor of self form & destructor of other form
-			- resource limit/[constraint](((66b1cfa3-385f-437c-88f2-f76c0684c9e3))) = form
-			- resource energy = content
-		- equilibrium = balance = optimum = least resource consumption = least action (S min) = max entropy = perfect circle **within a view**, not absolutely!!!
-		- all balance will be broken spontaneously = radioactive decay = all circles will be open = intrinsic dynamic
-		- black hole distortion: inside intrinsic static <> outside intrinsic dynamic <=> Zeno arrow paradox
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Resource = between content & form: crystallized to form, vaporized to content 
+			    = currency = sensor = balancer bringing diff (content) back to sim (form) = energy = action (S) in mechanics = worker = maintainer of self = weaver of form = driver of content = mixer of content & form = constructor of self form & destructor of other form
+				- resource limit/[constraint](((66b1cfa3-385f-437c-88f2-f76c0684c9e3))) = form
+				- resource energy = content
+			- equilibrium = balance = optimum = least resource consumption = least action (S min) = max entropy = perfect circle **within a view**, not absolutely!!!
+			- all balance will be broken spontaneously = radioactive decay = all circles will be open = intrinsic dynamic
+			- black hole distortion: inside intrinsic static <> outside intrinsic dynamic <=> Zeno arrow paradox
 	- ## mind
 	  id:: 67f90bf0-ebcd-46fa-b99d-eda9bbbd3522
 	  collapsed:: true
