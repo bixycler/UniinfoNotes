@@ -2912,9 +2912,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ![TransformationByViewcones](https://docs.google.com/drawings/d/e/2PACX-1vQkpgx-mFPxBN8-TEgjmYe3VUhnPDxCoT62R43d3qyz5VzxJoZkZtczBrbMNN3dCEuYSoC9_dpihS0I/pub?w=320)
 			- source
 			  id:: 67fcc51e-2e15-4f82-8b7e-0e2bd0170d60
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcc51e-2e15-4f82-8b7e-0e2bd0170d60)) of a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is the
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcc51e-2e15-4f82-8b7e-0e2bd0170d60)) of a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is the ((669e007d-7336-4010-be08-e54e962eae2e)) of the arrow of that transformation.
 			- target
 			  id:: 67fcc52c-7f2b-4d50-9cef-f5edc45c4d7c
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcc51e-2e15-4f82-8b7e-0e2bd0170d60)) of a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is the ((669e007d-7336-4010-be08-e54e962eae2e)) of the arrow of that transformation.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
 				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
