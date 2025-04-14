@@ -295,7 +295,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “re-source” = “source again” = “rise again” = “flow up again”
 			- “source” ← Latin “surgere” = “sub” + “regere” = “flow[regere] (up) from below[sub]” = “rise up”
 			- 資源 = “accumulated source” = “supplying source” = source of various things (money, goods, matter, etc.)
-			- “tài nguyên” [財源] = “nguồn tiền”?! “Resource” should (better) be this “tài nguyên” [材源].
+			- “tài nguyên” [[財源](https://en.wiktionary.org/wiki/%E8%B2%A1%E6%BA%90#Vietnamese)] = “nguồn tiền”?! “Resource” should (better) be this “tài nguyên” [材源].
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Resource = between content & form: crystallized to form, vaporized to content 
 			    = currency = sensor = balancer bringing diff (content) back to sim (form) = energy = action (S) in mechanics = worker = maintainer of self = weaver of form = driver of content = mixer of content & form = constructor of self form & destructor of other form
@@ -2877,6 +2877,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a source ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a target form of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((67f4eaf0-b935-45ea-b8ba-b06cbfba5d23)).
+			  collapsed:: true
 				- ![TransformationByViewcones](https://docs.google.com/drawings/d/e/2PACX-1vQkpgx-mFPxBN8-TEgjmYe3VUhnPDxCoT62R43d3qyz5VzxJoZkZtczBrbMNN3dCEuYSoC9_dpihS0I/pub?w=320)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
