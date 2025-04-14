@@ -852,6 +852,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- autonoton
 			  id:: 671e1608-1350-4e87-99b6-5492cc6fb449
 			  ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) in ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
+	- ## flow
+	  id:: 67fcbbc6-915b-4d28-b9cf-098e916cdc86
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2025-04-14 Mon 14:40:16]
+	  :END:
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) is the continuation of ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
 	  collapsed:: true
