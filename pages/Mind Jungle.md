@@ -860,6 +860,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :END:
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) is the continuation of ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s by joining their arrows [head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), all flows are ((66e41705-54b1-4677-a595-fd01cb88a4fb)), hence ((67fcbefb-63b6-438a-a676-82293350d71b))s.
 		- ### source
+		  id:: 67fcbdea-2ade-4264-b8c4-c419c6fc2779
 		  :LOGBOOK:
 		  CLOCK: [2025-04-14 Mon 14:49:05]
 		  :END:
@@ -961,7 +962,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ![EffectFlow-CauseConditionActionEffect](https://docs.google.com/drawings/d/e/2PACX-1vRuRJyGQru5ZcIAZLcwMqwjv35U5sXAzGX9KEV5SUbsY5H3LPpm5yWAvn0gK9yNrwv4ob3k1XoMe-tb/pub?w=500){:height 304, :width 500}
 			- ### cause
 			  id:: 677f7108-ffa5-4ea7-9a69-eaa355a7569e
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general, a ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) is any source of an ((66727858-979d-4d95-8a90-7a749218cfba)). But the term “cause” is usually limited to the primary cause of the primary action of the self. Particularly, cause is the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of the source body of the action.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general, a ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) is any source of an ((66727858-979d-4d95-8a90-7a749218cfba)). But the term “cause” is usually limited to the primary cause of the primary action of the self, hence the ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)) of the effect flow. Particularly, cause is the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of the source body of the action.
 			- ### condition
 			  id:: 677f7104-7fc4-4034-bb08-0dabd80a586f
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7104-7fc4-4034-bb08-0dabd80a586f)) is the source of ((677f7100-e650-464a-a835-15a9f28df649)) upon the primary action of the self. In the selfless view, “condition” is any ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) of any action.
@@ -969,7 +970,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 677f7100-e650-464a-a835-15a9f28df649
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Relative to a self, ((677f7100-e650-464a-a835-15a9f28df649)) is the action of the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f)) upon the primary action of the self. In the selfless view, “influence” is any ((66727858-979d-4d95-8a90-7a749218cfba)).
 				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “Influence” is the “flow into” some body. This inflow is the driving force underlying the [interpenetrative nature](((66eb7dae-2032-434b-9106-756d4aad7cdb))) of the effect flow, as what [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle is to causality.
-			- ((66727858-979d-4d95-8a90-7a749218cfba))
+			- ((66727858-979d-4d95-8a90-7a749218cfba)) of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In general, ((66727858-979d-4d95-8a90-7a749218cfba)) is any ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) within an effect flow. But the term “action” is usually limited to the primaray action of the subject self.
 			- ### effect
 			  id:: 677f509b-f2db-47b1-aafb-5a475334b532
@@ -2906,9 +2907,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Links: [fb post in Nov 2023](https://www.facebook.com/lexuandinhct/videos/728404692637310), [GeoGebra applet](https://www.geogebra.org/m/j7czr4s5)
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a source ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a target form of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((67f4eaf0-b935-45ea-b8ba-b06cbfba5d23)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a ((67fcc51e-2e15-4f82-8b7e-0e2bd0170d60)) ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a ((67fcc52c-7f2b-4d50-9cef-f5edc45c4d7c)) form of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((67f4eaf0-b935-45ea-b8ba-b06cbfba5d23)).
 			  collapsed:: true
 				- ![TransformationByViewcones](https://docs.google.com/drawings/d/e/2PACX-1vQkpgx-mFPxBN8-TEgjmYe3VUhnPDxCoT62R43d3qyz5VzxJoZkZtczBrbMNN3dCEuYSoC9_dpihS0I/pub?w=320)
+			- source
+			  id:: 67fcc51e-2e15-4f82-8b7e-0e2bd0170d60
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcc51e-2e15-4f82-8b7e-0e2bd0170d60)) of a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is the
+			- target
+			  id:: 67fcc52c-7f2b-4d50-9cef-f5edc45c4d7c
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
 				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
