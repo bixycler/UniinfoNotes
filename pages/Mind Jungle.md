@@ -592,6 +592,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- source → target: ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), morphism
 			  id:: 669df777-8863-439f-8a0a-7b95a8e2bba5
 			- source → sink: ((67fcbbc6-915b-4d28-b9cf-098e916cdc86))
+			- source → destination: transmission
 			- origin → destination: transportation
 			- object → image: ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
 			- domain → range: mapping
@@ -858,7 +859,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2025-04-14 Mon 14:40:16]
 	  :END:
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) is the continuation of ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s by joining their arrows [head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), all flows are ((66e41705-54b1-4677-a595-fd01cb88a4fb)), hence ((67fcbefb-63b6-438a-a676-82293350d71b))s.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) is the continuation of ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s by joining their arrows [head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), all flows are ((66e41705-54b1-4677-a595-fd01cb88a4fb)), hence ((67fcbefb-63b6-438a-a676-82293350d71b))s. However, usually only a part of the circuit is visible
 		- ### source
 		  id:: 67fcbdea-2ade-4264-b8c4-c419c6fc2779
 		  :LOGBOOK:
