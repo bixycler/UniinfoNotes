@@ -858,7 +858,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2025-04-14 Mon 14:40:16]
 	  :END:
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) is the continuation of ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s by joining their arrows [head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) is the continuation of ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s by joining their arrows [head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), all flows are ((66e41705-54b1-4677-a595-fd01cb88a4fb)), hence ((67fcbefb-63b6-438a-a676-82293350d71b))s.
 		- ### source
 		  :LOGBOOK:
 		  CLOCK: [2025-04-14 Mon 14:49:05]
@@ -877,9 +877,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 67fcbefb-63b6-438a-a676-82293350d71b
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67fcbee7-da00-45d8-bb21-deefb95d164e))
 		- ### current
+		  id:: 67fcc081-80b9-4179-a6b0-6307adba595a
 		  :LOGBOOK:
 		  CLOCK: [2025-04-14 Mon 14:49:05]
 		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcc081-80b9-4179-a6b0-6307adba595a)) is an established ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) which is usually stable in time. Its establishment and stability is thanks to the underlying circularity, thus current is just the visible part of an underlying ((67fcbefb-63b6-438a-a676-82293350d71b)).
 	- ## reference flow
 	  id:: 667bef50-a33a-4275-9ca3-e9d801ab5a81
 	  collapsed:: true
