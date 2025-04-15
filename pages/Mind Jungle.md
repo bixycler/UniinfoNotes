@@ -875,7 +875,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-04-15 Tue 11:02:36]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fdda4a-dfc1-42d7-846a-ba64252e11c1)) is the
+		  = ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)) + ((67fcbdf7-37e7-4beb-8b1f-f80961596006))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fdda4a-dfc1-42d7-846a-ba64252e11c1)) is the combination of ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)) and ((67fcbdf7-37e7-4beb-8b1f-f80961596006)) for the flow to pass through.
+			- portal
+				-
 		- ### resource
 		  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
 		  collapsed:: true
