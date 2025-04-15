@@ -855,6 +855,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :END:
 		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((67fcbdf7-37e7-4beb-8b1f-f80961596006))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) [sources and sinks](https://en.wikipedia.org/wiki/Sources_and_sinks)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)) of a ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) is a region where the flow has non-zero [divergence](https://en.wikipedia.org/wiki/Divergence).
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- [charges](https://en.wikipedia.org/wiki/Charge_(physics)): positive charge = (positive) ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)), negative charge = ((67fcbdf7-37e7-4beb-8b1f-f80961596006))
 				- mass = sink of gravity, [negative mass](https://en.wikipedia.org/wiki/Negative_mass) = source of gravity
@@ -872,6 +873,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))
 		- ### medium
 		  id:: 67fdda4a-dfc1-42d7-846a-ba64252e11c1
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-15 Tue 11:02:36]
 		  :END:
@@ -879,6 +881,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fdda4a-dfc1-42d7-846a-ba64252e11c1)) is the combination of both ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)) and ((67fcbdf7-37e7-4beb-8b1f-f80961596006)) into one place for the flow to pass through.
 			- portal
 			  id:: 67fe1736-f1b6-4289-8b89-43e5387d4f3e
+			  :LOGBOOK:
+			  CLOCK: [2025-04-15 Tue 15:33:24]
+			  :END:
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fe1736-f1b6-4289-8b89-43e5387d4f3e)) is a dense ((67fdda4a-dfc1-42d7-846a-ba64252e11c1)) where a large amount (or all) of the flow passes through. In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is the portal of ((667bef22-b272-4a7d-b613-3f1ed1a47329)).
 		- ### resource
 		  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
