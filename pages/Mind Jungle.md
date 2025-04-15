@@ -2961,7 +2961,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcc52c-7f2b-4d50-9cef-f5edc45c4d7c)) of a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is the ((669de25b-a52b-4eed-99a0-4ba86b9ee5ea)) of the arrow of that transformation.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Google Drawings: [Relas](https://docs.google.com/drawings/d/13-_IpB5wWJGKF_cnC-BTbn5w-mnt4e-nZ2dXgZr9tnw/)
-				- Continuous transformation is a flow $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
+				- Continuous transformation is a ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) $e^{\alpha t}*M$ of effect, like the  edit of text, modification of data.
 				- Function/mapping/projection/light-cone is an abstraction of the flow into just 2 ends of that flow.
 			- life cycle of form
 			  collapsed:: true
