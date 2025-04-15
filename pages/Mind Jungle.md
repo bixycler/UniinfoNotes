@@ -859,6 +859,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- mass = sink of gravity, [negative mass](https://en.wikipedia.org/wiki/Negative_mass) = source of gravity
 				- [thermal reservoirs](https://en.wikipedia.org/wiki/Thermal_reservoir): heat source, heat sink
 				- [attractor](https://en.wikipedia.org/wiki/Attractor) = sink, repellor = source
+				- [zeros and poles](https://en.wikipedia.org/wiki/Zeros_and_poles) of complex functions
 		- ### sink
 		  id:: 67fcbdf7-37e7-4beb-8b1f-f80961596006
 		  :LOGBOOK:
@@ -880,9 +881,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669f3107-a33a-4b26-a636-6da62fa5520e)) = “packed source” is the accumulation of continuous ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))s into packages (forms, circles) so that they can be transported to remote places and stored for later uses, hence “circle source”, “source around” and “source again”.
 				- Spatial circle: “transportation” is the circulation of the original source around in space.
 				- Temporal circle: “storage” is the compact circle in space to be transported through time to be “source again” at later time for later uses.
-			- ((66725725-f76a-4328-b162-f469b87e871b))
-				- charge particles (batteries), massive bodies, (https://en.wikipedia.org/wiki/Negative_mass) = source of gravity
-				- [thermal batteries](https://en.wikipedia.org/wiki/Thermal_energy_storage)
+			- ((66725725-f76a-4328-b162-f469b87e871b)) charge particles (batteries), massive bodies, [thermal batteries](https://en.wikipedia.org/wiki/Thermal_energy_storage)
 			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “re-source” = “source again” = “rise again” = “flow up again”
 				- “source” ← Latin “surgere” = “sub” + “regere” = “flow[regere] (up) from below[sub]” = “rise up”
 				- 資源 = “accumulated source” = “supplying source” = source of various things (money, goods, matter, etc.)
