@@ -392,6 +392,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- operator = life force = center of balance for stability & existence: without a center, the body will be decomposed due to imbalance.
 			- This duality is also the [anusayā-cetanā junction](((66e80666-5f29-4419-8db1-bf8cdce893e4))) in the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 			- obop is a [topological defect](https://en.wikipedia.org/wiki/Topological_defect): obop point = [singularity](https://en.wikipedia.org/wiki/Singularity_(mathematics)), obop circle = soliton
+			  id:: 67f4eae9-34ed-4303-8dc0-8320a5fa6dd2
 				- |eye soliton| = quantum -> [abstraction](((66f40baf-1aca-40b7-828c-71d6f15f23fe))) = action
 					- The amount of the soliton is the quantum.
 					- That abstraction from the obop circle to the quantum is the action of that soliton: produce the extent
