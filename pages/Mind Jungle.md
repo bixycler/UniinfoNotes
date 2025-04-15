@@ -860,7 +860,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- mass = sink of gravity, [negative mass](https://en.wikipedia.org/wiki/Negative_mass) = source of gravity
 				- [thermal reservoirs](https://en.wikipedia.org/wiki/Thermal_reservoir): heat source, heat sink
 				- [attractor](https://en.wikipedia.org/wiki/Attractor) = sink, repellor = source
-				- [zeros and poles](https://en.wikipedia.org/wiki/Zeros_and_poles) of complex functions (source or sink depends on the sign convention)
+				- [zeros and poles](https://en.wikipedia.org/wiki/Zeros_and_poles) of complex functions: source or sink depends on the sign convention, but both zero = soliton, and pole = singularity, are [topological defects](https://en.wikipedia.org/wiki/Topological_defect).
 		- ### sink
 		  id:: 67fcbdf7-37e7-4beb-8b1f-f80961596006
 		  :LOGBOOK:
