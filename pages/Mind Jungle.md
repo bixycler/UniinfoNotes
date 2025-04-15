@@ -852,12 +852,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-04-14 Mon 14:49:05]
 		  :END:
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((67fcbdf7-37e7-4beb-8b1f-f80961596006))
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- charges: positive charge = (positive) ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)), negative charge = ((67fcbdf7-37e7-4beb-8b1f-f80961596006))
+				- mass = sink of gravity, [negative mass](https://en.wikipedia.org/wiki/Negative_mass) = source of gravity
+				- [thermal reservoirs](https://en.wikipedia.org/wiki/Thermal_reservoir): heat source, heat sink
 		- ### sink
 		  id:: 67fcbdf7-37e7-4beb-8b1f-f80961596006
 		  :LOGBOOK:
 		  CLOCK: [2025-04-14 Mon 14:49:05]
 		  :END:
 		  = negative ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))
 		- ### medium
 		  :LOGBOOK:
 		  CLOCK: [2025-04-15 Tue 11:02:36]
@@ -873,8 +879,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Spatial circle: “transportation” is the circulation of the original source around in space.
 				- Temporal circle: “storage” is the compact circle in space to be transported through time to be “source again” at later time for later uses.
 			- ((66725725-f76a-4328-b162-f469b87e871b))
-				- charges: positive charge = (positive) ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)), negative charge = ((67fcbdf7-37e7-4beb-8b1f-f80961596006))
-				- mass
+				- charge particles (batteries): positive charge = (positive) ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)), negative charge = ((67fcbdf7-37e7-4beb-8b1f-f80961596006))
+				- massive bodies: mass = sink of gravity, [negative mass](https://en.wikipedia.org/wiki/Negative_mass) = source of gravity
+				- thermal reservoir
 			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “re-source” = “source again” = “rise again” = “flow up again”
 				- “source” ← Latin “surgere” = “sub” + “regere” = “flow[regere] (up) from below[sub]” = “rise up”
 				- 資源 = “accumulated source” = “supplying source” = source of various things (money, goods, matter, etc.)
