@@ -855,11 +855,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((67fcbdf7-37e7-4beb-8b1f-f80961596006))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) [sources and sinks](https://en.wikipedia.org/wiki/Sources_and_sinks)
 			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- [singularities](https://en.wikipedia.org/wiki/Singularity_(mathematics))
 				- charges: positive charge = (positive) ((67fcbdea-2ade-4264-b8c4-c419c6fc2779)), negative charge = ((67fcbdf7-37e7-4beb-8b1f-f80961596006))
 				- mass = sink of gravity, [negative mass](https://en.wikipedia.org/wiki/Negative_mass) = source of gravity
 				- [thermal reservoirs](https://en.wikipedia.org/wiki/Thermal_reservoir): heat source, heat sink
 				- [attractor](https://en.wikipedia.org/wiki/Attractor) = sink, repellor = source
-				- [zeros and poles](https://en.wikipedia.org/wiki/Zeros_and_poles) of complex functions
+				- [zeros and poles](https://en.wikipedia.org/wiki/Zeros_and_poles) of complex functions (source or sink depends on the sign convention)
 		- ### sink
 		  id:: 67fcbdf7-37e7-4beb-8b1f-f80961596006
 		  :LOGBOOK:
