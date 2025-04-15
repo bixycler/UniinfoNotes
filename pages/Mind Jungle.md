@@ -283,27 +283,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- $D(n_H, n_H, D) = ⊥ ⇒ H(n_H, n_H, D) = H(\text{halt}, ∅) = ⊤$
 				- ⇒ $D(n_H, n_H, D) ≠ H(n_H, n_H, D)$, i.e. $D$ cannot decide halting status of $n_H(n_H, D)$
 				- **Conclusion**: $∀ D, ∃ p = n_H, ∃ x = n_H, ∃ y = D:  ¬[(D(p, x, y) = H(p, x, y)]$, i.e. $\text{HP} = ⊥$
-	- ## resource
-	  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-08-12 Mon 08:38:11]
-	  :END:
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669f3107-a33a-4b26-a636-6da62fa5520e)) = “packed source” is the accumulation of continuous sources into packages (forms, circles) so that they can be transported to remote places and stored for later uses, hence “circle source”, “source around” and “source again”.
-			- Spatial circle: “transportation” is the circulation of the original source around in space.
-			- Temporal circle: “storage” is the compact circle in space to be transported through time to be “source again” at later time for later uses.
-		- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “re-source” = “source again” = “rise again” = “flow up again”
-			- “source” ← Latin “surgere” = “sub” + “regere” = “flow[regere] (up) from below[sub]” = “rise up”
-			- 資源 = “accumulated source” = “supplying source” = source of various things (money, goods, matter, etc.)
-			- “tài nguyên” [[財源](https://en.wiktionary.org/wiki/%E8%B2%A1%E6%BA%90#Vietnamese)] = “nguồn tiền”?! “Resource” should (better) be this “tài nguyên” [材源].
-		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- Resource = between content & form: crystallized to form, vaporized to content 
-			    = currency = sensor = balancer bringing diff (content) back to sim (form) = energy = action (S) in mechanics = worker = maintainer of self = weaver of form = driver of content = mixer of content & form = constructor of self form & destructor of other form
-				- resource limit/[constraint](((66b1cfa3-385f-437c-88f2-f76c0684c9e3))) = form
-				- resource energy = content
-			- equilibrium = balance = optimum = least resource consumption = least action (S min) = max entropy = perfect circle **within a view**, not absolutely!!!
-			- all balance will be broken spontaneously = radioactive decay = all circles will be open = intrinsic dynamic
-			- black hole distortion: inside intrinsic static <> outside intrinsic dynamic <=> Zeno arrow paradox
 	- ## mind
 	  id:: 67f90bf0-ebcd-46fa-b99d-eda9bbbd3522
 	  collapsed:: true
@@ -878,10 +857,35 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-04-14 Mon 14:49:05]
 		  :END:
+		  = negative ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))
 		- ### medium
 		  :LOGBOOK:
 		  CLOCK: [2025-04-15 Tue 11:02:36]
 		  :END:
+			-
+		- ### resource
+		  id:: 669f3107-a33a-4b26-a636-6da62fa5520e
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-08-12 Mon 08:38:11]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669f3107-a33a-4b26-a636-6da62fa5520e)) = “packed source” is the accumulation of continuous ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))s into packages (forms, circles) so that they can be transported to remote places and stored for later uses, hence “circle source”, “source around” and “source again”.
+				- Spatial circle: “transportation” is the circulation of the original source around in space.
+				- Temporal circle: “storage” is the compact circle in space to be transported through time to be “source again” at later time for later uses.
+			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “re-source” = “source again” = “rise again” = “flow up again”
+				- “source” ← Latin “surgere” = “sub” + “regere” = “flow[regere] (up) from below[sub]” = “rise up”
+				- 資源 = “accumulated source” = “supplying source” = source of various things (money, goods, matter, etc.)
+				- “tài nguyên” [[財源](https://en.wiktionary.org/wiki/%E8%B2%A1%E6%BA%90#Vietnamese)] = “nguồn tiền”?! “Resource” should (better) be this “tài nguyên” [材源].
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- charges
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Resource = between content & form: crystallized to form, vaporized to content 
+				    = currency = sensor = balancer bringing diff (content) back to sim (form) = energy = action (S) in mechanics = worker = maintainer of self = weaver of form = driver of content = mixer of content & form = constructor of self form & destructor of other form
+					- resource limit/[constraint](((66b1cfa3-385f-437c-88f2-f76c0684c9e3))) = form
+					- resource energy = content
+				- equilibrium = balance = optimum = least resource consumption = least action (S min) = max entropy = perfect circle **within a view**, not absolutely!!!
+				- all balance will be broken spontaneously = radioactive decay = all circles will be open = intrinsic dynamic
+				- black hole distortion: inside intrinsic static <> outside intrinsic dynamic <=> Zeno arrow paradox
 		- ### circular flow
 		  id:: 67fcbee7-da00-45d8-bb21-deefb95d164e
 		  :LOGBOOK:
