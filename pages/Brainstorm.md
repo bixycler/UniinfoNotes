@@ -30,10 +30,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- [Green's theorem](https://en.wikipedia.org/wiki/Green%27s_theorem#Relationship_to_the_divergence_theorem) beautifully captures both curl and divergence by simply turning the basis a right angle: $(dx, dy)$ for curl → $(dy, -dx)$ for divergence.
 				- When $Ω$ is 1D, i.e. a line segment, this becomes the fundamental theorem of calculus: 
 				  $\int_{a}^b{df} = \int_{a,b}{f} = f(b) - f(a)$
-				- Considering zeros & poles of $f(z)$ on the complex plane to be sources, we can prove the [fundamental theorem of algebra](https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra), by counting [winding number](https://en.wikipedia.org/wiki/Winding_number) of $f$ .
-				  collapsed:: true
-					- [Video by TheGrayCuber](https://youtu.be/RBRVL6nP2Dk)
-					  {{video https://youtu.be/RBRVL6nP2Dk}}
+				- Considering zeros & poles of $f(z)$ on the complex plane to be sources, we can prove the [fundamental theorem of algebra](https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra), by counting [winding number](https://en.wikipedia.org/wiki/Winding_number) of $f(C)$ for the circle $|z| = R$ with $R: 0 → ∞$.
+					- [Argument principle](https://en.wikipedia.org/wiki/Argument_principle): number of zeros - poles = 
+					  $$ {\frac {1}{2πi}}\oint _{C}{f'(z) \over f(z)}\,dz = Z-P $$
+					- Videos
+					  collapsed:: true
+						- [Video by TheGrayCuber](https://youtu.be/RBRVL6nP2Dk)
+						  {{video https://youtu.be/RBRVL6nP2Dk}}
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
