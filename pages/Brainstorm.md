@@ -13,7 +13,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Longitudinal (tangential) flow, [divergence](https://en.wikipedia.org/wiki/Divergence) = $\exp(real)$, is the normal flow from sources to sinks, which is an image of a meta flow circulating through higer dimensions.
 			- Transverse flow, [curl](https://en.wikipedia.org/wiki/Curl_(mathematics)) = $\exp(imaginary)$, is the ((67fcbee7-da00-45d8-bb21-deefb95d164e)), rotation, circulation, curl around the sources in object space.
 			- The separtion into these 2 orthogonal components is the [Helmholtz decomposition](https://en.wikipedia.org/wiki/Helmholtz_decomposition).
-			-
+			- Fundamental theorem of multivariate calculus: [Stokes–Cartan theorem](https://en.wikipedia.org/wiki/Generalized_Stokes_theorem)
+				- $\int_{∂Ω}{ω} = \int_{Ω}{dω}$
+				- ω is a differential form.
+			- [differential form](https://en.wikipedia.org/wiki/Differential_form)
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
