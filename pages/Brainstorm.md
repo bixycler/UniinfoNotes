@@ -27,7 +27,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- diverging flow: source $dω$ = divergence $∇⋅F$ of vector field $F$
 					- flow through $∂Ω$ is an ($n-1$)-form which is Hodge dual of the 1-form, 
 					  e.g. $ω_{3-1} = ⋆ω_1 = ⋆(\mathbf{F}⋅d\mathbf{r}) = \mathbf{F}⋅(⋆d\mathbf{r}) = F_x⋅ dy∧dz + F_y⋅ dz∧dx + F_z⋅ dx∧dy$
-				- []
+				- [Green's theorem](https://en.wikipedia.org/wiki/Green%27s_theorem#Relationship_to_the_divergence_theorem) beautifully captures both curl and divergence by simply turning the basis a right angle: $(dx, dy)$ for curl → $(dy, -dx)$ for divergence.
+			-
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
