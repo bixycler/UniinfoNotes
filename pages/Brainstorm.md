@@ -35,7 +35,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  $$ {\frac{1}{2πi}} \oint_{C} {f'(z) \over f(z)} \,dz = Z-P $$
 					- [Residue](https://en.wikipedia.org/wiki/Residue_(complex_analysis)) theorem: residue $R = \operatorname{Res}(f,s_k)$ for $k$-th isolated singularity $s_k$ of $f$ is the unique value such that $f(z)−R/(z−a)$ has an analytic [antiderivative](https://en.wikipedia.org/wiki/Antiderivative_(complex_analysis))
 					  $$ \operatorname{Res}(f,s_k)={1 \over 2πi} \oint_{\gamma} f(z)\,dz\ $$
-					- [Cauchy's integral theorem](https://en.wikipedia.org/wiki/Cauchy%27s_integral_theorem)
+						- [Cauchy's integral formula](https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula): contour integral of [holomorphic function](https://en.wikipedia.org/wiki/Holomorphic_function) $f(z)$ is zero, because
+						  $$ \int_{C} f(z)\,dz=0 $$
 					- Videos
 					  collapsed:: true
 						- [Video by TheGrayCuber](https://youtu.be/RBRVL6nP2Dk)
