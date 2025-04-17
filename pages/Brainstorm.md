@@ -16,8 +16,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- [differential form](https://en.wikipedia.org/wiki/Differential_form) captures the notion of **rotation** via [exterior product](https://en.wikipedia.org/wiki/Exterior_product) and extends it to $k$ dimensions with $k$-forms.
 			- [Hodge dual](https://en.wikipedia.org/wiki/Hodge_star_operator#Duality) captures the **orthogonal complements** real ⊥ imaginary
 			- Fundamental theorem of multivariate calculus: [Stokes–Cartan theorem](https://en.wikipedia.org/wiki/Generalized_Stokes_theorem)
-				- $\int_{∂Ω}{ω} = \int_{Ω}{dω}$
-				- boundary integral of flow on/through $∂Ω$ = volume integral of sources within $Ω$
+				- $\int_{Ω}{dω} = \int_{∂Ω}{ω}$
+				- volume integral of sources within $Ω$ = boundary integral of flow on/through $∂Ω$
 					- the [exterior derivative](https://en.wikipedia.org/wiki/Exterior_derivative) $dω$ captures the source of the flow.
 					- the differential form $ω$ captures the flow on/through the boundary $∂Ω$ of the orientable manifold $Ω$.
 				- circular flow: source $dω$ = curl $∇×F$ of vector field $F$
@@ -28,7 +28,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- flow through $∂Ω$ is an ($n-1$)-form which is Hodge dual of the 1-form, 
 					  e.g. $ω_{3-1} = ⋆ω_1 = ⋆(\mathbf{F}⋅d\mathbf{r}) = \mathbf{F}⋅(⋆d\mathbf{r}) = F_x⋅ dy∧dz + F_y⋅ dz∧dx + F_z⋅ dx∧dy$
 				- [Green's theorem](https://en.wikipedia.org/wiki/Green%27s_theorem#Relationship_to_the_divergence_theorem) beautifully captures both curl and divergence by simply turning the basis a right angle: $(dx, dy)$ for curl → $(dy, -dx)$ for divergence.
-			-
+				- When $Ω$ is 1D, i.e. a line segment, this becomes the fundamental theorem of calculus: 
+				  $\int_{a}^b{df} = \int_{a,b}{f} = f(b) - f(a)$
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
