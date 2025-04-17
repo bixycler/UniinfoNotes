@@ -33,8 +33,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Considering zeros & poles of $f(z)$ on the complex plane to be sources, we can prove the [fundamental theorem of algebra](https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra), by counting [winding number](https://en.wikipedia.org/wiki/Winding_number) of $f(C)$ for the circle $|z| = R$ with $R: 0 → ∞$.
 					- [Argument principle](https://en.wikipedia.org/wiki/Argument_principle): number of zeros - poles = contour integral of the function's [logarithmic derivative](https://en.wikipedia.org/wiki/Logarithmic_derivative).
 					  $$ {\frac{1}{2πi}} \oint_{C} {f'(z) \over f(z)} \,dz = Z-P $$
-					- [Residue](https://en.wikipedia.org/wiki/Residue_(complex_analysis)) theorem: number of singularities
-					  $$ \operatorname{Res}(f,a_k)={1 \over 2πi} \oint_{\gamma} f(z)\,dz\ $$
+					- [Residue](https://en.wikipedia.org/wiki/Residue_(complex_analysis)) theorem: residue $R = \operatorname{Res}(f,s_k)$ for $k$-th isolated singularity $s_k$ of $f$ is the unique value such that $f(z)−R/(z−a)$ has an analytic [antiderivative](https://en.wikipedia.org/wiki/Antiderivative_(complex_analysis))
+					  $$ \operatorname{Res}(f,s_k)={1 \over 2πi} \oint_{\gamma} f(z)\,dz\ $$
 					- [Cauchy's integral theorem](https://en.wikipedia.org/wiki/Cauchy%27s_integral_theorem)
 					- Videos
 					  collapsed:: true
