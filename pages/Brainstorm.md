@@ -20,10 +20,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- the [exterior derivative](https://en.wikipedia.org/wiki/Exterior_derivative) $dω$ captures the source of the flow.
 					- the differential form $ω$ captures the flow on/through the boundary $∂Ω$ of the orientable manifold $Ω$.
 				- circular flow: source $dω$ = curl $∇×F$ of vector field $F$
-					- flow on $∂Ω$: in 1D, it's simply a 1-form $ω_1 = \mathbf{F}⋅d\mathbf{r} = F_x dx + F_y dy + F_z dz$
+					- flow on $∂Ω$: in 1D, it's a simple 1-form $ω_1 = \mathbf{F}⋅d\mathbf{r} = F_x dx + F_y dy + F_z dz$
 						- in higher dimensions, the ($n-1$)-form is difficult to formulate, 
 						  e.g. $ω_2 = (F_y - F_x)dx∧dy  + (F_z - F_y)dy∧dz + (F_x - F_z)dz∧dx$
 				- diverging flow: source $dω$ = divergence $∇⋅F$ of vector field $F$
+					- flow through $∂Ω$ is a ($n-1$)-form which is [Hodge dual](https://en.wikipedia.org/wiki/Hodge_star_operator) of the 1-form, 
+					  $ω_{n-1} = ⋆ω_1 = ⋆(\mathbf{F}⋅d\mathbf{r}) = F_x dx + F_y dy + F_z dz$
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
