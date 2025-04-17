@@ -25,8 +25,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- in higher dimensions, the ($n-1$)-form is difficult to formulate, 
 						  e.g. $ω_2 = (F_y - F_x)dx∧dy  + (F_z - F_y)dy∧dz + (F_x - F_z)dz∧dx$
 				- diverging flow: source $dω$ = divergence $∇⋅F$ of vector field $F$
-					- flow through $∂Ω$ is a ($n-1$)-form which is Hodge dual of the 1-form, 
-					  $ω_{n-1} = ⋆ω_1 = ⋆(\mathbf{F}⋅d\mathbf{r}) = F_x dx + F_y dy + F_z dz$
+					- flow through $∂Ω$ is an ($n-1$)-form which is Hodge dual of the 1-form, 
+					  e.g. $ω_{3-1} = ⋆ω_1 = ⋆(\mathbf{F}⋅d\mathbf{r}) = \mathbf{F}⋅(⋆d\mathbf{r}) = F_x⋅ dy∧dz + F_y⋅ dz∧dx + F_z⋅ dx∧dy$
+				- []
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
