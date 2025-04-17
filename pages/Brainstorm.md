@@ -14,6 +14,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Transverse flow, [curl](https://en.wikipedia.org/wiki/Curl_(mathematics)) = $\exp(imaginary)$, is the ((67fcbee7-da00-45d8-bb21-deefb95d164e)), rotation, circulation, curl around the sources in object space.
 			- The separtion into these 2 orthogonal components is the [Helmholtz decomposition](https://en.wikipedia.org/wiki/Helmholtz_decomposition).
 			- [differential form](https://en.wikipedia.org/wiki/Differential_form) captures the notion of **rotation** via [exterior product](https://en.wikipedia.org/wiki/Exterior_product) and extends it to $k$ dimensions with $k$-forms.
+			- [Hodge dual](https://en.wikipedia.org/wiki/Hodge_star_operator#Duality) captures the **orthogonal complements** real ⊥ imaginary
 			- Fundamental theorem of multivariate calculus: [Stokes–Cartan theorem](https://en.wikipedia.org/wiki/Generalized_Stokes_theorem)
 				- $\int_{∂Ω}{ω} = \int_{Ω}{dω}$
 				- boundary integral of flow on/through $∂Ω$ = volume integral of sources within $Ω$
@@ -24,7 +25,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- in higher dimensions, the ($n-1$)-form is difficult to formulate, 
 						  e.g. $ω_2 = (F_y - F_x)dx∧dy  + (F_z - F_y)dy∧dz + (F_x - F_z)dz∧dx$
 				- diverging flow: source $dω$ = divergence $∇⋅F$ of vector field $F$
-					- flow through $∂Ω$ is a ($n-1$)-form which is [Hodge dual](https://en.wikipedia.org/wiki/Hodge_star_operator) of the 1-form, 
+					- flow through $∂Ω$ is a ($n-1$)-form which is Hodge dual of the 1-form, 
 					  $ω_{n-1} = ⋆ω_1 = ⋆(\mathbf{F}⋅d\mathbf{r}) = F_x dx + F_y dy + F_z dz$
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
