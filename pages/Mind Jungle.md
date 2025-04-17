@@ -848,12 +848,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) is the continuation of ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s by joining their arrows [head-to-tail](((667d151a-eaaa-4299-97b6-f3cd8f1aa98d))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), all flows are ((66e41705-54b1-4677-a595-fd01cb88a4fb)), hence ((67fcbefb-63b6-438a-a676-82293350d71b))s. However, usually only a part of the circuit is visible as a non-circular flow from ((67fcbdea-2ade-4264-b8c4-c419c6fc2779))s to ((67fcbdf7-37e7-4beb-8b1f-f80961596006))s.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
-			  :LOGBOOK:
-			  CLOCK: [2025-04-15 Tue 16:43:57]
-			  :END:
-				- Longitudinal (tangential) flow, [divergence](https://en.wikipedia.org/wiki/Divergence) = $\exp(real)$, is the normal flow from sources to sinks, which is an image of a meta flow circulating through higer dimensions.
-				- Transverse flow, [curl](https://en.wikipedia.org/wiki/Curl_(mathematics)) = $\exp(imaginary)$, is the ((67fcbee7-da00-45d8-bb21-deefb95d164e)), rotation, circulation, curl around the sources in object space.
+			- ((67fe23f7-3afe-4e77-be1d-fa8a15416bc3))
 		- ### source
 		  id:: 67fcbdea-2ade-4264-b8c4-c419c6fc2779
 		  collapsed:: true
