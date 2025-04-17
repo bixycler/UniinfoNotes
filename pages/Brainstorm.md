@@ -16,6 +16,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- [differential form](https://en.wikipedia.org/wiki/Differential_form) captures the notion of **rotation** via [exterior product](https://en.wikipedia.org/wiki/Exterior_product) and extends it to $k$ dimensions with $k$-forms.
 			- [Hodge dual](https://en.wikipedia.org/wiki/Hodge_star_operator#Duality) captures the **orthogonal complements** real ⊥ imaginary
 			- Fundamental theorem of multivariate calculus: [Stokes–Cartan theorem](https://en.wikipedia.org/wiki/Generalized_Stokes_theorem)
+			  collapsed:: true
 				- $\int_{Ω}{dω} = \int_{∂Ω}{ω}$
 				- volume integral of sources within $Ω$ = boundary integral of flow on/through $∂Ω$
 					- the [exterior derivative](https://en.wikipedia.org/wiki/Exterior_derivative) $dω$ captures the source of the flow.
@@ -31,16 +32,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- When $Ω$ is 1D, i.e. a line segment, this becomes the fundamental theorem of calculus: 
 				  $\int_{a}^b{df} = \int_{a,b}{f} = f(b) - f(a)$
 				- Considering zeros & poles of $f(z)$ on the complex plane to be sources, we can prove the [fundamental theorem of algebra](https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra), by counting [winding number](https://en.wikipedia.org/wiki/Winding_number) of $f(C)$ for the circle $|z| = R$ with $R: 0 → ∞$.
+				  collapsed:: true
 					- [Argument principle](https://en.wikipedia.org/wiki/Argument_principle): number of zeros - poles = contour integral of the function's [logarithmic derivative](https://en.wikipedia.org/wiki/Logarithmic_derivative).
 					  $$ {\frac{1}{2πi}} \oint_{C} {f'(z) \over f(z)} \,dz = Z-P $$
 					- [Residue](https://en.wikipedia.org/wiki/Residue_(complex_analysis)) theorem: residue $R = \operatorname{Res}(f,s_k)$ for $k$-th isolated singularity $s_k$ of $f$ is the unique value such that $f(z)−R/(z−a)$ has an analytic [antiderivative](https://en.wikipedia.org/wiki/Antiderivative_(complex_analysis))
 					  $$ \operatorname{Res}(f,s_k)={1 \over 2πi} \oint_{\gamma} f(z)\,dz\ $$
-						- [Cauchy's integral formula](https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula): contour integral of [holomorphic function](https://en.wikipedia.org/wiki/Holomorphic_function) $f(z)$ is zero, because
-						  $$ \int_{C} f(z)\,dz=0 $$
+					- [Cauchy's integral formula](https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula): a [holomorphic function](https://en.wikipedia.org/wiki/Holomorphic_function) defined on a disk is completely determined by its values on the boundary of the disk
+					  $$ f(a) =  {1 \over 2πi}\oint _{\gamma }{f(z) \over z-a}\,dz $$
 					- Videos
 					  collapsed:: true
 						- [Video by TheGrayCuber](https://youtu.be/RBRVL6nP2Dk)
 						  {{video https://youtu.be/RBRVL6nP2Dk}}
+			-
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
