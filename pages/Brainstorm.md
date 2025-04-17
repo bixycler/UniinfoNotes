@@ -16,9 +16,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- [differential form](https://en.wikipedia.org/wiki/Differential_form) captures the notion of **rotation** via [exterior product](https://en.wikipedia.org/wiki/Exterior_product) and extends it to $k$ dimensions with $k$-forms.
 			- Fundamental theorem of multivariate calculus: [Stokes–Cartan theorem](https://en.wikipedia.org/wiki/Generalized_Stokes_theorem)
 				- $\int_{∂Ω}{ω} = \int_{Ω}{dω}$
-				- boundary integral of flow on/through it = volume integral of sources withtin it
-					- the differential form $ω$ captures the flow on/through the boundary is  over a boundary $∂Ω$ of orientable manifold $Ω$
-					- integral of [exterior derivative](https://en.wikipedia.org/wiki/Exterior_derivative) $dω$ over the whole manifold $Ω$.
+				- boundary integral of flow on/through $∂Ω$ = volume integral of sources within $Ω$
+					- the [exterior derivative](https://en.wikipedia.org/wiki/Exterior_derivative) $dω$ captures the source of the flow.
+					- the differential form $ω$ captures the flow on/through the boundary $∂Ω$ of the orientable manifold $Ω$.
+				- circular flow: source $dω$ = divergence $∇⋅F$ of vector field $F$
+				- diverging flow: source $dω$ = curl $∇×F$ of vector field $F$
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
