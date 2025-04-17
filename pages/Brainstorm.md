@@ -19,8 +19,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- boundary integral of flow on/through $∂Ω$ = volume integral of sources within $Ω$
 					- the [exterior derivative](https://en.wikipedia.org/wiki/Exterior_derivative) $dω$ captures the source of the flow.
 					- the differential form $ω$ captures the flow on/through the boundary $∂Ω$ of the orientable manifold $Ω$.
-				- circular flow: source $dω$ = divergence $∇⋅F$ of vector field $F$
-				- diverging flow: source $dω$ = curl $∇×F$ of vector field $F$
+				- circular flow: source $dω$ = curl $∇×F$ of vector field $F$
+					- flow on $∂Ω$: in 1D, it's simply a 1-form $ω = F$
+				- diverging flow: source $dω$ = divergence $∇⋅F$ of vector field $F$
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
