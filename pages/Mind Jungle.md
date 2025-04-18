@@ -438,7 +438,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667cfa42-ade7-4310-9a7b-6d14d01c16da))
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6728a7ab-1629-4e23-bc56-10ead0d8348c))
 		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c88055-a994-4e59-a7dc-83f3331a6e1d))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((66c82f42-16bb-4886-a32b-5c246187cfee)) within a group of subjects when it's ((671b160c-0589-4f83-a778-a9fb4df6783a)) from all individual subjects in that group. While
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((66c82f42-16bb-4886-a32b-5c246187cfee)) within a group of subjects when it's ((671b160c-0589-4f83-a778-a9fb4df6783a)) from all individual subjects in that group. While “objective” is dual to “subjective”, [their distintion is very relative](((6728aa9a-9fb2-4afa-864f-0eb049ac771b))).
 			- objectivity
 			  id:: 6728a7ab-1629-4e23-bc56-10ead0d8348c
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66c82f42-16bb-4886-a32b-5c246187cfee))
