@@ -43,7 +43,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  collapsed:: true
 						- [Video by TheGrayCuber](https://youtu.be/RBRVL6nP2Dk)
 						  {{video https://youtu.be/RBRVL6nP2Dk}}
-			-
+			- Refs
+				- Differential Geometry course [Math 136 Fall 2024](https://people.math.harvard.edu/~knill/teaching/math136/) @ Harvard University
+					- 12. [Exponential map](https://people.math.harvard.edu/~knill/teaching/math136/handouts/lecture12.pdf)
+					- 13. [Curvature is Curl](https://people.math.harvard.edu/~knill/teaching/math136/handouts/lecture13.pdf)
+			- TODO [?] Relation between curvature & curl?!
 		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
