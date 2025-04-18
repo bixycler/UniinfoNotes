@@ -130,6 +130,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
 		  Most of them are ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s
+			- [Grok](https://grok.com/)
+			  :LOGBOOK:
+			  CLOCK: [2025-04-18 Fri 10:32:07]
+			  :END:
+				-
 			- [NotebookLM](https://notebooklm.google.com/)
 			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
 				- It's designed for digesting a lot of documents.
