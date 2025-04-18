@@ -1248,10 +1248,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Còn [chuyện của Vance Vanders](https://thehealthcareblog.com/blog/2015/08/10/a-near-death-from-voodoo-hexing/) thì là về "giả dược" (placebo effect), là cái mà hồi đó ông hỏi "có phải đây là giả dược không" đó. Vì Tây y chấp vào vật chất nên coi các tâm dược là "giả dược", chứ thế giới cổ đại đã dùng tâm dược từ lâu, như thần chú, bùa chú, voodoo, và thế giới hiện đại cũng có các kỹ thuật như thôi miên, sugar pills, và cả phẫu thuật giả.
 						- Vance Vanders bị ông thầy cúng dùng thuật voodoo để nguyền rủa cho chết đi, và ông ta đã bị suy nhược cơ thể đến sắp chết.
 						- Khi vợ Vance Vanders đưa ổng vào bệnh viện tây y thì bác sỹ mới tìm cách dùng giả dược để "giải bùa" voodoo của ông thầy cúng kia. BS đã chích thuốc ói để cho ổng ói ra và lén thả con tắc kè xanh vào bồn ói rồi la toáng lên "Vance nhìn nè, ông đã ói con tắc kè đang ăn ruột ông ra rồi, ông đã được giải bùa rồi!" Vance nhìn con tắc kè mà sợ phát khiếp, rồi ngất đi trong 12h sau đó. Khi tỉnh dậy thì ông ta đã hết tâm bệnh và 1 tuần sau thì cơ thể ổng đã bình phục.
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- Share a dream with Lan Nguyen on fb messenger
 		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-18 Fri 17:15:02]
+		  :END:
 			- Previous context
 			  collapsed:: true
 				- Còn bây giờ, dựa trên ý thức "ko làm là do mình, vì mình", thì em thấy nó khó quá ko có khả năng làm hả?
@@ -1309,4 +1310,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Thực ra tương lai chỉ là sự lặp lại của quá khứ... trong một vòng xoay vô tận. Nên nói là "tưởng tượng tương lai" thực ra chỉ là diễn lại quá khứ với một ngôn ngữ khác mà thôi.
 				- Chỉ khi nào mình buông hết mọi thứ ra, để mình "bay lên", để nhìn xuống toàn bộ vòng tròn đó... mình mới thấy là... thực ra mình đã xoay vòng ko chỉ 1 mà nhiều nhiều vòng như vậy rồi... c
 				- Vòng tròn vô tận đó chính là Luân Hồi, chứ chẳng cần phải chết đi mới được luân hồi 😃
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
