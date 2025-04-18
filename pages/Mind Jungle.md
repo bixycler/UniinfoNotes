@@ -134,7 +134,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2025-04-18 Fri 10:32:07]
 			  :END:
-				-
+				- This chatbot by xAI is the most math & logic proficient model. Its logical thinking is about the level of university, while others are just about high school, and some are just about elementary school
 			- [NotebookLM](https://notebooklm.google.com/)
 			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
 				- It's designed for digesting a lot of documents.
