@@ -1250,4 +1250,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Khi vợ Vance Vanders đưa ổng vào bệnh viện tây y thì bác sỹ mới tìm cách dùng giả dược để "giải bùa" voodoo của ông thầy cúng kia. BS đã chích thuốc ói để cho ổng ói ra và lén thả con tắc kè xanh vào bồn ói rồi la toáng lên "Vance nhìn nè, ông đã ói con tắc kè đang ăn ruột ông ra rồi, ông đã được giải bùa rồi!" Vance nhìn con tắc kè mà sợ phát khiếp, rồi ngất đi trong 12h sau đó. Khi tỉnh dậy thì ông ta đã hết tâm bệnh và 1 tuần sau thì cơ thể ổng đã bình phục.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- Share a dream with Lan Nguyen on fb messenger
+		  collapsed:: true
+			-
 		- ...
