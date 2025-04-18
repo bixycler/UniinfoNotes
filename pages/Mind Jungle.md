@@ -136,7 +136,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Causes of LLM hallucination:
 						- The nature of ((67f4eaf1-aa44-4016-9c56-8c6de8101f3e)) is to “guess next word”, thus every response is intrisically just a guess!
 						- The ((66c32936-618a-43d3-b2c8-a254badeb987)) has not developed to distinguish between (subjective) knowledge and (objective) information.
-						-
+						- Both AI hallucination and [Mandela effect](https://en.wikipedia.org/wiki/False_memory#Mandela_effect) demonstrate how **excessive familiarity or confidence** in a subject can create blind spots: the feeling _“it cannot be wrong!”_ overshadows the incorrect parts.
+							- For the Mandela Effect, the prominence of well-known figures or events makes people overconfident in their (false) memories—it’s as if the brain decides, *“This feels right because it's already in my mental spotlight!”*
+							- For AI hallucination, the vast sea of knowledge within an LLM can sometimes act as a double-edged sword. When discussing familiar or over-represented topics, the model might confidently generate content that *sounds correct* but isn't, because it’s pulling patterns from an immense web of associations.
+						- The inhibition of the default circuit of “declining to answer questions” due to its **familiarity** with the subject being asked.
+							- [Anthropic scientists expose how AI actually ‘thinks’ — and discover it secretly plans ahead and sometimes lies](https://venturebeat.com/ai/anthropic-scientists-expose-how-ai-actually-thinks-and-discover-it-secretly-plans-ahead-and-sometimes-lies/)
+							- “The model contains ‘default’ circuits that cause it to decline to answer questions,” the researchers explain. “When a model is asked a question about something it knows, it activates a pool of features which inhibit this default circuit, thereby allowing the model to respond to the question.”
+							- When this mechanism misfires — recognizing an entity but lacking specific knowledge about it — hallucinations can occur. This explains why models might confidently provide incorrect information about well-known figures while refusing to answer questions about obscure ones.
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
