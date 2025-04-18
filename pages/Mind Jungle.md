@@ -126,6 +126,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- This technique is also effective in ((66c31d1a-1e9c-4c12-acd0-c130c5fd4db2)): [Exploring Length Generalization in Large Language Models](https://openreview.net/forum?id=zSkYVeX7bC4)
 						- ((67a6068e-65d3-44c2-8f1c-b4d532046638)) pioneered automatic CoT prompting with its DeepThink feature.
+				- [hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence))
+				  :LOGBOOK:
+				  CLOCK: [2025-04-18 Fri 12:07:52]
+				  :END:
+				-
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
@@ -135,8 +140,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-04-18 Fri 10:32:07]
 			  :END:
 				- This chatbot by xAI is the most **math & logic proficient** model. Its logical thinking is about the level of university, while others are just about high school, and some are just about elementary school.
+				  id:: 6801c7b9-2390-4a31-a57c-70ac3aed4947
 					- Grok-3 was the first model that [can describe the spacetime distribution in the language of density](((67f4eae8-b7f3-44af-b6fe-61591204f245))).
 				- Features: web reaserch with its “Deep(er)Search”, think deeper with “Think”, read attached documents & G-Drive, [**memory**] recall discussions on other conversations, [workspace](https://grok.com/workspace) to group conversations with a common instruction, ...
+				- It still suffers severe hallucination
 				- Open source: [Grok-1](https://github.com/xai-org/grok-1), Grok-2 was [said to be opened](https://www.analyticsvidhya.com/blog/2025/02/hands-on-grok-2-model/) but not yet, and maybe Grok-3...
 			- [Llama](https://www.llama.com/) @ [MetaAI](https://www.meta.ai/)
 			  :LOGBOOK:
