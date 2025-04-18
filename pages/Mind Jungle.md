@@ -78,6 +78,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((66c33468-23d5-44d7-955e-6711cb608157))
 						- [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 				- transformer architecture
+				  id:: 67f4eaf1-aa44-4016-9c56-8c6de8101f3e
 				  collapsed:: true
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) [Transformer (deep learning architecture)](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))
 				- [Emergent](((66c30b69-5b96-4793-bcce-bce51553a454))) abilities
@@ -126,11 +127,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- This technique is also effective in ((66c31d1a-1e9c-4c12-acd0-c130c5fd4db2)): [Exploring Length Generalization in Large Language Models](https://openreview.net/forum?id=zSkYVeX7bC4)
 						- ((67a6068e-65d3-44c2-8f1c-b4d532046638)) pioneered automatic CoT prompting with its DeepThink feature.
-				- [hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence))
+				- hallucination
+				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-04-18 Fri 12:07:52]
 				  :END:
-				-
+					- LLM AI models usually conflate its imaginations with facts, hence [“hallucination”, “confabulation”, or “delusion”](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)).
+					- Causes of LLM hallucination:
+						- The nature of ((67f4eaf1-aa44-4016-9c56-8c6de8101f3e)) is to “guess next word”, thus every response is intrisically just a guess!
+						- The ((66c32936-618a-43d3-b2c8-a254badeb987)) has not developed to distinguish between (subjective) knowledge and (objective) information.
+						-
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
