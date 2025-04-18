@@ -246,6 +246,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							- Arrived at the language of distribution: Grok 3, Meta AI
 								- Meta AI still had some confusions at first but quickly corrected after my suggestions.
 								- Grok 3 directly [described](https://grok.com/share/bGVnYWN5_41d4563d-f787-47cb-adfa-66cc81da8f08) the distribution in the language of density without any suggestion 😊. However, further refinements revealed many confusions. I've tried hard to resolve those confusions and finally complete the 3-way relativity.
+								  id:: 67f4eae8-b7f3-44af-b6fe-61591204f245
 									- Grok 3 still have severe hallucinations, e.g. it thinks that it can read Web pages for any given URL while [it cannot](https://grok.com/share/bGVnYWN5_e996d9cd-5621-404a-8c47-f9ebb9f0719f), as well as [other cases reported on Hacker News](https://news.ycombinator.com/item?id=43177346).
 						-
 				- So, the balance way should be using both: distribution for introductory level and curvatures for adavanced level.
