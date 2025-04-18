@@ -1252,5 +1252,61 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- Share a dream with Lan Nguyen on fb messenger
 		  collapsed:: true
-			-
+			- Previous context
+			  collapsed:: true
+				- Còn bây giờ, dựa trên ý thức "ko làm là do mình, vì mình", thì em thấy nó khó quá ko có khả năng làm hả?
+				- Lan:
+				  dạ, khó, không làm dc
+				  vì từng trải qua đau tới đó hoặc tương tự đó rồi nên không thể nào làm như vậy với ngta dc
+				  nó như giết mình thêm lần nữa vậy
+				- giả sử mình làm đi, em cứ để nó diễn ra đi (tưởng tượng, hoặc nhớ lại những lần "lỡ tay" trước), thì em cảm thấy thế nào?
+				- Lan:
+				  là đau
+				  mất niềm tin vào những người mà mình tin nhất trong suốt bao nhiêu lâu
+				  cảm thấy k sống nổi nữa, k muốn sống nữa
+				- và bây giờ thì em cảm thấy như chồng đang mất niềm tin vào mình, mà em có xác nhận điều đó từ chồng ko, có chắc là chồng đau vì điều đó ko hay đau vì cái khác?
+				- Lan:
+				  ảnh chưa mất niềm tin vào em, ảnh chỉ mới cảm thấy sao dạo này em xa cách, ảnh cảm thấy sao ảnh đã thay đổi bớt ác với em rất nhiều, yêu thương em hơn, nhưng trách rằng em đang đòi tự do của em nhiều quá
+				- Vậy đầu tiên là mình tự gợi lại nỗi đau của mình và nó khác với nỗi đau hiện tại của chồng hen.
+				  Thực ra mình chả biết người ta đau cái gì đâu, mà chỉ có thể "suy bụng ta ra bụng người" thôi.
+				- Perspectivistic: cùng lắm thì đó là những gì mình biết về người ta, ko thể nói hoành toàn chính xác là người ta như vậy.
+				  Mỗi người là một thực thể đa chiều, rất phức tạp, chỉ thể hiện ra 1 mặt nào đó trong 1 hoàn cảnh cụ thể. Và "đi với phật mặc áo cà sa, đi với ma mặc áo giấy", sự "đồng thanh tương ứng" khiến họ thể hiện ra mặt này tương ứng với người đối diện, chứ đó ko phải là tất cả.
+				- Perspectivism, em có chấp nhận được ko. Chấp nhận về ý thức thôi, chứ về cảm xúc thì chỉ khi tự mình nếm trải mới cảm được, anh ko đòi hỏi nó bây giờ. Chỉ hỏi là về mặt ý thức, thì em có thể "thấy" ra được là những gì mình biết về chồng chỉ là một phần của chồng ko?
+				- Lan:
+				  dạ có, chấp nhận
+				- Vậy bây giờ để diễn ra tiếp, bây giờ là tưởng tượng nhé... xin lỗi là đưa ra một ví dụ tiêu cực, chỉ là giả dụ thôi, ko nói là chồng hiện tại của em sẽ như vậy nhé.... nào đã sẵn sàng cho một chuyến roller coaster chưa?
+				- Lan:
+				  ukie
+				- Trong lúc đợi anh gõ, em nên buông ra để hít thở, đừng cắm mắt vào đợi, đừng suy nghĩ lan man, đc ko?
+				- Lan:
+				  yup
+			- The dream
+			  collapsed:: true
+				- Hãy tưởng tượng một nhánh thời gian rẽ ra một cõi "trong mơ" để ko bị lẫn lộn với thực tế tương lai ở ngoài đời sau này.
+				  Trong một cõi mơ, em có "tha tâm thông", là thần thông thấu biết tâm người, nên biết nỗi đau của chồng mình là gì, thấy nó có 3 phần giống của mình, tức phần "mất niềm tin", nhưng 7 phần còn lại là khác, VD "bị chê trách".
+				- Ở đó, em bay lên từ trên cao nhìn xuống, thấy cái duyên mình gặp chồng đã khiến trong suốt quá trình đó ảnh chỉ thể hiện ra 3 phần và giấu lại 7 phần... mà con người phàm tục của mình "dưới kia" ko hề hay biết.
+				- Rồi em lại có "thiên nhãn thông", là thần thông thấy biết xuyên không thời gian....
+				- Với cái tâm tự do bay trên không, ko bị lớp áo da che mắt, em nhìn xuống xuyên qua không gian, thấy suốt ruột gan.... à mà thôi, toàn những thứ hôi thối xấu xa..., nên em quay đi, nhìn xuyên thời gian...
+				- Nhìn xuyên thời gian, tới tương lai, em thấy con người trần tục "dưới kia" cứ cuốn vòng vòng với nỗi đau trong quá khứ về việc mất niềm tin của mình mà cố gắng tạo niềm tin...
+				- vì cũng được thoả mãn 3 phần nên anh chồng vẫn có phần nhẹ bớt, nhưng chẳng bao giờ là hết hẳn, vì 7 phần còn lại lớn hơn gấp đôi lận...
+				- và rồi một ngày nào đó... khi con người trần tục của em lẫn của chồng đều đã chịu hết nổi, bên em thì nhường nhịn hết nổi, bên chồng thì quá bất mãn vì ảnh cũng đã tưởng là gặp em sẽ giải quyết được 100% nỗi đau mà rốt cuộc lúc nào cũng còn đau 70-80%...
+				- Thì đổ bể ra... ảnh lật 7 phần còn lại ra vì nó đã bị dồn nén quá lâu, nó thể hiện ra là một người rất khác với "người chồng" mà em đã từng quen thuộc, phủ nhận cả những điều hay ho nhứt, những lý tưởng cao đẹp mà ảnh đã share với em bấy lâu nay, và vô tình "phủi bỏ" hết công sức của em. 😢
+				- Bị phủ nhận sạch trơn, con người trần tục của em lại một lần nữa mất hoàn toàn niềm tin, đau đớn khôn tả xiết!
+				- Vì quá đau đớn, con người trần tục của em ko thể chấp nhận 7 phần còn lại của ảnh là thật, là cũng đau đớn ko kém mình, mà chỉ thấy là ảnh đã lừa dối mình bấy lâu.
+				- Chìm đắm trong tuyệt vọng, đau khổ, em rút vào trong, chẳng thể mở lòng để có thể thấu hiểu được ai khác...
+				- nhưng do con người trần tục đó ko có khả năng thấy rõ chính mình, nên theo bản năng thì nó cứ vô tình tìm tới một người "đồng cảnh ngộ" khác, dù cho ý thức vẫn cứ bảo "chỉ có mình mới giải quyết được thôi"
+				- và cứ như thế mà nỗi đau cũ cứ cuốn mình vào vòng xoáy mới với ảo tưởng mới.... cứ hi vọng rồi sụp đổ, tin thật nhiều rồi nghi thật nhiều
+				- Một ngày nào đó, cái thân người dưới kia chịu hết nổi, chết ngất, thoát xác, bay lên nhìn lại tất cả... thì mới ngộ là "ồ, nó là vậy đó!"
+				- Xong giấc mơ, em có theo dõi kịp ko?
+			- Closing
+			  collapsed:: true
+				- Khi "buồn ngủ mà gặp chiếu manh" thì chiếc chiếu dù rách nát vẫn còn hơn chăn nhung nệm gấm. Khi những tâm hồn đau khổ gặp nhau, dù chỉ 10% tương đồng là đã dữ lắm rồi, nên ban đầu luôn quay cái 10% đó vào nhau để thấy 100% là "đồng điệu", để hi vọng là mình đã gặp được duyên để giải quyết 100% đau khổ của mình.
+				- Chỉ tới khi hết buồn ngủ, tỉnh dậy thì chiếc chiếu manh mới hiện nguyên hình...
+				  *Thằng cùi mà lấy con đui
+				  Đến khi sáng mắt, con đui bỏ chồng!*
+				- Lan:
+				  em nghĩ là nó k phải là tưởng tượng luôn vì nó đã xảy ra đúng như vậy đó anh. và đã xảy ra cách đây rất lâu rồi. do vậy em cũng không còn kì vọng rằng ảnh sẽ không bao giờ phủi bỏ mình. em đã chuẩn bị tư thế sẵn sàng để nếu ảnh có bỏ, thì cũng k là điều gì đáng ngạc nhiên
+				- Thực ra tương lai chỉ là sự lặp lại của quá khứ... trong một vòng xoay vô tận. Nên nói là "tưởng tượng tương lai" thực ra chỉ là diễn lại quá khứ với một ngôn ngữ khác mà thôi.
+				- Chỉ khi nào mình buông hết mọi thứ ra, để mình "bay lên", để nhìn xuống toàn bộ vòng tròn đó... mình mới thấy là... thực ra mình đã xoay vòng ko chỉ 1 mà nhiều nhiều vòng như vậy rồi... c
+				- Vòng tròn vô tận đó chính là Luân Hồi, chứ chẳng cần phải chết đi mới được luân hồi 😃
 		- ...
