@@ -128,6 +128,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- This technique is also effective in ((66c31d1a-1e9c-4c12-acd0-c130c5fd4db2)): [Exploring Length Generalization in Large Language Models](https://openreview.net/forum?id=zSkYVeX7bC4)
 						- ((67a6068e-65d3-44c2-8f1c-b4d532046638)) pioneered automatic CoT prompting with its DeepThink feature.
 				- hallucination
+				  id:: 6801de22-8ae9-42e1-a7b2-d870e5ec9689
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-04-18 Fri 12:07:52]
@@ -155,7 +156,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 6801c7b9-2390-4a31-a57c-70ac3aed4947
 					- Grok-3 was the first model that [can describe the spacetime distribution in the language of density](((67f4eae8-b7f3-44af-b6fe-61591204f245))).
 				- Features: web reaserch with its “Deep(er)Search”, think deeper with “Think”, read attached documents & G-Drive, [**memory**] recall discussions on other conversations, [workspace](https://grok.com/workspace) to group conversations with a common instruction, ...
-				- It still suffers severe hallucination
+				- It still suffers severe ((6801de22-8ae9-42e1-a7b2-d870e5ec9689)), e.g. about its ability to [read content of webpages](((6801e4de-3427-4d2d-a196-35572bab45af))).
+					- When being asked about the plain static webpage https://bixycler.github.io/Uniinfo/, 
+					  id:: 6801e4de-3427-4d2d-a196-35572bab45af
+						- first time, it fabricated the whole "under construction page" with its imagination;
+						- second time, even when the (new) feature of `Settings` > `Behavior` > `Read Webpage Content of Pasted URLs` is turned on, it fabicated another page with severed content... in markdown in stead of HTML! This content snippet seems to be recalled from the first conversation where i gave it the full content of `index.html`.
 				- Open source: [Grok-1](https://github.com/xai-org/grok-1), Grok-2 was [said to be opened](https://www.analyticsvidhya.com/blog/2025/02/hands-on-grok-2-model/) but not yet, and maybe Grok-3...
 			- [Llama](https://www.llama.com/) @ [MetaAI](https://www.meta.ai/)
 			  :LOGBOOK:
