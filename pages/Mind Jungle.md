@@ -135,7 +135,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-04-18 Fri 10:32:07]
 			  :END:
 				- This chatbot by xAI is the most **math & logic proficient** model. Its logical thinking is about the level of university, while others are just about high school, and some are just about elementary school.
-				- ((67f4eae8-b7f3-44af-b6fe-61591204f245))
+					- Grok-3 was the first model that [can describe the spacetime distribution in the language of density](((67f4eae8-b7f3-44af-b6fe-61591204f245))).
+				- Features: web reaserch with its “Deep(er)Search”, think deeper with “Think”, read attached documents & G-Drive, [**memory**] recall discussions on other conversations, [workspace](https://grok.com/workspace) to group conversations with a common instruction, ...
 				- Open source: [Grok-1](https://github.com/xai-org/grok-1), Grok-2 was [said to be opened](https://www.analyticsvidhya.com/blog/2025/02/hands-on-grok-2-model/) but not yet, and maybe Grok-3...
 			- [Llama](https://www.llama.com/) @ [MetaAI](https://www.meta.ai/)
 			  :LOGBOOK:
