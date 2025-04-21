@@ -1322,6 +1322,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((67a5faa3-c64c-48f7-8b3f-a5311714110f))
 				- ((67f4eaf9-6b66-4c22-9cca-8a5c7124de0f))
 			- BBC Sinhala news about Minh Tue monk group
+				- Ref: [a post by MinhTuePath on X](https://x.com/MinhTuePath/status/1913070440798715957)
 				- [April 17](https://www.bbc.com/sinhala/articles/c98gdzz8vdno): An objection from monks led by the Malwathu faction to the famous Thich Minh Tue of Vietnam who is visiting Sri Lanka.
 					- Updated title: අවසරයකින් තොරව පාද යාත්‍රාවේ නිරත වීම නවත්වන්නැයි කුලියාපිටියේදී තික් මින් තියු හිමිට පොලිසියෙන් දැනුම් දීමක්
 					  id:: 68062218-cd7e-45e4-9629-f32d24226898
