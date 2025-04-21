@@ -241,12 +241,12 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		- [Brahmi script](https://en.wikipedia.org/wiki/Brahmi_script) descendants
 			- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
 				- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
-			- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
+			- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles.
 				- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
 			- [Sinhala script](https://en.wikipedia.org/wiki/Sinhala_script)
 				- මෙ (me) =  ෙ(e) + ම(ma), මෛ (mai) =  ෛ(ai) + ම(ma), ට (ta), ග (ga), ර (ra)
 			- [Malayalam script](https://en.wikipedia.org/wiki/Malayalam_script)
-				- ഠ (ṭha), ത (ta), ഗ (ga), ക (ka), ഞ (ña), ര (ra), ഌ (l̥), ഋ (r̥), തെ (te) = ത(ta) + െ(e), തൈ (tai) = ത(ta) + ൈ(ai)
+				- ഠ (ṭha), ത (ta), ഗ (ga), ക (ka), ഞ (ña), ര (ra), ഌ (l̥), ഋ (r̥), തെ (te) =  െ(e) + ത(ta), തൈ (tai) =  ൈ(ai) + ത(ta)
 			- [Cham script](https://en.wikipedia.org/wiki/Cham_script) contains spiral punctuation
 				- ꩜ (spiral, beginning of a section)
 		- [Bamum script](https://en.wikipedia.org/wiki/Bamum_script) contains many pictographic characters
