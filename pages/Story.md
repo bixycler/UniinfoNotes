@@ -1321,73 +1321,78 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Previous events
 				- ((67a5faa3-c64c-48f7-8b3f-a5311714110f))
 				- ((67f4eaf9-6b66-4c22-9cca-8a5c7124de0f))
-			- [BBC Sinhala news](https://www.bbc.com/sinhala/articles/c98gdzz8vdno) about Minh Tue monk group
-				- An objection from monks led by the Malwathu faction to the famous Thich Minh Tue of Vietnam who is visiting Sri Lanka.
-				- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vTacjSpr-aVkXGiVQpwH-wt4UUbgFic6wjhXKE3IMtG0yfAB5MoS8MkTgzsF1us2FrCK37D6DHs7JnO/pub): ශ්‍රී ලංකාවේ සංචාරය කරන වියට්නාමයේ සුප්‍රසිද්ධ තික් මින් තියු හිමි ට මල්වතු පාර්ශවය ප්‍රමුඛ භික්ෂුන්ගෙන් විරෝධයක්
-				  April 17, 2025
-					- Article information: වියට්නාමයේ ජනප්‍රිය මෙන් ම ආන්දෝලනාත්මක හිමි නමක් වන තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරයට මල්වතු පාර්ශවය ඇතුළු ව මෙරට ඇතැම් බෞද්ධ භික්ෂූන් වහන්සේලාගේ විරෝධය එල්ල වී තිබේ. පසුගිය 10 වැනිදා සිය අනුගාමික හිමිවරුන් ඇතුළු පිරිසක් සමග ශ්‍රී ලංකාවට පැමිණි තික් මින් තියු හිමියෝ මේ වන විට දිවයිනේ විවිධ ප්‍රදේශවල පාද චාරිකාවේ නිරත වෙමින් සිටිති.
-					  collapsed:: true
-						- (Image 1: master Minh Tue's face)
-						- වයිනේ විවිධ විහාරස්ථානවල දී බෞද්ධ භික්ෂූන් වහන්සේලා සහ උපාසක උපාසිකාවන් විසින් මෙම වියට්නාම හිමිවරුන් පිරිස පිළිගන්නා අයුරු දැක්වෙන වීඩියෝ ද ඒ හිමියන්ගේ සමාජ මාධ්‍යවල පළ කර තිබේ.
-						- තික් මින් තියු හිමියන් ආන්දෝලනයට ලක්වුයේ, වියට්නාම රජය පිළිගන්නා එකම සංඝ සභාවෙන් උන්වහන්සේ ප්‍රතික්ෂේප කර තිබීම හේතුවෙනි.
-						- වියට්නාම සංඝ සභාව විසින් තික් මින් තියු හිමි 'ව්‍යාජ' භික්ෂුවක් ලෙස ලේබල් කර ඇත.
-						- බීබීසී සිංහල කළ සොයා බැලීමක දී අනාවරණය වූයේ උන්හන්සේ මෙරට දී පිළිනොගන්නා ලෙස දන්වමින් වියට්නාම සංඝ සභාව ශ්‍රී ලංකා බුද්ධ ශාසන අමාත්‍යංශය වෙත ලිඛිතව දන්වා ඇති බව ය.
-						- බීබීසී සිංහල කළ විමසීමක දී බුද්ධ ශාසන හා ආගමික හා සංස්කෘතික කටයුතු අමාත්‍යංශයේ ලේකම් ඩබ්ලිව්.පී සේනාධීර තහවුරු කළේ, ඔවුන් වෙත එවැනි ලිපියක් ලැබී ඇතැයි තමාව දැනුවත් කර ඇති බව යි.
-						- ශ්‍රී ලංකාවට පැමිණ ඇති මෙම වියට්නාම භික්ෂූන් වහන්සේ ඇතුලු පිරිස රාජ්‍යතාන්ත්‍රික කණ්ඩායමක් නොවන බවට අදාළ ලිපියේ සඳහන් කර ඇති බවට තමන් වෙත දැනුම් දී ඇතැයි ද ලේකම්වරයා පැවසීය.
-						- (Image 2: video screenshot of the group with Buddhist monks and lay devotees)
-						  Caption: දිවයිනේ විවිධ විහාරස්ථානවල දී බෞද්ධ භික්ෂූන් වහන්සේලා සහ උපාසක උපාසිකාවන් විසින් මෙම වියට්නාම හිමිවරුන් පිරිස පිළිගන්නා අයුරු දැක්වෙන වීඩියෝ ද ඒ හිමියන්ගේ සමාජ මාධ්‍යවල පළ කර තිබේ.
-						- බෞද්ධ කටයුතු කොමසාරිස් ජනරාල් ආර්.එම්.පී රත්නායක බීබීසී සිංහල වෙත පැවසුවේ, මෙම පිරිස සංචාරක වීසා ලබා ගෙන දිවයිනට පැමිණ ඇති බවයි. "එහෙම එන්න පුළුවන් නේ, පාස්පෝට් තියෙනවා, වීසා ගහලා තියෙනවා."
-						- කෙසේවෙතත්, ජර්මනියේ බර්ලින් විහාරාධිපති පූජ්‍ය පැලෑනේ ධම්ම කුසල හිමි බීබීසී සිංහල වෙත පැවසුවේ, මෙම වියට්නාම කණ්ඩායම දිවයිනට පැමිණීමට පෙර සිට ම තමන් බලධාරීන් දැනුවත් කළ ද අවශ්‍ය කඩිනම් ක්‍රියාමාර්ග නොගත් බවය.
-						- "මේ අය රටට ඇවිල්ලා ඉවරයි, එන දවසේ මම කිව්වා, බෞද්ධ කටයුතු කොමසාරිස්ට, අපේ රටේ එහෙම ක්‍රමයක් නැහැ නේ. එයාලා කිසිම ඇක්ෂන් එකක් ගත්තේ නැහැ. මේ රටට ඕන කෙනෙකුට ඇවිල්ලා ඕන දෙයක් කරන්න පුළුවන්."
-						- "මේ කට්ටිය රඟපෑමක් වගේ කරන්නේ. මේ කට්ටිය එහේ සංඝ සමාජයට එරෙහිව වගේ යන්නේ.විරුද්ධ මතයක් දරමින් බුදුවරු වගේ හැඟීමක් තමා මිනිස්සුන්ට දෙන්නේ.ඔය කට්ටියත් එක්ක ගිහි පිරිසක් ඉන්නවා.එයලා යූටියුබ් වලින් ප්‍රචාරය යවලා, ලෝකේ ගොඩක් තැන්වල වියට්නාම් අය ඉන්නවානේ ලෝකේ හැම තැනක ම වගේ. ඒ අයගෙන් මුදල් එකතුකරන එක තමා කරන්නේ.ලොකු ඕර්ගනයිසේෂන් එකක්"
-						- "ඒ කට්ටිය පයින් අවිදින එක කරන්නේ. පන්සල්වලට ගිහිල්ලා ලංකාවේ මිනිස්සු ඒ කට්ටියට ගෞරවා කරනවා කියලා ලෝකයට යවනවා. ලංකාව කියන්නේ බෞද්ධ රටක්. ඒ බෞද්ධ රට අපිව පිළිගන්නවා කියන එක තමා එලියට දෙන්නේ. එතකොට වියට්නාම රජය සහ එහෙ ඉන්න හාමදුරුවෝ අපිත් එක්ක කළ කිරෙනවා. එහෙන් ප්‍රතික්ෂේප කරපු කට්ටිය අපි පිළිගන්නවා වගේ" පූජ්‍ය පැලෑනේ ධම්ම කුසල හිමියෝ බීබීසී සිංහල වෙත පැවසූහ.
-					- ශ්‍රී ලංකාවේ ඇතැම් බෞද්ධ හිමිවරුන් විරෝධය දක්වන්නේ ඇයි?
-					  collapsed:: true
-						- (Image 3: The group with lay people)
-						  Brief: වියට්නාමයේ ජනප්‍රිය මෙන්ම ආන්දෝලනාත්මක හිමි නමක් වන තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරයට මෙරට බෞද්ධ භික්ෂූන් වහන්සේලාගේ විරෝධය එල්ල වී තිබේ. පසුගිය 10 වැනිදා සිය අනුගාමික හිමිවරුන් ඇතුළු පිරිසක් සමග ශ්‍රී ලංකාවට පැමිණි තික් මින් තියු හිමියෝ මේවන විට දිවයිනේ විවිධ ප්‍රදේශවල පාද චාරිකාවේ නිරත වෙමින් සිටිති.
-						- බීබීසී සිංහල කළ විමසීමක දී මල්වතු පාර්ශවයේ නියෝජ්‍ය ලේඛකාධිකාරී පූජ්‍ය මහවෙල රතනපාල හිමියන් පැවසුවේ, මෙම වියට්නාම පිරිසගේ ශාසන විරෝධී කටයුතුවලට ඉඩ නොදෙන ලෙස දන්වමින් වියට්නාමයේ බුද්ධ ශාසන දෙපාර්තෙමේන්තුවේ සභාපති හිමියන් විසින් මල්වතු මහනාහිමිගෙන් වෙත ලිඛිත ඉල්ලීමක් කර ඇති බව ය.
-						- මේ පිරිස 'භික්ෂූ වේෂධාරීන්' බව ත්, මොවුන් බෞද්ධ විනයට අනුව පැවිදි වූ අය නොවන බවට ත්, එහි සඳහන් බව නියෝජ්‍ය ලේඛකාධිකාරී හිමියෝ සඳහන් කළහ.
-						- ඒ අනුව මල්වතු විහාර පාර්ශවයේ මහනායක තිබ්බටුවාවේ ශ්‍රී සුමංගල මහනායක හිමියන්, බෞද්ධ කටයුතු කොමසාරිස් ජනරල්වරයාගෙන් ඉල්ලා ඇත්තේ, මෙම 'වියට්නාම පිරිස' පිළිබඳ කරුණු පරීක්ෂා කර ආගමන විගමන පාලක ජනරාල්වරයා හරහා වීසා කොන්දේසි කඩ කිරීම සම්බන්ධයෙන් පියවර ගන්නා ලෙසය.
-						- එමෙන්ම මොවුන්ගේ පාද චාරිකාව වැළැක්වීම සඳහා කඩිනමින් අවශ්‍ය පියවර ගන්නා ලෙසත් අදාළ ලිපියේ සඳහන් කර තිබේ.
-						- බීබීසී සිංහල වෙත අදහස් දක්වමින් බෞද්ධ කටයුතු කොමසාරිස් ජනරාල්වරයා කියා සිටියේ, මල්වතු මහනායක හිමිපාන්ගෙන් ලද ලිපිය අනුව අවශ්‍ය ක්‍රියාමාර්ග ගන්නා ලෙස ආගමන විගමන දෙපාර්තමේන්තුව දැනුවත් කිරීමට පියවර ගෙන ඇති බව ය.
-					- පාද යාත්‍රාවේ නිරත වෙමින් වියට්නාමය කැළඹූ මේ හිමියන් කවුද?
-					  collapsed:: true
-						- 44 හැවිරිදි තික් මින් තියු හිමියෝ මීට පෙර ලාඕසය සහ තායිලන්තය යන රටවල ද සංචාරය කළහ.
-						- එහෙත් වියට්නාම බෞද්ධ සංඝ සභාව (VBS) අවධාරණය කර සිටින්නේ, "තික් මින් තියු " බෞද්ධ භික්ෂුවක ලෙස පිළිනොගන්නා බව ය. වියට්නාම බෞද්ධ සංඝ සභාව යනු, එරට රජය විසින් නිල වශයෙන් පිළිගන්නා ලද එක ම බෞද්ධ සංවිධානයයි.
-						- සත්‍ය වශයෙන් ම, තික් මින් තියු හිමියන් තමන් භික්ෂුවක ලෙස හෝ වියට්නාමයේ බෞද්ධ සංඝයා වහන්සේ යටතේ ඇති කිසිදු විහාරස්ථානයකට හෝ ආයතනයකට අනුබද්ධ වන බවට ප්‍රකාශ කර නැත. ඒ වෙනුවට උන්වහන්සේ, තමා හඳුන්වන්නේ "බුදුන්ගේ ඉගැන්වීම් අනුගමනය කිරීමට උත්සහ කරන පුද්ගලයෙකු" ලෙස ය.
-						- තික් මින් තියූ හිමියන් සමාජ මාධ්‍යවල ජනප්‍රිය චරිතයක් බවට පත්ව ඇති අතර, උන්වහන්සේ සංචාරය කරන සෑම ස්ථානයක් ම පාහේ මාධ්‍ය ආවරණය කරමින් විවිධ ක්‍රියාකාරීන්, සමාජ මධ්‍ය ඔස්සේ දැවැන්ත ප්‍රචාරණයක් කරනු ලබයි.
-						- පාවහන් නොමැතිව ඇවිදීම, පිණ්ඩපාතයෙන් ජීවත් වීම, වනාන්තරවල, ලඳු කැළෑවල හෝ සුසාන භූමිවල සෙවණක් සෙවීම සහ සියලු භෞතික දෑ කෙරෙහි ඇති ඇලීම අත්හැරීම හේතුවෙන් තික් මින් තියු හිමියන් වියට්නාමය පුරා වේගයෙන් ජනප්‍රියත්වයට පත්විය.
-				- [In Vietnamese](https://docs.google.com/document/d/e/2PACX-1vTzp_kCZ4g4LAxsYPjbxZzqwZlZ-xC_FNoVy4rc8mAHpyRZrDq23Sv_98xGwQPllTGHNfVuhQp_ENJO/pub): Chuyến thăm Sri Lanka của thầy Minh Tuệ nổi tiếng từ Việt Nam bị phản đối bởi phái Malwatta và các tu sĩ Phật giáo khác
-				  Ngày đăng: 17/04/2025
-					- Tóm tắt: Chuyến thăm Sri Lanka của thầy Minh Tuệ, một nhân vật nổi tiếng nhưng cũng gây tranh cãi từ Việt Nam, đã vấp phải sự phản đối từ phái Malwatta và một số tu sĩ Phật giáo tại nước này. Vào ngày 10/4 vừa qua, thầy Minh Tuệ cùng một nhóm người đi theo đã đến Sri Lanka và hiện đang thực hiện hành trình bộ hành qua nhiều khu vực trên đảo.
-					  collapsed:: true
-						- Các video được đăng trên mạng xã hội của thầy Minh Tuệ cho thấy nhóm này được các tu sĩ Phật giáo và Phật tử tại nhiều ngôi chùa ở Sri Lanka tiếp đón.
-						- Thầy Minh Tuệ gây tranh cãi vì bị Giáo hội Phật giáo Việt Nam, tổ chức Phật giáo duy nhất được chính phủ Việt Nam công nhận, bác bỏ tư cách tu sĩ. Giáo hội này đã gắn nhãn thầy Minh Tuệ là “tu sĩ giả”.
-						- Theo điều tra của BBC Sinhala, Giáo hội Phật giáo Việt Nam đã gửi thư đến Bộ Phật giáo và Tôn giáo Sri Lanka, yêu cầu không công nhận thầy Minh Tuệ tại nước này.
-						- Trong một cuộc trao đổi với BBC Sinhala, ông W.P. Senadheera, thư ký Bộ Phật giáo và Tôn giáo, xác nhận đã được thông báo về một lá thư như vậy.
-						- Lá thư này cũng cho biết nhóm của thầy Minh Tuệ đến Sri Lanka không phải là một phái đoàn ngoại giao, theo thông tin được cung cấp cho ông Senadheera.
-						- (Ảnh 2: Đoàn bộ hành cùng các nhà sư và Phật tử Sri Lanka)
-						  Chú thích: Ảnh chụp màn hình video ghi lại cảnh các nhà sư và Phật tử chào đón đoàn bộ hành Việt Nam tại nhiều ngôi chùa trên khắp hòn đảo cũng đã được đăng trên mạng xã hội của đoàn bộ hành.
-						- Tổng Ủy viên Ban Phật giáo R.M.P. Ratnayake nói với BBC Sinhala rằng nhóm này đã đến Sri Lanka bằng visa du lịch. Ông nói: “Họ có thể đến như vậy, họ có hộ chiếu và đã được cấp visa.”
-						- Tuy nhiên, Thượng toạ Pelane Dhamma Kusala, trụ trì chùa ở Berlin, Đức, cho biết ông đã cảnh báo chính quyền Sri Lanka về nhóm này trước khi họ đến, nhưng không có hành động kịp thời nào được thực hiện.
-						- Ông nói: “Họ đã đến đây rồi, ngay ngày họ đến tôi đã báo cho Ủy viên Phật giáo, rằng đất nước chúng ta không có quy định như vậy. Nhưng họ chẳng làm gì cả. Bất cứ ai cũng có thể đến đây và làm bất cứ điều gì.”
-						- “Nhóm này đang diễn kịch. Họ đi ngược lại Giáo hội Phật giáo ở Việt Nam, thể hiện quan điểm đối lập và khiến người ta cảm thấy họ như những vị Phật. Có cả một nhóm cư sĩ đi cùng họ. Họ dùng YouTube để tuyên truyền, ở nhiều nơi trên thế giới có người Việt Nam sinh sống. Họ quyên góp tiền từ những người này. Đó là một tổ chức lớn.”
-						- “Nhóm đó thực hiện việc đi bộ. Họ đến các ngôi chùa và cho thế giới thấy người dân Sri Lanka kính trọng họ. Sri Lanka là một quốc gia Phật giáo, và họ muốn thể hiện rằng đất nước Phật giáo này công nhận họ. Điều này khiến chính phủ Việt Nam và các tu sĩ ở đó khó chịu, vì những người bị họ bác bỏ lại được chúng ta công nhận.” Thượng tọa Pelane Dhamma Kusala Thero đã nói với BBC Sinhala như thế.
-					- Tại sao một số nhà sư Phật giáo ở Sri Lanka phản đối?
-					  collapsed:: true
-						- (Ảnh 3: Đoàn bộ hành và Phật tử Sri Lanka)
-						- Tóm tắt: Chuyến thăm Sri Lanka của thầy Minh Tuệ, một nhân vật nổi tiếng nhưng cũng gây tranh cãi từ Việt Nam, đã vấp phải sự phản đối từ phái Malwatta và một số tu sĩ Phật giáo tại nước này. Vào ngày 10/4 vừa qua, thầy Minh Tuệ cùng một nhóm người theo đã đến Sri Lanka và hiện đang thực hiện hành trình bộ hành qua nhiều khu vực trên đảo.
-						- Trong một cuộc trao đổi với BBC Sinhala, Thượng tọa Mahawela Ratanapala, Phó Thư ký phái Malwatta, cho biết Chủ tịch Ban Phật giáo Việt Nam đã gửi thư yêu cầu Malwatta không cho phép nhóm này thực hiện các hoạt động trái với giáo luật.
-						- Thư này nói rằng nhóm này là “những người mặc áo tu sĩ” và không phải là những người được xuất gia theo giới luật Phật giáo, theo lời Thượng tọa Phó Thư ký.
-						- Theo đó, Thượng tọa Tibbatuwawe Sri Sumangala, lãnh đạo phái Malwatta, đã yêu cầu Ủy viên Phật giáo điều tra về nhóm này và thông qua Tổng kiểm soát Di trú thực hiện các biện pháp liên quan đến việc vi phạm điều kiện visa.
-						- Lá thư cũng yêu cầu nhanh chóng thực hiện các bước cần thiết để ngăn chặn hành trình bộ hành của nhóm này.
-						- Ủy viên Phật giáo cho biết đã thông báo cho Bộ Di trú để thực hiện các biện pháp cần thiết theo lá thư từ Thượng tọa Malwatta Mahanayake.
-					- Nhà sư nào đã khuấy động Việt Nam bằng cuộc bộ hành?
-					  collapsed:: true
-						- Thầy Minh Tuệ, 44 tuổi, trước đây đã thực hiện các chuyến hành trình đến Lào và Thái Lan.
-						- Tuy nhiên, Giáo hội Phật giáo Việt Nam (VBS) nhấn mạnh rằng không công nhận thầy Minh Tuệ là tu sĩ Phật giáo. Giáo hội này là tổ chức Phật giáo duy nhất được chính phủ Việt Nam công nhận.
-						- Thực tế, thầy Minh Tuệ không tuyên bố mình là tu sĩ hay liên kết với bất kỳ ngôi chùa hoặc tổ chức nào thuộc Giáo hội Phật giáo Việt Nam.
-						- Thay vào đó, thầy tự nhận mình là “một người cố gắng thực hành theo lời dạy của Đức Phật”.
-						- Thầy Minh Tuệ đã trở thành một nhân vật nổi tiếng trên mạng xã hội, và mọi nơi thầy đến đều được các nhà hoạt động đưa tin rộng rãi qua mạng xã hội.
-						- Việc đi bộ bằng chân trần, sống bằng khất thực, tìm nơi trú ẩn trong rừng, lùm cây hoặc nghĩa trang, và từ bỏ mọi gắn bó với vật chất đã khiến thầy Minh Tuệ nhanh chóng trở nên nổi tiếng khắp Việt Nam.
+			- BBC Sinhala news about Minh Tue monk group
+				- [April 17](https://www.bbc.com/sinhala/articles/c98gdzz8vdno): An objection from monks led by the Malwathu faction to the famous Thich Minh Tue of Vietnam who is visiting Sri Lanka.
+					- Updated title: අවසරයකින් තොරව පාද යාත්‍රාවේ නිරත වීම නවත්වන්නැයි කුලියාපිටියේදී තික් මින් තියු හිමිට පොලිසියෙන් දැනුම් දීමක්
+					  Police inform Thich Minh Tue in Kuliyapitiya to stop engaging in foot procession without permission
+					- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vTacjSpr-aVkXGiVQpwH-wt4UUbgFic6wjhXKE3IMtG0yfAB5MoS8MkTgzsF1us2FrCK37D6DHs7JnO/pub): ශ්‍රී ලංකාවේ සංචාරය කරන වියට්නාමයේ සුප්‍රසිද්ධ තික් මින් තියු හිමි ට මල්වතු පාර්ශවය ප්‍රමුඛ භික්ෂුන්ගෙන් විරෝධයක්
+					  April 17, 2025
+						- Article information: වියට්නාමයේ ජනප්‍රිය මෙන් ම ආන්දෝලනාත්මක හිමි නමක් වන තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරයට මල්වතු පාර්ශවය ඇතුළු ව මෙරට ඇතැම් බෞද්ධ භික්ෂූන් වහන්සේලාගේ විරෝධය එල්ල වී තිබේ. පසුගිය 10 වැනිදා සිය අනුගාමික හිමිවරුන් ඇතුළු පිරිසක් සමග ශ්‍රී ලංකාවට පැමිණි තික් මින් තියු හිමියෝ මේ වන විට දිවයිනේ විවිධ ප්‍රදේශවල පාද චාරිකාවේ නිරත වෙමින් සිටිති.
+						  collapsed:: true
+							- (Image 1: master Minh Tue's face)
+							- වයිනේ විවිධ විහාරස්ථානවල දී බෞද්ධ භික්ෂූන් වහන්සේලා සහ උපාසක උපාසිකාවන් විසින් මෙම වියට්නාම හිමිවරුන් පිරිස පිළිගන්නා අයුරු දැක්වෙන වීඩියෝ ද ඒ හිමියන්ගේ සමාජ මාධ්‍යවල පළ කර තිබේ.
+							- තික් මින් තියු හිමියන් ආන්දෝලනයට ලක්වුයේ, වියට්නාම රජය පිළිගන්නා එකම සංඝ සභාවෙන් උන්වහන්සේ ප්‍රතික්ෂේප කර තිබීම හේතුවෙනි.
+							- වියට්නාම සංඝ සභාව විසින් තික් මින් තියු හිමි 'ව්‍යාජ' භික්ෂුවක් ලෙස ලේබල් කර ඇත.
+							- බීබීසී සිංහල කළ සොයා බැලීමක දී අනාවරණය වූයේ උන්හන්සේ මෙරට දී පිළිනොගන්නා ලෙස දන්වමින් වියට්නාම සංඝ සභාව ශ්‍රී ලංකා බුද්ධ ශාසන අමාත්‍යංශය වෙත ලිඛිතව දන්වා ඇති බව ය.
+							- බීබීසී සිංහල කළ විමසීමක දී බුද්ධ ශාසන හා ආගමික හා සංස්කෘතික කටයුතු අමාත්‍යංශයේ ලේකම් ඩබ්ලිව්.පී සේනාධීර තහවුරු කළේ, ඔවුන් වෙත එවැනි ලිපියක් ලැබී ඇතැයි තමාව දැනුවත් කර ඇති බව යි.
+							- ශ්‍රී ලංකාවට පැමිණ ඇති මෙම වියට්නාම භික්ෂූන් වහන්සේ ඇතුලු පිරිස රාජ්‍යතාන්ත්‍රික කණ්ඩායමක් නොවන බවට අදාළ ලිපියේ සඳහන් කර ඇති බවට තමන් වෙත දැනුම් දී ඇතැයි ද ලේකම්වරයා පැවසීය.
+							- (Image 2: video screenshot of the group with Buddhist monks and lay devotees)
+							  Caption: දිවයිනේ විවිධ විහාරස්ථානවල දී බෞද්ධ භික්ෂූන් වහන්සේලා සහ උපාසක උපාසිකාවන් විසින් මෙම වියට්නාම හිමිවරුන් පිරිස පිළිගන්නා අයුරු දැක්වෙන වීඩියෝ ද ඒ හිමියන්ගේ සමාජ මාධ්‍යවල පළ කර තිබේ.
+							- බෞද්ධ කටයුතු කොමසාරිස් ජනරාල් ආර්.එම්.පී රත්නායක බීබීසී සිංහල වෙත පැවසුවේ, මෙම පිරිස සංචාරක වීසා ලබා ගෙන දිවයිනට පැමිණ ඇති බවයි. "එහෙම එන්න පුළුවන් නේ, පාස්පෝට් තියෙනවා, වීසා ගහලා තියෙනවා."
+							- කෙසේවෙතත්, ජර්මනියේ බර්ලින් විහාරාධිපති පූජ්‍ය පැලෑනේ ධම්ම කුසල හිමි බීබීසී සිංහල වෙත පැවසුවේ, මෙම වියට්නාම කණ්ඩායම දිවයිනට පැමිණීමට පෙර සිට ම තමන් බලධාරීන් දැනුවත් කළ ද අවශ්‍ය කඩිනම් ක්‍රියාමාර්ග නොගත් බවය.
+							- "මේ අය රටට ඇවිල්ලා ඉවරයි, එන දවසේ මම කිව්වා, බෞද්ධ කටයුතු කොමසාරිස්ට, අපේ රටේ එහෙම ක්‍රමයක් නැහැ නේ. එයාලා කිසිම ඇක්ෂන් එකක් ගත්තේ නැහැ. මේ රටට ඕන කෙනෙකුට ඇවිල්ලා ඕන දෙයක් කරන්න පුළුවන්."
+							- "මේ කට්ටිය රඟපෑමක් වගේ කරන්නේ. මේ කට්ටිය එහේ සංඝ සමාජයට එරෙහිව වගේ යන්නේ.විරුද්ධ මතයක් දරමින් බුදුවරු වගේ හැඟීමක් තමා මිනිස්සුන්ට දෙන්නේ.ඔය කට්ටියත් එක්ක ගිහි පිරිසක් ඉන්නවා.එයලා යූටියුබ් වලින් ප්‍රචාරය යවලා, ලෝකේ ගොඩක් තැන්වල වියට්නාම් අය ඉන්නවානේ ලෝකේ හැම තැනක ම වගේ. ඒ අයගෙන් මුදල් එකතුකරන එක තමා කරන්නේ.ලොකු ඕර්ගනයිසේෂන් එකක්"
+							- "ඒ කට්ටිය පයින් අවිදින එක කරන්නේ. පන්සල්වලට ගිහිල්ලා ලංකාවේ මිනිස්සු ඒ කට්ටියට ගෞරවා කරනවා කියලා ලෝකයට යවනවා. ලංකාව කියන්නේ බෞද්ධ රටක්. ඒ බෞද්ධ රට අපිව පිළිගන්නවා කියන එක තමා එලියට දෙන්නේ. එතකොට වියට්නාම රජය සහ එහෙ ඉන්න හාමදුරුවෝ අපිත් එක්ක කළ කිරෙනවා. එහෙන් ප්‍රතික්ෂේප කරපු කට්ටිය අපි පිළිගන්නවා වගේ" පූජ්‍ය පැලෑනේ ධම්ම කුසල හිමියෝ බීබීසී සිංහල වෙත පැවසූහ.
+						- ශ්‍රී ලංකාවේ ඇතැම් බෞද්ධ හිමිවරුන් විරෝධය දක්වන්නේ ඇයි?
+						  collapsed:: true
+							- (Image 3: The group with lay people)
+							  Brief: වියට්නාමයේ ජනප්‍රිය මෙන්ම ආන්දෝලනාත්මක හිමි නමක් වන තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරයට මෙරට බෞද්ධ භික්ෂූන් වහන්සේලාගේ විරෝධය එල්ල වී තිබේ. පසුගිය 10 වැනිදා සිය අනුගාමික හිමිවරුන් ඇතුළු පිරිසක් සමග ශ්‍රී ලංකාවට පැමිණි තික් මින් තියු හිමියෝ මේවන විට දිවයිනේ විවිධ ප්‍රදේශවල පාද චාරිකාවේ නිරත වෙමින් සිටිති.
+							- බීබීසී සිංහල කළ විමසීමක දී මල්වතු පාර්ශවයේ නියෝජ්‍ය ලේඛකාධිකාරී පූජ්‍ය මහවෙල රතනපාල හිමියන් පැවසුවේ, මෙම වියට්නාම පිරිසගේ ශාසන විරෝධී කටයුතුවලට ඉඩ නොදෙන ලෙස දන්වමින් වියට්නාමයේ බුද්ධ ශාසන දෙපාර්තෙමේන්තුවේ සභාපති හිමියන් විසින් මල්වතු මහනාහිමිගෙන් වෙත ලිඛිත ඉල්ලීමක් කර ඇති බව ය.
+							- මේ පිරිස 'භික්ෂූ වේෂධාරීන්' බව ත්, මොවුන් බෞද්ධ විනයට අනුව පැවිදි වූ අය නොවන බවට ත්, එහි සඳහන් බව නියෝජ්‍ය ලේඛකාධිකාරී හිමියෝ සඳහන් කළහ.
+							- ඒ අනුව මල්වතු විහාර පාර්ශවයේ මහනායක තිබ්බටුවාවේ ශ්‍රී සුමංගල මහනායක හිමියන්, බෞද්ධ කටයුතු කොමසාරිස් ජනරල්වරයාගෙන් ඉල්ලා ඇත්තේ, මෙම 'වියට්නාම පිරිස' පිළිබඳ කරුණු පරීක්ෂා කර ආගමන විගමන පාලක ජනරාල්වරයා හරහා වීසා කොන්දේසි කඩ කිරීම සම්බන්ධයෙන් පියවර ගන්නා ලෙසය.
+							- එමෙන්ම මොවුන්ගේ පාද චාරිකාව වැළැක්වීම සඳහා කඩිනමින් අවශ්‍ය පියවර ගන්නා ලෙසත් අදාළ ලිපියේ සඳහන් කර තිබේ.
+							- බීබීසී සිංහල වෙත අදහස් දක්වමින් බෞද්ධ කටයුතු කොමසාරිස් ජනරාල්වරයා කියා සිටියේ, මල්වතු මහනායක හිමිපාන්ගෙන් ලද ලිපිය අනුව අවශ්‍ය ක්‍රියාමාර්ග ගන්නා ලෙස ආගමන විගමන දෙපාර්තමේන්තුව දැනුවත් කිරීමට පියවර ගෙන ඇති බව ය.
+						- පාද යාත්‍රාවේ නිරත වෙමින් වියට්නාමය කැළඹූ මේ හිමියන් කවුද?
+						  collapsed:: true
+							- 44 හැවිරිදි තික් මින් තියු හිමියෝ මීට පෙර ලාඕසය සහ තායිලන්තය යන රටවල ද සංචාරය කළහ.
+							- එහෙත් වියට්නාම බෞද්ධ සංඝ සභාව (VBS) අවධාරණය කර සිටින්නේ, "තික් මින් තියු " බෞද්ධ භික්ෂුවක ලෙස පිළිනොගන්නා බව ය. වියට්නාම බෞද්ධ සංඝ සභාව යනු, එරට රජය විසින් නිල වශයෙන් පිළිගන්නා ලද එක ම බෞද්ධ සංවිධානයයි.
+							- සත්‍ය වශයෙන් ම, තික් මින් තියු හිමියන් තමන් භික්ෂුවක ලෙස හෝ වියට්නාමයේ බෞද්ධ සංඝයා වහන්සේ යටතේ ඇති කිසිදු විහාරස්ථානයකට හෝ ආයතනයකට අනුබද්ධ වන බවට ප්‍රකාශ කර නැත. ඒ වෙනුවට උන්වහන්සේ, තමා හඳුන්වන්නේ "බුදුන්ගේ ඉගැන්වීම් අනුගමනය කිරීමට උත්සහ කරන පුද්ගලයෙකු" ලෙස ය.
+							- තික් මින් තියූ හිමියන් සමාජ මාධ්‍යවල ජනප්‍රිය චරිතයක් බවට පත්ව ඇති අතර, උන්වහන්සේ සංචාරය කරන සෑම ස්ථානයක් ම පාහේ මාධ්‍ය ආවරණය කරමින් විවිධ ක්‍රියාකාරීන්, සමාජ මධ්‍ය ඔස්සේ දැවැන්ත ප්‍රචාරණයක් කරනු ලබයි.
+							- පාවහන් නොමැතිව ඇවිදීම, පිණ්ඩපාතයෙන් ජීවත් වීම, වනාන්තරවල, ලඳු කැළෑවල හෝ සුසාන භූමිවල සෙවණක් සෙවීම සහ සියලු භෞතික දෑ කෙරෙහි ඇති ඇලීම අත්හැරීම හේතුවෙන් තික් මින් තියු හිමියන් වියට්නාමය පුරා වේගයෙන් ජනප්‍රියත්වයට පත්විය.
+						- (Added at update) පාද යාත්‍රාව නතර කිරීමට පොලීසියෙන් දැනුම් දීමක්
+							-
+					- [In Vietnamese](https://docs.google.com/document/d/e/2PACX-1vTzp_kCZ4g4LAxsYPjbxZzqwZlZ-xC_FNoVy4rc8mAHpyRZrDq23Sv_98xGwQPllTGHNfVuhQp_ENJO/pub): Chuyến thăm Sri Lanka của thầy Minh Tuệ nổi tiếng từ Việt Nam bị phản đối bởi phái Malwatta và các tu sĩ Phật giáo khác
+					  Ngày đăng: 17/04/2025
+						- Tóm tắt: Chuyến thăm Sri Lanka của thầy Minh Tuệ, một nhân vật nổi tiếng nhưng cũng gây tranh cãi từ Việt Nam, đã vấp phải sự phản đối từ phái Malwatta và một số tu sĩ Phật giáo tại nước này. Vào ngày 10/4 vừa qua, thầy Minh Tuệ cùng một nhóm người đi theo đã đến Sri Lanka và hiện đang thực hiện hành trình bộ hành qua nhiều khu vực trên đảo.
+						  collapsed:: true
+							- Các video được đăng trên mạng xã hội của thầy Minh Tuệ cho thấy nhóm này được các tu sĩ Phật giáo và Phật tử tại nhiều ngôi chùa ở Sri Lanka tiếp đón.
+							- Thầy Minh Tuệ gây tranh cãi vì bị Giáo hội Phật giáo Việt Nam, tổ chức Phật giáo duy nhất được chính phủ Việt Nam công nhận, bác bỏ tư cách tu sĩ. Giáo hội này đã gắn nhãn thầy Minh Tuệ là “tu sĩ giả”.
+							- Theo điều tra của BBC Sinhala, Giáo hội Phật giáo Việt Nam đã gửi thư đến Bộ Phật giáo và Tôn giáo Sri Lanka, yêu cầu không công nhận thầy Minh Tuệ tại nước này.
+							- Trong một cuộc trao đổi với BBC Sinhala, ông W.P. Senadheera, thư ký Bộ Phật giáo và Tôn giáo, xác nhận đã được thông báo về một lá thư như vậy.
+							- Lá thư này cũng cho biết nhóm của thầy Minh Tuệ đến Sri Lanka không phải là một phái đoàn ngoại giao, theo thông tin được cung cấp cho ông Senadheera.
+							- (Ảnh 2: Đoàn bộ hành cùng các nhà sư và Phật tử Sri Lanka)
+							  Chú thích: Ảnh chụp màn hình video ghi lại cảnh các nhà sư và Phật tử chào đón đoàn bộ hành Việt Nam tại nhiều ngôi chùa trên khắp hòn đảo cũng đã được đăng trên mạng xã hội của đoàn bộ hành.
+							- Tổng Ủy viên Ban Phật giáo R.M.P. Ratnayake nói với BBC Sinhala rằng nhóm này đã đến Sri Lanka bằng visa du lịch. Ông nói: “Họ có thể đến như vậy, họ có hộ chiếu và đã được cấp visa.”
+							- Tuy nhiên, Thượng toạ Pelane Dhamma Kusala, trụ trì chùa ở Berlin, Đức, cho biết ông đã cảnh báo chính quyền Sri Lanka về nhóm này trước khi họ đến, nhưng không có hành động kịp thời nào được thực hiện.
+							- Ông nói: “Họ đã đến đây rồi, ngay ngày họ đến tôi đã báo cho Ủy viên Phật giáo, rằng đất nước chúng ta không có quy định như vậy. Nhưng họ chẳng làm gì cả. Bất cứ ai cũng có thể đến đây và làm bất cứ điều gì.”
+							- “Nhóm này đang diễn kịch. Họ đi ngược lại Giáo hội Phật giáo ở Việt Nam, thể hiện quan điểm đối lập và khiến người ta cảm thấy họ như những vị Phật. Có cả một nhóm cư sĩ đi cùng họ. Họ dùng YouTube để tuyên truyền, ở nhiều nơi trên thế giới có người Việt Nam sinh sống. Họ quyên góp tiền từ những người này. Đó là một tổ chức lớn.”
+							- “Nhóm đó thực hiện việc đi bộ. Họ đến các ngôi chùa và cho thế giới thấy người dân Sri Lanka kính trọng họ. Sri Lanka là một quốc gia Phật giáo, và họ muốn thể hiện rằng đất nước Phật giáo này công nhận họ. Điều này khiến chính phủ Việt Nam và các tu sĩ ở đó khó chịu, vì những người bị họ bác bỏ lại được chúng ta công nhận.” Thượng tọa Pelane Dhamma Kusala Thero đã nói với BBC Sinhala như thế.
+						- Tại sao một số nhà sư Phật giáo ở Sri Lanka phản đối?
+						  collapsed:: true
+							- (Ảnh 3: Đoàn bộ hành và Phật tử Sri Lanka)
+							- Tóm tắt: Chuyến thăm Sri Lanka của thầy Minh Tuệ, một nhân vật nổi tiếng nhưng cũng gây tranh cãi từ Việt Nam, đã vấp phải sự phản đối từ phái Malwatta và một số tu sĩ Phật giáo tại nước này. Vào ngày 10/4 vừa qua, thầy Minh Tuệ cùng một nhóm người theo đã đến Sri Lanka và hiện đang thực hiện hành trình bộ hành qua nhiều khu vực trên đảo.
+							- Trong một cuộc trao đổi với BBC Sinhala, Thượng tọa Mahawela Ratanapala, Phó Thư ký phái Malwatta, cho biết Chủ tịch Ban Phật giáo Việt Nam đã gửi thư yêu cầu Malwatta không cho phép nhóm này thực hiện các hoạt động trái với giáo luật.
+							- Thư này nói rằng nhóm này là “những người mặc áo tu sĩ” và không phải là những người được xuất gia theo giới luật Phật giáo, theo lời Thượng tọa Phó Thư ký.
+							- Theo đó, Thượng tọa Tibbatuwawe Sri Sumangala, lãnh đạo phái Malwatta, đã yêu cầu Ủy viên Phật giáo điều tra về nhóm này và thông qua Tổng kiểm soát Di trú thực hiện các biện pháp liên quan đến việc vi phạm điều kiện visa.
+							- Lá thư cũng yêu cầu nhanh chóng thực hiện các bước cần thiết để ngăn chặn hành trình bộ hành của nhóm này.
+							- Ủy viên Phật giáo cho biết đã thông báo cho Bộ Di trú để thực hiện các biện pháp cần thiết theo lá thư từ Thượng tọa Malwatta Mahanayake.
+						- Nhà sư nào đã khuấy động Việt Nam bằng cuộc bộ hành?
+						  collapsed:: true
+							- Thầy Minh Tuệ, 44 tuổi, trước đây đã thực hiện các chuyến hành trình đến Lào và Thái Lan.
+							- Tuy nhiên, Giáo hội Phật giáo Việt Nam (VBS) nhấn mạnh rằng không công nhận thầy Minh Tuệ là tu sĩ Phật giáo. Giáo hội này là tổ chức Phật giáo duy nhất được chính phủ Việt Nam công nhận.
+							- Thực tế, thầy Minh Tuệ không tuyên bố mình là tu sĩ hay liên kết với bất kỳ ngôi chùa hoặc tổ chức nào thuộc Giáo hội Phật giáo Việt Nam.
+							- Thay vào đó, thầy tự nhận mình là “một người cố gắng thực hành theo lời dạy của Đức Phật”.
+							- Thầy Minh Tuệ đã trở thành một nhân vật nổi tiếng trên mạng xã hội, và mọi nơi thầy đến đều được các nhà hoạt động đưa tin rộng rãi qua mạng xã hội.
+							- Việc đi bộ bằng chân trần, sống bằng khất thực, tìm nơi trú ẩn trong rừng, lùm cây hoặc nghĩa trang, và từ bỏ mọi gắn bó với vật chất đã khiến thầy Minh Tuệ nhanh chóng trở nên nổi tiếng khắp Việt Nam.
+				- []
 		- ...
