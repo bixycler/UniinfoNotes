@@ -1099,7 +1099,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 67f4eaf9-6b66-4c22-9cca-8a5c7124de0f
 				  collapsed:: true
 					- Why not around 13rd Feb but now, a month and a half later, did this "notice" emerged?! 🤔
-					- Nothing's found at `onab.go.th`, the site of the [National Office Of Buddhism of Thailand](onab.go.th).
+					- Nothing's found at `onab.go.th`, the site of the [National Office Of Buddhism of Thailand](https://onab.go.th).
 						- Even Gemini Deep Search cannot find such notice anywhere! 😕
 					- There are only Vietnamese sites publishing the same news from Giác Ngộ Online in Vietnamese and in Thai:
 						- [Giác Ngộ Online](https://giacngo.vn/van-phong-phat-giao-quoc-gia-thai-lan-thong-bao-toan-quoc-ve-nhom-bo-hanh-khat-thuc-an-mac-giong-tu-si-post75294.html)
@@ -1314,10 +1314,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- DOING Sri Lanka news about the monk group of master Minh Tuệ
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-21 Mon 17:07:29]
 		  :END:
 			- Previous events
 				- ((67a5faa3-c64c-48f7-8b3f-a5311714110f))
 				- ((67f4eaf9-6b66-4c22-9cca-8a5c7124de0f))
+			- [BBC Sinhala news](https://www.bbc.com/sinhala/articles/c98gdzz8vdno) about Minh Tue monk group
+				- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vTacjSpr-aVkXGiVQpwH-wt4UUbgFic6wjhXKE3IMtG0yfAB5MoS8MkTgzsF1us2FrCK37D6DHs7JnO/pub): ශ්‍රී ලංකාවේ සංචාරය කරන වියට්නාමයේ සුප්‍රසිද්ධ තික් මින් තියු හිමි ට මල්වතු පාර්ශවය ප්‍රමුඛ භික්ෂුන්ගෙන් විරෝධයක්
+				  April 17, 2025
+					-
 		- ...
