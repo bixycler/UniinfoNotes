@@ -1326,8 +1326,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Updated title: අවසරයකින් තොරව පාද යාත්‍රාවේ නිරත වීම නවත්වන්නැයි කුලියාපිටියේදී තික් මින් තියු හිමිට පොලිසියෙන් දැනුම් දීමක්
 					  id:: 68062218-cd7e-45e4-9629-f32d24226898
 					  collapsed:: true
+					  යාවත්කාලීනවී ඇත 18 අප්‍රේල් 2025
 					  Police inform Thich Minh Tue to stop engaging in foot traffic without permission in Kuliyapitiya
-					  Cảnh sát yêu cầu Thích Minh Tuệ dừng cuộc hành hương bằng chân không phép tại Kuliyapitiya
+					  (Updated April 18, 2025)
+					  Cảnh sát yêu cầu thầy Thích Minh Tuệ dừng cuộc hành hương bằng chân không phép tại Kuliyapitiya
 						- (Added part) පාද යාත්‍රාව නතර කිරීමට පොලීසියෙන් දැනුම් දීමක්
 						  collapsed:: true
 							- තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරය සම්බන්ධයනේ මතුව ඇති තත්ත්වය පිළිබඳව පොලිස් මාධ්‍ය ප්‍රකාශක ජ්‍යෙෂ්ඨ පොලිස් අධිකාරී බුද්ධික මනතුංගගෙන් බීබීසී සිංහල විමසීමක් කළේය.
@@ -1348,7 +1350,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- “Lần đầu tiên, chúng tôi đã thông báo yêu cầu họ dừng hoạt động này, và họ đã tuân thủ, dừng ngay tại thời điểm đó. Tuy nhiên, nếu họ tiếp tục thực hiện, chúng tôi chắc chắn sẽ áp dụng các biện pháp pháp lý.”
 							- Người phát ngôn cho biết nhóm người Việt Nam này hiện đang lưu trú tại một tu viện rừng (aranya senasana) ở khu vực Warakapola.
 					- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vTacjSpr-aVkXGiVQpwH-wt4UUbgFic6wjhXKE3IMtG0yfAB5MoS8MkTgzsF1us2FrCK37D6DHs7JnO/pub): ශ්‍රී ලංකාවේ සංචාරය කරන වියට්නාමයේ සුප්‍රසිද්ධ තික් මින් තියු හිමි ට මල්වතු පාර්ශවය ප්‍රමුඛ භික්ෂුන්ගෙන් විරෝධයක්
-					  April 17, 2025
+					  17 අප්‍රේල් 2025
 						- Article information: වියට්නාමයේ ජනප්‍රිය මෙන් ම ආන්දෝලනාත්මක හිමි නමක් වන තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරයට මල්වතු පාර්ශවය ඇතුළු ව මෙරට ඇතැම් බෞද්ධ භික්ෂූන් වහන්සේලාගේ විරෝධය එල්ල වී තිබේ. පසුගිය 10 වැනිදා සිය අනුගාමික හිමිවරුන් ඇතුළු පිරිසක් සමග ශ්‍රී ලංකාවට පැමිණි තික් මින් තියු හිමියෝ මේ වන විට දිවයිනේ විවිධ ප්‍රදේශවල පාද චාරිකාවේ නිරත වෙමින් සිටිති.
 						  collapsed:: true
 							- (Image 1: master Minh Tue's face)
@@ -1415,4 +1417,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Thầy Thích Minh Tuệ đã trở thành một nhân vật nổi tiếng trên mạng xã hội, và mọi nơi thầy đến đều được các nhà hoạt động đưa tin rộng rãi qua mạng xã hội.
 							- Việc đi bộ bằng chân trần, sống bằng khất thực, tìm nơi trú ẩn trong rừng, lùm cây hoặc nghĩa trang, và từ bỏ mọi gắn bó với vật chất đã khiến thầy Thích Minh Tuệ nhanh chóng trở nên nổi tiếng khắp Việt Nam.
 				- [January 13](https://www.bbc.com/sinhala/articles/c75zlnprnr1o):
+					- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vSJ8GPG4dBlo4iuZCX1W813XG9SdZCuERMI-v2uLLca635B1peMP1KxZOb1sVO6ZDtKmRl5gmHQk_mp/pub): තික් මින් තියු හිමි: 'ආදරය බිය උපදවනවා, මම ආදරයෙන් නිදහස් වීමට පුරුදු වෙනවා'
+						-
+					- [In Vietnamese](https://docs.google.com/document/d/e/2PACX-1vRyclK5qTfeInpVahP91gVtlkajDlRNejbu4CSTKOllPk3T-Rz27dgWpYKXktwdGXdtpT7GQc8mbTQk/pub): Thầy Thích Minh Tuệ: “Tình yêu sinh ra nỗi sợ, tôi rèn luyện để giải thoát khỏi tình yêu”
+						-
 		- ...
