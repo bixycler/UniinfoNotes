@@ -1417,6 +1417,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Thầy Thích Minh Tuệ đã trở thành một nhân vật nổi tiếng trên mạng xã hội, và mọi nơi thầy đến đều được các nhà hoạt động đưa tin rộng rãi qua mạng xã hội.
 							- Việc đi bộ bằng chân trần, sống bằng khất thực, tìm nơi trú ẩn trong rừng, lùm cây hoặc nghĩa trang, và từ bỏ mọi gắn bó với vật chất đã khiến thầy Thích Minh Tuệ nhanh chóng trở nên nổi tiếng khắp Việt Nam.
 				- [January 13](https://www.bbc.com/sinhala/articles/c75zlnprnr1o): Thich Minh Tue: 'Love is scary, I am learning to be free from love'
+					- Contents: The interview with master Minh Tue in Thailand by BBC Vietnamese.
 					- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vSJ8GPG4dBlo4iuZCX1W813XG9SdZCuERMI-v2uLLca635B1peMP1KxZOb1sVO6ZDtKmRl5gmHQk_mp/pub): තික් මින් තියු හිමි: 'ආදරය බිය උපදවනවා, මම ආදරයෙන් නිදහස් වීමට පුරුදු වෙනවා'
 					  collapsed:: true
 						- (Image 1: Thich Minh Tue and two other monks)
@@ -1559,5 +1560,33 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- **Thầy Thích Minh Tuệ**: Tôi thấy mình thay đổi, khác so với lối sống thế tục.
 							- Tôi cũng nói với mọi người rằng tôi không phải thầy, không phải tăng sĩ, cũng không thuộc giáo hội hay tổ chức nào. Tôi là một người bình thường. Trước đây, tôi học giáo pháp của Đức Phật và thực hành theo đó.
 							- Sự thay đổi tôi thấy là trước đây tôi phải mang theo nhiều thứ. Nhưng giờ, ngoài ba y và bình bát, tôi không có gì khác.
-						-
+						- (Image 4: Thich Minh Tue begging)
+						  Chú thích: Thầy Thích Minh Tuệ đi khất thực vào sáng sớm ngày 5 tháng 1
+						- **BBC**: Nhìn lại vài năm trước, tại sao thầy quyết định theo lối tu hành này?
+						- **Thầy Thích Minh Tuệ**: Khi đọc giáo pháp, tôi thấy không ai vĩ đại như Đức Phật. Ngài dạy những điều tốt đẹp nhất. Nếu có ai giỏi hơn, tôi sẽ theo người đó. Nhưng tôi chưa gặp ai như vậy. Vì thế, tôi quyết định học những điều tốt đẹp, đi theo con đường Đức Phật chỉ dạy, và sống hạnh phúc theo lời Ngài. Tôi hướng đến hạnh phúc, giải thoát, và trí tuệ.
+						- **BBC**: Khi quyết định xuất gia, thầy có thông báo với gia đình không? Họ phản ứng thế nào?
+						- **Thầy Thích Minh Tuệ**: Trước khi xuất gia, tôi thực hành giáo pháp của Đức Phật trong sáu tháng. Sau đó, tôi xin phép gia đình. Tôi chỉ xuất gia nếu cha mẹ đồng ý. Họ đã đồng ý.
+							- Giờ tôi là một tăng sĩ, tôi không còn xem họ là cha mẹ theo cách cũ. Tôi muốn học sự bình đẳng. Mọi người đều là cha mẹ tôi.
+							- Dù các bạn ngồi đây, tôi xem các bạn như anh em, họ hàng. Tôi không còn khái niệm về cha mẹ hay không cha mẹ. Tôi cầu mong mọi người hạnh phúc, an lạc. Tôi là một người học giáo pháp của Đức Phật.
+						- **BBC**: Ban đêm ở Thái Lan khá lạnh. Thầy làm thế nào để chịu đựng cái lạnh vào ban đêm?
+						- **Thầy Thích Minh Tuệ**: Ban đêm, tôi tìm nơi kín gió để nghỉ. Với y áo cũng vậy. Tôi lấy ba y, xếp lại, khâu thành lớp dày để giữ ấm, tự làm áo bảo vệ mình. Sống với ba y và một bình bát, bạn phải rèn luyện sự chịu đựng.
+							- Có lúc tôi nghĩ mình không chịu nổi, nên tôi dùng tấm vải lều để chắn gió. Nói chung, nếu bạn chưa được rèn luyện đủ, thiếu quyết tâm, hoặc không chịu nổi, bạn có thể tập dần dần để thích nghi. Đó là mong muốn, nhưng không ai nói tôi phải chịu được lạnh. Mọi thứ đến từ rèn luyện. Rèn luyện chắc chắn sẽ giúp bạn vượt qua.
+						- (Image 5: Thich Minh Tue answering questions)
+						  Chú thích: Cuộc bộ hành của thầy Thích Minh Tuệ đã truyền cảm hứng tích cực cho hàng triệu người
+						- **BBC**: Trong một bài viết, thầy nói muốn đi bộ đến Ấn Độ, chỉ cần một người hỗ trợ thủ tục giấy tờ, và thầy có thể tự mình đi. Giờ có các vị sư khác, cùng anh Đỗ Văn Bảo, anh Lê Khả Sếp hỗ trợ, và có xe chở đồ. Sự hỗ trợ này có ảnh hưởng đến tinh thần ban đầu và sự thuần khiết của lối tu hành của thầy không?
+						- **Thầy Thích Minh Tuệ**: Có và không. Những chiếc xe đó hỗ trợ cho những người đi cùng.
+							- Tôi không cần mang gì. Tôi có thể tự mang đồ của mình, thức ăn, y áo. Xe là để hỗ trợ những người đi cùng tôi.
+							- Vì họ cần giữ ấm, cần giường treo, chăn đệm. Họ có xe. Nếu không đi bộ được, họ dùng xe để làm giấy tờ, liên lạc với chính quyền địa phương. Việc hỗ trợ đó là điều tốt.
+							- Theo tôi, trở ngại là khi người ngoài thấy xe và nói: “Anh đi bộ, nhưng có đoàn xe chở đồ theo sau.”
+							- Đó là điều người ta nói. Với cách học của tôi, điều đó không thành vấn đề cho đến khi tôi cảm thấy nó không đúng. Tôi vẫn mặc ba y. Dù họ nói gì về xe, mọi thứ vẫn vậy.
+						- (Video 1: Interview with Thich Minh Tue in Vietnamese)
+						  Chú thích: Thầy Thích Minh Tuệ ở Thái Lan: “Như nai rừng, tôi mong đi lại tự do, không trở ngại”
+						- **BBC**: Giáo lý Phật giáo nào thầy yêu thích nhất và muốn chia sẻ với mọi người?
+						- **Thầy Thích Minh Tuệ**: Theo giáo lý Phật giáo, làm điều thiện là quan trọng nhất. Sau đó là hạnh phúc, hòa bình, giải thoát, và Niết bàn, những điều quan trọng nhất. Tôi cầu mong mọi người sống hạnh phúc, hưởng hòa bình. Giải thoát nghĩa là họ sống hạnh phúc hơn nữa.
+						- **BBC**: Trong lúc bộ hành, thầy có nhớ gia đình không, đặc biệt khi ở nước ngoài?
+						- **Thầy Thích Minh Tuệ**: Có nhớ, nhưng cũng không nhớ. Tôi có nhớ, nhưng tôi chế ngự điều đó.
+							- Cha mẹ tôi sớm muộn cũng qua đời. Tôi cũng vậy. Nhớ họ không thay đổi được gì. Đau khổ, tình yêu là nguồn gốc của đau khổ, là nguồn gốc của sợ hãi. Khi hiểu được điều này, tôi không còn cảm giác về tình yêu nữa.
+							- Tình yêu là tạm thời. Tôi chế ngự nó. Nếu bạn có thể giải thoát khỏi mọi thứ, bạn sẽ không còn đau khổ.
+							- Biết vậy mà tôi vẫn đau khổ, tôi chấp nhận, rồi học giáo pháp của Đức Phật. Từ đó, tôi vượt qua tham ái, buồn đau, và cuối cùng thoát khỏi khổ đau.
+				-
 		- ...
