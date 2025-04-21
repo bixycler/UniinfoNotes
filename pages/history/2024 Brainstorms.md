@@ -236,6 +236,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			  infinity, forever
 		- ⅏
 		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
+			- Possible reasons for such “coiling” symbol:
+				- In Hebrew, there are round script and square script
 		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
 			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en), ꕤ (za)
 		- [Brahmi script](https://en.wikipedia.org/wiki/Brahmi_script) descendants
