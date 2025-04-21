@@ -238,7 +238,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
 			- Possible reasons for such “coiling” symbol:
 				- In Hebrew, the Samaritan is a “round script” in contrast with the “square script” of modern [Hebrew alphabet](https://en.wikipedia.org/wiki/Hebrew_alphabet).
-				- Some curling letters:
+				- Some curling letters: [shan](https://en.wikipedia.org/wiki/Shin_(letter)#Character_encodings) ࠔ = ש, [mim](https://en.wikipedia.org/wiki/Mem#Character_encodings) ࠌ = מ
 		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
 			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en), ꕤ (za)
 		- [Brahmi script](https://en.wikipedia.org/wiki/Brahmi_script) descendants
