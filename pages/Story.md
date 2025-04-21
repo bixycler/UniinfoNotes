@@ -1096,6 +1096,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Kuṭṭhi: [Kuṭṭhi Sutta](https://suttacentral.net/ud5.3/en/sujato): from a “leper” to a [stream-enterer](https://en.wikipedia.org/wiki/Sot%C4%81panna) or [once-returner](https://en.wikipedia.org/wiki/Sakadagami).
 					- Gemini Deep Research also confirms these 3 cases are the only ones explicitly killed by cows.
 				- Recently, there was a news by Vietnamese online news sites related to the monk group of master Minh Tuệ stating that “the National Office Of Buddhism of Thailand issued the nationwide notice number "พศ 0007/1442" (issued on 13rd Feb) regarding a group of pedestrians dressed as monks.” But no such notice can be found in Thai sites.
+				  id:: 67f4eaf9-6b66-4c22-9cca-8a5c7124de0f
 				  collapsed:: true
 					- Why not around 13rd Feb but now, a month and a half later, did this "notice" emerged?! 🤔
 					- Nothing's found at `onab.go.th`, the site of the [National Office Of Buddhism of Thailand](onab.go.th).
@@ -1312,4 +1313,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Vòng tròn vô tận đó chính là Luân Hồi, chứ chẳng cần phải chết đi mới được luân hồi 😃
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- DOING Sri Lanka news about the monk group of master Minh Tuệ
+		  :LOGBOOK:
+		  CLOCK: [2025-04-21 Mon 17:07:29]
+		  :END:
+			- Previous events
+				- ((67a5faa3-c64c-48f7-8b3f-a5311714110f))
+				- ((67f4eaf9-6b66-4c22-9cca-8a5c7124de0f))
 		- ...
