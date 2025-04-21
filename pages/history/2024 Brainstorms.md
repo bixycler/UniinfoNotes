@@ -241,6 +241,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- In Hebrew, the Samaritan is a “round script” in contrast with the “square script” of modern [Hebrew alphabet](https://en.wikipedia.org/wiki/Hebrew_alphabet).
 				- Some curling letters: [shan](https://en.wikipedia.org/wiki/Shin_(letter)#Character_encodings) ࠔ = ש, [mim](https://en.wikipedia.org/wiki/Mem#Character_encodings) ࠌ = מ
 				- The coiling shape of the symbol "⅏" resembles not only Samaritan "shan" (ࠔ), but also Ethiopic "sza" (ሠ), and Arabic "seen" (س). All of them are listed in the same list in the Wikipedia page for the letter [shan](https://en.wikipedia.org/wiki/Shin_(letter)#Character_encodings).
+				- [Shaddai](https://en.wikipedia.org/wiki/El_Shaddai) is a name of God starting from the letter shan (ࠔ).
 		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
 			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en), ꕤ (za)
 		- [Brahmi script](https://en.wikipedia.org/wiki/Brahmi_script) descendants
