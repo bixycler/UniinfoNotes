@@ -1340,12 +1340,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- පොලිස් මාධ්‍ය ප්‍රකාශකවරයා පැවසුවේ, මෙම වියට්නාම පිරිස දැනට වරකාපොල ප්‍රදේශයේ ආරණ්‍ය සේනාසනයක රැඳී සිටින බවය.
 						- (Phần thêm cuối) Cảnh sát yêu cầu dừng cuộc bộ hành
 							- BBC Sinhala đã đặt câu hỏi với Phó Tổng Thanh tra Cảnh sát Buddhika Manathunga, người phát ngôn truyền thông cảnh sát, về tình hình liên quan đến chuyến thăm Sri Lanka của thầy Thích Minh Tuệ.
-							  Người phát ngôn cho biết khoảng 40 người đã tham gia cuộc bộ hành này theo hình thức một đoàn diễu hành.
+							- Người phát ngôn cho biết khoảng 40 người đã tham gia cuộc bộ hành này theo hình thức một đoàn diễu hành.
 							  Ông giải thích rằng bộ hành được xem là một hoạt động thuộc loại diễu hành.
 							- “Việc tổ chức diễu hành cần có giấy phép từ cảnh sát. Thứ hai, theo luật nhập cư, những người đến Sri Lanka bằng visa du lịch không được phép tham gia biểu tình.”
-							  “Dựa trên tất cả những yếu tố này, chúng tôi đã thông báo với họ rằng hoạt động này là bất hợp pháp và cần được thực hiện sau khi có giấy phép. Vì vậy, họ đã dừng hoạt động này tại khu vực Kuliyapitiya. Hiện tại, họ đang lưu trú tại một ngôi chùa.”
+							- “Dựa trên tất cả những yếu tố này, chúng tôi đã thông báo với họ rằng hoạt động này là bất hợp pháp và cần được thực hiện sau khi có giấy phép. Vì vậy, họ đã dừng hoạt động này tại khu vực Kuliyapitiya. Hiện tại, họ đang lưu trú tại một ngôi chùa.”
 							- Người phát ngôn cảnh sát nói thêm: “Nếu trong tương lai họ tiếp tục thực hiện hoạt động này mà không có giấy phép hợp lệ, đó sẽ là hành vi bất hợp pháp. Chúng tôi chắc chắn sẽ hành động theo luật hiện hành. Hiện tại, chưa có ai bị bắt giữ. Chúng tôi đang tiến hành điều tra để làm rõ các tình tiết.”
-							  “Lần đầu tiên, chúng tôi đã thông báo yêu cầu họ dừng hoạt động này, và họ đã tuân thủ, dừng ngay tại thời điểm đó. Tuy nhiên, nếu họ tiếp tục thực hiện, chúng tôi chắc chắn sẽ áp dụng các biện pháp pháp lý.”
+							- “Lần đầu tiên, chúng tôi đã thông báo yêu cầu họ dừng hoạt động này, và họ đã tuân thủ, dừng ngay tại thời điểm đó. Tuy nhiên, nếu họ tiếp tục thực hiện, chúng tôi chắc chắn sẽ áp dụng các biện pháp pháp lý.”
 							- Người phát ngôn cho biết nhóm người Việt Nam này hiện đang lưu trú tại một tu viện rừng (aranya senasana) ở khu vực Warakapola.
 					- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vTacjSpr-aVkXGiVQpwH-wt4UUbgFic6wjhXKE3IMtG0yfAB5MoS8MkTgzsF1us2FrCK37D6DHs7JnO/pub): ශ්‍රී ලංකාවේ සංචාරය කරන වියට්නාමයේ සුප්‍රසිද්ධ තික් මින් තියු හිමි ට මල්වතු පාර්ශවය ප්‍රමුඛ භික්ෂුන්ගෙන් විරෝධයක්
 					  April 17, 2025
@@ -1414,5 +1414,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Thay vào đó, thầy tự nhận mình là “một người cố gắng thực hành theo lời dạy của Đức Phật”.
 							- Thầy Thích Minh Tuệ đã trở thành một nhân vật nổi tiếng trên mạng xã hội, và mọi nơi thầy đến đều được các nhà hoạt động đưa tin rộng rãi qua mạng xã hội.
 							- Việc đi bộ bằng chân trần, sống bằng khất thực, tìm nơi trú ẩn trong rừng, lùm cây hoặc nghĩa trang, và từ bỏ mọi gắn bó với vật chất đã khiến thầy Thích Minh Tuệ nhanh chóng trở nên nổi tiếng khắp Việt Nam.
-				- []
+				- [January 13](https://www.bbc.com/sinhala/articles/c75zlnprnr1o):
 		- ...
