@@ -1324,7 +1324,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- BBC Sinhala news about Minh Tue monk group
 				- [April 17](https://www.bbc.com/sinhala/articles/c98gdzz8vdno): An objection from monks led by the Malwathu faction to the famous Thich Minh Tue of Vietnam who is visiting Sri Lanka.
 					- Updated title: අවසරයකින් තොරව පාද යාත්‍රාවේ නිරත වීම නවත්වන්නැයි කුලියාපිටියේදී තික් මින් තියු හිමිට පොලිසියෙන් දැනුම් දීමක්
-					  Police inform Thich Minh Tue in Kuliyapitiya to stop engaging in foot procession without permission
+					  Police inform Thich Minh Tue to stop engaging in foot without permission in Kuliyapitiya
+					  Cảnh sát yêu cầu Thích Minh Tuệ dừng cuộc hành hương bằng chân không phép tại Kuliyapitiya
 					- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vTacjSpr-aVkXGiVQpwH-wt4UUbgFic6wjhXKE3IMtG0yfAB5MoS8MkTgzsF1us2FrCK37D6DHs7JnO/pub): ශ්‍රී ලංකාවේ සංචාරය කරන වියට්නාමයේ සුප්‍රසිද්ධ තික් මින් තියු හිමි ට මල්වතු පාර්ශවය ප්‍රමුඛ භික්ෂුන්ගෙන් විරෝධයක්
 					  April 17, 2025
 						- Article information: වියට්නාමයේ ජනප්‍රිය මෙන් ම ආන්දෝලනාත්මක හිමි නමක් වන තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරයට මල්වතු පාර්ශවය ඇතුළු ව මෙරට ඇතැම් බෞද්ධ භික්ෂූන් වහන්සේලාගේ විරෝධය එල්ල වී තිබේ. පසුගිය 10 වැනිදා සිය අනුගාමික හිමිවරුන් ඇතුළු පිරිසක් සමග ශ්‍රී ලංකාවට පැමිණි තික් මින් තියු හිමියෝ මේ වන විට දිවයිනේ විවිධ ප්‍රදේශවල පාද චාරිකාවේ නිරත වෙමින් සිටිති.
