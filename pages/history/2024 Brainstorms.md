@@ -243,7 +243,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
 			- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
 				- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
-			- [Sinhala script]()
+			- [Sinhala script](https://en.wikipedia.org/wiki/Sinhala_script)
 				- මෙ (me) =  ෙ(e) + ම(ma)
 			- [Cham script](https://en.wikipedia.org/wiki/Cham_script) contains spiral punctuation
 				- ꩜ (spiral, beginning of a section)
