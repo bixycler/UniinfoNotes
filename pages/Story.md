@@ -1661,7 +1661,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- (Image 2: Thich Minh Tue)
 						  Chú thích: Có bằng chứng cho thấy thầy và các đệ tử buộc phải từ bỏ cuộc bộ hành do áp lực từ chính quyền
 						- Tuy nhiên, thầy không thể tiếp tục thực hành lối sống tu hành của mình một cách bình thường, bởi hàng trăm người hâm mộ và đệ tử mới đã tìm đến thầy ở mỗi bước chân, mang theo thức ăn, chỗ nghỉ, và thậm chí quỳ lạy để bày tỏ sự tôn kính.
-						- Cuộc bộ hành của thầy Thích Minh Tuệ kết thúc vào ngày 3 tháng 6, sau khi một đệ tử ([LTS](https://vnexpress.net/mot-nguoi-di-theo-ong-thich-minh-tue-bi-soc-nhiet-tu-vong-4752943.html)) qua đời do sốc nhiệt trong thời tiết nóng bức tháng Năm. Chính quyền cho biết thầy tự nguyện dừng cuộc bộ hành và quyết định ẩn tu tại một địa điểm bí mật gần nhà ở Gia Lai để thực hành các nghi thức tôn giáo. Tuy nhiên, có bằng chứng cho thấy thầy và các đệ tử buộc phải từ bỏ cuộc bộ hành do áp lực từ chính quyền.
+						- Cuộc bộ hành của thầy Thích Minh Tuệ kết thúc vào ngày 3 tháng 6, sau khi một đệ tử ([LTS, việt kiều Mỹ](https://vnexpress.net/mot-nguoi-di-theo-ong-thich-minh-tue-bi-soc-nhiet-tu-vong-4752943.html)) qua đời do sốc nhiệt trong thời tiết nóng bức tháng Năm. Chính quyền cho biết thầy tự nguyện dừng cuộc bộ hành và quyết định ẩn tu tại một địa điểm bí mật gần nhà ở Gia Lai để thực hành các nghi thức tôn giáo. Tuy nhiên, có bằng chứng cho thấy thầy và các đệ tử buộc phải từ bỏ cuộc bộ hành do áp lực từ chính quyền.
 						- (Image 3: Thich Minh Tue and followers)
 						  Chú thích: Cuộc bộ hành của thầy Thích Minh Tuệ kết thúc vào ngày 3 tháng 6, sau khi một đệ tử qua đời do sốc nhiệt trong thời tiết nóng bức tháng 5
 						- Sau sự biến mất đột ngột của thầy vào ngày 3 tháng 6, nơi thầy ẩn tu đã bị phát hiện, và hàng nghìn người mỗi ngày đổ về đó.
@@ -1705,4 +1705,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Sau sự xuất hiện trên truyền hình và những tin đồn tiếp theo, thầy Thích Minh Tuệ chuyển đến một khu vườn của gia đình ở Gia Lai để sống ẩn dật. Địa điểm mới này của thầy vẫn tiếp tục thu hút sự chú ý. Đám đông đầy tò mò và sùng kính vẫn tụ tập quanh khu vực thầy thực hành giáo pháp ở quê nhà, dẫn đến việc cảnh sát phải dựng rào chắn giao thông.
 							- Vào ngày 13 tháng 6, em trai của thầy Thích Minh Tuệ (anh Thìn) xuất hiện trong một video trên TikTok, nói rằng thầy không còn ở khu vườn của gia đình. Trong khi đó, sáng ngày 14 tháng 6, mạng xã hội đưa tin rằng vị sư này “đã biến mất”.
 							- “Thầy Thích Minh Tuệ cần được tự do sống đời sống xuất gia của mình. Theo tôi, thầy tận tụy sống theo giới luật. Việc giới hạn đời sống xuất gia của thầy trong một khu vực nhỏ làm lu mờ ý nghĩa thực sự của đời sống tu hành theo Phật giáo. Vì vậy, đây là một vấn đề khó giải quyết đối với chính quyền,” Bửu Nghiêm nói.
+			- ECONOMYNEXT
+				- [April 18](https://economynext.com/vietnams-famed-walking-ascetic-minh-tue-in-sri-lanka-amid-obstacles-216441/): Vietnam’s famed walking ascetic Minh Tuệ in Sri Lanka amid obstacles
+				  collapsed:: true
+					-
 		- ...
