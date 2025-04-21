@@ -2512,7 +2512,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				   Just like a spinning top, some object looks static because it's moving in circle, its motion is looping back, it's going back and forth (🗘).
 					- ![Intrinsic dynamic of circle.gif](../assets/Uniinfo/Intrinsic dynamic of circle.gif){:width 50, :height 50}
 				- “Every equal is in the shape of arrows (⇌).”
-				  The balance between things is always a [dynamic equilibrium](https://en.wikipedia.org/wiki/Dynamic_equilibrium) where the exchange between them cancel out each other. For example, in mechanics, we have balance between force vectors, in chemistry, we have balance between reaction directions, etc.
+				  The balance between things is always a [dynamic equilibrium](https://en.wikipedia.org/wiki/Dynamic_equilibrium) where the exchange between them cancels them out. For example, in mechanics, we have balance between force vectors, in chemistry, we have balance between reaction directions, etc.
 			- Intrinsic Balance
 			  id:: a95f4693-fe48-4a60-b1e3-5897a40efc5a
 				- The macro balance of the whole (⊜)
@@ -2589,7 +2589,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- In the course of finding a term not to be confused with the “Holy Trinity”, the “Triad” or simply the “Three” have been considered. But then the term “Trinion” was coined to reflect the harmony of both [the Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [the Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))) as the dynamic of [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) which is not only a “[pre-existence](https://en.wikipedia.org/wiki/Pre-existence)”.
 				- And the Trinion can also be considered as the composit of layers of components as shown by the onion, which itself has [a Roman root meaning “one”](https://www.etymonline.com/word/onion).
 					- ![Trinion-onion.png](../assets/Uniinfo/Trinion-onion.png)
-				- Sidenotes:
+				- Side notes:
 					- Searching for “trinion”, I've found two usages, “trinion” as a 3D complex number ⟪x + y**i** + z**j**⟫, and [the “Trinion Wheel” in NeoDeism](https://www.neodeism.com/trinion-contradictions/).
 					- The theme of triads in Unïnfo reflects the natural triadic relations in philosophies from the East to the West: Taoism's “yin-yang-qi”, Hinduism's Trimurti, Celtic culture's triplism, Christianity's Trinity, as well as triples of [categories of being](https://en.wikipedia.org/wiki/Category_of_being#Hegel) from Plotinus to Kant, Hegel and Peirce.
 			- Postulate vs axiom
