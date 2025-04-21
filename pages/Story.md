@@ -1325,13 +1325,28 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [April 17](https://www.bbc.com/sinhala/articles/c98gdzz8vdno): An objection from monks led by the Malwathu faction to the famous Thich Minh Tue of Vietnam who is visiting Sri Lanka.
 					- Updated title: අවසරයකින් තොරව පාද යාත්‍රාවේ නිරත වීම නවත්වන්නැයි කුලියාපිටියේදී තික් මින් තියු හිමිට පොලිසියෙන් දැනුම් දීමක්
 					  id:: 68062218-cd7e-45e4-9629-f32d24226898
+					  collapsed:: true
 					  Police inform Thich Minh Tue to stop engaging in foot traffic without permission in Kuliyapitiya
 					  Cảnh sát yêu cầu Thích Minh Tuệ dừng cuộc hành hương bằng chân không phép tại Kuliyapitiya
 						- (Added part) පාද යාත්‍රාව නතර කිරීමට පොලීසියෙන් දැනුම් දීමක්
+						  collapsed:: true
 							- තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරය සම්බන්ධයනේ මතුව ඇති තත්ත්වය පිළිබඳව පොලිස් මාධ්‍ය ප්‍රකාශක ජ්‍යෙෂ්ඨ පොලිස් අධිකාරී බුද්ධික මනතුංගගෙන් බීබීසී සිංහල විමසීමක් කළේය.
 							- එහිදී පොලිස් මාධ්‍ය ප්‍රකාශකවරයා පැවසුවේ, 40ක පමණ කණ්ඩායමක් පෙරහැරක ආකාරයෙන් මෙම පාද යාත්‍රාවේ නිරතව සිටින බවය.
 							- පාද යාත්‍රාවක් යනු පෙරහැර ගණයට වැටෙන ක්‍රියාකාරකමක් බවද ඔහු පැවසීය.
-							-
+							- "පෙරහැර පවත්වන්න පොලිසියේ අවසරය ගන්න ඕනේ. දෙවනි කාරණය ආගමන විගමන නීතිය අනුව ලංකාවට විසිට් වීසා මත පැමිණිලා ඩිමෝන්ස්ට්‍රේෂන් කරන්න බැහැ."
+							- "ඒ සියලු කරුණු මත පදනම් වෙලා අපි ඔවුන්ට දැනුම් දුන්නා මේක නීතිවිරෝධියි ඒ නිසා නිසා අවසරය ලබා ගෙන මෙම කටයුත්ත කරන විදිහට. ඒ අනුව කුලියාපිටිය ප්‍රදේශයෙන් ඔවුන් මේ කටයුත්ත නැවැත්තුවා. දැන් ඔවුන් යම් විහාරස්ථානයක රැඳිලා ඉන්නවා." පොලිස් මාධ්‍ය ප්‍රකාශකවරයා පැවසීය.
+							- "ඉදිරියේදී දිගින් දිගටම නිසි අවසරයක් ලබා ගැනීමකින් තොරව මේ කටයුත්ත සිද්ධ කරනවා නම් ඒක නීතිවිරෝධියි. ඒ අනුව පවතින නීති අනුව කටයුතු කරන්න අපි අනිවාර්යෙන්ම ක්‍රියා කරනවා. දැනට අත්අඩංගුවට ගැනීමක් කරලා නැහැ. කරුණු සොයා බැලීමේ විමර්ශනයක් කරනවා."
+							- "පළමු වතාවේ ඔවුන්ට දැනුම් දීමක් සිද්ධ කළා මෙම ක්‍රියාව නවත්වන්න කියලා, එම අවස්ථාවේදී ඔවුන් ඒකට අනුගත වෙලා එම ක්‍රියාව නැවැත්වුවා. නමුත් දිගින් දිගටම කරනවා නම් අපි අනිවාර්යෙන්ම නෛතික ක්‍රියාමාර්ග ගන්නවා.”
+							- පොලිස් මාධ්‍ය ප්‍රකාශකවරයා පැවසුවේ, මෙම වියට්නාම පිරිස දැනට වරකාපොල ප්‍රදේශයේ ආරණ්‍ය සේනාසනයක රැඳී සිටින බවය.
+						- (Phần thêm cuối) Cảnh sát yêu cầu dừng cuộc bộ hành
+							- BBC Sinhala đã đặt câu hỏi với Phó Tổng Thanh tra Cảnh sát Buddhika Manathunga, người phát ngôn truyền thông cảnh sát, về tình hình liên quan đến chuyến thăm Sri Lanka của thầy Thích Minh Tuệ.
+							  Người phát ngôn cho biết khoảng 40 người đã tham gia cuộc bộ hành này theo hình thức một đoàn diễu hành.
+							  Ông giải thích rằng bộ hành được xem là một hoạt động thuộc loại diễu hành.
+							- “Việc tổ chức diễu hành cần có giấy phép từ cảnh sát. Thứ hai, theo luật nhập cư, những người đến Sri Lanka bằng visa du lịch không được phép tham gia biểu tình.”
+							  “Dựa trên tất cả những yếu tố này, chúng tôi đã thông báo với họ rằng hoạt động này là bất hợp pháp và cần được thực hiện sau khi có giấy phép. Vì vậy, họ đã dừng hoạt động này tại khu vực Kuliyapitiya. Hiện tại, họ đang lưu trú tại một ngôi chùa.”
+							- Người phát ngôn cảnh sát nói thêm: “Nếu trong tương lai họ tiếp tục thực hiện hoạt động này mà không có giấy phép hợp lệ, đó sẽ là hành vi bất hợp pháp. Chúng tôi chắc chắn sẽ hành động theo luật hiện hành. Hiện tại, chưa có ai bị bắt giữ. Chúng tôi đang tiến hành điều tra để làm rõ các tình tiết.”
+							  “Lần đầu tiên, chúng tôi đã thông báo yêu cầu họ dừng hoạt động này, và họ đã tuân thủ, dừng ngay tại thời điểm đó. Tuy nhiên, nếu họ tiếp tục thực hiện, chúng tôi chắc chắn sẽ áp dụng các biện pháp pháp lý.”
+							- Người phát ngôn cho biết nhóm người Việt Nam này hiện đang lưu trú tại một tu viện rừng (aranya senasana) ở khu vực Warakapola.
 					- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vTacjSpr-aVkXGiVQpwH-wt4UUbgFic6wjhXKE3IMtG0yfAB5MoS8MkTgzsF1us2FrCK37D6DHs7JnO/pub): ශ්‍රී ලංකාවේ සංචාරය කරන වියට්නාමයේ සුප්‍රසිද්ධ තික් මින් තියු හිමි ට මල්වතු පාර්ශවය ප්‍රමුඛ භික්ෂුන්ගෙන් විරෝධයක්
 					  April 17, 2025
 						- Article information: වියට්නාමයේ ජනප්‍රිය මෙන් ම ආන්දෝලනාත්මක හිමි නමක් වන තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරයට මල්වතු පාර්ශවය ඇතුළු ව මෙරට ඇතැම් බෞද්ධ භික්ෂූන් වහන්සේලාගේ විරෝධය එල්ල වී තිබේ. පසුගිය 10 වැනිදා සිය අනුගාමික හිමිවරුන් ඇතුළු පිරිසක් සමග ශ්‍රී ලංකාවට පැමිණි තික් මින් තියු හිමියෝ මේ වන විට දිවයිනේ විවිධ ප්‍රදේශවල පාද චාරිකාවේ නිරත වෙමින් සිටිති.
@@ -1366,15 +1381,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- සත්‍ය වශයෙන් ම, තික් මින් තියු හිමියන් තමන් භික්ෂුවක ලෙස හෝ වියට්නාමයේ බෞද්ධ සංඝයා වහන්සේ යටතේ ඇති කිසිදු විහාරස්ථානයකට හෝ ආයතනයකට අනුබද්ධ වන බවට ප්‍රකාශ කර නැත. ඒ වෙනුවට උන්වහන්සේ, තමා හඳුන්වන්නේ "බුදුන්ගේ ඉගැන්වීම් අනුගමනය කිරීමට උත්සහ කරන පුද්ගලයෙකු" ලෙස ය.
 							- තික් මින් තියූ හිමියන් සමාජ මාධ්‍යවල ජනප්‍රිය චරිතයක් බවට පත්ව ඇති අතර, උන්වහන්සේ සංචාරය කරන සෑම ස්ථානයක් ම පාහේ මාධ්‍ය ආවරණය කරමින් විවිධ ක්‍රියාකාරීන්, සමාජ මධ්‍ය ඔස්සේ දැවැන්ත ප්‍රචාරණයක් කරනු ලබයි.
 							- පාවහන් නොමැතිව ඇවිදීම, පිණ්ඩපාතයෙන් ජීවත් වීම, වනාන්තරවල, ලඳු කැළෑවල හෝ සුසාන භූමිවල සෙවණක් සෙවීම සහ සියලු භෞතික දෑ කෙරෙහි ඇති ඇලීම අත්හැරීම හේතුවෙන් තික් මින් තියු හිමියන් වියට්නාමය පුරා වේගයෙන් ජනප්‍රියත්වයට පත්විය.
-					- [In Vietnamese](https://docs.google.com/document/d/e/2PACX-1vTzp_kCZ4g4LAxsYPjbxZzqwZlZ-xC_FNoVy4rc8mAHpyRZrDq23Sv_98xGwQPllTGHNfVuhQp_ENJO/pub): Chuyến thăm Sri Lanka của thầy Minh Tuệ nổi tiếng từ Việt Nam bị phản đối bởi phái Malwatta và các tu sĩ Phật giáo khác
+					- [In Vietnamese](https://docs.google.com/document/d/e/2PACX-1vTzp_kCZ4g4LAxsYPjbxZzqwZlZ-xC_FNoVy4rc8mAHpyRZrDq23Sv_98xGwQPllTGHNfVuhQp_ENJO/pub): Chuyến thăm Sri Lanka của thầy Thích Minh Tuệ nổi tiếng từ Việt Nam bị phản đối bởi phái Malwatta và các tu sĩ Phật giáo khác
 					  Ngày đăng: 17/04/2025
-						- Tóm tắt: Chuyến thăm Sri Lanka của thầy Minh Tuệ, một nhân vật nổi tiếng nhưng cũng gây tranh cãi từ Việt Nam, đã vấp phải sự phản đối từ phái Malwatta và một số tu sĩ Phật giáo tại nước này. Vào ngày 10/4 vừa qua, thầy Minh Tuệ cùng một nhóm người đi theo đã đến Sri Lanka và hiện đang thực hiện hành trình bộ hành qua nhiều khu vực trên đảo.
+						- Tóm tắt: Chuyến thăm Sri Lanka của thầy Thích Minh Tuệ, một nhân vật nổi tiếng nhưng cũng gây tranh cãi từ Việt Nam, đã vấp phải sự phản đối từ phái Malwatta và một số tu sĩ Phật giáo tại nước này. Vào ngày 10/4 vừa qua, thầy Thích Minh Tuệ cùng một nhóm người đi theo đã đến Sri Lanka và hiện đang thực hiện hành trình bộ hành qua nhiều khu vực trên đảo.
 						  collapsed:: true
-							- Các video được đăng trên mạng xã hội của thầy Minh Tuệ cho thấy nhóm này được các tu sĩ Phật giáo và Phật tử tại nhiều ngôi chùa ở Sri Lanka tiếp đón.
-							- Thầy Minh Tuệ gây tranh cãi vì bị Giáo hội Phật giáo Việt Nam, tổ chức Phật giáo duy nhất được chính phủ Việt Nam công nhận, bác bỏ tư cách tu sĩ. Giáo hội này đã gắn nhãn thầy Minh Tuệ là “tu sĩ giả”.
-							- Theo điều tra của BBC Sinhala, Giáo hội Phật giáo Việt Nam đã gửi thư đến Bộ Phật giáo và Tôn giáo Sri Lanka, yêu cầu không công nhận thầy Minh Tuệ tại nước này.
+							- Các video được đăng trên mạng xã hội của thầy Thích Minh Tuệ cho thấy nhóm này được các tu sĩ Phật giáo và Phật tử tại nhiều ngôi chùa ở Sri Lanka tiếp đón.
+							- thầy Thích Minh Tuệ gây tranh cãi vì bị Giáo hội Phật giáo Việt Nam, tổ chức Phật giáo duy nhất được chính phủ Việt Nam công nhận, bác bỏ tư cách tu sĩ. Giáo hội này đã gắn nhãn thầy Thích Minh Tuệ là “tu sĩ giả”.
+							- Theo điều tra của BBC Sinhala, Giáo hội Phật giáo Việt Nam đã gửi thư đến Bộ Phật giáo và Tôn giáo Sri Lanka, yêu cầu không công nhận thầy Thích Minh Tuệ tại nước này.
 							- Trong một cuộc trao đổi với BBC Sinhala, ông W.P. Senadheera, thư ký Bộ Phật giáo và Tôn giáo, xác nhận đã được thông báo về một lá thư như vậy.
-							- Lá thư này cũng cho biết nhóm của thầy Minh Tuệ đến Sri Lanka không phải là một phái đoàn ngoại giao, theo thông tin được cung cấp cho ông Senadheera.
+							- Lá thư này cũng cho biết nhóm của thầy Thích Minh Tuệ đến Sri Lanka không phải là một phái đoàn ngoại giao, theo thông tin được cung cấp cho ông Senadheera.
 							- (Ảnh 2: Đoàn bộ hành cùng các nhà sư và Phật tử Sri Lanka)
 							  Chú thích: Ảnh chụp màn hình video ghi lại cảnh các nhà sư và Phật tử chào đón đoàn bộ hành Việt Nam tại nhiều ngôi chùa trên khắp hòn đảo cũng đã được đăng trên mạng xã hội của đoàn bộ hành.
 							- Tổng Ủy viên Ban Phật giáo R.M.P. Ratnayake nói với BBC Sinhala rằng nhóm này đã đến Sri Lanka bằng visa du lịch. Ông nói: “Họ có thể đến như vậy, họ có hộ chiếu và đã được cấp visa.”
@@ -1385,7 +1400,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Tại sao một số nhà sư Phật giáo ở Sri Lanka phản đối?
 						  collapsed:: true
 							- (Ảnh 3: Đoàn bộ hành và Phật tử Sri Lanka)
-							- Tóm tắt: Chuyến thăm Sri Lanka của thầy Minh Tuệ, một nhân vật nổi tiếng nhưng cũng gây tranh cãi từ Việt Nam, đã vấp phải sự phản đối từ phái Malwatta và một số tu sĩ Phật giáo tại nước này. Vào ngày 10/4 vừa qua, thầy Minh Tuệ cùng một nhóm người theo đã đến Sri Lanka và hiện đang thực hiện hành trình bộ hành qua nhiều khu vực trên đảo.
+							- Tóm tắt: Chuyến thăm Sri Lanka của thầy Thích Minh Tuệ, một nhân vật nổi tiếng nhưng cũng gây tranh cãi từ Việt Nam, đã vấp phải sự phản đối từ phái Malwatta và một số tu sĩ Phật giáo tại nước này. Vào ngày 10/4 vừa qua, thầy Thích Minh Tuệ cùng một nhóm người theo đã đến Sri Lanka và hiện đang thực hiện hành trình bộ hành qua nhiều khu vực trên đảo.
 							- Trong một cuộc trao đổi với BBC Sinhala, Thượng tọa Mahawela Ratanapala, Phó Thư ký phái Malwatta, cho biết Chủ tịch Ban Phật giáo Việt Nam đã gửi thư yêu cầu Malwatta không cho phép nhóm này thực hiện các hoạt động trái với giáo luật.
 							- Thư này nói rằng nhóm này là “những người mặc áo tu sĩ” và không phải là những người được xuất gia theo giới luật Phật giáo, theo lời Thượng tọa Phó Thư ký.
 							- Theo đó, Thượng tọa Tibbatuwawe Sri Sumangala, lãnh đạo phái Malwatta, đã yêu cầu Ủy viên Phật giáo điều tra về nhóm này và thông qua Tổng kiểm soát Di trú thực hiện các biện pháp liên quan đến việc vi phạm điều kiện visa.
@@ -1393,11 +1408,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Ủy viên Phật giáo cho biết đã thông báo cho Bộ Di trú để thực hiện các biện pháp cần thiết theo lá thư từ Thượng tọa Malwatta Mahanayake.
 						- Nhà sư nào đã khuấy động Việt Nam bằng cuộc bộ hành?
 						  collapsed:: true
-							- Thầy Minh Tuệ, 44 tuổi, trước đây đã thực hiện các chuyến hành trình đến Lào và Thái Lan.
-							- Tuy nhiên, Giáo hội Phật giáo Việt Nam (VBS) nhấn mạnh rằng không công nhận thầy Minh Tuệ là tu sĩ Phật giáo. Giáo hội này là tổ chức Phật giáo duy nhất được chính phủ Việt Nam công nhận.
-							- Thực tế, thầy Minh Tuệ không tuyên bố mình là tu sĩ hay liên kết với bất kỳ ngôi chùa hoặc tổ chức nào thuộc Giáo hội Phật giáo Việt Nam.
+							- Thầy Thích Minh Tuệ, 44 tuổi, trước đây đã thực hiện các chuyến hành trình đến Lào và Thái Lan.
+							- Tuy nhiên, Giáo hội Phật giáo Việt Nam (VBS) nhấn mạnh rằng không công nhận thầy Thích Minh Tuệ là tu sĩ Phật giáo. Giáo hội này là tổ chức Phật giáo duy nhất được chính phủ Việt Nam công nhận.
+							- Thực tế, thầy Thích Minh Tuệ không tuyên bố mình là tu sĩ hay liên kết với bất kỳ ngôi chùa hoặc tổ chức nào thuộc Giáo hội Phật giáo Việt Nam.
 							- Thay vào đó, thầy tự nhận mình là “một người cố gắng thực hành theo lời dạy của Đức Phật”.
-							- Thầy Minh Tuệ đã trở thành một nhân vật nổi tiếng trên mạng xã hội, và mọi nơi thầy đến đều được các nhà hoạt động đưa tin rộng rãi qua mạng xã hội.
-							- Việc đi bộ bằng chân trần, sống bằng khất thực, tìm nơi trú ẩn trong rừng, lùm cây hoặc nghĩa trang, và từ bỏ mọi gắn bó với vật chất đã khiến thầy Minh Tuệ nhanh chóng trở nên nổi tiếng khắp Việt Nam.
+							- Thầy Thích Minh Tuệ đã trở thành một nhân vật nổi tiếng trên mạng xã hội, và mọi nơi thầy đến đều được các nhà hoạt động đưa tin rộng rãi qua mạng xã hội.
+							- Việc đi bộ bằng chân trần, sống bằng khất thực, tìm nơi trú ẩn trong rừng, lùm cây hoặc nghĩa trang, và từ bỏ mọi gắn bó với vật chất đã khiến thầy Thích Minh Tuệ nhanh chóng trở nên nổi tiếng khắp Việt Nam.
 				- []
 		- ...
