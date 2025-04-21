@@ -244,7 +244,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
 				- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
 			- [Sinhala script](https://en.wikipedia.org/wiki/Sinhala_script)
-				- මෙ (me) =  ෙ(e) + ම(ma)
+				- මෙ (me) =  ෙ(e) + ම(ma), මෛ (mai) =
 			- [Cham script](https://en.wikipedia.org/wiki/Cham_script) contains spiral punctuation
 				- ꩜ (spiral, beginning of a section)
 		- [Bamum script](https://en.wikipedia.org/wiki/Bamum_script) contains many pictographic characters
