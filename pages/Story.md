@@ -1324,8 +1324,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- BBC Sinhala news about Minh Tue monk group
 				- [April 17](https://www.bbc.com/sinhala/articles/c98gdzz8vdno): An objection from monks led by the Malwathu faction to the famous Thich Minh Tue of Vietnam who is visiting Sri Lanka.
 					- Updated title: අවසරයකින් තොරව පාද යාත්‍රාවේ නිරත වීම නවත්වන්නැයි කුලියාපිටියේදී තික් මින් තියු හිමිට පොලිසියෙන් දැනුම් දීමක්
-					  Police inform Thich Minh Tue to stop engaging in foot without permission in Kuliyapitiya
+					  id:: 68062218-cd7e-45e4-9629-f32d24226898
+					  Police inform Thich Minh Tue to stop engaging in foot traffic without permission in Kuliyapitiya
 					  Cảnh sát yêu cầu Thích Minh Tuệ dừng cuộc hành hương bằng chân không phép tại Kuliyapitiya
+						- (Added part) පාද යාත්‍රාව නතර කිරීමට පොලීසියෙන් දැනුම් දීමක්
+							- තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරය සම්බන්ධයනේ මතුව ඇති තත්ත්වය පිළිබඳව පොලිස් මාධ්‍ය ප්‍රකාශක ජ්‍යෙෂ්ඨ පොලිස් අධිකාරී බුද්ධික මනතුංගගෙන් බීබීසී සිංහල විමසීමක් කළේය.
+							- එහිදී පොලිස් මාධ්‍ය ප්‍රකාශකවරයා පැවසුවේ, 40ක පමණ කණ්ඩායමක් පෙරහැරක ආකාරයෙන් මෙම පාද යාත්‍රාවේ නිරතව සිටින බවය.
+							- පාද යාත්‍රාවක් යනු පෙරහැර ගණයට වැටෙන ක්‍රියාකාරකමක් බවද ඔහු පැවසීය.
+							-
 					- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vTacjSpr-aVkXGiVQpwH-wt4UUbgFic6wjhXKE3IMtG0yfAB5MoS8MkTgzsF1us2FrCK37D6DHs7JnO/pub): ශ්‍රී ලංකාවේ සංචාරය කරන වියට්නාමයේ සුප්‍රසිද්ධ තික් මින් තියු හිමි ට මල්වතු පාර්ශවය ප්‍රමුඛ භික්ෂුන්ගෙන් විරෝධයක්
 					  April 17, 2025
 						- Article information: වියට්නාමයේ ජනප්‍රිය මෙන් ම ආන්දෝලනාත්මක හිමි නමක් වන තික් මින් තියු හිමියන්ගේ ශ්‍රී ලංකා සංචාරයට මල්වතු පාර්ශවය ඇතුළු ව මෙරට ඇතැම් බෞද්ධ භික්ෂූන් වහන්සේලාගේ විරෝධය එල්ල වී තිබේ. පසුගිය 10 වැනිදා සිය අනුගාමික හිමිවරුන් ඇතුළු පිරිසක් සමග ශ්‍රී ලංකාවට පැමිණි තික් මින් තියු හිමියෝ මේ වන විට දිවයිනේ විවිධ ප්‍රදේශවල පාද චාරිකාවේ නිරත වෙමින් සිටිති.
@@ -1360,8 +1366,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- සත්‍ය වශයෙන් ම, තික් මින් තියු හිමියන් තමන් භික්ෂුවක ලෙස හෝ වියට්නාමයේ බෞද්ධ සංඝයා වහන්සේ යටතේ ඇති කිසිදු විහාරස්ථානයකට හෝ ආයතනයකට අනුබද්ධ වන බවට ප්‍රකාශ කර නැත. ඒ වෙනුවට උන්වහන්සේ, තමා හඳුන්වන්නේ "බුදුන්ගේ ඉගැන්වීම් අනුගමනය කිරීමට උත්සහ කරන පුද්ගලයෙකු" ලෙස ය.
 							- තික් මින් තියූ හිමියන් සමාජ මාධ්‍යවල ජනප්‍රිය චරිතයක් බවට පත්ව ඇති අතර, උන්වහන්සේ සංචාරය කරන සෑම ස්ථානයක් ම පාහේ මාධ්‍ය ආවරණය කරමින් විවිධ ක්‍රියාකාරීන්, සමාජ මධ්‍ය ඔස්සේ දැවැන්ත ප්‍රචාරණයක් කරනු ලබයි.
 							- පාවහන් නොමැතිව ඇවිදීම, පිණ්ඩපාතයෙන් ජීවත් වීම, වනාන්තරවල, ලඳු කැළෑවල හෝ සුසාන භූමිවල සෙවණක් සෙවීම සහ සියලු භෞතික දෑ කෙරෙහි ඇති ඇලීම අත්හැරීම හේතුවෙන් තික් මින් තියු හිමියන් වියට්නාමය පුරා වේගයෙන් ජනප්‍රියත්වයට පත්විය.
-						- (Added at update) පාද යාත්‍රාව නතර කිරීමට පොලීසියෙන් දැනුම් දීමක්
-							-
 					- [In Vietnamese](https://docs.google.com/document/d/e/2PACX-1vTzp_kCZ4g4LAxsYPjbxZzqwZlZ-xC_FNoVy4rc8mAHpyRZrDq23Sv_98xGwQPllTGHNfVuhQp_ENJO/pub): Chuyến thăm Sri Lanka của thầy Minh Tuệ nổi tiếng từ Việt Nam bị phản đối bởi phái Malwatta và các tu sĩ Phật giáo khác
 					  Ngày đăng: 17/04/2025
 						- Tóm tắt: Chuyến thăm Sri Lanka của thầy Minh Tuệ, một nhân vật nổi tiếng nhưng cũng gây tranh cãi từ Việt Nam, đã vấp phải sự phản đối từ phái Malwatta và một số tu sĩ Phật giáo tại nước này. Vào ngày 10/4 vừa qua, thầy Minh Tuệ cùng một nhóm người đi theo đã đến Sri Lanka và hiện đang thực hiện hành trình bộ hành qua nhiều khu vực trên đảo.
