@@ -1652,5 +1652,40 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [In Vietnamese](https://docs.google.com/document/d/e/2PACX-1vSpMT3oStt0UipN7adC7wjV6_wECy-xxPJVWSRhFUuQa3BbBuNjJ9Jil7lyZvTTng2mpd6mj86YSgsQ/pub): Vị sư đã khuấy động Việt Nam bằng cuộc bộ hành là ai?
 					  id:: 68063ea8-b44c-4b54-8ced-6fc903944643
 					  collapsed:: true
-						-
+						- (Image 1: Thich Minh Tue)
+						- Tác giả: Bùi Thu
+						- Nguồn: BBC Tiếng Việt
+						- Ngày đăng: 21/06/2024
+						- Vào một buổi sáng tháng Sáu tràn đầy sự tĩnh lặng, thầy Thích Minh Tuệ lặng lẽ đi khất thực ở Gia Lai, một vùng cao nguyên miền Trung Việt Nam đầy khó khăn. Đó là nơi thầy chọn để ẩn mình sau cuộc bộ hành gây xôn xao cả nước, thu hút sự chú ý của nhiều người. Thay vì dùng bát khất thực truyền thống, thầy mang theo một **nồi cơm điện**, điều này không chỉ gây tò mò mà còn khiến nhiều người ngưỡng mộ.
+						- Lý do thầy trở thành tâm điểm chú ý trong cộng đồng Phật tử gần như không cần giải thích. Sự kiên định với **13 hạnh đầu đà**, cùng lối sống tu hành đặc biệt, đã biến hành động của thầy thành một hiện tượng độc đáo. Điều này bao gồm việc đi bộ chân trần, sống bằng khất thực, tìm nơi trú ẩn trong rừng sâu, nghĩa trang, hoặc dưới bóng cây, và từ bỏ mọi luyến ái với vật chất.
+						- (Image 2: Thich Minh Tue)
+						  Chú thích: Có bằng chứng cho thấy thầy và các đệ tử buộc phải từ bỏ cuộc bộ hành do áp lực từ chính quyền
+						- Tuy nhiên, thầy không thể tiếp tục thực hành lối sống tu hành của mình một cách bình thường, bởi hàng trăm người hâm mộ và đệ tử mới đã tìm đến thầy ở mỗi bước chân, mang theo thức ăn, chỗ nghỉ, và thậm chí quỳ lạy để bày tỏ sự tôn kính.
+						- Cuộc bộ hành của thầy Thích Minh Tuệ kết thúc vào ngày 3 tháng 6, sau khi một đệ tử qua đời do sốc nhiệt trong thời tiết nóng bức tháng Năm. Chính quyền cho biết thầy tự nguyện dừng cuộc bộ hành và quyết định ẩn tu tại một địa điểm bí mật gần nhà ở Gia Lai để thực hành các nghi thức tôn giáo. Tuy nhiên, có bằng chứng cho thấy thầy và các đệ tử buộc phải từ bỏ cuộc bộ hành do áp lực từ chính quyền.
+						- (Image 3: Thich Minh Tue and followers)
+						  Chú thích: Cuộc bộ hành của thầy Thích Minh Tuệ kết thúc vào ngày 3 tháng 6, sau khi một đệ tử qua đời do sốc nhiệt trong thời tiết nóng bức tháng 5
+						- Sau sự biến mất đột ngột của thầy vào ngày 3 tháng 6, nơi thầy ẩn tu đã bị phát hiện, và hàng nghìn người mỗi ngày đổ về đó.
+						- ## Hiện tượng độc đáo
+						  collapsed:: true
+							- **
+							- Thầy Thích Minh Tuệ, 43 tuổi, đã thu hút một lượng lớn người theo trong cuộc bộ hành khắp đất nước. Thầy bắt đầu hành trình lặng lẽ từ năm 2017, như một chuyến đi cá nhân, chỉ ăn một bữa trước trưa mỗi ngày. Thầy đã trải qua hàng nghìn đêm ngủ trong nghĩa trang hoặc bất cứ nơi nào trong rừng.
+							- Vào tháng 5 năm 2024, hành động của thầy thu hút sự chú ý rộng rãi trên Facebook, TikTok, và YouTube, khiến nhiều người có cùng chí hướng từ khắp nơi trên cả nước tìm đến tham gia cùng thầy. Từ đó, thầy Thích Minh Tuệ trở thành một nhân vật nổi tiếng trên truyền thông, và đối với nhiều người dùng YouTube, thầy trở thành nguồn thu nhập.
+							- (Image 4: Thich Minh Tue walking on the road)
+							  Chú thích: Hành động của thầy thu hút sự chú ý rộng rãi trên Facebook, TikTok, và YouTube
+							- “Hiện tượng độc đáo liên quan đến thầy Thích Minh Tuệ” diễn ra trong bối cảnh Phật giáo Việt Nam đã biến đổi, xa rời các giá trị truyền thống. Trước khi cuộc bộ hành dừng lại, các nhóm người hành hương đầy nhiệt huyết và tận tụy đã đến để gặp, chạm vào thầy, hoặc cúng dường qua mạng xã hội, gây ra ùn tắc giao thông nghiêm trọng ở các thành phố lớn như Quảng Trị và Huế.
+							- Những chuyến đi của thầy đã khơi mào các cuộc tranh luận công khai về các yếu tố cốt lõi của Phật giáo, tôn giáo chính tại Việt Nam. Hình ảnh của thầy đã góp phần vào việc chỉ trích các vị sư tham nhũng, thiếu gương mẫu, lợi dụng giáo pháp để trục lợi tài chính. Hàng loạt chùa chiền lớn được xây dựng nhờ sự tài trợ của các doanh nhân giàu có, biến một tôn giáo thành ngành công nghiệp trị giá hàng tỷ đô la, đặc biệt khi các khoản quyên góp cho các tổ chức tôn giáo được miễn thuế và không bị kiểm toán.
+							- Đảng Cộng sản Việt Nam, theo chủ nghĩa vô thần, sử dụng Phật giáo để thu phục lòng dân trong một quốc gia coi tôn giáo là một phần truyền thống. Nhiều lãnh đạo cấp cao thường xuất hiện bên các vị sư cao cấp để bày tỏ sự ủng hộ.
+							- (Image 5: Thich Minh Tue and other monks walking on the road)
+							- Trong bối cảnh Phật giáo bị lợi dụng vì lợi ích chính trị hoặc tài chính, tham nhũng trong các tổ chức tôn giáo trở nên phổ biến. Đầu năm nay, chính quyền đã kỷ luật trụ trì chùa Bà Vàng ở miền Bắc Việt Nam vì tổ chức triển lãm “Xá lợi tóc Đức Phật” nhằm mục đích tài chính.
+							- “Phong cách sống giản dị của thầy hoàn toàn khác biệt so với các vị sư ở những ngôi chùa lớn với tượng đài hoành tráng, những người nói một đằng làm một nẻo,” Thạc sĩ Bửu Nghiêm, chuyên gia về Phật giáo ứng dụng tại Viện Nan Tien, Australia, chia sẻ với BBC.
+							- Nhà sử học Pascal Bourdeaux, nổi tiếng với nghiên cứu về tôn giáo ở Việt Nam và Đông Nam Á tại École Pratique des Hautes Études, cho rằng thầy Thích Minh Tuệ là một nhân vật được kính trọng rộng rãi. Thầy có thể được xem như một phản ứng chống lại sự bất tín trong chính trị quốc gia và quốc tế, hoặc bất mãn xã hội, thông qua những ý định tâm linh và mong cầu giải thoát.
+							- (Image 6: Thich Minh Tue in the crowd)
+							  Chú thích: Những chuyến đi của thầy đã khơi mào các cuộc tranh luận công khai về các yếu tố cốt lõi của Phật giáo, tôn giáo chính tại Việt Nam
+							- Ở Việt Nam, có vị thiền sư nổi tiếng quốc tế hơn cả trong nước đó là là Thích Nhất Hạnh. Dù chưa đạt được sự chú ý toàn cầu như vậy, thầy Thích Minh Tuệ đã trở thành một chất xúc tác trong nước. Sự khác biệt cơ bản giữa hai vị sư rất rõ ràng: Thầy Thích Minh Tuệ không phải là một nhà thuyết pháp. Thay vào đó, thầy truyền cảm hứng qua hành động và những lời nói giản dị, khiêm tốn, chân thành. Trong một video, với khuôn mặt sưng tấy, máu chảy ở khóe miệng, thầy từ bi kể về việc bị tấn công khi đi khất thực:
+							- “Khi bị đánh và thoát khỏi sự giận dữ, con cảm thấy thương xót cho những người đánh con. Con rất hoan hỉ và cầu mong họ được an lành.”
+							- Bộ y áo của thầy, được may từ những mảnh vải vụn nhặt được trong các chuyến đi, kể cả ở nghĩa trang, đã truyền cảm hứng cho nhiều tác phẩm nghệ thuật, từ tranh vẽ, tượng, thơ ca đến thời trang.
+							- Một đệ tử của thầy Thích Minh Tuệ nói với BBC: “Hiện tượng độc đáo liên quan đến thầy Thích Minh Tuệ là lời mời gọi rõ ràng để mọi người tự phản tỉnh. Những người từ các tầng lớp xã hội khác nhau không thể tránh khỏi việc thay đổi suy nghĩ và nhận thức.”
+							- Hòa thượng Thích Sảo Quang, trụ trì một ngôi chùa ở Louisiana, Mỹ, tin rằng hiện tượng thầy Thích Minh Tuệ mang lại hy vọng. Hình ảnh giản dị và chân thành của thầy được xem như một sự đối trọng với chủ nghĩa vật chất thái quá hiện nay. Hơn nữa, câu chuyện của thầy là thông điệp dành cho các vị sư, khuyến khích ưu tiên việc giảng dạy và phát triển tâm linh hơn nhu cầu vật chất, đồng thời ảnh hưởng đến Phật giáo ngoài Việt Nam.
+							- Pascal Bourdeaux so sánh hiện tượng này với Khất Sĩ, một tông phái Phật giáo lớn ở miền Nam Việt Nam, được Minh Đăng Quang thành lập vào những năm 1940, cũng thực hành đi bộ và khất thực tương tự. Ông nói: “Một cách giải thích rõ ràng là người Việt Nam ngày càng quan tâm đến Phật giáo. Họ nỗ lực hiểu rõ hơn các giá trị cốt lõi của giáo pháp và triết lý Ấn Độ, hơn là các truyền thống Phật giáo Trung Quốc.”
+							- Minh Đăng Quang được kính trọng rộng rãi ở miền Nam Việt Nam trước khi biến mất bí ẩn trong một chuyến bộ hành vào năm 1954, không để lại bất kỳ thông tin nào.
 		- ...
