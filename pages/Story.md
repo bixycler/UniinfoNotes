@@ -1589,5 +1589,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Cha mẹ tôi sớm muộn cũng qua đời. Tôi cũng vậy. Nhớ họ không thay đổi được gì. Đau khổ, tình yêu là nguồn gốc của đau khổ, là nguồn gốc của sợ hãi. Khi hiểu được điều này, tôi không còn cảm giác về tình yêu nữa.
 							- Tình yêu là tạm thời. Tôi chế ngự nó. Nếu bạn có thể giải thoát khỏi mọi thứ, bạn sẽ không còn đau khổ.
 							- Biết vậy mà tôi vẫn đau khổ, tôi chấp nhận, rồi học giáo pháp của Đức Phật. Từ đó, tôi vượt qua tham ái, buồn đau, và cuối cùng thoát khỏi khổ đau.
-				-
+				- [June 21, 2024](https://www.bbc.com/sinhala/articles/cz99zq6vnplo)
+					- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vT7g2iSIri7KxIOgvyhFlP1xZNRClUDuqEOOA2qjnaTW6ukQK2OWfS-GfqlFxJYF5yTGpoVunEreb33/pub): පාද යාත්‍රාවේ නිරත වෙමින් වියට්නාමය කැළඹූ මේ භික්ෂුන් වහන්සේ කවුද?
+					  collapsed:: true
+						-
+					- [In Vietnamese]: Vị sư đã khuấy động Việt Nam bằng cuộc bộ hành là ai?
 		- ...
