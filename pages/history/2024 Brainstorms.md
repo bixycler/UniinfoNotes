@@ -246,7 +246,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- [Sinhala script](https://en.wikipedia.org/wiki/Sinhala_script)
 				- මෙ (me) =  ෙ(e) + ම(ma), මෛ (mai) =  ෛ(ai) + ම(ma), ට (ta), ග (ga), ර (ra)
 			- [Malayalam script](https://en.wikipedia.org/wiki/Malayalam_script)
-			-
+				- ഠ (ṭha), ത (ta), ഗ (ga), ക (ka), ഞ (ña), ര (ra), ഌ (l̥), ഋ (r̥),  െത (te) = ത(ta) + െ(e),  െത (tai) = ത(ta) + ൈ(ai)
 			- [Cham script](https://en.wikipedia.org/wiki/Cham_script) contains spiral punctuation
 				- ꩜ (spiral, beginning of a section)
 		- [Bamum script](https://en.wikipedia.org/wiki/Bamum_script) contains many pictographic characters
