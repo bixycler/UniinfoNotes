@@ -1502,5 +1502,62 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ඒක දැනගෙන මම දුක් විඳිනවා නම් ඒක පිළිගන්නවා, ඊට පස්සේ බුදුන්ගේ ධර්මයෙන් ඉගෙන ගන්නවා. එවිට මම තෘෂ්ණාව, ශෝකය ජයගෙන, අවසානයේ දුකින් මිදෙනවා.
 					- [In Vietnamese](https://docs.google.com/document/d/e/2PACX-1vRyclK5qTfeInpVahP91gVtlkajDlRNejbu4CSTKOllPk3T-Rz27dgWpYKXktwdGXdtpT7GQc8mbTQk/pub): Thầy Thích Minh Tuệ: “Luyến ái sinh sợ hãi, tôi rèn luyện để giải thoát khỏi luyến ái”
 					  collapsed:: true
+						- Image 1: Thich Minh Tue and two other monks)
+						  Chú thích: Thầy Thích Minh Tuệ nghỉ ngơi tại một công viên gần đường số 217 ở tỉnh Ubon Ratchathani
+						- Ngày đăng: 13/01/2025
+						- Cuộc bộ hành của thầy Thích Minh Tuệ, người đang đi bộ khất thực đến vùng đất nơi Đức Phật đản sinh, đang thu hút sự chú ý của nhiều người. Trong lúc thầy cùng đoàn chư tăng đi bộ qua vùng đông bắc Thái Lan, BBC News Việt Nam đã có cơ hội trò chuyện với thầy.
+						- Trước đây, thầy Thích Minh Tuệ từng gây chú ý khi thực hiện cuộc bộ hành khắp Việt Nam, làm xôn xao dư luận. Thay vì dùng bát truyền thống, thầy mang theo một **nồi cơm điện**, điều này không chỉ gây tò mò mà còn khiến nhiều người ngưỡng mộ.
+						- Lý do thầy trở thành chủ đề nổi bật trong cộng đồng Phật tử gần như không cần giải thích. Sự kiên định với **13 hạnh đầu đà**, cùng lối sống tu hành đặc biệt, đã biến hành động của thầy thành một hiện tượng độc đáo. Điều này bao gồm việc đi bộ chân trần, sống bằng khất thực, tìm nơi trú ẩn trong rừng sâu, nghĩa trang, hoặc dưới bóng cây, và từ bỏ mọi luyến ái với vật chất.
+						- Cuộc đối thoại giữa chúng tôi và thầy Thích Minh Tuệ diễn ra tại một công viên gần đường cao tốc 217 ở tỉnh Ubon Ratchathani, Thái Lan, khi thầy dừng chân để nhận bữa trưa.
+						- Trong buổi phỏng vấn, thầy Thích Minh Tuệ đã chia sẻ quan điểm về lối sống tu hành, cảm xúc, và trải nghiệm từ nhiều năm bộ hành.
+						- **BBC**: Thưa thầy, việc bộ hành ở Lào và Thái Lan giống và khác với bộ hành ở Việt Nam như thế nào?
+						- **Thầy Thích Minh Tuệ**:
+							- Khí hậu ở Lào và Thái Lan khác với Việt Nam, có phần lạnh hơn. Đường sá, rừng rậm, và nhiều thứ khác cũng khác. Con người và phong tục cũng không giống nhau.
+							- Một điểm khác nữa là ở Lào và Thái Lan, tôi gặp ít Phật tử hơn so với khi bộ hành ở Việt Nam. Ở Việt Nam, đặc biệt tại Quảng Trị và Huế, đông người theo dõi, gây ra tắc nghẽn giao thông. Ở đây [Lào và Thái Lan], không có tình trạng kẹt xe, mọi thứ đều tốt và ổn định.
+							- Dù đường sá khó khăn hay mệt mỏi, ở đâu cũng vậy, bộ hành đòi hỏi sự kiên trì không ngừng.
+							- Chuyện ăn uống thì ở đâu cũng giống nhau. Có lúc đói, nhưng vẫn phải giữ giới. Mỗi ngày chỉ nhận một bữa ăn. Dù đi bên trái hay bên phải con đường nhựa, cũng không có gì khác biệt.
+						- (Image 2: Thich Minh Tue in Vietnam)
+						  Chú thích: Thầy Thích Minh Tuệ đi bộ ở Việt Nam. Hình ảnh chụp vào tháng 5 năm 2024
+						- **BBC**: Trên đường, xe cộ lớn chạy nhanh qua lại. Khi bộ hành như vậy, thầy có cảm thấy lo lắng về an toàn không?
+						- **Thầy Thích Minh Tuệ**: Không. Chúng tôi đi bộ ở lề đường, tuân theo luật lệ.
+							- Không thể lo lắng về sự sống và cái chết.
+							- Tôi không bận tâm đến sức khỏe hay cái chết. Nếu tôi chết, cũng không có vấn đề gì. Vì có xe cộ, tôi đi bên phải đường.
+							- Nếu tôi sợ hãi khi họ lái xe qua, tôi sẽ không tiếp tục cuộc hành trình này nữa, tôi sẽ dừng lại.
+						- **BBC**: Thầy có thể chia sẻ sự khác biệt giữa việc bộ hành một mình và bộ hành cùng các vị sư khác không?
+						- **Thầy Thích Minh Tuệ**: Có, có sự khác biệt.
+							- Ví dụ, bộ hành một mình dễ dàng và tự do hơn. Nhưng khi đi cùng một nhóm, nhiều thứ thay đổi, như phải tìm nơi nghỉ ngơi đủ rộng cho cả đoàn.
+							- Khi đi một mình, tôi có thể dừng ở bất cứ đâu, rất tự do. Nhưng giờ đây, khi đi cùng người khác, có người giúp tôi, báo trước các việc cần làm.
+							- Ví dụ, có anh Bảo, anh Sếp, và hôm nay có anh Sơn đi cùng. Họ thông báo cho tôi về nơi nghỉ, liên lạc với chính quyền. Họ báo trước khi đến mỗi nơi. Tôi cảm thấy mọi thứ diễn ra tốt đẹp và điều đó mang lại niềm vui.
+							- Dù đi một mình hay cùng người khác, điều quan trọng là tâm trí. Tôi ngồi đây với các vị sư, gặp gỡ mọi người, nhưng tâm tôi vẫn tĩnh lặng. Dù không có ai, tôi vẫn cảm thấy như vậy.
+							- Tâm trí không ngừng hoạt động giống như một nơi đông đúc. Dù bạn ngồi một chỗ hay đi bộ một mình, bạn luôn nghĩ về người khác.
+							- Nếu không, bạn sẽ sinh lòng tham ái với người này, hoặc sân hận với người kia, hoặc những suy nghĩ tiêu cực và dục vọng thế tục. Khi tâm khởi những điều đó, chẳng khác gì ở giữa đám đông.
+							- Khi tôi ở đây, nếu tôi không sân hận hay bực tức vì sự hiện diện của người khác, tôi xem mình như đang ở một mình. Đó chính là sự khác biệt.
+							- Nói chung, việc một nơi đông đúc hay không phụ thuộc vào tâm trí bạn. Bạn có thể ở giữa khu chợ đông người, nhưng nếu không tương tác với họ, nơi đó như không có ai. Bạn ở một mình. Nhưng nếu tâm bạn rối loạn hay bị phân tán, thì nơi đó trở nên đông đúc.
+						- (Image 3: Thich Minh Tue and other monks sitting)
+						  Chú thích: Các vị sư nghỉ ngơi tại công viên gần đường ở tỉnh Ubon Ratchathani
+						- **BBC**: Theo lối sống tu hành của thầy, một ngày diễn ra như thế nào?
+						- **Thầy Thích Minh Tuệ**: Ban đêm, chúng tôi nghỉ ngơi.
+							- Thông thường, chúng tôi đi bộ từ 6 giờ sáng đến 7 giờ tối. Nếu chưa hoàn thành chặng đường, chúng tôi đi thêm một chút rồi nghỉ.
+							- Khi mặt trời mọc, hoặc khi đường không còn ồn ào, chúng tôi đi khất thực. Thường thì những việc này không có giờ cố định.
+							- Điều quan trọng là ở đúng nơi vào đúng thời điểm. Ví dụ, khi đến một nơi, nếu mọi người nói họ mệt hoặc đã quá trưa, chúng tôi nghỉ. Tôi không nói mình chỉ đi một quãng ngắn mà nghỉ, nhưng tôi nghỉ khi cần. Giờ tôi phải tiếp tục đi xa hơn.
+							- Nói chung, dù là làm việc, nghỉ ngơi, hay ăn uống, quan trọng là ở đúng nơi vào đúng lúc.
+							- Có lúc đi bộ mệt, tôi ngủ sớm và dậy sớm. Không phải lúc nào cũng ngủ lúc 10 giờ và dậy lúc 2 giờ. Đôi khi sớm hoặc muộn hơn 5-10 phút, gần đúng là được. Không cần tuân theo lịch trình nghiêm ngặt.
+							- Nói chung, mọi thứ phụ thuộc vào duyên.
+							- Việc đi trên đường và nghỉ ngơi cũng tương đối. Điều quan trọng là nghỉ đúng lúc trong hành trình. Không có luật bắt phải đi vào buổi trưa, mọi thứ tùy thuộc vào hoàn cảnh. Nhưng cũng không có luật bắt phải đi mỗi ngày.
+						- **BBC**: Trong lúc bộ hành, thầy suy nghĩ hay thiền quán về điều gì?
+						- **Thầy Thích Minh Tuệ**: Khi đi bộ, tôi suy nghĩ.
+							- Tôi mong rằng nếu tôi và người khác muốn đi bộ, chúng tôi có thể đi. Tôi mong mọi người hạnh phúc, khỏe mạnh, và đạt được điều họ cần. Khi bộ hành, tôi mong cầu hòa bình và niềm vui.
+							- Tôi mong mọi người có thể đến các nước khác mà không gặp trở ngại. Chúng tôi có thể sống hạnh phúc, tự do, thoải mái, không làm hại đất nước đó.
+							- Nói chung, tôi có giới hạnh, đạo đức, và trí tuệ để không làm hại ai. Tôi không hành động gây hại. Tôi không có tham vọng kinh tế, chính trị, hay chiến tranh. Tôi bộ hành để tìm sự an lạc và hòa bình.
+							- Tôi mong đi lại mà không gây hại hay nguy hiểm cho ai. Tôi tin rằng mọi người đều có thể làm được điều đó, đi lại thoải mái mà không gặp trở ngại.
+							- Như một con nai trong rừng, có thể đi lại, nằm nghỉ, hay ngồi tùy ý. Không bị giam cầm, không lo âu, không bị trộm cắp, không có hành vi sai trái. Đó là điều tôi mong đợi.
+						- **BBC**: Trong thời gian sống theo lối tu hành này, có câu chuyện nào khiến thầy xúc động hoặc bài học quý giá nào thầy muốn chia sẻ không?
+						- **Thầy Thích Minh Tuệ**: Có,
+							- đây không phải suy tư sâu sắc hay gì đặc biệt, nhưng tôi thấy, ví dụ, anh Bảo và anh Lâm giờ có thể giữ năm giới, không sát sinh, không trộm cắp, không tà dâm, không nói dối, không uống rượu, luôn yêu thương mọi người, và sống mà không gây phiền hà cho người khác như trước đây.
+							- Tôi vui vì sự thay đổi đó. Nếu mọi người cũng làm được như vậy, tôi thấy đó là điều tốt đẹp.
+						- **BBC**: Sau thời gian sống theo lối tu hành này, thầy thấy mình thay đổi thế nào?
+						- **Thầy Thích Minh Tuệ**: Tôi thấy mình thay đổi, khác so với lối sống thế tục.
+							- Tôi cũng nói với mọi người rằng tôi không phải thầy, không phải tăng sĩ, cũng không thuộc giáo hội hay tổ chức nào. Tôi là một người bình thường. Trước đây, tôi học giáo pháp của Đức Phật và thực hành theo đó.
+							- Sự thay đổi tôi thấy là trước đây tôi phải mang theo nhiều thứ. Nhưng giờ, ngoài ba y và bình bát, tôi không có gì khác.
 						-
 		- ...
