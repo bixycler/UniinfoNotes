@@ -5,4 +5,4 @@ alias
 echo '-- Execute ll:'; ll
 echo '-- Execute \ll:'; \ll
 echo '-- Execute l\l:'; l\l
-echo '-- Execute ls:'; ls
+echo '-- Execute l\s:'; l\s

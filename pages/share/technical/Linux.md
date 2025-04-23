@@ -710,7 +710,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  test-alias-expansion.sh: line 6: ll: command not found
 							  -- Execute l\l:
 							  test-alias-expansion.sh: line 7: ll: command not found
-							  -- Execute ls:
+							  -- Execute l\s:
 							  test-local-readonly.sh  [...]
 							  ```
 							- `zsh test-alias-expansion.sh`
@@ -727,7 +727,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  test-alias-expansion.sh:6: command not found: ll
 							  -- Execute l\l:
 							  test-alias-expansion.sh:7: command not found: ll
-							  -- Execute ls:
+							  -- Execute l\s:
 							  test-local-readonly.sh  [...]
 							  ```
 							- `dash test-alias-expansion.sh`
@@ -742,7 +742,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  test-alias-expansion.sh: 6: ll: not found
 							  -- Execute l\l:
 							  test-alias-expansion.sh: 7: ll: not found
-							  -- Execute ls:
+							  -- Execute l\s:
 							  test-local-readonly.sh  [...]
 							  ```
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
