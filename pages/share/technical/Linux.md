@@ -699,6 +699,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- Non-alias command: when `alias rm='rm -i'`, then `\rm` = `rm` instead of `rm -i`
 						- Note: In (non-interactive) `bash` script, alias expansion is disabled by default, and we must enable it with `shopt -s expand_aliases`.
 						- Test with ![test-alias-expansion.sh](../assets/Linux/scripts/test-alias-expansion.sh)
+						  collapsed:: true
 							- `bash test-alias-expansion.sh`
 							  ```sh
 							  alias ll='ls -l'
