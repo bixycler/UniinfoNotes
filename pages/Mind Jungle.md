@@ -2293,6 +2293,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ```sh
 						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/JavaScript.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/JavaScript.md"
 						  ```
+				- [technical/Database.md]([[Database]]): **2 links**
+				  collapsed:: true
+					- `${HOME}/source/UniinfoNotes/pages/share/technical/Database.md`: UniinfoNotes
+					- `${HOME}/opt/personal/logseq-notes/pages/share/technical/Database.md`: Linux logseq-notes
+					- first, check `stat` & `diff`
+						- ```sh
+						  stat -c '%i %h' "${HOME}/source/UniinfoNotes/pages/share/technical/Database.md" 
+						  stat -c '%i %h' "${HOME}/opt/personal/logseq-notes/pages/share/technical/Database.md"
+						  ```
+						- ```sh
+						  gdiff "${HOME}/source/UniinfoNotes/pages/share/technical/Database.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Database.md"
+						  ```
+					- then `ln`
+						- ```sh
+						  ln -fv "${HOME}/source/UniinfoNotes/pages/share/technical/Database.md" "${HOME}/opt/personal/logseq-notes/pages/share/technical/Database.md"
+						  ```
 				- [[Theme Demo]]: **2 links**
 				  collapsed:: true
 					- `${HOME}/source/UniinfoNotes/pages/share/Theme Demo.md`: UniinfoNotes
