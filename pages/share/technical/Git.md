@@ -464,6 +464,15 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  git -c core.sshCommand="ssh -vvv" push
 			  git --config-env=core.sshCommand="ssh -vvv" push
 			  ```
+		- `fsck` to check dangling commits, dangling objects, when the repo is corrupt.
+		  id:: 6808b9c5-402d-4923-997b-7b8056f71dc8
+		  :LOGBOOK:
+		  CLOCK: [2025-04-23 Wed 16:58:38]
+		  :END:
+			- Error messages: `fatal: bad object HEAD` or `fatal: loose object 041c7dfc... (stored in .git/objects/04/1c7dfc...) is corrupt`
+			- `git fsck --full --no-reflogs | grep "dangling commit" > dangling_commits.txt`
+			- ![check-dangling_commits.sh](../assets/Will/story/2025-04/UniinfoNotes-git-recovery/check-dangling_commits.sh): extract dangling commit messages and sort by date time.
+			- Get the last commit `$hash`, then `git reset --hard $hash`
 		- References
 			- Git Internals - [Environment Variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables)
 			- Git config - [Variables](https://git-scm.com/docs/git-config#_variables)

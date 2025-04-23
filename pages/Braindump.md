@@ -541,14 +541,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 			- Occation: i was confused again with the statement `export CATALINA_OPTS` in `skygserv/config/shell/setenv.sh`
 			- Copilot helps me a lot here!
-	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- After an abrupt machine shutdown due to power failure, ((666baccf-6be1-4b9a-b186-f883ea04daf1))'s git repo was corrupt.
+		  id:: 6808b04b-58b5-411e-982a-d79c62bafcde
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-23 Wed 16:18:07]
 		  :END:
 			- Thanks to Grok, i successfully recovered the git repo
+			  id:: 6808b081-b35c-44a6-aefa-15fe3af2fee4
 				- `fatal: bad object HEAD`: corrupted `.git/objects/04/1c7dfc7385af7a147458f0bc38b39c3d3d2d5e`
 				  collapsed:: true
 					- `fatal: loose object 041c7dfc7385af7a147458f0bc38b39c3d3d2d5e (stored in .git/objects/04/1c7dfc7385af7a147458f0bc38b39c3d3d2d5e) is corrupt`
@@ -576,9 +576,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 					  2025-04-08 16:11:56 +0700|089c3742975eb43eb756c7c308aebc6c56dfceb4|Auto saved by Logseq
 					  ```
 				- `git reset --hard ee5ddfe6b4ced9f7ee51b47583d1309577267435`
+				- Updated [Git Troupbleshooting](((6808b9c5-402d-4923-997b-7b8056f71dc8))).
 			- Then also refactor [assets/Will/story/](../assets/Will/story/)YYYY-Mon/ → YYYY-MM
 				- Previously, these asset folders YYYY-Mon are named after ((67760c3e-2ed3-4b91-9698-8dea6913e419))'s partitions by month names.
 				- Now, rename them to month numbers for easy sort.
+	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Walking back to the office from the morning riverside sitting, i felt an urge to write down the complex of “free will” via ((671b160c-0589-4f83-a778-a9fb4df6783a)), ((66725144-6bc9-4c9f-ba48-2cef02651e52)), agency & ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
 		  id:: 67f72f21-c983-4734-b616-eca636a5cf9c
 		  collapsed:: true

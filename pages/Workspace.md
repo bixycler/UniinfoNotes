@@ -75,9 +75,11 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((67d10c06-3fe3-4691-95c0-84278a2dc713)); revise [Reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7)))
 				- ((67dcc012-44d3-4041-b17a-0ef201b3ff6c))
 				- ((67f6185f-5efc-4fd0-b924-c175917092d8))
+				- Recover the git repo; Rename assets/Will/story/YYYY-Mon/ → YYYY-MM
+				  collapsed:: true
+					- ((6808b04b-58b5-411e-982a-d79c62bafcde))
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- Recovered the git repo; Rename assets/Will/story/YYYY-Mon/ → YYYY-MM
 				- ...
 			- <<End Tracks>>
 			  ---------------
