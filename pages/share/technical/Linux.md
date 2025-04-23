@@ -695,6 +695,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `\`-escape sequences are not interpreted by the shell itself, but by other components: [ANSI-C quoted](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html) `$'string\n'`, other commands like `printf`, `echo -e`, etc.
 				- The shell only escapes 2 cases: line continuation (`\`linebreak will remove the linebreak), and quote escape within quotation
 				- All other [non-quoted backslashes](https://www.gnu.org/software/bash/manual/html_node/Escape-Character.html) are ignored, e.g. `\l\s \-l` = `ls -l`
+					-
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
 				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49)) commands
 			- The hyphen/dash `-` doesn't required to be escaped in normal string, but a leading dash can be unintentinally treated as an option of a command.
