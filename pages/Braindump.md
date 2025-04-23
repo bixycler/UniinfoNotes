@@ -549,7 +549,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-04-23 Wed 16:18:07]
 		  :END:
 			- Thanks to Grok, i successfully recovered the git repo
-			- Then also refactor [assets/Will/story/](../assets/Will/story/)
+				- `fatal: bad object HEAD`: corrupted `.git/objects/04/1c7dfc7385af7a147458f0bc38b39c3d3d2d5e`
+					- `HEAD` → `refs/heads/log`: `041c7dfc7385af7a147458f0bc38b39c3d3d2d5e`
+				- `git fsck --full --no-reflogs | grep "dangling commit" > dangling_commits.txt`
+				- `bash check-dangling_commits.sh`
+				- `git reset --hard ee5ddfe6b4ced9f7ee51b47583d1309577267435`
+			- Then also refactor [assets/Will/story/](../assets/Will/story/)YYYY-Mon/ → YYYY-MM
+				- Previously, these asset folders YYYY-Mon are named after ((67760c3e-2ed3-4b91-9698-8dea6913e419))'s partitions by month names.
+				- Now, rename them to month numbers for easy sort.
 		- Walking back to the office from the morning riverside sitting, i felt an urge to write down the complex of “free will” via ((671b160c-0589-4f83-a778-a9fb4df6783a)), ((66725144-6bc9-4c9f-ba48-2cef02651e52)), agency & ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
 		  id:: 67f72f21-c983-4734-b616-eca636a5cf9c
 		  collapsed:: true
