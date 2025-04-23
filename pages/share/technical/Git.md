@@ -473,6 +473,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			- `git fsck --full --no-reflogs | grep "dangling commit" > dangling_commits.txt`
 			- ![check-dangling_commits.sh](../assets/Will/story/2025-04/UniinfoNotes-git-recovery/check-dangling_commits.sh): extract dangling commit messages and sort by date time.
 			- Get the last commit `$hash`, then `git reset --hard $hash`
+			- The reamaining dangling commits & blobs can be cleaned up with `git gc --prune=now`.
 		- References
 			- Git Internals - [Environment Variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables)
 			- Git config - [Variables](https://git-scm.com/docs/git-config#_variables)
