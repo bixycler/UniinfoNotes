@@ -579,6 +579,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- Updated [Git Troupbleshooting](((6808b9c5-402d-4923-997b-7b8056f71dc8))).
 				- Rechecking with `git fsck --full`, i see many dangling commits (due to many times rebasing), and may dangling blobs.
 					- `git gc --prune=now` to clean them up so that they won't clutter `git fsck` output.
+					- Note: to be safe, check these blobs beforehand
+						- `git fsck --full | grep "dangling blob" > dangling_blobs.txt`
+						- ![check-dangling_blobs.sh](../assets/Will/story/2025-04/UniinfoNotes-git-recovery/check-dangling_blobs.sh):
 			- Then also refactor [assets/Will/story/](../assets/Will/story/)YYYY-Mon/ → YYYY-MM
 				- Previously, these asset folders YYYY-Mon are named after ((67760c3e-2ed3-4b91-9698-8dea6913e419))'s partitions by month names.
 				- Now, rename them to month numbers for easy sort.
