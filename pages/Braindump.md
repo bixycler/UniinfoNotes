@@ -543,16 +543,30 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Copilot helps me a lot here!
 	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- After an abrupt machine shutdown due to power failure, ((666baccf-6be1-4b9a-b186-f883ea04daf1))'s git repo was corrupted.
+		- After an abrupt machine shutdown due to power failure, ((666baccf-6be1-4b9a-b186-f883ea04daf1))'s git repo was corrupt.
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-23 Wed 16:18:07]
 		  :END:
 			- Thanks to Grok, i successfully recovered the git repo
 				- `fatal: bad object HEAD`: corrupted `.git/objects/04/1c7dfc7385af7a147458f0bc38b39c3d3d2d5e`
+				  collapsed:: true
+					- `fatal: loose object 041c7dfc7385af7a147458f0bc38b39c3d3d2d5e (stored in .git/objects/04/1c7dfc7385af7a147458f0bc38b39c3d3d2d5e) is corrupt`
 					- `HEAD` → `refs/heads/log`: `041c7dfc7385af7a147458f0bc38b39c3d3d2d5e`
 				- `git fsck --full --no-reflogs | grep "dangling commit" > dangling_commits.txt`
-				- `bash check-dangling_commits.sh`
+				- ![check-dangling_commits.sh](../assets/Will/story/2025-04/UniinfoNotes-git-recovery/check-dangling_commits.sh): extract dangling commit messages and sort by date time.
+					- ```sh
+					  #!/bin/bash
+					  MSG_LS='dangling_commits.msg.txt'
+					  MSG_LS_SORT='dangling_commits.msg.sort.txt'
+					  while read -r line; do
+					      sha=$(echo "$line" | awk '{print $3}')
+					      echo "Checking commit $sha:"
+					      commit=$(git show --no-patch --format='%ai|%H|%s' "$sha")
+					      echo $commit | tee -a $MSG_LS
+					  done < dangling_commits.txt
+					  sort -r $MSG_LS > $MSG_LS_SORT
+					  ```
 				- `git reset --hard ee5ddfe6b4ced9f7ee51b47583d1309577267435`
 			- Then also refactor [assets/Will/story/](../assets/Will/story/)YYYY-Mon/ → YYYY-MM
 				- Previously, these asset folders YYYY-Mon are named after ((67760c3e-2ed3-4b91-9698-8dea6913e419))'s partitions by month names.
