@@ -715,6 +715,35 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  ```
 							- `zsh test-alias-expansion.sh`
 							  ```sh
+							  test-alias-expansion.sh:2: command not found: shopt
+							  ll='ls -l'
+							  run-help=man
+							  which-command=whence
+							  -- Execute ll:
+							  total 20
+							  -rwxrwxr-x 1 dinhlx dinhlx 1179 Thg 4   9 17:17 test-local-readonly.sh
+							  [...]
+							  -- Execute \ll:
+							  test-alias-expansion.sh:6: command not found: ll
+							  -- Execute l\l:
+							  test-alias-expansion.sh:7: command not found: ll
+							  -- Execute ls:
+							  test-local-readonly.sh  [...]
+							  ```
+							- `dash test-alias-expansion.sh`
+							  ```sh
+							  test-alias-expansion.sh: 2: shopt: not found
+							  ll='ls -l'
+							  -- Execute ll:
+							  total 20
+							  -rwxrwxr-x 1 dinhlx dinhlx 1179 Thg 4   9 17:17 test-local-readonly.sh
+							  [...]
+							  -- Execute \ll:
+							  test-alias-expansion.sh: 6: ll: not found
+							  -- Execute l\l:
+							  test-alias-expansion.sh: 7: ll: not found
+							  -- Execute ls:
+							  test-local-readonly.sh  [...]
 							  ```
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
 				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49)) commands
