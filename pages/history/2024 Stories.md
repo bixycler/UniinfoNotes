@@ -153,7 +153,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			  https://youtu.be/OEhTuft8BVE
 			- Hồi đó xem thì chỉ biết Diệp Vấn là 1 nhân vật trong phim, giờ mới biết ông là sư phụ đời thứ 7 của Vịnh Xuân quyền. Diệp Vấn là sư phụ bên Hồng Kông, ngang với Nguyễn Tế Công là sư phụ (đời 7) sư phụ VXQ bên VN.
 			- Và thú vị là ngoài những sư phụ lịch sử thì các đời đầu được cho là xuất phát từ các tổ sư truyền thuyết... là nữ: Đời 1 là Nghiêm Vịnh Xuân, vợ của Lương Bác Trù (đời 2), và "đời 0" tức tiền thân của Vịnh Xuân quyền là Ngũ Mai Sư thái là một sư cô (ni sư) trong Thiếu Lâm Ngũ tổ của Nam quyền !🙂
-			- ![](../assets/Will/story/2023-Dec/410231658_3201771263457877_3085375095946648820_n.jpg)
+			- ![](../assets/Will/story/2023-12/410231658_3201771263457877_3085375095946648820_n.jpg)
 			- Xin mời người có trải nghiệm VXQ cho ý kiến !🙂 [@Hiep Bobo Do](https://www.facebook.com/798673023/)
 			- Gia thoại về Ngũ Mai Sư thái cũng lạ, vì thường chỉ nghe nói tới các sư thầy (nam) trong chùa Thiếu Lâm. Hiện tại thì thấy có các chùa ni (nữ) trong dòng Drukpa (mật tông ở Tây Tạng, Bhutan, Nepal) là có tập kungfu. Và truy ra thì.... nó đi từ chùa Nam Thiếu Lâm xuống Việt Nam rồi mới qua lại Nepal: [https://content.time.com/time/world/article/0,8599,2003009,00.html](https://content.time.com/time/world/article/0,8599,2003009,00.html?fbclid=IwZXh0bgNhZW0CMTAAAR2WU7dL-ZWMhSpwxPBhljidP20I2S1j0h3oMn-8rPZcCAeLtXGbiWYT7c0_aem_FkY5mG2D6ngIX-_6bVZHFQ)
 			  collapsed:: true
@@ -208,7 +208,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  đó là ông, ông lại duy ra nguoi khác. cái này ba Trung đoạn trên nói maci rồi
 		  **nói chung nc trên này tôi cũng bắt đầu thấy chán bỏ mẹ**
 		- Trung:
-		  ![](../assets/Will/story/2023-Dec/411727166_3169229470052027_2029056661328508715_n.jpg)
+		  ![](../assets/Will/story/2023-12/411727166_3169229470052027_2029056661328508715_n.jpg)
 		- Sang:
 		- Nhìn tấm ảnh chị gửi, mà liên tưởng ngay đến clip này
 		  [Những kiểu người giàu nhưng không có tiền!](https://www.facebook.com/watch/?v=1390411028220363)
@@ -232,7 +232,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		- Định: **Chủ đề giàu/nghèo này nhạy cảm nên anh ít khi đụng tới**. Nay Sang chủ động chia sẻ thì anh cũng mởi ra một ít như thế này:
 		  collapsed:: true
 			- 1. Theo nghĩa hẹp và phổ thông nhứt thì giàu/nghèo là có nhiều/ít tài sản vật chất. Vì tài sản vật chất đều có thể quy ra tiền (tiếng Anh gọi là "hoá lỏng", "liquidate", dịch thuật ngữ kinh tế là "thanh lý", "thanh toán") nên đây cũng là thước đo chính xác nhứt, vì nó ra con số cụ thể rõ ràng.
-			- ![Liquidation](../assets/Will/story/2023-Dec/Liquidation-410099064_1096396218470719_1703045870467255964_n.png)
+			- ![Liquidation](../assets/Will/story/2023-12/Liquidation-410099064_1096396218470719_1703045870467255964_n.png)
 			- id:: 66bad570-4aa6-4a45-87d3-52fd1fff85a4
 			  2. Theo nghĩa rộng hơn một chút, 
 			  như trong clip Sang gửi thì nói về ***khả năng*** tạo ra của cải vật chất. Vì cái khả năng, tiềm năng là cái ẩn giấu không hiển lộ rõ ràng nên khó đo lường, và tuỳ vào "con mắt" của người nhìn. Kiểu như Kiều nhận ra được Từ Hải là đấng anh hùng từ trong lúc hắn còn là hạt bụi "Anh hùng đoán giữa trần ai mới già!" Thế nên mỗi người thấy 1 kiểu, không thể nói chính xác và thống nhứt được, và cũng không ít người nhìn lầm, đầu tư vào "nó" để rồi rốt cuộc vỡ mộng "nó" chẳng làm được gì cả. Bản thân anh có trải nghiệm này ít nhiều, nhận được không ít sự thất vọng từ gia đình tới bạn bè. 😃
@@ -948,7 +948,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- Nhưng không có thấu kính, không có màn hình thì cũng chẳng thể thấy được một thứ gì cụ thể, chỉ thấy "không vô biên xứ, thức vô biên xứ, vô sở hữu xứ, phi tưởng - phi phi tưởng xứ" 😃 của thế giới vô hình (vô sắc giới, formless world).
 			- Để thấy hình tướng trong thế giới hữu hình này (sắc giới, form world) thì buộc mình phải đeo kính vào.... chỉ khác là mình vừa thấy hình vừa biết hình này là của cái kính này, biết chỉ cần đổi kính thì hình sẽ đổi, nên không chấp vào một cái form tuyệt đối, và tương đối tự chủ hơn nên gọi là tự do, giải thoát.
 			- Đại khái khi đó sẽ thấy cả 2 thế này: từ trong cái Thức vô ngã (trí tuệ) đó dòm ra thì vừa thấy Mặt Trời chỉ là một đốm sáng giữa khoảng không thanh tịnh (cái thấy của trí, vạn vật đồng nhất thể) ở phía trên hình, vừa thấy Mặt Trời đó hiện thành thiên hình vạn trạng trên những đám mây của eyewall ở phía dưới hình. Những "đám mây" đó vừa là "vô minh" vì nó che khuất trí tuệ, nhưng cũng chính là thế giới muôn màu muôn vẻ, buồn vui sướng khổ, yêu thương, tranh đấu, chiến tranh, sống chết, ốm đau, khoẻ mạnh, v.v.
-			  ![hurricane-Dorian-eye-2019.jpg](../assets/Will/story/2024-Sep/hurricane-Dorian-eye-2019.jpg)
+			  ![hurricane-Dorian-eye-2019.jpg](../assets/Will/story/2024-09/hurricane-Dorian-eye-2019.jpg)
 			- cái "mất dạy" của ông Sadhguru ko phải là không dùng kiến thức, thực tế là ổng biết rất nhiều từ tâm linh tới khoa học, nhưng ổng không đồng nhất mình với nó, biết nó chỉ là những cái kính, những phương tiện để mình giao tiếp với thế giới hữu hình này thôi.
 			- Và khi chứng được cái trí tuệ = vô ngã thức = chỗ trống không này thì mình cũng thấy rõ là khi cái ngã, cái Tôi này tan rã thì cái Thức cũng biến mất, không có một cái Thức nào có thể tồn tại ngoài cái Tôi, ngoài những cái form, ngoài thế giới vật chất này. Tức có căn nhà vật chất và có chủ nhà Thức, nhưng không có một ông chủ nằm ngoài căn nhà đó. Đây là mâu thuẫn cơ bản khi giải thích cho người trong thế giới quen có một "ông chủ độc lập". Cái "linh hồn nằm ngoài thể xác" là kết quả của việc con người đem cái hình ảnh quen thuộc về "ông chủ nằm ngoài căn nhà" để áp vào cho cái thế giới vô hình. Có thế giới vô hình, nhưng nó không độc lập với thế giới hữu hình 😃
 			- Về phần "Thức emerge lên từ Tôi" này thì có vẻ giống với quan điểm duy vật, nhưng nó khác Duy Vật ở chỗ: không có cả cái Tôi, cái Vật nào độc lập với cái Thức, tức mỗi hạt cơ bản đều chỉ là những "vòng xoáy", những "lỗ đen" chứa đựng cái tâm điểm Thức bên trong; một hạt khi mất thức thì nó cũng tan rã (phân rã phóng xạ).
@@ -1093,13 +1093,13 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  becomingly modest, I'm smart too?
 		- [Davide Libenzi's response](https://git.vger.kernel.narkive.com/iEYOeYwt/index-file-environment-variable#post2)
 		  > You forgot, *again*, to take your medications !!
-		- ![Screenshot Linus Torvalds humour.png](../assets/Will/story/2024-Oct/Screenshot Linus Torvalds humour.png)
+		- ![Screenshot Linus Torvalds humour.png](../assets/Will/story/2024-10/Screenshot Linus Torvalds humour.png)
 	- Mr. Hiệp's gift: A drawing of my face
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-10-23 Wed 17:02:46]
 	  :END:
-		- ![gift-from-Hiep.jpg](../assets/Will/story/2024-Oct/gift-from-Hiep.jpg){:width 300, :height 408}
+		- ![gift-from-Hiep.jpg](../assets/Will/story/2024-10/gift-from-Hiep.jpg){:width 300, :height 408}
 		- Hiệp: muốn vẽ thành con sloth mà chưa ra
 		- Định: Ặc, mặt tui buồn muốn chết, chữ Khổ khắc sâu trên trán mà sao ông thấy thành cười nhe răng vậy cũng hay thiệt chứ 😁
 		  Vợ tui mới khen "anh Hiệp vẽ đẹp quá!" kìa 😊
@@ -1341,7 +1341,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		- cũng tương tự như vậy trò cầu cơ mình học từ Pháp ra (con cơ gốc hình trái tim cœur), nhưng gốc nó cũng từ nhà Tống TQ -> Ấn Độ -> Châu Âu -> quay về VN
 		- "con cơ" của TQ thời nhà Thanh to vật như vầy:
 		  collapsed:: true
-			- ![Chinese_Ouija_board-model_figures.jpg](../assets/Will/story/2024-Nov/Chinese_Ouija_board-model_figures.jpg)
+			- ![Chinese_Ouija_board-model_figures.jpg](../assets/Will/story/2024-11/Chinese_Ouija_board-model_figures.jpg)
 		- Quay về VN thì hình trái tim được phiên âm ra thành "cơ", lá bài cơ, và "con cơ" trong cầu cơ. Rồi qua phong trào Cơ Bút (cầu cơ rồi chấp bút viết ra kinh điển) thì hình thành đạo Cao Đài.... ở đó chữ "cơ" lại trở về chữ Hán 機 như "thiên cơ", "huyền cơ", "cơ mật" 😃
 			- Đại Từ-Phụ Từ-Bi tạo-hóa,
 			  Tượng mảnh thân giống cả Càn-Khôn.
@@ -1353,7 +1353,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			  Rước vong hồn lui trở ngôi xưa.
 			- "Xây cơ" là kỹ thuật cầu cơ sơ khai (gốc từ Pháp), gọi là "xây bàn cơ": cái "bàn cơ" là con cơ có 3 chân như hình này.
 			  collapsed:: true
-				- ![Norman_Rockwell_Ouija_board_painting.jpg](../assets/Will/story/2024-Nov/Norman_Rockwell_Ouija_board_painting.jpg)
+				- ![Norman_Rockwell_Ouija_board_painting.jpg](../assets/Will/story/2024-11/Norman_Rockwell_Ouija_board_painting.jpg)
 			- "Mở cơ" là mở hội, lập đàn cầu cơ theo nghĩa đen, nhưng nghĩa bóng ý là "mở thiên cơ ra" để độ chúng sanh 😃
 		- Những vòng tròn văn hoá và ngôn ngữ, đi ráp vòng quay trở lại nhưng "lợi hại hơn xưa", biến hoá khôn lường 😉
 		- "Cầu cơ" tiếng Anh là ouija, nhưng đọc là "wi-jơ", âm đầu "oui" [wi] thì theo Pháp, âm sau "ja" thì theo tiếng Đức 😃
@@ -1392,16 +1392,16 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- [By the abyss](https://www.facebook.com/share/p/mj1nY6UArLUDEgMp/)
 			  collapsed:: true
 				- Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern
-				  ![Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg](../assets/Will/story/2024-Dec/Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg)
+				  ![Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg](../assets/Will/story/2024-12/Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg)
 				- Preikestolen (Pulpit Rock)
 				  collapsed:: true
-				  ![preikestolen-pulpit-rock-fjord-sitting.jpg](../assets/Will/story/2024-Dec/preikestolen-pulpit-rock-fjord-sitting.jpg)
+				  ![preikestolen-pulpit-rock-fjord-sitting.jpg](../assets/Will/story/2024-12/preikestolen-pulpit-rock-fjord-sitting.jpg)
 					- Preikestolen aerial view
-					  ![Preikestolen_de_face.jpg](../assets/Will/story/2024-Dec/Preikestolen_de_face.jpg)
+					  ![Preikestolen_de_face.jpg](../assets/Will/story/2024-12/Preikestolen_de_face.jpg)
 					- Preikestolen topdown view
-					  ![Preikestolen_topdown.jpg](../assets/Will/story/2024-Dec/Preikestolen_topdown.jpg)
+					  ![Preikestolen_topdown.jpg](../assets/Will/story/2024-12/Preikestolen_topdown.jpg)
 				- 0.999999...
-				  ![0.999999....jpg](../assets/Will/story/2024-Dec/0.999999....jpg)
+				  ![0.999999....jpg](../assets/Will/story/2024-12/0.999999....jpg)
 			- [Touching the bottom and turning back up... there's a long way ahead!](https://www.facebook.com/share/p/LNAfUavxgwGXNWqK/)
 			- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/AqPNJzTTcQA48Qxr/)
 			- [Target is the horizon!](https://www.facebook.com/share/p/Nr5BqKGNDZZE8A6h/)
@@ -1479,6 +1479,6 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 	  collapsed:: true
 		- [Knowledge circle](https://www.facebook.com/share/p/ELxP71XMikbJGPPK/)
 		- [Vòng tròn tri thức](https://www.facebook.com/share/p/3brw3UhstMGzAYsC/)
-		- ![KnowledgeCircle.jpg](../assets/Will/story/2023-Dec/KnowledgeCircle.jpg)
+		- ![KnowledgeCircle.jpg](../assets/Will/story/2023-12/KnowledgeCircle.jpg)
 	- <<End 2024 Stories>>
 	  -----------------------

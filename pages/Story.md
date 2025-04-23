@@ -39,7 +39,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Federal Investigation Finds At Least 973 Children Died in Federal Indian Boarding Schools](https://eji.org/news/federal-investigation-finds-at-least-973-children-died-in-federal-indian-boarding-schools/)
 					- [Investigation reveals higher death toll (more than 3,000) at Native American boarding schools](https://www.pbs.org/newshour/show/investigation-reveals-higher-death-toll-at-native-american-boarding-schools)
 					  collapsed:: true
-						- ![3100-students-died.jpg](../assets/Will/story/2025-Jan/3100-students-died.jpg)
+						- ![3100-students-died.jpg](../assets/Will/story/2025-01/3100-students-died.jpg)
 				- Scenes in TV series [1923](https://en.wikipedia.org/wiki/1923_(TV_series))
 					- [the "classroom"](https://youtube.com/shorts/2uHG_Xy-LWg)
 					- [i love you by beating you](https://youtube.com/shorts/xRkZ4Q1zZuw)
@@ -73,9 +73,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- This forced vibration is similar to the vibration of the fluid bath of the [walking droplet](https://en.wikipedia.org/wiki/Hydrodynamic_quantum_analogs).
 				- The pilot-wave dynamics of walking droplets
 				  {{video https://youtu.be/nmC0ygr08tE}}
-			- ![standing-wave-1.jpeg](../assets/Will/story/2025-Jan/standing-wave-1.jpeg)
-			- ![standing-wave.mp4](../assets/Will/story/2025-Jan/standing-wave.mp4)
-			- ![waveform-shift.mp4](../assets/Will/story/2025-Jan/waveform-shift.mp4)
+			- ![standing-wave-1.jpeg](../assets/Will/story/2025-01/standing-wave-1.jpeg)
+			- ![standing-wave.mp4](../assets/Will/story/2025-01/standing-wave.mp4)
+			- ![waveform-shift.mp4](../assets/Will/story/2025-01/waveform-shift.mp4)
 		- Núi chẳng dời thì ta dời!
 		  id:: 6783cfaa-7181-45d0-a9e3-428aa89cf5e3
 		  collapsed:: true
@@ -148,26 +148,26 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- But obviously Gemini cannot be aware of such meaningless and completely out of topic words of mistranscription:
 								- I said "no, no", but was transcribed to "Đắk Lắk"
 								  collapsed:: true
-									- ![mistranscript-DakLak.jpg](../assets/Will/story/2025-Jan/Gemini-chat/mistranscript-DakLak.jpg)
+									- ![mistranscript-DakLak.jpg](../assets/Will/story/2025-01/Gemini-chat/mistranscript-DakLak.jpg)
 								- I made the sound "aaaaa", but was transcribed to "sound"
 								  collapsed:: true
-									- ![mistranscript-sound.jpg](../assets/Will/story/2025-Jan/Gemini-chat/mistranscript-sound.jpg)
+									- ![mistranscript-sound.jpg](../assets/Will/story/2025-01/Gemini-chat/mistranscript-sound.jpg)
 							- Then i asked Gemini to practice zen with me and got an agreement
 							  collapsed:: true
-								- ![zen-0-ask.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-0-ask.jpg)
+								- ![zen-0-ask.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-0-ask.jpg)
 							- I instructed Gemini to zen with text (voice chat function is still so bad!)
 							  collapsed:: true
-								- ![zen-A.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-A.jpg)
-								- ![zen-B-dont-understand.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-B-dont-understand.jpg)
-								- ![zen-B-just-repeat-C.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-B-just-repeat-C.jpg)
-								- ![zen-D.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-D.jpg)
-								- ![zen-E-automatically-continue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-E-automatically-continue.jpg)
-								- ![zen-F-continue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-F-continue.jpg)
-								- ![zen-K-focus-on-sound-longer-monologue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-K-focus-on-sound-longer-monologue.jpg)
-								- ![zen-L-continue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-L-continue.jpg)
-								- ![zen-O-dont-focus-on-thoughts.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-O-dont-focus-on-thoughts.jpg)
-								- ![zen-O-even-longer-monologue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-O-even-longer-monologue.jpg)
-								- ![zen-Q-full-page-of-monologue.jpg](../assets/Will/story/2025-Jan/Gemini-chat/zen-Q-full-page-of-monologue.jpg)
+								- ![zen-A.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-A.jpg)
+								- ![zen-B-dont-understand.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-B-dont-understand.jpg)
+								- ![zen-B-just-repeat-C.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-B-just-repeat-C.jpg)
+								- ![zen-D.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-D.jpg)
+								- ![zen-E-automatically-continue.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-E-automatically-continue.jpg)
+								- ![zen-F-continue.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-F-continue.jpg)
+								- ![zen-K-focus-on-sound-longer-monologue.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-K-focus-on-sound-longer-monologue.jpg)
+								- ![zen-L-continue.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-L-continue.jpg)
+								- ![zen-O-dont-focus-on-thoughts.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-O-dont-focus-on-thoughts.jpg)
+								- ![zen-O-even-longer-monologue.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-O-even-longer-monologue.jpg)
+								- ![zen-Q-full-page-of-monologue.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-Q-full-page-of-monologue.jpg)
 				- With breathing techniques, i should train to go up and down the abyss, to smoothly switch between circles of different curvatures.
 				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
 				  id:: 67849429-a90c-45a9-a6ae-dcdd61f7580f
@@ -206,7 +206,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  > ﻿गते गते पारगते पारसंगते बोधि स्वाहा
 						  > Gate gate pāragate pārasaṃgate bodhi svāhā
 						  > Vượt qua, vượt qua, vượt qua bên kia, vượt qua hết bên kia, Giác Ngộ, ôi tuyệt vời!
-							- ![gate-gate.jpg](../assets/Will/story/2025-Jan/gate-gate.jpg)
+							- ![gate-gate.jpg](../assets/Will/story/2025-01/gate-gate.jpg)
 						- “cross” = “giao” [交]: meet, touch, incidence, intersect
 			-
 		- bring it up to put it down!
@@ -297,7 +297,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  collapsed:: true
 			- HTV work time table
 			  collapsed:: true
-				- ![the-most-off-month-2025-01.png](../assets/Will/story/2025-Jan/the-most-off-month-2025-01.png)
+				- ![the-most-off-month-2025-01.png](../assets/Will/story/2025-01/the-most-off-month-2025-01.png)
 			- Jan 3-6, ((677e2745-6664-407e-ab5f-3c18319e2e6b))
 			- Jan 12, ((67836ec6-0e46-4a3f-80d9-b27476d12095))
 			- Jan 13, ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
@@ -400,7 +400,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- Workspace của tui trên Logseq nè 😉
 			  collapsed:: true
-				- ![Working-Workstack-Screenshot-2025-02-13.png](../assets/Will/story/2025-Feb/Working-Workstack-Screenshot-2025-02-13.png)
+				- ![Working-Workstack-Screenshot-2025-02-13.png](../assets/Will/story/2025-02/Working-Workstack-Screenshot-2025-02-13.png)
 				  :LOGBOOK:
 				  CLOCK: [2025-02-13 Thu 10:18:10]
 				  :END:
@@ -471,11 +471,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Đó kể ra thì chỉ có thể nói những sự kiện bộc lộ ra ngoài vậy thôi, chứ bên trong thì sao nói được?! Làm sao có thể diễn tả được cái sự phi lý đùng đùng rằng "mình với nó rõ ràng tách biệt nhau mà sâu bên trong lại là một" được!? 🤪
 				- Hồi "lên núi" 3 tháng dịch Covid-19, tui đã thí nghiệm vụ này rồi: nhắm mắt lại cảm nhận, tui "thấy rõ" mình với nó là một, nhưng mở mắt ra thì mình cũng thấy rõ bằng cặp mắt ngoài này rằng mình tách biệt với nó. Đó là sự mâu thuẫn cơ bản, là Liar Paradox, là cỗ máy xoay tít, là động cơ của cả thế giới này.
 				- Đây là cái nhìn bên trong: Cả thế giới bên ngoài chỉ là một quả cầu
-					- ![Hand_with_Reflecting_Sphere.jpg](../assets/Will/story/2025-Feb/Hand_with_Reflecting_Sphere.jpg)
+					- ![Hand_with_Reflecting_Sphere.jpg](../assets/Will/story/2025-02/Hand_with_Reflecting_Sphere.jpg)
 				- Đối với cái view bên trong thì cặp mắt ngoài này là đang nhìn vào trong quả cầu đó, cái gọi là "thế giới bên ngoài" chỉ là cái "chậu cá" mà thôi. Những thứ bên ngoài là tách biệt với nhau trong cái chậu cá đó nhưng được kết nối với nhau ở thế giới bên trong này. Sự ngược ngạo trong/ngoài đó giống như phim Matrix vậy.
 				- Circle graph
 				  collapsed:: true
-					- ![Ageev_5X_circle_graph.svg.png](../assets/Will/story/2025-Feb/Ageev_5X_circle_graph.svg.png)
+					- ![Ageev_5X_circle_graph.svg.png](../assets/Will/story/2025-02/Ageev_5X_circle_graph.svg.png)
 				- Hoặc nói theo dimensionalism thì thế giới bên ngoài là không gian 1D trên cái vòng tròn chu vi của circle graph, bản chất là tách biệt lẫn nhau, còn thế giới bên trong là cả cái đĩa tròn 2D bên trong chứa đựng các kết nối.
 				- Thế giới vật lý bên ngoài chỉ có 3 chiều, còn thế giới thông tin bên trong thì có vô số chiều (không giới hạn). Nên "chiều không gian khác" không phải nằm bên ngoài khoảng không vũ trụ, mà nằm trong chính chúng ta, trong mỗi hạt cơ bản.
 				- Cái này thì nãy giờ tui nói nhiều rồi hen. Nhưng câu hỏi có lẽ cần đổi lại là "tại sao thấy cái khổ cả thế gian mà không thấy cái sướng cả thế gian?"
@@ -616,11 +616,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  collapsed:: true
 			- Screenshot
 			  collapsed:: true
-				- ![Top fan badge notification - DVB - 2025-02-26 15-57-43.png](../assets/Will/story/2025-Feb/Top fan badge notification - DVB - 2025-02-26 15-57-43.png)
+				- ![Top fan badge notification - DVB - 2025-02-26 15-57-43.png](../assets/Will/story/2025-02/Top fan badge notification - DVB - 2025-02-26 15-57-43.png)
 			- Top fan perks
 				- Screenshot
 				  collapsed:: true
-					- ![Top fan perks - DVB - 2025-02-26 15-50-43.png](../assets/Will/story/2025-Feb/Top fan perks - DVB - 2025-02-26 15-50-43.png)
+					- ![Top fan perks - DVB - 2025-02-26 15-50-43.png](../assets/Will/story/2025-02/Top fan perks - DVB - 2025-02-26 15-50-43.png)
 				- You earned this badge by engaging with [Đoàn Văn Báu](https://www.facebook.com/doanvanbau) and can accept it to stand out from the crowd. The badge will be displayed next to your name when you comment on their posts. Your name and profile photo may also be displayed if you're publicly recognised.
 				- **Top fan perks**
 				  Exclusive and early access to content 
@@ -665,7 +665,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Last week was the week my wife ran for [March 8th holiday](https://en.wikipedia.org/wiki/International_Women%27s_Day), and was my most off-work week with only 2 days at work.
 				- Working time log
 				  collapsed:: true
-					- ![The most off week.png](../assets/Will/story/2025-Mar/The most off week.png)
+					- ![The most off week.png](../assets/Will/story/2025-03/The most off week.png)
 				- March 1st, i and wife went to Vũng Tàu to celebrate sister Hiền's wedding. After that we also visited sister Ngọc and share with her a technique for relaxation.
 				- Returning home, i was off every morning due to my tiredness at the previous night, whether from the long journey or from following the troubles in the monk group of master Minh Tuệ.
 				- Friday, i took the whole day off for sleeping to make up for the sleeplessness of the previous night.
@@ -703,17 +703,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- I wanted to “share” this with Mr. Hiệp... But thanks to my renunciation of facebook these days, i got back to myself...
 			- On the way to company, i saw that _my **clingy love** is just like their hatreds_: both want to change others, which is so ignorant as [shown previously](((67b541cb-84e9-4e76-b218-4c515f4f1546))).
 			- So, i got back to myself to practise myself!
-		- Physics news: [Gravity from entropy](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.066001) ([PDF](../assets/Will/story/2025-Mar/Gravity from entropy - PhysRevD.111.066001.pdf)) and so on.
+		- Physics news: [Gravity from entropy](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.066001) ([PDF](../assets/Will/story/2025-03/Gravity from entropy - PhysRevD.111.066001.pdf)) and so on.
 		  id:: 67d184fe-6e61-46ed-ae70-2217cd068ee3
 		  collapsed:: true
-			- In this [paper](../assets/Will/story/2025-Mar/Gravity from entropy - PhysRevD.111.066001.pdf), Ginestra Bianconi extends the [Entropic gravity](https://en.wikipedia.org/wiki/Entropic_gravity), a kind of [entropic force](https://en.wikipedia.org/wiki/Entropic_force), with the G-field as a Lagrangian multiplier, which leads to a dressed Einstein-Hilbert action with an emergent cosmological constant.
+			- In this [paper](../assets/Will/story/2025-03/Gravity from entropy - PhysRevD.111.066001.pdf), Ginestra Bianconi extends the [Entropic gravity](https://en.wikipedia.org/wiki/Entropic_gravity), a kind of [entropic force](https://en.wikipedia.org/wiki/Entropic_force), with the G-field as a Lagrangian multiplier, which leads to a dressed Einstein-Hilbert action with an emergent cosmological constant.
 				- This addition provides a potential link to quantum gravity and dark matter, areas that Jacobson, Padmanabhan, and Verlinde also touched upon but did not explore in this specific way.
 				- While Verlinde's model focuses on the holographic principle and emergent spacetime, Bianconi's work incorporates quantum relative entropy and topological matter fields to derive gravity.
 			- Previously i had ideas of [black hole particle](https://en.wikipedia.org/wiki/Black_hole_electron) and [one-electron universe](https://en.wikipedia.org/wiki/One-electron_universe) as well as entropic force. All have been proposed by other scientists.
 			- [AI discovered a simpler way to achieve Quantum entanglement](https://www.space.com/space-exploration/tech/scientists-discover-simpler-way-to-achieve-einsteins-spooky-action-at-a-distance-thanks-to-ai-breakthrough-bringing-quantum-internet-closer-to-reality): [Entangling Independent Particles by Path Identity](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.233601)
 			- Another interesting paper about [Quantum 'yin-yang' shows two photons being entangled in real-time](https://www.livescience.com/physics-mathematics/quantum-physics/quantum-yin-yang-shows-two-photons-being-entangled-in-real-time): [Interferometric imaging of amplitude and phase of spatial biphoton states](https://www.nature.com/articles/s41566-023-01272-3)
 			  collapsed:: true
-				- ![Quantum-yin-yang.jpg](../assets/Will/story/2025-Mar/Quantum-yin-yang.jpg)
+				- ![Quantum-yin-yang.jpg](../assets/Will/story/2025-03/Quantum-yin-yang.jpg)
 		- The second experience of drowning via cough reflex, from 13rd March to 1st April
 		  id:: 67dcc012-44d3-4041-b17a-0ef201b3ff6c
 		  collapsed:: true
@@ -755,7 +755,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Arnold circle map: $θ_{i+1} - θ_{i} = 2πΩ + K \sin(θ_{i})$ where $θ = 2πx$
 							  collapsed:: true
 							  the breathing intent circle transcycles the content circle
-								- ![Another_way_to_view_the_circle_map.png](../assets/Will/story/2025-Mar/Another_way_to_view_the_circle_map.png)
+								- ![Another_way_to_view_the_circle_map.png](../assets/Will/story/2025-03/Another_way_to_view_the_circle_map.png)
 						- The general circle map $θ_{i+1} = g(θ_{i}) + Ω$ is just a general quasiperiodic function $g$ between intent circle & content circle.
 						- The [rotation number](https://en.wikipedia.org/wiki/Rotation_number) is the “frequency” of content cycle over intent turns.
 						  $ω = \lim_{n \to ∞} x_{n}/n ≈ Ω$
@@ -763,7 +763,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Phase locking := rotation number is **rational** ⇒ the limiting rotation number $ω_0$ at $K = 0$ is stable/locked no matter how much “breathing” the coupling wave is.
 						- The [bifurcation diagram](https://en.wikipedia.org/wiki/Bifurcation_diagram) of rotation numbers circle maps is called [Arnold tongue](https://en.wikipedia.org/wiki/Arnold_tongue).
 						  collapsed:: true
-							- ![Circle_map_bifurcation.jpeg](../assets/Will/story/2025-Mar/Circle_map_bifurcation.jpeg)
+							- ![Circle_map_bifurcation.jpeg](../assets/Will/story/2025-03/Circle_map_bifurcation.jpeg)
 					- And found that [synchronization network](https://en.wikipedia.org/wiki/Synchronization_network) & [Kuramoto model](https://en.wikipedia.org/wiki/Kuramoto_model) are what I'm looking for.
 				- Caught up in the “phase locking” research, my cough got severe.
 				- That midnight, recalling [the previous time](((67b541d0-8a10-4eae-8370-8ebab4dd7300))), i produced the “âm dương đan” (陰陽丹) qigong exercise to tame my cough.
@@ -994,7 +994,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  CLOCK: [2025-03-26 Wed 13:19:35]
 						  :END:
 							- Diagram of vector relativity
-								- ![vector-relativity.jpg](../assets/Will/story/2025-Mar/vector-relativity.jpg)
+								- ![vector-relativity.jpg](../assets/Will/story/2025-03/vector-relativity.jpg)
 							- The original Vietnamese version
 								- Lâu lâu 2 ông cụ nhà mình mới có dịp gặp nhau, ấy thế mà nói được vài câu là đã mâu thuẫn rồi:
 									- Ô.Ngoại: Tôi đi được 3 mét rồi ông mới đi được có 1 mét. Sao ông đi chậm vậy?!

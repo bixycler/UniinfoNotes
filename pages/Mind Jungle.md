@@ -397,7 +397,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Blog post: [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
 				  collapsed:: true
 					- Modified from [Hurricane-vi.svg](https://commons.wikimedia.org/wiki/File:Hurricane-vi.svg) < [Hurricane-en.svg](https://commons.wikimedia.org/wiki/File:Hurricane-en.svg)
-					  ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-Sep/Hurricane-structure-self-eye-vi.png)
+					  ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-09/Hurricane-structure-self-eye-vi.png)
 					- The storm's eye is used as a metaphor of the nirvāṇa in the 3rd part “**Thức định** (định vào cái thức, absorption into the consciousness, 👁/=)” of the blog post [3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html), similar to [a post by Michael Gerson](https://missionsixzero.com/the-eye-of-the-hurricane/).
 	- ## subject
 	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
@@ -3746,7 +3746,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Accepting death is no problem to me and i've spent my whole life to explore various types of death.
 							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) the mind to _**start** the new journey!_
 							  id:: 67445065-15b2-475e-a704-78f140d487af
-								- ![reset button](../assets/Will/story/2024-Oct/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
+								- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
 								- [The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)
 								  id:: 67445223-9459-4aa9-b102-70c63943577b
 									- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.

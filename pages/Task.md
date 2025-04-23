@@ -34,13 +34,13 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 				  ```crontab
 				  00,30 9-20  *   * 1-5 /home/dinhlx/.local/bin/microreset.sh 2>&1 >> /tmp/cron.log
 				  ```
-				- Icons: ![colors-chromagreen.png](../assets/Will/story/2025-Mar/colors-chromagreen.png), ![user-available.svg](../assets/Will/story/2025-Mar/user-available.svg), ![Power-Restart.png](../assets/Will/story/2025-Mar/Power-Restart.png){:width 32}
+				- Icons: ![colors-chromagreen.png](../assets/Will/story/2025-03/colors-chromagreen.png), ![user-available.svg](../assets/Will/story/2025-03/user-available.svg), ![Power-Restart.png](../assets/Will/story/2025-03/Power-Restart.png){:width 32}
 				  collapsed:: true
-					- `system-log-out` ![system-log-out](../assets/Will/story/2025-Mar/system-log-out.png)
-					- `edit-redo-rtl` ![edit-redo-rtl](../assets/Will/story/2025-Mar/edit-redo-rtl.png)
-					- `view-refresh` ![view-refresh](../assets/Will/story/2025-Mar/view-refresh.png)
-					- `emblem-new` ![emblem-new](../assets/Will/story/2025-Mar/emblem-new.png)
-					- `face-smile` ![face-smile](../assets/Will/story/2025-Mar/face-smile.png)
+					- `system-log-out` ![system-log-out](../assets/Will/story/2025-03/system-log-out.png)
+					- `edit-redo-rtl` ![edit-redo-rtl](../assets/Will/story/2025-03/edit-redo-rtl.png)
+					- `view-refresh` ![view-refresh](../assets/Will/story/2025-03/view-refresh.png)
+					- `emblem-new` ![emblem-new](../assets/Will/story/2025-03/emblem-new.png)
+					- `face-smile` ![face-smile](../assets/Will/story/2025-03/face-smile.png)
 				- Oh, `notify-send` must be [configured a lot](https://askubuntu.com/questions/298608/notify-send-doesnt-work-from-crontab) to work under cron job.
 				  ⇒ Just use ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) instead!
 					- Working config:
@@ -82,8 +82,8 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 				  30 10  *   * 1-5 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus /usr/bin/notify-send -u critical -i /home/dinhlx/Pictures/emblem-important.png 'Back to WORK! NOWWW!!!'
 				  ```
 				- Icons:
-					- `emblem-generic` ![system-log-out](../assets/Will/story/2025-Mar/emblem-generic.png)
-					- `emblem-important` ![system-log-out](../assets/Will/story/2025-Mar/emblem-important.png)
+					- `emblem-generic` ![system-log-out](../assets/Will/story/2025-03/emblem-generic.png)
+					- `emblem-important` ![system-log-out](../assets/Will/story/2025-03/emblem-important.png)
 			- The old reminders in ((6773d98a-3917-4267-9f8b-7d86b84d3663)) previously:
 			  id:: 67d2a63d-58de-4dbe-bbec-3ec8625737c7
 				- Reminder messages
