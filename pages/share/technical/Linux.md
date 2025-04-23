@@ -692,7 +692,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Execptions: `echo`, `shift`,...
 		- Escape sequences & Hex codes
 		  collapsed:: true
-			- `\`-escape sequences are interpreted by [ANSI-C quoted](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html) `$'string\n'` and other commands like `printf`, `echo -e`, etc.
+			- `\`-escape sequences are not interpreted by the shell itself, but by other components [ANSI-C quoted](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html) `$'string\n'` and other commands like `printf`, `echo -e`, etc.
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
 				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49)) commands
 			- The hyphen/dash `-` doesn't required to be escaped in normal string, but a leading dash can be unintentinally treated as an option of a command.
