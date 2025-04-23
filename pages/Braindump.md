@@ -567,6 +567,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 					  done < dangling_commits.txt
 					  sort -r $MSG_LS > $MSG_LS_SORT
 					  ```
+				- `grep 2025-04 dangling_commits.msg.sort.txt` → `ee5ddfe6` at 2025-04-23 14:41:10
+				  collapsed:: true
+					- ```sh
+					  2025-04-23 14:41:10 +0700|ee5ddfe6b4ced9f7ee51b47583d1309577267435|Auto saved by Logseq
+					  2025-04-11 19:58:59 +0700|2dc208c3119d2c60f53185f5625f02684fcf8f14|[bak] 2025-04-11T12:58:59.047Z
+					  2025-04-08 16:19:30 +0700|21e22c932b6cd0532edf0d087276ed20b7e00720|Auto saved by Logseq
+					  2025-04-08 16:11:56 +0700|089c3742975eb43eb756c7c308aebc6c56dfceb4|Auto saved by Logseq
+					  ```
 				- `git reset --hard ee5ddfe6b4ced9f7ee51b47583d1309577267435`
 			- Then also refactor [assets/Will/story/](../assets/Will/story/)YYYY-Mon/ → YYYY-MM
 				- Previously, these asset folders YYYY-Mon are named after ((67760c3e-2ed3-4b91-9698-8dea6913e419))'s partitions by month names.
