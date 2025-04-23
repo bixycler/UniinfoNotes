@@ -2,7 +2,7 @@
 shopt -s expand_aliases
 alias ll='ls -l'
 alias
-ll
-\ll
-l\l
-ls
+echo '-- Execute ll:'; ll
+echo '-- Execute \ll:'; \ll
+echo '-- Execute l\l:'; l\l
+echo '-- Execute ls:'; ls

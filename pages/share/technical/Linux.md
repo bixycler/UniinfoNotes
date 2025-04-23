@@ -697,7 +697,25 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- [Non-quoted backslash](https://www.gnu.org/software/bash/manual/html_node/Escape-Character.html) doesn't escape but keeps the next character(s) from having special meaning.
 					- Space in string (won't break string): `string\ with\ \ spaces` = `'string with  spaces'`
 					- Non-alias command: when `alias rm='rm -i'`, then `\rm` = `rm` instead of `rm -i`
-						- Note, in (non-interactive) `shopt -s expand_aliases`
+						- Note: In (non-interactive) `bash` script, alias expansion is disabled by default, and we must enable it with `shopt -s expand_aliases`.
+						- Test with ![test-alias-expansion.sh](../assets/Linux/scripts/test-alias-expansion.sh)
+							- `bash test-alias-expansion.sh`
+							  ```sh
+							  alias ll='ls -l'
+							  -- Execute ll:
+							  total 20
+							  -rwxrwxr-x 1 dinhlx dinhlx 1179 Thg 4   9 17:17 test-local-readonly.sh
+							  [...]
+							  -- Execute \ll:
+							  test-alias-expansion.sh: line 6: ll: command not found
+							  -- Execute l\l:
+							  test-alias-expansion.sh: line 7: ll: command not found
+							  -- Execute ls:
+							  test-local-readonly.sh  [...]
+							  ```
+							- `zsh test-alias-expansion.sh`
+							  ```sh
+							  ```
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
 				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49)) commands
 			- The hyphen/dash `-` doesn't required to be escaped in normal string, but a leading dash can be unintentinally treated as an option of a command.
