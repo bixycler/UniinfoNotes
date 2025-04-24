@@ -4,6 +4,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	-
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
+		- DOING Vietnamese phonemes
+		  id:: 6809e1ea-1518-4460-be26-62881c47287f
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-24 Thu 14:02:37]
+		  :END:
+			- “đ” /((6809e1ea-1518-4460-be26-62881c47287f))/
 		- DOING [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
