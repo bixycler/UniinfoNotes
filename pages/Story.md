@@ -1707,7 +1707,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- “Thầy Thích Minh Tuệ cần được tự do sống đời sống xuất gia của mình. Theo tôi, thầy tận tụy sống theo giới luật. Việc giới hạn đời sống xuất gia của thầy trong một khu vực nhỏ làm lu mờ ý nghĩa thực sự của đời sống tu hành theo Phật giáo. Vì vậy, đây là một vấn đề khó giải quyết đối với chính quyền,” Bửu Nghiêm nói.
 			- EconomyNext
 				- [April 18](https://economynext.com/vietnams-famed-walking-ascetic-minh-tue-in-sri-lanka-amid-obstacles-216441/): Vietnam’s famed walking ascetic Minh Tuệ in Sri Lanka amid obstacles
-				  collapsed:: true
 					- Friday April 18, 2025 2:37 pm
 					- A Vietnam ascetic, who has gained widespread acclaim from the ordinary public in his country for his simple lifestyle, is facing obstacles as he is walking across Sri Lanka to reach the Buddha’s birthplace in India.
 					  collapsed:: true
@@ -1720,10 +1719,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- For a while he disappeared off the main roads, leading to speculation and concern among his internet followers. In December 2024, Minh Tuệ had started a pilgrimage to India to reach the birthplace of the Buddha, walking across several countries including Laos and Thailand.
 						- He was originally planning to go to India across Myanmar but could not secure entry and had instead traveled to Malaysia and ended up in Sri Lanka.
 						- After landing in Sri Lanka he had started walking across the island towards Jaffna. Youtube videos show he arrived in Sri Lanka from Singapore.
-					- [Video](https://youtu.be/GnCnpUwNUMA): A Sri Lankan monk told about the monk group of master Minh Tuệ
-					  collapsed:: true
-						- {{video https://youtu.be/GnCnpUwNUMA}}
 					- According to a senior monk from the Ambarukkarama Temple of Mugurugampala in Sri Lanka who is helping the ascetic, the group is facing difficulties after another senior Sri Lankan monk asked temples not to harbhour him.
+					  collapsed:: true
 						- The group of over 30 ascetics and Vietnamese lay followers had landed in Sri Lanka on April 12 and also stayed at his own Temple on the New Year’s day.
 						- “From our observations these people are very harmless, responsible and act with much discipline (vinyawath),” the thero explained.
 						- “They are engaged in a Dhutangadari practices and are walking barefoot.
@@ -1733,14 +1730,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- A senior Sri Lankan monk had placed a whatsapp message which he said has caused problems for the group.
 						- “Instead of writing whatsapp messages without inquiry, I appeal kindly to examine this matter and act in a way that preserves the dignity of our country,” the thero said.
 						- “Our foreign service officials, and responsible monks should examine this matter and take the actions required for them to stay lawfully.
+						- [Video](https://youtu.be/GnCnpUwNUMA): A senior monk from the Ambarukkarama Temple of Mugurugampala told about the monk group of master Minh Tuệ
+						  collapsed:: true
+							- {{video https://youtu.be/GnCnpUwNUMA}}
 					- Meanwhile questions appeared to have been raised whether they could walk on the roads after coming on a tourist visa, the thero said. The ascetic is planning to go to Anuradhapura and to Jaffna, he said.
 					- It is not clear what the problem is with walking using a tourist visa on a Buddhist trail, as other visitors go on Tea trails and Ramayana trails.
 					- He is not known for preaching on his trip to India, and only sometimes answers questions.
-					- “My journey is a lifelong walk,” the ascetic was quoted as saying by [VNExpress portal](https://e.vnexpress.net/news/news/pilgrim-spends-6-years-traversing-vietnam-on-foot-4747732.html) last May.  “I don’t intend to spread any message, as everything in Buddhism has been taught by the Buddha.
-					- “I just want to practice per the teachings of the Buddha to complete myself. When I walk, I pray for everyone to always be happy with their families.”
-					- The Vietnamese ascetic was staying the night on that day in a sawmill, and it was unseemly as there were 11,000 temples in Sri Lanka, the Sri Lankan thero observed.
-					- The ascetic however carries a bedroll with him and reportedly sleeps in forest patches and cemeteries among other places as he walks about in his own country.
+					  collapsed:: true
+						- “My journey is a lifelong walk,” the ascetic was quoted as saying by [VNExpress portal](https://e.vnexpress.net/news/news/pilgrim-spends-6-years-traversing-vietnam-on-foot-4747732.html) last May.  “I don’t intend to spread any message, as everything in Buddhism has been taught by the Buddha.
+						- “I just want to practice per the teachings of the Buddha to complete myself. When I walk, I pray for everyone to always be happy with their families.”
+						- The Vietnamese ascetic was staying the night on that day in a sawmill, and it was unseemly as there were 11,000 temples in Sri Lanka, the Sri Lankan thero observed.
+						- The ascetic however carries a bedroll with him and reportedly sleeps in forest patches and cemeteries among other places as he walks about in his own country.
 					- Sri Lanka’s Aruna newspaper reported that the Chief Prelate of the Malwatte Chapter has written to the Commissioner General of Buddhist Affairs asking for an immigration inquiry.
 					- The request has been triggered following a letter said to have been sent by a senior monk from a state recognized Buddhist order. Youtube videos showed the a copy of the letter, which was claimed to have been given by police to the group.
 					- (Colombo/Apr18/2025 – Updated)
+			- Lanka C News
+				- [April](https://lankacnews.com/%E0%B6%AD%E0%B7%8F%E0%B6%BA%E0%B7%92%E0%B6%BD%E0%B6%B1%E0%B7%8A%E0%B6%AD%E0%B6%BA%E0%B7%99%E0%B6%B1%E0%B7%8A-%E0%B6%89%E0%B6%B1%E0%B7%8A%E0%B6%AF%E0%B7%94%E0%B6%B1%E0%B7%93%E0%B7%83%E0%B7%92%E0%B6%BA/)
 		- ...
