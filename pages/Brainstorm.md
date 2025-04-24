@@ -14,7 +14,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- /ɗ̠ʲ/ appears in [Myene language](https://en.wikipedia.org/wiki/Myene_language) as a free variation of /dʒ/.
 				- /ɗ̠ʲ/ is like 디 /d̠ʲ/ in Korean, but nearer to /j/
 				- /ɗ̠ʲ/ is like д /dʲ/ in Russian, but nearer to /j/
-				- /ʄ/ is in [Jinhui [金匯]](https://en.wikipedia.org/wiki/Jinhui_dialect) pronunciation of 家, as well as many other languages in Africa, [Sindhi/Saraiki language](https://en.wikipedia.org/wiki/Saraiki_language), .
+				- /ʄ/ is in [Jinhui [金匯]](https://en.wikipedia.org/wiki/Jinhui_dialect) pronunciation of 家, as well as many other languages in Africa, [Sindhi/Saraiki language](https://en.wikipedia.org/wiki/Saraiki_language), etc.
+				- /ˀj/ is pre-glottalized version of /j/, and appears in some languages in South East Asia.
+					- [Lahu (La Hủ) language](https://en.wikipedia.org/wiki/Lahu_language) around China, Thailand, Myanmar, Vietnam and Laos.
+					- [A Description of Kmhmu’ Lao Script-Based Orthography](http://www.sealang.net/mks/mksj42.pdf)
 				- Video [IPA 164 Voiced Palatal Implosive Stop ʄ](https://youtu.be/27WGLJCPWIk)
 				  collapsed:: true
 					- {{video https://youtu.be/27WGLJCPWIk}}
