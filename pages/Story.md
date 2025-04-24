@@ -1311,12 +1311,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Thực ra tương lai chỉ là sự lặp lại của quá khứ... trong một vòng xoay vô tận. Nên nói là "tưởng tượng tương lai" thực ra chỉ là diễn lại quá khứ với một ngôn ngữ khác mà thôi.
 				- Chỉ khi nào mình buông hết mọi thứ ra, để mình "bay lên", để nhìn xuống toàn bộ vòng tròn đó... mình mới thấy là... thực ra mình đã xoay vòng ko chỉ 1 mà nhiều nhiều vòng như vậy rồi... c
 				- Vòng tròn vô tận đó chính là Luân Hồi, chứ chẳng cần phải chết đi mới được luân hồi 😃
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING Sri Lanka news about the monk group of master Minh Tuệ
+		- Sri Lanka news about the monk group of master Minh Tuệ
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-04-21 Mon 17:07:29]
+		  CLOCK: [2025-04-21 Mon 17:07:29]--[2025-04-24 Thu 09:58:51] =>  64:51:22
 		  :END:
 			- Previous events
 				- ((67a5faa3-c64c-48f7-8b3f-a5311714110f))
@@ -1772,6 +1770,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- One follower of Thich Minh Tue voiced exasperation about the controversy.
 						- “Why do people who practice Buddhism together constantly fight each other?” asked Phuoc Nghiem in a video he posted Wednesday. “We’re only practicing (religion), but they keep filing complaints.”
 			- Lanka C News
+			  id:: 6809919b-a2ea-432f-8d8c-ad8a2c53e732
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-04-24 Thu 09:24:26]
@@ -1805,6 +1804,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Cloudflare Ray ID: 9351c9c29b180067 • Your IP: 18.178.246.127
 						  ```
 			- Mawrata News
+			  id:: 6809a38f-db99-4047-9821-740929cac54a
 			  collapsed:: true
 				- [April 18](https://mawratanews.lk/news/chief-prelate-urges-ban-on-controversial-vietnamese-monks-over-anti-buddhist-activities/): Chief Prelate Urges Ban on Controversial Vietnamese Monks Over Anti-Buddhist Activities
 				  id:: 6809a3a0-9ce6-4362-8db6-e46c3cc7fb94
@@ -1817,5 +1817,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  collapsed:: true
 						- ![Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg](../assets/Will/story/2025-04/Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg)
 			- Notes
-				-
+				- In news from ((6809919b-a2ea-432f-8d8c-ad8a2c53e732)) & from ((6809a38f-db99-4047-9821-740929cac54a)), "Thích Nhật Từ" is transcribed as "Kiew Nhat Tu"!?!
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
