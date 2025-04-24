@@ -17,7 +17,7 @@ CLOCK: [2025-04-23 Wed 14:30:31]
 			- Check network port: `sudo ss -tap | grep mysql`
 			- Check log: `sudo journalctl -u mysql`
 		- `root` setup
-			- `sudo mysql -u root`
+			- `sudo mysql -u root` → `mysql -u root -p`
 				- `sudo`: By default, MySQL authenticates using system credentials, via plugin `auth_socket` (or `unix_socket`), rather than a password.
 					- Check plugin
 					  collapsed:: true
@@ -35,7 +35,8 @@ CLOCK: [2025-04-23 Wed 14:30:31]
 						  +------+-----------+-------------+
 						  ```
 				- For password-based auth (`mysql -u root -p`), change the root user’s authentication plugin to `mysql_native_password` and set `your_SQL_root_password`.
-					- alter
+				  collapsed:: true
+					- set `mysql_native_password` to `root`
 					  ```sql
 					  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_SQL_root_password';
 					  FLUSH PRIVILEGES;
@@ -49,7 +50,9 @@ CLOCK: [2025-04-23 Wed 14:30:31]
 					  +------+-----------+-----------------------+
 					  ```
 					- `exit` and optionally restart service: `sudo service mysql restart`
-					- Log in again `mysql -u root -p` with `your_SQL_root_password`
+					- Log in again `mysql -u root -p` with `your_SQL_root_password`, should be OK.
+					- `exit` and log in again with `sudo mysql -u root`, should be NG:
+					  `ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)`
 		-
 	- ### Oracle Database
 	  :LOGBOOK:
