@@ -1746,7 +1746,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The request has been triggered following a letter said to have been sent by a senior monk from a state recognized Buddhist order. Youtube videos showed the a copy of the letter, which was claimed to have been given by police to the group.
 					- (Colombo/Apr18/2025 – Updated)
 			- Lanka C News
-				- [April 20](https://lankacnews.com/%E0%B6%AD%E0%B7%8F%E0%B6%BA%E0%B7%92%E0%B6%BD%E0%B6%B1%E0%B7%8A%E0%B6%AD%E0%B6%BA%E0%B7%99%E0%B6%B1%E0%B7%8A-%E0%B6%89%E0%B6%B1%E0%B7%8A%E0%B6%AF%E0%B7%94%E0%B6%B1%E0%B7%93%E0%B7%83%E0%B7%92%E0%B6%BA/):
+				- [April 20](https://lankacnews.com/%E0%B6%AD%E0%B7%8F%E0%B6%BA%E0%B7%92%E0%B6%BD%E0%B6%B1%E0%B7%8A%E0%B6%AD%E0%B6%BA%E0%B7%99%E0%B6%B1%E0%B7%8A-%E0%B6%89%E0%B6%B1%E0%B7%8A%E0%B6%AF%E0%B7%94%E0%B6%B1%E0%B7%93%E0%B7%83%E0%B7%92%E0%B6%BA/): A group of anti-Buddhist organizations deported from Thailand and Indonesia have arrived in Sri Lanka disguised as monks...
 				- [In Sihala] තායිලන්තයෙන්, ඉන්දුනීසියාවෙන් පිටුවහල් කළ බෞද්ද විරෝදී සංවිධානයක පිරිසක් භික්‍ෂු වෙසින් ශ‍්‍රී ලංකාවට..
 				  collapsed:: true
 					- April 20, 2025 at 3:00 pm | lanka C news
@@ -1759,12 +1759,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Ngày đăng: 20 tháng 4 năm 2025, 15:00
 					- Đại lão Hòa thượng Thibbatuwawe Sri Sumangala, Tăng thống (Mahanayaka) của phái Malwatta, đã gửi thư đến Ủy viên Các vấn đề Phật giáo, yêu cầu lập tức có biện pháp ngăn chặn một nhóm người thuộc một tổ chức Việt Nam thực hiện các cuộc **bộ hành** tại Sri Lanka dưới vỏ bọc tu sĩ. Nhóm này bị cáo buộc đã bị trục xuất khỏi Thái Lan và Indonesia do các hoạt động chống Phật giáo.
 					- Trong thư đề ngày 6 tháng 4 năm 2025, Hòa thượng chỉ ra rằng nhóm người này, bao gồm một cá nhân tên **Lê Anh Tú** (thầy Thích Minh Tuệ), bị cáo buộc liên quan đến nhiều hoạt động chống Phật giáo. Họ được cho là thuộc một tổ chức bị cấm tại Việt Nam.
-					- Hòa thượng cho biết đã được Hòa thượng Tiến sĩ Thích Nhật Từ, Chủ tịch Ban Phật giáo Quốc tế Hồ Chí Minh của Việt Nam, thông báo về vấn đề này.
+					- Hòa thượng cho biết đã được Hòa thượng Tiến sĩ Thích Nhật Từ, Trưởng Ban Phật giáo Quốc tế Tp. Hồ Chí Minh của Việt Nam, thông báo về vấn đề này.
 					- Hòa thượng nhấn mạnh rằng việc nhóm người này nhập cảnh Sri Lanka bằng visa du lịch và thực hiện các cuộc **bộ hành** gây tổn hại nghiêm trọng đến Phật giáo và hình ảnh tăng sĩ. Ngài kêu gọi nhanh chóng ngăn chặn các cuộc **bộ hành** này, đồng thời yêu cầu có biện pháp kịp thời đối với nhóm người đang phá hoại hình ảnh Phật giáo của Sri Lanka trên trường quốc tế.
 				- Notes
-					- [Thibbatuwawe Sri Sumangala](https://en.wikipedia.org/wiki/Thibbatuwawe_Sri_Siddhartha_Sumangala_Thero) làm Tăng thống (Mahanayaka) của phái Malwatta từ năm 2004. Ông được biết đến với vai trò lãnh đạo Phật giáo Theravada tại Sri Lanka và thường đưa ra các tuyên bố về bảo vệ Phật giáo.
-					- [Thích Nhật Từ](https://vi.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%ADt_T%E1%BB%AB) làm Trưởng ban Phật giáo Quốc tế [Giáo hội Phật giáo Việt Nam](https://vi.wikipedia.org/wiki/Gi%C3%A1o_h%E1%BB%99i_Ph%E1%BA%ADt_gi%C3%A1o_Vi%E1%BB%87t_Nam) Tp. Hồ Chí Minh từ năm 2022.
-					- This is a [political site widely consider to be](https://sri-lanka.mom-gmr.org/en/media/detail/outlet/lanka-c-news/) affiliated with the Leader of the National Freedom Front (NFF), Wimal Weerawansa.
+					- Figures in the news
+					  collapsed:: true
+						- [Thibbatuwawe Sri Sumangala](https://en.wikipedia.org/wiki/Thibbatuwawe_Sri_Siddhartha_Sumangala_Thero) làm Tăng thống (Mahanayaka) của phái Malwatta từ năm 2004. Ông được biết đến với vai trò lãnh đạo Phật giáo Theravada tại Sri Lanka và thường đưa ra các tuyên bố về bảo vệ Phật giáo.
+						- [Thích Nhật Từ](https://vi.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%ADt_T%E1%BB%AB) làm Trưởng ban Phật giáo Quốc tế [Giáo hội Phật giáo Việt Nam](https://vi.wikipedia.org/wiki/Gi%C3%A1o_h%E1%BB%99i_Ph%E1%BA%ADt_gi%C3%A1o_Vi%E1%BB%87t_Nam) Tp. Hồ Chí Minh từ năm 2022.
+						- Tại Sri Lanka, “Ủy viên Các vấn đề Phật giáo” là một vị trí thuộc Bộ Phật giáo và Các vấn đề Tôn giáo.
+					- This is a [political site widely consider to be](https://sri-lanka.mom-gmr.org/en/media/detail/outlet/lanka-c-news/) affiliated with the Leader of the National Freedom Front (NFF), [Wimal Weerawansa](https://en.wikipedia.org/wiki/Wimal_Weerawansa).
 					- This site denies access from Japan: Error 1005: Access denied
 					  collapsed:: true
 						- ```
