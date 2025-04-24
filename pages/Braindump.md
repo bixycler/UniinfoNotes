@@ -541,7 +541,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 			- Occation: i was confused again with the statement `export CATALINA_OPTS` in `skygserv/config/shell/setenv.sh`
 			- Copilot helps me a lot here!
-		- After an abrupt machine shutdown due to power failure, ((666baccf-6be1-4b9a-b186-f883ea04daf1))'s git repo was corrupt.
+		- Add [[Database]] to share with work's `logseq-notes`.
+		  id:: 680a0121-49fd-4fb7-875e-8ee8d3a2bafa
+		  :LOGBOOK:
+		  CLOCK: [2025-04-23 Wed 14:31:10]
+		  :END:
+		- After an abrupt machine shutdown due to power failure while [adding Database](((680a0121-49fd-4fb7-875e-8ee8d3a2bafa))), ((666baccf-6be1-4b9a-b186-f883ea04daf1))'s git repo was corrupt.
 		  id:: 6808b04b-58b5-411e-982a-d79c62bafcde
 		  collapsed:: true
 		  :LOGBOOK:
