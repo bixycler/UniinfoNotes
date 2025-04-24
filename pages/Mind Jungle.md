@@ -4012,7 +4012,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			-
 			-
 		-
-	- git
+	- ## Git
 	  ((680a04eb-125e-4e9e-b691-3b7be523359c)) ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 	- ## GitHub
 	  id:: 66536662-052f-46a4-a624-38858bffb334
@@ -6054,7 +6054,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The interface is complicated.
 				- Usually at CPU high cost!
 			- [Lattics](https://lattics.com/) with settable font, but only 2 versions: Windows & MacOS, no Linux, no Web
-	- Database
+	- ## Database
 	  ((680a04eb-125e-4e9e-b691-3b7be523359c)) ((68089c74-7fbd-471b-9283-febf6b48cd0d))
 	- ## hyperlink
 	  id:: 66536cad-a232-4b90-bf32-439144aac1ec
