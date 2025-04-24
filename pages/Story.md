@@ -1746,8 +1746,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The request has been triggered following a letter said to have been sent by a senior monk from a state recognized Buddhist order. Youtube videos showed the a copy of the letter, which was claimed to have been given by police to the group.
 					- (Colombo/Apr18/2025 – Updated)
 			- Lanka C News
-				- [April](https://lankacnews.com/%E0%B6%AD%E0%B7%8F%E0%B6%BA%E0%B7%92%E0%B6%BD%E0%B6%B1%E0%B7%8A%E0%B6%AD%E0%B6%BA%E0%B7%99%E0%B6%B1%E0%B7%8A-%E0%B6%89%E0%B6%B1%E0%B7%8A%E0%B6%AF%E0%B7%94%E0%B6%B1%E0%B7%93%E0%B7%83%E0%B7%92%E0%B6%BA/)
-				- Notes about this site
+				- [April 20](https://lankacnews.com/%E0%B6%AD%E0%B7%8F%E0%B6%BA%E0%B7%92%E0%B6%BD%E0%B6%B1%E0%B7%8A%E0%B6%AD%E0%B6%BA%E0%B7%99%E0%B6%B1%E0%B7%8A-%E0%B6%89%E0%B6%B1%E0%B7%8A%E0%B6%AF%E0%B7%94%E0%B6%B1%E0%B7%93%E0%B7%83%E0%B7%92%E0%B6%BA/):
+				- [In Sihala] තායිලන්තයෙන්, ඉන්දුනීසියාවෙන් පිටුවහල් කළ බෞද්ද විරෝදී සංවිධානයක පිරිසක් භික්‍ෂු වෙසින් ශ‍්‍රී ලංකාවට..
+				  collapsed:: true
+					- April 20, 2025 at 3:00 pm | lanka C news
+					- බෞද්ධ විරෝධී කටයුතු නිසා තායිලන්තයෙන් හා ඉන්දුනීසියාවෙන් පිටුවහල් කළ වියට්නාම් සංවිධානයක පිරිසක් ශ්‍රමණ වෙස් ගෙන මෙරටට පැමිණ පාද යාත්‍රා සිදු කිරීම වහා නවතා දැමීමට පියවර ගන්නා මෙන් මල්වතු පාර්ශ්වයේ මහානායක තිබ්බටුවාවේ ශ්‍රී සුමංගල මහනාහිමියන් විසින් බෞද්ධ කටයුතු කොමසාරිස්වරයා වෙත ලිපියක් යොමු කර ඇත.
+					- 2025.04.06 දිනැති ඒ ලිපියෙන් මහනාහිමියන් පෙන්වා දී ඇත්තේ ‘ලේ අන් ටූ’ නම් අය ඇතුළු මේ පිරිස විවිධ බෞද්ධ විරෝධී කටයුතු කිරීම සම්බන්ධයෙන් චෝදනා ලැබූ පිරිසක් බවද එම පිරිස වියට්නාමයේ තහනම් සංවිධානයක පිරිසක් බවයි.
+					- ඒ සම්බන්ධයෙන් වියට්නාම් හෝ චිං මින්ග් අන්තර්ජාතික බෞද්ධ දෙපාර්තමේන්තුවේ සභාපති ආචාර්ය කිව් නාත් ටූ භික්ෂුන් වහන්සේ තමන් වහන්සේ දැනුවත් කර ඇති බවද උන් වහන්සේ එම ලිපියෙන් දැනුම් දී තිබේ.
+					- සංචාරක වීසා මත මෙරටට පැමිණ මෙසේ රට තුළ පාද යාත්‍රා සිදු කිරීම බුදු දහමට මෙන්ම භික්ෂු ප්‍රතිරූපයට විශාල හානියක් බවද මේ පාද යාත්‍රා කිරීම් නවතාදැමීමට කඩිනමින් පියවර ගන්නා ලෙසද අන්තර්ජාතික වශයෙන් ශ්‍රී ලංකාවේ බෞද්ධ ප්‍රතිරූපය විනාශ කරන මේ පිරිස සම්බන්ධයෙන් අවශ්‍ය පියවර කඩිනමින් ගන්නා ලෙසද මේ ලිපිය මඟින් උන් වහන්සේ වැඩිදුරටත් ඉල්ලා ඇත.
+				- [In Vietnamese] Một nhóm thuộc tổ chức chống Phật giáo bị trục xuất khỏi Thái Lan và Indonesia cải trang làm sư đến Sri Lanka...
+				  collapsed:: true
+					- Ngày đăng: 20 tháng 4 năm 2025, 15:00
+					- Đại lão Hòa thượng Thibbattuvawe Sri Sumangala, Tăng thống (Mahanayaka) của phái Malwatta, đã gửi thư đến Ủy viên Các vấn đề Phật giáo, yêu cầu lập tức có biện pháp ngăn chặn một nhóm người thuộc một tổ chức Việt Nam thực hiện các cuộc **bộ hành** tại Sri Lanka dưới vỏ bọc tu sĩ. Nhóm này bị cáo buộc đã bị trục xuất khỏi Thái Lan và Indonesia do các hoạt động chống Phật giáo.
+					- Trong thư đề ngày 6 tháng 4 năm 2025, Hòa thượng chỉ ra rằng nhóm người này, bao gồm một cá nhân tên **Lê Anh Tú** (thầy Thích Minh Tuệ), bị cáo buộc liên quan đến nhiều hoạt động chống Phật giáo. Họ được cho là thuộc một tổ chức bị cấm tại Việt Nam.
+					- Hòa thượng cho biết đã được Hòa thượng Tiến sĩ Thích Nhật Từ, Chủ tịch Ban Phật giáo Quốc tế Hồ Chí Minh của Việt Nam, thông báo về vấn đề này.
+					- Hòa thượng nhấn mạnh rằng việc nhóm người này nhập cảnh Sri Lanka bằng visa du lịch và thực hiện các cuộc **bộ hành** gây tổn hại nghiêm trọng đến Phật giáo và hình ảnh tăng sĩ. Ngài kêu gọi nhanh chóng ngăn chặn các cuộc **bộ hành** này, đồng thời yêu cầu có biện pháp kịp thời đối với nhóm người đang phá hoại hình ảnh Phật giáo của Sri Lanka trên trường quốc tế.
+				- Notes
 					- This is a [political site widely consider to be](https://sri-lanka.mom-gmr.org/en/media/detail/outlet/lanka-c-news/) affiliated with the Leader of the National Freedom Front (NFF), Wimal Weerawansa.
 					- This site denies access from Japan: Error 1005: Access denied
 					  collapsed:: true
