@@ -1708,6 +1708,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Vào ngày 13 tháng 6, em trai của thầy Thích Minh Tuệ (anh Thìn) xuất hiện trong một video trên TikTok, nói rằng thầy không còn ở khu vườn của gia đình. Trong khi đó, sáng ngày 14 tháng 6, mạng xã hội đưa tin rằng vị sư này “đã biến mất”.
 							- “Thầy Thích Minh Tuệ cần được tự do sống đời sống xuất gia của mình. Theo tôi, thầy tận tụy sống theo giới luật. Việc giới hạn đời sống xuất gia của thầy trong một khu vực nhỏ làm lu mờ ý nghĩa thực sự của đời sống tu hành theo Phật giáo. Vì vậy, đây là một vấn đề khó giải quyết đối với chính quyền,” Bửu Nghiêm nói.
 			- EconomyNext
+			  collapsed:: true
 				- [April 18](https://economynext.com/vietnams-famed-walking-ascetic-minh-tue-in-sri-lanka-amid-obstacles-216441/): Vietnam’s famed walking ascetic Minh Tuệ in Sri Lanka amid obstacles
 					- Friday April 18, 2025 2:37 pm
 					- A Vietnam ascetic, who has gained widespread acclaim from the ordinary public in his country for his simple lifestyle, is facing obstacles as he is walking across Sri Lanka to reach the Buddha’s birthplace in India.
@@ -1747,6 +1748,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The request has been triggered following a letter said to have been sent by a senior monk from a state recognized Buddhist order. Youtube videos showed the a copy of the letter, which was claimed to have been given by police to the group.
 					- (Colombo/Apr18/2025 – Updated)
 			- Lanka C News
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-04-24 Thu 09:24:26]
+			  :END:
 				- [April 20](https://lankacnews.com/%E0%B6%AD%E0%B7%8F%E0%B6%BA%E0%B7%92%E0%B6%BD%E0%B6%B1%E0%B7%8A%E0%B6%AD%E0%B6%BA%E0%B7%99%E0%B6%B1%E0%B7%8A-%E0%B6%89%E0%B6%B1%E0%B7%8A%E0%B6%AF%E0%B7%94%E0%B6%B1%E0%B7%93%E0%B7%83%E0%B7%92%E0%B6%BA/): A group of anti-Buddhist organizations deported from Thailand and Indonesia have arrived in Sri Lanka disguised as monks...
 				- [In Sihala] තායිලන්තයෙන්, ඉන්දුනීසියාවෙන් පිටුවහල් කළ බෞද්ද විරෝදී සංවිධානයක පිරිසක් භික්‍ෂු වෙසින් ශ‍්‍රී ලංකාවට..
 				  collapsed:: true
@@ -1775,4 +1780,27 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  The owner of this website (lankacnews.com) has banned the autonomous system number (ASN) your IP address is in (16509) from accessing this website.
 						  Cloudflare Ray ID: 9351c9c29b180067 • Your IP: 18.178.246.127
 						  ```
+			- Lanka Leader
+			  :LOGBOOK:
+			  CLOCK: [2025-04-24 Thu 09:24:21]
+			  :END:
+				- [April 18](https://www.lankaleader.lk/news/13098-itinerant-vietnamese-monk-meets-opposition-in-sri-lanka-from-a-fellow-monk): Itinerant Vietnamese monk meets opposition in Sri Lanka - from a fellow monk
+					- Friday, 18 April 2025 12:16 ([RFA.org](https://www.rfa.org/))
+					- A Vietnamese Buddhist monk on a barefoot pilgrimage from his homeland to India ran into some unexpected opposition in Sri Lanka on the latest leg of his circuitous journey around Asia.
+					- A witness told Radio Free Asia that when the Vietnamese monk Thich Minh Tue and his entourage were about to go to a local Hindu temple to rest, _**a local monk**, claiming to be from the Sri Lankan Buddhist Sangha, came to the temple and **asked that he not stay**._
+					- Local Sri Lankans objected, taking sides with their Vietnamese visitor.
+					  The Sri Lankan monk then took out his phone and read the contents of a letter allegedly sent by Thich Nhat Tu, a representative of the state-backed Vietnam Buddhist Sangha – or religious association - to the Sri Lankan Sangha, to justify his demand that Thich Minh Tue leave the leafy temple compound in Giriulla, a town about 30 miles northeast of the capital Colombo.
+					- “He pointed to the letter and read the content to prove that this group of monks are a fake monks and were violating the law,” said Nguyen Minh Chi, a Vietnamese filmmaker who witnessed the exchange.
+					  collapsed:: true
+						- The letter is visible in video and photos of the incident, filmed by YouTubers accompanying Thich Minh Tue.
+						- RFA has not been able to verify the authenticity of the letter. It bears a signature and the name of Thich Nhat Tu, along with the seal of the International Buddhist Council of the Vietnamese sangha, for which he serves as deputy head.
+						- Thich Minh Tue was eventually able to enter the temple.
+						- He became an unlikely internet sensation last year in Vietnam, where his simple lifestyle has struck a chord. His barefoot walks went viral and well-wishers came out in droves.
+						- Last December, he left Vietnam on a journey by foot to India, the birthplace of Buddhism. After crossing Laos, he entered Thailand with a plan to hike across conflict-wracked Myanmar, but ran into logistical and visa problems. He has since traveled to Malaysia, and a week ago arrived in Sri Lanka, a predominantly Buddhist nation. He still hopes to make it to India.
+						- His expedition is not without controversy. Vietnam’s state-sanctioned Buddhist sangha has not officially recognized him as a monk. At one point, before his international wanderings began, authorities in communist Vietnam, leery of his popularity, announced he had “voluntarily retired.”
+					- A statement was posted Wednesday on two Facebook pages linked to Thich Nhat Tu, the representative of the Vietnamese sangha, **denying he wrote the letter**.
+					  collapsed:: true
+						- It includes a section calling for close cooperation between the Vietnamese and Sri Lankan sanghas on the issue of Thich Minh Tue, saying that it is a matter related to “national order and security.”
+						- One follower of Thich Minh Tue voiced exasperation about the controversy.
+						- “Why do people who practice Buddhism together constantly fight each other?” asked Phuoc Nghiem in a video he posted Wednesday. “We’re only practicing (religion), but they keep filing complaints.”
 		- ...
