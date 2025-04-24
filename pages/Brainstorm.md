@@ -2,14 +2,13 @@
 id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665c92d1-565b-4911-a706-b32af429c3aa)) place for ((66536578-c4d3-43f1-b35c-bf71120f0570)) as well as the store of recent brainstorms.
 	-
-	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
-	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
-		- DOING Vietnamese phonemes
+		- Vietnamese phonemes
 		  id:: 6809e1ea-1518-4460-be26-62881c47287f
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-04-24 Thu 14:02:37]
+		  CLOCK: [2025-04-24 Thu 14:02:37]--[2025-04-24 Thu 15:52:03] =>  01:49:26
 		  :END:
+			- Ref: [IPA Charts with Audio](https://jbdowse.com/ipa/) ([basic version](https://jbdowse.com/old-ipa/))
 			- “đ” /ɗ/ → “d” /ɗ̠ʲ/ voiced [alveolo-palatal](https://en.wikipedia.org/wiki/Alveolo-palatal_consonant) implosive stop → /ʄ/ [voiced palatal implosive](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) stop → /ˀj/ → /j/
 				- /ɗ̠ʲ/ appears in [Bade language](https://en.wikipedia.org/wiki/Bade_language) where it's also heard like /ˀj/.
 				- /ɗ̠ʲ/ appears in [Myene language](https://en.wikipedia.org/wiki/Myene_language) as a free variation of /dʒ/.
@@ -19,7 +18,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Video [IPA 164 Voiced Palatal Implosive Stop ʄ](https://youtu.be/27WGLJCPWIk)
 				  collapsed:: true
 					- {{video https://youtu.be/27WGLJCPWIk}}
-			- Ref: [IPA Charts with Audio](https://jbdowse.com/ipa/) ([basic version](https://jbdowse.com/old-ipa/))
+			- “v” /v/ → /ʋ/ → /bj/ → /βj/ → /j/
+				- [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) is between /v/ and /w/
+					- ((6809ac03-30d3-4ba7-8b9b-17e13732f9dd))
+	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
+	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- DOING [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true

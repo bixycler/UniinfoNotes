@@ -585,12 +585,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- Then also refactor [assets/Will/story/](../assets/Will/story/)YYYY-Mon/ → YYYY-MM
 				- Previously, these asset folders YYYY-Mon are named after ((67760c3e-2ed3-4b91-9698-8dea6913e419))'s partitions by month names.
 				- Now, rename them to month numbers for easy sort.
-	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [/ʋ/ sound in South Vietnamese](((6809b3ac-8ea6-4cc8-8c79-8243a805a748))) leads to ((6809e1ea-1518-4460-be26-62881c47287f)).
 		  :LOGBOOK:
 		  CLOCK: [2025-04-24 Thu 14:01:22]
 		  :END:
+	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Walking back to the office from the morning riverside sitting, i felt an urge to write down the complex of “free will” via ((671b160c-0589-4f83-a778-a9fb4df6783a)), ((66725144-6bc9-4c9f-ba48-2cef02651e52)), agency & ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
 		  id:: 67f72f21-c983-4734-b616-eca636a5cf9c
 		  collapsed:: true
