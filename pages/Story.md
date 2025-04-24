@@ -1824,6 +1824,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The letter ව is pronounced [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) between /v/ and /w/. That's why the name තිබ්බටුවාවේ (Thibbattuvāvē) is transcribed as “Thibbattuwawe” on Wikipedia.
 				  collapsed:: true
 					- This /ʋ/ sound is popular in South Asian languages: in the Indian subcontinent, Laos, Khmer, etc.
+					- In the South Vietnamese tone, the sound "v" is also reduced to /ʋ/ or /bj/ and then /j/, e.g. "vô" /jo/.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
