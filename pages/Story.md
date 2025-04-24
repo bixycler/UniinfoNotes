@@ -1819,9 +1819,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  collapsed:: true
 						- ![Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg](../assets/Will/story/2025-04/Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg)
 			- Hiru TV (හිරු ටීවී)
+			  :LOGBOOK:
+			  CLOCK: [2025-04-24 Thu 20:03:12]
+			  :END:
 				- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.hirutv.lk/
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Hiru_TV
-				- Hiru TV had an interview on April 24, the last day of the group on Sri Lanka
+				- DOING Hiru TV had an interview on April 24, the last day of the group on Sri Lanka
+				  id:: 680a363b-c9ff-4f0a-8081-a3d4a16ade20
+				  :LOGBOOK:
+				  CLOCK: [2025-04-24 Thu 20:03:39]
+				  :END:
 			- Notes on names
 			  collapsed:: true
 				- Due to the non-tonal transcription of “Minh Tuệ” as “Minh Tue”, the name is usually mispronounced as /min tjuː/, like in “Tuesday”, instead of /mïŋ twe/.
@@ -1834,4 +1841,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  id:: 6809b3ac-8ea6-4cc8-8c79-8243a805a748
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- ((680a363b-c9ff-4f0a-8081-a3d4a16ade20))
 		- ...
