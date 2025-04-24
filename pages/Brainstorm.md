@@ -11,9 +11,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-04-24 Thu 14:02:37]
 		  :END:
 			- “đ” /ɗ/ → “d” /ɗ̠ʲ/ implosive [alveolo-palatal](https://en.wikipedia.org/wiki/Alveolo-palatal_consonant) stop
-				- like 디 /d̠ʲ/ in Korean
-				- like д /dʲ/ in Russian but nearer to /j/ →
-			- Ref: [IPA Charts with Audio](https://jbdowse.com/ipa/)
+				- /ɗ̠ʲ/ appears in [### Bade language](https://en.wikipedia.org/wiki/Bade_language)
+				- like 디 /d̠ʲ/ in Korean, but nearer to /j/
+				- like д /dʲ/ in Russian, but nearer to /j/
+			- Ref: [IPA Charts with Audio](https://jbdowse.com/ipa/) ([basic version](https://jbdowse.com/old-ipa/))
 		- DOING [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
