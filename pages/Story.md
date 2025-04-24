@@ -1757,11 +1757,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [In Vietnamese] Một nhóm thuộc tổ chức chống Phật giáo bị trục xuất khỏi Thái Lan và Indonesia cải trang làm sư đến Sri Lanka...
 				  collapsed:: true
 					- Ngày đăng: 20 tháng 4 năm 2025, 15:00
-					- Đại lão Hòa thượng Thibbattuvawe Sri Sumangala, Tăng thống (Mahanayaka) của phái Malwatta, đã gửi thư đến Ủy viên Các vấn đề Phật giáo, yêu cầu lập tức có biện pháp ngăn chặn một nhóm người thuộc một tổ chức Việt Nam thực hiện các cuộc **bộ hành** tại Sri Lanka dưới vỏ bọc tu sĩ. Nhóm này bị cáo buộc đã bị trục xuất khỏi Thái Lan và Indonesia do các hoạt động chống Phật giáo.
+					- Đại lão Hòa thượng Thibbatuwawe Sri Sumangala, Tăng thống (Mahanayaka) của phái Malwatta, đã gửi thư đến Ủy viên Các vấn đề Phật giáo, yêu cầu lập tức có biện pháp ngăn chặn một nhóm người thuộc một tổ chức Việt Nam thực hiện các cuộc **bộ hành** tại Sri Lanka dưới vỏ bọc tu sĩ. Nhóm này bị cáo buộc đã bị trục xuất khỏi Thái Lan và Indonesia do các hoạt động chống Phật giáo.
 					- Trong thư đề ngày 6 tháng 4 năm 2025, Hòa thượng chỉ ra rằng nhóm người này, bao gồm một cá nhân tên **Lê Anh Tú** (thầy Thích Minh Tuệ), bị cáo buộc liên quan đến nhiều hoạt động chống Phật giáo. Họ được cho là thuộc một tổ chức bị cấm tại Việt Nam.
 					- Hòa thượng cho biết đã được Hòa thượng Tiến sĩ Thích Nhật Từ, Chủ tịch Ban Phật giáo Quốc tế Hồ Chí Minh của Việt Nam, thông báo về vấn đề này.
 					- Hòa thượng nhấn mạnh rằng việc nhóm người này nhập cảnh Sri Lanka bằng visa du lịch và thực hiện các cuộc **bộ hành** gây tổn hại nghiêm trọng đến Phật giáo và hình ảnh tăng sĩ. Ngài kêu gọi nhanh chóng ngăn chặn các cuộc **bộ hành** này, đồng thời yêu cầu có biện pháp kịp thời đối với nhóm người đang phá hoại hình ảnh Phật giáo của Sri Lanka trên trường quốc tế.
 				- Notes
+					- [Thibbatuwawe Sri Sumangala](https://en.wikipedia.org/wiki/Thibbatuwawe_Sri_Siddhartha_Sumangala_Thero) làm Tăng thống (Mahanayaka) của phái Malwatta từ năm 2004. Ông được biết đến với vai trò lãnh đạo Phật giáo Theravada tại Sri Lanka và thường đưa ra các tuyên bố về bảo vệ Phật giáo.
+					- [Thích Nhật Từ](https://vi.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%ADt_T%E1%BB%AB) làm Trưởng ban Phật giáo Quốc tế [Giáo hội Phật giáo Việt Nam](https://vi.wikipedia.org/wiki/Gi%C3%A1o_h%E1%BB%99i_Ph%E1%BA%ADt_gi%C3%A1o_Vi%E1%BB%87t_Nam) Tp. Hồ Chí Minh từ năm 2022.
 					- This is a [political site widely consider to be](https://sri-lanka.mom-gmr.org/en/media/detail/outlet/lanka-c-news/) affiliated with the Leader of the National Freedom Front (NFF), Wimal Weerawansa.
 					- This site denies access from Japan: Error 1005: Access denied
 					  collapsed:: true
