@@ -1705,8 +1705,29 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Sau sự xuất hiện trên truyền hình và những tin đồn tiếp theo, thầy Thích Minh Tuệ chuyển đến một khu vườn của gia đình ở Gia Lai để sống ẩn dật. Địa điểm mới này của thầy vẫn tiếp tục thu hút sự chú ý. Đám đông đầy tò mò và sùng kính vẫn tụ tập quanh khu vực thầy thực hành giáo pháp ở quê nhà, dẫn đến việc cảnh sát phải dựng rào chắn giao thông.
 							- Vào ngày 13 tháng 6, em trai của thầy Thích Minh Tuệ (anh Thìn) xuất hiện trong một video trên TikTok, nói rằng thầy không còn ở khu vườn của gia đình. Trong khi đó, sáng ngày 14 tháng 6, mạng xã hội đưa tin rằng vị sư này “đã biến mất”.
 							- “Thầy Thích Minh Tuệ cần được tự do sống đời sống xuất gia của mình. Theo tôi, thầy tận tụy sống theo giới luật. Việc giới hạn đời sống xuất gia của thầy trong một khu vực nhỏ làm lu mờ ý nghĩa thực sự của đời sống tu hành theo Phật giáo. Vì vậy, đây là một vấn đề khó giải quyết đối với chính quyền,” Bửu Nghiêm nói.
-			- ECONOMYNEXT
+			- EconomyNext
 				- [April 18](https://economynext.com/vietnams-famed-walking-ascetic-minh-tue-in-sri-lanka-amid-obstacles-216441/): Vietnam’s famed walking ascetic Minh Tuệ in Sri Lanka amid obstacles
 				  collapsed:: true
-					-
+					- Friday April 18, 2025 2:37 pm
+					- ECONOMYNEXT – A Vietnam ascetic, who has gained widespread acclaim from the ordinary public in his country for his simple lifestyle, is facing obstacles as he is walking across Sri Lanka to reach the Buddha’s birthplace in India.
+					- Known popularly by the sobriquet Thích Minh Tuệ, the ascetic reportedly walked across Vietnam at least four times, over several years before some youtubers and ticktockers noticed in 2024 and started following him around bringing him to national and international attention.
+					- The ascetic, who’s birth [name is said to be Lê Anh Tú](https://en.wikipedia.org/wiki/Th%C3%ADch_Minh_Tu%E1%BB%87), walks barefoot, and is dressed in robes made of scraps of different cloth given to him by people on his travels. His alms bowl is the inner container of a rice cooker.
+					- The ascetic has run into controversy with an officially sanctioned Buddhist order in Vietnam after netizens started comparing his simple lifestyle with those in the establishment.
+					- According to reports Minh Tuệ has not claimed to be an official monk, but only a student of Buddhist teachings and is following dhutanga practices ([asceticism](https://en.wikipedia.org/wiki/Asceticism))
+					- Though others refer to him as ‘Thích’ (Venerable) he always refers to himself simply as ‘con’ in the way students refer to themselves when addressing teachers, reports say.
+					- Vietnam regional authorities also reportedly urged Minh Tuệ to stop walking last year as large crowds followed when he entered larger townships bringing city traffic to a standstill.
+					- For a while he disappeared off the main roads, leading to speculation and concern among his internet followers. In December 2024, Minh Tuệ had started a pilgrimage to India to reach the birthplace of the Buddha, walking across several countries including Laos and Thailand.
+					- He was originally planning to go to India across Myanmar but could not secure entry and had instead traveled to Malaysia and ended up in Sri Lanka.
+					- After landing in Sri Lanka he had started walking across the island towards Jaffna. Youtube videos show he arrived in Sri Lanka from Singapore.
+					- According to a senior monk from the Ambarukkarama Temple of Mugurugampala in Sri Lanka who is helping the ascetic, the group is facing difficulties after another senior Sri Lankan monk asked temples not to harbhour him.
+					- The group of over 30 ascetics and Vietnamese lay followers had landed in Sri Lanka on April 12 and also stayed at his own Temple on the New Year’s day.
+					- “From our observations these people are very harmless, responsible and act with much discipline (vinyawath),” the thero explained.
+					- “They are engaged in a Dhutangadari practices and are walking barefoot.
+					- “We thought we should treat these visitors from Vietnam as befits our traditions of hospitality. If some harm befalls them it is not good for the honour of our country.
+					- “But following some communications with a Bhikkhu in Vietnam with one of our Bhikkhus, a wrong impression  has been created, there has been some problems caused to the lay Vietnamese persons who followed them.
+					- “Some temples have also refused to accommodate them. So two of us from our temple decided to stay with them and help them until they leave our country and treat them with kindness and compassion (karuna and maithree).
+					- A senior Sri Lankan monk had placed a whatsapp message which he said has caused problems for the group.
+					- “Instead of writing whatsapp messages without inquiry, I appeal kindly to examine this matter and act in a way that preserves the dignity of our country,” the thero said.
+					- “Our foreign service officials, and responsible monks should examine this matter and take the actions required for them to stay lawfully.
+					- [](https://youtu.be/GnCnpUwNUMA)
 		- ...
