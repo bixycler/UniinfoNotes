@@ -1818,6 +1818,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ![Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg](../assets/Will/story/2025-04/Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg)
 			- Notes
 				- In news from ((6809919b-a2ea-432f-8d8c-ad8a2c53e732)) & from ((6809a38f-db99-4047-9821-740929cac54a)), "Thích Nhật Từ" is transcribed as "Kiew Nhat Tu"!?!
+				- The letter ව is pronounced [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) between /v/ and /w/. That's why the name තිබ්බටුවාවේ (Thibbattuvāvē) is transcribed as “Thibbattuwawe” on Wikipedia.
+					- This /ʋ/ sound is popular in Southa Asian languages: in the Indian subcontinent, Laos, K
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
