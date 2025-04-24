@@ -1813,12 +1813,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The Most Venerable Thibbatuwawe Sri Sumangala Maha Thero, the Chief Prelate of the Malwatta Chapter, has issued a special letter to the Commissioner for Buddhist Affairs, urging immediate action to prevent the arrival of a group of Vietnamese monks previously deported from Thailand and Indonesia due to alleged anti-Buddhist activities. The Thero has also requested that the security forces be informed accordingly.
 					  collapsed:: true
 						- According to the letter, the group in question — including an individual named Lay An Tu — is accused of engaging in activities that are harmful to Buddhism. It is also noted that the organization they represent is banned in Vietnam. This information has been confirmed by Dr. Kiew Nhat Tu, Chairman of the International Buddhist Department of Ho Chi Minh City, who officially communicated the concerns to the Chief Prelate.
-						- The letter highlights that the group is currently attempting to enter Sri Lanka on tourist visas for pilgrimage purposes. The Chief Prelate warns that such actions pose a serious threat to the sanctity of Buddhism and the public perception of Buddhist monks. He has therefore called for immediate measures to halt their activities, citing violations of visa regulations and the potential for reputational damage to Sri Lankan Buddhism on the international stage.
+						- The letter highlights that the group is currently attempting to _enter Sri Lanka on **tourist visas** for pilgrimage purposes_. The Chief Prelate warns that such actions pose a serious threat to the sanctity of Buddhism and the public perception of Buddhist monks. He has therefore called for immediate measures to halt their activities, citing violations of visa regulations and the potential for reputational damage to Sri Lankan Buddhism on the international stage.
 					- Image of the letter
 					  collapsed:: true
 						- ![Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg](../assets/Will/story/2025-04/Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg)
-			- Notes
-				- Due to the non-tonal transcription of “Minh Tuệ” as “Minh Tue”, the name are usually mispronounced as /min / instead of /mïŋ twe/.
+			- Notes on names
+			  collapsed:: true
+				- Due to the non-tonal transcription of “Minh Tuệ” as “Minh Tue”, the name is usually mispronounced as /min tjuː/, like in “Tuesday”, instead of /mïŋ twe/.
 				- In news from ((6809919b-a2ea-432f-8d8c-ad8a2c53e732)) & from ((6809a38f-db99-4047-9821-740929cac54a)), "Thích Nhật Từ" is transcribed as "Kiew Nhat Tu"!?!
 				- The letter ව is pronounced [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) between /v/ and /w/. That's why the name තිබ්බටුවාවේ (Thibbattuvāvē) is transcribed as “Thibbattuwawe” on Wikipedia.
 				  collapsed:: true
