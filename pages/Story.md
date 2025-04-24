@@ -1317,6 +1317,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-04-21 Mon 17:07:29]--[2025-04-24 Thu 09:58:51] =>  64:51:22
 		  :END:
 			- Previous events
+			  collapsed:: true
 				- ((67a5faa3-c64c-48f7-8b3f-a5311714110f))
 				- ((67f4eaf9-6b66-4c22-9cca-8a5c7124de0f))
 			- BBC Sinhala news about Minh Tue monk group
@@ -1817,9 +1818,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  collapsed:: true
 						- ![Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg](../assets/Will/story/2025-04/Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg)
 			- Notes
+				- Due to the non-tonal transcription of “Minh Tuệ” as “Minh Tue”, the name are usually mispronounced as /min / instead of /mïŋ twe/.
 				- In news from ((6809919b-a2ea-432f-8d8c-ad8a2c53e732)) & from ((6809a38f-db99-4047-9821-740929cac54a)), "Thích Nhật Từ" is transcribed as "Kiew Nhat Tu"!?!
 				- The letter ව is pronounced [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) between /v/ and /w/. That's why the name තිබ්බටුවාවේ (Thibbattuvāvē) is transcribed as “Thibbattuwawe” on Wikipedia.
-					- This /ʋ/ sound is popular in Southa Asian languages: in the Indian subcontinent, Laos, K
+				  collapsed:: true
+					- This /ʋ/ sound is popular in South Asian languages: in the Indian subcontinent, Laos, Khmer, etc.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
