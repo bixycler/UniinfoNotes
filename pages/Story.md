@@ -1419,6 +1419,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Thay vào đó, thầy tự nhận mình là “một người cố gắng thực hành theo lời dạy của Đức Phật”.
 							- Thầy Thích Minh Tuệ đã trở thành một nhân vật nổi tiếng trên mạng xã hội, và mọi nơi thầy đến đều được các nhà hoạt động đưa tin rộng rãi qua mạng xã hội.
 							- Việc đi bộ bằng chân trần, sống bằng khất thực, tìm nơi trú ẩn trong rừng, lùm cây hoặc nghĩa trang, và từ bỏ mọi gắn bó với vật chất đã khiến thầy Thích Minh Tuệ nhanh chóng trở nên nổi tiếng khắp Việt Nam.
+					- Note: While BBC channels are generally firewalled by Vienmamese ISPs, this single news page is somehow left open for Google app (still unavailable on Chrome).
 				- [January 13](https://www.bbc.com/sinhala/articles/c75zlnprnr1o): Thich Minh Tue: 'Love is scary, I am learning to be free from love'
 					- Contents: The interview with master Minh Tue in Thailand by BBC Vietnamese.
 					- [In Sinhala](https://docs.google.com/document/d/e/2PACX-1vSJ8GPG4dBlo4iuZCX1W813XG9SdZCuERMI-v2uLLca635B1peMP1KxZOb1sVO6ZDtKmRl5gmHQk_mp/pub): තික් මින් තියු හිමි: 'ආදරය බිය උපදවනවා, මම ආදරයෙන් නිදහස් වීමට පුරුදු වෙනවා'
@@ -1746,4 +1747,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- (Colombo/Apr18/2025 – Updated)
 			- Lanka C News
 				- [April](https://lankacnews.com/%E0%B6%AD%E0%B7%8F%E0%B6%BA%E0%B7%92%E0%B6%BD%E0%B6%B1%E0%B7%8A%E0%B6%AD%E0%B6%BA%E0%B7%99%E0%B6%B1%E0%B7%8A-%E0%B6%89%E0%B6%B1%E0%B7%8A%E0%B6%AF%E0%B7%94%E0%B6%B1%E0%B7%93%E0%B7%83%E0%B7%92%E0%B6%BA/)
+				- Notes about this site
+					- This is a [political site widely consider to be](https://sri-lanka.mom-gmr.org/en/media/detail/outlet/lanka-c-news/) affiliated with the Leader of the National Freedom Front (NFF), Wimal Weerawansa.
+					- This site denies access from Japan: Error 1005: Access denied
+					  collapsed:: true
+						- ```
+						  The owner of this website (lankacnews.com) has banned the autonomous system number (ASN) your IP address is in (16509) from accessing this website.
+						  Cloudflare Ray ID: 9351c9c29b180067 • Your IP: 18.178.246.127
+						  ```
 		- ...
