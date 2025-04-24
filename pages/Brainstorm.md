@@ -10,7 +10,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-04-24 Thu 14:02:37]
 		  :END:
-			- “đ” /ɗ/ → “d” /ɗ̠ʲ/ voiced implosive [alveolo-palatal](https://en.wikipedia.org/wiki/Alveolo-palatal_consonant) stop → /ʄ/ [voiced palatal implosive](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) → /ˀj/
+			- “đ” /ɗ/ → “d” /ɗ̠ʲ/ voiced implosive [alveolo-palatal](https://en.wikipedia.org/wiki/Alveolo-palatal_consonant) stop → /ʄ/ [voiced palatal implosive](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) → /ˀj/ → /j/
 				- /ɗ̠ʲ/ appears in [Bade language](https://en.wikipedia.org/wiki/Bade_language) where it's also heard like /ˀj/.
 				- /ɗ̠ʲ/ appears in [Myene language](https://en.wikipedia.org/wiki/Myene_language) as a free variation of /dʒ/.
 				- /ɗ̠ʲ/ is like 디 /d̠ʲ/ in Korean, but nearer to /j/
