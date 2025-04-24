@@ -1747,6 +1747,30 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Sri Lanka’s Aruna newspaper reported that the Chief Prelate of the Malwatte Chapter has written to the Commissioner General of Buddhist Affairs asking for an immigration inquiry.
 					- The request has been triggered following a letter said to have been sent by a senior monk from a state recognized Buddhist order. Youtube videos showed the a copy of the letter, which was claimed to have been given by police to the group.
 					- (Colombo/Apr18/2025 – Updated)
+			- Lanka Leader
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-04-24 Thu 09:24:21]
+			  :END:
+				- [April 18](https://www.lankaleader.lk/news/13098-itinerant-vietnamese-monk-meets-opposition-in-sri-lanka-from-a-fellow-monk): Itinerant Vietnamese monk meets opposition in Sri Lanka - from a fellow monk
+					- Friday, 18 April 2025 12:16 ([RFA.org](https://www.rfa.org/))
+					- A Vietnamese Buddhist monk on a barefoot pilgrimage from his homeland to India ran into some unexpected opposition in Sri Lanka on the latest leg of his circuitous journey around Asia.
+					- A witness told Radio Free Asia that when the Vietnamese monk Thich Minh Tue and his entourage were about to go to a local Hindu temple to rest, _**a local monk**, claiming to be from the Sri Lankan Buddhist Sangha, came to the temple and **asked that he not stay**._
+					- Local Sri Lankans objected, taking sides with their Vietnamese visitor.
+					  The Sri Lankan monk then took out his phone and read the contents of a letter allegedly sent by Thich Nhat Tu, a representative of the state-backed Vietnam Buddhist Sangha – or religious association - to the Sri Lankan Sangha, to justify his demand that Thich Minh Tue leave the leafy temple compound in Giriulla, a town about 30 miles northeast of the capital Colombo.
+					- “He pointed to the letter and read the content to prove that this group of monks are a fake monks and were violating the law,” said Nguyen Minh Chi, a Vietnamese filmmaker who witnessed the exchange.
+					  collapsed:: true
+						- The letter is visible in video and photos of the incident, filmed by YouTubers accompanying Thich Minh Tue.
+						- RFA has not been able to verify the authenticity of the letter. It bears a signature and the name of Thich Nhat Tu, along with the seal of the International Buddhist Council of the Vietnamese sangha, for which he serves as deputy head.
+						- Thich Minh Tue was eventually able to enter the temple.
+						- He became an unlikely internet sensation last year in Vietnam, where his simple lifestyle has struck a chord. His barefoot walks went viral and well-wishers came out in droves.
+						- Last December, he left Vietnam on a journey by foot to India, the birthplace of Buddhism. After crossing Laos, he entered Thailand with a plan to hike across conflict-wracked Myanmar, but ran into logistical and visa problems. He has since traveled to Malaysia, and a week ago arrived in Sri Lanka, a predominantly Buddhist nation. He still hopes to make it to India.
+						- His expedition is not without controversy. Vietnam’s state-sanctioned Buddhist sangha has not officially recognized him as a monk. At one point, before his international wanderings began, authorities in communist Vietnam, leery of his popularity, announced he had “voluntarily retired.”
+					- A statement was posted Wednesday on two Facebook pages linked to Thich Nhat Tu, the representative of the Vietnamese sangha, **denying he wrote the letter**.
+					  collapsed:: true
+						- It includes a section calling for close cooperation between the Vietnamese and Sri Lankan sanghas on the issue of Thich Minh Tue, saying that it is a matter related to “national order and security.”
+						- One follower of Thich Minh Tue voiced exasperation about the controversy.
+						- “Why do people who practice Buddhism together constantly fight each other?” asked Phuoc Nghiem in a video he posted Wednesday. “We’re only practicing (religion), but they keep filing complaints.”
 			- Lanka C News
 			  collapsed:: true
 			  :LOGBOOK:
@@ -1780,30 +1804,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  The owner of this website (lankacnews.com) has banned the autonomous system number (ASN) your IP address is in (16509) from accessing this website.
 						  Cloudflare Ray ID: 9351c9c29b180067 • Your IP: 18.178.246.127
 						  ```
-			- Lanka Leader
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2025-04-24 Thu 09:24:21]
-			  :END:
-				- [April 18](https://www.lankaleader.lk/news/13098-itinerant-vietnamese-monk-meets-opposition-in-sri-lanka-from-a-fellow-monk): Itinerant Vietnamese monk meets opposition in Sri Lanka - from a fellow monk
-					- Friday, 18 April 2025 12:16 ([RFA.org](https://www.rfa.org/))
-					- A Vietnamese Buddhist monk on a barefoot pilgrimage from his homeland to India ran into some unexpected opposition in Sri Lanka on the latest leg of his circuitous journey around Asia.
-					- A witness told Radio Free Asia that when the Vietnamese monk Thich Minh Tue and his entourage were about to go to a local Hindu temple to rest, _**a local monk**, claiming to be from the Sri Lankan Buddhist Sangha, came to the temple and **asked that he not stay**._
-					- Local Sri Lankans objected, taking sides with their Vietnamese visitor.
-					  The Sri Lankan monk then took out his phone and read the contents of a letter allegedly sent by Thich Nhat Tu, a representative of the state-backed Vietnam Buddhist Sangha – or religious association - to the Sri Lankan Sangha, to justify his demand that Thich Minh Tue leave the leafy temple compound in Giriulla, a town about 30 miles northeast of the capital Colombo.
-					- “He pointed to the letter and read the content to prove that this group of monks are a fake monks and were violating the law,” said Nguyen Minh Chi, a Vietnamese filmmaker who witnessed the exchange.
-					  collapsed:: true
-						- The letter is visible in video and photos of the incident, filmed by YouTubers accompanying Thich Minh Tue.
-						- RFA has not been able to verify the authenticity of the letter. It bears a signature and the name of Thich Nhat Tu, along with the seal of the International Buddhist Council of the Vietnamese sangha, for which he serves as deputy head.
-						- Thich Minh Tue was eventually able to enter the temple.
-						- He became an unlikely internet sensation last year in Vietnam, where his simple lifestyle has struck a chord. His barefoot walks went viral and well-wishers came out in droves.
-						- Last December, he left Vietnam on a journey by foot to India, the birthplace of Buddhism. After crossing Laos, he entered Thailand with a plan to hike across conflict-wracked Myanmar, but ran into logistical and visa problems. He has since traveled to Malaysia, and a week ago arrived in Sri Lanka, a predominantly Buddhist nation. He still hopes to make it to India.
-						- His expedition is not without controversy. Vietnam’s state-sanctioned Buddhist sangha has not officially recognized him as a monk. At one point, before his international wanderings began, authorities in communist Vietnam, leery of his popularity, announced he had “voluntarily retired.”
-					- A statement was posted Wednesday on two Facebook pages linked to Thich Nhat Tu, the representative of the Vietnamese sangha, **denying he wrote the letter**.
-					  collapsed:: true
-						- It includes a section calling for close cooperation between the Vietnamese and Sri Lankan sanghas on the issue of Thich Minh Tue, saying that it is a matter related to “national order and security.”
-						- One follower of Thich Minh Tue voiced exasperation about the controversy.
-						- “Why do people who practice Buddhism together constantly fight each other?” asked Phuoc Nghiem in a video he posted Wednesday. “We’re only practicing (religion), but they keep filing complaints.”
 			- Mawrata News
 			  collapsed:: true
 				- [April 18](https://mawratanews.lk/news/chief-prelate-urges-ban-on-controversial-vietnamese-monks-over-anti-buddhist-activities/): Chief Prelate Urges Ban on Controversial Vietnamese Monks Over Anti-Buddhist Activities
@@ -1816,4 +1816,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Image of the letter
 					  collapsed:: true
 						- ![Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg](../assets/Will/story/2025-04/Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg)
+			- Notes
+				-
 		- ...
