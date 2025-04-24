@@ -1767,7 +1767,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [Thibbatuwawe Sri Sumangala](https://en.wikipedia.org/wiki/Thibbatuwawe_Sri_Siddhartha_Sumangala_Thero) làm Tăng thống (Mahanayaka) của phái Malwatta từ năm 2004. Ông được biết đến với vai trò lãnh đạo Phật giáo Theravada tại Sri Lanka và thường đưa ra các tuyên bố về bảo vệ Phật giáo.
 						- [Thích Nhật Từ](https://vi.wikipedia.org/wiki/Th%C3%ADch_Nh%E1%BA%ADt_T%E1%BB%AB) làm Trưởng ban Phật giáo Quốc tế [Giáo hội Phật giáo Việt Nam](https://vi.wikipedia.org/wiki/Gi%C3%A1o_h%E1%BB%99i_Ph%E1%BA%ADt_gi%C3%A1o_Vi%E1%BB%87t_Nam) Tp. Hồ Chí Minh từ năm 2022.
 						- Tại Sri Lanka, “Ủy viên Các vấn đề Phật giáo” là một vị trí thuộc Bộ Phật giáo và Các vấn đề Tôn giáo.
-					- This is a [political site widely consider to be](https://sri-lanka.mom-gmr.org/en/media/detail/outlet/lanka-c-news/) affiliated with the Leader of the National Freedom Front (NFF), [Wimal Weerawansa](https://en.wikipedia.org/wiki/Wimal_Weerawansa).
+					- This is a [political site widely consider to be](https://sri-lanka.mom-gmr.org/en/media/detail/outlet/lanka-c-news/) affiliated with the Leader of the National Freedom Front (NFF, Jathika Nidahas Peramuna), [Wimal Weerawansa](https://en.wikipedia.org/wiki/Wimal_Weerawansa).
 					- This site denies access from Japan: Error 1005: Access denied
 					  collapsed:: true
 						- ```
