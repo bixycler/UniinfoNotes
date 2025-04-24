@@ -15,6 +15,7 @@ CLOCK: [2025-04-23 Wed 14:30:31]
 			- Check service: `sudo systemctl status mysql` or `sudo service mysql status`
 			- Check network port: `sudo ss -tap | grep mysql`
 			- Check log: `sudo journalctl -u mysql`
+			- from UniinfoNotes & WORK!
 		- `root` setup
 			- `sudo mysql -u root`
 				- `sudo`: By default, MySQL authenticates using system credentials rather than a password.
