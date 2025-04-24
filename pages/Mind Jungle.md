@@ -212,8 +212,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Tülu](https://playground.allenai.org/)
 				- Features: only text chat.
 				- Tülu is open sourced.
-	- Linux
-		- moved to ((66949495-3846-4f89-9ea5-c62b624d282c))
+	- ## Linux
+	  ((680a04eb-125e-4e9e-b691-3b7be523359c)) ((66949495-3846-4f89-9ea5-c62b624d282c))
 	- ## ItelliJ
 	  collapsed:: true
 		- Settings
@@ -4013,8 +4013,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			-
 		-
 	- git
-	  collapsed:: true
-		- moved to ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
+	  ((680a04eb-125e-4e9e-b691-3b7be523359c)) ((666ba1e2-19d1-409e-b30e-42a99b7e4ec0))
 	- ## GitHub
 	  id:: 66536662-052f-46a4-a624-38858bffb334
 	  collapsed:: true
@@ -6055,7 +6054,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The interface is complicated.
 				- Usually at CPU high cost!
 			- [Lattics](https://lattics.com/) with settable font, but only 2 versions: Windows & MacOS, no Linux, no Web
-	- ((68089c74-7fbd-471b-9283-febf6b48cd0d))
+	- Database
+	  ((680a04eb-125e-4e9e-b691-3b7be523359c)) ((68089c74-7fbd-471b-9283-febf6b48cd0d))
 	- ## hyperlink
 	  id:: 66536cad-a232-4b90-bf32-439144aac1ec
 	  collapsed:: true
@@ -6355,9 +6355,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66fe754c-1858-4aff-bf23-510cd9ebb5b0
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66fe72c4-3ad3-41a2-b1bc-dd70a97176fd)) is the place where the ((66fe70ac-04d0-45b5-b771-b072cc0fa7be)) is taken placed.
-	- JavaScript
+	- ## JavaScript
 	  id:: 6716110e-aa2d-41c9-8ae3-be3ceed55407
-		- moved to ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
+	  ((680a04eb-125e-4e9e-b691-3b7be523359c)) ((6708aad1-5efb-4b3f-ad99-e3ae2e73fcb4))
 	- ## D2: Declarative Diagramming
 	  id:: 6751697f-aa5b-4ade-b97c-9ea1f1406581
 	  collapsed:: true
