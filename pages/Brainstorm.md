@@ -10,7 +10,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-04-24 Thu 14:02:37]
 		  :END:
-			- “đ” /((6809e1ea-1518-4460-be26-62881c47287f))/
+			- “đ” /ɗ/ → “d” /ɗ̠ʲ/ implosive alveolar-palatal stop like д /dʲ/ in Russian but nearer to /j/ →
+			- Ref: [IPA Charts with Audio](https://jbdowse.com/ipa/)
 		- DOING [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
