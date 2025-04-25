@@ -3236,8 +3236,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  CLOCK: [2025-04-25 Fri 17:50:36]
 				  CLOCK: [2025-04-25 Fri 17:53:06]
 				  :END:
-					- Although Unicode 4.1 (March 2005) has introduced the symbol “⟂” ([U+27C2](https://www.compart.com/en/unicode/U+27C2)) dedicating to “perpendicular, orthogonal, independent”, many math typseting systems and HTML entities are still use the same symbol with the falsum “⊥” ([U+22A5](https://www.compart.com/en/unicode/U+22A5)).
+					- Although [Unicode 4.1 (March 2005)](https://www.unicode.org/charts/PDF/Unicode-4.1/U41-27C0.pdf) has introduced the symbol “⟂” ([U+27C2](https://www.compart.com/en/unicode/U+27C2)) dedicating to “perpendicular, orthogonal, independent”, many math typseting systems and HTML entities are still use the same symbol with the falsum “⊥” ([U+22A5](https://www.compart.com/en/unicode/U+22A5)).
 						- The old Japanese charsets still have [no such distinction](https://ja.wikipedia.org/wiki/%E5%9E%82%E7%9B%B4%E8%A8%98%E5%8F%B7).
+						- Note on the [discrepancy of `&perp;`](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#cite_note-perp-50) in the [List of XML and HTML character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references):
+						  > However, HTML uses U+22A5 as its "perpendicular" symbol: this is a discrepancy between HTML and Unicode.
 					- Math expressions: ⟂=$⟂$, ⊥=$⊥$, `\perp`=$\perp$, `\bot`=$\bot$
 					- HTML entities: `&Perpendicular;`=[:b "&Perpendicular;"], `&perp;`=[:b "&perp;"], `&bot;`=[:b "&bot;"], `&bottom;`=[:b "&bottom;"], `&UpTee;`=[:b "&UpTee;"].
 					- The two symbols are indistinguishable to the human eyes: ⟂⊥
