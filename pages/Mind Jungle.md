@@ -3229,6 +3229,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 671b27ce-a9c8-48d7-b0b5-e056484a6747
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b206e-c50c-47b0-903d-73e97d512d13))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747)) is a special kind of ((671b1616-9958-48d9-95ba-9fc8e76f2867)).
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- DOING
+				  :LOGBOOK:
+				  CLOCK: [2025-04-25 Fri 17:50:36]
+				  :END:
 	- ## relation
 	  id:: 667d0b78-fff6-49bc-90d5-165648ed56d3
 	  collapsed:: true
