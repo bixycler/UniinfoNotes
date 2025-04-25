@@ -26,13 +26,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ((6809ac03-30d3-4ba7-8b9b-17e13732f9dd))
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
-		- DOING From logical “argument” in philosophy to [“argument of function”](https://en.wikipedia.org/wiki/Argument_of_a_function) and then [“argument of complex number”](https://en.wikipedia.org/wiki/Argument_(complex_analysis))
+		- DOING From [logical “argument”](https://en.wikipedia.org/wiki/Argument) in philosophy to [“argument of function”](https://en.wikipedia.org/wiki/Argument_of_a_function) and then [“argument of complex number”](https://en.wikipedia.org/wiki/Argument_(complex_analysis))
 		  id:: 680b6063-e454-4cf6-835e-d6f726b8b871
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-25 Fri 17:15:36]
 		  :END:
-			-
+			- **Logical argument** is the one determining the degree of truth of a statement called a conclusion.
+			- Argument(s) of a function is/are the one(s) determining the result value of the function.
+				- A logical statement is just Boolean function $P: X → {⊥, }
 			- Ref:
 				- [Why We Use "Argument" In Describing Complex Angles](https://www.math.toronto.edu/mathnet/questionCorner/argument.html)
 				  > To the best of our knowledge, the word argument was originally used by astronomers when referring to certain angles associated with orbits. ([argument of pericenter](https://en.wikipedia.org/wiki/Argument_of_periapsis))
