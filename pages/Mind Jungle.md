@@ -3240,6 +3240,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The old Japanese charsets still have [no such distinction](https://ja.wikipedia.org/wiki/%E5%9E%82%E7%9B%B4%E8%A8%98%E5%8F%B7).
 						- Note on the [discrepancy of `&perp;`](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#cite_note-perp-50) in the [List of XML and HTML character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references):
 						  > However, HTML uses U+22A5 as its "perpendicular" symbol: this is a discrepancy between HTML and Unicode.
+						- Unicode 4.0 did defined `UP TACK = orthogonal to = perpendicular = base, bottom`.
+						  collapsed:: true
+							- ![UpTack=orthogonal in Unicode4.0.png](../assets/GUI/shorthands/UpTack=orthogonal in Unicode4.0.png)
 					- Math expressions: ⟂=$⟂$, ⊥=$⊥$, `\perp`=$\perp$, `\bot`=$\bot$
 					- HTML entities: `&Perpendicular;`=[:b "&Perpendicular;"], `&perp;`=[:b "&perp;"], `&bot;`=[:b "&bot;"], `&bottom;`=[:b "&bottom;"], `&UpTee;`=[:b "&UpTee;"].
 					- The two symbols are indistinguishable to the human eyes: ⟂⊥
