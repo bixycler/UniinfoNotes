@@ -34,7 +34,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- **Logical argument** is the one determining the degree of truth of a statement called a conclusion.
 			- Argument(s) of a function is/are the one(s) determining the result value of the function.
-				- A logical statement is just Boolean function $P: X → {⊥, }
+				- A logical statement is just a Boolean function $P: X → \{⊤, ⊥\}$ where $x ∈ X$ is the argument.
+				- A function, originally
 			- Ref:
 				- [Why We Use "Argument" In Describing Complex Angles](https://www.math.toronto.edu/mathnet/questionCorner/argument.html)
 				  > To the best of our knowledge, the word argument was originally used by astronomers when referring to certain angles associated with orbits. ([argument of pericenter](https://en.wikipedia.org/wiki/Argument_of_periapsis))
