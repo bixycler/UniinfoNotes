@@ -3247,6 +3247,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- HTML entities: `&Perpendicular;`=[:b "&Perpendicular;"], `&perp;`=[:b "&perp;"], `&bot;`=[:b "&bot;"], `&bottom;`=[:b "&bottom;"], `&UpTee;`=[:b "&UpTee;"].
 					- The two symbols are indistinguishable to the human eyes: ⟂⊥
 						- In some fonts, they are rendered differently... just a little bit!
+					- I've add this historical note to
 	- ## relation
 	  id:: 667d0b78-fff6-49bc-90d5-165648ed56d3
 	  collapsed:: true
