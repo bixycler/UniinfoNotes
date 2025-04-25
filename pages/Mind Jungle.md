@@ -3230,7 +3230,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((671b206e-c50c-47b0-903d-73e97d512d13))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((671b27ce-a9c8-48d7-b0b5-e056484a6747)) is a special kind of ((671b1616-9958-48d9-95ba-9fc8e76f2867)).
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- DOING The perpendicular symbol “⟂” versus the [falsum “⊥”](https://en.wikipedia.org/wiki/Up_tack)
+				- DOING The [perpendicular](https://en.wikipedia.org/wiki/Perpendicular) symbol “⟂” versus the [falsum “⊥”](https://en.wikipedia.org/wiki/Up_tack)
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-04-25 Fri 17:50:36]
@@ -3239,7 +3239,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Although Unicode 4.1 (March 2005) has introduced the symbol “⟂” ([U+27C2](https://www.compart.com/en/unicode/U+27C2)) dedicating to “perpendicular, orthogonal, independent”, many math typseting systems and HTML entities are still use the same symbol with the falsum “⊥” ([U+22A5](https://www.compart.com/en/unicode/U+22A5)).
 					- Math expressions: ⟂=$⟂$, ⊥=$⊥$, `\perp`=$\perp$, `\bot`=$\bot$
 					- HTML entities: `&Perpendicular;`=[:b "&Perpendicular;"], `&perp;`=[:b "&perp;"], `&bot;`=[:b "&bot;"], `&bottom;`=[:b "&bottom;"], `&UpTee;`=[:b "&UpTee;"].
-					-
+					- The two symbols are indistinguishable to the human eyes: ⟂⊥
+						- In some fonts, they are rendered differently... just a little bit!
 	- ## relation
 	  id:: 667d0b78-fff6-49bc-90d5-165648ed56d3
 	  collapsed:: true
