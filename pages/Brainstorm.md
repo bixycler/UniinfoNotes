@@ -34,13 +34,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- **Logical argument** is the one determining the degree of truth of a statement called “conclusion”.
 				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “argument” ← “argue” ← French “arguer” ← Latin “arguere”: (**debate**) to make **reasoned** statements to prove or refute a proposition
-				- Additional meaning in English: dispute, quarrel
+				- Additional meaning in English: disagreement, dispute, quarrel
 				  collapsed:: true
 					- The original Latin “arguere” and French “arguer” don't have this meaning.
 					- The spectrum of meaning:
 					  [Reasoning end:] debate, argue that, argue for/against, argue on, argue (direct object), argue about, argue over, argue (intransitive), dispute, quarrel [:Quarreling end]
 						- “To argue (something)” is to give reasons for something, but not widely used.
-						- “To argue about (something)” is neutral, but more about disputation.
+						- “To argue about (something)” is neutral, but more about dispute.
 			- Argument(s) of a function is/are the one(s) determining the result value of the function.
 				- A logical statement is just a Boolean function $P: X → \{⊤, ⊥\}$ where $x ∈ X$ is the argument.
 				- A function, originally
