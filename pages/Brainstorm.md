@@ -95,6 +95,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Equal (hyperbolic) = transformation = product = projection = multiplication → scale
 			- $\tan⋅\cot = 1 \;\; ⇔ \;\; \sin^2 + \cos^2 = 1 \;\; ⇔ \;\; φ + φ_c = ∟$ 
 			  multiplication (hyperbolic) ⇔ exponential (circular) ⇔ addition (parabolic)
+			- ((6716110c-1b10-41cc-9e26-c76ef782b6a3))
 		- DOING normed space + parallelogram law = inner product space
 		  collapsed:: true
 		  :LOGBOOK:
