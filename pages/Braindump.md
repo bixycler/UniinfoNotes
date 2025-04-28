@@ -598,24 +598,24 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-04-25 Fri 17:15:29]
 		  :END:
-	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Walking back to the office from the morning riverside sitting, i felt an urge to write down the complex of “free will” via ((671b160c-0589-4f83-a778-a9fb4df6783a)), ((66725144-6bc9-4c9f-ba48-2cef02651e52)), agency & ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
 		  id:: 67f72f21-c983-4734-b616-eca636a5cf9c
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-10 Thu 09:38:28]
 		  :END:
-			- DOING move main parts of this to ((67f9100a-b749-4354-ae16-92dc74ff27da))
-			  :LOGBOOK:
-			  CLOCK: [2025-04-11 Fri 19:52:29]
-			  CLOCK: [2025-04-11 Fri 19:52:31]
-			  :END:
 			- “free will” = “free” [((671b160c-0589-4f83-a778-a9fb4df6783a))] + “will” [intention, determination]
 				- free = independent = orthogonal = unrelated = separated
 				- will = intention = agency → determination = self-control → control → dominate → master
 			- Representative > agent > controller > master
 			- The “sense of agency” is more about “autonomy” (direct sense) than representativeness (indirect sense).
+			- DONE Main parts of this have been moved to ((67f9100a-b749-4354-ae16-92dc74ff27da)).
+			  :LOGBOOK:
+			  CLOCK: [2025-04-11 Fri 19:52:29]
+			  CLOCK: [2025-04-11 Fri 19:52:31]--[2025-04-28 Mon 21:03:55] =>  409:11:24
+			  :END:
+	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
