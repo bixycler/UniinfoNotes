@@ -1833,11 +1833,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.hirutv.lk/
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Hiru_TV
-				- DOING Hiru TV had an interview on April 24, the last day of the group on Sri Lanka
+				- DOING Hiru TV had an interview on April 24, the last day of the group in Sri Lanka.
 				  id:: 680a363b-c9ff-4f0a-8081-a3d4a16ade20
 				  :LOGBOOK:
 				  CLOCK: [2025-04-24 Thu 20:03:39]
 				  :END:
+				- Video: [Thầy Minh Tuệ trả lời phỏng vấn đài truyền hình Sri Lanka](https://youtu.be/hAO_SYW1O1k)
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-04-28 Mon 19:26:50]
+				  CLOCK: [2025-04-28 Mon 19:26:57]
+				  :END:
+					- {{video https://youtu.be/hAO_SYW1O1k}}
 			- Notes on names
 			  collapsed:: true
 				- Due to the non-tonal transcription of “Minh Tuệ” as “Minh Tue”, the name is usually mispronounced as /min tjuː/, like in “Tuesday”, instead of /mïŋ twe/.
