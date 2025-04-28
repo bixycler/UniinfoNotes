@@ -53,7 +53,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Argument(s) of a function is/are the one(s) determining the result value of the function.
 				- A logical statement is just a Boolean function $P: X → \{⊤, ⊥\}$ where $x ∈ X$ is the argument.
 				- A function, [originally](https://en.wikipedia.org/wiki/History_of_the_function_concept) as a “container of variables and parameters” (“hàm”, 函), has (result) value determined by the values of the variables. That's why (independent) variable value(s) is/are the argument(s) of function.
-			-
+			- Argument of complex number $φ = \arg(z)$ is the one determining the complexity of the number.
+				- $z = r⋅\exp(i⋅φ) = r⋅e^{i⋅φ}$: beside constants $i, e$ and pararmeter $r$, the **argument** $φ$ is the one that determines how much “complex” $z$ is by the angular distance from the real axis.
+				- Because the modulus $r$ is already the normal (real) number, leaving $φ$ the critical component
 			- Ref:
 				- [Why We Use "Argument" In Describing Complex Angles](https://www.math.toronto.edu/mathnet/questionCorner/argument.html)
 				  > To the best of our knowledge, the word argument was originally used by astronomers when referring to certain angles associated with orbits. ([argument of pericenter](https://en.wikipedia.org/wiki/Argument_of_periapsis))
