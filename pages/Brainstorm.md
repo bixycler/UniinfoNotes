@@ -24,13 +24,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- “v” /v/ → /ʋ/ → /bj/ → /βj/ → /j/
 				- [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) is between /v/ and /w/
 					- ((6809ac03-30d3-4ba7-8b9b-17e13732f9dd))
-	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
-	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
-		- DOING From [logical “argument”](https://en.wikipedia.org/wiki/Argument) in philosophy to [“argument of function”](https://en.wikipedia.org/wiki/Argument_of_a_function) and then [“argument of complex number”](https://en.wikipedia.org/wiki/Argument_(complex_analysis))
+		- From [logical “argument”](https://en.wikipedia.org/wiki/Argument) in philosophy to [“argument of function”](https://en.wikipedia.org/wiki/Argument_of_a_function) and then [“argument of complex number”](https://en.wikipedia.org/wiki/Argument_(complex_analysis))
 		  id:: 680b6063-e454-4cf6-835e-d6f726b8b871
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-04-25 Fri 17:15:36]
+		  CLOCK: [2025-04-25 Fri 17:15:36]--[2025-04-28 Mon 20:17:48] =>  75:02:12
 		  :END:
 			- **Logical argument** is the one determining the degree of truth of a statement called “conclusion”.
 				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “argument” ← “argue” ← French “arguer” ← Latin “arguere”: to make **reasoned** statements to prove or refute a proposition
@@ -55,10 +53,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- A function, [originally](https://en.wikipedia.org/wiki/History_of_the_function_concept) as a “container of variables and parameters” (“hàm”, 函), has (result) value determined by the values of the variables. That's why (independent) variable value(s) is/are the argument(s) of function.
 			- Argument of complex number $φ = \arg(z)$ is the one determining the complexity of the number.
 				- $z = r⋅\exp(i⋅φ) = r⋅e^{i⋅φ}$: beside constants $i, e$ and pararmeter $r$, the **argument** $φ$ is the one that determines how much “complex” $z$ is by the angular distance from the real axis.
-				- Because the modulus $r$ is already the normal (real) number, leaving $φ$ the critical component
+				- Because the modulus $r$ is already the normal (real) number, the phase $φ$ is the critical component for the complexity.
+				- Historically, astronomers had long ago used the term “argument” to indicate [the angle of the orbit plane](https://en.wikipedia.org/wiki/Argument_of_periapsis), which is the characteristic of the orbit.
 			- Ref:
 				- [Why We Use "Argument" In Describing Complex Angles](https://www.math.toronto.edu/mathnet/questionCorner/argument.html)
 				  > To the best of our knowledge, the word argument was originally used by astronomers when referring to certain angles associated with orbits. ([argument of pericenter](https://en.wikipedia.org/wiki/Argument_of_periapsis))
+	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
+	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- DOING [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
