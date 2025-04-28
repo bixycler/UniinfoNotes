@@ -32,7 +32,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-04-25 Fri 17:15:36]
 		  :END:
-			- **Logical argument** is the one determining the degree of truth of a statement called a conclusion.
+			- **Logical argument** is the one determining the degree of truth of a statement called “conclusion”.
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “argument” ← “argue” ← French “arguer” ← Latin “arguere”: to make reasoned statements to prove or refute a proposition
+				- Additional meaning in English
 			- Argument(s) of a function is/are the one(s) determining the result value of the function.
 				- A logical statement is just a Boolean function $P: X → \{⊤, ⊥\}$ where $x ∈ X$ is the argument.
 				- A function, originally
