@@ -52,7 +52,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- “disputation”: “thảo luận”
 			- Argument(s) of a function is/are the one(s) determining the result value of the function.
 				- A logical statement is just a Boolean function $P: X → \{⊤, ⊥\}$ where $x ∈ X$ is the argument.
-				- A function, originally as a “container of variables and parameters*”
+				- A function, [originally](https://en.wikipedia.org/wiki/History_of_the_function_concept) as a “container of variables and parameters” (“hàm”, 函), has (result) value determined by the values of the variables. That's why (independent) variable value(s) is/are the argument(s) of function.
+			-
 			- Ref:
 				- [Why We Use "Argument" In Describing Complex Angles](https://www.math.toronto.edu/mathnet/questionCorner/argument.html)
 				  > To the best of our knowledge, the word argument was originally used by astronomers when referring to certain angles associated with orbits. ([argument of pericenter](https://en.wikipedia.org/wiki/Argument_of_periapsis))
