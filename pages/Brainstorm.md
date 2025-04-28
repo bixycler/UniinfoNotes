@@ -44,7 +44,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- In contrast to “argue”, “debate” orginally meant “fight over” but now means [formal argument](https://en.wikipedia.org/wiki/Debate).
 						- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “debate” ← French “débattre” = “de” (down) + Latin “battuere” (beat) = “beat down”
 					- “Debate” versus “disputation”: while both include formal arguments about a topic, their goals are different: Debate is to refute the opponent, whereas disputation is to understand ideas better and to get closer to the truth.
-				- Vietnamese: “argument” = “lập luận”, “lý luận”, “lý lẽ”
+				- Vietnamese:
+					- “argument” (1): “lập luận”, “lý luận”, “lý lẽ”
+					- “argument” (2): “tranh cãi”; “quarrel” = “cãi vã”
+					- “debate”: “tranh luận”
+					- “disputation”: “thảo luận”
 			- Argument(s) of a function is/are the one(s) determining the result value of the function.
 				- A logical statement is just a Boolean function $P: X → \{⊤, ⊥\}$ where $x ∈ X$ is the argument.
 				- A function, originally
