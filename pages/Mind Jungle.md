@@ -376,9 +376,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f9100a-b749-4354-ae16-92dc74ff27da)), including both ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) and ((67f91050-a86c-4176-87ca-91010a8fe3c0)), are due to the ignorance of the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) about the ((67f90ce8-d597-47a0-ad73-43b9e546c096)) which is the source, the root of consciousness itself. This should be made clear with the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
 			- sense of agency
 			  id:: 67f91046-34ed-4bb4-a006-db2c33aeabf7
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the sense that “I am the one who is causing or generating my actions”, i.e. “I'm in control of my actions”. This sense is created by the matching between the sensory feedback resulting from the action and the .
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “I'm in control of my actions”. This sense is created by the matching between the sensory feedback resulting from the action and the intitiation of action, which is a part of the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
 			- sense of free will
 			  id:: 67f91050-a86c-4176-87ca-91010a8fe3c0
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91050-a86c-4176-87ca-91010a8fe3c0)) is the feeling that “I have [free will](https://en.wikipedia.org/wiki/Free_will)” which is the ability make conscious choices and decisions independently, without being determined by prior causes or external events or states of the universe.
 		- ### self-essence
 		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
