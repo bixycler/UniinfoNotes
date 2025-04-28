@@ -594,12 +594,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-04-24 Thu 14:01:22]
 		  :END:
-	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- From many appearances of the word “argument” in ((67e3b3e4-66d6-4c72-92d1-faeef2cf2165)), let's [relate them all together](((680b6063-e454-4cf6-835e-d6f726b8b871)))!
 		  :LOGBOOK:
 		  CLOCK: [2025-04-25 Fri 17:15:29]
 		  :END:
+	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Walking back to the office from the morning riverside sitting, i felt an urge to write down the complex of “free will” via ((671b160c-0589-4f83-a778-a9fb4df6783a)), ((66725144-6bc9-4c9f-ba48-2cef02651e52)), agency & ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
 		  id:: 67f72f21-c983-4734-b616-eca636a5cf9c
 		  collapsed:: true
