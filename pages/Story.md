@@ -1855,8 +1855,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  id:: 6809ac03-30d3-4ba7-8b9b-17e13732f9dd
 					- In the South Vietnamese tone, the sound "v" is also reduced to /ʋ/ or /bj/ or /βj/ and then /j/, e.g. "vô" /jo/.
 					  id:: 6809b3ac-8ea6-4cc8-8c79-8243a805a748
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- This afternoon, April 29, walking to the riverside for a noon nap, i coined the term “experientialism” to express my way of life.
 		  id:: 6810ae1c-f995-4f93-9793-8bd422760249
 		  collapsed:: true
@@ -1886,5 +1884,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The two are combined into a perfect whole, my way of life: Naturalism = Experientialism + Empiricism
 					- Vietnamese translations: Chủ nghĩa Tự nhiên = Chủ nghĩa Thể nghiệm + Chủ nghĩa Thực nghiệm
 					- The Naturalism is not only the [Western one](https://en.wikipedia.org/wiki/Naturalism_(philosophy)) with external science, but also the [Eastern one](https://en.wikipedia.org/wiki/Ziran) with internal science, like the Ziran (自然, tự nhiên) of Lao Tzu
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((680a363b-c9ff-4f0a-8081-a3d4a16ade20))
 		- ...
