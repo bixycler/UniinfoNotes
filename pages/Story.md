@@ -1877,12 +1877,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Experientialism - The Philosophy of Gen Z](https://braunshedd.com/philosophy-and-metaphysics/what-is-experientialism/) by Braun Shedd
 			- Compare “experientialism” with [“empiricism”](https://en.wikipedia.org/wiki/Empiricism), via discussion with Grok 3
 				- Both lay stress on experience, hence the same Vietnamese translation to “chủ nghĩa kinh nghiệm”.
-				- **Empiricism**, a.k.a. “”: Knowledge comes from sensory experience and observation; emphasizes objective evidence and scientific methods.
+				- **Empiricism**, a.k.a. “external science”: Knowledge comes from sensory experience and observation; emphasizes objective evidence and scientific methods.
 					- Methodology: Objective, often scientific; prioritizes repeatability and falsifiability.
 					- Better translations: “chủ nghĩa thực nghiệm”, “chủ nghĩa quan sát nghiệm chứng” (technical)
-				- **Experientialism**: Knowledge and meaning arise from lived, subjective experience; focuses on personal, holistic understanding.
+				- **Experientialism**, a.k.a. “internal science”: Knowledge and meaning arise from lived, subjective experience; focuses on personal, holistic understanding.
 					- Methodology: Subjective, interpretive; values personal narratives and context.
 					- Better translations: “chủ nghĩa thể nghiệm”, “chủ nghĩa cảm nghiệm” (deeper), “chủ nghĩa trải nghiệm” (casual)
-				- The
+				- The two are combined into a perfect whole, my way of life: Naturalism = Experientialism + Empiricism
+					-
 		- ((680a363b-c9ff-4f0a-8081-a3d4a16ade20))
 		- ...
