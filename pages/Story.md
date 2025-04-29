@@ -1833,7 +1833,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.hirutv.lk/
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Hiru_TV
-				- DOING Hiru TV had an interview on April 24, the last day of the group in Sri Lanka.
+				- WAIT Hiru TV had an interview on April 24, the last day of the group in Sri Lanka.
 				  id:: 680a363b-c9ff-4f0a-8081-a3d4a16ade20
 				  :LOGBOOK:
 				  CLOCK: [2025-04-24 Thu 20:03:39]
