@@ -361,12 +361,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66f273da-2bcc-449e-b0f6-83f384a57bfe
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667c015e-6223-4f8a-ae84-a93a49f4ff94))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) from that subject to itself. This circle can be extended to the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the "I", or can be ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))ed to the pure ((669a2697-56af-445c-9197-24aa498a5d5b)) within the subject, i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)), the "soul", the "spirit" in contrast to the ((66c810a0-9861-4787-bdcf-1378219332be)).
-		- ### self circle
+		- ### self-circle
 		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as itself and belonging to itself. There are various self circles:
 				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle self circle.
 				- Outside, we have many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
-				- Inside, we have many intensions of the body: ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
+				- Inside, we have many intensions of the body: ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)) (including [self-concept](https://en.wikipedia.org/wiki/Self-concept), [self-image]()), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
+		- ### self-structure
+		  id:: 6810ceeb-6af6-442b-9910-baae2c315c46
+		  :LOGBOOK:
+		  CLOCK: [2025-04-29 Tue 20:06:56]
+		  CLOCK: [2025-04-29 Tue 20:06:57]
+		  :END:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), i.e. the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)),
 		- ### sense of self
 		  id:: 67f9100a-b749-4354-ae16-92dc74ff27da
 		  :LOGBOOK:
@@ -411,7 +418,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- The argument of whether the ((66c8772a-9b29-45b0-b169-2fa847333e02)) is changing or unchanging, as in ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) versus Budda-nature versus [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) & [śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81), is meaningless due to its intrinsic liar paradox: the self-essence is itself not a concrete self, but just an abstraction of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). In other words, 
 			  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
-			- Hurricane's structure resembles the self's structure
+			- Hurricane's structure resembles the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
 			  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
 			  collapsed:: true
 				- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
