@@ -1884,6 +1884,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Methodology: Subjective, interpretive; values personal narratives and context.
 					- Better translations: “chủ nghĩa thể nghiệm”, “chủ nghĩa cảm nghiệm” (deeper), “chủ nghĩa trải nghiệm” (casual)
 				- The two are combined into a perfect whole, my way of life: Naturalism = Experientialism + Empiricism
-					-
+					- Vietnamese translations: Chủ nghĩa Tự nhiên = Chủ nghĩa Thể nghiệm + Chủ nghĩa Thực nghiệm
+					- The Naturalism is not only the [Western one](https://en.wikipedia.org/wiki/Naturalism_(philosophy)) with external science, but also the [Eastern one](https://en.wikipedia.org/wiki/Ziran) with internal science, like the Ziran (自然, tự nhiên) of Lao Tsu
 		- ((680a363b-c9ff-4f0a-8081-a3d4a16ade20))
 		- ...
