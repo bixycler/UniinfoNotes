@@ -370,7 +370,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as itself and belonging to itself. There are various self circles:
 				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle self circle.
 				- Outside, we have many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
-				- Inside, we have many intensions of the body: ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)) (including [self-concept](https://en.wikipedia.org/wiki/Self-concept), [self-image](https://en.wikipedia.org/wiki/Self-image), etc.), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
+				- Inside, we have many intensions of the body: ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)) (including [self-concept](https://en.wikipedia.org/wiki/Self-concept), [self-image](https://en.wikipedia.org/wiki/Self-image), [narative self](https://en.wikipedia.org/wiki/Narrative_identity), etc.), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
 		- ### self-structure
 		  id:: 6810ceeb-6af6-442b-9910-baae2c315c46
 		  :LOGBOOK:
@@ -392,29 +392,34 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Modified from [Hurricane-vi.svg](https://commons.wikimedia.org/wiki/File:Hurricane-vi.svg) < [Hurricane-en.svg](https://commons.wikimedia.org/wiki/File:Hurricane-en.svg)
 						  ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-09/Hurricane-structure-self-eye-vi.png)
 						- The storm's eye is used as a metaphor of the nirvāṇa in the 3rd part “**Thức định** (định vào cái thức, absorption into the consciousness, 👁/=)” of the blog post [3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html), similar to [a post by Michael Gerson](https://missionsixzero.com/the-eye-of-the-hurricane/).
-		- DOING ### sense of self
+		- ### sense of self
 		  id:: 67f9100a-b749-4354-ae16-92dc74ff27da
 		  :LOGBOOK:
 		  CLOCK: [2025-04-11 Fri 19:50:21]
 		  CLOCK: [2025-04-11 Fri 19:50:22]
 		  :END:
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f9100a-b749-4354-ae16-92dc74ff27da)), including both ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) and ((67f91050-a86c-4176-87ca-91010a8fe3c0)), are due to the ignorance of the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) about the ((67f90ce8-d597-47a0-ad73-43b9e546c096)) which is the source, the root of consciousness itself.
-				- TODO (This should be made clear with the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).)
-				- ((6810324e-f084-4693-b5cb-40778f4a6eee)) → ((6810327c-f633-4537-84a1-ca36a8d49d65)) [free] + ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will] → ((67f91050-a86c-4176-87ca-91010a8fe3c0)) → ((67f9100a-b749-4354-ae16-92dc74ff27da))
+				- TODO ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the self in the ((6810ceeb-6af6-442b-9910-baae2c315c46)) → ((6810324e-f084-4693-b5cb-40778f4a6eee)) → ((6810327c-f633-4537-84a1-ca36a8d49d65)) [free] + ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will] → ((67f91050-a86c-4176-87ca-91010a8fe3c0)) → ((67f9100a-b749-4354-ae16-92dc74ff27da))
 			- sense of wholeness
 			  id:: 6810324e-f084-4693-b5cb-40778f4a6eee
 			  :LOGBOOK:
 			  CLOCK: [2025-04-29 Tue 08:59:04]
 			  :END:
-				- TODO ((6810ceeb-6af6-442b-9910-baae2c315c46))
+				- TODO Sustained by ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the self in the ((6810ceeb-6af6-442b-9910-baae2c315c46))
 			- sense of separateness
 			  id:: 6810327c-f633-4537-84a1-ca36a8d49d65
 			  :LOGBOOK:
 			  CLOCK: [2025-04-29 Tue 08:59:04]
 			  :END:
+				- TODO sustained by [narative self](https://en.wikipedia.org/wiki/Narrative_identity), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
+				- the separate self first forms in the existential self which can be tested with the mirror test:
+				  https://online-learning-college.com/knowledge-hub/gcses/gcse-psychology-help/the-concepts-of-self-and-self-concept/
+				  https://www.simplypsychology.org/self-concept.html
+				- More about separateness: https://www.diamondapproach.org/glossary/refinery_phrases/separateness
+				- separateness + agency = [autonomy](https://en.wikipedia.org/wiki/Autonomy)
 			- sense of agency
 			  id:: 67f91046-34ed-4bb4-a006-db2c33aeabf7
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “I'm in control of my actions”. This sense is created by the matching between the sensory feedback resulting from the action and the intitiation of action, which is a part of the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “[I'm in control of my actions](https://en.wikipedia.org/wiki/Agency_(philosophy))”. This sense is created by the matching between the sensory feedback resulting from the action and the intitiation of action, which is a part of the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- While the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) has a strong sense of direct agency, actually it's just a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
 					  collapsed:: true
