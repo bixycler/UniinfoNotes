@@ -1869,5 +1869,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  > any doctrine or theory that maintains that personal experience is the only or the principal basis of knowledge.
 				- Experientialism [in learning](https://www.scribd.com/document/722055489/EXPERIENTIALISM-1) and [in teaching](https://sk.sagepub.com/ency/edvol/curriculumstudies/chpt/experientialism), i.e. “learning from experience”
 				- Experientialism in aesthetics: [A sensible experientialism?](https://onlinelibrary.wiley.com/doi/full/10.1111/phpr.12903) by James Grant
+				- Experientialism as a new wave of consumerism, mental consumerism
+					- This is the succesor of the previous wave: material consumerism (materialism)
+					- [Experientialism, Materialism, and the Pursuit of Happiness] by Leaf Van Boven University of Colorado
 		- ((680a363b-c9ff-4f0a-8081-a3d4a16ade20))
 		- ...
