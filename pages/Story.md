@@ -1857,5 +1857,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  id:: 6809b3ac-8ea6-4cc8-8c79-8243a805a748
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- This afternoon, April 29, walking to the riverside for a noon nap, i coined the term “experientialism” to express my way of
+		  id:: 6810ae1c-f995-4f93-9793-8bd422760249
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-29 Tue 17:47:02]
+		  :END:
+			-
 		- ((680a363b-c9ff-4f0a-8081-a3d4a16ade20))
 		- ...
