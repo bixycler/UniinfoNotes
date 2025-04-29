@@ -373,9 +373,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2025-04-29 Tue 20:06:56]
 		  CLOCK: [2025-04-29 Tue 20:06:57]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), i.e. the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)),
-			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), i.e. the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), contains the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) as the spatial slice as well ass the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)) through that slice.
 				- Note: This “self-structure”, the structure of the whole self, is wider than the [self-concept](https://en.wikipedia.org/wiki/Self-concept), also called “self-structure” elsewhere, which is the structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) only.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Hurricane's structure resembles the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
+				  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
+				  collapsed:: true
+					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
+					- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)).
+					- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the ((66c810a0-9861-4787-bdcf-1378219332be)).
+					- Blog post: [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
+					  collapsed:: true
+						- Modified from [Hurricane-vi.svg](https://commons.wikimedia.org/wiki/File:Hurricane-vi.svg) < [Hurricane-en.svg](https://commons.wikimedia.org/wiki/File:Hurricane-en.svg)
+						  ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-09/Hurricane-structure-self-eye-vi.png)
+						- The storm's eye is used as a metaphor of the nirvāṇa in the 3rd part “**Thức định** (định vào cái thức, absorption into the consciousness, 👁/=)” of the blog post [3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html), similar to [a post by Michael Gerson](https://missionsixzero.com/the-eye-of-the-hurricane/).
 		- ### sense of self
 		  id:: 67f9100a-b749-4354-ae16-92dc74ff27da
 		  :LOGBOOK:
@@ -417,20 +428,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c8772a-9b29-45b0-b169-2fa847333e02))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) is the Sanskrit term that refering to "essence, breath", đại ngã, linh hồn bất diệt (của Thượng Đế). In Mahayana Buddhism, the Sanskrit term svabhāva (स्वभाव) = pa. सभाव = zh. 自性 = vi. tự tánh is used to denote the [Buddha-nature](https://en.wikipedia.org/wiki/Buddha-nature) = [Brahman](https://en.wikipedia.org/wiki/Brahman) in Hinduism.
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66c8772a-9b29-45b0-b169-2fa847333e02)) is the pure ((669a2697-56af-445c-9197-24aa498a5d5b)) within the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). Self-essence is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) which cannot be seen directly and can only be felt indirectly via reflection.
-		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- The argument of whether the ((66c8772a-9b29-45b0-b169-2fa847333e02)) is changing or unchanging, as in ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) versus Budda-nature versus [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) & [śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81), is meaningless due to its intrinsic liar paradox: the self-essence is itself not a concrete self, but just an abstraction of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). In other words, 
-			  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
-			- Hurricane's structure resembles the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
-			  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
-			  collapsed:: true
-				- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
-				- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)).
-				- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the ((66c810a0-9861-4787-bdcf-1378219332be)).
-				- Blog post: [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
-				  collapsed:: true
-					- Modified from [Hurricane-vi.svg](https://commons.wikimedia.org/wiki/File:Hurricane-vi.svg) < [Hurricane-en.svg](https://commons.wikimedia.org/wiki/File:Hurricane-en.svg)
-					  ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-09/Hurricane-structure-self-eye-vi.png)
-					- The storm's eye is used as a metaphor of the nirvāṇa in the 3rd part “**Thức định** (định vào cái thức, absorption into the consciousness, 👁/=)” of the blog post [3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html), similar to [a post by Michael Gerson](https://missionsixzero.com/the-eye-of-the-hurricane/).
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- The argument of whether the ((66c8772a-9b29-45b0-b169-2fa847333e02)) is changing or unchanging, as in ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) versus Budda-nature versus [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) & [śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81), is meaningless due to its intrinsic liar paradox: the self-essence is itself not a concrete self, but just an abstraction of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). In other words, 
+				  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
 	- ## subject
 	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
 	  collapsed:: true
