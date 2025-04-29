@@ -1865,5 +1865,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- However, searching the Web, i acknowledged that the term “experientialism” has been established already.
 				- A stub on Wikipedia: [experientialism](https://en.wikipedia.org/wiki/Experientialism)
+				- [Dictionary's definition](https://www.dictionary.com/browse/experientialism)
+				  > any doctrine or theory that maintains that personal experience is the only or the principal basis of knowledge.
 		- ((680a363b-c9ff-4f0a-8081-a3d4a16ade20))
 		- ...
