@@ -363,6 +363,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) a ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) of a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is the ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) from that subject to itself. This circle can be extended to the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the "I", or can be ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))ed to the pure ((669a2697-56af-445c-9197-24aa498a5d5b)) within the subject, i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)), the "soul", the "spirit" in contrast to the ((66c810a0-9861-4787-bdcf-1378219332be)).
 		- ### self-circle
 		  id:: 669a5387-2a97-4311-a295-aa0afd9c4d76
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6810d7ab-c35d-491e-9e2d-95c3024c276e))
+			- spatial self
+			  id:: 6810d7ab-c35d-491e-9e2d-95c3024c276e
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a5387-2a97-4311-a295-aa0afd9c4d76))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as itself and belonging to itself. There are various self circles:
 				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle self circle.
 				- Outside, we have many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
@@ -373,7 +377,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2025-04-29 Tue 20:06:56]
 		  CLOCK: [2025-04-29 Tue 20:06:57]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), i.e. the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), contains all ((669a5387-2a97-4311-a295-aa0afd9c4d76))s as the spatial slice, called the “**spatial self**”, as well ass the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)) through that slice.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), i.e. the ((6678d596-9526-405a-968c-e73860e524f3)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), contains all ((669a5387-2a97-4311-a295-aa0afd9c4d76))s as the spatial slice, called the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)), as well ass the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)) through that slice.
 				- Note: This “self-structure”, the structure of the whole self, is wider than the [self-concept](https://en.wikipedia.org/wiki/Self-concept), also called “self-structure” elsewhere, which is the structure of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) only.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Hurricane's structure represents the ((6810ceeb-6af6-442b-9910-baae2c315c46)).
@@ -382,23 +386,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
 					- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)).
 					- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the ((66c810a0-9861-4787-bdcf-1378219332be)).
-					- Rising and falling air flows are **effect fluxes**, i.e. segments of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the spatial self.
+					- Rising and falling air flows are **effect fluxes**, i.e. segments of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)).
 					- Blog post: [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
 					  collapsed:: true
 						- Modified from [Hurricane-vi.svg](https://commons.wikimedia.org/wiki/File:Hurricane-vi.svg) < [Hurricane-en.svg](https://commons.wikimedia.org/wiki/File:Hurricane-en.svg)
 						  ![Hurricane-structure-self-eye-vi.png](../assets/Will/story/2024-09/Hurricane-structure-self-eye-vi.png)
 						- The storm's eye is used as a metaphor of the nirvāṇa in the 3rd part “**Thức định** (định vào cái thức, absorption into the consciousness, 👁/=)” of the blog post [3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html), similar to [a post by Michael Gerson](https://missionsixzero.com/the-eye-of-the-hurricane/).
-		- ### sense of self
+		- DOING ### sense of self
 		  id:: 67f9100a-b749-4354-ae16-92dc74ff27da
 		  :LOGBOOK:
 		  CLOCK: [2025-04-11 Fri 19:50:21]
 		  CLOCK: [2025-04-11 Fri 19:50:22]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f9100a-b749-4354-ae16-92dc74ff27da)), including both ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) and ((67f91050-a86c-4176-87ca-91010a8fe3c0)), are due to the ignorance of the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) about the ((67f90ce8-d597-47a0-ad73-43b9e546c096)) which is the source, the root of consciousness itself. This should be made clear with the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f9100a-b749-4354-ae16-92dc74ff27da)), including both ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) and ((67f91050-a86c-4176-87ca-91010a8fe3c0)), are due to the ignorance of the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) about the ((67f90ce8-d597-47a0-ad73-43b9e546c096)) which is the source, the root of consciousness itself.
+				- TODO (This should be made clear with the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).)
+				- ((6810324e-f084-4693-b5cb-40778f4a6eee)) → ((6810327c-f633-4537-84a1-ca36a8d49d65)) [free] + ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will] → ((67f91050-a86c-4176-87ca-91010a8fe3c0)) → ((67f9100a-b749-4354-ae16-92dc74ff27da))
 			- sense of wholeness
+			  id:: 6810324e-f084-4693-b5cb-40778f4a6eee
 			  :LOGBOOK:
 			  CLOCK: [2025-04-29 Tue 08:59:04]
 			  :END:
+				- TODO ((6810ceeb-6af6-442b-9910-baae2c315c46))
 			- sense of separateness
 			  id:: 6810327c-f633-4537-84a1-ca36a8d49d65
 			  :LOGBOOK:
