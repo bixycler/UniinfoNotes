@@ -1867,7 +1867,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- A stub on Wikipedia: [experientialism](https://en.wikipedia.org/wiki/Experientialism)
 				- [Dictionary's definition](https://www.dictionary.com/browse/experientialism)
 				  > any doctrine or theory that maintains that personal experience is the only or the principal basis of knowledge.
-				- Experientialism [in teaching](https://sk.sagepub.com/ency/edvol/curriculumstudies/chpt/experientialism), i.e. “learning from experience”
-				- Experientialism in aesthetics: [A sensible experientialism?]()
+				- Experientialism [in learning](https://www.scribd.com/document/722055489/EXPERIENTIALISM-1) and [in teaching](https://sk.sagepub.com/ency/edvol/curriculumstudies/chpt/experientialism), i.e. “learning from experience”
+				- Experientialism in aesthetics: [A sensible experientialism?](https://onlinelibrary.wiley.com/doi/full/10.1111/phpr.12903) by James Grant
 		- ((680a363b-c9ff-4f0a-8081-a3d4a16ade20))
 		- ...
