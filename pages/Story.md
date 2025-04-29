@@ -1875,8 +1875,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Experientialism, Materialism, and the Pursuit of Happiness](https://www.researchgate.net/publication/228299766_Experientialism_Materialism_and_the_Pursuit_of_Happiness) by Leaf Van Boven at University of Colorado
 					- [Spend less on stuff, more on experiences](https://www.theguardian.com/commentisfree/2015/feb/27/spend-less-on-stuff-experiences-materialism-experientialism) by James Wallman
 					- [Experientialism - The Philosophy of Gen Z](https://braunshedd.com/philosophy-and-metaphysics/what-is-experientialism/) by Braun Shedd
-			- Compare “experientialism” with  “empiricism”
+			- Compare “experientialism” with [“empiricism”](https://en.wikipedia.org/wiki/Empiricism), via discussion with Grok 3
 				- Both lay stress on experience, hence the same Vietnamese translation to “chủ nghĩa kinh nghiệm”.
-				-
+				- **Empiricism**, a.k.a. “”: Knowledge comes from sensory experience and observation; emphasizes objective evidence and scientific methods.
+					- Methodology: Objective, often scientific; prioritizes repeatability and falsifiability.
+					- Better translations: “chủ nghĩa thực nghiệm”, “chủ nghĩa quan sát nghiệm chứng” (technical)
+				- **Experientialism**: Knowledge and meaning arise from lived, subjective experience; focuses on personal, holistic understanding.
+					- Methodology: Subjective, interpretive; values personal narratives and context.
+					- Better translations: “chủ nghĩa thể nghiệm”, “chủ nghĩa cảm nghiệm” (deeper), “chủ nghĩa trải nghiệm” (casual)
+				- The
 		- ((680a363b-c9ff-4f0a-8081-a3d4a16ade20))
 		- ...
