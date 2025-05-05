@@ -433,7 +433,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- “represent” = “re-” + “present” = indirect form = “form of form”
 			- sense of free will
 			  id:: 67f91050-a86c-4176-87ca-91010a8fe3c0
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91050-a86c-4176-87ca-91010a8fe3c0)) is the feeling that “I have [free will](https://en.wikipedia.org/wiki/Free_will)” which is the ability make conscious choices and decisions independently, without being determined by prior or external causes. Here, “free will” = “free” [((671b160c-0589-4f83-a778-a9fb4df6783a))] + “will” [intention, determination, ((67f91046-34ed-4bb4-a006-db2c33aeabf7))].
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91050-a86c-4176-87ca-91010a8fe3c0)) is the feeling that “I have [free will](https://en.wikipedia.org/wiki/Free_will)” which is the ability make conscious choices and decisions independently, without being determined by prior or external causes. Here, “free will” = “free” [((671b160c-0589-4f83-a778-a9fb4df6783a)), ((6810327c-f633-4537-84a1-ca36a8d49d65))] + “will” [intention, determination, ((67f91046-34ed-4bb4-a006-db2c33aeabf7))].
 		- ### self-essence
 		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
