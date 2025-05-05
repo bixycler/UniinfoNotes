@@ -371,6 +371,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a5387-2a97-4311-a295-aa0afd9c4d76)) is the ((66c87463-4f07-420a-b12e-f456154f7dc8)) of everything that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) sees as itself and belonging to itself. There are various self circles:
 				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle self circle.
 				- Outside, we have many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
+					- These extensions are discussed in [Dialogical Self Theory](https://en.wikipedia.org/wiki/Dialogical_self).
 				- Inside, we have many intensions of the body: ((67f90bf0-ebcd-46fa-b99d-eda9bbbd3522)) (including [self-concept](https://en.wikipedia.org/wiki/Self-concept), [self-image](https://en.wikipedia.org/wiki/Self-image), [narative self](https://en.wikipedia.org/wiki/Narrative_identity), etc.), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
 		- ### self-structure
 		  id:: 6810ceeb-6af6-442b-9910-baae2c315c46
