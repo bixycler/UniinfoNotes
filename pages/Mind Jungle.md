@@ -436,12 +436,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2025-04-29 Tue 08:59:04]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Based on the ((6810324e-f084-4693-b5cb-40778f4a6eee)), the self can exist on itself, though temporarily, hence the feeling of ((671b1eef-0820-4e03-8e8f-e9342ca18b26)) and the ((6810327c-f633-4537-84a1-ca36a8d49d65)). This independency and sense of separateness will be developed throughout the process of [individuation](https://en.wikipedia.org/wiki/Individuation), where various internal self-circles are developed to furture sustain the self: [narative self](https://en.wikipedia.org/wiki/Narrative_identity), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
-				- the separate self first forms in the existential self which can be tested with the mirror test:
-				  https://online-learning-college.com/knowledge-hub/gcses/gcse-psychology-help/the-concepts-of-self-and-self-concept/
-				  https://www.simplypsychology.org/self-concept.html
-				- More about separateness: https://www.diamondapproach.org/glossary/refinery_phrases/separateness
-				- separateness + agency = [autonomy](https://en.wikipedia.org/wiki/Autonomy)
+				- serparate self
+				  id:: 6818a87d-bcad-402a-9703-c5318a477c5b
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Based on the ((6810324e-f084-4693-b5cb-40778f4a6eee)), the self can exist on itself, though temporarily, hence the feeling of ((671b1eef-0820-4e03-8e8f-e9342ca18b26)) and the ((6810327c-f633-4537-84a1-ca36a8d49d65)), i.e. “I have a ((6818a87d-bcad-402a-9703-c5318a477c5b))”. This independency and separate self will be developed throughout the process of [individuation](https://en.wikipedia.org/wiki/Individuation), where various internal self-circles are developed to furture sustain the self: [narative self](https://en.wikipedia.org/wiki/Narrative_identity), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), etc. The sense of separateness increases with the complexity of the self-circles.
+					- The separate self first forms in the “existential self” around  which can be tested with the mirror test:
+					  https://online-learning-college.com/knowledge-hub/gcses/gcse-psychology-help/the-concepts-of-self-and-self-concept/
+					  https://www.simplypsychology.org/self-concept.html
+					- More about separateness: https://www.diamondapproach.org/glossary/refinery_phrases/separateness
+					- separateness + agency = [autonomy](https://en.wikipedia.org/wiki/Autonomy)
 			- sense of agency
 			  id:: 67f91046-34ed-4bb4-a006-db2c33aeabf7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that [“I am the one who is causing or generating my actions”](https://en.wikipedia.org/wiki/Sense_of_agency), i.e. [“I'm in control of my actions”](https://en.wikipedia.org/wiki/Self-agency). This sense is created by the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) at the center of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)). This sense is qualified by the match between the sensory feedback resulting from the action, i.e. the observing side, and the intitiation of action, i.e. the operating side. This match confirms the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) and closes the effect circle.
