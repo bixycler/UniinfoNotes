@@ -16,22 +16,116 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  CLOCK: [2025-01-10 Fri 18:40:54]--[2025-01-10 Fri 19:27:42] =>  00:46:48
 		  CLOCK: [2025-01-13 Mon 19:05:31]--[2025-01-13 Mon 20:14:12] =>  01:08:41
 		  :END:
+		- DONE [Set alarms](((67d102f2-8eb1-440f-8981-abe4d0f1993e))) for [microresetting](((67cff615-ec0d-4831-9851-59410cb89cf1))) & miniresetting
+		  id:: 67d10c06-3fe3-4691-95c0-84278a2dc713
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-03-12 Wed 11:27:07]--[2025-03-12 Wed 11:27:08] =>  00:00:01
+		  CLOCK: [2025-03-13 Thu 14:24:55]--[2025-03-13 Thu 16:28:58] =>  02:04:03
+		  CLOCK: [2025-03-13 Thu 17:54:04]--[2025-03-14 Fri 13:53:21] =>  19:59:17
+		  :END:
+			- Every 30 mins
+			- First i tried using Gnome Clock, but its alarm has notification level `normal` which disappears after just 3 seconds ⇒ Missed all the time 🙁!
+			- Now, i call ~~`notify-send` directly with `-u critical`~~ `zenity` to have the notification stick there until i close it.
+			  :LOGBOOK:
+			  CLOCK: [2025-03-13 Thu 14:29:13]
+			  :END:
+				- ![microreset.sh](../assets/Linux/scripts/microreset.sh) with `crontab`, storing history to [microreset.log](../assets/Will/microreset.log) as a TSV table.
+				  ```crontab
+				  00,30 9-20  *   * 1-5 /home/dinhlx/.local/bin/microreset.sh 2>&1 >> /tmp/cron.log
+				  ```
+				- Icons: ![colors-chromagreen.png](../assets/Will/story/2025-03/colors-chromagreen.png), ![user-available.svg](../assets/Will/story/2025-03/user-available.svg), ![Power-Restart.png](../assets/Will/story/2025-03/Power-Restart.png){:width 32}
+				  collapsed:: true
+					- `system-log-out` ![system-log-out](../assets/Will/story/2025-03/system-log-out.png)
+					- `edit-redo-rtl` ![edit-redo-rtl](../assets/Will/story/2025-03/edit-redo-rtl.png)
+					- `view-refresh` ![view-refresh](../assets/Will/story/2025-03/view-refresh.png)
+					- `emblem-new` ![emblem-new](../assets/Will/story/2025-03/emblem-new.png)
+					- `face-smile` ![face-smile](../assets/Will/story/2025-03/face-smile.png)
+				- Oh, `notify-send` must be [configured a lot](https://askubuntu.com/questions/298608/notify-send-doesnt-work-from-crontab) to work under cron job.
+				  ⇒ Just use ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) instead!
+					- Working config:
+					  ```sh
+					  DISPLAY=:0
+					  DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+					  # 1001 = $(id -u dinhlx)
+					  ```
+					- My `env`
+					  ```sh
+					  $ env |grep -E 'DBUS|DISPLAY'
+					  DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+					  DISPLAY=:0
+					  GNOME_SETUP_DISPLAY=:1
+					  WAYLAND_DISPLAY=wayland-0
+					  ```
+					- Issues:
+						- ((67d3a821-ed1c-48d5-a935-bfab8a57cd8e))
+						  collapsed:: true
+							- ⇒ add a short-timeout window before the main `zenity` notification window to capture accidental inputs from user, if any.
+							  id:: 67eb65bc-78a4-4e6d-8a3c-dcc171b71235
+							  :LOGBOOK:
+							  CLOCK: [2025-04-01 Tue 11:04:18]--[2025-04-01 Tue 15:34:35] =>  04:30:17
+							  :END:
+								- ```sh
+								  ( sleep 3; echo 100 ) |
+								  zenity --progress --no-cancel --auto-close --percentage=50 --width=500 --text="$msg"
+								  ```
+						- `zenity` has "option" collision with `-1`, _even after `--`!_ 
+						  ⇒ Add a space before -1: ` -1`
+			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced with a cron job or Logseq API call `UI.showMsg()`
+			  id:: 67d28149-2a8a-44f0-9c12-e51741c3d9d2
+			  :LOGBOOK:
+			  CLOCK: [2025-03-13 Thu 14:22:31]
+			  :END:
+				- E.g.
+				  ```crontab
+				  00 10  *   * 1-5 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus /usr/bin/notify-send -u critical -i /home/dinhlx/Pictures/emblem-generic.png 'Back to WORK!'
+				  30 10  *   * 1-5 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus /usr/bin/notify-send -u critical -i /home/dinhlx/Pictures/emblem-important.png 'Back to WORK! NOWWW!!!'
+				  ```
+				- Icons:
+					- `emblem-generic` ![system-log-out](../assets/Will/story/2025-03/emblem-generic.png)
+					- `emblem-important` ![system-log-out](../assets/Will/story/2025-03/emblem-important.png)
+			- The old reminders in ((6773d98a-3917-4267-9f8b-7d86b84d3663)) previously:
+			  id:: 67d2a63d-58de-4dbe-bbec-3ec8625737c7
+				- Reminder messages
+				  id:: 67850fb1-04a9-427f-bc0d-f61913d86e4b
+				  collapsed:: true
+					- Back to WORK!
+					  id:: 67850c3d-a026-43a0-8fb8-1febf398bd65
+					  scheduled:: <2025-02-03 xxx 13:00>
+					  DEADLINE:: <2025-02-03 xxx 17:00>
+					- id:: 67850fd2-272d-48fa-9d7c-c649619b5a89
+					  #+BEGIN_CAUTION
+					  [:b {:style "background-color:Orange; color:DarkRed"} " Back to WORK! "]
+					  #+END_CAUTION
+					- id:: 67850fe1-3e22-430e-9af9-a84853766dd7
+					  #+BEGIN_WARNING
+					  [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ Back to WORK !!! "]
+					  #+END_WARNING
+				- #### Reminder
+				  id:: 67850c24-b1c9-425a-abc2-af81243befb2
+				  collapsed:: true
+					- {{deadline-warning ((67850fb1-04a9-427f-bc0d-f61913d86e4b)), 67850c3d-a026-43a0-8fb8-1febf398bd65, 67850fd2-272d-48fa-9d7c-c649619b5a89, 67850fe1-3e22-430e-9af9-a84853766dd7}}
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
+		- TODO Add logical symbols & perp (⟂) to ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		- TODO Add ((66533703-505d-432d-8368-6058eefb45f6)) to [[logseq/config.edn]] commands
 		  id:: 67764f3d-c6b3-4f00-a53f-ec4dab0920f9
 		  :LOGBOOK:
 		  CLOCK: [2025-01-13 Mon 20:14:46]--[2025-01-13 Mon 20:27:13] =>  00:12:27
 		  :END:
+		- TODO Modify `{{search-query}}` to deal with delimiters.
+		  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
+		- TODO Copy [Chuyện Búi Chỉ](https://creatzyitnotes.blogspot.com/2009/11/chuyen-bui-chi.html) to  [CreatZy Notes](https://creatzynotes.blogspot.com/)
+		  id:: 67b989a4-a041-4511-abe5-77c785ca2d67
+		- ...
+	- ## Future Tasks
+	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9
 		- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 		  id:: 6772a6c7-f434-4911-9fa2-939b8db20c42
 			- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
 			- ((67715d03-9dbc-42b0-8589-064396a9c52b))
-				- Here i'm planning for the task of designing master plan! 😉
+				- Here i'm planning for the task of designing the master plan itself! 😉
 			- ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) & ((67760c43-58c6-40eb-b874-40afae448966))
-		- ...
-	- ## Future Tasks
-	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9
 		- ((671b29b6-68f7-47e1-b79c-f4d6284690a2))
 		- ((66e3c1b8-eb83-47d6-b71e-193549b47f93))
 		- WAIT symbols for ((66c8941d-6427-4e5c-9009-3af349500d7b))

@@ -39,7 +39,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- Nhắc lại cái luồng mấy hôm nay mình cũng đang "lật mặt" trái ra cho các bạn, từ Tú Trung mấy tháng trước, tới em Hằng ở tuần trước và cho Huy mấy hôm nay.
 			- Bỗng mình thấy lại hình tượng con đĩ nhỏ làm bà mẹ đơn thân ôm cái bụng bầu đi lang thang chẳng nơi nào nhận....
 			- Thế là lần thứ 2 mình trào nước mắt quay lại khóc cho bản thân và những số phận của những cá nhân nhỏ bé (từ khi dậm chưn trên di-văng ở nhà hồi lớp 9 tuyên bố không khóc [tự ái cho bản thân] nữa.)
-				- Lần thứ 1 là đợt em nhập viện mổ ruột thừa, mình ở nhà xem thầy Minh Tuệ xong thì lan qua xem bộ phim tâm lý tình cảm ["Tiếng Sét Trong Mưa"](https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_s%C3%A9t_trong_m%C6%B0a)... và đã khóc ngất cho tất cả những mảnh đời đó, đi tâm hành lại, nhập lại tất cả các vai đó, từ Cậu 3 bạo lực đập đầu con ở tới con ở - mợ 3 Thị Bình, rồi thằng ở đợ Lũ, con ở Hiểm, bà hội đồng, v.v.
+				- Lần thứ 1 là đợt em nhập viện mổ ruột thừa, mình ở nhà xem thầy Minh Tuệ xong thì lan qua xem bộ phim tâm lý tình cảm ["Tiếng Sét Trong Mưa"](https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_s%C3%A9t_trong_m%C6%B0a)... và đã khóc ngất cho tất cả những mảnh đời đó, đi tâm hành lại, nhập lại tất cả các vai đó, từ Cậu 3 bạo lực đập đầu con ở, tới con ở - mợ 3 Thị Bình, rồi thằng ở đợ Lũ, con ở Hiểm, bà hội đồng, v.v.
 				  id:: 6772a6d5-567f-4e51-9b49-dfbb7557105e
 	- DONE Last weekend, my wife caught a cold after some days relaxing, then hospitalized due to [lung abscess](https://en.wikipedia.org/wiki/Lung_abscess).
 	  id:: 66ab33e0-7646-4340-bdbc-28d581d1655d
@@ -153,7 +153,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			  https://youtu.be/OEhTuft8BVE
 			- Hồi đó xem thì chỉ biết Diệp Vấn là 1 nhân vật trong phim, giờ mới biết ông là sư phụ đời thứ 7 của Vịnh Xuân quyền. Diệp Vấn là sư phụ bên Hồng Kông, ngang với Nguyễn Tế Công là sư phụ (đời 7) sư phụ VXQ bên VN.
 			- Và thú vị là ngoài những sư phụ lịch sử thì các đời đầu được cho là xuất phát từ các tổ sư truyền thuyết... là nữ: Đời 1 là Nghiêm Vịnh Xuân, vợ của Lương Bác Trù (đời 2), và "đời 0" tức tiền thân của Vịnh Xuân quyền là Ngũ Mai Sư thái là một sư cô (ni sư) trong Thiếu Lâm Ngũ tổ của Nam quyền !🙂
-			- ![](../assets/Will/story/2023-Dec/410231658_3201771263457877_3085375095946648820_n.jpg)
+			- ![](../assets/Will/story/2023-12/410231658_3201771263457877_3085375095946648820_n.jpg)
 			- Xin mời người có trải nghiệm VXQ cho ý kiến !🙂 [@Hiep Bobo Do](https://www.facebook.com/798673023/)
 			- Gia thoại về Ngũ Mai Sư thái cũng lạ, vì thường chỉ nghe nói tới các sư thầy (nam) trong chùa Thiếu Lâm. Hiện tại thì thấy có các chùa ni (nữ) trong dòng Drukpa (mật tông ở Tây Tạng, Bhutan, Nepal) là có tập kungfu. Và truy ra thì.... nó đi từ chùa Nam Thiếu Lâm xuống Việt Nam rồi mới qua lại Nepal: [https://content.time.com/time/world/article/0,8599,2003009,00.html](https://content.time.com/time/world/article/0,8599,2003009,00.html?fbclid=IwZXh0bgNhZW0CMTAAAR2WU7dL-ZWMhSpwxPBhljidP20I2S1j0h3oMn-8rPZcCAeLtXGbiWYT7c0_aem_FkY5mG2D6ngIX-_6bVZHFQ)
 			  collapsed:: true
@@ -208,7 +208,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  đó là ông, ông lại duy ra nguoi khác. cái này ba Trung đoạn trên nói maci rồi
 		  **nói chung nc trên này tôi cũng bắt đầu thấy chán bỏ mẹ**
 		- Trung:
-		  ![](../assets/Will/story/2023-Dec/411727166_3169229470052027_2029056661328508715_n.jpg)
+		  ![](../assets/Will/story/2023-12/411727166_3169229470052027_2029056661328508715_n.jpg)
 		- Sang:
 		- Nhìn tấm ảnh chị gửi, mà liên tưởng ngay đến clip này
 		  [Những kiểu người giàu nhưng không có tiền!](https://www.facebook.com/watch/?v=1390411028220363)
@@ -232,7 +232,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		- Định: **Chủ đề giàu/nghèo này nhạy cảm nên anh ít khi đụng tới**. Nay Sang chủ động chia sẻ thì anh cũng mởi ra một ít như thế này:
 		  collapsed:: true
 			- 1. Theo nghĩa hẹp và phổ thông nhứt thì giàu/nghèo là có nhiều/ít tài sản vật chất. Vì tài sản vật chất đều có thể quy ra tiền (tiếng Anh gọi là "hoá lỏng", "liquidate", dịch thuật ngữ kinh tế là "thanh lý", "thanh toán") nên đây cũng là thước đo chính xác nhứt, vì nó ra con số cụ thể rõ ràng.
-			- ![Liquidation](../assets/Will/story/2023-Dec/Liquidation-410099064_1096396218470719_1703045870467255964_n.png)
+			- ![Liquidation](../assets/Will/story/2023-12/Liquidation-410099064_1096396218470719_1703045870467255964_n.png)
 			- id:: 66bad570-4aa6-4a45-87d3-52fd1fff85a4
 			  2. Theo nghĩa rộng hơn một chút, 
 			  như trong clip Sang gửi thì nói về ***khả năng*** tạo ra của cải vật chất. Vì cái khả năng, tiềm năng là cái ẩn giấu không hiển lộ rõ ràng nên khó đo lường, và tuỳ vào "con mắt" của người nhìn. Kiểu như Kiều nhận ra được Từ Hải là đấng anh hùng từ trong lúc hắn còn là hạt bụi "Anh hùng đoán giữa trần ai mới già!" Thế nên mỗi người thấy 1 kiểu, không thể nói chính xác và thống nhứt được, và cũng không ít người nhìn lầm, đầu tư vào "nó" để rồi rốt cuộc vỡ mộng "nó" chẳng làm được gì cả. Bản thân anh có trải nghiệm này ít nhiều, nhận được không ít sự thất vọng từ gia đình tới bạn bè. 😃
@@ -519,27 +519,29 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 				- 2. Người đời chỉ thích cái gì nhanh gọn lẹ, ngon bổ rẻ, nên Đại thừa cũng phải tạo trend kiểu tiktok cho đại chúng. VD nói về lý Duyên khởi hay Duyên hợp hay "vạn vật đều do nhân duyên sinh ra" thì vừa khó hiểu, vừa dài dòng, lại vừa quá tầm thường chẳng có gì là "Phật pháp nhiệm mầu" cả. Cái người đời cần không phải là hiểu mà là chỗ dựa tâm linh và kết quả giải thoát. Nên các tổ sư Đại thừa mới quán xem người đời chấp cái gì thì chế ra cái phương tiện để phá cái chấp đó trước:
 					- Tuyệt đại đa số người đời đều chấp "có", từ có tài sản tới có thân này (là tôi, là bất khả xâm phạm), có tâm này (là tôi, là hiển nhiên đúng). Người ta không nô lệ cho thứ gì khác ngoài những thứ mình cho là "có". Vậy thì phải lấy cái "không" làm gốc của mọi phương tiện phá chấp, đưa đến giải thoát, nên hình thành triết lý "tính Không". À, cái người đang đứng rõ ràng trước mặt đó mà ông sư bảo là "không có" thì quả thực cái thấy của sư là siêu phàm rồi, phải theo thầy cầu giải thoát thôi 😊, thế là 1 ông thầy thu nạp được 1 vạn Phật tử.
 					- Tuyệt đại đa số người đời đều chấp vào 2 thái cực đúng/sai, tốt/xấu, v.v. nhưng Trong một vạn Phật tử học được chữ đầu tiên "Không" thì chỉ may lắm được 10% là theo thầy để học câu tiếp theo (lớp 2): Có cũng là không, không cũng là có! 1 ngàn Phật tử  lớp 2 đó học tới đây thì há hốc mồm, hóa ra bấy nay mình cho rằng giải thoát là phải thấy mọi thứ là không, phải buông bỏ hết, là chưa đúng, đúng ra phải là "có cũng là không, không cũng là có"... thiệt là thâm sâu huyền diệu (tuy đéo hiểu gì đâu, nhưng) cứ theo thầy để học, ráng một tháng dành ra 3 ngày ăn chay niệm Phật đồ... thế nào cũng được giải thoát mà! (Thầy và kinh điển Đại thừa hứa như vậy)
-					- Trong một ngàn Phật tử lớp 2 thì chỉ khoảng 1 trăm người thực hành cái mình học được... trong đó khoảng mười người là bị phản tác dụng, càng thực hành càng khổ, thì mới lên hỏi lại thầy:
-						- Sao con nghe thầy giảng kinh bát nhã là kinh đỉnh cao trí tuệ (bát nhã = pra-nha = trí tuệ) mà con thực hành y theo kinh lại không được giải thoát gì hết?!
-						- Thầy mới hỏi "con thực hành thế nào?"
-						- Thì con kẹt tiền quá nên con cầu Phật gia hộ, cái lúc ra quán ăn con liền thấy bàn bên cạnh có cái điện thoại để không, cái con quán 'người có điện thoại cũng là không có, điện thoại có chủ cũng là vô chủ, mình lấy đi bán giải quyết vấn đề là việc xấu mà cũng là việc tốt', xong cái con cầm nó đi một cách nhẹ nhàng không thấy khó khăn gì cả. Nhưng sau đó con lại bị mấy người xấu tính chỉ điểm cho thằng chủ nó kiếm con nó đòi lại điện thoại còn đánh cho con bầm dập nữa 🙁
-						- Thầy nghe kể chuyện như trò hề, nhưng thầy không cười chê vì đây mà một trong rất ít người thực hành, nên thầy kiên nhẫn hỏi tiếp: "Vậy giờ con quán xem, con bị đánh có đau không?"
-						- Trời ơi thầy bị mù hả, con máu me bầm dập vầy mà thầy còn hỏi kiểu đó, con là người chứ phải gỗ đá đâu mà không đau?
-						- Thầy chỉ hỏi thôi mà, con cứ trả lời thật lòng, đau thì nói "có đau", đừng tức giận.
-						- Dạ con đau lắm!
-						- Vậy con có quán thấy rằng "đau lắm cũng là không đau" được không?
-						- Thua! Dạ cái này con bó tay rồi thầy ơi!
-						- Vậy con thử hình dung về người chủ điện thoại xem anh ta đánh con thì anh ta có đau không?
-						- Không! Nó đánh con đã tay muốn chết, con đâu có đánh trả lại đâu mà nó đau!?!
-						- Vậy thì cùng một vết thương này nhưng vừa có đau, là con thấy đau, mà cũng vừa không đau, là người đánh không thấy đau. Con rõ chưa?
-						- À! Thì ra nó là như vậy! Vậy đó giờ con hiểu sai rồi!! ![🙁](https://static.xx.fbcdn.net/images/emoji.php/v9/tcb/1/16/1f641.png)
-						- Sai nhưng không hoàn toàn sai: Người chủ điện thoại đó đánh con vì anh ta cũng bị đau, vì đau đớn khi mất điện thoại nên mới đánh con, anh ta càng đau xót về cái điện thoại của mình thì càng đánh con mạnh, nghĩa là anh ta chỉ chuyển cái đau từ chỗ này sang chỗ khác thôi. Tức là trong cùng một việc đánh con, anh ta vừa đau mà cũng vừa không biết đau, đau vì mất điện thoại và không biết đau cho con là người bị đánh.
-						- Ồ sao nó lắt léo quá vậy thầy?!
-						- Thì đỉnh cao trí tuệ là kết tinh của cả trời đất mà con nghĩ sao lại không rắc rối phức tạp?!
-						- Tại con thấy kinh Bát nhã ghi có mấy câu đơn giản thôi mà.
-						- Thì đó là để cho con dễ nhớ thôi, vậy mà có được mấy người nhớ đâu, trong mấy người nhớ có mấy người thực hành đâu. Có thực hành thì mới biết mình hiểu đúng hiểu sai chỗ nào chứ.
-						- Dạ vậy để con xác nhận cái con hiểu với thầy trước rồi sẽ thực hành, thực hành rồi sẽ quay lại hỏi thầy thêm.
-						- .... [Hai thầy trò tâm sự còn dài lắm]
+					- Trong một ngàn Phật tử lớp 2 thì chỉ khoảng 1 trăm người thực hành cái mình học được... trong đó khoảng mười người là bị phản tác dụng, càng thực hành càng khổ, thì mới lên hỏi lại thầy: ((67b183f0-c771-49d7-ba8e-d618eb5e07dc))
+		- Đối thoại giữa 2 thầy trò qua bài học từ trong thực tế cuộc sống đầy đau khổ:
+		  id:: 67b183f0-c771-49d7-ba8e-d618eb5e07dc
+			- Sao con nghe thầy giảng kinh Bát Nhã là kinh đỉnh cao trí tuệ (bát nhã = pra-nha = trí tuệ) mà con thực hành y theo kinh lại không được giải thoát gì hết?!
+			- Thầy mới hỏi "con thực hành thế nào?"
+			- Thì con kẹt tiền quá nên con cầu Phật gia hộ, cái lúc ra quán ăn con liền thấy bàn bên cạnh có cái điện thoại để không, cái con quán "người có điện thoại cũng là không có, điện thoại có chủ cũng là vô chủ, mình lấy đi bán giải quyết vấn đề là việc xấu mà cũng là việc tốt", xong cái con cầm nó đi một cách nhẹ nhàng không thấy khó khăn gì cả. Nhưng sau đó con lại bị mấy người xấu tính chỉ điểm cho thằng chủ nó kiếm con nó đòi lại điện thoại còn đánh cho con bầm dập nữa 🙁
+			- Thầy nghe kể chuyện như trò hề, nhưng thầy không cười chê vì đây mà một trong rất ít người thực hành, nên thầy kiên nhẫn hỏi tiếp: "Vậy giờ con quán xem, con bị đánh có đau không?"
+			- Trời ơi thầy bị mù hả, con máu me bầm dập vầy mà thầy còn hỏi kiểu đó, con là người chứ phải gỗ đá đâu mà không đau?
+			- Thầy chỉ hỏi thôi mà, con cứ trả lời thật lòng, đau thì nói "có đau", đừng tức giận.
+			- Dạ con đau lắm!
+			- Vậy con có quán thấy rằng "đau lắm cũng là không đau" được không?
+			- Thua! Dạ cái này con bó tay rồi thầy ơi!
+			- Vậy con thử hình dung về người chủ điện thoại xem anh ta đánh con thì anh ta có đau không?
+			- Không! Nó đánh con đã tay muốn chết, con đâu có đánh trả lại đâu mà nó đau!?!
+			- Vậy thì cùng một vết thương này nhưng vừa có đau, là con thấy đau, mà cũng vừa không đau, là người đánh không thấy đau. Con rõ chưa?
+			- À! Thì ra nó là như vậy! Vậy đó giờ con hiểu sai rồi!! ![🙁](https://static.xx.fbcdn.net/images/emoji.php/v9/tcb/1/16/1f641.png)
+			- Sai nhưng không hoàn toàn sai: Người chủ điện thoại đó đánh con vì anh ta cũng bị đau, vì đau đớn khi mất điện thoại nên mới đánh con, anh ta càng đau xót về cái điện thoại của mình thì càng đánh con mạnh tay. Nghĩa là anh ta chỉ chuyển cái đau từ chỗ này sang chỗ khác thôi. Tức là trong cùng một việc đánh con, anh ta vừa đau mà cũng vừa không biết đau, đau vì mất điện thoại và không biết đau cho con là người bị đánh.
+			- Ồ sao nó lắt léo quá vậy thầy?!
+			- Thì đỉnh cao trí tuệ là kết tinh của cả trời đất mà con nghĩ sao lại không rắc rối phức tạp?!
+			- Tại con thấy kinh Bát nhã ghi có mấy câu đơn giản thôi mà.
+			- Thì đó là để cho con dễ nhớ thôi, vậy mà có được mấy người nhớ đâu, trong mấy người nhớ có mấy người thực hành đâu. Có thực hành thì mới biết mình hiểu đúng hiểu sai chỗ nào chứ.
+			- Dạ vậy để con xác nhận cái con hiểu với thầy trước rồi sẽ thực hành, thực hành rồi sẽ quay lại hỏi thầy thêm.
+			- .... [Hai thầy trò tâm sự còn dài lắm]
 	- Tự sự về giác ngộ đầu tiên về "con đường giải thoát từng bước một"
 	  id:: 66bc67f4-e5ac-4bb6-9979-3ff199815c2e
 	  collapsed:: true
@@ -559,7 +561,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		- Thế là lên ĐH rồi qua Nhựt, cắm mặt trong học, và nghiên cứu khoa học gì đó, chả còn nhớ gì tới đạo nữa.... bỗng một hôm đang nghiên cứu về các tôn giáo trên thế giới, từ họ đạo khổng lồ chung một gốc tổ phụ Abraham (Do thái, Hồi, Thiên Chúa), tới họ đạo bên Ấn Độ... tới trang wiki Phật giáo... thấy nổi lên nào là Tứ Diệu Đế, Bát Chánh Đạo nghe lạ quá, sao mình biết đạo phật từ bé tới giờ mà lại chẳng biết mấy cái này nhỉ? Đọc vào thì tới đâu thấm tới đó, thấy quả đúng là cái tinh hoa của Phật mà mình cảm thấy sơ sơ qua băng thầy Thanh Từ giảng ngày xưa... Lúc đó mình mới ngộ ra rằng thì ra cái gốc nó quá xa và khác biệt với cái mớ cành lá sum suê ngoài kia (những thứ hình thức "tào lao" mà mình đã ghét).
 		- chạm được tới gốc (một cách vô tình), mình mới vỡ oà, cảm thấy tâm phục khẩu phục, thấy thật là tuyệt vời, và qua đó mình mới quay lại nhìn về cái tán lá sum suê của đạo phật phát triển để thông cảm cho nó, rằng những thứ "tào lao" kia là sự phát triển để vươn cành lá tới gần với đại chúng, phải có những thứ "giả tạo" kia để phù hợp với căn cơ của đại chúng.
 		  ==> cái đầu tiên mình tháo gỡ được là sự bài xích, tâm bực bội với những kiểu "tu mà còn tệ hơn cả đời", nhờ biết rằng đó là phần rất rất đời chứ ko phải là gốc của đạo, nhưng đạo phải đi từ đời ra nên phải có những phần gần đời như vậy, tại mình quá khác biệt với đời nên mới thấy khó chịu thôi.
-		- Trong lúc đọc ngấu nghiên mớ triết lý gốc đó.... tới cái cuối cùng "Chánh Định" với con đường, định từng bước, nương tựa vào cái cây cột này (gần mình nhứt) để định, định rồi buông cây cột đó ra chuyển sang nương tựa cây cột khác, cứ thế mà tiến... thì mình vỡ hoà tới tận cùng, hoá giải nghịch lý Tham Ái vốn đã chặn mình lại khỏi tâm cầu đạo từ hồi cuối PT... ôi một con đường tuyệt vời.
+		- Trong lúc đọc ngấu nghiên mớ triết lý gốc đó.... tới cái cuối cùng "Chánh Định" với con đường, định từng bước, nương tựa vào cái cây cột này (gần mình nhứt) để định, định rồi buông cây cột đó ra chuyển sang nương tựa cây cột khác, cứ thế mà tiến... thì mình vỡ oà tới tận cùng, hoá giải nghịch lý Tham Ái vốn đã chặn mình lại khỏi tâm cầu đạo từ hồi cuối PT... ôi một con đường tuyệt vời.
 		  ==> Đây là cái giác ngộ đầu tiên của mình: Tu từng bước, ko có nhảy cóc, nghịch lý chỉ vì mình muốn nhảy cóc "bụp" một cái thành vô ngã, thành vô tham, vô sân, thành phật. Đường Phật chỉ ra hết sức hợp lý, là dùng chính cái tham (muốn thành phật) để làm con đò đầu tiên qua con sông, qua con sông này rồi thì buông cái con đò đó ra, leo lên con đò khác, cứ thế mà tiến. Nó dùng chính những phương tiện của đời, những thứ gần gũi nhứt như lòng tham, niềm tin (với ai có niềm tin), tâm mong cầu thoát khổ, v.v. để làm phương tiện đưa hành giả tiến tới, nhưng chỉ khác đời ở chỗ là có nắm có buông, qua sông rồi thì buông con đò xuống, chỉ khác có vậy thôi.
 		- Chánh định khác với tà định chỉ ở mỗi chữ "xả", tức không chấp vào cảnh giới định, định được cái này rồi thì buông nó ra để đi tiếp qua mức khác. Người đời làm việc thành công đều nhờ có định lực lớn, nhưng thường hay tà định vì chấp vào cái cảnh giới tuyệt vời đó không buông ra, rồi tôn nó lên thành đủ thứ tuyệt đối, siêu nhiên.
 		- Cụ thế trong 4 thiền sắc giới thì có 5 "cây cột" để dựa vào mà định, nhưng dựa/bám phải luôn đi liền với buông/xả:
@@ -568,7 +570,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- 3. Tam thiền: buông Hỉ (cái thoải mái ở thân) để dựa vào Lạc (cái thanh tịnh ở tâm) và Xả (nhất tâm). Đây cảnh giới "ly hỉ trú xả".
 			- 4. Tứ thiền: buông luôn Lạc, chỉ còn Xả, buông xả tất cả những cảm thọ sướng, khổ, dễ chịu, khó chịu ra, chỉ an trú vào Xả (nhất tâm). Đây là cảnh giới "xả niệm thanh tịnh".
 		- Để diễn tả cái khác cơ bản của đạo với đời, thì tui hay dùng hình tượng "cái đích là chân trời". Người đời thích một cái đích tĩnh, là một cái cột, một ngọn núi. Còn ai cảm nhận được "cái đích là chân trời" thì có thể vững bước trên đường đạo.
-		- Từ chữ "xả" hồi nhỏ nghe qua băng thầy Thanh Từ, tức "xả" trong "từ - bi - hỉ - xả", tới chữ "xả" của lần giác ngộ đầu tiên trong "xả niệm thanh tịnh", qua những thăng trầm, vướng mắc rồi gáo gỡ, từ bỏ rồi tìm lại được chân lý... không biết có gì tương ứng với các bạn nói chung và ông Hiệp nói riêng không?! 😊
+		- Từ chữ "xả" hồi nhỏ nghe qua băng thầy Thanh Từ, tức "xả" trong "từ - bi - hỉ - xả", tới chữ "xả" của lần giác ngộ đầu tiên trong "xả niệm thanh tịnh", qua những thăng trầm, vướng mắc rồi tháo gỡ, từ bỏ rồi tìm lại được chân lý... không biết có gì tương ứng với các bạn nói chung và ông Hiệp nói riêng không?! 😊
 	- Bit-wise negation vs multiple-bit negation vs all-bit negation
 	  id:: 66bd7ee4-6dbb-4563-9fb9-0809ca29407a
 	  collapsed:: true
@@ -641,7 +643,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- *Và, họ nhận lại hóa đơn ghi:*
 				- **Tiền công gõ búa: 2$**
 				- **Tìm ra nơi cần gõ: 9.998$**
-	- The end of the theorist karma
+	- The end of the [theorist karma](((669a58b9-422a-40d9-adcf-b2aade86c170)))
 	  id:: 66ab4281-68c2-4752-8a76-aede265449b6
 	  collapsed:: true
 	  :LOGBOOK:
@@ -787,7 +789,8 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 	  CLOCK: [2024-09-13 Fri 09:18:30]
 	  CLOCK: [2024-09-13 Fri 09:29:35]--[2024-09-13 Fri 09:54:13] =>  00:24:38
 	  :END:
-		- Thanks to the occasion of Mr. Hiệp, i've seen clearer my dept (attachment) of love.
+		- Thanks to the occasion of Mr. Hiệp, i've seen clearer about my dept (attachment) of love.
+		  id:: 67b541cb-84e9-4e76-b218-4c515f4f1546
 			- A lot of online chats like this: ((66bc67f4-e5ac-4bb6-9979-3ff199815c2e))
 			- He visited Vietnam 1 month between August & September.
 			- When his trauma had him refuse my love, i had chances to reflect about my love attachment and let it go: [Sống trong đời sống, cần có một tấm lòng... để gió cuốn đi!](https://www.facebook.com/lexuandinhct/posts/pfbid026uguj6Vj4b5QxhAJoSpEzDKHaK43FtFXSNhc7Cnxk7VXkxZhnL3xgxiA24QeU1dEl)
@@ -945,7 +948,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- Nhưng không có thấu kính, không có màn hình thì cũng chẳng thể thấy được một thứ gì cụ thể, chỉ thấy "không vô biên xứ, thức vô biên xứ, vô sở hữu xứ, phi tưởng - phi phi tưởng xứ" 😃 của thế giới vô hình (vô sắc giới, formless world).
 			- Để thấy hình tướng trong thế giới hữu hình này (sắc giới, form world) thì buộc mình phải đeo kính vào.... chỉ khác là mình vừa thấy hình vừa biết hình này là của cái kính này, biết chỉ cần đổi kính thì hình sẽ đổi, nên không chấp vào một cái form tuyệt đối, và tương đối tự chủ hơn nên gọi là tự do, giải thoát.
 			- Đại khái khi đó sẽ thấy cả 2 thế này: từ trong cái Thức vô ngã (trí tuệ) đó dòm ra thì vừa thấy Mặt Trời chỉ là một đốm sáng giữa khoảng không thanh tịnh (cái thấy của trí, vạn vật đồng nhất thể) ở phía trên hình, vừa thấy Mặt Trời đó hiện thành thiên hình vạn trạng trên những đám mây của eyewall ở phía dưới hình. Những "đám mây" đó vừa là "vô minh" vì nó che khuất trí tuệ, nhưng cũng chính là thế giới muôn màu muôn vẻ, buồn vui sướng khổ, yêu thương, tranh đấu, chiến tranh, sống chết, ốm đau, khoẻ mạnh, v.v.
-			  ![hurricane-Dorian-eye-2019.jpg](../assets/Will/story/2024-Sep/hurricane-Dorian-eye-2019.jpg)
+			  ![hurricane-Dorian-eye-2019.jpg](../assets/Will/story/2024-09/hurricane-Dorian-eye-2019.jpg)
 			- cái "mất dạy" của ông Sadhguru ko phải là không dùng kiến thức, thực tế là ổng biết rất nhiều từ tâm linh tới khoa học, nhưng ổng không đồng nhất mình với nó, biết nó chỉ là những cái kính, những phương tiện để mình giao tiếp với thế giới hữu hình này thôi.
 			- Và khi chứng được cái trí tuệ = vô ngã thức = chỗ trống không này thì mình cũng thấy rõ là khi cái ngã, cái Tôi này tan rã thì cái Thức cũng biến mất, không có một cái Thức nào có thể tồn tại ngoài cái Tôi, ngoài những cái form, ngoài thế giới vật chất này. Tức có căn nhà vật chất và có chủ nhà Thức, nhưng không có một ông chủ nằm ngoài căn nhà đó. Đây là mâu thuẫn cơ bản khi giải thích cho người trong thế giới quen có một "ông chủ độc lập". Cái "linh hồn nằm ngoài thể xác" là kết quả của việc con người đem cái hình ảnh quen thuộc về "ông chủ nằm ngoài căn nhà" để áp vào cho cái thế giới vô hình. Có thế giới vô hình, nhưng nó không độc lập với thế giới hữu hình 😃
 			- Về phần "Thức emerge lên từ Tôi" này thì có vẻ giống với quan điểm duy vật, nhưng nó khác Duy Vật ở chỗ: không có cả cái Tôi, cái Vật nào độc lập với cái Thức, tức mỗi hạt cơ bản đều chỉ là những "vòng xoáy", những "lỗ đen" chứa đựng cái tâm điểm Thức bên trong; một hạt khi mất thức thì nó cũng tan rã (phân rã phóng xạ).
@@ -995,9 +998,9 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  [§ 134](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL134) [Shorter Logic]
 		  > When thus explicitly stated, _the phenomenon is **relativity** or **correlation**_...
 		- Hegel summarized them like this: [§ 989](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455) [Greater Logic]
-			- > At first, form stands opposed to essence; it is then the simple ground relation, and its determinations are the ground and the grounded.
-			- > Secondly, it stands opposed to matter; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.
-			- > Lastly, it stands opposed to content; and then its determinations are again form itself and matter.
+			- > At first, **form** stands opposed to **essence**; it is then the simple ground relation, and its determinations are the ground and the grounded.
+			- > Secondly, it stands opposed to **matter**; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.
+			- > Lastly, it stands opposed to **content**; and then its determinations are again form itself and matter.
 		- ((66c33468-23d5-44d7-955e-6711cb608157))
 			- Chat with Gemini: [Hegel's Philosophy of Form](https://gemini.google.com/app/c8e4b0ec829815c2)
 			- [Marxists Internet Archive Encyclopedia](https://www.marxists.org/glossary/index.htm) >
@@ -1090,13 +1093,13 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  becomingly modest, I'm smart too?
 		- [Davide Libenzi's response](https://git.vger.kernel.narkive.com/iEYOeYwt/index-file-environment-variable#post2)
 		  > You forgot, *again*, to take your medications !!
-		- ![Screenshot Linus Torvalds humour.png](../assets/Will/story/2024-Oct/Screenshot Linus Torvalds humour.png)
+		- ![Screenshot Linus Torvalds humour.png](../assets/Will/story/2024-10/Screenshot Linus Torvalds humour.png)
 	- Mr. Hiệp's gift: A drawing of my face
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-10-23 Wed 17:02:46]
 	  :END:
-		- ![gift-from-Hiep.jpg](../assets/Will/story/2024-Oct/gift-from-Hiep.jpg){:width 300, :height 408}
+		- ![gift-from-Hiep.jpg](../assets/Will/story/2024-10/gift-from-Hiep.jpg){:width 300, :height 408}
 		- Hiệp: muốn vẽ thành con sloth mà chưa ra
 		- Định: Ặc, mặt tui buồn muốn chết, chữ Khổ khắc sâu trên trán mà sao ông thấy thành cười nhe răng vậy cũng hay thiệt chứ 😁
 		  Vợ tui mới khen "anh Hiệp vẽ đẹp quá!" kìa 😊
@@ -1338,7 +1341,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		- cũng tương tự như vậy trò cầu cơ mình học từ Pháp ra (con cơ gốc hình trái tim cœur), nhưng gốc nó cũng từ nhà Tống TQ -> Ấn Độ -> Châu Âu -> quay về VN
 		- "con cơ" của TQ thời nhà Thanh to vật như vầy:
 		  collapsed:: true
-			- ![Chinese_Ouija_board-model_figures.jpg](../assets/Will/story/2024-Nov/Chinese_Ouija_board-model_figures.jpg)
+			- ![Chinese_Ouija_board-model_figures.jpg](../assets/Will/story/2024-11/Chinese_Ouija_board-model_figures.jpg)
 		- Quay về VN thì hình trái tim được phiên âm ra thành "cơ", lá bài cơ, và "con cơ" trong cầu cơ. Rồi qua phong trào Cơ Bút (cầu cơ rồi chấp bút viết ra kinh điển) thì hình thành đạo Cao Đài.... ở đó chữ "cơ" lại trở về chữ Hán 機 như "thiên cơ", "huyền cơ", "cơ mật" 😃
 			- Đại Từ-Phụ Từ-Bi tạo-hóa,
 			  Tượng mảnh thân giống cả Càn-Khôn.
@@ -1350,7 +1353,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			  Rước vong hồn lui trở ngôi xưa.
 			- "Xây cơ" là kỹ thuật cầu cơ sơ khai (gốc từ Pháp), gọi là "xây bàn cơ": cái "bàn cơ" là con cơ có 3 chân như hình này.
 			  collapsed:: true
-				- ![Norman_Rockwell_Ouija_board_painting.jpg](../assets/Will/story/2024-Nov/Norman_Rockwell_Ouija_board_painting.jpg)
+				- ![Norman_Rockwell_Ouija_board_painting.jpg](../assets/Will/story/2024-11/Norman_Rockwell_Ouija_board_painting.jpg)
 			- "Mở cơ" là mở hội, lập đàn cầu cơ theo nghĩa đen, nhưng nghĩa bóng ý là "mở thiên cơ ra" để độ chúng sanh 😃
 		- Những vòng tròn văn hoá và ngôn ngữ, đi ráp vòng quay trở lại nhưng "lợi hại hơn xưa", biến hoá khôn lường 😉
 		- "Cầu cơ" tiếng Anh là ouija, nhưng đọc là "wi-jơ", âm đầu "oui" [wi] thì theo Pháp, âm sau "ja" thì theo tiếng Đức 😃
@@ -1389,16 +1392,16 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- [By the abyss](https://www.facebook.com/share/p/mj1nY6UArLUDEgMp/)
 			  collapsed:: true
 				- Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern
-				  ![Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg](../assets/Will/story/2024-Dec/Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg)
+				  ![Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg](../assets/Will/story/2024-12/Sitting on the edge of an underwater cliff - Vertical Blue - Michael Board photographed by Adam Stern.jpeg)
 				- Preikestolen (Pulpit Rock)
 				  collapsed:: true
-				  ![preikestolen-pulpit-rock-fjord-sitting.jpg](../assets/Will/story/2024-Dec/preikestolen-pulpit-rock-fjord-sitting.jpg)
+				  ![preikestolen-pulpit-rock-fjord-sitting.jpg](../assets/Will/story/2024-12/preikestolen-pulpit-rock-fjord-sitting.jpg)
 					- Preikestolen aerial view
-					  ![Preikestolen_de_face.jpg](../assets/Will/story/2024-Dec/Preikestolen_de_face.jpg)
+					  ![Preikestolen_de_face.jpg](../assets/Will/story/2024-12/Preikestolen_de_face.jpg)
 					- Preikestolen topdown view
-					  ![Preikestolen_topdown.jpg](../assets/Will/story/2024-Dec/Preikestolen_topdown.jpg)
+					  ![Preikestolen_topdown.jpg](../assets/Will/story/2024-12/Preikestolen_topdown.jpg)
 				- 0.999999...
-				  ![0.999999....jpg](../assets/Will/story/2024-Dec/0.999999....jpg)
+				  ![0.999999....jpg](../assets/Will/story/2024-12/0.999999....jpg)
 			- [Touching the bottom and turning back up... there's a long way ahead!](https://www.facebook.com/share/p/LNAfUavxgwGXNWqK/)
 			- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/AqPNJzTTcQA48Qxr/)
 			- [Target is the horizon!](https://www.facebook.com/share/p/Nr5BqKGNDZZE8A6h/)
@@ -1431,6 +1434,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 					- zoom in: wave = moving particle(s) coliding with (the) other(s) to transfer its arrow, just like the [Newton's cradle](https://en.wikipedia.org/wiki/Newton%27s_cradle) in many folds.
 					- zooming in space-time then in time ⇒ density in time = square of density in space
 			- how the [stagger](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/), mismatch, error, remainder link between layers of circles (in different orders) and how they internalize, [refine](((6735b185-fe68-40b4-8679-9c4de4a1df7d))) the circles;
+			  id:: 67b541cb-a5c9-4634-b5f7-080d367faa4c
 				- This (seemingly) infinite layers of sustents is the “abyss” i'm facing.
 					- While "normal people" can easily cross the gap at the surface to close the circle,
 					- i'm drawn down to the abyss to dive into it: the subtle cracks, chasms inside have accumulated enough, just like the limit number 0.999999999999.
@@ -1447,12 +1451,14 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 	  CLOCK: [2024-12-06 Fri 19:48:53]
 	  CLOCK: [2024-12-06 Fri 19:50:42]--[2024-12-06 Fri 20:07:46] =>  00:17:04
 	  :END:
-		- Last night, after the being caught up in the ((6752e3f2-5d37-4c90-9deb-e4c8134a4591)) without result, getting home, i was caught up in the Facebook sliding/scrolling for hours...
+		- Last night, after being caught up in the ((67514336-628d-4f80-b154-3b7cfde988f0)) without result, getting home, i was caught up in the Facebook sliding/scrolling for hours...
 		- After the first hour, my eyes were already tired, couldn't open, but somehow they opened again for the next 2 hours!
 		- Like many previous times, throughout the last 2 hours, i saw clearly all my tiredness, all the "meaninglessness", but could not escape... until it collapsed.
-		- At the collapse, i fell into the deep meditative state hearing cleary every little sound.
-		- This 3 hours of "junk scrolling" has brought me the awareness that nothing is completely junk, that everything has meaning, that all these junks are no less captivating than my "worthful" research of Uniinfo.
+		- At the collapse, i fell into the deep meditative state hearing clearly every little sound.
+		  id:: 67b541cb-5177-4e91-be40-4126f798605b
+		- This 3 hours of "junk scrolling" has brought me the awareness that nothing is completely junk, that everything has meaning, that all these junks are no less captivating than my "worthwhile" research of Uniinfo.
 		- To put down the junks, i must also be able to put down my researches and attachment to debugging. They are equivalent!
+		-
 	- “Hi good old friend!”
 	  id:: 67555f3a-e296-4ea0-bac9-c0dcffa368d1
 	  collapsed:: true
@@ -1473,6 +1479,6 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 	  collapsed:: true
 		- [Knowledge circle](https://www.facebook.com/share/p/ELxP71XMikbJGPPK/)
 		- [Vòng tròn tri thức](https://www.facebook.com/share/p/3brw3UhstMGzAYsC/)
-		- ![KnowledgeCircle.jpg](../assets/Will/story/2023-Dec/KnowledgeCircle.jpg)
+		- ![KnowledgeCircle.jpg](../assets/Will/story/2023-12/KnowledgeCircle.jpg)
 	- <<End 2024 Stories>>
 	  -----------------------

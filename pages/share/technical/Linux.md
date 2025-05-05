@@ -44,7 +44,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Windows' shortcut in GUI works similarly to symlink, but doesn't work at the command level.
 			- Equivalence: Git's symlink, [NTFS link](https://en.wikipedia.org/wiki/NTFS_symbolic_link)
 				- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks). When `symlinks = false`, symbolic links are checked out as plain text files containing the target as text.
-		- newline at end-of-file
+		- newline at end-of-file (EOL@EOF)
 		  id:: 6793437b-5ee5-4f7f-a547-bb9e15ac5883
 			- The [POSIX standard](https://en.wikipedia.org/wiki/POSIX) defines a [text file](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_387) as a sequence of [lines](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_185), each ending with a [newline character](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_224).
 				- Newline = end-of-line = [carriage-return +] line-feed: `EOL` = `⏎` = `\n` = `␤` = `LF` = `␊` (`CR` `LF` = `␍␊`)
@@ -65,7 +65,15 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  collapsed:: true
 						- ![no-last-newline-vim.png](../assets/TextProcessing/last-newline/no-last-newline-vim.png)
 					- `nano` always show a blank line at the end!
-				- IDEs usually have setting to automatically add newline on save, and _show the last newline **as a blank line**_ which can be used to check its presence.
+					- `emacs` behavior depends on the file mode.
+				- Stop Linux editors from fixing files missing newline at the end of file.
+				  id:: 67aacefc-f707-49f4-b33d-ed73f63e3a64
+					- `vim`: `:set nofixendofline` in the current file or in `.vimrc`
+					- `nano`: just use `nano -L`, or set `alias nano="nano --nonewlines"`
+					- `gedit`: `gsettings set org.gnome.gedit.preferences.editor ensure-trailing-newline false`
+					- `emacs`: `(setq mode-require-final-newline nil)` in `.emacs`
+				- IDEs usually have settings to automatically add newline on save, and _show the last newline **as a blank line**_ which can be used to check for its presence.
+				  id:: 67aabd6b-a257-4eb7-8363-3d29035a30f4
 					- VS Code
 					  collapsed:: true
 						- Settings > Text Editor > Files > Insert Final Newline
@@ -78,11 +86,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						  ![editor-settings-onsave-lastNewline-IDEA.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-IDEA.png)
 					- Eclipse
 					  collapsed:: true
-						- Settings > (Java, Javascript, etc.) Code Formatters > New Lines > At end of file
+						- [Window >] Preferences > (Java, Javascript, etc.) Code Formatters > New Lines > At end of file
 						  ![editor-settings-onsave-lastNewline-Eclipse-2024.png](../assets/TextProcessing/last-newline/editor-settings-onsave-lastNewline-Eclipse-2024.png)
 					- Notepad++
 					  collapsed:: true
 						- ![last-newline-Notepad++.png](../assets/TextProcessing/last-newline/last-newline-Notepad++.png)
+						- Automatic newline can be added with EditorConfig plugin. [ref](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/1426#issuecomment-578472737)
+						  `insert_final_newline = true`
 	- ### commands
 		- process handling
 		  collapsed:: true
@@ -91,10 +101,31 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- ((66c6c8e6-54be-4b4f-80a1-c535d429d05c))
 			- `pidof`
 			  find the pid of a process via process name.
-			- `pgrep`, `pkill`, `pidwait`
-			  look up, signal, or wait for processes based on process name pattern and other attributes.
+			- `pgrep`, `pkill`, `pidwait` `$xregex`
+			  collapsed:: true
+			  look up, signal, or wait for processes based on process name pattern (Extended Regular Expression) and other attributes.
+				- `-s`, `-$signal`: see list of signals in ((67f4eaf8-4b5d-4807-ab6f-d43cd38c4860))
+				- `-f`, `--full`: Match against the full command line (with arguments), instead of only the process name as normal.
+				- `-v`, `--inverse`: Negates the matching.
+				  collapsed:: true
+					- Note, in `pkill`, the short option `-v` is disabled to avoid accidental usage of the option.
+				- `-x`, `--exact`: Match exactly.
+				- Options for `pgrep`
+					- `-l`, `--list-name`, `-a`, `--list-full`: List PID and process name or full command line.
 			- `kill`, `killall`
-			  send a signal (`TERM`, `KILL`, `STOP`, `INT`, `HUP`, `CONT`) to a process via pid or process name.
+			  id:: 67f4eaf8-4b5d-4807-ab6f-d43cd38c4860
+			  collapsed:: true
+			  send a signal (`TERM` [default], `KILL`, `STOP`, `QUIT`, `INT`, `HUP`, `CONT`, `NULL`) to process(es) via pid (with `kill`) or process name (with `killall`).
+				- To **force** stop, send `KILL` = `9` signal: `kill -s KILL` or `kill -9`
+					- `STOP` = `24`: The OS pauses the process and cannot be ignored.
+					  id:: 67f4fd18-2a1a-43bb-9d67-710bfe096615
+					- `CONT` = `26`: Resume the process after being paused by [STOP](((67f4fd18-2a1a-43bb-9d67-710bfe096615))).
+				- The default `TERM` = `15` is the **nicest** signal: The process is given time to gracefully shutdown, and even to **ignore** this signal.
+					- `INT` = `2` = `Ctrl` `C` (≈ `TERM`): Interrupt the process, but can be **ignored**.
+					  id:: 67f4fa57-ed02-48ee-a72c-366cf83748c2
+					- `QUIT` = `3` = `Ctrl` `D` = [INT](((67f4fa57-ed02-48ee-a72c-366cf83748c2))) + core dump
+					- `HUP` = `1`: Disconnects a process from the parent process, or **restart** the process.
+				- `NULL` = `0`: Sending no signal, just **check** validity of a PID: whether the process is running and this user as permission to access it.
 			- `pstree`
 			  display a tree of processes.
 			- `top`
@@ -103,6 +134,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  display "top network" interfaces.
 			- `nethogs`
 			  NetHogs displays 'net top' processes.
+			- `jobs`, `disown`, `nohup`, `bg`, `fg`
+			  collapsed:: true
+			  Manage shell jobs (background processes).
+				- [disown](https://www.cyberciti.biz/faq/unix-linux-disown-command-examples-usage-syntax/)
 		- window handling
 		  collapsed:: true
 			- Note that on ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), `xkill` & `xprop` cannot chose windows of Gnome Shell like ((66c6bd7d-c9af-4f64-a65b-f4ff075961bb)), ((66c6bd94-76a7-4b80-bf2e-b8af02737af2)), ((66c6bda1-7a64-4832-af2b-906b3beb8927)), etc., because they are not using ((66c6cd8c-5367-4ae4-a76c-970732c2aebb)). Ref: [Nautilus is being ignored](https://github.com/johannesjo/linux-window-session-manager/issues/8#issuecomment-347517969)
@@ -110,6 +145,43 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  kill a client by its X resource. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-id resource]`.
 			- `xprop`
 			  display window and font properties in an X server. The X resource can be specified with mouse pointer clicking a window or given via command line arguments `[-display displayname] [-name windowname] [-id resource]`.
+			- `notify-send`
+			  id:: 67d289c6-fcf5-4340-b06e-d3287ca78a4d
+			  collapsed:: true
+			  send desktop notifications to the user via a notification daemon from the command line.
+				- `-u`, `--urgency`=LEVEL
+					- `low`: No pop-up, just silently add message to notification list.
+					- `normal`: pops up for 3 seconds.
+					- `critical`: pops up until user close.
+				- `-t`, `--expire-time`=TIME
+				  ignored in Ubuntu
+				- `-i`, `--icon`=ICON
+					- a [standard icon name](https://specifications.freedesktop.org/icon-naming-spec/latest/#names), e.g. `system-log-out`, or
+					- a path to an icon file, e.g. `/usr/share/icons/gnome/32x32/actions/system-log-out.png`
+			- `zenity`
+			  id:: 67d2ad10-0ca8-4361-94d5-219cf9b737d5
+			  collapsed:: true
+			  display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/#dialogs), and return the users input (either in the return code or on standard output).
+				- Return values:
+					- Command exit code: {`0`, `1`, `5`} for {OK, Cancel, timeout}
+					- Print to `stdout` the value user entered or chose.
+				- Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!
+				  id:: 67d3a821-ed1c-48d5-a935-bfab8a57cd8e
+					- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
+				- `--{info,question,warning,error}` are message dialogs with icons
+					- Icons: `--icon-name` (name only), `--window-icon` (/path/to/file, but doesn't work!)
+						- ((66725725-f76a-4328-b162-f469b87e871b))
+						  collapsed:: true
+							- `gtk-dialog-info`: ![gtk-dialog-info.svg](../assets/Linux/GNOME/icons/gtk-dialog-info.svg){:width 32}
+							- `gtk-dialog-question`: ![gtk-dialog-question.svg](../assets/Linux/GNOME/icons/gtk-dialog-question.svg){:width 32}
+							- `warning-small-symbolic`: ![warning-small-symbolic.svg](../assets/Linux/GNOME/icons/warning-small-symbolic.svg){:width 32}
+							- `dialog-warning`: ![dialog-warning.png](../assets/Linux/GNOME/icons/dialog-warning.png){:width 32}
+							- `dialog-error`: ![dialog-error.png](../assets/Linux/GNOME/icons/dialog-error.png){:width 32}
+				- `--{entry,password,scale}` are input dialogs for user to enter text or a numeric value in a scale.
+				- `--{list,calendar,color-selection,file-selection}` are selection dialogs for user to choose items.
+				- `--forms` shows an input form which can contain text entries, password fields, calendars, description texts.
+				- `--progress` shows a progress bar increments by inputs from `stdin`.
+				- `--notification`, similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d)), shows a notification ballon, not a pop-up window.
 		- file management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 		  collapsed:: true
@@ -129,17 +201,164 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `-i`, `--inode`
 				  print the ((671f438b-617a-4fc5-88ee-e42f07b67b50)) number of each file
 				- `dircolors`
-				  output commands to set the `LS_COLORS` env.var. for `ls`.
+				  output commands to set the ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) env.var. for `ls`, optionally reading definitions in a ((67adaa84-c44b-4f36-bc34-ddec3117b7fc)).
 					- This command simply prints out 
 					  ```sh
-					  LS_COLORS='...'; export LS_COLORS
+					  LS_COLORS='di=01;34:type=color;codes:...'; export LS_COLORS
 					  ```
-					- Highlight hard links: `LS_COLORS` value `mh=44;37`
+					- `DIR_COLORS` file
+					  id:: 67adaa84-c44b-4f36-bc34-ddec3117b7fc
+					  collapsed:: true
+						- Man page: `man DIR_COLORS` (or [on web](https://www.man7.org/linux/man-pages/man5/dir_colors.5.html))
+						- See ((67ad9254-2b15-48cd-8f38-8b727e5ed2da)).
+						- On Slackware, SuSE, RedHat: System-wide config `/etc/DIR_COLORS`, which can be overriden by per-user config `~/.dir_colors`.
+				- `LS_COLORS`
+				  id:: 67ad9184-d0e9-49c1-9584-ac7ced51b385
+				  env.var. defining output colors for `ls --color`.
+					- Format: colon-separated list of color definitions by file type
+					  > ((67ad9254-2b15-48cd-8f38-8b727e5ed2da)) = ((67ad927a-3926-4930-bf40-6cefcca3d54e)) : other file types ...
+					- When there are many definitions of the same file type, the last will override all previous ones.
+						- And we only need to put in `LS_COLORS` just defs overriding default values.
+					- [file type](((671f467e-6f1f-4436-a0dd-9a03055e11a9))) code
+					  id:: 67ad9254-2b15-48cd-8f38-8b727e5ed2da
+					  collapsed:: true
+						- Codes in `LS_COLORS` and corresponding names in ((67adaa84-c44b-4f36-bc34-ddec3117b7fc))
+							- `no` = `NORMAL`, `NORM`: Non-filename columns of each file in `ls -l`
+								- `rs` = `RESET`: Color to be (re)set after `ls`
+								  collapsed:: true
+									- E.g. `ls; echo text after ls` will output `text after ls` in `rs` color.
+									- This is also applied to non-filename symbols in filename column of `ls -lF`, e.g. `->` in symlink, file type indicators (`/`, `*`,...)
+							- `fi` = `FILE`: Regular file
+							- `di` = `DIR`: Directory
+							- `ex` = `EXEC`: Executable file (i.e. has `x` set in permissions)
+								- `ca` = `CAPABILITY`: Executable file with [capabilities](https://man7.org/linux/man-pages/man7/capabilities.7.html), set with [`setcap` command](https://man7.org/linux/man-pages/man8/setcap.8.html)
+							- `ln` = `SYMLINK`, `LINK`, `LNK`: Symbolic link. If you set this to 'target' instead of a numerical value, the colour is as for the file pointed to.
+								- `or` = `ORPHAN`: Symbolic link pointing to a non-existent file
+								- `mi` = `MISSING`: Non-existent file pointed to by a symbolic link (visible when you type `ls -l`)
+							- `mh` = `MULTIHARDLINK`: File with more than one hard links
+							- `pi` = `PIPE`, `FIFO`: Named FIFO pipe
+							- `so` = `SOCK`: Socket
+							- `bd` = `BLOCK`, `BLK`: Block device
+							- `cd` =  `CHAR`, `CHR`: Character device
+							- Advanced file types
+							  collapsed:: true
+								- `do` = `DOOR`: [Door](https://en.wikipedia.org/wiki/Doors_(computing)) (in Sun Solaris) for communication between a client and server
+								- `su` = `SETUID`: File that is `setuid` (`u+s`)
+								- `sg` = `SETGID`: File that is `setgid` (`g+s`)
+								- `st` = `STICKY`: Directory with the sticky bit set (`+t`) and not other-writable
+								- `ow` = `OTHER_WRITABLE`: Directory that is other-writable (`o+w`) and not sticky
+								- `tw` = `STICKY_OTHER_WRITABLE`: Directory that is sticky and other-writable (`+t`,`o+w`)
+							- For advanced color capable terminal or printer, the sequence ⟪ `LEFTCODE` [typecode](((67adc11d-b24f-49bd-9bc3-f9d3d6cf06b1))) `RIGHTCODE` filename `ENDCODE` ⟫ will be printed for each filename.
+							  collapsed:: true
+								- `lc` = `LEFTCODE`, `LEFT`: Opening terminal code
+								- `rc` = `RIGHTCODE`, `RIGHT`: Closing terminal code
+								- `ec`= `ENDCODE`, `END`: Non-filename text or terminal code after filename
+								- typecode: the color sequence that depends on the type or name of file
+								  id:: 67adc11d-b24f-49bd-9bc3-f9d3d6cf06b1
+						- Different names & history
+							- `MULTIHARDLINK` (`mh`) was initially named `HARDLINK` (`hl`) before `coreutils` 7.5 (in 2009) (see details in [StackExchange](https://unix.stackexchange.com/a/70715/566548)).
+							- `RESET` (`rs`) was added in `coreutils` 6.11.
+							- `CAPABILITY` (`ca`) was added in `coreutils` 7.0.
+					- color sequences
+					  id:: 67ad927a-3926-4930-bf40-6cefcca3d54e
+					  collapsed:: true
+						- Color & effect codes are separated by semicolon `;` and their *order doesn't matter*.
+						- Foreground and background are [3-bit ANSI escape color codes](https://en.wikipedia.org/wiki/ANSI_escape_code#3-bit_and_4-bit) (modern terminals also support 8-bit color codes).
+							- Foreground
+							  ```sh
+							  30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white
+							  ```
+							- Background
+							  ```sh
+							  40=black 41=red 42=green 43=yellow 44=blue 45=magenta 46=cyan 47=white
+							  ```
+							- high-bit color codes (fixed order!): [fbg](((67ada479-c1b4-40b5-ba31-73e012b19915)))`;`[hcolor](((67ada493-aea8-4646-92c6-029719d0be8f)))
+								- `fbg`: `38` (foreground) or `48` (background)
+								  id:: 67ada479-c1b4-40b5-ba31-73e012b19915
+								- `hcolor`: `5;n` or `2;r;g;b` where `n` in [16, 255] is a [8-bit color code](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit), and `r;g;b` is red-green-blue code of [24-bit color](https://en.wikipedia.org/wiki/ANSI_escape_code#24-bit).
+								  id:: 67ada493-aea8-4646-92c6-029719d0be8f
+						- Effects are [ANSI Select Graphic Rendition codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters).
+							- ```sh
+							  0=none 1=bold 4=underscore 5=blink 7=reverse 8=concealed
+							  ```
+							- Many effects can be combined, e.g. `1;3;47;30;7` means _**bold**-italic_ white text on black background (reverse of black text on white background).
+						- Refs: [/etc/DIR_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS)
+					- Examples
 					  id:: 678a4f10-b109-429d-9c58-f9bd52f807cd
-						- It has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
-						  ```sh
-						  export LS_COLORS="$LS_COLORS:mh=44;37"
+					  collapsed:: true
+						- ```sh
+						  export LS_COLORS="${LS_COLORS}mh=44;37:" # MULTIHARDLINK: more than one hard links: grey text (37) on blue background (44)
+						  export LS_COLORS="${LS_COLORS}or=40;31;1:" # ORPHAN: symlink to nonexistent file: bold (1) red text (31) on black background (40)
+						  export LS_COLORS="${LS_COLORS}mi=37;41:" # MISSING: nonexistent target of symlink: white (37) on redbackground (41)
 						  ```
+						- Highlight for multiple hard links has [once been turned on for only some months between 2008-2009](https://askubuntu.com/a/251450).
+						- A shell script to show all colors in `LS_COLORS`, ref: [AskUbuntu](https://askubuntu.com/a/884513)
+						  collapsed:: true
+							- ```sh
+							  #!/bin/bash
+							  # For each entry in LS_COLORS, print the type, and description if available, in the relevant color.
+							  # All dot-types are printed in one line.
+							  
+							  types=( no rs fi di ex ca ln or mi mh pi so bd cd do su sg st ow tw lc rc ec )
+							  dottypes=()
+							  declare -A descriptions=(
+							      [no]="NORMAL: Non-filename columns of each file"
+							      [rs]="RESET: Color to be (re)set after ls"
+							      [fi]="FILE: Regular file"
+							      [di]="DIR: Directory"
+							      [ex]="EXEC: Executable file"
+							      [ca]="CAPABILITY: Executable file with capabilities"
+							      [ln]="SYMLINK: Symbolic link"
+							      [or]="ORPHAN: Broken symlink"
+							      [mi]="MISSING: Missing target of broken symlink"
+							      [mh]="MULTIHARDLINK: File with multiple hardlinks"
+							      [pi]="PIPE, FIFO: Named FIFO pipe"
+							      [so]="SOCK: Socket"
+							      [bd]="BLOCK: Block device"
+							      [cd]="CHAR: Character device"
+							      [do]="DOOR: Solaris door"
+							      [su]="SETUID: File that is setuid"
+							      [sg]="SETGID: File that is setgid"
+							      [st]="STICKY: Sticky directory"
+							      [ow]="OTHER_WRITABLE: Other-writable directory"
+							      [tw]="STICKY_OTHER_WRITABLE: Sticky and other-writable directory"
+							      [lc]="LEFTCODE, LEFT: Opening terminal code"
+							      [rc]="RIGHTCODE, RIGHT: Closing terminal code"
+							      [ec]="ENDCODE, END: Terminal code after filename"
+							  )
+							  declare -A colors
+							  declare -A dotcolors
+							  
+							  ls_colors=$LS_COLORS
+							  dir_colors=$(dircolors |head -1)
+							  dir_colors=${dir_colors#*\'}
+							  dir_colors=${dir_colors%\'*}
+							  ls_colors=${dir_colors}${ls_colors}
+							  IFS=:
+							  for ls_color in $ls_colors; do
+							      type="${ls_color%=*}"
+							      color="${ls_color#*=}"
+							      [[ -z $type ]] && continue
+							      if [[ "${IFS}${types[*]}${IFS}" =~ "${IFS}${type}${IFS}" ]]; then colors[$type]=$color
+							      else dotcolors["$type"]=$color;  dottypes+=("$type"); fi
+							  done
+							  
+							  # Print descriptions styled by colors
+							  for type in "${types[@]}"; do
+							      color="${colors[$type]}"
+							      desc="${descriptions[$type]}"
+							      printf "\e[%sm%s%s\e[m \n" "$color" "$type" "${desc:+ = $desc}"
+							  done
+							  
+							  # Print dotcolors of dottypes
+							  for type in "${dottypes[@]}"; do
+							      color="${dotcolors[$type]}"
+							      printf "\e[%sm%s\e[m " "$color" "$type"
+							  done
+							  echo
+							  
+							  ```
+					- Refs: [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS/blob/master/LS_COLORS), [ls-color-output](https://itsfoss.com/ls-color-output/), [HowtoGeek](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/), [bigsoft](https://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors), [AskUbuntu](https://askubuntu.com/a/884513)
 			- `stat`
 			  id:: 671f50a5-2987-4e65-b28d-7b08bdcf0a06
 			  collapsed:: true
@@ -152,7 +371,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  list contents of directories in a tree-like format.
 			- `find $dir $expr`
 			  collapsed:: true
-			  search for files in a directory hierarchy rooted at `$dir`, filtering with `$expr`, and optionally take action with ((6790bd70-e65e-4053-9b6b-079e0d6ca7a1))
+			  search for files in a directory hierarchy rooted at `$dir`, filtering with `$expr`, and optionally take ((67b3f8db-00f0-456e-ab94-81df04973740))
+				- `-depth`
+				  depth-first search instead of the default breadth-first search
+				- `-{min,max}depth $n`
+				  search `$n` levels of directories
 				- `-{name,path,lname} $pattern`
 				  find files with basename or path or symlink target matching [glob `$pattern`](https://en.wikipedia.org/wiki/Glob_(programming))
 				- `-regex $pattern`
@@ -198,11 +421,22 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							      fi
 							      shift
 							  done
+				- `-{user,group} $name`
+				  find files owned by user or group with `$name`
 				- `-true`
-				  find all files (unfiltered) for ((6790bd70-e65e-4053-9b6b-079e0d6ca7a1))
-				- `-print[f,0]`
-				- `-exec $action`
-				  id:: 6790bd70-e65e-4053-9b6b-079e0d6ca7a1
+				  find all files (unfiltered) for ((67b3f8db-00f0-456e-ab94-81df04973740)) only
+				- Actions
+				  id:: 67b3f8db-00f0-456e-ab94-81df04973740
+					- `-print[f,0] $format`
+					- `ls`
+					- `fls $file`
+					- `-exec $action $delim`
+					  id:: 6790bd70-e65e-4053-9b6b-079e0d6ca7a1
+						- `$delim` can be `;` or `+`
+						- `{}` argument is replaced by the current file name being processed
+					- `-delete`
+					- `-prune`
+					- `-quit`
 			- `ln`
 			  collapsed:: true
 			  make links (hard & symbolic) between files
@@ -302,6 +536,23 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `noerror` to continue on any input error
 					- `swab`, `sync` to swap every pair of bytes, or/and pad input block to `ibs`
 					- `lcase`|`ucase`, `block`|`unblock` to convert text to lower/upper case, or/and padding/unpadding spaces to line to reach `cbs`
+		- system handling
+		  id:: 67f4ffe3-488c-4d61-9622-26ecbed945ac
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-08 Tue 17:52:38]
+		  :END:
+			- `systemctl`
+			  Control the `systemd` system and **service manager**.
+			- `gnome-session-quit`
+			  id:: 67f4ffeb-5e02-4fd5-bd33-19abc23f60aa
+			  `--logout`|`--power-off`|`--reboot`
+			  End the current GNOME session.
+			- `shutdown`
+			  id:: 67f500dd-ff43-46ec-b9e0-9dcc097b2bc3
+			  `poweroff`, `reboot`, or `halt` the machine.
+				- Note: ((67f4ffeb-5e02-4fd5-bd33-19abc23f60aa)) could be safer than ((67f500dd-ff43-46ec-b9e0-9dcc097b2bc3)).
+				  id:: 67f4f5e3-e739-41cd-8b95-14c7bbe9eebe
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
@@ -425,19 +676,6 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  /usr/bin/ls
 					  /bin/ls
 					  ```
-		- `$-` special variables
-		  collapsed:: true
-			- `$$`: pid of the running shell (script)
-			  id:: 66c6c8e6-54be-4b4f-80a1-c535d429d05c
-			- `$0`: filename of the running shell (script)
-			- arguments to the running shell (script)
-			  collapsed:: true
-				- `$#`: number of arguments
-				- `$*`: all arguments
-				- `$@`: all arguments where each argument is separated via quotation
-				- `$n`: n-th argument
-			- `$?`: exit status of the last command executed
-			- `$!`: pid of the last background command
 		- Command directories
 		  collapsed:: true
 			- Home: `${HOME}/bin`, `${HOME}/.local/bin`
@@ -445,10 +683,75 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Superuser: `/sbin`, `/usr/sbin`, `/usr/local/sbin`
 			- Snap: `/snap/bin`
 			  id:: 66b1cfa4-59ec-476f-b06f-c14db11f369b
+		- Double dash `--`
+		  id:: 67d3c57c-6e47-4762-8255-f855af47d5bc
+		  collapsed:: true
+		  usually means “end of command options” in most commands.
+			- An argument with a leading dash/hyphen `-` is considered an option of the command.
+			- To pass dash-leading argument as is, we must use the double dash `--` to mark the end of option list before the list of non-option arguments.
+			- Execptions: `echo`, `shift`,...
 		- Escape sequences & Hex codes
 		  collapsed:: true
+			- `\`-escape sequences are not interpreted by the shell itself, but by other components: [ANSI-C quoted](https://www.gnu.org/software/bash/manual/html_node/ANSI_002dC-Quoting.html) `$'string\n'`, other commands like `printf`, `echo -e`, etc.
+				- The shell only escapes 2 cases: line continuation (`\`linebreak will remove the linebreak), and quote escape within quotation
+				- [Non-quoted backslash](https://www.gnu.org/software/bash/manual/html_node/Escape-Character.html) doesn't escape but keeps the next character(s) from having special meaning.
+					- Space in string (won't break string): `string\ with\ \ spaces` = `'string with  spaces'`
+					- Non-alias command: when `alias rm='rm -i'`, then `\rm` = `rm` instead of `rm -i`
+						- Note: In (non-interactive) `bash` script, alias expansion is disabled by default, and we must enable it with `shopt -s expand_aliases`.
+						- Test with ![test-alias-expansion.sh](../assets/Linux/scripts/test-alias-expansion.sh)
+						  collapsed:: true
+							- `bash test-alias-expansion.sh`
+							  ```sh
+							  alias ll='ls -l'
+							  -- Execute ll:
+							  total 20
+							  -rwxrwxr-x 1 dinhlx dinhlx 1179 Thg 4   9 17:17 test-local-readonly.sh
+							  [...]
+							  -- Execute \ll:
+							  test-alias-expansion.sh: line 6: ll: command not found
+							  -- Execute l\l:
+							  test-alias-expansion.sh: line 7: ll: command not found
+							  -- Execute l\s:
+							  test-local-readonly.sh  [...]
+							  ```
+							- `zsh test-alias-expansion.sh`
+							  ```sh
+							  test-alias-expansion.sh:2: command not found: shopt
+							  ll='ls -l'
+							  run-help=man
+							  which-command=whence
+							  -- Execute ll:
+							  total 20
+							  -rwxrwxr-x 1 dinhlx dinhlx 1179 Thg 4   9 17:17 test-local-readonly.sh
+							  [...]
+							  -- Execute \ll:
+							  test-alias-expansion.sh:6: command not found: ll
+							  -- Execute l\l:
+							  test-alias-expansion.sh:7: command not found: ll
+							  -- Execute l\s:
+							  test-local-readonly.sh  [...]
+							  ```
+							- `dash test-alias-expansion.sh`
+							  ```sh
+							  test-alias-expansion.sh: 2: shopt: not found
+							  ll='ls -l'
+							  -- Execute ll:
+							  total 20
+							  -rwxrwxr-x 1 dinhlx dinhlx 1179 Thg 4   9 17:17 test-local-readonly.sh
+							  [...]
+							  -- Execute \ll:
+							  test-alias-expansion.sh: 6: ll: not found
+							  -- Execute l\l:
+							  test-alias-expansion.sh: 7: ll: not found
+							  -- Execute l\s:
+							  test-local-readonly.sh  [...]
+							  ```
 			- Ref: [Escape sequences in C](https://en.wikipedia.org/wiki/Escape_sequences_in_C#Table_of_escape_sequences)
 				- ((679085ef-facd-4c4a-83f3-f32bdefbaa49)) commands
+			- The hyphen/dash `-` doesn't required to be escaped in normal string, but a leading dash can be unintentinally treated as an option of a command.
+				- Escaping with backslash is ineffective: `\-` is always `\-`, never converted to `-`.
+				- We can use ((67d3c57c-6e47-4762-8255-f855af47d5bc)) to separate option list.
+				- Other way to esccape dash: `$'\x2d'`
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- ```shell
 				  LANG=C LC_ALL=UTF-16BE printf "\
@@ -511,6 +814,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  ```
 		- #### shell script
 		  id:: 6694a210-0bd1-4115-b190-4c41f58a577f
+		  collapsed:: true
 			- One line of command with many nuances:
 			  collapsed:: true
 			  ```shell
@@ -661,7 +965,57 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  - drwxr-xr-x  7 dinhlx dinhlx    32768 Thg 7  15 13:55 Downloads
 							  ...
 							  ```
+			- Shell & environment variables
+			  id:: 67f6185f-5efc-4fd0-b924-c175917092d8
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-04-09 Wed 15:30:43]
+			  :END:
+				- **Shell variables** are local to the current shell and its sub-shells only. They are anavailable to other subprocesses spawned by this shell.
+					- Check shell vars: `set | grep varname`, `declare -p varname`
+					- Scoping and typing with `declare`
+						- Within a function, `var=val` ⇔ `declare -g var=val` declares a **global var**, while 
+						  `local var=val` ⇔ `declare var=val` declares a **local var**.
+						- `export var=val` ⇔ `declare -x var=val` declares an [exported var](((67f6257e-455e-46f1-8225-8510f60b8b47))).
+						- Typing: `declare -[raAilu]` declares a read-only (`r`), indexed array (`a`), associative array (`A`), integer (`i`), lower case (`l`), upper case (`u`) variable.
+						- `readonly` ≈ `declare -r` but *not exactly*!
+						  collapsed:: true
+							- `readonly var=val` ⇔ `var=val; readonly var`
+								- While `declare -r` declares a new var, global outside function or local inside function, `readonly` only modify the read-only attribute of a declared var.
+							- Neither `readonly local` nor `local readonly` works! 🤪
+								- `readonly local` is *not local*, and `local readonly` is *not read-only*!
+							- Test script: ![test-local-readonly.sh](../assets/Linux/scripts/test-local-readonly.sh)
+				- **Environment variables** are shell vars `export`ed to all **subprocesses** spawned by this shell.
+				  id:: 67f6257e-455e-46f1-8225-8510f60b8b47
+					- Check env.vars: `export | grep varname`, `env | grep varname`, `printenv varname`
+					- Beside the standard `export` command, `csh` provides `setenv` = `export`.
+					- **One-time env.vars**: `[env] var=val $command` will execute `$command` with temporary env.var `$var` containing value `val`, then discard them.
+						- `env` is only required for old version of `sudo` and some old commands like `doas`.
+				- Nuances... warning: very confusing! 🤪
+				  id:: 67f61875-3740-45ce-ae88-1c5aed77435a
+					- There's _**no way** to export a variable **out to parent** shell!_ The name `export` is so misleading: It only “exports” vars downward to its own subprocesses!!!
+					- `sudo` sanitizes (resets) all env.vars by default for security, unless explicitly requested to preserve them with `-E`, `--preserve-env`, `--preserve-env=list`.
+					- **Sub-shells** by [compound command](((67d2df4a-52c6-4b11-85ba-ad28f82fd77e))) and ((67d25330-736b-464e-a926-ccd0771082eb)) _inherits **read-only values** of all shell vars_ of their parent shell. So no need to export for these sub-shells to use, but they cannot return values through these vars.
+						- Warning: `sh $command` is treated as a normal _**subprocesses**, not a sub-shell_!
+			- `$-` special parameters
+			  collapsed:: true
+				- `$$`: pid of the running shell (script)
+				  id:: 66c6c8e6-54be-4b4f-80a1-c535d429d05c
+				- `$0`: filename of the running shell (script)
+				- arguments to the running shell (script)
+					- `$#`: number of arguments
+					- `$*`: all arguments
+					- `$@`: all arguments where each argument is separated via quotation
+					- `$n`: n-th argument
+				- `$?`: exit status of the last command executed
+				- `$!`: pid of the last background command
+				- `$-`: the current set of enabled shell options given through `-o` of the current shell, 
+				  :LOGBOOK:
+				  CLOCK: [2025-03-14 Fri 11:12:27]--[2025-03-14 Fri 13:50:18] =>  02:37:51
+				  :END:
+				  e.g., `himBH` = (`histexpand`, `interactive`, `monitor`, `braceexpand`, `hashall`).
 			- String variable manipulations
+			  collapsed:: true
 				- `${#var}`
 				  string length of `$var`
 				- `${var:position[:length]}`
@@ -688,7 +1042,191 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  replace *all* matches of `substring` (pattern) with `replacement`.
 				- Ref: [Advanced Bash-Scripting Guide: 10.1. Manipulating Strings](https://tldp.org/LDP/abs/html/string-manipulation.html)
 			- Parameter substitution
-				- Ref: [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
+			  collapsed:: true
+				- Note: The version with `:` is for `parameter` declared but `null`.
+				- `${parameter-default value}`, `${parameter:-default value}`
+				  If `parameter` is unset, use default value.
+				- `${parameter=default value}`, `${parameter:=default value}`
+				  If `parameter` is unset, set it to default value before using its value.
+				- `${parameter=error message}`, `${parameter:=error message}`
+				  If `parameter` is unset, print error message and *abort the script* with error status `1`.
+				- `${parameter+value}`, `${parameter:+value}`
+				  Use the provided value only when `parameter` is set and not `null`, else do nothing.
+				- Ref:
+					- [Advanced Bash-Scripting Guide: 10.2. Parameter Substitution](https://tldp.org/LDP/abs/html/parameter-substitution.html)
+					- [Shell Parameter Expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html)
+			- Command grouping
+			  id:: 67f4eaf7-9214-44a6-a607-885930ade2de
+			  collapsed:: true
+				- Compound command
+				  includes many commands combined by `;`, `||`, `&&`.
+					- Sub-shell `(` Compound command `)`
+					  id:: 67d2df4a-52c6-4b11-85ba-ad28f82fd77e
+					- List `{` Compound command `}`
+				- Command substitution
+				  id:: 67d25330-736b-464e-a926-ccd0771082eb
+				  to capture output of a ((67d2df4a-52c6-4b11-85ba-ad28f82fd77e))
+					- New syntax: `out=$(command)`
+					- Old syntax with backtick
+					  ```sh
+					  out=`command`
+					  ```
+					- Note: `$(function)`, as well as ((67d24bec-ffb8-45ad-a13b-0e22124b9652)), will be executed in a sub-shell, i.e. a separate process, so _it **cannot affect** any variable in this shell_.
+					  collapsed:: true
+						- Best practice: Never combine side effects (variable changes) with output!
+							- For side effects, only use function call, and return everything through variables. Output capture should be done within the function and returned through variables.
+							- Try best to avoid side effects, and return everything through output streams.
+						- If anyway, we want to both capture the **output** of a function and its **side effects** (variable changes), we must use [output redirection](((67d257b8-cce3-4e79-8b42-b82bdd1fe7b0))) or ((67d25950-8596-4c10-a6bb-d4389872578d)), instead of ((67d25330-736b-464e-a926-ccd0771082eb)) or ((67d24bec-ffb8-45ad-a13b-0e22124b9652)).
+							- E.g.: Implement the C expression `printf("%d ", ++i)`
+							  collapsed:: true
+								- ![test-cmd-sub.sh](../assets/Linux/scripts/test-cmd-sub.sh)
+								  ```sh
+								  #!/bin/bash
+								  i=0
+								  increment(){
+								  	((++i))
+								      printf $i
+								  }
+								  printf "With function call: "
+								  increment; printf ' '
+								  increment; printf ' '
+								  increment; printf ' '
+								  echo
+								  printf "With command substitution: " # ineffective
+								  printf "%d " $(increment)
+								  printf "%d " $(increment)
+								  printf "%d " $(increment)
+								  echo
+								  printf "With pipeline: " # ineffective
+								  increment |xargs printf "%d "
+								  increment |xargs printf "%d "
+								  increment |xargs printf "%d "
+								  echo
+								  out="test-cmd-sub.txt"
+								  printf "With output redirection: "
+								  rm $out
+								  increment >> $out; printf ' ' >> $out
+								  increment >> $out; printf ' ' >> $out
+								  increment >> $out; printf ' ' >> $out
+								  cat $out
+								  echo
+								  printf "With process substitution: "
+								  rm $out
+								  increment > >(cat >> $out; printf ' ' >> $out)
+								  increment > >(cat >> $out; printf ' ' >> $out)
+								  increment > >(cat >> $out; printf ' ' >> $out)
+								  cat $out
+								  echo
+								  echo "Final i = $i"
+								  ```
+								- Output:
+								  ```sh
+								  $ sh test-cmd-sub.sh
+								  With function call: 1 2 3 
+								  With command substitution: 4 4 4 
+								  With pipeline: 4 4 4 
+								  With output redirection: 4 5 6 
+								  With process substitution: 7 9 
+								  Final i = 9
+								  $ cat test-cmd-sub.txt
+								  7 9 8 %
+								  ```
+								- Note: The process substitution runs sub-shells in parallel with the main shell, hence random order of outputs in `test-cmd-sub.txt`.
+					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Command_substitution)
+			- I/O stream [redirection](https://en.wikipedia.org/wiki/Redirection_(computing))
+			  id:: 67d24c08-0890-4864-9ceb-759d519f5e8b
+			  collapsed:: true
+				- Syntax: `command < infile > outfile`
+				  id:: 67d257b8-cce3-4e79-8b42-b82bdd1fe7b0
+					- Appending output: `command >> outfile`
+					  id:: 67d257e9-420a-43df-b715-302cb37df234
+					- Using [file descriptors](https://en.wikipedia.org/wiki/File_descriptor) (0 = `stdin`, 1 = `stdout`, 2 = `stderr`)
+						- Output to 2 separate files: `command 1>outfile 2>errfile`
+						- Output both streams to a file: `command 2>&1 1>outfile` equivalent to  `command 2>&1 >outfile`
+				- Here document `<<` & here string `<<<` as input stream
+				  id:: 67d24c21-82a9-4ff2-9e38-89944bcca455
+					- Input a multi-line string with here string
+					  ```sh
+					  cat <<< "${multiple_lines}"
+					  ```
+					- Here document with stream delimiter `__END_OF_STREAM__`
+					  collapsed:: true
+						- Input:
+						  ```sh
+						  cat << __END_OF_STREAM__
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  __END_OF_STREAM__
+						  ```
+						- Output:
+						  ```
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  ```
+					- Here doc `<<-` **indented** with **tabs** (no spaces)
+					  collapsed:: true
+						- Input:
+						  ```sh
+						  cat << __END_OF_STREAM__
+						  	This is a Here Document containing many lines
+						  	First line
+						  	Second line
+						  	...
+						  	Last line
+						  __END_OF_STREAM__
+						  ```
+						- Output:
+						  ```
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  ```
+					- Assign multi-line string to a var with `$(cat <<...)`
+					  collapsed:: true
+						- Input:
+						  ```sh
+						  multiple_lines=$(cat << __END_OF_STREAM__
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  __END_OF_STREAM__
+						  )
+						  ```
+							- Note: The closing `)` of ((67d25330-736b-464e-a926-ccd0771082eb)) must be the next line under the stream delimiter.
+						- Output:
+						  ```sh
+						  $ cat <<< "${multiple_lines}"
+						  This is a Here Document containing many lines
+						  First line
+						  Second line
+						  ...
+						  Last line
+						  ```
+					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Here_document)
+				- Pipeline
+				  id:: 67d24bec-ffb8-45ad-a13b-0e22124b9652
+				  `cmd1 | cmd2` to [chain](https://en.wikipedia.org/wiki/Pipeline_(Unix)) output of this command `cmd1` to the input of next command `cmd2`.
+					- [Named pipe](https://en.wikipedia.org/wiki/Named_pipe) (FIFO) as a file can be created with `mkfifo`
+					  id:: 67d25643-5c55-4ffa-b70a-de0e7b0dff70
+				- Process substitution
+				  id:: 67d25950-8596-4c10-a6bb-d4389872578d
+				  to treat I/O streams as (FIFO) files
+					- Syntax: `<(input_provider)` and `>(output_filter)` as `infile` and `outfile`
+					  ```sh
+					  diff <(sort file1) <(sort file2) > >(tee res.diff) 2> >(tee err)
+					  ```
+					- Note: There must be **space**(s) between process substitution syntax `>()`, `<()` and stream redirection syntax `>`, `<` so that they're not confused with [appending](((67d257e9-420a-43df-b715-302cb37df234))) `>>` and [here doc](((67d24c21-82a9-4ff2-9e38-89944bcca455)))  `<<`.
+					- Ref: [Wikipedia](https://en.wikipedia.org/wiki/Process_substitution)
 		- Oh My Zsh
 		  collapsed:: true
 			- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
@@ -787,6 +1325,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Each buffer can be mirrored in many ((66fe47b0-71d5-4663-bc43-d4774329a56e))s and in many ((66fe472d-cbfe-49ff-9ec1-4c1b7853895a))s.
 				- `:buffers`
 				  to list all buffers.
+			- Paste mode
+			  to avoid unexpected effects when pasting text, like auto-indentation, tab expansion, etc.
+				- Status: `INSERT (Paste)`
+				- `:set [no]paste` (`F5`) to turn on/off Paste mode
+					- ```vimrc
+					  set pastetoggle=<F5>
+					  ```
 		- #### nano
 		  collapsed:: true
 			-
@@ -1132,7 +1677,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  :LOGBOOK:
 		  CLOCK: [2024-07-15 Mon 11:07:42]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) https://wiki.archlinux.org/title/XDG_Base_Directory
+			- ((665359c0-a89a-41b5-9f28-503f79107a08))  https://wiki.archlinux.org/title/XDG_Base_Directory
+		- Standard Icon Names
+		  id:: 67eb7908-267d-4091-840f-eaf405632317
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://specifications.freedesktop.org/icon-naming-spec/latest/#names
 	- ### GNOME Desktop
 	  id:: 66b1cfa4-808f-407c-bf5a-b93812604b5d
 		- GNOME Shell
@@ -1211,6 +1759,17 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- `sequence` in ((66c70945-3ce5-4f95-8cce-1b8a3f2bd464))
 					  id:: 66c70166-889c-419e-8fd0-79d404e63e00
 					  the order of launching determines which terminal to be placed where.
+		- `/usr/share/icons/`
+		  id:: 67eb7601-ab2c-41df-a42c-84a77a88ec08
+		  collapsed:: true
+			- Default Gnome (Tango) icons using ((67eb7908-267d-4091-840f-eaf405632317)): [shown on wikimedia](https://commons.wikimedia.org/wiki/GNOME_Desktop_icons)
+			- Yaru: default theme for Ubuntu
+				- `Yaru/scalable/`: `*-symbolic.svg` are [symbolic icons](https://wiki.gnome.org/Design/OS/SymbolicIcons), mostly monochrome and some low colors instead of colorful [app icons](((67eb8856-16c0-4c50-8bc5-e00b32ddb51f))), for [various context-dependent usages](https://developer.gnome.org/hig/guidelines/ui-icons.html): UI elements, actions in Clear-text fields, etc.
+				- `Yaru/${scale}/`: colorful [app icons](https://developer.gnome.org/hig/guidelines/app-icons.html) for buttons and windows of applications
+				  id:: 67eb8856-16c0-4c50-8bc5-e00b32ddb51f
+			- Humanity: default theme for GTK
+			- Adwaita: default theme for GNOME
+			- Gnome: legacy GNOME theme
 	- ### Wayland
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
 		- [XWayland](https://wayland.freedesktop.org/xserver.html)

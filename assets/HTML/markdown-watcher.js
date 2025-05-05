@@ -112,6 +112,12 @@ let exportUrl = exportUrlMd;
 
 /** The "god function" */
 async function load(forced) {
+  if(renderChoice.value=='html'){
+    doNormalizeMarkdown.disabled = true;
+  }else{
+    doNormalizeMarkdown.disabled = false;
+  }
+
   let fn = mdf.value.trim();
   if(!pdf){ pdf = DocRaptor(); }
   if(!mdNorm){
@@ -142,7 +148,7 @@ async function load(forced) {
     window.history.replaceState(ps, '', '?' + new URLSearchParams(ps).toString());
     let fnb = fn.split('/').at(-1).split('?').at(0); //base name
     exportUrlMd.download = fnb
-    fnb = fnb.replace(/\.\w+$/, ''); 
+    fnb = fnb.replace(/\.\w+$/, '');
     exportUrlMdRender.download = fnb + '.md.html';
     exportUrlHtml.download = fnb + '.html';
     exportUrlPdf.download = fnb + '.pdf';
@@ -219,7 +225,19 @@ async function load(forced) {
         item.prepend(title);
       }
     }
+    // restructure to FolderDiv
     restructureToFolderDiv(item, /*root*/true);
+    // HTML style
+    let style = document.createElement("style");
+    style.setAttribute('id', 'html_style');
+    style.innerHTML = `
+      html {
+        height: auto !important;
+        padding-bottom: 100vh !important;
+      }
+    `
+    mdhtml.prepend(style);
+    // update export URL
     let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
     updateURL(exportUrlHtml, b);
   }else if(renderChoice.value=='pdf'){

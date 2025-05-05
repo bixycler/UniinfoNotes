@@ -25,11 +25,12 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  CLOCK: [2024-12-12 Thu 11:35:12]--[2024-12-16 Mon 20:55:24] =>  105:20:12
 	  :END:
 		- Planes and [components](https://en.wikipedia.org/wiki/Polar_coordinate_system#Vector_calculus) in polar plane
+		  id:: 67b541c9-3b4e-4429-8c35-9afaf9f434bf
 		  collapsed:: true
-			- radial: $\vec{r} = r⋅\vec{φ} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \vec{φ} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
-				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ}$ = vector form $\vec{φ}$ = angle form $∠φ$ = simple form $\bm{φ}$
-			- transverse: $d\vec{φ} = de^{iφ} = \vec{φ}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{τ} = \hat{φ} = d\vec{φ}/dφ = (-\sin φ, \cos φ)$   and    $dτ = \hat{φ}⋅d\vec{r} = rdφ$
-				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{τ} ⋅ \hat{r} = \hat{φ} ⋅ \vec{φ} = d\vec{φ} ⋅ \vec{φ}$
+			- radial: $\vec{r} = r⋅\overrightarrow{⟨φ⟩} = r⋅e^{iφ} = r(\cos φ, \sin φ)$   ;   $\hat{r} = \overrightarrow{⟨φ⟩} = e^{iφ} = (\cos φ, \sin φ)$   and   $dr = \hat{r}⋅d\vec{r}$
+				- forms of the unit [phasor](https://en.wikipedia.org/wiki/Phasor#Notation) (radial unit vector): complex form $e^{iφ} =$ angle form $∠φ =$ vector form $\overrightarrow{⟨φ⟩}$
+			- transverse: $d\overrightarrow{⟨φ⟩} = de^{iφ} = \overrightarrow{⟨φ⟩}i⋅dφ = dφ⋅(-\sin φ, \cos φ)$   ;  $\hat{τ} = \hat{φ} = d\overrightarrow{⟨φ⟩}/dφ = (-\sin φ, \cos φ)$   and    $dτ = \hat{φ}⋅d\vec{r} = rdφ$
+				- transverse (temporal) ⊥ radial (spatial): $0 = \hat{τ} ⋅ \hat{r} = \hat{φ} ⋅ \overrightarrow{⟨φ⟩} = d\overrightarrow{⟨φ⟩} ⋅ \overrightarrow{⟨φ⟩}$
 			- tangential (longitudinal): $\vec{v} = d\vec{r}/dt$   ;    $\hat{l} = \hat{v} = \vec{v}/v = d\vec{r}/|d\vec{r}|$   and   $dl = \hat{v}⋅d\vec{r} = |d\vec{r}|$
 			- normal: $\hat{n} = \hat{r} × \hat{l} = \hat{r} × \hat{τ}$
 				- 3D [orthonormal basis](https://en.wikipedia.org/wiki/Orthonormal_basis) (radial, transverse, normal): $\hat{r} = \hat{τ} × \hat{n}$   ;   $\hat{τ} = \hat{n} × \hat{r}$  ;   $\hat{n} = \hat{r} × \hat{τ}$
@@ -41,6 +42,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				  CLOCK: [2024-12-16 Mon 20:53:41]--[2024-12-16 Mon 20:53:42] =>  00:00:01
 				  :END:
 				- Terminology notes:
+				  collapsed:: true
 					- In different fields, there are different sets of terms: (radial, transverse ~ tangential, normal) in polar calculus ~ (radial, tangential, longitudinal) in wood anatomy ~ (radial, tangential, axial) in cylindrical analysis
 					  collapsed:: true
 						- wood directions
@@ -59,7 +61,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			  id:: 675f8b5a-dbce-4c3b-a111-3a2088b723a0
 			  $P_φ(r, φ) = (φ, r)$
 				- This plane is unwrapped from the wrapped plane with the horizontal lines scaled up back to angular coordinate (phase $φ$).
-			- unwrapped linear plane  
+			- unwrapped circumference plane
 			  id:: 675f8af0-7b21-4483-908c-25ce0cec02cc
 			  $P_τ(r, φ) = (τ, r)$
 				- This plane is unwrapped directly from the wrapped plane without scaling.
@@ -87,11 +89,15 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 						- [Intro to the Quantum Harmonic Oscillator in 9 Minutes]({{video https://youtu.be/RCIz2hdJQy0}})
 						  {{video https://youtu.be/RCIz2hdJQy0}}
 					- Parabolic rotation, the bridge between elliptic and hyperbolic rotations
+					  id:: 67b541c9-dbe4-4b0f-a2a8-810805bbfce8
 					  collapsed:: true
-						- See [planar algebras & kinematic geometries in non-Euclidean geometries](https://en.wikipedia.org/wiki/Non-Euclidean_geometry#Planar_algebras) with [split-complex number](https://en.wikipedia.org/wiki/Split-complex_number) and [dual number](https://en.wikipedia.org/wiki/Dual_number) as metrics other than the elliptic metric of [complex number](https://en.wikipedia.org/wiki/Complex_number).
-						- [ProjectiveGeometry-AlexanderI.Bobenko.pdf](../assets/geometry/ProjectiveGeometry-AlexanderI.Bobenko.pdf)
-						- [Planar rotations on Wikipedia](https://en.wikipedia.org/wiki/Linear_fractional_transformation#/media/File:Planar_rotations.png)
+						- See [planar algebras & kinematic geometries in non-Euclidean geometries](https://en.wikipedia.org/wiki/Non-Euclidean_geometry#Planar_algebras) with
+							- elliptic metric of [complex number](https://en.wikipedia.org/wiki/Complex_number): $i^2 = -1$.
+							- hyperbolic metric of [split-complex number](https://en.wikipedia.org/wiki/Split-complex_number): $j^2 = +1$
+							- parabolic metric of [dual number](https://en.wikipedia.org/wiki/Dual_number): $ε^2 = 0$
+						- [Linear fractional transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation#Conformal_property) & [Möbius transformation](https://en.wikipedia.org/wiki/M%C3%B6bius_transformation#Classification) > [Planar rotations](https://upload.wikimedia.org/wikipedia/commons/5/5e/Planar_rotations.png)
 						  ![Planar_rotations-elliptic-hyperbolic-parabolic.png](../assets/geometry/Planar_rotations-elliptic-hyperbolic-parabolic.png)
+						- [ProjectiveGeometry-AlexanderI.Bobenko.pdf](../assets/geometry/ProjectiveGeometry-AlexanderI.Bobenko.pdf)
 					- The fractal nature of this plane is somehow related to the [Poincaré half-plane model](https://en.wikipedia.org/wiki/Poincar%C3%A9_half-plane_model) in hyperbolic geometry, which hosts the [modular group](https://en.wikipedia.org/wiki/Modular_group) $SL(2, \Z)$ including [modular forms](https://en.wikipedia.org/wiki/Modular_form) and [elliptic functions](https://en.wikipedia.org/wiki/Elliptic_functions), via [Möbius transformation](https://en.wikipedia.org/wiki/Linear_fractional_transformation).
 					  id:: 6766ea7c-3eb8-4463-9a79-d66509daf176
 					  collapsed:: true
@@ -187,7 +193,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- $x ± y = (x + y, x - y)/\sqrt{2}$
 				- $x ⋇ y = (x × y, x ÷ y)^{1/\sqrt{2}}$
 				- These are genralized “rotation” operations similar to [unitary operators](https://en.wikipedia.org/wiki/Unitary_operator) which preserve the norm of state vector.
-	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the [halting problem](https://en.wikipedia.org/wiki/Halting_problem) = [liar paradox](https://en.wikipedia.org/wiki/Liar_paradox) = circle-arrow complementarity = ((66f3e588-9094-45af-9dff-2225c3ac39ab)) = unlimited refinability = intrinsic openness of the ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
+	- [Gödel's incompleteness theorem](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) = [undecidability](https://en.wikipedia.org/wiki/Undecidable_problem) of the ((67b81e1b-b801-4e5a-9c00-98e51158712a)) = [liar paradox](https://en.wikipedia.org/wiki/Liar_paradox) = circle-arrow complementarity = ((66f3e588-9094-45af-9dff-2225c3ac39ab)) = unlimited refinability = intrinsic openness of the ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
 	  id:: 6747eac1-f683-4ed1-9b06-34fd10103c0c
 	  collapsed:: true
 		- circle = completeness = totality <> arrow = consistency = partiality
@@ -229,14 +235,24 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- ♾️
 			  infinity, forever
 		- ⅏
+		  collapsed:: true
 		  symbol for [Samaritan](https://en.wikipedia.org/wiki/Samaritans) source
+			- Possible reasons for such “coiling” symbol:
+				- In Hebrew, the Samaritan is a “round script” in contrast with the “square script” of modern [Hebrew alphabet](https://en.wikipedia.org/wiki/Hebrew_alphabet).
+				- Some curling letters: [shan](https://en.wikipedia.org/wiki/Shin_(letter)#Character_encodings) ࠔ = ש, [mim](https://en.wikipedia.org/wiki/Mem#Character_encodings) ࠌ = מ
+				- The coiling shape of the symbol "⅏" resembles not only Samaritan "shan" (ࠔ), but also Ethiopic "sza" (ሠ), and Arabic "seen" (س). All of them are listed in the same list in the Wikipedia page for the letter [shan](https://en.wikipedia.org/wiki/Shin_(letter)#Character_encodings).
+				- [Shaddai](https://en.wikipedia.org/wiki/El_Shaddai) is a name of God starting from the letter shan (ࠔ).
 		- [Vai syllabary](https://en.wikipedia.org/wiki/Vai_syllabary) contains many circles and loops.
 			- ꔛ (jee), ꖴ (ku), ꗝ (go), ꔟ (nggee), ꖉ (zoo), ꕢ (sa), ꖜ (bhu), ꖘ (hun), ꔮ (kpi), ꗤ (he), ꗢ (en), ꕤ (za)
 		- [Brahmi script](https://en.wikipedia.org/wiki/Brahmi_script) descendants
 			- [Thai script](https://en.wikipedia.org/wiki/Thai_script) always starts with a small loop.
 				- ๑ (digit one), ๛ (khomut, end of document), ๏ (fongman, beginning of a stanza in a poem)
-			- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles
+			- [Burmese alphabet](https://en.wikipedia.org/wiki/Burmese_alphabet) contains many circles.
 				- ဝ (wa), ထ (tha), တ (ta), ဿ (great sa), ၐ (sha), ၑ (ssa), ၜ (mon bba), ဓ (dha)
+			- [Sinhala script](https://en.wikipedia.org/wiki/Sinhala_script)
+				- මෙ (me) =  ෙ(e) + ම(ma), මෛ (mai) =  ෛ(ai) + ම(ma), ට (ta), ග (ga), ර (ra)
+			- [Malayalam script](https://en.wikipedia.org/wiki/Malayalam_script)
+				- ഠ (ṭha), ത (ta), ഗ (ga), ക (ka), ഞ (ña), ര (ra), ഌ (l̥), ഋ (r̥), തെ (te) =  െ(e) + ത(ta), തൈ (tai) =  ൈ(ai) + ത(ta)
 			- [Cham script](https://en.wikipedia.org/wiki/Cham_script) contains spiral punctuation
 				- ꩜ (spiral, beginning of a section)
 		- [Bamum script](https://en.wikipedia.org/wiki/Bamum_script) contains many pictographic characters
@@ -386,6 +402,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- operator = life force = center of balance for stability & existence: without a center, the body will be decomposed due to imbalance.
 			- This duality is also the [anusayā-cetanā junction](((66e80666-5f29-4419-8db1-bf8cdce893e4))) in the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 			- obop is a [topological defect](https://en.wikipedia.org/wiki/Topological_defect): obop point = [singularity](https://en.wikipedia.org/wiki/Singularity_(mathematics)), obop circle = soliton
+			  id:: 67f4eae9-34ed-4303-8dc0-8320a5fa6dd2
 				- |eye soliton| = quantum -> [abstraction](((66f40baf-1aca-40b7-828c-71d6f15f23fe))) = action
 					- The amount of the soliton is the quantum.
 					- That abstraction from the obop circle to the quantum is the action of that soliton: produce the extent
@@ -435,6 +452,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- Alan Fox has described the sutra's worldview as "fractal", "holographic", and "psychedelic"
 		- [vivarta-vada](https://en.wikipedia.org/wiki/Vivartavada) & maya: the manifestation of Brahman/Ātman as different individual selves (jivatman) in the non-dual Vedanta, i.e. [Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)
 		- dependent origination: [mình mới ngộ ra ý nghĩa của một giấc mơ kỳ lạ 16 năm trước về chủ đề "Duyên hợp"](https://www.facebook.com/share/p/DR1vZX54i5HwpyxE/)
+		  id:: 67b541c9-befb-46b8-b2ae-e6e251043153
 			- fb posts
 				- [So-le (staggered)](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/)
 				- [The tarpestry of life](https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/)
@@ -768,7 +786,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  :LOGBOOK:
 	  CLOCK: [2024-07-15 Mon 20:28:28]
 	  :END:
-		- With the ((668f5490-c223-4a8a-9cc4-0bd71af4c097))ing mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
+		- With the sublime-channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
 		  id:: 66b1cfa3-93c4-4de3-8904-06fb065ded70
 		- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
 	- WAIT The role of circle refinement and of sublimation - channeling
@@ -930,7 +948,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- That plot was added to Wikipedia page of Pascal's triangle at [17:07, 11 March 2011](https://en.wikipedia.org/w/index.php?title=Pascal%27s_triangle&oldid=418321493)‎, but then removed and replaced with the [animation](https://en.wikipedia.org/wiki/Pascal%27s_triangle#/media/File:Pascal's_Triangle_animated_binary_rows.gif).
 				  collapsed:: true
 					- ![Pascal-Triangle-animated-binary-rows.gif](../assets/geometry/Pascal-Triangle-animated-binary-rows.gif)
-		- DOING 3 ways to extend dimensions:
+		- DOING 3 ways to extend dimensions: volume, radius, phase
 		  id:: 6716110c-1b10-41cc-9e26-c76ef782b6a3
 		  :LOGBOOK:
 		  CLOCK: [2024-08-12 Mon 08:35:03]
@@ -939,11 +957,29 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- radius: $(dx)^2 + (dy)^2 + (dz)^2 = 1^2$
 			- phase: $∮ dx$ = ε (intent) = dy (extent)
 				- SCIFER: the internal resource circle (intent) rolls against the external object circle (content), the mismatch $dy$ is the further internal sustent circle
+			- ((67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa))
+	- [!] Windows 10 (seems from Windows 7) lets its window borders be dragged off the screen!
+	  id:: 66adf2e5-ddde-4ee3-8086-78ce57483837
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2024-08-03 Sat 15:30:44]--[2024-08-03 Sat 17:01:02] =>  01:30:18
+	  :END:
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- This is a feature for seamless multi-display settings, but should be across displays next to each other only, not protruding out of visible areas like this.
+			- Sometime we need to _intentionally drag windows partly off the screen_ to leave space for other windows and because we **don't want to resize** that window.
+				- This can be balanced with the normal constraint of windows within screen by edge snapping.
+					- But [Windows Snap](https://support.microsoft.com/en-us/windows/snap-your-windows-885a9b1e-a983-a3b1-16cd-c531795e6241) feature **always resize** the snapped window.
+					- There's an option "When I snap a window, automatically resize it to fill available space", but unchecking it has no effect.
+					  collapsed:: true
+						- ![Windows10-SnapWindow-settings.png](../assets/GUI/Windows/Windows10-SnapWindow-settings.png)
+			- StackOverflow question with negative answer: [Prevent windows from being dragged past the edge of screen](https://stackoverflow.com/questions/44219386/prevent-windows-from-being-dragged-past-the-edge-of-screen)
+			- Someone met the problem of [windows open off screen](https://answers.microsoft.com/en-us/windows/forum/all/windows-10-windows-open-off-screen/0f2432ad-c60d-4bce-808b-3f0c403ce9f2) with no effective solution, too.
 	- Intension (description, address) >-[exp]-> intent (constructive extension, address/name space) >-[complement, reciprocal]-> extent (predicative extension, object/value space)
 	  collapsed:: true
 		- The good old diagram 😊 ([from Mar 2011](https://docs.google.com/drawings/d/1ki-Zwf4N5KTbGZ5XdGlEOrDyV7SWIYnlPi_uKoblWdA/edit?usp=sharing))
 		  ![Constructive vs Predicative In/extension](https://docs.google.com/drawings/d/e/2PACX-1vRMG3kI6P4QLYvd9uyosDG07EP7TyCkJCGDoydCdoIK2i1SeS5-TJE-b3-w_2S7-F2WF6AiTcCrZaDu/pub?w=575&h=522)
 	- Everything (intensionally) is address.
+	  id:: 67b541c9-df24-47b1-90a8-9f7065d53a5f
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-06-12 Wed 10:23:02]
@@ -984,6 +1020,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- An address space A can build its structure based on another meta-space B, where each address on A, called "name" (local name, logical address), is translated to an address on B, called "address" (full address, physical address), like in Markdown syntax `[local.name](address/to/target/object)`.
 			- That namespace A is in general orthogonal to the underlying address space B, but can also reuse some parts of B to create "natural names", i.e. the names following the underlying structure.
 	- Levels of numbers & thread
+	  id:: 67b541c9-56f8-40dc-ab10-e83a7d50ce1d
 	  collapsed:: true
 		- 4. Relaxed thread, constant velocity c, "straight/round", Turing machine, searching
 		- 5. Compressed 1-dir thread (temporal), nonzero acceleration/curvature, probability, AI, optimization toward 1 dir
@@ -993,6 +1030,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		- The wholeness (the roundness) -> there's a center point in each circle, even invisible, common (shared) to all parts (arrows) of that circle -> the common
 		- The common -> all parts are linked together via that common (center) -> the wholeness
 	- In-ex relativity: ways to turn inside out
+	  id:: 67b541c9-0436-4987-9720-b50f736da2d4
 	  collapsed:: true
 		- intension - extension
 		- inversive & projective geometry
@@ -1014,6 +1052,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- Thanks to its conciseness, the name can be used by many subjects. This use is the [mixing](https://en.wikipedia.org/wiki/Mixing_(physics)) of content between objects.
 		- Naming = ε-abstraction is the `ob` part of the obop, while repeating = ω-extension (including, embedding) is the `op` part of the obop.
 	- External context = external form
+	  id:: 67b541c9-f4a6-4c6a-9ff2-33a83accbfda
 	  collapsed:: true
 		- Each work item has an `ex` space (environment, address space, context) as the world view in contrast to the `in` space (self, component space, content).
 		- Global context: [[Namespace]]
@@ -1023,6 +1062,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- here ((66600918-ed92-40c9-bda5-1911865d676c)) and
 			- here ((66600918-bbc8-4d92-8d46-dbda3eed92f0))
 	- function = mapping = transformation = arrow
+	  id:: 67b541c9-45de-43e4-9ea1-054bac477a19
 	  collapsed:: true
 		- relation = 2 way arrow (diff from + diff to = diff with)
 		- Complement of "((667d0b78-fff6-49bc-90d5-165648ed56d3)) as 2 way arrow" is "relation as common part between related objects"

@@ -7,8 +7,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
-	  collapsed:: true
-		- circle
+		- crystal
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  collapsed:: true
 		  ^ **Name & Term** search
@@ -17,7 +16,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- Containers
 				  id:: 67710fcc-08c4-4a3e-96fd-bc4207f6ec8f
 				  search-scope::
-				  search-scope-page:: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]]
+				  search-scope-page:: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]
 				- Block ids
 				  id:: 677010ec-01b9-48d6-9a3b-ea53bd62cea3
 				  filter:: 665359e4-4597-4775-b849-f9acbb98960a|665c9af1-1ce2-461c-af33-671690618c8f|6699e4db-2e75-4427-94bb-96dfe0367dd1|6699ea73-dc77-4227-a293-b501f2eb1759|6699e5f2-7788-46c7-8233-87699a65ca30|6699eb54-ce9e-4472-a784-c59ffd47f02b|66c80d5c-181f-4f06-a285-0624a65e9951|66c80dde-a097-4744-8af8-c6e26dcfdda2|66c80da7-c0e8-46d2-85e5-71318fd44eff|66c80dfd-95e2-4b5a-bd56-06e8307e81ca|66c80da9-4cfb-4de7-b83d-8b70665207bf|66c80e01-002b-42ae-9c60-49bf3fc6e159
@@ -29,21 +28,24 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- child-filter:: ((6651ecba-793d-43c5-8020-a9f260b032d8)) | ((665359c0-a89a-41b5-9f28-503f79107a08)) | ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
 			- {{search-query [:h3 "Name & Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 67710fcc-08c4-4a3e-96fd-bc4207f6ec8f, 677010ec-01b9-48d6-9a3b-ea53bd62cea3, true, false}}
 			  query-table:: false
-		- alias
+		- ref
 		  id:: 66fce8d4-0434-4dd0-941f-4f3bd9b1b456
 		  collapsed:: true
 		  ^ **Element** search
 			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- intrinsic dynamic
+		- volition
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
 		  child-filter::
 		  search-scope:: Specific blocks: ;
-		  search-scope-page:: Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]];
+		  search-scope-page:: Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]];
 		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-01 Tue 10:25:34]
+		  :END:
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
@@ -58,92 +60,40 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- Various stuffs all over the place: Technical stuffs, Unïnfo, Life stories
+				- 2nd time death by drowning & various stuff about Unïnfo & Balance Way
 				-
 				- Technical stuffs
-					- Refactor and wrap up pages for new year 2025
+					- Add ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) to Linux
+					  id:: 67adb58e-6bf4-43ba-b574-58b112cc3874
+					- Update Git's ((666022fc-2700-438d-810e-a6fab07f696f))
+					- Markdown: Add `replaceQuotes()`'s possessive exception & CSS for blockquote
+					- ((67d24c08-0890-4864-9ceb-759d519f5e8b)) & ((67d25330-736b-464e-a926-ccd0771082eb))
+					- ((67f6185f-5efc-4fd0-b924-c175917092d8))
+					- Recover the git repo; Rename assets/Will/story/YYYY-Mon/ → YYYY-MM
 					  collapsed:: true
-						- ((676e5401-5951-445c-b109-61d61c11fc59))
-						- ((67710747-2982-4134-875e-3b715313db87))
-						- DONE update Search: add Wiki, noun, verb, etc.
-						  :LOGBOOK:
-						  CLOCK: [2024-12-29 Sun 15:48:05]--[2024-12-29 Sun 19:07:34] =>  03:19:29
-						  :END:
-							- DONE Add shared pages
-							  :LOGBOOK:
-							  CLOCK: [2024-12-29 Sun 16:06:17]--[2024-12-29 Sun 16:06:19] =>  00:00:02
-							  :END:
-							- ((67711d1f-39a7-42c5-83ac-641d0b838e87))
-						- ((6772a6c7-bf00-405a-83f7-6fe7dd181cba))
-						- ((6773ba79-d2a7-442d-be3d-f679f91eda41))
-						- ((6773f59b-066f-41dc-9c87-6214278bca03))
-						- ((67761163-a80d-4501-9c43-8bac6612c98d)); ((677638ff-2593-42a2-89c3-99c5708bc06a))
-						- ((67710747-2982-4134-875e-3b715313db87))
-					- Query ((677689e6-7163-4e94-ab65-18d3f51e3eb9))
-					- ((675141bb-5c74-4906-b6ee-63ac3a237ef0))
-						- ((67514336-628d-4f80-b154-3b7cfde988f0))
-						  id:: 6752e3f2-5d37-4c90-9deb-e4c8134a4591
-					- ((6751697f-aa5b-4ade-b97c-9ea1f1406581))
-					- ((677e7099-5dfc-43f4-8db0-67189cf8ef74))
-					- ((6788f0ae-773b-4da2-87f5-c6552d76a00c))
-					- ((679085ef-facd-4c4a-83f3-f32bdefbaa49))
-					- ((6793437b-5ee5-4f7f-a547-bb9e15ac5883)) & ((556c799a-e364-49ad-94ab-5d14bef766ca))
-					- Unfinished task: ((67715d03-9dbc-42b0-8589-064396a9c52b))
+						- ((6808b04b-58b5-411e-982a-d79c62bafcde))
+				-
+				- Stories
+					- ((67dcc012-44d3-4041-b17a-0ef201b3ff6c))
+					- ((67b2f947-69cb-4183-a99d-204c0beb6dcc))
+					- ((681826ae-7994-4e0e-b0c2-f7d1f0091e22))
 				-
 				- Unïnfo
-					- ((674ff584-00e3-40d8-9b77-21e9dca899dd))
-					- ((6756cbba-4326-499c-a1f1-296a36a14663))
-					- ((675c03d8-3185-41a8-9f98-e869fabec793))
-					- ((6735b189-867a-4eee-b5f5-3079bb3da458))
-					- ((676539ca-ff29-4749-ab33-b00dfe8fb936)) & ((66537674-6cf9-4459-8bea-7c1858c694a3)) & ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
-					- [Langlands program, modular forms, elliptic functions](((6766ea7c-3eb8-4463-9a79-d66509daf176)))
-					- ((677f9ae2-f7bc-47a7-a7e3-4dda29d9d834))
-					- ((6780bc66-29b3-43f7-b577-698bae51aadf))
-					- [traversal, **transcycling**, sprolling](((678b7762-1187-4330-93cb-7a62e14467a8)))
-				-
-				- Life stories
-					- ((6752f2ae-a019-400c-9a13-ede363f665ff))
-					- ((67555f3a-e296-4ea0-bac9-c0dcffa368d1))
-					- [first times reset within a day](((6768bf20-deec-41bf-ac18-adc753ebb15f)))
-					- ((675c399e-06a9-4c00-91a2-f2340a3a9bac))
-					- ((67445223-9459-4aa9-b102-70c63943577b))
-					- ((676a5f10-724c-474f-bf47-4e19c8f0c177))
-					- ((677e2745-6664-407e-ab5f-3c18319e2e6b))
-					- ((6783cfaa-7181-45d0-a9e3-428aa89cf5e3))
-					- ((67836ec6-0e46-4a3f-80d9-b27476d12095))
-					- ((678512dc-66ef-4ba9-aebb-0355d89ef38b))
-					- [wrap up unfinished stuffs](((67a5dcde-4189-4626-8396-61577b6906a4)))
-					  id:: 67a963d0-33f8-4cf7-bc24-c49cab3bbfbb
-				-
-				-
+					- ((67b81e1b-b801-4e5a-9c00-98e51158712a))
+					- Update ((67b183f5-1cca-4473-917e-60c644dd5466)) & add ((67baf139-aa0c-436e-9e21-983323833c71))
+					- [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831)))
+					- Add ((67f9100a-b749-4354-ae16-92dc74ff27da)) & ((6810ceeb-6af6-442b-9910-baae2c315c46))
+				- Balance Way
+					- ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
+					- Ways to resolve the problem of [rigidity/inertia/momentum](((67b541cf-4818-45ad-911c-d2c3397f9e3d)))
+					- ((67d10c06-3fe3-4691-95c0-84278a2dc713)); revise [Reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7)))
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-			  collapsed:: true
 				- ...
 			- <<End Tracks>>
 			  ---------------
-		- Reminder messages
-		  id:: 67850fb1-04a9-427f-bc0d-f61913d86e4b
-		  collapsed:: true
-			- Back to WORK!
-			  id:: 67850c3d-a026-43a0-8fb8-1febf398bd65
-			  scheduled:: <2025-02-03 xxx 13:00>
-			  DEADLINE:: <2025-02-03 xxx 17:00>
-			- id:: 67850fd2-272d-48fa-9d7c-c649619b5a89
-			  #+BEGIN_CAUTION
-			  [:b {:style "background-color:Orange; color:DarkRed"} " Back to WORK! "]
-			  #+END_CAUTION
-			- id:: 67850fe1-3e22-430e-9af9-a84853766dd7
-			  #+BEGIN_WARNING
-			  [:b {:style "background-color:OrangeRed; color:White"} " ¡¡¡ Back to WORK !!! "]
-			  #+END_WARNING
-		- #### Reminder
-		  id:: 67850c24-b1c9-425a-abc2-af81243befb2
-		  collapsed:: true
-			- {{deadline-warning ((67850fb1-04a9-427f-bc0d-f61913d86e4b)), 67850c3d-a026-43a0-8fb8-1febf398bd65, 67850fd2-272d-48fa-9d7c-c649619b5a89, 67850fe1-3e22-430e-9af9-a84853766dd7}}
 		- ### Working
 		  id:: 6773d98a-3917-4267-9f8b-7d86b84d3663
-		  {{embed ((67850c24-b1c9-425a-abc2-af81243befb2))}}
 		  {{embed ((67164c57-8f45-46eb-92a9-f00b02dccfc9))}}
 		  {{embed ((db954501-95d0-46e2-b1fc-39b6a966300e))}}
 		  {{embed ((6788f004-d3df-41d4-afc8-c8c5ea52c51c))}}
