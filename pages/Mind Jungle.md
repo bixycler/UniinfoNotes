@@ -414,7 +414,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2025-04-11 Fri 19:50:22]
 		  :END:
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67f9100a-b749-4354-ae16-92dc74ff27da)) is a [psychological complex](https://en.wikipedia.org/wiki/Psychology_of_self) produced by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)) to tell about the subject itself. To develop the sense of self, the self-awareness and then the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) complexify the ((6810ceeb-6af6-442b-9910-baae2c315c46)) in this way:
-				- ((667c0031-0a87-44c9-9e98-6d45893b095f)) → ((6810324e-f084-4693-b5cb-40778f4a6eee)) → ((6810327c-f633-4537-84a1-ca36a8d49d65)) [free]
+				- ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((667c0031-0a87-44c9-9e98-6d45893b095f)) → ((6810324e-f084-4693-b5cb-40778f4a6eee)) → ((6810327c-f633-4537-84a1-ca36a8d49d65)) [free]
 				- [qualification](((671e0fcc-37b6-4f03-8e87-8923422ca8e0))) by ((66c8772a-9b29-45b0-b169-2fa847333e02)) → ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will]
 				- free + will → ((67f91050-a86c-4176-87ca-91010a8fe3c0)) → ((67f9100a-b749-4354-ae16-92dc74ff27da))
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -430,7 +430,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2025-04-29 Tue 08:59:04]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Thanks to the ((67ee0ea8-b68d-4adc-8d57-2f0a7be16d22)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) in a crystalized ((6810ceeb-6af6-442b-9910-baae2c315c46)), a developed self feels that it's a ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)).
 				- TODO Sustained by ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the self in the ((6810ceeb-6af6-442b-9910-baae2c315c46))
 			- sense of separateness
 			  id:: 6810327c-f633-4537-84a1-ca36a8d49d65
@@ -617,7 +617,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- #### Representative Nature
 			  id:: 67331da7-8b10-4890-ae51-9a92796c5af3
 			  While a representative represents the whole, it's not the whole, just a part of the whole. That means any representative is still incomplete and reflects the whole with distortion.
-		- ((669a5387-2a97-4311-a295-aa0afd9c4d76)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
+		- ((6810ceeb-6af6-442b-9910-baae2c315c46)) of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b))
 		  id:: 67330a8d-c966-442c-8948-a9a2dd10ab60
 			- The internal ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the whole is from the center, through layers of ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s to individual parts, and back to the center also through layers of representatives but in different routes and maners.
 				- In the opposite direction, each part is ((66c835f5-58ee-485f-914c-3d95167feeb3))ing and heading toward its representative.
@@ -2862,11 +2862,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66537bdd-6c99-4d7b-905a-e2a487cae5ce
 	  collapsed:: true
 	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((671e35d5-231a-4ed4-8c4a-6b200f6ccf20))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((6818a270-b75b-44ee-bbd2-0032846e4cb8))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Crystal
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A [solid](https://en.wikipedia.org/wiki/Solid "Solid") material whose constituents (such as [atoms](https://en.wikipedia.org/wiki/Atom "Atom"), [molecules](https://en.wikipedia.org/wiki/Molecule "Molecule"), or [ions](https://en.wikipedia.org/wiki/Ion "Ion")) are arranged in [crystal structure](https://en.wikipedia.org/wiki/Crystal_structure)  which is a periodic [long-range order](https://en.wikipedia.org/wiki/Long-range_order "Long-range order") that extends in all directions called ((66537b4c-fa0a-4e95-b854-096e9802aa09)) in math.
 		- crystallize
 		  id:: 671e35d5-231a-4ed4-8c4a-6b200f6ccf20
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537bdd-6c99-4d7b-905a-e2a487cae5ce))
+		- crystallized
+		  id:: 6818a270-b75b-44ee-bbd2-0032846e4cb8
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((66537bdd-6c99-4d7b-905a-e2a487cae5ce))
 	- ## lattice
 	  id:: 66537b4c-fa0a-4e95-b854-096e9802aa09
 	  collapsed:: true
