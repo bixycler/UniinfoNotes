@@ -624,6 +624,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: 681838a1-d1d9-4ff3-bcec-38cb8c9a137f
 	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- Let's wrap up the ((67f9100a-b749-4354-ae16-92dc74ff27da)).
+		  :LOGBOOK:
+		  CLOCK: [2025-05-05 Mon 11:49:20]
+		  :END:
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
 		  :LOGBOOK:
