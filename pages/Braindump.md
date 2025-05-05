@@ -595,7 +595,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-04-24 Thu 14:01:22]
 		  :END:
 		- From many appearances of the word “argument” in ((67e3b3e4-66d6-4c72-92d1-faeef2cf2165)), let's [relate them all together](((680b6063-e454-4cf6-835e-d6f726b8b871)))!
-		  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		  :LOGBOOK:
 		  CLOCK: [2025-04-25 Fri 17:15:29]
 		  :END:
@@ -621,6 +620,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :END:
 		- ((6810ae1c-f995-4f93-9793-8bd422760249))
 	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
