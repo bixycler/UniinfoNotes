@@ -63,7 +63,6 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 					- ![last-newline-blame-IDEA](../assets/TextProcessing/last-newline/last-newline-blame-IDEA.png)
 			- 3rd, **unintended conflict**: Some text editors and IDEs [automatically add the last newline](((616bfc2b-05f2-4a85-a094-dd771aa12cd1))) to editing files, making unintended changes which will conflict with appendage to that file in other commits.
 			  id:: ed8333ef-b3b6-4d1b-a5e7-3a2fb4e1b286
-			  collapsed:: true
 				- The conflict will be shown (for resolution) in a very obscure way, due to the difficulty of showing the newline itself.
 				  ```git-merge-conflict
 				  6: Last line without newline
@@ -73,7 +72,12 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				  >>>>>>> feature-testEOL-2
 				  
 				  ```
-			- Refactor codes
+				- There are two options to fix this issue:
+					- [Force all IDEs](((67aabd6b-a257-4eb7-8363-3d29035a30f4))) to automatically add the last newline.
+					- [Stop Linux editors](((67aacefc-f707-49f4-b33d-ed73f63e3a64))), like `vim`, `nano`, from fixing files missing newline at the end of file.
+					  id:: 67aacbe5-f534-4eac-abe8-15f2f8990691
+						- This option should be chosen for a project with lots of legacy codes missing the last newline.
+			- Commands to refactor codes
 			  id:: b8c17a55-f618-43ed-9826-314412a08965
 			  collapsed:: true
 				- Add the missing last newline (ref: [unix.stackexchange](https://unix.stackexchange.com/a/31955/566548))
@@ -211,15 +215,77 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 				- Revision `$rev` can be given to blame edits from that `$rev` up, instead of from now (working directory).
 					- Usually we use `$rev^` to find edits *before* `$rev` to trace back the history.
 				- Many options for output format: `-s -b -w --date=human -M --color-lines --color-by-age`
-		- Push another branch, not the current:   
-		  `git push <repo> <another_branch>`
-		- Force pull: To overwrite this branch with its upstream, from the common base, don't use the misleading `git pull --force` because it's only [`git fetch --force`](https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/#the-other-git-pull-force).  
-		  Use this: (put them all into an alias) 
-		  ```shell
-		  git fetch --all
-		  git reset --hard $(git merge-base HEAD @{u})
-		  git merge @{u}
-		  ```
+		- Push to remote
+			- Push another branch, not the current:   
+			  ```sh
+			  git push ${remote} ${another_branch}
+			  ```
+			- Force  push
+				- Overwrite remote **anyway** (hard force)!
+				  ```sh
+				  git push --force
+				  ```
+				- **Safely** overwrite: be sure that no other people did anything to the remote ref.
+				  ```sh
+				  git push --force-with-lease --force-if-includes
+				  ```
+		- Force pull
+			- To **overwrite** this branch with its upstream,
+			  id:: 67af0c5c-996c-4065-9533-0ce9fce905bf
+			  ```sh
+			  git fetch --all
+			  git reset --hard @{u} # shorthand: @{u} = @{upstream}
+			  ```
+				- Or the “standard combo” 
+				  ```shell
+				  git restore . # discard any staged changes
+				  git pull --force --ff-only ${remote} ${branch}:${branch}
+				  ```
+					- Warning: `git reset --hard` is so strong that it can overwrite this branch with another *completely separate branch*, i.e. it's a “**hard set**”, not just a “hard ~~re~~set”!
+			- To _**overwrite** another branch_ with its upstream, it's shorter with a single command:
+			  collapsed:: true
+			  ```sh
+			  git fetch --force ${remote} ${branch}:${branch}
+			  ```
+				- Note that this command cannot be applied to the current branch! Use [git pull --force](((67af0c5c-996c-4065-9533-0ce9fce905bf))) instead.
+				  ```sh
+				  fatal: Refusing to fetch into current branch refs/heads/test_branch of non-bare repository
+				  ```
+				- Note the target local branch can be a completely different branch, even a new branch, e.g.
+				  ```sh
+				  git fetch --force ${remote} ${branch}:${other_branch}
+				  ```
+				- When the remote tracking branch `${remote}/${branch}` is different from the actual `${branch}` on `${remote}` repo, which is the case of remotely `push --force`, there will be 2 updates, e.g.:
+				  ```sh
+				  git fetch --force origin test_branch:other_branch
+				  From github.com:bixycler/GitWorkflows
+				   + 2174bba...189e558 test_branch -> other_branch  (forced update)
+				     233e5d4..189e558  test_branch -> origin/test_branch
+				  ```
+					- 1st,`test_branch` on `origin` remote → remote tracking `origin/test_branch`, like the normal `git fetch`
+					  ```sh
+					     233e5d4..189e558  test_branch -> origin/test_branch
+					  ```
+					- 2nd, remote tracking `origin/test_branch` → local `heads/other_branch`, like `git reset --hard`
+					  ```sh
+					   + 2174bba...189e558 test_branch -> other_branch  (forced update)
+					  ```
+			- To **merge** with upstream even if the remote tracking branch `@{u}` is diverged from the branch on remote repo,
+			  collapsed:: true
+			  ```sh
+			  git pull --force ${remote} ${branch}:${branch}
+			  warning: fetch updated the current branch head.
+			  fast-forwarding your working tree from
+			  commit 2174bba0072daa0dc907f9049b9ecf597d812fb1.
+			  fatal: Need to specify how to reconcile divergent branches.
+			  ```
+				- which is equivalent to (depending on `git config pull`)
+				  ```shell
+				  git fetch --force ${remote} ${branch}:${branch} # (pseudo-command!) warning: fetch updated the current branch head.
+				  #git merge @{u} # when git config pull.rebase false (default)
+				  #git rebase @{u} # when git config pull.rebase true
+				  # or don't merge nor rebase # when git config pull.ff only
+				  ```
 		- Merge
 			- Merge favoring `ours`/`theirs` over the other side (using default strategy `-s ort`)
 			  id:: 666172e6-15fa-412e-a2ba-a32304da6937
@@ -273,6 +339,11 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  
 			  
 			  *) Notes:
+		- Specifying commits (revisions)
+			- `HEAD` = `@`, `[${branchname}]@{upstream,push}` with shorthand `${u}` = `@{upstream}`
+			- **refname**: `master`, `heads/master`, `refs/heads/master`, `ogigin/main`, `remotes/ogigin/main`, `remotes/ogigin`, `origin`, `refs/remotes/ogigin/main`, etc.
+			- SHA1 hash: short `dae86e`, log `dae86e1950b1277e545cee180551750029cfe735`
+			- Ref: [Git docs](https://git-scm.com/docs/revisions/2.42.0)
 		- Range of commits (revision range)
 			- `${base_exclusive}..${head_inclusive}` means “all commits reachable from `${head_inclusive}` that aren't reachable from `${base_exclusive}`”.
 			  collapsed:: true
@@ -284,6 +355,11 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			- `${head1_inclusive}...${head2_inclusive}` means roughly "between 2 (branching) heads", and exactly "all commits reachable from either head, but not (the common) from both of them".
 			- Ref: [Git docs](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#_commit_ranges)
 			  id:: 66b1cfa5-6161-4074-bd22-077ef848026b
+		- Find the common base of branches
+			- Between this and upstream
+			  ```sh
+			  git merge-base HEAD @{u}
+			  ```
 	- Git workflows
 	  id:: 666022fc-eeeb-4365-a854-7e14045655be
 	  collapsed:: true
@@ -388,6 +464,16 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  git -c core.sshCommand="ssh -vvv" push
 			  git --config-env=core.sshCommand="ssh -vvv" push
 			  ```
+		- `fsck` to check dangling commits, dangling objects, when the repo is corrupt.
+		  id:: 6808b9c5-402d-4923-997b-7b8056f71dc8
+		  :LOGBOOK:
+		  CLOCK: [2025-04-23 Wed 16:58:38]
+		  :END:
+			- Error messages: `fatal: bad object HEAD` or `fatal: loose object 041c7dfc... (stored in .git/objects/04/1c7dfc...) is corrupt`
+			- `git fsck --full --no-reflogs | grep "dangling commit" > dangling_commits.txt`
+			- ![check-dangling_commits.sh](../assets/Will/story/2025-04/UniinfoNotes-git-recovery/check-dangling_commits.sh): extract dangling commit messages and sort by date time.
+			- Get the last commit `$hash`, then `git reset --hard $hash`
+			- The reamaining dangling commits & blobs can be cleaned up with `git gc --prune=now`.
 		- References
 			- Git Internals - [Environment Variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables)
 			- Git config - [Variables](https://git-scm.com/docs/git-config#_variables)

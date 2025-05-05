@@ -196,6 +196,9 @@ export default function MarkdownNormalizer(){
           l = replaceQuotes(l);
           nln += l + mi[0];
           li = mi.index + mi[0].length;
+          if(mi[0].length > 0){ // retain the last markup char of inline codes & HTML tags for replaceQuotes() to recognize them
+            li--; nln = nln.slice(0,-1);
+          }
         }
       }
       nmd += nln+'\n';
