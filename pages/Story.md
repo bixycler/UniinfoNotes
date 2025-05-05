@@ -1828,6 +1828,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  collapsed:: true
 						- ![Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg](../assets/Will/story/2025-04/Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg)
 			- Hiru TV (හිරු ටීවී)
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-04-24 Thu 20:03:12]
 			  :END:
@@ -1838,7 +1839,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2025-04-24 Thu 20:03:39]
 				  :END:
-				- But no such interview can be found on Hiru TV sites: https://www.hirutv.lk/, https://www.hirunews.lk/, YouTube channels, Facebook, Instagram, TikTok, X (Twitter)
+				- But no such interview can be found, [by Gemini Deep Research](https://g.co/gemini/share/0b33a45bb014), on Hiru TV sites: https://www.hirutv.lk/, https://www.hirunews.lk/, YouTube channels, Facebook, Instagram, TikTok, X (Twitter)
 				- Video: [Thầy Minh Tuệ trả lời phỏng vấn đài truyền hình Sri Lanka](https://youtu.be/hAO_SYW1O1k)
 				  collapsed:: true
 				  :LOGBOOK:
@@ -1887,5 +1888,4 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The Naturalism is not only the [Western one](https://en.wikipedia.org/wiki/Naturalism_(philosophy)) with external science, but also the [Eastern one](https://en.wikipedia.org/wiki/Ziran) with internal science, like the Ziran (自然, tự nhiên) of Lao Tzu
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((680a363b-c9ff-4f0a-8081-a3d4a16ade20))
 		- ...
