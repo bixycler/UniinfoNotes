@@ -4865,18 +4865,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- I've tested and confirmed that `restart` (`gnome-session-quit --reboot`) has the same effect as `reboot` (`/usr/sbin/reboot --no-wall`), even if ((67f4f5e3-e739-41cd-8b95-14c7bbe9eebe))
 										- [?] Why the first 2 times of removing graph DB and reload app didn't take effect?
 											- Maybe some caches were still remaining in the [Flatpack sandbox](((67f4eaf0-bc2c-470d-9590-be149267e750)))!?
-							- DOING [!] **Block id jumps** following the relative position of blocks.
+							- DONE [!] **Block id jumps** following the relative position of blocks.
 							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2025-05-05 Mon 10:42:02]
-							  CLOCK: [2025-05-05 Mon 10:42:04]
+							  CLOCK: [2025-05-05 Mon 10:42:04]--[2025-05-05 Mon 10:49:04] =>  00:07:00
 							  :END:
 								- This id jump was due to Logseq's lagging memory after i moved some
 								      `Braindumping` items to `April` braindumps.
 									- The block `67f72f21-c983-4734-b616-eca636a5cf9c` which had been right under
 									  `Braindumping`, as its first child, ...
 									- was moved to right below the block `From many appearances of the word “argument” in...`
-									- So Logseq "restored" the id based on the relative position between blocks
+									- So Logseq "restored" the id, based on the relative position between blocks, in commit `6154f573`
+									  moved `id:: db954501-95d0-46e2-b1fc-39b6a966300e`
+										- from
+										  > ## Braindumping
+										- to
+										  > From many appearances of the word “argument” in...
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
