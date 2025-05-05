@@ -408,11 +408,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The storm's eye is used as a metaphor of the nirvāṇa in the 3rd part “**Thức định** (định vào cái thức, absorption into the consciousness, 👁/=)” of the blog post [3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html), similar to [a post by Michael Gerson](https://missionsixzero.com/the-eye-of-the-hurricane/).
 		- ### sense of self
 		  id:: 67f9100a-b749-4354-ae16-92dc74ff27da
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-11 Fri 19:50:21]
 		  CLOCK: [2025-04-11 Fri 19:50:22]
 		  :END:
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67f9100a-b749-4354-ae16-92dc74ff27da)) is a [psychological complex](https://en.wikipedia.org/wiki/Psychology_of_self) produced by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)) to tell about the subject itself. The self-awareness and then the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) complexify the ((6810ceeb-6af6-442b-9910-baae2c315c46)) in this way: ((667c0031-0a87-44c9-9e98-6d45893b095f)) → ((6810324e-f084-4693-b5cb-40778f4a6eee)) → ((6810327c-f633-4537-84a1-ca36a8d49d65)) [free] + ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will] → ((67f91050-a86c-4176-87ca-91010a8fe3c0)) → ((67f9100a-b749-4354-ae16-92dc74ff27da))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67f9100a-b749-4354-ae16-92dc74ff27da)) is a [psychological complex](https://en.wikipedia.org/wiki/Psychology_of_self) produced by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)) to tell about the subject itself. To develop the sense of self, the self-awareness and then the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) complexify the ((6810ceeb-6af6-442b-9910-baae2c315c46)) in this way:
+				- ((667c0031-0a87-44c9-9e98-6d45893b095f)) → ((6810324e-f084-4693-b5cb-40778f4a6eee)) → ((6810327c-f633-4537-84a1-ca36a8d49d65)) [free]
+				- ((66c8772a-9b29-45b0-b169-2fa847333e02)) → ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will]
+				- free + will → ((67f91050-a86c-4176-87ca-91010a8fe3c0)) → ((67f9100a-b749-4354-ae16-92dc74ff27da))
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- An unwholesome ((67f9100a-b749-4354-ae16-92dc74ff27da)) is caused by its mismatch with the ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
 				  collapsed:: true
@@ -458,6 +462,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91050-a86c-4176-87ca-91010a8fe3c0)) is the feeling that “I have [free will](https://en.wikipedia.org/wiki/Free_will)” which is the ability make conscious choices and decisions independently, without being determined by prior or external causes. Here, “free will” = “free” [((671b160c-0589-4f83-a778-a9fb4df6783a)), ((6810327c-f633-4537-84a1-ca36a8d49d65))] + “will” [intention, determination, ((67f91046-34ed-4bb4-a006-db2c33aeabf7))].
 		- ### self-essence
 		  id:: 66c8772a-9b29-45b0-b169-2fa847333e02
+		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)), svabhāva, 自性
 			- Ātman (आत्मा, आत्मन्)
 			  id:: 66f27ac0-b0b1-4dec-b256-5f4ab57e1972
