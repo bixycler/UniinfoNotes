@@ -60,27 +60,34 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- (Commit title)
+				- 2nd time deatdrowning
 				-
-				- Add ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) to Linux
-				  id:: 67adb58e-6bf4-43ba-b574-58b112cc3874
-				- Update Git's ((666022fc-2700-438d-810e-a6fab07f696f))
-				- ((67b2f947-69cb-4183-a99d-204c0beb6dcc))
-				- ((67b81e1b-b801-4e5a-9c00-98e51158712a))
-				- Update ((67b183f5-1cca-4473-917e-60c644dd5466)) & add ((67baf139-aa0c-436e-9e21-983323833c71))
-				- Markdown: Add `replaceQuotes()`'s possessive exception & CSS for blockquote
-				- ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
-				- Ways to resolve the problem of [rigidity/inertia/momentum](((67b541cf-4818-45ad-911c-d2c3397f9e3d)))
-				- ((67d24c08-0890-4864-9ceb-759d519f5e8b)) & ((67d25330-736b-464e-a926-ccd0771082eb))
-				- ((67d10c06-3fe3-4691-95c0-84278a2dc713)); revise [Reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7)))
-				- ((67dcc012-44d3-4041-b17a-0ef201b3ff6c))
-				- ((67f6185f-5efc-4fd0-b924-c175917092d8))
-				- Recover the git repo; Rename assets/Will/story/YYYY-Mon/ → YYYY-MM
-				  collapsed:: true
-					- ((6808b04b-58b5-411e-982a-d79c62bafcde))
+				- Technical stuffs
+					- Add ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) to Linux
+					  id:: 67adb58e-6bf4-43ba-b574-58b112cc3874
+					- Update Git's ((666022fc-2700-438d-810e-a6fab07f696f))
+					- Markdown: Add `replaceQuotes()`'s possessive exception & CSS for blockquote
+					- ((67d24c08-0890-4864-9ceb-759d519f5e8b)) & ((67d25330-736b-464e-a926-ccd0771082eb))
+					- ((67f6185f-5efc-4fd0-b924-c175917092d8))
+					- Recover the git repo; Rename assets/Will/story/YYYY-Mon/ → YYYY-MM
+					  collapsed:: true
+						- ((6808b04b-58b5-411e-982a-d79c62bafcde))
+				-
+				- Stories
+					- ((67dcc012-44d3-4041-b17a-0ef201b3ff6c))
+					- ((67b2f947-69cb-4183-a99d-204c0beb6dcc))
+				-
+				- Unïnfo
+					- ((67b81e1b-b801-4e5a-9c00-98e51158712a))
+					- Update ((67b183f5-1cca-4473-917e-60c644dd5466)) & add ((67baf139-aa0c-436e-9e21-983323833c71))
+					- [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831)))
+					- Add ((67f9100a-b749-4354-ae16-92dc74ff27da)) & ((6810ceeb-6af6-442b-9910-baae2c315c46))
+				- Balance Way
+					- ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
+					- Ways to resolve the problem of [rigidity/inertia/momentum](((67b541cf-4818-45ad-911c-d2c3397f9e3d)))
+					- ((67d10c06-3fe3-4691-95c0-84278a2dc713)); revise [Reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7)))
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
-				- Add ((67f9100a-b749-4354-ae16-92dc74ff27da)) & ((6810ceeb-6af6-442b-9910-baae2c315c46))
 				- ...
 			- <<End Tracks>>
 			  ---------------
