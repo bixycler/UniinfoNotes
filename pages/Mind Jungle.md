@@ -436,9 +436,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2025-04-29 Tue 08:59:04]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
-				- generated through the process of [individuation](https://en.wikipedia.org/wiki/Individuation).
-				- TODO sustained by [narative self](https://en.wikipedia.org/wiki/Narrative_identity), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Based on the ((6810324e-f084-4693-b5cb-40778f4a6eee)), the self can exist on itself, though temporarily, hence the feeling of ((671b1eef-0820-4e03-8e8f-e9342ca18b26)) and the ((6810327c-f633-4537-84a1-ca36a8d49d65)). This independency and sense of separateness will be developed throughout the process of [individuation](https://en.wikipedia.org/wiki/Individuation), where various internal self-circles are developed to furture sustain the self: [narative self](https://en.wikipedia.org/wiki/Narrative_identity), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
 				- the separate self first forms in the existential self which can be tested with the mirror test:
 				  https://online-learning-college.com/knowledge-hub/gcses/gcse-psychology-help/the-concepts-of-self-and-self-concept/
 				  https://www.simplypsychology.org/self-concept.html
