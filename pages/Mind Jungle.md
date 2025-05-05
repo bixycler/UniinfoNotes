@@ -445,7 +445,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- separateness + agency = [autonomy](https://en.wikipedia.org/wiki/Autonomy)
 			- sense of agency
 			  id:: 67f91046-34ed-4bb4-a006-db2c33aeabf7
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “[I'm in control of my actions](https://en.wikipedia.org/wiki/Agency_(philosophy))”. This sense is created by the matching between the sensory feedback resulting from the action and the intitiation of action, which is a part of the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “[I'm in control of my actions](https://en.wikipedia.org/wiki/Agency_(philosophy))”. This sense is created by the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) at the center of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)),  . the matching between the sensory feedback resulting from the action and the intitiation of action, which is a part of the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- While the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) has a strong sense of direct agency, actually it's just a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
 					  collapsed:: true
