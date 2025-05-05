@@ -415,7 +415,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :END:
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67f9100a-b749-4354-ae16-92dc74ff27da)) is a [psychological complex](https://en.wikipedia.org/wiki/Psychology_of_self) produced by the ((672a0c61-ae93-440a-84e6-13778c8e91ca)) to tell about the subject itself. To develop the sense of self, the self-awareness and then the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) complexify the ((6810ceeb-6af6-442b-9910-baae2c315c46)) in this way:
 				- ((667c0031-0a87-44c9-9e98-6d45893b095f)) → ((6810324e-f084-4693-b5cb-40778f4a6eee)) → ((6810327c-f633-4537-84a1-ca36a8d49d65)) [free]
-				- ((66c8772a-9b29-45b0-b169-2fa847333e02)) → ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will]
+				- ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) → ((66c8772a-9b29-45b0-b169-2fa847333e02)) → ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will]
 				- free + will → ((67f91050-a86c-4176-87ca-91010a8fe3c0)) → ((67f9100a-b749-4354-ae16-92dc74ff27da))
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- An unwholesome ((67f9100a-b749-4354-ae16-92dc74ff27da)) is caused by its mismatch with the ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
@@ -445,7 +445,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- separateness + agency = [autonomy](https://en.wikipedia.org/wiki/Autonomy)
 			- sense of agency
 			  id:: 67f91046-34ed-4bb4-a006-db2c33aeabf7
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “[I'm in control of my actions](https://en.wikipedia.org/wiki/Agency_(philosophy))”. This sense is created by the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) at the center of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)),  . the matching between the sensory feedback resulting from the action and the intitiation of action, which is a part of the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “[I'm in control of my actions](https://en.wikipedia.org/wiki/Agency_(philosophy))”. This sense is created by the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) at the center of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)). That sense is qualified by the match between the sensory feedback resulting from the action and the intitiation of action, which is a part of the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- While the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) has a strong sense of direct agency, actually it's just a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
 					  collapsed:: true
@@ -943,6 +943,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)). The qualiton not only carries and sustains quality, but also applies that quality to ((671e0f99-c35c-45f3-9f80-4d9cf00063de))s to activate them into living qualions. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is a qualiton of electricity which is a bundle of quanta (energy, spin, etc.) activated by the [prototype electron](https://en.wikipedia.org/wiki/One-electron_universe) (root qualiton).
 				- Etymology: qualiton = [quality](https://www.etymonline.com/word/quality) + [-on](https://www.etymonline.com/word/-on)
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Qualification: ((681826ac-f5f2-4a84-a5f5-c110937ec85f))
 			- autonoton
 			  id:: 671e1608-1350-4e87-99b6-5492cc6fb449
 			  ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) in ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
@@ -1891,6 +1893,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  is the current internal condition for awareness.
 				- For some object to be aware of, it must be projected through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) into a single quantum.
 			- qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
+			  id:: 681826ac-f5f2-4a84-a5f5-c110937ec85f
 			  is the current direct condition for awareness.
 				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject, i.e. the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
 				- The matching can be broken into two parts, the “touching” (xúc) and the “equal” (thức). When two unequal quanta touch, nothing happens, but when two equal quanta touch, the qualiton ignites a “spark, bust, snap, click, tick” that activates the reconstruction of the form previously recorded.
