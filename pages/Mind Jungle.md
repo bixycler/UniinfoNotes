@@ -4739,6 +4739,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  :END:
 								- Commit `96af6cac` added `id:: 68089c74-7fbd-471b-9283-febf6b48cd0d` to `Database` block to be reffed by the item `Database` in `Mind Jungle`.
 								- Commit `2fb29657` stripped off id from `Database` block, due to the lack of such id in other graph.
+							- DOING `Logseq will assign a new id for this block:...` [!]
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2025-05-05 Mon 10:23:07]
+							  CLOCK: [2025-05-05 Mon 10:23:08]
+							  :END:
+								- id dupes in `Logseq publish` because `pages/publish/Logseq publish.norm.md` was a clone from `pages/publish/Logseq publish.md` without modification.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
