@@ -418,7 +418,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [qualification](((671e0fcc-37b6-4f03-8e87-8923422ca8e0))) by ((66c8772a-9b29-45b0-b169-2fa847333e02)) → ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will]
 				- free + will → ((67f91050-a86c-4176-87ca-91010a8fe3c0)) → ((67f9100a-b749-4354-ae16-92dc74ff27da))
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- Unwholesome ((67f9100a-b749-4354-ae16-92dc74ff27da))s are caused by their mismatches with the ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
+				- Unwholesome [senses of self](((67f9100a-b749-4354-ae16-92dc74ff27da))) are caused by their mismatches with the ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-05-05 Mon 15:44:40]
