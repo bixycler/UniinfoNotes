@@ -286,7 +286,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- There's a strong force sucking me deep into these tasks...
 				- ⇒ ((6772a6c7-f434-4911-9fa2-939b8db20c42))
 				- ⇒ I'm overcoming it by stop-breathe-relax-redirect, then mark `TODO` for this task: ((67ad537f-9a22-4079-b8d1-352b4c567278))
-				- But still... i've been sucked into ((67adb58e-6bf4-43ba-b574-58b112cc3874)) from 9:00 until now 18:21 = 9.5 hours, just because i **didn't think it complicated**!!!
+				- But still... i've been sucked into Add ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) to Linux from 9:00 until now 18:21 = 9.5 hours, just because i **didn't think it complicated**!!!
 				  :LOGBOOK:
 				  CLOCK: [2025-02-13 Thu 18:18:12]
 				  CLOCK: [2025-02-13 Thu 18:20:46]
