@@ -445,12 +445,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- separateness + agency = [autonomy](https://en.wikipedia.org/wiki/Autonomy)
 			- sense of agency
 			  id:: 67f91046-34ed-4bb4-a006-db2c33aeabf7
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “[I'm in control of my actions](https://en.wikipedia.org/wiki/Agency_(philosophy))”. This sense is created by the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) at the center of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)). That sense is qualified by the match between the sensory feedback resulting from the action and the intitiation of action, which confirms the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) and closes the effect circle.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “[I'm in control of my actions](https://en.wikipedia.org/wiki/Agency_(philosophy))”. This sense is created by the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) at the center of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)). That sense is qualified by the match between the sensory feedback resulting from the action, i.e. the observing side, and the intitiation of action, which confirms the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) and closes the effect circle.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) creates the notion of [will](https://en.wikipedia.org/wiki/Will_(philosophy)) as the internal intention of the external action.
+					  collapsed:: true
 						- The “will” is just the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) at the tip of the ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)).
 						- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
-						- Etymology of “will”: Modern English “will” ←
+						- Etymology of “will”: Modern English [“will” (intent, volition)](https://en.wiktionary.org/wiki/will#Etymology_2) ← Old English “\*willan, willian” ← Proto-Germanic “\*willjan” (wish, want)
 					- While the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) has a strong sense of direct agency, actually it's just a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
 					  collapsed:: true
 						- Direct sense: “agent” = “initiator & subject of action” = ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
