@@ -430,13 +430,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2025-04-29 Tue 08:59:04]
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Thanks to the ((67ee0ea8-b68d-4adc-8d57-2f0a7be16d22)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) in a crystalized ((6810ceeb-6af6-442b-9910-baae2c315c46)), a developed self feels that it's a ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)).
-				- TODO Sustained by ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the self in the ((6810ceeb-6af6-442b-9910-baae2c315c46))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Thanks to the ((67ee0ea8-b68d-4adc-8d57-2f0a7be16d22)) of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) in a ((6818a270-b75b-44ee-bbd2-0032846e4cb8)) ((6810ceeb-6af6-442b-9910-baae2c315c46)), any self developed enough to have a crystallized core will feel that it's a ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)), hence the ((6810324e-f084-4693-b5cb-40778f4a6eee)). Such a whole is the basis that sustains the self and keeps it stable.
 			- sense of separateness
 			  id:: 6810327c-f633-4537-84a1-ca36a8d49d65
 			  :LOGBOOK:
 			  CLOCK: [2025-04-29 Tue 08:59:04]
 			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 				- generated through the process of [individuation](https://en.wikipedia.org/wiki/Individuation).
 				- TODO sustained by [narative self](https://en.wikipedia.org/wiki/Narrative_identity), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), ((67f90ce4-e12a-4133-bdec-b73684152322)), ((67f90ce8-d597-47a0-ad73-43b9e546c096)), ((66c8772a-9b29-45b0-b169-2fa847333e02))
 				- the separate self first forms in the existential self which can be tested with the mirror test:
@@ -2868,7 +2868,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- crystallize
 		  id:: 671e35d5-231a-4ed4-8c4a-6b200f6ccf20
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537bdd-6c99-4d7b-905a-e2a487cae5ce))
-		- crystallized
+		- crystal
 		  id:: 6818a270-b75b-44ee-bbd2-0032846e4cb8
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((66537bdd-6c99-4d7b-905a-e2a487cae5ce))
 	- ## lattice
