@@ -450,6 +450,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) creates the notion of [will](https://en.wikipedia.org/wiki/Will_(philosophy)) as the internal intention of the external action.
 						- The “will” is just the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) at the tip of the ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)).
 						- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
+						- Etymology of “will”: Modern English “will” ←
 					- While the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) has a strong sense of direct agency, actually it's just a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) of the whole ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
 					  collapsed:: true
 						- Direct sense: “agent” = “initiator & subject of action” = ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
@@ -1855,11 +1856,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In computing, the [fisheye symbol (`◉`)](https://en.wikipedia.org/wiki/Circled_dot#Computing) shows the role of the obop as an eye, a focal point, a selected choice, the current one.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
-			- In the CIE model of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), the core of obop is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) that observes the content to produce the extent which is used to operate the ((66c810a0-9861-4787-bdcf-1378219332be)). At the "operator" side of the obop, the extent is the (mental) ((66727858-979d-4d95-8a90-7a749218cfba)) ([saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra)) and it's intent is the master of that action, i.e. the volition or [cetanā](https://en.wikipedia.org/wiki/Cetan%C4%81) in Buddhism.
+			- In the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), the core of obop is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) that observes the content to produce the extent which is used to operate the ((66c810a0-9861-4787-bdcf-1378219332be)). The intent can be composed of many sub-itents in many layers, where the “atomic intent” at the basic layer is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  id:: 66e79e0c-8be2-49a4-b4d7-5c1fddefeabf
 			  :LOGBOOK:
 			  CLOCK: [2024-09-16 Mon 18:54:11]
 			  :END:
+				- At the "operator" side of the obop, the extent is the (mental) ((66727858-979d-4d95-8a90-7a749218cfba)) ([saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra)) and its intent is the master of that action, i.e. the volition or [cetanā](https://en.wikipedia.org/wiki/Cetan%C4%81) in Buddhism.
 				- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
 				- At the "observer" side of the obop, the intent itself is the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) which is driven by the underlying tendency, or attitude, or [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))) in Buddhism.
 	- ## aware
