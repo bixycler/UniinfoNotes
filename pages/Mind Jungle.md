@@ -372,7 +372,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The ((66c810a0-9861-4787-bdcf-1378219332be)) is the middle self circle.
 				- Outside, we have many extensions of the body: all belongings, all properties, family, race, nation, species, etc.
 				  collapsed:: true
-					- These extensions are discussed in [Dialogical Self Theory](https://en.wikipedia.org/wiki/Dialogical_self), as well as by various authors.
+					- These extensions are discussed in [Dialogical Self Theory](https://en.wikipedia.org/wiki/Dialogical_self), through [ecological self](https://en.wikipedia.org/wiki/Ecological_self) in [Deep Ecology](https://en.wikipedia.org/wiki/Deep_ecology), as well as by various authors.
 						- by Martin Heidegger through the concept of “being-there” or “Being-in-the-World” (Dasein) in the 1927 book [Being and Time](https://plato.stanford.edu/entries/heidegger/#BeinWorl),
 						- by authors in the 1986 paper [“Self-Expansion Model of Motivation and Cognition in Close Relationships”](https://www.researchgate.net/publication/284143380_The_self-expansion_model_of_motivation_and_cognition_in_close_relationships).
 						- by Belk in the 1988 paper [“Possessions and the extended self”](https://www.jstor.org/stable/2489522),
