@@ -420,6 +420,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :LOGBOOK:
 				  CLOCK: [2025-05-05 Mon 15:44:40]
 				  :END:
+					- The most common unwholesome sense of self is the “selfish sense”, that is the excessive sense of separateness (individuality) and free will relative to the small self-circle.
 					- This mismatch is due to the ignorance of the ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)) about the ((67f90ce8-d597-47a0-ad73-43b9e546c096)) which is the source, the root of consciousness itself.
 			- sense of wholeness
 			  id:: 6810324e-f084-4693-b5cb-40778f4a6eee
