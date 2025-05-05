@@ -1833,11 +1833,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://www.hirutv.lk/
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Hiru_TV
-				- WAIT Hiru TV had an interview on April 24, the last day of the group in Sri Lanka.
+				- Hiru TV had an interview on April 24, the last day of the group in Sri Lanka.
 				  id:: 680a363b-c9ff-4f0a-8081-a3d4a16ade20
 				  :LOGBOOK:
 				  CLOCK: [2025-04-24 Thu 20:03:39]
 				  :END:
+				- But no such interview can be found on Hiru TV sites: https://www.hirutv.lk/, https://www.hirunews.lk/, YouTube channels, Facebook, Instagram, TikTok, X (Twitter)
 				- Video: [Thầy Minh Tuệ trả lời phỏng vấn đài truyền hình Sri Lanka](https://youtu.be/hAO_SYW1O1k)
 				  collapsed:: true
 				  :LOGBOOK:
