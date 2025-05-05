@@ -418,7 +418,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [qualification](((671e0fcc-37b6-4f03-8e87-8923422ca8e0))) by ((66c8772a-9b29-45b0-b169-2fa847333e02)) → ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) [will]
 				- free + will → ((67f91050-a86c-4176-87ca-91010a8fe3c0)) → ((67f9100a-b749-4354-ae16-92dc74ff27da))
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- An unwholesome ((67f9100a-b749-4354-ae16-92dc74ff27da)) is caused by its mismatch with the ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
+				- Unwholesome ((67f9100a-b749-4354-ae16-92dc74ff27da))s are caused by their mismatches with the ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-05-05 Mon 15:44:40]
@@ -445,7 +445,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- separateness + agency = [autonomy](https://en.wikipedia.org/wiki/Autonomy)
 			- sense of agency
 			  id:: 67f91046-34ed-4bb4-a006-db2c33aeabf7
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “[I'm in control of my actions](https://en.wikipedia.org/wiki/Agency_(philosophy))”. This sense is created by the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) at the center of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)). That sense is qualified by the match between the sensory feedback resulting from the action, i.e. the observing side, and the intitiation of action, which confirms the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) and closes the effect circle.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) is the feeling that “I am the one who is causing or generating my actions”, i.e. “[I'm in control of my actions](https://en.wikipedia.org/wiki/Agency_(philosophy))”. This sense is created by the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) at the center of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)), i.e. the ((66c8772a-9b29-45b0-b169-2fa847333e02)). This sense is qualified by the match between the sensory feedback resulting from the action, i.e. the observing side, and the intitiation of action, i.e. the operating side. This match confirms the ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)) and closes the effect circle.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The ((67f91046-34ed-4bb4-a006-db2c33aeabf7)) creates the notion of [will](https://en.wikipedia.org/wiki/Will_(philosophy)) as the internal intention of the external action.
 					  collapsed:: true
