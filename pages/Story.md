@@ -1828,6 +1828,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Image of the letter
 					  collapsed:: true
 						- ![Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg](../assets/Will/story/2025-04/Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg)
+			- Daily Mirror
+				-
 			- Hiru TV (හිරු ටීවී)
 			  collapsed:: true
 			  :LOGBOOK:
