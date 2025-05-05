@@ -4731,6 +4731,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  :END:
 								- The [Name search](((66fce7e0-8040-4980-b2aa-807e4a0cde1f))) has its block id ripped off from markdown 🙁, while still retained in graph DB!
 								- This is the known issue: ((6766ef9d-3add-4400-90b0-131f51d8c23a))
+							- DOING [!] Failure in `block-refs-link-to-blocks-that-exist` after sharing [[Database]] with other graphs.
+							  :LOGBOOK:
+							  CLOCK: [2025-05-05 Mon 09:57:58]
+							  CLOCK: [2025-05-05 Mon 09:58:00]
+							  :END:
+								- Commit `2fb29657` stripped off `id:: 68089c74-7fbd-471b-9283-febf6b48cd0d` from `Database` block.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
