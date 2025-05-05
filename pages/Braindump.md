@@ -487,148 +487,151 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :LOGBOOK:
 			  CLOCK: [2025-03-21 Fri 08:28:14]
 			  :END:
-	- ### April
-	  id:: 67eb5f0b-6328-4b14-9425-a58a3b6718ca
-		- Let's ((67eb65bc-78a4-4e6d-8a3c-dcc171b71235))
-		  :LOGBOOK:
-		  CLOCK: [2025-04-01 Tue 11:05:50]
-		  :END:
-			- But first, it's taken a long time for me to update ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) and [GNOME icons](((67eb7601-ab2c-41df-a42c-84a77a88ec08))). There i installed `Icon Browser` (not GTK+ Icon Browser) to check the current icons used by the system.
-		- Just write down the story last weekends & festival: ((67f4c7e0-7de0-48c4-83fd-4b994960efba))
-		  :LOGBOOK:
-		  CLOCK: [2025-04-08 Tue 13:58:12]
-		  CLOCK: [2025-04-08 Tue 13:58:20]
-		  :END:
-		- From this issue: ((67f50958-c8c9-4c11-943d-5efca5b7f12f))
-		  id:: 67f509e1-525d-4d74-9b5a-b40367cd1b72
+		- ### April
+		  id:: 67eb5f0b-6328-4b14-9425-a58a3b6718ca
 		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-04-08 Tue 18:41:02]
-		  :END:
-			- Let's try moving `67f4f5e3-e739-41cd-8b95-14c7bbe9eebe` from Logseq's ((67f4eaf0-f9c3-4257-a221-eccf0e92535d)) to [[Linux]]'s ((67f4ffe3-488c-4d61-9622-26ecbed945ac)).
+			- Let's ((67eb65bc-78a4-4e6d-8a3c-dcc171b71235))
 			  :LOGBOOK:
-			  CLOCK: [2025-04-08 Tue 17:55:16]
+			  CLOCK: [2025-04-01 Tue 11:05:50]
 			  :END:
-				- ⇒ No issue with both `gnome-session-quit --reboot` and `reboot`.
-		- DONE Let's add task `Punch out, NOW!` at 17:30
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-04-08 Tue 18:41:39]
-		  CLOCK: [2025-04-08 Tue 18:42:00]--[2025-04-08 Tue 18:56:28] =>  00:14:28
-		  :END:
-			- ```crontab
-			  33 17  *   * 1-5 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus /usr/bin/notify-send -u critical -i /home/dinhlx/Pictures/emblem-important.png 'Punch out, NOW!'
-			  ```
-			- Reason: Due to my habit of leaving office last, i forget punching out most of the time i leave early.
-		- Sometimes, the [microsetting alarms](((67d10c06-3fe3-4691-95c0-84278a2dc713))) fire a lot while i was absent 
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-04-09 Wed 09:02:17]
-		  :END:
-		  ⇒ Should kill them all then.
-			- ```sh
-			  killall -9 -vr 'microreset.sh|zenity'
-			  ```
-			- or
-			  ```sh
-			  pkill -9 -ef 'microreset.sh|zenity'
-			  ```
-		- Add ((67f6185f-5efc-4fd0-b924-c175917092d8)) with ((67f61875-3740-45ce-ae88-1c5aed77435a))
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-04-09 Wed 14:58:05]
-		  CLOCK: [2025-04-09 Wed 14:58:07]
-		  :END:
-			- Occation: i was confused again with the statement `export CATALINA_OPTS` in `skygserv/config/shell/setenv.sh`
-			- Copilot helps me a lot here!
-		- Add [[Database]] to share with work's `logseq-notes`.
-		  id:: 680a0121-49fd-4fb7-875e-8ee8d3a2bafa
-		  :LOGBOOK:
-		  CLOCK: [2025-04-23 Wed 14:31:10]
-		  :END:
-		- After an abrupt machine shutdown due to power failure while [adding Database](((680a0121-49fd-4fb7-875e-8ee8d3a2bafa))), ((666baccf-6be1-4b9a-b186-f883ea04daf1))'s git repo was corrupt.
-		  id:: 6808b04b-58b5-411e-982a-d79c62bafcde
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-04-23 Wed 16:18:07]
-		  :END:
-			- Thanks to Grok, i successfully recovered the git repo
-			  id:: 6808b081-b35c-44a6-aefa-15fe3af2fee4
-				- `fatal: bad object HEAD`: corrupted `.git/objects/04/1c7dfc7385af7a147458f0bc38b39c3d3d2d5e`
-				  collapsed:: true
-					- `fatal: loose object 041c7dfc7385af7a147458f0bc38b39c3d3d2d5e (stored in .git/objects/04/1c7dfc7385af7a147458f0bc38b39c3d3d2d5e) is corrupt`
-					- `HEAD` → `refs/heads/log`: `041c7dfc7385af7a147458f0bc38b39c3d3d2d5e`
-				- `git fsck --full --no-reflogs | grep "dangling commit" > dangling_commits.txt`
-				- ![check-dangling_commits.sh](../assets/Will/story/2025-04/UniinfoNotes-git-recovery/check-dangling_commits.sh): extract dangling commit messages and sort by date time.
-					- ```sh
-					  #!/bin/bash
-					  MSG_LS='dangling_commits.msg.txt'
-					  MSG_LS_SORT='dangling_commits.msg.sort.txt'
-					  while read -r line; do
-					      sha=$(echo "$line" | awk '{print $3}')
-					      echo "Checking commit $sha:"
-					      commit=$(git show --no-patch --format='%ai|%H|%s' "$sha")
-					      echo $commit | tee -a $MSG_LS
-					  done < dangling_commits.txt
-					  sort -r $MSG_LS > $MSG_LS_SORT
-					  ```
-				- `grep 2025-04 dangling_commits.msg.sort.txt` → `ee5ddfe6` at 2025-04-23 14:41:10
-				  collapsed:: true
-					- ```sh
-					  2025-04-23 14:41:10 +0700|ee5ddfe6b4ced9f7ee51b47583d1309577267435|Auto saved by Logseq
-					  2025-04-11 19:58:59 +0700|2dc208c3119d2c60f53185f5625f02684fcf8f14|[bak] 2025-04-11T12:58:59.047Z
-					  2025-04-08 16:19:30 +0700|21e22c932b6cd0532edf0d087276ed20b7e00720|Auto saved by Logseq
-					  2025-04-08 16:11:56 +0700|089c3742975eb43eb756c7c308aebc6c56dfceb4|Auto saved by Logseq
-					  ```
-				- `git reset --hard ee5ddfe6b4ced9f7ee51b47583d1309577267435`
-				- Updated [Git Troupbleshooting](((6808b9c5-402d-4923-997b-7b8056f71dc8))).
-				- Rechecking with `git fsck --full`, i see many dangling commits (due to many times rebasing), and may dangling blobs.
-					- `git gc --prune=now` to clean them up so that they won't clutter `git fsck` output.
-					- Note: to be safe, check these blobs beforehand
-						- `git fsck --full | grep "dangling blob" > dangling_blobs.txt`
-						- ![check-dangling_blobs.sh](../assets/Will/story/2025-04/UniinfoNotes-git-recovery/check-dangling_blobs.sh): Use `git cat-file` to check blob content.
-			- Then also refactor [assets/Will/story/](../assets/Will/story/)YYYY-Mon/ → YYYY-MM
-				- Previously, these asset folders YYYY-Mon are named after ((67760c3e-2ed3-4b91-9698-8dea6913e419))'s partitions by month names.
-				- Now, rename them to month numbers for easy sort.
-		- [/ʋ/ sound in South Vietnamese](((6809b3ac-8ea6-4cc8-8c79-8243a805a748))) leads to ((6809e1ea-1518-4460-be26-62881c47287f)).
-		  :LOGBOOK:
-		  CLOCK: [2025-04-24 Thu 14:01:22]
-		  :END:
-		- From many appearances of the word “argument” in ((67e3b3e4-66d6-4c72-92d1-faeef2cf2165)), let's [relate them all together](((680b6063-e454-4cf6-835e-d6f726b8b871)))!
-		  :LOGBOOK:
-		  CLOCK: [2025-04-25 Fri 17:15:29]
-		  :END:
-		- Walking back to the office from the morning riverside sitting, i felt an urge to write down the complex of “free will” via ((671b160c-0589-4f83-a778-a9fb4df6783a)), ((66725144-6bc9-4c9f-ba48-2cef02651e52)), agency & ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
-		  id:: 67f72f21-c983-4734-b616-eca636a5cf9c
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-04-10 Thu 09:38:28]
-		  :END:
-			- “free will” = “free” [((671b160c-0589-4f83-a778-a9fb4df6783a))] + “will” [intention, determination]
-				- free = independent = orthogonal = unrelated = separated
-				- will = intention = agency → determination = self-control → control → dominate → master
-			- Representative > agent > controller > master
-			- The “sense of agency” is more about “autonomy” (direct sense) than representativeness (indirect sense).
-			- DONE Main parts of this have been moved to ((67f9100a-b749-4354-ae16-92dc74ff27da)).
+				- But first, it's taken a long time for me to update ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) and [GNOME icons](((67eb7601-ab2c-41df-a42c-84a77a88ec08))). There i installed `Icon Browser` (not GTK+ Icon Browser) to check the current icons used by the system.
+			- Just write down the story last weekends & festival: ((67f4c7e0-7de0-48c4-83fd-4b994960efba))
 			  :LOGBOOK:
-			  CLOCK: [2025-04-11 Fri 19:52:29]
-			  CLOCK: [2025-04-11 Fri 19:52:31]--[2025-04-28 Mon 21:03:55] =>  409:11:24
+			  CLOCK: [2025-04-08 Tue 13:58:12]
+			  CLOCK: [2025-04-08 Tue 13:58:20]
 			  :END:
-			- This note was started from April 10th... waiting to be cleaned up until 28th.
+			- From this issue: ((67f50958-c8c9-4c11-943d-5efca5b7f12f))
+			  id:: 67f509e1-525d-4d74-9b5a-b40367cd1b72
+			  collapsed:: true
 			  :LOGBOOK:
-			  CLOCK: [2025-05-05 Mon 09:08:10]
+			  CLOCK: [2025-04-08 Tue 18:41:02]
 			  :END:
-		- ((6810ae1c-f995-4f93-9793-8bd422760249))
-	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
+				- Let's try moving `67f4f5e3-e739-41cd-8b95-14c7bbe9eebe` from Logseq's ((67f4eaf0-f9c3-4257-a221-eccf0e92535d)) to [[Linux]]'s ((67f4ffe3-488c-4d61-9622-26ecbed945ac)).
+				  :LOGBOOK:
+				  CLOCK: [2025-04-08 Tue 17:55:16]
+				  :END:
+					- ⇒ No issue with both `gnome-session-quit --reboot` and `reboot`.
+			- DONE Let's add task `Punch out, NOW!` at 17:30
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-04-08 Tue 18:41:39]
+			  CLOCK: [2025-04-08 Tue 18:42:00]--[2025-04-08 Tue 18:56:28] =>  00:14:28
+			  :END:
+				- ```crontab
+				  33 17  *   * 1-5 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus /usr/bin/notify-send -u critical -i /home/dinhlx/Pictures/emblem-important.png 'Punch out, NOW!'
+				  ```
+				- Reason: Due to my habit of leaving office last, i forget punching out most of the time i leave early.
+			- Sometimes, the [microsetting alarms](((67d10c06-3fe3-4691-95c0-84278a2dc713))) fire a lot while i was absent 
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-04-09 Wed 09:02:17]
+			  :END:
+			  ⇒ Should kill them all then.
+				- ```sh
+				  killall -9 -vr 'microreset.sh|zenity'
+				  ```
+				- or
+				  ```sh
+				  pkill -9 -ef 'microreset.sh|zenity'
+				  ```
+			- Add ((67f6185f-5efc-4fd0-b924-c175917092d8)) with ((67f61875-3740-45ce-ae88-1c5aed77435a))
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-04-09 Wed 14:58:05]
+			  CLOCK: [2025-04-09 Wed 14:58:07]
+			  :END:
+				- Occation: i was confused again with the statement `export CATALINA_OPTS` in `skygserv/config/shell/setenv.sh`
+				- Copilot helps me a lot here!
+			- Add [[Database]] to share with work's `logseq-notes`.
+			  id:: 680a0121-49fd-4fb7-875e-8ee8d3a2bafa
+			  :LOGBOOK:
+			  CLOCK: [2025-04-23 Wed 14:31:10]
+			  :END:
+			- After an abrupt machine shutdown due to power failure while [adding Database](((680a0121-49fd-4fb7-875e-8ee8d3a2bafa))), ((666baccf-6be1-4b9a-b186-f883ea04daf1))'s git repo was corrupt.
+			  id:: 6808b04b-58b5-411e-982a-d79c62bafcde
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-04-23 Wed 16:18:07]
+			  :END:
+				- Thanks to Grok, i successfully recovered the git repo
+				  id:: 6808b081-b35c-44a6-aefa-15fe3af2fee4
+					- `fatal: bad object HEAD`: corrupted `.git/objects/04/1c7dfc7385af7a147458f0bc38b39c3d3d2d5e`
+					  collapsed:: true
+						- `fatal: loose object 041c7dfc7385af7a147458f0bc38b39c3d3d2d5e (stored in .git/objects/04/1c7dfc7385af7a147458f0bc38b39c3d3d2d5e) is corrupt`
+						- `HEAD` → `refs/heads/log`: `041c7dfc7385af7a147458f0bc38b39c3d3d2d5e`
+					- `git fsck --full --no-reflogs | grep "dangling commit" > dangling_commits.txt`
+					- ![check-dangling_commits.sh](../assets/Will/story/2025-04/UniinfoNotes-git-recovery/check-dangling_commits.sh): extract dangling commit messages and sort by date time.
+						- ```sh
+						  #!/bin/bash
+						  MSG_LS='dangling_commits.msg.txt'
+						  MSG_LS_SORT='dangling_commits.msg.sort.txt'
+						  while read -r line; do
+						      sha=$(echo "$line" | awk '{print $3}')
+						      echo "Checking commit $sha:"
+						      commit=$(git show --no-patch --format='%ai|%H|%s' "$sha")
+						      echo $commit | tee -a $MSG_LS
+						  done < dangling_commits.txt
+						  sort -r $MSG_LS > $MSG_LS_SORT
+						  ```
+					- `grep 2025-04 dangling_commits.msg.sort.txt` → `ee5ddfe6` at 2025-04-23 14:41:10
+					  collapsed:: true
+						- ```sh
+						  2025-04-23 14:41:10 +0700|ee5ddfe6b4ced9f7ee51b47583d1309577267435|Auto saved by Logseq
+						  2025-04-11 19:58:59 +0700|2dc208c3119d2c60f53185f5625f02684fcf8f14|[bak] 2025-04-11T12:58:59.047Z
+						  2025-04-08 16:19:30 +0700|21e22c932b6cd0532edf0d087276ed20b7e00720|Auto saved by Logseq
+						  2025-04-08 16:11:56 +0700|089c3742975eb43eb756c7c308aebc6c56dfceb4|Auto saved by Logseq
+						  ```
+					- `git reset --hard ee5ddfe6b4ced9f7ee51b47583d1309577267435`
+					- Updated [Git Troupbleshooting](((6808b9c5-402d-4923-997b-7b8056f71dc8))).
+					- Rechecking with `git fsck --full`, i see many dangling commits (due to many times rebasing), and may dangling blobs.
+						- `git gc --prune=now` to clean them up so that they won't clutter `git fsck` output.
+						- Note: to be safe, check these blobs beforehand
+							- `git fsck --full | grep "dangling blob" > dangling_blobs.txt`
+							- ![check-dangling_blobs.sh](../assets/Will/story/2025-04/UniinfoNotes-git-recovery/check-dangling_blobs.sh): Use `git cat-file` to check blob content.
+				- Then also refactor [assets/Will/story/](../assets/Will/story/)YYYY-Mon/ → YYYY-MM
+					- Previously, these asset folders YYYY-Mon are named after ((67760c3e-2ed3-4b91-9698-8dea6913e419))'s partitions by month names.
+					- Now, rename them to month numbers for easy sort.
+			- [/ʋ/ sound in South Vietnamese](((6809b3ac-8ea6-4cc8-8c79-8243a805a748))) leads to ((6809e1ea-1518-4460-be26-62881c47287f)).
+			  :LOGBOOK:
+			  CLOCK: [2025-04-24 Thu 14:01:22]
+			  :END:
+			- From many appearances of the word “argument” in ((67e3b3e4-66d6-4c72-92d1-faeef2cf2165)), let's [relate them all together](((680b6063-e454-4cf6-835e-d6f726b8b871)))!
+			  :LOGBOOK:
+			  CLOCK: [2025-04-25 Fri 17:15:29]
+			  :END:
+			- Walking back to the office from the morning riverside sitting, i felt an urge to write down the complex of “free will” via ((671b160c-0589-4f83-a778-a9fb4df6783a)), ((66725144-6bc9-4c9f-ba48-2cef02651e52)), agency & ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
+			  id:: 67f72f21-c983-4734-b616-eca636a5cf9c
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-04-10 Thu 09:38:28]
+			  :END:
+				- “free will” = “free” [((671b160c-0589-4f83-a778-a9fb4df6783a))] + “will” [intention, determination]
+					- free = independent = orthogonal = unrelated = separated
+					- will = intention = agency → determination = self-control → control → dominate → master
+				- Representative > agent > controller > master
+				- The “sense of agency” is more about “autonomy” (direct sense) than representativeness (indirect sense).
+				- DONE Main parts of this have been moved to ((67f9100a-b749-4354-ae16-92dc74ff27da)).
+				  :LOGBOOK:
+				  CLOCK: [2025-04-11 Fri 19:52:29]
+				  CLOCK: [2025-04-11 Fri 19:52:31]--[2025-04-28 Mon 21:03:55] =>  409:11:24
+				  :END:
+				- This note was started from April 10th... waiting to be cleaned up until 28th.
+				  :LOGBOOK:
+				  CLOCK: [2025-05-05 Mon 09:08:10]
+				  :END:
+			- ((6810ae1c-f995-4f93-9793-8bd422760249))
+	- ### May
+	  id:: 681838a1-d1d9-4ff3-bcec-38cb8c9a137f
+	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
-		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
-		  :LOGBOOK:
-		  CLOCK: [2025-03-12 Wed 11:24:25]
-		  :END:
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
 		  :LOGBOOK:
 		  CLOCK: [2025-04-02 Wed 19:09:35]
+		  :END:
+		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
+		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
+		  :LOGBOOK:
+		  CLOCK: [2025-03-12 Wed 11:24:25]
 		  :END:
 		- ...
