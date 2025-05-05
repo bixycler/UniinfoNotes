@@ -303,6 +303,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  :END:
 						- ...
 						- Due to the traditional image of [curved spacetime](https://en.wikipedia.org/wiki/Curved_spacetime) from Einstein, many LLM chatbots are confused between the “stretch of space” of the model of [“heavy objects on a rubber sheet”](((67c11c75-41db-404c-a349-dd4b4876851d))) and the “compressed space” in spacetime distribution.
+						  collapsed:: true
 							- Stuck in confusion between curvature & distribution: Copilot, DeepSeek
 							- Arrived at the language of distribution: Grok 3, Meta AI
 								- Meta AI still had some confusions at first but quickly corrected after my suggestions.

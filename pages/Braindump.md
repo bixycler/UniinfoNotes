@@ -629,7 +629,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-04-02 Wed 19:09:35]
 		  :END:
-		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
+		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Grok-3.
 		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
 		  :LOGBOOK:
 		  CLOCK: [2025-03-12 Wed 11:24:25]
