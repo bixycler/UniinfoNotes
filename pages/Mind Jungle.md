@@ -4806,45 +4806,46 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  :END:
 								- There are two "ghost UUIDs" remembered by Logseq in its graph DB,
 								  which were added back to the old slots after these blocks were moved away:
-									- `6673f8bf-04c0-4f8f-bc36-982ce9cab87d`: `Custom Logseq publish via Web API`
-									     moved from [[Workspace]] to [[Mind Jungle]]
-									- `66949495-3846-4f89-9ea5-c62b624d282c`: `Linux`
-									     moved from [[Mind Jungle]] to [[Linux]]
-									- They were fixed in [commit `6a6477ed`](https://github.com/bixycler/UniinfoNotes/commit/6a6477ed)
-								- Change details for `66949495-3846-4f89-9ea5-c62b624d282c` [((66949495-3846-4f89-9ea5-c62b624d282c))]
-									- `a04b60d0`: add id to the old slot in Mind Jungle => ((667bfebf-a319-46be-a795-d7fc9c156363))!
-									- `926acf05`: move `Linux` from [[Mind Jungle]] to [[Linux]]
-									- `70e37387`: add `Linux` to [[Mind Jungle]]
-								- Change details for `6673f8bf-04c0-4f8f-bc36-982ce9cab87d` [((6673f8bf-04c0-4f8f-bc36-982ce9cab87d))]
-									- It was first drafted in Workspace, then moved to Mind Jungle.
-									- Since then, the id was **moved back and forth** between the empty block in Workspace and the block in Mind Jungle.
-									- Git commits in 2024/{from 06/23 to 12/30}
+									- `6673f8bf-04c0-4f8f-bc36-982ce9cab87d`: `Custom Logseq publish via Web API` [((6673f8bf-04c0-4f8f-bc36-982ce9cab87d))]
 									  collapsed:: true
-										- 2024/12/30
-										  `a04b60d0`: add to Mind Jungle
-										- `e143a5a3`: remove from Mind Jungle
-										- `3370210d`: add id to empty block in Workspace
-										- `f418b4c4`: remove id from empty block in Workspace
-										- `962f2104`: add to Mind Jungle
-										- `df647b94`: remove from Mind Jungle
-										- `fe434a4c`: add id to empty block in Workspace
-										- `6b960a02`: remove id from empty block in Workspace; move a ref block with the same id in Workspace
-										- `9b386359`: add id to empty block in Workspace
-										- `da19d7d1`: add to Mind Jungle
-										- `62a5452c`: remove from Mind Jungle
-										- `8852d96e`: add id to empty block in Workspace
-										- `5663fc46`: remove id from empty block in Workspace
-										- `9c9a54a6`: add to Mind Jungle
-										- `9b68ad70`: remove from Mind Jungle; add id to empty block in Workspace
-										- `71233eec`: move the block with id from Workspace to Mind Jungle
-										- `f95e1668`: add the block with id to Workspace
-										  2024/06/23
+									     moved from [[Workspace]] to [[Mind Jungle]]
+										- It was first drafted in Workspace, then moved to Mind Jungle.
+										- Since then, the id was **moved back and forth** between the empty block in Workspace and the block in Mind Jungle.
+										- Git commits in 2024/{from 06/23 to 12/30}
+										  collapsed:: true
+											- 2024/12/30
+											  `a04b60d0`: add to Mind Jungle
+											- `e143a5a3`: remove from Mind Jungle
+											- `3370210d`: add id to empty block in Workspace
+											- `f418b4c4`: remove id from empty block in Workspace
+											- `962f2104`: add to Mind Jungle
+											- `df647b94`: remove from Mind Jungle
+											- `fe434a4c`: add id to empty block in Workspace
+											- `6b960a02`: remove id from empty block in Workspace; move a ref block with the same id in Workspace
+											- `9b386359`: add id to empty block in Workspace
+											- `da19d7d1`: add to Mind Jungle
+											- `62a5452c`: remove from Mind Jungle
+											- `8852d96e`: add id to empty block in Workspace
+											- `5663fc46`: remove id from empty block in Workspace
+											- `9c9a54a6`: add to Mind Jungle
+											- `9b68ad70`: remove from Mind Jungle; add id to empty block in Workspace
+											- `71233eec`: move the block with id from Workspace to Mind Jungle
+											- `f95e1668`: add the block with id to Workspace
+											  2024/06/23
+									- `66949495-3846-4f89-9ea5-c62b624d282c`: `Linux` [((66949495-3846-4f89-9ea5-c62b624d282c))]
+									  collapsed:: true
+									     moved from [[Mind Jungle]] to [[Linux]]
+										- `a04b60d0`: add id to the old slot in Mind Jungle => ((667bfebf-a319-46be-a795-d7fc9c156363))!
+										- `926acf05`: move `Linux` from [[Mind Jungle]] to [[Linux]]
+										- `70e37387`: add `Linux` to [[Mind Jungle]]
+									- They were fixed in [commit `6a6477ed`](https://github.com/bixycler/UniinfoNotes/commit/6a6477ed)
 								- Note: `History` was also moved from [[Workspace]] to [[Task]] but does not have similar problem!?! Maybe because the old slot was at the last place of [[Workspace]] which was removed completely so that no other block could be mistaken as “the old block” .
 								  id:: 67f4eaf0-b3b1-460d-9caa-4a6bd2b7973a
 									- `1ae146f4`: move `History` from [[Workspace]] to [[Task]]
 									- `ea416165`: create `History` in [[Workspace]]
 								- Removing graph DB `.transit` file doesn't take effect... until the 3rd time! 🤔 
 								  id:: 67f4f19d-3bb0-41ad-8d94-ab93c3c543a9
+								  collapsed:: true
 								  :LOGBOOK:
 								  CLOCK: [2025-04-08 Tue 16:51:31]
 								  :END:
@@ -4864,6 +4865,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- I've tested and confirmed that `restart` (`gnome-session-quit --reboot`) has the same effect as `reboot` (`/usr/sbin/reboot --no-wall`), even if ((67f4f5e3-e739-41cd-8b95-14c7bbe9eebe))
 										- [?] Why the first 2 times of removing graph DB and reload app didn't take effect?
 											- Maybe some caches were still remaining in the [Flatpack sandbox](((67f4eaf0-bc2c-470d-9590-be149267e750)))!?
+							- DOING [!] **Block id jumps** following the relative position of blocks.
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2025-05-05 Mon 10:42:02]
+							  CLOCK: [2025-05-05 Mon 10:42:04]
+							  :END:
+								- This id jump was due to Logseq's lagging memory after i moved some
+								      `Braindumping` items to `April` braindumps.
+									- The block `67f72f21-c983-4734-b616-eca636a5cf9c` which had been right under
+									  `Braindumping`, as its first child, ...
+									- was moved to right below the block `From many appearances of the word “argument” in...`
+									- So Logseq "restored" the id based on the relative position between blocks
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
