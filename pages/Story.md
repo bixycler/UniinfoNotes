@@ -1322,6 +1322,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Chỉ khi nào mình buông hết mọi thứ ra, để mình "bay lên", để nhìn xuống toàn bộ vòng tròn đó... mình mới thấy là... thực ra mình đã xoay vòng ko chỉ 1 mà nhiều nhiều vòng như vậy rồi... c
 				- Vòng tròn vô tận đó chính là Luân Hồi, chứ chẳng cần phải chết đi mới được luân hồi 😃
 		- Sri Lanka news about the monk group of master Minh Tuệ
+		  id:: 681826ae-7994-4e0e-b0c2-f7d1f0091e22
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-21 Mon 17:07:29]--[2025-04-24 Thu 09:58:51] =>  64:51:22

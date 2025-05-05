@@ -60,7 +60,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- 2nd time deatdrowning
+				- 2nd time death by drowning & various stuff about Unïnfo & Balance Way
 				-
 				- Technical stuffs
 					- Add ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) to Linux
@@ -76,6 +76,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- Stories
 					- ((67dcc012-44d3-4041-b17a-0ef201b3ff6c))
 					- ((67b2f947-69cb-4183-a99d-204c0beb6dcc))
+					- ((681826ae-7994-4e0e-b0c2-f7d1f0091e22))
 				-
 				- Unïnfo
 					- ((67b81e1b-b801-4e5a-9c00-98e51158712a))
