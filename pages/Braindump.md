@@ -615,6 +615,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  CLOCK: [2025-04-11 Fri 19:52:29]
 			  CLOCK: [2025-04-11 Fri 19:52:31]--[2025-04-28 Mon 21:03:55] =>  409:11:24
 			  :END:
+			- This note was started from April 10th... waiting to be cleaned up until 28th.
+			  :LOGBOOK:
+			  CLOCK: [2025-05-05 Mon 09:08:10]
+			  :END:
 		- ((6810ae1c-f995-4f93-9793-8bd422760249))
 	- ## Braindumping < ((67eb5f0b-6328-4b14-9425-a58a3b6718ca))
 		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Copilot.
