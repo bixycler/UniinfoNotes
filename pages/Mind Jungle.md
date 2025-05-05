@@ -4739,13 +4739,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  :END:
 								- Commit `96af6cac` added `id:: 68089c74-7fbd-471b-9283-febf6b48cd0d` to `Database` block to be reffed by the item `Database` in `Mind Jungle`.
 								- Commit `2fb29657` stripped off id from `Database` block, due to the lack of such id in other graph.
-							- DOING `Logseq will assign a new id for this block:...` [!]
+							- DONE [!] `Logseq will assign a new id for this block:...` due to block id dupes
 							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2025-05-05 Mon 10:23:07]
-							  CLOCK: [2025-05-05 Mon 10:23:08]
+							  CLOCK: [2025-05-05 Mon 10:23:08]--[2025-05-05 Mon 10:27:08] =>  00:04:00
 							  :END:
 								- id dupes in `Logseq publish` because `pages/publish/Logseq publish.norm.md` was a clone from `pages/publish/Logseq publish.md` without modification.
+								- So, just remove that `.norm` page.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- All move operations should be [atomic](https://en.wikipedia.org/wiki/Atomicity_(database_systems)).
@@ -4814,7 +4815,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- `a04b60d0`: add id to the old slot in Mind Jungle => ((667bfebf-a319-46be-a795-d7fc9c156363))!
 									- `926acf05`: move `Linux` from [[Mind Jungle]] to [[Linux]]
 									- `70e37387`: add `Linux` to [[Mind Jungle]]
-								- Change details for `6673f8bf-04c0-4f8f-bc36-982ce9cab87d` []
+								- Change details for `6673f8bf-04c0-4f8f-bc36-982ce9cab87d` [((6673f8bf-04c0-4f8f-bc36-982ce9cab87d))]
 									- It was first drafted in Workspace, then moved to Mind Jungle.
 									- Since then, the id was **moved back and forth** between the empty block in Workspace and the block in Mind Jungle.
 									- Git commits in 2024/{from 06/23 to 12/30}
