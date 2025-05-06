@@ -1844,7 +1844,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- viewer-actor
 		  id:: fa0b2bc6-05ac-418f-9a86-17635936a656
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)). In , , hence Trinion ⤚[Equal]→ obop ⤚[intent]→ qualiton.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), , hence Trinion ⤚[Equal]→ obop ⤚[intent]→ qualiton.
 		- Symbols of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 		  id:: 66faa5f9-a3dd-4065-8167-0e49a79e427a
 		  There are many symbols representing many roles of the obop.

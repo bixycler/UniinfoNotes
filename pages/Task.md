@@ -113,7 +113,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  :LOGBOOK:
 		  CLOCK: [2025-01-13 Mon 20:14:46]--[2025-01-13 Mon 20:27:13] =>  00:12:27
 		  :END:
-		- TODO Modify `{{search-query}}` to deal with delimiters.
+		- TODO Modify `{{search-query}}` to deal with spaces & delimiters in key words.
 		  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- TODO Copy [Chuyện Búi Chỉ](https://creatzyitnotes.blogspot.com/2009/11/chuyen-bui-chi.html) to  [CreatZy Notes](https://creatzynotes.blogspot.com/)
 		  id:: 67b989a4-a041-4511-abe5-77c785ca2d67
