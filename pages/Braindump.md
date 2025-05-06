@@ -643,13 +643,17 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  :LOGBOOK:
 				  CLOCK: [2025-05-06 Tue 10:06:12]--[2025-05-06 Tue 10:06:15] =>  00:00:03
 				  :END:
-				- DOING uninet may be mistaken with the omnifold, as a grand network of the whole Universe, due to its name. It's actually a universal network, but just a reflection of the omnifold on computer, not the whole. (This confusion appeared in one NotebookLM's audio overview)
+				- DONE uninet may be mistaken with the omnifold, as a grand network of the whole Universe, due to its name. It's actually a universal network, but just a reflection of the omnifold on computer, not the whole. (This confusion appeared in one NotebookLM's audio overview)
 				  :LOGBOOK:
-				  CLOCK: [2025-05-06 Tue 10:09:57]
+				  CLOCK: [2025-05-06 Tue 10:09:57]--[2025-05-06 Tue 10:19:09] =>  00:09:12
 				  :END:
 					- Trinion (metaphysical) ~ Ω-thread (mathematical) ~ uninet (computer implementation)
 					- In the future, if there is a need for a theory of uninet, it may be called "Uninet Theory", but now we just have uninets as instances of the Trinion implemented on computer.
-				- Trinion, obop and qualiton are easily confused with each other.
+				- DOING Trinion, obop and qualiton are easily confused with each other.
+				  id:: 68197c38-55ae-4c08-a272-a62ae7fa7473
+				  :LOGBOOK:
+				  CLOCK: [2025-05-06 Tue 10:19:22]
+				  :END:
 					- Obop being & qualiton being are, just like all beings, instances of the Trinion.
 					- Obop corresponds to the Equal component of the Trinion, and operates the Trinion using the CIE equation.
 					- Qualiton is to quantum in Unithread as intent is to extent in the CIE formula. It's the "elementary particle" of intent/quality, hence the "smallest" instances of the Trinion.

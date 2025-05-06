@@ -3500,8 +3500,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Due to the name ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)), it may be mistaken with the ((675c03d8-3185-41a8-9f98-e869fabec793)), as a grand network of the whole Universe.
+			  collapsed:: true
 				- It's actually a universal network, but just a reflection of the Omnifold on computer, not the whole.
-				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (metaphysical) →  ((66ab75a1-f4a0-4bab-a002-8e573546623a)) (mathematical) → folded in ~ uninet (computer implementation)
+				- The metaphysical ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) → modeled in math as ((66ab75a1-f4a0-4bab-a002-8e573546623a)) → folded to fabricate the ((675c03d8-3185-41a8-9f98-e869fabec793)) → implemented on computer as the ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
 				- In the future, if there is a need for a theory of uninet, it may be called "Uninet Theory", but now we just have uninets as instances of the Trinion implemented on computer.
 		- cognition
 		  collapsed:: true
