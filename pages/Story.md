@@ -345,7 +345,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- After lots of podcasts generated, i've selected this one as a nice memory of this occasion.
 					  collapsed:: true
 						- [UniinfoNotes DeepDive Podcast (2025-02-02)](https://youtu.be/FuhvgdXi-FI)
+						  collapsed:: true
 							- {{video https://youtu.be/FuhvgdXi-FI}}
+						-
 				- I've tried some ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
 				- Currently, ((67a71016-4588-4b2f-8c56-90701528d94d)) is most appropriate for my researches.
 				  id:: 67a71016-d530-4b48-bfcc-495d72b0bf86
