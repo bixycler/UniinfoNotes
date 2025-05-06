@@ -1815,8 +1815,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 		- obop
 		  id:: 94e87dc9-71af-477c-aa70-0f448c2f1e20
+		  collapsed:: true
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 		  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((669a2487-054d-4408-ae41-189e34af81a9)), ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “obop” is pronounced “ob-op” /əbˈɒp/, not “o-bop”.
 		- ☉
 		  id:: 66f3b94d-6cf8-461a-9312-c9973ac739fe
 		  collapsed:: true
@@ -1855,9 +1857,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In astrology, the [symbol of Sun (`☉`)](https://en.wikipedia.org/wiki/Solar_symbol) shows the role of the obop as a source of light.
 			- In computing, the [fisheye symbol (`◉`)](https://en.wikipedia.org/wiki/Circled_dot#Computing) shows the role of the obop as an eye, a focal point, a selected choice, the current one.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-		  collapsed:: true
 			- In the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), the core of obop is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) that observes the content to produce the extent which is used to operate the ((66c810a0-9861-4787-bdcf-1378219332be)). The intent can be composed of many sub-itents in many layers, where the “atomic intent” at the basic layer is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  id:: 66e79e0c-8be2-49a4-b4d7-5c1fddefeabf
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-09-16 Mon 18:54:11]
 			  :END:
@@ -3483,6 +3485,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2024-07-22 Mon 10:24:16]
 	  :END:
+		- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “uninet” is pronounced “uni-net” //
 		- ((669dfa9a-3322-4669-9d00-9093a7b14b38)) ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) = ((669dd16c-1836-40ec-86e5-772f8f4774ce)) + ((669a1bec-3347-4915-83e4-dcffc4d482d1)) = "trans" ((667d15b7-6364-49a9-ac58-c64d2a992b63)) + "form" ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) + ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
 		  :LOGBOOK:
 		  CLOCK: [2024-07-22 Mon 10:24:33]
