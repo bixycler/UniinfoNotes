@@ -630,14 +630,23 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Scrolling up my Saved Messages on Telegram, i see the notes about [NotebookLM podcasts](((681826ae-d97f-4801-985e-ce9ff423e4a0))) and about updates of [[Mind Jungle]] suggested from these podcasts.
 		  collapsed:: true
-			- I forgot to store the [chosen podcast](((68197171-5191-413f-a3a7-67262aaeb64b))) into the story of NotebookLM.
+			- DONE Update story because i forgot to store the [chosen podcast](((68197171-5191-413f-a3a7-67262aaeb64b))) into the story of NotebookLM.
+			  :LOGBOOK:
+			  CLOCK: [2025-05-06 Tue 10:07:27]--[2025-05-06 Tue 10:07:29] =>  00:00:02
+			  :END:
 			- DOING Updates for Mind Jungle
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-05-06 Tue 10:03:58]
 			  :END:
-				- Update procunciations of terms: obop, SCIFER, uninet
-				- uninet may be mistaken with the omnifold, as a grand network of the whole Universe, due to its name. It's actually a universal network, but just a reflection of the omnifold on computer, not the whole. (This confusion appeared in one NotebookLM's audio overview)
+				- DONE Update procunciations of terms: obop, SCIFER, uninet
+				  :LOGBOOK:
+				  CLOCK: [2025-05-06 Tue 10:06:12]--[2025-05-06 Tue 10:06:15] =>  00:00:03
+				  :END:
+				- DOING uninet may be mistaken with the omnifold, as a grand network of the whole Universe, due to its name. It's actually a universal network, but just a reflection of the omnifold on computer, not the whole. (This confusion appeared in one NotebookLM's audio overview)
+				  :LOGBOOK:
+				  CLOCK: [2025-05-06 Tue 10:09:57]
+				  :END:
 					- Trinion (metaphysical) ~ Ω-thread (mathematical) ~ uninet (computer implementation)
 					- In the future, if there is a need for a theory of uninet, it may be called "Uninet Theory", but now we just have uninets as instances of the Trinion implemented on computer.
 				- Trinion, obop and qualiton are easily confused with each other.
