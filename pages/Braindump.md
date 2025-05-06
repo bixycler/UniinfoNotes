@@ -654,11 +654,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  :LOGBOOK:
 				  CLOCK: [2025-05-06 Tue 10:19:22]
 				  :END:
-					- Obop being & qualiton being are, just like all beings, instances of the Trinion.
-					- Obop corresponds to the Equal component of the Trinion, and operates the Trinion using the CIE equation.
+					- DONE Obop being & qualiton being are, just like all beings, instances of the Trinion.
+					- DONE Obop corresponds to the Equal component of the Trinion, and operates the Trinion using the CIE equation.
 					- Qualiton is to quantum in Unithread as intent is to extent in the CIE formula. It's the "elementary particle" of intent/quality, hence the "smallest" instances of the Trinion.
-					- In brief, Trinion -[Equal]-> obop -[intent]-> qualiton
-					- Furthermore, the qualiton in uninet is called "autonoton".
+					- DONE In brief, Trinion -[Equal]-> obop -[intent]-> qualiton
+					- DONE Furthermore, the qualiton in uninet is called "autonoton".
+					  :LOGBOOK:
+					  CLOCK: [2025-05-06 Tue 11:38:13]--[2025-05-06 Tue 11:38:19] =>  00:00:06
+					  :END:
 				- Unïnfo can also capture the vague notion that "everything is information", which is _not a formal statement_ but can be sensed throughout the Unïnfo Theory.
 					- That vague notion of the "universal information underlying everything" is formally modeled as the Ω-thread, which is again usually vaguely referred to as the "Unithread"! 😊
 					- Formally, both Unïnfo and Unithread are the names of theories.
