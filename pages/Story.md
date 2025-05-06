@@ -338,11 +338,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  id:: 67a72a32-c67d-440b-95d1-8ddeb0bb7ac3
 				- Around the Lunar new year, Chinese AI chatbots have been released, esp. ((67a6068e-65d3-44c2-8f1c-b4d532046638)) R1, shocking the US AI vendors with open sources, nearly 10 times cheaper in both training and operation.
 				- On this occasion, i've known of ((67a5faeb-c506-42b8-b989-9a7179fe02b3)).
+				  id:: 681826ae-d97f-4801-985e-ce9ff423e4a0
 					- ((67a5faeb-c506-42b8-b989-9a7179fe02b3)) can understand my [[Mind Jungle]] well! 😊 However, it still fabricates about 30% of the content.
 					  id:: 67a73250-60f2-485c-b9d1-fc43ad993282
 					- However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.
 					  id:: 67a73295-e7ff-445f-831f-df6e79d750dc
 					- After lots of podcasts generated, i've selected this one as a nice memory of this occasion.
+					  id:: 68197171-5191-413f-a3a7-67262aaeb64b
 					  collapsed:: true
 						- [UniinfoNotes DeepDive Podcast (2025-02-02)](https://youtu.be/FuhvgdXi-FI)
 						  collapsed:: true

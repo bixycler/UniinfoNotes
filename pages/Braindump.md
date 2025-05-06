@@ -628,7 +628,30 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		-
+		- Scrolling up my Saved Messages on Telegram, i see the notes about [NotebookLM podcasts](((681826ae-d97f-4801-985e-ce9ff423e4a0))) and about updates of [[Mind Jungle]] suggested from these podcasts.
+		  collapsed:: true
+			- I forgot to store the [chosen podcast](((68197171-5191-413f-a3a7-67262aaeb64b))) into the story of NotebookLM.
+			- DOING Updates for Mind Jungle
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-05-06 Tue 10:03:58]
+			  :END:
+				- Update procunciations of terms: obop, SCIFER, uninet
+				- uninet may be mistaken with the omnifold, as a grand network of the whole Universe, due to its name. It's actually a universal network, but just a reflection of the omnifold on computer, not the whole. (This confusion appeared in one NotebookLM's audio overview)
+					- Trinion (metaphysical) ~ Ω-thread (mathematical) ~ uninet (computer implementation)
+					- In the future, if there is a need for a theory of uninet, it may be called "Uninet Theory", but now we just have uninets as instances of the Trinion implemented on computer.
+				- Trinion, obop and qualiton are easily confused with each other.
+					- Obop being & qualiton being are, just like all beings, instances of the Trinion.
+					- Obop corresponds to the Equal component of the Trinion, and operates the Trinion using the CIE equation.
+					- Qualiton is to quantum in Unithread as intent is to extent in the CIE formula. It's the "elementary particle" of intent/quality, hence the "smallest" instances of the Trinion.
+					- In brief, Trinion -[Equal]-> obop -[intent]-> qualiton
+					- Furthermore, the qualiton in uninet is called "autonoton".
+				- Unïnfo can also capture the vague notion that "everything is information", which is _not a formal statement_ but can be sensed throughout the Unïnfo Theory.
+					- That vague notion of the "universal information underlying everything" is formally modeled as the Ω-thread, which is again usually vaguely referred to as the "Unithread"! 😊
+					- Formally, both Unïnfo and Unithread are the names of theories.
+					- Formal concepts are the Trinion and the Ω-thread.
+					- The whole Ω-thread is an instance of the Trinion, hence a concrete thing, i.e. a "being", but its partial chunks (segments called simply "threads") can represent anything, including the abstract concepts.
+					- Each Ω-thread runs through the whole Ω (Omnifold = Universe) in a particular way corresponding to a particular configuration of the Universe.
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
 		  :LOGBOOK:
