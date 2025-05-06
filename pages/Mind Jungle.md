@@ -2537,8 +2537,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Unïnfo
 		  id:: 66537a44-f579-4fcc-a02b-2f32d0d409fc
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537a41-f229-4891-803e-828573eb44f3))
+			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) " ((66537a44-f579-4fcc-a02b-2f32d0d409fc))" is the umbrella term for both ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), as the theoretical aspect, and ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
-		- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
 	- ## Unïnfo Theory
 	  id:: 669dfc9f-b5e2-448a-b6f4-be13c5bfbccb
 	  collapsed:: true
@@ -3485,7 +3485,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2024-07-22 Mon 10:24:16]
 	  :END:
-		- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “uninet” is pronounced “uni-net” //
+		- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “uninet” is pronounced “uni-net” /ˈjuːnɪˌnɛt/.
 		- ((669dfa9a-3322-4669-9d00-9093a7b14b38)) ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71)) = ((669dd16c-1836-40ec-86e5-772f8f4774ce)) + ((669a1bec-3347-4915-83e4-dcffc4d482d1)) = "trans" ((667d15b7-6364-49a9-ac58-c64d2a992b63)) + "form" ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) + ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
 		  :LOGBOOK:
 		  CLOCK: [2024-07-22 Mon 10:24:33]
