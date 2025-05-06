@@ -1844,7 +1844,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- viewer-actor
 		  id:: fa0b2bc6-05ac-418f-9a86-17635936a656
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is represented by the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)), hence ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) ⤚[Equal]→ obop ⤚[((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))]→ ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), obop is represented by the Equal, hence ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) ⤚[((66f3d5cc-0d68-47bb-b09a-87cda33c7354))]→ ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⤚[((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))]→ ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 		- Symbols of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 		  id:: 66faa5f9-a3dd-4065-8167-0e49a79e427a
 		  There are many symbols representing many roles of the obop.
@@ -2024,16 +2024,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the three components of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (`○`, `↑`, `=`) show the ((66c82f42-16bb-4886-a32b-5c246187cfee)) and qualitative structure of the Universe, the Trinion itself observes the Universe via the ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) and quantitative ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) (obop) of the ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)). The ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) (`◉`) works with the three components ((6678288e-699b-4325-bdba-bf6349fe0d57)), ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) and ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)), in the “CIE” formula “content ÷ intent = extent” or “content = intent × extent”, where “extent” is the image of the object's “content”, and “intent” gives meaning to that image.
 			- ![CIE-equation](https://docs.google.com/drawings/d/e/2PACX-1vSc09u5xNTzIIOWMw1gQgZgADjw87DWf6jrdIZ188VWCFxrC_NLX7pLOqyziDg4OkWCHBlRU6iiyhm1/pub?w=210&amp;h=165)
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “CIE” is pronounced /saɪ/ or /si/ whichever rhymes with the Greek letter “Ψ”.
-		- ((6678288e-699b-4325-bdba-bf6349fe0d57)) ($c$) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
+		- content
 		  id:: 66b1cfa4-2537-4361-a626-da81ca5b4e6f
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to be ((66c835f1-29a9-4e07-90b8-92bcd89cdb9b))d and measured, the measuree, the domain of operation, the unknown amount of material.
+		  $c$
+		  ((6678288e-699b-4325-bdba-bf6349fe0d57)) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) is the ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to be ((66c835f1-29a9-4e07-90b8-92bcd89cdb9b))d and measured, the measuree, the domain of operation, the unknown amount of material.
 			  id:: 66f3ca15-2f7c-42b7-bcb0-946b9ccd1881
-		- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) ($i$) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
+		- intent
 		  id:: 66f3c97f-94e8-4783-96c5-fe9cadf4f9a9
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) that measures the [object's content](((66f3ca15-2f7c-42b7-bcb0-946b9ccd1881))), the measurer, the unit of measurement, the modulus of division, the operator, the known amount of material which act as the container of content. In perception, it's the “eye's self”, the projector that projects the material object onto the mental world. The operation of measuring or projecting the unknown ($c$) against the known ($i$) is illustrated by the division $c/i$.
-		- ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) ($e$) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
+		  $i$
+		  ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) is the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) that measures the [object's content](((66f3ca15-2f7c-42b7-bcb0-946b9ccd1881))), the measurer, the unit of measurement, the modulus of division, the operator, the known amount of material which act as the container of content. In perception, it's the “eye's self”, the projector that projects the material object onto the mental world. The operation of measuring or projecting the unknown ($c$) against the known ($i$) is illustrated by the division $c/i$.
+		- extent
 		  id:: 66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the number resulting from the [measurement](((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))), the rage of the operation, the image of projection. This number is non-material and purely a mental construction by the intent.
+		  $e$
+		  ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is the number resulting from the [measurement](((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))), the rage of the operation, the image of projection. This number is non-material and purely a mental construction by the intent.
 		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- Sustent ($c$, $i$) - Extent ($e$)
 			- Form ($i$, $e$) - Content ($c$)
@@ -3239,7 +3245,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 6678288e-699b-4325-bdba-bf6349fe0d57
 	  collapsed:: true
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678288e-699b-4325-bdba-bf6349fe0d57)) is an umbrella term capturing the abstract notion of "something packed inside the ((667cfa42-ade7-4310-9a7b-6d14d01c16da))": the daily used [content](https://en.wiktionary.org/wiki/content#Noun_2), the dynamic content in ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)), the ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)), etc.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678288e-699b-4325-bdba-bf6349fe0d57)) is an umbrella term capturing the abstract notion of "something packed inside the ((667cfa42-ade7-4310-9a7b-6d14d01c16da))": the daily used [content](https://en.wiktionary.org/wiki/content#Noun_2), the dynamic content in ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)), the ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) in CIE, etc.
 		- types of content regarding ((66f6682b-744a-49b8-8e11-8e020fc24acc))
 			- crystallized content
 			  id:: 670de73b-6fe0-4366-9d81-2d631a3f3ca3
@@ -3287,7 +3293,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Intension
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is an umbrella term capturing the abstract notion of "something packed inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))": the daily used ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) and [intentionality](https://en.wikipedia.org/wiki/Intentionality), the semantical ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)), the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)), etc.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is an umbrella term capturing the abstract notion of "something packed inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))": the daily used ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) and [intentionality](https://en.wikipedia.org/wiki/Intentionality), the semantical ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)), the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) in CIE, etc.
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
@@ -3295,7 +3301,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- extension
 		  id:: 66f949a4-675e-4c43-8da3-f2754ba2e128
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of "the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))": the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), etc. Note that the semantical "extension" here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) is an umbrella term capturing the abstract notion of "the part of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) extended from the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))": the ((66ab6161-0306-42d5-ac16-4155c69216f5)) whose a special case is the daily used [extent](https://en.wiktionary.org/wiki/extent#Noun), the semantical [extension](https://en.wikipedia.org/wiki/Extension_(semantics)), the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) in CIE, etc. Note that the semantical "extension" here refers to the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of the collection of objects referenced by the intension, where that form is just an image inside the subject.
 	- ## independent
 	  id:: 671b160c-0589-4f83-a778-a9fb4df6783a
 	  collapsed:: true
@@ -3412,7 +3418,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 67505a68-91b9-4abb-bf92-4dddad8c5803
 				  but usually confused with unidimensional
 					- Unit identity: 1 (dimensionless **mass**) = $1 × 1 × 1 × ... × 1$ (infinite dimensional **hypervolume**)
-				- The [extent](((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
+				- The ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is dimensionless (dimension cancelled by ratio), but still has two directions `+` and `-`.
 				  collapsed:: true
 					- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
 						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
