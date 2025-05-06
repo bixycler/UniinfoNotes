@@ -5,11 +5,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ... ↓ to be flushed **down**! ↓
-		- DOING [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
+		- TODO [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-04-15 Tue 16:43:57]
+		  CLOCK: [2025-04-15 Tue 16:43:57]--[2025-05-06 Tue 15:45:34] =>  503:01:37
 		  :END:
 			- Longitudinal (tangential) flow, [divergence](https://en.wikipedia.org/wiki/Divergence) = $\exp(real)$, is the normal flow from sources to sinks, which is an image of a meta flow circulating through higer dimensions.
 			- Transverse flow, [curl](https://en.wikipedia.org/wiki/Curl_(mathematics)) = $\exp(imaginary)$, is the ((67fcbee7-da00-45d8-bb21-deefb95d164e)), rotation, circulation, curl around the sources in object space.
@@ -49,7 +49,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- 12. [Exponential map](https://people.math.harvard.edu/~knill/teaching/math136/handouts/lecture12.pdf)
 					- 13. [Curvature is Curl](https://people.math.harvard.edu/~knill/teaching/math136/handouts/lecture13.pdf)
 			- TODO [?] Relation between curvature & curl?!
-		- DOING Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
+		- TODO Conic rotations: rotation (circular) = flow (parabolic) = transformation (hyperbolic)
 		  id:: 67ed2751-76d5-4bf1-9fc7-27c14ef6d1fa
 		  collapsed:: true
 		  :LOGBOOK:
@@ -62,11 +62,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- $\tan⋅\cot = 1 \;\; ⇔ \;\; \sin^2 + \cos^2 = 1 \;\; ⇔ \;\; φ + φ_c = ∟$ 
 			  multiplication (hyperbolic) ⇔ exponential (circular) ⇔ addition (parabolic)
 			- ((6716110c-1b10-41cc-9e26-c76ef782b6a3))
-		- DOING normed space + parallelogram law = inner product space
+		- TODO normed space + parallelogram law = inner product space
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-02 Wed 19:53:56]
-		  CLOCK: [2025-04-02 Wed 19:54:26]
+		  CLOCK: [2025-04-02 Wed 19:54:26]--[2025-05-06 Tue 15:45:43] =>  811:51:17
 		  :END:
 			- Sum of squares is just the [diagonalized version](https://en.wikipedia.org/wiki/Diagonal_form) of [quadratic form](https://en.wikipedia.org/wiki/Quadratic_form).
 				- (Squared) norm and parallelogram law are relations on the diagonal (containing squares, at zero angle), whereas inner product is the relation at anywhere (any angle).
