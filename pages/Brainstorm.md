@@ -2,93 +2,9 @@
 id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((665c92d1-565b-4911-a706-b32af429c3aa)) place for ((66536578-c4d3-43f1-b35c-bf71120f0570)) as well as the store of recent brainstorms.
 	-
-		- Vietnamese phonemes
-		  id:: 6809e1ea-1518-4460-be26-62881c47287f
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-04-24 Thu 14:02:37]--[2025-04-24 Thu 15:52:03] =>  01:49:26
-		  :END:
-			- Ref: [IPA Charts with Audio](https://jbdowse.com/ipa/) ([basic version](https://jbdowse.com/old-ipa/))
-			- “đ” /ɗ/ → “d” /ɗ̠ʲ/ voiced [alveolo-palatal](https://en.wikipedia.org/wiki/Alveolo-palatal_consonant) implosive stop → /ʄ/ [voiced palatal implosive](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) stop → /ˀj/ → /j/
-				- /ɗ̠ʲ/ appears in [Bade language](https://en.wikipedia.org/wiki/Bade_language) where it's also heard like /ˀj/.
-				- /ɗ̠ʲ/ appears in [Myene language](https://en.wikipedia.org/wiki/Myene_language) as a free variation of /dʒ/.
-				- /ɗ̠ʲ/ is like 디 /d̠ʲ/ in Korean, but nearer to /j/
-				- /ɗ̠ʲ/ is like д /dʲ/ in Russian, but nearer to /j/
-				- /ʄ/ is in [Jinhui [金匯]](https://en.wikipedia.org/wiki/Jinhui_dialect) pronunciation of 家, as well as many other languages in Africa, [Sindhi/Saraiki language](https://en.wikipedia.org/wiki/Saraiki_language), etc.
-				- /ˀj/ is pre-glottalized version of /j/, and appears in some languages in South East Asia.
-					- [Lahu (La Hủ) language](https://en.wikipedia.org/wiki/Lahu_language) around China, Thailand, Myanmar, Vietnam and Laos.
-					- [A Description of Kmhmu’ Lao Script-Based Orthography](http://www.sealang.net/mks/mksj42.pdf)
-				- Video [IPA 164 Voiced Palatal Implosive Stop ʄ](https://youtu.be/27WGLJCPWIk)
-				  collapsed:: true
-					- {{video https://youtu.be/27WGLJCPWIk}}
-			- “v” /v/ → /ʋ/ → /bj/ → /βj/ → /j/
-				- [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) is between /v/ and /w/
-					- ((6809ac03-30d3-4ba7-8b9b-17e13732f9dd))
-		- From [logical “argument”](https://en.wikipedia.org/wiki/Argument) in philosophy to [“argument of function”](https://en.wikipedia.org/wiki/Argument_of_a_function) and then [“argument of complex number”](https://en.wikipedia.org/wiki/Argument_(complex_analysis))
-		  id:: 680b6063-e454-4cf6-835e-d6f726b8b871
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-04-25 Fri 17:15:36]--[2025-04-28 Mon 20:17:48] =>  75:02:12
-		  :END:
-			- **Logical argument** is the one determining the degree of truth of a statement called “conclusion”.
-				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “argument” ← “argue” ← French “arguer” ← Latin “arguere”: to make **reasoned** statements to prove or refute a proposition
-				- Additional meaning in English: disagreement, dispute, quarrel
-				  collapsed:: true
-					- The original Latin “arguere” and French “arguer” don't have this meaning.
-					- The spectrum of meaning:
-					  [Reasoning end:] argue that, argue for/against, argue on, argue (direct object), argue about, argue over, argue (intransitive), dispute, quarrel [:Quarreling end]
-						- “To argue (something)” is to give reasons for something, but not widely used.
-						- “To argue about (something)” is neutral, but more about dispute.
-					- In contrast to “argue”, “debate” orginally meant “fight over” but now means [formal argument](https://en.wikipedia.org/wiki/Debate).
-						- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “debate” ← French “débattre” = “de” (down) + Latin “battuere” (beat) = “beat down”
-					- “Debate” versus [“disputation”](https://en.wikipedia.org/wiki/Disputation): while both include formal arguments about a topic, their goals are different: Debate is to refute the opponent, whereas disputation is to understand ideas better and to get closer to the truth.
-				- Vietnamese:
-				  collapsed:: true
-					- “argument” (1): “lập luận”, “lý luận”, “lý lẽ”
-					- “argument” (2): “tranh cãi”; “quarrel” = “cãi vã”
-					- “debate”: “tranh luận”
-					- “disputation”: “thảo luận”
-			- Argument(s) of a function is/are the one(s) determining the result value of the function.
-				- A logical statement is just a Boolean function $P: X → \{⊤, ⊥\}$ where $x ∈ X$ is the argument.
-				- A function, [originally](https://en.wikipedia.org/wiki/History_of_the_function_concept) as a “container of variables and parameters” (“hàm”, 函), has (result) value determined by the values of the variables. That's why (independent) variable value(s) is/are the argument(s) of function.
-			- Argument of complex number $φ = \arg(z)$ is the one determining the complexity of the number.
-				- $z = r⋅\exp(i⋅φ) = r⋅e^{i⋅φ}$: beside constants $i, e$ and pararmeter $r$, the **argument** $φ$ is the one that determines how much “complex” $z$ is by the angular distance from the real axis.
-				- Because the modulus $r$ is already the normal (real) number, the phase $φ$ is the critical component for the complexity.
-				- Historically, astronomers had long ago used the term “argument” to indicate [the angle of the orbit plane](https://en.wikipedia.org/wiki/Argument_of_periapsis), which is the characteristic of the orbit.
-			- Ref:
-				- [Why We Use "Argument" In Describing Complex Angles](https://www.math.toronto.edu/mathnet/questionCorner/argument.html)
-				  > To the best of our knowledge, the word argument was originally used by astronomers when referring to certain angles associated with orbits. ([argument of pericenter](https://en.wikipedia.org/wiki/Argument_of_periapsis))
-		- Turning negativity to positivity through the etymology of “occation” ← “occidō” (fall down)
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-05-06 Tue 12:47:35]--[2025-05-06 Tue 13:08:23] =>  00:20:48
-		  :END:
-			- **Etymology**: English [“occation”](https://en.wiktionary.org/wiki/occasion#English) (opportunity) ← Latin [“occasio”](https://en.wiktionary.org/wiki/occasio#Latin) (opportunity, right time) ← Latin [“occāsus”](https://en.wiktionary.org/wiki/occasus#Latin) ([Sun] setting) ← Latin [“occidō”](https://en.wiktionary.org/wiki/occido#Latin) (fall down, [Sun] set down, die, pass away, be lost/ruined)
-			- **Negative to Positive Flip in Etymology**: From "occidō" with negative senses (down, decline, death), it has been transformed to "occasio" with positive sense (opportunity).
-			- **Perspective Flip**: Something "falling from heaven" is a good opportunity for humans down on Earth. The closing outside, like a black hole or a closing of a day, is the opening inside, like a white hole or an opening of a night.
-			- **Convergence for Explosion**: The closing isn’t just a negative end (death, decline); it’s a convergence of conditions, like a sunset or a black hole collapsing externally, that sets the stage for an "explosion" of opportunity, like a sunrise or a white hole opening internally, a preparation for new beginnings (reborn, germination).
-			- **Transformative Technique**: This flip can be applied as a mindset—viewing a "closing" (e.g., a failure or end) not as a negative end but as a convergence point that prepares for a new "opening" (e.g., a fresh start or opportunity).
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
-		- ...
-		- DOING From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-05-06 Tue 13:15:54]
-		  :END:
-			- [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Japanese) = 自 (self) + 由 (cause, from) originally meant “caused by oneself” (“do mình”) or generally “arising from oneself” (“từ mình”).
-				- In [Taoism](https://en.wikipedia.org/wiki/Taoism), 自由 is the liberated state of saints where all actions are taken placed naturally, spontaneously, detached from external constraints.
-				- In [Confucianism](https://en.wikipedia.org/wiki/Confucianism), 自由 is the result of self-cultivation such that all virtuous conduct and duty are done naturally by oneself, without being subject to external forces or authorities.
-				- The idiom [自由自在](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1%E8%87%AA%E5%9C%A8) means “free and easy”, “effortless” which is also the meaning of 自然 and 無為.
-					- 自在 also originally meant “caused by oneself” (“tại mình”) and [“at/in oneself”](https://en.wiktionary.org/wiki/being-in-itself) (“ở chỗ mình”), and now means “free, comfortable, at ease”.
-					- [自然](https://en.wiktionary.org/wiki/%E8%87%AA%E7%84%B6) means [“selfly”](https://en.wikipedia.org/wiki/Ziran), “as it is”, hence “naturally”.
-						- Tao Te Ching, [Ch.25](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_25_(%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%94%E7%AB%A0)) ([DDK25](https://nhantu.net/TonGiao/DaoDucKinh/DDK25.htm)): 人法地，地法天，天法道，道法**自然**。
-					- [無為](https://en.wiktionary.org/wiki/%E7%84%A1%E7%82%BA) means [“no [forceful/intentional] action”](https://en.wikipedia.org/wiki/Wu_wei), hence “effortless”.
-						- Tao Te Ching, [Ch.48](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)) ([DDK48](https://nhantu.net/TonGiao/DaoDucKinh/DDK48.htm)): 無為而無不為。
-			- 自由 was repurposed in the 1860s by [Fukuzawa Yukichi](https://en.wikipedia.org/wiki/Fukuzawa_Yukichi) as a translation of English [“freedom”](https://en.wiktionary.org/wiki/freedom#English) or “liberty”, as an extension of the original meaning: “freedom to act according to one's own thoughts, without restriction”.
-			- Some Western philosophers like Nietzsche, Sartre also define “freedom” in a very Eastern way.
-				- Nietzsche defines having a sense of freedom with being responsible for one's own life.
-				- Freedom and Responsibility in Existentialism: Sartre’s “condemned to be free”: Individuals have radical freedom to define themselves through choices, but this freedom comes with the burden of responsibility.
+		- ... ↓ to be flushed **down**! ↓
 		- DOING [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
@@ -194,6 +110,105 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-06 Tue 13:15:54]--[2025-05-06 Tue 15:17:03] =>  02:01:09
+		  :END:
+			- [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Japanese) = 自 (self) + 由 (cause, from) originally meant “caused by oneself” (“do mình”) or generally “arising from oneself” (“từ mình”).
+				- In [Taoism](https://en.wikipedia.org/wiki/Taoism), 自由 is the liberated state of saints where all actions are taken placed naturally, spontaneously, detached from external constraints.
+				- In [Confucianism](https://en.wikipedia.org/wiki/Confucianism), 自由 is the result of self-cultivation such that all virtuous conduct and duty are done naturally by oneself, without being subject to external forces or authorities.
+				- The idiom [自由自在](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1%E8%87%AA%E5%9C%A8) means “free and easy”, “effortless” which is also the meaning of 自然 and 無為.
+					- 自在 also originally meant “caused by oneself” (“tại mình”) and [“at/in oneself”](https://en.wiktionary.org/wiki/being-in-itself) (“ở chỗ mình”), and now means “free, comfortable, at ease”.
+					- [自然](https://en.wiktionary.org/wiki/%E8%87%AA%E7%84%B6) means [“selfly”](https://en.wikipedia.org/wiki/Ziran), “as it is”, hence “naturally”.
+						- Tao Te Ching, [Ch.25](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_25_(%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%94%E7%AB%A0)) ([DDK25](https://nhantu.net/TonGiao/DaoDucKinh/DDK25.htm)): 人法地，地法天，天法道，道法**自然**。
+					- [無為](https://en.wiktionary.org/wiki/%E7%84%A1%E7%82%BA) means [“no [forceful/intentional] action”](https://en.wikipedia.org/wiki/Wu_wei), hence “effortless”.
+						- Tao Te Ching, [Ch.48](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)) ([DDK48](https://nhantu.net/TonGiao/DaoDucKinh/DDK48.htm)): 無為而無不為。
+						- Blog post [Vô vi, tánh Không, trống rỗng, vacantness](https://creatzynotes.blogspot.com/2022/03/vo-vi-tanh-khong-trong-rong-vacancy.html)
+						  collapsed:: true
+							- 無為非不為，無為而無不為。
+							  Vô vi phi bất vi, vô vi nhi vô bất vi.
+							  Làm "Không" chẳng phải là không làm,
+							  làm "Không" mà chẳng có việc chi là không làm.
+							- Chương 48. Vong tri (Quên đi cái Biết), Đạo Đức Kinh
+								- Học nhiều càng lắm rườm rà,
+								  Càng gần Đạo cả càng ra đơn thuần.
+								  Xả buông rồi lại xả buông,
+								  Bụi trần rũ sạch còn thuần Vô vi.
+								- Vô vi huyền diệu khôn bì,
+								  Làm "Không" mà chẳng việc chi không làm.
+								  Vô vi mà được thế gian,
+								  Càng xoay xở lắm đời càng rối beng.
+			- 自由 was repurposed in the 1860s by [Fukuzawa Yukichi](https://en.wikipedia.org/wiki/Fukuzawa_Yukichi) as a translation of English [“freedom”](https://en.wiktionary.org/wiki/freedom#English) or “liberty”, as an extension of the original meaning: “freedom to act according to one's own thoughts, without restriction”.
+			- Some Western philosophers like Nietzsche, Sartre also define “freedom” in a very Eastern way.
+				- Nietzsche defines having a sense of freedom with being responsible for one's own life.
+				- Freedom and Responsibility in Existentialism: Sartre’s “condemned to be free”: Individuals have radical freedom to define themselves through choices, but this freedom comes with the burden of responsibility.
+		- Turning negativity to positivity through the etymology of “occation” ← “occidō” (fall down)
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-06 Tue 12:47:35]--[2025-05-06 Tue 13:08:23] =>  00:20:48
+		  :END:
+			- **Etymology**: English [“occation”](https://en.wiktionary.org/wiki/occasion#English) (opportunity) ← Latin [“occasio”](https://en.wiktionary.org/wiki/occasio#Latin) (opportunity, right time) ← Latin [“occāsus”](https://en.wiktionary.org/wiki/occasus#Latin) ([Sun] setting) ← Latin [“occidō”](https://en.wiktionary.org/wiki/occido#Latin) (fall down, [Sun] set down, die, pass away, be lost/ruined)
+			- **Negative to Positive Flip in Etymology**: From "occidō" with negative senses (down, decline, death), it has been transformed to "occasio" with positive sense (opportunity).
+			- **Perspective Flip**: Something "falling from heaven" is a good opportunity for humans down on Earth. The closing outside, like a black hole or a closing of a day, is the opening inside, like a white hole or an opening of a night.
+			- **Convergence for Explosion**: The closing isn’t just a negative end (death, decline); it’s a convergence of conditions, like a sunset or a black hole collapsing externally, that sets the stage for an "explosion" of opportunity, like a sunrise or a white hole opening internally, a preparation for new beginnings (reborn, germination).
+			- **Transformative Technique**: This flip can be applied as a mindset—viewing a "closing" (e.g., a failure or end) not as a negative end but as a convergence point that prepares for a new "opening" (e.g., a fresh start or opportunity).
+		- From [logical “argument”](https://en.wikipedia.org/wiki/Argument) in philosophy to [“argument of function”](https://en.wikipedia.org/wiki/Argument_of_a_function) and then [“argument of complex number”](https://en.wikipedia.org/wiki/Argument_(complex_analysis))
+		  id:: 680b6063-e454-4cf6-835e-d6f726b8b871
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-25 Fri 17:15:36]--[2025-04-28 Mon 20:17:48] =>  75:02:12
+		  :END:
+			- **Logical argument** is the one determining the degree of truth of a statement called “conclusion”.
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “argument” ← “argue” ← French “arguer” ← Latin “arguere”: to make **reasoned** statements to prove or refute a proposition
+				- Additional meaning in English: disagreement, dispute, quarrel
+				  collapsed:: true
+					- The original Latin “arguere” and French “arguer” don't have this meaning.
+					- The spectrum of meaning:
+					  [Reasoning end:] argue that, argue for/against, argue on, argue (direct object), argue about, argue over, argue (intransitive), dispute, quarrel [:Quarreling end]
+						- “To argue (something)” is to give reasons for something, but not widely used.
+						- “To argue about (something)” is neutral, but more about dispute.
+					- In contrast to “argue”, “debate” orginally meant “fight over” but now means [formal argument](https://en.wikipedia.org/wiki/Debate).
+						- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “debate” ← French “débattre” = “de” (down) + Latin “battuere” (beat) = “beat down”
+					- “Debate” versus [“disputation”](https://en.wikipedia.org/wiki/Disputation): while both include formal arguments about a topic, their goals are different: Debate is to refute the opponent, whereas disputation is to understand ideas better and to get closer to the truth.
+				- Vietnamese:
+				  collapsed:: true
+					- “argument” (1): “lập luận”, “lý luận”, “lý lẽ”
+					- “argument” (2): “tranh cãi”; “quarrel” = “cãi vã”
+					- “debate”: “tranh luận”
+					- “disputation”: “thảo luận”
+			- Argument(s) of a function is/are the one(s) determining the result value of the function.
+				- A logical statement is just a Boolean function $P: X → \{⊤, ⊥\}$ where $x ∈ X$ is the argument.
+				- A function, [originally](https://en.wikipedia.org/wiki/History_of_the_function_concept) as a “container of variables and parameters” (“hàm”, 函), has (result) value determined by the values of the variables. That's why (independent) variable value(s) is/are the argument(s) of function.
+			- Argument of complex number $φ = \arg(z)$ is the one determining the complexity of the number.
+				- $z = r⋅\exp(i⋅φ) = r⋅e^{i⋅φ}$: beside constants $i, e$ and pararmeter $r$, the **argument** $φ$ is the one that determines how much “complex” $z$ is by the angular distance from the real axis.
+				- Because the modulus $r$ is already the normal (real) number, the phase $φ$ is the critical component for the complexity.
+				- Historically, astronomers had long ago used the term “argument” to indicate [the angle of the orbit plane](https://en.wikipedia.org/wiki/Argument_of_periapsis), which is the characteristic of the orbit.
+			- Ref:
+				- [Why We Use "Argument" In Describing Complex Angles](https://www.math.toronto.edu/mathnet/questionCorner/argument.html)
+				  > To the best of our knowledge, the word argument was originally used by astronomers when referring to certain angles associated with orbits. ([argument of pericenter](https://en.wikipedia.org/wiki/Argument_of_periapsis))
+		- Vietnamese phonemes
+		  id:: 6809e1ea-1518-4460-be26-62881c47287f
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-04-24 Thu 14:02:37]--[2025-04-24 Thu 15:52:03] =>  01:49:26
+		  :END:
+			- Ref: [IPA Charts with Audio](https://jbdowse.com/ipa/) ([basic version](https://jbdowse.com/old-ipa/))
+			- “đ” /ɗ/ → “d” /ɗ̠ʲ/ voiced [alveolo-palatal](https://en.wikipedia.org/wiki/Alveolo-palatal_consonant) implosive stop → /ʄ/ [voiced palatal implosive](https://en.wikipedia.org/wiki/Voiced_palatal_implosive) stop → /ˀj/ → /j/
+				- /ɗ̠ʲ/ appears in [Bade language](https://en.wikipedia.org/wiki/Bade_language) where it's also heard like /ˀj/.
+				- /ɗ̠ʲ/ appears in [Myene language](https://en.wikipedia.org/wiki/Myene_language) as a free variation of /dʒ/.
+				- /ɗ̠ʲ/ is like 디 /d̠ʲ/ in Korean, but nearer to /j/
+				- /ɗ̠ʲ/ is like д /dʲ/ in Russian, but nearer to /j/
+				- /ʄ/ is in [Jinhui [金匯]](https://en.wikipedia.org/wiki/Jinhui_dialect) pronunciation of 家, as well as many other languages in Africa, [Sindhi/Saraiki language](https://en.wikipedia.org/wiki/Saraiki_language), etc.
+				- /ˀj/ is pre-glottalized version of /j/, and appears in some languages in South East Asia.
+					- [Lahu (La Hủ) language](https://en.wikipedia.org/wiki/Lahu_language) around China, Thailand, Myanmar, Vietnam and Laos.
+					- [A Description of Kmhmu’ Lao Script-Based Orthography](http://www.sealang.net/mks/mksj42.pdf)
+				- Video [IPA 164 Voiced Palatal Implosive Stop ʄ](https://youtu.be/27WGLJCPWIk)
+				  collapsed:: true
+					- {{video https://youtu.be/27WGLJCPWIk}}
+			- “v” /v/ → /ʋ/ → /bj/ → /βj/ → /j/
+				- [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) is between /v/ and /w/
+					- ((6809ac03-30d3-4ba7-8b9b-17e13732f9dd))
 		- “wanting” = “lacking” ↔ “distress” = “overwhelming stress” = “anger” = “excessive pressure”
 		  id:: 67cea2ee-5f77-4576-8c1c-9e31d9b822c9
 		  collapsed:: true
