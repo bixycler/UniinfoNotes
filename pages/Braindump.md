@@ -679,7 +679,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 					  corresponding **concepts** are the Trinion and the Ω-thread.
 					- The whole Ω-thread is an instance of the Trinion, hence a concrete thing, i.e. a "being", but its partial chunks (segments called simply "threads") can represent anything, including the abstract concepts.
 					- Each Ω-thread runs through the whole Ω (Omnifold = Universe) in a particular way corresponding to a particular configuration/view of the Universe from a particular view point.
-					- ⇒ Ported to this discussion: ((6819f75f-1bab-4cc7-9316-228d14aa80d9))
+					- ⇒ Ported to these discussions:
+						- ((6819f75f-1bab-4cc7-9316-228d14aa80d9))
+						- ((6819fb74-f8fc-4608-a75d-7fbe76d3af27))
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
 		  :LOGBOOK:

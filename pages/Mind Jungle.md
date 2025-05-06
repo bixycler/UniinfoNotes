@@ -2044,6 +2044,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is the number resulting from the [measurement](((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))), the rage of the operation, the image of projection. This number is non-material and purely a mental construction by the intent.
 		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- Sustent ($c$, $i$) - Extent ($e$)
+			  id:: 681826ac-63f5-4c4f-9c58-0fe3e922d758
 			- Form ($i$, $e$) - Content ($c$)
 				- The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$.
 			- Extensive ($e$, $c$) - Intensive ($i$)
@@ -2548,10 +2549,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) is the umbrella term for both ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), as the theoretical aspect, and ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- Nuances: Even though the name ((66537a41-f229-4891-803e-828573eb44f3)) hints at the notion that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
+			- Nuance: Even though the name ((66537a41-f229-4891-803e-828573eb44f3)) suggests the notion that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
 			  id:: 6819f75f-1bab-4cc7-9316-228d14aa80d9
 			  collapsed:: true
-				-
+				- The “universal substance underlying everything” is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) which captures not only information, i.e. ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), but also the underlying substance, i.e. [sustent](((681826ac-63f5-4c4f-9c58-0fe3e922d758))).
 	- ## Unïnfo Theory
 	  id:: 669dfc9f-b5e2-448a-b6f4-be13c5bfbccb
 	  collapsed:: true
@@ -3439,6 +3440,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ac41d1-09e7-44b1-9290-ea7d5f02a817))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is the representation of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) in mathematical language, where everything is represented by the ((66ab75a1-f4a0-4bab-a002-8e573546623a)). ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- Nuances: Even though the name ((66ac41d1-09e7-44b1-9290-ea7d5f02a817)) hints at the
+			  id:: 6819fb74-f8fc-4608-a75d-7fbe76d3af27
 		- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) operations
 		  id:: 67a963d9-e7d3-4e46-a608-24059d730f4a
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a963d9-e7d3-4e46-a608-24059d730f4a)) are ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s of ((66ab75a1-f4a0-4bab-a002-8e573546623a)), including basic operations like ((67a98760-71fa-4033-9c42-f3025d632d04)), ((67a9876d-03ee-4f1f-85be-619fb54c8bc6)), ....
