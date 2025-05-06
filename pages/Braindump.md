@@ -670,15 +670,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 					  :LOGBOOK:
 					  CLOCK: [2025-05-06 Tue 11:38:13]--[2025-05-06 Tue 11:38:19] =>  00:00:06
 					  :END:
-				- DOING Unïnfo can also capture the vague notion that "everything is information", which is _not a formal statement_ but can be sensed throughout the Unïnfo Theory.
+				- DOING **Unïnfo** can also capture the vague notion that "*everything is information*", which is _not a formal statement_ but can be sensed throughout the Unïnfo Theory.
 				  :LOGBOOK:
 				  CLOCK: [2025-05-06 Tue 11:54:34]
 				  :END:
-					- That vague notion of the "universal information underlying everything" is formally modeled as the Ω-thread, which is again usually vaguely referred to as the "Unithread"! 😊
-					- Formally, both Unïnfo and Unithread are the names of theories.
-					- Formal concepts are the Trinion and the Ω-thread.
+					- That vague notion of the "universal information underlying everything" is formally modeled as the **Ω-thread**, which is again usually vaguely referred to as the "**Unithread**"! 😊
+					- Formally, both Unïnfo and Unithread are the names of **theories**.
+					- Formal **concepts** are the Trinion and the Ω-thread.
 					- The whole Ω-thread is an instance of the Trinion, hence a concrete thing, i.e. a "being", but its partial chunks (segments called simply "threads") can represent anything, including the abstract concepts.
-					- Each Ω-thread runs through the whole Ω (Omnifold = Universe) in a particular way corresponding to a particular configuration of the Universe.
+					- Each Ω-thread runs through the whole Ω (Omnifold = Universe) in a particular way corresponding to a particular configuration/view of the Universe from a particular view point.
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
 		  :LOGBOOK:
