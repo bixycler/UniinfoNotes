@@ -649,20 +649,26 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  :END:
 					- Trinion (metaphysical) ~ Ω-thread (mathematical) ~ uninet (computer implementation)
 					- In the future, if there is a need for a theory of uninet, it may be called "Uninet Theory", but now we just have uninets as instances of the Trinion implemented on computer.
-				- DOING Trinion, obop and qualiton are easily confused with each other.
+				- DONE Trinion, obop and qualiton are easily confused with each other.
 				  id:: 68197c38-55ae-4c08-a272-a62ae7fa7473
 				  :LOGBOOK:
-				  CLOCK: [2025-05-06 Tue 10:19:22]
+				  CLOCK: [2025-05-06 Tue 10:19:22]--[2025-05-06 Tue 11:53:58] =>  01:34:36
 				  :END:
 					- DONE Obop being & qualiton being are, just like all beings, instances of the Trinion.
 					- DONE Obop corresponds to the Equal component of the Trinion, and operates the Trinion using the CIE equation.
-					- Qualiton is to quantum in Unithread as intent is to extent in the CIE formula. It's the "elementary particle" of intent/quality, hence the "smallest" instances of the Trinion.
+					- DONE Qualiton is to quantum in Unithread as intent is to extent in the CIE formula. It's the "elementary particle" of intent/quality, hence the "smallest" instances of the Trinion.
+					  :LOGBOOK:
+					  CLOCK: [2025-05-06 Tue 11:53:48]--[2025-05-06 Tue 11:53:50] =>  00:00:02
+					  :END:
 					- DONE In brief, Trinion -[Equal]-> obop -[intent]-> qualiton
 					- DONE Furthermore, the qualiton in uninet is called "autonoton".
 					  :LOGBOOK:
 					  CLOCK: [2025-05-06 Tue 11:38:13]--[2025-05-06 Tue 11:38:19] =>  00:00:06
 					  :END:
-				- Unïnfo can also capture the vague notion that "everything is information", which is _not a formal statement_ but can be sensed throughout the Unïnfo Theory.
+				- DOING Unïnfo can also capture the vague notion that "everything is information", which is _not a formal statement_ but can be sensed throughout the Unïnfo Theory.
+				  :LOGBOOK:
+				  CLOCK: [2025-05-06 Tue 11:54:34]
+				  :END:
 					- That vague notion of the "universal information underlying everything" is formally modeled as the Ω-thread, which is again usually vaguely referred to as the "Unithread"! 😊
 					- Formally, both Unïnfo and Unithread are the names of theories.
 					- Formal concepts are the Trinion and the Ω-thread.
