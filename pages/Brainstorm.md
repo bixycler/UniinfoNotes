@@ -70,6 +70,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- **Transformative Technique**: This flip can be applied as a mindset—viewing a "closing" (e.g., a failure or end) not as a negative end but as a convergence point that prepares for a new "opening" (e.g., a fresh start or opportunity).
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
+		- ...
 		- DOING From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
 		  collapsed:: true
 		  :LOGBOOK:
@@ -181,7 +182,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  $2MN = AP_A = BP_B = CP_C = DP_D$ = deviation from parallelogram
 				- ⇒ Specialized: [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem): $AB^2 + BC^2 = AC^2$
 				  for right angle $∠ABC = 90°$
-		- ...
 		- TODO 0 sum = neutralization of positive and negative 
 		  id:: 678df0f0-20d2-4995-bfc2-0b953970469d
 		  collapsed:: true
