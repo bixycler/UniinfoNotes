@@ -948,7 +948,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- That plot was added to Wikipedia page of Pascal's triangle at [17:07, 11 March 2011](https://en.wikipedia.org/w/index.php?title=Pascal%27s_triangle&oldid=418321493)‎, but then removed and replaced with the [animation](https://en.wikipedia.org/wiki/Pascal%27s_triangle#/media/File:Pascal's_Triangle_animated_binary_rows.gif).
 				  collapsed:: true
 					- ![Pascal-Triangle-animated-binary-rows.gif](../assets/geometry/Pascal-Triangle-animated-binary-rows.gif)
-		- DOING 3 ways to extend dimensions: volume, radius, phase
+		- 3 ways to extend dimensions: volume, radius, phase
 		  id:: 6716110c-1b10-41cc-9e26-c76ef782b6a3
 		  :LOGBOOK:
 		  CLOCK: [2024-08-12 Mon 08:35:03]

@@ -629,8 +629,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- Scrolling up my Saved Messages on Telegram, i see the notes about [NotebookLM podcasts](((681826ae-d97f-4801-985e-ce9ff423e4a0))) and about updates of [[Mind Jungle]] suggested from these podcasts.
+		  id:: 68196fef-50c2-475c-bcaa-6dce8b6db525
 		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-06 Tue 10:07:27]
+		  :END:
 			- DONE Update story because i forgot to store the [chosen podcast](((68197171-5191-413f-a3a7-67262aaeb64b))) into the story of NotebookLM.
+			  id:: 68197b16-44b5-4e19-b2bb-3965715a654b
 			  :LOGBOOK:
 			  CLOCK: [2025-05-06 Tue 10:07:27]--[2025-05-06 Tue 10:07:29] =>  00:00:02
 			  :END:
