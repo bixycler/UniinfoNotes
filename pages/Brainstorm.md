@@ -78,12 +78,12 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Japanese) = 自 (self) + 由 (cause, from) originally meant “caused by oneself” (“do mình”) or generally “arising from oneself” (“từ mình”).
 				- In [Taoism](https://en.wikipedia.org/wiki/Taoism), 自由 is the liberated state of saints where all actions are taken placed naturally, spontaneously, detached from external constraints.
 				- In [Confucianism](https://en.wikipedia.org/wiki/Confucianism), 自由 is the result of self-cultivation such that all virtuous conduct and duty are done naturally by oneself, without being subject to external forces or authorities.
-				- 自在 also originally meant “caused by oneself” (“tại mình”) and [“at/in oneself”](https://en.wiktionary.org/wiki/being-in-itself) (“ở chỗ mình”), and now means “free, comfortable, at ease”.
-					- The idiom [自由自在](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1%E8%87%AA%E5%9C%A8) means “free and easy”, “effortless” which is also the meaning of 自然 and 無為.
+				- The idiom [自由自在](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1%E8%87%AA%E5%9C%A8) means “free and easy”, “effortless” which is also the meaning of 自然 and 無為.
+					- 自在 also originally meant “caused by oneself” (“tại mình”) and [“at/in oneself”](https://en.wiktionary.org/wiki/being-in-itself) (“ở chỗ mình”), and now means “free, comfortable, at ease”.
 					- [自然](https://en.wiktionary.org/wiki/%E8%87%AA%E7%84%B6) means [“selfly”](https://en.wikipedia.org/wiki/Ziran), “as it is”, hence “naturally”.
 						- Tao Te Ching, [Ch.25](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_25_(%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%94%E7%AB%A0)) ([DDK25](https://nhantu.net/TonGiao/DaoDucKinh/DDK25.htm)): 人法地，地法天，天法道，道法**自然**。
 					- [無為](https://en.wiktionary.org/wiki/%E7%84%A1%E7%82%BA) means [“no [forceful/intentional] action”](https://en.wikipedia.org/wiki/Wu_wei), hence “effortless”.
-						- Tao Te Ching, Ch.25:
+						- Tao Te Ching, [Ch.48](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)) ([DDK48](https://nhantu.net/TonGiao/DaoDucKinh/DDK48.htm)): 無為而無不為。
 			- 自由 was repurposed in the 1860s by [Fukuzawa Yukichi](https://en.wikipedia.org/wiki/Fukuzawa_Yukichi) as a translation of English [“freedom”](https://en.wiktionary.org/wiki/freedom#English) or “liberty”, as an extension of the original meaning: “freedom to act according to one's own thoughts, without restriction”.
 			- Some Western philosophers like Nietzsche, Sartre also define “freedom” in a very Eastern way.
 				- Nietzsche defines having a sense of freedom with being responsible for one's own life.
