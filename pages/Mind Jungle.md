@@ -2548,7 +2548,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) is the umbrella term for both ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), as the theoretical aspect, and ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- Even though the name ((66537a41-f229-4891-803e-828573eb44f3)) hints at the notion that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
+			- Nuances: Even though the name ((66537a41-f229-4891-803e-828573eb44f3)) hints at the notion that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
+			  id:: 6819f75f-1bab-4cc7-9316-228d14aa80d9
+			  collapsed:: true
+				-
 	- ## Unïnfo Theory
 	  id:: 669dfc9f-b5e2-448a-b6f4-be13c5bfbccb
 	  collapsed:: true
@@ -3432,7 +3435,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d))
-		- **Unithread**
+		- Unithread
 		  id:: 66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ac41d1-09e7-44b1-9290-ea7d5f02a817))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is the representation of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) in mathematical language, where everything is represented by the ((66ab75a1-f4a0-4bab-a002-8e573546623a)). ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
