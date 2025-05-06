@@ -169,7 +169,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- ![zen-O-even-longer-monologue.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-O-even-longer-monologue.jpg)
 								- ![zen-Q-full-page-of-monologue.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-Q-full-page-of-monologue.jpg)
 				- With breathing techniques, i should train to go up and down the abyss, to smoothly switch between circles of different curvatures.
-				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
+				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the [most basic operation](((67a98760-71fa-4033-9c42-f3025d632d04))) in Unithread
 				  id:: 67849429-a90c-45a9-a6ae-dcdd61f7580f
 					- Etymology: “[traverse](https://en.wiktionary.org/wiki/traverse)” ← Latin “[traversare](https://en.wiktionary.org/wiki/traversare)” was the [vulgar version of “trānsversāre”](https://www.etymonline.com/search?q=traverse) ← “[trānsversus](https://en.wiktionary.org/wiki/transversus)” → “[transverse](https://en.wiktionary.org/wiki/transverse)”
 					  id:: 678b72d3-073a-4763-a49f-5233a3d86614
