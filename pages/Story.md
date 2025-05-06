@@ -348,12 +348,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  collapsed:: true
 							- {{video https://youtu.be/FuhvgdXi-FI}}
 						- Original audio: ![Unïnfo Notes full - overview 2025-02-02.wav](../assets/Will/story/2025-02/Unïnfo Notes full - overview 2025-02-02.wav)
-						- Transcript extracted from the audio: ![Unïnfo Notes full - overview 2025-02-02.srt.txt](../assets/Will/story/2025-02/Unïnfo Notes full - overview 2025-02-02.srt.txt)
+						- Transcript extracted from the audio: [Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt](../assets/Will/story/2025-02/Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt)
+							- Transcript joined for displaying on video: [Unïnfo Notes Full - Overview 2025-02-02 (en-US) joined.srt](../assets/Will/story/2025-02/Unïnfo Notes Full - Overview 2025-02-02 (en-US) joined.srt)
 				- I've tried some ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
 				- Currently, ((67a71016-4588-4b2f-8c56-90701528d94d)) is most appropriate for my researches.
 				  id:: 67a71016-d530-4b48-bfcc-495d72b0bf86
 			- The conflict between Mr. Báu's and monks in Minh Tuệ's group
 			  id:: 67a5faa3-c64c-48f7-8b3f-a5311714110f
+			  collapsed:: true
 				- Với nghiệp công an, làm tiến sỹ tâm lý học tội phạm, anh Báu đã quản lý đoàn một cách chặt chẽ, ban đầu (đoạn đường Lào) khá nghiêm khắc với nhiều nỗi lo sợ.
 				- Khi sang Thái Lan thì anh Báu đã mềm mỏng và thoải mái hơn nhiều, nhưng các sư (cả thầy Minh Tuệ) thì vẫn có nhiều thành kiến với anh.
 				- Đỉnh điểm là trước Tết với các sự kiện căng thẳng giữa anh Báu với sư Minh Tạng và vài sư nữa.
