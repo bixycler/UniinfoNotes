@@ -58,18 +58,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Ref:
 				- [Why We Use "Argument" In Describing Complex Angles](https://www.math.toronto.edu/mathnet/questionCorner/argument.html)
 				  > To the best of our knowledge, the word argument was originally used by astronomers when referring to certain angles associated with orbits. ([argument of pericenter](https://en.wikipedia.org/wiki/Argument_of_periapsis))
-	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
-	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
-		- DOING Turning negativity to positivity through the etymology of “occation”
+		- Turning negativity to positivity through the etymology of “occation” ← “occidō” (fall down)
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-05-06 Tue 12:47:35]
+		  CLOCK: [2025-05-06 Tue 12:47:35]--[2025-05-06 Tue 13:08:23] =>  00:20:48
 		  :END:
-			- Etymology: English [“occation”](https://en.wiktionary.org/wiki/occasion#English) (opportunity) ← Latin [“occasio”](https://en.wiktionary.org/wiki/occasio#Latin) (opportunity, right time) ← Latin [“occāsus”](https://en.wiktionary.org/wiki/occasus#Latin) ([Sun] setting) ← Latin [“occidō”](https://en.wiktionary.org/wiki/occido#Latin) (fall down, [Sun] set down, die, pass away, be lost/ruined)
-			- **Negative to Positive Flip in Etymology**: From "occidō" with negative senses (down, decline, death) to "occasio" with positive sense (opportunity).
+			- **Etymology**: English [“occation”](https://en.wiktionary.org/wiki/occasion#English) (opportunity) ← Latin [“occasio”](https://en.wiktionary.org/wiki/occasio#Latin) (opportunity, right time) ← Latin [“occāsus”](https://en.wiktionary.org/wiki/occasus#Latin) ([Sun] setting) ← Latin [“occidō”](https://en.wiktionary.org/wiki/occido#Latin) (fall down, [Sun] set down, die, pass away, be lost/ruined)
+			- **Negative to Positive Flip in Etymology**: From "occidō" with negative senses (down, decline, death), it has been transformed to "occasio" with positive sense (opportunity).
 			- **Perspective Flip**: Something "falling from heaven" is a good opportunity for humans down on Earth. The closing outside, like a black hole or a closing of a day, is the opening inside, like a white hole or an opening of a night.
-			- **Convergence for Explosion**: The closing isn’t just a negative end (death, decline); it’s a convergence of conditions, like a sunset or a black hole collapsing externally, that sets the stage for an "explosion" of opportunity, like a sunrise or a white hole opening internally, a preparation for new beginnings.
-			- **Etymonline’s Route – Closing to Opening**: The "falling together" (e.g., sunset as a "falling" juncture) flips from closing (end of day) to opening (new opportunities), not as an end but a transition—like a long night leading to sunrise, preparing for new actions.
+			- **Convergence for Explosion**: The closing isn’t just a negative end (death, decline); it’s a convergence of conditions, like a sunset or a black hole collapsing externally, that sets the stage for an "explosion" of opportunity, like a sunrise or a white hole opening internally, a preparation for new beginnings (reborn, germination).
+			- **Transformative Technique**: This flip can be applied as a mindset—viewing a "closing" (e.g., a failure or end) not as a negative end but as a convergence point that prepares for a new "opening" (e.g., a fresh start or opportunity).
+	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
+	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
+		- DOING From the Eastern 自然 “tự do” to the Western “freedom”
+		  :LOGBOOK:
+		  CLOCK: [2025-05-06 Tue 13:15:54]
+		  :END:
+			-
 		- DOING [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
