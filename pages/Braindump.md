@@ -674,12 +674,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  :LOGBOOK:
 				  CLOCK: [2025-05-06 Tue 11:54:34]
 				  :END:
-					- That vague notion of the "universal information underlying everything" is formally modeled as the **Ω-thread**, which is again usually vaguely referred to as the "**Unithread**"! 😊
-					- Formally, both Unïnfo and Unithread are the names of **theories** whose 
+					- DONE That vague notion of the "universal information" is actually the "universal substance underlying everything" formally modeled as the **Ω-thread**, which is again usually vaguely referred to as the "**Unithread**"! 😊
+						- Ω-thread contains not only information (extent) but also sustent.
+					- DONE Formally, both Unïnfo and Unithread are the names of **theories** whose 
 					  corresponding **concepts** are the Trinion and the Ω-thread.
+					- Aready captured in the
 					- The whole Ω-thread is an instance of the Trinion, hence a concrete thing, i.e. a "being", but its partial chunks (segments called simply "threads") can represent anything, including the abstract concepts.
 					- Each Ω-thread runs through the whole Ω (Omnifold = Universe) in a particular way corresponding to a particular configuration/view of the Universe from a particular view point.
-					- ⇒ Ported to these discussions:
+					- ⇒ Ported to these notes:
 						- ((6819f75f-1bab-4cc7-9316-228d14aa80d9))
 						- ((6819fb74-f8fc-4608-a75d-7fbe76d3af27))
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.

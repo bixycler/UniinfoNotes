@@ -2553,6 +2553,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6819f75f-1bab-4cc7-9316-228d14aa80d9
 			  collapsed:: true
 				- The “universal substance underlying everything” is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) which captures not only information, i.e. ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), but also the underlying [sustent](((681826ac-63f5-4c4f-9c58-0fe3e922d758))) that carries information.
+				- The whole Ω-thread is an instance of the Trinion, hence a concrete thing, i.e. a "being", but its partial chunks (segments called simply "threads") can represent anything, including the abstract concepts.
 	- ## Unïnfo Theory
 	  id:: 669dfc9f-b5e2-448a-b6f4-be13c5bfbccb
 	  collapsed:: true
@@ -3404,6 +3405,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 67a17ea8-2d20-45fa-9fe6-e998541aa3a5
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab75a1-f4a0-4bab-a002-8e573546623a))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory. Each Ω-thread is an instance of the Trinion, which can be relaxed into a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), and can be folded into the ((675c03d8-3185-41a8-9f98-e869fabec793)) which includes all possible Ω-threads. Ω-thread corresponds to a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology) in topology. A part (segment) of an Ω-thread is simply called a “**thread**”.
+			  id:: 681826ac-5a8d-4240-95fd-183e03b9ef66
 				- DOING Similar to the ((6772a6cd-771f-4f24-9c3a-39c442234be5)),  ((678e2046-54ac-4284-865d-6f3e38f589a1)) ...
 				  :LOGBOOK:
 				  CLOCK: [2025-01-20 Mon 20:56:58]
@@ -3440,9 +3442,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ac41d1-09e7-44b1-9290-ea7d5f02a817))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is the representation of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) in mathematical language, where everything is represented by the ((66ab75a1-f4a0-4bab-a002-8e573546623a)). ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
-		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- Naming : Even though the name ((66ac41d1-09e7-44b1-9290-ea7d5f02a817)) hints at the “universal substance underlying everything”, that substance is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), while the names “Universal Thread” and “Unithread” are preserved to indicate the theory about the Ω-thread.
+			- Clarification of names: Even though the name ((66ac41d1-09e7-44b1-9290-ea7d5f02a817)) hints at the “universal substance underlying everything”, that substance is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), while the names “Universal Thread” and “Unithread” are preserved to indicate the theory about the Ω-thread.
 			  id:: 6819fb74-f8fc-4608-a75d-7fbe76d3af27
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) operations
 		  id:: 67a963d9-e7d3-4e46-a608-24059d730f4a
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a963d9-e7d3-4e46-a608-24059d730f4a)) are ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s of ((66ab75a1-f4a0-4bab-a002-8e573546623a)), including basic operations like ((67a98760-71fa-4033-9c42-f3025d632d04)), ((67a9876d-03ee-4f1f-85be-619fb54c8bc6)), ....
