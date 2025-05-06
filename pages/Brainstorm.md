@@ -75,8 +75,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-05-06 Tue 13:15:54]
 		  :END:
-			- [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Japanese) = 自 (self) + 由 (cause, from) originally meant “caused by oneself” or generally “arising from oneself”.
-				-
+			- [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Japanese) = 自 (self) + 由 (cause, from) originally meant “caused by oneself” () or generally “arising from oneself”.
+				- 自在
 			- 自由 was repurposed in the 1860s by [Fukuzawa Yukichi](https://en.wikipedia.org/wiki/Fukuzawa_Yukichi) as a translation of English [“freedom”](https://en.wiktionary.org/wiki/freedom#English) or “liberty”, as an extension of the original meaning: “freedom to act according to one's own thoughts, without restriction”.
 			- Some Western philosophers like Nietzsche, Sartre also define “freedom” in a very Eastern way.
 				- Nietzsche defines having a sense of freedom with being responsible for one's own life.
