@@ -1838,7 +1838,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- obop being
 			  id:: 66f3c6a9-1486-46de-92fe-75aaeaf67834
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is, just like all beings, an instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) role of .
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is an instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in the role of an ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)).
 		- seer-doer
 		  id:: 5d7a0798-907d-46b7-8481-99d3be30de9e
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
@@ -2561,9 +2561,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 	  ((66f3d561-424a-4e1d-be55-98ac39c48502)) ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) ((66f3d5ca-a982-4d12-b307-fd4812adeb3b))
 	  ○ = ↑
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), every concrete thing, i.e. [being](((66f3b5e5-496a-4545-be7a-b1df2d94bd11))), is made of three components ((66f3d561-424a-4e1d-be55-98ac39c48502)),  ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) and ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) which are described in the [three postulates](((66f3d61c-35d0-46ae-9786-752af40e64c4))). Corresponding to the three components, there are [three intrinsics](((66f3e0be-7d8c-45d6-92c3-6bad456555c9))) of the _static_, the _dynamic_ and the _balance_, which show the ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), every concrete thing, i.e. ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), is made of ((66f3d4a2-375f-4098-9228-66c611f0da90)): Circle, Arrow and Equal. These componets are described in the [three postulates](((66f3d61c-35d0-46ae-9786-752af40e64c4))). Corresponding to the three components, there are [three intrinsics](((66f3e0be-7d8c-45d6-92c3-6bad456555c9))) of the _static_, the _dynamic_ and the _balance_, which show the ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Trinion” is pronounced “tree-nion” /ˈtrɪnjən/.
-		- Three components of ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
+		- Three components of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 66f3d4a2-375f-4098-9228-66c611f0da90
 		  collapsed:: true
 			- Circle
@@ -2590,7 +2590,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The equation “Circle Equals Arrow” is both,
 							- the **equivalence principle** of the macrocosm (Universe), written with the _static equal_ ⟪○ = ↑⟫, and
 							- the **differential equation** of the microcosm (Trinion), written with the _dynamic equal_ ⟪○ ⇌ ↑⟫.
-		- Three [postulates](((66f3cf07-4be5-4a50-9d99-b190b60f6ffa))) of ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
+		- Three [postulates](((66f3cf07-4be5-4a50-9d99-b190b60f6ffa))) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 66f3d61c-35d0-46ae-9786-752af40e64c4
 			- **Postulate of Existence**
 			  id:: 66f3d644-782c-4f33-bd5c-db6e0a2d447a
@@ -2601,7 +2601,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- **Postulate of Unification**
 			  id:: c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69
 			  The Circle and the Arrow are two aspects of _the same_ being called ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (⊜). This equivalence is called the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) (`=`). And when the two former components (○, ↑) meet each other, they _recognize_ each other. That recognition is denoted by the _equation_ ⟪○ = ↑⟫.
-		- Three [intrinsics](((66f3e170-dc4b-45ea-8720-de4580a30d01))) of ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
+		- Three [intrinsics](((66f3e170-dc4b-45ea-8720-de4580a30d01))) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 66f3e0be-7d8c-45d6-92c3-6bad456555c9
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Corresponding to Circle, Arrow and Equal, there are three intrinsics of [the static](((66f3e66a-8afb-4b20-bf85-111bc4aee09c))), [the dynamic](((66f3e588-9094-45af-9dff-2225c3ac39ab))) and [the balance](((a95f4693-fe48-4a60-b1e3-5897a40efc5a))), respectively.
