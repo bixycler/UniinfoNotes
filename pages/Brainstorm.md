@@ -70,14 +70,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- **Transformative Technique**: This flip can be applied as a mindset—viewing a "closing" (e.g., a failure or end) not as a negative end but as a convergence point that prepares for a new "opening" (e.g., a fresh start or opportunity).
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
-		- DOING From the Eastern 自由 “tự do” to the Western “freedom”
+		- DOING From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-06 Tue 13:15:54]
 		  :END:
 			- [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Japanese) = 自 (self) + 由 (cause, from) originally meant “caused by oneself” (“do mình”) or generally “arising from oneself” (“từ mình”).
 				- 自在 also originally meant “caused by oneself” (“tại mình”) and [“at/in oneself”](https://en.wiktionary.org/wiki/being-in-itself) (“ở chỗ mình”), and now means “free, comfortable, at ease”.
-					- The idiom [自由自在](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1%E8%87%AA%E5%9C%A8) means “free and easy”, “effortless” = 自然
+					- The idiom [自由自在](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1%E8%87%AA%E5%9C%A8) means “free and easy”, “effortless” = 無為 自然
 			- 自由 was repurposed in the 1860s by [Fukuzawa Yukichi](https://en.wikipedia.org/wiki/Fukuzawa_Yukichi) as a translation of English [“freedom”](https://en.wiktionary.org/wiki/freedom#English) or “liberty”, as an extension of the original meaning: “freedom to act according to one's own thoughts, without restriction”.
 			- Some Western philosophers like Nietzsche, Sartre also define “freedom” in a very Eastern way.
 				- Nietzsche defines having a sense of freedom with being responsible for one's own life.
