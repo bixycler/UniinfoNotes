@@ -3404,7 +3404,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- omnithread
 			  id:: 67a17ea8-2d20-45fa-9fe6-e998541aa3a5
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab75a1-f4a0-4bab-a002-8e573546623a))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory. Each Ω-thread is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the Trinion, which can be relaxed into a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), and can be folded into the ((675c03d8-3185-41a8-9f98-e869fabec793)) which includes all possible Ω-threads. Ω-thread corresponds to a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology) in topology. A part (segment) of an Ω-thread, simply called a “**thread**”, captures abstract concepts and information, i.e. ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), in contrast to the whole Ω-thread which is a concrete ((678e1c3f-6202-45aa-8527-f4bdad9927b9)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory. Each Ω-thread is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the Trinion, which can be relaxed into a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), and can be folded into the ((675c03d8-3185-41a8-9f98-e869fabec793)) which includes all possible Ω-threads. Ω-thread corresponds to a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology) in topology. A part (segment) of an Ω-thread, simply called a “**thread**”, captures an abstract concept or information, i.e. ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), in contrast to the whole Ω-thread which is a concrete ((678e1c3f-6202-45aa-8527-f4bdad9927b9)).
 			  id:: 681826ac-5a8d-4240-95fd-183e03b9ef66
 				- DOING Similar to the ((6772a6cd-771f-4f24-9c3a-39c442234be5)),  ((678e2046-54ac-4284-865d-6f3e38f589a1)) ...
 				  :LOGBOOK:
@@ -3548,7 +3548,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :END:
 					- instance
 					  id:: 66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) is a concrete ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) activated from an abstract
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) is a concrete ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) activated by another being from an abstract model. We say that “the instance of a model is instantiated from that model.”
 			- ### conscious circle
 			  id:: 66ea5808-8452-4ae9-8eb8-2ef64004bfcf
 			  :LOGBOOK:
