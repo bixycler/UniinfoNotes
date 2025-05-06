@@ -684,7 +684,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 						- Each Ω-thread runs through the whole Ω (Omnifold = Universe) in a particular way corresponding to a particular configuration/view of the Universe from a particular view point.
 	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- These 2 days after 30-4 & 1-5 holidays are used up for cleaning stuff... still no time to note about the holidays... while the company works are calling up. 😕
+		- These 2 days after 30-4 & 1-5 holidays have been used up for cleaning stuff... still no time to note about the holidays... while the company works are calling up. 😕
 		  :LOGBOOK:
 		  CLOCK: [2025-05-06 Tue 20:15:36]
 		  :END:
