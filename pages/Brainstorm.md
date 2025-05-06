@@ -70,11 +70,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- **Transformative Technique**: This flip can be applied as a mindset—viewing a "closing" (e.g., a failure or end) not as a negative end but as a convergence point that prepares for a new "opening" (e.g., a fresh start or opportunity).
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
-		- DOING From the Eastern 自然 “tự do” to the Western “freedom”
+		- DOING From the Eastern 自由 “tự do” to the Western “freedom”
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-06 Tue 13:15:54]
 		  :END:
-			-
+			- [自由](https://en.wiktionary.org/wiki/%E8%87%AA%E7%94%B1#Japanese) = 自 (self) + 由 (cause, from) originally meant “caused by oneself” or generally “arising from oneself”.
+			- 自由 was repurposed in the 1860s by [Fukuzawa Yukichi](https://en.wikipedia.org/wiki/Fukuzawa_Yukichi) as a translation of English [“freedom”](https://en.wiktionary.org/wiki/freedom#English) or “liberty”, as an extension of the original meaning: “freedom to act according to one's own thoughts, without restriction”.
+			- Some Western philosophers like Nietzsche, Sartre also define “freedom” in a very Eastern way.
+				-
 		- DOING [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
