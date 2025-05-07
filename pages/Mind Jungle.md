@@ -4098,6 +4098,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :END:
 							- While the [overview effect](https://en.wikipedia.org/wiki/Overview_effect) brings various positive emotions and attitudes, it also creates the delusion of a perfect world due to the masking of all complexity and ugliness down there via abstraction. This delusion is a kind of cognitive bias called [halo effect](https://en.wikipedia.org/wiki/Halo_effect).
 							- That delusion is like a black hole sucking me strongly to the die-hard perfectionism.
+							-
 							- Negative aspects of the overview effect are alsow reported by astronauts.
 							  collapsed:: true
 								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
