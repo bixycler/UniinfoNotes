@@ -4095,8 +4095,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :LOGBOOK:
 						  CLOCK: [2025-05-07 Wed 16:15:31]
 						  :END:
-							- While the [overview effect](https://en.wikipedia.org/wiki/Overview_effect) brings various positive emotions and attitudes, it also creates dellusions due to the masking of all complexity and ugliness down there via abstraction.
+							- While the [overview effect](https://en.wikipedia.org/wiki/Overview_effect) brings various positive emotions and attitudes, it also creates the delusion of a perfect world due to the masking of all complexity and ugliness down there via abstraction.
+							- That delusion is like a black hole sucking me strongly to the die-hard perfectionism.
 							- Negative aspects of the overview effect are alsow reported by astronauts.
+							  collapsed:: true
 								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
 								- Seeing Earth as a “tiny, fragile ball” or even a [pale blue dot](https://en.wikipedia.org/wiki/Pale_Blue_Dot) can diminish personal concerns but also make individuals *feel __disconnected__ from everyday life*. Upon returning to Earth, the astronauts may struggle to reconcile their cosmic perspective, e.g. seeing borders as artificial, with mundane realities or societal divisions, e.g. borders, politics. This can lead to **frustration** or a sense of powerlessness on Earth, as shown by Apollo 14 astronaut Edgar Mitchell's [“drag a politician to space”](https://osl8.life/blog/understanding-the-overview-effect/).
 									- Edgar Mitchell:
