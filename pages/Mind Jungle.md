@@ -3530,7 +3530,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- In the future, if there is a need for a theory of uninet, it may be called "Uninet Theory", but now we just have uninets as instances of the Trinion implemented on computer.
 		- cognition
 		  collapsed:: true
-			- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960&h=720)
+			- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960)
 			- ### perceptual screen
 			  id:: 66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50
 			  :LOGBOOK:
