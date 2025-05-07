@@ -3531,7 +3531,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- cognition
 		  collapsed:: true
 			- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960&h=720)
-			- ### perception screen
+			- ### perceptual screen
 			  id:: 66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 12:23:24]
@@ -3570,13 +3570,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- world cone
 				  id:: 66ea8dfa-4dc4-4541-948b-be0e72a0bc8b
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dfa-4dc4-4541-948b-be0e72a0bc8b)) is the external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) in the shape of [worldview](https://en.wikipedia.org/wiki/Worldview) cone. Its peak is the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) containing objects in the present view of the subject. These objects are ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe))s of the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s which are activated and projected onto the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)). That means the ((66ea9505-9532-41ed-9f91-d4d8ddcaacc3)) is reflected across the perception screen to be the present cone, where the images of past cones on the screen are seen as forms of objects.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dfa-4dc4-4541-948b-be0e72a0bc8b)) is the external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) in the shape of [worldview](https://en.wikipedia.org/wiki/Worldview) cone. Its peak is the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) containing objects in the present view of the subject. These objects are ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe))s of the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s which are activated and projected onto the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)). That means the ((66ea9505-9532-41ed-9f91-d4d8ddcaacc3)) is reflected across the perceptual screen to be the present cone, where the images of past cones on the screen are seen as forms of objects.
 					- present cone
 					  id:: 66ea8e12-7c30-449b-9139-bfd8d82394d7
 					  is the peak of the ((66ea8dfa-4dc4-4541-948b-be0e72a0bc8b)). It's similar to the [saññā](https://en.wikipedia.org/wiki/Samjna_(concept)) (tưởng) in Buddhism.
 				- knowledge cone
 				  id:: 66ea8d84-c766-4c47-b06c-a0b57a530096
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8d84-c766-4c47-b06c-a0b57a530096)) is the internal world of the subject in the shape of a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) of concepts which is rooted at the subject's self concept. Its peak is the ((66ea9505-9532-41ed-9f91-d4d8ddcaacc3)) containing knowledge of the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)). At the root/summit, the subject's self extends a pinnacle called ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) poking into the present cone to take action and spreads its effect out to the external world via ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)). The changes of the subject's self image as well as objects on the perception screen are reflected back to the knowledge cone via ((66eaa550-4e1e-4126-8004-bf3cb8956829))s.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8d84-c766-4c47-b06c-a0b57a530096)) is the internal world of the subject in the shape of a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)) of concepts which is rooted at the subject's self concept. Its peak is the ((66ea9505-9532-41ed-9f91-d4d8ddcaacc3)) containing knowledge of the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)). At the root/summit, the subject's self extends a pinnacle called ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) poking into the present cone to take action and spreads its effect out to the external world via ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)). The changes of the subject's self image as well as objects on the perceptual screen are reflected back to the knowledge cone via ((66eaa550-4e1e-4126-8004-bf3cb8956829))s.
 					- past cone
 					  id:: 66ea8df3-d2f3-4856-b24a-5095dd285f9b
 					  is a peak of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)) based on a concept.
