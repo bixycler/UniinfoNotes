@@ -4090,12 +4090,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Unmindfulness of the illusion of the external signal makes it feel near outside while in fact it's near inside and very far outside. That's because the signal outside is just the image/shadow of the goal inside.
 								  collapsed:: true
 									- This discrepancy forces all of us to chase shadows from life to life.
-						- The downside of the “overview effect”
+						- The downside of the “overview effect”, as a psychonaut
 						  collapsed:: true
 						  :LOGBOOK:
 						  CLOCK: [2025-05-07 Wed 16:15:31]
 						  :END:
-							- While the [overview effect](https://en.wikipedia.org/wiki/Overview_effect) brings various positive emotions and attitudes, it also creates the delusion of a perfect world due to the masking of all complexity and ugliness down there via abstraction.
+							- While the [overview effect](https://en.wikipedia.org/wiki/Overview_effect) brings various positive emotions and attitudes, it also creates the delusion of a perfect world due to the masking of all complexity and ugliness down there via abstraction. This delusion is a kind of cognitive bias called [halo effect](https://en.wikipedia.org/wiki/Halo_effect).
 							- That delusion is like a black hole sucking me strongly to the die-hard perfectionism.
 							- Negative aspects of the overview effect are alsow reported by astronauts.
 							  collapsed:: true
