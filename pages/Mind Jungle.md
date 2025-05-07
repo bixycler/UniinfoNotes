@@ -399,6 +399,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
 					- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)).
+					  id:: 681826ad-768c-4671-b575-0d9f8ca64c6b
 					- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the ((66c810a0-9861-4787-bdcf-1378219332be)).
 					- Rising and falling air flows are **effect fluxes**, i.e. segments of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)).
 					- Blog post: [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
@@ -4102,6 +4103,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- That delusion is like a black hole sucking me strongly to the die-hard perfectionism.
 							- Looking inward, i see a “holistic core” deep inside which is a perfect circle: so round, so balanced, so equilibrated, so complete. This core is so hard and heavy, like the singularity of a black hole, that i see verything in this world is pulling toward it, and all forces returning forces.
 							  id:: 681b3ad7-d1b0-4c06-a4ea-385a4a9314e0
+							- ⇒ Solution: Let's sublimate that core to *restore the __empty center__*, i.e. the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)),
 							- Negative aspects of the overview effect are alsow reported by astronauts.
 							  collapsed:: true
 								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
