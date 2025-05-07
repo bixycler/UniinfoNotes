@@ -2549,7 +2549,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) is the umbrella term for both ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), as the theoretical aspect, and ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- Nuance: Even though the name ((66537a41-f229-4891-803e-828573eb44f3)) suggests the notion that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
+			- Nuance: Even though the name ((66537a41-f229-4891-803e-828573eb44f3)) alludes to the idea that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
 			  id:: 6819f75f-1bab-4cc7-9316-228d14aa80d9
 			  collapsed:: true
 				- The “universal substance underlying everything” is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) which captures not only information, i.e. ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), but also the underlying [sustent](((681826ac-63f5-4c4f-9c58-0fe3e922d758))) that carries information.
