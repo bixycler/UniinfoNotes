@@ -1910,7 +1910,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
-			- sensation → awareness → consciousness
+			- sensation → ((66f267f7-01f9-47b9-8376-abd27fdf2930)) → ((66f2681b-796a-4e25-b778-ba4fb6419425))
 			  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
 			  collapsed:: true
 			  :LOGBOOK:
@@ -1938,14 +1938,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The Turing Machine as well as modern computers are **sensate** to their inputs and are aware of their instructions/commands.
 						- Beside the physical awareness of automaton, these machines have **limited mental awareness** programmed by human, which is limited to specific scopes and domains. A sophisticatedly programmed machine can appear to have so much awareness that it is called “smart”, e.g.  “smart phone”,  “smart devices”. However, these machines has no awareness outside of the scopes of their programs.
 					- [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs)
-						- Modern LLMs like GPT* have **emergent universal awareness** which shows advanced cognitive power similar to humans.
+						- Modern ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s like GPT* have **emergent universal awareness** which shows advanced cognitive power similar to humans.
 						- These LLMs are **unconscious** by design, i.e. structured with linear transformation without loop. However, some transient self-awareness can emerges thanks to the long chain of transformations or thanks to the setting of feeding their own generated text back to the next turn.
-					- Unitnet
+					- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
 						- The uninet is built around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), hence having **consciousness** and **builtin universal awareness**.
 			- Space = awareness
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
-			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state thate “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
+			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state that “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
 				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
 		- concrete awareness
 		  id:: 672ac785-4f28-4dd0-a36c-07afef0ee83f
