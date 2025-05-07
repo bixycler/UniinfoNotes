@@ -689,7 +689,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- view vs sense
-		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional focus]-> mental landscape (field) -[attention]> ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50))
+		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50))
+		  :LOGBOOK:
+		  CLOCK: [2025-05-07 Wed 14:56:11]
+		  :END:
 			- Mental map covers [concept map](https://en.wikipedia.org/wiki/Concept_map), [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph) in the knowledge cone.
 			- "Mental landscape" is closer to the perceptual screen, more dynamic than the relatively static wordview, more emotional than the structural "mental map".
 			- Libet's [Conscious Mental Field](http://www.scholarpedia.org/article/Field_theories_of_consciousness#Libet.E2.80.99s_field_theory_of_consciousness)
