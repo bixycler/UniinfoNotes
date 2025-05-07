@@ -4103,6 +4103,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- That delusion is like a black hole sucking me strongly to the die-hard perfectionism.
 							- Looking inward, i see a “holistic core” deep inside which is a perfect circle: so round, so balanced, so equilibrated, so complete. This core is so hard and heavy, like the singularity of a black hole, that i see verything in this world is pulling toward it, and all forces returning forces.
 							  id:: 681b3ad7-d1b0-4c06-a4ea-385a4a9314e0
+								- This core should be a mental fixation, the result of karma accumulated throughout space and time.
 							- ⇒ Solution: Let's sublimate that core to *restore the __empty center__*, i.e. the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)),
 							- Negative aspects of the overview effect are alsow reported by astronauts.
 							  collapsed:: true
