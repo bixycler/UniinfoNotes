@@ -2552,6 +2552,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Nuance: Even though the name ((66537a41-f229-4891-803e-828573eb44f3)) alludes to the idea that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
 			  id:: 6819f75f-1bab-4cc7-9316-228d14aa80d9
 			  collapsed:: true
+				- The theory was named “Universal Information” simply because the author ((66536578-c4d3-43f1-b35c-bf71120f0570)) is an information scientist. At that time, he saw the hierarchy of visible matter as: mass > energy > information. That means “*every __visible__ thing is information*”.
+				- Later on, when studying the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory, he discovered the invisible sustents underlying the visible extents (information, energy, mass, charges, etc.)
 				- The “universal substance underlying everything” is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) which captures not only information, i.e. ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), but also the underlying [sustent](((681826ac-63f5-4c4f-9c58-0fe3e922d758))) that carries information.
 				- The whole Ω-thread is an instance of the Trinion, hence a concrete thing, i.e. a "being", but its partial chunks (segments called simply "threads") can represent anything, including the abstract concepts.
 	- ## Unïnfo Theory
@@ -3445,7 +3447,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ac41d1-09e7-44b1-9290-ea7d5f02a817))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is the representation of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) in mathematical language, where everything is represented by the ((66ab75a1-f4a0-4bab-a002-8e573546623a)). ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
-		- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Even though the name ((66ac41d1-09e7-44b1-9290-ea7d5f02a817)) hints at the “universal substance underlying everything”, that substance is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), while the names “Universal Thread” and “Unithread” are preserved to indicate the theory about the Ω-thread.
+		- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Even though the name ((66ac41d1-09e7-44b1-9290-ea7d5f02a817)) hints at the “universal substance underlying everything”, that substance is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), while the names “Universal Thread” and “Unithread” are preserved to indicate the *__theory__ about the Ω-thread*.
 		  id:: 6819fb74-f8fc-4608-a75d-7fbe76d3af27
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) operations
@@ -3727,7 +3729,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Brainstorming
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((665c92d1-565b-4911-a706-b32af429c3aa)) is a thinking technique to spontaneously dump all ideas out quickly without careful organizing, resulting [brainstorms](https://en.wiktionary.org/wiki/brainstorm#Noun). Compared to ((6667bf32-ab6a-4d64-842d-45d49137e694)), ((665c92d1-565b-4911-a706-b32af429c3aa)) is more about ideas about specific topics instead of ((6773e4f5-22e4-4628-889f-e8c757fa77a0)).
-	- ## Will LE
+	- ## Will LÊ
 	  id:: 66536578-c4d3-43f1-b35c-bf71120f0570
 	  collapsed:: true
 		- Vietnamese name: LÊ Xuân Định
