@@ -692,6 +692,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-05-07 Wed 17:42:22]
 		  :END:
+			- ((681b4678-686a-4d99-9163-6f60e0b30d2c))
 		- view vs sense
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
 		  :LOGBOOK:
