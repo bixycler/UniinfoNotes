@@ -4095,7 +4095,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :LOGBOOK:
 						  CLOCK: [2025-05-07 Wed 16:15:31]
 						  :END:
-							- While the [overview effect](https://en.wikipedia.org/wiki/Overview_effect) brings various positive emotions and attitudes, it also creates dellusion due to the masking of all complexity
+							- While the [overview effect](https://en.wikipedia.org/wiki/Overview_effect) brings various positive emotions and attitudes, it also creates dellusions due to the masking of all complexity and ugliness down there via abstraction.
+							-
 						- ((66b1cfa4-369c-49ec-a461-cdda61633460))
 					- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
 					  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
