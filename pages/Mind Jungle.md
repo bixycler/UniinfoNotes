@@ -4091,6 +4091,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  collapsed:: true
 									- This discrepancy forces all of us to chase shadows from life to life.
 						- The downside of the “overview effect” exprienced by the [psychonaut](https://www.facebook.com/share/p/195trGrWqj/)
+						  id:: 681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c
 						  collapsed:: true
 						  :LOGBOOK:
 						  CLOCK: [2025-05-07 Wed 16:15:31]

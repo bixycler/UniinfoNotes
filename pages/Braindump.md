@@ -688,6 +688,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))
+		  :LOGBOOK:
+		  CLOCK: [2025-05-07 Wed 17:42:22]
+		  :END:
 		- view vs sense
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
 		  :LOGBOOK:
