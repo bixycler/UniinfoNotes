@@ -4090,11 +4090,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Unmindfulness of the illusion of the external signal makes it feel near outside while in fact it's near inside and very far outside. That's because the signal outside is just the image/shadow of the goal inside.
 								  collapsed:: true
 									- This discrepancy forces all of us to chase shadows from life to life.
-						- DOING The downside of the “overview effect”
+						- The downside of the “overview effect”
+						  collapsed:: true
 						  :LOGBOOK:
 						  CLOCK: [2025-05-07 Wed 16:15:31]
-						  CLOCK: [2025-05-07 Wed 16:15:33]
 						  :END:
+							- While the [overview effect](https://en.wikipedia.org/wiki/Overview_effect) brings various positive emotions and attitudes, it also creates dellusion due to the masking of all complexity
 						- ((66b1cfa4-369c-49ec-a461-cdda61633460))
 					- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
 					  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
