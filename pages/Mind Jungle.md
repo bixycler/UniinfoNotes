@@ -1876,17 +1876,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2024-09-24 Tue 14:18:35]
 	  :END:
 	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f274e4-f9d0-4980-b72f-9593816ec02f)), nhận biết
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) thức, nhận biết
 		- awareness
 		  id:: 66f267f7-01f9-47b9-8376-abd27fdf2930
 		  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672a008c-835f-4e28-b969-2046feaf43b9))
-		- thức
-		  id:: 66f274e4-f9d0-4980-b72f-9593816ec02f
-		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267bf-5272-4dde-99a1-b220ba5bd852))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches object's content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of that qualiton activated from that quantum called “[qualia](https://en.wikipedia.org/wiki/Qualia)”, and the subject is aware of the form in the content, denoted by the equation ⟪form = content⟫.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
-			- While concrete awareness, or perception, is being aware of some form brought to the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) through sensation content, i.e. the equation ⟪form = content⟫, abstract awareness is the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ itself.
+			- While concrete awareness, or perception, is being aware of some form brought to the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) through sensation content, i.e. the equation ⟪form = content⟫, abstract awareness is the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ itself.
 			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
 		- Conditions for awareness
 		  collapsed:: true
@@ -3536,17 +3533,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 12:23:24]
 			  :END:
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
-				- màn hình tưởng
-				  id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Just as the retina is where the visual image is projected, ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) is where the [mental image](https://en.wikipedia.org/wiki/Mental_image) is projected via ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)). This screen is related to the [mental workspace](https://en.wikipedia.org/wiki/Global_workspace_theory) and the [working memory](https://en.wikipedia.org/wiki/Working_memory). This screen is the stage where the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)) of interaction between the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), as a force field, and the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)), as a particle in that force field, takes place.
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) tưởng uẩn, màn hình tri giác
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Just as the retina is where the visual image is projected, ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) is where the [mental image](https://en.wikipedia.org/wiki/Mental_image) is projected via ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)). This screen is related to the [mental workspace](https://en.wikipedia.org/wiki/Global_workspace_theory) and the [working memory](https://en.wikipedia.org/wiki/Working_memory). This screen is the stage where the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)) of interaction between the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), as a force field, and the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)), as a particle in that force field, takes place.
 				- **instantiation**
 				  id:: 66ea4597-f085-4f38-95f7-91bf5cd61b1c
 				  :LOGBOOK:
 				  CLOCK: [2024-09-18 Wed 10:19:59]--[2024-09-18 Wed 16:29:05] =>  06:09:06
 				  :END:
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a signal from the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) reaches a node in the ((66ea8d84-c766-4c47-b06c-a0b57a530096)), that node is activated and it creates a new ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of itself on the screen. This new instance is combined to the source of the signal to develop the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), similar to the "object construction" in OOP. Each cycle of this process is call an ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)). Each object on the screen is usually composed of several instances of several ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s. Only some special objects like the self body, the named objects, have a single corresponding past cone as its id knowledge. The instantiation is related to the "participation" in Plato's [Theory of Forms](https://en.wikipedia.org/wiki/Theory_of_forms).
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a signal from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) reaches a node in the ((66ea8d84-c766-4c47-b06c-a0b57a530096)), that node is activated and it creates a new ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of itself on the screen. This new instance is combined to the source of the signal to develop the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), similar to the "object construction" in OOP. Each cycle of this process is call an ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)). Each object on the screen is usually composed of several instances of several ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s. Only some special objects like the self body, the named objects, have a single corresponding past cone as its id knowledge. The instantiation is related to the "participation" in Plato's [Theory of Forms](https://en.wikipedia.org/wiki/Theory_of_forms).
 					  id:: 66ea9a0f-72df-42b6-8d72-fcc021ed5776
 					  :LOGBOOK:
 					  CLOCK: [2024-09-18 Wed 16:22:05]
@@ -3560,7 +3554,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-09-18 Wed 11:37:05]
 			  :END:
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f2681b-796a-4e25-b778-ba4fb6419425))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) interacts with objects on the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) in the way a particle interacts with a force field. The ((667c0031-0a87-44c9-9e98-6d45893b095f)) between the intent cone and the whole ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) is called the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), which comprises many individual effect circles between the intent cone and individual objects which are also called conscious circles.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) interacts with objects on the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) in the way a particle interacts with a force field. The ((667c0031-0a87-44c9-9e98-6d45893b095f)) between the intent cone and the whole ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) is called the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), which comprises many individual effect circles between the intent cone and individual objects which are also called conscious circles.
 					- The main effect of this circle is maintaining ((66f2681b-796a-4e25-b778-ba4fb6419425)) of the subject and its side effects are ((66eaa51a-32c1-4f3a-830c-30aecb7c45a3)) of action and ((66eaa550-4e1e-4126-8004-bf3cb8956829)) of knowledge. This circle is also the one that [mixes](((66eac7d3-f1e6-420c-a2a5-1424c86d4185))) objects' ((66ab6161-0306-42d5-ac16-4155c69216f5))s up to make ((6678d596-9526-405a-968c-e73860e524f3))s in the knowledge cone. That means ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)) is actually a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) between the intent cone and the present cone.
 					- This circle is similar to the [viññāṇa](https://en.wikipedia.org/wiki/Vij%C3%B1%C4%81na) in Buddhism and is related to the [closed-loop perception](https://en.wikipedia.org/wiki/Perception#Closed-loop_perception).
 			- cones around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf))
@@ -3570,7 +3564,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- world cone
 				  id:: 66ea8dfa-4dc4-4541-948b-be0e72a0bc8b
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dfa-4dc4-4541-948b-be0e72a0bc8b)) is the external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) in the shape of [worldview](https://en.wikipedia.org/wiki/Worldview) cone. Its peak is the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) containing objects in the present view of the subject. These objects are ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe))s of the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s which are activated and projected onto the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)). That means the ((66ea9505-9532-41ed-9f91-d4d8ddcaacc3)) is reflected across the perceptual screen to be the present cone, where the images of past cones on the screen are seen as forms of objects.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dfa-4dc4-4541-948b-be0e72a0bc8b)) is the external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) in the shape of [worldview](https://en.wikipedia.org/wiki/Worldview) cone. Its peak is the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) containing objects in the present view of the subject. These objects are ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe))s of the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s which are activated and projected onto the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)). That means the ((66ea9505-9532-41ed-9f91-d4d8ddcaacc3)) is reflected across the perceptual screen to be the present cone, where the images of past cones on the screen are seen as forms of objects.
 					- present cone
 					  id:: 66ea8e12-7c30-449b-9139-bfd8d82394d7
 					  is the peak of the ((66ea8dfa-4dc4-4541-948b-be0e72a0bc8b)). It's similar to the [saññā](https://en.wikipedia.org/wiki/Samjna_(concept)) (tưởng) in Buddhism.
@@ -3585,7 +3579,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  is the collective knowledge of objects, where each object is known by a ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
 					- learning cone
 					  id:: 66eaa550-4e1e-4126-8004-bf3cb8956829
-					  is a ((667bd93a-cce4-4dbf-9831-725e4dffe463)) of an object or the subject's self image on the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) toward the base of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)).
+					  is a ((667bd93a-cce4-4dbf-9831-725e4dffe463)) of an object or the subject's self image on the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) toward the base of the ((66ea8d84-c766-4c47-b06c-a0b57a530096)).
 					- mutual reflections
 					  id:: 66eac7d3-f1e6-420c-a2a5-1424c86d4185
 					  collapsed:: true
@@ -3595,7 +3589,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Trip inside a 3D fractal (Kleinian) {{video https://youtu.be/XIzScwydxOE}}
 				- intent cone
 				  id:: 66ea8dbe-042e-41fc-a07c-841dcb5a737a
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) is the ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the subject's self. It's the particle on the ((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50)) representing the subject, which receives effects from the force field of the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) and expresses the subject's will as both external action and reaction to the objects on the screen. Because this cone is extended from the root/center of the knowledge cone, it's the condensation of the whole mass of knowledge, hence has a very strong structure (hard form) to drive the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)). The subject may have many selves (identities) to be activated by different present cones.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) is the ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the subject's self. It's the particle on the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) representing the subject, which receives effects from the force field of the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)) and expresses the subject's will as both external action and reaction to the objects on the screen. Because this cone is extended from the root/center of the knowledge cone, it's the condensation of the whole mass of knowledge, hence has a very strong structure (hard form) to drive the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)). The subject may have many selves (identities) to be activated by different present cones.
 					- ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae))
 					  id:: 66eab8b0-a5f6-417b-bdb1-effa175ca94e
 						- ((66725725-f76a-4328-b162-f469b87e871b))

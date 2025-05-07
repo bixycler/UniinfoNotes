@@ -209,7 +209,7 @@ id:: 67761267-06ef-4f0d-876a-bd354b896681
 		- First, open-eye thinking: use the external scene to pin/nail down my ideas
 		- Then, close-eye thinking: use meditative state to keep from attachment
 		- Now, close eye with ujjayi: use the breath of change (its noise) to blur the ideas, to further detach from them so that i can switch & transform them freelier.
-		- When eyes open, the [internal/perception screen](((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50))) is filled with external objects 
+		- When eyes open, the [internal/perception screen](((66ea4711-1392-4f5c-bea2-badc71a2fb9e))) is filled with external objects 
 		  --> no space to protect the internal/underlying mechanism/structures
 			- => With eyes closed, i can see deeper into the background, more wholesome
 			- => With eyes open, i dive deeper into the foreground, more detailed
