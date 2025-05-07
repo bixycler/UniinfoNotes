@@ -646,7 +646,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  :LOGBOOK:
 				  CLOCK: [2025-05-06 Tue 10:06:12]--[2025-05-06 Tue 10:06:15] =>  00:00:03
 				  :END:
-				- DONE uninet may be mistaken with the omnifold, as a grand network of the whole Universe, due to its name. It's actually a universal network, but just a reflection of the omnifold on computer, not the whole. (This confusion appeared in one NotebookLM's audio overview)
+				- DONE [uninet may be mistaken with the omnifold](((681826ac-6cb1-40f9-8cd1-547b853936ed))), as a grand network of the whole Universe, due to its name. It's actually a universal network, but just a reflection of the omnifold on computer, not the whole. (This confusion appeared in one NotebookLM's audio overview)
 				  :LOGBOOK:
 				  CLOCK: [2025-05-06 Tue 10:09:57]--[2025-05-06 Tue 10:19:09] =>  00:09:12
 				  :END:
