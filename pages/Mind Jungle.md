@@ -1933,7 +1933,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  CLOCK: [2024-11-11 Mon 13:17:13]
 						  :END:
 						- An automaton with controls is exclusively aware of its control signals only.
-						- Instead of considering the whole automaton as the subject, if we consider its components like the gears, they have physical awareness of other connected components so that they can response and work together. This is the [sensation of open physical systems](((6731a0ca-4f7a-45cd-b348-fb72aa338d2c))).
+						- Instead of considering the whole automaton as the subject, if we consider its components like the gears, they are subjects with physical awareness of other connected components so that they can response and work together. This is the [sensation of open physical systems](((6731a0ca-4f7a-45cd-b348-fb72aa338d2c))).
 					- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
 						- The Turing Machine as well as modern computers are **sensate** to their inputs and are aware of their instructions/commands.
 						- Beside the physical awareness of automaton, these machines have **limited mental awareness** programmed by human, which is limited to specific scopes and domains. A sophisticatedly programmed machine can appear to have so much awareness that it is called “smart”, e.g.  “smart phone”,  “smart devices”. However, these machines has no awareness outside of the scopes of their programs.
