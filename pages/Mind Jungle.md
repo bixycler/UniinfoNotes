@@ -4106,7 +4106,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- This core should be a mental fixation, the result of karma accumulated throughout space and time.
 							- ⇒ Solution: Let's [sublimate](((668f5490-c223-4a8a-9cc4-0bd71af4c097))) that core to *restore the __empty center__*, i.e. the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)), so that it's free from any fixed point and can flow fluidly.
 							  id:: 681b4678-686a-4d99-9163-6f60e0b30d2c
-								- **Sublimation**: In psychological terms (e.g., Freudian sublimation), this is redirecting the core’s energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it’s akin to dissolving karmic attachments to reveal the “true self”.
+								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core’s energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it’s akin to dissolving karmic attachments to reveal the “true self”.
 								- Even the singularity of a black hole can [evaporate](https://en.wikipedia.org/wiki/Hawking_radiation#Black_hole_evaporation)! 😊
 							- Negative aspects of the overview effect are alsow reported by astronauts.
 							  collapsed:: true
