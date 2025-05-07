@@ -693,14 +693,15 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- ((681b4678-686a-4d99-9163-6f60e0b30d2c))
 	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- view vs sense
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-07 Wed 14:56:11]
 		  :END:
 			- Mental map covers [concept map](https://en.wikipedia.org/wiki/Concept_map), [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph) in the knowledge cone.
 			- "Mental landscape" is closer to the perceptual screen, more dynamic than the relatively static wordview, more emotional than the structural (flat) "mental map".
 			- Libet's [Conscious Mental Field](http://www.scholarpedia.org/article/Field_theories_of_consciousness#Libet.E2.80.99s_field_theory_of_consciousness)
+			- TODO view vs sense
 		- ...
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
