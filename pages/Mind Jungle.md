@@ -4116,9 +4116,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- **Paradox**: *Sublimate the sublime!* 😯
 									- **Resolution**: The one to be sublimated is *not* the sublime itself, but the **fixed image** of the sublime imprinted deeply inside, as well as the egoic self **clinging** to that image.
 								- Jungian archetypes of God-image (universal perfection) & Self (personal whole)
-									- The God-image is a sublime which is usually projected onto a fixed image, like my [“holistic core”](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), or a figure (externally or internally).
+									- The God-image is a sublime which is usually projected onto a fixed image, like my [“holistic core”](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), or a figure, a symbol, either externally or internally).
+									- The Self is the totality of the psyche, including both consciousness and unconsciousness, and is the target of “individuation” which is the process of integrating consciousness with unconsciousness.
 									- [?] The God-image can be a projection of the Self’s potential, but it risks idealization.
-									- [?] Individuation (the process of integrating conscious and unconscious) integrates the God-image into the Self, grounding its transcendence in lived wholeness.
+									- [?] Individuation () integrates the God-image into the Self, grounding its transcendence in lived wholeness.
 							- Negative aspects of the overview effect are also reported by astronauts.
 							  collapsed:: true
 								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
