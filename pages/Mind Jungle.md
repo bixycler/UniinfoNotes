@@ -4112,7 +4112,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  :LOGBOOK:
 							  CLOCK: [2025-05-08 Thu 17:03:40]
 							  :END:
-								-
+								- Paradoxical harmony in using sublimation to deal with the sublime: The technique uses the sublime’s own energy (intensity of awe/overwhelm) to fuel sublimation, transforming the core’s fixation into the empty center’s openness.
 							- Negative aspects of the overview effect are also reported by astronauts.
 							  collapsed:: true
 								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
