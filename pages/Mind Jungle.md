@@ -4108,6 +4108,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 681b4678-686a-4d99-9163-6f60e0b30d2c
 								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core’s energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it’s akin to dissolving karmic attachments to reveal the “true self”.
 								- Even the singularity of a black hole can [evaporate](https://en.wikipedia.org/wiki/Hawking_radiation#Black_hole_evaporation)! 😊
+							- This duality of the overview effect is just a manifestation of the intrinsic duality of the [sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy)).
 							- Negative aspects of the overview effect are also reported by astronauts.
 							  collapsed:: true
 								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
