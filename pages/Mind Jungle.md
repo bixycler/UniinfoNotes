@@ -4118,9 +4118,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Jungian archetypes of God-image (universal perfection) & Self (personal whole)
 									- The God-image is a sublime of divine or ultimate reality, which is usually projected onto a fixed image, a figure, a symbol, either externally (like Christ) or internally (like my [“holistic core”](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)))).
 									- The Self is the totality of the psyche, including both consciousness and unconsciousness, and is the target of “individuation” which is the process of integrating consciousness with unconsciousness.
-									- While the Self is mostly hidden (until full realization), the God-image is usually visible through
-									- [?] The God-image can be a projection of the Self’s potential, but it risks idealization.
-									- [?] Individuation () integrates the God-image into the Self, grounding its transcendence in lived wholeness.
+									- While the Self is mostly hidden (until full realization), the God-image is usually visible through symbols and figures. And the ego usually takes the visible God-image to be the image of the hidden Self, which may be wrong, prone to idealization and fixation.
 							- Negative aspects of the overview effect are also reported by astronauts.
 							  collapsed:: true
 								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
