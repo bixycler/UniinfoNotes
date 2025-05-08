@@ -4108,23 +4108,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 681b4678-686a-4d99-9163-6f60e0b30d2c
 								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core’s energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it’s akin to dissolving karmic attachments to reveal the “true self”.
 								- Even the singularity of a black hole can [evaporate](https://en.wikipedia.org/wiki/Hawking_radiation#Black_hole_evaporation)! 😊
-							- Negative aspects of the overview effect are alsow reported by astronauts.
+							- Negative aspects of the overview effect are also reported by astronauts.
 							  collapsed:: true
 								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
 								- Seeing Earth as a “tiny, fragile ball” or even a [pale blue dot](https://en.wikipedia.org/wiki/Pale_Blue_Dot) can diminish personal concerns but also make individuals *feel __disconnected__ from everyday life*. Upon returning to Earth, the astronauts may struggle to reconcile their cosmic perspective, e.g. seeing borders as artificial, with mundane realities or societal divisions, e.g. borders, politics. This can lead to **frustration** or a sense of powerlessness on Earth, as shown by Apollo 14 astronaut Edgar Mitchell's [“drag a politician to space”](https://osl8.life/blog/understanding-the-overview-effect/).
 									- Edgar Mitchell:
 									  > You develop an instant global consciousness, a people orientation, an intense **dissatisfaction** with the state of the world, and a **compulsion** to do something about it. From out there on the moon, international politics look so petty. You want to grab a politician by the scruff of the neck and drag him a quarter of a million miles out and say, ‘Look at that, you son of a bitch.’
 								- Early X-15 pilots, as well as 90% of pilots so far, reported a [“break-off phenomenon”](https://gwern.net/doc/psychology/1957-clark.pdf), a negative experience of profound **isolation and sadness** when viewing Earth from high altitudes.
-								- Ref: [The Overview Institute of Australia](https://www.overviewinstituteaustralia.org/the-overview-effect)
-									- [OVERVIEW](https://vimeo.com/55073825)
-										- {{video https://vimeo.com/55073825}}
-										- 11:40-13:05: spychonaut ~ astronaut
-											- Frank White (author of “The Overview Effect” book (1987))
-											  > Many of the great wisdom traditions of the Earth have pointed to what we're calling the "Overview Effect". That is to say they have realized this unity, this oneness, of all lives on Earth, and of consciousness and awareness.
-											- David Loy (philosopher)
-											  > Within the Western tradition, I think it's quite new, and quite shocking, because there's been much more of a sense of separation. But if you look at other non-Western cultures, especially in Asia, the emphasis on those has always been on the realization that the self and the world are not separate from each other, that they're really interconnected: that the individual self and the species as a whole is a manifestation of the large whole.
-											- Frank White
-											  > As you go into your mind in a contemplative way, the sense of the living reality of the planet becomes obvious, you become more in tune with the natural world. This is very akin to the direct perception that the astronauts have, so it's no wonder that many people have likened the Overview Effect to a spiritual or meditative experience, although it's not exactly that. It's a cognitive shift, that very often can produce a kind of meditative experience.
+							- Ref: [The Overview Institute of Australia](https://www.overviewinstituteaustralia.org/the-overview-effect)
+								- [OVERVIEW](https://vimeo.com/55073825)
+								  collapsed:: true
+									- {{video https://vimeo.com/55073825}}
+									- 11:40-13:05: spychonaut ~ astronaut
+										- Frank White (author of “The Overview Effect” book (1987))
+										  > Many of the great wisdom traditions of the Earth have pointed to what we're calling the "Overview Effect". That is to say they have realized this unity, this oneness, of all lives on Earth, and of consciousness and awareness.
+										- David Loy (philosopher)
+										  > Within the Western tradition, I think it's quite new, and quite shocking, because there's been much more of a sense of separation. But if you look at other non-Western cultures, especially in Asia, the emphasis on those has always been on the realization that the self and the world are not separate from each other, that they're really interconnected: that the individual self and the species as a whole is a manifestation of the large whole.
+										- Frank White
+										  > As you go into your mind in a contemplative way, the sense of the living reality of the planet becomes obvious, you become more in tune with the natural world. This is very akin to the direct perception that the astronauts have, so it's no wonder that many people have likened the Overview Effect to a spiritual or meditative experience, although it's not exactly that. It's a cognitive shift, that very often can produce a kind of meditative experience.
 						- ((66b1cfa4-369c-49ec-a461-cdda61633460))
 					- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
 					  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
