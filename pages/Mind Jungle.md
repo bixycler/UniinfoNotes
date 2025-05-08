@@ -4111,6 +4111,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Negative aspects of the overview effect are also reported by astronauts.
 							  collapsed:: true
 								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
+									- [William Shatner experienced profound grief in space.](https://www.npr.org/2022/10/23/1130482740/william-shatner-jeff-bezos-space-travel-overview-effect)
+									  > I wept for the Earth because I realized it's dying.
+									- [William Shatner: My Trip to Space Filled Me With ‘Overwhelming Sadness’](https://variety.com/2022/tv/news/william-shatner-space-boldly-go-excerpt-1235395113/)
+									  >
 								- Seeing Earth as a “tiny, fragile ball” or even a [pale blue dot](https://en.wikipedia.org/wiki/Pale_Blue_Dot) can diminish personal concerns but also make individuals *feel __disconnected__ from everyday life*. Upon returning to Earth, the astronauts may struggle to reconcile their cosmic perspective, e.g. seeing borders as artificial, with mundane realities or societal divisions, e.g. borders, politics. This can lead to **frustration** or a sense of powerlessness on Earth, as shown by Apollo 14 astronaut Edgar Mitchell's [“drag a politician to space”](https://osl8.life/blog/understanding-the-overview-effect/).
 									- Edgar Mitchell:
 									  > You develop an instant global consciousness, a people orientation, an intense **dissatisfaction** with the state of the world, and a **compulsion** to do something about it. From out there on the moon, international politics look so petty. You want to grab a politician by the scruff of the neck and drag him a quarter of a million miles out and say, ‘Look at that, you son of a bitch.’
