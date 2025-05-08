@@ -4103,7 +4103,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- That delusion is like a black hole sucking me strongly to the die-hard perfectionism.
 							- Looking inward, i see a “holistic core” deep inside which is a perfect circle: so round, so balanced, so equilibrated, so complete. This core is so hard and heavy, like the singularity of a black hole, that i see verything in this world is pulling toward it, and all forces returning forces.
 							  id:: 681b3ad7-d1b0-4c06-a4ea-385a4a9314e0
-								- This core should be a mental fixation, the result of karma accumulated throughout space and time.
+								- This core may be a mental fixation, the result of karma accumulated throughout space and time.
 							- ⇒ Solution: Let's [sublimate](((668f5490-c223-4a8a-9cc4-0bd71af4c097))) that core to *restore the __empty center__*, i.e. the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)), so that it's free from any fixed point and can flow fluidly.
 							  id:: 681b4678-686a-4d99-9163-6f60e0b30d2c
 								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core’s energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it’s akin to dissolving karmic attachments to reveal the “true self”.
@@ -4116,9 +4116,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- **Paradox**: *Sublimate the sublime!* 😯
 									- **Resolution**: The one to be sublimated is *not* the sublime itself, but the **fixed image** of the sublime imprinted deeply inside, as well as the egoic self **clinging** to that image.
 								- Jungian archetypes of God-image (universal perfection) & Self (personal whole)
-									- The God-image is a sublime which is usually projected onto a fixed image or a figure (externally or internally).
-									- The God-image can be a projection of the Self’s potential, but it risks idealization.
-									- Individuation integrates the God-image into the Self, grounding its transcendence in lived wholeness.
+									- The God-image is a sublime which is usually projected onto a fixed image, like my [“holistic core”](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), or a figure (externally or internally).
+									- [?] The God-image can be a projection of the Self’s potential, but it risks idealization.
+									- [?] Individuation (the process of integrating conscious and unconscious) integrates the God-image into the Self, grounding its transcendence in lived wholeness.
 							- Negative aspects of the overview effect are also reported by astronauts.
 							  collapsed:: true
 								- William Shatner, after his 2021 spaceflight, described [“profound grief” alongside awe](https://thebonesspeak.com/the-overview-effect/), mourning Earth’s vulnerability amid environmental degradation.
