@@ -4091,7 +4091,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Unmindfulness of the illusion of the external signal makes it feel near outside while in fact it's near inside and very far outside. That's because the signal outside is just the image/shadow of the goal inside.
 								  collapsed:: true
 									- This discrepancy forces all of us to chase shadows from life to life.
-						- The downside of the “overview effect” exprienced by the [psychonaut](https://www.facebook.com/share/p/195trGrWqj/)
+						- The downside of the [“overview effect”](https://en.wikipedia.org/wiki/Overview_effect) exprienced by the [psychonaut](https://www.facebook.com/share/p/195trGrWqj/)
 						  id:: 681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c
 						  collapsed:: true
 						  :LOGBOOK:
@@ -4099,7 +4099,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :END:
 							- As a natural (innate) **psychonaut** since childhood, i engage in space-inspired imagination, holistic perception, natural meditation (later enhanced by techniques), and psychedelic experimentation.
 							- This psychonautic journey is fueled by the [“holistic core”](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))) deep inside, and then the overview vision of the journey brings the “overview effect” up to the surface.
-							- While the [overview effect](https://en.wikipedia.org/wiki/Overview_effect) brings various positive emotions and attitudes, it also creates the delusion of a perfect world due to the masking of all complexity and ugliness down there via abstraction. This delusion is a kind of cognitive bias called [halo effect](https://en.wikipedia.org/wiki/Halo_effect).
+							- While the “overview effect” brings various positive emotions and attitudes, it also creates the delusion of a perfect world due to the masking of all complexity and ugliness down there via abstraction. This delusion is a kind of cognitive bias called [halo effect](https://en.wikipedia.org/wiki/Halo_effect).
 							- That delusion is like a black hole sucking me strongly to the die-hard perfectionism.
 							- Looking inward, i see a “holistic core” deep inside which is a perfect circle: so round, so balanced, so equilibrated, so complete. This core is so hard and heavy, like the singularity of a black hole, that i see verything in this world is pulling toward it, and all forces returning forces.
 							  id:: 681b3ad7-d1b0-4c06-a4ea-385a4a9314e0
