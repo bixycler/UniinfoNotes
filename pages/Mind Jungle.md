@@ -4108,16 +4108,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 681b4678-686a-4d99-9163-6f60e0b30d2c
 								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core’s energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it’s akin to dissolving karmic attachments to reveal the “true self”.
 								- Even the singularity of a black hole can [evaporate](https://en.wikipedia.org/wiki/Hawking_radiation#Black_hole_evaporation)! 😊
-							- DOING This duality of the overview effect is just a manifestation of the intrinsic duality of the [sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy)).
+							- This duality of the overview effect is just a manifestation of the intrinsic duality of the [sublime](https://en.wikipedia.org/wiki/Sublime_(philosophy)).
 							  :LOGBOOK:
-							  CLOCK: [2025-05-08 Thu 17:03:40]
+							  CLOCK: [2025-05-08 Thu 17:03:40]--[2025-05-08 Thu 19:59:03] =>  02:55:23
 							  :END:
 								- **Paradoxical harmony** in *using sublimation to deal with the sublime*: The technique uses the sublime’s own energy (intensity of awe/overwhelm) to fuel sublimation, transforming the core’s fixation into the empty center’s openness.
 								- **Paradox**: *Sublimate the sublime!* 😯
 									- **Resolution**: The one to be sublimated is *not* the sublime itself, but the **fixed image** of the sublime imprinted deeply inside, as well as the egoic self **clinging** to that image.
 								- Jungian archetypes of God-image (universal perfection) & Self (personal whole)
 									- The God-image is a sublime of divine or ultimate reality, which is usually projected onto a fixed image, a figure, a symbol, either externally (like Christ) or internally (like my [“holistic core”](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)))).
-										- Jung, in his late years, discoverd that God-image is the central archetype of the collective unconsciousness.
+										- Jung, in his [late years](../assets/Will/story/2025-05/The Jungian Archetype of God.pdf), discoverd that God-image is the central archetype of the collective unconsciousness.
 									- The Self is the totality of the psyche, including both consciousness and unconsciousness, and is the target of “individuation” which is the process of integrating consciousness with unconsciousness.
 									- While the Self is mostly hidden (until full realization), the God-image is usually visible through symbols and figures. And the ego usually takes the visible God-image to be the image of the hidden Self, which may be wrong, prone to idealization and fixation.
 							- Negative aspects of the overview effect are also reported by astronauts.
