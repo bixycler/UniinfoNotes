@@ -3732,6 +3732,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Vietnamese name: LÊ Xuân Định
 		- English name: Will LÊ
 		  id:: d7d9077b-f4eb-409c-a895-8dba07aea996
+		  meaning “LÊ Định” in Vietnamese
 			- Will Lei
 			  id:: 681d5fb1-9484-4c78-b2b8-966d6ac1d3d8
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66536578-c4d3-43f1-b35c-bf71120f0570)) 
