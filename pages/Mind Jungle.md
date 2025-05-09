@@ -3740,6 +3740,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  is the re-romanized version of “Will Lê” for easy English typesetting and better English pronunciation.
 				- Note that “Lei” is not [雷 (Lôi)](https://en.wikipedia.org/wiki/Lei_(surname)), but just a re-romanized version of [Lê](https://en.wikipedia.org/wiki/Le_(surname)) = [黎](https://en.wikipedia.org/wiki/L%C3%AD_(surname_%E9%BB%8E)) to avoid pronunciation mistake with [Lee](https://en.wikipedia.org/wiki/Lee_(Korean_surname)) = [Lý](https://en.wikipedia.org/wiki/L%C3%BD_(Vietnamese_surname)) = [李](https://en.wikipedia.org/wiki/Li_(surname_%E6%9D%8E)).
 				- The name “Will” means “determined intention” which includes both strong sense “quyết định” (determination) and weak sense “dự định” (intention).
+				  collapsed:: true
 					- For stronger meaning of “determination”, Grok-3 has suggested the name “Ethan” which means “firm, enduring, strong, and long-lived” and also related to wisdom thanks to Ethan the Ezrahite in the Hebrew Bible being wise. However, i've used the name “Will” long ago.
 		- Japanese name: 黎・春定 (LÊ Harusada)
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
