@@ -3861,12 +3861,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  CLOCK: [2024-11-15 Fri 10:41:26]
 						  :END:
 							- ((66725725-f76a-4328-b162-f469b87e871b))
-							  collapsed:: true
 								- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
 							- “Complete, finished, done, target reached, ...” are just illusions. Nothing is actually complete, any ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is just a helix or spiral which is projected onto the plane orthogonal to the direction of change/evolution.
 							- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
-								- The inner target of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
-								- The target is the hidden boss, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the underlying driving force.
+								- The **inner target** of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+								- *The target is the __hidden boss__*, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) wall, the underlying driving force. My boss is the [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))).
 								- **Exposing the hidden boss** means **detaching the self**.
 								  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
 									- “Detached self = selfless”
@@ -3884,6 +3883,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
 								- [The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)
 								  id:: 67445223-9459-4aa9-b102-70c63943577b
+								  collapsed:: true
 									- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.
 									  collapsed:: true
 										- Let's go, don't get too engrossed in this place.
@@ -4071,21 +4071,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
 											  > Matter planning is a really apt name.
 											  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
-						- The effort justification & sunk-cost fallacy
-						  collapsed:: true
-							- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
 						- The ((6678282b-d710-4c6b-b584-5f65012c192d)) effect
 						  collapsed:: true
-							- The great momentum of the past is the internal form.
-							  collapsed:: true
+							- The great **momentum** of the past is the internal form.
 								- Just be mindful that we don't lose that momentum when we switch to other works, just put it down to be picked up later on.
-							- The clearly visible goal of the future is the external form.
-							  collapsed:: true
+								- The effort justification & sunk-cost fallacy
+									- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
+							- The clearly visible **goal** of the future is the external form.
 								- The clarity of the goal shows that it's very large, like the Sun & Moon, hence a form outside.
 								- Just be mindful that although it's worth pursuing, it's still very far.
 							- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) is to dissolve the form and direct it to the new form.
 							- Mindfulness as a hole-punching tool to escape the form.
-							  collapsed:: true
 								- The tantric practice shows that both the accumulation of momentum and the "finish soon" effect require ignorance in the form of attachment to the external signal (sign of the goal).
 								- Unmindfulness of the internal momentum makes it push us from behind and control us.
 								- Unmindfulness of the illusion of the external signal makes it feel near outside while in fact it's near inside and very far outside. That's because the signal outside is just the image/shadow of the goal inside.
