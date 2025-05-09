@@ -7,12 +7,10 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
-		- lei
+		- lee
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
-		  collapsed:: true
 		  ^ **Name & Term** search
 			- Filters
-			  collapsed:: true
 				- Containers
 				  id:: 67710fcc-08c4-4a3e-96fd-bc4207f6ec8f
 				  search-scope::
