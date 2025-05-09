@@ -4075,11 +4075,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  collapsed:: true
 							- The great **momentum** of the past is the internal form.
 								- Just be mindful that we don't lose that momentum when we switch to other works, just put it down to be picked up later on.
-								- The effort justification & sunk-cost fallacy
-									- This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
-							- The clearly visible **goal** of the future is the external form.
-								- The clarity of the goal shows that it's very large, like the Sun & Moon, hence a form outside.
-								- Just be mindful that although it's worth pursuing, it's still very far.
+								- The effort justification & sunk-cost fallacy: This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
+							- The clearly visible **goal** of the future is the external form, which reflects the inner core, e.g. my [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))), crystalized from karma of the past.
+								- The clarity of the external goal shows that it's very large, like the Sun & Moon.
+								- Just be mindful that although it's worth pursuing, it's still **very far**.
 							- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) is to dissolve the form and direct it to the new form.
 							- Mindfulness as a hole-punching tool to escape the form.
 								- The tantric practice shows that both the accumulation of momentum and the "finish soon" effect require ignorance in the form of attachment to the external signal (sign of the goal).
