@@ -3881,7 +3881,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) the mind to _**start** the new journey!_
 							  id:: 67445065-15b2-475e-a704-78f140d487af
 								- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
-								- [The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)
+								- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable
 								  id:: 67445223-9459-4aa9-b102-70c63943577b
 								  collapsed:: true
 									- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.
@@ -4077,8 +4077,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Just be mindful that we don't lose that momentum when we switch to other works, just put it down to be picked up later on.
 								- The effort justification & sunk-cost fallacy: This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
 							- The clearly visible **goal** of the future is the external form, which reflects the inner core, e.g. my [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))), crystalized from karma of the past.
-								- The clarity of the external goal shows that it's very large, like the Sun & Moon.
-								- Just be mindful that although it's worth pursuing, it's still **very far**.
+								- The clarity of the external goal shows that it's very large, like the Sun & Moon. This mirrors the internal (hidden) core which is hard and heavy, like the singularity of a black hole.
+								- Just be mindful that although it's worth pursuing, it's still **very far**, i.e. [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
 							- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) is to dissolve the form and direct it to the new form.
 							- Mindfulness as a hole-punching tool to escape the form.
 								- The tantric practice shows that both the accumulation of momentum and the "finish soon" effect require ignorance in the form of attachment to the external signal (sign of the goal).
