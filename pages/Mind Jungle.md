@@ -3731,9 +3731,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Vietnamese name: LÊ Xuân Định
 		- English name: Will LÊ
 		  id:: d7d9077b-f4eb-409c-a895-8dba07aea996
-			- Will LEI
-				-
-		- Japanese name: LÊ Harusada
+			- Will Lei
+			  is the romanized version of for easy English typesetting and better English pronunciation.
+				- Note that “Lei” is not [雷 (Lôi)](https://en.wikipedia.org/wiki/Lei_(surname)), but just a re-transliterated.
+		- Japanese name: 黎・春定 (LÊ Harusada)
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Personal info:
