@@ -3731,6 +3731,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Vietnamese name: LÊ Xuân Định
 		- English name: Will LÊ
 		  id:: d7d9077b-f4eb-409c-a895-8dba07aea996
+			- Will LEI
+				-
 		- Japanese name: LÊ Harusada
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
@@ -3830,6 +3832,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  The requirement that my self must be smooth, full, round, coherent, unfragmented is the sign of perfectionism.
 						- First, let's [refine](((669a5162-19e1-4c52-8888-ab7cbfe275ec))) the large circle into smaller circles, thus they are still round & perfect circles but can be interleaved with other works.
 						  id:: 6677bc01-44ec-4e4a-aeed-d63996bc0c46
+							- ((66b1cfa4-369c-49ec-a461-cdda61633460))
 						- The illusion of "finish soon"
 						  id:: 669a58b9-1a52-4ad7-932a-9e45ecb9960e
 						  collapsed:: true
@@ -4137,7 +4140,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  > Within the Western tradition, I think it's quite new, and quite shocking, because there's been much more of a sense of separation. But if you look at other non-Western cultures, especially in Asia, the emphasis on those has always been on the realization that the self and the world are not separate from each other, that they're really interconnected: that the individual self and the species as a whole is a manifestation of the large whole.
 										- Frank White
 										  > As you go into your mind in a contemplative way, the sense of the living reality of the planet becomes obvious, you become more in tune with the natural world. This is very akin to the direct perception that the astronauts have, so it's no wonder that many people have likened the Overview Effect to a spiritual or meditative experience, although it's not exactly that. It's a cognitive shift, that very often can produce a kind of meditative experience.
-						- ((66b1cfa4-369c-49ec-a461-cdda61633460))
 					- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
 					  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
 					  collapsed:: true
