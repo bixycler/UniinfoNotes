@@ -3732,7 +3732,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Vietnamese name: LÊ Xuân Định
 		- English name: Will LÊ
 		  id:: d7d9077b-f4eb-409c-a895-8dba07aea996
-		  meaning “LÊ Định” in Vietnamese, omitting the middle name “Xuân”
+		  means “LÊ Định” in Vietnamese, omitting the middle name “Xuân”.
 			- Will Lei
 			  id:: 681d5fb1-9484-4c78-b2b8-966d6ac1d3d8
 			  collapsed:: true
@@ -3743,7 +3743,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- For stronger meaning of “determination”, Grok-3 has suggested the name “Ethan” which means “firm, enduring, strong, and long-lived” and also related to wisdom thanks to Ethan the Ezrahite in the Hebrew Bible being wise. However, i've used the name “Will” long ago.
 		- Japanese name: 黎・春定 (LÊ Harusada)
-		  literally meaning “LÊ Xuân-định” in Chinese characters
+		  is just the name “LÊ Xuân-định” written in Chinese characters.
 			- Lei Harusada
 			  id:: 6824530e-32ac-4c75-9db0-12b1dc40102c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66536578-c4d3-43f1-b35c-bf71120f0570))
