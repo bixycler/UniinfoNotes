@@ -3743,6 +3743,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- For stronger meaning of “determination”, Grok-3 has suggested the name “Ethan” which means “firm, enduring, strong, and long-lived” and also related to wisdom thanks to Ethan the Ezrahite in the Hebrew Bible being wise. However, i've used the name “Will” long ago.
 		- Japanese name: 黎・春定 (LÊ Harusada)
+			- Lei Harusada
+			  id:: 6824530e-32ac-4c75-9db0-12b1dc40102c
+			  is the Japanese pronunciation of 黎・春定, despite my preferred written form as “LÊ Harusada”.
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger: `ComputerBoy`
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Personal info:
