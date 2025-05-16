@@ -392,7 +392,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- {{embed ((66b1cfa3-e6c4-405c-9475-2186078a811d))}}
 			- In centralized system, the intensional awareness is represented by a real observer like the head, the heart, the leader, the king, etc.
 			- In distributed system, the intensional awareness is shared by all components.
-		- **"thức = equal" is the duality of the** ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+		- **“awareness = equal” is the duality of the** ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 		  id:: 66f29d57-a87f-4370-9f32-722922a7bff1
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 20:34:45]

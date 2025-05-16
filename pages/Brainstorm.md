@@ -114,7 +114,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-05-16 Fri 13:44:57]
 		  :END:
 			- The [cyclone](https://en.wikipedia.org/wiki/Cyclone) and its [eye](https://en.wikipedia.org/wiki/Eye_(cyclone)) is a powerful image that i've used a lot from the begining of the balancing journey, and was first written down in the blog post “[3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html)”.
-			- Cyclone and [bubble ring](https://en.wikipedia.org/wiki/Bubble_ring) are used to show the union of Circle and Arrow, as the self-sustained subject
+			- Cyclone and [bubble ring](https://en.wikipedia.org/wiki/Bubble_ring) are used to show the union of Circle and Arrow, as the **self-sustained subject** and **singularity**.
+			- Contemplating the cyclone, we can see the ((6810ceeb-6af6-442b-9910-baae2c315c46)), the obop, the role of wholeness in awareness and action, etc.
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				- In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
 					- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";

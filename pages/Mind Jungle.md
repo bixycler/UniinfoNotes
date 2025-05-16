@@ -1740,6 +1740,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- A monjolo in Caldas Novas, Goiás
 					  ![monjolo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Monjolo.JPG/960px-Monjolo.JPG)
 				- [Action potential](https://en.wikipedia.org/wiki/Action_potential)
+				  collapsed:: true
 					- (Membrane) Potential: The stored energy or readiness of a cell to perform an action, like a stretched spring. It's defined by the electrical charge difference across the membrane.
 					- Action (Potential): The actual movement or signal (nerve impulse) that the cell sends, like the spring releasing and launching something. It is defined as a series of quick changes in membrane potential.
 				- [Potentiality and actuality](https://en.wikipedia.org/wiki/Potentiality_and_actuality)
@@ -1892,6 +1893,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- At the "operator" side of the obop, the extent is the (mental) ((66727858-979d-4d95-8a90-7a749218cfba)) ([saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra)) and its intent is the master of that action, i.e. the volition or [cetanā](https://en.wikipedia.org/wiki/Cetan%C4%81) in Buddhism.
 				- ((66e7d7dd-5f88-472c-8694-beb7222929bb))
 				- At the "observer" side of the obop, the intent itself is the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) which is driven by the underlying tendency, or attitude, or [anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))) in Buddhism.
+			- ((66f29d57-a87f-4370-9f32-722922a7bff1))
 	- ## aware
 	  id:: 66f267bf-5272-4dde-99a1-b220ba5bd852
 	  collapsed:: true
@@ -1968,6 +1970,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
 			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state that “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
 				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
+			- ((66f29d57-a87f-4370-9f32-722922a7bff1))
 		- concrete awareness
 		  id:: 672ac785-4f28-4dd0-a36c-07afef0ee83f
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb))
