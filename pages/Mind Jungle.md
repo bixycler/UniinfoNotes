@@ -1734,8 +1734,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-05-16 Fri 11:59:30]
 			  CLOCK: [2025-05-16 Fri 12:00:30]
 			  :END:
-				- Potential: potential engergy, continuous range of possibilities inside
-				- Action: actual work, discrete  actuality
+				- Potential: potential engergy, continuous range of possibilities inside, empty, abstract
+				- Action: actual work, discrete instances of actuality, full, concrete
 				-
 				- like the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)) or the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
 				  collapsed:: true
