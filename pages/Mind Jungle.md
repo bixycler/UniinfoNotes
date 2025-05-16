@@ -398,9 +398,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 673312a3-e94e-478f-9e21-bad72ef29d1b
 				  collapsed:: true
 					- Layers of the self, i.e. ((669a5387-2a97-4311-a295-aa0afd9c4d76))s, are the rain bands and the eye wall.
+						- While the outer layer is the ((66c810a0-9861-4787-bdcf-1378219332be)), the inner layer is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) providing both ((66f267f7-01f9-47b9-8376-abd27fdf2930)) and ((66727858-979d-4d95-8a90-7a749218cfba)) for the body. The inner most layer, i.e. the eye wall, is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+						  :LOGBOOK:
+						  CLOCK: [2025-05-16 Fri 14:23:32]
+						  :END:
 					- The eye, inside the eye wall, is the ((66c8772a-9b29-45b0-b169-2fa847333e02)).
 					  id:: 681826ad-768c-4671-b575-0d9f8ca64c6b
-					- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the ((66c810a0-9861-4787-bdcf-1378219332be)).
+					- The outflow cirrus shield is the ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the self, i.e. the physical ((66c810a0-9861-4787-bdcf-1378219332be)).
 					- Rising and falling air flows are **effect fluxes**, i.e. segments of the ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the ((6810d7ab-c35d-491e-9e2d-95c3024c276e)).
 					- Blog post: [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
 					  collapsed:: true
