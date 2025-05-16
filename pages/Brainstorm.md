@@ -107,17 +107,19 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- DOING About the hurricane's eye 🌀
+		- DOING About the hurricane's eye 🌀: [empty center](((681b4678-686a-4d99-9163-6f60e0b30d2c))), ((66c8772a-9b29-45b0-b169-2fa847333e02)), [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana)
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-16 Fri 13:44:40]
 		  CLOCK: [2025-05-16 Fri 13:44:57]
 		  :END:
-			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117)) In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
-				- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";
-				- brainstorm: ((66f29d57-a87f-4370-9f32-722922a7bff1)); and
-				- write discussion: ((673312a3-e94e-478f-9e21-bad72ef29d1b))
-				- But that task was interrupted and abandoned. Later on, these documents have been slowly updated and some are still stubs until now,
+			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+				- In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
+					- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";
+					- brainstorm: ((66f29d57-a87f-4370-9f32-722922a7bff1)); and
+					- write discussion: ((673312a3-e94e-478f-9e21-bad72ef29d1b))
+					- But that task was interrupted and abandoned. Later on, these documents have been slowly updated and some are still stubs until now, 2025/05/16.
+				- In May 2025, while contemplating ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c)), i see a solution to my issue of perfectionism is to sublimate the  hurricane's eye = [empty center](((681b4678-686a-4d99-9163-6f60e0b30d2c))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = Nibbāna
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
