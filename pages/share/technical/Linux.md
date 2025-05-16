@@ -458,8 +458,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `grep`
 			  print lines that match patterns
 				- `--exclude-dir` to exclude _directory **names**_ from search.
+				  collapsed:: true
 					- This options accept GLOB, e.g. `--exclude-dir={logs\*,\*logs}`, but *__not__ any path*, e.g. not `path/to/dir`.
-					- This options can be used many times
+					- This options can be used many times to exclude different GLOBs.
 			- `tail`
 			  output the last part of files
 				- `-{n,c} [+]$num` to output the last `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or from line/char `+$num` from the start, e.g. `-n +3`, `-n+3`, `-c+3`. Default is `-n 10`.
