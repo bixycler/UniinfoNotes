@@ -938,6 +938,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			  Vì tâm là trụ của pháp, nên tâm muốn giải thoát thì ko thể trụ vào bất kỳ pháp nào bên ngoài mà chỉ có thể trụ vào chính mình, tức trụ vào tâm. Vì self-rely cũng có nghĩa là "rely on self" nên cái tâm self-reliance đó chính là "ngã" 😃 chỉ có điều cái "ngã 0" đó nó khác và đối lập với cái "ngã 1" thông thường của mọi người thôi.
 			- Lưu ý là chữ "pháp" này hơi đặc biệt, là một thuật ngữ chuyên dụng của nhà Phật để chỉ "mọi đối tượng của tâm", tức tất cả những gì mà mình thấy, biết, tin, cảm nhận, và nó khác với từ "pháp" với nghĩa thông thường là "luật pháp, phương pháp" như "Phật pháp" hay "mất Lễ mới tới Pháp" trong Đạo Đức Kinh.
 		- 23/9/2024 Thức và mắt bão ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
+		  id:: 681826b0-6116-418e-8aa1-188314a5eac6
 		  collapsed:: true
 			- "Mắt bão" được gọi là "mắt" không chỉ vì nó có hình dạng giống con mắt, mà nó thực sự là con mắt của ánh sáng trí tuệ và sự hoà hợp 😉 ➰♾️
 			  https://www.facebook.com/lexuandinhct/posts/pfbid0yz26RjtxS5M8QPLtA9x7qBJcFXQnH2JboGF1yAKNLVzCqX6KNhTNjgtNCEgUMxWwl
