@@ -1730,9 +1730,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-05-16 Fri 11:59:30]
 			  CLOCK: [2025-05-16 Fri 12:00:30]
 			  :END:
+				- like the 
+				  ![watermill](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Monjolo.JPG/960px-Monjolo.JPG)
 				- [Action potential](https://en.wikipedia.org/wiki/Action_potential)
 					- (Membrane) Potential: The stored energy or readiness of a cell to perform an action, like a stretched spring. It's defined by the electrical charge difference across the membrane.
-					- Action (Potential): The actual movement or signal (nerve impulse) that the cell sends, like the spring releasing and launching something. It is defined as the sequence of rapid changes in membrane potential.
+					- Action (Potential): The actual movement or signal (nerve impulse) that the cell sends, like the spring releasing and launching something. It is defined as a series of quick changes in membrane potential.
 				- [Potentiality and actuality](https://en.wikipedia.org/wiki/Potentiality_and_actuality)
 		- light cone
 		  id:: 667bd931-8759-4008-8a9a-33e78a5cbdf3
