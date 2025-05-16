@@ -1720,6 +1720,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In physics, ((66727858-979d-4d95-8a90-7a749218cfba)) is called "[force](https://en.wikipedia.org/wiki/Force)" and [interaction](https://en.wikipedia.org/wiki/Fundamental_interaction). The "inter" in "interaction" means the duality of action as a ((66725144-6bc9-4c9f-ba48-2cef02651e52)).
 			- Im mathematics, ((66727858-979d-4d95-8a90-7a749218cfba)) has many names: [operation](https://en.wikipedia.org/wiki/Operation_(mathematics)), [transformation](https://en.wikipedia.org/wiki/Transformation_(function)), [group action](https://en.wikipedia.org/wiki/Group_action).
 			- In Chinese philosophy, ((66727858-979d-4d95-8a90-7a749218cfba)) is called [行(hành)](https://en.wikipedia.org/wiki/Wuxing_(Chinese_philosophy)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+		  :LOGBOOK:
+		  CLOCK: [2025-05-16 Fri 11:59:11]
+		  :END:
+			- DOING Action versus Potential (actual work versus potential engergy)
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-05-16 Fri 11:59:30]
+			  CLOCK: [2025-05-16 Fri 12:00:30]
+			  :END:
+				-
 		- light cone
 		  id:: 667bd931-8759-4008-8a9a-33e78a5cbdf3
 		  collapsed:: true
