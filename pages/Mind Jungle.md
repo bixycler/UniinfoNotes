@@ -1728,13 +1728,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-05-16 Fri 11:59:11]
 		  :END:
-			- DOING Action is fulfilled Potential 
+			- DOING **Action** is *fulfilled* **Potential**
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-05-16 Fri 11:59:30]
 			  CLOCK: [2025-05-16 Fri 12:00:30]
 			  :END:
-				- Potential is to action as potential engergy is to actual work
+				- Potential: potential engergy, continuous range of possibility inside
+				- Action: actual work, discrete  actuality
 				-
 				- like the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)) or the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
 				  collapsed:: true
