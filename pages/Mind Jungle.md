@@ -2118,7 +2118,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The notation $[s_0 / s_1 / s_2 / s_3 / ...]$ of intensional continued fraction is very similar to the notation of [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) $[s_0 : s_1 : s_2 : s_3 : ...]$.
 							- The variable-coefficient progressions (variable-ratio/step progression) are special cases of the [general recursive sequence](https://en.wikipedia.org/wiki/Recurrence_relation).
 								- Complexity order: [recursively enumerable](https://en.wikipedia.org/wiki/Computably_enumerable_set) (partial recursive) > total [recursive](https://mathworld.wolfram.com/RecursiveFunction.html) > [primitive recursive](https://en.wikipedia.org/wiki/Primitive_recursive_function) > P-recursive ([holonomic](https://en.wikipedia.org/wiki/Holonomic_function)) > [constant-recursive](https://en.wikipedia.org/wiki/Constant-recursive_sequence)
-								- [μ-recursive](https://en.wikipedia.org/wiki/General_recursive_function): General recurrences, including sequence-driven coefficients and [non-homogeneous linear recursive](https://en.wikipedia.org/wiki/Recurrence_relation#Solving_first-order_non-homogeneous_recurrence_relations_with_variable_coefficients), can result chaotic behaviors.
+								- [Recursive](https://en.wikipedia.org/wiki/General_recursive_function): General recurrences, including sequence-driven coefficients and [non-homogeneous linear recursive](https://en.wikipedia.org/wiki/Recurrence_relation#Solving_first-order_non-homogeneous_recurrence_relations_with_variable_coefficients), can result chaotic behaviors.
+									- Unbounded recurrence by [minimization operator μ](https://en.wikipedia.org/wiki/%CE%9C_operator) which is equivalent to `while` loop.
+									- Total function = halted program = computable
+									- Partial function = unhalted program = enumerable
+									- E.g. [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function): $A(m+1, n+1) = A(m, A(m+1, n))$
+										- Can only be implemented with `while` on stack (simulating recursion), but not with bounded `for` loops.
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
 									- Primitive recursion: $p_{n+1}(x) = f(n, p_n(x), x); \; p_0(x) = f(0,x)$ 
 									  or explicitly: $p(n+1, x) = f(n, p(n, x), x); \; p(0,x) = f_0(x)$
