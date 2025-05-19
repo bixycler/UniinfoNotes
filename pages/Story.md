@@ -1948,8 +1948,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-05-19 Mon 08:01:22]
 		  :END:
-			-
-		- DOING The sublime within on meditation
+			- ![HoCoc-ngoaiBien.jpg](../assets/Will/story/2025-05/HoCoc-ngoaiBien.jpg)
+		- DOING The sublime within via meditation
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-19 Mon 08:04:21]
