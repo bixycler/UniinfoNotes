@@ -2117,7 +2117,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  collapsed:: true
 							- The notation $[s_0 / s_1 / s_2 / s_3 / ...]$ of intensional continued fraction is very similar to the notation of [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) $[s_0 : s_1 : s_2 : s_3 : ...]$.
 							- The variable-coefficient progressions (variable-ratio/step progression) are special cases of the general [recursive sequence](https://en.wikipedia.org/wiki/Recurrence_relation).
-								-
+								- Complexity order: recursively enumerable (RE) > recursive (including [non-homogeneous linear recursive](https://en.wikipedia.org/wiki/Recurrence_relation#Solving_first-order_non-homogeneous_recurrence_relations_with_variable_coefficients)) > P-recursive ([holonomic](https://en.wikipedia.org/wiki/Holonomic_function)) > [constant-recursive](https://en.wikipedia.org/wiki/Constant-recursive_sequence)
 					- Arrangement of SCIFER terms on paper
 					  collapsed:: true
 					  ![SCIFER-sef.png](../assets/Uniinfo/Unithread/SCIFER-sef.png)
