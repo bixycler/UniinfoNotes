@@ -2123,7 +2123,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Total function = halted program = computable
 									- Partial function = unhalted program = enumerable
 									- E.g. [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function): $A(m+1, n+1) = A(m, A(m+1, n))$
-										- Can only be implemented with `while` on stack (simulating recursion), but not with bounded `for` loops.
+										- Can only be implemented with `while` on stack (simulating recursion), but cannot with bounded `for` loops.
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
 									- Primitive recursion: $p_{n+1}(x) = f(n, p_n(x), x); \; p_0(x) = f(0,x)$ 
 									  or explicitly: $p(n+1, x) = f(n, p(n, x), x); \; p(0,x) = f_0(x)$
