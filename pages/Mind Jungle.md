@@ -2119,9 +2119,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The variable-coefficient progressions (variable-ratio/step progression) are special cases of the [general recursive sequence](https://en.wikipedia.org/wiki/Recurrence_relation).
 								- Complexity order: [recursively enumerable](https://en.wikipedia.org/wiki/Computably_enumerable_set) (RE) > total [recursive](https://mathworld.wolfram.com/RecursiveFunction.html) > [primitive recursive](https://en.wikipedia.org/wiki/Primitive_recursive_function) > P-recursive ([holonomic](https://en.wikipedia.org/wiki/Holonomic_function)) > [constant-recursive](https://en.wikipedia.org/wiki/Constant-recursive_sequence)
 								- Recursive: General recurrences, including sequence-driven coefficients and [non-homogeneous linear recursive](https://en.wikipedia.org/wiki/Recurrence_relation#Solving_first-order_non-homogeneous_recurrence_relations_with_variable_coefficients), can result chaotic behaviors.
-								- Primative recursive:
-								- P-recursive: Coefficients as polynomial functions of index k, solvable via generating functions.
-								- Constant-recursive: Fixed coefficients, solvable via characteristic equations.
+								- Primative recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
+								- P-recursive: Coefficients as polynomial functions of index k, solvable via generating/differential functions, often yielding special functions (e.g., factorial, Bessel functions). E.g.: $k!$, $H_k$ (harmonic numbers),...
+								- Constant-recursive: Fixed coefficients, solvable via characteristic equations, generating closed-form expressions.
 					- Arrangement of SCIFER terms on paper
 					  collapsed:: true
 					  ![SCIFER-sef.png](../assets/Uniinfo/Unithread/SCIFER-sef.png)
