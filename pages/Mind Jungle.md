@@ -2107,8 +2107,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The SCIFER mechanism is usually expressed in the form of **_intensional_ continued fraction**, or sustentational continued fraction:
 							  $$ s_0 / s_1 / s_2 / s_3 / ... $$
 							  $$ = [e_0; e_1, e_2, ...] $$
-								- where scale diff $s_k / s_{k+1} ≈ e_k = (s_k - s_{k+2}) / s_{k+1}$
-								- and linear diff $s_k - s_{k+2} = f_k = s_{k+1} × e_k$
+								- where scale step $s_k / s_{k+1} ≈ e_k = (s_k - s_{k+2}) / s_{k+1}$
+								- and linear step $s_k - s_{k+2} = f_k = s_{k+1} × e_k$
 								- because $s_k = s_{k+1} × e_k + s_{k+2} = f_k + s_{k+2}$
 						- TODO The choice of remainder sign (r > 0 for under-action e-, or r < 0 for over-action e+)... is similar to the one-unit-diff of the final term between [2 equivalent reps of the regular continued fraction](https://en.wikipedia.org/wiki/Simple_continued_fraction#Finite_continued_fractions).
 						  ⇒ binary branching of [Stern–Brocot tree](https://en.wikipedia.org/wiki/Stern%E2%80%93Brocot_tree)
