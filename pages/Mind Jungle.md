@@ -2116,8 +2116,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						  collapsed:: true
 							- The notation $[s_0 / s_1 / s_2 / s_3 / ...]$ of intensional continued fraction is very similar to the notation of [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) $[s_0 : s_1 : s_2 : s_3 : ...]$.
-							- The variable-coefficient progressions (variable-ratio/step progression) are special cases of the general [recursive sequence](https://en.wikipedia.org/wiki/Recurrence_relation).
-								- Complexity order: recursively enumerable (RE) > recursive > P-recursive ([holonomic](https://en.wikipedia.org/wiki/Holonomic_function)) > [constant-recursive](https://en.wikipedia.org/wiki/Constant-recursive_sequence)
+							- The variable-coefficient progressions (variable-ratio/step progression) are special cases of the [general recursive sequence](https://en.wikipedia.org/wiki/General_recursive_function).
+								- Complexity order: recursively enumerable (RE) > [recursive](https://mathworld.wolfram.com/RecursiveFunction.html) > [primitive recursive](https://en.wikipedia.org/wiki/Primitive_recursive_function) > P-recursive ([holonomic](https://en.wikipedia.org/wiki/Holonomic_function)) > [constant-recursive](https://en.wikipedia.org/wiki/Constant-recursive_sequence)
 								- Recursive: General recurrences, including sequence-driven coefficients and [non-homogeneous linear recursive](https://en.wikipedia.org/wiki/Recurrence_relation#Solving_first-order_non-homogeneous_recurrence_relations_with_variable_coefficients), can result chaotic behaviors.
 								- P-recursive: Coefficients as polynomial functions of index k, solvable via generating functions.
 								- Constant-recursive: Fixed coefficients, solvable via characteristic equations.
