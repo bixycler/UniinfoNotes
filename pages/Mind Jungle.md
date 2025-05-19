@@ -2106,6 +2106,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  $$\frac{c}{i} = [e_0; e_1, e_2, ...] = e_0 + {\underset {k=1}{\overset {\infty }{\operatorname {K} }}}{\frac {1}{e_k}} = e_0 + \frac{1}{e_1 + \frac{1}{e_2 + ⋱}}$$
 						- TODO The choice of remainder sign (r > 0 for under-action e-, or r < 0 for over-action e+)... is similar to the one-unit-diff of the final term between [2 equivalent reps of the regular continued fraction](https://en.wikipedia.org/wiki/Simple_continued_fraction#Finite_continued_fractions).
 						  ⇒ binary branching of [Stern–Brocot tree](https://en.wikipedia.org/wiki/Stern%E2%80%93Brocot_tree)
+							- TODO Add animated SVGs to the Wiki page of Stern–Brocot tree: generation rules with median and with continuted fraction
 					- The SCIFER mechanism is usually expressed in the form of **_intensional_ continued fraction**, or sustentational continued fraction:
 					  $$ [s_0 / s_1 / s_2 / s_3 / ...] $$
 					  $$ = [e_0; e_1, e_2, ...] $$
@@ -2113,7 +2114,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- and linear steps $s_k - s_{k+2} = f_k = s_{k+1} × e_k$ make $[s_0 - s_2 - s_4 - ...]$ and $[s_1 - s_3 - s_5 - ...]$ look like [arithmetic progressions](https://en.wikipedia.org/wiki/Arithmetic_progression);
 						- because $s_k = s_{k+1} × e_k + s_{k+2} = f_k + s_{k+2}$
 						- The notation $[s_0 / s_1 / s_2 / s_3 / ...]$ of intensional continued fraction is very similar to the notation of [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) $[s_0 : s_1 : s_2 : s_3 : ...]$.
-						- TODO Add animated SVGs to Wiki page: generation rules with median and with continuted fraction
 					- Arrangement of SCIFER terms on paper
 					  collapsed:: true
 					  ![SCIFER-sef.png](../assets/Uniinfo/Unithread/SCIFER-sef.png)
