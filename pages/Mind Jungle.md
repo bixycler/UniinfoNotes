@@ -2114,8 +2114,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- because $s_k = s_{k+1} × e_k + s_{k+2} = f_k + s_{k+2}$
 						- The notation $[s_0 / s_1 / s_2 / s_3 / ...]$ of intensional continued fraction is very similar to the notation of [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) $[s_0 : s_1 : s_2 : s_3 : ...]$.
 						- TODO Add animated SVGs to Wiki page: generation rules with median and with continuted fraction
-					- ![SCIFER-sef.png](../assets/Uniinfo/Unithread/SCIFER-sef.png)
-						- Horizontal layout
+					- Arrangement SCIFER terms on paper
+					  ![SCIFER-sef.png](../assets/Uniinfo/Unithread/SCIFER-sef.png)
+						- Horizontal layout (more concise for typesetting)
 						  ```
 						      f0   f1   f2
 						  s0 / s1 / s2 / s3
