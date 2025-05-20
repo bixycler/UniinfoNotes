@@ -2124,8 +2124,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Partial function = unhalted program = enumerable
 									- E.g. [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function): $A(m+1, n+1) = A(m, A(m+1, n))$
 										- This recursion is [double](https://en.wikipedia.org/wiki/Double_recursion), not primitive.
-											- The outer recursion $A(m,·)$
-										- Can only be implemented with `while` on stack (simulating recursion), but cannot with bounded `for` loops.
+											- The outer recursion $A(m,·)$ makes it cannot be unfolded into bounded `for` loops, but into a stack of arguments instead.
+											- So, it can only be implemented with `while` on stack (simulating recursion).
+										- Originally, Ackermann defined $\varphi(m,n,p)$
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
 									- Primitive ([pure](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion)) recursion: $p_{n+1}(x) = f(p_n(x)); \; p_0(x) = x$,  from *provided* function $f()$ independent from $p()$; 
 									  is equivalent to a bounded `for` loop over $n$ whose body is $f()$.
