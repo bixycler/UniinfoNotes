@@ -2135,6 +2135,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- The very similar recursive form $B(m+1, n+1) = B(m, B(m, n)); \; B(0, n) = n+1$,  is just a successor, $B(m, n) = n+1$, with the whole variable $m$ discarded!
 											- [?] Wikipedia error?
 												- On 17 August 2007, [76.247.115.69](https://en.wikipedia.org/wiki/Special:Contributions/76.247.115.69) added [→Definition and properties: Illustrated that Ackermann is expressible with primitive recursion + higher-order functionals](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=151767125&oldid=151721753)
+												  collapsed:: true
 													- First
 													  > In addition, the Ackermann function can be expressed with a combination of primitive recursion and higher-order functions (sometimes called functionals) by exploiting the type isomorphism A×B→C ≅ A→(B→C). The order of arguments of *C* is immaterial, but chosen for ease of illustration.
 													- > $A(0) = Succ$
@@ -2144,6 +2145,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 													  $B(f)(n) = f(n-1)$
 													- Then [Clarified 'primitive recursion' versus 'primitive recursive'](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=151767125)
 													  > Though the Ackermann function is often used to debunk the hypothesis that all useful or simple functions are primitive recursive, one should not confuse the primitive recursive functions with those definable by primitive recursion (it is this latter class that is of interest to programming language theorists because programs written using only primitive recursion are guaranteed to terminate).
+												- In Talks
+													- [Definition via higher-order functionals](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Definition_via_higher-order_functionals)
+													- [Possible confusion between Ackermann's function and Friedman's function because both use the capital letter A](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Possible_confusion_between_Ackermann's_function_and_Friedman's_function_because_both_use_the_capital_letter_A)
+													- on 27 December 2008, [r.e.s.](https://en.wikipedia.org/wiki/User:R.e.s.) gave [interative version by Harvey Friedman](https://en.wikipedia.org/wiki/Talk:Ackermann_function#c-R.e.s.-2008-12-27T21:42:00.000Z-Jb-adder-2008-12-07T07:59:00.000Z)
+													  > There's also a good case to be made for including one of the "streamlined" versions of the Ackermann function, especially the one appearing in [*Long Finite Sequences*](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.539) by Harvey Friedman: A1(n) = 2n, Ak+1(n) = AkAk...Ak(n)(1), where there are n Ak's in the iteration.
+												-
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
 									- Primitive ([pure](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion)) recursion: $p_{n+1}(x) = f(p_n(x)); \; p_0(x) = x$,  from *provided* function $f()$ independent from $p()$; 
 									  is equivalent to a bounded `for` loop over $n$ whose body is $f()$.
