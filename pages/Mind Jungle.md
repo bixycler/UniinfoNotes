@@ -2126,7 +2126,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- Can only be implemented with `while` on stack (simulating recursion), but cannot with bounded `for` loops.
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
 									- Primitive recursion: $p_{n+1}(x) = f(n, p_n(x), x); \; p_0(x) = f(0,x)$ 
-									  or explicitly: $p(n+1, x) = f(n, p(n, x), x); \; p(0,x) = f_0(x)$
+									  or explicitly: $p(S(n), x) = f(n, p(n, x), x); \; p(0,x) = f_0(x)$ with successor function $S()$ over the interative variable to generalize $n$ from integer to 
 									  is equivalent to a bounded `for` loop.
 								- P-recursive: Coefficients as polynomial functions of index k, solvable via generating/differential functions, often yielding special functions (e.g., factorial, Bessel functions). E.g.: $k!$ ([factorial](https://en.wikipedia.org/wiki/Factorial)), $H_k$ ([harmonic numbers](https://en.wikipedia.org/wiki/Harmonic_number), a special [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_(mathematics))), ...
 								- Constant-recursive: Fixed coefficients, solvable via characteristic equations, generating closed-form expressions. E.g.: $F_{n}=F_{n-1}+F_{n-2}$ ([Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)), ...
