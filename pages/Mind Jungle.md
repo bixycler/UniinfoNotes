@@ -2122,7 +2122,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Unbounded recurrence by [minimization operator μ](https://en.wikipedia.org/wiki/%CE%9C_operator) which is equivalent to `while` loop.
 									- Total function = halted program = computable
 									- Partial function = unhalted program = enumerable
-									- E.g. [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function): $A(m+1, n+1) = A(m, A(m+1, n)); \; A(m, -1) = 1; \;  A(0, n) = n+1$
+									- E.g. [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function): $A(m+1, n+1) = A(m, A(m+1, n)); \; A(m, -1) = 1; \;  A(0, -1) = 0$
 										- This recursion is [double](https://en.wikipedia.org/wiki/Double_recursion), not primitive.
 											- The outer recursion $A(m,·)$ makes it cannot be unfolded into bounded `for` loops, but into a stack of arguments instead.
 											- So, it can only be implemented with `while` on stack (simulating recursion).
