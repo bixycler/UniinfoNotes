@@ -2125,9 +2125,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- E.g. [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function): $A(m+1, n+1) = A(m, A(m+1, n))$
 										- Can only be implemented with `while` on stack (simulating recursion), but cannot with bounded `for` loops.
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
-									- Primitive recursion: $p_{n+1}(x) = f(n, p_n(x)); \; p_0(x) = x$ from 2 provided functions $f(
-									  or explicitly: $p(S(n), x) = f(n, p(n, x), x); \; p(0,x) = f_0(x)$ with successor function $S()$ over the interative variable $n$ to generalize it beyond integers.
+									- Primitive ([pure](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion)) recursion: $p_{n+1}(x) = f(p_n(x)); \; p_0(x) = x$,  from provided function $f()$; 
 									  is equivalent to a bounded `for` loop over $n$.
+										- Explicit long form: $p(S(n), x) = f(n, p(n, x), x); \; p(0,x) = f_0(x)$, with successor function $S()$ over the iterative variable $n$ to generalize it beyond integers, and let $f()$ access both $n$ & $x$.
 								- P-recursive: Coefficients as polynomial functions of index k, solvable via generating/differential functions, often yielding special functions (e.g., factorial, Bessel functions). E.g.: $k!$ ([factorial](https://en.wikipedia.org/wiki/Factorial)), $H_k$ ([harmonic numbers](https://en.wikipedia.org/wiki/Harmonic_number), a special [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_(mathematics))), ...
 								- Constant-recursive: Fixed coefficients, solvable via characteristic equations, generating closed-form expressions. E.g.: $F_{n}=F_{n-1}+F_{n-2}$ ([Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)), ...
 					- Arrangement of SCIFER terms on paper
