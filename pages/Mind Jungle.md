@@ -2125,7 +2125,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- E.g. [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function): $A(m+1, n+1) = A(m, A(m+1, n)); \; A(m, -1) = 1; \;  A(0, -1) = 0$
 									  defined by Péter and Robinson to simplify the [orgininal](((682be581-969d-44bd-a229-a3bc9c03ad62))) Ackermann's $φ_n(x,y)$
 										- This recursion is [double](https://en.wikipedia.org/wiki/Double_recursion), not primitive.
-											- The outer recursion $A(m,·)$ makes it cannot be unfolded into bounded `for` loops, but into a stack of arguments instead.
+											- The inner recursion $A(m+1,·)$ makes it cannot be unfolded into bounded `for` loops, but into a stack of arguments instead.
 											- So, it can only be implemented with `while` on stack (simulating recursion).
 										- Originally, Ackermann defined $φ_n(x,y)$ such that $φ_{(0,1,2)}(x,y) = (x+y, x×y, x^y)$
 										  id:: 682be581-969d-44bd-a229-a3bc9c03ad62
