@@ -2133,6 +2133,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- Base cases: $φ_0(x,y) = x+y$;   $φ_1(x,0) = 0$;   $φ_2(x,0) = 1$;   $φ_m(x,0) = x$
 											- The standard binary function is obtained by fixing $x=1$:  $A(m,n) = φ_m(1,n)$
 										- The very similar recursive form $B(m+1, n+1) = B(m, B(m, n)); \; B(0, n) = n+1$,  is just a successor, $B(m, n) = n+1$, with the whole variable $m$ discarded!
+											- Wikipedia
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
 									- Primitive ([pure](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion)) recursion: $p_{n+1}(x) = f(p_n(x)); \; p_0(x) = x$,  from *provided* function $f()$ independent from $p()$; 
 									  is equivalent to a bounded `for` loop over $n$ whose body is $f()$.
