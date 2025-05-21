@@ -122,7 +122,8 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  :LOGBOOK:
 		  
 		  :END:
-		- TODO
+		- TODO Khám SK: 12:30 đến 15:30 chiều Thứ Bảy 21/06/2025
+		    [DYM Medical Center](https://maps.app.goo.gl/p3GoSqsACfK4ApBD9): Phòng B103, M plaza, 39 Lê Duẩn, phường Bến Nghé, Quận 1
 		  SCHEDULED: <2025-06-21 Sat 12:30>
 		- ...
 	- ## Future Tasks
