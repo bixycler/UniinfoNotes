@@ -2164,17 +2164,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														- Tobias Bergemann said:
 														  > [David Turner](https://en.wikipedia.org/wiki/David_Turner_(computer_scientist))'s paper on [total functional programming](https://en.wikipedia.org/wiki/Total_functional_programming) does in fact define the Ackermann function (using [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language)) notation), but he does not define a separate iteration function.
 														- Daniel5Ko replied:
-															- The David Turner's paper gave Haskel codes of the exact definition of the Ackermann–Péter function.
+															- The David Turner's paper gave Haskell codes of the exact definition of the Ackermann–Péter function.
 															  #+BEGIN_QUOTE
 															  From the paper:
-															  ```haskel
+															  ```haskell
 															  ack 0 n = n+1
 															  ack (m+1) 0 = ack m 1
 															  ack (m+1) (n+1) = ack m (ack (m+1) n)
 															  ```
 															  #+END_QUOTE
-															- Add higher-order functional `h` with `f` = `ack m`:
-															  ```haskel
+															- Rewrite with functional `h` such that `f` = `ack m` and `h f` = `ack (m+1)`:
+															  ```haskell
 															  ack 0 = succ
 															  ack (m+1) = h (ack m) where
 															  	h f 0 = f 1
