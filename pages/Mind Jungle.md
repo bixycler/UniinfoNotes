@@ -2157,20 +2157,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 													  > Though the Ackermann function is often used to debunk the hypothesis that all useful or simple functions are primitive recursive, one should not confuse the primitive recursive functions with those definable by primitive recursion (it is this latter class that is of interest to programming language theorists because programs written using only primitive recursion are guaranteed to terminate).
 												- Thanks to [Wikipedia-Blame](https://wintus.github.io/Wikipedia-Blame/) in [GitHub](https://github.com/Wintus/Wikipedia-Blame).
 												- In Talks
+												  id:: 682c1ce8-de95-497b-b2cc-e4d86c353862
 													- [Definition via higher-order functionals](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Definition_via_higher-order_functionals)
 													  On 16 July 2012, Daniel5Ko said:
 													  > IIRC, a definition which is primitive recursive and uses HOFs can be found in the Paper "Total Functional Programming" by David Turner, but it may be slightly different - i.e. not extracting out something like the Iter here.
 														- Tobias Bergemann said:
 														  > [David Turner](https://en.wikipedia.org/wiki/David_Turner_(computer_scientist))'s paper on [total functional programming](https://en.wikipedia.org/wiki/Total_functional_programming) does in fact define the Ackermann function (using [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language)) notation), but he does not define a separate iteration function.
 														- Daniel5Ko replied:
-														  #+BEGIN_QUOTE
-														  From the paper:
-														  ```haskel
-														  ack 0 n = n+1
-														  ack (m+1) 0 = ack m 1
-														  ack (m+1) (n+1) = ack m (ack (m+1) n)
-														  ```
-														  #+END_QUOTE
+															- The David Turner's paper gave Haskel codes of the exact definition of the Ackermann–Péter function.
+															  #+BEGIN_QUOTE
+															  From the paper:
+															  ```haskel
+															  ack 0 n = n+1
+															  ack (m+1) 0 = ack m 1
+															  ack (m+1) (n+1) = ack m (ack (m+1) n)
+															  ```
+															  #+END_QUOTE
 															- And already said:
 															  > By the way, definition in this style, even with a function called "iter", can be found on page 104 in [[5](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)]. Unfortunately it's not quite the same Ackermann function, and not just slightly shifted or something, but **utterly wrong**, since there `ack n m == m+1` for all nonnegative n m. A really bad typo! ;)
 														- However, there was no update of the session `Definition and properties` in this occasion (July 2012), except some [minor changes of parenthesis](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=502596425&oldid=495513006).
