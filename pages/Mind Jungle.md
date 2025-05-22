@@ -2190,6 +2190,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 															  ack 0 = succ
 															  ack (m+1) = h (ack m)
 															  ```
+															- $ack(m+1) = h(ack(m)) = h(h(ack(m-1))) = ... = h^{m+1}(ack(0)) = h^{m+1}(succ)$ 
+															  ⇒ $ack(m+1) = h(ack(m))$
 															- And already said:
 															  > By the way, definition in this style, even with a function called "iter", can be found on page 104 in [[5](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)]. Unfortunately it's not quite the same Ackermann function, and not just slightly shifted or something, but **utterly wrong**, since there `ack n m == m+1` for all nonnegative n m. A really bad typo! ;)
 														- However, there was no update of the session `Definition and properties` in this occasion (July 2012), except some [minor changes of parenthesis](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=502596425&oldid=495513006).
