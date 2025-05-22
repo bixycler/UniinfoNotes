@@ -2145,6 +2145,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 													  $B(f)(n) = f(n-1)$
 													- Then [Clarified 'primitive recursion' versus 'primitive recursive'](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=151767125)
 													  > Though the Ackermann function is often used to debunk the hypothesis that all useful or simple functions are primitive recursive, one should not confuse the primitive recursive functions with those definable by primitive recursion (it is this latter class that is of interest to programming language theorists because programs written using only primitive recursion are guaranteed to terminate).
+												- Thanks to [Wikipedia-Blame]()
 												- In Talks
 													- [Definition via higher-order functionals](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Definition_via_higher-order_functionals)
 													  On 16 July 2012, Daniel5Ko said:
