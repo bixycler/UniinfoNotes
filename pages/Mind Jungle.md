@@ -2134,6 +2134,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- The standard binary function is obtained by fixing $x=1$:  $A(m,n) = φ_m(1,n)$
 										- The very similar recursive form $B(m+1, n+1) = B(m, B(m, n)); \; B(0, n) = n+1$,  is just a successor, $B(m, n) = n+1$, with the whole variable $m$ discarded!
 											- [?] Wikipedia error?
+											  collapsed:: true
 												- On 17 August 2007, [76.247.115.69](https://en.wikipedia.org/wiki/Special:Contributions/76.247.115.69) added [→Definition and properties: Illustrated that Ackermann is expressible with primitive recursion + higher-order functionals](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=151767125&oldid=151721753)
 												  collapsed:: true
 													- First
@@ -2163,6 +2164,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														  #+END_QUOTE
 															- And already said:
 															  > By the way, definition in this style, even with a function called "iter", can be found on page 104 in [[5](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)]. Unfortunately it's not quite the same Ackermann function, and not just slightly shifted or something, but **utterly wrong**, since there `ack n m == m+1` for all nonnegative n m. A really bad typo! ;)
+														- However, there was no update of the session `Definition and properties` in this occasion (July 2012), except some [minor changes of parenthesis](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=502596425&oldid=495513006).
 													- on 27 December 2008, [r.e.s.](https://en.wikipedia.org/wiki/User:R.e.s.) gave [interative version by Harvey Friedman](https://en.wikipedia.org/wiki/Talk:Ackermann_function#c-R.e.s.-2008-12-27T21:42:00.000Z-Jb-adder-2008-12-07T07:59:00.000Z)
 													  > There's also a good case to be made for including one of the "streamlined" versions of the Ackermann function, especially the one appearing in [*Long Finite Sequences*](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.539) by Harvey Friedman: A1(n) = 2n, Ak+1(n) = AkAk...Ak(n)(1), where there are n Ak's in the iteration.
 													- [primitive recursive vs. primitive recursion](https://en.wikipedia.org/wiki/Talk:Ackermann_function#primitive_recursive_vs._primitive_recursion): Resolved: they are the same!
