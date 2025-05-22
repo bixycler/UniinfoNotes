@@ -2117,12 +2117,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  collapsed:: true
 							- The notation $[s_0 / s_1 / s_2 / s_3 / ...]$ of intensional continued fraction is very similar to the notation of [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) $[s_0 : s_1 : s_2 : s_3 : ...]$.
 							- The variable-coefficient progressions (variable-ratio/step progression) are special cases of the [general recursive sequence](https://en.wikipedia.org/wiki/Recurrence_relation).
+							  id:: 682b0f4a-40aa-43be-9f70-33d0078ff0aa
+							  :LOGBOOK:
+							  CLOCK: [2025-05-19 Mon 18:06:44]
+							  :END:
 								- Complexity order: [recursively enumerable](https://en.wikipedia.org/wiki/Computably_enumerable_set) (partial recursive) > total [recursive](https://mathworld.wolfram.com/RecursiveFunction.html) > [primitive recursive](https://en.wikipedia.org/wiki/Primitive_recursive_function) > P-recursive ([holonomic](https://en.wikipedia.org/wiki/Holonomic_function)) > [constant-recursive](https://en.wikipedia.org/wiki/Constant-recursive_sequence)
 								- [Recursive](https://en.wikipedia.org/wiki/General_recursive_function): General recurrences, including sequence-driven coefficients and [non-homogeneous linear recursive](https://en.wikipedia.org/wiki/Recurrence_relation#Solving_first-order_non-homogeneous_recurrence_relations_with_variable_coefficients), can result chaotic behaviors.
 									- Unbounded recurrence by [minimization operator μ](https://en.wikipedia.org/wiki/%CE%9C_operator) which is equivalent to `while` loop.
 									- Total function = halted program = computable
 									- Partial function = unhalted program = enumerable
 									- E.g. [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function): $A(m+1, n+1) = A(m, A(m+1, n)); \; A(m, -1) = 1; \;  A(0, -1) = 0$
+									  id:: 682b3765-5c79-45f6-bcd5-ac480c2eb800
 									  defined by Péter and Robinson to simplify the [orgininal](((682be581-969d-44bd-a229-a3bc9c03ad62))) Ackermann's $φ_n(x,y)$
 										- This recursion is [double](https://en.wikipedia.org/wiki/Double_recursion), not primitive.
 											- The inner recursion of unreduced argument $A(m+1,·)$ makes it cannot be unfolded into bounded `for` loops, but into a stack of arguments instead.
@@ -2133,8 +2138,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											- Base cases: $φ_0(x,y) = x+y$;   $φ_1(x,0) = 0$;   $φ_2(x,0) = 1$;   $φ_m(x,0) = x$
 											- The standard binary function is obtained by fixing $x=1$:  $A(m,n) = φ_m(1,n)$
 										- The very similar recursive form $B(m+1, n+1) = B(m, B(m, n)); \; B(0, n) = n+1$,  is just a successor, $B(m, n) = n+1$, with the whole variable $m$ discarded!
-											- [?] Wikipedia error?
+											- DOING [?] Wikipedia error?
+											  id:: 682c1735-31c3-4024-8d8a-20d8434db966
 											  collapsed:: true
+											  :LOGBOOK:
+											  CLOCK: [2025-05-20 Tue 12:56:46]
+											  :END:
 												- On 17 August 2007, [76.247.115.69](https://en.wikipedia.org/wiki/Special:Contributions/76.247.115.69) added [→Definition and properties: Illustrated that Ackermann is expressible with primitive recursion + higher-order functionals](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=151767125&oldid=151721753)
 												  collapsed:: true
 													- First
