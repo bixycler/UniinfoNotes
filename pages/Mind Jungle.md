@@ -2180,6 +2180,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 															  	h f 0 = f 1
 															  	h f (n+1) = f (h f n)
 															  ```
+															- Extracting `h` to Global Scope:
+															  ```haskell
+															  h :: (Int -> Int) -> (Int -> Int)
+															  h f 0 = f 1
+															  h f (n+1) = f (h f n)
+															  
+															  ack :: Int -> (Int -> Int)
+															  ack 0 = succ
+															  ack (m+1) = h (ack m)
+															  ```
 															- And already said:
 															  > By the way, definition in this style, even with a function called "iter", can be found on page 104 in [[5](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)]. Unfortunately it's not quite the same Ackermann function, and not just slightly shifted or something, but **utterly wrong**, since there `ack n m == m+1` for all nonnegative n m. A really bad typo! ;)
 														- However, there was no update of the session `Definition and properties` in this occasion (July 2012), except some [minor changes of parenthesis](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=502596425&oldid=495513006).
@@ -2187,7 +2197,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 													  > There's also a good case to be made for including one of the "streamlined" versions of the Ackermann function, especially the one appearing in [*Long Finite Sequences*](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.539) by Harvey Friedman: A1(n) = 2n, Ak+1(n) = AkAk...Ak(n)(1), where there are n Ak's in the iteration.
 													- [primitive recursive vs. primitive recursion](https://en.wikipedia.org/wiki/Talk:Ackermann_function#primitive_recursive_vs._primitive_recursion): Resolved: they are the same!
 													- [Possible confusion between Ackermann's function and Friedman's function because both use the capital letter A](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Possible_confusion_between_Ackermann's_function_and_Friedman's_function_because_both_use_the_capital_letter_A)
-												-
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
 									- Primitive ([pure](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion)) recursion: $p_{n+1}(x) = f(p_n(x)); \; p_0(x) = x$,  from *provided* function $f()$ independent from $p()$; 
 									  is equivalent to a bounded `for` loop over $n$ whose body is $f()$.
