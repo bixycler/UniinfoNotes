@@ -2152,10 +2152,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														- Tobias Bergemann said:
 														  > [David Turner](https://en.wikipedia.org/wiki/David_Turner_(computer_scientist))'s paper on [total functional programming](https://en.wikipedia.org/wiki/Total_functional_programming) does in fact define the Ackermann function (using [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language)) notation), but he does not define a separate iteration function.
 														- Daniel5Ko replied:
-														  
+														  #+BEGIN_QUOTE
 														  From the paper:
 														  ```haskel
+														  ack 0 n = n+1
+														  ack (m+1) 0 = ack m 1
+														  ack (m+1) (n+1) = ack m (ack (m+1) n)
 														  ```
+														  #+END_QUOTE
+															- And already said:
+															  > By the way, definition in this style, even with a function called "iter", can be found on page 104 in [[5](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)]. Unfortunately it's not quite the same Ackermann function, and not just slightly shifted or something, but **utterly wrong**, since there `ack n m == m+1` for all nonnegative n m. A really bad typo! ;)
 													- on 27 December 2008, [r.e.s.](https://en.wikipedia.org/wiki/User:R.e.s.) gave [interative version by Harvey Friedman](https://en.wikipedia.org/wiki/Talk:Ackermann_function#c-R.e.s.-2008-12-27T21:42:00.000Z-Jb-adder-2008-12-07T07:59:00.000Z)
 													  > There's also a good case to be made for including one of the "streamlined" versions of the Ackermann function, especially the one appearing in [*Long Finite Sequences*](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.539) by Harvey Friedman: A1(n) = 2n, Ak+1(n) = AkAk...Ak(n)(1), where there are n Ak's in the iteration.
 													- [primitive recursive vs. primitive recursion](https://en.wikipedia.org/wiki/Talk:Ackermann_function#primitive_recursive_vs._primitive_recursion): Resolved: they are the same!
