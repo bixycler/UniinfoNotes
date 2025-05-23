@@ -1968,7 +1968,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-05-23 Fri 12:14:38]
 		  CLOCK: [2025-05-23 Fri 12:15:05]
 		  :END:
-			-
+			- This morning, 23 May, on the way to company, contemplating the Great Lie, i see that i'm still too humble to be with the Great Lie, and still hiding in the cave with my Naked Truth.
+			- Let's document about the parables of the Naked Truth.
+			- Published posts
+				- [fb](https://www.facebook.com/share/p/1CJPvZJHiS/)
+					- Giả Dối Tinh Vi và Chân Thật Trần Trụi như hai thái cực chẳng đội trời chung... nhưng kỳ thực lại là hai chị em sinh đôi, tuy 2 mà 1. Vì lòng yêu thương con người vô hạn mà họ đã chấp nhận biến ra thành hai thái cực đối lập để làm hài lòng mọi người.
+					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
+					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
+					- Đó là bản "cổ tích" được viết từ cảm hứng qua "sự tích về Sự Thật Trần Trụi" (the fable of the Naked Truth) phổ biến bên Tây.
+				-
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  collapsed:: true
 		  :LOGBOOK:
