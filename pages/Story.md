@@ -1975,6 +1975,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [The Well-Dressed Lie and the Naked Truth (fb)](https://www.facebook.com/share/p/1CJPvZJHiS/)
 					- Giả Dối Tinh Vi và Chân Thật Trần Trụi như hai thái cực chẳng đội trời chung... nhưng kỳ thực lại là hai chị em sinh đôi, tuy 2 mà 1. Vì lòng yêu thương con người vô hạn mà họ đã chấp nhận biến ra thành hai thái cực đối lập để làm hài lòng mọi người.
 					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
+					  collapsed:: true
+						- Bản tóm gọn
+							- Ngày xưa, có hai chị em sinh đôi giống hệt nhau, sống ở hai thị trấn khác nhau, nơi họ được gọi là “Chân Thật” một cách trìu mến. Người ở thị trấn này đã hoang mang khi gặp cô Chân Thật ở thị trấn kia vì họ không thể phân biệt với cô Chân Thật ở thị trấn này qua khuôn mặt, , bám víu vào vẻ ngoài quen thuộc và e dè với trang phục lạ lẫm, gọi chị em từ thị trấn kia là “Giả Dối” và xua đuổi cô. Đau lòng vì các thị trấn tranh cãi về “Sự Thật thật sự”, hai chị em gặp nhau trong một hang động.
+							- ― Chúng ta là một linh hồn, bị chia cắt bởi định kiến của họ – một người khóc.
+							  ― Chị sẽ cho em áo quần để làm hài lòng cả hai thị trấn – người kia nói.
+							  ― Nhưng chị sẽ trần truồng và bị khinh miệt!
+							  ― Vì tình yêu với con người, chị sẽ chịu đựng. Em sẽ đảm nhận việc làm họ hài lòng, nhiệm vụ chẳng kém khó khăn!
+							- Họ ôm nhau, nước mắt rơi, rồi chia tay – một người lấy hết áo quần, người kia để lại trần truồng. Để làm hài lòng mọi người, người mặc áo trở lại thị trấn, nhanh chóng thay đổi trang phục cho phù hợp với mong đợi của từng người, đảm bảo ai cũng thoải mái với “Sự Thật” của mình. Dù khéo léo, đôi khi cô bị bắt gặp giữa lúc thay đồ và bị gọi là “Dối Trá”. Người trần truồng trốn trong hang, chỉ thỉnh thoảng xuất hiện để nhắc nhở về sự thật nguyên bản. Hễ thấy cô, người ta gọi cô là “điên rồ” hoặc tệ hơn, rồi hoảng sợ bỏ chạy vì bất an; một số lạm dụng cô trong đêm.
+							- Chỉ vài người, chán ngán Dối Trá ăn mặc lộng lẫy, tìm đến Sự Thật trong hang.
+							  ― Sao chị trốn? – họ hỏi.
+							  ― Chị đã trao vẻ đẹp cho em gái để phục vụ các người – cô đáp – vì các người sợ sự thật trần truồng.
+							- Khi Sự Thật trần truồng hiện diện hoàn toàn, hầu hết người tìm kiếm sự thật hoảng loạn, bỏ chạy, và đuổi theo một “Sự Thật” an ủi khác, vốn là Dối Trá của người khác. Chỉ những kẻ dũng cảm ở lại, đón nhận Sự Thật trần truồng.
+						- Bản đầy đủ
+							-
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
 					  collapsed:: true
 						- Short version (with the help of Grok 3)
