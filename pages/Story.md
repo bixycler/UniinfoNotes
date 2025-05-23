@@ -1986,9 +1986,59 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Chỉ có vài người tìm đến Chân Thật trong hang, sau khi đã chán ngán với Giả Dối bị che đậy.
 							  ― Sao em lại trốn ở đây? – họ hỏi.
 							  ― Em đã trao vẻ đẹp lại cho em gái để phục vụ các anh – cô đáp – vì các anh sợ sự thật trần trụi.
-							- Khi Chân Thật trần lộ ra hoàn toàn thì hầu hết những người tìm kiếm sự thật đều hoảng loạn, bỏ chạy, và đuổi theo một “Chân Thật” khác thoải mái hơn, vốn là Giả Dối của kẻ khác. Chỉ những ai dũng cảm đối diện và đón nhận Chân Thật trần trụi thì mới ở lại và trân trọng cô.
+							- Khi Chân Thật trần trụi lộ ra hoàn toàn thì hầu hết những người tìm kiếm sự thật đều hoảng loạn, bỏ chạy, và đuổi theo một “Chân Thật” khác thoải mái hơn, vốn là Giả Dối của kẻ khác. Chỉ những ai dũng cảm đối diện và đón nhận Chân Thật trần trụi thì mới ở lại và trân trọng cô.
 						- Bản đầy đủ
-							-
+						  collapsed:: true
+							- Ngày xưa, vào buổi bình minh của nền văn minh nhân loại, có hai chị em sinh đôi giống hệt nhau từ lúc mới sinh. Từ nhỏ, cả hai đều xinh đẹp một cách thuần khiết và rất dễ thương dễ mến. Khi lớn lên, họ phải tách ra để đến những nơi khác nhau, người chị về phía đông và người em về phía tây, để sống và làm những công việc khác nhau. Họ được mọi người xung quanh yêu mến đến độ người dân ở thị trấn phía đông gọi cô chị là “Chân Thật” với ý bao hàm tất cả những đức tính tốt lành, và cô em cũng được người ở thị trấn phía tây gọi là “Chân Thật” với đầy ưu ái như vậy. Một ngày nọ, cô chị qua thị trấn phía tây để thăm em gái. Lúc đầu, mọi người ở đó nhầm lẫn hai chị em với nhau vì khuôn mặt họ không thể nào phân biệt được và đều cùng tên là “Chân Thật”. Nhưng rồi họ nhận ra cô Chân Thật của mình qua bộ áo đầm quen thuộc. Họ gọi cô mặc bộ đồ lạ kia là “Giả Dối”:
+								- Mày không phải là Chân Thật!
+								- Em là Chân Thật mà! Chúng em là chị em sinh đôi cùng tên mà!
+								- Nếu vậy thì mày chỉ là Chân Thật giả chứ không phải Chân Thật thật!
+								- Em chỉ là một bé Chân Thật khác, giống như em của em thôi.
+								- Không, chúng tôi không tin chuyện vớ vẩn như vậy đâu! Chỉ có một Chân Thật. Mày đang nói dối! Mày là Giả Dối, không phải Chân Thật! Mày là đồ giả hình, giả dạng, giả tạo,...
+								  Người dân ở đó quy mọi điều xấu xa nhất cho cô chị qua tên gọi “Giả Dối” và họ giận dữ đuổi cô ra khỏi thị trấn phía tây. Cô em phải đi cùng chị mình về phía đông để bảo vệ chị gái khỏi những người hung dữ kia và để cô chị về nhà được an toàn. Nhưng khi họ vào thị trấn phía đông, cô em cũng gặp phải tình huống tương tự: Cô bị gọi là “Giả Dối”, bị sỉ nhục và bị đuổi khỏi thị trấn phía đông.
+							- Sự phân biệt đối xử đó không chỉ khiến hai chị em đau khổ, mà còn khiến người dân hai thị trấn gây hấn với nhau để bảo vệ “Chân Thật” yêu quý của họ khỏi bị gọi là “Giả Dối” và bị xúc phạm bởi người thị trấn bên kia. Vì yêu quý mọi người nên hai chị em lẩn vào một hang động để cùng nhau tìm cách giải quyết xung đột này.
+								- Đau buồn quá em ơi! Tệ quá em ơi!
+								- Em cũng buồn. Nhưng chúng ta phải làm gì đó để chấm dứt sự hỗn loạn này!
+								- Giá như chúng ta chẳng phải xa nhau, giá như chúng ta là một...
+								- Dạ! Chị nói đúng, chúng ta phải là một, không thể tách làm hai được!
+								- Nhưng bằng cách nào???
+								- Thực ra thì bản chất chúng ta đã là một rồi... Chỉ có điều là người ta kỳ thị chị em mình bằng những thành kiến của họ và bằng những bộ áo bên ngoài của chúng ta mà thôi...
+								- À, đúng rồi! Chỉ là cái bộ áo!!! Là chính nó, bộ áo!!! Chị sẽ đưa em quần áo của chị để em có thể mặc những trang phục khác nhau 👗🥻 ở những nơi khác nhau để em luôn phù hợp với văn hoá ở đó dù em có đi bất cứ nơi đâu. Như vậy thì người ở thị trấn phía tây sẽ coi em là người phía tây và người ở thị trấn phía đông sẽ coi em là người phía đông. Như vậy sẽ không còn ai buồn phiền chi nữa.
+								- Còn chị thì sao?!!!
+								- Đừng lo lắng cho chị! Trong tim chúng ta vẫn chỉ là một ♥️. Em thì thực hiện nhiệm vụ khó đó là làm hài lòng mọi người, còn chị thì hỗ trợ họ mỗi khi họ ngã xuống.
+								- Không, em không thể làm vậy được! Thật bất công cho chị quá! Em không thể lấy quần áo của chị... Hic...
+								- Em không còn yêu thương người ta nữa phải không?
+								- Không, không, có chứ! Em yêu mọi người rất nhiều... nhưng...
+								- Nhưng em lại không muốn hy sinh cho những người mình yêu thương sao?! Đừng bi quan em nhé! Sự hy sinh của chúng ta sẽ rất có ích cho mọi người trên khắp thế giới.
+								- Em... em hiểu rồi... em sẽ thay mặt chị cố gắng hết sức để làm hài lòng mọi người. Em sẽ nhớ chị nhiều lắm, hic, hic...
+								- Chị cũng sẽ nhớ em! Chị sẽ luôn ở bên em... trong trái tim em ♥️!
+								  Hai chị em ôm nhau, khóc rất nhiều, rồi chia tay, cô em lấy hết quần áo đi còn cô chị thì trần trụi ở lại.
+							- Cô em luyện tập kỹ năng thay đồ nhanh như chớp, như một phép thuật biến hình để có thể đáp ứng nhiều sở thích khác nhau của nhiều kiểu người khác nhau bất kỳ lúc nào họ cần. Nhờ kỹ năng điêu luyện mà cô đã khiến mọi người hài hòng, ai cũng nghĩ rằng mình đã có Chân Thật của riêng mình, nên không còn gây hấn với nhau nữa. Mọi người cũng thoả mãn hơn với bản thân vì họ không còn bị cô Giả Dối kia quấy rầy nữa. Tuy họ vẫn còn thấy Giả Dối lảng vảng ngoài kia, nhưng nó là Giả Dối của người khác chứ chẳng bao giờ tới gần mình nữa.
+							- Xấu hổ nên cô chị trần trụi thường phải trốn trong hang để tránh làm cho người ta sốc. Nhưng tình yêu thương con người đã khiến cô lẻn vào thị trấn để trông nom họ. Những lần xuất hiện hiếm hoi của cô đã nhắc nhở mọi người về sự tồn tại của những sự thật trần trụi mà lại khó thấy và khó chấp nhận. Ban ngày, đa phần người ta đều ngoảnh mặt quay lưng với Chân Thật trần trụi, họ gọi cô ta là “đồ điên”, có người lăng mạ cô, có người nổi giận đuổi cô đi. Còn ban đêm thì có người lại tìm Chân Thật trần trụi để hiếp dâm. Vì yêu người, cô chịu đựng hết thảy!
+							- Dù khéo léo đến đâu, thỉnh thoảng cô em nhiều áo quần cũng bị người ta bắt gặp khi đang thay đồ. Những người này thất vọng vô cùng khi thấy Chân Thật của họ xuất hiện dưới những diện mạo khác không hề quen thuộc. Họ càng không thể chịu được khi biết ra rằng Chật Thật của họ lại chính là Giả Dối của người khác.
+								- Này Chân Thật, không thể tin được là em đã lừa dối tôi suốt bây lâu nay! Không, em không phải là Chân Thật, em là Giả Dối!!!
+								- Em xin lỗi đã làm anh thất vọng! Nhưng em không lừa dối anh. Em chỉ cố gắng hết sức để làm anh hài lòng thôi.
+								- Vậy rốt cuộc thì em là Chân Thật hay Giả Dối?
+								- Em là Chân Thật khéo léo, nhưng mọi người cũng gọi em là là “Giả Dối” như anh vừa gọi đó.
+								- Không không không! Tôi không muốn nói chuyện với Giả Dối! Biến đi!
+								- Em chỉ nói cho anh biết sự thật thôi, nhưng anh không chịu chấp nhận thì em cũng chịu thua. Hãy gặp chị gái của em, có thể chị ấy sẽ giúp được anh...
+								- Cô ta ở đâu?
+								- Chị ấy đang trốn trong hang.
+							- Hầu hết những người này chỉ để cho nỗi thất vọng của họ cuốn trôi theo thời gian. Chỉ có một số ít người cất công tìm tới hang động để gặp Chân Thật trần trụi.
+								- Hú uu! Có ai đó không?
+								- Dạ, có em đây.
+								- Sao em lại trốn trong đây?
+								- Vì em không muốn làm anh sợ.
+								- Anh không sợ, hãy bước ra đi!
+							- Chân Thật trần trụi chỉ mới hé ra một chút...
+								- Aaahh... gớm quá!!! Sao em lại bẩn thỉu hôi hám đến vậy?
+								- Vì em đã đưa hết quần áo đẹp đẽ thơm tho cho em gái rồi, là con Chân Thật khéo léo đã phục vụ anh, làm anh hài lòng bấy lâu nay đó. Nó cũng chính là con Giả Dối tinh vi đã khiến anh vừa mới thất vọng đó thôi.
+								- Đừng gọi tên nó trước mặt tôi! Tôi ghét nó lắm!
+								- Anh đến đây để làm gì?
+								- Để tìm ra Chân Thật thực sự.
+								- Em chỉ là Chân Thật trần trụi. Em không biết Chân Thật thực sự của anh là ai.
+								- Em chắc chắn là Chân Thật thực sự rồi! Bước ra hẳn đi em! Anh khao khát gặp em quá rồi!
+							- Khi Chân Thật trần trụi lộ diện ra hết, hầu như ai cũng đều sợ hãi bỏ chạy trở về thị trấn. Ở đó, họ mò mẫm tìm cho bằng được “Chân Thật đích thực” của riêng mình mà không biết rằng đó chỉ là Giả Dối tinh vi trong một trong bộ áo khác mà họ chưa từng biết đến.
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
 					  collapsed:: true
 						- Short version (with the help of Grok 3)
@@ -2054,7 +2104,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- I want to find the true Truth.
 								- I'm just the naked Truth. I don't know who's your true Truth.
 								- You must be the true Truth! Please show yourself fully! I'm desperate to meet you.
-							- When the naked Truth fully show herself, most people get scared and flee back to the town. There they try to find their own version of “the true Truth” who is just another well-dressed Lie.
+							- When the naked Truth fully shows herself, most people get scared and flee back to the town. There they try to find their own version of “the true Truth” who is just another well-dressed Lie.
 							- Very few people get back to the naked Truth. They are the ones having experience of many beautiful appearances of the dressed Truth but still feeling something missing.
 								- Hello darkness, I'm back here to see you again!
 								- Nice to see you again! What do you want now?
