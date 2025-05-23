@@ -1975,8 +1975,24 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Giả Dối Tinh Vi và Chân Thật Trần Trụi như hai thái cực chẳng đội trời chung... nhưng kỳ thực lại là hai chị em sinh đôi, tuy 2 mà 1. Vì lòng yêu thương con người vô hạn mà họ đã chấp nhận biến ra thành hai thái cực đối lập để làm hài lòng mọi người.
 					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
-					- Đó là bản "cổ tích" được viết từ cảm hứng qua "sự tích về Sự Thật Trần Trụi" (the fable of the Naked Truth) phổ biến bên Tây.
-				-
+					- Đó là bản "cổ tích" được viết từ cảm hứng qua "sự tích về Sự Thật Trần Trụi" [((683006b8-eaf0-4123-b50b-66c4064834e9))] phổ biến bên Tây.
+				- [The coin of Truth](https://www.facebook.com/lexuandinhct/posts/pfbid02iGU97KErCLEvj63K7vtFHycW7bJEMxSoo5Z41wZkYp8sPX2YWGoDHmYJqkxKTE7gl)
+					- Đúng & Sai, tốt & xấu, âm & dương, v.v. là hai mặt của cùng một sự thật mang tên Chân Lý. Người ta thường lấy "giả dối" làm đối lập với "chân thật", nhưng kỳ thực thì "giả dối" chỉ là một phần của Sự Thật mà thôi. Cái sự thật toàn diện thì không có đối thủ, không có đối lập, không có đối trọng. Còn cái mặt "chân thật" đối lập với "giả dối" kia cũng chỉ là một sự giả dối tinh vi, giả dối được công nhận mà thôi, đơn giản vì "một nửa sự thật = giả dối" 😆
+				- [Biên kiến](https://www.facebook.com/lexuandinhct/posts/pfbid02QbnZ2Wq8haq1PvsvSQFuC4RrP4UtxXZyubp7aNuBibTuiHE96e2mpigYYfz6knCl)
+					- Biên kiến: (zh. 邊見, en. one-sided view, en. extreme view, sa. antagrāha-dṛṣti, pi. antaggāha-diṭṭhi): cách nhìn, quan điểm (kiến/見) mà chỉ thấy một chiều, một bên (biên/邊), không thấy cái toàn thể, thấy một cách cực đoan (extreme/antagrāha) không thấy cái trung dung.
+					- Trong ngôn ngữ phổ thông thì có từ "thiên kiến" (bias), tức cái nhìn thiên lệch, cũng gần nghĩa với biên kiến.
+					- Bản chất của cặp mắt ngoài này là biên kiến, vì nó hướng ra ngoài nên chỉ thấy được những biểu hiện bên ngoài. Mà "xấu che tốt khoe" nên bên ngoài thì chỉ có tốt, đẹp, sáng, tích cực, dương, v.v. Mọi cái xấu, ác, dở, tiêu cực, tối tăm, âm, v.v. đều bị giấu vào bên trong, đẩy ra sau lưng, hoặc tống đi thật xa cho khuất mắt.
+						- Tại sao xã hội lại có tiêu cực, tệ nạn, điều ác?
+						- Vì chúng ta chỉ nhìn một chiều, luôn chạy theo những thứ "tích cực" và trốn tránh những thứ "tiêu cực".
+						- Sao người trốn tránh tiêu cực lại làm cho XH tiêu cực?
+						- Vì rác của mình không tự xử lý thì đẩy nó qua nhà hàng xóm, đẩy vòng vòng một hồi nó tích tụ lại thành đống rác lớn. Thí dụ như từ cái khó chịu nhỏ tích riết thành ra tức giận, tức giận dồn nén nhiều nữa thành ra căm thù, chịu không nổi nữa thì phải nổ ra thành chém giết. Nhưng người ta chỉ kết tội kẻ khác "giết người" mà không biết gốc rễ của nó chính là những cảm giác bực bội nhỏ nhặt hằng ngày của mình.
+					- Ai cũng thích "sự thật", "chân lý", "công lý", v.v. nhưng chẳng mấy ai đối diện được với **sự thật trần trụi** ở ngay bên trong mình. Khi quá chấp vào những cái hay cái đẹp bên ngoài, người ta đã ép cô em Giả Dối phải lấy đi bộ áo của cô chị song sinh Chân Thật để làm hài lòng người ta. Còn Chân Thật trần trụi thì buộc phải núp vào trong bóng tối ![👥](https://static.xx.fbcdn.net/images/emoji.php/v9/t8b/1/16/1f465.png) vì hổ thẹn. (The fable of the Naked Truth, from late 1500s)
+					- Tác phẩm La Vérité (Chân Lý) của Jules Joseph Lefebvre
+						-
+			- The fable of the Naked Truth
+			  id:: 683006b8-eaf0-4123-b50b-66c4064834e9
+				- Dictinary.com: [naked truth](https://www.dictionary.com/browse/naked%20truth)
+				  > This expression supposedly alludes to a fable in which Truth and Falsehood went bathing, Falsehood then dressed in Truth's clothes, and Truth, refusing to take another's clothes, went naked. [Late 1500s]
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  collapsed:: true
 		  :LOGBOOK:
