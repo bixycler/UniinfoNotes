@@ -1978,7 +1978,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
 					  collapsed:: true
 						- Short version (with the help of Grok 3)
-							-
+							- Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to familiar appearance and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns’ fights over the “true” Truth, the sisters met in a cave.
+							- ― We’re one soul, split by their prejudice – one wept.
+							  ― I’ll give you my clothes to please both towns – the other said.
+							  ― But you’ll be naked and scorned!
+							  ― For the love of people, I’ll endure. You satisfy them.
+							- They embraced, tears falling, and parted – one taking all clothes, the other bare. To please everyone, the dressed sister returned to town, swiftly changing outfits to suit each person’s expectations, winning their love as “Truth,” though some, glimpsing her mid-change, called her “Lie.” The naked sister hid but sometimes emerged to remind people of raw truth. Most, uneasy and scared, fled from her, calling her “crazy” or worse; some abused her in the night.
+							- A few, tired of the dressed Lie, sought the naked Truth in the cave.
+							  ― Why hide? – they asked.
+							  ― I gave my beauty to my sister to serve you – she replied – We’re one, but you fear the unadorned truth.
+							- Most fled, shaken, chasing a comforting “Truth” who was another’s Lie. Only the brave stayed, embracing the naked Truth.
+							- Moral: Society shuns the naked truth for the well-dressed lie, but the brave face its unsettling reality.
 						- Full length version
 						  collapsed:: true
 							- Long time ago, at the dawn of human civilization, there were two twin sisters who were indistinguishable at birth. They were both so pure, so beautiful and so attractive from the beginning. When they grew up, they had to separate and go to different places, one to the east and one to the west, to live and work in different jobs. They were loved by people around so much that people in the east town called the east twin “Truth” with all good attributes attached, and the same for the west twin being called “Truth” preciously in the west town. One day, the east twin went to the west town to visit her sister. At first, people there got confused by the twins due to their identical faces and the same name “Truth”. But then they recognized their own “Truth” by her familiar dress. They called the unfamiliarly dressed twin “Lie”:
