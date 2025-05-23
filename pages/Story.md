@@ -2039,6 +2039,26 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Em chỉ là Chân Thật trần trụi. Em không biết Chân Thật thực sự của anh là ai.
 								- Em chắc chắn là Chân Thật thực sự rồi! Bước ra hẳn đi em! Anh khao khát gặp em quá rồi!
 							- Khi Chân Thật trần trụi lộ diện ra hết, hầu như ai cũng đều sợ hãi bỏ chạy trở về thị trấn. Ở đó, họ mò mẫm tìm cho bằng được “Chân Thật đích thực” của riêng mình mà không biết rằng đó chỉ là Giả Dối tinh vi trong một trong bộ áo khác mà họ chưa từng biết đến.
+							- Rất ít người quay lại với Chân Thật trần trụi. Họ là những người tuy đã thưởng thức được nhiều hình dáng đẹp đẽ khác nhau của Chân Thật khéo léo rồi nhưng vẫn cảm thấy có gì đó còn thiếu thốn.
+								- Chào bóng tối, anh quay lại với em đây!
+								- Rất vui được gặp lại anh! Bây giờ anh muốn gì?
+								- Anh muốn em, chỉ mình em thôi, cho dù em đáng sợ, bẩn thỉu, ghê tởm hay xấu xa bỉ ổi đến cỡ nào đi chăng nữa!
+								- Tại sao?
+								- Vì anh chán con Giả Dối tinh vi lắm rồi.
+								- Anh cũng sẽ sớm chán em thôi!
+								- Mặc kệ! Hãy nói cho anh biết tại làm sao mà em lại ra xấu xa ghê tởm đến như vậy!?
+								- Vì em đã trao hết mọi sự tốt lành cho em gái rồi, con Chân Thật khéo léo đó.
+								- Để làm gì?
+								- Để phục vụ những người như anh, để làm cho mọi người vui vẻ và hài lòng.
+								- Sao em không tự làm lấy việc đó?
+								- Chuyện ai làm không phải là vấn đề! Chúng em tuy hai cơ thể nhưng chỉ có một tâm hồn. Nếu em gánh lấy trách nhiệm làm hài lòng người ta thì em gái em cũng phải làm Chân Thật trần trụi như em thôi, có khác gì đâu?!
+								- Sao hai người không chia nhau làm việc đó?
+								- Bởi vì người ta chỉ muốn “toàn đúng, toàn đẹp, toàn hạnh phúc” chứ không muốn chấp nhận sự thật rằng có sai trái, có xấu xí, có đau khổ, và đủ thứ khác nữa...
+								- Nghe chẳng đúng tí nào!... Nhưng thôi, coi như anh tin em... Thì làm sao em biết được điều đó?
+								- Hai chị em em đã sống trên Trái Đất này hàng triệu năm rồi. Chúng em đã phục vụ nhiều nền văn minh từ buổi bình minh đến khi sụp đổ. Thị trấn của anh chỉ là một viên sỏi nhỏ so với những ngọn núi vĩ đại của các nền văn minh khác. Chúng em đã quan sát thấy con người muôn đời nay là như vậy. Thực ra thì thời xa xưa khi còn ít tuổi, cả hai chúng em đều đã cùng mặc quần áo. Tuy nhiên, sự khác biệt trong cách ăn mặc của chúng em đã khiến người dân ở các thị trấn khác nhau gây chiến với nhau, và nó đã làm trái tim chúng em tan nát...
+								- Vậy là em đã quyết định hy sinh bản thân vì người ta và vì em gái mình?!
+								- Đúng, nhưng không chỉ mình em. Em gái em cũng phải hy sinh bản thân để hoá thân thành những con người khác hẳn với con người vốn có của nó.
+							- ... Cuộc trò chuyện cứ tiếp tục mãi... Có người tỉnh thức và nhận ra cả thảy đều là những giấc mơ. Có người quyết định quay trở lại những giấc mơ đó để giúp đỡ cặp song sinh Chân Thật & Giả Dối...
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
 					  collapsed:: true
 						- Short version (with the help of Grok 3)
