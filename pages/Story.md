@@ -1978,10 +1978,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  is simply the Coin of Truth including both Truth and Lie.
 				- The Great Lie
 				  id:: 6830664a-06e8-418d-bf46-0491fef3a780
-				  is the skillful means to express ((68306652-f922-4597-bcf7-99a62ef32c94)) without inflicting suffering, based on the acceptance of the intrisic “lie” caused by differences between views.
-					- Even though the Coin has 2 equal sides of both Lie and Truth, it's prefered to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox): “The Truth is that Truth lies!”
+				  is the skillful means to express ((68306652-f922-4597-bcf7-99a62ef32c94)) without inflicting suffering, based on the acceptance of the intrinsic “lie” caused by differences between views.
+					- Even though the Coin has 2 equal sides of both Lie and Truth, it's preferred to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox): “The Truth is that Truth lies!”
 					- This is the top of skillfulness and difficulty: accompany with the dressed Lie → accepting the naked Truth → living the naked Truth → dressing the Lie → living the Great Truth → living the Great Lie
-					- A lesser great Lie, which is just a better dressed Lie, is the widely accepted norms, social standards, ethics, morals, etc. This is what
+					- A lesser great Lie, which is just a better dressed Lie, is the widely accepted norms, social standards, ethics, morals, etc. This is what Grok 3 and maybe the general public think of when being asked about "the Great Lie".
 				- {{embed ((68300868-6108-475e-90e0-1f15e58366c1))}}
 			- Let's document about the parables of the Naked Truth.
 			- Published posts
