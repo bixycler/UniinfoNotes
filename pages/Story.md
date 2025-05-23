@@ -1977,12 +1977,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
 					  collapsed:: true
 						- Bản tóm gọn
-							- Ngày xưa, có hai chị em sinh đôi giống hệt nhau, sống ở hai thị trấn khác nhau, nơi họ được gọi là “Chân Thật” một cách trìu mến. Người ở thị trấn này đã hoang mang khi gặp cô Chân Thật ở thị trấn kia vì họ không thể phân biệt với cô Chân Thật ở thị trấn này qua khuôn mặt nhưng lại bám chấp vào sự quen thuộc và e dè với trang phục lạ lẫm, nên đã gọi cô kia là “Giả Dối” và xua đuổi cô. Đau lòng về việc hai thị trấn tranh cãi đâu là “Chân Thật thực sự” và chiến đấu với nhau để bảo vệ Chân Thật của mình, hai chị em gặp nhau trong một hang động.
-							- ― Chúng ta là một linh hồn, bị chia cắt bởi định kiến của họ – một người khóc.
-							  ― Chị sẽ cho em áo quần để làm hài lòng cả hai thị trấn – người kia nói.
-							  ― Nhưng chị sẽ trần truồng và bị khinh miệt!
-							  ― Vì tình yêu với con người, chị sẽ chịu đựng. Em sẽ đảm nhận việc làm họ hài lòng, nhiệm vụ chẳng kém khó khăn!
-							- Họ ôm nhau, nước mắt rơi, rồi chia tay – một người lấy hết áo quần, người kia để lại trần truồng. Để làm hài lòng mọi người, người mặc áo trở lại thị trấn, nhanh chóng thay đổi trang phục cho phù hợp với mong đợi của từng người, đảm bảo ai cũng thoải mái với “Sự Thật” của mình. Dù khéo léo, đôi khi cô bị bắt gặp giữa lúc thay đồ và bị gọi là “Dối Trá”. Người trần truồng trốn trong hang, chỉ thỉnh thoảng xuất hiện để nhắc nhở về sự thật nguyên bản. Hễ thấy cô, người ta gọi cô là “điên rồ” hoặc tệ hơn, rồi hoảng sợ bỏ chạy vì bất an; một số lạm dụng cô trong đêm.
+							- Ngày xưa, có hai chị em sinh đôi giống hệt nhau, sống ở hai thị trấn khác nhau, nơi họ được gọi là “Chân Thật” một cách trìu mến. Người ở thị trấn này đã hoang mang khi gặp cô Chân Thật ở thị trấn kia vì họ không thể phân biệt với cô Chân Thật ở thị trấn này qua khuôn mặt nhưng lại bám chấp vào sự quen thuộc và e dè với trang phục lạ lẫm, nên đã gọi cô kia là “Giả Dối” và xua đuổi cô. Đau lòng về việc hai thị trấn tranh cãi đâu là “Chân Thật thực sự” và chiến đấu với nhau để bảo vệ Chân Thật của mình, hai chị em đã gặp nhau trong hang động để tìm cách giải quyết.
+							- ― Chúng ta vốn là một nhưng lại bị chia cắt bởi định kiến của họ – cô em khóc nức nở.
+							  ― Chị sẽ nhường lại hết quần áo cho em để em làm hài lòng cả hai thị trấn – cô chị nêu ý kiến.
+							  ― Nhưng chị sẽ bị trần trụi và bị khinh miệt!
+							  ― Vì tình yêu con người, chị sẽ chịu đựng. Còn em sẽ đảm nhận việc làm họ hài lòng, một nhiệm vụ khó chẳng kém chị đâu!
+							- Họ ôm nhau tràn, rồi chia tay – một người lấy hết áo quần, người kia để lại trần truồng. Để làm hài lòng mọi người, người mặc áo trở lại thị trấn, nhanh chóng thay đổi trang phục cho phù hợp với mong đợi của từng người, đảm bảo ai cũng thoải mái với “Sự Thật” của mình. Dù khéo léo, đôi khi cô bị bắt gặp giữa lúc thay đồ và bị gọi là “Dối Trá”. Người trần truồng trốn trong hang, chỉ thỉnh thoảng xuất hiện để nhắc nhở về sự thật nguyên bản. Hễ thấy cô, người ta gọi cô là “điên rồ” hoặc tệ hơn, rồi hoảng sợ bỏ chạy vì bất an; một số lạm dụng cô trong đêm.
 							- Chỉ vài người, chán ngán Dối Trá ăn mặc lộng lẫy, tìm đến Sự Thật trong hang.
 							  ― Sao chị trốn? – họ hỏi.
 							  ― Chị đã trao vẻ đẹp cho em gái để phục vụ các người – cô đáp – vì các người sợ sự thật trần truồng.
