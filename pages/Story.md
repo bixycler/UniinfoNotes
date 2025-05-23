@@ -1969,6 +1969,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-05-23 Fri 12:15:05]
 		  :END:
 			- This morning, 23 May, on the way to company, contemplating ((6830664a-06e8-418d-bf46-0491fef3a780)), i see that i'm still too humble to be with the Great Lie, and still hiding in the cave with my Naked Truth.
+			- I'm still struggling in the transiton [(3)→(4)](((68306c82-0709-4c83-bcf2-a9015af8b86e))) from living the naked Truth to dressing the Lie.
 			- The Coin of Truth
 			  id:: 6830645a-93b9-4c90-929f-8740f40c2b15
 				- The Great Truth (Coin of Truth) is also the Great Lie (Coin of Lie) which is greater than both one-sided Truth and Lie.
@@ -1980,7 +1981,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6830664a-06e8-418d-bf46-0491fef3a780
 				  is the skillful means to express ((68306652-f922-4597-bcf7-99a62ef32c94)) without inflicting suffering, based on the acceptance of the intrinsic “lie” caused by differences between views.
 					- Even though the Coin has 2 equal sides of both Lie and Truth, it's preferred to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox): “The Truth is that Truth lies!”
-					- This is the top of skillfulness and difficulty: accompany with the dressed Lie → accepting the naked Truth → living the naked Truth → dressing the Lie → living the Great Truth → living the Great Lie
+					- This is the top of skillfulness and difficulty: (1) accompany with the dressed Lie → (2) accepting the naked Truth → (3) living the naked Truth → (4) dressing the Lie → (5) living the Great Truth → (6) living the Great Lie
+					  id:: 68306c82-0709-4c83-bcf2-a9015af8b86e
 					- A lesser great Lie, which is just a better dressed Lie, is the widely accepted norms, social standards, ethics, morals, etc. This is what Grok 3 and maybe the general public think of when being asked about "the Great Lie".
 				- {{embed ((68300868-6108-475e-90e0-1f15e58366c1))}}
 			- Let's document about the parables of the Naked Truth.
