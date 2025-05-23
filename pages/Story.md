@@ -1982,8 +1982,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ― Chị sẽ nhường lại hết quần áo cho em để em làm hài lòng cả hai thị trấn – cô chị nêu ý kiến.
 							  ― Nhưng chị sẽ bị trần trụi và bị khinh miệt!
 							  ― Vì tình yêu con người, chị sẽ chịu đựng. Còn em sẽ đảm nhận việc làm họ hài lòng, một nhiệm vụ khó chẳng kém chị đâu!
-							- Họ ôm nhau tràn, rồi chia tay – một người lấy hết áo quần, người kia để lại trần truồng. Để làm hài lòng mọi người, người mặc áo trở lại thị trấn, nhanh chóng thay đổi trang phục cho phù hợp với mong đợi của từng người, đảm bảo ai cũng thoải mái với “Sự Thật” của mình. Dù khéo léo, đôi khi cô bị bắt gặp giữa lúc thay đồ và bị gọi là “Dối Trá”. Người trần truồng trốn trong hang, chỉ thỉnh thoảng xuất hiện để nhắc nhở về sự thật nguyên bản. Hễ thấy cô, người ta gọi cô là “điên rồ” hoặc tệ hơn, rồi hoảng sợ bỏ chạy vì bất an; một số lạm dụng cô trong đêm.
-							- Chỉ vài người, chán ngán Dối Trá ăn mặc lộng lẫy, tìm đến Sự Thật trong hang.
+							- Họ ôm nhau lệ rơi lả chả, rồi chia tay – cô em mang hết áo quần đi, cô chị ở lại trần truồng. Để làm hài lòng mọi người, cô em trở lại thị trấn, nhanh chóng thay đổi trang phục cho phù hợp với mong đợi của từng người, đảm bảo ai cũng thoải mái với “Chân Thật” của mình. Dù khéo léo đến đâu, đôi khi cô vẫn bị bắt gặp trong lúc thay đồ và bị gọi là “Giả Dối”. Cô chị trần truồng thường phải trốn trong hang để tránh làm người ta bị sốc. Hễ thấy cô, người ta gọi cô là “đồ điên” hay còn tệ hơn nữa, rồi hoảng sợ bỏ chạy vì bất an và sợ hãi; một số người còn lạm dụng cô trong đêm.
+							- Chỉ có vài người, sau khi chán ngán Giả Dối , tìm đến Sự Thật trong hang.
 							  ― Sao chị trốn? – họ hỏi.
 							  ― Chị đã trao vẻ đẹp cho em gái để phục vụ các người – cô đáp – vì các người sợ sự thật trần truồng.
 							- Khi Sự Thật trần truồng hiện diện hoàn toàn, hầu hết người tìm kiếm sự thật hoảng loạn, bỏ chạy, và đuổi theo một “Sự Thật” an ủi khác, vốn là Dối Trá của người khác. Chỉ những kẻ dũng cảm ở lại, đón nhận Sự Thật trần truồng.
