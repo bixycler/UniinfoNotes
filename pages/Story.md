@@ -1980,7 +1980,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Short version
 							- Style: Use curly quotes (“”) instead of straight ones. Use quotation dash (―) in dialogues instead of quotes.
 							- Content:
-								- The development of "Lie" label should be both clarified and shortened.  The 2 sentences of west & east town should be merged into one, e.g. "people in this town call the sister from the other town 'Lie'".
+								- The development of "Lie" label should be both clarified and shortened. The reason of calling the unfamiliar sister "Lie" should be stated clearly: confused, clinging to the familiar, lacking acceptance of the unfamiliar. The 2 sentences of west & east town should be merged into one, e.g. "people in this town call the sister from the other town 'Lie'".
 								- The dialogue in the cave was wrong seriously: "If I **take** your clothes, I can please both towns" is opposite of the original "I'll **give** you my clothes..."
 								- "The naked sister hid, emerging ..." sounds like a "short of breath". Maybe you've tried too hard on shortening to the etent that ommiting prepositions like "but", and adverbs like "sometimes", "returning to the town", etc. The sentence "The dressed sister changed outfits swiftly, pleasing all as "Truth,"..." also lacks reasons and situations. It should be told like this: In order to please all people, the dressed sister returned to the town wearing different outfits appropriate to different personal needs and changed them swiftly to avoid shocking people.
 								- The last part lacked the **unease** and **scare** of facing the naked truth.
