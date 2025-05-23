@@ -1955,6 +1955,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-05-19 Mon 08:04:21]
 		  CLOCK: [2025-05-19 Mon 08:04:22]
 		  :END:
+			- Thanks to the
 			- Shared with friends in chat boxes
 				- Nãy ngồi thiền vào sâu bên trong, mình thấy thiệt là "khủng!" Nhớ những chuyến đi ra thiên nhiên, mình thấy cả trong ngoài đều khủng như nhau. 😁
 				- Trong triết học Phương Tây có khái niệm "the Sublime" (cái Khủng) diễn tả tính 2 mặt của những thứ vĩ đại như thiên nhiên, vũ trụ, Chúa Trời, và sự vượt qua cả 2 mặt đó:
