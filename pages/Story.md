@@ -1941,21 +1941,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The two are combined into a perfect whole, my way of life: Naturalism = Experientialism + Empiricism
 					- Vietnamese translations: Chủ nghĩa Tự nhiên = Chủ nghĩa Thể nghiệm + Chủ nghĩa Thực nghiệm
 					- The Naturalism is not only the [Western one](https://en.wikipedia.org/wiki/Naturalism_(philosophy)) with external science, but also the [Eastern one](https://en.wikipedia.org/wiki/Ziran) with internal science, like the Ziran (自然, tự nhiên) of Lao Tzu
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-05-19 Mon 08:01:22]
-		  :END:
-			- ![HoCoc-ngoaiBien.jpg](../assets/Will/story/2025-05/HoCoc-ngoaiBien.jpg)
-		- DOING The sublime within via meditation
+		- The sublime within via meditation, 19 May
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-19 Mon 08:04:21]
-		  CLOCK: [2025-05-19 Mon 08:04:22]
 		  :END:
-			- Thanks to the
+			- Thanks to the stuffy nose, i had a meditation session diving deep inside, from the nasal cavity, sinuses, down to the belly. There i heard the loud noise of my breath, due to the open Eustachian tubes, which is very much like great sounds of Nature.
 			- Shared with friends in chat boxes
 				- Nãy ngồi thiền vào sâu bên trong, mình thấy thiệt là "khủng!" Nhớ những chuyến đi ra thiên nhiên, mình thấy cả trong ngoài đều khủng như nhau. 😁
 				- Trong triết học Phương Tây có khái niệm "the Sublime" (cái Khủng) diễn tả tính 2 mặt của những thứ vĩ đại như thiên nhiên, vũ trụ, Chúa Trời, và sự vượt qua cả 2 mặt đó:
@@ -1969,4 +1960,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- > The passion caused by the great and sublime in nature, when those causes operate most powerfully is Astonishment, and astonishment is that state of the soul in which all its motions are suspended, with some degree of horror … No passion so effectually robs the mind of all its powers of acting and reasoning as fear. For fear, being an apprehension of pain or death, operates in a manner that resembles actual pain. Whatever therefore is terrible, with regard to sight, is sublime too … Indeed terror is in all cases whatsoever, either more openly or latently, the ruling principle of the sublime.
 				  
 				  –Edmund Burke in  “A Philosophical Enquiry into the Origins of Our Ideas of the Sublime and Beautiful” (1757)
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- DOING The Great Lie and the twins of Well-Dressed Lie & Naked Truth
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-23 Fri 12:14:38]
+		  CLOCK: [2025-05-23 Fri 12:15:05]
+		  :END:
+			-
+		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-19 Mon 08:01:22]
+		  :END:
+			- ![HoCoc-ngoaiBien.jpg](../assets/Will/story/2025-05/HoCoc-ngoaiBien.jpg)
 		- ...
