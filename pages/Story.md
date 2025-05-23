@@ -2146,6 +2146,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Yep, but not only me. My sister also has to sacrifice herself to become the one people like which is different from her true self.
 							- ... The conversation goes on and on... Some people wake up to realize all of these are just dreams. Some decide to return to these dreams to help the twins of Truth & Lie...
 					- Đó là bản "cổ tích" được viết từ cảm hứng qua "sự tích về Sự Thật Trần Trụi" [((683006b8-eaf0-4123-b50b-66c4064834e9))] phổ biến bên Tây.
+					- Illustrative image
+					  collapsed:: true
+						- ![Truth-Lie-twins.jpeg](../assets/Will/story/2025-05/Truth-Lie-twins.jpeg)
 				- [The coin of Truth](https://www.facebook.com/lexuandinhct/posts/pfbid02iGU97KErCLEvj63K7vtFHycW7bJEMxSoo5Z41wZkYp8sPX2YWGoDHmYJqkxKTE7gl)
 					- Đúng & Sai, tốt & xấu, âm & dương, v.v. là hai mặt của cùng một sự thật mang tên Chân Lý. Người ta thường lấy "giả dối" làm đối lập với "chân thật", nhưng kỳ thực thì "giả dối" chỉ là một phần của Sự Thật mà thôi. Cái sự thật toàn diện thì không có đối thủ, không có đối lập, không có đối trọng. Còn cái mặt "chân thật" đối lập với "giả dối" kia cũng chỉ là một sự giả dối tinh vi, giả dối được công nhận mà thôi, đơn giản vì "một nửa sự thật = giả dối" 😆
 				- [Biên kiến](https://www.facebook.com/lexuandinhct/posts/pfbid02QbnZ2Wq8haq1PvsvSQFuC4RrP4UtxXZyubp7aNuBibTuiHE96e2mpigYYfz6knCl)
