@@ -1983,13 +1983,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ― I’ll give you my clothes to please both towns – the other said.
 							  ― But you’ll be naked and scorned!
 							  ― For the love of people, I’ll endure. You'll take the duty of satisfying them, no less difficult than mine!
-							- They embraced, tears falling, and parted – one taking all clothes, the other bare. To please everyone, the dressed sister returned to town, swiftly changing outfits to suit each person’s expectations, making sure that everyone is comfortable with their own “Truth”. No matter how skillful, she Sometimes someone, glimpsing her mid-change, called her “Lie”. The naked sister hid but sometimes emerged to remind people of raw truth. Most, uneasy and scared, fled from her, calling her “crazy” or worse; some abused her in the night.
+							- They embraced, tears falling, and parted – one taking all clothes, the other bare. To please everyone, the dressed sister returned to town, swiftly changing outfits to suit each person’s expectations, making sure that everyone is comfortable with their own “Truth”. No matter how skillful, sometimes she was caught mid-change and called “Lie”. The naked sister hid but sometimes emerged to remind people of raw truth. Most, uneasy and scared, fled from her, calling her “crazy” or worse; some abused her in the night.
 							- A few, tired of the dressed Lie, sought the naked Truth in the cave.
 							  ― Why hide? – they asked.
 							  ― I gave my beauty to my sister to serve you – she replied – We’re one, but you fear the unadorned truth.
 							- Most fled, shaken, chasing a comforting “Truth” who was another’s Lie. Only the brave stayed, embracing the naked Truth.
 							- Moral: Society shuns the naked truth for the well-dressed lie, but the brave face its unsettling reality.
 						- Full length version
+						  id:: 683029f1-0847-4186-a6a6-b8cb19fcd922
 						  collapsed:: true
 							- Long time ago, at the dawn of human civilization, there were two twin sisters who were indistinguishable at birth. They were both so pure, so beautiful and so attractive from the beginning. When they grew up, they had to separate and go to different places, one to the east and one to the west, to live and work in different jobs. They were loved by people around so much that people in the east town called the east twin “Truth” with all good attributes attached, and the same for the west twin being called “Truth” preciously in the west town. One day, the east twin went to the west town to visit her sister. At first, people there got confused by the twins due to their identical faces and the same name “Truth”. But then they recognized their own “Truth” by her familiar dress. They called the unfamiliarly dressed twin “Lie”:
 								- You are not Truth!
@@ -2027,7 +2028,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Where is she?
 								- She's hiding in the cave.
 							- Most of these people just let time wash away their disappointment. Only few people bother going to the cave to find the naked Truth.
-								- Hello! Is there anybody?
+								- Hello! Anybody there?
 								- Yes I am.
 								- Why are you hiding?
 								- Because I don't want to scare you.
