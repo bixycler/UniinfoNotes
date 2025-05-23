@@ -1974,10 +1974,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The Great Truth (Coin of Truth) is also the Great Lie (Coin of Lie) which is greater than both one-sided Truth and Lie.
 				- While the Truth and the Lie are 2 opposite sides of the Coin, the Great Lie and the Great Truth are 2 aspects, 2 connotations of the Coin.
 				- The Great Truth
-				  is simply the greater Truth including both Truth and Lie, i.e. the Coin of Truth.
+				  id:: 68306652-f922-4597-bcf7-99a62ef32c94
+				  is simply the Coin of Truth including both Truth and Lie.
 				- The Great Lie
 				  id:: 6830664a-06e8-418d-bf46-0491fef3a780
-					- Even thought the Coin has 2 equal sides of both Lie and Truth, it's prefered to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
+				  is the skillful means to express ((68306652-f922-4597-bcf7-99a62ef32c94)) without inflicting suffering, based on the acceptance of the intrisic “lie” caused by differences between views.
+					- Even thought the Coin has 2 equal sides of both Lie and Truth, it's prefered to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox): “The Truth is that it lies”
 				- {{embed ((68300868-6108-475e-90e0-1f15e58366c1))}}
 			- Let's document about the parables of the Naked Truth.
 			- Published posts
