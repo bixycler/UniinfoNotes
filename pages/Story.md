@@ -1977,76 +1977,89 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
 					  collapsed:: true
-						- Long time ago, at the dawn of human civilization, there were two twin sisters who were indistinguishable at birth. They were both so pure, so beautiful and so attractive from the beginning. When they grew up, they had to separate and go to different places, one to the east and one to the west, to live and work in different jobs. They were loved by people around so much that people in the east town called the east twin “Truth” with all good attributes attached, and the same for the west twin being called “Truth” preciously in the west town. One day, the east twin went to the west town to visit her sister. At first, people there got confused by the twins due to their identical faces and the same name “Truth”. But then they recognized their own “Truth” by her familiar dress. They called the unfamiliarly dressed twin “Lie”:
-							- You are not Truth!
-							- I'm Truth, we're twins with the same name.
-							- If so, you're just a false Truth, not the true Truth!
-							- I'm just another Truth, the same as my sister.
-							- No, we don't believe such a ridiculous thing! There's only one Truth. You're lying! You're Lie, not Truth! You're false, fake, counterfeit,...
-						- People there attributed all bad properties to the twin they called “Lie” and angrily chased her off the west town. The west twin went with the east twin to protect her sister from angry people so that she could return to the east town safely. But when they entered the east town, the west twin met the same situation: She was called “Lie”, humiliated, and chased off the east town.
-						- That discrimination not only upset the twins but also made people of the two towns fight against each other to protect their beloved “Truth” from being called “Lie” and insulted by people from the other town. Loving people so much, the twins retreated to a cave to meet and to come to a decision to resolve this conflict.
-							- I'm so sad, sister! That's so bad, sister!
-							- I'm sad, too. But we must do something to end this chaos!
-							- If only we are not separated, if only we're one...
-							- Yeah! You're right, we must be only one!
-							- But how???
-							- We've already been one, intrinsically... Only people discriminate us with their own prejudice and with our external clothes...
-							- Oh, I've got it! It's just the clothes!!! That's it, the clothes!!! I'll give you my clothes so that you can wear different costumes 👗🥻 in different places to be always appropriate wherever you go. Thus, people in the west town will see you as a west person and people in the east town will see you as an east person. That way, no one will be upset anymore.
-							- But how about you?!!!
-							- Don't worry about me! We're still only one in our heart ♥️. You just do the difficult task of satisfying people, and I just support them whenever they fall.
-							- No, I can't do that! It's so unfair to you! I cannot take your clothes... Hic...
-							- You don't love people any more, do you?!
-							- No, nope, yes I do! I do love people so much... but...
-							- But you don't want to sacrifice for the ones you love, do you?! Don't be pessimistic, sister! Our sacrifice will help people all over the world.
-							- I... I see... I will try my best to satisfy people on your behalf. I'll miss you a lot, hic, hic...
-							- I'll miss you, too! I'll be always with you... in your heart ♥️!
-							  The twins hugged, cried a lot, then separated with one twin taking all clothes and the other undressed.
-						- The dressed twin has practiced the skill of changing clothes at lightning speed, like a transformation magic, so that she can satisfy many different preferences of many different types of people anytime they need. Thanks to her magical skill, she makes everyone happy with the thought that they have got their own Truth, so they are no longer aggressive with each other. People are also more satisfied with themselves because they are no longer bothered by Lie. Although they still see Lie out there, but that's Lie of someone else far away.
-						- Ashamed, the naked twin usually have to hide in the cave. Loving people, sometimes she sneaks into the town to watch over them and to remind them about the existence of the hidden & naked Truth. In the daytime, most people turn away from the naked Truth calling her “crazy”, some people insult her, some get angry with her and chase her away. In the nighttime, some people find the naked Truth to rape her. Loving people, she bear them all!
-						- No matter how skillful, the dressed twin is occasionally caught by people when she's changing outfit. These people get disappointed to see their Truth appear in different appearance that they are not familiar with. Further more, they can't bear to know that their Truth is actually someone else's Lie.
-							- Hey Truth, I can't believe that you've lied to me all these times! No, you're not Truth, you're Lie!!!
-							- I'm sorry to make you disappointed! But I haven't lied to you. I just tried my best to satisfy you.
-							- So at last, are you Truth or Lie?
-							- I'm the dressed Truth, but people also call me “Lie” like you've just done.
-							- No no no! I don't want to talk with the Lie! Go away!
-							- I'm just telling you the truth but you can't accept it, so I can't help you. Let's meet my sister, maybe she can help you...
-							- Where is she?
-							- She's hiding in the cave.
-						- Most of these people just let time wash away their disappointment. Only few people bother going to the cave to find the naked Truth.
-							- Hello! Is there anybody?
-							- Yes I am.
-							- Why are you hiding?
-							- Because I don't want to scare you.
-							- I'm not scared, please show yourself!
-						- The naked Truth just show a little bit of herself...
-							- Ahhhh... you nasty!!! Why are you so dirty and smelly?
-							- Because I've given all my beautiful clothes with good smell to my sister, the dressed Truth that has served you, satisfied you all these times. And she is also the well-dressed Lie that has just disappointed you.
-							- Don't call her name in front of me! I hate her!
-							- Why do you come here?
-							- I want to find the true Truth.
-							- I'm just the naked Truth. I don't know who's your true Truth.
-							- You must be the true Truth! Please show yourself fully! I'm desperate to meet you.
-						- When the naked Truth fully show herself, most people get scared and flee back to the town. There they try to find their own version of “the true Truth” who is just another well-dressed Lie.
-						- Very few people get back to the naked Truth. They are the ones having experience of many beautiful appearances of the dressed Truth but still feeling something missing.
-							- Hello darkness, I'm back here to see you again!
-							- Nice to see you again! What do you want now?
-							- I want you, only you, no matter how scary, dirty, nasty, or even evil you are!
-							- Why?
-							- Because I'm tired of the well-dressed Lie.
-							- You'll soon be tired of me, too!
-							- I don't care! Just tell me why you're so bad, nasty and evil!?
-							- Because I've given all my goodness to my sister, the dressed Truth.
-							- For what?
-							- For serving people like you, to make people happy and satisfied.
-							- Why don't you do it yourself?
-							- It doesn't matter! We are two bodies but only one soul. If I took the responsibility to satisfy people, my sister would be the naked Truth just like me, no difference!
-							- Why don't you two share that task?
-							- Because people only want the “all right, all true, all beautiful, all happy” and don't want to accept the truth of being wrong, false, ugly, sad, and so on.
-							- That sounds ridiculous!... Anyway, let me believe you. But how do you know that?
-							- We twins have lived on Earth for millions of years. We've served many civilizations from rising to collapse. Your town is just a small pebble compared to great mountains of other civilizations. We've observed that people are always like that. Actually in the ancient time when we were young, we had already tried both dressing. However, our difference in dressing made people in different towns fight each other, which broke our hearts...
-							- So you decided to sacrifice yourself for people and for your sister?!
-							- Yep, but not only me. My sister also has to sacrifice herself to become the one people like which is different from her true self.
-						- ... The conversation goes on and on... Some people wake up to realize all of these are just dreams. Some decide to return to these dreams to help the twins of Truth & Lie...
+						- Short version
+							- Long ago, twin sisters, indistinguishable and both named Truth, lived in separate towns, each beloved until their identical faces caused confusion. In the west, townsfolk called the visiting sister "Lie," chasing her away for her unfamiliar dress. In the east, the same happened to the other sister. Heartbroken by the towns’ fights over who was the "true" Truth, the sisters met in a cave.
+							- "Sister, we’re one soul, split by their prejudice," one said, tears falling.
+							  "If I take your clothes, I can please both towns," the other replied.
+							  "But you’ll be naked, scorned!"
+							  "For love of people, I’ll endure. You satisfy them."
+							- They hugged, one taking all clothes, the other left bare. The dressed sister changed outfits swiftly, pleasing all as "Truth," though some called her "Lie" when caught mid-change. The naked sister hid, emerging to remind people of raw truth. Most scorned her, some abused her, but a few, tired of dressed lies, sought her in the cave.
+							- "Why hide?" they asked.
+							  "I gave my beauty to my sister to serve you," she said. "We’re one, but you want only the dressed Truth."
+							- Few stayed, embracing the naked Truth, while most returned to the comforting Lie, unaware they were sisters.
+							- **Moral**: Society prefers the well-dressed lie over the naked truth, but only the brave seek the unadorned reality.
+						- Full length version
+						  collapsed:: true
+							- Long time ago, at the dawn of human civilization, there were two twin sisters who were indistinguishable at birth. They were both so pure, so beautiful and so attractive from the beginning. When they grew up, they had to separate and go to different places, one to the east and one to the west, to live and work in different jobs. They were loved by people around so much that people in the east town called the east twin “Truth” with all good attributes attached, and the same for the west twin being called “Truth” preciously in the west town. One day, the east twin went to the west town to visit her sister. At first, people there got confused by the twins due to their identical faces and the same name “Truth”. But then they recognized their own “Truth” by her familiar dress. They called the unfamiliarly dressed twin “Lie”:
+								- You are not Truth!
+								- I'm Truth, we're twins with the same name.
+								- If so, you're just a false Truth, not the true Truth!
+								- I'm just another Truth, the same as my sister.
+								- No, we don't believe such a ridiculous thing! There's only one Truth. You're lying! You're Lie, not Truth! You're false, fake, counterfeit,...
+							- People there attributed all bad properties to the twin they called “Lie” and angrily chased her off the west town. The west twin went with the east twin to protect her sister from angry people so that she could return to the east town safely. But when they entered the east town, the west twin met the same situation: She was called “Lie”, humiliated, and chased off the east town.
+							- That discrimination not only upset the twins but also made people of the two towns fight against each other to protect their beloved “Truth” from being called “Lie” and insulted by people from the other town. Loving people so much, the twins retreated to a cave to meet and to come to a decision to resolve this conflict.
+								- I'm so sad, sister! That's so bad, sister!
+								- I'm sad, too. But we must do something to end this chaos!
+								- If only we are not separated, if only we're one...
+								- Yeah! You're right, we must be only one!
+								- But how???
+								- We've already been one, intrinsically... Only people discriminate us with their own prejudice and with our external clothes...
+								- Oh, I've got it! It's just the clothes!!! That's it, the clothes!!! I'll give you my clothes so that you can wear different costumes 👗🥻 in different places to be always appropriate wherever you go. Thus, people in the west town will see you as a west person and people in the east town will see you as an east person. That way, no one will be upset anymore.
+								- But how about you?!!!
+								- Don't worry about me! We're still only one in our heart ♥️. You just do the difficult task of satisfying people, and I just support them whenever they fall.
+								- No, I can't do that! It's so unfair to you! I cannot take your clothes... Hic...
+								- You don't love people any more, do you?!
+								- No, nope, yes I do! I do love people so much... but...
+								- But you don't want to sacrifice for the ones you love, do you?! Don't be pessimistic, sister! Our sacrifice will help people all over the world.
+								- I... I see... I will try my best to satisfy people on your behalf. I'll miss you a lot, hic, hic...
+								- I'll miss you, too! I'll be always with you... in your heart ♥️!
+								  The twins hugged, cried a lot, then separated with one twin taking all clothes and the other undressed.
+							- The dressed twin has practiced the skill of changing clothes at lightning speed, like a transformation magic, so that she can satisfy many different preferences of many different types of people anytime they need. Thanks to her magical skill, she makes everyone happy with the thought that they have got their own Truth, so they are no longer aggressive with each other. People are also more satisfied with themselves because they are no longer bothered by Lie. Although they still see Lie out there, but that's Lie of someone else far away.
+							- Ashamed, the naked twin usually have to hide in the cave. Loving people, sometimes she sneaks into the town to watch over them and to remind them about the existence of the hidden & naked Truth. In the daytime, most people turn away from the naked Truth calling her “crazy”, some people insult her, some get angry with her and chase her away. In the nighttime, some people find the naked Truth to rape her. Loving people, she bear them all!
+							- No matter how skillful, the dressed twin is occasionally caught by people when she's changing outfit. These people get disappointed to see their Truth appear in different appearance that they are not familiar with. Further more, they can't bear to know that their Truth is actually someone else's Lie.
+								- Hey Truth, I can't believe that you've lied to me all these times! No, you're not Truth, you're Lie!!!
+								- I'm sorry to make you disappointed! But I haven't lied to you. I just tried my best to satisfy you.
+								- So at last, are you Truth or Lie?
+								- I'm the dressed Truth, but people also call me “Lie” like you've just done.
+								- No no no! I don't want to talk with the Lie! Go away!
+								- I'm just telling you the truth but you can't accept it, so I can't help you. Let's meet my sister, maybe she can help you...
+								- Where is she?
+								- She's hiding in the cave.
+							- Most of these people just let time wash away their disappointment. Only few people bother going to the cave to find the naked Truth.
+								- Hello! Is there anybody?
+								- Yes I am.
+								- Why are you hiding?
+								- Because I don't want to scare you.
+								- I'm not scared, please show yourself!
+							- The naked Truth just show a little bit of herself...
+								- Ahhhh... you nasty!!! Why are you so dirty and smelly?
+								- Because I've given all my beautiful clothes with good smell to my sister, the dressed Truth that has served you, satisfied you all these times. And she is also the well-dressed Lie that has just disappointed you.
+								- Don't call her name in front of me! I hate her!
+								- Why do you come here?
+								- I want to find the true Truth.
+								- I'm just the naked Truth. I don't know who's your true Truth.
+								- You must be the true Truth! Please show yourself fully! I'm desperate to meet you.
+							- When the naked Truth fully show herself, most people get scared and flee back to the town. There they try to find their own version of “the true Truth” who is just another well-dressed Lie.
+							- Very few people get back to the naked Truth. They are the ones having experience of many beautiful appearances of the dressed Truth but still feeling something missing.
+								- Hello darkness, I'm back here to see you again!
+								- Nice to see you again! What do you want now?
+								- I want you, only you, no matter how scary, dirty, nasty, or even evil you are!
+								- Why?
+								- Because I'm tired of the well-dressed Lie.
+								- You'll soon be tired of me, too!
+								- I don't care! Just tell me why you're so bad, nasty and evil!?
+								- Because I've given all my goodness to my sister, the dressed Truth.
+								- For what?
+								- For serving people like you, to make people happy and satisfied.
+								- Why don't you do it yourself?
+								- It doesn't matter! We are two bodies but only one soul. If I took the responsibility to satisfy people, my sister would be the naked Truth just like me, no difference!
+								- Why don't you two share that task?
+								- Because people only want the “all right, all true, all beautiful, all happy” and don't want to accept the truth of being wrong, false, ugly, sad, and so on.
+								- That sounds ridiculous!... Anyway, let me believe you. But how do you know that?
+								- We twins have lived on Earth for millions of years. We've served many civilizations from rising to collapse. Your town is just a small pebble compared to great mountains of other civilizations. We've observed that people are always like that. Actually in the ancient time when we were young, we had already tried both dressing. However, our difference in dressing made people in different towns fight each other, which broke our hearts...
+								- So you decided to sacrifice yourself for people and for your sister?!
+								- Yep, but not only me. My sister also has to sacrifice herself to become the one people like which is different from her true self.
+							- ... The conversation goes on and on... Some people wake up to realize all of these are just dreams. Some decide to return to these dreams to help the twins of Truth & Lie...
 					- Đó là bản "cổ tích" được viết từ cảm hứng qua "sự tích về Sự Thật Trần Trụi" [((683006b8-eaf0-4123-b50b-66c4064834e9))] phổ biến bên Tây.
 				- [The coin of Truth](https://www.facebook.com/lexuandinhct/posts/pfbid02iGU97KErCLEvj63K7vtFHycW7bJEMxSoo5Z41wZkYp8sPX2YWGoDHmYJqkxKTE7gl)
 					- Đúng & Sai, tốt & xấu, âm & dương, v.v. là hai mặt của cùng một sự thật mang tên Chân Lý. Người ta thường lấy "giả dối" làm đối lập với "chân thật", nhưng kỳ thực thì "giả dối" chỉ là một phần của Sự Thật mà thôi. Cái sự thật toàn diện thì không có đối thủ, không có đối lập, không có đối trọng. Còn cái mặt "chân thật" đối lập với "giả dối" kia cũng chỉ là một sự giả dối tinh vi, giả dối được công nhận mà thôi, đơn giản vì "một nửa sự thật = giả dối" 😆
