@@ -1981,7 +1981,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Style: Use curly quotes (“”) instead of straight ones. Use quotation dash (―) in dialogues instead of quotes.
 							- Content:
 								- The dialogue in the cave was wrong seriously: "If I **take** your clothes, I can please both towns" is opposite of the original "I'll **give** you my clothes..."
-								-
+								- "The naked sister hid, emerging ..." sounds like a "short of breath". Maybe you've tried too hard on shortening to the etent that ommiting prepositions like "but", and adverbs like "sometimes", "returning to the town", etc. The sentence "The dressed sister changed outfits swiftly, pleasing all as "Truth,"..." also lacks
 							- Long ago, twin sisters, indistinguishable and both named Truth, lived in separate towns, each beloved until their identical faces caused confusion. In the west, townsfolk called the visiting sister "Lie," chasing her away for her unfamiliar dress. In the east, the same happened to the other sister. Heartbroken by the towns’ fights over who was the "true" Truth, the sisters met in a cave.
 							- "Sister, we’re one soul, split by their prejudice," one said, tears falling.
 							  "If I take your clothes, I can please both towns," the other replied.
