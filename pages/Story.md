@@ -1971,7 +1971,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- This morning, 23 May, on the way to company, contemplating the Great Lie, i see that i'm still too humble to be with the Great Lie, and still hiding in the cave with my Naked Truth.
 			- Let's document about the parables of the Naked Truth.
 			- Published posts
-				- [fb](https://www.facebook.com/share/p/1CJPvZJHiS/)
+			  collapsed:: true
+				- [The Well-Dressed Lie and the Naked Truth (fb)](https://www.facebook.com/share/p/1CJPvZJHiS/)
 					- Giả Dối Tinh Vi và Chân Thật Trần Trụi như hai thái cực chẳng đội trời chung... nhưng kỳ thực lại là hai chị em sinh đôi, tuy 2 mà 1. Vì lòng yêu thương con người vô hạn mà họ đã chấp nhận biến ra thành hai thái cực đối lập để làm hài lòng mọi người.
 					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
@@ -1986,9 +1987,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Vì chúng ta chỉ nhìn một chiều, luôn chạy theo những thứ "tích cực" và trốn tránh những thứ "tiêu cực".
 						- Sao người trốn tránh tiêu cực lại làm cho XH tiêu cực?
 						- Vì rác của mình không tự xử lý thì đẩy nó qua nhà hàng xóm, đẩy vòng vòng một hồi nó tích tụ lại thành đống rác lớn. Thí dụ như từ cái khó chịu nhỏ tích riết thành ra tức giận, tức giận dồn nén nhiều nữa thành ra căm thù, chịu không nổi nữa thì phải nổ ra thành chém giết. Nhưng người ta chỉ kết tội kẻ khác "giết người" mà không biết gốc rễ của nó chính là những cảm giác bực bội nhỏ nhặt hằng ngày của mình.
-					- Ai cũng thích "sự thật", "chân lý", "công lý", v.v. nhưng chẳng mấy ai đối diện được với **sự thật trần trụi** ở ngay bên trong mình. Khi quá chấp vào những cái hay cái đẹp bên ngoài, người ta đã ép cô em Giả Dối phải lấy đi bộ áo của cô chị song sinh Chân Thật để làm hài lòng người ta. Còn Chân Thật trần trụi thì buộc phải núp vào trong bóng tối ![👥](https://static.xx.fbcdn.net/images/emoji.php/v9/t8b/1/16/1f465.png) vì hổ thẹn. (The fable of the Naked Truth, from late 1500s)
+					- Ai cũng thích "sự thật", "chân lý", "công lý", v.v. nhưng chẳng mấy ai đối diện được với **sự thật trần trụi** ở ngay bên trong mình. Khi quá chấp vào những cái hay cái đẹp bên ngoài, người ta đã ép cô em Giả Dối phải lấy đi bộ áo của cô chị song sinh Chân Thật để làm hài lòng người ta. Còn Chân Thật trần trụi thì buộc phải núp vào trong bóng tối 👥 vì hổ thẹn. [((683006b8-eaf0-4123-b50b-66c4064834e9))]
 					- Tác phẩm La Vérité (Chân Lý) của Jules Joseph Lefebvre
-						-
+					  collapsed:: true
+						- ![La Vérité - Jules Joseph Lefebvre.jpg](../assets/Will/story/2025-05/La Vérité - Jules Joseph Lefebvre.jpg)
 			- The fable of the Naked Truth
 			  id:: 683006b8-eaf0-4123-b50b-66c4064834e9
 				- Dictinary.com: [naked truth](https://www.dictionary.com/browse/naked%20truth)
