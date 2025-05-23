@@ -1977,23 +1977,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
 					  collapsed:: true
-						- Short version
-							- Style: Use curly quotes (“”) instead of straight ones. Use quotation dash (―) in dialogues instead of quotes.
-							- Content:
-								- The development of "Lie" label should be both clarified and shortened. The reason of calling the unfamiliar sister "Lie" should be stated clearly: confused, clinging to the familiar, lacking acceptance of the unfamiliar. The 2 sentences of west & east town should be merged into one, e.g. "people in this town call the sister from the other town 'Lie'".
-								- The dialogue in the cave was wrong seriously: "If I **take** your clothes, I can please both towns" is opposite of the original "I'll **give** you my clothes..."
-								- "The naked sister hid, emerging ..." sounds like a "short of breath". Maybe you've tried too hard on shortening to the etent that ommiting prepositions like "but", and adverbs like "sometimes", "returning to the town", etc. The sentence "The dressed sister changed outfits swiftly, pleasing all as "Truth,"..." also lacks reasons and situations. It should be told like this: In order to please all people, the dressed sister returned to the town wearing different outfits appropriate to different personal needs and changed them swiftly to avoid shocking people.
-								- The last part lacked the **unease** and **scare** of facing the naked truth.
-							- Long ago, twin sisters, indistinguishable and both named Truth, lived in separate towns, each beloved until their identical faces caused confusion. In the west, townsfolk called the visiting sister "Lie," chasing her away for her unfamiliar dress. In the east, the same happened to the other sister. Heartbroken by the towns’ fights over who was the "true" Truth, the sisters met in a cave.
-							- "Sister, we’re one soul, split by their prejudice," one said, tears falling.
-							  "If I take your clothes, I can please both towns," the other replied.
-							  "But you’ll be naked, scorned!"
-							  "For love of people, I’ll endure. You satisfy them."
-							- They hugged, one taking all clothes, the other left bare. The dressed sister changed outfits swiftly, pleasing all as "Truth," though some called her "Lie" when caught mid-change. The naked sister hid, emerging to remind people of raw truth. Most scorned her, some abused her, but a few, tired of dressed lies, sought her in the cave.
-							- "Why hide?" they asked.
-							  "I gave my beauty to my sister to serve you," she said. "We’re one, but you want only the dressed Truth."
-							- Few stayed, embracing the naked Truth, while most returned to the comforting Lie, unaware they were sisters.
-							- **Moral**: Society prefers the well-dressed lie over the naked truth, but only the brave seek the unadorned reality.
+						- Short version (with the help of Grok 3)
+							-
 						- Full length version
 						  collapsed:: true
 							- Long time ago, at the dawn of human civilization, there were two twin sisters who were indistinguishable at birth. They were both so pure, so beautiful and so attractive from the beginning. When they grew up, they had to separate and go to different places, one to the east and one to the west, to live and work in different jobs. They were loved by people around so much that people in the east town called the east twin “Truth” with all good attributes attached, and the same for the west twin being called “Truth” preciously in the west town. One day, the east twin went to the west town to visit her sister. At first, people there got confused by the twins due to their identical faces and the same name “Truth”. But then they recognized their own “Truth” by her familiar dress. They called the unfamiliarly dressed twin “Lie”:
