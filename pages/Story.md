@@ -1969,11 +1969,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-05-23 Fri 12:15:05]
 		  :END:
 			- This morning, 23 May, on the way to company, contemplating the Great Lie, i see that i'm still too humble to be with the Great Lie, and still hiding in the cave with my Naked Truth.
-			- Let's document about the parables of the Naked Truth.
-			- The coin of Truth
+			- The Coin of Truth
 			  id:: 6830645a-93b9-4c90-929f-8740f40c2b15
-				- The Great Lie is also the Great Truth
+				- The Great Lie is also the Great Truth which is greater than both one-sided Truth and Lie.
+				- While the Truth and the Lie are 2 opposite sides of the Coin, the Great Lie and the Great Truth are 2 aspects, 2 connotations of the Coin.
+				- The Great Lie
+					-
+				- The Great Truth
+				  is simply the greater Truth including both Truth and Lie, i.e. the Coin of Truth.
 				- {{embed ((68300868-6108-475e-90e0-1f15e58366c1))}}
+			- Let's document about the parables of the Naked Truth.
 			- Published posts
 			  collapsed:: true
 				- fb post [The Well-Dressed Lie and the Naked Truth](https://www.facebook.com/share/p/1CJPvZJHiS/)
