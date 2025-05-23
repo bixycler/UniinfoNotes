@@ -1996,6 +1996,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Dictinary.com: [naked truth](https://www.dictionary.com/browse/naked%20truth)
 				  > This expression supposedly alludes to a fable in which Truth and Falsehood went bathing, Falsehood then dressed in Truth's clothes, and Truth, refusing to take another's clothes, went naked. [Late 1500s]
 				- The 1896 painting [Truth Coming Out of Her Well](https://en.wikipedia.org/wiki/Truth_Coming_Out_of_Her_Well) by Jean-Léon Gérôme: “La Vérité sortant du puits armée de son martinet pour châtier l'humanité” (“Truth coming from the well armed with her whip to chastise humanity”)
+					- Inspired from the aphorism of the pre-socratic philosopher [Democritus](https://en.wikipedia.org/wiki/Democritus): “ἐτεῇ δὲ οὐδὲν ἴδμεν: ἐν βυθῷ γὰρ ἡ ἀλήθεια” (in reality we know nothing; for the truth is in an abyss)
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  collapsed:: true
 		  :LOGBOOK:
