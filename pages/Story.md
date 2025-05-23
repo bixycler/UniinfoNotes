@@ -1960,13 +1960,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- > The passion caused by the great and sublime in nature, when those causes operate most powerfully is Astonishment, and astonishment is that state of the soul in which all its motions are suspended, with some degree of horror … No passion so effectually robs the mind of all its powers of acting and reasoning as fear. For fear, being an apprehension of pain or death, operates in a manner that resembles actual pain. Whatever therefore is terrible, with regard to sight, is sublime too … Indeed terror is in all cases whatsoever, either more openly or latently, the ruling principle of the sublime.
 				  
 				  –Edmund Burke in  “A Philosophical Enquiry into the Origins of Our Ideas of the Sublime and Beautiful” (1757)
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING The Great Lie and the twins of Well-Dressed Lie & Naked Truth
+		- The Great Lie and the twins of Well-Dressed Lie & Naked Truth
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-23 Fri 12:14:38]
-		  CLOCK: [2025-05-23 Fri 12:15:05]
+		  CLOCK: [2025-05-23 Fri 12:15:05]--[2025-05-23 Fri 20:46:54] =>  08:31:49
 		  :END:
 			- This morning, 23 May, on the way to company, contemplating ((6830664a-06e8-418d-bf46-0491fef3a780)), i see that i'm still too humble to be with the Great Lie, and still hiding in the cave with my Naked Truth.
 			- I'm still struggling in the transiton [(3)→(4)](((68306c82-0709-4c83-bcf2-a9015af8b86e))) from living the naked Truth to dressing the Lie.
@@ -2201,6 +2199,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ![Truth Coming Out of Her Well - Gérôme.jpg](../assets/Will/story/2025-05/Truth Coming Out of Her Well - Gérôme.jpg)
 				- The well is inspired by the aphorism of the pre-socratic philosopher [Democritus](https://en.wikipedia.org/wiki/Democritus#Epistemology): “ἐτεῇ δὲ οὐδὲν ἴδμεν: ἐν βυθῷ γὰρ ἡ ἀλήθεια” (in reality we know nothing; for the truth is in an abyss).
 				- The nudity is inspired by the expression “la vérité nue” (the naked truth).
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  collapsed:: true
 		  :LOGBOOK:
