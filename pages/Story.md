@@ -1970,9 +1970,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- This morning, 23 May, on the way to company, contemplating the Great Lie, i see that i'm still too humble to be with the Great Lie, and still hiding in the cave with my Naked Truth.
 			- Let's document about the parables of the Naked Truth.
+			- The coin of Truth
+			  id:: 6830645a-93b9-4c90-929f-8740f40c2b15
+				- The Great Lie is also the Great Truth
+				- {{embed ((68300868-6108-475e-90e0-1f15e58366c1))}}
 			- Published posts
 			  collapsed:: true
-				- [The Well-Dressed Lie and the Naked Truth (fb)](https://www.facebook.com/share/p/1CJPvZJHiS/)
+				- fb post [The Well-Dressed Lie and the Naked Truth](https://www.facebook.com/share/p/1CJPvZJHiS/)
 					- Giả Dối Tinh Vi và Chân Thật Trần Trụi như hai thái cực chẳng đội trời chung... nhưng kỳ thực lại là hai chị em sinh đôi, tuy 2 mà 1. Vì lòng yêu thương con người vô hạn mà họ đã chấp nhận biến ra thành hai thái cực đối lập để làm hài lòng mọi người.
 					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
 					  collapsed:: true
@@ -2149,9 +2153,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Illustrative image
 					  collapsed:: true
 						- ![Truth-Lie-twins.jpeg](../assets/Will/story/2025-05/Truth-Lie-twins.jpeg)
-				- [The coin of Truth](https://www.facebook.com/lexuandinhct/posts/pfbid02iGU97KErCLEvj63K7vtFHycW7bJEMxSoo5Z41wZkYp8sPX2YWGoDHmYJqkxKTE7gl)
+				- fb post [The coin of Truth](https://www.facebook.com/lexuandinhct/posts/pfbid02iGU97KErCLEvj63K7vtFHycW7bJEMxSoo5Z41wZkYp8sPX2YWGoDHmYJqkxKTE7gl)
+				  id:: 68300868-6108-475e-90e0-1f15e58366c1
 					- Đúng & Sai, tốt & xấu, âm & dương, v.v. là hai mặt của cùng một sự thật mang tên Chân Lý. Người ta thường lấy "giả dối" làm đối lập với "chân thật", nhưng kỳ thực thì "giả dối" chỉ là một phần của Sự Thật mà thôi. Cái sự thật toàn diện thì không có đối thủ, không có đối lập, không có đối trọng. Còn cái mặt "chân thật" đối lập với "giả dối" kia cũng chỉ là một sự giả dối tinh vi, giả dối được công nhận mà thôi, đơn giản vì "một nửa sự thật = giả dối" 😆
-				- [Biên kiến](https://www.facebook.com/lexuandinhct/posts/pfbid02QbnZ2Wq8haq1PvsvSQFuC4RrP4UtxXZyubp7aNuBibTuiHE96e2mpigYYfz6knCl)
+				- fb post [Biên kiến](https://www.facebook.com/lexuandinhct/posts/pfbid02QbnZ2Wq8haq1PvsvSQFuC4RrP4UtxXZyubp7aNuBibTuiHE96e2mpigYYfz6knCl)
 					- Biên kiến: (zh. 邊見, en. one-sided view, en. extreme view, sa. antagrāha-dṛṣti, pi. antaggāha-diṭṭhi): cách nhìn, quan điểm (kiến/見) mà chỉ thấy một chiều, một bên (biên/邊), không thấy cái toàn thể, thấy một cách cực đoan (extreme/antagrāha) không thấy cái trung dung.
 					- Trong ngôn ngữ phổ thông thì có từ "thiên kiến" (bias), tức cái nhìn thiên lệch, cũng gần nghĩa với biên kiến.
 					- Bản chất của cặp mắt ngoài này là biên kiến, vì nó hướng ra ngoài nên chỉ thấy được những biểu hiện bên ngoài. Mà "xấu che tốt khoe" nên bên ngoài thì chỉ có tốt, đẹp, sáng, tích cực, dương, v.v. Mọi cái xấu, ác, dở, tiêu cực, tối tăm, âm, v.v. đều bị giấu vào bên trong, đẩy ra sau lưng, hoặc tống đi thật xa cho khuất mắt.
