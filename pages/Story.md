@@ -1987,7 +1987,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Just a few people, tired of the dressed Lie, sought the naked Truth in the cave.
 							  ― Why hide? – they asked.
 							  ― I gave my beauty to my sister to serve you – she replied – because you fear the unadorned truth.
-							- Even Most shaken, fled, chasing a comforting “Truth” who was another’s Lie. Only the brave stayed, embracing the naked Truth.
+							- When the naked Truth emerged fully, most truth seekers were shaken, fled, and chased another comforting “Truth” who was another’s Lie. Only the brave stayed, embracing the naked Truth.
 						- Full length version
 						  id:: 683029f1-0847-4186-a6a6-b8cb19fcd922
 						  collapsed:: true
