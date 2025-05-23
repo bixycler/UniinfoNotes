@@ -1977,7 +1977,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
 					  collapsed:: true
 						- Bản tóm gọn
-							- Ngày xưa, có hai chị em sinh đôi giống hệt nhau, sống ở hai thị trấn khác nhau, nơi họ được gọi là “Chân Thật” một cách trìu mến. Người ở thị trấn này đã hoang mang khi gặp cô Chân Thật ở thị trấn kia vì họ không thể phân biệt với cô Chân Thật ở thị trấn này qua khuôn mặt, , bám víu vào vẻ ngoài quen thuộc và e dè với trang phục lạ lẫm, gọi chị em từ thị trấn kia là “Giả Dối” và xua đuổi cô. Đau lòng vì các thị trấn tranh cãi về “Sự Thật thật sự”, hai chị em gặp nhau trong một hang động.
+							- Ngày xưa, có hai chị em sinh đôi giống hệt nhau, sống ở hai thị trấn khác nhau, nơi họ được gọi là “Chân Thật” một cách trìu mến. Người ở thị trấn này đã hoang mang khi gặp cô Chân Thật ở thị trấn kia vì họ không thể phân biệt với cô Chân Thật ở thị trấn này qua khuôn mặt nhưng lại bám chấp vào sự quen thuộc và e dè với trang phục lạ lẫm, nên đã gọi cô kia là “Giả Dối” và xua đuổi cô. Đau lòng về việc hai thị trấn tranh cãi đâu là “Chân Thật thực sự” và chiến đấu với nhau để bảo vệ Chân Thật của mình, hai chị em gặp nhau trong một hang động.
 							- ― Chúng ta là một linh hồn, bị chia cắt bởi định kiến của họ – một người khóc.
 							  ― Chị sẽ cho em áo quần để làm hài lòng cả hai thị trấn – người kia nói.
 							  ― Nhưng chị sẽ trần truồng và bị khinh miệt!
@@ -1992,7 +1992,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
 					  collapsed:: true
 						- Short version (with the help of Grok 3)
-							- Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to familiar appearance and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns’ fights over the “true” Truth, the sisters met in a cave.
+							- Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to the familiar and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns’ fights over the “true” Truth, the sisters met in a cave.
 							- ― We’re one soul, split by their prejudice – one wept.
 							  ― I’ll give you my clothes to please both towns – the other said.
 							  ― But you’ll be naked and scorned!
