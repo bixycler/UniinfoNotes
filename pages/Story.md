@@ -1993,8 +1993,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ![La Vérité - Jules Joseph Lefebvre.jpg](../assets/Will/story/2025-05/La Vérité - Jules Joseph Lefebvre.jpg)
 			- The fable of the Naked Truth
 			  id:: 683006b8-eaf0-4123-b50b-66c4064834e9
-				- Dictinary.com: [naked truth](https://www.dictionary.com/browse/naked%20truth)
+				- Dictinary.com: [naked truth](https://www.dictionary.com/browse/naked%20truth): plain unadorned facts, without concealment or embellishment
 				  > This expression supposedly alludes to a fable in which Truth and Falsehood went bathing, Falsehood then dressed in Truth's clothes, and Truth, refusing to take another's clothes, went naked. [Late 1500s]
+				- The typical tale:
+					- Truth and Lie meet one day and decide to bathe together in a water body after Lie convinces Truth the water is pleasant.
+					- Both undress, but Lie deceives Truth, emerging first, stealing Truth’s clothes, and running to the village disguised as Truth.
+					- Truth, left naked, pursues Lie to reclaim her garments. However, the villagers, seeing the naked Truth, turn away in scorn or discomfort, refusing to believe her.
+					- Ashamed, Truth retreats and hides. Meanwhile, Lie, dressed in Truth’s clothes, is accepted by society, which prefers the comforting facade over the raw reality.
+				- The “twins” variations
+					- Twin brothers:
 			- The 1896 painting [Truth Coming Out of Her Well](https://en.wikipedia.org/wiki/Truth_Coming_Out_of_Her_Well) by Jean-Léon Gérôme: “La Vérité sortant du puits armée de son martinet pour châtier l'humanité” (“Truth coming from the well armed with her whip to chastise humanity”)
 				- Image
 				  collapsed:: true
