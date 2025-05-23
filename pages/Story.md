@@ -1983,10 +1983,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ― Nhưng chị sẽ bị trần trụi và bị khinh miệt!
 							  ― Vì tình yêu con người, chị sẽ chịu đựng. Còn em sẽ đảm nhận việc làm họ hài lòng, một nhiệm vụ khó chẳng kém chị đâu!
 							- Họ ôm nhau lệ rơi lả chả, rồi chia tay – cô em mang hết áo quần đi, cô chị ở lại trần truồng. Để làm hài lòng mọi người, cô em trở lại thị trấn, nhanh chóng thay đổi trang phục cho phù hợp với mong đợi của từng người, đảm bảo ai cũng thoải mái với “Chân Thật” của mình. Dù khéo léo đến đâu, đôi khi cô vẫn bị bắt gặp trong lúc thay đồ và bị gọi là “Giả Dối”. Cô chị trần truồng thường phải trốn trong hang để tránh làm người ta bị sốc. Hễ thấy cô, người ta gọi cô là “đồ điên” hay còn tệ hơn nữa, rồi hoảng sợ bỏ chạy vì bất an và sợ hãi; một số người còn lạm dụng cô trong đêm.
-							- Chỉ có vài người, sau khi chán ngán Giả Dối , tìm đến Sự Thật trong hang.
-							  ― Sao chị trốn? – họ hỏi.
-							  ― Chị đã trao vẻ đẹp cho em gái để phục vụ các người – cô đáp – vì các người sợ sự thật trần truồng.
-							- Khi Sự Thật trần truồng hiện diện hoàn toàn, hầu hết người tìm kiếm sự thật hoảng loạn, bỏ chạy, và đuổi theo một “Sự Thật” an ủi khác, vốn là Dối Trá của người khác. Chỉ những kẻ dũng cảm ở lại, đón nhận Sự Thật trần truồng.
+							- Chỉ có vài người tìm đến Chân Thật trong hang, sau khi đã chán ngán với Giả Dối bị che đậy.
+							  ― Sao em lại trốn ở đây? – họ hỏi.
+							  ― Em đã trao vẻ đẹp lại cho em gái để phục vụ các anh – cô đáp – vì các anh sợ sự thật trần trụi.
+							- Khi Chân Thật trần lộ ra hoàn toàn thì hầu hết những người tìm kiếm sự thật đều hoảng loạn, bỏ chạy, và đuổi theo một “Chân Thật” khác thoải mái hơn, vốn là Giả Dối của kẻ khác. Chỉ những ai dũng cảm đối diện và đón nhận Chân Thật trần trụi thì mới ở lại và trân trọng cô.
 						- Bản đầy đủ
 							-
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
