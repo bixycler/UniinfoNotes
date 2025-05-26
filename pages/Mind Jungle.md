@@ -2146,9 +2146,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 											  :END:
 												- Revision history, thanks to [Wikipedia-Blame](https://wintus.github.io/Wikipedia-Blame/) in [GitHub](https://github.com/Wintus/Wikipedia-Blame).
 													- On 17 August 2007, [76.247.115.69](https://en.wikipedia.org/wiki/Special:Contributions/76.247.115.69) added [→Definition and properties: Illustrated that Ackermann is expressible with primitive recursion + higher-order functionals](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=151767125&oldid=151721753)
+													  collapsed:: true
 													  Ackermann–Péter function can be defined by
 													  > primitive recursion over higher-order functionals
-														- Formulate $Ack$ with primitive recursion over functional $Iter$ ([previously $B$ with wrong def](((682c17e2-f858-43f9-a501-88c1e2f9854f))))
+														- Formulate $Ack$ with primitive recursion thanks to the functional $Iter$ ([previously `B` with wrong def](((682c17e2-f858-43f9-a501-88c1e2f9854f))))
+														  id:: 6833ecc7-379b-4d16-abd6-c9c9a54b6290
 														  > the Ackermann function may be defined via primitive recursion over higher-order functionals as follows:
 															- > $Ack(0) = Succ$
 															  $Ack(m+1) = Iter(Ack(m-1))$
@@ -2168,8 +2170,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 																- The definition of $B$ (where clause) was **plain wrong**!
 														- Then [Clarified 'primitive recursion' versus 'primitive recursive'](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=151767125)
 														  > Though the Ackermann function is often used to debunk the hypothesis that all useful or simple functions are primitive recursive, one should not confuse the primitive recursive functions with those definable by primitive recursion (it is this latter class that is of interest to programming language theorists because programs written using only primitive recursion are guaranteed to terminate).
-													- On 31 August 2021, [Marc Schroeder](https://en.wikipedia.org/wiki/User:Marc_Schroeder) rephrase “higher-order functionals” [to “sequence of 1-ary functions”](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=1041658631) and [iteration](https://en.wikipedia.org/wiki/Iterated_function).
+															- And ((6833ecc7-379b-4d16-abd6-c9c9a54b6290))
+													- On 31 August 2021, [Marc Schroeder](https://en.wikipedia.org/wiki/User:Marc_Schroeder) did a [major refactor](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=1041658631), rephrasing “higher-order functionals” to “sequence of 1-ary functions” and [iteration](https://en.wikipedia.org/wiki/Iterated_function).
 														- The [currying](https://en.wikipedia.org/wiki/Currying) of m-ary to 1-ary function was hidden to a footnote.
+														- The section `Definition and properties` was separted to `Definition`{`As m-ary function`, `As sequence of 1-ary functions`} , `Expansion` (newly added), and `Properties`
 												- Talks related to this definition
 												  id:: 682c1ce8-de95-497b-b2cc-e4d86c353862
 												  collapsed:: true
