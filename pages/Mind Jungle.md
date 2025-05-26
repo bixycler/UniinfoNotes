@@ -2155,10 +2155,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														  $B(f)(n) = f(n-1)$
 														- Then [Clarified 'primitive recursion' versus 'primitive recursive'](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=151767125)
 														  > Though the Ackermann function is often used to debunk the hypothesis that all useful or simple functions are primitive recursive, one should not confuse the primitive recursive functions with those definable by primitive recursion (it is this latter class that is of interest to programming language theorists because programs written using only primitive recursion are guaranteed to terminate).
+														- With clearer formulation
+														  > the Ackermann function may be defined via primitive recursion over higher-order functionals as follows:
+															-
 													- On 31 August 2021, [Marc Schroeder](https://en.wikipedia.org/wiki/User:Marc_Schroeder) rephrase “higher-order functionals” [to “sequence of 1-ary functions”](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=1041658631) and [iteration](https://en.wikipedia.org/wiki/Iterated_function).
 														- The [currying](https://en.wikipedia.org/wiki/Currying) of m-ary to 1-ary function was hidden to a footnote.
 												- Talks related to this definition
 												  id:: 682c1ce8-de95-497b-b2cc-e4d86c353862
+												  collapsed:: true
 													- [Definition via higher-order functionals](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Definition_via_higher-order_functionals)
 													  On 16 July 2012, Daniel5Ko said:
 													  > IIRC, a definition which is primitive recursive and uses HOFs can be found in the Paper "Total Functional Programming" by David Turner, but it may be slightly different - i.e. not extracting out something like the Iter here.
