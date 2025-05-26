@@ -2026,7 +2026,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Other meanings of the “coin of truth” in the folks
 					- [A statement](https://www.goodreads.com/quotes/7729752-the-coin-of-truth-had-two-faces-equally-fair-and) in Jan Cox Speas's 1961 historical fiction “My Love, My Enemy”
 					  > The coin of truth had two faces, equally fair, and no one could see them both at once.
-					-
+					- The coin usully symbolizes the choices between truth and lie, right and wrong.
+						- In [the legends of the deva Gayatri on SNARGL](https://snargl.com/angelic-creatures/gayatri/), the Coin of Truth [symbolizes the choices](https://snargl.com/blog/the-significance-of-the-coin-of-truth-in-gayatris-journey/) she encounters along her path.
+						- As a tool, itfortune telling coin answering yes/no questions
 			- Let's document about the parables of the Naked Truth.
 			- Published posts
 			  collapsed:: true
