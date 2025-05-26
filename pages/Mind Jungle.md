@@ -2225,13 +2225,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 														- Iteration itself is a functional!
 														- 1st order $f(n) = A(m,n)$
 														- 2nd order $h(f)(n+1) = A(m+1)(n+1) = A(m)(A(m+1)(n)) = f(h(f)(n)) = f^{n+1}(h(f(0))) = f^{n+1}(f(1))$
+															- This iteration of function $f$ is [primitive pure recursion](((682b333a-a938-4ccb-83d2-3afda66c938c))).
 														- 3rd order $A(m+1) = h(A(m)) = h^{m+1}(A(0)) =  h^{m+1}(S)$
-															- Pit fall: This iteration of functional $h$ is not primitive recursive function, due to the remaining arguments $n$ is applied last, not first like in primitive recursion.
+															- Pitfall: This iteration of functional $h$ is not primitive recursive function, due to the remaining arguments $n$ is applied last, not first like in [primitive pure recursion](((682b333a-a938-4ccb-83d2-3afda66c938c))).
 															  $A(m,n) = h^m(S)(n) ≠ h^m(S(n))$
 																- $h^m(S(n)) = S(n)$ simply!
 													- Rephrase the abstract to state `Ackermann–Péter function is the *de facto* standard Ackermann function which is normally called "the Ackermann function"`.
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
 									- Primitive ([pure](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion)) recursion: $p_{n+1}(x) = f(p_n(x)) = f^{n+1}(x); \; p_0(x) = x$,  from a *provided* function $f()$ independent from $p()$, is the [n-th iterate of f](https://en.wikipedia.org/wiki/Iterated_function) ($f^n$).
+									  id:: 682b333a-a938-4ccb-83d2-3afda66c938c
 									- Explicit long form: $p(S(n), x) = f(n, p(n, x), x); \; p(0,x) = f_0(x)$, with successor function $S()$ over the iteration variable $n$ to generalize it beyond integers, and let $f()$ access both $n$ & $x$.
 										- This is a bounded `for` loop over $n$ whose body is $f()$ with access to the global variable $x$.
 								- P-recursive: Coefficients as polynomial functions of index k, solvable via generating/differential functions, often yielding special functions (e.g., factorial, Bessel functions). E.g.: $k!$ ([factorial](https://en.wikipedia.org/wiki/Factorial)), $H_k$ ([harmonic numbers](https://en.wikipedia.org/wiki/Harmonic_number), a special [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_(mathematics))), ...
