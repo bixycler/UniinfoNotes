@@ -1971,11 +1971,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- The **Coin of Truth**
 			  id:: 6830645a-93b9-4c90-929f-8740f40c2b15
 				- The Coin of Truth (Great Truth) is also the Coin of Lie (Great Lie) which is greater than both one-sided Truth and Lie.
+					- Image: [Coin of Truth - stereotypes.png](../assets/Will/story/2025-05/Coin of Truth - stereotypes.png) shows stereotypes of both “Truth” and “Lie”
+					  collapsed:: true
+						- ![Coin of Truth - stereotypes.png](../assets/Will/story/2025-05/Coin of Truth - stereotypes.png){:width 200}
+					-
 				- While the Truth and the Lie are 2 opposite sides of the Coin, the Great Lie and the Great Truth are 2 aspects, 2 connotations of the Coin.
 				- The **Great Truth**
 				  id:: 68306652-f922-4597-bcf7-99a62ef32c94
 				  is simply the Coin of Truth including both Truth and Lie.
-					- Image: [Coin of Truth - twins.png](../assets/Will/story/2025-05/Coin of Truth - twins.png)
+					- Image: [Coin of Truth - twins.png](../assets/Will/story/2025-05/Coin of Truth - twins.png) illustrates the twins of [Well-Dressed Lie and Naked Truth](((683006ab-8151-40ff-b1a3-5499aebd355a)))
 					  collapsed:: true
 						- ![Coin of Truth - twins.png](../assets/Will/story/2025-05/Coin of Truth - twins.png)
 				- The **Great Lie**
@@ -1990,6 +1994,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Published posts
 			  collapsed:: true
 				- fb post [The Well-Dressed Lie and the Naked Truth](https://www.facebook.com/share/p/1CJPvZJHiS/)
+				  id:: 683006ab-8151-40ff-b1a3-5499aebd355a
 					- Giả Dối Tinh Vi và Chân Thật Trần Trụi như hai thái cực chẳng đội trời chung... nhưng kỳ thực lại là hai chị em sinh đôi, tuy 2 mà 1. Vì lòng yêu thương con người vô hạn mà họ đã chấp nhận biến ra thành hai thái cực đối lập để làm hài lòng mọi người.
 					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
 					  collapsed:: true
