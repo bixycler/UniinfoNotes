@@ -1976,7 +1976,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ![Coin of Truth - stereotypes.png](../assets/Will/story/2025-05/Coin of Truth - stereotypes.png){:width 200}
 						- Truth side: Goddess [Veritas](https://legendaryladieshub.com/goddess-veritas/) with laurels on her hair depicting her triumph over Lie.
 						- Lie side: Mendax is the deceiver with witchcraft
-					- The normal stereotypes & symbols of Truth and Lie are just the cover of deeper truth, so this is also the Coin of Lie.
+					- The normal stereotypes & symbols of Truth and Lie are just the cover of deeper truth, so this is also the [Coin of Lie](((6830664a-06e8-418d-bf46-0491fef3a780))).
 					- The fable of the twins of [Well-Dressed Lie and Naked Truth](((683006ab-8151-40ff-b1a3-5499aebd355a))) reveals the inner truth which is opposite to those superficial stereotypes: Veritas is just the well dressed Lie, and Mendax is actually the naked Truth.
 				- While the Truth and the Lie are 2 opposite sides of the Coin, the Great Lie and the Great Truth are 2 aspects, 2 connotations of the Coin.
 				- The **Great Truth**
@@ -1988,6 +1988,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The **Great Lie**
 				  id:: 6830664a-06e8-418d-bf46-0491fef3a780
 				  is the skillful means to express ((68306652-f922-4597-bcf7-99a62ef32c94)) without inflicting suffering, based on the acceptance of the intrinsic “lie” caused by differences between views.
+					- Image: [Coin of Truth - lotus.png](../assets/Will/story/2025-05/Coin of Truth - lotus.png) shows both sides of the lotus: the beautiful flower rising above the rippling water surface, versus the ugly roots sucking the smelly mud at the bottom.
+						- ![Coin of Truth - lotus.png](../assets/Will/story/2025-05/Coin of Truth - lotus.png)
+						- This image is the result of
 					- Even though the Coin has 2 equal sides of both Lie and Truth, it's preferred to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox): “The Truth is that Truth lies!”
 					- This is the top of skillfulness and difficulty: (1) accompany with the dressed Lie → (2) accepting the naked Truth → (3) living the naked Truth → (4) dressing the Lie → (5) living the Great Truth → (6) living the Great Lie
 					  id:: 68306c82-0709-4c83-bcf2-a9015af8b86e
