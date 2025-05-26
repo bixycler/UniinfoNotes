@@ -2148,21 +2148,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 													- On 17 August 2007, [76.247.115.69](https://en.wikipedia.org/wiki/Special:Contributions/76.247.115.69) added [→Definition and properties: Illustrated that Ackermann is expressible with primitive recursion + higher-order functionals](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=151767125&oldid=151721753)
 													  Ackermann–Péter function can be defined by
 													  > primitive recursion over higher-order functionals
-														- First
-														  > In addition, the Ackermann function can be expressed with a combination of primitive recursion and higher-order functions (sometimes called functionals) by exploiting the type isomorphism A×B→C ≅ A→(B→C). The order of arguments of *C* is immaterial, but chosen for ease of illustration.
-														- > $A(0) = Succ$
-														  $A(m) = B(A(m-1))$
-														  where
-														  $B(f)(0) = 1$
-														  $B(f)(n) = f(n-1)$
-															- The definition of $B$ (where clause) was plain wrong!
-														- Then [Clarified 'primitive recursion' versus 'primitive recursive'](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=151767125)
-														  > Though the Ackermann function is often used to debunk the hypothesis that all useful or simple functions are primitive recursive, one should not confuse the primitive recursive functions with those definable by primitive recursion (it is this latter class that is of interest to programming language theorists because programs written using only primitive recursion are guaranteed to terminate).
-														- With clearer formulation & correct definiton of the functional $Iter$ (previously $B$ with wrong def)
+														- Formulate $Ack$ with primitive recursion over functional $Iter$ ([previously $B$ with wrong def](((682c17e2-f858-43f9-a501-88c1e2f9854f))))
 														  > the Ackermann function may be defined via primitive recursion over higher-order functionals as follows:
 															- > $Ack(0) = Succ$
 															  $Ack(m+1) = Iter(Ack(m-1))$
-																- Typo in the recursive formula: adding
+																- **Typo** in the recursive formula: added $m+1$ but forgot to reset $m-1$ to $m$.
+															- > where $Succ$ is the usual successor function and $Iter$ is defined by primitive recursion as well:
+															  $Iter(f)(0) = f(1)$
+															  $Iter(f)(n+1) = f(Iter(f)(n))$
+														- Previously
+														  id:: 682c17e2-f858-43f9-a501-88c1e2f9854f
+														  collapsed:: true
+														  > In addition, the Ackermann function can be expressed with a combination of primitive recursion and higher-order functions (sometimes called functionals) by exploiting the type isomorphism A×B→C ≅ A→(B→C). The order of arguments of *C* is immaterial, but chosen for ease of illustration.
+															- > $A(0) = Succ$
+															  $A(m) = B(A(m-1))$
+															  where
+															  $B(f)(0) = 1$
+															  $B(f)(n) = f(n-1)$
+																- The definition of $B$ (where clause) was **plain wrong**!
+														- Then [Clarified 'primitive recursion' versus 'primitive recursive'](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=151767125)
+														  > Though the Ackermann function is often used to debunk the hypothesis that all useful or simple functions are primitive recursive, one should not confuse the primitive recursive functions with those definable by primitive recursion (it is this latter class that is of interest to programming language theorists because programs written using only primitive recursion are guaranteed to terminate).
 													- On 31 August 2021, [Marc Schroeder](https://en.wikipedia.org/wiki/User:Marc_Schroeder) rephrase “higher-order functionals” [to “sequence of 1-ary functions”](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=1041658631) and [iteration](https://en.wikipedia.org/wiki/Iterated_function).
 														- The [currying](https://en.wikipedia.org/wiki/Currying) of m-ary to 1-ary function was hidden to a footnote.
 												- Talks related to this definition
