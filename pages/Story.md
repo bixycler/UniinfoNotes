@@ -2006,7 +2006,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- a previous image like a watercolor painting with colors but wrong anatomy of rhizome
 							  collapsed:: true
 								- ![Coin of Truth - lotus-3.jpg](../assets/Will/story/2025-05/Coin of Truth - lotus-3.jpg)
-							-
+							- a previous image with text "Veritas | Mendax" printed
+							  collapsed:: true
+								- ![Coin of Truth - twins-names.jpg](../assets/Will/story/2025-05/Coin of Truth - twins-names.jpg)
 						- Parts of the lotus
 						  id:: 683463e2-d067-42a6-84f3-fcad587e2569
 						  collapsed:: true
@@ -2015,6 +2017,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- This is the top of skillfulness and difficulty: (1) accompany with the dressed Lie → (2) accepting the naked Truth → (3) living the naked Truth → (4) dressing the Lie → (5) living the Great Truth → (6) living the Great Lie
 					  id:: 68306c82-0709-4c83-bcf2-a9015af8b86e
 					- A lesser great Lie, which is just a better dressed Lie, is the widely accepted norms, social standards, ethics, morals, etc. This is what Grok 3 and maybe the general public think of when being asked about "the Great Lie".
+					- Great Lie > noble lie > white lie
+						- Great Lie = [upaya-kaushalya (skillful means, phương tiện thiện xảo)](https://en.wikipedia.org/wiki/Upaya)
+						- Noble lie = splendide mendax (Latin): A “nobly false”, untruthful for a good cause, like the Hypermnestra’s deception in Horace’s "Odes" to save her husband, and like the well dressed Lie in the fable of the twins.
 				- {{embed ((68300868-6108-475e-90e0-1f15e58366c1))}}
 			- Let's document about the parables of the Naked Truth.
 			- Published posts

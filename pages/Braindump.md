@@ -691,6 +691,10 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-05-07 Wed 17:42:22]
 		  :END:
 			- ((681b4678-686a-4d99-9163-6f60e0b30d2c))
+		- Last weekends, 23-25 May, i spent all time for ((6830645a-93b9-4c90-929f-8740f40c2b15))
+		  :LOGBOOK:
+		  CLOCK: [2025-05-26 Mon 20:12:45]
+		  :END:
 	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
