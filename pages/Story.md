@@ -1985,6 +1985,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Image: [Coin of Truth - twins.png](../assets/Will/story/2025-05/Coin of Truth - twins.png) illustrates the twins of [Well-Dressed Lie and Naked Truth](((683006ab-8151-40ff-b1a3-5499aebd355a)))
 					  collapsed:: true
 						- ![Coin of Truth - twins.png](../assets/Will/story/2025-05/Coin of Truth - twins.png)
+					- identity (face) = perspective (side) = mặt
+					  id:: 68347151-822b-4773-8ad0-2f1d8c300191
+						- Truth and Lie are just two identities, [two faces](((68346b4d-6704-4012-94b6-581694788547))) of the same subject. These identities are constructed by the collective karma, illustrated by the folks in two towns in the fable.
+						- The “coin” symbol shows that Truth and Lie are just two perspectives viewed from two different angles, hence two sides of the same object.
+						- It's interesting that in Vietnamese, these two expressions are unified by a single word: mặt = face = side!
 				- The **Great Lie**
 				  id:: 6830664a-06e8-418d-bf46-0491fef3a780
 				  is the skillful means to express ((68306652-f922-4597-bcf7-99a62ef32c94)) without inflicting suffering, based on the acceptance of the intrinsic “lie” caused by differences between views.
@@ -2022,11 +2027,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Great Lie = [upaya-kaushalya (skillful means, phương tiện thiện xảo)](https://en.wikipedia.org/wiki/Upaya)
 						- Noble lie = [splendide mendax](https://www.merriam-webster.com/dictionary/splendide%20mendax) (Latin): Being “nobly false”, untruthful for a good cause, like the Hypermnestra’s deception in Horace’s Odes 3.11 to save her husband, and like the well dressed Lie in the fable of the twins.
 						- [White lie](https://www.merriam-webster.com/dictionary/white%20lie): a lie about a small or unimportant matter that someone tells to avoid hurting another person
-						- The well-dressed Lie’s noble lie is a compassionate but incomplete act, showing only the good side to protect society. The sages’ Great Lie, however, is the ultimate expression, embracing both sides of the Coin of Truth and presenting them skillfully, aligning with the equation "identity (face) = perspective (side) = mặt" and Sadhguru’s liberation from identity.
+						- The well-dressed Lie’s noble lie is a compassionate but incomplete act, showing only the good side to protect society. The sages’ Great Lie, however, is the ultimate expression, embracing both sides of the Coin of Truth and presenting them skillfully, aligning with the equation ((68347151-822b-4773-8ad0-2f1d8c300191)) and with Sadhguru’s liberation from identity.
 				- {{embed ((68300868-6108-475e-90e0-1f15e58366c1))}}
 				- Other meanings of the “coin of truth” in the folks:
 				  collapsed:: true
 					- [A statement](https://www.goodreads.com/quotes/7729752-the-coin-of-truth-had-two-faces-equally-fair-and) in Jan Cox Speas's 1961 historical fiction “My Love, My Enemy”
+					  id:: 68346b4d-6704-4012-94b6-581694788547
 					  > The coin of truth had two faces, equally fair, and no one could see them both at once.
 					- The coin usully symbolizes the choices between truth and lie, right and wrong.
 						- In [the legends of the deva Gayatri on SNARGL](https://snargl.com/angelic-creatures/gayatri/), the Coin of Truth [symbolizes the choices](https://snargl.com/blog/the-significance-of-the-coin-of-truth-in-gayatris-journey/) she encounters along her path.
