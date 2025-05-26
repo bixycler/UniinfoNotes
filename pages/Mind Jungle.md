@@ -2223,7 +2223,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 													- `Definiton`: Move def of $φ(m,n,p)$ to `History`. Split Ackermann–Péter function to `Definition by recursion`, `Definition by iteration` (of function & of functional), and then `Definition by hyperoperation`.
 													- Rephrase `Definition: as iterated 1-ary function` → `Definiton by interation` of both function $f = A(m)$ and functional $h(f) = h(A(m)) = A(m+1)$.
 														- Iteration itself is a functional
-														- 1st order $f(n) = A(m,n)$ → 2nd order $h(f) = A(m+1) = f(A(m)) =
+														- 1st order $f(n) = A(m,n)$ → 2nd order $h(f)(n+1) = A(m+1)(n+1) = A(m)(A(m+1)(n)) = f(h(f)(n)) = f^{n+1}(h(f(0))) = f^{n+1}(f(1))$
 													- Rephrase the abstract to state `Ackermann–Péter function is the *de facto* standard Ackermann function which is normally called "the Ackermann function"`.
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
 									- Primitive ([pure](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion)) recursion: $p_{n+1}(x) = f(p_n(x)); \; p_0(x) = x$,  from *provided* function $f()$ independent from $p()$; 
