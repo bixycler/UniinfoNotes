@@ -2018,9 +2018,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  id:: 68306c82-0709-4c83-bcf2-a9015af8b86e
 					- A lesser great Lie, which is just a better dressed Lie, is the widely accepted norms, social standards, ethics, morals, etc. This is what Grok 3 and maybe the general public think of when being asked about "the Great Lie".
 					- Great Lie > noble lie > white lie
+					  collapsed:: true
 						- Great Lie = [upaya-kaushalya (skillful means, phương tiện thiện xảo)](https://en.wikipedia.org/wiki/Upaya)
-						- Noble lie = splendide mendax (Latin): A “nobly false”, untruthful for a good cause, like the Hypermnestra’s deception in Horace’s "Odes" to save her husband, and like the well dressed Lie in the fable of the twins.
+						- Noble lie = [splendide mendax](https://www.merriam-webster.com/dictionary/splendide%20mendax) (Latin): Being “nobly false”, untruthful for a good cause, like the Hypermnestra’s deception in Horace’s Odes 3.11 to save her husband, and like the well dressed Lie in the fable of the twins.
+						- [White lie](https://www.merriam-webster.com/dictionary/white%20lie): a lie about a small or unimportant matter that someone tells to avoid hurting another person
 				- {{embed ((68300868-6108-475e-90e0-1f15e58366c1))}}
+				- Other meanings of the “coin of truth” in the folks
+					- [A statement](https://www.goodreads.com/quotes/7729752-the-coin-of-truth-had-two-faces-equally-fair-and) in Jan Cox Speas's 1961 historical fiction “My Love, My Enemy”
+					  > The coin of truth had two faces, equally fair, and no one could see them both at once.
+					-
 			- Let's document about the parables of the Naked Truth.
 			- Published posts
 			  collapsed:: true
