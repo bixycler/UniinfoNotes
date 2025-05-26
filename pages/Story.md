@@ -1989,8 +1989,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6830664a-06e8-418d-bf46-0491fef3a780
 				  is the skillful means to express ((68306652-f922-4597-bcf7-99a62ef32c94)) without inflicting suffering, based on the acceptance of the intrinsic “lie” caused by differences between views.
 					- Image: [Coin of Truth - lotus.png](../assets/Will/story/2025-05/Coin of Truth - lotus.png) shows both sides of the lotus: the beautiful flower rising above the rippling water surface, versus the ugly roots sucking the smelly mud at the bottom.
+					  collapsed:: true
 						- ![Coin of Truth - lotus.png](../assets/Will/story/2025-05/Coin of Truth - lotus.png)
-						- This image is the result of
+						- This image is the result of dozens of hours working, which are all hidden by the beautiful final image! This is just a little exmple of the Great Lie.
+							- a previous image with wrong orientations
+								- ![Coin of Truth - lotus-1.jpg](../assets/Will/story/2025-05/Coin of Truth - lotus-1.jpg)
+							- a previous image with wrong orientations
+								- ![Coin of Truth - lotus-1.jpg](../assets/Will/story/2025-05/Coin of Truth - lotus-1.jpg)
+						- Parts of the lotus
+						  collapsed:: true
+							- ![lotus parts.jpg](../assets/Will/story/2025-05/lotus parts.jpg)
 					- Even though the Coin has 2 equal sides of both Lie and Truth, it's preferred to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox): “The Truth is that Truth lies!”
 					- This is the top of skillfulness and difficulty: (1) accompany with the dressed Lie → (2) accepting the naked Truth → (3) living the naked Truth → (4) dressing the Lie → (5) living the Great Truth → (6) living the Great Lie
 					  id:: 68306c82-0709-4c83-bcf2-a9015af8b86e
