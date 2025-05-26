@@ -2231,8 +2231,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 																- $h^m(S(n)) = S(n)$ simply!
 													- Rephrase the abstract to state `Ackermann–Péter function is the *de facto* standard Ackermann function which is normally called "the Ackermann function"`.
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
-									- Primitive ([pure](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion)) recursion: $p_{n+1}(x) = f(p_n(x)) = f^{n+1}(x); \; p_0(x) = x$,  from *provided* function $f()$ independent from $p()$; 
-									  is equivalent to a bounded `for` loop over $n$ whose body is $f()$.
+									- Primitive ([pure](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion)) recursion: $p_{n+1}(x) = f(p_n(x)) = f^{n+1}(x); \; p_0(x) = x$,  from a *provided* function $f()$ independent from $p()$, 
+									  is the [n-th iterate of f](https://en.wikipedia.org/wiki/Iterated_function) ($f^n$), i.e. a bounded `for` loop over $n$ whose body is $f()$.
 										- Explicit long form: $p(S(n), x) = f(n, p(n, x), x); \; p(0,x) = f_0(x)$, with successor function $S()$ over the iteration variable $n$ to generalize it beyond integers, and let $f()$ access both $n$ & $x$.
 								- P-recursive: Coefficients as polynomial functions of index k, solvable via generating/differential functions, often yielding special functions (e.g., factorial, Bessel functions). E.g.: $k!$ ([factorial](https://en.wikipedia.org/wiki/Factorial)), $H_k$ ([harmonic numbers](https://en.wikipedia.org/wiki/Harmonic_number), a special [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_(mathematics))), ...
 								- Constant-recursive: Fixed coefficients, solvable via characteristic equations, generating closed-form expressions. E.g.: $F_{n}=F_{n-1}+F_{n-2}$ ([Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)), ...
