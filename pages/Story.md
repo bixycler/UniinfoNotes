@@ -1992,11 +1992,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  collapsed:: true
 						- ![Coin of Truth - lotus.png](../assets/Will/story/2025-05/Coin of Truth - lotus.png)
 						- This image is the result of dozens of hours working, which are all hidden by the beautiful final image! This is just a little exmple of the Great Lie.
-							- a previous image with wrong orientations
+							- Prompt to Copilot
+							  collapsed:: true
+								- The Coin of Truth contains 2 views of the same thing on its two sides. The Left side depicts a beautiful lotus 🪷 seen from above water with circular ripples spreading out from the petiole (no leaf). The Right side depicts the scene under water with the muddy rough bottom covering the lotus roots and rhizomes. Please make sure the correct anatomy of the lotus roots right under the petioles and between the horizontal rhizomes, as shown in [this diagram](((683463e2-d067-42a6-84f3-fcad587e2569))).
+								- To show both sides, please draw an image of two copies of the Coin in opposite oblique angles facing away from each other: the left coin shows the Left side facing left, the right coin shows the Right side facing right. Let the background be transparent, and please don't print any text.
+							- Just like the "one unit error", the correction of the orientations (opposite <> parallel, facing away <> facing each other) is too hard for Copilot! 😔
+							- a previous image with wrong root anatomy
+							  collapsed:: true
 								- ![Coin of Truth - lotus-1.jpg](../assets/Will/story/2025-05/Coin of Truth - lotus-1.jpg)
 							- a previous image with wrong orientations
-								- ![Coin of Truth - lotus-1.jpg](../assets/Will/story/2025-05/Coin of Truth - lotus-1.jpg)
+							  collapsed:: true
+								- ![Coin of Truth - lotus-2.jpg](../assets/Will/story/2025-05/Coin of Truth - lotus-2.jpg)
+							- a previous image like a watercolor painting with colors but wrong anatomy of rhizome
+							  collapsed:: true
+								- ![Coin of Truth - lotus-3.jpg](../assets/Will/story/2025-05/Coin of Truth - lotus-3.jpg)
+							-
 						- Parts of the lotus
+						  id:: 683463e2-d067-42a6-84f3-fcad587e2569
 						  collapsed:: true
 							- ![lotus parts.jpg](../assets/Will/story/2025-05/lotus parts.jpg)
 					- Even though the Coin has 2 equal sides of both Lie and Truth, it's preferred to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox): “The Truth is that Truth lies!”
