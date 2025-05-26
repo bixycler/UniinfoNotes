@@ -2220,8 +2220,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 													- [Possible confusion between Ackermann's function and Friedman's function because both use the capital letter A](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Possible_confusion_between_Ackermann's_function_and_Friedman's_function_because_both_use_the_capital_letter_A)
 												- My refactor
 													- Split `History` to `Ackermann's original function φ(m,n,p)` and `other versions of Ackermann function`
-													- Move def of $φ(m,n,p)$ to `History`.
-													- Rephrase `Definition: as iterated 1-ary function` → `Definiton with interation` for both function $f = A(m)$ and functional $h(f) = h(A(m)) = A(m+1)$.
+													- `Definiton`: Move def of $φ(m,n,p)$ to `History`. Split Ackermann–Péter function to `Definition by recursion`, `Definition by hyperoperation`, `Definition by interation`.
+													- Rephrase `Definition: as iterated 1-ary function` → `Definiton by interation` for both function $f = A(m)$ and functional $h(f) = h(A(m)) = A(m+1)$.
 													- Rephrase the abstract to state `Ackermann–Péter function is the *de facto* standard Ackermann function which is normally called "the Ackermann function"`.
 								- Primitive recursive: Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
 									- Primitive ([pure](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion)) recursion: $p_{n+1}(x) = f(p_n(x)); \; p_0(x) = x$,  from *provided* function $f()$ independent from $p()$; 
