@@ -2022,13 +2022,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Great Lie = [upaya-kaushalya (skillful means, phương tiện thiện xảo)](https://en.wikipedia.org/wiki/Upaya)
 						- Noble lie = [splendide mendax](https://www.merriam-webster.com/dictionary/splendide%20mendax) (Latin): Being “nobly false”, untruthful for a good cause, like the Hypermnestra’s deception in Horace’s Odes 3.11 to save her husband, and like the well dressed Lie in the fable of the twins.
 						- [White lie](https://www.merriam-webster.com/dictionary/white%20lie): a lie about a small or unimportant matter that someone tells to avoid hurting another person
+						- The well-dressed Lie’s noble lie is a compassionate but incomplete act, showing only the good side to protect society. The sages’ Great Lie, however, is the ultimate expression, embracing both sides of the Coin of Truth and presenting them skillfully, aligning with the equation "identity (face) = perspective (side) = mặt" and Sadhguru’s liberation from identity.
 				- {{embed ((68300868-6108-475e-90e0-1f15e58366c1))}}
-				- Other meanings of the “coin of truth” in the folks
+				- Other meanings of the “coin of truth” in the folks:
+				  collapsed:: true
 					- [A statement](https://www.goodreads.com/quotes/7729752-the-coin-of-truth-had-two-faces-equally-fair-and) in Jan Cox Speas's 1961 historical fiction “My Love, My Enemy”
 					  > The coin of truth had two faces, equally fair, and no one could see them both at once.
 					- The coin usully symbolizes the choices between truth and lie, right and wrong.
 						- In [the legends of the deva Gayatri on SNARGL](https://snargl.com/angelic-creatures/gayatri/), the Coin of Truth [symbolizes the choices](https://snargl.com/blog/the-significance-of-the-coin-of-truth-in-gayatris-journey/) she encounters along her path.
-						- As a tool, itfortune telling coin answering yes/no questions
+						- As a tool, it's [used by fortune tellers](https://www.ritualsupply.co/products/coin-of-truth-yes-or-no-fortune-teller) to answer yes/no questions, or as [a magical fortune telling device](https://www.webtoons.com/en/canvas/coin-of-truth/list?title_no=682619).
+							- ![Coin of Truth - Yes or No Fortune Teller.jpg](../assets/Will/story/2025-05/Coin of Truth - Yes or No Fortune Teller.jpg){:width 100}
 			- Let's document about the parables of the Naked Truth.
 			- Published posts
 			  collapsed:: true
