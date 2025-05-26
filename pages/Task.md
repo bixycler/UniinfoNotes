@@ -107,6 +107,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 					- {{deadline-warning ((67850fb1-04a9-427f-bc0d-f61913d86e4b)), 67850c3d-a026-43a0-8fb8-1febf398bd65, 67850fd2-272d-48fa-9d7c-c649619b5a89, 67850fe1-3e22-430e-9af9-a84853766dd7}}
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
+		- ((682c1735-31c3-4024-8d8a-20d8434db966))
 		- TODO Add logical symbols & perp (⟂) to ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		- TODO Add ((66533703-505d-432d-8368-6058eefb45f6)) to [[logseq/config.edn]] commands
 		  id:: 67764f3d-c6b3-4f00-a53f-ec4dab0920f9
