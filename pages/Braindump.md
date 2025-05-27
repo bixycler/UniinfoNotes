@@ -711,6 +711,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  CLOCK: [2025-05-27 Tue 14:39:27]
 				  CLOCK: [2025-05-27 Tue 14:39:29]
 				  :END:
+				-
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
 		  collapsed:: true
 		  :LOGBOOK:
