@@ -712,13 +712,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  CLOCK: [2025-05-27 Tue 14:39:29]
 				  :END:
 				- Make sure all of these actions are reset, except the `autostart/update-notifier.desktop`:`X-GNOME-Autostart-enabled=false`
-					- Unmask `apt-news` & `esm-cache`
+					- Unmask `apt-news` & `esm-cache` which were masked due to [their unuse](https://askubuntu.com/a/1452520).
 						- ```sh
 						  sudo systemctl unmask esm-cache.service
 						  sudo systemctl unmask apt-news.service
 						  sudo pro config set apt_news=false
 						  ```
-						- [APT News](https://askubuntu.com/questions/1441035/what-is-meant-by-apt-news/) is just the [advertisement](https://www.omgubuntu.co.uk/2022/10/ubuntu-pro-terminal-ad) for Ubuntu Pro, as shown in the file `/etc/ubuntu-advantage/uaclient.conf`:
+						- [APT News](https://askubuntu.com/a/1441036) is just the [advertisement](https://www.omgubuntu.co.uk/2022/10/ubuntu-pro-terminal-ad) for Ubuntu Pro, as shown in the file `/etc/ubuntu-advantage/uaclient.conf`:
 						  collapsed:: true
 							- ```sh
 							  # Ubuntu Pro client config file.
@@ -738,6 +738,35 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 							    ...
 							  ```
 						- "ESM Cache" is for ((68357df4-ee9c-4268-a8c7-3a1251ad3ebf))
+					- Check settings
+						- Unmasked services
+						  ```sh
+						  systemctl list-unit-files --state=masked
+						  systemctl status packagekit.service
+						  systemctl status apt-news.service
+						  systemctl status esm-cache.service
+						  ```
+							- Masked services
+							  collapsed:: true
+								- ```
+								  UNIT FILE                           STATE  VENDOR PRESET
+								  cups.path                           masked enabled      
+								  alsa-utils.service                  masked enabled      
+								  cryptdisks-early.service            masked enabled      
+								  cryptdisks.service                  masked enabled      
+								  cups-browsed.service                masked enabled      
+								  cups.service                        masked enabled      
+								  hwclock.service                     masked enabled      
+								  pulseaudio-enable-autospawn.service masked enabled      
+								  rc.service                          masked enabled      
+								  rcS.service                         masked enabled      
+								  saned.service                       masked enabled      
+								  sudo.service                        masked enabled      
+								  x11-common.service                  masked enabled      
+								  cups.socket                         masked enabled      
+								  
+								  14 unit files listed.
+								  ```
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
 		  collapsed:: true
 		  :LOGBOOK:
