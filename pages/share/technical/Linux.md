@@ -1832,6 +1832,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- LTS = Long Term Support
 					- Main = Hardware and maintenance updates
 					- ESM = Extended Security Maintenance
+					  id:: 68357df4-ee9c-4268-a8c7-3a1251ad3ebf
 				- Examples
 					- Focal Fossa (20.04) > Jammy Jellyfish (22.04) @ HTV
 					  collapsed:: true

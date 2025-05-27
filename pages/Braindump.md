@@ -711,7 +711,33 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  CLOCK: [2025-05-27 Tue 14:39:27]
 				  CLOCK: [2025-05-27 Tue 14:39:29]
 				  :END:
-				-
+				- Make sure all of these actions are reset, except the `autostart/update-notifier.desktop`:`X-GNOME-Autostart-enabled=false`
+					- Unmask `apt-news` & `esm-cache`
+						- ```sh
+						  sudo systemctl unmask esm-cache.service
+						  sudo systemctl unmask apt-news.service
+						  sudo pro config set apt_news=false
+						  ```
+						- [APT News](https://askubuntu.com/questions/1441035/what-is-meant-by-apt-news/) is just the [advertisement](https://www.omgubuntu.co.uk/2022/10/ubuntu-pro-terminal-ad) for Ubuntu Pro, as shown in the file `/etc/ubuntu-advantage/uaclient.conf`:
+						  collapsed:: true
+							- ```sh
+							  # Ubuntu Pro client config file.
+							  # If you modify this file, run "pro refresh config" to ensure changes are
+							  # picked up by Ubuntu Pro client.
+							  
+							  contract_url: https://contracts.canonical.com
+							  daemon_log_file: /var/log/ubuntu-advantage-daemon.log
+							  data_dir: /var/lib/ubuntu-advantage
+							  log_file: /var/log/ubuntu-advantage.log
+							  log_level: debug
+							  security_url: https://ubuntu.com/security
+							  timer_log_file: /var/log/ubuntu-advantage-timer.log
+							  ua_config:
+							    apt_news: true
+							    apt_http_proxy: null
+							    ...
+							  ```
+						- "ESM Cache" is for ((68357df4-ee9c-4268-a8c7-3a1251ad3ebf))
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
 		  collapsed:: true
 		  :LOGBOOK:
