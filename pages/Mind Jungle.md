@@ -5076,6 +5076,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 6716110e-6920-4ca0-9806-70c2e836f109
 					- Even it can be undone with `Ctrl` `z`, it's still dangerous with the possibility to [accidentally delete the whole large block](((66faa5f9-e82b-49cc-b9ed-2c97d28daa3e))).
 					- Warning: Just use the delete function, don't [~~cut & paste~~](((66ab12fd-cc14-4789-b70b-48b8b599f9eb)))!
+					- DOING [!] **Block refs updated** following deletion, because Logseq may mistake a sub-block deletion with .
+					  :LOGBOOK:
+					  CLOCK: [2025-05-27 Tue 20:43:47]
+					  CLOCK: [2025-05-27 Tue 20:43:48]
+					  :END:
 				- Adjacent move with hotkey
 				  id:: 671609b3-b815-44b7-90ce-68b609cd2bec
 				  `Alt` `Shift` {`Up`, `Down`}, or {`Tab`, `Shift` `Tab`}
