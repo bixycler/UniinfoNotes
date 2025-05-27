@@ -5076,11 +5076,25 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 6716110e-6920-4ca0-9806-70c2e836f109
 					- Even it can be undone with `Ctrl` `z`, it's still dangerous with the possibility to [accidentally delete the whole large block](((66faa5f9-e82b-49cc-b9ed-2c97d28daa3e))).
 					- Warning: Just use the delete function, don't [~~cut & paste~~](((66ab12fd-cc14-4789-b70b-48b8b599f9eb)))!
-					- DOING [!] **Block refs updated** following deletion, because Logseq may mistake a sub-block deletion with .
+					- DONE [!] **Block refs updated** following deletion, because Logseq may mistake a deletion of the first child with block replacement!?
+					  id:: 6835c18c-c045-4faa-be6b-b7b44ec6256a
+					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2025-05-27 Tue 20:43:47]
-					  CLOCK: [2025-05-27 Tue 20:43:48]
+					  CLOCK: [2025-05-27 Tue 20:43:48]--[2025-05-27 Tue 20:55:36] =>  00:11:48
 					  :END:
+						- In commit `75d07b58` (7 May 2025), when the block `màn hình tưởng` was removed,
+						  all block refs to `perceptual screen` `((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50))`
+						  were replaced by `((66ea4711-1392-4f5c-bea2-badc71a2fb9e))` which had been id of `màn hình tưởng` previously!
+							- => All these refs were broken... in markdown sources.
+							- [?] But in the Logseq app, they have been somehow maintained consistently!?
+							- Note: just some hours before, in commit `a3b423cc`, `perception screen` was reworded to `perceptual screen`.
+						- Today, when the app frequenlty failed to recognize new block refs,
+						  i clear all backup and graph DB to reset the app back to sources.
+						  => The broken refs were revealed.
+						- Now, in commit `03a0b563`, i just change the id of `perceptual screen` to the new one `id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e`
+							- instead of reverting all of is block refs to the orinal one `((66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50))`.
+						- Similar symptom: ((6835b164-a48e-4b8e-86c6-8b543c53766a))
 				- Adjacent move with hotkey
 				  id:: 671609b3-b815-44b7-90ce-68b609cd2bec
 				  `Alt` `Shift` {`Up`, `Down`}, or {`Tab`, `Shift` `Tab`}
@@ -5169,6 +5183,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- [?] Why the first 2 times of removing graph DB and reload app didn't take effect?
 											- Maybe some caches were still remaining in the [Flatpack sandbox](((67f4eaf0-bc2c-470d-9590-be149267e750)))!?
 							- DONE [!] **Block id jumps** following the relative position of blocks.
+							  id:: 6835b164-a48e-4b8e-86c6-8b543c53766a
 							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2025-05-05 Mon 10:42:02]
@@ -5185,6 +5200,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  > ## Braindumping
 										- to
 										  > From many appearances of the word “argument” in...
+								- Similar symptom: ((6835c18c-c045-4faa-be6b-b7b44ec6256a))
 					- {{embed ((6716169c-ee4d-4124-84a2-d86c9c1d702e))}}
 				- ~~Block moving via cut & paste~~
 				  id:: 66ab12fd-cc14-4789-b70b-48b8b599f9eb
