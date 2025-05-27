@@ -743,10 +743,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 						  ```sh
 						  systemctl list-unit-files --state=masked
 						  systemctl status packagekit.service
+						  systemctl status unattended-upgrades.service
 						  systemctl status apt-news.service
 						  systemctl status esm-cache.service
 						  ```
-							- Masked services
+							- Their statuses are all "active (running)".
+							- Masked services don't contain them
 							  collapsed:: true
 								- ```
 								  UNIT FILE                           STATE  VENDOR PRESET
@@ -767,6 +769,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 								  
 								  14 unit files listed.
 								  ```
+							- ```sh
+							  grep -r 'APT::Periodic::Unattended-Upgrade' /etc/apt/apt.conf.d/                       [209fd2d4]
+							  /etc/apt/apt.conf.d/10periodic:APT::Periodic::Unattended-Upgrade "0";
+							  /etc/apt/apt.conf.d/20auto-upgrades:APT::Periodic::Unattended-Upgrade "0";
+							  ```
+						- `gsettings get com.ubuntu.update-notifier no-show-notifications`                         
+						  → `false`
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
 		  collapsed:: true
 		  :LOGBOOK:
