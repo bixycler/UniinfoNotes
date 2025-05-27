@@ -1890,18 +1890,21 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- This is the GUI for various APT settings: [repositories](((68357c0a-641a-4bf6-8e98-41c43810ca07))) in 2 tabs `Ubuntu Software` & `Other Software`, updates in tab `Updates`, trusted software providers in tab `Authentication`.
 						- Tab `Updates`
 						  collapsed:: true
-							- OS upgrade: Option "Notify me of a new Ubuntu version" → `/etc/update-manager/release-upgrades`
-							- Software update → `/etc/apt/apt.conf.d/{10periodic,20auto-upgrades}` configured for `/usr/lib/apt/apt.systemd.daily` called by [`apt-daily[-upgrade].service`](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29).
-								- Option "Automatically check for updates" → `APT::Periodic::Update-Package-Lists $N`: Do `apt update` every `$N` days by `apt-daily.service`.
+							- **OS upgrade**: Option "**Notify me of a new Ubuntu version**" → `/etc/update-manager/release-upgrades`
+							- **Software update** → `/etc/apt/apt.conf.d/{10periodic,20auto-upgrades}` configured for `/usr/lib/apt/apt.systemd.daily` called by [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29).
+								- Option "**Automatically check for updates**" → `APT::Periodic::Update-Package-Lists $N`: Do `apt update` every `$N` days by `apt-daily.service`.
 								  Note: this option only apply to *non-security updates*. I.e. the choice "Never" does NOT turn off automatic checking!
-								- Option "When there are security updates" → `APT::Periodic::{Download-Upgradeable-Packages,Unattended-Upgrade}`:
-								  *The **security updates** are **always automatically** checked by [`update-manager`](http://myip/docs/DevlopmentEnvironment/Ubuntu-update.md#update-manager) (triggered by [`update-notifier`](http://myip/docs/DevlopmentEnvironment/Ubuntu-update.md#update-notifier)) and **notified immediately***. Then optionally,...
+								- Option "**When there are security updates**" → `APT::Periodic::{Download-Upgradeable-Packages,Unattended-Upgrade}`:
+								  _The **security updates** are **always automatically** checked by [update-manager](((6835a6bf-bdd4-46d5-9d07-e24744e16000))) (triggered by [`update-notifier`](http://myip/docs/DevlopmentEnvironment/Ubuntu-update.md#update-notifier)) and **notified immediately**_ Then optionally,...
 									- "Display immediately": This is the minimum option! Hence, no way to mute notification (via GUI settings)!!!
 									- "Download automatically" → `APT::Periodic::Download-Upgradeable-Packages`: automatically download (`apt-get --download-only`) by `apt-daily.service`.
 									- "Download and install automatically" → `APT::Periodic::Unattended-Upgrade`: Automatically intall (`apt upgrade`) by `apt-daily-upgrade.service → /usr/bin/unattended-upgrade`.
 								- Option "When there are other updates" → dconf `/com/ubuntu/update-notifier/regular-auto-launch-interval`: The interval (in days) when `update-notifier` auto-launches `update-manager` for other updates (security updates are launched immediately).
 					- App “Software Updater”
+					  id:: 6835a6bf-bdd4-46d5-9d07-e24744e16000
 					  ![update-manager-icon.png](../assets/Linux/APT/update-manager-icon.png){:width 32} `update-manager`
+						- `update-notifier`
+						  ![update-notifier-icon.png](../assets/Linux/APT/update-notifier-icon.png){:width 32} App “Software Updater”
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- Automatic software update/notification
 						  id:: 68358033-084f-461c-b470-5311a5127f0c
@@ -1916,7 +1919,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 									  APT::Periodic::Unattended-Upgrade "1";
 									  ```
 										- which can be modified interactively with `sudo dpkg-reconfigure unattended-upgrades`
-									- From Debian 12 (Bookworm) = Ubuntu 22.04 (Jammy Jellyfish), ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is *no longer a default* install with Gnome. Download and upgrade schedules are set up by ((6835789b-9394-42ff-8c03-8c19763deda6)) using `systemd` [timers](https://manpages.debian.org/man/systemd.timer.5) on installation. The default behaviour in Gnome for upgrades detected via APT is now to advise of availability, and not to install by default.
+									- From Debian 12 (Bookworm) = Ubuntu 22.04 (Jammy Jellyfish), ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is *no longer a default* install with Gnome. Download and upgrade schedules are set up by ((6835789b-9394-42ff-8c03-8c19763deda6)) using `systemd` timers with [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29). The default behaviour in Gnome for upgrades detected via APT is now to advise of availability, and not to install by default.
 								-
 				- Synaptic
 				  id:: 683573db-769c-4215-b55b-196dc57082c2
