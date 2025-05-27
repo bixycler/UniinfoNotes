@@ -3698,7 +3698,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) sự nhận thức
 			- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960)
 			- ### perceptual screen
-			  id:: 66e3c1b8-fe3d-41b7-a8f7-ca3ddae0eb50
+			  id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e
 			  :LOGBOOK:
 			  CLOCK: [2024-09-13 Fri 12:23:24]
 			  :END:
