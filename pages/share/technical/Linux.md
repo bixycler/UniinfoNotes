@@ -1816,6 +1816,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  backend of ((68357072-2dcb-42b5-a228-15ed904010f8))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dpkg
 			- `/etc/apt/sources.list`
+			  id:: 68357c0a-641a-4bf6-8e98-41c43810ca07
 			  collapsed:: true
 			  package [repositories](https://help.ubuntu.com/community/Repositories/Ubuntu) for ((68357072-2dcb-42b5-a228-15ed904010f8))
 				- Repositories:
@@ -1877,14 +1878,28 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu_Software_Center
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68357215-b39b-449c-b63e-4c33f5b1f0da)) is the standard software manager of ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)).
 						- It has included ((681826b1-9b87-4950-905f-b057e91ffca5)) packages which were managed separately by [Snap Store](https://snapcraft.io/store) app previously.
+						  collapsed:: true
 							- Now, the ((6835a66a-c864-440a-8e12-ff556f1d4c8f)) is a snap itself, which is launched by Snap Store!
 							  `snap-store_ubuntu-software.desktop`:`Exec`=`/snap/bin/snap-store.ubuntu-software`
 					- App “Ubuntu Software”
 					  id:: 6835a66a-c864-440a-8e12-ff556f1d4c8f
 					  ![ubuntu-software-icon.png](../assets/Linux/APT/ubuntu-software-icon.png){:width 32} `snap-store.ubuntu-software`
-						- This is a simple GUI app to browse available/installed/updatable apps.
+						- This is a simple GUI to browse available/installed/updatable apps.
 					- App “Software & Updates”
 					  ![software-properties-gtk-icon.png](../assets/Linux/APT/software-properties-gtk-icon.png){:width 32} `software-properties-gtk`
+						- This is the GUI for various APT settings: [repositories](((68357c0a-641a-4bf6-8e98-41c43810ca07))) in 2 tabs `Ubuntu Software` & `Other Software`, updates in tab `Updates`, trusted software providers in tab `Authentication`.
+						- Tab `Updates`
+						  collapsed:: true
+							- OS upgrade: Option "Notify me of a new Ubuntu version" → `/etc/update-manager/release-upgrades`
+							- Software update → `/etc/apt/apt.conf.d/{10periodic,20auto-upgrades}` configured for `/usr/lib/apt/apt.systemd.daily` called by [`apt-daily[-upgrade].service`](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29).
+								- Option "Automatically check for updates" → `APT::Periodic::Update-Package-Lists $N`: Do `apt update` every `$N` days by `apt-daily.service`.
+								  Note: this option only apply to *non-security updates*. I.e. the choice "Never" does NOT turn off automatic checking!
+								- Option "When there are security updates" → `APT::Periodic::{Download-Upgradeable-Packages,Unattended-Upgrade}`:
+								  *The **security updates** are **always automatically** checked by [`update-manager`](http://myip/docs/DevlopmentEnvironment/Ubuntu-update.md#update-manager) (triggered by [`update-notifier`](http://myip/docs/DevlopmentEnvironment/Ubuntu-update.md#update-notifier)) and **notified immediately***. Then optionally,...
+									- "Display immediately": This is the minimum option! Hence, no way to mute notification (via GUI settings)!!!
+									- "Download automatically" → `APT::Periodic::Download-Upgradeable-Packages`: automatically download (`apt-get --download-only`) by `apt-daily.service`.
+									- "Download and install automatically" → `APT::Periodic::Unattended-Upgrade`: Automatically intall (`apt upgrade`) by `apt-daily-upgrade.service → /usr/bin/unattended-upgrade`.
+								- Option "When there are other updates" → dconf `/com/ubuntu/update-notifier/regular-auto-launch-interval`: The interval (in days) when `update-notifier` auto-launches `update-manager` for other updates (security updates are launched immediately).
 					- App “Software Updater”
 					  ![update-manager-icon.png](../assets/Linux/APT/update-manager-icon.png){:width 32} `update-manager`
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
