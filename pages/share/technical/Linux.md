@@ -6,14 +6,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 	- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Linux
 	- Distributions
 	  id:: 66faa5fa-fdde-4dd5-a27f-442cea4ba47a
-	  collapsed:: true
 		- ### Ubuntu
 		  id:: 66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7
+		  collapsed:: true
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
-			-
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)) is a popular [Linux distribution](((66faa5fa-fdde-4dd5-a27f-442cea4ba47a))) derived from [Debian](https://en.wikipedia.org/wiki/Debian) and is backed by large online communities like [Ask Ubuntu](https://en.wikipedia.org/wiki/Ask_Ubuntu).
 	- ### concepts
 	  id:: 6735b188-e391-498b-a01b-35797616f7b6
-	  collapsed:: true
 		- file mode bits
 		  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 		  collapsed:: true
@@ -46,6 +45,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks). When `symlinks = false`, symbolic links are checked out as plain text files containing the target as text.
 		- newline at end-of-file (EOL@EOF)
 		  id:: 6793437b-5ee5-4f7f-a547-bb9e15ac5883
+		  collapsed:: true
 			- The [POSIX standard](https://en.wikipedia.org/wiki/POSIX) defines a [text file](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_387) as a sequence of [lines](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_185), each ending with a [newline character](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_224).
 				- Newline = end-of-line = [carriage-return +] line-feed: `EOL` = `⏎` = `\n` = `␤` = `LF` = `␊` (`CR` `LF` = `␍␊`)
 			- That means a line without newline is an [incomplete line](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_172).
@@ -1779,53 +1779,56 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
 		- [XWayland](https://wayland.freedesktop.org/xserver.html)
 		  id:: 66c6cd8c-5367-4ae4-a76c-970732c2aebb
-	- ### Snap
-		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://snapcraft.io/about
-		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Snap_(software)
-		- Snap Sandbox
-		  id:: 66fa8a1d-4fc0-4cb9-ad57-911cba799a04
-		  collapsed:: true
-			- Each Snap app runs in a limited [sandbox](https://en.wikipedia.org/wiki/Snap_(software)#Configurable_sandbox).
-			- Each Snap app uses a separate home `${HOME}/snap/${app}/current/` instead of the user's `${HOME}`.
-			- Many system calls are blocked (`Permission denied`), e.g. `ssh`, `who`, `free`, etc.
-				- For SSH access, we must explicitly allow via `ssh-keys: allows reading ssh user configuration and keys` < `Permissions` < `${app}` < `Snap Store` (`Ubuntu Software`).
-				  id:: 66fb69ac-95d3-4ba0-b5ec-b1eb04898db5
-					- Ref: [Dbeaver CE Ubuntu snap can't read SSH key in ~/.ssh](https://github.com/dbeaver/dbeaver/issues/10098#issuecomment-770193398)
-					- ![Snap-Logseq-ssh-permission.png](../assets/logseq/Snap-Logseq-ssh-permission.png)
-				- Debugging `core.sshCommand`s in `.gitconfig`
-				  id:: 66fb7680-58c6-4954-8495-f199f5affa4e
-					- `ssh`, `who` are denied, while `date`, `id` and shell-built-in `pwd`, `echo`, `type` are allowed.
-					  collapsed:: true
-						- ```ini
-						  [core]
-						      sshCommand = "ssh -v 2>/home/dinhlx/tmp/ssh.log" # 1: ssh: Permission denied
-						      #sshCommand = "type ssh 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/ssh
-						      #sshCommand = "pwd 1>/home/dinhlx/tmp/ssh.log #" # /home/dinhlx/source/UniinfoNotes
-						      #sshCommand = "echo ${USER}:${HOME} 1>/home/dinhlx/tmp/ssh.log #" # dinhlx:/home/dinhlx/snap/logseq/28
-						      #sshCommand = "who 2>/home/dinhlx/tmp/ssh.log #" # 1: who: Permission denied
-						      #sshCommand = "type who 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/who
-						      #sshCommand = "date 1>/home/dinhlx/tmp/ssh.log #" # 30/09/2024 17:47:30 +07
-						      #sshCommand = "type date 1>/home/dinhlx/tmp/ssh.log #" # date is /usr/bin/date
-						      #sshCommand = "id 1>/home/dinhlx/tmp/ssh.log #" # uid=1001(dinhlx) gid=1001(dinhlx) groups=1001(dinhlx),27(sudo),1002(tomcat)
-						      #sshCommand = "type id 1>/home/dinhlx/tmp/ssh.log #" # id is /usr/bin/id
-						  
-						  [trace2]
-						      normalTarget = /home/dinhlx/tmp/git.trace.log
-						  ```
-				- Ref: [Permission denied for calling system calls from snap app](https://forum.snapcraft.io/t/permission-denied-for-calling-system-calls-from-snap-app/16056)
-			- All hidden files and folder (whose name is started with  dot `.*`) cannot be accessed by Snap app.
-			  id:: 66fb7680-5c9d-4c2f-8b53-e0645b62aa4e
-				- ((665dc545-151a-485a-84b7-1310fef5151c)) for some file to be used by the app, it must be placed in a non-hidden folder.
-	- ### Flatpak
-		- Originally "[XDG](((669499f7-76c4-4ff8-a27e-be9768a6258c)))-app"
-		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Flatpak
-		- App Store: https://flathub.org/
-		- Flatpak Sandbox
-		  id:: 66fb5dcd-e20c-4e18-b03c-e52a5bb76425
-		  collapsed:: true
-			- Each Flatpack app is registered with a `${FlatpakID}`, e.g. `com.logseq.Logseq`, and runs in an [OSTree](https://en.wikipedia.org/wiki/OSTree) sandbox.
-			- The sandbox of `${FlatpakID}` can be inspected with `flatpak run --command=bash ${FlatpakID}`
-			- Flatpak sandbox is not as restricted as ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)).
-				- Flatpak sandbox integrates user's `${HOME}` and other parts of the OS so well that it feels like running in the native environment.
-				- Flatpak sandbox can handle SSH well.
-				  id:: 66fb5fd7-b1b0-4e54-96b3-fe6a83e34777
+	- Software management
+		- ### APT
+			-
+		- ### Snap
+			- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://snapcraft.io/about
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Snap_(software)
+			- Snap Sandbox
+			  id:: 66fa8a1d-4fc0-4cb9-ad57-911cba799a04
+			  collapsed:: true
+				- Each Snap app runs in a limited [sandbox](https://en.wikipedia.org/wiki/Snap_(software)#Configurable_sandbox).
+				- Each Snap app uses a separate home `${HOME}/snap/${app}/current/` instead of the user's `${HOME}`.
+				- Many system calls are blocked (`Permission denied`), e.g. `ssh`, `who`, `free`, etc.
+					- For SSH access, we must explicitly allow via `ssh-keys: allows reading ssh user configuration and keys` < `Permissions` < `${app}` < `Snap Store` (`Ubuntu Software`).
+					  id:: 66fb69ac-95d3-4ba0-b5ec-b1eb04898db5
+						- Ref: [Dbeaver CE Ubuntu snap can't read SSH key in ~/.ssh](https://github.com/dbeaver/dbeaver/issues/10098#issuecomment-770193398)
+						- ![Snap-Logseq-ssh-permission.png](../assets/logseq/Snap-Logseq-ssh-permission.png)
+					- Debugging `core.sshCommand`s in `.gitconfig`
+					  id:: 66fb7680-58c6-4954-8495-f199f5affa4e
+						- `ssh`, `who` are denied, while `date`, `id` and shell-built-in `pwd`, `echo`, `type` are allowed.
+						  collapsed:: true
+							- ```ini
+							  [core]
+							      sshCommand = "ssh -v 2>/home/dinhlx/tmp/ssh.log" # 1: ssh: Permission denied
+							      #sshCommand = "type ssh 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/ssh
+							      #sshCommand = "pwd 1>/home/dinhlx/tmp/ssh.log #" # /home/dinhlx/source/UniinfoNotes
+							      #sshCommand = "echo ${USER}:${HOME} 1>/home/dinhlx/tmp/ssh.log #" # dinhlx:/home/dinhlx/snap/logseq/28
+							      #sshCommand = "who 2>/home/dinhlx/tmp/ssh.log #" # 1: who: Permission denied
+							      #sshCommand = "type who 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/who
+							      #sshCommand = "date 1>/home/dinhlx/tmp/ssh.log #" # 30/09/2024 17:47:30 +07
+							      #sshCommand = "type date 1>/home/dinhlx/tmp/ssh.log #" # date is /usr/bin/date
+							      #sshCommand = "id 1>/home/dinhlx/tmp/ssh.log #" # uid=1001(dinhlx) gid=1001(dinhlx) groups=1001(dinhlx),27(sudo),1002(tomcat)
+							      #sshCommand = "type id 1>/home/dinhlx/tmp/ssh.log #" # id is /usr/bin/id
+							  
+							  [trace2]
+							      normalTarget = /home/dinhlx/tmp/git.trace.log
+							  ```
+					- Ref: [Permission denied for calling system calls from snap app](https://forum.snapcraft.io/t/permission-denied-for-calling-system-calls-from-snap-app/16056)
+				- All hidden files and folder (whose name is started with  dot `.*`) cannot be accessed by Snap app.
+				  id:: 66fb7680-5c9d-4c2f-8b53-e0645b62aa4e
+					- ((665dc545-151a-485a-84b7-1310fef5151c)) for some file to be used by the app, it must be placed in a non-hidden folder.
+		- ### Flatpak
+			- Originally "[XDG](((669499f7-76c4-4ff8-a27e-be9768a6258c)))-app"
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Flatpak
+			- App Store: https://flathub.org/
+			- Flatpak Sandbox
+			  id:: 66fb5dcd-e20c-4e18-b03c-e52a5bb76425
+			  collapsed:: true
+				- Each Flatpack app is registered with a `${FlatpakID}`, e.g. `com.logseq.Logseq`, and runs in an [OSTree](https://en.wikipedia.org/wiki/OSTree) sandbox.
+				- The sandbox of `${FlatpakID}` can be inspected with `flatpak run --command=bash ${FlatpakID}`
+				- Flatpak sandbox is not as restricted as ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)).
+					- Flatpak sandbox integrates user's `${HOME}` and other parts of the OS so well that it feels like running in the native environment.
+					- Flatpak sandbox can handle SSH well.
+					  id:: 66fb5fd7-b1b0-4e54-96b3-fe6a83e34777
