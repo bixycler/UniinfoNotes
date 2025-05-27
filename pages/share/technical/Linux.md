@@ -1790,7 +1790,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Front ends
 				- Ubuntu Software Center
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu_Software_Center
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ... has included ((681826b1-9b87-4950-905f-b057e91ffca5)) packages (managed separately by [Snap Store](https://snapcraft.io/store) app previously).
+				- Synaptic
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Synaptic_(software)
 		- ### Snap
+		  id:: 681826b1-9b87-4950-905f-b057e91ffca5
 			- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://snapcraft.io/about
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Snap_(software)
 			- Snap Sandbox
