@@ -1782,8 +1782,23 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- `GSettings`
 		  id:: 68358161-eb10-4c78-805e-88f9f460d376
 		  collapsed:: true
-		  the GNOME application settings API, renamed to [Gio](https://docs.gtk.org/gio/), backed by the [`dconf` database](https://en.wikipedia.org/wiki/Dconf)
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68358161-eb10-4c78-805e-88f9f460d376))
+		  the GNOME application settings API, backed by the [`dconf` database](https://en.wikipedia.org/wiki/Dconf)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68358161-eb10-4c78-805e-88f9f460d376)), now renamed as [Gio](https://docs.gtk.org/gio/), is the frontend to ((6835836d-d097-44f0-9654-aa3f2e13160a)), providing API to store and retrieve application settings, similar to the [Windows Registry database](https://en.wikipedia.org/wiki/Windows_Registry). This is the new settings system from GNOME 3 replacing the deprecated [GConf](https://en.wikipedia.org/wiki/GConf) of GNOME 2.
+			- `gsettings` is the CLI for `GSettings` API, using dot-separated path, e.g.
+			  ```sh
+			  gsettings get org.gnome.shell favorite-apps
+			  ```
+			- `dconf`
+			  id:: 6835836d-d097-44f0-9654-aa3f2e13160a
+			  the CLI for [`dconf` database](https://en.wikipedia.org/wiki/Dconf), using slash-separated path
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dconf
+				- E.g.
+				  ```sh
+				  dconf read /org/gnome/shell/favorite-apps
+				  ```
+			- `dconf-editor`
+			  the GUI app for ((6835836d-d097-44f0-9654-aa3f2e13160a))
+				- ((6835836d-d097-44f0-9654-aa3f2e13160a))
 	- ### Wayland
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
 		- [XWayland](https://wayland.freedesktop.org/xserver.html)
