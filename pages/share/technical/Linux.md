@@ -1792,9 +1792,22 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  id:: 68357b4a-1d33-464c-bbe0-fe2a0a722eee
 			  backend of ((68357072-2dcb-42b5-a228-15ed904010f8))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dpkg
-			- Package repositories
-			  `/etc/apt/sources.list`
-				-
+			- `/etc/apt/sources.list`
+			  package [repositories](https://help.ubuntu.com/community/Repositories/Ubuntu) for ((68357072-2dcb-42b5-a228-15ed904010f8))
+				- Repositories:
+					- `${RELEASE}`: Installation packages
+					- `${RELEASE}`-`updates`: Recommended updates
+					- `${RELEASE}`-`security`: Important security updates
+					- `${RELEASE}`-`backports`: Unsupported updates
+				- Components:
+					- Main: Canonical-supported free and open-source software.
+					- Universe: Community-maintained (canonical-unsupported) free and open-source software.
+					- Restricted: Proprietary drivers for devices, canonical-supported.
+					- Multiverse: Software restricted by copyright or legal issues, community-maintained.
+				- Releases: (see [Ubuntu lifecycle and release cadence](https://ubuntu.com/about/release-cycle))
+					- LTS = Long Term Support
+					- Main = Hardware and maintenance updates
+					- ESM = Extended Security Maintenance
 			- Front ends
 				- Ubuntu Software Center
 				  id:: 68357215-b39b-449c-b63e-4c33f5b1f0da
