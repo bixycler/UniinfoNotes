@@ -1877,9 +1877,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu_Software_Center
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68357215-b39b-449c-b63e-4c33f5b1f0da)) is the standard software manager of ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)).
 						- It has included ((681826b1-9b87-4950-905f-b057e91ffca5)) packages which were managed separately by [Snap Store](https://snapcraft.io/store) app previously.
-							- Actually Ubuntu Software itself is a snap now, which is launched by Snap Store!
+							- Now, the ((6835a66a-c864-440a-8e12-ff556f1d4c8f)) is a snap itself, which is launched by Snap Store!
 							  `snap-store_ubuntu-software.desktop`:`Exec`=`/snap/bin/snap-store.ubuntu-software`
-					-
+					- App “Ubuntu Software”
+					  id:: 6835a66a-c864-440a-8e12-ff556f1d4c8f
+					  ![ubuntu-software-icon.png](../assets/Linux/APT/ubuntu-software-icon.png){:width 32} `snap-store.ubuntu-software`
+						- This is a simple GUI app to browse available/installed/updatable apps.
+					- App “Software & Updates”
+					  ![software-properties-gtk-icon.png](../assets/Linux/APT/software-properties-gtk-icon.png){:width 32} `software-properties-gtk`
+					- App “Software Updater”
+					  ![update-manager-icon.png](../assets/Linux/APT/update-manager-icon.png){:width 32} `update-manager`
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- Automatic software update/notification
 						  id:: 68358033-084f-461c-b470-5311a5127f0c
