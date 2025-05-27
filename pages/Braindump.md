@@ -697,6 +697,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- DOING Both Chrome & Edge versions are from Sep 2024!?
+		  :LOGBOOK:
+		  CLOCK: [2025-05-27 Tue 10:12:24]
+		  :END:
+			- The auto-update has been disabled long before!?
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
 		  collapsed:: true
 		  :LOGBOOK:
