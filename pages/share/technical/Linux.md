@@ -13,6 +13,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)) is a popular [Linux distribution](((66faa5fa-fdde-4dd5-a27f-442cea4ba47a))) derived from [Debian](https://en.wikipedia.org/wiki/Debian) and is backed by large online communities like [Ask Ubuntu](https://en.wikipedia.org/wiki/Ask_Ubuntu).
 				- Software management: ((68357072-2dcb-42b5-a228-15ed904010f8)) with [deb](https://en.wikipedia.org/wiki/Deb_(file_format)) packages
 				- Desktop management: ((66b1cfa4-808f-407c-bf5a-b93812604b5d))
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((68358033-084f-461c-b470-5311a5127f0c))
 	- ### concepts
 	  id:: 6735b188-e391-498b-a01b-35797616f7b6
 		- file mode bits
@@ -1793,6 +1795,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  backend of ((68357072-2dcb-42b5-a228-15ed904010f8))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dpkg
 			- `/etc/apt/sources.list`
+			  collapsed:: true
 			  package [repositories](https://help.ubuntu.com/community/Repositories/Ubuntu) for ((68357072-2dcb-42b5-a228-15ed904010f8))
 				- Repositories:
 					- `${RELEASE}`: Installation packages
@@ -1808,11 +1811,54 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					- LTS = Long Term Support
 					- Main = Hardware and maintenance updates
 					- ESM = Extended Security Maintenance
+				- Examples
+					- Focal Fossa (20.04) > Jammy Jellyfish (22.04) @ HTV
+					  collapsed:: true
+						- ```sh
+						  # deb cdrom:[Ubuntu 20.04.5 LTS _Focal Fossa_ - Release amd64 (20220831)]/ focal main restricted
+						  #   disabled at the end of the first installation process.
+						  
+						  # First installation: Focal Fossa (20.04)
+						  # Upgrades: > Jammy Jellyfish (22.04) > ...
+						  # Ref: https://help.ubuntu.com/community/Repositories/Ubuntu
+						  # Repositories:
+						  # 1. ${RELEASE}: Installation packages
+						  # 2. ${RELEASE}-updates: Recommended updates
+						  # 3. ${RELEASE}-security: Important security updates 
+						  # 4. ${RELEASE}-backports: Unsupported updates
+						  # Components:
+						  # 1. Main: Canonical-supported free and open-source software.
+						  # 2. Universe: Community-maintained (canonical-unsupported) free and open-source software.
+						  # 3. Restricted: Proprietary drivers for devices, canonical-supported.
+						  # 4. Multiverse: Software restricted by copyright or legal issues, community-maintained.
+						  
+						  # LTS Releases: (ref: https://ubuntu.com/about/release-cycle)
+						  #   LTS = Long Term Support
+						  #   Main = Hardware and maintenance updates
+						  #   ESM = Extended Security Maintenance
+						  
+						  # Jammy Jellyfish (22.04 LTS): 2022 ---Main--- 2027 ---ESM---
+						  deb http://vn.archive.ubuntu.com/ubuntu/ jammy main universe restricted multiverse
+						  # deb-src http://vn.archive.ubuntu.com/ubuntu/ jammy main universe restricted multiverse
+						  deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+						  # deb-src http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+						  
+						  # Focal Fossa (20.04 LTS): 2020 ---Main--- 2025 ---ESM--- 2030
+						  deb http://vn.archive.ubuntu.com/ubuntu/ focal main universe restricted multiverse
+						  # deb-src http://vn.archive.ubuntu.com/ubuntu/ focal main universe restricted multiverse
+						  deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
+						  # deb-src http://security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
+						  ```
 			- Front ends
 				- Ubuntu Software Center
 				  id:: 68357215-b39b-449c-b63e-4c33f5b1f0da
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu_Software_Center
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68357215-b39b-449c-b63e-4c33f5b1f0da)) is the standard software manager of ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)). It has included ((681826b1-9b87-4950-905f-b057e91ffca5)) packages which were managed separately by [Snap Store](https://snapcraft.io/store) app previously.
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- Automatic update/notification
+						  id:: 68358033-084f-461c-b470-5311a5127f0c
+						  collapsed:: true
+							- fafafaf
 				- Synaptic
 				  id:: 683573db-769c-4215-b55b-196dc57082c2
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Synaptic_(software)
