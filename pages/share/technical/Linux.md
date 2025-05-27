@@ -1904,7 +1904,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 					  id:: 6835a6bf-bdd4-46d5-9d07-e24744e16000
 					  ![update-manager-icon.png](../assets/Linux/APT/update-manager-icon.png){:width 32} `update-manager`
 						- This is the one that check for updates and do update, which is **launched everyday**
-						- by ((6835acfc-5c1c-40c0-b008-93979afa8f36))
+						- by ((6835acfc-5c1c-40c0-b008-93979afa8f36)) WHY NOT HERE?!?
+						- ((6835acfc-5c1c-40c0-b008-93979afa8f36)) here OK
 						- which is daily triggered by [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29). It can automatically do update via the [`unattended-upgrades.service`](https://wiki.debian.org/UnattendedUpgrades), if the flag `APT::Periodic::Unattended-Upgrade` in `/etc/apt/apt.conf.d/{10periodic,20auto-upgrades}` is on.
 						- `update-notifier`
 						  id:: 6835acfc-5c1c-40c0-b008-93979afa8f36

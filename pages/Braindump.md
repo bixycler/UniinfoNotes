@@ -695,13 +695,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-05-26 Mon 20:12:45]
 		  :END:
-	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- DOING Just another
+		- Just another block id mess-up (27 May): ((6835c18c-c045-4faa-be6b-b7b44ec6256a))
 		  :LOGBOOK:
 		  CLOCK: [2025-05-27 Tue 20:56:42]
-		  CLOCK: [2025-05-27 Tue 20:56:45]
 		  :END:
+	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- DOING Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
