@@ -1787,6 +1787,14 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  collapsed:: true
 		  Advanced Package Tool developed by [Debian](https://en.wikipedia.org/wiki/Debian)
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/APT_(software)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68357072-2dcb-42b5-a228-15ed904010f8)) is a frontend to ((68357b4a-1d33-464c-bbe0-fe2a0a722eee)), providing CLI like `apt`, `apt-get` and `apt-cache`, to manage [.deb](https://en.wikipedia.org/wiki/Deb_(file_format)) packages.
+			- `dpkg`
+			  id:: 68357b4a-1d33-464c-bbe0-fe2a0a722eee
+			  backend of ((68357072-2dcb-42b5-a228-15ed904010f8))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dpkg
+			- Package repositories
+			  `/etc/apt/sources.list`
+				-
 			- Front ends
 				- Ubuntu Software Center
 				  id:: 68357215-b39b-449c-b63e-4c33f5b1f0da
@@ -1802,7 +1810,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- PackageKit
 				  id:: 6835789b-9394-42ff-8c03-8c19763deda6
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/PackageKit
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6835789b-9394-42ff-8c03-8c19763deda6)) is a middle software bridging backends like ((68357072-2dcb-42b5-a228-15ed904010f8)) with frontends like [GNOME Software](https://en.wikipedia.org/wiki/GNOME_Software), `gnome-packagekit`, etc.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6835789b-9394-42ff-8c03-8c19763deda6)) is a **middle** software bridging backends, like ((68357072-2dcb-42b5-a228-15ed904010f8)), with frontends, like [GNOME Software](https://en.wikipedia.org/wiki/GNOME_Software), `gnome-packagekit`, etc.
 						- Architecture: APT [backend] > PackageKit > [frontend] GNOME Software (or `gnome-packagekit`)
 		- ### Snap
 		  id:: 681826b1-9b87-4950-905f-b057e91ffca5
