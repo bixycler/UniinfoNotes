@@ -11,6 +11,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  collapsed:: true
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)) is a popular [Linux distribution](((66faa5fa-fdde-4dd5-a27f-442cea4ba47a))) derived from [Debian](https://en.wikipedia.org/wiki/Debian) and is backed by large online communities like [Ask Ubuntu](https://en.wikipedia.org/wiki/Ask_Ubuntu).
+				- Software management: ((68357072-2dcb-42b5-a228-15ed904010f8)) with [deb](https://en.wikipedia.org/wiki/Deb_(file_format)) packages
+				- Desktop management: ((66b1cfa4-808f-407c-bf5a-b93812604b5d))
 	- ### concepts
 	  id:: 6735b188-e391-498b-a01b-35797616f7b6
 		- file mode bits
@@ -1781,7 +1783,13 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  id:: 66c6cd8c-5367-4ae4-a76c-970732c2aebb
 	- Software management
 		- ### APT
-			-
+		  id:: 68357072-2dcb-42b5-a228-15ed904010f8
+		  collapsed:: true
+		  Advanced Package Tool developed by [Debian](https://en.wikipedia.org/wiki/Debian)
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/APT_(software)
+			- Front ends
+				- Ubuntu Software Center
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu_Software_Center
 		- ### Snap
 			- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://snapcraft.io/about
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Snap_(software)
