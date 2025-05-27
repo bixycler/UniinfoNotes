@@ -704,7 +704,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-05-27 Tue 10:12:24]
 		  :END:
 			- They have been **unupdatable** long before.
-				- To prevent the noisy prompt for update (while unupdatable), i ((66c7f42e-5c00-435a-8d30-fe8210c4adf6)) in Chrome.
+				- To prevent the annoying prompt for update (while unupdatable), i ((66c7f42e-5c00-435a-8d30-fe8210c4adf6)) in Chrome.
 			- Seems that it's caused by my actions to prevent Ubuntu's auto-update last year.
 				- DOING Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
 				  :LOGBOOK:

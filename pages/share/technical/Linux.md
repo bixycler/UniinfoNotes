@@ -1880,7 +1880,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 						- Automatic software update/notification
 						  id:: 68358033-084f-461c-b470-5311a5127f0c
 						  collapsed:: true
-							- fafafaf
+							- Unattended Upgrade
+								- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://wiki.debian.org/UnattendedUpgrades
 				- Synaptic
 				  id:: 683573db-769c-4215-b55b-196dc57082c2
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Synaptic_(software)
