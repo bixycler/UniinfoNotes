@@ -1884,7 +1884,12 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 							  id:: 683580d0-c9c6-4708-acb6-7c21817be3dc
 								- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://wiki.debian.org/UnattendedUpgrades
 								- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is the service to keep the computer current with the latest security (and other) updates **automatically**. The `unattended-upgrades.service` references the following settings:
-									-
+									- `/etc/apt/apt.conf.d`/{`20auto-upgrades`,`02periodic`}
+									  ```c++
+									  APT::Periodic::Update-Package-Lists "1";
+									  APT::Periodic::Unattended-Upgrade "1";
+									  ```
+										- which can be modified interactively with `sudo dpkg-reconfigure unattended-upgrades`
 									- From Debian 12 (Bookworm) = Ubuntu 22.04 (Jammy Jellyfish), ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is *no longer a default* install with Gnome. Download and upgrade schedules are set up by ((6835789b-9394-42ff-8c03-8c19763deda6)) using `systemd` [timers](https://manpages.debian.org/man/systemd.timer.5) on installation. The default behaviour in Gnome for upgrades detected via APT is now to advise of availability, and not to install by default.
 								-
 				- Synaptic
