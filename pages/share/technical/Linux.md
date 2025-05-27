@@ -1875,7 +1875,11 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Ubuntu Software Center
 				  id:: 68357215-b39b-449c-b63e-4c33f5b1f0da
 					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu_Software_Center
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68357215-b39b-449c-b63e-4c33f5b1f0da)) is the standard software manager of ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)). It has included ((681826b1-9b87-4950-905f-b057e91ffca5)) packages which were managed separately by [Snap Store](https://snapcraft.io/store) app previously.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68357215-b39b-449c-b63e-4c33f5b1f0da)) is the standard software manager of ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)).
+						- It has included ((681826b1-9b87-4950-905f-b057e91ffca5)) packages which were managed separately by [Snap Store](https://snapcraft.io/store) app previously.
+							- Actually Ubuntu Software itself is a snap now, which is launched by Snap Store!
+							  `snap-store_ubuntu-software.desktop`:`Exec`=`/snap/bin/snap-store.ubuntu-software`
+					-
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- Automatic software update/notification
 						  id:: 68358033-084f-461c-b470-5311a5127f0c
