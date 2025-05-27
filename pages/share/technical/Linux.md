@@ -1798,7 +1798,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  ```
 			- `dconf-editor`
 			  the GUI app for ((6835836d-d097-44f0-9654-aa3f2e13160a))
-				- ((6835836d-d097-44f0-9654-aa3f2e13160a))
+				- screenshot
+					- ![dconf-editor.png](../assets/Linux/GNOME/GSettings/dconf-editor.png)
 	- ### Wayland
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
 		- [XWayland](https://wayland.freedesktop.org/xserver.html)
