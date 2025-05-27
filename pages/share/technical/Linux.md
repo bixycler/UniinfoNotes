@@ -1895,16 +1895,18 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 								- Option "**Automatically check for updates**" → `APT::Periodic::Update-Package-Lists $N`: Do `apt update` every `$N` days by `apt-daily.service`.
 								  Note: this option only apply to *non-security updates*. I.e. the choice "Never" does NOT turn off automatic checking!
 								- Option "**When there are security updates**" → `APT::Periodic::{Download-Upgradeable-Packages,Unattended-Upgrade}`:
-								  _The **security updates** are **always automatically** checked by [update-manager](((6835a6bf-bdd4-46d5-9d07-e24744e16000))) (triggered by [`update-notifier`](http://myip/docs/DevlopmentEnvironment/Ubuntu-update.md#update-notifier)) and **notified immediately**_ Then optionally,...
+								  _The **security updates** are **always automatically** checked by [update-manager](((6835a6bf-bdd4-46d5-9d07-e24744e16000))) (triggered by ((6835acfc-5c1c-40c0-b008-93979afa8f36))) and **notified immediately**_. Then optionally,...
 									- "Display immediately": This is the minimum option! Hence, no way to mute notification (via GUI settings)!!!
 									- "Download automatically" → `APT::Periodic::Download-Upgradeable-Packages`: automatically download (`apt-get --download-only`) by `apt-daily.service`.
 									- "Download and install automatically" → `APT::Periodic::Unattended-Upgrade`: Automatically intall (`apt upgrade`) by `apt-daily-upgrade.service → /usr/bin/unattended-upgrade`.
+									- (triggered by ((6835acfc-5c1c-40c0-b008-93979afa8f36)))
 								- Option "When there are other updates" → dconf `/com/ubuntu/update-notifier/regular-auto-launch-interval`: The interval (in days) when `update-notifier` auto-launches `update-manager` for other updates (security updates are launched immediately).
 					- App “Software Updater”
 					  id:: 6835a6bf-bdd4-46d5-9d07-e24744e16000
 					  ![update-manager-icon.png](../assets/Linux/APT/update-manager-icon.png){:width 32} `update-manager`
 						- `update-notifier`
-						  ![update-notifier-icon.png](../assets/Linux/APT/update-notifier-icon.png){:width 32} App “Software Updater”
+						  id:: 6835acfc-5c1c-40c0-b008-93979afa8f36
+						  ![update-notifier-icon.png](../assets/Linux/APT/update-notifier-icon.png){:width 32} popup `UpdatesAvailable`
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- Automatic software update/notification
 						  id:: 68358033-084f-461c-b470-5311a5127f0c
