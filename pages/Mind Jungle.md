@@ -6707,6 +6707,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2024-08-22 Thu 18:44:04]
 	  :END:
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Google_Chrome
 		- Disable automatic update
 		  id:: 66c7f42e-5c00-435a-8d30-fe8210c4adf6
 			- Use command switch `--simulate-outdated='Tue, 31 Dec 2099 23:59:59 GMT'` to simulates that it will be out of date in the far future.

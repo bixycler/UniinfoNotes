@@ -703,8 +703,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-05-27 Tue 10:12:24]
 		  :END:
-			- The auto-update has been disabled long before!?
-			- Seems that i
+			- The auto-update has been disabled long before.
+				- To prevent the noisy prompt for update (while not )
+			- Seems that it's caused by my actions to prevent Ubuntu's auto-update last year.
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
 		  collapsed:: true
 		  :LOGBOOK:

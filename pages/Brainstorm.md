@@ -107,11 +107,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- DOING About the hurricane's eye 🌀: [empty center](((681b4678-686a-4d99-9163-6f60e0b30d2c))), ((66c8772a-9b29-45b0-b169-2fa847333e02)), [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana), ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (= ((66f267f7-01f9-47b9-8376-abd27fdf2930)) + ((66727858-979d-4d95-8a90-7a749218cfba)))
+		- About the hurricane's eye 🌀: [empty center](((681b4678-686a-4d99-9163-6f60e0b30d2c))), ((66c8772a-9b29-45b0-b169-2fa847333e02)), [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana), ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (= ((66f267f7-01f9-47b9-8376-abd27fdf2930)) + ((66727858-979d-4d95-8a90-7a749218cfba)))
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-16 Fri 13:44:40]
-		  CLOCK: [2025-05-16 Fri 13:44:57]
 		  :END:
 			- The [cyclone](https://en.wikipedia.org/wiki/Cyclone) and its [eye](https://en.wikipedia.org/wiki/Eye_(cyclone)) is a powerful image that i've used a lot from the begining of the balancing journey, and was first written down in the blog post “[3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html)”.
 			- Cyclone and [bubble ring](https://en.wikipedia.org/wiki/Bubble_ring) are used to show the union of Circle and Arrow, as the **self-sustained subject** and **singularity**.
