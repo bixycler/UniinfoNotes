@@ -706,6 +706,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- They have been **unupdatable** long before.
 				- To prevent the noisy prompt for update (while unupdatable), i ((66c7f42e-5c00-435a-8d30-fe8210c4adf6)) in Chrome.
 			- Seems that it's caused by my actions to prevent Ubuntu's auto-update last year.
+				- DOING Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to
+				  :LOGBOOK:
+				  CLOCK: [2025-05-27 Tue 14:39:27]
+				  CLOCK: [2025-05-27 Tue 14:39:29]
+				  :END:
 		- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e))
 		  collapsed:: true
 		  :LOGBOOK:
