@@ -1239,30 +1239,6 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- Oh My Zsh
 		  collapsed:: true
 			- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
-		- My backups via Git repos
-		  collapsed:: true
-			- Hardlinks are used to synchonize files on system with backup Git repositories.
-			- [linux-commands](https://github.com/bixycler/linux-commands)
-				- ```sh
-				  cd ~/bin
-				  ln aws.sh findapp.sh findname.sh Japencid.sh greprsjis.sh ldiff.sh netstatwatch.sh sping.sh sstp.sh tput-test.sh ovpn.sh vpn.sh \
-				     ~/source/linux-commands/home-bin/
-				  ```
-			- [linux-config](https://github.com/bixycler/linux-config)
-				- ```sh
-				  cd ~
-				  ln .bash_history .bash_logout .bash_profile .bashrc .chzsh .gitconfig .ishrc  .profile .viminfo .vimrc .vimrc.vim .zprofile .zsh_history .zshrc \
-				     ~/source/linux-config/
-				  ln .oh-my-zsh/custom/aliases.zsh ~/source/linux-config/.oh-my-zsh/custom/aliases.zsh
-				  ln .oh-my-zsh/custom/themes/creatzy.zsh-theme ~/source/linux-config/.oh-my-zsh/custom/themes/creatzy.zsh-theme
-				  ln .ssh/config ~/source/linux-config/.ssh/config
-				  # host files used by dnsmasq
-				  ln hosts/others.hosts hosts/active/others.hosts
-				  ln hosts/others.hosts ~/source/linux-config/hosts/active/
-				  ln hosts/* ~/source/linux-config/hosts/
-				  # ibus-bamboo input method
-				  ln .config/ibus-bamboo/ibus-bamboo.macro.text ~/source/linux-config/
-				  ```
 		- Nushell
 		  collapsed:: true
 		  :LOGBOOK:
