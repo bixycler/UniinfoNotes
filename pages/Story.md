@@ -2265,6 +2265,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Logseq: Many block refs, like ((6835acfc-5c1c-40c0-b008-93979afa8f36)), are not recognized!? The issue still persists after clearance of all backup & graph DB!?
 			- Will: [head-first diving](((67714850-43c0-4c7f-8b50-838e014b06e0))), ((6678d594-9819-4624-abd6-d4ec62b3874f)) driven by [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), baby boom, springy doll, etc. make the time fleet too fast!
 				- The mara uses my own strengths (clear observation, holistic view, tidy organization, concentration) for its destruction! That's how buddha and mara are just two sides of the same coin.
+				- As you can see, just the observation of this issue, this broken time, is yielding a lot of stuff as written here. This is how solving one issue produces many more issues!
 			- ⇒ Retreat to the belly, as the root of both body and mind, fill the whole bodymind with ujjayi breath. Retract from things higher up the mind!
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  collapsed:: true
