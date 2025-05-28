@@ -2258,6 +2258,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
+		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-28 Wed 09:08:02]
@@ -2268,9 +2269,90 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- As you can see, just the observation of this issue, this broken time, is yielding a lot of stuff as written here. This is how solving one issue produces many more issues!
 			- ⇒ Retreat to the belly, as the root of both body and mind, fill the whole bodymind with ujjayi breath. Retract from things higher up the mind!
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
+		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-19 Mon 08:01:22]
 		  :END:
 			- ![HoCoc-ngoaiBien.jpg](../assets/Will/story/2025-05/HoCoc-ngoaiBien.jpg)
+		- DOING Both Chrome & Edge versions are from Sep 2024!?
+		  id:: 68352d58-f697-4b62-a748-3756dac163f7
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-27 Tue 10:12:24]
+		  :END:
+			- They have been **unupdatable** long before.
+				- To prevent the annoying prompt for update (while unupdatable), i ((66c7f42e-5c00-435a-8d30-fe8210c4adf6)) in Chrome.
+			- Seems that it's caused by my actions to prevent Ubuntu's auto-update last year.
+				- DOING Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
+				  :LOGBOOK:
+				  CLOCK: [2025-05-27 Tue 14:39:27]
+				  CLOCK: [2025-05-27 Tue 14:39:29]
+				  :END:
+				- Make sure all of these actions are reset, except the `autostart/update-notifier.desktop`:`X-GNOME-Autostart-enabled=false` and Unattended Upgrade
+					- Unmask `apt-news` & `esm-cache` which were masked due to [their unuse](https://askubuntu.com/a/1452520).
+						- ```sh
+						  sudo systemctl unmask esm-cache.service
+						  sudo systemctl unmask apt-news.service
+						  sudo pro config set apt_news=false
+						  ```
+						- [APT News](https://askubuntu.com/a/1441036) is just the [advertisement](https://www.omgubuntu.co.uk/2022/10/ubuntu-pro-terminal-ad) for Ubuntu Pro, as shown in the file `/etc/ubuntu-advantage/uaclient.conf`:
+						  collapsed:: true
+							- ```sh
+							  # Ubuntu Pro client config file.
+							  # If you modify this file, run "pro refresh config" to ensure changes are
+							  # picked up by Ubuntu Pro client.
+							  
+							  contract_url: https://contracts.canonical.com
+							  daemon_log_file: /var/log/ubuntu-advantage-daemon.log
+							  data_dir: /var/lib/ubuntu-advantage
+							  log_file: /var/log/ubuntu-advantage.log
+							  log_level: debug
+							  security_url: https://ubuntu.com/security
+							  timer_log_file: /var/log/ubuntu-advantage-timer.log
+							  ua_config:
+							    apt_news: true
+							    apt_http_proxy: null
+							    ...
+							  ```
+						- "ESM Cache" is for ((68357df4-ee9c-4268-a8c7-3a1251ad3ebf))
+					- Check settings
+						- Unmasked services
+						  ```sh
+						  systemctl list-unit-files --state=masked
+						  systemctl status packagekit.service
+						  systemctl status apt-news.service
+						  systemctl status esm-cache.service
+						  ```
+							- Their statuses are all "active (running)".
+							- Masked services don't contain them
+							  collapsed:: true
+								- ```
+								  UNIT FILE                           STATE  VENDOR PRESET
+								  cups.path                           masked enabled      
+								  alsa-utils.service                  masked enabled      
+								  cryptdisks-early.service            masked enabled      
+								  cryptdisks.service                  masked enabled      
+								  cups-browsed.service                masked enabled      
+								  cups.service                        masked enabled      
+								  hwclock.service                     masked enabled      
+								  pulseaudio-enable-autospawn.service masked enabled      
+								  rc.service                          masked enabled      
+								  rcS.service                         masked enabled      
+								  saned.service                       masked enabled      
+								  sudo.service                        masked enabled      
+								  x11-common.service                  masked enabled      
+								  cups.socket                         masked enabled      
+								  
+								  14 unit files listed.
+								  ```
+						- `gsettings get com.ubuntu.update-notifier no-show-notifications`                         
+						  → `false`
+						- [Unattended Upgrade](https://wiki.debian.org/UnattendedUpgrades) is disabled in APT, but its `unattended-upgrades.service` may still be running.
+							- ```sh
+							  systemctl status unattended-upgrades.service
+							  grep -r 'APT::Periodic::Unattended-Upgrade' /etc/apt/apt.conf.d/
+							  /etc/apt/apt.conf.d/10periodic:APT::Periodic::Unattended-Upgrade "0";
+							  /etc/apt/apt.conf.d/20auto-upgrades:APT::Periodic::Unattended-Upgrade "0";
+							  ```
 		- ...
