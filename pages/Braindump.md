@@ -706,7 +706,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  CLOCK: [2025-05-28 Wed 09:08:02]
 		  :END:
 			- Logseq: Many block refs, like ((6835acfc-5c1c-40c0-b008-93979afa8f36)), are not recognized!? The issue still persists after clearance of all backup & graph DB!?
-			- Will: [head-first diving](((67714850-43c0-4c7f-8b50-838e014b06e0))), ((6678d594-9819-4624-abd6-d4ec62b3874f)), baby boom, springy doll, etc. make the time fleet too fast!
+			- Will: [head-first diving](((67714850-43c0-4c7f-8b50-838e014b06e0))), ((6678d594-9819-4624-abd6-d4ec62b3874f)) driven by [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), baby boom, springy doll, etc. make the time fleet too fast!
 			- ⇒ Retreat to the belly, as the root of both body and mind, fill the whole bodymind with ujjayi breath. Retract from things higher up the mind!
 		- DOING Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
