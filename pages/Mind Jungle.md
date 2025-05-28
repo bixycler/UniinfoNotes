@@ -3960,7 +3960,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln .config/ibus-bamboo/ibus-bamboo.macro.text ~/source/linux-config/
 						  ```
 					- [applets](https://github.com/bixycler/applets)
-					-
+						- Various small apps and code snipets
+					- [GeoGebraApplets](https://github.com/bixycler/GeoGebraApplets)
+						- Backup applets of [Will Lei](https://www.geogebra.org/u/lexuandinhct)
 			- ### [Intent](((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))): to be perfect
 				- ((677e8461-3483-4226-9829-127fe79b039a))
 				- ((677e84a1-cb09-43a8-a374-31599c903e11))
