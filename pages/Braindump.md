@@ -701,6 +701,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :END:
 	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- Everything's broken! 🙁 Just stop, retreat from my own field, restract, reset, restore...
+		  :LOGBOOK:
+		  CLOCK: [2025-05-28 Wed 09:08:02]--[2025-05-28 Wed 09:09:44] =>  00:01:42
+		  :END:
+			- Logseq: Block ref ((6835acfc-5c1c-40c0-b008-93979afa8f36)) not recognized!?
+			- Will: head-first diving, perfectionism, baby boom,
 		- DOING Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
