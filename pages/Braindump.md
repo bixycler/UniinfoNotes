@@ -695,7 +695,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-05-26 Mon 20:12:45]
 		  :END:
-		- Today, 27 May, I've just recognized that ((68352d58-f697-4b62-a748-3756dac163f7))
+		- Today, 27th, i've just recognized that ((68352d58-f697-4b62-a748-3756dac163f7))
 		  :LOGBOOK:
 		  CLOCK: [2025-05-27 Tue 10:12:24]
 		  :END:
