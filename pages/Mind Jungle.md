@@ -4280,7 +4280,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- This psychonautic journey is fueled by the [“holistic core”](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))) deep inside, and then the overview vision of the journey brings the “overview effect” up to the surface.
 							- While the “overview effect” brings various positive emotions and attitudes, it also creates the delusion of a perfect world due to the masking of all complexity and ugliness down there via abstraction. This delusion is a kind of cognitive bias called [halo effect](https://en.wikipedia.org/wiki/Halo_effect).
 							- That delusion is like a black hole sucking me strongly to the die-hard perfectionism.
-							- Looking inward, i see a “holistic core” deep inside which is a perfect circle: so round, so balanced, so equilibrated, so complete. This core is so hard and heavy, like the singularity of a black hole, that i see verything in this world is pulling toward it, and all forces returning forces.
+							- Looking inward, i see a “**holistic core**” deep inside which is a perfect circle: so round, so balanced, so equilibrated, so complete. This core is so hard and heavy, like the singularity of a black hole, that i see verything in this world is pulling toward it, and all forces returning forces.
 							  id:: 681b3ad7-d1b0-4c06-a4ea-385a4a9314e0
 								- This core may be a mental fixation, the result of karma accumulated throughout space and time.
 							- ⇒ Solution: Let's [sublimate](((668f5490-c223-4a8a-9cc4-0bd71af4c097))) that core to *restore the __empty center__*, i.e. the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)), so that it's free from any fixed point and can flow fluidly.
