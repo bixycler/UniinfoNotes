@@ -2272,7 +2272,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ![working-stack-screenshot-2025-05-28.png](../assets/Will/story/2025-05/working-stack-screenshot-2025-05-28.png)
 			- Right here, we can see how the issue is looking back at itself, projecting its image into its own body. This recursive nature is itself a part of the issue!
 			- ⇒ **Retreat to the belly**, as the root of both body and mind, **fill the bodymind** with ujjayi breath. Retract from things higher up the mind!
-			- 10:51, 28 May, the meta things are somehow well organized, so just get back to the company works!
+			  id:: 68367257-9043-4fd5-8586-2c193d56f077
+			- 10:51, 28 May, the meta/macro things are somehow well organized, so just get back to the company works!
+				- with the knowledge that nothing is lost, and everything here can be continued later on.
+				- This is the result of not only the external tidying but mainly the [internal meditation](((68367257-9043-4fd5-8586-2c193d56f077))).
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
 		  collapsed:: true
