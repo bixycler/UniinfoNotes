@@ -189,14 +189,15 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `--forms` shows an input form which can contain text entries, password fields, calendars, description texts.
 				- `--progress` shows a progress bar increments by inputs from `stdin`.
 				- `--notification`, similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d)), shows a notification ballon, not a pop-up window.
-			- `yed`
+			- `yad`
+			  id:: 68381bca-50f3-4d2e-9593-53d9c8f6c368
 			  collapsed:: true
 			  yet-another-dialog program extending ((67d2ad10-0ca8-4361-94d5-219cf9b737d5))
-				- `yed` add many additional features, including the option ((68381caa-5dd1-4a49-8630-4c68674aa0c7)) to prevent stealing focus of the currently working app.
+				- `yad` add many additional features, including the option ((68381caa-5dd1-4a49-8630-4c68674aa0c7)) to prevent stealing focus of the currently working app.
 				- `--no-focus`
 				  id:: 68381caa-5dd1-4a49-8630-4c68674aa0c7
 				  Dialog window *never* take focus!
-					- While this option resolves the issue of `zenity`, it makes the dialog a “dump window” receiving no keyboard inputs and cannot be focused, hence all interactions must be done with mouse.
+					- While this option resolves the [focus stealing issue of `zenity`](((67d3a821-ed1c-48d5-a935-bfab8a57cd8e))), it makes the dialog a “dump window” receiving no keyboard inputs and cannot be focused, hence all interactions must be done with mouse.
 					- On ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), window related features like `--no-focus`, `--center`, `--mouse`, `--skip-taskbar` are ineffective, and can be reactivated with [env.var.](((67f6257e-455e-46f1-8225-8510f60b8b47))) `GDK_BACKEND=x11`
 		- file management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e

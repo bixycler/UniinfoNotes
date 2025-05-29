@@ -13,6 +13,7 @@ msg="Stop! Breath, Relax..."
 # First, show a short-timeout window to capture accidental inputs from user, if any
 ( sleep 1; echo 50; sleep 1; echo 75; sleep 1; echo 100; ) |
 zenity --progress --no-cancel --auto-close --percentage=25 --width=500 --text="$msg"
+# Then, show the main dialogs
 tension=0; problem=''
 if ! zenity --question --icon-name=emblem-generic --title "${now}" --text="$msg"
 then

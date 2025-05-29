@@ -31,6 +31,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  CLOCK: [2025-03-13 Thu 14:29:13]
 			  :END:
 				- ![microreset.sh](../assets/Linux/scripts/microreset.sh) with `crontab`, storing history to [microreset.log](../assets/Will/microreset.log) as a TSV table.
+				  id:: 6835b167-1e42-4f72-b3b4-05de296f542e
 				  ```crontab
 				  00,30 9-20  *   * 1-5 /home/dinhlx/.local/bin/microreset.sh 2>&1 >> /tmp/cron.log
 				  ```
@@ -69,6 +70,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 								  ( sleep 3; echo 100 ) |
 								  zenity --progress --no-cancel --auto-close --percentage=50 --width=500 --text="$msg"
 								  ```
+							- or use the option [`--no-focus` of `yad`](((68381caa-5dd1-4a49-8630-4c68674aa0c7)))
 						- `zenity` has "option" collision with `-1`, _even after `--`!_ 
 						  ⇒ Add a space before -1: ` -1`
 			- ((67850c24-b1c9-425a-abc2-af81243befb2)) should be replaced with a cron job or Logseq API call `UI.showMsg()`
