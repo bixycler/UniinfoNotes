@@ -2279,14 +2279,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 13-16pm, 29 May, a rather long stray thread of ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)), ((68381bca-50f3-4d2e-9593-53d9c8f6c368)), and the [Grok's issue](((683817f7-b6a0-41a6-aee4-5279089228f7))) with conversation memory/history feature.
 				- 01-03pm: [chat with Grok](((683826a5-3833-438f-981a-573267b6ed08)))
 					- This shows long periods of reading websites and researching while talking in the conversation.
+					- The trailing part from 02:25 to 03:06 about the Grok memory issue showed my ((6678d594-9819-4624-abd6-d4ec62b3874f)) with debugging instinct.
 				- 03-04pm: update UniinfoNotes
 				  id:: 6838287a-aac3-4a6d-93c2-f98ff61b6154
 				- 04-05pm: review this whole stray thread
 				- Chat history with Grok:
 				  id:: 683826a5-3833-438f-981a-573267b6ed08
+				  collapsed:: true
 					- 01:08 PM: Do you know why the well known program displaying GTK+ dialogs is named "zenity"?
-					- 01:35 PM: The "zen" part is clear, which is the same as mine and many other suggestions on the Web, but the "entity" part is new to me. Can you show some pages suggesting the "entity" part?
-					- 02:02 PM: Yeah, this is what i thought at first, and still thinking like this: simply a suffix "-ity" to metion "about zen, of zen, like zen". And your suggestion of replacing "serene" in "serenity" is a fit one, i think!
+					- 01:**35** PM: The "zen" part is clear, which is the same as mine and many other suggestions on the Web, but the "entity" part is new to me. Can you show some pages suggesting the "entity" part?
+					- ≈01:40 PM (wrongly noted as "02:02 PM" by Grok): Yeah, this is what i thought at first, and still thinking like this: simply a suffix "-ity" to metion "about zen, of zen, like zen". And your suggestion of replacing "serene" in "serenity" is a fit one, i think!
 					  > Abstract Suffix: "-ity" is a suffix denoting quality or state (e.g., simplicity, clarity). "Zenity" could imply the “state of being zen” (simple, calm), aligning with its user-friendly design.
 					- 01:45 PM: `yad` has the option `--no-focus` which is described as "dialog window never take focus", but when i call `yad --no-focus`, the focus just jumps to the dialog window!?
 					- 01:55 PM: I'm using Yad 0.40.0 (GTK+ 3.24.33). Does the Wayland has any effect on this focus functionality?
