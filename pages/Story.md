@@ -2276,6 +2276,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 10:51, 28 May, the meta/macro things are somehow well organized, so just get back to the company works!
 				- with the knowledge that nothing is lost, and everything here can be continued later on.
 				- This is the result of not only the external tidying but mainly the [internal meditation](((68367257-9043-4fd5-8586-2c193d56f077))).
+			- 13-16pm, 29 May,
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
 		  collapsed:: true
