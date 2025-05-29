@@ -166,14 +166,15 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  id:: 67d2ad10-0ca8-4361-94d5-219cf9b737d5
 			  collapsed:: true
 			  display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/#dialogs), and return the users input (either in the return code or on standard output).
-				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “zenity” = “zen + ity” = “the state of zen” as “serennity” = “the state of being serene”
-					-
-				- Return values:
-					- Command exit code: {`0`, `1`, `5`} for {OK, Cancel, timeout}
-					- Print to `stdout` the value user entered or chose.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) is the most well-known of the [dialog prorams](http://rockhopper.monmouth.edu/cs/jchung/cs370/cs_370_-_shell_scripts_and_user_interfaces) to be called from shell script.
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “zenity” = “zen + ity” = “the state of zen”, as “serennity” = “the state of being serene”
+					- This is my own interpretation which is coinside with others like [Happy nehra](https://medium.com/%40happynehra/exploring-zenity-a-zen-guide-to-creating-gtk-dialogs-c4d48ee192) and Grok 3.
 				- Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!
 				  id:: 67d3a821-ed1c-48d5-a935-bfab8a57cd8e
 					- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
+				- Return values:
+					- Command exit code: {`0`, `1`, `5`} for {OK, Cancel, timeout}
+					- Print to `stdout` the value user entered or chose.
 				- `--{info,question,warning,error}` are message dialogs with icons
 					- Icons: `--icon-name` (name only), `--window-icon` (/path/to/file, but doesn't work!)
 						- ((66725725-f76a-4328-b162-f469b87e871b))
@@ -188,6 +189,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `--forms` shows an input form which can contain text entries, password fields, calendars, description texts.
 				- `--progress` shows a progress bar increments by inputs from `stdin`.
 				- `--notification`, similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d)), shows a notification ballon, not a pop-up window.
+			- `yed`
+			  collapsed:: true
+			  yet-another-dialog program extending ((67d2ad10-0ca8-4361-94d5-219cf9b737d5))
+				-
 		- file management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 		  collapsed:: true
