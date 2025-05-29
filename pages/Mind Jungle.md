@@ -156,7 +156,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 6801c7b9-2390-4a31-a57c-70ac3aed4947
 					- Grok-3 was the first model that [can describe the spacetime distribution in the language of density](((67f4eae8-b7f3-44af-b6fe-61591204f245))).
 				- Features: web reaserch with its “Deep(er)Search”, think deeper with “Think”, read attached documents & G-Drive, [**memory**] recall discussions on other conversations, [workspace](https://grok.com/workspace) to group conversations with a common instruction, ...
-					- The “conversation memory/history ” was introduced in April 2025 as a beta feature
+					- The “conversation memory/history” feature was introduced in April 2025 as a beta feature which was tested successfully with correct recalls acrross my threads.
+					  collapsed:: true
+						- But when checked again on 29 May 2025, it's always turned off despite being turned on by the user.
+						  ![Grok - conversation history - beta - disabled - 2025-05-29.png](../assets/Will/story/2025-05/Grok - conversation history - beta - disabled - 2025-05-29.png)
 				- It still suffers severe ((6801de22-8ae9-42e1-a7b2-d870e5ec9689)), e.g. about its ability to [read content of webpages](((6801e4de-3427-4d2d-a196-35572bab45af))).
 				  collapsed:: true
 					- When being asked about the plain static webpage https://bixycler.github.io/Uniinfo/, 

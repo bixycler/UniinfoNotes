@@ -166,6 +166,8 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  id:: 67d2ad10-0ca8-4361-94d5-219cf9b737d5
 			  collapsed:: true
 			  display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/#dialogs), and return the users input (either in the return code or on standard output).
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “zenity” = “zen + ity” = “the state of zen” as “serennity” = “the state of being serene”
+					-
 				- Return values:
 					- Command exit code: {`0`, `1`, `5`} for {OK, Cancel, timeout}
 					- Print to `stdout` the value user entered or chose.
