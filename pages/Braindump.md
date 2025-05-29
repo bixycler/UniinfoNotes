@@ -522,6 +522,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  ```
 				- Reason: Due to my habit of leaving office last, i forget punching out most of the time i leave early.
 			- Sometimes, the [microsetting alarms](((67d10c06-3fe3-4691-95c0-84278a2dc713))) fire a lot while i was absent 
+			  id:: 6835b162-09f7-4153-97a3-633f8a5c0980
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-04-09 Wed 09:02:17]
