@@ -2277,12 +2277,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- with the knowledge that nothing is lost, and everything here can be continued later on.
 				- This is the result of not only the external tidying but mainly the [internal meditation](((68367257-9043-4fd5-8586-2c193d56f077))).
 			- 13-16pm, 29 May, a rather long stray thread of ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)), ((68381bca-50f3-4d2e-9593-53d9c8f6c368)), and the [Grok's issue](((683817f7-b6a0-41a6-aee4-5279089228f7))) with conversation memory/history feature.
+				- This stray thread was inititialized by just a simple idea to “just confirm my guess that `zenity` is related to Zen!” when i did a clearing of prevous untouched `zenity` pop-ups: `killall -9 -vr 'microreset.sh|zenity'`.
 				- 01-03pm: [chat with Grok](((683826a5-3833-438f-981a-573267b6ed08)))
 					- This shows long periods of reading websites and researching while talking in the conversation.
 					- The trailing part from 02:25 to 03:06 about the Grok memory issue showed my ((6678d594-9819-4624-abd6-d4ec62b3874f)) with debugging instinct.
 				- 03-04pm: update UniinfoNotes
 				  id:: 6838287a-aac3-4a6d-93c2-f98ff61b6154
 				- 04-05pm: review this whole stray thread
+					- The post-discussion period from 3 to 5 pm shows my trend of “long tail” working style.
 				- Chat history with Grok:
 				  id:: 683826a5-3833-438f-981a-573267b6ed08
 				  collapsed:: true

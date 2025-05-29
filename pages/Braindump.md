@@ -527,7 +527,8 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  CLOCK: [2025-04-09 Wed 09:02:17]
 			  :END:
 			  ⇒ Should kill them all then.
-				- ```sh
+				- id:: 6835b162-b38e-43e5-a4cf-0ec54bb69328
+				  ```sh
 				  killall -9 -vr 'microreset.sh|zenity'
 				  ```
 				- or
