@@ -2277,7 +2277,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- with the knowledge that nothing is lost, and everything here can be continued later on.
 				- This is the result of not only the external tidying but mainly the [internal meditation](((68367257-9043-4fd5-8586-2c193d56f077))).
 			- 13-16pm, 29 May, a rather long stray thread of ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)), ((68381bca-50f3-4d2e-9593-53d9c8f6c368)), and the [Grok's issue](((683817f7-b6a0-41a6-aee4-5279089228f7))) with conversation memory/history feature.
+				- 01-03pm: [chat with Grok](((683826a5-3833-438f-981a-573267b6ed08)))
+					- This shows long periods of reading websites and researching while talking in the conversation.
+				- 03-04pm: update UniinfoNotes
+				  id:: 6838287a-aac3-4a6d-93c2-f98ff61b6154
+				- 04-05pm: review this whole stray thread
 				- Chat history with Grok:
+				  id:: 683826a5-3833-438f-981a-573267b6ed08
 					- 01:08 PM: Do you know why the well known program displaying GTK+ dialogs is named "zenity"?
 					- 01:35 PM: The "zen" part is clear, which is the same as mine and many other suggestions on the Web, but the "entity" part is new to me. Can you show some pages suggesting the "entity" part?
 					- 02:02 PM: Yeah, this is what i thought at first, and still thinking like this: simply a suffix "-ity" to metion "about zen, of zen, like zen". And your suggestion of replacing "serene" in "serenity" is a fit one, i think!
@@ -2289,7 +2295,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- 02:18 PM: GDK_BACKEND=x11 does resolve the GDK warning. It also activate window-related functionalities like --no-focus, --center, --mouse, --skip-taskbar, which are ineffective under Wayland backend.
 					- 02:25 PM: Do you know our previous discussion about how to prevent zenity (or any pop-up in general) from stealing focus?
 					- 02:28 PM: No, i just ask if you remember. If you remember, just recall a brief of that discussion.
-					-
+					- 02:29 PM: I asked if you remember the discussion about preventing stealing of focus or keyboard input of a pop-up.
+					- 02:38 PM: No, the YED discussion is the recent one. I'm asking for the previous discussion (about months ago) where i asked about zenity first, then about the issue of zenity accidentally taking my keyboard inputs of my work on other apps as a its yes/no answer.
+					- 02:44 PM: OK, maybe i've mistaken with some discussion with other chatbots. But let's check your ability of recalling cross-thread contents again (this was the most important feature making me switched to Grok earlier). Do you remember discussions about the Coin of Truth?
+					- 03:06 PM: It's clear that you cannot recall that very recent content from another thread. I've checked the settings and see a strange symptom: The feature "conversation history" (beta) is always disabled even after my turning it on. This may be the cause! Do you know why this feature is turned off?
+					- [ ((6838287a-aac3-4a6d-93c2-f98ff61b6154)) ]
+					- 03:56 PM: Back to YAD/Zenity, the option `--no-focus` is too restrictive with such "dump window". So i use another solution: 
+					  ```sh
+					  # First, show a short-timeout window to capture accidental inputs from user, if any
+					  ( sleep 1; echo 50; sleep 1; echo 75; sleep 1; echo 100; ) |
+					  zenity --progress --no-cancel --auto-close --percentage=25 --width=500 --text="$msg"
+					  ```
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
 		  collapsed:: true
