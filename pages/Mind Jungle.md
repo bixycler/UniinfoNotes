@@ -159,6 +159,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The “conversation memory/history” feature was introduced in April 2025 as a beta feature which was tested successfully with correct recalls acrross my threads.
 					  collapsed:: true
 						- But when checked again on 29 May 2025, it's always turned off despite being turned on by the user.
+						  id:: 683817f7-b6a0-41a6-aee4-5279089228f7
 						  ![Grok - conversation history - beta - disabled - 2025-05-29.png](../assets/Will/story/2025-05/Grok - conversation history - beta - disabled - 2025-05-29.png)
 				- It still suffers severe ((6801de22-8ae9-42e1-a7b2-d870e5ec9689)), e.g. about its ability to [read content of webpages](((6801e4de-3427-4d2d-a196-35572bab45af))).
 				  collapsed:: true

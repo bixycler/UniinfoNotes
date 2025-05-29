@@ -2276,7 +2276,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 10:51, 28 May, the meta/macro things are somehow well organized, so just get back to the company works!
 				- with the knowledge that nothing is lost, and everything here can be continued later on.
 				- This is the result of not only the external tidying but mainly the [internal meditation](((68367257-9043-4fd5-8586-2c193d56f077))).
-			- 13-16pm, 29 May,
+			- 13-16pm, 29 May, a rather long stray thread of ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)), ((68381bca-50f3-4d2e-9593-53d9c8f6c368)), and the [Grok's issue](((683817f7-b6a0-41a6-aee4-5279089228f7))) with conversation memory/history feature.
+				- Chat history with Grok:
+					- 01:08 PM: Do you know why the well known program displaying GTK+ dialogs is named "zenity"?
+					- 01:35 PM: The "zen" part is clear, which is the same as mine and many other suggestions on the Web, but the "entity" part is new to me. Can you show some pages suggesting the "entity" part?
+					- 02:02 PM: Yeah, this is what i thought at first, and still thinking like this: simply a suffix "-ity" to metion "about zen, of zen, like zen". And your suggestion of replacing "serene" in "serenity" is a fit one, i think!
+					  > Abstract Suffix: "-ity" is a suffix denoting quality or state (e.g., simplicity, clarity). "Zenity" could imply the “state of being zen” (simple, calm), aligning with its user-friendly design.
+					- 01:45 PM: `yad` has the option `--no-focus` which is described as "dialog window never take focus", but when i call `yad --no-focus`, the focus just jumps to the dialog window!?
+					- 01:55 PM: I'm using Yad 0.40.0 (GTK+ 3.24.33). Does the Wayland has any effect on this focus functionality?
+					  I see the GDK warning: ../../../../../gdk/x11/gdkwindow-x11.c:5653 drawable is not a native X11 window
+					- 02:08 PM: I use GNOME but --splash has no effect, GDK_BACKEND=wayland has no effect either (neither on focus stealing nor the GDK warning). Eventually GDK_BACKEND=x11 has effect: The dialog pops up as dumb window receiving no keyboard input, cannot gain focus with mouse click, thus can only interact via mouse.
+					- 02:18 PM: GDK_BACKEND=x11 does resolve the GDK warning. It also activate window-related functionalities like --no-focus, --center, --mouse, --skip-taskbar, which are ineffective under Wayland backend.
+					- 02:25 PM: Do you know our previous discussion about how to prevent zenity (or any pop-up in general) from stealing focus?
+					- 02:28 PM: No, i just ask if you remember. If you remember, just recall a brief of that discussion.
+					-
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
 		  collapsed:: true
