@@ -2977,9 +2977,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  > When referring to pulverization in a broad sense, “size reduction” is often used, and when it is used for transforming a solid into small pieces, “comminution” is often used.
 						- Chat GPT
 						  > Though "levigate" is not widely used, it's still technically correct, so if you like its specificity, it might be worth using, especially in a scientific or technical context.
-		- 3 poisons
-			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Three_poisons
+		- 3 directions
+		  id:: 68392a13-c350-4962-bd37-b819c8e1f931
+		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Like (-1/0, 0/1, +1/0), the
+			- 3 poisons
+			  id:: 6839229d-9eff-49e4-9480-6e2db6f61127
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68392b10-f06b-4e84-b79d-8a44af03857a))
+				- 3 unwholesome roots
+				  id:: 68392b10-f06b-4e84-b79d-8a44af03857a
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6839229d-9eff-49e4-9480-6e2db6f61127))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Three_poisons
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Like (-1/0, 0/1, +1/0), the
+			- 3 antidotes
+			  id:: 68392a1f-6685-4d0f-9de8-4ae42964e249
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68392b40-7afb-4c60-af0a-07abfbcea926))
+				- 3 wholesome roots
+				  id:: 68392b40-7afb-4c60-af0a-07abfbcea926
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68392a1f-6685-4d0f-9de8-4ae42964e249))
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
