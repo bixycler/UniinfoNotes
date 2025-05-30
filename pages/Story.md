@@ -2314,6 +2314,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ( sleep 1; echo 50; sleep 1; echo 75; sleep 1; echo 100; ) |
 					  zenity --progress --no-cancel --auto-close --percentage=25 --width=500 --text="$msg"
 					  ```
+			- 30 May, my tantric practice last night has shown me ways to deal with the 3 poisons.
+				-
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
 		  collapsed:: true
