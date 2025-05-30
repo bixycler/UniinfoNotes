@@ -2280,7 +2280,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- This stray thread was inititialized by just a simple idea to “just confirm my guess that `zenity` is related to Zen!” when i did a [clearing](((6835b162-09f7-4153-97a3-633f8a5c0980))) of prevous untouched `zenity` pop-ups: `killall -9 -vr 'microreset.sh|zenity'`.
 					- Be aware! The weed seeds like this are everywhere lurking in every moment!
-					- Just like this “simple idea”, most of my topics are actually complicated, vague, and even absurd! The complexities are usually hidden behind the “simple forms” of them in my mind. 🙄 This is [the curse of abstraction and holism](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))).
+					- [The curse of abstraction and holism](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))): Just like this “simple idea”, most of my topics are actually complicated, vague, and even absurd! The complexities are usually hidden behind the “simple forms” of them in my mind. 🙄
+					- The curse of perfectionist concrete:
 				- 01-03pm: [chat with Grok](((683826a5-3833-438f-981a-573267b6ed08)))
 					- This shows long periods of reading websites and researching while talking in the conversation.
 					- The trailing part from 02:25 to 03:06 about the Grok memory issue showed my ((6678d594-9819-4624-abd6-d4ec62b3874f)) with debugging instinct.
