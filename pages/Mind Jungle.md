@@ -2979,7 +2979,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  > Though "levigate" is not widely used, it's still technically correct, so if you like its specificity, it might be worth using, especially in a scientific or technical context.
 		- 3 poisons
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Three_poisons
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Like
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Like (-1/0, 0/1, +1/0), the
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
