@@ -720,6 +720,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- "Mental landscape" is closer to the perceptual screen, more dynamic than the relatively static wordview, more emotional than the structural (flat) "mental map".
 			- Libet's [Conscious Mental Field](http://www.scholarpedia.org/article/Field_theories_of_consciousness#Libet.E2.80.99s_field_theory_of_consciousness)
 			- TODO view vs sense
+		- ((68392a13-c350-4962-bd37-b819c8e1f931))
 		- ...
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
