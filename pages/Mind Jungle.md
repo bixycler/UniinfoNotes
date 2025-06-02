@@ -158,18 +158,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Features: web reaserch with its “Deep(er)Search”, think deeper with “Think”, read attached documents & G-Drive, [**memory**] recall discussions on other conversations, [workspace](https://grok.com/workspace) to group conversations with a common instruction, ...
 					- The “conversation memory/history” feature was introduced in April 2025 as a beta feature which was tested successfully with correct recalls acrross my threads.
 					  collapsed:: true
-						- But when checked again on 29 May 2025, it's always turned off despite being turned on by the user.
+						- But when checked again on 29 May 2025, it's always turned off despite being turned on by the user. This was likely a [technical glitch](((683d65ac-bd2b-4a11-b432-82d0655e2ea6))).
 						  id:: 683817f7-b6a0-41a6-aee4-5279089228f7
 						  ![Grok - conversation history - beta - disabled - 2025-05-29.png](../assets/Will/story/2025-05/Grok - conversation history - beta - disabled - 2025-05-29.png)
-						- Today, 2nd June, the feature has been restored!
-							- History of recalls recalled by Grok itself:
-								- April 18: successful: Unithread Theory Mention
-								- April 23: successful: preference for top-down, hierarchical format for responses
-								- May 17: successful: SCIFER process, involving refining intents through remainders
-								- May 23: failed: Ackermann-Péter Function Discussion: failed to recall the initial misinterpretation of the recursion structure as two nested loops.
-								- May 29: failed previously & missing in this recall list this time: zenity focus stealing, failed, then tried again with "Coin of Truth", still failed.
-								- June 02: successful: "Great Lie" and "noble lie" discussion; Recall of previous recalls.
-							- Technical Glitch: Posts on X from May 28–31, 2025, report similar issues with Grok’s memory feature. The contents prior to May 30, 2025, are also cleared in the GUI.
+						- Technical Glitch: Posts on X from May 28–31, 2025, report similar issues with Grok’s memory feature. The contents prior to May 30, 2025, are also cleared in the GUI.
+						  id:: 683d65ac-bd2b-4a11-b432-82d0655e2ea6
+						- Today, 2nd June, the feature has been restored! And here's the history of recalls recalled by Grok itself:
+							- April 18: successful: Unithread Theory Mention
+							- April 23: successful: preference for top-down, hierarchical format for responses
+							- May 17: successful: SCIFER process, involving refining intents through remainders
+							- May 23: failed: Ackermann-Péter Function Discussion: failed to recall the initial misinterpretation of the recursion structure as two nested loops.
+							- May 29: failed previously & missing in this recall list this time: zenity focus stealing, failed, then tried again with "Coin of Truth", still failed.
+							- June 02: successful: "Great Lie" and "noble lie" discussion; Recall of previous recalls successfully except the last failed one on May 29.
 				- It still suffers severe ((6801de22-8ae9-42e1-a7b2-d870e5ec9689)), e.g. about its ability to [read content of webpages](((6801e4de-3427-4d2d-a196-35572bab45af))).
 				  collapsed:: true
 					- When being asked about the plain static webpage https://bixycler.github.io/Uniinfo/, 
