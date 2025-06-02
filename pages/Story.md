@@ -2272,12 +2272,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  ```
 				- `/<div class="pull_right date details"/`: Matches the timestamp `<div>`.
 				- `x`: Swaps the pattern space with the hold space to preserve the match.
-				- `n;n;n;n;n;n;n;n`: Skips eight lines until `<div class="text">`, including that `<div>` line.
+				- `n;n;n;n;n;n;n;n`: Skips 8 lines until `<div class="text">`, including that `<div>` line.
 				- `x`: Swaps the timestamp `<div>` back to the pattern space.
 				- `N`: Appends the content line of `<div class="text">` to the pattern space.
 				- `s#...#...#p`: Captures the timestamp (`\1`) and main text (`\2`), substitute (`s`) the text in pattern space with with the target `<li>` structure, then print (`p`) the pattern space.
 					- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
-				- `-n`: Prints only the transformed output, suppressing the normal output of command `n`.
+				- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
