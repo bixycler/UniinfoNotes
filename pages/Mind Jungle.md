@@ -1097,7 +1097,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## effect flow
 	  id:: 667bef22-b272-4a7d-b613-3f1ed1a47329
 	  collapsed:: true
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) luồng tác dụng
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) luồng tác dụng, tác lưu
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) of ((66727858-979d-4d95-8a90-7a749218cfba))s where action is the underlying transformation. In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)). In effect flow, each ((677f509b-f2db-47b1-aafb-5a475334b532)) is also the ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) of next actions. That means there's no pure effect nor pure cause in ((667bf36a-581a-4abe-b544-2d849608a3e4)), and only non-circular effect flow has such terminals. The effect flow is [interpenetrative](((66eb7dae-2032-434b-9106-756d4aad7cdb))) thanks to its mutual ((677f7100-e650-464a-a835-15a9f28df649))s inside.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -1110,6 +1110,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The focus on “effect” instead of “cause” is to show the **observable change** and **emergent** property of the flow. Because the cause is usually hidden and difficult to see, reasoning about cause usually falls into speculation.
 					- Dispel the illusion of “static causes” with the apparently dynamic effect (change).
 					  Just like in the butterfly effect, the very tiny change at the intial condition leads to the giant change in the result, the **apparent staticness** is due to the small scale of the cause, the seed. That impression of a static cause/seed is but an illusion due to our limit of resolution (cannot see its tiny change). In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the tiny intent (cause) is the reciprocal of the huge extent (effect): $i = 1/e$.
+			-
 			- Effect flow = wave propagation in a (highly distorted) field, in a landscape of possibilities
 			  id:: 6780bc09-6c98-42ed-bbd1-ff940c2a1d10
 				- conditioning = training = programming = space distortion = field formation = landscape shaping
@@ -1129,8 +1130,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Effect: As the outcome of the effect flow, the effect is whatever the field agent delivers at the destination after completing all the work in the field.
 				- Effect flow: The total effect is not only the outcome (the final effect) but the whole propagation of changes and influences from the initial cause throughout the course of the mission. While the primary and intended effect flows with the field agent from the initial cause to the final effect, various secondary and side effects ripple out through influences back upon the whole field. The primary effect itself not only results from the initial cause but is also accumulated from influences of the whole field.
 				- Relativity of the self: There are many different offices in the field. A field agent can choose one office to work for, which it considers as “*my office* giving *my cause* for me to produce *my effect*”, here called “the office”, “the cause” and “the effect”. Actually, the effect of “the cause” is not only “the effect” but also included in the outcomes of all other missions that have interactions with this field agent. That means the linear relation from “the cause” to “the effect” is just relative to the choice of office, i.e. of the self.
-			-
-			-
 		- Components of ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 		  id:: 677f9ae2-f7bc-47a7-a7e3-4dda29d9d834
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66727858-979d-4d95-8a90-7a749218cfba)) arrows from ((677f7108-ffa5-4ea7-9a69-eaa355a7569e))s to ((677f509b-f2db-47b1-aafb-5a475334b532))s represent the direction of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). Relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), the primary action of the self from the primary cause to the primary effect are specified, and are simply called “the action from the cause to the effect”. Other secondary actions are ((677f7100-e650-464a-a835-15a9f28df649))s from the surrounding ((677f7104-7fc4-4034-bb08-0dabd80a586f))s on the self.
