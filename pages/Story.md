@@ -2257,6 +2257,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The nudity is inspired by the expression “la vérité nue” (the naked truth).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- DOING  Export my saved messages from Telegram.
+		  id:: 683da38c-3d91-435c-99eb-0a88a36f4ba5
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-06-02 Mon 16:35:17]
+		  :END:
+			-
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
