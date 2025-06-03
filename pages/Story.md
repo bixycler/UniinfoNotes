@@ -2337,7 +2337,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  zenity --progress --no-cancel --auto-close --percentage=25 --width=500 --text="$msg"
 					  ```
 			- 30 May, my tantric practice last night has shown me ways to transform the [3 poisons](((6839229d-9eff-49e4-9480-6e2db6f61127))) to the [3 antidotes](((68392a1f-6685-4d0f-9de8-4ae42964e249))).
-				-
+			- 2nd June,
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
 		  collapsed:: true
