@@ -2344,6 +2344,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 2nd June, due to the ban of Telegram by Vietnamese government, i was caught up in a stray thread of ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
 			- 3rd June, from last night, my nose & throat have been a little sore.
 				- Caught up with the completion of [mạch tác lưu](((6839221f-0a4a-43a3-b7fc-1490e356b9de))).
+				- How to take quick notes at home (on Android mobile)?
+					- Previously i used Telegram.
+					- fb Messeger: no: it has litmited time for message modification.
+					- Google Keep: has no sync methods (only one-time upload to GDrive).
+					- Google Docs: [cannot reduce](https://support.google.com/docs/thread/3750758/how-do-i-change-the-default-indentation-on-list-items) default indentation spaces of list items.
 			-
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
