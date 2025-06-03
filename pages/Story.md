@@ -2349,6 +2349,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- fb Messeger: no: it has litmited time for message modification.
 					- Google Keep: has no sync methods (only one-time upload to GDrive).
 					- Google Docs: [cannot reduce](https://support.google.com/docs/thread/3750758/how-do-i-change-the-default-indentation-on-list-items) default indentation spaces of list items.
+					-
 			-
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
