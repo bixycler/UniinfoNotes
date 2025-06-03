@@ -3639,7 +3639,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 				- Vietnamese: mạch ôông (ōm̐-thread)
 				- While written as “Ω-thread”, it's called “ohm-thread” instead of “omega-thread”.
-				- Ω-thread is the universal thread called “**thread of effect flow**” ()
+				- Ω-thread is the universal thread called “**thread of effect flow**” (vi. “mạch tác lưu”, zh. “作流脈”).
+					- _The universal **thread of effect flow** weaves up everything._
+					  id:: 683ed4a3-68c7-41a4-aecf-b21561f207df
+					  _**Mạch tác lưu** dệt nên vạn vật._
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) corresponds to a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology) in topology.
 			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
