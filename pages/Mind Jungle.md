@@ -1109,15 +1109,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) luồng tác dụng, tác lưu
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((667bef50-a33a-4275-9ca3-e9d801ab5a81))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) of ((66727858-979d-4d95-8a90-7a749218cfba))s where action is the underlying transformation. In microview, each effect flow is drawn by an ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)). In effect flow, each ((677f509b-f2db-47b1-aafb-5a475334b532)) is also the ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) of next actions. That means there's no pure effect nor pure cause in ((667bf36a-581a-4abe-b544-2d849608a3e4)), and only non-circular effect flow has such terminals. The effect flow is [interpenetrative](((66eb7dae-2032-434b-9106-756d4aad7cdb))) thanks to its mutual ((677f7100-e650-464a-a835-15a9f28df649))s inside.
-			- effect flow is a **dynamic continuum** of ((677f509b-f2db-47b1-aafb-5a475334b532)) = ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) = [action](((6835b165-75f8-465e-84d4-b7b0f68b4dcb))) = influence = condition
+			- effect flow is a **dynamic continuum** of ((677f509b-f2db-47b1-aafb-5a475334b532)) = ((677f7108-ffa5-4ea7-9a69-eaa355a7569e)) = [action](((6835b165-75f8-465e-84d4-b7b0f68b4dcb))) = ((677f7100-e650-464a-a835-15a9f28df649)) = ((677f7104-7fc4-4034-bb08-0dabd80a586f)).
+			  id:: 683eac41-53d2-4341-a732-a6a923962629
+			  :LOGBOOK:
+			  CLOCK: [2025-06-03 Tue 15:06:25]
+			  :END:
+				- That means, *effect flow* is also *causal flow*, *action flow*, *flow of changes*, as well as *influence wave* and *condition wave*.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
 			- “Effect flow” versus causal chain, cause-and-effect chain (CEC), chain of causation
 				- While those “chains” are linear laminar flows (streamlines), effect flow can contain many kinds of **nonlinearity**: eddies as ((667c0031-0a87-44c9-9e98-6d45893b095f))s, interpenetrative mixing through ((677f7100-e650-464a-a835-15a9f28df649))s, branching in both effect cone and cause cone.
 				  collapsed:: true
 					- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278&h=482)
-				- In constrast to those “chains” of *separate* causes and effects which are like strings of beads, effect flow is a **dynamic continuum** of effect = cause = action = influence = condition. Thus, *effect flow* is also *causual flow*, *action flow*, *flow of changes*, as well as *influence wave* and *condition wave*. This continuum has been well expressed in the [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle, a.k.a. twelve-linked chain of conditions (dvādaśa-nidānāni, dvādaśa-hetupratyaya [十二因縁]).
-					-
+				- In constrast to those “chains” of *separate* causes and effects which are like strings of beads, ((683eac41-53d2-4341-a732-a6a923962629)) This continuum has been well expressed in the [dependent origination](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) principle, a.k.a. twelve-linked chain of conditions (dvādaśa-nidānāni, dvādaśa-hetupratyaya [十二因縁]).
+					- In Vietnamese, tác lưu = luồng tác dụng (effect flow) = luồng tác nhân (causal flow) = luồng tác động (action flow)
 				- The focus on “effect” instead of “cause” is to show the **observable change** and **emergent** property of the flow. Because the cause is usually hidden and difficult to see, reasoning about cause usually falls into speculation.
 					- Dispel the illusion of “static causes” with the apparently dynamic effect (change).
 					  Just like in the butterfly effect, the very tiny change at the intial condition leads to the giant change in the result, the **apparent staticness** is due to the small scale of the cause, the seed. That impression of a static cause/seed is but an illusion due to our limit of resolution (cannot see its tiny change). In ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), the tiny intent (cause) is the reciprocal of the huge extent (effect): $i = 1/e$.
