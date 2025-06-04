@@ -2351,8 +2351,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Google Docs: [cannot reduce](https://support.google.com/docs/thread/3750758/how-do-i-change-the-default-indentation-on-list-items) default indentation spaces of list items.
 					- [Simplenote](https://simplenote.com/) looks good with Markdown syntax and real time sync! 😊
 					- But [GitJournal](https://gitjournal.io/) is better with consistent Markdown rendering, better GUI, and esp. Git support for source management & image uploading.
-					- ![922875feb432caafcdddc7831c2ce7c6.png](../GitJournal/img/922875feb432caafcdddc7831c2ce7c6.png)
-					- [[2025-06-04]]
+						- ![922875feb432caafcdddc7831c2ce7c6.png](../GitJournal/img/922875feb432caafcdddc7831c2ce7c6.png)
+						- [[2025-06-04]]
+						- [[test-GitJournal]]
 			-
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
