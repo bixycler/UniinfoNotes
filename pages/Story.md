@@ -2425,6 +2425,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-05-19 Mon 08:01:22]
 		  :END:
 			- ![HoCoc-ngoaiBien.jpg](../assets/Will/story/2025-05/HoCoc-ngoaiBien.jpg)
+			- We captured some [beautiful images](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/) in Phước Bửu - Bình Châu Nature Reserve
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
