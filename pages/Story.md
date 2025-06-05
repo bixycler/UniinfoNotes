@@ -2289,9 +2289,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-06-02 Mon 16:35:17]
 		  :END:
 			- Convert `messages.html` to `list.html` with `sed`
-				- First, remove all `<div class="from_name">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
+				- First, remove all `<div class="from_name">` & `<div class="media_wrap clearfix">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
 				  ```sh
-				  sed '/<div class="from_name">/{N;N;N;d}' messages.html > messages.norm.html
+				  sed '/<div class="from_name">/{N;N;N;d}' messages.html |
+				  sed '/<div class="media_wrap/{N;d}' > messages.norm.html
 				  ```
 				- Next, convert `<div class="body">` to `<li>`
 				  ```sh
