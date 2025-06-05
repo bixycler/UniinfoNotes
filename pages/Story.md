@@ -2342,6 +2342,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- So, now we have ((683ed4a3-68c7-41a4-aecf-b21561f207df)) (**Mạch tác lưu** dệt nên vạn vật.)
 				- “Mạch tác lưu” (zh. 作流脈) is the nice combination of both static (thread) and dynamic (flow) aspects.
 			- 2nd June, due to the ban of Telegram by Vietnamese government, i was caught up in a stray thread of ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
+				- Returning home, the whole night, i was caught up with testing different chatbots for 2 features: reading webpages via URL, and understanding my Mind Jungle.
+					- Can read URLs: Notebook LM, Claude; Can read simple pages but not the [online Mind Jungle](https://raw.githubusercontent.com/bixycler/UniinfoNotes/refs/heads/log/pages/Mind%20Jungle.md): Gemini, ChatGPT
+						- (Grok, Copilot) can only read their associated sites (X, GitHub)
+						- DeepSeek cannot read any URL
+					- Only Notebook LM & ChatGPT can understand the Mind Jungle!
+						- Copilot refuses straight away “it's too large!"
+						- Gemini can understand nothing but a pure hallucination!
+						- Grok doesn't allow uploading plain text files.
+						- DeepSeek says upfront that only 22% of such the huge doc can be read.
+						- Claude just read and said nothing. Being asked about the contents, it just spat out “the prompt is too long!"
+						- Notebook LM understands the online Mind Jungle well. But it discards chat history after refresh.
+						- ChatGPT understands the (uploaded) Mind Jungle even better than Notebook LM! !😊 But it's a tight limit of 10 messages/5h.
 			- 3rd June, from last night, my nose & throat have been a little sore.
 				- Caught up with the completion of [mạch tác lưu](((6839221f-0a4a-43a3-b7fc-1490e356b9de))).
 				- How to take quick notes at home (on Android mobile)?
