@@ -2337,7 +2337,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  zenity --progress --no-cancel --auto-close --percentage=25 --width=500 --text="$msg"
 					  ```
 			- 30 May, my tantric practice last night has shown me ways to transform the [3 poisons](((6839229d-9eff-49e4-9480-6e2db6f61127))) to the [3 antidotes](((68392a1f-6685-4d0f-9de8-4ae42964e249))).
-			- 31 May, through a chatbox, i translated the 2 meditation factors [vitarka-vicāra](https://en.wikipedia.org/wiki/Vitarka-vic%C4%81ra)
+			- 31 May, through a chatbox, i translated the first couple of meditation factors [vitarka-vicāra](https://en.wikipedia.org/wiki/Vitarka-vic%C4%81ra) into Vietnamese as “tìm-bám” and English as “**find-fix**”.
+			  collapsed:: true
+				- Về 2 yếu tố tầm-tứ trong 5 yếu tố khi phân tích 4 thiền, thì đó là kỹ thuật cơ bản để nhiếp tâm, định tâm, tập trung vào 1 việc nào đó (ở đây là việc thiền), mà ở đời ai cũng dùng 1 cách tự nhiên, chỉ là không để ý, không phân tích ra thôi.
+					- Vitakka = tầm = tìm = inquiry = "mount or direct the mind towards an object." Để tập trung vào đối tượng thì trước hết ta phải tìm thấy đối tượng.  Như định niệm hơi thở thì phải tìm thấy hơi thở (bình thường thở mà không biết, không thấy), định niệm thần chú thì đi phải nhớ lại câu thần chú.
+					- Vicāra = tứ = "bám theo, rình rập, dò xét" = "investigate what has been focused on by vitakka." Đây là quá trình chính để duy trì sự tập trung, đó là phải liên tục bám theo đối tượng. Như trong định niệm hơi thở là phải quán hơi thở xem nó vào ra thế nào, còn người đời khi "định niệm gái" thì phải liên tục theo dõi, rình rập, bám theo từng bước chân của gái 😂!
+				- "Tầm" = "tìm" thì quá quen rồi, như "ngưu tầm ngưu mã tầm mã" và "sưu tầm". Còn chữ "tứ" = "rình, bám" thì không có dùng trong tiếng Việt. Nên tui nghĩ dịch ra thuần Việt là "tìm & bám" thì dễ hiểu hơn "tầm & tứ" trong Hán-Việt.
+				- Còn tiếng Anh thì tui dịch là "find & fix": "After finding her out, he fixed on her the whole time." (Sau khi tìm ra cô, anh ta đã theo dõi cô suốt thời gian đó.)
 			- 2nd June, these days i translate the terms of ((667bef22-b272-4a7d-b613-3f1ed1a47329)) back to my mother tongue, Vietnamese, but see a little difficulty in translating the term “effect flow” itself. So, let's start from its components first: cause = tác nhân, action = tác động, effect = tác dụng, then.... wow.... the whole flow should be "**tác lưu**"! 😍
 			  id:: 6839221f-0a4a-43a3-b7fc-1490e356b9de
 				- So, now we have ((683ed4a3-68c7-41a4-aecf-b21561f207df)) (**Mạch tác lưu** dệt nên vạn vật.)
