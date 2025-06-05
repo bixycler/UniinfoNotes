@@ -2255,6 +2255,31 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ![Truth Coming Out of Her Well - Gérôme.jpg](../assets/Will/story/2025-05/Truth Coming Out of Her Well - Gérôme.jpg)
 				- The well is inspired by the aphorism of the pre-socratic philosopher [Democritus](https://en.wikipedia.org/wiki/Democritus#Epistemology): “ἐτεῇ δὲ οὐδὲν ἴδμεν: ἐν βυθῷ γὰρ ἡ ἀλήθεια” (in reality we know nothing; for the truth is in an abyss).
 				- The nudity is inspired by the expression “la vérité nue” (the naked truth).
+		- Hồ Cốc vacation on 30/4 & 1/5 holidays
+		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-19 Mon 08:01:22]--[2025-06-05 Thu 19:15:33] =>  419:14:11
+		  :END:
+			- Thanks to un updated satellite image on Google Maps, i discovered the ongoing formation of a very long sand bar hundreds of meters off the current shore which will be the future shore in dozens of years later.
+				- This formation is due to the [longshore drift](https://en.wikipedia.org/wiki/Longshore_drift#Natural_features) which has created the current Hồ Cốc lake in the near past.
+				- off-shore lake being formed
+				  id:: 6835b167-1b63-4f8e-b6f8-6c7312953b4a
+				  ![HoCoc-ngoaiBien.jpg](../assets/Will/story/2025-05/HoCoc-ngoaiBien.jpg)
+				- Chat with Huy about such interesting observation on May 18th:
+				  collapsed:: true
+					- Ông cho tui mượn cặp fin đi. Hôm trước 30/4 đi Hồ Cốc lặn đêm tui bị rớt mất 1 chiếc rồi 😁
+					- Lúc đó triều cường rút xuống thấp nhứt làm lòi ra nguyên một bờ cát rất dài ngoài xa.... Tui tính bơi ra, ai ngờ nước cạn quá toàn phải lội bộ băng qua cái hồ ngoài biển, nước tới ngang hông... Lội bộ chán thì hụp đầu xuống lặn chân không và kéo fins theo... Kéo 1 hồi tuột mất tiêu 😁
+					- Image: ((6835b167-1b63-4f8e-b6f8-6c7312953b4a))
+					  Hồ Cốc là cái hồ đen bên trong (vạch tím), còn ngoài biển là cái hồ rộng hơn gấp chục lần, đang được hình thành... chắc khoảng 30 năm nữa thì hiện rõ, còn giờ chỉ thấy khi triều cường xuống sâu 😊
+					- Cái bờ cát bên trong cũng đang bồi lên cao, hồi mình đi Côn Đảo lần đầu thì nó mỏng lét gần sát mặt biển, còn giờ nó cao cả 2-3m có phi lao mọc rồi.
+					- Nhìn thấy kiến tạo địa hình ngay trong đời mình thiệt là thú vị. Ngày trước lúc đi khảo sát bờ biển, tui đã thấy các vịnh, đầm, hồ dọc biển Đông từ Đà Nẵng trở xuống có cùng hình thái kiến tạo. Search ra thì lúc đó biết lý thuyết là do dòng chảy dọc bờ kéo cát bồi thành các bờ cát chắn bên ngoài (hình như tui có share với ông rồi thì phải): https://en.wikipedia.org/wiki/Longshore_drift#Natural_features
+					- Giờ sau mười mấy năm mới được chứng thực lý thuyết đó trên thực địa. 😊
+					- Đến đời con cháu mình thì tụi nó sẽ chơi với cái hồ Cốc lớn bên ngoài chứ không còn chơi với hồ Cốc nhỏ bên trong nữa 😉
+					- Đúng là "đời bể dâu", mới ngày nào còn là biển sâu, nay đã hóa ra hồ cạn 😁
+			- We captured some [beautiful images](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/) in the forest of Phước Bửu - Bình Châu Nature Reserve, esp. the legendary k'nia tree.
+				- The crown of [k'nia](https://vi.wikipedia.org/wiki/K%C6%A1_nia) ([wild almond](https://en.wikipedia.org/wiki/Irvingia_malayana))
+				  ![photo_7_2025-06-05_18-34-55.jpg](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/photo_7_2025-06-05_18-34-55.jpg)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- DOING  Export my saved messages from Telegram.
@@ -2418,30 +2443,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `img/9578cb1c92c865619736101ad4bd5364.png` -> 
 						  ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png)
 			- 5th June,
-		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
-		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-05-19 Mon 08:01:22]
-		  :END:
-			- Thanks to un updated satellite image on Google Maps, i discovered the ongoing formation of a very long sand bar hundreds of meters off the current shore which will be the future shore in dozens of years later.
-				- This formation is due to the [longshore drift](https://en.wikipedia.org/wiki/Longshore_drift#Natural_features) which has created the current Hồ Cốc lake in the near past.
-				- off-shore lake being formed
-				  id:: 6835b167-1b63-4f8e-b6f8-6c7312953b4a
-				  ![HoCoc-ngoaiBien.jpg](../assets/Will/story/2025-05/HoCoc-ngoaiBien.jpg)
-				- Chat with Huy about such interesting observation on May 18th:
-					- Ông cho tui mượn cặp fin đi. Hôm trước 30/4 đi Hồ Cốc lặn đêm tui bị rớt mất 1 chiếc rồi 😁
-					- Lúc đó triều cường rút xuống thấp nhứt làm lòi ra nguyên một bờ cát rất dài ngoài xa.... Tui tính bơi ra, ai ngờ nước cạn quá toàn phải lội bộ băng qua cái hồ ngoài biển, nước tới ngang hông... Lội bộ chán thì hụp đầu xuống lặn chân không và kéo fins theo... Kéo 1 hồi tuột mất tiêu 😁
-					- Image: ((6835b167-1b63-4f8e-b6f8-6c7312953b4a))
-					  Hồ Cốc là cái hồ đen bên trong (vạch tím), còn ngoài biển là cái hồ rộng hơn gấp chục lần, đang được hình thành... chắc khoảng 30 năm nữa thì hiện rõ, còn giờ chỉ thấy khi triều cường xuống sâu 😊
-					- Cái bờ cát bên trong cũng đang bồi lên cao, hồi mình đi Côn Đảo lần đầu thì nó mỏng lét gần sát mặt biển, còn giờ nó cao cả 2-3m có phi lao mọc rồi.
-					- Nhìn thấy kiến tạo địa hình ngay trong đời mình thiệt là thú vị. Ngày trước lúc đi khảo sát bờ biển, tui đã thấy các vịnh, đầm, hồ dọc biển Đông từ Đà Nẵng trở xuống có cùng hình thái kiến tạo. Search ra thì lúc đó biết lý thuyết là do dòng chảy dọc bờ kéo cát bồi thành các bờ cát chắn bên ngoài (hình như tui có share với ông rồi thì phải): https://en.wikipedia.org/wiki/Longshore_drift#Natural_features
-					- Giờ sau mười mấy năm mới được chứng thực lý thuyết đó trên thực địa. 😊
-					- Đến đời con cháu mình thì tụi nó sẽ chơi với cái hồ Cốc lớn bên ngoài chứ không còn chơi với hồ Cốc nhỏ bên trong nữa 😉
-					- Đúng là "đời bể dâu", mới ngày nào còn là biển sâu, nay đã hóa ra hồ cạn 😁
-			- We captured some [beautiful images](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/) in the forest of Phước Bửu - Bình Châu Nature Reserve, esp. the legendary k'nia tree.
-				- The crown of [k'nia](https://vi.wikipedia.org/wiki/K%C6%A1_nia) ([wild almond](https://en.wikipedia.org/wiki/Irvingia_malayana))
-				  ![photo_7_2025-06-05_18-34-55.jpg](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/photo_7_2025-06-05_18-34-55.jpg)
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
