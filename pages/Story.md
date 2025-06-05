@@ -2337,19 +2337,25 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  zenity --progress --no-cancel --auto-close --percentage=25 --width=500 --text="$msg"
 					  ```
 			- 30 May, my tantric practice last night has shown me ways to transform the [3 poisons](((6839229d-9eff-49e4-9480-6e2db6f61127))) to the [3 antidotes](((68392a1f-6685-4d0f-9de8-4ae42964e249))).
+			- 31 May, through a chatbox, i translated the 2 meditation factors [vitarka-vicāra](https://en.wikipedia.org/wiki/Vitarka-vic%C4%81ra)
 			- 2nd June, these days i translate the terms of ((667bef22-b272-4a7d-b613-3f1ed1a47329)) back to my mother tongue, Vietnamese, but see a little difficulty in translating the term “effect flow” itself. So, let's start from its components first: cause = tác nhân, action = tác động, effect = tác dụng, then.... wow.... the whole flow should be "**tác lưu**"! 😍
 			  id:: 6839221f-0a4a-43a3-b7fc-1490e356b9de
 				- So, now we have ((683ed4a3-68c7-41a4-aecf-b21561f207df)) (**Mạch tác lưu** dệt nên vạn vật.)
 				- “Mạch tác lưu” (zh. 作流脈) is the nice combination of both static (thread) and dynamic (flow) aspects.
 			- 2nd June, due to the ban of Telegram by Vietnamese government, i was caught up in a stray thread of ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
 				- Returning home, the whole night, i was caught up with testing different chatbots for 2 features: reading webpages via URL, and understanding my Mind Jungle.
+				  collapsed:: true
 					- Can read URLs: Notebook LM, Claude; Can read simple pages but not the [online Mind Jungle](https://raw.githubusercontent.com/bixycler/UniinfoNotes/refs/heads/log/pages/Mind%20Jungle.md): Gemini, ChatGPT
 						- (Grok, Copilot) can only read their associated sites (X, GitHub)
 						- DeepSeek cannot read any URL
 					- Only Notebook LM & ChatGPT can understand the Mind Jungle!
 						- Copilot refuses straight away “it's too large!"
 						- Gemini can understand nothing but a pure hallucination!
-						- Grok doesn't allow uploading plain text files.
+						- Grok doesn't allow uploading plain text files in mobile apps. With the uploaded Mind Jungle in the web app, it could not deal with the huge size and just crashed!
+						  collapsed:: true
+							- ![Grok-glitch.png](../assets/Will/story/2025-06/Grok-glitch.png){:width 400}
+							- The crash also wiped out the uploaded docs
+							  ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png){:width 400}
 						- DeepSeek says upfront that only 22% of such the huge doc can be read.
 						- Claude just read and said nothing. Being asked about the contents, it just spat out “the prompt is too long!"
 						- Notebook LM understands the online Mind Jungle well. But it discards chat history after refresh.
