@@ -2289,12 +2289,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-06-02 Mon 16:35:17]
 		  :END:
 			- Convert `messages.html` to `list.html` with `sed`
-				- First, remove all `<div class="from_name">` to normalize ``
-				- ```sh
+				- First, remove all `<div class="from_name">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
+				  ```sh
+				  sed '/<div class="body">/{d;d;d;d}' messages.html > messages.norm.html
+				  ```
+				- Next, convert `<div class="body">` to `<li>`
+				  ```sh
 				  sed -n '/<div class="pull_right date details"/'\
-				  '{x;n;n;n;n;n;n;n;n;x;N;s#\s*<div class="pull_right date details" title="\([^"]*\)">\n\([^$]*\)'\
+				  '{x;n;n;n;n;x;N;s#\s*<div class="pull_right date details" title="\([^"]*\)">\n\([^$]*\)'\
 				  '#<li>[\1]\n    <ul><li>\2\n    <\/li><\/ul>\n<\/li>#p}'\
-				    input.html > output.html
+				    messages.html > list.html
 				  ```
 					- `/<div class="pull_right date details"/`: Matches the timestamp `<div>`.
 					- `x`: Swaps the pattern space with the hold space to preserve the match.
