@@ -2353,14 +2353,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Google Docs: [cannot reduce](https://support.google.com/docs/thread/3750758/how-do-i-change-the-default-indentation-on-list-items) default indentation spaces of list items.
 					- [Simplenote](https://simplenote.com/) looks good with Markdown syntax and real time sync! 😊
 					- But [GitJournal](https://gitjournal.io/) is better with consistent Markdown rendering, better GUI, and esp. Git support for source management & image uploading.
-			- 4th June, sleepless (last) night due to deadline stress.
+			- 4th June, sleepless (last) night due to deadline stress and conflict with personal tasks.
 			  collapsed:: true
-				- 06:00 am: Last night i couldn't sleep due to the illness of both body and mind: the nose was stuffy and mildly sore, the mind ran endless stream of thoughts about ongoing personal works.
+				- 06:00 am: Last night i couldn't sleep due to the illness of both body and mind: the nose was stuffy and mildly sore, the mind ran **endless stream of thoughts** about ongoing personal works.
 					- Lying for more than an hour unable to sleep, i sat up to meditate and calm these thoughts down.
-					- Facing these perfectionist thoughts and urges to do, i saw they are really strong.
+					- Facing these **perfectionist thoughts** and urges to do, i saw they are really strong.
 					- The body's illness was not strong enough to pull my mind out of these streams of thoughts.
 					- The deadline of company work today has both roles: It reminds me to release these urges to complete personal works, while it also makes me stressed, keeping me from relaxing.
-				- 06:30 am: Now, before going to company, i must prime my mind to do the company work first, let the task of syncing Git after the working hours: sync authenticators of mobile & desktop, sync GitJournal with Logseq.
+				- 06:30 am: Now, before going to company, i must **prime my mind** to do the company work first, let the task of syncing Git be touched **after the working hours**: sync authenticators of mobile & desktop, sync GitJournal with Logseq.
 				- 18:30 pm: After lots of hard works on company, now i return to the sync task:
 					- GitHub authenticators synced.
 					- CANCELLED Considering of merging GitJournal & Logseq to the same repo UniinfoNotes.
