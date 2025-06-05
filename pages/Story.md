@@ -2345,13 +2345,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 3rd June, from last night, my nose & throat have been a little sore.
 				- Caught up with the completion of [mạch tác lưu](((6839221f-0a4a-43a3-b7fc-1490e356b9de))).
 				- How to take quick notes at home (on Android mobile)?
+				  collapsed:: true
+				  ⇒ Pipeline page [[GitJournal]]
 					- Previously i used Telegram.
 					- fb Messeger: no: it has litmited time for message modification.
 					- Google Keep: has no sync methods (only one-time upload to GDrive).
 					- Google Docs: [cannot reduce](https://support.google.com/docs/thread/3750758/how-do-i-change-the-default-indentation-on-list-items) default indentation spaces of list items.
 					- [Simplenote](https://simplenote.com/) looks good with Markdown syntax and real time sync! 😊
-					- But [GitJournal](https://gitjournal.io/) is better with consistent Markdown rendering, better GUI, and esp. Git support for source management & image uploading. 
-					  ⇒ Pipeline page [[GitJournal]]
+					- But [GitJournal](https://gitjournal.io/) is better with consistent Markdown rendering, better GUI, and esp. Git support for source management & image uploading.
 			- 4th June, sleepless (last) night due to deadline stress.
 				- 06:00 am: Last night i couldn't sleep due to the illness of both body and mind: the nose was stuffy and mildly sore, the mind ran endless stream of thoughts about ongoing personal works.
 					- Lying for more than an hour unable to sleep, i sat up to meditate and calm these thoughts down.
@@ -2360,8 +2361,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The deadline of company work today has both roles: It reminds me to release these urges to complete personal works, while it also makes me stressed, keeping me from relaxing.
 				- 06:30 am: Now, before going to company, i must prime my mind to do the company work first, let the task of syncing Git after the working hours: sync authenticators of mobile & desktop, sync GitJournal with Logseq.
 				- 18:30 pm: After lots of hard works on company, now i return to the sync task:
-					- authenticators synced
-					- Considering of merging GitJournal & Logseq to the same repo UniinfoNotes.
+					- GitHub authenticators synced.
+					- CANCELLED Considering of merging GitJournal & Logseq to the same repo UniinfoNotes.
 					- There's an issue with file handling in GitJournal: somehow the deleted/renamed ones die hard!?
 					- The "external repo" setting doesn't work: fetch fails!
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
