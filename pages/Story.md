@@ -2289,21 +2289,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-06-02 Mon 16:35:17]
 		  :END:
 			- Convert `messages.html` to `list.html` with `sed`
-			  ```sh
-			  sed -n '/<div class="pull_right date details"/'\
-			  '{x;n;n;n;n;n;n;n;n;x;N;s#\s*<div class="pull_right date details" title="\([^"]*\)">\n\([^$]*\)'\
-			  '#<li>[\1]\n    <ul><li>\2\n    <\/li><\/ul>\n<\/li>#p}'\
-			    input.html > output.html
-			  ```
-				- `/<div class="pull_right date details"/`: Matches the timestamp `<div>`.
-				- `x`: Swaps the pattern space with the hold space to preserve the match.
-				- `n;n;n;n;n;n;n;n`: Skips 8 lines until `<div class="text">`, including that `<div>` line.
-				- `x`: Swaps the timestamp `<div>` back to the pattern space.
-				- `N`: Appends the content line of `<div class="text">` to the pattern space.
-				- `s#...#...#p`: Captures the timestamp (`\1`) and main text (`\2`), substitute (`s`) the text in pattern space with with the target `<li>` structure, then print (`p`) the pattern space.
-					- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
-				- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
-				- TODO With joined messages, there is no `<div class="from_name">`, reducing 4 lines.
+				- First, remove all `<div class="from_name">` to normalize ``
+				- ```sh
+				  sed -n '/<div class="pull_right date details"/'\
+				  '{x;n;n;n;n;n;n;n;n;x;N;s#\s*<div class="pull_right date details" title="\([^"]*\)">\n\([^$]*\)'\
+				  '#<li>[\1]\n    <ul><li>\2\n    <\/li><\/ul>\n<\/li>#p}'\
+				    input.html > output.html
+				  ```
+					- `/<div class="pull_right date details"/`: Matches the timestamp `<div>`.
+					- `x`: Swaps the pattern space with the hold space to preserve the match.
+					- `n;n;n;n;n;n;n;n`: Skips 8 lines until `<div class="text">`, including that `<div>` line.
+					- `x`: Swaps the timestamp `<div>` back to the pattern space.
+					- `N`: Appends the content line of `<div class="text">` to the pattern space.
+					- `s#...#...#p`: Captures the timestamp (`\1`) and main text (`\2`), substitute (`s`) the text in pattern space with with the target `<li>` structure, then print (`p`) the pattern space.
+						- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
+					- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
+					- TODO With joined messages, there is no `<div class="from_name">`, reducing 4 lines.
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
