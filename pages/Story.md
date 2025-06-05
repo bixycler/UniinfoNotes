@@ -2365,6 +2365,28 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- CANCELLED Considering of merging GitJournal & Logseq to the same repo UniinfoNotes.
 					- There's an issue with file handling in GitJournal: somehow the deleted/renamed ones die hard!?
 					- The "external repo" setting doesn't work: fetch fails!
+					- The transfer between GitJournal and Logseq will be done through this single "queue". All contents in this queue will be flushed to UniinfoNotes in each sync.
+						- The last block will be enqueued to the top.
+						- This queue transfer only changes file content, thus avoid the file management issue of GitJournal.
+						- After being flushed to `UniinfoNotes`/`GitJournal.md`, they can stay there as long as possible before being processed into other contents. Piling up, they can be flushed to history versions like `2025 GitJournal.md`.
+						- `flushGitJournal.sh`
+						  ```sh
+						  git pull
+						  queue=GitJournal/queue.md
+						  stack=../UniinfoNotes/pages/GitJournal.md
+						  (tail -n +6 $queue; cat $stack) > stack
+						  mv stack $stack
+						  sed -i '6,$d' $queue
+						  git commit -am 'Flushed GitJournal/queue.md'
+						  git push
+						  ```
+						- DOING Images must be moved & renamed manually. E.g.
+						  :LOGBOOK:
+						  CLOCK: [2025-06-05 Thu 15:45:06]
+						  :END:
+							- ![Grok-glitch.png](./img/d98b3b84fb8c3cee11c64a663cc79e41.png)
+							- ![conversation-not-found.png](./img/9578cb1c92c865619736101ad4bd5364.png)
+				-
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
 		  collapsed:: true
