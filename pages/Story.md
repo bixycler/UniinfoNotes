@@ -2394,7 +2394,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 6841400e-7bac-403e-b34a-690073c3251e
 					- The last block will be enqueued to the top.
 					- This queue transfer only changes file content, thus avoid the file management issue of GitJournal.
-					- After being flushed to `UniinfoNotes`/`GitJournal.md`, they can stay there as long as possible before being processed into other contents. Piling up, they can be flushed to history versions like `2025 GitJournal.md`.
+					- After being flushed to `UniinfoNotes`/`GitJournal.md`, they can stay there as long as possible before being processed into other contents.
+					- Piling up in `GitJournal.md`, usually with things difficult to be processed like the notes in ((6841400e-d2c5-47ab-a838-7418a53a5b34)), they can be flushed to history versions like `2025 GitJournal.md`.
 					- `flushGitJournal.sh`
 					  collapsed:: true
 						- ```sh
