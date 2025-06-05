@@ -2370,16 +2370,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This queue transfer only changes file content, thus avoid the file management issue of GitJournal.
 						- After being flushed to `UniinfoNotes`/`GitJournal.md`, they can stay there as long as possible before being processed into other contents. Piling up, they can be flushed to history versions like `2025 GitJournal.md`.
 						- `flushGitJournal.sh`
-						  ```sh
-						  git pull
-						  queue=GitJournal/queue.md
-						  stack=../UniinfoNotes/pages/GitJournal.md
-						  (tail -n +6 $queue; cat $stack) > stack
-						  mv stack $stack
-						  sed -i '6,$d' $queue
-						  git commit -am 'Flushed GitJournal/queue.md'
-						  git push
-						  ```
+						  collapsed:: true
+							- ```sh
+							  git pull
+							  queue=GitJournal/queue.md
+							  stack=../UniinfoNotes/pages/GitJournal.md
+							  (tail -n +6 $queue; cat $stack) > stack
+							  mv stack $stack
+							  sed -i '6,$d' $queue
+							  git commit -am 'Flushed GitJournal/queue.md'
+							  git push
+							  ```
 						- DOING Images must be moved & renamed manually. E.g.
 						  :LOGBOOK:
 						  CLOCK: [2025-06-05 Thu 15:45:06]
