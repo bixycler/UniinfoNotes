@@ -2354,6 +2354,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Simplenote](https://simplenote.com/) looks good with Markdown syntax and real time sync! 😊
 					- But [GitJournal](https://gitjournal.io/) is better with consistent Markdown rendering, better GUI, and esp. Git support for source management & image uploading.
 			- 4th June, sleepless (last) night due to deadline stress.
+			  collapsed:: true
 				- 06:00 am: Last night i couldn't sleep due to the illness of both body and mind: the nose was stuffy and mildly sore, the mind ran endless stream of thoughts about ongoing personal works.
 					- Lying for more than an hour unable to sleep, i sat up to meditate and calm these thoughts down.
 					- Facing these perfectionist thoughts and urges to do, i saw they are really strong.
@@ -2365,7 +2366,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- CANCELLED Considering of merging GitJournal & Logseq to the same repo UniinfoNotes.
 					- There's an issue with file handling in GitJournal: somehow the deleted/renamed ones die hard!?
 					- The "external repo" setting doesn't work: fetch fails!
-				- The transfer between GitJournal and Logseq will be done through this single "queue". All contents in this queue will be flushed to UniinfoNotes' page [[GitJournal]] in each sync.
+				- 21:48 pm: The transfer between GitJournal and Logseq will be done through this single "queue". All contents in this queue will be flushed to UniinfoNotes' page [[GitJournal]] in each sync.
 				  id:: 6841400e-7bac-403e-b34a-690073c3251e
 					- The last block will be enqueued to the top.
 					- This queue transfer only changes file content, thus avoid the file management issue of GitJournal.
@@ -2391,6 +2392,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ![Grok-glitch.png](../assets/Will/story/2025-06/Grok-glitch.png)
 						- `img/9578cb1c92c865619736101ad4bd5364.png` -> 
 						  ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png)
+			- 5th June,
 		- DOING Hồ Cốc vacation on 30/4 & 1/5 holidays
 		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
 		  collapsed:: true
