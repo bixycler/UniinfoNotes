@@ -1,5 +1,3 @@
-- 30/4 & 1/5
-	- There are jungle photos on Telegram to be copied.
 - 2025-06-01
   id:: 6841400e-d2c5-47ab-a838-7418a53a5b34
   collapsed:: true
