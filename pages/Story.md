@@ -2280,6 +2280,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- We captured some [beautiful images](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/) in the forest of Phước Bửu - Bình Châu Nature Reserve, esp. the legendary k'nia tree.
 				- The crown of [k'nia](https://vi.wikipedia.org/wiki/K%C6%A1_nia) ([wild almond](https://en.wikipedia.org/wiki/Irvingia_malayana))
 				  ![photo_7_2025-06-05_18-34-55.jpg](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/photo_7_2025-06-05_18-34-55.jpg)
+		- **The truth hurts!**, shared in a chat box
+		  :LOGBOOK:
+		  CLOCK: [2025-06-06 Fri 16:00:18]
+		  :END:
+		  **Sự thật mất lòng**
+			- Không chỉ nói lên sự thật về người nghe làm mất lòng người nghe, mà cả nói thật về bản thân mình (người nói) cũng có thể làm người nghe mất lòng.
+			- Những trải nghiệm của tui, chia theo cấp độ từ dễ đến khó hiểu thì chắc như sau:
+				- 1. Mình nói cái xấu của mình, nhưng tương tự với cái xấu của người ta, người ta "nhột", nên mất lòng.
+				- 2. Mình nói cái riêng của mình chẳng giống gì người ta nhưng phản lại kỳ vọng của người ta, như "tôi nói dối", "tôi không tốt như vẻ ngoài đâu", cũng làm người ta mất lòng.
+				- 3. Khi được hỏi mà mình ta lời "không biết" cũng làm người nghe mất lòng. Đây là trường hợp đặc biệt của số 2, vì người hỏi kỳ vọng phải nhận được câu trả lời.
+				- 3*. Trường hợp extreme của số 3 là khi đi phỏng vấn, người phỏng vấn hỏi mà ứng cử viên trả lời "không biết" cũng bị gọi là "láo!" 😜 Người khác coi câu trả lời đó là "trung thực" (tích cực), nhưng có những leader không thích sự trung thực đó, vì họ không quen và không thích bị cấp dưới từ chối. Đối với họ thì "không biết" là 1 dạng từ chối trả lời.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- DOING  Export my saved messages from Telegram.
@@ -2459,13 +2470,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- the container at the same level of `2025 Mind Chips` to receive new notes is `Current notes`
 					- This page should be renamed to `Mind Chips` to reflect its nature and be tool-neutral: including chips from Telegram, Facebook, etc.
 					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
-				- **Sự thật mất lòng**
-				  Không chỉ nói lên sự thật về người nghe làm mất lòng người nghe, mà cả nói thật về bản thân mình (người nói) cũng có thể làm người nghe mất lòng.
-				- Những trải nghiệm của tui, chia theo cấp độ từ dễ đến khó hiểu thì chắc như sau:
-					- 1. Mình nói cái xấu của mình, nhưng tương tự với cái xấu của người ta, người ta "nhột", nên mất lòng.
-					- 2. Mình nói cái riêng của mình chẳng giống gì người ta nhưng phản lại kỳ vọng của người ta, như "tôi nói dối", "tôi không tốt như vẻ ngoài đâu", cũng làm người ta mất lòng.
-					- 3. Khi được hỏi mà mình ta lời "không biết" cũng làm người nghe mất lòng. Đây là trường hợp đặc biệt của số 2, vì người hỏi kỳ vọng phải nhận được câu trả lời.
-					- 3*. Trường hợp extreme của số 3 là khi đi phỏng vấn, người phỏng vấn hỏi mà ứng cử viên trả lời "không biết" cũng bị gọi là "láo!" 😜 Người khác coi câu trả lời đó là "trung thực" (tích cực), nhưng có những leader không thích sự trung thực đó, vì họ không quen và không thích bị cấp dưới từ chối. Đối với họ thì "không biết" là 1 dạng từ chối trả lời.
 			- 6th June,
 				- In the office, i experience the sensitivity of my body to mental state & work again:
 					- in meditation, everything is OK, body is warm, no irritation;
