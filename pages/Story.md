@@ -2484,7 +2484,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Diary: daily notes
 						- Logs: technical notes
 						- [[Mind Jungle]]: the interlinked knowledge graph
-						- [[Mind Chips]]: just like [braindumps](((6842c6da-2d31-4cbf-a3e0-9d4be0c65a83))), mind chips are pieces of my mind chipped out throughout the daily life, but scattered instead of collected into the well designed dump site
+						- [[Mind Chips]]: pieces of my mind chipped out throughout the daily life, but scattered instead of collected into the well designed dump site like [braindumps](((6842c6da-2d31-4cbf-a3e0-9d4be0c65a83)))
 					- At teen age, i wrote diary, then shift to journal, and now the journal has been separated into all of these various [types of notes](((6842c6a8-d3c3-4bd4-aed1-13defa48490c))) 😁
 					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
 			- 6th, ...
