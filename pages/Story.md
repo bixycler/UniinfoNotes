@@ -2449,11 +2449,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  collapsed:: true
 						- ```sh
 						  git pull
-						  queue=GitJournal/queue.md
+						  queue='GitJournal/queue.md'
 						  stack='../UniinfoNotes/pages/Mind Chips.md'
-						  (tail -n +6 $queue; cat $stack) > stack
-						  mv stack $stack
-						  sed -i '6,$d' $queue
+						  (tail -n +6 "$queue"; cat "$stack") > stack
+						  mv stack "$stack"
+						  sed -i '6,$d' "$queue"
 						  git commit -am 'Flushed GitJournal/queue.md'
 						  git push
 						  ```
@@ -2471,6 +2471,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- About page [[Mind Chips]]:
 				  collapsed:: true
 					- This page, previously named `GitJournal`, should be renamed to `Mind Chips` to reflect its nature and be tool-neutral: including chips from Telegram, Facebook, etc.
+					-
 					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
 			- 6th, ...
 				- In the office, i experience the sensitivity of my body to mental state & work again:
