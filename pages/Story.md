@@ -2280,12 +2280,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- We captured some [beautiful images](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/) in the forest of Phước Bửu - Bình Châu Nature Reserve, esp. the legendary k'nia tree.
 				- The crown of [k'nia](https://vi.wikipedia.org/wiki/K%C6%A1_nia) ([wild almond](https://en.wikipedia.org/wiki/Irvingia_malayana))
 				  ![photo_7_2025-06-05_18-34-55.jpg](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/photo_7_2025-06-05_18-34-55.jpg)
-		- **The truth hurts!**, shared in a chat box
+		- **The truth hurts!**, shared in a chat box.
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-06-06 Fri 16:00:18]
 		  :END:
-		  **Sự thật mất lòng**
+			- *The bitter truth hurts, but it heals like bitter medicine!*
+			  *Thuốc đắng dã tật, sự thật mất lòng!*
 			- Không chỉ nói lên sự thật về người nghe làm mất lòng người nghe, mà cả nói thật về bản thân mình (người nói) cũng có thể làm người nghe mất lòng.
 			- Những trải nghiệm của tui, chia theo cấp độ từ dễ đến khó hiểu thì chắc như sau:
 				- 1. Mình nói cái xấu của mình, nhưng tương tự với cái xấu của người ta, người ta "nhột", nên mất lòng.
@@ -2306,7 +2307,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  sed '/<div class="from_name">/{N;N;N;d}' messages.html |
 				  sed '/<div class="media_wrap/{N;d}' > messages.norm.html
 				  ```
-				- TODO Next, convert `<a class="photo_wrap` ...
+				- CANCELLED Next, convert `<a class="photo_wrap` ...
+					- Oh, this is so messy to be dealed with `sed`! 😕
 				- Last, convert `<div class="body">` to `<li>`
 				  ```sh
 				  sed -n '/<div class="pull_right date details"/'\
@@ -2462,15 +2464,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png)
 			- 5th June, off from office the whole morning for sleeping in to recover.
 				- From last night when i shifted my internal state in order to have a bath, the illness status has shifted from inflamation (sore) to snot & phlegm (less sore).
+				- page [[Mind Chips]]:
+				  collapsed:: true
+					- This page, previously named `GitJournal`, should be renamed to `Mind Chips` to reflect its nature and be tool-neutral: including chips from Telegram, Facebook, etc.
+					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
 			- 2025-06-05
 				- convert Telegram messages.html:
 					- just write a js to handle DOM tree, instead of messing with `sed`
 					- merge all notes in a day into 1 block: image & text are treated equally as separate items
-				- page [[Mind Chips]]:
-					- group unprocessed notes into the unfolded block `2025 Mind Chips` before being flushed to history in the next year.
-					- the container at the same level of `2025 Mind Chips` to receive new notes is `Current notes`
-					- This page should be renamed to `Mind Chips` to reflect its nature and be tool-neutral: including chips from Telegram, Facebook, etc.
-					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
 			- 6th June,
 				- In the office, i experience the sensitivity of my body to mental state & work again:
 					- in meditation, everything is OK, body is warm, no irritation;

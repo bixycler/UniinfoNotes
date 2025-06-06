@@ -1,4 +1,5 @@
-## 2025 Mind Chips
+## Current Chips
+- ## 2025 Mind Chips
 	- 2025-06-01
 	  id:: 6841400e-d2c5-47ab-a838-7418a53a5b34
 	  collapsed:: true
