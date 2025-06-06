@@ -2393,11 +2393,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Vicāra = tứ = "bám theo, rình rập, dò xét" = "investigate what has been focused on by vitakka." Đây là quá trình chính để duy trì sự tập trung, đó là phải liên tục bám theo đối tượng. Như trong định niệm hơi thở là phải quán hơi thở xem nó vào ra thế nào, còn người đời khi "định niệm gái" thì phải liên tục theo dõi, rình rập, bám theo từng bước chân của gái 😂!
 				- "Tầm" = "tìm" thì quá quen rồi, như "ngưu tầm ngưu mã tầm mã" và "sưu tầm". Còn chữ "tứ" = "rình, bám" thì không có dùng trong tiếng Việt. Nên tui nghĩ dịch ra thuần Việt là "tìm & bám" thì dễ hiểu hơn "tầm & tứ" trong Hán-Việt.
 				- Còn tiếng Anh thì tui dịch là "find & fix": "After finding her out, he fixed on her the whole time." (Sau khi tìm ra cô, anh ta đã theo dõi cô suốt thời gian đó.)
-			- 2nd June, these days i translate the terms of ((667bef22-b272-4a7d-b613-3f1ed1a47329)) back to my mother tongue, Vietnamese, but see a little difficulty in translating the term “effect flow” itself. So, let's start from its components first: cause = tác nhân, action = tác động, effect = tác dụng, then.... wow.... the whole flow should be "**tác lưu**"! 😍
+			- June 2nd, these days i translate the terms of ((667bef22-b272-4a7d-b613-3f1ed1a47329)) back to my mother tongue, Vietnamese, but see a little difficulty in translating the term “effect flow” itself. So, let's start from its components first: cause = tác nhân, action = tác động, effect = tác dụng, then.... wow.... the whole flow should be "**tác lưu**"! 😍
 			  id:: 6839221f-0a4a-43a3-b7fc-1490e356b9de
 				- So, now we have ((683ed4a3-68c7-41a4-aecf-b21561f207df)) (**Mạch tác lưu** dệt nên vạn vật.)
 				- “Mạch tác lưu” (zh. 作流脈) is the nice combination of both static (thread) and dynamic (flow) aspects.
-			- 2nd June, due to the ban of Telegram by Vietnamese government, i was caught up in a stray thread of ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
+			- June 2nd, due to the ban of Telegram by Vietnamese government, i was caught up in a stray thread of ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
 				- Returning home, the whole night, i was caught up with testing different chatbots for 2 features: reading webpages via URL, and understanding my Mind Jungle.
 				  collapsed:: true
 					- Can read URLs: Notebook LM, Claude; Can read simple pages but not the [online Mind Jungle](https://raw.githubusercontent.com/bixycler/UniinfoNotes/refs/heads/log/pages/Mind%20Jungle.md): Gemini, ChatGPT
@@ -2415,7 +2415,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Claude just read and said nothing. Being asked about the contents, it just spat out “the prompt is too long!"
 						- Notebook LM understands the online Mind Jungle well. But it discards chat history after refresh.
 						- ChatGPT understands the (uploaded) Mind Jungle even better than Notebook LM! !😊 But it's a tight limit of 10 messages/5h.
-			- 3rd June, from last night, my nose & throat have been a little sore.
+			- June 3rd, from last night, my nose & throat have been a little sore.
 				- Caught up with the completion of [mạch tác lưu](((6839221f-0a4a-43a3-b7fc-1490e356b9de))).
 				- How to take quick notes at home (on Android mobile)?
 				  collapsed:: true
@@ -2426,7 +2426,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Google Docs: [cannot reduce](https://support.google.com/docs/thread/3750758/how-do-i-change-the-default-indentation-on-list-items) default indentation spaces of list items.
 					- [Simplenote](https://simplenote.com/) looks good with Markdown syntax and real time sync! 😊
 					- But [GitJournal](https://gitjournal.io/) is better with consistent Markdown rendering, better GUI, and esp. Git support for source management & image uploading.
-			- 4th June, sleepless (last) night due to deadline stress and conflict with personal tasks.
+			- 4th, sleepless (last) night due to deadline stress and conflict with personal tasks.
 			  collapsed:: true
 				- 06:00 am: Last night i couldn't sleep due to the illness of both body and mind: the nose was stuffy and mildly sore, the mind ran **endless stream of thoughts** about ongoing personal works.
 					- Lying for more than an hour unable to sleep, i sat up to meditate and calm these thoughts down.
@@ -2466,13 +2466,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ![Grok-glitch.png](../assets/Will/story/2025-06/Grok-glitch.png)
 						- `img/9578cb1c92c865619736101ad4bd5364.png` -> 
 						  ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png)
-			- 5th June, off from office the whole morning for sleeping in to recover.
+			- 5th, off from office the whole morning for sleeping in to recover.
 				- From last night when i shifted my internal state in order to have a bath, the illness status has shifted from inflamation (sore) to snot & phlegm (less sore).
 				- About page [[Mind Chips]]:
 				  collapsed:: true
 					- This page, previously named `GitJournal`, should be renamed to `Mind Chips` to reflect its nature and be tool-neutral: including chips from Telegram, Facebook, etc.
 					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
-			- 6th June, ...
+			- 6th, ...
 				- In the office, i experience the sensitivity of my body to mental state & work again:
 					- in meditation, everything is OK, body is warm, no irritation;
 					- just reaching out to work for a while, limbs are cold, then body is cold, nose & throat are irritated leading nose running and coughing.
