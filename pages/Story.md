@@ -2472,7 +2472,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- This page, previously named `GitJournal`, should be renamed to `Mind Chips` to reflect its nature and be tool-neutral: including chips from Telegram, Facebook, etc.
 					- `Mind Chips` should not be confused with the [brain chips](https://en.wikipedia.org/wiki/Brain_implant) or the magic trick [Mental Chips](https://www.martinsmagic.com/allmagic/mentalism/mind-chips-by-mikame-craft/) by created by Tony Lackner and Eckhard Boettcher in [Bank Night Gone Wrong](https://www.martinsmagic.com/allmagic/close-up/bank-night-gone-wrong-deluxe-by-tony-lackner-eckhard-boettcher/) (whose a copy version is [Mind Chips](https://youtu.be/etVuYdB7K9g) by Mikame Craft).
-					- Here's the
+					- Here's the position of Mind Chips within other types of notes:
+					  id:: 6842c6a8-d3c3-4bd4-aed1-13defa48490c
+						- Notes: the most general term here
+						- [[Brainstorm]]s: brainstorming notes from ideas
+						- [[Braindump]]s: spontaneous notes dumped out on the go
+						  id:: 6842c6da-2d31-4cbf-a3e0-9d4be0c65a83
+						- [Stories]([[Story]]): notes about chains of events
+						- [[Task]]s: to-do notes
+						- Journal: records of ideas, thoughts and events
+						- Diary: daily notes
+						- Logs: technical notes
+						- [[Mind Jungle]]: the interlinked knowledge graph
+						- [[Mind Chips]]: just like [braindumps](((6842c6da-2d31-4cbf-a3e0-9d4be0c65a83))), mind chips are pieces of my mind chipped out throughout the daily life, but scattered instead of collected into the well designed dump site
+					- At teen age, i wrote diary, then shift to journal, and now the journal has been separated into all of these various [types of notes](((6842c6a8-d3c3-4bd4-aed1-13defa48490c))) 😁
 					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
 			- 6th, ...
 				- In the office, i experience the sensitivity of my body to mental state & work again:
