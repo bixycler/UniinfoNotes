@@ -2494,6 +2494,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- in meditation, everything is OK, body is warm, no irritation;
 					- just reaching out to work for a while, limbs are cold, then body is cold, nose & throat are irritated leading nose running and coughing.
 					- So, i must frequently return to meditation, much shorter than the 30min period of the ((67cff615-ec0d-4831-9851-59410cb89cf1)), hence “nanoreset”.
+				- [LLM Knowldge Graph Builder](https://github.com/neo4j-labs/llm-graph-builder) is great for my more control over the process than the ((684176d5-ba02-4cf5-ba62-606cc461d2d8))
+					- [Neo4j web app](https://llm-graph-builder.neo4jlabs.com/)
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
