@@ -120,7 +120,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- TODO Copy [Chuyện Búi Chỉ](https://creatzyitnotes.blogspot.com/2009/11/chuyen-bui-chi.html) to  [CreatZy Notes](https://creatzynotes.blogspot.com/)
 		  id:: 67b989a4-a041-4511-abe5-77c785ca2d67
-		- TODO Lấy máu & nước tiểu: 8:00 - 10:00 sáng Thứ Sáu 06/06/2025
+		- CANCELLED Lấy máu & nước tiểu: 8:00 - 10:00 sáng Thứ Sáu 06/06/2025
 		  SCHEDULED: <2025-06-06 Fri>
 		  :LOGBOOK:
 		  
