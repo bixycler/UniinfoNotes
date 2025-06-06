@@ -2471,7 +2471,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- About page [[Mind Chips]]:
 				  collapsed:: true
 					- This page, previously named `GitJournal`, should be renamed to `Mind Chips` to reflect its nature and be tool-neutral: including chips from Telegram, Facebook, etc.
-					- `Mind Chips` should not be confused with the [brain chips](https://en.wikipedia.org/wiki/Brain_implant) or the [Mental Chips]() by created by Tony Lackner and Eckhard Boettcher in [Bank Night Gone Wrong](https://www.martinsmagic.com/allmagic/close-up/bank-night-gone-wrong-deluxe-by-tony-lackner-eckhard-boettcher/) (whose a copy version is [Mind Chips] by Mikame Craft).
+					- `Mind Chips` should not be confused with the [brain chips](https://en.wikipedia.org/wiki/Brain_implant) or the magic trick [Mental Chips](https://www.martinsmagic.com/allmagic/mentalism/mind-chips-by-mikame-craft/) by created by Tony Lackner and Eckhard Boettcher in [Bank Night Gone Wrong](https://www.martinsmagic.com/allmagic/close-up/bank-night-gone-wrong-deluxe-by-tony-lackner-eckhard-boettcher/) (whose a copy version is [Mind Chips](https://youtu.be/etVuYdB7K9g) by Mikame Craft).
 					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
 			- 6th, ...
 				- In the office, i experience the sensitivity of my body to mental state & work again:
