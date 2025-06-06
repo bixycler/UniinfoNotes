@@ -2301,29 +2301,33 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-06-02 Mon 16:35:17]
 		  :END:
-			- Convert `messages.html` to `list.html` with `sed`
-				- First, remove all `<div class="from_name">` & `<div class="media_wrap clearfix">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
-				  ```sh
-				  sed '/<div class="from_name">/{N;N;N;d}' messages.html |
-				  sed '/<div class="media_wrap/{N;d}' > messages.norm.html
-				  ```
-				- CANCELLED Next, convert `<a class="photo_wrap` ...
-					- Oh, this is so messy to be dealed with `sed`! 😕
-				- Last, convert `<div class="body">` to `<li>`
-				  ```sh
-				  sed -n '/<div class="pull_right date details"/'\
-				  '{x;n;n;n;n;x;N;s#\s*<div class="pull_right date details" title="\([^"]*\)">\n\([^$]*\)'\
-				  '#<li>[\1]\n    <ul><li>\2\n    <\/li><\/ul>\n<\/li>#p}'\
-				    messages.norm.html > list.html
-				  ```
-					- `/<div class="pull_right date details"/`: Matches the timestamp `<div>`.
-					- `x`: Swaps the pattern space with the hold space to preserve the match.
-					- `n;n;n;n;n;n;n;n`: Skips 8 lines until `<div class="text">`, including that `<div>` line.
-					- `x`: Swaps the timestamp `<div>` back to the pattern space.
-					- `N`: Appends the content line of `<div class="text">` to the pattern space.
-					- `s#...#...#p`: Captures the timestamp (`\1`) and main text (`\2`), substitute (`s`) the text in pattern space with with the target `<li>` structure, then print (`p`) the pattern space.
-						- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
-					- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
+			- Convert `messages.html` to `list.html` ~~with `sed`~~ with javascript
+				- merge all notes in a day into 1 block: image & text are treated equally as separate items
+				-
+				- Attempt with `sed`
+				  collapsed:: true
+					- First, remove all `<div class="from_name">` & `<div class="media_wrap clearfix">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
+					  ```sh
+					  sed '/<div class="from_name">/{N;N;N;d}' messages.html |
+					  sed '/<div class="media_wrap/{N;d}' > messages.norm.html
+					  ```
+					- CANCELLED Next, convert `<a class="photo_wrap` ...
+						- Oh, this is so messy to be dealed with `sed`! 😕
+					- Last, convert `<div class="body">` to `<li>`
+					  ```sh
+					  sed -n '/<div class="pull_right date details"/'\
+					  '{x;n;n;n;n;x;N;s#\s*<div class="pull_right date details" title="\([^"]*\)">\n\([^$]*\)'\
+					  '#<li>[\1]\n    <ul><li>\2\n    <\/li><\/ul>\n<\/li>#p}'\
+					    messages.norm.html > list.html
+					  ```
+						- `/<div class="pull_right date details"/`: Matches the timestamp `<div>`.
+						- `x`: Swaps the pattern space with the hold space to preserve the match.
+						- `n;n;n;n;n;n;n;n`: Skips 8 lines until `<div class="text">`, including that `<div>` line.
+						- `x`: Swaps the timestamp `<div>` back to the pattern space.
+						- `N`: Appends the content line of `<div class="text">` to the pattern space.
+						- `s#...#...#p`: Captures the timestamp (`\1`) and main text (`\2`), substitute (`s`) the text in pattern space with with the target `<li>` structure, then print (`p`) the pattern space.
+							- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
+						- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
@@ -2464,18 +2468,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png)
 			- 5th June, off from office the whole morning for sleeping in to recover.
 				- From last night when i shifted my internal state in order to have a bath, the illness status has shifted from inflamation (sore) to snot & phlegm (less sore).
-				- page [[Mind Chips]]:
+				- About page [[Mind Chips]]:
 				  collapsed:: true
 					- This page, previously named `GitJournal`, should be renamed to `Mind Chips` to reflect its nature and be tool-neutral: including chips from Telegram, Facebook, etc.
 					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
-			- 2025-06-05
-				- convert Telegram messages.html:
-					- just write a js to handle DOM tree, instead of messing with `sed`
-					- merge all notes in a day into 1 block: image & text are treated equally as separate items
-			- 6th June,
+			- 6th June, ...
 				- In the office, i experience the sensitivity of my body to mental state & work again:
 					- in meditation, everything is OK, body is warm, no irritation;
 					- just reaching out to work for a while, limbs are cold, then body is cold, nose & throat are irritated leading nose running and coughing.
+					- So, i must frequently return to meditation, much shorter than the 30min period of the ((67cff615-ec0d-4831-9851-59410cb89cf1)), hence “nanoreset”.
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
