@@ -2451,7 +2451,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 5th June, off from office the whole morning for sleeping in to recover.
 				- From last night when i shifted my internal state in order to have a bath, the illness status has shifted from inflamation (sore) to snot & phlegm (less sore).
 			- 6th June,
-				- In the office, i experience the sensitivity of my body to mental state & work again: in meditation
+				- In the office, i experience the sensitivity of my body to mental state & work again:
+					- in meditation, everything is OK, body is warm, no irritation;
+					- just reaching out to work for a while, limbs are cold, then body is cold, nose & throat are irritated leading nose running and coughing.
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
