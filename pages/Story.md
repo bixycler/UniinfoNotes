@@ -2421,18 +2421,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- CANCELLED Considering of merging GitJournal & Logseq to the same repo UniinfoNotes.
 					- There's an issue with file handling in GitJournal: somehow the deleted/renamed ones die hard!?
 					- The "external repo" setting doesn't work: fetch fails!
-				- 21:48 pm: The transfer between GitJournal and Logseq will be done through this single "queue". All contents in this queue will be flushed to UniinfoNotes' page [[GitJournal]] in each sync.
+				- 21:48 pm: The transfer between GitJournal and Logseq will be done through this single "queue". All contents in this queue will be flushed to UniinfoNotes' page [[Mind Chips]] in each sync.
 				  id:: 6841400e-7bac-403e-b34a-690073c3251e
 					- The last block will be enqueued to the top.
 					- This queue transfer only changes file content, thus avoid the file management issue of GitJournal.
-					- After being flushed to `UniinfoNotes`/`GitJournal.md`, they can stay there as long as possible before being processed into other contents.
-					- Piling up in `GitJournal.md`, usually with things difficult to be processed like the notes in ((6841400e-d2c5-47ab-a838-7418a53a5b34)), they can be flushed to history versions like `2025 GitJournal.md`.
+					- After being flushed to `UniinfoNotes`/pages/`Mind Chips.md`, they can stay there as long as possible before being processed into other contents.
+					- Piling up in `Mind Chips.md`, usually with things difficult to be processed like the notes in ((6841400e-d2c5-47ab-a838-7418a53a5b34)), they can be flushed to history versions like `2025 Mind Chips.md`.
 					- `flushGitJournal.sh`
 					  collapsed:: true
 						- ```sh
 						  git pull
 						  queue=GitJournal/queue.md
-						  stack=../UniinfoNotes/pages/GitJournal.md
+						  stack='../UniinfoNotes/pages/Mind Chips.md'
 						  (tail -n +6 $queue; cat $stack) > stack
 						  mv stack $stack
 						  sed -i '6,$d' $queue
@@ -2449,6 +2449,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `img/9578cb1c92c865619736101ad4bd5364.png` -> 
 						  ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png)
 			- 5th June,
+			- 6th June,
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
