@@ -2,9 +2,9 @@
 	- convert Telegram messages.html:
 		- just write a js to handle DOM tree, instead of messing with `sed`
 		- merge all notes in a day into 1 block: image & text are treated equally as separate items
-	- page [[GitJournal]]:
-		- group unprocessed notes into the unfolded block `2025 GitJournal` before being flushed to history in the next year.
-		- the container at the same level of `2025 GitJournal` to receive new notes is `Current notes`
+	- page [[Mind Chips]]:
+		- group unprocessed notes into the unfolded block `2025 Mind Chips` before being flushed to history in the next year.
+		- the container at the same level of `2025 Mind Chips` to receive new notes is `Current notes`
 		- This page should be renamed to `Mind Chips` to reflect its nature and be tool-neutral: including chips from Telegram, Facebook, etc.
 		- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
 	- **Sự thật mất lòng**

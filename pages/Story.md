@@ -2401,7 +2401,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Caught up with the completion of [mạch tác lưu](((6839221f-0a4a-43a3-b7fc-1490e356b9de))).
 				- How to take quick notes at home (on Android mobile)?
 				  collapsed:: true
-				  ⇒ [Pipeline](((6841400e-7bac-403e-b34a-690073c3251e))) via [[GitJournal]]
+				  ⇒ [Pipeline](((6841400e-7bac-403e-b34a-690073c3251e))) via GitJournal
 					- Previously i used Telegram.
 					- fb Messeger: no: it has litmited time for message modification.
 					- Google Keep: has no sync methods (only one-time upload to GDrive).
