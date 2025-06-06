@@ -2448,7 +2448,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ![Grok-glitch.png](../assets/Will/story/2025-06/Grok-glitch.png)
 						- `img/9578cb1c92c865619736101ad4bd5364.png` -> 
 						  ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png)
-			- 5th June,
+			- 5th June, off from office the whole morning for sleeping in to recover.
 			- 6th June,
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
