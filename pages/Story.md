@@ -2404,6 +2404,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- (Grok, Copilot) can only read their associated sites (X, GitHub)
 						- DeepSeek cannot read any URL
 					- Only Notebook LM & ChatGPT can understand the Mind Jungle!
+					  id:: 684176d5-ba02-4cf5-ba62-606cc461d2d8
+						- This ability of these 2 chatbots are
 						- Copilot refuses straight away “it's too large!"
 						- Gemini can understand nothing but a pure hallucination!
 						- Grok doesn't allow uploading plain text files in mobile apps. With the uploaded Mind Jungle in the web app, it could not deal with the huge size and just crashed!

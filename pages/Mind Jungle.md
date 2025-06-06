@@ -147,7 +147,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
-		  Most of them are ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s
+		  Most of them now are ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Chatbot
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((684176d5-ba02-4cf5-ba62-606cc461d2d8))
 			- [Grok](https://grok.com/)
 			  :LOGBOOK:
 			  CLOCK: [2025-04-18 Fri 10:32:07]
