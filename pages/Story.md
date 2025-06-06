@@ -2281,6 +2281,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The crown of [k'nia](https://vi.wikipedia.org/wiki/K%C6%A1_nia) ([wild almond](https://en.wikipedia.org/wiki/Irvingia_malayana))
 				  ![photo_7_2025-06-05_18-34-55.jpg](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/photo_7_2025-06-05_18-34-55.jpg)
 		- **The truth hurts!**, shared in a chat box
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-06-06 Fri 16:00:18]
 		  :END:
