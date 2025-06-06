@@ -107,6 +107,12 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 				  id:: 67850c24-b1c9-425a-abc2-af81243befb2
 				  collapsed:: true
 					- {{deadline-warning ((67850fb1-04a9-427f-bc0d-f61913d86e4b)), 67850c3d-a026-43a0-8fb8-1febf398bd65, 67850fd2-272d-48fa-9d7c-c649619b5a89, 67850fe1-3e22-430e-9af9-a84853766dd7}}
+		- CANCELLED Lấy máu & nước tiểu: 8:00 - 10:00 sáng Thứ Sáu 06/06/2025
+		  SCHEDULED: <2025-06-06 Fri>
+		  :LOGBOOK:
+		  
+		  :END:
+			- Sáng dậy trễ, tới nơi 10:03 thì họ đã về hết, nên [hôm đi khám](((6835b167-a703-47d7-a540-3fa9c9fd3afe))) lấy máu luôn.
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
 		- ((682c1735-31c3-4024-8d8a-20d8434db966))
@@ -120,12 +126,8 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- TODO Copy [Chuyện Búi Chỉ](https://creatzyitnotes.blogspot.com/2009/11/chuyen-bui-chi.html) to  [CreatZy Notes](https://creatzynotes.blogspot.com/)
 		  id:: 67b989a4-a041-4511-abe5-77c785ca2d67
-		- CANCELLED Lấy máu & nước tiểu: 8:00 - 10:00 sáng Thứ Sáu 06/06/2025
-		  SCHEDULED: <2025-06-06 Fri>
-		  :LOGBOOK:
-		  
-		  :END:
 		- TODO Khám SK: 12:30 đến 15:30 chiều Thứ Bảy 21/06/2025
+		  id:: 6835b167-a703-47d7-a540-3fa9c9fd3afe
 		    [DYM Medical Center](https://maps.app.goo.gl/p3GoSqsACfK4ApBD9): Phòng B103, M plaza, 39 Lê Duẩn, phường Bến Nghé, Quận 1
 		  SCHEDULED: <2025-06-21 Sat 12:30>
 		- ...
