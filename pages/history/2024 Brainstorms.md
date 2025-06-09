@@ -175,7 +175,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  CLOCK: [2024-12-09 Mon 17:51:48]--[2024-12-09 Mon 18:11:01] =>  00:19:13
 	  :END:
 		- Expressions of the boundary:
-			- [Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential anaysis
+			- [Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential analysis
 			  id:: 6835b168-defe-49ff-8029-5b6afe346fbf
 			- Digit overflow/waterfall/cascade ([domino effect](https://en.wikipedia.org/wiki/Domino_effect)) in positional numerals
 				- Limit numbers in [ordinal numbers](https://en.wikipedia.org/wiki/Limit_ordinal) and [p-adic numbers](https://en.wikipedia.org/wiki/P-adic_number)
