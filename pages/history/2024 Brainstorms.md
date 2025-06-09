@@ -222,6 +222,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- Elliptic BVPs describe equilibrium states with time-independent PDEs, e.g. Laplace’s or Poisson’s equation for electrostatics: $∇^2 u = f$.
 				- Parabolic BVPs model diffusion-like processes, where solutions smooth out over time, with a first-order time derivative PDEs, e.g. heat equation: $∂_t​ u = κ∇^2 u$.
 				- Hyperbolic BVPs model vibrations & wave propagation with second-order time and spatial derivative PDEs, e.g. wave equation: $∂_t^2 ​u = c^2 ∇^2 u$.
+				- Note: The Schrödinger equation encompasses all the three.
+					- The time-independent version is elliptic
+					- The time-dependent version is parabolic: the free particle in  (V(x)=0V(x) = 0V(x)=0), including dispersion (spreading of the wave function over time)
 		- The initials (axioms, postulates) of a theory and its terminals (paradoxes, limitations) are parts of the boundary of that theory.
 	- Usages of `⋇`
 	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
