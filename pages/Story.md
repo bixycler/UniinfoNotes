@@ -2499,7 +2499,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [LLM Knowldge Graph Builder](https://github.com/neo4j-labs/llm-graph-builder) is great for my more control over the process than the ((684176d5-ba02-4cf5-ba62-606cc461d2d8))
 					- [Neo4j web app](https://llm-graph-builder.neo4jlabs.com/) provides a nice prebuilt app, but limits to only 10Kb/file, hence useless for my 1Mb Mind Jungle.
 			- 8th, looking for an example of the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos) to show a friend in a chat, i found ((68469e67-4c54-4c89-9f3c-409af642769d)).
-			- 9th,
+			- 9th, from the weekends to today, i'm praticing ((68367257-9043-4fd5-8586-2c193d56f077))
+			  :LOGBOOK:
+			  CLOCK: [2025-06-09 Mon 18:36:03]
+			  :END:
+				- The illness at nose & throat has been nearly gone.
+				- Observing the internal effect flow, i see the springy doll
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
