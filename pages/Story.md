@@ -2505,22 +2505,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-06-09 Mon 18:36:03]
 			  :END:
 				- The illness at nose & throat has been nearly gone.
-				- Observing the internal effect flow, i see the [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = n orders of derivatives = action cone = effect flow from intent to extent
-				- The spring doll is what i saw as a model of my mind on work: the consciousness is just the head mounted on a very long spring of programs which connects to the root of bodymind.
-				  id:: 6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00
-					- The famous spring smiley heads are a good example for this model, and were used in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398) to mark the first time i saw the model around the end of 2023.
-					  ![spring-head-grin-tears.jpg](../assets/Will/story/2025-06/spring-head-grin-tears.jpg){:width 30}
-					- These bouncy spring dolls not only model my mind on work, but also the general minds of laymen in life.
-				- multi-disk rotary system
-				  id:: 6846d92b-cc0c-4db5-8b1d-766ec5a0d823
-					- The [positional numeral systems](https://en.wikipedia.org/wiki/Positional_notation) are an example of multi-disk rotary systems.
-					- multi-disk rotary devices: [odometer](https://en.wikipedia.org/wiki/Odometer), [mechanical counter](https://en.wikipedia.org/wiki/Mechanical_counter), [conbination lock](https://en.wikipedia.org/wiki/Combination_lock), [cryptex](https://en.wikipedia.org/wiki/Cryptex), [Jefferson's disk cipher](https://en.wikipedia.org/wiki/Jefferson_disk)
-					  collapsed:: true
-						- ![odometer.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/odometer.jpg)
-						- ![MechanicalCounter.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/MechanicalCounter.jpg)
-						- ![number-combination-bike-lock.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/number-combination-bike-lock.jpg)
-						- ![Cryptex-ILoveU.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Cryptex-ILoveU.jpg)
-						- ![Jefferson_disk_cipher.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Jefferson_disk_cipher.jpg)
+				- Observing the internal effect flow, i see ((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
