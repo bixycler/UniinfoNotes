@@ -123,15 +123,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- write discussion: ((673312a3-e94e-478f-9e21-bad72ef29d1b))
 					- But that task was interrupted and abandoned. Later on, these documents have been slowly updated and some are still stubs until now, 2025/05/16.
 				- In May 2025, while contemplating ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c)), i see [a solution](((681b4678-686a-4d99-9163-6f60e0b30d2c))) to my issue of perfectionism is to sublimate the holistic core to restore the hurricane's eye = empty center = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = Nibbāna
-		-
-		- DOING [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = n orders of derivatives = action cone = effect flow from intent to extent
+		- ↓ to be flushed **down**! ↓
+	- ## 2025 Brainstorms
+	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = n orders of derivatives = action cone = effect flow from intent to extent
 		  id:: 6846c7e1-239c-4b39-9ef4-9d2eaba17a52
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-06-09 Mon 20:24:24]
+		  CLOCK: [2025-06-09 Mon 20:24:24]--[2025-06-09 Mon 20:39:47] =>  00:15:23
 		  :END:
 			- In a one-way effect flow, the head of the spring doll = the tip of the articulated arm draws the extent with its locus which is orthogonal to the effect flow.
-			- The circular effect flow
+				- Diagram [In/extention via in/extension](https://docs.google.com/drawings/d/1ZOyFUk0DRnqigaWYMSB05iWCgkWTfLoreWGBssKflxE/)
+				  collapsed:: true
+					- ![In/extention via in/extension](https://docs.google.com/drawings/d/e/2PACX-1vT-ns6ehT5HLQ5oPuSkVxSKO3uUCpDnmD6q9xbdfXQEGpKIftc717xHVV0x9IlczRL8ZHZNszbzwej_/pub?w=960&h=720)
+			- In a circular effect flow, the locus coincides with the flow itself!
+			  id:: 6846e19d-1af1-413a-b225-c9d48b4dd308
 			- The spring doll is what i saw as a model of my mind on work: the consciousness is just the head mounted on a very long spring of programs which connects to the root of bodymind.
 			  id:: 6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00
 			  collapsed:: true
@@ -142,6 +148,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  id:: 6846d92b-cc0c-4db5-8b1d-766ec5a0d823
 			  collapsed:: true
 				- The [positional numeral systems](https://en.wikipedia.org/wiki/Positional_notation) are an example of multi-disk rotary systems.
+				- Geogebra applet [Odometer](https://www.geogebra.org/m/gykcrsfb)
 				- multi-disk rotary devices: [odometer](https://en.wikipedia.org/wiki/Odometer), [mechanical counter](https://en.wikipedia.org/wiki/Mechanical_counter), [conbination lock](https://en.wikipedia.org/wiki/Combination_lock), [cryptex](https://en.wikipedia.org/wiki/Cryptex), [Jefferson's disk cipher](https://en.wikipedia.org/wiki/Jefferson_disk)
 				  collapsed:: true
 					- ![odometer.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/odometer.jpg)
@@ -149,9 +156,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ![number-combination-bike-lock.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/number-combination-bike-lock.jpg)
 					- ![Cryptex-ILoveU.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Cryptex-ILoveU.jpg)
 					- ![Jefferson_disk_cipher.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Jefferson_disk_cipher.jpg)
-		- ↓ to be flushed **down**! ↓
-	- ## 2025 Brainstorms
-	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
 		  collapsed:: true
 		  :LOGBOOK:
