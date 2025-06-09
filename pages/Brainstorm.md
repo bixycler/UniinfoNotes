@@ -17,6 +17,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- [differential form](https://en.wikipedia.org/wiki/Differential_form) captures the notion of **rotation** via [exterior product](https://en.wikipedia.org/wiki/Exterior_product) and extends it to $k$ dimensions with $k$-forms.
 			- [Hodge dual](https://en.wikipedia.org/wiki/Hodge_star_operator#Duality) captures the **orthogonal complements** real ⊥ imaginary
 			- Fundamental theorem of multivariate calculus: [Stokes–Cartan theorem](https://en.wikipedia.org/wiki/Generalized_Stokes_theorem)
+			  id:: 6835b162-293f-4b8c-8be2-2dbe83b741ce
 			  collapsed:: true
 				- $\int_{Ω}{dω} = \int_{∂Ω}{ω}$
 				- volume integral of sources within $Ω$ = boundary integral of flow on/through $∂Ω$
