@@ -8,9 +8,7 @@
 :root {
   --ls-main-content-max-width: 100%;
 
-  /*scrollbar-color: var(--ls-scrollbar-foreground-color,var(--lx-gray-05)) var(--ls-scrollbar-background-color,var(--lx-gray-02));*/
-  scrollbar-color: auto;
-
+  scrollbar-color: auto; /* use ::-webkit-scrollbar,html.custom-scrollbar */
   
   /* Task markers */
   --ct-marker-border-radius: 4px;
@@ -41,13 +39,13 @@ body {
 
 /* Scroll bar */
 .visible-scrollbar ::-webkit-scrollbar-thumb,html.custom-scrollbar ::-webkit-scrollbar-thumb {
-    background-color: var(--ls-scrollbar-foreground-color,var(--lx-gray-05));
+    background-color: var(--ls-scrollbar-foreground-color,var(--rx-gray-05));
 }
 .visible-scrollbar ::-webkit-scrollbar-thumb:active,html.custom-scrollbar ::-webkit-scrollbar-thumb:active {
-    background-color: var(--ls-scrollbar-thumb-hover-color,var(--lx-gray-06));
+    background-color: var(--ls-scrollbar-thumb-hover-color,var(--rx-gray-06));
 }
 .visible-scrollbar ::-webkit-scrollbar,html.custom-scrollbar ::-webkit-scrollbar {
-    background-color: var(--ls-scrollbar-background-color,var(--lx-gray-02));
+    background-color: var(--ls-scrollbar-background-color,var(--rx-gray-02));
 }
 
 
