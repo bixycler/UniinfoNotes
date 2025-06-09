@@ -8,8 +8,8 @@
 :root {
   --ls-main-content-max-width: 100%;
 
-  /*scrollbar-color: var(--ls-scrollbar-foreground-color,var(--rx-gray-05)) var(--ls-scrollbar-background-color,var(--rx-gray-02));*/
-  scrollbar-color: var(--lx-gray-05) var(--lx-gray-02);
+  /*scrollbar-color: var(--ls-scrollbar-foreground-color,var(--lx-gray-05)) var(--ls-scrollbar-background-color,var(--lx-gray-02));*/
+  scrollbar-color: var(--lx-gray-05) transparent;
   scrollbar-width: thin;
 
   
@@ -42,15 +42,13 @@ body {
 
 /* Scroll bar */
 .visible-scrollbar ::-webkit-scrollbar-thumb,html.custom-scrollbar ::-webkit-scrollbar-thumb {
-    background-color: var(--ls-scrollbar-foreground-color,var(--rx-gray-05));
+    background-color: var(--ls-scrollbar-foreground-color,var(--lx-gray-05));
 }
 .visible-scrollbar ::-webkit-scrollbar-thumb:active,html.custom-scrollbar ::-webkit-scrollbar-thumb:active {
-    background-color: var(--ls-scrollbar-thumb-hover-color,var(--rx-gray-06));
+    background-color: var(--ls-scrollbar-thumb-hover-color,var(--lx-gray-06));
 }
 .visible-scrollbar ::-webkit-scrollbar,html.custom-scrollbar ::-webkit-scrollbar {
-    background-color: var(--ls-scrollbar-background-color,var(--rx-gray-02));
-    height: 8px;
-    width: var(--ls-scrollbar-width,6px);
+    background-color: var(--ls-scrollbar-background-color,var(--lx-gray-02));
 }
 
 
@@ -314,8 +312,8 @@ html[data-color=blue] body {
   --ls-block-bullet-border-color: var(--rx-slate-06-alpha);
   --ls-block-bullet-closed-border-color: var(--rx-slate-09);
   
-  --ls-scrollbar-foreground-color: var(--rx-slate-07);
-  --ls-scrollbar-thumb-hover-color: var(--rx-slate-09);
+  --ls-scrollbar-foreground-color: var(--lx-gray-05);
+  --ls-scrollbar-thumb-hover-color: var(--lx-gray-06);
   
   /* Specials */
   
