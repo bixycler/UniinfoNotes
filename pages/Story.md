@@ -2505,7 +2505,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-06-09 Mon 18:36:03]
 			  :END:
 				- The illness at nose & throat has been nearly gone.
-				- Observing the internal effect flow, i see the [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = n-
+				- Observing the internal effect flow, i see the [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = n orders of derivatives = action cone = effect flow from intent to extent
 				- The spring doll is what i saw as a model of my mind on work: the consciousness is just the head mounted on a very long spring of programs which connects to the root of bodymind.
 				  id:: 6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00
 					- The famous spring smiley heads are a good example for this model, and were used in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398) to mark the first time i saw the model around the end of 2023.
