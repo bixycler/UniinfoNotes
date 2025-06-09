@@ -130,13 +130,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-06-09 Mon 20:24:24]
 		  :END:
+			- In a one-way effect flow, the head of the spring doll = the tip of the articulated arm draws the extent with its locus which is orthogonal to the effect flow.
+			- The circular effect flow
 			- The spring doll is what i saw as a model of my mind on work: the consciousness is just the head mounted on a very long spring of programs which connects to the root of bodymind.
 			  id:: 6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00
+			  collapsed:: true
 				- The famous spring smiley heads are a good example for this model, and were used in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398) to mark the first time i saw the model around the end of 2023.
 				  ![spring-head-grin-tears.jpg](../assets/Will/story/2025-06/spring-head-grin-tears.jpg){:width 30}
 				- These bouncy spring dolls not only model my mind on work, but also the general minds of laymen in life.
 			- multi-disk rotary system
 			  id:: 6846d92b-cc0c-4db5-8b1d-766ec5a0d823
+			  collapsed:: true
 				- The [positional numeral systems](https://en.wikipedia.org/wiki/Positional_notation) are an example of multi-disk rotary systems.
 				- multi-disk rotary devices: [odometer](https://en.wikipedia.org/wiki/Odometer), [mechanical counter](https://en.wikipedia.org/wiki/Mechanical_counter), [conbination lock](https://en.wikipedia.org/wiki/Combination_lock), [cryptex](https://en.wikipedia.org/wiki/Cryptex), [Jefferson's disk cipher](https://en.wikipedia.org/wiki/Jefferson_disk)
 				  collapsed:: true
