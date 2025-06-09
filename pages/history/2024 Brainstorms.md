@@ -180,6 +180,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		- [Edge case](https://en.wikipedia.org/wiki/Edge_case), including overflows ([integer OF](https://en.wikipedia.org/wiki/Integer_overflow), [buffer OF](https://en.wikipedia.org/wiki/Buffer_overflow), [Stack OF](https://en.wikipedia.org/wiki/Stack_overflow)), in software engineering
 		- [Edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos), [Bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory), [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
 		- [Phase transition point](https://en.wikipedia.org/wiki/Phase_transition) in physics and [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
+		- [Gibbs overshoots](https://en.wikipedia.org/wiki/Gibbs_phenomenon) around the [jump discontinuity](https://en.wikipedia.org/wiki/Jump_discontinuity) in
 		- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe.
 	- Usages of `⋇`
 	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
