@@ -2505,6 +2505,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- The illness at nose & throat has been nearly gone.
 				- Observing the internal effect flow, i see the springy doll
+				- The spring doll was what i saw in , as shown in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398).
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
