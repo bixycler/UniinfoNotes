@@ -8,7 +8,7 @@
 :root {
   --ls-main-content-max-width: 100%;
 
-  scrollbar-color: var(--ls-scrollbar-foreground-color,var(--lx-gray-05)) transparent;
+  scrollbar-color: var(--ls-scrollbar-foreground-color,var(--rx-gray-05)) var(--ls-scrollbar-background-color,var(--rx-gray-02));
   scrollbar-width: thin;
 
   
@@ -47,7 +47,7 @@ body {
     background-color: var(--ls-scrollbar-thumb-hover-color,var(--rx-gray-06));
 }
 .visible-scrollbar ::-webkit-scrollbar,html.custom-scrollbar ::-webkit-scrollbar {
-    background-color: transparent; /*var(--ls-scrollbar-background-color,var(--rx-gray-02));*/
+    background-color: var(--ls-scrollbar-background-color,var(--rx-gray-02));
     height: 8px;
     width: var(--ls-scrollbar-width,6px);
 }
@@ -288,7 +288,7 @@ html[data-color=blue] body {
   --ls-page-properties-background-color: var(--ls-page-blockquote-bg-color);
   --ls-block-properties-background-color: var(--ls-page-blockquote-bg-color);
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
-  --ls-scrollbar-background-color: var(--rx-slate-03);
+  --ls-scrollbar-background-color: transparent; /* var(--rx-slate-03);*/
     
   /* Borders */
   
@@ -296,7 +296,7 @@ html[data-color=blue] body {
   --ls-secondary-border-color: var(--rx-blue-05);
   --ls-guideline-color: var(--rx-slate-06);
 
-  /* Forgrounds */
+  /* Foregrounds */
   
   --ls-primary-text-color: var(--rx-slate-11);
   --ls-secondary-text-color: var(--rx-slate-12);
