@@ -2498,19 +2498,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- So, i must frequently return to meditation, much shorter than the 30min period of the ((67cff615-ec0d-4831-9851-59410cb89cf1)), hence “nanoreset”.
 				- [LLM Knowldge Graph Builder](https://github.com/neo4j-labs/llm-graph-builder) is great for my more control over the process than the ((684176d5-ba02-4cf5-ba62-606cc461d2d8))
 					- [Neo4j web app](https://llm-graph-builder.neo4jlabs.com/) provides a nice prebuilt app, but limits to only 10Kb/file, hence useless for my 1Mb Mind Jungle.
-			- 8th, looking for an example of the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos)
-				- An interesting fractal zoom demonstrating the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos): from clear black/white to the complex fractals: https://youtu.be/NW25DJhd89I
-					- This fractal is plotted on the parameter space of Newton fractal, as described by 3Blue1Brown: [Beyond the Mandelbrot set, an intro to holomorphic dynamics](https://youtu.be/LqbZpur38nw?t=1140)
-					- Album [Zoom into the edge of chaos](https://photos.app.goo.gl/33w9EPJsk5MsAcaG6) created by Android app [Mandelbrot Browser](https://play.google.com/store/apps/details?id=pl.y0.mandelbrotbrowser)
-						- These images have the formulae for fractal & color embedded, hence can be imported to the app.
-					- Formula:
-						- Newton method: $z = z - p(z)/p'(z)$
-						- $p(z) = (z+1)(z-1)(z-c)$
-						- $p'(z) = (3*z^2 - 2*c*z - 1)$
-						- Seed: average of 3 roots = $c/3$
-					- n+1 formula:
-						- $p(z) = (z^n - 1)(z-c)$
-						- Seed = $c/(n+1)$
+			- 8th, looking for an example of the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos) to show a friend in a chat, i found ((68469e67-4c54-4c89-9f3c-409af642769d)).
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true

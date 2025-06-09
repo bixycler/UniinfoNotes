@@ -184,9 +184,24 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		- Most complex organisms evolve at the edge of chaos.
 			- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe, hence their flexibility, stability, adaptability, and evolability.
 			- Refs:
-				-
-				- [Spatio-temporal pattern formation of living organisms at the edge of chaos](https://academic.oup.com/ismej/article/19/1/wraf050/8074902)
+				- [The Hidden Biological Rules: How Life Exists on the Edge of Chaos](https://www.youtube.com/watch?v=8By6ycfxZFo)
+				  collapsed:: true
+					- {{video https://www.youtube.com/watch?v=8By6ycfxZFo}}
+				- [Spatio-temporal pattern formation of living organisms at the edge of chaos](https://academic.oup.com/ismej/article/19/1/wraf050/8074902) ([PDF](../assets/Will/story/2025-06/wraf050 - Spatio-temporal pattern formation of living organisms at the edge of chaos.pdf))
 				- [From Genes to the Edge of Chaos: How Chaotic Are You?](https://kurious.ku.edu.tr/en/from-genes-to-the-edge-of-chaos-how-chaotic-are-you/)
+		- An interesting fractal zoom demonstrating the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos): from clear black/white to the complex fractals: https://youtu.be/NW25DJhd89I
+		  id:: 68469e67-4c54-4c89-9f3c-409af642769d
+			- This fractal is plotted on the parameter space of Newton fractal, as described by 3Blue1Brown: [Beyond the Mandelbrot set, an intro to holomorphic dynamics](https://youtu.be/LqbZpur38nw?t=1140)
+			- Album [Zoom into the edge of chaos](https://photos.app.goo.gl/33w9EPJsk5MsAcaG6) created by Android app [Mandelbrot Browser](https://play.google.com/store/apps/details?id=pl.y0.mandelbrotbrowser)
+				- These images have the formulae for fractal & color embedded, hence can be imported to the app.
+			- Formula:
+				- Newton method: $z = z - p(z)/p'(z)$
+				- $p(z) = (z+1)(z-1)(z-c)$
+				- $p'(z) = (3*z^2 - 2*c*z - 1)$
+				- Seed: average of 3 roots = $c/3$
+			- n+1 formula:
+				- $p(z) = (z^n - 1)(z-c)$
+				- Seed = $c/(n+1)$
 	- Usages of `⋇`
 	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
 	  collapsed:: true
