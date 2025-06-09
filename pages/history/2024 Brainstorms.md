@@ -176,6 +176,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  :END:
 		- Expressions of the boundary:
 			- [Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential anaysis
+			  id:: 6835b168-defe-49ff-8029-5b6afe346fbf
 			- Digit overflow/waterfall/cascade ([domino effect](https://en.wikipedia.org/wiki/Domino_effect)) in positional numerals
 				- Limit numbers in [ordinal numbers](https://en.wikipedia.org/wiki/Limit_ordinal) and [p-adic numbers](https://en.wikipedia.org/wiki/P-adic_number)
 			- [Edge case](https://en.wikipedia.org/wiki/Edge_case), including overflows ([integer OF](https://en.wikipedia.org/wiki/Integer_overflow), [buffer OF](https://en.wikipedia.org/wiki/Buffer_overflow), [Stack OF](https://en.wikipedia.org/wiki/Stack_overflow)), in software engineering
@@ -213,7 +214,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					- ![MandelBrowser_250608_085307.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085307.jpg){:width 300}![MandelBrowser_250608_085246.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085246.jpg){:width 300}
 					- ![MandelBrowser_250608_085148.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085148.jpg){:width 300}![MandelBrowser_250608_083956.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_083956.jpg){:width 300}
 				- These images have the formulae for fractal & color embedded, hence can be imported to the app.
-		- The ((6835b162-293f-4b8c-8be2-2dbe83b741ce)) shows the relation between the boundary and its enclosed volume.
+		- The ((6835b162-293f-4b8c-8be2-2dbe83b741ce)) shows the relation between the boundary and its enclosed volume via the view of flow.
+			- ⇒ ((6835b168-defe-49ff-8029-5b6afe346fbf))
+			- ⇒ [Holographic principle](https://en.wikipedia.org/wiki/Holographic_principle) in Quantum Physics
+		- The initials (axioms, postulates) of a theory and its terminals (paradoxes, limitations)
 	- Usages of `⋇`
 	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
 	  collapsed:: true
