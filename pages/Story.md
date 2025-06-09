@@ -2489,13 +2489,28 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [[Mind Chips]]: pieces of my mind chipped out throughout the daily life, but scattered instead of collected into the well designed dump site like [braindumps](((6842c6da-2d31-4cbf-a3e0-9d4be0c65a83)))
 					- At teen age, i wrote diary, then shift to journal, and now the journal has been separated into all of these various [types of notes](((6842c6a8-d3c3-4bd4-aed1-13defa48490c))) 😁
 					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
-			- 6th, ...
-				- In the office, i experience the sensitivity of my body to mental state & work again:
+			- 6th, ((6842a753-3e67-4959-a830-0d15dc4a7d7f))
+			  collapsed:: true
+				- In the office, i experience again the sensitivity of my body to mental state & external works:
+				  id:: 6842a753-3e67-4959-a830-0d15dc4a7d7f
 					- in meditation, everything is OK, body is warm, no irritation;
 					- just reaching out to work for a while, limbs are cold, then body is cold, nose & throat are irritated leading nose running and coughing.
 					- So, i must frequently return to meditation, much shorter than the 30min period of the ((67cff615-ec0d-4831-9851-59410cb89cf1)), hence “nanoreset”.
 				- [LLM Knowldge Graph Builder](https://github.com/neo4j-labs/llm-graph-builder) is great for my more control over the process than the ((684176d5-ba02-4cf5-ba62-606cc461d2d8))
 					- [Neo4j web app](https://llm-graph-builder.neo4jlabs.com/) provides a nice prebuilt app, but limits to only 10Kb/file, hence useless for my 1Mb Mind Jungle.
+			- 8th, looking for an example of the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos)
+				- An interesting fractal zoom demonstrating the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos): from clear black/white to the complex fractals: https://youtu.be/NW25DJhd89I
+					- This fractal is plotted on the parameter space of Newton fractal, as described by 3Blue1Brown: [Beyond the Mandelbrot set, an intro to holomorphic dynamics](https://youtu.be/LqbZpur38nw?t=1140)
+					- Album [Zoom into the edge of chaos](https://photos.app.goo.gl/33w9EPJsk5MsAcaG6) created by Android app [Mandelbrot Browser](https://play.google.com/store/apps/details?id=pl.y0.mandelbrotbrowser)
+						- These images have the formulae for fractal & color embedded, hence can be imported to the app.
+					- Formula:
+						- Newton method: $z = z - p(z)/p'(z)$
+						- $p(z) = (z+1)(z-1)(z-c)$
+						- $p'(z) = (3*z^2 - 2*c*z - 1)$
+						- Seed: average of 3 roots = $c/3$
+					- n+1 formula:
+						- $p(z) = (z^n - 1)(z-c)$
+						- Seed = $c/(n+1)$
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
