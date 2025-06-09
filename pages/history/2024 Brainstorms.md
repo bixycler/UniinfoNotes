@@ -219,13 +219,15 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- ((6835b168-defe-49ff-8029-5b6afe346fbf))
 			- [Holographic principle](https://en.wikipedia.org/wiki/Holographic_principle) in Quantum Physics
 			- Conic classification of boundary value problems (BVPs):
+			  collapsed:: true
 				- Elliptic BVPs describe equilibrium states with time-independent PDEs, e.g. Laplace’s or Poisson’s equation for electrostatics: $∇^2 u = f$.
 				- Parabolic BVPs model diffusion-like processes, where solutions smooth out over time, with a first-order time derivative PDEs, e.g. heat equation: $∂_t​ u = κ∇^2 u$.
 				- Hyperbolic BVPs model vibrations & wave propagation with second-order time and spatial derivative PDEs, e.g. wave equation: $∂_t^2 ​u = c^2 ∇^2 u$.
 				- Note: The Schrödinger equation encompasses all the three.
-					- The time-independent version is elliptic
-					- The time-dependent version is parabolic: the free particle in uniform potential $V(x)=0$ has dispersion (spreading of the wave function over time).
-					- However, in bound states like harmonic oscillator $V(x) = \frac{1}{2} m ω^2 x^2$, the wave function has no dispersion, hence very much like “hyperbolic”.
+					- The time-independent version is elliptic.
+					- The time-dependent version is parabolic with first-order time derivative $iℏ∂_t ψ$: e.g., the free particle in uniform potential $V(x)=0$ has dispersion (spreading of the wave function over time).
+					- However, the imaginary coefficient $i$ makes it “hyperbolic”: e.g., in bound states like harmonic oscillator $V(x) = \frac{1}{2} m ω^2 x^2$, the wave function has no dispersion.
+					-
 		- The initials (axioms, postulates) of a theory and its terminals (paradoxes, limitations) are parts of the boundary of that theory.
 	- Usages of `⋇`
 	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
