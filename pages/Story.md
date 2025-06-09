@@ -2504,12 +2504,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-06-09 Mon 18:36:03]
 			  :END:
 				- The illness at nose & throat has been nearly gone.
-				- Observing the internal effect flow, i see the springy doll
+				- Observing the internal effect flow, i see the [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) =
 				- The spring doll is what i saw as a model of my mind on work: the consciousness is just the head mounted on a very long spring of programs which connects to the root of bodymind.
 				  id:: 6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00
 					- The famous spring smiley heads are a good example for this model, and were used in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398) to mark the first time i saw the model around the end of 2023.
 					  ![spring-head-grin-tears.jpg](../assets/Will/story/2025-06/spring-head-grin-tears.jpg){:width 30}
-					- These bouncy spring dolls
+					- These bouncy spring dolls not only model my mind on work, but also the general minds of laymen in life.
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
