@@ -8,6 +8,9 @@
 :root {
   --ls-main-content-max-width: 100%;
 
+  scrollbar-color: var(--ls-scrollbar-foreground-color,var(--lx-gray-05)) transparent;
+  scrollbar-width: thin;
+
   
   /* Task markers */
   --ct-marker-border-radius: 4px;
