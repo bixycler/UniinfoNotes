@@ -218,6 +218,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- The ((6835b162-293f-4b8c-8be2-2dbe83b741ce)) shows the integral relation between the boundary and its enclosed volume in a linear conservative fields.
 			- ((6835b168-defe-49ff-8029-5b6afe346fbf))
 			- [Holographic principle](https://en.wikipedia.org/wiki/Holographic_principle) in Quantum Physics
+			- Conic classification of boundary value problems (BVPs):
+				- Elliptic BVPs describe equilibrium states with time-independent PDEs, e.g. Laplace’s or Poisson’s equation for electrostatics: $∇^2 u = f$.
+				- Parabolic BVPs model diffusion-like processes, e.g. heat equation: $∂_t​u = κ∇^2u$.
 		- The initials (axioms, postulates) of a theory and its terminals (paradoxes, limitations) are parts of the boundary of that theory.
 	- Usages of `⋇`
 	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
