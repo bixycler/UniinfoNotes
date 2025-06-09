@@ -45,6 +45,8 @@ body {
 }
 .visible-scrollbar ::-webkit-scrollbar,html.custom-scrollbar ::-webkit-scrollbar {
     background-color: transparent; /*var(--ls-scrollbar-background-color,var(--rx-gray-02));*/
+    height: 8px;
+    width: var(--ls-scrollbar-width,6px);
 }
 
 
