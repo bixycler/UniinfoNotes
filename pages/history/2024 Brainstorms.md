@@ -210,6 +210,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- $p(z) = (z^n - 1)(z-c)$
 				- Seed = $c/(n+1)$
 			- Album [Zoom into the edge of chaos](https://photos.app.goo.gl/33w9EPJsk5MsAcaG6) created by Android app [Mandelbrot Browser](https://play.google.com/store/apps/details?id=pl.y0.mandelbrotbrowser)
+			  collapsed:: true
 				- From the straight line of black/white separation
 					- ![MandelBrowser_250608_085307.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085307.jpg){:width 300}![MandelBrowser_250608_085246.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085246.jpg){:width 300}
 					- ![MandelBrowser_250608_085148.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085148.jpg){:width 300}![MandelBrowser_250608_083956.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_083956.jpg){:width 300}
