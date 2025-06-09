@@ -220,7 +220,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- [Holographic principle](https://en.wikipedia.org/wiki/Holographic_principle) in Quantum Physics
 			- Conic classification of boundary value problems (BVPs):
 				- Elliptic BVPs describe equilibrium states with time-independent PDEs, e.g. Laplace’s or Poisson’s equation for electrostatics: $∇^2 u = f$.
-				- Parabolic BVPs model diffusion-like processes, e.g. heat equation: $∂_t​u = κ∇^2u$.
+				- Parabolic BVPs model diffusion-like processes, where solutions smooth out over time, with a first-order time derivative PDEs, e.g. heat equation: $∂_t​ u = κ∇^2 u$.
+				- Hyperbolic BVPs model vibrations & wave propagation with second-order time and spatial derivative PDEs, e.g. wave equation: $∂_t^2 ​u = c^2 ∇^2 u$.
 		- The initials (axioms, postulates) of a theory and its terminals (paradoxes, limitations) are parts of the boundary of that theory.
 	- Usages of `⋇`
 	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
