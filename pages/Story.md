@@ -2335,7 +2335,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-05-28 Wed 09:08:02]
 		  :END:
 			- Logseq: Many block refs, like ((6835acfc-5c1c-40c0-b008-93979afa8f36)), are not recognized!? The issue still persists after clearance of all backup & graph DB!?
-			- Will: [head-first diving](((67714850-43c0-4c7f-8b50-838e014b06e0))), ((6678d594-9819-4624-abd6-d4ec62b3874f)) driven by [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), baby boom, springy doll, etc. make the time fleet too fast!
+			- Will: [head-first diving](((67714850-43c0-4c7f-8b50-838e014b06e0))), ((6678d594-9819-4624-abd6-d4ec62b3874f)) driven by [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), baby boom, [springy doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), etc. make the time fleet too fast!
 				- The mara uses my own strengths (clear observation, holistic view, tidy organization, concentration) for its destruction! That's how buddha and mara are just two sides of the same coin.
 				- As you can see, just the observation of this issue, this broken time, is yielding a lot of stuff as written here. This is how solving one issue produces many more issues!
 			- Incomplete works, waiting tasks, and so on are piling up, as shown in my working stack:
@@ -2505,10 +2505,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- The illness at nose & throat has been nearly gone.
 				- Observing the internal effect flow, i see the springy doll
-				- The spring doll was what i saw as a model of my mind on work: the consciousness is just the head
-					- The famous spring 
+				- The spring doll is what i saw as a model of my mind on work: the consciousness is just the head mounted on a very long spring of programs which connects to the root of bodymind.
+				  id:: 6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00
+					- The famous spring smiley heads are a good example for this model, and were used in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398) to mark the first time i saw the model around the end of 2023.
 					  ![spring-head-grin-tears.jpg](../assets/Will/story/2025-06/spring-head-grin-tears.jpg){:width 30}
-					- It was marked with this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398).
+					- These bouncy spring dolls
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
