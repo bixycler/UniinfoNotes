@@ -193,19 +193,25 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- [From Genes to the Edge of Chaos: How Chaotic Are You?](https://kurious.ku.edu.tr/en/from-genes-to-the-edge-of-chaos-how-chaotic-are-you/)
 		- An interesting fractal zoom demonstrating the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos): from a clear black/white separation by a straight line at the distance to complex fractals up close
 		  id:: 68469e67-4c54-4c89-9f3c-409af642769d
+		  collapsed:: true
 			- Zooming video: https://youtu.be/NW25DJhd89I
 			  collapsed:: true
 				- {{video https://youtu.be/NW25DJhd89I}}
-			- This fractal is plotted on the parameter space of Newton fractal, as described by 3Blue1Brown: [Beyond the Mandelbrot set, an intro to holomorphic dynamics](https://youtu.be/LqbZpur38nw?t=1140)
+			- This fractal is plotted on the parameter space of Newton fractal for 2 basins of attraction to 2 roots $-1$ & $+1$, i.e. roots of $z^2 = 1$, as described by 3Blue1Brown: [Beyond the Mandelbrot set, an intro to holomorphic dynamics](https://youtu.be/LqbZpur38nw?t=1140)
+			  collapsed:: true
+				- {{video https://youtu.be/LqbZpur38nw?t=1140}}
 			- Formula:
-				- Newton method: $z = z - p(z)/p'(z)$
+				- Newton method: $z ← z - p(z)/p'(z)$
 				- $p(z) = (z+1)(z-1)(z-c)$
 				- $p'(z) = (3⋅z^2 - 2⋅c⋅z - 1)$
 				- Seed: average of 3 roots = $c/3$
-			- n+1 formula:
+			- Generalized n+1 formula:
 				- $p(z) = (z^n - 1)(z-c)$
 				- Seed = $c/(n+1)$
 			- Album [Zoom into the edge of chaos](https://photos.app.goo.gl/33w9EPJsk5MsAcaG6) created by Android app [Mandelbrot Browser](https://play.google.com/store/apps/details?id=pl.y0.mandelbrotbrowser)
+				- From the straight line of black/white separation
+					- ![MandelBrowser_250608_085307.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085307.jpg){:width 300}![MandelBrowser_250608_085246.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085246.jpg){:width 300}
+					-
 				- These images have the formulae for fractal & color embedded, hence can be imported to the app.
 	- Usages of `⋇`
 	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
