@@ -1778,7 +1778,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The **content** is the “water” being poured into the bottle, denoted by its percentage $c$ (%) in the bottle.
 					- The **extent** is the number of bottles, $e = c/i$, measuring the amount of water.
 					- Without actual content, the extent itself shows the *possible number of bottles*, i.e. **possibilities**, called “**abstract extensions**” which are mere natural numbers $0, 1, 2, ...$
-						- Each extent, each number has
+						- Each each number (extent) has two meanings:
+							- cardinal number, like 3, showing the number of possibilities, the size of possibility space;
+							- ordinal number, like 3rd, identifying the single possibility being referred, i.e. an abstract extension.
+						-
 					- When a bottle is *partially filled*, e.g. $c = 30\% = 0.3i$, it has the **potential** of being full 100%, but not yet, hence *unfulfilled*.
 					- When a bottle is *fully filled*, i.e. “***fulfilled***”, a new **concrete extension** is produced which is not an abstract number but an *actual bottle of water*, hence an **action**.
 				- like the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)) or the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
