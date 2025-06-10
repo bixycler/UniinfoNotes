@@ -1772,7 +1772,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- Potential: potential engergy, continuous range of possibilities inside, empty, abstract
 				- Action: actual work, discrete instances of actuality, full, concrete
-				- While possibility is the completely empty form, potential is the partially filled form
+				- From the **possibility** in the empty form of intent, as the content is poured into the form,  **potential** is the partially filled form
 				- like the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)) or the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
 				  collapsed:: true
 					- A monjolo in Caldas Novas, Goiás
