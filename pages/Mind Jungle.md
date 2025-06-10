@@ -1771,8 +1771,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-05-16 Fri 11:59:30]
 			  CLOCK: [2025-05-16 Fri 12:00:30]
 			  :END:
-				- Potential: potential engergy, continuous range of possibilities inside, empty, abstract
-				- Action: actual work, discrete instances of actuality, full, concrete
+				- Potential: potential engergy, continuous range of possibilities inside, partial, incomplete, abstract
+				- Action: actual work, discrete instances of actuality, full, complete, concrete
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of action: from _emtpy **possibility**_ to _unfulfilled **potential**_ and _fulfilled **action**_
 					- The **intent** is the internal form, the structure of the obop with the shape of a circle, just like a bottle, denoted by its capacity, usually normalized to $i = 1 = 100\%$.
 					- The **content** is the “water” being poured into the bottle, denoted by its percentage $c$ (%) in the bottle.
