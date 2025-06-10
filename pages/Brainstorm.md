@@ -126,7 +126,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = n orders of derivatives = action cone = effect flow from intent to extent
+		- [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = ((684796ee-1bc9-4828-882b-612c67ba48f3)) = action cone = effect flow from intent to extent
 		  id:: 6846c7e1-239c-4b39-9ef4-9d2eaba17a52
 		  collapsed:: true
 		  :LOGBOOK:
@@ -156,6 +156,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ![number-combination-bike-lock.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/number-combination-bike-lock.jpg)
 					- ![Cryptex-ILoveU.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Cryptex-ILoveU.jpg)
 					- ![Jefferson_disk_cipher.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Jefferson_disk_cipher.jpg)
+			- derivative sequence
+			  id:: 684796ee-1bc9-4828-882b-612c67ba48f3
+			  sequence of derivatives from 0th, 1st, 2nd, 3rd order, etc.
 		- From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
 		  collapsed:: true
 		  :LOGBOOK:
