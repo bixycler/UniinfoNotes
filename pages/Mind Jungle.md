@@ -1786,7 +1786,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Extent: While “extent” is usually the size of the extension set, i.e. a cardinal number, the ordinal number identifying a particular extension can be also called “extent” in general (better to be called “particular extent” or “identifier” in particular).
 						- The zero(th)
 							- The 0th extension is the intent itself, and it is the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of all non-zero extensions, via the “element of” operator ($∈$).
-							- The empty extension set (zero extension), while extensionally contains no element, hence 0 extent, implicitly includes the intent (0th element).
+							- The empty extension set (zero extension), while extensionally contains no element, hence 0 extent, intensionally includes the intent (0th element).
+							- The (0th extension = the inent = the form) is extensionally contained in no extensions and intensionally included in all extensions.
+							- The 0th extension has content incomparable to any
 					- When a bottle is *partially filled*, e.g. $c = 30\% = 0.3i$, it has the **potential** of being full 100%, but not yet, hence *unfulfilled*.
 					- When a bottle is *fully filled*, i.e. “***fulfilled***”, a new **concrete extension** is produced which is not an abstract number but an *actual bottle of water*, hence an **action**.
 				- like the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)) or the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
