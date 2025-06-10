@@ -158,7 +158,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ![Jefferson_disk_cipher.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Jefferson_disk_cipher.jpg)
 			- derivative sequence
 			  id:: 684796ee-1bc9-4828-882b-612c67ba48f3
-			  sequence of derivatives from 0th, 1st, 2nd, 3rd order, etc.
+			  the sequence of all derivatives from 0th, 1st, 2nd, 3rd order, ..., i.e. $()$
 		- From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
 		  collapsed:: true
 		  :LOGBOOK:
