@@ -1750,7 +1750,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- do
 		  id:: 66c845fe-6e8e-412e-902e-34ae8d728f90
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66727858-979d-4d95-8a90-7a749218cfba))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) an ((66727858-979d-4d95-8a90-7a749218cfba)) is a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) carries through time.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((66727858-979d-4d95-8a90-7a749218cfba)) is a ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) that a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) carries through time. Each action is a segment of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) carried out by the subject.
 		  id:: 66c846f8-eac8-4daf-add8-121d12871c5a
 		  :LOGBOOK:
 		  CLOCK: [2024-08-23 Fri 15:23:23]
