@@ -1764,12 +1764,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-05-16 Fri 11:59:11]
 		  :END:
-			- DOING **Action** is *fulfilled* **Potential**
+			- **Action** is *fulfilled* **Potential**
 			  id:: 6835b165-b560-4358-9e46-c4511124c928
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-05-16 Fri 11:59:30]
-			  CLOCK: [2025-05-16 Fri 12:00:30]
+			  CLOCK: [2025-05-16 Fri 12:00:30]--[2025-06-10 Tue 19:45:38] =>  607:45:08
 			  :END:
 				- Potential: potential engergy, continuous range of possibilities inside, partial, incomplete, abstract
 				- Action: actual work, discrete instances of actuality, full, complete, concrete
