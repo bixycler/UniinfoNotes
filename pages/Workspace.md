@@ -7,7 +7,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
-		- obop
+		- Abstract
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  collapsed:: true
 		  ^ **Name & Term** search
@@ -64,6 +64,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				-
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
+				- ((6835b165-b560-4358-9e46-c4511124c928))
 				- ...
 			- <<End Tracks>>
 			  ---------------

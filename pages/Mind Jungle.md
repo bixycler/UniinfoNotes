@@ -1765,6 +1765,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2025-05-16 Fri 11:59:11]
 		  :END:
 			- DOING **Action** is *fulfilled* **Potential**
+			  id:: 6835b165-b560-4358-9e46-c4511124c928
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-05-16 Fri 11:59:30]
@@ -1772,12 +1773,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- Potential: potential engergy, continuous range of possibilities inside, empty, abstract
 				- Action: actual work, discrete instances of actuality, full, concrete
-				- From the **possibility** in the empty form of intent, as the content is poured into the form,  **potential** is the partially filled form
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of action: from _emtpy **possibility**_ to _unfulfilled **potential**_ and _fulfilled **action**_
 					- The **intent** is the internal form, the structure of the obop with the shape of a circle, just like a bottle, denoted by its capacity, usually normalized to $i = 1 = 100\%$.
 					- The **content** is the “water” being poured into the bottle, denoted by its percentage $c$ (%) in the bottle.
 					- The **extent** is the number of bottles, $e = c/i$, measuring the amount of water.
-					- Abstracting the actual content, the extent itself shows the *possible number of bottles*, i.e. **possibilities**, called “**abstract extensions**” which are mere natural numbers $0, 1, 2, ...$
+					- ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))ing the actual content, the extent itself shows the *possible number of bottles*, i.e. **possibilities**, called “**abstract extensions**” which are mere natural numbers $0, 1, 2, ...$
 					  collapsed:: true
 						- Each number (extent) has two meanings:
 							- cardinal number, like 3, showing the number of possibilities, the size of possibility space, the extent of the extension set;
@@ -1792,10 +1792,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The 0th is incomparable to non-zeroth: while the intent defines the amount of content of each extension, the crystalized content of the intent is incomparable to any particular extension.
 					- When a bottle is *partially filled*, e.g. $c = 30\% = 0.3i$, it has the **potential** of being full 100%, but not yet, hence *unfulfilled*.
 					- When a bottle is *fully filled*, i.e. “***fulfilled***”, a new **concrete extension** is produced which is not an abstract number but an *actual bottle of water*, hence an **action**.
-				- like the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)) or the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
-				  collapsed:: true
-					- A monjolo in Caldas Novas, Goiás
-					  ![monjolo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Monjolo.JPG/960px-Monjolo.JPG)
+					- Real life instances of this model are the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)) or the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
+					  collapsed:: true
+						- A monjolo in Caldas Novas, Goiás
+						  ![monjolo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Monjolo.JPG/960px-Monjolo.JPG)
 				- [Action potential](https://en.wikipedia.org/wiki/Action_potential)
 					- (Membrane) Potential: The stored energy or readiness of a cell to perform an action, like a stretched spring. It's defined by the electrical charge difference across the membrane.
 					- Action (Potential): The actual movement or signal (nerve impulse) that the cell sends, like the spring releasing and launching something. It is defined as a series of quick changes in membrane potential.
