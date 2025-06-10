@@ -126,7 +126,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = [successive antiderivatives](((684796ee-1bc9-4828-882b-612c67ba48f3))) = action cone = effect flow from intent to extent
+		- [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = [successive antiderivatives](((684796ee-1bc9-4828-882b-612c67ba48f3))) = ((6847e436-9a84-42c5-a853-75f6d626ed63)) = effect flow from intent to extent
 		  id:: 6846c7e1-239c-4b39-9ef4-9d2eaba17a52
 		  collapsed:: true
 		  :LOGBOOK:

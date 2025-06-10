@@ -1772,22 +1772,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- Potential: potential engergy, continuous range of possibilities inside, empty, abstract
 				- Action: actual work, discrete instances of actuality, full, concrete
-				-
+				- While possibility is the completely empty form, potential is the partially filled form
 				- like the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)) or the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
 				  collapsed:: true
 					- A monjolo in Caldas Novas, Goiás
 					  ![monjolo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Monjolo.JPG/960px-Monjolo.JPG)
 				- [Action potential](https://en.wikipedia.org/wiki/Action_potential)
-				  collapsed:: true
 					- (Membrane) Potential: The stored energy or readiness of a cell to perform an action, like a stretched spring. It's defined by the electrical charge difference across the membrane.
 					- Action (Potential): The actual movement or signal (nerve impulse) that the cell sends, like the spring releasing and launching something. It is defined as a series of quick changes in membrane potential.
 				- [Potentiality and actuality](https://en.wikipedia.org/wiki/Potentiality_and_actuality)
 		- light cone
 		  id:: 667bd931-8759-4008-8a9a-33e78a5cbdf3
 		  collapsed:: true
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bd93a-cce4-4dbf-9831-725e4dffe463))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bd93a-cce4-4dbf-9831-725e4dffe463)), ((6847e436-9a84-42c5-a853-75f6d626ed63))
 			- cone of effect
 			  id:: 667bd93a-cce4-4dbf-9831-725e4dffe463
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
+			- cone of action
+			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- The future [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
