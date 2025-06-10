@@ -1774,12 +1774,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Action: actual work, discrete instances of actuality, full, concrete
 				- From the **possibility** in the empty form of intent, as the content is poured into the form,  **potential** is the partially filled form
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of action
-					- The **intent** is the internal form, the structure of the obop with the shape of a circle, just like a bottle, denoted by its capacity, usually normalized to $i = 1 =$ 100%.
-					- The **content** is the “water” being poured into the bottle, denoted by its percentage $c$ (%).
-					- The **extent** is the number of bottles measuring the amount of water.
+					- The **intent** is the internal form, the structure of the obop with the shape of a circle, just like a bottle, denoted by its capacity, usually normalized to $i = 1 = 100\%$.
+					- The **content** is the “water” being poured into the bottle, denoted by its percentage $c$ (%) in the bottle.
+					- The **extent** is the number of bottles, $e = c/i$, measuring the amount of water.
 					- The space of **possibilities** is the set of natural numbers ${0, 1, 2, ...}$ containing **abstract extensions** (numbers).
-					- A partially filled bottle, e.g. c = 30% = 0.3i, has the potential of being 100% (action), but not yet, thus potential is just an unfulfilled action.
-					- When each bottle is fully filled, hence “***fulfilled***”, a new **concrete extension** is produced which is not an abstract number but an actual number of bottles of water. This concrete extension production is called “**action**”.
+					- When a bottle is *partially filled*, e.g. $c = 30\% = 0.3i$, it has the **potential** of being full 100%, but not yet, hence *unfulfilled*.
+					- When a bottle is *fully filled*, i.e. “***fulfilled***”, a new **concrete extension** is produced which is not an abstract number but an actual number of bottles of water. This concrete extension production is called “**action**”.
 				- like the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)) or the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
 				  collapsed:: true
 					- A monjolo in Caldas Novas, Goiás
