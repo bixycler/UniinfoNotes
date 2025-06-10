@@ -158,7 +158,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ![Jefferson_disk_cipher.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Jefferson_disk_cipher.jpg)
 			- derivative sequence
 			  id:: 684796ee-1bc9-4828-882b-612c67ba48f3
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is the bidirectional sequence of all **successive derivatives** at positive orders 1, 2, 3, ... to the right, and all **successive antiderivatives** at negative orders -1, -2, -3, ... to the left, with the original function (0th derivative) in the middle.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a bidirectional sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center.
 		- From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
 		  collapsed:: true
 		  :LOGBOOK:
