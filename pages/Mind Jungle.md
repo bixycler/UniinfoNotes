@@ -1792,7 +1792,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The 0th is incomparable to non-zeroth: while the intent defines the amount of content of each extension, the crystalized content of the intent is incomparable to any particular extension.
 					- When a bottle is *partially filled*, e.g. $c = 30\% = 0.3i$, it has the **potential** of being full 100%, but not yet, hence *unfulfilled*.
 					- When a bottle is *fully filled*, i.e. “***fulfilled***”, a new **concrete extension** is produced which is not an abstract number but an *actual bottle of water*, hence an **action**.
-					- Real life instances of this model are the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)) or the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
+					- Real life instances of this model are the [water scoop](https://en.wikipedia.org/wiki/Water_scoop_(hydropower)) (monjolo, [cối giã nước](https://baonghean.vn/doc-dao-chiec-coi-gia-gao-bang-suc-nuoc-o-tay-nghe-an-10091303.html)), the [shishi-odoshi](https://en.wikipedia.org/wiki/Shishi-odoshi).
 					  collapsed:: true
 						- A monjolo in Caldas Novas, Goiás
 						  ![monjolo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Monjolo.JPG/960px-Monjolo.JPG)
