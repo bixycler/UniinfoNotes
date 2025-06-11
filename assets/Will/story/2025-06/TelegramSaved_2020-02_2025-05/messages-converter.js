@@ -88,8 +88,8 @@ function parseText(nodes) {
     let groups = [];
     let currentGroup = [];
     let brCount = 0;
-    for (let node of nodes) {
-        if (node.nodeName === "BR") {
+    for (let node of nodes) { // split by double <br>s into groups
+        if (node.nodeName === "BR") { // consecutive <br>s
             brCount++;
             if (brCount >= 2) {
                 if (currentGroup.length) groups.push(currentGroup);
@@ -98,21 +98,25 @@ function parseText(nodes) {
         } else {
             if (brCount > 0) {
                 // Single <br> is just a line break, keep in group
-                for (let i = 0; i < brCount; i++) currentGroup.push(document.createElement("br"));
+                currentGroup.push(document.createElement("br"));
                 brCount = 0;
             }
             currentGroup.push(node);
         }
     }
     if (currentGroup.length) groups.push(currentGroup);
-
+    if (groups.length === 0) {
+        return document.createElement("span"); // return empty span if no content
+    }
     let res = document.createElement("ul");
-    for (let group of groups) {
+    for (let group of groups) { // create a new <li> for each group
         let li = document.createElement("li");
         li.append(parseText(group));
         res.appendChild(li);
     }
-    let res = document.createElement("ul");
+
+    //
+
     return res;
 }
 
