@@ -2,7 +2,10 @@
 
 function Init() {
     console.log("=== INIT ===");
+    listDiv = document.querySelectorAll('.history').item(0);
+    console.log("List div: ", listDiv);
     CheckLocation();
+    groupMessagesByDay();
 }
 
 window.AllowBackFromHistory = false;

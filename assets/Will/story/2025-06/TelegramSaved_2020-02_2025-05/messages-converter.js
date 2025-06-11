@@ -1,5 +1,9 @@
-const listDiv = document.querySelectorAll('.history').item(0);
+var listDiv = null;
 
 function groupMessagesByDay() {
-    let days = listDiv.querySelectorAll('.message .service');
+    let days = listDiv.querySelectorAll('.message.service');
+    for (let day of days) {
+        console.log("Processing day: ", day);
+        
+    }
 }
