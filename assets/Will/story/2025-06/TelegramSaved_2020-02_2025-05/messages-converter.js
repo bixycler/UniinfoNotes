@@ -23,10 +23,12 @@ function groupMessagesByDay() {
             nextSibling && nextSibling.classList.contains('message') && !nextSibling.classList.contains('service');
             nextSibling = day.nextElementSibling
         ){
+            let datetime = nextSibling.querySelector('.date.details').title;
+            let datetext = datetime.split(' ')[0].replaceAll('.','');
             day.appendChild(nextSibling);
         }
 
-        
+
     }
 }
 
