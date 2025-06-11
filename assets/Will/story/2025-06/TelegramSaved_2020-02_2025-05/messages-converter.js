@@ -50,9 +50,15 @@ function groupMessagesByDay() {
         }
 
         // extract the content of this day
-        dateLink = document.createElement("a");
-        dateLink.textContent = day.id; dateLink.href = '#'+day.id; dateLink.title = day.id;
-        messageList.appendChild
+        let dayLi = document.createElement("li"); messageList.appendChild(dayLi);
+        dayLi.textContent = date.textContent;
+        let messages = document.createElement("ul"); dayLi.appendChild(messages);
+        for (let message of day.children) {
+            if (!message.classList.contains('message')) { continue; }
+            let li = document.createElement("li");
+            li.textContent = message.querySelector('.text');
+            messages.appendChild(li);
+        }
     }
 }
 
