@@ -2328,6 +2328,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `s#...#...#p`: Captures the timestamp (`\1`) and main text (`\2`), substitute (`s`) the text in pattern space with with the target `<li>` structure, then print (`p`) the pattern space.
 							- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
 						- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
+				- Test message list
+					-
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
