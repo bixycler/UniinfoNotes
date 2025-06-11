@@ -104,20 +104,18 @@ function parseText(nodes) {
             currentGroup.push(node);
         }
     }
-    if (currentGroup.length) groups.push(currentGroup);
-    if (groups.length === 0) {
-        return document.createElement("span"); // return empty span if no content
+    if (currentGroup.length) groups.push(currentGroup); // wrap up the last group
+    if (groups.length === 0) return '';
+    if (groups.length > 1) {
+        let ul = document.createElement("ul");
+        for (let group of groups) { // create a new <li> for each group
+            let li = document.createElement("li"); ul.appendChild(li);
+            li.append(parseText(group));
+        }
+        return ul;
     }
-    let res = document.createElement("ul");
-    for (let group of groups) { // create a new <li> for each group
-        let li = document.createElement("li");
-        li.append(parseText(group));
-        res.appendChild(li);
-    }
+    // ...
 
-    //
-
-    return res;
 }
 
 function copyToClipboard(text) {
