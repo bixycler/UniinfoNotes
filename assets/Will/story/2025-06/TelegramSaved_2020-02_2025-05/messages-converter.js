@@ -114,8 +114,9 @@ function parseText(nodes) {
         }
         return ul;
     }
-    // ...
 
+    // ...
+    return currentGroup;
 }
 
 function copyToClipboard(text) {
