@@ -49,7 +49,10 @@ function groupMessagesByDay() {
             date.textContent = datetext;
         }
 
-        // extract the content of the day
+        // extract the content of this day
+        dateLink = document.createElement("a");
+        dateLink.textContent = day.id; dateLink.href = '#'+day.id; dateLink.title = day.id;
+        messageList.appendChild
     }
 }
 
