@@ -85,6 +85,35 @@ function processMessagesByDay() {
 // Parse the text content of messages into <ul> list items
 function parseText(nodes) {
     // split the list by double newlines
+    let groups = [];
+    let currentGroup = [];
+    let brCount = 0;
+
+    for (let node of nodes) {
+        if (node.nodeName === "BR") {
+            brCount++;
+            if (brCount >= 2) {
+                if (currentGroup.length) groups.push(currentGroup);
+                currentGroup = [];
+                brCount = 0;
+            }
+        } else {
+            if (brCount > 0) {
+                // Single <br> is just a line break, keep in group
+                for (let i = 0; i < brCount; i++) currentGroup.push(document.createElement("br"));
+                brCount = 0;
+            }
+            currentGroup.push(node);
+        }
+    }
+    if (currentGroup.length) groups.push(currentGroup);
+
+    let res = document.createElement("ul");
+    for (let group of groups) {
+        let li = document.createElement("li");
+        li.append(parseText(group));
+        res.appendChild(li);
+    }
     let res = document.createElement("ul");
     return res;
 }
