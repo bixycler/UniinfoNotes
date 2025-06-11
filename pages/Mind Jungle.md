@@ -6668,7 +6668,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Markdown
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A simple and humane ((66536166-87b0-4283-ab56-c6d2f62423c1)) created by Gruber and Swartz in 2004, based on pre-existing conventions for marking up ((6653635a-0226-4ebe-ae9b-e3e756b67377)) in ((66536383-8033-4105-8cbf-2c1316382df4)) and [usenet](https://en.wikipedia.org/wiki/Usenet) posts, like [setext](https://en.wikipedia.org/wiki/Setext "Setext") (c. 1992), [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language) "Textile (markup language)") (c. 2002), and [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText "ReStructuredText") (c. 2002).
 		- Supported websites and apps
-			-
+			- Git hosting sites: [GitHub](https://github.com/), GitLab
+			- Note taker: ((66536e1b-6466-4153-90d6-583003d99a81)), ((66535660-643e-471a-a332-8f2306c5494f)), [GitJournal](((6841400e-7bac-403e-b34a-690073c3251e))), [Simplenote](https://simplenote.com/)
+			- Editor: [StackEdit](https://stackedit.io/) (In-browser Markdown editing [webapp](https://stackedit.io/app))
+			- Browser plugins: [Markdown Viewer]() for Chrome
 	- ## markup language
 	  id:: 66536166-87b0-4283-ab56-c6d2f62423c1
 	  collapsed:: true
