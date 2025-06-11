@@ -56,11 +56,20 @@ function groupMessagesByDay() {
         for (let message of day.children) {
             if (!message.classList.contains('message')) { continue; }
             let text = message.querySelector('.text');
-            let image = message.querySelector('.image_wrap');
-            let file = message.querySelector('.message_file');
-            if (text || !image || !file) { continue; }
-            let li = document.createElement("li"); messages.appendChild(li);
-            li.innerHTML = text.innerHTML;
+            let image = message.querySelector('.photo_wrap');
+            let file = message.querySelector('.media_file');
+            if (image) {
+                let li = document.createElement("li"); messages.appendChild(li);
+                li.innerHTML = `<img src="${image.href}">`;
+            }
+            if (image) {
+                let li = document.createElement("li"); messages.appendChild(li);
+                li.innerHTML = `<img src="${image.href}">`;
+            }
+            if (text) {
+                let li = document.createElement("li"); messages.appendChild(li);
+                li.innerHTML = text.innerHTML;
+            }
         }
     }
 }

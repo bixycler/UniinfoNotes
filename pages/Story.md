@@ -2329,7 +2329,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
 						- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
 				- Test message list
-					-
+					- 2021-10-05
+					- ![](file:///home/dinhlx/Downloads/Telegram%20Desktop/TelegramSaved_2020-02_2025-05/photos/photo_1@05-10-2021_14-34-35.jpg)
+					- [https://en.wikipedia.org/wiki/Talk:Linear_dynamical_system#The_content_should_be_improved_with_details_and_visualization](https://en.wikipedia.org/wiki/Talk:Linear_dynamical_system#The_content_should_be_improved_with_details_and_visualization)
+					  
+					  linear dynamics classifications @ geogebra:
+					  - [https://www.geogebra.org/m/usvqundr](https://www.geogebra.org/m/usvqundr)
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
