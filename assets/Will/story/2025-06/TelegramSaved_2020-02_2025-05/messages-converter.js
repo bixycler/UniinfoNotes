@@ -13,7 +13,18 @@ function groupMessagesByDay() {
         let date = day.children[0];
         let dateLink = document.createElement("a");
         dateLink.appendChild(date);
-        dateLink.href = '#'+day.id;
+        dateLink.href = '#'+day.id; dateLink.title = day.id;
+        dateLink.onclick = 'copyToClipboard("'+day.id+'");' + 'showToast("Copied to clipboard: '+day.id+'");';
         day.appendChild(dateLink);
     }
+}
+
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+        console.log("Copied to clipboard: " + text);
+        ShowToast("Copied to clipboard: " + text);
+    }).catch(err => {
+        console.error("Failed to copy: ", err);
+        ShowToast("Failed to copy: " + err);
+    });
 }
