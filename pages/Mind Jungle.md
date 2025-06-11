@@ -1773,7 +1773,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- Potential: potential engergy, continuous range of possibilities inside, partial, incomplete, abstract
 				- Action: actual work, discrete instances of actuality, full, complete, concrete
-				- act = form: an action is the [formation of a new form](((6847e7fa-0d57-425c-b035-1a62db7725e6))) (concrete extension) from the combination of the old form (intent) and the content.
+				- [act](((66c845ea-635f-4be1-a220-2c7a5049ef83))) = [form](((665ca429-84e3-49ff-921e-c07d19cd99ba))): action is the [formation of new form](((6847e7fa-0d57-425c-b035-1a62db7725e6))) (concrete extension) from the combination of old form (intent) and content.
 				  id:: 68481e2b-0144-42e6-bd9b-96d2fd905573
 					- Potential is such a new form in latent state having yet to appear, hence an unfulfilled action.
 					- To act is to make that new form appear. Thus, action is a fulfilled potential.
