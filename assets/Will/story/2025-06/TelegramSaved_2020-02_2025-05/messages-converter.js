@@ -55,8 +55,12 @@ function groupMessagesByDay() {
         let messages = document.createElement("ul"); dayLi.appendChild(messages);
         for (let message of day.children) {
             if (!message.classList.contains('message')) { continue; }
+            let text = message.querySelector('.text');
+            let image = message.querySelector('.image_wrap');
+            let file = message.querySelector('.message_file');
+            if (text || !image || !file) { continue; }
             let li = document.createElement("li"); messages.appendChild(li);
-            li.appendChild(message.querySelector('.text'));
+            li.innerHTML = text.innerHTML;
         }
     }
 }
