@@ -1764,7 +1764,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-05-16 Fri 11:59:11]
 		  :END:
-			- **Action** is *fulfilled* **Potential**
+			- Formation: _emtpy **possibility**_ → _unfulfilled **potential**_ → _fulfilled **action**_
 			  id:: 6835b165-b560-4358-9e46-c4511124c928
 			  collapsed:: true
 			  :LOGBOOK:
