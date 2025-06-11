@@ -1773,10 +1773,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- Potential: potential engergy, continuous range of possibilities inside, partial, incomplete, abstract
 				- Action: actual work, discrete instances of actuality, full, complete, concrete
-				- Action is the **new form** (concrete extension) resulted from the combination of the old form (intent) and content.
+				- act = form: an action is the [formation of a new form](((6847e7fa-0d57-425c-b035-1a62db7725e6))) (concrete extension) from the combination of the old form (intent) and the content.
 				  id:: 68481e2b-0144-42e6-bd9b-96d2fd905573
-				- Potential, as the latent capacity to act, is such a new form still taking shape through ongoing development.
+					- Potential is such a new form in latent state having yet to appear, hence an unfulfilled action.
+					- To act is to make that new form appear. Thus, action is a fulfilled potential.
+					- In a broad sense, action is the whole process of formation from the empty possibility to potential and the final emergence of the new form.
+					- In a narrow sense, action is the visible part of the formation process marked by the emergence of the new form.
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of action: from _emtpy **possibility**_ to _unfulfilled **potential**_ and _fulfilled **action**_
+				  id:: 6847e7fa-0d57-425c-b035-1a62db7725e6
 					- The **intent** is the internal form, the structure of the obop with the shape of a circle, just like a bottle, denoted by its capacity, usually normalized to $i = 1 = 100\%$.
 					- The **content** is the “water” being poured into the bottle, denoted by its percentage $c$ (%) in the bottle.
 					- The **extent** is the number of bottles, $e = c/i$, measuring the amount of water.
