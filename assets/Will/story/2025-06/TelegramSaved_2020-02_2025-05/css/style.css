@@ -1,6 +1,5 @@
 extracted_content {
-    width: 50%;
-    border: 1px solid black;
+    border: 10px solid black;
 }
 
 body {
@@ -261,7 +260,7 @@ a.expanded {
     padding: 16px 0;
 }
 .message {
-    margin: 0 -10px;
+    margin: 0 10px;
     transition: background-color 2.0s ease;
 }
 div.selected {
@@ -305,7 +304,7 @@ div.selected {
     font-weight: normal;
 }
 .default .body {
-    margin-left: 60px;
+    margin-left: 10px;
 }
 .default .text {
     word-wrap: break-word;
