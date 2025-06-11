@@ -6671,7 +6671,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Git hosting sites: [GitHub](https://github.com/), GitLab
 			- Note taker: ((66536e1b-6466-4153-90d6-583003d99a81)), ((66535660-643e-471a-a332-8f2306c5494f)), [GitJournal](((6841400e-7bac-403e-b34a-690073c3251e))), [Simplenote](https://simplenote.com/)
 			- Editor: [StackEdit](https://stackedit.io/) (In-browser Markdown editing [webapp](https://stackedit.io/app))
-			- Browser plugins: [Markdown Viewer]() for Chrome
+			- Browser plugins: [Markdown Viewer](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk) for Chrome
 	- ## markup language
 	  id:: 66536166-87b0-4283-ab56-c6d2f62423c1
 	  collapsed:: true
