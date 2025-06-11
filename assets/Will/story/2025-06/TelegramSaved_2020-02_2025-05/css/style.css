@@ -44,6 +44,7 @@ pre {
     float: right;
 }
 .page_wrap {
+    width: 100%;
     background-color: #ffffff;
     color: #000000;
 }
@@ -90,7 +91,7 @@ pre {
 }
 .page_body {
     padding-top: 64px;
-    width: 480px;
+    width: 50%;
     margin: 0 auto;
 }
 .page_about {
