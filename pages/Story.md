@@ -2303,7 +2303,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- Convert `messages.html` to `list.html` ~~with `sed`~~ with javascript
 				- merge all notes in a day into 1 block: image & text are treated equally as separate items
-				-
+				- `<body onload="CheckLocation();">` -> `Init()`
 				- Attempt with `sed`
 				  collapsed:: true
 					- First, remove all `<div class="from_name">` & `<div class="media_wrap clearfix">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
