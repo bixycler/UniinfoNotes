@@ -263,12 +263,12 @@ div.selected {
     transition: background-color 0.5s ease;
 }
 
-
+.service > .body {
+    text-align: center;
+}
+/*
 .service {
     padding: 10px 24px;
-}
-.service .body {
-    text-align: center;
 }
 .service .userpic_wrap {
     padding-top: 10px;
@@ -280,6 +280,7 @@ div.selected {
     font-size: 24px;
 }
 */
+
 .message .userpic .initials {
     font-size: 16px;
 }
