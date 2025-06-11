@@ -9,6 +9,7 @@ function groupMessagesByDay() {
     let days = listDiv.querySelectorAll('.message.service');
     for (let day of days) {
         //console.log("Processing day: ", day);
+
         // wrap the date in an anchor tag
         let date = day.children[0];
         let dateLink = document.createElement("a");
@@ -16,6 +17,14 @@ function groupMessagesByDay() {
         dateLink.href = '#'+day.id; dateLink.title = day.id;
         dateLink.onclick = ()=>{copyToClipboard(day.id);}
         day.appendChild(dateLink);
+
+        // move next messages to this day div
+        for( let nextSibling = day.nextElementSibling;
+            nextSibling && nextSibling.classList.contains('message') && !nextSibling.classList.contains('service');
+            nextSibling = day.nextElementSibling
+        ){
+            day.appendChild(nextSibling);
+        }
     }
 }
 
