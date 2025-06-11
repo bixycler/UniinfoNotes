@@ -88,14 +88,12 @@ function parseText(nodes) {
     let groups = [];
     let currentGroup = [];
     let brCount = 0;
-
     for (let node of nodes) {
         if (node.nodeName === "BR") {
             brCount++;
             if (brCount >= 2) {
                 if (currentGroup.length) groups.push(currentGroup);
-                currentGroup = [];
-                brCount = 0;
+                currentGroup = []; brCount = 0;
             }
         } else {
             if (brCount > 0) {
