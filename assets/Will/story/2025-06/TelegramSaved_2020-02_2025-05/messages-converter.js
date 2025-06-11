@@ -76,22 +76,15 @@ function processMessagesByDay() {
             }
             if (text) {
                 let li = document.createElement("li"); messages.appendChild(li);
-                li.append(parseText(text));
+                li.append(parseText(Array.from(text.childNodes)));
             }
         }
     }
 }
 
 // Parse the text content of messages into <ul> list items
-function parseText(text) {
-    for (let node of text.childNodes) {
-        if (node.nodeType === Node.TEXT_NODE) {
-            continue;
-        } else if (node.nodeType === Node.ELEMENT_NODE) {
-            if (node.tagName.toLowerCase() === 'br') {
-            }
-        }
-    }
+function parseText(nodes) {
+    // split the list by double newlines
     let res = document.createElement("ul");
     return res;
 }
