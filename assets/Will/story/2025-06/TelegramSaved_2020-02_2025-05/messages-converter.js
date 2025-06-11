@@ -116,7 +116,13 @@ function parseText(nodes) {
     }
 
     // ...
-    return currentGroup;
+    return currentGroup.map(node => {
+        if (node.nodeName === "#text") {
+            return node.textContent;
+        } else {
+            return node.outerHTML; // return other nodes as is
+        }
+    });
 }
 
 function copyToClipboard(text) {
