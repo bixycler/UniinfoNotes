@@ -1,5 +1,5 @@
-extracted_content {
-    border: 10px solid black;
+.extracted_content {
+    border: 1px solid black;
 }
 
 body {
@@ -96,7 +96,7 @@ pre {
 .page_body {
     padding-top: 64px;
     width: 50%;
-    margin: 0 auto;
+    margin: 0 10px 0 10px;
 }
 .page_about {
     padding: 24px 24px;
