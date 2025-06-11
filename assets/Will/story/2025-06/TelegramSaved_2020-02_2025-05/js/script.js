@@ -1,14 +1,5 @@
 "use strict";
 
-function Init() {
-    console.log("=== INIT ===");
-    listDiv = document.querySelectorAll('.history').item(0);
-    console.log("List div: ", listDiv);
-    CheckLocation();
-    removeElements();
-    groupMessagesByDay();
-}
-
 window.AllowBackFromHistory = false;
 function CheckLocation() {
     console.log("Checking location: " + location);

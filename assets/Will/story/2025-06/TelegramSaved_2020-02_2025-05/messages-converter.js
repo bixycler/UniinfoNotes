@@ -1,5 +1,14 @@
 var listDiv = null;
 
+function Init() {
+    console.log("=== INIT ===");
+    listDiv = document.querySelectorAll('.history').item(0);
+    console.log("List div: ", listDiv);
+    CheckLocation();
+    removeElements();
+    groupMessagesByDay();
+}
+
 function removeElements() {
     let users = document.querySelectorAll('.userpic_wrap, .from_name');
     for (let e of users) { e.remove(); }
