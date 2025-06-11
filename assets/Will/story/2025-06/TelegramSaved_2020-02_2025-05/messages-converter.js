@@ -68,6 +68,10 @@ function groupMessagesByDay() {
                 if(href) {
                     let filename = decodeURIComponent(href.split('/').pop());
                     li.innerHTML = `<b>[FILE]</b>: <a href="${href}">${filename}</a>`;
+                } else {
+                    let description = file.querySelector('.description');
+                    description = description ? description.textContent : "File not available";
+                    li.innerHTML = `<b>[FILE]</b>: [ERROR]: ${description}`;
                 }
             }
             if (text) {
