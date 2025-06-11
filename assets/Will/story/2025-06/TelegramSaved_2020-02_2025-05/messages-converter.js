@@ -62,9 +62,13 @@ function groupMessagesByDay() {
                 let li = document.createElement("li"); messages.appendChild(li);
                 li.innerHTML = `<img src="${image.href}">`;
             }
-            if (image) {
+            if (file) {
                 let li = document.createElement("li"); messages.appendChild(li);
-                li.innerHTML = `<img src="${image.href}">`;
+                let href = file.href;
+                if(href) {
+                    let filename = decodeURIComponent(href.split('/').pop());
+                    li.innerHTML = `<b>[FILE]</b>: <a href="${href}">${filename}</a>`;
+                }
             }
             if (text) {
                 let li = document.createElement("li"); messages.appendChild(li);
