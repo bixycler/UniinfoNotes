@@ -76,7 +76,7 @@ function processMessagesByDay() {
             }
             if (text) {
                 let li = document.createElement("li"); messages.appendChild(li);
-                li.innerHTML = parseText(text.innerHTML);
+                li.append(parseText(text));
             }
         }
     }
@@ -84,8 +84,16 @@ function processMessagesByDay() {
 
 // Parse the text content of messages into <ul> list items
 function parseText(text) {
-    // This function can be used to parse text content if needed
-    return text;
+    for (let node of text.childNodes) {
+        if (node.nodeType === Node.TEXT_NODE) {
+            continue;
+        } else if (node.nodeType === Node.ELEMENT_NODE) {
+            if (node.tagName.toLowerCase() === 'br') {
+            }
+        }
+    }
+    let res = document.createElement("ul");
+    return res;
 }
 
 function copyToClipboard(text) {
