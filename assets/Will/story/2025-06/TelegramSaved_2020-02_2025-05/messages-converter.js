@@ -25,6 +25,8 @@ function groupMessagesByDay() {
         ){
             day.appendChild(nextSibling);
         }
+
+        
     }
 }
 
