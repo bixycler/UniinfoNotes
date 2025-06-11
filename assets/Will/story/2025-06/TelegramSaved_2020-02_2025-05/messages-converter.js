@@ -11,15 +11,11 @@ function Init() {
 
 function DownloadExtractedContent() {
     const serializer = new XMLSerializer();
-    const xmlString = serializer.serializeToString(extracted_content);
-    const blob = new Blob([xmlString], { type: "text/xml" });
+    const xmlString = serializer.serializeToString(extractedContent);
+    const blob = new Blob([xmlString], { type: "text/html" });
     const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = "list.html";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    linkExtractedContent.href = url;
+    linkExtractedContent.click();
     URL.revokeObjectURL(url);
 }
 
@@ -53,7 +49,7 @@ function groupMessagesByDay() {
             date.textContent = datetext;
         }
 
-
+        // extract the content of the day
     }
 }
 
