@@ -116,13 +116,14 @@ function parseText(nodes) {
     }
 
     // ...
-    return currentGroup.map(node => {
+    return nodes.reduce((fragment, node) => {
         if (node.nodeName === "#text") {
-            return node.textContent;
+            fragment.appendChild(document.createTextNode(node.textContent));
         } else {
-            return node.outerHTML; // return other nodes as is
+            fragment.appendChild(node.cloneNode(true));
         }
-    });
+        return fragment;
+    }, document.createDocumentFragment());
 }
 
 function copyToClipboard(text) {
