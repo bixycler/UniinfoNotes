@@ -9,8 +9,18 @@ function Init() {
     groupMessagesByDay();
 }
 
-function updateDownloadLink() {
-
+function DownloadExtractedContent() {
+    const serializer = new XMLSerializer();
+    const xmlString = serializer.serializeToString(extracted_content);
+    const blob = new Blob([xmlString], { type: "text/xml" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "list.html";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
 }
 
 function removeElements() {
