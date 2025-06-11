@@ -9,6 +9,10 @@ function Init() {
     groupMessagesByDay();
 }
 
+function updateDownloadLink() {
+    
+}
+
 function removeElements() {
     let users = document.querySelectorAll('.userpic_wrap, .from_name');
     for (let e of users) { e.remove(); }
