@@ -1,3 +1,8 @@
+extracted_content {
+    width: 50%;
+    border: 1px solid black;
+}
+
 body {
     margin: 0;
     font: 12px/18px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana,sans-serif;
