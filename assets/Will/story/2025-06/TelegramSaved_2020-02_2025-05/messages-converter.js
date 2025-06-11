@@ -6,7 +6,7 @@ function Init() {
     console.log("List div: ", listDiv);
     //CheckLocation();
     removeElements();
-    groupMessagesByDay();
+    processMessagesByDay();
 }
 
 function DownloadExtractedContent() {
@@ -24,7 +24,7 @@ function removeElements() {
     for (let e of users) { e.remove(); }
 }
 
-function groupMessagesByDay() {
+function processMessagesByDay() {
     let days = listDiv.querySelectorAll('.message.service');
     for (let day of days) {
         //console.log("Processing day: ", day);
@@ -76,10 +76,16 @@ function groupMessagesByDay() {
             }
             if (text) {
                 let li = document.createElement("li"); messages.appendChild(li);
-                li.innerHTML = text.innerHTML;
+                li.innerHTML = parseText(text.innerHTML);
             }
         }
     }
+}
+
+// Parse the text content of messages into <ul> list items
+function parseText(text) {
+    // This function can be used to parse text content if needed
+    return text;
 }
 
 function copyToClipboard(text) {
