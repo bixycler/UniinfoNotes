@@ -23,9 +23,11 @@ function groupMessagesByDay() {
             nextSibling && nextSibling.classList.contains('message') && !nextSibling.classList.contains('service');
             nextSibling = day.nextElementSibling
         ){
-            let datetime = nextSibling.querySelector('.date.details').title;
-            let datetext = datetime.split(' ')[0].replaceAll('.','');
             day.appendChild(nextSibling);
+            // update the date text in format YYYY-MM-DD
+            let datetime = nextSibling.querySelector('.date.details').title;
+            let datetext = datetime.split(' ')[0].replace(/(\d*)\.(\d*)\.(\d*)/g, '$3-$2-$1');
+            date.textContent = datetext;
         }
 
 
