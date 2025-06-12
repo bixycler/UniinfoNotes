@@ -123,7 +123,8 @@ function splitParagraphs(text) {
 function itemMarker(node) {
     if (!node || node.nodeName !== '#text') return null; // Only text nodes can be items
     let text = node.textContent;
-    let marker = text.slice(0, text.indexOf(' ')+1);
+    let marker = text.match(/^(\-)\s+|^(\d+\.)\s+|^\s+([+*])\s+/);
+    if (!marker) return ''; // No item marker found
     if (marker.startsWith('- ')) return marker;
     if (marker.match(/^\d+\.\s/)) return marker;
     if (marker.match(/^\s+\+\s/)) return marker;
@@ -131,11 +132,7 @@ function itemMarker(node) {
     return ''; // Not an item marker
 }
 function isItemN(node) {
-    if (!node || node.nodeName !== '#text') return false; // Only text nodes can be items
-    // Check if the text starts with a dash or a number followed by a dot
-    let text = node.textContent;
-    let marker = text.slice(0, text.indexOf(' ')+1);
-    return marker.startsWith('- ') || marker.match(/^\d+\.\s/); // Matches "- " or "#. "
+    return itemMarker(node).match(/^\d+\.\s/); // Matches "- " or "#. "
 }
 
 // Split the `-` `#.` items into <li> nodes
