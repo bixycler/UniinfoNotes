@@ -124,12 +124,16 @@ function splitParagraphs(text) {
 function splitItemsN(text) {
     let fragment = document.createDocumentFragment(), parent = fragment;
     let li = document.createElement("li");
+    let firstline = true; // Track if we are at the first line of the paragraph
     let newline = true; // Track if we are at the start of a new line
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === 'BR') { newline = true; continue; }
+        if (node.nodeName === 'BR') { newline = true; firstline = false; continue; }
         if (newline && node.nodeName === '#text' && node.textContent[0] === '-') {
             // If the new line starts with a dash, create a new <li> for it
             if (li.childNodes.length) parent.append(splitItemsP(li)); // flush the previous <li>
+            if (firstline) { // 
+                parent = document.createElement("ul"); li.appendChild(parent);
+            }
             li = document.createElement("li");
             li.textContent = node.textContent.slice(2); // Remove the dash and trim first whitespace
         } else if (newline) {
