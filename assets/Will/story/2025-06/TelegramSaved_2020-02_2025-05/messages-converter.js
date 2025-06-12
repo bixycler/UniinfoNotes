@@ -84,8 +84,8 @@ function processMessagesByDay() {
 // Split the text content into <li> nodes by double newlines
 function splitParagraphs(text) {
     // split the list by double newlines
-    let groups = [];
-    let currentGroup = [];
+    let fragment = document.createDocumentFragment();
+    let li = document.createElement("li");
     let brCount = 0;
     for (let node of text.childNodes) { // split by double <br>s into groups
         if (node.nodeName === "BR") { // consecutive <br>s
@@ -104,15 +104,14 @@ function splitParagraphs(text) {
         }
     }
     if (currentGroup.length) groups.push(currentGroup); // wrap up the last group
-    if (groups.length === 0) return null;
-    if (groups.length > 1) {
-        let ul = document.createElement("ul");
-        for (let group of groups) { // create a new <li> for each group
-            let li = document.createElement("li"); ul.appendChild(li);
-            li.append(parseText(group));
-        }
-        return ul;
+
+
+    let
+    for (let group of groups) { // create a new <li> for each group
+        let li =  ul.appendChild(li);
+        fragment.append(splitItemsN(li));
     }
+    return fragment;
 
     // ...
     return nodes.reduce((fragment, node) => {
