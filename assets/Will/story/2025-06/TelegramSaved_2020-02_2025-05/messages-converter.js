@@ -178,13 +178,14 @@ function splitItems2(oli) {
     let ul = null, li = null;
     let newline = true, postPre = false; // Track the start of a new line
     for (let node of [...oli.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === 'BR') { newline = true; continue; }
+        if (node.nodeName === 'BR') { newline = true; node.remove(); continue; }
         if (newline && isItem2(node)) { // New item line
             if (!ul) { ul = document.createElement("ul"); oli.appendChild(ul); }
             if (li && li.childNodes.length) ul.append(li); // Flush the previous <li>
             li = document.createElement("li");
             // Remove the marker of unordered item
             li.textContent = node.textContent.slice(itemMarker(node)[0].length);
+            node.remove();
         } else if (li) {
             if (newline && !postPre) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
             li.appendChild(node);
