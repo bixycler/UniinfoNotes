@@ -126,18 +126,18 @@ function splitItemsN(text) {
     let li = document.createElement("li");
     if (text.childNodes.length === 0) return fragment; // No content to process
     let firstNode = text.firstChild;
-    let leadingText = !(firstNode.nodeName === '#text' && firstNode.textContent[0] === '-'); // Non-item leading text
+    let leadingText = !isItemN(firstNode); // Non-item leading text
     let newline = true, postPre = false; // Track the start of a new line
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
         if (node.nodeName === 'BR') { newline = true; firstline = false; continue; }
-        if (newline && node.nodeName === '#text' && node.textContent[0] === '-') { // New item starts with a dash
+        if (newline && isItemN(node)) { // New item starts with a dash
             if (li.childNodes.length) parent.append(splitItemsP(li)); // flush the previous <li>
             if (leadingText) { // After the leading text, wrap the following items in a <ul>
                 parent = document.createElement("ul"); li.appendChild(parent);
                 leadingText = false; // Only one <ul> for all items
             }
             li = document.createElement("li");
-            li.textContent = node.textContent.slice(2); // Remove the dash and trim first whitespace
+            li.textContent = node.textContent.slice(node.textContent.indexOf(' ')+1); // Remove the item marker
         } else {
             if (newline && !postPre && firstNode != node) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
             li.appendChild(node);
@@ -147,6 +147,12 @@ function splitItemsN(text) {
     }
     if (li.childNodes.length) parent.append(splitItemsP(li)); // Wrap up the last item
     return fragment;
+}
+function isItemN(node) {
+    if (!node || node.nodeName !== '#text') return false; // Only text nodes can be items
+    // Check if the text starts with a dash or a number followed by a dot
+    let text = node.textContent;
+    
 }
 
 // Split the `+` `*` subitems into <li> nodes
