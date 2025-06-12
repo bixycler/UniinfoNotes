@@ -2301,9 +2301,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-06-02 Mon 16:35:17]
 		  :END:
-			- Convert `messages.html` to `list.html` ~~with `sed`~~ with javascript
+			- Convert `messages.html` to `list.html` ~~with `sed`~~ with javascript via `messages.processed.html` & `messages-converter.js`
 				- merge all notes in a day into 1 block: image & text are treated equally as separate items
-				- `<body onload="CheckLocation();">` -> `Init()`
+					- split to array & join them first, then convert the tree to ul list
+					- split{Paragraph > List1 > List2}(nodes array)
+				- `messages.processed.html`: `<body onload="CheckLocation();">` -> `Init()`
 				- Attempt with `sed`
 				  collapsed:: true
 					- First, remove all `<div class="from_name">` & `<div class="media_wrap clearfix">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
