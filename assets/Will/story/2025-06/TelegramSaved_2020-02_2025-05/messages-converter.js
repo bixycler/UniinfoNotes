@@ -104,7 +104,7 @@ function splitParagraphs(text) {
         }
     }
     if (currentGroup.length) groups.push(currentGroup); // wrap up the last group
-    if (groups.length === 0) return '';
+    if (groups.length === 0) return null;
     if (groups.length > 1) {
         let ul = document.createElement("ul");
         for (let group of groups) { // create a new <li> for each group
