@@ -127,7 +127,7 @@ function splitItemsN(text) {
     if (text.childNodes.length === 0) return fragment; // No content to process
     let firstNode = text.firstChild;
     let leadingText = !(firstNode.nodeName === '#text' && firstNode.textContent[0] === '-'); // Non-item leading text
-    let newline = true; // Track the start of a new line
+    let newline = true, postPre = false; // Track the start of a new line
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
         if (node.nodeName === 'BR') { newline = true; firstline = false; continue; }
         if (newline && node.nodeName === '#text' && node.textContent[0] === '-') { // New item starts with a dash
@@ -139,10 +139,11 @@ function splitItemsN(text) {
             li = document.createElement("li");
             li.textContent = node.textContent.slice(2); // Remove the dash and trim first whitespace
         } else {
-            if (newline && firstNode != node) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
+            if (newline && !postPre && firstNode != node) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
             li.appendChild(node);
         }
         newline = false;
+        if (node.nodeName === 'PRE') { postPre = true; newline = true; firstline = false; }
     }
     if (li.childNodes.length) parent.append(splitItemsP(li)); // Wrap up the last item
     return fragment;
