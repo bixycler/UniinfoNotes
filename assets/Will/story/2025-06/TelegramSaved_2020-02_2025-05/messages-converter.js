@@ -152,7 +152,7 @@ function splitItems1(text) {
     let leadingText = !isItem1(firstNode); // Non-item leading text
     let newline = true, postPre = false; // Track the start of a new line
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === 'BR') { newline = true; firstline = false; continue; }
+        if (node.nodeName === 'BR') { newline = true; postPre = false; firstline = false; continue; }
         if (newline && isItem1(node)) { // New item line
             if (li.childNodes.length) parent.append(splitItems2(li)); // Flush the previous <li>
             if (leadingText) { // After the leading text, wrap the following items in a <ul>
@@ -179,7 +179,7 @@ function splitItems2(oli) {
     let ul = null, li = null;
     let newline = true, postPre = false; // Track the start of a new line
     for (let node of [...oli.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === 'BR') { newline = true; node.remove(); continue; }
+        if (node.nodeName === 'BR') { newline = true; postPre = false; node.remove(); continue; }
         if (newline && isItem2(node)) { // New item line
             if (!ul) { ul = document.createElement("ul"); oli.appendChild(ul); }
             if (li && li.childNodes.length) ul.append(li); // Flush the previous <li>
