@@ -128,7 +128,8 @@ function splitParagraphs(text) {
 // marker[3]: 2nd level unordered item: ( -), ( +), ( *)
 function itemMarker(node) {
     if (!node || node.nodeName !== '#text') return null; // Only text nodes can be items
-    let marker = node.textContent.match(/^(\-)\s+|^(\d+)\.\s+|^\s+([-+*])\s+/); // Match item markers: [- ], [#. ], [ - ], [ + ], [ * ]
+    let marker = node.textContent.match(/^\n*(\-)\s+|^\n*(\d+)\.\s+|^\s+([-+*])\s+/); // Match item markers: [- ], [#. ], [ - ], [ + ], [ * ]
+        // Tricky: `^\n*` to deal with the case that *sometimes* browsers include newlines in the text nodes
     return marker;
 }
 // Check if the node is a 1st level item
