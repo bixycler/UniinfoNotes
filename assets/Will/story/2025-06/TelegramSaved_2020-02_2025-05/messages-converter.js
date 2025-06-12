@@ -76,7 +76,8 @@ function processMessagesByDay() {
             }
             if (text) {
                 let fragment = document.createDocumentFragment();
-                for (let node of text.childNodes) fragment.appendChild(node.cloneNode(true));
+                for (let node of [...text.childNodes]) fragment.appendChild(node.cloneNode(deep = true));
+                    // Use [...] and cloneNode() to not affect the original DOM
                 messages.append(splitParagraphs(fragment));
             }
         }
@@ -88,7 +89,7 @@ function splitParagraphs(text) {
     let fragment = document.createDocumentFragment();
     let li = document.createElement("li");
     let brCount = 0;
-    for (let node of Array.from(text.childNodes)) { // Use Array.from() to capture a *static* node list from the live NodeList
+    for (let node of [...text.childNodes]) { // Use [...] to capture a snapshot of the *live* NodeList
         if (node.nodeName === "BR") { // Count consecutive <br>s
             brCount++;
         } else {
@@ -110,8 +111,9 @@ function splitParagraphs(text) {
 function splitItemsN(text) {
     let fragment = document.createDocumentFragment();
     let li = document.createElement("li");
-    for (let node of Array.from(text.childNodes)) { // Use Array.from() to capture a *static* node list
-        li.appendChild(node); //DEBUG just copy the node as is
+    for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
+        if (node.nodeName === )
+        li.appendChild(node);
     }
     if (li.childNodes.length) fragment.append(splitItemsP(li));
     return fragment;
