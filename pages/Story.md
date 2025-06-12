@@ -2304,6 +2304,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Convert `messages.html` to `list.html` ~~with `sed`~~ with javascript via `messages.processed.html` & `messages-converter.js`
 				- `messages.processed.html`: `<body onload="CheckLocation();">` -> `Init()` + extracted content column
 				- `messages-converter.js`: merge all notes in a day into 1 block: image & text are treated equally as separate items
+				  id:: 68429ef1-dc83-4d36-892f-1de746bfab09
 					- split to array & join them first, then convert the tree to ul list
 					- split{Paragraph > List1 > List2}(nodes array)
 				- Attempt with `sed`
@@ -2510,7 +2511,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The illness at nose & throat has been nearly gone.
 				- Observing the internal effect flow, i see [spring doll = effect flow from intent to extent](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) and ((6846e19d-1af1-413a-b225-c9d48b4dd308))
 			- 10th, my [psoriasis](https://en.wikipedia.org/wiki/Psoriasis) is relapsing gradualy. On the way to company, i saw that ((68481e2b-0144-42e6-bd9b-96d2fd905573))
-			- 11th, 12th, ...
+			- 11th, 12th, ... working with [`messages-converter.js` for Telegram saved messages](((68429ef1-dc83-4d36-892f-1de746bfab09)))
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
