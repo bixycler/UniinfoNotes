@@ -88,7 +88,7 @@ function splitParagraphs(text) {
     let fragment = document.createDocumentFragment();
     let li = document.createElement("li");
     let brCount = 0;
-    for (let node of text.querySelectorAll('*')) { // Use querySelectorAll(*) instead of childNodes to get a *static* NodeList
+    for (let node of Array.from(text.childNodes)) { // Use Array.from() to capture a *static* node list from the live NodeList
         if (node.nodeName === "BR") { // Count consecutive <br>s
             brCount++;
         } else {
@@ -110,7 +110,7 @@ function splitParagraphs(text) {
 function splitItemsN(text) {
     let fragment = document.createDocumentFragment();
     let li = document.createElement("li");
-    for (let node of text.querySelectorAll('*')) { // Use querySelectorAll(*) instead of childNodes to get a *static* NodeList
+    for (let node of Array.from(text.childNodes)) { // Use Array.from() to capture a *static* node list
         li.appendChild(node); //DEBUG just copy the node as is
     }
     if (li.childNodes.length) fragment.append(splitItemsP(li));
