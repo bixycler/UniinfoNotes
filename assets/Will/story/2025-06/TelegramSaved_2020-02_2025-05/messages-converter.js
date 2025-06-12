@@ -75,20 +75,19 @@ function processMessagesByDay() {
                 }
             }
             if (text) {
-                let li = document.createElement("li"); messages.appendChild(li);
-                li.append(parseText(Array.from(text.childNodes)));
+                messages.append(splitParagraphs(text));
             }
         }
     }
 }
 
-// Parse the text content of messages into <ul> list items
-function parseText(nodes) {
+// Split the text content into <li> nodes by double newlines
+function splitParagraphs(text) {
     // split the list by double newlines
     let groups = [];
     let currentGroup = [];
     let brCount = 0;
-    for (let node of nodes) { // split by double <br>s into groups
+    for (let node of text.childNodes) { // split by double <br>s into groups
         if (node.nodeName === "BR") { // consecutive <br>s
             brCount++;
             if (brCount >= 2) {
