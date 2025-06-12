@@ -83,26 +83,22 @@ function processMessagesByDay() {
     }
 }
 
-// Split the text content into <li> nodes by double newlines
+// Split the text content into <li> nodes by double newlines (<br><br>)
 function splitParagraphs(text) {
-    // split the list by double newlines
     let fragment = document.createDocumentFragment();
     let li = document.createElement("li");
     let brCount = 0;
-    for (let node of text.childNodes) { // split by double <br>s into groups
-        if (node.nodeName === "BR") { // consecutive <br>s
+    for (let node of text.childNodes) {
+        if (node.nodeName === "BR") {
             brCount++;
-            if (brCount >= 2) {
-                if (li.length) fragment.append(splitItemsN(li));
-                li = document.createElement("li"); brCount = 0;
-            }
         } else {
-            if (brCount > 0) {
-                // Single <br> is just a line break, keep in group
-                li.push(document.createElement("br"));
-                brCount = 0;
+            if (brCount === 1) { // Single <br> is just a line break, keep it
+                li.appendChild(document.createElement("br"));
+            } else if (brCount > 1) { // More than one <br> means a paragraph break
+                if (li.childNodes.length) fragment.append(splitItemsN(li));
+                li = document.createElement("li");
             }
-            li.push(node);
+            li.appendChild(node); brCount = 0;
         }
     }
     if (li.length) groups.push(li); // wrap up the last group
