@@ -144,7 +144,7 @@ function splitItemsN(text) {
         }
         newline = false;
     }
-    if (li.childNodes.length) fragment.append(splitItemsP(li));
+    if (li.childNodes.length) parent.append(splitItemsP(li)); // Wrap up the last item
     return fragment;
 }
 
