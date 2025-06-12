@@ -75,7 +75,9 @@ function processMessagesByDay() {
                 }
             }
             if (text) {
-                messages.append(splitParagraphs(text));
+                let fragment = document.createDocumentFragment();
+                for (let node of text.childNodes) fragment.appendChild(node.cloneNode(true));
+                messages.append(splitParagraphs(fragment));
             }
         }
     }
@@ -91,37 +93,21 @@ function splitParagraphs(text) {
         if (node.nodeName === "BR") { // consecutive <br>s
             brCount++;
             if (brCount >= 2) {
-                if (currentGroup.length) groups.push(currentGroup);
-                currentGroup = []; brCount = 0;
+                if (li.length) fragment.append(splitItemsN(li));
+                li = document.createElement("li"); brCount = 0;
             }
         } else {
             if (brCount > 0) {
                 // Single <br> is just a line break, keep in group
-                currentGroup.push(document.createElement("br"));
+                li.push(document.createElement("br"));
                 brCount = 0;
             }
-            currentGroup.push(node);
+            li.push(node);
         }
     }
-    if (currentGroup.length) groups.push(currentGroup); // wrap up the last group
+    if (li.length) groups.push(li); // wrap up the last group
 
-
-    let
-    for (let group of groups) { // create a new <li> for each group
-        let li =  ul.appendChild(li);
-        fragment.append(splitItemsN(li));
-    }
     return fragment;
-
-    // ...
-    return nodes.reduce((fragment, node) => {
-        if (node.nodeName === "#text") {
-            fragment.appendChild(document.createTextNode(node.textContent));
-        } else {
-            fragment.appendChild(node.cloneNode(true));
-        }
-        return fragment;
-    }, document.createDocumentFragment());
 }
 
 function copyToClipboard(text) {
