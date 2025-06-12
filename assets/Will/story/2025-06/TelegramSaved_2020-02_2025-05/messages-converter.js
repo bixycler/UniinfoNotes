@@ -120,6 +120,24 @@ function splitParagraphs(text) {
     return fragment;
 }
 
+function itemMarker(node) {
+    if (!node || node.nodeName !== '#text') return null; // Only text nodes can be items
+    let text = node.textContent;
+    let marker = text.slice(0, text.indexOf(' ')+1);
+    if (marker.startsWith('- ')) return marker;
+    if (marker.match(/^\d+\.\s/)) return marker;
+    if (marker.match(/^\s+\+\s/)) return marker;
+    if (marker.match(/^\s+\*\s/)) return marker;
+    return ''; // Not an item marker
+}
+function isItemN(node) {
+    if (!node || node.nodeName !== '#text') return false; // Only text nodes can be items
+    // Check if the text starts with a dash or a number followed by a dot
+    let text = node.textContent;
+    let marker = text.slice(0, text.indexOf(' ')+1);
+    return marker.startsWith('- ') || marker.match(/^\d+\.\s/); // Matches "- " or "#. "
+}
+
 // Split the `-` `#.` items into <li> nodes
 function splitItemsN(text) {
     let fragment = document.createDocumentFragment(), parent = fragment;
@@ -147,12 +165,6 @@ function splitItemsN(text) {
     }
     if (li.childNodes.length) parent.append(splitItemsP(li)); // Wrap up the last item
     return fragment;
-}
-function isItemN(node) {
-    if (!node || node.nodeName !== '#text') return false; // Only text nodes can be items
-    // Check if the text starts with a dash or a number followed by a dot
-    let text = node.textContent;
-    
 }
 
 // Split the `+` `*` subitems into <li> nodes
