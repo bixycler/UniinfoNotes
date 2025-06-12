@@ -174,15 +174,15 @@ function splitItems1(text) {
 }
 
 // Split the `+` `*` 2nd level items into <li> nodes
-function splitItems2(text) {
-    let fragment = document.createDocumentFragment();
+function splitItems2(oli) {
+    if (oli.childNodes.length === 0) return oli; // No content to process
+    let ul = document.createElement("ul");
     let li = document.createElement("li");
-    if (text.childNodes.length === 0) return fragment; // No content to process
     let newline = true, postPre = false; // Track the start of a new line
-    for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
+    for (let node of [...oli.childNodes]) { // Use [...] for a *static* node list
         if (node.nodeName === 'BR') { newline = true; continue; }
         if (newline && isItem2(node)) { // New item line
-            if (li.childNodes.length) fragment.append(li); // flush the previous <li>
+            if (li.childNodes.length) ul.append(li); // flush the previous <li>
             li = document.createElement("li");
             // Remove the marker of unordered item
             li.textContent = node.textContent.slice(itemMarker(node)[0].length);
@@ -193,8 +193,9 @@ function splitItems2(text) {
         newline = false;
         if (node.nodeName === 'PRE') { postPre = true; newline = true; }
     }
-    if (li.childNodes.length) fragment.append(li); // Wrap up the last item
-    return fragment;
+    if (li.childNodes.length) ul.append(li); // Wrap up the last item
+    oli.appendChild(ul); // Append the processed items back to the original <li>
+    return oli;
 }
 
 function copyToClipboard(text) {
