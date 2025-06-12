@@ -138,9 +138,8 @@ function splitItemsN(text) {
             }
             li = document.createElement("li");
             li.textContent = node.textContent.slice(2); // Remove the dash and trim first whitespace
-        } else if (newline) {
-            li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
         } else {
+            if (newline && firstNode != node) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
             li.appendChild(node);
         }
         newline = false;
