@@ -149,7 +149,7 @@ function splitItemsN(text) {
     return fragment;
 }
 
-// Split the `+` items into <li> nodes
+// Split the `+` `*` subitems into <li> nodes
 function splitItemsP(text) {
     return text; //DEBUG just return the node as is
 }
