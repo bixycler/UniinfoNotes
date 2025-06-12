@@ -2543,6 +2543,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- the **passive** psychonautic mode (traveling deep inside) with **cold** body and
 					- the **active** mode (traveling the works outside) with **warm** body.
 				- At the end of the day, the folder `Downloads/Telegram Desktop/` was mysteriously moved to Trash! 😧
+					- I see the mistake: Because it's next to the exported file `list.html`, i deleted it in an attempt to delete `list.html` to refresh the exported file! 😆
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
