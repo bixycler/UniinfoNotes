@@ -122,9 +122,9 @@ function splitParagraphs(text) {
 
 // Get the item marker from a text node
 // !marker: non-item node
-// marker[0]: 
+// marker[0]: matched marker text
 // marker[1]: (-) 1st level unordered item
-// marker[2]: (#.) 1st level ordered item
+// marker[2]: (#) 1st level ordered item
 // marker[3]: 2nd level unordered item: ( -), ( +), ( *)
 function itemMarker(node) {
     if (!node || node.nodeName !== '#text') return null; // Only text nodes can be items
@@ -152,14 +152,16 @@ function splitItemsN(text) {
     let newline = true, postPre = false; // Track the start of a new line
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
         if (node.nodeName === 'BR') { newline = true; firstline = false; continue; }
-        if (newline && isItemN(node)) { // New item starts with a dash
+        if (newline && isItemN(node)) { // New item line
             if (li.childNodes.length) parent.append(splitItemsP(li)); // flush the previous <li>
             if (leadingText) { // After the leading text, wrap the following items in a <ul>
                 parent = document.createElement("ul"); li.appendChild(parent);
                 leadingText = false; // Only one <ul> for all items
             }
             li = document.createElement("li");
-            li.textContent = node.textContent.slice(node.textContent.indexOf(' ')+1); // Remove the item marker
+            let marker = itemMarker(node);
+            let ml = marker[1] ? marker[1].length : 0; // Get the length of the item marker
+            li.textContent = node.textContent.slice(ml); // Remove the marker
         } else {
             if (newline && !postPre && firstNode != node) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
             li.appendChild(node);
