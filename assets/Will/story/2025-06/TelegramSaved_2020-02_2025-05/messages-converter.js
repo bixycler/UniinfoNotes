@@ -78,7 +78,7 @@ function processMessagesByDay() {
                 let fragment = document.createDocumentFragment();
                 for (let node of [...text.childNodes]) fragment.appendChild(node.cloneNode(deep = true));
                     // Use [...] and cloneNode() to not affect the original DOM
-                messages.append(splitParagraphs(fragment)); // > splitItemsN() > splitItemsP()
+                messages.append(splitParagraphs(fragment)); // > splitItems1() > splitItemsP()
                     // Text format:
                     // Paragraph 1
                     // - Item 1
@@ -109,13 +109,13 @@ function splitParagraphs(text) {
             if (brCount === 1) { // Single <br> is just a line break, keep it
                 li.appendChild(document.createElement("br"));
             } else if (brCount > 1) { // More than one <br> means a paragraph break
-                if (li.childNodes.length) fragment.append(splitItemsN(li));
+                if (li.childNodes.length) fragment.append(splitItems1(li));
                 li = document.createElement("li");
             }
             li.appendChild(node); brCount = 0;
         }
     }
-    if (li.childNodes.length) fragment.append(splitItemsN(li)); // wrap up the last paragraph
+    if (li.childNodes.length) fragment.append(splitItems1(li)); // wrap up the last paragraph
 
     return fragment;
 }
@@ -132,7 +132,7 @@ function itemMarker(node) {
     return marker;
 }
 // Check if the node is a 1st level item
-function isItemN(node) {
+function isItem1(node) {
     let marker = itemMarker(node);
     return marker && (marker[1] || marker[2]);
 }
@@ -143,25 +143,25 @@ function isItemP(node) {
 }
 
 // Split the `-` `#.` items into <li> nodes
-function splitItemsN(text) {
+function splitItems1(text) {
     let fragment = document.createDocumentFragment(), parent = fragment;
     let li = document.createElement("li");
     if (text.childNodes.length === 0) return fragment; // No content to process
     let firstNode = text.firstChild;
-    let leadingText = !isItemN(firstNode); // Non-item leading text
+    let leadingText = !isItem1(firstNode); // Non-item leading text
     let newline = true, postPre = false; // Track the start of a new line
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
         if (node.nodeName === 'BR') { newline = true; firstline = false; continue; }
-        if (newline && isItemN(node)) { // New item line
+        if (newline && isItem1(node)) { // New item line
             if (li.childNodes.length) parent.append(splitItemsP(li)); // flush the previous <li>
             if (leadingText) { // After the leading text, wrap the following items in a <ul>
                 parent = document.createElement("ul"); li.appendChild(parent);
                 leadingText = false; // Only one <ul> for all items
             }
             li = document.createElement("li");
+            // Remove the marker of unordered item
             let marker = itemMarker(node);
-            let ml = marker[1] ? marker[1].length : 0; // Get the length of the item marker
-            li.textContent = node.textContent.slice(ml); // Remove the marker
+            li.textContent = node.textContent.slice(marker[1] ? marker[1].length : 0);
         } else {
             if (newline && !postPre && firstNode != node) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
             li.appendChild(node);
