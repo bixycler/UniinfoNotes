@@ -120,16 +120,14 @@ function splitParagraphs(text) {
     return fragment;
 }
 
+// Get the item marker from a text node
+// !marker: no marker
+// marker[1]: (-) 1st level unordered items
+// marker[2]: (#.) 1st level ordered items)
 function itemMarker(node) {
     if (!node || node.nodeName !== '#text') return null; // Only text nodes can be items
-    let text = node.textContent;
-    let marker = text.match(/^(\-)\s+|^(\d+\.)\s+|^\s+([+*])\s+/);
-    if (!marker) return ''; // No item marker found
-    if (marker.startsWith('- ')) return marker;
-    if (marker.match(/^\d+\.\s/)) return marker;
-    if (marker.match(/^\s+\+\s/)) return marker;
-    if (marker.match(/^\s+\*\s/)) return marker;
-    return ''; // Not an item marker
+    let marker = node.textContent.match(/^(\-)\s+|^(\d+)\.\s+|^\s+([-+*])\s+/); // Match item markers: [- ], [#. ], [ - ], [ + ], [ * ]
+    return marker;
 }
 function isItemN(node) {
     return itemMarker(node).match(/^\d+\.\s/); // Matches "- " or "#. "
