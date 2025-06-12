@@ -161,7 +161,7 @@ function splitItems1(text) {
             li = document.createElement("li");
             // Remove the marker of unordered item
             let marker = itemMarker(node);
-            li.textContent = node.textContent.slice(marker[1] ? marker[1].length : 0);
+            li.textContent = node.textContent.slice(marker[1] ? marker[0].length : 0);
         } else {
             if (newline && !postPre && firstNode != node) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
             li.appendChild(node);
@@ -187,13 +187,13 @@ function splitItems2(text) {
             // Remove the marker of unordered item
             li.textContent = node.textContent.slice(itemMarker(node)[0].length);
         } else {
-            if (newline && !postPre && firstNode != node) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
+            if (newline && !postPre) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
             li.appendChild(node);
         }
         newline = false;
         if (node.nodeName === 'PRE') { postPre = true; newline = true; }
     }
-    if (li.childNodes.length) fragment.append(splitItems2(li)); // Wrap up the last item
+    if (li.childNodes.length) fragment.append(li); // Wrap up the last item
     return fragment;
 }
 
