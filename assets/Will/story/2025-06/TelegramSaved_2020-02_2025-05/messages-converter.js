@@ -109,11 +109,17 @@ function splitParagraphs(text) {
 
 // Split the `-` items into <li> nodes
 function splitItemsN(text) {
-    let fragment = document.createDocumentFragment();
+    let fragment = document.createDocumentFragment(), parent = fragment;
     let li = document.createElement("li");
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === )
-        li.appendChild(node);
+        if (node.nodeName === '#text' && node.textContent[0] === '-') {
+            // If the text starts with a dash, create a new <li> for it
+            if (li.childNodes.length) parent.append(splitItemsP(li)); // flush the previous <li>
+            li = document.createElement("li");
+            li.textContent = node.textContent.slice(1).trim(); // Remove the dash and trim whitespace
+        } else {
+            li.appendChild(node);
+        }
     }
     if (li.childNodes.length) fragment.append(splitItemsP(li));
     return fragment;
