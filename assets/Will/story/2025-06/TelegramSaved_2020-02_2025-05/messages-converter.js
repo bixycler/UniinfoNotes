@@ -121,16 +121,25 @@ function splitParagraphs(text) {
 }
 
 // Get the item marker from a text node
-// !marker: no marker
-// marker[1]: (-) 1st level unordered items
-// marker[2]: (#.) 1st level ordered items)
+// !marker: non-item node
+// marker[0]: 
+// marker[1]: (-) 1st level unordered item
+// marker[2]: (#.) 1st level ordered item
+// marker[3]: 2nd level unordered item: ( -), ( +), ( *)
 function itemMarker(node) {
     if (!node || node.nodeName !== '#text') return null; // Only text nodes can be items
     let marker = node.textContent.match(/^(\-)\s+|^(\d+)\.\s+|^\s+([-+*])\s+/); // Match item markers: [- ], [#. ], [ - ], [ + ], [ * ]
     return marker;
 }
+// Check if the node is a 1st level item
 function isItemN(node) {
-    return itemMarker(node).match(/^\d+\.\s/); // Matches "- " or "#. "
+    let marker = itemMarker(node);
+    return marker && (marker[1] || marker[2]);
+}
+// Check if the node is a 2nd level item
+function isItemP(node) {
+    let marker = itemMarker(node);
+    return marker && (marker[3]);
 }
 
 // Split the `-` `#.` items into <li> nodes
