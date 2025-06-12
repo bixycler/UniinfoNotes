@@ -111,15 +111,20 @@ function splitParagraphs(text) {
 function splitItemsN(text) {
     let fragment = document.createDocumentFragment(), parent = fragment;
     let li = document.createElement("li");
+    let newline = true; // Track if we are at the start of a new line
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === '#text' && node.textContent[0] === '-') {
+        if (node.nodeName === 'BR') { newline = true; continue; }
+        if (newline && node.nodeName === '#text' && node.textContent[0] === '-') {
             // If the text starts with a dash, create a new <li> for it
             if (li.childNodes.length) parent.append(splitItemsP(li)); // flush the previous <li>
             li = document.createElement("li");
             li.textContent = node.textContent.slice(1).trim(); // Remove the dash and trim whitespace
+        } else if (newline) {
+            li.appendChild(document.createElement("br")); // If it's a new line, add a <br>
         } else {
             li.appendChild(node);
         }
+        newline = false;
     }
     if (li.childNodes.length) fragment.append(splitItemsP(li));
     return fragment;
