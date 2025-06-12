@@ -78,7 +78,14 @@ function processMessagesByDay() {
                 let fragment = document.createDocumentFragment();
                 for (let node of [...text.childNodes]) fragment.appendChild(node.cloneNode(deep = true));
                     // Use [...] and cloneNode() to not affect the original DOM
-                messages.append(splitParagraphs(fragment));
+                messages.append(splitParagraphs(fragment)); // > splitItemsN() > splitItemsP()
+                    // Text format:
+                    // Paragraph 1
+                    // - Item 1
+                    // - Item 2
+                    //
+                    // Paragraph 2
+                    
             }
         }
     }
@@ -115,12 +122,12 @@ function splitItemsN(text) {
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
         if (node.nodeName === 'BR') { newline = true; continue; }
         if (newline && node.nodeName === '#text' && node.textContent[0] === '-') {
-            // If the text starts with a dash, create a new <li> for it
+            // If the new line starts with a dash, create a new <li> for it
             if (li.childNodes.length) parent.append(splitItemsP(li)); // flush the previous <li>
             li = document.createElement("li");
-            li.textContent = node.textContent.slice(1).trim(); // Remove the dash and trim whitespace
+            li.textContent = node.textContent.slice(2); // Remove the dash and trim first whitespace
         } else if (newline) {
-            li.appendChild(document.createElement("br")); // If it's a new line, add a <br>
+            li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
         } else {
             li.appendChild(node);
         }
