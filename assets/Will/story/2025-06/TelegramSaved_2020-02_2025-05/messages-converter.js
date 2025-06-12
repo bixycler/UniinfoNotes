@@ -128,10 +128,9 @@ function splitItemsN(text) {
     let newline = true; // Track if we are at the start of a new line
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
         if (node.nodeName === 'BR') { newline = true; firstline = false; continue; }
-        if (newline && node.nodeName === '#text' && node.textContent[0] === '-') {
-            // If the new line starts with a dash, create a new <li> for it
+        if (newline && node.nodeName === '#text' && node.textContent[0] === '-') { // New item starts with a dash
             if (li.childNodes.length) parent.append(splitItemsP(li)); // flush the previous <li>
-            if (firstline) { // 
+            else if (firstline) { // Wrap items in <ul> if there's a leading text
                 parent = document.createElement("ul"); li.appendChild(parent);
             }
             li = document.createElement("li");
