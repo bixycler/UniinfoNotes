@@ -153,7 +153,7 @@ function splitItems1(text) {
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
         if (node.nodeName === 'BR') { newline = true; firstline = false; continue; }
         if (newline && isItem1(node)) { // New item line
-            if (li.childNodes.length) parent.append(splitItems2(li)); // flush the previous <li>
+            if (li.childNodes.length) parent.append(splitItems2(li)); // Flush the previous <li>
             if (leadingText) { // After the leading text, wrap the following items in a <ul>
                 parent = document.createElement("ul"); li.appendChild(parent);
                 leadingText = false; // Only one <ul> for all items
@@ -175,26 +175,24 @@ function splitItems1(text) {
 
 // Split the `+` `*` 2nd level items into <li> nodes
 function splitItems2(oli) {
-    if (oli.childNodes.length === 0) return oli; // No content to process
-    let ul = document.createElement("ul");
-    let li = document.createElement("li");
+    let ul = null, li = null;
     let newline = true, postPre = false; // Track the start of a new line
     for (let node of [...oli.childNodes]) { // Use [...] for a *static* node list
         if (node.nodeName === 'BR') { newline = true; continue; }
         if (newline && isItem2(node)) { // New item line
-            if (li.childNodes.length) ul.append(li); // flush the previous <li>
+            if (!ul) { ul = document.createElement("ul"); oli.appendChild(ul); }
+            if (li && li.childNodes.length) ul.append(li); // Flush the previous <li>
             li = document.createElement("li");
             // Remove the marker of unordered item
             li.textContent = node.textContent.slice(itemMarker(node)[0].length);
-        } else {
+        } else if (li) {
             if (newline && !postPre) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
             li.appendChild(node);
         }
         newline = false;
         if (node.nodeName === 'PRE') { postPre = true; newline = true; }
     }
-    if (li.childNodes.length) ul.append(li); // Wrap up the last item
-    oli.appendChild(ul); // Append the processed items back to the original <li>
+    if (li && li.childNodes.length) ul.append(li); // Wrap up the last item
     return oli;
 }
 
