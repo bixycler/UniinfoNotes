@@ -2302,10 +2302,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-06-02 Mon 16:35:17]
 		  :END:
 			- Convert `messages.html` to `list.html` ~~with `sed`~~ with javascript via `messages.processed.html` & `messages-converter.js`
-				- merge all notes in a day into 1 block: image & text are treated equally as separate items
+				- `messages.processed.html`: `<body onload="CheckLocation();">` -> `Init()` + extracted content column
+				- `messages-converter.js`: merge all notes in a day into 1 block: image & text are treated equally as separate items
 					- split to array & join them first, then convert the tree to ul list
 					- split{Paragraph > List1 > List2}(nodes array)
-				- `messages.processed.html`: `<body onload="CheckLocation();">` -> `Init()`
 				- Attempt with `sed`
 				  collapsed:: true
 					- First, remove all `<div class="from_name">` & `<div class="media_wrap clearfix">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
@@ -2330,8 +2330,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `s#...#...#p`: Captures the timestamp (`\1`) and main text (`\2`), substitute (`s`) the text in pattern space with with the target `<li>` structure, then print (`p`) the pattern space.
 							- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
 						- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
-				- Test message list
-					-
+			- Test message list
+				-
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
@@ -2510,7 +2510,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The illness at nose & throat has been nearly gone.
 				- Observing the internal effect flow, i see [spring doll = effect flow from intent to extent](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) and ((6846e19d-1af1-413a-b225-c9d48b4dd308))
 			- 10th, my [psoriasis](https://en.wikipedia.org/wiki/Psoriasis) is relapsing gradualy. On the way to company, i saw that ((68481e2b-0144-42e6-bd9b-96d2fd905573))
-			- 11th, ...
+			- 11th, 12th, ...
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
