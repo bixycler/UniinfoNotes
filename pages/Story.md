@@ -2310,13 +2310,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Array tree structure:
 						- ```js
 						  [
-						    string, #text node, BR node, A node, B node, ...
+						  - DocumentFragment{string, #text node, BR node, A node, B node, ... (no UL nodes)},
+						  - DocumentFragment
 						    [
-						      string, #text node, BR node, A node, B node, ...
-						    	[ list 1 ]
-						  	string, #text node, BR node, A node, B node, ...
-						  	[ list 2 ]
-						    ]
+						    - DocumentFragment
+						    	[ DocumentFragment, DocumentFragment, ... ],
+						    - DocumentFragment
+						  	[ DocumentFragment, DocumentFragment, ... ],
+						    ],
 						  ]
 						  ```
 				- Attempt with `sed`
