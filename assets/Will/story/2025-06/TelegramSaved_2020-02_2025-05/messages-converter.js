@@ -120,7 +120,7 @@ function splitParagraphs(text) {
     return fragment;
 }
 
-// Split the `-` items into <li> nodes
+// Split the `-` `#.` items into <li> nodes
 function splitItemsN(text) {
     let fragment = document.createDocumentFragment(), parent = fragment;
     let li = document.createElement("li");
