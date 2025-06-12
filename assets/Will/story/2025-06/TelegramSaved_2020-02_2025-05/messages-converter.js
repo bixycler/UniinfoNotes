@@ -89,7 +89,7 @@ function splitParagraphs(text) {
     let li = document.createElement("li");
     let brCount = 0;
     for (let node of text.childNodes) {
-        if (node.nodeName === "BR") {
+        if (node.nodeName === "BR") { // Count consecutive <br>s
             brCount++;
         } else {
             if (brCount === 1) { // Single <br> is just a line break, keep it
@@ -101,8 +101,19 @@ function splitParagraphs(text) {
             li.appendChild(node); brCount = 0;
         }
     }
-    if (li.length) groups.push(li); // wrap up the last group
+    if (li.childNodes.length) fragment.append(splitItemsN(li)); // wrap up the last paragraph
 
+    return fragment;
+}
+
+// Split the `-` items into <li> nodes
+function splitItemsN(text) {
+    let fragment = document.createDocumentFragment();
+    let li = document.createElement("li");
+    for (let node of text.childNodes) {
+        li.appendChild(node); //DEBUG just copy the node as is
+    }
+    if (li.childNodes.length) fragment.append(splitItemsP(li));
     return fragment;
 }
 
