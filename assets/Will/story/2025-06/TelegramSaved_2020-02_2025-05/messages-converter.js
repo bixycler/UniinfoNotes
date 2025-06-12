@@ -117,6 +117,11 @@ function splitItemsN(text) {
     return fragment;
 }
 
+// Split the `+` items into <li> nodes
+function splitItemsP(text) {
+    return text; //DEBUG just return the node as is
+}
+
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(() => {
         console.log("Copied to clipboard: " + text);
