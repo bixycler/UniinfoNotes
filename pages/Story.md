@@ -2305,9 +2305,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- `messages.processed.html`: `<body onload="CheckLocation();">` -> `Init()` + extracted content column
 				- `messages-converter.js`: merge all notes in a day into 1 block: image & text are treated equally as separate items
 				  id:: 68429ef1-dc83-4d36-892f-1de746bfab09
-					- split to array & join them first, then convert the tree to ul list
-					- split{Paragraph > List1 > List2}(nodes array)
-					- Array tree structure:
+					- Tree structure: array = UL, element = LI
 						- ```js
 						  [
 						  - DocumentFragment{string, #text node, BR node, A node, B node, ... (no UL nodes)},
@@ -2320,6 +2318,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						    ],
 						  ]
 						  ```
+					- split{Paragraph > List1 > List2}(DocumentFragment) -> DocumentFragment
 				- Attempt with `sed`
 				  collapsed:: true
 					- First, remove all `<div class="from_name">` & `<div class="media_wrap clearfix">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
