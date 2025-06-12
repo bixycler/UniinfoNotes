@@ -2305,6 +2305,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- `messages.processed.html`: `<body onload="CheckLocation();">` -> `Init()` + Extracted Content column
 				- `messages-converter.js`: merge all notes in a day into 1 block: image & text are treated equally as separate items
 				  id:: 68429ef1-dc83-4d36-892f-1de746bfab09
+					- Text format:
+						- ```markdown
+						  Paragraph 1
+						  - Item 1
+						  - Item 2
+						  
+						  Paragraph 2
+						  - Item 3
+						    + Subitem 3.1
+						    + Subitem 3.2
+						  - Item 4
+						    continuation of Item 4
+						    - Subitem 4.1
+						    - Subitem 4.1
+						  ```
 					- Tree structure: array `[]` = UL, element `-` = LI
 						- ```js
 						  [

@@ -85,7 +85,13 @@ function processMessagesByDay() {
                     // - Item 2
                     //
                     // Paragraph 2
-                    
+                    // - Item 3
+                    //   + Subitem 3.1
+                    //   + Subitem 3.2
+                    // - Item 4
+                    //   continuation of Item 4
+                    //   - Subitem 4.1
+                    //   - Subitem 4.1
             }
         }
     }
