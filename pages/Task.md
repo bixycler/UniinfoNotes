@@ -130,7 +130,8 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  id:: 6835b167-a703-47d7-a540-3fa9c9fd3afe
 		    [DYM Medical Center](https://maps.app.goo.gl/p3GoSqsACfK4ApBD9): Phòng B103, M plaza, 39 Lê Duẩn, phường Bến Nghé, Quận 1
 		  SCHEDULED: <2025-06-21 Sat 12:30>
-		- TODO
+		- TODO Cuối tuần 28-29/06 đi Núi Chúa kỷ niệm ngày cưới chị 7 Nhung.
+		- TODO [which ?] weekends, LSD trip with Mr. Hiệp
 		- ...
 	- ## Future Tasks
 	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9
