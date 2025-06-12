@@ -78,7 +78,7 @@ function processMessagesByDay() {
                 let fragment = document.createDocumentFragment();
                 for (let node of [...text.childNodes]) fragment.appendChild(node.cloneNode(deep = true));
                     // Use [...] and cloneNode() to not affect the original DOM
-                messages.append(splitParagraphs(fragment)); // > splitItems1() > splitItemsP()
+                messages.append(splitParagraphs(fragment)); // > splitItems1() > splitItems2()
                     // Text format:
                     // Paragraph 1
                     // - Item 1
@@ -137,12 +137,12 @@ function isItem1(node) {
     return marker && (marker[1] || marker[2]);
 }
 // Check if the node is a 2nd level item
-function isItemP(node) {
+function isItem2(node) {
     let marker = itemMarker(node);
     return marker && (marker[3]);
 }
 
-// Split the `-` `#.` items into <li> nodes
+// Split the `-` `#.` 1st level items into <li> nodes
 function splitItems1(text) {
     let fragment = document.createDocumentFragment(), parent = fragment;
     let li = document.createElement("li");
@@ -153,7 +153,7 @@ function splitItems1(text) {
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
         if (node.nodeName === 'BR') { newline = true; firstline = false; continue; }
         if (newline && isItem1(node)) { // New item line
-            if (li.childNodes.length) parent.append(splitItemsP(li)); // flush the previous <li>
+            if (li.childNodes.length) parent.append(splitItems2(li)); // flush the previous <li>
             if (leadingText) { // After the leading text, wrap the following items in a <ul>
                 parent = document.createElement("ul"); li.appendChild(parent);
                 leadingText = false; // Only one <ul> for all items
@@ -169,13 +169,32 @@ function splitItems1(text) {
         newline = false;
         if (node.nodeName === 'PRE') { postPre = true; newline = true; firstline = false; }
     }
-    if (li.childNodes.length) parent.append(splitItemsP(li)); // Wrap up the last item
+    if (li.childNodes.length) parent.append(splitItems2(li)); // Wrap up the last item
     return fragment;
 }
 
-// Split the `+` `*` subitems into <li> nodes
-function splitItemsP(text) {
-    return text; //DEBUG just return the node as is
+// Split the `+` `*` 2nd level items into <li> nodes
+function splitItems2(text) {
+    let fragment = document.createDocumentFragment();
+    let li = document.createElement("li");
+    if (text.childNodes.length === 0) return fragment; // No content to process
+    let newline = true, postPre = false; // Track the start of a new line
+    for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
+        if (node.nodeName === 'BR') { newline = true; continue; }
+        if (newline && isItem2(node)) { // New item line
+            if (li.childNodes.length) fragment.append(li); // flush the previous <li>
+            li = document.createElement("li");
+            // Remove the marker of unordered item
+            li.textContent = node.textContent.slice(itemMarker(node)[0].length);
+        } else {
+            if (newline && !postPre && firstNode != node) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
+            li.appendChild(node);
+        }
+        newline = false;
+        if (node.nodeName === 'PRE') { postPre = true; newline = true; }
+    }
+    if (li.childNodes.length) fragment.append(splitItems2(li)); // Wrap up the last item
+    return fragment;
 }
 
 function copyToClipboard(text) {
