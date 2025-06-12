@@ -2302,14 +2302,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-06-02 Mon 16:35:17]
 		  :END:
 			- Convert `messages.html` to `list.html` ~~with `sed`~~ with javascript via `messages.processed.html` & `messages-converter.js`
-				- `messages.processed.html`: `<body onload="CheckLocation();">` -> `Init()` + extracted content column
+				- `messages.processed.html`: `<body onload="CheckLocation();">` -> `Init()` + Extracted Content column
 				- `messages-converter.js`: merge all notes in a day into 1 block: image & text are treated equally as separate items
 				  id:: 68429ef1-dc83-4d36-892f-1de746bfab09
-					- Tree structure: array = UL, element = LI
+					- Tree structure: array `[]` = UL, element `-` = LI
 						- ```js
 						  [
-						  - DocumentFragment{string, #text node, BR node, A node, B node, ... (no UL nodes)},
-						  - DocumentFragment
+						  - DocumentFragment{string, #text, BR, A, B, ... (may have UL)},
+						  - DocumentFragment{string, #text, BR, A, B, ... (no UL)}
 						    [
 						    - DocumentFragment
 						    	[ DocumentFragment, DocumentFragment, ... ],
@@ -2318,7 +2318,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						    ],
 						  ]
 						  ```
-					- split{Paragraph > List1 > List2}(DocumentFragment) -> DocumentFragment
+					- split{Paragraph > List`-` > List`+`}(`DocumentFragment`{LI}) -> `DocumentFragment`{LI, LI{UL}, ...}
 				- Attempt with `sed`
 				  collapsed:: true
 					- First, remove all `<div class="from_name">` & `<div class="media_wrap clearfix">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
