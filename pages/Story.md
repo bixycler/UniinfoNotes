@@ -2361,7 +2361,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
 						- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
 			- Side results
-				- Small Caps from the title of [Intensional Semantics](http://web.mit.edu/fintel/fintel-heim-intensional.pdf) on 2020-09-24
+				- Small Caps from the title of [Intensional Semantics](http://web.mit.edu/fintel/fintel-heim-intensional.pdf) on ((684c040a-a044-4f5f-8336-44f1359dd396))
 				  collapsed:: true
 					- [with Unicode](https://en.wikipedia.org/wiki/Small_caps#Unicode): Aᴀ Bʙ Cᴄ Dᴅ Eᴇ Fꜰ Gɢ Hʜ Iɪ Jᴊ Kᴋ Lʟ Mᴍ Nɴ Oᴏ Pᴘ Qꞯ Rʀ Sꜱ Tᴛ Uᴜ Vᴠ Wᴡ X[x] Yʏ Zᴢ
 					- [with CSS](https://en.wikipedia.org/wiki/Small_caps#CSS): 
