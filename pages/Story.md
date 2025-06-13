@@ -2368,7 +2368,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ```cljs :results
 					  ^:hiccup [:span {:style {:fontVariant "small-caps"}} "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz"]
 					  ```
-			- Test message list
+			- DOING Copy message `list.html` to [[2020 Mind Chips]]
+			  :LOGBOOK:
+			  CLOCK: [2025-06-13 Fri 17:50:10]
+			  :END:
+				-
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
