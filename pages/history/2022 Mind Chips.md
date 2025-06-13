@@ -222,14 +222,14 @@
 				- The matching intensity ~ extent(quotient)/remainder ~ emotion intensity
 	- 2022-04-17
 		- Chat đạo với Huy (6/4):
-		- Mới hồi nãy trên đường chạy lên cty thì tui mới kết nối được cái trải nghiệm 4D ở cõi bên kia (như đã kể ông hôm trước) với trải nghiệm 3D ở cõi này, và đó cũng là cái duyên khiến tui share với ông lần này nè.
-		  trong 4D, mình thấy thời gian quá khứ và tương lai là một chiều bình thường cũng như 1 chiều trong khôn gian này vậy, thấy nó hiển nhiên vì nó đang duỗi ra ngay "trước mắt" mình, nên thực ra thấy là thấy vậy thôi chứ cũng chẳng biết tại sao "bên kia" (thế giới thông thường) nó lại không thấy chiều thứ 4 này
-		  ở trong cõi 3D này thì tui cũng cảm nhận "cả quá khứ lẫn tương lai đều ở ngay bên trong hiện tại này" nhưng chưa thấy rõ. Đến hôm nay tui mới thấy rõ chiều thứ 4 nó "cuộn lại" vào bên trong thân thể, vào trong mỗi "hạt" như thế nào, giống như khái niệm "mã hóa" (encode, encrypt) trong máy tính vậy. Và cái here-now chính là cái "màn ảnh" để project cái quá khứ đó lên và trộn lại (quá khứ của nhiều hạt) với nhau thành ra tương lai rồi mỗi hạt lại nhai ngấu nghiến (encode, compress) những hình ảnh trên màn ảnh đó thành ra quá khứ của mình, nuốt vào trong "bụng" mình :D
-		  Như trong lịch sử OOP thì ban đầu nó được build "bottom up", chính là cách người thường hành xử mọi thứ dựa trên quá khứ (bottom) của mình, những kinh nghiệm, thói quen, nghiệp tích tụ trong cái Tôi của mình vậy. Tới SOLID thì Dependency Inversion Principle bảo ko được dựa vào bottom mà phải dựa vào middle (interface). Cái interface đó chính là cái "màn ảnh", chính là here-now đó ;)
+			- Mới hồi nãy trên đường chạy lên cty thì tui mới kết nối được cái trải nghiệm 4D ở cõi bên kia (như đã kể ông hôm trước) với trải nghiệm 3D ở cõi này, và đó cũng là cái duyên khiến tui share với ông lần này nè.
+			- trong 4D, mình thấy thời gian quá khứ và tương lai là một chiều bình thường cũng như 1 chiều trong khôn gian này vậy, thấy nó hiển nhiên vì nó đang duỗi ra ngay "trước mắt" mình, nên thực ra thấy là thấy vậy thôi chứ cũng chẳng biết tại sao "bên kia" (thế giới thông thường) nó lại không thấy chiều thứ 4 này
+			- ở trong cõi 3D này thì tui cũng cảm nhận "cả quá khứ lẫn tương lai đều ở ngay bên trong hiện tại này" nhưng chưa thấy rõ. Đến hôm nay tui mới thấy rõ chiều thứ 4 nó "cuộn lại" vào bên trong thân thể, vào trong mỗi "hạt" như thế nào, giống như khái niệm "mã hóa" (encode, encrypt) trong máy tính vậy. Và cái here-now chính là cái "màn ảnh" để project cái quá khứ đó lên và trộn lại (quá khứ của nhiều hạt) với nhau thành ra tương lai rồi mỗi hạt lại nhai ngấu nghiến (encode, compress) những hình ảnh trên màn ảnh đó thành ra quá khứ của mình, nuốt vào trong "bụng" mình :D
+			- Như trong lịch sử OOP thì ban đầu nó được build "bottom up", chính là cách người thường hành xử mọi thứ dựa trên quá khứ (bottom) của mình, những kinh nghiệm, thói quen, nghiệp tích tụ trong cái Tôi của mình vậy. Tới SOLID thì Dependency Inversion Principle bảo ko được dựa vào bottom mà phải dựa vào middle (interface). Cái interface đó chính là cái "màn ảnh", chính là here-now đó ;)
 	- 2022-04-18
 		- [http://www.scholarpedia.org/article/Integrated_information_theory](http://www.scholarpedia.org/article/Integrated_information_theory)
 	- 2022-04-26
-		- == **ω-extension & ε-abstraction** ==
+		- ### ω-extension & ε-abstraction
 			- The previous ω-abstraction from the extensional linear space (spacetime) is now standardized (inversely) as the ω-extension from the intensional structure of the Ω-thread.
 				- In the Dynamics Pyramid, the inner triangle (PES) is the base of the whole pyramid => spacetime = integral of PE = flat when the system is isolated; Force = derivative of PE = equal when the system is untouched.
 				- The ex-ln is due to the ω-extension (integral) of the (constant) relation between 2 intent circles, and independent of the pace of thread traversal. That independence is the signature of relational/function linearity.
@@ -238,9 +238,287 @@
 				- The extrinsic in-ln is just the ex-ln of the the underlying eye circle, which is very small compare to the object circle, within the object circle. It's just like the zoomed in monochrome of a very high resolution image, or the smoothness of the crystal surface.
 			- While ω-extension & extrapolation is the root cause of Einstein's relativity (constant velocity of light, equivalence principle), ε-abstraction & interpolation is the root cause of QM's uncertainty.
 				- Both {inter,extra}polation has the root "polire" = "to polish", that's to smooth out, to straighten, and to linearize 😀!
-		- == the relativity of the self & state space ==
+		- ### the relativity of the self & state space
 			- the self circle ⭕ defines the Now slice;
 			- the reaction engine in the jet changes the jet's self toward this direction by releasing a part of self in the opposite direction;
 			- every possible circle is a self;
 				- the sense of self is stronger with tighter circle ==> the contraction of circle to maintain its self is the returning force
+	- 2022-04-27
+		- Giấy chứng tử của bà ngoại
+			- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_9@27-04-2022_01-47-32.jpg){:width 400}
+			- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_10@27-04-2022_01-47-32.jpg){:width 400}
+	- 2022-04-30
+		- **Cause vs condition**: cause = intent = chooser (holding the free will to make decision) = subject = self; condition = object = content = the chosen; cause determines (main) effect (fruit) because it chooses/selects the conditions for its desired effect. That selection is the maintenance of the self.
+		- The cause is small, hidden, invisible to the condition & the effect, but hold the determine controlling power so endurant that seems "eternal, constant" (immortal); As long as the supporting condition is available, the **cause-self** grows, maintains itself, fixes errors by choice of view, and at last regenerate itself via refinement of its self.
+		- The cause-self is the **harmony** of Circle, Arrow by the Equal <== The Equal crystalizes/reflects a balanced collection of variations (arrows) of condition into its seed of self (circle) ==>
+			- In developing phase, the seed recollects all recognizable condition, using its stored memory, to grow up and differentiates into a tree;
+			- The limit of the growth is determined by the balance of the Equal, relative to the condition; Once reached the limit, the self's shape is frozen.
+			- In working/maintenance phase, the self actively chooses its elements from the condition to maintain an fix errors;
+			- In returning/declining phase, the self refines itself into a seed via mix-n-extract the common, the essence from its current self which is the mixture of its seed and all conditions throughout its life. Those commons are the arrows, the smallest part of the circles.
+		- Cause vs condition roles are **relative**: the self of the condition sees the cause just as a condition/vector/object.
+		- The seed = complete memory of the self = the **complement** of the condition (in its world view):
+			- Living self = a working memory, a working image of the larger self = full circle memory
+			- All stored (non-working) memories are arrows encoded in the substrate (material) circles. Those arrows are extracted from the self circles by abstracting the sensor part.
+			- The seed is a complete stored memory endowed with a minimum sensor ==> sleeping (in between stored & working)
+		- **Memory** = extent = encoding of arrow on substrate (material) circles
+	- 2022-05-10
+		- (objective) relation of n vars = compound eye of n circles = vehicle with n wheels running on n tracks (axes) in n-dim state space = extension of n intents
+			- Mapping f:x->y is the relation of the subject x with the object y, seen in the view of x: x axis = background, f(x)=y = foreground <== the variation/curvature of y on the uniform/flat/straight x is seen as density map, which is the image of f **projected** onto x
+			- The composed/mixed rel line (curve) R(x,y) is then straightened to be an axis in relation to the next axis z: R(x,y,z) = R(R(x,y),z) <== Any curve, i.e. any distribution of density, can be used as an axis (screen) to project the whole rel on ==> that new curve then becomes a new axis of the space of possibility.
+			- The **projection** transforms, deforms and even collapses the shapes but **preserves the rel** ==> topology
+	- 2022-05-12
+		- equations of unithread 🧵 🧶
+			- Conservation of momentum: ri*dai = r0*da0: the throughput of all touching threads ri*dai through the eye r0*da0 are equal, where r = radius = mass, da = delta angle = v*dt
+			- Conservation of energy: S(ri) = const: the total mass is a constant
+			- c = ds/dt = constant of structure => as long as the structure of the eye 👁️ is preserved, c is unchanged
+		- the quantization of the Om-thread O:
+			- Against the eye circle r0: O - r0 = r1 or O - n0*r0 = r1 < r0 => Euclidean algorithm
+			- The incommensurable circles are units of orthogonal axes
+			- 2 types of unit: continuous unit = refinable circle, e.g. meter, second => extent in Real; discrete unit = unrefinable circle, eg. electron (charge) => extent in Nat. To an eye, its resolution is determined by its discrete unit => quantum => "selfless eye" := eye with discrete unit = 0 (resolution = ♾️)
+	- 2022-05-19
+		- Let's draw these reprs of the CIE: parallel mapping y<-x [c<-ie], orthogonal graph y=f(x) with the graph line as the extensive product, radical graph (radar chart) with c:i:e = arc:radius:angle
+			- With projections: intensity projection onto x, extensity projection onto y, arbitrary projection onto z via a graph line in xy graph
+			- with transitions of projection: linear (exp/log) following parallel mapping, extensive following orthogonal graph
+	- 2022-05-20
+		- Bilinear = bidirectional = bivector = conservation of {sum of squares, mass, energy} = Pythagorean theorem
+			- Composition algebra and {1,2,4,8}-square identity by Hurwitz's theorem: [https://en.m.wikipedia.org/wiki/Hurwitz%27s_theorem_(composition_algebras)](https://en.m.wikipedia.org/wiki/Hurwitz%27s_theorem_(composition_algebras)) with an interesting vid of Mathologer: [https://youtu.be/IguNXoCjBEk](https://youtu.be/IguNXoCjBEk)
+			- doubly ruled surfaces like hyperbolic paraboloid
+			- CIE = i measures c yields e = c projected on i as e: c = i.e = j.f => e = (j/i).f with (j/i) = GCD(j,i) = inner/intensional product of j & i = cos(j,i) cos(i,j) = 1/sec(i,j) => e' = (j/i)^2.e [in-ex grandpa problem]
+			- (i,j) relation = curvature = force = equal =[integrated]=> {momentum, energy} conservation =[integrated]=> sum of squares (of extents) conservation
+				- Force eq is not only between objects, but also between object & subject (i & j): j is pushed forward in i world <=> i is pulled backward in j world
+				- Force balance (Newton's 3rd law) = microbalance [integrated]=> macrobalance = conservation (Noether's theorem)
+	- 2022-05-23
+		- [Torus knots](https://en.wikipedia.org/wiki/Torus_knot) as symbols of Uniinfo & Uninet
+			- [Torus knots run p times in the poloidal direction](https://www.researchgate.net/figure/Torus-knots-A-torus-knot-Tp-q-runs-p-times-in-the-poloidal-direction-ie-through-the_fig1_319175462)
+			- Revise the Unitorus with a Möbius strip cut, inspired by Keizo Ushio's Dream Lens 2003: 3 but 2 but 1 but 0
+				- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_11@23-05-2022_19-40-36.jpg)
+			- "Hidden Split Torus 2" by Karel Vreeburg: [https://www.karelvreeburg.com/kunstwerk/13285086_Hidden+Split+Torus+2.html](https://www.karelvreeburg.com/kunstwerk/13285086_Hidden+Split+Torus+2.html)
+				- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_12@24-05-2022_13-57-34.jpg)
+	- 2022-05-24
+		- Carried content < crystallized content
+			- point = definite but unknown content = contact = any image seen by the eye
+			- arrow = content reversed/traced by point (eye)
+			- circle =
+	- 2022-06-06
+		- Back to maths:
+		- ∞-Category Theory, topos & pointless topology: [https://plato.stanford.edu/entries/category-theory/](https://plato.stanford.edu/entries/category-theory/)
+		- Topos as the model of its internal logic language; Gödel in category theory: [https://www.britannica.com/science/foundations-of-mathematics/Intuitionistic-type-theories](https://www.britannica.com/science/foundations-of-mathematics/Intuitionistic-type-theories)
+		- Langlands program bridging Algebra (Number theory) and Geometry (Harmonic analysis) via Automorphic forms, Modular forms, Elliptic curves
+			- YouTube: [https://youtu.be/_bJeKUosqoY](https://youtu.be/_bJeKUosqoY)
+			- Wiki: [https://en.wikipedia.org/wiki/Langlands_program](https://en.wikipedia.org/wiki/Langlands_program)
+			  <— To me, the link between Number theory & Harmonic analysis is the Circle
+	- 2022-06-07
+		- The *Quantization (Circle) is rooted in the Equal (Selful Eye)*: Logic {True, False}, Recognition {Yes, No}, Resonance & Synch with the Self, Unit of measurement
+			- The "selfless eye" is just an abstraction & compaction of the selful eye (circle) into a point (marker on the circle) ==> Nat is refined to Rational and to Real numbers, but the actual calculation & reasoning is still done in the Nat/Rat domain.
+			- The information is inherently quantized, but is refined by rationalism (quotient) via Probability.
+			- The eye's recognition is limited to rational: quotient, similarity, as in proj.geo. and in [N-dim.space](N-dim.space); all refinements are just an division (of the Self) by N ==> the Exp (power law, power set) breaks the limit of the Self, hence unrecognisable, chaos, random, independent, orthogonal, hidden
+			  ==> Chaos - The real problem with quantum mechanics: [https://youtu.be/LJzKLTavk-w](https://youtu.be/LJzKLTavk-w)
+		- The underlying info is incommensurable (irrational) while the (probabilistic) entropy info is rational ==> The ever increasing entropy is just the revelation of the incommensurable info
+		- ==> Ω-thread = Self's time × World's space
+			- The size of the self circle is the granularity/resolution of the World image ==> the info resolution of space is in full pixels/bits
+			- The sub-pixel (sub-bit) info is laid out in time
+			- The *memory (karma, info storage) is the whole Ω-thread*, not only within the self nor only without the self; but the whole Ω-thread is the intension of the self, thus it sees Ω-thread as its own memory (in the extensional world).
+			- Every circle is composed of arrows (⥁) and every arrow is composed of circles (⇴): The arrows are the contents of the circle, as in Cat theory, Function, Logic, but those arrows are just the externalization (extension) of the internal content via the self circle of the eye.
+			- Cat.theory:
+				- objects are just points in Unithread encapsulating the Equal
+				- morphisms are not only Arrows but also Circles (rolled up arrows) in Unithread ==> Functor is the arrow between Circles
+				- id morphism shows the Intrinsic Static of the Equal: ⟪A = A⟫ = ◯, the whole circle can be abstracted into a point (center).
+				- The univalence of morphism (function) shows the **asymmetry** (distortion, loss of info) of the selful view (projection) of the world via **time arrow**:
+				  _ unique past (history) for each self, uncertainties & duplications are averaged/abstracted out or chosen with preference by the self.
+				  _ This, just like the (boolean) logic, hides the intrinsic quantization of selful info.
+			- 2 types of Equal:
+				- Passive Equal = Observer = Comparison = Equivalence checker
+				- Active Equal = Operator = Connection (Assignment, Substitution) = Modifier
+	- 2022-06-12
+		- [https://tiki.vn/hop-quet-bat-lua-kho-voi-vuong-cham-bep-nho-gon-tien-dung-lua-kho-manh-me-dung-gas-cao-cap-giao-mau-ngau-nhien-p111585068.html?spid=111585069](https://tiki.vn/hop-quet-bat-lua-kho-voi-vuong-cham-bep-nho-gon-tien-dung-lua-kho-manh-me-dung-gas-cao-cap-giao-mau-ngau-nhien-p111585068.html?spid=111585069)
+	- 2022-06-13
+		- Universal intension(-ality,-alism) 🧞
+			- the intension is not restricted to human but is the intrinsic property of the Quantum/Trinion (thanks to the eye), and is built up from simple to complex
+		- Time as the ultimate measure for each eye (self) to see the world
+			- Time ticks are counted by self cycles <== The unit of time, hence of all measurements, is the size of the self
+			- All external world is measured by my time:
+				- All arrows are mapped to my time arrow ==> all external world is just space, just like computer program, the only executor is my time! ==> in special relativity, other selves' private time is just another spatial dimension to my self.
+				- All threads pass by my eye with the constant velocity c which is my ratio (my space)/(my time) ==> all the world is moving at speed c relative to my self.
+				- In general relativity, all forces are just curvatures of my spacetime. Spacetime is the extension of (my self)x(world selves), and its curvature is the mismatch/imbalance between my time and your time ==> all forces are returning force toward the balance/matching point.
+			- My spacetime curvature is the reverse of yours.
+			- The light is timeless, massless, selfless, ie. pure arrow. Any self must be a combination of opposite arrows, hence slower than c, with mass and time.
+		- All forces are one (curvature, the c-force):
+			- electric & magnetic are complement like particle & wave, like time & space
+			- electromagnetic & weak are ex & in of the atom => electroweak
+			- gravitation & strong are ex & in of the core (mass) => gravistrong
+	- 2022-06-21
+		- The **deeper intrinsic (⇴)** are thanks to the selfless Eye
+			- The cutting edge of the Arrow is thanks to the **exchange** (⇌) at the Eye at the tip of the Arrow.
+			- The ethereality of the Circle is thanks to the ability of selfless Eye to **refine** (⇌) the Circle at the marker-eye of the Circle.
+			- Current systems (Turing Machine, Category theory) may have all the 3 (circle, arrow, equal) but lack this deeper intrinsic (⇴).
+			- Without this intrinsic (⇴), AKA aniccā (impermanence), the Circle cannot be broken, thus samsara, the Arrow cannot be stopped, thus dukkha.
+			- The Self keeps the Circle of itself unbroken by sealing the marker-eye of the Circle, making it to forget, to look away at the end, too sleep => delusion (moha), fear.
+			- The **eye marker** of the Circle, the **golden moment** of the Arrow (of time) is just after the "boom" (combustion), i.e. the "exhaust" stroke, because it's the only point in the Circle that can be changed/broken/released. But that's the secret of the Universe which the Self does its best to hide away.
+			- The Self conceals the eye marker of this circle by interlacing (an)other circle(s) with different phase (not exhausting).
+			  ==> Only when all the circles are synced at the exhausting phase, the Self can be dissolved.
+	- 2022-06-23
+		- The invariant "radius" of the Circle (hyper-spheres) & the sum of squares id a^2 + b^2 = c^2
+			- The group-symmetry of the Universe
+			- The cross ratio (N, P; E, I) of the Projective Geometry
+			- The Pythagorean id is from figure similarity => cross ratio
+			- Möbius transformation and bilinear transform, to bilinear form ad − bc: [https://en.wikipedia.org/wiki/Bilinear_transform](https://en.wikipedia.org/wiki/Bilinear_transform)
+			- d(x) = log(x, 1; 0, ∞) where 0 is the external equal (e) and ∞ is the internal equal (i), both show the position of the eye. While 1 is the small unit (size of the Self), ∞ is the grand unit (size of the Universe, the Total); while 0 is the external/earthly absolute, ♾️ is the internal/heavenly absolute. The ♾️ is the karma, the Earth, the University, the God. The 0 & 1 are just constant to the self, by def, but constantly change in respond to the object (x) via force. That change is relative to the ♾️, thus ♾️ is called the greater/deeper absolute. While 0 & 1 is the selful eye 👁️ with size 1, ♾️ is the selfless eye 👀 with size 0, whose intension is nothing and extension is everything.
+			- Arrow-Circle-Equal: in time, there's only arrows and addition in 1D; 2 opposite/complement arrows forms a (not so round) "circle" (loop) with multiplication (a*b) in 2D projective space where distance = log(cross ratio); with the equivalence/balance between the 2 complements, the circle ⭕ is round (a^2) with exponential in Euclidean space where distance = sqrt(sum of squares).
+				- The cross ratio dynamic: The 1 is the middle/balance of 0 and ♾️, the x between (0, ♾️) is forced to return to 1.
+	- 2022-06-27
+		- external content = context
+	- 2022-07-04
+		- [https://www.who.int/publications/i/item/9789240003927](https://www.who.int/publications/i/item/9789240003927)
+	- 2022-07-05
+		- Inversion via Möbius transform
+			- Magnification at the eye 0 point = development (opening up) = extending to extension = deformation
+			- Contraction at the eye ∞ point = formation = crystallization = contraction to intension
+			- both expansion & contraction are of circle. The arrows are zero summed in both points but multiply✖️ (op) at 0 and divide ➗ (ob) at ∞.
+			- the temporal linearity at 0 is due to (extended) arrows, the spatial linearity at ∞ is due to (condensed) circles
+			- the circle at 0 point is "selfless" relative to the "selful" memory circle including many memory cells (circles) from 0 to ∞
+			- Exp is to project from intension to extension and also with it (cross ratio) to project from extension back to intension as memory. This memory formation is diff from the invert mapping Log from ex -> in
+				- The nature of memory is consuming (internalize) the ex world, as shown in infinite mirror, ordinal number, projective inversion
+				- current ~ thread: when the eye intent is larger than the particle's content, it sees a continuous thread; when the intent shrinks, it sees the thread divides into smaller arrows, each contains a sub particle (intention) together with its field (extension) connecting with surrounding sub particles.
+	- 2022-07-07
+		- CIE: with the same content, intent ~ intensity ~ quality (density of content per unit) <> extent ~ extensity ~ quantity (number of units per content)
+			- within a unit circle ⭕️, sub-extent = phase angle = endo-time, sub-unit content = intent * sub-extent = phase arc = endo-space; intent = circumference = endo-space/endo-time = pseudo speed of light = intent of time
+			- my circle exchange content with light circle: my in-extent vs light in-extent = in-extent of time vs in-extent of demi-space, my intent / light intent = demi-space extent / time extent = one-way speed of light = extensity of demi-space = intensity of time
+			- my circle exchange content with 2 opposite light circles: the mean of 2 lights gives space & round-trip speed of light
+			- a lot content -> 1 form: the form is intensive & the content is extensive; density of content = intensity of form = extensity of content; one is in/extensive := it shrinks/extends when returning (relaxing) to its normal-uniform scale, i.e. its intrinsic form is in/extensive
+			- The "com-" = "together" in "content" reflects the usage of content as common currency for exchange.
+	- 2022-07-08
+		- Total content is constant <=> eye's content (intent) is constant
+			- selfless eye is just an eye with constant intent, but equivalent to eye with 0 intent
+	- 2022-07-12
+		- The Eye = the Equal = meeting = matching = touching = incidence = sync = recognition = resonance = divisibility = mapping = association = the spark, click, tick, boom = the gate = network's node = scale mark(er) = seed = redirector = branching point = in-out interface
+			- At the meeting point, the spark magnifies the correspondent parties to be more significant than the uncorrespondent parts.
+			- Via abstraction (selful eye cirlce -> selfless eye point), discrete -> continuous, finite -> infinite,
+			- The extent (size) of the arrow is determined by its underlying eye. The intent of the circle := extent determined by its underlying eye := body/eyeball = extent of crystalized content = capacity of circle >= extent of carried content. When the carried content reach capacity, the form circle dissolves (dies).
+			- For a subject with body circle and an eye, its field of view (domain, screen, background) has extent = intent of memory (body) = body/eyeball
+	- 2022-07-19
+		- The Game of Creation (develop & collapse) = the Cycle of Life
+			- 0. The crystalized seed of knowledge ("pure" intentional circle) germinates, open up as an eye, extends its intention to the extension as the body (outer circle), like from 0 to 1;
+			- 1. The eye collects extension (emptiness in space) from the content (of environment), via matching intent-content (nhân-duyên, căn-trần), to stuff into the body to grow up (develop), like from 1 to ∞;
+			- 2. In the course of living & working, many layers of eye-body use their knowledge to exchange (i/o) info (extent) to explore all possibilities (emptiness in time) and to refine knowledge (intent) via emergence, just like the digits of an integer vary in succession;
+			- 3. When all layers reach limits (∞), the system collapses to its crystallized deeper seed of knowledge, just like "999 + 1 = 1000".
+			- The refinement of knowledge and expansion of possibility (info) space = the intensional product and extensional product of the interunion.
+			- Demi-space = single-state space = possibility space (each state is a possible world) = (proper) time
+			- Space = (compound state)/time = (possible world)/config
+		- The Trinion
+			- Arrow = dynamic = connection, Circle = static = limited, Equal = recognition by matching (arrow) with memory (circle) = the (most) concrete (solid) = the here-now = the id
+			- The info outside of the body is descriptive knowledge (circle); the memory imprinted in the body is procedural knowledge (arrow); the crystallized content of the eye is knowledge by acquaintance (recognision, equal).
+			- The Equal balances the other two:
+				- To the Circle, the Eye is like an Arrow cutting open the Circle (to exchange content with other circles) and hashing the Circle into scales with value marks.
+				- To the Arrow, the Eye is like a Circle joining the arrow head with other arrow tails resulting synching and branching.
+	- 2022-07-26
+		- The Circle of Knowledge & Abstractions
+			- Exp and rope, tree traversal
+			  + (Certificate of) limit => circle => verifier (decider); + verifier => enumerator
+			- CIE: c/i = e = e extracted from c by abstracting i = εω-abstraction
+				- ω-abstraction: ω(abcabcabc) = (abc)3; ω-extension: (abc)*3 = (abcabcabc), where 3 is a cardinal.
+				- ε-abstraction: var_T(abc) = t; ε-extension: t := (abc) = ⟪t:T=⟫ = ⟪T t =⟫ = T*t = val_T(t), where t is an ordinal (index number) in type T and (abc) is an instance of T. This var-val is the basic of maths and prog.
+				- εω-abstraction: εω(abcabcabc) = t3, (abcabcabc)/T/t = (abcabcabc)/(T*t) = (abcabcabc)/(abc) = 3; εω-extension: T*t*3 = (abcabcabc); Currying and composition: T(t)(3) = T*t*3 = T(t(3))
+	- 2022-08-04
+		- View cone: zooming = moving forward (deeper) = opening up to the interface
+			- The interface = the most opened memory = the working space (physical space) for **redirection (turning)** = the present = the mirror 🪞 between the past inside and the future outside
+			- The time dir = the most hidden = the dir of inertial motion = the orthogonal of all space = the scalar (zooming)
+		- space = base edge (body1 ⇌ body2) in the double FoC triangle, where 2 other edges (bodies → common eye) are velocities
+		- time = enumeration (+) > & (-) = space = multiplication > & (/) = memory = exp
+		- intrinsic holographic in every level: each point in space = source & sink (Huygen, Feyman); each particle, each cell, each person... = each holographic pixel => fractal, emergence <= onion 🧅 structure generated by the Equal
+			- Space = transparent hologram; memory = opaque/distorted hologram
+	- 2022-08-05
+		- “Failure is the mother of success.”
+		  “Thất bại là mẹ thành công.”
+		  失敗是*成功之母
+		  *) 是,者,乃,為
+		  This is the returning point when the limit is reached.
+		- Otherwise, due to feedback loops, there are maxims:
+			- “Success breeds success, failure breeds failure.”
+			- “The rich get richer and the poor get poorer.” ~ Matthew effect from "parable of the talents"
+			  which is very modern in the 20th century:
+			  The Facts on File Dictionary of Proverbs - Page 255
+			  “Success breeds success, and within a few years she had a chain of health-food stores stretching from coast to coast.” The proverb was first recorded in 1927 in N. Martin's Mosaic.
+			  or
+			  “Success breeds success.” ~ Mia Hamm
+	- 2022-08-10
+		- Holographic = the whole projected in each point = extension ~ intension = power law (scale invariance) = projective onion structure (phase transitions between layers) = fractal = emergence
+			- onion structure = integrative levels ([https://en.m.wikipedia.org/wiki/Integrative_level](https://en.m.wikipedia.org/wiki/Integrative_level)), strata
+			- relativity of thread ~ current = the weaving of everything from thread = space filling curves
+			- inversion: extent to intent, extensity to intensity, view cone to 1 form (of the eye), all to one
+				- Relational linearity = (temporal) tangent linearity = content conservation (in various forms)
+				- Exp = (spatial) self scaling = the emptiness of form (compared to content) = recursive cone of memory vs perspective cone of view = the flared cone of view when the cone height/depth is shrunk to the unit of (recursion) time
+	- 2022-08-13
+		- Uniform/linear content vs Variable/curved form
+			- "uniform" = only one form! There is a form, though!
+			- perspective/linear metric = scaled space (form) vs uniform time (content) = 1 pole (of 1 form)
+			- growth/exp metric = scaled N-dim space (form) = N poles (of N forms)
+	- 2022-08-16
+		- Orthogonal = independence = next dimension = within vs without = content (intension, time) vs extent (form, space) = independent variable vs dependent variable in mapping (relation) => xOy coordinates
+			- y = f(x): 2 relative views
+				- Mapping x amount of content to y slots of form (observer: c/i=e) => Extensity of form = dy/dx = intensity of content, like velocity, derivative
+				- x boxes of form contain y amount of content (operator: c=i*e) = y^x => Intensity of content = dx/dy = extensity of form, like mass
+				  ==> Reverse the role of form & content, Extensity of content = intensity of form
+			- random = the dir not aimed at = orthogonal: this property of omnidirectionality is closer to "orthogonal" than the bridge "random = independent = unknown/unseen"
+			- [See (ob) ⟂ do (op)] = 1 (complement), Aka "seer don't do, doer don't see" ~ the seen screen for navigation ⟂ the depth dir of inertial movement ~ input ⟂ output
+				- The doer sees its own knowledge, all ex-world is just its reflection via knowledge application
+				- The seer does its internal working to update its knowledge
+				- seer = inner doer of the Equal; doer = inner seer of the unequal => the eyes 👀 are both Equal & unequal
+			- **zero sum unit product = external balance (bù trừ) = compensate = balance = mean; unit sum zero product = internal balance (bù đủ, 補充) = complement
+			  **+ Positive + negative = 0; |Positive| + |negative| = 1
+				- Positive * negative = -1; ↑Positive * ↑negative = 0
+			- Vuông = 矩/方 = square: 矩內圓外, 外圓內方, 外方內圓, 天圓地方 = round sky (time, dynamic, 陽, Arrow, 1-odd) & square earth (space, static, 陰, Circle, 0-2-even) <— 萬物負陰而抱陽 <— Chinese coin <— Wood wheel with square hub
+	- 2022-08-24
+		- Move - movement - momentum - moment (of time, of mass, of force) - balance (center)
+			- Moment (content) = distance (extent) * mass (intent)
+			  [https://en.wikipedia.org/wiki/Moment_(physics)](https://en.wikipedia.org/wiki/Moment_(physics))
+			  [https://en.wikipedia.org/wiki/Moment_(mathematics)](https://en.wikipedia.org/wiki/Moment_(mathematics))
+			  [https://en.wikipedia.org/wiki/Cumulant](https://en.wikipedia.org/wiki/Cumulant)
+			  [https://en.wikipedia.org/wiki/Distribution_(mathematics)](https://en.wikipedia.org/wiki/Distribution_(mathematics))
+			  [https://en.wikipedia.org/wiki/Multipole_expansion](https://en.wikipedia.org/wiki/Multipole_expansion)
+			  [https://en.wikipedia.org/wiki/Dual_number](https://en.wikipedia.org/wiki/Dual_number)
+	- 2022-08-26
+		- Drawing "Evolution" by Steve Cutts, 30 Jan 2015,
+		  [https://stevecutts.wordpress.com/2015/01/30/evolution/](https://stevecutts.wordpress.com/2015/01/30/evolution/)
+		  predicted the "return" of human to the original "mega-organism" LUCA:
+		  [https://en.wikipedia.org/wiki/Last_universal_common_ancestor](https://en.wikipedia.org/wiki/Last_universal_common_ancestor)
+	- 2022-08-28
+		- 3 views: Orthogonal{ Tangent, (inverse) Radiant/Polar }, Immersive
+			- Tangent: 1 content in many forms
+			- Radiant: 1 form (extent) contains various (density of) content
+			- Immersive: Linear immersion of various forms into 1 thread
+		- **ε(0) ← [ε-abstraction] ← c(1) → [ω-extension] → ω(∞)
+		  **- ε = 0 = extent = number
+			- c = 1 = content
+			- ω = ∞ = 1/ε = intent
+			- ε-abstraction = ⟪"it" (x) ← object⟫ = ⟪extent ← content⟫ causes the emptiness of the form. ε-abstraction = matching = perception (observation)
+				- ε-extension = intent * extent = c', the perceived content (c') is not exactly the original content. c' is also the actualized content of the subject, ε-extension = action (operation).
+			- ω-extension = "and so on, etc." = c' * n = possibility space = imagination => much more empty, only the eye (intent) is left
+				- ω-abstraction = ⟪actual events → possibility space⟫ = mapping Y → X = mapping Events → time = E(t)^{-1}
+			- size of self (eyeball) = resolution of eye = length of action arrow = |ε-extension| = exp(depth of intention) => the inner most intention in the root of the rope of action is the root of attachment and usually invisible; the most abstract symbol is the top operator
+				- To free the eye, i.e. to refine the eyeball, ε-abstraction must be reduced to see the raw info, and then redirect that flood of info to some exhaust like the breath so that ε-extension is not activated
+			- ε-abstraction yields **centrality**, ω-abstraction yields **linearity
+			  **+ Returning force applied in 2 ways: (knowledge update) my center returns to object's center in the observation phase; object's center returns to my center in operation phase.
+	- 2022-08-30
+		- wind flow maps:
+			- Ivo's ECMWF: [https://www.windy.com/?16.941,108.637,5,i:pressure](https://www.windy.com/?16.941,108.637,5,i:pressure)
+			- Cameron Beccario's GFS: [https://earth.nullschool.net/#current/wind/surface/level/orthographic=-249.42,15.35,2274](https://earth.nullschool.net/#current/wind/surface/level/orthographic=-249.42,15.35,2274)
+		- Du lịch Nha Trang - Núi Chúa (cuối tháng 9/2022)
+			- tối 28 SG 21:00 -> Nha Trang sáng 29/9: xe Trà Lan Viên, 21p/460k|720k(=2), 42g/240k (cuốix3) + xe máy 400k
+				- Dendro Gold Hotel (86/4 Trần Phú, Nha Trang) 2 đêm
+				- Hòn Chồng, Tháp Chàm, Tắm Bùn
+				- Viện Hải dương học, Vinpearl
+			- sáng 1/10 NT -[bãi dài]-> bãi Chuối -> Thái An (chiều 1/10): đi xe máy, nghỉ An Home stay
+				- 2/10: sáng lặn Bãi thịt, chiều thăm vườn nho, mua mứt rau câu sụn, leo suối Lồ Ồ
+			- tối 2/10 Phan Rang 23:00 29-LHPhong -> SG: xe Trà Lan Viên
+	- 2022-08-31
+		- **complement** = yin-yang (陰陽, 阴阳, dark-light) = **opposite** in 1dim/2dir = **orthogonal** in 2dim/3dir =** 1-sum 0-product **(1-sum = totality, 0-produc = orthogonal, orthogonal complement) in general
+			- The relativity of linear-orthogonal: ortho turns to linear via units (-1, i, ε) and when extending to the "other" dimensions
+			- Eg. And-Or, in-ex, time-space, ob-op
+			- Angles: complementary = "bù vuông" = "phụ", complementary = "bù (đủ)" (bổ túc), explementary = "bù đầy" (bổ sung) 😄
+	- 2022-09-01
+		- Reddit mobile web pages:
+			- [https://www.reddit.com/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/.compact](https://www.reddit.com/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/.compact)
+			- [https://i.reddit.com/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/](https://i.reddit.com/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/)
+			- [https://teddit.net/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/](https://teddit.net/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/)
+			- [https://old.reddit.com/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/](https://old.reddit.com/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/)
 	- 2022
