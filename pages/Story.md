@@ -2373,6 +2373,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [?] Why this is file cannot be displayed as an image: ((684c11b9-0036-46e7-8e43-9b8491303b4d))
 				- An interesting claim of view: ((684c18cd-55c5-43d2-8be4-f0eb7888ffbd))
 				- [i=√-1 derived from dynamics](((684c282f-07d0-4f39-b8b0-b7514ba1b135))) on ((684c282f-75e9-4c66-bc32-4e764aac6625))
+				- [Everything is address!](((684c2aab-9b41-486b-a758-6028725f4c13))) on ((684c2aab-13de-49da-8030-ca5a29f6931c))
 			- DOING Copy message `list.html` to [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2024 Mind Chips]]
 			  :LOGBOOK:
 			  CLOCK: [2025-06-13 Fri 17:50:10]
