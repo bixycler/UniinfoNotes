@@ -324,13 +324,11 @@
 				- morphisms are not only Arrows but also Circles (rolled up arrows) in Unithread ==> Functor is the arrow between Circles
 				- id morphism shows the Intrinsic Static of the Equal: ⟪A = A⟫ = ◯, the whole circle can be abstracted into a point (center).
 				- The univalence of morphism (function) shows the **asymmetry** (distortion, loss of info) of the selful view (projection) of the world via **time arrow**:
-				  _ unique past (history) for each self, uncertainties & duplications are averaged/abstracted out or chosen with preference by the self.
-				  _ This, just like the (boolean) logic, hides the intrinsic quantization of selful info.
+					- unique past (history) for each self, uncertainties & duplications are averaged/abstracted out or chosen with preference by the self.
+					- This, just like the (boolean) logic, hides the intrinsic quantization of selful info.
 			- 2 types of Equal:
 				- Passive Equal = Observer = Comparison = Equivalence checker
 				- Active Equal = Operator = Connection (Assignment, Substitution) = Modifier
-	- 2022-06-12
-		- [https://tiki.vn/hop-quet-bat-lua-kho-voi-vuong-cham-bep-nho-gon-tien-dung-lua-kho-manh-me-dung-gas-cao-cap-giao-mau-ngau-nhien-p111585068.html?spid=111585069](https://tiki.vn/hop-quet-bat-lua-kho-voi-vuong-cham-bep-nho-gon-tien-dung-lua-kho-manh-me-dung-gas-cao-cap-giao-mau-ngau-nhien-p111585068.html?spid=111585069)
 	- 2022-06-13
 		- Universal intension(-ality,-alism) 🧞
 			- the intension is not restricted to human but is the intrinsic property of the Quantum/Trinion (thanks to the eye), and is built up from simple to complex
@@ -429,20 +427,21 @@
 	- 2022-08-05
 		- “Failure is the mother of success.”
 		  “Thất bại là mẹ thành công.”
-		  失敗是*成功之母
+		  失敗是成功之母
 		  *) 是,者,乃,為
-		  This is the returning point when the limit is reached.
+			- This is the returning point when the limit is reached.
 		- Otherwise, due to feedback loops, there are maxims:
 			- “Success breeds success, failure breeds failure.”
 			- “The rich get richer and the poor get poorer.” ~ Matthew effect from "parable of the talents"
-			  which is very modern in the 20th century:
-			  The Facts on File Dictionary of Proverbs - Page 255
-			  “Success breeds success, and within a few years she had a chain of health-food stores stretching from coast to coast.” The proverb was first recorded in 1927 in N. Martin's Mosaic.
-			  or
-			  “Success breeds success.” ~ Mia Hamm
+				- which is very modern in the 20th century:
+					- The Facts on File Dictionary of Proverbs - Page 255
+					  > “Success breeds success, and within a few years she had a chain of health-food stores stretching from coast to coast.”
+						- The proverb was first recorded in 1927 in N. Martin's Mosaic.
+					- or 
+					  > “Success breeds success.” ~ Mia Hamm
 	- 2022-08-10
 		- Holographic = the whole projected in each point = extension ~ intension = power law (scale invariance) = projective onion structure (phase transitions between layers) = fractal = emergence
-			- onion structure = integrative levels ([https://en.m.wikipedia.org/wiki/Integrative_level](https://en.m.wikipedia.org/wiki/Integrative_level)), strata
+			- onion structure = [integrative levels](https://en.m.wikipedia.org/wiki/Integrative_level), strata
 			- relativity of thread ~ current = the weaving of everything from thread = space filling curves
 			- inversion: extent to intent, extensity to intensity, view cone to 1 form (of the eye), all to one
 				- Relational linearity = (temporal) tangent linearity = content conservation (in various forms)
@@ -463,8 +462,9 @@
 				- The doer sees its own knowledge, all ex-world is just its reflection via knowledge application
 				- The seer does its internal working to update its knowledge
 				- seer = inner doer of the Equal; doer = inner seer of the unequal => the eyes 👀 are both Equal & unequal
-			- **zero sum unit product = external balance (bù trừ) = compensate = balance = mean; unit sum zero product = internal balance (bù đủ, 補充) = complement
-			  **+ Positive + negative = 0; |Positive| + |negative| = 1
+			- #### zero sum unit product = external balance (bù trừ) = compensate = balance = mean; unit sum zero product = internal balance (bù đủ, 補充) = complement
+				- Positive + negative = 0;
+				- |Positive| + |negative| = 1
 				- Positive * negative = -1; ↑Positive * ↑negative = 0
 			- Vuông = 矩/方 = square: 矩內圓外, 外圓內方, 外方內圓, 天圓地方 = round sky (time, dynamic, 陽, Arrow, 1-odd) & square earth (space, static, 陰, Circle, 0-2-even) <— 萬物負陰而抱陽 <— Chinese coin <— Wood wheel with square hub
 	- 2022-08-24
@@ -486,8 +486,8 @@
 			- Tangent: 1 content in many forms
 			- Radiant: 1 form (extent) contains various (density of) content
 			- Immersive: Linear immersion of various forms into 1 thread
-		- **ε(0) ← [ε-abstraction] ← c(1) → [ω-extension] → ω(∞)
-		  **- ε = 0 = extent = number
+		- ### ε(0) ← [ε-abstraction] ← c(1) → [ω-extension] → ω(∞)
+			- ε = 0 = extent = number
 			- c = 1 = content
 			- ω = ∞ = 1/ε = intent
 			- ε-abstraction = ⟪"it" (x) ← object⟫ = ⟪extent ← content⟫ causes the emptiness of the form. ε-abstraction = matching = perception (observation)
@@ -496,8 +496,8 @@
 				- ω-abstraction = ⟪actual events → possibility space⟫ = mapping Y → X = mapping Events → time = E(t)^{-1}
 			- size of self (eyeball) = resolution of eye = length of action arrow = |ε-extension| = exp(depth of intention) => the inner most intention in the root of the rope of action is the root of attachment and usually invisible; the most abstract symbol is the top operator
 				- To free the eye, i.e. to refine the eyeball, ε-abstraction must be reduced to see the raw info, and then redirect that flood of info to some exhaust like the breath so that ε-extension is not activated
-			- ε-abstraction yields **centrality**, ω-abstraction yields **linearity
-			  **+ Returning force applied in 2 ways: (knowledge update) my center returns to object's center in the observation phase; object's center returns to my center in operation phase.
+			- ε-abstraction yields **centrality**, ω-abstraction yields **linearity**
+				- Returning force applied in 2 ways: (knowledge update) my center returns to object's center in the observation phase; object's center returns to my center in operation phase.
 	- 2022-08-30
 		- wind flow maps:
 			- Ivo's ECMWF: [https://www.windy.com/?16.941,108.637,5,i:pressure](https://www.windy.com/?16.941,108.637,5,i:pressure)
@@ -521,4 +521,75 @@
 			- [https://i.reddit.com/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/](https://i.reddit.com/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/)
 			- [https://teddit.net/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/](https://teddit.net/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/)
 			- [https://old.reddit.com/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/](https://old.reddit.com/r/Psychonaut/comments/nm8wep/nonsubstance_psychonautics_meditative_state_on/)
+	- 2022-09-06
+		- 5meo with eyes open
+		- Cười đẹp
+		  [https://photos.app.goo.gl/XBgsApnQnpV1trbY7](https://photos.app.goo.gl/XBgsApnQnpV1trbY7)
+		- "Vậy đó!"
+		  [https://photos.app.goo.gl/rV1j3tXcedUjLRFPA](https://photos.app.goo.gl/rV1j3tXcedUjLRFPA)
+		- Lời để lại
+		  [https://photos.app.goo.gl/1p2hLjKu2HxBhwGL7](https://photos.app.goo.gl/1p2hLjKu2HxBhwGL7)
+	- 2022-09-08
+		- == ε & ω abstraction, exp & linear, ngũ uẩn, tam độc ==
+			- ε-abstraction = body connection abstracted (c-ε) to see only the tail/face (ε)
+			  [http://tamsudoithuong.blogspot.com/2021/12/1300-sang-nay-tinh-day-som-ma-giac-au.html](http://tamsudoithuong.blogspot.com/2021/12/1300-sang-nay-tinh-day-som-ma-giac-au.html)
+				- ε-extension = **exp** (thọ) triggered by ε (sắc, form) = **sướng = greed**, eg. first phase(s) in sex & itching
+				- When the scope (ε) shrinks, the eye has less chance to catch the (dynamic & random) object, but each catch is much clearer, much impressed, due to the quantization of object ==> hooked
+				- The whole eye circle (c) is split into 2 arrows: the solid arrow of eyeball (c-ε) and the hollow arrow of iris (ε). When the hollow arrow is small, compared to the solid arrow, and folds up, ε functions as the (inner) eye. The smaller the gap ε, the "closer" it seem to be, thus the faster it runs ==> **hungry ghost effect
+				  **- ω-extension = **linear** mass production (hành) of ω (tưởng) in the body which is unseen
+				- ω-abstraction = compression ==> when the ε eye catches the compressed object, it overloads and **hurts** (aversion, combustion), eg. last phase in sex & injury
+	- 2022-09-10
+		- [http://einsteinrelativelyeasy.com/index.php/general-relativity/97-geodesic-equation-from-the-principle-of-least-action](http://einsteinrelativelyeasy.com/index.php/general-relativity/97-geodesic-equation-from-the-principle-of-least-action)
+	- 2022-09-12
+		- Dynamic arrow (moving point across empty space) of content observed by the eye and recorded by the eyeball (screen) => solid thread
+			- eyeball = memory = mirror reflecting the world
+			- each retinal cell is a whole unit (quantization) => its image is uniform & solid
+			- the "center of the object" is the neutral (averaged) point in the eyeball
+			- the mismatch between the memories (in & ex) yields the returning force => generate the flow, the dynamics
+			- this form is shaped by that memory and vice versa => dependent origination
+	- 2022-09-22
+		- Extension = stretching = ghost trailing = memory effect of the eye = multiflection
+			- ω-extension: linear, addition, temporal, continuous, from thread to current = loop in prog = reuse = circle. ω = (absolute) scalar amount of crystalized content = mass = energy. Current n (< ω) = weight = carried amount of content = scalar value of material point
+			- ε-extension: branching, multiplication, spatial, discrete, from basic states (bin, oct, dec, hex) to state space = module in prog = modulation = from center point to arrow. 1/ε = vector (directed, structured) content
+			- both the foundational thread and the basic states are atomic extensions.
+			- while the extension is empty due to the corresponding abstraction, the concrete content is not as empty and not as discretely concentrated as the forms (extent & intent). The discretely concentration of extent is due to the concentration of the intent.
+			  ==> The concrete extension (just the current/actual part of the extension) is as solid as the intent.
+			  ==> Liberation = enlightenment (reduce the op arrow to balance with the ob arrow) + refinement (reduce the self circle, selfless, xả)
+				- The op arrow = action = force exertion = extension due to memory & karma = inertia = solid = unseen = dark
+				- The ob arrow = sensation = force absorption = self modification = learning = driving = empty = seen = light
+				- The executor spends all its life in running the op arrow, then at the ends (sick & dying) it is forced to observe all things in agony in return.
+		- == εω & CIE ==
+			- ε-abstraction = abstracting the intent yielding the extent (ε). The extent ε as the set of discrete IDs, indices, unit vectors, eg. ε = {i, j, k}
+				- |ε|=0: the content of the extent is very small compared to the intent.
+			- ω-abstraction = abstracting the extent (n) yielding the intent (ω). The intent ω as the set of continuous extents, eg. ω = {1, 2, 3, 1.1, 1.2, 1.3, ...}.
+				- |ω|=∞: the (crystallized) content of the intent is very big compared to the extent n (carried content).
+			- ε-abstraction-ω-extension: eg. in "i3", "i" is the result of ε-abstraction from a structure, "3" is the extent extended from the index set ω = N.
+		- == εω & FoC ==
+			- εω abstraction = compression, contraction, deflation; εω extension = explosion, inflation
+			- in ε-abstraction, ε = center = {center of mass = average, center of structure = eye form = head form = root} = key = trigger
+				- The mismatch between recorded center (in memory) and the true center is the returning force.
+				- Due to memory effect, a key hold by wrong user (wrong content of that extent) can "cheat" a subject to react wrongly.
+			- in ω-extension, ω = body = {distribution of mass, self of structure = body form = canopy} = memory = karma
+				- ω-abstraction sees the world in its own shape (the self body of the observer), using its own body to measure everything.
+				- ω-extension acts on the world by replicating its own self, reactivating its karma
+	- 2022-09-27
+		- The Tree of Knowledge (of Good & Evil)
+			- Knowledge is just symbols, abstraction, products of The Truth (God), not The Truth itself, because The Truth has no opponent. The "truth" against the "false" or the "lie" is just a half of The Truth, just 1 side of the coin of Truth.
+				- knowledge: separation between good & evil, man & woman (sexual shame & attraction), all kinds of separations
+			- The "eating", internalizing the knowledge makes one using its own standard of truth, the personal instead of the global truth.
+				- the "I know" attitude vs Socrates' "I don't know" wisdom
+				- the "eating" = abstracting = lacking (incompleteness) => greed = want more (than the current) = the source of suffering => extending the self = the force to reproduce (sex) => the circle of abstraction & extension = circle of life = samsara
+			- The forbiddance & the lie of God to Adam = the paradox of free will & truth
+				- The forbiddance is just a warning, a statement of cause - effect.
+			- The choice of "eating" is the growth, developing, puberty, with the result is to bear all burdens of God
+				- like the Pandora's box, knowledge is the abyss of darkness, a black box full of danger, challenges
+				- the normal humans are just adolescents full of pride, busy in exploring the knowledge so that forget God
+				- the spiritual-matured humans are elderlies returning to God
+			- the thread between the Tree of Knowledge & the Tree of Life: eat knowledge = (knowing) death (in the external world view "eyes open") => cling to the external world = cannot touch the internal Tree of Life where life is uninterrupted (God keeps humans from the Tree of Life) = seeking the symbol of eternal life in vain = (but) doing the development of the Tree of Life in ignorance (sex)
+		- Good writings:
+			- [https://www.christianity.com/wiki/bible/what-do-we-know-about-the-tree-of-the-knowledge-of-good-and-evil.html](https://www.christianity.com/wiki/bible/what-do-we-know-about-the-tree-of-the-knowledge-of-good-and-evil.html)
+			- [https://www.christianity.com/wiki/bible/why-did-god-create-the-forbidden-fruit-in-the-first-place.html](https://www.christianity.com/wiki/bible/why-did-god-create-the-forbidden-fruit-in-the-first-place.html)
+			- [https://www.christianity.com/wiki/sin/did-evil-exist-before-adam-and-eve-sinned.html](https://www.christianity.com/wiki/sin/did-evil-exist-before-adam-and-eve-sinned.html)
+			- [https://en.wikipedia.org/wiki/Pantheism](https://en.wikipedia.org/wiki/Pantheism)
 	- 2022
+-
