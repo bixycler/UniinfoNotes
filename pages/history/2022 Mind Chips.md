@@ -530,13 +530,13 @@
 		- Lời để lại
 		  [https://photos.app.goo.gl/1p2hLjKu2HxBhwGL7](https://photos.app.goo.gl/1p2hLjKu2HxBhwGL7)
 	- 2022-09-08
-		- == ε & ω abstraction, exp & linear, ngũ uẩn, tam độc ==
+		- #### ε & ω abstraction, exp & linear, ngũ uẩn, tam độc
 			- ε-abstraction = body connection abstracted (c-ε) to see only the tail/face (ε)
 			  [http://tamsudoithuong.blogspot.com/2021/12/1300-sang-nay-tinh-day-som-ma-giac-au.html](http://tamsudoithuong.blogspot.com/2021/12/1300-sang-nay-tinh-day-som-ma-giac-au.html)
 				- ε-extension = **exp** (thọ) triggered by ε (sắc, form) = **sướng = greed**, eg. first phase(s) in sex & itching
 				- When the scope (ε) shrinks, the eye has less chance to catch the (dynamic & random) object, but each catch is much clearer, much impressed, due to the quantization of object ==> hooked
-				- The whole eye circle (c) is split into 2 arrows: the solid arrow of eyeball (c-ε) and the hollow arrow of iris (ε). When the hollow arrow is small, compared to the solid arrow, and folds up, ε functions as the (inner) eye. The smaller the gap ε, the "closer" it seem to be, thus the faster it runs ==> **hungry ghost effect
-				  **- ω-extension = **linear** mass production (hành) of ω (tưởng) in the body which is unseen
+				- The whole eye circle (c) is split into 2 arrows: the solid arrow of eyeball (c-ε) and the hollow arrow of iris (ε). When the hollow arrow is small, compared to the solid arrow, and folds up, ε functions as the (inner) eye. The smaller the gap ε, the "closer" it seem to be, thus the faster it runs ==> **hungry ghost effect**
+					- ω-extension = **linear** mass production (hành) of ω (tưởng) in the body which is unseen
 				- ω-abstraction = compression ==> when the ε eye catches the compressed object, it overloads and **hurts** (aversion, combustion), eg. last phase in sex & injury
 	- 2022-09-10
 		- [http://einsteinrelativelyeasy.com/index.php/general-relativity/97-geodesic-equation-from-the-principle-of-least-action](http://einsteinrelativelyeasy.com/index.php/general-relativity/97-geodesic-equation-from-the-principle-of-least-action)
@@ -558,13 +558,13 @@
 				- The op arrow = action = force exertion = extension due to memory & karma = inertia = solid = unseen = dark
 				- The ob arrow = sensation = force absorption = self modification = learning = driving = empty = seen = light
 				- The executor spends all its life in running the op arrow, then at the ends (sick & dying) it is forced to observe all things in agony in return.
-		- == εω & CIE ==
+		- #### εω & CIE
 			- ε-abstraction = abstracting the intent yielding the extent (ε). The extent ε as the set of discrete IDs, indices, unit vectors, eg. ε = {i, j, k}
 				- |ε|=0: the content of the extent is very small compared to the intent.
 			- ω-abstraction = abstracting the extent (n) yielding the intent (ω). The intent ω as the set of continuous extents, eg. ω = {1, 2, 3, 1.1, 1.2, 1.3, ...}.
 				- |ω|=∞: the (crystallized) content of the intent is very big compared to the extent n (carried content).
 			- ε-abstraction-ω-extension: eg. in "i3", "i" is the result of ε-abstraction from a structure, "3" is the extent extended from the index set ω = N.
-		- == εω & FoC ==
+		- #### εω & FoC
 			- εω abstraction = compression, contraction, deflation; εω extension = explosion, inflation
 			- in ε-abstraction, ε = center = {center of mass = average, center of structure = eye form = head form = root} = key = trigger
 				- The mismatch between recorded center (in memory) and the true center is the returning force.
@@ -591,5 +591,119 @@
 			- [https://www.christianity.com/wiki/bible/why-did-god-create-the-forbidden-fruit-in-the-first-place.html](https://www.christianity.com/wiki/bible/why-did-god-create-the-forbidden-fruit-in-the-first-place.html)
 			- [https://www.christianity.com/wiki/sin/did-evil-exist-before-adam-and-eve-sinned.html](https://www.christianity.com/wiki/sin/did-evil-exist-before-adam-and-eve-sinned.html)
 			- [https://en.wikipedia.org/wiki/Pantheism](https://en.wikipedia.org/wiki/Pantheism)
-	- 2022
--
+	- 2022-09-29
+		- Duals: linga-yoni ~ puruṣa-prakṛti ~ Arrow-Circle ~ content-form
+		  Triples: purusha-prakriti(linga-yoni) ~ Equal-Arrow-Circle
+			- 3 lingas at 3 chakras: root (base) = Circle = tinh, heart = Arrow = khí, 3rd eye = Equal = thần
+		- [https://hridaya-yoga.com/yoni-sacred-source/](https://hridaya-yoga.com/yoni-sacred-source/)
+			- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_13@29-09-2022_18-52-32.jpg){:width 300}
+	- 2022-10-03
+		- Mike Tyson ADVERSITY the toad (5 meo-dmt) experience: [https://youtu.be/vuUlt-lNt40](https://youtu.be/vuUlt-lNt40)
+		- Mike Tyson: [How "The Toad" Saved my Life I The Art of Conversation with Dan Le Batard](https://youtu.be/6T5Oz-9caGc)
+	- 2022-10-05
+		- 1dim = +- = in-ex = future-past = eye-body = potential-actual = time-space
+		- quaternion mult i×j = k = inner = ex×in = f×f' = v×a = r×v
+			- 1 = time unit = self unit <> i,j,k = space units = other units
+			- the self is always heading to the internal, unseen, darkness, yin
+		- Riemann circle (0,±1,±∞):
+			- radiant: projected to ±1 = v×a = velocity varied by returning force (gravity, centripetal) orthogonal to velocity
+			- tangent: projected to ±∞ = r×v = position varied by (constantly forward) velocity
+		- Fractal sprirorus = M-circle of m-circles of μ-circles of....
+			- M⊥m⊥μ; M//μ ~ (radius//force) ⊥ velocity ==> If the orthogonal is (1-)consecutive (+-) the tangent is interleaving (2-consecutive, ++ or —)
+			- The crystalized content arrows of the keyring circle link the key circles of carried contents = the crystalized keys carry the keyring ==> relativity of crystal & carried: the vessel carries the wheels = the wheels carry the vessel
+			- Orthogonally between the crystalized content arrows are "canceling" opposite arrows = crystalized content circles, like the cells in a planar pattern
+			  ==> The carried content (mismatch, remainder) of the inner circles emerge as "pressure, force"
+			  ==> Carried content = arrow of mismatch = remainder of division: individual differentials [displacement (radius), velocity (momentum), acceleration (force)]; collective moments [average, variance, skewness]
+			  ==> Crystalized content (intensive) = component arrows of the circle: yin-yang, plus-minus, linga-yoni
+			- Crystalized circle = canceling result of intensive content arrows
+			- extensive content = quotient of the division by the intent circle
+		- Through the eye point (retina, selfless, empty), the circle is crystalized from opposite arrows; Within the eye form (eyeball, concrete memory), the arrow is carried as remainder from the circle.
+			- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_14@05-10-2022_09-20-41.jpg){:width 600}
+	- 2022-10-06
+		- fractal torus in water
+			- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_15@06-10-2022_12-56-14.jpg){:width 300}
+	- 2022-10-08
+		- ### The *flection* ~ formation: the Arrow flexes at the Equal(eye/join) to form the Circle
+			- technically more general & abstract than "flexion" (bending)
+			- deflect (deform, transform, distort) small degrees until half turn to reflect (opposite, complement) then until full turn to inflect into new world, which in combination multiflect (multiply, replicate, ω-extension)
+			- self-flection = inflection = turning Arrow to Circle = folding; exflection = returning Circle back to Arrow = relax. Both are cross-flection between worlds across boundary
+			- at the contact point, the thread is multiflected by being split into 2 threads: the cross-flection thread into the other world & the reflection thread back to the source world
+			- in the eye, it's sensing, perception; in the mind (head), it's conception, cognition, consciousness
+				- Sensing = perception = recognition via abstracting the object (to pure signal, symbol) & matching with the subjective memory
+				  -> Conception = mental formation = remembering = recording via mixing objective signal with subjective memory = tracing = ghost trailing; until a full circle is traced, the record is abstracted into... a new symbol, a new point in ε-ab (conceptualisation), or a number (ωε-ab) for old concept (feeling formation)
+				  -> Action = operation = (εω-)extension
+		- ### No diff no info, no sim no knowledge
+			- Cones: view cone = inward projection = abstraction, light cone = outward projection = extension
+			- abstraction then extension result in mixing & conditioning
+			- The eye (=) as an indifferential singularity (vertex) vs Arrow & Circle as differential plurality. The differential plurality is the content of all worlds (internal & external, real and virtual). The Equal eye is formless, contentless, vacant, empty... to the differential plurality, while it has its own form & content which are invisible to the outside world.
+			  ==> The ideal "selfless eye" is the inner most eye whose form & content are absolutely invisible
+			  ==> The info of the outer world (space) is analyzed by differential calculus (+-); while the eye synthesizes knowledge in time with sync & intergral calculus (++)
+			- lie = diff = new (the cutting edge) = content of the outer world, symbolized by Satan the Liar, Māyā the Illusion,
+			  ==> Lie is the absolute, the whole, albeit called "The Truth" (the coin of Truth)
+	- 2022-10-14
+		- Analysis = abstraction <> synthesis = extension
+			- symbol = sign = extent = (ε-)abstraction of content via intent = the form crystallized from contents of all subjects showing that sign
+				- Usage of the symbol on objects = carried content, which must < crystallized content = def of that symbol in subjects
+				- King 👑 = symbol of the nation = crystallized from all citizens
+	- 2022-10-26
+	- 2022-11-05
+		- Extensions
+			- Linear extension in time ∫f(t)*dt = ghost trailing = linear memory = linear solidity => multilinear extension in space ∫f(x,y,z)*dx*dy*dz = volume solidity => exp extension in state space Πf(x_i)*dx_i
+			- intensional multi-thread (linked circles, fibers) —[interunion]—> extensional uni-thread —[wraps around]—> the Quantum (limited) state space (cell, egg, seed, cocoon, chrysalis) —[ω-extension]—> cosmic (infinite) space
+				- cocoon —[ε-abstraction]—> the selfless Eye point
+	- 2022-11-09
+		- Sanskrit शून्य (śūnya) → Arabic صفر(ṣfr, ṣafira, ṣifr) → Medieval Latin “zephirum”, “cifra”
+		  → French “zéro” → English: “zero”
+		  → Old French “cyffre” → French “chiffre”, English “cipher” (cypher)
+	- 2022-11-13
+		- Exp
+			- (N-1)-simplexes (points, segments, triangles, tetrahedron): 1(space, background) +  = 2^N = PowerSet(N = {points}) = (old+new)^N = binary tree = Pascal's triangle of kinds of simplexes = state space (of possibility) = extension of N points
+			- binary numbers = enumeration/"or" of objects (possibilities) = time = space filling thread = ordinals <>  = cardinal = mass =  👀 = "and" of
+				- First eye #|0| sees nothing but an empty space, ie. object #0; object #1 = image of subject #|0|, seen by second eye #|1|
+				- The image of all old subjects, ie. #(2^N-1), + 1(eye) = new subject #|N|, eg. #7(triangle ABC) + 1(eye) = #8 = #|3| = apex D of (3-simplex = tetrahedron)
+				- New eye #|N| sees/reflects 2^N old objects, composed of N images of old subjects, as 2^N new objects => it sees all 2^(N+1) objects, all possibilities => it sees itself as a newer subject #|N+1| seeing the whole => metaization ... => Cantor's ordinals & diagonal argument
+			- subject ~ solid, concrete ~ stable ~ whole ~ self sustain <> object ~ empty, abstract ~ transient ~ part ~ combined & maintained by subjects
+			- relativity: order of subjects is due to history (dir of generation), but the symmetry of simplexes shows they are equivalent: through the background, the old eyes can "see" the new subject, closing the circle ⭕ of view without the ack of the new subject
+		- [https://m.facebook.com/story.php?story_fbid=pfbid02mLHn8gbaJN4joW8YGE8giTonZMysBCkJSVjdP7KhdqFtvht7oEGqNbz6JtoGRG6nl&id=667177130&sfnsn=mo](https://m.facebook.com/story.php?story_fbid=pfbid02mLHn8gbaJN4joW8YGE8giTonZMysBCkJSVjdP7KhdqFtvht7oEGqNbz6JtoGRG6nl&id=667177130&sfnsn=mo)
+	- 2022-11-20
+	- 2022-11-22
+		- webRTC:
+		  96.0.4664.0_7ec519c8.Skynet
+		  commit 7ec519c8297828cfcd4c3a3871837ed3008d577e (branch-heads/4664)
+	- 2022-11-24
+		- **Transformation = Rotation
+		  **- Everything is Circle + every Arrow is a part of Circle => every trans is a rotation
+			- The center of the circle = the center of rotation = the **eye** = the **eigenvector
+			  **- The collection of all trans arrows is **symmetric**: each this vector has an opposite that vector; sum of all trans vectors = 0; all trans are group actions
+			- The rotational unit "i" is complement to the linear unit "1"; the "i" hidden in the subject's eye underlies all changes, all trans in the external world.
+			- Like the Pendulum Wave, the whole Circle is composed of many micro circles and shows different forms with different **sampling** *view*
+			  ==> Transform = change sampling view = **rotate micro circles
+			  **- The "0" is a neutral point, but just the "external" one, the "∞" is the internal neutral point, the center within... but appears to be "outer most" :D
+			  => The quadruple (i, 1; 0, ∞) is the structure of the whole. When i = -1, we have "harmonic" quadruple (-1, 1; 0, ∞) = -1
+		- ==> To complete, both refine the Arrow down to a point (Equal, selfless) and extend the Arrow up to a Circle (whole Self), but the inner most point is also the Circle of the outer most whole Self (strange loop, Grand Circle, intrinsics).
+		- Alt-codes on Windows:
+			- quotes: “0147, ”0148, ‘0145, ’0146, «174, »175,
+			- symbols: ☺️1, ☻2, ♥️3, ♦️4, ♣️5, ♠️6, ○9, ◙10, ♂11, ♀12, ♪13, ♫14, ☼15, ‼️19,
+			- arrows: ↑24, ↓25, →26, ←27, ►16, ◄17, ▲30, ▼31, ↕️18, ↔️29,
+			- maths: π227, ∞236, ≡240, ±241±0177, ≥242, ≤243, ÷246÷0247, ≈247, °248°0176 (degree), ∙249 (bullet operator), ·250·0183 (dot operator), √251, ×0215, Ø0216, ø0248,
+			- Greek: α224, ß225, Γ226, π227, Σ228, σ229, µ230, τ231, Φ232, Θ233, Ω234, δ235, ∞236, φ237, ε238,
+			- others: …0133, •0149 (bullet), ©0169,
+	- 2022-11-28
+		- Sustent = content + intent ≈ substance, the one sustaining the extent: unseen, hidden, underlying, usually considered as "content" or "intension".
+			- Sustent-Extent = substance-property = material-mental = physical-info
+			  [https://en.wikipedia.org/wiki/Substance_theory](https://en.wikipedia.org/wiki/Substance_theory)
+			- intension(i)-extension(e, c) = intensive-extensive = invariant-variant
+	- 2022-12-05
+		- Wave function **collapse** = observation = vector projection onto eye-axis = **implosion possible -> actual** = extensional current -> intensional thread = mapping ex vs in = sampling of the (intensional) content by the frequency of the intent
+			- all forms are moiré patterns, sound beats, wave packets, syncs between content & intent, spark in the eye, click in the ear, snap in the feeling
+			- Einstein's proof of Pythagorean theorem: the sum c_a + c_b = c ~ the complement of content and context (intent) ~ the relativity between objective & subjective views of the compressed (non-uniform) topo map
+			- both content & intent roll at nearly the same rate ω±ε (ω = c = speed of light) in the tangent dir, but in the radical dir, the content vector is projected onto intent vector, and vice versa, as just ε = gcd(e, i)
+	- 2022-12-14
+		- form = common = condensation of contents
+			- intensional form = GCD (ε, 0) = intent, extensional form = LCM (ω, ∞) = extent = space
+			- the form is countless = all counts, directionless = all dirs, scaleless (scale-free) = all scales. The "all" is the content, so without contents, the int form is nothing and the ext form is empty.
+	- 2022-12-23
+		- sensation (AKA consciousness) = sync, 👏 clap, click, tick, snap, tap, spark
+			- the sync of 0-marks of factors (divisors) = the 0-mark of the product
+			- that click is the signal for "higher" circle to turn, Turing Machine relies solely on this signal, hence discrete
+			- the tendency of the "i" to snap to 0-marks generates force, distortion, curvature, autonoton relies on this force, hence continuous
