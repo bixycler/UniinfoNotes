@@ -103,4 +103,75 @@
 			- Men learn little from success, but much from failure. ~ Arabian/English Proverbs
 			- Success is a pile of failure that you are standing on. ~ Dave Ramsey
 			- Failure is success in progress. ― Albert Einstein
+	- 2021-11-01
+		- clelia curve, as unithread ball, as circled infinity, as closed U, as 2-eye circle, as double incidence
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_7@01-11-2021_01-08-27.jpg)
+	- 2021-11-11
+		- Word-diff lib performance:
+			- test "chrome/app/generated_resources.grd":
+			  difflib=2s, worddifflib=22s, wdl-hash=1:44
+			- [https://wiki.python.org/moin/PythonSpeed/PerformanceTips](https://wiki.python.org/moin/PythonSpeed/PerformanceTips)
+			- [https://wiki.python.org/moin/PythonSpeed/Profiling](https://wiki.python.org/moin/PythonSpeed/Profiling)
+		- The Arrow:
+			- Entropy: info increases, state space expands
+			- Cosmos space expansion
+			- Radioactive decay & radiation
+			- Probability space even out
+			- Cool down (gravity) & evaporate (thermodynamic)
+			  ==> The Arrow is to oppose the Circle of Self
+		- Knowledge theory: "No diff no info, no sim no knowledge"
+			- Match the similar => "self" => merge => compress => form (knowledge)
+			- Extract the diff => "not self" => separate => content (info)
+			- Extract more diff <=> match finer circle <=> refinement
+			- Find shorter path <=> compression, refinement
+			  ==> "straight", extensionally, in the view of "self", but
+			  ==> "circular", intensionally, in the view of non-self!, AKA "back on itself"
+			- Pattern matching:
+				- Requires memory: pattern is a form contained inside a container form called "memory"
+				- Stricter match = clinging more to the self = tighter inner circle = more diff arrow outside
+				  ==> The more circle inside (self), the more arrow outside (not self); The less circle inside, the less arrow outside, like a loose body can hold vibration.
+				  ==> Forms in form: the container form is the basis for all formation via accumulation
+				- Full, perfect form is inert like inert gas, gold, does not contain more, has the tightest self => "straight"
+				- Empty form collects more content forms to develop... for the inner patterns to emerge... until limit reached => explode, die, collapse to the crystalized inner perfect circle
+	- 2021-11-17
+		- Chat tả cảnh "địa ngục":
+			- phán quan là ai? ai phán xét mình? ko ai khác ngoài Chính Mình
+			- những người ở đời cứ hay mắng kẻ khác "mày làm vậy là đọa địa ngục đó!" thì lúc lâm chung đó càng bị phán xét
+			- phán quan phán xét dựa trên "sổ sanh tử", vậy sổ đó ở đâu? ko đâu ngoài chính bộ nhớ của mình, tiếng Anh có thuật ngữ là Life Review
+			- ai bị lật sổ sanh tử nhiều nhứt? là những người ở đời luôn lẩn trốn, ít chịu đối diện với thực tế, ít chịu chấp nhận thực tế. Vì hễ cái gì mình trốn thì tưởng là mất nhưng thực ra chỉ khuất mắt đi thôi, càng khuất mắt đi thì nó càng lưu lại trong "sổ sanh tử" hay "tàng thức" (kho tàng ký ức) của mình
+			- Phán xét xong thì tội sẽ bị xử bởi "đầu trâu mặt ngựa", vậy tụi quỷ đó là ai? Là chính phần tiêu cực trong mình. Mình càng ham thích phần tích cực, phần trắng trẻo, đẹp đẽ, đúng đắn, thì mình càng đẩy mặt kia vào bóng tối, và trong bóng tối thì buộc nó phải hấp thụ năng lượng bóng tối thành ra quỷ dữ thôi
+			- Tụi nó thọc vô mắt mũi miệng, xuống tận ruột gan phèo phổi mình mà ngoáy mà "hành hạ"...
+			- Những ai bị "tội nặng" thì đọa Địa ngục "vô gián" là sao? Nghĩa là liên tục không gián đoạn, ko bao giờ ngừng được.
+			- Tại sao ko ngừng được? Chẳng phải vì cái gì khác ngoài chính tâm cố chấp của mình. Hễ khi nào mình còn chống đối, còn đẩy "bọn quỷ sứ" đó ra, vì cho rằng "tao vô tội" thì còn phải bị "hành hạ" thôi
+			- Bất kỳ lúc nào mình chấp nhận, à xấu cũng là mình, tốt cũng là mình, thiện cũng là mình, ác cũng là mình, thì ngay khoảnh khắc đó mình được giải thoát
+			- Bằng không thì mình bị giam đó thiên thu bất tận
+			- Cái thời gian ở cõi đó rất khác với thời gian bên ngoài. Đối với người đang sống bình thường bên ngoài chỉ khoảng vài phút, nhưng đối với người đang đi cảnh đó thì có thể đã vài thế kỷ
+			- Khi tui thoát ra thì bọn quỷ dữ đó bỗng trở thành những "con ma hề", tụi nó chỉ như đang diễn những trò hề trò lố chọc cười mình vậy thôi 😃
+	- 2021-11-23
+		- khai báo y tế với cty
+			- **[FILE]**: [KBYT.pdf](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/KBYT.pdf)
+	- 2021-11-26
+		- Huy chat:
+			- Như vậy quá trình giải thoát là làm sao để "triệt sản" mấy tụi tế bào vô thức này để chính ko tái sinh nữa à?
+			- Vấn đề hiện tại tui thấy là mình thích an trú, và hưởng lạc nhiều quá, đi được một lúc thấy chỗ trú là tấp vào đó, rồi quên là mình đi chưa tới.
+			- Mấy hôm nay tui bị vướng vào "sân si" nhiều quá, chợt nhận ra không dễ "chấp nhận" mấy "đứa trẻ" bên trong mình như Định từng nói...
+			- Đơn cử “đứa trẻ” thích quy cũ quy trình của tui, lâu lâu rơi vào tình huống cụ thể nó sẽ trồi lên khá mạnh mẽ, lúc đó ý thức biết rõ nó đang dominate cần kìm lại nhưng ko đc, kiểu như mình biết mình đang giận dữ là sai nhưng ko kìm cơn giận lại đc vậy.
+			- Về “làm hoà” thì cũng giống như ngoài đời thôi, ngồi “nói chuyện” với nhau, kiểu như tự vấn lương tâm thôi. Có 2 dạng, một là lúc bình thường, “đứa trẻ” ko trồi lên, ý thức phân tích đúng sai cho nó nghe, mai ko biết nó có nghe ko, vì tui ko có phương tiện thiền giống Định để kiểm chứng.
+			- Dạng thứ 2, đợi tình huống “đứa trẻ” trồi lên dominate, lúc này ý thức biết chắc chắn nó có nghe, thể hiện qua sự bực tức khi phân tích đúng sai với nó, có điều do nó dominate nên ko biết thấm ko.
+			- Dạo gần đây tui vẫn thử ở dạng 2, lúc nó đang trồi lên, ý thức ko phân tích đúng sai nữa, chỉ nói với nó: tao chấp nhận mày ở cùng tao, mày cũng nên chấp nhận tao ở với mày, let it be thôi, tao ko cản mày nhưng mày cũng ko phải duy nhất.
+			- Ví dụ: ngày mai sẽ chấm xyz bài trước, sau soạn cho xong bài giảng, ... nhưng đang chấm bài thì bị cuốn vào cuộc tranh luận qua chat, nên bể kế hoạch dự tính trước, nên bực tức lên.
+	- 2021-12-01
+		- Theo mình hiểu cái "chết" trong sấm Trạng Trình là vậy. Và đại dịch covid-19 này cũng chỉ mới là sự bắt đầu của quá trình "thanh lọc toàn cầu" mà thôi!
+			- Mười phần chết bảy còn ba,
+			  Chết hai còn một mới ra thái bình!
+			- Cái chết của người là cái chết nhỏ, cái chết của mình mới là cái chết lớn!
+			  Cái chết thân thể là cái chết nhỏ, cái chết Bản Ngã (cái Tôi, Ego) mới là cái chết lớn!
+			  Tiểu tử tiểu ngộ, đại tử đại ngộ!!!
+			- Ref: [https://vnthuquan.net/truyen/truyen.aspx?tid=2qtqv3m3237nvn3ntn1nnn31n343tq83a3q3m3237nvn&AspxAutoDetectCookieSupport=1#phandau](https://vnthuquan.net/truyen/truyen.aspx?tid=2qtqv3m3237nvn3ntn1nnn31n343tq83a3q3m3237nvn&AspxAutoDetectCookieSupport=1#phandau)
+	- 2021-12-03
+		- liên tục vi tế (微細) = tỉnh thức sâu, định, miên mật (綿密) = trơn (khả vi vô hạn)
+		- đứt đoạn, mất kết nối, mắc kẹt, tắc nghẽn, bế tắc = tâm phân biệt = vô minh = đau bệnh
+		- liên thông, kết nối với mọi thứ = vạn vật đồng nhất thể
+		- Bình đẳng, vô tư, tương đối:
+			- không có "tôi làm" hay "bạn làm" mà chỉ có việc làm đang diễn ra; không có "tôi thương bạn" hay "bạn thương tôi" mà chỉ có tình thương đang hiện hữu; không phải "cái này của tôi, cái kia của bạn" mà chỉ là "cái này ở gần nơi đây, cái kia ở xa đằng kia" = làm mọi việc mà không có người làm = vô vi = người quan sát và cái thấy được là một = vô ngã
 	- 2021
