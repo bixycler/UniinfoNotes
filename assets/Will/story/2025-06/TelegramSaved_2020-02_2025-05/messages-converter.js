@@ -17,6 +17,8 @@ function DownloadExtractedContent() {
     linkExtractedContent.href = url;
     linkExtractedContent.click();
     URL.revokeObjectURL(url);
+    // Note: must manually move Downloads/list.html to the current folder, then click the link to open it
+    linkExtractedContent.href = 'list.html';
 }
 
 function removeElements() {
