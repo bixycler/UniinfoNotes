@@ -100,12 +100,8 @@
 			- **gortc**/stun ([https://github.com/gortc/stun](https://github.com/gortc/stun)) for *modern STUN* which is merged into pion/stun ([https://github.com/pion/stun](https://github.com/pion/stun)), and a simple "symmetric NAT" checker "natat" ([https://github.com/songjiayang/natat](https://github.com/songjiayang/natat))
 			- For "symmetric/cone" detection only, we can also use ICE (**2 candidates** will be returned on "symmetric NAT"): [https://webrtchacks.com/symmetric-nat/](https://webrtchacks.com/symmetric-nat/)
 			- **Symmetric NAT Traversal** using STUN (RFC draft): [https://tools.ietf.org/id/draft-takeda-symmetric-nat-traversal-00.txt](https://tools.ietf.org/id/draft-takeda-symmetric-nat-traversal-00.txt)
-		- TURN specs & headers: [https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-turn/8177788b-1f38-47a5-8a6f-348e89717922](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-turn/8177788b-1f38-47a5-8a6f-348e89717922) ([RFC5766](https://tools.ietf.org/html/rfc5766#section-12))
-	- 2020-06-25
-		- Tasks
-			- Docker net, iptables, firewalld for testing
-				- CoTURN done with alias net `eth0:0` (172.17.0.{3:3478, 2:3479})
-				- Set up subnet...
+		- TURN
+			- TURN specs & headers: [https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-turn/8177788b-1f38-47a5-8a6f-348e89717922](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-turn/8177788b-1f38-47a5-8a6f-348e89717922) ([RFC5766](https://tools.ietf.org/html/rfc5766#section-12))
 	- 2020-07-07
 		- Network settings:
 			- Alias interface for existing device:
@@ -119,13 +115,13 @@
 			- Basic about docker's modification of host's iptables: [https://docs.docker.com/network/iptables/](https://docs.docker.com/network/iptables/)
 			- How docker modifies host's iptables: [https://argus-sec.com/docker-networking-behind-the-scenes/](https://argus-sec.com/docker-networking-behind-the-scenes/)
 	- 2020-07-09
-		- Geni:
-			- Set new password, change language to Vietnamese
-			- Choose Vietnamese for names
+		- Tasks on [Geni family tree](https://www.geni.com/people/Xu%C3%A2n-%C4%90%E1%BB%8Bnh-L%C3%AA/6000000141986821931):
+			- DONE Set new password, change language to Vietnamese
+			- DONE Choose Vietnamese for names
+			- DONE Upload id photo
 			- Only use last & first names (with nick)
 			- Set child order (1-/2-) & marriage order <— GEDCOM only support relative order!!! ==> use nick to record!
 			- (Add "Giỗ AL: 2 tháng 3") <— Autocomputed by Gramps.mod
-			- Upload id photo
 			- Coverage: forest{ blood rel{ direct line{ paternal, maternal }, collateral line }, in-law rel }
 	- 2020-07-13
 		- Mashup dashboard
@@ -142,8 +138,6 @@
 				- Still fixed width (provided by meta); js can dynamically adjust meta, but... messy!
 			- Style "position: absolute" snap-zooms to the full width (no matter in or out)
 			- Viewport info is provided via VisualViewport API (working draft)
-	- 2020-08-29
-		- Editing: p.slots[id] in goHandlePipelineBuffer(), readTrack()
 	- 2020-09-01
 		- Hamilton-Jacobi equation: dS/dt + H = 0
 		  [https://hal.archives-ouvertes.fr/hal-02317455/file/hamilton_jacobi.pdf](https://hal.archives-ouvertes.fr/hal-02317455/file/hamilton_jacobi.pdf)
@@ -159,7 +153,7 @@
 			- [https://schoolofsustainability.asu.edu/degrees-and-programs/graduate-degrees-programs/complex-adaptive-systems-science-concentration-phd-sustainability/](https://schoolofsustainability.asu.edu/degrees-and-programs/graduate-degrees-programs/complex-adaptive-systems-science-concentration-phd-sustainability/)
 	- 2020-09-18
 		- bài toán "Hàn Tín điểm binh"
-		  [https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_s%E1%BB%91_d%C6%B0_Trung_Qu%E1%BB%91c](https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_s%E1%BB%91_d%C6%B0_Trung_Qu%E1%BB%91c)
+			- [on Wikipedia](https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_s%E1%BB%91_d%C6%B0_Trung_Qu%E1%BB%91c)
 			- [http://vitayson12.blogspot.com/2014/12/bai-toan-han-tin-iem-binh.html](http://vitayson12.blogspot.com/2014/12/bai-toan-han-tin-iem-binh.html)
 			- [https://zh-classical.wikipedia.org/wiki/%E9%9F%93%E4%BF%A1%E9%BB%9E%E5%85%B5](https://zh-classical.wikipedia.org/wiki/%E9%9F%93%E4%BF%A1%E9%BB%9E%E5%85%B5)
 	- 2020-09-24
