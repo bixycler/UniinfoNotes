@@ -4528,8 +4528,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 671504da-2c66-46e4-af83-f99b9f488d6d
 				- This will deploy a website using an action defined by `.github/workflows/$custom_publish_action.yml`, e.g.  Logseq's [publish-SPA](https://github.com/logseq/publish-spa) action.
 		- ### GitHub Copilot
+			- The free plan has limits on number of code suggestions and chat messages.
+				- They increases gradually: (2k suggestions + 50 messages)/month → (4k suggestions + 500 messages)/month → ...
+				- Any suggestion counts as a "completion", any chat response counts as a "message".
 			- Check for quotas (limits, remaining, resetDate)
 				- While there's no statistics on the [Settings GUI](https://github.com/settings/copilot/features), the info is actually available in response to the request `https://github.com/github-copilot/chat`/`entitlement`: just open Chrome DevTools of Copilot Settings page > `Network` > filter for `entitlement`.
+				  collapsed:: true
+					- ![GitHub-Copilot-entitlement-quotas.png](../assets/Will/story/2025-06/GitHub-Copilot-entitlement-quotas.png)
 				- Ref: [a nice hack by charlielee](https://github.com/orgs/community/discussions/148154#discussioncomment-12546080)
 	- ## obsidian
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
