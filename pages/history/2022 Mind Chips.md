@@ -1,2 +1,148 @@
 ## 2022 Mind Chips
-	-
+	- 2022-01-03
+		- About the "Smart Shopping" scam:
+		- **[FILE]**: [smartshoppingvn.zip](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/smartshoppingvn.zip)
+		- [https://www.google.com/amp/s/amp.baonghean.vn/nghe-an-nhieu-nguoi-khon-kho-vi-nhan-thong-bao-trung-thuong-sau-khi-mua-hang-online-283022.html](https://www.google.com/amp/s/amp.baonghean.vn/nghe-an-nhieu-nguoi-khon-kho-vi-nhan-thong-bao-trung-thuong-sau-khi-mua-hang-online-283022.html)
+		- [https://m.plo.vn/ban-doc/nhieu-nguoi-cung-thang-giai-thuong-1-ti-dong-508311.html](https://m.plo.vn/ban-doc/nhieu-nguoi-cung-thang-giai-thuong-1-ti-dong-508311.html)
+		- [https://thanhnien.vn/smart-shopping-trao-thuong-cho-3-khach-hang-vao-ngay-than-tai-post1040383.html](https://thanhnien.vn/smart-shopping-trao-thuong-cho-3-khach-hang-vao-ngay-than-tai-post1040383.html)
+		- [https://tuoitre.vn/moi-nhan-thuong-khong-co-nghia-la-trung-thuong-744164.htm](https://tuoitre.vn/moi-nhan-thuong-khong-co-nghia-la-trung-thuong-744164.htm)
+		- [https://tuoitre.vn/smart-shopping-trao-350-trieu-dong-cho-nguoi-thang-giai-20210401161219756.htm](https://tuoitre.vn/smart-shopping-trao-350-trieu-dong-cho-nguoi-thang-giai-20210401161219756.htm)
+		- [https://www.facebook.com/110981524030158/posts/229700448824931/](https://www.facebook.com/110981524030158/posts/229700448824931/)
+		- [https://m.thanhnien.vn/nghe-si-uu-tu-my-uyen-trao-2-2-ti-dong-cho-khach-hang-smart-shopping-post1395656.amp](https://m.thanhnien.vn/nghe-si-uu-tu-my-uyen-trao-2-2-ti-dong-cho-khach-hang-smart-shopping-post1395656.amp)
+		- [https://m.thanhnien.vn/nghe-si-ngan-quynh-lam-dai-su-thuong-hieu-cua-smart-shopping-post1028011.amp](https://m.thanhnien.vn/nghe-si-ngan-quynh-lam-dai-su-thuong-hieu-cua-smart-shopping-post1028011.amp)
+		- [https://m.thanhnien.vn/nghe-si-ngan-quynh-trao-350-trieu-dong-cho-nguoi-thang-giai-smart-shopping-post1051713.html](https://m.thanhnien.vn/nghe-si-ngan-quynh-trao-350-trieu-dong-cho-nguoi-thang-giai-smart-shopping-post1051713.html)
+		- [https://tienphong.vn/nu-khach-hang-smart-shopping-chien-thang-1-ty-dong-post1406052.tpo](https://tienphong.vn/nu-khach-hang-smart-shopping-chien-thang-1-ty-dong-post1406052.tpo)
+		- [https://congthuong.vn/smart-shopping-trao-giai-thuong-dac-biet-1-ty-dong-cho-khach-hang-thang-cuoc-170132.html&mobile=yes&amp=1](https://congthuong.vn/smart-shopping-trao-giai-thuong-dac-biet-1-ty-dong-cho-khach-hang-thang-cuoc-170132.html&mobile=yes&=1)
+		- Có tố cáo được doanh nghiệp vì tội lừa đảo chiếm đoạt tài sản không?
+		  [https://chuyentuvanluat.com/hinh-su/co-to-cao-duoc-doanh-nghiep-vi-toi-lua-dao-chiem-doat-tai-san-khong](https://chuyentuvanluat.com/hinh-su/co-to-cao-duoc-doanh-nghiep-vi-toi-lua-dao-chiem-doat-tai-san-khong)
+	- 2022-01-06
+		- 2 point touching rubber band model with 2dim space (S2) v. Twisted ➰ model with space time (ST)
+		- touching point outside = 0 = 0*1 = actualization = pattern matching = action upon, crossing point inside = ♾️ = 1/0 = memory = learning = observation = projection point (eye)
+		- 0 point of ST = linear scale, 0 point of S2 = log projective scale = sign inversion point = point of other dim
+	- 2022-01-09
+		- spatial next dimension = zooming = up-down the tree via left-right clamping like surreal number & Dedekind cut => power law
+		- root of the power law: multiflection = feedback loop between subject & object => projective geometry, fractal
+		- past = memory ~ future: log scale due to multiflection & inferring => all forms are fractal
+		- tempo = linear = tree BFS => quotient --> continued fraction = spatio = tree DFS
+		- zooming ~ rotation = exp(space) ~ exp(time): projection surreal [0-1] --> circle of complex
+		- memory = form via multiflection, reflection, pattern matching
+	- 2022-01-12
+		- *** Just I and the env, mine and the wild, no omniscient 3rd person view as in traditional extravert science
+		  id:: 684c18cd-55c5-43d2-8be4-f0eb7888ffbd
+	- 2022-01-14
+		- the middle = interunion = the balance = the other (dim, type, time) = the emergence from exception = the third = info abstraction (knowledge extraction) = the trunk of branches. The middle in space = the next/prev (past/future) in time ==> returning force to the middle = pulling force to the future (black hole).
+			- The dual = pattern matching (Turing machine) = linearity <> Circularity = the third (autonoton) = the unprogrammed middle branch
+		- The middle = the sink that exhausts the "leaking" energy of the dual and evens out the dual = the cutting edge of the Arrow = 2nd law of thermodynamics = the loss of info into the eye (T, temperature)
+		- Arrows: time, heat flow from hot -> cold (Carnot & Clausius), increasing entropy (Planck), leaking energy (Kelvin) from concentrated mass -> dispersed mass, flow from high -> low (scalar) potential = dE/dV = energy density [= pressure] = S = Q/T [low to hight etropy]
+			- ==> The intensity diff between the intent eye and the env's eye determines the dir of arrow: dir = log(eye_e/eye_i)
+		- projective dynamics = Newton mechanic + Hooks law = wave dynamics = heat dynamics = balancing/evening out
+		- Types of linearity:
+			- Spatial: micro (intension) & macro (extension), circle's axis := locus of middle points of opposites on the circle
+			- Temporal: Circle unfolding
+			- Relational: external content / internal extent = intent = const <== content ~ extent are in the same distribution/variation. Range of intent = range of wave = domain of types/forms to distinguish objects = range of outcomes of random variable
+		- Cycling model: the cycles is continuously turning against the road
+			- Turing machine = road (input) x cycles (automaton)
+				- Both bit length (possible space) of the cycles and the structure of cycles are fixed
+			- Autonotor: road (input) x cycles driven by driver (autonoton)
+				- The driver (the 3rd) has freedom to extend the possible space
+				- New road —> new dim in possible space via interunion with old cycles
+				- The entropy of the cycles must > entropy of the road for the driver to learn new knowledge (extract info from the road) <== the meta balance & flow of info from road to cycle (its pro balance is the flow of energy)
+		- ==> 3 phases of material: mass (circle) - energy (arrow) - info (equal, eye)
+			- 3 components: the dual objects seen (me & world, I & env, foreground & background) and the seer as the 3rd
+			- amount of info seen determined by the intent (size of the eye). Eye refined -> info (entropy) increases
+			- info --[time]-> energy —[space]-> mass: S = E*t = m*v*s
+			- Info amount [hành lượng 行量]: S = entropy = action: diff entropy / k_B = diff action / h
+				- Equilibrium = closed = conserved [Newtonian mechanics] = symmetry = space = least action = max entropy <— statistical; Transformation [random, thermodynamic] = leaky (to the eye) = time = entropy increases <— quantumic ⇒ Circle slider model: S1—O—>S2 ==> Equilibrium = abstraction/average of the concrete transformation ⇐ ghosting motion trails are real!
+				- Entropy = "transformational content" (Verwandlungsinhalt) = "en" (in) + τροπή (transformation)
+				- Action as Entropy [info entropy]: [https://sciforum.net/manuscripts/3244/manuscript.pdf](https://sciforum.net/manuscripts/3244/manuscript.pdf)
+				- Relation between action and entropy [black hole entropy]: [https://www.icmp.lviv.ua/journal/zbirnyk.44/001/art01.pdf](https://www.icmp.lviv.ua/journal/zbirnyk.44/001/art01.pdf)
+				- All in action [time action = boson, space action = fermion]: [https://arxiv.org/abs/1005.3854](https://arxiv.org/abs/1005.3854)
+				- Maximum entropy and principle of least action for electrotechnical systems in deterministic chaos mode: [http://ceur-ws.org/Vol-2642/paper12.pdf](http://ceur-ws.org/Vol-2642/paper12.pdf)
+				- saṃskāra (संस्कार)[行] = "act together", saṃsāra (संसार)[運] = "turning (around) together"
+	- 2022-01-18
+		- WebRTC links
+			- [http://richard.to/programming/webrtc-signaling-example.html](http://richard.to/programming/webrtc-signaling-example.html)
+			- [https://peerjs.com/examples.html](https://peerjs.com/examples.html)
+			- [https://bixycler.github.io/WebRTC-samples/](https://bixycler.github.io/WebRTC-samples/)
+			- [https://www.tutorialspoint.com/find-out-the-current-working-directory-in-c-cplusplus](https://www.tutorialspoint.com/find-out-the-current-working-directory-in-c-cplusplus)
+		- temp = integral = 1 = along = tangent (geodesic thread) = content = linear = holographic thread
+		- spat = diff = 0 = across = radiant (polar & orthogonal coords) = extent = projective (log) = order (surreal) thread,.. how about "dissolved into other dim"
+		- intension = unmeasurable (absolutely, bất khả lượng 不可量) but can be relatively measured by intent => immeasurable (vô lượng 無量) => incommensurable (vô tỉ lượng 無比量)
+		- extension = measurable (absolutely) via extents (extensity, intensity, etc.) like quantum observables
+		- tỉ lượng (anumāna, inference) vs tỉ dụ lượng (upamāna, analogy): [https://en.wikipedia.org/wiki/Pramana](https://en.wikipedia.org/wiki/Pramana): vô tỉ lượng là phủ định upamāna
+	- 2022-01-21
+		- Xả:
+			- hút nén nổ xả: làm tình, tiêu hóa
+			- tham sân si xả: Si, vô minh, vô ký, cân bằng, xả => đại trí ~ đại ngu
+			- từ bi hỷ xả, giới định xả tuệ, hỷ lạc xả: xả > hỉ, nhẫn, cân bằng
+			- thông xả, si bí, hít thở xả
+			- buông xả: ko buông bỏ, buông lung; xả khôn/ngu; bắt đầu từ chấp nhận; như thả lỏng tay lái xe
+			  [https://www.facebook.com/lexuandinhct/posts/1120410924642860](https://www.facebook.com/lexuandinhct/posts/1120410924642860)
+	- 2022-01-23
+		- [https://phatgiao.org.vn/hinh-anh-tang-le-im-lang-cua-thien-su-thich-nhat-hanh-tai-to-dinh-tu-hieu-d50665.html](https://phatgiao.org.vn/hinh-anh-tang-le-im-lang-cua-thien-su-thich-nhat-hanh-tai-to-dinh-tu-hieu-d50665.html)
+	- 2022-01-31
+		- sink spirals: black hole = unconscious v. multi-node control stick = conscious (task-oriented)
+			- At the common edge, the stronger takes control
+			- When time pushed, the faster takes
+			- 2 modes of control: "eager" (normal) = follow boss = arrow = developing; "patient" (trained) = boss waits for feedback = (grand) circle = eq = complete <== mindfulness training!!! "Thức Định"
+			- Layers: boss = abstracted = the source to be reflected = former generation in fractals = freewill = tip of the sink = top node controller = the eye = i
+		- "i logic": Independent logical proposition = false hypothesis! not "true" as in Bool logic, but *independent* in the other dim, of other type
+			- proposition = premise = condition (Bayesian statistics) = denominator (CIE) = the eye = boss
+			- Bool logic = flat world = dualism (true, false) <> i logic = fractal world = trialism (true, false, independent)
+			- The third "independent" is not only branching out to other dim but also looping back ==> "io logic" = "i (boss) in the patient control mode"
+	- 2022-02-01
+		- distorted refection of the Sun: flat mirror = round img;, wavy water = wavy img; prism = splitted img ; absorber = heat img , tree = fruit img
+		- intrinsic dynamic = intrinsic independence in "i logic" = always error/leak = ever increasing entropy = intrinsic distortion of reflection =
+	- 2022-02-03
+		- Cực = vô cực: (electric) charges = 2 poles = ± infinity = 2 eyes. The viz external world is the current from white hole (+) to black hole (-); the inviz internal world from (-)-->(+)
+		- content-intent-extent = energy-mass-info: mass=source(white hole) --[dissolve]--> energy=even --[emerge]--> info=sink(black hole)
+			- Both dissolution & emergence are results of the eyes 👀 like in the game "pendulum wave"
+		- each quantum is an eye: from simple eyes like electron to complex eyes like human. Complex eyes = compound wave = superposition of many sapling rates (resolutions) = meta wave surfing the sea of simpler waves
+		- projective space = superposition of linear time over directions; each arrow in space "here --> there" = time arrow "now --> then" = current "source --> sink"; each material point (mass) in space is an eye 👁️; space plane = the *Now Mirror* reflecting past --> future = the *Self Wall* reflecting internal --> external so that the destination outside is just the image of the sink inside. ==> Zooming in here = go to my future, spanning = rotating to you, zooming in all points (superposed) = go to our (world's) future = Mixing our past. In the flow to future (1 half, 1 dir of the current), my past diverge/disintegrate & my future converge/integrate from our (world's) past, but living beings have mental world to capture the past inside to create new sinks due to the Self Wall.
+	- 2022-02-25
+		- Sampling Aliasing - Linearity - Similarity - Connection — The fundamental role of the View/Eye
+			- 2 types of aliasing, linear (curve) & similar (pattern matching), are one: similar => linear (Ln)
+			- Ex-Ln: Recycling Ln => relational (x R y) Ln =+Similarity=> Projective Ln =+extrapolate=> tangent space => temporal
+			- In-Ln: Ex-Ln of the underlying (finer) level of particles (background) =+project foreground onto background=> relational variation (diff) =+interpolate=> section space => spatial
+				- * The tangent space & section space are related by the tangent-secant theorem & pole-polar duality of proj geometry
+		- What it sees determines what it reacts => aliasing = connection
+		- The ignorance between conscious points (ignorance of the eye's self) => interpolation => average => spatial => (restoring) force
+		- The average = integration of superpositioned (noral) modes of the whole quantum <= Linearization of the unknown <= refinement of the quantum (from foreground to background)
+		- The detail below the eye's resolution (intent) can only be measured by the finer eyes and the observed scenes are diff between them
+		- The low resolution is not pixelated but blurred out <= continuous
+	- 2022-03-01
+		- 3 partitions of CIE
+			- 1. Extension via repetition, the "circular" of the Circle via the Eye
+			- 2. Form = Type = world = [-∞, +∞], the "layer-layer" property, the boundary of the Circle
+			- 3. Self = Ego = Eigen (I) = Mine = contradiction = liar, the completeness of the Circle
+	- 2022-03-04
+		- Cognitive process
+		  sensation [auto,ex] cảm giác (sắc, hình, tướng)
+		  > emotion [auto,in] cảm xúc (6-90 secs)
+		  > awareness [focus,in] nhận biết
+		  > feeling [ex-in] cảm nhận (thọ)
+		  > perception [ex-in-in] tri giác
+		  < conception [in] (tưởng, quan niệm)
+		  > consciousness [thought,meta] ý thức > cognition [ex-in-meta] nhận thức
+		- knowledge = log(possiblity space), add knowledge = refine/extend possiblity space,
+		- Mecha machine (automaton) = fixed knowledge (given), Turing machine = fixed knowledge (given) + memory (info storage), uninet = refinable knowledge by wisdom (given)
+		- knowledge extension by similarity (alias & common) => fuzzy but refinable
+		- Equal = ob/op = compare/connect = match/map,assign,associate
+		- the Three: no diff no info (⬆️), no sim no knowledge (⭕), no fair no wisdom (♎) [balanced, equitable = fair & impartial]; wisdom = (intrinsic) vacancy, knowledge = rooms, info = tenant, data = visitor => increase wisdom: 1. Extend the land (dissolve self wall), 2. Refine the rooms (rebuild)
+		- get info by taking more (remember), learn knowledge by taking less & returning (forget), reveal wisdom by returning (unlearn) only
+	- 2022-03-09
+		- Distributions:
+			- Image domain (content) [-1..0..+1] ~ extension distr.density [0..∞..0] ~ intension distr.density [-∞..0..+∞]
+			- The average = center of mass = balance point of the intension distribution
+			- The 2 extremes stand out (special) just because it's the position of the eye!
+			- Any "extreme" (condensed) in the middle (near 0) is lost in the crowd whose mean is at that extreme point <= The eye does not see it just because it's too far!
+			- extent of extension population = exp(space or value extent of intension) => wider intension ~ much wider extension => central limit theorem => tendency to spread out, to increase entropy
+		- Operators:
+			- exterior product (u∧v) = commutator [u, v] = u·v - v·u => curvature of (u, v) => time => the diff, the info
+			- scalar ratio [-1..0..+1] = interior product = similarity = mutual knowledge => the unknown (0) objects are the most abundant
+			- extension = sim (~1) + a little diff (~0) = aliasing, spiraling => the thread. The sim is the momentum, the little diff is the force. Spatial connection = 2-way extension
+			- repetition is due to the limit of the (memory of the) eye => circle ⭕️ => space
+			- intrinsic arrow ⬆️ is because the eye is not the universe => time
+			- sleep = refinement of remainder = digest
+			- time = mean of contents (⬆️), space = product of forms (⭕️), ... of the circles of the eye 👁 👀
+	- 2022
