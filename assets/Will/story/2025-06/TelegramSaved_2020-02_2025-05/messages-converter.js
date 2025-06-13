@@ -188,7 +188,7 @@ function splitItems2(oli) {
             li = document.createElement("li");
             // Remove the marker of unordered item
             li.textContent = node.textContent.slice(itemMarker(node)[0].length);
-            node.remove(); if (br) { br.remove; br = null; }
+            node.remove(); if (br) { br.remove(); br = null; }
         } else if (li) {
             if (br) { li.appendChild(br); br = null; } // If it's a non-item new line, keep <br>
             li.appendChild(node);
