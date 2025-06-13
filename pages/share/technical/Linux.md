@@ -580,6 +580,9 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  id:: 6835b16a-71ae-4882-afc0-d998d761442e
 			  (with `sudo`) NetHogs displays 'net top' processes.
 			- `ss`/`netstat`
+			  dump network socket statistics: type (TCP, UDP, UNIX), status (listening, established, unconnected), addresses
+			- `nc`/`netcat`
+			  versatile network socket operations: connect, listen, send packets, scan port
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
