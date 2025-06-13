@@ -666,9 +666,9 @@
 		- [https://m.facebook.com/story.php?story_fbid=pfbid02mLHn8gbaJN4joW8YGE8giTonZMysBCkJSVjdP7KhdqFtvht7oEGqNbz6JtoGRG6nl&id=667177130&sfnsn=mo](https://m.facebook.com/story.php?story_fbid=pfbid02mLHn8gbaJN4joW8YGE8giTonZMysBCkJSVjdP7KhdqFtvht7oEGqNbz6JtoGRG6nl&id=667177130&sfnsn=mo)
 	- 2022-11-20
 		- Recordings of "contracts" with daddy
-			- [**FILE**] [SailamSinhCon.mp3](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/SailamSinhCon.mp3)
+			- **[FILE]** [SailamSinhCon.mp3](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/SailamSinhCon.mp3)
 			  ![SailamSinhCon.mp3](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/SailamSinhCon.mp3)
-			- [**FILE**] [HopdongKoTrano.mp3](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/HopdongKoTrano.mp3)
+			- **[FILE]** [HopdongKoTrano.mp3](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/HopdongKoTrano.mp3)
 			  ![HopdongKoTrano.mp3](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/HopdongKoTrano.mp3)
 	- 2022-11-22
 		- webRTC:
