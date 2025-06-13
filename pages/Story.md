@@ -2551,15 +2551,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- “Being caught up in the work the whole day”: passively entangled in work, losing control of time.
 					- “I must catch up on sleep now”: actively reclaiming sleep to compensate for the loss.
 					- Meta-caught-up: The swing between “caught up in” (immersion) and “catch up on” (recovery) is a vicious circle.
-				- and [previous chat](((68417bbf-695f-452b-80a1-22e174329e7a)))
-				- tầm-tứ = tìm-bám = find-fix = chỉ-quán = inquire-observe
-					- observe silence (observation) = keep silence (observance)
-					- Thiền sư: please observe the silence!
-					- Thiền sinh: hallelujah! the silence so great!
-					- Thiền sinh khác: đồ ngu! Ổng bảo giữ im lặng mà cứ hallelujah!
-						- You fool! He said to keep silent, not hallelujah!"
-					- Thiền sư: Đừng cố giữ im lặng bằng cách kéo khóa mõm lại, vì nó chỉ nhốt cái ồn ào vào trong đầu mà thôi. Hãy tập trung quan sát nó!
-						- Don’t try to keep silent by zipping your mouth shut, for it only traps the noise inside your head. Focus on observing it!
+				- and continue [the previous chat](((68417bbf-695f-452b-80a1-22e174329e7a))) with the dual meaning of “observe” : tầm-tứ = tìm-bám = find-fix = chỉ-quán = inquire-observe
+				  collapsed:: true
+					- This dual meaning of “observe” strengthens the unity of the two sides of the ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
+					- Zen play: observe the silence (observ**ation**) = keep silence (observ**ance**)
+						- Zen master: please observe the silence!
+						- Zen student: hallelujah! the silence so great!
+						- Another zen student: You fool! He said to keep silent, not hallelujah!
+						- Zen master: Don’t try to keep silent by zipping your mouth shut, for it only traps the noise inside your head. Focus on observing it!
 			- 13th,
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
