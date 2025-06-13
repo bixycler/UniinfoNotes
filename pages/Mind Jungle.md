@@ -4529,9 +4529,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- This will deploy a website using an action defined by `.github/workflows/$custom_publish_action.yml`, e.g.  Logseq's [publish-SPA](https://github.com/logseq/publish-spa) action.
 		- ### GitHub Copilot
 			- The free plan has limits on number of code suggestions and chat messages.
+			  collapsed:: true
 				- They increases gradually: (2k suggestions + 50 messages)/month → (4k suggestions + 500 messages)/month → ...
 				- **Regardless of length**, any suggestion counts as a "completion", any chat response counts as a "message".
+			- Settings: Let's disable auto-suggestion
 			- Check for quotas (limits, remaining, resetDate)
+				- In VS Code, current usage percentages are shown in the Copilot popup from the status bar.
+				  collapsed:: true
+					- ![Copilot-VSCode-status.png](../assets/Will/story/2025-06/Copilot-VSCode-status.png)
 				- While there's no statistics on the [Settings GUI](https://github.com/settings/copilot/features), the info is actually available in response to the request `https://github.com/github-copilot/chat`/`entitlement`: just open Chrome DevTools of Copilot Settings page > `Network` > filter for `entitlement`.
 				  collapsed:: true
 					- ![GitHub-Copilot-entitlement-quotas.png](../assets/Will/story/2025-06/GitHub-Copilot-entitlement-quotas.png)
