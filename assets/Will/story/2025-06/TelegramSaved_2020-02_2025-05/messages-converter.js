@@ -103,18 +103,18 @@ function processMessagesByDay() {
 function splitParagraphs(text) {
     let fragment = document.createDocumentFragment();
     let li = document.createElement("li");
-    let brCount = 0;
+    let br = null, brCount = 0;
     for (let node of [...text.childNodes]) { // Use [...] to capture a snapshot of the *live* NodeList
         if (node.nodeName === "BR") { // Count consecutive <br>s
-            brCount++;
+            brCount++; br = node;
         } else {
             if (brCount === 1) { // Single <br> is just a line break, keep it
-                li.appendChild(document.createElement("br"));
+                li.appendChild(br);
             } else if (brCount > 1) { // More than one <br> means a paragraph break
                 if (li.childNodes.length) fragment.append(splitItems1(li));
                 li = document.createElement("li");
             }
-            li.appendChild(node); brCount = 0;
+            li.appendChild(node); brCount = 0; br = null;
         }
     }
     if (li.childNodes.length) fragment.append(splitItems1(li)); // wrap up the last paragraph
@@ -152,9 +152,9 @@ function splitItems1(text) {
     if (text.childNodes.length === 0) return fragment; // No content to process
     let firstNode = text.firstChild;
     let leadingText = !isItem1(firstNode); // Non-item leading text
-    let newline = true, postPre = false; // Track the start of a new line
+    let newline = true, postPre = false, br = null; // Track the start of a new line
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === 'BR') { newline = true; postPre = false; firstline = false; continue; }
+        if (node.nodeName === 'BR') { br = node; newline = true; postPre = false; firstline = false; continue; }
         if (newline && isItem1(node)) { // New item line
             if (li.childNodes.length) parent.append(splitItems2(li)); // Flush the previous <li>
             if (leadingText) { // After the leading text, wrap the following items in a <ul>
@@ -166,10 +166,10 @@ function splitItems1(text) {
             let marker = itemMarker(node);
             li.textContent = node.textContent.slice(marker[1] ? marker[0].length : 0);
         } else {
-            if (newline && !postPre && firstNode != node) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
+            if (newline && !postPre && firstNode != node) li.appendChild(br); // If it's a non-item new line, add a <br>
             li.appendChild(node);
         }
-        newline = false;
+        newline = false; br = null;
         if (node.nodeName === 'PRE') { postPre = true; newline = true; firstline = false; }
     }
     if (li.childNodes.length) parent.append(splitItems2(li)); // Wrap up the last item
@@ -179,9 +179,9 @@ function splitItems1(text) {
 // Split the `+` `*` 2nd level items into <li> nodes
 function splitItems2(oli) {
     let ul = null, li = null;
-    let newline = true, postPre = false; // Track the start of a new line
+    let newline = true, postPre = false, br = null; // Track the start of a new line
     for (let node of [...oli.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === 'BR') { newline = true; postPre = false; node.remove(); continue; }
+        if (node.nodeName === 'BR') { br = node; newline = true; postPre = false; node.remove(); continue; }
         if (newline && isItem2(node)) { // New item line
             if (!ul) { ul = document.createElement("ul"); oli.appendChild(ul); }
             if (li && li.childNodes.length) ul.append(li); // Flush the previous <li>
@@ -190,10 +190,10 @@ function splitItems2(oli) {
             li.textContent = node.textContent.slice(itemMarker(node)[0].length);
             node.remove();
         } else if (li) {
-            if (newline && !postPre) li.appendChild(document.createElement("br")); // If it's a non-item new line, add a <br>
+            if (newline && !postPre) li.appendChild(br); // If it's a non-item new line, add a <br>
             li.appendChild(node);
         }
-        newline = false;
+        newline = false; br = null;
         if (node.nodeName === 'PRE') { postPre = true; newline = true; }
     }
     if (li && li.childNodes.length) ul.append(li); // Wrap up the last item
