@@ -104,7 +104,7 @@
 			- 2 types of aliasing, linear (curve) & similar (pattern matching), are one: similar => linear (Ln)
 			- Ex-Ln: Recycling Ln => relational (x R y) Ln =+Similarity=> Projective Ln =+extrapolate=> tangent space => temporal
 			- In-Ln: Ex-Ln of the underlying (finer) level of particles (background) =+project foreground onto background=> relational variation (diff) =+interpolate=> section space => spatial
-				- * The tangent space & section space are related by the tangent-secant theorem & pole-polar duality of proj geometry
+			- [*] The tangent space & section space are related by the tangent-secant theorem & pole-polar duality of proj geometry
 		- What it sees determines what it reacts => aliasing = connection
 		- The ignorance between conscious points (ignorance of the eye's self) => interpolation => average => spatial => (restoring) force
 		- The average = integration of superpositioned (noral) modes of the whole quantum <= Linearization of the unknown <= refinement of the quantum (from foreground to background)
@@ -117,13 +117,13 @@
 			- 3. Self = Ego = Eigen (I) = Mine = contradiction = liar, the completeness of the Circle
 	- 2022-03-04
 		- Cognitive process
-		  sensation [auto,ex] cảm giác (sắc, hình, tướng)
-		  > emotion [auto,in] cảm xúc (6-90 secs)
-		  > awareness [focus,in] nhận biết
-		  > feeling [ex-in] cảm nhận (thọ)
-		  > perception [ex-in-in] tri giác
-		  < conception [in] (tưởng, quan niệm)
-		  > consciousness [thought,meta] ý thức > cognition [ex-in-meta] nhận thức
+			- sensation [auto,ex] cảm giác (sắc, hình, tướng)
+			- \> emotion [auto,in] cảm xúc (6-90 secs)
+			- \> awareness [focus,in] nhận biết
+			- \> feeling [ex-in] cảm nhận (thọ)
+			- \> perception [ex-in-in] tri giác
+			- < conception [in] (tưởng, quan niệm)
+			  \> consciousness [thought,meta] ý thức > cognition [ex-in-meta] nhận thức
 		- knowledge = log(possiblity space), add knowledge = refine/extend possiblity space,
 		- Mecha machine (automaton) = fixed knowledge (given), Turing machine = fixed knowledge (given) + memory (info storage), uninet = refinable knowledge by wisdom (given)
 		- knowledge extension by similarity (alias & common) => fuzzy but refinable
@@ -145,4 +145,102 @@
 			- intrinsic arrow ⬆️ is because the eye is not the universe => time
 			- sleep = refinement of remainder = digest
 			- time = mean of contents (⬆️), space = product of forms (⭕️), ... of the circles of the eye 👁 👀
+	- 2022-03-18
+		- [Life Review @ Encyclopedia.com](https://www.encyclopedia.com/social-sciences-and-law/sociology-and-social-reform/sociology-general-terms-and-concepts/life-review)
+		- Free will, orthogonality, independence, parallelism/simultaneity, and the self (memory) of the eye
+			- The selfless eye (=) sees no diff (cannot distinguish things) due to no memory, no distinction between the seer and the seen; no operation can be done (hence, no free will)
+			- The selful eye distinguishes objects via its subjective **memory** + operates according to its memory
+				- can self-detach outer/coarse memories but must reserve the finest inner most memory
+				  => That detachment is self-refinement which increases free will
+				- The memory is considered "object" just because it's coarser than the remained self of the eye, but actually the memory itself is also a subject with its own free will (though may be less than the remaining eye)
+				  => static = form = determined = (outer) container vs. dynamic = content = chaotic = free = (inner) content
+				- The memory is **decohered** into *independent cells*, thus its free wills cancel out; the eye is coherent (in a single circle), thus its free will emerges.
+	- 2022-03-30
+		- **Eye = inversion** (not only combination of Form & Content)
+			- Effect flow of the body (memory) of the Eye is in the opposite dir of the Eye's receiving Thread. AKA. "*The Eye is a circle of the Negative thread watching the Positive thread.*" Or statically, "*The Eye is a circle of the Neutral thread (space) watching the Positive & Negative threads (time).*"
+			- Living beings (animals, trees) stand up against the thread of gravity
+			- Time is half-invert of space
+			- Fractal world is made by recursive inversion (mixing), **continued fraction**
+	- 2022-03-31
+		- Eye & CIE
+			- Intent = form = pupil & retina = sense base; crystallized content = optic nerves; content & extent = carried contents = light & nerve signal
+			- CIE = function (c = inputs, i = parameters, e = outputs) = protocol "[e] i (i)" == "[e <- c] i" == "i (e -> c)" = equation "e =[i]= c" == "e - c =[i]= 0" == "0 =[i]= c - e"; the "inversion" of the eye is between 2 sides of the equation
+			- form (update) := average of contents = center of mass; updating delta := **average of remainders** (near 0)
+			- c & i are vectors (objects), e is scaler (number) [0..1] ~ [-1..0..1] ~ [0..2pi] = mass => c = i*e = material point
+			- Intent is composed of many sub-intents, like nerve cells, each captures a separate image (extent) of the input (content); *only cells that divide the content* yield output extent as the quotient c/i = e; **divisibility = match**!
+			- In operation, cells of the lower layer are **open** (as arrows) to be connected to the cells of the upper layer where lower outputs are passed to upper inputs; Passing the observing phase where content is analyzed (by many cells), then operating phase where content is synthesized into an **action**, to be stored in memory or acted back into the environment. Unless the action is (per)formed, the circle still open as arrows.
+			- The synthesis of content is the *average of all contents* to generate a sharper, more detailed image, just like from pieces of a hologram, from ommatidia of a compound eye, or the space-time & the world model from many mental images of people, AKA. **holographic** image.
+			- Skandhas (5 aggregates): input content = sắc, (open & working) intent = tưởng, extent = thọ, output action = hành, full circle (observe - operate) = thức
+			- The observing capacity of the eye = the sink (black hole); the output action = the source (white hole)
+	- 2022-04-01
+		- Views of the Universe
+			- From outside, the eye see nothing, just a black void
+			- Being the whole Universe, the eye see a white dot (point), or can be stretched to a white circle
+			- Shrinking down to a circle inside the Universe, the eye see a color transiting in the color wheel
+			  ==> each eye is spinning its own world thread from the universal blob
+		- Low-whorl pushka spindles from Peru
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_8@01-04-2022_23-01-23.jpg){:width 400}
+	- 2022-04-10
+		- The emotion/feeling (thọ)
+			- thọ = force = distortion = curvature; sắc = velocity = flat value
+			- if pure sub-Intents are prime numbers, then selful sub-intents (with feelings) are multiple of prime numbers, and self intent is a (large) composite number = big mean vector I where the self emotion (feeling) is the extent E = C/I
+			- the emotion conditions the learning
+			  => balanced emotion leads to "no more learning" (perfection, liberation) where all actions are just reflection 🪞 of the forms (input & intent); when the lower feelings are imbalanced, there must be opposition so that the synthesized upper emotion is balanced
+			  => Sum of forces = 0 => no accumulation of karma => action but vacant action!
+			- uninet = Turing machine + emotion, so that it can learn, but then like human, it must learn how to unlearn via the balance of emotion
+			- the inner circle 🔴 of stable emotion is the key for balance ♎️: train to enlarge the acceptance circle & action upon others with force within their stable circle (to keep touching, the same velocity, without bouncing); deploy fencing to keep the input within acceptance circle.
+		- ### The Equal is about emotional balance
+			- Intrinsically (selflessly) emotions (forces) are balanced, but relatively (selfully) each self is acting to release its emotional charge
+	- 2022-04-15
+		- ### Chasing Shadows
+			- Architect - Blueprint - Builder = (Un)Equal - (Partial) Circle - (Distorted/Forced) Arrow = Programmer - Program - Executor
+				- The partiality (ignorance) makes the self always chasing its reflection image
+			- Awareness = "selfless consciousness" (vô ngã thức) = sensation whose both sensing form and sensed content are abstracted = openness[開], acceptingness (subjective) = throughness [通], communicatingness (objective) "Thông suốt" (通䢦, 通𨔊) [[5 Tips for Successful Posture and Balance](https://www.balanceartscenter.com/blog-backend/5-tips-for-successful-posture-and-balance)]
+			- the grand circle ⭕ of Life 🧬 is composed by 2 opposite arrows
+				- Self (Ego) construction, build up: inorganic > simple organic > organic compound > organisms > society (ecosystem)
+				- Function (service) i/o (digestion), break down: ecosystem's trash 🗑️ > dead body > organic > inorganic
+				- The self construction is fueled by the digestion, the Life itself is fueled by the Cosmos circle of energy & information
+			- the grand circle ⭕ of Cosmos:
+				- Energy extraction via material break down: wind, running water > friction (heat) > electric & chemical > atomic
+				- Energy & info contraction (storing) via material build up: atomic (mass ☢️) > chemical (electric ⚡) > heat (vibration 📳) > mechanic & complex objects
+				- The contraction is done by gravity, black hole, and partly by Life
+				  => These simple <> complex, relax <> contact are just **compression wave** on the circle
+			- Life & time is defined by the self (subject, internal space) <> form & material & space in the interface (object, external space)
+				- Atom ⚛️ life is complement with photon 🌞 life: atom ages in the external space made by light, photon ages in the internal space made by quanta
+				- The unit of time is the roundtrip circle ⭕ within the self, and the clock ⏰ only "tick" at the eye 👁️ when the arrow returns to the interface <= the self is black box to the eye <= change only occurs at the interface by mix&match in the eye
+			- the world = interface of selves = the stage of characters where everything happens = here-now
+				- To the selfless eye, the world is just the incidence point
+				- As the eyeball grows, its world grows accordingly, but still here-now (no ignorance about the world)
+				- When the self detaches from the eyeball & black box from the eye, the eye's ignorant about the correspondent part of the world ==> these 2 ignorances (in & ex) are mutual refections on the mirror eye in the middle, and are diff from the ignorance about the other eyes
+			- the mix&match of in & ex in the eye: when the intent recognizes the ex content a spark/boom/tick happens. The "mix" is between 2 diff (in, ex), the "match" is between 2 sim (in = ex), diff + sim = complement ☯️
+				- The waking mix&match is between in & ex, while the dreaming (self reflection) mix&match is between consumed extents of different intents, aka "mixing"
+				- The tick/boom/spark 💥 is the crystallization of the circle ⭕ in the object world into a point 🔴 in the meta world (subject's mind). This point may create a new branch, or consolidate the old node of +/-
+				  *=> thus feeling emotion is the force of learning & memory consolidation
+				- Consolidation = increase weight (intensionally); new branch = self replication = reflection ==> emotion is the driving force of Life 🧬 (born, growing, die, reborn)
+				  => Emotion is the diff of uninet from Turing machine => it learns & multiplies (reproduces)
+				- The spark/click 💥 is also the condensation/compression of data to info to knowledge 🪢 🧬 ⇒ also the abstraction of circle ⭕ ⇐ only circle/form can be compressed (because it's empty), content/arrow cannot be compressed!!! The compressed content into extent e = c/i is just the extracted form of that content.
+				- The matching intensity ~ extent(quotient)/remainder ~ emotion intensity
+	- 2022-04-17
+		- Chat đạo với Huy (6/4):
+		- Mới hồi nãy trên đường chạy lên cty thì tui mới kết nối được cái trải nghiệm 4D ở cõi bên kia (như đã kể ông hôm trước) với trải nghiệm 3D ở cõi này, và đó cũng là cái duyên khiến tui share với ông lần này nè.
+		  trong 4D, mình thấy thời gian quá khứ và tương lai là một chiều bình thường cũng như 1 chiều trong khôn gian này vậy, thấy nó hiển nhiên vì nó đang duỗi ra ngay "trước mắt" mình, nên thực ra thấy là thấy vậy thôi chứ cũng chẳng biết tại sao "bên kia" (thế giới thông thường) nó lại không thấy chiều thứ 4 này
+		  ở trong cõi 3D này thì tui cũng cảm nhận "cả quá khứ lẫn tương lai đều ở ngay bên trong hiện tại này" nhưng chưa thấy rõ. Đến hôm nay tui mới thấy rõ chiều thứ 4 nó "cuộn lại" vào bên trong thân thể, vào trong mỗi "hạt" như thế nào, giống như khái niệm "mã hóa" (encode, encrypt) trong máy tính vậy. Và cái here-now chính là cái "màn ảnh" để project cái quá khứ đó lên và trộn lại (quá khứ của nhiều hạt) với nhau thành ra tương lai rồi mỗi hạt lại nhai ngấu nghiến (encode, compress) những hình ảnh trên màn ảnh đó thành ra quá khứ của mình, nuốt vào trong "bụng" mình :D
+		  Như trong lịch sử OOP thì ban đầu nó được build "bottom up", chính là cách người thường hành xử mọi thứ dựa trên quá khứ (bottom) của mình, những kinh nghiệm, thói quen, nghiệp tích tụ trong cái Tôi của mình vậy. Tới SOLID thì Dependency Inversion Principle bảo ko được dựa vào bottom mà phải dựa vào middle (interface). Cái interface đó chính là cái "màn ảnh", chính là here-now đó ;)
+	- 2022-04-18
+		- [http://www.scholarpedia.org/article/Integrated_information_theory](http://www.scholarpedia.org/article/Integrated_information_theory)
+	- 2022-04-26
+		- == **ω-extension & ε-abstraction** ==
+			- The previous ω-abstraction from the extensional linear space (spacetime) is now standardized (inversely) as the ω-extension from the intensional structure of the Ω-thread.
+				- In the Dynamics Pyramid, the inner triangle (PES) is the base of the whole pyramid => spacetime = integral of PE = flat when the system is isolated; Force = derivative of PE = equal when the system is untouched.
+				- The ex-ln is due to the ω-extension (integral) of the (constant) relation between 2 intent circles, and independent of the pace of thread traversal. That independence is the signature of relational/function linearity.
+			- The ε-abstraction is the click/spark of the eye, the crystallization of content into extent (CIE formula), and extent is represented as the mean point of the abstracted content. The mean point extent is inversely projected back to the content space as the (concrete) extension with linear (or Gaussian) distribution, which is called "section space" in the previous note.
+				- The intrinsic in-ln is due to the ε-abstraction (average) of 3rd circle (eye) underlying (observing) the contact point of the 2 intent circles. It's just like the "pixelation" in digital image.
+				- The extrinsic in-ln is just the ex-ln of the the underlying eye circle, which is very small compare to the object circle, within the object circle. It's just like the zoomed in monochrome of a very high resolution image, or the smoothness of the crystal surface.
+			- While ω-extension & extrapolation is the root cause of Einstein's relativity (constant velocity of light, equivalence principle), ε-abstraction & interpolation is the root cause of QM's uncertainty.
+				- Both {inter,extra}polation has the root "polire" = "to polish", that's to smooth out, to straighten, and to linearize 😀!
+		- == the relativity of the self & state space ==
+			- the self circle ⭕ defines the Now slice;
+			- the reaction engine in the jet changes the jet's self toward this direction by releasing a part of self in the opposite direction;
+			- every possible circle is a self;
+				- the sense of self is stronger with tighter circle ==> the contraction of circle to maintain its self is the returning force
 	- 2022
