@@ -4529,7 +4529,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- This will deploy a website using an action defined by `.github/workflows/$custom_publish_action.yml`, e.g.  Logseq's [publish-SPA](https://github.com/logseq/publish-spa) action.
 		- ### GitHub Copilot
 			- Check for quotas (limits, remaining, resetDate)
-				- While there's no GUI
+				- While there's no statistics on the [Settings GUI](https://github.com/settings/copilot/features), the info is actually available in response to the request `https://github.com/github-copilot/chat`/`entitlement`: just open Chrome DevTools of Copilot Settings page > `Network` > filter for `entitlement`.
 				- Ref: [a nice hack by charlielee](https://github.com/orgs/community/discussions/148154#discussioncomment-12546080)
 	- ## obsidian
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
