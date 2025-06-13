@@ -173,5 +173,51 @@
 		- đứt đoạn, mất kết nối, mắc kẹt, tắc nghẽn, bế tắc = tâm phân biệt = vô minh = đau bệnh
 		- liên thông, kết nối với mọi thứ = vạn vật đồng nhất thể
 		- Bình đẳng, vô tư, tương đối:
-			- không có "tôi làm" hay "bạn làm" mà chỉ có việc làm đang diễn ra; không có "tôi thương bạn" hay "bạn thương tôi" mà chỉ có tình thương đang hiện hữu; không phải "cái này của tôi, cái kia của bạn" mà chỉ là "cái này ở gần nơi đây, cái kia ở xa đằng kia" = làm mọi việc mà không có người làm = vô vi = người quan sát và cái thấy được là một = vô ngã
-	- 2021
+			- không có "tôi làm" hay "bạn làm" mà chỉ có việc làm đang diễn ra;
+			- không có "tôi thương bạn" hay "bạn thương tôi" mà chỉ có tình thương đang hiện hữu;
+			- không phải "cái này của tôi, cái kia của bạn"
+			- mà chỉ là "cái này ở gần nơi đây, cái kia ở xa đằng kia" = làm mọi việc mà không có người làm = vô vi = người quan sát và cái thấy được là một = vô ngã
+	- 2021-12-07
+		- These notes are about [difflib](https://github.com/bixycler/difflib):
+		- conflict/ &resolve
+			- merge hunks of cd1 & cd2
+			- hunk comment ['patch','src']
+		- Messages:
+			- make dict to check for move/delete/insert
+			- search inss for Chrom/Google
+	- 2021-12-10
+		- morph = morphe = μορφή = fōrma = form
+	- 2021-12-11
+		- Chaotic dynamic systems:
+			- [Double Spring Mass Systems & Matlab’s ODE 45](https://gereshes.com/2019/01/07/double-spring-mass-systems-matlabs-ode-45/amp/)
+			- [Chaos and the Double Pendulum](https://gereshes.com/2018/11/19/chaos-and-the-double-pendulum/)
+			- [Stability of the Lagrange Points – Three Body Problem](https://gereshes.com/2018/12/17/stability-of-the-lagrange-points-three-body-problem/)
+			- **[FILE]**: [Coupled_oscillators_An_informative_problem_solving.pdf](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Coupled_oscillators_An_informative_problem_solving.pdf)
+	- 2021-12-17
+		- UniThread:
+			- 3 representations: orthogonal (transverse wave), projective (longitudinal wave), diagonal (symmetrical wave)
+				- Orthogonal & projective: 3 axes mass-space-time = x-u-t
+			- Circularity => total delta (u, displacement) = 0
+			- Totality (Symmetry, relativity) => total p (v) = 0 => dp = 0 => 2 party exchage Fp +Fn = 0 => Fn = -Fp
+			- Flatness => 3 party balance Fs = Ft => Me return to World's middle position (potential)
+			  *) Flatness = local/micro symmetry; Totality = global/macro symmetry
+			  =>> Time(--) = - Space (+-) = i (imagine, invisible, internal, intermediate result = left side of equations) = possible = new dimension = sink of disturbance (black hole, vacancy)
+			  <=> Sum over time = 1 (circular); sum over space = 0 (linear)
+			- Particle vs wave: closed strong connection (concentrated) vs open weak connection (1-2-3 D only
+			- Time = connection within = full circle; space = connection with neighbors. Time step (next) = mismatch of full circle = the change in the eye
+	- 2021-12-27
+		- layer-layer = onion structure = circle-circle = radix system.
+		- Independent layers = orthogonal dimensions in space = null-point interface = infinity wall (distance between layers) = emergence = closed circles
+		- interface- space = intension - extension = constraint - bridge = form - content
+		- V model = independence: eyes at 2 ends, interface channel at the tip (bottom)
+		- U model = dependence: int channel is not null but can be refined to the null-point interface of V model
+	- 2021-12-29
+		- quantum differentiation with Lie's circles: infinitesimal calculus —> quantum calculus
+		- Quantum differential calculus: [https://en.wikipedia.org/wiki/Quantum_differential_calculus](https://en.wikipedia.org/wiki/Quantum_differential_calculus)
+		- Rotating (eigenvector) ~ scaling (eigenvalue) ~ deriv = rate of diffs, as in exp()
+	- 2021-12-31
+		- 2 forms: i = sqrt(-1) = ordinal circle = form of time, omega = inf = cardinal circle = form of space
+		- add objects of the same forms, mult objects of diff forms
+		- dimension = diff form = across inf/zero = change "sign"
+		- intent^extent = content: intent = range of mapping content -> extent, intent = space in mass-space-time = range of wave = domain of types/forms to distinguish objects
+			- [notes @ tamsudoithuong](https://tamsudoithuong.blogspot.com/2021/08/930-sang-nay-minh-nam-quan-ve-autonoton.html)
