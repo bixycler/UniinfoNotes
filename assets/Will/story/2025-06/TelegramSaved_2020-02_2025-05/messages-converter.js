@@ -198,6 +198,7 @@ function splitItems2(oli) {
     return oli;
 }
 
+
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(() => {
         console.log("Copied to clipboard: " + text);
