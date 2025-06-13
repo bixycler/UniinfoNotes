@@ -134,10 +134,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  display a tree of processes.
 			- `top`
 			  display "top CPU" processes similar to ((66c6bda1-7a64-4832-af2b-906b3beb8927)).
-			- `iftop`
-			  display "top network" interfaces.
-			- `nethogs`
-			  NetHogs displays 'net top' processes.
+			- {{embed ((6835b16a-71ae-4882-afc0-d998d761442e))}}
 			- `jobs`, `disown`, `nohup`, `bg`, `fg`
 			  collapsed:: true
 			  Manage shell jobs (background processes).
@@ -574,6 +571,15 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  `poweroff`, `reboot`, or `halt` the machine.
 				- Note: ((67f4ffeb-5e02-4fd5-bd33-19abc23f60aa)) could be safer than ((67f500dd-ff43-46ec-b9e0-9dcc097b2bc3)).
 				  id:: 67f4f5e3-e739-41cd-8b95-14c7bbe9eebe
+		- network handling
+		  collapsed:: true
+			- `iftop`
+			  id:: 6835b16a-35af-4d69-8b48-17cbb2bf556d
+			  (with `sudo`) display "top network" interfaces.
+			- `nethogs`
+			  id:: 6835b16a-71ae-4882-afc0-d998d761442e
+			  (with `sudo`) NetHogs displays 'net top' processes.
+			- `ss`/`netstat`
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
