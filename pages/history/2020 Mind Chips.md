@@ -24,7 +24,9 @@
 			- [https://docs.flashphoner.com/display/WCS5EN/Bitrate+management+when+capturing+WebRTC+stream+in+browser](https://docs.flashphoner.com/display/WCS5EN/Bitrate+management+when+capturing+WebRTC+stream+in+browser)
 			- [https://easyrtc.com/docs/client-api/labs_easyrtc_rates.js.php](https://easyrtc.com/docs/client-api/labs_easyrtc_rates.js.php)
 	- 2020-04-18
-		- Cà khẻo cà kheo (HTV): [https://www.dailymotion.com/video/x5l4iwa](https://www.dailymotion.com/video/x5l4iwa)
+	  id:: 684c040a-bc99-445f-8e57-8ddc7464b0df
+		- Cà khẻo cà kheo [HTV video on DailyMotion](https://www.dailymotion.com/video/x5l4iwa)
+		  id:: 684c040a-fbed-4c72-8ac4-e14e69f17b04
 		- [https://truyencotich.vn/truyen-co-tich/co-tich-the-gioi/ba-cau-hoi.html](https://truyencotich.vn/truyen-co-tich/co-tich-the-gioi/ba-cau-hoi.html)
 	- 2020-04-21
 		- GStreamer Dynamic mixer:
@@ -48,9 +50,11 @@
 			  ```
 			  
 			  (DON'T use `gst_element_remove_pad()`)
-			  `gst_element_set_state(testsrc, GST_STATE_NULL);
+			  ```
+			  gst_element_set_state(testsrc, GST_STATE_NULL);
 			  gst_bin_remove(GST_BIN(pipeline), testsrc);
-			  `- srcpad must be **blocked** via brobe: [https://gstreamer.freedesktop.org/documentation/application-development/advanced/pipeline-manipulation.html?gi-language=c#changing-elements-in-a-pipeline](https://gstreamer.freedesktop.org/documentation/application-development/advanced/pipeline-manipulation.html?gi-language=c#changing-elements-in-a-pipeline)
+			  ```
+			- srcpad must be **blocked** via brobe: [https://gstreamer.freedesktop.org/documentation/application-development/advanced/pipeline-manipulation.html?gi-language=c#changing-elements-in-a-pipeline](https://gstreamer.freedesktop.org/documentation/application-development/advanced/pipeline-manipulation.html?gi-language=c#changing-elements-in-a-pipeline)
 			- Time sync:
 				- `gst_pad_set_offset()` related issue: [https://gstreamer-devel.narkive.com/sgW9GDe6/dynamic-linking-for-custom-bins](https://gstreamer-devel.narkive.com/sgW9GDe6/dynamic-linking-for-custom-bins)
 		- Dynamic **Caps Negotiation**:
@@ -81,19 +85,21 @@
 			- USB/Ethernet adaptor: [https://delightlylinux.wordpress.com/2017/01/25/the-plugable-usb-3-ethernet-adapter-and-linux/](https://delightlylinux.wordpress.com/2017/01/25/the-plugable-usb-3-ethernet-adapter-and-linux/)
 	- 2020-06-03
 		- NAT-ICE-STUN-TURN
-		- NAT types & correspondent hole punching mechanisms by STUN: [https://www.slideshare.net/guest3bd2a12/network-address-presentation](https://www.slideshare.net/guest3bd2a12/network-address-presentation)
-		- NAT Behavior Discovery Algorithm Using **Classic STUN (RFC 3489)**: [https://www.netmanias.com/en/post/techdocs/6066/nat-network-protocol/nat-behavior-discovery-using-classic-stun-rfc-3489](https://www.netmanias.com/en/post/techdocs/6066/nat-network-protocol/nat-behavior-discovery-using-classic-stun-rfc-3489)
-		- *Classic STUN* NAT behavior discovery: [https://github.com/automation-stack/nat-discovery](https://github.com/automation-stack/nat-discovery) with python, and **JSTUN** [https://jstun.javawi.de/](https://jstun.javawi.de/) with java
-		- *Classic STUN* public servers: [stun.ekiga.net](stun.ekiga.net) [stun.ideasip.com](stun.ideasip.com) [stun.voiparound.com](stun.voiparound.com) [stun.voipbuster.com](stun.voipbuster.com) [stun.voipstunt.com](stun.voipstunt.com) [stun.voip.eutelia.it](stun.voip.eutelia.it)
-		- Classic STUN (RFC 3489) vs. **modern STUN (RFC 5389/5780)**: [https://www.netmanias.com/en/?m=view&id=techdocs&tag=248&no=6065](https://www.netmanias.com/en/?m=view&id=techdocs&tag=248&no=6065)
-		- NAT Behavior Discovery Algorithm Using *modern STUN*: [https://www.netmanias.com/en/post/techdocs/6067/nat-network-protocol/nat-behavior-discovery-using-stun-rfc-5780](https://www.netmanias.com/en/post/techdocs/6067/nat-network-protocol/nat-behavior-discovery-using-stun-rfc-5780)
-		- `coturn` package for TURN/STUN servers & clients with *modern STUN*: [https://manpages.debian.org/buster/coturn/index.html](https://manpages.debian.org/buster/coturn/index.html)
-			- Docker image: [https://hub.docker.com/r/instrumentisto/coturn](https://hub.docker.com/r/instrumentisto/coturn)
-		- *Modern STUN* public servers: [stun.voip.blackberry.com:3478](stun.voip.blackberry.com:3478) stun{,1,2,3,4}.[l.google.com:19302](l.google.com:19302) {respond with a single field XOR-MAPPED-ADDRESS}
-		- **Stuntman**, the official C implementation of STUN server/client (both modern and classic): [http://www.stunprotocol.org/](http://www.stunprotocol.org/)
-		- **gortc**/stun ([https://github.com/gortc/stun](https://github.com/gortc/stun)) for *modern STUN* which is merged into pion/stun ([https://github.com/pion/stun](https://github.com/pion/stun)), and a simple "symmetric NAT" checker "natat" ([https://github.com/songjiayang/natat](https://github.com/songjiayang/natat))
-		- For "symmetric/cone" detection only, we can also use ICE (**2 candidates** will be returned on "symmetric NAT"): [https://webrtchacks.com/symmetric-nat/](https://webrtchacks.com/symmetric-nat/)
-		- **Symmetric NAT Traversal** using STUN (RFC draft): [https://tools.ietf.org/id/draft-takeda-symmetric-nat-traversal-00.txt](https://tools.ietf.org/id/draft-takeda-symmetric-nat-traversal-00.txt)
+		- NAT
+			- NAT types & correspondent hole punching mechanisms by STUN: [https://www.slideshare.net/guest3bd2a12/network-address-presentation](https://www.slideshare.net/guest3bd2a12/network-address-presentation)
+			- NAT Behavior Discovery Algorithm Using **Classic STUN (RFC 3489)**: [https://www.netmanias.com/en/post/techdocs/6066/nat-network-protocol/nat-behavior-discovery-using-classic-stun-rfc-3489](https://www.netmanias.com/en/post/techdocs/6066/nat-network-protocol/nat-behavior-discovery-using-classic-stun-rfc-3489)
+		- STUN
+			- *Classic STUN* NAT behavior discovery: [https://github.com/automation-stack/nat-discovery](https://github.com/automation-stack/nat-discovery) with python, and **JSTUN** [https://jstun.javawi.de/](https://jstun.javawi.de/) with java
+			- *Classic STUN* public servers: [stun.ekiga.net](stun.ekiga.net) [stun.ideasip.com](stun.ideasip.com) [stun.voiparound.com](stun.voiparound.com) [stun.voipbuster.com](stun.voipbuster.com) [stun.voipstunt.com](stun.voipstunt.com) [stun.voip.eutelia.it](stun.voip.eutelia.it)
+			- Classic STUN (RFC 3489) vs. **modern STUN (RFC 5389/5780)**: [https://www.netmanias.com/en/?m=view&id=techdocs&tag=248&no=6065](https://www.netmanias.com/en/?m=view&id=techdocs&tag=248&no=6065)
+			- NAT Behavior Discovery Algorithm Using *modern STUN*: [https://www.netmanias.com/en/post/techdocs/6067/nat-network-protocol/nat-behavior-discovery-using-stun-rfc-5780](https://www.netmanias.com/en/post/techdocs/6067/nat-network-protocol/nat-behavior-discovery-using-stun-rfc-5780)
+			- `coturn` package for TURN/STUN servers & clients with *modern STUN*: [https://manpages.debian.org/buster/coturn/index.html](https://manpages.debian.org/buster/coturn/index.html)
+				- Docker image: [https://hub.docker.com/r/instrumentisto/coturn](https://hub.docker.com/r/instrumentisto/coturn)
+			- *Modern STUN* public servers: [stun.voip.blackberry.com:3478](stun.voip.blackberry.com:3478) stun{,1,2,3,4}.[l.google.com:19302](l.google.com:19302) {respond with a single field XOR-MAPPED-ADDRESS}
+			- **Stuntman**, the official C implementation of STUN server/client (both modern and classic): [http://www.stunprotocol.org/](http://www.stunprotocol.org/)
+			- **gortc**/stun ([https://github.com/gortc/stun](https://github.com/gortc/stun)) for *modern STUN* which is merged into pion/stun ([https://github.com/pion/stun](https://github.com/pion/stun)), and a simple "symmetric NAT" checker "natat" ([https://github.com/songjiayang/natat](https://github.com/songjiayang/natat))
+			- For "symmetric/cone" detection only, we can also use ICE (**2 candidates** will be returned on "symmetric NAT"): [https://webrtchacks.com/symmetric-nat/](https://webrtchacks.com/symmetric-nat/)
+			- **Symmetric NAT Traversal** using STUN (RFC draft): [https://tools.ietf.org/id/draft-takeda-symmetric-nat-traversal-00.txt](https://tools.ietf.org/id/draft-takeda-symmetric-nat-traversal-00.txt)
 		- TURN specs & headers: [https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-turn/8177788b-1f38-47a5-8a6f-348e89717922](https://docs.microsoft.com/en-us/openspecs/office_protocols/ms-turn/8177788b-1f38-47a5-8a6f-348e89717922) ([RFC5766](https://tools.ietf.org/html/rfc5766#section-12))
 	- 2020-06-25
 		- Tasks
