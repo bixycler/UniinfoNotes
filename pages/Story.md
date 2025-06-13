@@ -2546,9 +2546,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- I'v seen the mistake: Because it's next to the exported file `list.html`, i deleted it in an attempt to delete `list.html` to refresh the exported file! 😆
 				- Returning home, i see the evil pair: _Being **caught up in** the work the whole day, I must **catch up on** sleep now!_
-					- "Being caught up in the work the whole day" = passively entangled in work, losing control of time.
-					- "I must catch up on sleep now" = actively reclaiming sleep to compensate for the loss.
-					- The contrast between "caught up in" (immersion) and "catch up on" (recovery) creates a balanced flow.
+					- “Being caught up in the work the whole day”: passively entangled in work, losing control of time.
+					- “I must catch up on sleep now”: actively reclaiming sleep to compensate for the loss.
+					- Meta-caught-up: The swing between “caught up in” (immersion) and “catch up on” (recovery) is a vicious circle.
 			- 13th,
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
