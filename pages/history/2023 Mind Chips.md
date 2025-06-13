@@ -432,21 +432,43 @@
 				- Equal = 0 = the Path (Dao) = the one in between = the ratio
 				- Relativity of yin & yang: it's opposite in the extensional view, circle = yang = true, just, correct, complete = the form outside <> arrow = yin = false, missed/mistake, wrong/error, incomplete = the content inside
 	- 2024-03-23
-		- Images: in folder [](assets/Will/story/2025-06/dakini/)
-		- [https://enlightenmentthangka.com/blogs/thangka/sukhasiddhi-wisdom-dakini](https://enlightenmentthangka.com/blogs/thangka/sukhasiddhi-wisdom-dakini)
-		- [https://www.tsemrinpoche.com/tsem-tulku-rinpoche/one-minute-story/sukkhasiddhi-the-lady-of-bliss](https://www.tsemrinpoche.com/tsem-tulku-rinpoche/one-minute-story/sukkhasiddhi-the-lady-of-bliss)
-		- [https://evamratna.com/blogs/evamratna-blogs/sukhasiddhi-dakini](https://evamratna.com/blogs/evamratna-blogs/sukhasiddhi-dakini)
-		- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_19@23-03-2024_10-00-28.jpg)
-		- [https://teahouse.buddhistdoor.net/maitridakini-and-indradakini/](https://teahouse.buddhistdoor.net/maitridakini-and-indradakini/)
-		- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_20@23-03-2024_10-36-17.jpg)
-		- [https://teahouse.buddhistdoor.net/chinnamunda/](https://teahouse.buddhistdoor.net/chinnamunda/)
-		- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_21@23-03-2024_10-51-20.jpg)
-		- [https://www.tsemrinpoche.com/tsem-tulku-rinpoche/one-minute-story/ucheyma-the-severed-headed-vajrayogini](https://www.tsemrinpoche.com/tsem-tulku-rinpoche/one-minute-story/ucheyma-the-severed-headed-vajrayogini)
-		- ![](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_22@23-03-2024_11-38-59.jpg)
-		- [https://enlightenmentthangka.com/blogs/thangka/mahakala-understanding-the-practice-of-mahakala](https://enlightenmentthangka.com/blogs/thangka/mahakala-understanding-the-practice-of-mahakala)
+		- [sukhasiddhi-wisdom-dakini.jpg](assets/Will/story/2025-06/dakini/sukhasiddhi-wisdom-dakini.jpg)
+			- [https://enlightenmentthangka.com/blogs/thangka/sukhasiddhi-wisdom-dakini](https://enlightenmentthangka.com/blogs/thangka/sukhasiddhi-wisdom-dakini)
+			- [https://www.tsemrinpoche.com/tsem-tulku-rinpoche/one-minute-story/sukkhasiddhi-the-lady-of-bliss](https://www.tsemrinpoche.com/tsem-tulku-rinpoche/one-minute-story/sukkhasiddhi-the-lady-of-bliss)
+			- [https://evamratna.com/blogs/evamratna-blogs/sukhasiddhi-dakini](https://evamratna.com/blogs/evamratna-blogs/sukhasiddhi-dakini)
+		- [maitridakini-indradakini-vajrayogini.jpg](assets/Will/story/2025-06/dakini/maitridakini-indradakini-vajrayogini.jpg)
+			- [https://teahouse.buddhistdoor.net/maitridakini-and-indradakini/](https://teahouse.buddhistdoor.net/maitridakini-and-indradakini/)
+		- [chinnamunda.jpg](assets/Will/story/2025-06/dakini/chinnamunda.jpg)
+			- [https://teahouse.buddhistdoor.net/chinnamunda/](https://teahouse.buddhistdoor.net/chinnamunda/)
+		- [ucheyma-the-severed-headed-vajrayogini.jpg](assets/Will/story/2025-06/dakini/ucheyma-the-severed-headed-vajrayogini.jpg)
+			- [https://www.tsemrinpoche.com/tsem-tulku-rinpoche/one-minute-story/ucheyma-the-severed-headed-vajrayogini](https://www.tsemrinpoche.com/tsem-tulku-rinpoche/one-minute-story/ucheyma-the-severed-headed-vajrayogini)
+		- [mahakala.jpg](assets/Will/story/2025-06/dakini/mahakala.jpg)
+			- [https://enlightenmentthangka.com/blogs/thangka/mahakala-understanding-the-practice-of-mahakala](https://enlightenmentthangka.com/blogs/thangka/mahakala-understanding-the-practice-of-mahakala)
 	- 2024-04-03
 		- Võ gồng:
 		  [https://cand.com.vn/Phong-su/Huyen-thoai-va-su-that-ve-vo-phai-Tra-Kha-i310417/](https://cand.com.vn/Phong-su/Huyen-thoai-va-su-that-ve-vo-phai-Tra-Kha-i310417/)
 		  [https://cand.com.vn/Phong-su/Huyen-thoai-va-su-that-ve-vo-phai-Tra-Kha-(tiep-theo-va-het)-i310444/](https://cand.com.vn/Phong-su/Huyen-thoai-va-su-that-ve-vo-phai-Tra-Kha-(tiep-theo-va-het)-i310444/)
 		  [https://m.facebook.com/story.php?story_fbid=pfbid02LSvhVgdKcvT2MTzHMPNgZSbc1hUjRJs2jSWGDH3Bk3SDp2fbRh7JdnLms4uBqoL4l&id=106396770844622](https://m.facebook.com/story.php?story_fbid=pfbid02LSvhVgdKcvT2MTzHMPNgZSbc1hUjRJs2jSWGDH3Bk3SDp2fbRh7JdnLms4uBqoL4l&id=106396770844622)
+	- 2024-04-07
+		- A simple guide to cough medications: [https://www.vietnammedicalpractice.com/hcmc/en/news/nagging-cough-dr-jonathan-halevy](https://www.vietnammedicalpractice.com/hcmc/en/news/nagging-cough-dr-jonathan-halevy)
+			- Fexofenadine: 2nd gen. antihistamine (non-drowsy) for antiallergy.
+			- Bromhexine: a mucolytic to thin the mucus.
+		- 5 aggregates
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_23@07-04-2024_21-19-24.jpg){:width 300}
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_25@07-04-2024_21-19-24.jpg){:width 300}
+		- The Sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
+			- Etymology: from Latin "sustentus" past participle of "sustinēre"
+			- OED: "sustent" (archaic from 1664 to 67): That which sustains or supports.
+			- How it's sustained: it's sustained by it's own parts, i.e. the content sustains the intent and vice versa.
+			- The sustent is similar to the "substance" in philosophy, which is from "substāns" present participle of "substāre", and means "self-standing thing underlying all things". But there are diffs:
+				- Sustent is actively maintaining itself, while the substance is just a dumb material for some subject (human or God) to attach attributes to make things.
+				- Sustent includes at least 2 circles, while each substance is just one circle (the other[s] is the hands handling that substance).
+				- Sustent is constantly changing, while substances are considered unchanged.
+				- We may reuse the term "substance" with modified def "the one enduring changes while keeping a wholesome bundle of intrinsic properties called the 'natures' of it". The wholesomeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
+		- All past participles of Latin verbs:
+			- Sustent ~ sustentus <- sustain ~ sustinēre
+			- Content ~ contentus <- contain ~ continēre
+			- Intent ~ intentus <- intend ~ intendere
+			- Extent ~ extentus <- extend ~ extendere
 	- 2024
