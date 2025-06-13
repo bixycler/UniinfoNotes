@@ -2553,7 +2553,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Meta-caught-up: The swing between “caught up in” (immersion) and “catch up on” (recovery) is a vicious circle.
 				- and continue [the previous chat](((68417bbf-695f-452b-80a1-22e174329e7a))) with the dual meaning of “observe” : tầm-tứ = tìm-bám = find-fix = chỉ-quán = inquire-**observe**
 				  collapsed:: true
-					- These dual meanings of “observe” strengthen the unity of the two sides of the ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
+					- This dual meaning of “observe” strengthens the unity of the two sides of the ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
 					- Zen play: observe the silence (observ**ation**) = keep silence (observ**ance**)
 						- Zen master: please observe the silence!
 						- Zen student: hallelujah! the silence so great!
