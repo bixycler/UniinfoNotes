@@ -4530,7 +4530,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### GitHub Copilot
 			- The free plan has limits on number of code suggestions and chat messages.
 				- They increases gradually: (2k suggestions + 50 messages)/month → (4k suggestions + 500 messages)/month → ...
-				- Any suggestion counts as a "completion", any chat response counts as a "message".
+				- **Regardless of length**, any suggestion counts as a "completion", any chat response counts as a "message".
 			- Check for quotas (limits, remaining, resetDate)
 				- While there's no statistics on the [Settings GUI](https://github.com/settings/copilot/features), the info is actually available in response to the request `https://github.com/github-copilot/chat`/`entitlement`: just open Chrome DevTools of Copilot Settings page > `Network` > filter for `entitlement`.
 				  collapsed:: true
