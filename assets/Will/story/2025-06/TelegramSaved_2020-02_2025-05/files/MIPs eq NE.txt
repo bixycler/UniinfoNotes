@@ -1,0 +1,42 @@
+﻿Sang năm mới, ôn lại đột phá của khoa học lý thuyết năm 2020:
+MIP* = RE
+Quantum-entangled multiprover interactively provable = Recursively enumerable (= Turing machine expressible)
+Nó nói lên sự tương đương giữa bản chất "vướng víu lượng tử" với bản chất "không thể quyết định" của thuật toán (& của máy tính Turing).
+
+1. Vật lý - tâm lý, tính cục bộ, hiện thực khách quan, và tính độc lập (tự do) tuyệt đối
+
+- Trong vật lý cổ điển, các hiện tượng vật lý bên ngoài diễn ra hoàn toàn độc lập với các hoạt động tâm lý của con người, hay ít ra là các nhà vật lý học đã cho rằng như vậy. Việc trái đất quay thì nó cứ quay, cô ở truồng đi giữa phố thì cô cứ đi, chứ việc tao/tui/tôi hay Chúa có dòm ngó tới có biết tới hay không chẳng ảnh hưởng gì cả, ấy gọi là "tính hiện thực (khách quan)" (realism). Điều đó cũng có nghĩa là ai nấy đều tự do tuyệt đối, có suy nghĩ và hành động độc lập chẳng ảnh hưởng gì tới bất kỳ ai hay thứ gì khác hết, ấy gọi là "(ý chí) tự do" (free will) thể hiện qua tính "độc lập xác xuất" (statistical independence) giữa các sự kiện tách biệt nhau. Sự tách biệt tuyệt đối đó thể hiện rõ nhứt qua tính cục bộ (localism): tao/tui/tôi có làm gì thì cũng chỉ ảnh hưởng đến những người/vật xung quanh thôi chứ chẳng có ảnh hưởng gì (ngay lập tức) tới mày/bạn hay Chúa ở bên kia thế giới hết.
+
+- Nhưng vật lý lượng tử đã chứng minh bằng cả lý thuyết lẫn thực nghiệm rằng việc quan sát hay đo đạc một hạt ở chỗ này có liên quan tới kết quả quan sát hay đo đạc một hạt khác ở cách đó rất xa, nếu chúng có "vướng víu lượng tử" với nhau. (Mình dùng từ "có liên quan" chứ không dùng từ "làm ảnh hưởng tới" vì không muốn bạn có ấn tượng sai lầm về quan hệ nhân-quả.) 
+
+=> Một số lý thuyết lượng tử thì bỏ tính hiện thực (khác quan) giữ tính cục bộ qua "hàm sóng", một số lại bỏ tính cục bộ để giữ tính hiện thực (khách quan) qua "biến ẩn", một số khác lại bỏ tính độc lập. 
+
+2. Logic tuyệt đối, thuật toán tuyệt đối, và tính dừng tuyệt đối:
+
+- Logic tuyệt đối là phải không được mâu thuẫn, hoặc "đúng" hoặc "sai" chứ không được có cái nhập nhằng ở giữa.
+
+- Thuật toán (chương trình) tuyệt đối là thuật toán chạy bước nào ra bước đó, ko được nhập nhằng, và quan trọng nhứt là phải dừng. "Dừng" chỉ là "dừng ở 1 lúc nào đó", ngàn năm, triệu năm, tỉ năm gì đó cũng được, đếch ai biết, miễn "có dừng" là được :D 
+
+- Logic tuyệt đối + thuật toán tuyệt đối = Bài toán Dừng (Halting Problem): Cho một thuật toán rõ ràng, tức một chương trình máy tính, tao/tui/tôi hay Chúa phán rằng khi đút nó vô một máy Turing (máy tính lý tưởng chạy hoài ko chết) và bấm Enter thì nó chỉ có thể hoặc "dừng" (có thể sau vài tỉ tỉ năm) hoặc "không dừng". Nhưng đó là tao/tui/tôi biết vậy thôi, biết chắc như đinh đóng cột vây thôi, chứ chẳng có một thuật toán tuyệt đối nào có thể đưa ra câu trả lời ("dừng" hay "không dừng") giúp mày/bạn được đâu! :p
+
+Turing đã chứng minh rằng Bài toán Dừng là không thể quyết định tuyệt đối được, tức không tồn tại một thuật toán tuyệt đối nào để xác định chắc chắn rằng một chương trình máy tính bất kỳ là có dừng hay không. Đó không có nghĩa là hoàn toàn không có cách nào để xác định nhé: Đơn giản nhứt là cứ đút nó vô máy tính, bấm Enter rồi đợi... tuỳ độ kiên nhẫn, nếu bạn đợi thấy nó dừng thì chắc chắn nó dừng rồi, còn đợi lâu quá không thấy dừng thì có thể đoán và trả lời đại (vì bị ép vào 1 trong 2 câu trả lời). Hay làm "có tâm" hơn tí nữa là đọc mã nguồn của chương trình đó và suy luận, tìm vòng lặp vô tận, v.v. rồi quyết định xem nó có dừng hay không. Nói chung là có nhiều nhiều cách, nhưng nói "tuyệt đối phải dừng hoặc không dừng" thì không có cách nào nói chính xác hoàn toàn.
+ 
+==> Vấn đề nằm ở chỗ "tuyệt đối phải thế này hay thế kia". Thực ra là không thể vừa tuyệt đối phân biệt vừa tuyệt đối chính xác. Nhưng vì khoa học quen mặc định phải tuyệt đối phân biệt đúng/sai rồi nên thường chỉ nói Bài toán Dừng là không thể xác định chính xác được thôi.
+
+3. Hệ thống hình thức, tính phi mâu thuẫn, và tính toàn vẹn:
+
+- Mấy thế kỷ trước thời đại máy vi tính, các nhà toán học đã chế ra những cỗ máy lý thuyết gọi là "hệ thống hình thức" gồm các câu tao/tui/tôi hay Chúa phán là đúng một cách hiển nhiên, được gọi là "tiên đề", và các quy tắc suy luận theo logic tuyệt đối (như trên). Và cũng giống như máy tính hiện đại, ta có thể viết "chương trình" trên các hệ thống hình thức đó bằng một loạt các ký hiệu toán học và cú pháp toán học (gọi là "ngôn ngữ hình thức"). Các "chương trình" đó được gọi là "mệnh đề", kiểu như "ngày mai mày trúng số", được tao/tui/tôi hay Chúa phán rằng nó chỉ có thể là "đúng" hay "sai" chứ không thể khác!
+
+- Còn việc bản thân cái hệ thống hình thức đó có chứng minh được một mệnh đề viết bằng ngôn ngữ của nó là đúng hay sai hay không lại là chuyện khác: Bắt đầu từ các tiên đề (là thứ nó chấp nhận hiển nhiên vì chúa của nó đã phán như vậy), nó dùng các quy tắc suy luận logic để suy diễn, diễn dịch ra, từ mệnh đề này sang mệnh đề khác... nó chạm tới đâu thì nó biết rõ mệnh đề đó là "đúng" hay "sai" (theo logic mà chúa của nó đã dạy). Nếu nó chạy một hồi (dù là mấy tỉ tỉ bước) mà chạm được tới mệnh đề cần chứng minh thì mệnh đề đó được chứng minh, còn nếu chạy hoài không tới được thì mệnh đề kia được gọi là "độc lập" tức không thể chứng minh mà cũng không thể phản bác (tôi/Chúa muốn phán sao thì phán)!
+
+- Một hệ thống hình thức "chuẩn" là phải không được mâu thuẫn, nghĩa là nếu một mệnh đề được chứng minh thì chỉ có thể chứng minh rằng mệnh đề đó "đúng" hoặc "sai" chứ không thể vừa chứng minh nó đúng vừa chứng minh nó sai. Hệ thống hình thức nào mà có mâu thuẫn thì tao/tui/tôi hay Chúa sẽ vứt bỏ (hay nhốt nó xuống Địa ngục), mặc dù bản thân tao/tui/tôi hay Chúa cũng chẳng biết chắc hệ thống hình thức mình đang dùng có mâu thuẫn hay không! :D 
+
+Với nền tảng 2 thế kỷ toán học hình thức đó, năm 1928, Hilbert đã tin rằng cả thảy toán học sẽ được các hệ thống hình thức này chứng minh một cách chặt chẽ bằng cách đề ra chương trình Bài toán Quyết định (Entscheidungsproblem). Nhưng chỉ 3 năm sau, Gödel đã chứng minh rằng không có một hệ thống hình thức nào đủ khả năng chứng minh tất cả các mệnh đề của số học, tức phần cơ bản nhứt của toán học chỉ nói về các con số tự nhiên "1, 2, 3, ...". Vì tính phi mâu thuẫn là "hiển nhiên", là "tiêu chuẩn" nên định lý của Gödel được gọi là "định lý bất toàn", chứ nói đúng ra thì phải là "định lý không thể vừa phi mâu thuẫn vừa toàn vẹn". Nghĩa là nếu buộc một hệ thống hình thức phải phi mâu thuẫn thì nó không thể chứng minh hết các mệnh đề, và ngược lại nếu cho nó chứng minh hết các mệnh đề thì chắc chắn sẽ có mệnh đề nó vừa chứng minh là "đúng" vừa chứng minh là "sai".
+
+
+Tham khảo: 
+- Interactive proof system: https://en.wikipedia.org/wiki/Interactive_proof_system
+- Landmark Computer Science Proof Cascades Through Physics and Math: https://www.quantamagazine.org/landmark-computer-science-proof-cascades-through-physics-and-math-20200304
+- The shape of MIP* = RE: https://quantumfrontiers.com/2020/03/01/the-shape-of-mip-re/
+- About "MIP* = RE" by David Wakeham: https://hapax.github.io/assets/mipre.pdf
+- MIP*=RE (original paper): https://arxiv.org/abs/2001.04383
