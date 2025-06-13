@@ -2420,7 +2420,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  zenity --progress --no-cancel --auto-close --percentage=25 --width=500 --text="$msg"
 					  ```
 			- 30 May, my tantric practice last night has shown me ways to transform the [3 poisons](((6839229d-9eff-49e4-9480-6e2db6f61127))) to the [3 antidotes](((68392a1f-6685-4d0f-9de8-4ae42964e249))).
-			- 31 May, through a chatbox, i translated the first couple of meditation factors [vitarka-vicāra](https://en.wikipedia.org/wiki/Vitarka-vic%C4%81ra) into Vietnamese as “tìm-bám” and English as “**find-fix**”.
+			- 31 May, through a chatbox, i translated the first couple of meditation factors [vitakka-vicāra](https://en.wikipedia.org/wiki/Vitarka-vic%C4%81ra) into Vietnamese as “tìm-bám” and English as “**find-fix**”.
 			  id:: 68417bbf-695f-452b-80a1-22e174329e7a
 			  collapsed:: true
 				- Về 2 yếu tố tầm-tứ trong 5 yếu tố khi phân tích 4 thiền, thì đó là kỹ thuật cơ bản để nhiếp tâm, định tâm, tập trung vào 1 việc nào đó (ở đây là việc thiền), mà ở đời ai cũng dùng 1 cách tự nhiên, chỉ là không để ý, không phân tích ra thôi.
