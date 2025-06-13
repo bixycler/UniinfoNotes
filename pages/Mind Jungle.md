@@ -164,12 +164,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- But when checked again on 29 May 2025, it's always turned off despite being turned on by the user. This was likely a [technical glitch](((683d65ac-bd2b-4a11-b432-82d0655e2ea6))).
 						  id:: 683817f7-b6a0-41a6-aee4-5279089228f7
 						  ![Grok - conversation history - beta - disabled - 2025-05-29.png](../assets/Will/story/2025-05/Grok - conversation history - beta - disabled - 2025-05-29.png)
-						- Technical Glitch: Posts on X from May 28–31, 2025, report similar issues with Grok’s memory feature. The contents prior to May 30, 2025, are also cleared in the GUI.
+						- **Technical Glitch**: Posts on X from May 28–31, 2025, report similar issues with Grok’s memory feature. The contents prior to May 30, 2025, are also cleared in the GUI.
 						  id:: 683d65ac-bd2b-4a11-b432-82d0655e2ea6
 							- After that, i did capture a moment of "Grok Glitch".
 							  collapsed:: true
 								- ![Grok-glitch.png](../assets/Will/story/2025-06/Grok-glitch.png){:width 400} ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png){:width 400}
-						- Today, June 2nd, the feature has been restored! And here's the history of recalls recalled by Grok itself:
+						- Today, June 2nd, the feature has been **restored**! And here's the history of recalls recalled by Grok itself:
 						  collapsed:: true
 							- April 18: successful: Unithread Theory Mention
 							- April 23: successful: preference for top-down, hierarchical format for responses
@@ -177,10 +177,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- May 23: failed: Ackermann-Péter Function Discussion: failed to recall the initial misinterpretation of the recursion structure as two nested loops.
 							- May 29: failed previously & missing in this recall list this time: zenity focus stealing, failed, then tried again with "Coin of Truth", still failed.
 							- June 02: successful: "Great Lie" and "noble lie" discussion; Recall of previous recalls successfully except the last failed one on May 29.
-						- Today, June 16th, the memory of Grok gets very limited and severed again!
+						- Today, June 16th, the memory of Grok gets very limited and **severed again**!
+						  collapsed:: true
 							- The option in Settings is still on, but it cannot remember most of the discussions about “obop”, except the recent ones in this month (June).
-							- Even with provided screenshot of a discussion from the last month, it cannot recall anything.
-								-
+							- Even with the provided screenshot of a discussion about [action as fulfilled potential](((6835b165-b560-4358-9e46-c4511124c928))) last month, it cannot recall anything.
+							  collapsed:: true
+								- ![Grok search result about obop in Phylosophy Talks.png](../assets/Will/story/2025-06/Grok search result about obop in Phylosophy Talks.png){:height 574, :width 782}
 				- It still suffers severe ((6801de22-8ae9-42e1-a7b2-d870e5ec9689)), e.g. about its ability to [read content of webpages](((6801e4de-3427-4d2d-a196-35572bab45af))).
 				  collapsed:: true
 					- When being asked about the plain static webpage https://bixycler.github.io/Uniinfo/, 

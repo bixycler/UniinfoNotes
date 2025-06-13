@@ -2306,6 +2306,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- `messages-converter.js`: merge all notes in a day into 1 block: image & text are treated equally as separate items
 				  id:: 68429ef1-dc83-4d36-892f-1de746bfab09
 					- Text format:
+					  collapsed:: true
 						- ```markdown
 						  Paragraph 1
 						  - Item 1
@@ -2321,6 +2322,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						    - Subitem 4.1
 						  ```
 					- Tree structure: array `[]` = UL, element `-` = LI
+					  collapsed:: true
 						- ```js
 						  [
 						  - DocumentFragment{string, #text, BR, A, B, ... (may have UL)},
