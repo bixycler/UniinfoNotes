@@ -2419,6 +2419,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ```
 			- 30 May, my tantric practice last night has shown me ways to transform the [3 poisons](((6839229d-9eff-49e4-9480-6e2db6f61127))) to the [3 antidotes](((68392a1f-6685-4d0f-9de8-4ae42964e249))).
 			- 31 May, through a chatbox, i translated the first couple of meditation factors [vitarka-vicāra](https://en.wikipedia.org/wiki/Vitarka-vic%C4%81ra) into Vietnamese as “tìm-bám” and English as “**find-fix**”.
+			  id:: 68417bbf-695f-452b-80a1-22e174329e7a
 			  collapsed:: true
 				- Về 2 yếu tố tầm-tứ trong 5 yếu tố khi phân tích 4 thiền, thì đó là kỹ thuật cơ bản để nhiếp tâm, định tâm, tập trung vào 1 việc nào đó (ở đây là việc thiền), mà ở đời ai cũng dùng 1 cách tự nhiên, chỉ là không để ý, không phân tích ra thôi.
 					- Vitakka = tầm = tìm = inquiry = "mount or direct the mind towards an object." Để tập trung vào đối tượng thì trước hết ta phải tìm thấy đối tượng.  Như định niệm hơi thở thì phải tìm thấy hơi thở (bình thường thở mà không biết, không thấy), định niệm thần chú thì đi phải nhớ lại câu thần chú.
@@ -2546,9 +2547,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- I'v seen the mistake: Because it's next to the exported file `list.html`, i deleted it in an attempt to delete `list.html` to refresh the exported file! 😆
 				- Returning home, i see the evil pair: _Being **caught up in** the work the whole day, I must **catch up on** sleep now!_
+				  collapsed:: true
 					- “Being caught up in the work the whole day”: passively entangled in work, losing control of time.
 					- “I must catch up on sleep now”: actively reclaiming sleep to compensate for the loss.
 					- Meta-caught-up: The swing between “caught up in” (immersion) and “catch up on” (recovery) is a vicious circle.
+				- and [previous chat](((68417bbf-695f-452b-80a1-22e174329e7a)))
+				- tầm-tứ = tìm-bám = find-fix = chỉ-quán = inquire-observe
+					- observe silence (observation) = keep silence (observance)
+					- Thiền sư: please observe the silence!
+					- Thiền sinh: hallelujah! the silence so great!
+					- Thiền sinh khác: đồ ngu! Ổng bảo giữ im lặng mà cứ hallelujah!
+						- You fool! He said to keep silent, not hallelujah!"
+					- Thiền sư: Đừng cố giữ im lặng bằng cách kéo khóa mõm lại, vì nó chỉ nhốt cái ồn ào vào trong đầu mà thôi. Hãy tập trung quan sát nó!
+						- Don’t try to keep silent by zipping your mouth shut, for it only traps the noise inside your head. Focus on observing it!
 			- 13th,
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
