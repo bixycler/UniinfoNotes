@@ -2362,8 +2362,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
 			- Test message list
 				- Small Caps
-					- [with Unicode](https://en.wikipedia.org/wiki/Small_caps#Unicode): Aᴀ Bʙ Cᴄ Dᴅ Eᴇ Fғ Gɢ Hʜ Iɪ Jᴊ Kᴋ Lʟ Mᴍ Nɴ Oᴏ Pᴘ Qꞯ Rʀ Ss Tᴛ Uᴜ Vᴠ Wᴡ Xx Yʏ Zᴢ
-					- [with CSS](https://en.wikipedia.org/wiki/Small_caps#CSS): [:span {:style {:font-variant "small-caps"}} "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz"]
+					- [with Unicode](https://en.wikipedia.org/wiki/Small_caps#Unicode): Aᴀ Bʙ Cᴄ Dᴅ Eᴇ Fꜰ Gɢ Hʜ Iɪ Jᴊ Kᴋ Lʟ Mᴍ Nɴ Oᴏ Pᴘ Qꞯ Rʀ Ss Tᴛ Uᴜ Vᴠ Wᴡ Xx Yʏ Zᴢ
+					- [with CSS](https://en.wikipedia.org/wiki/Small_caps#CSS): 
+					  ```cljs :results
+					  ^:hiccup [:span {:style {:fontVariant "small-caps"}} "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz"]
+					  ```
+					- [:p "Hello " [:em "World!"]]
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
