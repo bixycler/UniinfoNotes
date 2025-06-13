@@ -181,7 +181,7 @@ function splitItems2(oli) {
     let ul = null, li = null;
     let newline = true, postPre = false, br = null; // Track the start of a new line
     for (let node of [...oli.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === 'BR') { br = node; newline = true; postPre = false; node.remove(); continue; }
+        if (node.nodeName === 'BR') { br = node; newline = true; postPre = false; continue; }
         if (newline && isItem2(node)) { // New item line
             if (!ul) { ul = document.createElement("ul"); oli.appendChild(ul); }
             if (li && li.childNodes.length) ul.append(li); // Flush the previous <li>
@@ -190,7 +190,7 @@ function splitItems2(oli) {
             li.textContent = node.textContent.slice(itemMarker(node)[0].length);
             node.remove();
         } else if (li) {
-            if (newline && !postPre) li.appendChild(br); // If it's a non-item new line, add a <br>
+            if (newline && !postPre) { li.appendChild(br); br = null; } // If it's a non-item new line, add a <br>
             li.appendChild(node);
         }
         newline = false; br = null;
