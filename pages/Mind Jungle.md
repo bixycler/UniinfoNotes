@@ -4507,7 +4507,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### GitHub Symbols Panel
 			- This new feature is the most **annoying** one!
 			- There's no way to completely turn it off, but an **option to suppress** the automatic opening of the panel (it's still working under the ground and shows up with a blue dot notififer).
-				- Ref:
+				- `···` menu next to the `Go to file` search bar > uncheck `Open symbols on click`
+				  collapsed:: true
+					- ![GitHub Symbols Panel - settings.png](../assets/Will/story/2025-06/GitHub Symbols Panel - settings.png)
+				- Ref: [a GitHub Community discussion](https://github.com/orgs/community/discussions/54962)
 		- ### GitHub Pages
 		  id:: 671503e5-690e-4f1f-ad53-419fd57543fe
 			- Docs: https://docs.github.com/en/pages
