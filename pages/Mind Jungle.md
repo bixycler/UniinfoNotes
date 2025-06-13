@@ -4513,6 +4513,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Ref: [a GitHub Community discussion](https://github.com/orgs/community/discussions/54962)
 		- ### GitHub Pages
 		  id:: 671503e5-690e-4f1f-ad53-419fd57543fe
+		  collapsed:: true
 			- Docs: https://docs.github.com/en/pages
 			- `Settings` > `Pages` > `Build and deployment` >
 				- `Source`
@@ -4526,6 +4527,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Custom page from GitHub Actions
 			  id:: 671504da-2c66-46e4-af83-f99b9f488d6d
 				- This will deploy a website using an action defined by `.github/workflows/$custom_publish_action.yml`, e.g.  Logseq's [publish-SPA](https://github.com/logseq/publish-spa) action.
+		- ### GitHub Copilot
+			- Check for quotas (limits, remaining, resetDate)
+				- While there's no GUI
+				- Ref: [a nice hack by charlielee](https://github.com/orgs/community/discussions/148154#discussioncomment-12546080)
 	- ## obsidian
 	  id:: 66537d0c-5406-4b46-8975-12d788cfc28e
 	  collapsed:: true
