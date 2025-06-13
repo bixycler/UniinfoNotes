@@ -4532,7 +4532,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- They increases gradually: (2k suggestions + 50 messages)/month → (4k suggestions + 500 messages)/month → ...
 				- **Regardless of length**, any suggestion counts as a "completion", any chat response counts as a "message".
-			- Settings: Let's disable auto-suggestion
+			- Settings: Let's **disable auto-completion** for all file types, and **manually trigger** suggestion with `Alt` `\` (switch to next/prev suggestion with `Alt` `]`/`[`).
 			- Check for quotas (limits, remaining, resetDate)
 				- In VS Code, current usage percentages are shown in the Copilot popup from the status bar.
 				  collapsed:: true
