@@ -645,10 +645,9 @@
 			- symbol = sign = extent = (ε-)abstraction of content via intent = the form crystallized from contents of all subjects showing that sign
 				- Usage of the symbol on objects = carried content, which must < crystallized content = def of that symbol in subjects
 				- King 👑 = symbol of the nation = crystallized from all citizens
-	- 2022-10-26
 	- 2022-11-05
 		- Extensions
-			- Linear extension in time ∫f(t)*dt = ghost trailing = linear memory = linear solidity => multilinear extension in space ∫f(x,y,z)*dx*dy*dz = volume solidity => exp extension in state space Πf(x_i)*dx_i
+			- Linear extension in time $∫f(t)⋅dt$ = ghost trailing = linear memory = linear solidity => multilinear extension in space $∫f(x,y,z)⋅dx⋅dy⋅dz$ = volume solidity => exp extension in state space $Πf(x_i)⋅dx_i$
 			- intensional multi-thread (linked circles, fibers) —[interunion]—> extensional uni-thread —[wraps around]—> the Quantum (limited) state space (cell, egg, seed, cocoon, chrysalis) —[ω-extension]—> cosmic (infinite) space
 				- cocoon —[ε-abstraction]—> the selfless Eye point
 	- 2022-11-09
@@ -666,19 +665,24 @@
 			- relativity: order of subjects is due to history (dir of generation), but the symmetry of simplexes shows they are equivalent: through the background, the old eyes can "see" the new subject, closing the circle ⭕ of view without the ack of the new subject
 		- [https://m.facebook.com/story.php?story_fbid=pfbid02mLHn8gbaJN4joW8YGE8giTonZMysBCkJSVjdP7KhdqFtvht7oEGqNbz6JtoGRG6nl&id=667177130&sfnsn=mo](https://m.facebook.com/story.php?story_fbid=pfbid02mLHn8gbaJN4joW8YGE8giTonZMysBCkJSVjdP7KhdqFtvht7oEGqNbz6JtoGRG6nl&id=667177130&sfnsn=mo)
 	- 2022-11-20
+		- Recordings of "contracts" with daddy
+			- [**FILE**] [SailamSinhCon.mp3](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/SailamSinhCon.mp3)
+			  ![SailamSinhCon.mp3](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/SailamSinhCon.mp3)
+			- [**FILE**] [HopdongKoTrano.mp3](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/HopdongKoTrano.mp3)
+			  ![HopdongKoTrano.mp3](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/HopdongKoTrano.mp3)
 	- 2022-11-22
 		- webRTC:
 		  96.0.4664.0_7ec519c8.Skynet
 		  commit 7ec519c8297828cfcd4c3a3871837ed3008d577e (branch-heads/4664)
 	- 2022-11-24
-		- **Transformation = Rotation
-		  **- Everything is Circle + every Arrow is a part of Circle => every trans is a rotation
-			- The center of the circle = the center of rotation = the **eye** = the **eigenvector
-			  **- The collection of all trans arrows is **symmetric**: each this vector has an opposite that vector; sum of all trans vectors = 0; all trans are group actions
+		- ### Transformation = Rotation
+			- Everything is Circle + every Arrow is a part of Circle => every trans is a rotation
+			- The center of the circle = the center of rotation = the **eye** = the **eigenvector**
+			- The collection of all trans arrows is **symmetric**: each this vector has an opposite that vector; sum of all trans vectors = 0; all trans are group actions
 			- The rotational unit "i" is complement to the linear unit "1"; the "i" hidden in the subject's eye underlies all changes, all trans in the external world.
 			- Like the Pendulum Wave, the whole Circle is composed of many micro circles and shows different forms with different **sampling** *view*
-			  ==> Transform = change sampling view = **rotate micro circles
-			  **- The "0" is a neutral point, but just the "external" one, the "∞" is the internal neutral point, the center within... but appears to be "outer most" :D
+			  ==> Transform = change sampling view = **rotate micro circles**
+			- The "0" is a neutral point, but just the "external" one, the "∞" is the internal neutral point, the center within... but appears to be "outer most" :D
 			  => The quadruple (i, 1; 0, ∞) is the structure of the whole. When i = -1, we have "harmonic" quadruple (-1, 1; 0, ∞) = -1
 		- ==> To complete, both refine the Arrow down to a point (Equal, selfless) and extend the Arrow up to a Circle (whole Self), but the inner most point is also the Circle of the outer most whole Self (strange loop, Grand Circle, intrinsics).
 		- Alt-codes on Windows:

@@ -1,2 +1,126 @@
 ## 2023 Mind Chips
-	-
+	- 2023-01-07
+		- Remainder = error = the wrong = content <> Module = the right = form
+			- formation = remainders' collection & condensation
+			- protocol = following the modules & put remainders aside to be collected inside of each self circle
+			- observation = collecting remainders via sampling by modules = rolling in = folding
+			- operation (action) = decision = output a form crystallized from remainders = rolling out = unfolding
+			- freewill = the invisibility & independence of remainders inside
+	- 2023-01-10
+		- iBuddy (iBồ) vs Apple's i-products:
+			- uninet: intelligent/intellectual (AGI, thông minh), imaginary/illusory (ảo), intuitive (trực quan, sinh động), interactive/interconnected (tương quan, tương tác), intent (mindful vs extent, chăm chú, tập trung), interest/interesting (quan tâm, chú ý, thú vị), integrity/integral (nhất quán, toàn vẹn), ideal (lý tưởng)
+			- Apple: internet, individual, instruct, inform, inspire
+				- Steve Jobs first introduced the iMac in 1998: [https://youtu.be/0BHPtoTctDY](https://youtu.be/0BHPtoTctDY)
+	- 2023-01-26
+		- Lubrication ~ liberation: connected, continuous, smooth, through, non-blocking
+			- from the lucid dream this morning: 2 parts of the thread (ROM & RAM) seem not connected (only modify RAM) but actually, when sleeping, ROM is modified by the results from RAM.
+				- They are not only connected but circularly connected
+				- Problems, diseases are due to the fragmentation of activated parts in the thread ==> first focus on the unactivated chunks then keep activated throughout the thread.
+				- Lay people without problems have just a short chunk of activation at the surface but continuous, hence a flying arrow > Problematic people have deeper chunks of activation but disconnected > Liberated people have a circular connected activation, hence a rolling wheel.
+			- from the ohm-thread: the "circular" link is the Intent in CIE. The reflection ex-in just projects the closed Circle ⭕ of Content to the open Arrow of Extent (open to infinity ♾️), but actually the infinities are connected together by the Intent.
+				- Intent is the pole & center of protection in the stereographic projection.
+				- While 0 is the external neutral point (center of the object), ♾️ is the internal neutral point (center of the subject).
+				- The Content seems to be an open Arrow (the Wrong, the energy) just because the Intent (the Right, the form) is abstracted from it.
+				- The Intent is abstracted by virtue of the black box Self/Ego
+				- The linearity of Quantum Mechanics is due to the ε-abstraction of the intent then ω-extension of the content to infinities => perturbation theory & renormalization are required
+	- 2023-01-27
+		- Linear = on the same projection line through the eye = projected to the same point (index, extent) on the screen = abstracted to a point & extended to a line = [dynamic] vary under the same function (transformation, flow, current, distribution, projection), AKA function-linearity = similar, have the same ratio c/i (e) in CIE
+			- CIE = inversive geometry = projective geometry = reflection of content <🪞> extent by the intent as a projection ray or radius in concentric model = on the same straight line in orthogonal model
+				- concentric model: arc (c) = radius (i) * angle (e): [projective] fixing angle e, arc c ~ radius i; [linear] fixing radius i, angle e ~ arc c
+				- Orthogonal model: y (c) = [linear] k (i) * x (e) = [projective] x (i) * a (e)
+				- View cone via interunion: the cone's body (1, ∞) is reflected into the top (0, 1) which are similar but inverse
+				- In-ex Relativity: Operation i*e is just the observation of the World against the Mine through the content c;
+				- Real-imaginary Relativity: scaling of radius ~ rotation of angle ==> repeat of scale range (0, ∞) [ε, ω] via **circular reflection **(recursion, interaction) = scale invariant = power law = holographic principle
+			- [linear] **dependency** = inner product = scaling factor of the image of the object in the subject's eye = force = **curvature** = 1/exp(i) = **1/exp(distance)**
+				- Independence = straight (∞ radius) = zero curvature = orthogonal (i = ∞)
+	- 2023-01-28
+		- Form & Content in CIE: c = total (diagonal) content; i = form = crystallized (base) content; i*frac(e) = carried (constrained) content < i; i*int(e) = directive (free) content
+			- the vector i*e:
+				- root (tail) = the base i = kernel = ε = 0;
+				- body = displacement = the directive content i*int(e) = index 👉 = extent = direction;
+				- head = the carried content i*frac(e) = remainder = error = differential; head (nearly)// root ⊥ body.
+			- spirorus current view: form i = tube = circular current; directive content = the current flowing in the tube ⊥ the crystallized current of the tube
+				- the crystallized current cancels contents in the base dimension ==> constraints the carried content & shields it from external content in this dimension ==> leaves it free in the directive dimension, eg. light polarizer
+		- Ratio extents based on i0 = ε: Totality = c/ε, intensity = i/ε, extensity = ε/i = 1/intensity
+			- Universal ratios for i0 = c: Totality := c/c = 1; intensity := i/c = 1/e; extensity := c/i = e; intensity * extensity = totality = 1;
+			  Displacement (distance) := log(ratio extent): universal total displacement = 0 = intensive distance + extensive distance
+			- view distance = view angle = angle between base circle & direction arrow = log(intensity)
+				- Orthogonal view = ∞ view: body ⊥ (head // base), they are independent due to the separation by the ∞ wall
+			- apparent (external) distance = log(directive content / c), used in continued fraction
+			- hidden (internal) distance = log(carried content / c) = view distance of the next order diff (in Euclidean algorithm)
+	- 2023-01-29
+		- Autonoton's current of i/o, ob/op:
+			- observation = analysis of external object by various eyes => holographically diverge 1 to many images
+			- operation = synthesis of various internal images into an action => converge
+			- types of operation: storing (absorption, learning, memorizing, compression), reaction, releasing (xả, output in refined form of energy)
+				- storing & releasing seem "pure observation" but opposite in output
+				- Reflection = reaction + releasing = filtered reaction
+			- in middle view, ob & op are just 2 opposite arrows with the same nature: projection between worlds, being n-n (double wedge/cone) in general, or 1-n or n-1 (wedge/cone)
+		- Emotion = measure of (+/-): con/destructiveness of Circle, through/blocking-ness of Arrow
+			- emotion directs both learning and (re)action => used in training and controlling
+		- Views:
+			- subjective view = of This subject (eye)
+			- (relatively) middle view = of the smallest of This subject
+			- relative view = of any subject
+			- (relatively) objective view = of the greatest (but very small) common eye of all subjects; no absolute objectivity; ~ middle view
+			- holistic view = integration all views from all eyes at all scales
+		- Free Will = independence = randomness = orthogonality = intrinsic black box of the self (oboper) = unlimited refinability of the oboper
+	- 2023-02-01
+		- Universe = Life = Ohm-current = Ohm-thread 🧵
+			- its cross section = space = form, which moves along time => transform, motion, rotation, procedural programming, physics
+			- its longitudinal section = time = content, which captures relations => mapping, function, projection, arrow, circle, functional programming, maths (category theory)
+			- transformation = projection = mapping = lens = eye 👁️ = distortion = (high order) curvature: all forms, AKA "states", are distorted image of the universal form Circle ⭕ through eyes, then they are transformed by the rolling of these eyes (rotation of the eyeball circle)
+	- 2023-02-09
+		- CIE = content2extent by intent = abstraction by cancellation = projection by light ray = mapping by function = transformation by time
+			- Abstraction: the Circle (intent, light, function, time) is abstracted away because its opposite arrows cancel each other
+				- It's hidden in the microcosm => revealed in orders of differential (time, velo, acceleration,...)
+				- These hidden dimensions are equivalent to the visible dimensions (image, extent/index space) in relaxed view
+			- Orthogonality: intent ⊥ extent by def. by the virtue of cancellation (p - n = |p| + |n| <=> diff/sim = 1)
+				- Orthogonal basis (relativity): the rectangle p×n is square iff |p| = |n| <=> |p/n| = 1; for arbitrary circle (p+n = 0), in its intrinsic (relaxed) view it's square ⬜ (p + n = 0 <=> |p/n| = 1) and it sees the external square (grid) as a rectangle elongated by ratio |p/n|
+				- Criteria: for arbitrary pair of vector (p, n), diff/sim = 1 <=> p ⊥ n, combined with |p/n| = 1 yields square p×n.
+			- Linearity: the line = intent circle = cancellation line = projection/light ray = function arrow = time arrow = world line = self line = self circle ⭕
+				- The scalar extent (distance) between 2 points (c, i) on that line = (tang of) angle between them in the circle = cross ratio e = (c, i; 0, ∞) = the scalar in linear algebra c = i*e
+		- Relative views vs relaxed view
+			- Relativity: to me I'm Circle (intensive) you're Arrow (extensive) <> to you you're Circle (intensive) I'm Arrow (extensive)
+			- Relaxation (=): we're all the same thread 🧵 folding/contacting to Circle and unfolding/expanding to Arrow.
+	- 2023-02-10
+		- CIE = inversive geometry = observation (inverse of operation) = reflection = "rooting" = root finding (of equation) = inverse functioning = finding inverse/backward function from the forward function = finding the Yin (-) from the Yang (+) in the Circle [Yin + Yang = 0]
+			- subtraction, division, (log & root0) are inverse of addition, multiplication, exponentiation ==> roots of unity bridge Trigonometry & Algebra.
+			- Euclidean (continued) division, Newton's method are algorithms of finding root using sequence of **approximation refinement** ==> general sequence jumping between f & g for finding incidence point (eye) of them = observing, zooming into the eye of incidence.
+		- Physics -> Proj Geometry -> Trigonometry -> Algebra -> Arithmetic
+	- 2023-02-17
+		- Constraints = equation = intent/form/circle of the eye 👁️ (eyeball)
+			- view x with reference frame i = transform x to satisfy the constraints i(x) = 0, eg. shift to origin (x - O), scale to unit (x/u), rotate to orthogonal/diagonal
+			- dependency = inner product = gcd(m, n) => two rotations:
+				- Orthogonalize: set the smaller n := gcd(m, n)
+				- Diagonalize: n := m - gcd(m, n)
+	- 2023-02-19
+		- Stitch (of thread) = info preserving transformation, mapping
+			- plimus = linear shift in tangent space (c, d)->(c+d, c-d) = white box module function = sequential action of dependent modules = arrow
+			- interunion = CIE = analysis (c, i)->(gcd, lcm, c/gcd) = observation = nonlinear rotation in polar space = black box module function = parallel action of independent modules = circle ⭕
+				- inverse of interunion = operation = synthesis 3->2
+			- ToP = circular triple rela Equal^Arrow\Circle = Obop^Content\Form = Obop: Content -> Form = meta CIE = exp = function = mapping from Arrow to Circle = Equal = encapsulate content wave into form particle => the black-box-ness of the circle makes the image parallel, orthogonal, independent, multiplicative
+		- Turing machine uses one-way (info non-preserving) function, linear/sequential operation (ops in radix system), constant knowledge (radix, base), synthesis 3->2. Uninet uses two-way stitch, base-free sequential obop (Euclidean, interunion) + parallel obop (Chinese remainder) to analyze input (observe, learn new knowledge).
+			- uninet is to Turing machine as residue number system (& continued fraction) is to radix number system
+			- holographic: 1 thread (number) is observed by N eyes (modules, circles, dividers, analysers) parallelly, at the surface N remainders are enough for info of the source thread (RNS), but each eye does analyse the whole input into a continued fraction => each eye has a whole but different image of the thread => the memory is distributed everywhere like a hologram!
+				- Short term memory ~ momentum = single circle; long term memory ~ force field configuration = multiplayer circles recursively reflect 1 input circle into an intricate fractal
+			- holism: holographic (all in one, one in all), projective, relative, relaxed
+		- Logistic function = projective metric = combine both exponential (geometric, space, parallel, polar) growth at 2 poles + linear (arithmetic, time, sequential, tangent) growth in the middle = 1/(1 + e^-t)
+			- linear = balance of 2 opposite poles (0 <> ∞) = arrow
+			- exponential (ratio r) = circle around a pole (curvature k = log r)
+			- projective between 2 poles ε & ω: p(t) = (x_t, u; ε, ω) =[ε=0, ω=∞]=> exponential from pole 0 (inversive reflect about u): p(t) = x_t/u (ratio 1/u) =[u=1,p=exp,ln(0)=-∞]=> linear reflect about ln(u)=ln(1)=0: t = ln(x_t)
+			- 2 relativities: between 2 poles ε ~ ω via ∞ push/pulling, between pole/point/eye and polar/line/circle ε ~ u via log
+			- projective/exp/linear = bi/mono/non-polar
+			- distortion of image vs source object in projection due to inversion = dependent vs independent vars = extent vs intent = high order vs low order digits = exp(x) vs x = y vs ln(y) = extrinsic vs intrinsic metrics = pole point vs polar line/circle = curvature of eyeball circle vs straight line = force for restoring to the (relaxed) linear distribution
+		- a = b <=> a - b = 0 <=> a/b = 1
+		- [http://creatzynotes.blogspot.com/2023/02/logistic-la-gi.html](http://creatzynotes.blogspot.com/2023/02/logistic-la-gi.html)
+	- 2023-02-21
+		- **Holistic momentum** = const-sized (mc^2) vector = momentum vector (in space) + energy vector (= momentum in time)
+			- **i=√-1 derived from dynamics**: velocity reflected at the wall must pass through 0 but total momentum is preserved => the whole momentum vector must pokes out of space dimension => space × momentum = phase space:
+				- The eigenvector of diff is exp() => extended to phase space: x' = p & p' = x => x'' = x => √1 = negative (opposite) unit «-1»; x' = -p & p' = x => x'' = -x => √-1 = imaginary (internal, intensive) unit «i»;
+				- The loop of derivatives in phase space complex plane contains 4 units (+1, +i, -1, -i), ie. x'''' = x => to be extended to quaternion
+			- the momentum dimension p in phase space is the folded (intensified) of time => spacetime = extended phase space => energy = momentum in time => force = curvature = density of energy = tightness of circle = how much motion in time
+				- Pythagorean theorem <== circle in phase space ==> everything is circle
+		- Differentials (high order) = orthogonal radix numerals = Turing machine vs uninet = holographic numerals = diagonal multimodular numerals (RNS & continued fraction)
+		  ==> this defines the computation inside the Quantum => geometry => physical laws
+	- 2023
