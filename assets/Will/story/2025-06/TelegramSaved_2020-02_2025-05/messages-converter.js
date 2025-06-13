@@ -152,9 +152,9 @@ function splitItems1(text) {
     if (text.childNodes.length === 0) return fragment; // No content to process
     let firstNode = text.firstChild;
     let leadingText = !isItem1(firstNode); // Non-item leading text
-    let newline = true, postPre = false, br = null; // Track the start of a new line
+    let newline = true, br = null; // Track the start of a new line
     for (let node of [...text.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === 'BR') { br = node; newline = true; postPre = false; firstline = false; continue; }
+        if (node.nodeName === 'BR') { br = node; newline = true; firstline = false; continue; }
         if (newline && isItem1(node)) { // New item line
             if (li.childNodes.length) parent.append(splitItems2(li)); // Flush the previous <li>
             if (leadingText) { // After the leading text, wrap the following items in a <ul>
@@ -166,11 +166,11 @@ function splitItems1(text) {
             let marker = itemMarker(node);
             li.textContent = node.textContent.slice(marker[1] ? marker[0].length : 0);
         } else {
-            if (newline && !postPre && firstNode != node) li.appendChild(br); // If it's a non-item new line, add a <br>
+            if (br && firstNode != node) li.appendChild(br); // If it's a non-item new line, keep <br>
             li.appendChild(node);
         }
         newline = false; br = null;
-        if (node.nodeName === 'PRE') { postPre = true; newline = true; firstline = false; }
+        if (node.nodeName === 'PRE') { newline = true; firstline = false; }
     }
     if (li.childNodes.length) parent.append(splitItems2(li)); // Wrap up the last item
     return fragment;
@@ -179,22 +179,22 @@ function splitItems1(text) {
 // Split the `+` `*` 2nd level items into <li> nodes
 function splitItems2(oli) {
     let ul = null, li = null;
-    let newline = true, postPre = false, br = null; // Track the start of a new line
+    let newline = true, br = null; // Track the start of a new line
     for (let node of [...oli.childNodes]) { // Use [...] for a *static* node list
-        if (node.nodeName === 'BR') { br = node; newline = true; postPre = false; continue; }
+        if (node.nodeName === 'BR') { br = node; newline = true; continue; }
         if (newline && isItem2(node)) { // New item line
             if (!ul) { ul = document.createElement("ul"); oli.appendChild(ul); }
             if (li && li.childNodes.length) ul.append(li); // Flush the previous <li>
             li = document.createElement("li");
             // Remove the marker of unordered item
             li.textContent = node.textContent.slice(itemMarker(node)[0].length);
-            node.remove();
+            node.remove(); if (br) { br.remove; br = null; }
         } else if (li) {
-            if (newline && !postPre) { li.appendChild(br); br = null; } // If it's a non-item new line, add a <br>
+            if (br) { li.appendChild(br); br = null; } // If it's a non-item new line, keep <br>
             li.appendChild(node);
         }
         newline = false; br = null;
-        if (node.nodeName === 'PRE') { postPre = true; newline = true; }
+        if (node.nodeName === 'PRE') { newline = true; }
     }
     if (li && li.childNodes.length) ul.append(li); // Wrap up the last item
     return oli;
