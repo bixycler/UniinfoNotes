@@ -153,6 +153,7 @@
 			- [https://schoolofsustainability.asu.edu/degrees-and-programs/graduate-degrees-programs/complex-adaptive-systems-science-concentration-phd-sustainability/](https://schoolofsustainability.asu.edu/degrees-and-programs/graduate-degrees-programs/complex-adaptive-systems-science-concentration-phd-sustainability/)
 	- 2020-09-18
 		- bài toán "Hàn Tín điểm binh"
+		  id:: 684c040a-7f5d-45df-a618-2a8ab9debd0e
 			- [on Wikipedia](https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_s%E1%BB%91_d%C6%B0_Trung_Qu%E1%BB%91c)
 			- [http://vitayson12.blogspot.com/2014/12/bai-toan-han-tin-iem-binh.html](http://vitayson12.blogspot.com/2014/12/bai-toan-han-tin-iem-binh.html)
 			- [https://zh-classical.wikipedia.org/wiki/%E9%9F%93%E4%BF%A1%E9%BB%9E%E5%85%B5](https://zh-classical.wikipedia.org/wiki/%E9%9F%93%E4%BF%A1%E9%BB%9E%E5%85%B5)
@@ -192,7 +193,7 @@
 				- Objective = "sitting on the bank but put mind on the boat" = Passive = "flow with the world" = Lagrange = Heisenberg view
 				  => Relative = "from above" = Interactive = "view-control" = UniThread view
 			- Active and passive transformation: [https://en.wikipedia.org/wiki/Active_and_passive_transformation](https://en.wikipedia.org/wiki/Active_and_passive_transformation)
-			- Interaction (Dirac) - Schrödinger - Heisenberg pictures: [https://en.wikipedia.org/wiki/Interaction_picture](https://en.wikipedia.org/wiki/Interaction_picture)
+			- Interaction (Dirac) - Schrödinger - Heisenberg pictures: [on Wikipedia](https://en.wikipedia.org/wiki/Interaction_picture)
 			- Euler & Lagrange versus Heisenberg & Scrodinger pictures - classical & quantum chaos: [https://arxiv.org/pdf/1305.5272.pdf](https://arxiv.org/pdf/1305.5272.pdf)
 	- 2020-10-28
 		- Representations of Projective Geometry (related to Hyperbolic Geometry):
@@ -225,6 +226,7 @@
 		- Dimensions & Metrics
 			- Topological dimensions, Hausdor dimensions & fractals: [https://u.math.biu.ac.il/~megereli/final_topology.pdf](https://u.math.biu.ac.il/~megereli/final_topology.pdf)
 	- 2020-12-02
+		- These are notes for Quickom works at UTS:
 		- Layout: swap waiting for keyframe
 		- multiply G main loop & main context to avoid "singleton"
 		- Test "lost RTP: must set `-local-play=true`. Warn: The `receiver_gst` is not resilient against loss!
@@ -235,6 +237,5 @@
 			- Static Viettel and/or static VNPT: Viettel -> VNPT ok, but VNPT -> Viettel not peerable!
 			- DHCP Viettel & VNPT: working with some lost RTPs
 	- 2020-12-25
-		- Why "complex number", Geometric Algebra:
-		- [https://en.wikipedia.org/wiki/Geometric_algebra](https://en.wikipedia.org/wiki/Geometric_algebra)
-		- Wave function's complex number related with GA: [https://physics.stackexchange.com/questions/8062/about-the-complex-nature-of-the-wave-function/8085#8085](https://physics.stackexchange.com/questions/8062/about-the-complex-nature-of-the-wave-function/8085#8085)
+		- Why "complex number", [Geometric Algebra](https://en.wikipedia.org/wiki/Geometric_algebra)
+		- Wave function's complex number related with Geometric Algebra: [on physics.stackexchange](https://physics.stackexchange.com/questions/8062/about-the-complex-nature-of-the-wave-function/8085#8085)
