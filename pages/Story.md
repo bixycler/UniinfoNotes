@@ -2376,6 +2376,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Everything is address!](((684c2aab-9b41-486b-a758-6028725f4c13))) on ((684c2aab-13de-49da-8030-ca5a29f6931c))
 				- ((684c2e6e-3f8d-4ee8-9f69-bdb5f761c9ad)): ((684c2ee0-1029-4df9-9fbb-40a6f8c2fcc8))
 					- ((684c2e6e-f75f-4916-9f1c-4375d42d8604))
+				- on ((684f7978-d358-44ba-96de-a8fecd3c16e2)) & ((684f7978-f693-409c-93bf-de130a606023))
 			- DOING Copy message `list.html` to [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2024 Mind Chips]]
 			  :LOGBOOK:
 			  CLOCK: [2025-06-13 Fri 17:50:10]

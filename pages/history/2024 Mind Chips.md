@@ -178,8 +178,10 @@
 		- **[FILE]**: [02_QTT_TNCN_TT80_2023-LeXuanDinh-8040166197.xls](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/02_QTT_TNCN_TT80_2023-LeXuanDinh-8040166197.xls)
 		- **[FILE]**: [quyettoan2023.txt](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/quyettoan2023.txt)
 	- 2024-05-12
+	  id:: 684f7978-d358-44ba-96de-a8fecd3c16e2
 		- Vacancy = vacuum = zero = 0 = -1 + 1 = all directions cancel out (as wave) = all circles crossing out (as particles) = no content in this dimension = any amount m of content in orthogonal dimension = scalar m (mass, energy)
 			- 3 levels of equal: momentum conservation (closed loop, sum arrows = 0) < energy conservation (closed const length loop, sum lengths = 1) < optimal entropy/action (full/round/perfect circle, dfx = fdx)
+			  id:: 684f7978-f57b-4168-bcac-687297b9266e
 				- ![Levels of The Equal](https://docs.google.com/drawings/d/e/2PACX-1vSq7a2ckZzk4wPzzdQ8HrTpNlM07dFNWQjnEyNfHiDw7sykVW3gppll7pQKd8PGUe-j3IzYSPX7uDnd/pub?w=700)
 		- Classic mechanics (conservation of momentum + energy) = physic machine working at equilibrium (at max entropy) = uninet working with effect only (no affect) = Turing (automatic) machine = effect circuit is round/regular/full/uniform/perfect
 	- 2024-05-21
@@ -240,7 +242,9 @@
 				- Equal = 0 = the Path (Dao) = the one in between = the ratio
 				- Relativity of yin & yang: it's opposite in the extensional view, circle = yang = true, just, correct, complete = the form outside <> arrow = yin = false, missed/mistake, wrong/error, incomplete = the content inside
 	- 2024-09-26
-		- 3 levels of equal (obop)
+	  id:: 684f7978-f693-409c-93bf-de130a606023
+		- [3 levels of equal](((684f7978-f57b-4168-bcac-687297b9266e))) (obop)
+		  id:: 684f7978-fd74-45ad-9716-ff79ade504f7
 			- 1. closed self content c0 (perception screen)
 			- 2. Constant ratio c0/i0 with the quantum intent i0
 			  -> 1 total content, many different forms
