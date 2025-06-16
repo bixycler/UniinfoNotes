@@ -2296,11 +2296,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- 3*. Trường hợp extreme của số 3 là khi đi phỏng vấn, người phỏng vấn hỏi mà ứng cử viên trả lời "không biết" cũng bị gọi là "láo!" 😜 Người khác coi câu trả lời đó là "trung thực" (tích cực), nhưng có những leader không thích sự trung thực đó, vì họ không quen và không thích bị cấp dưới từ chối. Đối với họ thì "không biết" là 1 dạng từ chối trả lời.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING  Export my saved messages from Telegram.
+		- Export my saved messages from Telegram.
 		  id:: 683da38c-3d91-435c-99eb-0a88a36f4ba5
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-06-02 Mon 16:35:17]
+		  CLOCK: [2025-06-02 Mon 16:35:17]--[2025-06-16 Mon 11:14:20] =>  330:39:03
 		  :END:
 			- Convert `messages.html` to `list.html` ~~with `sed`~~ with javascript via `messages.processed.html` & `messages-converter.js`
 				- `messages.processed.html`: `<body onload="CheckLocation();">` -> `Init()` + Extracted Content column
@@ -2365,8 +2365,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-06-13 Fri 17:50:10]--[2025-06-16 Mon 10:32:42] =>  64:42:32
 			  :END:
-				-
-			- Side results
+			- Some interesting chips captured my attention:
 				- Small Caps from the title of [Intensional Semantics](http://web.mit.edu/fintel/fintel-heim-intensional.pdf) on ((684c040a-a044-4f5f-8336-44f1359dd396))
 				  collapsed:: true
 					- [with Unicode](https://en.wikipedia.org/wiki/Small_caps#Unicode): Aᴀ Bʙ Cᴄ Dᴅ Eᴇ Fꜰ Gɢ Hʜ Iɪ Jᴊ Kᴋ Lʟ Mᴍ Nɴ Oᴏ Pᴘ Qꞯ Rʀ Sꜱ Tᴛ Uᴜ Vᴠ Wᴡ X[x] Yʏ Zᴢ
