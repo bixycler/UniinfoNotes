@@ -2377,9 +2377,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((684c2e6e-3f8d-4ee8-9f69-bdb5f761c9ad)): ((684c2ee0-1029-4df9-9fbb-40a6f8c2fcc8))
 					- ((684c2e6e-f75f-4916-9f1c-4375d42d8604))
 				- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) on ((684f7978-d358-44ba-96de-a8fecd3c16e2)) & ((684f7978-f693-409c-93bf-de130a606023))
-			- DOING Copy message `list.html` to [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2024 Mind Chips]]
+			- DONE Copy message `list.html` to [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2024 Mind Chips]]
 			  :LOGBOOK:
-			  CLOCK: [2025-06-13 Fri 17:50:10]
+			  CLOCK: [2025-06-13 Fri 17:50:10]--[2025-06-16 Mon 10:32:42] =>  64:42:32
 			  :END:
 				-
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
@@ -2588,6 +2588,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-06-16 Mon 09:51:30]
 			  :END:
 				- [!] The folder `photos` shows "Folder is Emtpy" 😮 on Nautilus File Manager, while its "properties" by Nautilus shows 46 items?!
+				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-06-16 Mon 09:51:23]
 				  :END:

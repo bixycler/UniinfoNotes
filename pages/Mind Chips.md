@@ -38,8 +38,8 @@
 			  [https://en.wiktionary.org/wiki/%C9%B1](https://en.wiktionary.org/wiki/%C9%B1)
 			  Ohm = oheim = ông chú: [https://en.wiktionary.org/wiki/Ohm#German](https://en.wiktionary.org/wiki/Ohm#German)
 			  [https://www.rigpawiki.org/index.php?title=Pronunciation_of_Sanskrit_words](https://www.rigpawiki.org/index.php?title=Pronunciation_of_Sanskrit_words)
-			  > A dot on top of n equals the "ng"-sound in wrong. Examples are the word Saṅgha
-			  > A dot and a half-moon circle on top of m̐ also equals the "ng"-sound in wrong. Examples are the syllables om̐ and hūm̐. Although om̐ takes the m̐ it is nevertheless pronounced "om" rather than "ong". hūm̐ however is thus pronounced as the Tibetans would as "hung".
+			- -> A dot on top of n equals the "ng"-sound in wrong. Examples are the word Saṅgha
+			- -> A dot and a half-moon circle on top of m̐ also equals the "ng"-sound in wrong. Examples are the syllables om̐ and hūm̐. Although om̐ takes the m̐ it is nevertheless pronounced "om" rather than "ong". hūm̐ however is thus pronounced as the Tibetans would as "hung".
 	- 2025-01-31
 		- Chatbots' comments on my very brief summary of Uniinfo:
 			- [https://playground.allenai.org/thread/msg_U8T1P2S8W5](https://playground.allenai.org/thread/msg_U8T1P2S8W5)
@@ -49,8 +49,7 @@
 			- [https://claude.ai/chat/7009c0e6-3330-48ee-bc57-9daaa02e041b](https://claude.ai/chat/7009c0e6-3330-48ee-bc57-9daaa02e041b)
 			- [https://mistral.ai/news/mistral-small-3/](https://mistral.ai/news/mistral-small-3/)
 			- [https://kimi.ai/chat/cufgq846toibu9n6i9kg](https://kimi.ai/chat/cufgq846toibu9n6i9kg)
-		- **[FILE]**: [Uniinfo Notes deep dive with brainstorms 4.wav](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Uniinfo%20Notes%20deep%20dive%20with%20brainstorms%204.wav)
-		- **[FILE]**: [Uniinfo podcast 4 transcription.srt.txt](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Uniinfo%20podcast%204%20transcription.srt.txt)
+		- **[FILE]**: [Uniinfo podcast 4 transcription.srt.txt](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Uniinfo podcast 4 transcription.srt.txt)
 		- Update notes: (done)
 			- uninet may be mistaken with the omnifold, as a grand network of the whole Universe, due to its name. It's actually a universal network, but just a reflection of the omnifold on computer, not the whole. (This confusion appeared in one NotebookLM's audio overview)
 				- Trinion (metaphysical) ~ Ω-thread (mathematical) ~ uninet (computer implementation)
@@ -74,14 +73,12 @@
 			- balance: c = i*e, entropy max (reached limit resolution i0, round), action min (straight)
 			- dynamic balance: the limit resolution i0 is just a threshold sustent which is very far from the next step in the ladder of infinite sustents. It's just the intent of a very large self, with a very thin self wall.
 			- the law of the same content: all circles have the same content, their absolute crystallized content is 1, but their measured content (i*e) is always less than 1.
-		- **[FILE]**: [Unïnfo Notes full - overview 2025-02-02.wav](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Un%C3%AFnfo%20Notes%20full%20-%20overview%202025-02-02.wav)
 		- [https://youtu.be/FuhvgdXi-FI?si=niYFQFZNrbBzqLTd](https://youtu.be/FuhvgdXi-FI?si=niYFQFZNrbBzqLTd)
 	- 2025-02-03
-		- [https://www.thebrighterside.news/space/new-theory-unites-einsteins-theory-of-relativity-with-quantum-mechanics/](https://www.thebrighterside.news/space/new-theory-unites-einsteins-theory-of-relativity-with-quantum-mechanics/)
-		  postquantum theory of classical gravity:
-		  [https://www.nature.com/articles/s41467-023-43348-2](https://www.nature.com/articles/s41467-023-43348-2)
-		- **[FILE]**: [Unïnfo_Notes_Full_Overview_2025_02_02_en_US_transcription.srt](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Un%C3%AFnfo_Notes_Full_Overview_2025_02_02_en_US_transcription.srt)
-		- **[FILE]**: [Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Un%C3%AFnfo%20Notes%20Full%20-%20Overview%202025-02-02%20(en-US).srt)
+		- [New theory unites Einstein’s theory of relativity with quantum mechanics](https://www.thebrighterside.news/space/new-theory-unites-einsteins-theory-of-relativity-with-quantum-mechanics/)
+		- [postquantum theory of classical gravity](https://www.nature.com/articles/s41467-023-43348-2)
+		- **[FILE]**: [Unïnfo_Notes_Full_Overview_2025_02_02_en_US_transcription.srt](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Unïnfo_Notes_Full_Overview_2025_02_02_en_US_transcription.srt)
+		- **[FILE]**: [Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt)
 	- 2025-02-23
 		- 3 types of linearity: r = 0, repeat the same pattern, in nD space: n axises have the same distribution
 	- 2025-04-09
@@ -115,11 +112,43 @@
 		- [https://www.sciencealert.com/shocking-videos-show-snakes-really-do-swallow-their-own-tails](https://www.sciencealert.com/shocking-videos-show-snakes-really-do-swallow-their-own-tails)
 		- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_30@20-04-2025_18-44-18.jpg){:width 200}
 		- गते गते पारगते पारसंगते बोधि स्वाहा | Gate gate pāragate pārasaṃgate bodhi svāhā | Vượt qua, vượt qua, vượt qua bên kia, vượt qua hết bên kia, Giác Ngộ, ôi tuyệt vời!
-	- 2025
-	- ---
+	- 2025-04-21
+		- [https://youtu.be/djWOyahjeGw](https://youtu.be/djWOyahjeGw)
+	- 2025-04-22
+		- [https://www.businessinsider.com/google-openai-anthropic-ai-agents-training-data-2025-4](https://www.businessinsider.com/google-openai-anthropic-ai-agents-training-data-2025-4)
+		  [https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)
+		- Gravity = entropic force/effect from electromagnetic field (light)
+		- [https://www.advancedsciencenews.com/new-theory-suggests-gravity-is-not-a-fundamental-force/](https://www.advancedsciencenews.com/new-theory-suggests-gravity-is-not-a-fundamental-force/)
+	- 2025-04-24
+		- Discrete Mapping --[refine via exp.log]--> continuous flow
+			- intent: linearly refine argument (log): dx = x/n
+			- extent: multiply n times y = (1 + dx)^n
+	- 2025-04-28
+		- Additional distribution: transversal: content = intensive part (center) + extensive part (peripheral)
+		- Multiplication of projection: radial: scaling via view cone, content = intent * extent
+		- exp: rotational: recursive projection
+	- 2025-05-08
+		- VCB app autoupdated successfully
+		  collapsed:: true
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_31@08-05-2025_22-07-46.jpg){:width 300}
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_32@08-05-2025_22-07-46.jpg){:width 300}
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_33@08-05-2025_22-07-46.jpg){:width 300}
+	- 2025-05-11
+		- Spirorus = divergence (inner flow + polar wave) + curl particle
+		- Huygens principle = intrinsic dynamic = light/effect flow (dynamic content) in space (static form) = change = self diff
+		- effect flow + projective thread (distribution) = wave equation = Newton mechanics = momentum conservation = reciprocal forces between content & form (Newton 3rd law)
+		- average = center = balance ⚖️ = zero sum = target of (min sum optimization = restoring force) = bottom of potential well
+		- n-th derivative (in time) = n-th moment (in space) ?! ==> chain of intents in particle = cone of extents in field (wave)
+		- About "moments" from "momentum = movement":
+			- now = the current moment = ever moving flow
+			- mechanics & maths: 1st, Balance of Scale: The critical tiny movement of a scale’s arm (⚖️) tied to arm length and weight sparked the study of "moment of force" (torque) and other moments like moment of inertia,... Then, the study of balance ♎ leading to center of mass and many other measurements relating to the distribution of mass, esp. the moment of inertia which leads to the term "moment" in maths.
+	- 2025-05-26
+		- [https://t.me/proxy?server=43.199.172.86&port=443&secret=f7ab4759fcd498f2e434ae29a8b4344d](https://t.me/proxy?server=43.199.172.86&port=443&secret=f7ab4759fcd498f2e434ae29a8b4344d)
+	- 2025-05-27
+		- can this proxy bypass Fortinet?
+		- Oh yes, it CAN! 😊
 	- 2025-06-01
 	  id:: 6841400e-d2c5-47ab-a838-7418a53a5b34
-	  collapsed:: true
 		- [Căn bản, gốc rễ, cội nguồn](https://creatzynotes.blogspot.com/2021/05/can-ban-goc-re.html)
 			- Tree = root system + shoot system = double cone
 			- obop = herenow = mixer of content to produce new forms
