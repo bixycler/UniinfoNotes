@@ -1,3 +1,26 @@
+- The oasis of Life 
+  - This image depicts:
+    - An oasis 🏝️ shaped like an egg, representing the life full of [diversity](https://en.wikipedia.org/wiki/Ecosystem_diversity), situated between two deserts (the left side entirely cold water Yin, the right side entirely hot sand Yang).
+    - Within the oasis, the order of Yin and Yang is reversed, meaning the left (Yin) contains Yang (red) and the right (Yang) contains Yin (green). This phenomenon of "Yin within Yang, Yang within Yin" is represented by the two small disks in the Taiji symbol: ☯️.
+    - In the center, there is a yellow region neutralizing Yin (green) and Yang (red), and at the bottom center, there is a black Buddha meditating 🧘‍♀️.
+  - The [middle way](https://en.wikipedia.org/wiki/Middle_Way) which most people see, represented by the yellow diamond shape in the image, is the “just right” state—neither lacking (Yin) nor excessive (Yang). It’s a comfortable balance, neither cold nor hot, free from greed (due to lack, Yin) and aversion (anger, haste, Yang)... but this leads to delusion, becoming infatuated with that comfortable balance.
+  - Nirvana, or liberation, is the black area at the bottom center, where the “meditating Buddha” sits. It’s also a balance... but a **dynamic balance** amid infinite turbulence, not a static balanced land like the yellow diamond above.
+  - The common path to liberation involves using the yellow land in the middle above to distance oneself from the two extremes first, then gradually practicing to descend into the turbulent jungle below where the “meditating Buddha” sits.
+  - This oasis is on the “edge of chaos”, i.e. the border between 2 extremes of completely static (Yin) and completely random (Yang).
+  - The trip [zooming into the edge of chaos](https://photos.app.goo.gl/33w9EPJsk5MsAcaG6): 
+    - From a distance, it looks like a single straight line clearly dividing Yin and Yang.
+    - As we move closer, we see it’s not like that at all, but filled with patterns of “Yin within Yang, Yang within Yin, and even androgyny” within it, ☯️.
+    - And deep inside, amidst the dense, turbulent jungles, there is a “Buddha meditating” in the midst of that forest 🧘‍♀️.
+- 3 poisons in sex
+  - Initially, there is greed: a feeling of lacking the other side stimulates desire, leading one to rush toward the partner and pull the partner into oneself.
+  - Near the peak, there is aversion: when energy has accumulated fully within, especially in men, there’s an urge to release it explosively (reaching climax). If interrupted at this stage, one feels irritated, frustrated, and restless, regardless of gender, due to excess Yang. Men tend to exhibit this aversion more clearly as anger, while women often experience it more subtly as inner restlessness.
+  - After orgasm, there is delusion: when the two sides come together intensely and explode, Yin and Yang harmonize, resulting in satisfaction, fullness—neither lacking (greed) nor excessive (aversion)... but also no clear mind (delusion). Thus, one embraces that blissful feeling, holding it tightly in the heart while sleeping.
+  - During this sleep, delusion reveals its nature of ignorance (stupidity): one is content with the pleasure and cares about nothing else, simply rolling over to sleep. Then, upon waking and opening the eyes to see and know, delusion manifests as infatuation, indulgence, obsession and attachment: having embraced that pleasure and embedded it deeply into the subconscious (during sleep), one now clings to it heavily, with everything one does aimed at recreating that pleasure without awareness.
+- Trong 1 cuộc làm tình thì cả 2 đều trải qua quy trình tham - sân - si: 
+  - ban đầu là tham: cảm giác thiếu thốn phần bên kia kích thích sự ham muốn, nên muốn lao vào đối phương và kéo đối phương vào mình;
+  - khi lên cao trào là sân: khi năng lượng đã tích tụ đầy trong người, nhất là người nam, thì bị thôi thúc phải cho nó bùng nổ ra (lên đỉnh). Ai bị ngắt ngang ở đoạn này thì sẽ bị tức tối bực bội, bứt rứt đứng ngồi không yên do quá dương, bất kể nam nữ. Nam thì thường bị sân rõ hơn thành nóng giận, còn nữ thường nhẹ hơn thành bứt rứt trong người.
+  - sau cực khoái là si: khi 2 bên xáp lại cực độ để bùng nổ xong thì âm dương hòa hợp, thỏa mãn, đầy đủ, không thiếu (tham) không thừa (sân)... nhưng cũng không thấy đường (si), nên ôm cái khoái cảm đó vào lòng bó chặt nó trong tâm mà ngủ. 
+  - Lúc ngủ này thì si thể hiện bản chất vô minh (ngu si), ta sướng là được rồi không cần quan tâm gì nữa hết, lăn ra ngủ. Nhưng sau đó, lúc thức dậy mở mắt ra để thấy biết thì si thể hiện ra ở chỗ "si mê": do mình đã ôm cái sướng đó cài sâu nó vào trong vô thức (lúc ngủ), nên giờ mình chấp nó một cách nặng nề, mọi thứ mình làm đều chỉ để tìm lại cái sướng đó mà không biết.
 ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
