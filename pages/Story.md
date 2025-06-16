@@ -2566,6 +2566,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- the **passive** psychonautic mode (traveling deep inside) with **cold** body and
 					- the **active** mode (traveling the works outside) with **warm** body.
 				- At the end of the day, the folder `Downloads/Telegram Desktop/` was mysteriously moved to Trash! 😧
+				  id:: 684ad726-5951-4447-ac85-67bad8a840c3
 				  collapsed:: true
 					- I'v seen the mistake: Because it's next to the exported file `list.html`, i deleted it in an attempt to delete `list.html` to refresh the exported file! 😆
 				- Returning home, i see the evil pair: _Being **caught up in** the work the whole day, I must **catch up on** sleep now!_
@@ -2595,6 +2596,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ![EmptyFolder-with-46items-inProperties.png](../assets/Will/story/2025-06/EmptyFolder-with-46items-inProperties.png)
 					- 46 files can listed up normally on terminal.
 					- The same folder `photos` in `~/Downloads/Telegram Desktop/` does show images normally.
+					- After reboot, it now shows everything normally 😊.
+					  :LOGBOOK:
+					  CLOCK: [2025-06-16 Mon 10:44:40]
+					  :END:
 				- [?] Some images are placed in folder `files` instead of `photos` and cannot be displayed on Logseq after copied!?
 					- Like this:
 						- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
@@ -2603,6 +2608,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  collapsed:: true
 							- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
 					- So that space is somehow cursed!
+			-
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
