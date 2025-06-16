@@ -1,14 +1,4 @@
-- 3 poisons in sex
-	- Initially, there is greed: a feeling of lacking the other side stimulates desire, leading one to rush toward the partner and pull the partner into oneself.
-	- Near the peak, there is aversion: when energy has accumulated fully within, especially in men, there’s an urge to release it explosively (reaching climax). If interrupted at this stage, one feels irritated, frustrated, and restless, regardless of gender, due to excess Yang. Men tend to exhibit this aversion more clearly as anger, while women often experience it more subtly as inner restlessness.
-	- After orgasm, there is delusion: when the two sides come together intensely and explode, Yin and Yang harmonize, resulting in satisfaction, fullness—neither lacking (greed) nor excessive (aversion)... but also no clear mind (delusion). Thus, one embraces that blissful feeling, holding it tightly in the heart while sleeping.
-	- During this sleep, delusion reveals its nature of ignorance (stupidity): one is content with the pleasure and cares about nothing else, simply rolling over to sleep. Then, upon waking and opening the eyes to see and know, delusion manifests as infatuation, indulgence, obsession and attachment: having embraced that pleasure and embedded it deeply into the subconscious (during sleep), one now clings to it heavily, with everything one does aimed at recreating that pleasure without awareness.
-- Trong 1 cuộc làm tình thì cả 2 đều trải qua quy trình tham - sân - si:
-	- ban đầu là tham: cảm giác thiếu thốn phần bên kia kích thích sự ham muốn, nên muốn lao vào đối phương và kéo đối phương vào mình;
-	- khi lên cao trào là sân: khi năng lượng đã tích tụ đầy trong người, nhất là người nam, thì bị thôi thúc phải cho nó bùng nổ ra (lên đỉnh). Ai bị ngắt ngang ở đoạn này thì sẽ bị tức tối bực bội, bứt rứt đứng ngồi không yên do quá dương, bất kể nam nữ. Nam thì thường bị sân rõ hơn thành nóng giận, còn nữ thường nhẹ hơn thành bứt rứt trong người.
-	- sau cực khoái là si: khi 2 bên xáp lại cực độ để bùng nổ xong thì âm dương hòa hợp, thỏa mãn, đầy đủ, không thiếu (tham) không thừa (sân)... nhưng cũng không thấy đường (si), nên ôm cái khoái cảm đó vào lòng bó chặt nó trong tâm mà ngủ.
-	- Lúc ngủ này thì si thể hiện bản chất vô minh (ngu si), ta sướng là được rồi không cần quan tâm gì nữa hết, lăn ra ngủ. Nhưng sau đó, lúc thức dậy mở mắt ra để thấy biết thì si thể hiện ra ở chỗ "si mê": do mình đã ôm cái sướng đó cài sâu nó vào trong vô thức (lúc ngủ), nên giờ mình chấp nó một cách nặng nề, mọi thứ mình làm đều chỉ để tìm lại cái sướng đó mà không biết.
-- ## Current Chips
+## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
   collapsed:: true

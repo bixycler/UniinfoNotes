@@ -2583,6 +2583,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Zen master: Don’t try to keep silent by zipping your mouth shut, for it only traps the noise inside your head. Focus on observing it!
 			- 13th, process & copy contents of [Telegram saved messages](((683da38c-3d91-435c-99eb-0a88a36f4ba5)))
 			- 14-15th, intended to have an LSD trip with Mr. Hiệp but he was busy & unready, so i took the oppoturnity to clean up system drive (C) for my bro.
+				- Discussed on chatbox about ((684fbedf-5e17-4319-8f42-0e3062038fc0)) and ((684fc240-0d53-47ac-a1ab-bcfb0a731cc0)).
 			- 16th, get back to finish the copy of Telegram saved messages...
 			  :LOGBOOK:
 			  CLOCK: [2025-06-16 Mon 09:51:30]

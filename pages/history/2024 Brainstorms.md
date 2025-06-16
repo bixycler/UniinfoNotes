@@ -220,6 +220,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				  id:: 684fbc42-7348-4e76-9b02-573035f1b98c
 					- ![Oasis-of-Life.jpg](../assets/Will/story/2025-06/Oasis-of-Life.jpg)
 			- The Oasis of Life
+			  id:: 684fbedf-5e17-4319-8f42-0e3062038fc0
 			  collapsed:: true
 				- The [image](((684fbc42-7348-4e76-9b02-573035f1b98c)))
 				  id:: 684fbfdf-b894-434b-b6ee-1e7169d9dce9
@@ -230,7 +231,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					- Within the oasis, the order of Yin and Yang is reversed, meaning the left (Yin) contains Yang (red) and the right (Yang) contains Yin (green). This phenomenon of "Yin within Yang, Yang within Yin" is represented by the two small disks in the Taiji symbol: ☯️.
 					- In the center, there is a yellow region neutralizing Yin (green) and Yang (red), and at the bottom center, there is a black Buddha meditating 🧘‍♀️.
 				- The [middle way](https://en.wikipedia.org/wiki/Middle_Way) which most people see, represented by the yellow diamond shape 🔶 in the image, is the “just right” state, neither lacking (Yin) nor excessive (Yang). It’s a comfortable balance, neither cold nor hot, free from greed (due to lack, Yin) and aversion (anger, haste, Yang)... but this leads to **delusion**, becoming _**infatuated** with that comfortable balance_.
-				- Nirvana, or liberation, is the black area at the bottom center, where the “meditating Buddha” sits. It’s also a balance... but a **dynamic balance** amid infinite turbulence, not a static balanced land like the yellow diamond above.
+				- **Nirvana**, or liberation, is the black area ♠️ at the bottom center, where the “meditating Buddha” sits. It’s also a balance... but a **dynamic balance** amid infinite turbulence, not a static balanced land like the yellow diamond above.
 				- The common path to liberation involves using the yellow land in the middle above to distance oneself from the two extremes first, then gradually practicing to descend into the turbulent jungle below where the “meditating Buddha” sits.
 				- This oasis is on the “edge of chaos”, i.e. the border between 2 extremes of completely static (Yin) and completely random (Yang).
 			- The oasis of Life
