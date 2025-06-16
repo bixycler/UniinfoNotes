@@ -105,10 +105,12 @@
 		  [https://cand.com.vn/Phong-su/Huyen-thoai-va-su-that-ve-vo-phai-Tra-Kha-(tiep-theo-va-het)-i310444/](https://cand.com.vn/Phong-su/Huyen-thoai-va-su-that-ve-vo-phai-Tra-Kha-(tiep-theo-va-het)-i310444/)
 		  [https://m.facebook.com/story.php?story_fbid=pfbid02LSvhVgdKcvT2MTzHMPNgZSbc1hUjRJs2jSWGDH3Bk3SDp2fbRh7JdnLms4uBqoL4l&id=106396770844622](https://m.facebook.com/story.php?story_fbid=pfbid02LSvhVgdKcvT2MTzHMPNgZSbc1hUjRJs2jSWGDH3Bk3SDp2fbRh7JdnLms4uBqoL4l&id=106396770844622)
 	- 2024-04-07
+	  id:: 684c2e6e-3f8d-4ee8-9f69-bdb5f761c9ad
 		- A simple guide to cough medications: [https://www.vietnammedicalpractice.com/hcmc/en/news/nagging-cough-dr-jonathan-halevy](https://www.vietnammedicalpractice.com/hcmc/en/news/nagging-cough-dr-jonathan-halevy)
 			- Fexofenadine: 2nd gen. antihistamine (non-drowsy) for antiallergy.
 			- Bromhexine: a mucolytic to thin the mucus.
 		- [5 Families](https://en.wikipedia.org/wiki/Five_Tath%C4%81gatas#Main_aspects_of_the_Five_Families): 5 aggregates, 5 buddhas, 5 directions, 5 dynamic derivatives $mx, ∂_x m, m\ddot x = F, m\dot x = p, m\ddot x = c^2 ∂_x^2m$
+		  id:: 684c2ee0-1029-4df9-9fbb-40a6f8c2fcc8
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_23@07-04-2024_21-19-24.jpg){:width 300}
 				- ((6835b165-8a07-4156-9440-a4536b5c8be3))
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
