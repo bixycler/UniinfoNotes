@@ -108,8 +108,9 @@
 		- A simple guide to cough medications: [https://www.vietnammedicalpractice.com/hcmc/en/news/nagging-cough-dr-jonathan-halevy](https://www.vietnammedicalpractice.com/hcmc/en/news/nagging-cough-dr-jonathan-halevy)
 			- Fexofenadine: 2nd gen. antihistamine (non-drowsy) for antiallergy.
 			- Bromhexine: a mucolytic to thin the mucus.
-		- 5-tupples: 5 aggregates, 5 buddhas, 5 directions, 5 dynamic derivatives $x, ∂m/dx, \ddot x, \dot x$
+		- 5-tupples: 5 aggregates, 5 buddhas, 5 directions, 5 dynamic derivatives $mx, ∂m/∂x, m\ddot x = F, m\dot x = p$
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_23@07-04-2024_21-19-24.jpg){:width 300}
+				- ((6835b165-8a07-4156-9440-a4536b5c8be3))
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_25@07-04-2024_21-19-24.jpg){:width 300}
 		- The Sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent

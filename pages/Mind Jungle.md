@@ -1230,7 +1230,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Diagram
 					  id:: 67b183f5-dba7-4a11-8a72-3c619e3709ea
 						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=800)
+						  id:: 6835b165-8a07-4156-9440-a4536b5c8be3
 					- SCIFER with subtract - divide - add - multiply, and exp-log spiral
+					  id:: 6835b165-5071-423a-a17b-80eb9b6278ef
 						- subject-object (nāmarūpa) $(c, i)$
 						  → sensation ⟪ $c_k - i = c_{k+1}$ ⟫ 
 						  → conception ⟪ $c/i = e$ ⟫ 
