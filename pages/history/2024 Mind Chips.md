@@ -175,6 +175,125 @@
 				- attension = effect of meta (inner) nodes = affect of object nodes
 	- 2024-05-11
 		- Quyết toán thuế TNCN 2023
-		- **[FILE]**: [02_QTT_TNCN_TT80_2023-LeXuanDinh-8040166197.xls](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/02_QTT_TNCN_TT80_2023-LeXuanDinh-8040166197.xls)
-		- **[FILE]**: [quyettoan2023.txt](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/quyettoan2023.txt)
+		- **[FILE]**: [02_QTT_TNCN_TT80_2023-LeXuanDinh-8040166197.xls](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/02_QTT_TNCN_TT80_2023-LeXuanDinh-8040166197.xls)
+		- **[FILE]**: [quyettoan2023.txt](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/quyettoan2023.txt)
+	- 2024-05-12
+		- Vacancy = vacuum = zero = 0 = -1 + 1 = all directions cancel out (as wave) = all circles crossing out (as particles) = no content in this dimension = any amount m of content in orthogonal dimension = scalar m (mass, energy)
+			- 3 levels of equal: momentum conservation (closed loop, sum arrows = 0) < energy conservation (closed const length loop, sum lengths = 1) < optimal entropy/action (full/round/perfect circle, dfx = fdx)
+				- ![Levels of The Equal](https://docs.google.com/drawings/d/e/2PACX-1vSq7a2ckZzk4wPzzdQ8HrTpNlM07dFNWQjnEyNfHiDw7sykVW3gppll7pQKd8PGUe-j3IzYSPX7uDnd/pub?w=700)
+		- Classic mechanics (conservation of momentum + energy) = physic machine working at equilibrium (at max entropy) = uninet working with effect only (no affect) = Turing (automatic) machine = effect circuit is round/regular/full/uniform/perfect
+	- 2024-05-21
+		- obsidian://show-plugin?id=edit-history
+		  [https://github.com/antoniotejada/obsidian-edit-history](https://github.com/antoniotejada/obsidian-edit-history)
+	- 2024-05-24
+		- Note taking apps
+			- [https://tana.inc/](https://tana.inc/)
+			- [https://www.gitbook.com/](https://www.gitbook.com/)
+			- [https://joplinapp.org/](https://joplinapp.org/)
+			- [https://github.com/laurent22/joplin/](https://github.com/laurent22/joplin/)
+			- [https://github.com/athensresearch/athens](https://github.com/athensresearch/athens)
+			- [https://supernotes.app/alternatives/](https://supernotes.app/alternatives/)
+	- 2024-06-16
+		- 1. Add this warning to [WebRTC-samples](https://github.com/bixycler/WebRTC-samples) docs: don't load from local HTML file (without server)
+		- Reason: It is blocked by CORS! So the JS code to update iframe height is not invoked: observer.observe(pp.contentWindow.document.body;
+		  `Blocked a frame with origin "null" from accessing a cross-origin frame.`
+		- 2. Update [BeowulfBuildModDocs](https://github.com/quickom-lab/BeowulfBuildModDocs)
+		- Add debug & config info from `misc/branding.txt` and Chromium command from `misc/chrome_debug.webrtc.1.log` to `BuildingInstructions/BuildChromium.md`
+		  Cmd:
+		  
+		  ```
+		  C:\Users\Dinh\AppData\Local\Chromium\Application\chrome.exe --enable-chrome-browser-cloud-management --enable-logging --v=0 --vmodule="*/third_party/webrtc/pc/*=3" https://bixycler.github.io/WebRTC-samples/content/peerconnection/offer-answer/index.html
+		  ```
+	- 2024-07-23
+		- `work> git rebase project` for orthogonal [LOC] commits
+		- `git log --first-parent` for linear view, instead of `merge --squash`
+		  [https://stackoverflow.com/a/46750483/789095](https://stackoverflow.com/a/46750483/789095)
+	- 2024-09-25
+		- Obop: abstract, virtual, empty, extent
+		- world/object content is <project, view, mirror, reflect>ed into (extent, intent)
+			- (number) factoring: input (number) = content, output factors = extents => logarithm
+			- (number) expanding in base b: input (number) = content, output coefficients = extents, b^k = intent
+			- (number) expanding in continued fraction: input (number) = content, output quotients = extents, intermediate sustents = intents
+			- Fourier transform: input (wave) = content, output radii = extents, frequencies = intents
+			- uninet: (change) signal = content, action = extent, knowledge = intent
+		- Function to rela/transform: f(x) -> y => (f, x) -> (f, y) <=> f >> x ~ y
+			- Turing machine does have rela (state, input) -> (next state, output), but the state space is fixed
+			- fixed f or state space ~ infinity in thread/uninet
+			- info: lossy function => conservative rela
+		- Circle - Arrow - Equal
+			- nominal: 0 - 1 - 2(二)
+			- ordinal: 1st, 2nd, 3rd
+				- Discovered ordinal: 2nd - 1st - 3rd (how difficult to see); but placed into...
+				- Positional: -1 - +1 - 0
+			- extensional: 1 - 2 - ∞
+				- intensional: 1 - 1/2 - 0 (dot ⋅)
+				- dimensional: 2 - 1 - 0 (point ⋅)
+				- complex: 1 - i - 0
+		- philosophy & thread
+			- extensional (ordinal, nominal), observed, analytic, zooming in: 1 circle = 2 (many) arrows = ∞ points
+				- Circle = 1 = self = form
+				- Arrow = 2 = contents (yin & yang) = any plural number (3, 4, ...)
+				- Equal = ∞ = sensation; each point itself is a circle when zoom in...
+			- intensional (discovered, positional), generated, synthesis, zoning out: start from a point, extend to a line, loops back to form a circle; zoom out to a point, then start the next dimension, etc.
+				- Arrow = +1 = yang = object = the one in front of me to see directly = the outside = the numerator above
+				- Circle = -1 = yin = subject = the one behind the scene = the inside = the denominator below
+				- Equal = 0 = the Path (Dao) = the one in between = the ratio
+				- Relativity of yin & yang: it's opposite in the extensional view, circle = yang = true, just, correct, complete = the form outside <> arrow = yin = false, missed/mistake, wrong/error, incomplete = the content inside
+	- 2024-09-26
+		- 3 levels of equal (obop)
+			- 1. closed self content c0 (perception screen)
+			- 2. Constant ratio c0/i0 with the quantum intent i0
+			  -> 1 total content, many different forms
+			- 3. Uniform distribution of i_k in c_0
+			  *) all are measured by the extent
+			  **) the in-form is stable but not preserved: built up in learning & used up in working
+		- Crystallization of content to form
+			- round: symmetric crystal lattice
+			- compressed: Large amount (extent) -> 1 (content) = 1 -> dot (intent) at the apex of the view cone
+			- micro-defect (unround, unclosed) = size of intent = speed of being used up by carried contents
+		- Circle equation: r^2 = e^2 + i^2
+			- r^2 = size of r-complete graph = total energy
+			- e^2 = size of extent-complete graph = potential energy = spatial energy between particles
+			- i^2 = size of intent-complete graph = kinetic energy = temporal energy inside each particle
+			  + Phase vector * dt = diagonal vector of dxdy in original xy graph
+			  => Covering area = "length" of thread = energy
+	- 2024-09-29
+		- Levels of symmetry in CIE
+			- intent (subject) <=[extent (interface)]=> content (object)
+			- |intent| = |content| = |circle| = 1
+			  content/intent = extent <=[holographic]=> extent^-1 = intent/content
+			  => Complete graph => round
+	- 2024-10-06
+		- Space = place = stage = interface = .. boundary of the physical world 🌎 = the wall between material & mental world, between separate leaves and their common stem, between branches and their common base (origin, root)
+			- on the stage of interaction, we cannot see neither the source (cause) of the interaction nor the working of interaction itself. We can only see the separation till they touch, till they reunite.
+			- from the flat, round, smooth space of extent, i extend it into the spacetime by looking back inside: flat space > curved spacetime > wrinkled field > folded buddle/ball of thread... But it's too messy deep down there, no matter how many dimensions i use to spread it out.
+			  => i abandon the spacetime (concrete form) to return it to the perfect flat space (abstract form) as a stage, a platform only, excluding it's contents (performers). The content is now a thread through both that space and time to go deep into the intent.
+			  => The space now reduces to the simplest line segment [0..1], which is a container called "world" (previously i usually called it "form").
+			  => The extent is now the "form", the skin of the actor/performer on that stage, expressed as a dot (not point) in that segment, which itself is the container of the intent.
+			  => The intent is now the "body" of that actor which is the hidden content in that dot, which is another world, another space, in another dimension.
+			  => The content (uncountable) is the thread throughout all of them, from the external space/world, through the skin of extent to the internal world of intent. Meanwhile, the "contents" (countable) of a world are all the actors in that world, including both form ("skin" extent) and "flesh" intent. The abstract contents are only the forms "skins".
+			  => at the center of the space is the origin "0" which is the returning point for all actors in that world. The center of the intent body is the eye 👁️, the heart ❤️, the awareness of that body.
+		- 2-step development of the bodies inside a world: twist & fold
+			- twist = scissor = cut at the twisted point to produce 3 parts: the singularity (👁️, awareness) at the twisted point, 2 solitons (circles) cut from the source circle
+			- twisting upside down = open the original circular space to form the hyperbolic space between the 2 new circles => projectivity that expands the 1 to the infinity ♾️
+			- fold = neurulate = turning the singularity inside, from 1 mark on the circle into the center of the circle, from the eye to the heart & mind. This folding of the trilaminar embryo into the neutral tube is called "neurulation".
+			- when the eye reaches the center, the body has become a complete world itself, i.e. matured.
+			  => To reconnect to the root, just unfold inside out and untwist 😊
+			- both twisting & folding are rotations
+	- 2024-10-07
+		- Mass - energy - information = circle - arrow - equal
+			- the conservation laws of the 3 are just 1
+			- center G of circular distribution = center of mass: sum of all vectors OX_k to its dots X_k [k = 1..m] = mass m * vector OG
+				- in the view of O away form G, the close circle of thread is open by the vector m * OG
+				- m * OG = time vector = trace in memory = self reflection which puts the image of the subject's self forward to be an object = "add 1 more layer of meta" in the construction of n-simplex (n-complete graph): [https://www.facebook.com/share/p/tzLKKdqEUGq9zuSc/](https://www.facebook.com/share/p/tzLKKdqEUGq9zuSc/)
+			- complements: yin - yang = subject - object
+				- vector(yin) + vector(yang) = 0 = center of awareness = heart = mind
+				- amount(yin) + amount(yang) = 1 = capacity of memory; amount = length of thread = area of distribution
+				- length(vector(yin)) = length(vector(yang))
+				- exp(yin) = exp(yang) = term in Pascal's triangle
+			- round thread circle = uniform distribution ... amount(yin) = amount(yang) = max entropy = classical mechanics = max action
+			- circle thread of n segments:
+				- extent = n = n phases
+				- each segment has length of 1/n
+				- exp = n^n forms of that thread
 	- 2024
