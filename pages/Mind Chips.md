@@ -28,6 +28,93 @@
 	- 2025-01-13
 		- [Gate gate paragate](((6835b167-048c-499b-bede-8baff58e6e8e)))
 			- ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg){:width 200}
+	- 2025-01-18
+		- 🕉 Ōm‌m‌.
+			- om-thread = mạch ông /oŋ‌m˧˧/
+			  Oṃ /oɱ/
+			  ॐ = अ (a) + उ (u) + chandrabindu (ँ, ṃ).
+			  [https://en.wikipedia.org/wiki/Chandrabindu](https://en.wikipedia.org/wiki/Chandrabindu)
+			  [https://en.wiktionary.org/wiki/%E1%B9%83](https://en.wiktionary.org/wiki/%E1%B9%83)
+			  [https://en.wiktionary.org/wiki/%C9%B1](https://en.wiktionary.org/wiki/%C9%B1)
+			  Ohm = oheim = ông chú: [https://en.wiktionary.org/wiki/Ohm#German](https://en.wiktionary.org/wiki/Ohm#German)
+			  [https://www.rigpawiki.org/index.php?title=Pronunciation_of_Sanskrit_words](https://www.rigpawiki.org/index.php?title=Pronunciation_of_Sanskrit_words)
+			  > A dot on top of n equals the "ng"-sound in wrong. Examples are the word Saṅgha
+			  > A dot and a half-moon circle on top of m̐ also equals the "ng"-sound in wrong. Examples are the syllables om̐ and hūm̐. Although om̐ takes the m̐ it is nevertheless pronounced "om" rather than "ong". hūm̐ however is thus pronounced as the Tibetans would as "hung".
+	- 2025-01-31
+		- Chatbots' comments on my very brief summary of Uniinfo:
+			- [https://playground.allenai.org/thread/msg_U8T1P2S8W5](https://playground.allenai.org/thread/msg_U8T1P2S8W5)
+			- [https://chat.qwenlm.ai/c/69bd801e-31e4-40ba-9914-f79d8436a234](https://chat.qwenlm.ai/c/69bd801e-31e4-40ba-9914-f79d8436a234)
+			- [https://chat.deepseek.com/a/chat/s/7ae3b24f-57a4-4060-8365-d79c79bac3f3](https://chat.deepseek.com/a/chat/s/7ae3b24f-57a4-4060-8365-d79c79bac3f3)
+			- [https://gemini.google.com/app/a4e4e9aa2ed8f306](https://gemini.google.com/app/a4e4e9aa2ed8f306)
+			- [https://claude.ai/chat/7009c0e6-3330-48ee-bc57-9daaa02e041b](https://claude.ai/chat/7009c0e6-3330-48ee-bc57-9daaa02e041b)
+			- [https://mistral.ai/news/mistral-small-3/](https://mistral.ai/news/mistral-small-3/)
+			- [https://kimi.ai/chat/cufgq846toibu9n6i9kg](https://kimi.ai/chat/cufgq846toibu9n6i9kg)
+		- **[FILE]**: [Uniinfo Notes deep dive with brainstorms 4.wav](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Uniinfo%20Notes%20deep%20dive%20with%20brainstorms%204.wav)
+		- **[FILE]**: [Uniinfo podcast 4 transcription.srt.txt](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Uniinfo%20podcast%204%20transcription.srt.txt)
+		- Update notes: (done)
+			- uninet may be mistaken with the omnifold, as a grand network of the whole Universe, due to its name. It's actually a universal network, but just a reflection of the omnifold on computer, not the whole. (This confusion appeared in one NotebookLM's audio overview)
+				- Trinion (metaphysical) ~ Ω-thread (mathematical) ~ uninet (computer implementation)
+				- In the future, if there is a need for a theory of uninet, it may be called "Uninet Theory", but now we just have uninets as instances of the Trinion implemented on computer.
+			- Trinion, obop and qualiton are easily confused with each other.
+				- Obop being & qualiton being are, just like all beings, instances of the Trinion.
+				- Obop corresponds to the Equal component of the Trinion, and operates the Trinion using the CIE equation.
+				- Qualiton is to quantum in Unithread as intent is to extent in the CIE formula. It's the "elementary particle" of intent/quality, hence the "smallest" instances of the Trinion.
+				- In brief, Trinion -[Equal]-> obop -[intent]-> qualiton
+				- Furthermore, the qualiton in uninet is called "autonoton".
+			- Unïnfo can also capture the vague notion that "everything is information", which is _**not** a formal statement_ but can be sensed throughout the Unïnfo Theory.
+				- That vague notion of the "universal information underlying everything" is formally modeled as the Ω-thread, which is again usually vaguely referred to as the "Unithread"! 😊
+				- Formally, both Unïnfo and Unithread are the names of theories.
+				- Formal concepts are the Trinion and the Ω-thread.
+				- The whole Ω-thread is an instance of the Trinion, hence a **concrete thing**, i.e. a "being", but its partial chunks (segments called simply "threads") can represent anything, including the abstract concepts.
+				- Each Ω-thread runs through the whole Ω (Omnifold = Universe) in a particular way corresponding to a particular configuration of the Universe.
+	- 2025-02-02
+		- Triangle inequality, balance restoration, intent resolution:
+			- imbalance: c > i*e => driving force to restore balance
+				- The log(c/(i*e)) is the thickness of the self wall. At equilibrium, the wall resolves.
+			- balance: c = i*e, entropy max (reached limit resolution i0, round), action min (straight)
+			- dynamic balance: the limit resolution i0 is just a threshold sustent which is very far from the next step in the ladder of infinite sustents. It's just the intent of a very large self, with a very thin self wall.
+			- the law of the same content: all circles have the same content, their absolute crystallized content is 1, but their measured content (i*e) is always less than 1.
+		- **[FILE]**: [Unïnfo Notes full - overview 2025-02-02.wav](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Un%C3%AFnfo%20Notes%20full%20-%20overview%202025-02-02.wav)
+		- [https://youtu.be/FuhvgdXi-FI?si=niYFQFZNrbBzqLTd](https://youtu.be/FuhvgdXi-FI?si=niYFQFZNrbBzqLTd)
+	- 2025-02-03
+		- [https://www.thebrighterside.news/space/new-theory-unites-einsteins-theory-of-relativity-with-quantum-mechanics/](https://www.thebrighterside.news/space/new-theory-unites-einsteins-theory-of-relativity-with-quantum-mechanics/)
+		  postquantum theory of classical gravity:
+		  [https://www.nature.com/articles/s41467-023-43348-2](https://www.nature.com/articles/s41467-023-43348-2)
+		- **[FILE]**: [Unïnfo_Notes_Full_Overview_2025_02_02_en_US_transcription.srt](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Un%C3%AFnfo_Notes_Full_Overview_2025_02_02_en_US_transcription.srt)
+		- **[FILE]**: [Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Un%C3%AFnfo%20Notes%20Full%20-%20Overview%202025-02-02%20(en-US).srt)
+	- 2025-02-23
+		- 3 types of linearity: r = 0, repeat the same pattern, in nD space: n axises have the same distribution
+	- 2025-04-09
+		- How to grasp the zero, the emptiness, the null, the void?!
+		  3 marks reminding me to release
+			- 1. Tonight, i have a vision that the vacancy has no place, no position! (Anywhere = 3rd meaning of the zero)
+			- 2. Last experience of the dead state
+			- 3. Previous realization of time to shift from target aiming to restarting
+			  => Maybe this is the last thing i must release: the vision
+		- 3 meanings of zero:
+			- 1. ε, very small, thin air, for intent
+			- 2. ♎, balance, cancellation, for sustent
+			- 3. Any, every, arbitrary => possible, potential => universali{ty,st,sm}, "anyness" 😁 => 1, ω, all, Omnifold, for extent (ω) & content (1)
+			  "Anyness and Pure Form"** by Paul Carus:
+			  [https://www.jstor.org/stable/27900550?seq=2](https://www.jstor.org/stable/27900550?seq=2)
+		- Meaning 1 & 3 are parts of the view cone, whose point is formed by meaning 2.
+	- 2025-04-12
+		- Circle = soliton = singularity = pole = zero (root, origin, solution) = substantial point (intensity = 0/1) = substance = obop
+		- intent = abstracted part = projection ray = denominator = radial part (radius) of the eye (vs transversal part = extent = angle)
+		- in both (n+1)-dim homogeneous coordinates and polar coordinates, the depth r is the scaling factor which is abstracted by division in the screen (flat or circle)
+		- [https://youtu.be/iLkOBkWUDkM?si=tzya5zmGZCPjMwoq](https://youtu.be/iLkOBkWUDkM?si=tzya5zmGZCPjMwoq)
+		  [https://en.wikipedia.org/wiki/Argument_principle](https://en.wikipedia.org/wiki/Argument_principle)
+		  [https://en.wikipedia.org/wiki/Residue_(complex_analysis)](https://en.wikipedia.org/wiki/Residue_(complex_analysis))
+		  [https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra](https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra)
+		  [https://en.wikipedia.org/wiki/Cauchy%27s_integral_theorem](https://en.wikipedia.org/wiki/Cauchy%27s_integral_theorem)
+	- 2025-04-13
+		- The remaining nasal mucus has shown me the strong conflict between grounding in the body and doing external works
+			- at home, though warm & hot, the distractions still make me cough: sex, theory, communication, research, etc.
+			- other cases: last Friday caught up in the task, in days off for illness..., open-close eyes experiment in COVID-19 lockdown
+	- 2025-04-20
+		- [https://www.sciencealert.com/shocking-videos-show-snakes-really-do-swallow-their-own-tails](https://www.sciencealert.com/shocking-videos-show-snakes-really-do-swallow-their-own-tails)
+		- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_30@20-04-2025_18-44-18.jpg){:width 200}
+		- गते गते पारगते पारसंगते बोधि स्वाहा | Gate gate pāragate pārasaṃgate bodhi svāhā | Vượt qua, vượt qua, vượt qua bên kia, vượt qua hết bên kia, Giác Ngộ, ôi tuyệt vời!
 	- 2025
 	- ---
 	- 2025-06-01

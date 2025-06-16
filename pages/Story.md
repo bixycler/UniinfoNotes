@@ -2371,7 +2371,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ```
 				- ((684c040a-fbed-4c72-8ac4-e14e69f17b04))
 				- ((684c040a-7f5d-45df-a618-2a8ab9debd0e))
-				- [?] Why this is file cannot be displayed as an image: ((684c11b9-0036-46e7-8e43-9b8491303b4d))
 				- An interesting claim of view: ((684c18cd-55c5-43d2-8be4-f0eb7888ffbd))
 				- [imaginary unit i=√-1 derived from dynamics](((684c282f-07d0-4f39-b8b0-b7514ba1b135))) on ((684c282f-75e9-4c66-bc32-4e764aac6625))
 				- [Everything is address!](((684c2aab-9b41-486b-a758-6028725f4c13))) on ((684c2aab-13de-49da-8030-ca5a29f6931c))
@@ -2588,15 +2587,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-06-16 Mon 09:51:30]
 			  :END:
-				- [!] The folder `photos` shows "Folder is Emtpy" 😮 on Nautilus File Manager, while i can list them up normally on terminal, and its "properties" by Nautilus shows 46 items?!
-				  collapsed:: true
+				- [!] The folder `photos` shows "Folder is Emtpy" 😮 on Nautilus File Manager, while its "properties" by Nautilus shows 46 items?!
 				  :LOGBOOK:
 				  CLOCK: [2025-06-16 Mon 09:51:23]
 				  :END:
 					- ![EmptyFolder-with-46items-inProperties.png](../assets/Will/story/2025-06/EmptyFolder-with-46items-inProperties.png)
+					- 46 files can listed up normally on terminal.
+					- The same folder `photos` in `~/Downloads/Telegram Desktop/` does show images normally.
 				- [?] Some images are placed in folder `files` instead of `photos` and cannot be displayed on Logseq after copied!?
 					- Like this:
-					  **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
+						- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
 					- Just replace the space between the tag `[FILE]` and the link, then the image shows up!? 🤔
 						- like this:
 						  collapsed:: true
