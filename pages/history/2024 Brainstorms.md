@@ -212,11 +212,16 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- Album [Zoom into the edge of chaos](https://photos.app.goo.gl/33w9EPJsk5MsAcaG6) created by Android app [Mandelbrot Browser](https://play.google.com/store/apps/details?id=pl.y0.mandelbrotbrowser)
 			  collapsed:: true
 				- These images have the formulae for fractal & color embedded, hence can be imported to the app.
-				- From the straight line of black/white separation
-				  collapsed:: true
-					- ![MandelBrowser_250608_085307.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085307.jpg){:width 300}![MandelBrowser_250608_085246.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085246.jpg){:width 300}
-					- ![MandelBrowser_250608_085148.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085148.jpg){:width 300}![MandelBrowser_250608_083956.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_083956.jpg){:width 300}
-				- The [Oasis of Life](https://photos.app.goo.gl/kaSPwdiUNcqGecKx8)
+				- From the straight line of black/white separation to the complex factals
+					- ![MandelBrowser_250608_085307.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085307.jpg){:width 300} ![MandelBrowser_250608_085246.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085246.jpg){:width 300}
+					- ![MandelBrowser_250608_085148.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085148.jpg){:width 300} ![Oasis-of-Life.jpg](../assets/Will/story/2025-06/Oasis-of-Life.jpg){:width 300}
+					- ![MandelBrowser_250608_083956.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_084506.jpg){:width 300} ![MandelBrowser_250608_083932.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_083932.jpg){:width 300}
+				- The [Oasis of Life](https://photos.app.goo.gl/kaSPwdiUNcqGecKx8) is the most interesting image in this album.
+				  id:: 684fbc42-7348-4e76-9b02-573035f1b98c
+					- ![Oasis-of-Life.jpg](../assets/Will/story/2025-06/Oasis-of-Life.jpg)
+			- The [Oasis of Life](((684fbc42-7348-4e76-9b02-573035f1b98c)))
+			  collapsed:: true
+				-
 		- In the view of ((667bef22-b272-4a7d-b613-3f1ed1a47329)), the boundary condition determines the behavior in its enclosed volume.
 			- The ((6835b162-293f-4b8c-8be2-2dbe83b741ce)) shows the integral relation between the boundary and its enclosed volume in a linear conservative fields.
 			- ((6835b168-defe-49ff-8029-5b6afe346fbf))
