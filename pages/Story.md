@@ -2609,7 +2609,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  collapsed:: true
 							- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
 					- So that space is somehow cursed... by the invisible [`NBSP` from HTML](https://en.wikipedia.org/wiki/Non-breaking_space)!
-						- Cause: the
+						- Cause: The `NBSP` was inserted instead of the normal [space](https://en.wikipedia.org/wiki/Space_(punctuation)) because it was the last character in a `#text` node right before the `<a>` tag:
+						  ```html
+						  <b>[FILE]</b>": "<a href="file:///.../files/gate-gate.jpg">gate-gate.jpg</a>
+						  ```
+							- The `NBSP` keep the space from being trimmed due to its terminal position in the `#text` node.
 						- I just discover this special character with [Notepad++](https://en.wikipedia.org/wiki/Notepad%2B%2B)
 						  collapsed:: true
 							- ![NBSP-breaking-image-display.png](../assets/Will/story/2025-06/NBSP-breaking-image-display.png){:width 600}
