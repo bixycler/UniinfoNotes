@@ -2294,8 +2294,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- 2. Mình nói cái riêng của mình chẳng giống gì người ta nhưng phản lại kỳ vọng của người ta, như "tôi nói dối", "tôi không tốt như vẻ ngoài đâu", cũng làm người ta mất lòng.
 				- 3. Khi được hỏi mà mình ta lời "không biết" cũng làm người nghe mất lòng. Đây là trường hợp đặc biệt của số 2, vì người hỏi kỳ vọng phải nhận được câu trả lời.
 				- 3*. Trường hợp extreme của số 3 là khi đi phỏng vấn, người phỏng vấn hỏi mà ứng cử viên trả lời "không biết" cũng bị gọi là "láo!" 😜 Người khác coi câu trả lời đó là "trung thực" (tích cực), nhưng có những leader không thích sự trung thực đó, vì họ không quen và không thích bị cấp dưới từ chối. Đối với họ thì "không biết" là 1 dạng từ chối trả lời.
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- Export my saved messages from Telegram.
 		  id:: 683da38c-3d91-435c-99eb-0a88a36f4ba5
 		  collapsed:: true
@@ -2381,6 +2379,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((684c2e6e-3f8d-4ee8-9f69-bdb5f761c9ad)): ((684c2ee0-1029-4df9-9fbb-40a6f8c2fcc8))
 					- ((684c2e6e-f75f-4916-9f1c-4375d42d8604))
 				- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) on ((684f7978-d358-44ba-96de-a8fecd3c16e2)) & ((684f7978-f693-409c-93bf-de130a606023))
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
