@@ -2608,7 +2608,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- like this:
 						  collapsed:: true
 							- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
-					- So that space is somehow cursed!
+					- So that space is somehow cursed... by the invisible [`NBSP` from HTML](https://en.wikipedia.org/wiki/Non-breaking_space)!
+						- Cause: the
+						- I just discover this special character with [Notepad++](https://en.wikipedia.org/wiki/Notepad%2B%2B)
+						  collapsed:: true
+							- ![NBSP-breaking-image-display.png](../assets/Will/story/2025-06/NBSP-breaking-image-display.png){:width 600}
 			-
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
