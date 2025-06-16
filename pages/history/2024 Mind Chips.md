@@ -300,4 +300,49 @@
 				- extent = n = n phases
 				- each segment has length of 1/n
 				- exp = n^n forms of that thread
+	- 2024-10-09
+		- [https://udaysree.com/toppi-amma/](https://udaysree.com/toppi-amma/)
+		- Yogi Ramsuratkumar
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_28@09-10-2024_02-05-34.jpg){:width 300}
+	- 2024-10-14
+		- Winding projection of multidimensional space onto time axis + X = vector calculus
+			- X = addition rule between many spatial axes into one vector
+			- X = generalization of frequency = tan<dx,dt> = dx/dt = vector
+			- X = dimension shift: (x1, x2) -> (x0, x1) = (t, x) ... Try to use winding projection to shift dimensions down
+		- Project distribution of vector frequency along time down to space => spatial distribution: information (probability), energy, mass
+		  => SCIFER: frequency = extent, phase = remainder
+	- 2024-10-16
+		- Gift from Mr Hiệp
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_29@16-10-2024_23-30-17.jpg){:width 200}
+	- 2024-10-17
+		- [https://youtu.be/RCIz2hdJQy0?si=9m9e0veA7tctVQIa](https://youtu.be/RCIz2hdJQy0?si=9m9e0veA7tctVQIa)
+		  [https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator](https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator)
+	- 2024-10-21
+		- My wife's attachment to "relatives"
+		  --> my attachment to love:...
+	- 2024-10-26
+		- Straight/Linear number = amount => hyper-cube = dimensions by multiplication (intent * extent) = line winding projection = project/map y-axis to x-axis => real exp -> infinity
+		- Round/circular number = constant radius = dimensions by spring dynamic (vs spring length) => point alias "1 circle = 0" (vs 1 circle = 1) => quantum effect of projection around circle = triangle 📐 effect "|a + b| < |a| + |b|"
+	- 2024-10-28
+		- Condensity + alignment => subjective view: each step of intent jumps dx of content => extent = winding projection onto content axis
+			- the same with subjective view of content => extent = project onto intent axis
+			- both are radix numbers
+		- Objective view of i0=GCD(intent, content): each step of intent/content, both roles against each other a turn => sustent number (residue based) => parallel multi-body system
+			- i0 = angle between intent and content
+			- i0 = the intersection point = "pure" awareness = herenow = obop = qualiton = epsilon abstraction of all sustents into a point
+		- Residue base vs radix base = diagonal vs orthogonal
+	- 2024-10-30
+		- The basic illusion: static = dynamic of full circle (no matter how many turns) = returning to the same phase = no change visible
+			- this is the epsilon abstraction (1 -> 0), compression, dimension generation, 1 circle is divided & multiplied to many circles then intersect together to extend to exp space
+	- 2024-11-02
+		- Connection = awareness = point projection of object into a dot in subject's intent
+			- extent = reflection = subjective "size of the world" = objective "size of subject" = resolution of subject = 1(intent) / 0(common quantum)
+			  => Max total size of the world = extent^2
+			  => space of (possibilities, states, phases) = product of sustents (digits): intensional view i⋅e = extensional view e⋅i, just different order of digits
+		- Gossamer = current = content thread: delicate but solid, in contrast to the thin air = content space in the view of intent
+			- intent thread = condensed solid = atomic unit of time (intensity = inverse resolution in time)
+			- extent (non-thread) = empty space = empty time
+	- 2024-11-22
+		- casual sets: [https://en.wikipedia.org/wiki/Causal_sets](https://en.wikipedia.org/wiki/Causal_sets)
+		- Wolfram hypergraph of causality: [https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/](https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/)
 	- 2024
