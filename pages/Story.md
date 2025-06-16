@@ -2601,6 +2601,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2025-06-16 Mon 10:44:40]
 					  :END:
 				- [?] Some images are placed in folder `files` instead of `photos` and cannot be displayed on Logseq after copied!?
+				  collapsed:: true
 					- Like this:
 						- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
 					- Just replace the space between the tag `[FILE]` and the link, then the image shows up!? 🤔
