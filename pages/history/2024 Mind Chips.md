@@ -116,6 +116,7 @@
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_25@07-04-2024_21-19-24.jpg){:width 300}
 		- The Sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
+		  id:: 684c2e6e-f75f-4916-9f1c-4375d42d8604
 			- Etymology: from Latin "sustentus" past participle of "sustinēre"
 			- OED: "sustent" (archaic from 1664 to 67): That which sustains or supports.
 			- How it's sustained: it's sustained by it's own parts, i.e. the content sustains the intent and vice versa.
@@ -129,4 +130,51 @@
 			- Content ~ contentus <- contain ~ continēre
 			- Intent ~ intentus <- intend ~ intendere
 			- Extent ~ extentus <- extend ~ extendere
+	- 2024-04-15
+		- Will's lung inflammation images
+			- X ray: [http://qrpacs.bvndgiadinh.org.vn/m.QR/?token=iA6BXM9o4E9/u8hAAP6jdw](http://qrpacs.bvndgiadinh.org.vn/m.QR/?token=iA6BXM9o4E9/u8hAAP6jdw)
+			- CT: [http://qrpacs.bvndgiadinh.org.vn/m.QR/?token=NemTEws5Zx9q3PwxbJgH2Q](http://qrpacs.bvndgiadinh.org.vn/m.QR/?token=NemTEws5Zx9q3PwxbJgH2Q)
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_26@15-04-2024_19-20-10.jpg){:width 300}
+			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_27@15-04-2024_19-25-05.jpg){:width 300}
+	- 2024-04-28
+		- Tưởng (想, saññā, saṃjñā)
+			- Quá khứ: Hồi tưởng, tưởng nhớ (tưởng niệm)
+			- Không thật: Mơ tưởng (mộng tưởng), tưởng tượng, ảo tưởng, giả tưởng
+			- Tưởng tri (想知, sañjānana): tri tưởng (trong ngũ uẩn), ứng tưởng (quán tưởng) & bất ưng tưởng (ảo tưởng, vọng tưởng [妄想])
+				- \> Thắng tri (pariññā) > tuệ tri (pajānana), liễu tri (abhiññā), trí bát-nhã (paññā, prajñā, प्रज्ञा), siêu thức
+				- Siêu thức > ý thức > vô thức: Ohso's "superconsciousness", New Age's higher consciousness (higher self), Freud's super-ego, Universe, God > consciousness (conscious self), Freud's ego, human > unconsciousness (basic self), Freud's id, machine
+			- Tương lai: tư tưởng, suy tưởng, suy đoán, tiên tri
+	- 2024-05-05
+		- Bell's lung liquefaction (necrosis) CT: [http://qrpacs.bvndgiadinh.org.vn/m.QR?token=NemTEws5Zx9L4aGzHXshWQ](http://qrpacs.bvndgiadinh.org.vn/m.QR?token=NemTEws5Zx9L4aGzHXshWQ)
+	- 2024-05-06
+		- [https://masothue.com/0314709083-cong-ty-tnhh-hybrid-technologies-viet-nam](https://masothue.com/0314709083-cong-ty-tnhh-hybrid-technologies-viet-nam)
+	- 2024-05-07
+		- Bình Đẳng Tánh Trí (samatājñāna): Concrete Form = Content = constant
+			- Form's intent = intensive/crystallized/intensional form = abstract form = Concrete Form / extent = Content/extent
+			- Form's extent = extensive/covering/extensional form = concrete extension = Concrete Form * extent = Content*extent
+		- Concrete form = const => 2 ways to manage its components via plimus & interunion:
+			- 0. Tracking by abstraction: the trails contents combined = the circle of thread of the form
+			- 1. Plimus for circle: Form's circular thread is a FIFO queue, i.e. amount of new content tracked = amount of old content forgot
+			- 2. Interunion or onion layers: extent = b^n jumps between layers
+		- uninet = onion of circles of form (path) that are crystallized from history of contents/signals in the past, and now direct/constrain/process contents/signals in the present, and then adapt/adjust/learn from contents/signals in the future.
+			- For each node:
+				- Affect (activation) = effect of afferent signal = (Thọ) Cảm Hoạt (受/感活, activation, Spinoza's affect/情動) with the rule "bổ tính tương hợp": a node is activated only when all its afferent branches have signal.
+				- Effect (action) = effect of efferent signal = Hành (action) with the rule "đồng tính tương liên": effect distributed to efferent branches according to bandwidth (accumulated history) of these branches:
+				- effect_on_branch[i] = bandwidth_of_branch[i] * amount_in_node
+				- So, bandwidth of efferent branches are normalized to total sum = 1.
+				- (Rendered mental) image = concrete extension of form = the whole view cone from that node
+			- 3 circles: FIFO circle of form/memory, complementary circle of affect (world view), unit circle of effect (distribution of action)
+			- Turing machine = uninet with
+				- state graph (extensional) = cirefec = graph of forms/refs (intensional); state (stable/static/standing) = equilibrated effect circle; transition = equilibration
+				- I/O head = obop
+				- tape = sources and sinks of signal/content that cause effect circle to transform
+			- ANN = uninet with
+				- inputs = sources; expected outputs = sinks
+				- layers of neurons = layers of onion from outside in
+				- backpropagation ~ affect flow, is just a part of effect circle
+				- attension = effect of meta (inner) nodes = affect of object nodes
+	- 2024-05-11
+		- Quyết toán thuế TNCN 2023
+		- **[FILE]**: [02_QTT_TNCN_TT80_2023-LeXuanDinh-8040166197.xls](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/02_QTT_TNCN_TT80_2023-LeXuanDinh-8040166197.xls)
+		- **[FILE]**: [quyettoan2023.txt](file:///home/dinhlx/source/UniinfoNotes/assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/quyettoan2023.txt)
 	- 2024
