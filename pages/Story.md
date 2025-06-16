@@ -2585,7 +2585,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 13th, process & copy contents of [Telegram saved messages](((683da38c-3d91-435c-99eb-0a88a36f4ba5)))
 			- 14-15th, intended to have an LSD trip with Mr. Hiệp but he was busy & unready, so i took the oppoturnity to clean up system drive (C) for my bro.
 			- 16th, get back to finish the copy of Telegram saved messages...
-				- [!] The folder `photos`
+			  :LOGBOOK:
+			  CLOCK: [2025-06-16 Mon 09:51:30]
+			  :END:
+				- [!] The folder `photos` shows "Folder is Emtpy" on Nautilus File Manager, while i can list them up normally on terminal, and its "properties" by Nautilus shows 46 items?!
+				  :LOGBOOK:
+				  CLOCK: [2025-06-16 Mon 09:51:23]
+				  :END:
+					- ![EmptyFolder-with-46items-inProperties.png](../assets/Will/story/2025-06/EmptyFolder-with-46items-inProperties.png)
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
