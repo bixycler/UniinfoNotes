@@ -87,7 +87,7 @@
 			- Decoder: [https://zxing.org/w/decode.jspx](https://zxing.org/w/decode.jspx)
 			- Encoder (simple): [https://www.patrick-wied.at/static/qrgen/](https://www.patrick-wied.at/static/qrgen/)
 			- Designer (complex): [https://www.qrcodechimp.com/](https://www.qrcodechimp.com/)
-			- **[FILE]**: ![QR_Code-Quick_Response_Code.png](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/QR_Code-Quick_Response_Code.png)
+			- ![QR_Code-Quick_Response_Code.png](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/QR_Code-Quick_Response_Code.png)
 			  id:: 684c11b9-0036-46e7-8e43-9b8491303b4d
 	- 2021-10-15
 		- [https://mphimmoitv.com/phim-kung-fu-gau-truc-3-tap-full.8757.html](https://mphimmoitv.com/phim-kung-fu-gau-truc-3-tap-full.8757.html)

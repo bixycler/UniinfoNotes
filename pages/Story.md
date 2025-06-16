@@ -2594,8 +2594,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  CLOCK: [2025-06-16 Mon 09:51:23]
 				  :END:
 					- ![EmptyFolder-with-46items-inProperties.png](../assets/Will/story/2025-06/EmptyFolder-with-46items-inProperties.png)
-				- [?] Some images are placed in folder `files` instead of `photos` and cannot be displayed on Logseq!?
-					- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
+				- [?] Some images are placed in folder `files` instead of `photos` and cannot be displayed on Logseq after copied!?
+					- Like this:
+					  **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
+					- Just replace the space between the tag `[FILE]` and the link, then the image shows up!? 🤔
+						- like this:
+						  collapsed:: true
+							- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
+					- So that space is somehow cursed!
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
