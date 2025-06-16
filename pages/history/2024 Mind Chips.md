@@ -345,4 +345,5 @@
 	- 2024-11-22
 		- casual sets: [https://en.wikipedia.org/wiki/Causal_sets](https://en.wikipedia.org/wiki/Causal_sets)
 		- Wolfram hypergraph of causality: [https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/](https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/)
-	- 2024
+	- 2024-12-14
+		- Digital Math Interactives: [https://www.doenet.org/](https://www.doenet.org/)
