@@ -27,8 +27,11 @@
 				- the spade ♠️ at the end of the arm resembles the pointing hand 👆
 	- 2025-01-13
 		- [Gate gate paragate](((6835b167-048c-499b-bede-8baff58e6e8e)))
-			- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
+			- ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg){:width 200}
 	- 2025
+	- 2025-01-13
+		- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
+		- gate-gate: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
 	- ---
 	- 2025-06-01
 	  id:: 6841400e-d2c5-47ab-a838-7418a53a5b34
