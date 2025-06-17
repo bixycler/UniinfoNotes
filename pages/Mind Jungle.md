@@ -3071,7 +3071,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :END:
 						- Greed: The positive feelings (like, ease, happiness, etc.) *cannot get enough*, hence **lacking**, wanting, and greedy. Greed is the lack of positivity, hence negative (yin).
 						- Aversion: The negative feelings (dislike, unease, sadness, etc.) *cannot be avoided*, hence **excess** of sensation, stressed and aversive. Aversion is the excess of negativity, hence positive (yang).
-						- Delusion: The neutral feelings (balance, stable, etc.) create the notion that “this is **perfect**, this is permanent, this only is enough” which is *incorrect* due to [impermanence](https://en.wikipedia.org/wiki/Impermanence_(Buddhism)), hence illusion, delusion. Imersion in this neutral feeling create the core intent of self
+						- Delusion: The neutral feelings (balance, stable, etc.) create the notion that “this is **perfect**, this is permanent, this only is enough” which is *incorrect* due to [impermanence](https://en.wikipedia.org/wiki/Impermanence_(Buddhism)), hence illusion, delusion.
+							- Immersion in this neutral feeling creates the core **intent of self** to be attached to, including all notions of self, ego, and possession.
+							- The mismatch of this core self intent with reality generates the greedy intent of acquiring the positive feelings and aversive intent of avoiding negative feelings. That means delusion is the generator of both greed and aversion.
 					- 3 poisons in sex
 					  id:: 684fc240-0d53-47ac-a1ab-bcfb0a731cc0
 					  collapsed:: true
@@ -3094,6 +3096,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) [Three wholesome mental factors](https://en.wikipedia.org/wiki/Three_poisons#Opposite_wholesome_qualities)
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Opposite to ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 antidotes: generosity ([dāna](https://en.wikipedia.org/wiki/D%C4%81na) anti-greed, bố thí, bao dung, tri túc), loving-kindness ([mettā](https://en.wikipedia.org/wiki/Mett%C4%81) anti-aversion, từ bi, nhẫn nhục, thiền định), wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism) anti-delusion, trí tuệ, thiền quán).
 			- ### 3 practices
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 practices: .
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
