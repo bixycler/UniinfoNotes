@@ -3083,6 +3083,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- 3 wholesome roots
 				  id:: 68392b40-7afb-4c60-af0a-07abfbcea926
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68392a1f-6685-4d0f-9de8-4ae42964e249))
+			- 3 practices
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
