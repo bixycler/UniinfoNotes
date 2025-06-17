@@ -3097,14 +3097,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Opposite to ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 antidotes: generosity ([dāna](https://en.wikipedia.org/wiki/D%C4%81na) anti-greed, bố thí, bao dung, tri túc), loving-kindness ([mettā](https://en.wikipedia.org/wiki/Mett%C4%81) anti-aversion, từ bi, nhẫn nhục, thiền định), wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism) anti-delusion, trí tuệ, thiền quán).
 			- ### 3 practices
 			  id:: 6850c7e4-0969-45b7-9ca8-e2c1d764effe
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 practices:. The karmic pleasures will be replaced by the new rewards of the these practices.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 practices: reset, breathwork, and meditation. The karmic pleasures will be replaced by the new rewards of the these practices.
 					- Ani-greed
-						- Reset to break the “goal reaching” pattern and to put the attractive target (intent) aside.
-						- Retract to the belly to be full, stable, so not to be sucked into the black hole of greed.
+						- **Reset** to break the “goal reaching” pattern and to put the attractive target (intent) aside.
+						- **Retract to the belly** to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
 					- Anti-aversion
-						- Use breathwork to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
+						- Use **breathwork** to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
 					- Anti-delusion
-						- Watch out the 3 poisons, comtemplate their effects, observe the reality, .
+						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion. This is a kind of vipassana meditation.
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
