@@ -1859,6 +1859,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
 			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
+					- Diagram
+					  collapsed:: true
+						- ![](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278)
+					- intent-ation double cone is just body-limited part of the double cone of cause-effect
 		- ### actor
 		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
@@ -3861,7 +3867,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- cognition
 		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) sự nhận thức
-			- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960)
+			- Diagram
+				- ![Viewcones around Conscious Circles](https://docs.google.com/drawings/d/1h0su4VoxKa65qDatsEnPr4sDQg1HXRPKNvlgt36F0GU/pub?w=960)
 			- ### perceptual screen
 			  id:: 66ea4711-1392-4f5c-bea2-badc71a2fb9e
 			  :LOGBOOK:
