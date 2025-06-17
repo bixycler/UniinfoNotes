@@ -1296,13 +1296,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Operating mechanism: integration over time
 							- Universe: spatial distribution = distribution of point masses = energy field = wave field
 						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-							- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
-							  collapsed:: true
-								- Diagram
-								  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
-								  collapsed:: true
-									- ![](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278)
-								- id:: 68514ee2-15c2-4701-af06-fdf7117ab301
+							- ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around.
 						- Pyramid of Dynamics
 						  id:: 67bd787d-4b28-42a0-a7b6-ba4bd60e5523
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67baf139-aa0c-436e-9e21-983323833c71))
@@ -1906,9 +1900,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  + Both forces are to restore the balance
 				  ```
 				- A special case of this equation is the [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) in General Realativity.
-		- intent-action double cone
+		- ### cause-effect double cone
+		  id:: 6851578b-9b1f-4367-878f-79b0b0b9be51
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
+				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
+					- Diagram
+					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
+					  collapsed:: true
+						- ![](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278)
+				-
+		- ### intent-action double cone
 		  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) intent-ation double cone is just body-limited part of the double cone of cause-effect or view-light.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the body-limited part of the double cone of cause-effect or view-light.
 		- Mutual exclusiveness
 		  "thấy không làm, làm không thấy"
 		  "eyes no hands, hands no eyes"
