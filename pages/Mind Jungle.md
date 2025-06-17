@@ -151,10 +151,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Chatbot
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((684176d5-ba02-4cf5-ba62-606cc461d2d8))
-			- [Grok](https://grok.com/)
+			- Grok
 			  :LOGBOOK:
 			  CLOCK: [2025-04-18 Fri 10:32:07]
 			  :END:
+			  [grok.com](https://grok.com/)
 				- This chatbot by xAI is the most **math & logic proficient** model. Its logical thinking is about the level of university, while others are just about high school, and some are just about elementary school.
 				  id:: 6801c7b9-2390-4a31-a57c-70ac3aed4947
 					- Grok-3 was the first model that [can describe the spacetime distribution in the language of density](((67f4eae8-b7f3-44af-b6fe-61591204f245))).
@@ -190,57 +191,69 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- first time, it fabricated the whole "under construction page" with its imagination;
 						- second time, even when the (new) feature of `Settings` > `Behavior` > `Read Webpage Content of Pasted URLs` is turned on, it fabicated another page with severed content... in markdown in stead of HTML! This content snippet seems to be recalled from the first conversation where i gave it the full content of `index.html`.
 				- Open source: [Grok-1](https://github.com/xai-org/grok-1), Grok-2 was [said to be opened](https://www.analyticsvidhya.com/blog/2025/02/hands-on-grok-2-model/) but not yet, and maybe Grok-3...
-			- [Llama](https://www.llama.com/) @ [MetaAI](https://www.meta.ai/)
+			- Llama @ MetaAI
 			  :LOGBOOK:
 			  CLOCK: [2025-04-18 Fri 10:57:28]
 			  :END:
+			  [llama.com](https://www.llama.com/) & [meta.ai](https://www.meta.ai/)
 				- Open source: [github.com/meta-llama](https://github.com/meta-llama)
-			- [NotebookLM](https://notebooklm.google.com/)
+			- NotebookLM
 			  id:: 67a5faeb-c506-42b8-b989-9a7179fe02b3
+			  [notebooklm.google.com](https://notebooklm.google.com/)
 				- It's designed for digesting a lot of documents.
 				- ((67a73250-60f2-485c-b9d1-fc43ad993282))
 				  id:: 67a71016-9fe4-4b8a-bc23-74f1a5ae7c1e
 				- ((67a73295-e7ff-445f-831f-df6e79d750dc))
 				- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
-			- [Claude AI](https://claude.ai/)
+			- Claude AI
+			  [claude.ai](https://claude.ai/)
 				- It's designed for **in-depth research** with **documents**, but without Web search.
 				- It's free plan has rather limited number of messages every 4 hours.
 				- The chat history for each topic is **unlimited** and can be [CoT prompted](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-of-thought)
-			- [Perplexity AI](https://www.perplexity.ai/)
+			- Perplexity AI
+			  [perplexity.ai](https://www.perplexity.ai/)
 				- It's designed for **in-depth research** with **Web** search & **documents**.
 					- It always searches on Web first before answering. This search is excessive for normal discussions.
 				- AI models: Perplexity in-house model (default, free), and Pro models: DeepSeek R1, GPT o3-mini, (previously Claude)
 				- It's free plan has limit of 5 follow-up questions every 4 hours.
-			- [Copilot](https://copilot.microsoft.com/)
+			- Copilot
 			  id:: 67a71016-4588-4b2f-8c56-90701528d94d
 			  :LOGBOOK:
 			  CLOCK: [2025-02-07 Fri 20:31:07]--[2025-02-07 Fri 20:31:09] =>  00:00:02
 			  :END:
+			  [copilot.microsoft.com](https://copilot.microsoft.com/)
 				- Features: **Web** search, read **documents** and **images**, and the new feature "Think Deeper" in response to [DeepSeek's DeepThink](((67a60696-7991-4817-bf76-795fa9236d95))).
 				- The chat history for each topic is **unlimited**, but whether it can recall memory is not clear.
-			- [GitHub Copilot](https://github.com/features/copilot)
+			- GitHub Copilot
+			  id:: 68512d0a-e273-4cb5-8365-834c5c811d7d
+			  [github.com/features/copilot](https://github.com/features/copilot)
 			  on GitHub site and in VS Code
 				- Features: Code analysis, suggesion, mass edit, with context (may include a full **codebase**) **manually** attached each time prompting.
 				- Issue: The typical **hallucination** is still there, despite the accuracy of codes!
 				- Code suggestion (completion) is nice for small codebase and simple context.
-			- [DeepSeek](https://chat.deepseek.com)
+			- DeepSeek
 			  id:: 67a6068e-65d3-44c2-8f1c-b4d532046638
+			  [chat.deepseek.com](https://chat.deepseek.com)
 				- CoT view (DeepThink) is a pioneer feature. This show details of its [chain of thought](https://www.ibm.com/think/topics/chain-of-thoughts) for verification of the reasoning process.
 				  id:: 67a60696-7991-4817-bf76-795fa9236d95
 				- Other features: Web search, read documents and images.
 				- DeepSeek is open sourced by Chinese.
 				- The number of chat messages for each topic is limited.
 				- The server is sometimes busy.
-			- [Qwen LM](https://chat.qwenlm.ai/)
+			- Qwen LM
+			  [chat.qwenlm.ai](https://chat.qwenlm.ai/)
 				- Features: Web search, read documents and images in various formats, generate images and videos.
 				- Qwen is open sourced by Chinese Alibaba.
-			- [Gemini App](https://gemini.google.com/app)
+			- Gemini App
+			  [gemini.google.com/app](https://gemini.google.com/app)
 				- The latest model Gemini 2.0 Flash Thinking (Experimental) with Apps has added a CoT view and searches (Web, YouTube, Maps) like [DeepSeek](((67a6068e-65d3-44c2-8f1c-b4d532046638))).
 				- However it still cannot read documents.
-			- [Kimi AI](https://kimi.ai/)
+			- Kimi AI
+			  [kimi.ai](https://kimi.ai/)
 				- Features: Web search, read documents and images in various formats.
 				- However current login is limited to Chinese phone numbers.
-			- [Tülu](https://playground.allenai.org/)
+			- Tülu
+			  [playground.allenai.org](https://playground.allenai.org/)
 				- Features: only text chat.
 				- Tülu is open sourced.
 	- ## Linux
@@ -4580,6 +4593,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 671504da-2c66-46e4-af83-f99b9f488d6d
 				- This will deploy a website using an action defined by `.github/workflows/$custom_publish_action.yml`, e.g.  Logseq's [publish-SPA](https://github.com/logseq/publish-spa) action.
 		- ### GitHub Copilot
+		  Chatbot: ((68512d0a-e273-4cb5-8365-834c5c811d7d))
 			- The free plan has limits on number of code suggestions and chat messages.
 			  collapsed:: true
 				- They increases gradually: (2k suggestions + 50 messages)/month → (4k suggestions + 500 messages)/month → ...
