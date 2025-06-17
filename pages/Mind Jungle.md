@@ -3069,9 +3069,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :LOGBOOK:
 					  CLOCK: [2025-06-17 Tue 09:06:45]
 					  :END:
-						- Greed: The positive feelings (like, ease, happiness, etc.) cannot get enough, hence **lacking**, wanting, and greedy.
-						- Aversion: The negative feelings (dislike, unease, sadness, etc.) cannot be avoided, hence excess of sensation, stressed and aversive.
-						- Delusion: The neutral feelings (balance, stable, etc.) cannot be kept forever, hence
+						- Greed: The positive feelings (like, ease, happiness, etc.) cannot get enough, hence **lacking**, wanting, and greedy. Greed is the lack of positivity, hence negative (yin).
+						- Aversion: The negative feelings (dislike, unease, sadness, etc.) cannot be avoided, hence **excess** of sensation, stressed and aversive. Aversion is the excess of negativity, hence positive (yang).
+						- Delusion: The neutral feelings (balance, stable, etc.)  . However, in fact, such neutrality cannot be kept forever, due to [impermanence](https://en.wikipedia.org/wiki/Impermanence_(Buddhism)), hence
 					- 3 poisons in sex
 					  id:: 684fc240-0d53-47ac-a1ab-bcfb0a731cc0
 					  collapsed:: true
