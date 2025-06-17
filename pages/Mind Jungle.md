@@ -217,8 +217,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-02-07 Fri 20:31:07]--[2025-02-07 Fri 20:31:09] =>  00:00:02
 			  :END:
 				- Features: **Web** search, read **documents** and **images**, and the new feature "Think Deeper" in response to [DeepSeek's DeepThink](((67a60696-7991-4817-bf76-795fa9236d95))).
-				- The chat history for each topic is **unlimited**.
-				- ((67a71016-d530-4b48-bfcc-495d72b0bf86))
+				- The chat history for each topic is **unlimited**, but whether it can recall memory is not clear.
+			- [GitHub Copilot](https://github.com/features/copilot)
+			  on GitHub site and in VS Code
+				- Features: Code analysis, suggesion, mass edit, with context (may include a full **codebase**) **manually** attached each time prompting.
+				- Issue: The typical **hallucination** is still there, despite the accuracy of codes!
+				- Code suggestion (completion) is nice for small codebase and simple context.
 			- [DeepSeek](https://chat.deepseek.com)
 			  id:: 67a6068e-65d3-44c2-8f1c-b4d532046638
 				- CoT view (DeepThink) is a pioneer feature. This show details of its [chain of thought](https://www.ibm.com/think/topics/chain-of-thoughts) for verification of the reasoning process.
