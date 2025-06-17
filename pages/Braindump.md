@@ -750,7 +750,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- There are some confusions about the terms “action cone”, “intent cone” and “effect cone”.
 			- ((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))
-			- ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
+			- ((6847e436-9a84-42c5-a853-75f6d626ed63))
 		- ...
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f

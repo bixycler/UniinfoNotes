@@ -1465,7 +1465,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- perspective
 			  id:: 667259a0-aa2e-49fa-bcbd-b3768a9f30b2
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
-			- cone of cause
+			- cause cone
 			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is projected to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the image. The direction of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is from base to apex, in opposite to the direction of viewing from apex to base.
@@ -1848,16 +1848,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- light cone
 		  id:: 667bd931-8759-4008-8a9a-33e78a5cbdf3
 		  collapsed:: true
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bd93a-cce4-4dbf-9831-725e4dffe463)), ((6847e436-9a84-42c5-a853-75f6d626ed63))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bd93a-cce4-4dbf-9831-725e4dffe463))
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
-			- cone of effect
+			- effect cone
 			  id:: 667bd93a-cce4-4dbf-9831-725e4dffe463
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
-			- cone of action
-			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- The future [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667bd931-8759-4008-8a9a-33e78a5cbdf3)).
+			- ### action cone
+			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
 		- ### actor
 		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
