@@ -746,15 +746,19 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-06-17 Tue 10:38:45]
 		  :END:
-	- ## Braindumping < ((683d5508-34cd-477f-b0f6-3102155863bb))
-	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- DOING There are some confusions about the terms “action cone”, “intent cone” and “effect cone”.
+		- There are some confusions about the terms “action cone”, “intent cone” and “effect cone” that need revision.
+		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-06-17 Tue 18:32:23]
+		  CLOCK: [2025-06-17 Tue 18:32:23]--[2025-06-17 Tue 19:27:56] =>  00:55:33
 		  :END:
-			- Revise ((6847e436-9a84-42c5-a853-75f6d626ed63)) with the ((68514e8a-899e-4ae3-9164-44058cf139fa)) from Sep 2024.
+			- DONE Revised ((6847e436-9a84-42c5-a853-75f6d626ed63)), ((6851578b-9b1f-4367-878f-79b0b0b9be51)) with the ((68514e8a-899e-4ae3-9164-44058cf139fa)) from Sep 2024.
+			  :LOGBOOK:
+			  CLOCK: [2025-06-17 Tue 19:28:42]--[2025-06-17 Tue 19:28:43] =>  00:00:01
+			  :END:
 			- ((684f9517-b417-47da-ab50-38f625511e9d))
 			- ((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))
+	- ## Braindumping < ((683d5508-34cd-477f-b0f6-3102155863bb))
+	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
