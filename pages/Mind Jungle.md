@@ -1283,7 +1283,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)).
 							- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
-								- The circle is composed of 2 arrows: [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d)))
+								- The circle is composed of 2 arrows, [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d))), hence just the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around.
 							- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
 							  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
 								- This is the characteristic of waves, plants, networks.
@@ -1294,9 +1294,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 684f9517-b417-47da-ab50-38f625511e9d
 								- This is the characteristic of particles, animals.
 								- Operating mechanism: integration over time
+								- ((6847e436-9a84-42c5-a853-75f6d626ed63)): The motion of the particle is action, thus the action cone includes force → momentum, and its effect is the position.
 							- Universe: spatial distribution = distribution of point masses = energy field = wave field
 						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-							- ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around.
+							-
 						- Pyramid of Dynamics
 						  id:: 67bd787d-4b28-42a0-a7b6-ba4bd60e5523
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67baf139-aa0c-436e-9e21-983323833c71))
@@ -1861,7 +1862,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ### action cone
 			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
 			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The cone shape is caused by the [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))) of the body which make the action of the central operator spread out to peripherals.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The cone shape is caused by the [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))) of the body which makes the action of the central operator spread out to peripherals.
 		- ### actor
 		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
