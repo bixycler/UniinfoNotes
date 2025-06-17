@@ -11,13 +11,6 @@
 			- This symmetry is the nature of the interunion operation: (x, y) -> (x', y') has 2 families of cones: mixing cones (x, y) -> x'; (x, y) -> y'; and unmixing cones x -> (x', y'); y -> (x', y').
 			- This is the nature of complete graph (all to 1, 1 to all), of spreading wave (Huygens principle)
 			- The Fourier Transform also has 2 ways with the same integral form.
-- Balance way
-	- Watch out the 3 poisons, and apply my antidotes:
-		- Reset to break the “goal reaching” pattern and to put the attractive target (intent) aside.
-		- Retract to the belly to be full, stable, so not to be sucked into the black hole of greed.
-		- Use breathwork to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
-		- Watch out the 3 poisons to avoid delusion.
-		- The karmic pleasure will be replaced by the new reward of the new practice.
 - ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c

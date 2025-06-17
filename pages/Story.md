@@ -2617,7 +2617,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- I just discover this special character with [Notepad++](https://en.wikipedia.org/wiki/Notepad%2B%2B)
 						  collapsed:: true
 							- ![NBSP-breaking-image-display.png](../assets/Will/story/2025-06/NBSP-breaking-image-display.png){:width 600}
-				- On the way home, i recognized the strong urge to follow the unmixing of projective threads, from the object thread in work to the meta thread of Unithread, then i breathe out to release them.
+				- On the way home, i recognized the strong urge to follow the unmixing of projective threads, from the object thread in work to the meta thread of Unithread, then i breathe out to release them. Recognizing the 3 poisons, i applied my ((6850c7e4-0969-45b7-9ca8-e2c1d764effe)).
 			- 17th, ...
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
