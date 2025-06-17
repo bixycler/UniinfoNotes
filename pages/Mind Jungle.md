@@ -1283,11 +1283,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)).
 							- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
+							- The circle is composed of 2 arrows: [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [intent cone](((684f9517-b417-47da-ab50-38f625511e9d)))
 						- View cone: spatial distribution → density → curvature
+						  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
 							- This is the characteristic of waves, plants, networks.
 							- Observing mechanism: differentiation in space
 						- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)) is the [wave equation](https://en.wikipedia.org/wiki/Wave_equation) established based on the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
-						- Action cone: force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
+						- Intent cone: force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
+						  id:: 684f9517-b417-47da-ab50-38f625511e9d
 							- This is the characteristic of particles, animals.
 							- Operating mechanism: integration over time
 						- Universe: spatial distribution = distribution of point masses = energy field = wave field
