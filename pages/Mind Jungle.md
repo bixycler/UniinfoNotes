@@ -1458,6 +1458,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6672513b-c4b0-4c88-8b30-c60a3c6555a7
 		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed)), ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), ((667bda02-8dc9-488e-ba16-ea75c3d7895c)), ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
 			- viewcone
 			  id:: 667251ec-d4f7-4c09-adff-73e04a4b22ed
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
@@ -1848,6 +1849,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 667bd931-8759-4008-8a9a-33e78a5cbdf3
 		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bd93a-cce4-4dbf-9831-725e4dffe463)), ((6847e436-9a84-42c5-a853-75f6d626ed63))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 			- cone of effect
 			  id:: 667bd93a-cce4-4dbf-9831-725e4dffe463
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bd931-8759-4008-8a9a-33e78a5cbdf3))
