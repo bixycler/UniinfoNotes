@@ -205,6 +205,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 67a71016-9fe4-4b8a-bc23-74f1a5ae7c1e
 				- ((67a73295-e7ff-445f-831f-df6e79d750dc))
 				- The "deep dive conversation" **podcast** is very captivated, but lacking features to control its scripting.
+			- ChatGPT
+			  [chatgpt.com](https://chatgpt.com/)
+				- Features:
+				- Limitations: approximately 10 messages per 5-hour
 			- Claude AI
 			  [claude.ai](https://claude.ai/)
 				- It's designed for **in-depth research** with **documents**, but without Web search.
