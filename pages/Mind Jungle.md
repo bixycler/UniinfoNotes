@@ -229,7 +229,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  [github.com/features/copilot](https://github.com/features/copilot)
 			  on GitHub site and in VS Code
 				- Features: Code analysis, suggesion, mass edit, with context (may include a full **codebase**) **manually** attached each time prompting.
-				- Issue: The typical **hallucination** is still there, despite the accuracy of codes!
+				- Issues: The typical **hallucination** is still serious, despite the accuracy of codes!
+					- For a large codebase or notebase like UniinfoNotes, Copilot is completely useless!
 				- Code suggestion (completion) is nice for small codebase and simple context.
 			- DeepSeek
 			  id:: 67a6068e-65d3-44c2-8f1c-b4d532046638
