@@ -1284,12 +1284,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)).
 							- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
 							- The circle is composed of 2 arrows: [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [intent cone](((684f9517-b417-47da-ab50-38f625511e9d)))
-						- View cone: spatial distribution → density → curvature
+							- The is the [intent-action](((68514ee2-15c2-4701-af06-fdf7117ab301))) at around the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)).
+						- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
 						  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
 							- This is the characteristic of waves, plants, networks.
 							- Observing mechanism: differentiation in space
 						- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)) is the [wave equation](https://en.wikipedia.org/wiki/Wave_equation) established based on the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
-						- Intent cone: force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
+						- ((667bd93a-cce4-4dbf-9831-725e4dffe463)): force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
 						  id:: 684f9517-b417-47da-ab50-38f625511e9d
 							- This is the characteristic of particles, animals.
 							- Operating mechanism: integration over time
@@ -1866,6 +1867,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 						- ![](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278)
 					- intent-ation double cone is just body-limited part of the double cone of cause-effect or view-light.
+					  id:: 68514ee2-15c2-4701-af06-fdf7117ab301
 		- ### actor
 		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
