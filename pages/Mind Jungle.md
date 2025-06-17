@@ -3062,7 +3062,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 68392b10-f06b-4e84-b79d-8a44af03857a
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6839229d-9eff-49e4-9480-6e2db6f61127))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) [Three poisons](https://en.wikipedia.org/wiki/Three_poisons)
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Corresponding to ((68392a13-c350-4962-bd37-b819c8e1f931)), there are ((6839229d-9eff-49e4-9480-6e2db6f61127)) of greed (negative [rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism))), aversion (positive [dveṣa](https://en.wikipedia.org/wiki/Dvesha_(Buddhism))), and delusion (neutral [moha](https://en.wikipedia.org/wiki/Moha_(Buddhism))).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Corresponding to ((68392a13-c350-4962-bd37-b819c8e1f931)), there are ((6839229d-9eff-49e4-9480-6e2db6f61127)): greed (negative [rāga](https://en.wikipedia.org/wiki/Raga_(Buddhism)), tham), aversion (positive [dveṣa](https://en.wikipedia.org/wiki/Dvesha_(Buddhism)), sân), and delusion (neutral [moha](https://en.wikipedia.org/wiki/Moha_(Buddhism)), si).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- 3 poisons in sex
 					  id:: 684fc240-0d53-47ac-a1ab-bcfb0a731cc0
@@ -3083,6 +3083,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- 3 wholesome roots
 				  id:: 68392b40-7afb-4c60-af0a-07abfbcea926
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68392a1f-6685-4d0f-9de8-4ae42964e249))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) [Three wholesome mental factors](https://en.wikipedia.org/wiki/Three_poisons#Opposite_wholesome_qualities)
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Opposite to ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 antidotes: generosity ([dāna](https://en.wikipedia.org/wiki/D%C4%81na) anti-greed, bố thí, rộng lượng, tri túc), loving-kindness ([mettā](https://en.wikipedia.org/wiki/Mett%C4%81) anti-aversion, từ bi, nhẫn nhục, thiền định), wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism) anti-delusion, trí tuệ, thiền quán).
 			- ### 3 practices
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
