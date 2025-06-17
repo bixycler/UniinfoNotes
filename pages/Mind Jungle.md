@@ -1283,18 +1283,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)).
 							- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
-							- The circle is composed of 2 arrows: [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [intent cone](((684f9517-b417-47da-ab50-38f625511e9d)))
-							- The is the [intent-action](((68514ee2-15c2-4701-af06-fdf7117ab301))) at around the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)).
-						- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
-						  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
-							- This is the characteristic of waves, plants, networks.
-							- Observing mechanism: differentiation in space
-						- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)) is the [wave equation](https://en.wikipedia.org/wiki/Wave_equation) established based on the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
-						- ((667bd93a-cce4-4dbf-9831-725e4dffe463)): force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
-						  id:: 684f9517-b417-47da-ab50-38f625511e9d
-							- This is the characteristic of particles, animals.
-							- Operating mechanism: integration over time
-						- Universe: spatial distribution = distribution of point masses = energy field = wave field
+								- The circle is composed of 2 arrows: [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d)))
+							- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
+							  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
+								- This is the characteristic of waves, plants, networks.
+								- Observing mechanism: differentiation in space
+							- [Obop](((94e87dc9-71af-477c-aa70-0f448c2f1e20))) point: ((67b5c77d-c42c-4dc5-8d47-fd82f535177a)) is the [wave equation](https://en.wikipedia.org/wiki/Wave_equation) established based on the ((67bd3614-2520-4a5d-8b3f-44f60901844e)).
+								- This equation operates the body and express
+							- ((667bd93a-cce4-4dbf-9831-725e4dffe463)): force (mass acceleration) → momentum (mass velocity) → point mass (mass position)
+							  id:: 684f9517-b417-47da-ab50-38f625511e9d
+								- This is the characteristic of particles, animals.
+								- Operating mechanism: integration over time
+							- Universe: spatial distribution = distribution of point masses = energy field = wave field
+						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+							- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
+							  collapsed:: true
+								- Diagram
+								  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
+								  collapsed:: true
+									- ![](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278)
+								- id:: 68514ee2-15c2-4701-af06-fdf7117ab301
 						- Pyramid of Dynamics
 						  id:: 67bd787d-4b28-42a0-a7b6-ba4bd60e5523
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67baf139-aa0c-436e-9e21-983323833c71))
@@ -1860,14 +1868,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
 			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
-			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
-					- Diagram
-					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
-					  collapsed:: true
-						- ![](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278)
-					- intent-ation double cone is just body-limited part of the double cone of cause-effect or view-light.
-					  id:: 68514ee2-15c2-4701-af06-fdf7117ab301
 		- ### actor
 		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
@@ -1885,8 +1885,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66727388-ed2b-4f62-b8d7-ed70a0ad4ef3
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 		- ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((66723642-58f1-4a74-bba3-0108f14c6bac)), ((66727858-979d-4d95-8a90-7a749218cfba))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is the dual view of the 
-		  ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) including both inward effect flow ( ((66723642-58f1-4a74-bba3-0108f14c6bac)), observation) and outward effect flow (control, operation, ((66727858-979d-4d95-8a90-7a749218cfba))). The subject of a ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is called a ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is the dual view of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) including both inward effect flow ( ((66723642-58f1-4a74-bba3-0108f14c6bac)), observation) and outward effect flow (control, operation, ((66727858-979d-4d95-8a90-7a749218cfba))). The subject of a ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is called a ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- force = ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) 
 			  id:: 67b5c77d-c42c-4dc5-8d47-fd82f535177a
@@ -1907,6 +1906,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  + Both forces are to restore the balance
 				  ```
 				- A special case of this equation is the [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) in General Realativity.
+		- intent-action double cone
+		  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) intent-ation double cone is just body-limited part of the double cone of cause-effect or view-light.
 		- Mutual exclusiveness
 		  "thấy không làm, làm không thấy"
 		  "eyes no hands, hands no eyes"
