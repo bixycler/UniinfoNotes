@@ -40,8 +40,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  whole-word:: false
 		  filter::
 		  child-filter::
-		  search-scope:: Specific blocks: 
+		  search-scope:: Specific blocks:
 		  search-scope-page:: Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]], [[Mind Chips]], [[2024 Mind Chips]];
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-01 Tue 10:25:34]
 		  :END:
@@ -65,6 +66,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				- ((6835b165-b560-4358-9e46-c4511124c928))
 				- ((68366fff-92cf-41a7-ab2d-0c1f77d0effb))
 				- ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
+				- ((68392a13-c350-4962-bd37-b819c8e1f931))
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ...

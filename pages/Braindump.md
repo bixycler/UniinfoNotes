@@ -738,9 +738,16 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-06-02 Mon 20:14:17]
 		  :END:
+		- Started ((68392a13-c350-4962-bd37-b819c8e1f931)) from June 2nd... until June 17 can i give it a form.
+		  :LOGBOOK:
+		  CLOCK: [2025-06-17 Tue 10:32:33]
+		  :END:
+		- This month, the braindumps are sparse, because most of them are tracked in the story “[Everything's broken!](((68366fff-92cf-41a7-ab2d-0c1f77d0effb)))” from the end of last month.
+		  :LOGBOOK:
+		  CLOCK: [2025-06-17 Tue 10:38:45]
+		  :END:
 	- ## Braindumping < ((683d5508-34cd-477f-b0f6-3102155863bb))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Started ((68392a13-c350-4962-bd37-b819c8e1f931)) from June 2nd... and
 		- ...
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
