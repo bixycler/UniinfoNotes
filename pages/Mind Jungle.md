@@ -1861,7 +1861,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ### action cone
 			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
 			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The cone shape is caused by the [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))) of the body which make the action of the central operator spread out to peripherals.
 		- ### actor
 		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
@@ -1908,10 +1908,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
 					  collapsed:: true
 						- ![](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=278)
-				-
-		- ### intent-action double cone
-		  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the body-limited part of the double cone of cause-effect or view-light.
+			- intent-action double cone
+			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
 		- Mutual exclusiveness
 		  "thấy không làm, làm không thấy"
 		  "eyes no hands, hands no eyes"
