@@ -998,6 +998,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- In reverse, the scalar product of the direction vectors shows the correlation between them.
 								- The relativity is shown by the mutual distance, mutual angle, scalar product, mutual stretch in shearing, etc.
 							- All these threads are combined into a **compound thread** by synchronizing points, which are called [coincidences](https://en.wikipedia.org/wiki/Incidence_(geometry)), knots, contact points, etc.
+							  id:: 684f951a-1db2-4e43-9c5a-f4fbd27fe667
 							- When the compound thread is projected to different lines and curves (spaces in general), the images are projective threads showing different distributions of these quantities in different spaces.
 						- Around 2018, i used scalar product of vectors to map the projective thread.
 							- This creates the map with the angle/slope between quantities smaller than the slope of the graph $y = f(x)$: As the mapped angle varies from 0° to 90°, the slope of the corresponding graph varies from 45° to 90°.
@@ -2617,7 +2618,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- I just discover this special character with [Notepad++](https://en.wikipedia.org/wiki/Notepad%2B%2B)
 						  collapsed:: true
 							- ![NBSP-breaking-image-display.png](../assets/Will/story/2025-06/NBSP-breaking-image-display.png){:width 600}
-				- On the way home, i recognized the strong urge to follow the unmixing of projective threads, from the object thread in work to the meta thread of Unithread, then i breathe out to release them. Recognizing the 3 poisons, i applied my ((6850c7e4-0969-45b7-9ca8-e2c1d764effe)).
+				- On the way home, i recognized the strong urge to follow the [unmixing](((6850be86-058c-45b4-9b4a-de92ebb4caff))) of projective threads, from the object thread in work to the meta thread of Unithread, then i breathe out to release them. Recognizing the 3 poisons, i applied my ((6850c7e4-0969-45b7-9ca8-e2c1d764effe)).
 			- 17th, ...
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7

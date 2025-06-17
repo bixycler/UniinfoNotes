@@ -1,17 +1,4 @@
-- Unithread
-	- space: circle & view cone
-	- time: effect flow
-	- spacetime: mixed by interunion of effect circles
-	- unmixed by different intent circles:
-		- The mixed object's content is projected through different view cones to different images (extents) by different intent circles ⭕. All obops are watching the object in parallel with their different interests (intents).
-		- Pattern matching: The intent circle is the form to extract effect circle from the content, i.e. it is turned by the matched content.
-		- Analysis: The intent circle just hashes the content into its own distribution (connection & order).
-		- Organization: The intent sorts the content out into its knowledge cone.
-		- The mechanism of this unmixing is the same as the interunion, only reverse in direction of the effect flows: from the product back to intent circles
-			- This symmetry is the nature of the interunion operation: (x, y) -> (x', y') has 2 families of cones: mixing cones (x, y) -> x'; (x, y) -> y'; and unmixing cones x -> (x', y'); y -> (x', y').
-			- This is the nature of complete graph (all to 1, 1 to all), of spreading wave (Huygens principle)
-			- The Fourier Transform also has 2 ways with the same integral form.
-- ## Current Chips
+## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
   collapsed:: true

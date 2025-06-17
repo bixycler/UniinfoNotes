@@ -3048,11 +3048,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  > When referring to pulverization in a broad sense, “size reduction” is often used, and when it is used for transforming a solid into small pieces, “comminution” is often used.
 						- Chat GPT
 						  > Though "levigate" is not widely used, it's still technically correct, so if you like its specificity, it might be worth using, especially in a scientific or technical context.
-		- DOING 3 directions
+		- 3 directions
 		  id:: 68392a13-c350-4962-bd37-b819c8e1f931
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-06-02 Mon 14:34:06]
+		  CLOCK: [2025-06-02 Mon 14:34:06]--[2025-06-17 Tue 10:30:49] =>  355:56:43
 		  :END:
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68392a13-c350-4962-bd37-b819c8e1f931)) are {negative, positive, neutral} denoted by {-1/0, +1/0, 0/1}.
 			- ### 3 poisons

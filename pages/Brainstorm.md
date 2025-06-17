@@ -514,6 +514,24 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  vs
 				- "pole" & "holo-" form Greek "polos" & "holos"!
 				- Is there some relationship here?!
+		- [Compound thread](((684f951a-1db2-4e43-9c5a-f4fbd27fe667))) unmixed by different intent circles
+		  id:: 6850be86-058c-45b4-9b4a-de92ebb4caff
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-06-17 Tue 10:29:56]
+		  :END:
+			- Unithread
+				- space: circle & view cone
+				- time: effect flow
+				- spacetime: interunion of effect circles mixes projective threads into compound thread
+			- The mixed object's content is projected through different view cones to different images (extents) by different intent circles ⭕. All obops are watching the object in parallel with their different interests (intents).
+			- Pattern matching: The intent circle is the form to extract effect circle from the content, i.e. it is turned by the matched content.
+			- Analysis: The intent circle just hashes the content into its own distribution (connection & order).
+			- Organization: The intent sorts the content out into its knowledge cone.
+			- The mechanism of this unmixing is the same as the interunion, only reverse in direction of the effect flows: from the product back to intent circles
+				- This symmetry is the nature of the interunion operation: (x, y) -> (x', y') has 2 families of cones: mixing cones (x, y) -> x'; (x, y) -> y'; and unmixing cones x -> (x', y'); y -> (x', y').
+				- This is the nature of complete graph (all to 1, 1 to all), of spreading wave (Huygens principle)
+				- The Fourier Transform also has 2 ways with the same integral form.
 		- <<End 2025 Brainstorms>>
 		  ----------------------------
 	- ## Brainstorm History
