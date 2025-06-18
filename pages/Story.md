@@ -2380,7 +2380,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((684c2e6e-3f8d-4ee8-9f69-bdb5f761c9ad)): ((684c2ee0-1029-4df9-9fbb-40a6f8c2fcc8))
 					- ((684c2e6e-f75f-4916-9f1c-4375d42d8604))
 				- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) on ((684f7978-d358-44ba-96de-a8fecd3c16e2)) & ((684f7978-f693-409c-93bf-de130a606023))
-		- It's interesting that the root node of the whole theory, ((66537a41-f229-4891-803e-828573eb44f3)), shows to little “content”.
+		- It's interesting that the root node of the whole theory, ((66537a41-f229-4891-803e-828573eb44f3)), shows so little “content”.
 		  id:: 68523168-5f46-446a-984e-bec9f671f17e
 		  collapsed:: true
 		  :LOGBOOK:
@@ -2389,7 +2389,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Acutally, that little content is just its intension, because *the larger its extension, the smaller its intension is*.
 			- Its 1st level extent (number of 1st level extensions) is indicated by the number of **backlinks** on the top right corner.
 			- Its actual content is the ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) running through all of its extensions, not just its intension.
-			- ![Universal-Information-small-intension.png](../assets/Will/story/2025-06/Universal-Information-small-intension.png)
+			- Screenshot:
+			  ![Universal-Information-small-intension.png](../assets/Will/story/2025-06/Universal-Information-small-intension.png)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
