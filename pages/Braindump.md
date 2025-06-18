@@ -759,6 +759,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			- ((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))
 	- ## Braindumping < ((683d5508-34cd-477f-b0f6-3102155863bb))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
+		- DOING It's interesting that the root node of the whole theory, ((66537a41-f229-4891-803e-828573eb44f3)), shows to little content.
+		  :LOGBOOK:
+		  CLOCK: [2025-06-18 Wed 10:24:54]
+		  :END:
+			- Acutally, that little content is just its intension, because the larger its extension, the smaller its intension is.
+			- Its extent (ext)
+			- ![Universal-Information-small-intension.png](../assets/Will/story/2025-06/Universal-Information-small-intension.png)
 		- ...
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
