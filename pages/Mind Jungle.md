@@ -3739,19 +3739,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), a “thread” is the continuous line of ((6678288e-699b-4325-bdba-bf6349fe0d57)) running through its various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s by ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s among them. That means the “thread” in Unithread is just the static aspect of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)). The thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. [Threads are spun from light](((671b5598-42a8-421d-a942-3819be212d50))) just like yarns are spun from fibers.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), a “thread” is the continuous line of ((6678288e-699b-4325-bdba-bf6349fe0d57)) running through its various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s by ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s among them. That means the “thread” in Unithread is just the static aspect of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)), hence the ((68522d55-b6a4-4f70-853c-4335510de6f7)). The thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. [Threads are spun from light](((671b5598-42a8-421d-a942-3819be212d50))) just like yarns are spun from fibers.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [execution thread](https://en.wikipedia.org/wiki/Thread_(computing)), [conversation thread](https://en.wikipedia.org/wiki/Thread_(online_communication)), [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), [screw thread](https://en.wikipedia.org/wiki/Screw_thread), [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic))
 		  id:: 66b1cfa4-6ce7-447b-b637-30d86f0e748e
 		- Vietnamese: sợi, mạch
+		- thread of effect
+		  id:: 68522d55-b6a4-4f70-853c-4335510de6f7
+		  collapsed:: true
+		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))
+			- mạch tác lưu
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68522d55-b6a4-4f70-853c-4335510de6f7))
+			- 作流脈
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68522d55-b6a4-4f70-853c-4335510de6f7))
 		- ### Ω-thread
 		  id:: 66ab75a1-f4a0-4bab-a002-8e573546623a
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67a17ea8-2d20-45fa-9fe6-e998541aa3a5)), mạch ôông
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67a17ea8-2d20-45fa-9fe6-e998541aa3a5)), ((68522d55-b6a4-4f70-853c-4335510de6f7)), mạch ôông
 			- omnithread
 			  id:: 67a17ea8-2d20-45fa-9fe6-e998541aa3a5
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab75a1-f4a0-4bab-a002-8e573546623a))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory. Each Ω-thread is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the Trinion, corresponding to a particular configuration/view of the Universe from a particular ((667272b8-88a8-4928-a22a-35035c9edf05)), as described in the ((678e2046-54ac-4284-865d-6f3e38f589a1)). An Ω-thread can be relaxed into a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), or can be folded into the ((675c03d8-3185-41a8-9f98-e869fabec793)) (Ω) which includes all possible Ω-threads. In contrast to the whole Ω-thread which is a concrete ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), a part (chunk, segment) of it, simply called a “**thread**”, can capture an abstract concept or information, i.e. ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)).
 			  id:: 681826ac-5a8d-4240-95fd-183e03b9ef66
-				- DOING Similar to the ((6772a6cd-771f-4f24-9c3a-39c442234be5)), ...
+				- DOING Similar to the ((6772a6cd-771f-4f24-9c3a-39c442234be5))
 				  :LOGBOOK:
 				  CLOCK: [2025-01-20 Mon 20:56:58]
 				  :END:
@@ -3765,7 +3773,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 				- Vietnamese: mạch ôông (ōm̐-thread)
 				- While written as “Ω-thread”, it's called “**ohm**-thread” instead of “omega-thread”.
-				- Ω-thread is the universal thread called “**thread of effect**” (vi. “mạch tác lưu”, zh. “作流脈”).
+				- Ω-thread is the universal ((68522d55-b6a4-4f70-853c-4335510de6f7)).
 					- _The universal **thread of effect** weaves up everything._
 					  id:: 683ed4a3-68c7-41a4-aecf-b21561f207df
 					  _**Mạch tác lưu** dệt nên vạn vật._
