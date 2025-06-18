@@ -2941,7 +2941,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- Moreover, the Trinion unifies the [emptiness](https://en.wikipedia.org/wiki/Śūnyatā) in the invisible world with the [infinity](https://en.wikipedia.org/wiki/Infinity) in the visible world, thus sometimes is denoted with a circled infinity symbol “♾”.
 				- The vacantism is also expressed in Dao De Jing as the following:
-					- > “The Way is vacant, yet never used up.  
+					- id:: 684f9517-7e89-4efb-9b6c-16bf3458ce67
+					  > “The Way is vacant, yet never used up.  
 					  Immeasurable abyss it is, as the ancestor of all things!”  
 					  「道沖而用之或不盈。  
 					  淵兮似萬物之宗。」
@@ -2960,19 +2961,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- As a [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), the Grand Circle shows the vacantness of the Trinion that clears the illusion of a linear order from an absolute suppreme being to all things in the Universe. The Grand Circle has been traditionally symbolized by [the Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), and its paradoxical impression is called “[strange loop](https://en.wikipedia.org/wiki/Strange_loop)” recently by Douglas Hofstadter.
 						- ![Escher - Drawing Hands - 1946.jpg](../assets/Uniinfo/Escher - Drawing Hands - 1946.jpg){:width 200, :height 150}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- The Sanskrit word “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” and the Chinese characters “空”, “無” are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
-				  id:: 66f3ee6f-9f62-4f7f-ad00-34f5d4b0c800
-					- > “Non-action but nothing is not done!”
-					  「無為而無不為。」
-					  
-					  — [Chapter 48. Forget the knowledge](https://ctext.org/dao-de-jing#n11639), Dao De Jing, Lao Tzu
-				- Thus, the term “vacantism” is used here to emphasise the usefulness of the vacancy, just like a “vacant room” in the hotel. Instead of “empty” which means “there's nothing”, “vacant” is used to mean _“there's space to be filled in”_. Even if it's occupied, the occupation is temporary and the occupation itself generates more vacancy. And ultimately, “vacantism” means “the throne of the [transcendent](https://en.wikipedia.org/wiki/Transcendence_(religion)) & [pre-existing](https://en.wikipedia.org/wiki/Pre-existence) supreme being is vacant”, which is stated in the Buddhist sutta “[The Root of all things](https://en.wikipedia.org/wiki/M%C5%ABlapariy%C4%81ya_Sutta)”.
-				- Note that vacantism does not deny the presence of the [immanent supreme being](https://en.wikipedia.org/wiki/Immanence), though.
-				- Historically, the term “vacantism” was coined due to the lack of correspondent English term for the Vietnamese term “vô nguyên” (Chinese “無元”) in the chain “trialism” (vi. “tam nguyên”) → “dualism” (vi. “nhị nguyên”) → “monism” (vi. “nhất nguyên”) → “???-ism” (vi. “vô nguyên”) when discussing about [ontological](https://en.wikipedia.org/wiki/Ontology) [categories](https://en.wikipedia.org/wiki/Theory_of_Categories). Actually, at first “vô nguyên” was translated to “emptism” in the note “[Mọi thứ đều có Ba, để Ba sinh ra mọi thứ](http://creatzynotes.blogspot.com/2020/11/ba-sinh-moi-thu-moi-thu-sinh-ba.html)”, but then “vacantism” was chosen when editing this document of Trinion.
-				- From abstract to concrete: 元 (first, prime) → 原 (root, origin) → 源 (source)
-				- The book *Philosophy of No First Principle* [無元哲學](Philosophy-NoFirstPrinciple_無元哲學_CADAL07002676.djvu.pdf) by 朱謙之 (Zhu Qianzhi, Chu Khiêm Chi) in 1926 [on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CADAL07002676_%E7%84%A1%E5%85%83%E5%93%B2%E5%AD%B8_%EF%BC%88%E5%93%B2%E5%AD%B8%EF%BC%89.djvu).
-					- Zhu situates “無元” as a critical stance against foundationalism.
-					  > The world has no fixed, singular origin or "元". All forms arise through **relation**, **flow**, and **emptiness**, not substance.
+				- About the term “vacantism”
+				  collapsed:: true
+					- The Sanskrit word “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” and the Chinese characters “空”, “無” are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
+					  id:: 66f3ee6f-9f62-4f7f-ad00-34f5d4b0c800
+						- > “Non-action but nothing is not done!”
+						  「無為而無不為。」
+						  
+						  — [Chapter 48. Forget the knowledge](https://ctext.org/dao-de-jing#n11639), Dao De Jing, Lao Tzu
+					- Thus, the term “vacantism” is used here to emphasise the usefulness of the vacancy, just like a “vacant room” in the hotel. Instead of “empty” which means “there's nothing”, “vacant” is used to mean _“there's space to be filled in”_. Even if it's occupied, the occupation is temporary and the occupation itself generates more vacancy. And ultimately, “vacantism” means “the throne of the [transcendent](https://en.wikipedia.org/wiki/Transcendence_(religion)) & [pre-existing](https://en.wikipedia.org/wiki/Pre-existence) supreme being is vacant”, which is stated in the Buddhist sutta “[The Root of all things](https://en.wikipedia.org/wiki/M%C5%ABlapariy%C4%81ya_Sutta)”.
+					- Note that vacantism does not deny the presence of the [immanent supreme being](https://en.wikipedia.org/wiki/Immanence), though.
+					- Historically, the term “vacantism” was coined due to the lack of correspondent English term for the Vietnamese term “vô nguyên” (Chinese “無元”) in the chain “trialism” (vi. “tam nguyên”) → “dualism” (vi. “nhị nguyên”) → “monism” (vi. “nhất nguyên”) → “???-ism” (vi. “vô nguyên”) when discussing about [ontological](https://en.wikipedia.org/wiki/Ontology) [categories](https://en.wikipedia.org/wiki/Theory_of_Categories). Actually, at first “vô nguyên” was translated to “emptism” in the note “[Mọi thứ đều có Ba, để Ba sinh ra mọi thứ](http://creatzynotes.blogspot.com/2020/11/ba-sinh-moi-thu-moi-thu-sinh-ba.html)”, but then “vacantism” was chosen when editing this document of Trinion.
+					- Chinese terms from abstract to concrete: 元 (first, prime) → 原 (root, origin) → 源 (source)
+						- 源
+						  {{embed ((684f9517-7e89-4efb-9b6c-16bf3458ce67))}}
+							- In the 1926 book *Philosophy of No First Principle* ([無元哲學](Philosophy-NoFirstPrinciple_無元哲學_CADAL07002676.djvu.pdf)) by 朱謙之 (Zhu Qianzhi, Chu Khiêm Chi) [on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CADAL07002676_%E7%84%A1%E5%85%83%E5%93%B2%E5%AD%B8_%EF%BC%88%E5%93%B2%E5%AD%B8%EF%BC%89.djvu), Zhu situates “無元” as a critical stance against foundationalism.
+							  > The world has no fixed, singular origin or "元". All forms arise through **relation**, **flow**, and **emptiness**, not substance.
 		- Numbering
 		  collapsed:: true
 			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called [the unity of opposites](https://en.wikipedia.org/wiki/Unity_of_opposites) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's [relativistic](https://en.wikipedia.org/wiki/Relativism) as reflected by the intrinsics of the Zero (the Trinion).
