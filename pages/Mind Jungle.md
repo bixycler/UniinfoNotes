@@ -3749,17 +3749,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- omnithread
 			  id:: 67a17ea8-2d20-45fa-9fe6-e998541aa3a5
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab75a1-f4a0-4bab-a002-8e573546623a))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory. Each Ω-thread is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the Trinion, corresponding to a particular configuration/view of the Universe from a particular ((667272b8-88a8-4928-a22a-35035c9edf05)). An Ω-thread can be relaxed into a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), or can be folded into the ((675c03d8-3185-41a8-9f98-e869fabec793)) (Ω) which includes all possible Ω-threads. In contrast to the whole Ω-thread which is a concrete ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), a part (chunk, segment) of it, simply called a “**thread**”, can capture an abstract concept or information, i.e. ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ab75a1-f4a0-4bab-a002-8e573546623a)) is the representation of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in mathematical language as a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)), and is the central object of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory. Each Ω-thread is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the Trinion, corresponding to a particular configuration/view of the Universe from a particular ((667272b8-88a8-4928-a22a-35035c9edf05)), as described in the ((678e2046-54ac-4284-865d-6f3e38f589a1)). An Ω-thread can be relaxed into a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), or can be folded into the ((675c03d8-3185-41a8-9f98-e869fabec793)) (Ω) which includes all possible Ω-threads. In contrast to the whole Ω-thread which is a concrete ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), a part (chunk, segment) of it, simply called a “**thread**”, can capture an abstract concept or information, i.e. ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)).
 			  id:: 681826ac-5a8d-4240-95fd-183e03b9ef66
-				- DOING Similar to the ((6772a6cd-771f-4f24-9c3a-39c442234be5)),  ((678e2046-54ac-4284-865d-6f3e38f589a1)) ...
+				- DOING Similar to the ((6772a6cd-771f-4f24-9c3a-39c442234be5)), ...
 				  :LOGBOOK:
 				  CLOCK: [2025-01-20 Mon 20:56:58]
 				  :END:
-				- DOING flow of transforms, implemented by projections
+				- DONE flow of transforms, implemented by projections
 				  id:: 66faa5fb-01ea-4623-abb2-caf34f0821d6
 				  :LOGBOOK:
 				  CLOCK: [2024-09-27 Fri 15:15:15]
-				  CLOCK: [2024-09-27 Fri 15:15:30]
+				  CLOCK: [2024-09-27 Fri 15:15:30]--[2025-06-18 Wed 09:51:51] =>  6330:36:21
 				  :END:
 			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Beside the formal names **Ω-thread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df))] & **omnithread** [from ((675c03d8-3185-41a8-9f98-e869fabec793))], it can also be called ōm̐-thread [from ॐ], one-thread [from ((678e228f-1182-4605-9aad-f66f6fbb57bd))], or overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
