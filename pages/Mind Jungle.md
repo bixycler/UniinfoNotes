@@ -2836,7 +2836,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) is the umbrella term for both ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), as the theoretical aspect, and ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- Nuance: Even though the name ((66537a41-f229-4891-803e-828573eb44f3)) alludes to the idea that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
+			- Nuance: Even though the name “Universal Information” alludes to the idea that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
 			  id:: 6819f75f-1bab-4cc7-9316-228d14aa80d9
 			  collapsed:: true
 				- The theory was named “Universal Information” simply because the author ((66536578-c4d3-43f1-b35c-bf71120f0570)) is an information scientist. At that time, he saw the hierarchy of visible matter as: mass > energy > information. That means “*every __visible__ thing is information*”.
@@ -3739,11 +3739,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## thread
 	  id:: 667d0d2e-15c7-4989-a183-69a9a5c6bf8a
 	  collapsed:: true
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), a “thread” is the continuous line of ((6678288e-699b-4325-bdba-bf6349fe0d57)) running through its various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s by ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s among them. That means the “thread” in Unithread is just the static aspect of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)), hence the ((68522d55-b6a4-4f70-853c-4335510de6f7)). The thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. [Threads are spun from light](((671b5598-42a8-421d-a942-3819be212d50))) just like yarns are spun from fibers.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) is abstracted as the thing running through the whole course of something. In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), a “thread” is the continuous line of ((6678288e-699b-4325-bdba-bf6349fe0d57)) running through its various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s by ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s among them. That means the “thread” in Unithread is just the static aspect of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)), hence the name ((68522d55-b6a4-4f70-853c-4335510de6f7)). The thread of the whole ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) is called the ((66ab75a1-f4a0-4bab-a002-8e573546623a)) whose parts are usually addressed as simply “threads”. [Threads are spun from light](((671b5598-42a8-421d-a942-3819be212d50))) just like yarns are spun from fibers.
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [execution thread](https://en.wikipedia.org/wiki/Thread_(computing)), [conversation thread](https://en.wikipedia.org/wiki/Thread_(online_communication)), [fabric thread](https://en.wikipedia.org/wiki/Thread_(yarn)), [screw thread](https://en.wikipedia.org/wiki/Screw_thread), [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic))
 		  id:: 66b1cfa4-6ce7-447b-b637-30d86f0e748e
 		- Vietnamese: sợi, mạch
-		- thread of effect
+		- effect thread
 		  id:: 68522d55-b6a4-4f70-853c-4335510de6f7
 		  collapsed:: true
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))
@@ -3763,18 +3763,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :LOGBOOK:
 				  CLOCK: [2025-01-20 Mon 20:56:58]
 				  :END:
-				- DONE flow of transforms, implemented by projections; ((678e2046-54ac-4284-865d-6f3e38f589a1))
-				  id:: 66faa5fb-01ea-4623-abb2-caf34f0821d6
-				  :LOGBOOK:
-				  CLOCK: [2024-09-27 Fri 15:15:15]
-				  CLOCK: [2024-09-27 Fri 15:15:30]--[2025-06-18 Wed 09:51:51] =>  6330:36:21
-				  :END:
 			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Beside the formal names **Ω-thread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df)), pronounced “**ohm**-thread”] & **omnithread** [from ((675c03d8-3185-41a8-9f98-e869fabec793))], it can also be called ōm̐-thread [from ॐ], one-thread [from ((678e228f-1182-4605-9aad-f66f6fbb57bd))], or overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 				- Vietnamese: mạch ôông (ōm̐-thread)
 				- While written as “Ω-thread”, it's called “**ohm**-thread” instead of “omega-thread”.
 				- Ω-thread is the universal ((68522d55-b6a4-4f70-853c-4335510de6f7)).
-					- _The universal **thread of effect** weaves up everything._
+					- _The **universal effect thread** weaves up everything._
 					  id:: 683ed4a3-68c7-41a4-aecf-b21561f207df
 					  _**Mạch tác lưu** dệt nên vạn vật._
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -3802,7 +3796,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ac41d1-09e7-44b1-9290-ea7d5f02a817))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is the representation of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) in mathematical language, where everything is represented by the ((66ab75a1-f4a0-4bab-a002-8e573546623a)). ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) is to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) as [representation theory](https://en.wikipedia.org/wiki/Representation_theory) is to [category theory](https://en.wikipedia.org/wiki/Category_theory) in modern mathematics.
-		- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Even though the name ((66ac41d1-09e7-44b1-9290-ea7d5f02a817)) hints at the “universal substance underlying everything”, that substance is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), while the names “Universal Thread” and “Unithread” are preserved to indicate the *__theory__ about the Ω-thread*.
+		- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Even though the name “Universal Thread” hints at the “universal substance underlying everything”, that substance is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), while the names “Universal Thread” and “Unithread” are preserved to indicate the *__theory__ about the Ω-thread*.
 		  id:: 6819fb74-f8fc-4608-a75d-7fbe76d3af27
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) operations
