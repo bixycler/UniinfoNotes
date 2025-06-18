@@ -2381,6 +2381,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ((684c2e6e-f75f-4916-9f1c-4375d42d8604))
 				- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) on ((684f7978-d358-44ba-96de-a8fecd3c16e2)) & ((684f7978-f693-409c-93bf-de130a606023))
 		- It's interesting that the root node of the whole theory, ((66537a41-f229-4891-803e-828573eb44f3)), shows to little “content”.
+		  id:: 68523168-5f46-446a-984e-bec9f671f17e
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-06-18 Wed 10:24:54]--[2025-06-18 Wed 10:35:48] =>  00:10:54
@@ -2628,7 +2629,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  collapsed:: true
 							- ![NBSP-breaking-image-display.png](../assets/Will/story/2025-06/NBSP-breaking-image-display.png){:width 600}
 				- On the way home, i recognized the strong urge to follow the [unmixing](((6850be86-058c-45b4-9b4a-de92ebb4caff))) of projective threads, from the object thread in work to the meta thread of Unithread, then i breathe out to release them. Recognizing the 3 poisons, i applied my ((6850c7e4-0969-45b7-9ca8-e2c1d764effe)).
-			- 17th, ...
+			- 18th, while updating Uniinfo notes, i see the law of inverse variation between intension & extension [in the node of Universal Information](((68523168-5f46-446a-984e-bec9f671f17e))) itself.
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
