@@ -3755,16 +3755,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :LOGBOOK:
 				  CLOCK: [2025-01-20 Mon 20:56:58]
 				  :END:
-				- DONE flow of transforms, implemented by projections
+				- DONE flow of transforms, implemented by projections; ((678e2046-54ac-4284-865d-6f3e38f589a1))
 				  id:: 66faa5fb-01ea-4623-abb2-caf34f0821d6
 				  :LOGBOOK:
 				  CLOCK: [2024-09-27 Fri 15:15:15]
 				  CLOCK: [2024-09-27 Fri 15:15:30]--[2025-06-18 Wed 09:51:51] =>  6330:36:21
 				  :END:
-			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Beside the formal names **Ω-thread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df))] & **omnithread** [from ((675c03d8-3185-41a8-9f98-e869fabec793))], it can also be called ōm̐-thread [from ॐ], one-thread [from ((678e228f-1182-4605-9aad-f66f6fbb57bd))], or overall thread, Ouroboros thread, etc.
+			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Beside the formal names **Ω-thread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df)), pronounced “**ohm**-thread”] & **omnithread** [from ((675c03d8-3185-41a8-9f98-e869fabec793))], it can also be called ōm̐-thread [from ॐ], one-thread [from ((678e228f-1182-4605-9aad-f66f6fbb57bd))], or overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 				- Vietnamese: mạch ôông (ōm̐-thread)
-				- While written as “Ω-thread”, it's called “ohm-thread” instead of “omega-thread”.
+				- While written as “Ω-thread”, it's called “**ohm**-thread” instead of “omega-thread”.
 				- Ω-thread is the universal thread called “**thread of effect**” (vi. “mạch tác lưu”, zh. “作流脈”).
 					- _The universal **thread of effect** weaves up everything._
 					  id:: 683ed4a3-68c7-41a4-aecf-b21561f207df
