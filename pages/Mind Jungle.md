@@ -1380,8 +1380,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Each **transformation** is composed of many ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))s, i.e. many ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))s through many eyes.
 					  id:: 67f4eaf0-b935-45ea-b8ba-b06cbfba5d23
 						- ![TransformationByViewcones](https://docs.google.com/drawings/d/e/2PACX-1vQkpgx-mFPxBN8-TEgjmYe3VUhnPDxCoT62R43d3qyz5VzxJoZkZtczBrbMNN3dCEuYSoC9_dpihS0I/pub?w=300)
-						- By the symetry and complementarity between view cone and effect cone, each transformation is also composed of many effect cones as well as many cause-e.
-							-
+						- By the symmetry and complementarity between view cone and effect cone, each transformation is also composed of many ((667bd93a-cce4-4dbf-9831-725e4dffe463))s as well as many ((6851578b-9b1f-4367-878f-79b0b0b9be51))s.
+							- ![TransformationByEffectcones](https://docs.google.com/drawings/d/e/2PACX-1vS_NccUxt6l8ZH-w6FLroH0Tdqk13aTgHXISTeqvMzRT_os8uz4LT6qHK6zvAvReD10lIycDQSzrHh5/pub?w=300)
+							- ![TransformationByCauseEffectCones](https://docs.google.com/drawings/d/e/2PACX-1vQ1w2XPdohxPmZUjcx-Yj0-jv5KEayhrBExDLvN9CyTmlTf-rpEf9Qlz_rZP0SZihm0gD_NlS8cG_7z/pub?w=300)
 					- Each **thread** is spun by *transformations of various forms*.
 					- Some threads are *solidified* into **relations** to weave the **body** (memory, knowledge, structure) of the subject itself.
 					- The subject uses the knowledge accumulated in its body to [direct the arrow of light](((671b5623-9f23-447f-b5be-5b87e4f72f83))), and so on.
