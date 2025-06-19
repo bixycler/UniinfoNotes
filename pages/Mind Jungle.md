@@ -2985,6 +2985,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- And the last is “no source” (無源), a modern technical term meaning [“passive device”](https://en.wikipedia.org/wiki/Electronic_component#Passive_components), i.e., a device that does not require its own power supply (e.g., resistors, transformers), as well as an ancient philosophical term used in commentary on Dao De Jing.
 							- 無源 refers to the 4th chapter of Dao De Jing:
 							  {{embed ((684f9517-7e89-4efb-9b6c-16bf3458ce67))}}
+					- Etymology of “vacantism”: English “vacantism” ← “[vacant](https://en.wiktionary.org/wiki/vacant)” ← Latin “[vacans](https://en.wiktionary.org/wiki/vacans#Latin)” ← “[vacō](https://en.wiktionary.org/wiki/vaco#Latin)” ← PIE [*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-)* (“to lack; empty”)
 		- Numbering
 		  collapsed:: true
 			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called [the unity of opposites](https://en.wikipedia.org/wiki/Unity_of_opposites) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's [relativistic](https://en.wikipedia.org/wiki/Relativism) as reflected by the intrinsics of the Zero (the Trinion).
