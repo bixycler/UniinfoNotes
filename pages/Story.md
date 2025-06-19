@@ -2378,7 +2378,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [imaginary unit i=√-1 derived from dynamics](((67bbde62-70fc-4d3d-9f65-dcea280db516))) on ((684c282f-75e9-4c66-bc32-4e764aac6625))
 				- [Everything is address!](((684c2aab-9b41-486b-a758-6028725f4c13))) on ((684c2aab-13de-49da-8030-ca5a29f6931c))
 				- ((684c2e6e-3f8d-4ee8-9f69-bdb5f761c9ad)): ((684c2ee0-1029-4df9-9fbb-40a6f8c2fcc8))
-					- ⇒ ((674ff584-00e3-40d8-9b77-21e9dca899dd))
+					- ⇒ ((667bf36a-581a-4abe-b544-2d849608a3e4))'s discussion: ((674ff584-00e3-40d8-9b77-21e9dca899dd))
 					- ((684c2e6e-f75f-4916-9f1c-4375d42d8604))
 				- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) on ((684f7978-d358-44ba-96de-a8fecd3c16e2)) & ((684f7978-f693-409c-93bf-de130a606023))
 		- It's interesting that the root node of the whole theory, ((66537a41-f229-4891-803e-828573eb44f3)), shows so little “content”.

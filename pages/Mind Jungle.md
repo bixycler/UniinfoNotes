@@ -2845,7 +2845,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## Unïnfo Theory
 	  id:: 669dfc9f-b5e2-448a-b6f4-be13c5bfbccb
 	  collapsed:: true
-	  The Theory of Universal Information
+	  The Theory of ((66537a41-f229-4891-803e-828573eb44f3))
 		- GitHub: https://github.com/bixycler/Uniinfo
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The published theoretical part of the ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
 			- The metaphysical theory of Unïnfo [𝕄]
@@ -2857,6 +2857,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)): ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) = ((665ca429-84e3-49ff-921e-c07d19cd99ba)) ☉ ((6678288e-699b-4325-bdba-bf6349fe0d57))
 					- ((678e2046-54ac-4284-865d-6f3e38f589a1))
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) [((66f3c32c-9b5a-4e5a-95cc-411256b40b4f))]: ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) ÷ ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) = ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))
+				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
+					- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
 			- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory [Ʊ]
 				- The ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism & the ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
 					- Projective dynamics: ((67bd3614-2520-4a5d-8b3f-44f60901844e)), Elastic Dynamics, Newtonian Dynamics
@@ -2864,8 +2866,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The ((675c03d8-3185-41a8-9f98-e869fabec793)) [((678e23b4-0fbe-4a5d-923f-6252405053df))]
 			- Knowledge Theory [𝕂]
 			- uninet [**ᔕ**]
-		- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
-			- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
 	- ## Trinion
 	  id:: 669dfc7d-5355-41db-93a1-8d590e8ec9d8
 	  collapsed:: true
