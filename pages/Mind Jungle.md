@@ -3004,6 +3004,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [元](https://en.wiktionary.org/wiki/%E5%85%83): Pictogram – a figure with two lines [二] for a head (one connected to body, one above it), emphasizing the head → “first, prime”
 							- [原](https://en.wiktionary.org/wiki/%E5%8E%9F): Ideogrammic compound 原 = [泉](https://en.wiktionary.org/wiki/%E6%B3%89) (“spring”) + [厂](https://en.wiktionary.org/wiki/%E5%8E%82) (“cliff”) – a spring bursting from a cliff-side → “origin, root”. A conservative variant is [厡](https://en.wiktionary.org/wiki/%E5%8E%A1), in which water is well visible at the bottom.
 								- 元 and 原 had been used interchangeably in the sense “origin” until 原 became favoured in the early [Ming dynasty](https://en.wikipedia.org/wiki/Ming_dynasty) to avoid the name of the [Yuan dynasty (元朝)](https://en.wikipedia.org/wiki/Yuan_dynasty).
+								- from [Darwin's “root-brain” hypothesis](https://pmc.ncbi.nlm.nih.gov/articles/PMC2819436/) to [modern researches](https://en.wikipedia.org/wiki/Plant_intelligence).
 								- In chemistry, “[element](https://en.wikipedia.org/wiki/Chemical_element)” = [元素](https://en.wiktionary.org/wiki/%E5%85%83%E7%B4%A0) (prime substance), but “[atom](https://en.wikipedia.org/wiki/Atom)” = [原子](https://en.wiktionary.org/wiki/%E5%8E%9F%E5%AD%90) (original particle) with nuances in there meaning.
 									- The “element” also had now-obsolete translations like [原素](https://en.wiktionary.org/wiki/%E5%8E%9F%E7%B4%A0) & [原質](https://en.wiktionary.org/wiki/%E5%8E%9F%E8%B3%AA).
 									-
