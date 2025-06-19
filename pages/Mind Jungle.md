@@ -2848,6 +2848,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  The Theory of Universal Information
 		- GitHub: https://github.com/bixycler/Uniinfo
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The published theoretical part of the ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
+			- The metaphysical theory of Unïnfo [𝕄]
+				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (♾):
 		- Symbol
 			- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
 		- TODO Migrate [[Unïnfo Theory]]
