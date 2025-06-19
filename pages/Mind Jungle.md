@@ -2866,8 +2866,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- uninet [**ᔕ**]
 		- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
 			- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
-		- DONE Migrate [[Unïnfo Theory]]
-		  id:: 66b1cfa4-17c8-4076-b1f0-f7be32d42f88
 	- ## Trinion
 	  id:: 669dfc7d-5355-41db-93a1-8d590e8ec9d8
 	  collapsed:: true
