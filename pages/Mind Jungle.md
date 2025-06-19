@@ -2858,8 +2858,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((678e2046-54ac-4284-865d-6f3e38f589a1))
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) [((66f3c32c-9b5a-4e5a-95cc-411256b40b4f))]: ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) ÷ ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) = ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))
 			- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory [Ʊ]
-				- The ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechnism
-				- The ((66ab75a1-f4a0-4bab-a002-8e573546623a))
+				- The ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism
+				- The ((66ab75a1-f4a0-4bab-a002-8e573546623a)) & ((667bef22-b272-4a7d-b613-3f1ed1a47329))
+				- The ((675c03d8-3185-41a8-9f98-e869fabec793)) [((678e23b4-0fbe-4a5d-923f-6252405053df))]
 		- Symbol
 			- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
 		- TODO Migrate [[Unïnfo Theory]]
@@ -3792,6 +3793,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :LOGBOOK:
 				  CLOCK: [2025-01-20 Mon 20:56:58]
 				  :END:
+				- TODO To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
+					- Abstract content -> + CIE (1 ○) = concrete content -> + FoC (2 ○) = time & demi-space -> + double FoC (3 ○) = space & time
+					- “current” = coarse-grained thread, “thread” = fine-grained current, compared to the resolution of the eye.
 			- ((665ca48e-f7c1-4541-b5cf-486d86b02997)) Beside the formal names **Ω-thread** [from ((678e23b4-0fbe-4a5d-923f-6252405053df)), pronounced “**ohm**-thread”] & **omnithread** [from ((675c03d8-3185-41a8-9f98-e869fabec793))], it can also be called ōm̐-thread [from ॐ], one-thread [from ((678e228f-1182-4605-9aad-f66f6fbb57bd))], or overall thread, Ouroboros thread, etc.
 			  id:: 66ac48f5-823a-442b-8cc1-7c634b2be4ca
 				- Vietnamese: mạch ôông (ōm̐-thread)
@@ -3802,7 +3806,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  _**Mạch tác lưu** dệt nên vạn vật._
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((66ab75a1-f4a0-4bab-a002-8e573546623a)) corresponds to a closed directed dynamic metrizable refinable [topos](https://en.wikipedia.org/wiki/Pointless_topology) in topology.
-			- To be ported: ((669a58b8-7c83-4265-a32c-bb4c710fb9d0))
 			- Dimensionality & directionality
 				- 0 = nondirectional = all directions = omnidirectional
 				  id:: 67505a65-19d8-415a-8b80-c955a8768647
