@@ -2634,9 +2634,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 18th, while updating Uniinfo notes, i see the law of inverse variation between intension & extension [in the node of Universal Information](((68523168-5f46-446a-984e-bec9f671f17e))) itself.
 			- 19th, the whole day caught up in the update of ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
 			  collapsed:: true
-				- Make clear the “vacant throne” with [sutta “The Root of all things”](((68536bc0-f6ec-4595-8629-2a45d6bf713e))) and the [meaning of non-attachment](((684f9517-22fd-4695-b398-f142dca8a8d8))).
+				- Make clear the “vacant throne” with [sutta “The Root of all things”](((68536bc0-f6ec-4595-8629-2a45d6bf713e))) and the [meaning “non-attachment”](((684f9517-22fd-4695-b398-f142dca8a8d8))).
+				- DONE Migrate page `Unïnfo Theory` to block ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
 				- Research Chinese characters to update [etymology of “vacantism”](((6852abe7-46f7-4e61-9162-ce1311f717af)))
-				- Chat
+				- Chat sharing a part of the etymology research of "nguyên":
+				  collapsed:: true
 					- Hôm nay đào về nguồn gốc, thì đụng tới chữ "nguyên" với 3 chữ Hán: [元 (first, prime) → 原 (root, origin) → 源 (source)](((6853d150-9daa-4f24-8621-737485d7e9a2)))
 						- 元 = hình người (chữ π ở dưới là 2 chưn 2 tay) được gạch thêm 1 gạch trên đầu để đánh dấu ==> "Đầu tiên", như "nguyên đán" (ngày đầu năm), "nguyên tố" (chất cơ bản)
 						- 原 = 泉 (suối) + 厂 (vách đá) = "nguồn gốc" (nơi suối chảy ra từ trong đá), như "nguyên nhân" (nhân gốc), "nguyên lý" (cái lý gốc), "nguyên tử" (hạt cơ bản)
