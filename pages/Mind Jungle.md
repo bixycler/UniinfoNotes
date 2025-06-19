@@ -2858,12 +2858,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((678e2046-54ac-4284-865d-6f3e38f589a1))
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) [((66f3c32c-9b5a-4e5a-95cc-411256b40b4f))]: ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) ÷ ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) = ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))
 			- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory [Ʊ]
-				- The ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism
+				- The ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism & the ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
+					- Projective dynamics: ((67bd3614-2520-4a5d-8b3f-44f60901844e)), Elastic Dynamics, Newtonian Dynamics
 				- The ((66ab75a1-f4a0-4bab-a002-8e573546623a)) & ((667bef22-b272-4a7d-b613-3f1ed1a47329))
 				- The ((675c03d8-3185-41a8-9f98-e869fabec793)) [((678e23b4-0fbe-4a5d-923f-6252405053df))]
-		- Symbol
+			- Knowledge Theory [𝕂]
+			- uninet [**ᔕ**]
+		- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
 			- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
-		- TODO Migrate [[Unïnfo Theory]]
+		- DONE Migrate [[Unïnfo Theory]]
 		  id:: 66b1cfa4-17c8-4076-b1f0-f7be32d42f88
 	- ## Trinion
 	  id:: 669dfc7d-5355-41db-93a1-8d590e8ec9d8
