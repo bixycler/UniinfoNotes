@@ -3002,6 +3002,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- 無源 refers to the 4th chapter of Dao De Jing:
 							  {{embed ((684f9517-7e89-4efb-9b6c-16bf3458ce67))}}
 						- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
+						  id:: 6853d150-9daa-4f24-8621-737485d7e9a2
 						  collapsed:: true
 							- [元](https://en.wiktionary.org/wiki/%E5%85%83): Pictogram – a figure with two lines [二] for a head (one connected to body, one above it), emphasizing the head → “first, prime”
 							- [原](https://en.wiktionary.org/wiki/%E5%8E%9F): Ideogrammic compound 原 = [泉](https://en.wiktionary.org/wiki/%E6%B3%89) (“spring”) + [厂](https://en.wiktionary.org/wiki/%E5%8E%82) (“cliff”) – a spring bursting from a cliff-side → “origin, root”. A conservative variant is [厡](https://en.wiktionary.org/wiki/%E5%8E%A1), in which water is well visible at the bottom.

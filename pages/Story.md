@@ -2635,10 +2635,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 19th, research Chinese characters to update [etymology of “vacantism”](((6852abe7-46f7-4e61-9162-ce1311f717af)))
 			  collapsed:: true
 				- Chat
-					- Hôm nay đào về nguồn gốc, thì đụng tới chữ "nguyên" với 3 chữ Hán: 元 (first, prime) → 原 (root, origin) → 源 (source)
-						- 元 = hình người (chữ π ở dưới là 2 chưn 2 tay) được gạch thêm 1 gạch trên đầu để đánh dấu ==> "Đầu tiên", như "nguyên đán" (ngày đầu), "nguyên tố" (chất cơ bản)
+					- Hôm nay đào về nguồn gốc, thì đụng tới chữ "nguyên" với 3 chữ Hán: [元 (first, prime) → 原 (root, origin) → 源 (source)](((6853d150-9daa-4f24-8621-737485d7e9a2)))
+						- 元 = hình người (chữ π ở dưới là 2 chưn 2 tay) được gạch thêm 1 gạch trên đầu để đánh dấu ==> "Đầu tiên", như "nguyên đán" (ngày đầu năm), "nguyên tố" (chất cơ bản)
 						- 原 = 泉 (suối) + 厂 (vách đá) = "nguồn gốc" (nơi suối chảy ra từ trong đá), như "nguyên nhân" (nhân gốc), "nguyên lý" (cái lý gốc), "nguyên tử" (hạt cơ bản)
-						- 源 = 原 (nguồn gốc) + ⺡(nước) = "nguồn" :D Thêm 3 giọt nước vào chỉ để nhấn mạnh ý nghĩa "nguồn", như "nguồn nước, nguồn điện", để phân biệt với 1 nghĩa rất khác của 原 là "bãi đất bằng" (bình nguyên, cao nguyên, thảo nguyên). Chữ 源 này thì mình dùng chủ yếu là âm Nôm "nguồn", còn âm Hán "nguyên" thì hiếm, chỉ có "tài nguyên" và "từ nguyên" (nguồn gốc của từ).
+						- 源 = 原 (nguồn gốc) + ⺡(nước) = "nguồn" 😁 Thêm 3 giọt nước vào chỉ để nhấn mạnh ý nghĩa "nguồn", như "nguồn nước, nguồn điện", để phân biệt với 1 nghĩa rất khác của 原 là "bãi đất bằng" (bình nguyên, cao nguyên, thảo nguyên). Chữ 源 này thì mình dùng chủ yếu là âm Nôm "nguồn", còn âm Hán "nguyên" thì hiếm, chỉ có "tài nguyên" và "từ nguyên" (nguồn gốc của từ).
+					-
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
