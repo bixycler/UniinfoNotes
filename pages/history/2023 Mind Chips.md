@@ -116,7 +116,7 @@
 		- [http://creatzynotes.blogspot.com/2023/02/logistic-la-gi.html](http://creatzynotes.blogspot.com/2023/02/logistic-la-gi.html)
 	- 2023-02-21
 	  id:: 684c282f-75e9-4c66-bc32-4e764aac6625
-		- **Holistic momentum** = const-sized (mc^2) vector = momentum vector (in space) + energy vector (= momentum in time)
+		- **Holistic momentum** = const-sized ($mc^2$) vector = momentum vector (in space) + energy vector (= momentum in time)
 			- **i=√-1 derived from dynamics**: velocity reflected at the wall must pass through 0 but total momentum is preserved => the whole momentum vector must pokes out of space dimension => space × momentum = phase space:
 			  id:: 684c282f-07d0-4f39-b8b0-b7514ba1b135
 				- The eigenvector of diff is exp() => extended to phase space: x' = p & p' = x => x'' = x => √1 = negative (opposite) unit «-1»; x' = -p & p' = x => x'' = -x => √-1 = imaginary (internal, intensive) unit «i»;
