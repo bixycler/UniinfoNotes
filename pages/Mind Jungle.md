@@ -2851,7 +2851,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- The metaphysical theory of Unïnfo [𝕄]
 				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (♾):
 					- ((66f3d4a2-375f-4098-9228-66c611f0da90)): [Circle](((66f3d561-424a-4e1d-be55-98ac39c48502))), [Arrow](((66f3d5ca-a982-4d12-b307-fd4812adeb3b))), [Equal](((66f3d5cc-0d68-47bb-b09a-87cda33c7354)))
-					- ((66f3e0be-7d8c-45d6-92c3-6bad456555c9))
+					- ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)): ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)), ((66f3e588-9094-45af-9dff-2225c3ac39ab)), ((a95f4693-fe48-4a60-b1e3-5897a40efc5a))
+					-
 		- Symbol
 			- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
 		- TODO Migrate [[Unïnfo Theory]]
