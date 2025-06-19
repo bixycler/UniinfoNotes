@@ -2643,6 +2643,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Nay tra ra mới biết là thực ra ngày xưa 2 từ này cũng được viết với cùng 1 chữ "nguyên" (原子 & 原素), nhưng sau thì mới "chuẩn hoá" từ "nguyên tố" lại thành 元素.
 						- Và chỉ tới khi kết hợp cả nghĩa Nôm lẫn nguồn gốc Hy Lạp của "atom" thì mình mới phân biệt được: 原 = "nguồn gốc" (nghĩa Hán) → "chưa bị thay đổi" (nghĩa Hán, như "nguyên liệu" 原料)  → "còn nguyên vẹn, không bị sứt mẻ, nguyên khối" (nghĩa Nôm, như "số nguyên")
 							- ⇒ "nguyên tử" 原子 = "hạt nguyên khối" = "hạt không thể phân chia" = nghĩa gốc Hy Lạp của "atom".
+					- Nghĩa "nguyên vẹn" (whole) thì chữ Hán dùng chữ "chỉnh" 整: "hoàn chỉnh", "chỉnh chu", nên "số nguyên" bên TQ và Nhật gọi là "chỉnh số". Nãy mình chả nhớ vụ này, cứ phang tiếng Việt vào tra tiếng Nhật "nguyên số" sao tìm mãi ko ra... hồi mới nhớ, a thì ra là "chỉnh số" chứ ko phải "nguyên số"! 😁
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
