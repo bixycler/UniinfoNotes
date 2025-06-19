@@ -3011,6 +3011,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- the obsolete word 原質 ([nguyên chất](https://en.wiktionary.org/wiki/nguy%C3%AAn_ch%E1%BA%A5t)) has been adapted to the meaning of “pure (substance)” (original, intact substance); and
 										- the character 原 ([nguyên](https://en.wiktionary.org/wiki/nguy%C3%AAn#Etymology_2)) has been developed to have the meaning of “whole, integral”, e.g. [nguyên vẹn](https://en.wiktionary.org/wiki/nguy%C3%AAn_v%E1%BA%B9n) (whole, undamaged), [số nguyên](https://en.wiktionary.org/wiki/s%E1%BB%91_nguy%C3%AAn) (integer), which effectively makes the meaning of 原子 clear: 原子 = [nguyên tử](https://en.wiktionary.org/wiki/nguy%C3%AAn_t%E1%BB%AD) = whole particle = indivisible particle = atom.
 							- [源](https://en.wiktionary.org/wiki/%E6%BA%90): Phono-semantic & ideogrammic compound 源 = 原 (“origin”) + [水](https://en.wiktionary.org/wiki/%E6%B0%B4) (“water”) → “source (of water)”
+								- This is the developed version of 原 to separate the meaning of “source”. Before this development, “source” was written with 原.
 					- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “vacantism” ← “[vacant](https://en.wiktionary.org/wiki/vacant)” ← Latin “[vacans](https://en.wiktionary.org/wiki/vacans#Latin)” ← “[vacō](https://en.wiktionary.org/wiki/vaco#Latin)” (empty, void, unoccupied, free [time]) ← PIE “[*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-)” (empty, extinguished) → English “void”, “want”, “vain”, “vacant”, “vacuum”, etc.
 		- Numbering
 		  collapsed:: true
