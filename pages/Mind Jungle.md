@@ -3672,7 +3672,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- c-content
 				  id:: 670df155-ba22-48b9-b7b5-5eb25c78b310
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670de73b-6fe0-4366-9d81-2d631a3f3ca3))
-				- whole content
+				- self content
 				  id:: 670e363d-c1eb-402a-8283-b4a3a2e65a59
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)) 
 				  the content crystallized into ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
@@ -3698,10 +3698,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 685522f6-41a6-4b97-b768-512c46e09ce3
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e3842-d910-4776-a3e8-17561a20b556))
 					- “ex” stands for “extrinsic”, “extent”, “extracted”
-				- partial content
+				- part content
 				  id:: 685522db-7b28-4b29-b3a0-604d951b637d
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e3842-d910-4776-a3e8-17561a20b556))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685522db-7b28-4b29-b3a0-604d951b637d)) is the common sense of “content” in opposite to form, i.e., the part of content contained in a form and not including the form. The name “partial content” in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) indicates that this content is just a part of the ((684f9517-281b-4b0e-a96b-661f7cd0c668)). This name also contrasts with ((670e363d-c1eb-402a-8283-b4a3a2e65a59)) which is the crsytallized content of the form.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685522db-7b28-4b29-b3a0-604d951b637d)) is the common sense of “content” in opposite to form, i.e., the content of the parts (components) contained in a form and not including the form itself. The name “part content” in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) indicates that this content is just a part of the ((684f9517-281b-4b0e-a96b-661f7cd0c668)). This name also contrasts with ((670e363d-c1eb-402a-8283-b4a3a2e65a59)) which is the crsytallized content of the form.
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e3842-d910-4776-a3e8-17561a20b556)) is the part of content extracted from components through their ((670e0fef-2a46-450b-b043-176cccfc804a))s. The part of components loaded into this form is the ((670dee3b-4d37-4852-993c-bdb9cdd2c3bc)) including not only this ex-content (common sense of “content”) but also the i-content of their interfaces.
 				- ((66725725-f76a-4328-b162-f469b87e871b)) For simple components like variables in a program, their intefaces are data types and the ((670e3842-d910-4776-a3e8-17561a20b556)) of the program is the collection of values of these variables. These values are **extents** of the intents of the data types, and the collection of all intents is the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) of this program.
 			- loaded content
