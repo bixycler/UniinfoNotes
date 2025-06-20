@@ -3506,6 +3506,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- TODO E.g.: from a body in the world → via intermediate images in the world (in the mind of the world itself) → to another obop in the world
 					- closed form = image of the whole content
 					- external form = image of a partial view of the content, as framed through a window
+					  id:: 6854ed53-2c2a-4cff-9507-0b14a0f6fb63
 				- Elementary particles: substance = essence = 1 => cannot bear distortion
 				- Composite particles: substance > essence => bear distortion
 		- conformation

@@ -1938,6 +1938,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  id:: 66600918-bbc8-4d92-8d46-dbda3eed92f0
 	  collapsed:: true
 		- form + partial content = intent + extent = full content (Ω)
+		  id:: 684f951b-4049-482f-859a-7afb05cce124
 		- id, key := value
 		  collapsed:: true
 			- id : type { type = {id : `*`} }
