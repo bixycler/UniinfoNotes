@@ -3683,18 +3683,25 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  the content crystallized into ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
 					- i-content
 					  id:: 670df1ef-8f69-420e-ab1e-9c9844396704
-			- partial content
+			- external content
 			  id:: 670e3842-d910-4776-a3e8-17561a20b556
 			  :LOGBOOK:
 			  CLOCK: [2024-10-15 Tue 20:58:07]--[2024-10-18 Fri 16:14:10] =>  67:16:03
 			  :END:
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((685522f6-41a6-4b97-b768-512c46e09ce3)), ((685522db-7b28-4b29-b3a0-604d951b637d))
+				- ex-content
+				  id:: 685522f6-41a6-4b97-b768-512c46e09ce3
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e3842-d910-4776-a3e8-17561a20b556))
+				- partial content
+				  id:: 685522db-7b28-4b29-b3a0-604d951b637d
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e3842-d910-4776-a3e8-17561a20b556))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e3842-d910-4776-a3e8-17561a20b556)) is the implementation of the ((670e0fef-2a46-450b-b043-176cccfc804a)) of components.
 				- ((66725725-f76a-4328-b162-f469b87e871b)) For simple components in a program like variables whose intefaces are data types, the partial content is the values of these variables. These values are extents of the intents of the data types, and the collection of all intents is the i-form
 			- loaded content
 			  id:: 670dee3b-4d37-4852-993c-bdb9cdd2c3bc
-			  = ((670df1ef-8f69-420e-ab1e-9c9844396704)) × ((670e3842-d910-4776-a3e8-17561a20b556))
+			  = ((670df1ef-8f69-420e-ab1e-9c9844396704)) × ((685522f6-41a6-4b97-b768-512c46e09ce3))
 			- total content
-			   = ((670e363d-c1eb-402a-8283-b4a3a2e65a59)) × ((670e3842-d910-4776-a3e8-17561a20b556))
+			   = ((670e363d-c1eb-402a-8283-b4a3a2e65a59)) × ((685522db-7b28-4b29-b3a0-604d951b637d))
 			- Law of amount & substance
 			  ((670dee3b-4d37-4852-993c-bdb9cdd2c3bc)) (amount) ≤ ((670e363d-c1eb-402a-8283-b4a3a2e65a59)) (substance)
 				- This law is the [triangle inequality](https://en.wikipedia.org/wiki/Triangle_inequality) of the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) and is related to the [Law of transformation between quantity & quality](https://www.marxists.org/reference/archive/spirkin/works/dialectical-materialism/ch02-s09.html) in Dialectical Materialism.
