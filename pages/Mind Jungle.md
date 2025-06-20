@@ -3502,14 +3502,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Aristotle's forms:
 						- “substantial form” = ((684f9517-6d79-45da-8a3a-e0b6b1a67d94)) ⇐ lasting body & intent
 						- “accidental form” = ((670d0138-8f58-428b-808e-24c05a5239fb)) = ((66ab6161-0306-42d5-ac16-4155c69216f5)) ⇒ fleeting image & extent
+					- ((670e0d9a-a926-49ca-951c-7013b2b29e8c))s = images of content
+						- lasting closed form = image of the ((670e363d-c1eb-402a-8283-b4a3a2e65a59))
+						- fleeting external form = a partial view of the content framed through the ((670d0183-aba2-438b-b749-1b550e4a906b))
+						  id:: 6854ed53-2c2a-4cff-9507-0b14a0f6fb63
+							- The “fleeting” property reflects the dynamic nature of the content arrow
 					- From a substantial body to an accidental image, there can be infinitely many intermediate images in between, composing a multitude of layers of images projected from the source by various obops.
 						- These infinite intermediaries are similar to the [re-re-re-...prestantatives](((684f9518-6f65-4534-b296-184d3df8dd6b))) and Hegel's [world of appearances](((6854de2b-d5f3-4cb7-9b77-e5b3f2230acd))).
 						- TODO E.g.: from a body in the world → via intermediate images in the world (in the mind of the world itself) → to another obop in the world
 						- Even fleeting, the projected image is still backed by some (much smaller) bodies (particles of the screeen). Hence, both source and target of the projection are circles.
-					- ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) = image of content
-						- lasting closed form = image of the self content
-						- fleeting external form = image of a partial view of the content framed through the inter-form
-						  id:: 6854ed53-2c2a-4cff-9507-0b14a0f6fb63
 				- Elementary particles: substance = essence = 1 => cannot bear distortion
 				- Composite particles: substance > essence => bear distortion
 		- conformation
