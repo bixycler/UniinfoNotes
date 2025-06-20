@@ -3395,14 +3395,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ex-form
 				  id:: 670e18b8-b845-464f-9d93-4172ca3ce6e2
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0138-8f58-428b-808e-24c05a5239fb))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((670d0138-8f58-428b-808e-24c05a5239fb)), or an appearance of an object is the form seen by a subject from the outside of that object. Different external subjects see different appearances, thus interact with the object differently through different [interface](((670d0183-aba2-438b-b749-1b550e4a906b)))s. Within a world, each object has a ((670dd13a-21f3-44dd-9982-c1e129d518b2)) which is seen by the light of that world, hence common to all subjects in that world.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((670d0138-8f58-428b-808e-24c05a5239fb)), or an appearance of an object is the form seen by a subject from the outside of that object. _Different external subjects see **different appearances**_, thus interact with the object differently through different [interface](((670d0183-aba2-438b-b749-1b550e4a906b)))s. Within a world, each object has a ((670dd13a-21f3-44dd-9982-c1e129d518b2)) which is seen via the light of that world, hence common to all subjects in that world.
 				- public appearance
 				  id:: 670dd13a-21f3-44dd-9982-c1e129d518b2
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670dd13a-21f3-44dd-9982-c1e129d518b2)) is the superficial form seen by the light of the world where this object exists. This is the normal meaning of the word "appearance" and is usually much shallower than the ((670d0183-aba2-438b-b749-1b550e4a906b))s seen by individual subjects.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670dd13a-21f3-44dd-9982-c1e129d518b2)) is the superficial form seen via the light of the world where this object exists. This is the normal meaning of the word "appearance" and is usually much shallower than the ((670d0183-aba2-438b-b749-1b550e4a906b))s seen by individual subjects.
 				- inter-form
 				  id:: 670d0183-aba2-438b-b749-1b550e4a906b
 				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e0fef-2a46-450b-b043-176cccfc804a))
-					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1)) An ((670d0183-aba2-438b-b749-1b550e4a906b)) of an object is the form that appears to a subject such that the subject can interact with the object.
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1)) An ((670d0183-aba2-438b-b749-1b550e4a906b)) of an object is the form that appears to a subject such that it can interact with the object. An inter-form can be seen as a deep and focused ex-form, esp. compared to the shallow and wide ((670dd13a-21f3-44dd-9982-c1e129d518b2)).
 			- internal form
 			  id:: 670d0138-9012-4f3e-a9bd-997443fb22a3
 			  collapsed:: true
