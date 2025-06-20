@@ -509,7 +509,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Direct sense: “agent” = “initiator & subject of action” = ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 						- Indierect sense: “agent” = “initiator of action on behalf of another one” = ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
 						- Order of controlling: representative < agent < controller < master
-						- Layers of re-re-re-...presentatives are just like the layers of ((665ca429-84e3-49ff-921e-c07d19cd99ba))s and ((66ab6161-0306-42d5-ac16-4155c69216f5))s in Hegel's [world of appearances](((67123b17-b024-414a-a5dd-ba05965eefe7))) (phenomenal world)
+						- Layers of re-re-re-...presentatives are just like the layers of ((665ca429-84e3-49ff-921e-c07d19cd99ba))s and ((66ab6161-0306-42d5-ac16-4155c69216f5))s in Hegel's world of [appearances](((67123b17-b024-414a-a5dd-ba05965eefe7)))
 						  id:: 684f9518-6f65-4534-b296-184d3df8dd6b
 						  {{embed ((684f9518-5468-48fe-8afe-5469c3d18975))}}
 							- “present” = “pre-” + “est” = (bring something to) be in front of (some one) = direct form

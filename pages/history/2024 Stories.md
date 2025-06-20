@@ -997,6 +997,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- [§ 134](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL134) [Shorter Logic]
 			  > When thus explicitly stated, _the phenomenon is **relativity** or **correlation**_...
 		- **World** of appearances (phenomenal world): This is the totality of all things where they are connected by relations called [Appearances](((67123b17-b024-414a-a5dd-ba05965eefe7))). This common totality is the foundation for individual totalities of each thing called [Content](((670d1f75-b9a6-490a-9759-9f09189167b7))).
+		  id:: 6854de2b-d5f3-4cb7-9b77-e5b3f2230acd
 			- [§ 132](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL132) [Shorter Logic] > Essense > Appearance > The World of Appearances
 			  id:: 684f9518-5468-48fe-8afe-5469c3d18975
 			  > ... the phenomenon accordingly _goes on to an **endless mediation**_ of subsistence _by means of **form**_, and thus equally by non-subsistence.
