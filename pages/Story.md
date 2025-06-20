@@ -2667,7 +2667,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- These infinite intermediaries are similar to the [re-re-re-...prestantatives](((684f9518-6f65-4534-b296-184d3df8dd6b))) and Hegel's [world of appearances](((6854de2b-d5f3-4cb7-9b77-e5b3f2230acd))).
 						- TODO E.g.: from a body in the world → via intermediate images in the world (in the mind of the world itself) → to another obop in the world
 					- closed form = image of the whole content
-					- external form = image of a partial content framed within a window
+					- external form = image of a partial view of the content, as framed through a window
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
