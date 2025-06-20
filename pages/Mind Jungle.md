@@ -3417,6 +3417,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((670d0138-9012-4f3e-a9bd-997443fb22a3)) of a subject is what the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of that subject sees about its internal structure. Including the obop itself, that structure is a ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) comprising both the [skeletal structure](((670d015b-cd7e-47fc-94aa-1caf98daef0e))) and the [interaction structure](((670d01e7-9f1c-4f50-8b74-d6a51d33f719))) for interaction with its components. The the obop of this form always has a tendency to return its form to the ((670e14c0-70c6-49ff-9bde-89db60b610c2)). When a subject has many obops, each one sees a (slightly) different internal form, where the closed forms of other obops and of component groups are abstracted into components interacting with this obop.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((670d0138-9012-4f3e-a9bd-997443fb22a3)) = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) = ((6678d596-9526-405a-968c-e73860e524f3)) = ((670e1047-529a-4698-9ad0-5e6c73c18202))
+					  id:: 684f9517-6d79-45da-8a3a-e0b6b1a67d94
 						- Being “internal”, this form is sealed from the external effects, making it “closed”. Being closed in a circle, this form is stablized to be a “structure” and an independent “substance”.
 						- Even though equivalent, each name connotes a different aspect of meaning.
 							- “internal form” is to be dual with “external form”: in-form <> ex-form.
@@ -3493,8 +3494,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Aristotle's forms:
-					- "substantial form" = ((670d0138-9012-4f3e-a9bd-997443fb22a3)) = ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
-					- "accidental form" = ((670d0138-8f58-428b-808e-24c05a5239fb))
+					- “substantial form” = ((684f9517-6d79-45da-8a3a-e0b6b1a67d94))
+					- “accidental form” = ((670d0138-8f58-428b-808e-24c05a5239fb)) = ((66ab6161-0306-42d5-ac16-4155c69216f5))
 				- Elementary particles: substance = essence = 1 => cannot bear distortion
 				- Composite particles: substance > essence => bear distortion
 		- conformation
