@@ -3687,7 +3687,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-10-15 Tue 20:58:07]--[2024-10-18 Fri 16:14:10] =>  67:16:03
 			  :END:
-				- This is the implementation of the ((670e0fef-2a46-450b-b043-176cccfc804a)) of components.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e3842-d910-4776-a3e8-17561a20b556)) is the implementation of the ((670e0fef-2a46-450b-b043-176cccfc804a)) of components.
+				- ((66725725-f76a-4328-b162-f469b87e871b)) For simple components in a program like variables whose intefaces are data types, the partial content is the values of these variables. These values are extents of the intents of the data types, and the collection of all intents is the i-form
 			- loaded content
 			  id:: 670dee3b-4d37-4852-993c-bdb9cdd2c3bc
 			  = ((670df1ef-8f69-420e-ab1e-9c9844396704)) × ((670e3842-d910-4776-a3e8-17561a20b556))
