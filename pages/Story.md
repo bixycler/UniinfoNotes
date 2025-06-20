@@ -2661,10 +2661,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 20th, ...
 				- Going to bed late & forgetting to set alarm, today i woke up late again.
 				- On the way to company, the image of the self as a lasting form in contrast to the fleeting forms of experiences just popped up in my mind... So i write ((684f9517-ffcb-49ad-aeb5-c1fcd0b1f083))
-					- From the pre-Obsidian note (Mars 2024) on [CIE](https://bixycler.github.io/Uniinfo/Metaphysics/CIE.html) about the “Triangle inequality” $c > i⋅e$ and $i > c⋅1/e$
-					  → pre-Logseq (Obsidian) note (April-May 2024) about [form + partial content](((684f951b-4049-482f-859a-7afb05cce124))) 
-					  → ((670e3842-d910-4776-a3e8-17561a20b556)) (Oct 2024, originally "partial content") 
-					  → [ex-form = partial view of the content](((6854ed53-2c2a-4cff-9507-0b14a0f6fb63))) (June 2025)
+				  collapsed:: true
+					- The conflict between the lasting in-form and the fleeting ex-form (and content) has been the main curiosity of mine from the early time of Unïnfo contemplation.
+						- First thing i saw ()
+					- History of the notion of “partial content”
+						- From the pre-Obsidian note (Mars 2024) on [CIE](https://bixycler.github.io/Uniinfo/Metaphysics/CIE.html) about the “Triangle inequality” $c > i⋅e$ and $i > c⋅1/e$
+						- → pre-Logseq (Obsidian) note (April-May 2024) about [form + partial content](((684f951b-4049-482f-859a-7afb05cce124)))
+						- → ((670e3842-d910-4776-a3e8-17561a20b556)) (Oct 2024, originally "partial content")
+						- → [ex-form = partial view of the content](((6854ed53-2c2a-4cff-9507-0b14a0f6fb63))) (June 2025)
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
