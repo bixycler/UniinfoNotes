@@ -3428,7 +3428,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 670d0160-ee4c-4b5f-b95f-80b0c2f3825f
 				  collapsed:: true
 				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1227-a0b3-474f-bcc3-8bacdefac269)), ((670e1047-529a-4698-9ad0-5e6c73c18202)) 
-				  c-form = ((670e1285-9b00-427b-99f0-98c724677608)) + ((670e12c8-98eb-4293-b1cc-403c8210208f)) = ((670e1047-529a-4698-9ad0-5e6c73c18202))
+				  [c /siː/ = s + i]: c-form = ((670e1285-9b00-427b-99f0-98c724677608)) + ((670e12c8-98eb-4293-b1cc-403c8210208f)) = ((670e1047-529a-4698-9ad0-5e6c73c18202))
 				  ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e)), ((670d01e7-9f1c-4f50-8b74-d6a51d33f719))
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) is a ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) of content which is composed of two complements: the ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) and the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) for interaction with its components. Thanks to this ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) structure, this form is stable, hence a ((670e1047-529a-4698-9ad0-5e6c73c18202)).
 					- c-form
