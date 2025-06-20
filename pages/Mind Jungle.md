@@ -3381,7 +3381,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2024-09-27 Fri 15:09:57]--[2024-10-14 Mon 20:55:19] =>  413:45:22
 		  :END:
-		  → ((684f9517-cd97-4d6a-87f3-89ef73c78f0a))
+		  → [types of contents](((684f9517-cd97-4d6a-87f3-89ef73c78f0a)))
 			- Diagram
 				- ![obop forms](https://docs.google.com/drawings/d/e/2PACX-1vQVL6i_pDqPDaF6J5Y_ap06oLP4QKyjce13qVtbpPUyh-DNLz_etMQsM2KrUH8B9iYNgWsbgbmXAwFE/pub?w=337&h=340)
 				  :LOGBOOK:
