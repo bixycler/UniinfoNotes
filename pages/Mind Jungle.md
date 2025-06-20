@@ -3702,7 +3702,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 685522db-7b28-4b29-b3a0-604d951b637d
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e3842-d910-4776-a3e8-17561a20b556))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e3842-d910-4776-a3e8-17561a20b556)) is the implementation of the ((670e0fef-2a46-450b-b043-176cccfc804a)) of components.
-				- ((66725725-f76a-4328-b162-f469b87e871b)) For simple components in a program like variables whose intefaces are data types, the ((670e3842-d910-4776-a3e8-17561a20b556)) is the values of these variables. These values are **extents** of the intents of the data types, and the collection of all intents is the i-form of this subject.
+				- ((66725725-f76a-4328-b162-f469b87e871b)) For simple components in a program like variables whose intefaces are data types, the ((670e3842-d910-4776-a3e8-17561a20b556)) is the values of these variables. These values are **extents** of the intents of the data types, and the collection of all intents is the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) of this subject.
 			- loaded content
 			  id:: 670dee3b-4d37-4852-993c-bdb9cdd2c3bc
 			  = ((670df1ef-8f69-420e-ab1e-9c9844396704)) × ((685522f6-41a6-4b97-b768-512c46e09ce3))
