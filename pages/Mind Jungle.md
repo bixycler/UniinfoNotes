@@ -3381,6 +3381,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2024-09-27 Fri 15:09:57]--[2024-10-14 Mon 20:55:19] =>  413:45:22
 		  :END:
+		  → ((684f9517-cd97-4d6a-87f3-89ef73c78f0a))
 			- Diagram
 				- ![obop forms](https://docs.google.com/drawings/d/e/2PACX-1vQVL6i_pDqPDaF6J5Y_ap06oLP4QKyjce13qVtbpPUyh-DNLz_etMQsM2KrUH8B9iYNgWsbgbmXAwFE/pub?w=337&h=340)
 				  :LOGBOOK:
@@ -3498,7 +3499,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 684f9517-ffcb-49ad-aeb5-c1fcd0b1f083
 				  collapsed:: true
 					- Aristotle's forms:
-						- “substantial form” = ((684f9517-6d79-45da-8a3a-e0b6b1a67d94)) ⇐ lasting  body & intent
+						- “substantial form” = ((684f9517-6d79-45da-8a3a-e0b6b1a67d94)) ⇐ lasting body & intent
 						- “accidental form” = ((670d0138-8f58-428b-808e-24c05a5239fb)) = ((66ab6161-0306-42d5-ac16-4155c69216f5)) ⇒ fleeting image & extent
 					- From a substantial body to an accidental image, there can be infinitely many intermediate images in between, composing a multitude of layers of images projected from the source by various obops.
 						- These infinite intermediaries are similar to the [re-re-re-...prestantatives](((684f9518-6f65-4534-b296-184d3df8dd6b))) and Hegel's [world of appearances](((6854de2b-d5f3-4cb7-9b77-e5b3f2230acd))).
@@ -3660,6 +3661,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((665ca429-84e3-49ff-921e-c07d19cd99ba))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6678288e-699b-4325-bdba-bf6349fe0d57)) is an umbrella term capturing the abstract notion of "something packed inside the ((667cfa42-ade7-4310-9a7b-6d14d01c16da))": the daily used [content](https://en.wiktionary.org/wiki/content#Noun_2), the dynamic content in ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)), the ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) in CIE, etc.
 		- types of content regarding ((66f6682b-744a-49b8-8e11-8e020fc24acc))
+		  id:: 684f9517-cd97-4d6a-87f3-89ef73c78f0a
 			- crystallized content
 			  id:: 670de73b-6fe0-4366-9d81-2d631a3f3ca3
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670df155-ba22-48b9-b7b5-5eb25c78b310)), ((670e363d-c1eb-402a-8283-b4a3a2e65a59))
