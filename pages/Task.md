@@ -126,7 +126,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- TODO Copy [Chuyện Búi Chỉ](https://creatzyitnotes.blogspot.com/2009/11/chuyen-bui-chi.html) to  [CreatZy Notes](https://creatzynotes.blogspot.com/)
 		  id:: 67b989a4-a041-4511-abe5-77c785ca2d67
-		- TODO Khám SK: 12:30 đến 15:30 chiều Thứ Bảy 21/06/2025
+		- TODO Khám SK: (7:30 đến 10:30 sáng) 12:30 đến 15:30 chiều Thứ Bảy 21/06/2025
 		  id:: 6835b167-a703-47d7-a540-3fa9c9fd3afe
 		    [DYM Medical Center](https://maps.app.goo.gl/p3GoSqsACfK4ApBD9): Phòng B103, M plaza, 39 Lê Duẩn, phường Bến Nghé, Quận 1
 		  SCHEDULED: <2025-06-21 Sat 12:30>

@@ -2660,7 +2660,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- chữ Đầu 頭 ra đời để chỉ cái đầu nghĩa đen, bằng cách vẽ thêm cái cốc 豆 vào trước chữ Thủ và quăng 2 cái râu (trên 2 cái sừng) xuống dưới thành 2 chân (頁)
 			- 20th, ...
 				- Going to bed late & forgetting to set alarm, today i woke up late again.
-				- On the way to company, the image of the self as a lasting form in contrast to the fleeting forms of experiences just popped up in my mind...
+				- On the way to company, the image of the self as a lasting form in contrast to the fleeting forms of experiences just popped up in my mind... So i write ((684f9517-ffcb-49ad-aeb5-c1fcd0b1f083))
 					- Lasting form: closed form (self) = internal form = structure (intent) = substance (body)
 					- Fleeting form: open form = external form = appearance (extent) = property (image)
 					- From a substantial body to an accidental image, there can be infinitely many intermediate images in between, composing a multitude of layers of images projected from the source by various obops.

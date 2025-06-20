@@ -3493,10 +3493,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- {{embed ((67123b17-b024-414a-a5dd-ba05965eefe7))}}
 						  {{embed ((670d1f75-b9a6-490a-9759-9f09189167b7))}}
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- Aristotle's forms:
+				- Lasting form vs fleeting form
 				  id:: 684f9517-ffcb-49ad-aeb5-c1fcd0b1f083
-					- “substantial form” = ((684f9517-6d79-45da-8a3a-e0b6b1a67d94))
-					- “accidental form” = ((670d0138-8f58-428b-808e-24c05a5239fb)) = ((66ab6161-0306-42d5-ac16-4155c69216f5))
+					- Aristotle's forms:
+						- “substantial form” = ((684f9517-6d79-45da-8a3a-e0b6b1a67d94)) =
+						- “accidental form” = ((670d0138-8f58-428b-808e-24c05a5239fb)) = ((66ab6161-0306-42d5-ac16-4155c69216f5))
+					-
 				- Elementary particles: substance = essence = 1 => cannot bear distortion
 				- Composite particles: substance > essence => bear distortion
 		- conformation
