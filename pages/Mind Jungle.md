@@ -3435,7 +3435,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- c-form
 					  id:: 670e1227-a0b3-474f-bcc3-8bacdefac269
 					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
-						- 'c' stands for "closed", "complete", "circle".
+						- “c” stands for “closed”, “complete”, “circle”.
 					- skeletal form
 					  id:: 670d015b-cd7e-47fc-94aa-1caf98daef0e
 					  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1285-9b00-427b-99f0-98c724677608))
@@ -3444,7 +3444,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- s-form
 						  id:: 670e1285-9b00-427b-99f0-98c724677608
 						  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e))
-							- 's' stands for "skeletal", "structural".
+							- “s” stands for “skeletal”, “structural”.
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) is the skeletal structure which the obop uses to operate its body. This skeleton is crystallized from experience about mutual ((670d0183-aba2-438b-b749-1b550e4a906b))s between its components.
 						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 							- Normally, when talking about “internal form”, people usually think of this ((670d015b-cd7e-47fc-94aa-1caf98daef0e)) instead of the whole ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)).
@@ -3702,7 +3702,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 685522db-7b28-4b29-b3a0-604d951b637d
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e3842-d910-4776-a3e8-17561a20b556))
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685522db-7b28-4b29-b3a0-604d951b637d)) is the common sense of “content” in opposite to form, i.e., the part of content contained in a form and not including the form. The name “partial content” in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) indicates that this content is just a part of the ((684f9517-281b-4b0e-a96b-661f7cd0c668)). This name also contrasts with ((670e363d-c1eb-402a-8283-b4a3a2e65a59)) which is the crsytallized content of the form.
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e3842-d910-4776-a3e8-17561a20b556)) is the part of content extracted from components through their ((670e0fef-2a46-450b-b043-176cccfc804a))s. The part of components loaded into this form is the ((670dee3b-4d37-4852-993c-bdb9cdd2c3bc)) including their i
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e3842-d910-4776-a3e8-17561a20b556)) is the part of content extracted from components through their ((670e0fef-2a46-450b-b043-176cccfc804a))s. The part of components loaded into this form is the ((670dee3b-4d37-4852-993c-bdb9cdd2c3bc)) including not only this ex-content (common sense of “content”) but also the i-content of their interfaces.
 				- ((66725725-f76a-4328-b162-f469b87e871b)) For simple components like variables in a program, their intefaces are data types and the ((670e3842-d910-4776-a3e8-17561a20b556)) of the program is the collection of values of these variables. These values are **extents** of the intents of the data types, and the collection of all intents is the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)) of this program.
 			- loaded content
 			  id:: 670dee3b-4d37-4852-993c-bdb9cdd2c3bc
