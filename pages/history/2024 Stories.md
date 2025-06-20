@@ -996,7 +996,11 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			  > Appearance is higher than mere Being — a richer category because it holds in combination the two elements of reflection-into-self and reflection-into-other: whereas Being (or immediacy) is still mere relationlessness, and apparently rests upon itself alone. Still, to say that anything is *only an appearance* suggests a real flaw, which consists in this, that Appearance is still divided against itself and without intrinsic stability.
 			- [§ 134](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL134) [Shorter Logic]
 			  > When thus explicitly stated, _the phenomenon is **relativity** or **correlation**_...
-		- **World** of appearances (phenomenal world): This is the totality of
+		- **World** of appearances (phenomenal world): This is the totality of all things where they are connected by relations called [Appearances](((67123b17-b024-414a-a5dd-ba05965eefe7))). This common totality is the foundation for individual totalities of each thing called [Content](((670d1f75-b9a6-490a-9759-9f09189167b7))).
+			- [§ 132](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL132) [Shorter Logic] > Essense > Appearance > The World of Appearances
+			  id:: 684f9518-5468-48fe-8afe-5469c3d18975
+			  > ... the phenomenon accordingly _goes on to an **endless mediation**_ of subsistence _by means of **form**_, and thus equally by non-subsistence.
+			  > This endless intermediation is at the same time a unity of self-relation; and existence is developed into a **totality**, into a *world of phenomena* — of reflected finitude.
 		- Hegel summarized them like this: [§ 989](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455) [Greater Logic]
 			- > At first, **form** stands opposed to **essence**; it is then the simple ground relation, and its determinations are the ground and the grounded.
 			- > Secondly, it stands opposed to **matter**; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.

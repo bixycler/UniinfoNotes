@@ -510,8 +510,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Indierect sense: “agent” = “initiator of action on behalf of another one” = ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))
 						- Order of controlling: representative < agent < controller < master
 						- Layers of re-re-re-...presentatives are just like the layers of ((665ca429-84e3-49ff-921e-c07d19cd99ba))s and ((66ab6161-0306-42d5-ac16-4155c69216f5))s in Hegel's [world of appearances](((67123b17-b024-414a-a5dd-ba05965eefe7))) (phenomenal world)
-							- [§ 132](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL132) [Shorter Logic] > Essense > Appearance > The World of Appearances
-							  > ... the phenomenon accordingly _goes on to an **endless mediation**_ of subsistence _by means of **form**_, and thus equally by non-subsistence.
+						  id:: 684f9518-6f65-4534-b296-184d3df8dd6b
+						  {{embed ((684f9518-5468-48fe-8afe-5469c3d18975))}}
 							- “present” = “pre-” + “est” = (bring something to) be in front of (some one) = direct form
 							- “represent” = “re-” + “present” = indirect form = “form of form”
 					- [separateness](((6810327c-f633-4537-84a1-ca36a8d49d65))) + [agency](https://en.wikipedia.org/wiki/Agency_(philosophy)) = [autonomy](https://en.wikipedia.org/wiki/Autonomy) → ((67f91046-34ed-4bb4-a006-db2c33aeabf7))
