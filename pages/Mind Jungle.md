@@ -3475,10 +3475,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the ((67110213-d0ca-4449-811a-b51abf23bf65)), the other face of ((670d0183-aba2-438b-b749-1b550e4a906b)). While inter-form is the form viewed from the outside, for the external world to interact with this subject, co-inter-form is the form viewed from the inside, for the obop to interact with the external world. The co-inter-form is considered a part of the ((670d01e7-9f1c-4f50-8b74-d6a51d33f719)).
 			- abstract form
 			  id:: 670e0d9a-a926-49ca-951c-7013b2b29e8c
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that objec is abstracted away. Abstract form is the normal meaning of the word "form".
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) is a mere image of an object where the ((6678288e-699b-4325-bdba-bf6349fe0d57)) of that object is abstracted away. Abstract form is the normal meaning of the word “form”.
 			- concrete form
 			  id:: 66f4e208-37c7-4749-a448-0722f7f7af20
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), we usually consider the ((66f4e208-37c7-4749-a448-0722f7f7af20)) of an object as the totality of  ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and its ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). Here we say:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), we usually consider the ((66f4e208-37c7-4749-a448-0722f7f7af20)) of an object as the totality of ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f)) and its ((670de73b-6fe0-4366-9d81-2d631a3f3ca3)). Here we say:
 				  > (concrete) form is the [crystallization](((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b))) of content.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The concrete form is united with its crystallized content, and Hegel also showed this unity via the [world of appearance](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm).
@@ -3506,9 +3506,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- These infinite intermediaries are similar to the [re-re-re-...prestantatives](((684f9518-6f65-4534-b296-184d3df8dd6b))) and Hegel's [world of appearances](((6854de2b-d5f3-4cb7-9b77-e5b3f2230acd))).
 						- TODO E.g.: from a body in the world → via intermediate images in the world (in the mind of the world itself) → to another obop in the world
 						- Even fleeting, the projected image is still backed by some (much smaller) bodies (particles of the screeen). Hence, both source and target of the projection are circles.
-					- closed form = image of the whole content
-					- external form = image of a partial view of the content, as framed through a window
-					  id:: 6854ed53-2c2a-4cff-9507-0b14a0f6fb63
+					- ((670e0d9a-a926-49ca-951c-7013b2b29e8c)) = image of content
+						- lasting closed form = image of the self content
+						- fleeting external form = image of a partial view of the content framed through the inter-form
+						  id:: 6854ed53-2c2a-4cff-9507-0b14a0f6fb63
 				- Elementary particles: substance = essence = 1 => cannot bear distortion
 				- Composite particles: substance > essence => bear distortion
 		- conformation
