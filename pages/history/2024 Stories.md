@@ -998,6 +998,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  
 		  [§ 134](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL134) [Shorter Logic]
 		  > When thus explicitly stated, _the phenomenon is **relativity** or **correlation**_...
+		- **World** of appearances (phenomenal world)
 		- Hegel summarized them like this: [§ 989](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455) [Greater Logic]
 			- > At first, **form** stands opposed to **essence**; it is then the simple ground relation, and its determinations are the ground and the grounded.
 			- > Secondly, it stands opposed to **matter**; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.
