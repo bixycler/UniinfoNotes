@@ -2658,6 +2658,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Chữ Nguyên 元 chỉ đánh dấu trên đầu nên nghĩa trừu tượng nhất;
 						- chữ Thủ 首 vẽ nguyên cái đầu dài của các con thú (trâu, chó đều có đầu dài do mõm dài) với 2 sừng, nên nghĩa đen hơn, vốn chỉ cái đầu, nhưng sau bị trừu tượng hóa dần thành "kẻ/cái đứng đầu"; và khi đó thì
 						- chữ Đầu 頭 ra đời để chỉ cái đầu nghĩa đen, bằng cách vẽ thêm cái cốc 豆 vào trước chữ Thủ và quăng 2 cái râu (trên 2 cái sừng) xuống dưới thành 2 chân (頁)
+			- 20th, ...
+				- Going to bed late & forgetting to set alarm, today i woke up late again.
+				- On the way to company, the image of the self as a lasting form in contrast to the fleeting forms of experiences just popped up in my mind...
+					- Lasting form = closed form (self) = internal form = structure = substance
+					- Fleeting form = open form = external form = appearance = property
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
