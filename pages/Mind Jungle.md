@@ -3505,6 +3505,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- From a substantial body to an accidental image, there can be infinitely many intermediate images in between, composing a multitude of layers of images projected from the source by various obops.
 						- These infinite intermediaries are similar to the [re-re-re-...prestantatives](((684f9518-6f65-4534-b296-184d3df8dd6b))) and Hegel's [world of appearances](((6854de2b-d5f3-4cb7-9b77-e5b3f2230acd))).
 						- TODO E.g.: from a body in the world → via intermediate images in the world (in the mind of the world itself) → to another obop in the world
+						- Even fleeting, the projected image is still backed by some (much smaller) bodies (particles of the screeen). Hence, both source and target of the projection are circles.
 					- closed form = image of the whole content
 					- external form = image of a partial view of the content, as framed through a window
 					  id:: 6854ed53-2c2a-4cff-9507-0b14a0f6fb63
