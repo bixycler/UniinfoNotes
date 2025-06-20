@@ -3383,7 +3383,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :END:
 		  → [types of contents](((684f9517-cd97-4d6a-87f3-89ef73c78f0a)))
 			- Diagram
-				- ![obop forms](https://docs.google.com/drawings/d/e/2PACX-1vQVL6i_pDqPDaF6J5Y_ap06oLP4QKyjce13qVtbpPUyh-DNLz_etMQsM2KrUH8B9iYNgWsbgbmXAwFE/pub?w=337&h=340)
+				- ![obop forms](https://docs.google.com/drawings/d/e/2PACX-1vQVL6i_pDqPDaF6J5Y_ap06oLP4QKyjce13qVtbpPUyh-DNLz_etMQsM2KrUH8B9iYNgWsbgbmXAwFE/pub?w=200)
 				  :LOGBOOK:
 				  CLOCK: [2024-10-17 Thu 19:42:39]
 				  CLOCK: [2024-10-17 Thu 19:42:44]--[2024-10-17 Thu 20:49:03] =>  01:06:19
