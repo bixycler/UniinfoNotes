@@ -3381,11 +3381,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2024-09-27 Fri 15:09:57]--[2024-10-14 Mon 20:55:19] =>  413:45:22
 		  :END:
-			- ![obop forms](https://docs.google.com/drawings/d/e/2PACX-1vQVL6i_pDqPDaF6J5Y_ap06oLP4QKyjce13qVtbpPUyh-DNLz_etMQsM2KrUH8B9iYNgWsbgbmXAwFE/pub?w=337&h=340)
-			  :LOGBOOK:
-			  CLOCK: [2024-10-17 Thu 19:42:39]
-			  CLOCK: [2024-10-17 Thu 19:42:44]--[2024-10-17 Thu 20:49:03] =>  01:06:19
-			  :END:
+			- Diagram
+				- ![obop forms](https://docs.google.com/drawings/d/e/2PACX-1vQVL6i_pDqPDaF6J5Y_ap06oLP4QKyjce13qVtbpPUyh-DNLz_etMQsM2KrUH8B9iYNgWsbgbmXAwFE/pub?w=337&h=340)
+				  :LOGBOOK:
+				  CLOCK: [2024-10-17 Thu 19:42:39]
+				  CLOCK: [2024-10-17 Thu 19:42:44]--[2024-10-17 Thu 20:49:03] =>  01:06:19
+				  :END:
 			- external form
 			  id:: 670d0138-8f58-428b-808e-24c05a5239fb
 			  collapsed:: true
@@ -3495,10 +3496,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Lasting form vs fleeting form
 				  id:: 684f9517-ffcb-49ad-aeb5-c1fcd0b1f083
+				  collapsed:: true
 					- Aristotle's forms:
-						- “substantial form” = ((684f9517-6d79-45da-8a3a-e0b6b1a67d94)) =
-						- “accidental form” = ((670d0138-8f58-428b-808e-24c05a5239fb)) = ((66ab6161-0306-42d5-ac16-4155c69216f5))
-					-
+						- “substantial form” = ((684f9517-6d79-45da-8a3a-e0b6b1a67d94)) ⇐ lasting  body & intent
+						- “accidental form” = ((670d0138-8f58-428b-808e-24c05a5239fb)) = ((66ab6161-0306-42d5-ac16-4155c69216f5)) ⇒ fleeting image & extent
+					- From a substantial body to an accidental image, there can be infinitely many intermediate images in between, composing a multitude of layers of images projected from the source by various obops.
+						- These infinite intermediaries are similar to the [re-re-re-...prestantatives](((684f9518-6f65-4534-b296-184d3df8dd6b))) and Hegel's [world of appearances](((6854de2b-d5f3-4cb7-9b77-e5b3f2230acd))).
+						- TODO E.g.: from a body in the world → via intermediate images in the world (in the mind of the world itself) → to another obop in the world
+					- closed form = image of the whole content
+					- external form = image of a partial view of the content, as framed through a window
 				- Elementary particles: substance = essence = 1 => cannot bear distortion
 				- Composite particles: substance > essence => bear distortion
 		- conformation
