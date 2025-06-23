@@ -2679,7 +2679,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Meditating throughout the waiting time in the health check-up process, i saw how my obops were automatically abstracting input signals via their view cones into their output signals feeding up the higher/deeper obops.
 					- Such an _abstraction is to **capture**_ (an abstract of) the fleeting input signals whenever they fill up the view, so that they're not lost after being cleared for the next input signals.
-				- The Trinion dynamics has continued to catch me [another day](((6858c668-39d3-4e73-8f9e-b9116343f489))).
+				- The Trinion dynamics continues to catch me in [another day](((6858c668-39d3-4e73-8f9e-b9116343f489))).
 			- 22nd, after a whole day migrating stuff from the old smartphone to the new one, i discovered an app, VNeID, was not migrated after the old one had been factory reset.
 			  collapsed:: true
 				- Despite too much time spent on the careful migration, there was still one missing app due to its lack of use.
