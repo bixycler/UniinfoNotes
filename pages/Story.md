@@ -2674,7 +2674,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Why the content flows and the ex-form fleets: Because it's **partial** but wanting to reach the whole! 😁
 						- This wanting is due to the **restoring force** attracting to the perfect whole.
 						- Through recording the sequence of images (ex-forms), the obop can get an (abstract) picture of the whole.
-			- 21tst, meditating through out the wating time in the [health check-up](((6835b167-a703-47d7-a540-3fa9c9fd3afe))) process, i saw how
+			- 21tst, done the [health check-up](((6835b167-a703-47d7-a540-3fa9c9fd3afe))) with some meditation, and
+			  collapsed:: true
+				- Meditating throughout the waiting time in the health check-up process, i saw how my obops were automatically abstracting input signals via their view cones into their output signals feeding up the higher/deeper obops.
+			- 22nd, after the whole day migrating software
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
