@@ -2675,7 +2675,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Why the content flows and the ex-form fleets: Because it's **partial** but wanting to reach the whole! 😁
 						- This wanting is due to the **restoring force** attracting to the perfect whole.
 						- Through recording the sequence of images (ex-forms), the obop can get an (abstract) picture of the whole.
-			- 21tst, done the [health check-up](((6835b167-a703-47d7-a540-3fa9c9fd3afe))) with some meditation, and then added the first component into the [Trinion dynamics](((6858b355-fba9-4e61-9f16-bc993a3df44b))): [partiality](((68554f12-c6b4-40ff-ab2d-55e8e06ad5ff))).
+			- 21tst, done the [health check-up](((6835b167-a703-47d7-a540-3fa9c9fd3afe))) with some meditation, and then added the first component into the [Trinion dynamics](((6858b355-fba9-4e61-9f16-bc993a3df44b))): [partiality](((68554f12-c6b4-40ff-ab2d-55e8e06ad5ff))) of [all abstract forms](((685542d1-42d1-4ee7-b922-167f030cb8af))).
 			  collapsed:: true
 				- Meditating throughout the waiting time in the health check-up process, i saw how my obops were automatically abstracting input signals via their view cones into their output signals feeding up the higher/deeper obops.
 					- Such an _abstraction is to **capture**_ (an abstract of) the fleeting input signals whenever they fill up the view, so that they're not lost after being cleared for the next input signals.
