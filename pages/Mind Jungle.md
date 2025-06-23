@@ -2933,9 +2933,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ![Intrinsic dynamic of circle.gif](../assets/Uniinfo/Intrinsic dynamic of circle.gif){:width 50, :height 50}
 				- “Every equal is in the shape of arrows (⇌).”
 					- The balance between things is always a [dynamic equilibrium](https://en.wikipedia.org/wiki/Dynamic_equilibrium) where the exchange between them cancels them out. For example, in mechanics, we have balance between force vectors, in chemistry, we have balance between reaction directions, etc.
-					- The Equal is not a trivial equality of identical things ⟪$A = A$⟫ but the equality between different things ⟪$A = B$⟫.
-						-
+					- The Equal is not a trivial equality of identical things ⟪$A = A$⟫, but the equality between different things, e.g. ⟪$A = B$⟫.
+						- Any meaningful equation ⟪$A = B$⟫ presumes that $A$ differs $B$ in some aspect, at least in their names.
 						- In this sense, the Equal is not only a passive property but an active “equalizer” that makes different things equal, a “balancer” that balances the imbalance.
+						- Here, the Equal is the one that brings differentiated things back together, to be one again, hence “unification”.
 			- ### Intrinsic Balance
 			  id:: a95f4693-fe48-4a60-b1e3-5897a40efc5a
 				- The macro balance of the whole (⊜)
