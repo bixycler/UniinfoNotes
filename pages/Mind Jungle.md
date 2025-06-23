@@ -2921,7 +2921,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  The Circle transforms into _different_ ((665ca429-84e3-49ff-921e-c07d19cd99ba))s. This transformation is called the ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) (↑) which is itself _different_ from the Circle.
 			- **Postulate of Unification**
 			  id:: c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69
-			  The Circle and the Arrow are two aspects of _the same_ being called ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (⊜). This equivalence is called the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) (`=`). Thanks to this when the two former components (○, ↑) meet each other, they _recognize_ each other. That recognition is denoted by the _equation_ ⟪○ = ↑⟫.
+			  The Circle and the Arrow are two aspects of _the same_ being called ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (⊜). This equivalence is called the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) (`=`). Thanks to the same origin, when the two former components (○, ↑) meet each other, they _recognize_ each other. That recognition is denoted by the _equation_ ⟪○ = ↑⟫.
 		- Three [intrinsics](((66f3e170-dc4b-45ea-8720-de4580a30d01))) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 66f3e0be-7d8c-45d6-92c3-6bad456555c9
 		  collapsed:: true
