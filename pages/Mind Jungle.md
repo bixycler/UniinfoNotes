@@ -3510,7 +3510,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Partial view: The current state is just a partial view of the whole state space which is the self content of an atomic object and the ((684f9517-281b-4b0e-a96b-661f7cd0c668)) of a composite.
 							- The “fleeting” property reflects the dynamic nature of the content arrow, e.g., the rotors (digit wheels) rotating relative to the stators (digit windows) in a ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)).
 						- Whether fleeting or lasting, the abstract forms are just images of content, hence **partial**, hence [impermanent](https://en.wikipedia.org/wiki/Impermanence).
-							- The partiality of form leads to its transformation, change, and impermanance.
+							- The partiality of form [leads](((6858b355-fba9-4e61-9f16-bc993a3df44b))) to its ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), change, and impermanance.
 								- Transformation: The one being formed is called “form”, but the same process deforms it. Thus, form = formed & deformed.
 							- Due to the stability (lastingness) of the closed form, ordinary beings naturally develop attachment to the self, often under the illusion that it's permanent (everlasting).
 							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
