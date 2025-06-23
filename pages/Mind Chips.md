@@ -1,3 +1,10 @@
+- Trinion dynamics: partial (a in all) -> diff (a vs not a) -> change (diff from self) 
+  - The first Circle is not the whole, but just an abstract part projecting an image of the whole.
+  - The abstract form (Circle) + content (Arrow) = concrete form (Ω-thread) = total content (effect circle), but still missing the Equal, i.e. the obop looking at the Ω-thread and operating it.
+  - The Equal is tricky, contradictory: Circle = Arrow while they are different!
+    - Make the diff equal is the nature of Circle
+    - Contradiction (negation conflict) is the nature of Arrow (as discussed in dialectical materialism)
+    - Positively, Equal is the “unifier” in dynamic sense, but negatively, Equal is the “liar” in static sense. And i say “the Liar Paradox is the creator of all things!”
 ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
