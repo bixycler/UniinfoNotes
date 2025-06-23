@@ -2462,7 +2462,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Partiality
 				- The Circle in the Trinion is not the whole Trinion, but just an abstract part of the whole, an image projected from the whole.
 				- Abstract form (Circle) + content (Arrow) = concrete form [((66ab75a1-f4a0-4bab-a002-8e573546623a))] = total content [((667c0031-0a87-44c9-9e98-6d45893b095f))], but still missing the Equal, i.e. the obop, that looks at the Ω-thread and operates it.
-				- The obop (Equal) is infinitely small compared to the total content, hence inherently partial. However, only through obop, can the whole be cognized,
+				- The obop (Equal) is infinitely small compared to the total content, hence inherently partial relative to the Trinion. However, only through obop, can the whole Trinion be cognized, can the form be projected, and can the content be . That makes obop be an infinitely important point, a critical point, a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) singularity of the whole, hence inherently whole by itself.
 			- The Equal of the obop is tricky and contradictory: “Circle = Arrow” while they are apparently different!
 				- Different things being equal is the nature of Circle, i.e. ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)).
 				- Contradiction is the nature of Arrow, i.e. ((66f3e588-9094-45af-9dff-2225c3ac39ab)).
