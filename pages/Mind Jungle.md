@@ -2458,9 +2458,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((6678288e-699b-4325-bdba-bf6349fe0d57)) of every ((678e1c3f-6202-45aa-8527-f4bdad9927b9))
 		- ### Trinion dynamics
 		  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
-		  partiality of form → differentiation of content → change of obop
-			- The first Circle in the Trinion is not the whole Trinion, but just an abstract part projecting an image of the whole.
-			- The abstract form (Circle) + content (Arrow) = concrete form (Ω-thread) = total content (effect circle), but still missing the Equal, i.e. the obop looking at the Ω-thread and operating it.
+		  partiality of form → [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) of content → ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of obop
+			- Partiality
+				- The first Circle in the Trinion is not the whole Trinion, but just an abstract part of the whole, an image projected from the whole.
+				- Abstract form (Circle) + content (Arrow) = concrete form (Ω-thread) = total content (effect circle), but still missing the Equal, i.e. the obop, that looks at the Ω-thread and operates it.
 			- The Equal is tricky, contradictory: Circle = Arrow while they are different!
 				- Make the diff equal is the nature of Circle
 				- Contradiction (negation conflict) is the nature of Arrow (as discussed in dialectical materialism)
