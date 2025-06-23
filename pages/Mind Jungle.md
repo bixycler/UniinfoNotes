@@ -2916,13 +2916,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Corresponding to Circle, Arrow and Equal, there are three intrinsics of [the static](((66f3e66a-8afb-4b20-bf85-111bc4aee09c))), [the dynamic](((66f3e588-9094-45af-9dff-2225c3ac39ab))) and [the balance](((a95f4693-fe48-4a60-b1e3-5897a40efc5a))), respectively.
 				- ![IntrinsicsTriangle](https://docs.google.com/drawings/d/1yITOpbtT6izDElzNZVqwtBUTyU5q04aREW88AKmNSQM/pub?w=415&h=268)
-			- Intrinsic Static
+			- #### Intrinsic Static
 			  id:: 66f3e66a-8afb-4b20-bf85-111bc4aee09c
 				- “Every arrow is composed of circles (⇴).” 
 				  Just like a vehicle moving with its wheels, every change has its invariant(s), every motion has its law(s). The law of motion is invariant, the wheels of moving vehicle are invariant. Because they are invariants underlying the variants, they are called “intrinsic statics”.
 					- ![Intrinsic static of arrow.png](../assets/Uniinfo/Intrinsic static of arrow.png)
 				- “Every equal is in the shape of circle (⊜).”
-				    The most familiar equality is that two objects having the same information: shape, appearance, measure, value, structure, class, type, image, extension, etc. The symmetry of equality, i.e. ⟪A = B⟫ ⇔ ⟪B = A⟫, shows a loop from A to B then back to A. Thus its shape is a circle.
+				  The most familiar equality is that two objects having the same information: shape, appearance, measure, value, structure, class, type, image, extension, etc. The symmetry of equality, i.e. ⟪A = B⟫ ⇔ ⟪B = A⟫, shows a loop from A to B then back to A. Thus its shape is a circle.
 					- ![Intrinsic static of equal - micro.png](../assets/Uniinfo/Intrinsic static of equal - micro.png)
 					- The more subtle equality is that of the opposites, just like |-1234| = |+1234|. The opposites are “equal” because they are complement, together they comprise a whole which is represented by the Circle.
 						- ![Intrinsic static of equal - macro.png](../assets/Uniinfo/Intrinsic static of equal - macro.png){:width 50, :height 50}
@@ -2933,6 +2933,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ![Intrinsic dynamic of circle.gif](../assets/Uniinfo/Intrinsic dynamic of circle.gif){:width 50, :height 50}
 				- “Every equal is in the shape of arrows (⇌).”
 				  The balance between things is always a [dynamic equilibrium](https://en.wikipedia.org/wiki/Dynamic_equilibrium) where the exchange between them cancels them out. For example, in mechanics, we have balance between force vectors, in chemistry, we have balance between reaction directions, etc.
+					- In this sense, the Equal is not only a passive property but an active “equalizer” that makes different things equal, a “balancer” that balances the imbalance.
 			- Intrinsic Balance
 			  id:: a95f4693-fe48-4a60-b1e3-5897a40efc5a
 				- The macro balance of the whole (⊜)
