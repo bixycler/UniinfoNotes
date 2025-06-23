@@ -1223,7 +1223,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) (of a body) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) (that body previously), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
 			- effect circle
 			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
@@ -2459,7 +2459,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### Trinion dynamics
 		  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
 		  partiality of form → differentiation of content → change of obop
-			- The first Circle is not the whole, but just an abstract part projecting an image of the whole.
+			- The first Circle in the Trinion is not the whole Trinion, but just an abstract part projecting an image of the whole.
 			- The abstract form (Circle) + content (Arrow) = concrete form (Ω-thread) = total content (effect circle), but still missing the Equal, i.e. the obop looking at the Ω-thread and operating it.
 			- The Equal is tricky, contradictory: Circle = Arrow while they are different!
 				- Make the diff equal is the nature of Circle
