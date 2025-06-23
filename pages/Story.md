@@ -2675,11 +2675,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Why the content flows and the ex-form fleets: Because it's **partial** but wanting to reach the whole! 😁
 						- This wanting is due to the **restoring force** attracting to the perfect whole.
 						- Through recording the sequence of images (ex-forms), the obop can get an (abstract) picture of the whole.
-			- 21tst, done the [health check-up](((6835b167-a703-47d7-a540-3fa9c9fd3afe))) with some meditation, and then added the first component into the ((6858b355-fba9-4e61-9f16-bc993a3df44b)): [partiality](((68554f12-c6b4-40ff-ab2d-55e8e06ad5ff))) of [all abstract forms](((685542d1-42d1-4ee7-b922-167f030cb8af))).
+			- 21tst, done the [health check-up](((6835b167-a703-47d7-a540-3fa9c9fd3afe))) with some meditation, and then added the first component into the ((6858b355-fba9-4e61-9f16-bc993a3df44b)): ((6858b355-8966-4955-abe5-d6c126901cec)) of [all abstract forms](((685542d1-42d1-4ee7-b922-167f030cb8af))).
 			  collapsed:: true
 				- Meditating throughout the waiting time in the health check-up process, i saw how my obops were automatically abstracting input signals via their view cones into their output signals feeding up the higher/deeper obops.
 					- Such an _abstraction is to **capture**_ (an abstract of) the fleeting input signals whenever they fill up the view, so that they're not lost after being cleared for the next input signals.
-				-
+				- The Trinion dynamics has continued to catch me [another day](((6858c668-39d3-4e73-8f9e-b9116343f489))).
 			- 22nd, after a whole day migrating stuff from the old smartphone to the new one, i discovered an app, VNeID, was not migrated after the old one had been factory reset.
 			  collapsed:: true
 				- Despite too much time spent on the careful migration, there was still one missing app due to its lack of use.
@@ -2688,6 +2688,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), as the deep form within, makes me prone to black/white thinking, reflecting in the tendency _toward **possibility** (yes/no) rather than **probability** (how much)_, prefering quality & qualitative thinking rather than quantity & quantitative thinking.
 					- I've attached to to it because it gives me the solid foundation to stay, to live, to do anything with a clear vision, knowing which direction to go, and so on.
 					- After being forced to try all possibitilies, i've been taught that “everything is possible”, that “everything has both sides, all aspects”, hence the matter is only the probability!
+			- 23rd, another whole day caught up in the contemplation of the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
+			  id:: 6858c668-39d3-4e73-8f9e-b9116343f489
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
