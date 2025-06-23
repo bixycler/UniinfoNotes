@@ -2467,11 +2467,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- The Equal of the obop is tricky and contradictory: “Circle = Arrow” while they are apparently different!
 				- Different things being equal is the nature of Circle, i.e. ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)).
 				- Contradiction is the nature of Arrow, i.e. ((66f3e588-9094-45af-9dff-2225c3ac39ab)).
-					- The closed form (Circle) is the image of the whole Trinion but not the whole.
-					- The Arrow is the image of the whole Trinion but not the whole.
-					- The Equal is the representative of the whole Trinion but not the whole.
 					- Contradiction is discussed in [dialectical materialism](https://en.wikipedia.org/wiki/Dialectical_materialism) via the statement “conflict is the driving force of change and transformation”.
 				- Positively, Equal is the “unifier” in dynamic sense, but negatively, Equal is the “liar” in static sense. And i usually say “*the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox) is the creator of all things!*”
+			- Any component of the Trinion is equal to the whole Trinion in some aspect but not the whole.
+				- The closed form (Circle) is the image of the whole Trinion but not the whole.
+				- The total content (circular Arrow) is the body of the whole Trinion but not the whole.
+				- The obop (Equal) is the representative of the whole Trinion but not the whole.
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
