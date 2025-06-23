@@ -2459,7 +2459,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### Trinion dynamics
 		  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
 		  [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) of content → partiality of form → ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of obop
-		  part → diff → change
+		  part ⇒ diff ⇒ change
 			- Differentiation: Every component is differentiated from the Trinion, hence equal to the Trinion in some aspect but not the whole Trinion.
 				- The closed form (Circle) is the image of the Trinion but not the whole Trinion.
 				- The total content (circular Arrow) is the body of the Trinion but not the whole Trinion.
