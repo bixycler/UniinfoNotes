@@ -2458,16 +2458,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((6678288e-699b-4325-bdba-bf6349fe0d57)) of every ((678e1c3f-6202-45aa-8527-f4bdad9927b9))
 		- ### Trinion dynamics
 		  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
-		  partiality of form → [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) of content → ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of obop
+		  [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) of content → partiality of form → ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of obop
+			- Differentiation: Every component is differentiated from the Trinion, hence equal to the Trinion in some aspect but not the whole Trinion.
+				- The closed form (Circle) is the image of the Trinion but not the whole Trinion.
+				- The total content (circular Arrow) is the body of the Trinion but not the whole Trinion.
+				- The obop (Equal) is the representative of the Trinion but not the whole Trinion.
 			- Partiality
 			  id:: 6858b355-8966-4955-abe5-d6c126901cec
 				- The Circle in the Trinion is not the whole Trinion, but just an abstract part of the whole, an image projected from the whole.
 				- Abstract form (Circle) + content (Arrow) = concrete form [((66ab75a1-f4a0-4bab-a002-8e573546623a))] = total content [((667c0031-0a87-44c9-9e98-6d45893b095f))], but still missing the Equal, i.e. the obop, that looks at the Ω-thread and operates it.
 				- The obop (Equal) is infinitely small compared to the total content, hence inherently partial relative to the Trinion. However, only through obop, can the whole Trinion be cognized, can the form be projected, and can the content be alive. That makes obop be an infinitely important point, a critical point, a ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) singularity of the whole, hence inherently whole unto itself.
-			- Differentiation: Every component is differentiated from the Trinion, hence equal to the Trinion in some aspect but not the whole Trinion.
-				- The closed form (Circle) is the image of the Trinion but not the whole Trinion.
-				- The total content (circular Arrow) is the body of the Trinion but not the whole Trinion.
-				- The obop (Equal) is the representative of the Trinion but not the whole Trinion.
 			- The Equal of the obop is tricky and contradictory: “Circle = Arrow” while they are apparently different!
 				- Different things being equal is the nature of Circle, i.e. ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)).
 				- Contradiction is the nature of Arrow, i.e. ((66f3e588-9094-45af-9dff-2225c3ac39ab)).
