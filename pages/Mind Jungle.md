@@ -3519,7 +3519,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It’s *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
 								- [Prajnaparamita Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Philological_explanation_of_the_text): 
 								  > Form is empty, emptiness is form! (色即是空，空即是色。)
-								- The “material” property of the the “form” (rūpa) is
+								- The “material” property of the the “form” (rūpa) is derived from the metaphysical theory at that time, regarding matter as composition of four elements “earth, water, air, fire”:
+								  > ... form is derived from the four elements (earth, water, air, fire)
+								  
+								  — [Rounds of the Grasping Aggregates](https://suttacentral.net/sn22.56/en/sujato)
 					- From a substantial body to an accidental image, there can be infinitely many intermediate images in between, composing a multitude of layers of images projected from the source by various obops.
 						- These infinite intermediaries are similar to the [re-re-re-...prestantatives](((684f9518-6f65-4534-b296-184d3df8dd6b))) and Hegel's [world of appearances](((6854de2b-d5f3-4cb7-9b77-e5b3f2230acd))).
 						- E.g.: from a body in the world → via intermediate images in the world (in the mind of the world itself) → to another obop in the world
