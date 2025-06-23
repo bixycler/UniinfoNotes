@@ -2460,12 +2460,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
 		  partiality of form → [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) of content → ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of obop
 			- Partiality
-				- The first Circle in the Trinion is not the whole Trinion, but just an abstract part of the whole, an image projected from the whole.
+				- The Circle in the Trinion is not the whole Trinion, but just an abstract part of the whole, an image projected from the whole.
 				- Abstract form (Circle) + content (Arrow) = concrete form [((66ab75a1-f4a0-4bab-a002-8e573546623a))] = total content [((667c0031-0a87-44c9-9e98-6d45893b095f))], but still missing the Equal, i.e. the obop, that looks at the Ω-thread and operates it.
-			- The Equal is tricky, contradictory: “Circle = Arrow” while they are apparently different!
+			- The Equal of the obop is tricky and contradictory: “Circle = Arrow” while they are apparently different!
 				- Different things being equal is the nature of Circle, i.e. ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)).
 				- Contradiction is the nature of Arrow, i.e. ((66f3e588-9094-45af-9dff-2225c3ac39ab)).
-					- Contradiction is discussed in dialectical materialism via the statement “conflict is the driving force of change and transformation”.
+					- Contradiction is discussed in [dialectical materialism](https://en.wikipedia.org/wiki/Dialectical_materialism) via the statement “conflict is the driving force of change and transformation”.
 				- Positively, Equal is the “unifier” in dynamic sense, but negatively, Equal is the “liar” in static sense. And i usually say “*the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox) is the creator of all things!*”
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
@@ -2921,7 +2921,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  The Circle transforms into _different_ ((665ca429-84e3-49ff-921e-c07d19cd99ba))s. This transformation is called the ((66f3d5ca-a982-4d12-b307-fd4812adeb3b)) (↑) which is itself _different_ from the Circle.
 			- **Postulate of Unification**
 			  id:: c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69
-			  The Circle and the Arrow are two aspects of _the same_ being called ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (⊜). This equivalence is called the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) (`=`). And when the two former components (○, ↑) meet each other, they _recognize_ each other. That recognition is denoted by the _equation_ ⟪○ = ↑⟫.
+			  The Circle and the Arrow are two aspects of _the same_ being called ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (⊜). This equivalence is called the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) (`=`). Thanks to this when the two former components (○, ↑) meet each other, they _recognize_ each other. That recognition is denoted by the _equation_ ⟪○ = ↑⟫.
 		- Three [intrinsics](((66f3e170-dc4b-45ea-8720-de4580a30d01))) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 66f3e0be-7d8c-45d6-92c3-6bad456555c9
 		  collapsed:: true
@@ -3529,7 +3529,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The “fleeting” property reflects the dynamic nature of the content arrow, e.g., the rotors (digit wheels) rotating relative to the stators (digit windows) in a ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)).
 						- Whether fleeting or lasting, the abstract forms are just images of content, hence **partial**, hence [impermanent](https://en.wikipedia.org/wiki/Impermanence).
 							- The partiality of form [leads](((6858b355-fba9-4e61-9f16-bc993a3df44b))) to its ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), change, and impermanance.
-								- Transformation: The one being formed is called “form”, but the same process deforms it. Thus, form = formed & deformed.
+								- Transformation: The one being formed is called “form”, but the same process deforms it. In other words, form is the product of formation and the object of deformation, i.e. form = formed & deformed.
 							- Due to the stability (lastingness) of the closed form, ordinary beings naturally develop attachment to the self, often under the illusion that it's permanent (everlasting).
 							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
 							  collapsed:: true
