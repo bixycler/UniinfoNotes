@@ -3503,16 +3503,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- “substantial form” = ((684f9517-6d79-45da-8a3a-e0b6b1a67d94)) ⇐ lasting body & intent
 						- “accidental form” = ((670d0138-8f58-428b-808e-24c05a5239fb)) = ((66ab6161-0306-42d5-ac16-4155c69216f5)) ⇒ fleeting image & extent
 					- ((670e0d9a-a926-49ca-951c-7013b2b29e8c))s = images of content
+					  id:: 685542d1-42d1-4ee7-b922-167f030cb8af
 						- lasting closed form = image of the ((670e363d-c1eb-402a-8283-b4a3a2e65a59))
 						- fleeting external form = a partial view of the content framed through the ((670d0183-aba2-438b-b749-1b550e4a906b))
 						  id:: 6854ed53-2c2a-4cff-9507-0b14a0f6fb63
 							- Partial view: The current state is just a partial view of the whole state space which is the self content of an atomic object and the ((684f9517-281b-4b0e-a96b-661f7cd0c668)) of a composite.
 							- The “fleeting” property reflects the dynamic nature of the content arrow, e.g., the rotors (digit wheels) rotating relative to the stators (digit windows) in a ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)).
 						- No matter fleeting nor lasting, the abstract forms are just images of content, hence **partial**, hence [impermanent](https://en.wikipedia.org/wiki/Impermanence).
-							- [Itchy](https://suttacentral.net/sn22.79/en/sujato) (Khajjanīya sutta, SN 22:79):
-							  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It’s *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
-							- [Prajnaparamita Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Philological_explanation_of_the_text): 
-							  > Form is empty, emptiness is form! (色即是空，空即是色。)
+							-
+							- Due to the stability of the closed form, the attachment to the self arises naturally in normal beings, usually with the illusion that it's permanent.
+							- In Buddhist texts, form is defined through change and emptiness.
+							  collapsed:: true
+								- [Itchy sutta](https://suttacentral.net/sn22.79/en/sujato) (Khajjanīya sutta, SN 22:79):
+								  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It’s *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
+								- [Prajnaparamita Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Philological_explanation_of_the_text): 
+								  > Form is empty, emptiness is form! (色即是空，空即是色。)
 					- From a substantial body to an accidental image, there can be infinitely many intermediate images in between, composing a multitude of layers of images projected from the source by various obops.
 						- These infinite intermediaries are similar to the [re-re-re-...prestantatives](((684f9518-6f65-4534-b296-184d3df8dd6b))) and Hegel's [world of appearances](((6854de2b-d5f3-4cb7-9b77-e5b3f2230acd))).
 						- E.g.: from a body in the world → via intermediate images in the world (in the mind of the world itself) → to another obop in the world
