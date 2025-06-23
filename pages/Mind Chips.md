@@ -1,4 +1,5 @@
 - Trinion dynamics: partial (A in all) → diff (A vs not A) → change (diff from self)
+  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
 	- The first Circle is not the whole, but just an abstract part projecting an image of the whole.
 	- The abstract form (Circle) + content (Arrow) = concrete form (Ω-thread) = total content (effect circle), but still missing the Equal, i.e. the obop looking at the Ω-thread and operating it.
 	- The Equal is tricky, contradictory: Circle = Arrow while they are different!
