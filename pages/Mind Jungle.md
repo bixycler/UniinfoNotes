@@ -2461,10 +2461,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  partiality of form → [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) of content → ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of obop
 			- Partiality
 				- The first Circle in the Trinion is not the whole Trinion, but just an abstract part of the whole, an image projected from the whole.
-				- Abstract form (Circle) + content (Arrow) = concrete form (Ω-thread) = total content (effect circle), but still missing the Equal, i.e. the obop, that looks at the Ω-thread and operates it.
-			- The Equal is tricky, contradictory: Circle = Arrow while they are different!
-				- Make the diff equal is the nature of Circle
-				- Contradiction (negation conflict) is the nature of Arrow (as discussed in dialectical materialism)
+				- Abstract form (Circle) + content (Arrow) = concrete form [((66ab75a1-f4a0-4bab-a002-8e573546623a))] = total content [((667c0031-0a87-44c9-9e98-6d45893b095f))], but still missing the Equal, i.e. the obop, that looks at the Ω-thread and operates it.
+			- The Equal is tricky, contradictory: “Circle = Arrow” while they are apparently different!
+				- Different things being equal is the nature of Circle, i.e. ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)).
+				- Contradiction is the nature of Arrow, i.e. ((66f3e588-9094-45af-9dff-2225c3ac39ab)).
+					- Contradiction is discussed in dialectical materialism .
 				- Positively, Equal is the “unifier” in dynamic sense, but negatively, Equal is the “liar” in static sense. And i say “*the Liar Paradox is the creator of all things!*”
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
@@ -2942,6 +2943,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				   Just like a spinning top, some object looks static because it's moving in circle, its motion is looping back, it's going back and forth (🗘).
 					- ![Intrinsic dynamic of circle.gif](../assets/Uniinfo/Intrinsic dynamic of circle.gif){:width 50, :height 50}
 				- “Every equal is in the shape of arrows (⇌).”
+				  id:: 684f9517-8a24-4709-a62a-bd075acb9d2c
 					- The balance between things is always a [dynamic equilibrium](https://en.wikipedia.org/wiki/Dynamic_equilibrium) where the exchange between them cancels them out. For example, in mechanics, we have balance between force vectors, in chemistry, we have balance between reaction directions, etc.
 					- The Equal is not a trivial equality of identical things, i.e. ⟪$A = A$⟫, but the equality between different things, e.g. ⟪$A = B$⟫.
 						- Any meaningful equation ⟪$A = B$⟫ presumes that $A$ differs $B$ in some aspect, at least in their names.
