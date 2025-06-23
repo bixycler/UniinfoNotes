@@ -1223,7 +1223,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
 			- effect circle
 			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
@@ -2456,6 +2456,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- **Universal content**
 			  id:: 678e1d31-4874-4df6-bfb4-60822a6b5546
 			  ((6678288e-699b-4325-bdba-bf6349fe0d57)) of every ((678e1c3f-6202-45aa-8527-f4bdad9927b9))
+		- ### Trinion dynamics
+		  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
+		  partiality of form → differentiation of content → change of obop
+			- The first Circle is not the whole, but just an abstract part projecting an image of the whole.
+			- The abstract form (Circle) + content (Arrow) = concrete form (Ω-thread) = total content (effect circle), but still missing the Equal, i.e. the obop looking at the Ω-thread and operating it.
+			- The Equal is tricky, contradictory: Circle = Arrow while they are different!
+				- Make the diff equal is the nature of Circle
+				- Contradiction (negation conflict) is the nature of Arrow (as discussed in dialectical materialism)
+				- Positively, Equal is the “unifier” in dynamic sense, but negatively, Equal is the “liar” in static sense. And i say “*the Liar Paradox is the creator of all things!*”
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
@@ -2937,15 +2946,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Any meaningful equation ⟪$A = B$⟫ presumes that $A$ differs $B$ in some aspect, at least in their names.
 						- In this sense, the Equal is not only a passive property but an active “equalizer” that makes different things equal, a “balancer” that balances the imbalance.
 						- Here, the Equal is the one that brings differentiated things back together, to be one again, hence the “unification point” in the circle of ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)).
-				- Trinion dynamics
-				  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
-				  partiality of form → differentiation of content → change of obop
-					- The first Circle is not the whole, but just an abstract part projecting an image of the whole.
-					- The abstract form (Circle) + content (Arrow) = concrete form (Ω-thread) = total content (effect circle), but still missing the Equal, i.e. the obop looking at the Ω-thread and operating it.
-					- The Equal is tricky, contradictory: Circle = Arrow while they are different!
-						- Make the diff equal is the nature of Circle
-						- Contradiction (negation conflict) is the nature of Arrow (as discussed in dialectical materialism)
-						- Positively, Equal is the “unifier” in dynamic sense, but negatively, Equal is the “liar” in static sense. And i say “*the Liar Paradox is the creator of all things!*”
+						- Diagram
+							- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=100)
 			- ### Intrinsic Balance
 			  id:: a95f4693-fe48-4a60-b1e3-5897a40efc5a
 				- The macro balance of the whole (⊜)
