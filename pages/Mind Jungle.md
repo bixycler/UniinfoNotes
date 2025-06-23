@@ -3509,16 +3509,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6854ed53-2c2a-4cff-9507-0b14a0f6fb63
 							- Partial view: The current state is just a partial view of the whole state space which is the self content of an atomic object and the ((684f9517-281b-4b0e-a96b-661f7cd0c668)) of a composite.
 							- The “fleeting” property reflects the dynamic nature of the content arrow, e.g., the rotors (digit wheels) rotating relative to the stators (digit windows) in a ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)).
-						- No matter whether fleeting or lasting, the abstract forms are just images of content, hence **partial**, hence [impermanent](https://en.wikipedia.org/wiki/Impermanence).
+						- Whether fleeting or lasting, the abstract forms are just images of content, hence **partial**, hence [impermanent](https://en.wikipedia.org/wiki/Impermanence).
 							- The partiality of form leads to its transformation, change, and impermanance.
 								- Transformation: The one being formed is called “form”, but the same process deforms it. Thus, form = formed & deformed.
-							- Due to the stability of the closed form, the attachment to the self arises naturally in normal beings, usually with the illusion that it's permanent.
+							- Due to the stability (lastingness) of the closed form, ordinary beings naturally develop attachment to the self, often under the illusion that it's permanent (everlasting).
 							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
 							  collapsed:: true
 								- [Itchy sutta](https://suttacentral.net/sn22.79/en/sujato) (Khajjanīya sutta, SN 22:79):
 								  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It’s *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
 								- [Prajnaparamita Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Philological_explanation_of_the_text): 
 								  > Form is empty, emptiness is form! (色即是空，空即是色。)
+								- The “material” property of the the “form” (rūpa) is
 					- From a substantial body to an accidental image, there can be infinitely many intermediate images in between, composing a multitude of layers of images projected from the source by various obops.
 						- These infinite intermediaries are similar to the [re-re-re-...prestantatives](((684f9518-6f65-4534-b296-184d3df8dd6b))) and Hegel's [world of appearances](((6854de2b-d5f3-4cb7-9b77-e5b3f2230acd))).
 						- E.g.: from a body in the world → via intermediate images in the world (in the mind of the world itself) → to another obop in the world
