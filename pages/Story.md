@@ -2665,8 +2665,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The conflict between the lasting in-form and the fleeting ex-form (and content) has been the main curiosity of mine from the early time of Unïnfo contemplation.
 						- First thing i saw (long before Covid-19) was the [crystallization](((66f4e208-37c7-4749-a448-0722f7f7af20))) of content into form, which makes the crystal form stable.
 						- Then (near Covid-19), beside such great quantity of crystallization, i saw the perfect quality of “being ((667d15c6-67c4-4998-a549-c8b3f9de3d60))” contributing to much of the stability of the in-form.
-						- This year 2025, i get back to wonder the fleeting nature of the ex-form: the partiality, the dynamic nature of content arrow and time, etc.
+						- This year 2025, i get back to wonder the fleeting nature of the ex-form: the **partiality**, the dynamic nature of content arrow and time, etc.
 					- History of the notion of “partial content”
+					  id:: 68554f12-c6b4-40ff-ab2d-55e8e06ad5ff
 						- From the pre-Obsidian note (Mars 2024) on [CIE](https://bixycler.github.io/Uniinfo/Metaphysics/CIE.html) about the “Triangle inequality” $c > i⋅e$ and $i > c⋅1/e$
 						- → pre-Logseq (Obsidian) note (April-May 2024) about [form + partial content](((684f951b-4049-482f-859a-7afb05cce124)))
 						- → ((670e3842-d910-4776-a3e8-17561a20b556)) (Oct 2024, originally "partial content")
@@ -2674,7 +2675,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Why the content flows and the ex-form fleets: Because it's **partial** but wanting to reach the whole! 😁
 						- This wanting is due to the **restoring force** attracting to the perfect whole.
 						- Through recording the sequence of images (ex-forms), the obop can get an (abstract) picture of the whole.
-			- 21tst, done the [health check-up](((6835b167-a703-47d7-a540-3fa9c9fd3afe))) with some meditation, and
+			- 21tst, done the [health check-up](((6835b167-a703-47d7-a540-3fa9c9fd3afe))) with some meditation, and then added the first component into the [Trinion dynamics](): [partiality](((68554f12-c6b4-40ff-ab2d-55e8e06ad5ff))).
 			  collapsed:: true
 				- Meditating throughout the waiting time in the health check-up process, i saw how my obops were automatically abstracting input signals via their view cones into their output signals feeding up the higher/deeper obops.
 			- 22nd, after a whole day migrating stuff from the old smartphone to the new one, i discovered an app, VNeID, was not migrated after the old one had been factory reset.
@@ -2684,6 +2685,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- This event echos my ((6678d594-9819-4624-abd6-d4ec62b3874f)) with both pros and cons.
 					- The [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), as the deep form within, makes me prone to black/white thinking, reflecting in the tendency _toward **possibility** (yes/no) rather than **probability** (how much)_, prefering quality & qualitative thinking rather than quantity & quantitative thinking.
 					- I've attached to to it because it gives me the solid foundation to stay, to live, to do anything with a clear vision, knowing which direction to go, and so on.
+					- After being forced to try all possibitilies, i've been taught that “everything is possible”, that “everything has both sides, all aspects”, hence the matter is only the probability!
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
