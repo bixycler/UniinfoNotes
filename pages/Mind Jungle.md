@@ -2514,7 +2514,9 @@ id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Non-directional relation “differ[ent,ence] from” versus directional relation “differ[ent,ence] from”
 				  collapsed:: true
-					- In current English standard, while there are two-sided relation construct
+					- In current English standard, while there are two-sided relational constructs like “compare with”, “disagree with”, there's no such a parallel relational construct for difference like “differ with”.
+						- In the current standard, people just use the directional construct “differ from (a base/reference)” in all cases.
+						- In British English, “differ with”
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
