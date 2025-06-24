@@ -2548,6 +2548,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- {{video https://youtu.be/zcqZHYo7ONs}}
 								- In philosophy, the East has the idiom “great wisdom appears as foolishness” ([大智若愚](https://baike.baidu.com/item/%E5%A4%A7%E6%99%BA%E8%8B%A5%E6%84%9A)), and the West has [Socratic irony](https://en.wikipedia.org/wiki/Socrates#Socratic_ignorance) “I know that I know nothing!”
 									- Tao Te Ching: [Ch.41](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_41_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%B8%80%E7%AB%A0)) ([DDK41](https://nhantu.net/TonGiao/DaoDucKinh/DDK41.htm)): 廣德若不足
+									  “Quảng đức nhược bất túc” 
 									  “Those with noble Virtue seem lacking”
 									  “Người có Đức lớn dường như thiếu Đức”
 		- TODO Migrate [[FoC]]
