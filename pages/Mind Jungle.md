@@ -1775,7 +1775,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- [framing](https://en.wikipedia.org/wiki/Framing_(visual_arts)) and [picture frame](https://en.wikipedia.org/wiki/Picture_frame) in visual arts
 				- [reference frame](https://en.wikipedia.org/wiki/Frame_of_reference) in physics
-				- [framing](https://en.wikipedia.org/wiki/Framing_(social_sciences)) in social sciences
+				- [framing](https://en.wikipedia.org/wiki/Framing_(social_sciences)) in social sciences, like [metaphorical framing](https://en.wikipedia.org/wiki/Metaphorical_framing)
 				- frameworks in various fields: [conceptual framework](https://en.wikipedia.org/wiki/Conceptual_framework), [logical framework](https://en.wikipedia.org/wiki/Logical_framework), etc.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((685a480b-1739-4057-aaa8-c099dc95142e)) = boundary of ((685a47e4-21f2-40d6-b80c-d3adf401489b)) = determinator of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), sim, diff
