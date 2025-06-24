@@ -2691,7 +2691,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  id:: 6858c668-39d3-4e73-8f9e-b9116343f489
 				- Leaving company, i visited Mr. Huy's house to borrow his diving fins and talked with him after many (~8) years haven't seen.
 				- Returning home, i was caught up in the contemplation of [the structure of viewframe](((685a58f3-6393-48df-966b-24b270a92b58))) as a counterpart of CIE... for the whole night... making this morning (24th) off for sleeping.
-			- 24th,...
+			- 24th, added discussion: ((685a97df-925a-44b4-bae6-235dd237f196))
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true

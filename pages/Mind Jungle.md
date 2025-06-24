@@ -1483,7 +1483,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Projection is the ((671b6f87-7492-4eab-af49-e3c89bc8c860)) from the external world in, denoted by the solid-head arrow.
 					- Viewing arrow is from the eye out, denoted by the hollow-head arrow.
 			- ((66725725-f76a-4328-b162-f469b87e871b))
-id:: 66725708-3dc4-43f5-a180-6b331c6a160f
+			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
 				  id:: 673a17a7-0094-4f4d-bd79-525e7f803b50
 				  collapsed:: true
@@ -2513,6 +2513,7 @@ id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- Positively, Equal is the “unifier” in dynamic sense, but negatively, Equal is the “liar” in static sense. And i usually say “*the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox) is the creator of all things!*”
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Bidirectional relation “differ[ent,ence] with” versus unidirectional relation “differ[ent,ence] from”
+				  id:: 685a97df-925a-44b4-bae6-235dd237f196
 				  collapsed:: true
 					- In current English standard, while there are two-sided relational constructs like “compare with”, “disagree with”, there's no such a parallel construct for difference like “differ with”.
 						- In the current standard, people just use the directional construct “differ from (a base/reference)” in all cases.
