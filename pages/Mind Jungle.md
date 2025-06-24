@@ -2542,7 +2542,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- In Unïnfo, instead of static symmetric relations (like “distance between 2 points”), most of them are circular relations, like [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), e.g. $O_0 → O_1 → O_2 → ... → O_0$.
 							- The circularity of relations gives rise to paradoxical characteristics, e.g.: 
 							  > $O_0$ is very similar to $O_1$ but very different from $O_1$.
-								- This is paradox usually emerges in Quantum physics, like the [3-polarizer paradox](https://www.informationphilosopher.com/solutions/experiments/dirac_3-polarizers/).
+								- These paradoxes usually emerge in Quantum physics, like the [3-polarizer paradox](https://www.informationphilosopher.com/solutions/experiments/dirac_3-polarizers/).
 								  collapsed:: true
 									- [Bell's Theorem: The Quantum Venn Diagram Paradox](https://youtu.be/zcqZHYo7ONs)
 										- {{video https://youtu.be/zcqZHYo7ONs}}
