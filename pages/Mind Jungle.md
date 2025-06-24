@@ -1357,13 +1357,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 6653769c-3334-46fa-a1d5-4ce6a7fc23e8
 		  collapsed:: true
 		  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c83149-6ee5-4a8c-b4eb-0308d1a11535)), ((66c82fd4-41e3-43b0-b850-b2b68be68ad5))
+		  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((685a9913-6bf4-41e4-89d1-5000a2b2f9d5))
 			- project
 			  id:: 66c83149-6ee5-4a8c-b4eb-0308d1a11535
 			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
 			- look
 			  id:: 66c82fd4-41e3-43b0-b850-b2b68be68ad5
 			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
-			-
+			- projectional
+			  id:: 685a9913-6bf4-41e4-89d1-5000a2b2f9d5
+			  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((671b6f87-7492-4eab-af49-e3c89bc8c860)) from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s image of that object. Projection is a special kind of ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) where the target form (image) is more ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) than the source form (object). This general projection via arrow is called ((670dd4d7-ed37-4954-8379-63138fa072d6)). That arrow can be a cone, hence ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)), or can be implemented by thread winding, hence ((67654ecb-896a-4421-95e5-f72c07fc62a4)), or by wrapping the thread around an axis, hence ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
 				- Projection is the foundation of all arrows, defining the direction of arrow.
 				- In maths, a [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) is an [idempotent](https://en.wikipedia.org/wiki/Idempotence) [transformation](https://en.wikipedia.org/wiki/Transformation_(function)).
@@ -2533,7 +2536,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- This construct is parallel with similar constructs: “compare with”, the archaic [“differ with” = “disagree with”](https://www.oxfordlearnersdictionaries.com/definition/english/differ), and the Vietnamese “khác với”.
 							- “difference between A and B” = “difference between B and A” is the extent (magnitude) of bidirectional `diff` relation between $B$ and $A$, i.e. $BA = |\overleftrightarrow{BA}| = |B ↔ A| = (|A - B| + |B - A|)/2$.
 						- 🧭 The direction of relations is crucial in Unïnfo, since both `sim` and `diff` relations are not symmetric by default.
-							- Due to the ((66c88055-a994-4e59-a7dc-83f3331a6e1d)), projectional nature of relation in Unïnfo, 
+							- Due to the ((66c88055-a994-4e59-a7dc-83f3331a6e1d)), ((685a9913-6bf4-41e4-89d1-5000a2b2f9d5)) nature of relation in Unïnfo, 
 							  “A differs from B” doesn't mean “B differs from A”, and 
 							  “A is similar to B” doesn't mean “B is similar to A”.
 							- In Unïnfo, instead of static symmetric relations (like “distance between 2 points”), most of them are circular relations, like [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), e.g. $O_0 → O_1 → O_2 → ... → O_0$.
