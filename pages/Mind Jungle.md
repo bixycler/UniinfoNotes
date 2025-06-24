@@ -2517,8 +2517,10 @@ id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 					- In current English standard, while there are two-sided relational constructs like “compare with”, “disagree with”, there's no such a parallel construct for difference like “differ with”.
 						- In the current standard, people just use the directional construct “differ from (a base/reference)” in all cases.
 						- In British English, [“different to”](https://dictionary.cambridge.org/grammar/british-grammar/different-from-different-to-or-different-than) is also used in place of “different from”.
-						- The only
-					- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), “diff from”, “diff to”, and the newly coined “diff with” have clearly separate meanings.
+						- The only symmetric construct of difference is “the difference between A and B”, but it's more analytical than relational.
+					- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), “diff from”, “diff to”, “difference between”, and the newly coined “diff **with**” have clearly separate meanings.
+						- “A differs from B” = “A is different from B” is the relation from $B$ to $A$, i.e. $B → A$.
+						- “A's difference from B” = “A is different from B” is the relation from $B$ to $A$, i.e. $B → A$.
 						- “diff with”
 							- Note: Don't confuse this new construct with the non-relational expression of “difference due to a factor”, e.g. “She looks different *with new dress*” = “*In new dress*, she looks different”  or “He acts different *with alcohol*” = “Under the influence of alcohol, he acts different.”
 		- TODO Migrate [[FoC]]
