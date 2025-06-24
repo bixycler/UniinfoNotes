@@ -2689,7 +2689,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- After being forced to try all possibitilies, i've been taught that “everything is possible”, that “everything has both sides, all aspects”, hence the matter is only the probability!
 			- 23rd, another whole day caught up in the contemplation of the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
 			  id:: 6858c668-39d3-4e73-8f9e-b9116343f489
-				- Leaving company, i visited Mr. Huy's house to borrow his diving fins and
+				- Leaving company, i visited Mr. Huy's house to borrow his diving fins and talked with him after many (~8) years haven't seen.
 				- Returning home, i was caught up in the contemplation of [the structure of viewframe](((685a58f3-6393-48df-966b-24b270a92b58))) as a counterpart of CIE... for the whole night... making this morning (24th) off for sleeping.
 			- 24th,...
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
