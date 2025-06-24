@@ -1483,7 +1483,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Projection is the ((671b6f87-7492-4eab-af49-e3c89bc8c860)) from the external world in, denoted by the solid-head arrow.
 					- Viewing arrow is from the eye out, denoted by the hollow-head arrow.
 			- ((66725725-f76a-4328-b162-f469b87e871b))
-			  collapsed:: true
+id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
 				  id:: 673a17a7-0094-4f4d-bd79-525e7f803b50
 				  collapsed:: true
@@ -1515,22 +1515,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- “vanishing lines” is also ambiguously used to refer to the image of parallel lines, as shown [in Merriam Webster dictionary](https://www.merriam-webster.com/dictionary/vanishing%20line) and some pages like [this article by Kiyeon Kim](https://www.tomboweurope.com/en/inspiration/perspective-drawing)
 				- The past [light cone](https://en.wikipedia.org/wiki/Light_cone) in physics is a ((667251ec-d4f7-4c09-adff-73e04a4b22ed)).
 				- A ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) in a network is a ((667252dc-e610-4d07-bcd0-9ea6fb4499fd)).
-			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- ((685a480b-1739-4057-aaa8-c099dc95142e)) = boundary of ((685a47e4-21f2-40d6-b80c-d3adf401489b)) = determinator of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), sim, diff
-				  collapsed:: true
-				  :LOGBOOK:
-				  CLOCK: [2025-06-24 Tue 14:51:35]
-				  :END:
-					- (scope, viewframe) = (base, circumference) of viewcone
-					- Whole scope = no diff, no change; partial scope => diff => change
-					- The frame O is the in-form, a part of the self (intent, obop), hence unchanged;
-						- what's seen in the frame at position x is the content O(x), the object, being subject to change;
-						- the position x is the extent, ex-form, image of object.
-						- ⇒ Thus, the frame is a function projecting content to extent.
-					- This viewcone structure is the metaphysical counterpart of the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in Unithread.
-					- The self in thread, change, transformation:
-						- change: Change requires a thread of self.
-						- The continuity of a thread is determined by the obop observing that thread. Hence, a thread of subject is intrinsic to itself, while a thread of object is extrinsic.
 			- #### tree view
 			  id:: 667252dc-e610-4d07-bcd0-9ea6fb4499fd
 			  collapsed:: true
@@ -1789,6 +1773,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [reference frame](https://en.wikipedia.org/wiki/Frame_of_reference) in physics
 				- [framing](https://en.wikipedia.org/wiki/Framing_(social_sciences)) in social sciences
 				- frameworks in various fields: [conceptual framework](https://en.wikipedia.org/wiki/Conceptual_framework), [logical framework](https://en.wikipedia.org/wiki/Logical_framework), etc.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((685a480b-1739-4057-aaa8-c099dc95142e)) = boundary of ((685a47e4-21f2-40d6-b80c-d3adf401489b)) = determinator of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), sim, diff
+				  id:: 685a58f3-6393-48df-966b-24b270a92b58
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-06-24 Tue 14:51:35]
+				  :END:
+					- (scope, viewframe) = (base, circumference) of viewcone
+					- Whole scope = no diff, no change; partial scope => diff => change
+					- The frame O is the in-form, a part of the self (intent, obop), hence unchanged;
+						- what's seen in the frame at position x is the content O(x), the object, being subject to change;
+						- the position x is the extent, ex-form, image of object.
+						- ⇒ Thus, the frame is a function projecting content to extent.
+					- This viewcone structure is the metaphysical counterpart of the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in Unithread.
+					- The self in thread, change, transformation:
+						- change: Change requires a thread of self.
+						- The continuity of a thread is determined by the obop observing that thread. Hence, a thread of subject is intrinsic to itself, while a thread of object is extrinsic.
 		- worldview
 		  id:: 6731b8c8-0ab1-4c16-8783-408258f67a4a
 		  the ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)) about the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
@@ -2908,7 +2909,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)): ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)), ((66f3e588-9094-45af-9dff-2225c3ac39ab)), ((a95f4693-fe48-4a60-b1e3-5897a40efc5a))
 				- ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2))
 				- The ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)): ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) = ((665ca429-84e3-49ff-921e-c07d19cd99ba)) ☉ ((6678288e-699b-4325-bdba-bf6349fe0d57))
-					- ((66723642-58f1-4a74-bba3-0108f14c6bac))
+					- ((66723642-58f1-4a74-bba3-0108f14c6bac)): ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)), ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
 					- ((678e2046-54ac-4284-865d-6f3e38f589a1))
 				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
 					- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}

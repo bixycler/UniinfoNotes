@@ -2648,8 +2648,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Và chỉ tới khi kết hợp cả nghĩa Nôm lẫn nguồn gốc Hy Lạp của "atom" thì mình mới phân biệt được: 原 = "nguồn gốc" (nghĩa Hán) → "chưa bị thay đổi" (nghĩa Hán, như "nguyên liệu" 原料)  → "còn nguyên vẹn, không bị sứt mẻ, nguyên khối" (nghĩa Nôm, như "số nguyên")
 							- ⇒ "nguyên tử" 原子 = "hạt nguyên khối" = "hạt không thể phân chia" = nghĩa gốc Hy Lạp của "atom".
 					- Nghĩa "nguyên vẹn" (whole) thì chữ Hán dùng chữ "chỉnh" 整: "hoàn chỉnh", "chỉnh chu", nên "số nguyên" bên TQ và Nhật gọi là "chỉnh số". Nãy mình chả nhớ vụ này, cứ phang tiếng Việt vào tra tiếng Nhật "nguyên số" sao tìm mãi ko ra... hồi mới nhớ, a thì ra là "chỉnh số" chứ ko phải "nguyên số"! 😁
-"phủ đầu nguyên thủ quốc gia" (撫頭元首國家) (cũng có thể đọc thành "vỗ đầu nguyên thủ quốc gia" 😂) Trong cụm này có 3 chữ liên tiếp đều nghĩa "đầu":
-
+					  "phủ đầu nguyên thủ quốc gia" (撫頭元首國家) (cũng có thể đọc thành "vỗ đầu nguyên thủ quốc gia" 😂) Trong cụm này có 3 chữ liên tiếp đều nghĩa "đầu":
 						- Đầu 頭 = cái đầu (đầu người, đầu sào, đỉnh núi), cũng có nghĩa "kẻ đứng đầu" như trong "đầu sỏ"
 						- Nguyên 元 = đầu tiên
 						- Thủ 首 = (kẻ/cái) đứng đầu ("thủ trưởng", "thủ đô"), cũng có nghĩa là cái đầu như trong "thủ cấp"
@@ -2690,6 +2689,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- After being forced to try all possibitilies, i've been taught that “everything is possible”, that “everything has both sides, all aspects”, hence the matter is only the probability!
 			- 23rd, another whole day caught up in the contemplation of the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
 			  id:: 6858c668-39d3-4e73-8f9e-b9116343f489
+				- Leaving company, i visited Mr. Huy's house to borrow his diving fins and
+				- Returning home, i was caught up in the contemplation of [the structure of viewframe](((685a58f3-6393-48df-966b-24b270a92b58))) as a counterpart of CIE... for the whole night... making this morning (24th) off for sleeping.
+			- 24th,...
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
