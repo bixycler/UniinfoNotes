@@ -2873,6 +2873,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)): ((66f3e66a-8afb-4b20-bf85-111bc4aee09c)), ((66f3e588-9094-45af-9dff-2225c3ac39ab)), ((a95f4693-fe48-4a60-b1e3-5897a40efc5a))
 				- ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2))
 				- The ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)): ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) = ((665ca429-84e3-49ff-921e-c07d19cd99ba)) ☉ ((6678288e-699b-4325-bdba-bf6349fe0d57))
+					- ((66723642-58f1-4a74-bba3-0108f14c6bac))
 					- ((678e2046-54ac-4284-865d-6f3e38f589a1))
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) [((66f3c32c-9b5a-4e5a-95cc-411256b40b4f))]: ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) ÷ ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) = ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))
 				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
@@ -2977,6 +2978,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66f3f2ca-cb22-4357-82aa-c8fcf8cc7b3e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)) mean that [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) of the Trinion is not an [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) and [absolute](https://www.newworldencyclopedia.org/entry/Absolute_(philosophy)) “[pre-existence](https://en.wikipedia.org/wiki/Pre-existence)”, but a _[dynamic Existence](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) in harmony with both [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69)))_. This property of the Trinion is called ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) (Vietnamese “vô nguyên”, Chinese “無元”), which means *“the [absence](https://en.wikipedia.org/wiki/Śūnyatā) of [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) [original essence](https://en.wikipedia.org/wiki/Essence)”*, and should not be confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism).
+			  collapsed:: true
 				- Moreover, the Trinion unifies the [emptiness](https://en.wikipedia.org/wiki/Śūnyatā) in the invisible world with the [infinity](https://en.wikipedia.org/wiki/Infinity) in the visible world, thus sometimes is denoted with a circled infinity symbol “♾”.
 				- The vacantism is also expressed in Dao De Jing as the following:
 					- id:: 684f9517-7e89-4efb-9b6c-16bf3458ce67
