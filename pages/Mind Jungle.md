@@ -1223,7 +1223,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) (of a body) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) (that body previously), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
 			- effect circle
 			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
@@ -1768,7 +1768,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- lens
 			  id:: 685a50e9-6854-42a5-a6cf-5190765881ff
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1)) is the boundary of the ((685a47e4-21f2-40d6-b80c-d3adf401489b)), i.e. the circumference of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))'s base, defining the limit of the ((66723642-58f1-4a74-bba3-0108f14c6bac)) as well as the underlying structure on which the view is created. While “scope” and “viewcone” are about the content of the view, “viewframe” is about the structure of the view imposed by the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1)) is the boundary of the ((685a47e4-21f2-40d6-b80c-d3adf401489b)), i.e. the circumference of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))'s base, defining the limit of the ((66723642-58f1-4a74-bba3-0108f14c6bac)) as well as the underlying structure on which the view is created. While “scope” and “viewcone” are about the content of the view, “viewframe” is about the structure of the view imposed by the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)).
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- [framing](https://en.wikipedia.org/wiki/Framing_(visual_arts)) and [picture frame](https://en.wikipedia.org/wiki/Picture_frame) in visual arts
 				- [reference frame](https://en.wikipedia.org/wiki/Frame_of_reference) in physics
@@ -3586,7 +3586,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Links: [fb post in Nov 2023](https://www.facebook.com/lexuandinhct/videos/728404692637310), [GeoGebra applet](https://www.geogebra.org/m/j7czr4s5)
 		- transformation
 		  id:: 669a58b9-eb34-41cd-8605-02e29b07e1b5
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a ((67fcc51e-2e15-4f82-8b7e-0e2bd0170d60)) ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a ((67fcc52c-7f2b-4d50-9cef-f5edc45c4d7c)) form of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))). In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((67f4eaf0-b935-45ea-b8ba-b06cbfba5d23)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) is an ((667d15b7-6364-49a9-ac58-c64d2a992b63)) from a ((67fcc51e-2e15-4f82-8b7e-0e2bd0170d60)) ((665ca429-84e3-49ff-921e-c07d19cd99ba)) to a ((67fcc52c-7f2b-4d50-9cef-f5edc45c4d7c)) form of [the same content](((678e2046-54ac-4284-865d-6f3e38f589a1))), i.e. the ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of form. In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)), ((67f4eaf0-b935-45ea-b8ba-b06cbfba5d23)).
 			  collapsed:: true
 				- ![TransformationByViewcones](https://docs.google.com/drawings/d/e/2PACX-1vQkpgx-mFPxBN8-TEgjmYe3VUhnPDxCoT62R43d3qyz5VzxJoZkZtczBrbMNN3dCEuYSoC9_dpihS0I/pub?w=320)
 			- source

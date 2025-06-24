@@ -3,8 +3,7 @@
 	- Whole scope = no diff, no change; partial scope => diff => change
 	- The frame O is the in-form, a part of the self (intent, obop), hence unchanged; what's seen in the frame at position x is the content O(x), the object, subject to change; the position x is the extent, ex-form, image of object. Thus, the frame is a function projecting content to extent.
 - The self in thread, change, transformation:
-	- change: In particular, the change of an object O (in time, space, spacetime, or configuration space) from position A to position B is the difference between O at A and O at B, i.e. $O_B - O_A$. The change of form is transformation. Change requires a thread of self.
-	- Transformation is ..., i.e. the change of form.
+	- change: Change requires a thread of self.
 	- The continuity of a thread is determined by the obop observing that thread. Hence, a thread of subject is intrinsic to itself, while a thread of object is extrinsic.
 - ## Current Chips
 - ## 2025 Mind Chips
