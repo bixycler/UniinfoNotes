@@ -2520,10 +2520,10 @@ id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 						- The only symmetric construct of difference is “the difference between A and B”, but it's more analytical than relational.
 					- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), “diff from”, “diff to”, “difference between”, and the newly coined “diff **with**” have clearly separate meanings.
 						- Directional constructs
-							- “A differs from B” = “A is different from B” is the relation from $B$ to $A$, i.e. $\overrightarrow{BA} = B → A = A - B$.
-							- “A's difference from B” is the extent of the relation from $B$ to $A$, i.e. $BA= |\overrightarrow{BA}| = |B → A| = |A - B|$.
-							- “B differs to A” = “B is different to A” is the relation from $B$ to $A$, i.e. $\overrightarrow{BA} = B → A = A - B$.
-							- “B's difference to A” is the extent of the relation from $B$ to $A$, i.e. $BA= |\overrightarrow{BA}| = |B → A| = |A - B|$.
+							- “A's difference from B” is the `diff` relation from $B$ to $A$, i.e. $\overrightarrow{BA} = B → A = A - B$.
+							- “A differs from B” = “A is different from B” is the quality of the `diff` relation from $B$ to $A$, i.e. $BA= |\overrightarrow{BA}| = |B → A| = |A - B|$.
+							- “B differs to A” = “B is different to A” is the `diff` relation from $B$ to $A$, i.e. $\overrightarrow{BA} = B → A = A - B$.
+							- “B's difference to A” is the extent of the `diff` relation from $B$ to $A$, i.e. $BA= |\overrightarrow{BA}| = |B → A| = |A - B|$.
 						- Non-directional constructs
 							- “diff with”
 								- Note: Don't confuse this new construct with the non-relational expression of “difference due to a factor”, e.g. “She looks different *with new dress*” = “*In new dress*, she looks different”  or “He acts different *with alcohol*” = “Under the influence of alcohol, he acts different.”
