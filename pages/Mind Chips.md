@@ -1,4 +1,4 @@
-- frame (viewport) = circumference of scope (scope = base of viewcone) = determinator of diff, sim, self
+- viewframe = boundary of scope (scope = base of viewcone) = determinator of diff, sim, self
 	- Whole scope = no diff, no change; partial scope => diff => change
 	- The scope O is the in-form, a part of the self (intent, obop), hence unchanged; what's seen in the scope at position x is the content O(x), the object, subject to change; the position x is the extent, ex-form, image of object. Thus, the scope is a function protecting content to extent.
 - The self in thread, change, transformation:
