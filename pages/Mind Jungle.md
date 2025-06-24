@@ -2525,10 +2525,10 @@ id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 							- “A differs from B” = “B differs to A” = “A is different from B” = “B is different to A” is the qualification of the `diff` relation from $B$ to $A$, i.e. $\overrightarrow{BA} ≠ 0 ⟺ A - B ≠ 0 ⟺ A ≠ B$.
 						- Symmetric constructs
 							- “A's difference with B” = “B's difference with A” is the bidirectional `diff` relation between $B$ and $A$, i.e. $\overleftrightarrow{BA} = B ↔ A = (A - B) ∧ (B - A)$.
-							- “A differs B” = “B differs A” = “A is different with B” = “B is different with A” is the qualification of the bidirectional `diff` relation between $B$ and $A$, i.e. $\overleftrightarrow{BA} ≠ 0 ⟺ (A - B ≠ 0) ∧ (B - A ≠ 0) ⟺ (A ≠ B) ∧ (B ≠ A)$.
+							- “A differs [with] B” = “B differs [with] A” = “A is different with B” = “B is different with A” is the qualification of the bidirectional `diff` relation between $B$ and $A$, i.e. $\overleftrightarrow{BA} ≠ 0 ⟺ (A - B ≠ 0) ∧ (B - A ≠ 0) ⟺ (A ≠ B) ∧ (B ≠ A)$.
 								- Notes
 									- Don't confuse this new construct with the non-relational expression of “difference due to a factor”, e.g. “She looks different *with new dress*” = “*In new dress*, she looks different”  or “He acts different *with alcohol*” = “Under the influence of alcohol, he acts different.”
-									- This construct is parallel with similar constructs: “compare with”, the archaic “differ with” = “disagree with”, and the Vietnamese “khác với”.
+									- This construct is parallel with similar constructs: “compare with”, the archaic [“differ with” = “disagree with”](https://www.oxfordlearnersdictionaries.com/definition/english/differ), and the Vietnamese “khác với”.
 							- “difference between A and B” = “difference between B and A” is the extent (magnitude) of bidirectional `diff` relation between $B$ and $A$, i.e. $BA = |\overleftrightarrow{BA}| = |B ↔ A| = (|A - B| + |B - A|)/2$.
 						- The direction of relations is crucial in Unïnfo, since both `sim` and `diff` relations are not symmetric by default.
 							- “A”
