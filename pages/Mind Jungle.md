@@ -1760,11 +1760,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685a47e4-21f2-40d6-b80c-d3adf401489b)) is the base of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) defining which objects to be ((66c811a1-b48b-4f91-9c47-b60be42ee7f4))ed, i.e. the content of ((66c811a1-b48b-4f91-9c47-b60be42ee7f4)).
 		- ### view frame
 		  id:: 685a47f5-728a-4b34-95c5-d8e3bba5aad1
+		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((685a480b-1739-4057-aaa8-c099dc95142e))
 			- viewframe
 			  id:: 685a480b-1739-4057-aaa8-c099dc95142e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1)) is the boundary of the ((685a47e4-21f2-40d6-b80c-d3adf401489b)), i.e. the circumference of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))'s base, defining the limit of the ((66723642-58f1-4a74-bba3-0108f14c6bac)) as well as the underlying structure on which the view is created.
+			- ((66725725-f76a-4328-b162-f469b87e871b))
+				- [reference frame](https://en.wikipedia.org/wiki/Frame_of_reference) in physics
+				-
 		- worldview
 		  id:: 6731b8c8-0ab1-4c16-8783-408258f67a4a
 		  the ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)) about the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))
