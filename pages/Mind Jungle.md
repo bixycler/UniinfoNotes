@@ -2494,6 +2494,7 @@ id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 			  ((6678288e-699b-4325-bdba-bf6349fe0d57)) of every ((678e1c3f-6202-45aa-8527-f4bdad9927b9))
 		- ### Trinion dynamics
 		  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
+		  collapsed:: true
 		  [differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) of content → partiality of form → ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) of obop
 		  part ⇒ diff ⇒ change
 			- Differentiation: Every component is differentiated from the Trinion, hence equal to the Trinion in some aspect but not the whole Trinion.
@@ -2510,6 +2511,10 @@ id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- Contradiction is the nature of Arrow, i.e. ((66f3e588-9094-45af-9dff-2225c3ac39ab)).
 					- Contradiction is discussed in [dialectical materialism](https://en.wikipedia.org/wiki/Dialectical_materialism) via the statement “conflict is the driving force of change and transformation”.
 				- Positively, Equal is the “unifier” in dynamic sense, but negatively, Equal is the “liar” in static sense. And i usually say “*the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox) is the creator of all things!*”
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- Non-directional relation “differ[ent,ence] from” versus directional relation “differ[ent,ence] from”
+				  collapsed:: true
+					- In current English standard, while there are two-sided relation construct
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
