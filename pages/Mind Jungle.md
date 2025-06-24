@@ -2546,6 +2546,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  collapsed:: true
 									- [Bell's Theorem: The Quantum Venn Diagram Paradox](https://youtu.be/zcqZHYo7ONs)
 										- {{video https://youtu.be/zcqZHYo7ONs}}
+								-
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
