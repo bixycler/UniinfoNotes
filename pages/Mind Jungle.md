@@ -2531,7 +2531,8 @@ id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 									- This construct is parallel with similar constructs: “compare with”, the archaic [“differ with” = “disagree with”](https://www.oxfordlearnersdictionaries.com/definition/english/differ), and the Vietnamese “khác với”.
 							- “difference between A and B” = “difference between B and A” is the extent (magnitude) of bidirectional `diff` relation between $B$ and $A$, i.e. $BA = |\overleftrightarrow{BA}| = |B ↔ A| = (|A - B| + |B - A|)/2$.
 						- The direction of relations is crucial in Unïnfo, since both `sim` and `diff` relations are not symmetric by default.
-							- “A”
+							- “A differs from B” doesn't mean “B differs from A”, and “A is similar to B” doesn't mean “B is similar to A”.
+							- In Unïnfo, circular relations, like [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order),
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
