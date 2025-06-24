@@ -1,7 +1,7 @@
 - ((685a480b-1739-4057-aaa8-c099dc95142e)) = boundary of ((685a47e4-21f2-40d6-b80c-d3adf401489b)) = determinator of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), sim, diff
 	- (scope, viewframe) = (base, circumference) of viewcone
 	- Whole scope = no diff, no change; partial scope => diff => change
-	- The scope O is the in-form, a part of the self (intent, obop), hence unchanged; what's seen in the scope at position x is the content O(x), the object, subject to change; the position x is the extent, ex-form, image of object. Thus, the scope is a function protecting content to extent.
+	- The frame O is the in-form, a part of the self (intent, obop), hence unchanged; what's seen in the frame at position x is the content O(x), the object, subject to change; the position x is the extent, ex-form, image of object. Thus, the frame is a function projecting content to extent.
 - The self in thread, change, transformation:
 	- change: In particular, the change of an object O (in time, space, spacetime, or configuration space) from position A to position B is the difference between O at A and O at B, i.e. $O_B - O_A$. The change of form is transformation. Change requires a thread of self.
 	- Transformation is ..., i.e. the change of form.
