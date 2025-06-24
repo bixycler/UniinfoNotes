@@ -2546,7 +2546,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  collapsed:: true
 									- [Bell's Theorem: The Quantum Venn Diagram Paradox](https://youtu.be/zcqZHYo7ONs)
 										- {{video https://youtu.be/zcqZHYo7ONs}}
-								-
+								- In philosophy, the East has the idiom “great wisdom appears as foolishness” ([大智若愚](https://baike.baidu.com/item/%E5%A4%A7%E6%99%BA%E8%8B%A5%E6%84%9A)), and the West has [Socratic irony](https://en.wikipedia.org/wiki/Socrates#Socratic_ignorance) “I know that I know nothing!”
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
