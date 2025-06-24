@@ -2543,6 +2543,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The circularity of relations gives rise to paradoxical characteristics, e.g.: 
 							  > $O_0$ is very similar to $O_1$ but very different from $O_1$.
 								- This is paradox usually emerges in Quantum physics, like the [3-polarizer paradox](https://www.informationphilosopher.com/solutions/experiments/dirac_3-polarizers/).
+								  collapsed:: true
+									- [Bell's Theorem: The Quantum Venn Diagram Paradox](https://youtu.be/zcqZHYo7ONs)
+										- {{video https://youtu.be/zcqZHYo7ONs}}
 		- TODO Migrate [[FoC]]
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 14:04:07]
