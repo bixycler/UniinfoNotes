@@ -2518,16 +2518,16 @@ id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 						- In the current standard, people just use the directional construct “differ from (a base/reference)” in all cases.
 						- In British English, [“different to”](https://dictionary.cambridge.org/grammar/british-grammar/different-from-different-to-or-different-than) is also used in place of “different from”.
 						- The only symmetric construct of difference is “the difference between A and B”, but it's more analytical than relational.
-					- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), “diff from”, “diff to”, “difference between”, and the newly coined “diff [with]” have clearly separate meanings.
-						- Unidirectional constructs
+					- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), “diff from”, “diff to”, “difference between”, and the newly coined “diff [with]” have clearly distinct meanings.
+						- ➡️ Unidirectional constructs
 							- “A's difference from B” = “B's difference to A” is the `diff` relation from $B$ to $A$, i.e. $\overrightarrow{BA} = B → A = A - B$.
-								- The prefered style of “difference” is the “from” form, i.e. $A - B$, while the prefered style of the `diff` relation is the “to” form, i.e. $B → A$.
+								- The prefered style of taking “difference” is the “from” form, i.e. $A - B$, while the prefered style of the `diff` relation is the “to” form, i.e. $B → A$.
 							- “A differs from B” = “B differs to A” = “A is different from B” = “B is different to A” is the qualification of the `diff` relation from $B$ to $A$, i.e. $\overrightarrow{BA} ≠ 0 ⟺ A - B ≠ 0 ⟺ A ≠ B$.
-						- Symmetric constructs
+						- 🔁 Symmetric constructs
 							- “A's difference with B” = “B's difference with A” is the bidirectional `diff` relation between $B$ and $A$, i.e. $\overleftrightarrow{BA} = B ↔ A = (A - B) ∧ (B - A)$.
 							- “A differs [with] B” = “B differs [with] A” = “A is different with B” = “B is different with A” is the qualification of the bidirectional `diff` relation between $B$ and $A$, i.e. $\overleftrightarrow{BA} ≠ 0 ⟺ (A - B ≠ 0) ∧ (B - A ≠ 0) ⟺ (A ≠ B) ∧ (B ≠ A)$.
 								- Notes
-									- Don't confuse this new construct with the non-relational expression of “difference due to a factor”, e.g. “She looks different *with new dress*” = “*In new dress*, she looks different”  or “He acts different *with alcohol*” = “Under the influence of alcohol, he acts different.”
+									- Don't confuse this new construct with the non-relational expression of “difference due to some factor”, e.g. “She looks different *with this new dress*” = “*In this new dress*, she looks different”  or “He acts different *with alcohol*” = “Under the influence of alcohol, he acts different.”
 									- This construct is parallel with similar constructs: “compare with”, the archaic [“differ with” = “disagree with”](https://www.oxfordlearnersdictionaries.com/definition/english/differ), and the Vietnamese “khác với”.
 							- “difference between A and B” = “difference between B and A” is the extent (magnitude) of bidirectional `diff` relation between $B$ and $A$, i.e. $BA = |\overleftrightarrow{BA}| = |B ↔ A| = (|A - B| + |B - A|)/2$.
 						- The direction of relations is crucial in Unïnfo, since both `sim` and `diff` relations are not symmetric by default.
