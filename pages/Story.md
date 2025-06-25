@@ -2702,7 +2702,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- My momentum is harder than the massive object due to not only its depth but also my attachment to continuity, smoothnes, connectivity, integrity, and my scare of messiness, scattering, ignorance. This is again the holistic core!
 						- My bro's rhetorical question echoes: 
 						  > Can you do it without understanding?!
-						- This
+						- This scare has been from my childhood: due to my small memory, i must always tidy up everything, digest them, organize them tightly.
+						- And the attachment is due to my greed of getting everything!
 					- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
 					- DOING Now, i'm in the momentum of sorting this “momentum issue” out!
 					  :LOGBOOK:
