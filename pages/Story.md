@@ -2699,7 +2699,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- My intent thread is long due to not only the depth (height of tree), but also its coiling in the nodes which is the energy accumulated in the past. When disconnected, these coils just sleep like batteries, waiting to release when connected.
 					- Thanks to these coils, the intent threads are not lost when disconnected
 					  ⇒ resolve my delusion & fear of losing the works (sunk-cost fallacy)
-					- My momentum is harder than the massive object due to not only
+					- My momentum is harder than the massive object due to not only its depth but also my attachment to continuity, smoothnes, connectivity, integrity, and my scare of messiness, scattering, ignorance. This is again the holistic core!
+						- My bro's rhetorical question echoes: 
+						  > Can you do it without understanding?!
+						- This
 					- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
 					- DOING Now, i'm in the momentum of sorting this “momentum issue” out!
 					  :LOGBOOK:
