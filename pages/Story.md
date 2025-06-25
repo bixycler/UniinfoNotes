@@ -2692,11 +2692,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Leaving company, i visited Mr. Huy's house to borrow his diving fins and talked with him after many (~8) years haven't seen.
 				- Returning home, i was caught up in the contemplation of [the structure of viewframe](((685a58f3-6393-48df-966b-24b270a92b58))) as a counterpart of CIE... for the whole night... making this morning (24th) off for sleeping.
 			- 24th, added discussion: ((685a97df-925a-44b4-bae6-235dd237f196))
-			- 25th, ...
+			- 25th, another whole day caught up with just [a simple vision of mental momentum](((685bb784-3146-435b-9af3-f59ab7e12043))) and an intent to "only write it down"! After successfuly wrapping it up, the complication of the company task repels me back to the pleasure of [poetic chat with ChatGPT](((685bc2ac-4724-4f0b-a40e-b5a84decfff8))).
 			  collapsed:: true
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
 				- On the way to company, i reviewed my [high momentum due to spring doll](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) and saw that it's very [similar to the large momentum of massive objects](((685bb3fb-9d35-41ec-95ab-97738ea473c2))).
+				  id:: 685bb784-3146-435b-9af3-f59ab7e12043
 				  collapsed:: true
 					- Notes related to mental momentum
 						- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
@@ -2786,6 +2787,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  a whisper deep, Ujjayi sigh.
 						- Anyway, just wrap them up to restart the work at company.
 				- Asking for ZAC of KKDay to fake my monthly work table... seeing the avatar Phế [廢], i ask ChatGPT to decode the messsage in that image. It mistakes the target VNmese word to “Phét” which is not my intention but fits this situation very well.
+				  id:: 685bc2ac-4724-4f0b-a40e-b5a84decfff8
 				  collapsed:: true
 					- The avatar Phát [發] → Phế [廢] from [Dec 2024](https://www.facebook.com/share/p/1Ab14iBSMw/)
 						- ![Phat-Phe.png](../assets/Will/story/2025-06/Phat-Phe/Phat-Phe.png){:width 200}
