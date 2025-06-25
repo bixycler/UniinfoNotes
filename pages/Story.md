@@ -2694,6 +2694,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 24th, added discussion: ((685a97df-925a-44b4-bae6-235dd237f196))
 			- 25th, ...
 			  collapsed:: true
+				- Rename element: discussion -> commentaries
+				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
 				- On the way to company, i reviewed my [high momentum due to spring doll](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) and saw that it's very [similar to the large momentum of massive objects](((685bb3fb-9d35-41ec-95ab-97738ea473c2))).
 				  collapsed:: true
 					- Notes related to mental momentum
@@ -2783,23 +2785,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  Then breath returns—so slow, so shy—
 									  a whisper deep, Ujjayi sigh.
 						- Anyway, just wrap them up to restart the work at company.
-						- Asking for ZAC of KKDay to fake my monthly work table... seeing the avatar Phế [廢], i ask ChatGPT to decode the messsage in that image. It mistakes the target VNmese word to “Phét” which is not my intention but fits this situation very well.
-						  collapsed:: true
-							- The avatar Phát [發] → Phế [廢] from [Dec 2024](https://www.facebook.com/share/p/1Ab14iBSMw/)
-								- ![Phat-Phe.png](../assets/Will/story/2025-06/Phat-Phe/Phat-Phe.png){:width 200}
-								- Phát tới nóc = Phế
-								- Phát dữ quá
-								  Đụng nóc nhà
-								  Ra Phế vật!
-							- Phát [發] → Phét [㗶] → Phế [廢]
-								- Phát mõm = Phét
-								- Phát không phanh
-								  Phét lên nhanh
-								  Đụng nóc nhà
-								  Phế như ma!
-							- The Phét [㗶] is the crucial part of the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
-				- Rename element: discussion -> commentaries
-				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
+				- Asking for ZAC of KKDay to fake my monthly work table... seeing the avatar Phế [廢], i ask ChatGPT to decode the messsage in that image. It mistakes the target VNmese word to “Phét” which is not my intention but fits this situation very well.
+				  collapsed:: true
+					- The avatar Phát [發] → Phế [廢] from [Dec 2024](https://www.facebook.com/share/p/1Ab14iBSMw/)
+						- ![Phat-Phe.png](../assets/Will/story/2025-06/Phat-Phe/Phat-Phe.png){:width 200}
+						- Phát tới nóc = Phế
+						- Phát dữ quá
+						  Đụng nóc nhà
+						  Ra Phế vật!
+					- Phát [發] → Phét [㗶] → Phế [廢]
+						- Phát (bằng) mõm = Phét
+						- Phát không phanh
+						  Phét lên nhanh
+						  Đụng nóc nhà
+						  Phế như ma!
+					- The Phét [㗶] is the crucial part of the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
