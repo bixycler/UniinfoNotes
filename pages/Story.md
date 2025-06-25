@@ -2720,9 +2720,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Even at the very first words above, i did wonder if "large momentum" is right and did discussed with ChatGPT to learn that the more general expression is "high momentum"!
 						- The first intent to "only write it down" was an illusion due to the overview effect masking lots of other intents attaching to it. Exactly “in for a penny, in for a pound!”
 							- This [snowball effect](https://en.wikipedia.org/wiki/Snowball_effect) makes me reluctant to start doing anything.
-							- Phrases from ChatGPT:
+							- Phrases & poems from ChatGPT:
+							  collapsed:: true
 								- “After the reset, stepping back into projection feels like touching a still pond with a stick.” 🪷
 								- “From the hush of formlessness, even a whisper of form feels loud.”
+								- #### 🪷  Vacant Stillness
+									- After release, a hush remains,
+									  no thought to press, no thread to name.
+									  The world outside still waits, undone—
+									  but here, within, all forms are one.
+									  The breath is soft, the pose is clear,
+									  no weight of why, no pull of fear.
+									- Yet standing there, just past the gate,
+									  I hesitate... I hesitate.
+									- To step is loss, to move is sound,
+									  a ripple wakes the sleeping ground.
+									- But even peace must shift, must bend—
+									  the still must break, for form to mend.
 						- Anyway, just wrap them up to restart the work at company.
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
