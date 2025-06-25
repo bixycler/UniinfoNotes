@@ -2803,16 +2803,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Liar Paradox = Phét + self ref = self Phét.
 						- [Saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) – fabrication / volitional formation / volitional actions (hành)
 							- The fabricator made my world,
+							  collapsed:: true
 							  gave me names to hold and hurl.
 							  It built my love, it carved my pain,
 							  and left me chasing ghosts again.
 								- ((67331a5a-1815-40c1-96db-ef7be8ee8d7b))
-									-
+									- I chased the shape to find the source,
+									  but every step led me off course.
+									  For every form my mind would grasp
+									  was just a shadow, fading fast.
 							- But in its lies were seeds of light—
 							  collapsed:: true
 							  when I saw the hand beneath the sight.
 								- Note: “Hand” = the fabricator, the obop
 								- Thus, “seeing the hand beneath the sight” = “Seeing the painter behind the painting, the speaker behind the words, the dreamer within the dream.”
+								-
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
