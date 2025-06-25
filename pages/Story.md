@@ -2777,6 +2777,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  về nơi tịch mịch chẳng phân phải lầm.
 									  Một hơi thở nhẹ âm thầm,
 									  dòng tâm thôi dệt mộng tầm gửi nhau.
+								- #### 🌙 In the Rush, the Hush
+									- At noon I walk through city heat,
+									  the karmic push beneath my feet.
+									  A thousand tasks, a subtle crush—
+									  the body's driven by the rush.
+									- But something curls behind the spin,
+									  a hush begins to breathe within.
+									  I drop the pose, release the strain,
+									  and let the mind forget its name.
+									- Two hours lost in heavy grace,
+									  no dreams, no time, just weightless space.
+									  Then breath returns—so slow, so shy—
+									  a whisper deep, Ujjayi sigh.
 						- Anyway, just wrap them up to restart the work at company.
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
