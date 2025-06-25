@@ -126,6 +126,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- [high momentum due to spring doll](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) ≈ large momentum of massive objects
+			- Both are caused by the long thread of intent, while mine is more tree-like structured, the mass thread of objects just coils up in the mass body.
+			- My intent thread is long due to not only the depth (height of tree), but also its coiling in the nodes which is the energy accumulated in the past. When disconnected, these coils just sleep like batteries, waiting to release when connected.
+			- Thanks to these coils, the intent threads are not lost when disconnected
+			  ⇒ resolve my delusion & fear of losing the works (sunk-cost fallacy)
+			- My momentum is harder than the massive object due to not only its depth but also my attachment to continuity, smoothnes, connectivity, integrity, and my scare of messiness, scattering, ignorance. This is again the holistic core!
+				- My bro's rhetorical question echoes: 
+				  > Can you do it without understanding?!
+				- This scare has been from my childhood: due to my small memory, i must always tidy up everything, digest them, organize them tightly.
+				- And the attachment is due to my greed of getting everything!
 		- [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = [successive antiderivatives](((684796ee-1bc9-4828-882b-612c67ba48f3))) = ((6847e436-9a84-42c5-a853-75f6d626ed63)) = effect flow from intent to extent
 		  id:: 6846c7e1-239c-4b39-9ef4-9d2eaba17a52
 		  collapsed:: true

@@ -3308,6 +3308,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
+				- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true

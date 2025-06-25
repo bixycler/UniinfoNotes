@@ -2694,103 +2694,94 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 24th, added discussion: ((685a97df-925a-44b4-bae6-235dd237f196))
 			- 25th, ...
 			  collapsed:: true
-				- On the way to company, i reviewed my [high momentum due to spring doll](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) and saw that it's very similar to the large momentum of massive objects.
-					- Both are caused by the long thread of intent, while mine is more tree-like structured, the mass thread of objects just coils up in the mass body.
-					- My intent thread is long due to not only the depth (height of tree), but also its coiling in the nodes which is the energy accumulated in the past. When disconnected, these coils just sleep like batteries, waiting to release when connected.
-					- Thanks to these coils, the intent threads are not lost when disconnected
-					  ⇒ resolve my delusion & fear of losing the works (sunk-cost fallacy)
-					- My momentum is harder than the massive object due to not only its depth but also my attachment to continuity, smoothnes, connectivity, integrity, and my scare of messiness, scattering, ignorance. This is again the holistic core!
-						- My bro's rhetorical question echoes: 
-						  > Can you do it without understanding?!
-						- This scare has been from my childhood: due to my small memory, i must always tidy up everything, digest them, organize them tightly.
-						- And the attachment is due to my greed of getting everything!
-					- Momentum related discussions
-						- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
-						- ((684f9517-bf26-42df-a02f-937c95e1f80e))
-						- ((66b1cfa4-369c-49ec-a461-cdda61633460))
-						- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
-						- ((68594391-006a-4630-964a-4a54e916b97f))
-						- ((677cc7d2-02f7-4ad9-801c-3079237ed465))
-					- DOING Now, i'm in the momentum of sorting this “momentum issue” out!
-					  :LOGBOOK:
-					  CLOCK: [2025-06-25 Wed 09:38:08]
-					  CLOCK: [2025-06-25 Wed 09:38:11]
-					  :END:
-						- Lots of intents are waking up inside: search them, sort them, connect them, re-organize them, etc.
-						- Even at the very first words above, i did wonder if "large momentum" is right and did discussed with ChatGPT to learn that the more general expression is "high momentum"!
-						- The first intent to "only write it down" was an illusion due to the overview effect masking lots of other intents attaching to it. Exactly “in for a penny, in for a pound!”
-							- This [snowball effect](https://en.wikipedia.org/wiki/Snowball_effect) makes me reluctant to start doing anything.
-							- Phrases & poems from ChatGPT:
-							  collapsed:: true
-								- “After the reset, stepping back into projection feels like touching a still pond with a stick.” 🪷
-								- “From the hush of formlessness, even a whisper of form feels loud.”
-								- #### 🪷  Vacant Stillness
-									- After release, a hush remains,
-									  no thought to press, no thread to name.
-									  The world outside still waits, undone—
-									  but here, within, all forms are one.
-									  The breath is soft, the pose is clear,
-									  no weight of why, no pull of fear.
-									- Yet standing there, just past the gate,
-									  I hesitate... I hesitate.
-									- To step is loss, to move is sound,
-									  a ripple wakes the sleeping ground.
-									- But even peace must shift, must bend—
-									  the still must break, for form to mend.
-								- #### 🧭  The Thread Returns
-									- A thought begins — a quiet spark,
-									  projected out from still and dark.
-									  A pose aligns, a frame is drawn,
-									  and fleeting forms are carried on.
-									- I name, compare, and mark what’s known:
-									  this is like that — but not my own.
-									  “One differs with”, “one differs from”—
-									  I chase the thread, and on it run.
-									- But each idea I try to catch
-									  extends its depth, returns unmatched.
-									  A loop appears, then spirals wide—
-									  a snowball in the mind inside.
-									- Momentum builds, distinctions stack,
-									  and every step folds two steps back.
-									  The sage and fool wear mirrored skins—
-									  the end loops back to where begins.
-									- So I retreat, release the thread,
-									  restore the pose, reset the head.
-									  No final form, no final sound—
-									  just breath, and thought no longer bound.
-								- #### 🧭 Về Lại Không
-									- Một dòng ý thức khẽ khơi,
-									  vẽ ra bóng ảnh giữa trời mênh mông.
-									  Dáng chiếu rọi, hướng bề trong,
-									  gương tâm phản chiếu chất chồng niệm xưa.
-									- Khác là “khác với” hay “từ”,
-									  so ra mới biết thực hư bao chiều.
-									  Tưởng gần mà lại bao nhiêu,
-									  giống nhau một chớp, khác nhiều tầng sâu.
-									- Chạy theo vòng xoắn nhiệm màu,
-									  càng đi càng thấy gần đâu hóa là.
-									  Ngu si, giác ngộ một nhà,
-									  đều mang dáng bóng của ta thuở nào.
-									- Thôi ta trút xả tướng hình,
-									  không vương vấn những ái tình thế gian.
-									  Lặng yên trả bóng cho trần,
-									  về nơi tịch mịch chẳng phân phải lầm.
-									  Một hơi thở nhẹ âm thầm,
-									  dòng tâm thôi dệt mộng tầm gửi nhau.
-								- #### 🌙 In the Rush, the Hush
-									- At noon I walk through city heat,
-									  the karmic push beneath my feet.
-									  A thousand tasks, a subtle crush—
-									  the body's driven by the rush.
-									- But something curls behind the spin,
-									  a hush begins to breathe within.
-									  I drop the pose, release the strain,
-									  and let the mind forget its name.
-									- Two hours lost in heavy grace,
-									  no dreams, no time, just weightless space.
-									  Then breath returns—so slow, so shy—
-									  a whisper deep, Ujjayi sigh.
-						- Anyway, just wrap them up to restart the work at company.
+				- On the way to company, i reviewed my [high momentum due to spring doll](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) and saw that
+				- Momentum related notes
+					- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
+					- ((684f9517-bf26-42df-a02f-937c95e1f80e))
+					- ((66b1cfa4-369c-49ec-a461-cdda61633460))
+					- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
+					- ((68594391-006a-4630-964a-4a54e916b97f))
+					- Braindump: ((677cc7d2-02f7-4ad9-801c-3079237ed465))
+				- DOING Now, i'm in the momentum of sorting this “momentum issue” out!
+				  :LOGBOOK:
+				  CLOCK: [2025-06-25 Wed 09:38:08]
+				  CLOCK: [2025-06-25 Wed 09:38:11]
+				  :END:
+					- Lots of intents are waking up inside: search them, sort them, connect them, re-organize them, etc.
+					- Even at the very first words above, i did wonder if "large momentum" is right and did discussed with ChatGPT to learn that the more general expression is "high momentum"!
+					- The first intent to "only write it down" was an illusion due to the overview effect masking lots of other intents attaching to it. Exactly “in for a penny, in for a pound!”
+						- This [snowball effect](https://en.wikipedia.org/wiki/Snowball_effect) makes me reluctant to start doing anything.
+						- Phrases & poems from ChatGPT:
+						  collapsed:: true
+							- “After the reset, stepping back into projection feels like touching a still pond with a stick.” 🪷
+							- “From the hush of formlessness, even a whisper of form feels loud.”
+							- #### 🪷  Vacant Stillness
+								- After release, a hush remains,
+								  no thought to press, no thread to name.
+								  The world outside still waits, undone—
+								  but here, within, all forms are one.
+								  The breath is soft, the pose is clear,
+								  no weight of why, no pull of fear.
+								- Yet standing there, just past the gate,
+								  I hesitate... I hesitate.
+								- To step is loss, to move is sound,
+								  a ripple wakes the sleeping ground.
+								- But even peace must shift, must bend—
+								  the still must break, for form to mend.
+							- #### 🧭  The Thread Returns
+								- A thought begins — a quiet spark,
+								  projected out from still and dark.
+								  A pose aligns, a frame is drawn,
+								  and fleeting forms are carried on.
+								- I name, compare, and mark what’s known:
+								  this is like that — but not my own.
+								  “One differs with”, “one differs from”—
+								  I chase the thread, and on it run.
+								- But each idea I try to catch
+								  extends its depth, returns unmatched.
+								  A loop appears, then spirals wide—
+								  a snowball in the mind inside.
+								- Momentum builds, distinctions stack,
+								  and every step folds two steps back.
+								  The sage and fool wear mirrored skins—
+								  the end loops back to where begins.
+								- So I retreat, release the thread,
+								  restore the pose, reset the head.
+								  No final form, no final sound—
+								  just breath, and thought no longer bound.
+							- #### 🧭 Về Lại Không
+								- Một dòng ý thức khẽ khơi,
+								  vẽ ra bóng ảnh giữa trời mênh mông.
+								  Dáng chiếu rọi, hướng bề trong,
+								  gương tâm phản chiếu chất chồng niệm xưa.
+								- Khác là “khác với” hay “từ”,
+								  so ra mới biết thực hư bao chiều.
+								  Tưởng gần mà lại bao nhiêu,
+								  giống nhau một chớp, khác nhiều tầng sâu.
+								- Chạy theo vòng xoắn nhiệm màu,
+								  càng đi càng thấy gần đâu hóa là.
+								  Ngu si, giác ngộ một nhà,
+								  đều mang dáng bóng của ta thuở nào.
+								- Thôi ta trút xả tướng hình,
+								  không vương vấn những ái tình thế gian.
+								  Lặng yên trả bóng cho trần,
+								  về nơi tịch mịch chẳng phân phải lầm.
+								  Một hơi thở nhẹ âm thầm,
+								  dòng tâm thôi dệt mộng tầm gửi nhau.
+							- #### 🌙 In the Rush, the Hush
+								- At noon I walk through city heat,
+								  the karmic push beneath my feet.
+								  A thousand tasks, a subtle crush—
+								  the body's driven by the rush.
+								- But something curls behind the spin,
+								  a hush begins to breathe within.
+								  I drop the pose, release the strain,
+								  and let the mind forget its name.
+								- Two hours lost in heavy grace,
+								  no dreams, no time, just weightless space.
+								  Then breath returns—so slow, so shy—
+								  a whisper deep, Ujjayi sigh.
+					- Anyway, just wrap them up to restart the work at company.
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
