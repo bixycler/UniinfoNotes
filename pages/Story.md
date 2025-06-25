@@ -2771,10 +2771,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  càng đi càng thấy gần đâu hóa là.
 									  Kẻ ngu, người ngộ một nhà,
 									  đều mang dáng bóng của ta thuở nào.
-									- Thôi ta trút bỏ dáng hình,
-									  buông tay khỏi chỗ bắt đầu nhiễu nhân.
-									  Lui về một góc trầm ngâm,
-									  thở ra không chữ, lặng thầm không tên.
+									- Thôi ta trút xả tướng hình,
+									  không vương vấn những ái tình thế gian.
+									  Lặng yên trả bóng cho trần,
+									  về nơi tịch mịch chẳng phân phải lầm.
+									  Một hơi thở nhẹ âm thầm,
+									  dòng tâm thôi dệt mộng tầm gửi nhau.
 						- Anyway, just wrap them up to restart the work at company.
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
