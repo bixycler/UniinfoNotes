@@ -2799,7 +2799,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Phét lên nhanh
 						  Đụng nóc nhà
 						  Phế như ma!
-					- The Phét [㗶] is the crucial part of the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
+					- The Phét [㗶] is the crucial part of the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the creator of all forms.
+						- Liar Paradox = Phét + self ref = self Phét.
+						- Saṅkhāra – Fabrication / Volitional formation (hành)
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
