@@ -2783,7 +2783,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  Then breath returns—so slow, so shy—
 									  a whisper deep, Ujjayi sigh.
 						- Anyway, just wrap them up to restart the work at company.
-						-
+						- Asking for ZAC of KKDay to fake my monthly work table... seeing the avatar Phế [廢], i ask ChatGPT to decode the messsage in that image, and i mistakes the target VNmese word to “Phét” which is not my intention but fits
+						  collapsed:: true
+							-
+							- Phát [發] → Phét [㗶] → Phế [廢]
+								- Phát không phanh,
+								  Phét lên nhanh,
+								  Đụng nóc nhà,
+								  Phế như ma!
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
