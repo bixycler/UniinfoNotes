@@ -2783,14 +2783,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  Then breath returns—so slow, so shy—
 									  a whisper deep, Ujjayi sigh.
 						- Anyway, just wrap them up to restart the work at company.
-						- Asking for ZAC of KKDay to fake my monthly work table... seeing the avatar Phế [廢], i ask ChatGPT to decode the messsage in that image, and i mistakes the target VNmese word to “Phét” which is not my intention but fits
+						- Asking for ZAC of KKDay to fake my monthly work table... seeing the avatar Phế [廢], i ask ChatGPT to decode the messsage in that image. It mistakes the target VNmese word to “Phét” which is not my intention but fits this situation very well.
 						  collapsed:: true
-							-
+							- The avatar Phát [發] → Phế [廢] from [Dec 2024](https://www.facebook.com/share/p/1Ab14iBSMw/)
+								- ![Phat-Phe.png](../assets/Will/story/2025-06/Phat-Phe/Phat-Phe.png){:width 200}
+								- Phát tới nóc = Phế
+								- Phát dữ quá
+								  Đụng nóc nhà
+								  Ra Phế vật!
 							- Phát [發] → Phét [㗶] → Phế [廢]
-								- Phát không phanh,
-								  Phét lên nhanh,
-								  Đụng nóc nhà,
+								- Phát mõm = Phét
+								- Phát không phanh
+								  Phét lên nhanh
+								  Đụng nóc nhà
 								  Phế như ma!
+							- The Phét [㗶] is the crucial part of the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
