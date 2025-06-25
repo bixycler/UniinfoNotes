@@ -8,7 +8,7 @@ LOGF=${1:-$HOME/Documents/microreset.log}
 today=$(date '+%Y-%m-%d')
 now=$(date '+%H:%M:%S')
 dt="${today}_${now}"
-msg="Stop! Breath, Relax..."
+msg="Stop! Breathe, Relax..."
 
 # First, show a short-timeout window to capture accidental inputs from user, if any
 ( sleep 1; echo 50; sleep 1; echo 75; sleep 1; echo 100; ) |
