@@ -2719,7 +2719,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Lots of intents are waking up inside: search them, sort them, connect them, re-organize them, etc.
 						- Even at the very first words above, i did wonder if "large momentum" is right and did discussed with ChatGPT to learn that the more general expression is "high momentum"!
 						- The first intent to "only write it down" was an illusion due to the overview effect masking lots of other intents attaching to it. Exactly “in for a penny, in for a pound!”
-							- This makes me reluctant to start doing anything.
+							- This [snowball effect](https://en.wikipedia.org/wiki/Snowball_effect) makes me reluctant to start doing anything.
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
