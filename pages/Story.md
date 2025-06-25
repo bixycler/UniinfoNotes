@@ -2769,7 +2769,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  giống nhau một chớp, khác nhiều tầng sâu.
 									- Chạy theo vòng xoắn nhiệm màu,
 									  càng đi càng thấy gần đâu hóa là.
-									  Kẻ ngu, người ngộ một nhà,
+									  Ngu si, giác ngộ một nhà,
 									  đều mang dáng bóng của ta thuở nào.
 									- Thôi ta trút xả tướng hình,
 									  không vương vấn những ái tình thế gian.
