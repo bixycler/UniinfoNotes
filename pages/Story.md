@@ -2704,7 +2704,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  > Can you do it without understanding?!
 						- This scare has been from my childhood: due to my small memory, i must always tidy up everything, digest them, organize them tightly.
 						- And the attachment is due to my greed of getting everything!
-					- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
+					- Momentum related discussions
+						- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
+						- ((684f9517-bf26-42df-a02f-937c95e1f80e))
+						- ((66b1cfa4-369c-49ec-a461-cdda61633460))
+						- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
+						- ((68594391-006a-4630-964a-4a54e916b97f))
+						- ((677cc7d2-02f7-4ad9-801c-3079237ed465))
 					- DOING Now, i'm in the momentum of sorting this “momentum issue” out!
 					  :LOGBOOK:
 					  CLOCK: [2025-06-25 Wed 09:38:08]
