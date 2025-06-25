@@ -2744,7 +2744,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  and fleeting forms are carried on.
 									- I name, compare, and mark what’s known:
 									  this is like that — but not my own.
-									  One differs with, one differs from—
+									  “One differs with”, “one differs from”—
 									  I chase the thread, and on it run.
 									- But each idea I try to catch
 									  extends its depth, returns unmatched.
@@ -2758,6 +2758,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									  restore the pose, reset the head.
 									  No final form, no final sound—
 									  just breath, and thought no longer bound.
+								- #### 🧭 Về Lại Không
+									- Một dòng ý thức khẽ khơi,
+									  vẽ ra bóng ảnh giữa trời mênh mông.
+									  Dáng chiếu rọi, hướng bề trong,
+									  gương tâm phản chiếu chất chồng niệm xưa.
+									- Khác là “khác với” hay “từ”,
+									  so ra mới biết thực hư bao chiều.
+									  Tưởng gần mà lại bao nhiêu,
+									  giống nhau một chớp, khác nhiều tầng sâu.
+									- Chạy theo vòng xoắn nhiệm màu,
+									  càng đi càng thấy gần đâu hóa là.
+									  Kẻ ngu, người ngộ một nhà,
+									  đều mang dáng bóng của ta thuở nào.
+									- Thôi ta trút bỏ dáng hình,
+									  buông tay khỏi chỗ bắt đầu nhiễu nhân.
+									  Lui về một góc trầm ngâm,
+									  thở ra không chữ, lặng thầm không tên.
 						- Anyway, just wrap them up to restart the work at company.
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
