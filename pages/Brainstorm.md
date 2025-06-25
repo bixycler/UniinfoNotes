@@ -127,6 +127,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
 		- [high momentum due to spring doll](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) ≈ large momentum of massive objects
+		  id:: 685bb3fb-9d35-41ec-95ab-97738ea473c2
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-06-25 Wed 15:36:01]
+		  :END:
 			- Both are caused by the long thread of intent, while mine is more tree-like structured, the mass thread of objects just coils up in the mass body.
 			- My intent thread is long due to not only the depth (height of tree), but also its coiling in the nodes which is the energy accumulated in the past. When disconnected, these coils just sleep like batteries, waiting to release when connected.
 			- Thanks to these coils, the intent threads are not lost when disconnected
