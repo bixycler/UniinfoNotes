@@ -2801,7 +2801,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Phế như ma!
 					- The Phét [㗶] is the crucial part of the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the creator of all forms.
 						- Liar Paradox = Phét + self ref = self Phét.
-						- Saṅkhāra – Fabrication / Volitional formation (hành)
+						- [Saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) – fabrication / volitional formation / volitional actions (hành)
+							- The fabricator made my world,
+							  gave me names to hold and hurl.
+							  It built my love, it carved my pain,
+							  and left me chasing ghosts again.
+							- But in its lies were seeds of light—
+							  when I saw the hand beneath the sight.
+								- Note: “Hand” = the fabricator, the obop
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
