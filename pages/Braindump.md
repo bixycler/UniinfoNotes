@@ -417,8 +417,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- I just remember [my formula of curvature ](((67bc5689-d4f1-4136-b775-92847ddd02f8))) $c = dφ/ds$ from high school 9th or 10th grade. There, i used the symbol $c$ for both English “curve” and Vietnamese “cong”. I'd thought that it was my "new concept" until i saw the definition of $κ = 1/r$ in some book.
 				- The intrinsic curvature of the thread, as the 2nd derivative of the [distribution of space](((67bda37c-7085-4a71-b5bf-6c4b54b3abdd))) on the line, is different from the extrinsic curvature of the line $κ = 1/r$.
 					- While the thread's distribution of space is simple, ((67bdb94a-e172-43f9-a59e-a97756fef1f4))
-				- Note: the [emergence of negativity & imaginarity](((67bbde62-70fc-4d3d-9f65-dcea280db516))) was a rediscovery when i contemplated the spring (elastic) mechanics & `exp()`, as a note on Telegram on ((684c282f-75e9-4c66-bc32-4e764aac6625)).
-				  id:: 684f9514-db81-4d20-a10b-73274d7ce362
+				- Note: the [emergence of negativity & imaginarity](((67bbde62-70fc-4d3d-9f65-dcea280db516))) was a rediscovery when i contemplated the spring (elastic) mechanics & `exp()`, as a note on Telegram on 2023 Feb 21st.
 				  collapsed:: true
 					- #+BEGIN_QUOTE
 					  **Holistic momentum** = const-sized (mc^2) vector = momentum vector (in space) + energy vector (= momentum in time)
@@ -739,28 +738,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  :LOGBOOK:
 		  CLOCK: [2025-06-02 Mon 20:14:17]
 		  :END:
-		- Started ((68392a13-c350-4962-bd37-b819c8e1f931)) from June 2nd... until June 17 can i give it a form.
-		  :LOGBOOK:
-		  CLOCK: [2025-06-17 Tue 10:32:33]
-		  :END:
-		- This month, the braindumps are sparse, because most of them are tracked in the story “[Everything's broken!](((68366fff-92cf-41a7-ab2d-0c1f77d0effb)))” from the end of last month.
-		  :LOGBOOK:
-		  CLOCK: [2025-06-17 Tue 10:38:45]
-		  :END:
-		- There are some confusions about the terms “action cone”, “intent cone” and “effect cone” that need revision.
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-06-17 Tue 18:32:23]--[2025-06-17 Tue 19:27:56] =>  00:55:33
-		  :END:
-			- DONE Revised ((6847e436-9a84-42c5-a853-75f6d626ed63)), ((6851578b-9b1f-4367-878f-79b0b0b9be51)) with the ((68514e8a-899e-4ae3-9164-44058cf139fa)) from Sep 2024.
-			  :LOGBOOK:
-			  CLOCK: [2025-06-17 Tue 19:28:42]--[2025-06-17 Tue 19:28:43] =>  00:00:01
-			  :END:
-			- ((684f9517-b417-47da-ab50-38f625511e9d))
-			- ((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))
 	- ## Braindumping < ((683d5508-34cd-477f-b0f6-3102155863bb))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		-
+		- ((68392a13-c350-4962-bd37-b819c8e1f931))
 		- ...
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f

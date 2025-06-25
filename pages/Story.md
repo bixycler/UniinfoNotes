@@ -2697,6 +2697,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- On the way to company, i reviewed my [high momentum due to spring doll](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) and saw that it's very similar to the large momentum of massive objects.
 					- Both are caused by the long thread of intent, while mine is more tree-like structured, the mass thread of objects just coils up in the mass body.
 					- My intent thread is long due to not only the depth (height of tree), but also its coiling in the nodes which is the energy accumulated in the past. When disconnected, these coils just sleep like batteries, waiting to release when connected.
+					- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?

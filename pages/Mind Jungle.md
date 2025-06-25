@@ -3301,11 +3301,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- **Reset** to break the “goal reaching” pattern and to put the attractive target (intent) aside.
 						- **Retract to the belly** to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
 					- Anti-aversion
+					  id:: 68594391-006a-4630-964a-4a54e916b97f
 						- Use **breathwork** to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
 					- Anti-delusion
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion. This is a kind of vipassana meditation.
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
+				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
@@ -4678,6 +4680,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The ((6678282b-d710-4c6b-b584-5f65012c192d)) effect
 						  collapsed:: true
 							- The great **momentum** of the past is the internal form.
+							  id:: 684f9517-bf26-42df-a02f-937c95e1f80e
 								- Just be mindful that we don't lose that momentum when we switch to other works, just put it down to be picked up later on.
 								- The effort justification & sunk-cost fallacy: This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
 							- The clearly visible **goal** of the future is the external form, which reflects the inner core, e.g. my [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))), crystalized from karma of the past.
@@ -4685,6 +4688,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Just be mindful that although it's worth pursuing, it's still **very far**, i.e. [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
 							- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) is to dissolve the form and direct it to the new form.
 							- Mindfulness as a hole-punching tool to escape the form.
+							  id:: 684f9517-b730-4cc1-9eb1-54bb81ed78c4
 								- The tantric practice shows that both the accumulation of momentum and the "finish soon" effect require ignorance in the form of attachment to the external signal (sign of the goal).
 								- Unmindfulness of the internal momentum makes it push us from behind and control us.
 								- Unmindfulness of the illusion of the external signal makes it feel near outside while in fact it's near inside and very far outside. That's because the signal outside is just the image/shadow of the goal inside.
