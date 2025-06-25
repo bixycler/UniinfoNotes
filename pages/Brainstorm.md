@@ -138,7 +138,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ![In/extention via in/extension](https://docs.google.com/drawings/d/e/2PACX-1vT-ns6ehT5HLQ5oPuSkVxSKO3uUCpDnmD6q9xbdfXQEGpKIftc717xHVV0x9IlczRL8ZHZNszbzwej_/pub?w=960&h=720)
 			- In a circular effect flow, the locus coincides with the flow itself!
 			  id:: 6846e19d-1af1-413a-b225-c9d48b4dd308
-			- The spring doll is what i saw as a model of my mind on work: the consciousness is just the head mounted on a very long spring of programs which connects to the root of bodymind.
+			- The spring doll is what i saw as a model of my mind on work: the consciousness is just the head mounted on a very long spring of programs which connects to the root of the bodymind.
 			  id:: 6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00
 			  collapsed:: true
 				- The famous spring smiley heads are a good example for this model, and were used in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398) to mark the first time i saw the model around the end of 2023.

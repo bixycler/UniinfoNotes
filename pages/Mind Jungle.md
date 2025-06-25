@@ -3304,6 +3304,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Use **breathwork** to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
 					- Anti-delusion
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion. This is a kind of vipassana meditation.
+			- TODO Integrate these:
+				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
