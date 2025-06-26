@@ -3306,8 +3306,200 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Anti-delusion
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion. This is a kind of vipassana meditation.
 				- #### Reset
+				  id:: 67445065-15b2-475e-a704-78f140d487af
 				  unload the intent structure
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) T
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Instead of ~~aiming at the destination~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
+					- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
+					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable
+					  id:: 67445223-9459-4aa9-b102-70c63943577b
+					  collapsed:: true
+						- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.
+						  collapsed:: true
+							- Let's go, don't get too engrossed in this place.
+							- But haven’t we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn’t we enjoy the fruits of our labor instead of moving on, master?!
+							- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
+							- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
+							- If you still want liberation, follow me.
+							- But why do we need to move on when we've reached the destination of liberation?
+							- This is not the destination.
+							- Clearly, back in the city, when I asked, “Where do we go to find freedom?” you pointed to this mountain.
+							- At that time, the city’s buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
+							- So we can never reach the destination 😮‍💨?!
+							- We can.
+							- Have you reached the destination, master?
+							- I have.
+							- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
+							- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn’t say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
+							- I see the horizon as a straight line in front of me, but it’s just an illusion; there’s no actual line!
+							- I only asked if you see it or not!
+							- Yes, I see it.
+							- Now, look behind; do you see the horizon?
+							- Yes, I do.
+							- Look to both the left and right; do you see the horizon?
+							- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don’t ask such redundant questions!!!
+							- If you've seen it, let's go!
+							- Why move on if we'll never reach it?!!!
+							- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
+							- Wait, master, you can't leave! You owe me an explanation of how you can reach that endless horizon!
+							- I've reached it by bringing the horizon right beneath my feet.
+							- 😮 How is that possible...
+							- I told you before that you wouldn't understand! It's only because you pushed me that I had to say it.
+							- ...
+						- [Cái đích là chân trời](http://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
+							- Hai thầy trò sau một tuần thưởng thức phong cảnh hữu tình ở núi Cực Lạc thì sáng ra thầy lại giục trò lên đường đi tiếp.
+							  collapsed:: true
+								- Đi thôi con, đừng để mình chìm đắm vào chỗ này.
+								- Ủa, chẳng phải chúng ta đã tới đích rồi sao?! Đi bao nhiêu lâu, mất bao sức lực, mồ hồi và cả máu mới tới được đích... không hưởng thành quả mà còn đi đâu nữa thầy?!
+								- Ta đã cho con hưởng thụ cả tuần qua rồi đó thôi, nếu con thấy chưa đủ thì cứ ở lại hưởng thụ đi, thầy đi một mình.
+								- Vấn đề không phải là hưởng thụ, con theo thầy là để tới chỗ giải thoát chứ không phải để hưởng thụ. Nếu thích hưởng thụ thì còn đã ở lại trong đời rồi, có bao nhiêu thú vui ở đó chứ theo thầy lên núi chi cho mệt vậy?!
+								- Nếu còn muốn giải thoát thì theo ta đi tiếp.
+								- Nhưng tại sao phải đi tiếp khi chúng ta đã tới được đích giải thoát?
+								- Đây không phải là đích.
+								- Rõ ràng hồi ở trong thành phố, khi con hỏi “đi đâu để tìm được tự do” thì thầy đã chỉ tay về phía ngọn núi này mà.
+								- Lúc đó trong thành phố bị nhà cửa che khuất tầm mắt nên ta phải chỉ ngọn núi cao để cho con thấy thôi, chứ thực ra ý ta muốn nói rằng “cái đích nằm ở chân trời”.
+								- Vậy là không bao giờ tới được đích sao 😮‍💨?!
+								- Tới được.
+								- Vậy thầy đã tới đích chưa?
+								- Ta tới rồi.
+								- Thầy nói dối! Ngày xưa trong thành phố con chưa thấy chân trời bao giờ thì thầy còn có thể lừa con được, chứ mấy tháng nay đi ra ngoài thì con đã chứng thực rồi: Chân trời là vô tận, mình càng đi tới bao nhiêu thì nó càng lùi về xa bấy nhiêu, nên không thể nào chạm được tới chân trời đâu.
+								- Ta không lừa con, ta chỉ nói theo những gì con có thể thấy và hiểu được. Ngày trước ta không nói “đích là chân trời” vì lúc đó con chưa thấy và hiểu rõ chân trời là gì. Hôm nay ta cũng không lừa con, ta chỉ nói theo những gì con đang thấy mà thôi. Này, nhìn thẳng về trước, con có thấy chân trời không?
+								- Con thấy chân trời như một đường thẳng trước mặt, nhưng đó chỉ là ảo giác, thực ra không có đường đó!
+								- Ta chỉ hỏi có thấy hay không?!
+								- Dạ có thấy.
+								- Giờ quay về phía sau, con có thấy chân trời không?
+								- Dạ thấy.
+								- Con nhìn cả trái lẫn phải đi xem có thấy chân trời không?
+								- Thôi khỏi! Trên đỉnh núi 🗻 này thì dòm đâu chẳng thấy chân trời, thầy đừng hỏi những câu thừa thải như vậy nữa!!!
+								- Thấy rồi thì đi thôi!
+								- Đi chẳng bao giờ tới thì đi làm gì cơ chứ?!!!
+								- Ta đã tới rồi nên mới dẫn con đi. Con không muốn đi thì cứ ở lại đây.
+								- Khoan, thầy không được đi! Thầy còn nợ con lời giải thích làm sao thầy có thể tới được cái chân trời vô tận đó!
+								- Ta tới được bằng cách kéo chân trời về ngay dưới chân ta.
+								- 😮 Làm sao có thể được...
+								- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
+								- ...
+						- “Bringing the horizon right beneath the feet”
+							- Gemini's interpretation:
+							  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
+						- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
+							- [一山還有一山高](https://en.wiktionary.org/wiki/%E4%B8%80%E5%B1%B1%E9%82%84%E6%9C%89%E4%B8%80%E5%B1%B1%E9%AB%98)
+							- [Déyé món gen món](https://asfehaiti.wordpress.com/2015/12/16/deye-mon-gen-mon/)
+							  Haitian Creole proverb meaning “beyond mountains there are mountains”.
+							- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
+							- “When you have reached the top of the mountain, keep climbing!”
+							  a (Tibetan Zen) proverb
+					- Let's restart from the way/attitude of looking at everything!
+						- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
+						- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
+						- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
+						  collapsed:: true
+							- There is the ultimate purpose, but it's **not "final"**. The ultimate goal/purpos is the "[horizon](((67445223-9459-4aa9-b102-70c63943577b)))" which is always vividly there, always the guiding direction for us, but can never be "final" or "finished".
+							- As long as we're walking, we're "on the horizon"; anytime one thinks "i've reached the target", that one is deluding itself and effectively withdraw itself away from the horizon.
+							- It's the difference between cyclic nature and linear nature, between the circle and the arrow.
+							- The ultimate goal is (the center of) the totality, the whole, while all targets are intermediate points on the (endless) way to the goal.
+					- Training the non-attached looking
+						- First, detach, keep distance until the mind returns to neutral attitude.
+						- Next, slowly approach the object while being aware of all mental reactions.
+						- Observe the reactions and connect them with the whole, reminding the whole with all aspects, all sides, all conflicting parts.
+						- Frequently back off for the holistic relations to emerge.
+						- Remember to breathe!
+						- In the training, all actions should be done automatically without any intention.
+						- Training sessions should run alternately with actual working sessions.
+					- DOING “**Stop - Breath - Observe - Plan**”
+					  id:: 67714c6b-68b6-4f73-b209-56f5f184c4d9
+					  :LOGBOOK:
+					  CLOCK: [2024-12-29 Sun 21:06:08]
+					  :END:
+						- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
+						- Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
+						  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
+						  collapsed:: true
+						  :LOGBOOK:
+						  CLOCK: [2024-12-29 Sun 21:32:09]
+						  :END:
+							- The master plan keeps the mind near the root, and have a bird's eye view.
+							- The task is usually placed in the context work with status `TODO`, `DOING`, `WAIT`, `IN-PROGRESS`, or `CANCELED`.
+							- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
+							- The plan is to the work as the table of contents is to the document.
+							- Orders & flows
+								- Pagination: [[Task]], [[Story]], [[Braindump]], [[Brainstorm]] are split by page per year.
+									- [[Brainstorm]]  is sorted in inverse chronological order.
+									- Others are sorted in chronological order.
+								- No pagination: [[Mind Jungle]]
+								- Year Tasks = past tasks> Tasks[ current > future > deferred & backlog]
+									- Move current tasks done, i.e. past tasks → Year Tasks
+									  id:: 67760c43-d4fb-43e3-ab23-16720723f800
+								- Year Braindumps > ((db954501-95d0-46e2-b1fc-39b6a966300e)) 
+								  ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) > Year Brainstorms
+									- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
+									  id:: 67762e67-bcfc-403b-a314-44213523f905
+								- ((6651adea-81d4-40a5-b96d-af6739e572eb)):
+									- ((67139355-ac72-4e4c-b882-00bb3a3ea144)):
+										- ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) > ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
+											- Move WIPs from `WIPs` → `To be merged`
+									- ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place:
+										- ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
+											- ((67762e67-bcfc-403b-a314-44213523f905))
+										- ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
+											- ((67760c43-d4fb-43e3-ab23-16720723f800))
+							- Master plan:
+							  id:: 67760c43-5cbd-4b4f-8fd9-5cedf804f56a
+							  :LOGBOOK:
+							  CLOCK: [2025-01-02 Thu 14:44:16]
+							  :END:
+								- spatial versus temporal, like [urban planning](https://en.wikipedia.org/wiki/Urban_planning)
+								- spatial: ((67760c43-58c6-40eb-b874-40afae448966)) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place = 0 = out
+								- temporal: ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
+								- design ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982)))
+									- start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
+										- → down to tasks, deep into in-context tasks
+										- → at break points (temporary break, task complete, new issue), return to braindumping
+										- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
+										- → re-evalutate the current task
+											- re-evaluate the workload and relation to other tasks to update the task in Task list
+												- update task priority (moving up/down the tak lists), and update/add ((67764baf-0cda-464b-84fc-c11b4ebe5539))s
+											- ask "why" to return up to the Mind Map
+												- most of the time, this will be just another instance of a problem/question already in the Mind Map, so just link back to it.
+												- some rare times, Mind Map will need to be updated.
+										- → down to current (new) issue or task
+										- → continue...
+									- The root of all issues and all effect flows is the problems and questions in the Mind Map.
+										- Question is a special kind of problem: ⟪ [?] what is this? ⟫ = ⟪ [!] this knowledge is missing! ⟫
+										- Effect circle: from problem → requirement → task → check result agaist requirement → update requirement (and problem) until the problem is (re)solved.
+									- ⟪causes ⇒ action⟫ block
+									  id:: 67764baf-0cda-464b-84fc-c11b4ebe5539
+									  collapsed:: true
+									   in Braindumping
+										- use `[⇒]` to mark the cause block of some action
+											- if it's a compound action, link to that action block
+											- for simple action, just write it in plain text after `[⇒]`
+											- it's better to display the causes above the ⟨`[⇒]` action⟩, just like backlinks
+												- but that's not supported in Logseq now
+											- the ⟨causes ⇒ action⟩ block should be read in reverse order in the current format: causes are sub-blocks of action.
+										- [⇒] ((67764c9e-2cb1-4e0b-a318-9e14dade130d))
+											- cause 1
+											- cause 2
+										- do something
+										  id:: 67764c9e-2cb1-4e0b-a318-9e14dade130d
+											- task 1
+											- task 2
+									- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+										- Machines lack effect circle, don't know the "why", the root purpose.
+									- turn all works into **problem solving** works _around the **intent**_
+									  id:: 677fca96-1e71-4af7-9a99-1c751d145358
+										- problem = mismatch = distance to target (center)
+										- question = infinite/open problem
+										- question for knowledge cone <> problem for effect cone
+										  id:: 677fcaba-d2ca-4afd-9698-b33255a774e0
+											- the knowledge cone reflects the effect cone though the interaction between knowledge circle and effect circle:
+											- intent - question - (sub-intent) - answer = knowledge -> action
+											- intent - problem - (sub-intent) - action - result -> new knowledge
+											- this flow of effect gives knowledge to other threads of knowledge
+											- when this flow gets stuck due to the lack of knowledge in this thread, just switch to the next flow waiting in the task list
+											- effect flow = program execution history = braindumping
+								- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
+								  > Matter planning is a really apt name.
+								  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
@@ -4489,199 +4681,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- While Freud described [death drive](https://en.wikipedia.org/wiki/Death_drive) (Thanatos) as the opposite of sex drive (Eros), i see they are just two faces of the same coin with the same nature.
 								- Due to the guise of life, we fall into the contradiction of continuously reaching (small) deaths in the hope of avoiding (big) death.
 								- Accepting death is no problem to me and i've spent my whole life to explore various types of death.
-							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) the mind to _**start** the new journey!_
-							  id:: 67445065-15b2-475e-a704-78f140d487af
-								- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
-								- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable
-								  id:: 67445223-9459-4aa9-b102-70c63943577b
-								  collapsed:: true
-									- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.
-									  collapsed:: true
-										- Let's go, don't get too engrossed in this place.
-										- But haven’t we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn’t we enjoy the fruits of our labor instead of moving on, master?!
-										- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
-										- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
-										- If you still want liberation, follow me.
-										- But why do we need to move on when we've reached the destination of liberation?
-										- This is not the destination.
-										- Clearly, back in the city, when I asked, “Where do we go to find freedom?” you pointed to this mountain.
-										- At that time, the city’s buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
-										- So we can never reach the destination 😮‍💨?!
-										- We can.
-										- Have you reached the destination, master?
-										- I have.
-										- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
-										- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn’t say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
-										- I see the horizon as a straight line in front of me, but it’s just an illusion; there’s no actual line!
-										- I only asked if you see it or not!
-										- Yes, I see it.
-										- Now, look behind; do you see the horizon?
-										- Yes, I do.
-										- Look to both the left and right; do you see the horizon?
-										- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don’t ask such redundant questions!!!
-										- If you've seen it, let's go!
-										- Why move on if we'll never reach it?!!!
-										- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
-										- Wait, master, you can't leave! You owe me an explanation of how you can reach that endless horizon!
-										- I've reached it by bringing the horizon right beneath my feet.
-										- 😮 How is that possible...
-										- I told you before that you wouldn't understand! It's only because you pushed me that I had to say it.
-										- ...
-									- [Cái đích là chân trời](http://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
-										- Hai thầy trò sau một tuần thưởng thức phong cảnh hữu tình ở núi Cực Lạc thì sáng ra thầy lại giục trò lên đường đi tiếp.
-										  collapsed:: true
-											- Đi thôi con, đừng để mình chìm đắm vào chỗ này.
-											- Ủa, chẳng phải chúng ta đã tới đích rồi sao?! Đi bao nhiêu lâu, mất bao sức lực, mồ hồi và cả máu mới tới được đích... không hưởng thành quả mà còn đi đâu nữa thầy?!
-											- Ta đã cho con hưởng thụ cả tuần qua rồi đó thôi, nếu con thấy chưa đủ thì cứ ở lại hưởng thụ đi, thầy đi một mình.
-											- Vấn đề không phải là hưởng thụ, con theo thầy là để tới chỗ giải thoát chứ không phải để hưởng thụ. Nếu thích hưởng thụ thì còn đã ở lại trong đời rồi, có bao nhiêu thú vui ở đó chứ theo thầy lên núi chi cho mệt vậy?!
-											- Nếu còn muốn giải thoát thì theo ta đi tiếp.
-											- Nhưng tại sao phải đi tiếp khi chúng ta đã tới được đích giải thoát?
-											- Đây không phải là đích.
-											- Rõ ràng hồi ở trong thành phố, khi con hỏi “đi đâu để tìm được tự do” thì thầy đã chỉ tay về phía ngọn núi này mà.
-											- Lúc đó trong thành phố bị nhà cửa che khuất tầm mắt nên ta phải chỉ ngọn núi cao để cho con thấy thôi, chứ thực ra ý ta muốn nói rằng “cái đích nằm ở chân trời”.
-											- Vậy là không bao giờ tới được đích sao 😮‍💨?!
-											- Tới được.
-											- Vậy thầy đã tới đích chưa?
-											- Ta tới rồi.
-											- Thầy nói dối! Ngày xưa trong thành phố con chưa thấy chân trời bao giờ thì thầy còn có thể lừa con được, chứ mấy tháng nay đi ra ngoài thì con đã chứng thực rồi: Chân trời là vô tận, mình càng đi tới bao nhiêu thì nó càng lùi về xa bấy nhiêu, nên không thể nào chạm được tới chân trời đâu.
-											- Ta không lừa con, ta chỉ nói theo những gì con có thể thấy và hiểu được. Ngày trước ta không nói “đích là chân trời” vì lúc đó con chưa thấy và hiểu rõ chân trời là gì. Hôm nay ta cũng không lừa con, ta chỉ nói theo những gì con đang thấy mà thôi. Này, nhìn thẳng về trước, con có thấy chân trời không?
-											- Con thấy chân trời như một đường thẳng trước mặt, nhưng đó chỉ là ảo giác, thực ra không có đường đó!
-											- Ta chỉ hỏi có thấy hay không?!
-											- Dạ có thấy.
-											- Giờ quay về phía sau, con có thấy chân trời không?
-											- Dạ thấy.
-											- Con nhìn cả trái lẫn phải đi xem có thấy chân trời không?
-											- Thôi khỏi! Trên đỉnh núi 🗻 này thì dòm đâu chẳng thấy chân trời, thầy đừng hỏi những câu thừa thải như vậy nữa!!!
-											- Thấy rồi thì đi thôi!
-											- Đi chẳng bao giờ tới thì đi làm gì cơ chứ?!!!
-											- Ta đã tới rồi nên mới dẫn con đi. Con không muốn đi thì cứ ở lại đây.
-											- Khoan, thầy không được đi! Thầy còn nợ con lời giải thích làm sao thầy có thể tới được cái chân trời vô tận đó!
-											- Ta tới được bằng cách kéo chân trời về ngay dưới chân ta.
-											- 😮 Làm sao có thể được...
-											- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
-											- ...
-									- “Bringing the horizon right beneath the feet”
-										- Gemini's interpretation:
-										  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
-									- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
-										- [一山還有一山高](https://en.wiktionary.org/wiki/%E4%B8%80%E5%B1%B1%E9%82%84%E6%9C%89%E4%B8%80%E5%B1%B1%E9%AB%98)
-										- [Déyé món gen món](https://asfehaiti.wordpress.com/2015/12/16/deye-mon-gen-mon/)
-										  Haitian Creole proverb meaning “beyond mountains there are mountains”.
-										- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
-										- “When you have reached the top of the mountain, keep climbing!”
-										  a (Tibetan Zen) proverb
-								- Let's restart from the way/attitude of looking at everything!
-									- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
-									- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
-									- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
-									  collapsed:: true
-										- There is the ultimate purpose, but it's **not "final"**. The ultimate goal/purpos is the "[horizon](((67445223-9459-4aa9-b102-70c63943577b)))" which is always vividly there, always the guiding direction for us, but can never be "final" or "finished".
-										- As long as we're walking, we're "on the horizon"; anytime one thinks "i've reached the target", that one is deluding itself and effectively withdraw itself away from the horizon.
-										- It's the difference between cyclic nature and linear nature, between the circle and the arrow.
-										- The ultimate goal is (the center of) the totality, the whole, while all targets are intermediate points on the (endless) way to the goal.
-								- Training the non-attached looking
-									- First, detach, keep distance until the mind returns to neutral attitude.
-									- Next, slowly approach the object while being aware of all mental reactions.
-									- Observe the reactions and connect them with the whole, reminding the whole with all aspects, all sides, all conflicting parts.
-									- Frequently back off for the holistic relations to emerge.
-									- Remember to breathe!
-									- In the training, all actions should be done automatically without any intention.
-									- Training sessions should run alternately with actual working sessions.
-								- DOING “**Stop - Breath - Observe - Plan**”
-								  id:: 67714c6b-68b6-4f73-b209-56f5f184c4d9
-								  :LOGBOOK:
-								  CLOCK: [2024-12-29 Sun 21:06:08]
-								  :END:
-									- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
-									- Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
-									  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
-									  collapsed:: true
-									  :LOGBOOK:
-									  CLOCK: [2024-12-29 Sun 21:32:09]
-									  :END:
-										- The master plan keeps the mind near the root, and have a bird's eye view.
-										- The task is usually placed in the context work with status `TODO`, `DOING`, `WAIT`, `IN-PROGRESS`, or `CANCELED`.
-										- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
-										- The plan is to the work as the table of contents is to the document.
-										- Orders & flows
-											- Pagination: [[Task]], [[Story]], [[Braindump]], [[Brainstorm]] are split by page per year.
-												- [[Brainstorm]]  is sorted in inverse chronological order.
-												- Others are sorted in chronological order.
-											- No pagination: [[Mind Jungle]]
-											- Year Tasks = past tasks> Tasks[ current > future > deferred & backlog]
-												- Move current tasks done, i.e. past tasks → Year Tasks
-												  id:: 67760c43-d4fb-43e3-ab23-16720723f800
-											- Year Braindumps > ((db954501-95d0-46e2-b1fc-39b6a966300e)) 
-											  ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) > Year Brainstorms
-												- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
-												  id:: 67762e67-bcfc-403b-a314-44213523f905
-											- ((6651adea-81d4-40a5-b96d-af6739e572eb)):
-												- ((67139355-ac72-4e4c-b882-00bb3a3ea144)):
-													- ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) > ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
-														- Move WIPs from `WIPs` → `To be merged`
-												- ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place:
-													- ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
-														- ((67762e67-bcfc-403b-a314-44213523f905))
-													- ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
-														- ((67760c43-d4fb-43e3-ab23-16720723f800))
-										- Master plan:
-										  id:: 67760c43-5cbd-4b4f-8fd9-5cedf804f56a
-										  :LOGBOOK:
-										  CLOCK: [2025-01-02 Thu 14:44:16]
-										  :END:
-											- spatial versus temporal, like [urban planning](https://en.wikipedia.org/wiki/Urban_planning)
-											- spatial: ((67760c43-58c6-40eb-b874-40afae448966)) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place = 0 = out
-											- temporal: ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
-											- design ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982)))
-												- start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
-													- → down to tasks, deep into in-context tasks
-													- → at break points (temporary break, task complete, new issue), return to braindumping
-													- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
-													- → re-evalutate the current task
-														- re-evaluate the workload and relation to other tasks to update the task in Task list
-															- update task priority (moving up/down the tak lists), and update/add ((67764baf-0cda-464b-84fc-c11b4ebe5539))s
-														- ask "why" to return up to the Mind Map
-															- most of the time, this will be just another instance of a problem/question already in the Mind Map, so just link back to it.
-															- some rare times, Mind Map will need to be updated.
-													- → down to current (new) issue or task
-													- → continue...
-												- The root of all issues and all effect flows is the problems and questions in the Mind Map.
-													- Question is a special kind of problem: ⟪ [?] what is this? ⟫ = ⟪ [!] this knowledge is missing! ⟫
-													- Effect circle: from problem → requirement → task → check result agaist requirement → update requirement (and problem) until the problem is (re)solved.
-												- ⟪causes ⇒ action⟫ block
-												  id:: 67764baf-0cda-464b-84fc-c11b4ebe5539
-												  collapsed:: true
-												   in Braindumping
-													- use `[⇒]` to mark the cause block of some action
-														- if it's a compound action, link to that action block
-														- for simple action, just write it in plain text after `[⇒]`
-														- it's better to display the causes above the ⟨`[⇒]` action⟩, just like backlinks
-															- but that's not supported in Logseq now
-														- the ⟨causes ⇒ action⟩ block should be read in reverse order in the current format: causes are sub-blocks of action.
-													- [⇒] ((67764c9e-2cb1-4e0b-a318-9e14dade130d))
-														- cause 1
-														- cause 2
-													- do something
-													  id:: 67764c9e-2cb1-4e0b-a318-9e14dade130d
-														- task 1
-														- task 2
-												- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-													- Machines lack effect circle, don't know the "why", the root purpose.
-												- turn all works into **problem solving** works _around the **intent**_
-												  id:: 677fca96-1e71-4af7-9a99-1c751d145358
-													- problem = mismatch = distance to target (center)
-													- question = infinite/open problem
-													- question for knowledge cone <> problem for effect cone
-													  id:: 677fcaba-d2ca-4afd-9698-b33255a774e0
-														- the knowledge cone reflects the effect cone though the interaction between knowledge circle and effect circle:
-														- intent - question - (sub-intent) - answer = knowledge -> action
-														- intent - problem - (sub-intent) - action - result -> new knowledge
-														- this flow of effect gives knowledge to other threads of knowledge
-														- when this flow gets stuck due to the lack of knowledge in this thread, just switch to the next flow waiting in the task list
-														- effect flow = program execution history = braindumping
-											- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
-											  > Matter planning is a really apt name.
-											  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
+							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
+								- [Fb post]((https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/)) marking the first active reset within a day, Nov 15th 2024.
+									- Vừa nãy là lần đầu mình reset được trong 1 ngày, không đợi tới ngày mai!
+									  Gần đây thì reset cuối ngày, lúc ngủ.
+									  Mấy tháng trước là reset cuối tuần.
+									  Mấy năm trước là reset mỗi tháng hoặc vài tháng, thường là đổ bệnh hoặc có sự cố đổ bể gì đó.
+									  Hồi trẻ thì reset sau khoảng vài năm đâm đầu.
+									  Mấy đời trước thì reset cuối đời (lúc chết).
 						- The ((6678282b-d710-4c6b-b584-5f65012c192d)) effect
 						  collapsed:: true
 							- The great **momentum** of the past is the internal form.
