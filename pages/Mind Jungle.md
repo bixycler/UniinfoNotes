@@ -3308,90 +3308,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- #### Reset
 				  id:: 67445065-15b2-475e-a704-78f140d487af
 				  unload the intent structure
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Instead of ~~aiming at the destination~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Instead of ~~[aiming at the destination](((684f9517-db29-4079-8674-09e0ffaff6ba)))~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
 					- Reset button
 						- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
-					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable
-					  id:: 67445223-9459-4aa9-b102-70c63943577b
-					  collapsed:: true
-						- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.
-						  collapsed:: true
-							- Let's go, don't get too engrossed in this place.
-							- But haven’t we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn’t we enjoy the fruits of our labor instead of moving on, master?!
-							- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
-							- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
-							- If you still want liberation, follow me.
-							- But why do we need to move on when we've reached the destination of liberation?
-							- This is not the destination.
-							- Clearly, back in the city, when I asked, “Where do we go to find freedom?” you pointed to this mountain.
-							- At that time, the city’s buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
-							- So we can never reach the destination 😮‍💨?!
-							- We can.
-							- Have you reached the destination, master?
-							- I have.
-							- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
-							- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn’t say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
-							- I see the horizon as a straight line in front of me, but it’s just an illusion; there’s no actual line!
-							- I only asked if you see it or not!
-							- Yes, I see it.
-							- Now, look behind; do you see the horizon?
-							- Yes, I do.
-							- Look to both the left and right; do you see the horizon?
-							- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don’t ask such redundant questions!!!
-							- If you've seen it, let's go!
-							- Why move on if we'll never reach it?!!!
-							- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
-							- Wait, master, you can't leave! You owe me an explanation of how you can reach that endless horizon!
-							- I've reached it by bringing the horizon right beneath my feet.
-							- 😮 How is that possible...
-							- I told you before that you wouldn't understand! It's only because you pushed me that I had to say it.
-							- ...
-						- [Cái đích là chân trời](http://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
-							- Hai thầy trò sau một tuần thưởng thức phong cảnh hữu tình ở núi Cực Lạc thì sáng ra thầy lại giục trò lên đường đi tiếp.
-							  collapsed:: true
-								- Đi thôi con, đừng để mình chìm đắm vào chỗ này.
-								- Ủa, chẳng phải chúng ta đã tới đích rồi sao?! Đi bao nhiêu lâu, mất bao sức lực, mồ hồi và cả máu mới tới được đích... không hưởng thành quả mà còn đi đâu nữa thầy?!
-								- Ta đã cho con hưởng thụ cả tuần qua rồi đó thôi, nếu con thấy chưa đủ thì cứ ở lại hưởng thụ đi, thầy đi một mình.
-								- Vấn đề không phải là hưởng thụ, con theo thầy là để tới chỗ giải thoát chứ không phải để hưởng thụ. Nếu thích hưởng thụ thì còn đã ở lại trong đời rồi, có bao nhiêu thú vui ở đó chứ theo thầy lên núi chi cho mệt vậy?!
-								- Nếu còn muốn giải thoát thì theo ta đi tiếp.
-								- Nhưng tại sao phải đi tiếp khi chúng ta đã tới được đích giải thoát?
-								- Đây không phải là đích.
-								- Rõ ràng hồi ở trong thành phố, khi con hỏi “đi đâu để tìm được tự do” thì thầy đã chỉ tay về phía ngọn núi này mà.
-								- Lúc đó trong thành phố bị nhà cửa che khuất tầm mắt nên ta phải chỉ ngọn núi cao để cho con thấy thôi, chứ thực ra ý ta muốn nói rằng “cái đích nằm ở chân trời”.
-								- Vậy là không bao giờ tới được đích sao 😮‍💨?!
-								- Tới được.
-								- Vậy thầy đã tới đích chưa?
-								- Ta tới rồi.
-								- Thầy nói dối! Ngày xưa trong thành phố con chưa thấy chân trời bao giờ thì thầy còn có thể lừa con được, chứ mấy tháng nay đi ra ngoài thì con đã chứng thực rồi: Chân trời là vô tận, mình càng đi tới bao nhiêu thì nó càng lùi về xa bấy nhiêu, nên không thể nào chạm được tới chân trời đâu.
-								- Ta không lừa con, ta chỉ nói theo những gì con có thể thấy và hiểu được. Ngày trước ta không nói “đích là chân trời” vì lúc đó con chưa thấy và hiểu rõ chân trời là gì. Hôm nay ta cũng không lừa con, ta chỉ nói theo những gì con đang thấy mà thôi. Này, nhìn thẳng về trước, con có thấy chân trời không?
-								- Con thấy chân trời như một đường thẳng trước mặt, nhưng đó chỉ là ảo giác, thực ra không có đường đó!
-								- Ta chỉ hỏi có thấy hay không?!
-								- Dạ có thấy.
-								- Giờ quay về phía sau, con có thấy chân trời không?
-								- Dạ thấy.
-								- Con nhìn cả trái lẫn phải đi xem có thấy chân trời không?
-								- Thôi khỏi! Trên đỉnh núi 🗻 này thì dòm đâu chẳng thấy chân trời, thầy đừng hỏi những câu thừa thải như vậy nữa!!!
-								- Thấy rồi thì đi thôi!
-								- Đi chẳng bao giờ tới thì đi làm gì cơ chứ?!!!
-								- Ta đã tới rồi nên mới dẫn con đi. Con không muốn đi thì cứ ở lại đây.
-								- Khoan, thầy không được đi! Thầy còn nợ con lời giải thích làm sao thầy có thể tới được cái chân trời vô tận đó!
-								- Ta tới được bằng cách kéo chân trời về ngay dưới chân ta.
-								- 😮 Làm sao có thể được...
-								- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
-								- ...
-						- “Bringing the horizon right beneath the feet”
-							- Gemini's interpretation:
-							  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
-						- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
-							- [一山還有一山高](https://en.wiktionary.org/wiki/%E4%B8%80%E5%B1%B1%E9%82%84%E6%9C%89%E4%B8%80%E5%B1%B1%E9%AB%98)
-							- [Déyé món gen món](https://asfehaiti.wordpress.com/2015/12/16/deye-mon-gen-mon/)
-							  Haitian Creole proverb meaning “beyond mountains there are mountains”.
-							- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
-							- “When you have reached the top of the mountain, keep climbing!”
-							  a (Tibetan Zen) proverb
 					- Detailed practices
 					  collapsed:: true
-						- Let's restart from the way/attitude of looking at everything!
+						- Let's restart from the **way/attitude** of looking at everything!
 							- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
 							- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
 							- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
@@ -3400,6 +3322,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- As long as we're walking, we're "on the horizon"; anytime one thinks "i've reached the target", that one is deluding itself and effectively withdraw itself away from the horizon.
 								- It's the difference between cyclic nature and linear nature, between the circle and the arrow.
 								- The ultimate goal is (the center of) the totality, the whole, while all targets are intermediate points on the (endless) way to the goal.
+						- **Detach the self** by **exposing the hidden boss**.
+						  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
+						  “Detached self = selfless”
+							- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
+							- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
 						- Training the non-attached looking
 							- First, detach, keep distance until the mind returns to neutral attitude.
 							- Next, slowly approach the object while being aware of all mental reactions.
@@ -3503,17 +3430,91 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
 									  > Matter planning is a really apt name.
 									  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
-						- **Exposing the hidden boss** means **detaching the self**.
-						  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
-							- “Detached self = selfless”
-							- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
-							- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
-							- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
-					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
+					- target reaching machinary
 					  id:: 684f9517-db29-4079-8674-09e0ffaff6ba
+						- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
 						- The **inner target** of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 						- *The target is the __hidden boss__*, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) wall, the underlying driving force. My boss is the [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))).
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((674c11d4-894a-46d1-b653-5e8148773d7a))
+						- The [computer programs](https://en.wikipedia.org/wiki/Computer_program) reflect this target reaching machinary on computers.
+					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable
+					  id:: 67445223-9459-4aa9-b102-70c63943577b
+					  collapsed:: true
+						- After enjoying the scenic beauty of Mount Extreme Bliss for a week, the master urged the disciple to continue the journey the next morning.
+						  collapsed:: true
+							- Let's go, don't get too engrossed in this place.
+							- But haven’t we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn’t we enjoy the fruits of our labor instead of moving on, master?!
+							- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
+							- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
+							- If you still want liberation, follow me.
+							- But why do we need to move on when we've reached the destination of liberation?
+							- This is not the destination.
+							- Clearly, back in the city, when I asked, “Where do we go to find freedom?” you pointed to this mountain.
+							- At that time, the city’s buildings blocked the view, so I had to point to a tall mountain for you to see. But I meant that “the destination lies at the horizon.”
+							- So we can never reach the destination 😮‍💨?!
+							- We can.
+							- Have you reached the destination, master?
+							- I have.
+							- You're lying! Back in the city, I never saw the horizon, so you could fool me. But now, after months of travel, I've seen for myself: The horizon is endless. The more we walk towards it, the further it moves away, so we can never truly touch it.
+							- I didn't deceive you. I only spoke in a way you could see and understand. Before, I didn’t say “the destination is the horizon” because you hadn't yet seen and understood what the horizon is. Today, I'm not deceiving you, either. I only speak according to what you now see. Now, look straight ahead; do you see the horizon?
+							- I see the horizon as a straight line in front of me, but it’s just an illusion; there’s no actual line!
+							- I only asked if you see it or not!
+							- Yes, I see it.
+							- Now, look behind; do you see the horizon?
+							- Yes, I do.
+							- Look to both the left and right; do you see the horizon?
+							- Enough! On this mountaintop 🗻, wherever I look, I see the horizon. Don’t ask such redundant questions!!!
+							- If you've seen it, let's go!
+							- Why move on if we'll never reach it?!!!
+							- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
+							- Wait, master, you can't leave! You owe me an explanation of how you can reach that endless horizon!
+							- I've reached it by bringing the horizon right beneath my feet.
+							- 😮 How is that possible...
+							- I told you before that you wouldn't understand! It's only because you pushed me that I had to say it.
+							- ...
+						- [Cái đích là chân trời](http://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
+							- Hai thầy trò sau một tuần thưởng thức phong cảnh hữu tình ở núi Cực Lạc thì sáng ra thầy lại giục trò lên đường đi tiếp.
+							  collapsed:: true
+								- Đi thôi con, đừng để mình chìm đắm vào chỗ này.
+								- Ủa, chẳng phải chúng ta đã tới đích rồi sao?! Đi bao nhiêu lâu, mất bao sức lực, mồ hồi và cả máu mới tới được đích... không hưởng thành quả mà còn đi đâu nữa thầy?!
+								- Ta đã cho con hưởng thụ cả tuần qua rồi đó thôi, nếu con thấy chưa đủ thì cứ ở lại hưởng thụ đi, thầy đi một mình.
+								- Vấn đề không phải là hưởng thụ, con theo thầy là để tới chỗ giải thoát chứ không phải để hưởng thụ. Nếu thích hưởng thụ thì còn đã ở lại trong đời rồi, có bao nhiêu thú vui ở đó chứ theo thầy lên núi chi cho mệt vậy?!
+								- Nếu còn muốn giải thoát thì theo ta đi tiếp.
+								- Nhưng tại sao phải đi tiếp khi chúng ta đã tới được đích giải thoát?
+								- Đây không phải là đích.
+								- Rõ ràng hồi ở trong thành phố, khi con hỏi “đi đâu để tìm được tự do” thì thầy đã chỉ tay về phía ngọn núi này mà.
+								- Lúc đó trong thành phố bị nhà cửa che khuất tầm mắt nên ta phải chỉ ngọn núi cao để cho con thấy thôi, chứ thực ra ý ta muốn nói rằng “cái đích nằm ở chân trời”.
+								- Vậy là không bao giờ tới được đích sao 😮‍💨?!
+								- Tới được.
+								- Vậy thầy đã tới đích chưa?
+								- Ta tới rồi.
+								- Thầy nói dối! Ngày xưa trong thành phố con chưa thấy chân trời bao giờ thì thầy còn có thể lừa con được, chứ mấy tháng nay đi ra ngoài thì con đã chứng thực rồi: Chân trời là vô tận, mình càng đi tới bao nhiêu thì nó càng lùi về xa bấy nhiêu, nên không thể nào chạm được tới chân trời đâu.
+								- Ta không lừa con, ta chỉ nói theo những gì con có thể thấy và hiểu được. Ngày trước ta không nói “đích là chân trời” vì lúc đó con chưa thấy và hiểu rõ chân trời là gì. Hôm nay ta cũng không lừa con, ta chỉ nói theo những gì con đang thấy mà thôi. Này, nhìn thẳng về trước, con có thấy chân trời không?
+								- Con thấy chân trời như một đường thẳng trước mặt, nhưng đó chỉ là ảo giác, thực ra không có đường đó!
+								- Ta chỉ hỏi có thấy hay không?!
+								- Dạ có thấy.
+								- Giờ quay về phía sau, con có thấy chân trời không?
+								- Dạ thấy.
+								- Con nhìn cả trái lẫn phải đi xem có thấy chân trời không?
+								- Thôi khỏi! Trên đỉnh núi 🗻 này thì dòm đâu chẳng thấy chân trời, thầy đừng hỏi những câu thừa thải như vậy nữa!!!
+								- Thấy rồi thì đi thôi!
+								- Đi chẳng bao giờ tới thì đi làm gì cơ chứ?!!!
+								- Ta đã tới rồi nên mới dẫn con đi. Con không muốn đi thì cứ ở lại đây.
+								- Khoan, thầy không được đi! Thầy còn nợ con lời giải thích làm sao thầy có thể tới được cái chân trời vô tận đó!
+								- Ta tới được bằng cách kéo chân trời về ngay dưới chân ta.
+								- 😮 Làm sao có thể được...
+								- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
+								- ...
+						- “Bringing the horizon right beneath the feet”
+							- Gemini's interpretation:
+							  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
+						- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
+							- [一山還有一山高](https://en.wiktionary.org/wiki/%E4%B8%80%E5%B1%B1%E9%82%84%E6%9C%89%E4%B8%80%E5%B1%B1%E9%AB%98)
+							- [Déyé món gen món](https://asfehaiti.wordpress.com/2015/12/16/deye-mon-gen-mon/)
+							  Haitian Creole proverb meaning “beyond mountains there are mountains”.
+							- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
+							- “When you have reached the top of the mountain, keep climbing!”
+							  a (Tibetan Zen) proverb
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
