@@ -3309,7 +3309,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 67445065-15b2-475e-a704-78f140d487af
 				  unload the intent structure
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Instead of ~~aiming at the destination~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
-					- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
+					- Reset button
+						- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
 					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable
 					  id:: 67445223-9459-4aa9-b102-70c63943577b
 					  collapsed:: true
@@ -3388,124 +3389,131 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
 							- “When you have reached the top of the mountain, keep climbing!”
 							  a (Tibetan Zen) proverb
-					- Let's restart from the way/attitude of looking at everything!
-						- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
-						- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
-						- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
-						  collapsed:: true
-							- There is the ultimate purpose, but it's **not "final"**. The ultimate goal/purpos is the "[horizon](((67445223-9459-4aa9-b102-70c63943577b)))" which is always vividly there, always the guiding direction for us, but can never be "final" or "finished".
-							- As long as we're walking, we're "on the horizon"; anytime one thinks "i've reached the target", that one is deluding itself and effectively withdraw itself away from the horizon.
-							- It's the difference between cyclic nature and linear nature, between the circle and the arrow.
-							- The ultimate goal is (the center of) the totality, the whole, while all targets are intermediate points on the (endless) way to the goal.
-					- Training the non-attached looking
-						- First, detach, keep distance until the mind returns to neutral attitude.
-						- Next, slowly approach the object while being aware of all mental reactions.
-						- Observe the reactions and connect them with the whole, reminding the whole with all aspects, all sides, all conflicting parts.
-						- Frequently back off for the holistic relations to emerge.
-						- Remember to breathe!
-						- In the training, all actions should be done automatically without any intention.
-						- Training sessions should run alternately with actual working sessions.
-					- DOING “**Stop - Breath - Observe - Plan**”
-					  id:: 67714c6b-68b6-4f73-b209-56f5f184c4d9
-					  :LOGBOOK:
-					  CLOCK: [2024-12-29 Sun 21:06:08]
-					  :END:
-						- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
-						- Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
-						  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
-						  collapsed:: true
+					- Detailed practices
+					  collapsed:: true
+						- Let's restart from the way/attitude of looking at everything!
+							- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
+							- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
+							- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
+							  collapsed:: true
+								- There is the ultimate purpose, but it's **not "final"**. The ultimate goal/purpos is the "[horizon](((67445223-9459-4aa9-b102-70c63943577b)))" which is always vividly there, always the guiding direction for us, but can never be "final" or "finished".
+								- As long as we're walking, we're "on the horizon"; anytime one thinks "i've reached the target", that one is deluding itself and effectively withdraw itself away from the horizon.
+								- It's the difference between cyclic nature and linear nature, between the circle and the arrow.
+								- The ultimate goal is (the center of) the totality, the whole, while all targets are intermediate points on the (endless) way to the goal.
+						- Training the non-attached looking
+							- First, detach, keep distance until the mind returns to neutral attitude.
+							- Next, slowly approach the object while being aware of all mental reactions.
+							- Observe the reactions and connect them with the whole, reminding the whole with all aspects, all sides, all conflicting parts.
+							- Frequently back off for the holistic relations to emerge.
+							- Remember to breathe!
+							- In the training, all actions should be done automatically without any intention.
+							- Training sessions should run alternately with actual working sessions.
+						- DOING “**Stop - Breath - Observe - Plan**”
+						  id:: 67714c6b-68b6-4f73-b209-56f5f184c4d9
 						  :LOGBOOK:
-						  CLOCK: [2024-12-29 Sun 21:32:09]
+						  CLOCK: [2024-12-29 Sun 21:06:08]
 						  :END:
-							- The master plan keeps the mind near the root, and have a bird's eye view.
-							- The task is usually placed in the context work with status `TODO`, `DOING`, `WAIT`, `IN-PROGRESS`, or `CANCELED`.
-							- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
-							- The plan is to the work as the table of contents is to the document.
-							- Orders & flows
-								- Pagination: [[Task]], [[Story]], [[Braindump]], [[Brainstorm]] are split by page per year.
-									- [[Brainstorm]]  is sorted in inverse chronological order.
-									- Others are sorted in chronological order.
-								- No pagination: [[Mind Jungle]]
-								- Year Tasks = past tasks> Tasks[ current > future > deferred & backlog]
-									- Move current tasks done, i.e. past tasks → Year Tasks
-									  id:: 67760c43-d4fb-43e3-ab23-16720723f800
-								- Year Braindumps > ((db954501-95d0-46e2-b1fc-39b6a966300e)) 
-								  ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) > Year Brainstorms
-									- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
-									  id:: 67762e67-bcfc-403b-a314-44213523f905
-								- ((6651adea-81d4-40a5-b96d-af6739e572eb)):
-									- ((67139355-ac72-4e4c-b882-00bb3a3ea144)):
-										- ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) > ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
-											- Move WIPs from `WIPs` → `To be merged`
-									- ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place:
-										- ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
-											- ((67762e67-bcfc-403b-a314-44213523f905))
-										- ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
-											- ((67760c43-d4fb-43e3-ab23-16720723f800))
-							- Master plan:
-							  id:: 67760c43-5cbd-4b4f-8fd9-5cedf804f56a
+							- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
+							- Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
+							  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
+							  collapsed:: true
 							  :LOGBOOK:
-							  CLOCK: [2025-01-02 Thu 14:44:16]
+							  CLOCK: [2024-12-29 Sun 21:32:09]
 							  :END:
-								- spatial versus temporal, like [urban planning](https://en.wikipedia.org/wiki/Urban_planning)
-								- spatial: ((67760c43-58c6-40eb-b874-40afae448966)) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place = 0 = out
-								- temporal: ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
-								- design ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982)))
-									- start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
-										- → down to tasks, deep into in-context tasks
-										- → at break points (temporary break, task complete, new issue), return to braindumping
-										- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
-										- → re-evalutate the current task
-											- re-evaluate the workload and relation to other tasks to update the task in Task list
-												- update task priority (moving up/down the tak lists), and update/add ((67764baf-0cda-464b-84fc-c11b4ebe5539))s
-											- ask "why" to return up to the Mind Map
-												- most of the time, this will be just another instance of a problem/question already in the Mind Map, so just link back to it.
-												- some rare times, Mind Map will need to be updated.
-										- → down to current (new) issue or task
-										- → continue...
-									- The root of all issues and all effect flows is the problems and questions in the Mind Map.
-										- Question is a special kind of problem: ⟪ [?] what is this? ⟫ = ⟪ [!] this knowledge is missing! ⟫
-										- Effect circle: from problem → requirement → task → check result agaist requirement → update requirement (and problem) until the problem is (re)solved.
-									- ⟪causes ⇒ action⟫ block
-									  id:: 67764baf-0cda-464b-84fc-c11b4ebe5539
-									  collapsed:: true
-									   in Braindumping
-										- use `[⇒]` to mark the cause block of some action
-											- if it's a compound action, link to that action block
-											- for simple action, just write it in plain text after `[⇒]`
-											- it's better to display the causes above the ⟨`[⇒]` action⟩, just like backlinks
-												- but that's not supported in Logseq now
-											- the ⟨causes ⇒ action⟩ block should be read in reverse order in the current format: causes are sub-blocks of action.
-										- [⇒] ((67764c9e-2cb1-4e0b-a318-9e14dade130d))
-											- cause 1
-											- cause 2
-										- do something
-										  id:: 67764c9e-2cb1-4e0b-a318-9e14dade130d
-											- task 1
-											- task 2
-									- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-										- Machines lack effect circle, don't know the "why", the root purpose.
-									- turn all works into **problem solving** works _around the **intent**_
-									  id:: 677fca96-1e71-4af7-9a99-1c751d145358
-										- problem = mismatch = distance to target (center)
-										- question = infinite/open problem
-										- question for knowledge cone <> problem for effect cone
-										  id:: 677fcaba-d2ca-4afd-9698-b33255a774e0
-											- the knowledge cone reflects the effect cone though the interaction between knowledge circle and effect circle:
-											- intent - question - (sub-intent) - answer = knowledge -> action
-											- intent - problem - (sub-intent) - action - result -> new knowledge
-											- this flow of effect gives knowledge to other threads of knowledge
-											- when this flow gets stuck due to the lack of knowledge in this thread, just switch to the next flow waiting in the task list
-											- effect flow = program execution history = braindumping
-								- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
-								  > Matter planning is a really apt name.
-								  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
-					- **Exposing the hidden boss** means **detaching the self**.
-					  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
-						- “Detached self = selfless”
-						- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
-						- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
-						- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
+								- The master plan keeps the mind near the root, and have a bird's eye view.
+								- The task is usually placed in the context work with status `TODO`, `DOING`, `WAIT`, `IN-PROGRESS`, or `CANCELED`.
+								- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
+								- The plan is to the work as the table of contents is to the document.
+								- Orders & flows
+									- Pagination: [[Task]], [[Story]], [[Braindump]], [[Brainstorm]] are split by page per year.
+										- [[Brainstorm]]  is sorted in inverse chronological order.
+										- Others are sorted in chronological order.
+									- No pagination: [[Mind Jungle]]
+									- Year Tasks = past tasks> Tasks[ current > future > deferred & backlog]
+										- Move current tasks done, i.e. past tasks → Year Tasks
+										  id:: 67760c43-d4fb-43e3-ab23-16720723f800
+									- Year Braindumps > ((db954501-95d0-46e2-b1fc-39b6a966300e)) 
+									  ((6773eb97-ec58-4c48-a017-cd0de2d82e08)) > Year Brainstorms
+										- Move from Brain{dump,storm}ing → Year Brain{dump,storm}
+										  id:: 67762e67-bcfc-403b-a314-44213523f905
+									- ((6651adea-81d4-40a5-b96d-af6739e572eb)):
+										- ((67139355-ac72-4e4c-b882-00bb3a3ea144)):
+											- ((67164cc1-e500-4889-9b6d-12d8dd7fc029)) > ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
+												- Move WIPs from `WIPs` → `To be merged`
+										- ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place:
+											- ((db954501-95d0-46e2-b1fc-39b6a966300e)) and ((6773eb97-ec58-4c48-a017-cd0de2d82e08))
+												- ((67762e67-bcfc-403b-a314-44213523f905))
+											- ((677630fe-ea99-436f-b39f-8bd2295e2eaf)) & ((67164c57-8f45-46eb-92a9-f00b02dccfc9))
+												- ((67760c43-d4fb-43e3-ab23-16720723f800))
+								- Master plan:
+								  id:: 67760c43-5cbd-4b4f-8fd9-5cedf804f56a
+								  :LOGBOOK:
+								  CLOCK: [2025-01-02 Thu 14:44:16]
+								  :END:
+									- spatial versus temporal, like [urban planning](https://en.wikipedia.org/wiki/Urban_planning)
+									- spatial: ((67760c43-58c6-40eb-b874-40afae448966)) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place = 0 = out
+									- temporal: ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
+									- design ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982)))
+										- start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
+											- → down to tasks, deep into in-context tasks
+											- → at break points (temporary break, task complete, new issue), return to braindumping
+											- → review braindumps and go up to ((67760c43-58c6-40eb-b874-40afae448966))
+											- → re-evalutate the current task
+												- re-evaluate the workload and relation to other tasks to update the task in Task list
+													- update task priority (moving up/down the tak lists), and update/add ((67764baf-0cda-464b-84fc-c11b4ebe5539))s
+												- ask "why" to return up to the Mind Map
+													- most of the time, this will be just another instance of a problem/question already in the Mind Map, so just link back to it.
+													- some rare times, Mind Map will need to be updated.
+											- → down to current (new) issue or task
+											- → continue...
+										- The root of all issues and all effect flows is the problems and questions in the Mind Map.
+											- Question is a special kind of problem: ⟪ [?] what is this? ⟫ = ⟪ [!] this knowledge is missing! ⟫
+											- Effect circle: from problem → requirement → task → check result agaist requirement → update requirement (and problem) until the problem is (re)solved.
+										- ⟪causes ⇒ action⟫ block
+										  id:: 67764baf-0cda-464b-84fc-c11b4ebe5539
+										  collapsed:: true
+										   in Braindumping
+											- use `[⇒]` to mark the cause block of some action
+												- if it's a compound action, link to that action block
+												- for simple action, just write it in plain text after `[⇒]`
+												- it's better to display the causes above the ⟨`[⇒]` action⟩, just like backlinks
+													- but that's not supported in Logseq now
+												- the ⟨causes ⇒ action⟩ block should be read in reverse order in the current format: causes are sub-blocks of action.
+											- [⇒] ((67764c9e-2cb1-4e0b-a318-9e14dade130d))
+												- cause 1
+												- cause 2
+											- do something
+											  id:: 67764c9e-2cb1-4e0b-a318-9e14dade130d
+												- task 1
+												- task 2
+										- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+											- Machines lack effect circle, don't know the "why", the root purpose.
+										- turn all works into **problem solving** works _around the **intent**_
+										  id:: 677fca96-1e71-4af7-9a99-1c751d145358
+											- problem = mismatch = distance to target (center)
+											- question = infinite/open problem
+											- question for knowledge cone <> problem for effect cone
+											  id:: 677fcaba-d2ca-4afd-9698-b33255a774e0
+												- the knowledge cone reflects the effect cone though the interaction between knowledge circle and effect circle:
+												- intent - question - (sub-intent) - answer = knowledge -> action
+												- intent - problem - (sub-intent) - action - result -> new knowledge
+												- this flow of effect gives knowledge to other threads of knowledge
+												- when this flow gets stuck due to the lack of knowledge in this thread, just switch to the next flow waiting in the task list
+												- effect flow = program execution history = braindumping
+									- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
+									  > Matter planning is a really apt name.
+									  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
+						- **Exposing the hidden boss** means **detaching the self**.
+						  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
+							- “Detached self = selfless”
+							- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
+							- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
+							- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
+					- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
+					  id:: 684f9517-db29-4079-8674-09e0ffaff6ba
+						- The **inner target** of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+						- *The target is the __hidden boss__*, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) wall, the underlying driving force. My boss is the [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))).
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((674c11d4-894a-46d1-b653-5e8148773d7a))
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
@@ -4672,16 +4680,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ((66725725-f76a-4328-b162-f469b87e871b))
 								- ((6735c7ac-17c8-4fea-8d4c-b76a942bc453))
 							- “Complete, finished, done, target reached, ...” are just illusions. Nothing is actually complete, any ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is just a helix or spiral which is projected onto the plane orthogonal to the direction of change/evolution.
-							- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
-								- The **inner target** of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
-								- *The target is the __hidden boss__*, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) wall, the underlying driving force. My boss is the [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))).
 							- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just _the **beginning** of a new circle_, either at the same level or at “higher” level.
 							- While the true ending, the true finish is the death, either bodily or mentally, we always try to reach the end of some “hard work” wishing to have an easier living, either on Earth or on Heaven, or at Nibbana (Nirvana). That's the basic illusion of both life & death.
 								- The urge to finish is a manifestation of _the urge to die_ in the guise of life, either as an orgasm or an explosion.
 									- While Freud described [death drive](https://en.wikipedia.org/wiki/Death_drive) (Thanatos) as the opposite of sex drive (Eros), i see they are just two faces of the same coin with the same nature.
 								- Due to the guise of life, we fall into the contradiction of continuously reaching (small) deaths in the hope of avoiding (big) death.
 								- Accepting death is no problem to me and i've spent my whole life to explore various types of death.
-							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~aiming at the destination~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
+							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~[aiming at the destination](((684f9517-db29-4079-8674-09e0ffaff6ba)))~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
 								- [Fb post]((https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/)) marking the first active reset within a day, Nov 15th 2024.
 									- Vừa nãy là lần đầu mình reset được trong 1 ngày, không đợi tới ngày mai!
 									  Gần đây thì reset cuối ngày, lúc ngủ.
