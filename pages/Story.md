@@ -2822,6 +2822,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- And see “the hand beneath the sight… holding the pen drawing the hand.” ✍️
 									- [Escher's Drawing Hands](https://en.wikipedia.org/wiki/Drawing_Hands)
 									  ![DrawingHands-Escher.jpg](../assets/Will/story/2025-06/DrawingHands-Escher.jpg)
+			- 26th, ...
+				- This morning, June 26th, the second time i did a hard ((67445065-15b2-475e-a704-78f140d487af)) with a long sleep throughout the morning time.
+				  id:: 685cf782-c9dd-4076-8df1-75d6efc8f196
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true

@@ -699,6 +699,13 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		- Last weekends, Dec 21-22, the first times i can [reset](((67445065-15b2-475e-a704-78f140d487af))) within a day, didn't wait for the next day. Before and after these resets, i was back into the deep ujjayi breathing.
 		  id:: 6768bf20-deec-41bf-ac18-adc753ebb15f
 			- The reset was still hard with the full process: [yawning](https://en.wikipedia.org/wiki/Yawn), [burping/belching](https://en.wikipedia.org/wiki/Burping), deep relaxation, then falling asleep for about half an hour down to the total blackout... On the way back, there were dreams about unfinished tasks.
+			- Comment on [fb post](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) on Dec 22nd.
+				- Vừa nãy là lần đầu mình reset được trong 1 ngày, không đợi tới ngày mai!
+				- Gần đây thì reset cuối ngày, lúc ngủ.
+				- Mấy tháng trước là reset cuối tuần.
+				- Mấy năm trước là reset mỗi tháng hoặc vài tháng, thường là đổ bệnh hoặc có sự cố đổ bể gì đó.
+				- Hồi trẻ thì reset sau khoảng vài năm đâm đầu.
+				- Mấy đời trước thì reset cuối đời (lúc chết).
 			- Shared with Tuấn DMT:
 			  collapsed:: true
 				- mỗi khi anh buông cái con người hiện tại ra để reset về 0 thì đi qua một loạt phản ứng y như trip thuốc.... rồi vô cảnh mơ, rồi lịm đi một khoảng thì nó mới reset được hết.

@@ -3315,6 +3315,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 						- I discovered ((67cff615-ec0d-4831-9851-59410cb89cf1)) technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
 						- ((6768bf20-deec-41bf-ac18-adc753ebb15f))
+						- ((685cf782-c9dd-4076-8df1-75d6efc8f196))
 					- Detailed practices
 					  collapsed:: true
 						- Let's restart from the **way/attitude** of looking at everything!
@@ -4695,13 +4696,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Due to the guise of life, we fall into the contradiction of continuously reaching (small) deaths in the hope of avoiding (big) death.
 								- Accepting death is no problem to me and i've spent my whole life to explore various types of death.
 							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~[aiming at the destination](((684f9517-db29-4079-8674-09e0ffaff6ba)))~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
-								- [Fb post]((https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/)) marking the first active reset within a day, Nov 15th 2024.
-									- Vừa nãy là lần đầu mình reset được trong 1 ngày, không đợi tới ngày mai!
-									  Gần đây thì reset cuối ngày, lúc ngủ.
-									  Mấy tháng trước là reset cuối tuần.
-									  Mấy năm trước là reset mỗi tháng hoặc vài tháng, thường là đổ bệnh hoặc có sự cố đổ bể gì đó.
-									  Hồi trẻ thì reset sau khoảng vài năm đâm đầu.
-									  Mấy đời trước thì reset cuối đời (lúc chết).
+								- [Fb post](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) on Nov 15th 2024, one month before [the first active reset within a day](((6768bf20-deec-41bf-ac18-adc753ebb15f))).
 						- The ((6678282b-d710-4c6b-b584-5f65012c192d)) effect
 						  collapsed:: true
 							- The great **momentum** of the past is the internal form.
