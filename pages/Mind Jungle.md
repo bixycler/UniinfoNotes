@@ -3500,6 +3500,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
 								  > Matter planning is a really apt name.
 								  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
+					- **Exposing the hidden boss** means **detaching the self**.
+					  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
+						- “Detached self = selfless”
+						- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
+						- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
+						- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
@@ -4669,12 +4675,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
 								- The **inner target** of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 								- *The target is the __hidden boss__*, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) wall, the underlying driving force. My boss is the [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))).
-								- **Exposing the hidden boss** means **detaching the self**.
-								  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
-									- “Detached self = selfless”
-									- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))
-									- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
-									- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
 							- The basic illustion is that “when the circle is completed, it ends, finishes, no more worry”, while actually it's just _the **beginning** of a new circle_, either at the same level or at “higher” level.
 							- While the true ending, the true finish is the death, either bodily or mentally, we always try to reach the end of some “hard work” wishing to have an easier living, either on Earth or on Heaven, or at Nibbana (Nirvana). That's the basic illusion of both life & death.
 								- The urge to finish is a manifestation of _the urge to die_ in the guise of life, either as an orgasm or an explosion.
