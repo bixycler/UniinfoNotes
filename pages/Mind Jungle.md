@@ -4401,26 +4401,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The inertia/momentum of the internal work is too large to be changed (in direction) ⇒ delusion.
 							- That large momentum + the need to change = overwhelmed, heavy resistance ⇒ aversion.
 							- When such large momentum is forced to stop, leaving the void inside, the self is hungry ⇒ greed.
-						- Solution: [Refine](((67b541d0-f477-4c3a-b444-fb522c3fdc4f))) the self obop to a small circle.
-							- Magnitude of the form is small ⇒ high curvature, easy to change direction
-							- Small self leaves room in the bodymind for external requirements ⇒ keep from aversion
-							- Other different directions can be seen ⇒ clear & wise, not ignorant
-							- The small self is never empty ⇒ no greed
+						- Solutions
+							- [Refine](((67b541d0-f477-4c3a-b444-fb522c3fdc4f))) the self obop to a small circle.
+								- Magnitude of the form is small ⇒ high curvature, easy to change direction
+								- Small self leaves room in the bodymind for external requirements ⇒ keep from aversion
+								- Other different directions can be seen ⇒ clear & wise, not ignorant
+								- The small self is never empty ⇒ no greed
 							- To take action, the small self must combine with peripheral circles in the bodymind to drive them.
 								- These peripheral circles are automatic motors working in the trained programs (karmas).
-						- The total amount of contents in the bodymind is still sufficient thanks to temporary connection with peripheral circles in the form of pairs of opposites.
-							- The opposites [keep the bodymind fully occupied](((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))) to get rid of the hunger, the greed, the wanting.
-							- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
-							- When needed to change direction, some peripheral circles must be released to return to the static center (neutral mode, [point mort](https://en.wiktionary.org/wiki/point_mort)) before engaging in any other direction.
-						- [Reset](((67445065-15b2-475e-a704-78f140d487af)))tability: Peripheral circles must be trained to be released easily.
-							- Techniques: ((67cff615-ec0d-4831-9851-59410cb89cf1)), ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
-								- **Buffering**: The master plan must include buffers for switching between tasks.
-								- **Alarming**: Set alarm clock by intervals to train microresetting & miniresetting regularly.
-								  id:: 67d102f2-8eb1-440f-8981-abe4d0f1993e
-							- Other suggested techniques:
-								- **Anchoring**: Touching a reminder object, like a [mala lace](https://en.wikipedia.org/wiki/Japamala), hearing a sound, like a bell ring, or praying a mantra can help us to focus on the object and release other stuffs.
-								- **Visualization**: Recalling the calm and focus of the meditative state that we're used to can help us release other stuffs.
-							- Based on the experience & belief that _nothing is completely lost_, we can release them.
+							- The total amount of contents in the bodymind is still sufficient thanks to temporary connection with peripheral circles in the form of pairs of opposites.
+								- The opposites [keep the bodymind fully occupied](((6784f2aa-357a-44ed-a8c6-5ed1b9c78b04))) to get rid of the hunger, the greed, the wanting.
+								- The opposites keep the dynamic center close to the static center ⇒ the sight line is level and points at [the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
+								- When needed to change direction, some peripheral circles must be released to return to the static center (neutral mode, [point mort](https://en.wiktionary.org/wiki/point_mort)) before engaging in any other direction.
+							- [Reset](((67445065-15b2-475e-a704-78f140d487af)))tability: Peripheral circles must be trained to be released easily.
+								- Techniques: ((67cff615-ec0d-4831-9851-59410cb89cf1)), ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+									- **Buffering**: The master plan must include buffers for switching between tasks.
+									- **Alarming**: Set alarm clock by intervals to train microresetting & miniresetting regularly.
+									  id:: 67d102f2-8eb1-440f-8981-abe4d0f1993e
+								- Other suggested techniques:
+									- **Anchoring**: Touching a reminder object, like a [mala lace](https://en.wikipedia.org/wiki/Japamala), hearing a sound, like a bell ring, or praying a mantra can help us to focus on the object and release other stuffs.
+									- **Visualization**: Recalling the calm and focus of the meditative state that we're used to can help us release other stuffs.
+								- Based on the experience & belief that _nothing is completely lost_, we can release them.
 					- DOING **Duck dive** is a serious problem!
 					  id:: 67714850-43c0-4c7f-8b50-838e014b06e0
 					  :LOGBOOK:
