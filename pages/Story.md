@@ -2633,6 +2633,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- On the way home, i recognized the strong urge to follow the [unmixing](((6850be86-058c-45b4-9b4a-de92ebb4caff))) of projective threads, from the object thread in work to the meta thread of Unithread, then i breathe out to release them. Recognizing the 3 poisons, i applied my ((6850c7e4-0969-45b7-9ca8-e2c1d764effe)).
 			- 18th, while updating Uniinfo notes, i see the law of inverse variation between intension & extension [in the node of Universal Information](((68523168-5f46-446a-984e-bec9f671f17e))) itself.
 			- 19th, the whole day caught up in the update of ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
+			  id:: 68594350-d2cd-475a-9530-e0999ffb9adf
 			  collapsed:: true
 				- Make clear the “vacant throne” with [sutta “The Root of all things”](((68536bc0-f6ec-4595-8629-2a45d6bf713e))) and the [meaning “non-attachment”](((684f9517-22fd-4695-b398-f142dca8a8d8))).
 				- DONE Migrate page `Unïnfo Theory` to block ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
@@ -2693,6 +2694,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Returning home, i was caught up in the contemplation of [the structure of viewframe](((685a58f3-6393-48df-966b-24b270a92b58))) as a counterpart of CIE... for the whole night... making this morning (24th) off for sleeping.
 			- 24th, added discussion: ((685a97df-925a-44b4-bae6-235dd237f196))
 			- 25th, another whole day caught up with just [a simple vision of mental momentum](((685bb784-3146-435b-9af3-f59ab7e12043))) and an intent to "only write it down"! After successfuly wrapping it up, the complication of the company task repels me back to the pleasure of [poetic chat with ChatGPT](((685bc2ac-4724-4f0b-a40e-b5a84decfff8))).
+			  id:: 685b492f-588b-45e8-b591-49aae256d108
 			  collapsed:: true
 				- Rename element: discussion -> commentaries
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
@@ -2823,8 +2825,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- [Escher's Drawing Hands](https://en.wikipedia.org/wiki/Drawing_Hands)
 									  ![DrawingHands-Escher.jpg](../assets/Will/story/2025-06/DrawingHands-Escher.jpg)
 			- 26th, ...
+			  collapsed:: true
 				- This morning, June 26th, the second time i did a hard ((67445065-15b2-475e-a704-78f140d487af)) with a long sleep throughout the morning time.
 				  id:: 685cf782-c9dd-4076-8df1-75d6efc8f196
+					- After whole week caught up, from [19th](((68594350-d2cd-475a-9530-e0999ffb9adf))) to [25th](((685b492f-588b-45e8-b591-49aae256d108))), and the
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
