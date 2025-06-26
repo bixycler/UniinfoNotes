@@ -3308,12 +3308,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- #### Reset
 				  id:: 67445065-15b2-475e-a704-78f140d487af
 				  unload the intent structure
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Instead of ~~[aiming at the destination](((684f9517-db29-4079-8674-09e0ffaff6ba)))~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Instead of ~~[aiming at the destination](((684f9517-db29-4079-8674-09e0ffaff6ba)))~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_ Start from resetting the [attitude](((684f9517-33c3-4a20-9fd1-936d9cc98fee))), then ((674c11d4-894a-46d1-b653-5e8148773d7a)), with continous ((684f9517-48e7-46ae-943d-8744cdd07564)) which is supported by ((67cff615-ec0d-4831-9851-59410cb89cf1)).
 					- Reset button
 						- ![reset button](../assets/Will/story/2024-10/fixing-water-heater-reset-button-that-won_t-click-in-2-steps.png){:width 200}
+					- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+					  collapsed:: true
+						- I discovered ((67cff615-ec0d-4831-9851-59410cb89cf1)) technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
+						- ((6768bf20-deec-41bf-ac18-adc753ebb15f))
 					- Detailed practices
 					  collapsed:: true
 						- Let's restart from the **way/attitude** of looking at everything!
+						  id:: 684f9517-33c3-4a20-9fd1-936d9cc98fee
 							- Let's shift from the ~~**goal-oriented**~~ and target-driven way of life to the **present-oriented** and whole-driven (holistic) way.
 							- The goal is a hidden boss which must be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))) by [checking and laying everything before the eyes](((67714c6b-68b6-4f73-b209-56f5f184c4d9))).
 							- The goal-oriented way is related to the [teleology](https://en.wikipedia.org/wiki/Teleology). I'm not opposing the teleology, but just add a small adjustment.
@@ -3322,12 +3327,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- As long as we're walking, we're "on the horizon"; anytime one thinks "i've reached the target", that one is deluding itself and effectively withdraw itself away from the horizon.
 								- It's the difference between cyclic nature and linear nature, between the circle and the arrow.
 								- The ultimate goal is (the center of) the totality, the whole, while all targets are intermediate points on the (endless) way to the goal.
-						- **Detach the self** by **exposing the hidden boss**.
+						- **detach the self** by **exposing the [hidden boss](((684f9517-d0a4-43f7-bfb2-766340b63655)))**
 						  id:: 674c11d4-894a-46d1-b653-5e8148773d7a
 						  “Detached self = selfless”
 							- When a boss is brought out to the light, in front of everyone, to be examined like any one else, it loses its (absolute) privilege, and its influence is restored to the right place with the right amount. Its influence is still high thanks to its central position, but no more privilege, and the “boss” is now simply an individual equal to all other individuals in right.
 							- It's different from shunting, suppressing the boss to eliminate its influence via rebellion, which is usually the counter effect of the long time overpowering by the boss.
-						- Training the non-attached looking
+						- training the non-attached looking
+						  id:: 684f9517-48e7-46ae-943d-8744cdd07564
 							- First, detach, keep distance until the mind returns to neutral attitude.
 							- Next, slowly approach the object while being aware of all mental reactions.
 							- Observe the reactions and connect them with the whole, reminding the whole with all aspects, all sides, all conflicting parts.
@@ -3435,6 +3441,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
 						- The **inner target** of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 						- *The target is the __hidden boss__*, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) wall, the underlying driving force. My boss is the [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))).
+						  id:: 684f9517-d0a4-43f7-bfb2-766340b63655
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((674c11d4-894a-46d1-b653-5e8148773d7a))
 						- The [computer programs](https://en.wikipedia.org/wiki/Computer_program) reflect this target reaching machinary on computers.
 					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable
