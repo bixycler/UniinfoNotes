@@ -2841,7 +2841,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2025-06-27 Fri 15:52:47]
 				  :END:
-					- From the Mon-Khmer root
+					- From the Mon-Khmer root [ចាំ](https://en.wiktionary.org/wiki/%E1%9E%85%E1%9E%B6%E1%9F%86) (cāṃ) meaning “wait, watch, look after” to Thai [จำ](https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B3) (jam) and Vietnamese “[chăm](https://en.wiktionary.org/wiki/ch%C4%83m)” meaning “diligent, diligently look after”, the word “chăm chỉ” is formed as a reduplication of “chăm” to emphasize .
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
