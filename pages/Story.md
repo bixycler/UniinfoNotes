@@ -2844,7 +2844,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- From the Mon-Khmer root [ចាំ](https://en.wiktionary.org/wiki/%E1%9E%85%E1%9E%B6%E1%9F%86) (cāṃ) meaning “wait, watch, look after” to Thai [จำ](https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B3) (jam) and Vietnamese “[chăm](https://en.wiktionary.org/wiki/ch%C4%83m)” meaning “diligent, diligently look after”, the word “chăm chỉ” is formed as a [reduplication](https://en.wikipedia.org/wiki/Reduplication) of “chăm” to emphasize its diligence.
 					- However, when the Nôm script borrows Chinese characters, “chăm chỉ” can be written as 針只 or 針黹.
 						- The Nôm character [針](https://en.wiktionary.org/wiki/%E9%87%9D) only borrows the sound from the Chinese one. However, the Chinese meaning “needle, pin, injection” can somehow be related to “chăm” through the sharp point of the pin ⇒ “focus” ⇒ “focus on watching/working” ⇒ “diligence”.
-						-
+						- [只](https://en.wiktionary.org/wiki/%E5%8F%AA) is fully borrowed from Chinese to mean “only”. 
+						  ⇒ 針只 “chăm chỉ” can be interpreted as “focus only on watching/working”.
+						- The Nôm character [黹](https://en.wiktionary.org/wiki/%E9%BB%B9) borrows sound and partially relates to the meaning “needlework” of the Chinese one, to mean “thread”.
+						  ⇒ 針黹 “chăm chỉ” can be interpreted as “”.
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
