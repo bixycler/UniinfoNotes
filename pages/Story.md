@@ -2847,7 +2847,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [只](https://en.wiktionary.org/wiki/%E5%8F%AA) is fully borrowed from Chinese to mean “only”. 
 						  ⇒ 針只 “chăm chỉ” can be interpreted as “focus only on watching/working”.
 						- The Nôm character [黹](https://en.wiktionary.org/wiki/%E9%BB%B9) borrows sound and partially relates to the meaning “needlework” of the Chinese one, to mean “thread”.
-						  ⇒ 針黹 “chăm chỉ” can be interpreted as “”.
+						  ⇒ 針黹 “chăm chỉ” can be interpreted as “concentrate throughout the course of watching/working”.
+							- Interestingly, the whole word [針黹](https://en.wiktionary.org/wiki/%E9%87%9D%E9%BB%B9) in Chinese also means “needlework”. And the needlework itself usually requires diligence.
+				-
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
