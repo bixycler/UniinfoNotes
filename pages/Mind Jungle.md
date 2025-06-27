@@ -3521,8 +3521,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Warnings in Pure Land Buddhism that the Pure Lands are just a **skillful means** ([upāya](https://en.wikipedia.org/wiki/Upaya)), not the end goal:
 								- It's clearly shown in the [Amitāyus Contemplation Sūtra](https://en.wikipedia.org/wiki/Amit%C4%81yus_Contemplation_S%C5%ABtra#Nine_levels_of_birth) (佛說觀無量壽佛經) that Sukhāvatī is open for all beings but not equally.
 									- Depending on the karma of followers, they are born into one in 9 lotus levels.
-									- The lower grade (7-9): People with bad karma are born into a lotus bud, enclosed there for a long time (from 7 weeks to 12 long kalpas), then freed to _**start to listen** to dharma teachings_.
-									- The middle grade (3-6): People with some level of virtue, e.g. by observing the [five precepts](https://en.wikipedia.org/wiki/Five_precepts), are born into a lotus bud, enclosed there for a short time (from 1 to 7 days), then freed to start
+									- The lower grade (7-9): People with bad karma are born into a lotus bud, enclosed there for a long time (from 7 weeks to 12 long kalpas), then freed to _**start listening** to dharma teachings_.
+									- The middle grade (3-6): People with some level of virtue, e.g. by observing the [five precepts](https://en.wikipedia.org/wiki/Five_precepts), are born into a lotus bud, enclosed there for a short time (from 1 to 7 days), then freed to **start cultivating** so that they can attain [arhatship](https://en.wikipedia.org/wiki/Arhat) after some time.
+									- The high grade (1-2): People who at least understand the Mahayana teachings, they are born into ... so that they can attain non-retrogression stage after a short time (7 days) which ensures a straight path to [Buddhahood](https://en.wikipedia.org/wiki/Buddhahood).
 								- [Amitāyus Sutra](https://en.wikipedia.org/wiki/The_Amit%C4%81yus_Sutra) (佛說無量壽經)
 							- Shared in chatbox
 								- Không cần phải theo đại thừa mới bị mê đắm vào cõi Cực Lạc, không cần phải thích những thứ thô thiển kiểu "châu báu ngọc ngà lưu ly" như kinh Đại thừa tả về cõi Cực Lạc, hành giả nào cũng ít nhiều bị vướng vào một "tịnh độ" mà mình đã tới được.
