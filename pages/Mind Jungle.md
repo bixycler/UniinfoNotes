@@ -3513,7 +3513,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- 😮 Làm sao có thể được...
 								- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
 								- ...
-						- First warning: “don't get stuck in the [Pure Lands](https://en.wikipedia.org/wiki/Pure_Land)!”
+						- First, “don't get stuck in the [Pure Lands](https://en.wikipedia.org/wiki/Pure_Land)!”
+						  id:: 685e0cec-1ce4-408d-9f32-b3f0441b21a9
 						  :LOGBOOK:
 						  CLOCK: [2025-06-27 Fri 10:16:15]
 						  :END:
@@ -3533,7 +3534,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Shared in chatbox
 								- Không cần phải theo đại thừa mới bị mê đắm vào cõi Cực Lạc, không cần phải thích những thứ thô thiển kiểu "châu báu ngọc ngà lưu ly" như kinh Đại thừa tả về cõi Cực Lạc, hành giả nào cũng ít nhiều bị vướng vào một "tịnh độ" mà mình đã tới được.
 								- Như tịnh độ của Định là khi thiền định, tịnh độ của Trung là những ngày tháng buông xả được nhẹ nhàng, v.v.
-						- “Bringing the horizon right beneath the feet”
+						- Then, “bring the horizon right beneath the feet”
 							- Interpretations
 								- Gemini:
 								  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.

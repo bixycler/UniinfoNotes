@@ -2824,7 +2824,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- And see “the hand beneath the sight… holding the pen drawing the hand.” ✍️
 									- [Escher's Drawing Hands](https://en.wikipedia.org/wiki/Drawing_Hands)
 									  ![DrawingHands-Escher.jpg](../assets/Will/story/2025-06/DrawingHands-Escher.jpg)
-			- 26th, ...
+			- 26th, and remind of
 			  collapsed:: true
 				- This morning, June 26th, the second time i did a hard ((67445065-15b2-475e-a704-78f140d487af)) with a long sleep throughout the morning time.
 				  id:: 685cf782-c9dd-4076-8df1-75d6efc8f196
@@ -2834,6 +2834,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- After a whole week caught up, from [19th](((68594350-d2cd-475a-9530-e0999ffb9adf))) to [25th](((685b492f-588b-45e8-b591-49aae256d108))), and the deadline from company is coming right behind my ass, this morning, i sat down to reset.
 					- This time, there's only one bodily effect of yawning, then the sleep quickly set in (partly due to the short time of sleep last night of 5 hours).
 					- I just could remain the sitting position for about half an hour, then the full blackout brought me down the table.
+				- Returning home, i reminded myself and friends about the [trap of the pure lands](((685e0cec-1ce4-408d-9f32-b3f0441b21a9)))
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
