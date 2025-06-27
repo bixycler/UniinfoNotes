@@ -3445,7 +3445,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 684f9517-d0a4-43f7-bfb2-766340b63655
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((674c11d4-894a-46d1-b653-5e8148773d7a))
 						- The [computer programs](https://en.wikipedia.org/wiki/Computer_program) reflect this target reaching machinary on computers.
-					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable
+					- “[The Goal is the Horizon](https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html)” parable/koan
 					  id:: 67445223-9459-4aa9-b102-70c63943577b
 					  collapsed:: true
 						- After enjoying the scenic beauty of Mount Pure Bliss for a week, the master urged the disciple to continue the journey the next morning.
