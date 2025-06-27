@@ -3519,7 +3519,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :END:
 							- The Mount Pure Bliss in the koan, the [Land of Supreme Bliss](https://en.wikipedia.org/wiki/Sukhavati) (Sukhāvatī, 極樂世界, cõi Cực Lạc) in [Pure Land Buddhism](https://en.wikipedia.org/wiki/Pure_Land_Buddhism), as well as any other “pure land”, no matter how large or small, how high or low, are always very attractive, capturing attention of the practitioner, keeping us from progression.
 							- Warnings in Pure Land Buddhism that the Pure Lands are just a **skillful means** ([upāya](https://en.wikipedia.org/wiki/Upaya)), not the end goal:
-								- It's clearly shown in the [Amitāyus Contemplation Sūtra](https://en.wikipedia.org/wiki/Amit%C4%81yus_Contemplation_S%C5%ABtra) (佛說觀無量壽佛經) that the is
+								- It's clearly shown in the [Amitāyus Contemplation Sūtra](https://en.wikipedia.org/wiki/Amit%C4%81yus_Contemplation_S%C5%ABtra#Nine_levels_of_birth) (佛說觀無量壽佛經) that Sukhāvatī is open for all beings but not equally.
+									- Depending on the karma of followers, they are born into one in 9 lotus levels.
+									- The lower grade (7-9): People with bad karma are born into a lotus bud, enclosed there for some time, then freed to _**start to listen** to dharma teachings_.
+									- The middle grade (4-6):
 								- [Amitāyus Sutra](https://en.wikipedia.org/wiki/The_Amit%C4%81yus_Sutra) (佛說無量壽經)
 							- Shared in chatbox
 								- Không cần phải theo đại thừa mới bị mê đắm vào cõi Cực Lạc, không cần phải thích những thứ thô thiển kiểu "châu báu ngọc ngà lưu ly" như kinh Đại thừa tả về cõi Cực Lạc, hành giả nào cũng ít nhiều bị vướng vào một "tịnh độ" mà mình đã tới được.
