@@ -2802,7 +2802,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Phát không phanh
 						  Phét lên nhanh
 						  Đụng nóc nhà
-						  Phế như ma!
+						  Phế ra ma!
 					- The Phét [㗶] is the crucial part of the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the creator of all forms.
 						- Liar Paradox = Phét + self ref = self Phét.
 						- [Saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) – fabrication / volitional formation / volitional actions (hành)

@@ -1,3 +1,6 @@
+- Minor update: https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html
+- Không cần phải theo đại thừa mới bị mê đắm vào cõi Cực Lạc, không cần phải thích những thứ thô thiển kiểu "châu báu ngọc ngà lưu ly" như kinh Đại thừa tả về cõi Cực Lạc, hành giả nào cũng ít nhiều bị vướng vào một "tịnh độ" mà mình đã tới được.
+- Như tịnh độ của Định là khi thiền định, tịnh độ của Trung là những ngày tháng buông xả được nhẹ nhàng, v.v.
 ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
