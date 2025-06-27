@@ -3451,7 +3451,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- After enjoying the scenic beauty of Mount Pure Bliss for a week, the master urged the disciple to continue the journey the next morning.
 						  collapsed:: true
 							- Let's go, don't get too engrossed in this place.
-							- But haven’t we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn’t we enjoy the fruits of our labor instead of moving on, master?!
+							- But haven’t we already reached our destination?! After all the time, effort, sweat, and even blood we've spent to get here, shouldn’t we enjoy the fruit of our labor instead of moving on, master?!
 							- I've allowed you to enjoy it for a whole week. If you think it's not enough, you can stay and enjoy it. I'll go alone.
 							- It's not about enjoyment. I followed you to reach liberation, not to seek pleasure. If I wanted to enjoy myself, I would have stayed in the city with all its pleasures instead of tiring myself out climbing the mountain with you.
 							- If you still want liberation, follow me.
@@ -3477,7 +3477,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- I've reached it, that's why I'm leading you. If you don't want to go, you can stay here.
 							- Wait, master, you can't leave! You owe me an explanation of how you can reach that endless horizon!
 							- I've reached it by bringing the horizon right beneath my feet.
-							- 😮 How is that possible...
+							- 😮 How can it be possible...
 							- I told you before that you wouldn't understand! It's only because you pushed me that I had to say it.
 							- ...
 						- [Cái đích là chân trời](http://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html)
