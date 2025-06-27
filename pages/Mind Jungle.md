@@ -3527,7 +3527,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- The middle grade (3-6): People with some level of virtue, e.g. by observing the [five precepts](https://en.wikipedia.org/wiki/Five_precepts), are born into a lotus bud, enclosed there for a short time (from 1 to 7 days), then freed to **start cultivating** so that they can attain [arhatship](https://en.wikipedia.org/wiki/Arhat) after some time.
 									- The high grade (1-2): People who at least understand the Mahayana teachings are born into an open lotus to see Amitābha and hear teachings  so that they can attain [non-retrogression stage](https://www.nichirenlibrary.org/en/dic/Content/S/258) (不退位) after a short time (7 days) which ensures a straight path to [Buddhahood](https://en.wikipedia.org/wiki/Buddhahood).
 								- In [48 vows of Amitābha](https://en.wikisource.org/wiki/Amitabha%27s_forty-eight_vows), while not as clear as the [9 lotus levels](((685e121a-108d-4ab5-89f5-d3fd547f2a2d))), the Sukhāvatī is promised to _ensure [samadhi](https://en.wikipedia.org/wiki/Samadhi) **until** reaching Nibbana_, not the Nibbana itself.
-									- Vow 11 ensures samadhi for people in Amitābha-country. Vow 42 & 45 ensure samadhi for people in other Buddha-countries.
+									- Vow 11 ensures **samadhi** for people in Amitābha-country. Vow 42 & 45 ensure **samadhi** for people in other Buddha-countries.
+									- Vow 36, 37, 44 ensure that people in Amitābha-country and other Buddha-countries joyfully perform their **Bodhisattva-duty** _until attaining Buddhahood_.
 									-
 							- Shared in chatbox
 								- Không cần phải theo đại thừa mới bị mê đắm vào cõi Cực Lạc, không cần phải thích những thứ thô thiển kiểu "châu báu ngọc ngà lưu ly" như kinh Đại thừa tả về cõi Cực Lạc, hành giả nào cũng ít nhiều bị vướng vào một "tịnh độ" mà mình đã tới được.
