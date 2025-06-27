@@ -3529,7 +3529,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- In [48 vows of Amitābha](https://en.wikisource.org/wiki/Amitabha%27s_forty-eight_vows), while not as clear as the [9 lotus levels](((685e121a-108d-4ab5-89f5-d3fd547f2a2d))), the Sukhāvatī is promised to _ensure [samadhi](https://en.wikipedia.org/wiki/Samadhi) **until** reaching Nibbana_, not the Nibbana itself.
 									- Vow 11 ensures **samadhi** for people in Amitābha-country. Vow 42 & 45 ensure **samadhi** for people in other Buddha-countries.
 									- Vow 36, 37, 44 ensure that people in Amitābha-country and other Buddha-countries joyfully perform their **Bodhisattva-duty** _until attaining Buddhahood_.
-									-
+									- Vow 46, 47, 48 ensures that people can hear the preachings of the Dharma, enter non-retrogression stage, and reach Dharma-endurance.
 							- Shared in chatbox
 								- Không cần phải theo đại thừa mới bị mê đắm vào cõi Cực Lạc, không cần phải thích những thứ thô thiển kiểu "châu báu ngọc ngà lưu ly" như kinh Đại thừa tả về cõi Cực Lạc, hành giả nào cũng ít nhiều bị vướng vào một "tịnh độ" mà mình đã tới được.
 								- Như tịnh độ của Định là khi thiền định, tịnh độ của Trung là những ngày tháng buông xả được nhẹ nhàng, v.v.
