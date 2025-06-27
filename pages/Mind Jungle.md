@@ -3513,6 +3513,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- 😮 Làm sao có thể được...
 								- Ta đã bảo là điều này con chưa thể hiểu được mà! Tại con ép thì ta mới phải nói thôi.
 								- ...
+						- First warning: “don't get stuck in the [Pure Lands](https://en.wikipedia.org/wiki/Pure_Land)!”
+						  :LOGBOOK:
+						  CLOCK: [2025-06-27 Fri 10:16:15]
+						  :END:
+							- The Mount Pure Bliss in the koan, the [Land of Supreme Bliss](https://en.wikipedia.org/wiki/Sukhavati) (Sukhāvatī, 極樂世界, cõi Cực Lạc) in [Pure Land Buddhism](https://en.wikipedia.org/wiki/Pure_Land_Buddhism), as well as any other “pure land”, no matter how large or small, how high or low, are always very attractive, capturing attention of the practitioner, keeping us from progression.
+							- Warnings in Pure Land Buddhism that the Pure Lands are just a **skillful means** ([upāya](https://en.wikipedia.org/wiki/Upaya)), not the end goal:
+								- [Amitāyus Contemplation Sūtra](https://en.wikipedia.org/wiki/Amit%C4%81yus_Contemplation_S%C5%ABtra) (佛說觀無量壽佛經)
+							- Shared in chatbox
+								- Không cần phải theo đại thừa mới bị mê đắm vào cõi Cực Lạc, không cần phải thích những thứ thô thiển kiểu "châu báu ngọc ngà lưu ly" như kinh Đại thừa tả về cõi Cực Lạc, hành giả nào cũng ít nhiều bị vướng vào một "tịnh độ" mà mình đã tới được.
+								- Như tịnh độ của Định là khi thiền định, tịnh độ của Trung là những ngày tháng buông xả được nhẹ nhàng, v.v.
 						- “Bringing the horizon right beneath the feet”
 							- Gemini's interpretation:
 							  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
@@ -3523,15 +3533,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [七転び八起き](https://en.wiktionary.org/wiki/%E4%B8%83%E8%BB%A2%E3%81%B3%E5%85%AB%E8%B5%B7%E3%81%8D)
 							- “When you have reached the top of the mountain, keep climbing!”
 							  a (Tibetan Zen) proverb
-						- Warning “don't get stuck in the [Pure Lands](https://en.wikipedia.org/wiki/Pure_Land)!”
-						  :LOGBOOK:
-						  CLOCK: [2025-06-27 Fri 10:16:15]
-						  :END:
-							- The Mount Pure Bliss in the koan, the [Land of Supreme Bliss](https://en.wikipedia.org/wiki/Sukhavati) (Sukhāvatī, 極樂世界, cõi Cực Lạc) in [Pure Land Buddhism](https://en.wikipedia.org/wiki/Pure_Land_Buddhism), as well as any other “pure land”, no matter how large or small, how high or low, are always very attractive, capturing attention of the practitioner, keeping us from progression.
-							- in that the Pure Lands are just a **skillful means** ([upāya](https://en.wikipedia.org/wiki/Upaya)), not a
-							- Shared in chatbox
-								- Không cần phải theo đại thừa mới bị mê đắm vào cõi Cực Lạc, không cần phải thích những thứ thô thiển kiểu "châu báu ngọc ngà lưu ly" như kinh Đại thừa tả về cõi Cực Lạc, hành giả nào cũng ít nhiều bị vướng vào một "tịnh độ" mà mình đã tới được.
-								- Như tịnh độ của Định là khi thiền định, tịnh độ của Trung là những ngày tháng buông xả được nhẹ nhàng, v.v.
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
