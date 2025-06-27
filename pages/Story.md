@@ -2837,7 +2837,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Returning home, i reminded myself and friends about the [trap of the pure lands](((685e0cec-1ce4-408d-9f32-b3f0441b21a9)))
 			- 27th, ...
 			  collapsed:: true
-				-
+				- Mr. Hiệp asked me about the word “chăm chỉ” which has some interesting relation with the ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))!
+				  :LOGBOOK:
+				  CLOCK: [2025-06-27 Fri 15:52:47]
+				  :END:
+					- From the Mon-Khmer root
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
