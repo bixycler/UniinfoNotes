@@ -117,6 +117,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  id:: 6835b167-a703-47d7-a540-3fa9c9fd3afe
 		    [DYM Medical Center](https://maps.app.goo.gl/p3GoSqsACfK4ApBD9): Phòng B103, M plaza, 39 Lê Duẩn, phường Bến Nghé, Quận 1
 		  SCHEDULED: <2025-06-21 Sat 12:30>
+		- DONE Cuối tuần 28-29/06 đi Núi Chúa kỷ niệm ngày cưới chị 7 Nhung.
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
 		- ((682c1735-31c3-4024-8d8a-20d8434db966))
@@ -130,7 +131,6 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- TODO Copy [Chuyện Búi Chỉ](https://creatzyitnotes.blogspot.com/2009/11/chuyen-bui-chi.html) to  [CreatZy Notes](https://creatzynotes.blogspot.com/)
 		  id:: 67b989a4-a041-4511-abe5-77c785ca2d67
-		- TODO Cuối tuần 28-29/06 đi Núi Chúa kỷ niệm ngày cưới chị 7 Nhung.
 		- TODO [which ?] weekends, LSD trip with Mr. Hiệp
 		- ...
 	- ## Future Tasks
