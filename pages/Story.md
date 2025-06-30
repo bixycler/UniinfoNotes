@@ -2835,7 +2835,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- This time, there's only one bodily effect of yawning, then the sleep quickly set in (partly due to the short time of sleep last night of 5 hours).
 					- I just could remain the sitting position for about half an hour, then the full blackout brought me down the table.
 				- Returning home, i reminded myself and friends about the [trap of the pure lands](((685e0cec-1ce4-408d-9f32-b3f0441b21a9)))
-			- 27th, updated ((67445223-9459-4aa9-b102-70c63943577b))
+			- 27th, the whole day just process the stuff left from last night: updated ((67445223-9459-4aa9-b102-70c63943577b)) with “núi Cực Lạc” translated to [“Mount Pure Bliss”](((685e0cec-1ce4-408d-9f32-b3f0441b21a9))) and the warning: ((685e0cec-1ce4-408d-9f32-b3f0441b21a9)); ((685e4058-b8f7-4d76-bf58-7b709a92bc81))
 			  collapsed:: true
 				- Mr. Hiệp asked me about the word “chăm chỉ” which has some interesting relation with the ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))!
 				  id:: 685e4058-b8f7-4d76-bf58-7b709a92bc81
@@ -2851,6 +2851,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ⇒ 針黹 “chăm chỉ” can be interpreted as “concentrate throughout the course of watching/working”.
 							- Interestingly, the whole word [針黹](https://en.wiktionary.org/wiki/%E9%87%9D%E9%BB%B9) in Chinese also means “needlework”. And the needlework itself usually requires diligence.
 					- These threads of discussion, researching, contemplation, as well as those threads of words' evolution and relation are weaving together so intricately.
+			- Weekends 28-29 June, i went to Vĩnh Hy bay with wife's family to celebrate the wedding day of Mrs. Nhung & Mr. Nhân.
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-06-30 Mon 10:30:52]
+			  :END:
+				- My wife
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true

@@ -3520,6 +3520,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :END:
 							- The Mount Pure Bliss in the koan, the [Land of Supreme Bliss](https://en.wikipedia.org/wiki/Sukhavati) (Sukhāvatī, 極樂世界, cõi Cực Lạc) in [Pure Land Buddhism](https://en.wikipedia.org/wiki/Pure_Land_Buddhism), as well as any other “pure land”, no matter how large or small, how high or low, are always very attractive, capturing attention of the practitioner, keeping us from progression.
 							- Warnings in Pure Land Buddhism that the Pure Lands are just a **skillful means** ([upāya](https://en.wikipedia.org/wiki/Upaya)), not the end goal:
+							  id:: 685e0fd4-f0d0-49cf-957e-ccd94a70417b
 							  collapsed:: true
 								- It's clearly shown in the [Amitāyus Contemplation Sūtra](https://en.wikipedia.org/wiki/Amit%C4%81yus_Contemplation_S%C5%ABtra#Nine_levels_of_birth) (佛說觀無量壽佛經) that Sukhāvatī is open for all beings but not equally.
 								  id:: 685e121a-108d-4ab5-89f5-d3fd547f2a2d
