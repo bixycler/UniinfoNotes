@@ -2856,7 +2856,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-06-30 Mon 10:30:52]
 			  :END:
-				- Most of the time, i meditated focusing on my nasal inflammation. The conditioned cold air in the buses was so strong!
+				- Most of the time, i meditated focusing on my nasal inflammation. To me, the conditioned cold air in the buses was so harsh!
 				- And i see that it's time for me to deploy [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to cope with the issue of being caught up. It's time to scale up my mind from the (analog) micro-programs of differential equations to the (digital) macro-programs of plans, schedules, etc.
 					- Note that even the micro-programs of [microcodes](https://en.wikipedia.org/wiki/Microcode) in computer are still very much “macro” to me.
 					- So my “micro-programs” should be called “nano-programs”!?
