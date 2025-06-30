@@ -2451,7 +2451,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ( sleep 1; echo 50; sleep 1; echo 75; sleep 1; echo 100; ) |
 					  zenity --progress --no-cancel --auto-close --percentage=25 --width=500 --text="$msg"
 					  ```
-			- 30 May, my tantric practice last night has shown me ways to transform the [3 poisons](((6839229d-9eff-49e4-9480-6e2db6f61127))) to the [3 antidotes](((68392a1f-6685-4d0f-9de8-4ae42964e249))).
+			- 30 May, my tantric practice last night has shown me ways to transform the [3 poisons](((6839229d-9eff-49e4-9480-6e2db6f61127))) with ((6850c7e4-0969-45b7-9ca8-e2c1d764effe)).
 			- 31 May, through a chatbox, i translated the first couple of meditation factors [vitakka-vicāra](https://en.wikipedia.org/wiki/Vitarka-vic%C4%81ra) into Vietnamese as “tìm-bám” and English as “**find-fix**”.
 			  id:: 68417bbf-695f-452b-80a1-22e174329e7a
 			  collapsed:: true
