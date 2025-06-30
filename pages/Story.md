@@ -2856,7 +2856,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-06-30 Mon 10:30:52]
 			  :END:
-				- My wife
+				- Most of the time, i meditated focusing on my nasal inflammation. The conditioned cold air in the buses was so strong!
+				- And i see that it's time for me to deploy [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)))
+				- My wife had many series of stomach upset.
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
