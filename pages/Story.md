@@ -2873,6 +2873,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Vụ Hè Thu: từ tháng 5 đến tháng 7 sẽ thu hoạch vào tháng 8 (đây là mùa vụ cho chất lượng Nho tốt nhất trong năm: trái Nho căng, ngọt, năng suất cao)
 							- Vụ Thu Đông: từ tháng 9 đến tháng 11 thu hoạch tháng 12 (đây là vụ cho năng suất thấp nhất trong năm vì vào những tháng mưa nhiều tại Ninh Thuận).
 						- SĐT các vườn nho: [Ninh Thuận Review](https://ninhthuanreview.com/vuon-nho-thai-an-ninh-thuan/#cdd-3-mot-so-vuon-nho-thai-an-dep-gan-vinh-hy-de-ban-lua-chon)
+			- 30th, ...
+			  collapsed:: true
+				-
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
