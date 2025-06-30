@@ -2858,8 +2858,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- Most of the time, i meditated focusing on my nasal inflammation. The conditioned cold air in the buses was so strong!
 				- And i see that it's time for me to deploy [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to cope with the issue of being caught up. It's time to scale up my mind from the (analog) micro-programs of differential equations to the (digital) macro-programs of plans, schedules, etc.
-					-
-				- My wife had many series of stomach upset.
+					- Note that even the micro-programs of [microcodes](https://en.wikipedia.org/wiki/Microcode) in computer are still very much “macro” to me.
+				- My wife had some series of stomach upset.
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
