@@ -1,16 +1,16 @@
-- Cũng trân trọng thông báo đến bà con trong khu phố, kể từ ngày 01/7/2025,khu phố chúng ta sẽ là khu phố 38 phường Trung Mỹ Tây (không còn là khu phố 14 phường Tân Chánh Hiệp nữa).
-  collapsed:: true
-	- ![map-truso-phuong-TrungMyTay](../assets/Will/story/2025-06/map-truso-phuong-TrungMyTay.jpg)
-- vườn nho Thái An
-	- [Ninh Thuận Travels](https://ninhthuantravels.com/du-lich-vuon-nho-ninh-thuan-noi-tieng-va-chi-tiet-nhat-2024/#2_Du_lich_vuon_Nho_Ninh_Thuan_thang_may_Kinh_nghiem_di_vuon_nho_Ninh_Thuan): Cây nho tại Ninh Thuận hầu hết được trồng chính 3 vụ/năm:
-		- Vụ Xuân Hè: từ tháng 1 đến tháng 3 sẽ thu hoạch vào tháng 4
-		- Vụ Hè Thu: từ tháng 5 đến tháng 7 sẽ thu hoạch vào tháng 8 (đây là mùa vụ cho chất lượng Nho tốt nhất trong năm: trái Nho căng, ngọt, năng suất cao)
-		- Vụ Thu Đông: từ tháng 9 đến tháng 11 thu hoạch tháng 12 (đây là vụ cho năng suất thấp nhất trong năm vì vào những tháng mưa nhiều tại Ninh Thuận).
-	- SĐT các vườn nho: [Ninh Thuận Review](https://ninhthuanreview.com/vuon-nho-thai-an-ninh-thuan/#cdd-3-mot-so-vuon-nho-thai-an-dep-gan-vinh-hy-de-ban-lua-chon)
-- ## Current Chips
+## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
   collapsed:: true
+	- Tân Chánh Hiệp → Trung Mỹ Tây
+	  collapsed:: true
+	  :LOGBOOK:
+	  CLOCK: [2025-06-30 Mon 11:19:52]
+	  :END:
+		- Cũng trân trọng thông báo đến bà con trong khu phố, kể từ ngày 01/7/2025,khu phố chúng ta sẽ là khu phố 38 phường Trung Mỹ Tây (không còn là khu phố 14 phường Tân Chánh Hiệp nữa).
+		- Bản đồ trụ sở phường Trung Mỹ Tây
+		  collapsed:: true
+			- ![map-truso-phuong-TrungMyTay](../assets/Will/story/2025-06/map-truso-phuong-TrungMyTay.jpg)
 	- 2025-01-02
 		- The tour into the universe of Unithread:
 			- point: seen from the outside

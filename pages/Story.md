@@ -2859,7 +2859,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Most of the time, i meditated focusing on my nasal inflammation. The conditioned cold air in the buses was so strong!
 				- And i see that it's time for me to deploy [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to cope with the issue of being caught up. It's time to scale up my mind from the (analog) micro-programs of differential equations to the (digital) macro-programs of plans, schedules, etc.
 					- Note that even the micro-programs of [microcodes](https://en.wikipedia.org/wiki/Microcode) in computer are still very much “macro” to me.
+					- So my “micro-programs” should be called “nano-programs”!?
 				- My wife had some series of stomach upset.
+				- Mrs Nhung wanted to visit grape gardens...
+					- Thông tin về vườn nho Thái An
+					  id:: 68620e6d-02a9-4d88-8984-6510dfa4c5cd
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-06-28 Mon 11:16:14]
+					  :END:
+						- [Ninh Thuận Travels](https://ninhthuantravels.com/du-lich-vuon-nho-ninh-thuan-noi-tieng-va-chi-tiet-nhat-2024/#2_Du_lich_vuon_Nho_Ninh_Thuan_thang_may_Kinh_nghiem_di_vuon_nho_Ninh_Thuan): Cây nho tại Ninh Thuận hầu hết được trồng chính 3 vụ/năm:
+							- Vụ Xuân Hè: từ tháng 1 đến tháng 3 sẽ thu hoạch vào tháng 4
+							- Vụ Hè Thu: từ tháng 5 đến tháng 7 sẽ thu hoạch vào tháng 8 (đây là mùa vụ cho chất lượng Nho tốt nhất trong năm: trái Nho căng, ngọt, năng suất cao)
+							- Vụ Thu Đông: từ tháng 9 đến tháng 11 thu hoạch tháng 12 (đây là vụ cho năng suất thấp nhất trong năm vì vào những tháng mưa nhiều tại Ninh Thuận).
+						- SĐT các vườn nho: [Ninh Thuận Review](https://ninhthuanreview.com/vuon-nho-thai-an-ninh-thuan/#cdd-3-mot-so-vuon-nho-thai-an-dep-gan-vinh-hy-de-ban-lua-chon)
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
