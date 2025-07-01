@@ -2904,7 +2904,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- To [add the final EOL to `queue.md`](((6863444d-280f-4913-81d2-51a0e9c8a728))), i was caught up in ![MarkdownCommentsTest.md](../assets/TextProcessing/Markdown/MarkdownCommentsTest.md) and updating the `flushQueue.sh` script.
 				  id:: 68639a1c-11b7-4689-948b-b64a921a4f09
-				- The nuances in this [simple task](((68639a1c-11b7-4689-948b-b64a921a4f09))) reminds me of the fractals.
+				- The nuances in this [simple task](((68639a1c-11b7-4689-948b-b64a921a4f09))) remind me of the fractals.
 					- Fractal boundaries
 						- the [coastline paradox](https://en.wikipedia.org/wiki/Coastline_paradox),
 						- [fractal basin boundaries](https://brain.cc.kogakuin.ac.jp/~kanamaru/Chaos/e/Newton/): the **infinite complexity** of the interface between systems,
@@ -2913,6 +2913,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- every view is a mixture of other views through the ((6851578b-9b1f-4367-878f-79b0b0b9be51)).
 						- These days, each intent of mine is [extracting](((6850be86-058c-45b4-9b4a-de92ebb4caff))) its own view from the world via pattern matching, in order to have its own effect on my actions (= mixture of all intents' actions).
 						- Such a constant flow of unmixing & mixing is catching me up!
+						- My karma of depth-first search is catching me in the infinitely complicated fractal walks.
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
