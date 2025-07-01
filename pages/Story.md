@@ -2910,7 +2910,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [fractal basin boundaries](https://brain.cc.kogakuin.ac.jp/~kanamaru/Chaos/e/Newton/): the **infinite complexity** of the interface between systems,
 						- the [fractal fracture surfaces](https://www.lehigh.edu/imi/teched/FFGConf/Mecholsky1_2.pdf) (versus the smooth crosscuts), ...
 					- since everything is the [mixture](https://en.wikipedia.org/wiki/Mixing_(mathematics)) of other things
-						- every view is a mixture of other views through the ((6851578b-9b1f-4367-878f-79b0b0b9be51)).
+						- every view is a mixture of other views through the ((6851578b-9b1f-4367-878f-79b0b0b9be51));
+						- every view just [adapts](https://en.wikipedia.org/wiki/Adapter_pattern) other views/forms to its own intent.
+						  collapsed:: true
+							- I visioned such an adapter of fractal fracture surfaces to smooth crosscuts from the years 2010s just after i got back to Vietnam.
+							- That vision was a continuation of the previous “everything is interface” ideal from the University time, inspired by Java's interface.
 						- These days, each intent of mine is [extracting](((6850be86-058c-45b4-9b4a-de92ebb4caff))) its own view from the world via pattern matching, in order to have its own effect on my actions (= mixture of all intents' actions).
 						- Such a constant flow of unmixing & mixing is catching me up!
 						- My karma of depth-first search is catching me in the infinitely complicated fractal walks.
