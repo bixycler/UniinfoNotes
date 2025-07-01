@@ -2904,7 +2904,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- To [add the final EOL to `queue.md`](((6863444d-280f-4913-81d2-51a0e9c8a728))), i was caught up in ![MarkdownCommentsTest.md](../assets/TextProcessing/Markdown/MarkdownCommentsTest.md) and updating the `flushQueue.sh` script.
 				  id:: 68639a1c-11b7-4689-948b-b64a921a4f09
-				- The nuances in this [simple task](((68639a1c-11b7-4689-948b-b64a921a4f09))) reminds me of the [coastline paradox](https://en.wikipedia.org/wiki/Coastline_paradox), the **infinite complexity** of the interface between systems ([fractal basin boundaries](https://brain.cc.kogakuin.ac.jp/~kanamaru/Chaos/e/Newton/)), the [fractal fracture surfaces](https://www.lehigh.edu/imi/teched/FFGConf/Mecholsky1_2.pdf) (versus the smooth crosscut),
+				- The nuances in this [simple task](((68639a1c-11b7-4689-948b-b64a921a4f09))) reminds me of the fractals.
+					- Fractal boundaries
+						- the [coastline paradox](https://en.wikipedia.org/wiki/Coastline_paradox),
+						- [fractal basin boundaries](https://brain.cc.kogakuin.ac.jp/~kanamaru/Chaos/e/Newton/): the **infinite complexity** of the interface between systems,
+						- the [fractal fracture surfaces](https://www.lehigh.edu/imi/teched/FFGConf/Mecholsky1_2.pdf) (versus the smooth crosscuts), ...
+					- since everything is the [mixture](https://en.wikipedia.org/wiki/Mixing_(mathematics)) of other things
+						- every view is a mixture of other views through the ((6851578b-9b1f-4367-878f-79b0b0b9be51)).
+						-
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
