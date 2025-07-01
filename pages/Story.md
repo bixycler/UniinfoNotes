@@ -2460,7 +2460,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Vicāra = tứ = "bám theo, rình rập, dò xét" = "investigate what has been focused on by vitakka." Đây là quá trình chính để duy trì sự tập trung, đó là phải liên tục bám theo đối tượng. Như trong định niệm hơi thở là phải quán hơi thở xem nó vào ra thế nào, còn người đời khi "định niệm gái" thì phải liên tục theo dõi, rình rập, bám theo từng bước chân của gái 😂!
 				- "Tầm" = "tìm" thì quá quen rồi, như "ngưu tầm ngưu mã tầm mã" và "sưu tầm". Còn chữ "tứ" = "rình, bám" thì không có dùng trong tiếng Việt. Nên tui nghĩ dịch ra thuần Việt là "tìm & bám" thì dễ hiểu hơn "tầm & tứ" trong Hán-Việt.
 				- Còn tiếng Anh thì tui dịch là "find & fix": "After finding her out, he fixed on her the whole time." (Sau khi tìm ra cô, anh ta đã theo dõi cô suốt thời gian đó.)
-			- June 2nd, these days i translate the terms of ((667bef22-b272-4a7d-b613-3f1ed1a47329)) back to my mother tongue, Vietnamese, but see a little difficulty in translating the term “effect flow” itself. So, let's start from its components first: cause = tác nhân, action = tác động, effect = tác dụng, then.... wow.... the whole flow should be "**tác lưu**"! 😍
+			- **June** 2nd, these days i translate the terms of ((667bef22-b272-4a7d-b613-3f1ed1a47329)) back to my mother tongue, Vietnamese, but see a little difficulty in translating the term “effect flow” itself. So, let's start from its components first: cause = tác nhân, action = tác động, effect = tác dụng, then.... wow.... the whole flow should be "**tác lưu**"! 😍
 			  id:: 6839221f-0a4a-43a3-b7fc-1490e356b9de
 				- So, now we have ((683ed4a3-68c7-41a4-aecf-b21561f207df)) (**Mạch tác lưu** dệt nên vạn vật.)
 				- “Mạch tác lưu” (zh. 作流脈) is the nice combination of both static (thread) and dynamic (flow) aspects.
@@ -2874,7 +2874,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Vụ Hè Thu: từ tháng 5 đến tháng 7 sẽ thu hoạch vào tháng 8 (đây là mùa vụ cho chất lượng Nho tốt nhất trong năm: trái Nho căng, ngọt, năng suất cao)
 							- Vụ Thu Đông: từ tháng 9 đến tháng 11 thu hoạch tháng 12 (đây là vụ cho năng suất thấp nhất trong năm vì vào những tháng mưa nhiều tại Ninh Thuận).
 						- SĐT các vườn nho: [Ninh Thuận Review](https://ninhthuanreview.com/vuon-nho-thai-an-ninh-thuan/#cdd-3-mot-so-vuon-nho-thai-an-dep-gan-vinh-hy-de-ban-lua-chon)
-			- 30th, most of the time i just meditated on the nasal inflmation, despite the unfinished task of company waiting (because i feel it's too complicated and too far to be finished).
+			- 30th, most of the time i just meditated on the nasal inflamation, despite the unfinished task of company waiting (because i feel it's too complicated and too far to be finished).
 			  collapsed:: true
 				- After working hours, i did some more reading of the messy codes for the task at company.
 				- Returning home, seeing the GitJournal cannot remove images again, i search for solutions and switch to another alternative: [GitSync](https://github.com/ViscousPot/GitSync) & [Markor](https://github.com/gsantner/markor) editor.
@@ -2900,7 +2900,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  
 							  [//EOF]: # (Please leave this end-of-file line untouched!)
 							  ```
-			- July 1st, ...
+			- **July** 1st, ...
 			  collapsed:: true
 				- To [add the final EOL to `queue.md`](((6863444d-280f-4913-81d2-51a0e9c8a728))), i was caught up in ![MarkdownCommentsTest.md](../assets/TextProcessing/Markdown/MarkdownCommentsTest.md) and updating the `flushQueue.sh` script.
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
