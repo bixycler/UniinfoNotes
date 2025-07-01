@@ -4,7 +4,12 @@
 	- This issue is due to `dart-git` which is well known, as reported [here](https://github.com/GitJournal/GitJournal/issues/962) where `clach04` suggested [GitSync](https://github.com/ViscousPot/GitSync) & [Markor](https://github.com/gsantner/markor) editor.
 - Here's a note from Markor 😉
 	- with many tools: indent, outdent, **bold**, _italic_, list item, `code`, headings, [link](https://github.com/gsantner/markor/blob/master/README.md#features), move line up/down, etc.
-	- insertions: date 2025/06/30, time 23:38, image from camera ![image from camera](../assets/_res/IMG_20250630-233938.jpg), sound from microphone 🎤 <audio src='../assets/_res/2025-06-30T23-43-23.3gp' controls><a href='../assets/_res/2025-06-30T23-43-23.3gp'>2025-06-30T23-43-23</a></audio>
+	- insertions: date 2025/06/30, time 23:38,
+		- image (from camera)
+		  collapsed:: true
+			- ![image from camera](../assets/_res/IMG_20250630-233938.jpg),
+		- sound (from microphone) 🎤 <audio src='../assets/_res/file_example_MP3_700KB.mp3' controls><a href='../assets/_res/file_example_MP3_700KB.mp3'>2025-06-30T23-43-23</a></audio>
+			- ![](../assets/_res/2025-06-30T23-43-23.mp3)
 - `GitJournalNotes` -> `MindChips` repo; Updated `flushQueue.sh`
 	- Add the last EOL for Git! 🙂 (Because Markor doesn't automatically add the last EOL.)
 		- so that new lines won't affect the previous last line in Git (diff, blame)! 😉
