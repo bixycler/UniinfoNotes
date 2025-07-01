@@ -2919,6 +2919,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- These days, each intent of mine is [extracting](((6850be86-058c-45b4-9b4a-de92ebb4caff))) its own view from the world via pattern matching, in order to have its own effect on my actions (= mixture of all intents' actions).
 						- Such a constant flow of unmixing & mixing is catching me up!
 						- My karma of depth-first search is catching me in the infinitely complicated fractal walks.
+						- Such an [interconnection, interdependence, interfusion](((66eb7dae-2032-434b-9106-756d4aad7cdb))) makes the working of ka
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
