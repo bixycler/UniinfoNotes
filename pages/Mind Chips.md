@@ -1,14 +1,15 @@
 - Has the image gone?
-  - Nope! It just got pushed up again! ☹️
-  - There seems no way to delete images 🤔
-  - This issue is due to `dart-git` which is well known, as reported [here](https://github.com/GitJournal/GitJournal/issues/962) where `clach04` suggested [GitSync](https://github.com/ViscousPot/GitSync) & [Markor](https://github.com/gsantner/markor) editor.
+	- Nope! It just got pushed up again! ☹️
+	- There seems no way to delete images 🤔
+	- This issue is due to `dart-git` which is well known, as reported [here](https://github.com/GitJournal/GitJournal/issues/962) where `clach04` suggested [GitSync](https://github.com/ViscousPot/GitSync) & [Markor](https://github.com/gsantner/markor) editor.
 - Here's a note from Markor 😉
-    - with many tools: indent, outdent, **bold**, _italic_, list item, `code`, headings, [link](https://github.com/gsantner/markor/blob/master/README.md#features), move line up/down, etc. 
-    - insertions: date 2025/06/30, time 23:38, image from camera ![image from camera](_res/IMG_20250630-233938.jpg), sound from microphone 🎤 <audio src='_res/2025-06-30T23-43-23' controls><a href='_res/2025-06-30T23-43-23'>2025-06-30T23-43-23</a></audio>
+	- with many tools: indent, outdent, **bold**, _italic_, list item, `code`, headings, [link](https://github.com/gsantner/markor/blob/master/README.md#features), move line up/down, etc.
+	- insertions: date 2025/06/30, time 23:38, image from camera ![image from camera](_res/IMG_20250630-233938.jpg), sound from microphone 🎤 <audio src='_res/2025-06-30T23-43-23' controls><a href='_res/2025-06-30T23-43-23'>2025-06-30T23-43-23</a></audio>
 - `GitJournalNotes` -> `MindChips` repo; Updated `flushQueue.sh`
-- just add the last EOL for Git! 🙂
-    - so that this new line won't affect the previous line! 😉
-## Current Chips
+	- add the last EOL for Git! 🙂
+		- so that new lines won't affect the previous last line! 😉
+		- Let's use the [Markdown Comment](https://stackoverflow.com/a/20885980) syntax `[//] # (EOF: Please leave a blank line before this end-of-file line)`
+- ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
   collapsed:: true
