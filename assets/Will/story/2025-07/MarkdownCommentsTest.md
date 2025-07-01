@@ -28,6 +28,18 @@ Note: Some Markdown implementations don't process HTML comment tags properly, in
 ```
 [//]: <> (use '//' as label to differentiate itself from normal ref labels, not to accidentally appear in the main text)
 ```md
-[//]: <> (use '//' as label to differentiate itself from normal ref labels, not to accidentally appear in the main text)
+[//]: # (Most platform independent comment: use '#', a valid URI, as link target, because some implementations reject '<>')
 ```
-[//]: # (Most platform independent comment: use '#', a valid URI, as link target, because some implementations rejects <>,)
+[//]: # (Most platform independent comment: use '#', a valid URI, as link target, because some implementations reject '<>')
+
+Finally, to be on the safe side, this type of comments should be separated from other parts by blank lines (before and after).
+
+```md
+
+[//]: # (Most platform independent comment: use '#' as link target and separated by blank lines)
+
+```
+
+[//]: # (Most platform independent comment: use '#' as link target and separated by blank lines)
+
+Let's check how they work with different Markdown implementations.
