@@ -18,15 +18,16 @@ Here is a multi-line comment using HTML comment tag
 Note: Some Markdown implementations don't process HTML comment tags properly, including old versions of GitHub.
 -->
 
-### One-line comment (ab)using Markdown reference-style link
+### One-line comment (ab)using Markdown reference link
 ```md
-[comment label]: <> (a one-line comment exploiting the title in the definition part of a reference-style link)
+[comment label]: <> (a one-line comment exploiting the title in the link reference definition)
 ```
-[comment label]: <> (a one-line comment exploiting the title in the definition part of a reference-style link)
+[comment label]: <> (a one-line comment exploiting the title in the link reference definition)
 ```md
-[//comment label]: <> (a one-line comment exploiting the title in the definition part of a reference-style link)
+[//]: <> (use '//' as label to differentiate itself from normal ref labels, not to accidentally appear in the main text)
 ```
-
-[//]: <> (This is also a comment.)
-
-[//]: # (This may be the most platform independent comment)
+[//]: <> (use '//' as label to differentiate itself from normal ref labels, not to accidentally appear in the main text)
+```md
+[//]: <> (use '//' as label to differentiate itself from normal ref labels, not to accidentally appear in the main text)
+```
+[//]: # (Most platform independent comment: use '#', a valid URI, as link target, because some implementations rejects <>,)
