@@ -2897,7 +2897,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Let's use the [Markdown Comment](https://stackoverflow.com/a/20885980) syntax: 
 							  ```markdown
 							  
-							  [//] # (EOF: Please leave a blank line before this end-of-file line)
+							  [//EOF]: # (Please leave this end-of-file line and a blank line before it untouched!)
 							  ```
 					- ![MarkdownCommentsTest.md](../assets/Will/story/2025-07/MarkdownCommentsTest.md)
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
