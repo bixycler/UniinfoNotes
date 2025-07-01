@@ -4,7 +4,7 @@ title: Test Comments in Markdown
 
 - Markdown has no own standard comment syntax
   - but we can use [HTML comment](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Comments) `<!-- tag -->`, because Markdown supports HTML.
-  - or we can exploit other Markdown sytaxes to make comments, as shown at [StackOverflow](https://stackoverflow.com/a/20885980).
+  - or we can exploit Markdown link syntax to make comments, as shown at [StackOverflow](https://stackoverflow.com/a/20885980).
 
 ### Multi-line comment using HTML comment tag
 
