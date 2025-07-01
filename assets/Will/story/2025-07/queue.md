@@ -1,10 +1,20 @@
 ---
-title: Mind Chips Queue to UniinfoNotes
+title: Test Comments in Markdown
 ---
 
-- Some text here
-  - and sub-item here
-  - item 1.2
+- Markdown has no own standard comment syntax
+  - but we can use [HTML comment](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Comments) `<!-- tag -->`, because Markdown supports HTML.
+  - or we can exploit other Markdown sytaxes to make comments, as shown 
 
-~~~
-# [](EOF: Please leave a blank line before this end-of-file line)
+[comment]: <> (This is a comment, it will not be included)
+[comment]: <> (in  the output file unless you use it in)
+[comment]: <> (a reference style link.)
+
+[//]: <> (This is also a comment.)
+
+[//]: # (This may be the most platform independent comment)
+
+<!---
+your comment goes here
+and here
+-->
