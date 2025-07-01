@@ -1,10 +1,3 @@
-
-- Some text here
-  - and sub-item here
-  - item 1.2
-- Some text here
-  - and sub-item here
-  - item 1.2
 ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
