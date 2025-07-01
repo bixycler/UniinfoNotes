@@ -530,6 +530,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- [So-le (staggered)](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/)
 				- [The tarpestry of life](https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/)
 			- the mesh of horizonal & vertical threads is related to the ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
+			- The principle of “dependent origination” is not a linear causality.
+			  id:: 6863c61d-f3e7-495b-bdc4-25be219db74b
+				- The working of karma is one of the [4 imponderables](https://en.wikipedia.org/wiki/The_unanswerable_questions#Acinteyya_%E2%80%93_four_imponderables) (acinteyya, bất khả tư nghị, 不可思議).
 			- 糸：縦の糸はあなた、横の糸は私…
 			  collapsed:: true
 				- {{video https://youtu.be/VI8zQG-yMMI}}
