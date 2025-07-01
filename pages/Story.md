@@ -2902,7 +2902,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ```
 			- July 1st, ...
 			  collapsed:: true
-				- To [add final EOL for Git](((6863444d-280f-4913-81d2-51a0e9c8a728))), i was caught up in ![MarkdownCommentsTest.md](../assets/Will/story/2025-07/MarkdownCommentsTest.md) and updating the
+				- To [add the final EOL to `queue.md`](((6863444d-280f-4913-81d2-51a0e9c8a728))), i was caught up in ![MarkdownCommentsTest.md](../assets/TextProcessing/Markdown/MarkdownCommentsTest.md) and updating the `flushQueue.sh` script.
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
