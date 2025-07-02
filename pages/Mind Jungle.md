@@ -6935,7 +6935,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Ref: [LogSeq: AI Powered Notes (with Ollama)](https://fossengineer.com/selfhosting-logseq/#making-logseq-better)
 			- [Markdown Table (`logseq-markdown-table`)](https://github.com/haydenull/logseq-plugin-markdown-table) to easily handle Markdown tables.
 			  id:: 6864f88c-8987-4b0e-8151-0d41f5830a70
-			- [Table Renderer (`logseq-tablerender-plugin`)](https://github.com/benjypng/logseq-tablerender-plugin) to render tables from data from in blocks, supported basic math functions.
+			- [Table Renderer (`logseq-tablerender-plugin`)](https://github.com/benjypng/logseq-tablerender-plugin) to render tables from data from in blocks, supporting basic statistics like `sum`, `average`, `median`, `mode`.
 			  id:: 6864f9b7-2daa-4ad4-b496-063722e86f73
 		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
 			- Check rendered result at [[Theme Demo]].

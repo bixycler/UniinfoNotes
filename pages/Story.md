@@ -2927,8 +2927,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- I've just left [hội hại não](https://www.messenger.com/t/882954261822273) again.
 				- Test table plugins
+				  collapsed:: true
 					- [Markdown table editor](((6864f88c-8987-4b0e-8151-0d41f5830a70)))
-					  |Header Col1|Col2|Col Alphabet|
+					  |Header **Col1**|**Col2**|Col **Alphabet**|
 					  |--|--|--|
 					  |1|2|A|
 					  |3|4|B|
@@ -2938,11 +2939,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  {{renderer :tables_6864fd4f-65cc-4c9f-a854-b7152d5a25b0}}
 							- data sum-3 average-3 median-3 mode-3
 							  collapsed:: true
-								- Category
+								- **Category**
 									- Fruits
 									- Vegetables
 									- Fruits and Vegetables
-								- Fresh Produce
+								- Fresh Product
 									- Apples
 									- Lettuce
 									- Tomatoes
@@ -2955,7 +2956,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- cols sum-3 average-3 median-3 mode-3
 							  collapsed:: true
 								- Category
-									- Fresh Produce
+									- Fresh Product
 									- Price
 								- Fruits
 									- Apples
@@ -2971,7 +2972,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- rows sum-3 average-3 median-3 mode-3
 							  collapsed:: true
 								- Category
-									- Fresh Produce
+									- Fresh Product
 										- Price
 								- Fruits
 									- Apples
