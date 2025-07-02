@@ -1643,7 +1643,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- ![ENC_SYSTEME_FIGURE.jpeg](https://upload.wikimedia.org/wikipedia/commons/5/58/ENC_SYSTEME_FIGURE.jpeg)
 						- [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure))
 						  id:: 66751015-5c34-493e-9663-4f0f5234b66e
-						   can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the border of the stem node, called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks are branch edges. The shape of data structure tree is similar to the [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but the meaning of edges is very different, so don't be confused between a linear stem line with an exponential series of stalks (branch edges): While each edge in phylogenetic tree is an internode segment, each edge in data structure tree is a stalk.
+						   can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the border of the stem node, called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks are branch edges.
+							- Data structure tree versus [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))): similar shape, different meaning
+								- While the shape of data structure tree is similar to the [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))), the meaning of branch edges is very different from the segments of stem line (internodes), so _don't be confused between a linear stem line with an **exponential series of stalks** (branch edges)_: While each edge in phylogenetic tree is an internode segment, each edge in data structure tree is a stalk.
 							- There's an artistic style of structure tree, usually used in [mind map](https://en.wikipedia.org/wiki/Mind_map)s, where the node is collapsed into a branching point and its stalk is used to name/describe that node.
 							  collapsed:: true
 								- ![Snag_MindMap.png](../assets/GUI/Snag_MindMap.png)
