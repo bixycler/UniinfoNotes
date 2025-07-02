@@ -2933,10 +2933,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  |1|2|A|
 					  |3|4|B|
 					- [Table Renderer](((6864f9b7-2daa-4ad4-b496-063722e86f73)))
-						- ### Table from `data`
+						- ### Table from `data`: columns > data in rows
 						  id:: 6864fd4f-65cc-4c9f-a854-b7152d5a25b0
 						  {{renderer :tables_6864fd4f-65cc-4c9f-a854-b7152d5a25b0}}
-							- data
+							- data sum-3 average-3 median-3 mode-3
+							  collapsed:: true
 								- Category
 									- Fruits
 									- Vegetables
@@ -2949,24 +2950,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- 1
 									- 3
 									- 5
-						- ### Table from `rows`
-						  {{renderer :tables_6864fde4-0380-4266-a4c6-76a274ebf33e}}
-							- rows
-								- Category
-									- Fresh Produce
-										- Price
-								- Fruits
-									- Apples
-										- 1
-								- Vegetables
-									- Lettuce
-										- 3
-								- Fruits and Vegetables
-									- Tomatoes
-										- 5
-						- ### Table from `cols`
+						- ### Table from `cols`: rows > data in columns
 						  {{renderer :tables_6864fe0e-fd59-43cf-bba7-68ca5aff82d8}}
-							- cols
+							- cols sum-3 average-3 median-3 mode-3
+							  collapsed:: true
 								- Category
 									- Fresh Produce
 									- Price
@@ -2979,6 +2966,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Fruits and Vegetables
 									- Tomatoes
 									- 5
+						- ### Table from `rows`: rows > data in column 2 > data in column 3 > ...
+						  {{renderer :tables_6864fde4-0380-4266-a4c6-76a274ebf33e}}
+							- rows sum-3 average-3 median-3 mode-3
+							  collapsed:: true
+								- Category
+									- Fresh Produce
+										- Price
+								- Fruits
+									- Apples
+										- 1
+								- Vegetables
+									- Lettuce
+										- 3
+								- Fruits and Vegetables
+									- Tomatoes
+										- 5
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
