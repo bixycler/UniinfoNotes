@@ -1667,7 +1667,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2024-06-21 Fri 15:33:13]
 					  :END:
 						- Discussion with Gemini about [Name of lines in Tree View](https://gemini.google.com/app/88d6d204c956507b)
-						- ((66600918-9f27-44c2-8188-f043c244710c)) the following tree anatomy.
+						- The the components of tree view are named with reference from the biological tree anatomy like follows.
 						- tree anatomy
 						  id:: 667407ee-35ae-4d6f-8b58-89c19c0e0936
 						  :LOGBOOK:
