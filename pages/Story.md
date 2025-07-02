@@ -2983,6 +2983,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- Fruits and Vegetables
 									- Tomatoes
 										- 5
+				- Spring paradox, [Braess's paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox) are related to the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma)
+					- [This mechanism shrinks when pulled](https://youtu.be/-QTkPfq7w1A)
+					  collapsed:: true
+						- {{video https://youtu.be/-QTkPfq7w1A}}
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
