@@ -6933,6 +6933,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2025-03-06 Thu 20:02:40]--[2025-03-06 Thu 20:10:01] =>  00:07:21
 			  :END:
 				- Ref: [LogSeq: AI Powered Notes (with Ollama)](https://fossengineer.com/selfhosting-logseq/#making-logseq-better)
+			- [Markdown Table](https://github.com/haydenull/logseq-plugin-markdown-table)
 		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
 			- Check rendered result at [[Theme Demo]].
 			- DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.

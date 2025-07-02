@@ -2926,7 +2926,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-07-02 Wed 07:54:39]
 			  :END:
 				- I've just left [hội hại não](https://www.messenger.com/t/882954261822273) again.
-				-
+				- Test table plugins
+					-
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
