@@ -1612,8 +1612,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- circular branching
 					  id:: 684f9517-f730-4fc8-8162-05b594cd92cd
 					  collapsed:: true
-					  is the branching into many equivalent nodes, including the “” parent node" of this node, .
-						- This is the unified branching structure with both ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) of ((667bdced-76f1-4023-9352-dee24dcbf415)) and branch equality of ((667bdf2a-005c-4a19-93bd-bda5d076981a)).
+					  is the branching into many equivalent nodes, including the “parent node” of this node, around the ((667bebeb-7f20-4d03-b860-1653c3137710)).
+						- This is the branching structure of
+						- The ((667bebeb-7f20-4d03-b860-1653c3137710)) integrates the branch equality of ((667bdf2a-005c-4a19-93bd-bda5d076981a)) into the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) of ((667bdced-76f1-4023-9352-dee24dcbf415)).
 						- Its branch equality is more than ((667bdf2a-005c-4a19-93bd-bda5d076981a)) because the stalk of the stem node is just a branch stalk to the parent node, and the whole tree is just an [unrooted tree](https://en.wikipedia.org/wiki/Unrooted_binary_tree).
 						- base branch
 						  collapsed:: true
@@ -1638,7 +1639,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 6675279b-214e-43e4-81b9-14b43026ec67
 							  collapsed:: true
 								- ![ENC_SYSTEME_FIGURE.jpeg](https://upload.wikimedia.org/wikipedia/commons/5/58/ENC_SYSTEME_FIGURE.jpeg)
-						- [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the border of the stem node, called ((667bebeb-7f20-4d03-b860-1653c3137710)), thus all branch edges are actually node stalks. The shape of data structure tree is similar to the [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but the meaning of edges is very different, so don't be confused between a linear stem line with an exponential series of stalks (branch edges): While each edge in phylogenetic tree is an internode segment, each edge in data structure tree is a stalk.
+						- [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the border of the stem node, called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks are branch edges. The shape of data structure tree is similar to the [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but the meaning of edges is very different, so don't be confused between a linear stem line with an exponential series of stalks (branch edges): While each edge in phylogenetic tree is an internode segment, each edge in data structure tree is a stalk.
 						  id:: 66751015-5c34-493e-9663-4f0f5234b66e
 							- There's an artistic style of structure tree, usually used in [mind map](https://en.wikipedia.org/wiki/Mind_map)s, where the node is collapsed into a branching point and its stalk is used to name/describe that node.
 							  collapsed:: true
