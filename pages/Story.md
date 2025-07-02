@@ -2927,7 +2927,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- I've just left [hội hại não](https://www.messenger.com/t/882954261822273) again.
 				- Test table plugins
-					-
+					- Markdown table editor
+					  ||||
+					  |--|--|--|
+					  |1|2|A|
+					  |3|4|B|
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
