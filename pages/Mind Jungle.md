@@ -1613,9 +1613,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 684f9517-f730-4fc8-8162-05b594cd92cd
 					  collapsed:: true
 					  is the branching into many equivalent nodes, including the “parent node” of this node, around the ((667bebeb-7f20-4d03-b860-1653c3137710)).
-						- This is the branching structure of
+						- This is the branching structure of [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))) as well as mind maps.
 						- The ((667bebeb-7f20-4d03-b860-1653c3137710)) integrates the branch equality of ((667bdf2a-005c-4a19-93bd-bda5d076981a)) into the ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) of ((667bdced-76f1-4023-9352-dee24dcbf415)).
-						- Its branch equality is more than ((667bdf2a-005c-4a19-93bd-bda5d076981a)) because the stalk of the stem node is just a branch stalk to the parent node, and the whole tree is just an [unrooted tree](https://en.wikipedia.org/wiki/Unrooted_binary_tree).
+							- The stem circle has more branch equality than ((667bdf2a-005c-4a19-93bd-bda5d076981a)) because the stalk of the stem node is just a branch stalk to the parent node, and the whole tree is just an [unrooted tree](https://en.wikipedia.org/wiki/Unrooted_binary_tree).
 						- base branch
 						  collapsed:: true
 						   = branch at 0° = stalk of stem node = branch stalk to the parent node
@@ -1627,20 +1627,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- 3 styles of tree diagrams
 					  id:: 667500cd-a31d-4828-9dc4-93948e27e534
 					  collapsed:: true
-						- These [diagrams](https://docs.google.com/drawings/d/1zFtVcP_RBC5iGsfqpPvhjYEef9zg2ZSrEsjABb5qgOE) show different [components](((667530ed-809b-4d38-8522-1ae6c8449e28))).
-						  ![Tree diagrams](https://docs.google.com/drawings/d/e/2PACX-1vQJx4zwkWxi4NfSgmP_7bQDHRJHOvNC2ogW5AwHTgTAukPOgr28PviR_A-Aoy8QD559WXyKpgrJ3u_Q/pub?w=758&h=650)
-						- Triangular [phylogenetic tree](https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phylogenetic-tree) is closest to the [biological tree](((667502e5-b83a-4d2a-a801-34e7bcfa6b38))): The nodes are right on the stem line, and they are also branching points (or branch points). So, there are no branch stalks but only leaf stalks.
+						- These [diagrams](https://docs.google.com/drawings/d/1zFtVcP_RBC5iGsfqpPvhjYEef9zg2ZSrEsjABb5qgOE) show different [components](((667530ed-809b-4d38-8522-1ae6c8449e28))) in ((66750135-8c59-477c-8baf-cb3898d54559)), ((66750416-093a-4042-bb6d-78702c219c36)), and ((66751015-5c34-493e-9663-4f0f5234b66e)).
+							- ![Tree diagrams](https://docs.google.com/drawings/d/e/2PACX-1vQJx4zwkWxi4NfSgmP_7bQDHRJHOvNC2ogW5AwHTgTAukPOgr28PviR_A-Aoy8QD559WXyKpgrJ3u_Q/pub?w=758&h=650)
+						- Triangular [phylogenetic tree](https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phylogenetic-tree)
 						  id:: 66750135-8c59-477c-8baf-cb3898d54559
-						- [GUI tree view](https://en.wikipedia.org/wiki/Tree_view) is similar to [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but each node are separated from the stem line by a node stalk, either branch stalk or leaf stalk. That means the branching point is now separated from the node and is the joint between the stem line and the stalk. 
+						   is closest to the [biological tree](((667502e5-b83a-4d2a-a801-34e7bcfa6b38))): The nodes are right on the stem line, and they are also branching points (or branch points). So, there are no branch stalks but only leaf stalks.
+						- [GUI tree view](https://en.wikipedia.org/wiki/Tree_view)
 						  id:: 66750416-093a-4042-bb6d-78702c219c36
+						   is similar to [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but each node are separated from the stem line by a node stalk, either branch stalk or leaf stalk. That means the branching point is now separated from the node and is the joint between the stem line and the stalk.
 							- The stalk can be represented by a short line, an arrow, or an icon.
 							  id:: 66752164-1227-490c-8182-7949e4eb501d
 							- There's an artistic style of tree view where stem line is drawn as a long brace `{` and its stem node is placed in the middle.
 							  id:: 6675279b-214e-43e4-81b9-14b43026ec67
 							  collapsed:: true
 								- ![ENC_SYSTEME_FIGURE.jpeg](https://upload.wikimedia.org/wikipedia/commons/5/58/ENC_SYSTEME_FIGURE.jpeg)
-						- [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure)) can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the border of the stem node, called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks are branch edges. The shape of data structure tree is similar to the [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but the meaning of edges is very different, so don't be confused between a linear stem line with an exponential series of stalks (branch edges): While each edge in phylogenetic tree is an internode segment, each edge in data structure tree is a stalk.
+						- [data structure tree](https://en.wikipedia.org/wiki/Tree_(data_structure))
 						  id:: 66751015-5c34-493e-9663-4f0f5234b66e
+						   can be constructed from [GUI tree view](((66750416-093a-4042-bb6d-78702c219c36))) by folding the stem line into the border of the stem node, called ((667bebeb-7f20-4d03-b860-1653c3137710)), forming a ((684f9517-f730-4fc8-8162-05b594cd92cd)) structure where node stalks are branch edges. The shape of data structure tree is similar to the [phylogenetic tree](((66750135-8c59-477c-8baf-cb3898d54559))) but the meaning of edges is very different, so don't be confused between a linear stem line with an exponential series of stalks (branch edges): While each edge in phylogenetic tree is an internode segment, each edge in data structure tree is a stalk.
 							- There's an artistic style of structure tree, usually used in [mind map](https://en.wikipedia.org/wiki/Mind_map)s, where the node is collapsed into a branching point and its stalk is used to name/describe that node.
 							  collapsed:: true
 								- ![Snag_MindMap.png](../assets/GUI/Snag_MindMap.png)
