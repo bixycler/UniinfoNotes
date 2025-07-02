@@ -1610,6 +1610,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- This is a secondary branching structure which can be converted to ((667bdced-76f1-4023-9352-dee24dcbf415)) by considering the folk point as a collapsed stem line with 2 nodes (or many nodes in [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e)))).
 						- This is used in [data structure tree](((66751015-5c34-493e-9663-4f0f5234b66e))).
 					- circular branching
+					  id:: 684f9517-f730-4fc8-8162-05b594cd92cd
 					  collapsed:: true
 					  is the branching of any node into many equivalent nodes, including the "parent node" of this node.
 						- This is the unified branching structure with both ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) of ((667bdced-76f1-4023-9352-dee24dcbf415)) and branch equality of ((667bdf2a-005c-4a19-93bd-bda5d076981a)).
