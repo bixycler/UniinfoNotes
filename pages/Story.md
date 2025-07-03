@@ -1780,6 +1780,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- A Vietnamese Buddhist monk on a barefoot pilgrimage from his homeland to India ran into some unexpected opposition in Sri Lanka on the latest leg of his circuitous journey around Asia.
 					- A witness told Radio Free Asia that when the Vietnamese monk Thich Minh Tue and his entourage were about to go to a local Hindu temple to rest, _**a local monk**, claiming to be from the Sri Lankan Buddhist Sangha, came to the temple and **asked that he not stay**._
 					- Local Sri Lankans objected, taking sides with their Vietnamese visitor.
+					  id:: 684f9519-0c18-4a6d-9dee-9d68df7b300a
 					  The Sri Lankan monk then took out his phone and read the contents of a letter allegedly sent by Thich Nhat Tu, a representative of the state-backed Vietnam Buddhist Sangha – or religious association - to the Sri Lankan Sangha, to justify his demand that Thich Minh Tue leave the leafy temple compound in Giriulla, a town about 30 miles northeast of the capital Colombo.
 					- “He pointed to the letter and read the content to prove that this group of monks are a fake monks and were violating the law,” said Nguyen Minh Chi, a Vietnamese filmmaker who witnessed the exchange.
 					  collapsed:: true
@@ -1961,7 +1962,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- 孔 (khổng, khủng): khủng long (rồng khổng lồ), "thật khủng!" (casual meaning: stupendous, tremendous)
 				- > The passion caused by the great and sublime in nature, when those causes operate most powerfully is Astonishment, and astonishment is that state of the soul in which all its motions are suspended, with some degree of horror … No passion so effectually robs the mind of all its powers of acting and reasoning as fear. For fear, being an apprehension of pain or death, operates in a manner that resembles actual pain. Whatever therefore is terrible, with regard to sight, is sublime too … Indeed terror is in all cases whatsoever, either more openly or latently, the ruling principle of the sublime.
 				  
-				  –Edmund Burke in  “A Philosophical Enquiry into the Origins of Our Ideas of the Sublime and Beautiful” (1757)
+				  — Edmund Burke in  “A Philosophical Enquiry into the Origins of Our Ideas of the Sublime and Beautiful” (1757)
 		- The Great Lie and the twins of Well-Dressed Lie & Naked Truth
 		  collapsed:: true
 		  :LOGBOOK:

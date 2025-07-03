@@ -3091,7 +3091,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- The Sanskrit word “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” and the Chinese characters “空”, “無” are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
 					  id:: 66f3ee6f-9f62-4f7f-ad00-34f5d4b0c800
-						- > “Non-action but nothing is not done!”
+						- id:: 684f9517-3cbd-495d-8e40-85932d03bbe0
+						  > “Non-action but nothing is not done!”
 						  「無為而無不為。」
 						  
 						  — [Chapter 48. Forget the knowledge](https://ctext.org/dao-de-jing#n11639), Dao De Jing, Lao Tzu
