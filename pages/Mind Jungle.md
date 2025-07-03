@@ -2943,6 +2943,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-10-23 Wed 12:04:05]--[2024-10-23 Wed 15:27:28] =>  03:23:23
 		  :END:
 			- CreatZy style
+			  the prefered style in UniinfoNotes
 				- Quotation
 					- For quick notes, i just use the straight quotation marks `"`.
 					- For notes to be published, i use the curly quotation marks `“”`.
