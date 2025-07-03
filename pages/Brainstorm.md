@@ -139,14 +139,18 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Though empty, the central role of the self-essence in the self makes it essential to every self.
 					- All parts of the self-circle are integrated by focusing on the same center. Via that center, they all are one, seeing/feeling/treating each other as the same ((66c810a0-9861-4787-bdcf-1378219332be)) of self.
 					- When a self-circle loses its center, it just ceases to exist as itself and disintegrates into smaller circles.
-					- [wheel of dharma](https://en.wikipedia.org/wiki/Dharmachakra)
-						- ![Dharma_Wheel.svg](../assets/Uniinfo/Metaphysics/Dharma_Wheel.svg){:width 100}
+					- Such essence of the empty center is can be seen in the hub of the wheel.
+						- [wheel of dharma](https://en.wikipedia.org/wiki/Dharmachakra)
+							- ![Dharma_Wheel.svg](../assets/Uniinfo/Metaphysics/Dharma_Wheel.svg){:width 100}
 						- #+BEGIN_QUOTE
 						  “Thirty spokes are put together into one hub,
 						  such a vacant hub makes the wheel useful.”
 						  「三十輻共一轂，當其無，有車之用。」
 						  #+END_QUOTE 
 						  — [Chapter 11. The usage of the vacancy](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_11_(%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0)) ([DDK11](https://nhantu.net/TonGiao/DaoDucKinh/DDK11.htm)), Tao Te Ching
+			- The existence of a self starts with the closeness of its self-circle, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)), 
+			  sustained by the conservation of its content, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)), 
+			  and perfected i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				- In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
 					- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";
