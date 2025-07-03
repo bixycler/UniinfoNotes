@@ -2587,6 +2587,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- With `git log --first-parent` supported, it's better to use the branching history and the ((67139af7-47a6-4441-bd72-5a75448dbb1b)) his not needed anymore.
 			- `log` branch
 			  id:: 67138488-2781-42cb-88d4-888346f71c11
+			  collapsed:: true
 			  is the **working branch** containing `Auto saved by Logseq` commits as well as manual `[WIP]` commits to be merged into ((67139af7-47a6-4441-bd72-5a75448dbb1b)).
 				- Remember to close the Logseq app before manually committing, so that Logseq's `Auto saved by Logseq` commit won't interfere with our process.
 				- The WIPs before a merge will be tracked in ((67164c57-8f45-46eb-92a9-f00b02dccfc9)), then `[WIP]` commits will be stored in `log` branch.
@@ -2635,7 +2636,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `Mind Chips.md`
 				  contains pieces of ((66536578-c4d3-43f1-b35c-bf71120f0570))'s mind [chipped out](((684f9519-4568-4c8d-8c06-90495f826083))) throughout the daily life.
 				- `materials/`
-				  contains meta pages about [materials in `assets/`](((66fe77c8-05b8-44b2-bf66-b8d62b005a3d))).
+				  contains meta pages about [materials in `assets/`](((66fe77c8-05b8-44b2-bf66-b8d62b005a3d))), e.g. page [[logseq/config.edn]] decribing the file ![assets/logseq/config.edn](../assets/logseq/config.edn).
 				- `publish/`
 				  contains published pages.
 				- `share/`
@@ -2935,6 +2936,40 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- `<:)`, `<:))`, `<:D`, `<:(`, `<:p`, `<:*3`, `<..<3`, `<..+^`, `<../-`, `<..v`, `<..x`, `<..O`, `<..8`
 				  😊, 😄, 😁, 🙁, 😛, 😘, ❤️, 👍, ➡️, ✔️, ❌, ⭕, ♾️
 			-
+		- Writing styles & formats
+		  id:: 67187bb2-8a3a-4541-9f19-40e217ce7eb0
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2024-10-23 Wed 12:04:05]--[2024-10-23 Wed 15:27:28] =>  03:23:23
+		  :END:
+			- CreatZy style
+				- Quotation
+					- For quick notes, i just use the straight quotation marks `"`.
+					- For notes to be published, i use the curly quotation marks `“”`.
+					- Only the quoted material is placed inside quotation marks.
+					  id:: 67189182-7268-4579-9ef2-b16bf1f06c86
+					  I don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence.
+					- Math forms are quoted by double angle brackets, e.g. $⟪E = m⋅c^2⟫$
+				- Dialogue
+					- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
+					- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are **space-separated** from the text.
+					- Note about the mark connecting parts in a compound: In quick notes, i simply use hyphen, e.g. “Bose-Einstein condensate”, while in publishable notes, i use **en-dash without spaces**, e.g. “Bose–Einstein condensate”.
+					- Examples
+						- Quotation dash and en-dash in dialogue: [The Well-Dressed Lie and the Naked Truth – short version](((684f9519-6824-430b-820a-d5728d4b3f45)))
+						- Em-dash for source attribution
+						  {{embed ((684f9517-3cbd-495d-8e40-85932d03bbe0))}}
+					- References: [(en, em) dashes](https://en.wikipedia.org/wiki/Dash) and [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
+			- American style for quotation
+			  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
+				- Commas `,` and periods `.` are always before the closing quote, “like this.”
+					- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only [from mid-19th century](https://style.mla.org/the-placement-of-a-comma-or-period-after-a-quotation), to make the text of [typewriter](https://en.wikipedia.org/wiki/Typewriter) [looks “neater”](https://style.mla.org/punctuation-and-quotation-marks/).
+				- Other marks follow the rule that ((67189182-7268-4579-9ef2-b16bf1f06c86))
+			- World's various styles for dialogue
+				- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
+				- For source attribution, while (em) [dash](https://en.wikipedia.org/wiki/Dash) is the most common, colon `: author` and parentheses `(from author)` are also used.
+				- References:
+					- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
+					- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
