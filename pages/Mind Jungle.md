@@ -4760,10 +4760,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- This psychonautic journey is fueled by the [“holistic core”](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))) deep inside, and then the overview vision of the journey brings the “overview effect” up to the surface.
 							- While the “overview effect” brings various positive emotions and attitudes, it also creates the delusion of a perfect world due to the masking of all complexity and ugliness down there via abstraction. This delusion is a kind of cognitive bias called [halo effect](https://en.wikipedia.org/wiki/Halo_effect).
 							- That delusion is like a black hole sucking me strongly to the die-hard perfectionism.
-							- Looking inward, i see a ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) deep inside. This core is so hard and heavy, like the *singularity* of a black hole, that i see verything in this world is pulling toward it, and all forces returning forces.
+							- Looking inward, i see a ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) deep inside.
 							- **holistic core**
 							  id:: 681b3ad7-d1b0-4c06-a4ea-385a4a9314e0
-								- Holistic: it is a perfect circle: so round, so balanced, so equilibrated, so complete.
+								- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
+									- **Holistic**: it is a perfect circle – so round, so balanced, so equilibrated, so complete.
+									- **Core**: This core is so hard and heavy, like the *singularity* of a black hole, that i see verything in this world is being pulled toward it, and all forces are returning force toward the core.
 								- This core may be a mental fixation, the result of karma accumulated throughout space and time, and usually the central point of attachment.
 								- This core is the internal form (intent), the perfect circle, the crystal self, the boss, the source of both my strengths and my weaknesses.
 								- To be free, this core, as the hidden boss, should be detached!

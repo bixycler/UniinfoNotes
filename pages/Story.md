@@ -2942,7 +2942,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- this base has been accumulated throughout lives reflecting the majority of experiences of one self, hence ideal (large, common, absolute).
 							- This accumulation of experiences into ideals is the ((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b)) of internal ((670de601-3ca8-4489-8b75-75ca0d9a74bc))s.
 						- Down play my way: “contemplation is useless” → scare of one extended self (me + her) being separated into different ways → defense my own way (contemplation) → **attach** to the way as a higher self
-							- Like any higher self, the way or my holistic core are just ideals and should not be attached to.
+							- Like any higher self, the way or my ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) are just ideals and should not be attached to.
 				- Test table plugins
 				  collapsed:: true
 					- [Markdown table editor](((6864f88c-8987-4b0e-8151-0d41f5830a70)))

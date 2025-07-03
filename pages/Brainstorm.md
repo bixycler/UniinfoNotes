@@ -122,7 +122,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- brainstorm: ((66f29d57-a87f-4370-9f32-722922a7bff1)); and
 					- write discussion: ((673312a3-e94e-478f-9e21-bad72ef29d1b))
 					- But that task was interrupted and abandoned. Later on, these documents have been slowly updated and some are still stubs until now, 2025/05/16.
-				- In May 2025, while contemplating ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c)), i see [a solution](((681b4678-686a-4d99-9163-6f60e0b30d2c))) to my issue of perfectionism is to sublimate the holistic core to restore the hurricane's eye = empty center = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = Nibbāna
+				- In May 2025, while contemplating ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c)), i see [a solution](((681b4678-686a-4d99-9163-6f60e0b30d2c))) to my issue of perfectionism is to sublimate the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) to restore the hurricane's eye = empty center = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = Nibbāna
+				  id:: 684f9515-6b8f-4281-bce0-f396259e640b
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
@@ -136,7 +137,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- My intent thread is long due to not only the depth (height of tree), but also its coiling in the nodes which is the energy accumulated in the past. When disconnected, these coils just sleep like batteries, waiting to release when connected.
 			- Thanks to these coils, the intent threads are not lost when disconnected
 			  ⇒ resolve my delusion & fear of losing the works (sunk-cost fallacy)
-			- My momentum is harder than the massive object due to not only its depth but also my attachment to continuity, smoothnes, connectivity, integrity, and my scare of messiness, scattering, ignorance. This is again the holistic core!
+			- My momentum is harder than the massive object due to not only its depth but also my attachment to continuity, smoothnes, connectivity, integrity, and my scare of messiness, scattering, ignorance. This is again the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))!
+			  id:: 685bb77c-4502-4261-a3a3-a726980d1a50
 				- My bro's rhetorical question echoes: 
 				  > Can you do it without understanding?!
 				- This scare has been from my childhood: due to my small memory, i must always tidy up everything, digest them, organize them tightly.
