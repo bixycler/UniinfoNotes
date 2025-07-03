@@ -142,9 +142,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- [wheel of dharma](https://en.wikipedia.org/wiki/Dharmachakra)
 						- ![Dharma_Wheel.svg](../assets/Uniinfo/Metaphysics/Dharma_Wheel.svg){:width 100}
 						- #+BEGIN_QUOTE
-						  Thirty spokes are put together into one hub,
-						  such an vacant hub makes the use of the wheel.
-						  「鑿戶牖以為室，當其無，有室之用。」
+						  “Thirty spokes are put together into one hub,
+						  such an vacant hub makes the use of the wheel.”
+						  「三十輻共一轂，當其無，有車之用。」
 						  #+END_QUOTE 
 						  — Tao Te Ching, [Ch.11](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_11_(%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0)) ([DDK11](https://nhantu.net/TonGiao/DaoDucKinh/DDK11.htm))
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))

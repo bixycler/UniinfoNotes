@@ -3110,18 +3110,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Moreover, the Trinion unifies the [emptiness](https://en.wikipedia.org/wiki/Śūnyatā) in the invisible world with the [infinity](https://en.wikipedia.org/wiki/Infinity) in the visible world, thus sometimes is denoted with a circled infinity symbol “♾”.
 				- The vacantism is also expressed in Dao De Jing as the following:
 					- id:: 684f9517-7e89-4efb-9b6c-16bf3458ce67
-					  > “The Way is vacant, yet never used up.  
+					  #+BEGIN_QUOTE
+					  “The Way is vacant, yet never used up.  
 					  Immeasurable abyss it is, as the ancestor of all things!”  
 					  「道沖而用之或不盈。  
 					  淵兮似萬物之宗。」
-					  
-					  — [Chapter 4. The Sourceless](https://ctext.org/dao-de-jing#n11595), Dao De Jing, Lao Tzu
+					  #+END_QUOTE 
+					  — [Chapter 4. The Sourceless](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_4_(%E7%AC%AC%E5%9B%9B%E7%AB%A0)), Tao Te Ching
 					- id:: 684f9517-afac-49ba-97e3-b88529d74b24
-					  > “The door and windows are cut out to form a room;  
-					  due to its vacancy, the room is usable.”
+					  #+BEGIN_QUOTE
+					  “The door and windows are cut out to form a room;  
+					  thanks to its vacancy, the room is usable.”
 					  「鑿戶牖以為室，當其無，有室之用。」
-					  
-					  — [Chapter 11. The usage of the vacancy](https://ctext.org/dao-de-jing#n11602), Dao De Jing, Lao Tzu
+					  #+END_QUOTE 
+					  — [Chapter 11. The usage of the vacancy](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_11_(%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0)), Tao Te Ching
 				- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the physical spacetime as well as all informational spaces are “**vacant**” instead of “empty”. That means they are _spaces of **possibilities**, containing **potentials**_, instead of nothing.
 			- Grand Circle (◯) of Unïnfo
 			  id:: 6772a6cd-771f-4f24-9c3a-39c442234be5
@@ -3139,8 +3141,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  > “Non-action but nothing is not done!”
 						  「無為而無不為。」
 						  
-						  — [Chapter 48. Forget the knowledge](https://ctext.org/dao-de-jing#n11639), Dao De Jing, Lao Tzu
-					- Thus, the term “vacantism” is used here to emphasise the _**usefulness** of the [vacancy](((66600918-9f92-4730-b056-c2cd87a742aa)))_, just like “vacant rooms” in hotel and “vacant hours” in life. Instead of “emptiness” and “nothingness”, the “vacancy” in “vacantism” shows availability and readiness: _there's always space waiting to be filled in_. Even if it's occupied, the occupation is temporary, and the occupation of one space generates vacancy in another space. And ultimately, “vacantism” means “the throne of the supreme being is vacant — not to be claimed and possessed by a [transcendent](https://en.wikipedia.org/wiki/Transcendence_(religion)) & [pre-existing](https://en.wikipedia.org/wiki/Pre-existence) one, and not for anyone to cling to.”
+						  — [Chapter 48. Forget the knowledge](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)), Tao Te Ching
+					- Thus, the term “vacantism” is used here to emphasise the _**usefulness** of the [vacancy](((66600918-9f92-4730-b056-c2cd87a742aa)))_, just like “vacant rooms” in hotel and “vacant hours” in life. Instead of “emptiness” and “nothingness”, the “vacancy” in “vacantism” shows availability and readiness: _there's always space waiting to be filled in_. Even if it's occupied, the occupation is temporary, and the occupation of one space generates vacancy in another space. And ultimately, “vacantism” means “the throne of the supreme being is vacant – not to be claimed and possessed by a [transcendent](https://en.wikipedia.org/wiki/Transcendence_(religion)) & [pre-existing](https://en.wikipedia.org/wiki/Pre-existence) one, and not for anyone to cling to.”
 						- The usefulness of vacancy is stated in Dao De Jing, Chapter 11:
 						  id:: 68594391-adfa-4c9d-91ff-c53ce13806ad
 						  {{embed ((684f9517-afac-49ba-97e3-b88529d74b24))}}
