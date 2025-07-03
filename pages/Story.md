@@ -2134,12 +2134,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
 					  collapsed:: true
 						- Short version (with the help of Grok 3)
+						  id:: 684f9519-6824-430b-820a-d5728d4b3f45
 							- Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to the familiar and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns’ fights over the “true” Truth, the sisters met in a cave.
 							- ― We’re one soul, split by their prejudice – one wept.
 							  ― I’ll give you my clothes to please both towns – the other said.
 							  ― But you’ll be naked and scorned!
 							  ― For the love of people, I’ll endure. You'll take the duty of satisfying them, no less difficult than mine!
 							- They embraced, tears falling, and parted – one taking all clothes, the other bare. To please everyone, the dressed sister returned to town, swiftly changing outfits to suit each person’s expectations, making sure that everyone is comfortable with their own “Truth”. No matter how skillful, sometimes she was caught mid-change and called “Lie”. The naked sister hid in the cave most of the time to avoid shocking people. Anytime seeing her, they called her “crazy” or worse, then fled due to their unease and scare; some abused her in the night.
+							  id:: 684f9519-da96-40d8-9e09-411d94f16654
 							- Just a few people, tired of the dressed Lie, sought the naked Truth in the cave.
 							  ― Why hide? – they asked.
 							  ― I gave my beauty to my sister to serve you – she replied – because you fear the unadorned truth.

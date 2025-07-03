@@ -348,8 +348,11 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- Math forms are quoted by double angle brackets, e.g. $⟪E = m⋅c^2⟫$
 			- Dialogue
 				- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
-				- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are space-separated from the text.
-				- Note about
+				- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are **space-separated** from the text.
+				- Note about the mark connecting parts in a compound: In quick notes, i simply use hyphen, e.g. “Bose-Einstein condensate”, while in publishable notes, i use **en-dash without spaces**, e.g. “Bose–Einstein condensate”.
+				- Examples
+					- [The Well-Dressed Lie and the Naked Truth – short version](((684f9519-6824-430b-820a-d5728d4b3f45)))
+					- Encyclopedia 3.ed., Vol.1 - Logic > World of Appearance – Content Form – Relation
 		- American style for quotation
 		  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
 			- Commas `,` and periods `.` are always before the closing quote, “like this.”
