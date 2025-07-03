@@ -2910,7 +2910,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- To [add the final EOL to `queue.md`](((6863444d-280f-4913-81d2-51a0e9c8a728))), i was caught up in ![MarkdownCommentsTest.md](../assets/TextProcessing/Markdown/MarkdownCommentsTest.md) and updating the `flushQueue.sh` script.
 				  id:: 68639a1c-11b7-4689-948b-b64a921a4f09
-					- Returning home, i checked that [front matter (YAML header)](((6865e0d4-bae8-4952-8fcd-39ca1d516e30))) .
+					- Returning home, i checked that both `[//EOF]: #` line and [front matter (YAML header)](((6865e0d4-bae8-4952-8fcd-39ca1d516e30))) work in Markor.
 				- The nuances in this [simple task](((68639a1c-11b7-4689-948b-b64a921a4f09))) remind me of the fractals.
 					- Fractal boundaries
 						- the [coastline paradox](https://en.wikipedia.org/wiki/Coastline_paradox),
@@ -2932,7 +2932,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-07-02 Wed 07:54:39]
 			  :END:
-				- I've just left [hội hại não](https://www.messenger.com/t/882954261822273) again.
+				- I've just left [hội hại não](https://www.messenger.com/t/882954261822273) again, due to the conflict with Ms. Trung.
+					- conflict + close friend → separation anxiety
+						- Down play my way: "contemplation is useless" → scare of one self separated into different ways → defense my own way → **attach** to the way as a higher self
+					- Being called "crazy" → the self hurts → defense → find support from the large, the common, the absolute → fall back to **delusion**, the base of the self < this base has been accumulated throughout lives reflecting the majority of experiences of one self
 				- Test table plugins
 				  collapsed:: true
 					- [Markdown table editor](((6864f88c-8987-4b0e-8151-0d41f5830a70)))
