@@ -140,6 +140,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- All parts of the self-circle are integrated by focusing on the same center. Via that center, they all are one, seeing/feeling/treating each other as the same ((66c810a0-9861-4787-bdcf-1378219332be)) of self.
 					- When a self-circle loses its center, it just disintegrates into smaller circles.
 					- [wheel of dharma](https://en.wikipedia.org/wiki/Dharmachakra)
+						- ![Dharma_Wheel.svg](../assets/Uniinfo/Metaphysics/Dharma_Wheel.svg){:width 100}
+						- — Tao Te Ching, [Ch.48](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)) ([DDK48](https://nhantu.net/TonGiao/DaoDucKinh/DDK48.htm))
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				- In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
 					- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";
