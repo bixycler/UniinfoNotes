@@ -5,11 +5,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ... ↓ to be flushed **down**! ↓
-		- DOING Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
+		- TODO Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
 		  id:: 68663850-daa5-487e-ba48-fea228a2b188
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-07-03 Thu 15:49:44]
+		  CLOCK: [2025-07-03 Thu 15:26:42]--[2025-07-03 Thu 16:33:25] =>  01:06:43
 		  :END:
 			- First, plan the time of working hours.
 				- A working day should start from official works instead of personal works.
