@@ -2934,8 +2934,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- I've just left [hội hại não](https://www.messenger.com/t/882954261822273) again, due to the conflict with Ms. Trung.
 					- conflict + close friend → separation anxiety
-						- Down play my way: "contemplation is useless" → scare of one self separated into different ways → defense my own way → **attach** to the way as a higher self
-					- Being called "crazy" → the self hurts → defense → find support from the large, the common, the absolute → fall back to **delusion**, the base of the self < this base has been accumulated throughout lives reflecting the majority of experiences of one self
+						- Being called "crazy" → the self hurts → defense → find support from the large, the common, the absolute → fall back to **delusion**, the base of the self
+							- delusion = attachment to ideals + ignorance of non-ideals = the base of the self
+							- this base has been accumulated throughout lives reflecting the majority of experiences of one self, hence large, common, absolute.
+						- Down play my way: "contemplation is useless" → scare of one self (me + her) being separated into different ways → defense my own way (contemplation) → **attach** to the way as a higher self
 				- Test table plugins
 				  collapsed:: true
 					- [Markdown table editor](((6864f88c-8987-4b0e-8151-0d41f5830a70)))
