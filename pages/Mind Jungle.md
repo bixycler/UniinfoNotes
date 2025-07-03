@@ -3399,7 +3399,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  CLOCK: [2024-12-29 Sun 21:06:08]
 						  :END:
 							- This checkstop is required so that all hidden ones can be [exposed](((674c11d4-894a-46d1-b653-5e8148773d7a))).
-							- Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
+							- TODO Design ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) as a **master plan**, with `/Deadline`, `/Scheduled`, and [query](https://discuss.logseq.com/t/query-to-list-task-by-priority-scheduled-deadline-in-the-near-future/24642) ...
 							  id:: 67715d03-9dbc-42b0-8589-064396a9c52b
 							  collapsed:: true
 							  :LOGBOOK:
@@ -3410,6 +3410,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- The plan contains refs to in-context tasks and other metadata like issues, status details, temporary notes, priority, schedule, etc.
 								- The plan is to the work as the table of contents is to the document.
 								- Orders & flows
+								  collapsed:: true
 									- Pagination: [[Task]], [[Story]], [[Braindump]], [[Brainstorm]] are split by page per year.
 										- [[Brainstorm]]  is sorted in inverse chronological order.
 										- Others are sorted in chronological order.
@@ -3436,8 +3437,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  CLOCK: [2025-01-02 Thu 14:44:16]
 								  :END:
 									- spatial versus temporal, like [urban planning](https://en.wikipedia.org/wiki/Urban_planning)
-									- spatial: ((67760c43-58c6-40eb-b874-40afae448966)) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place = 0 = out
-									- temporal: ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
+										- spatial: ((67760c43-58c6-40eb-b874-40afae448966)) = the central hub = ∞ = in <<[antipole](https://en.wiktionary.org/wiki/antipole)/[antipode](https://en.wikipedia.org/wiki/Antipodes) of>> ((6773d98a-3917-4267-9f8b-7d86b84d3663)) place = 0 = out
+										- temporal: ((6651adea-e1ed-4884-93eb-5ebd6086b62b)) list
 									- design ((667c0031-0a87-44c9-9e98-6d45893b095f)) ~ [knowledge circle](((6773d7f2-be44-43f0-b4f0-31d910b12982)))
 										- start from the issues in ((db954501-95d0-46e2-b1fc-39b6a966300e))
 											- → down to tasks, deep into in-context tasks
@@ -3485,9 +3486,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 												- this flow of effect gives knowledge to other threads of knowledge
 												- when this flow gets stuck due to the lack of knowledge in this thread, just switch to the next flow waiting in the task list
 												- effect flow = program execution history = braindumping
-									- The ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", and the AI podcaster of NotebookLM said 
-									  > Matter planning is a really apt name.
-									  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
+									- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+										- Once the ⟪ ((67760c43-5cbd-4b4f-8fd9-5cedf804f56a)) ⟫ was mistakenly typed as "Matter plan", 
+										  id:: 684f9517-8496-4ac5-9bcd-010c1666a7e2
+											- and the AI podcaster of NotebookLM said
+											  > Matter planning is a really apt name.
+											  > Because it emphasizes that our tasks aren't isolated items on a to-do list. They're interconnected pieces of matter woven into the fabric of our lives.
 					- target reaching machinary
 					  id:: 684f9517-db29-4079-8674-09e0ffaff6ba
 						- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
