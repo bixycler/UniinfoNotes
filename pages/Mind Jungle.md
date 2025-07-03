@@ -2628,8 +2628,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  is the ((665c92d1-565b-4911-a706-b32af429c3aa)) place for this project.
 				- `Stories.md`
 				  contains life stories around this project.
+				- `Task.md`
+				  is the ((67715dbd-5ba6-4fc8-bd3e-5fab97885ae7)) for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
 				- `Braindump.md`
-				  is the ((665c92d1-565b-4911-a706-b32af429c3aa)) place for this project.
+				  is the ((6667bf32-ab6a-4d64-842d-45d49137e694)) place for ((66536578-c4d3-43f1-b35c-bf71120f0570)).
+				- `Mind Chips.md`
+				  contains pieces of ((66536578-c4d3-43f1-b35c-bf71120f0570))'s mind [chipped out](((684f9519-4568-4c8d-8c06-90495f826083))) throughout the daily life.
 				- `materials/`
 				  contains meta pages about [materials in `assets/`](((66fe77c8-05b8-44b2-bf66-b8d62b005a3d))).
 				- `publish/`
