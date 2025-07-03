@@ -1,12 +1,7 @@
--  Ah, Markor supports default YAML headers:
-    - all are aligned right, and separated from the main text by a horizonal ruler.
-    - `title` is rendered as an H1.
-    - `tags`: each tag is rendered in an enclosed background.
-    - `date` seems to be a normal text.
 - review the conflict with Ms Trung
-    - "khùng" > hurt the self > defense > find support from the large, the common, the absolute > fall back to **delusion**, the base of the self < this base has been accumulated throughout lives reflecting the majority of experiences of one self
-    - "contemplation is useless" + close friend > separation anxiety, scare of one self separated into different ways > defense my own way > **attach** to the way as a higher self
-## Current Chips
+	- "khùng" > hurt the self > defense > find support from the large, the common, the absolute > fall back to **delusion**, the base of the self < this base has been accumulated throughout lives reflecting the majority of experiences of one self
+	- "contemplation is useless" + close friend > separation anxiety, scare of one self separated into different ways > defense my own way > **attach** to the way as a higher self
+- ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
   collapsed:: true

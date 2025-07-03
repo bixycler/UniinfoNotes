@@ -2891,6 +2891,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- ![2025-06-30T23-43-23](../assets/Will/story/2025-06/2025-06-30T23-43-23.m4a)
 								- Although it's an [MPEG-4 AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding) file, the file name has no extension!? 🤔
 								- ⇒ manually add `.m4a` extension to the file name.
+						- Ah, Markor supports some default YAML headers:
+						  id:: 6865e0d4-bae8-4952-8fcd-39ca1d516e30
+							- all are aligned right, and separated from the main text by a horizontal rule (`<hr>`).
+							- `title` is rendered as an H1.
+							- `tags`: each tag is rendered in an enclosed background.
+							- `date` seems to be a normal text.
 					- `GitJournalNotes` -> `MindChips` repo; Updated `flushQueue.sh`
 						- Add the final EOL for Git! 🙂 (Because Markor doesn't automatically add the last EOL.)
 						  id:: 6863444d-280f-4913-81d2-51a0e9c8a728
@@ -2904,6 +2910,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- To [add the final EOL to `queue.md`](((6863444d-280f-4913-81d2-51a0e9c8a728))), i was caught up in ![MarkdownCommentsTest.md](../assets/TextProcessing/Markdown/MarkdownCommentsTest.md) and updating the `flushQueue.sh` script.
 				  id:: 68639a1c-11b7-4689-948b-b64a921a4f09
+					- Returning home, i checked that [front matter (YAML header)](((6865e0d4-bae8-4952-8fcd-39ca1d516e30))) .
 				- The nuances in this [simple task](((68639a1c-11b7-4689-948b-b64a921a4f09))) remind me of the fractals.
 					- Fractal boundaries
 						- the [coastline paradox](https://en.wikipedia.org/wiki/Coastline_paradox),
