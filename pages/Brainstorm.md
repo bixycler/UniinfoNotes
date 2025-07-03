@@ -122,44 +122,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- About the hurricane's eye 🌀: [empty center](((681b4678-686a-4d99-9163-6f60e0b30d2c))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (= ((66f267f7-01f9-47b9-8376-abd27fdf2930)) + ((66727858-979d-4d95-8a90-7a749218cfba)))
-		  id:: 684f9515-8f95-4004-8aa8-04a10d1ebf11
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-05-16 Fri 13:44:40]
-		  :END:
-			- The [cyclone](https://en.wikipedia.org/wiki/Cyclone) and its [eye](https://en.wikipedia.org/wiki/Eye_(cyclone)) is a powerful image that i've used a lot from the begining of the balancing journey, and was first written down in the blog post “[3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html)”.
-			- Cyclone and [bubble ring](https://en.wikipedia.org/wiki/Bubble_ring) are used to show the union of Circle and Arrow, as the **self-sustained subject** and **singularity**.
-			- Contemplating the cyclone, i see the ((6810ceeb-6af6-442b-9910-baae2c315c46)), the obop, [the role of wholeness](((66f29d57-a87f-4370-9f32-722922a7bff1))) in awareness and action, etc.
-			- Thanks to its zero intent, the empty center = self-essence = Nibbāna = the non-self (Anattā) has infinite extent coverring everything, hence the great Self (Ātman).
-			- The empty center is an **ideal obop**, an obop without self/intent, a “selfless obop”, i.e. the limit of obop when its intent approaches zero.
-				- The emtpy self-essence is just a focal point, a ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)), an abstraction, not a concrete self.
-				- Being focused & projected from the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s around, the visible self-essence (as an empty center) cannot exist on its own. In other words, the self-essence itself has no essence.
-				- The “invisible self-essence”, usually called “Nibbāna”, is immanent in everything. In other words, everything has a self-essence which is empty. This immanence is because nothing can obstruct a thing with zero intent, thus the zero-intent Nibbāna permeates everything.
-				- Though empty, the central role of the self-essence in the self makes it essential to every self.
-					- All parts of the self-circle are integrated by focusing on the same center. Via that center, they all are one, seeing/feeling/treating each other as the same ((66c810a0-9861-4787-bdcf-1378219332be)) of self.
-					- When a self-circle loses its center, it just ceases to exist as itself and disintegrates into smaller circles.
-					- Such essence of the empty center is can be seen in the hub of the wheel.
-						- [wheel of dharma](https://en.wikipedia.org/wiki/Dharmachakra)
-							- ![Dharma_Wheel.svg](../assets/Uniinfo/Metaphysics/Dharma_Wheel.svg){:width 100}
-						- #+BEGIN_QUOTE
-						  “Thirty spokes are put together into one hub,
-						  such a vacant hub makes the wheel useful.”
-						  「三十輻共一轂，當其無，有車之用。」
-						  #+END_QUOTE 
-						  — [Chapter 11. The usage of the vacancy](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_11_(%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0)) ([DDK11](https://nhantu.net/TonGiao/DaoDucKinh/DDK11.htm)), Tao Te Ching
-			- The formation of a self starts with the closeness of its self-circle, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)), 
-			  sustained by the conservation of its content, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)), 
-			  and stablized by the center so that it can crystallize into a round circle i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
-				- Even though the first “seed” at the center is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
-			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
-				- In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
-					- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";
-					- brainstorm: ((66f29d57-a87f-4370-9f32-722922a7bff1)); and
-					- write discussion: ((673312a3-e94e-478f-9e21-bad72ef29d1b))
-					- But that task was interrupted and abandoned. Later on, these documents have been slowly updated and some are still stubs until now, 2025/05/16.
-				- In May 2025, while contemplating ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c)), i see [a solution](((681b4678-686a-4d99-9163-6f60e0b30d2c))) to my issue of perfectionism is to sublimate the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) to restore the self to the hurricane's eye = empty center = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = Nibbāna = the [non-self](https://en.wikipedia.org/wiki/Anatt%C4%81)
-				  id:: 684f9515-6b8f-4281-bce0-f396259e640b
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
@@ -212,7 +174,46 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- derivative sequence
 			  id:: 684796ee-1bc9-4828-882b-612c67ba48f3
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center.
+		- About the hurricane's eye 🌀: [empty center](((681b4678-686a-4d99-9163-6f60e0b30d2c))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (= ((66f267f7-01f9-47b9-8376-abd27fdf2930)) + ((66727858-979d-4d95-8a90-7a749218cfba)))
+		  id:: 684f9515-8f95-4004-8aa8-04a10d1ebf11
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-16 Fri 13:44:40]
+		  :END:
+			- The [cyclone](https://en.wikipedia.org/wiki/Cyclone) and its [eye](https://en.wikipedia.org/wiki/Eye_(cyclone)) is a powerful image that i've used a lot from the begining of the balancing journey, and was first written down in the blog post “[3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html)”.
+			- Cyclone and [bubble ring](https://en.wikipedia.org/wiki/Bubble_ring) are used to show the union of Circle and Arrow, as the **self-sustained subject** and **singularity**.
+			- Contemplating the cyclone, i see the ((6810ceeb-6af6-442b-9910-baae2c315c46)), the obop, [the role of wholeness](((66f29d57-a87f-4370-9f32-722922a7bff1))) in awareness and action, etc.
+			- Thanks to its zero intent, the empty center = self-essence = Nibbāna = the non-self (Anattā) has infinite extent coverring everything, hence the great Self (Ātman).
+			- The empty center is an **ideal obop**, an obop without self/intent, a “selfless obop”, i.e. the limit of obop when its intent approaches zero.
+				- The emtpy self-essence is just a focal point, a ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)), an abstraction, not a concrete self.
+				- Being focused & projected from the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s around, the visible self-essence (as an empty center) cannot exist on its own. In other words, the self-essence itself has no essence.
+				- The “invisible self-essence”, usually called “Nibbāna”, is immanent in everything. In other words, everything has a self-essence which is empty. This immanence is because nothing can obstruct a thing with zero intent, thus the zero-intent Nibbāna permeates everything.
+				- Though empty, the central role of the self-essence in the self makes it essential to every self.
+					- All parts of the self-circle are integrated by focusing on the same center. Via that center, they all are one, seeing/feeling/treating each other as the same ((66c810a0-9861-4787-bdcf-1378219332be)) of self.
+					- When a self-circle loses its center, it just ceases to exist as itself and disintegrates into smaller circles.
+					- Such essence of the empty center is can be seen in the hub of the wheel.
+						- [wheel of dharma](https://en.wikipedia.org/wiki/Dharmachakra)
+							- ![Dharma_Wheel.svg](../assets/Uniinfo/Metaphysics/Dharma_Wheel.svg){:width 100}
+						- #+BEGIN_QUOTE
+						  “Thirty spokes are put together into one hub,
+						  such a vacant hub makes the wheel useful.”
+						  「三十輻共一轂，當其無，有車之用。」
+						  #+END_QUOTE 
+						  — [Chapter 11. The usage of the vacancy](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_11_(%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0)) ([DDK11](https://nhantu.net/TonGiao/DaoDucKinh/DDK11.htm)), Tao Te Ching
+			- The formation of a self starts with the closeness of its self-circle, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)), 
+			  sustained by the conservation of its content, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)), 
+			  and stablized by the center so that it can crystallize into a round circle i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
+				- Even though the first “seed” at the center is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
+			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
+				- In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
+					- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";
+					- brainstorm: ((66f29d57-a87f-4370-9f32-722922a7bff1)); and
+					- write discussion: ((673312a3-e94e-478f-9e21-bad72ef29d1b))
+					- But that task was interrupted and abandoned. Later on, these documents have been slowly updated and some are still stubs until now, 2025/05/16.
+				- In May 2025, while contemplating ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c)), i see [a solution](((681b4678-686a-4d99-9163-6f60e0b30d2c))) to my issue of perfectionism is to sublimate the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) to restore the self to the hurricane's eye = empty center = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = Nibbāna = the [non-self](https://en.wikipedia.org/wiki/Anatt%C4%81)
+				  id:: 684f9515-6b8f-4281-bce0-f396259e640b
 		- From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
+		  id:: 684f9515-9c97-4447-8211-a65dfe914822
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-06 Tue 13:15:54]--[2025-05-06 Tue 15:17:03] =>  02:01:09
