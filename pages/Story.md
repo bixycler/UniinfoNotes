@@ -3023,7 +3023,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- This is a good strategy but difficult for me because the out-of-work thoughts from the last night will naturally continue in the morning, keeping me from focusing on other works.
 								- So, let's try using breathwork and meditation to switch the flow of thought from personal to official works.
 							- Previously, i designed a [⟪Back to Work!⟫ reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7))) but ineffective.
-						- Second, plan the
+						- Second, plan the space of thoughts.
+							- Due to the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) and various deep intents, every works, including official works, will trigger meta-thoughts deeply related to
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
