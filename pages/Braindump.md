@@ -724,6 +724,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :END:
 		- ### June
 		  id:: 683d5508-34cd-477f-b0f6-3102155863bb
+		  collapsed:: true
 			- Nowadays, the trend to use plural nouns as modifiers increases... 😮 i'm outdated! (2nd June)
 			  collapsed:: true
 			  :LOGBOOK:
@@ -738,12 +739,11 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :LOGBOOK:
 			  CLOCK: [2025-06-02 Mon 20:14:17]
 			  :END:
-			- This whole month
+			- This whole month has been dumped to the thread of story: ((68366fff-92cf-41a7-ab2d-0c1f77d0effb))
 	- ### July
 	  id:: 68662950-3ada-42ea-928d-9700209e1501
 	- ## Braindumping < ((68662950-3ada-42ea-928d-9700209e1501))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- ((68392a13-c350-4962-bd37-b819c8e1f931))
 		- ...
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
 		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f

@@ -358,7 +358,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 		  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
 			- Commas `,` and periods `.` are always before the closing quote, “like this.”
 				- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only [from mid-19th century](https://style.mla.org/the-placement-of-a-comma-or-period-after-a-quotation), to make the text of [typewriter](https://en.wikipedia.org/wiki/Typewriter) [looks “neater”](https://style.mla.org/punctuation-and-quotation-marks/).
-			- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
+			- Other marks follow the rule that ((67189182-7268-4579-9ef2-b16bf1f06c86))
 		- World's various styles for dialogue
 			- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
 			- For source attribution, while (em) [dash](https://en.wikipedia.org/wiki/Dash) is the most common, colon `: author` and parentheses `(from author)` are also used.
