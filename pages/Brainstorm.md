@@ -122,7 +122,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
-		- About the hurricane's eye 🌀: [empty center](((681b4678-686a-4d99-9163-6f60e0b30d2c))), ((66c8772a-9b29-45b0-b169-2fa847333e02)), [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana), ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (= ((66f267f7-01f9-47b9-8376-abd27fdf2930)) + ((66727858-979d-4d95-8a90-7a749218cfba)))
+		- About the hurricane's eye 🌀: [empty center](((681b4678-686a-4d99-9163-6f60e0b30d2c))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (= ((66f267f7-01f9-47b9-8376-abd27fdf2930)) + ((66727858-979d-4d95-8a90-7a749218cfba)))
 		  id:: 684f9515-8f95-4004-8aa8-04a10d1ebf11
 		  collapsed:: true
 		  :LOGBOOK:
@@ -134,8 +134,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Thanks to its zero intent, the empty center = self-essence = Nibbāna = the non-self (Anattā) has infinite extent coverring everything, hence the great Self (Ātman).
 			- The empty center is an **ideal obop**, an obop without self/intent, a “selfless obop”, i.e. the limit of obop when its intent approaches zero.
 				- The emtpy self-essence is just a focal point, a ((66728236-5b19-425c-bb5f-dfc0dc8b79fd)), an abstraction, not a concrete self.
-				- Being focused & projected from the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s around, the visible self-essence (as an empty center) cannot exist on its own. In other words, the self-essence it self has no essence.
-				- The “invisible self-essence”, usually called “Nibbāna”,
+				- Being focused & projected from the ((669a5387-2a97-4311-a295-aa0afd9c4d76))s around, the visible self-essence (as an empty center) cannot exist on its own. In other words, the self-essence itself has no essence.
+				- The “invisible self-essence”, usually called “Nibbāna”, is immanent in everything. In other words, everything has a self-essence which is empty. This imm
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				- In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
 					- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";
