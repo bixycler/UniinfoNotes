@@ -722,23 +722,26 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  :LOGBOOK:
 			  CLOCK: [2025-05-28 Wed 10:28:22]
 			  :END:
-	- ### June
-	  id:: 683d5508-34cd-477f-b0f6-3102155863bb
-		- Nowadays, the trend to use plural nouns as modifiers increases... 😮 i'm outdated! (2nd June)
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-06-02 Mon 14:35:18]
-		  CLOCK: [2025-06-02 Mon 14:36:04]--[2025-06-02 Mon 14:44:35] =>  00:08:31
-		  :END:
-			- Seeing the translation "要件リスト" = "requirements list", i asked why not "requirement list".
-			- From 13:45 to 14:45, talking with Grok, searching the Web, reading English StackExchange, finally i see how outdated i am.
-			- Wikipedia > Noun adjunct > [Singular vs plural](https://en.wikipedia.org/wiki/Noun_adjunct#Singular_vs_plural):
-			  > Noun adjuncts were **traditionally mostly singular** (e.g. "trouser press") except when there were lexical restrictions (e.g. "arms race"), but there is a **recent trend towards more use of plural ones** (e.g. "sales department", "jobs program", "systems analyst"). Many of these can also be or were originally interpreted and spelled as plural [possessives](https://en.wikipedia.org/wiki/Possessive) (e.g. "chemicals' agency", "writers' conference", "Rangers' hockey game"), but they are now often written without the apostrophe, although decisions on when to do so require editorial judgment.
-		- I've just ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
-		  :LOGBOOK:
-		  CLOCK: [2025-06-02 Mon 20:14:17]
-		  :END:
-	- ## Braindumping < ((683d5508-34cd-477f-b0f6-3102155863bb))
+		- ### June
+		  id:: 683d5508-34cd-477f-b0f6-3102155863bb
+			- Nowadays, the trend to use plural nouns as modifiers increases... 😮 i'm outdated! (2nd June)
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-06-02 Mon 14:35:18]
+			  CLOCK: [2025-06-02 Mon 14:36:04]--[2025-06-02 Mon 14:44:35] =>  00:08:31
+			  :END:
+				- Seeing the translation "要件リスト" = "requirements list", i asked why not "requirement list".
+				- From 13:45 to 14:45, talking with Grok, searching the Web, reading English StackExchange, finally i see how outdated i am.
+				- Wikipedia > Noun adjunct > [Singular vs plural](https://en.wikipedia.org/wiki/Noun_adjunct#Singular_vs_plural):
+				  > Noun adjuncts were **traditionally mostly singular** (e.g. "trouser press") except when there were lexical restrictions (e.g. "arms race"), but there is a **recent trend towards more use of plural ones** (e.g. "sales department", "jobs program", "systems analyst"). Many of these can also be or were originally interpreted and spelled as plural [possessives](https://en.wikipedia.org/wiki/Possessive) (e.g. "chemicals' agency", "writers' conference", "Rangers' hockey game"), but they are now often written without the apostrophe, although decisions on when to do so require editorial judgment.
+			- I've just ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
+			  :LOGBOOK:
+			  CLOCK: [2025-06-02 Mon 20:14:17]
+			  :END:
+			- This whole month
+	- ### July
+	  id:: 68662950-3ada-42ea-928d-9700209e1501
+	- ## Braindumping < ((68662950-3ada-42ea-928d-9700209e1501))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ((68392a13-c350-4962-bd37-b819c8e1f931))
 		- ...

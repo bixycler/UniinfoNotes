@@ -3010,6 +3010,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [This mechanism shrinks when pulled](https://youtu.be/-QTkPfq7w1A)
 					  collapsed:: true
 						- {{video https://youtu.be/-QTkPfq7w1A}}
+			- July 3rd, ...
+			  collapsed:: true
+				- More than a month in this thread of [releasing to heal the broken bodymind](((68366fff-92cf-41a7-ab2d-0c1f77d0effb))),
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
