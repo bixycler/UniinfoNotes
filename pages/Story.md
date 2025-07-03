@@ -2938,14 +2938,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- I've just left [hội hại não](https://www.messenger.com/t/882954261822273) again, due to the conflict with Ms. Trung.
 					- Thanks to such a close friend, i have chances to observe my self attachment.
 						- Again, thank you so much, my friend!
-						- This time, the contrast between my calmness with Mr. Hiệp's insult and my trigger by Ms. Trung's much milder statements
+						- This time, the contrast between my calmness with Mr. Hiệp's insult and my trigger by Ms. Trung's much milder statements, has clearly shown the effect of closeness – the main feature of self attachment.
 					- conflict + close friend → separation anxiety
-						- Being called “crazy” → the self hurts → defense → find support from the large, the common, the absolute → fall back to **delusion**, the base of self
+						- Being called “crazy” → the personal self hurts → defense → find support from the large, the common, the absolute → fall back to **delusion**, the base of self
 							- delusion = attachment to ideals + ignorance of non-ideals = the base of the self
 							- this base has been accumulated throughout lives reflecting the majority of experiences of one self, hence ideal (large, common, absolute).
 							- This accumulation of experiences into ideals is the ((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b)) of internal ((670de601-3ca8-4489-8b75-75ca0d9a74bc))s.
 						- Down play my way – “contemplation is useless” → scare of one extended self (me + her) being separated into different ways → defense my own way (contemplation) → **attach** to the way as a higher self
 							- Like any higher self, the way or my ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) are just ideals and should not be attached to.
+						- This time, it's interesting to trigger attachement to both low level (the personal self) and high level (the way) of the self.
 				- Test table plugins
 				  collapsed:: true
 					- [Markdown table editor](((6864f88c-8987-4b0e-8151-0d41f5830a70)))
