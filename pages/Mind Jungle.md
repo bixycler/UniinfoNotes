@@ -530,6 +530,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The argument of whether the ((66c8772a-9b29-45b0-b169-2fa847333e02)) is changing or unchanging, as in ((66f27ac0-b0b1-4dec-b256-5f4ab57e1972)) versus Budda-nature versus [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) & [śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81), is meaningless due to its intrinsic liar paradox: the self-essence is itself not a concrete self, but just an abstraction of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)). In other words, 
 				  > while the concrete self has self-essence as its essence, the  self-essenee itself has no essence.
+				- ((684f9515-8f95-4004-8aa8-04a10d1ebf11))
 	- ## subject
 	  id:: 667cfa3e-9856-43f0-956b-ebb4ff31d8eb
 	  collapsed:: true
