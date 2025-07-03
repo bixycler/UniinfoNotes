@@ -212,6 +212,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- But that task was interrupted and abandoned. Later on, these documents have been slowly updated and some are still stubs until now, 2025/05/16.
 				- In May 2025, while contemplating ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c)), i see [a solution](((681b4678-686a-4d99-9163-6f60e0b30d2c))) to my issue of perfectionism is to sublimate the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) to restore the self to the hurricane's eye = empty center = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = Nibbāna = the [non-self](https://en.wikipedia.org/wiki/Anatt%C4%81)
 				  id:: 684f9515-6b8f-4281-bce0-f396259e640b
+				- Today, 2025/07/03, i've just finished this brainstorm about the hurricane's eye 🌀.
+				  :LOGBOOK:
+				  CLOCK: [2025-07-03 Thu 19:48:29]
+				  :END:
 		- From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
 		  id:: 684f9515-9c97-4447-8211-a65dfe914822
 		  collapsed:: true
