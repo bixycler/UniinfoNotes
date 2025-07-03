@@ -354,6 +354,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 					- Quotation dash and en-dash in dialogue: [The Well-Dressed Lie and the Naked Truth – short version](((684f9519-6824-430b-820a-d5728d4b3f45)))
 					- Em-dash for source attribution
 					  {{embed ((684f9517-3cbd-495d-8e40-85932d03bbe0))}}
+				- References: [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
 		- American style for quotation
 		  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
 			- Commas `,` and periods `.` are always before the closing quote, “like this.”
