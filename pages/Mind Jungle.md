@@ -3496,7 +3496,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 684f9517-db29-4079-8674-09e0ffaff6ba
 						- Most of us are goal/target reaching machines with a built-in motivation to complete the circle.
 						- The **inner target** of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) is the driver, operator, controller of the whole ((667c0031-0a87-44c9-9e98-6d45893b095f)).
-						- *The target is the __hidden boss__*, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) wall, the underlying driving force. My boss is the [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))).
+						- *The target is the __hidden boss__*, the inner ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) wall, the underlying driving force. My boss is the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)).
 						  id:: 684f9517-d0a4-43f7-bfb2-766340b63655
 						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((674c11d4-894a-46d1-b653-5e8148773d7a))
 						- The [computer programs](https://en.wikipedia.org/wiki/Computer_program) reflect this target reaching machinary on computers.
@@ -4786,7 +4786,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 684f9517-bf26-42df-a02f-937c95e1f80e
 								- Just be mindful that we don't lose that momentum when we switch to other works, just put it down to be picked up later on.
 								- The effort justification & sunk-cost fallacy: This is the push of the momentum of the past, which adds to the pull of the future "finish soon", constraining the subject to the rabbit hole of goal reaching.
-							- The clearly visible **goal** of the future is the external form, which reflects the inner core, e.g. my [holistic core](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))), crystalized from karma of the past.
+							- The clearly visible **goal** of the future is the external form, which reflects the inner core, e.g. my ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)), crystalized from karma of the past.
 								- The clarity of the external goal shows that it's very large, like the Sun & Moon. This mirrors the internal (hidden) core which is hard and heavy, like the singularity of a black hole.
 								- Just be mindful that although it's worth pursuing, it's still **very far**, i.e. [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
 							- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) is to dissolve the form and direct it to the new form.
