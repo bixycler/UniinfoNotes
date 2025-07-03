@@ -3108,7 +3108,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)) mean that [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) of the Trinion is not an [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) and [absolute](https://www.newworldencyclopedia.org/entry/Absolute_(philosophy)) “[pre-existence](https://en.wikipedia.org/wiki/Pre-existence)”, but a _[dynamic Existence](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) in harmony with both [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69)))_. This property of the Trinion is called ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) (Vietnamese “vô nguyên”, Chinese “無元”), which means *“the [absence](https://en.wikipedia.org/wiki/Śūnyatā) of [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) [original essence](https://en.wikipedia.org/wiki/Essence)”*, and should not be confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism).
 			  collapsed:: true
 				- Moreover, the Trinion unifies the [emptiness](https://en.wikipedia.org/wiki/Śūnyatā) in the invisible world with the [infinity](https://en.wikipedia.org/wiki/Infinity) in the visible world, thus sometimes is denoted with a circled infinity symbol “♾”.
-				- The vacantism is also expressed in Dao De Jing as the following:
+				- The vacantism is also expressed in Tao Te Ching as the following:
 					- id:: 684f9517-7e89-4efb-9b6c-16bf3458ce67
 					  #+BEGIN_QUOTE
 					  “The Way is vacant, yet never used up.  
@@ -3143,7 +3143,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  
 						  — [Chapter 48. Forget the knowledge](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)), Tao Te Ching
 					- Thus, the term “vacantism” is used here to emphasise the _**usefulness** of the [vacancy](((66600918-9f92-4730-b056-c2cd87a742aa)))_, just like “vacant rooms” in hotel and “vacant hours” in life. Instead of “emptiness” and “nothingness”, the “vacancy” in “vacantism” shows availability and readiness: _there's always space waiting to be filled in_. Even if it's occupied, the occupation is temporary, and the occupation of one space generates vacancy in another space. And ultimately, “vacantism” means “the throne of the supreme being is vacant – not to be claimed and possessed by a [transcendent](https://en.wikipedia.org/wiki/Transcendence_(religion)) & [pre-existing](https://en.wikipedia.org/wiki/Pre-existence) one, and not for anyone to cling to.”
-						- The usefulness of vacancy is stated in Dao De Jing, Chapter 11:
+						- The usefulness of vacancy is stated in Tao Te Ching, Chapter 11:
 						  id:: 68594391-adfa-4c9d-91ff-c53ce13806ad
 						  {{embed ((684f9517-afac-49ba-97e3-b88529d74b24))}}
 						- About the “vacant throne”: In the Buddhist sutta “[The Root of all things](https://en.wikipedia.org/wiki/M%C5%ABlapariy%C4%81ya_Sutta)” ([Mūlapariyāya Sutta](https://www.dhammatalks.org/suttas/MN/MN1.html)), the [attachment](https://en.wikipedia.org/wiki/Up%C4%81d%C4%81na) to any kind of primal root is uprooted by [arahants](https://en.wikipedia.org/wiki/Arhat) and [Tathāgatas](https://en.wikipedia.org/wiki/Tathāgata), whether it is the “root-nature” ([Mula-Prakriti](https://en.wikipedia.org/wiki/Prakriti#Samkhya)), the “primal matter” or “First Principle” ([Pradhana](https://en.wikipedia.org/wiki/Pradhana)), the “primal conciousness” or “Supreme Being” ([Purusha](https://en.wikipedia.org/wiki/Purusha)), or even the “unbinding, extinguished state” ([nibbāna](https://en.wikipedia.org/wiki/Nirvana)) itself.
@@ -3159,8 +3159,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  > The world has no fixed, singular origin or "元". All forms arise through **relation**, **flow**, and **emptiness**, not substance.
 						- Next to “無元” is [“無原”](https://baike.baidu.com/item/%E7%84%A1%E5%8E%9F/927272) (**no origin**), meaning “unfathomable origin”, which is often found in Chinese ancient philosophical texts and literary works. The term can be traced back to the Han Dynasty classic 淮南子 ([Huainanzi](https://en.wikipedia.org/wiki/Huainanzi), [Hoài Nam Tử](https://vi.wikipedia.org/wiki/Ho%C3%A0i_Nam_t%E1%BB%AD)), which explains the inexhaustibility of the origin of things through classic expressions such as “轉于無原” (“turning to no origin”, “chuyển vu vô nguyên”, “quay về vô nguyên”).
 							- Note: Don't confuse “無原” with the modern term “無原由” (“no reason” / “unjustified”) in administrative/legal contexts.
-						- And the last is “no source” (無源), a modern technical term meaning [“passive device”](https://en.wikipedia.org/wiki/Electronic_component#Passive_components), i.e., a device that does not require its own power supply (e.g., resistors, transformers), as well as an ancient philosophical term used in commentary on Dao De Jing.
-							- 無源 refers to the 4th chapter of Dao De Jing:
+						- And the last is “no source” (無源), a modern technical term meaning [“passive device”](https://en.wikipedia.org/wiki/Electronic_component#Passive_components), i.e., a device that does not require its own power supply (e.g., resistors, transformers), as well as an ancient philosophical term used in commentary on Tao Te Ching.
+							- 無源 refers to the 4th chapter of Tao Te Ching:
 							  {{embed ((684f9517-7e89-4efb-9b6c-16bf3458ce67))}}
 						- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
 						  id:: 6853d150-9daa-4f24-8621-737485d7e9a2
@@ -3183,7 +3183,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- > “The Way generates the One; the One generates the Two; the Two generates the Three; the Three generates all things.”
 				  「道生一，一生二，二生三，三生萬物。」
 				  
-				  — [Chapter 42. The transformation of the Way](https://ctext.org/dao-de-jing#n11633), Dao De Jing, Lao Tzu
+				  — [Chapter 42. The transformation of the Way](https://ctext.org/dao-de-jing#n11633), Tao Te Ching, Lao Tzu
 			- As nominals, ⟪○⟫, ⟪↑⟫ and ⟪=⟫ are numbered “0”, “1” and “2” (Chinese “二”), resp., which represent their intension.
 			- As ordinals, ⟪○⟫, ⟪↑⟫ and ⟪=⟫ are called “the First”, “the Second” and “the Third”, resp.
 			- As cardinals, ⟪⊜⟫, ⟪○ = ↑⟫, ⟪○, ↑⟫ and ⟪○, ↑, =⟫ are called “the Zero”, “the One”, “the Two” and “the Three”, resp.
@@ -3193,7 +3193,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  which are harmonised by the Breath of Vacancy in the Conflict .”  
 				  「萬物負陰而抱陽，沖氣以為和。」
 				  
-				  — [Chapter 42. The transformation of the Way](https://ctext.org/dao-de-jing#n11633), Dao De Jing, Lao Tzu
+				  — [Chapter 42. The transformation of the Way](https://ctext.org/dao-de-jing#n11633), Tao Te Ching, Lao Tzu
 			- The Arrow ⟪↑⟫ here is the long and curved arrow (↝) which can be broken into many short and straight arrows ⟪↥, ↧⟫ called “vectors” where the Equation turns out to be ⟪○ = ↥ + ↧⟫.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- About the name “Trinion”
