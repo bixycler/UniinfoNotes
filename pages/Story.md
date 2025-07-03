@@ -3016,15 +3016,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- After more than a month in this thread of [releasing to heal the broken bodymind](((68366fff-92cf-41a7-ab2d-0c1f77d0effb))), i see...
 					- while all tasks are left untouched and no new tasks are (formally) listed, **new contents** are constantly produced **everyday** (including some hidden tasks).
 					- The issue of being **caught up** still persists.
-					- To resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))), now i must get back to [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))).
-					  collapsed:: true
-						- First, plan the time of working hours.
-							- A working day should start from official works instead of personal works.
-								- This is a good strategy but difficult for me because the out-of-work thoughts from the last night will naturally continue in the morning, keeping me from focusing on other works.
-								- So, let's try using breathwork and meditation to switch the flow of thought from personal to official works.
-							- Previously, i designed a [⟪Back to Work!⟫ reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7))) but ineffective.
-						- Second, plan the space of thoughts.
-							- Due to the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) and various deep intents, every works, including official works, will trigger meta-thoughts deeply related to
+					- ((68663850-daa5-487e-ba48-fea228a2b188))
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true

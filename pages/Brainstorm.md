@@ -5,6 +5,20 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ... ↓ to be flushed **down**! ↓
+		- Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
+		  id:: 68663850-daa5-487e-ba48-fea228a2b188
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-07-03 Thu 15:49:44]
+		  :END:
+			- First, plan the time of working hours.
+				- A working day should start from official works instead of personal works.
+					- This is a good strategy but difficult for me because the out-of-work thoughts from the last night will naturally continue in the morning, keeping me from focusing on other works.
+					- So, let's try using breathwork and meditation to switch the flow of thought from personal to official works.
+				- Previously, i designed a [⟪Back to Work!⟫ reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7))) but ineffective.
+			- Second, plan the space of thoughts.
+				- Due to the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) and various deep intents, all works, including official works, will trigger meta-thoughts deeply related to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
+				-
 		- WAIT [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
