@@ -2628,17 +2628,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  is the ((665c92d1-565b-4911-a706-b32af429c3aa)) place for this project.
 				- `Stories.md`
 				  contains life stories around this project.
+				- `Braindump.md`
+				  is the ((665c92d1-565b-4911-a706-b32af429c3aa)) place for this project.
 				- `materials/`
 				  contains meta pages about [materials in `assets/`](((66fe77c8-05b8-44b2-bf66-b8d62b005a3d))).
 				- `publish/`
 				  contains published pages.
 				- `share/`
-				  contains pages that are shared with other projects.
+				  contains pages that are shared with other projects [via hard links](((66978876-9378-4059-8783-868d041e8e2e))).
 			- `assets/`
 			  id:: 66fe77c8-05b8-44b2-bf66-b8d62b005a3d
 			  contains all materials to be embedded/included in [Markdown pages](((66fe69b2-bd2a-4e7e-b4fb-953d62374db7))).
 		- ((671f5617-1163-4ffc-b65a-b3234e471db0))s in ((666baccf-6be1-4b9a-b186-f883ea04daf1))
 		  id:: 66978876-9378-4059-8783-868d041e8e2e
+		  collapsed:: true
 			- `logseq/{config.edn,custom.css}`, as well as global config & app config, are hard-linked to `assets/` for [[logseq/config.edn]] and [[logseq/custom.css]].
 			  collapsed:: true
 				- `${HOME}/source/UniinfoNotes/assets/logseq/global/config.edn`: global config: **3 links**
