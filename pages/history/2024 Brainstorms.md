@@ -349,6 +349,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- Dialogue
 				- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
 				- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are space-separated from the text.
+				- Note about
 		- American style for quotation
 		  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
 			- Commas `,` and periods `.` are always before the closing quote, “like this.”
