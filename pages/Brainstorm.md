@@ -131,13 +131,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- The [cyclone](https://en.wikipedia.org/wiki/Cyclone) and its [eye](https://en.wikipedia.org/wiki/Eye_(cyclone)) is a powerful image that i've used a lot from the begining of the balancing journey, and was first written down in the blog post “[3 cấp độ Định](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html)”.
 			- Cyclone and [bubble ring](https://en.wikipedia.org/wiki/Bubble_ring) are used to show the union of Circle and Arrow, as the **self-sustained subject** and **singularity**.
 			- Contemplating the cyclone, i see the ((6810ceeb-6af6-442b-9910-baae2c315c46)), the obop, [the role of wholeness](((66f29d57-a87f-4370-9f32-722922a7bff1))) in awareness and action, etc.
+			- Thanks to its zero intent, the empty center = self-essence = Nibbāna = the non-self has infinite extent coverring everything, hence the
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				- In Sep 2024, from the [chat with Huy](((681826b0-6116-418e-8aa1-188314a5eac6))), i added [a task](((66faa5fa-b843-490d-a7b3-a2400c11be86))) to...
 					- write blog post "[Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)";
 					- brainstorm: ((66f29d57-a87f-4370-9f32-722922a7bff1)); and
 					- write discussion: ((673312a3-e94e-478f-9e21-bad72ef29d1b))
 					- But that task was interrupted and abandoned. Later on, these documents have been slowly updated and some are still stubs until now, 2025/05/16.
-				- In May 2025, while contemplating ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c)), i see [a solution](((681b4678-686a-4d99-9163-6f60e0b30d2c))) to my issue of perfectionism is to sublimate the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) to restore the self to the hurricane's eye = empty center = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = Nibbāna = the selfless
+				- In May 2025, while contemplating ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c)), i see [a solution](((681b4678-686a-4d99-9163-6f60e0b30d2c))) to my issue of perfectionism is to sublimate the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) to restore the self to the hurricane's eye = empty center = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = Nibbāna = the [non-self](https://en.wikipedia.org/wiki/Anatt%C4%81)
 				  id:: 684f9515-6b8f-4281-bce0-f396259e640b
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
