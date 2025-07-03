@@ -2940,7 +2940,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Again, thank you so much, my friend!
 						- This time, the contrast between my calmness with Mr. Hiệp's insult and my trigger by Ms. Trung's much milder statements, has clearly shown the effect of closeness – the main feature of self attachment.
 						- This echos my tantric experience where i can see how strong the effect when the inner core is touched directly.
-						- ⇒ Again, the way to resolve it, now is to use breathwork to release such an attachment to the hard “closeness, integrity, oneness, ...”, to fluidify.
+						- ⇒ Again, the way to resolve it, now is to use breathwork to release such an attachment to the hard “closeness, integrity, oneness, etc.”, to fluidify it into a flow of qi.
 					- conflict + close friend → separation anxiety
 						- Being called “crazy” → the personal self hurts → defense → find support from the large, the common, the absolute → fall back to **delusion**, the base of self
 							- delusion = attachment to ideals + ignorance of non-ideals = the base of the self
