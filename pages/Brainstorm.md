@@ -18,7 +18,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Previously, i designed a [⟪Back to Work!⟫ reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7))) but ineffective.
 			- Second, plan the space of thoughts.
 				- Due to the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) and various deep intents, all works, including official works, will trigger meta-thoughts deeply related to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). So the time planning only is not enough.
-				- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, interest, applicable domains (personal, official, group, mankind), etc.
+				- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, degree of interest, applicable domains (personal, official, group, mankind), etc.
 		- WAIT [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
@@ -123,6 +123,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  vs. ∞ sum = abstraction of complex objects into points
 			- The neutral point (0) is absolutely "nothing" due to its extent = 0, i.e. a point, while the abstract space (∞) is just a [thin air](((671d06ba-cb96-4424-9bee-4e6327ba7f9d))) of possibilities.
 		- About the hurricane's eye 🌀: [empty center](((681b4678-686a-4d99-9163-6f60e0b30d2c))), ((66c8772a-9b29-45b0-b169-2fa847333e02)), [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana), ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (= ((66f267f7-01f9-47b9-8376-abd27fdf2930)) + ((66727858-979d-4d95-8a90-7a749218cfba)))
+		  id:: 684f9515-8f95-4004-8aa8-04a10d1ebf11
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-05-16 Fri 13:44:40]
