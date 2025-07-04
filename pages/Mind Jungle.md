@@ -2046,6 +2046,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), obop is represented by the Equal which operates the Trinion using the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) equation, and the atomic ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is called “qualiton”, hence ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) ⤚[((66f3d5cc-0d68-47bb-b09a-87cda33c7354))]→ ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⤚[((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))]→ ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 		- Symbols of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 		  id:: 66faa5f9-a3dd-4065-8167-0e49a79e427a
+		  collapsed:: true
 		  There are many symbols representing many roles of the obop.
 			- In ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), the Equal sign (`=`) is used to emphasize the ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) and unification roles of the obop.
 			- In ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)) , the composition symbols ((66f3b94d-6cf8-461a-9312-c9973ac739fe)) & ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d)) are used to show the dualities of the obop as both observer (`○`) and operator (`·`), composed of both form (`○`) and content (`·`), including both intent (`·`) and extent (`○`).
