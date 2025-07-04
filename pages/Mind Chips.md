@@ -1,3 +1,7 @@
+- self essence is the apex of the double cone of cause-effect
+    - many layers of self circle: body - intent - action > obop - sub-intent - super action
+- the balance way supports Uniinfo: observing the intents & obops => expose them, detach them, and write them down to UniinfoNotes
+    - I just flush my karma out to the Uniinfo: whatever i formulated, i'm free from it.
 ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
