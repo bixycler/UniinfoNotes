@@ -18,6 +18,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Previously, i designed a [⟪Back to Work!⟫ reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7))) but ineffective.
 			- Second, plan the space of thoughts.
 				- Due to the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) and various deep intents, all works, including official works, will trigger meta-thoughts deeply related to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). So the time planning only is not enough.
+					- The ((665379b7-e4f6-4240-8029-fd143e2230c7)) supports Unïnfo: observing the intents & obops => expose them, detach them, and write them down to UniinfoNotes
+						- I just flush my karma out to the Uniinfo: whatever i formulated, i'm free from it.
 				- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, degree of interest, applicable domains (personal, official, group, mankind), etc.
 		- WAIT [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3

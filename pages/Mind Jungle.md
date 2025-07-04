@@ -1941,7 +1941,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66727388-ed2b-4f62-b8d7-ed70a0ad4ef3
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66725144-6bc9-4c9f-ba48-2cef02651e52))
 		- ((6699eb54-ce9e-4472-a784-c59ffd47f02b)) ((66723642-58f1-4a74-bba3-0108f14c6bac)), ((66727858-979d-4d95-8a90-7a749218cfba))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is the dual view of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) including both inward effect flow ( ((66723642-58f1-4a74-bba3-0108f14c6bac)), observation) and outward effect flow (control, operation, ((66727858-979d-4d95-8a90-7a749218cfba))). The subject of a ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is called a ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is the dual view of the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) including both inward effect flow ( ((66723642-58f1-4a74-bba3-0108f14c6bac)), observation) and outward effect flow (control, operation, ((66727858-979d-4d95-8a90-7a749218cfba))). The subject of a ((66725144-6bc9-4c9f-ba48-2cef02651e52)) is called an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- force = ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) 
 			  id:: 67b5c77d-c42c-4dc5-8d47-fd82f535177a
