@@ -204,7 +204,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  sustained by the conservation of its content, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)), 
 			  and stablized by the central obop so that it can crystallize into a round circle i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
 				- Even though the intial “seed” at the center is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
-				- Being at the center, the obop is a nexus of communication and interaction for all components of the self. It's the knot of effect threads and the focal point of effect flows within the self.
+				- Being at the center of the self, the obop is the nexus of communication and interaction for all components there. It's the knot of effect threads and the focal point of effect flows within the self.
+				  id:: 6867abcb-4e1c-493e-a38d-c7b8809dd6ad
 			- self essence is the apex of the double cone of cause-effect
 				- many layers of self circle: body - intent - action > obop - sub-intent - super action
 			- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
