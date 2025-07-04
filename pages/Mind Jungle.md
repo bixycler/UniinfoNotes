@@ -804,6 +804,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab7477-c060-4d07-ab13-bc3d11246854))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ab7477-c060-4d07-ab13-bc3d11246854)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the point having equal distance from all points in the circle, i.e. the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) of ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)). The concept of center can be extended to center of mass, named “pre-center” (in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))), and even further to the origin, the center of perspectivity, named “pseudo-center” (in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e))).
 				  id:: 6716110f-c736-43d2-a8e8-f2d6d163bd4d
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((684f9515-8f95-4004-8aa8-04a10d1ebf11))
 			- #### radius
 			  id:: 670ce8c2-8c54-42c6-84cd-93703c1fa60f
 		- ### rotation
@@ -2050,7 +2052,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- viewer-actor
 		  id:: fa0b2bc6-05ac-418f-9a86-17635936a656
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), obop is represented by the Equal which operates the Trinion using the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) equation. The atomic ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is called “qualiton” which will be annihilated at the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) to be the “self-essence”. That means ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) ⤚[((66f3d5cc-0d68-47bb-b09a-87cda33c7354))]→ ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⤚[((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))]→ ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) ⤚[((66ab7477-c060-4d07-ab13-bc3d11246854))]→ ((66c8772a-9b29-45b0-b169-2fa847333e02)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), obop is represented by the Equal which operates the Trinion using the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) equation. The atomic ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is called “qualiton” which will be annihilated at the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) to be a “selfless obop” called “self-essence”. That means ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) ⤚[((66f3d5cc-0d68-47bb-b09a-87cda33c7354))]→ ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⤚[((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))]→ ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) ⤚[((66ab7477-c060-4d07-ab13-bc3d11246854))]→ ((66c8772a-9b29-45b0-b169-2fa847333e02)).
 		- Symbols of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 		  id:: 66faa5f9-a3dd-4065-8167-0e49a79e427a
 		  collapsed:: true
@@ -4829,7 +4831,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- This core may be a mental fixation, the result of karma accumulated throughout space and time, and usually the central point of attachment.
 								- This core is the internal form (intent), the perfect circle, the crystal self, the boss, the source of both my strengths and my weaknesses.
 								- To be free, this core, as the hidden boss, should be detached!
-							- ⇒ Solution: Let's [sublimate](((668f5490-c223-4a8a-9cc4-0bd71af4c097))) that core to *restore the __empty center__*, i.e. the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)), so that it's free from any fixed point and can flow fluidly.
+							- ⇒ Solution: Let's [sublimate](((668f5490-c223-4a8a-9cc4-0bd71af4c097))) that core to *restore the __[empty center](((684f9515-8f95-4004-8aa8-04a10d1ebf11)))__*, i.e. the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)), so that it's free from any fixed point and can flow fluidly.
 							  id:: 681b4678-686a-4d99-9163-6f60e0b30d2c
 								- **Sublimation**: In [psychological terms](https://en.wikipedia.org/wiki/Sublimation_(psychology)#Jung), this is redirecting the core’s energy from perfectionist fixation to a liberated self-essence. In spiritual terms, it’s akin to dissolving karmic attachments to reveal the “true self”.
 								- Even the singularity of a black hole can [evaporate](https://en.wikipedia.org/wiki/Hawking_radiation#Black_hole_evaporation)! 😊

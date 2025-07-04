@@ -174,7 +174,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- derivative sequence
 			  id:: 684796ee-1bc9-4828-882b-612c67ba48f3
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center.
-		- About the hurricane's eye 🌀: [empty center](((681b4678-686a-4d99-9163-6f60e0b30d2c))) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (= ((66f267f7-01f9-47b9-8376-abd27fdf2930)) + ((66727858-979d-4d95-8a90-7a749218cfba)))
+		- About the hurricane's eye 🌀: empty ((66ab7477-c060-4d07-ab13-bc3d11246854)) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 		  id:: 684f9515-8f95-4004-8aa8-04a10d1ebf11
 		  collapsed:: true
 		  :LOGBOOK:
