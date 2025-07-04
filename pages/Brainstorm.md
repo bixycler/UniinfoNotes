@@ -174,7 +174,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- derivative sequence
 			  id:: 684796ee-1bc9-4828-882b-612c67ba48f3
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center.
-		- About the hurricane's eye 🌀: empty ((66ab7477-c060-4d07-ab13-bc3d11246854)) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+		- About the [hurricane's eye](((681826ad-768c-4671-b575-0d9f8ca64c6b))) 🌀: empty ((66ab7477-c060-4d07-ab13-bc3d11246854)) = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = [Nibbāna/Nirvāṇa](https://en.wikipedia.org/wiki/Nirvana) = selfless obop = zero-limit of ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 		  id:: 684f9515-8f95-4004-8aa8-04a10d1ebf11
 		  collapsed:: true
 		  :LOGBOOK:
@@ -200,7 +200,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  「三十輻共一轂，當其無，有車之用。」
 						  #+END_QUOTE 
 						  — [Chapter 11. The usage of the vacancy](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_11_(%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0)) ([DDK11](https://nhantu.net/TonGiao/DaoDucKinh/DDK11.htm)), Tao Te Ching
-			- The formation of a self starts with the closeness of its self-circle, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)), 
+			- The formation of a self starts with the closure of its self-circle, i.e. ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)), 
 			  sustained by the conservation of its content, i.e. ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)), 
 			  and stablized by the center so that it can crystallize into a round circle i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)).
 				- Even though the intial “seed” at the center is solid (a concrete obop), like the [ice nucleus](https://en.wikipedia.org/wiki/Ice_nucleus), the more stable the self becomes, the thinner the center becomes. Eventually, the equilibrated self has only an emtpy center.
