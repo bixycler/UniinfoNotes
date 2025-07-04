@@ -771,6 +771,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is ...
 		- ### curvature
 		  id:: 67bc1f83-d9c4-4ee0-ac61-0de196425208
+		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bc1f83-d9c4-4ee0-ac61-0de196425208)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the reciprocal of its ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)).
 			- Formulae:
 				- $κ = dφ/ds = ω/v = 1/r$ for the ratio between steering velocity $ω = dφ/dt$ and longitudinal velocity $v = ds/dt$.
@@ -782,6 +783,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- [?] Relation to [refraction](https://en.wikipedia.org/wiki/Refraction)?
 		- ### round
 		  id:: 66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f
+		  collapsed:: true
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((67ee0ea8-b68d-4adc-8d57-2f0a7be16d22))
 			- roundness
 			  id:: 67ee0ea8-b68d-4adc-8d57-2f0a7be16d22
@@ -800,7 +802,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- focal point
 				  id:: 6867b512-9b5a-4279-8c98-28ea1a3c7995
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66ab7477-c060-4d07-ab13-bc3d11246854))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The concept of center can be extended to center of mass, named "pre-center", in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe)) and even further to the origin, the center of perspectivity, named "pseudo-center", in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66ab7477-c060-4d07-ab13-bc3d11246854)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the point having equal distance with  all  i.e. ((66e40f75-0573-484e-8cb6-b6b8071ffb8c)). The concept of center can be extended to center of mass, named "pre-center" (in ((66e40f58-c9dd-47f4-999d-2e4a2aa874fe))), and even further to the origin, the center of perspectivity, named "pseudo-center" (in ((66e40f4b-34ae-499a-8192-0a0f4f580c7e))).
 				  id:: 6716110f-c736-43d2-a8e8-f2d6d163bd4d
 			- #### radius
 			  id:: 670ce8c2-8c54-42c6-84cd-93703c1fa60f
@@ -815,6 +817,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((67ed2855-1512-4db0-bc61-f714ea891106))
 		- ### conic section
 		  id:: 67ed249b-742e-4944-b048-dd6bf68d45fd
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-04-02 Wed 18:51:25]
 		  :END:
