@@ -2022,12 +2022,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  id:: 683463e2-d067-42a6-84f3-fcad587e2569
 						  collapsed:: true
 							- ![lotus parts.jpg](../assets/Will/story/2025-05/lotus parts.jpg)
-							- Underground storage organs: bulblike stems (bulb, corm, rhizome, tuberous stem), and tuberous root
-								- Bulbs: Layered stems, e.g.: [onion](https://en.wikipedia.org/wiki/Onion)
-								- Corms: Solid vertical stems, e.g.: [gladiolus](https://en.wikipedia.org/wiki/Gladiolus)
-								- Rhizomes: Horizontal stems, e.g.: [ginger](https://en.wikipedia.org/wiki/Ginger), [lotus](https://en.wikipedia.org/wiki/Nelumbonaceae), [water lily](https://en.wikipedia.org/wiki/Nymphaeaceae)
+							- Underground storage organs ([geophytes](https://en.wikipedia.org/wiki/Storage_organ)): bulblike stems (bulb, corm, rhizome, tuberous stem), tuberous root and storage taproot
+								- [Bulb](https://en.wikipedia.org/wiki/Bulb): Layered stems, e.g.: [onion](https://en.wikipedia.org/wiki/Onion), [shallot](https://en.wikipedia.org/wiki/Shallot), [garlic](https://en.wikipedia.org/wiki/Garlic)
+								- [Corm](https://en.wikipedia.org/wiki/Corm): Solid vertical stems, e.g.: [gladiolus](https://en.wikipedia.org/wiki/Gladiolus)
+								- [Rhizome](https://en.wikipedia.org/wiki/Rhizome): Horizontal stems, e.g.: [ginger](https://en.wikipedia.org/wiki/Ginger), [lotus](https://en.wikipedia.org/wiki/Nelumbonaceae), [water lily](https://en.wikipedia.org/wiki/Nymphaeaceae)
 								- Tuberous Stems: Fleshy stems with eyes, e.g.: [potato](https://en.wikipedia.org/wiki/Potato)
 								- Tuberous Roots: Fleshy roots, e.g.: [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus), [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato)
+								- Storage taproot: , e.g.: [carrot](https://en.wikipedia.org/wiki/Carrot)
 								- Ref: [The Difference Between Corms, Bulbs, Tubers, and Rhizomes](https://www.thespruce.com/corms-different-from-bulbs-tubers-and-rhizomes-2131032)
 					- Even though the Coin has 2 equal sides of both Lie and Truth, it's preferred to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox): “The Truth is that Truth lies!”
 					- This is the top of skillfulness and difficulty: (1) accompany with the dressed Lie → (2) accepting the naked Truth → (3) living the naked Truth → (4) dressing the Lie → (5) living the Great Truth → (6) living the Great Lie
