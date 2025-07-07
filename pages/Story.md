@@ -2028,10 +2028,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- Longitudinal section through a bulb
 									  collapsed:: true
 										- ![Red_onion_cut_labelled.svg.png](../assets/Will/story/2025-07/Red_onion_cut_labelled.svg.png)
-								- [Corm](https://en.wikipedia.org/wiki/Corm): Solid vertical stems, e.g.: [taro](https://en.wikipedia.org/wiki/Taro) (khoai môn),
+								- [Corm](https://en.wikipedia.org/wiki/Corm): Solid vertical stems, e.g.: [taro](https://en.wikipedia.org/wiki/Taro) (khoai môn), [eddoe](https://en.wikipedia.org/wiki/Eddoe) (khoai sọ)
 								- [Rhizome](https://en.wikipedia.org/wiki/Rhizome): Horizontal stems, e.g.: [ginger](https://en.wikipedia.org/wiki/Ginger), [lotus](https://en.wikipedia.org/wiki/Nelumbonaceae), [water lily](https://en.wikipedia.org/wiki/Nymphaeaceae)
 								- Tuberous Stems: Fleshy stems with eyes, e.g.: [potato](https://en.wikipedia.org/wiki/Potato)
-								- Tuberous Roots: Fleshy roots, e.g.: [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus), [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato)
+								- Tuberous Roots: Fleshy roots, e.g.: [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus) (củ sắn/đậu), [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato), [yam](https://en.wikipedia.org/wiki/Yam_(vegetable)) (khoai từ), [purple yam](https://en.wikipedia.org/wiki/Dioscorea_alata) (khoai mỡ)
 								- Storage taproot: , e.g.: [carrot](https://en.wikipedia.org/wiki/Carrot)
 								- [Caudex](https://en.wikipedia.org/wiki/Caudex): thinkened stem, e.g.: [jicamilla](https://en.wikipedia.org/wiki/Jatropha_cathartica)
 								- Ref: [The Difference Between Corms, Bulbs, Tubers, and Rhizomes](https://www.thespruce.com/corms-different-from-bulbs-tubers-and-rhizomes-2131032)
