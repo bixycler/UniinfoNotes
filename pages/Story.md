@@ -3043,9 +3043,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  CLOCK: [2025-07-07 Mon 10:44:05]
 				  :END:
 				- rule, guide line
+				  collapsed:: true
 					- [rule](https://en.wiktionary.org/wiki/rule): a [guiding](https://en.wiktionary.org/wiki/guide) line for writing.
 					- [Horizontal rules `<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr) on ruled paper.
-						-
+					  collapsed:: true
+						- ![Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg](../assets/Will/story/2025-07/Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg){:width 400}
+					- Verticle rules: margin rules, indent rules
+					- Indent[ation] guides are shown
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
