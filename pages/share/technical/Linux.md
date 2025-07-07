@@ -492,6 +492,17 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `awk`
 			  pattern scanning and processing language
 				-
+		- image processing
+		  collapsed:: true
+			- `webp` package: `dwebp`, `cwebp`, `webpinfo`, `webpmux`, ...
+				- `dwebp`
+				  decompress a WebP file to an image file
+				- `cwebp`
+				  compress an image file to a WebP file
+				- `webpinfo`
+				  print out the chunk level structure of WebP files along with basic integrity checks
+				- `webpmux`
+				  create  animated WebP files from non-animated WebP images, extract frames from animated WebP images, and manage XMP/EXIF metadata and ICC profile.
 		- hex, binary, encoding converting
 		  id:: 679085ef-facd-4c4a-83f3-f32bdefbaa49
 		  collapsed:: true
