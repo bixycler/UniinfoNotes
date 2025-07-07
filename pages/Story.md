@@ -3064,6 +3064,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					   are vertical lines shown on modern editors as a visual aid for alignment of nested indented blocks, e.g. indented code blocks in a program.
 						- Logseq calls it `guideline`.
 						- My [`FolderDiv` calls it “stem line”](((684f9516-f31c-4469-aad8-cd13d9117dd3))) following the [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))).
+						- Such guidelines in ((66750416-093a-4042-bb6d-78702c219c36)), including both stem lines and stalk lines, are called my various names: "tree lines" (in WinForms, Qt, GTK), "connector lines" (in jsTree, D3, Mermaid),
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
