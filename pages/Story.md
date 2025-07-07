@@ -2031,10 +2031,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 										- ![Red_onion_cut_labelled.svg.png](../assets/Will/story/2025-07/Red_onion_cut_labelled.svg.png)
 								- [Corm](https://en.wikipedia.org/wiki/Corm): **vertical solid** swollen stem with one or more [internodes](https://en.wikipedia.org/wiki/Internode_(botany)) and a **basal plate** (basal node) where roots grow
 									- E.g.: [taro](https://en.wikipedia.org/wiki/Taro) (khoai môn), [eddoe](https://en.wikipedia.org/wiki/Eddoe) (khoai sọ)
-								- [Rhizome](https://en.wikipedia.org/wiki/Rhizome): **horizontal** swollen stems, knotty with [nodes](https://en.wikipedia.org/wiki/Node_(botany)) **actively growing** [roots](https://en.wikipedia.org/wiki/Root) and [shoots](https://en.wikipedia.org/wiki/Shoot_(botany))
+								- [Rhizome](https://en.wikipedia.org/wiki/Rhizome): **horizontal** swollen stems, knotty with [nodes](https://en.wikipedia.org/wiki/Node_(botany)) **actively growing** [roots](https://en.wikipedia.org/wiki/Root) and [shoots](https://en.wikipedia.org/wiki/Shoot_(botany)), i.e. indeterminate growth
 									- E.g.: [ginger](https://en.wikipedia.org/wiki/Ginger), [turmeric](https://en.wikipedia.org/wiki/Turmeric) (nghệ), [lotus](https://en.wikipedia.org/wiki/Nelumbonaceae), [water lily](https://en.wikipedia.org/wiki/Nymphaeaceae)
 								- [Stem tuber](https://en.wikipedia.org/wiki/Stem_tuber): fleshy stems with “eyes” of nodes all over the surface
-									- These eyes are **dormant nodes** to grow buds later, unlike the active nodes of rhizome.
+									- These eyes are **dormant nodes** to grow buds later, i.e. determinate growth, unlike the active nodes of rhizome.
 										- However, the nodes of yams do grow roots actively.
 									- E.g.: [potato](https://en.wikipedia.org/wiki/Potato), [yam](https://en.wikipedia.org/wiki/Yam_(vegetable)) (khoai từ), [purple yam](https://en.wikipedia.org/wiki/Dioscorea_alata) (khoai mỡ)
 									- Note that while potato shows clear eyes, yams have no apararent eyes but roots attached instead. Yams have similar form with sweet potato, making them easily mistakened as root tubers, while their function is actually a stem tuber.
