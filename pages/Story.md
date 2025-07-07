@@ -2035,7 +2035,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- E.g.: [ginger](https://en.wikipedia.org/wiki/Ginger), [turmeric](https://en.wikipedia.org/wiki/Turmeric) (nghệ), [lotus](https://en.wikipedia.org/wiki/Nelumbonaceae), [water lily](https://en.wikipedia.org/wiki/Nymphaeaceae)
 								- [Stem tuber](https://en.wikipedia.org/wiki/Stem_tuber): vertical fleshy stems with eyes
 									- E.g.: [potato](https://en.wikipedia.org/wiki/Potato)
-								- Tuberous Roots: Fleshy roots, e.g.: [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus) (củ sắn/đậu), [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato), [yam](https://en.wikipedia.org/wiki/Yam_(vegetable)) (khoai từ), [purple yam](https://en.wikipedia.org/wiki/Dioscorea_alata) (khoai mỡ)
+								- Tuberous Roots: Fleshy roots
+									- E.g.: [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus) (củ sắn/đậu), [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato), [yam](https://en.wikipedia.org/wiki/Yam_(vegetable)) (khoai từ), [purple yam](https://en.wikipedia.org/wiki/Dioscorea_alata) (khoai mỡ)
 								- Storage taproot: , e.g.: [carrot](https://en.wikipedia.org/wiki/Carrot)
 								- [Caudex](https://en.wikipedia.org/wiki/Caudex): thickened stem, e.g.: [jicamilla](https://en.wikipedia.org/wiki/Jatropha_cathartica)
 								- Ref:
