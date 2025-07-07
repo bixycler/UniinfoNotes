@@ -2003,6 +2003,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Prompt to Copilot
 							  collapsed:: true
 								- The Coin of Truth contains 2 views of the same thing on its two sides. The Left side depicts a beautiful lotus 🪷 seen from above water with circular ripples spreading out from the petiole (no leaf). The Right side depicts the scene under water with the muddy rough bottom covering the lotus roots and rhizomes. Please make sure the correct anatomy of the lotus roots right under the petioles and between the horizontal rhizomes, as shown in [this diagram](((683463e2-d067-42a6-84f3-fcad587e2569))).
+								  id:: 684f9519-1b6d-4d18-8cf0-be2e3287f1b8
 								- To show both sides, please draw an image of two copies of the Coin in opposite oblique angles facing away from each other: the left coin shows the Left side facing left, the right coin shows the Right side facing right. Let the background be transparent, and please don't print any text.
 							- Just like the "one unit error", the correction of the orientations (opposite <> parallel, facing away <> facing each other) is too hard for Copilot! 😔
 							- a previous image with wrong root anatomy
@@ -2021,6 +2022,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  id:: 683463e2-d067-42a6-84f3-fcad587e2569
 						  collapsed:: true
 							- ![lotus parts.jpg](../assets/Will/story/2025-05/lotus parts.jpg)
+							-
 					- Even though the Coin has 2 equal sides of both Lie and Truth, it's preferred to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox): “The Truth is that Truth lies!”
 					- This is the top of skillfulness and difficulty: (1) accompany with the dressed Lie → (2) accepting the naked Truth → (3) living the naked Truth → (4) dressing the Lie → (5) living the Great Truth → (6) living the Great Lie
 					  id:: 68306c82-0709-4c83-bcf2-a9015af8b86e
