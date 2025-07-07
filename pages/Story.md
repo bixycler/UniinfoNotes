@@ -3057,7 +3057,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  id:: 686b7355-9a40-4624-a5c6-b2dfe0e8e142
 							  collapsed:: true
 								- ![french-handwriting-séyès-ruled-paper.jpg](../assets/Will/story/2025-07/french-handwriting-séyès-ruled-paper.jpg)
-					- [guideline](https://en.wiktionary.org/wiki/guideline): a (straight) line help [align](https://en.wiktionary.org/wiki/align) text or drawings.
+					- [guideline](https://en.wiktionary.org/wiki/guideline): a (straight) light line help [align](https://en.wiktionary.org/wiki/align) text or drawings.
 						- This literal meaning is still used in design software like Figma, Photoshop, InDesign, etc.
 					- **Indent[ation] guides**
 					  id:: 686b469b-f88c-479e-b1ad-1e44ec5a06b0
