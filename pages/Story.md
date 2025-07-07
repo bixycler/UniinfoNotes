@@ -2033,9 +2033,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- E.g.: [taro](https://en.wikipedia.org/wiki/Taro) (khoai môn), [eddoe](https://en.wikipedia.org/wiki/Eddoe) (khoai sọ)
 								- [Rhizome](https://en.wikipedia.org/wiki/Rhizome): **horizontal** swollen stems, knotty with [nodes](https://en.wikipedia.org/wiki/Node_(botany)) sending out [roots](https://en.wikipedia.org/wiki/Root) and [shoots](https://en.wikipedia.org/wiki/Shoot_(botany))
 									- E.g.: [ginger](https://en.wikipedia.org/wiki/Ginger), [turmeric](https://en.wikipedia.org/wiki/Turmeric) (nghệ), [lotus](https://en.wikipedia.org/wiki/Nelumbonaceae), [water lily](https://en.wikipedia.org/wiki/Nymphaeaceae)
-								- [Stem tuber](https://en.wikipedia.org/wiki/Stem_tuber): vertical fleshy stems with buds called “eyes”
+								- [Stem tuber](https://en.wikipedia.org/wiki/Stem_tuber): fleshy stems with buds called “eyes”
 									- E.g.: [potato](https://en.wikipedia.org/wiki/Potato), [yam](https://en.wikipedia.org/wiki/Yam_(vegetable)) (khoai từ), [purple yam](https://en.wikipedia.org/wiki/Dioscorea_alata) (khoai mỡ)
-									- Note that while potato shows clear eyes, yams have no eyes but roots attached instead. Yams' similar form
+									- Note that while potato shows clear eyes, yams have no eyes but roots attached instead. Yams have similar form with sweet potato, making them easily mistakened as root tubers, while their function is actually a stem tuber.
+										- References
+											- [Origin and Anatomy of Tubers of Dioscorea floribunda and D. spiculiflora](https://www.journals.uchicago.edu/doi/10.1086/336228)
+												- 5. The anatomy of the tuber is more closely related to that of the stem than to that of the root.
+												- 7. It is concluded that the tubers in these species represent much modified stem tissue, thus being a relic of the ancestral rhizome.
+											-
 								- Tuberous Roots: Fleshy roots
 									- E.g.: [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus) (củ sắn/đậu), [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato)
 								- Storage taproot: , e.g.: [carrot](https://en.wikipedia.org/wiki/Carrot)
