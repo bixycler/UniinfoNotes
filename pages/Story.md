@@ -3051,7 +3051,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Verticle rules: margin rules, indent rules
 					- **Indent[ation] guides** are vertical lines shown on modern editors as a visual aid for alignment of nested indented blocks, e.g. indented code blocks in a program.
 						- Logseq calls it `guideline`.
-						- My [`FolderDiv` calls it “stem line”](((684f9516-f31c-4469-aad8-cd13d9117dd3))) following the
+						- My [`FolderDiv` calls it “stem line”](((684f9516-f31c-4469-aad8-cd13d9117dd3))) following the [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))).
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
