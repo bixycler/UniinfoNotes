@@ -3038,10 +3038,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- July 7th, let's start!
 			  collapsed:: true
-				- Even staring at the 
+				- Even staring at the work at company, i see Unïnfo-related features more than the work's requirements. 😁
 				  :LOGBOOK:
 				  CLOCK: [2025-07-07 Mon 10:44:05]
 				  :END:
+				- rule, guide line
+					- [rule](https://en.wiktionary.org/wiki/rule): a [guiding](https://en.wiktionary.org/wiki/guide) line for writing.
+					- [Horizontal rules `<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr) on ruled paper.
+						-
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
