@@ -3051,9 +3051,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- ![Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg](../assets/Will/story/2025-07/Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg){:width 400}
 							- [HTML `<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr) is used as a horizontal separator between paragraph-level elements.
 						- Verticle rules: margin rules, grid lines in [graph paper](https://en.wikipedia.org/wiki/Graph_paper), vertical rules in French ((686b7355-9a40-4624-a5c6-b2dfe0e8e142)), [indent guides](((686b469b-f88c-479e-b1ad-1e44ec5a06b0)))
-							- [seyès ruled](https://en.wikipedia.org/wiki/Ruled_paper#France) paper
+							- [séyès ruled](https://en.wikipedia.org/wiki/Ruled_paper#France) paper
 							  id:: 686b7355-9a40-4624-a5c6-b2dfe0e8e142
-								-
+							  collapsed:: true
+								- ![french-handwriting-séyès-ruled-paper.jpg](../assets/Will/story/2025-07/french-handwriting-séyès-ruled-paper.jpg)
 					- **Indent[ation] guides**
 					  id:: 686b469b-f88c-479e-b1ad-1e44ec5a06b0
 					   are vertical lines shown on modern editors as a visual aid for alignment of nested indented blocks, e.g. indented code blocks in a program.
