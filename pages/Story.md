@@ -2040,7 +2040,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 											- [Origin and Anatomy of Tubers of Dioscorea floribunda and D. spiculiflora](https://www.journals.uchicago.edu/doi/10.1086/336228)
 												- 5. The anatomy of the tuber is more closely related to that of the stem than to that of the root.
 												- 7. It is concluded that the tubers in these species represent much modified stem tissue, thus being a relic of the ancestral rhizome.
-											-
+											- [Characterization of the Dioscorin Gene Family in Dioscorea alata Reveals a Role in Tuber Development and Environmental Response](https://pmc.ncbi.nlm.nih.gov/articles/PMC5536067)
+												- *D. alata* L. propagates mainly via tubers, the **modified stem**. Tuber development is accompanied by a variety of biochemical and morphological changes.
+												- This is consistent with the findings that _the underground **stem tubers** of yam are derived from swollen hypocotyls_.
 								- Tuberous Roots: Fleshy roots
 									- E.g.: [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus) (củ sắn/đậu), [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato)
 								- Storage taproot: , e.g.: [carrot](https://en.wikipedia.org/wiki/Carrot)
