@@ -3044,7 +3044,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 				- rule, guide line
 				  collapsed:: true
-					- [rule](https://en.wiktionary.org/wiki/rule): a [guiding](https://en.wiktionary.org/wiki/guide) line for writing.
+					- [LaTeX `\rule`](https://en.wikibooks.org/wiki/LaTeX/Rules_and_Struts) to draw horizontal/vertical straight lines.
+					- [rule](https://en.wiktionary.org/wiki/rule): a straight [guiding](https://en.wiktionary.org/wiki/guide) line for writing, drawing, etc.
 						- Horizontal rules:
 							- writing guides on [ruled paper](https://en.wikipedia.org/wiki/Ruled_paper)
 							  collapsed:: true
