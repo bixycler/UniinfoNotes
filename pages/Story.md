@@ -3030,10 +3030,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING
+		- DOING Try to execute the [plan to share time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
+		  id:: 686b390a-7953-4069-9c04-17c7f9a777a7
+		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-07-07 Mon 10:03:41]
+		  CLOCK: [2025-07-07 Mon 10:04:48]
 		  :END:
+			- July 7th, let's start!
+			  collapsed:: true
+				- ...
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
