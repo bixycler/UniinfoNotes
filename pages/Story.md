@@ -2397,7 +2397,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  ![Universal-Information-small-intension.png](../assets/Will/story/2025-06/Universal-Information-small-intension.png)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore...
+		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore... (from May 28th to July 7th)
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
 		  :LOGBOOK:
