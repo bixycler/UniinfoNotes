@@ -2024,16 +2024,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- ![lotus parts.jpg](../assets/Will/story/2025-05/lotus parts.jpg)
 							- (underground) storage organs ([geophytes](https://en.wikipedia.org/wiki/Storage_organ)): bulblike stems (bulb, corm, rhizome, tuberous stem, caudex), tuberous root and storage taproot
 							  collapsed:: true
-								- [Bulb](https://en.wikipedia.org/wiki/Bulb): swollen stem comprising many layers of fleshy leaf bases called “scales”, e.g.: [onion](https://en.wikipedia.org/wiki/Onion), [shallot](https://en.wikipedia.org/wiki/Shallot) (Asian onion), [garlic](https://en.wikipedia.org/wiki/Garlic), [tulip](https://en.wikipedia.org/wiki/Tulip)
+								- [Bulb](https://en.wikipedia.org/wiki/Bulb): stem comprising many **layers of fleshy leaf bases** called [“scales”](https://en.wikipedia.org/wiki/Cataphyll)
+									- E.g.: [onion](https://en.wikipedia.org/wiki/Onion), [shallot](https://en.wikipedia.org/wiki/Shallot) (Asian onion), [garlic](https://en.wikipedia.org/wiki/Garlic), [tulip](https://en.wikipedia.org/wiki/Tulip)
 									- Longitudinal section through a bulb
 									  collapsed:: true
 										- ![Red_onion_cut_labelled.svg.png](../assets/Will/story/2025-07/Red_onion_cut_labelled.svg.png)
-								- [Corm](https://en.wikipedia.org/wiki/Corm): Solid vertical stems, e.g.: [taro](https://en.wikipedia.org/wiki/Taro) (khoai môn), [eddoe](https://en.wikipedia.org/wiki/Eddoe) (khoai sọ)
-								- [Rhizome](https://en.wikipedia.org/wiki/Rhizome): Horizontal stems, e.g.: [ginger](https://en.wikipedia.org/wiki/Ginger), [lotus](https://en.wikipedia.org/wiki/Nelumbonaceae), [water lily](https://en.wikipedia.org/wiki/Nymphaeaceae)
+								- [Corm](https://en.wikipedia.org/wiki/Corm): **solid vertical** swollen stem with one or more [internodes](https://en.wikipedia.org/wiki/Internode_(botany))
+									- E.g.: [taro](https://en.wikipedia.org/wiki/Taro) (khoai môn), [eddoe](https://en.wikipedia.org/wiki/Eddoe) (khoai sọ)
+								- [Rhizome](https://en.wikipedia.org/wiki/Rhizome): **horizontal** swollen stems sending out [roots](https://en.wikipedia.org/wiki/Root) and [shoots](https://en.wikipedia.org/wiki/Shoot_(botany)) from its [nodes](https://en.wikipedia.org/wiki/Node_(botany))
+									- E.g.: [ginger](https://en.wikipedia.org/wiki/Ginger), [lotus](https://en.wikipedia.org/wiki/Nelumbonaceae), [water lily](https://en.wikipedia.org/wiki/Nymphaeaceae)
 								- Tuberous Stems: Fleshy stems with eyes, e.g.: [potato](https://en.wikipedia.org/wiki/Potato)
 								- Tuberous Roots: Fleshy roots, e.g.: [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus) (củ sắn/đậu), [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato), [yam](https://en.wikipedia.org/wiki/Yam_(vegetable)) (khoai từ), [purple yam](https://en.wikipedia.org/wiki/Dioscorea_alata) (khoai mỡ)
 								- Storage taproot: , e.g.: [carrot](https://en.wikipedia.org/wiki/Carrot)
-								- [Caudex](https://en.wikipedia.org/wiki/Caudex): thinkened stem, e.g.: [jicamilla](https://en.wikipedia.org/wiki/Jatropha_cathartica)
+								- [Caudex](https://en.wikipedia.org/wiki/Caudex): thickened stem, e.g.: [jicamilla](https://en.wikipedia.org/wiki/Jatropha_cathartica)
 								- Ref:
 									- [The Difference Between Corms, Bulbs, Tubers, and Rhizomes](https://www.thespruce.com/corms-different-from-bulbs-tubers-and-rhizomes-2131032)
 										- ![thespruce-corms-bulbs-tubers-rhizomes.png](../assets/Will/story/2025-07/thespruce-corms-bulbs-tubers-rhizomes.png){:width 500}
