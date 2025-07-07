@@ -2036,15 +2036,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- [Stem tuber](https://en.wikipedia.org/wiki/Stem_tuber): fleshy stems with buds called “eyes”
 									- E.g.: [potato](https://en.wikipedia.org/wiki/Potato), [yam](https://en.wikipedia.org/wiki/Yam_(vegetable)) (khoai từ), [purple yam](https://en.wikipedia.org/wiki/Dioscorea_alata) (khoai mỡ)
 									- Note that while potato shows clear eyes, yams have no eyes but roots attached instead. Yams have similar form with sweet potato, making them easily mistakened as root tubers, while their function is actually a stem tuber.
+									  collapsed:: true
 										- References
 											- [Origin and Anatomy of Tubers of Dioscorea floribunda and D. spiculiflora](https://www.journals.uchicago.edu/doi/10.1086/336228)
 												- 5. The anatomy of the tuber is more closely related to that of the stem than to that of the root.
 												- 7. It is concluded that the tubers in these species represent much modified stem tissue, thus being a relic of the ancestral rhizome.
 											- [Characterization of the Dioscorin Gene Family in Dioscorea alata Reveals a Role in Tuber Development and Environmental Response](https://pmc.ncbi.nlm.nih.gov/articles/PMC5536067)
 												- *D. alata* L. propagates mainly via tubers, the **modified stem**. Tuber development is accompanied by a variety of biochemical and morphological changes.
-												- This is consistent with the findings that _the underground **stem tubers** of yam are derived from swollen hypocotyls_.
-								- Tuberous Roots: Fleshy roots
-									- E.g.: [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus) (củ sắn/đậu), [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato)
+												- This is consistent with the findings that _the underground **stem tubers** of yam are derived from swollen [hypocotyls](https://en.wikipedia.org/wiki/Hypocotyl)_.
+								- [Root tuber](https://en.wikipedia.org/wiki/Root_tuber): Fleshy roots
+									- E.g.: [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato), [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus) (củ sắn/đậu)
 								- Storage taproot: , e.g.: [carrot](https://en.wikipedia.org/wiki/Carrot)
 								- [Caudex](https://en.wikipedia.org/wiki/Caudex): thickened stem, e.g.: [jicamilla](https://en.wikipedia.org/wiki/Jatropha_cathartica)
 								- Ref:
