@@ -2395,9 +2395,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Its actual content is the ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) running through all of its extensions, not just its intension.
 			- Screenshot:
 			  ![Universal-Information-small-intension.png](../assets/Will/story/2025-06/Universal-Information-small-intension.png)
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore... (from May 28th to July 7th)
+		- Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore... (from May 28th to July 7th)
 		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
 		  collapsed:: true
 		  :LOGBOOK:
@@ -3024,12 +3022,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Thanks to [MGit](https://github.com/maks/MGit), this note is edited and pushed directly from home 🏡 on my mobile phone 😊.
 				  collapsed:: true
 					- MGit's [installation from Google Play](https://play.google.com/store/apps/details?id=com.manichord.mgit&hl=en) (GP) has been blocked from middle of 2024 [due to GP's policy](https://github.com/maks/MGit/issues/733#issuecomment-2928410654), not a technical limitation like "~~incompatible~~ with Android version 12+" as shown in GP.
-						- I've installed MGit from [F-Droid](https://f-droid.org/packages/com.manichord.mgit/) and it works perfectly on my Android 15 device.
-						- Explained by Maks: MGit requests for ["All File access" permission](https://support.google.com/googleplay/android-developer/answer/10467955?hl=en) and cannot deal with Google Play.
-			- 7th, today, i've built enough intent to execute the [plan](((68663850-daa5-487e-ba48-fea228a2b188))).
+						- I've installed MGit [from F-Droid](https://f-droid.org/packages/com.manichord.mgit/) and it works perfectly on my Android 15 device.
+						- Explained by Maks: MGit's request for ["All File access" permission](https://support.google.com/googleplay/android-developer/answer/10467955?hl=en) was judged "incompatible with Android 12+ policy" by Google Play. He cannot deal with GP about this policy, and he has no time to switch to other restrictive APIs to restrict file access.
+			- 7th, today, i've built up enough intent to execute the [plan for sharing time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
 			  :LOGBOOK:
 			  CLOCK: [2025-07-07 Mon 09:21:20]
 			  :END:
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- DOING
+		  :LOGBOOK:
+		  CLOCK: [2025-07-07 Mon 10:03:41]
+		  :END:
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
