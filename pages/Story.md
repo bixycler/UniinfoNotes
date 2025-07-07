@@ -3021,9 +3021,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 4th, from a simple question of "seeding or seedling?", i'd chatted with ChatGPT for most of the time, then returned to update the brainstorm [about the hurricane's eye, center and self-essence](((684f9515-8f95-4004-8aa8-04a10d1ebf11))).
 				- In that course, i saw many other intents popped up but i refrained from them.
 			- 5th, a whole day sleep to recovery.
-				- Thanks to [MGit](https://f-droid.org/packages/com.manichord.mgit), this note is edited and pushed directly from home 🏡 on my mobile phone 😊.
+				- Thanks to [MGit](https://github.com/maks/MGit), this note is edited and pushed directly from home 🏡 on my mobile phone 😊.
 				  collapsed:: true
-					- MGit was not allowed to [install from Google Play](https://play.google.com/store/apps/details?id=com.manichord.mgit&hl=en) (GP) [due to GP's policy](https://github.com/maks/MGit/issues/733#issuecomment-2928410654), not a technical limitation: MGit requests for ["All File access" permission](https://support.google.com/googleplay/android-developer/answer/10467955?hl=en) and cannot deal with Google Play.
+					- MGit's [installation from Google Play](https://play.google.com/store/apps/details?id=com.manichord.mgit&hl=en) (GP) has been blocked from middle of 2024 [due to GP's policy](https://github.com/maks/MGit/issues/733#issuecomment-2928410654), not a technical limitation like "~~incompatible~~ with Android version 12+" as shown in GP.
+						- I've installed MGit from [F-Droid](https://f-droid.org/packages/com.manichord.mgit/) and it works perfectly on my Android 15 device.
+						- Explained by Maks: MGit requests for ["All File access" permission](https://support.google.com/googleplay/android-developer/answer/10467955?hl=en) and cannot deal with Google Play.
 			- 7th, today, i've built enough intent to execute the [plan](((68663850-daa5-487e-ba48-fea228a2b188))).
 			  :LOGBOOK:
 			  CLOCK: [2025-07-07 Mon 09:21:20]
