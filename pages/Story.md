@@ -3045,9 +3045,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- rule, guide line
 				  collapsed:: true
 					- [rule](https://en.wiktionary.org/wiki/rule): a [guiding](https://en.wiktionary.org/wiki/guide) line for writing.
-					- [Horizontal rules `<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr) on ruled paper.
-					  collapsed:: true
-						- ![Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg](../assets/Will/story/2025-07/Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg){:width 400}
+					- Horizontal rules:
+						- writing guides on ruled paper.
+						  collapsed:: true
+							- ![Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg](../assets/Will/story/2025-07/Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg){:width 400}
+						- HTML [`<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr) is used as a horizontal separator between paragraph-level elements.
 					- Verticle rules: margin rules, indent rules
 					- **Indent[ation] guides** are vertical lines shown on modern editors as a visual aid for alignment of nested indented blocks, e.g. indented code blocks in a program.
 						- Logseq calls it `guideline`.
