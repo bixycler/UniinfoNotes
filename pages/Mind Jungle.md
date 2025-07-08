@@ -2277,7 +2277,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 684c2e6e-f75f-4916-9f1c-4375d42d8604
 			  collapsed:: true
 				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) from Latin [sustentus](https://en.wiktionary.org/wiki/sustentus), perfect passive participle of [sustineō](https://en.wiktionary.org/wiki/sustineo#Latin)
-				- OED: [sustent](https://www.oed.com/dictionary/sustent_n) (from 1664 to 1667): That which sustains or supports.
+				- OED: [sustent (n.)](https://www.oed.com/dictionary/sustent_n) (from 1664 to 1667)
+				  > That which sustains; a sustaining support or force.
 				- How it's sustained: it's sustained by it's own parts, i.e. the content sustains the intent and vice versa.
 				- The sustent is similar to the "substance" in philosophy, which is from "substāns" present participle of "substāre", and means "self-standing thing underlying all things". But there are diffs:
 					- Sustent is actively maintaining itself, while the substance is just a dumb material for some subject (human or God) to attach attributes to make things.
