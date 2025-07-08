@@ -4199,6 +4199,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  | **Intent** (Unïnfo)  | Not necessarily | ✅ Yes                | ✅ Highly     | Internal potential across forms |
 				  | **Intent** (Common sense) | ✅ Strong        | ❌ Usually no         | ❌ Narrow     | Legal, formal, mental state     |
 				  | **Intention**         | ✅ Yes           | ✅ Sometimes          | ❌ Medium     | Goal-driven action              |
+				- The general meaning of “intent” used in Unïnfo is also mentioned in some dictionaries.
+					- [The Century Dictionary ](https://www.wordnik.com/words/intent)
 				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
 				- Conscious intention vs. latent/dormant intent in the unconscious
 					- ((686cc8c2-9215-4b84-840e-def48efd9447))
