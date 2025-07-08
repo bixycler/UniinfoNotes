@@ -744,7 +744,9 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: 68662950-3ada-42ea-928d-9700209e1501
 	- ## Braindumping < ((68662950-3ada-42ea-928d-9700209e1501))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- 🌀 curl swirl whirl whorl! 😵‍💫
+		- 🌀 whorl tongue twisters 😵‍💫
+			- curl, swirl, twirl, whirl, whorl
+			-
 		-
 		- ...
 		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
