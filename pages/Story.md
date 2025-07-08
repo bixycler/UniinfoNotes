@@ -3181,4 +3181,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 8th, i'm trying to set the intent for official works with contemplation & breathwork, but the personal intents are still very strong!
 			  collapsed:: true
 				- Just flushed all waiting tasks, incomplete stories and brainstorms from the Workstack.
+				-
 		- ...
