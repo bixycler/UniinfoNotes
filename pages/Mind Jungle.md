@@ -4200,7 +4200,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  | **Intent** (Common sense) | ✅ Strong        | ❌ Usually no         | ❌ Narrow     | Legal, formal, mental state     |
 				  | **Intention**         | ✅ Yes           | ✅ Sometimes          | ❌ Medium     | Goal-driven action              |
 				- The general meaning of “intent” used in Unïnfo is also mentioned in some dictionaries.
-					- [The Century Dictionary ](https://www.wordnik.com/words/intent)
+					- [The Wordsmyth English Dictionary > intent](https://www.wordsmyth.net/?level=3&ent_l=intent&rid=21494)
+					  > meaning; significance.
+					- [The Century Dictionary > intent](https://www.wordnik.com/words/intent)
+					  > `noun` Notion; idea; thought; opinion.
 				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
 				- Conscious intention vs. latent/dormant intent in the unconscious
 					- ((686cc8c2-9215-4b84-840e-def48efd9447))
