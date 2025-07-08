@@ -4200,6 +4200,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  | **Intent** (Common sense) | ✅ Strong        | ❌ Usually no         | ❌ Narrow     | Legal, formal, mental state     |
 				  | **Intention**         | ✅ Yes           | ✅ Sometimes          | ❌ Medium     | Goal-driven action              |
 				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
+				- Conscious intention v
+					- ((686cc8c2-9215-4b84-840e-def48efd9447))
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
