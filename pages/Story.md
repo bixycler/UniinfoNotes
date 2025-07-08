@@ -3183,4 +3183,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Just flushed all waiting tasks, incomplete stories and brainstorms from the Workstack.
 				- Observing & contemplating my reset (in order to set new intent for official works), i see the [anusayā-cetanā junction](((66e80666-5f29-4419-8db1-bf8cdce893e4))) of my central obop.
 					- The anusayā matches the external stimulus with the sleeping intent to wake it up to become an intention of action.
+					- The
 		- ...
