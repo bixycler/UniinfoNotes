@@ -332,6 +332,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- 𖦹 (ngkaami in Phase E)
 		- Symbols
 			- Infinity: ∞, ♾
+		- 🌀 tongue twisting whorls 😵‍💫
+			- curl, swirl, twirl, whirl, whorl ➿️👅🤑
+			- “The swirl curled into a whorl that whirled the world.”
+			- “The girl with the curl gave the world a twirled swirl of whorled words.”
 	- The **choice** determines the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) and its ((6713a8e1-e460-4622-9ad6-87c804deccd8)).
 	  id:: 6714a66b-1bd2-4c9d-8ebc-2842f3095b3b
 	  collapsed:: true
