@@ -2268,10 +2268,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 		  collapsed:: true
 			- Why the intent is under the content in the division $c/i$:
+			  collapsed:: true
 				- "**Sub**-ject" = **under**-thrown = the **under**lying agent of the action/operation of measurement.
 				- "Unit" is "the one", the one underlying all measurement and the one that any content is measured against... by division.
 				- "Denominator" is the "name" that gives subjective meaning to the objective content.
 				- Blog [“Bà mẹ” trong “phân số”](https://creatzynotes.blogspot.com/2023/06/ba-me-trong-phan-so.html)
+			- The Sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
+			  id:: 684c2e6e-f75f-4916-9f1c-4375d42d8604
+			  collapsed:: true
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) from Latin [sustentus](https://en.wiktionary.org/wiki/sustentus), perfect passive participle of [sustineō](https://en.wiktionary.org/wiki/sustineo#Latin)
+				- OED: "sustent" (archaic from 1664 to 67): That which sustains or supports.
+				- How it's sustained: it's sustained by it's own parts, i.e. the content sustains the intent and vice versa.
+				- The sustent is similar to the "substance" in philosophy, which is from "substāns" present participle of "substāre", and means "self-standing thing underlying all things". But there are diffs:
+					- Sustent is actively maintaining itself, while the substance is just a dumb material for some subject (human or God) to attach attributes to make things.
+					- Sustent includes at least 2 circles, while each substance is just one circle (the other[s] is the hands handling that substance).
+					- Sustent is constantly changing, while substances are considered unchanged.
+					- We may reuse the term "substance" with modified def "the one enduring changes while keeping a wholesome bundle of intrinsic properties called the 'natures' of it". The wholesomeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
 		- ### SCIFER
 		  id:: 66f40210-cca6-4d81-85e7-d0c54ef20451
 		  collapsed:: true
@@ -4181,7 +4193,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- The general ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus the strongly volitional “intent” in common usage
 			  collapsed:: true
-				- Unïnfo's “intent” vs. common “intent” vs. “intention” 
+				- Unïnfo's “intent” > “intention” > common “intent”
 				  | Term                  | Volitional?     | Semantic, Conceptual? | Generalized? | Common Use                      |
 				  | ------------------ | --------------- | ----------------------- | ------------ | --------------------------- |
 				  | **Intent** (Unïnfo)  | Not necessarily | ✅ Yes                | ✅ Highly     | Internal potential across forms |

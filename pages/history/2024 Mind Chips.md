@@ -1,5 +1,6 @@
 ## 2024 Mind Chips
 	- 倉橋ヨエコ musics
+	  collapsed:: true
 		- [今日も雨](https://youtu.be/73BcI5gz8ww)
 		- [損と嘘](https://youtu.be/qE1ncWRnLVs)
 		- [楯](https://youtu.be/aiLRLdW_zYs), [楯](https://youtu.be/qQ4scw0xMmE)
@@ -115,16 +116,7 @@
 				- ((6835b165-8a07-4156-9440-a4536b5c8be3))
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
 			- ![](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_25@07-04-2024_21-19-24.jpg){:width 300}
-		- The Sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
-		  id:: 684c2e6e-f75f-4916-9f1c-4375d42d8604
-			- Etymology: from Latin "sustentus" past participle of "sustinēre"
-			- OED: "sustent" (archaic from 1664 to 67): That which sustains or supports.
-			- How it's sustained: it's sustained by it's own parts, i.e. the content sustains the intent and vice versa.
-			- The sustent is similar to the "substance" in philosophy, which is from "substāns" present participle of "substāre", and means "self-standing thing underlying all things". But there are diffs:
-				- Sustent is actively maintaining itself, while the substance is just a dumb material for some subject (human or God) to attach attributes to make things.
-				- Sustent includes at least 2 circles, while each substance is just one circle (the other[s] is the hands handling that substance).
-				- Sustent is constantly changing, while substances are considered unchanged.
-				- We may reuse the term "substance" with modified def "the one enduring changes while keeping a wholesome bundle of intrinsic properties called the 'natures' of it". The wholesomeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
+		- ((684c2e6e-f75f-4916-9f1c-4375d42d8604))
 		- All past participles of Latin verbs:
 			- Sustent ~ sustentus <- sustain ~ sustinēre
 			- Content ~ contentus <- contain ~ continēre
