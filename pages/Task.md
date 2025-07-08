@@ -120,6 +120,20 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		- DONE Cuối tuần 28-29/06 [đi Núi Chúa](((686204b8-8bf7-4ce9-abe9-d7984d814476))) kỷ niệm ngày cưới chị 7 Nhung.
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
+		- TODO This weekends (12-13 July), LSD trip with Mr. Hiệp
+		- ...
+	- ## Future Tasks
+	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9
+		- TODO Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
+		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
+		  :LOGBOOK:
+		  CLOCK: [2025-04-02 Wed 19:09:35]
+		  :END:
+		- TODO Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Grok-3.
+		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
+		  :LOGBOOK:
+		  CLOCK: [2025-03-12 Wed 11:24:25]
+		  :END:
 		- ((682c1735-31c3-4024-8d8a-20d8434db966))
 		- TODO Add logical symbols & perp (⟂) to ((66fe9e2e-13cf-4b31-96e7-1b050eed47c4))
 		- TODO Add ((66533703-505d-432d-8368-6058eefb45f6)) to [[logseq/config.edn]] commands
@@ -131,10 +145,6 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		  id:: 67ad537f-9a22-4079-b8d1-352b4c567278
 		- TODO Copy [Chuyện Búi Chỉ](https://creatzyitnotes.blogspot.com/2009/11/chuyen-bui-chi.html) to  [CreatZy Notes](https://creatzynotes.blogspot.com/)
 		  id:: 67b989a4-a041-4511-abe5-77c785ca2d67
-		- TODO This weekends (), LSD trip with Mr. Hiệp
-		- ...
-	- ## Future Tasks
-	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9
 		- ((67714850-43c0-4c7f-8b50-838e014b06e0))
 		  id:: 6772a6c7-f434-4911-9fa2-939b8db20c42
 			- ((67714c6b-68b6-4f73-b209-56f5f184c4d9))

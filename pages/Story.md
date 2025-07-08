@@ -3061,44 +3061,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :LOGBOOK:
 			  CLOCK: [2025-07-07 Mon 09:21:20]
 			  :END:
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING Try to execute the [plan to share time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
-		  id:: 686b390a-7953-4069-9c04-17c7f9a777a7
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-07-07 Mon 10:04:48]
-		  :END:
-			- July 7th, let's start!
-			  collapsed:: true
-				- Even staring at the work at company, i see Unïnfo-related features more than the work's requirements. 😁
-				  :LOGBOOK:
-				  CLOCK: [2025-07-07 Mon 10:44:05]
-				  :END:
-				- rule, guide-line
-				  collapsed:: true
-					- [LaTeX `\rule`](https://en.wikibooks.org/wiki/LaTeX/Rules_and_Struts) to draw horizontal/vertical straight lines.
-						- The plain TeX provided [2 separate commands](https://texfaq.org/FAQ-rule): `\hrule` and `\vrule`
-					- [rule](https://en.wiktionary.org/wiki/rule): a straight [guiding](https://en.wiktionary.org/wiki/guide) line for writing, drawing, etc.
-						- Horizontal rules:
-							- writing guides on [ruled paper](https://en.wikipedia.org/wiki/Ruled_paper)
-							  collapsed:: true
-								- ![Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg](../assets/Will/story/2025-07/Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg){:width 400}
-							- [HTML `<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr) is used as a horizontal separator between paragraph-level elements.
-						- Verticle rules: margin rules, grid lines in [graph paper](https://en.wikipedia.org/wiki/Graph_paper), vertical rules in French ((686b7355-9a40-4624-a5c6-b2dfe0e8e142)), [indent guides](((686b469b-f88c-479e-b1ad-1e44ec5a06b0)))
-							- [seyès ruled](https://en.wikipedia.org/wiki/Ruled_paper#France) paper
-							  id:: 686b7355-9a40-4624-a5c6-b2dfe0e8e142
-							  collapsed:: true
-								- ![french-handwriting-séyès-ruled-paper.jpg](../assets/Will/story/2025-07/french-handwriting-séyès-ruled-paper.jpg)
-					- [guideline](https://en.wiktionary.org/wiki/guideline): a (straight) light line help [align](https://en.wiktionary.org/wiki/align) text or drawings.
-						- This literal meaning is still used in design software like Figma, Photoshop, InDesign, etc.
-					- **Indent[ation] guides**
-					  id:: 686b469b-f88c-479e-b1ad-1e44ec5a06b0
-					   are vertical lines shown on modern editors as a visual aid for alignment of nested indented blocks, e.g. indented code blocks in a program.
-						- Logseq calls it `guideline`.
-						- My [`FolderDiv` calls it “stem line”](((684f9516-f31c-4469-aad8-cd13d9117dd3))) following the [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))).
-						- Such guidelines in ((66750416-093a-4042-bb6d-78702c219c36)), including both stem lines and stalk lines, are called vaguely by various names: "tree lines" (in WinForms, Qt, GTK), "connector lines" (in jsTree, D3, Mermaid), "branch lines", "outline lines", etc.
-			- 8th, i'm trying to set the intent for official works with contemplation & breathwork, but the personal intents are still very strong!
 		- WAIT Both Chrome & Edge versions are from Sep 2024!?
 		  id:: 68352d58-f697-4b62-a748-3756dac163f7
 		  collapsed:: true
@@ -3179,4 +3141,44 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  /etc/apt/apt.conf.d/10periodic:APT::Periodic::Unattended-Upgrade "0";
 							  /etc/apt/apt.conf.d/20auto-upgrades:APT::Periodic::Unattended-Upgrade "0";
 							  ```
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- DOING Try to execute the [plan to share time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
+		  id:: 686b390a-7953-4069-9c04-17c7f9a777a7
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-07-07 Mon 10:04:48]
+		  :END:
+			- July 7th, let's start!
+			  collapsed:: true
+				- Even staring at the work at company, i see Unïnfo-related features more than the work's requirements. 😁
+				  :LOGBOOK:
+				  CLOCK: [2025-07-07 Mon 10:44:05]
+				  :END:
+				- rule, guide-line
+				  collapsed:: true
+					- [LaTeX `\rule`](https://en.wikibooks.org/wiki/LaTeX/Rules_and_Struts) to draw horizontal/vertical straight lines.
+						- The plain TeX provided [2 separate commands](https://texfaq.org/FAQ-rule): `\hrule` and `\vrule`
+					- [rule](https://en.wiktionary.org/wiki/rule): a straight [guiding](https://en.wiktionary.org/wiki/guide) line for writing, drawing, etc.
+						- Horizontal rules:
+							- writing guides on [ruled paper](https://en.wikipedia.org/wiki/Ruled_paper)
+							  collapsed:: true
+								- ![Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg](../assets/Will/story/2025-07/Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg){:width 400}
+							- [HTML `<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr) is used as a horizontal separator between paragraph-level elements.
+						- Verticle rules: margin rules, grid lines in [graph paper](https://en.wikipedia.org/wiki/Graph_paper), vertical rules in French ((686b7355-9a40-4624-a5c6-b2dfe0e8e142)), [indent guides](((686b469b-f88c-479e-b1ad-1e44ec5a06b0)))
+							- [seyès ruled](https://en.wikipedia.org/wiki/Ruled_paper#France) paper
+							  id:: 686b7355-9a40-4624-a5c6-b2dfe0e8e142
+							  collapsed:: true
+								- ![french-handwriting-séyès-ruled-paper.jpg](../assets/Will/story/2025-07/french-handwriting-séyès-ruled-paper.jpg)
+					- [guideline](https://en.wiktionary.org/wiki/guideline): a (straight) light line help [align](https://en.wiktionary.org/wiki/align) text or drawings.
+						- This literal meaning is still used in design software like Figma, Photoshop, InDesign, etc.
+					- **Indent[ation] guides**
+					  id:: 686b469b-f88c-479e-b1ad-1e44ec5a06b0
+					   are vertical lines shown on modern editors as a visual aid for alignment of nested indented blocks, e.g. indented code blocks in a program.
+						- Logseq calls it `guideline`.
+						- My [`FolderDiv` calls it “stem line”](((684f9516-f31c-4469-aad8-cd13d9117dd3))) following the [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))).
+						- Such guidelines in ((66750416-093a-4042-bb6d-78702c219c36)), including both stem lines and stalk lines, are called vaguely by various names: "tree lines" (in WinForms, Qt, GTK), "connector lines" (in jsTree, D3, Mermaid), "branch lines", "outline lines", etc.
+			- 8th, i'm trying to set the intent for official works with contemplation & breathwork, but the personal intents are still very strong!
+			  collapsed:: true
+				- Just flushed all waiting tasks, incomplete stories and brainstorms from the Workstack.
 		- ...
