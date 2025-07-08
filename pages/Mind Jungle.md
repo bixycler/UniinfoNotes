@@ -4200,8 +4200,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  | **Intent** (Common sense) | ✅ Strong        | ❌ Usually no         | ❌ Narrow     | Legal, formal, mental state     |
 				  | **Intention**         | ✅ Yes           | ✅ Sometimes          | ❌ Medium     | Goal-driven action              |
 				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
-				- Conscious intention v
+				- Conscious intention vs. latent/dormant intent in the unconscious
 					- ((686cc8c2-9215-4b84-840e-def48efd9447))
+					- In common sense and legal context, [“laten intent”](https://lsd.law/define/latent-intent) is the intention hidden under the surface, of formal text or expression.
+					- In legal context, [dormant intent](https://lsd.law/define/dormant-legislative-intent) is the intention of the tha the lawmakers would have had if a given ambiguity, inconsistency, or omission had been called to the legislators' minds.
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
