@@ -638,7 +638,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- These underlying tendencies are latent [kleśas](https://en.wikipedia.org/wiki/Kleshas_(Buddhism)), the most hidden ones.
 					- Vitikamo-kilesa: *Ngoại phiền não, phiền não vi phạm*: các loại phiền não đã bộc lộ ra ngoài bằng thân hay khẩu, thành những hành động phạm giới. Phiền não loại nầy được chế ngự do sự hành trì giới luật.
 					- Pariyutthana-kilesa: *Nội phiền não, phiền não ám ảnh*: các loại phiền não phát sanh trong tâm ngay lúc nhận biết cảnh, không biểu lộ ra ngoài, người nào có người đó biết, người khác không biết được, nhưng nếu với con mắt tinh tế cũng có thể biết được. Phiền não loại nầy được khắc phục do thiền định, dùng tâm thiền để chế ngự chúng.
-					- Anusaya-kilesa: *Tàng phiền não, phiền não ngủ ngầm*: loại phiền não ngủ ngầm nơi tâm, không ai biết được do sự ô nhiễm nhiều đời, nhiều kiếp. Phiền não loại nầy được tiêu diệt bằng tuệ giác, nghĩa là trí tuệ phát sanh ở Đạo tâm siêu thế, khi chứng đắc các tầng thánh Tu Đà Hoàn, Tư Đà Hàm, A Na Hàm, A La Hán.
+					- __Anusaya-kilesa: *Tàng phiền não, phiền não ngủ ngầm*__: loại phiền não ngủ ngầm nơi tâm, không ai biết được do sự ô nhiễm nhiều đời, nhiều kiếp. Phiền não loại nầy được tiêu diệt bằng tuệ giác, nghĩa là trí tuệ phát sanh ở Đạo tâm siêu thế, khi chứng đắc các tầng thánh Tu Đà Hoàn, Tư Đà Hàm, A Na Hàm, A La Hán.
 				- [KINH CETANA SUTTA: CHỚ DỰNG LẬP Ý NIỆM](https://thuvienhoasen.org/a24172/kinh-cetana-sutta-cho-dung-lap-y-niem)
 		- Nuances about "intention"
 		  collapsed:: true

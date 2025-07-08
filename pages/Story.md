@@ -3181,5 +3181,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 8th, i'm trying to set the intent for official works with contemplation & breathwork, but the personal intents are still very strong!
 			  collapsed:: true
 				- Just flushed all waiting tasks, incomplete stories and brainstorms from the Workstack.
-				-
+				- Observing & contemplating my reset (in order to set new intent for official works), i see the [anusayā-cetanā junction](((66e80666-5f29-4419-8db1-bf8cdce893e4))) of my central obop
 		- ...
