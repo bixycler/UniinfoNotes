@@ -3182,8 +3182,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Just flushed all waiting tasks, incomplete stories and brainstorms from the Workstack.
 				- Observing & contemplating my reset (in order to set new intent for official works), i see the [anusayā-cetanā junction](((66e80666-5f29-4419-8db1-bf8cdce893e4))) of my central obop.
-					- The anusayā matches the external stimulus with the corresponding dormant intent to wake it up to become an intention of action.
-						- Here, the “dormant/latent intent” refers to the general ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)), while the “intention of action” refer to the daily used [intention](https://en.wiktionary.org/wiki/intention#Noun).
-						  id:: 686cd215-3893-4e0a-b4b9-c2f687f18c08
+					- The anusayā matches the external stimulus with the corresponding dormant ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) to wake it up to become an ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of action.
 					- The anusayā-cetanā then sets the attention (focus of the viewcone) to strengthen the intention further.
 		- ...
