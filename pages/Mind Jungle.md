@@ -4200,6 +4200,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  | **Intent** (Common sense) | ✅ Strong        | ❌ Usually no         | ❌ Narrow     | Legal, formal, mental state     |
 				  | **Intention**         | ✅ Yes           | ✅ Sometimes          | ❌ Medium     | Goal-driven action              |
 				- The general meaning of “intent” used in Unïnfo is also mentioned in some dictionaries.
+					- [Vocabulary.com](https://www.vocabulary.com/dictionary/intent)
+					  > 2. `noun` the intended meaning of a communication
+					- [Collins English Dictionary > intent](https://www.collinsdictionary.com/dictionary/english/intent)
+					  > 4.  implicit meaning; connotation
 					- [The Wordsmyth English Dictionary > intent](https://www.wordsmyth.net/?level=3&ent_l=intent&rid=21494)
 					  > meaning; significance.
 					- [The Century Dictionary > intent](https://www.wordnik.com/words/intent)
