@@ -3188,5 +3188,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- At the end of the day, my emotional intents rose up. I let them flow, observed and [integrated them into the plan](((686e0e73-d3cc-4250-804f-94a270b92fd9))).
 			- 9th, the meeting and discussions with colleagues override the personal intents, making them subside and blurred, in contrast to the [clear vision](((686cbb21-2266-45a1-ab56-7e252695f5f2))) of the [“fine hairs” of the latent intents](((686e096b-d730-4d9e-ae58-4ca2cf7b93aa))) yesterday.
 			  collapsed:: true
-				- This shows the importance of the balance between pressure from external environment and enough retreating.
+				- This shows the importance of the balance between interaction and retreating.
+					- Too much interaction masks the intents which are active inside.
+					- Too much retreating makes all intents dormant, keeping them from active and visible.
 		- ...
