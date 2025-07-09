@@ -1,22 +1,4 @@
-- CIE in view cone: content (object) y = O(x) = intent (view frame) O × extent (position) x
-- Trinion dynamics ~ circle dynamics: equal = center, arrows = out & in radius, circle = trajectory of the arrowhead
-	- point equal: the init close loop of arrows
-	- mass equal: the constant round trip between the center and the trajectory
-	- intent equal: the constant radius (c = const) => round => close the next meta loop (next point equality)
-	- => SCIFER
-- ----
-- ((6862d8db-0cb4-47e5-bb58-17156f5602cc)): Definitions of “form” through the full cycle of birth–change–death, or formation–distortion–dissolution
-	- 1. Formation: Form is whatever has been formed.
-	- 2. Transformation: Form is anything being transformed.
-	- 3. Deformation: Form is whatever will be deformed.
-		- 3+. Perishment: Form is bound to perish.
-	- Sắc tướng trong vòng tròn sinh–trụ–diệt:
-		- 1. Hình tướng là thứ đã được hình thành.
-		- 2. Hình tướng là thứ bị biến đổi.
-		- 3. Hình tướng là thứ sẽ bị biến dạng.
-		- 3+. Hình tướng là thứ phải chịu hư mất.
-- ----
-- ## Current Chips
+## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
   collapsed:: true
