@@ -632,7 +632,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			  > + Mendicants, what you intend or plan, and what you have underlying tendencies toward, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
 			  > + Mendicants, if you don’t intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
 			  > + Mendicants, but if you don’t intend or plan, and don't have underlying tendencies toward anything, this doesn’t become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
-				- This sutta states that the karmic chain cannot be broken if "underlying tendencies" (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
+				- This sutta states that the karmic chain cannot be broken if “underlying tendencies” (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
 				- Numbered Discourses > 2. Tendencies > 7.12. [Underlying Tendencies (anusayā)](https://suttacentral.net/an7.12/en/sujato)
 				  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they’re called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
 				- These underlying tendencies are latent [kleśas](https://en.wikipedia.org/wiki/Kleshas_(Buddhism)), the most hidden ones.
