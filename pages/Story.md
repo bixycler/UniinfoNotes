@@ -3181,7 +3181,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 8th, i'm trying to set the intent for official works with contemplation & breathwork, but the personal intents are still very strong!
 			  collapsed:: true
 				- Just flushed all waiting tasks, incomplete stories and brainstorms from the Workstack.
-				- Observing & contemplating my reset (in order to set new intent for official works), i see the [anusayā-cetanā](((66e80666-5f29-4419-8db1-bf8cdce893e4))) of my central obop.
+				- Observing & contemplating my reset (in order to set new intent for official works), i see the “antennae” of [anusayā-cetanā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))s of my central obop.
 					- ((686cc8c2-9215-4b84-840e-def48efd9447))
 					- The anusayā-cetanā then sets the attention (focus of the viewcone) to strengthen the intention further.
 				- At the end of the day, my emotional intents rose up. I let them flow, observed and [integrated them into the plan](((686e0e73-d3cc-4250-804f-94a270b92fd9))).
