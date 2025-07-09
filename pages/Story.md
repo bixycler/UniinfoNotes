@@ -3067,7 +3067,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- all symlinks in `assets/TextProcessing/last-newline/No newline at end of file.img/` have been changed to plaintext by the commit `cf5d4f1` “[WIP] MGit push test”, which have been reverted in commit `9ea30b37`.
 			- 6th, went diving with my wife at “Tuyệt Tình Cốc” lake.
 			  collapsed:: true
-				- CIE in view cone: content (object) y = O(x) = intent (view frame) O × extent (position) x
+				- ((686e6e72-13f8-4dc9-a8e2-de35519f57d7))
 				- ((686e580a-876e-47cf-b2cc-1381bc64cdb9))
 				- ((686e6aed-cec1-4686-95c8-623f8a5f0bab))
 				- Brainstormed about [bulboid (củ) structures](((686e6444-ed07-408c-ad6f-72f308410cd1))), and the following joke popped up in my mind.

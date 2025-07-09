@@ -1783,10 +1783,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Graphically, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Euler diagram](https://en.wikipedia.org/wiki/Euler_diagram), [nested set collection](https://en.wikipedia.org/wiki/Nested_set_collection), [treemapping](https://en.wikipedia.org/wiki/Treemapping).
 					  id:: 66753405-9afe-478e-abd2-f43100e21c33
 					- Textually, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Dyck word](https://en.wikipedia.org/wiki/Dyck_language) and ((6675369a-1d13-48c5-8a77-d588aa8b59b8)).
+			- #### CIE in viewcone
+			  id:: 686e6e72-13f8-4dc9-a8e2-de35519f57d7
+			  collapsed:: true
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) expressed in ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): content (object) y = O(x) = intent (view frame) O × extent (position) x
+				  id:: 686e6eb2-b5f8-4592-9a56-378e197f9d11
 		- ### scope
 		  id:: 685a47e4-21f2-40d6-b80c-d3adf401489b
 		  collapsed:: true
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685a47e4-21f2-40d6-b80c-d3adf401489b)) is the base of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), defining which objects to be ((66c811a1-b48b-4f91-9c47-b60be42ee7f4))ed, i.e. the content of ((66c811a1-b48b-4f91-9c47-b60be42ee7f4)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685a47e4-21f2-40d6-b80c-d3adf401489b)) is the base of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), defining which objects to be ((66c811a1-b48b-4f91-9c47-b60be42ee7f4))ed, i.e. the content of the view.
 		- ### view frame
 		  id:: 685a47f5-728a-4b34-95c5-d8e3bba5aad1
 		  collapsed:: true
