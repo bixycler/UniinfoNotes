@@ -3182,10 +3182,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Just flushed all waiting tasks, incomplete stories and brainstorms from the Workstack.
 				- Observing & contemplating my reset (in order to set new intent for official works), i see the “antennae” of [anusayā-cetanā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))s of my central obop.
+				  id:: 686cbb21-2266-45a1-ab56-7e252695f5f2
 					- ((686cc8c2-9215-4b84-840e-def48efd9447))
 					- The anusayā-cetanā then sets the attention (focus of the viewcone) to strengthen the intention further.
 				- At the end of the day, my emotional intents rose up. I let them flow, observed and [integrated them into the plan](((686e0e73-d3cc-4250-804f-94a270b92fd9))).
-			- 9th, ...
+			- 9th, the meeting and discussions with colleagues override the personal intents, in contrast to the clear vision of the [“fine hairs” of the latent intents](((686cbb21-2266-45a1-ab56-7e252695f5f2))) yesterday.
 			  collapsed:: true
 				-
 		- ...
