@@ -4212,8 +4212,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  > `noun` Notion; idea; thought; opinion.
 				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
 				- Conscious intention vs. latent/dormant intent in the unconscious
+					- In Unïnfo, “intention” must be conscious, and the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic falls out of the scope of “intention” and into the general meaning of “intent”, i.e. “laten/dormant intent” ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))).
 					- ((686cc8c2-9215-4b84-840e-def48efd9447))
-					- In Unïnfo, “intention” must be conscious, and the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic falls out of the scope of “intention” and into the general meaning of “intent”, i.e. “laten/dormant intent”.
 					- In technical and legal context, [“laten intent”](https://lsd.law/define/latent-intent) is the intention hidden under the surface, of formal text or expression.
 					- In legal context, [dormant intent](https://lsd.law/define/dormant-legislative-intent) is the intention obscured by ambiguity or inconsistency of the text which the lawmakers were unaware of.
 	- ## extent
