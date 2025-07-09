@@ -4216,6 +4216,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The latent intent is just an intention in the past, which has sunk under the conscious surface, leaving only a tendency as its [“antenna”](https://en.wikipedia.org/wiki/Antenna_(zoology)) on the consciousness.
 						- Antenna = sensitive hair = tendency = direction = ${\vec v}/|v|$ = distortion = deviation from the roundness, from the uniform
 						- This sensitive hair is equivalent to the seed's [micropyle](https://en.wikipedia.org/wiki/Ovule#Integuments,_micropyle,_chalaza_and_hilum) as well as receptors on the testa (seed coat).
+							- The micropyle is the “eye” of the seed, originally a pore in the ovule for the the pollen tube to enter, which is leftover after fertilization.
 					- The antenna (intent's remaining tendency) matches the external stimulus with the corresponding dormant ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) to wake it up to become an active ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of action.
 					  id:: 686cc8c2-9215-4b84-840e-def48efd9447
 					- In common usage, there are “laten/dormant intent” with slightly different meanings.
