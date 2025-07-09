@@ -4214,8 +4214,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Conscious intention vs. latent/dormant intent in the unconscious
 					- In Unïnfo, “intention” must be conscious, and the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic, as well as the “laten/dormant intent” ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), falls out of the scope of “intention” and into the general meaning of “intent”.
 					- The latent intent is just an intention in the past, which has sunk under the conscious surface, leaving only a tendency as its [“antenna”](https://en.wikipedia.org/wiki/Antenna_(zoology)) on the consciousness.
-						- Tendency = direction = ${\vec v}/|v|$ = distortion = deviation from the roundness, from the uniform
-					- The remaining tendency matches the external stimulus with the corresponding dormant ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) to wake it up to become an active ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of action.
+						- Antenna = tendency = direction = ${\vec v}/|v|$ = distortion = deviation from the roundness, from the uniform
+					- The antenna (intent's remaining tendency) matches the external stimulus with the corresponding dormant ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) to wake it up to become an active ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of action.
 					  id:: 686cc8c2-9215-4b84-840e-def48efd9447
 					- In common usage, there are “laten/dormant intent” with slightly different meanings.
 						- In technical and legal context, [laten intent](https://lsd.law/define/latent-intent) is the intention hidden under the surface, of formal text or expression.
