@@ -3061,7 +3061,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- now both MGit & GitSync are managing the MindChips repo.
 					- provided that GitSync auth is changed to SSH from its default HTTPS, because MGit can only use SSH!
 					- UniinfoNotes
-						- due to low performance and complications (patched `config.edn`, broken symlinks, etc.), i don't edit
+						- due to low performance and complications (patched `config.edn`, broken symlinks, etc.), i **_don't edit_ on mobile logseq**, just view it on mobile.
+							- The MindChips queue is still very useful!
 						- for the **search** feature to work, we must manually insert the content of file `macros-config.edn.txt` (stored on MindChips repo) to the ((66faa5f7-af4f-4ca6-9621-56ab8dadbe94)), because the [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f))) cannot be located on Android.
 						- all symlinks in `assets/TextProcessing/last-newline/No newline at end of file.img/` have been changed to plaintext by the commit `cf5d4f1` “[WIP] MGit push test”, which have been reverted in commit `9ea30b37`.
 			- 7th, today, i've built up enough intent to execute the [plan for sharing time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
