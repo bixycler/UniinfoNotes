@@ -2279,6 +2279,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) from Latin [sustentus](https://en.wiktionary.org/wiki/sustentus), perfect passive participle of [sustineō](https://en.wiktionary.org/wiki/sustineo#Latin)
 				- OED: [sustent (n.)](https://www.oed.com/dictionary/sustent_n) (from 1664 to 1667)
 				  > That which sustains; a sustaining support or force.
+					- This is the only dictionary entry of “sustent”, as shown by [OneLook > sustent](https://www.onelook.com/?w=sustent).
 				- How it's sustained: it's sustained by it's own parts, i.e. the content sustains the intent and vice versa.
 				- The sustent is similar to the "substance" in philosophy, which is from "substāns" present participle of "substāre", and means "self-standing thing underlying all things". But there are diffs:
 					- Sustent is actively maintaining itself, while the substance is just a dumb material for some subject (human or God) to attach attributes to make things.
@@ -4200,7 +4201,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  | **Intent** (Unïnfo)  | Not necessarily | ✅ Yes                | ✅ Highly     | Internal potential across forms |
 				  | **Intent** (Common sense) | ✅ Strong        | ❌ Usually no         | ❌ Narrow     | Legal, formal, mental state     |
 				  | **Intention**         | ✅ Yes           | ✅ Sometimes          | ❌ Medium     | Goal-driven action              |
-				- The general meaning of “intent” used in Unïnfo is an archaic connotation mentioned in some (old) dictionaries.
+				- The general meaning of “intent” used in Unïnfo is an archaic connotation mentioned in some (old) dictionaries, as shown by [OneLook > intent](https://www.onelook.com/?w=intent).
 					- [Vocabulary.com](https://www.vocabulary.com/dictionary/intent)
 					  > 2. `noun` the intended meaning of a communication
 					- [Collins English Dictionary > intent](https://www.collinsdictionary.com/dictionary/english/intent)
