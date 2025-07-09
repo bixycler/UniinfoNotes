@@ -19,9 +19,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Second, plan the space of thoughts.
 				- Due to the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) and various deep intents, all works, including official works and even the balancing work, will trigger meta-thoughts deeply related to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). So the time planning only is not enough.
 					- My ((665379b7-e4f6-4240-8029-fd143e2230c7)) has already been supporting Unïnfo strongly: observing the intents & obops => expose them, detach them, and write them down to UniinfoNotes
+					  collapsed:: true
 						- I just flush my karma out to the Uniinfo: whatever i formulated, i'm free from it.
 						- [!] But it has not supported the official works yet!
 					- ⇒ Now, i must _**add official works** to my way_ for it to be more balanced: observing the requirements, the schedules and deadlines, etc.
+					- ⇒ I must reduce the radius of the core back to its currently holistic region, instead of spanning
 				- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, degree of interest, applicable domains (personal, official, group, mankind), etc.
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
