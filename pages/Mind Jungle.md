@@ -1783,16 +1783,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Graphically, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Euler diagram](https://en.wikipedia.org/wiki/Euler_diagram), [nested set collection](https://en.wikipedia.org/wiki/Nested_set_collection), [treemapping](https://en.wikipedia.org/wiki/Treemapping).
 					  id:: 66753405-9afe-478e-abd2-f43100e21c33
 					- Textually, ((66752fbf-a751-4117-ae0d-17d9a19053e4)) can be represented by [Dyck word](https://en.wikipedia.org/wiki/Dyck_language) and ((6675369a-1d13-48c5-8a77-d588aa8b59b8)).
-			- #### CIE in viewcone
-			  id:: 686e6e72-13f8-4dc9-a8e2-de35519f57d7
-			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) is expressed in the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) through the mapping $y = O(x)$.
-				  id:: 686e6eb2-b5f8-4592-9a56-378e197f9d11
-					- object $y$ is the content
-					- ((685a47f5-728a-4b34-95c5-d8e3bba5aad1)) O is the intent
-					- position $x$ is the extent
-					- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = projection $O: y → x$
-					- ((6847e436-9a84-42c5-a853-75f6d626ed63)) = projection $y ← O × x$
 		- ### scope
 		  id:: 685a47e4-21f2-40d6-b80c-d3adf401489b
 		  collapsed:: true
@@ -1826,7 +1816,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- what's seen in the frame at position x is the content O(x), the object, being subject to change;
 						- the position x is the extent, ex-form, image of object.
 						- ⇒ Thus, the frame is a function projecting content to extent.
-					- This viewcone structure is the metaphysical counterpart of the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in Unithread.
 					- The self in thread, change, transformation:
 						- change: Change requires a thread of self.
 						- The continuity of a thread is determined by the obop observing that thread. Hence, a thread of subject is intrinsic to itself, while a thread of object is extrinsic.
@@ -2560,6 +2549,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- 🧅 Bulboid receptor in animal <> 🥔 Bulboid organ in plant
 						- animal = particle = onion structure
 						- plant = network = wave = potato structure
+		- #### CIE operation
+		  id:: 686e6e72-13f8-4dc9-a8e2-de35519f57d7
+		  collapsed:: true
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) is expressed in the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) through the mapping $y = O(x)$.
+			  id:: 686e6eb2-b5f8-4592-9a56-378e197f9d11
+				- object $y$ is the content
+				- ((685a47f5-728a-4b34-95c5-d8e3bba5aad1)) O is the intent
+				- position $x$ is the extent
+				- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = projection $O: y → x$
+				- ((6847e436-9a84-42c5-a853-75f6d626ed63)) = projection $y ← O × x$
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((685a58f3-6393-48df-966b-24b270a92b58))
 		- *All beings have the same content.*
 		  id:: 678e1960-58d6-4cf3-8fe3-25f2f4489b33
 		  :LOGBOOK:
@@ -3079,6 +3080,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)): ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) = ((665ca429-84e3-49ff-921e-c07d19cd99ba)) ☉ ((6678288e-699b-4325-bdba-bf6349fe0d57))
 					- ((66723642-58f1-4a74-bba3-0108f14c6bac)): ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)), ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
 					- ((678e2046-54ac-4284-865d-6f3e38f589a1))
+					- ((686e6e72-13f8-4dc9-a8e2-de35519f57d7))
 				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
 					- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
 			- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory [Ʊ]

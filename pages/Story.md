@@ -3213,5 +3213,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- This shows the importance of the balance between interaction and retreating.
 					- Too much interaction masks the intents which are active inside.
 					- Too much retreating makes all intents dormant, keeping them from active and visible.
-				- For some days i've not flushed the mind chips. Flushing it, i see lots of chips 😁!
+				- DONE For some days i've not flushed the mind chips. Flushing it, i see lots of chips 😁!
+				  :LOGBOOK:
+				  CLOCK: [2025-07-09 Wed 18:54:29]--[2025-07-09 Wed 20:52:04] =>  01:57:35
+				  :END:
+					- Cleaning it costed me full 2 hours! 😬
 		- ...
