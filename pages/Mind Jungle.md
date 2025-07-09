@@ -4215,9 +4215,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- In Unïnfo, “intention” must be conscious, and the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic, as well as the “laten/dormant intent” ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), falls out of the scope of “intention” and into the general meaning of “intent”.
 					- The latent intent is just an intention in the past, which has sunk under the conscious surface, leaving only a tendency as its [“antenna”](https://en.wikipedia.org/wiki/Antenna_(zoology)) on the consciousness.
 						- Antenna = sensitive hair = tendency = direction = ${\vec v}/|v|$ = distortion = deviation from the roundness, from the uniform
-						- This sensitive hair is equivalent to the seed's [micropyle](https://en.wikipedia.org/wiki/Ovule#Integuments,_micropyle,_chalaza_and_hilum) as well as receptors on the testa (seed coat).
+						- This sensitive hair is equivalent to the seed's [micropyle](https://byjus.com/neet/difference-between-hilum-and-micropyle/) as well as receptors on the testa (seed coat).
 						  collapsed:: true
-							- The micropyle is the “eye” of the seed, originally a pore in the ovule for the the pollen tube to enter, which is leftover after fertilization for water absoption and for the root (radicle) to emerge in gemination.
+							- The micropyle is the “eye” of the seed, originally a pore in the [ovule](https://en.wikipedia.org/wiki/Ovule) for the the pollen tube to enter, which is leftover after fertilization for water absoption and for the root (radicle) to emerge in gemination.
 							- [seed anatomy](https://ib.bioninja.com.au/seed-dispersal/) diagram
 								- ![seed-anatomy-BioNinja.jpg](../assets/Will/story/2025-07/seed-anatomy-BioNinja.jpg){:width 300}
 					- The antenna (intent's remaining tendency) matches the external stimulus with the corresponding dormant ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) to wake it up to become an active ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) of action.
