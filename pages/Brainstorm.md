@@ -25,7 +25,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- ⇒ Now, i must _**add official works** to my way_ for it to be more balanced: observing the requirements, the schedules and deadlines, etc.
 					- ⇒ I must reduce the radius of the core back to its **currently holistic region**, instead of expanding to the distorted regions (fringe) around.
 					  id:: 686e0e73-d3cc-4250-804f-94a270b92fd9
-						- The fringe contains lots of “hairs” of tendency
+						- The fringe contains lots of “hairs” of tendency attracting stimuli and [waking up dormant intents](((686cc8c2-9215-4b84-840e-def48efd9447))).
+						- These “hairs” of tendency are the attitudes, emotions, feelings deep inside.
+						- Model of the fringed core
+						  collapsed:: true
+							- ![straw-raffia-placemats-with-fringe-natural.png](../assets/Will/story/2025-07/straw-raffia-placemats-with-fringe-natural.png){:width 200}
 				- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, degree of interest, applicable domains (personal, official, group, mankind), etc.
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
