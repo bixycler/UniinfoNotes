@@ -3057,6 +3057,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- MGit's [installation from Google Play](https://play.google.com/store/apps/details?id=com.manichord.mgit&hl=en) (GP) has been blocked from middle of 2024 [due to GP's policy](https://github.com/maks/MGit/issues/733#issuecomment-2928410654), not a technical limitation like "~~incompatible~~ with Android version 12+" as shown in GP.
 						- I've installed MGit [from F-Droid](https://f-droid.org/packages/com.manichord.mgit/) and it works perfectly on my Android 15 device.
 						- Explained by Maks: MGit's request for ["All File access" permission](https://support.google.com/googleplay/android-developer/answer/10467955?hl=en) was judged "incompatible with Android 12+ policy" by Google Play. He cannot deal with GP about this policy, and he has no time to switch to other restrictive APIs to restrict file access.
+				- On my Android phone, just use MGit to manage Git repo in addition to GitSync (limited to only 1 repo for free).
+					- now both MGit & GitSync are managing the MindChips repo.
+					- provided that GitSync auth is changed to SSH from its default HTTPS, because MGit can only use SSH!
+					- UniinfoNotes
+						- because the global [[logseq/config.edn]] cannot be located on Android, we must manually insert the content of file `macros-config.edn.txt` to the local `logseq/config.edn` for the search feature to work.
+						- all symlinks in `assets/TextProcessing/last-newline/No newline at end of file.img/` have been touched by the commit `cf5d4f1` “[WIP] MGit push test”
 			- 7th, today, i've built up enough intent to execute the [plan for sharing time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
 			  :LOGBOOK:
 			  CLOCK: [2025-07-07 Mon 09:21:20]

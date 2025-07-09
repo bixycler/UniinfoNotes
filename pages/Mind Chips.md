@@ -1,56 +1,46 @@
-- [!] Làm lại thẻ VCB
-- ----
-- just use MGit to manage Git repo in addition to GitSync (limited to only 1 repo for free)
-    - now both MGit & GitSync are managing this MindChips repo.
-    - provided that GitSync auth is changed to ssh from its default https, because MGit can only use ssh!
-    - UniinfoNotes
-        - because the global config.edn cannot be located on Android, we must manually insert the content of file `macros-config.edn.txt` to the local `logseq/config.edn` for the search feature to work.
-        - all symlinks in `assets/TextProcessing/last-newline/No newline at end of file.img/` have been touched by the commit `cf5d4f1` “[WIP] MGit push test”
-- ---
 - CIE in view cone: content (object) y = O(x) = intent (view frame) O × extent (position) x
 - Trinion dynamics ~ circle dynamics: equal = center, arrows = out & in radius, circle = trajectory of the arrowhead
-    - point equal: the init close loop of arrows 
-    - mass equal: the constant round trip between the center and the trajectory 
-    - intent equal: the constant radius (c = const) => round => close the next meta loop (next point equality)
-    - => SCIFER
+	- point equal: the init close loop of arrows
+	- mass equal: the constant round trip between the center and the trajectory
+	- intent equal: the constant radius (c = const) => round => close the next meta loop (next point equality)
+	- => SCIFER
 - ----
 - ((6862d8db-0cb4-47e5-bb58-17156f5602cc)): Definitions of “form” through the full cycle of birth–change–death, or formation–distortion–dissolution
-    - 1. Formation: Form is whatever has been formed.
-    - 2. Transformation: Form is anything being transformed.
-    - 3. Deformation: Form is whatever will be deformed. 
-        - 3+. Perishment: Form is bound to perish.
-    - Sắc tướng trong vòng tròn sinh–trụ–diệt:
-        - 1. Hình tướng là thứ đã được hình thành. 
-        - 2. Hình tướng là thứ bị biến đổi.
-        - 3. Hình tướng là thứ sẽ bị biến dạng.
-        - 3+. Hình tướng là thứ phải chịu hư mất.
+	- 1. Formation: Form is whatever has been formed.
+	- 2. Transformation: Form is anything being transformed.
+	- 3. Deformation: Form is whatever will be deformed.
+		- 3+. Perishment: Form is bound to perish.
+	- Sắc tướng trong vòng tròn sinh–trụ–diệt:
+		- 1. Hình tướng là thứ đã được hình thành.
+		- 2. Hình tướng là thứ bị biến đổi.
+		- 3. Hình tướng là thứ sẽ bị biến dạng.
+		- 3+. Hình tướng là thứ phải chịu hư mất.
 - ----
-- Fold = Store 
-    - 🥔 Tuber: Life force folded into body
-    - ⚛️ Particle: Energy folded into mass
-    - 🔁 Memory Cell (flip-flop): Time folded into state
-    - ⭕ Self: Content folded into Form
-    - ♾️ Trinion: Arrows folded into Circle
+- Fold = Store
+	- 🥔 Tuber: Life force folded into body
+	- ⚛️ Particle: Energy folded into mass
+	- 🔁 Memory Cell (flip-flop): Time folded into state
+	- ⭕ Self: Content folded into Form
+	- ♾️ Trinion: Arrows folded into Circle
 - dual bulboid (củ) structures: the onion structure of view cone <> the potato structure of action cone
-    - 🧅 the onion structure of multiple layers of self-circles: many circles around one eye 👁️ (bud, obop)
-        - the self in reflection: this concentrating structure is the unification of the world into the observer.
-        - this is also the hurricane structure.
-    - 🥔 the potato structure of stem-circle: many eyes 👀 on one circle
-        - the self in expression: this radiating structure is the development from the operator.
-        - these many eyes are illustrated by the thousand-armed and thousand-eyed Guanyin.
-    - 🧅 Bulboid receptor in animal <> 🥔 Bulboid organ in plant
-        - animal = particle = onion structure
-        - plant = network = wave = potato structure
+	- 🧅 the onion structure of multiple layers of self-circles: many circles around one eye 👁️ (bud, obop)
+		- the self in reflection: this concentrating structure is the unification of the world into the observer.
+		- this is also the hurricane structure.
+	- 🥔 the potato structure of stem-circle: many eyes 👀 on one circle
+		- the self in expression: this radiating structure is the development from the operator.
+		- these many eyes are illustrated by the thousand-armed and thousand-eyed Guanyin.
+	- 🧅 Bulboid receptor in animal <> 🥔 Bulboid organ in plant
+		- animal = particle = onion structure
+		- plant = network = wave = potato structure
 - YouTuber = You-Potato 🥔 = media-tuber
-    - [couch potato](https://en.wikipedia.org/wiki/Couch_potato): uninteresting, dull, strange, ugly, or fat
-    - small potato: not important, not impressive
-    - media-tubers store energy, attention, and threads of content in media-rich tubers of self-expression.
-    - media-tubers radiate  
-      stalks of discourse  
-      from their stem-circles  
-      of condensed ego!
-
-## Current Chips
+	- [couch potato](https://en.wikipedia.org/wiki/Couch_potato): uninteresting, dull, strange, ugly, or fat
+	- small potato: not important, not impressive
+	- media-tubers store energy, attention, and threads of content in media-rich tubers of self-expression.
+	- media-tubers radiate  
+	  stalks of discourse  
+	  from their stem-circles  
+	  of condensed ego!
+- ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
   collapsed:: true
