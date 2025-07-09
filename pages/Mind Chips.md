@@ -32,14 +32,6 @@
 	- 🧅 Bulboid receptor in animal <> 🥔 Bulboid organ in plant
 		- animal = particle = onion structure
 		- plant = network = wave = potato structure
-- YouTuber = You-Potato 🥔 = media-tuber
-	- [couch potato](https://en.wikipedia.org/wiki/Couch_potato): uninteresting, dull, strange, ugly, or fat
-	- small potato: not important, not impressive
-	- media-tubers store energy, attention, and threads of content in media-rich tubers of self-expression.
-	- media-tubers radiate  
-	  stalks of discourse  
-	  from their stem-circles  
-	  of condensed ego!
 - ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
