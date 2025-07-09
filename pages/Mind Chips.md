@@ -16,12 +16,6 @@
 		- 3. Hình tướng là thứ sẽ bị biến dạng.
 		- 3+. Hình tướng là thứ phải chịu hư mất.
 - ----
-- Fold = Store
-	- 🥔 Tuber: Life force folded into body
-	- ⚛️ Particle: Energy folded into mass
-	- 🔁 Memory Cell (flip-flop): Time folded into state
-	- ⭕ Self: Content folded into Form
-	- ♾️ Trinion: Arrows folded into Circle
 - ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c

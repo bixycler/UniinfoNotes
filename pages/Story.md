@@ -3067,7 +3067,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- all symlinks in `assets/TextProcessing/last-newline/No newline at end of file.img/` have been changed to plaintext by the commit `cf5d4f1` “[WIP] MGit push test”, which have been reverted in commit `9ea30b37`.
 			- 6th, went diving with my wife at “Tuyệt Tình Cốc” lake.
 			  collapsed:: true
-				- Brainstormed about bulboid (củ) structures, and the following joke popped up in my mind.
+				- Brainstormed about [bulboid (củ) structures](((686e6444-ed07-408c-ad6f-72f308410cd1))), and the following joke popped up in my mind.
 				- YouTuber = You-Potato 🥔 = media-tuber
 					- [couch potato](https://en.wikipedia.org/wiki/Couch_potato): uninteresting, dull, strange, ugly, or fat
 					- small potato: not important, not impressive

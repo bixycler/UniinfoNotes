@@ -2526,10 +2526,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-09-25 Wed 14:04:07]
 			  :END:
 			- ### Form Obop Content
+				- Analysis of the Trinion
+				- Integration and working of the components
 			- ### Onion structure
 			- ### Potato strucure
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- dual bulboid (củ) structures: the onion structure of view cone <> the potato structure of action cone
+				- Bulboid structure: fold = store
+				  id:: 686e6444-ed07-408c-ad6f-72f308410cd1
+				  collapsed:: true
+					- 🥔 Tuber: Life force folded into body
+					- ⚛️ Particle: Energy folded into mass
+					- 🔁 Memory Cell (flip-flop): Time folded into state
+					- ⭕ Self: Content folded into Form
+					- ♾️ Trinion: Arrows folded into Circle
+					- bulboid = củ
+				- Dual bulboid structures: the onion structure of view cone <> the potato structure of action cone
 				  collapsed:: true
 					- 🧅 the onion structure of multiple layers of self-circles: many circles around one eye 👁️ (bud, obop)
 						- the self in reflection: this concentrating structure is the unification of the world into the observer.
