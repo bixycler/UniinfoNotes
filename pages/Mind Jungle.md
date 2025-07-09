@@ -1786,8 +1786,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- #### CIE in viewcone
 			  id:: 686e6e72-13f8-4dc9-a8e2-de35519f57d7
 			  collapsed:: true
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) expressed in ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): content (object) y = O(x) = intent (view frame) O × extent (position) x
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) is expressed in the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) through the mapping $y = O(x)$.
 				  id:: 686e6eb2-b5f8-4592-9a56-378e197f9d11
+					- object $y$ is the content
+					- ((685a47f5-728a-4b34-95c5-d8e3bba5aad1)) O is the intent
+					- position $x$ is the extent
+					- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) = projection $O: y → x$
+					- ((6847e436-9a84-42c5-a853-75f6d626ed63)) = projection $y ← O × x$
 		- ### scope
 		  id:: 685a47e4-21f2-40d6-b80c-d3adf401489b
 		  collapsed:: true
