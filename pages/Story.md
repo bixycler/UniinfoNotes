@@ -3186,4 +3186,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The anusayā-cetanā then sets the attention (focus of the viewcone) to strengthen the intention further.
 				- At the end of the day, my emotional intents rose up. I let them flow, observed and [integrated them into the plan](((686e0e73-d3cc-4250-804f-94a270b92fd9))).
 			- 9th, ...
+			  collapsed:: true
+				-
 		- ...
