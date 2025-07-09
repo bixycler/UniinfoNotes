@@ -3985,6 +3985,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Whether fleeting or lasting, the abstract forms are just images of content, hence **partial**, hence [impermanent](https://en.wikipedia.org/wiki/Impermanence).
 							- The partiality of form [leads](((6858b355-fba9-4e61-9f16-bc993a3df44b))) to its ((669a58b9-eb34-41cd-8605-02e29b07e1b5)), change, and impermanance.
 								- Transformation: The one being formed is called “form”, but the same process deforms it. In other words, form is the product of formation and the object of deformation, i.e. form = formed & deformed.
+								- Definitions of “form” through the full cycle of birth–change–death, or formation–distortion–dissolution
+								  id:: 686e6aed-cec1-4686-95c8-623f8a5f0bab
+								  collapsed:: true
+									- 1. Formation: Form is whatever has been formed.
+									- 2. Transformation: Form is anything being transformed.
+									- 3. Deformation: Form is whatever will be deformed.
+										- 3+. Perishment: Form is bound to perish.
+									- Sắc tướng trong vòng tròn sinh–trụ–diệt:
+										- 1. Hình tướng là thứ đã được hình thành.
+										- 2. Hình tướng là thứ bị biến đổi.
+										- 3. Hình tướng là thứ sẽ bị biến dạng.
+										- 3+. Hình tướng là thứ phải chịu hư mất.
 							- Due to the stability (lastingness) of the closed form, ordinary beings naturally develop attachment to the self, often under the illusion that it's permanent (everlasting).
 							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
 							  collapsed:: true
