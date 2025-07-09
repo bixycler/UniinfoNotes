@@ -3068,12 +3068,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 6th, went diving with my wife at “Tuyệt Tình Cốc” lake.
 			  collapsed:: true
 				- CIE in view cone: content (object) y = O(x) = intent (view frame) O × extent (position) x
-				- Trinion dynamics ~ circle dynamics: equal = center, arrows = out & in radius, circle = trajectory of the arrowhead
-					- point equal: the init close loop of arrows
-					- mass equal: the constant round trip between the center and the trajectory
-					- intent equal: the constant radius (c = const) => round => close the next meta loop (next point equality)
-					- => SCIFER
-				-
+				- ((686e580a-876e-47cf-b2cc-1381bc64cdb9))
+				- ((686e6aed-cec1-4686-95c8-623f8a5f0bab))
 				- Brainstormed about [bulboid (củ) structures](((686e6444-ed07-408c-ad6f-72f308410cd1))), and the following joke popped up in my mind.
 				- YouTuber = You-Potato 🥔 = media-tuber
 					- [couch potato](https://en.wikipedia.org/wiki/Couch_potato): uninteresting, dull, strange, ugly, or fat

@@ -1797,7 +1797,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- lens
 			  id:: 685a50e9-6854-42a5-a6cf-5190765881ff
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1)) is the boundary of the ((685a47e4-21f2-40d6-b80c-d3adf401489b)), i.e. the circumference of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))'s base, defining the limit of the ((66723642-58f1-4a74-bba3-0108f14c6bac)) as well as the underlying structure on which the view is created. While “scope” and “viewcone” are about the content of the view, “viewframe” is about the structure of the view imposed by the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685a47f5-728a-4b34-95c5-d8e3bba5aad1)) is the boundary of the ((685a47e4-21f2-40d6-b80c-d3adf401489b)), i.e. the circumference of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))'s base, defining the limit of the ((66723642-58f1-4a74-bba3-0108f14c6bac)) as well as the underlying structure on which the view is created. While ((685a47e4-21f2-40d6-b80c-d3adf401489b)) and ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) are about the content of the view, viewframe is about the structure of the view imposed by the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)).
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- [framing](https://en.wikipedia.org/wiki/Framing_(visual_arts)) and [picture frame](https://en.wikipedia.org/wiki/Picture_frame) in visual arts
 				- [reference frame](https://en.wikipedia.org/wiki/Frame_of_reference) in physics
@@ -2266,7 +2266,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- TODO Migrate [[CIE]]
 		  id:: 67b541d0-0c8c-4186-b5fd-460cfa4e3e27
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-		  collapsed:: true
 			- Why the intent is under the content in the division $c/i$:
 			  collapsed:: true
 				- "**Sub**-ject" = **under**-thrown = the **under**lying agent of the action/operation of measurement.
@@ -2623,6 +2622,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  “Quảng đức nhược bất túc” 
 									  “Those with noble Virtue seem lacking”
 									  “Người có Đức lớn dường như thiếu Đức”
+				- Trinion dynamics ~ circle dynamics: equal = center, arrows = out & in radius, circle = trajectory of the arrowhead
+				  id:: 686e580a-876e-47cf-b2cc-1381bc64cdb9
+				  collapsed:: true
+					- point equal: the init close loop of arrows
+					- mass equal: the constant round trip between the center and the trajectory
+					- intent equal: the constant radius (c = const) => round => close the next meta loop (next point equality)
+					- => ((66f40210-cca6-4d81-85e7-d0c54ef20451))
 		- Properties of the triple form - content - obop
 		  id:: 66f411d3-f2d5-47c3-8f5a-d31c02cf88eb
 		  :LOGBOOK:
