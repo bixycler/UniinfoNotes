@@ -23,9 +23,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- I just flush my karma out to the Uniinfo: whatever i formulated, i'm free from it.
 						- [!] But it has not supported the official works yet!
 					- ⇒ Now, i must _**add official works** to my way_ for it to be more balanced: observing the requirements, the schedules and deadlines, etc.
-					- ⇒ I must reduce the radius of the core back to its **currently holistic region**, instead of expanding to the distorted regions around.
+					- ⇒ I must reduce the radius of the core back to its **currently holistic region**, instead of expanding to the distorted regions (fringe) around.
 					  id:: 686e0e73-d3cc-4250-804f-94a270b92fd9
-						- The fringe
+						- The hairy fringe
 				- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, degree of interest, applicable domains (personal, official, group, mankind), etc.
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
