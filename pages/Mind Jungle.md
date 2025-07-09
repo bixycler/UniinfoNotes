@@ -1562,7 +1562,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- stem line
 					  id:: 66740af5-032a-4cb1-9c97-0e4d3933ab9b
 					   = internode segments + node branching points
-					- stem circle
+					- stem-circle
 					  id:: 667bebeb-7f20-4d03-b860-1653c3137710
 					   = folded ((66740af5-032a-4cb1-9c97-0e4d3933ab9b)) = border of ((66751b3b-5fd0-4efd-a43c-db2c4930ae4f))
 					- node
@@ -2520,6 +2520,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- This property is called ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
 					- Some Ancient Greek philosophers like Plato and Parmenides stated that reality is the world of unchanging beings, i.e. the [world of forms](https://en.wikipedia.org/wiki/Theory_of_forms), separated from the illusive world of ever changing becomings (phenomena).
+		- Structure of ((678e1c3f-6202-45aa-8527-f4bdad9927b9))
+			- TODO Migrate [[FoC]]
+			  :LOGBOOK:
+			  CLOCK: [2024-09-25 Wed 14:04:07]
+			  :END:
+			- ### Form Obop Content
+			- ### Onion structure
+			- ### Potato strucure
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- dual bulboid (củ) structures: the onion structure of view cone <> the potato structure of action cone
+				  collapsed:: true
+					- 🧅 the onion structure of multiple layers of self-circles: many circles around one eye 👁️ (bud, obop)
+						- the self in reflection: this concentrating structure is the unification of the world into the observer.
+						- this is also the hurricane structure.
+					- 🥔 the potato structure of ((667bebeb-7f20-4d03-b860-1653c3137710)): many eyes 👀 on one circle
+						- the self in expression: this radiating structure is the development from the operator.
+						- these many eyes are illustrated by the thousand-armed and thousand-eyed Guanyin.
+					- 🧅 Bulboid receptor in animal <> 🥔 Bulboid organ in plant
+						- animal = particle = onion structure
+						- plant = network = wave = potato structure
 		- *All beings have the same content.*
 		  id:: 678e1960-58d6-4cf3-8fe3-25f2f4489b33
 		  :LOGBOOK:
@@ -2592,10 +2612,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  “Quảng đức nhược bất túc” 
 									  “Those with noble Virtue seem lacking”
 									  “Người có Đức lớn dường như thiếu Đức”
-		- TODO Migrate [[FoC]]
-		  :LOGBOOK:
-		  CLOCK: [2024-09-25 Wed 14:04:07]
-		  :END:
 		- Properties of the triple form - content - obop
 		  id:: 66f411d3-f2d5-47c3-8f5a-d31c02cf88eb
 		  :LOGBOOK:

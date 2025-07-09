@@ -22,16 +22,6 @@
 	- 🔁 Memory Cell (flip-flop): Time folded into state
 	- ⭕ Self: Content folded into Form
 	- ♾️ Trinion: Arrows folded into Circle
-- dual bulboid (củ) structures: the onion structure of view cone <> the potato structure of action cone
-	- 🧅 the onion structure of multiple layers of self-circles: many circles around one eye 👁️ (bud, obop)
-		- the self in reflection: this concentrating structure is the unification of the world into the observer.
-		- this is also the hurricane structure.
-	- 🥔 the potato structure of stem-circle: many eyes 👀 on one circle
-		- the self in expression: this radiating structure is the development from the operator.
-		- these many eyes are illustrated by the thousand-armed and thousand-eyed Guanyin.
-	- 🧅 Bulboid receptor in animal <> 🥔 Bulboid organ in plant
-		- animal = particle = onion structure
-		- plant = network = wave = potato structure
 - ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
