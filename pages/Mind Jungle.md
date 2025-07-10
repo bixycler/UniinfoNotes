@@ -1981,6 +1981,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
 		- Mutual exclusiveness
+		  collapsed:: true
 		  “thấy không làm, làm không thấy”  
 		  “eyes no hands, hands no eyes”
 			- “Seers don't do, doers don't see.”  
@@ -1990,7 +1991,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- That means this exclusiveness is in regard to the self only.
 				- In the dualistic view of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), its own seer and doer are exclusive ***by definition***, just like “the right is not wrong, the wrong is not right!”
 					- In essence, the self is the separation between the inside (what belongs to the it) and the outside (what doen't belong to the it).
-					- Based on the in/ex separation, the self separates things into all sort of duals.
+					- Based on the in/ex separation, the self separates things into all sort of duals: subject/object, see/do, right/wrong, .
 				- At the internal extreme, the seer's ((66c810a0-9861-4787-bdcf-1378219332be)) carries the the observation ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((669a2487-054d-4408-ae41-189e34af81a9)).
 				  id:: 669a06b6-82cd-4e04-b5bf-ca60b89725d7
 					- Here, the seer withdraws all its energy into the ((669a2487-054d-4408-ae41-189e34af81a9)), the inner circle, to observe, to modify its body (memory) in reflection of the external objects, hence leaving no energy for the doing of the body.
@@ -2004,9 +2005,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- This criticizes the weakness of the dualistic view and guides toward the holistic view of ((6699e3b1-754c-4665-b7aa-12cbc833a8d0)) and the ((6699f85b-fe03-4fb6-8b80-915e376954ff)).
 		- Mutual inclusiveness
 		  id:: 6699e3b1-754c-4665-b7aa-12cbc833a8d0
+		  collapsed:: true
 			- ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))ing is an ((66727858-979d-4d95-8a90-7a749218cfba)) of the ((669a2487-054d-4408-ae41-189e34af81a9)) itself.
 			- Every ((6672785f-ac9e-42ba-921e-0264d0d83ae2)), i.e. change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (transform), is a change of ((66723642-58f1-4a74-bba3-0108f14c6bac)) via the change of ((667272b8-88a8-4928-a22a-35035c9edf05)).
-			  collapsed:: true
 				- ((67a98760-71fa-4033-9c42-f3025d632d04)) = traversal = listing = enumeration = moving the ((667272b8-88a8-4928-a22a-35035c9edf05)) across the object to view it in a linear view, i.e. thread-view.
 				  id:: 6783e3ff-9e8f-43db-a173-5d0c6972deab
 				- Finding = traversal for a target point-view.
@@ -2016,6 +2017,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Classification, categorization = change from object-view to class/property/category view.
 		- Harmony of ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a))ing and ((66c845fe-6e8e-412e-902e-34ae8d728f90))ing
 		  id:: 6699f85b-fe03-4fb6-8b80-915e376954ff
+		  collapsed:: true
 			- All ((66727858-979d-4d95-8a90-7a749218cfba))s are guided and constrained by the ascociated ((66723642-58f1-4a74-bba3-0108f14c6bac))s, thus the view is to action as the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is to ((6678288e-699b-4325-bdba-bf6349fe0d57)).
 			  :LOGBOOK:
 			  CLOCK: [2024-07-19 Fri 15:50:42]
