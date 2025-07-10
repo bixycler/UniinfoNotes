@@ -3222,7 +3222,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- atenna = direction = intent of vector = vacant form attracting & directing content
 					- magnitude = extent of vector
-					- because the (extent part of) content is abstracted, the intent is empty, lacking, wanting
+					- because the (extent part of) content has been abstracted away, the intent is empty, lacking, wanting... of content, hence attracting content.
+					- this attraction is due to the impression that the intent is the whole (it's a represent)
 				- action can only be seen by one's self when one withdraw the self from the action
 					- the self can just do its action, cannot see its own action.
 					- ((684f9517-1b11-4022-a2c3-0688975f198a))
