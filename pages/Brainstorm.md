@@ -240,6 +240,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  Nibbaan Nirvaan hai.
 					- Bengali: নিব্বান হলো নির্বাণ।
 					  Nibbāna halō Nirbāṇa.
+					  Nibbana-is-Nirvana-Bengali.mp3
 					- Sinhala: නිවන යනු නිර්වාණයි
 					  Nivana yanu Nirvāṇayi
 						- නිවන (nivana), නිවණ (nivaṇa) = Nibbāna
