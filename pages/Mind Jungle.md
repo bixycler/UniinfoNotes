@@ -1991,7 +1991,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 669a06b6-82cd-4e04-b5bf-ca60b89725d7
 					- Here, the seer withdraws all its energy into the ((669a2487-054d-4408-ae41-189e34af81a9)), the inner circle, to observe, to modify its body (memory) in reflection of the external objects, hence leaving no energy for the doing of the body.
 					- This is the "quantum effect of measurement".
-				- At the external extreme, the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) of doers carries the the operation ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))s are the [bodies](((66c810a0-9861-4787-bdcf-1378219332be))) of each doer.
+				- At the external extreme, the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) of doers carries the the operation ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose each ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) of each doer.
 				  id:: 669a0848-a7a2-402f-b704-68cea407e43d
 					- Here, the doer exerts all its power to the working of the body (hands) to rotate the external circle to change the external world, hence leaving no energy for the ((669a2487-054d-4408-ae41-189e34af81a9)).
 					- This is the mechanical extreme.
