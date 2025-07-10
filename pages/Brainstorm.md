@@ -237,12 +237,16 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Pronunciations of Nibbāna/Nirvāṇa in various languages:
 				- “Nibbāna is Nirvāṇa.”
 					- Hindi: निब्बान निर्वाण है।
+					  Nibbaan Nirvaan hai.
 					- Bengali: নিব্বান হলো নির্বাণ।
+					  Nibbāna halō Nirbāṇa.
 					- Sinhala: නිවන යනු නිර්වාණයි
-					  nivana yanu nirvāṇayi
+					  Nivana yanu Nirvāṇayi
 						- නිවන (nivana), නිවණ (nivaṇa) = Nibbāna
-						- නිර්වාණ = Nirvāṇa
-							- යි (yi): sentence-final particle for assertion/emphasis
+						- නිර්වාණ (nirvāṇa) = Nirvāṇa
+							- -යි (yi): sentence-final particle for assertion/emphasis
+							- -ය (ya): a common Sinhala nominalizer (like “-ness” or “-tion” in English)
+								- නිර්වාණය = The Nirvāṇa
 		- From the Eastern 自由 “tự do” to the Western “freedom”, back to 自由自在, 自然
 		  id:: 684f9515-9c97-4447-8211-a65dfe914822
 		  collapsed:: true
