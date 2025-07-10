@@ -3220,7 +3220,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Cleaning it costed me full 2 hours! 😬
 			- 10th, ...
 			  collapsed:: true
-				- atenna = direction = intent of vector
+				- atenna = direction = intent of vector = vacant form attracting content
 					- magnitude = extent of vector
 				- action can only be seen by one's self when one withdraw the self from the action
 					- the self just do its action, cannot see its own action.

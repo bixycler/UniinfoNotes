@@ -1991,7 +1991,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- That means this exclusiveness is in regard to the self only.
 				- In the dualistic view of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), its own seer and doer are exclusive ***by definition***, just like “the right is not wrong, the wrong is not right!”
 					- In essence, the self is the separation between the inside (what belongs to the it) and the outside (what doen't belong to the it).
-					- Based on the in/ex separation, the self separates things into all sort of duals: subject/object, see/do, right/wrong, .
+					- Based on the in/ex separation, the self separates things into all sort of duals: subject/object, do/see, right/wrong, good/bad, etc.
 				- At the internal extreme, the seer's ((66c810a0-9861-4787-bdcf-1378219332be)) carries the the observation ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((669a2487-054d-4408-ae41-189e34af81a9)).
 				  id:: 669a06b6-82cd-4e04-b5bf-ca60b89725d7
 					- Here, the seer withdraws all its energy into the ((669a2487-054d-4408-ae41-189e34af81a9)), the inner circle, to observe, to modify its body (memory) in reflection of the external objects, hence leaving no energy for the doing of the body.
