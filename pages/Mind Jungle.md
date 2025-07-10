@@ -1985,8 +1985,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  "eyes no hands, hands no eyes"
 			- "Seers don't do, doers don't see." 
 			  id:: 684f9517-1b11-4022-a2c3-0688975f198a
-			  "Kẻ thấy thì không làm, kẻ làm thì không thấy."
-				- This is the the nature of the extreme dualistic view. They are exclusive ***by definition***, just like “the right is not wrong, the wrong is not right!” This separation is defined by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)).
+			  “” Kẻ thấy thì không làm, kẻ làm thì không thấy."
+				- More pecisely, “doers cannot see what they do; seers cannot do what they see.”
+				- This is the the nature of the extreme dualistic view.
+				- They are exclusive ***by definition***, just like “the right is not wrong, the wrong is not right!”
+					- This separation is defined by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)).
 					- In essence, the self is the separation between the inside (what belongs to the it) and the outside (what doen't belong to the it).
 					- Based on the in/ex separation, the self separates things into all sort of duals.
 				- At the internal extreme, the seer's ((66c810a0-9861-4787-bdcf-1378219332be)) carries the the observation ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((669a2487-054d-4408-ae41-189e34af81a9)).
