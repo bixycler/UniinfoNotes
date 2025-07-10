@@ -3223,5 +3223,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- atenna = direction = intent of vector
 					- magnitude = extent of vector
 				- action can only be seen by one's self when one withdraw the self from the action
-					-
+					- the self just do its action, cannot see its own action.
+					- ((684f9517-1b11-4022-a2c3-0688975f198a))
 		- ...
