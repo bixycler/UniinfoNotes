@@ -237,7 +237,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Pronunciations of Nibbāna & Nirvāṇa in various languages
 			  id:: 686fab17-f305-4524-834e-8a3ecdc89865
 			  collapsed:: true
-				- “Nibbāna is Nirvāṇa.”
+				- “Nibbāna is Nirvāṇa” with Google Translate voice
 					- Hindi: निब्बान निर्वाण है।
 					  Nibbaan Nirvaan hai.
 					  ![Nibbana-is-Nirvana-Hindi.mp3](../assets/Will/story/2025-07/Nibbana-Nirvana/Nibbana-is-Nirvana-Hindi.mp3)
