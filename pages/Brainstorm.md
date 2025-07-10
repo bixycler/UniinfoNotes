@@ -23,7 +23,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- I just flush my karma out to the Uniinfo: whatever i formulated, i'm free from it.
 						- [!] But it has not supported the official works yet!
 					- ⇒ Now, i must _**add official works** to my way_ for it to be more balanced: observing the requirements, the schedules and deadlines, etc.
-					- ⇒ I must reduce the radius of the core back to its **currently holistic region**, instead of expanding to the distorted regions (fringe) around.
+					- ⇒ [reduce self-circle](((669a5162-19e1-4c52-8888-ab7cbfe275ec))): reduce the radius of the core back to its **currently wholesome region**, instead of expanding to the distorted regions (fringe) around.
 					  id:: 686e0e73-d3cc-4250-804f-94a270b92fd9
 						- The fringe contains lots of “hairs” of tendency which attract stimuli and [awaken dormant intents](((686cc8c2-9215-4b84-840e-def48efd9447))).
 						- These “hairs” of tendency are the attitudes, emotions, feelings deep inside.
