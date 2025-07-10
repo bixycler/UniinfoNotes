@@ -3225,7 +3225,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- because the (extent part of) content has been abstracted away, the intent is empty, lacking, wanting... of content, hence attracting content.
 					- this attraction is due to the impression that the intent is the whole (it's an image of the whole, representing the whole), while actually it's just a part of the whole.
 						- ⇒ ((6858b355-fba9-4e61-9f16-bc993a3df44b))
-					- All my effort to extract patterns, formulating them... is just to make another form, even though
+					- All my effort to extract patterns, formulating them... is just to make another form, no matter how it's named, whether Unïnfo, Unithread, or uninet. Even if it can “capture the whole Universe”, it'll be just an empty form!
 				- action can only be seen by one's self when one withdraw the self from the action
 					- the self can just do its action, cannot see its own action.
 					- ((684f9517-1b11-4022-a2c3-0688975f198a))
