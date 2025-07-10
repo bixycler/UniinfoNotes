@@ -6299,6 +6299,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  British style:  'single quotes contain "double quotes"'
 									  ```
 							- TODO Process markers like `TODO`, `CANCELLED`, ...
+							- TODO [!] Resolve issue: `#` anchors don't jump when `Normalize Markdown` is checked!?
 						- markdown → HTML: using [markdown-it](https://github.com/markdown-it/markdown-it)
 							- `MarkdownIt.options`
 							  collapsed:: true
