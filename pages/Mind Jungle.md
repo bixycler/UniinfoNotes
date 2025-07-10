@@ -1981,15 +1981,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
 		- Mutual exclusiveness
-		  "thấy không làm, làm không thấy"
-		  "eyes no hands, hands no eyes"
-			- "Seers don't do, doers don't see." 
+		  “thấy không làm, làm không thấy”  
+		  “eyes no hands, hands no eyes”
+			- “Seers don't do, doers don't see.”  
 			  id:: 684f9517-1b11-4022-a2c3-0688975f198a
-			  “” Kẻ thấy thì không làm, kẻ làm thì không thấy."
+			  “Kẻ thấy thì không làm, kẻ làm thì không thấy.”
 				- More pecisely, “doers cannot see what they do; seers cannot do what they see.”
-				- This is the the nature of the extreme dualistic view.
-				- They are exclusive ***by definition***, just like “the right is not wrong, the wrong is not right!”
-					- This separation is defined by the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)).
+					- That means this exclusiveness is in regard to the self only.
+				- In the dualistic view of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), its own seer and doer are exclusive ***by definition***, just like “the right is not wrong, the wrong is not right!”
 					- In essence, the self is the separation between the inside (what belongs to the it) and the outside (what doen't belong to the it).
 					- Based on the in/ex separation, the self separates things into all sort of duals.
 				- At the internal extreme, the seer's ((66c810a0-9861-4787-bdcf-1378219332be)) carries the the observation ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((669a2487-054d-4408-ae41-189e34af81a9)).
@@ -2000,8 +1999,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 669a0848-a7a2-402f-b704-68cea407e43d
 					- Here, the doer exerts all its power to the working of the body (hands) to rotate the external circle to change the external world, hence leaving no energy for the ((669a2487-054d-4408-ae41-189e34af81a9)).
 					- This is the mechanical extreme.
-			- "Eyes are useless without hands, hands are blind without eyes."
-			  "Thấy mà không làm là vô dụng, làm mà không thấy là mù quáng."
+			- “Eyes are useless without hands, hands are blind without eyes.”
+			  “Thấy mà không làm là vô dụng, làm mà không thấy là mù quáng.”
 				- This criticizes the weakness of the dualistic view and guides toward the holistic view of ((6699e3b1-754c-4665-b7aa-12cbc833a8d0)) and the ((6699f85b-fe03-4fb6-8b80-915e376954ff)).
 		- Mutual inclusiveness
 		  id:: 6699e3b1-754c-4665-b7aa-12cbc833a8d0
