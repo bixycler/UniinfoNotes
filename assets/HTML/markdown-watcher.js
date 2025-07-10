@@ -196,12 +196,12 @@ async function load(forced) {
     updateURL(exportUrlMdRender, b);
   }
 
-  content.removeChild(mdrender);
-  content.removeChild(mdhtml);
-  content.removeChild(mdpdf);
-  content.removeChild(mdimg);
+  try { content.removeChild(mdrender); } catch (error) {}
+  try { content.removeChild(mdhtml); } catch (error) {}
+  try { content.removeChild(mdpdf); } catch (error) {}
+  try { content.removeChild(mdimg); } catch (error) {}
   if(renderChoice.value=='mdrender'){
-    content.appendChild(mdimg);
+    content.appendChild(mdrender);
     exportUrl = exportUrlMdRender;
   }else if(renderChoice.value=='html'){
     content.appendChild(mdhtml);

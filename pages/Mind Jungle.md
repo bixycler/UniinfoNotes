@@ -6299,10 +6299,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  British style:  'single quotes contain "double quotes"'
 									  ```
 							- TODO Process markers like `TODO`, `CANCELLED`, ...
-							- DOING [!] Resolve issue: `#` anchors don't jump in `Foldable HTML Page` when `Normalize Markdown` is checked!?
+							- DONE [!] Resolve issue: `#` anchors don't jump in `Foldable HTML Page` when `Normalize Markdown` is checked!?
 							  collapsed:: true
 							  :LOGBOOK:
-							  CLOCK: [2025-07-10 Thu 08:57:47]
+							  CLOCK: [2025-07-10 Thu 08:57:47]--[2025-07-10 Thu 09:44:01] =>  00:46:14
 							  :END:
 								- Cause: `Rendered Markdown`'s `mdrender` contains elements with the same id with elements in `mdhtml` (`Foldable HTML Page`).
 								- ⇒ `content`.`removeChild()` & `content`.`appendChild()` instead of `style.display` = `none/block`
