@@ -227,6 +227,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- brainstorm: ((66f29d57-a87f-4370-9f32-722922a7bff1)); and
 					- write discussion: ((673312a3-e94e-478f-9e21-bad72ef29d1b))
 					- But that task was interrupted and abandoned. Later on, these documents have been slowly updated and some are still stubs until now, 2025/05/16.
+				- In [the second experience of drowning via cough reflex](((67dcc012-44d3-4041-b17a-0ef201b3ff6c))) in April 2025, ((684f951a-b5ca-44a7-b9a3-df1538310721))
 				- In May 2025, while contemplating ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c)), i see [a solution](((681b4678-686a-4d99-9163-6f60e0b30d2c))) to my issue of perfectionism is to sublimate the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) to restore the self to the hurricane's eye = empty center = ((66c8772a-9b29-45b0-b169-2fa847333e02)) = Nibbāna = the [non-self](https://en.wikipedia.org/wiki/Anatt%C4%81)
 				  id:: 684f9515-6b8f-4281-bce0-f396259e640b
 				- Today, 2025/07/03, i've just finished this brainstorm about the hurricane's eye 🌀.
