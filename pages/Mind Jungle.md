@@ -1985,7 +1985,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  "eyes no hands, hands no eyes"
 			- "Seers don't do, doers don't see." 
 			  "Kẻ thấy thì không làm, kẻ làm thì không thấy."
-				- This is the the nature of the extreme dualistic view. They are exclusive "by definition", just like "the right is not wrong, the wrong is not right!"
+				- This is the the nature of the extreme dualistic view. They are exclusive ***by definition***, just like “the right is not wrong, the wrong is not right!”
 				- At the internal extreme, the ((66c810a0-9861-4787-bdcf-1378219332be)) carries the the ((667c0031-0a87-44c9-9e98-6d45893b095f)) whose ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) is the ((669a2487-054d-4408-ae41-189e34af81a9)).
 				  id:: 669a06b6-82cd-4e04-b5bf-ca60b89725d7
 				  collapsed:: true
