@@ -1,8 +1,3 @@
-- the intent on the view cone directs the action on the effect cone
-    - change the view direction, the actions automatically follow 
-    - i head to the object i'm looking at, i magnify it, i concentrate resource (internal content) to mix with its content to take action pushing me toward it. 
-    - intent = view direction = steering wheel
-
 ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c

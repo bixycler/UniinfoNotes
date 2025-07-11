@@ -3231,4 +3231,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- the self can just do its action, cannot see its own action.
 					- ((684f9517-1b11-4022-a2c3-0688975f198a))
 				- My wife's mother has just been hospitalized for her lung inflammation... without symptom until collapse, just like my wife last year.
+				- the intent on the view cone directs the action on the effect cone
+					- change the view direction, the actions automatically follow
+					- i head to the object i'm looking at, i magnify it, i concentrate resource (internal content) to mix with its content to take action pushing me toward it.
+					- intent = view direction = steering wheel
+			- 11th, ...
+			  collapsed:: true
+				-
 		- ...
