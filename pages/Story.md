@@ -3241,6 +3241,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Người ngu tự biết mình ngu
 					  Thế là có trí, người xưa dạy rồi,
 					  Ngu mà cứ nghĩ mình khôn
-					  Mới là một kẻ muôn đời thật ngu.
+					  Mới là ngu muội tận cùng của ngu.
 					- This verse is very Socratic! 😉
 		- ...
