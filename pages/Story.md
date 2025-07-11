@@ -3243,4 +3243,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  Ngu mà cứ nghĩ mình khôn
 					  Mới là ngu muội tận cùng của ngu.
 					- This verse is very Socratic! 😉
+				- Get back to official work, but it's so tedious!
 		- ...
