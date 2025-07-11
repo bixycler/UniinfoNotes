@@ -3237,5 +3237,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- intent = view direction = steering wheel
 			- 11th, ...
 			  collapsed:: true
-				-
+				- Kinh Pháp Cú (Dhammapada) > [5. Người Ngu > 63](https://bixycler.github.io/PhapCu-Dhammapada/#ColumnsView/e0-o0-i0/5/63)
+					- Người ngu tự biết mình ngu
+					  Thế là có trí, người xưa dạy rồi,
+					  Ngu mà cứ tưởng khôn thôi
+					  Mới là một kẻ muôn đời thật ngu.
+					- This verse is very Socratic! 😉
 		- ...
