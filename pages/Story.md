@@ -3235,7 +3235,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- change the view direction, the actions automatically follow
 					- i head to the object i'm looking at, i magnify it, i concentrate resource (internal content) to mix with its content to take action pushing me toward it.
 					- intent = view direction = steering wheel
-			- 11th, ...
+			- 11th, Get back to official work, but it's so tedious!
 			  collapsed:: true
 				- Kinh Pháp Cú (Dhammapada) > [5. Người Ngu > 63](https://bixycler.github.io/PhapCu-Dhammapada/#ColumnsView/e0-o0-i0/5/63)
 					- Người ngu tự biết mình ngu
@@ -3243,5 +3243,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  Ngu mà cứ nghĩ mình khôn
 					  Mới là ngu muội tận cùng của ngu.
 					- This verse is very Socratic! 😉
-				- Get back to official work, but it's so tedious!
+			- 12-13th, LSD trip sitting a friend with successful “let it go, let it flow”, balanced with bad trip at first half and bad trip at second half.
+			  collapsed:: true
+				- one sided view = semicircle => attachment to 1 side
+					- the other half is invisible or shortcut => attachment to extreme points: greed of shortcut climax (all problems are resolved at a point); fear of death
+				- breathe in accept, breathe out release!
+			- 14th, ...
+			  collapsed:: true
+				-
 		- ...
