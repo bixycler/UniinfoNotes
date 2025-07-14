@@ -768,7 +768,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Symbols: ○ (small), ◯ (large)
 		- ### magnitude
 		  id:: 67bc2fc9-8389-4455-ace9-4aac8de73e1d
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is ...
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) of a ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is the [extent](((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))) of that form measured based on a unit form called
 		- ### curvature
 		  id:: 67bc1f83-d9c4-4ee0-ac61-0de196425208
 		  collapsed:: true
