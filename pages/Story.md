@@ -3261,5 +3261,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- In the Buddhist tradition, king Suppabuddha is depicted as brother of queen Maya and queen Mahapajapati.
 						- [A Wikipedia page](https://en.wikipedia.org/wiki/Family_of_Gautama_Buddha#Ya%C5%9Bodhar%C4%81) even states that queen Amitā is a sister of king Śuddhodana!?
 						- Western scholars usually doubt such cross-cousin marriages.
+						- In the TV series [Buddha — The King of Kings](https://en.wikipedia.org/wiki/Buddha_(TV_series)), Devadatta was split away from Yasodharā to be a son of Dronadhan (Śuddhodana's second brother) and Mangala. Here, the rival betwen Devadatta and Siddhattha was dramatized to a life-long rival from youth and for the hand in marriage of Yashodhara.
+						  id:: 68749cb1-d5f2-4bb6-8b03-3cbcbfe0e388
+							- In the Pali Canon, the rival only started after Devadatta attained [psychic powers](https://en.wikipedia.org/wiki/Siddhi).
 					- Yasodharā was married to Siddhattha and gave birth to [Rāhula](https://en.wikipedia.org/wiki/R%C4%81hula).
 		- ...
