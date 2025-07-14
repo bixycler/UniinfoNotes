@@ -971,10 +971,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((67bc2fc9-8389-4455-ace9-4aac8de73e1d))
 			  id:: 66e42a2d-deb3-46dd-b477-94196a5d2d6f
 			  quantity of form
+				- forms: ((667d15c6-67c4-4998-a549-c8b3f9de3d60)), ((667d15b7-6364-49a9-ac58-c64d2a992b63)), etc.
 			- size
 			  quantity of shape
-			- length
-			  quantity of ((667d15b7-6364-49a9-ac58-c64d2a992b63))
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ((66c7fdec-59db-4f96-a8a7-913247586534))
 		- ### quantum
@@ -1007,7 +1006,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Dialectics of Nature: The transformation between the change of ((66e426df-90e4-43c0-9f02-c48c336e830d)) and the change of ((66e426ec-d29b-4614-932b-2c70693790d7)), as [a law in Dialectical Materialism](https://www.marxists.org/reference/archive/spirkin/works/dialectical-materialism/ch02-s09.html)
 		- ### direction
 		  id:: 66e42d39-a296-4ed9-a686-4cb213783830
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e42d39-a296-4ed9-a686-4cb213783830)) is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of ((667d15b7-6364-49a9-ac58-c64d2a992b63)) where its ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) is abstracted.
 		- ### qualiton
 		  id:: 671e0fcc-37b6-4f03-8e87-8923422ca8e0
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
