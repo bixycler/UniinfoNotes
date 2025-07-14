@@ -3230,11 +3230,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- action can only be seen by one's self when one withdraw the self from the action
 					- the self can just do its action, cannot see its own action.
 					- ((684f9517-1b11-4022-a2c3-0688975f198a))
-				- My wife's mother has just been hospitalized for her lung inflammation... without symptom until collapse, just like my wife last year.
 				- the intent on the view cone directs the action on the effect cone
 					- change the view direction, the actions automatically follow
 					- i head to the object i'm looking at, i magnify it, i concentrate resource (internal content) to mix with its content to take action pushing me toward it.
 					- intent = view direction = steering wheel
+				- My wife's mother has just been hospitalized for her lung inflammation... without symptom until collapse, just like my wife last year.
 			- 11th, Get back to official work, but it's so tedious!
 			  collapsed:: true
 				- Kinh Pháp Cú (Dhammapada) > [5. Người Ngu > 63](https://bixycler.github.io/PhapCu-Dhammapada/#ColumnsView/e0-o0-i0/5/63)
@@ -3268,6 +3268,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Many relatives of Siddhattha had entered the [sangha](https://en.wikipedia.org/wiki/Sangha_(Buddhism)) and became [arahants](https://en.wikipedia.org/wiki/Arhat): his wife Yasodharā, his son Rāhula, his foster-mother Mahapajapati Gotami, his half-brother [Nanda](https://en.wikipedia.org/wiki/Nanda_(half-brother_of_Buddha)), his half-sister [Sundari Nanda](https://en.wikipedia.org/wiki/Nanda_(Buddhist_nun)), his paternal cousins [Ānanda](https://en.wikipedia.org/wiki/%C4%80nanda) and [Anuruddha](https://en.wikipedia.org/wiki/Anuruddha), and his maternal cousin Devadatta.
 						- Only Devadatta didn't attain arahantship, due to his wrong intention.
 				- [Theravāda's Mahāparinibbāna Sutta](https://en.wikipedia.org/wiki/Mah%C4%81parinibb%C4%81na_Sutta) vs [Mahāyāna's Mahāparinirvāṇa Sūtra](https://en.wikipedia.org/wiki/Mah%C4%81y%C4%81na_Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra) (Kinh Đại Bát Niết Bàn)
+				  collapsed:: true
 					- The Theravāda's sutta is about the last days of [Gautama Buddha](https://en.wikipedia.org/wiki/The_Buddha).
 					- The Mahāyāna's sutra is about the [Buddha-nature](https://en.wikipedia.org/wiki/Buddha-nature).
 				- [Sūkara-maddava](https://en.wikipedia.org/wiki/Cunda_Kamm%C4%81raputta#Cunda's_Meal), the last meal of the Buddha was an anicient kōan.
@@ -3275,6 +3276,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- “No one can digest it except the Tathagata.”
 					  — [Maha-parinibbana Sutta](https://www.accesstoinsight.org/tipitaka/dn/dn.16.1-6.vaji.html#fnt-38)
 					- It's neither contaminated pork, nor poisonous mushroom, but the karmic substance that cannot be disgeted without death and rebirth in the [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra). Only the Tathagata can digest it while remaining free from saṃsāra.
-						- This is because the Budda metioned not only human but all beings in the Three Realms, including devas, māras, and brahmās, who could digest it.
-					-
+						- This is because the Buddha metioned not only human but all beings in the Three Realms, including devas, māras, and brahmās, who could digest it.
 		- ...
