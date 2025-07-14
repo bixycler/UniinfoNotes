@@ -973,6 +973,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  quantity of form
 			- size
 			  quantity of shape
+			- length
+			  quantity of ((667d15b7-6364-49a9-ac58-c64d2a992b63))
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ((66c7fdec-59db-4f96-a8a7-913247586534))
 		- ### quantum
