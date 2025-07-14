@@ -768,7 +768,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Symbols: ○ (small), ◯ (large)
 		- ### magnitude
 		  id:: 67bc2fc9-8389-4455-ace9-4aac8de73e1d
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) of a ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is the [extent](((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))) of that form measured based on a unit form called
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) of a ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) of that form measured based on a unit form called ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)).
 		- ### curvature
 		  id:: 67bc1f83-d9c4-4ee0-ac61-0de196425208
 		  collapsed:: true
@@ -1006,7 +1006,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Dialectics of Nature: The transformation between the change of ((66e426df-90e4-43c0-9f02-c48c336e830d)) and the change of ((66e426ec-d29b-4614-932b-2c70693790d7)), as [a law in Dialectical Materialism](https://www.marxists.org/reference/archive/spirkin/works/dialectical-materialism/ch02-s09.html)
 		- ### direction
 		  id:: 66e42d39-a296-4ed9-a686-4cb213783830
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e42d39-a296-4ed9-a686-4cb213783830)) is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of ((667d15b7-6364-49a9-ac58-c64d2a992b63)) where its ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) is abstracted.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e42d39-a296-4ed9-a686-4cb213783830)) is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of ((667d15b7-6364-49a9-ac58-c64d2a992b63)) where its ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) is abstracted, leaving only its ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)). In vector notation, an arrow $\vec v$ with magnitude $v = |\vec v|$ has direction represented by the unit vector $\hat{\vec v} = {\vec v}/v$.
 		- ### qualiton
 		  id:: 671e0fcc-37b6-4f03-8e87-8923422ca8e0
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
