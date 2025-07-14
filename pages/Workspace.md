@@ -37,7 +37,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		- direction
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
-		  whole-word:: false
+		  whole-word:: true
 		  filter::
 		  child-filter::
 		  search-scope:: Specific blocks: 
