@@ -1006,7 +1006,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Dialectics of Nature: The transformation between the change of ((66e426df-90e4-43c0-9f02-c48c336e830d)) and the change of ((66e426ec-d29b-4614-932b-2c70693790d7)), as [a law in Dialectical Materialism](https://www.marxists.org/reference/archive/spirkin/works/dialectical-materialism/ch02-s09.html)
 		- ### direction
 		  id:: 66e42d39-a296-4ed9-a686-4cb213783830
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e42d39-a296-4ed9-a686-4cb213783830)) is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of ((667d15b7-6364-49a9-ac58-c64d2a992b63)) where its ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) is abstracted away, leaving only its ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)), i.e. a unit arrow. In vector notation, an arrow $\vec v$, with magnitude $v = |\vec v|$, has direction represented by the unit vector ${\hat v} = {\vec v}/v$. While being unit/intent on the longitudinal direction, the direction itself has its own content represented by the circular extent on the transverse direction called phase.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66e42d39-a296-4ed9-a686-4cb213783830)) is an ((66537674-6cf9-4459-8bea-7c1858c694a3)) of ((667d15b7-6364-49a9-ac58-c64d2a992b63)) where its ((67bc2fc9-8389-4455-ace9-4aac8de73e1d)) is abstracted away, leaving only its ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)), i.e. a unit arrow. In vector notation, an arrow $\vec v$, with magnitude $v = |\vec v|$, has direction represented by the unit vector ${\hat v} = {\vec v}/v$. While being unit/intent on the longitudinal direction, the direction itself has its own content represented by the circular extent on the transverse direction called ((68750097-13e5-4662-9791-8207ec18e8aa)).
 		- ### qualiton
 		  id:: 671e0fcc-37b6-4f03-8e87-8923422ca8e0
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
@@ -2476,7 +2476,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 						  ![SCIFER-sef-vertical.png](../assets/Uniinfo/Unithread/SCIFER-sef-vertical.png)
 			- #### phase
-				-
+			  id:: 68750097-13e5-4662-9791-8207ec18e8aa
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68750097-13e5-4662-9791-8207ec18e8aa)) is the [potential](((6847e7fa-0d57-425c-b035-1a62db7725e6)))
 			- TODO Migrate [[sCIfEr]]
 			- WAIT ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 			  :LOGBOOK:
