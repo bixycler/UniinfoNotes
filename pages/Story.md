@@ -3250,9 +3250,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- breathe in accept, breathe out release!
 			- 14th, ...
 			  collapsed:: true
-				- Family tree of Gautama Buddha
+				- Family tree of Prince Siddhattha
 				  collapsed:: true
 					- Diagram
 						- ![Siddhattha-Family-Tree.jpg](../assets/Will/story/2025-07/Siddhattha-Family-Tree.jpg)
-					- The blood relation between
+					- The blood relations between Siddhattha, his wife Yasodharā, and his rival Devadatta are described in Apadāna, Jātaka, and commentaries, while not clearly stated in the main suttas of the Pāli Canon.
+					- The widely accepted relationships are that [Yasodharā](https://en.wikipedia.org/wiki/Yasodhara) and [Devadatta](https://en.wikipedia.org/wiki/Devadatta) are siblings and both are maternal cousins of Siddhattha.
+						- Yasodharā and Devadatta are daughter and son of [Suppabuddha](https://en.wikipedia.org/wiki/Suppabuddha)
+					-
 		- ...
