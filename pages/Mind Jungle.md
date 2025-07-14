@@ -3819,7 +3819,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Abstraction
 		  id:: 6716110e-5f12-4484-97ca-fde30d4ff0d3
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537674-6cf9-4459-8bea-7c1858c694a3)) is the process of abstracting details, i.e. removing details that are irrelevant to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s focus, from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)), to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537674-6cf9-4459-8bea-7c1858c694a3)) is the process of abstracting details, i.e. removing details that are irrelevant to the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s focus, from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)), to get a more concise object that can be handled easier compared to the original object with full details. The result of that process is called by many names: abstract, abstraction, summary, name, title, key, etc. Abstraction is related to ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)): ((67654618-70d2-49cd-88b7-f7c4e161dfd9)) = circle ((67654ecb-896a-4421-95e5-f72c07fc62a4)); ((676545e8-429c-41e7-97ed-12cc8e8870d4)) = pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df)); ((676545b3-2d9f-43af-8ff0-3543dbe73159)) = ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)).
 		- ### ω-abstraction
 		  id:: 67654618-70d2-49cd-88b7-f7c4e161dfd9
 		  :LOGBOOK:
