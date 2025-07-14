@@ -3271,8 +3271,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The Theravāda's sutta is about the last days of [Gautama Buddha](https://en.wikipedia.org/wiki/The_Buddha).
 					- The Mahāyāna's sutra is about the [Buddha-nature](https://en.wikipedia.org/wiki/Buddha-nature).
 				- [Sūkara-maddava](https://en.wikipedia.org/wiki/Cunda_Kamm%C4%81raputta#Cunda's_Meal), the last meal of the Buddha was an anicient kōan.
+				  collapsed:: true
 					- “No one can digest it except the Tathagata.”
 					  — [Maha-parinibbana Sutta](https://www.accesstoinsight.org/tipitaka/dn/dn.16.1-6.vaji.html#fnt-38)
 					- It's neither contaminated pork, nor poisonous mushroom, but the karmic substance that cannot be disgeted without death and rebirth in the [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra). Only the Tathagata can digest it while remaining free from saṃsāra.
-						- This is because the Budda metioned not only human but all beings in the Three Realms, including devas, māras, and brahmās.
+						- This is because the Budda metioned not only human but all beings in the Three Realms, including devas, māras, and brahmās, who could digest it.
+					-
 		- ...
