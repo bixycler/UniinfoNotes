@@ -3250,7 +3250,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- breathe in accept, breathe out release!
 			- 14th, ...
 			  collapsed:: true
-				- Family tree of prince Siddhattha (Siddhārtha )
+				- Family tree of prince Siddhattha (bodhisattva Siddhārtha Gautama and Shakyamuni Buddha)
 				  collapsed:: true
 					- Diagram
 						- ![Siddhattha-Family-Tree.jpg](../assets/Will/story/2025-07/Siddhattha-Family-Tree.jpg)
