@@ -40,8 +40,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 		  whole-word:: false
 		  filter::
 		  child-filter::
-		  search-scope:: Specific blocks: 
+		  search-scope:: Specific blocks:
 		  search-scope-page:: Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]], [[Mind Chips]], [[2024 Mind Chips]];
+		  collapsed:: true
 		  Old History: [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]];
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
