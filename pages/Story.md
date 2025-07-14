@@ -3250,7 +3250,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- breathe in accept, breathe out release!
 			- 14th, ...
 			  collapsed:: true
-				- Family tree of prince Siddhattha
+				- Family tree of prince Siddhattha (Siddhārtha )
 				  collapsed:: true
 					- Diagram
 						- ![Siddhattha-Family-Tree.jpg](../assets/Will/story/2025-07/Siddhattha-Family-Tree.jpg)
@@ -3265,5 +3265,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  id:: 68749cb1-d5f2-4bb6-8b03-3cbcbfe0e388
 							- In the Pali Canon, the rival only started after Devadatta attained [psychic powers](https://en.wikipedia.org/wiki/Siddhi).
 					- Yasodharā was married to Siddhattha and gave birth to [Rāhula](https://en.wikipedia.org/wiki/R%C4%81hula).
-					- Many relatives of Siddhattha had entered the [sangha](https://en.wikipedia.org/wiki/Sangha_(Buddhism)) and became [arahants](https://en.wikipedia.org/wiki/Arhat): his wife Yasodharā, his son Rāhula, his mother Mahapajapati Gotami, his half-brother [Nanda (half-brother of Buddha)](https://en.wikipedia.org/wiki/Nanda_(half-brother_of_Buddha))
+					- Many relatives of Siddhattha had entered the [sangha](https://en.wikipedia.org/wiki/Sangha_(Buddhism)) and became [arahants](https://en.wikipedia.org/wiki/Arhat): his wife Yasodharā, his son Rāhula, his foster-mother Mahapajapati Gotami, his half-brother [Nanda](https://en.wikipedia.org/wiki/Nanda_(half-brother_of_Buddha)), his half-sister [Sundari Nanda](https://en.wikipedia.org/wiki/Nanda_(Buddhist_nun)), his paternal cousins [Ānanda](https://en.wikipedia.org/wiki/%C4%80nanda) and [Anuruddha](https://en.wikipedia.org/wiki/Anuruddha), and his maternal cousin Devadatta.
+						- Only Devadatta didn't attain arahantship, due to his wrong intention.
 		- ...
