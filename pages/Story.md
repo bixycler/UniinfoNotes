@@ -3270,4 +3270,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Theravāda's Mahāparinibbāna Sutta](https://en.wikipedia.org/wiki/Mah%C4%81parinibb%C4%81na_Sutta) vs [Mahāyāna's Mahāparinirvāṇa Sūtra](https://en.wikipedia.org/wiki/Mah%C4%81y%C4%81na_Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra) (Kinh Đại Bát Niết Bàn)
 					- The Theravāda's sutta is about the last days of [Gautama Buddha](https://en.wikipedia.org/wiki/The_Buddha).
 					- The Mahāyāna's sutra is about the [Buddha-nature](https://en.wikipedia.org/wiki/Buddha-nature).
+				- [Sūkara-maddava](https://en.wikipedia.org/wiki/Cunda_Kamm%C4%81raputta#Cunda's_Meal), the last meal of the Buddha was an anicient kōan.
+					-
 		- ...
