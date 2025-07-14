@@ -1002,12 +1002,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  quality of object
 			- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
 			  quality of subject
-		- ### direction
-		  id:: 66e42d39-a296-4ed9-a686-4cb213783830
-			- ...
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Philosophy of mind: [qualia](https://en.wikipedia.org/wiki/Qualia)
 			- Dialectics of Nature: The transformation between the change of ((66e426df-90e4-43c0-9f02-c48c336e830d)) and the change of ((66e426ec-d29b-4614-932b-2c70693790d7)), as [a law in Dialectical Materialism](https://www.marxists.org/reference/archive/spirkin/works/dialectical-materialism/ch02-s09.html)
+		- ### direction
+		  id:: 66e42d39-a296-4ed9-a686-4cb213783830
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- ### qualiton
 		  id:: 671e0fcc-37b6-4f03-8e87-8923422ca8e0
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
