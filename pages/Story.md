@@ -3265,4 +3265,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  id:: 68749cb1-d5f2-4bb6-8b03-3cbcbfe0e388
 							- In the Pali Canon, the rival only started after Devadatta attained [psychic powers](https://en.wikipedia.org/wiki/Siddhi).
 					- Yasodharā was married to Siddhattha and gave birth to [Rāhula](https://en.wikipedia.org/wiki/R%C4%81hula).
+					-
 		- ...
