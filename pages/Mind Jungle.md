@@ -998,7 +998,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  quality of ((667d15b7-6364-49a9-ac58-c64d2a992b63))
 			- intension
 			  quality of object
-			- intent
+			- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
 			  quality of subject
 		- ### direction
 		  id:: 66e42d39-a296-4ed9-a686-4cb213783830
