@@ -3258,7 +3258,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The widely accepted relations are that [Yasodharā](https://en.wikipedia.org/wiki/Yasodhara) and [Devadatta](https://en.wikipedia.org/wiki/Devadatta) are siblings and both are maternal cousins of [Siddhattha](https://en.wikipedia.org/wiki/The_Buddha#Siddh%C4%81rtha_Gautama_and_Buddha_Shakyamuni).
 						- Siddhattha is the only son of king [Śuddhodana](https://en.wikipedia.org/wiki/%C5%9Auddhodana) and queen [Maya](https://en.wikipedia.org/wiki/Maya_(mother_of_the_Buddha)). Queen Maya died shortly after giving birth to Siddhattha, and pointed her younger sister [Mahapajapati Gotami](https://en.wikipedia.org/wiki/Mahapajapati_Gotami) to replace her.
 						- Yasodharā and Devadatta are daughter and son of king [Suppabuddha](https://en.wikipedia.org/wiki/Suppabuddha) and queen Amitā.
-						- In the Buddhist tradition, king Suppabuddha is depicted as brother of queen Maya and queen Mahapajapati.
+						- In the Buddhist tradition, king Suppabuddha is depicted as a brother of queen Maya and queen Mahapajapati.
 						- [A Wikipedia page](https://en.wikipedia.org/wiki/Family_of_Gautama_Buddha#Ya%C5%9Bodhar%C4%81) even states that queen Amitā is a sister of king Śuddhodana!?
 						- Western scholars usually doubt such cross-cousin marriages.
 						- In the TV series [Buddha — The King of Kings](https://en.wikipedia.org/wiki/Buddha_(TV_series)), Devadatta was split away from Yasodharā to be a son of Dronadhan (Śuddhodana's second brother) and Mangala. Here, the rival betwen Devadatta and Siddhattha was dramatized to a life-long rival from youth and for the hand in marriage of Yashodhara.
@@ -3267,4 +3267,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Yasodharā was married to Siddhattha and gave birth to [Rāhula](https://en.wikipedia.org/wiki/R%C4%81hula).
 					- Many relatives of Siddhattha had entered the [sangha](https://en.wikipedia.org/wiki/Sangha_(Buddhism)) and became [arahants](https://en.wikipedia.org/wiki/Arhat): his wife Yasodharā, his son Rāhula, his foster-mother Mahapajapati Gotami, his half-brother [Nanda](https://en.wikipedia.org/wiki/Nanda_(half-brother_of_Buddha)), his half-sister [Sundari Nanda](https://en.wikipedia.org/wiki/Nanda_(Buddhist_nun)), his paternal cousins [Ānanda](https://en.wikipedia.org/wiki/%C4%80nanda) and [Anuruddha](https://en.wikipedia.org/wiki/Anuruddha), and his maternal cousin Devadatta.
 						- Only Devadatta didn't attain arahantship, due to his wrong intention.
+				- [Theravāda's Mahāparinibbāna Sutta](https://en.wikipedia.org/wiki/Mah%C4%81parinibb%C4%81na_Sutta) vs [Mahāyāna's Mahāparinirvāṇa Sūtra](https://en.wikipedia.org/wiki/Mah%C4%81y%C4%81na_Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra) (Kinh Đại Bát Niết Bàn)
 		- ...
