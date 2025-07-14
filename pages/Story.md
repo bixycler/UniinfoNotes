@@ -2722,7 +2722,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- And severely, this app, VNeID, denied all of my effort to "disconnect from the old device" (a requirement for setting up on new device), with the reason that "face recognision is not satisfied".
 				- This event echos my ((6678d594-9819-4624-abd6-d4ec62b3874f)) with both pros and cons.
 					- The [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), as the deep form within, makes me prone to black/white thinking, reflecting in the tendency _toward **possibility** (yes/no) rather than **probability** (how much)_, prefering quality & qualitative thinking rather than quantity & quantitative thinking.
-					- I've attached to to it because it gives me the solid foundation to stay, to live, to do anything with a clear vision, knowing which direction to go, and so on.
+					- I've attached to it because it gives me the solid foundation to stay, to live, to do anything with a clear vision, knowing which direction to go, and so on.
 					- After being forced to try all possibitilies, i've been taught that “everything is possible”, that “everything has both sides, all aspects”, hence the matter is only the probability!
 			- 23rd, another whole day caught up in the contemplation of the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
 			  id:: 6858c668-39d3-4e73-8f9e-b9116343f489
