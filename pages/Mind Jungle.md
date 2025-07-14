@@ -2481,10 +2481,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- content = length of helical thread
 					- intent = one complete helix turn
 					- extent = content / extent = number of pitches = height of the helix in pitch unit
-					- remainder = current phase of content in the intent circle
+					- remainder = ((68750097-13e5-4662-9791-8207ec18e8aa)) of content in the intent circle
 			- #### phase
 			  id:: 68750097-13e5-4662-9791-8207ec18e8aa
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68750097-13e5-4662-9791-8207ec18e8aa)) is the [potential](((6847e7fa-0d57-425c-b035-1a62db7725e6)))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68750097-13e5-4662-9791-8207ec18e8aa)) is the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) of the remainder within the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)), represented by its percentage.
+				  ⇒ [potential](((6847e7fa-0d57-425c-b035-1a62db7725e6)))
 			- TODO Migrate [[sCIfEr]]
 			- WAIT ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 			  :LOGBOOK:
