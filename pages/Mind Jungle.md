@@ -3640,7 +3640,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-08-17 Sat 19:09:59]
 			  CLOCK: [2025-03-11 Tue 16:07:35]--[2025-03-11 Tue 16:45:48] =>  00:38:13
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The hardened contaminants & defilements which are difficult to be [broken](((66aded27-9701-4b6e-85e8-22049ddbe2d2))) should be detached and eliminated from t with [meditation (dhyāna) and contemplation](https://en.wikipedia.org/wiki/Buddhist_meditation). We should also protect ourselves from external contaminants using [ethics (sila)](https://en.wikipedia.org/wiki/Buddhist_ethics).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The hardened contaminants & defilements which are difficult to be [broken](((66aded27-9701-4b6e-85e8-22049ddbe2d2))) should be detached and eliminated from the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) with [meditation (dhyāna) and contemplation](https://en.wikipedia.org/wiki/Buddhist_meditation). We should also protect ourselves from external contaminants using [ethics (sila)](https://en.wikipedia.org/wiki/Buddhist_ethics).
 			- About the terms
 				- refine = make it finer, which can be ether purer (less contaminants, defilements) or subtler (more fine-grained)
 				- purify = make it purer
@@ -3713,6 +3713,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Anti-delusion with conscious absorption
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
 						- **Observe** the intents instead of looking at the external objects & target.
+							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from influences of the external world.
 						- This is a kind of vipassana meditation to ((684f9517-f8fc-45a3-80c9-25eca00e4eda)) the bodymind.
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
