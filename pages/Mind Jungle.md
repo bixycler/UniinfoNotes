@@ -3703,7 +3703,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Opposite to ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 antidotes: generosity ([dāna](https://en.wikipedia.org/wiki/D%C4%81na) anti-greed, bố thí, bao dung, tri túc), loving-kindness ([mettā](https://en.wikipedia.org/wiki/Mett%C4%81) anti-aversion, từ bi, nhẫn nhục, thiền định), wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism) anti-delusion, trí tuệ, thiền quán).
 			- ### 3 absorptions
 			  id:: 6850c7e4-0969-45b7-9ca8-e2c1d764effe
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 groups of practices correponding to [3 levels of absorptions](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html) as follows. The karmic pleasures will be replaced by the new rewards of the these practices.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 groups of antidotal practices correponding to [3 levels of absorptions](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html) as follows. The karmic pleasures will be replaced by the new rewards of the these absorptions.
 					- Anti-greed with static absorption
 						- [**Reset**](((67445065-15b2-475e-a704-78f140d487af))) to break the “goal reaching” pattern and to put the attractive target (intent) aside.
 						- **Retract to the belly** with ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) for the mindbody to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
@@ -3713,7 +3713,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Anti-delusion with conscious absorption
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
 						- **Observe** the intents instead of looking at the external objects & target.
-							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from influences of the external world.
+							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma and influences of the external world.
 						- This is a kind of vipassana meditation to ((684f9517-f8fc-45a3-80c9-25eca00e4eda)) the bodymind.
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))

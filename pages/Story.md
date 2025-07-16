@@ -3319,5 +3319,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Em thấy cái Tôi nó tinh vi chưa 😉
 			- 16th, ...
 			  collapsed:: true
-				-
+				- Through practice, i've refined the 3 levels of absorptions and linked them with [antidotal practices](((6850c7e4-0969-45b7-9ca8-e2c1d764effe))) for 3 poisons.
+					- The refined conscious absorption this morning
 		- ...
