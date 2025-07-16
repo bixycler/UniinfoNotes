@@ -3244,10 +3244,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  Mới là ngu muội tận cùng của ngu.
 					- This verse is very Socratic! 😉
 			- 12-13th, LSD trip sitting a friend with successful “let it go, let it flow”, balanced with bad trip at first half and bad trip at second half.
+			  id:: 6874657a-c5dd-46fb-a2f3-1d7f059e2a07
 			  collapsed:: true
+				- Trip log
+					- 11:40: tới chùa Niệm Phật, Hiệp 200μg in, Định 200μg ex
+					- 12:20: Hiệp bắt đầu thấy cảm giác ớn trong người
+					- 12:40: quay [video 20 phút](https://photos.google.com/photo/AF1QipM8TX8052m0uVEbreAub1k_ARc_Rlv9Y-Squ2rb)
+					- 13:03: hít thở vào flow rồi đã ra, thấy mệt quá!
+					- 15:20: vừa qua mưa ☔, rồi tạnh, rồi chuẩn bị mưa nữa 😆
+					- 17:20: vừa qua rất nhiều thăng trầm, giờ mình đã tỉnh dậy, gọi điện xin lỗi những người mình đã làm phiền
+					- 20:20: sau khi thiền nhập định, niết bàn đủ thứ, đi bộ, đi xe máy, giờ đã về tới nhà nghỉ Nam Vy
+					- 22:00: sau một hồi ngồi thiền trong phòng, mình ra ngoài sân cho dãn gân cốt
+					- 23:00: ra ngoài đứng ngồi, ngồi đứng một hồi thì đã vô lại phòng
+				- breathe in accept, breathe out release!
 				- one sided view = semicircle => attachment to 1 side
 					- the other half is invisible or shortcut => attachment to extreme points: greed of shortcut climax (all problems are resolved at a point); fear of death
-				- breathe in accept, breathe out release!
 			- 14th, ...
 			  collapsed:: true
 				- Family tree of prince Siddhattha (bodhisattva Siddhārtha Gautama and Shakyamuni Buddha)
@@ -3285,7 +3296,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- matched pair of arrows differ in orientation (sign)
 					- zero = epsilon = quantum
 					- infinity = out of scope
-			- 15th, ...
+			- 16th, ...
 			  collapsed:: true
 				-
 		- ...
