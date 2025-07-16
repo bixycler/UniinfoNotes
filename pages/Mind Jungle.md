@@ -3349,7 +3349,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d))
 				  “Breathe in accept, breathe out release”
 				  “Hít vào chấp nhận, thở ra buông xả”
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to accept everything no matter how bad or good it is, just inhale it, let it flow into the bodymind. Don't hold on anything, neither form nor feeling nor intent, etc., just exhale them all, let them flow out of the bodymind. This breathing technique help transcycle
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to accept everything no matter how bad or good it is, just inhale it, let it flow into the bodymind. Don't hold on anything, neither form nor feeling nor intent, etc., just exhale them all, let them flow out of the bodymind. This breathing technique help smoothly ((687743fd-9d45-45be-b9fd-3055cbb8a938)) everything through the mindbody without being obstructed, i.e. “throughness”.
 			- ### sublime-channel
 			  id:: 668f5490-c223-4a8a-9cc4-0bd71af4c097
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) thăng hoa - dẫn lưu
@@ -4465,13 +4465,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a963d9-e7d3-4e46-a608-24059d730f4a)) are ((669a58b9-eb34-41cd-8605-02e29b07e1b5))s of ((66ab75a1-f4a0-4bab-a002-8e573546623a)), including basic operations like ((67a98760-71fa-4033-9c42-f3025d632d04)), ((67a9876d-03ee-4f1f-85be-619fb54c8bc6)), ....
 			- transcycling
 			  id:: 67a98760-71fa-4033-9c42-f3025d632d04
+			  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((687743fd-9d45-45be-b9fd-3055cbb8a938))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a98760-71fa-4033-9c42-f3025d632d04)) is the movement of a ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) of ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) on its ((66ab75a1-f4a0-4bab-a002-8e573546623a)) thanks to its ((66f3e588-9094-45af-9dff-2225c3ac39ab)). In general, there are 3 parts of this movement: thread input, rotating inside, and thread output. Transcycling is the “effect” in ((667bef22-b272-4a7d-b613-3f1ed1a47329)) of the Ω-thread. In Unithread view, all [bodies](((66c810a0-9861-4787-bdcf-1378219332be))) in the worlds, from celestial bodies, organisms (thread = food & info), to simple physical objects (thread = energy), are "living" (existing) by this movement. The difference is just how complicated the "rotation" inside that body is.
 					- Illustration
 					  id:: 67b183f5-f8fe-4b88-99c1-530fec38ae93
 					  collapsed:: true
 						- ![RollingLoop](https://docs.google.com/drawings/d/e/2PACX-1vTc1vvF4Bghp7a62iW_QccyZaVtiJR9eD8d44eIxfqCeXof9NY4tvKP179l3tfLH4M7mLZKQXBqWmKc/pub?w=473&h=123)
 				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “transcycling” = “translation + cycling”
-				  {{embed ((67a963d2-c9b5-47e0-9b4d-9d6323a76c28))}}
+				- transcycle
+				  id:: 687743fd-9d45-45be-b9fd-3055cbb8a938
+				  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((67a98760-71fa-4033-9c42-f3025d632d04))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) 
+					  {{embed ((67a963d2-c9b5-47e0-9b4d-9d6323a76c28))}}
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- transcycling ~ ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)), while interunion ~ ((66f40210-cca6-4d81-85e7-d0c54ef20451))
 					- ((6783e3ff-9e8f-43db-a173-5d0c6972deab))

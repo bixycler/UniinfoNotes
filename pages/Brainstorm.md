@@ -579,7 +579,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- In Unithread view, all [bodies](((66c810a0-9861-4787-bdcf-1378219332be))) in the worlds, from celestial bodies, organisms (thread = food & info), to simple physical objects (thread = energy), are "living" (existing) by this movement. The difference is just how complicated the "rotation" inside that body is.
 				- I think “**transcycling** = cycling + translation” should be an apt term for this general movement.
 					- “transcycling = cycling + exchange (I/O)”: the bicycle cycling, itself, includes the translation of the bicycle and the exchange of momentum, but i add the prefix “trans” to stress the intrinsic exchange of content, transition of state, transformation of thread.
-					- Verb “to transcycle”: When an obop transcycles *on/along* the thread from left to right, it transcycles the thread through its body and effectively makes the thread move from right to left relative to the obop.
+					- About the verb “to ((687743fd-9d45-45be-b9fd-3055cbb8a938))”: When an obop transcycles *on/along* the thread from left to right, it transcycles the thread through its body and effectively makes the thread move from right to left relative to the obop.
 					  id:: 67a963d2-c9b5-47e0-9b4d-9d6323a76c28
 						- Intransitive verb: “to transcycle on somebody” ~ “to cycle on road” ~ “to traverse some place”
 						- Transitive verb: “to transcycle something” ~ “to recycle something”
