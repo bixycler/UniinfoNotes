@@ -3701,16 +3701,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68392a1f-6685-4d0f-9de8-4ae42964e249))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) [Three wholesome mental factors](https://en.wikipedia.org/wiki/Three_poisons#Opposite_wholesome_qualities)
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Opposite to ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 antidotes: generosity ([dāna](https://en.wikipedia.org/wiki/D%C4%81na) anti-greed, bố thí, bao dung, tri túc), loving-kindness ([mettā](https://en.wikipedia.org/wiki/Mett%C4%81) anti-aversion, từ bi, nhẫn nhục, thiền định), wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism) anti-delusion, trí tuệ, thiền quán).
-			- ### 3 practices
+			- ### 3 antidotal practices
 			  id:: 6850c7e4-0969-45b7-9ca8-e2c1d764effe
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 groups of practices. The karmic pleasures will be replaced by the new rewards of the these practices.
-					- Anti-greed
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 groups of practices as follows. The karmic pleasures will be replaced by the new rewards of the these practices.
+					- Anti-greed with static absorption
 						- [**Reset**](((67445065-15b2-475e-a704-78f140d487af))) to break the “goal reaching” pattern and to put the attractive target (intent) aside.
 						- **Retract to the belly** with ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) for the mindbody to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
-					- Anti-aversion
+					- Anti-aversion with flow absorption
 					  id:: 68594391-006a-4630-964a-4a54e916b97f
 						- Use **breathworks** – ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) & ((68773fad-d653-4536-87b5-d4b493753b41)) – to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
-					- Anti-delusion
+					- Anti-delusion with conscious absorption
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
 						- **Observe** the intents instead of looking at the external objects & target.
 						- This is a kind of vipassana meditation to ((684f9517-f8fc-45a3-80c9-25eca00e4eda)) the bodymind.
