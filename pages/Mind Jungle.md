@@ -1294,6 +1294,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67bd7811-ce55-402f-8fb2-08b59fb271c9))
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67b183f5-1cca-4473-917e-60c644dd5466)) is the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of [physical dynamics](https://en.wikipedia.org/wiki/Dynamics_(mechanics)).
 							- Circle: distribution (position) → density (yank) → [curvature = force](((67b5c77d-c42c-4dc5-8d47-fd82f535177a))) → momentum → position (distribution) → ...
+								- ((67b183f5-dba7-4a11-8a72-3c619e3709ea))
 								- The circle is composed of 2 arrows, [view cone](((684f9517-c0d3-48cb-bf23-3d71963551e5))) + [effect cone](((684f9517-b417-47da-ab50-38f625511e9d))), hence just the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) wrapped around, like the Ouroboros and the taijitu ☯️ (☯).
 							- ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): spatial distribution → density → curvature
 							  id:: 684f9517-c0d3-48cb-bf23-3d71963551e5
