@@ -3264,7 +3264,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Vì đó là chứng nghiệm của bản thân tui, chỉ khi tui vượt qua địa ngục thì mới tới chỗ giải thoát. Như trên group tui có nói là tui đi thấy địa ngục đó (không biết lúc đó có ông trong group không nhỉ 🤔)
 					- 2. Để ông tiếp tục tập "flow" thì tui thấy chắc ông cứ tiếp tục mượn cái đau khi ngồi kiết già để hít thở kéo cảm thọ đó chạy khắp toàn thân đi, thay vì đè nó xuống như hồi đó.
 						- Khi nào cái đó thành thục thì mình mới chuyển sang những thứ khác vi tế hơn, như thuần hơi thở. 😉
-				- breathe in accept, breathe out release!
+				- The technique of ((68773fad-d653-4536-87b5-d4b493753b41)) echoes throughout this trip and after that.
 				- one sided view = semicircle => attachment to 1 side
 					- the other half is invisible or shortcut => attachment to extreme points: greed of shortcut climax (all problems are resolved at a point); fear of death
 			- 14th, ...

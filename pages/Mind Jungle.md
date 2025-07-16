@@ -3338,11 +3338,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- ### let-go
 			  id:: 669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) buông xả, ((669a5162-19e1-4c52-8888-ab7cbfe275ec))
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) buông xả, ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), ((68773fad-d653-4536-87b5-d4b493753b41))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In Buddhism, this is the main technique to achieve ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
-				- relax-reduce
+				- relax–reduce
 				  id:: 669a5162-19e1-4c52-8888-ab7cbfe275ec
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, _relax_ the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) so that it doesn't hold on objects anymore, then _reduce_ the size of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) by letting all uneven stuffs go away so that only the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle remains.
+				- accept–release
+				  id:: 68773fad-d653-4536-87b5-d4b493753b41
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d))
+				  “Breathe in accept, breathe out release”
+				  “Hít vào chấp nhận, thở ra buông xả”
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, _relax_ the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) so that it doesn't hold on objects anymore, then _reduce_ the size of the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) by letting all uneven stuffs go away so that only the ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) circle remains.
 			- ### sublime-channel
 			  id:: 668f5490-c223-4a8a-9cc4-0bd71af4c097
