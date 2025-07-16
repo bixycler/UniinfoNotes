@@ -3256,6 +3256,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- 20:20: sau khi thiền nhập định, niết bàn đủ thứ, đi bộ, đi xe máy, giờ đã về tới nhà nghỉ Nam Vy
 					- 22:00: sau một hồi ngồi thiền trong phòng, mình ra ngoài sân cho dãn gân cốt
 					- 23:00: ra ngoài đứng ngồi, ngồi đứng một hồi thì đã vô lại phòng
+				- Trip review
+					- 1. Trip này extreme, qua được cửa tử, và cân bằng. Nửa đầu là bad trip cân bằng với good trip ở nửa sau.
+						- Nếu ông chưa đủ căn cơ tu tập, và nếu tui không chịu nổi khi bị coi là ma 👻, không bình tĩnh đồng hành cùng ông vượt qua, thì có thể sẽ bị mất cân bằng sang hướng bad trip.
+						- Và ngược lại, nếu áp dụng nhiều thủ thuật để che đi cái "bad" như các trung tâm thực hiện thì lại khiến thuốc thức thần trở thành chất gây nghiện (mọi thứ thừa sướng thiếu khổ đều gây nghiện)
+						- Tiêu chí của tui là đối diện với thực tế "no pain no gain"
+						- Vì đó là chứng nghiệm của bản thân tui, chỉ khi tui vượt qua địa ngục thì mới tới chỗ giải thoát. Như trên group tui có nói là tui đi thấy địa ngục đó (không biết lúc đó có ông trong group không nhỉ 🤔)
+					- 2. Để ông tiếp tục tập "flow" thì tui thấy chắc ông cứ tiếp tục mượn cái đau khi ngồi kiết già để hít thở kéo cảm thọ đó chạy khắp toàn thân đi, thay vì đè nó xuống như hồi đó.
+						- Khi nào cái đó thành thục thì mình mới chuyển sang những thứ khác vi tế hơn, như thuần hơi thở. 😉
 				- breathe in accept, breathe out release!
 				- one sided view = semicircle => attachment to 1 side
 					- the other half is invisible or shortcut => attachment to extreme points: greed of shortcut climax (all problems are resolved at a point); fear of death
@@ -3296,6 +3304,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- matched pair of arrows differ in orientation (sign)
 					- zero = epsilon = quantum
 					- infinity = out of scope
+			- 15th, ...
+			  collapsed:: true
+				- trốn ra ngoài tìm mồi
+					- Hôm qua anh gọi em và sau đó gọi cả thằng em Tuấn đó là để "tìm vận may" đó 😉
+					- Quán thấy vấn đề của mình khủng quá, ngại đối diện nó, ngại giải quyết nó một mình, nên tìm người ngoài hòng kiếm được sự trợ giúp... nhưng hiển nhiên... đó chỉ là sự lươn lẹo của đầu óc để tạm trốn ra ngoài chơi bời tí thôi, chứ ai mà giúp được mình 🤪
+					- Anh phân tích cái Tôi trong việc "tìm vận may" đó, em xem thế nào nhé:
+						- 1. Mình đang phải đối diện với vấn đề nan giải, quá lớn để có thể giải quyết được ngay.
+							- => cảm thấy bất lực, muốn tìm cái gì nhỏ hơn mà mình làm "có lực" hơn.
+						- 2. Cỗ máy vô thức tự động scan trong cái kho sở trường của mình thì thấy việc mình chia sẻ thế mạnh của mình cho người khác là thứ mình làm "có lực" nhứt.
+							- => nhắm sang những "con mồi" quen thuộc: con mồi Trung thì ở tuốt Vũng Tàu, con mồi Hiệp thì về Pháp rồi, con mồi Tú thì chắc đang bận nhưng cứ gọi thử.... không được thì chuyển qua con mồi Tuấn 😃
+							- Tuy nhiên, sự lươn lẹo của đầu óc thì nó lại nghĩ khác, không hề nói cái lý do chính như đang phân tích đây, mà chỉ nói là "cứ thử tìm mấy bạn này xem mình có được nhắc nhở, có được gợi ý để thấy ra cái gì hay ho không?" (thử vận may) 😂
+					- Em thấy cái Tôi nó tinh vi chưa 😉
 			- 16th, ...
 			  collapsed:: true
 				-
