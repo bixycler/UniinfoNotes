@@ -3350,7 +3350,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  “Breathe in accept, breathe out release”
 				  “Hít vào chấp nhận, thở ra buông xả”
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to accept everything no matter how bad or good it is, just inhale it, let it flow into the bodymind. Don't hold on anything, neither form nor feeling nor intent, etc., just exhale them all, let them flow out of the bodymind. This breathing technique help smoothly ((687743fd-9d45-45be-b9fd-3055cbb8a938)) everything through the mindbody without being obstructed, i.e. [“being through”](((684f951a-ee4f-4765-b2d9-58ff04b84979))).
-			- ### sublime-channel
+			- ### sublime–channel
 			  id:: 668f5490-c223-4a8a-9cc4-0bd71af4c097
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) thăng hoa - dẫn lưu
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, use breathwork to dissolve, to _sublimate_ the hard ((669a5387-2a97-4311-a295-aa0afd9c4d76)) into a fluid (qi, khí, 氣), then use qigong (氣功) & [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))) to transform & _channel_ the fluid to the required target form. The process should repeat until we reach [equilibrium](((669a58b9-2104-4d4c-b68f-7a45e2adb915))).
@@ -3452,15 +3452,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Opposite to ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 antidotes: generosity ([dāna](https://en.wikipedia.org/wiki/D%C4%81na) anti-greed, bố thí, bao dung, tri túc), loving-kindness ([mettā](https://en.wikipedia.org/wiki/Mett%C4%81) anti-aversion, từ bi, nhẫn nhục, thiền định), wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism) anti-delusion, trí tuệ, thiền quán).
 			- ### 3 practices
 			  id:: 6850c7e4-0969-45b7-9ca8-e2c1d764effe
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 practices: reset, breathwork, and meditation. The karmic pleasures will be replaced by the new rewards of the these practices.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 groups of practices. The karmic pleasures will be replaced by the new rewards of the these practices.
 					- Anti-greed
 						- [**Reset**](((67445065-15b2-475e-a704-78f140d487af))) to break the “goal reaching” pattern and to put the attractive target (intent) aside.
-						- **Retract to the belly** to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
+						- **Retract to the belly** with ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) for the mindbody to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
 					- Anti-aversion
 					  id:: 68594391-006a-4630-964a-4a54e916b97f
 						- Use **breathwork** to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
 					- Anti-delusion
-						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion. This is a kind of vipassana meditation.
+						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
+						- **Observe** the intents instead of looking at the external objects & target.
+						- This is a kind of vipassana meditation.
 				- #### Reset
 				  id:: 67445065-15b2-475e-a704-78f140d487af
 				  collapsed:: true
