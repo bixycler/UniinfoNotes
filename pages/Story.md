@@ -3322,8 +3322,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Through practice, i've refined the 3 levels of absorptions and linked them with [antidotal practices](((6850c7e4-0969-45b7-9ca8-e2c1d764effe))) for 3 poisons.
 					- The refined conscious absorption this morning prompted for the unification between dynamics with [sequential intents](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) (SCFIER, ((67bd3614-2520-4a5d-8b3f-44f60901844e)), ((67bd7811-ce55-402f-8fb2-08b59fb271c9))) and dynamics with parallel/orthogonal intents, as well as the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
 						- With conscious absorption, all intents are equal, orthogonal
-							- All worlds are equal
-							- The mind can be settled down to a round circle by
+							- All worlds are equal. They are different only by the order of intent sequence.
+							- The mind can be settled down to a round circle by balancing all intents: all digits/derivatives are equal.
 						- Relativity of intent order: The ((66e42d39-a296-4ed9-a686-4cb213783830)) is both an [antenna](((686e096b-d730-4d9e-ae58-4ca2cf7b93aa))) (head) and a remainder (tail).
 							- like the devil's tail
 							  collapsed:: true
