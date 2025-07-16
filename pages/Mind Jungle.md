@@ -3453,7 +3453,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ### 3 practices
 			  id:: 6850c7e4-0969-45b7-9ca8-e2c1d764effe
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 practices: reset, breathwork, and meditation. The karmic pleasures will be replaced by the new rewards of the these practices.
-					- Ani-greed
+					- Anti-greed
 						- [**Reset**](((67445065-15b2-475e-a704-78f140d487af))) to break the “goal reaching” pattern and to put the attractive target (intent) aside.
 						- **Retract to the belly** to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
 					- Anti-aversion
@@ -3463,6 +3463,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion. This is a kind of vipassana meditation.
 				- #### Reset
 				  id:: 67445065-15b2-475e-a704-78f140d487af
+				  collapsed:: true
 				  unload the intent structure
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Instead of ~~[aiming at the destination](((684f9517-db29-4079-8674-09e0ffaff6ba)))~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_ Start from resetting the [attitude](((684f9517-33c3-4a20-9fd1-936d9cc98fee))), then ((674c11d4-894a-46d1-b653-5e8148773d7a)), with continous ((684f9517-48e7-46ae-943d-8744cdd07564)) which is supported by ((67cff615-ec0d-4831-9851-59410cb89cf1)).
 					- Reset button
