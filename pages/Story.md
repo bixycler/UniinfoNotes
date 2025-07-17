@@ -3329,4 +3329,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- like the devil's tail
 							  collapsed:: true
 								- ![little-devil-clipart-lg.png](../assets/Will/story/2025-07/little-devil-clipart-lg.png)
+				- ~~Trinion~~ FoC dynamics via effect flow torus
+					- self-circle is the form transcycling the content arrows of the world circle through the obop equal.
+					- distribution of the effect threads is determined by the knowledge cone of the self => 3 directions
+					- the center of the self-circle is the apex of the knowledge cone = intent cone = representative of the whole, the perfect, the target, the root of restoring force
+					- the self-circle is driven by the force field of distortion created by its knowledge, to go toward the the intent, to optimize itself toward the perfect form (round circle)
+						- the perfection is the meta form at infinity (zero intent), driving the self to change & learn
 		- ...
