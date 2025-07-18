@@ -1287,7 +1287,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- 5 buddhas in in [Vajrayana](https://en.wikipedia.org/wiki/Vajrayana)
 							- Image
 								- ![5 buddhas](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
-								- Note that in this image, as well as most of the images, all buddhas are facing east, i.e. Amitabha buddha at the West is shown on the top.
+								- ![Mandala_of_Vajradhatu.png](../assets/Will/story/2025-07/Mandala_of_Vajradhatu.png)
+								- Note that in these images, as well as most of the images, all buddhas are facing east, i.e. Amitabha buddha at the West is shown on the top.
 						- [Akṣobhya](https://en.wikipedia.org/wiki/Akshobhya) buddha (Bất Động phật): east, water, blue, form, Ālaya-vijñāna → Mirror-like wisdom (Ādarśa-jñāna, Đại viên kính trí [大圓鏡智])
 						- [Ratnasambhava](https://en.wikipedia.org/wiki/Ratnasambhava) buddha (Bảo Sanh phật): south, earth, yellow, sense, [Mānas](https://en.wikipedia.org/wiki/Manas-vijnana)-vijñāna → Equality widom (Samatā-jñāna, Bình đẳng tánh trí [平等性智])
 						- [Amitābha](https://en.wikipedia.org/wiki/Amit%C4%81bha) buddha (Vô Lượng Quang phật, A-di-đà phật): west, fire, red, concept, mano-vijñāna → (Pratyavekṣaṇa-jñāna, Diệu quan sát trí [妙觀察智])
