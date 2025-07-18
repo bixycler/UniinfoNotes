@@ -1283,6 +1283,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Sensasion and action are input and output contents of the subject.
 						- Awareness is the opening of the subject's obop.
 					- [5 Families](https://en.wikipedia.org/wiki/Five_Tath%C4%81gatas#Main_aspects_of_the_Five_Families): 5 aggregates, 5 buddhas, [5 wisdoms](https://en.wikipedia.org/wiki/Five_wisdoms), 5 directions, 5 dynamic derivatives $mx, ∂_x m, m\ddot x = F, m\dot x = p, m\ddot x = c^2 ∂_x^2m$
+					  collapsed:: true
 						- 5 buddhas in in [Vajrayana](https://en.wikipedia.org/wiki/Vajrayana)
 							- Image
 								- ![5 buddhas](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
