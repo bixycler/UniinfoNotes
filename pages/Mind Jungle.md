@@ -1286,8 +1286,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- 5 buddhas in in [Vajrayana](https://en.wikipedia.org/wiki/Vajrayana)
 							- Image
 								- ![5 buddhas](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
-						- [Akṣobhya](https://en.wikipedia.org/wiki/Akshobhya) buddha: blue, east, form, Mirror-like wisdom ([Ādarśa-jñāna](https://www.wisdomlib.org/definition/pancajnana#tibetan-buddhism)) ← Ālaya-vijñāna
-						- [Ratnasambhava](https://en.wikipedia.org/wiki/Ratnasambhava) buddha: yellow, south, sense, Sameness widom ([Samatājñāna](https://www.wisdomlib.org/definition/pancajnana#tibetan-buddhism)) ← [Mānas](https://en.wikipedia.org/wiki/Manas-vijnana)-vijñāna
+						- [Akṣobhya](https://en.wikipedia.org/wiki/Akshobhya) buddha: blue, east, form, Ālaya-vijñāna → Mirror-like wisdom (Ādarśa-jñāna, Đại viên kính trí [大圓鏡智])
+						- [Ratnasambhava](https://en.wikipedia.org/wiki/Ratnasambhava) buddha: yellow, south, sense, Equality widom (Samatā-jñāna, Bình đẳng tánh trí) ← [Mānas](https://en.wikipedia.org/wiki/Manas-vijnana)-vijñāna
 					- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
 					  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
 						- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
