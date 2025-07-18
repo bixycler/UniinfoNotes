@@ -1262,7 +1262,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :END:
 					- Diagram
 					  id:: 67b183f5-dba7-4a11-8a72-3c619e3709ea
-						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=800)
+						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=800){:height 684, :width 790}
 						  id:: 6835b165-8a07-4156-9440-a4536b5c8be3
 					- SCIFER with subtract - divide - add - multiply, and exp-log spiral
 					  id:: 6835b165-5071-423a-a17b-80eb9b6278ef
@@ -1279,9 +1279,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Five aggregates in ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)) model
 						- Diagram
 							- ![FoC-skandha](https://docs.google.com/drawings/d/e/2PACX-1vQmz0Mb9Ms-L-mfW3ayJIGi1OnNWIMHaTuilZr_I1Zc6DeZ3bq-juzHrwjsQHl294OUoy4PQuv0EsX4/pub?w=300)
-							- Form and concept are external and internal forms, i.e. object and subject.
-							- Sensasion and action are input and output.
-							- Awareness is the opening of the obop.
+						- Form and concept are external and internal forms, i.e. object and subject.
+						- Sensasion and action are input and output contents of the subject.
+						- Awareness is the opening of the subject's obop.
 					- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
 					  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
 						- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
