@@ -1276,7 +1276,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  → ...
 						- Layers of sustents $s_k$ = layers of awareness = layers of log spiral
 							- $r = c - f < i$ is the distance to target, error, mismatch of the outer layer which is the intent of the inner layer $r = i'$ to look at the outer self $i = c'$.
-					- Five aggregates
+					- Five aggregates in ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)) model
+						- Diagram
+							- ![FoC-skandha](https://docs.google.com/drawings/d/e/2PACX-1vQmz0Mb9Ms-L-mfW3ayJIGi1OnNWIMHaTuilZr_I1Zc6DeZ3bq-juzHrwjsQHl294OUoy4PQuv0EsX4/pub?w=300)
+							- Form and concept are external and internal forms, i.e. object and subject.
+							- Sensasion and action are input and output.
+							- Awareness is the opening of the obop.
 					- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
 					  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
 						- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
