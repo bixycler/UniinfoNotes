@@ -2671,7 +2671,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  “Quảng đức nhược bất túc” 
 									  “Those with noble Virtue seem lacking”
 									  “Người có Đức lớn dường như thiếu Đức”
-				- Trinion dynamics ~ circle dynamics: equal = center, arrows = out & in radius, circle = trajectory of the arrowhead
+				- FoC dynamics ~ circle dynamics: equal = center, arrows = out & in radius, circle = trajectory of the arrowhead
 				  id:: 686e580a-876e-47cf-b2cc-1381bc64cdb9
 				  collapsed:: true
 					- point equal: the init close loop of arrows

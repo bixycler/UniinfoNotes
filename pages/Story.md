@@ -3297,7 +3297,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  — [Maha-parinibbana Sutta](https://www.accesstoinsight.org/tipitaka/dn/dn.16.1-6.vaji.html#fnt-38)
 					- It's neither contaminated pork, nor poisonous mushroom, but the karmic substance that cannot be disgeted without death and rebirth in the [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra). Only the Tathagata can digest it while remaining free from saṃsāra.
 						- This is because the Buddha metioned not only human but all beings in the Three Realms, including devas, māras, and brahmās, who could digest it.
-				- Trinion (circle) dynamics (arrow) toward the perfect (equal): round circle (the whole), straight arrow (through, even, uniform), absolute equal (perfect match, absolute balance, absolute zero intent, absolute infinite extent)
+				- FoC (circle) dynamics (arrow) toward the perfect (equal): round circle (the whole), straight arrow (through, even, uniform), absolute equal (perfect match, absolute balance, absolute zero intent, absolute infinite extent)
 				  collapsed:: true
 					- SCIFER stays at the states of zero remainder (null phase, whole extent), but not forever
 					- circles, whole numbers are images of the whole, but not the whole
@@ -3329,7 +3329,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- like the devil's tail
 							  collapsed:: true
 								- ![little-devil-clipart-lg.png](../assets/Will/story/2025-07/little-devil-clipart-lg.png)
-				- ~~Trinion~~ FoC dynamics via effect flow torus
+				- ~~Trinion~~ ((6858b355-fba9-4e61-9f16-bc993a3df44b)) via effect flow torus
 					- self-circle is the form transcycling the content arrows of the world circle through the obop equal.
 					- distribution of the effect threads is determined by the knowledge cone of the self => 3 directions
 					- the center of the self-circle is the apex of the knowledge cone = intent cone = representative of the whole, the perfect, the target, the root of restoring force
