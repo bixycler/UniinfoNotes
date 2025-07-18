@@ -2601,6 +2601,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((685a58f3-6393-48df-966b-24b270a92b58))
 		- *All beings have the same content.*
 		  id:: 678e1960-58d6-4cf3-8fe3-25f2f4489b33
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-01-20 Mon 16:37:39]
 		  :END:
