@@ -1286,11 +1286,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- 5 buddhas in in [Vajrayana](https://en.wikipedia.org/wiki/Vajrayana)
 							- Image
 								- ![5 buddhas](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/photos/photo_24@07-04-2024_21-19-24.jpg){:width 300}
-						- [Akṣobhya](https://en.wikipedia.org/wiki/Akshobhya) buddha (Bất Động phật): east, blue, form, Ālaya-vijñāna → Mirror-like wisdom (Ādarśa-jñāna, Đại viên kính trí [大圓鏡智])
-						- [Ratnasambhava](https://en.wikipedia.org/wiki/Ratnasambhava) buddha (Bảo Sanh phật): south, yellow, sense, [Mānas](https://en.wikipedia.org/wiki/Manas-vijnana)-vijñāna → Equality widom (Samatā-jñāna, Bình đẳng tánh trí [平等性智])
-						- [Amitābha](https://en.wikipedia.org/wiki/Amit%C4%81bha) buddha (Vô Lượng Quang phật, A-di-đà phật): west, red, concept, mano-vijñāna → (Pratyavekṣaṇa-jñāna, Diệu quan sát trí [妙觀察智])
-						- [Amoghasiddhi](https://en.wikipedia.org/wiki/Amoghasiddhi) buddha (Bất Không Thành Tựu phật): north, green, act, five sensory awarenesses ({cakṣur,śrotra,ghrāṇa,jihvā,kāya}-vijñāna) → (Kṛty-anuṣṭhāna-jñāna, Thành sở tác trí [成所作智])
-						- [Vairocana](https://en.wikipedia.org/wiki/Vairocana) buddha (Đại Nhật phật): center, white, aware, [Dharmadhātu](https://en.wikipedia.org/wiki/Dharmadhatu) → [Suchness](https://en.wikipedia.org/wiki/Suchness) wisdom (Tathātā-jñāna, Chân như trí [真如智], Dharmadhātu-svabhāva-jñāna, Pháp giới thể tánh trí [法界體性智])
+						- [Akṣobhya](https://en.wikipedia.org/wiki/Akshobhya) buddha (Bất Động phật): east, water, blue, form, Ālaya-vijñāna → Mirror-like wisdom (Ādarśa-jñāna, Đại viên kính trí [大圓鏡智])
+						- [Ratnasambhava](https://en.wikipedia.org/wiki/Ratnasambhava) buddha (Bảo Sanh phật): south, earth, yellow, sense, [Mānas](https://en.wikipedia.org/wiki/Manas-vijnana)-vijñāna → Equality widom (Samatā-jñāna, Bình đẳng tánh trí [平等性智])
+						- [Amitābha](https://en.wikipedia.org/wiki/Amit%C4%81bha) buddha (Vô Lượng Quang phật, A-di-đà phật): west, fire, red, concept, mano-vijñāna → (Pratyavekṣaṇa-jñāna, Diệu quan sát trí [妙觀察智])
+						- [Amoghasiddhi](https://en.wikipedia.org/wiki/Amoghasiddhi) buddha (Bất Không Thành Tựu phật): north, wind, green, act, five sensory awarenesses ({cakṣur,śrotra,ghrāṇa,jihvā,kāya}-vijñāna) → (Kṛty-anuṣṭhāna-jñāna, Thành sở tác trí [成所作智])
+						- [Vairocana](https://en.wikipedia.org/wiki/Vairocana) buddha (Đại Nhật phật): center, space, white, aware, [Dharmadhātu](https://en.wikipedia.org/wiki/Dharmadhatu) → [Suchness](https://en.wikipedia.org/wiki/Suchness) wisdom (Tathātā-jñāna, Chân như trí [真如智], Dharmadhātu-svabhāva-jñāna, Pháp giới thể tánh trí [法界體性智])
 						- References
 							- [五智](https://buddhaspace.org/dict/fk/data/%25E4%25BA%2594%25E6%2599%25BA.html)
 					- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
