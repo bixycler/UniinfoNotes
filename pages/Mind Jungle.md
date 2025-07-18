@@ -1276,6 +1276,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  → ...
 						- Layers of sustents $s_k$ = layers of awareness = layers of log spiral
 							- $r = c - f < i$ is the distance to target, error, mismatch of the outer layer which is the intent of the inner layer $r = i'$ to look at the outer self $i = c'$.
+					- Five aggregates
 					- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
 					  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
 						- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
