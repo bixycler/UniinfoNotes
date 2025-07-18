@@ -1290,7 +1290,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [Ratnasambhava](https://en.wikipedia.org/wiki/Ratnasambhava) buddha: south, yellow, sense, [Mānas](https://en.wikipedia.org/wiki/Manas-vijnana)-vijñāna → Equality widom (Samatā-jñāna, Bình đẳng tánh trí [平等性智])
 						- [Amitābha](https://en.wikipedia.org/wiki/Amit%C4%81bha) buddha: west, red, concept,  → (Pratyavekṣaṇa-jñāna,  trí [妙觀察智])
 						- [Amoghasiddhi](https://en.wikipedia.org/wiki/Amoghasiddhi) buddha: north, green, act,  → (Kṛty-anuṣṭhāna-jñāna, Thành sở tác trí [成所作智])
-						- [Vairocana](https://en.wikipedia.org/wiki/Vairocana) buddha: center, white, aware, → (, Pháp giới thể tánh trí [法界體性智])
+						- [Vairocana](https://en.wikipedia.org/wiki/Vairocana) buddha: center, white, aware, → [Suchness](https://en.wikipedia.org/wiki/Suchness) wisdom (Tathātā-jñāna, Chân như trí [真如智], [Dharmadhātu](https://en.wikipedia.org/wiki/Dharmadhatu)-svabhāva-jñāna, Pháp giới thể tánh trí [法界體性智])
 					- Emergence of `exp()`, “negativity” $-1$, and “imaginarity” $i$ through effect circles & [roots of unity](https://en.wikipedia.org/wiki/Root_of_unity)
 					  id:: 67bbde62-70fc-4d3d-9f65-dcea280db516
 						- Let $j_n$ be the $n$^{th} unit arising from $n$^{th} order self effect.
