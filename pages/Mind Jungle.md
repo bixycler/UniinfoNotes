@@ -2099,7 +2099,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In theory of functions and in linguistics, the [composition operator (`∘`)](https://en.wikipedia.org/wiki/Function_composition), the [interpunct (`·`)](https://en.wikipedia.org/wiki/Interpunct) and the [hypenation point (`‧`)](https://en.wikipedia.org/wiki/Hyphen) are used to denote the dual role of connection-separation of the obop.
 			- In astrology, the [symbol of Sun (`☉`)](https://en.wikipedia.org/wiki/Solar_symbol) shows the role of the obop as a source of light.
 			- In computing, the [fisheye symbol (`◉`)](https://en.wikipedia.org/wiki/Circled_dot#Computing) shows the role of the obop as an eye, a focal point, a selected choice, the current one.
-			- In archery, the target symbol 🞋 🎯 shows, the [bullseye](https://en.wikipedia.org/wiki/Bullseye_(target)) ◎, position indicator with [crosshair](https://en.wikipedia.org/wiki/Reticle) ⌖
+			- In archery, the target symbol 🞋 🎯 shows the role of the obop as the target, the goal of actions of the subject. The ((686e630e-0d4d-4584-8c77-f9f0b865e631)) of the [bullseye](https://en.wikipedia.org/wiki/Bullseye_(target)) ◎ represents multiple layers of intents within the obop, whose inner most intent (center) is pinpointed with the [crosshair](https://en.wikipedia.org/wiki/Reticle) ⌖.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- In the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), the core of obop is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) that observes the content to produce the extent which is used to operate the ((66c810a0-9861-4787-bdcf-1378219332be)). The intent can be composed of many sub-itents in many layers, where the “atomic intent” at the basic layer is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  id:: 66e79e0c-8be2-49a4-b4d7-5c1fddefeabf
@@ -2566,6 +2566,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Analysis of the Trinion
 				- Integration and working of the components
 			- ### Onion structure
+			  id:: 686e630e-0d4d-4584-8c77-f9f0b865e631
 			- ### Potato strucure
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Bulboid structure: fold = store
