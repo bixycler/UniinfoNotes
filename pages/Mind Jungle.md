@@ -2617,7 +2617,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2025-01-20 Mon 16:37:39]
 		  :END:
-		  Different beings are just the same content in different forms.
+		  Different beings are just the same content expressed in different forms.
 		  ((665ca48e-f7c1-4541-b5cf-486d86b02997)) ((678e2046-54ac-4284-865d-6f3e38f589a1))
 			- Law of the same content
 			  id:: 678e2046-54ac-4284-865d-6f3e38f589a1
@@ -2628,7 +2628,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a983b4-f6ad-4abb-b611-7952168d83a2)) is a special case of the ((678e2046-54ac-4284-865d-6f3e38f589a1)) when considering a single being throughout time.
 			- **Universal content**
 			  id:: 678e1d31-4874-4df6-bfb4-60822a6b5546
-			  ((6678288e-699b-4325-bdba-bf6349fe0d57)) of every ((678e1c3f-6202-45aa-8527-f4bdad9927b9))
+			  the ((6678288e-699b-4325-bdba-bf6349fe0d57)) shared by all ((678e1c3f-6202-45aa-8527-f4bdad9927b9))s
 		- ### FoC dynamics
 		  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
 		  collapsed:: true
