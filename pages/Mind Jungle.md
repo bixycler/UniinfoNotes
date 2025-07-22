@@ -2305,7 +2305,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Sustent is constantly changing, while substances are considered unchanged.
 							- We may reuse the term "substance" with modified def "the one enduring changes while keeping a wholesome bundle of intrinsic properties called the 'natures' of it". The wholesomeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
 			- Form ($i$, $e$) – Content ($c$)
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$: $c →_{i}e$. $f = i×e$ is the extensional form being a product of the intensional
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$: $c →_{i}e$. The extensional form $f = i×e$, being a product of the intensional (internal) form $i$ (intent of the subject) with the external form $e$ ( ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the object), is to match with the content $c$ of the object: $f = i×e \sim c$. The mismatch between the form an the content, i.e. the remainder $r = c - f$, lea
 			- Extensive ($e$, $c$) – Intensive ($i$)
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- TODO Migrate [[CIE]]
