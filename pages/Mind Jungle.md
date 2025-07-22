@@ -2264,7 +2264,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f3c32c-9b5a-4e5a-95cc-411256b40b4f))
 		- Ψ
 		  id:: 66f3c32c-9b5a-4e5a-95cc-411256b40b4f
+		  collapsed:: true
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
+			- The symbol “Ψ” is chosen because the Greek letter [psi](https://en.wikipedia.org/wiki/Psi_(Greek)) is not only pronounced similar to “cie”, but also composed of all three capitalized letters “C, I, E”.
+				- ![Ψ=CIE](https://docs.google.com/drawings/d/e/2PACX-1vQ6ABmYQuLzB63u_0hmw7ow80bpcBAxccuQ29IFJtJ2XaEQdvED2urKs0OE67JZaYMgFgWWYnmWKA4X/pub?w=334&h=159)
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) While the three components of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) (`○`, `↑`, `=`) show the ((66c82f42-16bb-4886-a32b-5c246187cfee)) and qualitative structure of the Universe, the Trinion itself observes the Universe via the ((66c88055-a994-4e59-a7dc-83f3331a6e1d)) and quantitative ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) (obop) of the ((66f3b5e5-496a-4545-be7a-b1df2d94bd11)). The ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) (`◉`) works with the three components ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)), ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) and ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)), as shown in the “CIE” formula “content ÷ intent = extent” or “content = intent × extent”, where *extent* is the image of the object's *content*, and *intent* gives meaning to that image.
 			- ![CIE-equation](https://docs.google.com/drawings/d/e/2PACX-1vSc09u5xNTzIIOWMw1gQgZgADjw87DWf6jrdIZ188VWCFxrC_NLX7pLOqyziDg4OkWCHBlRU6iiyhm1/pub?w=210&amp;h=165)
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “CIE” is pronounced /saɪ/ or /si/ whichever rhymes with the Greek letter “Ψ”.
@@ -2337,6 +2340,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- “Denominator” is the “name” that gives subjective meaning to the objective content.
 				- The intent $i$ is the underlying intension and meaning of the extent: “$e$” means “$e$ units of $i$, $e$ times $i$”.
 				- Blog [“Bà mẹ” trong “phân số”](https://creatzynotes.blogspot.com/2023/06/ba-me-trong-phan-so.html)
+			-
 		- ### SCIFER
 		  id:: 66f40210-cca6-4d81-85e7-d0c54ef20451
 		  collapsed:: true
