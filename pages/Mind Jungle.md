@@ -2287,9 +2287,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- Sustent ($c$, $i$) – Extent ($e$)
 			  id:: 681826ac-63f5-4c4f-9c58-0fe3e922d758
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the extent is an extension of the sustent by the subject through its projection of the object's content, i.e. through the observation function $ob_i(c) = e$.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the extent is an extension of the sustent by the subject through its projection of the object's content, i.e. through the observation function $ob_i(c) = e$. The extent not only extends the content with
+					- The partition “sustent–extent” is also called the “**physical–informational**” or “material–mental” partition.
+					- While the extent cannot exist without the sustent, the sustent is [self-sustained](((684c2e6e-f75f-4916-9f1c-4375d42d8604))) because it's a closed circle comprising two complements of form ($i$) and content ($c$).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
+					  id:: 684c2e6e-f75f-4916-9f1c-4375d42d8604
 					  collapsed:: true
 						- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) from Latin [sustentus](https://en.wiktionary.org/wiki/sustentus), perfect passive participle of [sustineō](https://en.wiktionary.org/wiki/sustineo#Latin)
 						- OED: [sustent (n.)](https://www.oed.com/dictionary/sustent_n) (from 1664 to 1667)
