@@ -2287,7 +2287,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- Sustent ($c$, $i$) – Extent ($e$)
 			  id:: 681826ac-63f5-4c4f-9c58-0fe3e922d758
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the extent is an extension of the sustent by the subject through its projection of the object's content, i.e. through the observation function $ob_i(c) = e$. The extent not only extends the content with the subjective image, i.e. $e$ denoting the size, magnitude, amount of content, but also extends the intensional form (intent) to the extensional form $f = i×e$ matching the content.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the extent is an extension of the sustent by the subject through its projection of the object's content, i.e. through the observation function $ob_i(c) = e$. The extent not only extends the content with the subjective image, i.e. $e$ denoting the size, magnitude, amount of content, but also extends the intensional form (intent) to the extensional form $f = i×e \sim c$ matching the content.
 					- The partition “sustent–extent” is also called the “**physical–informational**” or “material–mental” partition.
 					- While the extent cannot exist without the sustent, the sustent is [self-sustained](((684c2e6e-f75f-4916-9f1c-4375d42d8604))) because it's a closed circle comprising two complements of form ($i$) and content ($c$).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -2305,7 +2305,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Sustent is constantly changing, while substances are considered unchanged.
 							- We may reuse the term "substance" with modified def "the one enduring changes while keeping a wholesome bundle of intrinsic properties called the 'natures' of it". The wholesomeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
 			- Form ($i$, $e$) – Content ($c$)
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$: $c →_{i}e$. $f = i×e$ is the extensional form being a product of the intensional
 			- Extensive ($e$, $c$) – Intensive ($i$)
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- TODO Migrate [[CIE]]
