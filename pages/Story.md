@@ -3299,7 +3299,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This is because the Buddha metioned not only human but all beings in the Three Realms, including devas, māras, and brahmās, who could digest it.
 				- FoC (circle) dynamics (arrow) toward the perfect (equal): round circle (the whole), straight arrow (through, even, uniform), absolute equal (perfect match, absolute balance, absolute zero intent, absolute infinite extent)
 				  collapsed:: true
-					- SCIFER stays at the states of zero remainder (null phase, whole extent), but not forever
+					- ((66f40210-cca6-4d81-85e7-d0c54ef20451)) stays at the states of zero remainder (null phase, whole extent), but not forever
 					- circles, whole numbers are images of the whole, but not the whole
 					- round circles ⭕ and straight arrow have micro bumps
 					- matched pair of arrows differ in orientation (sign)
@@ -3320,7 +3320,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 16th, ...
 			  collapsed:: true
 				- Through practice, i've refined the 3 levels of absorptions and linked them with [antidotal practices](((6850c7e4-0969-45b7-9ca8-e2c1d764effe))) for 3 poisons.
-					- The refined conscious absorption this morning prompted for the unification between dynamics with [sequential intents](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) (SCFIER, ((67bd3614-2520-4a5d-8b3f-44f60901844e)), ((67bd7811-ce55-402f-8fb2-08b59fb271c9))) and dynamics with parallel/orthogonal intents, as well as the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
+					- The refined conscious absorption this morning prompted for the unification between dynamics with [sequential intents](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) ( ((66f40210-cca6-4d81-85e7-d0c54ef20451)), ((67bd3614-2520-4a5d-8b3f-44f60901844e)), ((67bd7811-ce55-402f-8fb2-08b59fb271c9))) and dynamics with parallel/orthogonal intents, as well as the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
 						- With conscious absorption, all intents are equal, orthogonal
 							- All worlds are equivalent. They are different only by the order of intent sequence, due to the scaling factor of $b^k$ at position $k$.
 								- For derivatives, the base $b = ∞$, hence orthogonal.
