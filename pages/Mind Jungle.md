@@ -2316,13 +2316,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Because the internal form of the eye is especially important to the subject (obop) and the pronunciation of the letter “i” is the same as the word “eye”, “i” is usually used to denote the *eye of projection*, indexing the projection arrow $→_{i}$, where it can also means “I, the subject of projection”.
 					- Inverse variation of the two forms $i ∝ 1/e$ against the same ((678e1d31-4874-4df6-bfb4-60822a6b5546)) $c = 1$
 					  id:: 687f3ea0-89bf-4e6d-8a0a-ca2674fad094
-						- When considering the whole Universe or a fixed [domain of discourse](https://en.wikipedia.org/wiki/Domain_of_discourse), the content is fixed $c = 1$, leading to the well known inverse variation between intension $i$ and extension $e$.
+					  collapsed:: true
+						- When considering the whole Universe or a fixed [domain of discourse](https://en.wikipedia.org/wiki/Domain_of_discourse), the content is fixed $c = 1$, leading to the well known [inverse variation](https://philosophy.institute/logic/inverse-variation-principle-logic-extension-intension/) between intension $i$ and extension $e$.
 			- Extensive ($e$, $c$) – Intensive ($i$)
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In the observation function $e = ob_i(c) = c/i$ and the operation function $c = op_i(e) = i×e$, the *variables* $e, c$ are **extensive properties**, while the *parameter* $i$ is an **intensive property**, as shown in the [categorization of physical properties](https://en.wikipedia.org/wiki/Intensive_and_extensive_properties). That means, in the **subjective view** of the obop, its intent $i$ is kept invariant, while the extent $e$ varies directly with the conent $c$.
 					- Note: Don't be confused between this subjective view where $i$ = constant, and the [objective view](((687f3ea0-89bf-4e6d-8a0a-ca2674fad094))) where $c$ = constant.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- intent $i$ = index, indicator
-						- As the obop *i* ranges over the content *c* to yield corresponding number *e*, *i* is known as the *index*, the *indicator* of the “current position” (the “here”), also the *interator* of the “current time” (the “now”).
+					- intent $i$ = index, indicator, iterator
+						- As the obop $i$ ranges over the content $c$ to yield corresponding number $e$, $i$ is known as the *index*, the *indicator* of the “current position” (the “here”), also the *iterator* of the “current time” (the “now”).
 		- TODO Migrate [[CIE]]
 		  id:: 67b541d0-0c8c-4186-b5fd-460cfa4e3e27
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -2331,7 +2332,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- “**Sub**-ject” = **under**-thrown = the **under**lying agent of the action/operation of measurement.
 				- “Unit” is “the one”, the one underlying all measurement, and the one that any content is measured against... by division.
 				- “Denominator” is the “name” that gives subjective meaning to the objective content.
-				- The intent $i$ is the underlying intension and meaning of the extent: “$e$” means “$e$ times $i$”, so that the abstract extension $e$ can be used in place of the concrete extension $i⋅e$.
+				- The intent $i$ is the underlying intension and meaning of the extent: “$e$” means “$e$ units of $i$, $e$ times $i$”.
 				- Blog [“Bà mẹ” trong “phân số”](https://creatzynotes.blogspot.com/2023/06/ba-me-trong-phan-so.html)
 		- ### SCIFER
 		  id:: 66f40210-cca6-4d81-85e7-d0c54ef20451
