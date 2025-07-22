@@ -2371,8 +2371,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ∅
 			  id:: 687f528d-f612-40ef-8731-75ed54d0a960
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f40210-cca6-4d81-85e7-d0c54ef20451))
-			- TODO ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory, ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory, all forms are generated through the ((66f40210-cca6-4d81-85e7-d0c54ef20451)) mechanism by the ((687f5b57-04c6-4e38-9b67-4a22cbf6e3df)) between the ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) and the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) $c⋇i$.
 			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
+				- ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
 				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced [“cipher”](https://en.wiktionary.org/wiki/cipher#English) /ˈsaɪfə/, or [“chiffre”](https://en.wiktionary.org/wiki/chiffre#French) /ʃifʁ/ in French (with the name reordered as “SCIFRE”).
 				- Typsetting: To highlight the relation with the CIE, SCIFER may be typeset as $_{S}CI_{F}E^{R}$.
 				- Duals: form-content, sustent-extent, intent-extent, extent-phase
@@ -2382,7 +2383,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- phase = remainder/intent = intent'/content' = 1/extent'
 							- Etymology: “phase” is from from the Greek word “phásis” (φάσις) meaning “appearance” of the Moon, planets and celestial bodies in general.
 							- [Antikythera mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism) calculating cosmos phases.
+			- ### interunion
+			  id:: 687f5b57-04c6-4e38-9b67-4a22cbf6e3df
+				-
 			- SCIFER formulae
+			  collapsed:: true
 				- $c = e × i + r = f + r$;   $f = e × i$;   $(c, i, r) = (s_0, s_1, s_2)$;   $c/i = [e_0; e_1, e_2, ...] = [s_0 / s_1 / s_2 / s_3 / ...]$
 					- [regular continued fraction](https://mathworld.wolfram.com/RegularContinuedFraction.html) & [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
 						- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) formula is refined with the regular continued fraction (extensional continued fraction).
@@ -2553,6 +2558,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ![SCIFER-sef-vertical.png](../assets/Uniinfo/Unithread/SCIFER-sef-vertical.png)
 			- ### SCIFER helix
 			  id:: 687505e2-062a-4267-98bc-ed0e9f6dced3
+			  collapsed:: true
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 					- content = length of helical thread
 					- intent = one complete helix turn
@@ -2560,20 +2566,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- remainder = ((68750097-13e5-4662-9791-8207ec18e8aa)) of content in the intent circle
 			- #### phase
 			  id:: 68750097-13e5-4662-9791-8207ec18e8aa
+			  collapsed:: true
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68750097-13e5-4662-9791-8207ec18e8aa)) is the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) of the remainder within the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)), represented by its percentage.
 				  ⇒ [potential](((6847e7fa-0d57-425c-b035-1a62db7725e6)))
 			- TODO Migrate [[sCIfEr]]
-			- WAIT SCIFER view cone
+			- ### SCIFER view cone
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-09-25 Wed 20:07:40]--[2024-09-25 Wed 20:07:45] =>  00:00:05
 			  :END:
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+				- WAIT ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 				- ((66537674-6cf9-4459-8bea-7c1858c694a3)): The content at the base of the cone is abstracted step by step through levels of $s_k$ to the zero at the apex.
 				  id:: 66f40baf-1aca-40b7-828c-71d6f15f23fe
 					- At each level, the SCIFER must complete a full ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) to generate extent as the abstraction at the next level.
 			- WAIT ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((669a58b9-eb34-41cd-8605-02e29b07e1b5))
 				- (input, state) = (c, i) -> (e, i') = (output/action, next state)
 			- WAIT ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) in ((66f40210-cca6-4d81-85e7-d0c54ef20451))
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-09-25 Wed 20:01:58]--[2024-09-25 Wed 20:05:25] =>  00:03:27
 			  :END:
