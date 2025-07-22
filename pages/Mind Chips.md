@@ -1,15 +1,3 @@
-- revise ReciprocalCIE applet: 2 reciprocal view cones
-    - left: intent:content:extent 
-    - right: extent:content:intent
-    - middle: intent × extent quare
-    - this is the basic of projection, factorization (into intent & extent), view relativity, vector product, and circular CIE 
-- FoC dynamics 
-    - equal 0: target = center point = “the whole” 
-    - circle: self-circle = lense to view the world = form for effect flow to conform = intent
-    - arrow: effect flow through view intent toward center/target intent => action to change content
-    - equal 1: content + form = sustent = total content = constant 
-        - => change content = change form, from external forms in the world, accumulating to intents via knowledge cone
-        - => layers of intents (sustents) spiral down to the center point via SCIFER
 ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c

@@ -3335,4 +3335,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- the center of the self-circle is the apex of the knowledge cone = intent cone = representative of the whole, the perfect, the target, the root of restoring force
 					- the self-circle is driven by the force field of distortion created by its knowledge, to go toward the the intent, to optimize itself toward the perfect form (round circle)
 						- the perfection is the meta form at infinity (zero intent), driving the self to change & learn
+			- 21st, ...
+			  collapsed:: true
+				- revise ReciprocalCIE applet: 2 reciprocal view cones
+					- left: intent:content:extent
+					- right: extent:content:intent
+					- middle: intent × extent quare
+					- this is the basic of projection, factorization (into intent & extent), view relativity, vector product, and circular CIE
+				- FoC dynamics
+					- equal 0: target = center point = “the whole”
+					- circle: self-circle = lense to view the world = form for effect flow to conform = intent
+					- arrow: effect flow through view intent toward center/target intent => action to change content
+					- equal 1: content + form = sustent = total content = constant
+						- => change content = change form, from external forms in the world, accumulating to intents via knowledge cone
+						- => layers of intents (sustents) spiral down to the center point via SCIFER
 		- ...
