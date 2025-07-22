@@ -2287,11 +2287,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- Sustent ($c$, $i$) – Extent ($e$)
 			  id:: 681826ac-63f5-4c4f-9c58-0fe3e922d758
-				- The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything
-				- are expressed in the mind of the subject as visible extents
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the exten and is an extension of the sustent .
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- The sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
+					  collapsed:: true
+						- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) from Latin [sustentus](https://en.wiktionary.org/wiki/sustentus), perfect passive participle of [sustineō](https://en.wiktionary.org/wiki/sustineo#Latin)
+						- OED: [sustent (n.)](https://www.oed.com/dictionary/sustent_n) (from 1664 to 1667)
+						  > That which sustains; a sustaining support or force.
+							- This is the only dictionary entry of “sustent”, as shown by [OneLook > sustent](https://www.onelook.com/?w=sustent).
+						- How it's sustained: it's sustained by it's own parts, i.e. the content sustains the intent and vice versa.
+						- The sustent is similar to the "substance" in philosophy, which is from "substāns" present participle of "substāre", and means "self-standing thing underlying all things". But there are diffs:
+							- Sustent is actively maintaining itself, while the substance is just a dumb material for some subject (human or God) to attach attributes to make things.
+							- Sustent includes at least 2 circles, while each substance is just one circle (the other[s] is the hands handling that substance).
+							- Sustent is constantly changing, while substances are considered unchanged.
+							- We may reuse the term "substance" with modified def "the one enduring changes while keeping a wholesome bundle of intrinsic properties called the 'natures' of it". The wholesomeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
 			- Form ($i$, $e$) – Content ($c$)
-				- The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$.
 			- Extensive ($e$, $c$) – Intensive ($i$)
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- TODO Migrate [[CIE]]
 		  id:: 67b541d0-0c8c-4186-b5fd-460cfa4e3e27
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -2301,19 +2314,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- "Unit" is "the one", the one underlying all measurement and the one that any content is measured against... by division.
 				- "Denominator" is the "name" that gives subjective meaning to the objective content.
 				- Blog [“Bà mẹ” trong “phân số”](https://creatzynotes.blogspot.com/2023/06/ba-me-trong-phan-so.html)
-			- The Sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
-			  id:: 684c2e6e-f75f-4916-9f1c-4375d42d8604
-			  collapsed:: true
-				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) from Latin [sustentus](https://en.wiktionary.org/wiki/sustentus), perfect passive participle of [sustineō](https://en.wiktionary.org/wiki/sustineo#Latin)
-				- OED: [sustent (n.)](https://www.oed.com/dictionary/sustent_n) (from 1664 to 1667)
-				  > That which sustains; a sustaining support or force.
-					- This is the only dictionary entry of “sustent”, as shown by [OneLook > sustent](https://www.onelook.com/?w=sustent).
-				- How it's sustained: it's sustained by it's own parts, i.e. the content sustains the intent and vice versa.
-				- The sustent is similar to the "substance" in philosophy, which is from "substāns" present participle of "substāre", and means "self-standing thing underlying all things". But there are diffs:
-					- Sustent is actively maintaining itself, while the substance is just a dumb material for some subject (human or God) to attach attributes to make things.
-					- Sustent includes at least 2 circles, while each substance is just one circle (the other[s] is the hands handling that substance).
-					- Sustent is constantly changing, while substances are considered unchanged.
-					- We may reuse the term "substance" with modified def "the one enduring changes while keeping a wholesome bundle of intrinsic properties called the 'natures' of it". The wholesomeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
 		- ### SCIFER
 		  id:: 66f40210-cca6-4d81-85e7-d0c54ef20451
 		  collapsed:: true
