@@ -2367,6 +2367,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 19:29:20]
 		  :END:
+			-
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) theory, ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
 			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
 				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced [“cipher”](https://en.wiktionary.org/wiki/cipher#English) /ˈsaɪfə/, or [“chiffre”](https://en.wiktionary.org/wiki/chiffre#French) /ʃifʁ/ in French (with the name reordered as “SCIFRE”).
@@ -2378,175 +2379,175 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- phase = remainder/intent = intent'/content' = 1/extent'
 							- Etymology: “phase” is from from the Greek word “phásis” (φάσις) meaning “appearance” of the Moon, planets and celestial bodies in general.
 							- [Antikythera mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism) calculating cosmos phases.
-				- Formulae
-					- $c = e × i + r = f + r$;   $f = e × i$;   $(c, i, r) = (s_0, s_1, s_2)$;   $c/i = [e_0; e_1, e_2, ...] = [s_0 / s_1 / s_2 / s_3 / ...]$
-						- [regular continued fraction](https://mathworld.wolfram.com/RegularContinuedFraction.html) & [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
-							- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) formula is refined with the regular continued fraction (extensional continued fraction).
-							  $$\frac{c}{i} = [e_0; e_1, e_2, ...] = e_0 + {\underset {k=1}{\overset {\infty }{\operatorname {K} }}}{\frac {1}{e_k}} = e_0 + \frac{1}{e_1 + \frac{1}{e_2 + ⋱}}$$
-						- TODO The _**choice** of remainder sign_ (r > 0 for under-action e-, or r < 0 for over-action e+)... is similar to the one-unit-diff of the final term between [2 equivalent reps of the regular continued fraction](https://en.wikipedia.org/wiki/Simple_continued_fraction#Finite_continued_fractions).
-						  ⇒ binary branching of [Stern–Brocot tree](https://en.wikipedia.org/wiki/Stern%E2%80%93Brocot_tree)
-							- TODO Add animated SVGs to the Wiki page of Stern–Brocot tree: generation rules with median and with continuted fraction
-					- The SCIFER mechanism is usually expressed in the form of **_intensional_ continued fraction**, or sustentational continued fraction:
-					  $$ [s_0 / s_1 / s_2 / s_3 / ...] $$
-					  $$ = [e_0; e_1, e_2, ...] $$
-						- where the scale steps $s_k / s_{k+1} ≈ e_k = (s_k - s_{k+2}) / s_{k+1}$ make $[s_0 / s_1 / s_2 / s_3 / ...]$ a *variable-ratio progression*, like a [geometric progression](https://en.wikipedia.org/wiki/Geometric_progression),
-						- and the linear steps $s_k - s_{k+2} = f_k = s_{k+1} × e_k$ make $[s_0 - s_2 - s_4 - ...]$ and $[s_1 - s_3 - s_5 - ...]$ *variable-step progressions*, like [arithmetic progressions](https://en.wikipedia.org/wiki/Arithmetic_progression);
-						- because $s_k = s_{k+1} × e_k + s_{k+2} = f_k + s_{k+2}$
-						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-							- The notation $[s_0 / s_1 / s_2 / s_3 / ...]$ of intensional continued fraction is very similar to the notation of [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) $[s_0 : s_1 : s_2 : s_3 : ...]$.
-							- The variable-coefficient progressions (variable-ratio/step progression) are special cases of the [general recursive sequence](https://en.wikipedia.org/wiki/Recurrence_relation).
-							  id:: 682b0f4a-40aa-43be-9f70-33d0078ff0aa
-							  collapsed:: true
-							  :LOGBOOK:
-							  CLOCK: [2025-05-19 Mon 18:06:44]
-							  :END:
-								- Complexity order: [recursively enumerable](https://en.wikipedia.org/wiki/Computably_enumerable_set) (partial recursive) > total [recursive](https://mathworld.wolfram.com/RecursiveFunction.html) > [primitive recursive](https://en.wikipedia.org/wiki/Primitive_recursive_function) > P-recursive ([holonomic](https://en.wikipedia.org/wiki/Holonomic_function)) > [constant-recursive](https://en.wikipedia.org/wiki/Constant-recursive_sequence)
-								- [Recursive](https://en.wikipedia.org/wiki/General_recursive_function): General recurrences, including sequence-driven coefficients and [non-homogeneous linear recursive](https://en.wikipedia.org/wiki/Recurrence_relation#Solving_first-order_non-homogeneous_recurrence_relations_with_variable_coefficients), can result chaotic behaviors.
-									- Unbounded recurrence by [minimization operator μ](https://en.wikipedia.org/wiki/%CE%9C_operator) which is equivalent to `while` loop.
-									- Total function = halted program = computable
-									- Partial function = unhalted program = enumerable
-									- E.g. [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function): $A(m+1, n+1) = A(m, A(m+1, n)); \; A(m, -1) = 1; \;  A(0, -1) = 0$
-									  id:: 682b3765-5c79-45f6-bcd5-ac480c2eb800
-									  defined by Péter and Robinson to simplify the [orgininal](((682be581-969d-44bd-a229-a3bc9c03ad62))) Ackermann's $φ_n(x,y)$
-										- This recursion is [double](https://en.wikipedia.org/wiki/Double_recursion), not primitive.
-											- The inner recursion of unreduced argument $A(m+1,·)$ makes it cannot be unfolded into bounded `for` loops, but into a stack of arguments instead.
-											- So, it can only be implemented with `while` on stack (simulating recursion).
-										- Originally, Ackermann defined $φ_m(x,y)$ such that $φ_{(0,1,2)}(x,y) = (x+y, x×y, x^y)$
-										  id:: 682be581-969d-44bd-a229-a3bc9c03ad62
-											- Recursive form: $φ_m(x,y) = φ_{m-1}(x,φ_m(x,y-1))$
-											- Base cases: $φ_0(x,y) = x+y$;   $φ_1(x,0) = 0$;   $φ_2(x,0) = 1$;   $φ_m(x,0) = x$
-											- The standard binary function is obtained by fixing $x=1$:  $A(m,n) = φ_m(1,n)$
-										- The very similar recursive form $B(m+1, n+1) = B(m, B(m, n)); \; B(0, n) = n+1$,  is just a successor, $B(m, n) = n+1$, with the whole variable $m$ discarded!
-											- DOING [?] Wikipedia error in "Ackermann function" page?
-											  id:: 682c1735-31c3-4024-8d8a-20d8434db966
-											  collapsed:: true
-											  :LOGBOOK:
-											  CLOCK: [2025-05-20 Tue 12:56:46]
-											  :END:
-												- Revision history, thanks to [Wikipedia-Blame](https://wintus.github.io/Wikipedia-Blame/) in [GitHub](https://github.com/Wintus/Wikipedia-Blame).
-													- On 17 August 2007, [76.247.115.69](https://en.wikipedia.org/wiki/Special:Contributions/76.247.115.69) added [→Definition and properties: Illustrated that Ackermann is expressible with primitive recursion + higher-order functionals](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=151767125&oldid=151721753)
-													  collapsed:: true
-													  Ackermann–Péter function can be defined by
-													  > primitive recursion over higher-order functionals
-														- Formulate $Ack$ with primitive recursion thanks to the functional $Iter$ ([previously `B` with wrong def](((682c17e2-f858-43f9-a501-88c1e2f9854f))))
-														  id:: 6833ecc7-379b-4d16-abd6-c9c9a54b6290
-														  > the Ackermann function may be defined via primitive recursion over higher-order functionals as follows:
-															- > $Ack(0) = Succ$
-															  $Ack(m+1) = Iter(Ack(m-1))$
-																- **Typo** in the recursive formula: added $m+1$ but forgot to reset $m-1$ to $m$.
-															- > where $Succ$ is the usual successor function and $Iter$ is defined by primitive recursion as well:
-															  $Iter(f)(0) = f(1)$
-															  $Iter(f)(n+1) = f(Iter(f)(n))$
-														- Previously
-														  id:: 682c17e2-f858-43f9-a501-88c1e2f9854f
-														  collapsed:: true
-														  > In addition, the Ackermann function can be expressed with a combination of primitive recursion and higher-order functions (sometimes called functionals) by exploiting the type isomorphism A×B→C ≅ A→(B→C). The order of arguments of *C* is immaterial, but chosen for ease of illustration.
-															- > $A(0) = Succ$
-															  $A(m) = B(A(m-1))$
-															  where
-															  $B(f)(0) = 1$
-															  $B(f)(n) = f(n-1)$
-																- The definition of $B$ (where clause) was **plain wrong**!
-														- Then [Clarified 'primitive recursion' versus 'primitive recursive'](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=151767125)
-														  > Though the Ackermann function is often used to debunk the hypothesis that all useful or simple functions are primitive recursive, one should not confuse the primitive recursive functions with those definable by primitive recursion (it is this latter class that is of interest to programming language theorists because programs written using only primitive recursion are guaranteed to terminate).
-															- And ((6833ecc7-379b-4d16-abd6-c9c9a54b6290))
-													- On 31 August 2021, [Marc Schroeder](https://en.wikipedia.org/wiki/User:Marc_Schroeder) did a [major refactor](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=1041658631), rephrasing “higher-order functionals” to “sequence of 1-ary functions” and [iteration](https://en.wikipedia.org/wiki/Iterated_function).
-														- The [currying](https://en.wikipedia.org/wiki/Currying) of m-ary to 1-ary function was hidden to a footnote.
-														- The section `Definition and properties` was separted to `Definition`{`As m-ary function`, `As sequence of 1-ary functions`} , and moved `Properties` after `Table of values`.
-												- Talks related to this definition
-												  id:: 682c1ce8-de95-497b-b2cc-e4d86c353862
+			- SCIFER formulae
+				- $c = e × i + r = f + r$;   $f = e × i$;   $(c, i, r) = (s_0, s_1, s_2)$;   $c/i = [e_0; e_1, e_2, ...] = [s_0 / s_1 / s_2 / s_3 / ...]$
+					- [regular continued fraction](https://mathworld.wolfram.com/RegularContinuedFraction.html) & [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
+						- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) formula is refined with the regular continued fraction (extensional continued fraction).
+						  $$\frac{c}{i} = [e_0; e_1, e_2, ...] = e_0 + {\underset {k=1}{\overset {\infty }{\operatorname {K} }}}{\frac {1}{e_k}} = e_0 + \frac{1}{e_1 + \frac{1}{e_2 + ⋱}}$$
+					- TODO The _**choice** of remainder sign_ (r > 0 for under-action e-, or r < 0 for over-action e+)... is similar to the one-unit-diff of the final term between [2 equivalent reps of the regular continued fraction](https://en.wikipedia.org/wiki/Simple_continued_fraction#Finite_continued_fractions).
+					  ⇒ binary branching of [Stern–Brocot tree](https://en.wikipedia.org/wiki/Stern%E2%80%93Brocot_tree)
+						- TODO Add animated SVGs to the Wiki page of Stern–Brocot tree: generation rules with median and with continuted fraction
+				- The SCIFER mechanism is usually expressed in the form of **_intensional_ continued fraction**, or sustentational continued fraction:
+				  $$ [s_0 / s_1 / s_2 / s_3 / ...] $$
+				  $$ = [e_0; e_1, e_2, ...] $$
+					- where the scale steps $s_k / s_{k+1} ≈ e_k = (s_k - s_{k+2}) / s_{k+1}$ make $[s_0 / s_1 / s_2 / s_3 / ...]$ a *variable-ratio progression*, like a [geometric progression](https://en.wikipedia.org/wiki/Geometric_progression),
+					- and the linear steps $s_k - s_{k+2} = f_k = s_{k+1} × e_k$ make $[s_0 - s_2 - s_4 - ...]$ and $[s_1 - s_3 - s_5 - ...]$ *variable-step progressions*, like [arithmetic progressions](https://en.wikipedia.org/wiki/Arithmetic_progression);
+					- because $s_k = s_{k+1} × e_k + s_{k+2} = f_k + s_{k+2}$
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- The notation $[s_0 / s_1 / s_2 / s_3 / ...]$ of intensional continued fraction is very similar to the notation of [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) $[s_0 : s_1 : s_2 : s_3 : ...]$.
+						- The variable-coefficient progressions (variable-ratio/step progression) are special cases of the [general recursive sequence](https://en.wikipedia.org/wiki/Recurrence_relation).
+						  id:: 682b0f4a-40aa-43be-9f70-33d0078ff0aa
+						  collapsed:: true
+						  :LOGBOOK:
+						  CLOCK: [2025-05-19 Mon 18:06:44]
+						  :END:
+							- Complexity order: [recursively enumerable](https://en.wikipedia.org/wiki/Computably_enumerable_set) (partial recursive) > total [recursive](https://mathworld.wolfram.com/RecursiveFunction.html) > [primitive recursive](https://en.wikipedia.org/wiki/Primitive_recursive_function) > P-recursive ([holonomic](https://en.wikipedia.org/wiki/Holonomic_function)) > [constant-recursive](https://en.wikipedia.org/wiki/Constant-recursive_sequence)
+							- [Recursive](https://en.wikipedia.org/wiki/General_recursive_function): General recurrences, including sequence-driven coefficients and [non-homogeneous linear recursive](https://en.wikipedia.org/wiki/Recurrence_relation#Solving_first-order_non-homogeneous_recurrence_relations_with_variable_coefficients), can result chaotic behaviors.
+								- Unbounded recurrence by [minimization operator μ](https://en.wikipedia.org/wiki/%CE%9C_operator) which is equivalent to `while` loop.
+								- Total function = halted program = computable
+								- Partial function = unhalted program = enumerable
+								- E.g. [Ackermann function](https://en.wikipedia.org/wiki/Ackermann_function): $A(m+1, n+1) = A(m, A(m+1, n)); \; A(m, -1) = 1; \;  A(0, -1) = 0$
+								  id:: 682b3765-5c79-45f6-bcd5-ac480c2eb800
+								  defined by Péter and Robinson to simplify the [orgininal](((682be581-969d-44bd-a229-a3bc9c03ad62))) Ackermann's $φ_n(x,y)$
+									- This recursion is [double](https://en.wikipedia.org/wiki/Double_recursion), not primitive.
+										- The inner recursion of unreduced argument $A(m+1,·)$ makes it cannot be unfolded into bounded `for` loops, but into a stack of arguments instead.
+										- So, it can only be implemented with `while` on stack (simulating recursion).
+									- Originally, Ackermann defined $φ_m(x,y)$ such that $φ_{(0,1,2)}(x,y) = (x+y, x×y, x^y)$
+									  id:: 682be581-969d-44bd-a229-a3bc9c03ad62
+										- Recursive form: $φ_m(x,y) = φ_{m-1}(x,φ_m(x,y-1))$
+										- Base cases: $φ_0(x,y) = x+y$;   $φ_1(x,0) = 0$;   $φ_2(x,0) = 1$;   $φ_m(x,0) = x$
+										- The standard binary function is obtained by fixing $x=1$:  $A(m,n) = φ_m(1,n)$
+									- The very similar recursive form $B(m+1, n+1) = B(m, B(m, n)); \; B(0, n) = n+1$,  is just a successor, $B(m, n) = n+1$, with the whole variable $m$ discarded!
+										- DOING [?] Wikipedia error in "Ackermann function" page?
+										  id:: 682c1735-31c3-4024-8d8a-20d8434db966
+										  collapsed:: true
+										  :LOGBOOK:
+										  CLOCK: [2025-05-20 Tue 12:56:46]
+										  :END:
+											- Revision history, thanks to [Wikipedia-Blame](https://wintus.github.io/Wikipedia-Blame/) in [GitHub](https://github.com/Wintus/Wikipedia-Blame).
+												- On 17 August 2007, [76.247.115.69](https://en.wikipedia.org/wiki/Special:Contributions/76.247.115.69) added [→Definition and properties: Illustrated that Ackermann is expressible with primitive recursion + higher-order functionals](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=151767125&oldid=151721753)
 												  collapsed:: true
-													- [Definition via higher-order functionals](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Definition_via_higher-order_functionals)
-													  On 16 July 2012, Daniel5Ko said:
-													  > IIRC, a definition which is primitive recursive and uses HOFs can be found in the Paper "Total Functional Programming" by David Turner, but it may be slightly different - i.e. not extracting out something like the Iter here.
-														- Tobias Bergemann said:
-														  > [David Turner](https://en.wikipedia.org/wiki/David_Turner_(computer_scientist))'s paper on [total functional programming](https://en.wikipedia.org/wiki/Total_functional_programming) does in fact define the Ackermann function (using [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language)) notation), but he does not define a separate iteration function.
-														- Daniel5Ko replied:
-															- The David Turner's paper gave Haskell codes of the exact definition of the Ackermann–Péter function.
-															  #+BEGIN_QUOTE
-															  From the paper:
-															  ```haskell
-															  ack 0 n = n+1
-															  ack (m+1) 0 = ack m 1
-															  ack (m+1) (n+1) = ack m (ack (m+1) n)
-															  ```
-															  #+END_QUOTE
-															- Rewrite with functional `h` such that `f` = `ack m` and `h f` = `ack (m+1)`:
-															  ```haskell
-															  ack 0 = succ
-															  ack (m+1) = h (ack m) where
-															  	h f 0 = f 1
-															  	h f (n+1) = f (h f n)
-															  ```
-															- Extracting `h` to Global Scope:
-															  ```haskell
-															  h :: (Int -> Int) -> (Int -> Int)
-															  h f 0 = f 1
-															  h f (n+1) = f (h f n)
-															  
-															  ack :: Int -> (Int -> Int)
-															  ack 0 = succ
-															  ack (m+1) = h (ack m)
-															  ```
-															- $ack(m+1) = h(ack(m)) = h(h(ack(m-1))) = ... = h^{m+1}(ack(0)) = h^{m+1}(succ)$ 
-															  ⇒ $ack(m)$ is the m-th iterate of $h$ applied on $succ$.
-															- And already said:
-															  > By the way, definition in this style, even with a function called "iter", can be found on page 104 in [[5](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)]. Unfortunately it's not quite the same Ackermann function, and not just slightly shifted or something, but **utterly wrong**, since there `ack n m == m+1` for all nonnegative n m. A really bad typo! ;)
-														- However, there was no update of the section `Definition and properties` in this occasion (July 2012), except some [minor changes of parenthesis](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=502596425&oldid=495513006).
-													- on 27 December 2008, [r.e.s.](https://en.wikipedia.org/wiki/User:R.e.s.) gave [interative version by Harvey Friedman](https://en.wikipedia.org/wiki/Talk:Ackermann_function#c-R.e.s.-2008-12-27T21:42:00.000Z-Jb-adder-2008-12-07T07:59:00.000Z)
-													  > There's also a good case to be made for including one of the "streamlined" versions of the Ackermann function, especially the one appearing in [*Long Finite Sequences*](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.539) by Harvey Friedman: A1(n) = 2n, Ak+1(n) = AkAk...Ak(n)(1), where there are n Ak's in the iteration.
-													- [primitive recursive vs. primitive recursion](https://en.wikipedia.org/wiki/Talk:Ackermann_function#primitive_recursive_vs._primitive_recursion): Resolved: they are the same!
-													- [Possible confusion between Ackermann's function and Friedman's function because both use the capital letter A](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Possible_confusion_between_Ackermann's_function_and_Friedman's_function_because_both_use_the_capital_letter_A)
-												- My refactor
-													- Split `History` to `Ackermann's original function φ(m,n,p)` and `other versions of Ackermann function`
-													- `Definiton`: Move def of $φ(m,n,p)$ to `History`. Split Ackermann–Péter function to `Definition by recursion`, `Definition by iteration` (of function & of functional), and then `Definition by hyperoperation`.
-													- Rephrase `Definition: as iterated 1-ary function` → `Definiton by interation` of both function $f = A(m)$ and functional $h(f) = h(A(m)) = A(m+1)$.
-														- Iteration itself is a functional!
-														- 1st order $f(n) = A(m,n)$
-														- 2nd order $h(f)(n+1) = A(m+1)(n+1) = A(m)(A(m+1)(n)) = f(h(f)(n)) = f^{n+1}(h(f(0))) = f^{n+1}(f(1))$
-															- This iteration of function $f$ is the [pure iteration form of primitive recursion](((682b333a-a938-4ccb-83d2-3afda66c938c))).
-														- 3rd order $A(m+1) = h(A(m)) = h^{m+1}(A(0)) =  h^{m+1}(S)$
-															- Pitfall: This iteration of functional $h$ is **not primitive** recursive function, due to the remaining arguments $n$ being applied last, not first like in the [pure iteration form of primitive recursion](((682b333a-a938-4ccb-83d2-3afda66c938c))).
-															  $A(m,n) = h^m(S)(n) ≠ h^m(S(n))$
-																- $h^m(S(n)) = S(n)$ simply!
-													- Rephrase the abstract to state `Ackermann–Péter function is the *de facto* standard Ackermann function which is normally called "the Ackermann function"`.
-								- Primitive recursive (PR): Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
-									- [Pure iteration](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion) form of PR: $p_{n+1}(x) = f(p_n(x)) = f^{n+1}(x); \; p_0(x) = x$,  from a *provided* function $f()$ independent from $p()$, is the [n-th iterate of f](https://en.wikipedia.org/wiki/Iterated_function) ($f^n$).
-									  id:: 682b333a-a938-4ccb-83d2-3afda66c938c
-									- Explicit long form of PR: $p(S(n), x) = f(n, p(n, x), x); \; p(0,x) = f_0(x)$, with successor function $S()$ over the iteration variable $n$ to generalize it beyond integers, and let $f()$ access both $n$ & $x$.
-										- This is a bounded `for` loop over $n$ whose body is $f()$ with access to the global variable $x$.
-								- P-recursive: Coefficients as polynomial functions of index k, solvable via generating/differential functions, often yielding special functions (e.g., factorial, Bessel functions). E.g.: $k!$ ([factorial](https://en.wikipedia.org/wiki/Factorial)), $H_k$ ([harmonic numbers](https://en.wikipedia.org/wiki/Harmonic_number), a special [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_(mathematics))), ...
-								- Constant-recursive: Fixed coefficients, solvable via characteristic equations, generating closed-form expressions. E.g.: $F_{n}=F_{n-1}+F_{n-2}$ ([Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)), ...
-					- Arrangement of SCIFER terms on paper
-					  collapsed:: true
-					  ![SCIFER-sef.png](../assets/Uniinfo/Unithread/SCIFER-sef.png)
-					  + center around the intensional continued fraction $[s_0 / s_1 / s_2 / s_3 / ...]$,
-					  + with scale steps $e_k ≈ s_k / s_{k+1}$ on one side, 
-					  + and linear steps $f_k = s_k - s_{k+2}$ on the other side
-						- Horizontal layout (more concise for typesetting)
-						  ```
-						      f0   f1   f2
-						  s0 / s1 / s2 / s3
-						    e0   e1   e2
-						  c0   c1   c2   c3  
-						       i0   i1   i2
-						            r0   r1
-						  c = e⋅i + r
-						    =  f  + r
-						  ```
-						- Vertical layout (better for handwriting)
-						  ```
-						  			 c = i⋅e + r  = f + r
-						  	s0       c0
-						  	—— = e0   
-						  f0  s1       c1  i0
-						  	—— = e1
-						  f1  s2       c2  i1  r0
-						  	—— = e2
-						  f2  s3       c3  i2  r1
-						  f = i × e    
-						  ```
-						  ![SCIFER-sef-vertical.png](../assets/Uniinfo/Unithread/SCIFER-sef-vertical.png)
+												  Ackermann–Péter function can be defined by
+												  > primitive recursion over higher-order functionals
+													- Formulate $Ack$ with primitive recursion thanks to the functional $Iter$ ([previously `B` with wrong def](((682c17e2-f858-43f9-a501-88c1e2f9854f))))
+													  id:: 6833ecc7-379b-4d16-abd6-c9c9a54b6290
+													  > the Ackermann function may be defined via primitive recursion over higher-order functionals as follows:
+														- > $Ack(0) = Succ$
+														  $Ack(m+1) = Iter(Ack(m-1))$
+															- **Typo** in the recursive formula: added $m+1$ but forgot to reset $m-1$ to $m$.
+														- > where $Succ$ is the usual successor function and $Iter$ is defined by primitive recursion as well:
+														  $Iter(f)(0) = f(1)$
+														  $Iter(f)(n+1) = f(Iter(f)(n))$
+													- Previously
+													  id:: 682c17e2-f858-43f9-a501-88c1e2f9854f
+													  collapsed:: true
+													  > In addition, the Ackermann function can be expressed with a combination of primitive recursion and higher-order functions (sometimes called functionals) by exploiting the type isomorphism A×B→C ≅ A→(B→C). The order of arguments of *C* is immaterial, but chosen for ease of illustration.
+														- > $A(0) = Succ$
+														  $A(m) = B(A(m-1))$
+														  where
+														  $B(f)(0) = 1$
+														  $B(f)(n) = f(n-1)$
+															- The definition of $B$ (where clause) was **plain wrong**!
+													- Then [Clarified 'primitive recursion' versus 'primitive recursive'](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=151767125)
+													  > Though the Ackermann function is often used to debunk the hypothesis that all useful or simple functions are primitive recursive, one should not confuse the primitive recursive functions with those definable by primitive recursion (it is this latter class that is of interest to programming language theorists because programs written using only primitive recursion are guaranteed to terminate).
+														- And ((6833ecc7-379b-4d16-abd6-c9c9a54b6290))
+												- On 31 August 2021, [Marc Schroeder](https://en.wikipedia.org/wiki/User:Marc_Schroeder) did a [major refactor](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=prev&oldid=1041658631), rephrasing “higher-order functionals” to “sequence of 1-ary functions” and [iteration](https://en.wikipedia.org/wiki/Iterated_function).
+													- The [currying](https://en.wikipedia.org/wiki/Currying) of m-ary to 1-ary function was hidden to a footnote.
+													- The section `Definition and properties` was separted to `Definition`{`As m-ary function`, `As sequence of 1-ary functions`} , and moved `Properties` after `Table of values`.
+											- Talks related to this definition
+											  id:: 682c1ce8-de95-497b-b2cc-e4d86c353862
+											  collapsed:: true
+												- [Definition via higher-order functionals](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Definition_via_higher-order_functionals)
+												  On 16 July 2012, Daniel5Ko said:
+												  > IIRC, a definition which is primitive recursive and uses HOFs can be found in the Paper "Total Functional Programming" by David Turner, but it may be slightly different - i.e. not extracting out something like the Iter here.
+													- Tobias Bergemann said:
+													  > [David Turner](https://en.wikipedia.org/wiki/David_Turner_(computer_scientist))'s paper on [total functional programming](https://en.wikipedia.org/wiki/Total_functional_programming) does in fact define the Ackermann function (using [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language)) notation), but he does not define a separate iteration function.
+													- Daniel5Ko replied:
+														- The David Turner's paper gave Haskell codes of the exact definition of the Ackermann–Péter function.
+														  #+BEGIN_QUOTE
+														  From the paper:
+														  ```haskell
+														  ack 0 n = n+1
+														  ack (m+1) 0 = ack m 1
+														  ack (m+1) (n+1) = ack m (ack (m+1) n)
+														  ```
+														  #+END_QUOTE
+														- Rewrite with functional `h` such that `f` = `ack m` and `h f` = `ack (m+1)`:
+														  ```haskell
+														  ack 0 = succ
+														  ack (m+1) = h (ack m) where
+														  	h f 0 = f 1
+														  	h f (n+1) = f (h f n)
+														  ```
+														- Extracting `h` to Global Scope:
+														  ```haskell
+														  h :: (Int -> Int) -> (Int -> Int)
+														  h f 0 = f 1
+														  h f (n+1) = f (h f n)
+														  
+														  ack :: Int -> (Int -> Int)
+														  ack 0 = succ
+														  ack (m+1) = h (ack m)
+														  ```
+														- $ack(m+1) = h(ack(m)) = h(h(ack(m-1))) = ... = h^{m+1}(ack(0)) = h^{m+1}(succ)$ 
+														  ⇒ $ack(m)$ is the m-th iterate of $h$ applied on $succ$.
+														- And already said:
+														  > By the way, definition in this style, even with a function called "iter", can be found on page 104 in [[5](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf)]. Unfortunately it's not quite the same Ackermann function, and not just slightly shifted or something, but **utterly wrong**, since there `ack n m == m+1` for all nonnegative n m. A really bad typo! ;)
+													- However, there was no update of the section `Definition and properties` in this occasion (July 2012), except some [minor changes of parenthesis](https://en.wikipedia.org/w/index.php?title=Ackermann_function&diff=502596425&oldid=495513006).
+												- on 27 December 2008, [r.e.s.](https://en.wikipedia.org/wiki/User:R.e.s.) gave [interative version by Harvey Friedman](https://en.wikipedia.org/wiki/Talk:Ackermann_function#c-R.e.s.-2008-12-27T21:42:00.000Z-Jb-adder-2008-12-07T07:59:00.000Z)
+												  > There's also a good case to be made for including one of the "streamlined" versions of the Ackermann function, especially the one appearing in [*Long Finite Sequences*](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.539) by Harvey Friedman: A1(n) = 2n, Ak+1(n) = AkAk...Ak(n)(1), where there are n Ak's in the iteration.
+												- [primitive recursive vs. primitive recursion](https://en.wikipedia.org/wiki/Talk:Ackermann_function#primitive_recursive_vs._primitive_recursion): Resolved: they are the same!
+												- [Possible confusion between Ackermann's function and Friedman's function because both use the capital letter A](https://en.wikipedia.org/wiki/Talk:Ackermann_function#Possible_confusion_between_Ackermann's_function_and_Friedman's_function_because_both_use_the_capital_letter_A)
+											- My refactor
+												- Split `History` to `Ackermann's original function φ(m,n,p)` and `other versions of Ackermann function`
+												- `Definiton`: Move def of $φ(m,n,p)$ to `History`. Split Ackermann–Péter function to `Definition by recursion`, `Definition by iteration` (of function & of functional), and then `Definition by hyperoperation`.
+												- Rephrase `Definition: as iterated 1-ary function` → `Definiton by interation` of both function $f = A(m)$ and functional $h(f) = h(A(m)) = A(m+1)$.
+													- Iteration itself is a functional!
+													- 1st order $f(n) = A(m,n)$
+													- 2nd order $h(f)(n+1) = A(m+1)(n+1) = A(m)(A(m+1)(n)) = f(h(f)(n)) = f^{n+1}(h(f(0))) = f^{n+1}(f(1))$
+														- This iteration of function $f$ is the [pure iteration form of primitive recursion](((682b333a-a938-4ccb-83d2-3afda66c938c))).
+													- 3rd order $A(m+1) = h(A(m)) = h^{m+1}(A(0)) =  h^{m+1}(S)$
+														- Pitfall: This iteration of functional $h$ is **not primitive** recursive function, due to the remaining arguments $n$ being applied last, not first like in the [pure iteration form of primitive recursion](((682b333a-a938-4ccb-83d2-3afda66c938c))).
+														  $A(m,n) = h^m(S)(n) ≠ h^m(S(n))$
+															- $h^m(S(n)) = S(n)$ simply!
+												- Rephrase the abstract to state `Ackermann–Péter function is the *de facto* standard Ackermann function which is normally called "the Ackermann function"`.
+							- Primitive recursive (PR): Bounded recurrence with `for` loops, including almost all computable functions studied in maths.
+								- [Pure iteration](https://en.wikipedia.org/wiki/Primitive_recursive_function#Pure_recursion) form of PR: $p_{n+1}(x) = f(p_n(x)) = f^{n+1}(x); \; p_0(x) = x$,  from a *provided* function $f()$ independent from $p()$, is the [n-th iterate of f](https://en.wikipedia.org/wiki/Iterated_function) ($f^n$).
+								  id:: 682b333a-a938-4ccb-83d2-3afda66c938c
+								- Explicit long form of PR: $p(S(n), x) = f(n, p(n, x), x); \; p(0,x) = f_0(x)$, with successor function $S()$ over the iteration variable $n$ to generalize it beyond integers, and let $f()$ access both $n$ & $x$.
+									- This is a bounded `for` loop over $n$ whose body is $f()$ with access to the global variable $x$.
+							- P-recursive: Coefficients as polynomial functions of index k, solvable via generating/differential functions, often yielding special functions (e.g., factorial, Bessel functions). E.g.: $k!$ ([factorial](https://en.wikipedia.org/wiki/Factorial)), $H_k$ ([harmonic numbers](https://en.wikipedia.org/wiki/Harmonic_number), a special [harmonic progression](https://en.wikipedia.org/wiki/Harmonic_progression_(mathematics))), ...
+							- Constant-recursive: Fixed coefficients, solvable via characteristic equations, generating closed-form expressions. E.g.: $F_{n}=F_{n-1}+F_{n-2}$ ([Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence)), ...
+				- Arrangement of SCIFER terms on paper
+				  collapsed:: true
+				  ![SCIFER-sef.png](../assets/Uniinfo/Unithread/SCIFER-sef.png)
+				  + center around the intensional continued fraction $[s_0 / s_1 / s_2 / s_3 / ...]$,
+				  + with scale steps $e_k ≈ s_k / s_{k+1}$ on one side, 
+				  + and linear steps $f_k = s_k - s_{k+2}$ on the other side
+					- Horizontal layout (more concise for typesetting)
+					  ```
+					      f0   f1   f2
+					  s0 / s1 / s2 / s3
+					    e0   e1   e2
+					  c0   c1   c2   c3  
+					       i0   i1   i2
+					            r0   r1
+					  c = e⋅i + r
+					    =  f  + r
+					  ```
+					- Vertical layout (better for handwriting)
+					  ```
+					  			 c = i⋅e + r  = f + r
+					  	s0       c0
+					  	—— = e0   
+					  f0  s1       c1  i0
+					  	—— = e1
+					  f1  s2       c2  i1  r0
+					  	—— = e2
+					  f2  s3       c3  i2  r1
+					  f = i × e    
+					  ```
+					  ![SCIFER-sef-vertical.png](../assets/Uniinfo/Unithread/SCIFER-sef-vertical.png)
 			- ### SCIFER helix
 			  id:: 687505e2-062a-4267-98bc-ed0e9f6dced3
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
