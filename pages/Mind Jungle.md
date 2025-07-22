@@ -2290,6 +2290,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the extent is an extension of the sustent by the subject through its projection of the object's content, i.e. through the observation function $ob_i(c) = e$. The extent not only extends the content with the subjective image, i.e. $e$ denoting the size, magnitude, amount of content, but also extends the intensional form (intent) to the extensional form $f = i×e$ to match the content $c$.
 					- The partition “sustent–extent” is also called the “**physical–informational**” or “material–mental” partition.
 					- While the extent cannot exist without the sustent, the sustent is [self-sustained](((684c2e6e-f75f-4916-9f1c-4375d42d8604))) because it's a closed circle comprising two complements of form ($i$) and content ($c$).
+					- The  In ((66f40210-cca6-4d81-85e7-d0c54ef20451)),
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
 					  id:: 684c2e6e-f75f-4916-9f1c-4375d42d8604
@@ -2352,10 +2353,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- and the linear steps $s_k - s_{k+2} = f_k = s_{k+1} × e_k$ make $[s_0 - s_2 - s_4 - ...]$ and $[s_1 - s_3 - s_5 - ...]$ *variable-step progressions*, like [arithmetic progressions](https://en.wikipedia.org/wiki/Arithmetic_progression);
 						- because $s_k = s_{k+1} × e_k + s_{k+2} = f_k + s_{k+2}$
 						- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-						  collapsed:: true
 							- The notation $[s_0 / s_1 / s_2 / s_3 / ...]$ of intensional continued fraction is very similar to the notation of [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) $[s_0 : s_1 : s_2 : s_3 : ...]$.
 							- The variable-coefficient progressions (variable-ratio/step progression) are special cases of the [general recursive sequence](https://en.wikipedia.org/wiki/Recurrence_relation).
 							  id:: 682b0f4a-40aa-43be-9f70-33d0078ff0aa
+							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2025-05-19 Mon 18:06:44]
 							  :END:
