@@ -2284,7 +2284,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  $e$
 		  ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is the number resulting from the [measurement](((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))), the rage of the operation, the image of projection. This number is non-material and purely a mental construction by the subject through its intent.
-		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
+		- Three partitions of the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- Sustent ($c$, $i$) – Extent ($e$)
 			  id:: 681826ac-63f5-4c4f-9c58-0fe3e922d758
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((687f322c-2334-46e5-816b-57889e5c6b89)), including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the extent is an extension of the sustent by the subject through its projection of the object's content, i.e. through the observation function $ob_i(c) = e$. The extent not only extends the content with the subjective image, i.e. $e$ denoting the size, magnitude, amount of content, but also extends the intensional form (intent) to the extensional form $f = i×e$ to match the content $c$.
@@ -2306,11 +2306,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Sustent is constantly changing, while substances are considered unchanged.
 							- We may reuse the term "substance" with modified def "the one enduring changes while keeping a wholesome bundle of intrinsic properties called the 'natures' of it". The wholesomeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
 			- Form ($i$, $e$) – Content ($c$)
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$: $c →_{i}e$. The extensional form $f = i×e$, being a product of the intensional (internal) form $i$ (intent of the subject) with the external form $e$ ( ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the object), is to match the content $c$ of the object: $f = i×e \sim c$. The mismatch between form and content, i.e. the content remainder $r = c - f$, leads to the refinement of intent & sustent via ((66f40210-cca6-4d81-85e7-d0c54ef20451)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$: $c →_{i}e$. The extensional form $f = i×e$, being a product of the intensional (internal) form $i$ (intent of the subject) with the external form $e$ ( ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the object), is to match the content $c$ of the object: $f = i×e \sim c$. The mismatch between form and content, i.e. the content remainder $r = c - f$, leads to the refinement of intent & sustent via the ((66f40210-cca6-4d81-85e7-d0c54ef20451)) process.
 					- Because the subjective form $f = i×e$ reflects the objective content of the external world, this partition is also called the *mirror partition* of “**M(*i*, *e*) – W(*c*)**” (“mine–wild” or “me–world”).
 					- Unified notion of “form”: In philosophy and science, “form” usually refers to internal forms ($i$) like format, formular, structure, while in natural language, “form” usually refers to external forms ($e$) like shape, appearance.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- The *internal form* $i$ of the obop's **eye** defines the *format* for the content $c$, so that $c$ appears to the obop as the *external form* $e$. Because the internal form of the eye is especially important to the subject (obop) and the pronunciation of letter “i” is the same as the word “eye”, “i” is usually used to denote the *eye of projection*, indexing the projection arrow $→_{i}$, where it can also means “I, the subject of projection”.
+					- intent $i$ = “eye” 👁️ = “I, the subject”
+					  collapsed:: true
+						- The *internal form* $i$ of the obop's **eye** defines the *format* for the content $c$, so that $c$ appears to the obop as the *external form* $e$.
+						- Because the internal form of the eye is especially important to the subject (obop) and the pronunciation of the letter “i” is the same as the word “eye”, “i” is usually used to denote the *eye of projection*, indexing the projection arrow $→_{i}$, where it can also means “I, the subject of projection”.
 			- Extensive ($e$, $c$) – Intensive ($i$)
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
 		- TODO Migrate [[CIE]]
