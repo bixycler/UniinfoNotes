@@ -2315,7 +2315,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The *internal form* $i$ of the obop's **eye** defines the *format* for the content $c$, so that $c$ appears to the obop as the *external form* $e$.
 						- Because the internal form of the eye is especially important to the subject (obop) and the pronunciation of the letter “i” is the same as the word “eye”, “i” is usually used to denote the *eye of projection*, indexing the projection arrow $→_{i}$, where it can also means “I, the subject of projection”.
 			- Extensive ($e$, $c$) – Intensive ($i$)
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In the observation function $e = ob_i(c) = c/i$ and the operation function $c = op_i(e) = i×e$, the *variables* $e, c$ are **extensive properties**, while the *parameter* $i$ is an **intensive property**, as shown in the [categorization of physical properties](https://en.wikipedia.org/wiki/Intensive_and_extensive_properties). That means, in the **subjective view** of the obop, its intent $i$ is kept invariant, while the extent $e$ varies directly with the conent $c$.
+				- Otherwise, in the objective view, the total content of the Universe ([domain of discourse](https://en.wikipedia.org/wiki/Domain_of_discourse)) is considered fixed *c* = 1, hence the inverse variation of the two forms, intension *i* and abstract extension *e*: *1/i = e*. Here, the intent *i* gives intension, meaning, to the extent *e*, “*e* means *e times i*”, so that the abstract extension *e* can be used in place of the concrete extension *i⋅e*. As the obop *i* ranges over the content *c* to yield corresponding number *e*, *i* is known as the *index*, the *indicator* of the “current position” (the “here”), also the *interator* of the “current time” (the “now”).
 		- TODO Migrate [[CIE]]
 		  id:: 67b541d0-0c8c-4186-b5fd-460cfa4e3e27
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
