@@ -2290,7 +2290,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the extent is an extension of the sustent by the subject through its projection of the object's content, i.e. through the observation function $ob_i(c) = e$. The extent not only extends the content with the subjective image, i.e. $e$ denoting the size, magnitude, amount of content, but also extends the intensional form (intent) to the extensional form $f = i×e$ to match the content $c$.
 					- The partition “sustent–extent” is also called the “**physical–informational**” or “material–mental” partition.
 					- While the extent cannot exist without the sustent, the sustent is [self-sustained](((684c2e6e-f75f-4916-9f1c-4375d42d8604))) because it's a closed circle comprising two complements of form ($i$) and content ($c$).
-					- The  In ((66f40210-cca6-4d81-85e7-d0c54ef20451)),
+					- Content–intent relativity: Because both $c$ and $i$ are sustents, i.e. $s_0 = c, s_1 = i$ as in ((66f40210-cca6-4d81-85e7-d0c54ef20451)), which one is intent which one is content is relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)): whichever the subject chooses to be its intent, the other will be content. In SCIFER, this content–intent role is alternated
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
 					  id:: 684c2e6e-f75f-4916-9f1c-4375d42d8604
