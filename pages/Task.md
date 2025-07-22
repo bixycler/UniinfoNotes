@@ -121,7 +121,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		- DONE This weekends ([12-13 July](((6874657a-c5dd-46fb-a2f3-1d7f059e2a07)))), LSD trip with Mr. Hiệp
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
-		- TODO [!] Làm lại thẻ VCB & gặp Huy
+		- TODO [!] Làm lại thẻ VCB
 		- ...
 	- ## Future Tasks
 	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9
