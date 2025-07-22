@@ -2563,10 +2563,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68750097-13e5-4662-9791-8207ec18e8aa)) is the ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) of the remainder within the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)), represented by its percentage.
 				  ⇒ [potential](((6847e7fa-0d57-425c-b035-1a62db7725e6)))
 			- TODO Migrate [[sCIfEr]]
-			- WAIT ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
+			- WAIT SCIFER view cone
 			  :LOGBOOK:
 			  CLOCK: [2024-09-25 Wed 20:07:40]--[2024-09-25 Wed 20:07:45] =>  00:00:05
 			  :END:
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f40210-cca6-4d81-85e7-d0c54ef20451)) as a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
 				- ((66537674-6cf9-4459-8bea-7c1858c694a3)): The content at the base of the cone is abstracted step by step through levels of $s_k$ to the zero at the apex.
 				  id:: 66f40baf-1aca-40b7-828c-71d6f15f23fe
 					- At each level, the SCIFER must complete a full ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) to generate extent as the abstraction at the next level.
