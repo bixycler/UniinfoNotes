@@ -2287,12 +2287,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- Sustent ($c$, $i$) – Extent ($e$)
 			  id:: 681826ac-63f5-4c4f-9c58-0fe3e922d758
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the extent is an extension of the sustent by the subject through its projection of the object's content, i.e. through the observation function $ob_i(c) = e$. The extent not only extends the content with the subjective image, i.e. $e$ denoting the size, magnitude, amount of content, but also extends the intensional form (intent) to the extensional form $f = i×e$ to match the content $c$.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((687f322c-2334-46e5-816b-57889e5c6b89)), including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the extent is an extension of the sustent by the subject through its projection of the object's content, i.e. through the observation function $ob_i(c) = e$. The extent not only extends the content with the subjective image, i.e. $e$ denoting the size, magnitude, amount of content, but also extends the intensional form (intent) to the extensional form $f = i×e$ to match the content $c$.
 					- The partition “sustent–extent” is also called the “**physical–informational**” or “material–mental” partition.
 					- While the extent cannot exist without the sustent, the sustent is [self-sustained](((684c2e6e-f75f-4916-9f1c-4375d42d8604))) because it's a closed circle comprising two complements of form ($i$) and content ($c$).
 					- Content–intent relativity: Because both $c$ and $i$ are sustent, i.e. $s_0 = c, s_1 = i$ as in ((66f40210-cca6-4d81-85e7-d0c54ef20451)), which one is intent which one is content is relative to the choice of ((667c015e-6223-4f8a-ae84-a93a49f4ff94)): whichever the subject chooses to be its intent, the other will be content. In SCIFER, this content–intent role is alternated repeatedly.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- The sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
+					- The ((687f322c-2334-46e5-816b-57889e5c6b89)) = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
 					  id:: 684c2e6e-f75f-4916-9f1c-4375d42d8604
 					  collapsed:: true
 						- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) from Latin [sustentus](https://en.wiktionary.org/wiki/sustentus), perfect passive participle of [sustineō](https://en.wiktionary.org/wiki/sustineo#Latin)
@@ -2626,9 +2626,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Conservation of content
 			  id:: 67a983b4-f6ad-4abb-b611-7952168d83a2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67a983b4-f6ad-4abb-b611-7952168d83a2)) is a special case of the ((678e2046-54ac-4284-865d-6f3e38f589a1)) when considering a single being throughout time.
-			- **Universal content**
+			- **universal content**
 			  id:: 678e1d31-4874-4df6-bfb4-60822a6b5546
 			  the ((6678288e-699b-4325-bdba-bf6349fe0d57)) shared by all ((678e1c3f-6202-45aa-8527-f4bdad9927b9))s
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((687f322c-2334-46e5-816b-57889e5c6b89))
+				- sustent
+				  id:: 687f322c-2334-46e5-816b-57889e5c6b89
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((678e1d31-4874-4df6-bfb4-60822a6b5546))
 		- ### FoC dynamics
 		  id:: 6858b355-fba9-4e61-9f16-bc993a3df44b
 		  collapsed:: true
@@ -3114,7 +3118,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6819f75f-1bab-4cc7-9316-228d14aa80d9
 			  collapsed:: true
 				- The theory was named “Universal Information” simply because the author ((66536578-c4d3-43f1-b35c-bf71120f0570)) is an information scientist. At that time, he saw the hierarchy of visible matter as: mass > energy > information. That means “*every __visible__ thing is information*”.
-				- Later on, when studying the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory, he discovered the invisible [sustent](((681826ac-63f5-4c4f-9c58-0fe3e922d758))) underlying the visible ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))s (information, energy, mass, charges, ...).
+				- Later on, when studying the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory, he discovered the invisible ((687f322c-2334-46e5-816b-57889e5c6b89)) underlying the visible ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))s (information, energy, mass, charges, ...).
 				- That means, instead of “information”, the “universal substance underlying everything” is formally modeled as the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), which captures not only information but also _the underlying **sustent** that carries information_.
 	- ## Unïnfo Theory
 	  id:: 669dfc9f-b5e2-448a-b6f4-be13c5bfbccb
