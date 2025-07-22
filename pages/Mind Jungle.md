@@ -2385,7 +2385,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [Antikythera mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism) calculating cosmos phases.
 			- ### interunion
 			  id:: 687f5b57-04c6-4e38-9b67-4a22cbf6e3df
-				-
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((687f5b57-04c6-4e38-9b67-4a22cbf6e3df)) is the repeation of ((67654ecb-896a-4421-95e5-f72c07fc62a4))
 			- SCIFER formulae
 			  collapsed:: true
 				- $c = e × i + r = f + r$;   $f = e × i$;   $(c, i, r) = (s_0, s_1, s_2)$;   $c/i = [e_0; e_1, e_2, ...] = [s_0 / s_1 / s_2 / s_3 / ...]$
