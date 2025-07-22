@@ -2285,11 +2285,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is the number resulting from the [measurement](((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))), the rage of the operation, the image of projection. This number is non-material and purely a mental construction by the intent.
 		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
-			- Sustent ($c$, $i$) - Extent ($e$)
+			- Sustent ($c$, $i$) – Extent ($e$)
 			  id:: 681826ac-63f5-4c4f-9c58-0fe3e922d758
-			- Form ($i$, $e$) - Content ($c$)
+				- The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything
+				- are expressed in the mind of the subject as visible extents
+			- Form ($i$, $e$) – Content ($c$)
 				- The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$.
-			- Extensive ($e$, $c$) - Intensive ($i$)
+			- Extensive ($e$, $c$) – Intensive ($i$)
 		- TODO Migrate [[CIE]]
 		  id:: 67b541d0-0c8c-4186-b5fd-460cfa4e3e27
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
