@@ -2272,22 +2272,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66b1cfa4-2537-4361-a626-da81ca5b4e6f
 		  $c$
 		  ((6678288e-699b-4325-bdba-bf6349fe0d57)) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) is the ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to be ((66c835f1-29a9-4e07-90b8-92bcd89cdb9b))d and measured, the measuree, the domain of operation, the unknown amount of material.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) is whatever contained in the ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to be ((66c835f1-29a9-4e07-90b8-92bcd89cdb9b))d and measured, hence, the measuree, the domain of operation, the unknown amount of material.
 			  id:: 66f3ca15-2f7c-42b7-bcb0-946b9ccd1881
 		- intent
 		  id:: 66f3c97f-94e8-4783-96c5-fe9cadf4f9a9
 		  $i$
 		  ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) is the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) that measures the object's ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)), the measurer, the unit of measurement, the modulus of division, the operator, the known amount of material which act as the container of content. In perception, it's the “eye's self”, the projector that projects the material object onto the mental world. The operation of measuring or projecting the unknown ($c$) against the known ($i$) is illustrated by the division $c/i$.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) is standard inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) that the subject uses to measure the object's ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)), hence, the measurer, the unit of measurement, the modulus of division, the operator, the known amount of material which act as the container of content. In perception, it's the “eye's self”, the projector that projects the material object onto the mental world. The operation of measuring or projecting the unknown ($c$) against the known ($i$) is illustrated by the division $c/i$.
 		- extent
 		  id:: 66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8
 		  $e$
 		  ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) in ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is the number resulting from the [measurement](((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))), the rage of the operation, the image of projection. This number is non-material and purely a mental construction by the intent.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8)) is the number resulting from the [measurement](((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))), the rage of the operation, the image of projection. This number is non-material and purely a mental construction by the subject through its intent.
 		- Three partitions of ((66b1cfa4-e22c-4424-bf19-a6ce4649da77))
 			- Sustent ($c$, $i$) – Extent ($e$)
 			  id:: 681826ac-63f5-4c4f-9c58-0fe3e922d758
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the exten and is an extension of the sustent .
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The sustent, including both content and intent, is the invisible *underlying substance* that sustains everything, whereas extent is the visible image of these things in the mind of the subject. That means the extent is an extension of the sustent by the subject through its projection of the object's content.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- The sustent = the self-sustained = the self-sustaining = the thing existing before, alongside (i.e. sustenance), and after (i.e. the sustained) the Extent
 					  collapsed:: true
