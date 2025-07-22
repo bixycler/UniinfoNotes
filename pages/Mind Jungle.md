@@ -2367,8 +2367,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 19:29:20]
 		  :END:
-			-
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) theory, ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((687f528d-f612-40ef-8731-75ed54d0a960))
+			- ∅
+			  id:: 687f528d-f612-40ef-8731-75ed54d0a960
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f40210-cca6-4d81-85e7-d0c54ef20451))
+			- TODO ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) theory, ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) ... [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm) with remainder: sustent = content + form, intent - extent - remainder
 			  id:: 6735b187-6f6a-4dee-9f22-b7db6f8af855
 				- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “SCIFER” is pronounced [“cipher”](https://en.wiktionary.org/wiki/cipher#English) /ˈsaɪfə/, or [“chiffre”](https://en.wiktionary.org/wiki/chiffre#French) /ʃifʁ/ in French (with the name reordered as “SCIFRE”).
 				- Typsetting: To highlight the relation with the CIE, SCIFER may be typeset as $_{S}CI_{F}E^{R}$.
