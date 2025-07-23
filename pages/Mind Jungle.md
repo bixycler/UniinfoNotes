@@ -2402,6 +2402,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- and the linear steps $s_k - s_{k+2} = f_k = s_{k+1} × e_k$ make $[s_0 - s_2 - s_4 - ...]$ and $[s_1 - s_3 - s_5 - ...]$ *variable-step progressions*, like [arithmetic progressions](https://en.wikipedia.org/wiki/Arithmetic_progression);
 					- because $s_k = s_{k+1} × e_k + s_{k+2} = f_k + s_{k+2}$
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					  collapsed:: true
 						- The notation $[s_0 / s_1 / s_2 / s_3 / ...]$ of intensional continued fraction is very similar to the notation of [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) $[s_0 : s_1 : s_2 : s_3 : ...]$.
 						- The variable-coefficient progressions (variable-ratio/step progression) are special cases of the [general recursive sequence](https://en.wikipedia.org/wiki/Recurrence_relation).
 						  id:: 682b0f4a-40aa-43be-9f70-33d0078ff0aa
@@ -4867,11 +4868,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  is the Japanese pronunciation of 黎・春定, despite my preferred written form as “Lê Harusada”.
 		- On ((66536662-052f-46a4-a624-38858bffb334)): `bixycler`
 		- On Blogger & YouTube: `ComputerBoy`
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Personal info:
-			- CCCD: `092082007320`
-				- CMND: `025145607`
-			- MST: `8040166197`
-			- HTV staff ID: `230320029`
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) I'm just a no-one going nowhere to do nothing!
+			- Personal info:
+			  collapsed:: true
+				- CCCD: `092082007320`
+					- CMND: `025145607`
+				- MST: `8040166197`
+				- HTV staff ID: `230320029`
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- > I'm just a no-one going nowhere to do nothing!
+			  
+			  This short introduction appears in most of my profiles.
 		- ### DOING Mind Map
 		  id:: 67760c43-58c6-40eb-b874-40afae448966
 		  :LOGBOOK:
