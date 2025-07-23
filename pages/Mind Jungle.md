@@ -4876,9 +4876,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- MST: `8040166197`
 				- HTV staff ID: `230320029`
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- > I'm just a no-one going nowhere to do nothing!
+			- collapsed:: true
+			  > I'm just a no-one going nowhere to do nothing!
 			  
-			  This short introduction appears in most of my profiles.
+			  This short introduction appears in most of my profiles. It may sounds Buddhist and Daoist but these "sounds" and interpretations are very far from my original intention.
+				- With that statement, i mean that “I’m just a regular person, not chasing status or legacy; I live a simple life without big ambitions, doing what matters to me — even if it looks like nothing or even meaningless to others.”
+				- However, i've accidentally ackowledged that some of my friends interprete it as a transcendent status of selflessness ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81), 無我, vô ngã)
 		- ### DOING Mind Map
 		  id:: 67760c43-58c6-40eb-b874-40afae448966
 		  :LOGBOOK:
