@@ -3373,4 +3373,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  
 						  Sitemap: https://creatzynotes.blogspot.com/sitemap.xml
 						  ```
+					- https://creatzynotes.blogspot.com/sitemap.xml
+						- ```xml
+						  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+						  <url>
+						  <loc>https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html</loc>
+						  <lastmod>2025-06-27T03:02:12Z</lastmod>
+						  </url>
+						  <url>
+						  <loc>https://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html</loc>
+						  <lastmod>2024-12-24T10:01:06Z</lastmod>
+						  </url>
+						  <url>
+						  <loc>https://creatzynotes.blogspot.com/2024/11/cam-benh-pathos-am-me-au-kho-passion.html</loc>
+						  <lastmod>2024-11-06T09:14:48Z</lastmod>
+						  </url>
+						  ...
+						  </urlset>
+						  ```
 		- ...
