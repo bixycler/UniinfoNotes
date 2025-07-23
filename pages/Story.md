@@ -3337,7 +3337,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- the perfection is the meta form at infinity (zero intent), driving the self to change & learn
 			- 21st, ...
 			  collapsed:: true
-				- revise ReciprocalCIE applet: 2 reciprocal view cones
+				- revise [ReciprocalCIE](https://www.geogebra.org/m/pxbusb4r) applet: 2 reciprocal view cones
 					- left: intent:content:extent
 					- right: extent:content:intent
 					- middle: intent × extent quare
@@ -3349,4 +3349,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- equal 1: content + form = sustent = total content = constant
 						- => change content = change form, from external forms in the world, accumulating to intents via knowledge cone
 						- => layers of intents (sustents) spiral down to the center point via SCIFER
+			- 22nd, ...
+			  collapsed:: true
+				- [SCIFER Reps](https://www.geogebra.org/m/qy9xkevh) applet: interunion of 2 circles, diagonal line $y=x$ in the torus tessellation plane, SCIFER helix, SCIFER spirorus
+					- torus tessellation plane: We [lift](https://en.wikipedia.org/wiki/Lifting_property) the torus form of the SCIFER spirorus to its [tessellation plane](https://en.wikipedia.org/wiki/Tessellation#In_mathematics), where its [fundamental rectangle](https://en.wikipedia.org/wiki/Fundamental_domain) tiles the plane in a grid pattern.
+						- This tessellation visually represents the universal [covering space](https://en.wikipedia.org/wiki/Covering_space) of the torus, with each tile mapping down to the torus via the covering projection.
+					- SCIFER helix is for the clear view of S-C-I-F-E-R(phase) components, and the view of interunion in intent lense.
+					- SCIFER spirorus is for the view of interunion in content lense.
 		- ...
