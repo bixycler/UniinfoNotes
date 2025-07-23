@@ -3380,6 +3380,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- https://creatzynotes.blogspot.com/sitemap.xml
 					  id:: 6880c5ca-c0e4-485c-ae5f-ef323dacd5df
 						- ```xml
+						  <?xml version='1.0' encoding='UTF-8'?>
 						  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 						  <url>
 						  <loc>https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html</loc>
