@@ -3361,7 +3361,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- I've just discovered that my [CreatZy Notes](https://creatzynotes.blogspot.com/) blog does not appear in Google Search anymore. The only result appear in Google Search as well as in other search tools by used chatbots is the very old post: [Spirorus, the structure of spacetime ;)](https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html)
 					- I've checked the [Blogger settings](https://www.blogger.com/blog/settings/6547598) and see that "Visible to search engines" is ON.
 					- The [blog stats](https://www.blogger.com/blog/statsblog/6months/6547598) over the last 6 months shows lots of "views" from [SFive](https://download.com.vn/sfive-browser-149044) (a Vietnamese browser) (10k), and from Chrome (4k), while only 22 views were referred from www.google.com.
+					- With Google Search Console's [URL inspection](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fcreatzynotes.blogspot.com%2F), the only indexed one is https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html. All other URLs are reported as "Sitemaps: No referring sitemaps detected" while these URLs do appear in the [sitemap.xml](((6880c5ca-c0e4-485c-ae5f-ef323dacd5df))).
+					- The Sitemaps list in Google Search Console is empty, while it's clearly in the [robots.txt](((6880bfb6-37bd-4d5a-aa65-a366b19fed81)))!
 					- https://creatzynotes.blogspot.com/robots.txt
+					  id:: 6880bfb6-37bd-4d5a-aa65-a366b19fed81
 						- ```
 						  User-agent: Mediapartners-Google
 						  Disallow: 
@@ -3374,6 +3377,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Sitemap: https://creatzynotes.blogspot.com/sitemap.xml
 						  ```
 					- https://creatzynotes.blogspot.com/sitemap.xml
+					  id:: 6880c5ca-c0e4-485c-ae5f-ef323dacd5df
 						- ```xml
 						  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 						  <url>
