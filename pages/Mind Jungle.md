@@ -4888,6 +4888,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- However, my introduction just tells about my current status of
 						- a normal person... with some abnormalities compared to the regular,
 						- an ordinary person... with some extraordinary/madness in the eyes of the folk.
+					-
 		- ### DOING Mind Map
 		  id:: 67760c43-58c6-40eb-b874-40afae448966
 		  :LOGBOOK:

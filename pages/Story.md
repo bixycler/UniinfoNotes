@@ -3406,6 +3406,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Description: These pages attempt to trick users into doing something dangerous, such as installing unwanted software or revealing personal information. [Learn more](https://support.google.com/webmasters/answer/9044101#phising)
 						- Sample URLs: N/A
 					- My appeal has cleared this ((6880e5f7-3f00-4d8f-a63b-fcf9548175a2))
-						- This is a simple static page with content merely about Dhammapada Sutta. Please show me how and which part of it "trick users into doing something dangerous, such as installing unwanted software or revealing personal information."
-					-
+						- Request for review
+						  > This is a simple static page with content merely about Dhammapada Sutta. Please show me how and which part of it "trick users into doing something dangerous, such as installing unwanted software or revealing personal information."
 		- ...
