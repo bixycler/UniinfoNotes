@@ -3411,7 +3411,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 24th, ...
 			  collapsed:: true
 				- Canon in D
-				  [first try](https://g.co/arts/TAE4PzK3xoNvCTvr7)
-				  [Soft & long](https://g.co/arts/AyZENm19CKRfwMci6)
-				  [Strong & short](https://g.co/arts/a5HpLckFjN4rmqbDA)
+					- [first try](https://g.co/arts/TAE4PzK3xoNvCTvr7)
+					- [Soft & long](https://g.co/arts/AyZENm19CKRfwMci6)
+					- [Strong & short](https://g.co/arts/a5HpLckFjN4rmqbDA)
+					- [Emotional](https://g.co/arts/bonYD3CQH8hzS9Tr6)
 		- ...
