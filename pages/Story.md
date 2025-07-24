@@ -3399,7 +3399,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ...
 						  </urlset>
 						  ```
-				- Adding other sites ([Unïnfo](https://bixycler.github.io/Uniinfo/), [Kinh Pháp Cú (Dhammapada)](https://bixycler.github.io/PhapCu-Dhammapada/)) to Google Search Console, they are all reported "security issue" 😮🤔
+				- Adding other sites ([Unïnfo](https://bixycler.github.io/Uniinfo/), [Kinh Pháp Cú (Dhammapada)](https://bixycler.github.io/PhapCu-Dhammapada/)) to Google Search Console, they are all reported "security issue" 😮🤔 which have been resolved by appeals.
 				  collapsed:: true
 					- Security issue: Deceptive pages (phishing?!)
 					  id:: 6880e5f7-3f00-4d8f-a63b-fcf9548175a2
