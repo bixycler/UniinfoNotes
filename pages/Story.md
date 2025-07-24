@@ -3358,6 +3358,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- SCIFER spirorus is for the view of interunion in content lense.
 			- 23rd, ...
 			  collapsed:: true
+				- ((6880a9a5-b5d3-4542-b378-31cf40ea8476))
 				- I've just discovered that my [CreatZy Notes](https://creatzynotes.blogspot.com/) blog does not appear in Google Search anymore. The only result appear in Google Search as well as in other search tools by used chatbots is the very old post: [Spirorus, the structure of spacetime ;)](https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html)
 				  collapsed:: true
 					- I've checked the [Blogger settings](https://www.blogger.com/blog/settings/6547598) and see that "Visible to search engines" is ON.
@@ -3401,8 +3402,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Adding other sites ([Unïnfo](https://bixycler.github.io/Uniinfo/), [Kinh Pháp Cú (Dhammapada)](https://bixycler.github.io/PhapCu-Dhammapada/)) to Google Search Console, they are all reported "security issue" 😮🤔
 				  collapsed:: true
 					- Security issue: Deceptive pages (phishing?!)
+					  id:: 6880e5f7-3f00-4d8f-a63b-fcf9548175a2
 						- Description: These pages attempt to trick users into doing something dangerous, such as installing unwanted software or revealing personal information. [Learn more](https://support.google.com/webmasters/answer/9044101#phising)
 						- Sample URLs: N/A
-					- My appeal
+					- My appeal has cleared this ((6880e5f7-3f00-4d8f-a63b-fcf9548175a2))
 						- This is a simple static page with content merely about Dhammapada Sutta. Please show me how and which part of it "trick users into doing something dangerous, such as installing unwanted software or revealing personal information."
+					-
 		- ...
