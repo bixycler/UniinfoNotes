@@ -3408,4 +3408,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- My appeal has cleared this ((6880e5f7-3f00-4d8f-a63b-fcf9548175a2))
 						- Request for review
 						  > This is a simple static page with content merely about Dhammapada Sutta. Please show me how and which part of it "trick users into doing something dangerous, such as installing unwanted software or revealing personal information."
+			- 24th, ...
+			  collapsed:: true
+				- Canon in D
+				  [first try](https://g.co/arts/TAE4PzK3xoNvCTvr7)
+				  [Soft & long](https://g.co/arts/AyZENm19CKRfwMci6)
+				  [Strong & short](https://g.co/arts/a5HpLckFjN4rmqbDA)
 		- ...
