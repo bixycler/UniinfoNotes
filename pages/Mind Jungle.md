@@ -3819,6 +3819,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
 						- **Observe** & ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents instead of looking at the external objects & target.
 							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma and influences of the external world.
+							- The delusion will be transformed to wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)) by the change of the internal reality (intent equalization) instead of the actions to change the external reality.
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
