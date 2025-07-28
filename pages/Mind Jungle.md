@@ -2003,14 +2003,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  + Both forces are to restore the balance
 				  ```
 				- A special case of this equation is the [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) in General Realativity.
-		- ### cause-effect double cone
+		- ### cause–effect double cone
 		  id:: 6851578b-9b1f-4367-878f-79b0b0b9be51
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
 				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
 					- Diagram
 					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
 						- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=300)
-			- intent-action double cone
+			- intent–action double cone
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
 		- Mutual exclusiveness
@@ -3841,10 +3841,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma and influences of the external world.
 							- The delusion will be transformed to wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)) by the change of the internal reality (intent equalization), instead of the actions to change the external reality.
 			- TODO Integrate these:
-				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
 				- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = ((68874adb-f452-45ba-ae76-8582bdd9035f)) = ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
 				  id:: 6846c7e1-239c-4b39-9ef4-9d2eaba17a52
 				  collapsed:: true
@@ -3889,7 +3889,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :END:
 					- Liking something is because its image is close, large.
 					- Disliking something is because its image is far, small.
-					- Both like & dislike
+					- In both like & dislike, the subject see
+						- (e) only a very small segment of the whole circle, and
+						- (i) only a tip of the intent–action double cone,
+						- hence, a very distorted image of both the external object (e) and the internal [intent sequence](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) (i).
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
