@@ -3420,13 +3420,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Seeing [Viola the Bird](https://g.co/arts/bonYD3CQH8hzS9Tr6) simplifying the violin to only one string, i remember the African goje as well as many other ((68872ffd-76bc-4b15-8a2c-2d6fa6c068dd)).
 				- 1-string instruments in the world
 				  id:: 68872ffd-76bc-4b15-8a2c-2d6fa6c068dd
+				  collapsed:: true
 				  restored from a note saved in [GDrive](https://drive.google.com/file/d/1GlMuoYyOwTEfraX-ji13ReetLBQk1x3y/view?usp=drivesdk) in March 2023
 					- [Diddley bow](https://en.wikipedia.org/wiki/Diddley_bow), mouth bow, [Berimbau](https://en.wikipedia.org/wiki/Berimbau), ground bow, and so on, originated from Africa
 						- Mr. Phương at Phú Quốc created a similar [one-string guitar](https://youtu.be/KH3mMIhKUzE).
-					- one-string xalam of Africa
-					- goje (riti) & [many fiddles](https://en.wikipedia.org/wiki/Category:One-string_fiddles) of Africa
-					- [Ektārā](https://en.wikipedia.org/wiki/Ektara) (একতারা, एकतारा) - India
-					- [Dan bau](https://en.wikipedia.org/wiki/%C4%90%C3%A0n_b%E1%BA%A7u) (đàn bầu) at Vietnam, Duxianqin (獨弦琴) of [Jing people](https://en.wikipedia.org/wiki/Gin_people) in China, đàn/tàn máng of Mường people
+					- One-string xalam of Africa
+					- [Goje](https://en.wikipedia.org/wiki/Goje) (riti) & [many fiddles](https://en.wikipedia.org/wiki/Category:One-string_fiddles) of Africa
+					- [Ektārā](https://en.wikipedia.org/wiki/Ektara) (একতারা, एकतारा) of India
+					- [Đàn bầu](https://en.wikipedia.org/wiki/%C4%90%C3%A0n_b%E1%BA%A7u) of Vietnam, Duxianqin (獨弦琴) of [Jing people](https://en.wikipedia.org/wiki/Gin_people) in China, đàn/tàn máng of Mường people
 						- Nowadays, it's played with electric [pickup](https://en.wikipedia.org/wiki/Pickup_(music_technology)).
 							- The Vietnamese term “mô-bin” is from the French [simple bobinage](https://fr.wikipedia.org/wiki/Single_coil).
 						- Đàn bầu mộc (non-electric):
@@ -3434,6 +3435,33 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- [NSND Xuân Hoạch kể chuyện cây đàn bầu Việt Nam](https://youtu.be/6bsbMROVXl0)
 					- [Ichigenkin](https://en.wikipedia.org/wiki/Ichigenkin) (一絃琴) of Japan for meditation
 					- [Monochord](https://en.wikipedia.org/wiki/Monochord) is a laboratory instrument
-					- (*) Mouth/jaw/Jew's harp (1 tongue/reed, not string) - Russia-Siberia
+					- (*) Mouth/jaw/Jew's harp (1 tongue/reed, not string) of Russia-Siberia
+				- The Vietnamese [đàn cò](https://youtu.be/-VKGJq6GUlw) & đàn bầu have carried me away for a tour reviewing the national root in my heart... to contemplate both sides and then release it.
+				- An experiential witness of the Impermanence in... a dream! 😎💭
+					- [My life is a dream, my dream is alive!](https://creatzynotes.blogspot.com/2011/12/my-life-is-dream-my-dreams-are-alive.html)
+					- Although the “dream” is usually used as a metaphor for the unreal, my literal dream has shown a very realistic realization of the whole life!
+					- To the world outside of the dream, the dream is so illusionary, but to the dream, the outside world is no less illusionary. Hence, both of them are as real as illusionary 😜👻! In other words, everything is a **real illusion**.
+						- 🌀 Real Illusion
+							- The illusion is real. Literally.
+							- Not just metaphorically — it exists, it appears, it affects — that’s a real being with real effects.
+							- The unreality of the illusion is just its way of being. And its being is real.
+							- The Real Illusion is just another name for the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
+					- The gatha of [Diamond sutra](https://en.wikipedia.org/wiki/Diamond_Sutra):
+						- > तारका तिमिरं दीपो मायावश्यायबुद्बुदं। सुपिनं विद्युदभ्रं च एवं द्रष्टव्यं संस्कृतं।
+							- Như sao đêm, như mắt loạn, như ngọn đèn, như huyễn thuật, như sương mai, như bọt nước, như cơn mộng, như ánh chớp, như đám mây — những gì hữu vi nên được quán chiếu như vậy.
+						- > 一切有爲法
+						  如夢幻泡影
+						  如露亦如電
+						  應作如是觀
+							- > Nhất thiết hữu vi pháp
+							  Như mộng huyễn bào ảnh
+							  Như lộ diệc như điện
+							  Ưng tác như thị quán.
+							- Tất cả pháp hữu vi
+							  Như mộng ảo, bóng nước
+							  Như sương mai, chớp lóe
+							  Nên quán sát như vậy.
+								- “Bóng nước”
+				-
 			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
 		- ...
