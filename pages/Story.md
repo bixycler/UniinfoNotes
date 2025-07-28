@@ -3408,14 +3408,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- My appeal has cleared this ((6880e5f7-3f00-4d8f-a63b-fcf9548175a2))
 						- Request for review
 						  > This is a simple static page with content merely about Dhammapada Sutta. Please show me how and which part of it "trick users into doing something dangerous, such as installing unwanted software or revealing personal information."
-			- 24th, ...
+			- 24th, ((6882164a-8717-4fd4-a660-4fdeb424af70))
 			  collapsed:: true
-				- Will Lei's cover of [Canon in D](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon) in
+				- Will Lei's cover of [Canon in D](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon) in [Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ)
+				  id:: 6882164a-8717-4fd4-a660-4fdeb424af70
 					- [first try](https://g.co/arts/TAE4PzK3xoNvCTvr7)
 					- [Soft & long](https://g.co/arts/AyZENm19CKRfwMci6)
 					- [Strong & short](https://g.co/arts/a5HpLckFjN4rmqbDA)
 					- [Emotional](https://g.co/arts/bonYD3CQH8hzS9Tr6)
-			- Weekends 25-27th, ...
+			- Weekends 25-27th,
 			  collapsed:: true
 				- Seeing [Viola the Bird](https://g.co/arts/bonYD3CQH8hzS9Tr6) simplifying the violin to only one string, i remember the African goje as well as many other ((68872ffd-76bc-4b15-8a2c-2d6fa6c068dd)).
 				- 1-string instruments in the world
@@ -3475,5 +3476,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [Ikebana](https://en.wikipedia.org/wiki/Ikebana) (生け花) – “Living flowers”
 						- Kado (花道) – “The Way of the Flower”
 						- [すべての人の心に花を](https://youtu.be/p-gmKHK2VPs)
+				- After the freedive at the quarry lake “Tuyệt Tình Cốc” last Sunday, i've got a mild nasal inflammation... but it die hard
 			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
 		- ...
