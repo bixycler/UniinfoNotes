@@ -3477,8 +3477,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Kado (花道) – “The Way of the Flower”
 						- [すべての人の心に花を](https://youtu.be/p-gmKHK2VPs)
 				- After the freedive at the quarry lake “Tuyệt Tình Cốc” last Sunday, i've got a mild nasal inflammation... but it dies hard, so stubborn, obstinate and obdurate!
+				  collapsed:: true
 					- With relax and meditation, it's shown clearly as the inflammation of the frontal sinuses.
 					- The snot built up there and running down the throat makes me cough.
-					- The meditation on Sunday was strongly effective.
+					- The meditation on Sunday was strongly effective, making it nearly dry.
+				- ((684796ee-1bc9-4828-882b-612c67ba48f3))
 			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
 		- ...
