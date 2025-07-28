@@ -3416,5 +3416,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Strong & short](https://g.co/arts/a5HpLckFjN4rmqbDA)
 					- [Emotional](https://g.co/arts/bonYD3CQH8hzS9Tr6)
 			- Weekends 25-27th, ...
-			- 28th, i've arrived at the
+			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
 		- ...
