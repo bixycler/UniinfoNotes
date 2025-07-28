@@ -3410,7 +3410,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  > This is a simple static page with content merely about Dhammapada Sutta. Please show me how and which part of it "trick users into doing something dangerous, such as installing unwanted software or revealing personal information."
 			- 24th, ...
 			  collapsed:: true
-				- Canon in D
+				- Will Lei's cover of [Canon in D](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon) in
 					- [first try](https://g.co/arts/TAE4PzK3xoNvCTvr7)
 					- [Soft & long](https://g.co/arts/AyZENm19CKRfwMci6)
 					- [Strong & short](https://g.co/arts/a5HpLckFjN4rmqbDA)
@@ -3466,12 +3466,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  Như sương mai, chớp lóe
 							  Nên quán sát như vậy.
 								- “Bóng nước” can be either the mirror image on water, or the water bubble.
-				- Flow ࿐༄ + Form 🐚 = Flower 🌺
+				- Flow ࿐༄ + Form 🐚 = Flower 🌸
+				  collapsed:: true
 				  “The flower is the moment the flow takes form.”
 					- Word play: “flower” = “flow-er” = flowing being
 					- In Japanese culture, the word “flower” (花, hana) is deeply symbolic with not only beauty, but also transience, and the ephemeral nature of life.
-						- Mono no aware (物の哀れ) – “The pathos of things”
-						- Ikebana (生け花) – “Living flowers”
+						- [Mono no aware](https://en.wikipedia.org/wiki/Mono_no_aware) (物の哀れ) – “The pathos of things”
+						- [Ikebana](https://en.wikipedia.org/wiki/Ikebana) (生け花) – “Living flowers”
 						- Kado (花道) – “The Way of the Flower”
 						- [すべての人の心に花を](https://youtu.be/p-gmKHK2VPs)
 			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
