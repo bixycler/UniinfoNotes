@@ -34,6 +34,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Thread theory of sound
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-07-28 Mon 15:44:46]
+		  :END:
+			- A [complex tone](https://en.wikipedia.org/wiki/Musical_tone) is like a bundle of [overtones](https://en.wikipedia.org/wiki/Overtone) (threads), and [pitch](https://en.wikipedia.org/wiki/Pitch_(music)) is the **greatest common factor** — the shared cycle.
+			- Just like ((66f40210-cca6-4d81-85e7-d0c54ef20451)) finds the deepest **common structure** in seemingly separate threads, the ear finds the deepest common cycle among frequencies — the perceived pitch. This is shown best in the complex tones [missing fundamental frequency](https://en.wikipedia.org/wiki/Missing_fundamental).
+			- Đàn bầu is played soley with [flageolet tones (pinched harmonics)](https://en.wikipedia.org/wiki/String_harmonic), which is an advanced technique on other instruments like violin, guitar, etc.
+				- The sound is pure, glassy, and floating, because it's made entirely from string harmonics — no pressed tones. That’s why the đàn bầu sounds so “airy” and “spiritual”.
 		- WAIT [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true

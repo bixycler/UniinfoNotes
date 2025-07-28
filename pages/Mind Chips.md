@@ -7,11 +7,6 @@
 		- Kado (花道) – “The Way of the Flower”
 		- [すべての人の心に花を](https://youtu.be/p-gmKHK2VPs)
 - ---
-- Thread theory of sound
-	- A complex tone is like a bundle of overtones (threads), and [pitch](https://en.wikipedia.org/wiki/Pitch_(music)) is the **greatest common factor** — the shared cycle
-	- Just like SCIFER finds the deepest **common structure** in seemingly separate threads, the ear finds the deepest common cycle among frequencies — the perceived pitch. This is shown best in the complex tones [missing fundamental frequency](https://en.wikipedia.org/wiki/Missing_fundamental).
-	- Đàn bầu is played soley with [flageolet tones (pinched harmonics)](https://en.wikipedia.org/wiki/String_harmonic), which is an advanced technique on other instruments like violin, guitar, etc.
-		- The sound is pure, glassy, and floating, because it's made entirely from string harmonics — no pressed tones. That’s why the đàn bầu sounds so “airy” and “spiritual”.
 - ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
