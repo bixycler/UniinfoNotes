@@ -3833,6 +3833,47 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
 				- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = [antiderivative sequence](((684796ee-1bc9-4828-882b-612c67ba48f3))) = ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
+				  id:: 6846c7e1-239c-4b39-9ef4-9d2eaba17a52
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-06-09 Mon 20:24:24]--[2025-06-09 Mon 20:39:47] =>  00:15:23
+				  :END:
+					- In a one-way effect flow, the head of the spring doll = the tip of the articulated arm draws the extent with its locus which is orthogonal to the effect flow.
+						- Diagram [In/extention via in/extension](https://docs.google.com/drawings/d/1ZOyFUk0DRnqigaWYMSB05iWCgkWTfLoreWGBssKflxE/)
+						  collapsed:: true
+							- ![In/extention via in/extension](https://docs.google.com/drawings/d/e/2PACX-1vT-ns6ehT5HLQ5oPuSkVxSKO3uUCpDnmD6q9xbdfXQEGpKIftc717xHVV0x9IlczRL8ZHZNszbzwej_/pub?w=960&h=720)
+					- In a circular effect flow, the locus coincides with the flow itself!
+					  id:: 6846e19d-1af1-413a-b225-c9d48b4dd308
+					- The spring doll is what i saw as a model of my mind on work: the consciousness is just the head mounted on a very long spring of intents which connects to the root of the bodymind.
+					  id:: 6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00
+					  collapsed:: true
+						- The famous spring smiley heads are a good example for this model, and were used in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398) to mark the first time i saw the model around the end of 2023.
+						  ![spring-head-grin-tears.jpg](../assets/Will/story/2025-06/spring-head-grin-tears.jpg){:width 30}
+						- These bouncy spring dolls not only model my mind on work, but also the general minds of laymen in life.
+					- multi-disk rotary system
+					  id:: 6846d92b-cc0c-4db5-8b1d-766ec5a0d823
+					  collapsed:: true
+						- The [positional numeral systems](https://en.wikipedia.org/wiki/Positional_notation) are an example of multi-disk rotary systems.
+						- Geogebra applet [Odometer](https://www.geogebra.org/m/gykcrsfb)
+						- multi-disk rotary devices: [odometer](https://en.wikipedia.org/wiki/Odometer), [mechanical counter](https://en.wikipedia.org/wiki/Mechanical_counter), [conbination lock](https://en.wikipedia.org/wiki/Combination_lock), [cryptex](https://en.wikipedia.org/wiki/Cryptex), [Jefferson's disk cipher](https://en.wikipedia.org/wiki/Jefferson_disk)
+						  collapsed:: true
+							- ![odometer.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/odometer.jpg)
+							- ![MechanicalCounter.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/MechanicalCounter.jpg)
+							- ![number-combination-bike-lock.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/number-combination-bike-lock.jpg)
+							- ![Cryptex-ILoveU.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Cryptex-ILoveU.jpg)
+							- ![Jefferson_disk_cipher.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Jefferson_disk_cipher.jpg)
+					- derivative sequence
+					  id:: 684796ee-1bc9-4828-882b-612c67ba48f3
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center.
+				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by ignorance of ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
+				  id:: 688748a7-8228-4515-9fe4-38c232ce954e
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-07-28 Mon 16:54:44]
+				  :END:
+					-
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
