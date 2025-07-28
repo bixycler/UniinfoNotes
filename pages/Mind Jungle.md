@@ -3435,11 +3435,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- detach–attach
 				  id:: 68871d20-c27b-4b0d-8342-b8af093e5849
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68871ce1-eb57-4be3-ad48-45af6ccb5d49))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Detach the attachments/likes, and attach the detachments/dislikes, all to the equal distance of “one arm's length”. When all intents are equalized, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is effectively placed at the center of the past (karmic) ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The core technique of the ((665379b7-e4f6-4240-8029-fd143e2230c7)) is to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) all intents.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) With vipassana meditation, use the “inner hands” to detach the attachments/likes, and attach the detachments/dislikes, all to the equal distance of “one arm's length”. When all intents are equalized, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is effectively placed at the center of the past (karmic) ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The core technique of the ((665379b7-e4f6-4240-8029-fd143e2230c7)) is to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) all intents. This is the balance way to stranform the karma.
 				- Prerequisites for equalization
 					- 1. The bodymind must be [purified & calmed down](((684f9517-f8fc-45a3-80c9-25eca00e4eda))) by ethics, meditation and the help of ((67445065-15b2-475e-a704-78f140d487af)) & ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) techniques.
-					- 2. The bodymind must be brought to ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)) by [letting go](((669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d))) everything.
+					- 2. The bodymind must be brought to equanimity by [letting go](((669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d))) everything.
 					- 3. The intents being subject to equalization must be [subtilized](((66aded27-9701-4b6e-85e8-22049ddbe2d2))) to bite-size, and the current self-circle must be reduced to zero, leaving only the karmic intents in the past self-circle.
 			- ### let-go
 			  id:: 669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d
@@ -3817,9 +3817,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Use **breathworks** – ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) & ((68773fad-d653-4536-87b5-d4b493753b41)) – to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
 					- Anti-delusion with conscious absorption
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
-						- **Observe** the intents instead of looking at the external objects & target.
+						- **Observe** & ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents instead of looking at the external objects & target.
 							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma and influences of the external world.
-						- This is a kind of vipassana meditation to ((684f9517-f8fc-45a3-80c9-25eca00e4eda)) the bodymind.
 			- TODO Integrate these:
 				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
