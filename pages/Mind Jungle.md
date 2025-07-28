@@ -3840,11 +3840,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- **Observe** & ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents instead of looking at the external objects & target.
 							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma and influences of the external world.
 							- The delusion will be transformed to wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)) by the change of the internal reality (intent equalization), instead of the actions to change the external reality.
-			- TODO Integrate these:
-				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
-				- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
 				- ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = ((68874adb-f452-45ba-ae76-8582bdd9035f)) = ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
 				  id:: 6846c7e1-239c-4b39-9ef4-9d2eaba17a52
 				  collapsed:: true
@@ -3881,6 +3877,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- antiderivative sequence
 						  id:: 68874adb-f452-45ba-ae76-8582bdd9035f
 							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68874adb-f452-45ba-ae76-8582bdd9035f)) is the ((684796ee-1bc9-4828-882b-612c67ba48f3)) in reverse order. This order is the direction from intent to action.
+				- ((67ced16d-2fbb-4c5d-9061-5d8f490f6073)) ← ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
+				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
+				- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
 				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by the ignorance of ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
 				  id:: 688748a7-8228-4515-9fe4-38c232ce954e
 				  collapsed:: true
