@@ -1,4 +1,67 @@
-## Current Chips
+- Seeing [Viola the Bird](https://g.co/arts/bonYD3CQH8hzS9Tr6) simplifying the violin to only one string, i remember the African goje as well as many other ...
+- 1-string instruments in the world  
+  restored from a note saved in [GDrive](https://drive.google.com/file/d/1GlMuoYyOwTEfraX-ji13ReetLBQk1x3y/view?usp=drivesdk) in March 2023
+	- Diddley bow, mouth bow, Berimbau, ground bow - Africa
+		- Mr. Phương at Phú Quốc created a similar  [one-string guitar](https://youtu.be/KH3mMIhKUzE)
+	- one-string xalam - Africa
+	- goje (riti) - Africa & [many fiddles](https://en.wikipedia.org/wiki/Category:One-string_fiddles)
+	- [Ektārā](https://en.wikipedia.org/wiki/Ektara) (একতারা, एकतारा) - India
+	- [Dan bau](https://en.wikipedia.org/wiki/%C4%90%C3%A0n_b%E1%BA%A7u) (đàn bầu) at Vietnam, Duxianqin (獨弦琴) of [Jing people](https://en.wikipedia.org/wiki/Gin_people) in China, đàn/tàn máng of Mường people
+		- Nowadays, it's played with electric [pickup](https://en.wikipedia.org/wiki/Pickup_(music_technology)).
+			- The Vietnamese term “mô-bin” is from the French [simple bobinage](https://fr.wikipedia.org/wiki/Single_coil).
+		- Đàn bầu mộc (non-electric):
+			- [Xẩm Ba Bậc](https://youtu.be/DBe98_CgLIw)
+			- [NSND Xuân Hoạch kể chuyện cây đàn bầu Việt Nam](https://youtu.be/6bsbMROVXl0)
+	- [Ichigenkin](https://en.wikipedia.org/wiki/Ichigenkin) (一絃琴) of Japan for meditation
+	- [Monochord](https://en.wikipedia.org/wiki/Monochord) is a laboratory instrument
+	- (*) Mouth/jaw/Jew's harp (1 tongue/reed, not string) - Russia-Siberia
+- The Vietnamese [đàn cò](https://youtu.be/-VKGJq6GUlw) & đàn bầu have carried me away for a tour reviewing the national root in my heart... to contemplate both sides and then release it.
+- ---
+- An experiential witness of the Impermanence in... a dream! 😎
+	- [My life is a dream, my dream is alive!](https://creatzynotes.blogspot.com/2011/12/my-life-is-dream-my-dreams-are-alive.html)
+	- Although the “dream” is usually used as a metaphor for the unreal, my literal dream has shown a very realistic realization of the whole life!
+	- To the world outside of the dream, the dream is so illusionary, but to the dream, the outside world is no less illusionary. Hence, both of them are as real as illusionary 😜👻! In other words, everything is a **real illusion**.
+		- 🌀 Real Illusion
+			- The illusion is real. Literally.
+			- Not just metaphorically — it exists, it appears, it affects — that’s a real being with real effects.
+			- The unreality of the illusion is just its way of being. And its being is real.
+			- The Real Illusion is just another name for the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
+	- The gatha of [Diamond sutra](https://en.wikipedia.org/wiki/Diamond_Sutra):
+		- > तारका तिमिरं दीपो मायावश्यायबुद्बुदं। सुपिनं विद्युदभ्रं च एवं द्रष्टव्यं संस्कृतं।
+			- Như sao đêm, như mắt loạn, như ngọn đèn, như huyễn thuật, như sương mai, như bọt nước, như cơn mộng, như ánh chớp, như đám mây — những gì hữu vi nên được quán chiếu như vậy.
+		- > 一切有爲法
+		  如夢幻泡影
+		  如露亦如電
+		  應作如是觀
+			- > Nhất thiết hữu vi pháp
+			  Như mộng huyễn bào ảnh
+			  Như lộ diệc như điện
+			  Ưng tác như thị quán.
+			- Tất cả pháp hữu vi
+			  Như mộng ảo, bọt bóng 
+			  Như sương sa, chớp lóe
+			  Nên quán sát như vậy.
+- ---
+- Accept–Release
+	- Accept the form as is, release the grasp, and let the thread flow.
+	- accept → release → flow:
+	- Let it be → Let it go → Let it flow
+		- My common saying: Let it go, let it flow!
+- 🌊 Flow + 🌱 Form = 🌺 Flower  
+  “The flower is the moment the flow takes form.”
+	- Word play: “flower” = “flow-er” = flowing being
+	- In Japanese culture, the word “flower” (花, hana) is deeply symbolic with not only beauty, but also transience, and the ephemeral nature of life.
+		- Mono no aware (物の哀れ) – “The pathos of things”
+		- Ikebana (生け花) – “Living flowers”
+		- Kado (花道) – “The Way of the Flower”
+		- [すべての人の心に花を](https://youtu.be/p-gmKHK2VPs)
+- ---
+- Thread theory of sound
+	- A complex tone is like a bundle of overtones (threads), and [pitch](https://en.wikipedia.org/wiki/Pitch_(music)) is the **greatest common factor** — the shared cycle
+	- Just like SCIFER finds the deepest **common structure** in seemingly separate threads, the ear finds the deepest common cycle among frequencies — the perceived pitch. This is shown best in the complex tones [missing fundamental frequency](https://en.wikipedia.org/wiki/Missing_fundamental).
+	- Đàn bầu is played soley with [flageolet tones (pinched harmonics)](https://en.wikipedia.org/wiki/String_harmonic), which is an advanced technique on other instruments like violin, guitar, etc.
+		- The sound is pure, glassy, and floating, because it's made entirely from string harmonics — no pressed tones. That’s why the đàn bầu sounds so “airy” and “spiritual”.
+- ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
   collapsed:: true

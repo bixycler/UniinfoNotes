@@ -3436,6 +3436,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 68871d20-c27b-4b0d-8342-b8af093e5849
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68871ce1-eb57-4be3-ad48-45af6ccb5d49))
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) With vipassana meditation, use the “inner hands” to detach the attachments/likes, and attach the detachments/dislikes, all to the equal distance of “one arm's length”. When all intents are equalized, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is effectively placed at the center of the past (karmic) ((669a5387-2a97-4311-a295-aa0afd9c4d76)).
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- ((68871d20-c27b-4b0d-8342-b8af093e5849)) should be combined with ((68773fad-d653-4536-87b5-d4b493753b41)) in the breathing cycle: breathe in accept, attach dislikes, breathe out release, detach likes.
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The core technique of the ((665379b7-e4f6-4240-8029-fd143e2230c7)) is to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) all intents. This is the balance way to stranform the karma.
 				- Prerequisites for equalization
 					- 1. The bodymind must be [purified & calmed down](((684f9517-f8fc-45a3-80c9-25eca00e4eda))) by ethics, meditation and the help of ((67445065-15b2-475e-a704-78f140d487af)) & ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) techniques.
@@ -3455,6 +3457,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  “Breathe in accept, breathe out release”
 				  “Hít vào chấp nhận, thở ra buông xả”
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to accept everything no matter how bad or good it is, just inhale it, let it flow into the bodymind. Don't hold on anything, neither form nor feeling nor intent, etc., just exhale them all, let them flow out of the bodymind. This breathing technique help smoothly ((687743fd-9d45-45be-b9fd-3055cbb8a938)) everything through the mindbody without being obstructed, i.e. [“being through”](((684f951a-ee4f-4765-b2d9-58ff04b84979))).
+					- Mantras
+						- Khổ mấy rồi cũng qua, đừng sợ hãi! Sướng mấy rồi cũng qua, đừng tham đắm!
+						- Không sao hết! Mọi thứ rồi sẽ qua, không sao hết!
+						- Không tham đắm! Hay mấy rồi cũng qua, không tham đắm!
 			- ### reset
 			  id:: 67445065-15b2-475e-a704-78f140d487af
 			  unload the intent structure
