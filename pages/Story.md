@@ -3483,4 +3483,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The meditation on Sunday was strongly effective, making it nearly dry.
 				- Contemplated the ((688748a7-8228-4515-9fe4-38c232ce954e))
 			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
+				- Wow, i must use longer terms “viewing direction” & “light ray direction”, because the shading men have reverted both [“view direction”](((68876434-f1f3-4dda-975f-496594ef762e))) and [“light direction”](((6887625c-db24-4ecf-a154-3aedb390afd3))) for their own convenience (in the viewpoint of the shaded object)!
 		- ...

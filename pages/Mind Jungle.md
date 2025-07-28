@@ -1523,10 +1523,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 6887607a-6282-4400-a240-9168b9a3f368
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((671b6f87-7492-4eab-af49-e3c89bc8c860)) has a different ((6887607a-6282-4400-a240-9168b9a3f368)), but all of them converge to the eye. The central light ray direction is the ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)).
 						- Note: light ray direction is opposite to the [shading](https://en.wikipedia.org/wiki/Shading) “light direction” from the shaded surface to the light source.
+						  id:: 6887625c-db24-4ecf-a154-3aedb390afd3
 			- viewing direction
 			  id:: 68875bab-dd31-4bbd-bd31-3a821fc5310c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875bab-dd31-4bbd-bd31-3a821fc5310c)), denoted by a hollow-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) from the eye to the observed object.
 					- Note: viewing direction is opposite to the [3D graphics](https://en.wikipedia.org/wiki/3D_computer_graphics) “view direction” from the object to the camera.
+					  id:: 68876434-f1f3-4dda-975f-496594ef762e
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
@@ -3875,7 +3877,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ![Jefferson_disk_cipher.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Jefferson_disk_cipher.jpg)
 					- derivative sequence
 					  id:: 684796ee-1bc9-4828-882b-612c67ba48f3
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center.
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center. The order of this sequence is in the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)), which is opposite to the ((68874adb-f452-45ba-ae76-8582bdd9035f)) in the .
 						- antiderivative sequence
 						  id:: 68874adb-f452-45ba-ae76-8582bdd9035f
 							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68874adb-f452-45ba-ae76-8582bdd9035f)) is the ((684796ee-1bc9-4828-882b-612c67ba48f3)) in reverse order. This order is the direction from intent to action.
