@@ -3415,4 +3415,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Soft & long](https://g.co/arts/AyZENm19CKRfwMci6)
 					- [Strong & short](https://g.co/arts/a5HpLckFjN4rmqbDA)
 					- [Emotional](https://g.co/arts/bonYD3CQH8hzS9Tr6)
+			- Weekends 25-27th, ...
+			- 28th, i've arrived at the
 		- ...
