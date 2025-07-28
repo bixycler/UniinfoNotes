@@ -3834,7 +3834,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
 				- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- [spring doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = [antiderivative sequence](((684796ee-1bc9-4828-882b-612c67ba48f3))) = ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
+				- ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = ((68874adb-f452-45ba-ae76-8582bdd9035f)) = ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
 				  id:: 6846c7e1-239c-4b39-9ef4-9d2eaba17a52
 				  collapsed:: true
 				  :LOGBOOK:
@@ -3846,9 +3846,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ![In/extention via in/extension](https://docs.google.com/drawings/d/e/2PACX-1vT-ns6ehT5HLQ5oPuSkVxSKO3uUCpDnmD6q9xbdfXQEGpKIftc717xHVV0x9IlczRL8ZHZNszbzwej_/pub?w=960&h=720)
 					- In a circular effect flow, the locus coincides with the flow itself!
 					  id:: 6846e19d-1af1-413a-b225-c9d48b4dd308
-					- The spring doll is what i saw as a model of my mind on work: the consciousness is just the head mounted on a very long spring of intents which connects to the root of the bodymind.
+					- spring doll mind
 					  id:: 6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00
-					  collapsed:: true
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) is a model of my mind on work: the consciousness is just the head mounted on a very long spring of intents which connects to the root of the bodymind.
 						- The famous spring smiley heads are a good example for this model, and were used in this [fb post](https://www.facebook.com/lexuandinhct/videos/3643573735885398) to mark the first time i saw the model around the end of 2023.
 						  ![spring-head-grin-tears.jpg](../assets/Will/story/2025-06/spring-head-grin-tears.jpg){:width 30}
 						- These bouncy spring dolls not only model my mind on work, but also the general minds of laymen in life.
@@ -3867,6 +3867,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- derivative sequence
 					  id:: 684796ee-1bc9-4828-882b-612c67ba48f3
 						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center.
+						- antiderivative sequence
+						  id:: 68874adb-f452-45ba-ae76-8582bdd9035f
+							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68874adb-f452-45ba-ae76-8582bdd9035f)) is the ((684796ee-1bc9-4828-882b-612c67ba48f3)) in reverse order. This order is the direction from intent to action.
 				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by ignorance of ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
 				  id:: 688748a7-8228-4515-9fe4-38c232ce954e
 				  collapsed:: true
