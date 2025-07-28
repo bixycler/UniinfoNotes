@@ -3459,10 +3459,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to accept everything no matter how bad or good it is, just inhale it, let it flow into the bodymind. Don't hold on anything, neither form nor feeling nor intent, etc., just exhale them all, let them flow out of the bodymind. This breathing technique help smoothly ((687743fd-9d45-45be-b9fd-3055cbb8a938)) everything through the mindbody without being obstructed, i.e. [“being through”](((684f951a-ee4f-4765-b2d9-58ff04b84979))).
 					- Mantras
 						- Let it be, let it go, let it flow!
+							- Meaning: Accept the form as is, release the grasp, and let the thread flow.
 						- Khổ mấy rồi cũng qua, đừng sợ hãi!  
 						  Sướng mấy rồi cũng qua, đừng tham đắm!
-						- Không sao hết! Mọi thứ rồi sẽ qua, không sao hết!
-						- Không tham đắm! Hay mấy rồi cũng qua, không tham đắm!
+							- Không sao hết! Mọi thứ rồi sẽ qua, không sao hết!
+							- Không tham đắm! Hay mấy rồi cũng qua, không tham đắm!
 			- ### reset
 			  id:: 67445065-15b2-475e-a704-78f140d487af
 			  unload the intent structure

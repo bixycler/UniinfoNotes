@@ -1,9 +1,3 @@
-- ---
-- Accept–Release
-	- Accept the form as is, release the grasp, and let the thread flow.
-	- accept → release → flow:
-	- Let it be → Let it go → Let it flow
-		- My common saying: Let it go, let it flow!
 - 🌊 Flow + 🌱 Form = 🌺 Flower  
   “The flower is the moment the flow takes form.”
 	- Word play: “flower” = “flow-er” = flowing being

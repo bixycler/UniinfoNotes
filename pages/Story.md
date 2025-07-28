@@ -3438,6 +3438,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- (*) Mouth/jaw/Jew's harp (1 tongue/reed, not string) of Russia-Siberia
 				- The Vietnamese [đàn cò](https://youtu.be/-VKGJq6GUlw) & đàn bầu have carried me away for a tour reviewing the national root in my heart... to contemplate both sides and then release it.
 				- An experiential witness of the Impermanence in... a dream! 😎💭
+				  collapsed:: true
 					- [My life is a dream, my dream is alive!](https://creatzynotes.blogspot.com/2011/12/my-life-is-dream-my-dreams-are-alive.html)
 					- Although the “dream” is usually used as a metaphor for the unreal, my literal dream has shown a very realistic realization of the whole life!
 					- To the world outside of the dream, the dream is so illusionary, but to the dream, the outside world is no less illusionary. Hence, both of them are as real as illusionary 😜👻! In other words, everything is a **real illusion**.
@@ -3448,7 +3449,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The Real Illusion is just another name for the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
 					- The gatha of [Diamond sutra](https://en.wikipedia.org/wiki/Diamond_Sutra):
 						- > तारका तिमिरं दीपो मायावश्यायबुद्बुदं। सुपिनं विद्युदभ्रं च एवं द्रष्टव्यं संस्कृतं।
-							- Như sao đêm, như mắt loạn, như ngọn đèn, như huyễn thuật, như sương mai, như bọt nước, như cơn mộng, như ánh chớp, như đám mây — những gì hữu vi nên được quán chiếu như vậy.
+							- A shooting star, a clouding of the sight, a lamp,
+							  An illusion, a drop of dew, a bubble,
+							  A dream, a lightning's flash, a thunder cloud —
+							  This is the way one should see the conditioned.
 						- > 一切有爲法
 						  如夢幻泡影
 						  如露亦如電
@@ -3461,7 +3465,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  Như mộng ảo, bóng nước
 							  Như sương mai, chớp lóe
 							  Nên quán sát như vậy.
-								- “Bóng nước”
+								- “Bóng nước” can be either the mirror image on water, or the water bubble.
 				-
 			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
 		- ...
