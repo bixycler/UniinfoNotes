@@ -3723,7 +3723,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- microreset
 				  id:: 67cff615-ec0d-4831-9851-59410cb89cf1
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66aded27-9701-4b6e-85e8-22049ddbe2d2))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Frequent short pauses in the middle of the flow, usually from one to three breaths, help us to subtlize the large circle into smaller circles, and train the habit of resetting. The mantra is _“stop - breathe - feel/observe - act”_. These frequent microresets aid the grand [reset](((67445065-15b2-475e-a704-78f140d487af))) of intent structure.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Frequent short pauses in the middle of the flow, usually from one to three breaths, help us subtlize the large circle into smaller circles, and train the habit of resetting. The mantra is _“stop - breathe - feel/observe - act”_. These frequent microresets aid the grand [reset](((67445065-15b2-475e-a704-78f140d487af))) of intent structure.
 					- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 					  collapsed:: true
 						- I discovered this technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
