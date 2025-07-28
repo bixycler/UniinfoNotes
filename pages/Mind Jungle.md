@@ -1518,11 +1518,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
 			- projecting direction
 			  id:: 68875ace-d35f-44c6-9a9f-e7f7fc29f19d
-			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68875b49-1bdc-4ee4-a639-f387a6e44026))
-				- light ray direction
-				  id:: 68875b49-1bdc-4ee4-a639-f387a6e44026
-				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)), denoted by a solid-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) of the central ((671b6f87-7492-4eab-af49-e3c89bc8c860)) of the ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) corresponding to the view, i.e. the direction from the world to the eye.
+				- light ray direction
+				  id:: 6887607a-6282-4400-a240-9168b9a3f368
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((671b6f87-7492-4eab-af49-e3c89bc8c860)) has a different ((6887607a-6282-4400-a240-9168b9a3f368)), but all of them converge to the eye. The central light ray direction is the ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)).
 			- viewing direction
 			  id:: 68875bab-dd31-4bbd-bd31-3a821fc5310c
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875bab-dd31-4bbd-bd31-3a821fc5310c)), denoted by a hollow-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) from the eye to the observed object.
