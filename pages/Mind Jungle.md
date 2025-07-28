@@ -3877,17 +3877,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ![Jefferson_disk_cipher.jpg](../assets/Will/story/2025-06/Multi-disk rotary systems/Jefferson_disk_cipher.jpg)
 					- derivative sequence
 					  id:: 684796ee-1bc9-4828-882b-612c67ba48f3
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center. The order of this sequence is in the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)), which is opposite to the ((68874adb-f452-45ba-ae76-8582bdd9035f)) in the .
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((684796ee-1bc9-4828-882b-612c67ba48f3)) of a function $f$, denoted $(f^{(n)})_{n∈ℤ}$ or $(D^{n} f)_{n∈ℤ}$, is a two-sided sequence comprising all **successive derivatives** for positive orders 1, 2, 3, ..., and all **successive antiderivatives** for negative orders -1, -2, -3, ..., with the original function (0th derivative) at the center. The order of this sequence is in the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)), which is opposite to the ((68874adb-f452-45ba-ae76-8582bdd9035f)) in the intent–action direction.
 						- antiderivative sequence
 						  id:: 68874adb-f452-45ba-ae76-8582bdd9035f
 							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68874adb-f452-45ba-ae76-8582bdd9035f)) is the ((684796ee-1bc9-4828-882b-612c67ba48f3)) in reverse order. This order is the direction from intent to action.
-				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by ignorance of ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
+				- ((6839229d-9eff-49e4-9480-6e2db6f61127)) caused by the ignorance of ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
 				  id:: 688748a7-8228-4515-9fe4-38c232ce954e
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-07-28 Mon 16:54:44]
 				  :END:
-					-
+					- Liking something is because its image is close, large.
+					- Disliking something is because its image is far, small.
+					- Both like & dislike
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
