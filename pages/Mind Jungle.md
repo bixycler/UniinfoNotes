@@ -1400,6 +1400,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 685a9913-6bf4-41e4-89d1-5000a2b2f9d5
 			  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is an ((671b6f87-7492-4eab-af49-e3c89bc8c860)) from an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)) to a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s image of that object. Projection is a special kind of ((669a58b9-eb34-41cd-8605-02e29b07e1b5)) where the target form (image) is more ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) than the source form (object). This general projection via arrow is called ((670dd4d7-ed37-4954-8379-63138fa072d6)). That arrow can be a cone, hence ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)), or can be implemented by thread winding, hence ((67654ecb-896a-4421-95e5-f72c07fc62a4)), or by wrapping the thread around an axis, hence ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
+			  id:: 684f9517-449d-454f-a7e3-340fb5a57aa4
 				- Projection is the foundation of all arrows, defining the direction of arrow.
 				- In maths, a [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) is an [idempotent](https://en.wikipedia.org/wiki/Idempotence) [transformation](https://en.wikipedia.org/wiki/Transformation_(function)).
 			- ((66725725-f76a-4328-b162-f469b87e871b)) [projection (homography)](https://en.wikipedia.org/wiki/Homography) in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), [projection](https://en.wikipedia.org/wiki/Projection_(mathematics)) and [mapping](https://en.wikipedia.org/wiki/Function_(mathematics)) in mathematics, [projective object](https://en.wikipedia.org/wiki/Projective_object) in [category theory](https://en.wikipedia.org/wiki/Category_theory)
@@ -1512,11 +1513,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- cause cone
 			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is projected to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the image. The direction of ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) is from the base to the apex, in opposite to the direction of viewing from the apex to the base.
-				- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
-				  view cone of an ((669a2487-054d-4408-ae41-189e34af81a9))
-					- Projection is the ((671b6f87-7492-4eab-af49-e3c89bc8c860)) from the external world in, denoted by the solid-head arrow.
-					- Viewing arrow is from the eye out, denoted by the hollow-head arrow.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the image. The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
+				- view cone of an ((669a2487-054d-4408-ae41-189e34af81a9))
+					- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
+				- projecting direction
+				  id:: 68875ace-d35f-44c6-9a9f-e7f7fc29f19d
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68875b49-1bdc-4ee4-a639-f387a6e44026))
+					- light ray direction
+					  id:: 68875b49-1bdc-4ee4-a639-f387a6e44026
+					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Projection is the ((671b6f87-7492-4eab-af49-e3c89bc8c860)) from the external world in, denoted by the solid-head arrow.
+				- viewing direction
+				  id:: 68875bab-dd31-4bbd-bd31-3a821fc5310c
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) is the arrow from the eye to the observed object, denoted by a hollow-head arrow.
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
