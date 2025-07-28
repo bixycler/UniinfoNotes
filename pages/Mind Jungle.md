@@ -3436,7 +3436,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 68871d20-c27b-4b0d-8342-b8af093e5849
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68871ce1-eb57-4be3-ad48-45af6ccb5d49))
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the core technique of the ((665379b7-e4f6-4240-8029-fd143e2230c7)). This technique
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the core technique of the ((665379b7-e4f6-4240-8029-fd143e2230c7)).
+				- Prerequisites for equalization
+					- 1. The bodymind must be [purified & calmed down](((684f9517-f8fc-45a3-80c9-25eca00e4eda))) by ethics & meditation.
 			- ### let-go
 			  id:: 669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) buông xả, ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), ((68773fad-d653-4536-87b5-d4b493753b41))
