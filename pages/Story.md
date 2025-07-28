@@ -3416,5 +3416,24 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Strong & short](https://g.co/arts/a5HpLckFjN4rmqbDA)
 					- [Emotional](https://g.co/arts/bonYD3CQH8hzS9Tr6)
 			- Weekends 25-27th, ...
+			  collapsed:: true
+				- Seeing [Viola the Bird](https://g.co/arts/bonYD3CQH8hzS9Tr6) simplifying the violin to only one string, i remember the African goje as well as many other ((68872ffd-76bc-4b15-8a2c-2d6fa6c068dd)).
+				- 1-string instruments in the world
+				  id:: 68872ffd-76bc-4b15-8a2c-2d6fa6c068dd
+				  restored from a note saved in [GDrive](https://drive.google.com/file/d/1GlMuoYyOwTEfraX-ji13ReetLBQk1x3y/view?usp=drivesdk) in March 2023
+					- [Diddley bow](https://en.wikipedia.org/wiki/Diddley_bow), mouth bow, [Berimbau](https://en.wikipedia.org/wiki/Berimbau), ground bow, and so on, originated from Africa
+						- Mr. Phương at Phú Quốc created a similar [one-string guitar](https://youtu.be/KH3mMIhKUzE).
+					- one-string xalam of Africa
+					- goje (riti) & [many fiddles](https://en.wikipedia.org/wiki/Category:One-string_fiddles) of Africa
+					- [Ektārā](https://en.wikipedia.org/wiki/Ektara) (একতারা, एकतारा) - India
+					- [Dan bau](https://en.wikipedia.org/wiki/%C4%90%C3%A0n_b%E1%BA%A7u) (đàn bầu) at Vietnam, Duxianqin (獨弦琴) of [Jing people](https://en.wikipedia.org/wiki/Gin_people) in China, đàn/tàn máng of Mường people
+						- Nowadays, it's played with electric [pickup](https://en.wikipedia.org/wiki/Pickup_(music_technology)).
+							- The Vietnamese term “mô-bin” is from the French [simple bobinage](https://fr.wikipedia.org/wiki/Single_coil).
+						- Đàn bầu mộc (non-electric):
+							- [Xẩm Ba Bậc](https://youtu.be/DBe98_CgLIw)
+							- [NSND Xuân Hoạch kể chuyện cây đàn bầu Việt Nam](https://youtu.be/6bsbMROVXl0)
+					- [Ichigenkin](https://en.wikipedia.org/wiki/Ichigenkin) (一絃琴) of Japan for meditation
+					- [Monochord](https://en.wikipedia.org/wiki/Monochord) is a laboratory instrument
+					- (*) Mouth/jaw/Jew's harp (1 tongue/reed, not string) - Russia-Siberia
 			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
 		- ...
