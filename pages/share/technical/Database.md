@@ -36,6 +36,7 @@ CLOCK: [2025-04-23 Wed 14:30:31]
 						  +------+-----------+-------------+
 						  ```
 				- For password-based auth (`mysql -u root -p`), change the root user’s authentication plugin to `mysql_native_password` and set `your_SQL_root_password`.
+				  id:: 6819d2a7-c06d-4146-af4f-c59298db4a95
 				  collapsed:: true
 					- set `mysql_native_password` to `root`
 					  ```sql

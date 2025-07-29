@@ -8,6 +8,7 @@
 :root {
   --ls-main-content-max-width: 100%;
 
+  scrollbar-color: auto; /* use ::-webkit-scrollbar,html.custom-scrollbar */
   
   /* Task markers */
   --ct-marker-border-radius: 4px;
@@ -44,7 +45,7 @@ body {
     background-color: var(--ls-scrollbar-thumb-hover-color,var(--rx-gray-06));
 }
 .visible-scrollbar ::-webkit-scrollbar,html.custom-scrollbar ::-webkit-scrollbar {
-    background-color: transparent; /*var(--ls-scrollbar-background-color,var(--rx-gray-02));*/
+    background-color: var(--ls-scrollbar-background-color,var(--rx-gray-02));
 }
 
 
@@ -258,10 +259,10 @@ a:hover {
 
 /* Color variables */
 
-html[data-color=logseq] .dark-theme,
+html[data-theme=dark][data-color=logseq] .dark-theme,
 html[data-color=logseq] .light-theme,
 html[data-color=logseq] body,
-html[data-color=blue] .dark-theme,
+html[data-theme=dark][data-color=blue] .dark-theme,
 html[data-color=blue] .light-theme,
 html[data-color=blue] body {
   
@@ -283,7 +284,7 @@ html[data-color=blue] body {
   --ls-page-properties-background-color: var(--ls-page-blockquote-bg-color);
   --ls-block-properties-background-color: var(--ls-page-blockquote-bg-color);
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
-  --ls-scrollbar-background-color: var(--rx-slate-03);
+  --ls-scrollbar-background-color: transparent; /* var(--rx-slate-03);*/
     
   /* Borders */
   
@@ -291,7 +292,7 @@ html[data-color=blue] body {
   --ls-secondary-border-color: var(--rx-blue-05);
   --ls-guideline-color: var(--rx-slate-06);
 
-  /* Forgrounds */
+  /* Foregrounds */
   
   --ls-primary-text-color: var(--rx-slate-11);
   --ls-secondary-text-color: var(--rx-slate-12);
@@ -308,8 +309,8 @@ html[data-color=blue] body {
   --ls-block-bullet-border-color: var(--rx-slate-06-alpha);
   --ls-block-bullet-closed-border-color: var(--rx-slate-09);
   
-  --ls-scrollbar-foreground-color: var(--rx-slate-07);
-  --ls-scrollbar-thumb-hover-color: var(--rx-slate-09);
+  --ls-scrollbar-foreground-color: var(--lx-gray-05);
+  --ls-scrollbar-thumb-hover-color: var(--lx-gray-06);
   
   /* Specials */
   

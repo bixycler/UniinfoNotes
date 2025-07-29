@@ -6,14 +6,17 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 	- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Linux
 	- Distributions
 	  id:: 66faa5fa-fdde-4dd5-a27f-442cea4ba47a
-	  collapsed:: true
 		- ### Ubuntu
 		  id:: 66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7
+		  collapsed:: true
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu
-			-
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)) is a popular [Linux distribution](((66faa5fa-fdde-4dd5-a27f-442cea4ba47a))) derived from [Debian](https://en.wikipedia.org/wiki/Debian) and is backed by large online communities like [Ask Ubuntu](https://en.wikipedia.org/wiki/Ask_Ubuntu).
+				- Software management: ((68357072-2dcb-42b5-a228-15ed904010f8)) with [deb](https://en.wikipedia.org/wiki/Deb_(file_format)) packages
+				- Desktop management: ((66b1cfa4-808f-407c-bf5a-b93812604b5d))
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((68358033-084f-461c-b470-5311a5127f0c))
 	- ### concepts
 	  id:: 6735b188-e391-498b-a01b-35797616f7b6
-	  collapsed:: true
 		- file mode bits
 		  id:: 671f467e-6f1f-4436-a0dd-9a03055e11a9
 		  collapsed:: true
@@ -46,6 +49,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- Git's symlink is configured with [core.symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks). When `symlinks = false`, symbolic links are checked out as plain text files containing the target as text.
 		- newline at end-of-file (EOL@EOF)
 		  id:: 6793437b-5ee5-4f7f-a547-bb9e15ac5883
+		  collapsed:: true
 			- The [POSIX standard](https://en.wikipedia.org/wiki/POSIX) defines a [text file](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_387) as a sequence of [lines](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_185), each ending with a [newline character](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_224).
 				- Newline = end-of-line = [carriage-return +] line-feed: `EOL` = `⏎` = `\n` = `␤` = `LF` = `␊` (`CR` `LF` = `␍␊`)
 			- That means a line without newline is an [incomplete line](https://pubs.opengroup.org/onlinepubs/9799919799/basedefs/V1_chap03.html#tag_03_172).
@@ -130,10 +134,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  display a tree of processes.
 			- `top`
 			  display "top CPU" processes similar to ((66c6bda1-7a64-4832-af2b-906b3beb8927)).
-			- `iftop`
-			  display "top network" interfaces.
-			- `nethogs`
-			  NetHogs displays 'net top' processes.
+			- {{embed ((6835b16a-71ae-4882-afc0-d998d761442e))}}
 			- `jobs`, `disown`, `nohup`, `bg`, `fg`
 			  collapsed:: true
 			  Manage shell jobs (background processes).
@@ -162,12 +163,15 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  id:: 67d2ad10-0ca8-4361-94d5-219cf9b737d5
 			  collapsed:: true
 			  display [GTK+ dialogs](https://help.gnome.org/users/zenity/stable/#dialogs), and return the users input (either in the return code or on standard output).
-				- Return values:
-					- Command exit code: {`0`, `1`, `5`} for {OK, Cancel, timeout}
-					- Print to `stdout` the value user entered or chose.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)) is the most well-known of the [dialog prorams](http://rockhopper.monmouth.edu/cs/jchung/cs370/cs_370_-_shell_scripts_and_user_interfaces) to be called from shell script.
+				- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “zenity” = “zen + ity” = “the state of zen”, as “serennity” = “the state of being serene”
+					- This is my own interpretation which is coinside with others like [Happy nehra](https://medium.com/%40happynehra/exploring-zenity-a-zen-guide-to-creating-gtk-dialogs-c4d48ee192) and Grok 3.
 				- Warning: `zenity` accepts Spacebar & Enter as OK confirmation which can be accicentally hit when the window pops up!
 				  id:: 67d3a821-ed1c-48d5-a935-bfab8a57cd8e
 					- In `X11`, we can temporarily disable the keyboard around `zenity` call with `xinput`, but it's impossible in Wayland.
+				- Return values:
+					- Command exit code: {`0`, `1`, `5`} for {OK, Cancel, timeout}
+					- Print to `stdout` the value user entered or chose.
 				- `--{info,question,warning,error}` are message dialogs with icons
 					- Icons: `--icon-name` (name only), `--window-icon` (/path/to/file, but doesn't work!)
 						- ((66725725-f76a-4328-b162-f469b87e871b))
@@ -182,6 +186,16 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				- `--forms` shows an input form which can contain text entries, password fields, calendars, description texts.
 				- `--progress` shows a progress bar increments by inputs from `stdin`.
 				- `--notification`, similar to ((67d289c6-fcf5-4340-b06e-d3287ca78a4d)), shows a notification ballon, not a pop-up window.
+			- `yad`
+			  id:: 68381bca-50f3-4d2e-9593-53d9c8f6c368
+			  collapsed:: true
+			  yet-another-dialog program extending ((67d2ad10-0ca8-4361-94d5-219cf9b737d5))
+				- `yad` add many additional features, including the option ((68381caa-5dd1-4a49-8630-4c68674aa0c7)) to prevent stealing focus of the currently working app.
+				- `--no-focus`
+				  id:: 68381caa-5dd1-4a49-8630-4c68674aa0c7
+				  Dialog window *never* take focus!
+					- While this option resolves the [focus stealing issue of `zenity`](((67d3a821-ed1c-48d5-a935-bfab8a57cd8e))), it makes the dialog a “dump window” receiving no keyboard inputs and cannot be focused, hence all interactions must be done with mouse.
+					- On ((66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7)), window related features like `--no-focus`, `--center`, `--mouse`, `--skip-taskbar` are ineffective, and can be reactivated with [env.var.](((67f6257e-455e-46f1-8225-8510f60b8b47))) `GDK_BACKEND=x11`
 		- file management
 		  id:: 671f4028-c60f-4791-b716-e5226cdf410e
 		  collapsed:: true
@@ -457,6 +471,10 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		  collapsed:: true
 			- `grep`
 			  print lines that match patterns
+				- `--exclude-dir` to exclude _directory **names**_ from search.
+				  collapsed:: true
+					- This options accept GLOB, e.g. `--exclude-dir={logs\*,\*logs}`, but *__not__ any path*, e.g. not `path/to/dir`.
+					- This options can be used many times to exclude different GLOBs.
 			- `tail`
 			  output the last part of files
 				- `-{n,c} [+]$num` to output the last `$num` lines/chars, e.g. `-n 3`, `-n3`, `-c3`, or from line/char `+$num` from the start, e.g. `-n +3`, `-n+3`, `-c+3`. Default is `-n 10`.
@@ -474,6 +492,17 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- `awk`
 			  pattern scanning and processing language
 				-
+		- image processing
+		  collapsed:: true
+			- `webp` package: `dwebp`, `cwebp`, `webpinfo`, `webpmux`, ...
+				- `dwebp`
+				  decompress a WebP file to an image file
+				- `cwebp`
+				  compress an image file to a WebP file
+				- `webpinfo`
+				  print out the chunk level structure of WebP files along with basic integrity checks
+				- `webpmux`
+				  create  animated WebP files from non-animated WebP images, extract frames from animated WebP images, and manage XMP/EXIF metadata and ICC profile.
 		- hex, binary, encoding converting
 		  id:: 679085ef-facd-4c4a-83f3-f32bdefbaa49
 		  collapsed:: true
@@ -553,6 +582,18 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			  `poweroff`, `reboot`, or `halt` the machine.
 				- Note: ((67f4ffeb-5e02-4fd5-bd33-19abc23f60aa)) could be safer than ((67f500dd-ff43-46ec-b9e0-9dcc097b2bc3)).
 				  id:: 67f4f5e3-e739-41cd-8b95-14c7bbe9eebe
+		- network handling
+		  collapsed:: true
+			- `iftop`
+			  id:: 6835b16a-35af-4d69-8b48-17cbb2bf556d
+			  (with `sudo`) display "top network" interfaces.
+			- `nethogs`
+			  id:: 6835b16a-71ae-4882-afc0-d998d761442e
+			  (with `sudo`) NetHogs displays 'net top' processes.
+			- `ss`/`netstat`
+			  dump network socket statistics: type (TCP, UDP, UNIX), status (listening, established, unconnected), addresses
+			- `nc`/`netcat`
+			  versatile network socket operations: connect, listen, send packets, scan port
 	- ### shell
 		- `man [-k]`, `info`, `[run-]help`, `apropos`
 		  collapsed:: true
@@ -1003,6 +1044,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 				  id:: 66c6c8e6-54be-4b4f-80a1-c535d429d05c
 				- `$0`: filename of the running shell (script)
 				- arguments to the running shell (script)
+				  collapsed:: true
 					- `$#`: number of arguments
 					- `$*`: all arguments
 					- `$@`: all arguments where each argument is separated via quotation
@@ -1230,30 +1272,6 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 		- Oh My Zsh
 		  collapsed:: true
 			- [oh-my-zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your [Zsh](https://en.wikipedia.org/wiki/Z_shell) configuration.
-		- My backups via Git repos
-		  collapsed:: true
-			- Hardlinks are used to synchonize files on system with backup Git repositories.
-			- [linux-commands](https://github.com/bixycler/linux-commands)
-				- ```sh
-				  cd ~/bin
-				  ln aws.sh findapp.sh findname.sh Japencid.sh greprsjis.sh ldiff.sh netstatwatch.sh sping.sh sstp.sh tput-test.sh ovpn.sh vpn.sh \
-				     ~/source/linux-commands/home-bin/
-				  ```
-			- [linux-config](https://github.com/bixycler/linux-config)
-				- ```sh
-				  cd ~
-				  ln .bash_history .bash_logout .bash_profile .bashrc .chzsh .gitconfig .ishrc  .profile .viminfo .vimrc .vimrc.vim .zprofile .zsh_history .zshrc \
-				     ~/source/linux-config/
-				  ln .oh-my-zsh/custom/aliases.zsh ~/source/linux-config/.oh-my-zsh/custom/aliases.zsh
-				  ln .oh-my-zsh/custom/themes/creatzy.zsh-theme ~/source/linux-config/.oh-my-zsh/custom/themes/creatzy.zsh-theme
-				  ln .ssh/config ~/source/linux-config/.ssh/config
-				  # host files used by dnsmasq
-				  ln hosts/others.hosts hosts/active/others.hosts
-				  ln hosts/others.hosts ~/source/linux-config/hosts/active/
-				  ln hosts/* ~/source/linux-config/hosts/
-				  # ibus-bamboo input method
-				  ln .config/ibus-bamboo/ibus-bamboo.macro.text ~/source/linux-config/
-				  ```
 		- Nushell
 		  collapsed:: true
 		  :LOGBOOK:
@@ -1770,57 +1788,211 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 			- Humanity: default theme for GTK
 			- Adwaita: default theme for GNOME
 			- Gnome: legacy GNOME theme
+		- `GSettings`
+		  id:: 68358161-eb10-4c78-805e-88f9f460d376
+		  collapsed:: true
+		  the GNOME application settings API, backed by the [`dconf` database](https://en.wikipedia.org/wiki/Dconf)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68358161-eb10-4c78-805e-88f9f460d376)), now renamed as [Gio](https://docs.gtk.org/gio/), is the frontend to ((6835836d-d097-44f0-9654-aa3f2e13160a)), providing API to store and retrieve application settings, similar to the [Windows Registry database](https://en.wikipedia.org/wiki/Windows_Registry). This is the new settings system from GNOME 3 replacing the deprecated [GConf](https://en.wikipedia.org/wiki/GConf) of GNOME 2.
+			- `gsettings` is the CLI for `GSettings` API, using dot-separated path, e.g.
+			  ```sh
+			  gsettings get org.gnome.shell favorite-apps
+			  ```
+			- `dconf`
+			  id:: 6835836d-d097-44f0-9654-aa3f2e13160a
+			  the CLI for [`dconf` database](https://en.wikipedia.org/wiki/Dconf), using slash-separated path
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dconf
+				- E.g.
+				  ```sh
+				  dconf read /org/gnome/shell/favorite-apps
+				  ```
+			- `dconf-editor`
+			  the GUI app for ((6835836d-d097-44f0-9654-aa3f2e13160a))
+				- screenshot
+					- ![dconf-editor.png](../assets/Linux/GNOME/GSettings/dconf-editor.png)
 	- ### Wayland
 	  id:: 66b1cfa4-f6a5-444d-97fb-e76a1c5fb1c7
 		- [XWayland](https://wayland.freedesktop.org/xserver.html)
 		  id:: 66c6cd8c-5367-4ae4-a76c-970732c2aebb
-	- ### Snap
-		- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://snapcraft.io/about
-		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Snap_(software)
-		- Snap Sandbox
-		  id:: 66fa8a1d-4fc0-4cb9-ad57-911cba799a04
+	- Software management
+		- ### APT
+		  id:: 68357072-2dcb-42b5-a228-15ed904010f8
 		  collapsed:: true
-			- Each Snap app runs in a limited [sandbox](https://en.wikipedia.org/wiki/Snap_(software)#Configurable_sandbox).
-			- Each Snap app uses a separate home `${HOME}/snap/${app}/current/` instead of the user's `${HOME}`.
-			- Many system calls are blocked (`Permission denied`), e.g. `ssh`, `who`, `free`, etc.
-				- For SSH access, we must explicitly allow via `ssh-keys: allows reading ssh user configuration and keys` < `Permissions` < `${app}` < `Snap Store` (`Ubuntu Software`).
-				  id:: 66fb69ac-95d3-4ba0-b5ec-b1eb04898db5
-					- Ref: [Dbeaver CE Ubuntu snap can't read SSH key in ~/.ssh](https://github.com/dbeaver/dbeaver/issues/10098#issuecomment-770193398)
-					- ![Snap-Logseq-ssh-permission.png](../assets/logseq/Snap-Logseq-ssh-permission.png)
-				- Debugging `core.sshCommand`s in `.gitconfig`
-				  id:: 66fb7680-58c6-4954-8495-f199f5affa4e
-					- `ssh`, `who` are denied, while `date`, `id` and shell-built-in `pwd`, `echo`, `type` are allowed.
+		  Advanced Package Tool developed by [Debian](https://en.wikipedia.org/wiki/Debian)
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/APT_(software)
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68357072-2dcb-42b5-a228-15ed904010f8)) is a frontend to ((68357b4a-1d33-464c-bbe0-fe2a0a722eee)), providing CLI like `apt`, `apt-get` and `apt-cache`, to manage [.deb](https://en.wikipedia.org/wiki/Deb_(file_format)) packages.
+			- `dpkg`
+			  id:: 68357b4a-1d33-464c-bbe0-fe2a0a722eee
+			  backend of ((68357072-2dcb-42b5-a228-15ed904010f8))
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Dpkg
+			- `/etc/apt/sources.list`
+			  id:: 68357c0a-641a-4bf6-8e98-41c43810ca07
+			  collapsed:: true
+			  package [repositories](https://help.ubuntu.com/community/Repositories/Ubuntu) for ((68357072-2dcb-42b5-a228-15ed904010f8))
+				- Repositories:
+					- `${RELEASE}`: Installation packages
+					- `${RELEASE}`-`updates`: Recommended updates
+					- `${RELEASE}`-`security`: Important security updates
+					- `${RELEASE}`-`backports`: Unsupported updates
+				- Components:
+					- Main: Canonical-supported free and open-source software.
+					- Universe: Community-maintained (canonical-unsupported) free and open-source software.
+					- Restricted: Proprietary drivers for devices, canonical-supported.
+					- Multiverse: Software restricted by copyright or legal issues, community-maintained.
+				- Releases: (see [Ubuntu lifecycle and release cadence](https://ubuntu.com/about/release-cycle))
+					- LTS = Long Term Support
+					- Main = Hardware and maintenance updates
+					- ESM = Extended Security Maintenance
+					  id:: 68357df4-ee9c-4268-a8c7-3a1251ad3ebf
+				- Examples
+					- Focal Fossa (20.04) > Jammy Jellyfish (22.04) @ HTV
 					  collapsed:: true
-						- ```ini
-						  [core]
-						      sshCommand = "ssh -v 2>/home/dinhlx/tmp/ssh.log" # 1: ssh: Permission denied
-						      #sshCommand = "type ssh 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/ssh
-						      #sshCommand = "pwd 1>/home/dinhlx/tmp/ssh.log #" # /home/dinhlx/source/UniinfoNotes
-						      #sshCommand = "echo ${USER}:${HOME} 1>/home/dinhlx/tmp/ssh.log #" # dinhlx:/home/dinhlx/snap/logseq/28
-						      #sshCommand = "who 2>/home/dinhlx/tmp/ssh.log #" # 1: who: Permission denied
-						      #sshCommand = "type who 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/who
-						      #sshCommand = "date 1>/home/dinhlx/tmp/ssh.log #" # 30/09/2024 17:47:30 +07
-						      #sshCommand = "type date 1>/home/dinhlx/tmp/ssh.log #" # date is /usr/bin/date
-						      #sshCommand = "id 1>/home/dinhlx/tmp/ssh.log #" # uid=1001(dinhlx) gid=1001(dinhlx) groups=1001(dinhlx),27(sudo),1002(tomcat)
-						      #sshCommand = "type id 1>/home/dinhlx/tmp/ssh.log #" # id is /usr/bin/id
+						- ```sh
+						  # deb cdrom:[Ubuntu 20.04.5 LTS _Focal Fossa_ - Release amd64 (20220831)]/ focal main restricted
+						  #   disabled at the end of the first installation process.
 						  
-						  [trace2]
-						      normalTarget = /home/dinhlx/tmp/git.trace.log
+						  # First installation: Focal Fossa (20.04)
+						  # Upgrades: > Jammy Jellyfish (22.04) > ...
+						  # Ref: https://help.ubuntu.com/community/Repositories/Ubuntu
+						  # Repositories:
+						  # 1. ${RELEASE}: Installation packages
+						  # 2. ${RELEASE}-updates: Recommended updates
+						  # 3. ${RELEASE}-security: Important security updates 
+						  # 4. ${RELEASE}-backports: Unsupported updates
+						  # Components:
+						  # 1. Main: Canonical-supported free and open-source software.
+						  # 2. Universe: Community-maintained (canonical-unsupported) free and open-source software.
+						  # 3. Restricted: Proprietary drivers for devices, canonical-supported.
+						  # 4. Multiverse: Software restricted by copyright or legal issues, community-maintained.
+						  
+						  # LTS Releases: (ref: https://ubuntu.com/about/release-cycle)
+						  #   LTS = Long Term Support
+						  #   Main = Hardware and maintenance updates
+						  #   ESM = Extended Security Maintenance
+						  
+						  # Jammy Jellyfish (22.04 LTS): 2022 ---Main--- 2027 ---ESM---
+						  deb http://vn.archive.ubuntu.com/ubuntu/ jammy main universe restricted multiverse
+						  # deb-src http://vn.archive.ubuntu.com/ubuntu/ jammy main universe restricted multiverse
+						  deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+						  # deb-src http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+						  
+						  # Focal Fossa (20.04 LTS): 2020 ---Main--- 2025 ---ESM--- 2030
+						  deb http://vn.archive.ubuntu.com/ubuntu/ focal main universe restricted multiverse
+						  # deb-src http://vn.archive.ubuntu.com/ubuntu/ focal main universe restricted multiverse
+						  deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
+						  # deb-src http://security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
 						  ```
-				- Ref: [Permission denied for calling system calls from snap app](https://forum.snapcraft.io/t/permission-denied-for-calling-system-calls-from-snap-app/16056)
-			- All hidden files and folder (whose name is started with  dot `.*`) cannot be accessed by Snap app.
-			  id:: 66fb7680-5c9d-4c2f-8b53-e0645b62aa4e
-				- ((665dc545-151a-485a-84b7-1310fef5151c)) for some file to be used by the app, it must be placed in a non-hidden folder.
-	- ### Flatpak
-		- Originally "[XDG](((669499f7-76c4-4ff8-a27e-be9768a6258c)))-app"
-		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Flatpak
-		- App Store: https://flathub.org/
-		- Flatpak Sandbox
-		  id:: 66fb5dcd-e20c-4e18-b03c-e52a5bb76425
-		  collapsed:: true
-			- Each Flatpack app is registered with a `${FlatpakID}`, e.g. `com.logseq.Logseq`, and runs in an [OSTree](https://en.wikipedia.org/wiki/OSTree) sandbox.
-			- The sandbox of `${FlatpakID}` can be inspected with `flatpak run --command=bash ${FlatpakID}`
-			- Flatpak sandbox is not as restricted as ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)).
-				- Flatpak sandbox integrates user's `${HOME}` and other parts of the OS so well that it feels like running in the native environment.
-				- Flatpak sandbox can handle SSH well.
-				  id:: 66fb5fd7-b1b0-4e54-96b3-fe6a83e34777
+			- Front ends
+				- Ubuntu Software Center
+				  id:: 68357215-b39b-449c-b63e-4c33f5b1f0da
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Ubuntu_Software_Center
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68357215-b39b-449c-b63e-4c33f5b1f0da)) is the standard software manager of ((66faa5fa-52aa-4e12-8a55-c6ad22ebdfa7)).
+						- It has included ((681826b1-9b87-4950-905f-b057e91ffca5)) packages which were managed separately by [Snap Store](https://snapcraft.io/store) app previously.
+						  collapsed:: true
+							- Now, the ((6835a66a-c864-440a-8e12-ff556f1d4c8f)) is a snap itself, which is launched by Snap Store!
+							  `snap-store_ubuntu-software.desktop`:`Exec`=`/snap/bin/snap-store.ubuntu-software`
+					- App “Ubuntu Software”
+					  id:: 6835a66a-c864-440a-8e12-ff556f1d4c8f
+					  ![ubuntu-software-icon.png](../assets/Linux/APT/ubuntu-software-icon.png){:width 32} `snap-store.ubuntu-software`
+						- This is a simple GUI to browse available/installed/updatable apps.
+					- App “Software & Updates”
+					  ![software-properties-gtk-icon.png](../assets/Linux/APT/software-properties-gtk-icon.png){:width 32} `software-properties-gtk`
+						- This is the GUI for various APT settings: [repositories](((68357c0a-641a-4bf6-8e98-41c43810ca07))) in 2 tabs `Ubuntu Software` & `Other Software`, updates in tab `Updates`, trusted software providers in tab `Authentication`.
+						- Tab `Updates`
+						  collapsed:: true
+							- **OS upgrade**: Option "**Notify me of a new Ubuntu version**" → `/etc/update-manager/release-upgrades`
+							- **Software update** → `/etc/apt/apt.conf.d/{10periodic,20auto-upgrades}` configured for `/usr/lib/apt/apt.systemd.daily` called by [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29).
+								- Option "**Automatically check for updates**" → `APT::Periodic::Update-Package-Lists $N`: Do `apt update` every `$N` days by `apt-daily.service`.
+								  Note: this option only apply to *non-security updates*. I.e. the choice "Never" does NOT turn off automatic checking!
+								- Option "**When there are security updates**" → `APT::Periodic::{Download-Upgradeable-Packages,Unattended-Upgrade}`:
+								  _The **security updates** are **always automatically** checked by [update-manager](((6835a6bf-bdd4-46d5-9d07-e24744e16000))) and **notified immediately**_. Then optionally, ...
+									- "Display immediately": This is the minimum option! Hence, no way to mute notification (via GUI settings)!!!
+									- "Download automatically" → `APT::Periodic::Download-Upgradeable-Packages`: automatically download (`apt-get --download-only`) by `apt-daily.service`.
+									- "Download and install automatically" → `APT::Periodic::Unattended-Upgrade`: Automatically intall (`apt upgrade`) by `apt-daily-upgrade.service → /usr/bin/unattended-upgrade`.
+								- Option "When there are other updates" → dconf `/com/ubuntu/update-notifier/regular-auto-launch-interval`: The interval (in days) when `update-notifier` auto-launches `update-manager` for other updates (security updates are launched immediately).
+					- App “Software Updater”
+					  id:: 6835a6bf-bdd4-46d5-9d07-e24744e16000
+					  ![update-manager-icon.png](../assets/Linux/APT/update-manager-icon.png){:width 32} `update-manager`
+						- This is the one that check for updates and do update, which is **launched everyday** by ((6835acfc-5c1c-40c0-b008-93979afa8f36)) which is daily triggered by [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29).
+						- It can automatically do update via the [`unattended-upgrades.service`](https://wiki.debian.org/UnattendedUpgrades), if the flag `APT::Periodic::Unattended-Upgrade` in `/etc/apt/apt.conf.d/{10periodic,20auto-upgrades}` is on.
+						- `update-notifier`
+						  id:: 6835acfc-5c1c-40c0-b008-93979afa8f36
+						  ![update-notifier-icon.png](../assets/Linux/APT/update-notifier-icon.png){:width 32} popup `UpdatesAvailable`
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- Automatic software update/notification
+						  id:: 68358033-084f-461c-b470-5311a5127f0c
+						  collapsed:: true
+							- Unattended Upgrade
+							  id:: 683580d0-c9c6-4708-acb6-7c21817be3dc
+								- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://wiki.debian.org/UnattendedUpgrades
+								- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is the service to keep the computer current with the latest security (and other) updates **automatically**. The `unattended-upgrades.service` references the following settings:
+									- `/etc/apt/apt.conf.d`/{`20auto-upgrades`,`02periodic`}
+									  ```c++
+									  APT::Periodic::Update-Package-Lists "1";
+									  APT::Periodic::Unattended-Upgrade "1";
+									  ```
+										- which can be modified interactively with `sudo dpkg-reconfigure unattended-upgrades`
+									- From Debian 12 (Bookworm) = Ubuntu 22.04 (Jammy Jellyfish), ((683580d0-c9c6-4708-acb6-7c21817be3dc)) is *no longer a default* install with Gnome. Download and upgrade schedules are set up by ((6835789b-9394-42ff-8c03-8c19763deda6)) using `systemd` timers with [apt-daily[-upgrade].service](https://wiki.debian.org/UnattendedUpgrades#Modifying_download_and_upgrade_schedules_.28on_systemd.29). The default behaviour in Gnome for upgrades detected via APT is now to advise of availability, and not to install by default.
+								-
+				- Synaptic
+				  id:: 683573db-769c-4215-b55b-196dc57082c2
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Synaptic_(software)
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((683573db-769c-4215-b55b-196dc57082c2)) is a GUI app for managing `deb` packages with many more details than the default ((68357215-b39b-449c-b63e-4c33f5b1f0da)): installed file list, dependencies & fix broken packages, version management (lock/pin, force)
+				- `aptitude`
+				  a TUI app for managing `deb` packages
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Aptitude_(software)
+				- PackageKit
+				  id:: 6835789b-9394-42ff-8c03-8c19763deda6
+					- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/PackageKit
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6835789b-9394-42ff-8c03-8c19763deda6)) is a **middle** software bridging backends, like ((68357072-2dcb-42b5-a228-15ed904010f8)), with frontends, like [GNOME Software](https://en.wikipedia.org/wiki/GNOME_Software), `gnome-packagekit`, etc.
+						- Architecture: APT [backend] > PackageKit > [frontend] GNOME Software (or `gnome-packagekit`)
+		- ### Snap
+		  id:: 681826b1-9b87-4950-905f-b057e91ffca5
+			- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://snapcraft.io/about
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Snap_(software)
+			- Snap Sandbox
+			  id:: 66fa8a1d-4fc0-4cb9-ad57-911cba799a04
+			  collapsed:: true
+				- Each Snap app runs in a limited [sandbox](https://en.wikipedia.org/wiki/Snap_(software)#Configurable_sandbox).
+				- Each Snap app uses a separate home `${HOME}/snap/${app}/current/` instead of the user's `${HOME}`.
+				- Many system calls are blocked (`Permission denied`), e.g. `ssh`, `who`, `free`, etc.
+					- For SSH access, we must explicitly allow via `ssh-keys: allows reading ssh user configuration and keys` < `Permissions` < `${app}` < `Snap Store` (`Ubuntu Software`).
+					  id:: 66fb69ac-95d3-4ba0-b5ec-b1eb04898db5
+						- Ref: [Dbeaver CE Ubuntu snap can't read SSH key in ~/.ssh](https://github.com/dbeaver/dbeaver/issues/10098#issuecomment-770193398)
+						- ![Snap-Logseq-ssh-permission.png](../assets/logseq/Snap-Logseq-ssh-permission.png)
+					- Debugging `core.sshCommand`s in `.gitconfig`
+					  id:: 66fb7680-58c6-4954-8495-f199f5affa4e
+						- `ssh`, `who` are denied, while `date`, `id` and shell-built-in `pwd`, `echo`, `type` are allowed.
+						  collapsed:: true
+							- ```ini
+							  [core]
+							      sshCommand = "ssh -v 2>/home/dinhlx/tmp/ssh.log" # 1: ssh: Permission denied
+							      #sshCommand = "type ssh 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/ssh
+							      #sshCommand = "pwd 1>/home/dinhlx/tmp/ssh.log #" # /home/dinhlx/source/UniinfoNotes
+							      #sshCommand = "echo ${USER}:${HOME} 1>/home/dinhlx/tmp/ssh.log #" # dinhlx:/home/dinhlx/snap/logseq/28
+							      #sshCommand = "who 2>/home/dinhlx/tmp/ssh.log #" # 1: who: Permission denied
+							      #sshCommand = "type who 1>/home/dinhlx/tmp/ssh.log #" # ssh is /usr/bin/who
+							      #sshCommand = "date 1>/home/dinhlx/tmp/ssh.log #" # 30/09/2024 17:47:30 +07
+							      #sshCommand = "type date 1>/home/dinhlx/tmp/ssh.log #" # date is /usr/bin/date
+							      #sshCommand = "id 1>/home/dinhlx/tmp/ssh.log #" # uid=1001(dinhlx) gid=1001(dinhlx) groups=1001(dinhlx),27(sudo),1002(tomcat)
+							      #sshCommand = "type id 1>/home/dinhlx/tmp/ssh.log #" # id is /usr/bin/id
+							  
+							  [trace2]
+							      normalTarget = /home/dinhlx/tmp/git.trace.log
+							  ```
+					- Ref: [Permission denied for calling system calls from snap app](https://forum.snapcraft.io/t/permission-denied-for-calling-system-calls-from-snap-app/16056)
+				- All hidden files and folder (whose name is started with  dot `.*`) cannot be accessed by Snap app.
+				  id:: 66fb7680-5c9d-4c2f-8b53-e0645b62aa4e
+					- ((665dc545-151a-485a-84b7-1310fef5151c)) for some file to be used by the app, it must be placed in a non-hidden folder.
+		- ### Flatpak
+			- Originally "[XDG](((669499f7-76c4-4ff8-a27e-be9768a6258c)))-app"
+			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Flatpak
+			- App Store: https://flathub.org/
+			- Flatpak Sandbox
+			  id:: 66fb5dcd-e20c-4e18-b03c-e52a5bb76425
+			  collapsed:: true
+				- Each Flatpack app is registered with a `${FlatpakID}`, e.g. `com.logseq.Logseq`, and runs in an [OSTree](https://en.wikipedia.org/wiki/OSTree) sandbox.
+				- The sandbox of `${FlatpakID}` can be inspected with `flatpak run --command=bash ${FlatpakID}`
+				- Flatpak sandbox is not as restricted as ((66fa8a1d-4fc0-4cb9-ad57-911cba799a04)).
+					- Flatpak sandbox integrates user's `${HOME}` and other parts of the OS so well that it feels like running in the native environment.
+					- Flatpak sandbox can handle SSH well.
+					  id:: 66fb5fd7-b1b0-4e54-96b3-fe6a83e34777

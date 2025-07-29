@@ -8,6 +8,7 @@
  :hidden ["assets" "/assets" "../assets"]
  :ui/auto-expand-block-refs? false
  :ui/show-brackets? false
+ :favorites ["682c29d5-037c-4eea-aee3-35bd1779b4f1"]
 
 
 }

@@ -51,7 +51,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 						  ![cylinder-directions.png](../assets/physics/cylinder-directions.png)
 					- Because the arc length is usually denoted by $L$, here $l$ is used to denote the arc itself. In this sense, $\hat{l}$ denotes the direction along the arc, hence “longitudinal” like [longitudinal wave](https://en.wikipedia.org/wiki/Longitudinal_wave). Don't confuse this “longitudinal” direction with wood's longitudinal direction along its axis.
 					- The term “transverse” is to the “radial” direction of the (light/view) rays emanating from the pole, not to the “tangetial/longitudinal” direction of the arc. This “transverse” is similar to the [“transversals” in perspective drawing](((673ab08d-2389-4306-a7ee-6970e17018c6))).
-					- In SCIFER mechanism, the (radial, transverse) directions are also the (spatial, temporal) directions, so the transverse component $τ$ is alsot the time $t$.
+					- In SCIFER mechanism, the (radial, transverse) directions are also the (spatial, temporal) directions, so the transverse component $τ$ is also the time $t$.
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
 			  a.k.a. polar plane
@@ -174,13 +174,86 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  CLOCK: [2024-12-09 Mon 17:51:40]
 	  CLOCK: [2024-12-09 Mon 17:51:48]--[2024-12-09 Mon 18:11:01] =>  00:19:13
 	  :END:
-		- [Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential anaysis
-		- Digit overflow/waterfall/cascade ([domino effect](https://en.wikipedia.org/wiki/Domino_effect)) in positional numerals
-			- Limit numbers in [ordinal numbers](https://en.wikipedia.org/wiki/Limit_ordinal) and [p-adic numbers](https://en.wikipedia.org/wiki/P-adic_number)
-		- [Edge case](https://en.wikipedia.org/wiki/Edge_case), including overflows ([integer OF](https://en.wikipedia.org/wiki/Integer_overflow), [buffer OF](https://en.wikipedia.org/wiki/Buffer_overflow), [Stack OF](https://en.wikipedia.org/wiki/Stack_overflow)), in software engineering
-		- [Edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos), [Bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory), [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
-		- [Phase transition point](https://en.wikipedia.org/wiki/Phase_transition) in physics and [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
-		- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe.
+		- Expressions of the boundary:
+			- [Boundary value problem & boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem) in differential analysis
+			  id:: 6835b168-defe-49ff-8029-5b6afe346fbf
+			- Digit overflow/waterfall/cascade ([domino effect](https://en.wikipedia.org/wiki/Domino_effect)) in positional numerals
+				- Limit numbers in [ordinal numbers](https://en.wikipedia.org/wiki/Limit_ordinal) and [p-adic numbers](https://en.wikipedia.org/wiki/P-adic_number)
+			- [Edge case](https://en.wikipedia.org/wiki/Edge_case), including overflows ([integer OF](https://en.wikipedia.org/wiki/Integer_overflow), [buffer OF](https://en.wikipedia.org/wiki/Buffer_overflow), [Stack OF](https://en.wikipedia.org/wiki/Stack_overflow)), in software engineering
+			- [Edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos), [Bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory), [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
+			- [Phase transition point](https://en.wikipedia.org/wiki/Phase_transition) in physics and [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
+			- [Gibbs overshoots](https://en.wikipedia.org/wiki/Gibbs_phenomenon) in Fourier series around a [jump discontinuity](https://en.wikipedia.org/wiki/Jump_discontinuity) of discontinuous functions
+			- [one-unit error](https://www.geogebra.org/m/xhpjjxyn) at the marginal cases
+		- Most complex organisms evolve at the edge of chaos.
+			- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe, hence their flexibility, stability, adaptability, and evolability.
+			- Refs:
+				- [The Hidden Biological Rules: How Life Exists on the Edge of Chaos](https://www.youtube.com/watch?v=8By6ycfxZFo)
+				  collapsed:: true
+					- {{video https://www.youtube.com/watch?v=8By6ycfxZFo}}
+				- [Spatio-temporal pattern formation of living organisms at the edge of chaos](https://academic.oup.com/ismej/article/19/1/wraf050/8074902) ([PDF](../assets/Will/story/2025-06/wraf050 - Spatio-temporal pattern formation of living organisms at the edge of chaos.pdf))
+				- [From Genes to the Edge of Chaos: How Chaotic Are You?](https://kurious.ku.edu.tr/en/from-genes-to-the-edge-of-chaos-how-chaotic-are-you/)
+		- An interesting fractal zoom demonstrating the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos): from a clear black/white separation by a straight line at the distance to complex fractals up close
+		  id:: 68469e67-4c54-4c89-9f3c-409af642769d
+		  collapsed:: true
+			- Zooming video: https://youtu.be/NW25DJhd89I
+			  collapsed:: true
+				- {{video https://youtu.be/NW25DJhd89I}}
+			- This fractal is plotted on the parameter space of Newton fractal for 2 basins of attraction to 2 roots $-1$ & $+1$, i.e. roots of $z^2 = 1$, as described by 3Blue1Brown: [Beyond the Mandelbrot set, an intro to holomorphic dynamics](https://youtu.be/LqbZpur38nw?t=1140)
+			  collapsed:: true
+				- {{video https://youtu.be/LqbZpur38nw?t=1140}}
+			- Formula:
+				- Newton method: $z ← z - p(z)/p'(z)$
+				- $p(z) = (z+1)(z-1)(z-c)$
+				- $p'(z) = (3⋅z^2 - 2⋅c⋅z - 1)$
+				- Seed: average of 3 roots = $c/3$
+			- Generalized n+1 formula:
+				- $p(z) = (z^n - 1)(z-c)$
+				- Seed = $c/(n+1)$
+			- Album [Zoom into the edge of chaos](https://photos.app.goo.gl/33w9EPJsk5MsAcaG6) created by Android app [Mandelbrot Browser](https://play.google.com/store/apps/details?id=pl.y0.mandelbrotbrowser)
+			  collapsed:: true
+				- These images have the formulae for fractal & color embedded, hence can be imported to the app.
+				- From the straight line of black/white separation to the complex factals
+					- ![MandelBrowser_250608_085307.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085307.jpg){:width 300} ![MandelBrowser_250608_085246.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085246.jpg){:width 300}
+					- ![MandelBrowser_250608_085148.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_085148.jpg){:width 300} ![Oasis-of-Life.jpg](../assets/Will/story/2025-06/Oasis-of-Life.jpg){:width 300}
+					- ![MandelBrowser_250608_083956.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_084506.jpg){:width 300} ![MandelBrowser_250608_083932.jpg](../assets/Will/story/2025-06/MandelBrowser_250608_083932.jpg){:width 300}
+				- The [Oasis of Life](https://photos.app.goo.gl/kaSPwdiUNcqGecKx8) is the most interesting image in this album.
+				  id:: 684fbc42-7348-4e76-9b02-573035f1b98c
+					- ![Oasis-of-Life.jpg](../assets/Will/story/2025-06/Oasis-of-Life.jpg)
+			- The Oasis of Life
+			  id:: 684fbedf-5e17-4319-8f42-0e3062038fc0
+			  collapsed:: true
+				- The [image](((684fbc42-7348-4e76-9b02-573035f1b98c)))
+				  id:: 684fbfdf-b894-434b-b6ee-1e7169d9dce9
+				  collapsed:: true
+					- ![Oasis-of-Life.jpg](../assets/Will/story/2025-06/Oasis-of-Life.jpg){:width 200}
+				- ((684fbfdf-b894-434b-b6ee-1e7169d9dce9)) depicts:
+					- An oasis 🏝️ shaped like an egg, representing the life full of [diversity](https://en.wikipedia.org/wiki/Ecosystem_diversity), situated between two deserts (the left side entirely cold water Yin, the right side entirely hot sand Yang).
+					- Within the oasis, the order of Yin and Yang is reversed, meaning the left (Yin) contains Yang (red) and the right (Yang) contains Yin (green). This phenomenon of "Yin within Yang, Yang within Yin" is represented by the two small disks in the Taiji symbol: ☯️.
+					- In the center, there is a yellow region neutralizing Yin (green) and Yang (red), and at the bottom center, there is a black Buddha meditating 🧘‍♀️.
+				- The [middle way](https://en.wikipedia.org/wiki/Middle_Way) which most people see, represented by the yellow diamond shape 🔶 in the image, is the “just right” state, neither lacking (Yin) nor excessive (Yang). It’s a comfortable balance, neither cold nor hot, free from greed (due to lack, Yin) and aversion (anger, haste, Yang)... but this leads to **delusion**, becoming _**infatuated** with that comfortable balance_.
+				- **Nirvana**, or liberation, is the black area ♠️ at the bottom center, where the “meditating Buddha” sits. It’s also a balance... but a **dynamic balance** amid infinite turbulence, not a static balanced land like the yellow diamond above.
+				- The common path to liberation involves using the yellow land in the middle above to distance oneself from the two extremes first, then gradually practicing to descend into the turbulent jungle below where the “meditating Buddha” sits.
+				- This oasis is on the “edge of chaos”, i.e. the border between 2 extremes of completely static (Yin) and completely random (Yang).
+			- The oasis of Life
+				- The trip [zooming into the edge of chaos](https://photos.app.goo.gl/33w9EPJsk5MsAcaG6):
+					- From a distance, it looks like a single straight line clearly dividing Yin and Yang.
+					- As we move closer, we see it’s not like that at all, but filled with patterns of “Yin within Yang, Yang within Yin, and even androgyny” within it, ☯️.
+					- And deep inside, amidst the dense, turbulent jungles, there is a “Buddha meditating” in the midst of that forest 🧘‍♀️.
+		- In the view of ((667bef22-b272-4a7d-b613-3f1ed1a47329)), the boundary condition determines the behavior in its enclosed volume.
+			- The ((6835b162-293f-4b8c-8be2-2dbe83b741ce)) shows the integral relation between the boundary and its enclosed volume in a linear conservative fields.
+			- ((6835b168-defe-49ff-8029-5b6afe346fbf))
+			- [Holographic principle](https://en.wikipedia.org/wiki/Holographic_principle) in Quantum Physics
+			- Conic classification of boundary value problems (BVPs):
+			  collapsed:: true
+				- Elliptic BVPs describe equilibrium states with time-independent PDEs, e.g. Laplace’s or Poisson’s equation for electrostatics: $∇^2 u = f$.
+				- Parabolic BVPs model diffusion-like processes, where solutions smooth out over time, with a first-order time derivative PDEs, e.g. heat equation: $∂_t​ u = κ∇^2 u$.
+				- Hyperbolic BVPs model vibrations & wave propagation with second-order time and spatial derivative PDEs, e.g. wave equation: $∂_t^2 ​u = c^2 ∇^2 u$.
+				- Note: The Schrödinger equation encompasses all the three.
+					- The time-independent version is elliptic.
+					- The time-dependent version is parabolic with first-order time derivative $iℏ∂_t ψ$: e.g., the free particle in uniform potential $V(x)=0$ has dispersion (spreading of the wave function over time).
+					- However, the imaginary coefficient $i$ makes it “hyperbolic”: e.g., in bound states like harmonic oscillator $V(x) = \frac{1}{2} m ω^2 x^2$, the wave function has no dispersion.
+					-
+		- The initials (axioms, postulates) of a theory and its terminals (paradoxes, limitations) are parts of the boundary of that theory.
 	- Usages of `⋇`
 	  id:: 674db08a-4c2b-4a73-b17c-d3223bc0e95e
 	  collapsed:: true
@@ -259,34 +332,10 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- 𖦹 (ngkaami in Phase E)
 		- Symbols
 			- Infinity: ∞, ♾
-	- Writing styles & formats
-	  id:: 67187bb2-8a3a-4541-9f19-40e217ce7eb0
-	  collapsed:: true
-	  :LOGBOOK:
-	  CLOCK: [2024-10-23 Wed 12:04:05]--[2024-10-23 Wed 15:27:28] =>  03:23:23
-	  :END:
-		- CreatZy style
-			- Quotation
-				- For quick notes, i just use the straight quotation marks `"`.
-				- For notes to be published, i use the curly quotation marks `“”`.
-				- Only the quoted material is placed inside quotation marks.
-				  id:: 67189182-7268-4579-9ef2-b16bf1f06c86
-				  I don't put trailing punctuation marks into the quote, e.g. “not a complete sentence quote”, except when quoting the whole sentence.
-				- Math forms are quoted by double angle brackets, e.g. $⟪E = m⋅c^2⟫$
-			- Dialogue
-				- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
-				- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are space-separated from the text.
-		- American style for quotation
-		  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
-			- Commas `,` and periods `.` are always before the closing quote, “like this.”
-				- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only [from mid-19th century](https://style.mla.org/the-placement-of-a-comma-or-period-after-a-quotation), to make the text of [typewriter](https://en.wikipedia.org/wiki/Typewriter) [looks “neater”](https://style.mla.org/punctuation-and-quotation-marks/).
-			- Other marks follow the rule ((67189182-7268-4579-9ef2-b16bf1f06c86))
-		- World's various styles for dialogue
-			- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
-			- For source attribution, while (em) [dash](https://en.wikipedia.org/wiki/Dash) is the most common, colon `: author` and parentheses `(from author)` are also used.
-			- References:
-				- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
-				- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
+		- 🌀 tongue twisting whorls 😵‍💫
+			- curl, swirl, twirl, whirl, whorl ➿️👅🤑
+			- “The swirl curled into a whorl that whirled the world.”
+			- “The girl with the curl gave the world a twirled swirl of whorled words.”
 	- The **choice** determines the ((669a5387-2a97-4311-a295-aa0afd9c4d76)) and its ((6713a8e1-e460-4622-9ad6-87c804deccd8)).
 	  id:: 6714a66b-1bd2-4c9d-8ebc-2842f3095b3b
 	  collapsed:: true
@@ -392,7 +441,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- {{embed ((66b1cfa3-e6c4-405c-9475-2186078a811d))}}
 			- In centralized system, the intensional awareness is represented by a real observer like the head, the heart, the leader, the king, etc.
 			- In distributed system, the intensional awareness is shared by all components.
-		- **"thức = equal" is the duality of the** ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+		- **“awareness = equal” is the duality of the** ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 		  id:: 66f29d57-a87f-4370-9f32-722922a7bff1
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 20:34:45]
@@ -457,6 +506,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- [So-le (staggered)](https://www.facebook.com/share/p/35j9SSuqSJj76tWY/)
 				- [The tarpestry of life](https://www.facebook.com/share/p/GiePNxH7dd4ZsvGn/)
 			- the mesh of horizonal & vertical threads is related to the ((670cdcb4-3c85-45af-8c30-3c3284ed37df)).
+			- The principle of “dependent origination” is not a linear causality, but about the fractal web of karma.
+			  id:: 6863c61d-f3e7-495b-bdc4-25be219db74b
+				- The working of karma is one of the [4 imponderables](https://en.wikipedia.org/wiki/The_unanswerable_questions#Acinteyya_%E2%80%93_four_imponderables) (acinteyya, bất khả tư nghị, 不可思議).
 			- 糸：縦の糸はあなた、横の糸は私…
 			  collapsed:: true
 				- {{video https://youtu.be/VI8zQG-yMMI}}
@@ -554,9 +606,9 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- Read more
 				- [manasikāra](https://en.wikipedia.org/wiki/Manasik%C4%81ra) (attention, tác ý, chú ý, chú tâm) is related to cetanā.
 				- [Nghiệp & tự do ý chí](https://giacngo.vn/nghiep-tu-do-y-chi-post37265.html)
-		- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the underlying tendency/**attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
+		- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the dormant intent, the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
 		  id:: 66e80666-5f29-4419-8db1-bf8cdce893e4
-			- This anusayā-cetanā junction is the ((fa0b2bc6-05ac-418f-9a86-17635936a656)), the obop of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+			- This anusayā-cetanā is the ((fa0b2bc6-05ac-418f-9a86-17635936a656)), the obop of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 				- > Give, and it will be given to you.
 				  
 				  -- Luke 6:38
@@ -580,13 +632,13 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			  > + Mendicants, what you intend or plan, and what you have underlying tendencies toward, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
 			  > + Mendicants, if you don’t intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
 			  > + Mendicants, but if you don’t intend or plan, and don't have underlying tendencies toward anything, this doesn’t become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
-				- This sutta states that the karmic chain cannot be broken if "underlying tendencies" (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
+				- This sutta states that the karmic chain cannot be broken if “underlying tendencies” (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
 				- Numbered Discourses > 2. Tendencies > 7.12. [Underlying Tendencies (anusayā)](https://suttacentral.net/an7.12/en/sujato)
 				  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they’re called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
 				- These underlying tendencies are latent [kleśas](https://en.wikipedia.org/wiki/Kleshas_(Buddhism)), the most hidden ones.
 					- Vitikamo-kilesa: *Ngoại phiền não, phiền não vi phạm*: các loại phiền não đã bộc lộ ra ngoài bằng thân hay khẩu, thành những hành động phạm giới. Phiền não loại nầy được chế ngự do sự hành trì giới luật.
 					- Pariyutthana-kilesa: *Nội phiền não, phiền não ám ảnh*: các loại phiền não phát sanh trong tâm ngay lúc nhận biết cảnh, không biểu lộ ra ngoài, người nào có người đó biết, người khác không biết được, nhưng nếu với con mắt tinh tế cũng có thể biết được. Phiền não loại nầy được khắc phục do thiền định, dùng tâm thiền để chế ngự chúng.
-					- Anusaya-kilesa: *Tàng phiền não, phiền não ngủ ngầm*: loại phiền não ngủ ngầm nơi tâm, không ai biết được do sự ô nhiễm nhiều đời, nhiều kiếp. Phiền não loại nầy được tiêu diệt bằng tuệ giác, nghĩa là trí tuệ phát sanh ở Đạo tâm siêu thế, khi chứng đắc các tầng thánh Tu Đà Hoàn, Tư Đà Hàm, A Na Hàm, A La Hán.
+					- __Anusaya-kilesa: *Tàng phiền não, phiền não ngủ ngầm*__: loại phiền não ngủ ngầm nơi tâm, không ai biết được do sự ô nhiễm nhiều đời, nhiều kiếp. Phiền não loại nầy được tiêu diệt bằng tuệ giác, nghĩa là trí tuệ phát sanh ở Đạo tâm siêu thế, khi chứng đắc các tầng thánh Tu Đà Hoàn, Tư Đà Hàm, A Na Hàm, A La Hán.
 				- [KINH CETANA SUTTA: CHỚ DỰNG LẬP Ý NIỆM](https://thuvienhoasen.org/a24172/kinh-cetana-sutta-cho-dung-lap-y-niem)
 		- Nuances about "intention"
 		  collapsed:: true
@@ -948,7 +1000,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- That plot was added to Wikipedia page of Pascal's triangle at [17:07, 11 March 2011](https://en.wikipedia.org/w/index.php?title=Pascal%27s_triangle&oldid=418321493)‎, but then removed and replaced with the [animation](https://en.wikipedia.org/wiki/Pascal%27s_triangle#/media/File:Pascal's_Triangle_animated_binary_rows.gif).
 				  collapsed:: true
 					- ![Pascal-Triangle-animated-binary-rows.gif](../assets/geometry/Pascal-Triangle-animated-binary-rows.gif)
-		- DOING 3 ways to extend dimensions: volume, radius, phase
+		- 3 ways to extend dimensions: volume, radius, phase
 		  id:: 6716110c-1b10-41cc-9e26-c76ef782b6a3
 		  :LOGBOOK:
 		  CLOCK: [2024-08-12 Mon 08:35:03]
@@ -1865,6 +1917,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  id:: 66600918-bbc8-4d92-8d46-dbda3eed92f0
 	  collapsed:: true
 		- form + partial content = intent + extent = full content (Ω)
+		  id:: 684f951b-4049-482f-859a-7afb05cce124
 		- id, key := value
 		  collapsed:: true
 			- id : type { type = {id : `*`} }
