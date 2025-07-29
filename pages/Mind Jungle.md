@@ -3462,7 +3462,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :LOGBOOK:
 					  CLOCK: [2025-07-29 Tue 08:46:13]
 					  :END:
-						-
+						- The greed and aversion are directly balanced out with ((68871d20-c27b-4b0d-8342-b8af093e5849)).
+						- Delusion is caused by the ignorance about the hidden boss which is the intent(s) underlying and covering the whole self-circle.
+							-
 					- From **heading** toward with hierarchical intents, to **turning** around with [equal intents](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
 					  id:: 68882160-10b9-4bd2-998e-28efa9b215d6
 					  collapsed:: true
@@ -3860,7 +3862,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Use **breathworks** – ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) & ((68773fad-d653-4536-87b5-d4b493753b41)) – to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
 					- Anti-delusion with conscious absorption
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
-						- **Observe** & ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents instead of looking at the external objects & target.
+						- **Observe** & ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents, instead of looking at the external objects & target.
 							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma and influences of the external world.
 							- The delusion will be transformed to wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)) by the change of the internal reality (intent equalization), instead of the actions to change the external reality.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
