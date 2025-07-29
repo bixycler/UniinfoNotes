@@ -733,7 +733,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-03-21 Fri 08:25:58]
 		  :END:
-			- The first experience of drowning via cough reflex was [my lung inflammation this time last year](((67b541d0-e82f-422b-9c0d-f7924abce981))): From the mild cough last week of March (last days of HTV in SFC 5th floor), to severe cough at home from March 30 to April 4, then .
+			- The first experience of drowning via cough reflex was [my lung inflammation this time last year](((67b541d0-e82f-422b-9c0d-f7924abce981)))
+				- From the mild cough in the last week of March 2024 (the last days of my lab in SFC 5th floor),
+				- to severe cough at home from March 30 to April 4 (the first days of lab in Đồng Nhân building),
+				- then successful cough management in the next week with “drowning death” experience.
 			- Last midnight, 13 March, i started to get a sore throat.
 			  id:: 67d421d7-0df5-46f4-8f5a-07926551b701
 			  :LOGBOOK:
