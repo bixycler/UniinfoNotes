@@ -4517,7 +4517,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Even before ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((66536578-c4d3-43f1-b35c-bf71120f0570)) had used the word “inten**s**ion” as the general term including both semantical “inten**s**ion” and volitional “inten**t**ion”.
 						- From his University time, he had contemplated a lot about the 2 duals of intension/extension and form/content.
 					- When Will contemplated the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in 2020, he revived the [archaic word “intent”](((686cef15-5eab-44f1-b8d7-3d8a9edcfa69))) to capture the general meaning of both semantical “inten**s**ion” and volitional “inten**t**ion”. The word “intent” was chosen instead of “intension” in order to be parallel with the other 2 compoents: content–intent–extent.
-						- Actually, at first he thought that the term “intent” with general meaning was his own coinage,... only to learn later that it was an archaic connotation.
+						- Actually, at first he thought that the term “intent” with general meaning was his own coinage... only to learn later that it was an archaic connotation.
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
