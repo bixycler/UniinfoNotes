@@ -328,7 +328,52 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- “v” /v/ → /ʋ/ → /bj/ → /βj/ → /j/
 				- [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) is between /v/ and /w/
 					- ((6809ac03-30d3-4ba7-8b9b-17e13732f9dd))
-		- The translation by $\vec{v} = (dx:dy:0)$ in homogeneous coordinates is actually a **rotation** due to its [*scale invariance*](((67e1004d-1533-483b-ab39-4b91ffbedbdd))) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$].
+		- About [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates)
+		  id:: 67dcf2d3-4020-4477-b375-9bbb8c0b1336
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-03-19 Wed 09:46:39]
+		  :END:
+			- The homogeneous coordinates is created from the Cartesian coordinates, as the screen of projection, using the basic technique of projective geometry: “step back to look forward at the screen” or “fly up to look down at the screen”.
+			  id:: 67ee59c4-14c1-4184-ac8e-ba0b3569cacf
+			- Scale invariance: thanks to ratios $(x:y:z)$, instead of absolute values $(x,y,z)$, the homogeneous coordinates are unchanged throughout all z-scaled planes: $(x:y:z) = (x/z : y/z : 1)⋅z$.
+			  id:: 67e1004d-1533-483b-ab39-4b91ffbedbdd
+			- Point $P = (x_0 : y_0 : 1) = (x_0, y_0)$ [on Euclidean plane $z = 1$] $= P_z = (x_0⋅z : y_0⋅z : z)$ [for z-scaled Euclidean plane $z≠0$] $= (x_0 : y_0 : 1)⋅z =$ line $(x_0, y_0)⋅t$ [in 3D]
+				- The scaler $z$ is the “**depth**” of the object, which is the **distance** from the object plane to the viewpoint, and is the height of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
+				- An object at $(x,y,z)$ in 3D space is projected onto the “screen” of Euclidean plane as an image at $(x/z:y/z:1)$.
+				- The image of P on a z-scaled plane is $P_z = (x_0⋅z : y_0⋅z : z)$
+			- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅P$ with ((67dd6cb0-7522-427c-b714-5dd53a678b8d)) and any point $P$ on Euclidean plane $z = 1$
+				- Vector = “depthless” point = absolute point (point on the absolute plane $z = 0$) = point on the horizon = 
+				  [point at infinity](((67dd6f28-2497-4a11-bd16-afd31f24eaa4))) (vanishing point)
+					- The absolute plane $z = 0$ corresponds to the **horizon**, or the Cayley absolute, which is the **limit circle**, the null plane, the light cone.
+				- Its magnitude (length) is defined at the standard plane $z =1$, and is scaled accordingly in other z-scaled planes, i.e., on plane $z≠0,\; \vec{v}_z = (dx:dy:0)⋅z = \overrightarrow{(dx⋅z,\, dy⋅z)}$.
+			- Translation $T = I + D  ⇒  T⋅P = I⋅P+D⋅P = P + \vec{v}$
+			  collapsed:: true
+				- Identity matrix $I$
+				  $$ I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 &  0 \\ 0 & 0 & 1 \end{pmatrix} $$
+				- Displacement matrix $D$
+				  id:: 67dd6cb0-7522-427c-b714-5dd53a678b8d
+				  $$ D = \begin{pmatrix} 0 & 0 & dx \\ 0 & 0 &  dy \\ 0 & 0 &  0 \end{pmatrix} $$
+			- Line $l = (x_0+dx⋅t : y_0+dy⋅t : 1) = (x_0+dx⋅t,\; y_0+dy⋅t)$ [on Euclidean plane $z = 1$] $=$ plane [in 3D]
+			- Point at infinity = limit point of line $l$ = $\lim_{t→∞}(x_0+dx⋅t : y_0+dy⋅t : 1) = \lim_{t→∞}(x_0/t+dx : y_0/t+dy : 1/t) = (dx:dy:0) =$ vector $\vec{v}$
+			  id:: 67dd6f28-2497-4a11-bd16-afd31f24eaa4
+			  :LOGBOOK:
+			  CLOCK: [2025-03-21 Fri 20:58:44]
+			  :END:
+				- Translation: All points in space are shifted parallelly in direction $\vec{v}$ via vector $\vec{v}⋅t$ along lines parallel to $l$.
+				- Limit: When they are shifted to infinity with $t→∞$, they all converge to the point $(dx:dy:0)$. This is how all parallel lines “converge” to the point at infinity.
+				- I.e., point at infinity is just the direction vector $\vec{v}$ of the line $l$, as well as all other lines parallel to $l$.
+			- ((67e0fb13-1c89-4f27-825e-02027f368fa2))
+			- Refs:
+				- Chats with Grok 3
+					- [Homogeneous Coordinates: Points vs Vectors](https://grok.com/chat/0be0eda4-8509-4752-8443-2c61f9a0e300) ([published](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d))
+					- [Projective rotations](https://grok.com/chat/baa501bc-baed-4968-9dcc-84f8b3c23b9b)
+				- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
+				  :LOGBOOK:
+				  CLOCK: [2025-03-21 Fri 20:09:27]
+				  :END:
+				- Wikipedia: [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates)
+		- The translation by $\vec{v} = (dx:dy:0)$ in [homogeneous coordinates](((67dcf2d3-4020-4477-b375-9bbb8c0b1336))) is actually a **rotation** due to its [*scale invariance*](((67e1004d-1533-483b-ab39-4b91ffbedbdd))) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$].
 		  id:: 67e0fb13-1c89-4f27-825e-02027f368fa2
 		  collapsed:: true
 		  :LOGBOOK:
