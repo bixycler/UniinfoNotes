@@ -733,6 +733,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-03-21 Fri 08:25:58]
 		  :END:
+			- The first experience of drowning via cough reflex was [my lung inflammation this time last year](((67b541d0-e82f-422b-9c0d-f7924abce981))).
 			- Last midnight, 13 March, i started to get a sore throat.
 			  id:: 67d421d7-0df5-46f4-8f5a-07926551b701
 			  :LOGBOOK:
