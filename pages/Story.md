@@ -3033,13 +3033,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  /etc/apt/apt.conf.d/10periodic:APT::Periodic::Unattended-Upgrade "0";
 							  /etc/apt/apt.conf.d/20auto-upgrades:APT::Periodic::Unattended-Upgrade "0";
 							  ```
-	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
-	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- DOING Try to execute the [plan to share time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
+		- Try to execute the [plan to share time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
 		  id:: 686b390a-7953-4069-9c04-17c7f9a777a7
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-07-07 Mon 10:04:48]
+		  CLOCK: [2025-07-07 Mon 10:04:48]--[2025-07-29 Tue 20:33:30] =>  538:28:42
 		  :END:
 			- July 7th, let's start!
 			  collapsed:: true
@@ -3366,10 +3364,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
 			  collapsed:: true
 				- Wow, i must use longer terms “viewing direction” & “light ray direction”, because the shading men have reverted both [“view direction”](((68876434-f1f3-4dda-975f-496594ef762e))) and [“light direction”](((6887625c-db24-4ecf-a154-3aedb390afd3))) for their own convenience (in the viewpoint of the shaded object)!
-			- DOING 29th, wrap this story up, on the occasion of my project at company has started!
+			- 29th, wrap this story up, on the occasion of my project at company has started hard!
 			  collapsed:: true
 			  :LOGBOOK:
-			  CLOCK: [2025-07-29 Tue 20:27:01]
+			  CLOCK: [2025-07-29 Tue 20:27:01]--[2025-07-29 Tue 20:33:18] =>  00:06:17
 			  :END:
-				-
+				- Although the [plan](((68663850-daa5-487e-ba48-fea228a2b188))) has not been applied well, the practical methods for intent management have been developed quite well.
+				- So, let's wrap it up for the new month coming.
+	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
+	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...
