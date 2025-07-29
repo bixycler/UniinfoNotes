@@ -3442,6 +3442,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  collapsed:: true
 			- ### equalize
 			  id:: 68871ce1-eb57-4be3-ad48-45af6ccb5d49
+			  collapsed:: true
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68871d20-c27b-4b0d-8342-b8af093e5849))
 				- detach–attach
 				  id:: 68871d20-c27b-4b0d-8342-b8af093e5849
@@ -3449,28 +3450,31 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In equanimity of meditation, with zero current self-circle, observing the field of dormant intents, use the “inner hands” to *detach the attachments/likes, and attach the detachments/dislikes*, all to the _equal distance of “**one arm's length**”_. When all intents are equalized, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is effectively placed at the **center** of the karmic ((669a5387-2a97-4311-a295-aa0afd9c4d76)) (from the past, not the current self-circle). From the empty center, the obop freely handles intents on the circumference via [transverse movements around view circle](((68882160-10b9-4bd2-998e-28efa9b215d6))), instead of longitudinal motions along view cone.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- ((68871d20-c27b-4b0d-8342-b8af093e5849)) should be combined with ((68773fad-d653-4536-87b5-d4b493753b41)) in the breathing cycle: breathe in accept, attach dislikes, breathe out release, detach likes.
-						- Antidote ((6839229d-9eff-49e4-9480-6e2db6f61127)) with [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))).
-						  id:: 6888276c-d9cc-4843-8f4f-0b3de82fc9d1
-						  :LOGBOOK:
-						  CLOCK: [2025-07-29 Tue 08:46:13]
-						  :END:
-							-
-						- From **heading** toward with hierarchical intents, to **turning** around with [equal intents](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
-						  id:: 68882160-10b9-4bd2-998e-28efa9b215d6
-						  collapsed:: true
-							- from view cone to view circle
-							- pan around and zoom when needed, instead of constantly zoom in and turn when needed.
-							- From radial scaling to transverse translation: ((684f951a-c14f-47f5-ac07-0cabb58cf089))
-								- ((684f951a-4c9b-45c1-80b0-dc10d12a2dbb))
-								- ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
-								- ((67fe23f7-3afe-4e77-be1d-fa8a15416bc3))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The core technique of the ((665379b7-e4f6-4240-8029-fd143e2230c7)) is to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) all intents. This is the balance way to stranform the karma.
 				- Prerequisites for equalization
 					- 1. The bodymind must be [purified & calmed down](((684f9517-f8fc-45a3-80c9-25eca00e4eda))) by ethics, meditation and the help of ((67445065-15b2-475e-a704-78f140d487af)) & ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) techniques.
 					- 2. The bodymind must be brought to equanimity by [letting go](((669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d))) everything.
 					- 3. The current self-circle must be reduced to zero, leaving only the past self-circle containing karmic intents which must be [subtilized](((66aded27-9701-4b6e-85e8-22049ddbe2d2))) to bite-size before brought to equalization.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- Antidote ((6839229d-9eff-49e4-9480-6e2db6f61127)) with [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))).
+					  id:: 6888276c-d9cc-4843-8f4f-0b3de82fc9d1
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-07-29 Tue 08:46:13]
+					  :END:
+						-
+					- From **heading** toward with hierarchical intents, to **turning** around with [equal intents](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
+					  id:: 68882160-10b9-4bd2-998e-28efa9b215d6
+					  collapsed:: true
+						- from view cone to view circle
+						- pan around and zoom when needed, instead of constantly zoom in and turn when needed.
+						- From radial scaling to transverse translation: ((684f951a-c14f-47f5-ac07-0cabb58cf089))
+							- ((684f951a-4c9b-45c1-80b0-dc10d12a2dbb))
+							- ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
+							- ((67fe23f7-3afe-4e77-be1d-fa8a15416bc3))
 			- ### let-go
 			  id:: 669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d
+			  collapsed:: true
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) buông xả, ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), ((68773fad-d653-4536-87b5-d4b493753b41))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) This is the main technique to achieve ((669a3da2-1e6c-48bd-950f-af1ea1ceda25)).
 				- relax–reduce
@@ -3492,6 +3496,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Không tham đắm! Hay mấy rồi cũng qua, không tham đắm!
 			- ### reset
 			  id:: 67445065-15b2-475e-a704-78f140d487af
+			  collapsed:: true
 			  unload the intent structure
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Instead of ~~[aiming at the destination](((684f9517-db29-4079-8674-09e0ffaff6ba)))~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_ Start from resetting the [attitude](((684f9517-33c3-4a20-9fd1-936d9cc98fee))), then ((674c11d4-894a-46d1-b653-5e8148773d7a)), with continous ((684f9517-48e7-46ae-943d-8744cdd07564)) which is supported by ((67cff615-ec0d-4831-9851-59410cb89cf1)).
 				- Reset button
@@ -3742,6 +3747,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  a (Tibetan Zen) proverb
 			- ### sublime–channel
 			  id:: 668f5490-c223-4a8a-9cc4-0bd71af4c097
+			  collapsed:: true
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) thăng hoa - dẫn lưu
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, use breathwork to dissolve, to _sublimate_ the hard ((669a5387-2a97-4311-a295-aa0afd9c4d76)) into a fluid (qi, khí, 氣), then use qigong (氣功) & [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))) to transform & _channel_ the fluid to the required target form. The process should repeat until we reach [equilibrium](((669a58b9-2104-4d4c-b68f-7a45e2adb915))).
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
@@ -3761,6 +3767,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
 			- ### subtilize
 			  id:: 66aded27-9701-4b6e-85e8-22049ddbe2d2
+			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2024-08-17 Sat 19:09:56]
 			  CLOCK: [2025-03-11 Tue 15:35:24]--[2025-03-11 Tue 15:51:15] =>  00:15:51
