@@ -4512,6 +4512,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- In common usage, there are “laten/dormant intent” with slightly different meanings.
 						- In technical and legal context, [laten intent](https://lsd.law/define/latent-intent) is the intention hidden under the surface, of formal text or expression.
 						- In legal context, [dormant intent](https://lsd.law/define/dormant-legislative-intent) is the intention obscured by ambiguity or inconsistency of the text which the lawmakers were unaware of.
+				- History:
+					- Long before ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((66536578-c4d3-43f1-b35c-bf71120f0570)) had used the word “inten**s**ion” as the general term including both semantical “inten**s**ion” and volitional “inten**t**ion”.
+					- When Will
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
