@@ -3446,9 +3446,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- detach–attach
 				  id:: 68871d20-c27b-4b0d-8342-b8af093e5849
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68871ce1-eb57-4be3-ad48-45af6ccb5d49))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In equanimity of meditation, with zero current self-circle, observing the field of dormant intents, use the “inner hands” to *detach the attachments/likes, and attach the detachments/dislikes*, all to the _equal distance of “**one arm's length**”_. When all intents are equalized, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is effectively placed at the **center** of the past (karmic) ((669a5387-2a97-4311-a295-aa0afd9c4d76)). From the empty center, the obop freely handles intents on the circumference in a transverse
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In equanimity of meditation, with zero current self-circle, observing the field of dormant intents, use the “inner hands” to *detach the attachments/likes, and attach the detachments/dislikes*, all to the _equal distance of “**one arm's length**”_. When all intents are equalized, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is effectively placed at the **center** of the past (karmic) ((669a5387-2a97-4311-a295-aa0afd9c4d76)). From the empty center, the obop freely handles intents on the circumference via transverse movements, instead of longitudinal motions.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- ((68871d20-c27b-4b0d-8342-b8af093e5849)) should be combined with ((68773fad-d653-4536-87b5-d4b493753b41)) in the breathing cycle: breathe in accept, attach dislikes, breathe out release, detach likes.
+						- Antidote ((6839229d-9eff-49e4-9480-6e2db6f61127)) with [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))).
+						  id:: 6888276c-d9cc-4843-8f4f-0b3de82fc9d1
+						  :LOGBOOK:
+						  CLOCK: [2025-07-29 Tue 08:46:13]
+						  :END:
+							-
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The core technique of the ((665379b7-e4f6-4240-8029-fd143e2230c7)) is to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) all intents. This is the balance way to stranform the karma.
 				- Prerequisites for equalization
 					- 1. The bodymind must be [purified & calmed down](((684f9517-f8fc-45a3-80c9-25eca00e4eda))) by ethics, meditation and the help of ((67445065-15b2-475e-a704-78f140d487af)) & ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) techniques.
@@ -3818,6 +3824,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- khi lên cao trào là sân: khi năng lượng đã tích tụ đầy trong người, nhất là người nam, thì bị thôi thúc phải cho nó bùng nổ ra (lên đỉnh). Ai bị ngắt ngang ở đoạn này thì sẽ bị tức tối bực bội, bứt rứt đứng ngồi không yên do quá dương, bất kể nam nữ. Nam thì thường bị sân rõ hơn thành nóng giận, còn nữ thường nhẹ hơn thành bứt rứt trong người.
 							- sau cực khoái là si: khi 2 bên xáp lại cực độ để bùng nổ xong thì âm dương hòa hợp, thỏa mãn, đầy đủ, không thiếu (tham) không thừa (sân)... nhưng cũng không thấy đường (si), nên ôm cái khoái cảm đó vào lòng bó chặt nó trong tâm mà ngủ.
 							- Lúc ngủ này thì si thể hiện bản chất vô minh (ngu si), ta sướng là được rồi không cần quan tâm gì nữa hết, lăn ra ngủ. Nhưng sau đó, lúc thức dậy mở mắt ra để thấy biết thì si thể hiện ra ở chỗ "si mê": do mình đã ôm cái sướng đó cài sâu nó vào trong vô thức (lúc ngủ), nên giờ mình chấp nó một cách nặng nề, mọi thứ mình làm đều chỉ để tìm lại cái sướng đó mà không biết.
+					- ((6888276c-d9cc-4843-8f4f-0b3de82fc9d1))
 			- ### 3 antidotes
 			  id:: 68392a1f-6685-4d0f-9de8-4ae42964e249
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68392b40-7afb-4c60-af0a-07abfbcea926)), 3 thuốc giải, 3 gốc thiện lành
