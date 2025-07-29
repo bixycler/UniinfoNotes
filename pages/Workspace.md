@@ -58,14 +58,17 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- (commit title)
+				- Equalize intents & works; Mind chips from Telegram; Reword “Discussion” → “Commentarities”
 				-
-				- ((6835b165-b560-4358-9e46-c4511124c928))
-				- ((68366fff-92cf-41a7-ab2d-0c1f77d0effb))
-				- ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
-				- ((68392a13-c350-4962-bd37-b819c8e1f931)) with updated ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) (intent [equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))), ((68773fad-d653-4536-87b5-d4b493753b41)), ...)
-				- ((685b4935-53a9-4057-8ea6-956fc2d60ef5))
-				- ((686b390a-7953-4069-9c04-17c7f9a777a7))
+				- Stories & practices
+					- ((68366fff-92cf-41a7-ab2d-0c1f77d0effb))
+					- ((686b390a-7953-4069-9c04-17c7f9a777a7))
+					- ((68392a13-c350-4962-bd37-b819c8e1f931)) with updated ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) (intent [equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))), ((68773fad-d653-4536-87b5-d4b493753b41)), ...)
+				- UniinfoNotes
+					- ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
+					- ((685b4935-53a9-4057-8ea6-956fc2d60ef5))
+				- Unïnfo
+					- ((6835b165-b560-4358-9e46-c4511124c928))
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ...

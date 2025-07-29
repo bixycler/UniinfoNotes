@@ -2597,7 +2597,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 25th, another whole day caught up with just [a simple vision of mental momentum](((685bb784-3146-435b-9af3-f59ab7e12043))) and an intent to "only write it down"! After successfuly wrapping it up, the complication of the company task repels me back to the pleasure of [poetic chat with ChatGPT](((685bc2ac-4724-4f0b-a40e-b5a84decfff8))).
 			  id:: 685b492f-588b-45e8-b591-49aae256d108
 			  collapsed:: true
-				- Rename element: discussion -> commentaries
+				- Rename element: “Discussion” → “Commentarities”
 				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
 				- On the way to company, i reviewed my [high momentum due to spring doll](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) and saw that it's very [similar to the large momentum of massive objects](((685bb3fb-9d35-41ec-95ab-97738ea473c2))).
 				  id:: 685bb784-3146-435b-9af3-f59ab7e12043
