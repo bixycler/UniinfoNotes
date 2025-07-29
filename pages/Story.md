@@ -3219,14 +3219,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- equal 1: content + form = sustent = total content = constant
 						- => change content = change form, from external forms in the world, accumulating to intents via knowledge cone
 						- => layers of intents (sustents) spiral down to the center point via SCIFER
-			- 22nd, SCIFER Reps: SCIFER helix, SCIFER spirorus
+			- 22nd, SCIFER Reps: torus tessellation plane, SCIFER helix, SCIFER spirorus
 			  collapsed:: true
 				- [SCIFER Reps](https://www.geogebra.org/m/qy9xkevh) applet: interunion of 2 circles, diagonal line $y=x$ in the torus tessellation plane, SCIFER helix, SCIFER spirorus
 					- torus tessellation plane: We [lift](https://en.wikipedia.org/wiki/Lifting_property) the torus form of the SCIFER spirorus to its [tessellation plane](https://en.wikipedia.org/wiki/Tessellation#In_mathematics), where its [fundamental rectangle](https://en.wikipedia.org/wiki/Fundamental_domain) tiles the plane in a grid pattern.
 						- This tessellation visually represents the universal [covering space](https://en.wikipedia.org/wiki/Covering_space) of the torus, with each tile mapping down to the torus via the covering projection.
 					- SCIFER helix is for the clear view of S-C-I-F-E-R(phase) components, and the view of interunion in intent lense.
 					- SCIFER spirorus is for the view of interunion in content lense.
-			- 23rd, ...
+			- 23rd, add my sites to Google Search Console
 			  collapsed:: true
 				- ((6880a9a5-b5d3-4542-b378-31cf40ea8476))
 				- I've just discovered that my [CreatZy Notes](https://creatzynotes.blogspot.com/) blog does not appear in Google Search anymore. The only result appear in Google Search as well as in other search tools by used chatbots is the very old post: [Spirorus, the structure of spacetime ;)](https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html)
@@ -3238,6 +3238,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- After a manual submit, it's shown with `Couldn't fetch` status!? 🤔
 					- https://creatzynotes.blogspot.com/robots.txt
 					  id:: 6880bfb6-37bd-4d5a-aa65-a366b19fed81
+					  collapsed:: true
 						- ```
 						  User-agent: Mediapartners-Google
 						  Disallow: 
@@ -3251,6 +3252,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ```
 					- https://creatzynotes.blogspot.com/sitemap.xml
 					  id:: 6880c5ca-c0e4-485c-ae5f-ef323dacd5df
+					  collapsed:: true
 						- ```xml
 						  <?xml version='1.0' encoding='UTF-8'?>
 						  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -3269,6 +3271,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ...
 						  </urlset>
 						  ```
+					- Reported reason of not indexed
+						- [Crawled - currently not indexed](https://support.google.com/webmasters/answer/7440203#crawled): some pages are crawled but none are indexed.
+						- [Page with redirect](https://support.google.com/webmasters/answer/7440203#page_with_redirect):
 				- Adding other sites ([Unïnfo](https://bixycler.github.io/Uniinfo/), [Kinh Pháp Cú (Dhammapada)](https://bixycler.github.io/PhapCu-Dhammapada/)) to Google Search Console, they are all reported "security issue" 😮🤔 which have been resolved by appeals.
 				  collapsed:: true
 					- Security issue: Deceptive pages (phishing?!)
