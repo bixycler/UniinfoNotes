@@ -122,7 +122,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
 		- TODO [!] Làm lại thẻ VCB
-		-
+		- TODO Update [CT scans of Bell Lê](((684f951d-8174-4c48-90e9-7f14566b8697))).
 		- ...
 	- ## Future Tasks
 	  id:: 67763106-205f-4e01-affc-a68e1d8e53a9

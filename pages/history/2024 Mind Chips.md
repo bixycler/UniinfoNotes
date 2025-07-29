@@ -137,7 +137,7 @@
 				- Siêu thức > ý thức > vô thức: Ohso's "superconsciousness", New Age's higher consciousness (higher self), Freud's super-ego, Universe, God > consciousness (conscious self), Freud's ego, human > unconsciousness (basic self), Freud's id, machine
 			- Tương lai: tư tưởng, suy tưởng, suy đoán, tiên tri
 	- 2024-05-05
-		- Bell's lung liquefaction (necrosis) CT: [http://qrpacs.bvndgiadinh.org.vn/m.QR?token=NemTEws5Zx9L4aGzHXshWQ](http://qrpacs.bvndgiadinh.org.vn/m.QR?token=NemTEws5Zx9L4aGzHXshWQ)
+		- Will's clean lung CT: [http://qrpacs.bvndgiadinh.org.vn/m.QR?token=NemTEws5Zx9L4aGzHXshWQ](http://qrpacs.bvndgiadinh.org.vn/m.QR?token=NemTEws5Zx9L4aGzHXshWQ)
 	- 2024-05-06
 		- [https://masothue.com/0314709083-cong-ty-tnhh-hybrid-technologies-viet-nam](https://masothue.com/0314709083-cong-ty-tnhh-hybrid-technologies-viet-nam)
 	- 2024-05-07
