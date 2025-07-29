@@ -3088,7 +3088,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  CLOCK: [2025-07-09 Wed 18:54:29]--[2025-07-09 Wed 20:52:04] =>  01:57:35
 				  :END:
 					- Cleaning it costed me full 2 hours! 😬
-			- 10th, ...
+			- 10th, brainstorms about
 			  collapsed:: true
 				- atenna = direction = intent of vector = vacant form attracting & directing content
 					- magnitude = extent of vector
