@@ -1,1 +1,1 @@
-{:server/host "127.0.0.1", :server/port 12315, :server/autostart true, :git/commit-on-close? true, :git/auto-commit-seconds 600, :git/disable-auto-commit? false, :spell-check false}
+{:server/host "127.0.0.1", :server/port "12315", :server/autostart true, :git/commit-on-close? true, :git/auto-commit-seconds 600, :git/disable-auto-commit? false, :spell-check false}
