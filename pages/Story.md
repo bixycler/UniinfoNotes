@@ -3274,6 +3274,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Reported reason for being not indexed
 						- [Crawled - currently not indexed](https://support.google.com/webmasters/answer/7440203#crawled): some pages are crawled but none are indexed.
 						- [Page with redirect](https://support.google.com/webmasters/answer/7440203#page_with_redirect): `https://creatzynotes.blogspot.com` is a non-canonical URL that redirects to another page 🤔?! Where's it redirected to?
+							- With `Test Live URL` (follows redirects and then tests the final URL) in `URL Inspection`, the target URL (not shown) is shown as indexed! 😮
 						- [Alternate page with proper canonical tag](https://support.google.com/webmasters/answer/7440203#duplicate_page_with_proper_canonical_tag): These pages are mobile version (`?m=1`) of a desktop [canonical](https://support.google.com/webmasters/answer/139066).
 				- Adding other sites ([Unïnfo](https://bixycler.github.io/Uniinfo/), [Kinh Pháp Cú (Dhammapada)](https://bixycler.github.io/PhapCu-Dhammapada/)) to Google Search Console, they are all reported "security issue" 😮🤔 which have been resolved by appeals.
 				  collapsed:: true
