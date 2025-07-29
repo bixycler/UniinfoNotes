@@ -3470,7 +3470,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- From **heading** forward with hierarchical intents, to **turning** around with [equal intents](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
 					  id:: 68882160-10b9-4bd2-998e-28efa9b215d6
 					  collapsed:: true
-						- from view cone to view circle
+						- from view cone & [intent sequence](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), to view circle & intent circle
 						- pan around and zoom when needed, instead of constantly zoom in and turn when needed.
 						- From radial scaling to transverse translation: ((684f951a-c14f-47f5-ac07-0cabb58cf089))
 							- ((684f951a-4c9b-45c1-80b0-dc10d12a2dbb))
