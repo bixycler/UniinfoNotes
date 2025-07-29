@@ -51,7 +51,7 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 						  ![cylinder-directions.png](../assets/physics/cylinder-directions.png)
 					- Because the arc length is usually denoted by $L$, here $l$ is used to denote the arc itself. In this sense, $\hat{l}$ denotes the direction along the arc, hence “longitudinal” like [longitudinal wave](https://en.wikipedia.org/wiki/Longitudinal_wave). Don't confuse this “longitudinal” direction with wood's longitudinal direction along its axis.
 					- The term “transverse” is to the “radial” direction of the (light/view) rays emanating from the pole, not to the “tangetial/longitudinal” direction of the arc. This “transverse” is similar to the [“transversals” in perspective drawing](((673ab08d-2389-4306-a7ee-6970e17018c6))).
-					- In SCIFER mechanism, the (radial, transverse) directions are also the (spatial, temporal) directions, so the transverse component $τ$ is alsot the time $t$.
+					- In SCIFER mechanism, the (radial, transverse) directions are also the (spatial, temporal) directions, so the transverse component $τ$ is also the time $t$.
 			- wrapped object plane
 			  id:: 675f8a74-7fef-4e88-a65e-856f5e494bb8
 			  a.k.a. polar plane

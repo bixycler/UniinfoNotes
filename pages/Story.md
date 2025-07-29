@@ -868,6 +868,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- Notes:
 										- Don't confuse the Cartesian grid $(u+iv)$ with the [“parabolic grid”](https://en.wikipedia.org/wiki/Parabolic_coordinates) $(u+iv)^2$.
 										- The [“radial hyperbolic coordinates”](https://en.wikipedia.org/wiki/Hyperbolic_coordinates) is different from the “orthogonal hyperbolic coordinates” above in that the “vertical lines” are radial lines $x/y = e^{2r}$, instead of hyperbolas $(x^2 - y^2)^2 = r^4$. This grid with radials is not orthogonal and is used in relativity physics.
+										  id:: 684f951a-cb78-405b-b763-e9e7edfd5414
 										- It's interesting that as late as 2015, there was still a paper to “present and construct a new kind of orthogonal coordinate system, hyperbolic coordinate system”: [Hyperbolic-symmetry vector fields](https://www.researchgate.net/publication/286403709_Hyperbolic-symmetry_vector_fields).
 							- The conic rotations are special cases of the Lie group [SL(2,ℝ)](https://en.wikipedia.org/wiki/SL2(R)).
 							  collapsed:: true

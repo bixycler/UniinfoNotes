@@ -3446,7 +3446,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- detach–attach
 				  id:: 68871d20-c27b-4b0d-8342-b8af093e5849
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68871ce1-eb57-4be3-ad48-45af6ccb5d49))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In equanimity of meditation, with zero current self-circle, observing the field of dormant intents, use the “inner hands” to *detach the attachments/likes, and attach the detachments/dislikes*, all to the _equal distance of “**one arm's length**”_. When all intents are equalized, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is effectively placed at the **center** of the past (karmic) ((669a5387-2a97-4311-a295-aa0afd9c4d76)). From the empty center, the obop freely handles intents on the circumference via transverse movements around view circle, instead of longitudinal motions along view cone.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In equanimity of meditation, with zero current self-circle, observing the field of dormant intents, use the “inner hands” to *detach the attachments/likes, and attach the detachments/dislikes*, all to the _equal distance of “**one arm's length**”_. When all intents are equalized, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is effectively placed at the **center** of the past (karmic) ((669a5387-2a97-4311-a295-aa0afd9c4d76)). From the empty center, the obop freely handles intents on the circumference via [transverse movements around view circle](((68882160-10b9-4bd2-998e-28efa9b215d6))), instead of longitudinal motions along view cone.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- ((68871d20-c27b-4b0d-8342-b8af093e5849)) should be combined with ((68773fad-d653-4536-87b5-d4b493753b41)) in the breathing cycle: breathe in accept, attach dislikes, breathe out release, detach likes.
 						- Antidote ((6839229d-9eff-49e4-9480-6e2db6f61127)) with [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))).
@@ -3456,6 +3456,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :END:
 							-
 						- From heading toward with hierarchical intents, to turning around with [equal intents](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
+						  id:: 68882160-10b9-4bd2-998e-28efa9b215d6
 							- from view cone to view circle
 							- pan around and zoom when needed, instead of constantly zoom in and turn when needed.
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The core technique of the ((665379b7-e4f6-4240-8029-fd143e2230c7)) is to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) all intents. This is the balance way to stranform the karma.
