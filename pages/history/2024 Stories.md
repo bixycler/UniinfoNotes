@@ -56,12 +56,11 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- Because she was to conscious, she didn't think that it was a severe cold.
 			- Throughout Sunday, she had temperature up and down. Then at that night, she reported me that she has used breathwork to cure all pains... except the one pain deep inside her lung is still incurable. So i told her to go to hospital next day.
 		- This Monday, July 29th, after image diagnosing, the doctor told us a bad news of ((66ab3ac5-3b81-4a63-bf9b-81118dc1b1c0)). That evening, the [CT scan result](http://qrpacs.bvndgiadinh.org.vn/m.QR/viewer.html) showed us the situation is complicated:
-		  collapsed:: true
+		  id:: 684f951d-8174-4c48-90e9-7f14566b8697
 			- a large part of [liquefactive necrosis](https://en.wikipedia.org/wiki/Liquefactive_necrosis) at the top right part of her lung
 			  id:: 66ab3ac5-3b81-4a63-bf9b-81118dc1b1c0
 			- a mild [pleural effusion](https://en.wikipedia.org/wiki/Pleural_effusion)
 			- 2 spots of [lung nodule](https://en.wikipedia.org/wiki/Lung_nodule)s
-			  collapsed:: true
 				- => observing for lung tumors
 		- This week, she's hospitalized to treat that lug abscess and monitoring the possible tumors.
 		- Today, August 3rd, with the actual scenes in the hospital, i reminded her about "meditation as training dying everyday".
