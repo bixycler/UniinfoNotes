@@ -1,5 +1,3 @@
-- equalized intents => round circle => transverse rotation instead of longitudinal zooming => free to change
-    - turning instead of heading: pan around and zoom when needed, instead of constantly zoom in and turn when needed.
 ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
