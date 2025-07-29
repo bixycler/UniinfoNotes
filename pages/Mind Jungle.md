@@ -3760,7 +3760,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				  collapsed:: true
 					- I discovered sublimation first (from [the start of February 2024](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice).
-					- Practicing sublimation without proper transformation & channeling, i've been struck by a serious lung disease (pneumonia, from the end of Mars to April 2024).
+					- Practicing sublimation without proper transformation & channeling, i've been struck by a serious lung inflammation (pneumonia, from the end of Mars to April 2024).
 					  id:: 67b541d0-e82f-422b-9c0d-f7924abce981
 					  collapsed:: true
 						- ![Pneumonia_2024-04.jpg](../assets/Will/story/2024-04/Pneumonia_2024-04.jpg)
