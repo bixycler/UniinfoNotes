@@ -3759,7 +3759,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, use breathwork to dissolve, to _sublimate_ the hard ((669a5387-2a97-4311-a295-aa0afd9c4d76)) into a fluid (qi, khí, 氣), then use qigong (氣功) & [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))) to transform & _channel_ the fluid to the required target form. The process should repeat until we reach [equilibrium](((669a58b9-2104-4d4c-b68f-7a45e2adb915))).
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				  collapsed:: true
-					- I discovered sublimation first (from [the start of February](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice), but without proper transformation & channeling, i've been struck by a serious lung disease (pneumonia, from the end of Mars to April).
+					- I discovered sublimation first (from [the start of February 2024](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice).
+					- Practicing sublimation without proper transformation & channeling, i've been struck by a serious lung disease (pneumonia, from the end of Mars to April 2024).
 					  id:: 67b541d0-e82f-422b-9c0d-f7924abce981
 					  collapsed:: true
 						- ![Pneumonia_2024-04.jpg](../assets/Will/story/2024-04/Pneumonia_2024-04.jpg)
