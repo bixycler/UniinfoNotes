@@ -3462,7 +3462,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :LOGBOOK:
 					  CLOCK: [2025-07-29 Tue 08:46:13]
 					  :END:
-						- The greed and aversion are directly balanced out with ((68871d20-c27b-4b0d-8342-b8af093e5849)), while the delusion can only be gradually transformed as the .
+						- The greed and aversion are directly balanced out with ((68871d20-c27b-4b0d-8342-b8af093e5849)), while the delusion can only be gradually transformed following the emptying of the center which is the indirect & accumulative result of the detach–attach.
 						- Delusion is caused by the ignorance about the hidden boss which is the intent(s) underlying and covering the whole self-circle.
 							- Due to the large intent of the hidden boss, the obop can only see a very narrow view (small extent).
 							- When all intents are equalized, i.e. being placed on the circumference, no intent is left in the center to be boss.
