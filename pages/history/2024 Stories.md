@@ -56,12 +56,11 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			- Because she was to conscious, she didn't think that it was a severe cold.
 			- Throughout Sunday, she had temperature up and down. Then at that night, she reported me that she has used breathwork to cure all pains... except the one pain deep inside her lung is still incurable. So i told her to go to hospital next day.
 		- This Monday, July 29th, after image diagnosing, the doctor told us a bad news of ((66ab3ac5-3b81-4a63-bf9b-81118dc1b1c0)). That evening, the [CT scan result](http://qrpacs.bvndgiadinh.org.vn/m.QR/viewer.html) showed us the situation is complicated:
-		  collapsed:: true
+		  id:: 684f951d-8174-4c48-90e9-7f14566b8697
 			- a large part of [liquefactive necrosis](https://en.wikipedia.org/wiki/Liquefactive_necrosis) at the top right part of her lung
 			  id:: 66ab3ac5-3b81-4a63-bf9b-81118dc1b1c0
 			- a mild [pleural effusion](https://en.wikipedia.org/wiki/Pleural_effusion)
 			- 2 spots of [lung nodule](https://en.wikipedia.org/wiki/Lung_nodule)s
-			  collapsed:: true
 				- => observing for lung tumors
 		- This week, she's hospitalized to treat that lug abscess and monitoring the possible tumors.
 		- Today, August 3rd, with the actual scenes in the hospital, i reminded her about "meditation as training dying everyday".
@@ -103,6 +102,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  CLOCK: [2024-12-23 Mon 08:27:33]
 		  :END:
 	- Cha Định phá lệ kể về 3 đời Giới - Định - Tuệ
+	  id:: 684f951d-bd8b-4e7d-89e5-ae3b828b6209
 	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2024-08-12 Mon 08:30:32]
@@ -699,6 +699,13 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		- Last weekends, Dec 21-22, the first times i can [reset](((67445065-15b2-475e-a704-78f140d487af))) within a day, didn't wait for the next day. Before and after these resets, i was back into the deep ujjayi breathing.
 		  id:: 6768bf20-deec-41bf-ac18-adc753ebb15f
 			- The reset was still hard with the full process: [yawning](https://en.wikipedia.org/wiki/Yawn), [burping/belching](https://en.wikipedia.org/wiki/Burping), deep relaxation, then falling asleep for about half an hour down to the total blackout... On the way back, there were dreams about unfinished tasks.
+			- Comment on [fb post](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) on Dec 22nd.
+				- Vừa nãy là lần đầu mình reset được trong 1 ngày, không đợi tới ngày mai!
+				- Gần đây thì reset cuối ngày, lúc ngủ.
+				- Mấy tháng trước là reset cuối tuần.
+				- Mấy năm trước là reset mỗi tháng hoặc vài tháng, thường là đổ bệnh hoặc có sự cố đổ bể gì đó.
+				- Hồi trẻ thì reset sau khoảng vài năm đâm đầu.
+				- Mấy đời trước thì reset cuối đời (lúc chết).
 			- Shared with Tuấn DMT:
 			  collapsed:: true
 				- mỗi khi anh buông cái con người hiện tại ra để reset về 0 thì đi qua một loạt phản ứng y như trip thuốc.... rồi vô cảnh mơ, rồi lịm đi một khoảng thì nó mới reset được hết.
@@ -938,6 +945,7 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 			  Vì tâm là trụ của pháp, nên tâm muốn giải thoát thì ko thể trụ vào bất kỳ pháp nào bên ngoài mà chỉ có thể trụ vào chính mình, tức trụ vào tâm. Vì self-rely cũng có nghĩa là "rely on self" nên cái tâm self-reliance đó chính là "ngã" 😃 chỉ có điều cái "ngã 0" đó nó khác và đối lập với cái "ngã 1" thông thường của mọi người thôi.
 			- Lưu ý là chữ "pháp" này hơi đặc biệt, là một thuật ngữ chuyên dụng của nhà Phật để chỉ "mọi đối tượng của tâm", tức tất cả những gì mà mình thấy, biết, tin, cảm nhận, và nó khác với từ "pháp" với nghĩa thông thường là "luật pháp, phương pháp" như "Phật pháp" hay "mất Lễ mới tới Pháp" trong Đạo Đức Kinh.
 		- 23/9/2024 Thức và mắt bão ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) [Cái Thức thanh tịnh nơi Mắt bão](https://creatzynotes.blogspot.com/2024/09/cai-thuc-thanh-tinh-noi-mat-bao.html)
+		  id:: 681826b0-6116-418e-8aa1-188314a5eac6
 		  collapsed:: true
 			- "Mắt bão" được gọi là "mắt" không chỉ vì nó có hình dạng giống con mắt, mà nó thực sự là con mắt của ánh sáng trí tuệ và sự hoà hợp 😉 ➰♾️
 			  https://www.facebook.com/lexuandinhct/posts/pfbid0yz26RjtxS5M8QPLtA9x7qBJcFXQnH2JboGF1yAKNLVzCqX6KNhTNjgtNCEgUMxWwl
@@ -971,32 +979,36 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 	  CLOCK: [2024-10-14 Mon 20:38:56]--[2024-10-14 Mon 20:54:52] =>  00:15:56
 	  :END:
 		- **Essence**: This is not only the innermost and permanent nature of the Thing, but also the whole complex of "reflection" (light thrown into itself)... which is so complicated that Hegel himself said that it's [‘the most difficult branch of logic’](https://www.marxists.org/reference/archive/hegel/help/mean03.htm).
-		  [§ 112](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm#SL112n) [Shorter Logic]
-		  > ... there is a permanence in things, and that permanence is in **the first instance** their Essence.
-		  > That reflection, or light thrown into itself, constitutes the distinction between Essence and immediate Being, and is the peculiar characteristic of Essence itself.
+			- [§ 112](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm#SL112n) [Shorter Logic]
+			  > ... there is a permanence in things, and that permanence is in **the first instance** their Essence.
+			  > That reflection, or light thrown into itself, constitutes the distinction between Essence and immediate Being, and is the peculiar characteristic of Essence itself.
 		- **Form**: This is the "***determinateness***" of the Essence. It's not not an "addition to the Essence" but an emergence from the Essence via the "reflection of essence into essence itself".
-		  [§ 976](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_449a) [Greater Logic]
-		  > To say that _form determines essence_ means, therefore, that form, in its distinguishing, sublates this very distinguishing, and (form) is the self-identity which essence is as the subsistence of the determination; ...
-		- **Matter**: This is the part of Essence that can naturally be (relatively) "formless". A thing can be disintegrated into their component materials (matters). And 
-		  [§ 126](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm#SL126) [Shorter Logic]
-		  > this disintegration into independent matters is properly restricted to *inorganic nature only*
+			- [§ 976](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_449a) [Greater Logic]
+			  > To say that _form determines essence_ means, therefore, that form, in its distinguishing, sublates this very distinguishing, and (form) is the self-identity which essence is as the subsistence of the determination; ...
+		- **Matter**: This is the part of Essence that can naturally be (relatively) "formless". A thing can be disintegrated into their component materials (matters). And
+			- [§ 126](https://www.marxists.org/reference/archive/hegel/works/sl/slessenc.htm#SL126) [Shorter Logic]
+			  > this disintegration into independent matters is properly restricted to *inorganic nature only*
 		- **Content**: This is the totality of relations and potentialities of the Thing, which includes Form, Matter, Essence and their complicated relations as well as relations to others via Appearance (External Form).
 		  id:: 670d1f75-b9a6-490a-9759-9f09189167b7
-		  [§ 133](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL133) [Shorter Logic]
-		  > Outside one another as the phenomena in this phenomenal world are, they form a totality, and are wholly contained in their self-relatedness. In this way **the self-relation of the phenomenon** is completely specified, it has the Form in itself... So it comes about that the form is **Content**: and in its phase is the Law of the Phenomenon.
-		  When the form, on the contrary, is not reflected into self, it is equivalent to the negative of the phenomenon, to the non-independent and changeable: and that sort of form is the indifferent or _External Form_.
-		  > There is thus a doubling of form. At one time it is reflected into itself; and then is identical with the **content**. At another time it is not reflected into itself, and then it is external existence (_external form_), which does not at all affect the content.
-		  
-		  [§ 135](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL135) [Shorter Logic]
-		  > The content is the whole, and consists of the parts (the form), its counterpart.
+			- [§ 133](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL133) [Shorter Logic]
+			  > Outside one another as the phenomena in this phenomenal world are, they form a totality, and are wholly contained in their self-relatedness. In this way **the self-relation of the phenomenon** is completely specified, it has the Form in itself... So it comes about that the form is **Content**: and in its phase is the Law of the Phenomenon.
+			  When the form, on the contrary, is not reflected into self, it is equivalent to the negative of the phenomenon, to the non-independent and changeable: and that sort of form is the indifferent or _External Form_.
+			  > There is thus a doubling of form. At one time it is reflected into itself; and then is identical with the **content**. At another time it is not reflected into itself, and then it is external existence (_external form_), which does not at all affect the content.
+			- [§ 135](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL135) [Shorter Logic]
+			  > The content is the whole, and consists of the parts (the form), its counterpart.
 		- **Appearance**: This is the dialectic of Form and Content, the relation between them. Appearance is the outward development of the _mere_ Being by adding relations to the Being.
 		  id:: 67123b17-b024-414a-a5dd-ba05965eefe7
-		  [§ 131](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL131n) [Shorter Logic]
-		  > But appearance (forth-showing) is not to be confused with a mere show (shining). Show is the proximate truth of Being or [immediacy](https://www.marxists.org/reference/archive/hegel/help/glossary.htm#immediate). ...
-		  > Appearance is higher than mere Being — a richer category because it holds in combination the two elements of reflection-into-self and reflection-into-other: whereas Being (or immediacy) is still mere relationlessness, and apparently rests upon itself alone. Still, to say that anything is *only an appearance* suggests a real flaw, which consists in this, that Appearance is still divided against itself and without intrinsic stability.
-		  
-		  [§ 134](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL134) [Shorter Logic]
-		  > When thus explicitly stated, _the phenomenon is **relativity** or **correlation**_...
+			- [§ 131](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL131n) [Shorter Logic]
+			  > But appearance (forth-showing) is not to be confused with a mere show (shining). Show is the proximate truth of Being or [immediacy](https://www.marxists.org/reference/archive/hegel/help/glossary.htm#immediate). ...
+			  > Appearance is higher than mere Being — a richer category because it holds in combination the two elements of reflection-into-self and reflection-into-other: whereas Being (or immediacy) is still mere relationlessness, and apparently rests upon itself alone. Still, to say that anything is *only an appearance* suggests a real flaw, which consists in this, that Appearance is still divided against itself and without intrinsic stability.
+			- [§ 134](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL134) [Shorter Logic]
+			  > When thus explicitly stated, _the phenomenon is **relativity** or **correlation**_...
+		- **World** of appearances (phenomenal world): This is the totality of all things where they are connected by relations called [Appearances](((67123b17-b024-414a-a5dd-ba05965eefe7))). This common totality is the foundation for individual totalities of each thing called [Content](((670d1f75-b9a6-490a-9759-9f09189167b7))).
+		  id:: 6854de2b-d5f3-4cb7-9b77-e5b3f2230acd
+			- [§ 132](https://www.marxists.org/reference/archive/hegel/works/sl/slappear.htm#SL132) [Shorter Logic] > Essense > Appearance > The World of Appearances
+			  id:: 684f9518-5468-48fe-8afe-5469c3d18975
+			  > ... the phenomenon accordingly _goes on to an **endless mediation**_ of subsistence _by means of **form**_, and thus equally by non-subsistence.
+			  > This endless intermediation is at the same time a unity of self-relation; and existence is developed into a **totality**, into a *world of phenomena* — of reflected finitude.
 		- Hegel summarized them like this: [§ 989](https://www.marxists.org/reference/archive/hegel/works/hl/hl444.htm#HL2_455) [Greater Logic]
 			- > At first, **form** stands opposed to **essence**; it is then the simple ground relation, and its determinations are the ground and the grounded.
 			- > Secondly, it stands opposed to **matter**; it is then determining reflection, and its determinations are the reflected determination itself and the subsistence of the determination.

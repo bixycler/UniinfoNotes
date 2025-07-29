@@ -286,7 +286,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				- There's a strong force sucking me deep into these tasks...
 				- ⇒ ((6772a6c7-f434-4911-9fa2-939b8db20c42))
 				- ⇒ I'm overcoming it by stop-breathe-relax-redirect, then mark `TODO` for this task: ((67ad537f-9a22-4079-b8d1-352b4c567278))
-				- But still... i've been sucked into ((67adb58e-6bf4-43ba-b574-58b112cc3874)) from 9:00 until now 18:21 = 9.5 hours, just because i **didn't think it complicated**!!!
+				- But still... i've been sucked into Add ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) to Linux from 9:00 until now 18:21 = 9.5 hours, just because i **didn't think it complicated**!!!
 				  :LOGBOOK:
 				  CLOCK: [2025-02-13 Thu 18:18:12]
 				  CLOCK: [2025-02-13 Thu 18:20:46]
@@ -522,12 +522,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  ```
 				- Reason: Due to my habit of leaving office last, i forget punching out most of the time i leave early.
 			- Sometimes, the [microsetting alarms](((67d10c06-3fe3-4691-95c0-84278a2dc713))) fire a lot while i was absent 
+			  id:: 6835b162-09f7-4153-97a3-633f8a5c0980
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-04-09 Wed 09:02:17]
 			  :END:
 			  ⇒ Should kill them all then.
-				- ```sh
+				- id:: 6835b162-b38e-43e5-a4cf-0ec54bb69328
+				  ```sh
 				  killall -9 -vr 'microreset.sh|zenity'
 				  ```
 				- or
@@ -620,22 +622,130 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  CLOCK: [2025-05-05 Mon 09:08:10]
 				  :END:
 			- ((6810ae1c-f995-4f93-9793-8bd422760249))
-	- ### May
-	  id:: 681838a1-d1d9-4ff3-bcec-38cb8c9a137f
-		- Let's wrap up the ((67f9100a-b749-4354-ae16-92dc74ff27da)).
-		  :LOGBOOK:
-		  CLOCK: [2025-05-05 Mon 11:49:20]
-		  :END:
-	- ## Braindumping < ((681838a1-d1d9-4ff3-bcec-38cb8c9a137f))
+		- ### May
+		  id:: 681838a1-d1d9-4ff3-bcec-38cb8c9a137f
+		  collapsed:: true
+			- Let's wrap up the ((67f9100a-b749-4354-ae16-92dc74ff27da)).
+			  id:: 6835b162-e7ff-4f11-9e25-83b8f1cdd37a
+			  :LOGBOOK:
+			  CLOCK: [2025-05-05 Mon 11:49:20]
+			  :END:
+			- Scrolling up my Saved Messages on Telegram, i see the notes about [NotebookLM podcasts](((681826ae-d97f-4801-985e-ce9ff423e4a0))) and about updates of [[Mind Jungle]] suggested from these podcasts.
+			  id:: 68196fef-50c2-475c-bcaa-6dce8b6db525
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-05-06 Tue 10:07:27]
+			  :END:
+				- DONE Update story because i forgot to store the [chosen podcast](((68197171-5191-413f-a3a7-67262aaeb64b))) into the story of NotebookLM.
+				  id:: 68197b16-44b5-4e19-b2bb-3965715a654b
+				  :LOGBOOK:
+				  CLOCK: [2025-05-06 Tue 10:07:27]--[2025-05-06 Tue 10:07:29] =>  00:00:02
+				  :END:
+				- DONE Updates for Mind Jungle
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-05-06 Tue 10:03:58]--[2025-05-06 Tue 20:08:37] =>  10:04:39
+				  :END:
+					- DONE Update procunciations of terms: obop, SCIFER, uninet
+					  :LOGBOOK:
+					  CLOCK: [2025-05-06 Tue 10:06:12]--[2025-05-06 Tue 10:06:15] =>  00:00:03
+					  :END:
+					- DONE [uninet may be mistaken with the omnifold](((681826ac-6cb1-40f9-8cd1-547b853936ed))), as a grand network of the whole Universe, due to its name. It's actually a universal network, but just a reflection of the omnifold on computer, not the whole. (This confusion appeared in one NotebookLM's audio overview)
+					  :LOGBOOK:
+					  CLOCK: [2025-05-06 Tue 10:09:57]--[2025-05-06 Tue 10:19:09] =>  00:09:12
+					  :END:
+						- Trinion (metaphysical) ~ Ω-thread (mathematical) ~ uninet (computer implementation)
+						- In the future, if there is a need for a theory of uninet, it may be called "Uninet Theory", but now we just have uninets as instances of the Trinion implemented on computer.
+					- DONE Trinion, obop and qualiton are easily confused with each other.
+					  id:: 68197c38-55ae-4c08-a272-a62ae7fa7473
+					  :LOGBOOK:
+					  CLOCK: [2025-05-06 Tue 10:19:22]--[2025-05-06 Tue 11:53:58] =>  01:34:36
+					  :END:
+						- DONE Obop being & qualiton being are, just like all beings, instances of the Trinion.
+						- DONE Obop corresponds to the Equal component of the Trinion, and operates the Trinion using the CIE equation.
+						- DONE Qualiton is to quantum in Unithread as intent is to extent in the CIE formula. It's the "elementary particle" of intent/quality, hence the "smallest" instances of the Trinion.
+						  :LOGBOOK:
+						  CLOCK: [2025-05-06 Tue 11:53:48]--[2025-05-06 Tue 11:53:50] =>  00:00:02
+						  :END:
+						- DONE In brief, Trinion -[Equal]-> obop -[intent]-> qualiton
+						- DONE Furthermore, the qualiton in uninet is called "autonoton".
+						  :LOGBOOK:
+						  CLOCK: [2025-05-06 Tue 11:38:13]--[2025-05-06 Tue 11:38:19] =>  00:00:06
+						  :END:
+					- DONE **Unïnfo** can also capture the vague notion that "*everything is information*", which is _not a formal statement_ but can be sensed throughout the Unïnfo Theory.
+					  :LOGBOOK:
+					  CLOCK: [2025-05-06 Tue 11:54:34]--[2025-05-06 Tue 20:04:14] =>  08:09:40
+					  :END:
+						- DONE That vague notion of the "universal information" is actually the "universal substance underlying everything" formally modeled as the **Ω-thread**, which is again usually vaguely referred to as the "**Unithread**"! 😊
+							- Ω-thread contains not only information (extent) but also sustent.
+						- DONE Formally, both Unïnfo and Unithread are the names of **theories** whose 
+						  corresponding **concepts** are the Trinion and the Ω-thread.
+						- ⇒ Ported to these notes:
+							- ((6819f75f-1bab-4cc7-9316-228d14aa80d9))
+							- ((6819fb74-f8fc-4608-a75d-7fbe76d3af27))
+						- DONE Updated [description of Ω-thread](((681826ac-5a8d-4240-95fd-183e03b9ef66))) to cover these points:
+							- The whole Ω-thread is an instance of the Trinion, hence a concrete thing, i.e. a "being", but its partial chunks (segments called simply "threads") can represent anything, including the abstract concepts.
+							- Each Ω-thread runs through the whole Ω (Omnifold = Universe) in a particular way corresponding to a particular configuration/view of the Universe from a particular view point.
+			- These 2 days after 30-4 & 1-5 holidays have been used up for cleaning stuff... still no time to [note about the holidays](((6835b167-cf4f-4238-80a8-7f6a45db874d)))... while the company works are calling up. 😕
+			  id:: 6835b162-0349-4e59-b4ff-2a8771885cea
+			  :LOGBOOK:
+			  CLOCK: [2025-05-06 Tue 20:15:36]
+			  :END:
+			- [mental map](https://en.wikipedia.org/wiki/Mental_mapping) -[emotional warp]-> mental landscape (field) -[attention]> ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) (7th May)
+			  id:: 6835b162-7219-4c02-b1b5-12c5e5ed1dde
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-05-07 Wed 14:56:11]
+			  :END:
+				- Mental map covers [concept map](https://en.wikipedia.org/wiki/Concept_map), [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_graph) in the knowledge cone.
+				- "Mental landscape" is closer to the perceptual screen, more dynamic than the relatively static wordview, more emotional than the structural (flat) "mental map".
+				- Libet's [Conscious Mental Field](http://www.scholarpedia.org/article/Field_theories_of_consciousness#Libet.E2.80.99s_field_theory_of_consciousness)
+			- ((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))
+			  id:: 6835b162-8516-4318-9435-551b82db6e5a
+			  :LOGBOOK:
+			  CLOCK: [2025-05-07 Wed 17:42:22]
+			  :END:
+				- ((681b4678-686a-4d99-9163-6f60e0b30d2c))
+			- Last weekends, 23-25 May, i spent all time for ((6830645a-93b9-4c90-929f-8740f40c2b15))
+			  :LOGBOOK:
+			  CLOCK: [2025-05-26 Mon 20:12:45]
+			  :END:
+			- Today, 27th, i've just recognized that ((68352d58-f697-4b62-a748-3756dac163f7))
+			  :LOGBOOK:
+			  CLOCK: [2025-05-27 Tue 10:12:24]
+			  :END:
+			- Just another block id mess-up (27 May): ((6835c18c-c045-4faa-be6b-b7b44ec6256a))
+			  :LOGBOOK:
+			  CLOCK: [2025-05-27 Tue 20:56:42]
+			  :END:
+			- This morning, 28 May, just another time wake up late due to last night stay up late. On the way to company, i see... ((68366fff-92cf-41a7-ab2d-0c1f77d0effb))
+			  :LOGBOOK:
+			  CLOCK: [2025-05-28 Wed 10:28:22]
+			  :END:
+		- ### June
+		  id:: 683d5508-34cd-477f-b0f6-3102155863bb
+		  collapsed:: true
+			- Nowadays, the trend to use plural nouns as modifiers increases... 😮 i'm outdated! (2nd June)
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-06-02 Mon 14:35:18]
+			  CLOCK: [2025-06-02 Mon 14:36:04]--[2025-06-02 Mon 14:44:35] =>  00:08:31
+			  :END:
+				- Seeing the translation "要件リスト" = "requirements list", i asked why not "requirement list".
+				- From 13:45 to 14:45, talking with Grok, searching the Web, reading English StackExchange, finally i see how outdated i am.
+				- Wikipedia > Noun adjunct > [Singular vs plural](https://en.wikipedia.org/wiki/Noun_adjunct#Singular_vs_plural):
+				  > Noun adjuncts were **traditionally mostly singular** (e.g. "trouser press") except when there were lexical restrictions (e.g. "arms race"), but there is a **recent trend towards more use of plural ones** (e.g. "sales department", "jobs program", "systems analyst"). Many of these can also be or were originally interpreted and spelled as plural [possessives](https://en.wikipedia.org/wiki/Possessive) (e.g. "chemicals' agency", "writers' conference", "Rangers' hockey game"), but they are now often written without the apostrophe, although decisions on when to do so require editorial judgment.
+			- I've just ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
+			  :LOGBOOK:
+			  CLOCK: [2025-06-02 Mon 20:14:17]
+			  :END:
+			- This whole month has been dumped to the thread of story: ((68366fff-92cf-41a7-ab2d-0c1f77d0effb))
+		- ### July
+		  id:: 68662950-3ada-42ea-928d-9700209e1501
+		  collapsed:: true
+			- This whole month has been noted in the story: ((686b390a-7953-4069-9c04-17c7f9a777a7))
+	- ### August
+	  id:: 6888ce20-f91a-4664-9ae6-e80598e88841
+	- ## Braindumping < ((6888ce20-f91a-4664-9ae6-e80598e88841))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		- Let's port contents of [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831))) to section ((67ed28ed-9acb-4458-be90-c11bebec7f0f)) the in the Mind Jungle.
-		  id:: 67ed227c-0277-427a-a47f-2b8d01356b5f
-		  :LOGBOOK:
-		  CLOCK: [2025-04-02 Wed 19:09:35]
-		  :END:
-		- Let's note about the [relativity to the subject's view](((67d10ab3-018d-4c04-8d19-096eae010723))), as discussed with Grok-3.
-		  id:: 67cfe00c-7750-417c-9a4d-b16e81c32fc7
-		  :LOGBOOK:
-		  CLOCK: [2025-03-12 Wed 11:24:25]
-		  :END:
 		- ...

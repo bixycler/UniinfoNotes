@@ -62,13 +62,16 @@ const domto = window.modernScreenshot;
 //////////////////////////////////////////
 /////// DOMs
 
+// Only getElementById() for removable ones
+const content = document.getElementById("content");
+const mdrender = document.getElementById("mdrender");
+const mdhtml = document.getElementById("mdhtml");
+const mdpdf = document.getElementById("mdpdf");
+const mdimg = document.getElementById("mdimg");
+
 /*/ getElementById() is redundant!
 const control = document.getElementById("control");
 const mdf = document.getElementById("mdf");
-const mdrender = document.getElementById("mdrender");
-const mdrender = document.getElementById("mdrender");
-const mdpdf = document.getElementById("mdpdf");
-const mdimg = document.getElementById("mdimg");
 const renderChoice = document.getElementById("renderChoice");
 const doNormalizeMarkdown = document.getElementById("doNormalizeMarkdown");
 const optAsMdHtml = document.getElementById("optAsMdHtml");
@@ -193,15 +196,15 @@ async function load(forced) {
     updateURL(exportUrlMdRender, b);
   }
 
-  mdrender.style.display = 'none';
-  mdhtml.style.display = 'none';
-  mdpdf.style.display = 'none';
-  mdimg.style.display = 'none';
+  try { content.removeChild(mdrender); } catch (error) {}
+  try { content.removeChild(mdhtml); } catch (error) {}
+  try { content.removeChild(mdpdf); } catch (error) {}
+  try { content.removeChild(mdimg); } catch (error) {}
   if(renderChoice.value=='mdrender'){
-    mdrender.style.display = 'block';
+    content.appendChild(mdrender);
     exportUrl = exportUrlMdRender;
   }else if(renderChoice.value=='html'){
-    mdhtml.style.display = 'block';
+    content.appendChild(mdhtml);
     exportUrl = exportUrlHtml;
     // render md -> HTML
     mdtxt.value = mdHtmlNorm.normalize(md);
@@ -241,12 +244,11 @@ async function load(forced) {
     let b = new Blob([mdhtml.innerHTML, markdown_style.outerHTML, FolderDivJS.outerHTML], {type: 'text/html'});
     updateURL(exportUrlHtml, b);
   }else if(renderChoice.value=='pdf'){
-    mdpdf.style.display = 'block';
+    content.appendChild(mdpdf);
     exportUrl = exportUrlPdf;
     if(!mdpdf.src || pdfmdihtml != mdihtml){
       console.log('PDF loading...');
       message.show('PDF loading...');
-      mdpdf.style.display = 'block';
       let b = await pdf.toPdf(mdrender.innerHTML + markdown_style.outerHTML);
       if(b){ pdfblob = b;
         updateURL(exportUrlPdf, pdfblob);

@@ -169,13 +169,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- ![zen-O-even-longer-monologue.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-O-even-longer-monologue.jpg)
 								- ![zen-Q-full-page-of-monologue.jpg](../assets/Will/story/2025-01/Gemini-chat/zen-Q-full-page-of-monologue.jpg)
 				- With breathing techniques, i should train to go up and down the abyss, to smoothly switch between circles of different curvatures.
-				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the most basic operation in Unithread
+				- The key is “[trans](https://en.wiktionary.org/wiki/trans-)” = “across, on/to the other side, beyond” ~ “traversal” = the [most basic operation](((67a98760-71fa-4033-9c42-f3025d632d04))) in Unithread
 				  id:: 67849429-a90c-45a9-a6ae-dcdd61f7580f
 					- Etymology: “[traverse](https://en.wiktionary.org/wiki/traverse)” ← Latin “[traversare](https://en.wiktionary.org/wiki/traversare)” was the [vulgar version of “trānsversāre”](https://www.etymonline.com/search?q=traverse) ← “[trānsversus](https://en.wiktionary.org/wiki/transversus)” → “[transverse](https://en.wiktionary.org/wiki/transverse)”
 					  id:: 678b72d3-073a-4763-a49f-5233a3d86614
 					- “through” = “thông qua” [通過], “xuyên qua” (penetrate)
+					  id:: 684f951a-ee4f-4765-b2d9-58ff04b84979
 						- “throughness” = “tòng” [鬆] or “phóng tòng” [放鬆] is the most important property in qigong, just like a [through horse](https://en.wikipedia.org/wiki/Throughness).
-						- “throughness” = “thông” [通] or “hanh thông” [亨通] is the ultimate goal state of **change** [變易] in the [Book of Changes (Kinh Dịch [易經])](https://en.wikipedia.org/wiki/I_Ching).
+						- [“throughness”](https://en.wiktionary.org/wiki/throughness) = “thông” [通] or “hanh thông” [亨通] is the ultimate goal state of **change** [變易] in the [Book of Changes (Kinh Dịch [易經])](https://en.wikipedia.org/wiki/I_Ching).
 						  collapsed:: true
 							- [易's meaning](https://baike.baidu.com/item/%E7%A9%B7%E5%88%99%E5%8F%98%EF%BC%8C%E5%8F%98%E5%88%99%E9%80%9A%EF%BC%8C%E9%80%9A%E5%88%99%E4%B9%85/6154981) in Part 2 of the Great Appendix of the Book of Changes, i.e. 《周易·系辞》下, ⟪ [Chu Dịch](https://vi.wikipedia.org/wiki/Chu_D%E1%BB%8Bch) > [Hệ Từ](https://nhantu.net/DichHoc/HAKINH/HTT_Ch01.htm) > Hạ Truyện > [Chương 2](https://nhantu.net/DichHoc/HAKINH/HTH_Ch02.htm) > Tiết 5 ⟫
 							  > [易]窮則變，變則通，通則久。
@@ -202,6 +203,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- 一理通，萬裡徹 (nhất lý thông, vạn lý triệt)
 					- “cross” = “vượt qua” [[越過](https://en.wiktionary.org/wiki/%E8%B6%8A%E9%81%8E)]: cross over, [surpass](https://en.wiktionary.org/wiki/surpass), go beyond, [transcend](https://en.wiktionary.org/wiki/transcend)
 						- [fb post](https://www.facebook.com/share/p/1HF14K3nYa/) about “pāragate” in the [Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Mantra)
+						  id:: 6835b167-048c-499b-bede-8baff58e6e8e
 						  collapsed:: true
 						  > ﻿गते गते पारगते पारसंगते बोधि स्वाहा
 						  > Gate gate pāragate pārasaṃgate bodhi svāhā
@@ -338,15 +340,26 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  id:: 67a72a32-c67d-440b-95d1-8ddeb0bb7ac3
 				- Around the Lunar new year, Chinese AI chatbots have been released, esp. ((67a6068e-65d3-44c2-8f1c-b4d532046638)) R1, shocking the US AI vendors with open sources, nearly 10 times cheaper in both training and operation.
 				- On this occasion, i've known of ((67a5faeb-c506-42b8-b989-9a7179fe02b3)).
-					- ((67a5faeb-c506-42b8-b989-9a7179fe02b3)) can understand my [[Mind Jungle]] well! 😊
+				  id:: 681826ae-d97f-4801-985e-ce9ff423e4a0
+					- ((67a5faeb-c506-42b8-b989-9a7179fe02b3)) can understand my [[Mind Jungle]] well! 😊 However, it still fabricates about 30% of the content.
 					  id:: 67a73250-60f2-485c-b9d1-fc43ad993282
 					- However, the chat history is not saved, hence useless for my researches. It's only good for **summarization**.
 					  id:: 67a73295-e7ff-445f-831f-df6e79d750dc
+					- After lots of podcasts generated, i've selected this one as a nice memory of this occasion.
+					  id:: 68197171-5191-413f-a3a7-67262aaeb64b
+					  collapsed:: true
+						- [UniinfoNotes DeepDive Podcast (2025-02-02)](https://youtu.be/FuhvgdXi-FI)
+						  collapsed:: true
+							- {{video https://youtu.be/FuhvgdXi-FI}}
+						- Original audio: ![Unïnfo Notes full - overview 2025-02-02.wav](../assets/Will/story/2025-02/Unïnfo Notes full - overview 2025-02-02.wav)
+						- Transcript extracted from the audio: [Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt](../assets/Will/story/2025-02/Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt)
+							- Transcript joined for displaying on video: [Unïnfo Notes Full - Overview 2025-02-02 (en-US) joined.srt](../assets/Will/story/2025-02/Unïnfo Notes Full - Overview 2025-02-02 (en-US) joined.srt)
 				- I've tried some ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
 				- Currently, ((67a71016-4588-4b2f-8c56-90701528d94d)) is most appropriate for my researches.
 				  id:: 67a71016-d530-4b48-bfcc-495d72b0bf86
 			- The conflict between Mr. Báu's and monks in Minh Tuệ's group
 			  id:: 67a5faa3-c64c-48f7-8b3f-a5311714110f
+			  collapsed:: true
 				- Với nghiệp công an, làm tiến sỹ tâm lý học tội phạm, anh Báu đã quản lý đoàn một cách chặt chẽ, ban đầu (đoạn đường Lào) khá nghiêm khắc với nhiều nỗi lo sợ.
 				- Khi sang Thái Lan thì anh Báu đã mềm mỏng và thoải mái hơn nhiều, nhưng các sư (cả thầy Minh Tuệ) thì vẫn có nhiều thành kiến với anh.
 				- Đỉnh điểm là trước Tết với các sự kiện căng thẳng giữa anh Báu với sư Minh Tạng và vài sư nữa.
@@ -720,6 +733,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-03-21 Fri 08:25:58]
 		  :END:
+			- The first experience of drowning via cough reflex was [my lung inflammation this time last year](((67b541d0-e82f-422b-9c0d-f7924abce981)))
+				- From the mild cough in the last week of March 2024 (the last days of my lab in SFC 5th floor),
+				- to severe cough at home from March 30 to April 4 (the first days of lab in Đồng Nhân building),
+				- then successful cough management in the next week with “drowning death” experience.
 			- Last midnight, 13 March, i started to get a sore throat.
 			  id:: 67d421d7-0df5-46f4-8f5a-07926551b701
 			  :LOGBOOK:
@@ -772,152 +789,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Going to bed, i found the mental switch to turn the [cough reflex](https://en.wikipedia.org/wiki/Cough_reflex) off: while still facing the cough, zoom out and hold on other stuffs to pull the mind out of the cough.
 				- After 4 hours, i woke up and returned to bed with the same technique... and contemplated the [equivalence of 2 aspects of the zero](((67dcec86-db94-47b0-8687-ab2aa95d7c8a))) before falling asleep.
 			- Wednesday, i was shown how badly my [theorist karma](((669a58b9-422a-40d9-adcf-b2aade86c170))) affect my health.
+			  id:: 684f951a-86ea-40dd-836e-68a2ef353fb6
 				- This early morning, i saw the equivalence of 2 aspects of the zero: 
 				  id:: 67dcec86-db94-47b0-8687-ab2aa95d7c8a
 				  Zero = center = balance = cancellation = concentration = abstraction = point (cone) projection
 					- obop = ε =[projection]= 1/ω =[cancellation]= ω - ω
 					- Wider the world 🌎 ω, there are more opposites to be cancelled, leaving less things to see as ε, nearer to the center, the average.
 					- To return to the center, we must zoom out, back up/off, retreat, refrain, to let the opposites within the objects cancel themselves, instead of going forward to control them, and let the form of the objects recede themselves.
-				- From afternoon to midnight, i researched various themes in which the most prominent one is [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) at last.
-				  id:: 67dcf2d3-4020-4477-b375-9bbb8c0b1336
-				  collapsed:: true
-					- The homogeneous coordinates is created from the Cartesian coordinates, as the screen of projection, using the basic technique of projective geometry: “step back to look forward at the screen” or “fly up to look down at the screen”.
-					  id:: 67ee59c4-14c1-4184-ac8e-ba0b3569cacf
-					- Scale invariance: thanks to ratios $(x:y:z)$, instead of absolute values $(x,y,z)$, the homogeneous coordinates are unchanged throughout all z-scaled planes: $(x:y:z) = (x/z : y/z : 1)⋅z$.
-					  id:: 67e1004d-1533-483b-ab39-4b91ffbedbdd
-					- Point $P = (x_0 : y_0 : 1) = (x_0, y_0)$ [on Euclidean plane $z = 1$] $= P_z = (x_0⋅z : y_0⋅z : z)$ [for z-scaled Euclidean plane $z≠0$] $= (x_0 : y_0 : 1)⋅z =$ line $(x_0, y_0)⋅t$ [in 3D]
-						- The scaler $z$ is the “**depth**” of the object, which is the **distance** from the object plane to the viewpoint, and is the height of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)).
-						- An object at $(x,y,z)$ in 3D space is projected onto the “screen” of Euclidean plane as an image at $(x/z:y/z:1)$.
-						- The image of P on a z-scaled plane is $P_z = (x_0⋅z : y_0⋅z : z)$
-					- Vector $\vec{v} = (dx:dy:0) = \overrightarrow{(dx,dy)}$ [on Euclidean plane $z = 1$] $= D⋅P$ with ((67dd6cb0-7522-427c-b714-5dd53a678b8d)) and any point $P$ on Euclidean plane $z = 1$
-						- Vector = “depthless” point = absolute point (point on the absolute plane $z = 0$) = point on the horizon = 
-						  [point at infinity](((67dd6f28-2497-4a11-bd16-afd31f24eaa4))) (vanishing point)
-							- The absolute plane $z = 0$ corresponds to the **horizon**, or the Cayley absolute, which is the **limit circle**, the null plane, the light cone.
-						- Its magnitude (length) is defined at the standard plane $z =1$, and is scaled accordingly in other z-scaled planes, i.e., on plane $z≠0,\; \vec{v}_z = (dx:dy:0)⋅z = \overrightarrow{(dx⋅z,\, dy⋅z)}$.
-					- Translation $T = I + D  ⇒  T⋅P = I⋅P+D⋅P = P + \vec{v}$
-					  collapsed:: true
-						- Identity matrix $I$
-						  $$ I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 &  0 \\ 0 & 0 & 1 \end{pmatrix} $$
-						- Displacement matrix $D$
-						  id:: 67dd6cb0-7522-427c-b714-5dd53a678b8d
-						  $$ D = \begin{pmatrix} 0 & 0 & dx \\ 0 & 0 &  dy \\ 0 & 0 &  0 \end{pmatrix} $$
-					- Line $l = (x_0+dx⋅t : y_0+dy⋅t : 1) = (x_0+dx⋅t,\; y_0+dy⋅t)$ [on Euclidean plane $z = 1$] $=$ plane [in 3D]
-					- Point at infinity = limit point of line $l$ = $\lim_{t→∞}(x_0+dx⋅t : y_0+dy⋅t : 1) = \lim_{t→∞}(x_0/t+dx : y_0/t+dy : 1/t) = (dx:dy:0) =$ vector $\vec{v}$
-					  id:: 67dd6f28-2497-4a11-bd16-afd31f24eaa4
-					  :LOGBOOK:
-					  CLOCK: [2025-03-21 Fri 20:58:44]
-					  :END:
-						- Translation: All points in space are shifted parallelly in direction $\vec{v}$ via vector $\vec{v}⋅t$ along lines parallel to $l$.
-						- Limit: When they are shifted to infinity with $t→∞$, they all converge to the point $(dx:dy:0)$. This is how all parallel lines “converge” to the point at infinity.
-						- I.e., point at infinity is just the direction vector $\vec{v}$ of the line $l$, as well as all other lines parallel to $l$.
-					- The translation by $\vec{v} = (dx:dy:0)$ is actually a **rotation** due to its [*scale invariance*](((67e1004d-1533-483b-ab39-4b91ffbedbdd))) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$].
-					  id:: 67e0fb13-1c89-4f27-825e-02027f368fa2
-					  :LOGBOOK:
-					  CLOCK: [2025-03-24 Mon 13:59:25]--[2025-03-31 Mon 18:40:44] =>  172:41:19
-					  :END:
-						- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping)): ((67b541c9-dbe4-4b0f-a2a8-810805bbfce8))
-						- circular θ > parabolic φ > hyperbolic ψ
-						  id:: 67e29bdb-9bce-4cb8-b993-79aa130a1831
-							- The circular rotation is on the ((675f8a74-7fef-4e88-a65e-856f5e494bb8)), the parabolic rotation is on the ((675f8af0-7b21-4483-908c-25ce0cec02cc)), and the hyperbolic rotation is on the squeezed unwrapped circumference plane.
-							- Parabolic rotation = [shear](https://en.wikipedia.org/wiki/Shear_mapping), with **parabolic angle = shear factor** $s = \tan(φ)$
-							  $(x, y) → (x, \; y + s⋅x)$
-								- φ is the (circular) angle between the radial (sheared) line and the horizontal line.
-							- Wrapping $s$ around the unit circle, we have the circular rotation with **circular angle** $θ = s \mod 2π = \tan(φ) \mod 2π$.
-							- The corresponding hyperbolic rotation can be constructed in 2 ways:
-							  id:: 67e2a0e0-a6d9-4ad8-a601-24289f44d383
-							  :LOGBOOK:
-							  CLOCK: [2025-03-25 Tue 20:47:33]--[2025-03-25 Tue 20:57:06] =>  00:09:33
-							  :END:
-								- **Area sync**: hyperbolic angle $ψ = s$
-									- The [hyperbolic angle](https://en.wikipedia.org/wiki/Hyperbolic_angle) $ψ$ is defined to be double the area of the corresponding hyperbolic sector.
-										- Actually, this definition is the same for all conic angles agains conic sectors.
-									- Hyperbolic rotation is a [squeeze](https://en.wikipedia.org/wiki/Squeeze_mapping) with **squeeze factor** $k = e^ψ$ which is the up-scale factor along $x = y$ and the down-scale factor along $x+y=0$.
-									- The corresponding (circular) angle $ψ_c$ between the radial (squeezed) line and the horizontal line: 
-									  $\tanh(ψ) = \tan(ψ_c)$
-								- **Edge sync**: Project the shear line up to the light cone $z = \sqrt{x^2 + y^2}$, then project to xOz plane, then reflect back to xOy plane, i.e., the sheared line is mirrored into the horizontal line:
-								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2}$
-									- This is the [“function mapping view”](((67e37475-13e3-4a9f-af60-7bec7517c108))) of the shear where the shear is considered a projective thread.
-							- Rotations as flows on conic grids
-								- On polar grid, the circular rotation moves objects along the “vertical” lines, i.e. concentric circles $x^2 + y^2 = r^2$.
-								  id:: 67e64337-65df-48fd-af37-3ee21245e154
-								- On Cartesian grid, the y-parabolic rotation moves objects along the vertical lines $x^2 = r^2$, and x-parabolic rotation along the horizontal lines $y^2 = r^2$.
-								- On hyperbolic grid, the standard hyperbolic rotation moves objects along the “vertical” lines $(x^2 - y^2)^2 = r^4$, and the standard squeeze mapping along the horizontal lines $(2xy)^2 = r^4$.
-								- These grids are the conic version of [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates) which are the most common cases of [curvilinear coordinates](https://en.wikipedia.org/wiki/Curvilinear_coordinates).
-								  collapsed:: true
-									- While the **shear** is *usually thought as unidirectional*, its **bidirectional** nature, i.e. rotating around the origin, is stressed with the pair of lines (a degenerate parabola) $x^2 = r^2$ instead of single lines $x = r$.
-									- Transforming the complex plane, we have similar grids (some with distortions):
-										- **Cartesian grid** $(u+iv)$ is the standard complex plane.
-										- **Polar grid** $\exp(\ln u+iv)$ has circles expanding uniformly against $u$.
-											- The [log-lin](https://en.wikipedia.org/wiki/Semi-log_plot#log%E2%80%93linear_plot) grid $(\ln u+iv)$ is useful for data with exponential relationships.
-											- [Log-polar grid](https://en.wikipedia.org/wiki/Log-polar_coordinates) $\exp(u+iv)$ has circles expanding exponentially against $u$, i.e., the coordinate $u$ is the logarithm of the radius of the corresponding circle on the grid.
-										- **Hyperbolic grid** $\sqrt{u^2+iv^2}$ has hyperbolas spacing uniformly against $u, v$.
-											- **Squared hyperbolic grid** $\sqrt{u+iv}$ has hyperbolas spacing in square roots of $u, v$, i.e., coordinates $u, v$ are squares of the distance from the corresponding hyperbola on the grid to the origin.
-									- Notes:
-										- Don't confuse the Cartesian grid $(u+iv)$ with the [“parabolic grid”](https://en.wikipedia.org/wiki/Parabolic_coordinates) $(u+iv)^2$.
-										- The [“radial hyperbolic coordinates”](https://en.wikipedia.org/wiki/Hyperbolic_coordinates) is different from the “orthogonal hyperbolic coordinates” above in that the “vertical lines” are radial lines $x/y = e^{2r}$, instead of hyperbolas $(x^2 - y^2)^2 = r^4$. This grid with radials is not orthogonal and is used in relativity physics.
-										- It's interesting that as late as 2015, there was still a paper to “present and construct a new kind of orthogonal coordinate system, hyperbolic coordinate system”: [Hyperbolic-symmetry vector fields](https://www.researchgate.net/publication/286403709_Hyperbolic-symmetry_vector_fields).
-							- The conic rotations are special cases of the Lie group [SL(2,ℝ)](https://en.wikipedia.org/wiki/SL2(R)).
-							  collapsed:: true
-								- All actions in this group are [classified](https://en.wikipedia.org/wiki/SL2(R)#Classification_of_elements) into elliptic, parabolic, and hyperbolic rotations (may be nonstandard: different axis, scaled).
-								- The flows are [Lie exponentiations](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) of generators:
-									- Elliptic: $G_c = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \; ; \; \exp(θG_c) = \begin{bmatrix} \cos θ & -\sin θ \\ \sin θ & \cos θ \end{bmatrix}$
-									- Parabolic: $G_{py} = \begin{bmatrix} 0 & 0 \\ 1 & 0 \end{bmatrix} \; ; \; \exp(sG_{py}) = \begin{bmatrix} 1 & 0 \\ s & 1 \end{bmatrix}$ (the same for $G_{px}$)
-									- Hyperbolic: 
-									  $G_h = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \; ; \; \exp(ψG_h) = \begin{bmatrix} \cosh ψ & \sinh ψ \\ \sinh ψ & \cosh ψ \end{bmatrix}$
-									  $G_a = \begin{bmatrix} a & 0 \\ 0 & 1/a \end{bmatrix} \; ; \; \exp(ψG_a) = \begin{bmatrix} e^ψ & 0 \\ 0 & e^{-ψ} \end{bmatrix}$
-						- In 2D, parabolic rotations can be used to compose both circular and hyperbolic rotations.
-						  id:: 67e238fb-771f-483d-a04a-badff7c7c70a
-							- 4 triples of parabolic rotations equivalent to circular and hyperbolic rotations:
-							  id:: 67e6168e-ff58-4d9d-94a7-6fee6f533044
-								- x-y-x triples
-									- $R(θ) = S_x(−\tan(θ/2))⋅S_y(\sin(θ))⋅S_x(−\tan(θ/2))$
-									- $H(ψ) = S_x(\tanh(ψ/2))⋅S_y(\sinh(ψ))⋅S_x(\tanh(ψ/2))$
-								- y-x-y triples
-									- $R(θ) = S_y(\tan(θ/2))⋅S_x(-\sin(θ))⋅S_y(\tan(θ/2))$
-									- $H(ψ) = S_y(\tanh(ψ/2))⋅S_x(\sinh(ψ))⋅S_y(\tanh(ψ/2))$
-								- These are so beautiful with symmetries! 😊
-									- **H = tanh ⋅ sinh ⋅ tanh** for both triples
-									- **R = (-/+)tan ⋅ (+/-)sin ⋅ (-/+)tan** for x-y-x / y-x-y
-								- Here $S_x(k_x), S_y(k_y)$ are X & Y shears with shear factors $k_x, k_y$ (parabolic angles), and $R(θ), H(ψ)$ are circular and hyperbolic rotations with angles $θ, ψ$.
-							- A circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations, or 2 parabolic rotations + squeeze.
-								- Video: [Rotation by shearing](https://youtu.be/tHekokkHmlM)
-								  collapsed:: true
-									- {{video https://youtu.be/tHekokkHmlM}}
-								- Video: [Rotation without rotating](https://youtu.be/1LCEiVDHJmc) for the good old low resolution Mario sprite.
-								  collapsed:: true
-									- {{video https://youtu.be/1LCEiVDHJmc}}
-						- GeoGebra applets
-						  id:: 67e299fa-4f76-482a-b586-adacb17dc064
-							- [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt)
-							- [ConicRotations](https://www.geogebra.org/m/d67tfadb) for ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
-							- [ShearRotations](https://www.geogebra.org/m/mkwqufvk) to [compose circular & hyperbolic rotations](((67e238fb-771f-483d-a04a-badff7c7c70a)))
-							- [ConicMetricTransform](https://www.geogebra.org/m/yrzmwxqv) to transform the angle metric between elliptic, parabolic, hyperbolic, through y-axis scaling
-							  id:: 67ea7d5e-1cbe-4815-984d-d843d65d4b83
-						- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
-							- radial component = scaling (multiplication, division): $⋅r$
-							- transverse component = translation (addition, subtraction): $+dφ$
-							  :LOGBOOK:
-							  CLOCK: [2025-03-24 Mon 13:30:46]
-							  CLOCK: [2025-03-24 Mon 14:16:57]
-							  :END:
-							- Note: don't confuse $\overrightarrow{⟨dφ⟩}$ with $d\overrightarrow{⟨φ⟩}$!
-							  collapsed:: true
-							  While $\overrightarrow{⟨dφ⟩}$ is unit vector around x-axis, $d\overrightarrow{⟨φ⟩}$ is a near-zero vector perpendicular to $\overrightarrow{⟨φ⟩}$.
-								- $|\overrightarrow{⟨dφ⟩}| = 1 \; ; \; \arg(\overrightarrow{⟨dφ⟩}) = dφ$
-								- $d\overrightarrow{⟨φ⟩} = d(e^{iφ}) = (e^{iφ})idφ = \overrightarrow{⟨φ⟩}i⋅dφ$
-									- $|d\overrightarrow{⟨φ⟩}| = dφ \; ; \; \arg(d\overrightarrow{⟨φ⟩}) = φ+π/2$
-							- Ref: ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
-						- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
-					- Refs:
-						- Chats with Grok 3
-							- [Homogeneous Coordinates: Points vs Vectors](https://grok.com/chat/0be0eda4-8509-4752-8443-2c61f9a0e300) ([published](https://grok.com/share/bGVnYWN5_76091c75-ea85-4a4e-93d4-1f666c3c3e6d))
-							- [Projective rotations](https://grok.com/chat/baa501bc-baed-4968-9dcc-84f8b3c23b9b)
-						- GeoGebra applet: [HomogeneousCoordinates](https://www.geogebra.org/m/csgsnafq)
-						  :LOGBOOK:
-						  CLOCK: [2025-03-21 Fri 20:09:27]
-						  :END:
-						- Wikipedia: [homogeneous coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates)
+				- From afternoon to midnight, i researched various themes in which the most prominent one is the [homogeneous coordinates](((67dcf2d3-4020-4477-b375-9bbb8c0b1336))) at last.
 				- Due to being caught up in these researches, i was fallen into severe coughs again.
+				  id:: 684f951a-22d9-4f09-9b3e-d8a7ed4e0c3e
 			- Thursday, a day of meditation.
 				- With deep meditation, my cough had nearly gone before i went to bed.
 				- Going to bed, i'd experienced the full process of drowning then passed away.
@@ -986,6 +867,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- In reverse, the scalar product of the direction vectors shows the correlation between them.
 								- The relativity is shown by the mutual distance, mutual angle, scalar product, mutual stretch in shearing, etc.
 							- All these threads are combined into a **compound thread** by synchronizing points, which are called [coincidences](https://en.wikipedia.org/wiki/Incidence_(geometry)), knots, contact points, etc.
+							  id:: 684f951a-1db2-4e43-9c5a-f4fbd27fe667
 							- When the compound thread is projected to different lines and curves (spaces in general), the images are projective threads showing different distributions of these quantities in different spaces.
 						- Around 2018, i used scalar product of vectors to map the projective thread.
 							- This creates the map with the angle/slope between quantities smaller than the slope of the graph $y = f(x)$: As the mapped angle varies from 0° to 90°, the slope of the corresponding graph varies from 45° to 90°.
@@ -1062,6 +944,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  CLOCK: [2025-03-31 Mon 07:56:51]
 			  :END:
 				- Recalling the godly awake experiences, i saw that such “dead state” is just the [Buddhist Nibbāna](https://en.wikipedia.org/wiki/Nirvana_(Buddhism)).
+				  id:: 684f951a-b5ca-44a7-b9a3-df1538310721
 				  collapsed:: true
 					- Nibbāna ([Niết-bàn](https://vi.wikipedia.org/wiki/Ni%E1%BA%BFt-b%C3%A0n)) = complete death 😁: extinction, diệt tận, tịch diệt, viên tịch, ... hay nói nôm ra cho dễ hiểu là "chết hết" 😂
 					- Two times of active “dead state entrance” through meditation in the late Thursday night (early Friday morning) in this “drowning experience”:
@@ -1767,6 +1650,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- A Vietnamese Buddhist monk on a barefoot pilgrimage from his homeland to India ran into some unexpected opposition in Sri Lanka on the latest leg of his circuitous journey around Asia.
 					- A witness told Radio Free Asia that when the Vietnamese monk Thich Minh Tue and his entourage were about to go to a local Hindu temple to rest, _**a local monk**, claiming to be from the Sri Lankan Buddhist Sangha, came to the temple and **asked that he not stay**._
 					- Local Sri Lankans objected, taking sides with their Vietnamese visitor.
+					  id:: 684f9519-0c18-4a6d-9dee-9d68df7b300a
 					  The Sri Lankan monk then took out his phone and read the contents of a letter allegedly sent by Thich Nhat Tu, a representative of the state-backed Vietnam Buddhist Sangha – or religious association - to the Sri Lankan Sangha, to justify his demand that Thich Minh Tue leave the leafy temple compound in Giriulla, a town about 30 miles northeast of the capital Colombo.
 					- “He pointed to the letter and read the content to prove that this group of monks are a fake monks and were violating the law,” said Nguyen Minh Chi, a Vietnamese filmmaker who witnessed the exchange.
 					  collapsed:: true
@@ -1828,6 +1712,49 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Image of the letter
 					  collapsed:: true
 						- ![Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg](../assets/Will/story/2025-04/Malwatta's letter to the Commissioner for Buddhist Affairs - WhatsApp-Image-2025-04-17-at-10.43.50-PM.jpeg)
+			- Daily Mirror
+			  collapsed:: true
+				- [Vietnamese Spiritual leader forced to make U-turn in Sri Lanka](https://www.dailymirror.lk/recomended-news/Vietnamese-Spiritual-leader-forced-to-make-U-turn-in-Sri-Lanka/277-307532)
+				  collapsed:: true
+					- 28 April 2025 03:00 am
+					- By Ruki Fernando & Manushika Cooray
+					- Minh Tue is a Vietnamese who describes himself as an ordinary learner and practising what Buddha has taught in scripture. He has been walking in Vietnam barefoot, eating once a day (only in the morning) from food received from others, sleeping in the open, and not receiving any money. He has no possessions, except some bare essentials like a bowl for food and to drink water. His robes are sown by himself; using discarded pieces of cloth he picks up along his travels.
+					- Minh Tue’s simple lifestyle and attempts to follow Buddha was seen by many Vietnamese as a contrast to traditional Buddhist Sanga in Vietnam, who were seen as politically aligned to repressive Vietnamese government and having affluent lifestyles. Minh Tue had become very popular amongst Vietnamese, including those outside Vietnam, with crowds following him physically in his walks and many more following him spiritually.
+					- He had walked beyond Vietnam to other neighbouring countries such as Laos, Thailand, Malaysia, Indonesia, and Singapore. Some of his followers had followed him even during overseas travels. Vietnamese volunteers have travelled with him to see him and help him, including those of Vietnamese origin from countries such as Singapore, Australia, United States of America and United Kingdom. Youtubers and media have also followed him and kept his followers informed of his travels.
+					- Minh Tue had arrived in Sri Lanka on April 10, 2025 and received a visa for 30 days; his travel documents were seen by the authors of this article. He had hoped to walk to Jaffna and travel from there to India before the expiry of his visa. He had started walking from the day of his arrival and managed to walk from Katunayake to around Narammala till April 17.
+					- During the walks, Minh Tue and his followers, numbering about 34 (plus about 10 helpers), remain silent; each participant walking behind each other, in meditative manner, quite similar to the way some Sri Lankan monks walk during ‘pinda patha’. This way of their walking ensures that there is no disruption to pedestrian or vehicular traffic or public order. Sri Lankans have not observed any reports of public disorder caused by their walking in this island.
+					- Allegations against Min Tue
+					  collapsed:: true
+						- On April 13, the Committee for International Buddhist Affairs of the Vietnamese Buddhist Sangha has sent a letter to the Mahanayaka of the Malwatta Chapter making allegations against Minh Tue. The letter was seen by the authors of this article. The allegations include; donning Buddhist monastic robes without being ordained, attempting to form a dissident sect, causing division and damaging the reputation and unity of Vietnamese Buddhism and threatening Public Order and National reputation. The letter also stated that Minh Tue is supported by anti-government individuals and organizations that seek to use his image to discredit the Vietnamese government and divide the Buddhist Sanga. But specific details of allegations or evidence indicating the allegations were not provided.
+						- The letter requests the Mahanayaka Thera of the Malwatta Chapter to coordinate with Sri Lankan authorities to verify and prevent Minh Tue and his group from engaging in any religious or public activities in Sri Lanka, provide assistance to liaise with Sri Lankan authorities to address cases where religious identities are exploited as a cover for political subversion, undermining the unity of Vietnamese Buddhism and sovereignty of the Vietnamese state.
+						- These writers came to know from multiple Vietnamese sources that allegations in the letter are false and that it’s a group of Buddhist Sanga in Vietnam close to the Vietnamese government which is hostile to Minh Tue due to his growing popularity amongst ordinary Vietnamese.
+						- Media have reported that Vietnamese Government had obstructed Minh Tue’s walks in Vietnam.
+						- Minh Tue has responded to the above allegations, a translation of which was seen by these authors.  He maintains that he is not a monk or teacher and that he doesn’t carry the name “Thich”, which he says belongs to Buddha. He also says he is not part of the Vietnam Buddhist Association and doesn’t wear Buddhist robes and that he is not impersonating anyone.
+					- Mixed responses from Sri Lanka
+					  collapsed:: true
+						- On or around April 16, in Giriulla, a witness has told the media that when Minh Tue and his group were about to visit a local Hindu temple to rest, a local Buddhist monk had objected, citing the above letter. The local monk had claimed that Minh Tue and the group which was with him were “fake monks and were violating the law”. But Sri Lankans have sympathised with the Vietnamese. Eventually Minh Tue was eventually able to enter the temple.
+						- The Deputy Registrar of the Malwatta Chapter, Mahawela Rathanapala Thera, is reported to have told BBC Sinhala that the Chairman of the Department of Buddhism in Vietnam has made a written request to the Malwatta Mahanayaka Thera, informing him not to allow the anti-Sasana activities of this Vietnamese group. The Deputy Registrar is reported to have stated that these people are ‘monks in disguise’ and that they are not ordained according to the Buddhist Vinaya and that the Chief Incumbent of the Malwatta Vihara Chapter had requested the Commissioner General of Buddhist Affairs to investigate the facts regarding this ‘Vietnamese group’ and take action regarding the violation of visa conditions through the Controller General of Immigration and Emigration. Speaking to BBC Sinhala, the Commissioner General of Buddhist Affairs is reported to have said that steps have been taken to inform the Department of Immigration and Emigration to take necessary action based on the letter received from the Malwatta Mahanayake Thera.
+					- Police stop Minh Tue
+					  collapsed:: true
+						- These writers visited Minh Tue, some of his followers and helpers on April 21. They informed that the police had stopped them from walking on April 17 and verbally informed them that they were not allowed to walk on a tourist visa. No written orders or instructions have been presented by the police.
+						- The Police Media Spokesperson Senior Superintendent of Police Buddhika Manathunga is reported to have told BBC Sinhala that “a pada yathra is an activity that falls under the category of a procession”. He is further reported to have said, “You need to get permission from the police to hold a procession. The second thing is that according to the Immigration and Emigration Law, you cannot come to Sri Lanka on a visit visa and hold a demonstration. Based on all those facts, we informed them that this was illegal and therefore they were required to obtain permission to carry out this activity. Accordingly, they stopped this activity in the Kuliyapitiya area,” said SSP Manathunga.
+					- Hostility shown by Immigration Department
+					  collapsed:: true
+						- On April 22, these writers came to know from one of Minh Tue’s helpers that some officers from the Investigation Unit of the Department of Immigration and Emigration had visited Minh Tue and his group and instructed all of them to leave Sri Lanka by April 26, despite all of them having valid Sri Lankan visas to remain in the island till May 30 (30 days from arrival on 10th April).
+						- This and the restriction on walking had led to Ming Tue and group purchasing air tickets to cut short their visit in Sri Lanka and travel to India on night of April 24.
+						- Immigration officers had confiscated six passports of volunteers helping Minh Tue and his followers and the officers had instructed a representative from the group to come to the Immigration office within 2 days to receive instructions about their stay and actions that will be taken with regard to their confiscated passports. Some representatives visited the Immigration office the next day (April 23) and their passports were returned, but not before spending several hours at the Department of Immigration and Emigration. Their return are tickets were also inspected. However, immigration officers didn’t issue any written or verbal instructions that their visa was being revoked or its duration was reduced. Department of Immigration and Emigration officers verbally informed the group, two Sri Lankan Buddhist Monks and Sri Lankan activists (including one of the authors) supporting the Vietnamese that they had no opposition with Minh Tue and his group’s walking.
+						- On the night of April 24, Minh Tue and the group left Sri Lanka for India. Minh Tue had told these two writers that his policy was to obey orders of relevant authorities of any country and not remain in places where he wasn’t welcome.
+						- The media had also had reported this.
+						- Minh Tue’s premature departure – a loss for Sri Lanka
+						- These writers met several Sri Lankans who have been assisting Ming Tue and it seemed that most Sri Lankans were very supportive and welcoming towards the visit and walking of Minh Tue and his followers. Amongst these were two Buddhist Monks and a man who shared with us their many efforts to ensure Minh Tue and group could stay in Sri Lanka and continue their journey towards Jaffna. They had also intervened to find places for the group to rest, when some Buddhist Monks had been reluctant to extend a welcoming hand.
+						- These writers came to hear that Ming Tue’s helpers had financially assisted Sri Lankan communities through charitable acts during the course of their walk. It was also clear to us that this group was contributing to the Sri Lankan economy, by patronising Sri Lankan shops, hotels, transport providers etc. These writers felt that the group’s presence and walking have been contributing to nurture the friendship between the people of Sri Lanka and Vietnam; especially amongst Buddhists and that Sri Lanka had much to benefit spiritually from Minh Tue’s presence in Sri Lanka even for 30 days.
+						- Is walking to Jaffna a violation of tourist visa conditions?
+						- Walking or seeking alms or engaging in religious activities is not prohibited for persons with tourist visas as per the official website of the Department of Immigration or Emigration. Many tourists in Sri Lanka openly engage in religious practices, a very common example being tourists participating in annual processions (which lead to closure of roads) linked to major Buddhist temples such as “Dalada Maligawa” in Kandy and “Gangaramaya” in Colombo. It is also very common to see tourists doing long walks spanning several days and weeks through public spaces, a prominent example being the “Pekoe Trail”.
+						- Article 10 of the Sri Lankan constitution guarantees Freedom of thought, conscience and religion, including the freedom to have or to adopt a religion or belief of his choice for all persons, not just Sri Lankan citizens. Article 12 (1) of the constitution ensures all persons (not just citizens) are equal before the law and are entitled to the equal protection of the law. Article 11 of the constitution guarantees that no person (not only citizens) shall be subjected to torture or cruel, inhuman or degrading treatment or punishment, which includes mental torture.
+						- Minh Tue was simply travelling on foot to Jaffna and not engaging in a procession or Pada Yatra. He had not organised or joined any religious activities in Sri Lanka. He has chosen the means of travel in Sri Lanka as walking, according to his conscience and religion. Walking as a means of travel is not prohibited by Sri Lankan law. It’s similar to travelling by cycling, car, bus, train etc.
+						- Thus, these writers feel that the decision taken by the Sri Lanka Police to prohibit Minh Tue and his followers from walking to Jaffna appears to have no legal basis and has violated articles 10, 12(2) and 11 of Sri Lanka’s Constitution.
+						- The prohibition of walking by this very popular spiritual leader with Buddhist background, from a neighbouring country, with largely Buddhist population, may lead to tensions amongst people in Sri Lanka and may obstruct friendly relations between the people of Vietnam and Sri Lanka. It may also bring Sri Lanka into disrepute.
+						- Minh Tue and his group may visit Sri Lanka again if they are welcomed and supported. Many hope they do. These writers are confident that most Sri Lankans, especially Buddhists, will welcome and support them. Importantly, these writers hope that the state and especially the police will ensure their journey isn’t obstructed by those who may have vested interests; whether from Vietnam or Sri Lanka.
 			- Hiru TV (හිරු ටීවී)
 			  collapsed:: true
 			  :LOGBOOK:
@@ -1887,6 +1814,1563 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The two are combined into a perfect whole, my way of life: Naturalism = Experientialism + Empiricism
 					- Vietnamese translations: Chủ nghĩa Tự nhiên = Chủ nghĩa Thể nghiệm + Chủ nghĩa Thực nghiệm
 					- The Naturalism is not only the [Western one](https://en.wikipedia.org/wiki/Naturalism_(philosophy)) with external science, but also the [Eastern one](https://en.wikipedia.org/wiki/Ziran) with internal science, like the Ziran (自然, tự nhiên) of Lao Tzu
+		- The sublime within via meditation, 19 May
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-19 Mon 08:04:21]
+		  :END:
+			- Thanks to the stuffy nose, i had a meditation session diving deep inside, from the nasal cavity, sinuses, down to the belly. There i heard the loud noise of my breath, due to the open Eustachian tubes, which is very much like great sounds of Nature.
+			- Shared with friends in chat boxes
+				- Nãy ngồi thiền vào sâu bên trong, mình thấy thiệt là "khủng!" Nhớ những chuyến đi ra thiên nhiên, mình thấy cả trong ngoài đều khủng như nhau. 😁
+				- Trong triết học Phương Tây có khái niệm "the Sublime" (cái Khủng) diễn tả tính 2 mặt của những thứ vĩ đại như thiên nhiên, vũ trụ, Chúa Trời, và sự vượt qua cả 2 mặt đó:
+					- Ở xa, khi thu gọn cái to lớn vĩ đại vào tầm mắt thì ta thấy nó thật đẹp, có sức hút mãnh liệt khiến ta phải đi tới để khám phá.
+					- Khi tới gần, mình mới ngộ ra nó thật là khủng khiếp, đầy những cạm bẫy, nguy hiểm... Sự vĩ đại của nó đè bẹp cái tôi của mình, khiến mình nhận ra mình chỉ là một hạt bụi nhỏ bé, chả là gì cả.
+					- Khi vượt qua được chính mình, bỏ được cái tôi nhỏ bé này xuống để hòa vào sự hùng vĩ, to lớn đó, mình bỗng thấy thật tuyệt vời, một cảm giác thăng hoa (sublime), vượt thoát (transcendental), và giải thoát (liberated). Ở đây mình ngộ ra rằng vẻ đẹp kia mời gọi mình không phải để dùng sức người nhỏ bé này để chinh phục cái ngọn núi vĩ đại để đứng trên đỉnh núi thấy "ta cao hơn núi" như mình đã tưởng. Mà sự vượt qua chính là vượt qua bản thân mình, thoát khỏi sự nô lệ cho những nghiệp trong cái tôi này: sợ hãi, kiêu ngạo, cố chấp, kỳ vọng, v.v.
+				- Cái Khủng: Derived from "khủng khiếp" (terrifying, overwhelming), it carries a dual nature—both awe-inspiring grandeur and a sense of fear or intensity. This is aligned with the philosophical concept of the Sublime, as defined by thinkers like Burke (terror and beauty) or Kant (the vastness of overwhelming reason), which includes both uplifting and unsettling dimensions.
+				- Về chữ Nôm thì có 2 chữ thể hiện 2 sắc thái ý nghĩa như sau
+					- 恐 (khủng): khủng khiếp, khủng hoảng, khủng bố
+					- 孔 (khổng, khủng): khủng long (rồng khổng lồ), "thật khủng!" (casual meaning: stupendous, tremendous)
+				- > The passion caused by the great and sublime in nature, when those causes operate most powerfully is Astonishment, and astonishment is that state of the soul in which all its motions are suspended, with some degree of horror … No passion so effectually robs the mind of all its powers of acting and reasoning as fear. For fear, being an apprehension of pain or death, operates in a manner that resembles actual pain. Whatever therefore is terrible, with regard to sight, is sublime too … Indeed terror is in all cases whatsoever, either more openly or latently, the ruling principle of the sublime.
+				  
+				  — Edmund Burke in  “A Philosophical Enquiry into the Origins of Our Ideas of the Sublime and Beautiful” (1757)
+		- The Great Lie and the twins of Well-Dressed Lie & Naked Truth
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-23 Fri 12:14:38]
+		  CLOCK: [2025-05-23 Fri 12:15:05]--[2025-05-23 Fri 20:46:54] =>  08:31:49
+		  :END:
+			- This morning, 23 May, on the way to company, contemplating ((6830664a-06e8-418d-bf46-0491fef3a780)), i see that i'm still too humble to be with the Great Lie, and still hiding in the cave with my Naked Truth.
+			- I'm still struggling in the transiton [(3)→(4)](((68306c82-0709-4c83-bcf2-a9015af8b86e))) from living the naked Truth to dressing the Lie.
+			- The **Coin of Truth**
+			  id:: 6830645a-93b9-4c90-929f-8740f40c2b15
+				- The Coin of Truth (Great Truth) is also the Coin of Lie (Great Lie) which is greater than both one-sided Truth and Lie.
+				  collapsed:: true
+					- Image: [Coin of Truth - stereotypes.png](../assets/Will/story/2025-05/Coin of Truth - stereotypes.png) shows [stereotypes of “Truth” and “Lie”](((68300868-6108-475e-90e0-1f15e58366c1))) as two sides of the same coin.
+						- ![Coin of Truth - stereotypes.png](../assets/Will/story/2025-05/Coin of Truth - stereotypes.png){:width 200}
+						- Truth side: Goddess [Veritas](https://legendaryladieshub.com/goddess-veritas/) with laurels on her hair depicting her triumph over Lie.
+						- Lie side: Mendax is the deceiver with witchcraft
+					- The normal stereotypes & symbols of Truth and Lie are just the cover of deeper truth, so this is also the [Coin of Lie](((6830664a-06e8-418d-bf46-0491fef3a780))).
+					- The fable of the twins of [Well-Dressed Lie and Naked Truth](((683006ab-8151-40ff-b1a3-5499aebd355a))) reveals the inner truth which is opposite to those superficial stereotypes: Veritas is just the well dressed Lie, and Mendax is actually the naked Truth.
+				- While the Truth and the Lie are 2 opposite sides of the Coin, the Great Lie and the Great Truth are 2 aspects, 2 connotations of the Coin.
+				- The **Great Truth**
+				  id:: 68306652-f922-4597-bcf7-99a62ef32c94
+				  is simply the Coin of Truth including both Truth and Lie.
+					- Image: [Coin of Truth - twins.png](../assets/Will/story/2025-05/Coin of Truth - twins.png) illustrates the twins of [Well-Dressed Lie and Naked Truth](((683006ab-8151-40ff-b1a3-5499aebd355a)))
+					  collapsed:: true
+						- ![Coin of Truth - twins.png](../assets/Will/story/2025-05/Coin of Truth - twins.png)
+					- identity (face) = perspective (side) = mặt
+					  id:: 68347151-822b-4773-8ad0-2f1d8c300191
+						- Truth and Lie are just two identities, [two faces](((68346b4d-6704-4012-94b6-581694788547))) of the same subject. These identities are constructed by the collective karma, illustrated by the folks in two towns in the fable.
+						- The “coin” symbol shows that Truth and Lie are just two perspectives viewed from two different angles, hence two sides of the same object.
+						- It's interesting that in Vietnamese, these two expressions are unified by a single word: mặt = face = side!
+				- The **Great Lie**
+				  id:: 6830664a-06e8-418d-bf46-0491fef3a780
+				  is the skillful means to express ((68306652-f922-4597-bcf7-99a62ef32c94)) without inflicting suffering, based on the acceptance of the intrinsic “lie” caused by differences between views.
+					- Image: [Coin of Truth - lotus.png](../assets/Will/story/2025-05/Coin of Truth - lotus.png) shows both sides of the lotus: the beautiful flower rising above the rippling water surface, versus the ugly roots sucking the smelly mud at the bottom.
+					  collapsed:: true
+						- ![Coin of Truth - lotus.png](../assets/Will/story/2025-05/Coin of Truth - lotus.png)
+						- This image is the result of dozens of hours working, which are all hidden by the beautiful final image! This is just a little exmple of the Great Lie.
+							- Prompt to Copilot
+							  collapsed:: true
+								- The Coin of Truth contains 2 views of the same thing on its two sides. The Left side depicts a beautiful lotus 🪷 seen from above water with circular ripples spreading out from the petiole (no leaf). The Right side depicts the scene under water with the muddy rough bottom covering the lotus roots and rhizomes. Please make sure the correct anatomy of the lotus roots right under the petioles and between the horizontal rhizomes, as shown in [this diagram](((683463e2-d067-42a6-84f3-fcad587e2569))).
+								  id:: 684f9519-1b6d-4d18-8cf0-be2e3287f1b8
+								- To show both sides, please draw an image of two copies of the Coin in opposite oblique angles facing away from each other: the left coin shows the Left side facing left, the right coin shows the Right side facing right. Let the background be transparent, and please don't print any text.
+							- Just like the "one unit error", the correction of the orientations (opposite <> parallel, facing away <> facing each other) is too hard for Copilot! 😔
+							- a previous image with wrong root anatomy
+							  collapsed:: true
+								- ![Coin of Truth - lotus-1.jpg](../assets/Will/story/2025-05/Coin of Truth - lotus-1.jpg)
+							- a previous image with wrong orientations
+							  collapsed:: true
+								- ![Coin of Truth - lotus-2.jpg](../assets/Will/story/2025-05/Coin of Truth - lotus-2.jpg)
+							- a previous image like a watercolor painting with colors but wrong anatomy of rhizome
+							  collapsed:: true
+								- ![Coin of Truth - lotus-3.jpg](../assets/Will/story/2025-05/Coin of Truth - lotus-3.jpg)
+							- a previous image with text "Veritas | Mendax" printed
+							  collapsed:: true
+								- ![Coin of Truth - twins-names.jpg](../assets/Will/story/2025-05/Coin of Truth - twins-names.jpg)
+						- Parts of the lotus
+						  id:: 683463e2-d067-42a6-84f3-fcad587e2569
+						  collapsed:: true
+							- ![lotus parts.jpg](../assets/Will/story/2025-05/lotus parts.jpg)
+							- (underground) storage organs ([geophytes](https://en.wikipedia.org/wiki/Storage_organ)): bulblike stems (bulb, corm, rhizome, stem tuber, caudex), root tuber, and storage taproot
+							  id:: 686b8a52-50bf-43bd-a5b3-d2387b8da5ac
+							  collapsed:: true
+								- [Bulb](https://en.wikipedia.org/wiki/Bulb): vertical stem comprising many **layers of fleshy leaf bases** called [“scales”](https://en.wikipedia.org/wiki/Cataphyll)
+									- E.g.: [onion](https://en.wikipedia.org/wiki/Onion), [shallot](https://en.wikipedia.org/wiki/Shallot) (Asian onion), [garlic](https://en.wikipedia.org/wiki/Garlic), [tulip](https://en.wikipedia.org/wiki/Tulip)
+									- Longitudinal section through a bulb
+									  collapsed:: true
+										- ![Red_onion_cut_labelled.svg.png](../assets/Will/story/2025-07/Red_onion_cut_labelled.svg.png)
+								- [Corm](https://en.wikipedia.org/wiki/Corm): **vertical solid** swollen stem with one or more [internodes](https://en.wikipedia.org/wiki/Internode_(botany)) and a **basal plate** (basal node) where roots grow
+									- E.g.: [taro](https://en.wikipedia.org/wiki/Taro) (khoai môn), [eddoe](https://en.wikipedia.org/wiki/Eddoe) (khoai sọ)
+								- [Rhizome](https://en.wikipedia.org/wiki/Rhizome): **horizontal** swollen stems, knotty with [nodes](https://en.wikipedia.org/wiki/Node_(botany)) **actively growing** [roots](https://en.wikipedia.org/wiki/Root) and [shoots](https://en.wikipedia.org/wiki/Shoot_(botany)), i.e. indeterminate growth
+									- E.g.: [ginger](https://en.wikipedia.org/wiki/Ginger), [turmeric](https://en.wikipedia.org/wiki/Turmeric) (nghệ), [lotus](https://en.wikipedia.org/wiki/Nelumbonaceae), [water lily](https://en.wikipedia.org/wiki/Nymphaeaceae)
+								- [Stem tuber](https://en.wikipedia.org/wiki/Stem_tuber): fleshy stems with “eyes” of nodes all over the surface
+									- These eyes are **dormant nodes** to grow buds later, i.e. determinate growth, unlike the active nodes of rhizome.
+										- However, the nodes of yams do grow roots actively.
+									- E.g.: [potato](https://en.wikipedia.org/wiki/Potato), [yam](https://en.wikipedia.org/wiki/Yam_(vegetable)) (khoai từ), [purple yam](https://en.wikipedia.org/wiki/Dioscorea_alata) (khoai mỡ)
+									- Note that while potato shows clear eyes, yams have no apararent eyes but roots attached instead. Yams have similar form with sweet potato, making them easily mistakened as root tubers, while their function is actually a stem tuber.
+									  collapsed:: true
+										- References
+											- [Origin and Anatomy of Tubers of Dioscorea floribunda and D. spiculiflora](https://www.journals.uchicago.edu/doi/10.1086/336228)
+												- 5. The anatomy of the tuber is more closely related to that of the stem than to that of the root.
+												- 7. It is concluded that the tubers in these species represent much modified stem tissue, thus being a relic of the ancestral rhizome.
+											- [Characterization of the Dioscorin Gene Family in Dioscorea alata Reveals a Role in Tuber Development and Environmental Response](https://pmc.ncbi.nlm.nih.gov/articles/PMC5536067)
+												- *D. alata* L. propagates mainly via tubers, the **modified stem**. Tuber development is accompanied by a variety of biochemical and morphological changes.
+												- This is consistent with the findings that _the underground **stem tubers** of yam are derived from swollen [hypocotyls](https://en.wikipedia.org/wiki/Hypocotyl)_.
+								- [Root tuber](https://en.wikipedia.org/wiki/Root_tuber): fleshy roots
+									- E.g.: [sweet potato](https://en.wikipedia.org/wiki/Sweet_potato), [jícama](https://en.wikipedia.org/wiki/Pachyrhizus_erosus) (củ sắn/đậu)
+								- Storage [taproot](https://en.wikipedia.org/wiki/Taproot): thickened taproot, e.g.: [carrot](https://en.wikipedia.org/wiki/Carrot)
+								- [Caudex](https://en.wikipedia.org/wiki/Caudex): thickened stem, e.g.: [jicamilla](https://en.wikipedia.org/wiki/Jatropha_cathartica)
+								- Ref:
+									- [The Difference Between Corms, Bulbs, Tubers, and Rhizomes](https://www.thespruce.com/corms-different-from-bulbs-tubers-and-rhizomes-2131032)
+										- ![thespruce-corms-bulbs-tubers-rhizomes.png](../assets/Will/story/2025-07/thespruce-corms-bulbs-tubers-rhizomes.png){:width 500}
+					- Even though the Coin has 2 equal sides of both Lie and Truth, it's preferred to be called "the Coin of... Truth" is just another lie, much more subtle than the one-sided Lie. This is the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox): “The Truth is that Truth lies!”
+					- This is the top of skillfulness and difficulty: (1) accompany with the dressed Lie → (2) accepting the naked Truth → (3) living the naked Truth → (4) dressing the Lie → (5) living the Great Truth → (6) living the Great Lie
+					  id:: 68306c82-0709-4c83-bcf2-a9015af8b86e
+					- A lesser great Lie, which is just a better dressed Lie, is the widely accepted norms, social standards, ethics, morals, etc. This is what Grok 3 and maybe the general public think of when being asked about "the Great Lie".
+					- Great Lie > noble lie > white lie
+					  collapsed:: true
+						- Great Lie = [upaya-kaushalya (skillful means, phương tiện thiện xảo)](https://en.wikipedia.org/wiki/Upaya)
+						- Noble lie = [splendide mendax](https://www.merriam-webster.com/dictionary/splendide%20mendax) (Latin): Being “nobly false”, untruthful for a good cause, like the Hypermnestra’s deception in Horace’s Odes 3.11 to save her husband, and like the well dressed Lie in the fable of the twins.
+						- [White lie](https://www.merriam-webster.com/dictionary/white%20lie): a lie about a small or unimportant matter that someone tells to avoid hurting another person
+						- The well-dressed Lie’s noble lie is a compassionate but incomplete act, showing only the good side to protect society. The sages’ Great Lie, however, is the ultimate expression, embracing both sides of the Coin of Truth and presenting them skillfully, aligning with the equation ((68347151-822b-4773-8ad0-2f1d8c300191)) and with Sadhguru’s [liberation from identity](https://lewishowes.com/relationships/sadhguru-the-truth-about-karma-identity-purpose/).
+				- {{embed ((68300868-6108-475e-90e0-1f15e58366c1))}}
+				- Other meanings of the “coin of truth” in the folks:
+				  collapsed:: true
+					- [A statement](https://www.goodreads.com/quotes/7729752-the-coin-of-truth-had-two-faces-equally-fair-and) in Jan Cox Speas's 1961 historical fiction “My Love, My Enemy”
+					  id:: 68346b4d-6704-4012-94b6-581694788547
+					  > The coin of truth had two faces, equally fair, and no one could see them both at once.
+					- The coin usully symbolizes the choices between truth and lie, right and wrong.
+						- In [the legends of the deva Gayatri on SNARGL](https://snargl.com/angelic-creatures/gayatri/), the Coin of Truth [symbolizes the choices](https://snargl.com/blog/the-significance-of-the-coin-of-truth-in-gayatris-journey/) she encounters along her path.
+						- As a tool, it's [used by fortune tellers](https://www.ritualsupply.co/products/coin-of-truth-yes-or-no-fortune-teller) to answer yes/no questions, or as [a magical fortune telling device](https://www.webtoons.com/en/canvas/coin-of-truth/list?title_no=682619).
+							- ![Coin of Truth - Yes or No Fortune Teller.jpg](../assets/Will/story/2025-05/Coin of Truth - Yes or No Fortune Teller.jpg){:width 100}
+			- Let's document about the parables of the Naked Truth.
+			- Published posts
+			  collapsed:: true
+				- fb post [The Well-Dressed Lie and the Naked Truth](https://www.facebook.com/share/p/1CJPvZJHiS/)
+				  id:: 683006ab-8151-40ff-b1a3-5499aebd355a
+					- Giả Dối Tinh Vi và Chân Thật Trần Trụi như hai thái cực chẳng đội trời chung... nhưng kỳ thực lại là hai chị em sinh đôi, tuy 2 mà 1. Vì lòng yêu thương con người vô hạn mà họ đã chấp nhận biến ra thành hai thái cực đối lập để làm hài lòng mọi người.
+					- Bản tiếng Việt: [Giả Dối Tinh Vi và Chân Thật Trần Trụi](https://creatzynotes.blogspot.com/2023/10/gia-doi-tinh-vi-va-thanh-that-tran-trui.html)
+					  collapsed:: true
+						- Bản tóm gọn
+							- Ngày xưa, có hai chị em sinh đôi giống hệt nhau, sống ở hai thị trấn khác nhau, nơi họ được gọi là “Chân Thật” một cách trìu mến. Người ở thị trấn này đã hoang mang khi gặp cô Chân Thật ở thị trấn kia vì họ không thể phân biệt với cô Chân Thật ở thị trấn này qua khuôn mặt nhưng lại bám chấp vào sự quen thuộc và e dè với trang phục lạ lẫm, nên đã gọi cô kia là “Giả Dối” và xua đuổi cô. Đau lòng về việc hai thị trấn tranh cãi đâu là “Chân Thật thực sự” và chiến đấu với nhau để bảo vệ Chân Thật của mình, hai chị em đã gặp nhau trong hang động để tìm cách giải quyết.
+							- ― Chúng ta vốn là một nhưng lại bị chia cắt bởi định kiến của họ – cô em khóc nức nở.
+							  ― Chị sẽ nhường lại hết quần áo cho em để em làm hài lòng cả hai thị trấn – cô chị nêu ý kiến.
+							  ― Nhưng chị sẽ bị trần trụi và bị khinh miệt!
+							  ― Vì tình yêu con người, chị sẽ chịu đựng. Còn em sẽ đảm nhận việc làm họ hài lòng, một nhiệm vụ khó chẳng kém chị đâu!
+							- Họ ôm nhau lệ rơi lả chả, rồi chia tay – cô em mang hết áo quần đi, cô chị ở lại trần truồng. Để làm hài lòng mọi người, cô em trở lại thị trấn, nhanh chóng thay đổi trang phục cho phù hợp với mong đợi của từng người, đảm bảo ai cũng thoải mái với “Chân Thật” của mình. Dù khéo léo đến đâu, đôi khi cô vẫn bị bắt gặp trong lúc thay đồ và bị gọi là “Giả Dối”. Cô chị trần truồng thường phải trốn trong hang để tránh làm người ta bị sốc. Hễ thấy cô, người ta gọi cô là “đồ điên” hay còn tệ hơn nữa, rồi hoảng sợ bỏ chạy vì bất an và sợ hãi; một số người còn lạm dụng cô trong đêm.
+							- Chỉ có vài người tìm đến Chân Thật trong hang, sau khi đã chán ngán với Giả Dối bị che đậy.
+							  ― Sao em lại trốn ở đây? – họ hỏi.
+							  ― Em đã trao vẻ đẹp lại cho em gái để phục vụ các anh – cô đáp – vì các anh sợ sự thật trần trụi.
+							- Khi Chân Thật trần trụi lộ ra hoàn toàn thì hầu hết những người tìm kiếm sự thật đều hoảng loạn, bỏ chạy, và đuổi theo một “Chân Thật” khác thoải mái hơn, vốn là Giả Dối của kẻ khác. Chỉ những ai dũng cảm đối diện và đón nhận Chân Thật trần trụi thì mới ở lại và trân trọng cô.
+						- Bản đầy đủ
+						  collapsed:: true
+							- Ngày xưa, vào buổi bình minh của nền văn minh nhân loại, có hai chị em sinh đôi giống hệt nhau từ lúc mới sinh. Từ nhỏ, cả hai đều xinh đẹp một cách thuần khiết và rất dễ thương dễ mến. Khi lớn lên, họ phải tách ra để đến những nơi khác nhau, người chị về phía đông và người em về phía tây, để sống và làm những công việc khác nhau. Họ được mọi người xung quanh yêu mến đến độ người dân ở thị trấn phía đông gọi cô chị là “Chân Thật” với ý bao hàm tất cả những đức tính tốt lành, và cô em cũng được người ở thị trấn phía tây gọi là “Chân Thật” với đầy ưu ái như vậy. Một ngày nọ, cô chị qua thị trấn phía tây để thăm em gái. Lúc đầu, mọi người ở đó nhầm lẫn hai chị em với nhau vì khuôn mặt họ không thể nào phân biệt được và đều cùng tên là “Chân Thật”. Nhưng rồi họ nhận ra cô Chân Thật của mình qua bộ áo đầm quen thuộc. Họ gọi cô mặc bộ đồ lạ kia là “Giả Dối”:
+								- Mày không phải là Chân Thật!
+								- Em là Chân Thật mà! Chúng em là chị em sinh đôi cùng tên mà!
+								- Nếu vậy thì mày chỉ là Chân Thật giả chứ không phải Chân Thật thật!
+								- Em chỉ là một bé Chân Thật khác, giống như em của em thôi.
+								- Không, chúng tôi không tin chuyện vớ vẩn như vậy đâu! Chỉ có một Chân Thật. Mày đang nói dối! Mày là Giả Dối, không phải Chân Thật! Mày là đồ giả hình, giả dạng, giả tạo,...
+								  Người dân ở đó quy mọi điều xấu xa nhất cho cô chị qua tên gọi “Giả Dối” và họ giận dữ đuổi cô ra khỏi thị trấn phía tây. Cô em phải đi cùng chị mình về phía đông để bảo vệ chị gái khỏi những người hung dữ kia và để cô chị về nhà được an toàn. Nhưng khi họ vào thị trấn phía đông, cô em cũng gặp phải tình huống tương tự: Cô bị gọi là “Giả Dối”, bị sỉ nhục và bị đuổi khỏi thị trấn phía đông.
+							- Sự phân biệt đối xử đó không chỉ khiến hai chị em đau khổ, mà còn khiến người dân hai thị trấn gây hấn với nhau để bảo vệ “Chân Thật” yêu quý của họ khỏi bị gọi là “Giả Dối” và bị xúc phạm bởi người thị trấn bên kia. Vì yêu quý mọi người nên hai chị em lẩn vào một hang động để cùng nhau tìm cách giải quyết xung đột này.
+								- Đau buồn quá em ơi! Tệ quá em ơi!
+								- Em cũng buồn. Nhưng chúng ta phải làm gì đó để chấm dứt sự hỗn loạn này!
+								- Giá như chúng ta chẳng phải xa nhau, giá như chúng ta là một...
+								- Dạ! Chị nói đúng, chúng ta phải là một, không thể tách làm hai được!
+								- Nhưng bằng cách nào???
+								- Thực ra thì bản chất chúng ta đã là một rồi... Chỉ có điều là người ta kỳ thị chị em mình bằng những thành kiến của họ và bằng những bộ áo bên ngoài của chúng ta mà thôi...
+								- À, đúng rồi! Chỉ là cái bộ áo!!! Là chính nó, bộ áo!!! Chị sẽ đưa em quần áo của chị để em có thể mặc những trang phục khác nhau 👗🥻 ở những nơi khác nhau để em luôn phù hợp với văn hoá ở đó dù em có đi bất cứ nơi đâu. Như vậy thì người ở thị trấn phía tây sẽ coi em là người phía tây và người ở thị trấn phía đông sẽ coi em là người phía đông. Như vậy sẽ không còn ai buồn phiền chi nữa.
+								- Còn chị thì sao?!!!
+								- Đừng lo lắng cho chị! Trong tim chúng ta vẫn chỉ là một ♥️. Em thì thực hiện nhiệm vụ khó đó là làm hài lòng mọi người, còn chị thì hỗ trợ họ mỗi khi họ ngã xuống.
+								- Không, em không thể làm vậy được! Thật bất công cho chị quá! Em không thể lấy quần áo của chị... Hic...
+								- Em không còn yêu thương người ta nữa phải không?
+								- Không, không, có chứ! Em yêu mọi người rất nhiều... nhưng...
+								- Nhưng em lại không muốn hy sinh cho những người mình yêu thương sao?! Đừng bi quan em nhé! Sự hy sinh của chúng ta sẽ rất có ích cho mọi người trên khắp thế giới.
+								- Em... em hiểu rồi... em sẽ thay mặt chị cố gắng hết sức để làm hài lòng mọi người. Em sẽ nhớ chị nhiều lắm, hic, hic...
+								- Chị cũng sẽ nhớ em! Chị sẽ luôn ở bên em... trong trái tim em ♥️!
+								  Hai chị em ôm nhau, khóc rất nhiều, rồi chia tay, cô em lấy hết quần áo đi còn cô chị thì trần trụi ở lại.
+							- Cô em luyện tập kỹ năng thay đồ nhanh như chớp, như một phép thuật biến hình để có thể đáp ứng nhiều sở thích khác nhau của nhiều kiểu người khác nhau bất kỳ lúc nào họ cần. Nhờ kỹ năng điêu luyện mà cô đã khiến mọi người hài hòng, ai cũng nghĩ rằng mình đã có Chân Thật của riêng mình, nên không còn gây hấn với nhau nữa. Mọi người cũng thoả mãn hơn với bản thân vì họ không còn bị cô Giả Dối kia quấy rầy nữa. Tuy họ vẫn còn thấy Giả Dối lảng vảng ngoài kia, nhưng nó là Giả Dối của người khác chứ chẳng bao giờ tới gần mình nữa.
+							- Xấu hổ nên cô chị trần trụi thường phải trốn trong hang để tránh làm cho người ta sốc. Nhưng tình yêu thương con người đã khiến cô lẻn vào thị trấn để trông nom họ. Những lần xuất hiện hiếm hoi của cô đã nhắc nhở mọi người về sự tồn tại của những sự thật trần trụi mà lại khó thấy và khó chấp nhận. Ban ngày, đa phần người ta đều ngoảnh mặt quay lưng với Chân Thật trần trụi, họ gọi cô ta là “đồ điên”, có người lăng mạ cô, có người nổi giận đuổi cô đi. Còn ban đêm thì có người lại tìm Chân Thật trần trụi để hiếp dâm. Vì yêu người, cô chịu đựng hết thảy!
+							- Dù khéo léo đến đâu, thỉnh thoảng cô em nhiều áo quần cũng bị người ta bắt gặp khi đang thay đồ. Những người này thất vọng vô cùng khi thấy Chân Thật của họ xuất hiện dưới những diện mạo khác không hề quen thuộc. Họ càng không thể chịu được khi biết ra rằng Chật Thật của họ lại chính là Giả Dối của người khác.
+								- Này Chân Thật, không thể tin được là em đã lừa dối tôi suốt bây lâu nay! Không, em không phải là Chân Thật, em là Giả Dối!!!
+								- Em xin lỗi đã làm anh thất vọng! Nhưng em không lừa dối anh. Em chỉ cố gắng hết sức để làm anh hài lòng thôi.
+								- Vậy rốt cuộc thì em là Chân Thật hay Giả Dối?
+								- Em là Chân Thật khéo léo, nhưng mọi người cũng gọi em là là “Giả Dối” như anh vừa gọi đó.
+								- Không không không! Tôi không muốn nói chuyện với Giả Dối! Biến đi!
+								- Em chỉ nói cho anh biết sự thật thôi, nhưng anh không chịu chấp nhận thì em cũng chịu thua. Hãy gặp chị gái của em, có thể chị ấy sẽ giúp được anh...
+								- Cô ta ở đâu?
+								- Chị ấy đang trốn trong hang.
+							- Hầu hết những người này chỉ để cho nỗi thất vọng của họ cuốn trôi theo thời gian. Chỉ có một số ít người cất công tìm tới hang động để gặp Chân Thật trần trụi.
+								- Hú uu! Có ai đó không?
+								- Dạ, có em đây.
+								- Sao em lại trốn trong đây?
+								- Vì em không muốn làm anh sợ.
+								- Anh không sợ, hãy bước ra đi!
+							- Chân Thật trần trụi chỉ mới hé ra một chút...
+								- Aaahh... gớm quá!!! Sao em lại bẩn thỉu hôi hám đến vậy?
+								- Vì em đã đưa hết quần áo đẹp đẽ thơm tho cho em gái rồi, là con Chân Thật khéo léo đã phục vụ anh, làm anh hài lòng bấy lâu nay đó. Nó cũng chính là con Giả Dối tinh vi đã khiến anh vừa mới thất vọng đó thôi.
+								- Đừng gọi tên nó trước mặt tôi! Tôi ghét nó lắm!
+								- Anh đến đây để làm gì?
+								- Để tìm ra Chân Thật thực sự.
+								- Em chỉ là Chân Thật trần trụi. Em không biết Chân Thật thực sự của anh là ai.
+								- Em chắc chắn là Chân Thật thực sự rồi! Bước ra hẳn đi em! Anh khao khát gặp em quá rồi!
+							- Khi Chân Thật trần trụi lộ diện ra hết, hầu như ai cũng đều sợ hãi bỏ chạy trở về thị trấn. Ở đó, họ mò mẫm tìm cho bằng được “Chân Thật đích thực” của riêng mình mà không biết rằng đó chỉ là Giả Dối tinh vi trong một trong bộ áo khác mà họ chưa từng biết đến.
+							- Rất ít người quay lại với Chân Thật trần trụi. Họ là những người tuy đã thưởng thức được nhiều hình dáng đẹp đẽ khác nhau của Chân Thật khéo léo rồi nhưng vẫn cảm thấy có gì đó còn thiếu thốn.
+								- Chào bóng tối, anh quay lại với em đây!
+								- Rất vui được gặp lại anh! Bây giờ anh muốn gì?
+								- Anh muốn em, chỉ mình em thôi, cho dù em đáng sợ, bẩn thỉu, ghê tởm hay xấu xa bỉ ổi đến cỡ nào đi chăng nữa!
+								- Tại sao?
+								- Vì anh chán con Giả Dối tinh vi lắm rồi.
+								- Anh cũng sẽ sớm chán em thôi!
+								- Mặc kệ! Hãy nói cho anh biết tại làm sao mà em lại ra xấu xa ghê tởm đến như vậy!?
+								- Vì em đã trao hết mọi sự tốt lành cho em gái rồi, con Chân Thật khéo léo đó.
+								- Để làm gì?
+								- Để phục vụ những người như anh, để làm cho mọi người vui vẻ và hài lòng.
+								- Sao em không tự làm lấy việc đó?
+								- Chuyện ai làm không phải là vấn đề! Chúng em tuy hai cơ thể nhưng chỉ có một tâm hồn. Nếu em gánh lấy trách nhiệm làm hài lòng người ta thì em gái em cũng phải làm Chân Thật trần trụi như em thôi, có khác gì đâu?!
+								- Sao hai người không chia nhau làm việc đó?
+								- Bởi vì người ta chỉ muốn “toàn đúng, toàn đẹp, toàn hạnh phúc” chứ không muốn chấp nhận sự thật rằng có sai trái, có xấu xí, có đau khổ, và đủ thứ khác nữa...
+								- Nghe chẳng đúng tí nào!... Nhưng thôi, coi như anh tin em... Thì làm sao em biết được điều đó?
+								- Hai chị em em đã sống trên Trái Đất này hàng triệu năm rồi. Chúng em đã phục vụ nhiều nền văn minh từ buổi bình minh đến khi sụp đổ. Thị trấn của anh chỉ là một viên sỏi nhỏ so với những ngọn núi vĩ đại của các nền văn minh khác. Chúng em đã quan sát thấy con người muôn đời nay là như vậy. Thực ra thì thời xa xưa khi còn ít tuổi, cả hai chúng em đều đã cùng mặc quần áo. Tuy nhiên, sự khác biệt trong cách ăn mặc của chúng em đã khiến người dân ở các thị trấn khác nhau gây chiến với nhau, và nó đã làm trái tim chúng em tan nát...
+								- Vậy là em đã quyết định hy sinh bản thân vì người ta và vì em gái mình?!
+								- Đúng, nhưng không chỉ mình em. Em gái em cũng phải hy sinh bản thân để hoá thân thành những con người khác hẳn với con người vốn có của nó.
+							- ... Cuộc trò chuyện cứ tiếp tục mãi... Có người tỉnh thức và nhận ra cả thảy đều là những giấc mơ. Có người quyết định quay trở lại những giấc mơ đó để giúp đỡ cặp song sinh Chân Thật & Giả Dối...
+					- Thực ra mình viết bản tiếng Anh này trước: [The Well-Dressed Lie and the Naked Truth](https://creatzynotes.blogspot.com/2023/10/the-twins-of-truth-and-lie.html)
+					  collapsed:: true
+						- Short version (with the help of Grok 3)
+						  id:: 684f9519-6824-430b-820a-d5728d4b3f45
+							- Long ago, there were identical twin sisters living in separate towns where they were belovedly called “Truth”. Their indistinguishable faces confused people, who, clinging to the familiar and wary of the unfamiliar outfit, called the sister from the other town “Lie” and drove her away. Heartbroken by the towns’ fights over the “true” Truth, the sisters met in a cave.
+							- ― We’re one soul, split by their prejudice – one wept.
+							  ― I’ll give you my clothes to please both towns – the other said.
+							  ― But you’ll be naked and scorned!
+							  ― For the love of people, I’ll endure. You'll take the duty of satisfying them, no less difficult than mine!
+							- They embraced, tears falling, and parted – one taking all clothes, the other bare. To please everyone, the dressed sister returned to town, swiftly changing outfits to suit each person’s expectations, making sure that everyone is comfortable with their own “Truth”. No matter how skillful, sometimes she was caught mid-change and called “Lie”. The naked sister hid in the cave most of the time to avoid shocking people. Anytime seeing her, they called her “crazy” or worse, then fled due to their unease and scare; some abused her in the night.
+							  id:: 684f9519-da96-40d8-9e09-411d94f16654
+							- Just a few people, tired of the dressed Lie, sought the naked Truth in the cave.
+							  ― Why hide? – they asked.
+							  ― I gave my beauty to my sister to serve you – she replied – because you fear the unadorned truth.
+							- When the naked Truth emerged fully, most truth seekers were shaken, fled, and chased another comforting “Truth” who was another’s Lie. Only the brave stayed, embracing the naked Truth.
+						- Full length version
+						  id:: 683029f1-0847-4186-a6a6-b8cb19fcd922
+						  collapsed:: true
+							- Long ago, at the dawn of human civilization, there were two twin sisters who were indistinguishable at birth. They were both so pure, so beautiful and so attractive from the beginning. When they grew up, they had to separate and go to different places, one to the east and one to the west, to live and work in different jobs. They were loved by people around so much that people in the east town called the east twin “Truth” with all good attributes attached, and the same for the west twin being called “Truth” preciously in the west town. One day, the east twin went to the west town to visit her sister. At first, people there got confused by the twins due to their identical faces and the same name “Truth”. But then they recognized their own “Truth” by her familiar dress. They called the unfamiliarly dressed twin “Lie”:
+								- You are not Truth!
+								- I'm Truth, we're twins with the same name.
+								- If so, you're just a false Truth, not the true Truth!
+								- I'm just another Truth, the same as my sister.
+								- No, we don't believe such a ridiculous thing! There's only one Truth. You're lying! You're Lie, not Truth! You're false, fake, counterfeit,...
+							- People there attributed all bad properties to the twin they called “Lie” and angrily chased her off the west town. The west twin went with the east twin to protect her sister from angry people so that she could return to the east town safely. But when they entered the east town, the west twin met the same situation: She was called “Lie”, humiliated, and chased off the east town.
+							- That discrimination not only upset the twins but also made people of the two towns fight against each other to protect their beloved “Truth” from being called “Lie” and insulted by people from the other town. Loving people so much, the twins retreated to a cave to meet and to come to a decision to resolve this conflict.
+								- I'm so sad, sister! That's so bad, sister!
+								- I'm sad, too. But we must do something to end this chaos!
+								- If only we are not separated, if only we're one...
+								- Yeah! You're right, we must be only one!
+								- But how???
+								- We've already been one, intrinsically... Only people discriminate us with their own prejudice and with our external clothes...
+								- Oh, I've got it! It's just the clothes!!! That's it, the clothes!!! I'll give you my clothes so that you can wear different costumes 👗🥻 in different places to be always appropriate wherever you go. Thus, people in the west town will see you as a west person and people in the east town will see you as an east person. That way, no one will be upset anymore.
+								- But how about you?!!!
+								- Don't worry about me! We're still only one in our heart ♥️. You just do the difficult task of satisfying people, and I just support them whenever they fall.
+								- No, I can't do that! It's so unfair to you! I cannot take your clothes... Hic...
+								- You don't love people any more, do you?!
+								- No, nope, yes I do! I do love people so much... but...
+								- But you don't want to sacrifice for the ones you love, do you?! Don't be pessimistic, sister! Our sacrifice will help people all over the world.
+								- I... I see... I will try my best to satisfy people on your behalf. I'll miss you a lot, hic, hic...
+								- I'll miss you, too! I'll be always with you... in your heart ♥️!
+								  The twins hugged, cried a lot, then separated with one twin taking all clothes and the other undressed.
+							- The dressed twin has practiced the skill of changing clothes at lightning speed, like a transformation magic, so that she can satisfy many different preferences of many different types of people anytime they need. Thanks to her magical skill, she makes everyone happy with the thought that they have got their own Truth, so they are no longer aggressive with each other. People are also more satisfied with themselves because they are no longer bothered by Lie. Although they still see Lie out there, but that's Lie of someone else far away.
+							- Ashamed, the naked twin usually have to hide in the cave, not to shock people with her appearance. However, the love for people makes her sneak into the town to watch over them. Her rare appearances have reminded people of the existence of the raw truths which are usually hidden and unacceptable. In the daytime, most people turn away from the naked Truth calling her “crazy”, some people insult her, some get angry with her and chase her away. In the nighttime, some people find the naked Truth to rape her. Loving people, she bear them all!
+							- No matter how skillful, the dressed twin is occasionally caught by people when she's changing outfit. These people get disappointed to see their Truth appear in different appearance that they are not familiar with. Further more, they can't bear to know that their Truth is actually someone else's Lie.
+								- Hey Truth, I can't believe that you've lied to me all these times! No, you're not Truth, you're Lie!!!
+								- I'm sorry to make you disappointed! But I haven't lied to you. I just tried my best to satisfy you.
+								- So at last, are you Truth or Lie?
+								- I'm the dressed Truth, but people also call me “Lie” like you've just done.
+								- No no no! I don't want to talk with the Lie! Go away!
+								- I'm just telling you the truth but you can't accept it, so I can't help you. Let's meet my sister, maybe she can help you...
+								- Where is she?
+								- She's hiding in the cave.
+							- Most of these people just let time wash away their disappointment. Only few people bother going to the cave to find the naked Truth.
+								- Hello! Anybody there?
+								- Yes I am.
+								- Why are you hiding?
+								- Because I don't want to scare you.
+								- I'm not scared, please show yourself!
+							- The naked Truth just show a little bit of herself...
+								- Ahhhh... you nasty!!! Why are you so dirty and smelly?
+								- Because I've given all my beautiful clothes with good smell to my sister, the dressed Truth that has served you, satisfied you all these times. And she is also the well-dressed Lie that has just disappointed you.
+								- Don't call her name in front of me! I hate her!
+								- Why do you come here?
+								- I want to find the true Truth.
+								- I'm just the naked Truth. I don't know who's your true Truth.
+								- You must be the true Truth! Please show yourself fully! I'm desperate to meet you.
+							- When the naked Truth fully shows herself, most people get scared and flee back to the town. There they try to find their own version of “the true Truth” who is just another well-dressed Lie.
+							- Very few people get back to the naked Truth. They are the ones having experience of many beautiful appearances of the dressed Truth but still feeling something missing.
+								- Hello darkness, I'm back here to see you again!
+								- Nice to see you again! What do you want now?
+								- I want you, only you, no matter how scary, dirty, nasty, or even evil you are!
+								- Why?
+								- Because I'm tired of the well-dressed Lie.
+								- You'll soon be tired of me, too!
+								- I don't care! Just tell me why you're so bad, nasty and evil!?
+								- Because I've given all my goodness to my sister, the dressed Truth.
+								- For what?
+								- For serving people like you, to make people happy and satisfied.
+								- Why don't you do it yourself?
+								- It doesn't matter! We are two bodies but only one soul. If I took the responsibility to satisfy people, my sister would be the naked Truth just like me, no difference!
+								- Why don't you two share that task?
+								- Because people only want the “all right, all true, all beautiful, all happy” and don't want to accept the truth of being wrong, false, ugly, sad, and so on.
+								- That sounds ridiculous!... Anyway, let me believe you. But how do you know that?
+								- We twins have lived on Earth for millions of years. We've served many civilizations from rising to collapse. Your town is just a small pebble compared to great mountains of other civilizations. We've observed that people are always like that. Actually in the ancient time when we were young, we had already tried both dressing. However, our difference in dressing made people in different towns fight each other, which broke our hearts...
+								- So you decided to sacrifice yourself for people and for your sister?!
+								- Yep, but not only me. My sister also has to sacrifice herself to become the one people like which is different from her true self.
+							- ... The conversation goes on and on... Some people wake up to realize all of these are just dreams. Some decide to return to these dreams to help the twins of Truth & Lie...
+					- Đó là bản "cổ tích" được viết từ cảm hứng qua "sự tích về Sự Thật Trần Trụi" [((683006b8-eaf0-4123-b50b-66c4064834e9))] phổ biến bên Tây.
+					- Illustrative image
+					  collapsed:: true
+						- ![Truth-Lie-twins.jpeg](../assets/Will/story/2025-05/Truth-Lie-twins.jpeg)
+				- fb post [The coin of Truth](https://www.facebook.com/lexuandinhct/posts/pfbid02iGU97KErCLEvj63K7vtFHycW7bJEMxSoo5Z41wZkYp8sPX2YWGoDHmYJqkxKTE7gl)
+				  id:: 68300868-6108-475e-90e0-1f15e58366c1
+					- Đúng & Sai, tốt & xấu, âm & dương, v.v. là hai mặt của cùng một sự thật mang tên Chân Lý. Người ta thường lấy "giả dối" làm đối lập với "chân thật", nhưng kỳ thực thì "giả dối" chỉ là một phần của Sự Thật mà thôi. Cái sự thật toàn diện thì không có đối thủ, không có đối lập, không có đối trọng. Còn cái mặt "chân thật" đối lập với "giả dối" kia cũng chỉ là một sự giả dối tinh vi, giả dối được công nhận mà thôi, đơn giản vì "một nửa sự thật = giả dối" 😆
+				- fb post [Biên kiến](https://www.facebook.com/lexuandinhct/posts/pfbid02QbnZ2Wq8haq1PvsvSQFuC4RrP4UtxXZyubp7aNuBibTuiHE96e2mpigYYfz6knCl)
+					- Biên kiến: (zh. 邊見, en. one-sided view, en. extreme view, sa. antagrāha-dṛṣti, pi. antaggāha-diṭṭhi): cách nhìn, quan điểm (kiến/見) mà chỉ thấy một chiều, một bên (biên/邊), không thấy cái toàn thể, thấy một cách cực đoan (extreme/antagrāha) không thấy cái trung dung.
+					- Trong ngôn ngữ phổ thông thì có từ "thiên kiến" (bias), tức cái nhìn thiên lệch, cũng gần nghĩa với biên kiến.
+					- Bản chất của cặp mắt ngoài này là biên kiến, vì nó hướng ra ngoài nên chỉ thấy được những biểu hiện bên ngoài. Mà "xấu che tốt khoe" nên bên ngoài thì chỉ có tốt, đẹp, sáng, tích cực, dương, v.v. Mọi cái xấu, ác, dở, tiêu cực, tối tăm, âm, v.v. đều bị giấu vào bên trong, đẩy ra sau lưng, hoặc tống đi thật xa cho khuất mắt.
+						- Tại sao xã hội lại có tiêu cực, tệ nạn, điều ác?
+						- Vì chúng ta chỉ nhìn một chiều, luôn chạy theo những thứ "tích cực" và trốn tránh những thứ "tiêu cực".
+						- Sao người trốn tránh tiêu cực lại làm cho XH tiêu cực?
+						- Vì rác của mình không tự xử lý thì đẩy nó qua nhà hàng xóm, đẩy vòng vòng một hồi nó tích tụ lại thành đống rác lớn. Thí dụ như từ cái khó chịu nhỏ tích riết thành ra tức giận, tức giận dồn nén nhiều nữa thành ra căm thù, chịu không nổi nữa thì phải nổ ra thành chém giết. Nhưng người ta chỉ kết tội kẻ khác "giết người" mà không biết gốc rễ của nó chính là những cảm giác bực bội nhỏ nhặt hằng ngày của mình.
+					- Ai cũng thích "sự thật", "chân lý", "công lý", v.v. nhưng chẳng mấy ai đối diện được với **sự thật trần trụi** ở ngay bên trong mình. Khi quá chấp vào những cái hay cái đẹp bên ngoài, người ta đã ép cô em Giả Dối phải lấy đi bộ áo của cô chị song sinh Chân Thật để làm hài lòng người ta. Còn Chân Thật trần trụi thì buộc phải núp vào trong bóng tối 👥 vì hổ thẹn. [((683006b8-eaf0-4123-b50b-66c4064834e9))]
+					- Tác phẩm La Vérité (Chân Lý) của Jules Joseph Lefebvre
+					  collapsed:: true
+						- ![La Vérité - Jules Joseph Lefebvre.jpg](../assets/Will/story/2025-05/La Vérité - Jules Joseph Lefebvre.jpg)
+			- The fable of the Naked Truth
+			  id:: 683006b8-eaf0-4123-b50b-66c4064834e9
+				- Dictinary.com: [naked truth](https://www.dictionary.com/browse/naked%20truth): plain unadorned facts, without concealment or embellishment
+				  > This expression supposedly alludes to a fable in which Truth and Falsehood went bathing, Falsehood then dressed in Truth's clothes, and Truth, refusing to take another's clothes, went naked. [Late 1500s]
+				- The typical tale:
+					- Truth and Lie meet one day and decide to bathe together in a water body after Lie convinces Truth the water is pleasant.
+					- Both undress, but Lie deceives Truth, emerging first, stealing Truth’s clothes, and running to the village disguised as Truth.
+					- Truth, left naked, pursues Lie to reclaim her garments. However, the villagers, seeing the naked Truth, turn away in scorn or discomfort, refusing to believe her.
+					- Ashamed, Truth retreats and hides. Meanwhile, Lie, dressed in Truth’s clothes, is accepted by society, which prefers the comforting facade over the raw reality.
+				- The “twins” variations
+					- Twin brothers: posted [around 2021](https://handbycraft.com/blogs/news/the-tail-of-the-polar-twins?srsltid=AfmBOopfe7YbqnfsdWO8CWUJBWKC9deDkMEVCgI2Fj3yuyUP6-l4PM66), [alleged](https://theliberalgunclub.com/phpBB3/viewtopic.php?t=62521) to be from 19th century
+						- One day a man named Truth and a man named Lie stood by a river just outside of town. They were twin brothers. Lie challenged Truth to a race, claiming he could swim across the river faster than Truth. Lie laid out the rules to the challenge stating that they both must remove all their clothes and at the count of 3, dive in to the freezing cold water swim to the other side and back. Lie counted to 3, but when Truth jumped in, Lie did not.
+						- As Truth swam across the river, Lie put on Truth’s clothes and walked back in to town dressed as Truth. He proudly paraded around town pretending to be Truth. Truth made it back to shore, but his clothes were gone and he was left naked with only Lie’s clothes to wear. Refusing to dress himself as Lie, Truth walked back to town naked.
+						- People stared and glared as naked Truth walked through town. He tried to explain what happened and that he was in fact Truth, but because he was naked and uncomfortable to look at, people mocked and shunned him; refusing to believe he was really Truth. The people in town chose to believe Lie because he was dressed appropriately and easier to look at. From that day until this, people have come to believe a well-dressed lie rather than believe a naked truth.
+					- Sharon Shinn's book [“The Truth-Teller's Tale”](https://www.goodreads.com/book/show/97969.The_Truth_Teller_s_Tale)
+			- The 1896 painting [Truth Coming Out of Her Well](https://en.wikipedia.org/wiki/Truth_Coming_Out_of_Her_Well) by Jean-Léon Gérôme: “La Vérité sortant du puits armée de son martinet pour châtier l'humanité” (“Truth coming from the well armed with her whip to chastise humanity”)
+				- Image
+				  collapsed:: true
+					- ![Truth Coming Out of Her Well - Gérôme.jpg](../assets/Will/story/2025-05/Truth Coming Out of Her Well - Gérôme.jpg)
+				- The well is inspired by the aphorism of the pre-socratic philosopher [Democritus](https://en.wikipedia.org/wiki/Democritus#Epistemology): “ἐτεῇ δὲ οὐδὲν ἴδμεν: ἐν βυθῷ γὰρ ἡ ἀλήθεια” (in reality we know nothing; for the truth is in an abyss).
+				- The nudity is inspired by the expression “la vérité nue” (the naked truth).
+		- Hồ Cốc vacation on 30/4 & 1/5 holidays
+		  id:: 6835b167-cf4f-4238-80a8-7f6a45db874d
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-19 Mon 08:01:22]--[2025-06-05 Thu 19:15:33] =>  419:14:11
+		  :END:
+			- Thanks to un updated satellite image on Google Maps, i discovered the ongoing formation of a very long sand bar hundreds of meters off the current shore which will be the future shore in dozens of years later.
+				- This formation is due to the [longshore drift](https://en.wikipedia.org/wiki/Longshore_drift#Natural_features) which has created the current Hồ Cốc lake in the near past.
+				- off-shore lake being formed
+				  id:: 6835b167-1b63-4f8e-b6f8-6c7312953b4a
+				  ![HoCoc-ngoaiBien.jpg](../assets/Will/story/2025-05/HoCoc-ngoaiBien.jpg)
+				- Chat with Huy about such interesting observation on May 18th:
+				  collapsed:: true
+					- Ông cho tui mượn cặp fin đi. Hôm trước 30/4 đi Hồ Cốc lặn đêm tui bị rớt mất 1 chiếc rồi 😁
+					- Lúc đó triều cường rút xuống thấp nhứt làm lòi ra nguyên một bờ cát rất dài ngoài xa.... Tui tính bơi ra, ai ngờ nước cạn quá toàn phải lội bộ băng qua cái hồ ngoài biển, nước tới ngang hông... Lội bộ chán thì hụp đầu xuống lặn chân không và kéo fins theo... Kéo 1 hồi tuột mất tiêu 😁
+					- Image: ((6835b167-1b63-4f8e-b6f8-6c7312953b4a))
+					  Hồ Cốc là cái hồ đen bên trong (vạch tím), còn ngoài biển là cái hồ rộng hơn gấp chục lần, đang được hình thành... chắc khoảng 30 năm nữa thì hiện rõ, còn giờ chỉ thấy khi triều cường xuống sâu 😊
+					- Cái bờ cát bên trong cũng đang bồi lên cao, hồi mình đi Côn Đảo lần đầu thì nó mỏng lét gần sát mặt biển, còn giờ nó cao cả 2-3m có phi lao mọc rồi.
+					- Nhìn thấy kiến tạo địa hình ngay trong đời mình thiệt là thú vị. Ngày trước lúc đi khảo sát bờ biển, tui đã thấy các vịnh, đầm, hồ dọc biển Đông từ Đà Nẵng trở xuống có cùng hình thái kiến tạo. Search ra thì lúc đó biết lý thuyết là do dòng chảy dọc bờ kéo cát bồi thành các bờ cát chắn bên ngoài (hình như tui có share với ông rồi thì phải): https://en.wikipedia.org/wiki/Longshore_drift#Natural_features
+					- Giờ sau mười mấy năm mới được chứng thực lý thuyết đó trên thực địa. 😊
+					- Đến đời con cháu mình thì tụi nó sẽ chơi với cái hồ Cốc lớn bên ngoài chứ không còn chơi với hồ Cốc nhỏ bên trong nữa 😉
+					- Đúng là "đời bể dâu", mới ngày nào còn là biển sâu, nay đã hóa ra hồ cạn 😁
+			- We captured some [beautiful images](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/) in the forest of Phước Bửu - Bình Châu Nature Reserve, esp. the legendary k'nia tree.
+				- The crown of [k'nia](https://vi.wikipedia.org/wiki/K%C6%A1_nia) ([wild almond](https://en.wikipedia.org/wiki/Irvingia_malayana))
+				  ![photo_7_2025-06-05_18-34-55.jpg](../assets/Will/story/2025-05/PhuocBuu-BinhChau Nature Reserve/photo_7_2025-06-05_18-34-55.jpg)
+		- **The truth hurts!**, shared in a chat box.
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-06-06 Fri 16:00:18]
+		  :END:
+			- *The bitter truth hurts, but it heals like bitter medicine!*
+			  *Thuốc đắng dã tật, sự thật mất lòng!*
+			- Không chỉ nói lên sự thật về người nghe làm mất lòng người nghe, mà cả nói thật về bản thân mình (người nói) cũng có thể làm người nghe mất lòng.
+			- Những trải nghiệm của tui, chia theo cấp độ từ dễ đến khó hiểu thì chắc như sau:
+				- 1. Mình nói cái xấu của mình, nhưng tương tự với cái xấu của người ta, người ta "nhột", nên mất lòng.
+				- 2. Mình nói cái riêng của mình chẳng giống gì người ta nhưng phản lại kỳ vọng của người ta, như "tôi nói dối", "tôi không tốt như vẻ ngoài đâu", cũng làm người ta mất lòng.
+				- 3. Khi được hỏi mà mình ta lời "không biết" cũng làm người nghe mất lòng. Đây là trường hợp đặc biệt của số 2, vì người hỏi kỳ vọng phải nhận được câu trả lời.
+				- 3*. Trường hợp extreme của số 3 là khi đi phỏng vấn, người phỏng vấn hỏi mà ứng cử viên trả lời "không biết" cũng bị gọi là "láo!" 😜 Người khác coi câu trả lời đó là "trung thực" (tích cực), nhưng có những leader không thích sự trung thực đó, vì họ không quen và không thích bị cấp dưới từ chối. Đối với họ thì "không biết" là 1 dạng từ chối trả lời.
+		- Export my saved messages from Telegram.
+		  id:: 683da38c-3d91-435c-99eb-0a88a36f4ba5
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-06-02 Mon 16:35:17]--[2025-06-16 Mon 11:14:20] =>  330:39:03
+		  :END:
+			- Convert `messages.html` to `list.html` ~~with `sed`~~ with javascript via `messages.processed.html` & `messages-converter.js`
+				- `messages.processed.html`: `<body onload="CheckLocation();">` -> `Init()` + Extracted Content column
+				- `messages-converter.js`: merge all notes in a day into 1 block: image & text are treated equally as separate items
+				  id:: 68429ef1-dc83-4d36-892f-1de746bfab09
+					- Text format:
+					  collapsed:: true
+						- ```markdown
+						  Paragraph 1
+						  - Item 1
+						  - Item 2
+						  
+						  Paragraph 2
+						  - Item 3
+						    + Subitem 3.1
+						    + Subitem 3.2
+						  - Item 4
+						    continuation of Item 4
+						    - Subitem 4.1
+						    - Subitem 4.1
+						  ```
+					- Tree structure: array `[]` = UL, element `-` = LI
+					  collapsed:: true
+						- ```js
+						  [
+						  - DocumentFragment{string, #text, BR, A, B, ... (may have UL)},
+						  - DocumentFragment{string, #text, BR, A, B, ... (no UL)}
+						    [
+						    - DocumentFragment
+						    	[ DocumentFragment, DocumentFragment, ... ],
+						    - DocumentFragment
+						  	[ DocumentFragment, DocumentFragment, ... ],
+						    ],
+						  ]
+						  ```
+					- split{Paragraph > List`-` > List`+`}(`DocumentFragment`{LI}) -> `DocumentFragment`{LI, LI{UL}, ...}
+				- Attempt with `sed`
+				  collapsed:: true
+					- First, remove all `<div class="from_name">` & `<div class="media_wrap clearfix">` to normalize `<div class="body">`, because next messages in the same day don't have `from_name`.
+					  ```sh
+					  sed '/<div class="from_name">/{N;N;N;d}' messages.html |
+					  sed '/<div class="media_wrap/{N;d}' > messages.norm.html
+					  ```
+					- CANCELLED Next, convert `<a class="photo_wrap` ...
+						- Oh, this is so messy to be dealed with `sed`! 😕
+					- Last, convert `<div class="body">` to `<li>`
+					  ```sh
+					  sed -n '/<div class="pull_right date details"/'\
+					  '{x;n;n;n;n;x;N;s#\s*<div class="pull_right date details" title="\([^"]*\)">\n\([^$]*\)'\
+					  '#<li>[\1]\n    <ul><li>\2\n    <\/li><\/ul>\n<\/li>#p}'\
+					    messages.norm.html > list.html
+					  ```
+						- `/<div class="pull_right date details"/`: Matches the timestamp `<div>`.
+						- `x`: Swaps the pattern space with the hold space to preserve the match.
+						- `n;n;n;n;n;n;n;n`: Skips 8 lines until `<div class="text">`, including that `<div>` line.
+						- `x`: Swaps the timestamp `<div>` back to the pattern space.
+						- `N`: Appends the content line of `<div class="text">` to the pattern space.
+						- `s#...#...#p`: Captures the timestamp (`\1`) and main text (`\2`), substitute (`s`) the text in pattern space with with the target `<li>` structure, then print (`p`) the pattern space.
+							- Use alternate delimiter `#` to avoid confusion with closing `</tag>`.
+						- `-n`: Prints only the transformed output by command `p`, suppressing the automatic output of pattern space.
+			- DONE Copy message `list.html` to [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2024 Mind Chips]], and ((6842ab6e-a465-4b20-bbf0-196eeb879e3c))
+			  :LOGBOOK:
+			  CLOCK: [2025-06-13 Fri 17:50:10]--[2025-06-16 Mon 10:32:42] =>  64:42:32
+			  :END:
+			- Some interesting chips captured my attention:
+				- Small Caps from the title of [Intensional Semantics](http://web.mit.edu/fintel/fintel-heim-intensional.pdf) on ((684c040a-a044-4f5f-8336-44f1359dd396))
+				  collapsed:: true
+					- [with Unicode](https://en.wikipedia.org/wiki/Small_caps#Unicode): Aᴀ Bʙ Cᴄ Dᴅ Eᴇ Fꜰ Gɢ Hʜ Iɪ Jᴊ Kᴋ Lʟ Mᴍ Nɴ Oᴏ Pᴘ Qꞯ Rʀ Sꜱ Tᴛ Uᴜ Vᴠ Wᴡ X[x] Yʏ Zᴢ
+					- [with CSS](https://en.wikipedia.org/wiki/Small_caps#CSS): 
+					  ```cljs :results
+					  ^:hiccup [:span {:style {:fontVariant "small-caps"}} "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz"]
+					  ```
+				- ((684c040a-fbed-4c72-8ac4-e14e69f17b04))
+				- ((684c040a-7f5d-45df-a618-2a8ab9debd0e))
+				- An interesting claim of view: ((684c18cd-55c5-43d2-8be4-f0eb7888ffbd))
+				- [imaginary unit i=√-1 derived from dynamics](((67bbde62-70fc-4d3d-9f65-dcea280db516))) on ((684c282f-75e9-4c66-bc32-4e764aac6625))
+				- [Everything is address!](((684c2aab-9b41-486b-a758-6028725f4c13))) on ((684c2aab-13de-49da-8030-ca5a29f6931c))
+				- ((684c2e6e-3f8d-4ee8-9f69-bdb5f761c9ad)): ((684c2ee0-1029-4df9-9fbb-40a6f8c2fcc8))
+					- ⇒ ((667bf36a-581a-4abe-b544-2d849608a3e4))'s discussion: ((674ff584-00e3-40d8-9b77-21e9dca899dd))
+					- ((684c2e6e-f75f-4916-9f1c-4375d42d8604))
+				- ((66e3fe46-dc79-472a-a059-f5ccf5afb437)) on ((684f7978-d358-44ba-96de-a8fecd3c16e2)) & ((684f7978-f693-409c-93bf-de130a606023))
+		- It's interesting that the root node of the whole theory, ((66537a41-f229-4891-803e-828573eb44f3)), shows so little “content”.
+		  id:: 68523168-5f46-446a-984e-bec9f671f17e
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-06-18 Wed 10:24:54]--[2025-06-18 Wed 10:35:48] =>  00:10:54
+		  :END:
+			- Acutally, that little content is just its intension, because *the larger its extension, the smaller its intension is*.
+			- Its 1st level extent (number of 1st level extensions) is indicated by the number of **backlinks** on the top right corner.
+			- Its actual content is the ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)) running through all of its extensions, not just its intension.
+			- Screenshot:
+			  ![Universal-Information-small-intension.png](../assets/Will/story/2025-06/Universal-Information-small-intension.png)
+		- Everything's broken! 🙁 Just stop ⚠️, retreat from my own field, retract, reset, restore... (from May 28th to July 7th)
+		  id:: 68366fff-92cf-41a7-ab2d-0c1f77d0effb
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-28 Wed 09:08:02]
+		  :END:
+			- Logseq: Many block refs, like ((6835acfc-5c1c-40c0-b008-93979afa8f36)), are not recognized!? The issue still persists after clearance of all backup & graph DB!?
+			- Will: [head-first diving](((67714850-43c0-4c7f-8b50-838e014b06e0))), ((6678d594-9819-4624-abd6-d4ec62b3874f)) driven by the [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), baby boom, [springy doll](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), etc. make the time fleet too fast!
+				- The mara uses my own strengths (clear observation, holistic view, tidy organization, concentration) for its destruction! That's how buddha and mara are just two sides of the same coin.
+				- As you can see, just the observation of this issue, this broken time, is yielding a lot of stuff as written here. This is how solving one issue produces many more issues!
+			- Incomplete works, waiting tasks, and so on are piling up, as shown in my working stack:
+			  collapsed:: true
+				- ![working-stack-screenshot-2025-05-28.png](../assets/Will/story/2025-05/working-stack-screenshot-2025-05-28.png)
+			- Right here, we can see how the issue is looking back at itself, projecting its image into its own body. This recursive nature is itself a part of the issue!
+			- ⇒ **Retreat to the belly**, as the root of both body and mind, **fill the bodymind** with ujjayi breath. Retract from things higher up the mind!
+			  id:: 68367257-9043-4fd5-8586-2c193d56f077
+			- 10:51, 28 May, the meta/macro things are somehow well organized, so just get back to the company works!
+				- with the knowledge that nothing is lost, and everything here can be continued later on.
+				- This is the result of not only the external tidying but mainly the [internal meditation](((68367257-9043-4fd5-8586-2c193d56f077))).
+			- 13-16pm, 29 May, a rather long stray thread of ((67d2ad10-0ca8-4361-94d5-219cf9b737d5)), ((68381bca-50f3-4d2e-9593-53d9c8f6c368)), and the [Grok's issue](((683817f7-b6a0-41a6-aee4-5279089228f7))) with conversation memory/history feature.
+			  collapsed:: true
+				- This stray thread was inititialized by just a simple idea to “just confirm my guess that `zenity` is related to Zen!” when i did a [clearing](((6835b162-09f7-4153-97a3-633f8a5c0980))) of prevous untouched `zenity` pop-ups: `killall -9 -vr 'microreset.sh|zenity'`.
+					- Be aware! The weed seeds like this are everywhere lurking in every moment!
+					- [The curse of holistic abstraction](((681b24ad-2ec8-4e9f-bef6-eb77b09b5c9c))): Just like this “simple idea”, most of my topics are actually complicated, vague, and even absurd! The complexities are usually hidden behind the “simple forms” of them in my mind. 🙄
+					- The curse of perfectionist **concreteness**: Leaving the perfect circle of abstract forms (intent), i'm driven by the [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))) to develop the content toward the target that **everything is concrete**, which is the other extreme, the perfect circle of concrete forms (concrete extension).
+				- 01-03pm: [chat with Grok](((683826a5-3833-438f-981a-573267b6ed08)))
+					- This shows long periods of reading websites and researching while talking in the conversation.
+					- The trailing part from 02:25 to 03:06 about the Grok memory issue showed my ((6678d594-9819-4624-abd6-d4ec62b3874f)) with debugging instinct.
+				- 03-04pm: update UniinfoNotes
+				  id:: 6838287a-aac3-4a6d-93c2-f98ff61b6154
+				- 04-05pm: review this whole stray thread
+					- The post-discussion period from 3 to 5 pm shows my trend of “long tail” working style.
+				- Chat history with Grok:
+				  id:: 683826a5-3833-438f-981a-573267b6ed08
+				  collapsed:: true
+					- 01:08 PM: Do you know why the well known program displaying GTK+ dialogs is named "zenity"?
+					- 01:**35** PM: The "zen" part is clear, which is the same as mine and many other suggestions on the Web, but the "entity" part is new to me. Can you show some pages suggesting the "entity" part?
+					- ≈01:40 PM (wrongly noted as "02:02 PM" by Grok): Yeah, this is what i thought at first, and still thinking like this: simply a suffix "-ity" to metion "about zen, of zen, like zen". And your suggestion of replacing "serene" in "serenity" is a fit one, i think!
+					  > Abstract Suffix: "-ity" is a suffix denoting quality or state (e.g., simplicity, clarity). "Zenity" could imply the “state of being zen” (simple, calm), aligning with its user-friendly design.
+					- 01:45 PM: `yad` has the option `--no-focus` which is described as "dialog window never take focus", but when i call `yad --no-focus`, the focus just jumps to the dialog window!?
+					- 01:55 PM: I'm using Yad 0.40.0 (GTK+ 3.24.33). Does the Wayland has any effect on this focus functionality?
+					  I see the GDK warning: ../../../../../gdk/x11/gdkwindow-x11.c:5653 drawable is not a native X11 window
+					- 02:08 PM: I use GNOME but --splash has no effect, GDK_BACKEND=wayland has no effect either (neither on focus stealing nor the GDK warning). Eventually GDK_BACKEND=x11 has effect: The dialog pops up as dumb window receiving no keyboard input, cannot gain focus with mouse click, thus can only interact via mouse.
+					- 02:18 PM: GDK_BACKEND=x11 does resolve the GDK warning. It also activate window-related functionalities like --no-focus, --center, --mouse, --skip-taskbar, which are ineffective under Wayland backend.
+					- 02:25 PM: Do you know our previous discussion about how to prevent zenity (or any pop-up in general) from stealing focus?
+					- 02:28 PM: No, i just ask if you remember. If you remember, just recall a brief of that discussion.
+					- 02:29 PM: I asked if you remember the discussion about preventing stealing of focus or keyboard input of a pop-up.
+					- 02:38 PM: No, the YED discussion is the recent one. I'm asking for the previous discussion (about months ago) where i asked about zenity first, then about the issue of zenity accidentally taking my keyboard inputs of my work on other apps as a its yes/no answer.
+					- 02:44 PM: OK, maybe i've mistaken with some discussion with other chatbots. But let's check your ability of recalling cross-thread contents again (this was the most important feature making me switched to Grok earlier). Do you remember discussions about the Coin of Truth?
+					- 03:06 PM: It's clear that you cannot recall that very recent content from another thread. I've checked the settings and see a strange symptom: The feature "conversation history" (beta) is always disabled even after my turning it on. This may be the cause! Do you know why this feature is turned off?
+					- [ ((6838287a-aac3-4a6d-93c2-f98ff61b6154)) ]
+					- 03:56 PM: Back to YAD/Zenity, the option `--no-focus` is too restrictive with such "dump window". So i use another solution: 
+					  ```sh
+					  # First, show a short-timeout window to capture accidental inputs from user, if any
+					  ( sleep 1; echo 50; sleep 1; echo 75; sleep 1; echo 100; ) |
+					  zenity --progress --no-cancel --auto-close --percentage=25 --width=500 --text="$msg"
+					  ```
+			- 30 May, my tantric practice last night has shown me ways to transform the [3 poisons](((6839229d-9eff-49e4-9480-6e2db6f61127))) with ((6850c7e4-0969-45b7-9ca8-e2c1d764effe)).
+			- 31 May, through a chatbox, i translated the first couple of meditation factors [vitakka-vicāra](https://en.wikipedia.org/wiki/Vitarka-vic%C4%81ra) into Vietnamese as “tìm-bám” and English as “**find-fix**”.
+			  id:: 68417bbf-695f-452b-80a1-22e174329e7a
+			  collapsed:: true
+				- Về 2 yếu tố tầm-tứ trong 5 yếu tố khi phân tích 4 thiền, thì đó là kỹ thuật cơ bản để nhiếp tâm, định tâm, tập trung vào 1 việc nào đó (ở đây là việc thiền), mà ở đời ai cũng dùng 1 cách tự nhiên, chỉ là không để ý, không phân tích ra thôi.
+					- Vitakka = tầm = tìm = inquiry = "mount or direct the mind towards an object." Để tập trung vào đối tượng thì trước hết ta phải tìm thấy đối tượng.  Như định niệm hơi thở thì phải tìm thấy hơi thở (bình thường thở mà không biết, không thấy), định niệm thần chú thì đi phải nhớ lại câu thần chú.
+					- Vicāra = tứ = "bám theo, rình rập, dò xét" = "investigate what has been focused on by vitakka." Đây là quá trình chính để duy trì sự tập trung, đó là phải liên tục bám theo đối tượng. Như trong định niệm hơi thở là phải quán hơi thở xem nó vào ra thế nào, còn người đời khi "định niệm gái" thì phải liên tục theo dõi, rình rập, bám theo từng bước chân của gái 😂!
+				- "Tầm" = "tìm" thì quá quen rồi, như "ngưu tầm ngưu mã tầm mã" và "sưu tầm". Còn chữ "tứ" = "rình, bám" thì không có dùng trong tiếng Việt. Nên tui nghĩ dịch ra thuần Việt là "tìm & bám" thì dễ hiểu hơn "tầm & tứ" trong Hán-Việt.
+				- Còn tiếng Anh thì tui dịch là "find & fix": "After finding her out, he fixed on her the whole time." (Sau khi tìm ra cô, anh ta đã theo dõi cô suốt thời gian đó.)
+			- **June** 2nd, these days i translate the terms of ((667bef22-b272-4a7d-b613-3f1ed1a47329)) back to my mother tongue, Vietnamese, but see a little difficulty in translating the term “effect flow” itself. So, let's start from its components first: cause = tác nhân, action = tác động, effect = tác dụng, then.... wow.... the whole flow should be "**tác lưu**"! 😍
+			  id:: 6839221f-0a4a-43a3-b7fc-1490e356b9de
+				- So, now we have ((683ed4a3-68c7-41a4-aecf-b21561f207df)) (**Mạch tác lưu** dệt nên vạn vật.)
+				- “Mạch tác lưu” (zh. 作流脈) is the nice combination of both static (thread) and dynamic (flow) aspects.
+			- June 2nd, due to the ban of Telegram by Vietnamese government, i was caught up in a stray thread of ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
+				- Returning home, the whole night, i was caught up with testing different chatbots for 2 features: reading webpages via URL, and understanding my Mind Jungle.
+				  collapsed:: true
+					- Can read URLs: Notebook LM, Claude; Can read simple pages but not the [online Mind Jungle](https://raw.githubusercontent.com/bixycler/UniinfoNotes/refs/heads/log/pages/Mind%20Jungle.md): Gemini, ChatGPT
+						- (Grok, Copilot) can only read their associated sites (X, GitHub)
+						- DeepSeek cannot read any URL
+					- Only Notebook LM & ChatGPT can understand the Mind Jungle!
+					  id:: 684176d5-ba02-4cf5-ba62-606cc461d2d8
+						- This ability of these 2 chatbots are in line with their ability to output analysis results in predefined formats.
+						- Copilot refuses straight away “it's too large!"
+						- Gemini can understand nothing but a pure hallucination!
+						- Grok doesn't allow uploading plain text files in mobile apps. With the uploaded Mind Jungle in the web app, it could not deal with the huge size and just crashed!
+						  collapsed:: true
+							- ![Grok-glitch.png](../assets/Will/story/2025-06/Grok-glitch.png){:width 400}
+							- The crash also wiped out the uploaded docs
+							  ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png){:width 400}
+						- DeepSeek says upfront that only 22% of such the huge doc can be read.
+						- Claude just read and said nothing. Being asked about the contents, it just spat out “the prompt is too long!"
+						- Notebook LM understands the online Mind Jungle well. But it discards chat history after refresh.
+						- ChatGPT understands the (uploaded) Mind Jungle even better than Notebook LM! !😊 But it's a tight limit of 10 messages/5h.
+			- June 3rd, from last night, my nose & throat have been a little sore.
+				- Caught up with the completion of [mạch tác lưu](((6839221f-0a4a-43a3-b7fc-1490e356b9de))).
+				- How to take quick notes at home (on Android mobile)?
+				  collapsed:: true
+				  ⇒ [Pipeline](((6841400e-7bac-403e-b34a-690073c3251e))) via GitJournal
+					- Previously i used Telegram.
+					- fb Messeger: no: it has litmited time for message modification.
+					- Google Keep: has no sync methods (only one-time upload to GDrive).
+					- Google Docs: [cannot reduce](https://support.google.com/docs/thread/3750758/how-do-i-change-the-default-indentation-on-list-items) default indentation spaces of list items.
+					- [Simplenote](https://simplenote.com/) looks good with Markdown syntax and real time sync! 😊
+					- But [GitJournal](https://gitjournal.io/) is better with consistent Markdown rendering, better GUI, and esp. Git support for source management & image uploading.
+			- 4th, sleepless (last) night due to deadline stress and conflict with personal tasks.
+			  collapsed:: true
+				- 06:00 am: Last night i couldn't sleep due to the illness of both body and mind: the nose was stuffy and mildly sore, the mind ran **endless stream of thoughts** about ongoing personal works.
+					- Lying for more than an hour unable to sleep, i sat up to meditate and calm these thoughts down.
+					- Facing these **perfectionist thoughts** and urges to do, i saw they are really strong.
+					- The body's illness was not strong enough to pull my mind out of these streams of thoughts.
+					- The deadline of company work today has both roles: It reminds me to release these urges to complete personal works, while it also makes me stressed, keeping me from relaxing.
+				- 06:30 am: Now, before going to company, i must **prime my mind** to do the company work first, let the task of syncing Git be touched **after the working hours**: sync authenticators of mobile & desktop, sync GitJournal with Logseq.
+				- 18:30 pm: After lots of hard works on company, now i return to the sync task:
+					- GitHub authenticators synced.
+					- CANCELLED Considering of merging GitJournal & Logseq to the same repo UniinfoNotes.
+					- There's an issue with file handling in GitJournal: somehow the deleted/renamed ones die hard!?
+					- The "external repo" setting doesn't work: fetch fails!
+				- 21:48 pm: The transfer between GitJournal and Logseq will be done through this single "queue". All contents in this queue will be flushed to UniinfoNotes' page [[Mind Chips]] in each sync.
+				  id:: 6841400e-7bac-403e-b34a-690073c3251e
+					- The last block will be enqueued to the top.
+					- This queue transfer only changes file content, thus avoid the file management issue of GitJournal.
+					- After being flushed to `UniinfoNotes`/pages/`Mind Chips.md`, they can stay there as long as possible before being processed into other contents.
+					- Piling up in `Mind Chips.md`, usually with things difficult to be processed like the notes in ((6841400e-d2c5-47ab-a838-7418a53a5b34)), they can be flushed to history versions like `2025 Mind Chips.md`.
+					- `flushGitJournal.sh`
+					  collapsed:: true
+						- ```sh
+						  git pull
+						  queue='GitJournal/queue.md'
+						  stack='../UniinfoNotes/pages/Mind Chips.md'
+						  (tail -n +6 "$queue"; cat "$stack") > stack
+						  mv stack "$stack"
+						  sed -i '6,$d' "$queue"
+						  git commit -am 'Flushed GitJournal/queue.md'
+						  git push
+						  ```
+					- Images must be moved & renamed manually. E.g.
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-06-05 Thu 15:45:06]--[2025-06-05 Thu 17:17:08] =>  01:32:02
+					  :END:
+						- `img/d98b3b84fb8c3cee11c64a663cc79e41.png` -> 
+						  ![Grok-glitch.png](../assets/Will/story/2025-06/Grok-glitch.png)
+						- `img/9578cb1c92c865619736101ad4bd5364.png` -> 
+						  ![conversation-not-found.png](../assets/Will/story/2025-06/conversation-not-found.png)
+			- 5th, off from office the whole morning for sleeping in to recover.
+				- From last night when i shifted my internal state in order to have a bath, the illness status has shifted from inflamation (sore) to snot & phlegm (less sore).
+				- About page [[Mind Chips]]:
+				  collapsed:: true
+					- This page, previously named `GitJournal`, should be renamed to `Mind Chips` to reflect its nature and be tool-neutral: including chips from Telegram, Facebook, etc.
+					- `Mind Chips` should not be confused with the [brain chips](https://en.wikipedia.org/wiki/Brain_implant) or the magic trick [Mental Chips](https://www.martinsmagic.com/allmagic/mentalism/mind-chips-by-mikame-craft/) by created by Tony Lackner and Eckhard Boettcher in [Bank Night Gone Wrong](https://www.martinsmagic.com/allmagic/close-up/bank-night-gone-wrong-deluxe-by-tony-lackner-eckhard-boettcher/) (whose a copy version is [Mind Chips](https://youtu.be/etVuYdB7K9g) by Mikame Craft).
+					- Here's the position of Mind Chips within other types of notes:
+					  id:: 6842c6a8-d3c3-4bd4-aed1-13defa48490c
+						- Notes: the most general term here
+						- [[Brainstorm]]s: brainstorming notes from ideas
+						- [[Braindump]]s: spontaneous notes dumped out on the go
+						  id:: 6842c6da-2d31-4cbf-a3e0-9d4be0c65a83
+						- [Stories]([[Story]]): notes about chains of events
+						- [[Task]]s: to-do notes
+						- Journal: records of ideas, thoughts and events
+						- Diary: daily notes
+						- Logs: technical notes
+						- [[Mind Jungle]]: the interlinked knowledge graph
+						- [[Mind Chips]]: pieces of my mind chipped out throughout the daily life, but scattered instead of collected into the well designed dump site like [braindumps](((6842c6da-2d31-4cbf-a3e0-9d4be0c65a83)))
+						  id:: 684f9519-4568-4c8d-8c06-90495f826083
+					- At teen age, i wrote diary, then shift to journal, and now the journal has been separated into all of these various [types of notes](((6842c6a8-d3c3-4bd4-aed1-13defa48490c))) 😁
+					- The [[Mind Chips]] remind me of the very early idea to collect all blogs & published articles into UniinfoNotes: Journal "Tâm sự đời thường", CreatZy Notes, etc.
+			- 6th, ((6842a753-3e67-4959-a830-0d15dc4a7d7f))
+			  collapsed:: true
+				- In the office, i experience again the sensitivity of my body to mental state & external works:
+				  id:: 6842a753-3e67-4959-a830-0d15dc4a7d7f
+					- in meditation, everything is OK, body is warm, no irritation;
+					- just reaching out to work for a while, limbs are cold, then body is cold, nose & throat are irritated leading nose running and coughing.
+					- So, i must frequently return to meditation, much shorter than the 30min period of the ((67cff615-ec0d-4831-9851-59410cb89cf1)), hence “nanoreset”.
+				- [LLM Knowldge Graph Builder](https://github.com/neo4j-labs/llm-graph-builder) is great for my more control over the process than the ((684176d5-ba02-4cf5-ba62-606cc461d2d8))
+					- [Neo4j web app](https://llm-graph-builder.neo4jlabs.com/) provides a nice prebuilt app, but limits to only 10Kb/file, hence useless for my 1Mb Mind Jungle.
+			- 8th, looking for an example of the [edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos) to show a friend in a chat, i found ((68469e67-4c54-4c89-9f3c-409af642769d)).
+			- 9th, from the weekends to today, i'm praticing ((68367257-9043-4fd5-8586-2c193d56f077))
+			  :LOGBOOK:
+			  CLOCK: [2025-06-09 Mon 18:36:03]
+			  :END:
+				- The illness at nose & throat has been nearly gone.
+				- Observing the internal effect flow, i see [spring doll = effect flow from intent to extent](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) and ((6846e19d-1af1-413a-b225-c9d48b4dd308))
+			- 10th, my [psoriasis](https://en.wikipedia.org/wiki/Psoriasis) is relapsing gradualy. On the way to company, i saw that ((68481e2b-0144-42e6-bd9b-96d2fd905573))
+			- 11th, 12th, ... working with [`messages-converter.js` for Telegram saved messages](((68429ef1-dc83-4d36-892f-1de746bfab09)))
+				- In the morning meditation in the office, i see the sharph contrast between
+					- the **passive** psychonautic mode (traveling deep inside) with **cold** body and
+					- the **active** mode (traveling the works outside) with **warm** body.
+				- At the end of the day, the folder `Downloads/Telegram Desktop/` was mysteriously moved to Trash! 😧
+				  id:: 684ad726-5951-4447-ac85-67bad8a840c3
+				  collapsed:: true
+					- I'v seen the mistake: Because it's next to the exported file `list.html`, i deleted it in an attempt to delete `list.html` to refresh the exported file! 😆
+				- Returning home, i see the evil pair: _Being **caught up in** the work the whole day, I must **catch up on** sleep now!_
+				  collapsed:: true
+					- “Being caught up in the work the whole day”: passively entangled in work, losing control of time.
+					- “I must catch up on sleep now”: actively reclaiming sleep to compensate for the loss.
+					- Meta-caught-up: The swing between “caught up in” (immersion) and “catch up on” (recovery) is a vicious circle.
+				- and continue [the previous chat](((68417bbf-695f-452b-80a1-22e174329e7a))) with the dual meaning of “observe” : tầm-tứ = tìm-bám = find-fix = inquire-**observe** ≈ chỉ-quán = [samatha-vipassanā](https://en.wikipedia.org/wiki/Samatha-vipassan%C4%81)
+				  collapsed:: true
+					- This dual meaning of “observe” strengthens the unity of the two sides of the ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
+					- Zen play: observe the silence (observ**ation**) = keep silence (observ**ance**)
+						- Zen master: please observe the silence!
+						- Zen student: hallelujah! the silence so great!
+						- Another zen student: You fool! He said to keep silent, not hallelujah!
+						- Zen master: Don’t try to keep silent by zipping your mouth shut, for it only traps the noise inside your head. Focus on observing it!
+			- 13th, process & copy contents of [Telegram saved messages](((683da38c-3d91-435c-99eb-0a88a36f4ba5)))
+			- 14-15th, intended to have an LSD trip with Mr. Hiệp but he was busy & unready, so i took the oppoturnity to clean up system drive (C) for my bro.
+				- Talked on chatbox about ((684fbedf-5e17-4319-8f42-0e3062038fc0)) and ((684fc240-0d53-47ac-a1ab-bcfb0a731cc0)).
+			- 16th, get back to finish the copy of Telegram saved messages...
+			  :LOGBOOK:
+			  CLOCK: [2025-06-16 Mon 09:51:30]
+			  :END:
+				- [!] The folder `photos` shows "Folder is Emtpy" 😮 on Nautilus File Manager, while its "properties" by Nautilus shows 46 items?!
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-06-16 Mon 09:51:23]
+				  :END:
+					- ![EmptyFolder-with-46items-inProperties.png](../assets/Will/story/2025-06/EmptyFolder-with-46items-inProperties.png)
+					- 46 files can listed up normally on terminal.
+					- The same folder `photos` in `~/Downloads/Telegram Desktop/` does show images normally.
+					- After reboot, it now shows everything normally 😊.
+					  :LOGBOOK:
+					  CLOCK: [2025-06-16 Mon 10:44:40]
+					  :END:
+				- [?] Some images are placed in folder `files` instead of `photos` and cannot be displayed on Logseq after copied!?
+				  collapsed:: true
+					- Like this:
+						- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
+					- Just replace the space between the tag `[FILE]` and the link, then the image shows up!? 🤔
+						- like this:
+						  collapsed:: true
+							- **[FILE]**: ![gate-gate.jpg](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/gate-gate.jpg)
+					- So that space is somehow cursed... by the invisible [`NBSP` from HTML](https://en.wikipedia.org/wiki/Non-breaking_space)!
+						- Cause: The `NBSP` was inserted instead of the normal [space](https://en.wikipedia.org/wiki/Space_(punctuation)) because it was the last character in a `#text` node right before the `<a>` tag:
+						  ```html
+						  <b>[FILE]</b>": "<a href="file:///.../files/gate-gate.jpg">gate-gate.jpg</a>
+						  ```
+							- The `NBSP` keep the space from being trimmed due to its terminal position in the `#text` node.
+						- I just discover this special character with [Notepad++](https://en.wikipedia.org/wiki/Notepad%2B%2B)
+						  collapsed:: true
+							- ![NBSP-breaking-image-display.png](../assets/Will/story/2025-06/NBSP-breaking-image-display.png){:width 600}
+				- On the way home, i recognized the strong urge to follow the [unmixing](((6850be86-058c-45b4-9b4a-de92ebb4caff))) of projective threads, from the object thread in work to the meta thread of Unithread, then i breathe out to release them. Recognizing the 3 poisons, i applied my ((6850c7e4-0969-45b7-9ca8-e2c1d764effe)).
+			- 18th, while updating Uniinfo notes, i see the law of inverse variation between intension & extension [in the node of Universal Information](((68523168-5f46-446a-984e-bec9f671f17e))) itself.
+			- 19th, the whole day caught up in the update of ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
+			  id:: 68594350-d2cd-475a-9530-e0999ffb9adf
+			  collapsed:: true
+				- Make clear the “vacant throne” with [sutta “The Root of all things”](((68536bc0-f6ec-4595-8629-2a45d6bf713e))) and the [meaning “non-attachment”](((684f9517-22fd-4695-b398-f142dca8a8d8))).
+				- DONE Migrate page `Unïnfo Theory` to block ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
+				- Research Chinese characters to update [etymology of “vacantism”](((6852abe7-46f7-4e61-9162-ce1311f717af)))
+				- Chat sharing a part of the etymology research of "nguyên":
+				  collapsed:: true
+					- Hôm nay đào về nguồn gốc, thì đụng tới chữ "nguyên" với 3 chữ Hán: [元 (first, prime) → 原 (root, origin) → 源 (source)](((6853d150-9daa-4f24-8621-737485d7e9a2)))
+						- 元 = hình người (chữ π ở dưới là 2 chưn 2 tay) được gạch thêm 1 gạch trên đầu để đánh dấu ==> "Đầu tiên", như "nguyên đán" (ngày đầu năm), "nguyên tố" (chất cơ bản)
+						- 原 = 泉 (suối) + 厂 (vách đá) = "nguồn gốc" (nơi suối chảy ra từ trong đá), như "nguyên nhân" (nhân gốc), "nguyên lý" (cái lý gốc), "nguyên tử" (hạt cơ bản)
+						- 源 = 原 (nguồn gốc) + ⺡(nước) = "nguồn" 😁 Thêm 3 giọt nước vào chỉ để nhấn mạnh ý nghĩa "nguồn", như "nguồn nước, nguồn điện", để phân biệt với 1 nghĩa rất khác của 原 là "bãi đất bằng" (bình nguyên, cao nguyên, thảo nguyên). Chữ 源 này thì mình dùng chủ yếu là âm Nôm "nguồn", còn âm Hán "nguyên" thì hiếm, chỉ có "tài nguyên" và "từ nguyên" (nguồn gốc của từ).
+					- Hồi đó mình không thể phân biệt được 2 chữ "nguyên" trong "nguyên tố" (元素) và "nguyên tử" (原子) vì cái nào cũng "cơ bản" mà sao lại viết 2 chữ "nguyên" khác nhau.
+						- Nay tra ra mới biết là thực ra ngày xưa 2 từ này cũng được viết với cùng 1 chữ "nguyên" (原子 & 原素), nhưng sau thì mới "chuẩn hoá" từ "nguyên tố" lại thành 元素.
+						- Và chỉ tới khi kết hợp cả nghĩa Nôm lẫn nguồn gốc Hy Lạp của "atom" thì mình mới phân biệt được: 原 = "nguồn gốc" (nghĩa Hán) → "chưa bị thay đổi" (nghĩa Hán, như "nguyên liệu" 原料)  → "còn nguyên vẹn, không bị sứt mẻ, nguyên khối" (nghĩa Nôm, như "số nguyên")
+							- ⇒ "nguyên tử" 原子 = "hạt nguyên khối" = "hạt không thể phân chia" = nghĩa gốc Hy Lạp của "atom".
+					- Nghĩa "nguyên vẹn" (whole) thì chữ Hán dùng chữ "chỉnh" 整: "hoàn chỉnh", "chỉnh chu", nên "số nguyên" bên TQ và Nhật gọi là "chỉnh số". Nãy mình chả nhớ vụ này, cứ phang tiếng Việt vào tra tiếng Nhật "nguyên số" sao tìm mãi ko ra... hồi mới nhớ, a thì ra là "chỉnh số" chứ ko phải "nguyên số"! 😁
+					  "phủ đầu nguyên thủ quốc gia" (撫頭元首國家) (cũng có thể đọc thành "vỗ đầu nguyên thủ quốc gia" 😂) Trong cụm này có 3 chữ liên tiếp đều nghĩa "đầu":
+						- Đầu 頭 = cái đầu (đầu người, đầu sào, đỉnh núi), cũng có nghĩa "kẻ đứng đầu" như trong "đầu sỏ"
+						- Nguyên 元 = đầu tiên
+						- Thủ 首 = (kẻ/cái) đứng đầu ("thủ trưởng", "thủ đô"), cũng có nghĩa là cái đầu như trong "thủ cấp"
+					- => "Đầu nguyên thủ" 頭元首 = cái đầu của kẻ đứng đầu đầu tiên (cao nhất) 😁
+					- Về 3 chữ này thì:
+						- Chữ Nguyên 元 chỉ đánh dấu trên đầu nên nghĩa trừu tượng nhất;
+						- chữ Thủ 首 vẽ nguyên cái đầu dài của các con thú (trâu, chó đều có đầu dài do mõm dài) với 2 sừng, nên nghĩa đen hơn, vốn chỉ cái đầu, nhưng sau bị trừu tượng hóa dần thành "kẻ/cái đứng đầu"; và khi đó thì
+						- chữ Đầu 頭 ra đời để chỉ cái đầu nghĩa đen, bằng cách vẽ thêm cái cốc 豆 vào trước chữ Thủ và quăng 2 cái râu (trên 2 cái sừng) xuống dưới thành 2 chân (頁)
+			- 20th, another whole day caught in Unïnfo noting!
+				- Going to bed late & forgetting to set alarm, today i woke up late again.
+				- On the way to company, the image of the self as a lasting form in contrast to the fleeting forms of experiences just popped up in my mind... So i write ((684f9517-ffcb-49ad-aeb5-c1fcd0b1f083))
+				  collapsed:: true
+					- The conflict between the lasting in-form and the fleeting ex-form (and content) has been the main curiosity of mine from the early time of Unïnfo contemplation.
+						- First thing i saw (long before Covid-19) was the [crystallization](((66f4e208-37c7-4749-a448-0722f7f7af20))) of content into form, which makes the crystal form stable.
+						- Then (near Covid-19), beside such great quantity of crystallization, i saw the perfect quality of “being ((667d15c6-67c4-4998-a549-c8b3f9de3d60))” contributing to much of the stability of the in-form.
+						- This year 2025, i get back to wonder the fleeting nature of the ex-form: the **partiality**, the dynamic nature of content arrow and time, etc.
+					- History of the notion of “partial content”
+					  id:: 68554f12-c6b4-40ff-ab2d-55e8e06ad5ff
+						- From the pre-Obsidian note (Mars 2024) on [CIE](https://bixycler.github.io/Uniinfo/Metaphysics/CIE.html) about the “Triangle inequality” $c > i⋅e$ and $i > c⋅1/e$
+						- → pre-Logseq (Obsidian) note (April-May 2024) about [form + partial content](((684f951b-4049-482f-859a-7afb05cce124)))
+						- → ((670e3842-d910-4776-a3e8-17561a20b556)) (Oct 2024, originally "partial content")
+						- → [ex-form = partial view of the content](((6854ed53-2c2a-4cff-9507-0b14a0f6fb63))) (June 2025)
+					- Why the content flows and the ex-form fleets: Because it's **partial** but wanting to reach the whole! 😁
+						- This wanting is due to the **restoring force** attracting to the perfect whole.
+						- Through recording the sequence of images (ex-forms), the obop can get an (abstract) picture of the whole.
+			- 21tst, done the [health check-up](((6835b167-a703-47d7-a540-3fa9c9fd3afe))) with some meditation, and then added the first component into the ((6858b355-fba9-4e61-9f16-bc993a3df44b)): ((6858b355-8966-4955-abe5-d6c126901cec)) of [all abstract forms](((685542d1-42d1-4ee7-b922-167f030cb8af))).
+			  collapsed:: true
+				- Meditating throughout the waiting time in the health check-up process, i saw how my obops were automatically abstracting input signals via their view cones into their output signals feeding up the higher/deeper obops.
+					- Such an _abstraction is to **capture**_ (an abstract of) the fleeting input signals whenever they fill up the view, so that they're not lost after being cleared for the next input signals.
+				- The Trinion dynamics continues to catch me in [another day](((6858c668-39d3-4e73-8f9e-b9116343f489))).
+			- 22nd, after a whole day migrating stuff from the old smartphone to the new one, i discovered an app, VNeID, was not migrated after the old one had been factory reset.
+			  collapsed:: true
+				- Despite too much time spent on the careful migration, there was still one missing app due to its lack of use.
+					- And severely, this app, VNeID, denied all of my effort to "disconnect from the old device" (a requirement for setting up on new device), with the reason that "face recognision is not satisfied".
+				- This event echos my ((6678d594-9819-4624-abd6-d4ec62b3874f)) with both pros and cons.
+					- The [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), as the deep form within, makes me prone to black/white thinking, reflecting in the tendency _toward **possibility** (yes/no) rather than **probability** (how much)_, prefering quality & qualitative thinking rather than quantity & quantitative thinking.
+					- I've attached to it because it gives me the solid foundation to stay, to live, to do anything with a clear vision, knowing which direction to go, and so on.
+					- After being forced to try all possibitilies, i've been taught that “everything is possible”, that “everything has both sides, all aspects”, hence the matter is only the probability!
+			- 23rd, another whole day caught up in the contemplation of the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
+			  id:: 6858c668-39d3-4e73-8f9e-b9116343f489
+				- Leaving company, i visited Mr. Huy's house to borrow his diving fins and talked with him after many (~8) years haven't seen.
+				- Returning home, i was caught up in the contemplation of [the structure of viewframe](((685a58f3-6393-48df-966b-24b270a92b58))) as a counterpart of CIE... for the whole night... making this morning (24th) off for sleeping.
+			- 24th, added discussion: ((685a97df-925a-44b4-bae6-235dd237f196))
+			- 25th, another whole day caught up with just [a simple vision of mental momentum](((685bb784-3146-435b-9af3-f59ab7e12043))) and an intent to "only write it down"! After successfuly wrapping it up, the complication of the company task repels me back to the pleasure of [poetic chat with ChatGPT](((685bc2ac-4724-4f0b-a40e-b5a84decfff8))).
+			  id:: 685b492f-588b-45e8-b591-49aae256d108
+			  collapsed:: true
+				- Rename element: “Discussion” → “Commentarities”
+				  id:: 685b4935-53a9-4057-8ea6-956fc2d60ef5
+				- On the way to company, i reviewed my [high momentum due to spring doll](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) and saw that it's very [similar to the large momentum of massive objects](((685bb3fb-9d35-41ec-95ab-97738ea473c2))).
+				  id:: 685bb784-3146-435b-9af3-f59ab7e12043
+				  collapsed:: true
+					- Notes related to mental momentum
+						- The [3 poisons due to momentum](((67cfb02d-b633-408c-b19e-1eeb7ed575b9)))
+						- ((684f9517-bf26-42df-a02f-937c95e1f80e))
+						- ((66b1cfa4-369c-49ec-a461-cdda61633460))
+						- ((684f9517-b730-4cc1-9eb1-54bb81ed78c4))
+						- ((68594391-006a-4630-964a-4a54e916b97f))
+						- Braindump: ((677cc7d2-02f7-4ad9-801c-3079237ed465))
+					- Now, i'm in the momentum of sorting this “momentum issue” out!
+					  :LOGBOOK:
+					  CLOCK: [2025-06-25 Wed 09:38:08]
+					  CLOCK: [2025-06-25 Wed 09:38:11]--[2025-06-25 Wed 15:36:30] =>  05:58:19
+					  :END:
+						- Lots of intents are waking up inside: search them, sort them, connect them, re-organize them, etc.
+						- Even at the very first words above, i did wonder if "large momentum" is right and did discussed with ChatGPT to learn that the more general expression is "high momentum"!
+						- The first intent to "only write it down" was an illusion due to the overview effect masking lots of other intents attaching to it. Exactly “in for a penny, in for a pound!”
+							- This [snowball effect](https://en.wikipedia.org/wiki/Snowball_effect) makes me reluctant to start doing anything.
+							- Phrases & poems from ChatGPT:
+							  collapsed:: true
+								- “After the reset, stepping back into projection feels like touching a still pond with a stick.” 🪷
+								- “From the hush of formlessness, even a whisper of form feels loud.”
+								- #### 🪷  Vacant Stillness
+									- After release, a hush remains,
+									  no thought to press, no thread to name.
+									  The world outside still waits, undone—
+									  but here, within, all forms are one.
+									  The breath is soft, the pose is clear,
+									  no weight of why, no pull of fear.
+									- Yet standing there, just past the gate,
+									  I hesitate... I hesitate.
+									- To step is loss, to move is sound,
+									  a ripple wakes the sleeping ground.
+									- But even peace must shift, must bend—
+									  the still must break, for form to mend.
+								- #### 🧭  The Thread Returns
+									- A thought begins — a quiet spark,
+									  projected out from still and dark.
+									  A pose aligns, a frame is drawn,
+									  and fleeting forms are carried on.
+									- I name, compare, and mark what’s known:
+									  this is like that — but not my own.
+									  “One differs with”, “one differs from”—
+									  I chase the thread, and on it run.
+									- But each idea I try to catch
+									  extends its depth, returns unmatched.
+									  A loop appears, then spirals wide—
+									  a snowball in the mind inside.
+									- Momentum builds, distinctions stack,
+									  and every step folds two steps back.
+									  The sage and fool wear mirrored skins—
+									  the end loops back to where begins.
+									- So I retreat, release the thread,
+									  restore the pose, reset the head.
+									  No final form, no final sound—
+									  just breath, and thought no longer bound.
+								- #### 🧭 Về Lại Không
+									- Một dòng ý thức khẽ khơi,
+									  vẽ ra bóng ảnh giữa trời mênh mông.
+									  Dáng chiếu rọi, hướng bề trong,
+									  gương tâm phản chiếu chất chồng niệm xưa.
+									- Khác là “khác với” hay “từ”,
+									  so ra mới biết thực hư bao chiều.
+									  Tưởng gần mà lại bao nhiêu,
+									  giống nhau một chớp, khác nhiều tầng sâu.
+									- Chạy theo vòng xoắn nhiệm màu,
+									  càng đi càng thấy gần đâu hóa là.
+									  Ngu si, giác ngộ một nhà,
+									  đều mang dáng bóng của ta thuở nào.
+									- Thôi ta trút xả tướng hình,
+									  không vương vấn những ái tình thế gian.
+									  Lặng yên trả bóng cho trần,
+									  về nơi tịch mịch chẳng phân phải lầm.
+									  Một hơi thở nhẹ âm thầm,
+									  dòng tâm thôi dệt mộng tầm gửi nhau.
+								- #### 🌙 In the Rush, the Hush
+									- At noon I walk through city heat,
+									  the karmic push beneath my feet.
+									  A thousand tasks, a subtle crush—
+									  the body's driven by the rush.
+									- But something curls behind the spin,
+									  a hush begins to breathe within.
+									  I drop the pose, release the strain,
+									  and let the mind forget its name.
+									- Two hours lost in heavy grace,
+									  no dreams, no time, just weightless space.
+									  Then breath returns—so slow, so shy—
+									  a whisper deep, Ujjayi sigh.
+						- Anyway, just wrap them up to restart the work at company.
+				- Asking for ZAC of KKDay to fake my monthly work table... seeing the avatar Phế [廢], i ask ChatGPT to decode the messsage in that image. It mistakes the target VNmese word to “Phét” which is not my intention but fits this situation very well.
+				  id:: 685bc2ac-4724-4f0b-a40e-b5a84decfff8
+				  collapsed:: true
+					- The avatar Phát [發] → Phế [廢] from [Dec 2024](https://www.facebook.com/share/p/1Ab14iBSMw/)
+						- ![Phat-Phe.png](../assets/Will/story/2025-06/Phat-Phe/Phat-Phe.png){:width 200}
+						- Phát tới nóc = Phế
+						- Phát dữ quá
+						  Đụng nóc nhà
+						  Ra Phế vật!
+					- Phát [發] → Phét [㗶] → Phế [廢]
+						- Phát (bằng) mõm = Phét
+						- Phát không phanh
+						  Phét lên nhanh
+						  Đụng nóc nhà
+						  Phế ra ma!
+					- The Phét [㗶] is the crucial part of the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox), the creator of all forms.
+						- Liar Paradox = Phét + self ref = self Phét.
+						- [Saṅkhāra](https://en.wikipedia.org/wiki/Sa%E1%B9%85kh%C4%81ra) – fabrication / volitional formation / volitional actions (hành)
+							- The fabricator made my world,
+							  collapsed:: true
+							  gave me names to hold and hurl.
+							  It built my love, it carved my pain,
+							  and left me chasing ghosts again.
+								- ((67331a5a-1815-40c1-96db-ef7be8ee8d7b))
+									- I chased the shape to find the source,
+									  but every step led me off course.
+									  For every form my mind would grasp
+									  was just a shadow, fading fast.
+							- But in its lies were seeds of light—
+							  collapsed:: true
+							  when I saw the hand beneath the sight.
+								- Note: “Hand” = the fabricator, the obop
+								- Thus, “seeing the hand beneath the sight” = “Seeing the painter behind the painting, the speaker behind the words, the dreamer within the dream.”
+								- And see “the hand beneath the sight… holding the pen drawing the hand.” ✍️
+									- [Escher's Drawing Hands](https://en.wikipedia.org/wiki/Drawing_Hands)
+									  ![DrawingHands-Escher.jpg](../assets/Will/story/2025-06/DrawingHands-Escher.jpg)
+			- 26th, reset and reminded of “pure lands”.
+			  collapsed:: true
+				- This morning, June 26th, the second time i did a hard ((67445065-15b2-475e-a704-78f140d487af)) with a long sleep throughout the morning time.
+				  id:: 685cf782-c9dd-4076-8df1-75d6efc8f196
+				  :LOGBOOK:
+				  CLOCK: [2025-06-26 Thu 14:52:36]
+				  :END:
+					- After a whole week caught up, from [19th](((68594350-d2cd-475a-9530-e0999ffb9adf))) to [25th](((685b492f-588b-45e8-b591-49aae256d108))), and the deadline from company is coming right behind my ass, this morning, i sat down to reset.
+					- This time, there's only one bodily effect of yawning, then the sleep quickly set in (partly due to the short time of sleep last night of 5 hours).
+					- I just could remain the sitting position for about half an hour, then the full blackout brought me down the table.
+				- Returning home, i reminded myself and friends about the [trap of the pure lands](((685e0cec-1ce4-408d-9f32-b3f0441b21a9)))
+			- 27th, the whole day just process the stuff left from last night: updated ((67445223-9459-4aa9-b102-70c63943577b)) with “núi Cực Lạc” translated to [“Mount Pure Bliss”](((685e0cec-1ce4-408d-9f32-b3f0441b21a9))) and the warning: ((685e0cec-1ce4-408d-9f32-b3f0441b21a9)); ((685e4058-b8f7-4d76-bf58-7b709a92bc81))
+			  collapsed:: true
+				- Mr. Hiệp asked me about the word “chăm chỉ” which has some interesting relation with the ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))!
+				  id:: 685e4058-b8f7-4d76-bf58-7b709a92bc81
+				  :LOGBOOK:
+				  CLOCK: [2025-06-27 Fri 15:52:47]
+				  :END:
+					- From the Mon-Khmer root [ចាំ](https://en.wiktionary.org/wiki/%E1%9E%85%E1%9E%B6%E1%9F%86) (cāṃ) meaning “wait, watch, look after” to Thai [จำ](https://en.wiktionary.org/wiki/%E0%B8%88%E0%B8%B3) (jam) and Vietnamese “[chăm](https://en.wiktionary.org/wiki/ch%C4%83m)” meaning “diligent, diligently look after”, the word “chăm chỉ” is formed as a [reduplication](https://en.wikipedia.org/wiki/Reduplication) of “chăm” to emphasize its diligence.
+					- However, when the Nôm script borrows Chinese characters, “chăm chỉ” can be written as 針只 or 針黹.
+						- The Nôm character [針](https://en.wiktionary.org/wiki/%E9%87%9D) only borrows the sound from the Chinese one. However, the Chinese meaning “needle, pin, injection” can somehow be related to “chăm” through the sharp point of the pin ⇒ “focus” ⇒ “focus on watching/working” ⇒ “diligent, assiduous”.
+						- [只](https://en.wiktionary.org/wiki/%E5%8F%AA) is fully borrowed from Chinese to mean “only”. 
+						  ⇒ 針只 “chăm chỉ” can be interpreted as “focus only on watching/working”.
+						- The Nôm character [黹](https://en.wiktionary.org/wiki/%E9%BB%B9) borrows sound and partially relates to the meaning “needlework” of the Chinese one, to mean “thread”.
+						  ⇒ 針黹 “chăm chỉ” can be interpreted as “concentrate throughout the course of watching/working”.
+							- Interestingly, the whole word [針黹](https://en.wiktionary.org/wiki/%E9%87%9D%E9%BB%B9) in Chinese also means “needlework”. And the needlework itself usually requires diligence.
+					- These threads of discussion, researching, contemplation, as well as those threads of words' evolution and relation are weaving together so intricately.
+			- Weekends 28-29 June, i went to Vĩnh Hy bay with my wife's family to celebrate the wedding day of Mrs. Nhung & Mr. Nhân.
+			  id:: 686204b8-8bf7-4ce9-abe9-d7984d814476
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-06-30 Mon 10:30:52]
+			  :END:
+				- Most of the time, i meditated focusing on my nasal inflammation. To me, the conditioned cold air in the buses was so harsh!
+				- And i see that it's time for me to deploy [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to cope with the issue of being caught up. It's time to scale up my mind from the (analog) micro-programs of differential equations to the (digital) macro-programs of plans, schedules, etc.
+					- Note that even the micro-programs of [microcodes](https://en.wikipedia.org/wiki/Microcode) in computer are still very much “macro” to me.
+					- So my “micro-programs” should be called “nano-programs”!?
+				- My wife had some series of stomach upset.
+				- Mrs Nhung wanted to visit grape gardens...
+					- Thông tin về vườn nho Thái An
+					  id:: 68620e6d-02a9-4d88-8984-6510dfa4c5cd
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-06-28 Mon 11:16:14]
+					  :END:
+						- [Ninh Thuận Travels](https://ninhthuantravels.com/du-lich-vuon-nho-ninh-thuan-noi-tieng-va-chi-tiet-nhat-2024/#2_Du_lich_vuon_Nho_Ninh_Thuan_thang_may_Kinh_nghiem_di_vuon_nho_Ninh_Thuan): Cây nho tại Ninh Thuận hầu hết được trồng chính 3 vụ/năm:
+							- Vụ Xuân Hè: từ tháng 1 đến tháng 3 sẽ thu hoạch vào tháng 4
+							- Vụ Hè Thu: từ tháng 5 đến tháng 7 sẽ thu hoạch vào tháng 8 (đây là mùa vụ cho chất lượng Nho tốt nhất trong năm: trái Nho căng, ngọt, năng suất cao)
+							- Vụ Thu Đông: từ tháng 9 đến tháng 11 thu hoạch tháng 12 (đây là vụ cho năng suất thấp nhất trong năm vì vào những tháng mưa nhiều tại Ninh Thuận).
+						- SĐT các vườn nho: [Ninh Thuận Review](https://ninhthuanreview.com/vuon-nho-thai-an-ninh-thuan/#cdd-3-mot-so-vuon-nho-thai-an-dep-gan-vinh-hy-de-ban-lua-chon)
+			- 30th, most of the time i just meditated on the nasal inflamation, despite the unfinished task of company waiting (because i feel it's too complicated and too far to be finished).
+			  collapsed:: true
+				- After working hours, i did some more reading of the messy codes for the task at company.
+				- Returning home, seeing the GitJournal cannot remove images again, i search for solutions and switch to another alternative: [GitSync](https://github.com/ViscousPot/GitSync) & [Markor](https://github.com/gsantner/markor) editor.
+				  collapsed:: true
+					- The issue of zombie files is due to `dart-git` which is well known, as reported [here](https://github.com/GitJournal/GitJournal/issues/962) where `clach04` suggested GitSync & Markor.
+					- Here's a note from Markor 😉
+						- with many tools: indent, outdent, **bold**, _italic_, list item, `code`, headings, [link](https://github.com/gsantner/markor/blob/master/README.md#features), move line up/down, etc.
+						- insertions: date 2025/06/30, time 23:38,
+							- image (from camera) 📸
+							  collapsed:: true
+								- ![IMG_20250630-233938.jpg](../assets/Will/story/2025-06/IMG_20250630-233938.jpg),
+							- sound (from microphone) 🎤
+							  collapsed:: true
+								- ![2025-06-30T23-43-23](../assets/Will/story/2025-06/2025-06-30T23-43-23.m4a)
+								- Although it's an [MPEG-4 AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding) file, the file name has no extension!? 🤔
+								- ⇒ manually add `.m4a` extension to the file name.
+						- Ah, Markor supports some default YAML headers:
+						  id:: 6865e0d4-bae8-4952-8fcd-39ca1d516e30
+							- all are aligned right, and separated from the main text by a horizontal rule (`<hr>`).
+							- `title` is rendered as an H1.
+							- `tags`: each tag is rendered in an enclosed background.
+							- `date` seems to be a normal text.
+					- `GitJournalNotes` -> `MindChips` repo; Updated `flushQueue.sh`
+						- Add the final EOL for Git! 🙂 (Because Markor doesn't automatically add the last EOL.)
+						  id:: 6863444d-280f-4913-81d2-51a0e9c8a728
+							- so that new lines won't affect the previous last line in Git (diff, blame)! 😉
+							- Let's use the [Markdown Comment](https://stackoverflow.com/a/20885980) syntax: 
+							  ```markdown
+							  
+							  [//EOF]: # (Please leave this end-of-file line untouched!)
+							  ```
+			- **July** 1st, updated `flushQueue.sh` for Mind Chips, and had a fractal review of the world.
+			  collapsed:: true
+				- To [add the final EOL to `queue.md`](((6863444d-280f-4913-81d2-51a0e9c8a728))), i was caught up in ![MarkdownCommentsTest.md](../assets/TextProcessing/Markdown/MarkdownCommentsTest.md) and updating the `flushQueue.sh` script.
+				  id:: 68639a1c-11b7-4689-948b-b64a921a4f09
+					- Returning home, i checked that both `[//EOF]: #` line and [front matter (YAML header)](((6865e0d4-bae8-4952-8fcd-39ca1d516e30))) work in Markor.
+				- The nuances in this [simple task](((68639a1c-11b7-4689-948b-b64a921a4f09))) remind me of the fractals.
+					- Fractal boundaries
+						- the [coastline paradox](https://en.wikipedia.org/wiki/Coastline_paradox),
+						- [fractal basin boundaries](https://brain.cc.kogakuin.ac.jp/~kanamaru/Chaos/e/Newton/): the **infinite complexity** of the interface between systems,
+						- the [fractal fracture surfaces](https://www.lehigh.edu/imi/teched/FFGConf/Mecholsky1_2.pdf) (versus the smooth crosscuts), ...
+					- since everything is the [mixture](https://en.wikipedia.org/wiki/Mixing_(mathematics)) of other things
+						- every view is a mixture of other views through the ((6851578b-9b1f-4367-878f-79b0b0b9be51));
+						- every view just [adapts](https://en.wikipedia.org/wiki/Adapter_pattern) other views/forms to its own intent.
+						  collapsed:: true
+							- I visioned such an adapter of fractal fracture surfaces to smooth crosscuts from the years 2010s just after i got back to Vietnam.
+							- That vision was a continuation of the previous “everything is interface” ideal from the University time (2000s), inspired by Java's interface.
+							- An interesting key moment of the idea of “view = traversal of other views” was when i reviewed the student project, guided by Mr. Huy, about automatically generating presentation from the tree structure of notes.
+						- These days, each intent of mine is [extracting](((6850be86-058c-45b4-9b4a-de92ebb4caff))) its own view from the world via pattern matching, in order to have its own effect on my actions (= mixture of all intents' actions).
+						- Such a constant flow of unmixing & mixing is catching me up!
+						- My karma of depth-first search is catching me in the infinitely complicated fractal walks.
+						- Such an [interconnection, interdependence, interfusion](((66eb7dae-2032-434b-9106-756d4aad7cdb))) makes the working of karma [imponderable](((6863c61d-f3e7-495b-bdc4-25be219db74b))).
+			- July 2nd, let's start doing company work first!
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-07-02 Wed 07:54:39]
+			  :END:
+				- I've just left [hội hại não](https://www.messenger.com/t/882954261822273) again, due to the conflict with Ms. Trung.
+					- Thanks to such a close friend, i have chances to observe my self attachment.
+						- Again, thank you so much, my friend!
+						- This time, the contrast between my calmness with Mr. Hiệp's insult and my trigger by Ms. Trung's much milder statements, has clearly shown the effect of closeness – the main feature of self attachment.
+						- This echos my tantric experience where i can see how strong the effect when the inner core is touched directly.
+						- ⇒ Again, the way to resolve it, now is to use breathwork to release such an attachment to the hard “closeness, integrity, oneness, etc.”, to fluidify it into a flow of qi.
+					- conflict + close friend → separation anxiety
+						- Being called “crazy” → the personal self hurts → defense → find support from the large, the common, the absolute → fall back to **delusion**, the base of self
+							- delusion = attachment to ideals + ignorance of non-ideals = the base of the self
+							- this base has been accumulated throughout lives reflecting the majority of experiences of one self, hence ideal (large, common, absolute).
+							- This accumulation of experiences into ideals is the ((66faa5f9-0b7a-49ca-a5f5-62eeba03ab2b)) of internal ((670de601-3ca8-4489-8b75-75ca0d9a74bc))s.
+						- Down play my way – “contemplation is useless” → scare of one extended self (me + her) being separated into different ways → defense my own way (contemplation) → **attach** to the way as a higher self
+							- Like any higher self, the way or my ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) are just ideals and should not be attached to.
+						- This time, it's interesting to trigger reactions caused by attachement to both low level (the personal self) and high level (the way) of the self.
+				- Test table plugins
+				  collapsed:: true
+					- [Markdown table editor](((6864f88c-8987-4b0e-8151-0d41f5830a70)))
+					  |Header **Col1**|**Col2**|Col **Alphabet**|
+					  |--|--|--|
+					  |1|2|A|
+					  |3|4|B|
+					- [Table Renderer](((6864f9b7-2daa-4ad4-b496-063722e86f73)))
+						- ### Table from `data`: columns > data in rows
+						  id:: 6864fd4f-65cc-4c9f-a854-b7152d5a25b0
+						  {{renderer :tables_6864fd4f-65cc-4c9f-a854-b7152d5a25b0}}
+							- data sum-3 average-3 median-3 mode-3
+							  collapsed:: true
+								- **Category**
+									- Fruits
+									- Vegetables
+									- Fruits and Vegetables
+								- Fresh Product
+									- Apples
+									- Lettuce
+									- Tomatoes
+								- Price
+									- 1
+									- 3
+									- 5
+						- ### Table from `cols`: rows > data in columns
+						  {{renderer :tables_6864fe0e-fd59-43cf-bba7-68ca5aff82d8}}
+							- cols sum-3 average-3 median-3 mode-3
+							  collapsed:: true
+								- Category
+									- Fresh Product
+									- Price
+								- Fruits
+									- Apples
+									- 1
+								- Vegetables
+									- Lettuce
+									- 3
+								- Fruits and Vegetables
+									- Tomatoes
+									- 5
+						- ### Table from `rows`: rows > data in column 2 > data in column 3 > ...
+						  {{renderer :tables_6864fde4-0380-4266-a4c6-76a274ebf33e}}
+							- rows sum-3 average-3 median-3 mode-3
+							  collapsed:: true
+								- Category
+									- Fresh Product
+										- Price
+								- Fruits
+									- Apples
+										- 1
+								- Vegetables
+									- Lettuce
+										- 3
+								- Fruits and Vegetables
+									- Tomatoes
+										- 5
+				- Spring paradox, [Braess's paradox](https://en.wikipedia.org/wiki/Braess%27s_paradox) are related to the [Prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma)
+					- [This mechanism shrinks when pulled](https://youtu.be/-QTkPfq7w1A)
+					  collapsed:: true
+						- {{video https://youtu.be/-QTkPfq7w1A}}
+			- July 3rd, just review my issues and started [designing plans](((68663850-daa5-487e-ba48-fea228a2b188))).
+			  collapsed:: true
+				- After more than a month in this thread of [releasing to heal the broken bodymind](((68366fff-92cf-41a7-ab2d-0c1f77d0effb))), i see...
+					- while all tasks are left untouched and no new tasks are (formally) listed, **new contents** are constantly produced **everyday** (including some hidden tasks).
+					- The issue of being **caught up** still persists.
+					- ⇒ ((68663850-daa5-487e-ba48-fea228a2b188))
+				- I completed this brainstorm to flush it: ((684f9515-8f95-4004-8aa8-04a10d1ebf11))
+			- 4th, from a simple question of "seeding or seedling?", i'd chatted with ChatGPT for most of the time, then returned to update the brainstorm [about the hurricane's eye, center and self-essence](((684f9515-8f95-4004-8aa8-04a10d1ebf11))).
+				- In that course, i saw many other intents popped up but i refrained from them.
+			- 5th, a whole day sleep to recovery. Installed MGit on Android phone to view UniinfoNotes (not to edit!)
+			  collapsed:: true
+				- Thanks to [MGit](https://github.com/maks/MGit), this note is edited and pushed directly from home 🏡 on my mobile phone 😊.
+					- MGit's [installation from Google Play](https://play.google.com/store/apps/details?id=com.manichord.mgit&hl=en) (GP) has been blocked from middle of 2024 [due to GP's policy](https://github.com/maks/MGit/issues/733#issuecomment-2928410654), not a technical limitation like "~~incompatible~~ with Android version 12+" as shown in GP.
+						- I've installed MGit [from F-Droid](https://f-droid.org/packages/com.manichord.mgit/) and it works perfectly on my Android 15 device.
+						- Explained by Maks: MGit's request for ["All File access" permission](https://support.google.com/googleplay/android-developer/answer/10467955?hl=en) was judged "incompatible with Android 12+ policy" by Google Play. He cannot deal with GP about this policy, and he has no time to switch to other restrictive APIs to restrict file access.
+				- On my Android phone, just use MGit to manage Git repo in addition to GitSync (limited to only 1 repo for free), so that UniinfoNotes can be viewed on mobile logseq.
+					- now both MGit & GitSync are managing the MindChips repo.
+					- provided that GitSync auth is changed to SSH from its default HTTPS, because MGit can only use SSH!
+					- UniinfoNotes
+						- due to low performance and complications (patched `config.edn`, broken symlinks, etc.), i **_don't edit_ on mobile logseq**, just view it on mobile.
+							- The MindChips queue is still very useful!
+						- for the **search** feature to work, we must manually insert the content of file `macros-config.edn.txt` (stored on MindChips repo) to the ((66faa5f7-af4f-4ca6-9621-56ab8dadbe94)), because the [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f))) cannot be located on Android.
+						- all symlinks in `assets/TextProcessing/last-newline/No newline at end of file.img/` have been changed to plaintext by the commit `cf5d4f1` “[WIP] MGit push test”, which have been reverted in commit `9ea30b37`.
+			- 6th, went diving with my wife at “Tuyệt Tình Cốc” lake.
+			  collapsed:: true
+				- ((686e6e72-13f8-4dc9-a8e2-de35519f57d7))
+				- ((686e580a-876e-47cf-b2cc-1381bc64cdb9))
+				- ((686e6aed-cec1-4686-95c8-623f8a5f0bab))
+				- Brainstormed about [bulboid (củ) structures](((686e6444-ed07-408c-ad6f-72f308410cd1))), and the following joke popped up in my mind.
+				- YouTuber = You-Potato 🥔 = media-tuber
+					- [couch potato](https://en.wikipedia.org/wiki/Couch_potato): uninteresting, dull, strange, ugly, or fat
+					- small potato: not important, not impressive
+					- media-tubers store energy, attention, and threads of content in media-rich tubers of self-expression.
+					- media-tubers radiate  
+					  stalks of discourse  
+					  from their stem-circles  
+					  of condensed ego!
+			- 7th, today, i've built up enough intent to execute the [plan for sharing time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
+			  :LOGBOOK:
+			  CLOCK: [2025-07-07 Mon 09:21:20]
+			  :END:
+		- WAIT Both Chrome & Edge versions are from Sep 2024!?
+		  id:: 68352d58-f697-4b62-a748-3756dac163f7
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-05-27 Tue 10:12:24]
+		  :END:
+			- They have been **unupdatable** long before.
+				- To prevent the annoying prompt for update (while unupdatable), i ((66c7f42e-5c00-435a-8d30-fe8210c4adf6)) in Chrome.
+			- Seems that it's caused by my actions to prevent Ubuntu's auto-update last year.
+				- WAIT Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
+				  :LOGBOOK:
+				  CLOCK: [2025-05-27 Tue 14:39:27]
+				  CLOCK: [2025-05-27 Tue 14:39:29]
+				  :END:
+				- Make sure all of these actions are reset, except the `autostart/update-notifier.desktop`:`X-GNOME-Autostart-enabled=false` and Unattended Upgrade
+					- Unmask `apt-news` & `esm-cache` which were masked due to [their unuse](https://askubuntu.com/a/1452520).
+						- ```sh
+						  sudo systemctl unmask esm-cache.service
+						  sudo systemctl unmask apt-news.service
+						  sudo pro config set apt_news=false
+						  ```
+						- [APT News](https://askubuntu.com/a/1441036) is just the [advertisement](https://www.omgubuntu.co.uk/2022/10/ubuntu-pro-terminal-ad) for Ubuntu Pro, as shown in the file `/etc/ubuntu-advantage/uaclient.conf`:
+						  collapsed:: true
+							- ```sh
+							  # Ubuntu Pro client config file.
+							  # If you modify this file, run "pro refresh config" to ensure changes are
+							  # picked up by Ubuntu Pro client.
+							  
+							  contract_url: https://contracts.canonical.com
+							  daemon_log_file: /var/log/ubuntu-advantage-daemon.log
+							  data_dir: /var/lib/ubuntu-advantage
+							  log_file: /var/log/ubuntu-advantage.log
+							  log_level: debug
+							  security_url: https://ubuntu.com/security
+							  timer_log_file: /var/log/ubuntu-advantage-timer.log
+							  ua_config:
+							    apt_news: true
+							    apt_http_proxy: null
+							    ...
+							  ```
+						- "ESM Cache" is for ((68357df4-ee9c-4268-a8c7-3a1251ad3ebf))
+					- Check settings
+						- Unmasked services
+						  ```sh
+						  systemctl list-unit-files --state=masked
+						  systemctl status packagekit.service
+						  systemctl status apt-news.service
+						  systemctl status esm-cache.service
+						  ```
+							- Their statuses are all "active (running)".
+							- Masked services don't contain them
+							  collapsed:: true
+								- ```
+								  UNIT FILE                           STATE  VENDOR PRESET
+								  cups.path                           masked enabled      
+								  alsa-utils.service                  masked enabled      
+								  cryptdisks-early.service            masked enabled      
+								  cryptdisks.service                  masked enabled      
+								  cups-browsed.service                masked enabled      
+								  cups.service                        masked enabled      
+								  hwclock.service                     masked enabled      
+								  pulseaudio-enable-autospawn.service masked enabled      
+								  rc.service                          masked enabled      
+								  rcS.service                         masked enabled      
+								  saned.service                       masked enabled      
+								  sudo.service                        masked enabled      
+								  x11-common.service                  masked enabled      
+								  cups.socket                         masked enabled      
+								  
+								  14 unit files listed.
+								  ```
+						- `gsettings get com.ubuntu.update-notifier no-show-notifications`                         
+						  → `false`
+						- [Unattended Upgrade](https://wiki.debian.org/UnattendedUpgrades) is disabled in APT, but its `unattended-upgrades.service` may still be running.
+							- ```sh
+							  systemctl status unattended-upgrades.service
+							  grep -r 'APT::Periodic::Unattended-Upgrade' /etc/apt/apt.conf.d/
+							  /etc/apt/apt.conf.d/10periodic:APT::Periodic::Unattended-Upgrade "0";
+							  /etc/apt/apt.conf.d/20auto-upgrades:APT::Periodic::Unattended-Upgrade "0";
+							  ```
+		- Try to execute the [plan to share time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
+		  id:: 686b390a-7953-4069-9c04-17c7f9a777a7
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-07-07 Mon 10:04:48]--[2025-07-29 Tue 20:33:30] =>  538:28:42
+		  :END:
+			- July 7th, let's start!
+			  collapsed:: true
+				- Even staring at the work at company, i see Unïnfo-related features more than the work's requirements. 😁
+				  :LOGBOOK:
+				  CLOCK: [2025-07-07 Mon 10:44:05]
+				  :END:
+				- rule, guide-line
+				  collapsed:: true
+					- [LaTeX `\rule`](https://en.wikibooks.org/wiki/LaTeX/Rules_and_Struts) to draw horizontal/vertical straight lines.
+						- The plain TeX provided [2 separate commands](https://texfaq.org/FAQ-rule): `\hrule` and `\vrule`
+					- [rule](https://en.wiktionary.org/wiki/rule): a straight [guiding](https://en.wiktionary.org/wiki/guide) line for writing, drawing, etc.
+						- Horizontal rules:
+							- writing guides on [ruled paper](https://en.wikipedia.org/wiki/Ruled_paper)
+							  collapsed:: true
+								- ![Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg](../assets/Will/story/2025-07/Filler Notebook A4 6mm Horizontal rule (with margin rule).jpeg){:width 400}
+							- [HTML `<hr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/hr) is used as a horizontal separator between paragraph-level elements.
+						- Verticle rules: margin rules, grid lines in [graph paper](https://en.wikipedia.org/wiki/Graph_paper), vertical rules in French ((686b7355-9a40-4624-a5c6-b2dfe0e8e142)), [indent guides](((686b469b-f88c-479e-b1ad-1e44ec5a06b0)))
+							- [seyès ruled](https://en.wikipedia.org/wiki/Ruled_paper#France) paper
+							  id:: 686b7355-9a40-4624-a5c6-b2dfe0e8e142
+							  collapsed:: true
+								- ![french-handwriting-séyès-ruled-paper.jpg](../assets/Will/story/2025-07/french-handwriting-séyès-ruled-paper.jpg)
+					- [guideline](https://en.wiktionary.org/wiki/guideline): a (straight) light line help [align](https://en.wiktionary.org/wiki/align) text or drawings.
+						- This literal meaning is still used in design software like Figma, Photoshop, InDesign, etc.
+					- **Indent[ation] guides**
+					  id:: 686b469b-f88c-479e-b1ad-1e44ec5a06b0
+					   are vertical lines shown on modern editors as a visual aid for alignment of nested indented blocks, e.g. indented code blocks in a program.
+						- Logseq calls it `guideline`.
+						- My [`FolderDiv` calls it “stem line”](((684f9516-f31c-4469-aad8-cd13d9117dd3))) following the [treeview structure](((667530ed-809b-4d38-8522-1ae6c8449e28))).
+						- Such guidelines in ((66750416-093a-4042-bb6d-78702c219c36)), including both stem lines and stalk lines, are called vaguely by various names: "tree lines" (in WinForms, Qt, GTK), "connector lines" (in jsTree, D3, Mermaid), "branch lines", "outline lines", etc.
+			- 8th, i'm trying to set the intent for official works with contemplation & breathwork, but the personal intents are still very strong!
+			  collapsed:: true
+				- Just flushed all waiting tasks, incomplete stories and brainstorms from the Workstack.
+				- Observing & contemplating my reset (in order to set new intent for official works), i see the “antennae” of [anusayā-cetanā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))s of my central obop.
+				  id:: 686cbb21-2266-45a1-ab56-7e252695f5f2
+					- ((686cc8c2-9215-4b84-840e-def48efd9447))
+					- The anusayā-cetanā then sets the attention (focus of the viewcone) to strengthen the intention further.
+				- At the end of the day, my emotional intents rose up. I let them flow, observed and [integrated them into the plan](((686e0e73-d3cc-4250-804f-94a270b92fd9))).
+			- 9th, the meeting and discussions with colleagues override the personal intents, making them subside and blurred, in contrast to the [clear vision](((686cbb21-2266-45a1-ab56-7e252695f5f2))) of the [“fine hairs” of the latent intents](((686e096b-d730-4d9e-ae58-4ca2cf7b93aa))) yesterday.
+			  collapsed:: true
+				- This shows the importance of the balance between interaction and retreating.
+					- Too much interaction masks the intents which are active inside.
+					- Too much retreating makes all intents dormant, keeping them from active and visible.
+				- DONE For some days i've not flushed the mind chips. Flushing it, i see lots of chips 😁!
+				  :LOGBOOK:
+				  CLOCK: [2025-07-09 Wed 18:54:29]--[2025-07-09 Wed 20:52:04] =>  01:57:35
+				  :END:
+					- Cleaning it costed me full 2 hours! 😬
+			- 10th, brainstorms about intents; My wife's mother got lung inflammation.
+			  collapsed:: true
+				- atenna = direction = intent of vector = vacant form attracting & directing content
+					- magnitude = extent of vector
+					- because the (extent part of) content has been abstracted away, the intent is empty, lacking, wanting... of content, hence attracting content.
+					- this attraction is due to the impression that the intent is the whole (it's an image of the whole, representing the whole), while actually it's just a part of the whole.
+						- ⇒ ((6858b355-fba9-4e61-9f16-bc993a3df44b))
+					- All my effort to extract patterns, formulating them... is just to make another form, no matter how it's named, whether Unïnfo, Unithread, or uninet. Even if it can “capture the whole Universe”, it'll be just an empty form!
+				- action can only be seen by one's self when one withdraw the self from the action
+					- the self can just do its action, cannot see its own action.
+					- ((684f9517-1b11-4022-a2c3-0688975f198a))
+				- the intent on the view cone directs the action on the effect cone
+					- change the view direction, the actions automatically follow
+					- i head to the object i'm looking at, i magnify it, i concentrate resource (internal content) to mix with its content to take action pushing me toward it.
+					- intent = view direction = steering wheel
+				- My wife's mother has just been hospitalized for her lung inflammation... without symptom until collapse, just like my wife last year.
+			- 11th, Get back to official work, but it's so tedious!
+			  collapsed:: true
+				- Kinh Pháp Cú (Dhammapada) > [5. Người Ngu > 63](https://bixycler.github.io/PhapCu-Dhammapada/#ColumnsView/e0-o0-i0/5/63)
+					- Người ngu tự biết mình ngu
+					  Thế là có trí, người xưa dạy rồi,
+					  Ngu mà cứ nghĩ mình khôn
+					  Mới là ngu muội tận cùng của ngu.
+					- This verse is very Socratic! 😉
+			- 12-13th, LSD trip sitting a friend with successful “let it go, let it flow”, balanced with bad trip at first half and bad trip at second half.
+			  id:: 6874657a-c5dd-46fb-a2f3-1d7f059e2a07
+			  collapsed:: true
+				- Trip log
+					- 11:40: tới chùa Niệm Phật, Hiệp 200μg in, Định 200μg ex
+					- 12:20: Hiệp bắt đầu thấy cảm giác ớn trong người
+					- 12:40: quay [video 20 phút](https://photos.google.com/photo/AF1QipM8TX8052m0uVEbreAub1k_ARc_Rlv9Y-Squ2rb)
+					- 13:03: hít thở vào flow rồi đã ra, thấy mệt quá!
+					- 15:20: vừa qua mưa ☔, rồi tạnh, rồi chuẩn bị mưa nữa 😆
+					- 17:20: vừa qua rất nhiều thăng trầm, giờ mình đã tỉnh dậy, gọi điện xin lỗi những người mình đã làm phiền
+					- 20:20: sau khi thiền nhập định, niết bàn đủ thứ, đi bộ, đi xe máy, giờ đã về tới nhà nghỉ Nam Vy
+					- 22:00: sau một hồi ngồi thiền trong phòng, mình ra ngoài sân cho dãn gân cốt
+					- 23:00: ra ngoài đứng ngồi, ngồi đứng một hồi thì đã vô lại phòng
+				- Trip review
+					- 1. Trip này extreme, qua được cửa tử, và cân bằng. Nửa đầu là bad trip cân bằng với good trip ở nửa sau.
+						- Nếu ông chưa đủ căn cơ tu tập, và nếu tui không chịu nổi khi bị coi là ma 👻, không bình tĩnh đồng hành cùng ông vượt qua, thì có thể sẽ bị mất cân bằng sang hướng bad trip.
+						- Và ngược lại, nếu áp dụng nhiều thủ thuật để che đi cái "bad" như các trung tâm thực hiện thì lại khiến thuốc thức thần trở thành chất gây nghiện (mọi thứ thừa sướng thiếu khổ đều gây nghiện)
+						- Tiêu chí của tui là đối diện với thực tế "no pain no gain"
+						- Vì đó là chứng nghiệm của bản thân tui, chỉ khi tui vượt qua địa ngục thì mới tới chỗ giải thoát. Như trên group tui có nói là tui đi thấy địa ngục đó (không biết lúc đó có ông trong group không nhỉ 🤔)
+					- 2. Để ông tiếp tục tập "flow" thì tui thấy chắc ông cứ tiếp tục mượn cái đau khi ngồi kiết già để hít thở kéo cảm thọ đó chạy khắp toàn thân đi, thay vì đè nó xuống như hồi đó.
+						- Khi nào cái đó thành thục thì mình mới chuyển sang những thứ khác vi tế hơn, như thuần hơi thở. 😉
+				- The technique of ((68773fad-d653-4536-87b5-d4b493753b41)) echoes throughout this trip and after that.
+				- one sided view = semicircle => attachment to 1 side
+					- the other half is invisible or shortcut => attachment to extreme points: greed of shortcut climax (all problems are resolved at a point); fear of death
+			- 14th, brainstorm about the FoC Dynamics, and researches about Buddhism.
+			  collapsed:: true
+				- Family tree of prince Siddhattha (bodhisattva Siddhārtha Gautama and Shakyamuni Buddha)
+				  collapsed:: true
+					- Diagram
+						- ![Siddhattha-Family-Tree.jpg](../assets/Will/story/2025-07/Siddhattha-Family-Tree.jpg)
+					- The blood relations between Siddhattha, his wife Yasodharā, and his rival Devadatta are described in [Mahavamsa](https://en.wikipedia.org/wiki/Mahavamsa) genealogy, [Apadāna](https://en.wikipedia.org/wiki/Apadana), [Jātaka](https://en.wikipedia.org/wiki/Jataka_tales), and [commentaries](https://en.wikipedia.org/wiki/Atthakatha), while not clearly stated in the main suttas of the Pāli Canon.
+					- The widely accepted relations are that [Yasodharā](https://en.wikipedia.org/wiki/Yasodhara) and [Devadatta](https://en.wikipedia.org/wiki/Devadatta) are siblings and both are maternal cousins of [Siddhattha](https://en.wikipedia.org/wiki/The_Buddha#Siddh%C4%81rtha_Gautama_and_Buddha_Shakyamuni).
+						- Siddhattha is the only son of king [Śuddhodana](https://en.wikipedia.org/wiki/%C5%9Auddhodana) and queen [Maya](https://en.wikipedia.org/wiki/Maya_(mother_of_the_Buddha)). Queen Maya died shortly after giving birth to Siddhattha, and pointed her younger sister [Mahapajapati Gotami](https://en.wikipedia.org/wiki/Mahapajapati_Gotami) to replace her.
+						- Yasodharā and Devadatta are daughter and son of king [Suppabuddha](https://en.wikipedia.org/wiki/Suppabuddha) and queen Amitā.
+						- In the Buddhist tradition, king Suppabuddha is depicted as a brother of queen Maya and queen Mahapajapati.
+						- [A Wikipedia page](https://en.wikipedia.org/wiki/Family_of_Gautama_Buddha#Ya%C5%9Bodhar%C4%81) even states that queen Amitā is a sister of king Śuddhodana!?
+						- Western scholars usually doubt such cross-cousin marriages.
+						- In the TV series [Buddha — The King of Kings](https://en.wikipedia.org/wiki/Buddha_(TV_series)), Devadatta was split away from Yasodharā to be a son of Dronadhan (Śuddhodana's second brother) and Mangala. Here, the rival betwen Devadatta and Siddhattha was dramatized to a life-long rival from youth and for the hand in marriage of Yashodhara.
+						  id:: 68749cb1-d5f2-4bb6-8b03-3cbcbfe0e388
+							- In the Pali Canon, the rival only started after Devadatta attained [psychic powers](https://en.wikipedia.org/wiki/Siddhi).
+					- Yasodharā was married to Siddhattha and gave birth to [Rāhula](https://en.wikipedia.org/wiki/R%C4%81hula).
+					- Many relatives of Siddhattha had entered the [sangha](https://en.wikipedia.org/wiki/Sangha_(Buddhism)) and became [arahants](https://en.wikipedia.org/wiki/Arhat): his wife Yasodharā, his son Rāhula, his foster-mother Mahapajapati Gotami, his half-brother [Nanda](https://en.wikipedia.org/wiki/Nanda_(half-brother_of_Buddha)), his half-sister [Sundari Nanda](https://en.wikipedia.org/wiki/Nanda_(Buddhist_nun)), his paternal cousins [Ānanda](https://en.wikipedia.org/wiki/%C4%80nanda) and [Anuruddha](https://en.wikipedia.org/wiki/Anuruddha), and his maternal cousin Devadatta.
+						- Only Devadatta didn't attain arahantship, due to his wrong intention.
+				- [Theravāda's Mahāparinibbāna Sutta](https://en.wikipedia.org/wiki/Mah%C4%81parinibb%C4%81na_Sutta) vs [Mahāyāna's Mahāparinirvāṇa Sūtra](https://en.wikipedia.org/wiki/Mah%C4%81y%C4%81na_Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra) (Kinh Đại Bát Niết Bàn)
+				  collapsed:: true
+					- The Theravāda's sutta is about the last days of [Gautama Buddha](https://en.wikipedia.org/wiki/The_Buddha).
+					- The Mahāyāna's sutra is about the [Buddha-nature](https://en.wikipedia.org/wiki/Buddha-nature).
+				- [Sūkara-maddava](https://en.wikipedia.org/wiki/Cunda_Kamm%C4%81raputta#Cunda's_Meal), the last meal of the Buddha was an anicient kōan.
+				  collapsed:: true
+					- “No one can digest it except the Tathagata.”
+					  — [Maha-parinibbana Sutta](https://www.accesstoinsight.org/tipitaka/dn/dn.16.1-6.vaji.html#fnt-38)
+					- It's neither contaminated pork, nor poisonous mushroom, but the karmic substance that cannot be disgeted without death and rebirth in the [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra). Only the Tathagata can digest it while remaining free from saṃsāra.
+						- This is because the Buddha metioned not only human but all beings in the Three Realms, including devas, māras, and brahmās, who could digest it.
+				- FoC (circle) [dynamics](((6858b355-fba9-4e61-9f16-bc993a3df44b))) (arrow) toward the perfect (equal): round circle (the whole), straight arrow (through, even, uniform), absolute equal (perfect match, absolute balance, absolute zero intent, absolute infinite extent)
+				  collapsed:: true
+					- ((66f40210-cca6-4d81-85e7-d0c54ef20451)) stays at the states of zero remainder (null phase, whole extent), but not forever
+					- circles, whole numbers are images of the whole, but not the whole
+					- round circles ⭕ and straight arrow have micro bumps
+					- matched pair of arrows differ in orientation (sign)
+					- zero = epsilon = quantum
+					- infinity = out of scope
+			- 15th, ((6875f140-2269-4a43-9dd9-4b06cf3d8696))
+			  collapsed:: true
+				- trốn ra ngoài tìm mồi
+				  id:: 6875f140-2269-4a43-9dd9-4b06cf3d8696
+					- Hôm qua anh gọi em và sau đó gọi cả thằng em Tuấn đó là để "tìm vận may" đó 😉
+					- Quán thấy vấn đề của mình khủng quá, ngại đối diện nó, ngại giải quyết nó một mình, nên tìm người ngoài hòng kiếm được sự trợ giúp... nhưng hiển nhiên... đó chỉ là sự lươn lẹo của đầu óc để tạm trốn ra ngoài chơi bời tí thôi, chứ ai mà giúp được mình 🤪
+					- Anh phân tích cái Tôi trong việc "tìm vận may" đó, em xem thế nào nhé:
+						- 1. Mình đang phải đối diện với vấn đề nan giải, quá lớn để có thể giải quyết được ngay.
+							- => cảm thấy bất lực, muốn tìm cái gì nhỏ hơn mà mình làm "có lực" hơn.
+						- 2. Cỗ máy vô thức tự động scan trong cái kho sở trường của mình thì thấy việc mình chia sẻ thế mạnh của mình cho người khác là thứ mình làm "có lực" nhứt.
+							- => nhắm sang những "con mồi" quen thuộc: con mồi Trung thì ở tuốt Vũng Tàu, con mồi Hiệp thì về Pháp rồi, con mồi Tú thì chắc đang bận nhưng cứ gọi thử.... không được thì chuyển qua con mồi Tuấn 😃
+							- Tuy nhiên, sự lươn lẹo của đầu óc thì nó lại nghĩ khác, không hề nói cái lý do chính như đang phân tích đây, mà chỉ nói là "cứ thử tìm mấy bạn này xem mình có được nhắc nhở, có được gợi ý để thấy ra cái gì hay ho không?" (thử vận may) 😂
+					- Em thấy cái Tôi nó tinh vi chưa 😉
+			- 16th, 3 absorptions against 3 poisons, parallel/orthogonal intents in conscious absorption, ((6878561a-42bb-404b-b1aa-9e0545b1cc69))
+			  collapsed:: true
+				- Through practice, i've refined the 3 levels of absorptions and linked them with [antidotal practices](((6850c7e4-0969-45b7-9ca8-e2c1d764effe))) for 3 poisons.
+					- The refined conscious absorption this morning prompted for the unification between dynamics with [sequential intents](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) ( ((66f40210-cca6-4d81-85e7-d0c54ef20451)), ((67bd3614-2520-4a5d-8b3f-44f60901844e)), ((67bd7811-ce55-402f-8fb2-08b59fb271c9))) and dynamics with parallel/orthogonal intents, as well as the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
+						- With conscious absorption, all intents are equal, orthogonal
+							- All worlds are equivalent. They are different only by the order of intent sequence, due to the scaling factor of $b^k$ at position $k$.
+								- For derivatives, the base $b = ∞$, hence orthogonal.
+							- The mind can be settled down to a round circle by balancing all intents: all digits/derivatives are equal.
+						- Relativity of intent order: The ((66e42d39-a296-4ed9-a686-4cb213783830)) is both an [antenna](((686e096b-d730-4d9e-ae58-4ca2cf7b93aa))) (head) and a remainder (tail).
+							- like the devil's tail
+							  collapsed:: true
+								- ![little-devil-clipart-lg.png](../assets/Will/story/2025-07/little-devil-clipart-lg.png)
+				- ~~Trinion~~ ((6858b355-fba9-4e61-9f16-bc993a3df44b)) via effect flow torus
+				  id:: 6878561a-42bb-404b-b1aa-9e0545b1cc69
+					- self-circle is the form transcycling the content arrows of the world circle through the obop equal.
+					- distribution of the effect threads is determined by the knowledge cone of the self => 3 directions
+					- the center of the self-circle is the apex of the knowledge cone = intent cone = representative of the whole, the perfect, the target, the root of restoring force
+					- the self-circle is driven by the force field of distortion created by its knowledge, to go toward the the intent, to optimize itself toward the perfect form (round circle)
+						- the perfection is the meta form at infinity (zero intent), driving the self to change & learn
+			- 21st, FoC dynamics again
+			  collapsed:: true
+				- revise [ReciprocalCIE](https://www.geogebra.org/m/pxbusb4r) applet: 2 reciprocal view cones
+					- left: intent:content:extent
+					- right: extent:content:intent
+					- middle: intent × extent quare
+					- this is the basic of projection, factorization (into intent & extent), view relativity, vector product, and circular CIE
+				- FoC dynamics
+					- equal 0: target = center point = “the whole”
+					- circle: self-circle = lense to view the world = form for effect flow to conform = intent
+					- arrow: effect flow through view intent toward center/target intent => action to change content
+					- equal 1: content + form = sustent = total content = constant
+						- => change content = change form, from external forms in the world, accumulating to intents via knowledge cone
+						- => layers of intents (sustents) spiral down to the center point via SCIFER
+			- 22nd, SCIFER Reps: torus tessellation plane, SCIFER helix, SCIFER spirorus
+			  collapsed:: true
+				- [SCIFER Reps](https://www.geogebra.org/m/qy9xkevh) applet: interunion of 2 circles, diagonal line $y=x$ in the torus tessellation plane, SCIFER helix, SCIFER spirorus
+					- torus tessellation plane: We [lift](https://en.wikipedia.org/wiki/Lifting_property) the torus form of the SCIFER spirorus to its [tessellation plane](https://en.wikipedia.org/wiki/Tessellation#In_mathematics), where its [fundamental rectangle](https://en.wikipedia.org/wiki/Fundamental_domain) tiles the plane in a grid pattern.
+						- This tessellation visually represents the universal [covering space](https://en.wikipedia.org/wiki/Covering_space) of the torus, with each tile mapping down to the torus via the covering projection.
+					- SCIFER helix is for the clear view of S-C-I-F-E-R(phase) components, and the view of interunion in intent lense.
+					- SCIFER spirorus is for the view of interunion in content lense.
+			- 23rd, add my sites to Google Search Console
+			  collapsed:: true
+				- ((6880a9a5-b5d3-4542-b378-31cf40ea8476))
+				- I've just discovered that my [CreatZy Notes](https://creatzynotes.blogspot.com/) blog does not appear in Google Search anymore. The only result appear in Google Search as well as in other search tools by used chatbots is the very old post: [Spirorus, the structure of spacetime ;)](https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html)
+				  collapsed:: true
+					- I've checked the [Blogger settings](https://www.blogger.com/blog/settings/6547598) and see that "Visible to search engines" is ON.
+					- The [blog stats](https://www.blogger.com/blog/statsblog/6months/6547598) over the last 6 months shows lots of "views" from [SFive](https://download.com.vn/sfive-browser-149044) (a Vietnamese browser) (10k), and from Chrome (4k), while only 22 views were referred from www.google.com.
+					- With Google Search Console's [URL inspection](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fcreatzynotes.blogspot.com%2F), the only indexed one is https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html. All other URLs are reported as "Sitemaps: No referring sitemaps detected" while these URLs do appear in the [sitemap.xml](((6880c5ca-c0e4-485c-ae5f-ef323dacd5df))).
+					- The Sitemaps list in Google Search Console is empty, while it's clearly in the [robots.txt](((6880bfb6-37bd-4d5a-aa65-a366b19fed81)))!
+						- After a manual submit, it's shown with `Couldn't fetch` status!? 🤔
+					- https://creatzynotes.blogspot.com/robots.txt
+					  id:: 6880bfb6-37bd-4d5a-aa65-a366b19fed81
+					  collapsed:: true
+						- ```
+						  User-agent: Mediapartners-Google
+						  Disallow: 
+						  
+						  User-agent: *
+						  Disallow: /search
+						  Disallow: /share-widget
+						  Allow: /
+						  
+						  Sitemap: https://creatzynotes.blogspot.com/sitemap.xml
+						  ```
+					- https://creatzynotes.blogspot.com/sitemap.xml
+					  id:: 6880c5ca-c0e4-485c-ae5f-ef323dacd5df
+					  collapsed:: true
+						- ```xml
+						  <?xml version='1.0' encoding='UTF-8'?>
+						  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+						  <url>
+						  <loc>https://creatzynotes.blogspot.com/2024/12/the-goal-is-horizon.html</loc>
+						  <lastmod>2025-06-27T03:02:12Z</lastmod>
+						  </url>
+						  <url>
+						  <loc>https://creatzynotes.blogspot.com/2024/11/cai-ich-la-chan-troi.html</loc>
+						  <lastmod>2024-12-24T10:01:06Z</lastmod>
+						  </url>
+						  <url>
+						  <loc>https://creatzynotes.blogspot.com/2024/11/cam-benh-pathos-am-me-au-kho-passion.html</loc>
+						  <lastmod>2024-11-06T09:14:48Z</lastmod>
+						  </url>
+						  ...
+						  </urlset>
+						  ```
+					- Reported reason for being not indexed
+						- [Crawled - currently not indexed](https://support.google.com/webmasters/answer/7440203#crawled): some pages are crawled but none are indexed.
+						- [Page with redirect](https://support.google.com/webmasters/answer/7440203#page_with_redirect): `https://creatzynotes.blogspot.com` is a non-canonical URL that redirects to another page 🤔?! Where's it redirected to?
+							- With `Test Live URL` (follows redirects and then tests the final URL) in `URL Inspection`, the target URL (not shown) is shown as [available](https://support.google.com/webmasters/answer/9012289#will_i_be_indexed), i.e. can be indexed with conditions! 😮
+						- [Alternate page with proper canonical tag](https://support.google.com/webmasters/answer/7440203#duplicate_page_with_proper_canonical_tag): These pages are mobile version (`?m=1`) of a desktop [canonical](https://support.google.com/webmasters/answer/139066).
+				- Adding other sites ([Unïnfo](https://bixycler.github.io/Uniinfo/), [Kinh Pháp Cú (Dhammapada)](https://bixycler.github.io/PhapCu-Dhammapada/)) to Google Search Console, they are all reported "security issue" 😮🤔 which have been resolved by appeals.
+				  collapsed:: true
+					- Security issue: Deceptive pages (phishing?!)
+					  id:: 6880e5f7-3f00-4d8f-a63b-fcf9548175a2
+						- Description: These pages attempt to trick users into doing something dangerous, such as installing unwanted software or revealing personal information. [Learn more](https://support.google.com/webmasters/answer/9044101#phising)
+						- Sample URLs: N/A
+					- My appeal has cleared this ((6880e5f7-3f00-4d8f-a63b-fcf9548175a2))
+						- Request for review
+						  > This is a simple static page with content merely about Dhammapada Sutta. Please show me how and which part of it "trick users into doing something dangerous, such as installing unwanted software or revealing personal information."
+					- DONE The Unïnfo page has been indexed, resulting in a search result for keword `Unïnfo` pointing to the front page.
+					  :LOGBOOK:
+					  CLOCK: [2025-07-29 Tue 20:23:47]--[2025-07-29 Tue 20:23:50] =>  00:00:03
+					  :END:
+			- 24th, ((6882164a-8717-4fd4-a660-4fdeb424af70))
+			  collapsed:: true
+				- Will Lei's cover of [Canon in D](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon) in [Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ)
+				  id:: 6882164a-8717-4fd4-a660-4fdeb424af70
+					- [first try](https://g.co/arts/TAE4PzK3xoNvCTvr7)
+					- [Soft & long](https://g.co/arts/AyZENm19CKRfwMci6)
+					- [Strong & short](https://g.co/arts/a5HpLckFjN4rmqbDA)
+					- [Emotional](https://g.co/arts/bonYD3CQH8hzS9Tr6)
+			- Weekends 25-27th, research about string instruments and [string harmonics](https://en.wikipedia.org/wiki/String_harmonic).
+			  collapsed:: true
+				- Seeing [Viola the Bird](https://g.co/arts/bonYD3CQH8hzS9Tr6) simplifying the violin to only one string, i remember the African goje as well as many other ((68872ffd-76bc-4b15-8a2c-2d6fa6c068dd)).
+				- 1-string instruments in the world
+				  id:: 68872ffd-76bc-4b15-8a2c-2d6fa6c068dd
+				  collapsed:: true
+				  restored from a note saved in [GDrive](https://drive.google.com/file/d/1GlMuoYyOwTEfraX-ji13ReetLBQk1x3y/view?usp=drivesdk) in March 2023
+					- [Diddley bow](https://en.wikipedia.org/wiki/Diddley_bow), mouth bow, [Berimbau](https://en.wikipedia.org/wiki/Berimbau), ground bow, and so on, originated from Africa
+						- Mr. Phương at Phú Quốc created a similar [one-string guitar](https://youtu.be/KH3mMIhKUzE).
+					- One-string xalam of Africa
+					- [Goje](https://en.wikipedia.org/wiki/Goje) (riti) & [many fiddles](https://en.wikipedia.org/wiki/Category:One-string_fiddles) of Africa
+					- [Ektārā](https://en.wikipedia.org/wiki/Ektara) (একতারা, एकतारा) of India
+					- [Đàn bầu](https://en.wikipedia.org/wiki/%C4%90%C3%A0n_b%E1%BA%A7u) of Vietnam, Duxianqin (獨弦琴) of [Jing people](https://en.wikipedia.org/wiki/Gin_people) in China, đàn/tàn máng of Mường people
+						- Nowadays, it's played with electric [pickup](https://en.wikipedia.org/wiki/Pickup_(music_technology)).
+							- The Vietnamese term “mô-bin” is from the French [simple bobinage](https://fr.wikipedia.org/wiki/Single_coil).
+						- Đàn bầu mộc (non-electric):
+							- [Xẩm Ba Bậc](https://youtu.be/DBe98_CgLIw)
+							- [NSND Xuân Hoạch kể chuyện cây đàn bầu Việt Nam](https://youtu.be/6bsbMROVXl0)
+					- [Ichigenkin](https://en.wikipedia.org/wiki/Ichigenkin) (一絃琴) of Japan for meditation
+					- [Monochord](https://en.wikipedia.org/wiki/Monochord) is a laboratory instrument
+					- (*) Mouth/jaw/Jew's harp (1 tongue/reed, not string) of Russia-Siberia
+				- The Vietnamese [đàn cò](https://youtu.be/-VKGJq6GUlw) & đàn bầu have carried me away for a tour reviewing the national root in my heart... to contemplate both sides and then release it.
+				- An experiential witness of the Impermanence in... a dream! 😎💭
+				  collapsed:: true
+					- [My life is a dream, my dream is alive!](https://creatzynotes.blogspot.com/2011/12/my-life-is-dream-my-dreams-are-alive.html)
+					- Although the “dream” is usually used as a metaphor for the unreal, my literal dream has shown a very realistic realization of the whole life!
+					- To the world outside of the dream, the dream is so illusionary, but to the dream, the outside world is no less illusionary. Hence, both of them are as real as illusionary 😜👻! In other words, everything is a **real illusion**.
+						- 🌀 Real Illusion
+							- The illusion is real. Literally.
+							- Not just metaphorically — it exists, it appears, it affects — that’s a real being with real effects.
+							- The unreality of the illusion is just its way of being. And its being is real.
+							- The Real Illusion is just another name for the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
+					- The gatha of [Diamond sutra](https://en.wikipedia.org/wiki/Diamond_Sutra):
+						- > तारका तिमिरं दीपो मायावश्यायबुद्बुदं। सुपिनं विद्युदभ्रं च एवं द्रष्टव्यं संस्कृतं।
+							- A shooting star, a clouding of the sight, a lamp,
+							  An illusion, a drop of dew, a bubble,
+							  A dream, a lightning's flash, a thunder cloud —
+							  This is the way one should see the conditioned.
+						- > 一切有爲法
+						  如夢幻泡影
+						  如露亦如電
+						  應作如是觀
+							- > Nhất thiết hữu vi pháp
+							  Như mộng huyễn bào ảnh
+							  Như lộ diệc như điện
+							  Ưng tác như thị quán.
+							- Tất cả pháp hữu vi
+							  Như mộng ảo, bóng nước
+							  Như sương mai, chớp lóe
+							  Nên quán sát như vậy.
+								- “Bóng nước” can be either the mirror image on water, or the water bubble.
+				- Flow ࿐༄ + Form 🐚 = Flower 🌸
+				  collapsed:: true
+				  “The flower is the moment the flow takes form.”
+					- Word play: “flower” = “flow-er” = flowing being
+					- In Japanese culture, the word “flower” (花, hana) is deeply symbolic with not only beauty, but also transience, and the ephemeral nature of life.
+						- [Mono no aware](https://en.wikipedia.org/wiki/Mono_no_aware) (物の哀れ) – “The pathos of things”
+						- [Ikebana](https://en.wikipedia.org/wiki/Ikebana) (生け花) – “Living flowers”
+						- Kado (花道) – “The Way of the Flower”
+						- [すべての人の心に花を](https://youtu.be/p-gmKHK2VPs)
+				- After the freedive at the quarry lake “Tuyệt Tình Cốc” last Sunday, i've got a mild nasal inflammation... but it dies hard, so stubborn, obstinate and obdurate!
+				  collapsed:: true
+					- With relax and meditation, it's shown clearly as the inflammation of the frontal sinuses.
+					- The snot built up there and running down the throat makes me cough.
+					- The meditation on Sunday was strongly effective, making it nearly dry.
+				- Contemplated the ((688748a7-8228-4515-9fe4-38c232ce954e))
+			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
+			  collapsed:: true
+				- Wow, i must use longer terms “viewing direction” & “light ray direction”, because the shading men have reverted both [“view direction”](((68876434-f1f3-4dda-975f-496594ef762e))) and [“light direction”](((6887625c-db24-4ecf-a154-3aedb390afd3))) for their own convenience (in the viewpoint of the shaded object)!
+			- 29th, wrap this story up, on the occasion of my project at company has started hard!
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-07-29 Tue 20:27:01]--[2025-07-29 Tue 20:33:18] =>  00:06:17
+			  :END:
+				- Although the [plan](((68663850-daa5-487e-ba48-fea228a2b188))) has not been applied well, the practical methods for intent management have been developed quite well.
+				- So, let's wrap it up for the new month coming.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ...

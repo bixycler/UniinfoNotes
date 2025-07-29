@@ -7,7 +7,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
-		- crystal
+		- dynamics
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  collapsed:: true
 		  ^ **Name & Term** search
@@ -19,33 +19,31 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 				  search-scope-page:: [[Mind Jungle]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]
 				- Block ids
 				  id:: 677010ec-01b9-48d6-9a3b-ea53bd62cea3
-				  filter:: 665359e4-4597-4775-b849-f9acbb98960a|665c9af1-1ce2-461c-af33-671690618c8f|6699e4db-2e75-4427-94bb-96dfe0367dd1|6699ea73-dc77-4227-a293-b501f2eb1759|6699e5f2-7788-46c7-8233-87699a65ca30|6699eb54-ce9e-4472-a784-c59ffd47f02b|66c80d5c-181f-4f06-a285-0624a65e9951|66c80dde-a097-4744-8af8-c6e26dcfdda2|66c80da7-c0e8-46d2-85e5-71318fd44eff|66c80dfd-95e2-4b5a-bd56-06e8307e81ca|66c80da9-4cfb-4de7-b83d-8b70665207bf|66c80e01-002b-42ae-9c60-49bf3fc6e159
-				  child-filter:: 6651ecba-793d-43c5-8020-a9f260b032d8|665359c0-a89a-41b5-9f28-503f79107a08|669a1e5f-734c-41c1-bf1c-21813b6e81d8
+				  filter:: 665ca48e-f7c1-4541-b5cf-486d86b02997|665ca495-93b4-47d4-a022-ce511b021a3d|665359e4-4597-4775-b849-f9acbb98960a|665c9af1-1ce2-461c-af33-671690618c8f|6699e4db-2e75-4427-94bb-96dfe0367dd1|6699ea73-dc77-4227-a293-b501f2eb1759|6699e5f2-7788-46c7-8233-87699a65ca30|6699eb54-ce9e-4472-a784-c59ffd47f02b|66c80d5c-181f-4f06-a285-0624a65e9951|66c80dde-a097-4744-8af8-c6e26dcfdda2|66c80da7-c0e8-46d2-85e5-71318fd44eff|66c80dfd-95e2-4b5a-bd56-06e8307e81ca|66c80da9-4cfb-4de7-b83d-8b70665207bf|66c80e01-002b-42ae-9c60-49bf3fc6e159
+				  child-filter:: 665ca48e-f7c1-4541-b5cf-486d86b02997|6651ecba-793d-43c5-8020-a9f260b032d8|665359c0-a89a-41b5-9f28-503f79107a08|669a1e5f-734c-41c1-bf1c-21813b6e81d8|665359ff-79f1-4669-b10b-f2b0e633a7c1
 				- Block refs
-					- filter:: ((665359e4-4597-4775-b849-f9acbb98960a)) | ((665c9af1-1ce2-461c-af33-671690618c8f))
+					- filter:: ((665ca48e-f7c1-4541-b5cf-486d86b02997)) | ((665ca495-93b4-47d4-a022-ce511b021a3d)) | ((665359e4-4597-4775-b849-f9acbb98960a)) | ((665c9af1-1ce2-461c-af33-671690618c8f))
 						- **Components**: ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) | ((6699ea73-dc77-4227-a293-b501f2eb1759)) | ((6699e5f2-7788-46c7-8233-87699a65ca30)) | ((6699eb54-ce9e-4472-a784-c59ffd47f02b))
 						- Word classes: ((66c80d5c-181f-4f06-a285-0624a65e9951)) | ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) | ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) | ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) | ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) | ((66c80e01-002b-42ae-9c60-49bf3fc6e159))
-					- child-filter:: ((6651ecba-793d-43c5-8020-a9f260b032d8)) | ((665359c0-a89a-41b5-9f28-503f79107a08)) | ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
+					- child-filter:: ((665ca48e-f7c1-4541-b5cf-486d86b02997)) | ((6651ecba-793d-43c5-8020-a9f260b032d8)) | ((665359c0-a89a-41b5-9f28-503f79107a08)) | ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) | ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- {{search-query [:h3 "Name & Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 67710fcc-08c4-4a3e-96fd-bc4207f6ec8f, 677010ec-01b9-48d6-9a3b-ea53bd62cea3, true, false}}
 			  query-table:: false
-		- ref
+		- Etymology
 		  id:: 66fce8d4-0434-4dd0-941f-4f3bd9b1b456
 		  collapsed:: true
 		  ^ **Element** search
-			- {{search-query [:h3 "Name Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
+			- {{search-query [:h3 "Element Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- volition
+		- lung nodule
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
 		  child-filter::
-		  search-scope:: Specific blocks: ;
-		  search-scope-page:: Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]];
+		  search-scope:: Specific blocks:
+		  search-scope-page:: Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]], [[Mind Chips]], [[2024 Mind Chips]];
 		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-04-01 Tue 10:25:34]
-		  :END:
+		  Old History: [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]];
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
 			  query-table:: false
 		- **Instruction**: Input Regex pattern to the first line, then just open (unfold) that block to see the result, which will be automatically updated in the Right Sidebar, but not in the Main Edit Pane.
@@ -60,33 +58,17 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- 2nd time death by drowning & various stuff about Unïnfo & Balance Way
+				- Equalize **intents** & works; Mind chips from Telegram; Reword “Discussion” → “Commentarities”
 				-
-				- Technical stuffs
-					- Add ((67ad9184-d0e9-49c1-9584-ac7ced51b385)) to Linux
-					  id:: 67adb58e-6bf4-43ba-b574-58b112cc3874
-					- Update Git's ((666022fc-2700-438d-810e-a6fab07f696f))
-					- Markdown: Add `replaceQuotes()`'s possessive exception & CSS for blockquote
-					- ((67d24c08-0890-4864-9ceb-759d519f5e8b)) & ((67d25330-736b-464e-a926-ccd0771082eb))
-					- ((67f6185f-5efc-4fd0-b924-c175917092d8))
-					- Recover the git repo; Rename assets/Will/story/YYYY-Mon/ → YYYY-MM
-					  collapsed:: true
-						- ((6808b04b-58b5-411e-982a-d79c62bafcde))
-				-
-				- Stories
-					- ((67dcc012-44d3-4041-b17a-0ef201b3ff6c))
-					- ((67b2f947-69cb-4183-a99d-204c0beb6dcc))
-					- ((681826ae-7994-4e0e-b0c2-f7d1f0091e22))
-				-
+				- Stories & practices
+					- ((68366fff-92cf-41a7-ab2d-0c1f77d0effb))
+					- ((686b390a-7953-4069-9c04-17c7f9a777a7))
+					- ((68392a13-c350-4962-bd37-b819c8e1f931)) with updated ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) (intent [equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))), ((68773fad-d653-4536-87b5-d4b493753b41)), ...)
+				- UniinfoNotes
+					- ((683da38c-3d91-435c-99eb-0a88a36f4ba5))
+					- ((685b4935-53a9-4057-8ea6-956fc2d60ef5))
 				- Unïnfo
-					- ((67b81e1b-b801-4e5a-9c00-98e51158712a))
-					- Update ((67b183f5-1cca-4473-917e-60c644dd5466)) & add ((67baf139-aa0c-436e-9e21-983323833c71))
-					- [equivalence of conic rotations](((67e29bdb-9bce-4cb8-b993-79aa130a1831)))
-					- Add ((67f9100a-b749-4354-ae16-92dc74ff27da)) & ((6810ceeb-6af6-442b-9910-baae2c315c46))
-				- Balance Way
-					- ((67cea2ee-5f77-4576-8c1c-9e31d9b822c9))
-					- Ways to resolve the problem of [rigidity/inertia/momentum](((67b541cf-4818-45ad-911c-d2c3397f9e3d)))
-					- ((67d10c06-3fe3-4691-95c0-84278a2dc713)); revise [Reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7)))
+					- ((6835b165-b560-4358-9e46-c4511124c928))
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ...

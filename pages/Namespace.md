@@ -101,7 +101,7 @@ collapsed:: true
 		  ((665ca47c-476a-4bef-b982-d9a31a669fb1)) ((66532914-003a-4bbb-9e97-6f1c87170d7d))
 			- Pronunciation:
 			  id:: 66f3c28a-a18f-4cca-90d6-c086ac7fccdf
-		- Discussion:
+		- Commentaries:
 		  id:: 665359ff-79f1-4669-b10b-f2b0e633a7c1
 		- References:
 		  id:: 66c33468-23d5-44d7-955e-6711cb608157
