@@ -3088,7 +3088,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  CLOCK: [2025-07-09 Wed 18:54:29]--[2025-07-09 Wed 20:52:04] =>  01:57:35
 				  :END:
 					- Cleaning it costed me full 2 hours! 😬
-			- 10th, brainstorms about
+			- 10th, brainstorms about intents; My wife's mother got lung inflammation.
 			  collapsed:: true
 				- atenna = direction = intent of vector = vacant form attracting & directing content
 					- magnitude = extent of vector
@@ -3136,7 +3136,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The technique of ((68773fad-d653-4536-87b5-d4b493753b41)) echoes throughout this trip and after that.
 				- one sided view = semicircle => attachment to 1 side
 					- the other half is invisible or shortcut => attachment to extreme points: greed of shortcut climax (all problems are resolved at a point); fear of death
-			- 14th, ...
+			- 14th, brainstorm about the FoC Dynamics, and researches about Buddhism.
 			  collapsed:: true
 				- Family tree of prince Siddhattha (bodhisattva Siddhārtha Gautama and Shakyamuni Buddha)
 				  collapsed:: true
@@ -3165,7 +3165,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  — [Maha-parinibbana Sutta](https://www.accesstoinsight.org/tipitaka/dn/dn.16.1-6.vaji.html#fnt-38)
 					- It's neither contaminated pork, nor poisonous mushroom, but the karmic substance that cannot be disgeted without death and rebirth in the [saṃsāra](https://en.wikipedia.org/wiki/Sa%E1%B9%83s%C4%81ra). Only the Tathagata can digest it while remaining free from saṃsāra.
 						- This is because the Buddha metioned not only human but all beings in the Three Realms, including devas, māras, and brahmās, who could digest it.
-				- FoC (circle) dynamics (arrow) toward the perfect (equal): round circle (the whole), straight arrow (through, even, uniform), absolute equal (perfect match, absolute balance, absolute zero intent, absolute infinite extent)
+				- FoC (circle) [dynamics](((6858b355-fba9-4e61-9f16-bc993a3df44b))) (arrow) toward the perfect (equal): round circle (the whole), straight arrow (through, even, uniform), absolute equal (perfect match, absolute balance, absolute zero intent, absolute infinite extent)
 				  collapsed:: true
 					- ((66f40210-cca6-4d81-85e7-d0c54ef20451)) stays at the states of zero remainder (null phase, whole extent), but not forever
 					- circles, whole numbers are images of the whole, but not the whole
@@ -3173,9 +3173,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- matched pair of arrows differ in orientation (sign)
 					- zero = epsilon = quantum
 					- infinity = out of scope
-			- 15th, ...
+			- 15th, ((6875f140-2269-4a43-9dd9-4b06cf3d8696))
 			  collapsed:: true
 				- trốn ra ngoài tìm mồi
+				  id:: 6875f140-2269-4a43-9dd9-4b06cf3d8696
 					- Hôm qua anh gọi em và sau đó gọi cả thằng em Tuấn đó là để "tìm vận may" đó 😉
 					- Quán thấy vấn đề của mình khủng quá, ngại đối diện nó, ngại giải quyết nó một mình, nên tìm người ngoài hòng kiếm được sự trợ giúp... nhưng hiển nhiên... đó chỉ là sự lươn lẹo của đầu óc để tạm trốn ra ngoài chơi bời tí thôi, chứ ai mà giúp được mình 🤪
 					- Anh phân tích cái Tôi trong việc "tìm vận may" đó, em xem thế nào nhé:
@@ -3185,7 +3186,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- => nhắm sang những "con mồi" quen thuộc: con mồi Trung thì ở tuốt Vũng Tàu, con mồi Hiệp thì về Pháp rồi, con mồi Tú thì chắc đang bận nhưng cứ gọi thử.... không được thì chuyển qua con mồi Tuấn 😃
 							- Tuy nhiên, sự lươn lẹo của đầu óc thì nó lại nghĩ khác, không hề nói cái lý do chính như đang phân tích đây, mà chỉ nói là "cứ thử tìm mấy bạn này xem mình có được nhắc nhở, có được gợi ý để thấy ra cái gì hay ho không?" (thử vận may) 😂
 					- Em thấy cái Tôi nó tinh vi chưa 😉
-			- 16th, ...
+			- 16th, 3 absorptions against 3 poisons, parallel/orthogonal intents in conscious absorption, ((6878561a-42bb-404b-b1aa-9e0545b1cc69))
 			  collapsed:: true
 				- Through practice, i've refined the 3 levels of absorptions and linked them with [antidotal practices](((6850c7e4-0969-45b7-9ca8-e2c1d764effe))) for 3 poisons.
 					- The refined conscious absorption this morning prompted for the unification between dynamics with [sequential intents](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) ( ((66f40210-cca6-4d81-85e7-d0c54ef20451)), ((67bd3614-2520-4a5d-8b3f-44f60901844e)), ((67bd7811-ce55-402f-8fb2-08b59fb271c9))) and dynamics with parallel/orthogonal intents, as well as the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
@@ -3198,12 +3199,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  collapsed:: true
 								- ![little-devil-clipart-lg.png](../assets/Will/story/2025-07/little-devil-clipart-lg.png)
 				- ~~Trinion~~ ((6858b355-fba9-4e61-9f16-bc993a3df44b)) via effect flow torus
+				  id:: 6878561a-42bb-404b-b1aa-9e0545b1cc69
 					- self-circle is the form transcycling the content arrows of the world circle through the obop equal.
 					- distribution of the effect threads is determined by the knowledge cone of the self => 3 directions
 					- the center of the self-circle is the apex of the knowledge cone = intent cone = representative of the whole, the perfect, the target, the root of restoring force
 					- the self-circle is driven by the force field of distortion created by its knowledge, to go toward the the intent, to optimize itself toward the perfect form (round circle)
 						- the perfection is the meta form at infinity (zero intent), driving the self to change & learn
-			- 21st, ...
+			- 21st, FoC dynamics again
 			  collapsed:: true
 				- revise [ReciprocalCIE](https://www.geogebra.org/m/pxbusb4r) applet: 2 reciprocal view cones
 					- left: intent:content:extent
@@ -3217,7 +3219,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- equal 1: content + form = sustent = total content = constant
 						- => change content = change form, from external forms in the world, accumulating to intents via knowledge cone
 						- => layers of intents (sustents) spiral down to the center point via SCIFER
-			- 22nd, ...
+			- 22nd, SCIFER Reps: SCIFER helix, SCIFER spirorus
 			  collapsed:: true
 				- [SCIFER Reps](https://www.geogebra.org/m/qy9xkevh) applet: interunion of 2 circles, diagonal line $y=x$ in the torus tessellation plane, SCIFER helix, SCIFER spirorus
 					- torus tessellation plane: We [lift](https://en.wikipedia.org/wiki/Lifting_property) the torus form of the SCIFER spirorus to its [tessellation plane](https://en.wikipedia.org/wiki/Tessellation#In_mathematics), where its [fundamental rectangle](https://en.wikipedia.org/wiki/Fundamental_domain) tiles the plane in a grid pattern.
