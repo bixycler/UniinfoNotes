@@ -792,7 +792,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- obop = ε =[projection]= 1/ω =[cancellation]= ω - ω
 					- Wider the world 🌎 ω, there are more opposites to be cancelled, leaving less things to see as ε, nearer to the center, the average.
 					- To return to the center, we must zoom out, back up/off, retreat, refrain, to let the opposites within the objects cancel themselves, instead of going forward to control them, and let the form of the objects recede themselves.
-				- From afternoon to midnight, i researched various themes in which the most prominent one is [homogeneous coordinates](((67dcf2d3-4020-4477-b375-9bbb8c0b1336))) at last.
+				- From afternoon to midnight, i researched various themes in which the most prominent one is the [homogeneous coordinates](((67dcf2d3-4020-4477-b375-9bbb8c0b1336))) at last.
 				- Due to being caught up in these researches, i was fallen into severe coughs again.
 				  id:: 684f951a-22d9-4f09-9b3e-d8a7ed4e0c3e
 			- Thursday, a day of meditation.
