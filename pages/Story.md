@@ -851,10 +851,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2}$
 									- This is the [“function mapping view”](((67e37475-13e3-4a9f-af60-7bec7517c108))) of the shear where the shear is considered a projective thread.
 							- Rotations as flows on conic grids
-								- On polar grid, the circular rotation moves objects along the “vertical” lines, i.e. concentric circles $x^2 + y^2 = r^2$.
+							  id:: 684f951a-4c9b-45c1-80b0-dc10d12a2dbb
+								- On polar grid, the circular rotation moves objects along the “vertical” lines, i.e. concentric circles $x^2 + y^2 = r^2$. These circles are “vertical” relative to the horizontal x-axis.
 								  id:: 67e64337-65df-48fd-af37-3ee21245e154
 								- On Cartesian grid, the y-parabolic rotation moves objects along the vertical lines $x^2 = r^2$, and x-parabolic rotation along the horizontal lines $y^2 = r^2$.
-								- On hyperbolic grid, the standard hyperbolic rotation moves objects along the “vertical” lines $(x^2 - y^2)^2 = r^4$, and the standard squeeze mapping along the horizontal lines $(2xy)^2 = r^4$.
+								- On hyperbolic grid, the standard hyperbolic rotation moves objects along the “vertical” lines $(x^2 - y^2)^2 = r^4$, and the standard squeeze mapping along the “horizontal” lines $(2xy)^2 = r^4$.
 								- These grids are the conic version of [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates) which are the most common cases of [curvilinear coordinates](https://en.wikipedia.org/wiki/Curvilinear_coordinates).
 								  collapsed:: true
 									- While the **shear** is *usually thought as unidirectional*, its **bidirectional** nature, i.e. rotating around the origin, is stressed with the pair of lines (a degenerate parabola) $x^2 = r^2$ instead of single lines $x = r$.
@@ -908,6 +909,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- [ConicMetricTransform](https://www.geogebra.org/m/yrzmwxqv) to transform the angle metric between elliptic, parabolic, hyperbolic, through y-axis scaling
 							  id:: 67ea7d5e-1cbe-4815-984d-d843d65d4b83
 						- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
+						  id:: 684f951a-c14f-47f5-ac07-0cabb58cf089
 							- radial component = scaling (multiplication, division): $⋅r$
 							- transverse component = translation (addition, subtraction): $+dφ$
 							  :LOGBOOK:

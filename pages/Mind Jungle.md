@@ -3459,6 +3459,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 68882160-10b9-4bd2-998e-28efa9b215d6
 							- from view cone to view circle
 							- pan around and zoom when needed, instead of constantly zoom in and turn when needed.
+							- From radial scaling to transverse translation: ((684f951a-c14f-47f5-ac07-0cabb58cf089))
+								- ((684f951a-4c9b-45c1-80b0-dc10d12a2dbb))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The core technique of the ((665379b7-e4f6-4240-8029-fd143e2230c7)) is to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) all intents. This is the balance way to stranform the karma.
 				- Prerequisites for equalization
 					- 1. The bodymind must be [purified & calmed down](((684f9517-f8fc-45a3-80c9-25eca00e4eda))) by ethics, meditation and the help of ((67445065-15b2-475e-a704-78f140d487af)) & ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) techniques.
