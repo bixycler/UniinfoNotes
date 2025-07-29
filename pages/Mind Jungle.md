@@ -4487,6 +4487,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  | **Intent** (Common sense) | ✅ Strong        | ❌ Usually no         | ❌ Narrow     | Legal, formal, mental state     |
 				  | **Intention**         | ✅ Yes           | ✅ Sometimes          | ❌ Medium     | Goal-driven action              |
 				- The general meaning of “intent” used in Unïnfo is an archaic connotation mentioned in some (old) dictionaries, as shown by [OneLook > intent](https://www.onelook.com/?w=intent).
+				  id:: 686cef15-5eab-44f1-b8d7-3d8a9edcfa69
 					- [Vocabulary.com](https://www.vocabulary.com/dictionary/intent)
 					  > 2. `noun` the intended meaning of a communication
 					- [Collins English Dictionary > intent](https://www.collinsdictionary.com/dictionary/english/intent)
@@ -4513,8 +4514,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- In technical and legal context, [laten intent](https://lsd.law/define/latent-intent) is the intention hidden under the surface, of formal text or expression.
 						- In legal context, [dormant intent](https://lsd.law/define/dormant-legislative-intent) is the intention obscured by ambiguity or inconsistency of the text which the lawmakers were unaware of.
 				- History:
-					- Long before ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((66536578-c4d3-43f1-b35c-bf71120f0570)) had used the word “inten**s**ion” as the general term including both semantical “inten**s**ion” and volitional “inten**t**ion”.
-					- When Will
+					- Even before ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((66536578-c4d3-43f1-b35c-bf71120f0570)) had used the word “inten**s**ion” as the general term including both semantical “inten**s**ion” and volitional “inten**t**ion”.
+						- From his University time, he had contemplated a lot about the 2 duals of intension/extension and form/content.
+					- When Will contemplated the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in 2020, he revived the [archaic word “intent”](((686cef15-5eab-44f1-b8d7-3d8a9edcfa69))) to capture the general meaning of both semantical “inten**s**ion” and volitional “inten**t**ion”. The word
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
