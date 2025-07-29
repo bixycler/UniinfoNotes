@@ -58,7 +58,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- Equalize intents & works; Mind chips from Telegram; Reword “Discussion” → “Commentarities”
+				- Equalize **intents** & works; Mind chips from Telegram; Reword “Discussion” → “Commentarities”
 				-
 				- Stories & practices
 					- ((68366fff-92cf-41a7-ab2d-0c1f77d0effb))
