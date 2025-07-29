@@ -3467,7 +3467,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Due to the large intent of the hidden boss, the obop can only see a very narrow view (small extent).
 							- When all intents are equalized, i.e. being placed on the circumference, no intent is left in the center to be boss.
 							- The zero intent at the empty center causes the vision of the obop to be widened to the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). This whole vision is called wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)).
-					- From **heading** toward with hierarchical intents, to **turning** around with [equal intents](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
+					- From **heading** forward with hierarchical intents, to **turning** around with [equal intents](((68871ce1-eb57-4be3-ad48-45af6ccb5d49)))
 					  id:: 68882160-10b9-4bd2-998e-28efa9b215d6
 					  collapsed:: true
 						- from view cone to view circle
