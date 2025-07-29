@@ -328,6 +328,108 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- “v” /v/ → /ʋ/ → /bj/ → /βj/ → /j/
 				- [/ʋ/](https://en.wikipedia.org/wiki/Voiced_labiodental_approximant) is between /v/ and /w/
 					- ((6809ac03-30d3-4ba7-8b9b-17e13732f9dd))
+		- The translation by $\vec{v} = (dx:dy:0)$ in homogeneous coordinates is actually a **rotation** due to its [*scale invariance*](((67e1004d-1533-483b-ab39-4b91ffbedbdd))) throughout all z-scaled planes: $\vec{v}_z = \overrightarrow{(dx⋅z,\, dy⋅z)}$ [on plane $z≠0$] $= \vec{v} = \overrightarrow{(dx, dy)}$ [on the standard plane $z = 1$].
+		  id:: 67e0fb13-1c89-4f27-825e-02027f368fa2
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-03-24 Mon 13:59:25]--[2025-03-31 Mon 18:40:44] =>  172:41:19
+		  :END:
+			- This is a parabolic rotation ([shear mapping](https://en.wikipedia.org/wiki/Shear_mapping)): ((67b541c9-dbe4-4b0f-a2a8-810805bbfce8))
+			- circular θ > parabolic φ > hyperbolic ψ
+			  id:: 67e29bdb-9bce-4cb8-b993-79aa130a1831
+				- The circular rotation is on the ((675f8a74-7fef-4e88-a65e-856f5e494bb8)), the parabolic rotation is on the ((675f8af0-7b21-4483-908c-25ce0cec02cc)), and the hyperbolic rotation is on the squeezed unwrapped circumference plane.
+				- Parabolic rotation = [shear](https://en.wikipedia.org/wiki/Shear_mapping), with **parabolic angle = shear factor** $s = \tan(φ)$
+				  $(x, y) → (x, \; y + s⋅x)$
+					- φ is the (circular) angle between the radial (sheared) line and the horizontal line.
+				- Wrapping $s$ around the unit circle, we have the circular rotation with **circular angle** $θ = s \mod 2π = \tan(φ) \mod 2π$.
+				- The corresponding hyperbolic rotation can be constructed in 2 ways:
+				  id:: 67e2a0e0-a6d9-4ad8-a601-24289f44d383
+				  :LOGBOOK:
+				  CLOCK: [2025-03-25 Tue 20:47:33]--[2025-03-25 Tue 20:57:06] =>  00:09:33
+				  :END:
+					- **Area sync**: hyperbolic angle $ψ = s$
+						- The [hyperbolic angle](https://en.wikipedia.org/wiki/Hyperbolic_angle) $ψ$ is defined to be double the area of the corresponding hyperbolic sector.
+							- Actually, this definition is the same for all conic angles agains conic sectors.
+						- Hyperbolic rotation is a [squeeze](https://en.wikipedia.org/wiki/Squeeze_mapping) with **squeeze factor** $k = e^ψ$ which is the up-scale factor along $x = y$ and the down-scale factor along $x+y=0$.
+						- The corresponding (circular) angle $ψ_c$ between the radial (squeezed) line and the horizontal line: 
+						  $\tanh(ψ) = \tan(ψ_c)$
+					- **Edge sync**: Project the shear line up to the light cone $z = \sqrt{x^2 + y^2}$, then project to xOz plane, then reflect back to xOy plane, i.e., the sheared line is mirrored into the horizontal line:
+					  $\tanh(ψ) = \tan(ψ_c) = \sin(φ) = s/\sqrt{1+s^2}$
+						- This is the [“function mapping view”](((67e37475-13e3-4a9f-af60-7bec7517c108))) of the shear where the shear is considered a projective thread.
+				- Rotations as flows on conic grids
+				  id:: 684f951a-4c9b-45c1-80b0-dc10d12a2dbb
+					- On polar grid, the circular rotation moves objects along the “vertical” lines, i.e. concentric circles $x^2 + y^2 = r^2$. These circles are “vertical” relative to the horizontal x-axis.
+					  id:: 67e64337-65df-48fd-af37-3ee21245e154
+					- On Cartesian grid, the y-parabolic rotation moves objects along the vertical lines $x^2 = r^2$, and x-parabolic rotation along the horizontal lines $y^2 = r^2$.
+					- On hyperbolic grid, the standard hyperbolic rotation moves objects along the “vertical” lines $(x^2 - y^2)^2 = r^4$, and the standard squeeze mapping along the “horizontal” lines $(2xy)^2 = r^4$.
+					- These grids are the conic version of [orthogonal coordinates](https://en.wikipedia.org/wiki/Orthogonal_coordinates) which are the most common cases of [curvilinear coordinates](https://en.wikipedia.org/wiki/Curvilinear_coordinates).
+					  collapsed:: true
+						- While the **shear** is *usually thought as unidirectional*, its **bidirectional** nature, i.e. rotating around the origin, is stressed with the pair of lines (a degenerate parabola) $x^2 = r^2$ instead of single lines $x = r$.
+						- Transforming the complex plane, we have similar grids (some with distortions):
+							- **Cartesian grid** $(u+iv)$ is the standard complex plane.
+							- **Polar grid** $\exp(\ln u+iv)$ has circles expanding uniformly against $u$.
+								- The [log-lin](https://en.wikipedia.org/wiki/Semi-log_plot#log%E2%80%93linear_plot) grid $(\ln u+iv)$ is useful for data with exponential relationships.
+								- [Log-polar grid](https://en.wikipedia.org/wiki/Log-polar_coordinates) $\exp(u+iv)$ has circles expanding exponentially against $u$, i.e., the coordinate $u$ is the logarithm of the radius of the corresponding circle on the grid.
+							- **Hyperbolic grid** $\sqrt{u^2+iv^2}$ has hyperbolas spacing uniformly against $u, v$.
+								- **Squared hyperbolic grid** $\sqrt{u+iv}$ has hyperbolas spacing in square roots of $u, v$, i.e., coordinates $u, v$ are squares of the distance from the corresponding hyperbola on the grid to the origin.
+						- Notes:
+							- Don't confuse the Cartesian grid $(u+iv)$ with the [“parabolic grid”](https://en.wikipedia.org/wiki/Parabolic_coordinates) $(u+iv)^2$.
+							- The [“radial hyperbolic coordinates”](https://en.wikipedia.org/wiki/Hyperbolic_coordinates) is different from the “orthogonal hyperbolic coordinates” above in that the “vertical lines” are radial lines $x/y = e^{2r}$, instead of hyperbolas $(x^2 - y^2)^2 = r^4$. This grid with radials is not orthogonal and is used in relativity physics.
+							  id:: 684f951a-cb78-405b-b763-e9e7edfd5414
+							- It's interesting that as late as 2015, there was still a paper to “present and construct a new kind of orthogonal coordinate system, hyperbolic coordinate system”: [Hyperbolic-symmetry vector fields](https://www.researchgate.net/publication/286403709_Hyperbolic-symmetry_vector_fields).
+				- The conic rotations are special cases of the Lie group [SL(2,ℝ)](https://en.wikipedia.org/wiki/SL2(R)).
+				  collapsed:: true
+					- All actions in this group are [classified](https://en.wikipedia.org/wiki/SL2(R)#Classification_of_elements) into elliptic, parabolic, and hyperbolic rotations (may be nonstandard: different axis, scaled).
+					- The flows are [Lie exponentiations](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) of generators:
+						- Elliptic: $G_c = \begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix} \; ; \; \exp(θG_c) = \begin{bmatrix} \cos θ & -\sin θ \\ \sin θ & \cos θ \end{bmatrix}$
+						- Parabolic: $G_{py} = \begin{bmatrix} 0 & 0 \\ 1 & 0 \end{bmatrix} \; ; \; \exp(sG_{py}) = \begin{bmatrix} 1 & 0 \\ s & 1 \end{bmatrix}$ (the same for $G_{px}$)
+						- Hyperbolic: 
+						  $G_h = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \; ; \; \exp(ψG_h) = \begin{bmatrix} \cosh ψ & \sinh ψ \\ \sinh ψ & \cosh ψ \end{bmatrix}$
+						  $G_a = \begin{bmatrix} a & 0 \\ 0 & 1/a \end{bmatrix} \; ; \; \exp(ψG_a) = \begin{bmatrix} e^ψ & 0 \\ 0 & e^{-ψ} \end{bmatrix}$
+			- In 2D, parabolic rotations can be used to compose both circular and hyperbolic rotations.
+			  id:: 67e238fb-771f-483d-a04a-badff7c7c70a
+				- 4 triples of parabolic rotations equivalent to circular and hyperbolic rotations:
+				  id:: 67e6168e-ff58-4d9d-94a7-6fee6f533044
+					- x-y-x triples
+						- $R(θ) = S_x(−\tan(θ/2))⋅S_y(\sin(θ))⋅S_x(−\tan(θ/2))$
+						- $H(ψ) = S_x(\tanh(ψ/2))⋅S_y(\sinh(ψ))⋅S_x(\tanh(ψ/2))$
+					- y-x-y triples
+						- $R(θ) = S_y(\tan(θ/2))⋅S_x(-\sin(θ))⋅S_y(\tan(θ/2))$
+						- $H(ψ) = S_y(\tanh(ψ/2))⋅S_x(\sinh(ψ))⋅S_y(\tanh(ψ/2))$
+					- These are so beautiful with symmetries! 😊
+						- **H = tanh ⋅ sinh ⋅ tanh** for both triples
+						- **R = (-/+)tan ⋅ (+/-)sin ⋅ (-/+)tan** for x-y-x / y-x-y
+					- Here $S_x(k_x), S_y(k_y)$ are X & Y shears with shear factors $k_x, k_y$ (parabolic angles), and $R(θ), H(ψ)$ are circular and hyperbolic rotations with angles $θ, ψ$.
+				- A circular rotation [can be decomposed](https://en.wikipedia.org/wiki/Rotation_matrix#Decomposition_into_shears) into 3 parabolic rotations, or 2 parabolic rotations + squeeze.
+					- Video: [Rotation by shearing](https://youtu.be/tHekokkHmlM)
+					  collapsed:: true
+						- {{video https://youtu.be/tHekokkHmlM}}
+					- Video: [Rotation without rotating](https://youtu.be/1LCEiVDHJmc) for the good old low resolution Mario sprite.
+					  collapsed:: true
+						- {{video https://youtu.be/1LCEiVDHJmc}}
+			- GeoGebra applets
+			  id:: 67e299fa-4f76-482a-b586-adacb17dc064
+				- [HyperbolicRotation](https://www.geogebra.org/m/qhgvaamt)
+				- [ConicRotations](https://www.geogebra.org/m/d67tfadb) for ((67e29bdb-9bce-4cb8-b993-79aa130a1831))
+				- [ShearRotations](https://www.geogebra.org/m/mkwqufvk) to [compose circular & hyperbolic rotations](((67e238fb-771f-483d-a04a-badff7c7c70a)))
+				- [ConicMetricTransform](https://www.geogebra.org/m/yrzmwxqv) to transform the angle metric between elliptic, parabolic, hyperbolic, through y-axis scaling
+				  id:: 67ea7d5e-1cbe-4815-984d-d843d65d4b83
+			- Components of the tranformation $R⋅ = (r⋅e^{idφ})⋅ = (r⋅ \overrightarrow{⟨dφ⟩})⋅$
+			  id:: 684f951a-c14f-47f5-ac07-0cabb58cf089
+				- radial component = scaling (multiplication, division): $⋅r$
+				- transverse component = translation (addition, subtraction): $+dφ$
+				  :LOGBOOK:
+				  CLOCK: [2025-03-24 Mon 13:30:46]
+				  CLOCK: [2025-03-24 Mon 14:16:57]
+				  :END:
+				- Note: don't confuse $\overrightarrow{⟨dφ⟩}$ with $d\overrightarrow{⟨φ⟩}$!
+				  collapsed:: true
+				  While $\overrightarrow{⟨dφ⟩}$ is unit vector around x-axis, $d\overrightarrow{⟨φ⟩}$ is a near-zero vector perpendicular to $\overrightarrow{⟨φ⟩}$.
+					- $|\overrightarrow{⟨dφ⟩}| = 1 \; ; \; \arg(\overrightarrow{⟨dφ⟩}) = dφ$
+					- $d\overrightarrow{⟨φ⟩} = d(e^{iφ}) = (e^{iφ})idφ = \overrightarrow{⟨φ⟩}i⋅dφ$
+						- $|d\overrightarrow{⟨φ⟩}| = dφ \; ; \; \arg(d\overrightarrow{⟨φ⟩}) = φ+π/2$
+				- Ref: ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
+			- Vector = arrow = translation = $1 + Δ$ = $\lim_{n→∞}(1 + Δ/n)^n = e^Δ$
 		- “wanting” = “lacking” ↔ “distress” = “overwhelming stress” = “anger” = “excessive pressure”
 		  id:: 67cea2ee-5f77-4576-8c1c-9e31d9b822c9
 		  collapsed:: true
