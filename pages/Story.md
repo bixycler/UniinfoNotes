@@ -3285,6 +3285,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- My appeal has cleared this ((6880e5f7-3f00-4d8f-a63b-fcf9548175a2))
 						- Request for review
 						  > This is a simple static page with content merely about Dhammapada Sutta. Please show me how and which part of it "trick users into doing something dangerous, such as installing unwanted software or revealing personal information."
+					- DONE The Unïnfo page has been indexed, resulting in a search result for keword `Unïnfo` pointing to the front page.
+					  :LOGBOOK:
+					  CLOCK: [2025-07-29 Tue 20:23:47]--[2025-07-29 Tue 20:23:50] =>  00:00:03
+					  :END:
 			- 24th, ((6882164a-8717-4fd4-a660-4fdeb424af70))
 			  collapsed:: true
 				- Will Lei's cover of [Canon in D](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon) in [Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ)
@@ -3293,7 +3297,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Soft & long](https://g.co/arts/AyZENm19CKRfwMci6)
 					- [Strong & short](https://g.co/arts/a5HpLckFjN4rmqbDA)
 					- [Emotional](https://g.co/arts/bonYD3CQH8hzS9Tr6)
-			- Weekends 25-27th,
+			- Weekends 25-27th, research about string instruments and [string harmonics](https://en.wikipedia.org/wiki/String_harmonic).
 			  collapsed:: true
 				- Seeing [Viola the Bird](https://g.co/arts/bonYD3CQH8hzS9Tr6) simplifying the violin to only one string, i remember the African goje as well as many other ((68872ffd-76bc-4b15-8a2c-2d6fa6c068dd)).
 				- 1-string instruments in the world
@@ -3362,4 +3366,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
 			  collapsed:: true
 				- Wow, i must use longer terms “viewing direction” & “light ray direction”, because the shading men have reverted both [“view direction”](((68876434-f1f3-4dda-975f-496594ef762e))) and [“light direction”](((6887625c-db24-4ecf-a154-3aedb390afd3))) for their own convenience (in the viewpoint of the shaded object)!
+			- DOING 29th, wrap this story up, on the occasion of my project at company has started!
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-07-29 Tue 20:27:01]
+			  :END:
+				-
 		- ...
