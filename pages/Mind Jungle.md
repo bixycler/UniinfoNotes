@@ -2024,6 +2024,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), i.e. intent cone > obop < action cone.
 					- Note: Unlike the infinite cause–effect double cone, the intent–action double cone has finite bases, which are ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) on the intent side, and ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base on the action side.
+					- Actually, this double cone folds back on itself to be a single cone and is modularized into layers of obops in the intent chain.
 			- cause–effect mirror circles
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) viewed as two touching ((667c0031-0a87-44c9-9e98-6d45893b095f))s connecting the external world with the internal world (knowledge cone) through the intent–action double cone. This is the mirroring mechanism between the external and internal worlds.
@@ -3808,10 +3809,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6889c11f-e881-432f-ba0f-876b61afc60c
 			  collapsed:: true
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68898917-e61f-4d23-9124-474efa9a9eee))
-				- DOING look behind the eyes
+				- look behind the eyes
 				  id:: 68898917-e61f-4d23-9124-474efa9a9eee
 				  :LOGBOOK:
-				  CLOCK: [2025-07-30 Wed 09:53:20]
+				  CLOCK: [2025-07-30 Wed 09:53:20]--[2025-07-30 Wed 19:37:45] =>  09:44:25
 				  :END:
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6889c11f-e881-432f-ba0f-876b61afc60c))
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to reveal the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) in the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) and escape its domination, we must look behind the ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s.
