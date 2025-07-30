@@ -1861,17 +1861,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 669a2487-054d-4408-ae41-189e34af81a9
 		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)), ((669a2697-56af-445c-9197-24aa498a5d5b)), ((669a2886-9e03-41a4-a790-24bf6b7dcd96)), ((66c85d4d-64de-48d9-b384-eebdc2635ab2))
-		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
 		  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 			- viewer
 			  id:: 66c8613b-ce1a-4263-b24d-fc2172d5b59f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When calling a body a ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)), we emphasize its **role** of viewing as opposed to the ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) role of the subject of that body.
 			- observer
 			  id:: 669a2697-56af-445c-9197-24aa498a5d5b
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
 			- sensor
 			  id:: 669a2886-9e03-41a4-a790-24bf6b7dcd96
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))
 			- projector
 			  id:: 66c85d4d-64de-48d9-b384-eebdc2635ab2
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
@@ -1974,11 +1977,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- effector
 			  id:: 6889abf7-7c3c-4ef5-80fe-3edca20268bd
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
-			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a2886-9e03-41a4-a790-24bf6b7dcd96))
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((669a2886-9e03-41a4-a790-24bf6b7dcd96))
 			- hand
 			  id:: b67b7276-441e-43f2-a5c1-81e3cbe0659e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
-			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((669a2487-054d-4408-ae41-189e34af81a9))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) of an ((66727858-979d-4d95-8a90-7a749218cfba)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) that performs that action. When calling a body an “actor”, we emphasize its **role** of performing action as opposed to the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)) role of the subject of that body. For a body specialized in action, we call it ((6889abf7-7c3c-4ef5-80fe-3edca20268bd)) or ((b67b7276-441e-43f2-a5c1-81e3cbe0659e)).
 	- ## view–control
 	  id:: 66725144-6bc9-4c9f-ba48-2cef02651e52
