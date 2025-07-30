@@ -3377,10 +3377,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-07-30 Wed 09:53:20]
 		  :END:
+			- We must look behind the sensors in order to reveal the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) in the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
 			- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is what's behind the eyes.
-				- We must look behind the sensors in order to reveal the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) in the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
 				- The “intent chain”, like the [“chain/train of thought”](https://en.wikipedia.org/wiki/Train_of_thought), is modeled as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) in Uninet Theory.
-			- The idiom “(look) behind the eyes” should be recorded in dictionaries! 😉
 			- “Listening between the ears” is the 反聞聞自性 of [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm).
 			  collapsed:: true
 				- > 反聞聞自性，性成無上道，圓通實如是。
@@ -3398,6 +3397,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  "Hơi thở đâu? Hơi thở đâu? Hơi thở đâu rồi?"
 					  Nhưng mấy hôm nay mình cũng tập được một thói quen mới là ngay sau khi tỉnh dậy thì tự hỏi như thế (vì nếu đã tỉnh thiệt thì phải thấy hơi thở chứ!) ... May là mình với tầm mắt (bên trong) bám được vào hơi thở, thế là mọi thứ bỗng rõ ràng trở lại, tiếng chim hót, tiếng sột soạt bên ngoài quay về rõ mồn một. Tỉnh hẳn, mình mở mắt ngồi dậy cái một. Ra rửa mặt xong vô xếp mùng thì tâm mình kết nối với kinh nghiệm thiền buổi trưa hôm qua, chợt thốt lên mấy câu thơ (viết bên trên).
 					  #+END_QUOTE
+			- The idiom “(look) behind the eyes” should be recorded in dictionaries! 😉
+				- The song [Behind Blue Eyes](https://en.wikipedia.org/wiki/Behind_Blue_Eyes) by The Who in 1971
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68898917-e61f-4d23-9124-474efa9a9eee))
