@@ -3936,7 +3936,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Disliking something is because its image is far, small.
 					- In both like & dislike, the subject see
 						- (e) only a very small segment of the whole circle, and
-						- (i) only a tip of the intent–action double cone,
+						- (i) only a tip of the intent cone,
 						- hence, a very distorted image of both the external object (e) and the internal [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) (i).
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
