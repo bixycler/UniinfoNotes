@@ -1975,7 +1975,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: b67b7276-441e-43f2-a5c1-81e3cbe0659e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) of an ((66727858-979d-4d95-8a90-7a749218cfba)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) that performs that action. When calling a body an "actor", we emphasize its role of performing action as opposed to the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)) role of the subject of that body.
-	- ## view-control
+	- ## view–control
 	  id:: 66725144-6bc9-4c9f-ba48-2cef02651e52
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66727388-ed2b-4f62-b8d7-ed70a0ad4ef3))
@@ -2007,7 +2007,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### cause–effect double cone
 		  id:: 6851578b-9b1f-4367-878f-79b0b0b9be51
 		  collapsed:: true
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)). Because both
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)). Because both nappes extends infinitely out to the external world, two “ends” of the double cone is connected by the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) to form the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
 				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
 					- Diagram
 					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
@@ -2065,7 +2065,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-08-23 Fri 16:14:01]
 			  :END:
 			- ((66b1cfa4-ec86-433e-b5ea-c52c991717c1))
-	- ## observer-operator
+	- ## observer–operator
 	  id:: 669a2c12-1dad-42a0-ab31-f03642b4aa8a
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), ((66f3b94d-6cf8-461a-9312-c9973ac739fe)), ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d)), ((5d7a0798-907d-46b7-8481-99d3be30de9e)), ((fa0b2bc6-05ac-418f-9a86-17635936a656))
@@ -2096,10 +2096,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66f3c6a9-1486-46de-92fe-75aaeaf67834
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is an instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in the role of an ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)).
-		- seer-doer
+		- seer–doer
 		  id:: 5d7a0798-907d-46b7-8481-99d3be30de9e
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
-		- viewer-actor
+		- viewer–actor
 		  id:: fa0b2bc6-05ac-418f-9a86-17635936a656
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), obop is represented by the Equal which operates the Trinion using the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) equation. The atomic ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is called “qualiton” which will be annihilated at the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) to be a “selfless obop” called “self-essence”. That means ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) ⤚[((66f3d5cc-0d68-47bb-b09a-87cda33c7354))]→ ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⤚[((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))]→ ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) ⤚[((66ab7477-c060-4d07-ab13-bc3d11246854))]→ ((66c8772a-9b29-45b0-b169-2fa847333e02)). ((6867abcb-4e1c-493e-a38d-c7b8809dd6ad))
