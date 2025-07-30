@@ -3830,7 +3830,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- While the exact phrase “behind the eyes” has not appeared in dictionaries, it does recur across domains—spiritual, philosophical, psychological—always referring to that invisible locus of attention, agency, or intentionality.
 								- Examples
 									- The song [Behind Blue Eyes](https://en.wikipedia.org/wiki/Behind_Blue_Eyes) by The Who in 1971
-									- [](https://www.organism.earth/library/document/tao-of-philosophy-5)
+									- Alan Watts usually used the phrase ["we locate ourselves behind the eyes"](https://www.organism.earth/library/document/tao-of-philosophy-5) to describe the common human experience of feeling like a separate consciousness, an ego, residing within the body.
+									- *Hold Your Attention Behind The Eyes*, a discourse given by Ishwar Puri in July 6, 2013, Pune, India
+										- [Video](https://youtu.be/N2aovHQzDZo), [PDF transcript](https://ishanews.org/media/transcripts/eng/Hold_Your_Attention_Behind_The_Eyes.pdf)
+										  collapsed:: true
+											- {{video https://youtu.be/N2aovHQzDZo}}
+									- [The meaning-making mechanism(s) behind the eyes and between the ears](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0301)
 						- Expressions of ((68898917-e61f-4d23-9124-474efa9a9eee))
 						  collapsed:: true
 							- Another version of “looking behind the eyes” is “listening between the ears” which is the 反聞聞自性 technique of bodhisattva Avalokiteśvara (觀世音, Quán Thế Âm) in [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm).
