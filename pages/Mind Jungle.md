@@ -1228,6 +1228,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
+			- effect circle
+			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- self-effect
 			  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
@@ -1235,9 +1238,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
-			- effect circle
-			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
 				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
 			- ### intentional cause
@@ -2006,7 +2006,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- A special case of this equation is the [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) in General Realativity.
 		- ### cause–effect double cone
 		  id:: 6851578b-9b1f-4367-878f-79b0b0b9be51
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
+		  collapsed:: true
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)). Because both
 				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
 					- Diagram
 					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
@@ -2014,6 +2015,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- intent–action double cone
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
+			- cause–effect circle
+			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
+				- ((667c0031-0a87-44c9-9e98-6d45893b095f))
 		- Mutual exclusiveness
 		  collapsed:: true
 		  “thấy không làm, làm không thấy”  
