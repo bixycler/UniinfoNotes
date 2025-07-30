@@ -3824,11 +3824,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :END:
 							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) in Uninet Theory.
 							- DOING The idiom “(look) behind the eyes” should be recorded in dictionaries! 😉
-							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2025-07-30 Wed 14:06:33]
 							  :END:
-								- The song [Behind Blue Eyes](https://en.wikipedia.org/wiki/Behind_Blue_Eyes) by The Who in 1971
+								- While the exact phrase “behind the eyes” has not appeared in dictionaries, it does recur across domains—spiritual, philosophical, psychological—always referring to that invisible locus of attention, agency, or intentionality.
+								- Examples
+									- The song [Behind Blue Eyes](https://en.wikipedia.org/wiki/Behind_Blue_Eyes) by The Who in 1971
+									- [](https://www.organism.earth/library/document/tao-of-philosophy-5)
 						- Expressions of ((68898917-e61f-4d23-9124-474efa9a9eee))
 						  collapsed:: true
 							- Another version of “looking behind the eyes” is “listening between the ears” which is the 反聞聞自性 technique of bodhisattva Avalokiteśvara (觀世音, Quán Thế Âm) in [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm).
