@@ -7,9 +7,8 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
-		- world
+		- hand
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
-		  collapsed:: true
 		  ^ **Name & Term** search
 			- Filters
 			  collapsed:: true
@@ -28,7 +27,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- child-filter:: ((665ca48e-f7c1-4541-b5cf-486d86b02997)) | ((6651ecba-793d-43c5-8020-a9f260b032d8)) | ((665359c0-a89a-41b5-9f28-503f79107a08)) | ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) | ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- {{search-query [:h3 "Name & Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 67710fcc-08c4-4a3e-96fd-bc4207f6ec8f, 677010ec-01b9-48d6-9a3b-ea53bd62cea3, true, false}}
 			  query-table:: false
-		- Etymology
+		- structure
 		  id:: 66fce8d4-0434-4dd0-941f-4f3bd9b1b456
 		  collapsed:: true
 		  ^ **Element** search
