@@ -3835,6 +3835,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  > Phản văn văn tự tánh, tánh thành vô thượng đạo, viên thông thật như thị.
 								  > Xoay tánh nghe trở vào để nghe tự tánh của mình thì tánh đó trở thành đạo vô thượng, pháp (Nhĩ-căn) Viên-thông thật là như vậy.
 								  > Turn hearing back to hear self-nature; that nature leads to unsurpassed Way; Perfect Penetration — truly thus is it.
+							- In Buddhism, [sati sampajañña](https://en.wikipedia.org/wiki/Sampaja%C3%B1%C3%B1a) (正念[與]正知, chánh niệm [và] tỉnh giác)
 							- I uttered a poem years ago about “quay vào quán sát bên trong” at the beginning of my [“formal practice of meditation”](https://creatzynotes.blogspot.com/2014/12/lan-au-ngoi-thien-nghiem-tuc-xep-bang.html).
 								- > Khi mắt đà chán ngán cảnh xung quanh,
 								  Tai không còn hứng thú với thanh trần,
