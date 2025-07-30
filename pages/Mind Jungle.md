@@ -2015,7 +2015,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### cause–effect double cone
 		  id:: 6851578b-9b1f-4367-878f-79b0b0b9be51
 		  collapsed:: true
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)). Because both nappes extends infinitely out to the external world, two “ends” of the double cone is connected by the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) to form the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)). Because both nappes extends infinitely out to the worlds (external & internal), two “ends” of the double cone is connected by the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870))s to form the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
 				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
 					- Diagram
 					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
@@ -2023,11 +2023,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- intent–action double cone
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), i.e. intent cone > obop < action cone.
-					- Note: Unlike the infinite cause–effect double cone, the intent–action double cone has finite bases which are ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) on the intent side, and
-			- cause–effect circle
+					- Note: Unlike the infinite cause–effect double cone, the intent–action double cone has finite bases which are ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) on the intent side, and ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base on the action side.
+			- cause–effect double circle
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) viewed as an ((667c0031-0a87-44c9-9e98-6d45893b095f)).
-					- Structure: ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s ) > world
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) viewed as a double ((667c0031-0a87-44c9-9e98-6d45893b095f)) connecting the external world with the internal world (knowledge cone) through the intent–action double cone.
+					- Structure: ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base ) > world
 		- Mutual exclusiveness
 		  collapsed:: true
 		  “thấy không làm, làm không thấy”  
