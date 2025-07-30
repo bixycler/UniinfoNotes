@@ -3377,6 +3377,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-07-30 Wed 09:53:20]
 		  :END:
+			- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is what's behind the eyes.
+				- The “intent chain”, like the [“chain/train of thought”](https://en.wikipedia.org/wiki/Train_of_thought), is modeled as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) in Uninet Theory.
 			- The idiom “(look) behind the eyes” should be recorded in dictionaries! 😉
 			- “Listening between the ears” is the 反聞聞自性 of [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm).
 			  collapsed:: true
