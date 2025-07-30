@@ -3806,7 +3806,42 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- I discovered this technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
 			- ### introspect
 			  id:: 6889c11f-e881-432f-ba0f-876b61afc60c
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+			  collapsed:: true
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68898917-e61f-4d23-9124-474efa9a9eee))
+				- DOING look behind the eyes
+				  id:: 68898917-e61f-4d23-9124-474efa9a9eee
+				  :LOGBOOK:
+				  CLOCK: [2025-07-30 Wed 09:53:20]
+				  :END:
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6889c11f-e881-432f-ba0f-876b61afc60c))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to reveal the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) in the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)), we must look behind the ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s.
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is what's behind the eyes.
+							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) in Uninet Theory.
+							- DOING The idiom “(look) behind the eyes” should be recorded in dictionaries! 😉
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2025-07-30 Wed 14:06:33]
+							  :END:
+								- The song [Behind Blue Eyes](https://en.wikipedia.org/wiki/Behind_Blue_Eyes) by The Who in 1971
+						- Another version of “looking behind the eyes” is “listening between the ears” which is the 反聞聞自性 technique of bodhisattva Avalokiteśvara (觀世音, Quán Thế Âm) in [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm).
+						  collapsed:: true
+							- > 反聞聞自性，性成無上道，圓通實如是。
+							  > Phản văn văn tự tánh, tánh thành vô thượng đạo, viên thông thật như thị.
+							  > Xoay tánh nghe trở vào để nghe tự tánh của mình thì tánh đó trở thành đạo vô thượng, pháp (Nhĩ-căn) Viên-thông thật là như vậy.
+							  > Turn hearing back to hear self-nature; that nature leads to unsurpassed Way; Perfect Penetration — truly thus is it.
+						- I uttered a poem years ago about “quay vào quán sát bên trong” at the beginning of my [“formal practice of meditation”](https://creatzynotes.blogspot.com/2014/12/lan-au-ngoi-thien-nghiem-tuc-xep-bang.html).
+						  collapsed:: true
+							- > Khi mắt đà chán ngán cảnh xung quanh,
+							  Tai không còn hứng thú với thanh trần,
+							  Ta quay vào quán sát bên trong
+							  Woà, bỗng chốc cơn mê chợt tỉnh!
+							- [Posted on facebook](https://www.facebook.com/share/174kpPvh6k/) in Januray 26th 2015.
+								- #+BEGIN_QUOTE
+								  "Hơi thở đâu? Hơi thở đâu? Hơi thở đâu rồi?"
+								  Nhưng mấy hôm nay mình cũng tập được một thói quen mới là ngay sau khi tỉnh dậy thì tự hỏi như thế (vì nếu đã tỉnh thiệt thì phải thấy hơi thở chứ!) ... May là mình với tầm mắt (bên trong) bám được vào hơi thở, thế là mọi thứ bỗng rõ ràng trở lại, tiếng chim hót, tiếng sột soạt bên ngoài quay về rõ mồn một. Tỉnh hẳn, mình mở mắt ngồi dậy cái một. Ra rửa mặt xong vô xếp mùng thì tâm mình kết nối với kinh nghiệm thiền buổi trưa hôm qua, chợt thốt lên mấy câu thơ (viết bên trên).
+								  #+END_QUOTE
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Introspection
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
 			  :LOGBOOK:
