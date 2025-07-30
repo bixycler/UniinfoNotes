@@ -3377,10 +3377,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-07-30 Wed 09:53:20]
 		  :END:
-			- “Listen between the ears” is the 反聞聞自性 of Śūraṅgama Sūtra (首楞嚴經, Kinh Thủ-lăng-nghiêm)
+			- “Listen between the ears” is the 反聞聞自性 of [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm)
 				- > 反聞聞自性，性成無上道，圓通實如是。
 				  > Phản văn văn tự tánh, tánh thành vô thượng đạo, viên thông thật như thị.
-				  > Xoay tánh nghe trở vào để nghe tự tánh của mình thì tánh đó trở thành đạo vô thượng, pháp (Nhĩ căn) Viên thông thật là như vậy.
+				  > Xoay tánh nghe trở vào để nghe tự tánh của mình thì tánh đó trở thành đạo vô thượng, pháp (Nhĩ-căn) Viên-thông thật là như vậy.
 				  > Turn hearing back to hear self-nature; that nature leads to unsurpassed Way; Perfect Penetration — truly thus is it.
 			- My poem years ago at the beginning of my “formal practicing meditation”
 				- > Khi mắt đà chán ngán cảnh xung quanh,
@@ -3390,7 +3390,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [Posted on facebook](https://www.facebook.com/share/174kpPvh6k/) in Januray 26th 2015.
 					- #+BEGIN_QUOTE
 					  "Hơi thở đâu? Hơi thở đâu? Hơi thở đâu rồi?"
-					  Nhưng mấy hôm nay mình cũng tập được một thói quen mới là ngay sau khi tỉnh dậy thì tự hỏi như thế (vì nếu đã tỉnh thiệt thì phải thấy hơi thở chứ!) ... 
+					  Nhưng mấy hôm nay mình cũng tập được một thói quen mới là ngay sau khi tỉnh dậy thì tự hỏi như thế (vì nếu đã tỉnh thiệt thì phải thấy hơi thở chứ!) ... May là mình với tầm mắt (bên trong) bám được vào hơi thở, thế là mọi thứ bỗng rõ ràng trở lại, tiếng chim hót, tiếng sột soạt bên ngoài quay về rõ mồn một. Tỉnh hẳn, mình mở mắt ngồi dậy cái một. Ra rửa mặt xong vô xếp mùng thì tâm mình kết nối với kinh nghiệm thiền buổi trưa hôm qua, chợt thốt lên mấy câu thơ (viết bên trên).
 					  #+END_QUOTE
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
