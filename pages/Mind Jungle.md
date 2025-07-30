@@ -1247,6 +1247,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=521&h=482)
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- I don't use the term “final cause” because 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 2) throughout the never ending cycle of effect, it will never be “final”.
+					  collapsed:: true
 						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
 						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
