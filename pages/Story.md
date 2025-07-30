@@ -3371,7 +3371,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- Although the [plan](((68663850-daa5-487e-ba48-fea228a2b188))) has not been applied well, the practical methods for intent management have been developed quite well.
 				- So, let's wrap it up for the new month coming.
-		- DOING Looking behind the eyes
+		- DOING Look behind the eyes
 		  id:: 68898917-e61f-4d23-9124-474efa9a9eee
 		  collapsed:: true
 		  :LOGBOOK:
@@ -3380,7 +3380,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- We must look behind the ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s in order to reveal the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) in the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
 			- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is what's behind the eyes.
 				- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) in Uninet Theory.
-			- “Listening between the ears” is the 反聞聞自性 of [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm).
+			- Another version of “looking behind the eyes” is “listening between the ears” which is the 反聞聞自性 technique of bodhisattva Avalokiteśvara (觀世音, Quán Thế Âm) in [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm).
 			  collapsed:: true
 				- > 反聞聞自性，性成無上道，圓通實如是。
 				  > Phản văn văn tự tánh, tánh thành vô thượng đạo, viên thông thật như thị.
