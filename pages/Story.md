@@ -3377,7 +3377,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-07-30 Wed 09:53:20]
 		  :END:
-			- Śūraṅgama Sūtra (楞嚴經): 反聞聞自性
+			- “Listen between the ears” is the 反聞聞自性 of Śūraṅgama Sūtra (首楞嚴經, Kinh Thủ-lăng-nghiêm):
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68898917-e61f-4d23-9124-474efa9a9eee))
