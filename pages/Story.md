@@ -3371,6 +3371,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- Although the [plan](((68663850-daa5-487e-ba48-fea228a2b188))) has not been applied well, the practical methods for intent management have been developed quite well.
 				- So, let's wrap it up for the new month coming.
+		- DOING Look behind the eyes
+		  id:: 68898917-e61f-4d23-9124-474efa9a9eee
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-07-30 Wed 09:53:20]
+		  :END:
+			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- ((68898917-e61f-4d23-9124-474efa9a9eee))
 		- ...

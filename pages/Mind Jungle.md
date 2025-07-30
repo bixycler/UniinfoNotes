@@ -3472,7 +3472,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 						- The equalization is the transformation from the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) with hierarchical intents to the intent circle with equal intents.
 						- This transformation leads to the change of the obop's operation.
-						- from view cone & [intent sequence](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), to view circle & intent circle
+						- from view cone & [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), to view circle & intent circle
 						- from primarily zoom in and secondarily turn, to primarily pan around and secondarily zoom in/out
 						- in polar coordinates: from radial scaling to transverse translation
 							- ((684f951a-c14f-47f5-ac07-0cabb58cf089))
@@ -3922,7 +3922,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- In both like & dislike, the subject see
 						- (e) only a very small segment of the whole circle, and
 						- (i) only a tip of the intent–action double cone,
-						- hence, a very distorted image of both the external object (e) and the internal [intent sequence](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) (i).
+						- hence, a very distorted image of both the external object (e) and the internal [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) (i).
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
