@@ -1968,13 +1968,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The cone shape is caused by the [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))) of the body which makes the action of the central operator spread out to peripherals.
 		- ### actor
 		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
-		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a2487-054d-4408-ae41-189e34af81a9))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6889abf7-7c3c-4ef5-80fe-3edca20268bd)), ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66c8613b-ce1a-4263-b24d-fc2172d5b59f))
 		  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+			- effector
+			  id:: 6889abf7-7c3c-4ef5-80fe-3edca20268bd
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a2886-9e03-41a4-a790-24bf6b7dcd96))
 			- hand
 			  id:: b67b7276-441e-43f2-a5c1-81e3cbe0659e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) of an ((66727858-979d-4d95-8a90-7a749218cfba)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) that performs that action. When calling a body an "actor", we emphasize its role of performing action as opposed to the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)) role of the subject of that body.
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) of an ((66727858-979d-4d95-8a90-7a749218cfba)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) that performs that action. When calling a body an “actor”, we emphasize its **role** of performing action as opposed to the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)) role of the subject of that body. For a body specialized in action, we call it ((6889abf7-7c3c-4ef5-80fe-3edca20268bd)) or ((b67b7276-441e-43f2-a5c1-81e3cbe0659e)).
 	- ## view–control
 	  id:: 66725144-6bc9-4c9f-ba48-2cef02651e52
 	  collapsed:: true
@@ -2018,7 +2023,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- cause–effect circle
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) viewed as an ((667c0031-0a87-44c9-9e98-6d45893b095f)).
-					- Structure: ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))s ) > world
+					- Structure: ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s ) > world
 		- Mutual exclusiveness
 		  collapsed:: true
 		  “thấy không làm, làm không thấy”  
