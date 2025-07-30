@@ -480,3 +480,7 @@ id:: 666ba1e2-19d1-409e-b30e-42a99b7e4ec0
 			  id:: 66fa6b26-2c9a-43d6-9856-18321672d800
 			- GitLab's [Troubleshooting Git](https://docs.gitlab.com/ee/topics/git/troubleshooting_git.html)
 			- [Really verbose way to test Git connection over SSH?](https://askubuntu.com/questions/336907/really-verbose-way-to-test-git-connection-over-ssh)
+	- Known issues
+	  collapsed:: true
+		- ⚠️ GitLab automatic merge conflict resolution just creates a **reverse merge** commit in the source branch before merging to the target brance.
+		  ⇒ Don't let GitLab resolve conflict!
