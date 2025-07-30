@@ -3371,18 +3371,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- Although the [plan](((68663850-daa5-487e-ba48-fea228a2b188))) has not been applied well, the practical methods for intent management have been developed quite well.
 				- So, let's wrap it up for the new month coming.
-		- DOING Look behind the eyes
+		- DOING Looking behind the eyes
 		  id:: 68898917-e61f-4d23-9124-474efa9a9eee
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-07-30 Wed 09:53:20]
 		  :END:
-			- “Listen between the ears” is the 反聞聞自性 of [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm)
+			- The idiom “(look) behind the eyes” should be recorded in dictionaries! 😉
+			- “Listening between the ears” is the 反聞聞自性 of [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm).
+			  collapsed:: true
 				- > 反聞聞自性，性成無上道，圓通實如是。
 				  > Phản văn văn tự tánh, tánh thành vô thượng đạo, viên thông thật như thị.
 				  > Xoay tánh nghe trở vào để nghe tự tánh của mình thì tánh đó trở thành đạo vô thượng, pháp (Nhĩ-căn) Viên-thông thật là như vậy.
 				  > Turn hearing back to hear self-nature; that nature leads to unsurpassed Way; Perfect Penetration — truly thus is it.
-			- My poem years ago at the beginning of my “formal practicing meditation”
+			- I uttered a poem years ago about “quay vào quán sát bên trong” at the beginning of my [“formal practice of meditation”](https://creatzynotes.blogspot.com/2014/12/lan-au-ngoi-thien-nghiem-tuc-xep-bang.html).
+			  collapsed:: true
 				- > Khi mắt đà chán ngán cảnh xung quanh,
 				  Tai không còn hứng thú với thanh trần,
 				  Ta quay vào quán sát bên trong
