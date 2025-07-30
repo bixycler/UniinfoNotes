@@ -2026,7 +2026,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Note: Unlike the infinite cause–effect double cone, the intent–action double cone has finite bases, which are ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) on the intent side, and ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base on the action side.
 			- cause–effect mirror circles
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) viewed as a double ((667c0031-0a87-44c9-9e98-6d45893b095f)) connecting the external world with the internal world (knowledge cone) through the intent–action double cone.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) viewed as two touching ((667c0031-0a87-44c9-9e98-6d45893b095f))s connecting the external world with the internal world (knowledge cone) through the intent–action double cone. This is the mirroring mechanism between the external and internal worlds.
 					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base ) > external world
 		- Mutual exclusiveness
 		  collapsed:: true
