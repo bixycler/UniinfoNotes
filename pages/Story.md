@@ -3386,12 +3386,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- In the struggle to return to the company works, in the last days of July, i just re-experienced these techniques in a deeper level and more concretely. So, i documented them as a guideline for further training and deeper realization.
 			- The struggle has shown me clearly that the karma is as heavy as the mountain, and my attachment to seeing through that mountain is no less delusive than moving it.
 				- So, just return to the Socratic attitude: **accept the ignorance!**
+				- While people cling to their ability to do things, i.e. ((67f91046-34ed-4bb4-a006-db2c33aeabf7)), i cling to my ability to see things, i.e. ((66f267f7-01f9-47b9-8376-abd27fdf2930)) (sentience and cognizance). While the attachment to awareness is subtler, it's also a part of the ((67f9100a-b749-4354-ae16-92dc74ff27da)).
+					- It's subtle because it lies in the root, i.e., the “sense” part in the “sense of self”.
 				- The parable ((688c8787-cf67-4db5-814b-172a399d3f00)) should be understood not only in the agency side but also in the awareness side.
+				  collapsed:: true
 					- ### If the Mountain Won’t Move, Then *We* Move!
 					  id:: 688c8787-cf67-4db5-814b-172a399d3f00
 					  collapsed:: true
 						- One day, a group of disciples fascinated by supernatural powers asked their master:
-						  — **Disciples:** Master, please teach us the art of moving mountains and draining seas.
+						  — **Disciples:** Master, please teach us the art of [moving mountains and draining seas](((688c88bf-a979-4a94-815b-b7488106c325))).
 						  — **Master:** Alright then. Stand here and focus on that mountain over there... I will make it come closer to us.
 						- The disciples stared intently at the mountain for *three days and three nights*, but nothing happened. When they saw the master calmly walking out of his hut, they rushed up to him:
 						  — **Disciples:** Master, why hasn’t that mountain moved at all?
@@ -3401,8 +3404,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- After leading the stubborn disciples to the foot of the mountain, the master stopped and said:
 						  — **Master:** Do you see now? Hasn’t the mountain come closer to us?
 						  — **Disciples:** Yes… but that’s because *you* walked here...
-						  — **Master:** Attachment, attachment! It’s not that the mountain *cannot* be moved, but to shift it even an inch would take a thousand times more effort than simply walking to it. So why insist that *the mountain* must move?
-					- 移山倒海 = “Move mountains and drain seas”
+						  — **Master:** Attachment, attachment! It’s not that the mountain *cannot* be moved, but to shift it even an inch would take a thousand times more effort than simply walking to it. So why insist that *the mountain* must move?!
+					- 移山倒海 (di sơn đảo hải, dời non lấp bể) = [“Move mountains and drain seas”](https://en.wiktionary.org/wiki/%E7%A7%BB%E5%B1%B1%E5%80%92%E6%B5%B7)
+					  id:: 688c88bf-a979-4a94-815b-b7488106c325
+					  collapsed:: true
+						- This Eastern idiom is parallel with the biblical expression of "moving mountains and parting seas" in the West.
 					- ### Núi chẳng dời thì ta dời!
 					  collapsed:: true
 					  form the blog [Những mẩu chuyện Phá chấp](http://creatzynotes.blogspot.com/2012/01/nhung-mau-chuyen-pha-chap.html).
@@ -3418,8 +3424,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ― Sư phụ: Các con đã thấy núi xích lại gần ta chưa?
 						  ― Đệ tử: Dạ gần, nhưng đó là do Thầy đi đó chứ...
 						  ― Sư phụ: Cố chấp, cố chấp! Chẳng phải là núi không thể dời đi, nhưng để dời nó đi một li phải tốn công gấp tỉ lần ta đi tới nó. Vậy sao cứ phải cố chấp vào việc núi dời chi vậy?!
-				- While people cling to their ability to do things, i.e. ((67f91046-34ed-4bb4-a006-db2c33aeabf7)), i cling to my ability to see things, i.e. ((66f267f7-01f9-47b9-8376-abd27fdf2930)) (sentience and cognizance). While the attachment to awareness is subtler, it's also a part of the ((67f9100a-b749-4354-ae16-92dc74ff27da)).
-					- It's subtle because it lies in the root, i.e., the “sense” part in the “sense of self”.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
