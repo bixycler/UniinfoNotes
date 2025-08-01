@@ -3380,7 +3380,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-08-01 Fri 14:49:46]
 		  :END:
 			- Let's ((68898917-e61f-4d23-9124-474efa9a9eee)) to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents.
-				- These techniques are no way new to me (introspection is my strength as an introvert, )
+				- These techniques are nothing new to me.
+					- introspection is my strength as an introvert,
+					- equalization is reflected right in the name “Balance Way” from the beginning
+				- In the wrestle to return to the company works, in the last days of July, i just re-experienced and
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
