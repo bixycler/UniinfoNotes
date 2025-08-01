@@ -3431,7 +3431,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  “After 20 years of practice, I have gained the siddhi to walk on water!”
 							- The master calmly replied:
 							  “Ah, I see. But there’s a boat that crosses the river — it costs just a few coins.”
-						- Walking on water is an [iddhi](https://en.wikipedia.org/wiki/Iddhi) in iddhi-vidhā (supranormal powers), while iddhi-vidhā is one in [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通) in Buddhism, in which only [āsava-kkhaya](https://en.wikipedia.org/wiki/%C4%80sava)
+						- Walking on water is an [iddhi](https://en.wikipedia.org/wiki/Iddhi) in iddhi-vidhā (supranormal powers), while iddhi-vidhā is one in [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通) in Buddhism, in which [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông) is the most valuable in the path of liberation, as shown in the [Sāmaññaphala Sutta  (DN 2)(The Fruits of the Contemplative Life)].
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
