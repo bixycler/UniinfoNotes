@@ -3424,7 +3424,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ― Sư phụ: Các con đã thấy núi xích lại gần ta chưa?
 						  ― Đệ tử: Dạ gần, nhưng đó là do Thầy đi đó chứ...
 						  ― Sư phụ: Cố chấp, cố chấp! Chẳng phải là núi không thể dời đi, nhưng để dời nó đi một li phải tốn công gấp tỉ lần ta đi tới nó. Vậy sao cứ phải cố chấp vào việc núi dời chi vậy?!
-					- Another well known story
+					- Another well known story is about a yogi practicing [laghimā-siddhi](https://www.wisdomlib.org/definition/laghimasiddhi) for years to cross the river meeting a Buddhist master (or Buddha himself, or just an old man) who takes only some coins to take a boat.
+						- ### The Yogi Who Walked on Water
+							- A Buddhist master visited a yogi who had been meditating and practicing austerities in solitude for many years. The yogi proudly exclaimed:
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
