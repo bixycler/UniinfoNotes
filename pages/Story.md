@@ -3386,7 +3386,38 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- In the struggle to return to the company works, in the last days of July, i just re-experienced these techniques in a deeper level and more concretely. So, i documented them as a guideline for further training and deeper realization.
 			- The struggle has shown me clearly that the karma is as heavy as the mountain, and my attachment to seeing through that mountain is no less delusive than moving it.
 				- So, just return to the Socratic attitude: **accept the ignorance!**
-					- That means to
+				- The parable ((688c8787-cf67-4db5-814b-172a399d3f00)) should be understood not only in the agency side but also in the awareness side.
+					- ### If the Mountain Won’t Move, Then *We* Move!
+					  id:: 688c8787-cf67-4db5-814b-172a399d3f00
+					  collapsed:: true
+						- One day, a group of disciples fascinated by supernatural powers asked their master:
+						  — **Disciples:** Master, please teach us the art of moving mountains and draining seas.
+						  — **Master:** Alright then. Stand here and focus on that mountain over there... I will make it come closer to us.
+						- The disciples stared intently at the mountain for *three days and three nights*, but nothing happened. When they saw the master calmly walking out of his hut, they rushed up to him:
+						  — **Disciples:** Master, why hasn’t that mountain moved at all?
+						  — **Master:** Useless, useless! After all your training, you're still clinging to the *mountain*!?
+						  — **Disciples:** We don’t understand, Master...
+						  — **Master:** Then come with me, I’ll show you.
+						- After leading the stubborn disciples to the foot of the mountain, the master stopped and said:
+						  — **Master:** Do you see now? Hasn’t the mountain come closer to us?
+						  — **Disciples:** Yes… but that’s because *you* walked here...
+						  — **Master:** Attachment, attachment! It’s not that the mountain *cannot* be moved, but to shift it even an inch would take a thousand times more effort than simply walking to it. So why insist that *the mountain* must move?
+					- 移山倒海 = “Move mountains and drain seas”
+					- ### Núi chẳng dời thì ta dời!
+					  collapsed:: true
+					  form the blog [Những mẩu chuyện Phá chấp](http://creatzynotes.blogspot.com/2012/01/nhung-mau-chuyen-pha-chap.html).
+						- Một ngày nọ đám đệ tử ham thích thần thông hỏi sư phụ:
+						  ― Đệ tử: Thầy ơi, thầy chỉ tụi con thuật di sơn đảo hải (dời non lấp biển) đi.
+						  ― Sư phụ: Được, vậy các con hãy đứng đây, chú tâm nhìn vào ngọn núi đằng kia... Thầy sẽ làm cho nó xích lại gần ta.
+						- Đám đệ tử tập trung dòm núi suốt 3 ngày 3 đêm mà chẳng thấy có tác dụng gì cả,... khi thấy sư phụ từ trong nhà thong thả đi ra thì liền nhao nhao lên:
+						  ― Đệ tử: Thầy ơi, sao chẳng thấy ngọn núi đó động đậy gì cả vậy?
+						  ― Sư phụ: Vô dụng, vô dụng! Các con tu tập bao lâu rồi mà vẫn còn chấp cái ngọn núi!?!
+						  ― Đệ tử: Dạ chúng con không hiểu ạ.
+						  ― Sư phụ: Vậy thì đi theo ta, ta sẽ chỉ cho thấy.
+						- Sau khi dẫn đám đệ tử cố chấp đến chân núi, sư phụ dừng lại bảo:
+						  ― Sư phụ: Các con đã thấy núi xích lại gần ta chưa?
+						  ― Đệ tử: Dạ gần, nhưng đó là do Thầy đi đó chứ...
+						  ― Sư phụ: Cố chấp, cố chấp! Chẳng phải là núi không thể dời đi, nhưng để dời nó đi một li phải tốn công gấp tỉ lần ta đi tới nó. Vậy sao cứ phải cố chấp vào việc núi dời chi vậy?!
 				- While people cling to their ability to do things, i.e. ((67f91046-34ed-4bb4-a006-db2c33aeabf7)), i cling to my ability to see things, i.e. ((66f267f7-01f9-47b9-8376-abd27fdf2930)) (sentience and cognizance). While the attachment to awareness is subtler, it's also a part of the ((67f9100a-b749-4354-ae16-92dc74ff27da)).
 					- It's subtle because it lies in the root, i.e., the “sense” part in the “sense of self”.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
