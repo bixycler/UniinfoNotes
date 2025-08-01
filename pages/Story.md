@@ -3390,6 +3390,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- It's subtle because it lies in the root, i.e., the “sense” part in the “sense of self”.
 				- The parable ((688c8787-cf67-4db5-814b-172a399d3f00)) should be understood not only in the agency side but also in the awareness side.
 				  collapsed:: true
+					- Both sides of attachment (to agency and awareness), and detachement in Buddhist [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通):
+						- Agency side: moving mountains, walking on water, and many other [iddhis](https://en.wikipedia.org/wiki/Iddhi).
+						- Awareness side: [clairaudience](https://en.wikipedia.org/wiki/Clairaudience), [telepathy](https://en.wikipedia.org/wiki/Telepathy), recalling past lives (túc mạng minh), seeing through karma (thiên nhãn minh).
+						- Liberation from both sides: [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông), extinction of the ((6839229d-9eff-49e4-9480-6e2db6f61127)).
 					- ### If the Mountain Won’t Move, Then *We* Move!
 					  id:: 688c8787-cf67-4db5-814b-172a399d3f00
 					  collapsed:: true
@@ -3424,7 +3428,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ― Sư phụ: Các con đã thấy núi xích lại gần ta chưa?
 						  ― Đệ tử: Dạ gần, nhưng đó là do Thầy đi đó chứ...
 						  ― Sư phụ: Cố chấp, cố chấp! Chẳng phải là núi không thể dời đi, nhưng để dời nó đi một li phải tốn công gấp tỉ lần ta đi tới nó. Vậy sao cứ phải cố chấp vào việc núi dời chi vậy?!
-					- Another well known story is about a yogi practicing [laghimā-siddhi](https://www.wisdomlib.org/definition/laghimasiddhi) for years to cross the river meeting a Buddhist master (or Buddha himself, or just an old man) who takes only some coins to take a boat.
+					- Another well known story is about a yogi practicing [laghimā-siddhi](https://www.wisdomlib.org/definition/laghimasiddhi) for years to cross the river, meeting a Buddhist master (or Buddha himself, or just an old man) who takes only some coins to take a boat.
+					  collapsed:: true
 						- ### The Yogi Who Walked on Water
 						  collapsed:: true
 							- A Buddhist master visited a yogi who had been meditating and practicing austerities in solitude for many years. The yogi proudly exclaimed:
@@ -3434,8 +3439,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Walking on water is an [iddhi](https://en.wikipedia.org/wiki/Iddhi) in iddhi-vidhā (supranormal powers), while iddhi-vidhā is one in [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通) in Buddhism, in which [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông) is the most valuable in the path of liberation, as shown in the [Sāmaññaphala Sutta (The Fruits of the Contemplative Life)](https://www.dhammatalks.org/suttas/DN/DN02.html).
 						- This story is usually told to address the [Buddhist view on miracles](https://en.wikipedia.org/wiki/Miracles_of_Gautama_Buddha?utm_source=chatgpt.com#Buddhist_view_on_miracles): they are dangerous and something that could lead to self-glorification.
 						- In the [Buddhist monastic code](https://en.wikipedia.org/wiki/Vinaya), the Buddha laid down a rule forbidding his monks from showing off supranormal powers to laypeople.
-					- Both sides of attachment (to agency and awareness), and detachement in Buddhist [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通).
-						- Agency side: moving mountains, walking on water, like [iddhis](https://en.wikipedia.org/wiki/Iddhi) in Buddhism, their counterpart on the awareness side includes [clairaudience](https://en.wikipedia.org/wiki/Clairaudience), [telepathy](https://en.wikipedia.org/wiki/Telepathy), recalling past lives (túc mạng minh), seeing through karma (thiên nhãn minh).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
