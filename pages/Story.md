@@ -3371,6 +3371,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- Although the [plan](((68663850-daa5-487e-ba48-fea228a2b188))) has not been applied well, the practical methods for intent management have been developed quite well.
 				- So, let's wrap it up for the new month coming.
+		- DOING ...
+		  id:: 688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-01 Fri 14:45:50]
+		  CLOCK: [2025-08-01 Fri 14:46:03]
+		  CLOCK: [2025-08-01 Fri 14:46:03]
+		  :END:
+			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
 		- ...
