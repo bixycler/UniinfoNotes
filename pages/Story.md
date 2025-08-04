@@ -180,7 +180,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- “Through” evokes **effortless flow, transparency, and openness**.
 						- “throughness” = “tòng” [鬆] or “phóng tòng” [放鬆] is the most important property in qigong, just like a [through horse](https://en.wikipedia.org/wiki/Throughness).
 							- It’s when the **energy, intent, and response flow freely — unobstructed — through the whole being**.
-							- [通則不痛痛則不通]()
+							- [通則不痛，痛則不通]()
 								- 《醫宗必讀·心腹諸痛》中說：“近世治痛有以諸痛屬實，痛無補法者﹔有以通則不痛，痛則不通者﹔有以痛隨利減者，互相傳授，以為不易之法。”
 						- [“throughness”](https://en.wiktionary.org/wiki/throughness) = “thông” [通] or “hanh thông” [亨通] is the ultimate goal state of **change** [變易] in the [Book of Changes (Kinh Dịch [易經])](https://en.wikipedia.org/wiki/I_Ching).
 						  collapsed:: true
