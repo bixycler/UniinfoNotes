@@ -208,7 +208,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- 一理通，萬裡徹 (nhất lý thông, vạn lý triệt)
 							- While clarity is about the static form, throughness is about the dynamic content.
 								- To be clear is to stand before the truth. To be through is to let it move through you.
-						- “thông suốt” [] (通+率) 通明
+						- “thông suốt” in Nôm script: 通䢦, 通𨙖 = (通 [[通+率](https://hvdic.thivien.net/wnom/%F0%A8%99%96)])
 					- “cross” = “vượt qua” [[越過](https://en.wiktionary.org/wiki/%E8%B6%8A%E9%81%8E)]: cross over, [surpass](https://en.wiktionary.org/wiki/surpass), go beyond, [transcend](https://en.wiktionary.org/wiki/transcend)
 						- [fb post](https://www.facebook.com/share/p/1HF14K3nYa/) about “pāragate” in the [Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Mantra)
 						  id:: 6835b167-048c-499b-bede-8baff58e6e8e
