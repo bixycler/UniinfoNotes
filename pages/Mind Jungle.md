@@ -2129,7 +2129,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In archery, the target symbol (🞋, 🎯) shows the role of the obop as the target, the goal of all actions of the subject expressed as its intents. The ((686e630e-0d4d-4584-8c77-f9f0b865e631)) of the [bullseye](https://en.wikipedia.org/wiki/Bullseye_(target)) (◎) represents multiple layers of intents within the obop, whose inner most intent (center) is pinpointed with the [crosshair](https://en.wikipedia.org/wiki/Reticle) (⌖).
 		- ### obop projection
 		  id:: 68908fbd-acc3-41a6-8c38-17ee1f014223
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The obop of a body $M$ in the world $W$ is a double ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) between 2 circles $M$ & $W$:
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The obop of a body $M$ in the world $W$ is a double ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) between 2 circles $M$ & $W$. Its double ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) is called ((68908fbd-acc3-41a6-8c38-17ee1f014223)):
 				- observer is the viewcone projecting $W$ to an image in the body $M$;
 					- $\overrightarrow{M_2W_1W_2M_1} → \overrightarrow{M_2M_1}$
 				- operator is the viewcone projecting $M$ to an effect in the world $W$.
