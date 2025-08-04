@@ -3495,7 +3495,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ((684f951a-4c9b-45c1-80b0-dc10d12a2dbb))
 							- ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
 							- ((67fe23f7-3afe-4e77-be1d-fa8a15416bc3))
-					- “Circle = Arrow” is the Harmonious Integration (融通, Dung Thông) of Uniinfo.
+					- “Circle = Arrow” is the Harmonious Integration (融通, Dung Thông) of Unïnfo.
 					  id:: 689029a3-c02b-4cb9-b1bd-205f12c97391
 					  collapsed:: true
 					  :LOGBOOK:
@@ -5351,7 +5351,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- when it's too deep with analytics (differential), it's too abstract, lacking context, groundless, formless, messy, collapsed, the object is sliced into disconnected parts
 						- traversal on the breadth with SCIFER provides context, condition (duyên), and form to stretch the loop out to be a full circle 🌕, to be the whole
 						- However, ((67a5d140-31e4-451d-a8ea-33fa6927ce99))
-				- [!] The issue of love, i.e. emotional attatchment
+				- [!] The issue of love, i.e. emotional attachment
 				  id:: 67b541cf-323e-4efd-8d6e-ccb2c9d017ff
 				  collapsed:: true
 					- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.

@@ -3441,7 +3441,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Walking on water is an [iddhi](https://en.wikipedia.org/wiki/Iddhi) in iddhi-vidhā (supranormal powers), while iddhi-vidhā is one in [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通) in Buddhism, in which [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông) is the most valuable in the path of liberation, as shown in the [Sāmaññaphala Sutta (The Fruits of the Contemplative Life)](https://www.dhammatalks.org/suttas/DN/DN02.html).
 						- This story is usually told to address the [Buddhist view on miracles](https://en.wikipedia.org/wiki/Miracles_of_Gautama_Buddha?utm_source=chatgpt.com#Buddhist_view_on_miracles): they are dangerous and something that could lead to self-glorification.
 						- In the [Buddhist monastic code](https://en.wikipedia.org/wiki/Vinaya), the Buddha laid down a rule forbidding his monks from showing off supranormal powers to laypeople.
-			- Weekends 2nd-3rd August, try to equalize my 3 great intents — Unïnfo,  — and at last, i saw that ((689029a3-c02b-4cb9-b1bd-205f12c97391))
+			- Weekends 2nd-3rd August, tried to equalize my 3 great intents — likes (Unïnfo, [emotional attachment](((67b541cf-323e-4efd-8d6e-ccb2c9d017ff)))) versus dislike (company works, business) — and at last, i saw that ((689029a3-c02b-4cb9-b1bd-205f12c97391))
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
