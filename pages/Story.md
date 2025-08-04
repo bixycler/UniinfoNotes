@@ -199,11 +199,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  > Nhất hạp nhất tịch vị chi **biến**.  Vãng lai bất cùng vị chi **thông**.
 							  > Có đóng có mở nên mới sinh **biến hóa**; Có qua có lại không bế tắc nên mới **thông suốt**;
 							  > The alternation between closing and opening is called **change**. The going forward and backward without ceasing is called **throughness**.
-						- “thông” [通] → “clear” = “minh” [明] → “thông minh” [聰明]
+						- “thông” [通] → “clear” = “minh” [明] → “thông minh” [聰明] ← 耳聰目明
 						  collapsed:: true
 							- [一理通，百理明](https://en.wiktionary.org/wiki/%E4%B8%80%E7%90%86%E9%80%9A%EF%BC%8C%E7%99%BE%E7%90%86%E6%98%8E) (nhất lý thông, bách lý minh)
+							  “Through one truth, hundreds become clear.”
 							- [一法通，萬法通](https://en.wiktionary.org/wiki/%E4%B8%80%E6%B3%95%E9%80%9A%EF%BC%8C%E8%90%AC%E6%B3%95%E9%80%9A) (nhất pháp thông, vạn pháp thông)
-							- Vietnamese usually says “nhất lý thông, vạn lý minh”
+							- Vietnamese usually says “nhất lý thông, vạn lý minh” [一理通，萬理明]
 							- 一理通，萬裡徹 (nhất lý thông, vạn lý triệt)
 							- While clarity is about the static form, throughness is about the dynamic content.
 								- To be clear is to stand before the truth. To be through is to let it move through you.
