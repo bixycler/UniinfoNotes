@@ -741,7 +741,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- space: circle & view cone
 				- time: effect flow
 				- spacetime: interunion of effect circles mixes projective threads into compound thread
-			- The mixed object's content is projected through different view cones to different images (extents) by different intent circles ⭕. All obops are watching the object in parallel with their different interests (intents).
+			- The mixed object's content is [obop-projected](((68908fbd-acc3-41a6-8c38-17ee1f014223))) through different view cones to different images (extents) by different intent circles ⭕. All obops are watching the object in parallel with their different interests (intents).
 			- Pattern matching: The intent circle is the form to extract effect circle from the content, i.e. it is turned by the matched content.
 			- Analysis: The intent circle just hashes the content into its own distribution (connection & order).
 			- Organization: The intent sorts the content out into its knowledge cone.
