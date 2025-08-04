@@ -3450,6 +3450,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Flageolet tone ([string harmonic](https://en.wikipedia.org/wiki/String_harmonic)) versus [stopped note](https://en.wikipedia.org/wiki/Stopped_note)
 				- While a stopped note is a complex tone including a [fundamental tone](https://en.wikipedia.org/wiki/Fundamental_tone) and many [overtones](https://en.wikipedia.org/wiki/Harmonic),
 				- a flageolet tone is produced by suppressing the fundamental tone as well as some low overtones, resulting only high overtones (harmonics), hence its name “string harmonics”.
+				- A flageolet tone sounds usually more airy like a whistle or flute, hence its name [“flageolet”](https://en.wikipedia.org/wiki/Flageolet), and lasts longer like a bell, compared to a stopped note at the same pitch.
+				- The airiness is due to the filter of low harmonics.
+				- The long lasting is due to the full-length vibration, compared to the shortened string by stopping.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
