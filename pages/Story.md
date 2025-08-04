@@ -3441,11 +3441,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Walking on water is an [iddhi](https://en.wikipedia.org/wiki/Iddhi) in iddhi-vidhā (supranormal powers), while iddhi-vidhā is one in [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通) in Buddhism, in which [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông) is the most valuable in the path of liberation, as shown in the [Sāmaññaphala Sutta (The Fruits of the Contemplative Life)](https://www.dhammatalks.org/suttas/DN/DN02.html).
 						- This story is usually told to address the [Buddhist view on miracles](https://en.wikipedia.org/wiki/Miracles_of_Gautama_Buddha?utm_source=chatgpt.com#Buddhist_view_on_miracles): they are dangerous and something that could lead to self-glorification.
 						- In the [Buddhist monastic code](https://en.wikipedia.org/wiki/Vinaya), the Buddha laid down a rule forbidding his monks from showing off supranormal powers to laypeople.
-		- DOING Sound experiment with my đàn bầu.
+			- Weekends 2nd-3rd August,
+		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-08-04 Mon 08:47:52]
-		  CLOCK: [2025-08-04 Mon 08:49:18]
+		  CLOCK: [2025-08-04 Mon 08:49:18]--[2025-08-04 Mon 10:29:18] =>  01:40:00
 		  :END:
 			- Flageolet tone ([string harmonic](https://en.wikipedia.org/wiki/String_harmonic)) versus [stopped note](https://en.wikipedia.org/wiki/Stopped_note)
 				- While a stopped note is a complex tone including a [fundamental tone](https://en.wikipedia.org/wiki/Fundamental_tone) and many [overtones](https://en.wikipedia.org/wiki/Harmonic),
@@ -3462,6 +3463,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Flageolet tone | stopped note
 					  ![C3-flageolet-stopped_Spectroid.png](../assets/Will/story/2025-08/C3-flageolet-stopped_Spectroid.png){:width 600}
 			- Chat with Huy
+			  collapsed:: true
 				- Âm bội thì trong và ngân dài hơn, còn âm đơn thì đục và tắt nhanh hơn.
 				- Cả 2 tính chất đó có thể thấy qua âm phổ (đồ): (trục hoành là tần số [Hz])
 					- phần trên là âm phổ (Sound spectrum), với trục tung là âm lượng (dB)
@@ -3484,9 +3486,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ==> Âm phổ được lọc đi nên trong hơn, càng lên cao thì càng được lọc nhiều nên càng trong.
 				- Mới nói chuyện với vợ thì thấy cách nói âm sắc "dày/mỏng" phù hợp với hình học không-thời gian: cùng 1 năng lượng thì dày × ngắn (đoản) = mỏng × dài (ngân) 😊. Tức năng lượng = không gian cao độ × thời gian trường độ, và thể hiện bằng diện tích hình chữ nhật trong spectrogram (phần dưới của 2 hình bên trên)
 				- Nhờ wikipedia mà tui mới biết Cổ Cầm của Trung Quốc cũng chơi âm bội là chủ đạo (không bấm phím). Nhưng vì nó có nhiều dây nên vẫn có âm đơn (khi tay trái không chặn dây). Ông nghe bản Lưu Thủy (Nước Chảy) này thì thấy rõ sự khác nhau giữa âm đơn và những âm bội "ẻo lả" ma mị:
-					- [Chinese Guqin: Flowing water Guqin 流水 古琴曲](https://youtu.be/BcElotwrZ8o)
+					- [Chinese Guqin: Flowing water 《流水》古琴曲](https://youtu.be/BcElotwrZ8o)
 					  {{video https://youtu.be/BcElotwrZ8o}}
-				-
+				- Vì các đàn này thường kết hợp kỹ thuật luyến với âm bội nên nghe khó phân biệt.
+					- luyến là kỹ thuật thăng giáng cùng một âm, như đàn bầu là dùng cần (vòi), và cổ cầm là vuốt.
+					- còn âm bội là nói bản chất "sóng dừng có nhiều bó" của một lần gảy đàn (chưa luyến), so với âm đơn chỉ có 1 bó (1 bụng 2 nút) sóng trên dây.
 				- Nhiều thuật ngữ âm nhạc gốc tiếng Pháp nên dễ bị đọc sai nhé:
 					- Timbre (âm sắc) là tem-bờ chứ không phải tim-bờ (timber, cây gỗ)
 					- Flageolet tone (âm bội phức) là fla-giơ-lê chứ không phải fla-gi-ô-lét 😆
