@@ -3506,6 +3506,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- No matter where, in any form, we can get back to the [**empty center**](((66c8772a-9b29-45b0-b169-2fa847333e02))) (the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354))) with the combination of techniques: ((67445065-15b2-475e-a704-78f140d487af)), ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), ((68773fad-d653-4536-87b5-d4b493753b41)),  ((668f5490-c223-4a8a-9cc4-0bd71af4c097)).
 							- From such an **immanent center**, we can see all intents and opposites with their interpenetrativeness, so that we can apply that interpenetration to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) them.
 							- That means in order to see [all intents equally on the circumference](((68882160-10b9-4bd2-998e-28efa9b215d6))), we must fly through them to get back to the center.
+								- And the center of everything is not elsewhere — it is immanently present right here now, just hidden in the form.
 						- My first description of the empty center, as a vacant room, in the post [Chấp nhận được là tình thương](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html?m=1)
 							- > Chấp nhận một cái thì trước mắt liền sáng ra, sáng rực rỡ mà không hề chói loá. Chẳng biết diễn tả cái nơi sáng rực đó thế nào, nhưng đại loại nó như cái bàn tròn mà không có bàn, cái hội trường mà không có tường và bàn ghế. Ở đó mọi người biết nhau hết mà không cần gọi tên, thấy nhau hết từ trong ra ngoài mà không chút ngại ngần.
 			- ### let-go
