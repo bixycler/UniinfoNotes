@@ -3453,6 +3453,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- A flageolet tone sounds usually more airy like a whistle or flute, hence its name [“flageolet”](https://en.wikipedia.org/wiki/Flageolet), and lasts longer like a bell, compared to a stopped note at the same pitch.
 				- The airiness is due to the filter of low harmonics.
 				- The long lasting is due to the full-length vibration, compared to the shortened string by stopping.
+				- C3 note sound recordings
+					- Flageolet tone
+					  ![C3-flageolet.m4a](../assets/Will/story/2025-08/C3-flageolet.m4a)
+					- Stopped note
+					  ![C3-stopped.m4a](../assets/Will/story/2025-08/C3-stopped.m4a)
+				- C3 note spectrograms
+					- |Flageolet tone|Stopped note|
+					  |--|--|
+					  | ![C3-flageolet_Spectroid-2.png](../assets/Will/story/2025-08/C3-flageolet_Spectroid-2.png)
+					  | ![C3-stopped_Spectroid-2.png](../assets/Will/story/2025-08/C3-stopped_Spectroid-2.png) |
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
