@@ -3462,7 +3462,26 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Flageolet tone | stopped note
 					  ![C3-flageolet-stopped_Spectroid.png](../assets/Will/story/2025-08/C3-flageolet-stopped_Spectroid.png){:width 600}
 			- Chat with Huy
-				-
+				- Âm bội thì trong và ngân dài hơn, còn âm đơn thì đục và tắt nhanh hơn.
+				- Cả 2 tính chất đó có thể thấy qua âm phổ (đồ): (trục hoành là tần số [Hz])
+					- phần trên là âm phổ (Sound spectrum), với trục tung là âm lượng (dB)
+					- phần dưới là âm phổ đồ (sound spectrogram), với trục tung là thời gian hướng lên, và độ sáng là âm lượng (dB)
+				- Nhìn âm phổ thì mới thấy "trong/đục" về âm cũng rõ là trong/đục của hình âm phổ (đồ). Nên mình mới dùng những tính từ của thị giác đó cho thính giác.
+				- Còn vợ tui thì gọi âm bội là "mỏng", và âm đơn thì "dày" 😀 Không ngờ bả nói giống cách nói trong tiếng Anh "thick/thin".
+				- Vì sự ngân nga và trong trẻo của âm bội mà nó được ví như tiếng chuông (ngân), tiếng sáo (flageolet, trong).
+				- Haha, mới coi lại 2 từ tiếng Anh: flageolet note vs stopped note... thì thấy "stopped" cũng thể hiện rõ tính chất của âm "dừng lại ngay, đoản, ngắn ngủn" 😆, dù gốc của nó là việc "dừng hẳn dây ở một đầu". Và chữ stopped đó giải thích cơ chế của sự khác nhau về độ ngân:
+					- âm đơn phát ra từ sợi dây bị thu ngắn nên cũng đoản hơn, tắt nhanh hơn. Thực ra các nốt thấp thì ngân dài hơn các nốt cao.
+					- âm bội dù có bội gấp mấy lần thì vẫn rung nguyên sợi dây nên luôn ngân dài như nhau.
+					- Tính ngân/đoản này thể hiện rõ qua âm phổ đồ (ở hình trên thì trục tung là thời gian).
+				- Còn về âm sắc trong/đục, mỏng/dày, thanh/tù, thì hơi khó giải thích thích về mặt vật lý.
+					- Nó liên quan đến bản chất âm phức (complex note) của hầu hết mọi nhạc cụ:
+						- mỗi âm đánh ra là một âm phức cộng lại từ nhiều âm thuần (pure note).
+						- Mỗi âm thuần là một sóng hình sin (sóng điều hòa, harmonic) với tần số gấp n lần sóng cơ bản.
+						- Những âm thuần với n > 1 gọi là âm bội (overtones) của âm thuần cơ bản.
+						- Âm sắc của từng nhạc cụ và giọng từng người khác nhau ở sự phân bổ của các âm bội thuần này, thể hiện rõ qua hình dạng âm phổ.
+					- Âm đơn phức: việc thu ngắn dây nâng tần số của cả âm phổ, cả sóng cơ bản lẫn những sóng bội của nó, nên hình của âm phổ không đổi, chỉ bị dịch lên thôi.
+					- Âm bội phức: việc chặn dây tại điểm nút không thu ngắn dây mà chỉ lọc bỏ những sóng tần số thấp
+					  ==> Âm phổ được lọc đi nên trong hơn, càng lên cao thì càng được lọc nhiều nên càng trong.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
