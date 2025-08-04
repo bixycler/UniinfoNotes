@@ -3459,10 +3459,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Stopped note
 					  ![C3-stopped.m4a](../assets/Will/story/2025-08/C3-stopped.m4a)
 				- C3 note spectrograms
-					- |Flageolet tone|Stopped note|
-					  |--|--|
-					  | ![C3-flageolet_Spectroid-2.png](../assets/Will/story/2025-08/C3-flageolet_Spectroid-2.png)
-					  | ![C3-stopped_Spectroid-2.png](../assets/Will/story/2025-08/C3-stopped_Spectroid-2.png) |
+					- <table><tr><th>Flageolet tone</th><th>Stopped note</th></tr>
+					  <tr>
+					  <td> <img src='../assets/Will/story/2025-08/C3-flageolet_Spectroid-2.png'> </td>
+					  <td> ![C3-stopped_Spectroid-2.png](../assets/Will/story/2025-08/C3-stopped_Spectroid-2.png) </td>
+					  </tr></table>
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
