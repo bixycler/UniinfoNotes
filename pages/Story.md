@@ -3454,7 +3454,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This story is usually told to address the [Buddhist view on miracles](https://en.wikipedia.org/wiki/Miracles_of_Gautama_Buddha?utm_source=chatgpt.com#Buddhist_view_on_miracles): they are dangerous and something that could lead to self-glorification.
 						- In the [Buddhist monastic code](https://en.wikipedia.org/wiki/Vinaya), the Buddha laid down a rule forbidding his monks from showing off supranormal powers to laypeople.
 			- Weekends 2nd-3rd August, tried to equalize my 3 great intents — likes (Unïnfo, [emotional attachment](((67b541cf-323e-4efd-8d6e-ccb2c9d017ff)))) versus dislike (company works, business) — and at last, i saw that ((689029a3-c02b-4cb9-b1bd-205f12c97391))
-			- 4th, ...
+			- 4th, shared with Mr. Hải, my new team leader, about my working motivation (working for brothership, not for money), and get back to the work a little bit.
 			  collapsed:: true
 				- Putting my hands into the official works for just a moment, the Unïnfo intents just matched the tedious threads there strongly and pulled me back to the [thread mixing & unmixing](((6850be86-058c-45b4-9b4a-de92ebb4caff))) with ((68908fbd-acc3-41a6-8c38-17ee1f014223)).
 		- Sound experiment with my đàn bầu.
