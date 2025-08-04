@@ -3502,10 +3502,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2025-08-04 Mon 10:32:04]
 					  :END:
 						- Perfect Inclusion ([interfusion](((66eb7dae-2032-434b-9106-756d4aad7cdb))), 圓融, Viên Dung): each circle reflects all circles through arrows.
-						- Perfect Throughness (interpenetration, 圓通, Viên Thông): penetrating all circles by the cutting edge of the arrow 💘
+						- Perfect [Throughness](((684f951a-ee4f-4765-b2d9-58ff04b84979))) (interpenetration, 圓通, Viên Thông): penetrating all circles by the cutting edge of the arrow 💘
 							- No matter where, in any form, we can get back to the **empty center** (Equal) with the combination of techniques: reset, relax-reduce, accept-release, sublime-channel
 							- From such an **immanent center**, we can see the interpenetrativeness of opposites and apply it to [equalize] them.
-							- That means in order to see all intents equally on the circumference, we must fly through them to get back to the center.
+							- That means in order to see [all intents equally on the circumference](((68882160-10b9-4bd2-998e-28efa9b215d6))), we must fly through them to get back to the center.
 						- My first description of the empty center, as a vacant room, in the post [Chấp nhận được là tình thương](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html?m=1)
 							- > Chấp nhận một cái thì trước mắt liền sáng ra, sáng rực rỡ mà không hề chói loá. Chẳng biết diễn tả cái nơi sáng rực đó thế nào, nhưng đại loại nó như cái bàn tròn mà không có bàn, cái hội trường mà không có tường và bàn ghế. Ở đó mọi người biết nhau hết mà không cần gọi tên, thấy nhau hết từ trong ra ngoài mà không chút ngại ngần.
 			- ### let-go
