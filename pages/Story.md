@@ -181,8 +181,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- “throughness” = “tòng” [鬆] or “phóng tòng” [放鬆] is the most important property in qigong, just like a [through horse](https://en.wikipedia.org/wiki/Throughness).
 							- It’s when the **energy, intent, and response flow freely — unobstructed — through the whole being**.
 							- [通則不痛，痛則不通](https://baike.baidu.com/item/%E4%B8%8D%E9%80%9A%E5%89%87%E7%97%9B)
+							  collapsed:: true
 								- [《黃帝內經·素問·舉痛論》](https://ctext.org/huangdi-neijing/ju-tong-lun/zh)：經脈流行不止，環周不休，寒氣入經而稽遲，泣而不行，客於脈外則血少，客於脈中則氣不通，故卒然而痛。
-								- 《醫宗必讀·心腹諸痛》：近世治痛有以諸痛屬實，痛無補法者﹔有以通則不痛，痛則不通者﹔有以痛隨利減者，互相傳授，以為不易之法。
+								- [《醫宗必讀·心腹諸痛》](https://jicheng.tw/tcm/book/%E9%86%AB%E5%AE%97%E5%BF%85%E8%AE%80/index.html)：近世治痛有以諸痛屬實，痛無補法者﹔有以通則不痛，痛則不通者﹔有以痛隨利減者，互相傳授，以為不易之法。
 						- [“throughness”](https://en.wiktionary.org/wiki/throughness) = “thông” [通] or “hanh thông” [亨通] is the ultimate goal state of **change** [變易] in the [Book of Changes (Kinh Dịch [易經])](https://en.wikipedia.org/wiki/I_Ching).
 						  collapsed:: true
 							- [易's meaning](https://baike.baidu.com/item/%E7%A9%B7%E5%88%99%E5%8F%98%EF%BC%8C%E5%8F%98%E5%88%99%E9%80%9A%EF%BC%8C%E9%80%9A%E5%88%99%E4%B9%85/6154981) in Part 2 of the Great Appendix of the Book of Changes, i.e. 《周易·系辞》下, ⟪ [Chu Dịch](https://vi.wikipedia.org/wiki/Chu_D%E1%BB%8Bch) > [Hệ Từ](https://nhantu.net/DichHoc/HAKINH/HTT_Ch01.htm) > Hạ Truyện > [Chương 2](https://nhantu.net/DichHoc/HAKINH/HTH_Ch02.htm) > Tiết 5 ⟫
