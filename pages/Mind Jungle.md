@@ -3501,7 +3501,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :LOGBOOK:
 					  CLOCK: [2025-08-04 Mon 10:32:04]
 					  :END:
-						- Perfect Inclusion (interfusion, 圓融, Viên Dung): each circle reflects all circles through arrows.
+						- Perfect Inclusion ([interfusion](((66eb7dae-2032-434b-9106-756d4aad7cdb))), 圓融, Viên Dung): each circle reflects all circles through arrows.
 						- Perfect Throughness (interpenetration, 圓通, Viên Thông): penetrating all circles by the cutting edge of the arrow 💘
 							- No matter where, in any form, we can get back to the **empty center** (Equal) with the combination of techniques: reset, relax-reduce, accept-release, sublime-channel
 							- From such an **immanent center**, we can see the interpenetrativeness of opposites and apply it to [equalize] them.
