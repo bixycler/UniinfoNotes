@@ -3482,6 +3482,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Âm đơn phức: việc thu ngắn dây nâng tần số của cả âm phổ, cả sóng cơ bản lẫn những sóng bội của nó, nên hình của âm phổ không đổi, chỉ bị dịch lên thôi.
 					- Âm bội phức: việc chặn dây tại điểm nút không thu ngắn dây mà chỉ lọc bỏ những sóng tần số thấp
 					  ==> Âm phổ được lọc đi nên trong hơn, càng lên cao thì càng được lọc nhiều nên càng trong.
+				- Mới nói chuyện với vợ thì thấy cách nói âm sắc "dày/mỏng" phù hợp với hình học không-thời gian: cùng 1 năng lượng thì dày × ngắn (đoản) = mỏng × dài (ngân) 😊. Tức năng lượng = không gian cao độ × thời gian trường độ, và thể hiện bằng diện tích hình chữ nhật trong spectrogram (phần dưới của 2 hình bên trên)
+				- Nhiều thuật ngữ âm nhạc gốc tiếng Pháp nên dễ bị đọc sai nhé:
+					- Timbre (âm sắc) là tem-bờ chứ không phải tim-bờ (timber, cây gỗ)
+					- Flageolet tone (âm bội phức) là fla-giơ-lê chứ không phải fla-gi-ô-lét 😆
+				- Nghe âm thanh, nhìn âm phổ, suy nghĩ về vật lý, cảm nhận sự liên kết của mọi thứ đó, tui thấy thiệt là vi diệu 😊
+					- Đó giờ tui đọc nhiều về phân tích Fourier từ 1 sóng phức ra nhiều sóng điều hòa hình sin, mà khó cảm được. Giờ được nghe trực tiếp, nhìn trực tiếp sự thay đổi âm sắc qua việc lọc âm thì cảm nhận rõ ràng hơn.
+				- Haha, sẵn có âm phổ kế, phân tích luôn 6 thanh tiếng Việt (dấu ngã giọng Hà Nội), thấy cũng giống hình mẫu phết:
+					- ngang: ngang
+					- sắc: lên
+					- huyền: xuống
+					- hỏi: xuống lên (giọng Bắc xuống sâu hơn giọng Nam, và khi nói nhanh thì không thèm lên luôn)
+					- ngã: ngang - đứt - lên nhanh (chỉ có ở giọng Bắc)
+					- nặng: chặn đứng (ngắt âm, glottal stop) ở cuối, còn phần đầu thì có thể ngang/lên/xuống không quan trọng.
+					- ![Vietnamese-6tones-spectrogram.jpg](../assets/Will/story/2025-08/Vietnamese-6tones-spectrogram.jpg)
+					- ![Six_tones_of_Vietnamese_language.png](../assets/Will/story/2025-08/Six_tones_of_Vietnamese_language.png)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
