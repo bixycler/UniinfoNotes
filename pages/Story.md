@@ -3483,6 +3483,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Âm bội phức: việc chặn dây tại điểm nút không thu ngắn dây mà chỉ lọc bỏ những sóng tần số thấp
 					  ==> Âm phổ được lọc đi nên trong hơn, càng lên cao thì càng được lọc nhiều nên càng trong.
 				- Mới nói chuyện với vợ thì thấy cách nói âm sắc "dày/mỏng" phù hợp với hình học không-thời gian: cùng 1 năng lượng thì dày × ngắn (đoản) = mỏng × dài (ngân) 😊. Tức năng lượng = không gian cao độ × thời gian trường độ, và thể hiện bằng diện tích hình chữ nhật trong spectrogram (phần dưới của 2 hình bên trên)
+				- Nhờ wikipedia mà tui mới biết Cổ Cầm của Trung Quốc cũng chơi âm bội là chủ đạo (không bấm phím). Nhưng vì nó có nhiều dây nên vẫn có âm đơn (khi tay trái không chặn dây). Ông nghe bản Lưu Thủy (Nước Chảy) này thì thấy rõ sự khác nhau giữa âm đơn và những âm bội "ẻo lả" ma mị:
+					- [Chinese Guqin: Flowing water Guqin 流水 古琴曲](https://youtu.be/BcElotwrZ8o)
+					  {{video https://youtu.be/BcElotwrZ8o}}
+				-
 				- Nhiều thuật ngữ âm nhạc gốc tiếng Pháp nên dễ bị đọc sai nhé:
 					- Timbre (âm sắc) là tem-bờ chứ không phải tim-bờ (timber, cây gỗ)
 					- Flageolet tone (âm bội phức) là fla-giơ-lê chứ không phải fla-gi-ô-lét 😆
@@ -3496,7 +3500,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ngã: ngang - đứt - lên nhanh (chỉ có ở giọng Bắc)
 					- nặng: chặn đứng (ngắt âm, glottal stop) ở cuối, còn phần đầu thì có thể ngang/lên/xuống không quan trọng.
 					- ![Vietnamese-6tones-spectrogram.jpg](../assets/Will/story/2025-08/Vietnamese-6tones-spectrogram.jpg)
-					- ![Six_tones_of_Vietnamese_language.png](../assets/Will/story/2025-08/Six_tones_of_Vietnamese_language.png)
+					- [Model on WikiMedia](https://commons.wikimedia.org/wiki/File:Six_tones_of_Vietnamese_language.png)
+					  ![Six_tones_of_Vietnamese_language.png](../assets/Will/story/2025-08/Six_tones_of_Vietnamese_language.png)
+					- Zoom in dấu nặng để thấy rõ chỗ chặn đứng ngắt âm ở cuối:
+					  ![Vietnamese-nangj-spectrogram.jpg](../assets/Will/story/2025-08/Vietnamese-nangj-spectrogram.jpg)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
