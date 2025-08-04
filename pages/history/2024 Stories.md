@@ -90,10 +90,12 @@ id:: 67763a23-89ff-48dc-a3f4-df432c6810c2
 		  CLOCK: [2024-08-23 Fri 09:36:52]--[2024-09-12 Thu 15:40:21] =>  486:03:29
 		  :END:
 			- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) she feels hurt in the lung, go to hospital to check again with CT scan, and find that the illness has good progress (only a faint shadow of liquefactive necrosis remains).
-		- DONE August 25th, a follow up examination  [X ray](https://qrpacs.bvndgiadinh.org.vn/m.QR/?token=iA6BXM9o4E/cT8aHN20XgA)
+		- DONE August 25th, a follow up examination shows almost clean lung (just some faint shadow left): [X ray](https://qrpacs.bvndgiadinh.org.vn/m.QR/?token=iA6BXM9o4E/cT8aHN20XgA)
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-08-04 Mon 08:28:56]--[2025-08-04 Mon 08:28:58] =>  00:00:02
 		  :END:
+			- ![Bell-Le-Lung-Xray-25-08-2024.png](../assets/Will/story/2024-08/Bell-Le-Lung-Xray-25-08-2024.png)
 		- DONE September 10th, after days of making flower with some lack of sleep, my wife falls into tired sleeps and re-experiences some pain deep inside the lung.
 		  collapsed:: true
 		  :LOGBOOK:

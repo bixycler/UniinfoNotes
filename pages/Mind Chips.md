@@ -1,5 +1,3 @@
-- Bell Lê's lung abscess August 2024
-	- Hospitalized from July 30th to August 7th.
 - [古琴](https://en.wikipedia.org/wiki/Guqin): [《流水》](https://youtu.be/BcElotwrZ8o)
 - ---
 - “Circle = Arrow” is the Harmonious Integration (融通, Dung Thông) of Uniinfo.
