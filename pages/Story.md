@@ -173,8 +173,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 67849429-a90c-45a9-a6ae-dcdd61f7580f
 					- Etymology: “[traverse](https://en.wiktionary.org/wiki/traverse)” ← Latin “[traversare](https://en.wiktionary.org/wiki/traversare)” was the [vulgar version of “trānsversāre”](https://www.etymonline.com/search?q=traverse) ← “[trānsversus](https://en.wiktionary.org/wiki/transversus)” → “[transverse](https://en.wiktionary.org/wiki/transverse)”
 					  id:: 678b72d3-073a-4763-a49f-5233a3d86614
-					- “through” = “thông qua” [通過], “xuyên qua” (penetrate)
+					- “through” =  “without obstruction” (vô ngại [無礙]) = “thông qua” [通過], “xuyên qua” (penetrate)
 					  id:: 684f951a-ee4f-4765-b2d9-58ff04b84979
+						- Although “thông” [通] is usually translated as “penetrate”, it's better called “through[ness]”.
+							- “Penetrate” sounds forceful, invasive, and too mechanical.
+							- “Through” evokes **effortless flow, transparency, and openness**.
 						- “throughness” = “tòng” [鬆] or “phóng tòng” [放鬆] is the most important property in qigong, just like a [through horse](https://en.wikipedia.org/wiki/Throughness).
 						- [“throughness”](https://en.wiktionary.org/wiki/throughness) = “thông” [通] or “hanh thông” [亨通] is the ultimate goal state of **change** [變易] in the [Book of Changes (Kinh Dịch [易經])](https://en.wikipedia.org/wiki/I_Ching).
 						  collapsed:: true
