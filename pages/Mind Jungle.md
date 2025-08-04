@@ -1455,7 +1455,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-10-15 Tue 09:38:46]
 			  :END:
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a [cone](((6672513b-c4b0-4c88-8b30-c60a3c6555a7))): the world at the cone base is projected to its image at the cone apex.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): the world at the cone base is projected to its image at the cone apex.
 			- #### wrapping projection
 			  id:: 670cdcb4-3c85-45af-8c30-3c3284ed37df
 			  :LOGBOOK:
@@ -2132,11 +2132,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- observer is the viewcone projecting $W$ to an image in the body $M$;
 					- $\overrightarrow{M_2W_1W_2M_1} → \overrightarrow{M_2M_1}$
 				- operator is the viewcone projecting $M$ to an effect in the world $W$.
-				  object → image
-				  (L2>R1>R2>L1) → (L2>L1)
-				  (R2>L1>L2>R1) → (R2>R1)
-				  cos(angle) = image/object
+					- $\overrightarrow{W_2M_1M_2W_1} → \overrightarrow{W_2W_1}$
 				- ![ObopProjection](https://docs.google.com/drawings/d/e/2PACX-1vQA55wTGcMRsbygwBRJI8bhxrphLFalKHVYNWbgcXhIqCzwtIyp7t93dYv37FatAFgU6OEkSb1VKA36/pub?w=320)
+				- The obop yields an inner product $M
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- In the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), the core of obop is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) that observes the content to produce the extent which is used to operate the ((66c810a0-9861-4787-bdcf-1378219332be)). The intent can be composed of many sub-itents in many layers, where the “atomic intent” at the basic layer is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  id:: 66e79e0c-8be2-49a4-b4d7-5c1fddefeabf
