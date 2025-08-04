@@ -34,18 +34,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- “Circle = Arrow” is the Harmonious Integration (融通, Dung Thông) of Uniinfo.
-		  collapsed:: true
-		  :LOGBOOK:
-		  CLOCK: [2025-08-04 Mon 10:32:04]
-		  :END:
-			- Perfect Inclusion (interfusion, 圓融, Viên Dung): each circle reflects all circles through arrows.
-			- Perfect Throughness (interpenetration, 圓通, Viên Thông): penetrating all circles by the cutting edge of the arrow 💘
-				- No matter where, in any form, we can get back to the **empty center** (Equal) with the combination of techniques: reset, relax-reduce, accept-release, sublime-channel
-				- From such an **immanent center**, we can see the interpenetrativeness of opposites and apply it to [equalize] them.
-				- That means in order to see all intents equally on the circumference, we must fly through them to get back to the center.
-			- My first description of the empty center, as a vacant room, in the post [Chấp nhận được là tình thương](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html?m=1)
-				- > Chấp nhận một cái thì trước mắt liền sáng ra, sáng rực rỡ mà không hề chói loá. Chẳng biết diễn tả cái nơi sáng rực đó thế nào, nhưng đại loại nó như cái bàn tròn mà không có bàn, cái hội trường mà không có tường và bàn ghế. Ở đó mọi người biết nhau hết mà không cần gọi tên, thấy nhau hết từ trong ra ngoài mà không chút ngại ngần.
 		- Thread theory of sound
 		  collapsed:: true
 		  :LOGBOOK:

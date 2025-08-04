@@ -3495,6 +3495,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ((684f951a-4c9b-45c1-80b0-dc10d12a2dbb))
 							- ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
 							- ((67fe23f7-3afe-4e77-be1d-fa8a15416bc3))
+					- “Circle = Arrow” is the Harmonious Integration (融通, Dung Thông) of Uniinfo.
+					  id:: 689029a3-c02b-4cb9-b1bd-205f12c97391
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-08-04 Mon 10:32:04]
+					  :END:
+						- Perfect Inclusion (interfusion, 圓融, Viên Dung): each circle reflects all circles through arrows.
+						- Perfect Throughness (interpenetration, 圓通, Viên Thông): penetrating all circles by the cutting edge of the arrow 💘
+							- No matter where, in any form, we can get back to the **empty center** (Equal) with the combination of techniques: reset, relax-reduce, accept-release, sublime-channel
+							- From such an **immanent center**, we can see the interpenetrativeness of opposites and apply it to [equalize] them.
+							- That means in order to see all intents equally on the circumference, we must fly through them to get back to the center.
+						- My first description of the empty center, as a vacant room, in the post [Chấp nhận được là tình thương](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html?m=1)
+							- > Chấp nhận một cái thì trước mắt liền sáng ra, sáng rực rỡ mà không hề chói loá. Chẳng biết diễn tả cái nơi sáng rực đó thế nào, nhưng đại loại nó như cái bàn tròn mà không có bàn, cái hội trường mà không có tường và bàn ghế. Ở đó mọi người biết nhau hết mà không cần gọi tên, thấy nhau hết từ trong ra ngoài mà không chút ngại ngần.
 			- ### let-go
 			  id:: 669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d
 			  collapsed:: true
