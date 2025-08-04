@@ -1,4 +1,16 @@
-## Current Chips
+- Bell Lê's lung abscess August 2024
+	- Hospitalized from July 30th to August 7th.
+- [古琴](https://en.wikipedia.org/wiki/Guqin): [《流水》](https://youtu.be/BcElotwrZ8o)
+- ---
+- “Circle = Arrow” is the Harmonious Integration (融通, Dung Thông) of Uniinfo.
+- Perfect Inclusion (interfusion, 圓融, Viên Dung): each circle reflects all circles through arrows.
+- Perfect Throughness (interpenetration, 圓通, Viên Thông): penetrating all circles by the cutting edge of the arrow 💘
+	- No matter where, in any form, we can get back to the **empty center** (Equal) with the combination of techniques: reset, relax-reduce, accept-release, sublime-channel
+	- From such an **immanent center**, we can see the interpenetrativeness of opposites and apply it to [equalize] them.
+	- That means in order to see all intents equally on the circumference, we must fly through them to get back to the center.
+- My first description of the empty center, as a vacant room, in the post [Chấp nhận được là tình thương](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html?m=1)
+	- > Chấp nhận một cái thì trước mắt liền sáng ra, sáng rực rỡ mà không hề chói loá. Chẳng biết diễn tả cái nơi sáng rực đó thế nào, nhưng đại loại nó như cái bàn tròn mà không có bàn, cái hội trường mà không có tường và bàn ghế. Ở đó mọi người biết nhau hết mà không cần gọi tên, thấy nhau hết từ trong ra ngoài mà không chút ngại ngần.
+	  ## Current Chips
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
   collapsed:: true
