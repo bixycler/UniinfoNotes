@@ -158,7 +158,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  ⇒ resolve my delusion & fear of losing the works (sunk-cost fallacy)
 			- My momentum is harder than the massive object due to not only its depth but also my attachment to continuity, smoothnes, connectivity, integrity, and my scare of messiness, scattering, ignorance. This is again the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))!
 			  id:: 685bb77c-4502-4261-a3a3-a726980d1a50
-				- My bro's rhetorical question echoes: 
+				- My bro's [rhetorical question](https://en.wikipedia.org/wiki/Rhetorical_question) echoes: 
 				  > Can you do it without understanding?!
 				- This scare has been from my childhood: due to my small memory, i must always tidy up everything, digest them, organize them tightly.
 				- And the attachment is due to my greed of getting everything!
