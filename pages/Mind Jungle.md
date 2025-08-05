@@ -1267,6 +1267,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6835b165-8a07-4156-9440-a4536b5c8be3
 						- Directions and colors
 							- Like the [compass rose](https://en.wikipedia.org/wiki/Compass_rose) (for people in the [Northern Hemisphere](https://en.wikipedia.org/wiki/Northern_Hemisphere)), the **West** (position of **Amitabha** buddha) is on the **left**.
+								- Note that this is different from the common configuration where Amitabha buddha at the West is shown on the top.
 							- On the right, water (blue) is falling down to the earth (yellow) at the bottom;
 							- on the left, fire (red) is raising up to the air/wind (green) on the top.
 					- SCIFER with subtract - divide - add - multiply, and exp-log spiral
