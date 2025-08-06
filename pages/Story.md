@@ -3465,7 +3465,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 6th,...
 			  collapsed:: true
 				- [WEIRD](https://en.wikipedia.org/wiki/WEIRD) (Western, educated, industrialized, rich and democratic) societies and countries
-				- [Reification](https://en.wikipedia.org/wiki/Reification) is interesting: can be a kind of [metaization](https://en.wikipedia.org/wiki/Reification_(knowledge_representation)) or a [fallacy](https://en.wikipedia.org/wiki/Reification_(fallacy))
+				- [Reification](https://en.wikipedia.org/wiki/Reification) is interesting: it's a kind of metaization [in knowledge representation](https://en.wikipedia.org/wiki/Reification_(knowledge_representation)), [in computer science](https://en.wikipedia.org/wiki/Reification_(computer_science)), [in higher-order logic](https://en.wikipedia.org/wiki/Reification_(information_retrieval)),... but can also be [a fallacy](https://en.wikipedia.org/wiki/Reification_(fallacy)).
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
