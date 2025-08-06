@@ -4197,9 +4197,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 68932044-a013-4cc6-b468-df8f3a43103c
 		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((68932036-e868-4468-a891-70cdf09ea904))
-		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d)) ((66ea4597-f085-4f38-95f7-91bf5cd61b1c))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68932036-e868-4468-a891-70cdf09ea904)) is the process of a subject making an ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) concept more concrete by adding details to it.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68932036-e868-4468-a891-70cdf09ea904)) is the process of a subject making an ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) concept more concrete by adding details to it, so that the result will be tangible to larger ((669a5387-2a97-4311-a295-aa0afd9c4d76))s.
 		  id:: 68932ee4-52d9-4a42-be26-1b1cba40aeff
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d)) ((66ea4597-f085-4f38-95f7-91bf5cd61b1c))
 	- ## name
 	  id:: 665cab38-f8e8-472e-b0a1-60776d492835
 	  collapsed:: true
