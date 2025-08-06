@@ -2647,7 +2647,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### being
 		  id:: 678e1c3f-6202-45aa-8527-f4bdad9927b9
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3b5e5-496a-4545-be7a-b1df2d94bd11))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), which is a ***((68932044-a013-4cc6-b468-df8f3a43103c)) thing*** containing the three components: ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (○), ((6678288e-699b-4325-bdba-bf6349fe0d57)) (↑) and ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (☉, =). Containing obop, all beings are ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))s.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), which is a ((68932044-a013-4cc6-b468-df8f3a43103c)) thing containing the three components: ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (○), ((6678288e-699b-4325-bdba-bf6349fe0d57)) (↑) and ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (☉, =). Containing obop, all beings are ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))s.
 			- ((66537674-6cf9-4459-8bea-7c1858c694a3))s of being
 				- Abstracting the obop, the ((66c810a0-9861-4787-bdcf-1378219332be)) of a being is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)).
 				- Further abstracting the form, the fundamental substance underlying all objects is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)).
@@ -4902,7 +4902,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :END:
 					- instance
 					  id:: 66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) is a concrete ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) activated by another being from an abstract model. We say that “the instance of a model is instantiated from that model.”
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) is a ((68932044-a013-4cc6-b468-df8f3a43103c)) ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) activated by another being from an abstract model. We say that “the instance of a model is instantiated from that model.”
 			- ### conscious circle
 			  id:: 66ea5808-8452-4ae9-8eb8-2ef64004bfcf
 			  :LOGBOOK:
