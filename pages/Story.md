@@ -3462,6 +3462,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- On the way home, i spotted the urge to take advantage of free time to contemplate Unïnfo, then released it by focusing on the zero intent.
 				- At home, some breakage reminded me to have a stronger reset and to train [intents penetration](((689029a3-c02b-4cb9-b1bd-205f12c97391))) with [intent dissolution](((668f5490-c223-4a8a-9cc4-0bd71af4c097))).
 				  id:: 6892ac8b-8b7c-4129-8a62-5c38065f7898
+			- 6th,...
+			  collapsed:: true
+				- [WEIRD](https://en.wikipedia.org/wiki/WEIRD) (Western, educated, industrialized, rich and democratic) societies and countries
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
