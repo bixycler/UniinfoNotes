@@ -3457,6 +3457,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 4th, shared with Mr. Hải, my new team leader, about my working motivation (working for brothership, not for money), and get back to the work a little bit.
 			  collapsed:: true
 				- Putting my hands into the official works for just a moment, the Unïnfo intents just matched the tedious threads there strongly and pulled me back to the [thread mixing & unmixing](((6850be86-058c-45b4-9b4a-de92ebb4caff))) with ((68908fbd-acc3-41a6-8c38-17ee1f014223)).
+			- 5th, restarted some works of company, then got more involved after the meeting. On the way home, i spotted the urge to take advantage of free time for
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
