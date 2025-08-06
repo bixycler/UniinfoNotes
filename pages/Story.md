@@ -3459,8 +3459,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Putting my hands into the official works for just a moment, the Unïnfo intents just matched the tedious threads there strongly and pulled me back to the [thread mixing & unmixing](((6850be86-058c-45b4-9b4a-de92ebb4caff))) with ((68908fbd-acc3-41a6-8c38-17ee1f014223)).
 			- 5th, restarted some works of company, then got more involved after the meeting.
 			  collapsed:: true
-				- On the way home, i spotted the urge to take advantage of free time to contemplate Unïnfo, then release it by focusing on the zero intent.
-				- At home, some breakage reminded me of stronger reset and the training of
+				- On the way home, i spotted the urge to take advantage of free time to contemplate Unïnfo, then released it by focusing on the zero intent.
+				- At home, some breakage reminded me to have a stronger reset and to train [intents penetration](((689029a3-c02b-4cb9-b1bd-205f12c97391))) with [intent dissolution](((668f5490-c223-4a8a-9cc4-0bd71af4c097))).
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:

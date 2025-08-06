@@ -3817,6 +3817,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- the key point in my chest to control the cough reflex, and
 						- revisit the formless meditation to deal with serious pain (my first application was at the previous serious illness of herpes zoster/zona).
 					- Then i refined the technique with breathwork which resulted in the [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))).
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- Breathing technique for ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+					  id:: 66952126-bf33-40e1-a208-369df7aa9488
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2024-07-15 Mon 20:28:28]
+					  :END:
+						- With the sublime-channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
+						  id:: 66b1cfa3-93c4-4de3-8904-06fb065ded70
+						- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
 				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
 				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
 			- ### subtilize
