@@ -3522,7 +3522,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Perfect Inclusion ([interfusion](((66eb7dae-2032-434b-9106-756d4aad7cdb))), 圓融, Viên Dung): each circle reflects all circles through arrows.
 						- Perfect [Throughness](((684f951a-ee4f-4765-b2d9-58ff04b84979))) (interpenetration, 圓通, Viên Thông): penetrate all circles by the cutting edge of the arrow 💘.
 							- In order to see [all intents equally on the circumference](((68882160-10b9-4bd2-998e-28efa9b215d6))), we must fly through them to get back to the [**empty center**](((66c8772a-9b29-45b0-b169-2fa847333e02))) (the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354))).
-								- The center of everything is not elsewhere — it is immanently present right here now, just hidden in the form.
+								- The center of everything is not elsewhere – it is immanently present right here now, just hidden in the form.
 							- No matter where, in any form, we can **penetrate all layers of forms and intent** to get back to the center with the combination of techniques: ((67445065-15b2-475e-a704-78f140d487af)), ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), ((68773fad-d653-4536-87b5-d4b493753b41)),  ((668f5490-c223-4a8a-9cc4-0bd71af4c097)).
 							- From such an **immanent center**, we can see all intents and opposites with their interpenetrativeness, so that we can apply that interpenetration to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) them, and to enhance our throughness.
 						- My first description of the empty center, as a vacant room, in the post [Chấp nhận được là tình thương](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html?m=1)
@@ -3870,7 +3870,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  :LOGBOOK:
 							  CLOCK: [2025-07-30 Wed 14:06:33]--[2025-07-30 Wed 20:02:44] =>  05:56:11
 							  :END:
-								- While the exact phrase “behind the eyes” has not appeared in dictionaries, it does recur across domains—spiritual, philosophical, psychological—always referring to that invisible locus of attention, agency, or intentionality.
+								- While the exact phrase “behind the eyes” has not appeared in dictionaries, it does recur across domains – spiritual, philosophical, psychological – always referring to that invisible locus of attention, agency, or intentionality.
 								- Examples
 									- The song [Behind Blue Eyes](https://en.wikipedia.org/wiki/Behind_Blue_Eyes) by The Who in 1971
 									- Alan Watts usually used the phrase ["we locate ourselves behind the eyes"](https://www.organism.earth/library/document/tao-of-philosophy-5) to describe the common human experience of feeling like a separate consciousness, an ego, residing within the body.
@@ -3885,7 +3885,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- > 反聞聞自性，性成無上道，圓通實如是。
 								  > Phản văn văn tự tánh, tánh thành vô thượng đạo, viên thông thật như thị.
 								  > Xoay tánh nghe trở vào để nghe tự tánh của mình thì tánh đó trở thành đạo vô thượng, pháp (Nhĩ-căn) Viên-thông thật là như vậy.
-								  > Turn hearing back to hear self-nature; that nature leads to unsurpassed Way; Perfect Penetration — truly thus is it.
+								  > Turn hearing back to hear self-nature; that nature leads to unsurpassed Way; Perfect Penetration – truly thus is it.
 							- In Buddhism, [sati sampajañña](https://en.wikipedia.org/wiki/Sampaja%C3%B1%C3%B1a) (mindful introspection, mindfulness and clear comprehension, 正念[與]正知, chánh niệm [và] tỉnh giác) is the way to look behind the eyes.
 							- I uttered a poem years ago about “quay vào quán sát bên trong” at the beginning of my [“formal practice of meditation”](https://creatzynotes.blogspot.com/2014/12/lan-au-ngoi-thien-nghiem-tuc-xep-bang.html).
 								- > Khi mắt đà chán ngán cảnh xung quanh,
@@ -5125,7 +5125,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  > I'm just a no-one going nowhere to do nothing!
 			  
 			  This short introduction appears in most of my profiles. It may sounds Buddhist and Daoist but these "sounds" and interpretations are very far from my original intention.
-				- With this statement, i mean that “I’m just a humble person, not chasing status or legacy; I live a simple life without big ambitions, doing what matters to me — even if it looks like nothing, meaningless or even ridiculous to others.”
+				- With this statement, i mean that “I’m just a humble person, not chasing status or legacy; I live a simple life without big ambitions, doing what matters to me – even if it looks like nothing, meaningless or even ridiculous to others.”
 				- However, i've accidentally ackowledged that some of my friends interpret it as a transcendent status of selflessness ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81), 無我, vô ngã), Krishnamurti's [pathless land](https://jkrishnamurti.org/about-dissolution-speech), and Daoist [wu wei](https://en.wikipedia.org/wiki/Wu_wei) (無為, vô vi). Today, asking ChatGPT, the same interpretation was given again!
 				- I don't know if these thoughts and ideals affected my introduction, but i've never intended to mean them with that statement.
 					- Living in the Vietnamese culture, more or less i must be affected by these ideals, and actually developing toward them.
