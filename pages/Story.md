@@ -2062,7 +2062,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ― Why hide? – they asked.
 							  ― I gave my beauty to my sister to serve you – she replied – because you fear the unadorned truth.
 							- When the naked Truth emerged fully, most truth seekers were shaken, fled, and chased another comforting “Truth” who was another’s Lie. Only the brave stayed, embracing the naked Truth.
-						- Full length version
+						- Full-length version
 						  id:: 683029f1-0847-4186-a6a6-b8cb19fcd922
 						  collapsed:: true
 							- Long ago, at the dawn of human civilization, there were two twin sisters who were indistinguishable at birth. They were both so pure, so beautiful and so attractive from the beginning. When they grew up, they had to separate and go to different places, one to the east and one to the west, to live and work in different jobs. They were loved by people around so much that people in the east town called the east twin “Truth” with all good attributes attached, and the same for the west twin being called “Truth” preciously in the west town. One day, the east twin went to the west town to visit her sister. At first, people there got confused by the twins due to their identical faces and the same name “Truth”. But then they recognized their own “Truth” by her familiar dress. They called the unfamiliarly dressed twin “Lie”:
