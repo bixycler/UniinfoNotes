@@ -3186,15 +3186,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Dialogue
 					- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
 					- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are **space-separated** from the text.
-					- Note about the mark connecting parts in a compound: In quick notes, i simply use hyphen, e.g. “Bose-Einstein condensate”, while in publishable notes, i use **en-dash without spaces**, e.g. “Bose–Einstein condensate”.
+						- To emphsize stronger interruption, **spaced em-dashes** may be used in place of spaced en-dashes.
 					- Examples
 						- Quotation dash and en-dash in dialogue: [The Well-Dressed Lie and the Naked Truth – short version](((684f9519-6824-430b-820a-d5728d4b3f45)))
 						- Em-dash for source attribution
 						  {{embed ((684f9517-3cbd-495d-8e40-85932d03bbe0))}}
 					- References: [(en, em) dashes](https://en.wikipedia.org/wiki/Dash) and [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
+					- Note about the mark connecting parts in a compound: In quick notes, i simply use hyphen, e.g. “Bose-Einstein condensate”, while in publishable notes, i use **en-dash without spaces**, e.g. “Bose–Einstein condensate”.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- ((684f951b-5075-45ba-9077-cfa04758fbf3))
-					- ((684f951b-c62e-4a24-840b-616f2bdc6879))
+					- CreatZy quotation style adopts British style instead of ((684f951b-5075-45ba-9077-cfa04758fbf3))
+					- CreatZy dialogue style adopts non-English styles in ((684f951b-c62e-4a24-840b-616f2bdc6879))
 					- ((68945fd4-9cca-4f9a-a377-c6feab5a90d7))
 			- American style for quotation
 			  id:: 684f951b-5075-45ba-9077-cfa04758fbf3
@@ -3209,7 +3210,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- References:
 					- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
 					- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
-			- About spaces around em-dash
+			- About spaces around em-dash `—`
 			  id:: 68945fd4-9cca-4f9a-a377-c6feab5a90d7
 				- In American formal writing (journals and books), especially within academic contexts (APA, MLA, Chicago), em-dashes are typically used without spaces.
 				- Most newspapers and some publications, following [AP style](https://en.wikipedia.org/wiki/Associated_Press#AP_Stylebook), insert a space before and after the em-dash.
