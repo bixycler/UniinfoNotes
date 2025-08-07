@@ -3470,9 +3470,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- [NDE: Catholic Priest Dies and Returns with a SHOCKING MESSAGE from Jesus!](https://youtu.be/4psiktBDSqY)
 					- Collin Raye's [She's With Me](https://youtu.be/Th3zgd2g-gA)
 						- [Music video](https://youtu.be/oj6GXVTAOiU)
-						- > I myself so weak and weary, so imperfect as a man
-						  How could I be the one you chose to care for our girl
-						  Never done a single deed to earn the right to share her light
+						- > I myself so weak and weary, so imperfect as a man.
+						  How could I be the one you chose to care for our girl?!
+						  I've never done a single deed to earn the right to share her light!
 					- Collin Raye's [Love Remains](https://youtu.be/yLxCVAWjGek)
 						- [Video with slideshow](https://youtu.be/90VX7DOWsmU)
 						- Posted to fb many times: [Oct 20214](https://www.facebook.com/lexuandinhct/posts/963880876962533), [Dec 2016](https://www.facebook.com/lexuandinhct/posts/pfbid02AFHU5Vpi98GhXMABnbZfDc4uENB1UxsmeWqXR4pofFTMUcTynB1zZemuiF5LXwMGl), [Mar 20218](https://www.facebook.com/lexuandinhct/posts/pfbid029wUyFEALydazMLkXfWWkRQGCqa4tAnPEXALM9edft94763DnZ3gRyPqdi8cf9no2l), [Dec 2018](https://www.facebook.com/lexuandinhct/posts/pfbid0TFLsTNasyqNVfMwDW38PiWLyebU3tqjMdwfGDbhnbaHxBnoqnV69ktAG9tCQL94Tl).
