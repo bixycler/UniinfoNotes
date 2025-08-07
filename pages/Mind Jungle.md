@@ -3174,6 +3174,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-10-23 Wed 12:04:05]--[2024-10-23 Wed 15:27:28] =>  03:23:23
 		  :END:
 			- CreatZy style
+			  id:: 684f951b-4f21-4783-a4a6-3fe5d638c64c
 			  the prefered style in UniinfoNotes
 				- Quotation
 					- For quick notes, i just use the straight quotation marks `"`.
@@ -3194,11 +3195,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((684f951b-5075-45ba-9077-cfa04758fbf3))
 					- ((684f951b-c62e-4a24-840b-616f2bdc6879))
-					- About spaces around em-dash
-					  collapsed:: true
-						- In formal writing (journals and books), especially within academic contexts (APA, MLA, Chicago), em-dashes are typically used without spaces.
-						- Most newspapers and some publications, following [AP style](https://en.wikipedia.org/wiki/Associated_Press#AP_Stylebook), insert a space before and after the em-dash.
-						- CreatZy style uess spaced en-dash in stead of closed em-dash for interruption, because the closed (unspaced) em-dash looks like a word connector, e.g. “Bose—Einstein”, which is misleading.
+					- ((68945fd4-9cca-4f9a-a377-c6feab5a90d7))
 			- American style for quotation
 			  id:: 684f951b-5075-45ba-9077-cfa04758fbf3
 			  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
@@ -3212,7 +3209,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- References:
 					- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
 					- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
-			-
+			- About spaces around em-dash
+			  id:: 68945fd4-9cca-4f9a-a377-c6feab5a90d7
+				- In American formal writing (journals and books), especially within academic contexts (APA, MLA, Chicago), em-dashes are typically used without spaces.
+				- Most newspapers and some publications, following [AP style](https://en.wikipedia.org/wiki/Associated_Press#AP_Stylebook), insert a space before and after the em-dash.
+				- British & European formats are more flexible:
+					- prefers **spaced en-dashes** – just like CreatZy style – instead of em-dashes; or
+					- if em-dashes are used, they may include spaces — like this — for a lighter tone.
+				- ((684f951b-4f21-4783-a4a6-3fe5d638c64c)) uses spaced en-dash in stead of closed em-dash for interruption, because the closed (unspaced) em-dash looks like a word connector, e.g. “Bose—Einstein”, which is misleading.
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
