@@ -3193,8 +3193,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  {{embed ((684f9517-3cbd-495d-8e40-85932d03bbe0))}}
 					- References: [(en, em) dashes](https://en.wikipedia.org/wiki/Dash) and [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
 				- Word connector:
-					- In quick notes, i simply use hyphen, e.g. “Bose-Einstein condensate”, “1982‒2025”.
-					- In publishable notes, i use **en-dash without spaces** for compounds, e.g. “Bose–Einstein condensate”, and **figure dash** `‒` for .
+					- In quick notes, i simply use hyphen, e.g. “Bose-Einstein condensate”, “1982-2025”.
+					- In publishable notes, i use **en-dash without spaces** for compounds, e.g. “Bose–Einstein condensate”, and **figure dash** `‒` for value ranges, e.g. “1982‒2025”.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- CreatZy quotation style adopts British style instead of ((684f951b-5075-45ba-9077-cfa04758fbf3))
 					- CreatZy dialogue style adopts non-English styles in ((684f951b-c62e-4a24-840b-616f2bdc6879))
