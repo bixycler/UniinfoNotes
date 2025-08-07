@@ -3194,8 +3194,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- About and spaces around em-dash
 					  collapsed:: true
-						- In formal writing, especially within academic contexts (APA, MLA, Chicago), em-dashes are typically used without spaces.
-						- Newspapers and publications following AP style insert a space before and after the em dashNewspapers and publications following AP style insert a space before and after the em-dash.
+						- In formal writing (journals and books), especially within academic contexts (APA, MLA, Chicago), em-dashes are typically used without spaces.
+						- Most newspapers and some publications, following [AP style](https://en.wikipedia.org/wiki/Associated_Press#AP_Stylebook), insert a space before and after the em-dash.
 			- American style for quotation
 			  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
 				- Commas `,` and periods `.` are always before the closing quote, “like this.”
