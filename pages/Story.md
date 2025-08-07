@@ -179,7 +179,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- “Penetrate” sounds forceful, invasive, and too mechanical.
 							- “Through” evokes **effortless flow, transparency, and openness**.
 						- “throughness” = “tòng” [鬆] or “phóng tòng” [放鬆] is the most important property in qigong, just like a [through horse](https://en.wikipedia.org/wiki/Throughness).
-							- It’s when the **energy, intent, and response flow freely — unobstructed — through the whole being**.
+							- It’s when the **energy, intent, and response flow freely – unobstructed – through the whole being**.
 							- [通則不痛，痛則不通](https://baike.baidu.com/item/%E4%B8%8D%E9%80%9A%E5%89%87%E7%97%9B)
 							  collapsed:: true
 								- [《黃帝內經·素問·舉痛論》](https://ctext.org/huangdi-neijing/ju-tong-lun/zh)：經脈流行不止，環周不休，寒氣入經而稽遲，泣而不行，客於脈外則血少，客於脈中則氣不通，故卒然而痛。
@@ -1838,7 +1838,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Ở xa, khi thu gọn cái to lớn vĩ đại vào tầm mắt thì ta thấy nó thật đẹp, có sức hút mãnh liệt khiến ta phải đi tới để khám phá.
 					- Khi tới gần, mình mới ngộ ra nó thật là khủng khiếp, đầy những cạm bẫy, nguy hiểm... Sự vĩ đại của nó đè bẹp cái tôi của mình, khiến mình nhận ra mình chỉ là một hạt bụi nhỏ bé, chả là gì cả.
 					- Khi vượt qua được chính mình, bỏ được cái tôi nhỏ bé này xuống để hòa vào sự hùng vĩ, to lớn đó, mình bỗng thấy thật tuyệt vời, một cảm giác thăng hoa (sublime), vượt thoát (transcendental), và giải thoát (liberated). Ở đây mình ngộ ra rằng vẻ đẹp kia mời gọi mình không phải để dùng sức người nhỏ bé này để chinh phục cái ngọn núi vĩ đại để đứng trên đỉnh núi thấy "ta cao hơn núi" như mình đã tưởng. Mà sự vượt qua chính là vượt qua bản thân mình, thoát khỏi sự nô lệ cho những nghiệp trong cái tôi này: sợ hãi, kiêu ngạo, cố chấp, kỳ vọng, v.v.
-				- Cái Khủng: Derived from "khủng khiếp" (terrifying, overwhelming), it carries a dual nature—both awe-inspiring grandeur and a sense of fear or intensity. This is aligned with the philosophical concept of the Sublime, as defined by thinkers like Burke (terror and beauty) or Kant (the vastness of overwhelming reason), which includes both uplifting and unsettling dimensions.
+				- Cái Khủng: Derived from "khủng khiếp" (terrifying, overwhelming), it carries a dual nature – both awe-inspiring grandeur and a sense of fear or intensity. This is aligned with the philosophical concept of the Sublime, as defined by thinkers like Burke (terror and beauty) or Kant (the vastness of overwhelming reason), which includes both uplifting and unsettling dimensions.
 				- Về chữ Nôm thì có 2 chữ thể hiện 2 sắc thái ý nghĩa như sau
 					- 恐 (khủng): khủng khiếp, khủng hoảng, khủng bố
 					- 孔 (khổng, khủng): khủng long (rồng khổng lồ), "thật khủng!" (casual meaning: stupendous, tremendous)
@@ -3336,14 +3336,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- To the world outside of the dream, the dream is so illusionary, but to the dream, the outside world is no less illusionary. Hence, both of them are as real as illusionary 😜👻! In other words, everything is a **real illusion**.
 						- 🌀 Real Illusion
 							- The illusion is real. Literally.
-							- Not just metaphorically — it exists, it appears, it affects — that’s a real being with real effects.
+							- Not just metaphorically – it exists, it appears, it affects – that’s a real being with real effects.
 							- The unreality of the illusion is just its way of being. And its being is real.
 							- The Real Illusion is just another name for the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
 					- The gatha of [Diamond sutra](https://en.wikipedia.org/wiki/Diamond_Sutra):
 						- > तारका तिमिरं दीपो मायावश्यायबुद्बुदं। सुपिनं विद्युदभ्रं च एवं द्रष्टव्यं संस्कृतं।
 							- A shooting star, a clouding of the sight, a lamp,
 							  An illusion, a drop of dew, a bubble,
-							  A dream, a lightning's flash, a thunder cloud —
+							  A dream, a lightning's flash, a thunder cloud – 
 							  This is the way one should see the conditioned.
 						- > 一切有爲法
 						  如夢幻泡影
@@ -3453,7 +3453,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Walking on water is an [iddhi](https://en.wikipedia.org/wiki/Iddhi) in iddhi-vidhā (supranormal powers), while iddhi-vidhā is one in [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通) in Buddhism, in which [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông) is the most valuable in the path of liberation, as shown in the [Sāmaññaphala Sutta (The Fruits of the Contemplative Life)](https://www.dhammatalks.org/suttas/DN/DN02.html).
 						- This story is usually told to address the [Buddhist view on miracles](https://en.wikipedia.org/wiki/Miracles_of_Gautama_Buddha?utm_source=chatgpt.com#Buddhist_view_on_miracles): they are dangerous and something that could lead to self-glorification.
 						- In the [Buddhist monastic code](https://en.wikipedia.org/wiki/Vinaya), the Buddha laid down a rule forbidding his monks from showing off supranormal powers to laypeople.
-			- Weekends 2nd-3rd August, tried to equalize my 3 great intents — likes (Unïnfo, [emotional attachment](((67b541cf-323e-4efd-8d6e-ccb2c9d017ff)))) versus dislikes (company works, business) — and at last, i saw the technique of [intents penetration via perfect throughness](((689029a3-c02b-4cb9-b1bd-205f12c97391))).
+			- Weekends 2nd-3rd August, tried to equalize my 3 great intents – likes (Unïnfo, [emotional attachment](((67b541cf-323e-4efd-8d6e-ccb2c9d017ff)))) versus dislikes (company works, business) – and at last, i saw the technique of [intents penetration via perfect throughness](((689029a3-c02b-4cb9-b1bd-205f12c97391))).
 			- 4th, shared with Mr. Hải, my new team leader, about my working motivation (working for brothership, not for money), and get back to the work a little bit.
 			  collapsed:: true
 				- Putting my hands into the official works for just a moment, the Unïnfo intents just matched the tedious threads there strongly and pulled me back to the [thread mixing & unmixing](((6850be86-058c-45b4-9b4a-de92ebb4caff))) with ((68908fbd-acc3-41a6-8c38-17ee1f014223)).
