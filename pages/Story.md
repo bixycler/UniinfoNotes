@@ -3468,6 +3468,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- From [reification](https://en.wiktionary.org/wiki/reification) to ((68932036-e868-4468-a891-70cdf09ea904))
 					- [Reification](https://en.wikipedia.org/wiki/Reification) is interesting: it's a kind of ((68932036-e868-4468-a891-70cdf09ea904)) [in knowledge representation](https://en.wikipedia.org/wiki/Reification_(knowledge_representation)), [in computer science](https://en.wikipedia.org/wiki/Reification_(computer_science)), [in higher-order logic](https://en.wikipedia.org/wiki/Reification_(information_retrieval)),... but can also be [a fallacy](https://en.wikipedia.org/wiki/Reification_(fallacy)).
 				- [NDE: Catholic Priest Dies and Returns with a SHOCKING MESSAGE from Jesus!](https://youtu.be/4psiktBDSqY)
+					- Collin Raye's [Love Remains](https://youtu.be/yLxCVAWjGek)
+						- [Video with slideshow](https://youtu.be/90VX7DOWsmU)
+						- Posted to fb many times: []
 				- Updated ((684f951b-4f21-4783-a4a6-3fe5d638c64c)).
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
