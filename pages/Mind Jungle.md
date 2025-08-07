@@ -3192,22 +3192,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  {{embed ((684f9517-3cbd-495d-8e40-85932d03bbe0))}}
 					- References: [(en, em) dashes](https://en.wikipedia.org/wiki/Dash) and [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- About and spaces around em-dash
+					- ((684f951b-5075-45ba-9077-cfa04758fbf3))
+					- ((684f951b-c62e-4a24-840b-616f2bdc6879))
+					- About spaces around em-dash
 					  collapsed:: true
 						- In formal writing (journals and books), especially within academic contexts (APA, MLA, Chicago), em-dashes are typically used without spaces.
 						- Most newspapers and some publications, following [AP style](https://en.wikipedia.org/wiki/Associated_Press#AP_Stylebook), insert a space before and after the em-dash.
 						- CreatZy style uess spaced en-dash in stead of closed em-dash for interruption, because the closed (unspaced) em-dash looks like a word connector, e.g. “Bose—Einstein”, which is misleading.
 			- American style for quotation
+			  id:: 684f951b-5075-45ba-9077-cfa04758fbf3
 			  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
 				- Commas `,` and periods `.` are always before the closing quote, “like this.”
 					- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only [from mid-19th century](https://style.mla.org/the-placement-of-a-comma-or-period-after-a-quotation), to make the text of [typewriter](https://en.wikipedia.org/wiki/Typewriter) [looks “neater”](https://style.mla.org/punctuation-and-quotation-marks/).
 				- Other marks follow the rule that ((67189182-7268-4579-9ef2-b16bf1f06c86))
 			- World's various styles for dialogue
+			  id:: 684f951b-c62e-4a24-840b-616f2bdc6879
 				- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
 				- For source attribution, while (em) [dash](https://en.wikipedia.org/wiki/Dash) is the most common, colon `: author` and parentheses `(from author)` are also used.
 				- References:
 					- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
 					- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
+			-
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
