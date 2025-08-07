@@ -3462,11 +3462,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- On the way home, i spotted the urge to take advantage of free time to contemplate Unïnfo, then released it by focusing on the zero intent.
 				- At home, some breakage reminded me to have a stronger reset and to train [intents penetration](((689029a3-c02b-4cb9-b1bd-205f12c97391))) with [intent dissolution](((668f5490-c223-4a8a-9cc4-0bd71af4c097))).
 				  id:: 6892ac8b-8b7c-4129-8a62-5c38065f7898
-			- 6th,...
+			- 6-7th, drifted away from the official works.
 			  collapsed:: true
 				- [WEIRD](https://en.wikipedia.org/wiki/WEIRD) (Western, educated, industrialized, rich and democratic) societies and countries
 				- From [reification](https://en.wiktionary.org/wiki/reification) to ((68932036-e868-4468-a891-70cdf09ea904))
 					- [Reification](https://en.wikipedia.org/wiki/Reification) is interesting: it's a kind of ((68932036-e868-4468-a891-70cdf09ea904)) [in knowledge representation](https://en.wikipedia.org/wiki/Reification_(knowledge_representation)), [in computer science](https://en.wikipedia.org/wiki/Reification_(computer_science)), [in higher-order logic](https://en.wikipedia.org/wiki/Reification_(information_retrieval)),... but can also be [a fallacy](https://en.wikipedia.org/wiki/Reification_(fallacy)).
+				- Updated ((684f951b-4f21-4783-a4a6-3fe5d638c64c)).
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
