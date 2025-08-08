@@ -1611,7 +1611,7 @@ CLOCK: [2024-07-15 Mon 11:04:21]
 								  Name:	mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
 								  Address: 54.168.37.56
 								  ```
-							- Because the the TTL (time to live) of these IPs is just 60 seconds, we must run ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh) to keep CNAMEs resolved by `dig`ging them every minute.
+							- Because the the TTL (time to live) of these IPs is only 60 seconds (or less), we must run ![log-cname-ips.sh](../assets/Linux/DNS/CNAME-monitoring/log-cname-ips.sh) to keep CNAMEs resolved by `dig`ging them every minute.
 								- ```bash
 								  ⮕ dig +noall +answer +ttlid mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com.
 								  mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com. 60	IN A 35.74.111.202
