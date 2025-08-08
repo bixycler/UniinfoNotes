@@ -14,10 +14,11 @@ while true; do
     for host in ${hosts[@]}; do
         IPs=$(dig +short ${host} | sort)
         IPn=$(printf "${IPs}" | wc -l)
-        if [[ ${IPn} -lt 2 ]]; then # retry
-            sleep 1.23 # try to avoid the expiration threshold (TTL = 0) 
+        while [[ ${IPn} -lt 2 ]]; do # retry
+            sleep 0.1 # try to avoid the expiration threshold (TTL = 0) 
             IPs=$(dig +short ${host} | sort)
-        fi
+            IPn=$(printf "${IPs}" | wc -l)
+        done
         oIPs=$(cat ${host}.ip.log)
         if [[ "${IPs}" != "${oIPs}" ]]; then
             printf "${IPs}" > ${host}.ip.log
