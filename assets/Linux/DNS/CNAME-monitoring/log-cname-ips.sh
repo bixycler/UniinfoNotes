@@ -4,6 +4,7 @@ hosts=(mgmt-gitlab-clb-1008603512.ap-northeast-1.elb.amazonaws.com
     mgmt-repo1-clb-243604401.ap-northeast-1.elb.amazonaws.com
     mgmt-tools-alb-1633637944.ap-northeast-1.elb.amazonaws.com)
 logf=log-cname-ips.log
+cd ${HOME}/tmp/
 echo "Monitoring hosts:"
 printf '  %s\n' ${hosts[@]}
 minute=0
