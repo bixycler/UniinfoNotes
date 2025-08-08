@@ -14,12 +14,10 @@ while true; do
     for host in ${hosts[@]}; do
         IPs=$(dig +short ${host} | sort)
         IPn=$(printf "${IPs}" | wc -l)
-        while [[ ${IPn} -lt 2 ]]; do # retry
+        while [[ ${IPn} -lt 1 ]]; do # retry
             sleep 0.1 # try to avoid the expiration threshold (TTL = 0) 
             IPs=$(dig +short ${host} | sort)
             IPn=$(printf "${IPs}" | wc -l)
-            dt=$(date '+%Y-%m-%d_%H:%M:%S')
-            echo -e "\n= ${host}:${dt}:" ${IPs} # DEBUG
         done
         oIPs=$(cat ${host}.ip.log)
         if [[ "${IPs}" != "${oIPs}" ]]; then
