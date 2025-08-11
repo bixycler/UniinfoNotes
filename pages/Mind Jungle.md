@@ -1880,6 +1880,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 669a2886-9e03-41a4-a790-24bf6b7dcd96
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
 			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
 			- projector
 			  id:: 66c85d4d-64de-48d9-b384-eebdc2635ab2
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
@@ -2174,18 +2175,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
 		- Conditions for awareness
 		  collapsed:: true
-			- subject's quantum recorded from previous form
+			- **subject's quantum** recorded from previous form
 			  id:: 672ad2fd-ce09-4831-a9f6-67d95a2654a3
 			  is the precondition for awareness.
 				- In order to be aware of some form, the subject must have that form recorded as a quantum inside, which is usually a memory that has been memorized before, or a “gene” inherited from the source in the process of constructing ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) of the subject.
-			- sensate
+			- ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
 			  is the current external condition for awareness.
 				- To be aware, the ((669a2886-9e03-41a4-a790-24bf6b7dcd96)) must be open to receive content from objects.
-			- obbject's quantum [projected](((670ce218-a01f-4609-b7f2-beda7cf2ebc3))) from sensory information 
+			- **obbject's quantum** [projected](((670ce218-a01f-4609-b7f2-beda7cf2ebc3))) from sensory information 
 			  id:: 67315ec8-cbe8-467c-81c4-d4d0e8750824
 			  is the current internal condition for awareness.
 				- For some object to be aware of, it must be projected through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) into a single quantum.
-			- qualification: qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
+			- **qualification**: qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
 			  id:: 681826ac-f5f2-4a84-a5f5-c110937ec85f
 			  is the current direct condition for awareness.
 				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject, i.e. the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
@@ -2201,7 +2202,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- Being aware of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
 			- Being conscious of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- sensation → ((66f267f7-01f9-47b9-8376-abd27fdf2930)) → ((66f2681b-796a-4e25-b778-ba4fb6419425))
+				- ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) → ((66f267f7-01f9-47b9-8376-abd27fdf2930)) → ((66f2681b-796a-4e25-b778-ba4fb6419425))
 				  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
 				  collapsed:: true
 				  :LOGBOOK:
@@ -2285,22 +2286,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2024-11-11 Mon 15:53:50]
 	  :END:
 	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0)), ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
-		- sensitive
-		  id:: 6731c3ce-d9ae-4413-bada-7527ad5125b0
-		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
-		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c3f4-cb64-454e-b104-002b6c9d57a3))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) to some signal means being open to receive that signal.
-				- Note that we use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
-			- sensitivity
-			  id:: 6731c3f4-cb64-454e-b104-002b6c9d57a3
-			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0))
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((669a2886-9e03-41a4-a790-24bf6b7dcd96))
 		- sensate
 		  id:: 6731c4c4-e803-4de7-9961-e879a8c9c8b9
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c4d6-25b6-4081-a080-4ffaa5218ec7))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A subject is ((6731c4c4-e803-4de7-9961-e879a8c9c8b9)) when that subject is open to receive signals.
 			- sensation
 			  id:: 6731c4d6-25b6-4081-a080-4ffaa5218ec7
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A subject is ((6731c4c4-e803-4de7-9961-e879a8c9c8b9)) when that subject is **open** to receive signals.
+		- sensitive
+		  id:: 6731c3ce-d9ae-4413-bada-7527ad5125b0
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c3f4-cb64-454e-b104-002b6c9d57a3))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) *to some signal* means being open to receive that signal.
+				- Note that we use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
+			- sensitivity
+			  id:: 6731c3f4-cb64-454e-b104-002b6c9d57a3
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0))
 	- ## `in`-`ex` partition
 	  collapsed:: true
 		-
