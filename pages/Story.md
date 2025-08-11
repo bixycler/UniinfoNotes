@@ -3496,7 +3496,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Persian [MTProto proxies](https://mtpro.xyz/mtproto) for Telegram
 				  collapsed:: true
 					- [belgium.antwerp.ir](https://t.me/proxy?server=belgium.antwerp.ir&port=23&secret=eeNEgYdJvXrFGRMCIMJdCQ): جادوی زیبایی (The Magic of Beauty): cosmetic products seller
-					- [proxy2.icortana.com](https://t.me/proxy?server=proxy2.icortana.com&port=1001&secret=3e31ad980db70f83f9f4979994dd7dd4): پروکسی برند (PROXY BRAND): Functions of the laws of the Islamic Republic of Iran
+					- [proxy2.icortana.com](https://t.me/proxy?server=proxy2.icortana.com&port=1001&secret=3e31ad980db70f83f9f4979994dd7dd4): پروکسی برند (PROXY BRAND): Proxy provider to get around the [Telegram ban](https://en.wikipedia.org/wiki/Telegram_in_Iran#Full_blocking) of the Islamic Republic of Iran
+					- [ilovehim.mnbtm.ir](https://t.me/proxy?server=ilovehim.mnbtm.ir&port=45&secret=ee845a84551675092139db3da9d5b2ff4d696c6f766568696d2e6d6e62746d2e6972): پروکسی وتوییت persian (Persian proxy and tweet):
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
