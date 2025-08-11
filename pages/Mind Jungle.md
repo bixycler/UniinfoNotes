@@ -2194,13 +2194,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- Three levels of awareness
-		  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
-			- Being sensitive to some signal means simply being open to receive that (raw) signal. 
-			  :LOGBOOK:
-			  CLOCK: [2024-11-11 Mon 14:10:20]
-			  :END:
-			- Being aware of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
-			- Being conscious of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
+			- ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) = physical awareness
+				- Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) to some signal means simply being open to receive that (raw) signal.
+				  :LOGBOOK:
+				  CLOCK: [2024-11-11 Mon 14:10:20]
+				  :END:
+			- ((66f267f7-01f9-47b9-8376-abd27fdf2930)) = mental awareness
+				- Being ((66f267bf-5272-4dde-99a1-b220ba5bd852)) of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
+			- ((66f2681b-796a-4e25-b778-ba4fb6419425)) = self-awareness
+				- Being ((66f267df-e3b0-444b-a721-1225ca59d292)) of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) → ((66f267f7-01f9-47b9-8376-abd27fdf2930)) → ((66f2681b-796a-4e25-b778-ba4fb6419425))
 				  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
