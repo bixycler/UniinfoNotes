@@ -3481,7 +3481,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- ((68994c7c-335a-4a31-836b-ff7fa9bb3e67))
 				- Passive & active obop
-				  collapsed:: true
 					- Active = circular effect flow = circle
 					- Passive = linear effect flow = arrow
 					- Passive input = unaware influence (out of view)
