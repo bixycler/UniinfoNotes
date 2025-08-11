@@ -2170,7 +2170,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672a008c-835f-4e28-b969-2046feaf43b9))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches object's content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of that qualiton activated from that quantum called “[qualia](https://en.wikipedia.org/wiki/Qualia)”, and the subject is aware of the form in the content, denoted by the equation ⟪form = content⟫.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
-			- While ((672ac785-4f28-4dd0-a36c-07afef0ee83f)), or perception, is being aware of some form brought to the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) through sensation content, i.e. the equation ⟪form = content⟫, *abstract awareness* is the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ itself.
 			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
 		- Conditions for awareness
 		  collapsed:: true
@@ -2239,7 +2238,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 672ac78d-01b2-48c9-b85b-1fbe946760eb
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f))
 			  = sensation + awareness
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb)) is being aware of some form brought to the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) through sensation content, i.e. the equation ⟪form = content⟫
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) is being aware of some form in the content brought to the obop, i.e. the whole equation ⟪form = content⟫, in contrast to the ((68995ab6-2839-4aa2-a9db-678eeef62541)) which is only the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ in that equation.
+		- abstract awareness
+		  id:: 68995ab6-2839-4aa2-a9db-678eeef62541
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
 		- pure consciousness
 		  id:: 672a008c-835f-4e28-b969-2046feaf43b9
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
