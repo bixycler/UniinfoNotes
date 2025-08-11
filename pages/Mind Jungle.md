@@ -2172,7 +2172,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches object's content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of that qualiton activated from that quantum called “[qualia](https://en.wikipedia.org/wiki/Qualia)”, and the subject is aware of the form in the content, denoted by the equation ⟪form = content⟫.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
 			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
-			- Through emergence, the concrete awareness gets more and more complex, from the mere ((689962b4-29d3-4fa0-9ad0-addaa6224369)) of simplexes like elementary particles, to , and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)).
+			- Through emergence, the concrete awareness becomes more and more complex, from the [primitive awareness](((689962b4-29d3-4fa0-9ad0-addaa6224369))) of simplexes like elementary particles which is mere sensation, to the common ((6899629f-494f-483d-9f0d-e58da911ae1c)) of complex subjects, and the ((689962c3-fb89-4340-9148-e0703fdbe950)) of advanced subjects like human. Except the primitive awareness of simplexes, the word _“aware[ness]” commonly refers to the **mental awareness**_ derived from the physical awareness (sensation).
 		- Conditions for awareness
 		  collapsed:: true
 			- **subject's quantum** recorded from previous form

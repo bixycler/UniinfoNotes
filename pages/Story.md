@@ -3488,7 +3488,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- A passive i/o obop is a being lacking (mental) awareness, e.g. machine, program, function.
 						- Lacking awareness, it cannot learn from experience (i/o).
 						- The limited awareness of Turing machine limits its “learning” capacity to only data, not program, because that awareness is programmed by human.
-					- update [aware]: for complex beings, “aware” means mentally aware.
 					- Update the commentary [sensation → awareness → consciousness] & upgrade it to a section of [aware]: clarify three levels of awareness <- awareness in general
 						- sesation = physical awareness: The primitive awareness of elemetary particles whose self-circle is only one.
 						- normal “awareness” = mental awareness, for a body complex enough to have at least 2 self-circles: body & mind.
