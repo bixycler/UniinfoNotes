@@ -3489,8 +3489,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Lacking awareness, it cannot learn from experience (i/o).
 						- The limited awareness of Turing machine limits its “learning” capacity to only data, not program, because that awareness is programmed by human.
 					- Update the commentary [sensation → awareness → consciousness] & upgrade it to a section of [aware]: clarify three levels of awareness <- awareness in general
-						- sesation = physical awareness: The primitive awareness of elemetary particles whose self-circle is only one.
-						- normal “awareness” = mental awareness, for a body complex enough to have at least 2 self-circles: body & mind.
 						- the “on/off” switch which may be the only thing that the automaton is **sensate** to (physically aware of).
 				- order > unaware intent > ungraspable content of impenetrable crystal form > central position of representative & distortion via viewcone > FoC dynamics
 				  collapsed:: true

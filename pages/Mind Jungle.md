@@ -2172,7 +2172,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches object's content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of that qualiton activated from that quantum called “[qualia](https://en.wikipedia.org/wiki/Qualia)”, and the subject is aware of the form in the content, denoted by the equation ⟪form = content⟫.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
 			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
-			- Through emergence, the concrete awareness becomes more and more complex, from the [primitive awareness](((689962b4-29d3-4fa0-9ad0-addaa6224369))) of simplexes like elementary particles which is mere sensation, to the common ((6899629f-494f-483d-9f0d-e58da911ae1c)) of complex subjects, and the ((689962c3-fb89-4340-9148-e0703fdbe950)) of advanced subjects like human. Except the primitive awareness of simplexes, the word _“aware[ness]” commonly refers to the **mental awareness**_ derived from the physical awareness (sensation).
+			- Through emergence, the concrete awareness becomes more and more complex, from the [primitive awareness](((689962b4-29d3-4fa0-9ad0-addaa6224369))) of simplexes like elementary particles which is mere sensation, to the ((6899629f-494f-483d-9f0d-e58da911ae1c)) of complex subjects, and the ((689962c3-fb89-4340-9148-e0703fdbe950)) of advanced subjects like human. Except the primitive awareness of simplexes, the word _“aware[ness]” **normally** refers to the **mental awareness**_ derived from the physical awareness (sensation).
 		- Conditions for awareness
 		  collapsed:: true
 			- **subject's quantum** recorded from previous form
@@ -2194,16 +2194,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- Three levels of awareness
-		  [sensation](((689962b4-29d3-4fa0-9ad0-addaa6224369))) → [awareness](((6899629f-494f-483d-9f0d-e58da911ae1c))) → [consciousness](((689962c3-fb89-4340-9148-e0703fdbe950)))
+		  [sensation](((689962b4-29d3-4fa0-9ad0-addaa6224369))) → [normal awareness](((6899629f-494f-483d-9f0d-e58da911ae1c))) → [consciousness](((689962c3-fb89-4340-9148-e0703fdbe950)))
 			- ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) = physical awareness
 			  id:: 689962b4-29d3-4fa0-9ad0-addaa6224369
 				- Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) to some signal means simply being open to receive that (raw) signal.
 				  :LOGBOOK:
 				  CLOCK: [2024-11-11 Mon 14:10:20]
 				  :END:
-			- ((66f267f7-01f9-47b9-8376-abd27fdf2930)) = mental awareness
+				- This is the **primitive awareness** of simplexes, like [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle), whose self-circle has only one layer.
+			- normal ((66f267f7-01f9-47b9-8376-abd27fdf2930)) = mental awareness
 			  id:: 6899629f-494f-483d-9f0d-e58da911ae1c
 				- Being ((66f267bf-5272-4dde-99a1-b220ba5bd852)) of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
+				- This is the secondary for a body complex enough to have at least 2 self-circles: body & mind.
 			- ((66f2681b-796a-4e25-b778-ba4fb6419425)) = self-awareness
 			  id:: 689962c3-fb89-4340-9148-e0703fdbe950
 				- Being ((66f267df-e3b0-444b-a721-1225ca59d292)) of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
