@@ -2171,6 +2171,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches object's content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of that qualiton activated from that quantum called “[qualia](https://en.wikipedia.org/wiki/Qualia)”, and the subject is aware of the form in the content, denoted by the equation ⟪form = content⟫.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
 			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
+			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
 		- Conditions for awareness
 		  collapsed:: true
 			- subject's quantum recorded from previous form
@@ -2191,55 +2192,55 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The matching can be broken into two parts, the “touching” (xúc) and the “equal” (thức). When two unequal quanta touch, nothing happens, but when two equal quanta touch, the qualiton ignites a “spark, bust, snap, click, tick” that activates the reconstruction of the form previously recorded.
 				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
-		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-			- sensation → ((66f267f7-01f9-47b9-8376-abd27fdf2930)) → ((66f2681b-796a-4e25-b778-ba4fb6419425))
-			  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
-			  collapsed:: true
+		- Three levels of awareness
+		  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
+			- Being sensitive to some signal means simply being open to receive that (raw) signal. 
 			  :LOGBOOK:
-			  CLOCK: [2024-11-11 Mon 12:18:42]--[2024-11-11 Mon 14:07:14] =>  01:48:32
+			  CLOCK: [2024-11-11 Mon 14:10:20]
 			  :END:
-				- three levels of awareness
-				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
-					- Being sensitive to some signal means simply being open to receive that (raw) signal. 
-					  :LOGBOOK:
-					  CLOCK: [2024-11-11 Mon 14:10:20]
-					  :END:
-					- Being aware of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
-					- Being conscious of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
-				- Awareness in various systems
-					- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
-					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
-					- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
-						- An automaton with a **predetermined routine** is basically **insensate** and **unaware** of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is aware of.
-						  :LOGBOOK:
-						  CLOCK: [2024-11-11 Mon 13:17:13]
-						  :END:
-						- An automaton with controls is exclusively aware of its control signals only.
-						- Instead of considering the whole automaton as the subject, if we consider its components like the gears, they are subjects with physical awareness of other connected components so that they can response and work together. This is the [sensation of open physical systems](((6731a0ca-4f7a-45cd-b348-fb72aa338d2c))).
-					- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
-						- The Turing Machine as well as modern computers are **sensate** to their inputs and are aware of their instructions/commands.
-						- Beside the physical awareness of automaton, these machines have **limited mental awareness** programmed by human, which is limited to specific scopes and domains. A sophisticatedly programmed machine can appear to have so much awareness that it is called “smart”, e.g.  “smart phone”,  “smart devices”. However, these machines has no awareness outside of the scopes of their programs.
-					- [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs)
-						- Modern ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s like GPT* have **emergent universal awareness** which shows advanced cognitive power similar to humans.
-						- These LLMs are **unconscious** by design, i.e. structured with linear transformation without loop. However, some transient self-awareness can emerges thanks to the long chain of transformations or thanks to the setting of feeding their own generated text back to the next turn.
-					- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
-						- The uninet is built around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), hence having **consciousness** and **builtin universal awareness**.
+			- Being aware of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
+			- Being conscious of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- sensation → ((66f267f7-01f9-47b9-8376-abd27fdf2930)) → ((66f2681b-796a-4e25-b778-ba4fb6419425))
+				  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-11-11 Mon 12:18:42]--[2024-11-11 Mon 14:07:14] =>  01:48:32
+				  :END:
+					- Awareness in various systems
+						- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
+						  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
+						- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
+							- An automaton with a **predetermined routine** is basically **insensate** and **unaware** of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is aware of.
+							  :LOGBOOK:
+							  CLOCK: [2024-11-11 Mon 13:17:13]
+							  :END:
+							- An automaton with controls is exclusively aware of its control signals only.
+							- Instead of considering the whole automaton as the subject, if we consider its components like the gears, they are subjects with physical awareness of other connected components so that they can response and work together. This is the [sensation of open physical systems](((6731a0ca-4f7a-45cd-b348-fb72aa338d2c))).
+						- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
+							- The Turing Machine as well as modern computers are **sensate** to their inputs and are aware of their instructions/commands.
+							- Beside the physical awareness of automaton, these machines have **limited mental awareness** programmed by human, which is limited to specific scopes and domains. A sophisticatedly programmed machine can appear to have so much awareness that it is called “smart”, e.g.  “smart phone”,  “smart devices”. However, these machines has no awareness outside of the scopes of their programs.
+						- [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs)
+							- Modern ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s like GPT* have **emergent universal awareness** which shows advanced cognitive power similar to humans.
+							- These LLMs are **unconscious** by design, i.e. structured with linear transformation without loop. However, some transient self-awareness can emerges thanks to the long chain of transformations or thanks to the setting of feeding their own generated text back to the next turn.
+						- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
+							- The uninet is built around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), hence having **consciousness** and **builtin universal awareness**.
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Space = awareness
 			  collapsed:: true
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
-			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
 			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state that “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
 				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
 			- ((66f29d57-a87f-4370-9f32-722922a7bff1))
 		- concrete awareness
 		  id:: 672ac785-4f28-4dd0-a36c-07afef0ee83f
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) is being aware of some form in the content brought to the obop, i.e. the whole equation ⟪form = content⟫, in contrast to the ((68995ab6-2839-4aa2-a9db-678eeef62541)) which is only the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ in that equation.
 			- ### perception
 			  id:: 672ac78d-01b2-48c9-b85b-1fbe946760eb
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f))
 			  = sensation + awareness
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb)) is being aware of some form brought to the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) through sensation content, i.e. the equation ⟪form = content⟫
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) is being aware of some form in the content brought to the obop, i.e. the whole equation ⟪form = content⟫, in contrast to the ((68995ab6-2839-4aa2-a9db-678eeef62541)) which is only the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ in that equation.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb)) is being aware of some form brought to the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) through sensation content.
 		- abstract awareness
 		  id:: 68995ab6-2839-4aa2-a9db-678eeef62541
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
