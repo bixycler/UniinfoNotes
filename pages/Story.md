@@ -3477,6 +3477,33 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [Video with slideshow](https://youtu.be/90VX7DOWsmU)
 						- Posted to fb many times: [Oct 20214](https://www.facebook.com/lexuandinhct/posts/963880876962533), [Dec 2016](https://www.facebook.com/lexuandinhct/posts/pfbid02AFHU5Vpi98GhXMABnbZfDc4uENB1UxsmeWqXR4pofFTMUcTynB1zZemuiF5LXwMGl), [Mar 20218](https://www.facebook.com/lexuandinhct/posts/pfbid029wUyFEALydazMLkXfWWkRQGCqa4tAnPEXALM9edft94763DnZ3gRyPqdi8cf9no2l), [Dec 2018](https://www.facebook.com/lexuandinhct/posts/pfbid0TFLsTNasyqNVfMwDW38PiWLyebU3tqjMdwfGDbhnbaHxBnoqnV69ktAG9tCQL94Tl).
 				- Updated ((684f951b-4f21-4783-a4a6-3fe5d638c64c)).
+			- 9-10th, weekends
+			  collapsed:: true
+				- ((68994c7c-335a-4a31-836b-ff7fa9bb3e67))
+				- Passive & active obop
+				  collapsed:: true
+					- Active = circular effect flow = circle
+					- Passive = linear effect flow = arrow
+					- Passive input = unaware influence (out of view)
+					- Passive output = uncontrolled actions <= unaware
+					- A passive i/o obop is a being lacking (mental) awareness, e.g. machine, program, function.
+						- Lacking awareness, it cannot learn from experience (i/o).
+						- The limited awareness of Turing machine limits its “learning” capacity to only data, not program, because that awareness is programmed by human.
+					- update [aware]: for complex beings, “aware” means mentally aware.
+					- Update the commentary [sensation → awareness → consciousness] & upgrade it to a section of [aware]: clarify three levels of awareness <- awareness in general
+						- sesation = physical awareness: The primitive awareness of elemetary particles whose self-circle is only one.
+						- normal “awareness” = mental awareness, for a body complex enough to have at least 2 self-circles: body & mind.
+						- the “on/off” switch which may be the only thing that the automaton is **sensate** to (physically aware of).
+				- order > unaware intent > ungraspable content of impenetrable crystal form > central position of representative & distortion via viewcone > FoC dynamics
+				  collapsed:: true
+					- We want to know all in order to control all.
+					- I accepted limit of knowledge years ago, but only now do i accept the limit of awareness, even though it's obvious with the viewcone!
+						- The illusion of unlimited knowledge is due to the abstraction of the whole Universe into some simple laws.
+						- The illusion of unlimited awareness is due to the omniview at the empty center.
+						- Accepting the limit of knowledge, i turn inward for development.
+						- Accepting the limit of awareness, i practice skillful ((67445065-15b2-475e-a704-78f140d487af)) so that i can return to the zero (empty center) faster and smoother, instead of trying to stay there all the time.
+							- The "stay in the zero all the time" is just another attachement, clingging to the zero!
+							- The [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))) also helps by reducing the resistence against reset.
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:

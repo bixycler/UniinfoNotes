@@ -34,6 +34,23 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- While the Buddha talked about the self, i contemplate the form and the order.
+		  id:: 68994c7c-335a-4a31-836b-ff7fa9bb3e67
+		  collapsed:: true
+			- Ultimate truth: the permanent self is an illusion; the form is an image; the order is relative (circular).
+			- Pragmatic application:
+				- observing the relativity of the order, the formation of the form, and the destruction of the self,
+				- we practice not to blindly obey the order of the crystal form of the karmic self.
+				- To break the order of control, we must stop and [turn the eye back](((68898917-e61f-4d23-9124-474efa9a9eee))) to the intents, turning the intents from the role of subject/agent to object.
+					- The intent behind the eye has **unconditional influence** on the current obop, like the controller of a puppet, because it's out of sight.
+						- The control is determined by the view => out of view = out of control.
+					- The empty center has the highest order because there's nothing left behind to control. To the empty center, everything is object, no more agent.
+				- Because the empty center has higher order than the circled center (with form, self),
+				- we practice relying on the empty center, the selfless obop, to let the crystal form be in contact with the formless content, so that it can be transformed easily.
+					- When a form collides with another form, it resists change by trying to preserve its own form.
+					- But when a form touches the content, it absorbs naturally, hence changes effortlessly.
+			- These practices are just skillful means that applies the truth into our own life.
+				- Without these skillful means, the self will still be destructed, the form and order will still be changed, but will take longer time and more sufferings.
 		- Thread theory of sound
 		  collapsed:: true
 		  :LOGBOOK:

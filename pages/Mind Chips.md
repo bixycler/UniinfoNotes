@@ -1,47 +1,6 @@
-- While the Buddha talked about the self, i contemplate the form and the order.
-  collapsed:: true
-	- Ultimate truth: the permanent self is an illusion; the form is an image; the order is relative (circular).
-	- Pragmatic application:
-		- observing the relativity of the order, the formation of the form, and the destruction of the self,
-		- we practice not to blindly obey the order of the crystal form of the karmic self.
-		- To break the order of control, we must stop and [turn the eye back](look%20behind%20the%20eyes) to the intents, turning the intents from the role of subject/agent to object.
-			- The intent behind the eye has **unconditional influence** on the current obop, like the controller of a puppet, because it's out of sight.
-				- The control is determined by the view => out of view = out of control.
-			- The empty center has the highest order because there's nothing left behind to control. To the empty center, everything is object, no more agent.
-		- Because the empty center has higher order than the circled center (with form, self),
-		- we practice relying on the empty center, the selfless obop, to let the crystal form be in contact with the formless content, so that it can be transformed easily.
-			- When a form collides with another form, it resists change by trying to preserve its own form.
-			- But when a form touches the content, it absorbs naturally, hence changes effortlessly.
-	- These practices are just skillful means that applies the truth into our own life.
-		- Without these skillful means, the self will still be destructed, the form and order will still be changed, but will take longer time and more sufferings.
-- ---
-- Passive & active obop
-  collapsed:: true
-	- Active = circular effect flow = circle
-	- Passive = linear effect flow = arrow
-	- Passive input = unaware influence (out of view)
-	- Passive output = uncontrolled actions <= unaware
-	- A passive i/o obop is a being lacking (mental) awareness, e.g. machine, program, function.
-		- Lacking awareness, it cannot learn from experience (i/o).
-		- The limited awareness of Turing machine limits its “learning” capacity to only data, not program, because that awareness is programmed by human.
-	- update [aware]: for complex beings, “aware” means mentally aware.
-	- Update the commentary [sensation → awareness → consciousness] & upgrade it to a section of [aware]: clarify three levels of awareness <- awareness in general
-		- sesation = physical awareness: The primitive awareness of elemetary particles whose self-circle is only one.
-		- normal “awareness” = mental awareness, for a body complex enough to have at least 2 self-circles: body & mind.
-		- the “on/off” switch which may be the only thing that the automaton is **sensate** to (physically aware of).
-- ---
-- order > unaware intent > ungraspable content of impenetrable crystal form > central position of representative & distortion via viewcone > FoC dynamics
-	- We want to know all in order to control all.
-	- I accepted limit of knowledge years ago, but only now do i accept the limit of awareness, even though it's obvious with the viewcone!
-		- The illusion of unlimited knowledge is due to the abstraction of the whole Universe into some simple laws.
-		- The illusion of unlimited awareness is due to the omniview at the empty center.
-		- Accepting the limit of knowledge, i turn inward for development.
-		- Accepting the limit of awareness, i practice skillful ((67445065-15b2-475e-a704-78f140d487af)) so that i can return to the zero (empty center) faster and smoother, instead of trying to stay there all the time.
-			- The "stay in the zero all the time" is just another attachement, clingging to the zero!
-			- The [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))) also helps by reducing the resistence against reset.
-- ## 2025 Mind Chips
-  id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
-  collapsed:: true
+## 2025 Mind Chips
+id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
+collapsed:: true
 	- Tân Chánh Hiệp → Trung Mỹ Tây
 	  collapsed:: true
 	  :LOGBOOK:
