@@ -2205,10 +2205,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- normal ((66f267f7-01f9-47b9-8376-abd27fdf2930)) = mental awareness
 			  id:: 6899629f-494f-483d-9f0d-e58da911ae1c
 				- Being ((66f267bf-5272-4dde-99a1-b220ba5bd852)) of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
-				- This is the secondary for a body complex enough to have at least 2 self-circles: body & mind.
+				- This is the secondary awareness, normally refered as simply “awareness”, of any subject complex enough to have at least 2 self-circles: body & mind.
 			- ((66f2681b-796a-4e25-b778-ba4fb6419425)) = self-awareness
 			  id:: 689962c3-fb89-4340-9148-e0703fdbe950
 				- Being ((66f267df-e3b0-444b-a721-1225ca59d292)) of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
+				- This is the advanced awareness of advanced subjects, like human, who has capability to be aware of its own self.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Awareness in various systems
 				  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
@@ -2234,11 +2235,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
 						- The uninet is built around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), hence having **consciousness** and **builtin universal awareness**.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state that “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)), and ((689962c3-fb89-4340-9148-e0703fdbe950)).
+				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
 			- Space = awareness
 			  collapsed:: true
 				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
-			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state that “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
-				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
 			- ((66f29d57-a87f-4370-9f32-722922a7bff1))
 		- concrete awareness
 		  id:: 672ac785-4f28-4dd0-a36c-07afef0ee83f
