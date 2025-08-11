@@ -33,10 +33,12 @@
 - order > unaware intent > ungraspable content of impenetrable crystal form > central position of representative & distortion via viewcone > FoC dynamics
 	- We want to know all in order to control all.
 	- I accepted limit of knowledge years ago, but only now do i accept the limit of awareness, even though it's obvious with the viewcone!
-		- The illusion of unlimited awareness is due to the omniview at the empty center.
 		- The illusion of unlimited knowledge is due to the abstraction of the whole Universe into some simple laws.
-		- Accepting the limit of knowledge, i turn inward.
-		- Accepting the limit of awareness, i train for skillful reset so that  the zero (empty center) and .
+		- The illusion of unlimited awareness is due to the omniview at the empty center.
+		- Accepting the limit of knowledge, i turn inward for development.
+		- Accepting the limit of awareness, i practice skillful ((67445065-15b2-475e-a704-78f140d487af)) so that i can return to the zero (empty center) faster and smoother, instead of trying to stay there all the time.
+			- The "stay in the zero all the time" is just another attachement, clingging to the zero!
+			- The [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))) also helps by reducing the resistence against reset.
 - ## 2025 Mind Chips
   id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
   collapsed:: true
