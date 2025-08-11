@@ -3477,11 +3477,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [Video with slideshow](https://youtu.be/90VX7DOWsmU)
 						- Posted to fb many times: [Oct 20214](https://www.facebook.com/lexuandinhct/posts/963880876962533), [Dec 2016](https://www.facebook.com/lexuandinhct/posts/pfbid02AFHU5Vpi98GhXMABnbZfDc4uENB1UxsmeWqXR4pofFTMUcTynB1zZemuiF5LXwMGl), [Mar 20218](https://www.facebook.com/lexuandinhct/posts/pfbid029wUyFEALydazMLkXfWWkRQGCqa4tAnPEXALM9edft94763DnZ3gRyPqdi8cf9no2l), [Dec 2018](https://www.facebook.com/lexuandinhct/posts/pfbid0TFLsTNasyqNVfMwDW38PiWLyebU3tqjMdwfGDbhnbaHxBnoqnV69ktAG9tCQL94Tl).
 				- Updated ((684f951b-4f21-4783-a4a6-3fe5d638c64c)).
-			- 9-10th, weekends
+			- 9-10th, weekends, focusing on the empty center, i had some well done ((68871d20-c27b-4b0d-8342-b8af093e5849)) in tantric practice.
 			  collapsed:: true
 				- ((68994c7c-335a-4a31-836b-ff7fa9bb3e67))
 				  → ((68994c7c-695a-49db-aae6-e776186f6a85))
-				- order > unaware intent > ungraspable content of impenetrable crystal form > central position of representative & distortion via viewcone > FoC dynamics
+				- [order](((68994c7c-335a-4a31-836b-ff7fa9bb3e67))) > unaware intent > ungraspable content of impenetrable crystal form > central position of representative & distortion via viewcone > ((6858b355-fba9-4e61-9f16-bc993a3df44b))
 				  collapsed:: true
 					- We want to know all in order to control all.
 					- I accepted limit of knowledge years ago, but only now do i accept the limit of awareness, even though it's obvious with the viewcone!

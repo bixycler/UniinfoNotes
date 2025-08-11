@@ -48,7 +48,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Lacking awareness, it cannot learn from experience (i/o).
 				- The limited awareness of Turing machine limits its “learning” capacity to only data, not program, because that awareness is programmed by human.
 			- [?] How does passiveness relate to the ((684f9517-6989-49cc-9b06-360965c446f7))?!
-		- While the Buddha talked about the self, i contemplate the form and the order.
+		- While the Buddha talked about the **self**, i contemplate the **form** and the **order**.
 		  id:: 68994c7c-335a-4a31-836b-ff7fa9bb3e67
 		  collapsed:: true
 		  :LOGBOOK:
