@@ -34,15 +34,32 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Passive & active obop
+		  id:: 68994c7c-695a-49db-aae6-e776186f6a85
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-11 Mon 11:15:27]
+		  :END:
+			- Active = circular effect flow = circle
+			- Passive = linear effect flow = arrow
+			- Passive input = unaware influence (out of view)
+			- Passive output = uncontrolled actions <= unaware
+			- A passive i/o obop is a being lacking (mental) awareness, e.g. machine, program, function.
+				- Lacking awareness, it cannot learn from experience (i/o).
+				- The limited awareness of Turing machine limits its “learning” capacity to only data, not program, because that awareness is programmed by human.
+			- [?] How does passiveness relate to the ((684f9517-6989-49cc-9b06-360965c446f7))?!
 		- While the Buddha talked about the self, i contemplate the form and the order.
 		  id:: 68994c7c-335a-4a31-836b-ff7fa9bb3e67
 		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-11 Mon 11:15:22]
+		  :END:
 			- Ultimate truth: the permanent self is an illusion; the form is an image; the order is relative (circular).
 			- Pragmatic application:
 				- observing the relativity of the order, the formation of the form, and the destruction of the self,
 				- we practice not to blindly obey the order of the crystal form of the karmic self.
 				- To break the order of control, we must stop and [turn the eye back](((68898917-e61f-4d23-9124-474efa9a9eee))) to the intents, turning the intents from the role of subject/agent to object.
-					- The intent behind the eye has **unconditional influence** on the current obop, like the controller of a puppet, because it's out of sight.
+					- The intent behind the eye has **unconditional influence**, i.e. [passive input](((68994c7c-695a-49db-aae6-e776186f6a85))), on the current obop, like the controller of a puppet, because it's out of sight.
 						- The control is determined by the view => out of view = out of control.
 					- The empty center has the highest order because there's nothing left behind to control. To the empty center, everything is object, no more agent.
 				- Because the empty center has higher order than the circled center (with form, self),

@@ -2194,6 +2194,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
 				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- Three levels of awareness
+		  id:: 684f9517-6989-49cc-9b06-360965c446f7
 		  [sensation](((689962b4-29d3-4fa0-9ad0-addaa6224369))) → [normal awareness](((6899629f-494f-483d-9f0d-e58da911ae1c))) → [consciousness](((689962c3-fb89-4340-9148-e0703fdbe950)))
 			- ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) = physical awareness
 			  id:: 689962b4-29d3-4fa0-9ad0-addaa6224369
@@ -2217,17 +2218,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :LOGBOOK:
 				  CLOCK: [2024-11-11 Mon 12:18:42]--[2024-11-11 Mon 14:07:14] =>  01:48:32
 				  :END:
-					- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
+					- Any **open system**, including physical system, is **sensitive** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
 					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
 					- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
-						- An automaton with a **predetermined routine** is basically **insensate** and **unaware** of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is aware of.
+						- An automaton with a **predetermined routine** is basically **insensate** and **unaware** of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is **sensitive** to (physically aware of).
 						  :LOGBOOK:
 						  CLOCK: [2024-11-11 Mon 13:17:13]
 						  :END:
 						- An automaton with controls is exclusively aware of its control signals only.
 						- Instead of considering the whole automaton as the subject, if we consider its components like the gears, they are subjects with physical awareness of other connected components so that they can response and work together. This is the [sensation of open physical systems](((6731a0ca-4f7a-45cd-b348-fb72aa338d2c))).
 					- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
-						- The Turing Machine as well as modern computers are **sensate** to their inputs and are aware of their instructions/commands.
+						- The Turing Machine as well as modern computers are **sensitive** to their inputs and are **aware** of their instructions/commands.
 						- Beside the physical awareness of automaton, these machines have **limited mental awareness** programmed by human, which is limited to specific scopes and domains. A sophisticatedly programmed machine can appear to have so much awareness that it is called “smart”, e.g.  “smart phone”,  “smart devices”. However, these machines has no awareness outside of the scopes of their programs.
 					- [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs)
 						- Modern ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s like GPT* have **emergent universal awareness** which shows advanced cognitive power similar to humans.

@@ -3480,16 +3480,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 9-10th, weekends
 			  collapsed:: true
 				- ((68994c7c-335a-4a31-836b-ff7fa9bb3e67))
-				- Passive & active obop
-					- Active = circular effect flow = circle
-					- Passive = linear effect flow = arrow
-					- Passive input = unaware influence (out of view)
-					- Passive output = uncontrolled actions <= unaware
-					- A passive i/o obop is a being lacking (mental) awareness, e.g. machine, program, function.
-						- Lacking awareness, it cannot learn from experience (i/o).
-						- The limited awareness of Turing machine limits its “learning” capacity to only data, not program, because that awareness is programmed by human.
-					- Update the commentary [sensation → awareness → consciousness] & upgrade it to a section of [aware]: clarify three levels of awareness <- awareness in general
-						- the “on/off” switch which may be the only thing that the automaton is **sensate** to (physically aware of).
+				  → ((68994c7c-695a-49db-aae6-e776186f6a85))
 				- order > unaware intent > ungraspable content of impenetrable crystal form > central position of representative & distortion via viewcone > FoC dynamics
 				  collapsed:: true
 					- We want to know all in order to control all.
