@@ -3491,7 +3491,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Accepting the limit of awareness, i practice skillful ((67445065-15b2-475e-a704-78f140d487af)) so that i can return to the zero (empty center) faster and smoother, instead of trying to stay there all the time.
 							- The "stay in the zero all the time" is just another attachement, clingging to the zero!
 							- The [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))) also helps by reducing the resistence against reset.
-			- 11th,...
+			- 11th, contintue with tantric pactice.
 			  collapsed:: true
 				- [MTProto proxies](https://mtpro.xyz/mtproto) for Telegram (mostly Persian)
 				  collapsed:: true
