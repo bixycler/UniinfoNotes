@@ -3499,7 +3499,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [belgium.antwerp.ir](https://t.me/proxy?server=belgium.antwerp.ir&port=23&secret=eeNEgYdJvXrFGRMCIMJdCQ): جادوی زیبایی (The Magic of Beauty): cosmetic products seller
 					- [ilovehim.mnbtm.ir](https://t.me/proxy?server=ilovehim.mnbtm.ir&port=45&secret=ee845a84551675092139db3da9d5b2ff4d696c6f766568696d2e6d6e62746d2e6972): پروکسی وتوییت persian (Persian proxy and tweet): network service vendor
 			- 12th, a day focusing on company's work. Wondering about my lack of jadedness, i saw the reason [why people get jaded](((689c0223-5aeb-4196-a2bd-04aaf4e8770d))).
+			- 13th, ...
 			  collapsed:: true
+				- [Smart Auto Move](https://github.com/khimaros/smart-auto-move) extension of GNOME has been disabled after a system update.
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
