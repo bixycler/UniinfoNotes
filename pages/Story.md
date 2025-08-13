@@ -3500,7 +3500,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [ilovehim.mnbtm.ir](https://t.me/proxy?server=ilovehim.mnbtm.ir&port=45&secret=ee845a84551675092139db3da9d5b2ff4d696c6f766568696d2e6d6e62746d2e6972): پروکسی وتوییت persian (Persian proxy and tweet): network service vendor
 			- 12th, a day focusing on company's work.
 			  collapsed:: true
-				- Moderation is my key to avoid surfeit:
+				- Moderation is my key to avoid jadedness, surfeit:
 					- Not letting myself be fed up, i won't get sated.
 					- Avoiding satiety, i won't get sick of anything.
 		- Sound experiment with my đàn bầu.
