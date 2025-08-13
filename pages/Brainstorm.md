@@ -37,6 +37,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- Jadedness' cause and way to liberate
 		  id:: 689c0223-5aeb-4196-a2bd-04aaf4e8770d
 		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-13 Wed 12:37:02]
+		  :END:
 			- From [boredom](https://en.wikipedia.org/wiki/Boredom), pleasure/food cloyedness, to romantic disillusionment and even career burnout, the jadedness of people has shown the duality of pleasure and displeasure as well as the hidden fantasy in everyone.
 			- Expectations & imginative images are the key of jadedness.
 				- Expectation as an imagination bubble
@@ -49,7 +52,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Once the imagined pleasure fades, people are left with a baseline reality they never truly connected to, so it feels flat or even unpleasant.
 					- The “sweet imagination” being annihilated, leaving only the “bitter reality”, people feel jaded, bored, sated.
 				- Liberation
-					- Avoiding expectation, accepting reality, not clinging to the superficial forms, enjoying the deep content, refraining from imagination, we won't be jaded or sick of anything.
+					- By avoiding expectation, accepting reality, not clinging to the superficial forms, enjoying the deep content, refraining from imagination, we won't be jaded or sick of anything.
 					- By avoiding expectation and refraining from imaginative projection, we will meet reality *as it is* from the start.
 					- Our joy will come from engaging with the **deep content**, which doesn’t wear out the way fantasies do.
 					- Presence keeps the experience “alive” because we’re always discovering, not measuring against a lost ideal.
