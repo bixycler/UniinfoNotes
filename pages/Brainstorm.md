@@ -34,8 +34,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- Wondering about my lack of jadedness, i saw the reason of people's jadedness.
+		- Jadedness' cause and way to liberate
+		  id:: 689c0223-5aeb-4196-a2bd-04aaf4e8770d
 		  collapsed:: true
+			- From [boredom](https://en.wikipedia.org/wiki/Boredom), pleasure and food cloyedness, to romantic disillusionment and even career burnout,
 			- Expectations & imginative images are the key of jadedness.
 				- Expectation as an imagination bubble
 					- People pre-load experiences with an imagined flavour based on signs (appearance, reputation, first impression).
