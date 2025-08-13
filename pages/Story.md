@@ -3504,7 +3504,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- [Smart Auto Move](https://github.com/khimaros/smart-auto-move) extension of GNOME has been disabled after a system update.
 					- Oh, the whole `Extensions` is switched off ⇒ Just switch this on, then the Smart Auto Move extension is on, too.
-				- After 20:00, `git1.lan.skygate.co.jp` suddenly lost DNS `A` records, no matter how i `dig `
+				- After 20:00, `git1.lan.skygate.co.jp` suddenly lost DNS `A` records, no matter how i `dig` `mgmt-gitlab-*.amazonaws.com` 😯
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
