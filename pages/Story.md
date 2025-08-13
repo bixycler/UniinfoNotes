@@ -3502,6 +3502,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 13th, ...
 			  collapsed:: true
 				- [Smart Auto Move](https://github.com/khimaros/smart-auto-move) extension of GNOME has been disabled after a system update.
+					- Oh, the whole `Extensions` is switched off ⇒ Just switch this on, then the Smart Auto Move extension is on, too.
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
