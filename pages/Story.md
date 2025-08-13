@@ -3501,7 +3501,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 12th, a day focusing on company's work.
 			  collapsed:: true
 				- Wondering about my lack of jadedness, i saw the reason of people's jadedness.
-					-
+				  collapsed:: true
+					- Expectations & imginative images are the key of jadedness
+						- Expectation as an imagination bubble
+							- People pre-load experiences with an imagined flavour based on signs (appearance, reputation, first impression).
+							- The early enjoyment is partly *self-generated fantasy*, not reality-based content.
+						- Reality’s slow reveal
+							- As the real texture of the thing emerges – the *actual* taste of the food, the *actual* rhythm of the work – it inevitably differs from the fantasy.
+							- This difference erodes the imagined sweetness.
+						- The emotional crash = jadedness
+							- Once the imagined pleasure fades, people are left with a baseline reality they never truly connected to, so it feels flat or even unpleasant.
+							- The “sweet imagination” being annihilated, leaving only the “bitter reality”, people feel jaded, bored, sated.
+						- Liberation
+							-
+							- By avoiding expectation and refraining from imaginative projection, we will meet reality *as it is* from the start.
+							- Our joy will come from engaging with the **deep content**, which doesn’t wear out the way fantasies do.
+							- Presence keeps the experience “alive” because you’re always discovering, not measuring against a lost ideal.
 					- Moderation:
 						- Not letting myself be fed up, i won't get sated.
 						- Avoiding satiety, i won't get sick of anything.
