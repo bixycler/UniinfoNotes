@@ -34,6 +34,26 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Wondering about my lack of jadedness, i saw the reason of people's jadedness.
+		  collapsed:: true
+			- Expectations & imginative images are the key of jadedness.
+				- Expectation as an imagination bubble
+					- People pre-load experiences with an imagined flavour based on signs (appearance, reputation, first impression).
+					- The early enjoyment is partly *self-generated fantasy*, not reality-based content.
+				- Reality’s slow reveal
+					- As the real texture of the thing emerges – the *actual* taste of the food, the *actual* rhythm of the work – it inevitably differs from the fantasy.
+					- This difference erodes the imagined sweetness.
+				- The emotional crash = jadedness
+					- Once the imagined pleasure fades, people are left with a baseline reality they never truly connected to, so it feels flat or even unpleasant.
+					- The “sweet imagination” being annihilated, leaving only the “bitter reality”, people feel jaded, bored, sated.
+				- Liberation
+					- Avoiding expectation, accepting reality, not clinging to the superficial forms, enjoying the deep content, refraining from imagination, we won't be jaded or sick of anything.
+					- By avoiding expectation and refraining from imaginative projection, we will meet reality *as it is* from the start.
+					- Our joy will come from engaging with the **deep content**, which doesn’t wear out the way fantasies do.
+					- Presence keeps the experience “alive” because we’re always discovering, not measuring against a lost ideal.
+			- Moderation is the way to avoid surfeit.
+				- Not letting ourselve be fed up, we won't get sated.
+				- Avoiding satiety, we won't get sick of anything.
 		- Passive & active obop
 		  id:: 68994c7c-695a-49db-aae6-e776186f6a85
 		  collapsed:: true
