@@ -7489,6 +7489,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  contains Electron's preferences: `devtools`, `spellcheck`, ...
 				- `Cookies`
 					- [?] can we add cookies, e.g. for YouTube login, here?!
+						- Issue [Youtube Embeds Are Not Working](https://github.com/logseq/logseq/issues/12031) with commit [fix: don't send cookie to youtube website on electron](https://github.com/logseq/logseq/commit/6ba561fb)
+							- Waiting for [version 0.10.13](https://github.com/logseq/logseq/releases/tag/0.10.13) to check this.
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  id:: 66faa5f9-9402-4889-8881-dbdc8f179a30
 		  collapsed:: true
