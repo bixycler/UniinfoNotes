@@ -2978,9 +2978,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2025-08-14 Thu 14:47:35]
 				  :END:
-					- This system update caused the Chrome issue [Dropdowns, tooltips etc. always render in top-left corner under Wayland](https://issues.chromium.org/issues/358041219), while Edge with the same version 139 doesn't have such issue.
+					- DONE This system update caused the Chrome issue [Dropdowns, tooltips etc. always render in top-left corner under Wayland](https://issues.chromium.org/issues/358041219), while Edge with the same version 139 doesn't have such issue.
+					  collapsed:: true
 						- Solution: add **command line** option `--ozone-platform=x11` to override the default `--ozone-platform=wayland`.
-							- Note that the flag `#ozone-platform-hint` ()
+							- Note that the flag `#ozone-platform-hint` (Preferred Ozone platform) setting has no effect (always `--ozone-platform=wayland`), because this preference is considered last:
+								- 1. **Check explicit CLI flags** (`--ozone-platform=...`) — these always override everything else.
+								- 2. **Check `XDG_SESSION_TYPE` and Wayland protocol availability** — if it sees `wayland` and ozone-wayland support is compiled in, it picks Wayland.
+								- 3. **Check the `#ozone-platform-hint` pref** — but only if no CLI override and the environment check doesn’t force Wayland.
 				- WAIT Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
 				  :LOGBOOK:
 				  CLOCK: [2025-05-27 Tue 14:39:27]
