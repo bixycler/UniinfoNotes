@@ -2982,9 +2982,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  collapsed:: true
 						- DONE Solution: add **command line** option `--ozone-platform=x11` to override the default `--ozone-platform=wayland`.
 							- Note that the flag `#ozone-platform-hint` (Preferred Ozone platform) setting has no effect (always `--ozone-platform=wayland`), because this preference is considered last:
+							  collapsed:: true
 								- 1. **Check explicit CLI flags** (`--ozone-platform=...`) — these always override everything else.
 								- 2. **Check `XDG_SESSION_TYPE` and Wayland protocol availability** — if it sees `wayland` and ozone-wayland support is compiled in, it picks Wayland.
 								- 3. **Check the `#ozone-platform-hint` pref** — but only if no CLI override and the environment check doesn’t force Wayland.
+						- Screenshots
+							- Most tooltips are shown on the top-left corner
+							  ![Wayland-tooltip-NG.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-tooltip-NG.png)
+							- Some dropdown menus are shown on the top-left corner, e.g. DevTools > Network > Throttling
+							  ![Wayland-dropdown-NG.png](../assets/Wayland-dropdown-NG_1755171623308_0.png)
+							- Some dropdown menus are still shown correctly, e.g. DevTools > Network > More Filters
+							  ![Wayland-dropdown-OK.png](../assets/Wayland-dropdown-OK_1755171841240_0.png)
+							-
 				- WAIT Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
 				  :LOGBOOK:
 				  CLOCK: [2025-05-27 Tue 14:39:27]
