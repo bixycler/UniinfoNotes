@@ -2980,7 +2980,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 					- DONE This system update caused the Chrome issue [Dropdowns, tooltips etc. always render in top-left corner under Wayland](https://issues.chromium.org/issues/358041219), while Edge with the same version 139 doesn't have such issue.
 					  collapsed:: true
-						- Solution: add **command line** option `--ozone-platform=x11` to override the default `--ozone-platform=wayland`.
+						- DONE Solution: add **command line** option `--ozone-platform=x11` to override the default `--ozone-platform=wayland`.
 							- Note that the flag `#ozone-platform-hint` (Preferred Ozone platform) setting has no effect (always `--ozone-platform=wayland`), because this preference is considered last:
 								- 1. **Check explicit CLI flags** (`--ozone-platform=...`) — these always override everything else.
 								- 2. **Check `XDG_SESSION_TYPE` and Wayland protocol availability** — if it sees `wayland` and ozone-wayland support is compiled in, it picks Wayland.
