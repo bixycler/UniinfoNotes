@@ -2974,6 +2974,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- They have been **unupdatable** long before.
 				- To prevent the annoying prompt for update (while unupdatable), i ((66c7f42e-5c00-435a-8d30-fe8210c4adf6)) in Chrome.
 			- Seems that it's caused by my actions to prevent Ubuntu's auto-update last year.
+				- With manual system update, i.e. `sudo apt upgrade`, Chrome has been updated to [version 139.0.7258.127](https://chromereleases.googleblog.com/2025/08/stable-channel-update-for-desktop_12.html) (August 2025), and MS Edge to [version 139.0.3405.86](https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=38daeebf-eb95-40f7-8396-89751156de66).
 				- WAIT Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
 				  :LOGBOOK:
 				  CLOCK: [2025-05-27 Tue 14:39:27]
