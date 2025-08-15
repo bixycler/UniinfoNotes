@@ -3523,13 +3523,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [ilovehim.mnbtm.ir](https://t.me/proxy?server=ilovehim.mnbtm.ir&port=45&secret=ee845a84551675092139db3da9d5b2ff4d696c6f766568696d2e6d6e62746d2e6972): پروکسی وتوییت persian (Persian proxy and tweet): network service vendor
 			- 12th, a day focusing on company's work. Wondering about my lack of jadedness, i saw the reason [why people get jaded](((689c0223-5aeb-4196-a2bd-04aaf4e8770d))).
 			  collapsed:: true
-			- 13th, ...
+			- 13-14th, got more involved in the company's work, thanks to meeting and interaction with colleagues.
 			  collapsed:: true
 				- [Smart Auto Move](https://github.com/khimaros/smart-auto-move) extension of GNOME has been disabled after a system update.
 					- Oh, the whole `Extensions` is switched off ⇒ Just switch this on, then the Smart Auto Move extension is on, too.
 				- After 20:00 (Aug 13), `git1.lan.skygate.co.jp` suddenly lost DNS `A` records, no matter how i `dig` `mgmt-gitlab-*.amazonaws.com` 😯
 				  id:: 689c9111-0ca8-4268-911b-79588a4f5e30
 					- Today (Aug 14), the `A` records appear again after `dig`ging `mgmt-gitlab-*.amazonaws.com`. Don't know why!
+				- At lunchtime, i realized that my intent of my involvement in the current work in the company project was “proving the correctness of my idea”, then i release it.
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
