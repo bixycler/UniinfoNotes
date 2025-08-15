@@ -4666,7 +4666,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
 				- Conscious intention vs. latent/dormant intent in the unconscious
 				  id:: 686ce608-1a1b-4b57-993a-fe8e943dc916
-					- In Unïnfo, ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) must be conscious, and the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic, as well as the “laten/dormant intent” ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), falls out of the scope of “intention” and into the general meaning of “intent”.
+					- In Unïnfo, ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) must be **conscious**, while the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic, as well as the “laten/dormant intent” ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), falls out of the scope of “intention” and into the general meaning of “intent”.
 					- The **latent intent** is just an *intention in the past*, which has sunk under the conscious surface, leaving only a tendency as its [“antenna”](https://en.wikipedia.org/wiki/Antenna_(zoology)) on the consciousness.
 					  id:: 686e096b-d730-4d9e-ae58-4ca2cf7b93aa
 						- Antenna = sensitive hair = tendency = ((66e42d39-a296-4ed9-a686-4cb213783830)) = ${\vec v}/|v|$ = distortion = deviation from the roundness, from the uniform

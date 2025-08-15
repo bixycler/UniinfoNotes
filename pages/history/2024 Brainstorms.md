@@ -606,13 +606,13 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- Read more
 				- [manasikāra](https://en.wikipedia.org/wiki/Manasik%C4%81ra) (attention, tác ý, chú ý, chú tâm) is related to cetanā.
 				- [Nghiệp & tự do ý chí](https://giacngo.vn/nghiep-tu-do-y-chi-post37265.html)
-		- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the dormant intent, the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
+		- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the [dormant intent](((686ce608-1a1b-4b57-993a-fe8e943dc916))), the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
 		  id:: 66e80666-5f29-4419-8db1-bf8cdce893e4
 			- This anusayā-cetanā is the ((fa0b2bc6-05ac-418f-9a86-17635936a656)), the obop of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 				- > Give, and it will be given to you.
 				  
 				  -- Luke 6:38
-			- The anusayā is accumulated and works in the unconsciousness, hence cannot be controlled directly. So, the only way to change karma (fruit) is via intention which is right in our consciousness.
+			- The anusayā is accumulated and works in the unconscious, hence cannot be controlled directly. So, the only way to change karma (fruit) is via intention which is right in our consciousness.
 				- We can indirectly change anusayā by the intention of cleansing it.
 			- > It’s not what happens to you, but how you react to it that matters.
 			  
