@@ -2092,7 +2092,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  > All things are preceded by the mind (mental karma),
 							  surpassed by the mind, created by the mind.
 								- The first 2 verses of the Dhammapada state the leading role of the mind over everything else.
-								- The “mind (mano)” here refers to its active aspect, i.e. mental karma,
+								- The “mind (mano)” here [refers to its active aspect](https://suttacentral.net/dhp1-20/en/sujato), i.e. mental karma, which is itself preceded by intention (cetanā).
+									- The central role of intention is also stressed by the associated [story of Cakkhupāla](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html), given in the comentary Dhammapada-aṭṭhakathā.
 							- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
 							  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
 								- This sutta explains the karmic chain from intentional seed to its fruits by examples.
