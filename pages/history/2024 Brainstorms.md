@@ -612,13 +612,16 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- Ethical meaning: unintentional actions are innocent!
 			  id:: 689eba59-b9e6-401b-9162-90d364911261
 				- The moral of the innocence of unintentional actions is reflected both in criminal law (lack of [mens rea](https://en.wikipedia.org/wiki/Mens_rea)), and in the Buddhist [story of Cakkhupāla](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html) (Guardian of the Eye) which is the explanatory story for the first verse of [Dhammapada](https://suttacentral.net/dhp1-20/en/sujato).
-				- Warning: Don't fall in to the *Delusion of No-Malice Exemption*
+				- Warning: Don't fall in to the ((689ed9d5-817a-4269-bd02-503f56e32e09)).
 		- **Intent-Only Fallacy**
 		  id:: 689ed6c2-2071-40c9-ac7d-64858153a391
 		  “If I don’t intend to do it, I won’t face the consequences!”
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((689ed9d5-817a-4269-bd02-503f56e32e09))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Misunderstanding the depth of karmic storage, people usually conflate karma with current intentions, forgetting the past intentions.
 			- **Delusion of No-Malice Exemption**
 			  id:: 689ed9d5-817a-4269-bd02-503f56e32e09
+			  “Because i didn't mean to harm, i shouldn't be blamed!” 
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((689ed6c2-2071-40c9-ac7d-64858153a391))
 		- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư/思](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
 		  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
 		  collapsed:: true
