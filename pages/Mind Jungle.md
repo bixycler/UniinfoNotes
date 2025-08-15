@@ -1247,7 +1247,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=521&h=482)
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- I don't use the term “final cause” because 
+					- I don't use the term “final cause” because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
 					  collapsed:: true
 					  1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 
 					  2) throughout the never ending cycle of effect, it will never be “final”.
@@ -3933,11 +3933,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
 							- ChatGPT:
 							  > The horizon is not a place to reach, but a shift in seeing — when the seeker vanishes, the path and goal are one.
-								- Regarding
+								- Regarding the [“final cause” (telos) by Aristotle](https://en.wikipedia.org/wiki/Four_causes#Final):
 								  > + The “horizon” is a **conceptual placeholder** for liberation until one’s perspective changes.
 								  > + Once the shift happens, the horizon is no longer “over there” but present at every step — the loop closes.
-									- The disciple sees the as a fixed telos.
-									- The master transforms the *final cause* into something more like your **cyclic intentional cause**, where the end folds back into the beginning.
+									- The disciple sees the goal as a fixed telos.
+									- The master transforms the goal into a dynamic and cyclic ((677e76ed-b324-4608-b146-90e8fcfa0c32)), where the end folds back into the beginning.
 							- Will:
 							  > Just keep going!
 					- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
