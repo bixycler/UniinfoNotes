@@ -1236,6 +1236,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
+			  collapsed:: true
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
@@ -1246,8 +1247,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=521&h=482)
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- I don't use the term “final cause” because 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 2) throughout the never ending cycle of effect, it will never be “final”.
+					- I don't use the term “final cause” because 
 					  collapsed:: true
+					  1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 
+					  2) throughout the never ending cycle of effect, it will never be “final”.
 						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
 						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -2071,7 +2074,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- [Nghiệp & tự do ý chí](https://giacngo.vn/nghiep-tu-do-y-chi-post37265.html)
 						- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the [dormant intent](((686ce608-1a1b-4b57-993a-fe8e943dc916))), the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
 						  id:: 66e80666-5f29-4419-8db1-bf8cdce893e4
-							- This anusayā-cetanā is the ((fa0b2bc6-05ac-418f-9a86-17635936a656)), the obop of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+							- This anusayā·cetanā is the obop at the apex of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)), which is the central part of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
 								- > Give, and it will be given to you.
 								  
 								  -- Luke 6:38
