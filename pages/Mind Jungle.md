@@ -1445,7 +1445,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
 							- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
 						- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
-				- DOING ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) = ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a view into a ((667d162c-16cf-44d3-81a5-29b1b885164f)) = compression = phase distinction in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) winding
+				- WAIT ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) = ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a view into a ((667d162c-16cf-44d3-81a5-29b1b885164f)) = compression = phase distinction in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) winding
 				  id:: 671b29b6-68f7-47e1-b79c-f4d6284690a2
 				  collapsed:: true
 				  :LOGBOOK:
@@ -1464,6 +1464,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): the world at the cone base is projected to its image at the cone apex.
+					- A two-way projection within a double cone is called ((68908fbd-acc3-41a6-8c38-17ee1f014223)).
 			- #### wrapping projection
 			  id:: 670cdcb4-3c85-45af-8c30-3c3284ed37df
 			  :LOGBOOK:
