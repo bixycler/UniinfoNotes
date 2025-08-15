@@ -2067,7 +2067,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 689ed6c2-2071-40c9-ac7d-64858153a391
 						  “If I don’t intend to do it, I won’t face the consequences!”
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((689ed9d5-817a-4269-bd02-503f56e32e09))
-							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Misunderstanding the depth of karmic storage, people usually conflate karma with current intentions, forgetting the past intentions, leading to the ((689ed6c2-2071-40c9-ac7d-64858153a391)). This fallacy omits the [anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))
+							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Misunderstanding the depth of karmic storage, people usually conflate karma with current intentions, forgetting the past intentions, leading to the ((689ed6c2-2071-40c9-ac7d-64858153a391)). This fallacy omits the laten tendencies ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), which are the impression of the past intentions, from the karmic causes.
 							- **Delusion of No-Malice Exemption**
 							  id:: 689ed9d5-817a-4269-bd02-503f56e32e09
 							  “Because i didn't mean to harm, i shouldn't be blamed!” 
