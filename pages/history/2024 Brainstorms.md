@@ -441,15 +441,14 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- {{embed ((66b1cfa3-e6c4-405c-9475-2186078a811d))}}
 			- In centralized system, the intensional awareness is represented by a real observer like the head, the heart, the leader, the king, etc.
 			- In distributed system, the intensional awareness is shared by all components.
-		- **“awareness = equal” is the duality of the** ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
+		- **“awareness = equalization” is the duality of the** ((94e87dc9-71af-477c-aa70-0f448c2f1e20))
 		  id:: 66f29d57-a87f-4370-9f32-722922a7bff1
 		  :LOGBOOK:
 		  CLOCK: [2024-09-25 Wed 20:34:45]
 		  :END:
 			- observer = center of perspective/information for awareness thanks to wholeness: only at the center the whole image of the object/world can be drawn.
 				- Each whole image is a frame in the film that the observer watch.
-			- operator = life force = center of balance for stability & existence: without a center, the body will be decomposed due to imbalance.
-			- This duality is also the [anusayā-cetanā junction](((66e80666-5f29-4419-8db1-bf8cdce893e4))) in the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+			- operator = life force = center of balance for stability (equalization) & existence: without a center, the body will be decomposed due to imbalance.
 			- obop is a [topological defect](https://en.wikipedia.org/wiki/Topological_defect): obop point = [singularity](https://en.wikipedia.org/wiki/Singularity_(mathematics)), obop circle = soliton
 			  id:: 67f4eae9-34ed-4303-8dc0-8320a5fa6dd2
 				- |eye soliton| = quantum -> [abstraction](((66f40baf-1aca-40b7-828c-71d6f15f23fe))) = action
