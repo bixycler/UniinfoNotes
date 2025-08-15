@@ -2060,7 +2060,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- However, remember that we've accumulated lots of old seeds through past intentions in the past (lives), so that we can avoid the ((689ed6c2-2071-40c9-ac7d-64858153a391)).
 							- Ethical meaning: *unintentional actions are innocent!*
 							  id:: 689eba59-b9e6-401b-9162-90d364911261
-								- The moral of the innocence of unintentional actions is reflected both in criminal law (lack of [mens rea](https://en.wikipedia.org/wiki/Mens_rea)), and in the Buddhist [story of Cakkhupāla](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html) (Guardian of the Eye) which is the explanatory story for the first verse of [Dhammapada](https://suttacentral.net/dhp1-20/en/sujato).
+								- The moral of the innocence of unintentional actions is reflected both in criminal law (lack of [mens rea](https://en.wikipedia.org/wiki/Mens_rea)), and in the Buddhist [story of Cakkhupāla Thera](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html) (Guardian of the Eye) which is the explanatory story for the first verse of [Dhammapada](https://suttacentral.net/dhp1-20/en/sujato).
 								- Warning: Don't fall in to the ((689ed9d5-817a-4269-bd02-503f56e32e09)).
 						- **Intent-Only Fallacy**
 						  id:: 689ed6c2-2071-40c9-ac7d-64858153a391
@@ -2087,13 +2087,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
 							  id:: 684f951b-9d1d-43aa-a533-c122c3113b5b
 							  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetanā)), I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
-								- This sutta explains the penetrative analysis of 6 factors of human life and correspondent way of liberation. There, the 5th factor is “karma” which is defined by “intention”.
+								- This sutta explains the penetrative analysis of 6 factors of human life and correspondent way of liberation. There, the 5th factor is “karma” which is defined as “intention”.
 							- Minor Discourses > Minor Collection > Sayings of the Dhamma (Dhammapada) > 1. [Pairs](https://suttacentral.net/dhp1-20/en/suddhaso)
 							  > All things are preceded by the mind (mental karma),
 							  surpassed by the mind, created by the mind.
 								- The first 2 verses of the Dhammapada state the leading role of the mind over everything else.
 								- The “mind (mano)” here [refers to its active aspect](https://suttacentral.net/dhp1-20/en/sujato), i.e. mental karma, which is itself preceded by intention (cetanā).
-									- The central role of intention is also stressed by the associated [story of Cakkhupāla](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html), given in the comentary Dhammapada-aṭṭhakathā.
+									- The central role of intention is also stressed by the associated [story of Cakkhupāla Thera](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html), given in the comentary Dhammapada-aṭṭhakathā.
 							- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
 							  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
 								- This sutta explains the karmic chain from intentional seed to its fruits by examples.
