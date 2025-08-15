@@ -2036,7 +2036,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), i.e. intent cone > obop < action cone.
 					- Note: Unlike the infinite cause–effect double cone, the intent–action double cone has finite bases, which are ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) on the intent side, and ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base on the action side.
-					- Actually, this double cone folds back on itself to be a single cone and is modularized into layers of obops in the intent chain.
+					- Actually, this double cone folds back on itself to be a single cone and is modularized into layers of obops in the chain of active intents.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus ((66727858-979d-4d95-8a90-7a749218cfba)) in karma
 					  id:: 66e7d7dd-5f88-472c-8694-beb7222929bb
@@ -2142,8 +2142,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  > On the Buddhist path, our intention deepens into commitment and then into vow. At that point, our intentions and our life become one.
 			- cause–effect mirror circles
 			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the circular ((6851578b-9b1f-4367-878f-79b0b0b9be51)), where the base of the effect cone folds back to be the base of the cause cone, forming the external ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the external world. The external effect circle contacts various internal effect circles through the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)).
-					- connecting the external world with the internal world (knowledge cone) through the intent–action double cone. This is the mirroring mechanism between the external and internal worlds.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the circular ((6851578b-9b1f-4367-878f-79b0b0b9be51)), where the base of the effect cone folds back to be the base of the cause cone, forming the external ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the external world. The external effect circle contacts various internal effect circles through the intent–action double cone, which is modularized into layers of obops in the chain of active intents. This is the mirroring mechanism between the external world and internal world (knowledge cone).
 					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base ) > external world
 		- Mutual exclusiveness
 		  collapsed:: true
