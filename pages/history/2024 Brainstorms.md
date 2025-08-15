@@ -602,7 +602,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetanā)) I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
 		- This narrowing down of “karma” from “action” to “intention” has twofold meaning.
 			- Ethical meaning:
-			- Truth meaning:
+			- Truthful meaning: intention actively creates new seeds, whereas old seeds ripen in fruits to be received passively through not only experiences but also actions.
+				- while action looks “active” (obviously!),
 		- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư/思](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
 		  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
 		  collapsed:: true
