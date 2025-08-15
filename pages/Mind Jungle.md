@@ -2042,8 +2042,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  CLOCK: [2024-09-16 Mon 17:47:14]
 					  :END:
 						- The word “karma” originally meant “action”, but has been used [in Buddhism](https://en.wikipedia.org/wiki/Karma_in_Buddhism) mainly as ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)).
-							- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
-							  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetanā)) I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
+						  {{embed ((684f951b-9d1d-43aa-a533-c122c3113b5b))}}
 							- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư/思](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
 							  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
 							  collapsed:: true
@@ -2085,6 +2084,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  -- Epictetus
 						- Suttas about ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) ([anusayā]cetanā)
 						  collapsed:: true
+							- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
+							  id:: 684f951b-9d1d-43aa-a533-c122c3113b5b
+							  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetanā)) I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
+								- This sutta shows the penetrative explanation of 6
 							- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
 							  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
 								- This sutta explains the karmic chain from intentional seed to its fruits by examples.
