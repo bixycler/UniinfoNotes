@@ -601,9 +601,15 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
 			  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetanā)) I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
 		- This narrowing down of “karma” from “action” to “intention” has twofold meaning.
-			- Ethical meaning:
 			- Truthful meaning: intention actively creates new seeds, whereas old seeds ripen in fruits to be received passively through not only experiences but also actions.
-				- while action looks “active” (obviously!),
+				- While action looks “active” (obviously!), it's only active externally.
+				- Internally, action is generated automatically by the combination of
+					- the conscious intention (cetanā, current new seed) and
+					- the unconscious tendencies (anusayā, old seeds) and
+					- the external condition.
+				- Deep inside, only the intention can be controlled actively by the subject, hence its role in the [ethic](((689eba59-b9e6-401b-9162-90d364911261))).
+			- Ethical meaning:
+			  id:: 689eba59-b9e6-401b-9162-90d364911261
 		- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư/思](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
 		  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
 		  collapsed:: true
