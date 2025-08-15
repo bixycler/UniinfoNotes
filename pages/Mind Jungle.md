@@ -2088,6 +2088,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  id:: 684f951b-9d1d-43aa-a533-c122c3113b5b
 							  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetanā)), I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
 								- This sutta explains the penetrative analysis of 6 factors of human life and correspondent way of liberation. There, the 5th factor is “karma” which is defined by “intention”.
+							- Minor Discourses > 1. Minor Collection > 63. Sayings of the Dhamma (Dhammapada) > 1. [Pairs](https://suttacentral.net/dhp1-20/en/suddhaso)
+							  > All things are preceded by the mind,
+							  surpassed by the mind, created by the mind.
 							- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
 							  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
 								- This sutta explains the karmic chain from intentional seed to its fruits by examples.
