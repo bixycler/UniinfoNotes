@@ -597,9 +597,12 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 	  :LOGBOOK:
 	  CLOCK: [2024-09-16 Mon 17:47:14]
 	  :END:
-		- The word "karma" originally meant "action", but has been used [in Buddhism](https://en.wikipedia.org/wiki/Karma_in_Buddhism) mainly as "intention".
+		- The word “karma” originally meant “action”, but has been used [in Buddhism](https://en.wikipedia.org/wiki/Karma_in_Buddhism) mainly as “intention”.
 			- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
 			  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetanā)) I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
+		- This narrowing down of “karma” from “action” to “intention” has twofold meaning.
+			- Ethical meaning:
+			- Truth meaning:
 		- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư/思](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
 		  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
 		  collapsed:: true
