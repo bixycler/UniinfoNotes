@@ -1463,6 +1463,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-10-15 Tue 09:38:46]
 			  :END:
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed))
+			  ((676545b3-2d9f-43af-8ff0-3543dbe73159))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): the world at the cone base is projected to its image at the cone apex.
 					- A two-way projection within a double cone is called ((68908fbd-acc3-41a6-8c38-17ee1f014223)).
 			- #### wrapping projection
@@ -1471,6 +1472,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-10-14 Mon 16:04:06]
 			  :END:
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67ee3a68-db55-49a9-947a-9399b4c3e3fa))
+			  ((676545e8-429c-41e7-97ed-12cc8e8870d4))
 				- pipe wrapping
 				  id:: 67ee3a68-db55-49a9-947a-9399b4c3e3fa
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
@@ -1486,8 +1488,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-12-20 Fri 18:21:59]
 			  :END:
+			  ((67654618-70d2-49cd-88b7-f7c4e161dfd9))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
-				- ((67654618-70d2-49cd-88b7-f7c4e161dfd9))
 		- ### observation
 		  id:: 66c835e9-83df-4f36-a133-e5ba5926e4ef
 		  collapsed:: true
@@ -4308,10 +4310,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-12-20 Fri 18:22:22]
 		  :END:
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((676550af-8792-4eef-afd7-ae0d949d78a4))
+		  circle ((67654ecb-896a-4421-95e5-f72c07fc62a4))
 			- extent abstraction
 			  id:: 676550af-8792-4eef-afd7-ae0d949d78a4
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67654618-70d2-49cd-88b7-f7c4e161dfd9))
-			- circle ((67654ecb-896a-4421-95e5-f72c07fc62a4))
 			- ω-expansion = circle unwinding = multiply with extext
 		- ### φ-abstraction
 		  id:: 676545e8-429c-41e7-97ed-12cc8e8870d4
@@ -4319,10 +4321,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-12-20 Fri 18:22:29]
 		  :END:
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((676550e5-6420-425a-97a8-33e5c4a5963e))
+		  pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
 			- phase abstraction
 			  id:: 676550e5-6420-425a-97a8-33e5c4a5963e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((676545e8-429c-41e7-97ed-12cc8e8870d4))
-			- pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
 			- rounding = abstracting remainder, leaving quotient (extent) & denominator (intent)
 			- φ-extension = add phase refinement (remainder/denominator) to extent
 		- ### ε-abstraction
@@ -4331,10 +4333,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-12-20 Fri 18:22:34]
 		  :END:
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67655101-067d-45ab-9943-49e209af44d7))
+		  ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
 			- intent abstraction
 			  id:: 67655101-067d-45ab-9943-49e209af44d7
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((676545b3-2d9f-43af-8ff0-3543dbe73159))
-			- ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
 			- ε-expansion = cone action = multiply with intent
 	- ## concretization
 	  id:: 68932036-e868-4468-a891-70cdf09ea904
