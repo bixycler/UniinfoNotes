@@ -610,7 +610,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 				- Deep inside, only the intention can be controlled actively by the subject, hence its role in the [ethic](((689eba59-b9e6-401b-9162-90d364911261))).
 			- Ethical meaning: unintentional actions are innocent!
 			  id:: 689eba59-b9e6-401b-9162-90d364911261
-				- The moral of the innocence of unintentional actions is reflected both in criminal law (lack of mens rea), and in the Buddhist [story of Cakkhupāla](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html) (Guardian of the Eye) which is the explanatory story for the first verse of [Dhammapada](https://suttacentral.net/dhp1-20/en/sujato).
+				- The moral of the innocence of unintentional actions is reflected both in criminal law (lack of [mens rea](https://en.wikipedia.org/wiki/Mens_rea)), and in the Buddhist [story of Cakkhupāla](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html) (Guardian of the Eye) which is the explanatory story for the first verse of [Dhammapada](https://suttacentral.net/dhp1-20/en/sujato).
+				-
 		- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư/思](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
 		  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
 		  collapsed:: true
