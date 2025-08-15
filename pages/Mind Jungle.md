@@ -2083,7 +2083,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- > It’s not what happens to you, but how you react to it that matters.
 							  
 							  -- Epictetus
-						- 3 suttas named "Intention" (Cetanā)
+						- Suttas about ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) ([anusayā]cetanā)
 						  collapsed:: true
 							- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
 							  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
