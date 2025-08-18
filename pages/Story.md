@@ -3531,7 +3531,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 689c9111-0ca8-4268-911b-79588a4f5e30
 					- Today (Aug 14), the `A` records appear again after `dig`ging `mgmt-gitlab-*.amazonaws.com`. Don't know why!
 				- At lunchtime, i realized that my intent of my involvement in the current work in the company project was “proving the correctness of my idea”, then i release it.
-			- 16-17th weekends, thinking in meditation: the thought is brought before the (internal) eye, so it loses its control power.
+			- 16-17th weekends, thinking in ((68a2a2b1-4565-401d-80ee-9c412b97da35)): the thought is brought before the (internal) eye, so it loses its control power.
 			  collapsed:: true
 			  :LOGBOOK:
 			  CLOCK: [2025-08-18 Mon 07:57:59]

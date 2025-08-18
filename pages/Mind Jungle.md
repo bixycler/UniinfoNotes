@@ -4056,6 +4056,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  #+END_QUOTE
 							- From 2015, ((68a2a2b1-4565-401d-80ee-9c412b97da35)) has been the only state (in the rūpa-realm) that i've been practicing and advancing deeper into.
 							  id:: 68a27d18-3504-4376-a3f4-7223d632b253
+							  :LOGBOOK:
+							  CLOCK: [2025-08-18 Mon 11:20:22]
+							  :END:
 								- August 2015, [Cảnh Nội–Ngoại Thực tại Hiện tiền](https://www.facebook.com/lexuandinhct/posts/pfbid02a9AdxeN8uNhonvWfks3iyFsZhoy1ymNV91mucthCBM7ub3DZVxd8fBfFSXuyENQNl)
 								- April 2019, [signatures of the In–Ex Presence](https://www.facebook.com/lexuandinhct/posts/pfbid02Fc6tCM7cC8WPy2sQZA7gmrZEGWCrPPVsUW8WjuFuWjrepNDQqaeF6DTjbQz2s8k1l)
 								- Semptember 2021, [presence of mind](https://www.facebook.com/lexuandinhct/posts/pfbid0qwzAe2dCABiCK9QAL1whEbdUFA8go3piFDSj3BstGJD6HHzUCFpZduSLYxa9gQkCl)
