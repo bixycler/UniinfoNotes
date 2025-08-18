@@ -2059,7 +2059,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- the unconscious tendencies ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4))), old seeds) and
 									- the external condition.
 								- Deep inside, only the intention can be controlled actively by the subject, hence its role in the [ethic](((689eba59-b9e6-401b-9162-90d364911261))).
-								- However, remember that we've accumulated lots of old seeds through past intentions in the past (lives), so that we can avoid the ((689ed6c2-2071-40c9-ac7d-64858153a391)).
+								- However, remember that we've [accumulated lots of old seeds](((68a29127-ae47-424a-8197-f34f77b7d7f9))) through past intentions in the past (lives) into our structure of body-mind, so that we can avoid the ((689ed6c2-2071-40c9-ac7d-64858153a391)).
 							- Ethical meaning: *unintentional actions are innocent!*
 							  id:: 689eba59-b9e6-401b-9162-90d364911261
 								- The moral of the innocence of unintentional actions is reflected both in criminal law (lack of [mens rea](https://en.wikipedia.org/wiki/Mens_rea)), and in the Buddhist [story of Cakkhupāla Thera](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html) (Guardian of the Eye) which is the explanatory story for the first verse of [Dhammapada](https://suttacentral.net/dhp1-20/en/sujato).
@@ -2068,7 +2068,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 689ed6c2-2071-40c9-ac7d-64858153a391
 						  “If I don’t intend to do it, I won’t face the consequences!”
 						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((689ed9d5-817a-4269-bd02-503f56e32e09))
-							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Misunderstanding the depth of karmic storage, people usually conflate karma with current intentions, forgetting the past intentions, leading to the ((689ed6c2-2071-40c9-ac7d-64858153a391)). This fallacy omits the laten tendencies ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), which are the impression of the past intentions, from the karmic causes.
+							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Misunderstanding the depth of karmic storage, people usually conflate karma with current intentions, forgetting the past intentions in the [old karmas](((68a29127-ae47-424a-8197-f34f77b7d7f9))), leading to the ((689ed6c2-2071-40c9-ac7d-64858153a391)). This fallacy omits the laten tendencies ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), which are the impression of the past intentions, from the karmic causes.
 							- **Delusion of No-Malice Exemption**
 							  id:: 689ed9d5-817a-4269-bd02-503f56e32e09
 							  “Because i didn't mean to harm, i shouldn't be blamed!” 
@@ -2100,11 +2100,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
 								- This sutta explains the karmic chain from intentional seed to its fruits by examples.
 							- Linked Discourses on the Six Sense Fields > The First Fifty > Impermanence > 35.146. [The Cessation of Deeds (Karmas)](https://suttacentral.net/sn35.146/en/sujato) (35.145. [Kamma Sutta](https://www.dhammatalks.org/suttas/SN/SN35_145.html))
+							  id:: 68a29127-ae47-424a-8197-f34f77b7d7f9
 							  #+BEGIN_QUOTE
-							  And what is old deeds (karmas)? The eye/ear/nose/tongue/body/mind is old deeds. It should be seen as produced by choices and intentions, as something to be felt.
-							  And what is new deeds (karmas)? The deeds you currently perform by way of body, speech, and mind.
+							  And what is **old deeds** (karmas)? The eye/ear/nose/tongue/body/mind is old deeds. It should be seen as produced by choices and intentions, as something to be felt.
+							  And what is **new deeds** (karmas)? The deeds you currently perform by way of body, speech, and mind.
 							  #+END_QUOTE
-								- This sutta clarifies the old karmas, which have been accumulated into the body-mind, versus the new karmas which are current action with
+								- This sutta clarifies the old karmas, which have been accumulated into the body-mind, versus the new karmas which are current actions with intention.
 							- Numbered Discourses > 18. Intention > 4.171. [Intention](https://suttacentral.net/an4.171/en/sujato)
 							  > + Mendicants, as long as there’s a body, the intention that gives rise to bodily action causes pleasure and pain to arise in oneself. ... But these only apply when conditioned by ignorance.
 							  > + By oneself one *makes the choice* that gives rise to bodily, verbal, and mental action, conditioned by which that pleasure and pain arise in oneself. ...
