@@ -7637,9 +7637,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [?] can we add cookies, e.g. for YouTube login, here?!
 						- Issue [Youtube Embeds Are Not Working](https://github.com/logseq/logseq/issues/12031) with commit [fix: don't send cookie to youtube website on electron](https://github.com/logseq/logseq/commit/6ba561fb)
 							- [Version 0.10.13](https://github.com/logseq/logseq/releases/tag/0.10.13) still has the error: ((68a2d52c-0a16-4214-8004-123babd4b841))
-							- Test Youtube clip: still error with `Sign in to confirm you’re not a bot`
-							  id:: 68a2d52c-0a16-4214-8004-123babd4b841
-							  {{video https://youtu.be/LNcOw-8Ho9M}}
+							- That means this issue is different from the "YouTube login" issue.
+						- Test Youtube clip: error when play: `Sign in to confirm you’re not a bot`
+						  id:: 68a2d52c-0a16-4214-8004-123babd4b841
+						  {{video https://youtu.be/LNcOw-8Ho9M}}
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  id:: 66faa5f9-9402-4889-8881-dbdc8f179a30
 		  collapsed:: true
