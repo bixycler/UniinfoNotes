@@ -4053,7 +4053,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  "Hơi thở đâu? Hơi thở đâu? Hơi thở đâu rồi?"
 									  Nhưng mấy hôm nay mình cũng tập được một thói quen mới là ngay sau khi tỉnh dậy thì tự hỏi như thế (vì nếu đã tỉnh thiệt thì phải thấy hơi thở chứ!) ... May là mình với tầm mắt (bên trong) bám được vào hơi thở, thế là mọi thứ bỗng rõ ràng trở lại, tiếng chim hót, tiếng sột soạt bên ngoài quay về rõ mồn một. Tỉnh hẳn, mình mở mắt ngồi dậy cái một. Ra rửa mặt xong vô xếp mùng thì tâm mình kết nối với kinh nghiệm thiền buổi trưa hôm qua, chợt thốt lên mấy câu thơ (viết bên trên).
 									  #+END_QUOTE
-							- From 2015, is the only advancing deeper into Nội-Ngoại Thực tại Hiện tiền
+							- From 2015, In-Ex-Reality Present (cảnh Nội-Ngoại Thực tại Hiện tiền) is the only advancing deeper into
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Introspection
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
