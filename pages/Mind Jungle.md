@@ -4036,7 +4036,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								  > Xoay tánh nghe trở vào để nghe tự tánh của mình thì tánh đó trở thành đạo vô thượng, pháp (Nhĩ-căn) Viên-thông thật là như vậy.
 								  > Turn hearing back to hear self-nature; that nature leads to unsurpassed Way; Perfect Penetration – truly thus is it.
 							- In Buddhism, [sati sampajañña](https://en.wikipedia.org/wiki/Sampaja%C3%B1%C3%B1a) (mindful introspection, mindfulness and clear comprehension, 正念[與]正知, chánh niệm [và] tỉnh giác) is the way to look behind the eyes.
-							- I uttered a poem years ago about “quay vào quán sát bên trong” at the beginning of my [“formal practice of meditation”](https://creatzynotes.blogspot.com/2014/12/lan-au-ngoi-thien-nghiem-tuc-xep-bang.html).
+							- I uttered a poem years ago about “turn inward to observe the inside” at the beginning of my [“formal practice of meditation”](https://creatzynotes.blogspot.com/2014/12/lan-au-ngoi-thien-nghiem-tuc-xep-bang.html).
 								- > Khi mắt đà chán ngán cảnh xung quanh,
 								  Tai không còn hứng thú với thanh trần,
 								  Ta quay vào quán sát bên trong
@@ -4046,6 +4046,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  "Hơi thở đâu? Hơi thở đâu? Hơi thở đâu rồi?"
 									  Nhưng mấy hôm nay mình cũng tập được một thói quen mới là ngay sau khi tỉnh dậy thì tự hỏi như thế (vì nếu đã tỉnh thiệt thì phải thấy hơi thở chứ!) ... May là mình với tầm mắt (bên trong) bám được vào hơi thở, thế là mọi thứ bỗng rõ ràng trở lại, tiếng chim hót, tiếng sột soạt bên ngoài quay về rõ mồn một. Tỉnh hẳn, mình mở mắt ngồi dậy cái một. Ra rửa mặt xong vô xếp mùng thì tâm mình kết nối với kinh nghiệm thiền buổi trưa hôm qua, chợt thốt lên mấy câu thơ (viết bên trên).
 									  #+END_QUOTE
+							-
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Introspection
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
