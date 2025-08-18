@@ -7642,9 +7642,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  {{video https://youtu.be/PvFr36bcpYc}}
 							- With `youtube` tag
 							  {{youtube https://youtu.be/PvFr36bcpYc}}
+						- The sign-in requirement seems to be launched by YouTube from 2024 to prevent all VPN from watching YouTube without login.
 						- [YouTube authentication for embedded videos?](https://discuss.logseq.com/t/youtube-authentication-for-embedded-videos/6696)
 							- This one requests authentication cookies for YouTube Premium only, while saying that he can play the embedded video with ads.
-							- Why can't i play the embedded video 🤔?!
 						- Issue [Youtube Embeds Are Not Working](https://github.com/logseq/logseq/issues/12031) with commit [fix: don't send cookie to youtube website on electron](https://github.com/logseq/logseq/commit/6ba561fb)
 							- [Version 0.10.13](https://github.com/logseq/logseq/releases/tag/0.10.13) still has the error: ((68a2d52c-0a16-4214-8004-123babd4b841))
 							- That means this issue is different from the "YouTube login" issue.
