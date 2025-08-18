@@ -4078,8 +4078,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((68a2a2cd-fb87-4485-b1cb-3cde54af8f2a)) is where both internal reality (active intents, thoughts, internal working of the body-mind) and external reality (rūpa-realm) are *present in front of the eye* [equally](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))). Being brought before the (internal) eye, the [hidden boss](((68884a49-8edc-4518-842c-ef3b6197c430))) is revealed and stripped off of its control power.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- ((68a27d18-3504-4376-a3f4-7223d632b253))
-						- Present = Hiện tiền = [pratyakṣa](https://en.wikipedia.org/wiki/Pramana#Pratyak%E1%B9%A3a) ([प्रत्यक्ष](https://sanskritdictionary.com/pratyak%E1%B9%A3a/10589/2)): [“present”](https://en.wiktionary.org/wiki/present) = “pre-” + “est” = (bring something to) be in front of (some one, some eye)
-							- pratyakṣa = prati- (pre-) + akṣa (eye)
+						- Present = hiện tiền = [pratyakṣa](https://en.wikipedia.org/wiki/Pramana#Pratyak%E1%B9%A3a) ([प्रत्यक्ष](https://sanskritdictionary.com/pratyak%E1%B9%A3a/10589/2)): [“present”](https://en.wiktionary.org/wiki/present) = “pre-” + “est” = (bring something to) be in front of (some one, some eye)
+							- pratyakṣa = “prati-” (pre-) + “akṣa” (eye [of an elephant], sense organ in general)
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
 			  :LOGBOOK:
