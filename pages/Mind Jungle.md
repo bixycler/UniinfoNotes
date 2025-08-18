@@ -657,6 +657,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
 		- ### representative
 		  id:: 6732cf13-5b1b-499d-80ec-4c5b407e9cc5
+		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) may have different individual parts, called ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s, representing the whole to manage different groups of individual parts. The whole interacts with a specific group of parts through the representative of that group with the ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)).
 				- The ((66ab7477-c060-4d07-ab13-bc3d11246854)) is a special representative which lies at the [base](((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))) of the tree of representatives.
 					- In society, the center is called by many names: “king, master, boss, president, head, ...”
@@ -664,6 +665,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- Physical laws in physical world.
 				- People's representatives in society.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((684f9518-6f65-4534-b296-184d3df8dd6b))
 			- #### Representative Rule
 			  id:: 6732cf59-2785-4c8b-9fb3-5bee5d1a2f31
 			  A ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) is an _abstraction_ of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) which represents the whole to govern the parts.
@@ -4073,6 +4076,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((68a2a2cd-fb87-4485-b1cb-3cde54af8f2a)) is where both internal reality (active intents, thoughts, internal working of the body-mind) and external reality (rūpa-realm) are *present in front of the eye* [equally](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))). Being brought before the (internal) eye, the [hidden boss](((68884a49-8edc-4518-842c-ef3b6197c430))) is revealed and stripped off of its control power.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- ((68a27d18-3504-4376-a3f4-7223d632b253))
+						- Present = Hiện tiền: [“present”](https://en.wiktionary.org/wiki/present) = “pre-” + “est” = (bring something to) be in front of (some one, some eye)
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
 			  :LOGBOOK:
