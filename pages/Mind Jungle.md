@@ -7637,7 +7637,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [?] can we add cookies, e.g. for YouTube login, here?!
 						- Test Youtube clip: error when play: `Sign in to confirm you’re not a bot`
 						  id:: 68a2d52c-0a16-4214-8004-123babd4b841
-						  {{video https://youtu.be/LNcOw-8Ho9M}}
+						  {{youtube https://youtu.be/PvFr36bcpYc}}
 						- [YouTube authentication for embedded videos?](https://discuss.logseq.com/t/youtube-authentication-for-embedded-videos/6696)
 							- This one requests authentication cookies for YouTube Premium only, while saying that he can play the embedded video with ads.
 							- Why can't i play the embedded video 🤔?!
