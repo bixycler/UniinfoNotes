@@ -3531,6 +3531,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 689c9111-0ca8-4268-911b-79588a4f5e30
 					- Today (Aug 14), the `A` records appear again after `dig`ging `mgmt-gitlab-*.amazonaws.com`. Don't know why!
 				- At lunchtime, i realized that my intent of my involvement in the current work in the company project was “proving the correctness of my idea”, then i release it.
+			- 16-17th weekends, thinking in meditation: the thought is brought before the (internal) eye, so it loses its control power.
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-08-18 Mon 07:57:59]
+			  :END:
+				- Bringing intents to the front is harder, but much easier than in eyes open situations.
+				- I tried this technique years ago but not very successful... until now.
+					- Today's success mainly thanks to the awareness of the driving intents.
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:

@@ -1,6 +1,25 @@
-## 2025 Mind Chips
-id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
-collapsed:: true
+- ”intended” has a general meaning parallel with “intent”, as shown with the intent cone: “to direct attention to and focus on a target within the subject”
+  collapsed:: true
+	- to direct inward/toward: to direct one's mind or heading inward or toward a target; to aim; to purpose (connotations 1, 2 & 7 in [Wiktionary](https://en.wiktionary.org/wiki/intend))
+		- This connotation is about the arrow along the axis of the intent cone pointing to the apex.
+	- to focus inward: to intensify, to condense, to strengthen (connotations 5 & 6 in Wiktionary)
+		- This connotation is about the shape of the intent cone narrowing toward the apex.
+- Cone: “intending infinitely inward” ∥ “extending infinitely outward”
+  collapsed:: true
+	- Illustration with projective geometry: The road ahead, no matter inside or outside, is seen narrowing toward a “point at horizon”, which is an ideal point at infinity.
+	- Outward, the road narrows toward a visual vanishing point on the skyline.
+	- Inward, the intent cone narrows toward a mental vanishing point on the “horizon within”.
+	- Both are perspectival infinities: finite to the eye, boundless in the journey.
+- Intentional cause in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
+  collapsed:: true
+	- Problem/question is the absence of the result/answer.
+		- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
+	- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
+	- The intentional cause is “final” in the cause cone, but “first” in the effect cone.
+	- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
+- ## 2025 Mind Chips
+  id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
+  collapsed:: true
 	- Tân Chánh Hiệp → Trung Mỹ Tây
 	  collapsed:: true
 	  :LOGBOOK:
