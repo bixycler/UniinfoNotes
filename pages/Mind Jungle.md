@@ -4069,7 +4069,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Unified Presence of Inner–Outer Reality
 				  id:: 68a2a2cd-fb87-4485-b1cb-3cde54af8f2a
 				  Vietnamese: Nội–Ngoại Thực tại Hiện tiền
-				  Chinese: 内外実在現前
+				  Chinese: 内外實在現前
 				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a2a2b1-4565-401d-80ee-9c412b97da35))
 					- In–Ex Presence
 					  id:: 68a2a2b1-4565-401d-80ee-9c412b97da35
