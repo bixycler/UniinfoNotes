@@ -4053,11 +4053,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									  "Hơi thở đâu? Hơi thở đâu? Hơi thở đâu rồi?"
 									  Nhưng mấy hôm nay mình cũng tập được một thói quen mới là ngay sau khi tỉnh dậy thì tự hỏi như thế (vì nếu đã tỉnh thiệt thì phải thấy hơi thở chứ!) ... May là mình với tầm mắt (bên trong) bám được vào hơi thở, thế là mọi thứ bỗng rõ ràng trở lại, tiếng chim hót, tiếng sột soạt bên ngoài quay về rõ mồn một. Tỉnh hẳn, mình mở mắt ngồi dậy cái một. Ra rửa mặt xong vô xếp mùng thì tâm mình kết nối với kinh nghiệm thiền buổi trưa hôm qua, chợt thốt lên mấy câu thơ (viết bên trên).
 									  #+END_QUOTE
-							- From 2015, In–Ex Presence (Nội–Ngoại Hiện tiền) has been the only state (in the rūpa-realm) that i've been practicing and advancing deeper into.
+							- From 2015, ((68a2a2b1-4565-401d-80ee-9c412b97da35)) has been the only state (in the rūpa-realm) that i've been practicing and advancing deeper into.
+							  id:: 68a27d18-3504-4376-a3f4-7223d632b253
 								- August 2015, [Cảnh Nội–Ngoại Thực tại Hiện tiền](https://www.facebook.com/lexuandinhct/posts/pfbid02a9AdxeN8uNhonvWfks3iyFsZhoy1ymNV91mucthCBM7ub3DZVxd8fBfFSXuyENQNl)
 								- April 2019, [signatures of the In–Ex Presence](https://www.facebook.com/lexuandinhct/posts/pfbid02Fc6tCM7cC8WPy2sQZA7gmrZEGWCrPPVsUW8WjuFuWjrepNDQqaeF6DTjbQz2s8k1l)
 								- Semptember 2021, [presence of mind](https://www.facebook.com/lexuandinhct/posts/pfbid0qwzAe2dCABiCK9QAL1whEbdUFA8go3piFDSj3BstGJD6HHzUCFpZduSLYxa9gQkCl)
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Introspection
+				- Unified Presence of Inner–Outer Reality
+				  id:: 68a2a2cd-fb87-4485-b1cb-3cde54af8f2a
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a2a2b1-4565-401d-80ee-9c412b97da35))
+					- In–Ex Presence
+					  id:: 68a2a2b1-4565-401d-80ee-9c412b97da35
+					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a2a2cd-fb87-4485-b1cb-3cde54af8f2a)) 
+					  Vietnamese: Nội–Ngoại Hiện tiền
+					-
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- ((68a27d18-3504-4376-a3f4-7223d632b253))
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
 			  :LOGBOOK:
