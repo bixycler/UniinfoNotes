@@ -4067,7 +4067,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 68a2a2b1-4565-401d-80ee-9c412b97da35
 					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a2a2cd-fb87-4485-b1cb-3cde54af8f2a)) 
 					  Vietnamese: Nội–Ngoại Hiện tiền
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((68a2a2cd-fb87-4485-b1cb-3cde54af8f2a)) is where both internal reality (active intents, thoughts, internal working of the body-mind) and external reality (rūpa-realm) are *present in front of the eye* [equally](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))). Being brought before the eye, the [hidden boss](((68884a49-8edc-4518-842c-ef3b6197c430))) is revealed and
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((68a2a2cd-fb87-4485-b1cb-3cde54af8f2a)) is where both internal reality (active intents, thoughts, internal working of the body-mind) and external reality (rūpa-realm) are *present in front of the eye* [equally](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))). Being brought before the (internal) eye, the [hidden boss](((68884a49-8edc-4518-842c-ef3b6197c430))) is revealed and stripped off of its control power.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- ((68a27d18-3504-4376-a3f4-7223d632b253))
 			- ### purify
