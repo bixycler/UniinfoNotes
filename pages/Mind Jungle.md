@@ -3370,7 +3370,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- This double dot mark denotes neither [vowel hiatus (diaeresis)](https://en.wikipedia.org/wiki/Vowel_hiatus) nor [umlaut](https://en.wikipedia.org/wiki/Umlaut_(diacritic)).
 					- This double dot mark is used, in place of the IPA notation (ː) and the [macron](https://en.wikipedia.org/wiki/Macron_(diacritic)), to denote the [long vowel](https://en.wikipedia.org/wiki/Vowel_length#Diacritics) similar to its usage in [Aymara](https://en.wikipedia.org/wiki/Aymara_language) and [Ligurian](https://en.wikipedia.org/wiki/Ligurian_language).
 					- The ‘i’ with double dot mark (ï) denotes the unification of the two letters ‘ii’, hence its unified pronunciation /ˈjuːniːnfoʊ/ in stead of the separate one /ˈjuːnɪˌɪnfoʊ/.
-						- For the ease of typing on keyboard, the separate spelling “Uniinfo” is also used.
+						- For the ease of typing on keyboard, the separate spelling “Uniinfo” is also used casually in place of the formal spelling “Unïnfo”.
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) is the umbrella term for both the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), as the theoretical aspect, and the ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Nuance: Even though the name “Universal Information” alludes to the idea that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
