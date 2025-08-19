@@ -2990,12 +2990,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Most tooltips are shown on the top-left corner.
 							  ![Wayland-tooltip-NG.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-tooltip-NG.png)
 							- Some dropdown menus are shown on the top-left corner, e.g. DevTools > Network > Throttling
-							  ![Wayland-dropdown-NG.png](../assets/Wayland-dropdown-NG_1755171623308_0.png)
+							  ![Wayland-dropdown-NG.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-dropdown-NG.png)
 							- Some dropdown menus are still shown correctly, e.g. DevTools > Network > More Filters
-							  ![Wayland-dropdown-OK.png](../assets/Wayland-dropdown-OK_1755171841240_0.png)
+							  ![Wayland-dropdown-OK.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-dropdown-OK.png)
 							- Corect layout with X11
 							  collapsed:: true
-								- ![Wayland-tooltip-OK.png](../assets/Wayland-tooltip-OK_1755172180501_0.png)
+								- ![Wayland-tooltip-OK.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-tooltip-OK.png)
 								- ![X11-dropdown-OK.png](../assets/GUI/Wayland/dropdown-topleft/X11-dropdown-OK.png)
 				- WAIT Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
 				  :LOGBOOK:
@@ -3541,12 +3541,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Today's success mainly thanks to the awareness of the driving intents.
 			- 19th,...
 			  collapsed:: true
-				- The two-strand rope model for the double-dotted i (ï) in “Unïnfo”
+				- The two-strand rope model for the [double-dotted i (ï)](((68a3ea54-f275-40b8-93ae-4a2bd8da4a06))) in “Unïnfo”
 					- Copilot has drawn an artistic clipart but it cannot modify it precisely (the main drawback of its creativity).
 						- ![double-dotted-i-sep.png](../assets/Will/story/2025-08/double-dotted-i-sep_copilot.png){:width 100}
 					- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
-						- $u$: strand curling around z-axis with radius r in xOy
-						- $v$: strand wall wrapping around its axis with radius 1
+						- $u$: phase of strand curling around z-axis with radius r in xOy
+							- $s(u)$: point of strand axis: $x = \cos(u); \; y = \sin(u); \; z = m⋅u$
+						- $v$: phase of strand wall wrapping around its axis with radius 1
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
