@@ -3539,6 +3539,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Bringing intents to the front is harder, but much easier than in eyes open situations.
 				- I tried this technique years ago but not very successful... until now.
 					- Today's success mainly thanks to the awareness of the driving intents.
+			- 19th,...
+			  collapsed:: true
+				- The two-strand rope model for the double-dotted i (ï) in “Unïnfo”
+					-
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
