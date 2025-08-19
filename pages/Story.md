@@ -3546,7 +3546,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ![double-dotted-i-sep.png](../assets/Will/story/2025-08/double-dotted-i-sep_copilot.png){:width 100}
 					- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
 						- $u$: phase of strand curling around z-axis with radius r in xOy
-							- $s(u)$: point of strand axis: $x = \cos(u); \; y = \sin(u); \; z = m⋅u$
+							- $s(u)$: strand axis: $x = \cos(u); \; y = \sin(u); \; z = m⋅u$
 						- $v$: phase of strand wall wrapping around its axis with radius 1
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
