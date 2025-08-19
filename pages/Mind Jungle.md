@@ -3373,7 +3373,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The theory was named “Universal Information” simply because the author ((66536578-c4d3-43f1-b35c-bf71120f0570)) is an information scientist. At that time, he saw the hierarchy of visible matter as: mass > energy > information. That means “*every __visible__ thing is information.*”
 				- Later on, when studying the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory, he discovered the invisible ((687f322c-2334-46e5-816b-57889e5c6b89)) underlying the visible ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))s (information, energy, mass, charges, ...).
 				- That means, instead of “information”, the “universal substance underlying everything” is formally modeled as the  ((675c03d8-3185-41a8-9f98-e869fabec793)) and the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), which capture not only information but also _the underlying **sustent** that carries information_.
-	- ## Unïnfo Theory
+	- ## Unïnfo Theory
 	  id:: 669dfc9f-b5e2-448a-b6f4-be13c5bfbccb
 	  collapsed:: true
 	  The Theory of ((66537a41-f229-4891-803e-828573eb44f3))
@@ -3511,7 +3511,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  #+END_QUOTE 
 					  — [Chapter 11. The usage of the vacancy](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_11_(%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0)), Tao Te Ching
 				- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the physical spacetime as well as all informational spaces are “**vacant**” instead of “empty”. That means they are _spaces of **possibilities**, containing **potentials**_, instead of nothing.
-			- Grand Circle (◯) of Unïnfo
+			- Grand Circle (◯) of Unïnfo
 			  id:: 6772a6cd-771f-4f24-9c3a-39c442234be5
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Through [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), the Trinion transforms into various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of all beings in the Universe, extensionally. And intensionally, the Trinion is the Universe itself. Then through [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))), intensionally, every being is just the Trinion itself.
 					- ![GrandCircle](https://docs.google.com/drawings/d/1tVAf16aTCaIdMOOLwqFFA6dChUeUqAF14yav-y81JbE/pub?w=386&h=250)
