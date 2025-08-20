@@ -3582,6 +3582,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- That presumption is but an illusion! 😜 So, that normal trust is just a **false trust**.
 						- That means the **true trust** is to *accept the negative results from the trustee*.
 							- The necessity of trust
+							  collapsed:: true
 								- Existentially, because we are **finite** beings in an **uncertain** world.
 									- We never have complete knowledge.
 									- We never have full control.
@@ -3597,7 +3598,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- listen to a teacher, doctor, or friend,
 									- fall asleep while others are still awake,
 									- *love*.
-								-
+								- So **trust is not optional** – it’s the glue of life.
+									- It’s what the philosopher Annette Baier called *“the atmosphere of trust”* – like oxygen: unnoticed when present, suffocating when absent.
+										- #+BEGIN_QUOTE
+										  we inhabit a climate of trust as we inhabit an atmosphere and notice it as we notice air, only when it becomes scarce or polluted
+										  #+END_QUOTE
+										  — Baier 1986: 234
 							- The responsibility of truster
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
