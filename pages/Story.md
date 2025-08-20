@@ -3563,7 +3563,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Previously, i could only detect some vague feelings and deal with its energy (qi) without clear forms of intents.
 					- Holistic intents this time
 						- The holistic core prefers small circles for certainty & stability.
-						- Problem solving & question answering are preferred over task doing
+						- Problem solving & question answering are preferred over task execution
 							- because problems & questions are only gaps in the known (established & stable knowledge circle),
 							- while tasks are gaps in the unknown (the tasks assigner) ← i have no trust in the task issuer.
 								- The assigned tasks usually lack the deep “why”.
