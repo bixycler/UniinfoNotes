@@ -3582,6 +3582,22 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- That presumption is but an illusion! 😜 So, that normal trust is just a **false trust**.
 						- That means the **true trust** is to *accept the negative results from the trustee*.
 							- The necessity of trust
+								- Existentially, because we are **finite** beings in an **uncertain** world.
+									- We never have complete knowledge.
+									- We never have full control.
+									- We cannot verify everything ourselves.
+								- Trust is **how we cross the gaps** between:
+									- known and unknown,
+									- self and other,
+									- past and future,
+									- present and absent.
+								- If we didn’t trust *anything or anyone*, we couldn’t:
+									- drink a glass of water (do you test it yourself each time?),
+									- cross a bridge (do you inspect every beam?),
+									- listen to a teacher, doctor, or friend,
+									- fall asleep while others are still awake,
+									- *love*.
+								-
 							- The responsibility of truster
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
