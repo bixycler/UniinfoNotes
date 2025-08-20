@@ -152,7 +152,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  Đón gian khổ, chẳng lẩn đi,
 					  Dù cong dù thẳng, chẳng bì chẳng so.
 					  *Niềm tin trọn vẹn*, chẳng rò –
-					  Vững vàng tuyệt đối sống cho cõi đời.
+					  Vững vàng tuyệt đối há lo lắng gì.
 				- Names in Vietnamese
 					- Half trust: niềm tin nửa vời (bán tín bán nghi)
 					- Blind absolute trust: niềm tin tuyệt đối mù quáng
