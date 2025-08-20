@@ -3624,10 +3624,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- Actually, no one is responsible for your own life, but you yourself!
 							- Nuance: Don't confuse this “complete trust” with the common “absolute trust”.
 								- **Absolute trust**: Trust without limits, conditions, or doubt.
-									- Absolutenss usually means **blind reliance**: the truster yields all responsibility.
-									- Fragility: the truster collapses if the trustee fails.
-								- Complete trust: Trust that includes *both* the trustee’s role *and* the truster’s responsibility.
-									-
+									- Absoluteness usually means **blind reliance**: the truster yields all responsibility.
+									- **Fragility**: the truster collapses if the trustee fails.
+								- **Complete trust**: Trust that includes not only belief, reliance, but also self-responsibility.
+									- **Core feature:** Wholeness, balance, self-contained openness.
+									- **Strength:** Not destroyed by betrayal, because the truster doesn’t abandon self-responsibility.
+								- In short:
+									- Absolute trust is usually blind.
+									- Complete trust is clear-eyed.
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
 							- **Trust**: Relationship and **reliability**: **Reliance** on someone/something, with _confidence it won’t let you down_.
