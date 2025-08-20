@@ -3619,7 +3619,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- **Self-responsibility** is the key to make the trust grounded, deep, and strong.
 									- While normaly, the **half trust** is dependent on the trustee, cut off from the truster’s own responsibility.
 										- It’s like leaning on one leg and blaming the ground when you fall.
-									- **Complete trust** contains both poles: the openness toward the trustee *and* the self-responsibility of the truster. It’s whole, circular — nothing left out.
+										- It's fragile – collapses when unmet expectations surface.
+									- **Complete trust** contains both poles: the openness toward the trustee *and* the self-responsibility of the truster. It’s whole, stable, and strong.
 									- Actually, no one is responsible for your own life, but you yourself!
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
