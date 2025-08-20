@@ -3545,7 +3545,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Copilot has drawn an artistic clipart but it cannot modify it precisely (the main drawback of its creativity).
 						- ![double-dotted-i-sep.png](../assets/Will/story/2025-08/double-dotted-i-sep_copilot.png){:width 100}
 					- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
-						- $u$: phase of strand curling around z-axis with radius r in xOy
+						- $u$: phase of strand curling around z-axis with radius $R$ in xOy
+							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
+							-
 							- $s(u)$: strand axis: $x = \cos(u); \; y = \sin(u); \; z = m⋅u$
 						- $v$: phase of strand wall wrapping around its axis with radius 1
 		- Sound experiment with my đàn bầu.
