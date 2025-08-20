@@ -149,8 +149,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  Tre mềm đón bão chẳng nề ngả nghiêng.
 					  Niềm tin mắt sáng hiện nguyên,
 					  Tự mang trách nhiệm, chẳng phiền sợ chi.
-					  Đón rủi ro, chẳng lẩn đi,
-					  Uốn cong mà giữ, thở thì tự do.
+					  Đón gian khổ, chẳng lẩn đi,
+					  Dù cong dù thẳng, chẳng bì chẳng so.
 					  *Niềm tin trọn vẹn*, chẳng rò –
 					  Vững vàng tuyệt đối sống cho cõi đời.
 				- Names in Vietnamese
