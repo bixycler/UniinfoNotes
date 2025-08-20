@@ -3542,6 +3542,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 19th,...
 			  collapsed:: true
 				- The two-strand rope model for the [double-dotted i (ï)](((68a3ea54-f275-40b8-93ae-4a2bd8da4a06))) in “Unïnfo”
+				  collapsed:: true
 					- Copilot has drawn an artistic clipart but it cannot modify it precisely (the main drawback of its creativity).
 						- ![double-dotted-i-sep.png](../assets/Will/story/2025-08/double-dotted-i-sep_copilot.png){:width 100}
 					- n-strand rope structure
@@ -3556,6 +3557,45 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							-
 							- $s(u)$: strand axis: $x = \cos(u); \; y = \sin(u); \; z = m⋅u$
 						- $v$: phase of strand wall wrapping around its axis with radius 1
+				- First time directly handle intents in tantric practice
+				  collapsed:: true
+					- Tonight, with the combination of the constant monitoring of intents, the first time i spotted the active intents clearly and released them right in the tantric practice.
+						- Previously, i could only detect some vague feelings and deal with its energy (qi) without clear forms of intents.
+					- Holistic intents this time
+						- The holistic core prefers small circles for certainty & stability.
+						- Problem solving & question answering are preferred over task doing
+							- because problems & questions are only gaps in the known (established & stable knowledge circle),
+							- while tasks are gaps in the unknown (the tasks assigner) ← i have no trust in the task issuer.
+								- The assigned tasks usually lack the deep “why”.
+								- => Contemplating this lack of trust in people & system against my trust & faith in God (Nature, Universe, the Great, the One), i see ((68a53a70-3f35-497b-a610-703d8a6665e5))
+					- True faith/trust = accept the negative results
+					  id:: 68a53a70-3f35-497b-a610-703d8a6665e5
+						- Normally, people [trust a trustee](https://en.wikipedia.org/wiki/Trust_(social_science)) with the **presumption** that the trustee will act in ways that benefit the trustor.
+						- That presumption is but an illusion! 😜 So, that normal trust is just a **false trust**.
+						- That means the **true trust** is to accept the negative results from the trustee.
+				- Cross-Origin Resource Sharing ([CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS#requests_with_credentials)) with credentials (cookies) & redirect
+				  collapsed:: true
+					- To include credentials in request, use `fetch()` with `credentials = "include"`, or `XMLHttpRequest`.`withCredentials = true`.
+					- Credentialed requests and wildcards: When responding to a credentialed request, server must not specify the `*` wildcard for the following response headers:
+						- Access-Control-Allow-Origin
+						- Access-Control-Allow-Methods
+						- Access-Control-Allow-Headers
+						- Access-Control-Expose-Headers
+					- Third-party cookies
+						- if the user's browser is configured to reject all third-party cookies, the `Set-Cookie` header in the response by the server would not work.
+						- Cookie in the request may also be suppressed in normal third-party cookie policies.
+						- The enforced cookie policy may therefore nullify the capability described in this chapter, effectively preventing you from making **credentialed requests** whatsoever.
+					- Preflight requests and credentials
+						- CORS-preflight requests must never include credentials.
+						- The response to a preflight request must specify `Access-Control-Allow-Credentials: true` to indicate that the actual request can be made with credentials.
+					- Preflighted requests and redirects
+						- Not all browsers currently support following redirects after a preflighted request.
+						- => Avoid preflight, or do client-side redirect to `responseURL` responded from server.
+						- However, if the request is one that triggers a preflight due to the presence of the `Authorization` header in the request, you won't be able to work around it at all unless you have control over the server the request is being made to.
+					- Simple versus preflight requests
+						- For cross-domain requests, setting the content type to anything other than `application/x-www-form-urlencoded`, `multipart/form-data`, or `text/plain` will trigger the browser to send a preflight `OPTIONS` request to the server.
+					- `jQuery.ajax()` with `crossDomain = true`
+						- If you wish to force a crossDomain request (such as JSONP) on the same domain, set the value of crossDomain to true. This allows, for example, **server-side redirection** to another domain.
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
