@@ -3580,14 +3580,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  id:: 68a53a70-3f35-497b-a610-703d8a6665e5
 					  collapsed:: true
 						- Normally, people [trust a trustee](https://en.wikipedia.org/wiki/Trust_(social_science)) with the **presumption** that the trustee will act in ways that benefit the trustor.
-						- That presumption is but an illusion! 😜 So, that normal trust is just a **false trust**.
+						- That presumption is but an illusion! 😜 So, that normal trust is just a *false trust*, i.e. **half trust**.
 							- When the [balance of responsibility](((68a566be-4e50-41d5-9213-bfb80178bc18))) and the [deep necessity](((68a5668e-77ba-4a93-948c-e6d91ce07011))) of trust aren't realized, trust degrades into either **blind dependence** or **bitter blame**.
 							  “I trusted you, so you must not fail me!”
-						- That means the **true trust** is to *accept the negative results from the trustee*.
+						- That means the **complete trust** – *true trust* – is to *accept the negative results from the trustee*.
 							- The **vulnerability** of trust is the _trade-off for [its connection](((68a5668e-77ba-4a93-948c-e6d91ce07011)))_.
 								- “I let you in. I **open** myself. I’m **willing to be affected** by you.”
-								- The vulnerability and negativity are not for distrust but for the completeness of the truster.
-								- By owning it, the truster transforms trust from expectation into choice, from illusion into reality.
+								- The vulnerability and negativity are not for distrust but for the **completeness** of the truster.
+								- By full acceptation, the truster transforms trust from expectation into **volitional choice**, from illusion into reality.
 							- The necessity of trust: connectivity & completeness
 							  id:: 68a5668e-77ba-4a93-948c-e6d91ce07011
 							  collapsed:: true
