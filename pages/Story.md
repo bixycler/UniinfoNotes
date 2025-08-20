@@ -3629,7 +3629,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- **Complete trust**: Trust that includes not only belief, reliance, but also self-responsibility.
 									- **Core feature:** Wholeness, balance, self-contained openness.
 									- **Strength:** Not destroyed by betrayal, because the truster doesn’t abandon self-responsibility.
-								- Because that usual “absolute trust” is still a false trust, 
+								- While that usual “absolute trust” is still a false trust, 
 								  the *truly absolute trust* is the **absolute complete trust**:
 								  #+BEGIN_QUOTE
 								  unconditional, independent from the trustee’s behavior
@@ -3637,9 +3637,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  #+END_QUOTE
 									- We can rely fully because we're standing fully on our own feet.
 								- In short:
-									- Half trust is
-									- Usual absolute trust is blind.
-									- Absolute complete trust is clear-eyed.
+									- Half trust is fragile.
+									- Usual absolute trust is brittle with blind rigidity.
+									- Absolute complete trust is resilient by prudence.
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
 							- **Trust**: Relationship and **reliability**: **Reliance** on someone/something, with _confidence it won’t let you down_.
