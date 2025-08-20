@@ -146,13 +146,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  Khô cứng mặt nạ một thời –
 					  *Niềm tin tuyệt đối mù* rơi bóng mờ.
 					- Rễ sâu bám đất đợi chờ,
-					  Tre mềm trước gió, bão giờ cũng nghiêng.
+					  Tre mềm đón bão chẳng nề ngả nghiêng.
 					  Niềm tin mắt sáng hiện nguyên,
 					  Tự mang trách nhiệm, chẳng phiền sợ chi.
 					  Đón rủi ro, chẳng lẩn đi,
 					  Uốn cong mà giữ, thở thì tự do.
-					  Niềm tin chẳng gãy, chẳng rò –
-					  *Trọn vẹn tuyệt đối* sống cho cõi đời.
+					  *Niềm tin trọn vẹn*, chẳng rò –
+					  Vững vàng tuyệt đối sống cho cõi đời.
 				- Names in Vietnamese
 					- Half trust: niềm tin nửa vời (bán tín bán nghi)
 					- Blind absolute trust: niềm tin tuyệt đối mù quáng
