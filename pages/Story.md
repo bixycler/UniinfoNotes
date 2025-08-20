@@ -3568,11 +3568,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- while tasks are gaps in the unknown (the tasks assigner) ← i have no trust in the task issuer.
 								- The assigned tasks usually lack the deep “why”.
 								- => Contemplating this lack of trust in people & system against my trust & faith in God (Nature, Universe, the Great, the One), i see ((68a53a70-3f35-497b-a610-703d8a6665e5))
-								- DOING The fact that i wondered if "task doing" is natural, then considered "task execution" but felt it a little technical, consulted ChatGPT and finally settled in "task work" for
-								  :LOGBOOK:
-								  CLOCK: [2025-08-20 Wed 11:08:37]
-								  CLOCK: [2025-08-20 Wed 11:08:42]
-								  :END:
+							- My deep consideration about a simple noun phrase for “task work” reflects my preference of question answering over just "writing it down".
+							  :LOGBOOK:
+							  CLOCK: [2025-08-20 Wed 11:08:37]
+							  CLOCK: [2025-08-20 Wed 11:08:42]--[2025-08-20 Wed 11:14:12] =>  00:05:30
+							  :END:
+								- After writting down "task doing" , i wondered if it's natural,
+								- then considered "task execution" but felt it a little technical,
+								- consulted ChatGPT and finally settled down with "task work" for a more casual tone.
 					- True faith/trust = accept the negative results
 					  id:: 68a53a70-3f35-497b-a610-703d8a6665e5
 						- Normally, people [trust a trustee](https://en.wikipedia.org/wiki/Trust_(social_science)) with the **presumption** that the trustee will act in ways that benefit the trustor.
