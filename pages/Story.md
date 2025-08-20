@@ -3578,6 +3578,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- consulted ChatGPT and finally settled down with "task work" for a more casual tone.
 					- True faith/trust = accept the negative results
 					  id:: 68a53a70-3f35-497b-a610-703d8a6665e5
+					  collapsed:: true
 						- Normally, people [trust a trustee](https://en.wikipedia.org/wiki/Trust_(social_science)) with the **presumption** that the trustee will act in ways that benefit the trustor.
 						- That presumption is but an illusion! 😜 So, that normal trust is just a **false trust**.
 							- When the [balance of responsibility](((68a566be-4e50-41d5-9213-bfb80178bc18))) and the [deep necessity](((68a5668e-77ba-4a93-948c-e6d91ce07011))) of trust aren't realized, trust degrades into either **blind dependence** or **bitter blame**.
@@ -3612,6 +3613,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The responsibility of truster – in balance with that of the trustee
 							  id:: 68a566be-4e50-41d5-9213-bfb80178bc18
 								- **The truster bears responsibility** for *choosing* to trust, for judging the risks, and for _accepting the **inherent vulnerability**_.
+									- Actually, no one is responsible for your own life, but you yourself!
+									-
 								- The **trustee** bears responsibility for *honouring* that trust, through care, integrity, and effort – but not for controlling every outcome.
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
