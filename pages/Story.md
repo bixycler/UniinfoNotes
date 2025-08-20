@@ -3581,9 +3581,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Normally, people [trust a trustee](https://en.wikipedia.org/wiki/Trust_(social_science)) with the **presumption** that the trustee will act in ways that benefit the trustor.
 						- That presumption is but an illusion! 😜 So, that normal trust is just a **false trust**.
 						- That means the **true trust** is to *accept the negative results from the trustee*.
-							- The necessity of trust
+							- The **vulnerability** of trust is the _trade-off for [its connection](((68a5668e-77ba-4a93-948c-e6d91ce07011)))_.
+								- “I let you in. I **open** myself. I’m **willing to be affected** by you.”
+							- The necessity of trust: connectivity & completeness
+							  id:: 68a5668e-77ba-4a93-948c-e6d91ce07011
 							  collapsed:: true
-								- Existentially, because we are **finite** beings in an **uncertain** world.
+								- Essentially, we must trust because we are **finite** beings in an **uncertain** world.
 									- We never have complete knowledge.
 									- We never have full control.
 									- We cannot verify everything ourselves.
