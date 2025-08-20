@@ -3574,14 +3574,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- That presumption is but an illusion! 😜 So, that normal trust is just a **false trust**.
 						- That means the **true trust** is to *accept the negative results from the trustee*.
 						- Belief → trust → faith
-							- **Belief**: **Holding** something to be **true**. Intellectual acceptance, a judgment about reality.
-							-
+							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
+							- **Trust**: Relationship and **reliability**: **Reliance** on someone/something, with _confidence it won’t let you down_.
+							- **Faith**: Deeper than belief, broader than trust. It mixes conviction, trust, commitment, usually with loyalty or devotion.
 							- While English splits *belief / trust / faith* into separate roots, Vietnamese folds them back into **one root “tin”** (信), then fans it out with qualifiers (*niềm, lòng, đức, cậy, nhiệm, thác*).
-								- **Belief** = “niềm **tin**” (plain cognitive assent)
-								- **Trust** = “tin **cậy**” (personal), “tín **nhiệm**” (social), “tín **thác**” (entrustment)
+								- **Belief**: “niềm **tin**” (plain cognitive assent)
+								- **Trust**: “tin **cậy**” (personal), “tín **nhiệm**” (social), “tín **thác**” (entrustment)
 									- **Tín thác** = *tín nhiệm* (confidence in) + *phó thác* (entrustment)
 									  Strong match for English *trust*, especially in the sense of “placing oneself in the care of another”.
-								- **Faith** = “**đức** tin” (virtue-elevated) / “**lòng** tin” (heart-deepened)
+								- **Faith**: “**lòng** tin” (heart-deepened), “**đức** tin” (virtue-elevated)
 				- Cross-Origin Resource Sharing ([CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS#requests_with_credentials)) with credentials (cookies) & redirect
 				  collapsed:: true
 					- To include credentials in request, use `fetch()` with `credentials = "include"`, or `XMLHttpRequest`.`withCredentials = true`.
