@@ -3539,7 +3539,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Bringing intents to the front is harder, but much easier than in eyes open situations.
 				- I tried this technique years ago but not very successful... until now.
 					- Today's success mainly thanks to the awareness of the driving intents.
-			- 19th,...
+			- 19th, a day with strong engagement in the official work which led to the ((68a595fd-6761-4b5e-aa64-1e3f0a1fc3be))
 			  collapsed:: true
 				- The two-strand rope model for the [double-dotted i (ï)](((68a3ea54-f275-40b8-93ae-4a2bd8da4a06))) in “Unïnfo”
 				  collapsed:: true
@@ -3558,6 +3558,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- $s(u)$: strand axis: $x = \cos(u); \; y = \sin(u); \; z = m⋅u$
 						- $v$: phase of strand wall wrapping around its axis with radius 1
 				- First time directly handle intents in tantric practice
+				  id:: 68a595fd-6761-4b5e-aa64-1e3f0a1fc3be
 				  collapsed:: true
 					- Tonight, with the combination of the constant monitoring of intents, the first time i spotted the active intents clearly and released them right in the tantric practice.
 						- Previously, i could only detect some vague feelings and deal with its energy (qi) without clear forms of intents.
@@ -3580,10 +3581,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- To include credentials in request, use `fetch()` with `credentials = "include"`, or `XMLHttpRequest`.`withCredentials = true`.
 					- Credentialed requests and wildcards: When responding to a credentialed request, server must not specify the `*` wildcard for the following response headers:
-						- Access-Control-Allow-Origin
-						- Access-Control-Allow-Methods
-						- Access-Control-Allow-Headers
-						- Access-Control-Expose-Headers
+						- `Access-Control-Allow-Origin`
+						- `Access-Control-Allow-Methods`
+						- `Access-Control-Allow-Headers`
+						- `Access-Control-Expose-Headers`
 					- Third-party cookies
 						- if the user's browser is configured to reject all third-party cookies, the `Set-Cookie` header in the response by the server would not work.
 						- Cookie in the request may also be suppressed in normal third-party cookie policies.
