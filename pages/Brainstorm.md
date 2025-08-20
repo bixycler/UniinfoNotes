@@ -48,8 +48,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  id:: 68a595fa-385c-49a7-820f-67aa9db632d5
 				- The **vulnerability** of trust is the _trade-off for [its connection](((68a5668e-77ba-4a93-948c-e6d91ce07011)))_.
 					- “I let you in. I **open** myself. I’m **willing to be affected** by you.”
-					- The vulnerability and negativity are not for distrust but for the **completeness** of the truster.
-					- By full acceptation, the truster transforms trust from expectation into **volitional choice**, from illusion into reality.
+					- The vulnerability and negativity are not for distrust but for the **completeness** of the trustor.
+					- By full acceptation, the trustor transforms trust from expectation into **volitional choice**, from illusion into reality.
 				- The necessity of trust: connectivity & completeness
 				  id:: 68a5668e-77ba-4a93-948c-e6d91ce07011
 				  collapsed:: true
@@ -74,24 +74,24 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							  we inhabit a climate of trust as we inhabit an atmosphere and notice it as we notice air, only when it becomes scarce or polluted
 							  #+END_QUOTE
 							  — Baier 1986: 234
-				- The responsibility of the truster – in balance with that of the trustee
+				- The responsibility of the trustor – in balance with that of the trustee
 				  id:: 68a566be-4e50-41d5-9213-bfb80178bc18
-					- **The truster bears responsibility** for *choosing* to trust, for judging the risks, and for _accepting the **inherent vulnerability**_.
+					- **The trustor bears responsibility** for *choosing* to trust, for judging the risks, and for _accepting the **inherent vulnerability**_.
 					- The **trustee** bears responsibility for *honouring* that trust, through care, integrity, and effort – but not for controlling every outcome.
 					- **Self-responsibility** is the key to make the trust grounded, deep, and strong.
-						- While normaly, the **half trust** is dependent on the trustee, cut off from the truster’s own responsibility.
+						- While normaly, the **half trust** is dependent on the trustee, cut off from the trustor’s own responsibility.
 							- It’s like leaning on one leg and blaming the ground when you fall.
 							- It's fragile – collapses when unmet expectations surface.
-						- **Complete trust** contains both poles: the openness toward the trustee *and* the self-responsibility of the truster. It’s whole, stable, and strong.
+						- **Complete trust** contains both poles: the openness toward the trustee *and* the self-responsibility of the trustor. It’s whole, stable, and strong.
 						- Actually, no one is responsible for your own life, but you yourself!
 				- Nuance: Don't confuse this “complete trust” with the common “absolute trust”.
 				  collapsed:: true
 					- **Absolute trust**: Trust without limits, conditions, or doubt.
-						- Absoluteness *usually* means **blind reliance**: the truster yields all responsibility.
-						- **Brittleness**: the truster collapses if the trustee fails.
+						- Absoluteness *usually* means **blind reliance**: the trustor yields all responsibility.
+						- **Brittleness**: the trustor collapses if the trustee fails.
 					- **Complete trust**: Trust that includes not only belief, reliance, but also self-responsibility.
 						- **Core feature:** Wholeness, balance, self-contained openness.
-						- **Resilience:** Not destroyed by betrayal, because the truster doesn’t abandon self-responsibility.
+						- **Resilience:** Not destroyed by betrayal, because the trustor doesn’t abandon self-responsibility.
 					- While that usual “absolute trust” is still a false trust, 
 					  the *truly absolute trust* is the **absolute complete trust**:
 					  #+BEGIN_QUOTE
@@ -138,7 +138,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
 				- **Trust**: Relationship and **reliability**: Reliance on someone/something with confidence
 					- The confidence is usually a belief that _“it won’t let me down”_.
-					- However, a [complete trust](((68a595fa-385c-49a7-820f-67aa9db632d5))) should base on the confidence of the truster about
+					- However, a [complete trust](((68a595fa-385c-49a7-820f-67aa9db632d5))) should base on the confidence of the trustor about its own acceptance
 				- **Faith**: Deeper than belief, broader than trust. It mixes conviction, trust, commitment, usually with loyalty or devotion.
 				- While English splits *belief / trust / faith* into separate roots, Vietnamese folds them back into **one root “tin”** (信), then fans it out with qualifiers (*niềm, lòng, đức, cậy, nhiệm, thác*).
 					- **Belief**: “niềm **tin**” (plain cognitive assent)
