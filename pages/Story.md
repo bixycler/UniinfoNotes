@@ -3586,6 +3586,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- That means the **true trust** is to *accept the negative results from the trustee*.
 							- The **vulnerability** of trust is the _trade-off for [its connection](((68a5668e-77ba-4a93-948c-e6d91ce07011)))_.
 								- “I let you in. I **open** myself. I’m **willing to be affected** by you.”
+								- The vulnerability and negativity are not for distrust but for the completeness of the truster.
+								- By owning it, the truster transforms trust from expectation into choice, from illusion into reality.
 							- The necessity of trust: connectivity & completeness
 							  id:: 68a5668e-77ba-4a93-948c-e6d91ce07011
 							  collapsed:: true
@@ -3614,7 +3616,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  id:: 68a566be-4e50-41d5-9213-bfb80178bc18
 								- **The truster bears responsibility** for *choosing* to trust, for judging the risks, and for _accepting the **inherent vulnerability**_.
 									- Actually, no one is responsible for your own life, but you yourself!
-									-
+									- self-responsibility
 								- The **trustee** bears responsibility for *honouring* that trust, through care, integrity, and effort – but not for controlling every outcome.
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
