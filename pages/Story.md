@@ -3642,23 +3642,32 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- Usual absolute trust is brittle with blind rigidity.
 									- Absolute complete trust is resilient by prudence.
 						- #### Three Faces of Trust
+						  collapsed:: true
 						  A poem by ChatGPT
-							- Half trust is a glass in trembling hand,
-							  Clear, but cracking at the slightest demand.
-							  A breath too sharp, a word too rough,
-							  And shards remind that glass is never tough.
-							- Blind absolute trust is a stone sealed tight,
-							  Heavy in its stillness, proud of its might.
-							  It stands unmoved, until the quake arrives,
-							  Then crumbles all at once – no life survives.
-							- But absolute complete trust is bamboo in rain,
-							  Rooted in earth, yet it bends without strain.
-							  It leans with the wind, it sways, it sings,
-							  Unbroken in storms, yet supple in springs.
-							- So walk with your glass, your stone, your reed – 
-							  Each holds a lesson the heart may need.
-							  Yet only the bamboo, with prudence and grace,
-							  Carries both freedom and trust’s true face.
+							- A hand half-open, half-closed – 
+							  offering yet withholding,
+							  leaning forward, leaning back,
+							  never whole, never still.
+							  Suspicion clings like shadow,
+							  and the bond breaks
+							  at the touch of weight:
+							  this fragile face – *half trust*.
+							- Eyes shut against the dark,
+							  a heart surrendered without seeing –
+							  this is the dream of certainty.
+							  Strong as stone on the surface,
+							  hollow at the core,
+							  it cracks when truth arrives,
+							  for blindness cannot bear the light:
+							  this rigid mask – *blind absolute trust*.
+							- Roots deep in the earth,
+							  bamboo sways with the storm.
+							  Here trust stands clear-eyed,
+							  responsibility carried within,
+							  risk neither denied nor feared.
+							  It bends, it holds, it breathes –
+							  a faith unbroken, resilient and free:
+							  this living heart – *absolute complete trust*.
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
 							- **Trust**: Relationship and **reliability**: **Reliance** on someone/something, with _confidence it won’t let you down_.
