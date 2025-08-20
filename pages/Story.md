@@ -3623,8 +3623,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- **Complete trust** contains both poles: the openness toward the trustee *and* the self-responsibility of the truster. It’s whole, stable, and strong.
 									- Actually, no one is responsible for your own life, but you yourself!
 							- Nuance: Don't confuse this “complete trust” with the common “absolute trust”.
+							  collapsed:: true
 								- **Absolute trust**: Trust without limits, conditions, or doubt.
-									- Absoluteness usually means **blind reliance**: the truster yields all responsibility.
+									- Absoluteness *usually* means **blind reliance**: the truster yields all responsibility.
 									- **Fragility**: the truster collapses if the trustee fails.
 								- **Complete trust**: Trust that includes not only belief, reliance, but also self-responsibility.
 									- **Core feature:** Wholeness, balance, self-contained openness.
@@ -3640,6 +3641,24 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- Half trust is fragile.
 									- Usual absolute trust is brittle with blind rigidity.
 									- Absolute complete trust is resilient by prudence.
+						- #### Three Faces of Trust
+						  A poem by ChatGPT
+							- Half trust is a glass in trembling hand,
+							  Clear, but cracking at the slightest demand.
+							  A breath too sharp, a word too rough,
+							  And shards remind that glass is never tough.
+							- Blind absolute trust is a stone sealed tight,
+							  Heavy in its stillness, proud of its might.
+							  It stands unmoved, until the quake arrives,
+							  Then crumbles all at once – no life survives.
+							- But absolute complete trust is bamboo in rain,
+							  Rooted in earth, yet it bends without strain.
+							  It leans with the wind, it sways, it sings,
+							  Unbroken in storms, yet supple in springs.
+							- So walk with your glass, your stone, your reed – 
+							  Each holds a lesson the heart may need.
+							  Yet only the bamboo, with prudence and grace,
+							  Carries both freedom and trust’s true face.
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
 							- **Trust**: Relationship and **reliability**: **Reliance** on someone/something, with _confidence it won’t let you down_.
