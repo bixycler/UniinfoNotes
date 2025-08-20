@@ -3612,12 +3612,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 										  we inhabit a climate of trust as we inhabit an atmosphere and notice it as we notice air, only when it becomes scarce or polluted
 										  #+END_QUOTE
 										  — Baier 1986: 234
-							- The responsibility of truster – in balance with that of the trustee
+							- The responsibility of the truster – in balance with that of the trustee
 							  id:: 68a566be-4e50-41d5-9213-bfb80178bc18
 								- **The truster bears responsibility** for *choosing* to trust, for judging the risks, and for _accepting the **inherent vulnerability**_.
-									- Actually, no one is responsible for your own life, but you yourself!
-									- self-responsibility
 								- The **trustee** bears responsibility for *honouring* that trust, through care, integrity, and effort – but not for controlling every outcome.
+								- **Self-responsibility** is the key to make the trust grounded, deep, and strong.
+									- While normaly, the **half trust** is dependent on the trustee, cut off from the truster’s own responsibility.
+										- It’s like leaning on one leg and blaming the ground when you fall.
+									- **Complete trust** contains both poles: the openness toward the trustee *and* the self-responsibility of the truster. It’s whole, circular — nothing left out.
+									- Actually, no one is responsible for your own life, but you yourself!
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
 							- **Trust**: Relationship and **reliability**: **Reliance** on someone/something, with _confidence it won’t let you down_.
