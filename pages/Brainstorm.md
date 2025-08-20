@@ -130,8 +130,29 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					  It bends, it holds, it breathes –
 					  a faith unbroken, resilient and free:
 					  this living heart – *absolute complete trust*.
-				- ### Ba Bộ Mặt của Tin
-					-
+				- ### Ba Bộ Mặt Của Tin
+					- Bàn tay nửa mở nửa khum,
+					  Cho mà giữ lại, ngập ngừng nghiêng lui.
+					  Nghi ngờ như bóng theo đuôi,
+					  Chỉ cần sức nặng, rã rời dây liên.
+					  Mỏng manh mặt ấy hiện lên –
+					  *Niềm tin dở nửa* chênh vênh cõi người.
+					- Nhắm mắt tránh tối mù vời,
+					  Trao tim phó thác, chẳng thời thấy chi.
+					  Mơ hồ giấc mộng chắc nghi,
+					  Ngoài thì vững chãi, ruột thì rỗng không.
+					  Sự thật đến, vỡ tan lòng,
+					  Mù lòa sao chịu ánh quang sáng ngời.
+					  Khô cứng mặt nạ một thời –
+					  *Niềm tin tuyệt đối mù* rơi bóng mờ.
+					- Rễ sâu bám đất đợi chờ,
+					  Tre mềm trước gió, bão giờ cũng nghiêng.
+					  Niềm tin mắt sáng hiện nguyên,
+					  Tự mang trách nhiệm, chẳng phiền sợ chi.
+					  Đón rủi ro, chẳng lẩn đi,
+					  Uốn cong mà giữ, thở thì tự do.
+					  Niềm tin chẳng gãy, chẳng rò –
+					  *Trọn vẹn tuyệt đối* sống cho cõi đời.
 				- Names in Vietnamese
 					- Half trust: niềm tin nửa vời (bán tín bán nghi)
 					- Blind absolute trust: niềm tin tuyệt đối mù quáng
