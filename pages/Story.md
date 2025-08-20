@@ -3581,6 +3581,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Normally, people [trust a trustee](https://en.wikipedia.org/wiki/Trust_(social_science)) with the **presumption** that the trustee will act in ways that benefit the trustor.
 						- That presumption is but an illusion! 😜 So, that normal trust is just a **false trust**.
 						- That means the **true trust** is to *accept the negative results from the trustee*.
+							- The necessity of trust
+							- The responsibility of truster
 						- Belief → trust → faith
 							- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
 							- **Trust**: Relationship and **reliability**: **Reliance** on someone/something, with _confidence it won’t let you down_.
