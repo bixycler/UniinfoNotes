@@ -3600,6 +3600,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- For cross-domain requests, setting the content type to anything other than `application/x-www-form-urlencoded`, `multipart/form-data`, or `text/plain` will trigger the browser to send a preflight `OPTIONS` request to the server.
 					- `jQuery.ajax()` with `crossDomain = true`
 						- If you wish to force a crossDomain request (such as JSONP) on the same domain, set the value of crossDomain to true. This allows, for example, **server-side redirection** to another domain.
+			- 20th, the whole day caught up with ((68a53a70-3f35-497b-a610-703d8a6665e5))
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
