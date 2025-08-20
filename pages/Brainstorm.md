@@ -129,9 +129,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  It bends, it holds, it breathes –
 				  a faith unbroken, resilient and free:
 				  this living heart – *absolute complete trust*.
+				- Names in Vietnamese
+					- Half trust: niềm tin nửa vời (bán tín bán nghi)
+					- Blind absolute trust: niềm tin tuyệt đối mù quáng
+					- Absolute complete trust: niềm tin trọn vẹn tuyệt đối
 			- Belief → trust → faith
 				- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
-				- **Trust**: Relationship and **reliability**: **Reliance** on someone/something, with _confidence it won’t let you down_.
+				- **Trust**: Relationship and **reliability**: **Reliance** on someone/something with _confidence it won’t let you down_.
 				- **Faith**: Deeper than belief, broader than trust. It mixes conviction, trust, commitment, usually with loyalty or devotion.
 				- While English splits *belief / trust / faith* into separate roots, Vietnamese folds them back into **one root “tin”** (信), then fans it out with qualifiers (*niềm, lòng, đức, cậy, nhiệm, thác*).
 					- **Belief**: “niềm **tin**” (plain cognitive assent)
