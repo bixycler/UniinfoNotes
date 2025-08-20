@@ -3544,6 +3544,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The two-strand rope model for the [double-dotted i (ï)](((68a3ea54-f275-40b8-93ae-4a2bd8da4a06))) in “Unïnfo”
 					- Copilot has drawn an artistic clipart but it cannot modify it precisely (the main drawback of its creativity).
 						- ![double-dotted-i-sep.png](../assets/Will/story/2025-08/double-dotted-i-sep_copilot.png){:width 100}
+					- n-strand rope structure
+						- Typical two-strand rope structure
+						  ![Typical-two-strand-rope-structure](../assets/Will/story/2025-08/Typical-two-strand-rope-structure-image-partly-adapted-from-Leech-10.png)
+						- Four-strand rope structure
+						  ![A-four-strand-rope-structure](../assets/Will/story/2025-08/A-four-strand-rope-structure-showing-the-yarns-and-their-cross-section.png)
+						- Ref: [ResearchGate](https://www.researchgate.net/figure/Typical-two-strand-rope-structure-image-partly-adapted-from-Leech-10_fig1_282862409)
 					- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
 						- $u$: phase of strand curling around z-axis with radius $R$ in xOy
 							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
