@@ -103,33 +103,35 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- Half trust is fragile.
 						- Usual absolute trust is brittle with blind rigidity.
 						- Absolute complete trust is resilient by prudence.
-			- #### Three Faces of Trust
+			- Poems by ChatGPT
 			  collapsed:: true
-			  A poem by ChatGPT
-				- A hand half-open, half-closed – 
-				  offering yet withholding,
-				  leaning forward, leaning back,
-				  never whole, never still.
-				  Suspicion clings like shadow,
-				  and the bond breaks
-				  at the touch of weight:
-				  this fragile face – *half trust*.
-				- Eyes shut against the dark,
-				  a heart surrendered without seeing –
-				  this is the dream of certainty.
-				  Strong as stone on the surface,
-				  hollow at the core,
-				  it cracks when truth arrives,
-				  for blindness cannot bear the light:
-				  this rigid mask – *blind absolute trust*.
-				- Roots deep in the earth,
-				  bamboo sways with the storm.
-				  Here trust stands clear-eyed,
-				  responsibility carried within,
-				  risk neither denied nor feared.
-				  It bends, it holds, it breathes –
-				  a faith unbroken, resilient and free:
-				  this living heart – *absolute complete trust*.
+				- #### Three Faces of Trust
+					- A hand half-open, half-closed – 
+					  offering yet withholding,
+					  leaning forward, leaning back,
+					  never whole, never still.
+					  Suspicion clings like shadow,
+					  and the bond breaks
+					  at the touch of weight:
+					  this fragile face – *half trust*.
+					- Eyes shut against the dark,
+					  a heart surrendered without seeing –
+					  this is the dream of certainty.
+					  Strong as stone on the surface,
+					  hollow at the core,
+					  it cracks when truth arrives,
+					  for blindness cannot bear the light:
+					  this rigid mask – *blind absolute trust*.
+					- Roots deep in the earth,
+					  bamboo sways with the storm.
+					  Here trust stands clear-eyed,
+					  responsibility carried within,
+					  risk neither denied nor feared.
+					  It bends, it holds, it breathes –
+					  a faith unbroken, resilient and free:
+					  this living heart – *absolute complete trust*.
+				- ### Ba Bộ Mặt của Tin
+					-
 				- Names in Vietnamese
 					- Half trust: niềm tin nửa vời (bán tín bán nghi)
 					- Blind absolute trust: niềm tin tuyệt đối mù quáng
