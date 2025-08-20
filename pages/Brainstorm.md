@@ -40,7 +40,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-08-20 Wed 16:07:17]
 		  :END:
-			- Normally, people [trust a trustee](https://en.wikipedia.org/wiki/Trust_(social_science)) with the **presumption** that the trustee will act in ways that benefit the trustor.
+			- Normally, people [trust a trustee](https://en.wikipedia.org/wiki/Trust_(social_science)) with the _**presumption** that the trustee will act in ways that benefit the trustor_.
 			- That presumption is but an illusion! 😜 So, that normal trust is just a *false trust*, i.e. **half trust**.
 				- When the [balance of responsibility](((68a566be-4e50-41d5-9213-bfb80178bc18))) and the [deep necessity](((68a5668e-77ba-4a93-948c-e6d91ce07011))) of trust aren't realized, trust degrades into either **blind dependence** or **bitter blame**.
 				  “I trusted you, so you must not fail me!”
@@ -87,10 +87,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				  collapsed:: true
 					- **Absolute trust**: Trust without limits, conditions, or doubt.
 						- Absoluteness *usually* means **blind reliance**: the truster yields all responsibility.
-						- **Fragility**: the truster collapses if the trustee fails.
+						- **Brittleness**: the truster collapses if the trustee fails.
 					- **Complete trust**: Trust that includes not only belief, reliance, but also self-responsibility.
 						- **Core feature:** Wholeness, balance, self-contained openness.
-						- **Strength:** Not destroyed by betrayal, because the truster doesn’t abandon self-responsibility.
+						- **Resilience:** Not destroyed by betrayal, because the truster doesn’t abandon self-responsibility.
 					- While that usual “absolute trust” is still a false trust, 
 					  the *truly absolute trust* is the **absolute complete trust**:
 					  #+BEGIN_QUOTE
