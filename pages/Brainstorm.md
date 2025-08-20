@@ -45,6 +45,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- When the [balance of responsibility](((68a566be-4e50-41d5-9213-bfb80178bc18))) and the [deep necessity](((68a5668e-77ba-4a93-948c-e6d91ce07011))) of trust aren't realized, trust degrades into either **blind dependence** or **bitter blame**.
 				  “I trusted you, so you must not fail me!”
 			- That means the **complete trust** – *true trust* – is to *accept the negative results from the trustee*.
+			  id:: 68a595fa-385c-49a7-820f-67aa9db632d5
 				- The **vulnerability** of trust is the _trade-off for [its connection](((68a5668e-77ba-4a93-948c-e6d91ce07011)))_.
 					- “I let you in. I **open** myself. I’m **willing to be affected** by you.”
 					- The vulnerability and negativity are not for distrust but for the **completeness** of the truster.
@@ -135,7 +136,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Absolute complete trust: niềm tin trọn vẹn tuyệt đối
 			- Belief → trust → faith
 				- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
-				- **Trust**: Relationship and **reliability**: **Reliance** on someone/something with _confidence it won’t let you down_.
+				- **Trust**: Relationship and **reliability**: Reliance on someone/something with confidence
+					- The confidence is usually a belief that _“it won’t let me down”_.
+					- However, a [complete trust](((68a595fa-385c-49a7-820f-67aa9db632d5))) should base on the confidence of the truster about
 				- **Faith**: Deeper than belief, broader than trust. It mixes conviction, trust, commitment, usually with loyalty or devotion.
 				- While English splits *belief / trust / faith* into separate roots, Vietnamese folds them back into **one root “tin”** (信), then fans it out with qualifiers (*niềm, lòng, đức, cậy, nhiệm, thác*).
 					- **Belief**: “niềm **tin**” (plain cognitive assent)
