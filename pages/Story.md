@@ -3562,9 +3562,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- With **rope**, the “plies” are literally strands *folded and twisted* together → the folding remains visible.
 								- With **paper, plywood, fabric**, the folding process originally produced **stacked folds**. But when the edges are trimmed off, the folding disappears, leaving only *flat layers*.
 								- And the modern human, like me, learns them in reverse order:
-									- Born from the leaf of **flat plies**: *two-ply tissue, three-ply masks, plywood* → flat layers, no hint of folding.
-									- **Encounter with rope** → suddenly the folding/twisting origin reappears, like a fossil imprint.
-									- **Reflection** → you discover the missing step: folds make edges, cut the edges and you get clean layers.
+									- Born at the leaf of **flat plies**: *two-ply tissue, three-ply masks, plywood* → flat layers, no hint of folding.
+									- Tracing the trunk through rope's plies: the folding/twisting origin reappears, like a fossil imprint.
+									- Reaching the root and back through etymology research: both the root “fold” and its evolution to the flat plies by trimming the folding edges are clear.
 						- $u$: phase of strand curling around z-axis in xOy (with radius $R = 1$)
 							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
 							- $k$: Slope of strand ⇒ $z = k⋅u$
