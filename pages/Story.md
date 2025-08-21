@@ -3568,13 +3568,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- $u$: phase of strand curling around z-axis in xOy (with radius $R = 1$)
 							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
 							- $k$: Slope of strand ⇒ $z = k⋅u$
-							- $s(u)$: Strand axis: $x = \cos(u); \; y = \sin(u); \; z = k⋅u$
+							- $s(u)$: Strand axis: $\hat{x}⋅\cos(u) + \hat{y}⋅\sin(u) + \hat{z}⋅ k⋅u$
 								- $t(u) = ds/du$: Direction of strand (strand vector): 
-								  $x = -\sin(u); \; y = \cos(u); \; z = k$
+								  $t(u) = -\hat{x}⋅\sin(u) + \hat{y}⋅\cos(u) + \hat{z}⋅k$
 						- $v$: phase of strand sheath wrapping around strand axis with diameter $⌀ = 2 r$
-							- $r$: Radius of strand: $\vec{r} = i⋅\cos(u) + j⋅\sin(u)$
+							- $r$: Radius of strand: ${\vec r}_0 = \hat{x}⋅r⋅\cos(u) + \hat{y}⋅r⋅\sin(u)$
 							- $S(v)$: transverse thread in the sheath wrapping around the strand vector $t(u)$
-								- $S(v) = [i⋅\cos(u) + j⋅\sin(u)] ⋅ \cos(v) + [i⋅\cos(u) + j⋅\sin(u)] ⋅ \sin(v)$
+								- ${\vec r}(v) = {\vec r}_0 ⋅ \cos(v) + ({\vec r}_0 × t(u))⋅ \sin(v)$
 							- $str(u,v) = s(u) + S(v)(u)$: Strand sheath
 				- First time directly handle intents in tantric practice
 				  id:: 68a595fd-6761-4b5e-aa64-1e3f0a1fc3be
