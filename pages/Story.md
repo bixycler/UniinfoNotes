@@ -3552,6 +3552,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ![A-four-strand-rope-structure](../assets/Will/story/2025-08/A-four-strand-rope-structure-showing-the-yarns-and-their-cross-section.png)
 						- Ref: [ResearchGate](https://www.researchgate.net/figure/Typical-two-strand-rope-structure-image-partly-adapted-from-Leech-10_fig1_282862409)
 					- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
+						- Instead of the complex rope with many levels of twisting (strand, rope yarn, plied yarn, base yarn, fiber), we model just a two-ply yarn plied from simple cylindrical strands.
 						- $u$: phase of strand curling around z-axis in xOy (with radius $R = 1$)
 							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
 							- $k$: Slope of strand ⇒ $z = k⋅u$
