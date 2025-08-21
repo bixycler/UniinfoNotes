@@ -3555,7 +3555,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Instead of the complex rope with many levels of twisting (strand, rope yarn, plied yarn, base yarn, fiber), we model just a **two-ply yarn** plied from simple cylindrical strands.
 						  collapsed:: true
 							- The word “ply” is from the PIA root [pleḱ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ple%E1%B8%B1-) meaning “plait, fold, weave”: *apply* (fold toward), *reply* (fold back), *implicit* (folded in), *explicit* (unfolded), *complicated* (folded together), etc.
-								- Evolution by trimming:
+								- Evolution by application (folding forward) & trimming:
 									- Original “ply” = [plait](https://en.wiktionary.org/wiki/plait), [fold](https://en.wiktionary.org/wiki/fold)
 									- ⇒ “ply” in rope making = a strand to be twisted → twisted ply
 									- ⇒ “ply” in paper making = a layer to be flat-folded → flat ply
@@ -3564,15 +3564,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- And the modern human, like me, learns them in reverse order:
 									- Born at the leaf of **flat plies**: *two-ply tissue, three-ply masks, plywood* → flat layers, no hint of folding.
 									- Tracing the trunk through rope's plies: the folding/twisting origin reappears, like a fossil imprint.
-									- Reaching the root and back through etymology research: both the root “fold” and its evolution to the flat plies by trimming the folding edges are clear.
+									- Reaching the root and back through etymology research: both the root “fold”, and its evolution to the flat plies by trimming the folding edges, are clear.
 						- $u$: phase of strand curling around z-axis in xOy (with radius $R = 1$)
 							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
 							- $k$: Slope of strand ⇒ $z = k⋅u$
 							- $s(u)$: Strand axis: $x = \cos(u); \; y = \sin(u); \; z = k⋅u$
-								- $t(u) = ds/du$: Direction of strand: $x = -\sin(u); \; y = \cos(u); \; z = k$
+								- $t(u) = ds/du$: Direction of strand (strand vector): $x = -\sin(u); \; y = \cos(u); \; z = k$
 						- $v$: phase of strand sheath wrapping around its axis with diameter $⌀ = 2 r$
 							- $r$: Radius of strand
-							-
+							- $S(v)$: transverse  rotating around strand vector $t(u)$
 				- First time directly handle intents in tantric practice
 				  id:: 68a595fd-6761-4b5e-aa64-1e3f0a1fc3be
 				  collapsed:: true
