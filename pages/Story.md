@@ -3580,7 +3580,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Cross-Origin Resource Sharing ([CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS#requests_with_credentials)) with credentials (cookies) & redirect
 				  collapsed:: true
 					- To include credentials in request, use `fetch()` with `credentials = "include"`, or `XMLHttpRequest`.`withCredentials = true`.
-					- Credentialed requests and wildcards: When responding to a credentialed request, server must not specify the `*` wildcard for the following response headers:
+					- Credentialed requests and wildcards: When responding to a credentialed request, server *must not* specify the `*` wildcard for the following response headers:
 						- `Access-Control-Allow-Origin`
 						- `Access-Control-Allow-Methods`
 						- `Access-Control-Allow-Headers`
