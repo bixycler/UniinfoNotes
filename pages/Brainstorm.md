@@ -168,9 +168,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- The confidence is usually a belief that _“it won’t let me down”_.
 					- However, a [wholesome trust](((68a595fa-385c-49a7-820f-67aa9db632d5))) should be based on the confidence of the trustor about its own acceptance of reality, and about the completeness of the life built upon trust.
 				- **Faith**: Deeper than belief, broader than trust. It mixes conviction, trust, commitment, and usually with loyalty or devotion.
-				- While English splits *belief / trust / faith* into separate roots, Vietnamese folds them back into **one root “tin”** (信), then fans it out with qualifiers (*tự, chắc, cậy, nhiệm, thác, lòng, đức*).
+				- While English splits *belief / confidence / conviction / trust / faith* into separate roots, Vietnamese folds them back into **one root “tin”** (信), then fans it out with qualifiers (*tự, chắc, cậy, nhiệm, thác, lòng, đức*).
 					- **Belief**: “niềm **tin**” (plain cognitive assent)
-						- **Confidence**: “**tự** tin” (self-belief),
+						- **Confidence**: “**tự** tin” (self-belief)
 						- **Conviction**: “tin **chắc**” (assertion)
 					- **Trust**: “tin **cậy**” (personal), “tín **nhiệm**” (social), “tín **thác**” (entrustment)
 						- **Tín thác** = *tín nhiệm* (confidence in) + *phó thác* (entrustment)
