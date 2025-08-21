@@ -162,8 +162,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Confidence**: assurance or feeling of **certainty**; usually about oneself (self-belief), but also about others
 					- **Conviction**: **firm** and unwavering belief
 					- While both are strong belief, “confidence” is about practical competence, “conviction” is about principled truth.
-						- “I am confident this **will** work, they **can** do it.” versus
-						- “I have conviction in this mechanism / about their s.”
+						- “I am confident this **will** work / they **can** do it” versus
+						- “I have conviction in this mechanism / their ability” = “I **know** this works / they're able to do it.”
 				- **Trust**: Relationship and **reliability**: Reliance on someone/something with confidence
 					- The confidence is usually a belief that _“it won’t let me down”_.
 					- However, a [wholesome trust](((68a595fa-385c-49a7-820f-67aa9db632d5))) should be based on the confidence of the trustor about its own acceptance of reality, and about the completeness of the life built upon trust.
