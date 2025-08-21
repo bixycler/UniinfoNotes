@@ -3552,11 +3552,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ![A-four-strand-rope-structure](../assets/Will/story/2025-08/A-four-strand-rope-structure-showing-the-yarns-and-their-cross-section.png)
 						- Ref: [ResearchGate](https://www.researchgate.net/figure/Typical-two-strand-rope-structure-image-partly-adapted-from-Leech-10_fig1_282862409)
 					- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
-						- $u$: phase of strand curling around z-axis in xOy (with radius 1)
+						- $u$: phase of strand curling around z-axis in xOy (with radius $R = 1$)
 							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
 							- $k$: Slope of strand axis ⇒ $z = k⋅u$
 							- $s(u)$: strand axis: $x = \cos(u); \; y = \sin(u); \; z = k⋅u$
-						- $v$: phase of strand wall wrapping around its axis with radius R
+						- $v$: phase of strand wall wrapping around its axis with diameter $⌀ = 2 r$
+							- $r$: Radius of the strand
+							-
 				- First time directly handle intents in tantric practice
 				  id:: 68a595fd-6761-4b5e-aa64-1e3f0a1fc3be
 				  collapsed:: true
