@@ -1,4 +1,11 @@
-- --- 
+- ---
+  20 Aug
+- Corrections:
+	- Expectations & **imaginative projection** are the key of jadedness.
+	- > Expectations & imginative images are the key of jadedness.
+- ---
+- collapsed:: true
+  --- 
   16-17th weekends
 - ”intended” has a general meaning parallel with “intent”, as shown with the intent cone: “to direct attention to and focus on a target within the subject”
   collapsed:: true

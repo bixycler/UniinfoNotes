@@ -176,7 +176,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-08-13 Wed 12:37:02]
 		  :END:
 			- From [boredom](https://en.wikipedia.org/wiki/Boredom), pleasure/food cloyedness, to romantic disillusionment and even career burnout, the jadedness of people has shown the duality of pleasure and displeasure as well as the hidden fantasy in everyone.
-			- Expectations & imginative images are the key of jadedness.
+			- Expectations & imaginative projection are the key of jadedness.
 				- Expectation as an imagination bubble
 					- People pre-load experiences with an imagined flavour based on signs (appearance, reputation, first impression).
 					- The early enjoyment is partly *self-generated fantasy*, not reality-based content.
