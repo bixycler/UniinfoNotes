@@ -3556,8 +3556,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
 							- $k$: Slope of strand ⇒ $z = k⋅u$
 							- $s(u)$: Strand axis: $x = \cos(u); \; y = \sin(u); \; z = k⋅u$
-								- $t(u) = ds/du$: Direction of strand:
-						- $v$: phase of strand wall wrapping around its axis with diameter $⌀ = 2 r$
+								- $t(u) = ds/du$: Direction of strand: $x = -\sin(u); \; y = \cos(u); \; z = k$
+						- $v$: phase of strand sheath wrapping around its axis with diameter $⌀ = 2 r$
 							- $r$: Radius of strand
 							-
 				- First time directly handle intents in tantric practice
