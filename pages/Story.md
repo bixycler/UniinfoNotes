@@ -3572,9 +3572,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- $t(u) = ds/du$: Direction of strand (strand vector): 
 								  $x = -\sin(u); \; y = \cos(u); \; z = k$
 						- $v$: phase of strand sheath wrapping around strand axis with diameter $⌀ = 2 r$
-							- $r$: Radius of strand
+							- $r$: Radius of strand: $\vec{r} = i⋅\cos(u) + j⋅\sin(u)$
 							- $S(v)$: transverse thread in the sheath wrapping around the strand vector $t(u)$
-							  $x = -\sin(u); \; y = \cos(u); \; z = k$
+								- $S(v) = [i⋅\cos(u) + j⋅\sin(u)] ⋅ \cos(v) + [i⋅\cos(u) + j⋅\sin(u)] ⋅ \sin(v)$
 							- $str(u,v) = s(u) + S(v)(u)$: Strand sheath
 				- First time directly handle intents in tantric practice
 				  id:: 68a595fd-6761-4b5e-aa64-1e3f0a1fc3be
