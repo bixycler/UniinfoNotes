@@ -171,7 +171,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- While English splits *belief / confidence / conviction / trust / faith* into separate roots, Vietnamese folds them back into **one root “tin”** (信), then fans it out with qualifiers (*tự, chắc, cậy, nhiệm, thác, lòng, đức*).
 					- **Belief**: “niềm **tin**” (plain cognitive assent)
 						- **Confidence**: “**tự** tin” (self-belief)
-						- **Conviction**: “tin **chắc**” (assertion)
+						- **Conviction**: “tin **chắc**” (assurance)
 					- **Trust**: “tin **cậy**” (personal), “tín **nhiệm**” (social), “tín **thác**” (entrustment)
 						- **Tín thác** = *tín nhiệm* (confidence in) + *phó thác* (entrustment)
 						  Strong match for English *trust*, especially in the sense of “placing oneself in the care of another”.
