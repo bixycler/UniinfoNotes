@@ -158,9 +158,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Blind absolute trust: niềm tin tuyệt đối mù quáng
 					- Absolute complete trust: niềm tin trọn vẹn tuyệt đối
 			- Belief → {confidence, conviction, trust} → faith
+				- Diagram
+					- ![Types of Belief.png](https://docs.google.com/drawings/d/e/2PACX-1vTRnYMwhdM4PSEUxareVmvH6V3Al87Lj9lvghDpWma7pg70AZqMP_gt1iUgUBu2QOwn1vb3gTfSvT09/pub?w=360)
 				- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
-					- **Confidence**: assurance or feeling of **certainty**; usually about oneself (self-belief), but also about others
-					- **Conviction**: **firm** and unwavering belief
+					- **Confidence**: **assurance** or feeling of certainty; usually about oneself (self-belief), but also about others
+					- **Conviction**: firm and **unwavering** belief
 					- While both are strong belief, “confidence” is about practical competence, “conviction” is about principled truth.
 						- “I am confident this **will** work / they **can** do it” versus
 						- “I have conviction in this mechanism / their ability” = “I **know** this works / they're able to do it.”
