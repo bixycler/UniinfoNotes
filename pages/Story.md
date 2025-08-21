@@ -3554,10 +3554,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
 						- $u$: phase of strand curling around z-axis in xOy (with radius $R = 1$)
 							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
-							- $k$: Slope of strand axis ⇒ $z = k⋅u$
-							- $s(u)$: strand axis: $x = \cos(u); \; y = \sin(u); \; z = k⋅u$
+							- $k$: Slope of strand ⇒ $z = k⋅u$
+							- $s(u)$: Strand axis: $x = \cos(u); \; y = \sin(u); \; z = k⋅u$
+								- $t(u) = ds/du$: Direction of strand:
 						- $v$: phase of strand wall wrapping around its axis with diameter $⌀ = 2 r$
-							- $r$: Radius of the strand
+							- $r$: Radius of strand
 							-
 				- First time directly handle intents in tantric practice
 				  id:: 68a595fd-6761-4b5e-aa64-1e3f0a1fc3be
