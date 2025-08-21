@@ -3554,7 +3554,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
 						- Instead of the complex rope with many levels of twisting (strand, rope yarn, plied yarn, base yarn, fiber), we model just a **two-ply yarn** plied from simple cylindrical strands.
 						  collapsed:: true
-							- The word “ply” is from the PIA root [pleḱ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ple%E1%B8%B1-) meaning “plait, fold, weave”: *reply* (fold back), *apply* (fold toward), .
+							- The word “ply” is from the PIA root [pleḱ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ple%E1%B8%B1-) meaning “plait, fold, weave”: *apply* (fold toward), *reply* (fold back), *implicit* (folded in), *explicit* (unfolded), *complicated* (folded together), etc.
+								- Evolution by trimming: Original “ply” = [plait](https://en.wiktionary.org/wiki/plait), [fold](https://en.wiktionary.org/wiki/fold) ⇒
+								- With **rope**, the “plies” are literally strands *folded and twisted* together → the folding remains visible.
+								- With **paper, plywood, fabric**, the folding process originally produced **stacked folds**. But when the edges are trimmed off, what remains looks like *flat layers*.
 						- $u$: phase of strand curling around z-axis in xOy (with radius $R = 1$)
 							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
 							- $k$: Slope of strand ⇒ $z = k⋅u$
