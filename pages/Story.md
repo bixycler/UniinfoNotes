@@ -3555,9 +3555,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Instead of the complex rope with many levels of twisting (strand, rope yarn, plied yarn, base yarn, fiber), we model just a **two-ply yarn** plied from simple cylindrical strands.
 						  collapsed:: true
 							- The word “ply” is from the PIA root [pleḱ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ple%E1%B8%B1-) meaning “plait, fold, weave”: *apply* (fold toward), *reply* (fold back), *implicit* (folded in), *explicit* (unfolded), *complicated* (folded together), etc.
-								- Evolution by trimming: Original “ply” = [plait](https://en.wiktionary.org/wiki/plait), [fold](https://en.wiktionary.org/wiki/fold) ⇒
+								- Evolution by trimming:
+									- Original “ply” = [plait](https://en.wiktionary.org/wiki/plait), [fold](https://en.wiktionary.org/wiki/fold)
+									- ⇒ “ply” in rope making = a strand to be twisted → twisted ply
+									- ⇒ “ply” in paper making = a layer to be flat-folded → flat ply
 								- With **rope**, the “plies” are literally strands *folded and twisted* together → the folding remains visible.
-								- With **paper, plywood, fabric**, the folding process originally produced **stacked folds**. But when the edges are trimmed off, what remains looks like *flat layers*.
+								- With **paper, plywood, fabric**, the folding process originally produced **stacked folds**. But when the edges are trimmed off, the folding disappears, leaving only *flat layers*.
+								- And the modern human, like me, learns them in reverse order:
+									- Born from the leaf of **flat plies**: *two-ply tissue, three-ply masks, plywood* → flat layers, no hint of folding.
+									- **Encounter with rope** → suddenly the folding/twisting origin reappears, like a fossil imprint.
+									- **Reflection** → you discover the missing step: folds make edges, cut the edges and you get clean layers.
 						- $u$: phase of strand curling around z-axis in xOy (with radius $R = 1$)
 							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
 							- $k$: Slope of strand ⇒ $z = k⋅u$
