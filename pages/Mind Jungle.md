@@ -1528,7 +1528,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- cause cone
 			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the image. The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the ((68a7d02f-7010-49b2-8dfa-a50e8b371066)). The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
 				- view cone of an ((669a2487-054d-4408-ae41-189e34af81a9))
 					- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
 			- eye point
@@ -1559,7 +1559,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- projection plane
 				  id:: 68a7d179-b663-42bd-85b9-6c18be6b6c97
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto, i.e. the place where all projected images stay.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- In biological eye, ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the [retina](https://en.wikipedia.org/wiki/Retina).
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
