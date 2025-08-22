@@ -3577,7 +3577,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- $r$: Radius of strand
 								- $v = 0$ ⇒ ${\vec r}_0 = \hat{x}⋅r⋅\cos(u) + \hat{y}⋅r⋅\sin(u)$
 								- $v = π/2$ ⇒ ${\vec r}_⊥ = {\vec r}_0 × t(u) /|t(u)|$
-									- ${\vec r}_⊥ = \hat{x}⋅r⋅\sin(u) ⋅r⋅\cos(u) + \hat{y} $
+									- ${\vec r}_⊥ = \hat{x}⋅r⋅k⋅\sin(u) + \hat{y}⋅r⋅k⋅\cos(u) + \hat{z}⋅r$
 							- ${\vec r}(v) = {\vec r}_0 ⋅ \cos(v) + {\vec r}_⊥ ⋅ \sin(v)$ 
 							  Transverse thread in the sheath wrapping around the strand vector $t(u)$
 								-
