@@ -4034,7 +4034,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :LOGBOOK:
 						  CLOCK: [2025-07-30 Wed 14:09:41]
 						  :END:
-							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) in Uninet Theory.
+							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
+								- In projective geometry, that chain is behind the projective plane.
 							- The idiom “(look) behind the eyes” should be recorded in dictionaries! 😉
 							  :LOGBOOK:
 							  CLOCK: [2025-07-30 Wed 14:06:33]--[2025-07-30 Wed 20:02:44] =>  05:56:11
