@@ -1559,7 +1559,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- projection plane
 				  id:: 68a7d179-b663-42bd-85b9-6c18be6b6c97
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto, i.e. the place where all projected images stay.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto, i.e. the place where all projected images stay. In possitive obop, whose all layers share the same ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)), the projection plane is before the projection center, while in negative obop with many distinct different
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 					- In biological eye, ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the [retina](https://en.wikipedia.org/wiki/Retina).
 			- ((66725725-f76a-4328-b162-f469b87e871b))
