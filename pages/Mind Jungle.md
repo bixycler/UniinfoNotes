@@ -1557,6 +1557,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
 						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D corresponding to image lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
 						  id:: 6739fd3d-066d-46a6-b9f3-3dbab8c9d817
+						- projection plane = image plane is the plane onto where the world is projected.
+						- projection center = eye point = apex of view cone is the point where all
 						- perspective lines = orthogonals = parallel lines in 3D with image lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
 						  collapsed:: true
 							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in Creative Glossary](http://www.creativeglossary.com/art-perspective/orthogonal-lines.html), [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
