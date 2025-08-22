@@ -3585,10 +3585,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- $y = r⋅\sin(u)⋅\cos(v) - r_k⋅k⋅\cos(u)⋅\sin(v)$
 									- $z =$                                                     $r_k⋅\sin(v)$
 						- Strand sheath: $str(u,v) = s(u) + {\vec r}(u,v)$
-							- $x = r⋅\cos(u)⋅[1 + \cos(v)]+ r_k⋅k⋅\sin(u)⋅\sin(v)$
-							- $y = r⋅\sin(u)⋅[1 + \cos(v)] - r_k⋅k⋅\cos(u)⋅\sin(v)$
+							- $x = \cos(u)⋅[1 + r⋅\cos(v)]+ r_k⋅k⋅\sin(u)⋅\sin(v)$
+							- $y = \sin(u)⋅[1 + r⋅\cos(v)] - r_k⋅k⋅\cos(u)⋅\sin(v)$
 							- $z = k⋅u$                                                 $+ r_k⋅\sin(v)$
-						- Strand touching z-axis: $str(u,v) = s(u) + {\vec r}(u,v)$
+						- Strand touching z-axis: $str_t(u,v) = s_t(u) + {\vec r}(u,v)$
 							- $x = r⋅\cos(u)⋅[1 + \cos(v)]+ r_k⋅k⋅\sin(u)⋅\sin(v)$
 							- $y = r⋅\sin(u)⋅[1 + \cos(v)] - r_k⋅k⋅\cos(u)⋅\sin(v)$
 							- $z = k⋅u$                                                 $+ r_k⋅\sin(v)$
