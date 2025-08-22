@@ -1559,9 +1559,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- projection plane
 				  id:: 68a7d179-b663-42bd-85b9-6c18be6b6c97
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto, i.e. the place where all projected images stay. In possitive obop, whose all layers share the same ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)), the projection plane is before the projection center, while in negative obop with many distinct different
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto, i.e. the place where all projected images stay.
+					- In possitive obop, whose all layers share the same ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)), the projection plane is before the projection center;
+					- in negative obop with many distinct eye points, the projection plane is behind the corresponding projection center.
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- In biological eye, ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the [retina](https://en.wikipedia.org/wiki/Retina).
+					- In biological eye (a negative obop), ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the [retina](https://en.wikipedia.org/wiki/Retina).
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
@@ -4055,7 +4057,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  CLOCK: [2025-07-30 Wed 14:09:41]
 						  :END:
 							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
-								- In projective geometry, that chain is behind the projective plane.
+								- In projective geometry, that chain extends behind the ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) to t.
 							- The idiom “(look) behind the eyes” should be recorded in dictionaries! 😉
 							  :LOGBOOK:
 							  CLOCK: [2025-07-30 Wed 14:06:33]--[2025-07-30 Wed 20:02:44] =>  05:56:11
