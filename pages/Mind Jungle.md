@@ -4813,6 +4813,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66b1cfa4-01ef-4ee8-9409-32c9884c39cd
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)), ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((68a7de4b-7072-4ec1-907e-5a0d9fdba859))
 		- intention
 		  id:: 66f93c78-15f5-43a7-8412-f7a5bc66e2ae
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
@@ -4821,6 +4822,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Intension
+		- intend
+		  id:: 68a7de4b-7072-4ec1-907e-5a0d9fdba859
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is an umbrella term capturing the abstract notion of “something packed inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))”. E.g.: the daily used ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) and [intentionality](https://en.wikipedia.org/wiki/Intentionality), the semantical ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)), the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) in CIE, etc.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- The general ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus the strongly volitional “intent” in common usage
@@ -4863,6 +4867,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- From his University time, he had contemplated a lot about the 2 duals of intension/extension and form/content.
 					- When Will contemplated the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in 2020, he revived the [archaic word “intent”](((686cef15-5eab-44f1-b8d7-3d8a9edcfa69))) to capture the general meaning of both semantical “inten**s**ion” and volitional “inten**t**ion”. The word “intent” was chosen instead of “intension” in order to be parallel with the other 2 compoents: content–intent–extent.
 						- Actually, at first he thought that the term “intent” with general meaning was his own coinage... only to learn later that it was an archaic connotation.
+			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) has the general meaning parallel with its noun “intent”, as shown with the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)): “to direct attention to and focus on a target within the subject”.
+			  id:: 68a7de6e-fbe8-4fb9-8dc1-6279c066565f
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-08-17 Sun 20:06:01]
+			  :END:
+				- **to direct inward/toward**: to direct one's mind or heading inward or toward a target; to aim; to purpose (connotations 1, 2 & 7 in [Wiktionary](https://en.wiktionary.org/wiki/intend))
+					- This connotation is about the arrow along the axis of the intent cone pointing to the apex.
+				- **to focus inward**: to intensify, to condense, to strengthen (connotations 5 & 6 in Wiktionary)
+					- This connotation is about the shape of the intent cone narrowing toward the apex.
+				- Cone: “intending infinitely inward” ∥ “extending infinitely outward”
+					- Illustration with projective geometry: The road ahead, no matter inside or outside, is seen narrowing toward a “point at horizon”, which is an ideal point at infinity.
+					- Outward, the road narrows toward a visual vanishing point on the skyline.
+					- Inward, the intent cone narrows toward a mental vanishing point on the “horizon within”.
+					- Both are perspectival infinities: finite to the eye, boundless in the journey.
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true

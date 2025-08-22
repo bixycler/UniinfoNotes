@@ -1,15 +1,6 @@
 - --- 
   16-17th weekends
-- ”intend” has a general meaning parallel with “intent”, as shown with the intent cone: “to direct attention to and focus on a target within the subject”
-	- to direct inward/toward: to direct one's mind or heading inward or toward a target; to aim; to purpose (connotations 1, 2 & 7 in [Wiktionary](https://en.wiktionary.org/wiki/intend))
-		- This connotation is about the arrow along the axis of the intent cone pointing to the apex.
-	- to focus inward: to intensify, to condense, to strengthen (connotations 5 & 6 in Wiktionary)
-		- This connotation is about the shape of the intent cone narrowing toward the apex.
-- Cone: “intending infinitely inward” ∥ “extending infinitely outward”
-	- Illustration with projective geometry: The road ahead, no matter inside or outside, is seen narrowing toward a “point at horizon”, which is an ideal point at infinity.
-	- Outward, the road narrows toward a visual vanishing point on the skyline.
-	- Inward, the intent cone narrows toward a mental vanishing point on the “horizon within”.
-	- Both are perspectival infinities: finite to the eye, boundless in the journey.
+- ((68a7de6e-fbe8-4fb9-8dc1-6279c066565f))
 - Intentional cause in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
   collapsed:: true
 	- Problem/question is the absence of the result/answer.
