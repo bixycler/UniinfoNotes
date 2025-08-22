@@ -3586,8 +3586,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- $y = \sin(u)⋅cos(v) - k⋅\cos(u)⋅\sin(v)$
 									- $z = sin(v)$
 						- Strand sheath: $str(u,v) = s(u) + {\vec r}(u,v)$
-							- $x = \cos(u)⋅[1 + r_k⋅\cos(v)]+ k⋅r_k⋅\sin(u)⋅\sin(v)$
-							- $y = \sin(u)⋅[1 + r_k⋅cos(v)] - k⋅r_k⋅\cos(u)⋅\sin(v)$
+							- $x = \cos(u)⋅[1 + r_k⋅\cos(v)]+ r_k⋅k⋅\sin(u)⋅\sin(v)$
+							- $y = \sin(u)⋅[1 + r_k⋅cos(v)] - r_k⋅k⋅\cos(u)⋅\sin(v)$
 							- $z = k⋅u + r_k⋅sin(v)$
 				- First time directly handle intents in tantric practice
 				  id:: 68a595fd-6761-4b5e-aa64-1e3f0a1fc3be
