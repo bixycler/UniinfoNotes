@@ -1,13 +1,11 @@
 - --- 
   16-17th weekends
-- ”intended” has a general meaning parallel with “intent”, as shown with the intent cone: “to direct attention to and focus on a target within the subject”
-  collapsed:: true
+- ”intend” has a general meaning parallel with “intent”, as shown with the intent cone: “to direct attention to and focus on a target within the subject”
 	- to direct inward/toward: to direct one's mind or heading inward or toward a target; to aim; to purpose (connotations 1, 2 & 7 in [Wiktionary](https://en.wiktionary.org/wiki/intend))
 		- This connotation is about the arrow along the axis of the intent cone pointing to the apex.
 	- to focus inward: to intensify, to condense, to strengthen (connotations 5 & 6 in Wiktionary)
 		- This connotation is about the shape of the intent cone narrowing toward the apex.
 - Cone: “intending infinitely inward” ∥ “extending infinitely outward”
-  collapsed:: true
 	- Illustration with projective geometry: The road ahead, no matter inside or outside, is seen narrowing toward a “point at horizon”, which is an ideal point at infinity.
 	- Outward, the road narrows toward a visual vanishing point on the skyline.
 	- Inward, the intent cone narrows toward a mental vanishing point on the “horizon within”.
