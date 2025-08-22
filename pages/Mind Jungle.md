@@ -4069,10 +4069,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  :END:
 							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
 								- In projective geometry, the intent cone intends behind the ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) toward the ((68a7d02f-7010-49b2-8dfa-a50e8b371066)).
-							- Because all intents are just accumulation of past actions (karma), the intent cone which determines how the world is seen (giving forms to object's content) is just a part of the past reactivated.
-								- ⇒ The final boss, the central obop, is just the infinitely distant past.
+							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the intent cone which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.
+								- ⇒ The final boss, the central obop, is just the infinite past.
+								- ⇒ Looking inward means looking back toward the past.
 								- Note that viewing itself is an action whose effect is the resulting image of the world.
 							- The idiom “(look) behind the eyes” should be recorded in dictionaries! 😉
+							  collapsed:: true
 							  :LOGBOOK:
 							  CLOCK: [2025-07-30 Wed 14:06:33]--[2025-07-30 Wed 20:02:44] =>  05:56:11
 							  :END:
