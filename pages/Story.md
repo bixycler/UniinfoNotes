@@ -3580,15 +3580,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- ${\vec r}_⊥ = r⋅[\hat{x}⋅k⋅\sin(u) - \hat{y}⋅k⋅\cos(u) + \hat{z}] / \sqrt{k^2 + 1}$
 							- ${\vec r}(v) = {\vec r}_0 ⋅ \cos(v) + {\vec r}_⊥ ⋅ \sin(v)$ 
 							  Transverse thread in the sheath wrapping around the strand vector $t(u)$
-								- ${\vec r}(u,v) = r_k⋅S(u,v)$; with $r_k = r / \sqrt{k^2 + 1}$
-								- $S(u,v)$:
-									- $x = \cos(u)⋅\cos(v)+ k⋅\sin(u)⋅\sin(v)$
-									- $y = \sin(u)⋅cos(v) - k⋅\cos(u)⋅\sin(v)$
-									- $z = sin(v)$
+								- ${\vec r}(u,v)$ with $r_k = r / \sqrt{k^2 + 1}$:
+									- $x = \cos(u)⋅\cos(v)+ r_k⋅k⋅\sin(u)⋅\sin(v)$
+									- $y = \sin(u)⋅\cos(v) - r_k⋅k⋅\cos(u)⋅\sin(v)$
+									- $z =$                                                     $r_k⋅\sin(v)$
 						- Strand sheath: $str(u,v) = s(u) + {\vec r}(u,v)$
-							- $x = \cos(u)⋅[1 + r_k⋅\cos(v)]+ r_k⋅k⋅\sin(u)⋅\sin(v)$
-							- $y = \sin(u)⋅[1 + r_k⋅cos(v)] - r_k⋅k⋅\cos(u)⋅\sin(v)$
-							- $z = k⋅u + r_k⋅sin(v)$
+							- $x = \cos(u)⋅[1 + \cos(v)]+ r_k⋅k⋅\sin(u)⋅\sin(v)$
+							- $y = \sin(u)⋅[1 + \cos(v)] - r_k⋅k⋅\cos(u)⋅\sin(v)$
+							- $z = k⋅u$                                                   $+ r_k⋅\sin(v)$
 				- First time directly handle intents in tantric practice
 				  id:: 68a595fd-6761-4b5e-aa64-1e3f0a1fc3be
 				  collapsed:: true
