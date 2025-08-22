@@ -2,7 +2,6 @@
   16-17th weekends
 - ((68a7de6e-fbe8-4fb9-8dc1-6279c066565f))
 - Intentional cause in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
-  collapsed:: true
 	- Problem/question is the absence of the result/answer.
 		- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
 	- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).

@@ -4867,7 +4867,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- From his University time, he had contemplated a lot about the 2 duals of intension/extension and form/content.
 					- When Will contemplated the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in 2020, he revived the [archaic word “intent”](((686cef15-5eab-44f1-b8d7-3d8a9edcfa69))) to capture the general meaning of both semantical “inten**s**ion” and volitional “inten**t**ion”. The word “intent” was chosen instead of “intension” in order to be parallel with the other 2 compoents: content–intent–extent.
 						- Actually, at first he thought that the term “intent” with general meaning was his own coinage... only to learn later that it was an archaic connotation.
-			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) has the general meaning parallel with its noun “intent”, as shown with the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)): “to direct attention to and focus on a target within the subject”.
+			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its noun “intent”, as shown with the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)): “to direct attention to and focus on a target within the subject”.
 			  id:: 68a7de6e-fbe8-4fb9-8dc1-6279c066565f
 			  collapsed:: true
 			  :LOGBOOK:
@@ -4877,7 +4877,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- This connotation is about the arrow along the axis of the intent cone pointing to the apex.
 				- **to focus inward**: to intensify, to condense, to strengthen (connotations 5 & 6 in Wiktionary)
 					- This connotation is about the shape of the intent cone narrowing toward the apex.
-				- Cone: “intending infinitely inward” ∥ “extending infinitely outward”
+				- Both ends of an infinite cone are infinity: “**intending** infinitely inward” ∥ “**extending** infinitely outward”
 					- Illustration with projective geometry: The road ahead, no matter inside or outside, is seen narrowing toward a “point at horizon”, which is an ideal point at infinity.
 					- Outward, the road narrows toward a visual vanishing point on the skyline.
 					- Inward, the intent cone narrows toward a mental vanishing point on the “horizon within”.
