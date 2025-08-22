@@ -1538,6 +1538,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 68a7d02f-7010-49b2-8dfa-a50e8b371066
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the apex of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) where all ((671b6fee-d1e3-43f0-a5a5-7033e48d6e56))s converge.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- In biological eye, ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the [nodal point of the eye](https://en.wikipedia.org/wiki/Cardinal_point_(optics)#Nodal_points_and_the_eye).
 			- projecting direction
 			  id:: 68875ace-d35f-44c6-9a9f-e7f7fc29f19d
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)), denoted by a solid-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) of the central ((671b6f87-7492-4eab-af49-e3c89bc8c860)) of the ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) corresponding to the view, i.e. the direction from the world to the eye.
@@ -1557,7 +1559,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- projection plane
 				  id:: 68a7d179-b663-42bd-85b9-6c18be6b6c97
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto.
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
@@ -1571,7 +1573,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
 						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D corresponding to image lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
 						  id:: 6739fd3d-066d-46a6-b9f3-3dbab8c9d817
-						- ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) = ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane onto where the world is projected.
+						- ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) = ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto.
 						- ((68a7d02f-7010-49b2-8dfa-a50e8b371066)) = ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) = apex of the view cone is the point where all light rays converge.
 						- perspective lines = orthogonals = parallel lines in 3D with image lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
 						  collapsed:: true
