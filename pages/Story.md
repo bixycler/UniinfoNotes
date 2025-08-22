@@ -3574,7 +3574,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- $t(u) = ds/du$: Direction of strand (strand vector): 
 								  $t(u) = -\hat{x}⋅\sin(u) + \hat{y}⋅\cos(u) + \hat{z}⋅k$
 						- $v$: phase of strand sheath wrapping around strand axis with diameter $⌀ = 2 r$
-							- $r$: Radius of strand: ${\vec r}_0 = \hat{x}⋅r⋅\cos(u) + \hat{y}⋅r⋅\sin(u)$
+							- $r$: Radius of strand
+								- $v = 0$ ⇒ ${\vec r}_0 = \hat{x}⋅r⋅\cos(u) + \hat{y}⋅r⋅\sin(u)$
+								- $v = π/2$ ⇒ ${\vec r}_{⊥} = \hat{x}⋅r⋅\cos(u) + \hat{y}⋅r⋅\sin(u)$
 							- $S(v)$: transverse thread in the sheath wrapping around the strand vector $t(u)$
 								- ${\vec r}(v) = {\vec r}_0 ⋅ \cos(v) + ({\vec r}_0 × t(u))⋅ \sin(v)$
 							- $str(u,v) = s(u) + S(v)(u)$: Strand sheath
