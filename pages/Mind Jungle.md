@@ -1552,7 +1552,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The cone of vision is the closest example of a viewcone.
 					- There are many terms around this cone of vision and perspective projection.
 						- visual rays = lines of sight (sight lines) = rays from eye to (points of) objects
-							- The central visual ray (central sight line) is the [viewing direction](((6739f671-fe51-4f10-ba24-b492b62fe932))) and is also ambiguously called "the sight line".
+							- The central visual ray (central sight line) is the [viewing direction](((6739f671-fe51-4f10-ba24-b492b62fe932))) and is also ambiguously called “the sight line”.
 						- ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) (direction of view, viewing ray, principal visual ray) = axis of the visual cone
 						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
 						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D corresponding to image lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
