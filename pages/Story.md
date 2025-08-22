@@ -3575,12 +3575,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  $t(u) = -\hat{x}⋅\sin(u) + \hat{y}⋅\cos(u) + \hat{z}⋅k$
 						- $v$: phase of strand sheath wrapping around strand axis with diameter $⌀ = 2 r$
 							- $r$: Radius of strand
-								- $v = 0$ ⇒ ${\vec r}_0 = \hat{x}⋅r⋅\cos(u) + \hat{y}⋅r⋅\sin(u)$
+								- $v = 0$ ⇒ ${\vec r}_0 = r⋅[\hat{x}⋅\cos(u) + \hat{y}⋅\sin(u)]$
 								- $v = π/2$ ⇒ ${\vec r}_⊥ = {\vec r}_0 × t(u) /|t(u)|$
-									- ${\vec r}_⊥ = \hat{x}⋅r⋅k⋅\sin(u) + \hat{y}⋅r⋅k⋅\cos(u) + \hat{z}⋅r$
+									- ${\vec r}_⊥ = r⋅[\hat{x}⋅k⋅\sin(u) - \hat{y}⋅k⋅\cos(u) + \hat{z}] / \sqrt{k^2 + 1}$
 							- ${\vec r}(v) = {\vec r}_0 ⋅ \cos(v) + {\vec r}_⊥ ⋅ \sin(v)$ 
 							  Transverse thread in the sheath wrapping around the strand vector $t(u)$
-								-
+								- ${\vec r}(u,v) = r⋅[\hat{x}⋅k⋅\sin(u) - \hat{y}⋅k⋅\cos(u) + \hat{z}] / \sqrt{k^2 + 1}$
 							- $str(u,v) = s(u) + S(v)(u)$: Strand sheath
 				- First time directly handle intents in tantric practice
 				  id:: 68a595fd-6761-4b5e-aa64-1e3f0a1fc3be
