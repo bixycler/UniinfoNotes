@@ -1,15 +1,6 @@
-- --- 
-  16-17th weekends
-- ((68a7de6e-fbe8-4fb9-8dc1-6279c066565f))
-- Intentional cause in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
-	- Problem/question is the absence of the result/answer.
-		- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
-	- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
-	- The intentional cause is “final” in the cause cone, but “first” in the effect cone.
-	- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
-- ## 2025 Mind Chips
-  id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
-  collapsed:: true
+## 2025 Mind Chips
+id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
+collapsed:: true
 	- Tân Chánh Hiệp → Trung Mỹ Tây
 	  collapsed:: true
 	  :LOGBOOK:

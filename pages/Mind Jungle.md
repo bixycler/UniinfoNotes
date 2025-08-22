@@ -1256,6 +1256,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  2) throughout the never ending cycle of effect, it will never be “final”.
 						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
 						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
+					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
+					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-08-17 Sun 20:22:03]
+					  :END:
+						- Problem/question is the absence of the result/answer.
+							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
+						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
+						- The intentional cause is “final” in the cause cone, but “first” in the effect cone.
+						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2

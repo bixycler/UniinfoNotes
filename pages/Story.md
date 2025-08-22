@@ -3539,6 +3539,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Bringing intents to the front is harder, but much easier than in eyes open situations.
 				- I tried this technique years ago but not very successful... until now.
 					- Today's success mainly thanks to the awareness of the driving intents.
+				- ((68a7de6e-fbe8-4fb9-8dc1-6279c066565f))
+				- ((68a7e246-8407-4e89-b393-912db172e4fe))
 			- 19th, a day with strong engagement in the official work which led to the ((68a595fd-6761-4b5e-aa64-1e3f0a1fc3be))
 			  collapsed:: true
 				- The two-strand rope model for the [double-dotted i (ï)](((68a3ea54-f275-40b8-93ae-4a2bd8da4a06))) in “Unïnfo”
