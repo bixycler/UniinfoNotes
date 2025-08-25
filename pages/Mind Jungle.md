@@ -4063,6 +4063,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to reveal the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) in the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) and escape its domination, we must look behind the ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- Because ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is what's behind the eyes, it is normally invisible, hidden boss.
+						  id:: 68a520bf-adba-4d78-9e3d-5f41de9f8153
 						  collapsed:: true
 						  :LOGBOOK:
 						  CLOCK: [2025-07-30 Wed 14:09:41]

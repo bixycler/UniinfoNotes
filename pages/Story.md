@@ -3646,7 +3646,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- If you wish to force a crossDomain request (such as JSONP) on the same domain, set the value of crossDomain to true. This allows, for example, **server-side redirection** to another domain.
 			- 20th, the whole day caught up with ((68a53a70-3f35-497b-a610-703d8a6665e5))
 			- 21st, the whole day caught up with UniinfoNotes: [trust = acceptance of negative](((68a53a70-3f35-497b-a610-703d8a6665e5))); [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
-			- 22nd, the whole day caught up with UniinfoNotes:
+			- 22nd, the whole day caught up with UniinfoNotes: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)); [intent = behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))); [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
+				- Rendering the twisted double i on HTML: Up to 5 hours (16-21 PM) was taken for debugging the `THREE.Object3D.DefaultUp` (Y vs Z)... only to see that ColladaLoader has already rotated the model from Z to Y around Z
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
