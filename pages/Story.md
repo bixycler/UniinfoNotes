@@ -3650,7 +3650,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Rendering the twisted double i on HTML: Up to 5 hours (16-21 PM) was taken for debugging the `THREE.Object3D.DefaultUp` (Y vs Z)... only to see that ColladaLoader has already rotated the model from Z to Y around Z!
 				- ((68ac60bb-321e-44da-8f44-4f688e611d3e))
-			- Weekends 23rd-24th,
+			- Weekends 23rd-24th, prepared for the trip to in the 2/9 holiday ([Vietnam Independence Day](https://en.wikipedia.org/wiki/National_Day_(Vietnam))) and monitored the cyclone approaching North Vietnam.
 			  collapsed:: true
 				- [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6)
 				  collapsed:: true
@@ -3661,10 +3661,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- While there's only one rotation in Coriolis effect, there are 2 rotations in the [rolling ball 🏀 on turntable](https://youtu.be/3oM7hX3UUEU).
 						- [Rolling ball on flat and conical turntable](https://youtu.be/vFojCjtvJII)
 						- [Rolling ball in a cylinder](https://youtu.be/5sbM2Isx17A) has a strange orbit also thanks to the [rotational inertia](https://en.wikipedia.org/wiki/Moment_of_inertia).
-					- Rotation ≈ folding => mixing just like a fruit mixer/blender
-						- Each term in Fourier series mixes/folds signal into a scale of intent (frequency) => all effects in other scales are cancelled.
+					- Rotation ≈ folding ⇒ mixing just like a fruit mixer/blender
+						- Each term in Fourier series mixes/folds signal into a scale of intent (frequency) ⇒ all effects in other scales are cancelled.
 							- It's coefficient is the **common** of all instances in the extension, which is extracted by canceling differences through integration.
-							- The larger the sampling set (extension), the closer it approachs the center (mean, zero), the smaller its intent. <= Statistical nature
+							- The larger the sampling set (extension), the closer it approachs the center (mean, zero), the smaller its intent. ⇐ Statistical nature
 						- The set of fixed frequencies (harmonics) is the limitation of Fourier transform.
 							- The SCIFER **intending** process overcomes this limitation by jumping right to the next matching intent, no matter how far from the current intent.
 				- Côn Đảo: đặt vé [Côn Đảo Express](https://condao.express/)
@@ -3693,6 +3693,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Google AI says that it's the responsibility of the hoteliers to handle no-shows! 😆
 							- [Agoda provides assistance](https://partnerhub.agoda.com/what-can-i-do-if-the-guest-did-not-show-up-no-show/): Agoda will inform you if the property is attempting to make a charge and will provide the guest's credit card details if a charge was not possible through the initial charge attempt.
 							- Risk assessment system: An AI-powered risk evaluation system is used to identify high-risk guests based on their booking history and past behavior (no-shows reported by hotels).
+			- 15th, the whole day caught up with debugging the unplayable video saved from HTML rendered 3D model of the [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
+				- It seems to be Ubuntu's problem with 3D graphics (disabling hardware acceleration on browser doesn't help).
+				- So at last, i must mirror the 3D canvas of THREE.js to
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
