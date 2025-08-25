@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Unitorus - Unïnfo</title>
+  <link rel="icon" href="../img/Unitorus.png" type="image/png" size="349x509">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../scripts/utilities.css" rel="stylesheet" type="text/css">
+  <script src="../scripts/utilities.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script> defineMathJaxMacros(); </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/92/three.min.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/loaders/ColladaLoader.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/controls/OrbitControls.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/renderers/SVGRenderer.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/renderers/Projector.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/exporters/STLExporter.js'></script>
+    
+<style>
+    input.slider-360 {
+      width: 360px;
+    }
+
+    input.slider-180 {
+      width: 180px;
+    }
+
+    input.slider-plain {
+      -webkit-appearance: none;
+      background: lightgray;
+      height: 5px;
+    }
+
+    span.degree {
+      display: inline-block;
+      width: 30px;
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Unitorus – The Symbolic Icon of Unïnfo</h1>
+  <div id="description" class="PlaceholderCollapsible"><p class="CollapsiblePlaceholder">The icon of Unïnfo Theory is a split torus representing the <a href="../Metaphysics/Trinion.html">Trinion</a> equation ...</p>
+    <p class="CollapsibleContent">The icon of Unïnfo Theory is a split torus named “Unitorus” representing the Universe and the <a href="../Metaphysics/Trinion.html">Trinion</a> equation:</p>
+    <div class="CollapsibleContentExtra">
+      <h1><center>○ = ↑</center></h1>
+      <h4><center>“Circle equals Arrow”</center></h4>
+      <p>Circle (○) and Arrow (↑) are just two different manifestations of the Universe, shown up in different views of the same Unitorus, as shown in <a href="#canvasContainer" onclick="resetParams(); animStart.click();">this animation</a>. Especially, the following position of the Unitorus shows the <a href="../Metaphysics/Trinion.html">Trinion symbol (\(\Trinion\))</a> where Circle (○), Arrows (↑, ↓) and Equal (=) are shown together.
+      </p>
+      <center><img src="../img/Unitorus.png" width="200px"></center>
+      <p>Mathematically, Unitorus is a solid torus split by a thick <a href="https://en.wikipedia.org/wiki/M%C3%B6bius_strip" target="_">Möbius strip</a>, resulting in a right-handed <a href="https://en.wikipedia.org/wiki/Trefoil_knot" target="_">trefoil knot</a>. It's mathematically defined in the GeoGebra applet “<a href="https://www.geogebra.org/m/kgqctbes" target="_">UniTorus</a>”. </p>
+    </div>
+  </div>
+
+  <table>
+    <tr>
+      <td>
+        <div id='canvasContainer' style="background: gray; padding: 10px;"></div>
+      </td>
+      <td>
+        <button onclick='resetParams()'>Reset</button>
+        <input type="button" id="animStart" value="▶️ Start"><!--⏹️ Stop-->
+        <input type="button" id="animPause" value="⏸️ Pause" style="display: none;"><!--▶️ Resume--><br>
+        <input type="checkbox" id="xCover" checked><label for="xCover">Glass cover</label><br>
+        <input type="checkbox" id="xTorus" checked><label for="xTorus" style="color:darkcyan;">Torus</label><br>
+        <input type="checkbox" id="xMobius"><label for="xMobius" style="color:purple;">Möbius section</label><br>
+        <input type="checkbox" id="xNParrows"><label for="xNParrows">Left-Right arrows</label><br>
+        <input type="checkbox" id="xUDarrows"><label for="xUDarrows">Up-Down arrows</label><br>
+        <label for="bgColor">Background:</label>
+        <select id="bgColor">
+          <option value="white" selected style="background-color:white; color:black;">White</option>
+          <option value="lightgray" style="background-color:lightgray; color:black;">Light Gray</option>
+          <option value="black" style="background-color:black; color:white;">Black</option>
+          <option value="red" style="background-color:red; color:aqua;">Red</option>
+          <option value="green" style="background-color:green; color:purple;">Green</option>
+        </select><br>
+        <input type="checkbox" id="xAxes"><label for="xAxes">Axes</label><br>
+        <label for="viewType">View:</label>
+        <select id="viewType">
+          <option value="orthographic" selected>Orthographic</option>
+          <option value="perspective">Perspective</option>
+        </select><br>
+        <input type="button" id="ssrecording" value="🔴 Record"><br><!--🟥 Stop recording-->
+        <input type="checkbox" id="xautorecord" title="Automatically record one round of animation"><label for="xautorecord">Autorecord</label>
+        <input type="checkbox" id="xbyframe" style='display: none;' title="Record each frame into an image"><label for="xbyframe" id="lxbyframe" style='display: none;'>by frame</label><br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="zrotate">Rotate about Z axis: </label><span id="vzrotate" class="degree"
+          style="font-weight: bold;">0</span>°
+        [-180°<input type="range" id="zrotate" class="slider-360" min="-180" max="180" value="0">180°] <br>
+        <label for="xrotate">Rotate about X axis: </label><span id="vxrotate" class="degree"
+          style="font-weight: bold;">0</span>°
+        [-180°<input type="range" id="xrotate" class="slider-360" min="-180" max="180" value="0">180°] <br>
+        <label for="turn">Turn: </label><span id="vturn" class="degree">0</span>°
+        [0°<input type="range" id="turn" class="slider-360 slider-plain" min="0" max="360" value="0" step="0.001">360°]
+        <input type="checkbox" id="xautoturn"><label for="xautoturn">Autoturn</label><br>
+        <label for="spin">Spin: </label><span id="vspin" class="degree">0</span>°
+        [0°<input type="range" id="spin" class="slider-360 slider-plain" min="0" max="360" value="0" step="0.001"
+          disabled>360°] <br>
+      </td>
+    </tr>
+  </table>
+
+  <div class="PlaceholderCollapsible">
+    <p class="CollapsiblePlaceholder">Snapshot image: (to be saved)...</p>
+    <p class="CollapsibleContent">Snapshot image: (Right click and chose “Save image as...”)</p>
+    <img id="png" class="CollapsibleContentExtra"></img>
+  </div>
+
+  <a style='display: none;' id='recordedFile'></a>
+
+  <div id="relativities" class="PlaceholderCollapsible"><p class="CollapsiblePlaceholder">The Unitorus shows many relativities via visual illusions in its <a href="#canvasContainer" onclick="resetParams(); animStart.click();">animation</a>: ...</p>
+    <p class="CollapsibleContent">
+      The Unitorus shows many relativities via visual illusions in its <a href="#canvasContainer" onclick="resetParams(); animStart.click();">animation</a>:</p>
+    <ol class="CollapsibleContentExtra">
+      <li>The Unitorus is spinning like a wheel or turning inside out? (<a href="https://www.geogebra.org/m/ww9kke87" target="_">Screw-in effect</a>)</li>
+      <li>Does the Unitorus stop spinning while it's being rotated (the view angle is being rotated) around the vertical axis?</li>
+      <li>The see-through gaps of the split is covered by purple glass or grey glass? (Uncheck the “Glass cover” checkbox at the right side to see it clearer.)</li>
+      <li>With glass cover removed, the Unitorus is composed of 3 pieces or 2 inter-linked pieces or just 1 piece?</li>
+    </ol>
+    <p class="CollapsibleContentExtra">
+      Other simpler relativities are:</p>
+    <ul class="CollapsibleContentExtra">
+      <li>The Unitorus is spinning clockwise or counter-clockwise?</li>
+      <li>The shapes on the Unitorus are flowing upward or downward or leftward or rightward? (As being indicated by the arrows.)</li>
+    </ul>
+    <p class="CollapsibleContentExtra">
+      Moreover, at the front view, where the Unitorus stands upright and shows up as a round circle, can you see the rightward arrow together with the leftward arrow in the animation?
+    </p>
+  </div>
+
+  <script src="UniTorus.js">  </script>
+  <script> linkPlaceholderCollapsibles(); </script>
+
+</body>
+
+</html>

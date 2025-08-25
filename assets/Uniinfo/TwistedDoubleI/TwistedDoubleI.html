@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Twisted Double I - Unïnfo</title>
+  <link rel="icon" href="../img/Unitorus.png" type="image/png" size="349x509">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../scripts/utilities.css" rel="stylesheet" type="text/css">
+  <script src="../scripts/utilities.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script> defineMathJaxMacros(); </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/92/three.min.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/loaders/ColladaLoader.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/controls/OrbitControls.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/renderers/SVGRenderer.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/renderers/Projector.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/r92/examples/js/exporters/STLExporter.js'></script>
+
+<style>
+    input.slider-360 {
+      width: 180px;
+    }
+
+    input.slider-180 {
+      width: 180px;
+    }
+
+    input.slider-plain {
+      -webkit-appearance: none;
+      background: lightgray;
+      height: 5px;
+    }
+
+    span.degree {
+      display: inline-block;
+      width: 30px;
+      text-align: right;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>The double-dotted i (ï) of “Unïnfo”</h1>
+
+  <table>
+    <tr>
+      <td>
+        <div id='canvasContainer' style="background: gray; padding: 10px;"></div>
+      </td>
+      <td>
+        <button onclick='resetParams()'>Reset</button>
+        <input type="button" id="animStart" value="▶️ Start"><!--⏹️ Stop-->
+        <input type="checkbox" id="xautoturn" hidden>
+        <input type="button" id="animPause" value="⏸️ Pause" style="display: none;"><!--▶️ Resume--><br>
+        <label for="bgColor">Background:</label>
+        <select id="bgColor">
+          <option value="white" selected style="background-color:white; color:black;">White</option>
+          <option value="lightgray" style="background-color:lightgray; color:black;">Light Gray</option>
+          <option value="black" style="background-color:black; color:white;">Black</option>
+          <option value="red" style="background-color:red; color:aqua;">Red</option>
+          <option value="green" style="background-color:green; color:purple;">Green</option>
+        </select><br>
+        <input type="checkbox" id="xAxes"><label for="xAxes">Axes</label><br>
+        <label for="viewType">View:</label>
+        <select id="viewType">
+          <option value="orthographic" selected>Orthographic</option>
+          <option value="perspective">Perspective</option>
+        </select><br>
+        <input type="button" id="ssrecording" value="🔴 Record"><br><!--🟥 Stop recording-->
+        <input type="checkbox" id="xautorecord" title="Automatically record one round of animation"><label for="xautorecord">Autorecord</label>
+        <input type="checkbox" id="xbyframe" style='display: none;' title="Record each frame into an image"><label for="xbyframe" id="lxbyframe" style='display: none;'>by frame</label><br>
+      </td>
+      <td>
+        <video id="recVideo" autoplay controls playsinline muted style="display: none;">
+          <!-- `muted` for `autoplay` due to Chromium's strict autoplay policies; `playsinline` for mobile (not full-screen) -->
+          Your browser does not support the video tag.
+        </video>
+      </td>
+      <td>
+        <canvas id="recCanvas" style="display: none;">
+          <!-- 2D canvas for recording on Linux -->
+        </canvas>
+      </td>
+  </table>
+  <label for="zrotate">Rotate: </label><span id="vzrotate" class="degree"
+    style="font-weight: bold;">0</span>°
+  [-180°<input type="range" id="zrotate" class="slider-360" min="-180" max="180" value="0">180°]
+  <p></p>
+
+  <details id="snapshot">
+    <summary>Snapshot image: <span class="closed-text">(to be saved)...</span>
+      <span class="open-text">(Right click and chose “Save image as...”)</span>
+    </summary>
+    <img id="png"></img>
+  </details>
+
+  <a style='display: none;' id='recordedFile'></a>
+
+  <script src="TwistedDoubleI.js">  </script>
+
+</body>
+
+</html>
