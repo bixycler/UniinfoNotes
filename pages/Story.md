@@ -3554,13 +3554,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ![A-four-strand-rope-structure](../assets/Will/story/2025-08/A-four-strand-rope-structure-showing-the-yarns-and-their-cross-section.png)
 						- Ref: [ResearchGate](https://www.researchgate.net/figure/Typical-two-strand-rope-structure-image-partly-adapted-from-Leech-10_fig1_282862409)
 					- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
-						- Image & video
+						- Image & video & 3D model
 							- ![TwistedDoubleI.png](../assets/Uniinfo/TwistedDoubleI/TwistedDoubleI.png)
 							- Video
 							  collapsed:: true
 								- ![TwistedDoubleI.200x300.webm](../assets/Uniinfo/TwistedDoubleI/TwistedDoubleI.200x300.webm)
 							- YouTube: [Twisted Double i – the “ï” of “Unïnfo”](https://www.youtube.com/shorts/evIXwWj9IFA)
-							- 3D model page: [Uniinfo/TwistedDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistedDoubleI)
+							- 3D model page: [Uniinfo/TwistedDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistedDoubleI).[html](https://bixycler.github.io/Uniinfo/TwistedDoubleI/TwistedDoubleI.html)
+								- Both [TwistedDoubleI]() and [Unitorus]() are copied to ((666baccf-6be1-4b9a-b186-f883ea04daf1))/[]
 						- Instead of the complex rope with many levels of twisting (strand, rope yarn, plied yarn, base yarn, fiber), we model just a **two-ply yarn** plied from simple cylindrical strands.
 						  collapsed:: true
 							- The word “ply” is from the PIA root [pleḱ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ple%E1%B8%B1-) meaning “plait, fold, weave”: *apply* (fold toward), *reply* (fold back), *implicit* (folded in), *explicit* (unfolded), *complicated* (folded together), etc.
