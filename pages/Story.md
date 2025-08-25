@@ -3544,6 +3544,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 19th, a day with strong engagement in the official work which led to the ((68a595fd-6761-4b5e-aa64-1e3f0a1fc3be))
 			  collapsed:: true
 				- The two-strand rope model for the [double-dotted i (ï)](((68a3ea54-f275-40b8-93ae-4a2bd8da4a06))) in “Unïnfo”
+				  id:: 68a520c4-6a2e-4db9-8806-c4b4e55390e8
 				  collapsed:: true
 					- Copilot has drawn an artistic clipart but it cannot modify it precisely (the main drawback of its creativity).
 						- ![double-dotted-i-sep.png](../assets/Will/story/2025-08/double-dotted-i-sep_copilot.png){:width 100}
@@ -3561,7 +3562,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- ![TwistedDoubleI.200x300.webm](../assets/Uniinfo/TwistedDoubleI/TwistedDoubleI.200x300.webm)
 							- YouTube: [Twisted Double i – the “ï” of “Unïnfo”](https://www.youtube.com/shorts/evIXwWj9IFA)
 							- 3D model page: [Uniinfo/TwistedDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistedDoubleI).[html](https://bixycler.github.io/Uniinfo/TwistedDoubleI/TwistedDoubleI.html)
-								- Both [TwistedDoubleI]() and [Unitorus]() are copied to ((666baccf-6be1-4b9a-b186-f883ea04daf1))/[]
+								- Both [TwistedDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistedDoubleI) and [Unitorus](https://github.com/bixycler/Uniinfo/tree/main/Unitorus) are ***manually* mirrored** with ((666baccf-6be1-4b9a-b186-f883ea04daf1))/assets/Uniinfo/{[TwistedDoubleI](../assets/Uniinfo/TwistedDoubleI),[Unitorus](../assets/Uniinfo/Unitorus)}.
 						- Instead of the complex rope with many levels of twisting (strand, rope yarn, plied yarn, base yarn, fiber), we model just a **two-ply yarn** plied from simple cylindrical strands.
 						  collapsed:: true
 							- The word “ply” is from the PIA root [pleḱ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ple%E1%B8%B1-) meaning “plait, fold, weave”: *apply* (fold toward), *reply* (fold back), *implicit* (folded in), *explicit* (unfolded), *complicated* (folded together), etc.
