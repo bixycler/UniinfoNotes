@@ -3647,7 +3647,52 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 20th, the whole day caught up with ((68a53a70-3f35-497b-a610-703d8a6665e5))
 			- 21st, the whole day caught up with UniinfoNotes: [trust = acceptance of negative](((68a53a70-3f35-497b-a610-703d8a6665e5))); [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
 			- 22nd, the whole day caught up with UniinfoNotes: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)); [intent = behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))); [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
-				- Rendering the twisted double i on HTML: Up to 5 hours (16-21 PM) was taken for debugging the `THREE.Object3D.DefaultUp` (Y vs Z)... only to see that ColladaLoader has already rotated the model from Z to Y around Z
+			  collapsed:: true
+				- Rendering the twisted double i on HTML: Up to 5 hours (16-21 PM) was taken for debugging the `THREE.Object3D.DefaultUp` (Y vs Z)... only to see that ColladaLoader has already rotated the model from Z to Y around Z!
+				- ((68ac60bb-321e-44da-8f44-4f688e611d3e))
+			- Weekends 23rd-24th,
+			  collapsed:: true
+				- [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6)
+				  collapsed:: true
+					- Two opposite sides of the same cyclone:
+						- At surface: low pressure, anticlockwise centripetal spiral
+						- At high altitude (10+ km): high pressure, clockwise centrifugal spiral
+						- In some animated satellite images, we can see both [cirrus cloud](https://en.wikipedia.org/wiki/Cirrus_cloud) swirling clockwise above, versus [cumulus](https://en.wikipedia.org/wiki/Cumulus_cloud) & [cumulonimbus](https://en.wikipedia.org/wiki/Cumulonimbus_cloud) clouds swirling anticlockwise below.
+					- While there's only one rotation in Coriolis effect, there are 2 rotations in the [rolling ball 🏀 on turntable](https://youtu.be/3oM7hX3UUEU).
+						- [Rolling ball on flat and conical turntable](https://youtu.be/vFojCjtvJII)
+						- [Rolling ball in a cylinder](https://youtu.be/5sbM2Isx17A) has a strange orbit also thanks to the [rotational inertia](https://en.wikipedia.org/wiki/Moment_of_inertia).
+					- Rotation ≈ folding => mixing just like a fruit mixer/blender
+						- Each term in Fourier series mixes/folds signal into a scale of intent (frequency) => all effects in other scales are cancelled.
+							- It's coefficient is the **common** of all instances in the extension, which is extracted by canceling differences through integration.
+							- The larger the sampling set (extension), the closer it approachs the center (mean, zero), the smaller its intent. <= Statistical nature
+						- The set of fixed frequencies (harmonics) is the limitation of Fourier transform.
+							- The SCIFER **intending** process overcomes this limitation by jumping right to the next matching intent, no matter how far from the current intent.
+				- Côn Đảo: đặt vé [Côn Đảo Express](https://condao.express/)
+				  collapsed:: true
+					- Từ Tp.HCM đi Côn Đảo có máy bay và 2 tàu cao tốc.
+						- Máy bay (Vietnam Airlines, VietJetAir) từ Tân Sơn Nhất đi Côn Đảo (1h) vé **1.5-2Md**
+						- [Tháng 3-2025, khai trương](https://tuoitre.vn/khai-truong-tuyen-tau-cao-toc-tu-quan-4-di-con-dao-20250321105416378.htm) tàu cao tốc Phú Quý Express đi từ cảng Sài Gòn (quận 4) đi Côn Đảo, vé **1Md**
+						- [Tháng 4-2025, chạy lại](https://tuoitre.vn/thang-4-2025-tau-cao-toc-tp-hcm-con-dao-chay-tro-lai-20250326174422411.htm#:~:text=2%20tuy%E1%BA%BFn%20t%C3%A0u%20cao%20t%E1%BB%91c,bu%C3%BDt%20g%E1%BA%A7n%20khu%20v%E1%BB%B1c%20n%C3%A0y.) tàu cao tốc Thăng Long (CTY Phú Quốc Express) từ Nhà Bè (cảng Hiệp Phước) đi Côn Đảo, vé **900kd-1Md**
+					- Từ Vũng Tàu, có 2 tàu đi Côn Đảo:
+						- tàu thường CQ-03 (12h) vé **400kd**, và
+						- Côn Đảo Express, Thăng Long (CTY Phú Quốc Express) vé **800kd-1Md**
+					- Từ Sóc Trăng (cảng Trần Đề) có 2 tàu cao tốc đi Côn Đảo
+						- Superdong, đi 8:00 về 13:30, vé **370kd**
+						- Côn Đảo Express 36 & Trưng Nhị (CTY Phú Quốc Express), đi 8:00 về 9:00 vé **400-450kd**
+					- Từ Cần Thơ (cảng Trần Đề) có (2) tàu cao tốc
+						- Mai Linh Express đi Côn Đảo (tạm ngưng hoạt động)
+						- [Tàu Trưng Nhị](https://tauthanglongsaigon.com/ve-tau-can-tho-con-dao-2025) (CTY Phú Quốc Express), vé **650-750kd**
+					- Bảng giá vé Thăng Long Express
+						- ![Bảng giá vé Thăng Long Express](assets/Will/story/2025-08/ThangLongExpress-fares.webp)
+				- TODO Booking payment/cancellation due: 23:00 26th August 2025
+				  id:: 68ac60bb-3a1f-443d-a822-22b3d4f18b2c
+				  collapsed:: true
+					- How does booking.com (Agoda) deal with no-show cases when the booking requires no credit card?
+						- This [AseanNow topic](https://aseannow.com/topic/1056029-bookingcom-no-credit-card-needed-no-show-why-do-they-pretend-to-charge-you/) shows actual cases of no-show with no credit card and ... no problem! 😂
+						- Many hoteliers complain of it, asking for solution from Agoda but get no response... but they cannot back off [because Agoda is too big & successive](https://aseannow.com/topic/1056029-bookingcom-no-credit-card-needed-no-show-why-do-they-pretend-to-charge-you/#findComment-13342829) 🤔!
+						- Google AI says that it's the responsibility of the hoteliers to handle no-shows! 😆
+							- [Agoda provides assistance](https://partnerhub.agoda.com/what-can-i-do-if-the-guest-did-not-show-up-no-show/): Agoda will inform you if the property is attempting to make a charge and will provide the guest's credit card details if a charge was not possible through the initial charge attempt.
+							- Risk assessment system: An AI-powered risk evaluation system is used to identify high-risk guests based on their booking history and past behavior (no-shows reported by hotels).
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:

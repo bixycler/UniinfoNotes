@@ -34,6 +34,22 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Turing Deterministic / unbound deterministic = bound / unbound intent cone 
+		  id:: 68ac60bb-321e-44da-8f44-4f688e611d3e
+		  collapsed:: true
+			- Turing machine's intent cone has a fixed apex which is its bound(ary), its prime. Its cone has only one direction of development: extend down the base, cannot intend up the apex.
+			- uninet has bidirectional development: actions extend down the base, and knowledge intends up the apex (learning).
+				- This is thanks to its vacancy of prime (vô nguyên).
+			- => uninet's intent cone has its apex **intensible** (refinable), in parallel with the extensible base.
+				- Refine := intend into every place => process the whole space, instead of focus on one point
+			- This global intensibility is the _refinability of the possibility space_, not the probability, though they have similar effects.
+				- Probability is flat, while intensibility is hierarchical.
+				- ANN & LLM must compensate that flatness with lots of neurons & big data training.
+				- uninet learns efficiently from small data with small number of autonotons, thanks to the intrinsic complexity of intensibility.
+				- The current theory of biological evolution 🧬 is weak due to its limit to only probability, while the nature evolves with global intensibility (fractal) which is much more robust.
+				- Evolution with mere probability is just a kind of nondeterministic enumeration. Although it's quicker than deterministic enumeration, it's still enumeration!
+				- Evolution with refinability (global intensibility) is a systematic search by [dynamical system](https://en.wikipedia.org/wiki/Dynamical_system).
+				- Maybe this was what Einstein said that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe)
 		- The true faith/trust requires acceptance of the negative results.
 		  id:: 68a53a70-3f35-497b-a610-703d8a6665e5
 		  collapsed:: true
