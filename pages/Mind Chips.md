@@ -1,12 +1,6 @@
-- :
-	- Ubuntu's Totem (GNOME Videos) plays with only black screen, but can show video properties: On2 VP8 in Matroska.
-	- Ubuntu's Nautilus (GNOME Files) **hangs** while displaying video properties.
-	- Chrome plays the file very well, with good quality (similar to the rendered canvas).
-	- Firefox, LVC play the file with poor quality: colors and reflection light are poor.
-- I saw ((68adb0c5-e979-475e-8432-730d9d8970bc))
-- ## 2025 Mind Chips
-  id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
-  collapsed:: true
+## 2025 Mind Chips
+id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
+collapsed:: true
 	- Tân Chánh Hiệp → Trung Mỹ Tây
 	  collapsed:: true
 	  :LOGBOOK:

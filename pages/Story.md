@@ -3696,8 +3696,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Risk assessment system: An AI-powered risk evaluation system is used to identify high-risk guests based on their booking history and past behavior (no-shows reported by hotels).
 			- 25th, the whole day caught up with debugging the unplayable video saved from HTML rendered 3D model of the [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
 			  collapsed:: true
-				- It seems to be Ubuntu's problem with 3D graphics:  (disabling hardware acceleration on browser doesn't help).
+				- It seems to be Ubuntu's problem with 3D graphics: Unplayable `webm` exported from 3D canvas.
+					- Disabling hardware acceleration on browser doesn't help.
+					- Ubuntu's Totem (GNOME Videos) plays with only black screen, but can show video properties: On2 VP8 in Matroska.
+					- Ubuntu's Nautilus (GNOME Files) **hangs** while displaying video properties.
+					- Chrome plays the file very well, with good quality (similar to the rendered canvas).
+					- Firefox, LVC play the file with poor quality: colors and reflection light are poor.
 				- So at last, i must mirror the 3D canvas of THREE.js to a 2D canvas for recording.
+				- ⇒ I saw ((68adb0c5-e979-475e-8432-730d9d8970bc))
 			- 26th, project meeting and draw diagrams with ((68ad91c4-0083-432f-a90d-e2401b072919)) in [logseq-fenced-code-plus](((68ad8f51-795d-4f17-ad90-f8b97968e478))).
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
