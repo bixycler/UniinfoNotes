@@ -7785,96 +7785,29 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Feched Code Plus (`logseq-fenced-code-plus`)](https://github.com/xyhp915/logseq-fenced-code-plus) to render additional types of fenced code: [mermaid](https://mermaid.js.org/), [echarts](https://echarts.apache.org/en/index.html), [TikZJax](https://tikzjax.com/).
 			  id:: 68ad8f51-795d-4f17-ad90-f8b97968e478
 			  collapsed:: true
-				- For ECharts, only support `option` as the only content in **JSON** format.
+				- For ECharts, only support `option` as the only content in **JSON** format. The dark theme is supported well for ECharts.
+				- Don't turn TikZJax on, or it will slow everything down, or even crash!
 				- Mermaid
 				  collapsed:: true
+					- Flow chart
+						- ```mermaid
+						  flowchart LR
+						      markdown --> newLines
+						      markdown["`This **is** _Markdown_`"]
+						      newLines["
+						          Line 1
+						          Line 2
+						          Line 3
+						      "]
+						  
+						  ```
 					- Sequence diagram
 						- ```mermaid
 						  sequenceDiagram
 						  	I -->> GitLab: view
 						  	I ->> +GitLab: checkout
+						      note right of GitLab: Note: This process runs on GitLab server.
 						  	GitLab -->> -I: {code}
-						  ```
-					- A large diagram
-						- ```mermaid
-						  %%---
-						  %%config:
-						  %%  theme: 'neutral'
-						  %%---
-						  
-						  sequenceDiagram
-						  autonumber
-						  
-						  participant SG as SG <br> skygate.co.jp
-						  participant Ac as Hari <br> acount.airtrip.jp
-						  participant AT as AT <br> airtrip.jp
-						  
-						  note over SG,AT: Pre-booking pages (JS in header): always redirect! <br> (Switch domains in the same tab <br>using header: ☰ menu [SP], sandwich nav bar [PC])
-						  rect LightCyan
-						    note over SG: Independent pages:<br>Home (Top), Bookmarks,<br>MyPage, MemInfo, Email
-						    SG -->> AT: view domestic info
-						    activate AT
-						    deactivate AT
-						    AT -->> SG: view international info
-						    activate SG
-						    deactivate SG
-						    SG -->> SG: search
-						    activate SG
-						    note over SG: List & Detail pages
-						    SG -->> AT: search domestic info
-						    activate AT
-						    deactivate SG
-						    note left of AT: Change auth token
-						    AT -->> AT: sign in
-						    AT -->> AT: sign out
-						    AT -->> AT: sign in again
-						    AT -->> SG: search international info
-						    deactivate AT
-						    activate SG
-						    alt
-						      SG ->>+ Ac: __page redirect__ for cookies
-						      deactivate SG
-						      Ac ->>- SG: cookies: access token
-						      activate SG
-						      activate SG
-						      SG ->> SG: AJAX request & JS process
-						      deactivate SG
-						    else
-						      activate SG
-						      SG ->>+ Ac: redirect in AJAX context
-						      Ac ->>- SG: cookies: access token
-						      deactivate SG
-						      activate SG
-						      SG ->> SG: Execption handling
-						      deactivate SG
-						    end
-						    deactivate SG
-						    SG -->> SG: reserve
-						  end
-						  
-						  note over SG,AT: Booking++ pages (no header): should NOT redirect <br> (Parallelly use 2 domains in 2 tabs)
-						  rect LightSalmon
-						    activate SG
-						    activate AT
-						    AT --x SG: no direct switch between domains
-						    note over SG: Select & Input pages
-						    note left of AT: Change auth token
-						    AT -->> AT: sign out
-						    SG ->> Ac: auth by SG cookies<br>(or __page redirect__ for AT cookies)
-						    SG ->> SG: populate input form
-						    deactivate SG
-						    SG -->> SG: select ticket/plan
-						    activate SG
-						    note over SG: Confirmation page
-						    SG ->> Ac: 3DS auth by SG cookies (?)
-						    AT -->> AT: sign in again
-						    deactivate SG
-						    SG -->> SG: confirm
-						    activate SG
-						    note over SG: Booking & Complete pages
-						    deactivate SG
-						    deactivate AT
-						  end
 						  ```
 				- ECharts
 				  collapsed:: true
@@ -7956,6 +7889,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  
 						  ```
 				- TikZ (very buggy & limited!)
+				  id:: 68ad9d41-99c1-4c02-9b3d-2ff9d9a7bb37
 				  collapsed:: true
 					- A simple circle
 						- ```tikz
@@ -7974,9 +7908,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						    \draw[very thick, blue] (-2,-2) circle (1) (-2,2)
 						      circle (1) (2,2) circle (1) (2,-2) circle (1);
 						  \end{tikzpicture}
-						  ```
-					- The square and circle in three dimensions
-						- ```tikz
 						  ```
 			- [Markdown Table (`logseq-markdown-table`)](https://github.com/haydenull/logseq-plugin-markdown-table) to easily handle Markdown tables.
 			  id:: 6864f88c-8987-4b0e-8151-0d41f5830a70
