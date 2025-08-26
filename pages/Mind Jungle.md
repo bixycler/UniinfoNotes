@@ -7874,14 +7874,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  }
 					  
 					  ```
-				- TikZJax
+				- TikZ (very buggy!)
 				  collapsed:: true
+					- A simple circle
+						- ```tikz
+						  \begin{tikzpicture}
+						    \draw circle (1);
+						  \end{tikzpicture}
+						  ```
 					- ```tikz
-					    \begin{tikzpicture}
-					      \draw (0,0) circle (1in);
-					    \end{tikzpicture}
-					  ```
-					- ```tikz
+					  \begin{tikzpicture}
+					    \draw[thin,dotted] (-3,-3) grid (3,3);
+					    \draw[->] (-3,0) -- (3,0);
+					    \draw[->] (0,-3) -- (0,3);
+					  \end{tikzpicture}
 					  ```
 					-
 			- [Markdown Table (`logseq-markdown-table`)](https://github.com/haydenull/logseq-plugin-markdown-table) to easily handle Markdown tables.
