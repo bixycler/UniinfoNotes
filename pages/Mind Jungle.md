@@ -7874,6 +7874,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  }
 					  
 					  ```
+				- TikZJax
+					- ```TikZJax
+					    \begin{tikzpicture}
+					      \draw (0,0) circle (1in);
+					    \end{tikzpicture}
+					  ```
 			- [Markdown Table (`logseq-markdown-table`)](https://github.com/haydenull/logseq-plugin-markdown-table) to easily handle Markdown tables.
 			  id:: 6864f88c-8987-4b0e-8151-0d41f5830a70
 			- [Table Renderer (`logseq-tablerender-plugin`)](https://github.com/benjypng/logseq-tablerender-plugin) to render tables from data from in blocks, supporting basic statistics like `sum`, `average`, `median`, `mode`.
