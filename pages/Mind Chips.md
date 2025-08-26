@@ -1,6 +1,20 @@
-## 2025 Mind Chips
-id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
-collapsed:: true
+- Unplayable webm from 3D canvas:
+	- Ubuntu's Totem (GNOME Videos) plays with only black screen, but can show video properties: On2 VP8 in Matroska.
+	- Ubuntu's Nautilus (GNOME Files) **hangs** while displaying video properties.
+	- Chrome plays the file very well, with good quality (similar to the rendered canvas).
+	- Firefox, LVC play the file with poor quality: colors and reflection light are poor.
+- ---
+- The deathtrap of opportunity
+	- From natural traps like cave, social traps like gambling, to man-made traps of animals and [feigned retreat](https://en.wikipedia.org/wiki/Feigned_retreat) tactic, all these traps have the same set of features.
+	- The last trap of the [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))) is an example of deathtrap of opportunity:
+		- near ending illusion;
+		- there's always a way ahead;
+		- no strong opposition or constraint to force backing off;
+		- strong urge (karma) to advance toward the target.
+	- Opportunity is just a snare 😜!
+- ## 2025 Mind Chips
+  id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
+  collapsed:: true
 	- Tân Chánh Hiệp → Trung Mỹ Tây
 	  collapsed:: true
 	  :LOGBOOK:

@@ -3694,10 +3694,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Google AI says that it's the responsibility of the hoteliers to handle no-shows! 😆
 							- [Agoda provides assistance](https://partnerhub.agoda.com/what-can-i-do-if-the-guest-did-not-show-up-no-show/): Agoda will inform you if the property is attempting to make a charge and will provide the guest's credit card details if a charge was not possible through the initial charge attempt.
 							- Risk assessment system: An AI-powered risk evaluation system is used to identify high-risk guests based on their booking history and past behavior (no-shows reported by hotels).
-			- 15th, the whole day caught up with debugging the unplayable video saved from HTML rendered 3D model of the [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
+			- 25th, the whole day caught up with debugging the unplayable video saved from HTML rendered 3D model of the [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
 			  collapsed:: true
 				- It seems to be Ubuntu's problem with 3D graphics (disabling hardware acceleration on browser doesn't help).
 				- So at last, i must mirror the 3D canvas of THREE.js to a 2D canvas for recording.
+			- 26th, project meeting and draw diagrams with ((68ad91c4-0083-432f-a90d-e2401b072919)) in [logseq-fenced-code-plus](((68ad8f51-795d-4f17-ad90-f8b97968e478))).
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:

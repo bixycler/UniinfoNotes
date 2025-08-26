@@ -7788,6 +7788,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- For ECharts, only support `option` as the only content in **JSON** format. The dark theme is supported well for ECharts.
 				- Don't turn TikZJax on, or it will slow everything down, or even crash!
 				- Mermaid
+				  id:: 68ad91c4-0083-432f-a90d-e2401b072919
 				  collapsed:: true
 					- Flowchart
 						- ```mermaid
