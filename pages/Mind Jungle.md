@@ -7793,7 +7793,43 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  	GitLab -->> -I: {code}
 					  ```
 				- ```echarts
-				  {"tooltip":{"trigger":"item"},"legend":{"top":"5%","left":"center"},"series":[{"name":"Access From","type":"pie","radius":["40%","70%"],"avoidLabelOverlap":false,"itemStyle":{"borderRadius":10,"borderColor":"#fff","borderWidth":2},"label":{"show":false,"position":"center"},"emphasis":{"label":{"show":true,"fontSize":40,"fontWeight":"bold"}},"labelLine":{"show":false},"data":[{"value":1048,"name":"Search Engine"},{"value":735,"name":"Direct"},{"value":580,"name":"Email"},{"value":484,"name":"Union Ads"},{"value":300,"name":"Video Ads"}]}]}
+				  {
+				      "tooltip": {
+				          "trigger": "item"
+				      },
+				      "legend": {
+				          "top": "5%", "left": "center"
+				      },
+				      "series": [{
+				          "name": "Access From", "type": "pie", "radius": ["40%", "70%"], "avoidLabelOverlap": false,
+				          "itemStyle": {
+				              "borderRadius": 10, "borderColor": "#fff", "borderWidth": 2
+				          },
+				          "label": {
+				              "show": false, "position": "center"
+				          },
+				          "emphasis": {
+				              "label": {
+				                  "show": true, "fontSize": 40, "fontWeight": "bold"
+				              }
+				          },
+				          "labelLine": {
+				              "show": false
+				          },
+				          "data": [{
+				              "value": 1048, "name": "Search Engine"
+				          }, {
+				              "value": 735, "name": "Direct"
+				          }, {
+				              "value": 580, "name": "Email"
+				          }, {
+				              "value": 484, "name": "Union Ads"
+				          }, {
+				              "value": 300, "name": "Video Ads"
+				          }]
+				      }]
+				  }
+				  
 				  ```
 			- [Markdown Table (`logseq-markdown-table`)](https://github.com/haydenull/logseq-plugin-markdown-table) to easily handle Markdown tables.
 			  id:: 6864f88c-8987-4b0e-8151-0d41f5830a70
