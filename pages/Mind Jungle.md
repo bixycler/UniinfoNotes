@@ -7789,17 +7789,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Don't turn TikZJax on, or it will slow everything down, or even crash!
 				- Mermaid
 				  collapsed:: true
-					- Flow chart
+					- Flowchart
 						- ```mermaid
 						  flowchart LR
 						      markdown --> newLines
-						      markdown["`This **is** _Markdown_`"]
+						      markdown["`_Left-to-Right_ **flowchart**`"]
 						      newLines["
 						          Line 1
 						          Line 2
 						          Line 3
 						      "]
-						  
+						  ```
+						- ```mermaid
+						  flowchart TD
+						  	Top --> DB --> Bottom
+						      Top([stadium-shaped node])
+						      DB[(Database)]
+						      Bottom[[subroutine]]
 						  ```
 					- Sequence diagram
 						- ```mermaid
