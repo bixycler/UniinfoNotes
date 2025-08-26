@@ -3684,9 +3684,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [Tàu Trưng Nhị](https://tauthanglongsaigon.com/ve-tau-can-tho-con-dao-2025) (CTY Phú Quốc Express), vé **650-750kd**
 					- Bảng giá vé Thăng Long Express
 						- ![Bảng giá vé Thăng Long Express](assets/Will/story/2025-08/ThangLongExpress-fares.webp)
-				- TODO Booking payment/cancellation due: 23:00 26th August 2025
+				- DONE Booking ~~payment~~/cancellation due: 23:00 26th August 2025
 				  id:: 68ac60bb-3a1f-443d-a822-22b3d4f18b2c
 				  collapsed:: true
+					- I cancelled the trip due to tropical low pressure right after the cyclone.
 					- How does booking.com (Agoda) deal with no-show cases when the booking requires no credit card?
 						- This [AseanNow topic](https://aseannow.com/topic/1056029-bookingcom-no-credit-card-needed-no-show-why-do-they-pretend-to-charge-you/) shows actual cases of no-show with no credit card and ... no problem! 😂
 						- Many hoteliers complain of it, asking for solution from Agoda but get no response... but they cannot back off [because Agoda is too big & successive](https://aseannow.com/topic/1056029-bookingcom-no-credit-card-needed-no-show-why-do-they-pretend-to-charge-you/#findComment-13342829) 🤔!
