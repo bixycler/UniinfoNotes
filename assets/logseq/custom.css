@@ -257,6 +257,12 @@ a:hover {
 }
 
 
+/* Mermaid Plugin */
+div[data-ref="logseq-mermaid-plugin"] {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+
 /* Color variables */
 
 html[data-theme=dark][data-color=logseq] .dark-theme,
