@@ -257,11 +257,13 @@ a:hover {
 }
 
 
-/* Mermaid Plugin */
+/* Mermaid diagram */
 div[data-ref="logseq-mermaid-plugin"] {
   background-color: rgba(255, 255, 255, 1) !important;
 }
-
+div.mermaid { /* logseq-fenced-code-plus */
+  background-color: rgba(255, 255, 255, 1) !important;
+}
 
 /* Color variables */
 
