@@ -5551,6 +5551,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~[aiming at the destination](((684f9517-db29-4079-8674-09e0ffaff6ba)))~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
 								- [Fb post](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) on Nov 15th 2024, one month before [the first active reset within a day](((6768bf20-deec-41bf-ac18-adc753ebb15f))).
 						- The ((6678282b-d710-4c6b-b584-5f65012c192d)) effect
+						  id:: 684f9517-b752-4c07-98d8-bfab5d8ed79e
 						  collapsed:: true
 							- The great **momentum** of the past is the internal form.
 							  id:: 684f9517-bf26-42df-a02f-937c95e1f80e
@@ -5559,7 +5560,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The clearly visible **goal** of the future is the external form, which reflects the inner core, e.g. my ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)), crystalized from karma of the past.
 								- The clarity of the external goal shows that it's very large, like the Sun & Moon. This mirrors the internal (hidden) core which is hard and heavy, like the singularity of a black hole.
 								- Just be mindful that although it's worth pursuing, it's still **very far**, i.e. [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
-							- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) is to dissolve the form and direct it to the new form.
+							- We can use the ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) technique to divide the form, and the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) to dissolve the form and direct it to the new form.
 							- Mindfulness as a hole-punching tool to escape the form.
 							  id:: 684f9517-b730-4cc1-9eb1-54bb81ed78c4
 								- The tantric practice shows that both the accumulation of momentum and the "finish soon" effect require ignorance in the form of attachment to the external signal (sign of the goal).
@@ -5624,6 +5625,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  > Within the Western tradition, I think it's quite new, and quite shocking, because there's been much more of a sense of separation. But if you look at other non-Western cultures, especially in Asia, the emphasis on those has always been on the realization that the self and the world are not separate from each other, that they're really interconnected: that the individual self and the species as a whole is a manifestation of the large whole.
 										- Frank White
 										  > As you go into your mind in a contemplative way, the sense of the living reality of the planet becomes obvious, you become more in tune with the natural world. This is very akin to the direct perception that the astronauts have, so it's no wonder that many people have likened the Overview Effect to a spiritual or meditative experience, although it's not exactly that. It's a cognitive shift, that very often can produce a kind of meditative experience.
+						- The deathtrap of opportunity
+						  id:: 68adb0c5-e979-475e-8432-730d9d8970bc
+							- From natural traps like cave, social traps like gambling, to man-made traps of animals and [feigned retreat](https://en.wikipedia.org/wiki/Feigned_retreat) tactic, all these traps have the same set of features.
+							- Most of the works i'm trapped in, e.g. [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))), are deathtraps of opportunity:
+								- ((669a58b9-1a52-4ad7-932a-9e45ecb9960e))
+								- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
+								- ((684f9517-b752-4c07-98d8-bfab5d8ed79e))
+								- there's always a way ahead;
+								- no strong opposition or constraint to force backing off;
+								- strong urge (karma) to advance toward the target.
+							- Opportunity is just a snare 😜!
 					- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
 					  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
 					  collapsed:: true
