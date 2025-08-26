@@ -7786,95 +7786,176 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 68ad8f51-795d-4f17-ad90-f8b97968e478
 			  collapsed:: true
 				- For ECharts, only support `option` as the only content in **JSON** format.
-				- Mermaid Sequence diagram
+				- Mermaid
 				  collapsed:: true
-					- ```mermaid
-					  sequenceDiagram
-					  	I -->> GitLab: view
-					  	I ->> +GitLab: checkout
-					  	GitLab -->> -I: {code}
-					  ```
-				- ECharts' Smooth line chart
+					- Sequence diagram
+						- ```mermaid
+						  sequenceDiagram
+						  	I -->> GitLab: view
+						  	I ->> +GitLab: checkout
+						  	GitLab -->> -I: {code}
+						  ```
+					- A large diagram
+						- ```mermaid
+						  %%---
+						  %%config:
+						  %%  theme: 'neutral'
+						  %%---
+						  
+						  sequenceDiagram
+						  autonumber
+						  
+						  participant SG as SG <br> skygate.co.jp
+						  participant Ac as Hari <br> acount.airtrip.jp
+						  participant AT as AT <br> airtrip.jp
+						  
+						  note over SG,AT: Pre-booking pages (JS in header): always redirect! <br> (Switch domains in the same tab <br>using header: ☰ menu [SP], sandwich nav bar [PC])
+						  rect LightCyan
+						    note over SG: Independent pages:<br>Home (Top), Bookmarks,<br>MyPage, MemInfo, Email
+						    SG -->> AT: view domestic info
+						    activate AT
+						    deactivate AT
+						    AT -->> SG: view international info
+						    activate SG
+						    deactivate SG
+						    SG -->> SG: search
+						    activate SG
+						    note over SG: List & Detail pages
+						    SG -->> AT: search domestic info
+						    activate AT
+						    deactivate SG
+						    note left of AT: Change auth token
+						    AT -->> AT: sign in
+						    AT -->> AT: sign out
+						    AT -->> AT: sign in again
+						    AT -->> SG: search international info
+						    deactivate AT
+						    activate SG
+						    alt
+						      SG ->>+ Ac: __page redirect__ for cookies
+						      deactivate SG
+						      Ac ->>- SG: cookies: access token
+						      activate SG
+						      activate SG
+						      SG ->> SG: AJAX request & JS process
+						      deactivate SG
+						    else
+						      activate SG
+						      SG ->>+ Ac: redirect in AJAX context
+						      Ac ->>- SG: cookies: access token
+						      deactivate SG
+						      activate SG
+						      SG ->> SG: Execption handling
+						      deactivate SG
+						    end
+						    deactivate SG
+						    SG -->> SG: reserve
+						  end
+						  
+						  note over SG,AT: Booking++ pages (no header): should NOT redirect <br> (Parallelly use 2 domains in 2 tabs)
+						  rect LightSalmon
+						    activate SG
+						    activate AT
+						    AT --x SG: no direct switch between domains
+						    note over SG: Select & Input pages
+						    note left of AT: Change auth token
+						    AT -->> AT: sign out
+						    SG ->> Ac: auth by SG cookies<br>(or __page redirect__ for AT cookies)
+						    SG ->> SG: populate input form
+						    deactivate SG
+						    SG -->> SG: select ticket/plan
+						    activate SG
+						    note over SG: Confirmation page
+						    SG ->> Ac: 3DS auth by SG cookies (?)
+						    AT -->> AT: sign in again
+						    deactivate SG
+						    SG -->> SG: confirm
+						    activate SG
+						    note over SG: Booking & Complete pages
+						    deactivate SG
+						    deactivate AT
+						  end
+						  ```
+				- ECharts
 				  collapsed:: true
-					- ```echarts
-					  {
-					    "xAxis": {
-					      "type": "category",
-					      "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-					    },
-					    "yAxis": {
-					      "type": "value"
-					    },
-					    "series": [
-					      {
-					        "data": [820, 932, 901, 934, 1290, 1330, 1320],
-					        "type": "line",
-					        "smooth": true
-					      }
-					    ]
-					  }
-					  ```
-				- ECharts' Bar chart
-				  collapsed:: true
-					- ```echarts
-					  {
-					    "xAxis": {
-					      "type": "category",
-					      "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-					    },
-					    "yAxis": {
-					      "type": "value"
-					    },
-					    "series": [
-					      {
-					        "data": [120, 200, 150, 80, 70, 110, 130],
-					        "type": "bar"
-					      }
-					    ]
-					  }
-					  ```
-				- ECharts' Pie chart
-				  collapsed:: true
-					- ```echarts
-					  {
-					      "tooltip": {
-					          "trigger": "item"
-					      },
-					      "legend": {
-					          "top": "5%", "left": "center"
-					      },
-					      "series": [{
-					          "name": "Access From", "type": "pie", "radius": ["40%", "70%"], "avoidLabelOverlap": false,
-					          "itemStyle": {
-					              "borderRadius": 10, "borderColor": "#fff", "borderWidth": 2
-					          },
-					          "label": {
-					              "show": false, "position": "center"
-					          },
-					          "emphasis": {
-					              "label": {
-					                  "show": true, "fontSize": 40, "fontWeight": "bold"
-					              }
-					          },
-					          "labelLine": {
-					              "show": false
-					          },
-					          "data": [{
-					              "value": 1048, "name": "Search Engine"
-					          }, {
-					              "value": 735, "name": "Direct"
-					          }, {
-					              "value": 580, "name": "Email"
-					          }, {
-					              "value": 484, "name": "Union Ads"
-					          }, {
-					              "value": 300, "name": "Video Ads"
-					          }]
-					      }]
-					  }
-					  
-					  ```
-				- TikZ (very buggy!)
+					- Smooth line chart
+						- ```echarts
+						  {
+						    "xAxis": {
+						      "type": "category",
+						      "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+						    },
+						    "yAxis": {
+						      "type": "value"
+						    },
+						    "series": [
+						      {
+						        "data": [820, 932, 901, 934, 1290, 1330, 1320],
+						        "type": "line",
+						        "smooth": true
+						      }
+						    ]
+						  }
+						  ```
+					- Bar chart
+						- ```echarts
+						  {
+						    "xAxis": {
+						      "type": "category",
+						      "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+						    },
+						    "yAxis": {
+						      "type": "value"
+						    },
+						    "series": [
+						      {
+						        "data": [120, 200, 150, 80, 70, 110, 130],
+						        "type": "bar"
+						      }
+						    ]
+						  }
+						  ```
+					- Pie chart
+						- ```echarts
+						  {
+						      "tooltip": {
+						          "trigger": "item"
+						      },
+						      "legend": {
+						          "top": "5%", "left": "center"
+						      },
+						      "series": [{
+						          "name": "Access From", "type": "pie", "radius": ["40%", "70%"], "avoidLabelOverlap": false,
+						          "itemStyle": {
+						              "borderRadius": 10, "borderColor": "#fff", "borderWidth": 2
+						          },
+						          "label": {
+						              "show": false, "position": "center"
+						          },
+						          "emphasis": {
+						              "label": {
+						                  "show": true, "fontSize": 40, "fontWeight": "bold"
+						              }
+						          },
+						          "labelLine": {
+						              "show": false
+						          },
+						          "data": [{
+						              "value": 1048, "name": "Search Engine"
+						          }, {
+						              "value": 735, "name": "Direct"
+						          }, {
+						              "value": 580, "name": "Email"
+						          }, {
+						              "value": 484, "name": "Union Ads"
+						          }, {
+						              "value": 300, "name": "Video Ads"
+						          }]
+						      }]
+						  }
+						  
+						  ```
+				- TikZ (very buggy & limited!)
 				  collapsed:: true
 					- A simple circle
 						- ```tikz
@@ -7882,14 +7963,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						    \draw circle (1);
 						  \end{tikzpicture}
 						  ```
-					- ```tikz
-					  \begin{tikzpicture}
-					    \draw[thin,dotted] (-3,-3) grid (3,3);
-					    \draw[->] (-3,0) -- (3,0);
-					    \draw[->] (0,-3) -- (0,3);
-					  \end{tikzpicture}
-					  ```
-					-
+					- Circles & square in Cartesian coordinates
+						- ```tikz
+						  \begin{tikzpicture}
+						    \draw[thin,dotted] (-3,-3) grid (3,3);
+						    \draw[->] (-3,0) -- (3,0);
+						    \draw[->] (0,-3) -- (0,3);
+						    \draw[very thick, blue] (-2,-2) -- (-2,2)
+						      -- (2,2) -- (2,-2) -- cycle;
+						    \draw[very thick, blue] (-2,-2) circle (1) (-2,2)
+						      circle (1) (2,2) circle (1) (2,-2) circle (1);
+						  \end{tikzpicture}
+						  ```
+					- The square and circle in three dimensions
+						- ```tikz
+						  ```
 			- [Markdown Table (`logseq-markdown-table`)](https://github.com/haydenull/logseq-plugin-markdown-table) to easily handle Markdown tables.
 			  id:: 6864f88c-8987-4b0e-8151-0d41f5830a70
 			- [Table Renderer (`logseq-tablerender-plugin`)](https://github.com/benjypng/logseq-tablerender-plugin) to render tables from data from in blocks, supporting basic statistics like `sum`, `average`, `median`, `mode`.
