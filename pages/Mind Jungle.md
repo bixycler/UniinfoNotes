@@ -7876,9 +7876,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  ```
 				- TikZJax
 					- ```tikz
-					  \begin{tikzpicture}
-					  	\draw (0,0) circle (1in);
-					  \end{tikzpicture}
+					    \begin{tikzpicture}
+					      \draw (0,0) circle (1in);
+					    \end{tikzpicture}
+					  ```
+					- ```tikz
+					  <script type="text/tikz">
+					    \begin{tikzpicture}
+					      \draw (0,0) circle (1in);
+					    \end{tikzpicture}
+					  </script>
 					  ```
 			- [Markdown Table (`logseq-markdown-table`)](https://github.com/haydenull/logseq-plugin-markdown-table) to easily handle Markdown tables.
 			  id:: 6864f88c-8987-4b0e-8151-0d41f5830a70
