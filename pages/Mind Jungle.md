@@ -7784,6 +7784,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Ref: [LogSeq: AI Powered Notes (with Ollama)](https://fossengineer.com/selfhosting-logseq/#making-logseq-better)
 			- [Feched Code Plus (`logseq-fenced-code-plus`)](https://github.com/xyhp915/logseq-fenced-code-plus) to render additional types of fenced code: [mermaid](https://mermaid.js.org/), [echarts](https://echarts.apache.org/en/index.html), [TikZJax](https://tikzjax.com/).
 			  id:: 68ad8f51-795d-4f17-ad90-f8b97968e478
+			  collapsed:: true
+				- Mermaid Sequence diagram
+					- ```mermaid
+					  sequenceDiagram
+					  	I -->> GitLab: view
+					  	I ->> +GitLab: checkout
+					  	GitLab -->> -I: {code}
+					  ```
+				- ```echarts
+				  {"tooltip":{"trigger":"item"},"legend":{"top":"5%","left":"center"},"series":[{"name":"Access From","type":"pie","radius":["40%","70%"],"avoidLabelOverlap":false,"itemStyle":{"borderRadius":10,"borderColor":"#fff","borderWidth":2},"label":{"show":false,"position":"center"},"emphasis":{"label":{"show":true,"fontSize":40,"fontWeight":"bold"}},"labelLine":{"show":false},"data":[{"value":1048,"name":"Search Engine"},{"value":735,"name":"Direct"},{"value":580,"name":"Email"},{"value":484,"name":"Union Ads"},{"value":300,"name":"Video Ads"}]}]}
+				  ```
 			- [Markdown Table (`logseq-markdown-table`)](https://github.com/haydenull/logseq-plugin-markdown-table) to easily handle Markdown tables.
 			  id:: 6864f88c-8987-4b0e-8151-0d41f5830a70
 			- [Table Renderer (`logseq-tablerender-plugin`)](https://github.com/benjypng/logseq-tablerender-plugin) to render tables from data from in blocks, supporting basic statistics like `sum`, `average`, `median`, `mode`.
