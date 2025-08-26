@@ -7785,6 +7785,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Feched Code Plus (`logseq-fenced-code-plus`)](https://github.com/xyhp915/logseq-fenced-code-plus) to render additional types of fenced code: [mermaid](https://mermaid.js.org/), [echarts](https://echarts.apache.org/en/index.html), [TikZJax](https://tikzjax.com/).
 			  id:: 68ad8f51-795d-4f17-ad90-f8b97968e478
 			  collapsed:: true
+				- For ECharts, only support `option` as the only content in **JSON** format.
 				- Mermaid Sequence diagram
 				  collapsed:: true
 					- ```mermaid
@@ -7793,21 +7794,41 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  	I ->> +GitLab: checkout
 					  	GitLab -->> -I: {code}
 					  ```
-				- ECharts' Smoothed line chart
+				- ECharts' Smooth line chart
+				  collapsed:: true
 					- ```echarts
 					  {
-					    xAxis: {
-					      type: 'category',
-					      data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+					    "xAxis": {
+					      "type": "category",
+					      "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 					    },
-					    yAxis: {
-					      type: 'value'
+					    "yAxis": {
+					      "type": "value"
 					    },
-					    series: [
+					    "series": [
 					      {
-					        data: [820, 932, 901, 934, 1290, 1330, 1320],
-					        type: 'line',
-					        smooth: true
+					        "data": [820, 932, 901, 934, 1290, 1330, 1320],
+					        "type": "line",
+					        "smooth": true
+					      }
+					    ]
+					  }
+					  ```
+				- ECharts' Bar chart
+				  collapsed:: true
+					- ```echarts
+					  {
+					    "xAxis": {
+					      "type": "category",
+					      "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+					    },
+					    "yAxis": {
+					      "type": "value"
+					    },
+					    "series": [
+					      {
+					        "data": [120, 200, 150, 80, 70, 110, 130],
+					        "type": "bar"
 					      }
 					    ]
 					  }
