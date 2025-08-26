@@ -7933,8 +7933,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Table Renderer (`logseq-tablerender-plugin`)](https://github.com/benjypng/logseq-tablerender-plugin) to render tables from data from in blocks, supporting basic statistics like `sum`, `average`, `median`, `mode`.
 			  id:: 6864f9b7-2daa-4ad4-b496-063722e86f73
 			- [Bullet Threading (`logseq-bullet-threading`)](https://github.com/pengx17/logseq-plugin-bullet-threading) to thread the current block with its ancestors, like in the breadcrumbs.
-			- [Mermaid (`logseq-mermaid-plugin`)](https://github.com/benjypng/logseq-mermaid-plugin) to create mermaid diagrams in image format on-the-fly, using `mermaid` code block in its first child. This render large diagrams too **slowly**, use [logseq-fenced-code-plus](((68ad8f51-795d-4f17-ad90-f8b97968e478))) instead!
-			- [Diagrams as Code `logseq-diagrams-as-code`](https://github.com/npgrosser/logseq-diagrams-as-code) to create diagrams from code block in its first child. It supports a wide range of diagram types and languages, including Mermaid, Graphviz, PlantUML, and many more.
+			- [Diagrams as Code `logseq-diagrams-as-code`](https://github.com/npgrosser/logseq-diagrams-as-code) to create diagrams from the code block in the first child of the diagram block. It supports a wide range of diagram types and languages through [Kroki API](https://kroki.io/), including Mermaid, Graphviz, PlantUML, D2, etc.
+			- [Mermaid (`logseq-mermaid-plugin`)](https://github.com/benjypng/logseq-mermaid-plugin) to create mermaid diagrams in image format on-the-fly, using the `mermaid` code block in the first child of the diagram block. This render large diagrams too **slowly**, use [logseq-fenced-code-plus](((68ad8f51-795d-4f17-ad90-f8b97968e478))) instead!
 		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
 			- Check rendered result at [[Theme Demo]].
 			- DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.
