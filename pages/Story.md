@@ -3269,7 +3269,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- With Google Search Console's [URL inspection](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fcreatzynotes.blogspot.com%2F), the only indexed one is https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html. All other URLs are reported as "Sitemaps: No referring sitemaps detected" while these URLs do appear in the [sitemap.xml](((6880c5ca-c0e4-485c-ae5f-ef323dacd5df))).
 					- The Sitemaps list in Google Search Console is empty, while it's clearly in the [robots.txt](((6880bfb6-37bd-4d5a-aa65-a366b19fed81)))!
 						- After a manual submit, it's shown with `Couldn't fetch` status!? 🤔
-							- This seems to be a [bug of Google ]
+							- This seems to be a [bug of Google Search Console](https://qr.ae/pC8a9H): my `sitemap.xml` is fetched successfully by Live Test.
 					- https://creatzynotes.blogspot.com/robots.txt
 					  id:: 6880bfb6-37bd-4d5a-aa65-a366b19fed81
 					  collapsed:: true
