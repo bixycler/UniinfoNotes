@@ -123,7 +123,18 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
 		- TODO Replace Unïnfo with Unïnfo
 id:: 68a3e5cf-5523-4da5-ad38-d30ab6016f88
-		- TODO [!] Làm lại thẻ VCB
+		- DOING [!] Làm lại thẻ VCB
+		  :LOGBOOK:
+		  CLOCK: [2025-08-27 Wed 10:59:07]
+		  :END:
+			- 27th Aug 2025, walked to the bank to do the card issuing precedure.
+			  :LOGBOOK:
+			  CLOCK: [2025-08-27 Wed 10:59:25]
+			  :END:
+			- 10th Sep, expected to receive new card
+			  :LOGBOOK:
+			  CLOCK: [2025-08-27 Wed 11:01:20]
+			  :END:
 		- TODO Update [CT scans of Bell Lê](((684f951d-8174-4c48-90e9-7f14566b8697))).
 		- ...
 	- ## Future Tasks
