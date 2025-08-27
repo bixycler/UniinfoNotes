@@ -293,7 +293,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- But most of other infinities are wild, e.g. $∞ - ∞ =$ U, $∞/∞ =$ U, $H(n_H) =$ U, etc.
 			- The case of $H(n_H)$ is complicated by the ever increasing number of states of $n_H()$ due to its (indirect) recursions, of negation program $n_H$ and of decider $D_H$, as shown explicitly in the [extended HP](((67b989a4-5854-4f75-a771-2308371cdbe5))): $D_H(n_H, n_H, D_H)$.
 				- Like [busy beavers](https://en.wikipedia.org/wiki/Busy_beaver), the negation program $n_H()$ keeps extending its states infinitely, thus effectively makes any judgement of its halting status indefinite.
-			- **Resolution in Unïnfo**: $H(n_H) = ⊥$ is the meta-algorithmic answer. But this answer cannot be communicated with $n_H()$.
+			- **Resolution in Unïnfo**: $H(n_H) = ⊥$ is the meta-algorithmic answer. But this answer cannot be communicated with $n_H()$.
 				- Any oracle $D_H$ just **remains silent**, i.e. $D_H() = ∅$, when being asked by a non-oracle program like $n_H$ about such meta-algorithmic question like $D_H(n_H) = ?$.
 				- This silence, combined with the negation program's stubborn request for a clear answer, effectively makes $n_H()$ stalls right there forever without halting. That's how $H(n_H) = ⊥$.
 				- This is like the [Buddha's noble silence](https://en.wikipedia.org/wiki/Noble_Silence).
@@ -324,7 +324,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Because the assumption leads to contradiction with the assumption itself, not with an established fact, we cannot be sure that the assumption is false.
 					- Actually, we have just proved that the assumption $A_1$ is self-contradictory,
 					  $A_1 → ¬A_1$
-					- While the classical logic denies self-contradiction, self-negation loop is a driving force for development, as shown in the dialectical process of thesis-antithesis-synthesis, and is defined as ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) in Unïnfo.
+					- While the classical logic denies self-contradiction, self-negation loop is a driving force for development, as shown in the dialectical process of thesis-antithesis-synthesis, and is defined as ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) in Unïnfo.
 						- One way of development is to upgrade the definition of the halting determining function $H()$ from [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) to [nondeterministic](https://en.wikipedia.org/wiki/Nondeterministic_algorithm) or [many-valued](https://en.wikipedia.org/wiki/Many-valued_logic).
 			- **Direct proof** of  $\text{HP0} = ⊥$
 				- For **any given universal decider** $D$, we construct a _negation program_ $n_{H1}$:
@@ -539,7 +539,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Traditionally, “subject” is used to refer human only.
-			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  id:: 6729d6db-3a8c-49da-95b0-28e1b2cb9806
 			  collapsed:: true
 				- This is the viewpoint of [Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) and [Hylozoism](https://en.wikipedia.org/wiki/Hylozoism) which are development of the ancient [Animism](https://en.wikipedia.org/wiki/Animism).
@@ -584,7 +584,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- The common dichotomy is the [absolute objectivity versus absolute subjectivity](https://en.wikipedia.org/wiki/Subjectivity_and_objectivity_(philosophy)), whose ((6729c1c5-7eb2-408b-a205-f3039799d19c)) is _fixed by the human center, i.e. **human as the only subject**_: Anything independent from all humans (mind) is "objective", and anything dependent on human mind is "subjective".
 					- This dichotomy is human-absolute, i.e. relative to the whole mankind, i.e. mandkind as the ((6729b90b-1ee3-4efc-b62c-281f9621f487)).
-				- In Unïnfo, we consider the relative version of this dichotomy which is free from the human center:
+				- In Unïnfo, we consider the relative version of this dichotomy which is free from the human center:
 					- relative objectivity = [inter-subjectivity](https://en.wikipedia.org/wiki/Intersubjectivity)
 					  tính khách quan tương đối = tính chủ quan chung
 						- Objectivity of coarse subjects is just the subjectivity of the fine subject common to all these coarse subjects.
@@ -758,7 +758,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- circular
 		  id:: 66e41705-54b1-4677-a595-fd01cb88a4fb
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the perfect shape of [geometrical circle](https://en.wikipedia.org/wiki/Circle), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is abstracted to be the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of any **closed** ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)). To be precise, this abstraction should be called ((66ab675b-2778-4f51-80ad-20a8f6988691)), but in Unïnfo we usually call it “circle” as an abuse of terminology. The true circle is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) which can [degenerate](https://en.wikipedia.org/wiki/Degenerate_energy_levels) into all non-round loops via distortion. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of all forms.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the perfect shape of [geometrical circle](https://en.wikipedia.org/wiki/Circle), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is abstracted to be the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of any **closed** ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)). To be precise, this abstraction should be called ((66ab675b-2778-4f51-80ad-20a8f6988691)), but in Unïnfo we usually call it “circle” as an abuse of terminology. The true circle is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) which can [degenerate](https://en.wikipedia.org/wiki/Degenerate_energy_levels) into all non-round loops via distortion. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of all forms.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- While classical geometry, from [Euclid's “Elements”](https://en.wikipedia.org/wiki/Euclid%27s_Elements), was built from points, straight lines, and curves, Unithread is built from circles, corresponding to the ((66f3d644-782c-4f33-bd5c-db6e0a2d447a)). These circles are originally perfectly round, but as they interact with each other, they are distorted into non-round loops, and even [degenerate](https://en.wikipedia.org/wiki/Degenerate_conic) into open curves or straight lines or points. This notion of “everything is circle” is similar to [Lie's sphere geometry](https://en.wikipedia.org/wiki/Lie_sphere_geometry).
 		- cycle
@@ -2343,7 +2343,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject, i.e. the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
 				- The matching can be broken into two parts, the “touching” (xúc) and the “equal” (thức). When two unequal quanta touch, nothing happens, but when two equal quanta touch, the qualiton ignites a “spark, bust, snap, click, tick” that activates the reconstruction of the form previously recorded.
 				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
-				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
+				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
 		- Three levels of awareness
 		  id:: 684f9517-6989-49cc-9b06-360965c446f7
 		  [sensation](((689962b4-29d3-4fa0-9ad0-addaa6224369))) → [normal awareness](((6899629f-494f-483d-9f0d-e58da911ae1c))) → [consciousness](((689962c3-fb89-4340-9148-e0703fdbe950)))
@@ -2828,7 +2828,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- While the general meaning of the noun “being” includes both subjective and objective entities, its everyday usage is more about “living beings” like humans, animals, deities, mythical beings & creatures, etc.
 						- The objective meaning of “being” is used in [ontology](https://en.wikipedia.org/wiki/Ontology), the study of being. ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “ontology” = “ōn” [being] + “logy” [study].
 						- While in general philosophies, “being” is a synonym of “existence” which sounds very objective, [existentialism](https://en.wikipedia.org/wiki/Existentialism) treats such “existence” in a very subjective way.
-						- The verb “be” in the sentence structure “subject verb object”, like “I am a man”, “it is a rock”, shows two sides of “being” as both subject and object. That means a “concrete being” must have subjectivity and “object” is just an “abstract being”. In Unïnfo, we preserve the term “being” for concrete things only.
+						- The verb “be” in the sentence structure “subject verb object”, like “I am a man”, “it is a rock”, shows two sides of “being” as both subject and object. That means a “concrete being” must have subjectivity and “object” is just an “abstract being”. In Unïnfo, we preserve the term “being” for concrete things only.
 				- ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is inseparable from “becoming”, as “[existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a)))” is inseparable from “[differentiation](((1a22a090-6786-4114-8aad-35b122783bff)))”, as stated by the ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)).
 				  collapsed:: true
 					- This property is called ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
@@ -2938,11 +2938,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Don't confuse this new construct with the non-relational expression of “difference due to some factor”, e.g. “She looks different *with this new dress*” = “*In this new dress*, she looks different”  or “He acts different *with alcohol*” = “Under the influence of alcohol, he acts different.”
 									- This construct is parallel with similar constructs: “compare with”, the archaic [“differ with” = “disagree with”](https://www.oxfordlearnersdictionaries.com/definition/english/differ), and the Vietnamese “khác với”.
 							- “difference between A and B” = “difference between B and A” is the extent (magnitude) of bidirectional `diff` relation between $B$ and $A$, i.e. $BA = |\overleftrightarrow{BA}| = |B ↔ A| = (|A - B| + |B - A|)/2$.
-						- 🧭 The direction of relations is crucial in Unïnfo, since both `sim` and `diff` relations are not symmetric by default.
-							- Due to the ((66c88055-a994-4e59-a7dc-83f3331a6e1d)), ((685a9913-6bf4-41e4-89d1-5000a2b2f9d5)) nature of relation in Unïnfo, 
+						- 🧭 The direction of relations is crucial in Unïnfo, since both `sim` and `diff` relations are not symmetric by default.
+							- Due to the ((66c88055-a994-4e59-a7dc-83f3331a6e1d)), ((685a9913-6bf4-41e4-89d1-5000a2b2f9d5)) nature of relation in Unïnfo, 
 							  “A differs from B” doesn't mean “B differs from A”, and 
 							  “A is similar to B” doesn't mean “B is similar to A”.
-							- In Unïnfo, instead of static symmetric relations (like “distance between 2 points”), most of them are circular relations, like [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), e.g. $O_0 → O_1 → O_2 → ... → O_0$.
+							- In Unïnfo, instead of static symmetric relations (like “distance between 2 points”), most of them are circular relations, like [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), e.g. $O_0 → O_1 → O_2 → ... → O_0$.
 							- The circularity of relations gives rise to paradoxical characteristics, e.g.: 
 							  > $O_0$ is very similar to $O_1$ but very different from $O_1$.
 								- These paradoxes usually emerge in Quantum physics, like the [3-polarizer paradox](https://www.informationphilosopher.com/solutions/experiments/dirac_3-polarizers/).
@@ -3420,7 +3420,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  The Theory of ((66537a41-f229-4891-803e-828573eb44f3))
 		- GitHub: https://github.com/bixycler/Uniinfo
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The published theoretical part of the ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
-			- The metaphysical theory of Unïnfo [𝕄]
+			- The metaphysical theory of Unïnfo [𝕄]
 				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) [♾]:
 					- ((66f3d4a2-375f-4098-9228-66c611f0da90)): [Circle](((66f3d561-424a-4e1d-be55-98ac39c48502))), [Arrow](((66f3d5ca-a982-4d12-b307-fd4812adeb3b))), [Equal](((66f3d5cc-0d68-47bb-b09a-87cda33c7354)))
 					- ((66f3d61c-35d0-46ae-9786-752af40e64c4)): [Exsistence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))), [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69)))
@@ -3430,7 +3430,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((66723642-58f1-4a74-bba3-0108f14c6bac)): ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)), ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
 					- ((678e2046-54ac-4284-865d-6f3e38f589a1))
 					- ((686e6e72-13f8-4dc9-a8e2-de35519f57d7))
-				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
+				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
 					- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
 			- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory [Ʊ]
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) [((66f3c32c-9b5a-4e5a-95cc-411256b40b4f))]: ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) ÷ ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) = ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))
@@ -3608,7 +3608,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “vacantism” ← “[vacant](https://en.wiktionary.org/wiki/vacant)” ← Latin “[vacans](https://en.wiktionary.org/wiki/vacans#Latin)” ← “[vacō](https://en.wiktionary.org/wiki/vaco#Latin)” (empty, void, unoccupied, free [time]) ← PIE “[*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-)” (empty, extinguished) → English “void”, “want”, “vain”, “vacant”, “vacuum”, etc.
 		- Numbering
 		  collapsed:: true
-			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called [the unity of opposites](https://en.wikipedia.org/wiki/Unity_of_opposites) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's [relativistic](https://en.wikipedia.org/wiki/Relativism) as reflected by the intrinsics of the Zero (the Trinion).
+			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called [the unity of opposites](https://en.wikipedia.org/wiki/Unity_of_opposites) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's [relativistic](https://en.wikipedia.org/wiki/Relativism) as reflected by the intrinsics of the Zero (the Trinion).
 				- > “The Way generates the One; the One generates the Two; the Two generates the Three; the Three generates all things.”
 				  「道生一，一生二，二生三，三生萬物。」
 				  
@@ -3634,12 +3634,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ![Trinion-onion.png](../assets/Uniinfo/Trinion-onion.png)
 				- Side notes:
 					- Searching for “trinion”, I've found two usages, “trinion” as a 3D complex number ⟪x + y**i** + z**j**⟫, and [the “Trinion Wheel” in NeoDeism](https://www.neodeism.com/trinion-contradictions/).
-					- The theme of triads in Unïnfo reflects the natural triadic relations in philosophies from the East to the West: Taoism's “yin-yang-qi”, Hinduism's Trimurti, Celtic culture's triplism, Christianity's Trinity, as well as triples of [categories of being](https://en.wikipedia.org/wiki/Category_of_being#Hegel) from Plotinus to Kant, Hegel and Peirce.
+					- The theme of triads in Unïnfo reflects the natural triadic relations in philosophies from the East to the West: Taoism's “yin-yang-qi”, Hinduism's Trimurti, Celtic culture's triplism, Christianity's Trinity, as well as triples of [categories of being](https://en.wikipedia.org/wiki/Category_of_being#Hegel) from Plotinus to Kant, Hegel and Peirce.
 			- Postulate vs axiom
 			  id:: 66f3cf07-4be5-4a50-9d99-b190b60f6ffa
 			  collapsed:: true
 				- “Postulates” and “axioms” are both basic assumptions of a theory and are used as the foundation and starting points to build that theory upon. However, while “axioms” are statements taken to be self-evident, accepted to be “true obviously” without question nor controversy, as reflected in the adjective “axiomatic” and in axiomatic systems of mathematics, “postulates” are statements derived from our real-world experiences, like the five postulates of Euclid (in contrast with Euclid's five axioms), and like the principles of physics.
-				- In particular, the three postulates of Unïnfo here are statements derived from the author's experience.
+				- In particular, the three postulates of Unïnfo here are statements derived from the author's experience.
 				- Hence, these postulates are not meant to be the “ultimate truth”, and the correspondent components are not meant to be the most fundamental [categories](https://en.wikipedia.org/wiki/Theory_of_Categories) like in dualistic and plurualistic ontologies. These postulates are just proposed here to be the theory's starting points, which are open and will be revised again and again throughout the theory.
 			- About “intrinsics”
 			  id:: 66f3e170-dc4b-45ea-8720-de4580a30d01
@@ -3710,7 +3710,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ((684f951a-4c9b-45c1-80b0-dc10d12a2dbb))
 							- ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
 							- ((67fe23f7-3afe-4e77-be1d-fa8a15416bc3))
-					- “Circle = Arrow” is the Harmonious Integration (融通, Dung Thông) of Unïnfo.
+					- “Circle = Arrow” is the Harmonious Integration (融通, Dung Thông) of Unïnfo.
 					  id:: 689029a3-c02b-4cb9-b1bd-205f12c97391
 					  collapsed:: true
 					  :LOGBOOK:
@@ -4609,7 +4609,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- 3. Hình tướng là thứ sẽ bị biến dạng.
 										- 3+. Hình tướng là thứ phải chịu hư mất.
 							- Due to the stability (lastingness) of the closed form, ordinary beings naturally develop attachment to the self, often under the illusion that it's permanent (everlasting).
-							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
+							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
 							  collapsed:: true
 								- [Itchy sutta](https://suttacentral.net/sn22.79/en/sujato) (Khajjanīya sutta, SN 22:79):
 								  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It’s *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
@@ -4849,13 +4849,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- The general ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus the strongly volitional “intent” in common usage
 			  collapsed:: true
-				- Unïnfo's “intent” > “intention” > common “intent”
+				- Unïnfo's “intent” > “intention” > common “intent”
 				  | Term                  | Volitional?     | Semantic, Conceptual? | Generalized? | Common Use                      |
 				  | ------------------ | --------------- | ----------------------- | ------------ | --------------------------- |
-				  | **Intent** (Unïnfo)  | Not necessarily | ✅ Yes                | ✅ Highly     | Internal potential of subjects |
+				  | **Intent** (Unïnfo)  | Not necessarily | ✅ Yes                | ✅ Highly     | Internal potential of subjects |
 				  | **Intent** (Common sense) | ✅ Strong        | ❌ Usually no         | ❌ Narrow     | Legal, formal, mental state     |
 				  | **Intention**         | ✅ Yes           | ✅ Sometimes          | ❌ Medium     | Goal-driven action              |
-				- The general meaning of “intent” used in Unïnfo is an archaic connotation mentioned in some (old) dictionaries, as shown by [OneLook > intent](https://www.onelook.com/?w=intent).
+				- The general meaning of “intent” used in Unïnfo is an archaic connotation mentioned in some (old) dictionaries, as shown by [OneLook > intent](https://www.onelook.com/?w=intent).
 				  id:: 686cef15-5eab-44f1-b8d7-3d8a9edcfa69
 					- [Vocabulary.com](https://www.vocabulary.com/dictionary/intent)
 					  > 2. `noun` the intended meaning of a communication
@@ -4865,10 +4865,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  > meaning; significance.
 					- [The Century Dictionary > intent](https://www.wordnik.com/words/intent)
 					  > `noun` Notion; idea; thought; opinion.
-				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
+				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
 				- Conscious intention vs. latent/dormant intent in the unconscious
 				  id:: 686ce608-1a1b-4b57-993a-fe8e943dc916
-					- In Unïnfo, ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) must be **conscious**, while the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic, as well as the “laten/dormant intent” ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), falls out of the scope of “intention” and into the general meaning of “intent”.
+					- In Unïnfo, ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) must be **conscious**, while the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic, as well as the “laten/dormant intent” ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), falls out of the scope of “intention” and into the general meaning of “intent”.
 					- The **latent intent** is just an *intention in the past*, which has sunk under the conscious surface, leaving only a tendency as its [“antenna”](https://en.wikipedia.org/wiki/Antenna_(zoology)) on the consciousness.
 					  id:: 686e096b-d730-4d9e-ae58-4ca2cf7b93aa
 						- Antenna = sensitive hair = tendency = ((66e42d39-a296-4ed9-a686-4cb213783830)) = ${\vec v}/|v|$ = distortion = deviation from the roundness, from the uniform
@@ -4887,7 +4887,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- From his University time, he had contemplated a lot about the 2 duals of intension/extension and form/content.
 					- When Will contemplated the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in 2020, he revived the [archaic word “intent”](((686cef15-5eab-44f1-b8d7-3d8a9edcfa69))) to capture the general meaning of both semantical “inten**s**ion” and volitional “inten**t**ion”. The word “intent” was chosen instead of “intension” in order to be parallel with the other 2 compoents: content–intent–extent.
 						- Actually, at first he thought that the term “intent” with general meaning was his own coinage... only to learn later that it was an archaic connotation.
-			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its noun “intent”, as shown with the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)): “to direct attention to and focus on a target within the subject”.
+			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its noun “intent”, as shown with the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)): “to direct attention to and focus on a target within the subject”.
 			  id:: 68a7de6e-fbe8-4fb9-8dc1-6279c066565f
 			  collapsed:: true
 			  :LOGBOOK:
@@ -5043,7 +5043,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
 						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
-						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
+						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
 				- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
@@ -5841,7 +5841,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://blacksmithgu.github.io/obsidian-dataview/
 					- GitHub: https://github.com/blacksmithgu/obsidian-dataview
 					- Custom settings:
-						- Inline query prefix: use `` `dv::` `` instead of the default `` `=` `` because ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (`=`) is the central symbol in [[Unïnfo Theory]].
+						- Inline query prefix: use `` `dv::` `` instead of the default `` `=` `` because ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (`=`) is the central symbol in [[Unïnfo Theory]].
 				- Obsidian Importer
 				  id:: 665376f4-9335-4d38-843f-a4cf6ef6cd10
 				  collapsed:: true
