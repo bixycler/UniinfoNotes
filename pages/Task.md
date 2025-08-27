@@ -130,6 +130,9 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			- Reason: ((68a520bf-ed90-4e1f-ae2a-0700d7f51b05))
 			- Some filenames containing `Unïnfo` must be converted too.
 			- Some files are left unchanged, due to their historical nature.
+			- Commits
+				- `ab759f3b`: Replace Unïnfo with Unïnfo in Mind Jungle.md
+				- `1ba482c0`:
 		- DOING [!] Làm lại thẻ VCB
 		  id:: 686e580a-a0d6-4e0c-981c-e15665b8e4d0
 		  collapsed:: true
