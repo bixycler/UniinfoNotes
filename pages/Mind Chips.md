@@ -1,11 +1,7 @@
-- deathtrap: 
-    - twisted double i from ... to ...
-    - opportunity is just a bait of the snare
--  
-
-## 2025 Mind Chips
-id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
-collapsed:: true
+- ---
+- ## 2025 Mind Chips
+  id:: 6842ab6e-a465-4b20-bbf0-196eeb879e3c
+  collapsed:: true
 	- Tân Chánh Hiệp → Trung Mỹ Tây
 	  collapsed:: true
 	  :LOGBOOK:

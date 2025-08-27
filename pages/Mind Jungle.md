@@ -5625,17 +5625,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  > Within the Western tradition, I think it's quite new, and quite shocking, because there's been much more of a sense of separation. But if you look at other non-Western cultures, especially in Asia, the emphasis on those has always been on the realization that the self and the world are not separate from each other, that they're really interconnected: that the individual self and the species as a whole is a manifestation of the large whole.
 										- Frank White
 										  > As you go into your mind in a contemplative way, the sense of the living reality of the planet becomes obvious, you become more in tune with the natural world. This is very akin to the direct perception that the astronauts have, so it's no wonder that many people have likened the Overview Effect to a spiritual or meditative experience, although it's not exactly that. It's a cognitive shift, that very often can produce a kind of meditative experience.
-						- The deathtrap of opportunity
-						  id:: 68adb0c5-e979-475e-8432-730d9d8970bc
-							- From natural traps like cave, social traps like gambling, to man-made traps of animals and [feigned retreat](https://en.wikipedia.org/wiki/Feigned_retreat) tactic, all these traps have the same set of features.
-							- Most of the works i'm trapped in, e.g. [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))), are deathtraps of opportunity:
-								- ((669a58b9-1a52-4ad7-932a-9e45ecb9960e))
-								- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
-								- ((684f9517-b752-4c07-98d8-bfab5d8ed79e))
-								- there's always a way ahead;
-								- no strong opposition or constraint to force backing off;
-								- strong urge (karma) to advance toward the target.
-							- Opportunity is just a snare 😜!
+					- The deathtrap of opportunity
+					  id:: 68adb0c5-e979-475e-8432-730d9d8970bc
+						- From natural traps like cave, social traps like gambling, to man-made traps of animals and [feigned retreat](https://en.wikipedia.org/wiki/Feigned_retreat) tactic, all these traps have the same set of features.
+						- Most of the works i'm trapped in, e.g. modeling the [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))) from [19th](((68a520c4-b31e-4256-bdfd-3e6f249ea0b9))) to [25th](((68ac6971-f8ff-4cd1-9084-06b5f298d928))), are deathtraps of opportunity:
+							- ((669a58b9-1a52-4ad7-932a-9e45ecb9960e))
+							- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
+							- ((684f9517-b752-4c07-98d8-bfab5d8ed79e))
+							- there's always a way ahead;
+							- no strong opposition or constraint to force backing off;
+							- strong urge (karma) to advance toward the target.
+						- Opportunity is just a bait of the snare 😜!
 					- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
 					  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
 					  collapsed:: true

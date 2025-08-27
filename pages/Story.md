@@ -3542,6 +3542,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68a7de6e-fbe8-4fb9-8dc1-6279c066565f))
 				- ((68a7e246-8407-4e89-b393-912db172e4fe))
 			- 19th, a day with strong engagement in the official work which led to the ((68a595fd-6761-4b5e-aa64-1e3f0a1fc3be))
+			  id:: 68a520c4-b31e-4256-bdfd-3e6f249ea0b9
 			  collapsed:: true
 				- The two-strand rope model for the [double-dotted i (ï)](((68a3ea54-f275-40b8-93ae-4a2bd8da4a06))) in “Unïnfo”
 				  id:: 68a520c4-6a2e-4db9-8806-c4b4e55390e8
@@ -3695,6 +3696,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- [Agoda provides assistance](https://partnerhub.agoda.com/what-can-i-do-if-the-guest-did-not-show-up-no-show/): Agoda will inform you if the property is attempting to make a charge and will provide the guest's credit card details if a charge was not possible through the initial charge attempt.
 							- Risk assessment system: An AI-powered risk evaluation system is used to identify high-risk guests based on their booking history and past behavior (no-shows reported by hotels).
 			- 25th, the whole day caught up with debugging the unplayable video saved from HTML rendered 3D model of the [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
+			  id:: 68ac6971-f8ff-4cd1-9084-06b5f298d928
 			  collapsed:: true
 				- It seems to be Ubuntu's problem with 3D graphics: Unplayable `webm` exported from 3D canvas.
 					- Disabling hardware acceleration on browser doesn't help.
