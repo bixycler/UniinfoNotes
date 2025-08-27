@@ -225,7 +225,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 							  :END:
 						- Farther, no docs, no concrete "story" remaining in my mind, just the general ideas of it: ((678df0f0-20d2-4995-bfc2-0b953970469d))
 							- And leave this in Brainstorming.
-			- In the course of trying various LLMs, i'm touching various parts of Unïnfo begging for updates...
+			- In the course of trying various LLMs, i'm touching various parts of Unïnfo begging for updates...
 			  id:: 67a035a8-f826-4b89-8eb4-3d2cd679dd1f
 			  collapsed:: true
 			  :LOGBOOK:
@@ -241,14 +241,14 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 				  CLOCK: [2025-02-10 Mon 09:57:06]
 				  CLOCK: [2025-02-10 Mon 09:57:09]--[2025-02-10 Mon 10:00:23] =>  00:03:14
 				  :END:
-				- The "various parts of Unïnfo begging for updates" have been gone far from my mind...
+				- The "various parts of Unïnfo begging for updates" have been gone far from my mind...
 				- So just flush this braindump away, now!
 			- [?] Where should i place this basic operation of [transcycling](((678b7762-1187-4330-93cb-7a62e14467a8)))?
 			  id:: 678dbff1-19ea-47c5-8794-2638d53ee7dd
 				- ⇒ Put it in ((67a963d9-e7d3-4e46-a608-24059d730f4a))
 			- ((67a5dcde-4189-4626-8396-61577b6906a4))
 			  id:: 67a5dd00-f5cf-4e51-9ea1-2fea15d3595a
-			- Now, i'm wrapping the WIPs up for [a big merge commit](((67164cc1-e500-4889-9b6d-12d8dd7fc029))): `Various stuffs all over the place: Technical stuffs, Unïnfo, Life stories`
+			- Now, i'm wrapping the WIPs up for [a big merge commit](((67164cc1-e500-4889-9b6d-12d8dd7fc029))): `Various stuffs all over the place: Technical stuffs, Unïnfo, Life stories`
 			  collapsed:: true
 				- in `log`: `302bec3f`
 				- in `main`: `6d48b4b3`
@@ -672,13 +672,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 						  :LOGBOOK:
 						  CLOCK: [2025-05-06 Tue 11:38:13]--[2025-05-06 Tue 11:38:19] =>  00:00:06
 						  :END:
-					- DONE **Unïnfo** can also capture the vague notion that "*everything is information*", which is _not a formal statement_ but can be sensed throughout the Unïnfo Theory.
+					- DONE **Unïnfo** can also capture the vague notion that "*everything is information*", which is _not a formal statement_ but can be sensed throughout the Unïnfo Theory.
 					  :LOGBOOK:
 					  CLOCK: [2025-05-06 Tue 11:54:34]--[2025-05-06 Tue 20:04:14] =>  08:09:40
 					  :END:
 						- DONE That vague notion of the "universal information" is actually the "universal substance underlying everything" formally modeled as the **Ω-thread**, which is again usually vaguely referred to as the "**Unithread**"! 😊
 							- Ω-thread contains not only information (extent) but also sustent.
-						- DONE Formally, both Unïnfo and Unithread are the names of **theories** whose 
+						- DONE Formally, both Unïnfo and Unithread are the names of **theories** whose 
 						  corresponding **concepts** are the Trinion and the Ω-thread.
 						- ⇒ Ported to these notes:
 							- ((6819f75f-1bab-4cc7-9316-228d14aa80d9))

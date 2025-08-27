@@ -70,9 +70,9 @@
 				- Qualiton is to quantum in Unithread as intent is to extent in the CIE formula. It's the "elementary particle" of intent/quality, hence the "smallest" instances of the Trinion.
 				- In brief, Trinion -[Equal]-> obop -[intent]-> qualiton
 				- Furthermore, the qualiton in uninet is called "autonoton".
-			- Unïnfo can also capture the vague notion that "everything is information", which is _**not** a formal statement_ but can be sensed throughout the Unïnfo Theory.
+			- Unïnfo can also capture the vague notion that "everything is information", which is _**not** a formal statement_ but can be sensed throughout the Unïnfo Theory.
 				- That vague notion of the "universal information underlying everything" is formally modeled as the Ω-thread, which is again usually vaguely referred to as the "Unithread"! 😊
-				- Formally, both Unïnfo and Unithread are the names of theories.
+				- Formally, both Unïnfo and Unithread are the names of theories.
 				- Formal concepts are the Trinion and the Ω-thread.
 				- The whole Ω-thread is an instance of the Trinion, hence a **concrete thing**, i.e. a "being", but its partial chunks (segments called simply "threads") can represent anything, including the abstract concepts.
 				- Each Ω-thread runs through the whole Ω (Omnifold = Universe) in a particular way corresponding to a particular configuration of the Universe.
@@ -87,8 +87,8 @@
 	- 2025-02-03
 		- [New theory unites Einstein’s theory of relativity with quantum mechanics](https://www.thebrighterside.news/space/new-theory-unites-einsteins-theory-of-relativity-with-quantum-mechanics/)
 		- [postquantum theory of classical gravity](https://www.nature.com/articles/s41467-023-43348-2)
-		- **[FILE]**: [Unïnfo_Notes_Full_Overview_2025_02_02_en_US_transcription.srt](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Unïnfo_Notes_Full_Overview_2025_02_02_en_US_transcription.srt)
-		- **[FILE]**: [Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt)
+		- **[FILE]**: [Unïnfo_Notes_Full_Overview_2025_02_02_en_US_transcription.srt](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Unïnfo_Notes_Full_Overview_2025_02_02_en_US_transcription.srt)
+		- **[FILE]**: [Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt](../assets/Will/story/2025-06/TelegramSaved_2020-02_2025-05/files/Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt)
 	- 2025-02-23
 		- 3 types of linearity: r = 0, repeat the same pattern, in nD space: n axises have the same distribution
 	- 2025-04-09

@@ -1,4 +1,4 @@
-For the webpage of [[Unïnfo Theory]], we can embed things like
+For the webpage of [[Unïnfo Theory]], we can embed things like
 
 - GeoGebra applets
 - Google Drawings diagrams
@@ -25,9 +25,9 @@ For the webpage of [[Unïnfo Theory]], we can embed things like
   The identity $d e^x = e^xd x$ is very important in differential calculus. It can be derived from the limit definition: $$ e^\alpha = \exp(\alpha) = \lim_{n\to\infty}{\left(1+\frac{\alpha}{n}\right)^n} $$
 - ### YouTube videos
   
-  ![Unitorus, the symbol of Unïnfo Theory](https://youtu.be/7OR_6L2zyHE)
+  ![Unitorus, the symbol of Unïnfo Theory](https://youtu.be/7OR_6L2zyHE)
 - ### ((66535660-643e-471a-a332-8f2306c5494f)) notes
-- [[Unïnfo Theory#The metaphysical theory of Unïnfo (𝕄)]]: ![[Unïnfo Theory#The metaphysical theory of Unïnfo (𝕄)]]
+- [[Unïnfo Theory#The metaphysical theory of Unïnfo (𝕄)]]: ![[Unïnfo Theory#The metaphysical theory of Unïnfo (𝕄)]]
   
   
   Escapes:
