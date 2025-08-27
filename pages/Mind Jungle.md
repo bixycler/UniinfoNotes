@@ -5636,6 +5636,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- no strong opposition or constraint to force backing off;
 							- strong urge (karma) to advance toward the target.
 						- Opportunity is just a bait of the snare 😜!
+							- “Better shun the bait, than struggle in the snare.” 
+							  ― John Dryden
 					- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
 					  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
 					  collapsed:: true
