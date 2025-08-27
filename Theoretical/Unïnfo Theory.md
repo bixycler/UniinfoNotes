@@ -2,21 +2,21 @@ The Theory of Universal Information
 ===
 
 - GitHub: https://github.com/bixycler/Uniinfo
-- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The published theoretical part of the [[Unïnfo].
+- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The published theoretical part of the [[Unïnfo].
 - Symbol: ![[Unitorus.png|100]]
   id:: 66b1cfa3-954e-43cd-8773-ae095f92fcf7
   
   
-  “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
+  “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
 - ### Contents
-- ### The metaphysical theory of Unïnfo (𝕄)
+- ### The metaphysical theory of Unïnfo (𝕄)
 - [[Trinion]]: The union of the three basic components Circle - Arrow - Equal, with the correspondent three basic postulates and the intrinsics unifying them together
   id:: 669a58b8-ebb3-4877-a5ef-96ea571ec22e
 - [[FoC|The FoC]]: The Trinion as a subject with three components Form - Operator - Content
 - [[CIE|The CIE (Ψ)]]: The subjective and quantitative view of the Universe as Content - Intent - Extent and their three partitions
 - [[sCIfEr|The sCIfEr (∅)]]: The fabric of the Universe woven by the interleaving between object and subject
 - [[Exponential|Exp]]: The eigenvector of differential-integral calculus
-- [[UniTorus]]: The symbol of Unïnfo
+- [[UniTorus]]: The symbol of Unïnfo
 - ### Unithread Theory (Ʊ)
   id:: 6735b185-f526-4de1-9da7-c1fdecab845c
 - []([[Om-thread]]): From thread to current
