@@ -3714,6 +3714,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The “burden of knowledge” is the burdens and sufferings that the knowledge brings to its bearer.
 						- Actually, at first i called it the  “curse of knowledge”, but reworded “curse” to “burden” to avoid confusion with the cognitive bias of the same name, i.e. the [curse of expertise](https://en.wikipedia.org/wiki/Curse_of_knowledge).
 					- The “burden of awareness” is much deeper than the “burden of knowledge”.
+				- Thanks to online services, i'm reminded that today is my birthday! 😁 This day never has any meaning to me, though! The only meaning that i can recognize is that it connects me with people around, which depends on them, not myself!
 				-
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
