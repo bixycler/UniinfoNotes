@@ -3328,10 +3328,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- My appeal has cleared this ((6880e5f7-3f00-4d8f-a63b-fcf9548175a2))
 						- Request for review
 						  > This is a simple static page with content merely about Dhammapada Sutta. Please show me how and which part of it "trick users into doing something dangerous, such as installing unwanted software or revealing personal information."
-					- DONE The Unïnfo page has been indexed, resulting in a search result for keword `Unïnfo` pointing to the front page.
+					- DONE Both front pages of Unïnfo & Dhammapada have been indexed, resulting in a search result for keword `Unïnfo` pointing to the front page.
 					  :LOGBOOK:
 					  CLOCK: [2025-07-29 Tue 20:23:47]--[2025-07-29 Tue 20:23:50] =>  00:00:03
 					  :END:
+					- Unïnfo site
+						- [14001986](https://github.com/bixycler/Uniinfo/commit/14001986): Add [robots.txt](https://bixycler.github.io/Uniinfo/robots.txt) & [sitemap.xml](https://bixycler.github.io/Uniinfo/sitemap.xml)
 			- 24th, ((6882164a-8717-4fd4-a660-4fdeb424af70))
 			  collapsed:: true
 				- Will Lei's cover of [Canon in D](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon) in [Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ)
