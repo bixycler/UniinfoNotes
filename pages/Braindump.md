@@ -750,4 +750,6 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ((68a3e5cf-5523-4da5-ad38-d30ab6016f88))
 		- The bliss of ignorance and the curse of knowledge!
+		  collapsed:: true
+			- This “curse of knowledge” is the burden, suffering that the knowledge brings to its bearer. This curse is broader than the cognitive bias with the same name, i.e. the [curse of expertise](https://en.wikipedia.org/wiki/Curse_of_knowledge).
 		- ...
