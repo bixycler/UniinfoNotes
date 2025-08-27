@@ -3317,7 +3317,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [Alternate page with proper canonical tag](https://support.google.com/webmasters/answer/7440203#duplicate_page_with_proper_canonical_tag): These pages are mobile version (`?m=1`) of a desktop [canonical](https://support.google.com/webmasters/answer/139066).
 						  id:: 6888c16c-af83-4602-a7d5-fe401698b4de
 					- A strange thing is that all pages are crawled by `Googlebot smartphone` not `Googlebot`!?
-					- With https://technicalseo.com/tools/fetch-render/, i see that the `Googlebot smartphone`
+					- With https://technicalseo.com/tools/fetch-render/, i see that the `Googlebot smartphone` crawls the mobile version which will be redirected to the canonical version... via HTTP redirect (`302` Found)!
+						- Is this the root cause?! 🤔
 				- Adding other sites ([Unïnfo](https://bixycler.github.io/Uniinfo/), [Kinh Pháp Cú (Dhammapada)](https://bixycler.github.io/PhapCu-Dhammapada/)) to Google Search Console, they are all reported "security issue" 😮🤔 which have been resolved by appeals.
 				  collapsed:: true
 					- Security issue: Deceptive pages (phishing?!)
