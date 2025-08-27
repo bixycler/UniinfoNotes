@@ -124,6 +124,7 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		- TODO Replace Unïnfo with Unïnfo
 id:: 68a3e5cf-5523-4da5-ad38-d30ab6016f88
 		- DOING [!] Làm lại thẻ VCB
+		  id:: 686e580a-a0d6-4e0c-981c-e15665b8e4d0
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-08-27 Wed 10:59:07]

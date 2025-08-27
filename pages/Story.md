@@ -3707,6 +3707,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- So at last, i must mirror the 3D canvas of THREE.js to a 2D canvas for recording.
 				- ⇒ I saw ((68adb0c5-e979-475e-8432-730d9d8970bc))
 			- 26th, project meeting and draw diagrams with ((68ad91c4-0083-432f-a90d-e2401b072919)) in [logseq-fenced-code-plus](((68ad8f51-795d-4f17-ad90-f8b97968e478))).
+			- 27th, thanks to an appointment with a QA collegue, this morning was filled with works related to the project, and took advantage of the last morning hour to do the long waited lask ((686e580a-a0d6-4e0c-981c-e15665b8e4d0)).
+			  collapsed:: true
+				- The bliss of ignorance and the burden of knowledge and awareness!
+				  collapsed:: true
+					- The “burden of knowledge” is the burdens and sufferings that the knowledge brings to its bearer.
+						- Actually, at first i called it the  “curse of knowledge”, but reworded “curse” to “burden” to avoid confusion with the cognitive bias of the same name, i.e. the [curse of expertise](https://en.wikipedia.org/wiki/Curse_of_knowledge).
+					- The “burden of awareness” is much deeper than the “burden of knowledge”.
+				-
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
