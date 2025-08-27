@@ -3397,7 +3397,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66537a44-f579-4fcc-a02b-2f32d0d409fc
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537a41-f229-4891-803e-828573eb44f3))
 			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “**Uni**versal **Info**rmation” → “Uni-info” /ˈjuːnɪˌɪnfoʊ/ → “Uniinfo” → “Unïnfo” /ˈjuːniːnfoʊ/
-			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “uni·info” /ˈjuːnɪˌɪnfoʊ/ or better /ˈjuːniːnfoʊ/, where the “double-dotted i” (ï) is the fusing result of the “double i” (ii) and pronounced just like the English pronunciation of “naïve” /naɪˈiːv/.
+			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “uni·info” /ˈjuːnɪˌɪnfoʊ/ or better /ˈjuːniːnfoʊ/, where the “double-dotted i” (ï) is the fusing result of the “double i” (ii) and pronounced just like the English pronunciation of “naïve” /naɪˈiːv/.
 				- The double-dotted i (ï) denotes the unification of the two letters ‘ii’, hence its unified pronunciation /ˈjuːniːnfoʊ/ in stead of the separate one /ˈjuːnɪˌɪnfoʊ/.
 				  id:: 68a3ea54-f275-40b8-93ae-4a2bd8da4a06
 					- For the ease of typing on keyboard, the separate spelling “Uniinfo” is also used casually in place of the formal spelling “Unïnfo”.

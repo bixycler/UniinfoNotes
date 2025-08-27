@@ -7,7 +7,7 @@ The Theory of Universal Information
   id:: 66b1cfa3-954e-43cd-8773-ae095f92fcf7
   
   
-  “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
+  “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
 - ### Contents
 - ### The metaphysical theory of Unïnfo (𝕄)
 - [[Trinion]]: The union of the three basic components Circle - Arrow - Equal, with the correspondent three basic postulates and the intrinsics unifying them together
