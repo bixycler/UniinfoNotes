@@ -3311,9 +3311,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- `https://creatzynotes.blogspot.com` is a non-canonical URL that redirects to another page 🤔?! Where's it redirected to?
 								- With `Test Live URL` (follows redirects and then tests the final URL) in `URL Inspection`, the target URL (not shown) is shown as [available](https://support.google.com/webmasters/answer/9012289#will_i_be_indexed), i.e. can be indexed with conditions! 😮
 							- After a month, [spirorus-structure-of-spacetime.html](https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html) has become unindexed due to this "redirect" issue (failed on Aug 11, 2025).
-								- In "Enhancements & Experience", [HTTPS is invalid and might prevent it from being indexed](https://support.google.com/webmasters/answer/11396518#errors)
-								- ⇒ I've just turned the blog's option "HTTPS redirect" on, and wait...
+								- In "Enhancements & Experience", the error [HTTP marked with canonical tag](https://support.google.com/webmasters/answer/11396518#errors) indicates that the `<link rel="canonical">` tag in pages served via HTTP has overriden HTTPS version – although they are identical!
+								- ⇒ I've just turned the blog's option "HTTPS redirect" ON, to ensure all visits to HTTP are redirected to HTTPS, and wait...
 						- [Alternate page with proper canonical tag](https://support.google.com/webmasters/answer/7440203#duplicate_page_with_proper_canonical_tag): These pages are mobile version (`?m=1`) of a desktop [canonical](https://support.google.com/webmasters/answer/139066).
+					- A strange thing is that all pages are crawled by ``
 				- Adding other sites ([Unïnfo](https://bixycler.github.io/Uniinfo/), [Kinh Pháp Cú (Dhammapada)](https://bixycler.github.io/PhapCu-Dhammapada/)) to Google Search Console, they are all reported "security issue" 😮🤔 which have been resolved by appeals.
 				  collapsed:: true
 					- Security issue: Deceptive pages (phishing?!)
