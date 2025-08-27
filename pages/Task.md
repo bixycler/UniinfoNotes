@@ -121,8 +121,12 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 		- DONE This weekends ([12-13 July](((6874657a-c5dd-46fb-a2f3-1d7f059e2a07)))), LSD trip with Mr. Hiệp
 	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
 	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
-		- TODO Replace Unïnfo with Unïnfo
-id:: 68a3e5cf-5523-4da5-ad38-d30ab6016f88
+		- DOING Replace Unïnfo with Unïnfo
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-27 Wed 16:01:13]
+		  :END:
+			- Some files
 		- DOING [!] Làm lại thẻ VCB
 		  id:: 686e580a-a0d6-4e0c-981c-e15665b8e4d0
 		  collapsed:: true
