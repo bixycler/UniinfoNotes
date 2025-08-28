@@ -748,5 +748,7 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 	  id:: 6888ce20-f91a-4664-9ae6-e80598e88841
 	- ## Braindumping < ((6888ce20-f91a-4664-9ae6-e80598e88841))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
-		-
+		- Brainstorming versus **braincalming**
+			- While the brainstorms can be mapped and written down,
+			- the braincalms must be done by myself in solitary and silence!
 		- ...
