@@ -3751,7 +3751,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Pushing approaches: IdP → auth cliens
 						  id:: 68b17b45-1b8e-448f-b85d-f2cfee25abf4
 							- The normal push is done between backends, but authentication is tied to the browser with credentials (cookies).
-							- ChatGPT suggested a combination of back-channel push and front-channel pushes
+							- At first, i thought of simple backend-push, forgetting the requirement of browser's credentials.
+							- After posting some hints about my “push approach” to the working group, a doubt from the customer triggered my re-examination so that i saw the flaw in my approach of simple backend-push.
+							- Refining it, i arrived at the approach of “**push-redirect**”, then asked ChatGPT for clearer examination.
+								- ChatGPT suggested a combination of back-channel push and front-channel pushe via websockets, but its overcomplicated and difficult to pinpoint the correct browser for the push target.
+								- So i just stay with my original push-redirect approach.
+					-
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
