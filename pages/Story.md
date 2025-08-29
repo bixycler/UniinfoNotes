@@ -3758,11 +3758,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- ChatGPT suggested a combination of back-channel push and front-channel pushe via websockets, but its overcomplicated and difficult to pinpoint the correct browser for the push target.
 								- So i just stay with my original push-redirect approach.
 					- ⇒ ((68b17f4c-efe4-4de3-a99b-599b55478995))
-			- 29th,
+			- 29th, morning slept up
 				- Review the ((68b16f0e-f3bf-49d3-b465-ef9db4b5a82c))
 				  id:: 68b17f4c-efe4-4de3-a99b-599b55478995
 					- From the beginning of last night, i had mild headache, to the end it had increased to a rather strong one.
 					- Headache ← pressure: the pressure of/around the eyes increase, causing headache. There are various types of pressure i've experienced.
+					  id:: 68b180fe-23ea-4fd6-8da3-89d46858332e
 						- reaction to coldness in Japan: vasoconstriction, increase blood pressure and temparature
 							- This reaction did revert my blood pressure drop when wake up late, to the blood pressure rise.
 						- contraction in breath hold diving: the pressure is very clear due to the strong contractions.
