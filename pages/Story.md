@@ -3736,9 +3736,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 68b00dde-717f-4d86-ab95-3af9128c998c
 					- While the brainstorms can be mapped and written down,
 					- the braincalms must be done by myself in solitary and silence!
-				- The whole night caught up with fixing a mistake in my shared proposal of solution in the working group
+				- The whole night caught up with fixing a mistake in my proposal of solution shared in the working group
 				  id:: 68b16df2-c546-432e-80bc-3a4f5d6ffb7f
-					-
+					- Story
+						- The problem in the current project is to synchronize login status between two domains within the same (split) “web site” (the split was due to historical reasons).
+						- The standard [SSO](https://en.wikipedia.org/wiki/Single_sign-on) workflow _use page-redirects at **login time** to pull SSO session cookies from the IdP_, hence “pull redirect” approach.
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
