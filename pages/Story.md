@@ -3762,7 +3762,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Review the ((68b16f0e-f3bf-49d3-b465-ef9db4b5a82c))
 				  id:: 68b17f4c-efe4-4de3-a99b-599b55478995
 					- → pressure → headache
-					- impression → intent
+						- reaction to coldness in Japan: vasoconstriction, increase blood pressure and temparature
+						- contraction in breath hold diving
+						- mental pressures in interaction and in work: to find solution, to return to the fixated impressions (understanding, seeing clear/through, being correct/logical/sound),
+					- impression → intent → restoring force toward the impression
 					-
 				- [Erin hurricane 2025 Aug](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) from 15th to 22nd, reaching category 5
 				  collapsed:: true
