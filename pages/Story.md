@@ -3738,7 +3738,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- the braincalms must be done by myself in solitary and silence!
 				- The whole night caught up with fixing a mistake in my proposal of solution shared in the working group
 				  id:: 68b16df2-c546-432e-80bc-3a4f5d6ffb7f
-					- Story
+					- Story of pull/push redirects
+					  id:: 68b16f0e-f3bf-49d3-b465-ef9db4b5a82c
 						- The problem in the current project is to synchronize login status between two domains within the same (split) “website” (the split was due to historical reasons).
 						- The standard [SSO](https://en.wikipedia.org/wiki/Single_sign-on) workflow _use page-redirects at **login time** to pull SSO session cookies from the IdP_, hence “pull-redirect” approach.
 							- That means the user must actively do something to trigger the login action, e.g. clicking a button.
@@ -3756,6 +3757,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Refining it, i arrived at the approach of “**push-redirect**”, then asked ChatGPT for clearer examination.
 								- ChatGPT suggested a combination of back-channel push and front-channel pushe via websockets, but its overcomplicated and difficult to pinpoint the correct browser for the push target.
 								- So i just stay with my original push-redirect approach.
+					- ⇒ ((68b17f4c-efe4-4de3-a99b-599b55478995))
+			- 29th,
+				- Review the ((68b16f0e-f3bf-49d3-b465-ef9db4b5a82c))
+				  id:: 68b17f4c-efe4-4de3-a99b-599b55478995
 					-
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
