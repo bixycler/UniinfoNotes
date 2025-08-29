@@ -3762,7 +3762,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Review the ((68b16f0e-f3bf-49d3-b465-ef9db4b5a82c))
 				  id:: 68b17f4c-efe4-4de3-a99b-599b55478995
 					-
-				- Erin hurricane 2025 Aug from 15th to 22nd, reaching category 5
+				- [Erin hurricane 2025 Aug](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) from 15th to 22nd, reaching category 5
+				  collapsed:: true
+					- Erin hurricane 2025 Aug from 20th to 22nd sweeping along the east coast of United States
+					  ![Erin-hurricane-2025-Aug-20-22.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-20-22.mp4)
+					- Erin hurricane 2025 Aug 16th rapidly intensified to catergory 5
+					  ![Erin-hurricane-2025-Aug-16-category-5.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-16-category-5.mp4)
+					- Erin hurricane 2025 Aug 20th lightning
+					  ![Erin-hurricane-2025-Aug-20-lightning.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-20-lightning.mp4)
+					- I intended to add these clips to the album [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6), but Google Photos has stopped supporting video play. So i just save them here! 😊
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
