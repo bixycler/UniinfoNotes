@@ -3740,10 +3740,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 68b16df2-c546-432e-80bc-3a4f5d6ffb7f
 					- Story
 						- The problem in the current project is to synchronize login status between two domains within the same (split) “website” (the split was due to historical reasons).
-						- The standard [SSO](https://en.wikipedia.org/wiki/Single_sign-on) workflow _use page-redirects at **login time** to pull SSO session cookies from the IdP_, hence “pull redirect” approach.
+						- The standard [SSO](https://en.wikipedia.org/wiki/Single_sign-on) workflow _use page-redirects at **login time** to pull SSO session cookies from the IdP_, hence “pull-redirect” approach.
 							- That means the user must actively do something to trigger the login action, e.g. clicking a button.
-						- Because the two domains in this project are of the same website, customer wants a **transparent UX** such that users don't need to do anything “second login” action but automatically get logged into both domains after a single login action.
-						-
+						- Because the two domains in this project are of the same website, customer wants a **transparent UX** such that users don't need to do any “second login” action but automatically get logged into both domains after a single login action.
+						- The group leader nailed it down with the solution of adding pull-redirect to all places that do authentication status check, which is too much!
+							- Though felt unsettling with such an overkill, i and other collegues just followed the order to do research and brainstorm in that direction.
+							- I was to caught up that i analyzed the scenarios with the presumption of “always redirect”.
+								-
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
