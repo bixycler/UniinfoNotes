@@ -694,6 +694,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- March 1st, i and wife went to Vũng Tàu to celebrate sister Hiền's wedding. After that we also visited sister Ngọc and share with her a technique for relaxation.
 				- Returning home, i was off every morning due to my tiredness at the previous night, whether from the long journey or from following the troubles in the monk group of master Minh Tuệ.
 				- Friday, i took the whole day off for sleeping to make up for the sleeplessness of the previous night.
+				  id:: 684f951a-c969-426d-a05f-6f8441cbb41f
 				- Sunday, i slept for 17 hours from 0h to 17h, then had a [life review](((67ce5ad0-198b-45ab-a820-0d0f66a65f2c))) for nearly 3 hours.
 				  id:: 67ce68b8-7f46-462e-acd1-c329c6258f64
 				- After the life review, i entered the [dream (maya) of this life](https://en.wikipedia.org/wiki/Maya_(religion)), where i watched the story of [Armin Meiwes](https://en.wikipedia.org/wiki/Armin_Meiwes).
