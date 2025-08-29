@@ -3761,6 +3761,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 29th,
 				- Review the ((68b16f0e-f3bf-49d3-b465-ef9db4b5a82c))
 				  id:: 68b17f4c-efe4-4de3-a99b-599b55478995
+					- → pressure → headache
+					- impression → intent
 					-
 				- [Erin hurricane 2025 Aug](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) from 15th to 22nd, reaching category 5
 				  collapsed:: true
