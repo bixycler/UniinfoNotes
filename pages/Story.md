@@ -2504,6 +2504,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- “Being caught up in the work the whole day”: passively entangled in work, losing control of time.
 					- “I must catch up on sleep now”: actively reclaiming sleep to compensate for the loss.
 					- Meta-caught-up: The swing between “caught up in” (immersion) and “catch up on” (recovery) is a vicious circle.
+					- “Catch up on” vs “make up for”
+						- “Catch up on”: to fill in the missing part (usually time) due to falling behind.
+						- “Make up for”: to compensate for something lost or damaged with other things.
 				- and continue [the previous chat](((68417bbf-695f-452b-80a1-22e174329e7a))) with the dual meaning of “observe” : tầm-tứ = tìm-bám = find-fix = inquire-**observe** ≈ chỉ-quán = [samatha-vipassanā](https://en.wikipedia.org/wiki/Samatha-vipassan%C4%81)
 				  collapsed:: true
 					- This dual meaning of “observe” strengthens the unity of the two sides of the ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
