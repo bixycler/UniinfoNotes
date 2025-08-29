@@ -3761,11 +3761,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 29th,
 				- Review the ((68b16f0e-f3bf-49d3-b465-ef9db4b5a82c))
 				  id:: 68b17f4c-efe4-4de3-a99b-599b55478995
-					- → pressure → headache
+					- From the beginning of last night, i had mild headache, to the end it had increased to a rather strong one.
+					- Headache ← pressure: the pressure of/around the eyes increase, causing headache. There are various types of pressure i've experienced.
 						- reaction to coldness in Japan: vasoconstriction, increase blood pressure and temparature
-						- contraction in breath hold diving
+							- This reaction did revert my drop of blood pressure when wake up late to the increase of blood pressure.
+						- contraction in breath hold diving: this is very clear due to the strong contractions.
 						- mental pressures in interaction and in work: to find solution, to return to the fixated impressions (understanding, seeing clear/through, being correct/logical/sound),
-					- impression → intent → restoring force toward the impression
+					- Pressure ← restoring force toward the impression
 					-
 				- [Erin hurricane 2025 Aug](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) from 15th to 22nd, reaching category 5
 				  collapsed:: true
