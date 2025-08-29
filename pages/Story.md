@@ -3746,7 +3746,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The group leader nailed it down with the solution of adding pull-redirect to all places that do authentication status check, which is too much!
 							- Though felt unsettling with such an overkill, i and other collegues just followed the order to do research and brainstorm in that direction.
 							- I was to caught up that i analyzed the scenarios with the presumption of “always redirect”.
-								-
+								- At the presentation, the customer asked me “So, what are our local cookies for?!”
+								- That rhetorical question woke me up to re-examine the whole solution from the root, and see that “why not simply [push](((68b17b45-1b8e-448f-b85d-f2cfee25abf4))), but pull?!” 🤔
+						- Pushing approaches: IdP → auth cliens
+						  id:: 68b17b45-1b8e-448f-b85d-f2cfee25abf4
+							- The normal push is done between backends, but authentication is tied to the browser with credentials (cookies).
+							- ChatGPT suggested a combination of back-channel push and front-channel pushes
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
