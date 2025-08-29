@@ -3730,6 +3730,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The “burden of awareness” is much deeper than the “burden of knowledge”.
 				- Thanks to online services, i'm reminded that today is my birthday! 😁 This day never has any meaning to me, though! The only meaning that i can recognize is that it connects me with people around, which depends on them, not myself!
 				-
+			- 28th, somehow drifted into terminology then backed off with [braincalming](((68b00dde-717f-4d86-ab95-3af9128c998c))); After research & brainstorming about [Shared authentication system](https://chatgpt.com/c/68b01d84-a72c-8330-a4c7-c72247330a1f), the whole night caught up with fixing a mistake in my shared proposal of solution in the working group.
+				- Brainstorming versus **braincalming**
+				  id:: 68b00dde-717f-4d86-ab95-3af9128c998c
+					- While the brainstorms can be mapped and written down,
+					- the braincalms must be done by myself in solitary and silence!
+				-
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
