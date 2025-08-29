@@ -2505,7 +2505,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- “I must catch up on sleep now”: actively reclaiming sleep to compensate for the loss.
 					- Meta-caught-up: The swing between “caught up in” (immersion) and “catch up on” (recovery) is a vicious circle.
 					- “Catch up on” vs “make up for”
-						- “Catch up on”: to fill in the missing part (usually time) due to falling behind.
+						- “Catch up on”: to fill in the missing part due to falling behind.
 						- “Make up for”: to compensate for something lost or damaged with other things.
 				- and continue [the previous chat](((68417bbf-695f-452b-80a1-22e174329e7a))) with the dual meaning of “observe” : tầm-tứ = tìm-bám = find-fix = inquire-**observe** ≈ chỉ-quán = [samatha-vipassanā](https://en.wikipedia.org/wiki/Samatha-vipassan%C4%81)
 				  collapsed:: true
@@ -3762,7 +3762,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- ChatGPT suggested a combination of back-channel push and front-channel pushe via websockets, but its overcomplicated and difficult to pinpoint the correct browser for the push target.
 								- So i just stay with my original push-redirect approach.
 					- ⇒ ((68b17f4c-efe4-4de3-a99b-599b55478995))
-			- 29th, morning slept up
+			- 29th, morning slept to make up for last night; lunch saw the [pressures causing headache](((68b180fe-23ea-4fd6-8da3-89d46858332e))), then walke to the river-side park for meditation where i saw [the restoring force toward the fixated impression](((68b19896-8640-4e28-9c7f-f7ca41d1e680))).
+			  collapsed:: true
 				- Review the ((68b16f0e-f3bf-49d3-b465-ef9db4b5a82c))
 				  id:: 68b17f4c-efe4-4de3-a99b-599b55478995
 					- From the beginning of last night, i had mild headache, to the end it had increased to a rather strong one.
@@ -3775,6 +3776,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- This [tension headache](https://en.wikipedia.org/wiki/Tension_headache) is what people called “headache from thinking too hard”.
 							- This is a kind of **aversion**, one of the ((6839229d-9eff-49e4-9480-6e2db6f61127)), driven by the feeling that “it can't be wrong!” or “It's impossible!”
 					- Pressure ← restoring force toward the fixated impression ← intents ← impressions in the past + fixation
+					  id:: 68b19896-8640-4e28-9c7f-f7ca41d1e680
 						-
 				- [Erin hurricane 2025 Aug](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) from 15th to 22nd, reaching category 5
 				  collapsed:: true
