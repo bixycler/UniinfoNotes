@@ -3765,9 +3765,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Headache ← pressure: the pressure of/around the eyes increase, causing headache. There are various types of pressure i've experienced.
 						- reaction to coldness in Japan: vasoconstriction, increase blood pressure and temparature
 							- This reaction did revert my blood pressure drop when wake up late, to the blood pressure rise.
-						- contraction in breath hold diving: this is very clear due to the strong contractions.
-						- mental pressures in interaction and in work: to find solution, to return to the fixated impressions (understanding, seeing clear/through, being correct/logical/sound)
+						- contraction in breath hold diving: the pressure is very clear due to the strong contractions.
+						- mental pressures in interaction and in work: to find solution, to return to the fixated impressions (understanding, seeing clear/through, being correct/logical/sound/perfect)
 							- This [tension headache](https://en.wikipedia.org/wiki/Tension_headache) is what people called “headache from thinking too hard”.
+							- This is a kind of **aversion**, one of the ((6839229d-9eff-49e4-9480-6e2db6f61127)), driven by the feeling that “it can't be wrong!” or “It's impossible!”
 					- Pressure ← restoring force toward the fixated impression ← intents ← impressions in the past + fixation
 						-
 				- [Erin hurricane 2025 Aug](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) from 15th to 22nd, reaching category 5
