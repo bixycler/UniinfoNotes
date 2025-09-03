@@ -3796,7 +3796,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- “Every empty point is the whole world, the whole life!”
 				  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 				  collapsed:: true
-					- When the subject focuses on a single point, as its object, it draws the whole world into that point by the “subject–object complementarity”.
+					- When the **subject** focuses on a single point, as its object, it draws the whole world into that point by the “subject–object complementarity”.
 						- When that point object is “solid/opaque”, it reflects the substance of the world, the part of the world before the eye, which is the complement of the subject/intent behind the eye.
 						- When that point object is “empty/transparent”, the subject can see nothing but its own reflection of the whole world & life.
 						- In other words, through the empty point, the subject's actually looking back at its own worlds (an external one and a multitude of internal ones).
@@ -3809,8 +3809,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
 							- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
 							- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
-					- The paradox of “the zero intent has infinite extent” is due to the invisibility of the complement behind the eye – the subject and its intents.
-						- The crutial role of the subject, the hidden one standing behind the scene, is usually forgotten.
+					- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) – the subject and its intents.
+						- This inverse variation becomes paradoxical only when the crutial role of the subject, the hidden one standing behind the scene, is forgotten.
+						- The infinity is not
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
