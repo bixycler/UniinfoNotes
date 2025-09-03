@@ -3792,7 +3792,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- I intended to add these clips to the album [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6), but Google Photos has stopped supporting video play. So i just save them here! 😊
 			- September 2nd holidays,
 			  collapsed:: true
-				- In an LSD trip, i got a the vision of ((68b79197-1244-4b42-b79f-464cfc8433a1)) and my wife got the first experience going through the gate of death for many times
+				- In an LSD trip, i got a the vision of ((68b79197-1244-4b42-b79f-464cfc8433a1)) and ((68b7ebd7-caee-4cae-b361-6540cfc23bf8)) From that vision, i extracted a down-to-earth explanation about [the role of the subject in all experiences](((68b79197-fc1d-4360-9993-e96e83e76e8a))).
 				- “Every empty point is the whole world, the whole life!”
 				  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 				  collapsed:: true
@@ -3810,6 +3810,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
 							- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
+				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
 					- When only joy is seen, you're losing yourself in fragility, seek the stable whole within;
 					- When only grief is felt, you're sinking yourself into extremeness, seek the balance within.
@@ -3819,6 +3820,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Khi chỉ thấy niềm vui, ta đang đánh mất chính mình trong mong manh, hãy quay về với cái toàn thể bền vững hơn ở bên trong;
 						- Khi chỉ cảm thấy buồn đau, ta đang chìm đắm trong cực đoan, hãy quay về tìm sự cân bằng ổn định ở bên trong.
 						- Sao lại bên trong? Vì chỉ có nỗi buồn mới biết được thế nào là vui, và chỉ có niềm vui mới cảm nhận được nỗi buồn – mình, chính mình là chủ thể của những cảm nhận đó là nửa còn lại bị thiếu sót.
+				- My wife got the first experience of going through the gate of death (cửa tử, 死門) for many times.
+				  id:: 68b7ebd7-caee-4cae-b361-6540cfc23bf8
+					- With this experience, she's got the vision of the whole circle of life in her mind, so that she's seen the only way
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
