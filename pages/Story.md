@@ -3880,7 +3880,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-09-03 Wed 09:35:44]
 		  :END:
-			- **Subject**: This is the full circle of negation, i.e. [Negation of Negation]
+			- **Subject**: This is the full circle of negation, i.e. [Negation of Negation](https://www.marxists.org/archive/marx/works/1877/anti-duhring/ch11.htm): from the immediate unity, to the bifurcation into opposites, then restoring its
 				- [Φ 18](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#6)
 				  > The **living substance**, further, is that being which is truly **subject**, or, what is the same thing, is truly realised and actual (*wirklich*) solely in the process of positing itself, or in mediating with its own self its transitions from one state or position to the opposite. 
 				  > [*Negation of Negation*]: As subject it is pure and simple negativity, and just on that account a process of splitting up what is simple and undifferentiated, a process of duplicating and setting factors in opposition, which [process] in turn is the negation of this indifferent diversity and of the opposition of factors it entails. 
