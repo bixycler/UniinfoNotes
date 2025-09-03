@@ -4762,6 +4762,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- chất
 		  id:: 670e1053-773e-4cbb-9b5f-8bf9715759f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e1047-529a-4698-9ad0-5e6c73c18202))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://plato.stanford.edu/entries/substance/
 	- ## essence
 	  id:: 670e105b-5244-4f95-9f90-c99acdbce0e4
 	  collapsed:: true
