@@ -3795,6 +3795,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- A trip of “every empty point is the whole world, the whole life!”
 					- Substance = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
 					- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
+						- In dualistic view, the “subject” – as opposite to object – is the obop itself, while in holistic view, the subject contains the object.
+					- While the “dead substance” is just a static container, the “living substance” is the mediator,
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  collapsed:: true
 					- When only joy is seen, you're losing yourself in fragility, seek the stable whole within;
