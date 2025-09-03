@@ -3794,6 +3794,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- A trip of “every empty point is the whole world, the whole life!”
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
+				  collapsed:: true
 					- When only joy is seen, you're losing yourself in fragility, seek the stable whole within;
 					- When only grief is felt, you're sinking yourself into extremeness, seek the balance within.
 					- Why within? Because only grief can experience joy, and only joy can experience grief – you, the subject of such experiences is the other missing half!
