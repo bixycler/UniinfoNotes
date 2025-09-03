@@ -3807,7 +3807,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- In Unïnfo, ((670e1047-529a-4698-9ad0-5e6c73c18202)) includes not only “dead substances” but also “living substances”, similar to the ancient philosophies and Hegen's [living substance](((68b7a9cd-4d53-4961-a386-37d869aee926))).
 						- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
 							- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
-							- Don't be confused between this “living substance” as subjects and the modern scientific “living substance” ([protoplasm]()) as material that makes up living cells.
+							- Don't be confused between this “living substance” as subject and the modern biological “living substance” ([protoplasm](https://en.wikipedia.org/wiki/Protoplasm)) as material that makes up living cells.
 						- Substance is to subject as abstraction/analysis is to integration
 							- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
 							- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.

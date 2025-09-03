@@ -30,6 +30,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			  query-table:: false
 		- wiki:
 		  id:: 66fce8d4-0434-4dd0-941f-4f3bd9b1b456
+		  collapsed:: true
 		  ^ **Element** search
 			- {{search-query [:h3 "Element Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
