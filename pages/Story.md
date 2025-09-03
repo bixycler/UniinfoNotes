@@ -3803,7 +3803,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The empty point outside reflects the empty point inside, the ((66c8772a-9b29-45b0-b169-2fa847333e02)), hence the whole world is reflected by the subject through that point.
 					- ((670e1047-529a-4698-9ad0-5e6c73c18202)) = reflection of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (the essence of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)))
 						- Substance (mondern) = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
-							- While the modern scientific “substance” is a “dead substance”, the term
+							- While the modern scientific “substance” ([matter](https://en.wikipedia.org/wiki/Matter)) is a “dead substance” exclusive to the objective world, the concept of [substance](https://plato.stanford.edu/entries/substance/#UndeIdea) from the ancient time (Aristotle, Plato, ...) included living beings, too.
 						- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
 							- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
 						- Substance is to subject as abstraction/analysis is to integration
