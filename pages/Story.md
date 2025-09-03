@@ -3793,7 +3793,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- September 2nd holidays,
 			  collapsed:: true
 				- A trip of “every empty point is the whole world, the whole life!”
-					- The “empty point” is
+					- When the subject focuses on a single point, it draws the whole world into that point.
+					- When that point of object is “solid”, it reflects the substance of the world, the part of the world before the eye, which is the complement of the subject/intent behind the eye.
+					- and is connected to the world by the subject.
 					- Substance = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
 					- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
 						- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
