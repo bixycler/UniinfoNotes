@@ -3795,10 +3795,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- A trip of “every empty point is the whole world, the whole life!”
 					- Substance = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
 					- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
-						- In dualistic view, the “subject” – as opposite to object – is the obop itself, while in holistic view, the subject contains the object.
+						- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
 					- Substance is to subject as abstraction/analysis is to integration
 						- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
 						- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
+						- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation.
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  collapsed:: true
 					- When only joy is seen, you're losing yourself in fragility, seek the stable whole within;
@@ -3880,7 +3881,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-09-03 Wed 09:35:44]
 		  :END:
-			- **Subject**: This is the full circle of negation, i.e. [Negation of Negation](https://www.marxists.org/archive/marx/works/1877/anti-duhring/ch11.htm): from the immediate unity, to the bifurcation into opposites, then restoring its
+			- **Subject**: This is the full circle of negation, i.e. [Negation of Negation](https://www.marxists.org/archive/marx/works/1877/anti-duhring/ch11.htm): from the immediate unity, to the bifurcation into opposites, and then restoring its unity via reflection.
+			  id:: 68b7a9cd-4d53-4961-a386-37d869aee926
 				- [Φ 18](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#6)
 				  > The **living substance**, further, is that being which is truly **subject**, or, what is the same thing, is truly realised and actual (*wirklich*) solely in the process of positing itself, or in mediating with its own self its transitions from one state or position to the opposite. 
 				  > [*Negation of Negation*]: As subject it is pure and simple negativity, and just on that account a process of splitting up what is simple and undifferentiated, a process of duplicating and setting factors in opposition, which [process] in turn is the negation of this indifferent diversity and of the opposition of factors it entails. 
