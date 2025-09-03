@@ -3790,9 +3790,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Erin hurricane 2025 Aug 20th lightning
 					  ![Erin-hurricane-2025-Aug-20-lightning.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-20-lightning.mp4)
 					- I intended to add these clips to the album [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6), but Google Photos has stopped supporting video play. So i just save them here! 😊
-			- September 2nd holidays,
+			- September 2nd holidays, in an LSD trip, i got a the vision of ((68b79197-1244-4b42-b79f-464cfc8433a1)) and ((68b7ebd7-caee-4cae-b361-6540cfc23bf8)) From that vision, i extracted a down-to-earth explanation about [the role of the subject in all experiences](((68b79197-fc1d-4360-9993-e96e83e76e8a))).
 			  collapsed:: true
-				- In an LSD trip, i got a the vision of ((68b79197-1244-4b42-b79f-464cfc8433a1)) and ((68b7ebd7-caee-4cae-b361-6540cfc23bf8)) From that vision, i extracted a down-to-earth explanation about [the role of the subject in all experiences](((68b79197-fc1d-4360-9993-e96e83e76e8a))).
 				- “Every empty point is the whole world, the whole life!”
 				  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 				  collapsed:: true
@@ -3803,11 +3802,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The empty point outside reflects the empty point inside, the ((66c8772a-9b29-45b0-b169-2fa847333e02)), hence the whole world is reflected by the subject through that point.
 					- ((670e1047-529a-4698-9ad0-5e6c73c18202)) = reflection of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (the essence of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)))
 						- Substance (mondern) = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
-							- While the modern scientific “substance” ([matter](https://en.wikipedia.org/wiki/Matter)) is a “dead substance” exclusive to the objective world, the concept of [substance](https://plato.stanford.edu/entries/substance/#UndeIdea) in philosophy from the ancient time (Aristotle, Plato, ...) did include living beings, too.
+							- While the modern scientific concept of “substance” ([matter](https://en.wikipedia.org/wiki/Matter)) is a “dead substance” exclusive to the objective world, the concept of [substance](https://plato.stanford.edu/entries/substance/#UndeIdea) in philosophy from the ancient time (Aristotle, Plato, ...) did include living beings, too.
 							- In Unïnfo, ((670e1047-529a-4698-9ad0-5e6c73c18202)) includes not only “dead substances” but also “living substances”, similar to the ancient philosophies and Hegen's [living substance](((68b7a9cd-4d53-4961-a386-37d869aee926))).
 						- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
 							- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
-							- Don't be confused between this “living substance” as subject and the modern biological “living substance” ([protoplasm](https://en.wikipedia.org/wiki/Protoplasm)) as material that makes up living cells.
+							- Don't confuse this “living substance” as subject with the modern biological “living substance” ([protoplasm](https://en.wikipedia.org/wiki/Protoplasm)) as material that makes up living cells.
 						- Substance is to subject as abstraction/analysis is to integration
 							- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
 							- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
