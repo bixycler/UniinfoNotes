@@ -2516,11 +2516,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  > That which sustains; a sustaining support or force.
 							- This is the only dictionary entry of “sustent”, as shown by [OneLook > sustent](https://www.onelook.com/?w=sustent).
 						- How it's sustained: it's sustained by it's own parts, i.e. the content sustains the intent and vice versa.
-						- The sustent is similar to the "substance" in philosophy, which is from "substāns" present participle of "substāre", and means "self-standing thing underlying all things". But there are diffs:
+						- The sustent is similar to the ((670e1047-529a-4698-9ad0-5e6c73c18202)) in philosophy, which is from “substāns” present participle of “substāre”, and means “self-standing thing underlying all things”. But there are diffs:
 							- Sustent is actively maintaining itself, while the substance is just a dumb material for some subject (human or God) to attach attributes to make things.
 							- Sustent includes at least 2 circles, while each substance is just one circle (the other[s] is the hands handling that substance).
 							- Sustent is constantly changing, while substances are considered unchanged.
-							- We may reuse the term "substance" with modified def "the one enduring changes while keeping a wholesome bundle of intrinsic properties called the 'natures' of it". The wholesomeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
+							- We may reuse the term “substance” with modified def “the one enduring changes while keeping a whole bundle of intrinsic properties called the ‘natures’ of it”. The wholeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
 			- Form ($i$, $e$) – Content ($c$)
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$: $c →_{i}e$. The extensional form $f = i×e$, being a product of the intensional (internal) form $i$ (intent of the subject) with the external form $e$ ( ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the object), is to match the content $c$ of the object: $f = i×e \sim c$. The mismatch between form and content, i.e. the content remainder $r = c - f$, leads to the refinement of intent & sustent via the ((66f40210-cca6-4d81-85e7-d0c54ef20451)) process.
 					- Because the subjective form $f = i×e$ reflects the objective content of the external world, this partition is also called the *mirror partition* of “**M(*i*, *e*) – W(*c*)**” (“mine–wild” or “me–world”).
