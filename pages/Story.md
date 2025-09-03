@@ -3790,7 +3790,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Erin hurricane 2025 Aug 20th lightning
 					  ![Erin-hurricane-2025-Aug-20-lightning.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-20-lightning.mp4)
 					- I intended to add these clips to the album [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6), but Google Photos has stopped supporting video play. So i just save them here! 😊
-			-
+			- September 2nd holidays,
+			  collapsed:: true
+				- A trip of “every empty point is the whole world, the whole life!”
+				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
+					- When only joy is seen, you're losing yourself in fragility, seek the stable whole within;
+					- When only grief is felt, you're sinking yourself into extremeness, seek the balance within.
+					- Why within? Because only grief can experience joy, and only joy can experience grief – you, the subject of such experiences is the other missing half!
+					- तत् त्वम् असि (Tat tvam asi), “That thou art” – what you see is what you are.
+					- “Đánh mất mình trong niềm vui là mong manh, chìm đắm mình trong nỗi buồn là cực đoan – cả hai đều cần quay vào trong để trở về với cái toàn thể ổn định và sự cân bằng bền vững.”
+						- Khi chỉ thấy niềm vui, ta đang đánh mất chính mình trong mong manh, hãy quay về với cái toàn thể bền vững hơn ở bên trong;
+						- Khi chỉ cảm thấy buồn đau, ta đang chìm đắm trong cực đoan, hãy quay về tìm sự cân bằng ổn định ở bên trong.
+						- Sao lại bên trong? Vì chỉ có nỗi buồn mới biết được thế nào là vui, và chỉ có niềm vui mới cảm nhận được nỗi buồn – mình, chính mình là chủ thể của những cảm nhận đó là nửa còn lại bị thiếu sót.
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
