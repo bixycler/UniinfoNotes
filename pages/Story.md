@@ -3875,6 +3875,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ![Six_tones_of_Vietnamese_language.png](../assets/Will/story/2025-08/Six_tones_of_Vietnamese_language.png)
 					- Zoom in dấu nặng để thấy rõ chỗ chặn đứng ngắt âm ở cuối:
 					  ![Vietnamese-nangj-spectrogram.jpg](../assets/Will/story/2025-08/Vietnamese-nangj-spectrogram.jpg)
+		- Hegel's [Phenomenology of Spirit/Mind](https://www.marxists.org/reference/archive/hegel/works/ph/phconten.htm)
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-09-03 Wed 09:35:44]
+		  :END:
+			- **Subject**:
+				- [Φ 18](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#6)
+				  >
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
