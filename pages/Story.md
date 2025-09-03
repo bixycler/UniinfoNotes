@@ -3802,7 +3802,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- In other words, through the empty point, the subject's actually looking back at its own worlds (an external one and a multitude of internal ones).
 						- The empty point outside reflects the empty point inside, the ((66c8772a-9b29-45b0-b169-2fa847333e02)), hence the whole world is reflected by the subject through that point.
 					- ((670e1047-529a-4698-9ad0-5e6c73c18202)) = reflection of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (the essence of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)))
-						- Substance = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
+						- Substance (traditional) = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
 						- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
 							- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
 						- Substance is to subject as abstraction/analysis is to integration
@@ -3811,7 +3811,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
 					- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) – the subject and its intents.
 						- This inverse variation becomes paradoxical only when the crutial role of the subject, the hidden one standing behind the scene, is forgotten.
-						- The infinity is not
+						- The content is not confined within the object, but spreads out through the underlying subject, hence the [total content](((678e1d31-4874-4df6-bfb4-60822a6b5546))) $c$ is constant.
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
