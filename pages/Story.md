@@ -3822,7 +3822,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Sao lại bên trong? Vì chỉ có nỗi buồn mới biết được thế nào là vui, và chỉ có niềm vui mới cảm nhận được nỗi buồn – mình, chính mình là chủ thể của những cảm nhận đó là nửa còn lại bị thiếu sót.
 				- My wife got the first experience of going through the gate of death (cửa tử, 死門) for many times.
 				  id:: 68b7ebd7-caee-4cae-b361-6540cfc23bf8
-					- With this experience, she's got the vision of the whole circle of life in her mind, so that she's seen the only way is to go through it for liberation but no other way to avoid or flee.
+					- With this experience, she's got the vision of the whole circle of life in her mind, so that she's seen the only way for liberation is to go through it, but no other way to avoid or flee.
 					- The next day, going to the tree house of Bảo–Lụa, she got the first time a pleasing feeling about the garden environment.
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
