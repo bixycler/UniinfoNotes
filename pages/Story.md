@@ -3882,7 +3882,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- **Subject**:
 				- [Φ 18](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#6)
-				  >
+				  > The **living substance**, further, is that being which is truly **subject**, or, what is the same thing, is truly realised and actual (*wirklich*) solely in the process of positing itself, or in mediating with its own self its transitions from one state or position to the opposite. 
+				  > As subject it is pure and simple negativity, and just on that account a process of splitting up what is simple and undifferentiated, a process of duplicating and setting factors in opposition, which [process] in turn is the negation of this indifferent diversity and of the opposition of factors it entails. 
+				  > True reality is merely this process of reinstating self-identity, of reflecting into its own self in and from its other, and is not an original and primal unity as such, not an immediate unity as such. It is the process of its own becoming, the circle which presupposes its end as its purpose, and has its end for its beginning; it becomes concrete and actual only by being carried out, and by the end it involves.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
