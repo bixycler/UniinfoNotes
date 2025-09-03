@@ -3730,8 +3730,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- The bliss of ignorance and the burden of knowledge and awareness!
 				  collapsed:: true
 					- The “burden of knowledge” is the burdens and sufferings that the knowledge brings to its bearer.
+						- The [burden of knowledge](https://en.wikipedia.org/wiki/Burden_of_knowledge) on Wikipedia
 						- Actually, at first i called it the  “curse of knowledge”, but reworded “curse” to “burden” to avoid confusion with the cognitive bias of the same name, i.e. the [curse of expertise](https://en.wikipedia.org/wiki/Curse_of_knowledge).
 					- The “burden of awareness” is much deeper than the “burden of knowledge”.
+					- “In much wisdom is much grief, and he who increases knowledge increases sorrow”
+					  — [Ecclesiastes 1:18](https://biblia.com/bible/esv/ecclesiastes/1/18)
 				- Thanks to online services, i'm reminded that today is my birthday! 😁 This day never has any meaning to me, though! The only meaning that i can recognize is that it connects me with people around, which depends on them, not myself!
 				-
 			- 28th, somehow drifted into terminology then backed off with [braincalming](((68b00dde-717f-4d86-ab95-3af9128c998c))); After research & brainstorming about [Shared authentication system](https://chatgpt.com/c/68b01d84-a72c-8330-a4c7-c72247330a1f), ((68b16df2-c546-432e-80bc-3a4f5d6ffb7f))
@@ -3787,6 +3790,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Erin hurricane 2025 Aug 20th lightning
 					  ![Erin-hurricane-2025-Aug-20-lightning.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-20-lightning.mp4)
 					- I intended to add these clips to the album [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6), but Google Photos has stopped supporting video play. So i just save them here! 😊
+			-
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
