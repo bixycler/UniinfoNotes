@@ -3089,7 +3089,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
 						  ```
-				- `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app config: **4 links**
+				- `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app config: ~~**4 links**~~
 					- `${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn`: Flatpack installation
 					- `${HOME}/.config/Logseq/configs.edn`: AppImage installation
 					- `${HOME}/snap/logseq/current/.config/Logseq/configs.edn`: Snap installation
@@ -3108,7 +3108,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 					- CANCELLED then `ln`
 					  collapsed:: true
-					  Don't link `configs.edn` because each instance must have a separate [API server](((67b541cf-4716-408d-a89c-8d89ce7aa645))) with a different config.
+					  ⚠️ Don't link `configs.edn`, just copy manually, because each instance must have a separate [API server](((67b541cf-4716-408d-a89c-8d89ce7aa645))) with a different config.
 						- ```sh
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.config/Logseq/configs.edn
