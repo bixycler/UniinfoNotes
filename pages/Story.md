@@ -3809,6 +3809,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
 							- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
 							- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
+					- The paradox of “the zero intent has infinite extent” is due to the invisibility of the complement behind the eye – the subject and its intents.
+						- The crutial role of the subject, the hidden one standing behind the scene, is usually forgotten.
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
