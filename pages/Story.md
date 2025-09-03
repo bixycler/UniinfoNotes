@@ -3796,7 +3796,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Substance = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
 					- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
 						- In dualistic view, the “subject” – as opposite to object – is the obop itself, while in holistic view, the subject contains the object.
-					- While the “dead substance” is just a static container, the “living substance” is the mediator,
+					- Substance is to subject as abstraction/analysis is to integration
+						- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
+						- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  collapsed:: true
 					- When only joy is seen, you're losing yourself in fragility, seek the stable whole within;
