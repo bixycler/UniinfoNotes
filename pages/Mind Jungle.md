@@ -3446,7 +3446,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 	  ((66f3d561-424a-4e1d-be55-98ac39c48502)) ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) ((66f3d5ca-a982-4d12-b307-fd4812adeb3b))
 	  ○ = ↑
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), every concrete thing, i.e. ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), is made of ((66f3d4a2-375f-4098-9228-66c611f0da90)): Circle, Arrow and Equal. These componets are described in the [three postulates](((66f3d61c-35d0-46ae-9786-752af40e64c4))). Corresponding to the three components, there are [three intrinsics](((66f3e0be-7d8c-45d6-92c3-6bad456555c9))) of the _static_, the _dynamic_ and the _balance_, which show the ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), every concrete thing, i.e. ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), is made of ((66f3d4a2-375f-4098-9228-66c611f0da90)): Circle, Arrow and Equal. These components are described in the [three postulates](((66f3d61c-35d0-46ae-9786-752af40e64c4))). Corresponding to the three components, there are [three intrinsics](((66f3e0be-7d8c-45d6-92c3-6bad456555c9))) of the _static_, the _dynamic_ and the _balance_, which show the ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Trinion” is pronounced “tree-nion” /ˈtrɪnjən/.
 		- Three components of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 66f3d4a2-375f-4098-9228-66c611f0da90
