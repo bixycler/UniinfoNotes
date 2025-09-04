@@ -3780,7 +3780,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- This is a kind of **aversion**, one of the ((6839229d-9eff-49e4-9480-6e2db6f61127)), driven by the feeling that “it can't be wrong!” or “It's impossible!”
 					- Pressure ← restoring force toward the fixated impression ← intents ← impressions in the past + fixation
 					  id:: 68b19896-8640-4e28-9c7f-f7ca41d1e680
-						-
+						- While restoring force to the
 				- [Erin hurricane 2025 Aug](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) from 15th to 22nd, reaching category 5
 				  collapsed:: true
 					- Erin hurricane 2025 Aug from 20th to 22nd sweeping along the east coast of United States
