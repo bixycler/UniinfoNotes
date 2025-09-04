@@ -3833,63 +3833,66 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Development of Buddhist schools
 					- ```mermaid
-					  graph TD
+					  flowchart TD
 					  
-					      %% Core root
-					      Buddha["Gautama Buddha<br/>(5th–4th c. BCE)"]
+					  %% Core root
+					  Buddha["Gautama Buddha<br/>(5th–4th c. BCE)"]
 					  
-					      %% Early branching
-					      Early["Early Buddhist Schools<br/>(After Councils)"]
+					  %% Early branching
 					  
-					      Sthavira["Sthavira (Elders)"]
-					      Sarvastivada["Sarvāstivāda<br/>(Theory that All Exists)"]
-					      Mahasanghika["Mahāsāṃghika (Great Community)"]
+					  Early["Early Buddhist Schools<br/>(After Councils)"]
 					  
-					      Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
-					      Mahayana["Indian Mahāyāna<br/>(1st c. BCE–CE)"]
+					  Sthavira["Sthavira (Elders)"]
+					  Sarvastivada["Sarvāstivāda<br/>(Theory that All Exists)"]
+					  Mahasanghika["Mahāsāṃghika (Great Community)"]
 					  
-					      %% Indian philosophy lateral roots
-					      Samkhya["Sāṃkhya & Hindu Epistemology"]
-					      Brahmanical["Brahmanical / Vedantic Thoughts"]
-					      TantraRoot["Indian Tantric Traditions<br/>(Śaiva, Śākta, Folk)"]
+					  Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
+					  Mahayana["Indian Mahāyāna<br/>(1st c. BCE–CE)"]
 					  
-					      %% Mahāyāna branches
-					      Madhyamaka["Madhyamaka (Middle Way)<br/>(Nāgārjuna, 2nd-3rd c.)"]
-					      Yogacara["Yogācāra (Consciousness-Only)<br/>(Asaṅga & Vasubandhu, 4th c.)"]
+					  %% Indian philosophy lateral roots
+					  Samkhya["Sāṃkhya &<br/> Hindu Epistemology"]
+					  Brahmanical["Brahmanical &<br/> Vedantic Thoughts"]
+					  Tantra["Indian Tantric Traditions<br/>(Śaiva, Śākta, Folk)"]
 					  
-					      EastAsia["East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)"]
-					      Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)"]
+					  %% Mahāyāna branches
 					  
-					      %% Core flow
-					      Buddha --> Early
-					      Early --> Mahasanghika
-					      Early --> Sthavira
+					  Madhyamaka["Madhyamaka (Middle Way)<br/>(Nāgārjuna, 2nd-3rd c.)"]
+					  Yogacara["Yogācāra (Consciousness-Only)<br/>(Asaṅga & Vasubandhu, 4th c.)"]
 					  
-					      Sthavira --> Sarvastivada
-					      Sthavira --> Theravada
+					  EastAsia["East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)"]
+					  Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)"]
 					  
-					      %% Mahāyāna from Mahāsāṃghika + Sarvāstivāda influences
-					      Mahasanghika --> Mahayana
-					      Sarvastivada --> Mahayana
+					  %% Core flow
 					  
-					      %% Mahāyāna expansions
-					      Mahayana --> Madhyamaka
-					      Mahayana --> Yogacara
-					      Mahayana --> EastAsia
+					  Buddha --> Early
+					  Early --> Mahasanghika
+					  Early --> Sthavira
 					  
-					      %% East Asia is philosophical stream
-					      Madhyamaka --> EastAsia
-					      Yogacara --> EastAsia
+					  Sthavira --> Sarvastivada
+					  Sthavira --> Theravada
 					  
-					      %% Vajrayāna integration
-					      Mahayana --> Vajrayana
-					      Madhyamaka --> Vajrayana
-					      Yogacara --> Vajrayana
+					  %% Mahāyāna from Mahāsāṃghika + Sarvāstivāda influences
+					  Mahasanghika --> Mahayana
+					  Sarvastivada --> Mahayana
 					  
-					      %% Lateral influences
-					      Samkhya -.-> Yogacara
-					      Brahmanical -.-> Madhyamaka
-					      TantraRoot -.-> Vajrayana
+					  %% Mahāyāna expansions
+					  Mahayana --> Madhyamaka
+					  Mahayana --> Yogacara
+					  Mahayana --> EastAsia
+					  
+					  %% East Asia is philosophical stream
+					  Madhyamaka --> EastAsia
+					  Yogacara --> EastAsia
+					  
+					  %% Vajrayāna integration
+					  Mahayana --> Vajrayana
+					  Madhyamaka --> Vajrayana
+					  Yogacara --> Vajrayana
+					  
+					  %% Lateral influences
+					  Samkhya -.-> Yogacara
+					  Brahmanical -.-> Madhyamaka
+					  Tantra -.-> Vajrayana
 					  
 					  ```
 		- Sound experiment with my đàn bầu.
