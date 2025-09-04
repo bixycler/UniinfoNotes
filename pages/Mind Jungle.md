@@ -3600,9 +3600,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Next to “無元” is [“無原”](https://baike.baidu.com/item/%E7%84%A1%E5%8E%9F/927272) (**no origin**), meaning “unfathomable origin”, which is often found in Chinese ancient philosophical texts and literary works. The term can be traced back to the Han Dynasty classic 淮南子 ([Huainanzi](https://en.wikipedia.org/wiki/Huainanzi), [Hoài Nam Tử](https://vi.wikipedia.org/wiki/Ho%C3%A0i_Nam_t%E1%BB%AD)), which explains the inexhaustibility of the origin of things through classic expressions such as “轉于無原” (“turning to no origin”, “chuyển vu vô nguyên”, “quay về vô nguyên”).
 								- Note: Don't confuse “無原” with the modern term “無原由” (“no reason” / “unjustified”) in administrative/legal contexts.
 							- And the last is “no source” (無源), an ancient philosophical term used in commentary on Tao Te Ching.
-								- 無源 refers to the 4th chapter of Tao Te Ching:
+								- 無源 refers to the 4th chapter of Tao Te Ching about the infinite vacancy of the [Tao](https://en.wikipedia.org/wiki/Tao) (道):
 								  {{embed ((684f9517-7e89-4efb-9b6c-16bf3458ce67))}}
-								- Note: Don't confuse this philosophical meaning with  無源元件, a modern technical term meaning [“passive device”](https://en.wikipedia.org/wiki/Electronic_component#Passive_components), i.e., a device that does not require its own power supply (e.g., resistors, transformers), as well as
+								- Note: Don't confuse this philosophical meaning with “without power source” in 無源元件 [“passive device”](https://en.wikipedia.org/wiki/Electronic_component#Passive_components), e.g., resistors, transformers.
 							- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
 							  id:: 6853d150-9daa-4f24-8621-737485d7e9a2
 							  collapsed:: true
