@@ -3831,7 +3831,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The next day, going to the tree house of Bảo–Lụa, she got the first time a pleasing feeling about the garden environment.
 			- Sep 4th
 			  collapsed:: true
-				- Development of Buddhist schools
+				- Development of Buddhism schools
 					- ```mermaid
 					  flowchart TD
 					  
@@ -3895,6 +3895,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  
 					  ```
 					- For https://www.mermaidchart.com/play
+						- Exported
+						  ![Development of Buddhism schools.png](../assets/Will/story/2025-09/Development of Buddhism schools.png)
 						- ```
 						  ---
 						  config:
@@ -3911,7 +3913,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  Sarvastivada --> Mahayana
 						  
 						  %% Mahāyāna branches
-						  Mahayana --> Madhyamaka["Madhyamaka (Middle Way)<br>(Nāgārjuna, 2nd-3rd c.)"] & Yogacara["Yogācāra <br>(Consciousness-Only)<br>(Asaṅga &amp; Vasubandhu, 4th c.)"]
+						  Mahayana --> Madhyamaka["Madhyamaka (Middle Way)<br>(Nāgārjuna, 2nd-3rd c.)"] & Yogacara["Yogācāra <br>(Consciousness-Only)<br>(Asaṅga &amp; Vasubandhu,<br> 4th c.)"]
 						  Madhyamaka --> EastAsia[\"East Asian Mahāyāna<br>(Zen, Pure Land, Huayan, Tiantai)"/] & Vajrayana[\"Vajrayāna / Tantrayāna<br>(7th–8th c., India → Tibet)"/]
 						  Yogacara --> EastAsia & Vajrayana
 						  Brahmanical[/"Brahmanical &amp;<br> Vedantic Thoughts"\] -.-> Madhyamaka
