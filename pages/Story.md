@@ -3846,15 +3846,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					      Mahasanghika["Mahāsāṃghika (Great Community)"]
 					  
 					      Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
-					      Mahayana["Mahāyāna<br/>(1st c. BCE–CE, India)"]
+					      Mahayana["Indian Mahāyāna<br/>(1st c. BCE–CE)"]
 					  
 					      %% Indian philosophy lateral roots
 					      Samkhya["Sāṃkhya & Hindu Epistemology"]
-					      Brahmanical["Brahmanical / Vedantic Thought"]
+					      Brahmanical["Brahmanical / Vedantic Thoughts"]
 					      TantraRoot["Indian Tantric Traditions<br/>(Śaiva, Śākta, Folk)"]
 					  
 					      %% Mahāyāna branches
-					      Madhyamaka["Madhyamaka<br/>(Nāgārjuna, 2nd c.)"]
+					      Madhyamaka["Madhyamaka (Middle Way)<br/>(Nāgārjuna, 2nd-3rd c.)"]
 					      Yogacara["Yogācāra<br/>(Asaṅga & Vasubandhu, 4th c.)"]
 					  
 					      EastAsia["East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)"]
