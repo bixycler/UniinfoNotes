@@ -3841,6 +3841,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					      %% Early branching
 					      Early["Early Buddhist Schools<br/>(After Councils)"]
 					  
+					      Mahasanghika["Mahāsāṃghika"]
+					      Sthavira["Sthavira"]
+					      Sarvastivada["Sarvāstivāda"]
+					  
 					      Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
 					      Mahayana["Mahāyāna<br/>(1st c. BCE–CE, India)"]
 					  
@@ -3853,17 +3857,34 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					      Madhyamaka["Madhyamaka<br/>(Nāgārjuna, 2nd c.)"]
 					      Yogacara["Yogācāra<br/>(Asaṅga & Vasubandhu, 4th c.)"]
 					  
-					      EastAsianMahayana["East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)"]
+					      EastAsia["East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)"]
 					      Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)"]
 					  
 					      %% Core flow
 					      Buddha --> Early
-					      Early --> Theravada
-					      Early --> Mahayana
+					      Early --> Mahasanghika
+					      Early --> Sthavira
+					  
+					      Sthavira --> Sarvastivada
+					      Sthavira --> Theravada
+					  
+					      %% Mahāyāna from Mahāsāṃghika + Sarvāstivāda influences
+					      Mahasanghika --> Mahayana
+					      Sarvastivada --> Mahayana
+					  
+					      %% Mahāyāna expansions
 					      Mahayana --> Madhyamaka
 					      Mahayana --> Yogacara
+					      Mahayana --> EastAsia
+					  
+					      %% East Asia is philosophical stream
+					      Madhyamaka --> EastAsia
+					      Yogacara --> EastAsia
+					  
+					      %% Vajrayāna integration
 					      Mahayana --> Vajrayana
-					      Mahayana --> EastAsianMahayana
+					      Madhyamaka --> Vajrayana
+					      Yogacara --> Vajrayana
 					  
 					      %% Lateral influences
 					      Samkhya -.-> Yogacara
