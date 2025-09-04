@@ -3569,7 +3569,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- About the term “vacantism”
 				  id:: 6852b33f-a694-442e-a599-0110163e4ac8
 				  collapsed:: true
-					- The original meaning of ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) is simply “**no first**” or “no prime” (無元), because in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), every concrete thing is circular, thus the whole Universe is circular and nothing can be absolutely “the first”.
+					- Basically ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) simply means “**no first**” or “no prime” (無元), because in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), every concrete thing is circular, thus the whole Universe is circular and nothing can be absolutely “the first”.
 					  id:: 68b96854-7e4a-45a9-b0ef-1d8fb57e5fa3
 					- The Sanskrit word “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” and the Chinese characters “空”, “無” are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
 					  id:: 66f3ee6f-9f62-4f7f-ad00-34f5d4b0c800
@@ -3587,12 +3587,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Note that vacantism does not deny the presence of a supreme being, esp. an [immanent](https://en.wikipedia.org/wiki/Immanence) one. The “throne of the supreme being” is said to be *vacant* not because there can be no such being, but because no fixed being can be entitled to that throne by default, to own it inherently, and to occupy it exclusively permanently.
 					  id:: 684f9517-22fd-4695-b398-f142dca8a8d8
 						- This vacancy represents **[non-attachment](https://en.wikipedia.org/wiki/Nonattachment_(philosophy)) to metaphysical absolutism**. It keeps the throne **open** for whoever or whatever rising through context and relation to fulfill that role, to sit there temporarily.
-					- Historically, the term “vacantism” was coined due to the lack of correspondent English term for the Vietnamese term “vô nguyên” (Chinese “無元”) in the chain “trialism” (vi. “tam nguyên”) → “dualism” (vi. “nhị nguyên”) → “monism” (vi. “nhất nguyên”) → “???-ism” (vi. “vô nguyên”) when discussing about [ontological](https://en.wikipedia.org/wiki/Ontology) [categories](https://en.wikipedia.org/wiki/Theory_of_Categories).
+					- Historically, the term “vacantism” was coined due to the lack of correspondent English term for the Vietnamese term “vô nguyên” (Chinese “無元”) in the chain “trialism” (vi. “tam nguyên”) → “dualism” (vi. “nhị nguyên”) → “monism” (vi. “nhất nguyên”) → “???-ism” (vi. “vô nguyên”) when discussing about the [ontological](https://en.wikipedia.org/wiki/Ontology) [categories](https://en.wikipedia.org/wiki/Theory_of_Categories) of .
 					  collapsed:: true
 						- Actually, at first “vô nguyên” was translated to “emptism” in the note “[Mọi thứ đều có Ba, để Ba sinh ra mọi thứ](http://creatzynotes.blogspot.com/2020/11/ba-sinh-moi-thu-moi-thu-sinh-ba.html)”, but then “vacantism” was chosen when editing this document of Trinion.
 						- Chinese characters for “nguyên” from abstract to concrete: [元](https://en.wiktionary.org/wiki/%E5%85%83) (first, prime) → [原](https://en.wiktionary.org/wiki/%E5%8E%9F) (root, origin) → [源](https://en.wiktionary.org/wiki/%E6%BA%90) (source)
 						  id:: 6852abe7-46f7-4e61-9162-ce1311f717af
-							- ((68b96854-7e4a-45a9-b0ef-1d8fb57e5fa3))
+							- “**No first**” (無元): ((68b96854-7e4a-45a9-b0ef-1d8fb57e5fa3))
 							  id:: 68594391-d60e-40af-9285-0591b598288e
 								- In the 1926 book *Philosophy of No First Principle* ([無元哲學](Philosophy-NoFirstPrinciple_無元哲學_CADAL07002676.djvu.pdf)) by 朱謙之 (Zhu Qianzhi, Chu Khiêm Chi) [on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CADAL07002676_%E7%84%A1%E5%85%83%E5%93%B2%E5%AD%B8_%EF%BC%88%E5%93%B2%E5%AD%B8%EF%BC%89.djvu), Zhu situates “無元” as a critical stance against foundationalism.
 								  > The world has no fixed, singular origin or "元". All forms arise through **relation**, **flow**, and **emptiness**, not substance.
@@ -3619,6 +3619,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- Numbering
 		  collapsed:: true
 			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called [the unity of opposites](https://en.wikipedia.org/wiki/Unity_of_opposites) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) ([relativistic](https://en.wikipedia.org/wiki/Relativism)) as reflected by the intrinsics of the Zero (the Trinion).
+			  id:: 684f9517-64ce-41bd-a88c-0476cbfa790d
 				- > “The Way generates the One; the One generates the Two; the Two generates the Three; the Three generates all things.”
 				  「道生一，一生二，二生三，三生萬物。」
 				  
