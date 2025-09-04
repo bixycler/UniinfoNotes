@@ -3894,20 +3894,37 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  
 					  
 					  ```
-					- ```
-					  ---
-					  config:
-					    layout: elk
-					    theme: redux
-					  ---
-					  
-					      style Buddha stroke-width:4px,stroke-dasharray: 0
-					      style Theravada stroke-width:4px,stroke-dasharray: 0
-					      style Mahayana stroke-width:4px,stroke-dasharray: 0
-					      style EastAsia stroke-width:4px,stroke-dasharray: 0
-					      style Vajrayana stroke-width:4px,stroke-dasharray: 0
-					  
-					  ```
+					- For https://www.mermaidchart.com/play
+						- ```
+						  ---
+						  config:
+						    layout: elk
+						    theme: redux
+						  ---
+						  flowchart TD
+						  
+						  %% Early branching
+						  Buddha[/"Gautama Buddha<br>(5th–4th c. BCE)"\] --> Early["Early Buddhist Schools<br>(After Councils)"]
+						  Early --> Sthavira["Sthavira (Elders)"] & Mahasanghika["Mahāsāṃghika<br>(Great Community)"]
+						  Sthavira --> Theravada[\"Theravāda<br>(Sri Lanka &amp; SE Asia)"/] & Sarvastivada["Sarvāstivāda<br>(Theory that All Exists)"]
+						  Mahasanghika --> Mahayana["Indian Mahāyāna<br>(1st c. BCE–CE)"]
+						  Sarvastivada --> Mahayana
+						  
+						  %% Mahāyāna branches
+						  Mahayana --> Madhyamaka["Madhyamaka (Middle Way)<br>(Nāgārjuna, 2nd-3rd c.)"] & Yogacara["Yogācāra <br>(Consciousness-Only)<br>(Asaṅga &amp; Vasubandhu, 4th c.)"]
+						  Madhyamaka --> EastAsia[\"East Asian Mahāyāna<br>(Zen, Pure Land, Huayan, Tiantai)"/] & Vajrayana[\"Vajrayāna / Tantrayāna<br>(7th–8th c., India → Tibet)"/]
+						  Yogacara --> EastAsia & Vajrayana
+						  Brahmanical[/"Brahmanical &amp;<br> Vedantic Thoughts"\] -.-> Madhyamaka
+						  Samkhya[/"Sāṃkhya &amp;<br> Hindu Epistemology"\] -.-> Yogacara
+						  Tantra[/"Indian Tantric Traditions<br>(Śaiva, Śākta, Folk)"\] -.-> Vajrayana
+						  
+						  %% Styles
+						  style Buddha stroke-width:4px,stroke-dasharray: 0
+						  style Theravada stroke-width:4px,stroke-dasharray: 0
+						  style Mahayana stroke-width:4px,stroke-dasharray: 0
+						  style EastAsia stroke-width:4px,stroke-dasharray: 0
+						  style Vajrayana stroke-width:4px,stroke-dasharray: 0
+						  ```
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
