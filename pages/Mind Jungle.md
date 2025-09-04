@@ -3528,6 +3528,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66f3ed94-4f20-4166-8e9b-2e8ba53aaad2
 		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f3f2ad-5b53-4322-889a-f2c85f135fbf)), ((66f3f2ca-cb22-4357-82aa-c8fcf8cc7b3e))
+		  “An openness, not a nothingness.”
 			- vô nguyên
 			  id:: 66f3f2ad-5b53-4322-889a-f2c85f135fbf
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2))
