@@ -3835,7 +3835,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ```mermaid
 					  flowchart TD
 					  
-					  %% Core root
+					  %% Tap root
 					  Buddha[/"Gautama Buddha<br/>(5th–4th c. BCE)"\]
 					  
 					  %% Early branching
@@ -3846,7 +3846,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  Sarvastivada["Sarvāstivāda<br/>(Theory that All Exists)"]
 					  Mahasanghika["Mahāsāṃghika<br/>(Great Community)"]
 					  
-					  Theravada("Theravāda<br/>(Sri Lanka & SE Asia)")
+					  Theravada[\"Theravāda<br/>(Sri Lanka & SE Asia)"/]
 					  Mahayana["Indian Mahāyāna<br/>(1st c. BCE–CE)"]
 					  
 					  %% Indian philosophy lateral roots
@@ -3859,8 +3859,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  Madhyamaka["Madhyamaka (Middle Way)<br/>(Nāgārjuna, 2nd-3rd c.)"]
 					  Yogacara["Yogācāra (Consciousness-Only)<br/>(Asaṅga & Vasubandhu, 4th c.)"]
 					  
-					  EastAsia("East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)")
-					  Vajrayana("Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)")
+					  EastAsia[\"East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)"/]
+					  Vajrayana[\"Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)"/]
 					  
 					  %% Core flow
 					  
@@ -3901,14 +3901,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					    theme: redux
 					  ---
 					  
-					      Buddha@{ shape: trap-b}
-					      Theravada@{ shape: rounded}
-					      EastAsia@{ shape: rounded}
-					      Vajrayana@{ shape: rounded}
-					      Samkhya@{ shape: trap-b}
-					      Brahmanical@{ shape: trap-b}
-					      Tantra@{ shape: trap-b}
+					      style Buddha stroke-width:4px,stroke-dasharray: 0
 					      style Theravada stroke-width:4px,stroke-dasharray: 0
+					      style Mahayana stroke-width:4px,stroke-dasharray: 0
 					      style EastAsia stroke-width:4px,stroke-dasharray: 0
 					      style Vajrayana stroke-width:4px,stroke-dasharray: 0
 					  
