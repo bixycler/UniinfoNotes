@@ -3845,20 +3845,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					      Sarvastivada["Sarvāstivāda"]
 					      Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
 					  
-					      %% Mahayana core
-					      Mahayana["Mahāyāna<br/>(1st c. BCE–CE, India)"]
+					      %% Mahayana root
+					      Mahayana["Indian Mahāyāna<br/>(1st c. BCE–CE)"]
 					      Madhyamaka["Madhyamaka<br/>(Nāgārjuna, 2nd c.)"]
 					      Yogacara["Yogācāra<br/>(Asaṅga & Vasubandhu, 4th c.)"]
 					  
-					      %% Vajrayana
-					      Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)"]
-					  
-					      %% East Asian Mahayana
-					      EA["East Asian Mahāyāna"]
-					      Tiantai["Tiantai"]
-					      Huayan["Huayan"]
-					      PureLand["Pure Land"]
-					      Zen["Zen / Chan"]
+					      %% Branches from Indian Mahayana
+					      Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., Tibet)"]
+					      EastAsia["East Asian Mahāyāna<br/>(China, Korea, Japan, Vietnam)"]
 					  
 					      %% Connections
 					      Buddha --> Early
@@ -3872,13 +3866,54 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  
 					      Mahayana --> Madhyamaka
 					      Mahayana --> Yogacara
-					      Mahayana --> Vajrayana
-					      Mahayana --> EA
 					  
-					      EA --> Tiantai
-					      EA --> Huayan
-					      EA --> PureLand
-					      EA --> Zen
+					      %% Madhyamaka & Yogacara feed both Vajrayana and East Asia
+					      Madhyamaka --> Vajrayana
+					      Yogacara --> Vajrayana
+					      Madhyamaka --> EastAsia
+					      Yogacara --> EastAsia
+					  
+					  ```
+					- ```mermaid
+					  graph TD
+					  
+					      Buddha["Gautama Buddha<br/>(5th–4th c. BCE)"]
+					  
+					      Early["Early Buddhist Schools<br/>(After First Councils)"]
+					  
+					      %% Early schools
+					      Mahasanghika["Mahāsāṃghika"]
+					      Sthavira["Sthavira"]
+					      Sarvastivada["Sarvāstivāda"]
+					      Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
+					  
+					      %% Mahayana root
+					      Mahayana["Indian Mahāyāna<br/>(1st c. BCE–CE)"]
+					      Madhyamaka["Madhyamaka<br/>(Nāgārjuna, 2nd c.)"]
+					      Yogacara["Yogācāra<br/>(Asaṅga & Vasubandhu, 4th c.)"]
+					  
+					      %% Branches from Indian Mahayana
+					      Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., Tibet)"]
+					      EastAsia["East Asian Mahāyāna<br/>(China, Korea, Japan, Vietnam)"]
+					  
+					      %% Connections
+					      Buddha --> Early
+					      Early --> Mahasanghika
+					      Early --> Sthavira
+					      Sthavira --> Sarvastivada
+					      Sthavira --> Theravada
+					  
+					      Mahasanghika --> Mahayana
+					      Sarvastivada --> Mahayana
+					  
+					      Mahayana --> Madhyamaka
+					      Mahayana --> Yogacara
+					  
+					      %% Madhyamaka & Yogacara feed both Vajrayana and East Asia
+					      Madhyamaka --> Vajrayana
+					      Yogacara --> Vajrayana
+					      Madhyamaka --> EastAsia
+					      Yogacara --> EastAsia
 					  
 					  ```
 		- Sound experiment with my đàn bầu.
