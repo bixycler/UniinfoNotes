@@ -3836,7 +3836,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  flowchart TD
 					  
 					  %% Core root
-					  Buddha["Gautama Buddha<br/>(5th–4th c. BCE)"]
+					  Buddha[/"Gautama Buddha<br/>(5th–4th c. BCE)"\]
 					  
 					  %% Early branching
 					  
@@ -3844,23 +3844,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  
 					  Sthavira["Sthavira (Elders)"]
 					  Sarvastivada["Sarvāstivāda<br/>(Theory that All Exists)"]
-					  Mahasanghika["Mahāsāṃghika (Great Community)"]
+					  Mahasanghika["Mahāsāṃghika<br/>(Great Community)"]
 					  
-					  Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
+					  Theravada("Theravāda<br/>(Sri Lanka & SE Asia)")
 					  Mahayana["Indian Mahāyāna<br/>(1st c. BCE–CE)"]
 					  
 					  %% Indian philosophy lateral roots
-					  Samkhya["Sāṃkhya &<br/> Hindu Epistemology"]
-					  Brahmanical["Brahmanical &<br/> Vedantic Thoughts"]
-					  Tantra["Indian Tantric Traditions<br/>(Śaiva, Śākta, Folk)"]
+					  Brahmanical[/"Brahmanical &<br/> Vedantic Thoughts"\]
+					  Samkhya[/"Sāṃkhya &<br/> Hindu Epistemology"\]
+					  Tantra[/"Indian Tantric Traditions<br/>(Śaiva, Śākta, Folk)"\]
 					  
 					  %% Mahāyāna branches
 					  
 					  Madhyamaka["Madhyamaka (Middle Way)<br/>(Nāgārjuna, 2nd-3rd c.)"]
 					  Yogacara["Yogācāra (Consciousness-Only)<br/>(Asaṅga & Vasubandhu, 4th c.)"]
 					  
-					  EastAsia["East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)"]
-					  Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)"]
+					  EastAsia("East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)")
+					  Vajrayana("Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)")
 					  
 					  %% Core flow
 					  
@@ -3878,14 +3878,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  %% Mahāyāna expansions
 					  Mahayana --> Madhyamaka
 					  Mahayana --> Yogacara
-					  Mahayana --> EastAsia
 					  
 					  %% East Asia is philosophical stream
 					  Madhyamaka --> EastAsia
 					  Yogacara --> EastAsia
 					  
 					  %% Vajrayāna integration
-					  Mahayana --> Vajrayana
 					  Madhyamaka --> Vajrayana
 					  Yogacara --> Vajrayana
 					  
@@ -3900,7 +3898,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  ---
 					  config:
 					    layout: elk
+					    theme: redux
 					  ---
+					  
+					      Buddha@{ shape: trap-b}
+					      Theravada@{ shape: rounded}
+					      EastAsia@{ shape: rounded}
+					      Vajrayana@{ shape: rounded}
+					      Samkhya@{ shape: trap-b}
+					      Brahmanical@{ shape: trap-b}
+					      Tantra@{ shape: trap-b}
+					      style Theravada stroke-width:4px,stroke-dasharray: 0
+					      style EastAsia stroke-width:4px,stroke-dasharray: 0
+					      style Vajrayana stroke-width:4px,stroke-dasharray: 0
+					  
 					  ```
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
