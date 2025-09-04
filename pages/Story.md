@@ -3841,9 +3841,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					      %% Early branching
 					      Early["Early Buddhist Schools<br/>(After Councils)"]
 					  
-					      Mahasanghika["Mahāsāṃghika"]
-					      Sthavira["Sthavira"]
-					      Sarvastivada["Sarvāstivāda"]
+					      Sthavira["Sthavira (Elders)"]
+					      Sarvastivada["Sarvāstivāda<br/>(Theory that All Exists)"]
+					      Mahasanghika["Mahāsāṃghika (Great Community)"]
 					  
 					      Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
 					      Mahayana["Mahāyāna<br/>(1st c. BCE–CE, India)"]
