@@ -3595,13 +3595,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  id:: 6852abe7-46f7-4e61-9162-ce1311f717af
 							- “**No first**” (無元): ((68b96854-7e4a-45a9-b0ef-1d8fb57e5fa3))
 							  id:: 68594391-d60e-40af-9285-0591b598288e
-								- In the 1926 book *Philosophy of No First Principle* ([無元哲學](Philosophy-NoFirstPrinciple_無元哲學_CADAL07002676.djvu.pdf)) by 朱謙之 (Zhu Qianzhi, Chu Khiêm Chi) [on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CADAL07002676_%E7%84%A1%E5%85%83%E5%93%B2%E5%AD%B8_%EF%BC%88%E5%93%B2%E5%AD%B8%EF%BC%89.djvu), Zhu situates “無元” as a critical stance against foundationalism.
+								- In the 1926 book *Philosophy of No First Principle* ([無元哲學](Philosophy-NoFirstPrinciple_無元哲學_CADAL07002676.djvu.pdf)) by 朱謙之 (Zhu Qianzhi, Chu Khiêm Chi) [on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CADAL07002676_%E7%84%A1%E5%85%83%E5%93%B2%E5%AD%B8_%EF%BC%88%E5%93%B2%E5%AD%B8%EF%BC%89.djvu), Zhu situates “無元” as a critical stance against [foundationalism](https://en.wikipedia.org/wiki/Foundationalism).
 								  > The world has no fixed, singular origin or "元". All forms arise through **relation**, **flow**, and **emptiness**, not substance.
 							- Next to “無元” is [“無原”](https://baike.baidu.com/item/%E7%84%A1%E5%8E%9F/927272) (**no origin**), meaning “unfathomable origin”, which is often found in Chinese ancient philosophical texts and literary works. The term can be traced back to the Han Dynasty classic 淮南子 ([Huainanzi](https://en.wikipedia.org/wiki/Huainanzi), [Hoài Nam Tử](https://vi.wikipedia.org/wiki/Ho%C3%A0i_Nam_t%E1%BB%AD)), which explains the inexhaustibility of the origin of things through classic expressions such as “轉于無原” (“turning to no origin”, “chuyển vu vô nguyên”, “quay về vô nguyên”).
 								- Note: Don't confuse “無原” with the modern term “無原由” (“no reason” / “unjustified”) in administrative/legal contexts.
-							- And the last is “no source” (無源), a modern technical term meaning [“passive device”](https://en.wikipedia.org/wiki/Electronic_component#Passive_components), i.e., a device that does not require its own power supply (e.g., resistors, transformers), as well as an ancient philosophical term used in commentary on Tao Te Ching.
+							- And the last is “no source” (無源), an ancient philosophical term used in commentary on Tao Te Ching.
 								- 無源 refers to the 4th chapter of Tao Te Ching:
 								  {{embed ((684f9517-7e89-4efb-9b6c-16bf3458ce67))}}
+								- Note: Don't confuse this philosophical meaning with  無源元件, a modern technical term meaning [“passive device”](https://en.wikipedia.org/wiki/Electronic_component#Passive_components), i.e., a device that does not require its own power supply (e.g., resistors, transformers), as well as
 							- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
 							  id:: 6853d150-9daa-4f24-8621-737485d7e9a2
 							  collapsed:: true
