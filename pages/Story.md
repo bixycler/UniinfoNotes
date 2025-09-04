@@ -3835,43 +3835,40 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- ```mermaid
 					  graph TD
 					  
+					      %% Core root
 					      Buddha["Gautama Buddha<br/>(5th–4th c. BCE)"]
 					  
-					      Early["Early Buddhist Schools<br/>(After First Councils)"]
+					      %% Early branching
+					      Early["Early Buddhist Schools<br/>(After Councils)"]
 					  
-					      %% Early schools
-					      Mahasanghika["Mahāsāṃghika"]
-					      Sthavira["Sthavira"]
-					      Sarvastivada["Sarvāstivāda"]
 					      Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
+					      Mahayana["Mahāyāna<br/>(1st c. BCE–CE, India)"]
 					  
-					      %% Mahayana root
-					      Mahayana["Indian Mahāyāna<br/>(1st c. BCE–CE)"]
+					      %% Indian philosophy lateral roots
+					      Samkhya["Sāṃkhya & Hindu Epistemology"]
+					      Brahmanical["Brahmanical / Vedantic Thought"]
+					      TantraRoot["Indian Tantric Traditions<br/>(Śaiva, Śākta, Folk)"]
+					  
+					      %% Mahāyāna branches
 					      Madhyamaka["Madhyamaka<br/>(Nāgārjuna, 2nd c.)"]
 					      Yogacara["Yogācāra<br/>(Asaṅga & Vasubandhu, 4th c.)"]
 					  
-					      %% Branches from Indian Mahayana
-					      Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., Tibet)"]
-					      EastAsia["East Asian Mahāyāna<br/>(China, Korea, Japan, Vietnam)"]
+					      EastAsianMahayana["East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)"]
+					      Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)"]
 					  
-					      %% Connections
+					      %% Core flow
 					      Buddha --> Early
-					      Early --> Mahasanghika
-					      Early --> Sthavira
-					      Sthavira --> Sarvastivada
-					      Sthavira --> Theravada
-					  
-					      Mahasanghika --> Mahayana
-					      Sarvastivada --> Mahayana
-					  
+					      Early --> Theravada
+					      Early --> Mahayana
 					      Mahayana --> Madhyamaka
 					      Mahayana --> Yogacara
+					      Mahayana --> Vajrayana
+					      Mahayana --> EastAsianMahayana
 					  
-					      %% Madhyamaka & Yogacara feed both Vajrayana and East Asia
-					      Madhyamaka --> Vajrayana
-					      Yogacara --> Vajrayana
-					      Madhyamaka --> EastAsia
-					      Yogacara --> EastAsia
+					      %% Lateral influences
+					      Samkhya -.-> Yogacara
+					      Brahmanical -.-> Madhyamaka
+					      TantraRoot -.-> Vajrayana
 					  
 					  ```
 					- ```mermaid
@@ -3892,8 +3889,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					      Madhyamaka["Madhyamaka<br/>(Nāgārjuna, 2nd c.)"]
 					      Yogacara["Yogācāra<br/>(Asaṅga & Vasubandhu, 4th c.)"]
 					  
-					      %% Branches from Indian Mahayana
-					      Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., Tibet)"]
+					      %% Tantra
+					      Tantra["Tantric Buddhism<br/>(Mantrayāna, 6th–7th c.)"]
+					  
+					      %% Branches
+					      Vajrayana["Vajrayāna / Tantrayāna<br/>(Tibet & Himalaya)"]
 					      EastAsia["East Asian Mahāyāna<br/>(China, Korea, Japan, Vietnam)"]
 					  
 					      %% Connections
@@ -3909,9 +3909,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					      Mahayana --> Madhyamaka
 					      Mahayana --> Yogacara
 					  
-					      %% Madhyamaka & Yogacara feed both Vajrayana and East Asia
+					      %% Vajrayana needs both philosophy + tantra
 					      Madhyamaka --> Vajrayana
 					      Yogacara --> Vajrayana
+					      Tantra --> Vajrayana
+					  
+					      %% East Asia is philosophical stream
 					      Madhyamaka --> EastAsia
 					      Yogacara --> EastAsia
 					  
