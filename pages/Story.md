@@ -3855,7 +3855,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  
 					      %% Mahāyāna branches
 					      Madhyamaka["Madhyamaka (Middle Way)<br/>(Nāgārjuna, 2nd-3rd c.)"]
-					      Yogacara["Yogācāra<br/>(Asaṅga & Vasubandhu, 4th c.)"]
+					      Yogacara["Yogācāra (Consciousness-Only)<br/>(Asaṅga & Vasubandhu, 4th c.)"]
 					  
 					      EastAsia["East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)"]
 					      Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)"]
@@ -3890,54 +3890,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					      Samkhya -.-> Yogacara
 					      Brahmanical -.-> Madhyamaka
 					      TantraRoot -.-> Vajrayana
-					  
-					  ```
-					- ```mermaid
-					  graph TD
-					  
-					      Buddha["Gautama Buddha<br/>(5th–4th c. BCE)"]
-					  
-					      Early["Early Buddhist Schools<br/>(After First Councils)"]
-					  
-					      %% Early schools
-					      Mahasanghika["Mahāsāṃghika"]
-					      Sthavira["Sthavira"]
-					      Sarvastivada["Sarvāstivāda"]
-					      Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
-					  
-					      %% Mahayana root
-					      Mahayana["Indian Mahāyāna<br/>(1st c. BCE–CE)"]
-					      Madhyamaka["Madhyamaka<br/>(Nāgārjuna, 2nd c.)"]
-					      Yogacara["Yogācāra<br/>(Asaṅga & Vasubandhu, 4th c.)"]
-					  
-					      %% Tantra
-					      Tantra["Tantric Buddhism<br/>(Mantrayāna, 6th–7th c.)"]
-					  
-					      %% Branches
-					      Vajrayana["Vajrayāna / Tantrayāna<br/>(Tibet & Himalaya)"]
-					      EastAsia["East Asian Mahāyāna<br/>(China, Korea, Japan, Vietnam)"]
-					  
-					      %% Connections
-					      Buddha --> Early
-					      Early --> Mahasanghika
-					      Early --> Sthavira
-					      Sthavira --> Sarvastivada
-					      Sthavira --> Theravada
-					  
-					      Mahasanghika --> Mahayana
-					      Sarvastivada --> Mahayana
-					  
-					      Mahayana --> Madhyamaka
-					      Mahayana --> Yogacara
-					  
-					      %% Vajrayana needs both philosophy + tantra
-					      Madhyamaka --> Vajrayana
-					      Yogacara --> Vajrayana
-					      Tantra --> Vajrayana
-					  
-					      %% East Asia is philosophical stream
-					      Madhyamaka --> EastAsia
-					      Yogacara --> EastAsia
 					  
 					  ```
 		- Sound experiment with my đàn bầu.
