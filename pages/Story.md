@@ -3831,7 +3831,56 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The next day, going to the tree house of Bảo–Lụa, she got the first time a pleasing feeling about the garden environment.
 			- Sep 4th
 			  collapsed:: true
-				-
+				- Development of Buddhist schools
+					- ```mermaid
+					  graph TD
+					  
+					      Buddha["Gautama Buddha<br/>(5th–4th c. BCE)"]
+					  
+					      Early["Early Buddhist Schools<br/>(After First Councils)"]
+					  
+					      %% Early schools
+					      Mahasanghika["Mahāsāṃghika"]
+					      Sthavira["Sthavira"]
+					      Sarvastivada["Sarvāstivāda"]
+					      Theravada["Theravāda<br/>(Sri Lanka & SE Asia)"]
+					  
+					      %% Mahayana core
+					      Mahayana["Mahāyāna<br/>(1st c. BCE–CE, India)"]
+					      Madhyamaka["Madhyamaka<br/>(Nāgārjuna, 2nd c.)"]
+					      Yogacara["Yogācāra<br/>(Asaṅga & Vasubandhu, 4th c.)"]
+					  
+					      %% Vajrayana
+					      Vajrayana["Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)"]
+					  
+					      %% East Asian Mahayana
+					      EA["East Asian Mahāyāna"]
+					      Tiantai["Tiantai"]
+					      Huayan["Huayan"]
+					      PureLand["Pure Land"]
+					      Zen["Zen / Chan"]
+					  
+					      %% Connections
+					      Buddha --> Early
+					      Early --> Mahasanghika
+					      Early --> Sthavira
+					      Sthavira --> Sarvastivada
+					      Sthavira --> Theravada
+					  
+					      Mahasanghika --> Mahayana
+					      Sarvastivada --> Mahayana
+					  
+					      Mahayana --> Madhyamaka
+					      Mahayana --> Yogacara
+					      Mahayana --> Vajrayana
+					      Mahayana --> EA
+					  
+					      EA --> Tiantai
+					      EA --> Huayan
+					      EA --> PureLand
+					      EA --> Zen
+					  
+					  ```
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
