@@ -3829,6 +3829,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 68b7ebd7-caee-4cae-b361-6540cfc23bf8
 					- With this experience, she's got the vision of the whole circle of life in her mind, so that she's seen the only way for liberation is to go through it, but no other way to avoid or flee.
 					- The next day, going to the tree house of Bảo–Lụa, she got the first time a pleasing feeling about the garden environment.
+			- Sep 4th
+			  collapsed:: true
+				-
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
