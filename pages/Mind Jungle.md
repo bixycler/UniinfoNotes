@@ -3571,8 +3571,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Basically ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) simply means “**no first**” or “no prime” (無元), because in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), every concrete thing is circular, thus the whole Universe is circular and nothing can be absolutely “the first”.
 					  id:: 68b96854-7e4a-45a9-b0ef-1d8fb57e5fa3
-					- This denial of the any [first principle](https://en.wikipedia.org/wiki/First_principle), or [a priori](https://en.wikipedia.org/wiki/A_priori_and_a_posteriori), or [essence](https://en.wikipedia.org/wiki/Essence)
-					- The Sanskrit word “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” and the Chinese characters “空”, “無” are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
+					- This denial of the any [first principle](https://en.wikipedia.org/wiki/First_principle), or [a priori](https://en.wikipedia.org/wiki/A_priori_and_a_posteriori), or [essence](https://en.wikipedia.org/wiki/Essence), makes Vacantism equivalent to [non-foundationalism](https://en.wikipedia.org/wiki/Anti-foundationalism) and [non-essentialism](https://en.wikipedia.org/wiki/Non-essentialism)., and concepts like “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” which are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
 					  id:: 66f3ee6f-9f62-4f7f-ad00-34f5d4b0c800
 						- id:: 684f9517-3cbd-495d-8e40-85932d03bbe0
 						  > “Non-action but nothing is not done!”
