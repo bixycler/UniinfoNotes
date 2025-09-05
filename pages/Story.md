@@ -3818,6 +3818,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- This inverse variation becomes paradoxical only when the crutial role of the subject, the hidden one standing behind the scene, is forgotten.
 						- The content is not confined within the object, but spreads out through the underlying subject, hence the [total content](((678e1d31-4874-4df6-bfb4-60822a6b5546))) $c$ is constant.
 					- The **fractal vision** due to the **transparency** of the scene
+					  id:: 68ba3dc0-7e29-4fb7-ae59-d5d2a5962bf0
 					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2025-09-05 Fri 08:49:45]
@@ -3835,13 +3836,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Each layer (outer object, inner intent, memory, interpretation) is *both surface and depth*.
 							- Every layer folds into the next, repeating the same “see-through” principle.
 							- The vision becomes recursive, self-similar, infinitely intricate.
-					- Circle/sphere vision of the small content versus overlaying fractal vision of the large content
+					- Circle/sphere vision of the small content, versus overlaying fractal vision of the large content
 					  :LOGBOOK:
 					  CLOCK: [2025-09-05 Fri 08:49:50]
 					  :END:
 						- When the content to be seen (outside and inside) is small – fitting within the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) – we can project them all onto a dome screen.
-							- This panoramic view is the signature of our “inner home”, which i described as “a hall without wall and furnitures” in [this blog]().
-						- When
+							- This panoramic view is the signature of our “inner home”, which i described as “a hall without wall and furnitures” in [this blog]()`chap nhan duoc la tinh thwowng`.
+							  id:: 68ba4408-0fed-47c2-80b1-ce2cb258c44e
+						- When the content to be seen is larger than the perceptual screen, we must overlay them together, creating the [transparent fractal vision](((68ba3dc0-7e29-4fb7-ae59-d5d2a5962bf0))).
+							- This overloading is usually due to actions, motions, thoughts, emotions, which generates lots of contents, some externally and most internally.
+						- While we can stay perfectly calm and still in the panoramic dome vision, we usually aggetate
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
