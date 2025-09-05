@@ -3796,11 +3796,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 				  collapsed:: true
 					- When the **subject** focuses on a single point, as its object, it draws the whole world into that point by the “subject–object complementarity”.
+					  collapsed:: true
 						- When that point object is “solid/opaque”, it reflects the substance of the world, the part of the world before the eye, which is the complement of the subject/intent behind the eye.
 						- When that point object is “empty/transparent”, the subject can see nothing but its own reflection of the whole world & life.
 						- In other words, through the empty point, the subject's actually looking back at its own worlds (an external one and a multitude of internal ones).
 						- The empty point outside reflects the empty point inside, the ((66c8772a-9b29-45b0-b169-2fa847333e02)), hence the whole world is reflected by the subject through that point.
 					- ((670e1047-529a-4698-9ad0-5e6c73c18202)) = reflection of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (the essence of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)))
+					  collapsed:: true
 						- Substance (mondern) = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
 							- While the modern scientific concept of “substance” ([matter](https://en.wikipedia.org/wiki/Matter)) is a “dead substance” exclusive to the objective world, the concept of [substance](https://plato.stanford.edu/entries/substance/#UndeIdea) in philosophy from the ancient time (Aristotle, Plato, ...) did include living beings, too.
 							- In Unïnfo, ((670e1047-529a-4698-9ad0-5e6c73c18202)) includes not only “dead substances” but also “living substances”, similar to the ancient philosophies and Hegen's [living substance](((68b7a9cd-4d53-4961-a386-37d869aee926))).
@@ -3812,22 +3814,32 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
 							- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
 					- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) – the subject and its intents.
+					  collapsed:: true
 						- This inverse variation becomes paradoxical only when the crutial role of the subject, the hidden one standing behind the scene, is forgotten.
 						- The content is not confined within the object, but spreads out through the underlying subject, hence the [total content](((678e1d31-4874-4df6-bfb4-60822a6b5546))) $c$ is constant.
 					- The **fractal vision** due to the **transparency** of the scene
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-09-05 Fri 08:49:45]
+					  :END:
 						- Normal sight = **opaque separation**:
 							- Subject hidden *behind the eyes*.
 							- Object exposed *before the eyes*.
 							- The **wall of separation** between object & subject makes things look “clear, flat, and ordered”.
 						- Transparent sight = **wall dissolves**:
 							- Looking at the object, we don’t just stop at its surface.
-							- We see *through* into the subject itself – our own intents, memories, interpretive processes.
+							- We see *through* into the... subject itself – our own intents, memories, interpretive processes.
 							- Those inner contents appear before the eyes as if they were *objects* themselves.
 							- But because they too can be seen through, we keep peeling layers, deeper and deeper.
 						- This endless overlay = **a living fractal**:
 							- Each layer (outer object, inner intent, memory, interpretation) is *both surface and depth*.
 							- Every layer folds into the next, repeating the same “see-through” principle.
 							- The vision becomes recursive, self-similar, infinitely intricate.
+					- Circle/sphere vision of the small content versus overlaying fractal vision of the large content
+					  :LOGBOOK:
+					  CLOCK: [2025-09-05 Fri 08:49:50]
+					  :END:
+						-
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
