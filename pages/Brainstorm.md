@@ -34,6 +34,87 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- “Every empty point is the whole world, the whole life!”
+		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
+		  collapsed:: true
+			- When the **subject** focuses on a single point, as its object, it draws the whole world into that point by the “subject–object complementarity”.
+			  collapsed:: true
+				- When that point object is “solid/opaque”, it reflects the substance of the world, the part of the world before the eye, which is the complement of the subject/intent behind the eye.
+				- When that point object is “empty/transparent”, the subject can see nothing but its own reflection of the whole world & life.
+				- In other words, through the empty point, the subject's actually looking back at its own worlds (an external one and a multitude of internal ones).
+				- The empty point outside reflects the empty point inside, the ((66c8772a-9b29-45b0-b169-2fa847333e02)), hence the whole world is reflected by the subject through that point.
+			- ((670e1047-529a-4698-9ad0-5e6c73c18202)) = reflection of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (the essence of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)))
+			  collapsed:: true
+				- Substance (mondern) = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
+					- While the modern scientific concept of “substance” ([matter](https://en.wikipedia.org/wiki/Matter)) is a “dead substance” exclusive to the objective world, the concept of [substance](https://plato.stanford.edu/entries/substance/#UndeIdea) in philosophy from the ancient time (Aristotle, Plato, ...) did include living beings, too.
+					- In Unïnfo, ((670e1047-529a-4698-9ad0-5e6c73c18202)) includes not only “dead substances” but also “living substances”, similar to the ancient philosophies and Hegen's [living substance](((68b7a9cd-4d53-4961-a386-37d869aee926))).
+				- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
+					- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
+					- Don't confuse this “living substance” as subject with the modern biological “living substance” ([protoplasm](https://en.wikipedia.org/wiki/Protoplasm)) as material that makes up living cells.
+				- Substance is to subject as abstraction/analysis is to integration
+					- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
+					- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
+					- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
+			- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) – the subject and its intents.
+			  collapsed:: true
+				- This inverse variation becomes paradoxical only when the crutial role of the subject, the hidden one standing behind the scene, is forgotten.
+				- The content is not confined within the object, but spreads out through the underlying subject, hence the [total content](((678e1d31-4874-4df6-bfb4-60822a6b5546))) $c$ is constant.
+			- The **fractal vision** due to the **transparency** of the scene
+			  id:: 68ba3dc0-7e29-4fb7-ae59-d5d2a5962bf0
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-09-05 Fri 08:49:45]
+			  :END:
+				- Normal sight = **opaque separation**:
+				  id:: 68ba3dfc-1209-45e2-b8db-fb829bc10c62
+					- Subject hidden *behind the eyes*.
+					- Object exposed *before the eyes*.
+					- The **wall of separation** between object & subject makes things look “clear, flat, and ordered”.
+				- Transparent sight = **wall dissolves**:
+					- Looking at the object, we don’t just stop at its surface.
+					- We see *through* into the... subject itself – our own intents, memories, interpretive processes.
+					- Those inner contents appear before the eyes as if they were *objects* themselves.
+					- But because they too can be seen through, we keep peeling layers, deeper and deeper.
+				- This endless overlay = **a living fractal**:
+					- Each layer (outer object, inner intent, memory, interpretation) is *both surface and depth*.
+					- Every layer folds into the next, repeating the same “see-through” principle.
+					- The vision becomes recursive, self-similar, infinitely intricate.
+			- Circle/sphere vision of the small content, versus overlaying fractal vision of the large content
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-09-05 Fri 08:49:50]
+			  :END:
+				- When the content to be seen (outside and inside) is small – fitting within the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) – we can project them all onto a dome screen.
+				  id:: 68ba4209-92bb-4394-bdc2-92cbcece014a
+					- This panoramic view is the signature of our “inner home”, which i described as “a hall without wall and furnitures” in [this blog](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html).
+					  id:: 68ba4408-0fed-47c2-80b1-ce2cb258c44e
+				- When the content to be seen is larger than the perceptual screen, we must overlay them together, creating the [transparent fractal vision](((68ba3dc0-7e29-4fb7-ae59-d5d2a5962bf0))).
+					- This overloading is usually due to actions, motions, thoughts, emotions, which generates lots of contents, some externally and most internally.
+				- While we can stay perfectly calm and still in the panoramic dome vision, we're usually agitated in the overloaded fractal vision.
+					- With advanced skills of meditation, we can stay still in the midst of such overloaded fractal vision: accept, relax, release. This is what i called “staying in the eye of the hurricane” in [this blog](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html).
+					- The key of being still in the chaos is to let them passing through, so they cancel themselves, and we're in the middle/center.
+					- ⇒ ((68ba49d7-6048-4d97-9fc1-cd573165db5f))
+			- Static observation = balance at the center; Dynamic action = imbalance toward one end
+			  id:: 68ba49d7-6048-4d97-9fc1-cd573165db5f
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-09-05 Fri 09:24:36]
+			  :END:
+				- With a small content, we can easily stay statically in the self-balance of the [dome vision](((68ba4209-92bb-4394-bdc2-92cbcece014a))).
+				- With a large content, we naturally get imbalanced toward one end, being pushed toward action of that end.
+					- The large content is mostly composed of our intents internally,
+						- which is in the shape of a chain in task performing activities,
+						- or just a mess of intents when we're overloaded & agitated.
+					- In the [opaque vision](((68ba3dfc-1209-45e2-b8db-fb829bc10c62))) of everyday life, all these intents are continuously pushing us behind our eyes, forcing use to think, to talk, to do things after things nonstop.
+					- This [intent pressure](((68b19896-8640-4e28-9c7f-f7ca41d1e680))) is what we call “engergy” (eustress) and “stress” (disstress).
+				- Keeping balance with a large content is much more difficult than with a small content.
+					- This is what i descibed as “walking on a thin line in mid-air” in [this blog](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html).
+						- The idiom “walking a fine line between A & B” refers to this balancing skill.
+					- With ((68773fad-d653-4536-87b5-d4b493753b41)) & ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), at the root, our _**inner limbs** are free_ from all these chaos and pressure. This is how we can regain control from within.
+					- DONE Move to Brainstorms: ((68b79197-1244-4b42-b79f-464cfc8433a1))
+					  :LOGBOOK:
+					  CLOCK: [2025-09-05 Fri 18:08:27]--[2025-09-05 Fri 18:10:39] =>  00:02:12
+					  :END:
 		- Turing Deterministic / unbound deterministic = bound / unbound intent cone 
 		  id:: 68ac60bb-321e-44da-8f44-4f688e611d3e
 		  collapsed:: true
