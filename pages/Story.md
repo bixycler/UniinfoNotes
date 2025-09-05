@@ -3814,7 +3814,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) – the subject and its intents.
 						- This inverse variation becomes paradoxical only when the crutial role of the subject, the hidden one standing behind the scene, is forgotten.
 						- The content is not confined within the object, but spreads out through the underlying subject, hence the [total content](((678e1d31-4874-4df6-bfb4-60822a6b5546))) $c$ is constant.
-					- The fractal vision due to the transparency of
+					- The **fractal vision** due to the **transparency** of the scene
+						- Normal sight = **opaque separation**:
+							- Subject hidden *behind the eyes*.
+							- Object exposed *before the eyes*.
+							- The **wall of separation** between object & subject makes things look “clear, flat, and ordered”.
+						- Transparent sight = **wall dissolves**:
+							- Looking at the object, we don’t just stop at its surface.
+							- We see *through* into the subject itself – our own intents, memories, interpretive processes.
+							- Those inner contents appear before the eyes as if they were *objects* themselves.
+							- But because they too can be seen through, we keep peeling layers, deeper and deeper.
+						- This endless overlay = **a living fractal**:
+							- Each layer (outer object, inner intent, memory, interpretation) is *both surface and depth*.
+							- Every layer folds into the next, repeating the same “see-through” principle.
+							- The vision becomes recursive, self-similar, infinitely intricate.
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
