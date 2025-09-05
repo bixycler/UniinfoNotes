@@ -3839,7 +3839,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2025-09-05 Fri 08:49:50]
 					  :END:
-						-
+						- When the content to be seen (outside and inside) is small – fitting within the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) – we can project them all onto a dome screen.
+							- This panoramic view is the signature of our “inner home”, which i described as “a hall without wall and furnitures” in [this blog]().
+						- When
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
