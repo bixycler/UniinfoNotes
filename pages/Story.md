@@ -3869,6 +3869,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- This is what i descibed as “walking on a thin line in mid-air” in [this blog]() `ba cap do dinh`.
 								- The idiom “walking a fine line between A & B” refers to this balancing skill.
 							- With ((68773fad-d653-4536-87b5-d4b493753b41)) & ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), at the root, our _**inner limbs** are free_ from all these chaos and pressure. This is how we can regain control from within.
+							- TODO Move to Brainstorms: ((68b79197-1244-4b42-b79f-464cfc8433a1))
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
