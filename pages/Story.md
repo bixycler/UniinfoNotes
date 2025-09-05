@@ -3845,7 +3845,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  id:: 68ba4408-0fed-47c2-80b1-ce2cb258c44e
 						- When the content to be seen is larger than the perceptual screen, we must overlay them together, creating the [transparent fractal vision](((68ba3dc0-7e29-4fb7-ae59-d5d2a5962bf0))).
 							- This overloading is usually due to actions, motions, thoughts, emotions, which generates lots of contents, some externally and most internally.
-						- While we can stay perfectly calm and still in the panoramic dome vision, we usually aggetate
+						- While we can stay perfectly calm and still in the panoramic dome vision, we're usually agitated in the overloaded fractal vision.
+							- With advanced skills of meditation, we can stay still in the midst of such overloaded fractal vision: accept, relax, release. This is what i called “staying in the eye of the hurricane” in [this blog]() `ba cap do dinh`.
+							- The key of being still in the chaos is to let them passing through, so they cancel themselves, and we're in the middle/center.
+							- ⇒ Still
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
