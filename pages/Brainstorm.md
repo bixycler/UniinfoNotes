@@ -111,10 +111,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- This is what i descibed as “walking on a thin line in mid-air” in [this blog](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html).
 						- The idiom “walking a fine line between A & B” refers to this balancing skill.
 					- With ((68773fad-d653-4536-87b5-d4b493753b41)) & ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), at the root, our _**inner limbs** are free_ from all these chaos and pressure. This is how we can regain control from within.
-					- DONE Move to Brainstorms: ((68b79197-1244-4b42-b79f-464cfc8433a1))
-					  :LOGBOOK:
-					  CLOCK: [2025-09-05 Fri 18:08:27]--[2025-09-05 Fri 18:10:39] =>  00:02:12
-					  :END:
 		- Turing Deterministic / unbound deterministic = bound / unbound intent cone 
 		  id:: 68ac60bb-321e-44da-8f44-4f688e611d3e
 		  collapsed:: true
