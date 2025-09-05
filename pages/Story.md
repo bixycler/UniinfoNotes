@@ -3837,10 +3837,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Every layer folds into the next, repeating the same “see-through” principle.
 							- The vision becomes recursive, self-similar, infinitely intricate.
 					- Circle/sphere vision of the small content, versus overlaying fractal vision of the large content
+					  collapsed:: true
 					  :LOGBOOK:
 					  CLOCK: [2025-09-05 Fri 08:49:50]
 					  :END:
 						- When the content to be seen (outside and inside) is small – fitting within the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) – we can project them all onto a dome screen.
+						  id:: 68ba4209-92bb-4394-bdc2-92cbcece014a
 							- This panoramic view is the signature of our “inner home”, which i described as “a hall without wall and furnitures” in [this blog]()`chap nhan duoc la tinh thwowng`.
 							  id:: 68ba4408-0fed-47c2-80b1-ce2cb258c44e
 						- When the content to be seen is larger than the perceptual screen, we must overlay them together, creating the [transparent fractal vision](((68ba3dc0-7e29-4fb7-ae59-d5d2a5962bf0))).
@@ -3848,7 +3850,15 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- While we can stay perfectly calm and still in the panoramic dome vision, we're usually agitated in the overloaded fractal vision.
 							- With advanced skills of meditation, we can stay still in the midst of such overloaded fractal vision: accept, relax, release. This is what i called “staying in the eye of the hurricane” in [this blog]() `ba cap do dinh`.
 							- The key of being still in the chaos is to let them passing through, so they cancel themselves, and we're in the middle/center.
-							- ⇒ Still
+							- ⇒ ((68ba49d7-6048-4d97-9fc1-cd573165db5f))
+					- Static observation = balance at the center; Dynamic action = imbalance toward one end
+					  id:: 68ba49d7-6048-4d97-9fc1-cd573165db5f
+					  :LOGBOOK:
+					  CLOCK: [2025-09-05 Fri 09:24:36]
+					  :END:
+						- With small content, we can easily stay statically in the self-balance of the [dome vision](((68ba4209-92bb-4394-bdc2-92cbcece014a))).
+						- With large content, we naturally get imbalanced toward one end, pushing us toward action of that end.
+							- The large content is mostly composed of our intents internally, which is in the shape of a chain in task performing activities, or just a mess of chaos
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
