@@ -3858,15 +3858,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :LOGBOOK:
 					  CLOCK: [2025-09-05 Fri 09:24:36]
 					  :END:
-						- With small content, we can easily stay statically in the self-balance of the [dome vision](((68ba4209-92bb-4394-bdc2-92cbcece014a))).
-						- With large content, we naturally get imbalanced toward one end, being pushed toward action of that end.
+						- With a small content, we can easily stay statically in the self-balance of the [dome vision](((68ba4209-92bb-4394-bdc2-92cbcece014a))).
+						- With a large content, we naturally get imbalanced toward one end, being pushed toward action of that end.
 							- The large content is mostly composed of our intents internally,
 								- which is in the shape of a chain in task performing activities,
 								- or just a mess of intents when we're overloaded & agitated.
 							- In the [opaque vision](((68ba3dfc-1209-45e2-b8db-fb829bc10c62))) of everyday life, all these intents are continuously pushing us behind our eyes, forcing use to think, to talk, to do things after things nonstop.
 							- This [intent pressure](((68b19896-8640-4e28-9c7f-f7ca41d1e680))) is what we call “engergy” (eustress) and “stress” (disstress).
-						- Keeping balance with large content is much more difficult than with small content.
-							- This is what i descibed as “walking a fine line in mid-air” in [this blog]() `ba cap do dinh`.
+						- Keeping balance with a large content is much more difficult than with a small content.
+							- This is what i descibed as “walking on a thin line in mid-air” in [this blog]() `ba cap do dinh`.
+								- The idiom “walking a fine line between A & B” refers to this balancing skill.
+							- With  our inner limbs are free
 				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
 				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
 				  collapsed:: true
