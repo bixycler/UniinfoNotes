@@ -29,9 +29,9 @@ curl --fail --show-error --location --progress-bar -o $OUTDIR/$APPIMAGE_FILE $AP
 cd $OUTDIR
 status "Extracting..."
 ./$APPIMAGE_FILE --appimage-extract >/dev/null;
-#rm -rf $APPIMAGE_FILE
 mv squashfs-root $EXTRACTED_DIR
-ln -sf $EXTRACTED_DIR/AppRun $EXE_FILE
+rm -rf $EXE_FILE
+ln -sfv $EXTRACTED_DIR/AppRun $EXE_FILE
 
 status "AnythingLLMDesktop is ready to run with $EXE_FILE."
 status "You can rerun this installer anytime to get the latest version of AnythingLLM without effecting your existing data."
