@@ -67,7 +67,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66c300a9-beb5-4395-ae20-e9bb34ca8aae
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c30085-818a-411c-be4a-01d40a6c618d))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) [large language model](https://en.wikipedia.org/wiki/Large_language_model)
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ...
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- The task to "predict next word from previous context" is the ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))ing of natural language. In order to output the next word, it must understand the previous context, including its own output up to now, and [focus](((66c32936-618a-43d3-b2c8-a254badeb987))) on the current concept related to the word to be output.
@@ -144,6 +143,46 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- [Anthropic scientists expose how AI actually ‘thinks’ — and discover it secretly plans ahead and sometimes lies](https://venturebeat.com/ai/anthropic-scientists-expose-how-ai-actually-thinks-and-discover-it-secretly-plans-ahead-and-sometimes-lies/)
 							- “The model contains ‘default’ circuits that cause it to decline to answer questions,” the researchers explain. “When a model is asked a question about something it knows, it activates a pool of features which inhibit this default circuit, thereby allowing the model to respond to the question.”
 							- When this mechanism misfires – recognizing an entity but lacking specific knowledge about it – hallucinations can occur. This explains why models might confidently provide incorrect information about well-known figures while refusing to answer questions about obscure ones.
+				- Local LLMs
+				  collapsed:: true
+					- Ref: [reddit:r/LocalLLM](https://www.reddit.com/r/LocalLLM/)
+					- [Ollama server](https://github.com/ollama/ollama)
+					- [Open WebUI](https://github.com/open-webui/open-webui)
+						- Open WebUI supports [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation).
+					- [LocalAI](https://github.com/mudler/LocalAI)
+					- [LMStudio](https://github.com/lmstudio-ai)
+					- [GPT4All](https://github.com/nomic-ai/gpt4all)
+				- Free LLM APIs
+				  collapsed:: true
+					- [ApiFreeLLM](https://www.apifreellm.com/)
+						- No registration, no API key needed, unlimited API calls, only rate limits (to prevent abuse).
+						- Seems to serve a Llama 🦙 model.
+					- [Hugging Face](https://huggingface.co/)
+						- Server of open-source models.
+						- Free tier: 30 requests/minute, 1k requests/month
+					- [Gemini Developer API](https://ai.google.dev/gemini-api/)
+						- [Free plan limit](https://ai.google.dev/gemini-api/docs/rate-limits): 5-30 requests/minute (RPM), 250k-1M tokens/minute (TPM), 100-1k requests/day (RPD)
+							- | Model | Request/minute | Token/minute | Request/day |
+							  | -------------- | ---------:| -------------:| -------------:|
+							  | 2.0 Flash-Lite | 30 RPM | 1M TPM | 200 RPD |
+							  | 2.5 Flash-Lite | 15 RPM | 250k TPM | 1k RPD |
+							  | 2.5 Pro            | 5 RPM | 250k TPM | 100 RPD |
+							  | Embedding            | 100 RPM | 30k TPM | 1k RPD |
+						- Genrerative model API: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent` & Header `X-goog-api-key:`
+						- Cloud Console > [Service Usage > Generative Language API](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/metrics?project=gen-lang-client-0007872100)
+					- [OpenRouter](https://openrouter.ai/)
+						- Automatically routed to various models with a single API key.
+						- For free models, max requests: 50/minute, 250/day
+					- [Cohere](https://cohere.com/)
+						- [Founded in 2019](https://en.wikipedia.org/wiki/Cohere) by former researchers of Google Brain.
+						- Max free requests: 20/min, 1k/month
+				- Data indexer for LLM (with [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database))
+				  collapsed:: true
+					- [LlamaIndex](https://github.com/run-llama/llama_index)
+						- LlamaIndex allows users to extract and ingest data from various sources, and then store and query it as a knowledge graph within [NebulaGraph](https://github.com/vesoft-inc/nebula).
+					- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
+					- [MemFree](https://github.com/memfreeme/memfree)
+				-
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
@@ -4020,6 +4059,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) thăng hoa – dẫn lưu
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, use breathwork to dissolve, to _sublimate_ the hard ((669a5387-2a97-4311-a295-aa0afd9c4d76)) into a fluid (qi, khí, 氣), then use qigong (氣功) & [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))) to transform & _channel_ the fluid to the required target form. The process should repeat until we reach [equilibrium](((669a58b9-2104-4d4c-b68f-7a45e2adb915))).
+				- **Ujjayi** breathing technique for ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+				  id:: 66952126-bf33-40e1-a208-369df7aa9488
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-07-15 Mon 20:28:28]
+				  :END:
+					- With the sublime–channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
+					  id:: 66b1cfa3-93c4-4de3-8904-06fb065ded70
+					- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
+				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
+				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				  collapsed:: true
 					- I discovered sublimation first (from [the start of February 2024](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice).
@@ -4036,17 +4086,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Then i refined the technique with breathwork which resulted in the [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))).
 					- [August 5th 2025](((6892ac8b-8b7c-4129-8a62-5c38065f7898))), i saw that sublime–channel technique has the effect of dissolving intents, helping [intents penetration](((689029a3-c02b-4cb9-b1bd-205f12c97391))) in the [intents equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))).
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- Breathing technique for ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
-					  id:: 66952126-bf33-40e1-a208-369df7aa9488
-					  collapsed:: true
-					  :LOGBOOK:
-					  CLOCK: [2024-07-15 Mon 20:28:28]
-					  :END:
-						- With the sublime–channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
-						  id:: 66b1cfa3-93c4-4de3-8904-06fb065ded70
-						- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
-				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
-				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
 			- ### subtilize
 			  id:: 66aded27-9701-4b6e-85e8-22049ddbe2d2
 			  collapsed:: true
@@ -4217,11 +4256,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6850c7e4-0969-45b7-9ca8-e2c1d764effe
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 groups of antidotal practices correponding to [3 levels of absorptions](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html) as follows. The karmic pleasures will be replaced by the new rewards of the these absorptions.
 					- Anti-greed with static absorption
-						- [**Reset**](((67445065-15b2-475e-a704-78f140d487af))) to break the “goal reaching” pattern and to put the attractive target (intent) aside.
-						- **Retract to the belly** with ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) for the mindbody to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
+						- [**Reset**](((67445065-15b2-475e-a704-78f140d487af))), with the help of ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), to break the “goal reaching” pattern and to put the attractive target (intent) aside.
+						- **Retract to the belly** – the root of both body and mind – **fill the bodymind** with [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))) for it to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
+						  id:: 68594391-faeb-4f7e-87e1-9ea179c2639b
 					- Anti-aversion with flow absorption
 					  id:: 68594391-006a-4630-964a-4a54e916b97f
 						- Use **breathworks** – ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) & ((68773fad-d653-4536-87b5-d4b493753b41)) – to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
+						  id:: 68594391-db9c-4d1a-b578-045d87d3e038
 					- Anti-delusion with conscious absorption
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
 						- ((6889c11f-e881-432f-ba0f-876b61afc60c)) & ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents, instead of looking at the external objects & target.
@@ -7803,13 +7844,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Emoji picker (logseq-emoji-picker-fork)](https://github.com/walsvid/logseq-emoji-picker-fork) provides the slash commandn `/emoji picker` to search and pick up an [emoji](https://en.wikipedia.org/wiki/Emoji) to insert to the editor cursor. 😊
 			  collapsed:: true
 				- This plugin uses the mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser`.
-			- [Ollama (`ollama-logseq`)](https://github.com/omagdy7/ollama-logseq) to chat with [Ollama](https://github.com/jmorganca/ollama)
+			- [AssistSeq `logseq-plugin-assistseq-ai-assistant`](https://github.com/galihlprakoso/logseq-plugin-assistseq-ai-assistant) to chat with **context** from current page and some backlinks.
+			  id:: 68be4ad9-b2de-4ac7-ad17-6b5ac8478ac9
 			  collapsed:: true
+				- This project has been abandoned 2024 October: only support Gemini 1.5 Flash.
+				- The context is parsed by embedding model (`gemini-embedding-001`), but it seems not working! 🙁
+			- [Ollama (`ollama-logseq`)](https://github.com/omagdy7/ollama-logseq) to chat with [Ollama](https://github.com/jmorganca/ollama) (local LLM) about **current page/block**.
+			  id:: 684f9516-b179-4c37-9feb-f08781466afa
 			  :LOGBOOK:
 			  CLOCK: [2025-03-06 Thu 20:02:08]
 			  CLOCK: [2025-03-06 Thu 20:02:40]--[2025-03-06 Thu 20:10:01] =>  00:07:21
 			  :END:
-				- Ref: [LogSeq: AI Powered Notes (with Ollama)](https://fossengineer.com/selfhosting-logseq/#making-logseq-better)
+			- [AI Assistant (`logseq-plugin-ai-assistant`)](https://github.com/ahonn/logseq-plugin-ai-assistant) to ask **OpenAI (paid!) models** to do something about current text (block): summarize, explain, etc.
+			  id:: 68be4a6e-f672-4892-b072-732eb034fac9
 			- [Feched Code Plus (`logseq-fenced-code-plus`)](https://github.com/xyhp915/logseq-fenced-code-plus) to render additional types of fenced code: [mermaid](https://mermaid.js.org/), [echarts](https://echarts.apache.org/en/index.html), [TikZJax](https://tikzjax.com/).
 			  id:: 68ad8f51-795d-4f17-ad90-f8b97968e478
 			  collapsed:: true

@@ -744,8 +744,12 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 		  id:: 68662950-3ada-42ea-928d-9700209e1501
 		  collapsed:: true
 			- This whole month has been noted in the story: ((686b390a-7953-4069-9c04-17c7f9a777a7))
-	- ### August
-	  id:: 6888ce20-f91a-4664-9ae6-e80598e88841
-	- ## Braindumping < ((6888ce20-f91a-4664-9ae6-e80598e88841))
+		- ### August
+		  id:: 6888ce20-f91a-4664-9ae6-e80598e88841
+		  collapsed:: true
+			- This whole month is recorded in this story: ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
+	- ### September
+	  id:: 68be32ad-ba39-4774-a67b-43a4fb114a3e
+	- ## Braindumping < ((68be32ad-ba39-4774-a67b-43a4fb114a3e))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e
 		- ...

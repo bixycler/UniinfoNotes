@@ -2325,7 +2325,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- ![working-stack-screenshot-2025-05-28.png](../assets/Will/story/2025-05/working-stack-screenshot-2025-05-28.png)
 			- Right here, we can see how the issue is looking back at itself, projecting its image into its own body. This recursive nature is itself a part of the issue!
-			- ⇒ **Retreat to the belly**, as the root of both body and mind, **fill the bodymind** with ujjayi breath. Retract from things higher up the mind!
+			- ⇒ [**Retreat to the belly**](((68594391-faeb-4f7e-87e1-9ea179c2639b))), as the root of both body and mind, **fill the bodymind** with ujjayi breath. Retract from things higher up the mind!
 			  id:: 68367257-9043-4fd5-8586-2c193d56f077
 			- 10:51, 28 May, the meta/macro things are somehow well organized, so just get back to the company works!
 				- with the knowledge that nothing is lost, and everything here can be continued later on.
@@ -2772,7 +2772,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ⇒ 針黹 “chăm chỉ” can be interpreted as “concentrate throughout the course of watching/working”.
 							- Interestingly, the whole word [針黹](https://en.wiktionary.org/wiki/%E9%87%9D%E9%BB%B9) in Chinese also means “needlework”. And the needlework itself usually requires diligence.
 					- These threads of discussion, researching, contemplation, as well as those threads of words' evolution and relation are weaving together so intricately.
-			- Weekends 28-29 June, i went to Vĩnh Hy bay with my wife's family to celebrate the wedding day of Mrs. Nhung & Mr. Nhân.
+			- Weekends 28-29 June, i went to Vĩnh Hy bay with my wife's family to celebrate the wedding day of Mrs. Nhung & Mr. Nhân. My ward name change: ((68639790-d02f-46d9-924f-702a8e6a9d5e))
 			  id:: 686204b8-8bf7-4ce9-abe9-d7984d814476
 			  collapsed:: true
 			  :LOGBOOK:
@@ -2795,6 +2795,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Vụ Hè Thu: từ tháng 5 đến tháng 7 sẽ thu hoạch vào tháng 8 (đây là mùa vụ cho chất lượng Nho tốt nhất trong năm: trái Nho căng, ngọt, năng suất cao)
 							- Vụ Thu Đông: từ tháng 9 đến tháng 11 thu hoạch tháng 12 (đây là vụ cho năng suất thấp nhất trong năm vì vào những tháng mưa nhiều tại Ninh Thuận).
 						- SĐT các vườn nho: [Ninh Thuận Review](https://ninhthuanreview.com/vuon-nho-thai-an-ninh-thuan/#cdd-3-mot-so-vuon-nho-thai-an-dep-gan-vinh-hy-de-ban-lua-chon)
+				- Tân Chánh Hiệp → Trung Mỹ Tây
+				  id:: 68639790-d02f-46d9-924f-702a8e6a9d5e
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-06-30 Mon 11:19:52]
+				  :END:
+					- Cũng trân trọng thông báo đến bà con trong khu phố, kể từ ngày 01/7/2025,khu phố chúng ta sẽ là khu phố 38 phường Trung Mỹ Tây (không còn là khu phố 14 phường Tân Chánh Hiệp nữa).
+					- Bản đồ trụ sở phường Trung Mỹ Tây
+					  collapsed:: true
+						- ![map-truso-phuong-TrungMyTay](../assets/Will/story/2025-06/map-truso-phuong-TrungMyTay.jpg)
 			- 30th, most of the time i just meditated on the nasal inflamation, despite the unfinished task of company waiting (because i feel it's too complicated and too far to be finished).
 			  collapsed:: true
 				- After working hours, i did some more reading of the messy codes for the task at company.
@@ -2938,12 +2948,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 4th, from a simple question of "seeding or seedling?", i'd chatted with ChatGPT for most of the time, then returned to update the brainstorm [about the hurricane's eye, center and self-essence](((684f9515-8f95-4004-8aa8-04a10d1ebf11))).
 				- In that course, i saw many other intents popped up but i refrained from them.
 			- 5th, a whole day sleep to recovery. Installed MGit on Android phone to view UniinfoNotes (not to edit!)
+			  id:: 686b2cfe-dbc3-4ef6-ab07-545865b09609
 			  collapsed:: true
 				- Thanks to [MGit](https://github.com/maks/MGit), this note is edited and pushed directly from home 🏡 on my mobile phone 😊.
 					- MGit's [installation from Google Play](https://play.google.com/store/apps/details?id=com.manichord.mgit&hl=en) (GP) has been blocked from middle of 2024 [due to GP's policy](https://github.com/maks/MGit/issues/733#issuecomment-2928410654), not a technical limitation like "~~incompatible~~ with Android version 12+" as shown in GP.
 						- I've installed MGit [from F-Droid](https://f-droid.org/packages/com.manichord.mgit/) and it works perfectly on my Android 15 device.
 						- Explained by Maks: MGit's request for ["All File access" permission](https://support.google.com/googleplay/android-developer/answer/10467955?hl=en) was judged "incompatible with Android 12+ policy" by Google Play. He cannot deal with GP about this policy, and he has no time to switch to other restrictive APIs to restrict file access.
-				- On my Android phone, just use MGit to manage Git repo in addition to GitSync (limited to only 1 repo for free), so that UniinfoNotes can be viewed on mobile logseq.
+				- On my Android phone, just use MGit to manage Git repo in addition to GitSync (limited to only 1 repo for free), so that UniinfoNotes can be viewed on mobile Logseq.
 					- now both MGit & GitSync are managing the MindChips repo.
 					- provided that GitSync auth is changed to SSH from its default HTTPS, because MGit can only use SSH!
 					- UniinfoNotes
@@ -3425,13 +3436,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- Although the [plan](((68663850-daa5-487e-ba48-fea228a2b188))) has not been applied well, the practical methods for intent management have been developed quite well.
 				- So, let's wrap it up for the new month coming.
-		- DOING Try to harmonize the personal ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) with the [working plan](((68663850-daa5-487e-ba48-fea228a2b188))).
+		- Try to harmonize the personal ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) with the [working plan](((68663850-daa5-487e-ba48-fea228a2b188))), from August 2nd to September 7th.
 		  id:: 688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-08-01 Fri 14:45:50]
 		  CLOCK: [2025-08-01 Fri 14:46:03]
-		  CLOCK: [2025-08-01 Fri 14:49:46]
+		  CLOCK: [2025-08-01 Fri 14:49:46]--[2025-09-08 Mon 14:20:12] =>  911:30:26
 		  :END:
 			- Let's ((68898917-e61f-4d23-9124-474efa9a9eee)) to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents.
 				- These techniques are nothing new to me.
@@ -3808,7 +3819,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 68b7ebd7-caee-4cae-b361-6540cfc23bf8
 					- With this experience, she's got the vision of the whole circle of life in her mind, so that she's seen the only way for liberation is to go through it, but no other way to avoid or flee.
 					- The next day, going to the tree house of Bảo–Lụa, she got the first time a pleasing feeling about the garden environment.
-			- Sep 4th
+			- Sep 3rd-4th, still caught up with personal works.
 			  collapsed:: true
 				- Development of Buddhism schools
 					- ```mermaid
@@ -3906,6 +3917,46 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  style EastAsia stroke-width:4px,stroke-dasharray: 0
 						  style Vajrayana stroke-width:4px,stroke-dasharray: 0
 						  ```
+			- Sep 6-7th, weekends, ((68be308b-9135-44cd-b2c4-690a267fb8c2))
+			  collapsed:: true
+				- Compromise: from “com-promise” to “breach” 
+				  collapsed:: true
+					- Positive sense (15-17th centuries) in **collective** lens: balance, middle way, harmony
+						- In communal societies, compromise was inherently positive.
+						- It meant: “we each yield a little so we can live together,” a shared promise for harmony.
+					- Negative sense (19-21st centuries) in **individual-idealistic** lens: breach, betrayal, weakness
+						- In more individualistic and idealistic contexts (19th-century liberal politics, moral philosophy, even Romantic literature), compromise was re-evaluated:
+							- To compromise = to betray your **own principle**, your integrity.
+							- The highest value was not harmony, but sticking to ideals, no matter what.
+						- Further intensification in modern usage
+							- In security, technology, and espionage: “a system is compromised” = it has lost its integrity.
+							- Here in the individualistic frame that “the system as an individual unit”,
+								- Compromise = breach of that unit’s inviolability.
+					- The Vietnamese word “thoả hiệp” (妥協) has a similar shift toward “weaken, surrender one's **own** integrity”, though not as far as “compromise” to a “breach”.
+						- «我們決不妥協» (We/I will never compromise) is the normal stance of individualists.
+					- Buddhist Middle Way: Just as “compromise” shifted to mean loss of integrity under individualistic/idealistic lenses, the “Middle Way” is often dismissed as weakness under activist/revolutionary lenses.
+						- The “strength” paradox:
+							- For revolutionaries or idealists, “strength” means unyielding pursuit of a goal (no compromise, no middle).
+							- For Buddhists, “strength” means not being swayed to extremes (the harder path of balance, self-mastery).
+				- The Git repo of ((666baccf-6be1-4b9a-b186-f883ea04daf1)) has bloated to 1.2GB after a year!
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-09-08 Mon 08:37:10]
+				  :END:
+					- [MGit on mobile](((686b2cfe-dbc3-4ef6-ab07-545865b09609))) just failed with error message [Inflater has been closed](https://github.com/maks/MGit/issues/697).
+					- 2 large dirs: `.git/` = 841MB; `assets/` = 328MB
+						- The fine-grained tracking `log` branch should be reset, with the old history archived to `log01`.
+							- `log01`: `1e352c73`...`7e99c79e`: 2024 Oct 17 ~ 2025 Sep 05
+						- The `assets/Will/` of 243MB should be trimmed from `mobile` branch.
+					- The dedicated branch `mobile` should have a trimmed repo with cherry-picks from `log` and a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
+				- First time get through [aversion (tense)](((6839229d-9eff-49e4-9480-6e2db6f61127))) in tantric practice by ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique.
+				  id:: 68be308b-9135-44cd-b2c4-690a267fb8c2
+					- The [full-body breath](((68594391-faeb-4f7e-87e1-9ea179c2639b))) keeps us from greed (lack), the [sublime breath](((68594391-db9c-4d1a-b578-045d87d3e038))) clears all blockages, constrictions, so that we're not tense or averse.
+					- ⇒ Live fully in the present, not sucked toward a target in the future (greed), nor clingging to an impression in the past (aversion).
+				- Logseq AI: No working plugin for free APIs like Gemini.
+					- [AssistSeq](((68be4ad9-b2de-4ac7-ad17-6b5ac8478ac9))) is most promising with context & free API of Gemini, but abandoned.
+					- [AI Assistant](((68be4a6e-f672-4892-b072-732eb034fac9))) requires paid API from OpenAI.
+					- [Ollama](((684f9516-b179-4c37-9feb-f08781466afa))) requires models running on local machine.
 		- Sound experiment with my đàn bầu.
 		  collapsed:: true
 		  :LOGBOOK:
@@ -3983,7 +4034,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  > The **living substance**, further, is that being which is truly **subject**, or, what is the same thing, is truly realised and actual (*wirklich*) solely in the process of positing itself, or in mediating with its own self its transitions from one state or position to the opposite. 
 				  > [*Negation of Negation*]: As subject it is pure and simple negativity, and just on that account a process of splitting up what is simple and undifferentiated, a process of duplicating and setting factors in opposition, which [process] in turn is the negation of this indifferent diversity and of the opposition of factors it entails. 
 				  > [Self-restoring Sameness]: True reality is merely this process of **reinstating self-identity**, of **reflecting** into its own self in and *from its other*, and is not an original and primal unity as such, not an immediate unity as such. It is the process of its own becoming, _the **circle** which presupposes its end as its purpose, and has its end for its beginning_; it becomes concrete and actual only by being carried out, and by the end it involves.
+		- DOING Try to live fully in the present.
+		  id:: 68be8447-81b0-4094-9964-1bd21e2e31e0
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-09-08 Mon 14:22:51]
+		  CLOCK: [2025-09-08 Mon 14:23:19]
+		  :END:
+			- Let's try applying [my technique](((68be308b-9135-44cd-b2c4-690a267fb8c2))) and integrate the previous [experience](((68b79197-1244-4b42-b79f-464cfc8433a1))) to the work and life.
+			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
+		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
 		- ...
