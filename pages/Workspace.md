@@ -58,6 +58,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
+				- Recorded the worst (unexplainable) experiences of self-control; Replace precomposed → combined ï in Unïnfo
 				-
 				- Stories & practices
 					- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
