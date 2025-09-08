@@ -3958,6 +3958,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The [full-body breath](((68594391-faeb-4f7e-87e1-9ea179c2639b))) keeps us from greed (lack), the [sublime breath](((68594391-db9c-4d1a-b578-045d87d3e038))) clears all blockages, constrictions, so that we're not tense or averse.
 					- ⇒ Live fully in the present, not sucked toward a target in the future (greed), nor clingging to an impression in the past (aversion).
 				- Logseq AI: No working plugin for free APIs like Gemini.
+				  ⇒ Use separate data indexers like [AnythingLLM](((68be308b-f247-4c5a-b8b7-96a3fbc8a25b))).
 					- [AssistSeq](((68be4ad9-b2de-4ac7-ad17-6b5ac8478ac9))) is most promising with context & free API of Gemini, but abandoned.
 					- [AI Assistant](((68be4a6e-f672-4892-b072-732eb034fac9))) requires paid API from OpenAI.
 					- [Ollama](((684f9516-b179-4c37-9feb-f08781466afa))) requires models running on local machine.

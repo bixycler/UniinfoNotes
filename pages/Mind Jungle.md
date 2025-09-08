@@ -179,8 +179,15 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Data indexer for LLM (with [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database))
 				  collapsed:: true
 					- [LlamaIndex](https://github.com/run-llama/llama_index)
+					  id:: 68be308b-ccec-425c-b5eb-6b1c83f75725
 						- LlamaIndex allows users to extract and ingest data from various sources, and then store and query it as a knowledge graph within [NebulaGraph](https://github.com/vesoft-inc/nebula).
 					- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
+					  id:: 68be308b-f247-4c5a-b8b7-96a3fbc8a25b
+						- On Linux
+							- Installer: ![AnythingLLM-installer.sh](assets/Will/story/2025-09/AnythingLLM-installer.sh)
+							- App binary: `$HOME/AnythingLLMDesktop`/{`AnythingLLMDesktop.AppImage` → `anythingllm-desktop/`}
+								- Execute: `anythingllm-desktop/`
+							- Data store: `$HOME/.config/anythingllm-desktop/`
 					- [MemFree](https://github.com/memfreeme/memfree)
 				-
 		- AI chatbots
