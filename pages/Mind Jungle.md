@@ -178,22 +178,26 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Max free requests: 20/min, 1k/month
 				- Data indexer for LLM (with [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database))
 				  collapsed:: true
-					- [LlamaIndex](https://github.com/run-llama/llama_index)
+					- LlamaIndex
 					  id:: 68be308b-ccec-425c-b5eb-6b1c83f75725
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/run-llama/llama_index
 						- LlamaIndex allows users to extract and ingest data from various sources, and then store and query it as a knowledge graph within [NebulaGraph](https://github.com/vesoft-inc/nebula).
-					- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
+					- AnythingLLM
 					  id:: 68be308b-f247-4c5a-b8b7-96a3fbc8a25b
+					  All-in-one AI application with RAG, AI Agents, etc.
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/Mintplex-Labs/anything-llm
 						- Generative LLMs: various cloud APIs (Gemini, OpenAI, ...) and local APIs (Ollama, LocalAI, LM Studio)
 						- Embedding LLMs: [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) (default, local), cloud APIs (OpenAI, Cohere), local APIs (Ollama, LocalAI, LM Studio)
 						- Transcription Model: [Xenova Whisper](https://huggingface.co/Xenova/whisper-small) (default, local), cloud API (OpenAI)
-						- Vector DB: [LanceDB](https://docs.anythingllm.com/setup/vector-database-configuration/local/lancedb) (Built-in)
+						- Vector DB: [LanceDB](https://lancedb.com/) (default, built-in), local APIs (Choma, Milvus), cloud APIs (Pinecone, ...)
 						- On Linux
 							- Installer: [AnythingLLM-installer.sh](../assets/Will/story/2025-09/AnythingLLM-installer.sh) which is also an updater.
 							  id:: 68bea89f-4dc7-4ea6-8fe9-fe3ec82b6423
 							- App binary: `$HOME/AnythingLLMDesktop`/{`AnythingLLMDesktop.AppImage` → `anythingllm-desktop/`}
 								- Executive: `anythingllm-desktop/AppRun`
 							- Data store: `$HOME/.config/anythingllm-desktop/`
-					- [MemFree](https://github.com/memfreeme/memfree)
+					- MemFree
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/memfreeme/memfree
 				-
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
