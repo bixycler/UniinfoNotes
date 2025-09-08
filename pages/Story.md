@@ -3948,9 +3948,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The fine-grained tracking `log` branch should be reset, with the old history archived to `log01`.
 							- `log01`: `1e352c73`...`7e99c79e`: 2024 Oct 17 ~ 2025 Sep 05
 						- The `assets/Will/` of 243MB should be trimmed from `mobile` branch.
-					- The dedicated branch `mobile` should have a trimmed repo with
+					- DONE The dedicated branch `mobile` contains a trimmed repo with
 						- weekly ~~cherry-picks~~ squashed merges from `log` and
 						- a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
+						- ⇒ The trimmed `assests/` reduced to 85MB.
+						- ⇒ The `mobile` branch has 97MB.
 				- First time get through [aversion (tense)](((6839229d-9eff-49e4-9480-6e2db6f61127))) in tantric practice by ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique.
 				  id:: 68be308b-9135-44cd-b2c4-690a267fb8c2
 					- The [full-body breath](((68594391-faeb-4f7e-87e1-9ea179c2639b))) keeps us from greed (lack), the [sublime breath](((68594391-db9c-4d1a-b578-045d87d3e038))) clears all blockages, constrictions, so that we're not tense or averse.
