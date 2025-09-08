@@ -58,21 +58,23 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- (title...)
-				- ((68a53a70-3f35-497b-a610-703d8a6665e5))
-				- ((68a520c4-6a2e-4db9-8806-c4b4e55390e8))
-				- ((68a3e5cf-5523-4da5-ad38-d30ab6016f88))
-				- ((68b79197-1244-4b42-b79f-464cfc8433a1))
-				  :LOGBOOK:
-				  CLOCK: [2025-09-05 Fri 18:08:27]--[2025-09-05 Fri 18:10:39] =>  00:02:12
-				  :END:
-				- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
-				- DONE Flush 2025 Mind Chips to `2025 Mind Chips.md`.
-				  :LOGBOOK:
-				  CLOCK: [2025-09-08 Mon 09:43:32]
-				  CLOCK: [2025-09-08 Mon 09:43:34]--[2025-09-08 Mon 14:33:57] =>  04:50:23
-				  :END:
 				-
+				- Stories & practices
+					- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
+					- ((68a53a70-3f35-497b-a610-703d8a6665e5))
+					- ((68b79197-1244-4b42-b79f-464cfc8433a1))
+					  :LOGBOOK:
+					  CLOCK: [2025-09-05 Fri 18:08:27]--[2025-09-05 Fri 18:10:39] =>  00:02:12
+					  :END:
+				-
+				- UniinfoNotes
+					- ((68a520c4-6a2e-4db9-8806-c4b4e55390e8))
+					- ((68a3e5cf-5523-4da5-ad38-d30ab6016f88))
+					- DONE Flush 2025 Mind Chips to `2025 Mind Chips.md`.
+					  :LOGBOOK:
+					  CLOCK: [2025-09-08 Mon 09:43:32]
+					  CLOCK: [2025-09-08 Mon 09:43:34]--[2025-09-08 Mon 14:33:57] =>  04:50:23
+					  :END:
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ...
