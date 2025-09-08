@@ -173,9 +173,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  id:: 67849429-a90c-45a9-a6ae-dcdd61f7580f
 					- Etymology: “[traverse](https://en.wiktionary.org/wiki/traverse)” ← Latin “[traversare](https://en.wiktionary.org/wiki/traversare)” was the [vulgar version of “trānsversāre”](https://www.etymonline.com/search?q=traverse) ← “[trānsversus](https://en.wiktionary.org/wiki/transversus)” → “[transverse](https://en.wiktionary.org/wiki/transverse)”
 					  id:: 678b72d3-073a-4763-a49f-5233a3d86614
-					- “through” = “thông qua” [通過], “xuyên qua” (penetrate)
+					- “through” =  “without obstruction” (vô ngại [無礙]) = “thông suốt” [通䢦], “thông qua” [通過], “xuyên qua” (penetrate)
 					  id:: 684f951a-ee4f-4765-b2d9-58ff04b84979
+						- Although “thông” [通] is usually translated as “penetrate”, it's better called “through[ness]”.
+							- “Penetrate” sounds forceful, invasive, and too mechanical.
+							- “Through” evokes **effortless flow, transparency, and openness**.
 						- “throughness” = “tòng” [鬆] or “phóng tòng” [放鬆] is the most important property in qigong, just like a [through horse](https://en.wikipedia.org/wiki/Throughness).
+							- It’s when the **energy, intent, and response flow freely – unobstructed – through the whole being**.
+							- [通則不痛，痛則不通](https://baike.baidu.com/item/%E4%B8%8D%E9%80%9A%E5%89%87%E7%97%9B)
+							  collapsed:: true
+								- [《黃帝內經·素問·舉痛論》](https://ctext.org/huangdi-neijing/ju-tong-lun/zh)：經脈流行不止，環周不休，寒氣入經而稽遲，泣而不行，客於脈外則血少，客於脈中則氣不通，故卒然而痛。
+								- [《醫宗必讀·心腹諸痛》](https://jicheng.tw/tcm/book/%E9%86%AB%E5%AE%97%E5%BF%85%E8%AE%80/index.html)：近世治痛有以諸痛屬實，痛無補法者﹔有以通則不痛，痛則不通者﹔有以痛隨利減者，互相傳授，以為不易之法。
 						- [“throughness”](https://en.wiktionary.org/wiki/throughness) = “thông” [通] or “hanh thông” [亨通] is the ultimate goal state of **change** [變易] in the [Book of Changes (Kinh Dịch [易經])](https://en.wikipedia.org/wiki/I_Ching).
 						  collapsed:: true
 							- [易's meaning](https://baike.baidu.com/item/%E7%A9%B7%E5%88%99%E5%8F%98%EF%BC%8C%E5%8F%98%E5%88%99%E9%80%9A%EF%BC%8C%E9%80%9A%E5%88%99%E4%B9%85/6154981) in Part 2 of the Great Appendix of the Book of Changes, i.e. 《周易·系辞》下, ⟪ [Chu Dịch](https://vi.wikipedia.org/wiki/Chu_D%E1%BB%8Bch) > [Hệ Từ](https://nhantu.net/DichHoc/HAKINH/HTT_Ch01.htm) > Hạ Truyện > [Chương 2](https://nhantu.net/DichHoc/HAKINH/HTH_Ch02.htm) > Tiết 5 ⟫
@@ -195,12 +203,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  > Nhất hạp nhất tịch vị chi **biến**.  Vãng lai bất cùng vị chi **thông**.
 							  > Có đóng có mở nên mới sinh **biến hóa**; Có qua có lại không bế tắc nên mới **thông suốt**;
 							  > The alternation between closing and opening is called **change**. The going forward and backward without ceasing is called **throughness**.
-						- “thông” [通] → “clear” = “minh” [明] → “thông minh” [聰明]
+						- “thông” [通] → “clear” = “minh” [明] → “thông minh” [聰明] ← 耳聰目明
 						  collapsed:: true
 							- [一理通，百理明](https://en.wiktionary.org/wiki/%E4%B8%80%E7%90%86%E9%80%9A%EF%BC%8C%E7%99%BE%E7%90%86%E6%98%8E) (nhất lý thông, bách lý minh)
+							  “Through one truth, hundreds become clear.”
 							- [一法通，萬法通](https://en.wiktionary.org/wiki/%E4%B8%80%E6%B3%95%E9%80%9A%EF%BC%8C%E8%90%AC%E6%B3%95%E9%80%9A) (nhất pháp thông, vạn pháp thông)
-							- Vietnamese usually says “nhất lý thông, vạn lý minh”
+							- Vietnamese usually says “nhất lý thông, vạn lý minh” [一理通，萬理明]
 							- 一理通，萬裡徹 (nhất lý thông, vạn lý triệt)
+							- While clarity is about the static form, throughness is about the dynamic content.
+								- To be clear is to stand before the truth. To be through is to let it move through you.
+						- “thông suốt” in Nôm script: 通䢦, 通𨙖 (通 [[通+率](https://hvdic.thivien.net/wnom/%F0%A8%99%96)])
 					- “cross” = “vượt qua” [[越過](https://en.wiktionary.org/wiki/%E8%B6%8A%E9%81%8E)]: cross over, [surpass](https://en.wiktionary.org/wiki/surpass), go beyond, [transcend](https://en.wiktionary.org/wiki/transcend)
 						- [fb post](https://www.facebook.com/share/p/1HF14K3nYa/) about “pāragate” in the [Heart Sutra](https://en.wikipedia.org/wiki/Heart_Sutra#Mantra)
 						  id:: 6835b167-048c-499b-bede-8baff58e6e8e
@@ -236,7 +248,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- Thank you these films for bringing up my deep emotion and love for the people so that i can put it down!
 			- Thank you, Ms. Trung & Mr. Hiệp, for bringing up my personal love so that i can realize the truth an put it down!
 			- I took this morning off from company for sleeping.
-			- Checking into the compaty, then i just went out for lunch and had a walk around the corners...
+			- Checking into the company, then i just went out for lunch and had a walk around the corners...
 			- From the time receiving challenge with this HTV company, i'm gradually dying layer by layer of the self
 				- [fb post](https://www.facebook.com/share/p/1Ls8bEeia1/): đầu sào trăm thước
 				  > Tới đầu sào trăm thước,
@@ -351,9 +363,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- [UniinfoNotes DeepDive Podcast (2025-02-02)](https://youtu.be/FuhvgdXi-FI)
 						  collapsed:: true
 							- {{video https://youtu.be/FuhvgdXi-FI}}
-						- Original audio: ![Unïnfo Notes full - overview 2025-02-02.wav](../assets/Will/story/2025-02/Unïnfo Notes full - overview 2025-02-02.wav)
-						- Transcript extracted from the audio: [Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt](../assets/Will/story/2025-02/Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt)
-							- Transcript joined for displaying on video: [Unïnfo Notes Full - Overview 2025-02-02 (en-US) joined.srt](../assets/Will/story/2025-02/Unïnfo Notes Full - Overview 2025-02-02 (en-US) joined.srt)
+						- Original audio: ![Unïnfo Notes full - overview 2025-02-02.wav](../assets/Will/story/2025-02/Unïnfo Notes full - overview 2025-02-02.wav)
+						- Transcript extracted from the audio: [Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt](../assets/Will/story/2025-02/Unïnfo Notes Full - Overview 2025-02-02 (en-US).srt)
+							- Transcript joined for displaying on video: [Unïnfo Notes Full - Overview 2025-02-02 (en-US) joined.srt](../assets/Will/story/2025-02/Unïnfo Notes Full - Overview 2025-02-02 (en-US) joined.srt)
 				- I've tried some ((67a5fae8-8e1d-4dd6-818d-a8462f6b54db)).
 				- Currently, ((67a71016-4588-4b2f-8c56-90701528d94d)) is most appropriate for my researches.
 				  id:: 67a71016-d530-4b48-bfcc-495d72b0bf86
@@ -682,6 +694,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- March 1st, i and wife went to Vũng Tàu to celebrate sister Hiền's wedding. After that we also visited sister Ngọc and share with her a technique for relaxation.
 				- Returning home, i was off every morning due to my tiredness at the previous night, whether from the long journey or from following the troubles in the monk group of master Minh Tuệ.
 				- Friday, i took the whole day off for sleeping to make up for the sleeplessness of the previous night.
+				  id:: 684f951a-c969-426d-a05f-6f8441cbb41f
 				- Sunday, i slept for 17 hours from 0h to 17h, then had a [life review](((67ce5ad0-198b-45ab-a820-0d0f66a65f2c))) for nearly 3 hours.
 				  id:: 67ce68b8-7f46-462e-acd1-c329c6258f64
 				- After the life review, i entered the [dream (maya) of this life](https://en.wikipedia.org/wiki/Maya_(religion)), where i watched the story of [Armin Meiwes](https://en.wikipedia.org/wiki/Armin_Meiwes).
@@ -1826,7 +1839,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Ở xa, khi thu gọn cái to lớn vĩ đại vào tầm mắt thì ta thấy nó thật đẹp, có sức hút mãnh liệt khiến ta phải đi tới để khám phá.
 					- Khi tới gần, mình mới ngộ ra nó thật là khủng khiếp, đầy những cạm bẫy, nguy hiểm... Sự vĩ đại của nó đè bẹp cái tôi của mình, khiến mình nhận ra mình chỉ là một hạt bụi nhỏ bé, chả là gì cả.
 					- Khi vượt qua được chính mình, bỏ được cái tôi nhỏ bé này xuống để hòa vào sự hùng vĩ, to lớn đó, mình bỗng thấy thật tuyệt vời, một cảm giác thăng hoa (sublime), vượt thoát (transcendental), và giải thoát (liberated). Ở đây mình ngộ ra rằng vẻ đẹp kia mời gọi mình không phải để dùng sức người nhỏ bé này để chinh phục cái ngọn núi vĩ đại để đứng trên đỉnh núi thấy "ta cao hơn núi" như mình đã tưởng. Mà sự vượt qua chính là vượt qua bản thân mình, thoát khỏi sự nô lệ cho những nghiệp trong cái tôi này: sợ hãi, kiêu ngạo, cố chấp, kỳ vọng, v.v.
-				- Cái Khủng: Derived from "khủng khiếp" (terrifying, overwhelming), it carries a dual nature—both awe-inspiring grandeur and a sense of fear or intensity. This is aligned with the philosophical concept of the Sublime, as defined by thinkers like Burke (terror and beauty) or Kant (the vastness of overwhelming reason), which includes both uplifting and unsettling dimensions.
+				- Cái Khủng: Derived from "khủng khiếp" (terrifying, overwhelming), it carries a dual nature – both awe-inspiring grandeur and a sense of fear or intensity. This is aligned with the philosophical concept of the Sublime, as defined by thinkers like Burke (terror and beauty) or Kant (the vastness of overwhelming reason), which includes both uplifting and unsettling dimensions.
 				- Về chữ Nôm thì có 2 chữ thể hiện 2 sắc thái ý nghĩa như sau
 					- 恐 (khủng): khủng khiếp, khủng hoảng, khủng bố
 					- 孔 (khổng, khủng): khủng long (rồng khổng lồ), "thật khủng!" (casual meaning: stupendous, tremendous)
@@ -2050,7 +2063,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ― Why hide? – they asked.
 							  ― I gave my beauty to my sister to serve you – she replied – because you fear the unadorned truth.
 							- When the naked Truth emerged fully, most truth seekers were shaken, fled, and chased another comforting “Truth” who was another’s Lie. Only the brave stayed, embracing the naked Truth.
-						- Full length version
+						- Full-length version
 						  id:: 683029f1-0847-4186-a6a6-b8cb19fcd922
 						  collapsed:: true
 							- Long ago, at the dawn of human civilization, there were two twin sisters who were indistinguishable at birth. They were both so pure, so beautiful and so attractive from the beginning. When they grew up, they had to separate and go to different places, one to the east and one to the west, to live and work in different jobs. They were loved by people around so much that people in the east town called the east twin “Truth” with all good attributes attached, and the same for the west twin being called “Truth” preciously in the west town. One day, the east twin went to the west town to visit her sister. At first, people there got confused by the twins due to their identical faces and the same name “Truth”. But then they recognized their own “Truth” by her familiar dress. They called the unfamiliarly dressed twin “Lie”:
@@ -2312,7 +2325,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- ![working-stack-screenshot-2025-05-28.png](../assets/Will/story/2025-05/working-stack-screenshot-2025-05-28.png)
 			- Right here, we can see how the issue is looking back at itself, projecting its image into its own body. This recursive nature is itself a part of the issue!
-			- ⇒ **Retreat to the belly**, as the root of both body and mind, **fill the bodymind** with ujjayi breath. Retract from things higher up the mind!
+			- ⇒ [**Retreat to the belly**](((68594391-faeb-4f7e-87e1-9ea179c2639b))), as the root of both body and mind, **fill the bodymind** with ujjayi breath. Retract from things higher up the mind!
 			  id:: 68367257-9043-4fd5-8586-2c193d56f077
 			- 10:51, 28 May, the meta/macro things are somehow well organized, so just get back to the company works!
 				- with the knowledge that nothing is lost, and everything here can be continued later on.
@@ -2491,6 +2504,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- “Being caught up in the work the whole day”: passively entangled in work, losing control of time.
 					- “I must catch up on sleep now”: actively reclaiming sleep to compensate for the loss.
 					- Meta-caught-up: The swing between “caught up in” (immersion) and “catch up on” (recovery) is a vicious circle.
+					- “Catch up on” vs “make up for”
+						- “Catch up on”: to fill in the missing part due to falling behind.
+						- “Make up for”: to compensate for something lost or damaged with other things.
 				- and continue [the previous chat](((68417bbf-695f-452b-80a1-22e174329e7a))) with the dual meaning of “observe” : tầm-tứ = tìm-bám = find-fix = inquire-**observe** ≈ chỉ-quán = [samatha-vipassanā](https://en.wikipedia.org/wiki/Samatha-vipassan%C4%81)
 				  collapsed:: true
 					- This dual meaning of “observe” strengthens the unity of the two sides of the ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
@@ -2541,7 +2557,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  id:: 68594350-d2cd-475a-9530-e0999ffb9adf
 			  collapsed:: true
 				- Make clear the “vacant throne” with [sutta “The Root of all things”](((68536bc0-f6ec-4595-8629-2a45d6bf713e))) and the [meaning “non-attachment”](((684f9517-22fd-4695-b398-f142dca8a8d8))).
-				- DONE Migrate page `Unïnfo Theory` to block ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
+				- DONE Migrate page `Unïnfo Theory` to block ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
 				- Research Chinese characters to update [etymology of “vacantism”](((6852abe7-46f7-4e61-9162-ce1311f717af)))
 				- Chat sharing a part of the etymology research of "nguyên":
 				  collapsed:: true
@@ -2563,11 +2579,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Chữ Nguyên 元 chỉ đánh dấu trên đầu nên nghĩa trừu tượng nhất;
 						- chữ Thủ 首 vẽ nguyên cái đầu dài của các con thú (trâu, chó đều có đầu dài do mõm dài) với 2 sừng, nên nghĩa đen hơn, vốn chỉ cái đầu, nhưng sau bị trừu tượng hóa dần thành "kẻ/cái đứng đầu"; và khi đó thì
 						- chữ Đầu 頭 ra đời để chỉ cái đầu nghĩa đen, bằng cách vẽ thêm cái cốc 豆 vào trước chữ Thủ và quăng 2 cái râu (trên 2 cái sừng) xuống dưới thành 2 chân (頁)
-			- 20th, another whole day caught in Unïnfo noting!
+			- 20th, another whole day caught in Unïnfo noting!
 				- Going to bed late & forgetting to set alarm, today i woke up late again.
 				- On the way to company, the image of the self as a lasting form in contrast to the fleeting forms of experiences just popped up in my mind... So i write ((684f9517-ffcb-49ad-aeb5-c1fcd0b1f083))
 				  collapsed:: true
-					- The conflict between the lasting in-form and the fleeting ex-form (and content) has been the main curiosity of mine from the early time of Unïnfo contemplation.
+					- The conflict between the lasting in-form and the fleeting ex-form (and content) has been the main curiosity of mine from the early time of Unïnfo contemplation.
 						- First thing i saw (long before Covid-19) was the [crystallization](((66f4e208-37c7-4749-a448-0722f7f7af20))) of content into form, which makes the crystal form stable.
 						- Then (near Covid-19), beside such great quantity of crystallization, i saw the perfect quality of “being ((667d15c6-67c4-4998-a549-c8b3f9de3d60))” contributing to much of the stability of the in-form.
 						- This year 2025, i get back to wonder the fleeting nature of the ex-form: the **partiality**, the dynamic nature of content arrow and time, etc.
@@ -2756,7 +2772,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ⇒ 針黹 “chăm chỉ” can be interpreted as “concentrate throughout the course of watching/working”.
 							- Interestingly, the whole word [針黹](https://en.wiktionary.org/wiki/%E9%87%9D%E9%BB%B9) in Chinese also means “needlework”. And the needlework itself usually requires diligence.
 					- These threads of discussion, researching, contemplation, as well as those threads of words' evolution and relation are weaving together so intricately.
-			- Weekends 28-29 June, i went to Vĩnh Hy bay with my wife's family to celebrate the wedding day of Mrs. Nhung & Mr. Nhân.
+			- Weekends 28-29 June, i went to Vĩnh Hy bay with my wife's family to celebrate the wedding day of Mrs. Nhung & Mr. Nhân. My ward name change: ((68639790-d02f-46d9-924f-702a8e6a9d5e))
 			  id:: 686204b8-8bf7-4ce9-abe9-d7984d814476
 			  collapsed:: true
 			  :LOGBOOK:
@@ -2779,6 +2795,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Vụ Hè Thu: từ tháng 5 đến tháng 7 sẽ thu hoạch vào tháng 8 (đây là mùa vụ cho chất lượng Nho tốt nhất trong năm: trái Nho căng, ngọt, năng suất cao)
 							- Vụ Thu Đông: từ tháng 9 đến tháng 11 thu hoạch tháng 12 (đây là vụ cho năng suất thấp nhất trong năm vì vào những tháng mưa nhiều tại Ninh Thuận).
 						- SĐT các vườn nho: [Ninh Thuận Review](https://ninhthuanreview.com/vuon-nho-thai-an-ninh-thuan/#cdd-3-mot-so-vuon-nho-thai-an-dep-gan-vinh-hy-de-ban-lua-chon)
+				- Tân Chánh Hiệp → Trung Mỹ Tây
+				  id:: 68639790-d02f-46d9-924f-702a8e6a9d5e
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-06-30 Mon 11:19:52]
+				  :END:
+					- Cũng trân trọng thông báo đến bà con trong khu phố, kể từ ngày 01/7/2025,khu phố chúng ta sẽ là khu phố 38 phường Trung Mỹ Tây (không còn là khu phố 14 phường Tân Chánh Hiệp nữa).
+					- Bản đồ trụ sở phường Trung Mỹ Tây
+					  collapsed:: true
+						- ![map-truso-phuong-TrungMyTay](../assets/Will/story/2025-06/map-truso-phuong-TrungMyTay.jpg)
 			- 30th, most of the time i just meditated on the nasal inflamation, despite the unfinished task of company waiting (because i feel it's too complicated and too far to be finished).
 			  collapsed:: true
 				- After working hours, i did some more reading of the messy codes for the task at company.
@@ -2922,12 +2948,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 4th, from a simple question of "seeding or seedling?", i'd chatted with ChatGPT for most of the time, then returned to update the brainstorm [about the hurricane's eye, center and self-essence](((684f9515-8f95-4004-8aa8-04a10d1ebf11))).
 				- In that course, i saw many other intents popped up but i refrained from them.
 			- 5th, a whole day sleep to recovery. Installed MGit on Android phone to view UniinfoNotes (not to edit!)
+			  id:: 686b2cfe-dbc3-4ef6-ab07-545865b09609
 			  collapsed:: true
 				- Thanks to [MGit](https://github.com/maks/MGit), this note is edited and pushed directly from home 🏡 on my mobile phone 😊.
 					- MGit's [installation from Google Play](https://play.google.com/store/apps/details?id=com.manichord.mgit&hl=en) (GP) has been blocked from middle of 2024 [due to GP's policy](https://github.com/maks/MGit/issues/733#issuecomment-2928410654), not a technical limitation like "~~incompatible~~ with Android version 12+" as shown in GP.
 						- I've installed MGit [from F-Droid](https://f-droid.org/packages/com.manichord.mgit/) and it works perfectly on my Android 15 device.
 						- Explained by Maks: MGit's request for ["All File access" permission](https://support.google.com/googleplay/android-developer/answer/10467955?hl=en) was judged "incompatible with Android 12+ policy" by Google Play. He cannot deal with GP about this policy, and he has no time to switch to other restrictive APIs to restrict file access.
-				- On my Android phone, just use MGit to manage Git repo in addition to GitSync (limited to only 1 repo for free), so that UniinfoNotes can be viewed on mobile logseq.
+				- On my Android phone, just use MGit to manage Git repo in addition to GitSync (limited to only 1 repo for free), so that UniinfoNotes can be viewed on mobile Logseq.
 					- now both MGit & GitSync are managing the MindChips repo.
 					- provided that GitSync auth is changed to SSH from its default HTTPS, because MGit can only use SSH!
 					- UniinfoNotes
@@ -2962,6 +2989,29 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- They have been **unupdatable** long before.
 				- To prevent the annoying prompt for update (while unupdatable), i ((66c7f42e-5c00-435a-8d30-fe8210c4adf6)) in Chrome.
 			- Seems that it's caused by my actions to prevent Ubuntu's auto-update last year.
+				- With manual system update, i.e. `sudo apt upgrade` in August 2025, Chrome has been updated to [version 139.0.7258.127](https://chromereleases.googleblog.com/2025/08/stable-channel-update-for-desktop_12.html), and MS Edge to [version 139.0.3405.86](https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=38daeebf-eb95-40f7-8396-89751156de66).
+				  :LOGBOOK:
+				  CLOCK: [2025-08-14 Thu 14:47:35]
+				  :END:
+					- DONE This system update caused the Chrome issue [Dropdowns, tooltips etc. always render in top-left corner under Wayland](https://issues.chromium.org/issues/358041219), while Edge with the same version 139 doesn't have such issue.
+					  collapsed:: true
+						- DONE Solution: add **command line** option `--ozone-platform=x11` to override the default `--ozone-platform=wayland`.
+							- Note that the flag `#ozone-platform-hint` (Preferred Ozone platform) setting has no effect (always `--ozone-platform=wayland`), because this preference is considered last:
+							  collapsed:: true
+								- 1. **Check explicit CLI flags** (`--ozone-platform=...`) — these always override everything else.
+								- 2. **Check `XDG_SESSION_TYPE` and Wayland protocol availability** — if it sees `wayland` and ozone-wayland support is compiled in, it picks Wayland.
+								- 3. **Check the `#ozone-platform-hint` pref** — but only if no CLI override and the environment check doesn’t force Wayland.
+						- Screenshots: Wayland vd X11
+							- Most tooltips are shown on the top-left corner.
+							  ![Wayland-tooltip-NG.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-tooltip-NG.png)
+							- Some dropdown menus are shown on the top-left corner, e.g. DevTools > Network > Throttling
+							  ![Wayland-dropdown-NG.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-dropdown-NG.png)
+							- Some dropdown menus are still shown correctly, e.g. DevTools > Network > More Filters
+							  ![Wayland-dropdown-OK.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-dropdown-OK.png)
+							- Corect layout with X11
+							  collapsed:: true
+								- ![Wayland-tooltip-OK.png](../assets/GUI/Wayland/dropdown-topleft/Wayland-tooltip-OK.png)
+								- ![X11-dropdown-OK.png](../assets/GUI/Wayland/dropdown-topleft/X11-dropdown-OK.png)
 				- WAIT Migrate `docs/DevlopmentEnvironment/Ubuntu-update.md` to ((68358033-084f-461c-b470-5311a5127f0c)) & ((68358161-eb10-4c78-805e-88f9f460d376)).
 				  :LOGBOOK:
 				  CLOCK: [2025-05-27 Tue 14:39:27]
@@ -3041,7 +3091,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- July 7th, let's start!
 			  collapsed:: true
-				- Even staring at the work at company, i see Unïnfo-related features more than the work's requirements. 😁
+				- Even staring at the work at company, i see Unïnfo-related features more than the work's requirements. 😁
 				  :LOGBOOK:
 				  CLOCK: [2025-07-07 Mon 10:44:05]
 				  :END:
@@ -3071,10 +3121,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 8th, i'm trying to set the intent for official works with contemplation & breathwork, but the personal intents are still very strong!
 			  collapsed:: true
 				- Just flushed all waiting tasks, incomplete stories and brainstorms from the Workstack.
-				- Observing & contemplating my reset (in order to set new intent for official works), i see the “antennae” of [anusayā-cetanā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))s of my central obop.
+				- Observing & contemplating my reset (in order to set new intent for official works), i see the “antennae” of [anusayā·cetanā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))s of my central obop.
 				  id:: 686cbb21-2266-45a1-ab56-7e252695f5f2
 					- ((686cc8c2-9215-4b84-840e-def48efd9447))
-					- The anusayā-cetanā then sets the attention (focus of the viewcone) to strengthen the intention further.
+					- The anusayā·cetanā then sets the attention (focus of the viewcone) to strengthen the intention further.
 				- At the end of the day, my emotional intents rose up. I let them flow, observed and [integrated them into the plan](((686e0e73-d3cc-4250-804f-94a270b92fd9))).
 			- 9th, the meeting and discussions with colleagues override the personal intents, making them subside and blurred, in contrast to the [clear vision](((686cbb21-2266-45a1-ab56-7e252695f5f2))) of the [“fine hairs” of the latent intents](((686e096b-d730-4d9e-ae58-4ca2cf7b93aa))) yesterday.
 			  collapsed:: true
@@ -3093,7 +3143,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- because the (extent part of) content has been abstracted away, the intent is empty, lacking, wanting... of content, hence attracting content.
 					- this attraction is due to the impression that the intent is the whole (it's an image of the whole, representing the whole), while actually it's just a part of the whole.
 						- ⇒ ((6858b355-fba9-4e61-9f16-bc993a3df44b))
-					- All my effort to extract patterns, formulating them... is just to make another form, no matter how it's named, whether Unïnfo, Unithread, or uninet. Even if it can “capture the whole Universe”, it'll be just an empty form!
+					- All my effort to extract patterns, formulating them... is just to make another form, no matter how it's named, whether Unïnfo, Unithread, or uninet. Even if it can “capture the whole Universe”, it'll be just an empty form!
 				- action can only be seen by one's self when one withdraw the self from the action
 					- the self can just do its action, cannot see its own action.
 					- ((684f9517-1b11-4022-a2c3-0688975f198a))
@@ -3189,7 +3239,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Through practice, i've refined the 3 levels of absorptions and linked them with [antidotal practices](((6850c7e4-0969-45b7-9ca8-e2c1d764effe))) for 3 poisons.
 					- The refined conscious absorption this morning prompted for the unification between dynamics with [sequential intents](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52))) ( ((66f40210-cca6-4d81-85e7-d0c54ef20451)), ((67bd3614-2520-4a5d-8b3f-44f60901844e)), ((67bd7811-ce55-402f-8fb2-08b59fb271c9))) and dynamics with parallel/orthogonal intents, as well as the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
 						- With conscious absorption, all intents are equal, orthogonal
-							- All worlds are equivalent. They are different only by the order of intent sequence, due to the scaling factor of $b^k$ at position $k$.
+							- All worlds are equivalent. They are different only by the order of intent chain, due to the scaling factor of $b^k$ at position $k$.
 								- For derivatives, the base $b = ∞$, hence orthogonal.
 							- The mind can be settled down to a round circle by balancing all intents: all digits/derivatives are equal.
 						- Relativity of intent order: The ((66e42d39-a296-4ed9-a686-4cb213783830)) is both an [antenna](((686e096b-d730-4d9e-ae58-4ca2cf7b93aa))) (head) and a remainder (tail).
@@ -3234,6 +3284,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- With Google Search Console's [URL inspection](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fcreatzynotes.blogspot.com%2F), the only indexed one is https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html. All other URLs are reported as "Sitemaps: No referring sitemaps detected" while these URLs do appear in the [sitemap.xml](((6880c5ca-c0e4-485c-ae5f-ef323dacd5df))).
 					- The Sitemaps list in Google Search Console is empty, while it's clearly in the [robots.txt](((6880bfb6-37bd-4d5a-aa65-a366b19fed81)))!
 						- After a manual submit, it's shown with `Couldn't fetch` status!? 🤔
+							- This seems to be a [bug of Google Search Console](https://qr.ae/pC8a9H): my `sitemap.xml` is fetched successfully by Live Test.
 					- https://creatzynotes.blogspot.com/robots.txt
 					  id:: 6880bfb6-37bd-4d5a-aa65-a366b19fed81
 					  collapsed:: true
@@ -3271,22 +3322,35 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ```
 					- Reported reason for being not indexed
 						- [Crawled - currently not indexed](https://support.google.com/webmasters/answer/7440203#crawled): some pages are crawled but none are indexed.
-						- [Page with redirect](https://support.google.com/webmasters/answer/7440203#page_with_redirect): `https://creatzynotes.blogspot.com` is a non-canonical URL that redirects to another page 🤔?! Where's it redirected to?
-							- With `Test Live URL` (follows redirects and then tests the final URL) in `URL Inspection`, the target URL (not shown) is shown as [available](https://support.google.com/webmasters/answer/9012289#will_i_be_indexed), i.e. can be indexed with conditions! 😮
+						- [Page with redirect](https://support.google.com/webmasters/answer/7440203#page_with_redirect):
+							- `https://creatzynotes.blogspot.com` is a non-canonical URL that redirects to another page 🤔?! Where's it redirected to?
+								- With `Test Live URL` (follows redirects and then tests the final URL) in `URL Inspection`, the target URL (not shown) is shown as [available](https://support.google.com/webmasters/answer/9012289#will_i_be_indexed), i.e. can be indexed with conditions! 😮
+							- After a month, [spirorus-structure-of-spacetime.html](https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html) has become unindexed due to this "redirect" issue (failed on Aug 11, 2025).
+								- Haha, this time, its mobile version [spirorus-structure-of-spacetime.html?m=1](https://creatzynotes.blogspot.com/2013/08/spirorus-structure-of-spacetime.html?m=1) has been indexed, instead! 😁 It should not be indexed due to ((6888c16c-af83-4602-a7d5-fe401698b4de))
+								- In "Enhancements & Experience", the error [HTTP marked with canonical tag](https://support.google.com/webmasters/answer/11396518#errors) indicates that the `<link rel="canonical">` tag in pages served via HTTP has overriden HTTPS version – although they are identical!
+								- ⇒ I've just turned the blog's option "HTTPS redirect" ON, to ensure all visits to HTTP are redirected to HTTPS, and wait...
 						- [Alternate page with proper canonical tag](https://support.google.com/webmasters/answer/7440203#duplicate_page_with_proper_canonical_tag): These pages are mobile version (`?m=1`) of a desktop [canonical](https://support.google.com/webmasters/answer/139066).
-				- Adding other sites ([Unïnfo](https://bixycler.github.io/Uniinfo/), [Kinh Pháp Cú (Dhammapada)](https://bixycler.github.io/PhapCu-Dhammapada/)) to Google Search Console, they are all reported "security issue" 😮🤔 which have been resolved by appeals.
+						  id:: 6888c16c-af83-4602-a7d5-fe401698b4de
+					- A strange thing is that all pages are crawled by `Googlebot smartphone` not `Googlebot`!?
+					- With https://technicalseo.com/tools/fetch-render/, i see that the `Googlebot smartphone` crawls the mobile version which will be redirected to the canonical version... via HTTP redirect (`302` Found)!
+						- Is this the root cause?! 🤔
+				- Adding other sites ([Unïnfo](https://bixycler.github.io/Uniinfo/), [Kinh Pháp Cú (Dhammapada)](https://bixycler.github.io/PhapCu-Dhammapada/)) to Google Search Console, they are all reported "security issue" 😮🤔 which have been resolved by appeals.
 				  collapsed:: true
 					- Security issue: Deceptive pages (phishing?!)
 					  id:: 6880e5f7-3f00-4d8f-a63b-fcf9548175a2
+					  collapsed:: true
 						- Description: These pages attempt to trick users into doing something dangerous, such as installing unwanted software or revealing personal information. [Learn more](https://support.google.com/webmasters/answer/9044101#phising)
 						- Sample URLs: N/A
 					- My appeal has cleared this ((6880e5f7-3f00-4d8f-a63b-fcf9548175a2))
+					  collapsed:: true
 						- Request for review
 						  > This is a simple static page with content merely about Dhammapada Sutta. Please show me how and which part of it "trick users into doing something dangerous, such as installing unwanted software or revealing personal information."
-					- DONE The Unïnfo page has been indexed, resulting in a search result for keword `Unïnfo` pointing to the front page.
+					- DONE Both front pages of Unïnfo & Dhammapada have been indexed, resulting in a search result for keword `Unïnfo` pointing to the front page.
 					  :LOGBOOK:
 					  CLOCK: [2025-07-29 Tue 20:23:47]--[2025-07-29 Tue 20:23:50] =>  00:00:03
 					  :END:
+					- Unïnfo site
+						- [14001986](https://github.com/bixycler/Uniinfo/commit/14001986): Add [robots.txt](https://bixycler.github.io/Uniinfo/robots.txt) & [sitemap.xml](https://bixycler.github.io/Uniinfo/sitemap.xml)
 			- 24th, ((6882164a-8717-4fd4-a660-4fdeb424af70))
 			  collapsed:: true
 				- Will Lei's cover of [Canon in D](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon) in [Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ)
@@ -3324,14 +3388,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- To the world outside of the dream, the dream is so illusionary, but to the dream, the outside world is no less illusionary. Hence, both of them are as real as illusionary 😜👻! In other words, everything is a **real illusion**.
 						- 🌀 Real Illusion
 							- The illusion is real. Literally.
-							- Not just metaphorically — it exists, it appears, it affects — that’s a real being with real effects.
+							- Not just metaphorically – it exists, it appears, it affects – that’s a real being with real effects.
 							- The unreality of the illusion is just its way of being. And its being is real.
 							- The Real Illusion is just another name for the [Liar Paradox](https://en.wikipedia.org/wiki/Liar_paradox).
 					- The gatha of [Diamond sutra](https://en.wikipedia.org/wiki/Diamond_Sutra):
 						- > तारका तिमिरं दीपो मायावश्यायबुद्बुदं। सुपिनं विद्युदभ्रं च एवं द्रष्टव्यं संस्कृतं।
 							- A shooting star, a clouding of the sight, a lamp,
 							  An illusion, a drop of dew, a bubble,
-							  A dream, a lightning's flash, a thunder cloud —
+							  A dream, a lightning's flash, a thunder cloud – 
 							  This is the way one should see the conditioned.
 						- > 一切有爲法
 						  如夢幻泡影
@@ -3361,6 +3425,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The snot built up there and running down the throat makes me cough.
 					- The meditation on Sunday was strongly effective, making it nearly dry.
 				- Contemplated the ((688748a7-8228-4515-9fe4-38c232ce954e))
+				- With the interest of my wife, Bell Lê, my youth's dream of playing đàn bầu has revived, and we decided to buy one to practice.
 			- 28th, i've arrived at the ((68871d20-c27b-4b0d-8342-b8af093e5849)) technique of intent equalization.
 			  collapsed:: true
 				- Wow, i must use longer terms “viewing direction” & “light ray direction”, because the shading men have reverted both [“view direction”](((68876434-f1f3-4dda-975f-496594ef762e))) and [“light direction”](((6887625c-db24-4ecf-a154-3aedb390afd3))) for their own convenience (in the viewpoint of the shaded object)!
@@ -3371,6 +3436,616 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  :END:
 				- Although the [plan](((68663850-daa5-487e-ba48-fea228a2b188))) has not been applied well, the practical methods for intent management have been developed quite well.
 				- So, let's wrap it up for the new month coming.
+		- Try to harmonize the personal ((67b541d0-f477-4c3a-b444-fb522c3fdc4f)) with the [working plan](((68663850-daa5-487e-ba48-fea228a2b188))), from August 2nd to September 7th.
+		  id:: 688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-01 Fri 14:45:50]
+		  CLOCK: [2025-08-01 Fri 14:46:03]
+		  CLOCK: [2025-08-01 Fri 14:49:46]--[2025-09-08 Mon 14:20:12] =>  911:30:26
+		  :END:
+			- Let's ((68898917-e61f-4d23-9124-474efa9a9eee)) to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents.
+				- These techniques are nothing new to me.
+					- introspection is my strength as an introvert, and
+					- equalization is reflected right in the name “Balance Way” from the beginning.
+				- In the struggle to return to the company works, in the last days of July, i just re-experienced these techniques in a deeper level and more concretely. So, i documented them as a guideline for further training and deeper realization.
+			- The struggle has shown me clearly that the karma is as heavy as the mountain, and my attachment to seeing through that mountain is no less delusive than moving it.
+				- So, just return to the Socratic attitude: **accept the ignorance!**
+				- While people cling to their ability to do things, i.e. ((67f91046-34ed-4bb4-a006-db2c33aeabf7)), i cling to my ability to see things, i.e. ((66f267f7-01f9-47b9-8376-abd27fdf2930)) (sentience and cognizance).
+					- While the attachment to awareness is subtler, it's also a part of the ((67f9100a-b749-4354-ae16-92dc74ff27da)).
+					- It's subtle because it lies in the root, i.e., the “sense” part in the “sense of self”.
+				- The parable ((688c8787-cf67-4db5-814b-172a399d3f00)) should be understood not only in the agency side but also in the awareness side.
+				  collapsed:: true
+					- Both sides of attachment (to agency and awareness), and detachement in Buddhist [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通):
+						- Agency side: moving mountains, walking on water, and many other [iddhis](https://en.wikipedia.org/wiki/Iddhi).
+						- Awareness side: [clairaudience](https://en.wikipedia.org/wiki/Clairaudience), [telepathy](https://en.wikipedia.org/wiki/Telepathy), recalling past lives (túc mạng minh), seeing through karma (thiên nhãn minh).
+						- Liberation from both sides: [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông), extinction of the ((6839229d-9eff-49e4-9480-6e2db6f61127)).
+					- ### If the Mountain Won’t Move, Then *We* Move!
+					  id:: 688c8787-cf67-4db5-814b-172a399d3f00
+					  collapsed:: true
+						- One day, a group of disciples fascinated by supernatural powers asked their master:
+						  — **Disciples:** Master, please teach us the art of [moving mountains and draining seas](((688c88bf-a979-4a94-815b-b7488106c325))).
+						  — **Master:** Alright then. Stand here and focus on that mountain over there... I will make it come closer to us.
+						- The disciples stared intently at the mountain for *three days and three nights*, but nothing happened. When they saw the master calmly walking out of his hut, they rushed up to him:
+						  — **Disciples:** Master, why hasn’t that mountain moved at all?
+						  — **Master:** Useless, useless! After all your training, you're still clinging to the *mountain*!?
+						  — **Disciples:** We don’t understand, Master...
+						  — **Master:** Then come with me, I’ll show you.
+						- After leading the stubborn disciples to the foot of the mountain, the master stopped and said:
+						  — **Master:** Do you see now? Hasn’t the mountain come closer to us?
+						  — **Disciples:** Yes… but that’s because *you* walked here...
+						  — **Master:** Attachment, attachment! It’s not that the mountain *cannot* be moved, but to shift it even an inch would take a thousand times more effort than simply walking to it. So why insist that *the mountain* must move?!
+					- 移山倒海 (di sơn đảo hải, dời non lấp bể) = [“Move mountains and drain seas”](https://en.wiktionary.org/wiki/%E7%A7%BB%E5%B1%B1%E5%80%92%E6%B5%B7)
+					  id:: 688c88bf-a979-4a94-815b-b7488106c325
+					  collapsed:: true
+						- This Eastern idiom is parallel with the biblical expression of "moving mountains and parting seas" in the West.
+					- ### Núi chẳng dời thì ta dời!
+					  collapsed:: true
+					  form the blog [Những mẩu chuyện Phá chấp](http://creatzynotes.blogspot.com/2012/01/nhung-mau-chuyen-pha-chap.html).
+						- Một ngày nọ đám đệ tử ham thích thần thông hỏi sư phụ:
+						  ― Đệ tử: Thầy ơi, thầy chỉ tụi con thuật di sơn đảo hải (dời non lấp biển) đi.
+						  ― Sư phụ: Được, vậy các con hãy đứng đây, chú tâm nhìn vào ngọn núi đằng kia... Thầy sẽ làm cho nó xích lại gần ta.
+						- Đám đệ tử tập trung dòm núi suốt 3 ngày 3 đêm mà chẳng thấy có tác dụng gì cả,... khi thấy sư phụ từ trong nhà thong thả đi ra thì liền nhao nhao lên:
+						  ― Đệ tử: Thầy ơi, sao chẳng thấy ngọn núi đó động đậy gì cả vậy?
+						  ― Sư phụ: Vô dụng, vô dụng! Các con tu tập bao lâu rồi mà vẫn còn chấp cái ngọn núi!?!
+						  ― Đệ tử: Dạ chúng con không hiểu ạ.
+						  ― Sư phụ: Vậy thì đi theo ta, ta sẽ chỉ cho thấy.
+						- Sau khi dẫn đám đệ tử cố chấp đến chân núi, sư phụ dừng lại bảo:
+						  ― Sư phụ: Các con đã thấy núi xích lại gần ta chưa?
+						  ― Đệ tử: Dạ gần, nhưng đó là do Thầy đi đó chứ...
+						  ― Sư phụ: Cố chấp, cố chấp! Chẳng phải là núi không thể dời đi, nhưng để dời nó đi một li phải tốn công gấp tỉ lần ta đi tới nó. Vậy sao cứ phải cố chấp vào việc núi dời chi vậy?!
+					- Another well known story is about a yogi practicing [laghimā-siddhi](https://www.wisdomlib.org/definition/laghimasiddhi) for years to cross the river, meeting a Buddhist master (or Buddha himself, or just an old man) who takes only some coins to take a boat.
+					  collapsed:: true
+						- ### The Yogi Who Walked on Water
+						  collapsed:: true
+							- A Buddhist master visited a yogi who had been meditating and practicing austerities in solitude for many years. The yogi proudly exclaimed:
+							  “After 20 years of practice, I have gained the siddhi to walk on water!”
+							- The master calmly replied:
+							  “Ah, I see. But there’s a boat that crosses the river – it costs just a few coins.”
+						- Walking on water is an [iddhi](https://en.wikipedia.org/wiki/Iddhi) in iddhi-vidhā (supranormal powers), while iddhi-vidhā is one in [six superpowers](https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81) (六神通) in Buddhism, in which [āsava-kṣaya](https://en.wikipedia.org/wiki/%C4%80sava) (extinction of mental effluents, 漏盡通, lậu tận thông) is the most valuable in the path of liberation, as shown in the [Sāmaññaphala Sutta (The Fruits of the Contemplative Life)](https://www.dhammatalks.org/suttas/DN/DN02.html).
+						- This story is usually told to address the [Buddhist view on miracles](https://en.wikipedia.org/wiki/Miracles_of_Gautama_Buddha?utm_source=chatgpt.com#Buddhist_view_on_miracles): they are dangerous and something that could lead to self-glorification.
+						- In the [Buddhist monastic code](https://en.wikipedia.org/wiki/Vinaya), the Buddha laid down a rule forbidding his monks from showing off supranormal powers to laypeople.
+			- Weekends 2nd-3rd August, tried to equalize my 3 great intents – likes (Unïnfo, [emotional attachment](((67b541cf-323e-4efd-8d6e-ccb2c9d017ff)))) versus dislikes (company works, business) – and at last, i saw the technique of [intents penetration via perfect throughness](((689029a3-c02b-4cb9-b1bd-205f12c97391))).
+			- 4th, shared with Mr. Hải, my new team leader, about my working motivation (working for brothership, not for money), and get back to the work a little bit.
+			  collapsed:: true
+				- Putting my hands into the official works for just a moment, the Unïnfo intents just matched the tedious threads there strongly and pulled me back to the [thread mixing & unmixing](((6850be86-058c-45b4-9b4a-de92ebb4caff))) with ((68908fbd-acc3-41a6-8c38-17ee1f014223)).
+			- 5th, restarted some works of company, then got more involved after the meeting.
+			  collapsed:: true
+				- On the way home, i spotted the urge to take advantage of free time to contemplate Unïnfo, then released it by focusing on the zero intent.
+				- At home, some breakage reminded me to have a stronger reset and to train [intents penetration](((689029a3-c02b-4cb9-b1bd-205f12c97391))) with [intent dissolution](((668f5490-c223-4a8a-9cc4-0bd71af4c097))).
+				  id:: 6892ac8b-8b7c-4129-8a62-5c38065f7898
+			- 6-7th, drifted away from the official works.
+			  collapsed:: true
+				- [WEIRD](https://en.wikipedia.org/wiki/WEIRD) (Western, educated, industrialized, rich and democratic) societies and countries
+				- From [reification](https://en.wiktionary.org/wiki/reification) to ((68932036-e868-4468-a891-70cdf09ea904))
+					- [Reification](https://en.wikipedia.org/wiki/Reification) is interesting: it's a kind of ((68932036-e868-4468-a891-70cdf09ea904)) [in knowledge representation](https://en.wikipedia.org/wiki/Reification_(knowledge_representation)), [in computer science](https://en.wikipedia.org/wiki/Reification_(computer_science)), [in higher-order logic](https://en.wikipedia.org/wiki/Reification_(information_retrieval)),... but can also be [a fallacy](https://en.wikipedia.org/wiki/Reification_(fallacy)).
+				- [NDE: Catholic Priest Dies and Returns with a SHOCKING MESSAGE from Jesus!](https://youtu.be/4psiktBDSqY)
+					- Collin Raye's [She's With Me](https://youtu.be/Th3zgd2g-gA)
+						- [Music video](https://youtu.be/oj6GXVTAOiU)
+						- > I myself so weak and weary, so imperfect as a man.
+						  How could I be the one you chose to care for our girl?!
+						  I've never done a single deed to earn the right to share her light!
+					- Collin Raye's [Love Remains](https://youtu.be/yLxCVAWjGek)
+						- [Video with slideshow](https://youtu.be/90VX7DOWsmU)
+						- Posted to fb many times: [Oct 20214](https://www.facebook.com/lexuandinhct/posts/963880876962533), [Dec 2016](https://www.facebook.com/lexuandinhct/posts/pfbid02AFHU5Vpi98GhXMABnbZfDc4uENB1UxsmeWqXR4pofFTMUcTynB1zZemuiF5LXwMGl), [Mar 20218](https://www.facebook.com/lexuandinhct/posts/pfbid029wUyFEALydazMLkXfWWkRQGCqa4tAnPEXALM9edft94763DnZ3gRyPqdi8cf9no2l), [Dec 2018](https://www.facebook.com/lexuandinhct/posts/pfbid0TFLsTNasyqNVfMwDW38PiWLyebU3tqjMdwfGDbhnbaHxBnoqnV69ktAG9tCQL94Tl).
+				- Updated ((684f951b-4f21-4783-a4a6-3fe5d638c64c)).
+			- 9-10th, weekends, focusing on the empty center, i had some well done ((68871d20-c27b-4b0d-8342-b8af093e5849)) in tantric practice.
+			  collapsed:: true
+				- ((68994c7c-335a-4a31-836b-ff7fa9bb3e67))
+				  → ((68994c7c-695a-49db-aae6-e776186f6a85))
+				- [order](((68994c7c-335a-4a31-836b-ff7fa9bb3e67))) > unaware intent > ungraspable content of impenetrable crystal form > central position of representative & distortion via viewcone > ((6858b355-fba9-4e61-9f16-bc993a3df44b))
+				  collapsed:: true
+					- We want to know all in order to control all.
+					- I accepted limit of knowledge years ago, but only now do i accept the limit of awareness, even though it's obvious with the viewcone!
+						- The illusion of unlimited knowledge is due to the abstraction of the whole Universe into some simple laws.
+						- The illusion of unlimited awareness is due to the omniview at the empty center.
+						- Accepting the limit of knowledge, i turn inward for development.
+						- Accepting the limit of awareness, i practice skillful ((67445065-15b2-475e-a704-78f140d487af)) so that i can return to the zero (empty center) faster and smoother, instead of trying to stay there all the time.
+							- The "stay in the zero all the time" is just another attachement, clingging to the zero!
+							- The [intent equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))) also helps by reducing the resistence against reset.
+			- 11th, contintue with tantric pactice.
+			  collapsed:: true
+				- [MTProto proxies](https://mtpro.xyz/mtproto) for Telegram (mostly Persian)
+				  collapsed:: true
+					- [proxy2.icortana.com](https://t.me/proxy?server=proxy2.icortana.com&port=1001&secret=3e31ad980db70f83f9f4979994dd7dd4): پروکسی برند (PROXY BRAND): Proxy provider to get around the [Telegram ban](https://en.wikipedia.org/wiki/Telegram_in_Iran#Full_blocking) of the Islamic Republic of Iran
+					- [belgium.antwerp.ir](https://t.me/proxy?server=belgium.antwerp.ir&port=23&secret=eeNEgYdJvXrFGRMCIMJdCQ): جادوی زیبایی (The Magic of Beauty): cosmetic products seller
+					- [ilovehim.mnbtm.ir](https://t.me/proxy?server=ilovehim.mnbtm.ir&port=45&secret=ee845a84551675092139db3da9d5b2ff4d696c6f766568696d2e6d6e62746d2e6972): پروکسی وتوییت persian (Persian proxy and tweet): network service vendor
+			- 12th, a day focusing on company's work. Wondering about my lack of jadedness, i saw the reason [why people get jaded](((689c0223-5aeb-4196-a2bd-04aaf4e8770d))).
+			  collapsed:: true
+			- 13-14th, got more involved in the company's work, thanks to meeting and interaction with colleagues.
+			  collapsed:: true
+				- [Smart Auto Move](https://github.com/khimaros/smart-auto-move) extension of GNOME has been disabled after a system update.
+					- Oh, the whole `Extensions` is switched off ⇒ Just switch this on, then the Smart Auto Move extension is on, too.
+				- After 20:00 (Aug 13), `git1.lan.skygate.co.jp` suddenly lost DNS `A` records, no matter how i `dig` `mgmt-gitlab-*.amazonaws.com` 😯
+				  id:: 689c9111-0ca8-4268-911b-79588a4f5e30
+					- Today (Aug 14), the `A` records appear again after `dig`ging `mgmt-gitlab-*.amazonaws.com`. Don't know why!
+				- At lunchtime, i realized that my intent of my involvement in the current work in the company project was “proving the correctness of my idea”, then i release it.
+			- 16-17th weekends, thinking in ((68a2a2b1-4565-401d-80ee-9c412b97da35)): the thought is brought before the (internal) eye, so it loses its control power.
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-08-18 Mon 07:57:59]
+			  :END:
+				- Bringing intents to the front is harder, but much easier than in eyes open situations.
+				- I tried this technique years ago but not very successful... until now.
+					- Today's success mainly thanks to the awareness of the driving intents.
+				- ((68a7de6e-fbe8-4fb9-8dc1-6279c066565f))
+				- ((68a7e246-8407-4e89-b393-912db172e4fe))
+			- 19th, a day with strong engagement in the official work which led to the ((68a595fd-6761-4b5e-aa64-1e3f0a1fc3be))
+			  id:: 68a520c4-b31e-4256-bdfd-3e6f249ea0b9
+			  collapsed:: true
+				- The two-strand rope model for the [double-dotted i (ï)](((68a3ea54-f275-40b8-93ae-4a2bd8da4a06))) in “Unïnfo”
+				  id:: 68a520c4-6a2e-4db9-8806-c4b4e55390e8
+				  collapsed:: true
+					- Copilot has drawn an artistic clipart but it cannot modify it precisely (the main drawback of its creativity).
+						- ![double-dotted-i-sep.png](../assets/Will/story/2025-08/double-dotted-i-sep_copilot.png){:width 100}
+					- n-strand rope structure
+						- Typical two-strand rope structure
+						  ![Typical-two-strand-rope-structure](../assets/Will/story/2025-08/Typical-two-strand-rope-structure-image-partly-adapted-from-Leech-10.png)
+						- Four-strand rope structure
+						  ![A-four-strand-rope-structure](../assets/Will/story/2025-08/A-four-strand-rope-structure-showing-the-yarns-and-their-cross-section.png)
+						- Ref: [ResearchGate](https://www.researchgate.net/figure/Typical-two-strand-rope-structure-image-partly-adapted-from-Leech-10_fig1_282862409)
+					- Model with GeoGebra: [TwistedDoubleI](https://www.geogebra.org/m/cexzy52b)
+						- Image & video & 3D model
+							- ![TwistedDoubleI.png](../assets/Uniinfo/TwistedDoubleI/TwistedDoubleI.png)
+							- Video
+							  collapsed:: true
+								- ![TwistedDoubleI.200x300.webm](../assets/Uniinfo/TwistedDoubleI/TwistedDoubleI.200x300.webm)
+							- YouTube: [Twisted Double i – the “ï” of “Unïnfo”](https://www.youtube.com/shorts/evIXwWj9IFA)
+							- 3D model page: [Uniinfo/TwistedDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistedDoubleI).[html](https://bixycler.github.io/Uniinfo/TwistedDoubleI/TwistedDoubleI.html)
+								- Both [TwistedDoubleI](https://github.com/bixycler/Uniinfo/tree/main/TwistedDoubleI) and [Unitorus](https://github.com/bixycler/Uniinfo/tree/main/Unitorus) are ***manually* mirrored** with ((666baccf-6be1-4b9a-b186-f883ea04daf1))/assets/Uniinfo/{[TwistedDoubleI](../assets/Uniinfo/TwistedDoubleI),[Unitorus](../assets/Uniinfo/Unitorus)}.
+						- Instead of the complex rope with many levels of twisting (strand, rope yarn, plied yarn, base yarn, fiber), we model just a **two-ply yarn** plied from simple cylindrical strands.
+						  collapsed:: true
+							- The word “ply” is from the PIA root [pleḱ-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/ple%E1%B8%B1-) meaning “plait, fold, weave”: *apply* (fold toward), *reply* (fold back), *implicit* (folded in), *explicit* (unfolded), *complicated* (folded together), etc.
+								- Evolution by application (folding forward) & trimming:
+									- Original “ply” = [plait](https://en.wiktionary.org/wiki/plait), [fold](https://en.wiktionary.org/wiki/fold)
+									- ⇒ “ply” in rope making = a strand to be twisted → twisted ply
+									- ⇒ “ply” in paper making = a layer to be flat-folded → flat ply
+								- With **rope**, the “plies” are literally strands *folded and twisted* together → the folding remains visible.
+								- With **paper, plywood, fabric**, the folding process originally produced **stacked folds**. But when the edges are trimmed off, the folding disappears, leaving only *flat layers*.
+								- And the modern human, like me, learns them in reverse order:
+									- Born at the leaf of **flat plies**: *two-ply tissue, three-ply masks, plywood* → flat layers, no hint of folding.
+									- Tracing the trunk through rope's plies: the folding/twisting origin reappears, like a fossil imprint.
+									- Reaching the root and back through etymology research: both the root “fold”, and its evolution to the flat plies by trimming the folding edges, are clear.
+						- $u$: phase of strand curling around z-axis in xOy (with radius $R = 1$)
+							- $n$: Number of twists (half turns) ⇒ $u \in [0, n⋅π]$
+							- $k$: Slope of strand ⇒ $z = k⋅u$
+							- $s(u)$: Strand axis: $\hat{x}⋅\cos(u) + \hat{y}⋅\sin(u) + \hat{z}⋅ k⋅u$
+								- $t(u) = ds/du$: Direction of strand (strand vector): 
+								  $t(u) = -\hat{x}⋅\sin(u) + \hat{y}⋅\cos(u) + \hat{z}⋅k$
+						- $v$: phase of strand sheath wrapping around strand axis with diameter $⌀ = 2 r$
+							- $r$: Radius of strand
+								- $v = 0$ ⇒ ${\vec r}_0 = r⋅[\hat{x}⋅\cos(u) + \hat{y}⋅\sin(u)]$
+								- $v = π/2$ ⇒ ${\vec r}_⊥ = {\vec r}_0 × t(u) /|t(u)|$
+									- ${\vec r}_⊥ = r⋅[\hat{x}⋅k⋅\sin(u) - \hat{y}⋅k⋅\cos(u) + \hat{z}] / \sqrt{k^2 + 1}$
+							- ${\vec r}(v) = {\vec r}_0 ⋅ \cos(v) + {\vec r}_⊥ ⋅ \sin(v)$ 
+							  Transverse thread in the sheath wrapping around the strand vector $t(u)$
+								- ${\vec r}(u,v)$ with $r_k = r / \sqrt{k^2 + 1}$:
+									- $x = r⋅\cos(u)⋅\cos(v)+ r_k⋅k⋅\sin(u)⋅\sin(v)$
+									- $y = r⋅\sin(u)⋅\cos(v) - r_k⋅k⋅\cos(u)⋅\sin(v)$
+									- $z =$                                                     $r_k⋅\sin(v)$
+						- Strand sheath: $str(u,v) = s(u) + {\vec r}(u,v)$
+							- $x = \cos(u)⋅[1 + r⋅\cos(v)]+ r_k⋅k⋅\sin(u)⋅\sin(v)$
+							- $y = \sin(u)⋅[1 + r⋅\cos(v)] - r_k⋅k⋅\cos(u)⋅\sin(v)$
+							- $z = k⋅u$                                                 $+ r_k⋅\sin(v)$
+						- Strand touching z-axis: $str_t(u,v) = s_t(u) + {\vec r}(u,v)$
+							- $x = r⋅\cos(u)⋅[1 + \cos(v)]+ r_k⋅k⋅\sin(u)⋅\sin(v)$
+							- $y = r⋅\sin(u)⋅[1 + \cos(v)] - r_k⋅k⋅\cos(u)⋅\sin(v)$
+							- $z = k⋅u$                                                 $+ r_k⋅\sin(v)$
+				- First time directly handle intents in tantric practice
+				  id:: 68a595fd-6761-4b5e-aa64-1e3f0a1fc3be
+				  collapsed:: true
+					- Tonight, with the combination of the constant monitoring of intents, the first time i spotted the active intents clearly and released them right in the tantric practice.
+						- Previously, i could only detect some vague feelings and deal with its energy (qi) without clear forms of intents.
+					- Holistic intents this time
+						- The holistic core prefers small circles for certainty & stability.
+						- Problem solving & question answering are preferred over task work
+							- because problems & questions are only gaps in the known (established & stable knowledge circle),
+							- while tasks are gaps in the unknown (the tasks assigner) ← i have no trust in the task issuer.
+								- The assigned tasks usually lack the deep “why”.
+								- => Contemplating this lack of trust in people & system against my trust & faith in God (Nature, Universe, the Great, the One), i see ((68a53a70-3f35-497b-a610-703d8a6665e5))
+							- My deep consideration about a simple noun phrase for “task work” reflects my preference of question answering over just "writing it down".
+							  :LOGBOOK:
+							  CLOCK: [2025-08-20 Wed 11:08:37]
+							  CLOCK: [2025-08-20 Wed 11:08:42]--[2025-08-20 Wed 11:14:12] =>  00:05:30
+							  :END:
+								- After writting down "task doing" , i wondered if it's natural,
+								- then considered "task execution" but felt it a little technical,
+								- consulted ChatGPT and finally settled down with "task work" for a more casual tone.
+				- Cross-Origin Resource Sharing ([CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS#requests_with_credentials)) with credentials (cookies) & redirect
+				  collapsed:: true
+					- To include credentials in request, use `fetch()` with `credentials = "include"`, or `XMLHttpRequest`.`withCredentials = true`.
+					- Credentialed requests and wildcards: When responding to a credentialed request, server *must not* specify the `*` wildcard for the following response headers:
+						- `Access-Control-Allow-Origin`
+						- `Access-Control-Allow-Methods`
+						- `Access-Control-Allow-Headers`
+						- `Access-Control-Expose-Headers`
+					- Third-party cookies
+						- if the user's browser is configured to reject all third-party cookies, the `Set-Cookie` header in the response by the server would not work.
+						- Cookie in the request may also be suppressed in normal third-party cookie policies.
+						- The enforced cookie policy may therefore nullify the capability described in this chapter, effectively preventing you from making **credentialed requests** whatsoever.
+					- Preflight requests and credentials
+						- CORS-preflight requests must never include credentials.
+						- The response to a preflight request must specify `Access-Control-Allow-Credentials: true` to indicate that the actual request can be made with credentials.
+					- Preflighted requests and redirects
+						- Not all browsers currently support following redirects after a preflighted request.
+						- => Avoid preflight, or do client-side redirect to `responseURL` responded from server.
+						- However, if the request is one that triggers a preflight due to the presence of the `Authorization` header in the request, you won't be able to work around it at all unless you have control over the server the request is being made to.
+					- Simple versus preflight requests
+						- For cross-domain requests, setting the content type to anything other than `application/x-www-form-urlencoded`, `multipart/form-data`, or `text/plain` will trigger the browser to send a preflight `OPTIONS` request to the server.
+					- `jQuery.ajax()` with `crossDomain = true`
+						- If you wish to force a crossDomain request (such as JSONP) on the same domain, set the value of crossDomain to true. This allows, for example, **server-side redirection** to another domain.
+			- 20th, the whole day caught up with ((68a53a70-3f35-497b-a610-703d8a6665e5))
+			- 21st, the whole day caught up with UniinfoNotes: [trust = acceptance of negative](((68a53a70-3f35-497b-a610-703d8a6665e5))); [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
+			- 22nd, the whole day caught up with UniinfoNotes: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)); [intent = behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))); [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
+			  collapsed:: true
+				- Rendering the twisted double i on HTML: Up to 5 hours (16-21 PM) was taken for debugging the `THREE.Object3D.DefaultUp` (Y vs Z)... only to see that ColladaLoader has already rotated the model from Z to Y around Z!
+				- ((68ac60bb-321e-44da-8f44-4f688e611d3e))
+			- Weekends 23rd-24th, prepared for the trip to in the 2/9 holiday ([Vietnam Independence Day](https://en.wikipedia.org/wiki/National_Day_(Vietnam))) and monitored the cyclone approaching North Vietnam.
+			  collapsed:: true
+				- [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6)
+				  collapsed:: true
+					- Two opposite sides of the same cyclone:
+						- At surface: low pressure, anticlockwise centripetal spiral
+						- At high altitude (10+ km): high pressure, clockwise centrifugal spiral
+						- In some animated satellite images, we can see both [cirrus cloud](https://en.wikipedia.org/wiki/Cirrus_cloud) swirling clockwise above, versus [cumulus](https://en.wikipedia.org/wiki/Cumulus_cloud) & [cumulonimbus](https://en.wikipedia.org/wiki/Cumulonimbus_cloud) clouds swirling anticlockwise below.
+					- While there's only one rotation in Coriolis effect, there are 2 rotations in the [rolling ball 🏀 on turntable](https://youtu.be/3oM7hX3UUEU).
+						- [Rolling ball on flat and conical turntable](https://youtu.be/vFojCjtvJII)
+						- [Rolling ball in a cylinder](https://youtu.be/5sbM2Isx17A) has a strange orbit also thanks to the [rotational inertia](https://en.wikipedia.org/wiki/Moment_of_inertia).
+					- Rotation ≈ folding ⇒ mixing just like a fruit mixer/blender
+						- Each term in Fourier series mixes/folds signal into a scale of intent (frequency) ⇒ all effects in other scales are cancelled.
+							- It's coefficient is the **common** of all instances in the extension, which is extracted by canceling differences through integration.
+							- The larger the sampling set (extension), the closer it approachs the center (mean, zero), the smaller its intent. ⇐ Statistical nature
+						- The set of fixed frequencies (harmonics) is the limitation of Fourier transform.
+							- The SCIFER **intending** process overcomes this limitation by jumping right to the next matching intent, no matter how far from the current intent.
+				- Côn Đảo: đặt vé [Côn Đảo Express](https://condao.express/)
+				  collapsed:: true
+					- Từ Tp.HCM đi Côn Đảo có máy bay và 2 tàu cao tốc.
+						- Máy bay (Vietnam Airlines, VietJetAir) từ Tân Sơn Nhất đi Côn Đảo (1h) vé **1.5-2Md**
+						- [Tháng 3-2025, khai trương](https://tuoitre.vn/khai-truong-tuyen-tau-cao-toc-tu-quan-4-di-con-dao-20250321105416378.htm) tàu cao tốc Phú Quý Express đi từ cảng Sài Gòn (quận 4) đi Côn Đảo, vé **1Md**
+						- [Tháng 4-2025, chạy lại](https://tuoitre.vn/thang-4-2025-tau-cao-toc-tp-hcm-con-dao-chay-tro-lai-20250326174422411.htm#:~:text=2%20tuy%E1%BA%BFn%20t%C3%A0u%20cao%20t%E1%BB%91c,bu%C3%BDt%20g%E1%BA%A7n%20khu%20v%E1%BB%B1c%20n%C3%A0y.) tàu cao tốc Thăng Long (CTY Phú Quốc Express) từ Nhà Bè (cảng Hiệp Phước) đi Côn Đảo, vé **900kd-1Md**
+					- Từ Vũng Tàu, có 2 tàu đi Côn Đảo:
+						- tàu thường CQ-03 (12h) vé **400kd**, và
+						- Côn Đảo Express, Thăng Long (CTY Phú Quốc Express) vé **800kd-1Md**
+					- Từ Sóc Trăng (cảng Trần Đề) có 2 tàu cao tốc đi Côn Đảo
+						- Superdong, đi 8:00 về 13:30, vé **370kd**
+						- Côn Đảo Express 36 & Trưng Nhị (CTY Phú Quốc Express), đi 8:00 về 9:00 vé **400-450kd**
+					- Từ Cần Thơ (cảng Trần Đề) có (2) tàu cao tốc
+						- Mai Linh Express đi Côn Đảo (tạm ngưng hoạt động)
+						- [Tàu Trưng Nhị](https://tauthanglongsaigon.com/ve-tau-can-tho-con-dao-2025) (CTY Phú Quốc Express), vé **650-750kd**
+					- Bảng giá vé Thăng Long Express
+						- ![Bảng giá vé Thăng Long Express](assets/Will/story/2025-08/ThangLongExpress-fares.webp)
+				- DONE Booking ~~payment~~/cancellation due: 23:00 26th August 2025
+				  id:: 68ac60bb-3a1f-443d-a822-22b3d4f18b2c
+				  collapsed:: true
+					- I cancelled the trip due to tropical low pressure right after the cyclone.
+					- How does booking.com (Agoda) deal with no-show cases when the booking requires no credit card?
+						- This [AseanNow topic](https://aseannow.com/topic/1056029-bookingcom-no-credit-card-needed-no-show-why-do-they-pretend-to-charge-you/) shows actual cases of no-show with no credit card and ... no problem! 😂
+						- Many hoteliers complain of it, asking for solution from Agoda but get no response... but they cannot back off [because Agoda is too big & successive](https://aseannow.com/topic/1056029-bookingcom-no-credit-card-needed-no-show-why-do-they-pretend-to-charge-you/#findComment-13342829) 🤔!
+						- Google AI says that it's the responsibility of the hoteliers to handle no-shows! 😆
+							- [Agoda provides assistance](https://partnerhub.agoda.com/what-can-i-do-if-the-guest-did-not-show-up-no-show/): Agoda will inform you if the property is attempting to make a charge and will provide the guest's credit card details if a charge was not possible through the initial charge attempt.
+							- Risk assessment system: An AI-powered risk evaluation system is used to identify high-risk guests based on their booking history and past behavior (no-shows reported by hotels).
+			- 25th, the whole day caught up with debugging the unplayable video saved from HTML rendered 3D model of the [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))).
+			  id:: 68ac6971-f8ff-4cd1-9084-06b5f298d928
+			  collapsed:: true
+				- It seems to be Ubuntu's problem with 3D graphics: Unplayable `webm` exported from 3D canvas.
+					- Disabling hardware acceleration on browser doesn't help.
+					- Ubuntu's Totem (GNOME Videos) plays with only black screen, but can show video properties: On2 VP8 in Matroska.
+					- Ubuntu's Nautilus (GNOME Files) **hangs** while displaying video properties.
+					- Chrome plays the file very well, with good quality (similar to the rendered canvas).
+					- Firefox, LVC play the file with poor quality: colors and reflection light are poor.
+				- So at last, i must mirror the 3D canvas of THREE.js to a 2D canvas for recording.
+				- ⇒ I saw ((68adb0c5-e979-475e-8432-730d9d8970bc))
+			- 26th, project meeting and draw diagrams with ((68ad91c4-0083-432f-a90d-e2401b072919)) in [logseq-fenced-code-plus](((68ad8f51-795d-4f17-ad90-f8b97968e478))).
+			- 27th, thanks to an appointment with a QA collegue, this morning was filled with works related to the project, and took advantage of the last morning hour to do the long waited lask ((686e580a-a0d6-4e0c-981c-e15665b8e4d0)).
+			  collapsed:: true
+				- The bliss of ignorance and the burden of knowledge and awareness!
+				  collapsed:: true
+					- The “burden of knowledge” is the burdens and sufferings that the knowledge brings to its bearer.
+						- The [burden of knowledge](https://en.wikipedia.org/wiki/Burden_of_knowledge) on Wikipedia
+						- Actually, at first i called it the  “curse of knowledge”, but reworded “curse” to “burden” to avoid confusion with the cognitive bias of the same name, i.e. the [curse of expertise](https://en.wikipedia.org/wiki/Curse_of_knowledge).
+					- The “burden of awareness” is much deeper than the “burden of knowledge”.
+					- “In much wisdom is much grief, and he who increases knowledge increases sorrow”
+					  — [Ecclesiastes 1:18](https://biblia.com/bible/esv/ecclesiastes/1/18)
+				- Thanks to online services, i'm reminded that today is my birthday! 😁 This day never has any meaning to me, though! The only meaning that i can recognize is that it connects me with people around, which depends on them, not myself!
+				-
+			- 28th, somehow drifted into terminology then backed off with [braincalming](((68b00dde-717f-4d86-ab95-3af9128c998c))); After research & brainstorming about [Shared authentication system](https://chatgpt.com/c/68b01d84-a72c-8330-a4c7-c72247330a1f), ((68b16df2-c546-432e-80bc-3a4f5d6ffb7f))
+			  collapsed:: true
+				- Brainstorming versus **braincalming**
+				  id:: 68b00dde-717f-4d86-ab95-3af9128c998c
+					- While the brainstorms can be mapped and written down,
+					- the braincalms must be done by myself in solitary and silence!
+				- The whole night caught up with fixing a mistake in my proposal of solution shared in the working group
+				  id:: 68b16df2-c546-432e-80bc-3a4f5d6ffb7f
+					- Story of pull/push redirects
+					  id:: 68b16f0e-f3bf-49d3-b465-ef9db4b5a82c
+						- The problem in the current project is to synchronize login status between two domains within the same (split) “website” (the split was due to historical reasons).
+						- The standard [SSO](https://en.wikipedia.org/wiki/Single_sign-on) workflow _use page-redirects at **login time** to pull SSO session cookies from the IdP_, hence “pull-redirect” approach.
+							- That means the user must actively do something to trigger the login action, e.g. clicking a button.
+						- Because the two domains in this project are of the same website, customer wants a **transparent UX** such that users don't need to do any “second login” action but automatically get logged into both domains after a single login action.
+						- The group leader nailed it down with the solution of adding pull-redirect to all places that do authentication status check, which is too much!
+							- Though felt unsettling with such an overkill, i and other collegues just followed the order to do research and brainstorm in that direction.
+							- I was to caught up that i analyzed the scenarios with the presumption of “always redirect”.
+								- At the presentation, the customer asked me “So, what are our local cookies for?!”
+								- That rhetorical question woke me up to re-examine the whole solution from the root, and see that “why not simply [push](((68b17b45-1b8e-448f-b85d-f2cfee25abf4))), but pull?!” 🤔
+						- Pushing approaches: IdP → auth cliens
+						  id:: 68b17b45-1b8e-448f-b85d-f2cfee25abf4
+							- The normal push is done between backends, but authentication is tied to the browser with credentials (cookies).
+							- At first, i thought of simple backend-push, forgetting the requirement of browser's credentials.
+							- After posting some hints about my “push approach” to the working group, a doubt from the customer triggered my re-examination so that i saw the flaw in my approach of simple backend-push.
+							- Refining it, i arrived at the approach of “**push-redirect**”, then asked ChatGPT for clearer examination.
+								- ChatGPT suggested a combination of back-channel push and front-channel pushe via websockets, but its overcomplicated and difficult to pinpoint the correct browser for the push target.
+								- So i just stay with my original push-redirect approach.
+					- ⇒ ((68b17f4c-efe4-4de3-a99b-599b55478995))
+			- 29th, morning slept to make up for last night; lunch saw the [pressures causing headache](((68b180fe-23ea-4fd6-8da3-89d46858332e))), then walke to the river-side park for meditation where i saw [the restoring force toward the fixated impression](((68b19896-8640-4e28-9c7f-f7ca41d1e680))).
+			  collapsed:: true
+				- Review the ((68b16f0e-f3bf-49d3-b465-ef9db4b5a82c))
+				  id:: 68b17f4c-efe4-4de3-a99b-599b55478995
+					- From the beginning of last night, i had mild headache, to the end it had increased to a rather strong one.
+					- Headache ← pressure: the pressure of/around the eyes increase, causing headache. There are various types of pressure i've experienced.
+					  id:: 68b180fe-23ea-4fd6-8da3-89d46858332e
+						- reaction to coldness in Japan: vasoconstriction, increase blood pressure and temparature
+							- This reaction did revert my blood pressure drop when wake up late, to the blood pressure rise.
+						- contraction in breath hold diving: the pressure is very clear due to the strong contractions.
+						- mental pressures in interaction and in work: to find solution, to return to the fixated impressions (understanding, seeing clear/through, being correct/logical/sound/perfect)
+							- This [tension headache](https://en.wikipedia.org/wiki/Tension_headache) is what people called “headache from thinking too hard”.
+							- This is a kind of **aversion**, one of the ((6839229d-9eff-49e4-9480-6e2db6f61127)), driven by the feeling that “it can't be wrong!” or “It's impossible!”
+					- Pressure ← restoring force toward the fixated impression ← intents ← impressions in the past + fixation
+					  id:: 68b19896-8640-4e28-9c7f-f7ca41d1e680
+						- While the restoring force toward the fixated impression is universal and has been known for a long time, the **pressure** generated by it was only recognized this time.
+				- [Erin hurricane 2025 Aug](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) from 15th to 22nd, reaching category 5
+				  collapsed:: true
+					- Erin hurricane 2025 Aug from 20th to 22nd sweeping along the east coast of United States
+					  ![Erin-hurricane-2025-Aug-20-22.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-20-22.mp4)
+					- Erin hurricane 2025 Aug 16th rapidly intensified to catergory 5
+					  ![Erin-hurricane-2025-Aug-16-category-5.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-16-category-5.mp4)
+					- Erin hurricane 2025 Aug 20th lightning
+					  ![Erin-hurricane-2025-Aug-20-lightning.mp4](../assets/Will/story/2025-08/Erin-hurricane-2025-Aug-20-lightning.mp4)
+					- I intended to add these clips to the album [Cyclone 🌀](https://photos.app.goo.gl/mc85bCpNVUo537ym6), but Google Photos has stopped supporting video play. So i just save them here! 😊
+			- September 2nd holidays, in an LSD trip, i got a the vision of ((68b79197-1244-4b42-b79f-464cfc8433a1)) and ((68b7ebd7-caee-4cae-b361-6540cfc23bf8)) From that vision, i extracted a down-to-earth explanation about [the role of the subject in all experiences](((68b79197-fc1d-4360-9993-e96e83e76e8a))).
+			  collapsed:: true
+				- ((68b79197-1244-4b42-b79f-464cfc8433a1))
+				- “To lose yourself in joy is fragility, to sink yourself in grief is extremeness – in both, turn within to the stable whole and the balance.”
+				  id:: 68b79197-fc1d-4360-9993-e96e83e76e8a
+				  collapsed:: true
+					- When only joy is seen, you're losing yourself in fragility, seek the stable whole within;
+					- When only grief is felt, you're sinking yourself into extremeness, seek the balance within.
+					- Why within? Because only grief can experience joy, and only joy can experience grief – you, the subject of such experiences is the other missing half!
+					- तत् त्वम् असि (Tat tvam asi), “That thou art” – what you see is what you are.
+					- “Đánh mất mình trong niềm vui là mong manh, chìm đắm mình trong nỗi buồn là cực đoan – cả hai đều cần quay vào trong để trở về với cái toàn thể ổn định và sự cân bằng bền vững.”
+						- Khi chỉ thấy niềm vui, ta đang đánh mất chính mình trong mong manh, hãy quay về với cái toàn thể bền vững hơn ở bên trong;
+						- Khi chỉ cảm thấy buồn đau, ta đang chìm đắm trong cực đoan, hãy quay về tìm sự cân bằng ổn định ở bên trong.
+						- Sao lại bên trong? Vì chỉ có nỗi buồn mới biết được thế nào là vui, và chỉ có niềm vui mới cảm nhận được nỗi buồn – mình, chính mình là chủ thể của những cảm nhận đó là nửa còn lại bị thiếu sót.
+				- My wife got the first experience of going through the gate of death (cửa tử, 死門) for many times.
+				  id:: 68b7ebd7-caee-4cae-b361-6540cfc23bf8
+					- With this experience, she's got the vision of the whole circle of life in her mind, so that she's seen the only way for liberation is to go through it, but no other way to avoid or flee.
+					- The next day, going to the tree house of Bảo–Lụa, she got the first time a pleasing feeling about the garden environment.
+			- Sep 3rd-4th, still caught up with personal works.
+			  collapsed:: true
+				- Development of Buddhism schools
+					- ```mermaid
+					  flowchart TD
+					  
+					  %% Tap root
+					  Buddha[/"Gautama Buddha<br/>(5th–4th c. BCE)"\]
+					  
+					  %% Early branching
+					  
+					  Early["Early Buddhist Schools<br/>(After Councils)"]
+					  
+					  Sthavira["Sthavira (Elders)"]
+					  Sarvastivada["Sarvāstivāda<br/>(Theory that All Exists)"]
+					  Mahasanghika["Mahāsāṃghika<br/>(Great Community)"]
+					  
+					  Theravada[\"Theravāda<br/>(Sri Lanka & SE Asia)"/]
+					  Mahayana["Indian Mahāyāna<br/>(1st c. BCE–CE)"]
+					  
+					  %% Indian philosophy lateral roots
+					  Brahmanical[/"Brahmanical &<br/> Vedantic Thoughts"\]
+					  Samkhya[/"Sāṃkhya &<br/> Hindu Epistemology"\]
+					  Tantra[/"Indian Tantric Traditions<br/>(Śaiva, Śākta, Folk)"\]
+					  
+					  %% Mahāyāna branches
+					  
+					  Madhyamaka["Madhyamaka (Middle Way)<br/>(Nāgārjuna, 2nd-3rd c.)"]
+					  Yogacara["Yogācāra (Consciousness-Only)<br/>(Asaṅga & Vasubandhu, 4th c.)"]
+					  
+					  EastAsia[\"East Asian Mahāyāna<br/>(Zen, Pure Land, Huayan, Tiantai)"/]
+					  Vajrayana[\"Vajrayāna / Tantrayāna<br/>(7th–8th c., India → Tibet)"/]
+					  
+					  %% Core flow
+					  
+					  Buddha --> Early
+					  Early --> Mahasanghika
+					  Early --> Sthavira
+					  
+					  Sthavira --> Sarvastivada
+					  Sthavira --> Theravada
+					  
+					  %% Mahāyāna from Mahāsāṃghika + Sarvāstivāda influences
+					  Mahasanghika --> Mahayana
+					  Sarvastivada --> Mahayana
+					  
+					  %% Mahāyāna expansions
+					  Mahayana --> Madhyamaka
+					  Mahayana --> Yogacara
+					  
+					  %% East Asia is philosophical stream
+					  Madhyamaka --> EastAsia
+					  Yogacara --> EastAsia
+					  
+					  %% Vajrayāna integration
+					  Madhyamaka --> Vajrayana
+					  Yogacara --> Vajrayana
+					  
+					  %% Lateral influences
+					  Samkhya -.-> Yogacara
+					  Brahmanical -.-> Madhyamaka
+					  Tantra -.-> Vajrayana
+					  
+					  
+					  ```
+					- For https://www.mermaidchart.com/play
+						- Exported
+						  ![Development of Buddhism schools.png](../assets/Will/story/2025-09/Development of Buddhism schools.png)
+						- ```
+						  ---
+						  config:
+						    layout: elk
+						    theme: redux
+						  ---
+						  flowchart TD
+						  
+						  %% Early branching
+						  Buddha[/"Gautama Buddha<br>(5th–4th c. BCE)"\] --> Early["Early Buddhist Schools<br>(After Councils)"]
+						  Early --> Sthavira["Sthavira (Elders)"] & Mahasanghika["Mahāsāṃghika<br>(Great Community)"]
+						  Sthavira --> Theravada[\"Theravāda<br>(Sri Lanka &amp; SE Asia)"/] & Sarvastivada["Sarvāstivāda<br>(Theory that All Exists)"]
+						  Mahasanghika --> Mahayana["Indian Mahāyāna<br>(1st c. BCE–CE)"]
+						  Sarvastivada --> Mahayana
+						  
+						  %% Mahāyāna branches
+						  Mahayana --> Madhyamaka["Madhyamaka (Middle Way)<br>(Nāgārjuna, 2nd-3rd c.)"] & Yogacara["Yogācāra <br>(Consciousness-Only)<br>(Asaṅga &amp; Vasubandhu,<br> 4th c.)"]
+						  Madhyamaka --> EastAsia[\"East Asian Mahāyāna<br>(Zen, Pure Land, Huayan, Tiantai)"/] & Vajrayana[\"Vajrayāna / Tantrayāna<br>(7th–8th c., India → Tibet)"/]
+						  Yogacara --> EastAsia & Vajrayana
+						  Brahmanical[/"Brahmanical &amp;<br> Vedantic Thoughts"\] -.-> Madhyamaka
+						  Samkhya[/"Sāṃkhya &amp;<br> Hindu Epistemology"\] -.-> Yogacara
+						  Tantra[/"Indian Tantric Traditions<br>(Śaiva, Śākta, Folk)"\] -.-> Vajrayana
+						  
+						  %% Styles
+						  style Buddha stroke-width:4px,stroke-dasharray: 0
+						  style Theravada stroke-width:4px,stroke-dasharray: 0
+						  style Mahayana stroke-width:4px,stroke-dasharray: 0
+						  style EastAsia stroke-width:4px,stroke-dasharray: 0
+						  style Vajrayana stroke-width:4px,stroke-dasharray: 0
+						  ```
+			- Sep 6-7th, weekends, ((68be308b-9135-44cd-b2c4-690a267fb8c2))
+			  collapsed:: true
+				- Compromise: from “com-promise” to “breach” 
+				  collapsed:: true
+					- Positive sense (15-17th centuries) in **collective** lens: balance, middle way, harmony
+						- In communal societies, compromise was inherently positive.
+						- It meant: “we each yield a little so we can live together,” a shared promise for harmony.
+					- Negative sense (19-21st centuries) in **individual-idealistic** lens: breach, betrayal, weakness
+						- In more individualistic and idealistic contexts (19th-century liberal politics, moral philosophy, even Romantic literature), compromise was re-evaluated:
+							- To compromise = to betray your **own principle**, your integrity.
+							- The highest value was not harmony, but sticking to ideals, no matter what.
+						- Further intensification in modern usage
+							- In security, technology, and espionage: “a system is compromised” = it has lost its integrity.
+							- Here in the individualistic frame that “the system as an individual unit”,
+								- Compromise = breach of that unit’s inviolability.
+					- The Vietnamese word “thoả hiệp” (妥協) has a similar shift toward “weaken, surrender one's **own** integrity”, though not as far as “compromise” to a “breach”.
+						- «我們決不妥協» (We/I will never compromise) is the normal stance of individualists.
+					- Buddhist Middle Way: Just as “compromise” shifted to mean loss of integrity under individualistic/idealistic lenses, the “Middle Way” is often dismissed as weakness under activist/revolutionary lenses.
+						- The “strength” paradox:
+							- For revolutionaries or idealists, “strength” means unyielding pursuit of a goal (no compromise, no middle).
+							- For Buddhists, “strength” means not being swayed to extremes (the harder path of balance, self-mastery).
+				- The Git repo of ((666baccf-6be1-4b9a-b186-f883ea04daf1)) has bloated to 1.2GB after a year!
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2025-09-08 Mon 08:37:10]
+				  :END:
+					- [MGit on mobile](((686b2cfe-dbc3-4ef6-ab07-545865b09609))) just failed with error message [Inflater has been closed](https://github.com/maks/MGit/issues/697).
+					- 2 large dirs: `.git/` = 841MB; `assets/` = 328MB
+						- The fine-grained tracking `log` branch should be reset, with the old history archived to `log01`.
+							- `log01`: `1e352c73`...`7e99c79e`: 2024 Oct 17 ~ 2025 Sep 05
+						- The `assets/Will/` of 243MB should be trimmed from `mobile` branch.
+					- The dedicated branch `mobile` should have a trimmed repo with
+						- weekly ~~cherry-picks~~ squashed merges from `log` and
+						- a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
+				- First time get through [aversion (tense)](((6839229d-9eff-49e4-9480-6e2db6f61127))) in tantric practice by ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique.
+				  id:: 68be308b-9135-44cd-b2c4-690a267fb8c2
+					- The [full-body breath](((68594391-faeb-4f7e-87e1-9ea179c2639b))) keeps us from greed (lack), the [sublime breath](((68594391-db9c-4d1a-b578-045d87d3e038))) clears all blockages, constrictions, so that we're not tense or averse.
+					- ⇒ Live fully in the present, not sucked toward a target in the future (greed), nor clingging to an impression in the past (aversion).
+				- Logseq AI: No working plugin for free APIs like Gemini.
+					- [AssistSeq](((68be4ad9-b2de-4ac7-ad17-6b5ac8478ac9))) is most promising with context & free API of Gemini, but abandoned.
+					- [AI Assistant](((68be4a6e-f672-4892-b072-732eb034fac9))) requires paid API from OpenAI.
+					- [Ollama](((684f9516-b179-4c37-9feb-f08781466afa))) requires models running on local machine.
+		- Sound experiment with my đàn bầu.
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-04 Mon 08:47:52]
+		  CLOCK: [2025-08-04 Mon 08:49:18]--[2025-08-04 Mon 10:29:18] =>  01:40:00
+		  :END:
+			- Flageolet tone ([string harmonic](https://en.wikipedia.org/wiki/String_harmonic)) versus [stopped note](https://en.wikipedia.org/wiki/Stopped_note)
+				- While a stopped note is a complex tone including a [fundamental tone](https://en.wikipedia.org/wiki/Fundamental_tone) and many [overtones](https://en.wikipedia.org/wiki/Harmonic),
+				- a flageolet tone is produced by suppressing the fundamental tone as well as some low overtones, resulting only high overtones (harmonics), hence its name “string harmonics”.
+				- A flageolet tone sounds usually more airy like a whistle or flute, hence its name [“flageolet”](https://en.wikipedia.org/wiki/Flageolet), and lasts longer like a bell, compared to a stopped note at the same pitch.
+				- The airiness is due to the filter of low harmonics.
+				- The long lasting is due to the full-length vibration, compared to the shortened string by stopping.
+				- C3 note sound recordings
+					- Flageolet tone
+					  ![C3-flageolet.m4a](../assets/Will/story/2025-08/C3-flageolet.m4a)
+					- Stopped note
+					  ![C3-stopped.m4a](../assets/Will/story/2025-08/C3-stopped.m4a)
+				- C3 note spectrograms
+					- Flageolet tone | stopped note
+					  ![C3-flageolet-stopped_Spectroid.png](../assets/Will/story/2025-08/C3-flageolet-stopped_Spectroid.png){:width 600}
+			- Chat with Huy
+			  collapsed:: true
+				- Âm bội thì trong và ngân dài hơn, còn âm đơn thì đục và tắt nhanh hơn.
+				- Cả 2 tính chất đó có thể thấy qua âm phổ (đồ): (trục hoành là tần số [Hz])
+					- phần trên là âm phổ (Sound spectrum), với trục tung là âm lượng (dB)
+					- phần dưới là âm phổ đồ (sound spectrogram), với trục tung là thời gian hướng lên, và độ sáng là âm lượng (dB)
+				- Nhìn âm phổ thì mới thấy "trong/đục" về âm cũng rõ là trong/đục của hình âm phổ (đồ). Nên mình mới dùng những tính từ của thị giác đó cho thính giác.
+				- Còn vợ tui thì gọi âm bội là "mỏng", và âm đơn thì "dày" 😀 Không ngờ bả nói giống cách nói trong tiếng Anh "thick/thin".
+				- Vì sự ngân nga và trong trẻo của âm bội mà nó được ví như tiếng chuông (ngân), tiếng sáo (flageolet, trong).
+				- Haha, mới coi lại 2 từ tiếng Anh: flageolet note vs stopped note... thì thấy "stopped" cũng thể hiện rõ tính chất của âm "dừng lại ngay, đoản, ngắn ngủn" 😆, dù gốc của nó là việc "dừng hẳn dây ở một đầu". Và chữ stopped đó giải thích cơ chế của sự khác nhau về độ ngân:
+					- âm đơn phát ra từ sợi dây bị thu ngắn nên cũng đoản hơn, tắt nhanh hơn. Thực ra các nốt thấp thì ngân dài hơn các nốt cao.
+					- âm bội dù có bội gấp mấy lần thì vẫn rung nguyên sợi dây nên luôn ngân dài như nhau.
+					- Tính ngân/đoản này thể hiện rõ qua âm phổ đồ (ở hình trên thì trục tung là thời gian).
+				- Còn về âm sắc trong/đục, mỏng/dày, thanh/tù, thì hơi khó giải thích thích về mặt vật lý.
+					- Nó liên quan đến bản chất âm phức (complex note) của hầu hết mọi nhạc cụ:
+						- mỗi âm đánh ra là một âm phức cộng lại từ nhiều âm thuần (pure note).
+						- Mỗi âm thuần là một sóng hình sin (sóng điều hòa, harmonic) với tần số gấp n lần sóng cơ bản.
+						- Những âm thuần với n > 1 gọi là âm bội (overtones) của âm thuần cơ bản.
+						- Âm sắc của từng nhạc cụ và giọng từng người khác nhau ở sự phân bổ của các âm bội thuần này, thể hiện rõ qua hình dạng âm phổ.
+					- Âm đơn phức: việc thu ngắn dây nâng tần số của cả âm phổ, cả sóng cơ bản lẫn những sóng bội của nó, nên hình của âm phổ không đổi, chỉ bị dịch lên thôi.
+					- Âm bội phức: việc chặn dây tại điểm nút không thu ngắn dây mà chỉ lọc bỏ những sóng tần số thấp
+					  ==> Âm phổ được lọc đi nên trong hơn, càng lên cao thì càng được lọc nhiều nên càng trong.
+				- Mới nói chuyện với vợ thì thấy cách nói âm sắc "dày/mỏng" phù hợp với hình học không-thời gian: cùng 1 năng lượng thì dày × ngắn (đoản) = mỏng × dài (ngân) 😊. Tức năng lượng = không gian cao độ × thời gian trường độ, và thể hiện bằng diện tích hình chữ nhật trong spectrogram (phần dưới của 2 hình bên trên)
+				- Nhờ wikipedia mà tui mới biết Cổ Cầm của Trung Quốc cũng chơi âm bội là chủ đạo (không bấm phím). Nhưng vì nó có nhiều dây nên vẫn có âm đơn (khi tay trái không chặn dây). Ông nghe bản Lưu Thủy (Nước Chảy) này thì thấy rõ sự khác nhau giữa âm đơn và những âm bội "ẻo lả" ma mị:
+					- [Chinese Guqin: Flowing water 《流水》古琴曲](https://youtu.be/BcElotwrZ8o)
+					  {{video https://youtu.be/BcElotwrZ8o}}
+				- Vì các đàn này thường kết hợp kỹ thuật luyến với âm bội nên nghe khó phân biệt.
+					- luyến là kỹ thuật thăng giáng cùng một âm, như đàn bầu là dùng cần (vòi), và cổ cầm là vuốt.
+					- còn âm bội là nói bản chất "sóng dừng có nhiều bó" của một lần gảy đàn (chưa luyến), so với âm đơn chỉ có 1 bó (1 bụng 2 nút) sóng trên dây.
+				- Nhiều thuật ngữ âm nhạc gốc tiếng Pháp nên dễ bị đọc sai nhé:
+					- Timbre (âm sắc) là tem-bờ chứ không phải tim-bờ (timber, cây gỗ)
+					- Flageolet tone (âm bội phức) là fla-giơ-lê chứ không phải fla-gi-ô-lét 😆
+				- Nghe âm thanh, nhìn âm phổ, suy nghĩ về vật lý, cảm nhận sự liên kết của mọi thứ đó, tui thấy thiệt là vi diệu 😊
+					- Đó giờ tui đọc nhiều về phân tích Fourier từ 1 sóng phức ra nhiều sóng điều hòa hình sin, mà khó cảm được. Giờ được nghe trực tiếp, nhìn trực tiếp sự thay đổi âm sắc qua việc lọc âm thì cảm nhận rõ ràng hơn.
+				- Haha, sẵn có âm phổ kế, phân tích luôn 6 thanh tiếng Việt (dấu ngã giọng Hà Nội), thấy cũng giống hình mẫu phết:
+					- ngang: ngang
+					- sắc: lên
+					- huyền: xuống
+					- hỏi: xuống lên (giọng Bắc xuống sâu hơn giọng Nam, và khi nói nhanh thì không thèm lên luôn)
+					- ngã: ngang - đứt - lên nhanh (chỉ có ở giọng Bắc)
+					- nặng: chặn đứng (ngắt âm, glottal stop) ở cuối, còn phần đầu thì có thể ngang/lên/xuống không quan trọng.
+					- ![Vietnamese-6tones-spectrogram.jpg](../assets/Will/story/2025-08/Vietnamese-6tones-spectrogram.jpg)
+					- [Model on WikiMedia](https://commons.wikimedia.org/wiki/File:Six_tones_of_Vietnamese_language.png)
+					  ![Six_tones_of_Vietnamese_language.png](../assets/Will/story/2025-08/Six_tones_of_Vietnamese_language.png)
+					- Zoom in dấu nặng để thấy rõ chỗ chặn đứng ngắt âm ở cuối:
+					  ![Vietnamese-nangj-spectrogram.jpg](../assets/Will/story/2025-08/Vietnamese-nangj-spectrogram.jpg)
+		- Hegel's [Phenomenology of Spirit/Mind](https://www.marxists.org/reference/archive/hegel/works/ph/phconten.htm)
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-09-03 Wed 09:35:44]
+		  :END:
+			- **Subject**: This is the full circle of negation, i.e. [Negation of Negation](https://www.marxists.org/archive/marx/works/1877/anti-duhring/ch11.htm): from the immediate unity, to the bifurcation into opposites, and then restoring its unity via reflection from the other.
+			  id:: 68b7a9cd-4d53-4961-a386-37d869aee926
+				- [Φ 18](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#6)
+				  > The **living substance**, further, is that being which is truly **subject**, or, what is the same thing, is truly realised and actual (*wirklich*) solely in the process of positing itself, or in mediating with its own self its transitions from one state or position to the opposite. 
+				  > [*Negation of Negation*]: As subject it is pure and simple negativity, and just on that account a process of splitting up what is simple and undifferentiated, a process of duplicating and setting factors in opposition, which [process] in turn is the negation of this indifferent diversity and of the opposition of factors it entails. 
+				  > [Self-restoring Sameness]: True reality is merely this process of **reinstating self-identity**, of **reflecting** into its own self in and *from its other*, and is not an original and primal unity as such, not an immediate unity as such. It is the process of its own becoming, _the **circle** which presupposes its end as its purpose, and has its end for its beginning_; it becomes concrete and actual only by being carried out, and by the end it involves.
+		- DOING Try to live fully in the present.
+		  id:: 68be8447-81b0-4094-9964-1bd21e2e31e0
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-09-08 Mon 14:22:51]
+		  CLOCK: [2025-09-08 Mon 14:23:19]
+		  :END:
+			- Let's try applying [my technique](((68be308b-9135-44cd-b2c4-690a267fb8c2))) and integrate the previous [experience](((68b79197-1244-4b42-b79f-464cfc8433a1))) to the work and life.
+			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
+		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
 		- ...

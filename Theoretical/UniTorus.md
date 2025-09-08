@@ -1,10 +1,10 @@
       
 
-# Unitorus – The Symbolic Icon of Unïnfo
+# Unitorus – The Symbolic Icon of Unïnfo
 
-The icon of Unïnfo Theory is a split torus representing the [[Trinion]] equation ...
+The icon of Unïnfo Theory is a split torus representing the [[Trinion]] equation ...
 
-The icon of Unïnfo Theory is a split torus named “Unitorus” representing the Universe and the [[Trinion]] equation:
+The icon of Unïnfo Theory is a split torus named “Unitorus” representing the Universe and the [[Trinion]] equation:
 
 # 
 
