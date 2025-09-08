@@ -183,7 +183,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- LlamaIndex allows users to extract and ingest data from various sources, and then store and query it as a knowledge graph within [NebulaGraph](https://github.com/vesoft-inc/nebula).
 					- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
 					  id:: 68be308b-f247-4c5a-b8b7-96a3fbc8a25b
-						- LLMs: various online APIs and local Ollama
+						- Generative LLMs: various cloud APIs (Gemini, OpenAI, ...) and local APIs (Ollama, LocalAI, LM Studio)
+						- Embedding LLMs: [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) (default, local), cloud APIs (OpenAI, Cohere), local APIs (Ollama, LocalAI, LM Studio)
+						- Transcription Model: [Xenova Whisper](https://huggingface.co/Xenova/whisper-small) (default, local), cloud API (OpenAI)
+						- Vector DB: [LanceDB](https://docs.anythingllm.com/setup/vector-database-configuration/local/lancedb) (Built-in)
 						- On Linux
 							- Installer: [AnythingLLM-installer.sh](../assets/Will/story/2025-09/AnythingLLM-installer.sh) which is also an updater.
 							  id:: 68bea89f-4dc7-4ea6-8fe9-fe3ec82b6423
