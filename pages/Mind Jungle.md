@@ -190,6 +190,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- Embedding LLMs: [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) (default, local), cloud APIs (OpenAI, Cohere), local APIs (Ollama, LocalAI, LM Studio)
 						- Transcription Model: [Xenova Whisper](https://huggingface.co/Xenova/whisper-small) (default, local), cloud API (OpenAI)
 						- Vector DB: [LanceDB](https://lancedb.com/) (default, built-in), local APIs (Choma, Milvus), cloud APIs (Pinecone, ...)
+						- Prompt composition: system prompt +> context (system message = RAG chunks) +> history +> query prompt
 						- On Linux
 							- Installer: [AnythingLLM-installer.sh](../assets/Will/story/2025-09/AnythingLLM-installer.sh) which is also an updater.
 							  id:: 68bea89f-4dc7-4ea6-8fe9-fe3ec82b6423
@@ -4084,6 +4085,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- With the sublime–channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
 					  id:: 66b1cfa3-93c4-4de3-8904-06fb065ded70
 					- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
+					  collapsed:: true
 				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
 				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
