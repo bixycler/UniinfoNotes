@@ -18,7 +18,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Previously, i designed a [⟪Back to Work!⟫ reminder](((67d2a63d-58de-4dbe-bbec-3ec8625737c7))) but ineffective.
 			- Second, plan the space of thoughts.
 				- Due to the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)) and various deep intents, all works, including official works and even the balancing work, will trigger meta-thoughts deeply related to ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). So the time planning only is not enough.
-					- My ((665379b7-e4f6-4240-8029-fd143e2230c7)) has already been supporting Unïnfo strongly: observing the intents & obops => expose them, detach them, and write them down to UniinfoNotes
+					- My ((665379b7-e4f6-4240-8029-fd143e2230c7)) has already been supporting Unïnfo strongly: observing the intents & obops => expose them, detach them, and write them down to UniinfoNotes
 					  collapsed:: true
 						- I just flush my karma out to the Uniinfo: whatever i formulated, i'm free from it.
 						- [!] But it has not supported the official works yet!
@@ -34,15 +34,312 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- “Every empty point is the whole world, the whole life!”
+		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
+		  collapsed:: true
+			- When the **subject** focuses on a single point, as its object, it draws the whole world into that point by the “subject–object complementarity”.
+			  collapsed:: true
+				- When that point object is “solid/opaque”, it reflects the substance of the world, the part of the world before the eye, which is the complement of the subject/intent behind the eye.
+				- When that point object is “empty/transparent”, the subject can see nothing but its own reflection of the whole world & life.
+				- In other words, through the empty point, the subject's actually looking back at its own worlds (an external one and a multitude of internal ones).
+				- The empty point outside reflects the empty point inside, the ((66c8772a-9b29-45b0-b169-2fa847333e02)), hence the whole world is reflected by the subject through that point.
+			- ((670e1047-529a-4698-9ad0-5e6c73c18202)) = reflection of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (the essence of ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)))
+			  collapsed:: true
+				- Substance (mondern) = Circle = Body = carrier of action/change/arrow = underlying part of the object which is unchanged, i.e. “dead substance”
+					- While the modern scientific concept of “substance” ([matter](https://en.wikipedia.org/wiki/Matter)) is a “dead substance” exclusive to the objective world, the concept of [substance](https://plato.stanford.edu/entries/substance/#UndeIdea) in philosophy from the ancient time (Aristotle, Plato, ...) did include living beings, too.
+					- In Unïnfo, ((670e1047-529a-4698-9ad0-5e6c73c18202)) includes not only “dead substances” but also “living substances”, similar to the ancient philosophies and Hegen's [living substance](((68b7a9cd-4d53-4961-a386-37d869aee926))).
+				- Subject = Trinion = Obop (+ Object) = underlying driver of the world, i.e. “living substance”
+					- In dualistic view, the “subject” – as the opposite of object – is the obop itself, while in holistic view, the subject contains the object.
+					- Don't confuse this “living substance” as subject with the modern biological “living substance” ([protoplasm](https://en.wikipedia.org/wiki/Protoplasm)) as material that makes up living cells.
+				- Substance is to subject as abstraction/analysis is to integration
+					- While the “dead substance” is just a container, a purely static image of the whole, a part abstracted from the whole;
+					- the “living substance” is the mediator between the static and the dynamic, between the parts and the whole, the integrator of the whole.
+					- In Hegelian dialectic, the integrativity of the subject is [modeled as the full circle of negation](((68b7a9cd-4d53-4961-a386-37d869aee926))), i.e. the Negation of Negation, carried out by reflection from the object (the “other”).
+			- The paradox of “the zero intent has infinite extent” is due to the **invisibility** of the complement [behind the eye](((68a520bf-adba-4d78-9e3d-5f41de9f8153))) – the subject and its intents.
+			  collapsed:: true
+				- This inverse variation becomes paradoxical only when the crutial role of the subject, the hidden one standing behind the scene, is forgotten.
+				- The content is not confined within the object, but spreads out through the underlying subject, hence the [total content](((678e1d31-4874-4df6-bfb4-60822a6b5546))) $c$ is constant.
+			- The **fractal vision** due to the **transparency** of the scene
+			  id:: 68ba3dc0-7e29-4fb7-ae59-d5d2a5962bf0
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-09-05 Fri 08:49:45]
+			  :END:
+				- Normal sight = **opaque separation**:
+				  id:: 68ba3dfc-1209-45e2-b8db-fb829bc10c62
+					- Subject hidden *behind the eyes*.
+					- Object exposed *before the eyes*.
+					- The **wall of separation** between object & subject makes things look “clear, flat, and ordered”.
+				- Transparent sight = **wall dissolves**:
+					- Looking at the object, we don’t just stop at its surface.
+					- We see *through* into the... subject itself – our own intents, memories, interpretive processes.
+					- Those inner contents appear before the eyes as if they were *objects* themselves.
+					- But because they too can be seen through, we keep peeling layers, deeper and deeper.
+				- This endless overlay = **a living fractal**:
+					- Each layer (outer object, inner intent, memory, interpretation) is *both surface and depth*.
+					- Every layer folds into the next, repeating the same “see-through” principle.
+					- The vision becomes recursive, self-similar, infinitely intricate.
+			- Circle/sphere vision of the small content, versus overlaying fractal vision of the large content
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-09-05 Fri 08:49:50]
+			  :END:
+				- When the content to be seen (outside and inside) is small – fitting within the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) – we can project them all onto a dome screen.
+				  id:: 68ba4209-92bb-4394-bdc2-92cbcece014a
+					- This panoramic view is the signature of our “inner home”, which i described as “a hall without wall and furnitures” in [this blog](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html).
+					  id:: 68ba4408-0fed-47c2-80b1-ce2cb258c44e
+				- When the content to be seen is larger than the perceptual screen, we must overlay them together, creating the [transparent fractal vision](((68ba3dc0-7e29-4fb7-ae59-d5d2a5962bf0))).
+					- This overloading is usually due to actions, motions, thoughts, emotions, which generates lots of contents, some externally and most internally.
+				- While we can stay perfectly calm and still in the panoramic dome vision, we're usually agitated in the overloaded fractal vision.
+					- With advanced skills of meditation, we can stay still in the midst of such overloaded fractal vision: accept, relax, release. This is what i called “staying in the eye of the hurricane” in [this blog](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html).
+					- The key of being still in the chaos is to let them passing through, so they cancel themselves, and we're in the middle/center.
+					- ⇒ ((68ba49d7-6048-4d97-9fc1-cd573165db5f))
+			- Static observation = balance at the center; Dynamic action = imbalance toward one end
+			  id:: 68ba49d7-6048-4d97-9fc1-cd573165db5f
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-09-05 Fri 09:24:36]
+			  :END:
+				- With a small content, we can easily stay statically in the self-balance of the [dome vision](((68ba4209-92bb-4394-bdc2-92cbcece014a))).
+				- With a large content, we naturally get imbalanced toward one end, being pushed toward action of that end.
+					- The large content is mostly composed of our intents internally,
+						- which is in the shape of a chain in task performing activities,
+						- or just a mess of intents when we're overloaded & agitated.
+					- In the [opaque vision](((68ba3dfc-1209-45e2-b8db-fb829bc10c62))) of everyday life, all these intents are continuously pushing us behind our eyes, forcing use to think, to talk, to do things after things nonstop.
+					- This [intent pressure](((68b19896-8640-4e28-9c7f-f7ca41d1e680))) is what we call “engergy” (eustress) and “stress” (disstress).
+				- Keeping balance with a large content is much more difficult than with a small content.
+					- This is what i descibed as “walking on a thin line in mid-air” in [this blog](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html).
+						- The idiom “walking a fine line between A & B” refers to this balancing skill.
+					- With ((68773fad-d653-4536-87b5-d4b493753b41)) & ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), at the root, our _**inner limbs** are free_ from all these chaos and pressure. This is how we can regain control from within.
+		- Turing Deterministic / unbound deterministic = bound / unbound intent cone 
+		  id:: 68ac60bb-321e-44da-8f44-4f688e611d3e
+		  collapsed:: true
+			- Turing machine's intent cone has a fixed apex which is its bound(ary), its prime. Its cone has only one direction of development: extend down the base, cannot intend up the apex.
+			- uninet has bidirectional development: actions extend down the base, and knowledge intends up the apex (learning).
+				- This is thanks to its vacancy of prime (vô nguyên).
+			- => uninet's intent cone has its apex **intensible** (refinable), in parallel with the extensible base.
+				- Refine := intend into every place => process the whole space, instead of focus on one point
+			- This global intensibility is the _refinability of the possibility space_, not the probability, though they have similar effects.
+				- Probability is flat, while intensibility is hierarchical.
+				- ANN & LLM must compensate that flatness with lots of neurons & big data training.
+				- uninet learns efficiently from small data with small number of autonotons, thanks to the intrinsic complexity of intensibility.
+				- The current theory of biological evolution 🧬 is weak due to its limit to only probability, while the nature evolves with global intensibility (fractal) which is much more robust.
+				- Evolution with mere probability is just a kind of nondeterministic enumeration. Although it's quicker than deterministic enumeration, it's still enumeration!
+				- Evolution with refinability (global intensibility) is a systematic search by [dynamical system](https://en.wikipedia.org/wiki/Dynamical_system).
+				- Maybe this was what Einstein said that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe)
+		- The true faith/trust requires acceptance of the negative results.
+		  id:: 68a53a70-3f35-497b-a610-703d8a6665e5
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-20 Wed 16:07:17]
+		  :END:
+			- Normally, people [trust a trustee](https://en.wikipedia.org/wiki/Trust_(social_science)) with the _**presumption** that the trustee will act in ways that benefit the trustor_.
+			- That presumption is but an illusion! 😜 So, that normal trust is just a *false trust*, i.e. **half trust**.
+				- When the [balance of responsibility](((68a566be-4e50-41d5-9213-bfb80178bc18))) and the [deep necessity](((68a5668e-77ba-4a93-948c-e6d91ce07011))) of trust aren't realized, trust degrades into either **blind dependence** or **bitter blame**.
+				  “I trusted you, so you must not fail me!”
+			- That means the **complete trust** – *true trust* – is to *accept the negative results from the trustee*.
+			  id:: 68a595fa-385c-49a7-820f-67aa9db632d5
+				- The **vulnerability** of trust is the _trade-off for [its connection](((68a5668e-77ba-4a93-948c-e6d91ce07011)))_.
+					- “I let you in. I **open** myself. I’m **willing to be affected** by you.”
+					- The vulnerability and negativity are not for distrust but for the **completeness** of the trustor.
+					- By full acceptation, the trustor transforms trust from expectation into **volitional choice**, from illusion into reality.
+				- The necessity of trust: connectivity & completeness
+				  id:: 68a5668e-77ba-4a93-948c-e6d91ce07011
+				  collapsed:: true
+					- Essentially, we must trust because we are **finite** beings in an **uncertain** world.
+						- We never have complete knowledge.
+						- We never have full control.
+						- We cannot verify everything ourselves.
+					- Trust is **how we cross the gaps** between:
+						- known and unknown,
+						- self and other,
+						- past and future,
+						- present and absent.
+					- If we didn’t trust *anything or anyone*, we couldn’t:
+						- drink a glass of water (do you test it yourself each time?),
+						- cross a bridge (do you inspect every beam?),
+						- listen to a teacher, doctor, or friend,
+						- fall asleep while others are still awake,
+						- *love*.
+					- So **trust is not optional** – it’s the glue of life.
+						- It’s what the philosopher Annette Baier called *“the atmosphere of trust”* – like oxygen: unnoticed when present, suffocating when absent.
+							- #+BEGIN_QUOTE
+							  we inhabit a climate of trust as we inhabit an atmosphere and notice it as we notice air, only when it becomes scarce or polluted
+							  #+END_QUOTE
+							  — Baier 1986: 234
+				- The responsibility of the trustor – in balance with that of the trustee
+				  id:: 68a566be-4e50-41d5-9213-bfb80178bc18
+					- **The trustor bears responsibility** for *choosing* to trust, for judging the risks, and for _accepting the **inherent vulnerability**_.
+					- The **trustee** bears responsibility for *honouring* that trust, through care, integrity, and effort – but not for controlling every outcome.
+					- **Self-responsibility** is the key to make the trust grounded, deep, and strong.
+						- While normaly, the **half trust** is dependent on the trustee, cut off from the trustor’s own responsibility.
+							- It’s like leaning on one leg and blaming the ground when you fall.
+							- It's fragile – collapses when unmet expectations surface.
+						- **Complete trust** contains both poles: the openness toward the trustee *and* the self-responsibility of the trustor. It’s whole, stable, and strong.
+						- Actually, no one is responsible for your own life, but you yourself!
+				- Nuance: Don't confuse this “complete trust” with the common “absolute trust”.
+				  collapsed:: true
+					- **Absolute trust**: Trust without limits, conditions, or doubt.
+						- Absoluteness *usually* means **blind reliance**: the trustor yields all responsibility.
+						- **Brittleness**: the trustor collapses if the trustee fails.
+					- **Complete trust**: Trust that includes not only belief, reliance, but also self-responsibility.
+						- **Core feature:** Wholeness, balance, self-contained openness.
+						- **Resilience:** Not destroyed by betrayal, because the trustor doesn’t abandon self-responsibility.
+					- While that usual “absolute trust” is still a false trust, 
+					  the *truly absolute trust* is the **absolute complete trust**:
+					  #+BEGIN_QUOTE
+					  unconditional, independent from the trustee’s behavior
+					  thanks to self-responsibility
+					  #+END_QUOTE
+						- We can rely fully because we're standing fully on our own feet.
+					- In short:
+						- Half trust is fragile.
+						- Usual absolute trust is brittle with blind rigidity.
+						- Absolute complete trust is resilient by prudence.
+			- Poems by ChatGPT
+			  collapsed:: true
+				- #### Three Faces of Trust
+					- A hand half-open, half-closed – 
+					  offering yet withholding,
+					  leaning forward, leaning back,
+					  never whole, never still.
+					  Suspicion clings like shadow,
+					  and the bond breaks
+					  at the touch of weight:
+					  this fragile face – *half trust*.
+					- Eyes shut against the dark,
+					  a heart surrendered without seeing –
+					  this is the dream of certainty.
+					  Strong as stone on the surface,
+					  hollow at the core,
+					  it cracks when truth arrives,
+					  for blindness cannot bear the light:
+					  this rigid mask – *blind absolute trust*.
+					- Roots deep in the earth,
+					  bamboo sways with the storm.
+					  Here trust stands clear-eyed,
+					  responsibility carried within,
+					  risk neither denied nor feared.
+					  It bends, it holds, it breathes –
+					  a faith unbroken, resilient and free:
+					  this living heart – *absolute complete trust*.
+				- ### Ba Bộ Mặt Của Tin
+					- Bàn tay nửa mở nửa khum,
+					  Cho mà giữ lại, ngập ngừng nghiêng lui.
+					  Nghi ngờ như bóng theo đuôi,
+					  Chỉ cần sức nặng, rã rời dây liên.
+					  Mỏng manh mặt ấy hiện lên –
+					  *Niềm tin dở nửa* chênh vênh cõi người.
+					- Đưa chân mắt nhắm miệng cười,
+					  Trao tim phó thác cho người chẳng nghi.
+					  Mơ hồ giấc mộng khắc ghi,
+					  Ngoài thì vững chãi, ruột thì rỗng không.
+					  Sự thật đến, vỡ tan lòng,
+					  Mù lòa sao chịu ánh quang sáng ngời.
+					  Khô cứng mặt nạ một thời –
+					  *Niềm tin tuyệt đối mù* rơi bóng mờ.
+					- Rễ sâu bám đất đợi chờ,
+					  Tre mềm đón bão chẳng nề ngả nghiêng.
+					  Niềm tin mắt sáng hiện nguyên,
+					  Tự mang trách nhiệm, chẳng phiền sợ chi.
+					  Đón gian khổ, chẳng lẩn đi,
+					  Dù cong dù thẳng, chẳng bì chẳng so.
+					  *Niềm tin trọn vẹn*, chẳng rò –
+					  Vững vàng tuyệt đối há lo lắng gì.
+				- Names in Vietnamese
+					- Half trust: niềm tin nửa vời (bán tín bán nghi)
+					- Blind absolute trust: niềm tin tuyệt đối mù quáng
+					- Absolute complete trust: niềm tin trọn vẹn tuyệt đối
+			- Belief → {confidence, conviction; trust} → faith
+			  collapsed:: true
+				- Diagram
+					- ![Types of Belief.png](https://docs.google.com/drawings/d/e/2PACX-1vTRnYMwhdM4PSEUxareVmvH6V3Al87Lj9lvghDpWma7pg70AZqMP_gt1iUgUBu2QOwn1vb3gTfSvT09/pub?w=360)
+				- **Belief**: **Holding** something to be **true**; intellectual **acceptance**, a judgment about reality.
+					- **Confidence**: **assurance** or feeling of certainty; usually about oneself (self-belief), but also about others
+					- **Conviction**: firm and **unwavering** belief
+					- While both are strong belief, “confidence” is about practical competence, “conviction” is about principled truth.
+						- “I am confident this **will** work / they **can** do it” versus
+						- “I have conviction in this mechanism / their ability” = “I **know** this works / they're able to do it.”
+				- **Trust**: Relationship and **reliability**: Reliance on someone/something with confidence
+					- The confidence is usually a belief that _“it won’t let me down”_.
+					- However, a [wholesome trust](((68a595fa-385c-49a7-820f-67aa9db632d5))) should be based on the confidence of the trustor about its own acceptance of reality, and about the completeness of the life built upon trust.
+				- **Faith**: Deeper than belief, broader than trust. It mixes conviction, trust, commitment, and usually with loyalty or devotion.
+				- While English splits *belief / confidence / conviction / trust / faith* into separate roots, Vietnamese folds them back into **one root “tin”** (信), then fans it out with qualifiers (*tự, chắc, cậy, nhiệm, thác, lòng, đức*).
+					- **Belief**: “niềm **tin**” (plain cognitive assent)
+						- **Confidence**: “**tự** tin” (self-belief), “quả quyết” (assertion)
+						- **Conviction**: “tin **chắc**” (certainty)
+					- **Trust**: “tin **cậy**” (personal), “tín **nhiệm**” (social), “tín **thác**” (entrustment)
+						- **Tín thác** = *tín nhiệm* (confidence in) + *phó thác* (entrustment)
+						  Strong match for English *trust*, especially in the sense of “placing oneself in the care of another”.
+					- **Faith**: “**lòng** tin” (heart-deepened), “**đức** tin” (virtue-elevated)
+		- Jadedness' cause and way to liberate
+		  id:: 689c0223-5aeb-4196-a2bd-04aaf4e8770d
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-13 Wed 12:37:02]
+		  :END:
+			- From [boredom](https://en.wikipedia.org/wiki/Boredom), pleasure/food cloyedness, to romantic disillusionment and even career burnout, the jadedness of people has shown the duality of pleasure and displeasure as well as the hidden fantasy in everyone.
+			- Expectations & imaginative projection are the key of jadedness.
+				- Expectation as an imagination bubble
+					- People pre-load experiences with an imagined flavour based on signs (appearance, reputation, first impression).
+					- The early enjoyment is partly *self-generated fantasy*, not reality-based content.
+				- Reality’s slow reveal
+					- As the real texture of the thing emerges – the *actual* taste of the food, the *actual* rhythm of the work – it inevitably differs from the fantasy.
+					- This difference erodes the imagined sweetness.
+				- The emotional crash = jadedness
+					- Once the imagined pleasure fades, people are left with a baseline reality they never truly connected to, so it feels flat or even unpleasant.
+					- The “sweet imagination” being annihilated, leaving only the “bitter reality”, people feel jaded, bored, sated.
+				- Liberation
+					- By avoiding expectation, accepting reality, not clinging to the superficial forms, enjoying the deep content, refraining from imagination, we won't be jaded or sick of anything.
+					- By avoiding expectation and refraining from imaginative projection, we will meet reality *as it is* from the start.
+					- Our joy will come from engaging with the **deep content**, which doesn’t wear out the way fantasies do.
+					- Presence keeps the experience “alive” because we’re always discovering, not measuring against a lost ideal.
+			- Moderation is the way to avoid surfeit.
+				- Not letting ourselve be fed up, we won't get sated.
+				- Avoiding satiety, we won't get sick of anything.
+		- Passive & active obop
+		  id:: 68994c7c-695a-49db-aae6-e776186f6a85
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-11 Mon 11:15:27]
+		  :END:
+			- Active = circular effect flow = circle
+			- Passive = linear effect flow = arrow
+			- Passive input = unaware influence (out of view)
+			- Passive output = uncontrolled actions <= unaware
+			- A passive i/o obop is a being lacking (mental) awareness, e.g. machine, program, function.
+				- Lacking awareness, it cannot learn from experience (i/o).
+				- The limited awareness of Turing machine limits its “learning” capacity to only data, not program, because that awareness is programmed by human.
+			- [?] How does passiveness relate to the ((684f9517-6989-49cc-9b06-360965c446f7))?!
+		- While the Buddha talked about the **self**, i contemplate the **form** and the **order**.
+		  id:: 68994c7c-335a-4a31-836b-ff7fa9bb3e67
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-08-11 Mon 11:15:22]
+		  :END:
+			- Ultimate truth: the permanent self is an illusion; the form is an image; the order is relative (circular).
+			- Pragmatic application:
+				- observing the relativity of the order, the formation of the form, and the destruction of the self,
+				- we practice not to blindly obey the order of the crystal form of the karmic self.
+				- To break the order of control, we must stop and [turn the eye back](((68898917-e61f-4d23-9124-474efa9a9eee))) to the intents, turning the intents from the role of subject/agent to object.
+					- The intent behind the eye has **unconditional influence**, i.e. [passive input](((68994c7c-695a-49db-aae6-e776186f6a85))), on the current obop, like the controller of a puppet, because it's out of sight.
+						- The control is determined by the view => out of view = out of control.
+					- The empty center has the highest order because there's nothing left behind to control. To the empty center, everything is object, no more agent.
+				- Because the empty center has higher order than the circled center (with form, self),
+				- we practice relying on the empty center, the selfless obop, to let the crystal form be in contact with the formless content, so that it can be transformed easily.
+					- When a form collides with another form, it resists change by trying to preserve its own form.
+					- But when a form touches the content, it absorbs naturally, hence changes effortlessly.
+			- These practices are just skillful means that applies the truth into our own life.
+				- Without these skillful means, the self will still be destructed, the form and order will still be changed, but will take longer time and more sufferings.
 		- Thread theory of sound
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-07-28 Mon 15:44:46]
 		  :END:
-			- A [complex tone](https://en.wikipedia.org/wiki/Musical_tone) is like a bundle of [overtones](https://en.wikipedia.org/wiki/Overtone) (threads), and [pitch](https://en.wikipedia.org/wiki/Pitch_(music)) is the **greatest common factor** — the shared cycle.
-			- Just like ((66f40210-cca6-4d81-85e7-d0c54ef20451)) finds the deepest **common structure** in seemingly separate threads, the ear finds the deepest common cycle among frequencies — the perceived pitch. This is shown best in the complex tones [missing fundamental frequency](https://en.wikipedia.org/wiki/Missing_fundamental).
+			- A [complex tone](https://en.wikipedia.org/wiki/Musical_tone) is like a bundle of [overtones](https://en.wikipedia.org/wiki/Overtone) (threads), and [pitch](https://en.wikipedia.org/wiki/Pitch_(music)) is the **greatest common factor** – the shared cycle.
+			- Just like ((66f40210-cca6-4d81-85e7-d0c54ef20451)) finds the deepest **common structure** in seemingly separate threads, the ear finds the deepest common cycle among frequencies – the perceived pitch. This is shown best in the complex tones [missing fundamental frequency](https://en.wikipedia.org/wiki/Missing_fundamental).
 			- Đàn bầu is played soley with [flageolet tones (pinched harmonics)](https://en.wikipedia.org/wiki/String_harmonic), which is an advanced technique on other instruments like violin, guitar, etc.
-				- The sound is pure, glassy, and floating, because it's made entirely from string harmonics — no pressed tones. That’s why the đàn bầu sounds so “airy” and “spiritual”.
+				- The sound is pure, glassy, and floating, because it's made entirely from string harmonics – no pressed tones. That’s why the đàn bầu sounds so “airy” and “spiritual”.
 		- WAIT [long. ((67fcbbc6-915b-4d28-b9cf-098e916cdc86)) ⊥ ((67ed2855-1512-4db0-bc61-f714ea891106))] = [exp map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) [real ⊥ imaginary]
 		  id:: 67fe23f7-3afe-4e77-be1d-fa8a15416bc3
 		  collapsed:: true
@@ -158,7 +455,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  ⇒ resolve my delusion & fear of losing the works (sunk-cost fallacy)
 			- My momentum is harder than the massive object due to not only its depth but also my attachment to continuity, smoothnes, connectivity, integrity, and my scare of messiness, scattering, ignorance. This is again the ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))!
 			  id:: 685bb77c-4502-4261-a3a3-a726980d1a50
-				- My bro's rhetorical question echoes: 
+				- My bro's [rhetorical question](https://en.wikipedia.org/wiki/Rhetorical_question) echoes: 
 				  > Can you do it without understanding?!
 				- This scare has been from my childhood: due to my small memory, i must always tidy up everything, digest them, organize them tightly.
 				- And the attachment is due to my greed of getting everything!
@@ -271,7 +568,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- **Negative to Positive Flip in Etymology**: From "occidō" with negative senses (down, decline, death), it has been transformed to "occasio" with positive sense (opportunity).
 			- **Perspective Flip**: Something "falling from heaven" is a good opportunity for humans down on Earth. The closing outside, like a black hole or a closing of a day, is the opening inside, like a white hole or an opening of a night.
 			- **Convergence for Explosion**: The closing isn’t just a negative end (death, decline); it’s a convergence of conditions, like a sunset or a black hole collapsing externally, that sets the stage for an "explosion" of opportunity, like a sunrise or a white hole opening internally, a preparation for new beginnings (reborn, germination).
-			- **Transformative Technique**: This flip can be applied as a mindset—viewing a "closing" (e.g., a failure or end) not as a negative end but as a convergence point that prepares for a new "opening" (e.g., a fresh start or opportunity).
+			- **Transformative Technique**: This flip can be applied as a mindset – viewing a "closing" (e.g., a failure or end) not as a negative end but as a convergence point that prepares for a new "opening" (e.g., a fresh start or opportunity).
 		- From [logical “argument”](https://en.wikipedia.org/wiki/Argument) in philosophy to [“argument of function”](https://en.wikipedia.org/wiki/Argument_of_a_function) and then [“argument of complex number”](https://en.wikipedia.org/wiki/Argument_(complex_analysis))
 		  id:: 680b6063-e454-4cf6-835e-d6f726b8b871
 		  collapsed:: true
@@ -741,7 +1038,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- space: circle & view cone
 				- time: effect flow
 				- spacetime: interunion of effect circles mixes projective threads into compound thread
-			- The mixed object's content is projected through different view cones to different images (extents) by different intent circles ⭕. All obops are watching the object in parallel with their different interests (intents).
+			- The mixed object's content is [obop-projected](((68908fbd-acc3-41a6-8c38-17ee1f014223))) through different view cones to different images (extents) by different intent circles ⭕. All obops are watching the object in parallel with their different interests (intents).
 			- Pattern matching: The intent circle is the form to extract effect circle from the content, i.e. it is turned by the matched content.
 			- Analysis: The intent circle just hashes the content into its own distribution (connection & order).
 			- Organization: The intent sorts the content out into its knowledge cone.

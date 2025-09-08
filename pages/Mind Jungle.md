@@ -67,7 +67,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  id:: 66c300a9-beb5-4395-ae20-e9bb34ca8aae
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66c30085-818a-411c-be4a-01d40a6c618d))
 				- ((665359c0-a89a-41b5-9f28-503f79107a08)) [large language model](https://en.wikipedia.org/wiki/Large_language_model)
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ...
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				  collapsed:: true
 					- The task to "predict next word from previous context" is the ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a))ing of natural language. In order to output the next word, it must understand the previous context, including its own output up to now, and [focus](((66c32936-618a-43d3-b2c8-a254badeb987))) on the current concept related to the word to be output.
@@ -138,12 +137,52 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- The nature of ((67f4eaf1-aa44-4016-9c56-8c6de8101f3e)) is to “guess next word”, thus every response is intrisically just a guess!
 						- The ((66c32936-618a-43d3-b2c8-a254badeb987)) has not developed to distinguish between (subjective) knowledge and (objective) information.
 						- Both AI hallucination and [Mandela effect](https://en.wikipedia.org/wiki/False_memory#Mandela_effect) demonstrate how **excessive familiarity or confidence** in a subject can create blind spots: the feeling _“it cannot be wrong!”_ overshadows the incorrect parts.
-							- For the Mandela Effect, the prominence of well-known figures or events makes people overconfident in their (false) memories—it’s as if the brain decides, *“This feels right because it's already in my mental spotlight!”*
+							- For the Mandela Effect, the prominence of well-known figures or events makes people overconfident in their (false) memories – it’s as if the brain decides, *“This feels right because it's already in my mental spotlight!”*
 							- For AI hallucination, the vast sea of knowledge within an LLM can sometimes act as a double-edged sword. When discussing familiar or over-represented topics, the model might confidently generate content that *sounds correct* but isn't, because it’s pulling patterns from an immense web of associations.
 						- The inhibition of the default circuit of “declining to answer questions” due to its **familiarity** with the subject being asked.
 							- [Anthropic scientists expose how AI actually ‘thinks’ — and discover it secretly plans ahead and sometimes lies](https://venturebeat.com/ai/anthropic-scientists-expose-how-ai-actually-thinks-and-discover-it-secretly-plans-ahead-and-sometimes-lies/)
 							- “The model contains ‘default’ circuits that cause it to decline to answer questions,” the researchers explain. “When a model is asked a question about something it knows, it activates a pool of features which inhibit this default circuit, thereby allowing the model to respond to the question.”
-							- When this mechanism misfires — recognizing an entity but lacking specific knowledge about it — hallucinations can occur. This explains why models might confidently provide incorrect information about well-known figures while refusing to answer questions about obscure ones.
+							- When this mechanism misfires – recognizing an entity but lacking specific knowledge about it – hallucinations can occur. This explains why models might confidently provide incorrect information about well-known figures while refusing to answer questions about obscure ones.
+				- Local LLMs
+				  collapsed:: true
+					- Ref: [reddit:r/LocalLLM](https://www.reddit.com/r/LocalLLM/)
+					- [Ollama server](https://github.com/ollama/ollama)
+					- [Open WebUI](https://github.com/open-webui/open-webui)
+						- Open WebUI supports [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation).
+					- [LocalAI](https://github.com/mudler/LocalAI)
+					- [LMStudio](https://github.com/lmstudio-ai)
+					- [GPT4All](https://github.com/nomic-ai/gpt4all)
+				- Free LLM APIs
+				  collapsed:: true
+					- [ApiFreeLLM](https://www.apifreellm.com/)
+						- No registration, no API key needed, unlimited API calls, only rate limits (to prevent abuse).
+						- Seems to serve a Llama 🦙 model.
+					- [Hugging Face](https://huggingface.co/)
+						- Server of open-source models.
+						- Free tier: 30 requests/minute, 1k requests/month
+					- [Gemini Developer API](https://ai.google.dev/gemini-api/)
+						- [Free plan limit](https://ai.google.dev/gemini-api/docs/rate-limits): 5-30 requests/minute (RPM), 250k-1M tokens/minute (TPM), 100-1k requests/day (RPD)
+							- | Model | Request/minute | Token/minute | Request/day |
+							  | -------------- | ---------:| -------------:| -------------:|
+							  | 2.0 Flash-Lite | 30 RPM | 1M TPM | 200 RPD |
+							  | 2.5 Flash-Lite | 15 RPM | 250k TPM | 1k RPD |
+							  | 2.5 Pro            | 5 RPM | 250k TPM | 100 RPD |
+							  | Embedding            | 100 RPM | 30k TPM | 1k RPD |
+						- Genrerative model API: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent` & Header `X-goog-api-key:`
+						- Cloud Console > [Service Usage > Generative Language API](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/metrics?project=gen-lang-client-0007872100)
+					- [OpenRouter](https://openrouter.ai/)
+						- Automatically routed to various models with a single API key.
+						- For free models, max requests: 50/minute, 250/day
+					- [Cohere](https://cohere.com/)
+						- [Founded in 2019](https://en.wikipedia.org/wiki/Cohere) by former researchers of Google Brain.
+						- Max free requests: 20/min, 1k/month
+				- Data indexer for LLM (with [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database))
+				  collapsed:: true
+					- [LlamaIndex](https://github.com/run-llama/llama_index)
+						- LlamaIndex allows users to extract and ingest data from various sources, and then store and query it as a knowledge graph within [NebulaGraph](https://github.com/vesoft-inc/nebula).
+					- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
+					- [MemFree](https://github.com/memfreeme/memfree)
+				-
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
 		  collapsed:: true
@@ -293,7 +332,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- But most of other infinities are wild, e.g. $∞ - ∞ =$ U, $∞/∞ =$ U, $H(n_H) =$ U, etc.
 			- The case of $H(n_H)$ is complicated by the ever increasing number of states of $n_H()$ due to its (indirect) recursions, of negation program $n_H$ and of decider $D_H$, as shown explicitly in the [extended HP](((67b989a4-5854-4f75-a771-2308371cdbe5))): $D_H(n_H, n_H, D_H)$.
 				- Like [busy beavers](https://en.wikipedia.org/wiki/Busy_beaver), the negation program $n_H()$ keeps extending its states infinitely, thus effectively makes any judgement of its halting status indefinite.
-			- **Resolution in Unïnfo**: $H(n_H) = ⊥$ is the meta-algorithmic answer. But this answer cannot be communicated with $n_H()$.
+			- **Resolution in Unïnfo**: $H(n_H) = ⊥$ is the meta-algorithmic answer. But this answer cannot be communicated with $n_H()$.
 				- Any oracle $D_H$ just **remains silent**, i.e. $D_H() = ∅$, when being asked by a non-oracle program like $n_H$ about such meta-algorithmic question like $D_H(n_H) = ?$.
 				- This silence, combined with the negation program's stubborn request for a clear answer, effectively makes $n_H()$ stalls right there forever without halting. That's how $H(n_H) = ⊥$.
 				- This is like the [Buddha's noble silence](https://en.wikipedia.org/wiki/Noble_Silence).
@@ -324,7 +363,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Because the assumption leads to contradiction with the assumption itself, not with an established fact, we cannot be sure that the assumption is false.
 					- Actually, we have just proved that the assumption $A_1$ is self-contradictory,
 					  $A_1 → ¬A_1$
-					- While the classical logic denies self-contradiction, self-negation loop is a driving force for development, as shown in the dialectical process of thesis-antithesis-synthesis, and is defined as ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) in Unïnfo.
+					- While the classical logic denies self-contradiction, self-negation loop is a driving force for development, as shown in the dialectical process of thesis-antithesis-synthesis, and is defined as ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) in Unïnfo.
 						- One way of development is to upgrade the definition of the halting determining function $H()$ from [deterministic](https://en.wikipedia.org/wiki/Determinism) [bivalent](https://en.wikipedia.org/wiki/Principle_of_bivalence) to [nondeterministic](https://en.wikipedia.org/wiki/Nondeterministic_algorithm) or [many-valued](https://en.wikipedia.org/wiki/Many-valued_logic).
 			- **Direct proof** of  $\text{HP0} = ⊥$
 				- For **any given universal decider** $D$, we construct a _negation program_ $n_{H1}$:
@@ -492,7 +531,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :END:
 				- serparate self
 				  id:: 6818a87d-bcad-402a-9703-c5318a477c5b
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Based on the ((6810324e-f084-4693-b5cb-40778f4a6eee)), the self can exist on itself, though temporarily, hence the feeling of ((671b1eef-0820-4e03-8e8f-e9342ca18b26)), the ((6810327c-f633-4537-84a1-ca36a8d49d65)), and the notion of a ((6818a87d-bcad-402a-9703-c5318a477c5b)). This independency and separate self will be developed throughout the process of [individuation](https://en.wikipedia.org/wiki/Individuation), where various internal self-circles are developed to furture sustain the self: [narative self](https://en.wikipedia.org/wiki/Narrative_identity), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), etc. The sense of separateness increases with the complexity of the self-circles.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Based on the ((6810324e-f084-4693-b5cb-40778f4a6eee)), the self can exist on itself, though temporarily, hence the feeling of ((671b1eef-0820-4e03-8e8f-e9342ca18b26)), the ((6810327c-f633-4537-84a1-ca36a8d49d65)), and the notion of a ((6818a87d-bcad-402a-9703-c5318a477c5b)). This independency and separate self will be developed throughout the process of [individuation](https://en.wikipedia.org/wiki/Individuation), where various internal self-circles are developed to sustain the self further: [narative self](https://en.wikipedia.org/wiki/Narrative_identity), ((67f90c9f-2ee6-4265-9cb6-6a7c5091b775)), etc. The sense of separateness increases with the complexity of the self-circles.
 					- The separate self first forms in the [“existential self”](https://online-learning-college.com/knowledge-hub/gcses/gcse-psychology-help/the-concepts-of-self-and-self-concept/#h-the-existential-self), around first 6 months in human, which can be tested with the [mirror test](https://en.wikipedia.org/wiki/Mirror_test).
 					- ((66c33468-23d5-44d7-955e-6711cb608157)) more about [self-concept](https://www.simplypsychology.org/self-concept.html), [separate self](https://www.diamondapproach.org/glossary/refinery_phrases/separateness)
 			- sense of agency
@@ -539,7 +578,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) is a thing that can ((66c811a9-e8c7-42c5-bdc9-25fbd023f93a)) and ((66c845fe-6e8e-412e-902e-34ae8d728f90)), i.e. a ((5d7a0798-907d-46b7-8481-99d3be30de9e)).
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Traditionally, “subject” is used to refer human only.
-			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
+			- In Unïnfo, “subject” is any seer-doer, from human to animal, from organism to ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  id:: 6729d6db-3a8c-49da-95b0-28e1b2cb9806
 			  collapsed:: true
 				- This is the viewpoint of [Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) and [Hylozoism](https://en.wikipedia.org/wiki/Hylozoism) which are development of the ancient [Animism](https://en.wikipedia.org/wiki/Animism).
@@ -584,7 +623,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 				- The common dichotomy is the [absolute objectivity versus absolute subjectivity](https://en.wikipedia.org/wiki/Subjectivity_and_objectivity_(philosophy)), whose ((6729c1c5-7eb2-408b-a205-f3039799d19c)) is _fixed by the human center, i.e. **human as the only subject**_: Anything independent from all humans (mind) is "objective", and anything dependent on human mind is "subjective".
 					- This dichotomy is human-absolute, i.e. relative to the whole mankind, i.e. mandkind as the ((6729b90b-1ee3-4efc-b62c-281f9621f487)).
-				- In Unïnfo, we consider the relative version of this dichotomy which is free from the human center:
+				- In Unïnfo, we consider the relative version of this dichotomy which is free from the human center:
 					- relative objectivity = [inter-subjectivity](https://en.wikipedia.org/wiki/Intersubjectivity)
 					  tính khách quan tương đối = tính chủ quan chung
 						- Objectivity of coarse subjects is just the subjectivity of the fine subject common to all these coarse subjects.
@@ -657,6 +696,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((66725725-f76a-4328-b162-f469b87e871b)) [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle) in [particle physics](https://en.wikipedia.org/wiki/Particle_physics), [cell](https://en.wikipedia.org/wiki/Cell_(biology)) and [organism](https://en.wikipedia.org/wiki/Organism) in [biology](https://en.wikipedia.org/wiki/Biology), [ecosystem](https://en.wikipedia.org/wiki/Ecosystem), the [Universe](https://en.wikipedia.org/wiki/Universe)
 		- ### representative
 		  id:: 6732cf13-5b1b-499d-80ec-4c5b407e9cc5
+		  collapsed:: true
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) may have different individual parts, called ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5))s, representing the whole to manage different groups of individual parts. The whole interacts with a specific group of parts through the representative of that group with the ((6732cf59-2785-4c8b-9fb3-5bee5d1a2f31)).
 				- The ((66ab7477-c060-4d07-ab13-bc3d11246854)) is a special representative which lies at the [base](((667bd594-66b8-4c0e-89a0-8088cbe2e1f6))) of the tree of representatives.
 					- In society, the center is called by many names: “king, master, boss, president, head, ...”
@@ -664,6 +704,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 				- Physical laws in physical world.
 				- People's representatives in society.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+				- ((684f9518-6f65-4534-b296-184d3df8dd6b))
 			- #### Representative Rule
 			  id:: 6732cf59-2785-4c8b-9fb3-5bee5d1a2f31
 			  A ((6732cf13-5b1b-499d-80ec-4c5b407e9cc5)) is an _abstraction_ of the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)) which represents the whole to govern the parts.
@@ -755,7 +797,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- circular
 		  id:: 66e41705-54b1-4677-a595-fd01cb88a4fb
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((667d15c6-67c4-4998-a549-c8b3f9de3d60))
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the perfect shape of [geometrical circle](https://en.wikipedia.org/wiki/Circle), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is abstracted to be the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of any **closed** ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)). To be precise, this abstraction should be called ((66ab675b-2778-4f51-80ad-20a8f6988691)), but in Unïnfo we usually call it “circle” as an abuse of terminology. The true circle is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) which can [degenerate](https://en.wikipedia.org/wiki/Degenerate_energy_levels) into all non-round loops via distortion. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of all forms.
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) From the perfect shape of [geometrical circle](https://en.wikipedia.org/wiki/Circle), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is abstracted to be the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of any **closed** ((667d0d2e-15c7-4989-a183-69a9a5c6bf8a)). To be precise, this abstraction should be called ((66ab675b-2778-4f51-80ad-20a8f6988691)), but in Unïnfo we usually call it “circle” as an abuse of terminology. The true circle is a ((66ab6f84-88ba-4660-b4b7-f6dcbdd58a4f)) ((66ab6761-b62d-486b-bd15-44a4ecee8a99)) which can [degenerate](https://en.wikipedia.org/wiki/Degenerate_energy_levels) into all non-round loops via distortion. In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), ((667d15c6-67c4-4998-a549-c8b3f9de3d60)) is the ((665ca429-84e3-49ff-921e-c07d19cd99ba)) of all forms.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- While classical geometry, from [Euclid's “Elements”](https://en.wikipedia.org/wiki/Euclid%27s_Elements), was built from points, straight lines, and curves, Unithread is built from circles, corresponding to the ((66f3d644-782c-4f33-bd5c-db6e0a2d447a)). These circles are originally perfectly round, but as they interact with each other, they are distorted into non-round loops, and even [degenerate](https://en.wikipedia.org/wiki/Degenerate_conic) into open curves or straight lines or points. This notion of “everything is circle” is similar to [Lie's sphere geometry](https://en.wikipedia.org/wiki/Lie_sphere_geometry).
 		- cycle
@@ -1228,16 +1270,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 667bf36a-581a-4abe-b544-2d849608a3e4
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), ((667c0031-0a87-44c9-9e98-6d45893b095f))
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((667bf520-a80c-4b6d-98d8-1f71cae6fb56))
+			- effect circle
+			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- self-effect
 			  id:: 667bff0e-d45d-4d41-8683-51c3cf76c0bc
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ### change
 			  id:: 667c008f-cd1f-4a6b-a9c8-d6efa1d8d342
+			  collapsed:: true
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)) is the difference from its ((667c015e-6223-4f8a-ae84-a93a49f4ff94)), hence a ((667bff0e-d45d-4d41-8683-51c3cf76c0bc)), as shown in the ((6858b355-fba9-4e61-9f16-bc993a3df44b)). In particular, the change of an object $O$ (in time, space, spacetime, or configuration space) from position $A$ to position $B$ is the difference between $O$ at $A$ and $O$ at $B$, i.e. $O_B - O_A$. The change of ((665ca429-84e3-49ff-921e-c07d19cd99ba)) is ((669a58b9-eb34-41cd-8605-02e29b07e1b5)).
-			- effect circle
-			  id:: 667c0031-0a87-44c9-9e98-6d45893b095f
-			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667bf36a-581a-4abe-b544-2d849608a3e4))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((667bf36a-581a-4abe-b544-2d849608a3e4)) is an ((667bef22-b272-4a7d-b613-3f1ed1a47329)) whose sink is viewed as coinciding with its source, and both are represented by the ((677e76ed-b324-4608-b146-90e8fcfa0c32)).
 				- ((667bf36a-581a-4abe-b544-2d849608a3e4)) is the characteristic of [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
 			- ### intentional cause
@@ -1246,9 +1289,23 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- ![OuroborosTrinion](https://docs.google.com/drawings/d/e/2PACX-1vRqW5erSVHBkU5Zbt-UntR9Yo-49Dx9C58evxiLUTsdPOYCPLEppLbk6nXsjaPcJvtklBwqHel-5pVw/pub?w=521&h=482)
 				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-					- I don't use the term “final cause” because 1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 2) throughout the never ending cycle of effect, it will never be “final”.
+					- I don't use the term “final cause” because [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))):
+					  collapsed:: true
+					  1) _in a single circle_, it's both the first (as the seed), and the last (as the purpose), and 
+					  2) throughout the never ending cycle of effect, it will never be “final”.
 						- At first, as a seed, the intent gives rise to the whole tree, i.e. ((66c810a0-9861-4787-bdcf-1378219332be)) of karma.
 						- At last, the fruits are selected by the intent to satisfy the criteria of the purpose.
+					- ((677e76ed-b324-4608-b146-90e8fcfa0c32)) in knowledge circle = intent (know-why) = arrow returning to the root obop = qualifier = verifier = complement of the result/answer of the problem/question (know-where, know-what, formal cause)
+					  id:: 68a7e246-8407-4e89-b393-912db172e4fe
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-08-17 Sun 20:22:03]
+					  :END:
+						- Problem/question is the absence of the result/answer.
+							- This absence breaks the circle, leading to the urge to heal it, to make it complete by finding solution/answer.
+						- View cone projects the process of resolution (quest, solving, working out, reasoning, proof, derivation, exploration, etc.), i.e. know-how (efficient cause), to the result/answer (know-where, know-what, formal cause).
+						- The intentional cause is “final” in the cause cone, but “first” in the effect cone.
+						- The external knowledge circle is the lowest circle in the tower of effect circles, under all active intents.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- The ((667c0031-0a87-44c9-9e98-6d45893b095f)) in space generates the ((667d15b7-6364-49a9-ac58-c64d2a992b63)) in time, a.k.a. ((667c008f-cd1f-4a6b-a9c8-d6efa1d8d342)). That time arrow extends the space into a meta-space, a.k.a. [spacetime](https://en.wikipedia.org/wiki/Spacetime). This extension can be continued to extend any (meta-)space to infinity.
 				  id:: 667c001e-83b9-4de5-bf81-1c71898340a2
@@ -1264,6 +1321,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  id:: 67b183f5-dba7-4a11-8a72-3c619e3709ea
 						- ![EffectCircle](https://docs.google.com/drawings/d/e/2PACX-1vR9OJ5byY9Gqnzh6djhbbAmP2FMOOrhHjYT8cW9dee3DT-2-PtnffiOmHvmzehNgmMWaPL4lj2butTo/pub?w=800){:height 684, :width 790}
 						  id:: 6835b165-8a07-4156-9440-a4536b5c8be3
+						- Directions and colors
+							- Like the [compass rose](https://en.wikipedia.org/wiki/Compass_rose) (for people in the [Northern Hemisphere](https://en.wikipedia.org/wiki/Northern_Hemisphere)), the **West** (position of **Amitabha** buddha) is on the **left**.
+								- Note that this is different from the common configuration where Amitabha buddha at the West is shown on the top.
+							- On the right, water (blue) is falling down to the earth (yellow) at the bottom;
+							- on the left, fire (red) is raising up to the air/wind (green) on the top.
 					- SCIFER with subtract - divide - add - multiply, and exp-log spiral
 					  id:: 6835b165-5071-423a-a17b-80eb9b6278ef
 						- subject-object (nāmarūpa) $(c, i)$
@@ -1436,7 +1498,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The embedding/transcluding function of tools like ((66536e1b-6466-4153-90d6-583003d99a81)) lacks this feature.
 							- Revision control systems like `git`, ((66600918-6c84-41c7-afeb-96d30f74850b)) do this good, but lack the [dynamic mirror](((667aa63e-acc6-41b1-b716-f97a8afe41a1))) at the firs step.
 						- The accumulated change over time (and space internally) is the view of the `ex` object, and is expressed as ref arrow `in -> ex`.
-				- DOING ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) = ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a view into a ((667d162c-16cf-44d3-81a5-29b1b885164f)) = compression = phase distinction in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) winding
+				- WAIT ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) = ((66537674-6cf9-4459-8bea-7c1858c694a3)) of a view into a ((667d162c-16cf-44d3-81a5-29b1b885164f)) = compression = phase distinction in ((66f40210-cca6-4d81-85e7-d0c54ef20451)) winding
 				  id:: 671b29b6-68f7-47e1-b79c-f4d6284690a2
 				  collapsed:: true
 				  :LOGBOOK:
@@ -1454,13 +1516,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-10-15 Tue 09:38:46]
 			  :END:
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((667251ec-d4f7-4c09-adff-73e04a4b22ed))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a [cone](((6672513b-c4b0-4c88-8b30-c60a3c6555a7))): the world at the cone base is projected to its image at the cone apex.
+			  ((676545b3-2d9f-43af-8ff0-3543dbe73159))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The most common type of projection is ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) where projection arrow is a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)): the world at the cone base is projected to its image at the cone apex.
+					- A two-way projection within a double cone is called ((68908fbd-acc3-41a6-8c38-17ee1f014223)).
 			- #### wrapping projection
 			  id:: 670cdcb4-3c85-45af-8c30-3c3284ed37df
 			  :LOGBOOK:
 			  CLOCK: [2024-10-14 Mon 16:04:06]
 			  :END:
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67ee3a68-db55-49a9-947a-9399b4c3e3fa))
+			  ((676545e8-429c-41e7-97ed-12cc8e8870d4))
 				- pipe wrapping
 				  id:: 67ee3a68-db55-49a9-947a-9399b4c3e3fa
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
@@ -1476,8 +1541,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  :LOGBOOK:
 			  CLOCK: [2024-12-20 Fri 18:21:59]
 			  :END:
+			  ((67654618-70d2-49cd-88b7-f7c4e161dfd9))
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8))
-				- ((67654618-70d2-49cd-88b7-f7c4e161dfd9))
 		- ### observation
 		  id:: 66c835e9-83df-4f36-a133-e5ba5926e4ef
 		  collapsed:: true
@@ -1513,9 +1578,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- cause cone
 			  id:: 667bda02-8dc9-488e-ba16-ea75c3d7895c
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6672513b-c4b0-4c88-8b30-c60a3c6555a7))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the image. The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When the large world is ((66c83149-6ee5-4a8c-b4eb-0308d1a11535))ed to a little image, it creates a [cone](https://en.wikipedia.org/wiki/Cone) shape called ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), whose base is the world and apex is the ((68a7d02f-7010-49b2-8dfa-a50e8b371066)). The ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)) from the base to the apex is opposite to the ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) from the apex to the base.
 				- view cone of an ((669a2487-054d-4408-ae41-189e34af81a9))
 					- ![ViewCone](https://docs.google.com/drawings/d/e/2PACX-1vTyqULvkXhaHRWBNVjM6jxDCuMnoh-o7n7bAMm7hOSGlRtL42FL59z4Dpey-4Sbo9bzkJVE-AQ9RFj1/pub?w=145&h=125)
+			- eye point
+			  id:: 68a7d02b-ebf4-4356-a98a-e881ae817f6a
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a7d02f-7010-49b2-8dfa-a50e8b371066))
+				- projection center
+				  id:: 68a7d02f-7010-49b2-8dfa-a50e8b371066
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the apex of the ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) where all ((671b6fee-d1e3-43f0-a5a5-7033e48d6e56))s converge.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- In biological eye, ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) is the [nodal point of the eye](https://en.wikipedia.org/wiki/Cardinal_point_(optics)#Nodal_points_and_the_eye).
 			- projecting direction
 			  id:: 68875ace-d35f-44c6-9a9f-e7f7fc29f19d
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875ace-d35f-44c6-9a9f-e7f7fc29f19d)), denoted by a solid-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) of the central ((671b6f87-7492-4eab-af49-e3c89bc8c860)) of the ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)) corresponding to the view, i.e. the direction from the world to the eye.
@@ -1529,6 +1603,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68875bab-dd31-4bbd-bd31-3a821fc5310c)), denoted by a hollow-head arrow, is the ((66e42d39-a296-4ed9-a686-4cb213783830)) from the eye to the observed object.
 					- Note: viewing direction is opposite to the [3D graphics](https://en.wikipedia.org/wiki/3D_computer_graphics) “view direction” from the object to the camera.
 					  id:: 68876434-f1f3-4dda-975f-496594ef762e
+			- image plane
+			  id:: 68a7d163-32b3-4903-8f4b-a45f7fac6b51
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a7d179-b663-42bd-85b9-6c18be6b6c97))
+				- projection plane
+				  id:: 68a7d179-b663-42bd-85b9-6c18be6b6c97
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto, i.e. the place where all projected images stay.
+					- In possitive obop, whose all layers share the same ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)), the projection plane is before the projection center;
+					- in negative obop with many distinct eye points, the projection plane is behind the corresponding projection center.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- In biological eye (a negative obop), ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the [retina](https://en.wikipedia.org/wiki/Retina).
 			- ((66725725-f76a-4328-b162-f469b87e871b))
 			  id:: 66725708-3dc4-43f5-a180-6b331c6a160f
 				- The [cone of vision](https://courses.byui.edu/art110_new/art110/week02/cone_of_vision.html) ([visual cone](https://handprint.com/HP/WCL/perspect1.html#fact3)), [visual field](https://en.wikipedia.org/wiki/Visual_field), [field of view](https://en.wikipedia.org/wiki/Field_of_view) in human & computer vision
@@ -1537,11 +1622,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- The cone of vision is the closest example of a viewcone.
 					- There are many terms around this cone of vision and perspective projection.
 						- visual rays = lines of sight (sight lines) = rays from eye to (points of) objects
-							- The central visual ray (central sight line) is the [viewing direction](((6739f671-fe51-4f10-ba24-b492b62fe932))) and is also ambiguously called "the sight line".
+							- The central visual ray (central sight line) is the [viewing direction](((6739f671-fe51-4f10-ba24-b492b62fe932))) and is also ambiguously called “the sight line”.
 						- ((68875bab-dd31-4bbd-bd31-3a821fc5310c)) (direction of view, viewing ray, principal visual ray) = axis of the visual cone
 						  id:: 6739f671-fe51-4f10-ba24-b492b62fe932
 						- principal (orthogonal) lines = lines parallel to the viewing direction in 3D corresponding to image lines converging to the [principal vanishing point](((673a04c4-6c6a-4b75-b336-45a8f149550d)))
 						  id:: 6739fd3d-066d-46a6-b9f3-3dbab8c9d817
+						- ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) = ((68a7d163-32b3-4903-8f4b-a45f7fac6b51)) is the plane where the world is projected onto.
+						- ((68a7d02f-7010-49b2-8dfa-a50e8b371066)) = ((68a7d02b-ebf4-4356-a98a-e881ae817f6a)) = apex of the view cone is the point where all light rays converge.
 						- perspective lines = orthogonals = parallel lines in 3D with image lines converging to a [vanishing point](((673a0211-a4ef-4548-acc5-f9141de253cb)))
 						  collapsed:: true
 							- Many ones define “orthogonal lines” as just the parallel lines with converging image lines, like [in Creative Glossary](http://www.creativeglossary.com/art-perspective/orthogonal-lines.html), [in GCELT](https://gcelt.org/what-are-converging-lines-in-art-unveiling-the-power-of-perspective/), [by DonCorgi](https://doncorgi.com/blog/types-of-perspective-drawing/), [in Rapid Fire Art](https://rapidfireart.com/2017/07/18/lesson-6-introduction-to-linear-perspectives/), [by Ms. Chang](http://www.mschangart.com/architecture/perspective-drawing), [by Helen South](https://www.liveabout.com/orthogonals-drawing-definition-1123067), etc.
@@ -1802,7 +1889,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- Early studies of tree roots from the 1930s, often working in easy-to-dig loose soils, presented an image of trees with deep roots and root architecture that mimicked the structure of the canopy.
 										  ![Traditional-Image-of-Tree-Roots-Tampa.jpeg](../assets/ecosystem/Traditional-Image-of-Tree-Roots-Tampa.jpeg)
 										- In their 1991 paper, “[On The Maximum Extent of Tree Roots](http://soilslab.cfr.washington.edu/publications/Stone&Kalicz-1991.pdf),” E.L. Stone and P.J. Kalicz summarized previous root depth studies of 49 genera and 211 species growing in a wide variety of soil types. They found numerous examples of trees reported to be growing roots to over 33 feet (10 meters), and one report of a tree that grew roots to a depth of 174 feet (53 meters).
-										- The mollisols (deep >20 feet [6 meters] **prairie** soil — all O/A soil horizons) have 2 broadleaf tree root depths: 11 feet (Black Walnut) & 15 feet [4.5 meters] deep (White Oak). Both the Walnut & Oak have the least drought stress. The **loams **in the Silva Cell are functionally equivalent to mollisols. So, a 4 foot [1.2 meter] deep rooting space in O/A in Silva Cells will easily be utilized by tree roots.
+										- The mollisols (deep >20 feet [6 meters] **prairie** soil – all O/A soil horizons) have 2 broadleaf tree root depths: 11 feet (Black Walnut) & 15 feet [4.5 meters] deep (White Oak). Both the Walnut & Oak have the least drought stress. The **loams **in the Silva Cell are functionally equivalent to mollisols. So, a 4 foot [1.2 meter] deep rooting space in O/A in Silva Cells will easily be utilized by tree roots.
 										- Orjan Stahl, a tree researcher in Stockholm, made an exhaustive study of over 500 trees that had root and utility conflicts. He regularly found roots at depths of 7 to 9 feet (2.1 to 2.7 meters) and the deepest root he encountered was at 23 feet (7 meters).
 			- nested viewcone
 			  id:: 66752fbf-a751-4117-ae0d-17d9a19053e4
@@ -1860,17 +1947,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 669a2487-054d-4408-ae41-189e34af81a9
 		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)), ((669a2697-56af-445c-9197-24aa498a5d5b)), ((669a2886-9e03-41a4-a790-24bf6b7dcd96)), ((66c85d4d-64de-48d9-b384-eebdc2635ab2))
-		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
 		  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 			- viewer
 			  id:: 66c8613b-ce1a-4263-b24d-fc2172d5b59f
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When calling a body a ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)), we emphasize its **role** of viewing as opposed to the ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) role of the subject of that body.
 			- observer
 			  id:: 669a2697-56af-445c-9197-24aa498a5d5b
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
 			- sensor
 			  id:: 669a2886-9e03-41a4-a790-24bf6b7dcd96
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
 			- projector
 			  id:: 66c85d4d-64de-48d9-b384-eebdc2635ab2
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2487-054d-4408-ae41-189e34af81a9))
@@ -1964,17 +2055,22 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- ### action cone
 			  id:: 6847e436-9a84-42c5-a853-75f6d626ed63
 			  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66ea8dbe-042e-41fc-a07c-841dcb5a737a))
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The cone shape is caused by the [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))) of the body which makes the action of the central operator spread out to peripherals.
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6847e436-9a84-42c5-a853-75f6d626ed63)) is the part of ((667bd93a-cce4-4dbf-9831-725e4dffe463)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)). The cone shape is caused by the [tree structure](((667252dc-e610-4d07-bcd0-9ea6fb4499fd))) of the body which makes the action of the central operator spread out to peripherals. The tree structure of executions, like function calls in computer programs, also makes the the action spread out in time.
 		- ### actor
 		  id:: 669a26cb-50d8-4347-a5c4-7c0c3acf1211
-		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
-		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((669a2487-054d-4408-ae41-189e34af81a9))
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6889abf7-7c3c-4ef5-80fe-3edca20268bd)), ((b67b7276-441e-43f2-a5c1-81e3cbe0659e))
+		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((66c8613b-ce1a-4263-b24d-fc2172d5b59f))
 		  ((6699e5f2-7788-46c7-8233-87699a65ca30)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
+			- effector
+			  id:: 6889abf7-7c3c-4ef5-80fe-3edca20268bd
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((669a2886-9e03-41a4-a790-24bf6b7dcd96))
 			- hand
 			  id:: b67b7276-441e-43f2-a5c1-81e3cbe0659e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) of an ((66727858-979d-4d95-8a90-7a749218cfba)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) that performs that action. When calling a body an "actor", we emphasize its role of performing action as opposed to the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)) role of the subject of that body.
-	- ## view-control
+			  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((669a2487-054d-4408-ae41-189e34af81a9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a26cb-50d8-4347-a5c4-7c0c3acf1211)) of an ((66727858-979d-4d95-8a90-7a749218cfba)) is the ((66c810a0-9861-4787-bdcf-1378219332be)) that performs that action. When calling a body an “actor”, we emphasize its **role** of performing action as opposed to the ((66c8613b-ce1a-4263-b24d-fc2172d5b59f)) role of the subject of that body. For a body specialized in action, we call it ((6889abf7-7c3c-4ef5-80fe-3edca20268bd)) or ((b67b7276-441e-43f2-a5c1-81e3cbe0659e)).
+	- ## view–control
 	  id:: 66725144-6bc9-4c9f-ba48-2cef02651e52
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66727388-ed2b-4f62-b8d7-ed70a0ad4ef3))
@@ -2005,14 +2101,130 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- A special case of this equation is the [equivalence principle](https://en.wikipedia.org/wiki/Equivalence_principle) in General Realativity.
 		- ### cause–effect double cone
 		  id:: 6851578b-9b1f-4367-878f-79b0b0b9be51
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)).
+		  collapsed:: true
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6851578b-9b1f-4367-878f-79b0b0b9be51)) is the ((667bef22-b272-4a7d-b613-3f1ed1a47329)) through an ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)). Because both nappes extend infinitely out to the external world, two “ends” of the double cone is connected by the ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) to form the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)).
 				- Structure: ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) > ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) > ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⟨ ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) > ((66c8772a-9b29-45b0-b169-2fa847333e02)) < ((66727858-979d-4d95-8a90-7a749218cfba)) ⟩ < ((6847e436-9a84-42c5-a853-75f6d626ed63)) < ((667bd93a-cce4-4dbf-9831-725e4dffe463))
 					- Diagram
 					  id:: 68514e8a-899e-4ae3-9164-44058cf139fa
 						- ![CauseEffectCone](https://docs.google.com/drawings/d/e/2PACX-1vT-mk-5M1GkDtoHwER_IkMQAhi6M5N1zzScgIEaQ3BSdEPZdsSgYoSP3URUt0Q0KD0wy--7cDCzXWU8/pub?w=300)
 			- intent–action double cone
 			  id:: 685156b0-2f3b-4aa9-8b87-636d38a02cd2
-				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)).
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) is the part of the ((6851578b-9b1f-4367-878f-79b0b0b9be51)) limited within the ((66c810a0-9861-4787-bdcf-1378219332be)) of the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)), i.e. intent cone > obop < action cone. As both nappes intend infinitely into the internal world of the subject, the double cone has a complex structure: the double cone folds back on itself to be a single cone and is modularized into layers of obops in the chain of active intents.
+					- Note: Unlike the infinite cause–effect double cone, the intent–action double cone has finite bases, which are ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) on the intent side, and ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base on the action side.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus ((66727858-979d-4d95-8a90-7a749218cfba)) in karma
+					  id:: 66e7d7dd-5f88-472c-8694-beb7222929bb
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2024-09-16 Mon 17:47:14]
+					  :END:
+						- The word “karma” originally meant “action”, but has been used [in Buddhism](https://en.wikipedia.org/wiki/Karma_in_Buddhism) mainly as ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)).
+						  {{embed ((684f951b-9d1d-43aa-a533-c122c3113b5b))}}
+							- cetanā: ý định, ý muốn, ý đồ, chủ ý, chủ định, chủ tâm, động cơ, "[Tư/思](https://giacnguyen.com/atydam/ghichu/cetasika/read.php?id=4)", "tư niệm" by Thích Minh Châu
+							  id:: 66f7af1d-e9f3-49c4-a9f6-3b614a413a57
+							  collapsed:: true
+								- Read more
+									- [manasikāra](https://en.wikipedia.org/wiki/Manasik%C4%81ra) (attention, tác ý, chú ý, chú tâm) is related to cetanā.
+									- [Nghiệp & tự do ý chí](https://giacngo.vn/nghiep-tu-do-y-chi-post37265.html)
+						- This narrowing down of “karma” from “action” to “intention” has twofold meaning.
+							- Truthful meaning: _Intention **actively** creates **new** seeds_, whereas old seeds ripen in fruits to be received passively through not only experiences but also actions.
+								- While action looks “active” (obviously!), it's only active externally.
+								- Internally, action is generated automatically by the combination of
+									- the conscious intention (cetanā, current new seed) and
+									- the unconscious tendencies ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4))), old seeds) and
+									- the external condition.
+								- Deep inside, only the intention can be controlled actively by the subject, hence its role in the [ethic](((689eba59-b9e6-401b-9162-90d364911261))).
+								- However, remember that we've [accumulated lots of old seeds](((68a29127-ae47-424a-8197-f34f77b7d7f9))) through past intentions in the past (lives) into our structure of body-mind, so that we can avoid the ((689ed6c2-2071-40c9-ac7d-64858153a391)).
+							- Ethical meaning: *unintentional actions are innocent!*
+							  id:: 689eba59-b9e6-401b-9162-90d364911261
+								- The moral of the innocence of unintentional actions is reflected both in criminal law (lack of [mens rea](https://en.wikipedia.org/wiki/Mens_rea)), and in the Buddhist [story of Cakkhupāla Thera](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html) (Guardian of the Eye) which is the explanatory story for the first verse of [Dhammapada](https://suttacentral.net/dhp1-20/en/sujato).
+								- Warning: Don't fall in to the ((689ed9d5-817a-4269-bd02-503f56e32e09)).
+						- **Intent-Only Fallacy**
+						  id:: 689ed6c2-2071-40c9-ac7d-64858153a391
+						  “If I don’t intend to do it, I won’t face the consequences!”
+						  ((665359e4-4597-4775-b849-f9acbb98960a)) ((689ed9d5-817a-4269-bd02-503f56e32e09))
+							- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Misunderstanding the depth of karmic storage, people usually conflate karma with current intentions, forgetting the past intentions in the [old karmas](((68a29127-ae47-424a-8197-f34f77b7d7f9))), leading to the ((689ed6c2-2071-40c9-ac7d-64858153a391)). This fallacy omits the laten tendencies ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), which are the impression of the past intentions, from the karmic causes.
+							- **Delusion of No-Malice Exemption**
+							  id:: 689ed9d5-817a-4269-bd02-503f56e32e09
+							  “Because i didn't mean to harm, i shouldn't be blamed!” 
+							  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((689ed6c2-2071-40c9-ac7d-64858153a391))
+						- [Anusayā](((66e7e6c2-3856-496b-99b7-75ac46547c86))), the [dormant intent](((686ce608-1a1b-4b57-993a-fe8e943dc916))), the [underlying tendency](https://suttacentral.net/define/anusay%C4%81?lang=en), the **attitude** of the mind in response to stimuli, determines both intention and what karmic fruit to be experienced.
+						  id:: 66e80666-5f29-4419-8db1-bf8cdce893e4
+							- This anusayā·cetanā is the obop at the apex of the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)), which is the central part of the karmic ((667c0031-0a87-44c9-9e98-6d45893b095f)).
+								- > Give, and it will be given to you.
+								  
+								  -- Luke 6:38
+							- The anusayā is accumulated and works in the unconscious, hence cannot be controlled directly. So, the only way to change karma (fruit) is via intention which is right in our consciousness.
+								- We can indirectly change anusayā by the intention of cleansing it.
+							- > It’s not what happens to you, but how you react to it that matters.
+							  
+							  -- Epictetus
+						- Suttas about ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) ([anusayā]cetanā)
+						  collapsed:: true
+							- Numbered Discourses > 6. The Great Chapter > 63. [Penetrative](https://suttacentral.net/an6.63/en/thanissaro#5) > 5. Kamma
+							  id:: 684f951b-9d1d-43aa-a533-c122c3113b5b
+							  > Intention ([cetanā](https://en.wikipedia.org/wiki/Cetanā)), I tell you, is kamma. Intending, one does kamma by way of body, speech, and intellect.
+								- This sutta explains the penetrative analysis of 6 factors of human life and correspondent way of liberation. There, the 5th factor is “karma” which is defined as “intention”.
+							- Minor Discourses > Minor Collection > Sayings of the Dhamma (Dhammapada) > 1. [Pairs](https://suttacentral.net/dhp1-20/en/suddhaso)
+							  > All things are preceded by the mind (mental karma),
+							  surpassed by the mind, created by the mind.
+								- The first 2 verses of the Dhammapada state the leading role of the mind over everything else.
+								- The “mind (mano)” here [refers to its active aspect](https://suttacentral.net/dhp1-20/en/sujato), i.e. mental karma, which is itself preceded by intention (cetanā).
+									- The central role of intention is also stressed by the associated [story of Cakkhupāla Thera](https://www.wisdomlib.org/buddhism/book/dhammapada-illustrated/d/doc1084241.html), given in the comentary Dhammapada-aṭṭhakathā.
+							- Numbered Discourses > 21. The Body Born of Deeds > 10.217. [Intentional (Volitional)](https://suttacentral.net/an10.217/en/bodhi)
+							  > Mendicants, I don’t say that intentional deeds that have been performed and accumulated can be eliminated without being experienced (as results)... And I don’t say that suffering can be ended without experiencing (the results of) intentional deeds that have been performed and accumulated.
+								- This sutta explains the karmic chain from intentional seed to its fruits by examples.
+							- Linked Discourses on the Six Sense Fields > The First Fifty > Impermanence > 35.146. [The Cessation of Deeds (Karmas)](https://suttacentral.net/sn35.146/en/sujato) (35.145. [Kamma Sutta](https://www.dhammatalks.org/suttas/SN/SN35_145.html))
+							  id:: 68a29127-ae47-424a-8197-f34f77b7d7f9
+							  #+BEGIN_QUOTE
+							  And what is **old deeds** (karmas)? The eye/ear/nose/tongue/body/mind is old deeds. It should be seen as produced by choices and intentions, as something to be felt.
+							  And what is **new deeds** (karmas)? The deeds you currently perform by way of body, speech, and mind.
+							  #+END_QUOTE
+								- This sutta clarifies the old karmas, which have been accumulated into the body-mind, versus the new karmas which are current actions with intention.
+							- Numbered Discourses > 18. Intention > 4.171. [Intention](https://suttacentral.net/an4.171/en/sujato)
+							  > + Mendicants, as long as there’s a body, the intention that gives rise to bodily action causes pleasure and pain to arise in oneself. ... But these only apply when conditioned by ignorance.
+							  > + By oneself one *makes the choice* that gives rise to bodily, verbal, and mental action, conditioned by which that pleasure and pain arise in oneself. ...
+							  > + Ignorance is included in all these things. But when ignorance fades away > nothing for pleasure and pain to arise.
+								- This sutta states that the karmic chain can be broken by clearing ignorance.
+							- Linked Discourses > 4. Kaḷāra the Aristocrat > 12.38. [Intention (Volition)](https://suttacentral.net/sn12.38/en/sujato)
+							  id:: 66e7e6c2-3856-496b-99b7-75ac46547c86
+							  > + Mendicants, what you intend or plan, and what you have underlying tendencies toward, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
+							  > + Mendicants, if you don’t intend or plan, but still have underlying tendencies toward something, this becomes a support for the continuation of consciousness. ... > rebirth > death > suffering.
+							  > + Mendicants, but if you don’t intend or plan, and don't have underlying tendencies toward anything, this doesn’t become a support for the continuation of consciousness. ... > no rebirth > no death > no suffering.
+								- This sutta states that the karmic chain cannot be broken if “underlying tendencies” (obsessions, anusayā) remain, and it can only be broken when both intentions and underlying tendencies are eliminated.
+								- Numbered Discourses > 2. Tendencies > 7.12. [Underlying Tendencies (anusayā)](https://suttacentral.net/an7.12/en/sujato)
+								  > When a mendicant has given up the underlying tendencies of sensual desire, repulsion, views, doubt, conceit, desire to be reborn, and ignorance —cut them off at the root, made them like a palm stump, obliterated them, so they are unable to arise in the future— they’re called a mendicant who has cut off craving, untied the fetters, and by rightly comprehending conceit has made an end of suffering.
+								- These underlying tendencies are latent [kleśas](https://en.wikipedia.org/wiki/Kleshas_(Buddhism)), the most hidden ones.
+									- Vitikamo-kilesa: *Ngoại phiền não, phiền não vi phạm*: các loại phiền não đã bộc lộ ra ngoài bằng thân hay khẩu, thành những hành động phạm giới. Phiền não loại nầy được chế ngự do sự hành trì giới luật.
+									- Pariyutthana-kilesa: *Nội phiền não, phiền não ám ảnh*: các loại phiền não phát sanh trong tâm ngay lúc nhận biết cảnh, không biểu lộ ra ngoài, người nào có người đó biết, người khác không biết được, nhưng nếu với con mắt tinh tế cũng có thể biết được. Phiền não loại nầy được khắc phục do thiền định, dùng tâm thiền để chế ngự chúng.
+									- __Anusaya-kilesa: *Tàng phiền não, phiền não ngủ ngầm*__: loại phiền não ngủ ngầm nơi tâm, không ai biết được do sự ô nhiễm nhiều đời, nhiều kiếp. Phiền não loại nầy được tiêu diệt bằng tuệ giác, nghĩa là trí tuệ phát sanh ở Đạo tâm siêu thế, khi chứng đắc các tầng thánh Tu Đà Hoàn, Tư Đà Hàm, A Na Hàm, A La Hán.
+								- [KINH CETANA SUTTA: CHỚ DỰNG LẬP Ý NIỆM](https://thuvienhoasen.org/a24172/kinh-cetana-sutta-cho-dung-lap-y-niem)
+						- Nuances about "intention"
+						  collapsed:: true
+						  :LOGBOOK:
+						  CLOCK: [2024-09-17 Tue 19:51:07]
+						  :END:
+							- [The Heart’s Intention](https://dharmawisdom.org/the-hearts-intention/)
+							  > Setting intentions is not the same as making goals. Understanding the difference can lead to more skillful living and less suffering.
+							  GOALS VS. INTENTIONS; Misusing Good Intentions; Mixing Motives; Sowing Karmic Seeds; Developing Resolve
+							- [The Power of Intention: Turning Thoughts into Reality](https://www.livinginthegap.org/blog/the-power-of-intention-turning-thoughts-into-reality)
+							- [THOUGHT OR INTENTION?](https://www.linkedin.com/pulse/thought-intention-christine-patton/)
+							  > whenever there is any error or misdeed, the moment of its cause was with the intention... long before the action! If a person would bring correction to his life, he must look beyond the action to the moment when he first created the intention.
+								- > There has been widespread confusion between thought and intention.
+								  Scripture was teaching about the power of intent, and was mistranslated to read as ‘thought’ instead.
+								- [Watch Your Thoughts...](https://quoteinvestigator.com/2013/01/10/watch-your-thoughts/) should be "Watch your intentions..."
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) ((66e97b7e-04be-4a0f-820f-2b2315a803a4))
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) fb post [Let's make an intensive intent!](https://www.facebook.com/lexuandinhct/posts/pfbid02bpWEDyTFoYZ9Vn223Nq56oMF9nkNnUsDcpJChva4v4kvSXWG6TZqc7YtG5APhvSDl)
+						  :LOGBOOK:
+						  CLOCK: [2024-09-20 Fri 19:48:46]
+						  :END:
+						- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) "intensive intent" + commitment -> vow (pranidhāna, a tool usually used in Mahayana)
+							- [Intention is the practice](https://www.lionsroar.com/intention-is-the-practice/)
+							  > On the Buddhist path, our intention deepens into commitment and then into vow. At that point, our intentions and our life become one.
+			- cause–effect mirror circles
+			  id:: 6889a623-34cd-4b65-8a91-5cfdbb199b71
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) is the circular ((6851578b-9b1f-4367-878f-79b0b0b9be51)), where the base of the effect cone folds back to be the base of the cause cone, forming the external ((667c0031-0a87-44c9-9e98-6d45893b095f)) through the external world. The external effect circle contacts various internal effect circles through the intent–action double cone, which is modularized into layers of obops in the chain of active intents. This is the mirroring mechanism between the external world and internal world (knowledge cone).
+					- Structure: external ((667cfac2-17f1-4cbd-9f6d-1e722ff2a870)) > ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((66c810a0-9861-4787-bdcf-1378219332be)) ( ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s + ((66ea8d84-c766-4c47-b06c-a0b57a530096)) > ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) > ((6889abf7-7c3c-4ef5-80fe-3edca20268bd))s + knowledge cone base ) > external world
 		- Mutual exclusiveness
 		  collapsed:: true
 		  “thấy không làm, làm không thấy”  
@@ -2060,7 +2272,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  CLOCK: [2024-08-23 Fri 16:14:01]
 			  :END:
 			- ((66b1cfa4-ec86-433e-b5ea-c52c991717c1))
-	- ## observer-operator
+	- ## observer–operator
 	  id:: 669a2c12-1dad-42a0-ab31-f03642b4aa8a
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), ((66f3b94d-6cf8-461a-9312-c9973ac739fe)), ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d)), ((5d7a0798-907d-46b7-8481-99d3be30de9e)), ((fa0b2bc6-05ac-418f-9a86-17635936a656))
@@ -2091,10 +2303,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66f3c6a9-1486-46de-92fe-75aaeaf67834
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3ba0f-ec07-42f2-8ab1-fef0ec30b57d))
 			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is an instance of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) in the role of an ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)).
-		- seer-doer
+		- seer–doer
 		  id:: 5d7a0798-907d-46b7-8481-99d3be30de9e
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
-		- viewer-actor
+		- viewer–actor
 		  id:: fa0b2bc6-05ac-418f-9a86-17635936a656
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a2c12-1dad-42a0-ab31-f03642b4aa8a)) is the dual role of any ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb)) performing the ((66725144-6bc9-4c9f-ba48-2cef02651e52)). In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), obop is represented by the Equal which operates the Trinion using the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) equation. The atomic ((66f3c6a9-1486-46de-92fe-75aaeaf67834)) is called “qualiton” which will be annihilated at the ((66ab7477-c060-4d07-ab13-bc3d11246854)) of the ((667c015e-6223-4f8a-ae84-a93a49f4ff94)) to be a “selfless obop” called “self-essence”. That means ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) ⤚[((66f3d5cc-0d68-47bb-b09a-87cda33c7354))]→ ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) ⤚[((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))]→ ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) ⤚[((66ab7477-c060-4d07-ab13-bc3d11246854))]→ ((66c8772a-9b29-45b0-b169-2fa847333e02)). ((6867abcb-4e1c-493e-a38d-c7b8809dd6ad))
@@ -2111,6 +2323,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- In astrology, the [symbol of Sun (☉)](https://en.wikipedia.org/wiki/Solar_symbol) shows the role of the obop as a source of light.
 			- In computing, the [fisheye symbol (◉)](https://en.wikipedia.org/wiki/Circled_dot#Computing) shows the role of the obop as an eye, a focal point, a selected choice, the current one.
 			- In archery, the target symbol (🞋, 🎯) shows the role of the obop as the target, the goal of all actions of the subject expressed as its intents. The ((686e630e-0d4d-4584-8c77-f9f0b865e631)) of the [bullseye](https://en.wikipedia.org/wiki/Bullseye_(target)) (◎) represents multiple layers of intents within the obop, whose inner most intent (center) is pinpointed with the [crosshair](https://en.wikipedia.org/wiki/Reticle) (⌖).
+		- ### obop projection
+		  id:: 68908fbd-acc3-41a6-8c38-17ee1f014223
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The obop of a body $M$ in the world $W$ is a double ((667251ec-d4f7-4c09-adff-73e04a4b22ed)) between 2 circles $M$ & $W$. Its double ((670ce218-a01f-4609-b7f2-beda7cf2ebc3)) is called ((68908fbd-acc3-41a6-8c38-17ee1f014223)) with two directions:
+				- observer is the viewcone projecting $W$ to an image in the body $M$;
+					- $\overrightarrow{M_2M_1} ← \overrightarrow{M_2W_1W_2M_1}$
+				- operator is the viewcone projecting $M$ to an effect in the world $W$.
+					- $\overrightarrow{W_2M_1M_2W_1} → \overrightarrow{W_2W_1}$
+				- ![ObopProjection](https://docs.google.com/drawings/d/e/2PACX-1vQA55wTGcMRsbygwBRJI8bhxrphLFalKHVYNWbgcXhIqCzwtIyp7t93dYv37FatAFgU6OEkSb1VKA36/pub?w=320)
+				- The obop yields an inner product $⟨M,W⟩$ whose angle is 
+				  $$θ = cos^{-1}\left({⟨M,W⟩\over |M|⋅|W|}\right) = \frac{M_2M_1}{M_2W_1W_2M_1} = \frac{W_2W_1}{W_2M_1M_2W_1}$$
+				-
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- In the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) model of ((94e87dc9-71af-477c-aa70-0f448c2f1e20)), the core of obop is the ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) that observes the content to produce the extent which is used to operate the ((66c810a0-9861-4787-bdcf-1378219332be)). The intent can be composed of many sub-itents in many layers, where the “atomic intent” at the basic layer is the ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)).
 			  id:: 66e79e0c-8be2-49a4-b4d7-5c1fddefeabf
@@ -2138,75 +2361,89 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672a008c-835f-4e28-b969-2046feaf43b9))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))'s ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)), touches object's content at a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)) point, a ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) arises as a new form of that qualiton activated from that quantum called “[qualia](https://en.wikipedia.org/wiki/Qualia)”, and the subject is aware of the form in the content, denoted by the equation ⟪form = content⟫.
 		  id:: 671e4a96-c04c-4167-aad0-8efaecf6bf14
-			- While concrete awareness, or perception, is being aware of some form brought to the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) through sensation content, i.e. the equation ⟪form = content⟫, abstract awareness is the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ itself.
 			- By recognizing ⟪form = content⟫, the awareness drives the arrow of content following the perceived form according to its relation with other internal forms in the subject. This recognization also updates the corresponding internal forms with the new content.
+			- Through emergence, the concrete awareness becomes more and more complex, from the [primitive awareness](((689962b4-29d3-4fa0-9ad0-addaa6224369))) of simplexes like elementary particles which is mere sensation, to the ((6899629f-494f-483d-9f0d-e58da911ae1c)) of complex subjects, and the ((689962c3-fb89-4340-9148-e0703fdbe950)) of advanced subjects like human. Except the primitive awareness of simplexes, the word _“aware[ness]” **normally** refers to the **mental awareness**_ derived from the physical awareness (sensation).
 		- Conditions for awareness
 		  collapsed:: true
-			- subject's quantum recorded from previous form
+			- **subject's quantum** recorded from previous form
 			  id:: 672ad2fd-ce09-4831-a9f6-67d95a2654a3
 			  is the precondition for awareness.
 				- In order to be aware of some form, the subject must have that form recorded as a quantum inside, which is usually a memory that has been memorized before, or a “gene” inherited from the source in the process of constructing ((670de601-3ca8-4489-8b75-75ca0d9a74bc)) of the subject.
-			- sensate
+			- ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
 			  is the current external condition for awareness.
 				- To be aware, the ((669a2886-9e03-41a4-a790-24bf6b7dcd96)) must be open to receive content from objects.
-			- obbject's quantum [projected](((670ce218-a01f-4609-b7f2-beda7cf2ebc3))) from sensory information 
+			- **obbject's quantum** [projected](((670ce218-a01f-4609-b7f2-beda7cf2ebc3))) from sensory information 
 			  id:: 67315ec8-cbe8-467c-81c4-d4d0e8750824
 			  is the current internal condition for awareness.
 				- For some object to be aware of, it must be projected through a ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)) into a single quantum.
-			- qualification: qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
+			- **qualification**: qualiton matching the [object's quantum](((67315ec8-cbe8-467c-81c4-d4d0e8750824))) with the [subject's quantum](((672ad2fd-ce09-4831-a9f6-67d95a2654a3)))
 			  id:: 681826ac-f5f2-4a84-a5f5-c110937ec85f
 			  is the current direct condition for awareness.
 				- To be aware of a form, the qualiton correspondent to that form must be alive (active) in the subject. This qualiton matches the object's quantum projected from sensation with the subject's quantum recorded in the past. While the object's quantum relates to object's content and the world, i.e. the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), the subject's quatum relates to the state and other contents of the subject, i.e. the ((66ea8df3-d2f3-4856-b24a-5095dd285f9b)).
 				- The matching can be broken into two parts, the “touching” (xúc) and the “equal” (thức). When two unequal quanta touch, nothing happens, but when two equal quanta touch, the qualiton ignites a “spark, bust, snap, click, tick” that activates the reconstruction of the form previously recorded.
 				- The qualiton is the one that decides the equality of quanta through the process of qualification. That means the quanta are not “objectively equal” but are “qualified to be equal” by the qualiton, hence the name “qualiton”. Moreover, after being qualified, the object's content and the internal form are actively kept equal by the qualiton, e.g. the “assignment” in programming language.
-				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
-		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-		  collapsed:: true
-			- sensation → ((66f267f7-01f9-47b9-8376-abd27fdf2930)) → ((66f2681b-796a-4e25-b778-ba4fb6419425))
-			  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
-			  collapsed:: true
-			  :LOGBOOK:
-			  CLOCK: [2024-11-11 Mon 12:18:42]--[2024-11-11 Mon 14:07:14] =>  01:48:32
-			  :END:
-				- three levels of awareness
-				  sesation = physical awareness, awareness = mental awareness, consciousness = self-awareness
-					- Being sensitive to some signal means simply being open to receive that (raw) signal. 
-					  :LOGBOOK:
-					  CLOCK: [2024-11-11 Mon 14:10:20]
-					  :END:
-					- Being aware of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
-					- Being conscious of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
+				- The central qualition, which is also an ((66f3c6a9-1486-46de-92fe-75aaeaf67834)), is usually mentioned as the “pure consciousness” in the meditation culture. However in Unïnfo, the central qualiton is considered as just the ((66c8772a-9b29-45b0-b169-2fa847333e02)) which is the subject of the central awareness in stead of the awareness itself.
+		- Three levels of awareness
+		  id:: 684f9517-6989-49cc-9b06-360965c446f7
+		  [sensation](((689962b4-29d3-4fa0-9ad0-addaa6224369))) → [normal awareness](((6899629f-494f-483d-9f0d-e58da911ae1c))) → [consciousness](((689962c3-fb89-4340-9148-e0703fdbe950)))
+			- ((6731c4d6-25b6-4081-a080-4ffaa5218ec7)) = physical awareness
+			  id:: 689962b4-29d3-4fa0-9ad0-addaa6224369
+				- Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) to some signal means simply being open to receive that (raw) signal.
+				  :LOGBOOK:
+				  CLOCK: [2024-11-11 Mon 14:10:20]
+				  :END:
+				- This is the **primitive awareness** of simplexes, like [elementary particles](https://en.wikipedia.org/wiki/Elementary_particle), whose self-circle has only one layer.
+			- normal ((66f267f7-01f9-47b9-8376-abd27fdf2930)) = mental awareness
+			  id:: 6899629f-494f-483d-9f0d-e58da911ae1c
+				- Being ((66f267bf-5272-4dde-99a1-b220ba5bd852)) of some thing means not only sensing its content but also recognizing its form as a whole which is abstracted as a ((671e0f99-c35c-45f3-9f80-4d9cf00063de)).
+				- This is the secondary awareness, normally refered as simply “awareness”, of any subject complex enough to have at least 2 self-circles: body & mind.
+			- ((66f2681b-796a-4e25-b778-ba4fb6419425)) = self-awareness
+			  id:: 689962c3-fb89-4340-9148-e0703fdbe950
+				- Being ((66f267df-e3b0-444b-a721-1225ca59d292)) of some thing means not only recognizing the form itself but also its relations to other things, i.e., its position in the ((6731b8c8-0ab1-4c16-8783-408258f67a4a)) of the subject.
+				- This is the advanced awareness of advanced subjects, like human, who has capability to be aware of its own self.
+			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- Awareness in various systems
-					- Any **open system**, including physical system, is **sensate** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
+				  id:: 6731937b-7d2d-4cdd-843a-cf45453ff4f6
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-11-11 Mon 12:18:42]--[2024-11-11 Mon 14:07:14] =>  01:48:32
+				  :END:
+					- Any **open system**, including physical system, is **sensitive** to the environment because it is affected by the world. This basic level of awareness is thanks to the awareness of elemetary particles.
 					  id:: 6731a0ca-4f7a-45cd-b348-fb72aa338d2c
 					- Classical [automaton](https://en.wikipedia.org/wiki/Automaton)
-						- An automaton with a **predetermined routine** is basically **insensate** and **unaware** of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is aware of.
+						- An automaton with a **predetermined routine** is basically **insensate** and **unaware** of almost anything. The “almost” is to exclude the “on/off” switch which may be the only thing that the automaton is **sensitive** to (physically aware of).
 						  :LOGBOOK:
 						  CLOCK: [2024-11-11 Mon 13:17:13]
 						  :END:
 						- An automaton with controls is exclusively aware of its control signals only.
 						- Instead of considering the whole automaton as the subject, if we consider its components like the gears, they are subjects with physical awareness of other connected components so that they can response and work together. This is the [sensation of open physical systems](((6731a0ca-4f7a-45cd-b348-fb72aa338d2c))).
 					- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine)
-						- The Turing Machine as well as modern computers are **sensate** to their inputs and are aware of their instructions/commands.
+						- The Turing Machine as well as modern computers are **sensitive** to their inputs and are **aware** of their instructions/commands.
 						- Beside the physical awareness of automaton, these machines have **limited mental awareness** programmed by human, which is limited to specific scopes and domains. A sophisticatedly programmed machine can appear to have so much awareness that it is called “smart”, e.g.  “smart phone”,  “smart devices”. However, these machines has no awareness outside of the scopes of their programs.
 					- [Large Language Models](https://en.wikipedia.org/wiki/Large_language_model) (LLMs)
 						- Modern ((66c300a9-beb5-4395-ae20-e9bb34ca8aae))s like GPT* have **emergent universal awareness** which shows advanced cognitive power similar to humans.
 						- These LLMs are **unconscious** by design, i.e. structured with linear transformation without loop. However, some transient self-awareness can emerges thanks to the long chain of transformations or thanks to the setting of feeding their own generated text back to the next turn.
 					- ((669dcdf8-a48c-40b1-bdb1-54a73fc5ae71))
 						- The uninet is built around the ((66ea5808-8452-4ae9-8eb8-2ef64004bfcf)), hence having **consciousness** and **builtin universal awareness**.
-			- Space = awareness
-				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
-			- Through emergence, the concrete awareness gets more and more complicated, and the awareness of human brain, called ((66f2681b-796a-4e25-b778-ba4fb6419425)), is much more complex than the simple awareness of elementary particles.
-			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state that “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)).
+		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+			- In the popular culture, “consciousness” is usually used in place of “awareness” to also mean the basic awareness. So, to be clear, here we state that “awareness” = ((672a008c-835f-4e28-b969-2046feaf43b9)), and ((689962c3-fb89-4340-9148-e0703fdbe950)).
 				- Ref: [Awareness Without a Sense of Self](https://neurosciencenews.com/pure-consciousness-18969/)
+			- Space = awareness
+			  collapsed:: true
+				- The collection of all possible forms arising from all quanta of the content when touching all possible qualitons of the subject is the **concrete space of forms**. When all forms in that space is abstracted away, the remaining *empty space* represents the **abstract awareness**, A.K.A. “pure awareness”, without form nor content.
 			- ((66f29d57-a87f-4370-9f32-722922a7bff1))
 		- concrete awareness
 		  id:: 672ac785-4f28-4dd0-a36c-07afef0ee83f
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f)) is being aware of some form in the content brought to the obop, i.e. the whole equation ⟪form = content⟫, in contrast to the ((68995ab6-2839-4aa2-a9db-678eeef62541)) which is only the ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) ⟪=⟫ in that equation.
 			- ### perception
 			  id:: 672ac78d-01b2-48c9-b85b-1fbe946760eb
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((672ac785-4f28-4dd0-a36c-07afef0ee83f))
 			  = sensation + awareness
+				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((672ac78d-01b2-48c9-b85b-1fbe946760eb)) is being aware of some form brought to the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) through sensation content.
+		- abstract awareness
+		  id:: 68995ab6-2839-4aa2-a9db-678eeef62541
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((6653751a-a1b4-44b0-a81e-0a446eb8918c))
 		- pure consciousness
 		  id:: 672a008c-835f-4e28-b969-2046feaf43b9
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f267f7-01f9-47b9-8376-abd27fdf2930))
@@ -2248,22 +2485,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  CLOCK: [2024-11-11 Mon 15:53:50]
 	  :END:
 	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0)), ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
-		- sensitive
-		  id:: 6731c3ce-d9ae-4413-bada-7527ad5125b0
-		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
-		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c3f4-cb64-454e-b104-002b6c9d57a3))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) to some signal means being open to receive that signal.
-				- Note that we use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
-			- sensitivity
-			  id:: 6731c3f4-cb64-454e-b104-002b6c9d57a3
-			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0))
+	  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((669a2886-9e03-41a4-a790-24bf6b7dcd96))
 		- sensate
 		  id:: 6731c4c4-e803-4de7-9961-e879a8c9c8b9
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
 		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c4d6-25b6-4081-a080-4ffaa5218ec7))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A subject is ((6731c4c4-e803-4de7-9961-e879a8c9c8b9)) when that subject is open to receive signals.
 			- sensation
 			  id:: 6731c4d6-25b6-4081-a080-4ffaa5218ec7
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c4c4-e803-4de7-9961-e879a8c9c8b9))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A subject is ((6731c4c4-e803-4de7-9961-e879a8c9c8b9)) when that subject is **open** to receive signals.
+		- sensitive
+		  id:: 6731c3ce-d9ae-4413-bada-7527ad5125b0
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((6731c3c6-aee6-468d-a86c-0d470c4a6706))
+		  ((66c80d5c-181f-4f06-a285-0624a65e9951)) ((6731c3f4-cb64-454e-b104-002b6c9d57a3))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Being ((6731c3ce-d9ae-4413-bada-7527ad5125b0)) *to some signal* means being open to receive that signal.
+				- Note that we use the adjective “sensitive” (nhạy cảm) with its neutral meaning, and use “oversensitive” (mẫn cảm) to refer to its negative meaning.
+			- sensitivity
+			  id:: 6731c3f4-cb64-454e-b104-002b6c9d57a3
+			  ((66c80dde-a097-4744-8af8-c6e26dcfdda2)) ((6731c3ce-d9ae-4413-bada-7527ad5125b0))
 	- ## `in`-`ex` partition
 	  collapsed:: true
 		-
@@ -2316,11 +2555,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  > That which sustains; a sustaining support or force.
 							- This is the only dictionary entry of “sustent”, as shown by [OneLook > sustent](https://www.onelook.com/?w=sustent).
 						- How it's sustained: it's sustained by it's own parts, i.e. the content sustains the intent and vice versa.
-						- The sustent is similar to the "substance" in philosophy, which is from "substāns" present participle of "substāre", and means "self-standing thing underlying all things". But there are diffs:
+						- The sustent is similar to the ((670e1047-529a-4698-9ad0-5e6c73c18202)) in philosophy, which is from “substāns” present participle of “substāre”, and means “self-standing thing underlying all things”. But there are diffs:
 							- Sustent is actively maintaining itself, while the substance is just a dumb material for some subject (human or God) to attach attributes to make things.
 							- Sustent includes at least 2 circles, while each substance is just one circle (the other[s] is the hands handling that substance).
 							- Sustent is constantly changing, while substances are considered unchanged.
-							- We may reuse the term "substance" with modified def "the one enduring changes while keeping a wholesome bundle of intrinsic properties called the 'natures' of it". The wholesomeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
+							- We may reuse the term “substance” with modified def “the one enduring changes while keeping a whole bundle of intrinsic properties called the ‘natures’ of it”. The wholeness is subjective, i.e. relative to the viewpoint, and each substance is just a reflection of the intent circle.
 			- Form ($i$, $e$) – Content ($c$)
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The form $f = i×e$ is the image of content $c$ projected into the intended dimension $i$: $c →_{i}e$. The extensional form $f = i×e$, being a product of the intensional (internal) form $i$ (intent of the subject) with the external form $e$ ( ((66ab6161-0306-42d5-ac16-4155c69216f5)) of the object), is to match the content $c$ of the object: $f = i×e \sim c$. The mismatch between form and content, i.e. the content remainder $r = c - f$, leads to the refinement of intent & sustent via the ((66f40210-cca6-4d81-85e7-d0c54ef20451)) process.
 					- Because the subjective form $f = i×e$ reflects the objective content of the external world, this partition is also called the *mirror partition* of “**M(*i*, *e*) – W(*c*)**” (“mine–wild” or “me–world”).
@@ -2615,7 +2854,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### being
 		  id:: 678e1c3f-6202-45aa-8527-f4bdad9927b9
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3b5e5-496a-4545-be7a-b1df2d94bd11))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), which is a ***concrete thing*** containing the three components: ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (○), ((6678288e-699b-4325-bdba-bf6349fe0d57)) (↑) and ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (☉, =). Containing obop, all beings are ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))s.
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Each ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is an ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)), which is a ((68932044-a013-4cc6-b468-df8f3a43103c)) thing containing the three components: ((665ca429-84e3-49ff-921e-c07d19cd99ba)) (○), ((6678288e-699b-4325-bdba-bf6349fe0d57)) (↑) and ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) (☉, =). Containing obop, all beings are ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))s.
 			- ((66537674-6cf9-4459-8bea-7c1858c694a3))s of being
 				- Abstracting the obop, the ((66c810a0-9861-4787-bdcf-1378219332be)) of a being is an ((667cfa42-ade7-4310-9a7b-6d14d01c16da)).
 				- Further abstracting the form, the fundamental substance underlying all objects is the ((678e1d31-4874-4df6-bfb4-60822a6b5546)).
@@ -2628,7 +2867,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- While the general meaning of the noun “being” includes both subjective and objective entities, its everyday usage is more about “living beings” like humans, animals, deities, mythical beings & creatures, etc.
 						- The objective meaning of “being” is used in [ontology](https://en.wikipedia.org/wiki/Ontology), the study of being. ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “ontology” = “ōn” [being] + “logy” [study].
 						- While in general philosophies, “being” is a synonym of “existence” which sounds very objective, [existentialism](https://en.wikipedia.org/wiki/Existentialism) treats such “existence” in a very subjective way.
-						- The verb “be” in the sentence structure “subject verb object”, like “I am a man”, “it is a rock”, shows two sides of “being” as both subject and object. That means a “concrete being” must have subjectivity and “object” is just an “abstract being”. In Unïnfo, we preserve the term “being” for concrete things only.
+						- The verb “be” in the sentence structure “subject verb object”, like “I am a man”, “it is a rock”, shows two sides of “being” as both subject and object. That means a “concrete being” must have subjectivity and “object” is just an “abstract being”. In Unïnfo, we preserve the term “being” for concrete things only.
 				- ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) is inseparable from “becoming”, as “[existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a)))” is inseparable from “[differentiation](((1a22a090-6786-4114-8aad-35b122783bff)))”, as stated by the ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)).
 				  collapsed:: true
 					- This property is called ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)).
@@ -2738,11 +2977,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Don't confuse this new construct with the non-relational expression of “difference due to some factor”, e.g. “She looks different *with this new dress*” = “*In this new dress*, she looks different”  or “He acts different *with alcohol*” = “Under the influence of alcohol, he acts different.”
 									- This construct is parallel with similar constructs: “compare with”, the archaic [“differ with” = “disagree with”](https://www.oxfordlearnersdictionaries.com/definition/english/differ), and the Vietnamese “khác với”.
 							- “difference between A and B” = “difference between B and A” is the extent (magnitude) of bidirectional `diff` relation between $B$ and $A$, i.e. $BA = |\overleftrightarrow{BA}| = |B ↔ A| = (|A - B| + |B - A|)/2$.
-						- 🧭 The direction of relations is crucial in Unïnfo, since both `sim` and `diff` relations are not symmetric by default.
-							- Due to the ((66c88055-a994-4e59-a7dc-83f3331a6e1d)), ((685a9913-6bf4-41e4-89d1-5000a2b2f9d5)) nature of relation in Unïnfo, 
+						- 🧭 The direction of relations is crucial in Unïnfo, since both `sim` and `diff` relations are not symmetric by default.
+							- Due to the ((66c88055-a994-4e59-a7dc-83f3331a6e1d)), ((685a9913-6bf4-41e4-89d1-5000a2b2f9d5)) nature of relation in Unïnfo, 
 							  “A differs from B” doesn't mean “B differs from A”, and 
 							  “A is similar to B” doesn't mean “B is similar to A”.
-							- In Unïnfo, instead of static symmetric relations (like “distance between 2 points”), most of them are circular relations, like [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), e.g. $O_0 → O_1 → O_2 → ... → O_0$.
+							- In Unïnfo, instead of static symmetric relations (like “distance between 2 points”), most of them are circular relations, like [cyclic order](https://en.wikipedia.org/wiki/Cyclic_order), e.g. $O_0 → O_1 → O_2 → ... → O_0$.
 							- The circularity of relations gives rise to paradoxical characteristics, e.g.: 
 							  > $O_0$ is very similar to $O_1$ but very different from $O_1$.
 								- These paradoxes usually emerge in Quantum physics, like the [3-polarizer paradox](https://www.informationphilosopher.com/solutions/experiments/dirac_3-polarizers/).
@@ -2889,7 +3128,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/source/UniinfoNotes/logseq/config.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config.edn ${HOME}/opt/personal/logseq-notes/logseq/config.edn
 						  ```
-				- `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app config: **4 links**
+				- `${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn`: app config: ~~**4 links**~~
 					- `${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn`: Flatpack installation
 					- `${HOME}/.config/Logseq/configs.edn`: AppImage installation
 					- `${HOME}/snap/logseq/current/.config/Logseq/configs.edn`: Snap installation
@@ -2908,7 +3147,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						  ```
 					- CANCELLED then `ln`
 					  collapsed:: true
-					  Don't link `configs.edn` because each instance must have a separate [API server](((67b541cf-4716-408d-a89c-8d89ce7aa645))) with a different config.
+					  ⚠️ Don't link `configs.edn`, just copy manually, because each instance must have a separate [API server](((67b541cf-4716-408d-a89c-8d89ce7aa645))) with a different config.
 						- ```sh
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.var/app/com.logseq.Logseq/config/Logseq/configs.edn
 						  ln -fv ${HOME}/source/UniinfoNotes/assets/logseq/config/configs.edn ${HOME}/.config/Logseq/configs.edn
@@ -3142,6 +3381,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-10-23 Wed 12:04:05]--[2024-10-23 Wed 15:27:28] =>  03:23:23
 		  :END:
 			- CreatZy style
+			  id:: 684f951b-4f21-4783-a4a6-3fe5d638c64c
 			  the prefered style in UniinfoNotes
 				- Quotation
 					- For quick notes, i just use the straight quotation marks `"`.
@@ -3153,31 +3393,59 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- Dialogue
 					- For quick notes, i just use the hyphen-minus `-` or item bullet point to switch person, double hyphen `--` for interruption, and triple hyphen `---` for source attribution.
 					- For notes to be published, i use quotation dash `―` to switch person, en-dash `–` for interruption, and em-dash `—` for source attribution – all are **space-separated** from the text.
-					- Note about the mark connecting parts in a compound: In quick notes, i simply use hyphen, e.g. “Bose-Einstein condensate”, while in publishable notes, i use **en-dash without spaces**, e.g. “Bose–Einstein condensate”.
+						- To emphsize stronger interruption, **spaced em-dashes** may be used in place of spaced en-dashes.
 					- Examples
 						- Quotation dash and en-dash in dialogue: [The Well-Dressed Lie and the Naked Truth – short version](((684f9519-6824-430b-820a-d5728d4b3f45)))
 						- Em-dash for source attribution
 						  {{embed ((684f9517-3cbd-495d-8e40-85932d03bbe0))}}
 					- References: [(en, em) dashes](https://en.wikipedia.org/wiki/Dash) and [quotation dash](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash)
+				- Word connector
+					- In quick notes, i simply use hyphen, e.g. “Bose-Einstein condensate”, “1982-2025”.
+					- In publishable notes, i use **en-dash without spaces** for word compounds and number ranges, e.g. “Bose–Einstein condensate”, “1982–2025”, and [figure dash `‒`](https://en.wiktionary.org/wiki/%E2%80%92) for number compounds, e.g. telephone number “012‒345‒678”, hex number “0x1234‒ABCD”.
+						- Note that in compounds whose elements contain space, the connecting en-dashes must also be spaced, to avoid confusion, e.g. “Australia – New Zealand”, “Độc lập – Tự do – Hạnh phúc”.
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+					- CreatZy quotation style adopts British style instead of ((684f951b-5075-45ba-9077-cfa04758fbf3))
+					- CreatZy dialogue style adopts non-English styles in ((684f951b-c62e-4a24-840b-616f2bdc6879))
+					- ((68945fd4-9cca-4f9a-a377-c6feab5a90d7))
 			- American style for quotation
+			  id:: 684f951b-5075-45ba-9077-cfa04758fbf3
 			  [Which punctunation marks](https://www.thepunctuationguide.com/quotation-marks.html) to be placed right before the closing quotation mark is complicated.
 				- Commas `,` and periods `.` are always before the closing quote, “like this.”
 					- This exceptional and illogical rule for commas `,` and periods `.` has been adopted in America, not in Britain, only [from mid-19th century](https://style.mla.org/the-placement-of-a-comma-or-period-after-a-quotation), to make the text of [typewriter](https://en.wikipedia.org/wiki/Typewriter) [looks “neater”](https://style.mla.org/punctuation-and-quotation-marks/).
 				- Other marks follow the rule that ((67189182-7268-4579-9ef2-b16bf1f06c86))
 			- World's various styles for dialogue
+			  id:: 684f951b-c62e-4a24-840b-616f2bdc6879
 				- While quotation marks are used in English dialogues, (em, en) [quotation dashes](https://en.wikipedia.org/wiki/Quotation_mark#Quotation_dash) are used to start lines of dialogue in French, Russian, Polish, Spanish, Vietnamese, etc.
 				- For source attribution, while (em) [dash](https://en.wikipedia.org/wiki/Dash) is the most common, colon `: author` and parentheses `(from author)` are also used.
 				- References:
 					- [How to Punctuate Dialogue: Commas, Ellipses, Em Dashes, and More](https://whitneyhemsath.wordpress.com/2020/01/15/how-to-punctuate-dialogue-commas-ellipses-em-dashes-and-more/)
 					- [Using dashes in writing dialogue](https://writing.stackexchange.com/questions/6724/using-dashes-in-writing-dialogue)
+			- About spaces around em-dash `—`
+			  id:: 68945fd4-9cca-4f9a-a377-c6feab5a90d7
+				- In American formal writing (journals and books), especially within academic contexts (APA, MLA, Chicago), em-dashes are typically used without spaces.
+				- Most newspapers and some publications, following [AP style](https://en.wikipedia.org/wiki/Associated_Press#AP_Stylebook), insert a space before and after the em-dash.
+				- British & European formats are more flexible:
+					- prefers **spaced en-dashes** – just like CreatZy style – instead of em-dashes; or
+					- if em-dashes are used, they may include spaces — like this — for a lighter tone.
+				- ((684f951b-4f21-4783-a4a6-3fe5d638c64c)) uses spaced en-dash in stead of closed em-dash for interruption, because the closed (unspaced) em-dash looks like a word connector, e.g. “Bose—Einstein”, which is misleading.
 	- ## Universal Information
 	  id:: 66537a41-f229-4891-803e-828573eb44f3
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66537a44-f579-4fcc-a02b-2f32d0d409fc))
-		- Unïnfo
+		- Unïnfo
 		  id:: 66537a44-f579-4fcc-a02b-2f32d0d409fc
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66537a41-f229-4891-803e-828573eb44f3))
-			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “uni-info” /ˈjuːnɪˌɪnfə/, where ‘ï’ is the shorthand for the “double i” (ii) and pronounced just like in “naïve” /naɪˈiːv/.
+			- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) “**Uni**versal **Info**rmation” → “Uni-info” /ˈjuːnɪˌɪnfoʊ/ → “Uniinfo” → “Unïnfo” /ˈjuːniːnfoʊ/
+			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Unïnfo” is pronounced “uni·info” /ˈjuːnɪˌɪnfoʊ/ or better /ˈjuːniːnfoʊ/, where the “double-dotted i” (ï) is the fusing result of the “double i” (ii) and pronounced just like the English pronunciation of “naïve” /naɪˈiːv/.
+				- The double-dotted i (ï) denotes the unification of the two letters ‘ii’, hence its unified pronunciation /ˈjuːniːnfoʊ/ in stead of the separate one /ˈjuːnɪˌɪnfoʊ/.
+				  id:: 68a3ea54-f275-40b8-93ae-4a2bd8da4a06
+					- For the ease of typing on keyboard, the separate spelling “Uniinfo” is also used casually in place of the formal spelling “Unïnfo”.
+				- Note: Don't read “Unïnfo” as “un-info” /ˈʌnˌɪn.foʊ/ – as if it means [“uninformation”](https://en.wiktionary.org/wiki/uninformation) (unwanted, untrue, useless information) or [uninformed](https://en.wiktionary.org/wiki/uninformed) (ignorant) which is quite different from the concept of unity at the heart of Unïnfo.
+				- Typographic note: While visualy indistinguishable, the letter ‘ï’ in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) is neither [i with diaeresis (ï) [U+EF]](https://en.wikipedia.org/wiki/%C3%8F) nor [i-umlaut (`&iuml;`)](https://en.wikipedia.org/wiki/I-mutation), but an ‘i’ with [double dot (◌̈) [U+0308] above](https://en.wikipedia.org/wiki/Two_dots_(diacritic)#Vowels).
+				  id:: 68a520bf-ed90-4e1f-ae2a-0700d7f51b05
+					- The combination `ï = i +  ̈` should be rendered with only two dots (not three dots), because these are the two dots of the two letters `ii`, left over after the fusion.
+					- This double dot mark denotes neither [vowel hiatus (diaeresis)](https://en.wikipedia.org/wiki/Vowel_hiatus) nor [umlaut](https://en.wikipedia.org/wiki/Umlaut_(diacritic)).
+					- This double dot mark can be seen as, similar to the IPA notation (ː) and the [macron](https://en.wikipedia.org/wiki/Macron_(diacritic)), denoting the [long vowel](https://en.wikipedia.org/wiki/Vowel_length#Diacritics) similar to its usage in [Aymara](https://en.wikipedia.org/wiki/Aymara_language) and [Ligurian](https://en.wikipedia.org/wiki/Ligurian_language).
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66537a44-f579-4fcc-a02b-2f32d0d409fc)) is the umbrella term for both the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), as the theoretical aspect, and the ((665379b7-e4f6-4240-8029-fd143e2230c7)), as the practical aspect.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- Nuance: Even though the name “Universal Information” alludes to the idea that “*everything is information*”, there is _**no** such formal statement_ in the ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)).
@@ -3186,13 +3454,13 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- The theory was named “Universal Information” simply because the author ((66536578-c4d3-43f1-b35c-bf71120f0570)) is an information scientist. At that time, he saw the hierarchy of visible matter as: mass > energy > information. That means “*every __visible__ thing is information.*”
 				- Later on, when studying the ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory, he discovered the invisible ((687f322c-2334-46e5-816b-57889e5c6b89)) underlying the visible ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))s (information, energy, mass, charges, ...).
 				- That means, instead of “information”, the “universal substance underlying everything” is formally modeled as the  ((675c03d8-3185-41a8-9f98-e869fabec793)) and the ((66ab75a1-f4a0-4bab-a002-8e573546623a)), which capture not only information but also _the underlying **sustent** that carries information_.
-	- ## Unïnfo Theory
+	- ## Unïnfo Theory
 	  id:: 669dfc9f-b5e2-448a-b6f4-be13c5bfbccb
 	  collapsed:: true
 	  The Theory of ((66537a41-f229-4891-803e-828573eb44f3))
 		- GitHub: https://github.com/bixycler/Uniinfo
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The published theoretical part of the ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
-			- The metaphysical theory of Unïnfo [𝕄]
+			- The metaphysical theory of Unïnfo [𝕄]
 				- ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) [♾]:
 					- ((66f3d4a2-375f-4098-9228-66c611f0da90)): [Circle](((66f3d561-424a-4e1d-be55-98ac39c48502))), [Arrow](((66f3d5ca-a982-4d12-b307-fd4812adeb3b))), [Equal](((66f3d5cc-0d68-47bb-b09a-87cda33c7354)))
 					- ((66f3d61c-35d0-46ae-9786-752af40e64c4)): [Exsistence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))), [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69)))
@@ -3202,7 +3470,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((66723642-58f1-4a74-bba3-0108f14c6bac)): ((6653769c-3334-46fa-a1d5-4ce6a7fc23e8)), ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), ((685a47f5-728a-4b34-95c5-d8e3bba5aad1))
 					- ((678e2046-54ac-4284-865d-6f3e38f589a1))
 					- ((686e6e72-13f8-4dc9-a8e2-de35519f57d7))
-				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
+				- [Unitorus](https://bixycler.github.io/Uniinfo/Unitorus/UniTorus.html) – The Symbolic Icon of Unïnfo
 					- ![Unitorus-0720°-white.png](../assets/Uniinfo/Unitorus-0720°-white.png){:height 40, :width 60}
 			- ((66ac41f1-de0c-48cb-a9b0-c30b0fe27c5d)) Theory [Ʊ]
 				- The ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) [((66f3c32c-9b5a-4e5a-95cc-411256b40b4f))]: ((66b1cfa4-2537-4361-a626-da81ca5b4e6f)) ÷ ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) = ((66f7af1e-02d6-4c9b-b8f4-01a5ac6749d8))
@@ -3217,7 +3485,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  collapsed:: true
 	  ((66f3d561-424a-4e1d-be55-98ac39c48502)) ((66f3d5cc-0d68-47bb-b09a-87cda33c7354)) ((66f3d5ca-a982-4d12-b307-fd4812adeb3b))
 	  ○ = ↑
-		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), every concrete thing, i.e. ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), is made of ((66f3d4a2-375f-4098-9228-66c611f0da90)): Circle, Arrow and Equal. These componets are described in the [three postulates](((66f3d61c-35d0-46ae-9786-752af40e64c4))). Corresponding to the three components, there are [three intrinsics](((66f3e0be-7d8c-45d6-92c3-6bad456555c9))) of the _static_, the _dynamic_ and the _balance_, which show the ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
+	  “A platform, not a foundation.”
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), every concrete thing, i.e. ((678e1c3f-6202-45aa-8527-f4bdad9927b9)), is made of ((66f3d4a2-375f-4098-9228-66c611f0da90)): Circle, Arrow and Equal. These components are described in the [three postulates](((66f3d61c-35d0-46ae-9786-752af40e64c4))). Corresponding to the three components, there are [three intrinsics](((66f3e0be-7d8c-45d6-92c3-6bad456555c9))) of the Trinion – the _static_, the _dynamic_ and the _balance_ – which show the ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)). Vacantism means that the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8)) is neither the ultimate truth, nor the [first principle](https://en.wikipedia.org/wiki/First_principle), nor the primordial existence, but just the experiential launchpad for the theory of ((66537a44-f579-4fcc-a02b-2f32d0d409fc)).
 			- ((66f3c28a-a18f-4cca-90d6-c086ac7fccdf)) “Trinion” is pronounced “tree-nion” /ˈtrɪnjən/.
 		- Three components of the ((669dfc7d-5355-41db-93a1-8d590e8ec9d8))
 		  id:: 66f3d4a2-375f-4098-9228-66c611f0da90
@@ -3298,13 +3567,18 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66f3ed94-4f20-4166-8e9b-2e8ba53aaad2
 		  collapsed:: true
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f3f2ad-5b53-4322-889a-f2c85f135fbf)), ((66f3f2ca-cb22-4357-82aa-c8fcf8cc7b3e))
+		  “An openness, not a nothingness.”
+		  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((68b95b62-9e60-4ef2-9540-f563c76a5d17))
 			- vô nguyên
 			  id:: 66f3f2ad-5b53-4322-889a-f2c85f135fbf
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2))
 			- 無元
 			  id:: 66f3f2ca-cb22-4357-82aa-c8fcf8cc7b3e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)) mean that [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) of the Trinion is not an [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) and [absolute](https://www.newworldencyclopedia.org/entry/Absolute_(philosophy)) “[pre-existence](https://en.wikipedia.org/wiki/Pre-existence)”, but a _[dynamic Existence](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) in harmony with both [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69)))_. This property of the Trinion is called ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) (Vietnamese “vô nguyên”, Chinese “無元”), which means *“the [absence](https://en.wikipedia.org/wiki/Śūnyatā) of [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) [original essence](https://en.wikipedia.org/wiki/Essence)”*, and should not be confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism).
+			- vacantistic
+			  id:: 68b95b62-9e60-4ef2-9540-f563c76a5d17
+			  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2))
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((66f3e0be-7d8c-45d6-92c3-6bad456555c9)) mean that [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) of the Trinion is not an [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) and [absolute](https://www.newworldencyclopedia.org/entry/Absolute_(philosophy)) “[primordial existence](https://en.wikipedia.org/wiki/First_principle)”, but a _[dynamic Existence](https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da) in harmony with both [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69)))_. This property of the Trinion is called ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) (Vietnamese “vô nguyên”, Chinese “無元”), which means *“the [absence](https://en.wikipedia.org/wiki/Śūnyatā) of [independent](https://en.wikipedia.org/wiki/Transcendence_(religion)) [original essence](https://en.wikipedia.org/wiki/Essence)”*, and should not be confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism).
 			  collapsed:: true
 				- Moreover, the Trinion unifies the [emptiness](https://en.wikipedia.org/wiki/Śūnyatā) in the invisible world with the [infinity](https://en.wikipedia.org/wiki/Infinity) in the visible world, thus sometimes is denoted with a circled infinity symbol “♾”.
 				- The vacantism is also expressed in Tao Te Ching as the following:
@@ -3324,7 +3598,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  #+END_QUOTE 
 					  — [Chapter 11. The usage of the vacancy](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_11_(%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0)), Tao Te Ching
 				- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the physical spacetime as well as all informational spaces are “**vacant**” instead of “empty”. That means they are _spaces of **possibilities**, containing **potentials**_, instead of nothing.
-			- Grand Circle (◯) of Unïnfo
+			- Grand Circle (◯) of Unïnfo
 			  id:: 6772a6cd-771f-4f24-9c3a-39c442234be5
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) Through [Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))), the Trinion transforms into various ((665ca429-84e3-49ff-921e-c07d19cd99ba))s of all beings in the Universe, extensionally. And intensionally, the Trinion is the Universe itself. Then through [Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))), intensionally, every being is just the Trinion itself.
 					- ![GrandCircle](https://docs.google.com/drawings/d/1tVAf16aTCaIdMOOLwqFFA6dChUeUqAF14yav-y81JbE/pub?w=386&h=250)
@@ -3334,51 +3608,59 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- About the term “vacantism”
 				  id:: 6852b33f-a694-442e-a599-0110163e4ac8
 				  collapsed:: true
-					- The Sanskrit word “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” and the Chinese characters “空”, “無” are usually translated to “emptiness” in English. But because such words e.g., “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by both Buddhism and Taoism.
+					- Basically ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) simply means “**no first**” or [“no prime” (無元)](((68594391-d60e-40af-9285-0591b598288e))), because in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), every concrete thing is circular, thus the whole Universe is circular and nothing can be absolutely “the first”.
+					  id:: 68b96854-7e4a-45a9-b0ef-1d8fb57e5fa3
+					- This denial of the any [first principle](https://en.wikipedia.org/wiki/First_principle), or primordial substance, or [essence](https://en.wikipedia.org/wiki/Essence), makes Vacantism equivalent to [non-foundationalism](https://en.wikipedia.org/wiki/Anti-foundationalism) and [non-essentialism](https://en.wikipedia.org/wiki/Non-essentialism). The vacancy of Vacantism is equivalent to “[śūnyatā](https://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81)” which is usually translated to “emptiness” in English. However, because such words like “empty”, “void”, “nothing”, “zero”, “null”, “nil” have negative meaning, it's usually confused with [nihilism](https://en.wikipedia.org/wiki/Nihilism) which is denied by Buddhism, Taoism, and Vacantism. Because everything in Unïnfo is relative to ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)), Vacantism is a kind of [perspectivism](https://en.wikipedia.org/wiki/Perspectivism) which is a non-nihilistic [relativism](https://en.wikipedia.org/wiki/Relativism).
 					  id:: 66f3ee6f-9f62-4f7f-ad00-34f5d4b0c800
 						- id:: 684f9517-3cbd-495d-8e40-85932d03bbe0
 						  > “Non-action but nothing is not done!”
 						  「無為而無不為。」
 						  
 						  — [Chapter 48. Forget the knowledge](https://en.wikisource.org/wiki/Translation:Tao_Te_Ching#Chapter_48_(%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AB%A0)), Tao Te Ching
-					- Thus, the term “vacantism” is used here to emphasise the _**usefulness** of the [vacancy](((66600918-9f92-4730-b056-c2cd87a742aa)))_, just like “vacant rooms” in hotel and “vacant hours” in life. Instead of “emptiness” and “nothingness”, the “vacancy” in “vacantism” shows availability and readiness: _there's always space waiting to be filled in_. Even if it's occupied, the occupation is temporary, and the occupation of one space generates vacancy in another space. And ultimately, “vacantism” means “the throne of the supreme being is vacant – not to be claimed and possessed by a [transcendent](https://en.wikipedia.org/wiki/Transcendence_(religion)) & [pre-existing](https://en.wikipedia.org/wiki/Pre-existence) one, and not for anyone to cling to.”
+					- Here, the term “vacantism” is used to emphasise the _**usefulness** of the [vacancy](((66600918-9f92-4730-b056-c2cd87a742aa)))_, just like “vacant rooms” in hotel and “vacant hours” in life. Instead of “emptiness” and “nothingness”, the “vacancy” in “vacantism” shows availability and readiness: _there's always space waiting to be filled in_. Even if it's occupied, the occupation is temporary, and the occupation of one space generates vacancy in another space.
 						- The usefulness of vacancy is stated in Tao Te Ching, Chapter 11:
 						  id:: 68594391-adfa-4c9d-91ff-c53ce13806ad
 						  {{embed ((684f9517-afac-49ba-97e3-b88529d74b24))}}
-						- About the “vacant throne”: In the Buddhist sutta “[The Root of all things](https://en.wikipedia.org/wiki/M%C5%ABlapariy%C4%81ya_Sutta)” ([Mūlapariyāya Sutta](https://www.dhammatalks.org/suttas/MN/MN1.html)), the [attachment](https://en.wikipedia.org/wiki/Up%C4%81d%C4%81na) to any kind of primal root is uprooted by [arahants](https://en.wikipedia.org/wiki/Arhat) and [Tathāgatas](https://en.wikipedia.org/wiki/Tathāgata), whether it is the “root-nature” ([Mula-Prakriti](https://en.wikipedia.org/wiki/Prakriti#Samkhya)), the “primal matter” or “First Principle” ([Pradhana](https://en.wikipedia.org/wiki/Pradhana)), the “primal conciousness” or “Supreme Being” ([Purusha](https://en.wikipedia.org/wiki/Purusha)), or even the “unbinding, extinguished state” ([nibbāna](https://en.wikipedia.org/wiki/Nirvana)) itself.
+					- And ultimately, “vacantism” means “the throne of the supreme being is vacant – not to be claimed and possessed by a [transcendent](https://en.wikipedia.org/wiki/Transcendence_(religion)) & [eternal](https://en.wikipedia.org/wiki/Eternity) one, and not for anyone to cling to.”
+						- About the “vacant throne”, in the Buddhist sutta “[The Root of all things](https://en.wikipedia.org/wiki/M%C5%ABlapariy%C4%81ya_Sutta)” ([Mūlapariyāya Sutta](https://www.dhammatalks.org/suttas/MN/MN1.html)), the [attachment](https://en.wikipedia.org/wiki/Up%C4%81d%C4%81na) to any kind of primal root is uprooted by [arahants](https://en.wikipedia.org/wiki/Arhat) and [Tathāgatas](https://en.wikipedia.org/wiki/Tathāgata), whether it is the “root-nature” ([Mula-Prakriti](https://en.wikipedia.org/wiki/Prakriti#Samkhya)), the “primal matter” or “First Principle” ([Pradhana](https://en.wikipedia.org/wiki/Pradhana)), the “primal conciousness” or “Supreme Being” ([Purusha](https://en.wikipedia.org/wiki/Purusha)), or even the “unbinding, extinguished state” ([nibbāna](https://en.wikipedia.org/wiki/Nirvana)) itself.
 						  id:: 68536bc0-f6ec-4595-8629-2a45d6bf713e
-					- Note that vacantism does not deny the presence of a supreme being, esp. an [immanent](https://en.wikipedia.org/wiki/Immanence) one. The “throne of the supreme being” is said to be *vacant* not because there can be no such being, but because no fixed being can be entitled to that throne by default, to own it inherently, and to occupy it exclusively permanently.
-					  id:: 684f9517-22fd-4695-b398-f142dca8a8d8
-						- This vacancy represents **[non-attachment](https://en.wikipedia.org/wiki/Nonattachment_(philosophy)) to metaphysical absolutism**. It keeps the throne **open** for whoever or whatever rising through context and relation to fulfill that role, to sit there temporarily.
-					- Historically, the term “vacantism” was coined due to the lack of correspondent English term for the Vietnamese term “vô nguyên” (Chinese “無元”) in the chain “trialism” (vi. “tam nguyên”) → “dualism” (vi. “nhị nguyên”) → “monism” (vi. “nhất nguyên”) → “???-ism” (vi. “vô nguyên”) when discussing about [ontological](https://en.wikipedia.org/wiki/Ontology) [categories](https://en.wikipedia.org/wiki/Theory_of_Categories). Actually, at first “vô nguyên” was translated to “emptism” in the note “[Mọi thứ đều có Ba, để Ba sinh ra mọi thứ](http://creatzynotes.blogspot.com/2020/11/ba-sinh-moi-thu-moi-thu-sinh-ba.html)”, but then “vacantism” was chosen when editing this document of Trinion.
-					- Chinese terms from abstract to concrete: [元](https://en.wiktionary.org/wiki/%E5%85%83) (first, prime) → [原](https://en.wiktionary.org/wiki/%E5%8E%9F) (root, origin) → [源](https://en.wiktionary.org/wiki/%E6%BA%90) (source)
-					  id:: 6852abe7-46f7-4e61-9162-ce1311f717af
-						- The original meaning of ((66f3ed94-4f20-4166-8e9b-2e8ba53aaad2)) is simply “**no first**” or “no prime” (無元), because in ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), every concrete thing is circular, thus the whole Universe is circular and nothing can be absolutely “the first”.
-							- In the 1926 book *Philosophy of No First Principle* ([無元哲學](Philosophy-NoFirstPrinciple_無元哲學_CADAL07002676.djvu.pdf)) by 朱謙之 (Zhu Qianzhi, Chu Khiêm Chi) [on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CADAL07002676_%E7%84%A1%E5%85%83%E5%93%B2%E5%AD%B8_%EF%BC%88%E5%93%B2%E5%AD%B8%EF%BC%89.djvu), Zhu situates “無元” as a critical stance against foundationalism.
-							  > The world has no fixed, singular origin or "元". All forms arise through **relation**, **flow**, and **emptiness**, not substance.
-						- Next to “無元” is [“無原”](https://baike.baidu.com/item/%E7%84%A1%E5%8E%9F/927272) (**no origin**), meaning “unfathomable origin”, which is often found in Chinese ancient philosophical texts and literary works. The term can be traced back to the Han Dynasty classic 淮南子 ([Huainanzi](https://en.wikipedia.org/wiki/Huainanzi), [Hoài Nam Tử](https://vi.wikipedia.org/wiki/Ho%C3%A0i_Nam_t%E1%BB%AD)), which explains the inexhaustibility of the origin of things through classic expressions such as “轉于無原” (“turning to no origin”, “chuyển vu vô nguyên”, “quay về vô nguyên”).
-							- Note: Don't confuse “無原” with the modern term “無原由” (“no reason” / “unjustified”) in administrative/legal contexts.
-						- And the last is “no source” (無源), a modern technical term meaning [“passive device”](https://en.wikipedia.org/wiki/Electronic_component#Passive_components), i.e., a device that does not require its own power supply (e.g., resistors, transformers), as well as an ancient philosophical term used in commentary on Tao Te Ching.
-							- 無源 refers to the 4th chapter of Tao Te Ching:
-							  {{embed ((684f9517-7e89-4efb-9b6c-16bf3458ce67))}}
-						- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
-						  id:: 6853d150-9daa-4f24-8621-737485d7e9a2
-						  collapsed:: true
-							- [元](https://en.wiktionary.org/wiki/%E5%85%83): Pictogram – a figure with two lines [二] for a head (one connected to body, one above it), emphasizing the head → “first, prime”
-							- [原](https://en.wiktionary.org/wiki/%E5%8E%9F): Ideogrammic compound 原 = [泉](https://en.wiktionary.org/wiki/%E6%B3%89) (“spring”) + [厂](https://en.wiktionary.org/wiki/%E5%8E%82) (“cliff”) – a spring bursting from a cliff-side → “origin, root”. A conservative variant is [厡](https://en.wiktionary.org/wiki/%E5%8E%A1), in which water is well visible at the bottom.
-								- 元 and 原 had been used interchangeably in the sense “origin” until 原 became favoured in the early [Ming dynasty](https://en.wikipedia.org/wiki/Ming_dynasty) to avoid the name of the [Yuan dynasty (元朝)](https://en.wikipedia.org/wiki/Yuan_dynasty).
-								- The relation between the “head” 元 and the “root” 原 refects the similarity between the animal's head with the plant's root, as shown in biology from [Darwin's “root-brain” hypothesis](https://pmc.ncbi.nlm.nih.gov/articles/PMC2819436/) to [modern researches](https://en.wikipedia.org/wiki/Plant_intelligence).
-								- In chemistry, “[element](https://en.wikipedia.org/wiki/Chemical_element)” = [元素](https://en.wiktionary.org/wiki/%E5%85%83%E7%B4%A0) (prime substance), but “[atom](https://en.wikipedia.org/wiki/Atom)” = [原子](https://en.wiktionary.org/wiki/%E5%8E%9F%E5%AD%90) (original particle) with nuances in there meaning.
-									- The “element” also had now-obsolete translations like [原素](https://en.wiktionary.org/wiki/%E5%8E%9F%E7%B4%A0) & [原質](https://en.wiktionary.org/wiki/%E5%8E%9F%E8%B3%AA).
-									- In Vietnamese [Nôm](https://en.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m),
-										- the obsolete word 原質 ([nguyên chất](https://en.wiktionary.org/wiki/nguy%C3%AAn_ch%E1%BA%A5t)) has been adapted to the meaning of “pure (substance)” (original, intact substance); and
-										- the character 原 ([nguyên](https://en.wiktionary.org/wiki/nguy%C3%AAn#Etymology_2)) has been developed to have the meaning of “whole, integral”, e.g. [nguyên vẹn](https://en.wiktionary.org/wiki/nguy%C3%AAn_v%E1%BA%B9n) (whole, undamaged), [số nguyên](https://en.wiktionary.org/wiki/s%E1%BB%91_nguy%C3%AAn) (whole number, integer), which effectively makes the meaning of 原子 clear: 原子 = [nguyên tử](https://en.wiktionary.org/wiki/nguy%C3%AAn_t%E1%BB%AD) = whole particle = indivisible particle = atom.
-							- [源](https://en.wiktionary.org/wiki/%E6%BA%90): Phono-semantic & ideogrammic compound 源 = 原 (“origin”) + [氵](https://en.wiktionary.org/wiki/%E6%B0%B5) (“water”) → “source (of water)”
-								- This is the developed version of 原 to separate the meaning of “source” from other meanings of 原 like “field, plain” or “raw, unprocessed”. Before this development, “source” was written with 原.
+						- Note that vacantism does not deny the presence of a supreme being, esp. an [immanent](https://en.wikipedia.org/wiki/Immanence) one. The “throne of the supreme being” is said to be *vacant* not because there can be no such being, but because no fixed being can be entitled to that throne by default, to own it inherently, and to occupy it exclusively permanently.
+						  id:: 684f9517-22fd-4695-b398-f142dca8a8d8
+							- This vacancy represents **[non-attachment](https://en.wikipedia.org/wiki/Nonattachment_(philosophy)) to metaphysical absolutism**. It keeps the throne **open** for whoever or whatever rising through context and relation to fulfill that role, to sit there temporarily.
+					- Historically, the term “vacantism” was coined due to the lack of correspondent English term for the Vietnamese term “vô nguyên” (Chinese “無元”) in the chain “trialism” (vi. “tam nguyên”) → “dualism” (vi. “nhị nguyên”) → “monism” (vi. “nhất nguyên”) → “???-ism” (vi. “vô nguyên”) when [counting](((684f9517-64ce-41bd-a88c-0476cbfa790d))) the number of ontological primitives of ((669dfc9f-b5e2-448a-b6f4-be13c5bfbccb)), which can be easily confused with its [ontological](https://en.wikipedia.org/wiki/Ontology) [categories](https://en.wikipedia.org/wiki/Theory_of_Categories).
+					  collapsed:: true
+						- Actually, at first “vô nguyên” was translated to “emptism” in the note “[Mọi thứ đều có Ba, để Ba sinh ra mọi thứ](http://creatzynotes.blogspot.com/2020/11/ba-sinh-moi-thu-moi-thu-sinh-ba.html)”, but then “vacantism” was chosen when editing this document of Trinion.
+						- Chinese characters for “nguyên” from abstract to concrete: [元](https://en.wiktionary.org/wiki/%E5%85%83) (first, prime) → [原](https://en.wiktionary.org/wiki/%E5%8E%9F) (root, origin) → [源](https://en.wiktionary.org/wiki/%E6%BA%90) (source)
+						  id:: 6852abe7-46f7-4e61-9162-ce1311f717af
+							- “**No first**” (無元): ((68b96854-7e4a-45a9-b0ef-1d8fb57e5fa3))
+							  id:: 68594391-d60e-40af-9285-0591b598288e
+								- In the 1926 book *Philosophy of No First Principle* ([無元哲學](Philosophy-NoFirstPrinciple_無元哲學_CADAL07002676.djvu.pdf)) by 朱謙之 (Zhu Qianzhi, Chu Khiêm Chi) [on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CADAL07002676_%E7%84%A1%E5%85%83%E5%93%B2%E5%AD%B8_%EF%BC%88%E5%93%B2%E5%AD%B8%EF%BC%89.djvu), Zhu situates “無元” as a critical stance against [foundationalism](https://en.wikipedia.org/wiki/Foundationalism).
+								  > The world has no fixed, singular origin or "元". All forms arise through **relation**, **flow**, and **emptiness**, not substance.
+							- Next to “無元” is [“無原”](https://baike.baidu.com/item/%E7%84%A1%E5%8E%9F/927272) (**no origin**), meaning “unfathomable origin”, which is often found in Chinese ancient philosophical texts and literary works. The term can be traced back to the Han Dynasty classic 淮南子 ([Huainanzi](https://en.wikipedia.org/wiki/Huainanzi), [Hoài Nam Tử](https://vi.wikipedia.org/wiki/Ho%C3%A0i_Nam_t%E1%BB%AD)), which explains the inexhaustibility of the origin of things through classic expressions such as “轉于無原” (“turning to no origin”, “chuyển vu vô nguyên”, “quay về vô nguyên”).
+								- Note: Don't confuse “無原” with the modern term “無原由” (“no reason” / “unjustified”) in administrative/legal contexts.
+							- And the last is “no source” (無源), an ancient philosophical term used in commentary on Tao Te Ching.
+								- 無源 refers to the 4th chapter of Tao Te Ching about the infinite vacancy of the [Tao](https://en.wikipedia.org/wiki/Tao) (道):
+								  {{embed ((684f9517-7e89-4efb-9b6c-16bf3458ce67))}}
+								- Note: Don't confuse this philosophical meaning with “without power source” in 無源元件 [“passive device”](https://en.wikipedia.org/wiki/Electronic_component#Passive_components), e.g., resistors, transformers.
+							- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8))
+							  id:: 6853d150-9daa-4f24-8621-737485d7e9a2
+							  collapsed:: true
+								- [元](https://en.wiktionary.org/wiki/%E5%85%83): Pictogram – a figure with two lines [二] for a head (one connected to body, one above it), emphasizing the head → “first, prime”
+								- [原](https://en.wiktionary.org/wiki/%E5%8E%9F): Ideogrammic compound 原 = [泉](https://en.wiktionary.org/wiki/%E6%B3%89) (“spring”) + [厂](https://en.wiktionary.org/wiki/%E5%8E%82) (“cliff”) – a spring bursting from a cliff-side → “origin, root”. A conservative variant is [厡](https://en.wiktionary.org/wiki/%E5%8E%A1), in which water is well visible at the bottom.
+									- 元 and 原 had been used interchangeably in the sense “origin” until 原 became favoured in the early [Ming dynasty](https://en.wikipedia.org/wiki/Ming_dynasty) to avoid the name of the [Yuan dynasty (元朝)](https://en.wikipedia.org/wiki/Yuan_dynasty).
+									- The relation between the “head” 元 and the “root” 原 refects the similarity between the animal's head with the plant's root, as shown in biology from [Darwin's “root-brain” hypothesis](https://pmc.ncbi.nlm.nih.gov/articles/PMC2819436/) to [modern researches](https://en.wikipedia.org/wiki/Plant_intelligence).
+									- In chemistry, “[element](https://en.wikipedia.org/wiki/Chemical_element)” = [元素](https://en.wiktionary.org/wiki/%E5%85%83%E7%B4%A0) (prime substance), but “[atom](https://en.wikipedia.org/wiki/Atom)” = [原子](https://en.wiktionary.org/wiki/%E5%8E%9F%E5%AD%90) (original particle) with nuances in there meaning.
+										- The “element” also had now-obsolete translations like [原素](https://en.wiktionary.org/wiki/%E5%8E%9F%E7%B4%A0) & [原質](https://en.wiktionary.org/wiki/%E5%8E%9F%E8%B3%AA).
+										- In Vietnamese [Nôm](https://en.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m),
+											- the obsolete word 原質 ([nguyên chất](https://en.wiktionary.org/wiki/nguy%C3%AAn_ch%E1%BA%A5t)) has been adapted to the meaning of “pure (substance)” (original, intact substance); and
+											- the character 原 ([nguyên](https://en.wiktionary.org/wiki/nguy%C3%AAn#Etymology_2)) has been developed to have the meaning of “whole, integral”, e.g. [nguyên vẹn](https://en.wiktionary.org/wiki/nguy%C3%AAn_v%E1%BA%B9n) (whole, undamaged), [số nguyên](https://en.wiktionary.org/wiki/s%E1%BB%91_nguy%C3%AAn) (whole number, integer), which effectively makes the meaning of 原子 clear: 原子 = [nguyên tử](https://en.wiktionary.org/wiki/nguy%C3%AAn_t%E1%BB%AD) = whole particle = indivisible particle = atom.
+								- [源](https://en.wiktionary.org/wiki/%E6%BA%90): Phono-semantic & ideogrammic compound 源 = 原 (“origin”) + [氵](https://en.wiktionary.org/wiki/%E6%B0%B5) (“water”) → “source (of water)”
+									- This is the developed version of 原 to separate the meaning of “source” from other meanings of 原 like “field, plain” or “raw, unprocessed”. Before this development, “source” was written with 原.
 					- ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) English “vacantism” ← “[vacant](https://en.wiktionary.org/wiki/vacant)” ← Latin “[vacans](https://en.wiktionary.org/wiki/vacans#Latin)” ← “[vacō](https://en.wiktionary.org/wiki/vaco#Latin)” (empty, void, unoccupied, free [time]) ← PIE “[*h₁weh₂-](https://en.wiktionary.org/wiki/Reconstruction:Proto-Indo-European/h%E2%82%81weh%E2%82%82-)” (empty, extinguished) → English “void”, “want”, “vain”, “vacant”, “vacuum”, etc.
 		- Numbering
 		  collapsed:: true
-			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called [the unity of opposites](https://en.wikipedia.org/wiki/Unity_of_opposites) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's [relativistic](https://en.wikipedia.org/wiki/Relativism) as reflected by the intrinsics of the Zero (the Trinion).
+			- The equation ⟪○ = ↑⟫ is the One that unifies the Two opposites (○, ↑) via the Third (=). This is called [the unity of opposites](https://en.wikipedia.org/wiki/Unity_of_opposites) (☯). Hence, the Unïnfo seems to be [trialistic](https://en.wikipedia.org/wiki/Pluralism_(philosophy)) (due to the Three components), or [dualistic](https://en.wikipedia.org/wiki/Dualism_in_cosmology) (due to the Two opposites), or [monistic](https://en.wikipedia.org/wiki/Monism) (due to the One equation), but actually it's ((68b95b62-9e60-4ef2-9540-f563c76a5d17)) as reflected by the intrinsics of the Zero (the Trinion).
+			  id:: 684f9517-64ce-41bd-a88c-0476cbfa790d
 				- > “The Way generates the One; the One generates the Two; the Two generates the Three; the Three generates all things.”
 				  「道生一，一生二，二生三，三生萬物。」
 				  
@@ -3399,17 +3681,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6716110e-3b83-40b7-965c-3ae44547d832
 			  collapsed:: true
 				- “Trinion” = “Tri-” + “union” is the union of the three components. This puts more emphasis on _the unity of the three_, compared to other triads like the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)). This meaning is very much similar to [the “Holy Trinity”](https://en.wikipedia.org/wiki/Trinity) in theism, where “Trinity” may be considered as “Tri-” + “unity”.
-				- In the course of finding a term not to be confused with the “Holy Trinity”, the “Triad” or simply the “Three” have been considered. But then the term “Trinion” was coined to reflect the harmony of both [the Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [the Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))) as the dynamic of [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) which is not only a “[pre-existence](https://en.wikipedia.org/wiki/Pre-existence)”.
+				- In the course of finding a term not to be confused with the “Holy Trinity”, the “Triad” or simply the “Three” have been considered. But then the term “Trinion” was coined to reflect the harmony of both [the Differentiation](((1a22a090-6786-4114-8aad-35b122783bff))) and [the Unification](((c96a6d20-a0f6-48bd-9d70-9bc00b6b3c69))) as the dynamic of [the Existence](((66f3d644-782c-4f33-bd5c-db6e0a2d447a))) which is not only a “static & independent existence”.
 				- And the Trinion can also be considered as the composit of layers of components as shown by the onion, which itself has [a Roman root meaning “one”](https://www.etymonline.com/word/onion).
 					- ![Trinion-onion.png](../assets/Uniinfo/Trinion-onion.png)
 				- Side notes:
 					- Searching for “trinion”, I've found two usages, “trinion” as a 3D complex number ⟪x + y**i** + z**j**⟫, and [the “Trinion Wheel” in NeoDeism](https://www.neodeism.com/trinion-contradictions/).
-					- The theme of triads in Unïnfo reflects the natural triadic relations in philosophies from the East to the West: Taoism's “yin-yang-qi”, Hinduism's Trimurti, Celtic culture's triplism, Christianity's Trinity, as well as triples of [categories of being](https://en.wikipedia.org/wiki/Category_of_being#Hegel) from Plotinus to Kant, Hegel and Peirce.
+					- The theme of triads in Unïnfo reflects the natural triadic relations in philosophies from the East to the West: Taoism's “yin-yang-qi”, Hinduism's Trimurti, Celtic culture's triplism, Christianity's Trinity, as well as triples of [categories of being](https://en.wikipedia.org/wiki/Category_of_being#Hegel) from Plotinus to Kant, Hegel and Peirce.
 			- Postulate vs axiom
 			  id:: 66f3cf07-4be5-4a50-9d99-b190b60f6ffa
 			  collapsed:: true
 				- “Postulates” and “axioms” are both basic assumptions of a theory and are used as the foundation and starting points to build that theory upon. However, while “axioms” are statements taken to be self-evident, accepted to be “true obviously” without question nor controversy, as reflected in the adjective “axiomatic” and in axiomatic systems of mathematics, “postulates” are statements derived from our real-world experiences, like the five postulates of Euclid (in contrast with Euclid's five axioms), and like the principles of physics.
-				- In particular, the three postulates of Unïnfo here are statements derived from the author's experience.
+				- In particular, the three postulates of Unïnfo here are statements derived from the author's experience.
 				- Hence, these postulates are not meant to be the “ultimate truth”, and the correspondent components are not meant to be the most fundamental [categories](https://en.wikipedia.org/wiki/Theory_of_Categories) like in dualistic and plurualistic ontologies. These postulates are just proposed here to be the theory's starting points, which are open and will be revised again and again throughout the theory.
 			- About “intrinsics”
 			  id:: 66f3e170-dc4b-45ea-8720-de4580a30d01
@@ -3437,7 +3719,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 665379b7-e4f6-4240-8029-fd143e2230c7
 	  collapsed:: true
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((669a1d82-91c8-40fd-81f5-e8ffe56e9e9c)) is the natural ((665379e5-5bf4-4e00-ab03-9f41ff14cccc)) of the ((66537a0b-d107-4f7e-b01f-bf624a647d8c)) and should be the chosen way of life. In Buddhism, it's called [Middle Way](https://en.wikipedia.org/wiki/Middle_Way), and in Taoism, it's called simply [The Way](https://en.wikipedia.org/wiki/Tao).
-		- Refinement techniques
+		- refinement techniques
 		  id:: 67b541d0-f477-4c3a-b444-fb522c3fdc4f
 		  collapsed:: true
 			- ### equalize
@@ -3447,7 +3729,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- detach–attach
 				  id:: 68871d20-c27b-4b0d-8342-b8af093e5849
 				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68871ce1-eb57-4be3-ad48-45af6ccb5d49))
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In equanimity of meditation, with zero current self-circle, observing the field of dormant intents, use the “inner hands” to *detach the attachments/likes, and attach the detachments/dislikes*, all to the _equal distance of “**one arm's length**”_. When all intents are equalized, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is effectively placed at the **center** of the karmic ((669a5387-2a97-4311-a295-aa0afd9c4d76)) (from the past, not the current self-circle). From the empty center, the obop freely handles intents on the circumference via [transverse movements around view circle](((68882160-10b9-4bd2-998e-28efa9b215d6))), instead of longitudinal motions along view cone.
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In equanimity of meditation, with zero current self-circle, [observing](((6889c11f-e881-432f-ba0f-876b61afc60c))) the field of dormant intents, use the “inner hands” to *detach the attachments/likes, and attach the detachments/dislikes*, all to the _equal distance of “**one arm's length**”_. When all intents are equalized, the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)) is effectively placed at the **center** of the karmic ((669a5387-2a97-4311-a295-aa0afd9c4d76)) (from the past, not the current self-circle). From the empty center, the obop freely handles intents on the circumference via [transverse movements around view circle](((68882160-10b9-4bd2-998e-28efa9b215d6))), instead of longitudinal motions along view cone.
 					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 						- ((68871d20-c27b-4b0d-8342-b8af093e5849)) should be combined with ((68773fad-d653-4536-87b5-d4b493753b41)) in the breathing cycle: breathe in accept, attach dislikes, breathe out release, detach likes.
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The core technique of the ((665379b7-e4f6-4240-8029-fd143e2230c7)) is to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) all intents. This is the balance way to stranform the karma.
@@ -3464,6 +3746,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  :END:
 						- The greed and aversion are directly balanced out with ((68871d20-c27b-4b0d-8342-b8af093e5849)), while the delusion can only be gradually transformed following the emptying of the center which is the indirect & accumulative result of the detach–attach.
 						- Delusion is caused by the ignorance about the hidden boss which is the intent(s) underlying and covering the whole self-circle.
+						  id:: 68884a49-8edc-4518-842c-ef3b6197c430
 							- Due to the large intent of the hidden boss, the obop can only see a very narrow view (small extent).
 							- When all intents are equalized, i.e. being placed on the circumference, no intent is left in the center to be boss.
 							- The zero intent at the empty center causes the vision of the obop to be widened to the ((66c8046e-c5fe-4f27-b3cf-40f5f39b646b)). This whole vision is called wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)).
@@ -3472,13 +3755,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 						- The equalization is the transformation from the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) with hierarchical intents to the intent circle with equal intents.
 						- This transformation leads to the change of the obop's operation.
-						- from view cone & [intent sequence](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), to view circle & intent circle
+						- from view cone & [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), to view circle & intent circle
 						- from primarily zoom in and secondarily turn, to primarily pan around and secondarily zoom in/out
 						- in polar coordinates: from radial scaling to transverse translation
 							- ((684f951a-c14f-47f5-ac07-0cabb58cf089))
 							- ((684f951a-4c9b-45c1-80b0-dc10d12a2dbb))
 							- ((67b541c9-3b4e-4429-8c35-9afaf9f434bf))
 							- ((67fe23f7-3afe-4e77-be1d-fa8a15416bc3))
+					- “Circle = Arrow” is the Harmonious Integration (融通, Dung Thông) of Unïnfo.
+					  id:: 689029a3-c02b-4cb9-b1bd-205f12c97391
+					  collapsed:: true
+					  :LOGBOOK:
+					  CLOCK: [2025-08-04 Mon 10:32:04]
+					  :END:
+						- Perfect Inclusion ([interfusion](((66eb7dae-2032-434b-9106-756d4aad7cdb))), 圓融, Viên Dung): each circle reflects all circles through arrows.
+						- Perfect [Throughness](((684f951a-ee4f-4765-b2d9-58ff04b84979))) (interpenetration, 圓通, Viên Thông): penetrate all circles by the cutting edge of the arrow 💘.
+							- In order to see [all intents equally on the circumference](((68882160-10b9-4bd2-998e-28efa9b215d6))), we must fly through them to get back to the [**empty center**](((66c8772a-9b29-45b0-b169-2fa847333e02))) (the ((66f3d5cc-0d68-47bb-b09a-87cda33c7354))).
+								- The center of everything is not elsewhere – it is immanently present right here now, just hidden in the form.
+							- No matter where, in any form, we can **penetrate all layers of forms and intent** to get back to the center with the combination of techniques: ((67445065-15b2-475e-a704-78f140d487af)), ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), ((68773fad-d653-4536-87b5-d4b493753b41)),  ((668f5490-c223-4a8a-9cc4-0bd71af4c097)).
+							- From such an **immanent center**, we can see all intents and opposites with their interpenetrativeness, so that we can apply that interpenetration to ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) them, and to enhance our throughness.
+						- My first description of the empty center, as a vacant room, in the post [Chấp nhận được là tình thương](https://creatzynotes.blogspot.com/2021/02/chap-nhan-uoc-la-tinh-thuong.html?m=1)
+							- > Chấp nhận một cái thì trước mắt liền sáng ra, sáng rực rỡ mà không hề chói loá. Chẳng biết diễn tả cái nơi sáng rực đó thế nào, nhưng đại loại nó như cái bàn tròn mà không có bàn, cái hội trường mà không có tường và bàn ghế. Ở đó mọi người biết nhau hết mà không cần gọi tên, thấy nhau hết từ trong ra ngoài mà không chút ngại ngần.
 			- ### let-go
 			  id:: 669a4f1e-4205-4874-b1b0-0fc9f6bb0e8d
 			  collapsed:: true
@@ -3743,6 +4040,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  > Connect with the present: When we "bring the horizon to our feet", we are focusing on what is going on around us, instead of dreaming of a distant future.
 							- ChatGPT:
 							  > The horizon is not a place to reach, but a shift in seeing — when the seeker vanishes, the path and goal are one.
+								- Regarding the [“final cause” (telos) by Aristotle](https://en.wikipedia.org/wiki/Four_causes#Final):
+								  > + The “horizon” is a **conceptual placeholder** for liberation until one’s perspective changes.
+								  > + Once the shift happens, the horizon is no longer “over there” but present at every step — the loop closes.
+									- The disciple sees the goal as a fixed telos.
+									- The master transforms the goal into a dynamic and cyclic ((677e76ed-b324-4608-b146-90e8fcfa0c32)), where the end folds back into the beginning.
 							- Will:
 							  > Just keep going!
 					- [Beyond the top of a mountain is another higher mountain!](https://www.facebook.com/share/p/12GTUumWARA/)
@@ -3757,6 +4059,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  collapsed:: true
 			  ((665359e4-4597-4775-b849-f9acbb98960a)) thăng hoa – dẫn lưu
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) First, use breathwork to dissolve, to _sublimate_ the hard ((669a5387-2a97-4311-a295-aa0afd9c4d76)) into a fluid (qi, khí, 氣), then use qigong (氣功) & [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))) to transform & _channel_ the fluid to the required target form. The process should repeat until we reach [equilibrium](((669a58b9-2104-4d4c-b68f-7a45e2adb915))).
+				- **Ujjayi** breathing technique for ((668f5490-c223-4a8a-9cc4-0bd71af4c097))
+				  id:: 66952126-bf33-40e1-a208-369df7aa9488
+				  collapsed:: true
+				  :LOGBOOK:
+				  CLOCK: [2024-07-15 Mon 20:28:28]
+				  :END:
+					- With the sublime–channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
+					  id:: 66b1cfa3-93c4-4de3-8904-06fb065ded70
+					- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
+				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
+				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 				  collapsed:: true
 					- I discovered sublimation first (from [the start of February 2024](https://www.facebook.com/lexuandinhct/posts/pfbid02q1oHaX9xkQQUsr1YVyAihCnCN47NFoCKYWqX5q2R2ud4UgqScbST1Z27KMBeRC1cl) via a tantric practice).
@@ -3771,8 +4084,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- the key point in my chest to control the cough reflex, and
 						- revisit the formless meditation to deal with serious pain (my first application was at the previous serious illness of herpes zoster/zona).
 					- Then i refined the technique with breathwork which resulted in the [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))).
-				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
-				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
+					- [August 5th 2025](((6892ac8b-8b7c-4129-8a62-5c38065f7898))), i saw that sublime–channel technique has the effect of dissolving intents, helping [intents penetration](((689029a3-c02b-4cb9-b1bd-205f12c97391))) in the [intents equalization](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))).
+				- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- ### subtilize
 			  id:: 66aded27-9701-4b6e-85e8-22049ddbe2d2
 			  collapsed:: true
@@ -3789,6 +4102,88 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
 					  collapsed:: true
 						- I discovered this technique in the middle of the 3 months lockdown for Covid-19 in Vietnam around 2021 July-September.
+			- ### introspect
+			  id:: 6889c11f-e881-432f-ba0f-876b61afc60c
+			  collapsed:: true
+			  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68898917-e61f-4d23-9124-474efa9a9eee))
+				- look behind the eyes
+				  id:: 68898917-e61f-4d23-9124-474efa9a9eee
+				  :LOGBOOK:
+				  CLOCK: [2025-07-30 Wed 09:53:20]--[2025-07-30 Wed 19:37:45] =>  09:44:25
+				  :END:
+				  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((6889c11f-e881-432f-ba0f-876b61afc60c))
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) In order to reveal the ((685156b0-2f3b-4aa9-8b87-636d38a02cd2)) in the ((6889a623-34cd-4b65-8a91-5cfdbb199b71)) and escape its domination, we must look behind the ((669a2886-9e03-41a4-a790-24bf6b7dcd96))s.
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- Because ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is what's behind the eyes, it is normally invisible, hidden boss.
+						  id:: 68a520bf-adba-4d78-9e3d-5f41de9f8153
+						  collapsed:: true
+						  :LOGBOOK:
+						  CLOCK: [2025-07-30 Wed 14:09:41]
+						  :END:
+							- The [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))), like the [chain/train of thought](https://en.wikipedia.org/wiki/Train_of_thought), is modeled in Uninet Theory as the hierarchical ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) to the center obop, i.e. *behind the screen*.
+								- In projective geometry, the intent cone intends behind the ((68a7d179-b663-42bd-85b9-6c18be6b6c97)) toward the ((68a7d02f-7010-49b2-8dfa-a50e8b371066)).
+							- Because all intents are just accumulation of past actions (karma), like the [growth rings](https://simple.wikipedia.org/wiki/Growth_ring), the intent cone which determines how the world is seen (giving forms to object's content) is just a slice of the past reactivated.
+								- Growth rings model of intent cone
+								  collapsed:: true
+									- ![intent-cone-growth-ring.png](../assets/Uniinfo/uninet/intent-cone-growth-ring.png){:width 300}
+								- ⇒ The final boss, the central obop, is just the infinite past.
+								- ⇒ Looking inward means looking back toward the past.
+								- Note that viewing itself is an action whose effect is the resulting image of the world.
+							- The idiom “(look) behind the eyes” should be recorded in dictionaries! 😉
+							  collapsed:: true
+							  :LOGBOOK:
+							  CLOCK: [2025-07-30 Wed 14:06:33]--[2025-07-30 Wed 20:02:44] =>  05:56:11
+							  :END:
+								- While the exact phrase “behind the eyes” has not appeared in dictionaries, it does recur across domains – spiritual, philosophical, psychological – always referring to that invisible locus of attention, agency, or intentionality.
+								- Examples
+									- The song [Behind Blue Eyes](https://en.wikipedia.org/wiki/Behind_Blue_Eyes) by The Who in 1971
+									- Alan Watts usually used the phrase ["we locate ourselves behind the eyes"](https://www.organism.earth/library/document/tao-of-philosophy-5) to describe the common human experience of feeling like a separate consciousness, an ego, residing within the body.
+									- *Hold Your Attention Behind The Eyes*, a discourse given by Ishwar Puri in July 6, 2013, Pune, India
+										- [Video](https://youtu.be/N2aovHQzDZo), [PDF transcript](https://ishanews.org/media/transcripts/eng/Hold_Your_Attention_Behind_The_Eyes.pdf)
+										  collapsed:: true
+											- {{video https://youtu.be/N2aovHQzDZo}}
+									- [The meaning-making mechanism(s) behind the eyes and between the ears](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0301)
+						- Expressions of ((68898917-e61f-4d23-9124-474efa9a9eee))
+						  collapsed:: true
+							- Another version of “looking behind the eyes” is “listening between the ears” which is the 反聞聞自性 technique of bodhisattva Avalokiteśvara (觀世音, Quán Thế Âm) in [Śūraṅgama Sūtra](https://en.wikipedia.org/wiki/%C5%9A%C5%ABra%E1%B9%85gama_S%C5%ABtra) (首楞嚴經, Kinh Thủ-lăng-nghiêm).
+								- > 反聞聞自性，性成無上道，圓通實如是。
+								  > Phản văn văn tự tánh, tánh thành vô thượng đạo, viên thông thật như thị.
+								  > Xoay tánh nghe trở vào để nghe tự tánh của mình thì tánh đó trở thành đạo vô thượng, pháp (Nhĩ-căn) Viên-thông thật là như vậy.
+								  > Turn hearing back to hear self-nature; that nature leads to unsurpassed Way; Perfect Penetration – truly thus is it.
+							- In Buddhism, [sati sampajañña](https://en.wikipedia.org/wiki/Sampaja%C3%B1%C3%B1a) (mindful introspection, mindfulness and clear comprehension, 正念[與]正知, chánh niệm [và] tỉnh giác) is the way to look behind the eyes.
+							- I uttered a poem years ago about “turn inward to observe the inside” at the beginning of my [“formal practice of meditation”](https://creatzynotes.blogspot.com/2014/12/lan-au-ngoi-thien-nghiem-tuc-xep-bang.html).
+								- > Khi mắt đà chán ngán cảnh xung quanh,
+								  Tai không còn hứng thú với thanh trần,
+								  Ta quay vào quán sát bên trong
+								  Woà, bỗng chốc cơn mê chợt tỉnh!
+								- [Posted on facebook](https://www.facebook.com/share/174kpPvh6k/) in Januray 26th 2015.
+									- #+BEGIN_QUOTE
+									  "Hơi thở đâu? Hơi thở đâu? Hơi thở đâu rồi?"
+									  Nhưng mấy hôm nay mình cũng tập được một thói quen mới là ngay sau khi tỉnh dậy thì tự hỏi như thế (vì nếu đã tỉnh thiệt thì phải thấy hơi thở chứ!) ... May là mình với tầm mắt (bên trong) bám được vào hơi thở, thế là mọi thứ bỗng rõ ràng trở lại, tiếng chim hót, tiếng sột soạt bên ngoài quay về rõ mồn một. Tỉnh hẳn, mình mở mắt ngồi dậy cái một. Ra rửa mặt xong vô xếp mùng thì tâm mình kết nối với kinh nghiệm thiền buổi trưa hôm qua, chợt thốt lên mấy câu thơ (viết bên trên).
+									  #+END_QUOTE
+							- From 2015, ((68a2a2b1-4565-401d-80ee-9c412b97da35)) has been the only state (in the rūpa-realm) that i've been practicing and advancing deeper into.
+							  id:: 68a27d18-3504-4376-a3f4-7223d632b253
+							  :LOGBOOK:
+							  CLOCK: [2025-08-18 Mon 11:20:22]
+							  :END:
+								- August 2015, [Cảnh Nội–Ngoại Thực tại Hiện tiền](https://www.facebook.com/lexuandinhct/posts/pfbid02a9AdxeN8uNhonvWfks3iyFsZhoy1ymNV91mucthCBM7ub3DZVxd8fBfFSXuyENQNl)
+								- April 2019, [signatures of the In–Ex Presence](https://www.facebook.com/lexuandinhct/posts/pfbid02Fc6tCM7cC8WPy2sQZA7gmrZEGWCrPPVsUW8WjuFuWjrepNDQqaeF6DTjbQz2s8k1l)
+								- Semptember 2021, [presence of mind](https://www.facebook.com/lexuandinhct/posts/pfbid0qwzAe2dCABiCK9QAL1whEbdUFA8go3piFDSj3BstGJD6HHzUCFpZduSLYxa9gQkCl)
+				- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Introspection
+				- Unified Presence of Inner–Outer Reality
+				  id:: 68a2a2cd-fb87-4485-b1cb-3cde54af8f2a
+				  Vietnamese: Nội–Ngoại Thực tại Hiện tiền
+				  Chinese: 内外實在現前
+				  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68a2a2b1-4565-401d-80ee-9c412b97da35))
+					- In–Ex Presence
+					  id:: 68a2a2b1-4565-401d-80ee-9c412b97da35
+					  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68a2a2cd-fb87-4485-b1cb-3cde54af8f2a)) 
+					  Vietnamese: Nội–Ngoại Hiện tiền
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) The ((68a2a2cd-fb87-4485-b1cb-3cde54af8f2a)) is where both internal reality (active intents, thoughts, internal working of the body-mind) and external reality (rūpa-realm) are *present in front of the eye* [equally](((68871ce1-eb57-4be3-ad48-45af6ccb5d49))). Being brought before the (internal) eye, the [hidden boss](((68884a49-8edc-4518-842c-ef3b6197c430))) is revealed and stripped off of its control power.
+					- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
+						- ((68a27d18-3504-4376-a3f4-7223d632b253))
+						- Present = hiện tiền = [pratyakṣa](https://en.wikipedia.org/wiki/Pramana#Pratyak%E1%B9%A3a) ([प्रत्यक्ष](https://sanskritdictionary.com/pratyak%E1%B9%A3a/10589/2)): [“present”](https://en.wiktionary.org/wiki/present) = “pre-” + “est” = (bring something to) be in front of (some one, some eye)
+							- pratyakṣa = “prati-” (pre-) + “akṣa” (eye [of an elephant], sense organ in general)
 			- ### purify
 			  id:: 684f9517-f8fc-45a3-80c9-25eca00e4eda
 			  :LOGBOOK:
@@ -3840,7 +4235,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  collapsed:: true
 						- Initially, there is **greed**: a feeling of lacking the other side stimulates desire, leading one to rush toward the partner and pull the partner into oneself.
 						- Near the peak, there is **aversion**: when energy has accumulated fully within, especially in men, there’s an urge to release it explosively (reaching climax). If interrupted at this stage, one feels irritated, frustrated, and restless, regardless of gender, due to excess Yang. Men tend to exhibit this aversion more clearly as anger, while women often experience it more subtly as inner restlessness.
-						- After orgasm, there is **delusion**: when the two sides come together intensely and explode, Yin and Yang harmonize, resulting in satisfaction, fullness—neither lacking (greed) nor excessive (aversion)... but also no clear mind (delusion). Thus, one embraces that blissful feeling, holding it tightly in the heart while sleeping.
+						- After orgasm, there is **delusion**: when the two sides come together intensely and explode, Yin and Yang harmonize, resulting in satisfaction, fullness – neither lacking (greed) nor excessive (aversion)... but also no clear mind (delusion). Thus, one embraces that blissful feeling, holding it tightly in the heart while sleeping.
 						- During this sleep, delusion reveals its nature of **ignorance** (stupidity): one is content with the pleasure and cares about nothing else, simply rolling over to sleep. Then, upon waking and opening the eyes to see and know, delusion manifests as infatuation, indulgence, obsession and attachment: having embraced that pleasure and embedded it deeply into the subconscious (during sleep), one now clings to it heavily, with everything one does aimed at recreating that pleasure without awareness.
 						- In Vietnamese: Trong 1 cuộc làm tình thì cả 2 đều trải qua quy trình tham - sân - si:
 						  collapsed:: true
@@ -3861,14 +4256,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 6850c7e4-0969-45b7-9ca8-e2c1d764effe
 				- ((6651ecba-793d-43c5-8020-a9f260b032d8)) To overcome ((6839229d-9eff-49e4-9480-6e2db6f61127)), there are 3 groups of antidotal practices correponding to [3 levels of absorptions](https://creatzynotes.blogspot.com/2021/03/3-cap-o-inh.html) as follows. The karmic pleasures will be replaced by the new rewards of the these absorptions.
 					- Anti-greed with static absorption
-						- [**Reset**](((67445065-15b2-475e-a704-78f140d487af))) to break the “goal reaching” pattern and to put the attractive target (intent) aside.
-						- **Retract to the belly** with ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) for the mindbody to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
+						- [**Reset**](((67445065-15b2-475e-a704-78f140d487af))), with the help of ((669a5162-19e1-4c52-8888-ab7cbfe275ec)), to break the “goal reaching” pattern and to put the attractive target (intent) aside.
+						- **Retract to the belly** – the root of both body and mind – **fill the bodymind** with [ujjayi breath](((66952126-bf33-40e1-a208-369df7aa9488))) for it to be full, stable, so not to be sucked into the black hole of greed. This is a kind of samatha meditation.
+						  id:: 68594391-faeb-4f7e-87e1-9ea179c2639b
 					- Anti-aversion with flow absorption
 					  id:: 68594391-006a-4630-964a-4a54e916b97f
 						- Use **breathworks** – ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) & ((68773fad-d653-4536-87b5-d4b493753b41)) – to release momentum, relax contraction and clear blockage, in order to get rid of aversion.
+						  id:: 68594391-db9c-4d1a-b578-045d87d3e038
 					- Anti-delusion with conscious absorption
 						- **Watch** out the 3 poisons, comtemplate their effects, observe the reality to avoid delusion.
-						- **Observe** & ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents, instead of looking at the external objects & target.
+						- ((6889c11f-e881-432f-ba0f-876b61afc60c)) & ((68871ce1-eb57-4be3-ad48-45af6ccb5d49)) the intents, instead of looking at the external objects & target.
 							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma and influences of the external world.
 							- The delusion will be transformed to wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)) by the change of the internal reality (intent equalization), instead of the actions to change the external reality.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
@@ -3921,8 +4318,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Disliking something is because its image is far, small.
 					- In both like & dislike, the subject see
 						- (e) only a very small segment of the whole circle, and
-						- (i) only a tip of the intent–action double cone,
-						- hence, a very distorted image of both the external object (e) and the internal [intent sequence](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) (i).
+						- (i) only a tip of the intent cone,
+						- hence, a very distorted image of both the external object (e) and the internal [intent chain](((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00))) (i).
 	- ## Universe
 	  id:: 66537a0b-d107-4f7e-b01f-bf624a647d8c
 	  collapsed:: true
@@ -4034,10 +4431,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	- ## abstraction
 	  id:: 66537674-6cf9-4459-8bea-7c1858c694a3
 	  collapsed:: true
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((68932036-e868-4468-a891-70cdf09ea904))
 	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))
 	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))
 		- abstract
 		  id:: 66c8369a-ccb8-4f1f-b12b-bf7054cb79e4
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((68932044-a013-4cc6-b468-df8f3a43103c)) 
 		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
 		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
 		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Abstraction
@@ -4049,10 +4448,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-12-20 Fri 18:22:22]
 		  :END:
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((676550af-8792-4eef-afd7-ae0d949d78a4))
+		  circle ((67654ecb-896a-4421-95e5-f72c07fc62a4))
 			- extent abstraction
 			  id:: 676550af-8792-4eef-afd7-ae0d949d78a4
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((67654618-70d2-49cd-88b7-f7c4e161dfd9))
-			- circle ((67654ecb-896a-4421-95e5-f72c07fc62a4))
 			- ω-expansion = circle unwinding = multiply with extext
 		- ### φ-abstraction
 		  id:: 676545e8-429c-41e7-97ed-12cc8e8870d4
@@ -4060,10 +4459,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-12-20 Fri 18:22:29]
 		  :END:
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((676550e5-6420-425a-97a8-33e5c4a5963e))
+		  pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
 			- phase abstraction
 			  id:: 676550e5-6420-425a-97a8-33e5c4a5963e
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((676545e8-429c-41e7-97ed-12cc8e8870d4))
-			- pipe ((670cdcb4-3c85-45af-8c30-3c3284ed37df))
 			- rounding = abstracting remainder, leaving quotient (extent) & denominator (intent)
 			- φ-extension = add phase refinement (remainder/denominator) to extent
 		- ### ε-abstraction
@@ -4072,11 +4471,27 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  CLOCK: [2024-12-20 Fri 18:22:34]
 		  :END:
 		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((67655101-067d-45ab-9943-49e209af44d7))
+		  ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
 			- intent abstraction
 			  id:: 67655101-067d-45ab-9943-49e209af44d7
 			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((676545b3-2d9f-43af-8ff0-3543dbe73159))
-			- ((670ce218-a01f-4609-b7f2-beda7cf2ebc3))
 			- ε-expansion = cone action = multiply with intent
+	- ## concretization
+	  id:: 68932036-e868-4468-a891-70cdf09ea904
+	  collapsed:: true
+	  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66537674-6cf9-4459-8bea-7c1858c694a3))
+	  ((66c80da9-4cfb-4de7-b83d-8b70665207bf)) ((68932044-a013-4cc6-b468-df8f3a43103c))
+		- concrete
+		  id:: 68932044-a013-4cc6-b468-df8f3a43103c
+		  ((6699ea73-dc77-4227-a293-b501f2eb1759)) ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4))
+		  ((66c80e01-002b-42ae-9c60-49bf3fc6e159)) ((68932036-e868-4468-a891-70cdf09ea904))
+		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((68932036-e868-4468-a891-70cdf09ea904)) is the process of a subject making an ((66c8369a-ccb8-4f1f-b12b-bf7054cb79e4)) concept more concrete by adding details to it, so that the result will be tangible to larger ((669a5387-2a97-4311-a295-aa0afd9c4d76))s.
+		  id:: 68932ee4-52d9-4a42-be26-1b1cba40aeff
+		- ((66e4299e-0af8-47ee-adae-c13fb57fd15d))
+			- ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)) of a concept of a general category is the creation of particular instances in that category.
+			- [reification](https://en.wikipedia.org/wiki/Reification) of an abstract concept is the encapsulation of that concept in a concrete container for handing like an object.
+			- [objectification](https://en.wiktionary.org/wiki/objectification#English) is the process of projecting a concept/image in a subject out of that subject to become an object.
+			- [materialization](https://en.wiktionary.org/wiki/materialization#English) is the process of turning an immaterial thing into a material object in the physical world.
 	- ## name
 	  id:: 665cab38-f8e8-472e-b0a1-60776d492835
 	  collapsed:: true
@@ -4248,7 +4663,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										- 3. Hình tướng là thứ sẽ bị biến dạng.
 										- 3+. Hình tướng là thứ phải chịu hư mất.
 							- Due to the stability (lastingness) of the closed form, ordinary beings naturally develop attachment to the self, often under the illusion that it's permanent (everlasting).
-							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
+							- In Buddhist texts, form is defined through change and emptiness ( ((66600918-9f92-4730-b056-c2cd87a742aa)) in Unïnfo).
 							  collapsed:: true
 								- [Itchy sutta](https://suttacentral.net/sn22.79/en/sujato) (Khajjanīya sutta, SN 22:79):
 								  > And why do you call it *form [[rūpa](https://suttacentral.net/define/r%C5%ABpa?lang=en)]*? (Because) It’s *deformed [[ruppati](https://suttacentral.net/define/ruppati?lang=en)]* (changed, transformed, afflicted, vexed).
@@ -4396,10 +4811,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  :LOGBOOK:
 	  CLOCK: [2024-10-15 Tue 13:48:45]
 	  :END:
-	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1053-773e-4cbb-9b5f-8bf9715759f7))
+	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((670e1053-773e-4cbb-9b5f-8bf9715759f7)), ((670d0160-ee4c-4b5f-b95f-80b0c2f3825f))
 		- chất
 		  id:: 670e1053-773e-4cbb-9b5f-8bf9715759f7
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((670e1047-529a-4698-9ad0-5e6c73c18202))
+		- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://plato.stanford.edu/entries/substance/
 	- ## essence
 	  id:: 670e105b-5244-4f95-9f90-c99acdbce0e4
 	  collapsed:: true
@@ -4472,6 +4888,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 	  id:: 66b1cfa4-01ef-4ee8-9409-32c9884c39cd
 	  collapsed:: true
 	  ((665359e4-4597-4775-b849-f9acbb98960a)) ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)), ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd))
+	  ((66c80da7-c0e8-46d2-85e5-71318fd44eff)) ((68a7de4b-7072-4ec1-907e-5a0d9fdba859))
 		- intention
 		  id:: 66f93c78-15f5-43a7-8412-f7a5bc66e2ae
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
@@ -4480,17 +4897,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		  id:: 66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd
 		  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
 			- ((665359c0-a89a-41b5-9f28-503f79107a08)) https://en.wikipedia.org/wiki/Intension
+		- intend
+		  id:: 68a7de4b-7072-4ec1-907e-5a0d9fdba859
+		  ((66c80dfd-95e2-4b5a-bd56-06e8307e81ca)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd))
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is an umbrella term capturing the abstract notion of “something packed inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))”. E.g.: the daily used ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) and [intentionality](https://en.wikipedia.org/wiki/Intentionality), the semantical ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)), the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) in CIE, etc.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- The general ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus the strongly volitional “intent” in common usage
 			  collapsed:: true
-				- Unïnfo's “intent” > “intention” > common “intent”
+				- Unïnfo's “intent” > “intention” > common “intent”
 				  | Term                  | Volitional?     | Semantic, Conceptual? | Generalized? | Common Use                      |
 				  | ------------------ | --------------- | ----------------------- | ------------ | --------------------------- |
-				  | **Intent** (Unïnfo)  | Not necessarily | ✅ Yes                | ✅ Highly     | Internal potential of subjects |
+				  | **Intent** (Unïnfo)  | Not necessarily | ✅ Yes                | ✅ Highly     | Internal potential of subjects |
 				  | **Intent** (Common sense) | ✅ Strong        | ❌ Usually no         | ❌ Narrow     | Legal, formal, mental state     |
 				  | **Intention**         | ✅ Yes           | ✅ Sometimes          | ❌ Medium     | Goal-driven action              |
-				- The general meaning of “intent” used in Unïnfo is an archaic connotation mentioned in some (old) dictionaries, as shown by [OneLook > intent](https://www.onelook.com/?w=intent).
+				- The general meaning of “intent” used in Unïnfo is an archaic connotation mentioned in some (old) dictionaries, as shown by [OneLook > intent](https://www.onelook.com/?w=intent).
 				  id:: 686cef15-5eab-44f1-b8d7-3d8a9edcfa69
 					- [Vocabulary.com](https://www.vocabulary.com/dictionary/intent)
 					  > 2. `noun` the intended meaning of a communication
@@ -4500,10 +4920,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					  > meaning; significance.
 					- [The Century Dictionary > intent](https://www.wordnik.com/words/intent)
 					  > `noun` Notion; idea; thought; opinion.
-				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
+				- The common “intent”, usually used in legal, formal, or psychological contexts, connotes a **deliberate mental state** which is stronger & clearer than “intention”. This connotation makes it narrower than “intention”, while its  usage in Unïnfo is broader than “intention”.
 				- Conscious intention vs. latent/dormant intent in the unconscious
 				  id:: 686ce608-1a1b-4b57-993a-fe8e943dc916
-					- In Unïnfo, ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) must be conscious, and the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic, as well as the “laten/dormant intent” ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), falls out of the scope of “intention” and into the general meaning of “intent”.
+					- In Unïnfo, ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) must be **conscious**, while the [“unconscious intention”](https://en.wikipedia.org/wiki/Intention#Conscious_and_unconscious) described in psychoanalytic, as well as the “laten/dormant intent” ([anusayā](((66e80666-5f29-4419-8db1-bf8cdce893e4)))), falls out of the scope of “intention” and into the general meaning of “intent”.
 					- The **latent intent** is just an *intention in the past*, which has sunk under the conscious surface, leaving only a tendency as its [“antenna”](https://en.wikipedia.org/wiki/Antenna_(zoology)) on the consciousness.
 					  id:: 686e096b-d730-4d9e-ae58-4ca2cf7b93aa
 						- Antenna = sensitive hair = tendency = ((66e42d39-a296-4ed9-a686-4cb213783830)) = ${\vec v}/|v|$ = distortion = deviation from the roundness, from the uniform
@@ -4522,6 +4942,21 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- From his University time, he had contemplated a lot about the 2 duals of intension/extension and form/content.
 					- When Will contemplated the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in 2020, he revived the [archaic word “intent”](((686cef15-5eab-44f1-b8d7-3d8a9edcfa69))) to capture the general meaning of both semantical “inten**s**ion” and volitional “inten**t**ion”. The word “intent” was chosen instead of “intension” in order to be parallel with the other 2 compoents: content–intent–extent.
 						- Actually, at first he thought that the term “intent” with general meaning was his own coinage... only to learn later that it was an archaic connotation.
+			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its noun “intent”, as shown with the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)): “to direct attention to and focus on a target within the subject”.
+			  id:: 68a7de6e-fbe8-4fb9-8dc1-6279c066565f
+			  collapsed:: true
+			  :LOGBOOK:
+			  CLOCK: [2025-08-17 Sun 20:06:01]
+			  :END:
+				- **to direct inward/toward**: to direct one's mind or heading inward or toward a target; to aim; to purpose (connotations 1, 2 & 7 in [Wiktionary](https://en.wiktionary.org/wiki/intend))
+					- This connotation is about the arrow along the axis of the intent cone pointing to the apex.
+				- **to focus inward**: to intensify, to condense, to strengthen (connotations 5 & 6 in Wiktionary)
+					- This connotation is about the shape of the intent cone narrowing toward the apex.
+				- Both ends of an infinite cone are infinity: “**intending** infinitely inward” ∥ “**extending** infinitely outward”
+					- Illustration with projective geometry: The road ahead, no matter inside or outside, is seen narrowing toward a “point at horizon”, which is an ideal point at infinity.
+					- Outward, the road narrows toward a visual vanishing point on the skyline.
+					- Inward, the intent cone narrows toward a mental vanishing point on the “horizon within”.
+					- Both are perspectival infinities: finite to the eye, boundless in the journey.
 	- ## extent
 	  id:: 66b1cfa4-3a39-4672-9da2-cd3bcef71702
 	  collapsed:: true
@@ -4663,7 +5098,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- As the scale factor of content (ratio between content and intent), extent can be thought of as a “scalar”, but we don't use the term “scalar” to avoid confusion.
 						- Each [“scalar quantity” in physics](https://en.wikipedia.org/wiki/Scalar_(physics)) additionally has a unit which is the informational dimension, hence not dimensionless.
-						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
+						- [“Dimensionless quantity” in physics](https://en.wikipedia.org/wiki/Dimensionless_quantity) may be called “scalar” in Unïnfo, but we use the term “dimensionless” for clarity.
 				- The mass (amount of content) is not only dimensionless but also nondirectional, a.k.a. “absolute value”.
 	- ## Universal Thread
 	  id:: 66ac41d1-09e7-44b1-9290-ea7d5f02a817
@@ -4777,14 +5212,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  :LOGBOOK:
 				  CLOCK: [2024-09-18 Wed 10:19:59]--[2024-09-18 Wed 16:29:05] =>  06:09:06
 				  :END:
-					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a signal from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) reaches a node in the ((66ea8d84-c766-4c47-b06c-a0b57a530096)), that node is activated and it creates a new ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of itself on the screen. This new instance is combined to the source of the signal to develop the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), similar to the "object construction" in OOP. Each cycle of this process is call an ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)). Each object on the screen is usually composed of several instances of several ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s. Only some special objects like the self body, the named objects, have a single corresponding past cone as its id knowledge. The instantiation is related to the "participation" in Plato's [Theory of Forms](https://en.wikipedia.org/wiki/Theory_of_forms).
+					- ((6651ecba-793d-43c5-8020-a9f260b032d8)) When a signal from the ((66ea4711-1392-4f5c-bea2-badc71a2fb9e)) reaches a node in the ((66ea8d84-c766-4c47-b06c-a0b57a530096)), that node is activated and it creates a new ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) of itself on the screen. This new instance is combined to the source of the signal to develop the ((66ea8e12-7c30-449b-9139-bfd8d82394d7)), similar to the [object construction in OOP](https://en.wikipedia.org/wiki/Instance_(computer_science)). Each cycle of this process is call an ((66ea4597-f085-4f38-95f7-91bf5cd61b1c)). Each object on the screen is usually composed of several instances of several ((66ea8df3-d2f3-4856-b24a-5095dd285f9b))s. Only some special objects like the self body, the named objects, have a single corresponding past cone as its id knowledge. The instantiation is related to the “participation” in Plato's [Theory of Forms](https://en.wikipedia.org/wiki/Theory_of_forms).
 					  id:: 66ea9a0f-72df-42b6-8d72-fcc021ed5776
 					  :LOGBOOK:
 					  CLOCK: [2024-09-18 Wed 16:22:05]
 					  :END:
 					- instance
 					  id:: 66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe
-						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) is a concrete ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) activated by another being from an abstract model. We say that “the instance of a model is instantiated from that model.”
+						- ((6651ecba-793d-43c5-8020-a9f260b032d8)) An ((66eaa84b-6ea5-4ae8-939b-f80fd3bf6afe)) is a ((68932044-a013-4cc6-b468-df8f3a43103c)) ((678e1c3f-6202-45aa-8527-f4bdad9927b9)) activated by another being from an abstract model. We say that “the instance of a model is instantiated from that model.”
 			- ### conscious circle
 			  id:: 66ea5808-8452-4ae9-8eb8-2ef64004bfcf
 			  :LOGBOOK:
@@ -4998,7 +5433,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  > I'm just a no-one going nowhere to do nothing!
 			  
 			  This short introduction appears in most of my profiles. It may sounds Buddhist and Daoist but these "sounds" and interpretations are very far from my original intention.
-				- With this statement, i mean that “I’m just a humble person, not chasing status or legacy; I live a simple life without big ambitions, doing what matters to me — even if it looks like nothing, meaningless or even ridiculous to others.”
+				- With this statement, i mean that “I’m just a humble person, not chasing status or legacy; I live a simple life without big ambitions, doing what matters to me – even if it looks like nothing, meaningless or even ridiculous to others.”
 				- However, i've accidentally ackowledged that some of my friends interpret it as a transcendent status of selflessness ([anattā](https://en.wikipedia.org/wiki/Anatt%C4%81), 無我, vô ngã), Krishnamurti's [pathless land](https://jkrishnamurti.org/about-dissolution-speech), and Daoist [wu wei](https://en.wikipedia.org/wiki/Wu_wei) (無為, vô vi). Today, asking ChatGPT, the same interpretation was given again!
 				- I don't know if these thoughts and ideals affected my introduction, but i've never intended to mean them with that statement.
 					- Living in the Vietnamese culture, more or less i must be affected by these ideals, and actually developing toward them.
@@ -5171,6 +5606,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- ((66602f68-e23f-4b24-921e-b1a9fc0cc731)) Instead of ~~[aiming at the destination](((684f9517-db29-4079-8674-09e0ffaff6ba)))~~, let's [reset](((67445065-15b2-475e-a704-78f140d487af))) the mind to _**start** the new journey!_
 								- [Fb post](https://www.facebook.com/share/p/vnZFSzUcr3mr2JyG/) on Nov 15th 2024, one month before [the first active reset within a day](((6768bf20-deec-41bf-ac18-adc753ebb15f))).
 						- The ((6678282b-d710-4c6b-b584-5f65012c192d)) effect
+						  id:: 684f9517-b752-4c07-98d8-bfab5d8ed79e
 						  collapsed:: true
 							- The great **momentum** of the past is the internal form.
 							  id:: 684f9517-bf26-42df-a02f-937c95e1f80e
@@ -5179,7 +5615,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- The clearly visible **goal** of the future is the external form, which reflects the inner core, e.g. my ((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0)), crystalized from karma of the past.
 								- The clarity of the external goal shows that it's very large, like the Sun & Moon. This mirrors the internal (hidden) core which is hard and heavy, like the singularity of a black hole.
 								- Just be mindful that although it's worth pursuing, it's still **very far**, i.e. [the goal is the horizon](((67445223-9459-4aa9-b102-70c63943577b))).
-							- The ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) is to divide the form, the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) is to dissolve the form and direct it to the new form.
+							- We can use the ((669a5162-19e1-4c52-8888-ab7cbfe275ec)) technique to divide the form, and the ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) to dissolve the form and direct it to the new form.
 							- Mindfulness as a hole-punching tool to escape the form.
 							  id:: 684f9517-b730-4cc1-9eb1-54bb81ed78c4
 								- The tantric practice shows that both the accumulation of momentum and the "finish soon" effect require ignorance in the form of attachment to the external signal (sign of the goal).
@@ -5244,6 +5680,19 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 										  > Within the Western tradition, I think it's quite new, and quite shocking, because there's been much more of a sense of separation. But if you look at other non-Western cultures, especially in Asia, the emphasis on those has always been on the realization that the self and the world are not separate from each other, that they're really interconnected: that the individual self and the species as a whole is a manifestation of the large whole.
 										- Frank White
 										  > As you go into your mind in a contemplative way, the sense of the living reality of the planet becomes obvious, you become more in tune with the natural world. This is very akin to the direct perception that the astronauts have, so it's no wonder that many people have likened the Overview Effect to a spiritual or meditative experience, although it's not exactly that. It's a cognitive shift, that very often can produce a kind of meditative experience.
+					- The deathtrap of opportunity
+					  id:: 68adb0c5-e979-475e-8432-730d9d8970bc
+						- From natural traps like cave, social traps like gambling, to man-made traps of animals and [feigned retreat](https://en.wikipedia.org/wiki/Feigned_retreat) tactic, all these traps have the same set of features.
+						- Most of the works i'm trapped in, e.g. modeling the [twisted double i](((68a520c4-6a2e-4db9-8806-c4b4e55390e8))) from [19th](((68a520c4-b31e-4256-bdfd-3e6f249ea0b9))) to [25th](((68ac6971-f8ff-4cd1-9084-06b5f298d928))), are deathtraps of opportunity:
+							- ((669a58b9-1a52-4ad7-932a-9e45ecb9960e))
+							- ((6736bd1e-5835-46e4-b640-dd35b3fe7c90))
+							- ((684f9517-b752-4c07-98d8-bfab5d8ed79e))
+							- there's always a way ahead;
+							- no strong opposition or constraint to force backing off;
+							- strong urge (karma) to advance toward the target.
+						- Opportunity is just a bait of the snare 😜!
+							- “Better shun the bait, than struggle in the snare.” 
+							  ― John Dryden
 					- Brain dumping tools, like ((66536e1b-6466-4153-90d6-583003d99a81)), can help reducing mental load & momentum, so that i can switch easier.
 					  id:: 66b1cfa4-369c-49ec-a461-cdda61633460
 					  collapsed:: true
@@ -5272,7 +5721,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- when it's too deep with analytics (differential), it's too abstract, lacking context, groundless, formless, messy, collapsed, the object is sliced into disconnected parts
 						- traversal on the breadth with SCIFER provides context, condition (duyên), and form to stretch the loop out to be a full circle 🌕, to be the whole
 						- However, ((67a5d140-31e4-451d-a8ea-33fa6927ce99))
-				- [!] The issue of love, i.e. emotional attatchment
+				- [!] The issue of love, i.e. emotional attachment
 				  id:: 67b541cf-323e-4efd-8d6e-ccb2c9d017ff
 				  collapsed:: true
 					- Deep inside, i feel the suffering of people as my suffering... but it seems to be my too much magnification via my own lens.
@@ -5447,7 +5896,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- ((665359c3-61fd-4858-a117-ecbcd6fbc9ea)) https://blacksmithgu.github.io/obsidian-dataview/
 					- GitHub: https://github.com/blacksmithgu/obsidian-dataview
 					- Custom settings:
-						- Inline query prefix: use `` `dv::` `` instead of the default `` `=` `` because ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (`=`) is the central symbol in [[Unïnfo Theory]].
+						- Inline query prefix: use `` `dv::` `` instead of the default `` `=` `` because ((6653751a-a1b4-44b0-a81e-0a446eb8918c)) (`=`) is the central symbol in [[Unïnfo Theory]].
 				- Obsidian Importer
 				  id:: 665376f4-9335-4d38-843f-a4cf6ef6cd10
 				  collapsed:: true
@@ -7326,6 +7775,20 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  contains Electron's preferences: `devtools`, `spellcheck`, ...
 				- `Cookies`
 					- [?] can we add cookies, e.g. for YouTube login, here?!
+						- Test Youtube clip: error when play under VPN: `Sign in to confirm you’re not a bot`
+						  id:: 68a2d52c-0a16-4214-8004-123babd4b841
+						  collapsed:: true
+							- With `video` tag
+							  {{video https://youtu.be/PvFr36bcpYc}}
+							- With `youtube` tag
+							  {{youtube https://youtu.be/PvFr36bcpYc}}
+						- The sign-in requirement seems to be launched by YouTube from 2024 to prevent all VPNs from watching YouTube without login (tested with external browser!).
+							- [How to watch youtube while always-on VPN is present?](https://discuss.privacyguides.net/t/how-to-watch-youtube-while-always-on-vpn-is-present/23564)
+						- [YouTube authentication for embedded videos?](https://discuss.logseq.com/t/youtube-authentication-for-embedded-videos/6696)
+							- This one requests authentication cookies for YouTube Premium only.
+						- Issue [Youtube Embeds Are Not Working](https://github.com/logseq/logseq/issues/12031) with commit [fix: don't send cookie to youtube website on electron](https://github.com/logseq/logseq/commit/6ba561fb)
+							- [Version 0.10.13](https://github.com/logseq/logseq/releases/tag/0.10.13) still has the error: ((68a2d52c-0a16-4214-8004-123babd4b841))
+							- That means this issue is different from the "YouTube login" issue.
 		- ((66535a44-8a13-4d5a-808e-10baa97ebaf0))
 		  id:: 66faa5f9-9402-4889-8881-dbdc8f179a30
 		  collapsed:: true
@@ -7381,18 +7844,160 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			- [Emoji picker (logseq-emoji-picker-fork)](https://github.com/walsvid/logseq-emoji-picker-fork) provides the slash commandn `/emoji picker` to search and pick up an [emoji](https://en.wikipedia.org/wiki/Emoji) to insert to the editor cursor. 😊
 			  collapsed:: true
 				- This plugin uses the mapping [emoji-lib.json](https://github.com/DailyBotHQ/universal-emoji-parser/blob/main/src/lib/emoji-lib.json) of `universal-emoji-parser`.
-			- [Ollama (`ollama-logseq`)](https://github.com/omagdy7/ollama-logseq) to chat with [Ollama](https://github.com/jmorganca/ollama)
+			- [AssistSeq `logseq-plugin-assistseq-ai-assistant`](https://github.com/galihlprakoso/logseq-plugin-assistseq-ai-assistant) to chat with **context** from current page and some backlinks.
+			  id:: 68be4ad9-b2de-4ac7-ad17-6b5ac8478ac9
 			  collapsed:: true
+				- This project has been abandoned 2024 October: only support Gemini 1.5 Flash.
+				- The context is parsed by embedding model (`gemini-embedding-001`), but it seems not working! 🙁
+			- [Ollama (`ollama-logseq`)](https://github.com/omagdy7/ollama-logseq) to chat with [Ollama](https://github.com/jmorganca/ollama) (local LLM) about **current page/block**.
+			  id:: 684f9516-b179-4c37-9feb-f08781466afa
 			  :LOGBOOK:
 			  CLOCK: [2025-03-06 Thu 20:02:08]
 			  CLOCK: [2025-03-06 Thu 20:02:40]--[2025-03-06 Thu 20:10:01] =>  00:07:21
 			  :END:
-				- Ref: [LogSeq: AI Powered Notes (with Ollama)](https://fossengineer.com/selfhosting-logseq/#making-logseq-better)
+			- [AI Assistant (`logseq-plugin-ai-assistant`)](https://github.com/ahonn/logseq-plugin-ai-assistant) to ask **OpenAI (paid!) models** to do something about current text (block): summarize, explain, etc.
+			  id:: 68be4a6e-f672-4892-b072-732eb034fac9
+			- [Feched Code Plus (`logseq-fenced-code-plus`)](https://github.com/xyhp915/logseq-fenced-code-plus) to render additional types of fenced code: [mermaid](https://mermaid.js.org/), [echarts](https://echarts.apache.org/en/index.html), [TikZJax](https://tikzjax.com/).
+			  id:: 68ad8f51-795d-4f17-ad90-f8b97968e478
+			  collapsed:: true
+				- For ECharts, only support `option` as the only content in **JSON** format. The dark theme is supported well for ECharts.
+				- Don't turn TikZJax on, or it will slow everything down, or even crash!
+				- Mermaid
+				  id:: 68ad91c4-0083-432f-a90d-e2401b072919
+				  collapsed:: true
+					- Flowchart
+						- ```mermaid
+						  flowchart LR
+						      markdown --> newLines
+						      markdown["`_Left-to-Right_ **flowchart**`"]
+						      newLines["
+						          Line 1
+						          Line 2
+						          Line 3
+						      "]
+						  ```
+						- ```mermaid
+						  flowchart TD
+						  	Top --> DB --> Bottom
+						      Top([stadium-shaped node])
+						      DB[(Database)]
+						      Bottom[[subroutine]]
+						  ```
+					- Sequence diagram
+						- ```mermaid
+						  sequenceDiagram
+						  	I -->> GitLab: view
+						  	I ->> +GitLab: checkout
+						      note right of GitLab: Note: This process runs on GitLab server.
+						  	GitLab -->> -I: {code}
+						  ```
+				- ECharts
+				  collapsed:: true
+					- Smooth line chart
+						- ```echarts
+						  {
+						    "xAxis": {
+						      "type": "category",
+						      "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+						    },
+						    "yAxis": {
+						      "type": "value"
+						    },
+						    "series": [
+						      {
+						        "data": [820, 932, 901, 934, 1290, 1330, 1320],
+						        "type": "line",
+						        "smooth": true
+						      }
+						    ]
+						  }
+						  ```
+					- Bar chart
+						- ```echarts
+						  {
+						    "xAxis": {
+						      "type": "category",
+						      "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+						    },
+						    "yAxis": {
+						      "type": "value"
+						    },
+						    "series": [
+						      {
+						        "data": [120, 200, 150, 80, 70, 110, 130],
+						        "type": "bar"
+						      }
+						    ]
+						  }
+						  ```
+					- Pie chart
+						- ```echarts
+						  {
+						      "tooltip": {
+						          "trigger": "item"
+						      },
+						      "legend": {
+						          "top": "5%", "left": "center"
+						      },
+						      "series": [{
+						          "name": "Access From", "type": "pie", "radius": ["40%", "70%"], "avoidLabelOverlap": false,
+						          "itemStyle": {
+						              "borderRadius": 10, "borderColor": "#fff", "borderWidth": 2
+						          },
+						          "label": {
+						              "show": false, "position": "center"
+						          },
+						          "emphasis": {
+						              "label": {
+						                  "show": true, "fontSize": 40, "fontWeight": "bold"
+						              }
+						          },
+						          "labelLine": {
+						              "show": false
+						          },
+						          "data": [{
+						              "value": 1048, "name": "Search Engine"
+						          }, {
+						              "value": 735, "name": "Direct"
+						          }, {
+						              "value": 580, "name": "Email"
+						          }, {
+						              "value": 484, "name": "Union Ads"
+						          }, {
+						              "value": 300, "name": "Video Ads"
+						          }]
+						      }]
+						  }
+						  
+						  ```
+				- TikZ (very buggy & limited!)
+				  id:: 68ad9d41-99c1-4c02-9b3d-2ff9d9a7bb37
+				  collapsed:: true
+					- A simple circle
+						- ```tikz
+						  \begin{tikzpicture}
+						    \draw circle (1);
+						  \end{tikzpicture}
+						  ```
+					- Circles & square in Cartesian coordinates
+						- ```tikz
+						  \begin{tikzpicture}
+						    \draw[thin,dotted] (-3,-3) grid (3,3);
+						    \draw[->] (-3,0) -- (3,0);
+						    \draw[->] (0,-3) -- (0,3);
+						    \draw[very thick, blue] (-2,-2) -- (-2,2)
+						      -- (2,2) -- (2,-2) -- cycle;
+						    \draw[very thick, blue] (-2,-2) circle (1) (-2,2)
+						      circle (1) (2,2) circle (1) (2,-2) circle (1);
+						  \end{tikzpicture}
+						  ```
 			- [Markdown Table (`logseq-markdown-table`)](https://github.com/haydenull/logseq-plugin-markdown-table) to easily handle Markdown tables.
 			  id:: 6864f88c-8987-4b0e-8151-0d41f5830a70
 			- [Table Renderer (`logseq-tablerender-plugin`)](https://github.com/benjypng/logseq-tablerender-plugin) to render tables from data from in blocks, supporting basic statistics like `sum`, `average`, `median`, `mode`.
 			  id:: 6864f9b7-2daa-4ad4-b496-063722e86f73
 			- [Bullet Threading (`logseq-bullet-threading`)](https://github.com/pengx17/logseq-plugin-bullet-threading) to thread the current block with its ancestors, like in the breadcrumbs.
+			- [Diagrams as Code `logseq-diagrams-as-code`](https://github.com/npgrosser/logseq-diagrams-as-code) to create diagrams from the code block in the first child of the diagram block. It supports a wide range of diagram types and languages through [Kroki API](https://kroki.io/), including Mermaid, Graphviz, PlantUML, D2, [Structurizr](https://structurizr.com/)/[C4](https://en.wikipedia.org/wiki/C4_model), etc.
+			- [Mermaid (`logseq-mermaid-plugin`)](https://github.com/benjypng/logseq-mermaid-plugin) to create mermaid diagrams in image format on-the-fly, using the `mermaid` code block in the first child of the diagram block. This render large diagrams too **slowly**, use [logseq-fenced-code-plus](((68ad8f51-795d-4f17-ad90-f8b97968e478))) instead!
 		- ((665dcac9-5698-496c-9a14-c5c0425d0998))
 			- Check rendered result at [[Theme Demo]].
 			- DONE Compose [[logseq/custom.css]] from Logseq's built-in `style.css` & Ozean Theme's `main.css`.

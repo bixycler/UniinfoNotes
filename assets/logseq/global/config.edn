@@ -53,6 +53,7 @@
  ;; Display brackets [[]] around page references.
  ;; Default value: true
  ;; :ui/show-brackets? true
+ :ui/show-brackets? false
 
  ;; Display all lines of a block when referencing ((block)).
  ;; Default value: false
@@ -272,7 +273,7 @@
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;; Shorthands & special terms
 
-    ["Uniinfo" "Unïnfo"]
+    ["Uniinfo" "Unïnfo"]
 
     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;; Quotation Marks & Brackets

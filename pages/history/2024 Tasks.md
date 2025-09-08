@@ -1,6 +1,6 @@
 ## 2024 Tasks
 id:: 67761267-06ef-4f0d-876a-bd354b896681
-	- DONE Import [[Unïnfo Theory]] from ((66536662-052f-46a4-a624-38858bffb334)) with ((665376f4-9335-4d38-843f-a4cf6ef6cd10)) ✅ 2024-05-18
+	- DONE Import [[Unïnfo Theory]] from ((66536662-052f-46a4-a624-38858bffb334)) with ((665376f4-9335-4d38-843f-a4cf6ef6cd10)) ✅ 2024-05-18
 	  id:: 66600918-db5b-43cb-9ce2-c88487b817a3
 	- DONE Sync PC with mobile via GitHub & ((6653743f-8847-4b24-8c21-795c87254eb2)) ✅ 2024-05-19
 	  collapsed:: true
