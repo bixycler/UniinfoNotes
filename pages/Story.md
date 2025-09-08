@@ -3352,8 +3352,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Unïnfo site
 						- [14001986](https://github.com/bixycler/Uniinfo/commit/14001986): Add [robots.txt](https://bixycler.github.io/Uniinfo/robots.txt) & [sitemap.xml](https://bixycler.github.io/Uniinfo/sitemap.xml)
 						- Added `sitemap.xml` manually, because it has not been discovered automatically by Google.
-							- But it's also reported “Sitemap could not be read” 🙁
-							- while the link ``
+							- `Sitemap submitted successfully` notified → click the line `/sitemap.xml`
+							  collapsed:: true
+								- ![Sitemap submitted successfully.png](../assets/Will/story/2025-09/Sitemap submitted successfully.png)
+							- → Click the link `OPEN SITEMAP` at the top right corner → open the correct sitemap.
+							- But it's reported `Sitemap could not be read` 🙁
+							  collapsed:: true
+								- ![Sitemap could not be read.png](../assets/Will/story/2025-09/Sitemap could not be read.png)
 			- 24th, ((6882164a-8717-4fd4-a660-4fdeb424af70))
 			  collapsed:: true
 				- Will Lei's cover of [Canon in D](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon) in [Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ)
