@@ -211,8 +211,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Data store: `$HOME/.config/anythingllm-desktop/`
 							- The `{user.name}` &`{user.bio}` are only available on Server/Docker (with multi-user mode), not available on Desktop version.
 							- System prompt change will take no effect after some prompts, after the momentum (habit) sets in!
+							  id:: 68bfdd91-5882-498f-8973-1f0d2ed8a59f
 								- The values `{time}` and `{datetime}` will just be guessed from then on, hence very lagging.
 									- Thig timestamp lag also appeared on the chat with Copilot when i asked it to print timestamp.
+							- Chatbot can see history + current prompt + contexts (text chunks), but cannot see system prompt.
+							  id:: 68bff76e-cea0-422d-bc9f-fd6456ef2865
 					- GraphRAG
 					  collapsed:: true
 						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/microsoft/graphrag

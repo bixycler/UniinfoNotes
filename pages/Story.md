@@ -4087,7 +4087,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- `Conservation of content`
 							- `universal content`
 								- `sustent`
-						- With the vector DB option `Accuracy Optimized` (reranking), the block of the law can be retrieved in... half a minute!
+						- With the vector DB option `Accuracy Optimized` (reranking), the block of the law can be retrieved in... half a minute (first time for reranking)! The later times go faster, comparable to the `Default` (no reranking) option.
+					- ((68bfdd91-5882-498f-8973-1f0d2ed8a59f))
+					- ((68bff76e-cea0-422d-bc9f-fd6456ef2865))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
