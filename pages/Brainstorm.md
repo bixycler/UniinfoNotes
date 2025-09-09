@@ -34,20 +34,21 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- DOING Complementarity
+		- DOING Manifestations of complementarity
 		  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-09-09 Tue 10:29:12]
 		  CLOCK: [2025-09-09 Tue 10:29:33]
 		  :END:
-			- From general to specific, the
-			- 1. Law of Inverse Variation between Intension and Extension (Logic & Semantics)
-			  2. Law of Inverse Variation between Intent and Extent (Uniinfo)
-			  3. Principle of Complementarity (from Ancient Eastern Philosophy to Modern Science)
-			- [Niels Bohr](https://en.wikipedia.org/wiki/Niels_Bohr)'s [coat of arms](https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Niels_Bohr.svg) features a [yin–yang](https://en.wikipedia.org/wiki/Yin_and_yang) [taijitu](https://en.wikipedia.org/wiki/Taijitu) and a motto in Latin “contraria sunt complementa” (“opposites are complementary”).
-			  collapsed:: true
-				- ![Coat_of_Arms_of_Niels_Bohr.svg.png](../assets/Will/story/2025-09/Coat_of_Arms_of_Niels_Bohr.svg.png)
+			- From general to specific, the Principle of Complementarity manifests in 3 forms.
+				- 1. Principle of Complementarity (from Ancient Eastern Philosophy to Modern Science)
+					- [Niels Bohr](https://en.wikipedia.org/wiki/Niels_Bohr)'s [coat of arms](https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Niels_Bohr.svg) features a [yin–yang](https://en.wikipedia.org/wiki/Yin_and_yang) [taijitu](https://en.wikipedia.org/wiki/Taijitu) and a motto in Latin “contraria sunt complementa” (“opposites are complementary”).
+					  collapsed:: true
+						- ![Coat_of_Arms_of_Niels_Bohr.svg.png](../assets/Will/story/2025-09/Coat_of_Arms_of_Niels_Bohr.svg.png)
+					- Bohr designed this coat of arms to show that [complementarity](https://en.wikipedia.org/wiki/Complementarity_(physics)), , is fundamental to [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics).
+				- 2. Law of Inverse Variation between Intent and Extent (Unïnfo)
+				- 3. Law of Inverse Variation between Intension and Extension (Logic & Semantics)
 		- “Every empty point is the whole world, the whole life!”
 		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 		  collapsed:: true
