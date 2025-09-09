@@ -147,7 +147,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Ref: [reddit:r/LocalLLM](https://www.reddit.com/r/LocalLLM/)
 					- [Ollama server](https://github.com/ollama/ollama)
-						- Phi-4 Mini (3.8B):
+						- Phi-4 Mini (3.8B): on CPU only (no GPU), it's a good choice for efficiency and strong **reasoning** abilities.
+						- Llama 3.2 (3B): for content creation and **agentic** workflows, along with multilingual support.
+						- Gemma 3 (4B): for tasks requiring long **context** (128k window) and broad language support.
 					- [Open WebUI](https://github.com/open-webui/open-webui)
 						- Open WebUI supports [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation).
 					- [LocalAI](https://github.com/mudler/LocalAI)
