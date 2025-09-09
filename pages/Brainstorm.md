@@ -48,8 +48,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- ![Coat_of_Arms_of_Niels_Bohr.svg.png](../assets/Will/story/2025-09/Coat_of_Arms_of_Niels_Bohr.svg.png)
 					- Bohr designed this coat of arms to show that [complementarity](https://en.wikipedia.org/wiki/Complementarity_(physics)) – an ancient Chinese philosophy in [Taoism](https://en.wikipedia.org/wiki/Taoism) – is fundamental to [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics).
 				- 2. Law of Inverse Variation between Intent and Extent (Unïnfo)
+					- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the complementarity of ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) and  in the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) formula,
 				- 3. Law of Inverse Variation between Intension and Extension (Logic & Semantics)
-					- This [key principle in logic & semantics](https://philosophy.institute/logic/inverse-variation-principle-logic-extension-intension/) relates .
+					- This [key principle in logic & semantics](https://philosophy.institute/logic/inverse-variation-principle-logic-extension-intension/) relates [intension and extension](https://en.wikipedia.org/wiki/Intension) – the two complements of a word.
 		- “Every empty point is the whole world, the whole life!”
 		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 		  collapsed:: true
