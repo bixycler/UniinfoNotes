@@ -4075,7 +4075,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2025-09-09 Tue 12:55:42]--[2025-09-09 Tue 13:18:09] =>  00:22:27
 				  :END:
-					- The main pull/push remote is set to `UniinfoNotes-mobile`, but both remotes should be synced: mobile, origin/mobile, mobile/mobile
+					- The main pull/push remote is set to `UniinfoNotes-mobile`, but both remotes should be synced: `mobile` = `origin/mobile` = `mobile/mobile`
 				- ((68bf9f05-4545-4f07-ad27-9ed4409af1ae))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
