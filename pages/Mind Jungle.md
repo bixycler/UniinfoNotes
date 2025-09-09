@@ -153,6 +153,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [LMStudio](https://github.com/lmstudio-ai)
 					- [GPT4All](https://github.com/nomic-ai/gpt4all)
 				- Free LLM APIs
+				  id:: 68be308b-881b-456f-9782-333ef40c52bb
 				  collapsed:: true
 					- [ApiFreeLLM](https://www.apifreellm.com/)
 						- No registration, no API key needed, unlimited API calls, only rate limits (to prevent abuse).
@@ -178,6 +179,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- [Founded in 2019](https://en.wikipedia.org/wiki/Cohere) by former researchers of Google Brain.
 						- Max free requests: 20/min, 1k/month
 				- Data indexer for LLM (with [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database))
+				  id:: 68beba04-5cba-4eca-bc33-6589bf06bfce
 				  collapsed:: true
 					- LlamaIndex
 					  id:: 68be308b-ccec-425c-b5eb-6b1c83f75725

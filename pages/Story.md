@@ -4056,7 +4056,18 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-09-08 Mon 14:23:19]
 		  :END:
 			- Let's try applying [my technique](((68be308b-9135-44cd-b2c4-690a267fb8c2))) and integrate the previous [experience](((68b79197-1244-4b42-b79f-464cfc8433a1))) to the work and life.
-			- Sep 8th, ...
+			- Sep 8th, the whole day caught up with LLM & RAG to index UniinfoNotes, then ((68bfc115-dcbf-4e2b-b13e-afa3be10f9b5)).
+				- ((68be308b-881b-456f-9782-333ef40c52bb))
+				- ((68beba04-5cba-4eca-bc33-6589bf06bfce))
+				- AI in [DIKW Pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid)
+				  id:: 68bfc115-dcbf-4e2b-b13e-afa3be10f9b5
+					- Linear data (raw)
+					- Folded info (indexed, compressed)
+					- Structured knowledge (format, tree, graph, algorithm)
+					- Balanced wisdom (obop, uninet, autonoton)
+						- Obop use the old knowledge to balance the imbalance (new info, problem, question) into new knowledge (integrated info, result, answer).
+						- The imbalance is the dynamic arrow driving the effect circle. => Must be active or lost.
+						- The balanced result is the new circle crystallized from the static/stable effect circle. => Can be put down into storage.
 				-
 			- Sep 9th,
 				- DONE Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
