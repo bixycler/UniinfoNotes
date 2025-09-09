@@ -476,7 +476,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Though empty, the central role of the self-essence in the self makes it essential to every self.
 					- All parts of the self-circle are integrated by focusing on the same center. Via that center, they all are one, seeing/feeling/treating each other as the same ((66c810a0-9861-4787-bdcf-1378219332be)) of self.
 					- When a self-circle loses its center, it just ceases to exist as itself and disintegrates into smaller circles.
-					- Such essence of the empty center is can be seen in the hub of the wheel.
+					- Such essence of the empty center can be seen in the hub of the wheel.
 						- [wheel of dharma](https://en.wikipedia.org/wiki/Dharmachakra)
 							- ![Dharma_Wheel.svg](../assets/Uniinfo/Metaphysics/Dharma_Wheel.svg){:width 100}
 						- #+BEGIN_QUOTE
