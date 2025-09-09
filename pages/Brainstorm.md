@@ -34,6 +34,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- DOING Complementarity
+		  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-09-09 Tue 10:29:12]
+		  CLOCK: [2025-09-09 Tue 10:29:33]
+		  :END:
+			-
 		- “Every empty point is the whole world, the whole life!”
 		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 		  collapsed:: true
