@@ -3947,6 +3947,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- For revolutionaries or idealists, “strength” means unyielding pursuit of a goal (no compromise, no middle).
 							- For Buddhists, “strength” means not being swayed to extremes (the harder path of balance, self-mastery).
 				- The Git repo of ((666baccf-6be1-4b9a-b186-f883ea04daf1)) has bloated to 1.2GB after a year!
+				  id:: 68be3302-6159-44e9-9292-b555320cf3a6
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-09-08 Mon 08:37:10]
@@ -4056,7 +4057,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- Let's try applying [my technique](((68be308b-9135-44cd-b2c4-690a267fb8c2))) and integrate the previous [experience](((68b79197-1244-4b42-b79f-464cfc8433a1))) to the work and life.
 			- Sep 8th, ...
+				-
 			- Sep 9th,
+				- DONE Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
+				  :LOGBOOK:
+				  CLOCK: [2025-09-09 Tue 12:55:42]--[2025-09-09 Tue 13:18:09] =>  00:22:27
+				  :END:
 				- ((68bf9f05-4545-4f07-ad27-9ed4409af1ae))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c

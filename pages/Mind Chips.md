@@ -1,7 +1,3 @@
-- DOING Add a `mobile` remote repo to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile).
-  :LOGBOOK:
-  CLOCK: [2025-09-09 Tue 12:55:42]
-  :END:
 - Pyramid:
 	- Linear data (raw)
 	- Folded info (indexed, compressed)
