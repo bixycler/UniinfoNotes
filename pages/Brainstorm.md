@@ -41,7 +41,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-09-09 Tue 10:29:12]
 		  CLOCK: [2025-09-09 Tue 10:29:33]
 		  :END:
-			-
+			- From general to specific, the
+			- 1. Law of Inverse Variation between Intension and Extension (Logic & Semantics)
+			  2. Law of Inverse Variation between Intent and Extent (Uniinfo)
+			  3. Principle of Complementarity (from Ancient Eastern Philosophy to Modern Science)
+			- [Niels Bohr](https://en.wikipedia.org/wiki/Niels_Bohr)'s [coat of arms](https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Niels_Bohr.svg) features a [yin–yang](https://en.wikipedia.org/wiki/Yin_and_yang) [taijitu](https://en.wikipedia.org/wiki/Taijitu) and a motto in Latin “contraria sunt complementa” (“opposites are complementary”).
+			  collapsed:: true
+				- ![Coat_of_Arms_of_Niels_Bohr.svg.png](../assets/Will/story/2025-09/Coat_of_Arms_of_Niels_Bohr.svg.png)
 		- “Every empty point is the whole world, the whole life!”
 		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 		  collapsed:: true
