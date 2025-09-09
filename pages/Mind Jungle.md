@@ -178,15 +178,24 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- [Cohere](https://cohere.com/)
 						- [Founded in 2019](https://en.wikipedia.org/wiki/Cohere) by former researchers of Google Brain.
 						- Max free requests: 20/min, 1k/month
-				- Data indexer for LLM (with [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database))
+				- Document indexer for LLM ([RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database) or [graph database](https://en.wikipedia.org/wiki/Graph_database))
 				  id:: 68beba04-5cba-4eca-bc33-6589bf06bfce
 				  collapsed:: true
 					- LlamaIndex
 					  id:: 68be308b-ccec-425c-b5eb-6b1c83f75725
+					  collapsed:: true
 						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/run-llama/llama_index
 						- LlamaIndex allows users to extract and ingest data from various sources, and then store and query it as a knowledge graph within [NebulaGraph](https://github.com/vesoft-inc/nebula).
+						- LlamaIndex' [knowledge graph](https://www.llamaindex.ai/blog/building-knowledge-graph-agents-with-llamaindex-workflows): `KnowledgeGraphIndex` & [`KnowledgeGraphQueryEngine`](https://docs.llamaindex.ai/en/stable/examples/query_engine/knowledge_graph_query_engine/), [`KnowledgeGraphRAGQueryEngine`](https://docs.llamaindex.ai/en/stable/examples/query_engine/knowledge_graph_rag_query_engine/) (hybrid graph + vector)
+							- Indexing
+								- LLM-based `KnowledgeGraphIndex`, or
+								- Program-based `nbb-logseq` parser to JSON for LlamaIndex or Neo4j ingestion.
+							- Querying
+								- LLM-based `KnowledgeGraphQueryEngine`, or
+								- Graph DB query like Cypher.
 					- AnythingLLM
 					  id:: 68be308b-f247-4c5a-b8b7-96a3fbc8a25b
+					  collapsed:: true
 					  All-in-one AI application with RAG, AI Agents, etc.
 						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/Mintplex-Labs/anything-llm
 						- Generative LLMs: various cloud APIs (Gemini, OpenAI, ...) and local APIs (Ollama, LocalAI, LM Studio)
@@ -201,6 +210,17 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- Executive: `anythingllm-desktop/AppRun`
 							- Data store: `$HOME/.config/anythingllm-desktop/`
 							- The `{user.name}` &`{user.bio}` are only available on Server/Docker (with multi-user mode), not available on Desktop version.
+					- GraphRAG
+					  collapsed:: true
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/microsoft/graphrag
+						- Microsoft: Extract meaningful, structured data from unstructured text using the power of LLMs.
+						- ⚠️ Warning: GraphRAG indexing can be an expensive operation!
+						- Indexing
+							- Black-box LLM generates a semantic knowledge graph (nodes = entities, edges = relations) from your documents.
+							- The graph is stored internally (no fine control over schema, entity granularity, or edge types).
+						- Querying
+							- Your natural-language query is interpreted by LLM → turned into a graph query (retrieving relevant nodes + their neighbors).
+							- Retrieved subgraph is combined with chunked text for final answer generation.
 					- MemFree
 						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/memfreeme/memfree
 				-

@@ -4057,6 +4057,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :END:
 			- Let's try applying [my technique](((68be308b-9135-44cd-b2c4-690a267fb8c2))) and integrate the previous [experience](((68b79197-1244-4b42-b79f-464cfc8433a1))) to the work and life.
 			- Sep 8th, the whole day caught up with LLM & RAG to index UniinfoNotes, then ((68bfc115-dcbf-4e2b-b13e-afa3be10f9b5)).
+			  collapsed:: true
 				- ((68be308b-881b-456f-9782-333ef40c52bb))
 				- ((68beba04-5cba-4eca-bc33-6589bf06bfce))
 				- AI in [DIKW Pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid)
@@ -4074,6 +4075,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :LOGBOOK:
 				  CLOCK: [2025-09-09 Tue 12:55:42]--[2025-09-09 Tue 13:18:09] =>  00:22:27
 				  :END:
+					- The main pull/push remote is set to `UniinfoNotes-mobile`, but both remotes should be synced: mobile, origin/mobile, mobile/mobile
 				- ((68bf9f05-4545-4f07-ad27-9ed4409af1ae))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
