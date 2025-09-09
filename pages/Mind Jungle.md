@@ -211,7 +211,6 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Data store: `$HOME/.config/anythingllm-desktop/`
 							- The `{user.name}` &`{user.bio}` are only available on Server/Docker (with multi-user mode), not available on Desktop version.
 							- System prompt change will take no effect after some prompts, after the momentum (habit) sets in!
-								- Seems that system updates, like embedding update, do make new system prompt effective.
 								- The values `{time}` and `{datetime}` will just be guessed from then on, hence very lagging.
 									- Thig timestamp lag also appeared on the chat with Copilot when i asked it to print timestamp.
 					- GraphRAG
