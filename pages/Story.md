@@ -4070,7 +4070,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The imbalance is the dynamic arrow driving the effect circle. => Must be active or lost.
 						- The balanced result is the new circle crystallized from the static/stable effect circle. => Can be put down into storage.
 				-
-			- Sep 9th,
+			- Sep 9th, ((68bfefa1-b4e8-42e5-890f-de1daccaf61a))
 				- DONE Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
 				  :LOGBOOK:
 				  CLOCK: [2025-09-09 Tue 12:55:42]--[2025-09-09 Tue 13:18:09] =>  00:22:27
@@ -4078,6 +4078,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The main pull/push remote is set to `UniinfoNotes-mobile`, but both remotes should be synced: `mobile` = `origin/mobile` = `mobile/mobile`
 				- ((68bf9f05-4545-4f07-ad27-9ed4409af1ae))
 				- Tested ((68be308b-f247-4c5a-b8b7-96a3fbc8a25b)) over UniinfoNotes
+				  id:: 68bfefa1-b4e8-42e5-890f-de1daccaf61a
 					- RAG with vector of text chunks
 						- The block ((678e2046-54ac-4284-865d-6f3e38f589a1)) cannot be retrieved even when most of its contents are explicitly prompted:
 						  collapsed:: true
