@@ -198,6 +198,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- App binary: `$HOME/AnythingLLMDesktop`/{`AnythingLLMDesktop.AppImage` → `anythingllm-desktop/`}
 								- Executive: `anythingllm-desktop/AppRun`
 							- Data store: `$HOME/.config/anythingllm-desktop/`
+							- The `{user.name}` &`{user.bio}` are only available on Server/Docker (with multi-user mode), not available on Desktop version.
 					- MemFree
 						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/memfreeme/memfree
 				-
