@@ -49,7 +49,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- Bohr designed this coat of arms to show that [complementarity](https://en.wikipedia.org/wiki/Complementarity_(physics)) – an ancient Chinese philosophy in [Taoism](https://en.wikipedia.org/wiki/Taoism) – is fundamental to [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics).
 				- 2. Law of Inverse Variation between Intent and Extent (Unïnfo)
 					- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the complementarity of ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) and ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) via [the same content](((678e1960-58d6-4cf3-8fe3-25f2f4489b33))) is formulated with the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) formula.
-					- [“the more intend inward, the more extend outward”](((68a7de6e-fbe8-4fb9-8dc1-6279c066565f)))
+					- [Verb version](((68a7de6e-fbe8-4fb9-8dc1-6279c066565f))): “intending inward is parallel with extending outward.”
+					- [Noun/adjective version](((687f7bca-3f80-4a42-93b0-2dd9996ff426))): “the less intent, the more extent.”
 				- 3. Law of Inverse Variation between Intension and Extension (Logic & Semantics)
 					- This [key principle in logic & semantics](https://philosophy.institute/logic/inverse-variation-principle-logic-extension-intension/) relates [intension and extension](https://en.wikipedia.org/wiki/Intension) – the two complements of a word.
 		- “Every empty point is the whole world, the whole life!”
