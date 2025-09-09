@@ -147,6 +147,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Ref: [reddit:r/LocalLLM](https://www.reddit.com/r/LocalLLM/)
 					- [Ollama server](https://github.com/ollama/ollama)
+						- Phi-4 Mini (3.8B):
 					- [Open WebUI](https://github.com/open-webui/open-webui)
 						- Open WebUI supports [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation).
 					- [LocalAI](https://github.com/mudler/LocalAI)
