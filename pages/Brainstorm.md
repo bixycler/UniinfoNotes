@@ -50,7 +50,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- 2. Law of Inverse Variation between Intent and Extent (Unïnfo)
 					- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the complementarity of ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) and ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) via [the same content](((678e1960-58d6-4cf3-8fe3-25f2f4489b33))) is formulated with the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) formula.
 					- The [verb version](((68a7de6e-fbe8-4fb9-8dc1-6279c066565f))) is “intending inward is parallel with extending outward”, which naturally follows the tendency of both sides.
-						- The
+						- The “intending” action naturally flows “inward”, and the “extending” action naturally flows “outward”.
 					- That means they are just two sides of the same coin, which are opposite only by opposite views.
 					- Projecting this coin of duality to a cone shape, e.g. ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) or ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), 
 					  we have the [noun/adjective version](((687f7bca-3f80-4a42-93b0-2dd9996ff426))): 
