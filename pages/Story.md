@@ -4077,6 +4077,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  :END:
 					- The main pull/push remote is set to `UniinfoNotes-mobile`, but both remotes should be synced: `mobile` = `origin/mobile` = `mobile/mobile`
 				- ((68bf9f05-4545-4f07-ad27-9ed4409af1ae))
+				- Tested ((68be308b-f247-4c5a-b8b7-96a3fbc8a25b)) over UniinfoNotes
+					- RAG with vector of text chunks
+						- The block ((678e2046-54ac-4284-865d-6f3e38f589a1)) cannot be retrieved even when most of its contents are explicitly prompted:
+						  collapsed:: true
+							- `All beings have the same content.`
+							- `Different beings are just the same content expressed in different forms.`
+							- `Law of the same content`
+							- `Conservation of content`
+							- `universal content`
+								- `sustent`
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
