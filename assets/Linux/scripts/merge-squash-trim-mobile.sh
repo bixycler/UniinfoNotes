@@ -1,6 +1,10 @@
-src=$1
+src=${1:-log}
+allHistory=$2
 init=36cb3edc
-git reset --hard ${init}
+
+if [ -n "$allHistory" ]; then
+	git reset --hard ${init}
+fi
 
 msg=$(git show --format="[${src}] %h: %s" -s ${src})
 git merge --squash -Xtheirs ${src}

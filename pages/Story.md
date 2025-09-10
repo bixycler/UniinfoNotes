@@ -3964,27 +3964,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
 						- `mobile` history contains only 3 commits: `{init}` + `[base]` squashing all the history + `[mobile]` containing mods for mobile + (temporary merge squashed commits from `log`).
 							- Update `mobile` with merge squashed from `log`
-								- Normally, just [merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh).
+								- Normally, just [merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh) `log`.
 								- When commits piles up, squash them down with `git rebase -i [main]`
-								- ```sh
-								  src=$1
-								  init=36cb3edc
-								  git reset --hard ${init}
-								  
-								  msg=$(git show --format="[${src}] %h: %s" -s ${src})
-								  git merge --squash -Xtheirs ${src}
-								  ret=$?
-								  if [ ${ret} -ne 0 ]; then
-								  	echo "Manually resolve conflicts, then: copy config.edn; remove assets; git add & commit"
-								      echo "Commit message: ${msg}"
-								      exit 1
-								  fi
-								  cp -v assets/logseq/global/config.edn logseq/config.edn
-								  rm -r assets && echo "All assets removed"
-								  git add --all
-								  git commit -m "${msg}"
-								  
-								  ```
 						- ⇒ The `mobile` branch has index 17MB + history of 5MB ~~`main` 300MB~~.
 						- Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
 						  id:: 68bfc115-862d-4016-b9df-b157b685ee9d
