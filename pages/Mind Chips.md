@@ -2,7 +2,10 @@
 -
 - The [mobile repo trimming](((68be3aea-4967-4910-aac4-7fd6b084d195))) task has shown many points:
 	- First, it looked so simple, but then turned out with lots of pitfalls.
-	- Batch processing (generative) is much easier than wriggling through obstacles.
+	- Batch processing is much easier than wriggling through obstacles.
+		- Git: just merge with excess then trim it off. I tried to wriggle with `.gitignore` but failed because it has no effect in merge.
+		- [React.js](https://en.wikipedia.org/wiki/React_(software)) deploys Virtual DOM to utilize the batch rendering, then trim things off screen.
+		- 3D sculpting
 	- Driving intents:
 	  collapsed:: true
 		- First, the feeling of "simple" pushed me to dive in.
