@@ -4106,6 +4106,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- The [mobile repo trimming](((68be3aea-4967-4910-aac4-7fd6b084d195))) task has shown many points:
 					- First, it looked so simple, but then turned out with lots of pitfalls.
+						-
 					- Batch processing (straightforward) is much easier than wriggling through obstacles.
 					  collapsed:: true
 						- Git: just merge with excess then trim it off. I tried to wriggle with `.gitignore` but failed because it has no effect in merge.
