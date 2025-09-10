@@ -148,6 +148,12 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 			  :LOGBOOK:
 			  CLOCK: [2025-08-27 Wed 11:01:20]
 			  :END:
+				- Yes: notification in mobile
+				  :LOGBOOK:
+				  CLOCK: [2025-09-10 Wed 16:32:49]
+				  :END:
+				  > Your Vietcombank Connect24 card has been sent to registered address. Please visit transaction office/branch to receive your card.
+			- TODO 11th Sep, go get it!
 		- TODO Update [CT scans of Bell Lê](((684f951d-8174-4c48-90e9-7f14566b8697))).
 		- ...
 	- ## Future Tasks

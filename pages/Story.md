@@ -3957,10 +3957,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The fine-grained tracking `log` branch should be reset, with the old history archived to `log01`.
 							- `log01`: `1e352c73`...`7e99c79e`: 2024 Oct 17 ~ 2025 Sep 05
 						- For `mobile` branch, `assets/` should be trimmed, and history should be squashed.
-					- DOING The dedicated branch `mobile` contains a trimmed repo with
+					- The dedicated branch `mobile` contains a trimmed repo with
 					  id:: 68be3aea-4967-4910-aac4-7fd6b084d195
 					  :LOGBOOK:
-					  CLOCK: [2025-09-10 Wed 08:12:21]
+					  CLOCK: [2025-09-10 Wed 08:12:21]--[2025-09-10 Wed 16:30:44] =>  08:18:23
 					  :END:
 						- a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
 						- `mobile` history contains only 3 commits: `{init}` + `[base]` squashing all the history + `[mobile]` containing mods for mobile + (temporary merge squashed commits from `log`).
@@ -4085,6 +4085,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The balanced result is the new circle crystallized from the static/stable effect circle. => Can be put down into storage.
 				-
 			- Sep 9th, ((68bfefa1-b4e8-42e5-890f-de1daccaf61a))
+			  collapsed:: true
 				- ((68bfc115-862d-4016-b9df-b157b685ee9d))
 				- ((68bf9f05-4545-4f07-ad27-9ed4409af1ae))
 				- Tested ((68be308b-f247-4c5a-b8b7-96a3fbc8a25b)) over UniinfoNotes
@@ -4101,6 +4102,27 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- With the vector DB option `Accuracy Optimized` (reranking), the block of the law can be retrieved in... half a minute (first time for reranking)! The later times go faster, comparable to the `Default` (no reranking) option.
 					- ((68bfdd91-5882-498f-8973-1f0d2ed8a59f))
 					- ((68bff76e-cea0-422d-bc9f-fd6456ef2865))
+			- 10th, ...
+			  collapsed:: true
+				- The [mobile repo trimming](((68be3aea-4967-4910-aac4-7fd6b084d195))) task has shown many points:
+					- First, it looked so simple, but then turned out with lots of pitfalls.
+					- Batch processing (straightforward) is much easier than wriggling through obstacles.
+					  collapsed:: true
+						- Git: just merge with excess then trim it off. I tried to wriggle with `.gitignore` but failed because it has no effect in merge.
+						- [React.js](https://en.wikipedia.org/wiki/React_(software)) deploys Virtual DOM to utilize the batch rendering, then trim things off screen.
+						- [3D sculpting](https://en.wikipedia.org/wiki/Digital_sculpting) with push, pull, smooth, grab, pinch, is much easier than modeling from curves up.
+						- AI & human: acting out of habit is easier than dealing with awareness.
+					- Driving intents:
+					  collapsed:: true
+						- First, the feeling of "simple" pushed me to dive in.
+						- In the middle, while the effect circle had not settled, the stronger push was from:
+							- the fear of wasting effort,
+							- the requirement of reusability (as a programmer),
+							- the holistic core,
+							- the urge to settle down, ...
+						- Last, the reviewing habit is driving me, now.
+					- The last result ([merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh)) is much simpler than the process of deriving it.
+			-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
