@@ -151,7 +151,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Context window: 131k tokens
 							- Embedding length: 3072
 							- Quantization: `Q4_K_M` (4-bit)
-							- Capabilities: completion, tools (call external functions or APIs)
+							- Capabilities: completion, tools (function-calling)
 						- Llama 3.2 (3B): for content creation and **agentic** workflows, along with multilingual support.
 						- Gemma 3 (4B): for tasks requiring long **context** (128k window) and broad language support.
 					- [Open WebUI](https://github.com/open-webui/open-webui)
