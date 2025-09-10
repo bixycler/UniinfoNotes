@@ -3966,7 +3966,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Update `mobile` with merge squashed from `log`
 								- Normally, just [merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh) `log`.
 								- When commits piles up, squash them down with `git rebase -i [main]`
-						- ⇒ The `mobile` branch has index 17MB + history of 5MB ~~`main` 300MB~~.
+						- ⇒ The `mobile` branch now has 9MB = index 4.5MB + history of 4.5MB ~~`main` 300MB~~.
 						- Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
 						  id:: 68bfc115-862d-4016-b9df-b157b685ee9d
 						  :LOGBOOK:
