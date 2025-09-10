@@ -3972,12 +3972,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  
 								  main_msg=$(git show --format='[main] %h: %s' -s main)
 								  git merge --squash main
-								  rm -r assets && git add --all
+								  cp -v assets/logseq/global/config.edn logseq/config.edn
+								  rm -rv assets
+								  git add --all
 								  git commit -m "${main_msg}"
 								  
-								  log_msg=$(git show --format='[log] %h: %s' -s main)
+								  log_msg=$(git show --format='[log] %h: %s' -s log)
 								  git merge --squash log
-								  rm -r assets && git add --all
+								  cp -v assets/logseq/global/config.edn logseq/config.edn
+								  rm -rv assets
+								  git add --all
 								  git commit -m "${log_msg}"
 								  
 								  ```
