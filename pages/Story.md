@@ -3972,7 +3972,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  git merge --squash log # to [base]
 								  message=$(git show --format='[base] %h: %s' -s log)
 								  git commit -m "${message}"
-								  git stash pop # [mobile] commit; resolve conflicts if any
+								  git stash pop # [mobile] commit
+								  ret=$?
+								  if [ ${ret} -ne 0 ]; then
+								  	echo "Manually resolve conflicts, then: git commit; git stash drop"
+								  fi
+								  
 								  ```
 						- ⇒ The trimmed `assests/` reduced to 85MB.
 						- ⇒ The `mobile` branch has index 100MB + history of ~~`main` 300MB~~.
