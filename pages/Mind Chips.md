@@ -3,6 +3,13 @@
 - The [mobile repo trimming](((68be3aea-4967-4910-aac4-7fd6b084d195))) task has shown many points:
 	- First, it looked so simple, but then turned out with lots of pitfalls.
 	- Batch processing (generative) is much easier than wriggling through obstacles.
-	- Motivations (intents)
+	- Driving intents:
+	  collapsed:: true
 		- First, the feeling of "simple" pushed me to dive in.
-		- In the middle, while the effect circle had not settled, the urge to settle down, the fear of wasting effort,
+		- In the middle, while the effect circle had not settled, the stronger push was from:
+			- the fear of wasting effort,
+			- the requirement of reusability (as a programmer),
+			- the holistic core,
+			- the urge to settle down, ...
+		- Last, the reviewing habit is driving me, now.
+	- The last result ([merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh)) is much simpler than the process of deriving it.
