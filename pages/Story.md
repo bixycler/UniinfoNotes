@@ -3984,8 +3984,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  git commit -m "${log_msg}"
 								  
 								  ```
-						- ⇒ The trimmed `assests/` reduced to 85MB.
-						- ⇒ The `mobile` branch has index 100MB + history of ~~`main` 300MB~~.
+						- ⇒ The `mobile` branch has index 17MB + history of 5MB ~~`main` 300MB~~.
 						- Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
 						  id:: 68bfc115-862d-4016-b9df-b157b685ee9d
 						  :LOGBOOK:
