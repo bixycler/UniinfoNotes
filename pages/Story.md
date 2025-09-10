@@ -3969,8 +3969,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  git reset HEAD~ # to [base]
 								  git stash push # [mobile] commit
 								  git reset --hard ${init}
-								  git merge --squash log 
-								  git commit "[base] ${hash}: "
+								  git merge --squash log # to [base]
+								  message=$(git show --format='[base] %h: %s' -s log)
+								  git commit -m "${message}"
 								  git stash pop # [mobile] commit; resolve conflicts if any
 								  ```
 						- ⇒ The trimmed `assests/` reduced to 85MB.
