@@ -3965,12 +3965,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `mobile` history contains only 3 commits: `{init}` + `[base]` squashing all the history + `[mobile]` containing mods for mobile + (temporary merge squashed commits from `log`).
 							- Update `mobile` with merge squashed from `log`
 								- Normally, just `git merge --squash log && git commit`.
-								- When commits piles up, squash them down with `git rebase -i`
+								- When commits piles up, squash them down with `git rebase -i [main]`
 								- ```sh
 								  init=36cb3edc
 								  git reset --hard ${init}
-								  git merge --squash log
+								  
 								  main_msg=$(git show --format='[main] %h: %s' -s main)
+								  git merge --squash main
+								  rm -r assets && git add --all
+								  git commit -m "${main_msg}"
+								  
+								  log_msg=$(git show --format='[log] %h: %s' -s main)
+								  git merge --squash log
+								  rm -r assets && git add --all
+								  git commit -m "${log_msg}"
 								  
 								  ```
 								- ```sh
