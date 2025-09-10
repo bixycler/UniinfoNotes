@@ -3970,13 +3970,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  init=36cb3edc
 								  git reset --hard ${init}
 								  
-								  main_msg=$(git show --format='[main] %h: %s' -s main)
-								  git merge --squash main
-								  cp -v assets/logseq/global/config.edn logseq/config.edn
-								  rm -r assets && echo "All assets removed"
-								  git add --all
-								  git commit -m "${main_msg}"
-								  
 								  log_msg=$(git show --format='[log] %h: %s' -s log)
 								  git merge --squash -Xtheirs log
 								  ret=$?
@@ -3989,26 +3982,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  rm -r assets && echo "All assets removed"
 								  git add --all
 								  git commit -m "${log_msg}"
-								  
-								  ```
-								- ```sh
-								  init=36cb3edc
-								  mobile_msg=$(git show --format='%s' -s)
-								  git reset HEAD~ # to [base]
-								  git stash push # [mobile] commit
-								  git reset --hard ${init}
-								  git merge --squash log # to [base]
-								  base_msg=$(git show --format='[base] %h: %s' -s log)
-								  git commit -m "${base_msg}"
-								  git stash pop # [mobile] commit
-								  ret=$?
-								  if [ ${ret} -ne 0 ]; then
-								  	echo "Manually resolve conflicts, then: rm -r assets/Will; git commit; git stash drop"
-								      echo "Commit message: ${mobile_msg}"
-								  else
-								  	rm -r assets/Will && git add --all
-								      git commit -m "${mobile_msg}"
-								  fi
 								  
 								  ```
 						- ⇒ The trimmed `assests/` reduced to 85MB.
