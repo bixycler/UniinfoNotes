@@ -1,0 +1,10 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+logseq/bak
+logseq/.recycle
+.idea/
+*.iml
+*.swp
+.~lock.*
+.trash/
+.DS_Store

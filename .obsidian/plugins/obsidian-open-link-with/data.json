@@ -1,0 +1,19 @@
+{
+  "selected": "chrome",
+  "custom": {},
+  "modifierBindings": [],
+  "enableLog": false,
+  "timeout": 500,
+  "inAppViewRec": [
+    {
+      "leafId": "deadb02c11abbe9e",
+      "url": "https://github.com/MamoruDS/obsidian-open-link-with",
+      "mode": 1
+    },
+    {
+      "leafId": "9cad61024ee60315",
+      "url": "https://en.wikipedia.org/wiki/Glass",
+      "mode": 1
+    }
+  ]
+}

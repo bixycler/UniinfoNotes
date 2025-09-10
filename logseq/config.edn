@@ -1,0 +1,3153 @@
+;; This global config file applies a configuration to all graphs. Any config
+;; keys from a graph's logseq/config.edn can used here. A graph's
+;; logseq/config.edn overrides config keys in this file except for maps which
+;; are merged. As an example of merging, the following global and local configs:
+;;   {:shortcuts {:ui/toggle-theme "t z"}}
+;;   {:shortcuts {:ui/toggle-brackets "t b"}}
+;;
+;;  would result in the final config:
+;;   {:shortcuts {:ui/toggle-theme "t z"
+;;                :ui/toggle-brackets "t b"}}
+
+{:meta/version 1
+
+ ;; Set the preferred format.
+ ;; Available options:
+ ;; - Markdown (default)
+ ;; - Org
+ ;; :preferred-format "Markdown"
+
+ ;; Set the preferred workflow style.
+ ;; Available options:
+ ;; - :now for NOW/LATER style (default)
+ ;; - :todo for TODO/DOING style
+ :preferred-workflow :todo
+
+ ;; Exclude directories/files.
+ ;; Example usage:
+ ;; :hidden ["/archived" "/test.md" "../assets/archived"]
+ :hidden ["assets" "/assets" "../assets"]
+
+ ;; Define the default journal page template.
+ ;; Enter the template name between the quotes.
+ :default-templates
+ {:journals ""}
+
+ ;; Set a custom date format for the journal page title.
+ ;; Default value: "MMM do, yyyy", e.g., "Jan 19th, 2038"
+ ;; Example usage "EEE do, MMM yyyy", e.g., "Tue 19th, Jan 2038"
+ :journal/page-title-format "EEE, yyyy/MM/dd"
+
+ ;; Specify the journal filename format using a valid date format string.
+ ;; !Warning:
+ ;;   This configuration is not retroactive and affects only new journals.
+ ;;   To show old journal files in the app, manually rename the files in the
+ ;;   journal directory to match the new format.
+ ;; Default value: "yyyy_MM_dd"
+ ;; :journal/file-name-format "yyyy_MM_dd"
+
+ ;; Enable tooltip preview on hover.
+ ;; Default value: true
+ :ui/enable-tooltip? true
+
+ ;; Display brackets [[]] around page references.
+ ;; Default value: true
+ ;; :ui/show-brackets? true
+ :ui/show-brackets? false
+
+ ;; Display all lines of a block when referencing ((block)).
+ ;; Default value: false
+ :ui/show-full-blocks? false
+
+ ;; Automatically expand block references when zooming in.
+ ;; Default value: true
+ :ui/auto-expand-block-refs? false
+
+ ;; Enable Block timestamps.
+ ;; Default value: false
+ :feature/enable-block-timestamps? true
+
+ ;; Disable accent marks when searching.
+ ;; After changing this setting, rebuild the search index by pressing (^C ^S).
+ ;; Default value: true
+ :feature/enable-search-remove-accents? true
+
+ ;; Enable journals.
+ ;; Default value: true
+ :feature/enable-journals? false
+
+ ;; Enable flashcards.
+ ;; Default value: true
+ :feature/enable-flashcards? false
+
+ ;; Enable whiteboards.
+ ;; Default value: true
+ ;; :feature/enable-whiteboards? true
+
+ ;; Disable the journal's built-in 'Scheduled tasks and deadlines' query.
+ ;; Default value: false
+ ;; :feature/disable-scheduled-and-deadline-query? false
+
+ ;; Specify the number of days displayed in the future for
+ ;; the 'scheduled tasks and deadlines' query.
+ ;; Example usage:
+ ;; Display all scheduled and deadline blocks for the next 14 days:
+ ;; :scheduled/future-days 14
+ ;; Default value: 7
+ ;; :scheduled/future-days 7
+
+ ;; Specify the first day of the week.
+ ;; Available options:
+ ;;  - integer from 0 to 6 (Monday to Sunday)
+ ;; Default value: 6 (Sunday)
+ :start-of-week 0
+
+ ;; Specify a custom CSS import.
+ ;; This option takes precedence over the local `logseq/custom.css` file.
+ ;; Example usage:
+ ;; :custom-css-url "@import url('https://cdn.jsdelivr.net/gh/dracula/logseq@master/custom.css');"
+
+ ;; Specify a custom JS import.
+ ;; This option takes precedence over the local `logseq/custom.js` file.
+ ;; Example usage:
+ ;; :custom-js-url "https://cdn.logseq.com/custom.js"
+
+ ;; Set a custom Arweave gateway
+ ;; Default gateway: https://arweave.net
+ ;; :arweave/gateway "https://arweave.net"
+
+ ;; Set bullet indentation when exporting
+ ;; Available options:
+ ;;  - `:eight-spaces` as eight spaces
+ ;;  - `:four-spaces` as four spaces
+ ;;  - `:two-spaces` as two spaces
+ ;;  - `:tab` as a tab character (default)
+ ;; :export/bullet-indentation :tab
+
+ ;; Publish all pages within the Graph
+ ;; Regardless of whether individual pages have been marked as public.
+ ;; Default value: false
+ :publishing/all-pages-public? true
+
+ ;; Define the default home page and sidebar status.
+ ;; If unspecified, the journal page will be loaded on startup and the right sidebar will stay hidden.
+ ;; The `:page` value represents the name of the page displayed at startup.
+ ;; Available options for `:sidebar` are:
+ ;; - "Contents" to display the Contents page in the right sidebar.
+ ;; - A specific page name to display in the right sidebar.
+ ;; - An array of multiple pages, e.g., ["Contents" "Page A" "Page B"].
+ ;; If `:sidebar` remains unset, the right sidebar will stay hidden.
+ ;; Examples:
+ ;; 1. Set "Changelog" as the home page and display "Contents" in the right sidebar:
+ ;; :default-home {:page "Changelog", :sidebar "Contents"}
+ ;; 2. Set "Jun 3rd, 2021" as the home page without the right sidebar:
+ ;; :default-home {:page "Jun 3rd, 2021"}
+ ;; 3. Set "home" as the home page and display multiple pages in the right sidebar:
+ ;; :default-home {:page "home", :sidebar ["Page A" "Page B"]}
+ :default-home {:page "Workspace"}
+
+ ;; Set the default location for storing notes.
+ ;; Default value: "pages"
+ ;; :pages-directory "pages"
+
+ ;; Set the default location for storing journals.
+ ;; Default value: "journals"
+ ;; :journals-directory "journals"
+
+ ;; Set the default location for storing whiteboards.
+ ;; Default value: "whiteboards"
+ ;; :whiteboards-directory "whiteboards"
+
+ ;; Enabling this option converts
+ ;; [[Grant Ideas]] to [[file:./grant_ideas.org][Grant Ideas]] for org-mode.
+ ;; For more information, visit https://github.com/logseq/logseq/issues/672
+ ;; :org-mode/insert-file-link? false
+
+ ;; Configure custom shortcuts.
+ ;; Syntax:
+ ;; 1. + indicates simultaneous key presses, e.g., `Ctrl+Shift+a`.
+ ;; 2. A space between keys represents key chords, e.g., `t s` means
+ ;;    pressing `t` followed by `s`.
+ ;; 3. mod refers to `Ctrl` for Windows/Linux and `Command` for Mac.
+ ;; 4. Use false to disable a specific shortcut.
+ ;; 5. You can define multiple bindings for a single action, e.g., ["ctrl+j" "down"].
+ ;; The full list of configurable shortcuts is available at:
+ ;; https://github.com/logseq/logseq/blob/master/src/main/frontend/modules/shortcut/config.cljs
+ ;; Example:
+ ;; :shortcuts
+ ;; {:editor/new-block       "enter"
+ ;;  :editor/new-line        "shift+enter"
+ ;;  :editor/insert-link     "mod+shift+k"
+ ;;  :editor/highlight       false
+ ;;  :ui/toggle-settings     "t s"
+ ;;  :editor/up              ["ctrl+k" "up"]
+ ;;  :editor/down            ["ctrl+j" "down"]
+ ;;  :editor/left            ["ctrl+h" "left"]
+ ;;  :editor/right           ["ctrl+l" "right"]}
+ :shortcuts {
+  :editor/down ["down"]
+  :editor/up ["up"]
+  :ui/accent-colors-picker []
+  :ui/accent-color-reset []
+  :sidebar/clear []
+ }
+
+ ;; Configure the behavior of pressing Enter in document mode.
+ ;; if set to true, pressing Enter will create a new block.
+ ;; Default value: false
+ :shortcut/doc-mode-enter-for-new-block? false
+
+ ;; Block content larger than `block/content-max-length` will not be searchable
+ ;; or editable for performance.
+ ;; Default value: 10000
+ :block/content-max-length 10000
+
+ ;; Display command documentation on hover.
+ ;; Default value: true
+ :ui/show-command-doc? true
+
+ ;; Display empty bullet points.
+ ;; Default value: false
+ :ui/show-empty-bullets? false
+
+ ;; Pre-defined :view function to use with advanced queries.
+ :query/views
+ {:pprint
+  (fn [r] [:pre.code (pprint r)])
+ }
+
+ ;; Advanced queries `:result-transform` function.
+ ;; Transform the query result before displaying it.
+ :query/result-transforms
+ {:sort-by-priority
+  (fn [result] (sort-by (fn [h] (get h :block/priority "Z")) result))
+ }
+
+ ;; The following queries will be displayed at the bottom of today's journal page.
+ ;; The "NOW" query returns tasks with "NOW" or "DOING" status.
+ ;; The "NEXT" query returns tasks with "NOW", "LATER", or "TODO" status.
+ :default-queries
+ {:journals [
+   {:title "🔨 NOW"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?today
+            :where
+            [?h :block/marker ?marker]
+            [(contains? #{"NOW" "DOING"} ?marker)]
+            [?h :block/page ?p]
+            [?p :block/journal? true]
+            [?p :block/journal-day ?d]
+            [(>= ?d ?start)]
+            [(<= ?d ?today)]]
+    :inputs [:14d :today]
+    :result-transform (fn [result]
+                        (sort-by (fn [h]
+                                   (get h :block/priority "Z")) result))
+    :group-by-page? false
+    :collapsed? false}
+   {:title "📅 NEXT"
+    :query [:find (pull ?h [*])
+            :in $ ?start ?next
+            :where
+            [?h :block/marker ?marker]
+            [(contains? #{"NOW" "LATER" "TODO"} ?marker)]
+            [?h :block/page ?p]
+            [?p :block/journal? true]
+            [?p :block/journal-day ?d]
+            [(> ?d ?start)]
+            [(< ?d ?next)]]
+    :inputs [:today :7d-after]
+    :group-by-page? false
+    :collapsed? false}
+ ]}
+
+ ;; Add custom commands to the command palette
+ ;; Example usage:
+ ;; :commands
+ ;; [
+ ;;  ["js" "Javascript"]
+ ;;  ["md" "Markdown"]
+ ;;  ]
+ :commands [
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Shorthands & special terms
+
+    ["Uniinfo" "Unïnfo"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Quotation Marks & Brackets
+
+    ;U+2018+2019
+    ["{}'" "‘’"]
+    ;U+2018+2019
+    ["single quotation marks" "‘’"]
+    ;U+2018+2019
+    ["single curly quotes" "‘’"]
+    ;U+2018
+    ["{'" "‘"]
+    ;U+2018
+    ["left single quotation mark" "‘"]
+    ;U+2018
+    ["left single curly quote" "‘"]
+    ;U+2018
+    ["open single curly quote" "‘"]
+    ;U+2019
+    ["}'" "’"]
+    ;U+2019
+    ["right single quotation mark" "’"]
+    ;U+2019
+    ["right single curly quote" "’"]
+    ;U+2019
+    ["close single curly quote" "’"]
+    ;U+201C+201D
+    ["{}\"" "“”"]
+    ;U+201C+201D
+    ["double quotation marks" "“”"]
+    ;U+201C+201D
+    ["double curly quotes" "“”"]
+    ;U+201C
+    ["{\"" "“"]
+    ;U+201C
+    ["left double quotation mark" "“"]
+    ;U+201C
+    ["left double curly quote" "“"]
+    ;U+201C
+    ["open double curly quote" "“"]
+    ;U+201D
+    ["}\"" "”"]
+    ;U+201D
+    ["right double quotation mark" "”"]
+    ;U+201D
+    ["right double curly quote" "”"]
+    ;U+201D
+    ["close double curly quote" "”"]
+    ;U+275B+275C
+    ["{}''" "❛❜"]
+    ;U+275B+275C
+    ["heavy single comma quotation marks ornament" "❛❜"]
+    ;U+275B+275C
+    ["single curly quotes ornament" "❛❜"]
+    ;U+275B
+    ["{''" "❛"]
+    ;U+275B
+    ["heavy single turned comma quotation mark ornament" "❛"]
+    ;U+275B
+    ["left single curly quote ornament" "❛"]
+    ;U+275B
+    ["open single curly quote ornament" "❛"]
+    ;U+275C
+    ["}''" "❜"]
+    ;U+275C
+    ["heavy single comma quotation mark ornament" "❜"]
+    ;U+275C
+    ["right single curly quote ornament" "❜"]
+    ;U+275C
+    ["close single curly quote ornament" "❜"]
+    ;U+275D+275E
+    ["{}\"\"" "❝❞"]
+    ;U+275D+275E
+    ["heavy double comma quotation marks ornament" "❝❞"]
+    ;U+275D+275E
+    ["double curly quotes ornament" "❝❞"]
+    ;U+275D
+    ["{\"\"" "❝"]
+    ;U+275D
+    ["heavy double turned comma quotation mark ornament" "❝"]
+    ;U+275D
+    ["left double curly quote ornament" "❝"]
+    ;U+275D
+    ["open double curly quote ornament" "❝"]
+    ;U+275E
+    ["}\"\"" "❞"]
+    ;U+275E
+    ["heavy double comma quotation mark ornament" "❞"]
+    ;U+275E
+    ["right double curly quote ornament" "❞"]
+    ;U+275E
+    ["close double curly quote ornament" "❞"]
+    ;U+2039+203A
+    ["{}." "‹›"]
+    ;U+2039+203A
+    ["single angle quotation marks" "‹›"]
+    ;U+2039+203A
+    ["single guillemets" "‹›"]
+    ;U+2039
+    ["{." "‹"]
+    ;U+2039
+    ["single left-pointing angle quotation mark" "‹"]
+    ;U+2039
+    ["left single guillemet" "‹"]
+    ;U+2039
+    ["open single guillemet" "‹"]
+    ;U+203A
+    ["}." "›"]
+    ;U+203A
+    ["single right-pointing angle quotation mark" "›"]
+    ;U+203A
+    ["right single guillemet" "›"]
+    ;U+203A
+    ["close single guillemet" "›"]
+    ;U+00AB+00BB
+    ["{};" "«»"]
+    ;U+00AB+00BB
+    ["double angle quotation marks" "«»"]
+    ;U+00AB+00BB
+    ["double guillemets" "«»"]
+    ;U+00AB
+    ["{;" "«"]
+    ;U+00AB
+    ["left-pointing double angle quotation mark" "«"]
+    ;U+00AB
+    ["left double guillemet" "«"]
+    ;U+00AB
+    ["open double guillemet" "«"]
+    ;U+00BB
+    ["};" "»"]
+    ;U+00BB
+    ["right-pointing double angle quotation mark" "»"]
+    ;U+00BB
+    ["right double guillemet" "»"]
+    ;U+00BB
+    ["close double guillemet" "»"]
+    ;U+27E8+27E9
+    ["{}[" "⟨⟩"]
+    ;U+27E8+27E9
+    ["mathematical angle brackets" "⟨⟩"]
+    ;U+27E8+27E9
+    ["" "⟨⟩"]
+    ;U+27E8
+    ["{[" "⟨"]
+    ;U+27E8
+    ["mathematical left angle bracket" "⟨"]
+    ;U+27E8
+    ["mathematical open angle bracket" "⟨"]
+    ;U+27E9
+    ["}]" "⟩"]
+    ;U+27E9
+    ["mathematical right angle bracket" "⟩"]
+    ;U+27E9
+    ["mathematical close angle bracket" "⟩"]
+    ;U+27EA+27EB
+    ["{}{" "⟪⟫"]
+    ;U+27EA+27EB
+    ["mathematical double angle brackets" "⟪⟫"]
+    ;U+27EA+27EB
+    ["" "⟪⟫"]
+    ;U+27EA
+    ["{{" "⟪"]
+    ;U+27EA
+    ["mathematical left double angle bracket" "⟪"]
+    ;U+27EA
+    ["mathematical open double angle bracket" "⟪"]
+    ;U+27EB
+    ["}}" "⟫"]
+    ;U+27EB
+    ["mathematical right double angle bracket" "⟫"]
+    ;U+27EB
+    ["mathematical close double angle bracket" "⟫"]
+    ;U+2E28+2E29
+    ["{}(" "⸨⸩"]
+    ;U+2E28+2E29
+    ["double parentheses" "⸨⸩"]
+    ;U+2E28+2E29
+    ["" "⸨⸩"]
+    ;U+2E28
+    ["{(" "⸨"]
+    ;U+2E28
+    ["left double parenthesis" "⸨"]
+    ;U+2E28
+    ["open double parenthesis" "⸨"]
+    ;U+2E29
+    ["})" "⸩"]
+    ;U+2E29
+    ["right double parenthesis" "⸩"]
+    ;U+2E29
+    ["close double parenthesis" "⸩"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Puntuation Marks
+
+    ;U+00B7
+    ["." "·"]
+    ;U+00B7
+    ["middle dot" "·"]
+    ;U+00B7
+    ["center dot" "·"]
+    ;U+00B7
+    ["Georgian comma" "·"]
+    ;U+00B7
+    ["Greek middle dot" "·"]
+    ;U+00B7
+    ["interpunct" "·"]
+    ;U+00B7
+    ["interpoint" "·"]
+    ;U+00A0
+    [".nbsp" " "]
+    ;U+00A0
+    ["no-break space" " "]
+    ;U+00A0
+    ["non-breaking space" " "]
+    ;U+2423
+    [".blank" "␣"]
+    ;U+2423
+    ["open box" "␣"]
+    ;U+2423
+    ["blank" "␣"]
+    ;U+2011
+    ["-" "‑"]
+    ;U+2011
+    ["non-breaking hyphen" "‑"]
+    ;U+2011
+    ["" "‑"]
+    ;U+2013
+    ["--" "–"]
+    ;U+2013
+    ["en dash" "–"]
+    ;U+2013
+    ["" "–"]
+    ;U+2014
+    ["---" "—"]
+    ;U+2014
+    ["em dash" "—"]
+    ;U+2014
+    ["" "—"]
+    ;U+2015
+    ["---'" "―"]
+    ;U+2015
+    ["horizontal bar" "―"]
+    ;U+2015
+    ["quotation dash" "―"]
+    ;U+2012
+    ["-0" "‒"]
+    ;U+2012
+    ["figure dash" "‒"]
+    ;U+2012
+    ["numerical separator" "‒"]
+    ;U+00A7
+    [".S" "§"]
+    ;U+00A7
+    ["section sign" "§"]
+    ;U+00A7
+    ["" "§"]
+    ;U+00B6
+    [".P" "¶"]
+    ;U+00B6
+    ["pilcrow sign" "¶"]
+    ;U+00B6
+    ["paragraph sign" "¶"]
+    ;U+00A1
+    [".i!" "¡"]
+    ;U+00A1
+    ["inverted exclamation mark" "¡"]
+    ;U+00A1
+    ["" "¡"]
+    ;U+00BF
+    [".i?" "¿"]
+    ;U+00BF
+    ["inverted question mark" "¿"]
+    ;U+00BF
+    ["turned question mark" "¿"]
+    ;U+2023
+    [".>" "‣"]
+    ;U+2023
+    ["triangular bullet" "‣"]
+    ;U+2023
+    ["" "‣"]
+    ;U+2026
+    ["..." "…"]
+    ;U+2026
+    ["horizontal ellipsis" "…"]
+    ;U+2026
+    ["three dot leader" "…"]
+    ;U+2026
+    ["m leader" "…"]
+    ;U+203B
+    [".ref" "※"]
+    ;U+203B
+    ["reference mark" "※"]
+    ;U+203B
+    ["" "※"]
+    ;U+203C
+    [".!!" "‼"]
+    ;U+203C
+    ["double exclamation mark" "‼"]
+    ;U+203C
+    ["" "‼"]
+    ;U+203D
+    [".!?" "‽"]
+    ;U+203D
+    ["interrobang" "‽"]
+    ;U+203D
+    ["" "‽"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Mathematical Symbols
+
+    ;U+00B1
+    ["=+-" "±"]
+    ;U+00B1
+    ["plus-minus sign" "±"]
+    ;U+00B1
+    ["plus-or-minus sign" "±"]
+    ;U+2213
+    ["=-+" "∓"]
+    ;U+2213
+    ["minus-or-plus sign" "∓"]
+    ;U+2213
+    ["minus-plus sign" "∓"]
+    ;U+00D7
+    ["=x" "×"]
+    ;U+00D7
+    ["multiplication sign" "×"]
+    ;U+00D7
+    ["times" "×"]
+    ;U+00F7
+    ["=%" "÷"]
+    ;U+00F7
+    ["division sign" "÷"]
+    ;U+00F7
+    ["" "÷"]
+    ;U+22C7
+    ["=x%" "⋇"]
+    ;U+22C7
+    ["division times" "⋇"]
+    ;U+22C7
+    ["interunion" "⋇"]
+    ;U+22C5
+    ["=." "⋅"]
+    ;U+22C5
+    ["dot operator" "⋅"]
+    ;U+22C5
+    ["small dot" "⋅"]
+    ;U+2219
+    ["=.b" "∙"]
+    ;U+2219
+    ["bullet operator" "∙"]
+    ;U+2219
+    ["" "∙"]
+    ;U+2218
+    ["=.f" "∘"]
+    ;U+2218
+    ["ring operator" "∘"]
+    ;U+2218
+    ["composition function" "∘"]
+    ;U+2218
+    ["small circle" "∘"]
+    ;U+00B0
+    ["=o" "°"]
+    ;U+00B0
+    ["degree sign" "°"]
+    ;U+00B0
+    ["" "°"]
+    ;U+221E
+    ["=8" "∞"]
+    ;U+221E
+    ["infinity" "∞"]
+    ;U+221E
+    ["" "∞"]
+    ;U+221A
+    ["=v" "√"]
+    ;U+221A
+    ["square root" "√"]
+    ;U+221A
+    ["radical sign" "√"]
+    ;U+2200
+    ["=A" "∀"]
+    ;U+2200
+    ["for all" "∀"]
+    ;U+2200
+    ["" "∀"]
+    ;U+2203
+    ["=E" "∃"]
+    ;U+2203
+    ["there exists" "∃"]
+    ;U+2203
+    ["" "∃"]
+    ;U+2204
+    ["=!E" "∄"]
+    ;U+2204
+    ["there does not exist" "∄"]
+    ;U+2204
+    ["" "∄"]
+    ;U+2205
+    ["=0" "∅"]
+    ;U+2205
+    ["empty set" "∅"]
+    ;U+2205
+    ["null set" "∅"]
+    ;U+2205
+    ["empty variable" "∅"]
+    ;U+2205
+    ["variable nothing" "∅"]
+    ;U+2202
+    ["=d" "∂"]
+    ;U+2202
+    ["partial differential" "∂"]
+    ;U+2202
+    ["" "∂"]
+    ;U+2208
+    ["=in" "∈"]
+    ;U+2208
+    ["element of" "∈"]
+    ;U+2208
+    ["in set" "∈"]
+    ;U+2209
+    ["=!in" "∉"]
+    ;U+2209
+    ["not an element of" "∉"]
+    ;U+2209
+    ["not in set" "∉"]
+    ;U+220B
+    ["=ni" "∋"]
+    ;U+220B
+    ["contains as member" "∋"]
+    ;U+220B
+    ["reversed element" "∋"]
+    ;U+220B
+    ["reversed in set" "∋"]
+    ;U+220B
+    ["such that" "∋"]
+    ;U+220C
+    ["=!ni" "∌"]
+    ;U+220C
+    ["does not contain as member" "∌"]
+    ;U+220C
+    ["not reversed element" "∌"]
+    ;U+220C
+    ["not reversed in set" "∌"]
+    ;U+220F
+    ["=P" "∏"]
+    ;U+220F
+    ["n-ary product" "∏"]
+    ;U+220F
+    ["product sign" "∏"]
+    ;U+2211
+    ["=S" "∑"]
+    ;U+2211
+    ["n-ary summation" "∑"]
+    ;U+2211
+    ["sum sign" "∑"]
+    ;U+222B
+    ["=Si" "∫"]
+    ;U+222B
+    ["integral" "∫"]
+    ;U+222B
+    ["integral sign" "∫"]
+    ;U+222E
+    ["=Sio" "∮"]
+    ;U+222E
+    ["contour integral" "∮"]
+    ;U+222E
+    ["circle integral sign" "∮"]
+    ;U+2229
+    ["=cap" "∩"]
+    ;U+2229
+    ["intersection" "∩"]
+    ;U+2229
+    ["cap" "∩"]
+    ;U+222A
+    ["=cup" "∪"]
+    ;U+222A
+    ["union" "∪"]
+    ;U+222A
+    ["cup" "∪"]
+    ;U+2225
+    ["=||" "∥"]
+    ;U+2225
+    ["parallel to" "∥"]
+    ;U+2225
+    ["double vertical bar" "∥"]
+    ;U+22A5
+    ["=T" "⊥"]
+    ;U+22A5
+    ["up tack" "⊥"]
+    ;U+22A5
+    ["orthogonal to" "⊥"]
+    ;U+22A5
+    ["perpendicular" "⊥"]
+    ;U+22A5
+    ["bottom tack" "⊥"]
+    ;U+22A5
+    ["up tee" "⊥"]
+    ;U+2261
+    ["===" "≡"]
+    ;U+2261
+    ["identical to" "≡"]
+    ;U+2261
+    ["equivalent" "≡"]
+    ;U+2261
+    ["congruent" "≡"]
+    ;U+2262
+    ["=!==" "≢"]
+    ;U+2262
+    ["not identical to" "≢"]
+    ;U+2262
+    ["not equivalent" "≢"]
+    ;U+2262
+    ["not congruent" "≢"]
+    ;U+2260
+    ["=!=" "≠"]
+    ;U+2260
+    ["not equal to" "≠"]
+    ;U+2260
+    ["different from" "≠"]
+    ;U+2248
+    ["=~" "≈"]
+    ;U+2248
+    ["almost equal to" "≈"]
+    ;U+2248
+    ["approximate" "≈"]
+    ;U+2245
+    ["=~=" "≅"]
+    ;U+2245
+    ["approximately equal to" "≅"]
+    ;U+2245
+    ["congruent to" "≅"]
+    ;U+2246
+    ["=~!=" "≆"]
+    ;U+2246
+    ["approximately but not actually equal to" "≆"]
+    ;U+2246
+    ["similar but not equal to" "≆"]
+    ;U+2247
+    ["=!~=" "≇"]
+    ;U+2247
+    ["neither approximately nor actually equal to" "≇"]
+    ;U+2247
+    ["not congruent to" "≇"]
+    ;U+224F
+    ["=b=" "≏"]
+    ;U+224F
+    ["difference between" "≏"]
+    ;U+224F
+    ["hump equals" "≏"]
+    ;U+224F+0338
+    ["=!b=" "≏̸"]
+    ;U+224F+0338
+    ["not difference between" "≏̸"]
+    ;U+224F+0338
+    ["not hump equals" "≏̸"]
+    ;U+225F
+    ["=?=" "≟"]
+    ;U+225F
+    ["questioned equal to" "≟"]
+    ;U+225F
+    ["test equals" "≟"]
+    ;U+2264
+    ["=<=" "≤"]
+    ;U+2264
+    ["less-than or equal to" "≤"]
+    ;U+2264
+    ["" "≤"]
+    ;U+2265
+    ["=>=" "≥"]
+    ;U+2265
+    ["greater-than or equal to" "≥"]
+    ;U+2265
+    ["" "≥"]
+    ;U+226A
+    ["=<<" "≪"]
+    ;U+226A
+    ["much less-than" "≪"]
+    ;U+226A
+    ["" "≪"]
+    ;U+226B
+    ["=>>" "≫"]
+    ;U+226B
+    ["much greater-than" "≫"]
+    ;U+226B
+    ["" "≫"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Letterlike Symbols
+
+    ;U+0391
+    ["" "Α"]
+    ;U+0391
+    ["Greek capital letter Alpha" "Α"]
+    ;U+0391
+    ["Alpha" "Α"]
+    ;U+0391
+    ["gre.A" "Α"]
+    ;U+0392
+    ["" "Β"]
+    ;U+0392
+    ["Greek capital letter Beta" "Β"]
+    ;U+0392
+    ["Beta" "Β"]
+    ;U+0392
+    ["gre.B" "Β"]
+    ;U+0393
+    ["" "Γ"]
+    ;U+0393
+    ["Greek capital letter Gamma" "Γ"]
+    ;U+0393
+    ["Gamma" "Γ"]
+    ;U+0393
+    ["gre.G" "Γ"]
+    ;U+0394
+    ["" "Δ"]
+    ;U+0394
+    ["Greek capital letter Delta" "Δ"]
+    ;U+0394
+    ["Delta" "Δ"]
+    ;U+0394
+    ["gre.D" "Δ"]
+    ;U+0395
+    ["" "Ε"]
+    ;U+0395
+    ["Greek capital letter Epsilon" "Ε"]
+    ;U+0395
+    ["Epsilon" "Ε"]
+    ;U+0395
+    ["gre.E" "Ε"]
+    ;U+0396
+    ["" "Ζ"]
+    ;U+0396
+    ["Greek capital letter Zeta" "Ζ"]
+    ;U+0396
+    ["Zeta" "Ζ"]
+    ;U+0396
+    ["Zêta" "Ζ"]
+    ;U+0396
+    ["gre.Z" "Ζ"]
+    ;U+0397
+    ["" "Η"]
+    ;U+0397
+    ["Greek capital letter Eta" "Η"]
+    ;U+0397
+    ["Eta" "Η"]
+    ;U+0397
+    ["Êta" "Η"]
+    ;U+0397
+    ["gre.Ê" "Η"]
+    ;U+0398
+    ["" "Θ"]
+    ;U+0398
+    ["Greek capital letter Theta" "Θ"]
+    ;U+0398
+    ["Theta" "Θ"]
+    ;U+0398
+    ["Thêta" "Θ"]
+    ;U+0398
+    ["gre.Th" "Θ"]
+    ;U+0399
+    ["" "Ι"]
+    ;U+0399
+    ["Greek capital letter Iota" "Ι"]
+    ;U+0399
+    ["Iota" "Ι"]
+    ;U+0399
+    ["gre.I" "Ι"]
+    ;U+039A
+    ["" "Κ"]
+    ;U+039A
+    ["Greek capital letter Kappa" "Κ"]
+    ;U+039A
+    ["Kappa" "Κ"]
+    ;U+039A
+    ["gre.K" "Κ"]
+    ;U+039B
+    ["" "Λ"]
+    ;U+039B
+    ["Greek capital letter Lamda" "Λ"]
+    ;U+039B
+    ["Lambda" "Λ"]
+    ;U+039B
+    ["gre.L" "Λ"]
+    ;U+039C
+    ["" "Μ"]
+    ;U+039C
+    ["Greek capital letter Mu" "Μ"]
+    ;U+039C
+    ["Mu" "Μ"]
+    ;U+039C
+    ["gre.M" "Μ"]
+    ;U+039D
+    ["" "Ν"]
+    ;U+039D
+    ["Greek capital letter Nu" "Ν"]
+    ;U+039D
+    ["Nu" "Ν"]
+    ;U+039D
+    ["gre.N" "Ν"]
+    ;U+039E
+    ["" "Ξ"]
+    ;U+039E
+    ["Greek capital letter Xi" "Ξ"]
+    ;U+039E
+    ["Xi" "Ξ"]
+    ;U+039E
+    ["gre.Ks" "Ξ"]
+    ;U+039F
+    ["" "Ο"]
+    ;U+039F
+    ["Greek capital letter Omicron" "Ο"]
+    ;U+039F
+    ["Omikron" "Ο"]
+    ;U+039F
+    ["gre.O" "Ο"]
+    ;U+03A0
+    ["" "Π"]
+    ;U+03A0
+    ["Greek capital letter Pi" "Π"]
+    ;U+03A0
+    ["Pi" "Π"]
+    ;U+03A0
+    ["gre.P" "Π"]
+    ;U+03A1
+    ["" "Ρ"]
+    ;U+03A1
+    ["Greek capital letter Rho" "Ρ"]
+    ;U+03A1
+    ["Rho" "Ρ"]
+    ;U+03A1
+    ["gre.R" "Ρ"]
+    ;U+03A3
+    ["" "Σ"]
+    ;U+03A3
+    ["Greek capital letter Sigma" "Σ"]
+    ;U+03A3
+    ["Sigma" "Σ"]
+    ;U+03A3
+    ["gre.S" "Σ"]
+    ;U+03A4
+    ["" "Τ"]
+    ;U+03A4
+    ["Greek capital letter Tau" "Τ"]
+    ;U+03A4
+    ["Tau" "Τ"]
+    ;U+03A4
+    ["gre.T" "Τ"]
+    ;U+03A5
+    ["" "Υ"]
+    ;U+03A5
+    ["Greek capital letter Upsilon" "Υ"]
+    ;U+03A5
+    ["Upsilon" "Υ"]
+    ;U+03A5
+    ["gre.U" "Υ"]
+    ;U+03A6
+    ["" "Φ"]
+    ;U+03A6
+    ["Greek capital letter Phi" "Φ"]
+    ;U+03A6
+    ["Phi" "Φ"]
+    ;U+03A6
+    ["gre.F" "Φ"]
+    ;U+03A7
+    ["" "Χ"]
+    ;U+03A7
+    ["Greek capital letter Chi" "Χ"]
+    ;U+03A7
+    ["Chi" "Χ"]
+    ;U+03A7
+    ["gre.Ch" "Χ"]
+    ;U+03A8
+    ["" "Ψ"]
+    ;U+03A8
+    ["Greek capital letter Psi" "Ψ"]
+    ;U+03A8
+    ["Psi" "Ψ"]
+    ;U+03A8
+    ["gre.Ps" "Ψ"]
+    ;U+03A9
+    ["" "Ω"]
+    ;U+03A9
+    ["Greek capital letter Omega" "Ω"]
+    ;U+03A9
+    ["Omega" "Ω"]
+    ;U+03A9
+    ["Ômega" "Ω"]
+    ;U+03A9
+    ["gre.Ô" "Ω"]
+    ;U+03A9
+    ["Ohm sign" "Ω"]
+    ;U+03B1
+    ["" "α"]
+    ;U+03B1
+    ["Greek small letter alpha" "α"]
+    ;U+03B1
+    ["alpha" "α"]
+    ;U+03B1
+    ["gre.gre.a" "α"]
+    ;U+03B2
+    ["" "β"]
+    ;U+03B2
+    ["Greek small letter beta" "β"]
+    ;U+03B2
+    ["beta" "β"]
+    ;U+03B2
+    ["gre.b" "β"]
+    ;U+03B3
+    ["" "γ"]
+    ;U+03B3
+    ["Greek small letter gamma" "γ"]
+    ;U+03B3
+    ["gamma" "γ"]
+    ;U+03B3
+    ["gre.g" "γ"]
+    ;U+03B4
+    ["" "δ"]
+    ;U+03B4
+    ["Greek small letter delta" "δ"]
+    ;U+03B4
+    ["delta" "δ"]
+    ;U+03B4
+    ["gre.d" "δ"]
+    ;U+03B5
+    ["" "ε"]
+    ;U+03B5
+    ["Greek small letter epsilon" "ε"]
+    ;U+03B5
+    ["epsilon" "ε"]
+    ;U+03B5
+    ["gre.e" "ε"]
+    ;U+03F5
+    ["" "ϵ"]
+    ;U+03F5
+    ["Greek lunate epsilon symbol" "ϵ"]
+    ;U+03F5
+    ["variant epsilon" "ϵ"]
+    ;U+03F5
+    ["straight epsilon" "ϵ"]
+    ;U+03F6
+    ["" "϶"]
+    ;U+03F6
+    ["Greek reversed lunate epsilon symbol" "϶"]
+    ;U+03F6
+    ["back epsilon" "϶"]
+    ;U+03B6
+    ["" "ζ"]
+    ;U+03B6
+    ["Greek small letter zeta" "ζ"]
+    ;U+03B6
+    ["zeta" "ζ"]
+    ;U+03B6
+    ["zêta" "ζ"]
+    ;U+03B6
+    ["gre.z" "ζ"]
+    ;U+03B7
+    ["" "η"]
+    ;U+03B7
+    ["Greek small letter eta" "η"]
+    ;U+03B7
+    ["eta" "η"]
+    ;U+03B7
+    ["êta" "η"]
+    ;U+03B7
+    ["gre.ê" "η"]
+    ;U+03B8
+    ["" "θ"]
+    ;U+03B8
+    ["Greek small letter theta" "θ"]
+    ;U+03B8
+    ["theta" "θ"]
+    ;U+03B8
+    ["thêta" "θ"]
+    ;U+03B8
+    ["gre.th" "θ"]
+    ;U+03B9
+    ["" "ι"]
+    ;U+03B9
+    ["Greek small letter iota" "ι"]
+    ;U+03B9
+    ["iota" "ι"]
+    ;U+03B9
+    ["gre.i" "ι"]
+    ;U+03BA
+    ["" "κ"]
+    ;U+03BA
+    ["Greek small letter kappa" "κ"]
+    ;U+03BA
+    ["kappa" "κ"]
+    ;U+03BA
+    ["gre.k" "κ"]
+    ;U+03BB
+    ["" "λ"]
+    ;U+03BB
+    ["Greek small letter lamda" "λ"]
+    ;U+03BB
+    ["lambda" "λ"]
+    ;U+03BB
+    ["gre.l" "λ"]
+    ;U+03BC
+    ["" "μ"]
+    ;U+03BC
+    ["Greek small letter mu" "μ"]
+    ;U+03BC
+    ["mu" "μ"]
+    ;U+03BC
+    ["gre.m" "μ"]
+    ;U+03BD
+    ["" "ν"]
+    ;U+03BD
+    ["Greek small letter nu" "ν"]
+    ;U+03BD
+    ["nu" "ν"]
+    ;U+03BD
+    ["gre.n" "ν"]
+    ;U+03BE
+    ["" "ξ"]
+    ;U+03BE
+    ["Greek small letter xi" "ξ"]
+    ;U+03BE
+    ["xi" "ξ"]
+    ;U+03BE
+    ["gre.ks" "ξ"]
+    ;U+03BF
+    ["" "ο"]
+    ;U+03BF
+    ["Greek small letter omicron" "ο"]
+    ;U+03BF
+    ["omikron" "ο"]
+    ;U+03BF
+    ["gre.o" "ο"]
+    ;U+03C0
+    ["" "π"]
+    ;U+03C0
+    ["Greek small letter pi" "π"]
+    ;U+03C0
+    ["pi" "π"]
+    ;U+03C0
+    ["gre.p" "π"]
+    ;U+03C1
+    ["" "ρ"]
+    ;U+03C1
+    ["Greek small letter rho" "ρ"]
+    ;U+03C1
+    ["rho" "ρ"]
+    ;U+03C1
+    ["gre.r" "ρ"]
+    ;U+03C3
+    ["" "σ"]
+    ;U+03C3
+    ["Greek small letter sigma" "σ"]
+    ;U+03C3
+    ["sigma" "σ"]
+    ;U+03C3
+    ["gre.s" "σ"]
+    ;U+03C2
+    ["" "ς"]
+    ;U+03C2
+    ["Greek small letter final sigma" "ς"]
+    ;U+03C2
+    ["variant sigma" "ς"]
+    ;U+03C4
+    ["" "τ"]
+    ;U+03C4
+    ["Greek small letter tau" "τ"]
+    ;U+03C4
+    ["tau" "τ"]
+    ;U+03C4
+    ["gre.t" "τ"]
+    ;U+03C5
+    ["" "υ"]
+    ;U+03C5
+    ["Greek small letter upsilon" "υ"]
+    ;U+03C5
+    ["upsilon" "υ"]
+    ;U+03C5
+    ["gre.u" "υ"]
+    ;U+03C6
+    ["" "φ"]
+    ;U+03C6
+    ["Greek small letter phi" "φ"]
+    ;U+03C6
+    ["phi" "φ"]
+    ;U+03C6
+    ["gre.f" "φ"]
+    ;U+03D5
+    ["" "ϕ"]
+    ;U+03D5
+    ["Greek phi symbol" "ϕ"]
+    ;U+03D5
+    ["straight phi" "ϕ"]
+    ;U+03D5
+    ["variant phi" "ϕ"]
+    ;U+03D5
+    ["gre.ph" "ϕ"]
+    ;U+03C7
+    ["" "χ"]
+    ;U+03C7
+    ["Greek small letter chi" "χ"]
+    ;U+03C7
+    ["chi" "χ"]
+    ;U+03C7
+    ["gre.ch" "χ"]
+    ;U+03C8
+    ["" "ψ"]
+    ;U+03C8
+    ["Greek small letter psi" "ψ"]
+    ;U+03C8
+    ["psi" "ψ"]
+    ;U+03C8
+    ["gre.ps" "ψ"]
+    ;U+03C9
+    ["" "ω"]
+    ;U+03C9
+    ["Greek small letter omega" "ω"]
+    ;U+03C9
+    ["omega" "ω"]
+    ;U+03C9
+    ["ômega" "ω"]
+    ;U+03C9
+    ["gre.ô" "ω"]
+    ;U+2102
+    ["" "ℂ"]
+    ;U+2102
+    ["double-struck capital C" "ℂ"]
+    ;U+2102
+    ["Complex number" "ℂ"]
+    ;U+2102
+    ["open-face capital C" "ℂ"]
+    ;U+210B
+    ["" "ℋ"]
+    ;U+210B
+    ["script capital H" "ℋ"]
+    ;U+210B
+    ["Hilbert space" "ℋ"]
+    ;U+210B
+    ["Hamiltonian mechanics" "ℋ"]
+    ;U+210C
+    ["" "ℌ"]
+    ;U+210C
+    ["black-letter capital H" "ℌ"]
+    ;U+210C
+    ["Fraktur capital H" "ℌ"]
+    ;U+210C
+    ["Poincare plane" "ℌ"]
+    ;U+210D
+    ["" "ℍ"]
+    ;U+210D
+    ["double-struck capital H" "ℍ"]
+    ;U+210D
+    ["Quaternion" "ℍ"]
+    ;U+210D
+    ["open-face capital H" "ℍ"]
+    ;U+210E
+    ["" "ℎ"]
+    ;U+210E
+    ["planck constant" "ℎ"]
+    ;U+210E
+    ["" "ℎ"]
+    ;U+210F
+    ["" "ℏ"]
+    ;U+210F
+    ["planck constant over two pi" "ℏ"]
+    ;U+210F
+    ["h bar" "ℏ"]
+    ;U+210F
+    ["h slash" "ℏ"]
+    ;U+210F
+    ["Planck variant" "ℏ"]
+    ;U+2110
+    ["" "ℐ"]
+    ;U+2110
+    ["script capital I" "ℐ"]
+    ;U+2110
+    ["imaginary line" "ℐ"]
+    ;U+2111
+    ["" "ℑ"]
+    ;U+2111
+    ["black-letter capital I" "ℑ"]
+    ;U+2111
+    ["Fraktur capital I" "ℑ"]
+    ;U+2111
+    ["imaginary part" "ℑ"]
+    ;U+2112
+    ["" "ℒ"]
+    ;U+2112
+    ["script capital L" "ℒ"]
+    ;U+2112
+    ["Lagrangian mechanics" "ℒ"]
+    ;U+2112
+    ["Laplace transform" "ℒ"]
+    ;U+2113
+    ["" "ℓ"]
+    ;U+2113
+    ["script small l" "ℓ"]
+    ;U+2113
+    ["mathematical ell" "ℓ"]
+    ;U+2115
+    ["" "ℕ"]
+    ;U+2115
+    ["double-struck capital N" "ℕ"]
+    ;U+2115
+    ["Natural number" "ℕ"]
+    ;U+2115
+    ["open-face capital N" "ℕ"]
+    ;U+2116
+    ["" "№"]
+    ;U+2116
+    ["numero sign" "№"]
+    ;U+2116
+    ["" "№"]
+    ;U+2118
+    ["" "℘"]
+    ;U+2118
+    ["script capital P" "℘"]
+    ;U+2118
+    ["power set" "℘"]
+    ;U+2118
+    ["Weierstrass p" "℘"]
+    ;U+2119
+    ["" "ℙ"]
+    ;U+2119
+    ["double-struck capital P" "ℙ"]
+    ;U+2119
+    ["prime number" "ℙ"]
+    ;U+2119
+    ["open-face capital P" "ℙ"]
+    ;U+211A
+    ["" "ℚ"]
+    ;U+211A
+    ["double-struck capital Q" "ℚ"]
+    ;U+211A
+    ["rational number" "ℚ"]
+    ;U+211A
+    ["open-face capital Q" "ℚ"]
+    ;U+211B
+    ["" "ℛ"]
+    ;U+211B
+    ["script capital R" "ℛ"]
+    ;U+211B
+    ["Riemann integral" "ℛ"]
+    ;U+211B
+    ["real line" "ℛ"]
+    ;U+211C
+    ["" "ℜ"]
+    ;U+211C
+    ["black-letter capital R" "ℜ"]
+    ;U+211C
+    ["Fraktur capital R" "ℜ"]
+    ;U+211C
+    ["real part symbol" "ℜ"]
+    ;U+211D
+    ["" "ℝ"]
+    ;U+211D
+    ["double-struck capital R" "ℝ"]
+    ;U+211D
+    ["real number" "ℝ"]
+    ;U+211E
+    ["" "℞"]
+    ;U+211E
+    ["prescription take" "℞"]
+    ;U+211E
+    ["Rx" "℞"]
+    ;U+2124
+    ["" "ℤ"]
+    ;U+2124
+    ["double-struck capital Z" "ℤ"]
+    ;U+2124
+    ["integer number" "ℤ"]
+    ;U+2127
+    ["" "℧"]
+    ;U+2127
+    ["inverted ohm sign" "℧"]
+    ;U+2127
+    ["Mho" "℧"]
+    ;U+2128
+    ["" "ℨ"]
+    ;U+2128
+    ["black-letter capital Z" "ℨ"]
+    ;U+2128
+    ["Fraktur capital Z" "ℨ"]
+    ;U+2128
+    ["dram" "ℨ"]
+    ;U+212C
+    ["" "ℬ"]
+    ;U+212C
+    ["script capital B" "ℬ"]
+    ;U+212C
+    ["Bernoulli polynomials" "ℬ"]
+    ;U+212D
+    ["" "ℭ"]
+    ;U+212D
+    ["black-letter capital C" "ℭ"]
+    ;U+212D
+    ["Fraktur capital C" "ℭ"]
+    ;U+212D
+    ["" "ℭ"]
+    ;U+212F
+    ["" "ℯ"]
+    ;U+212F
+    ["script small e" "ℯ"]
+    ;U+212F
+    ["natural logarithm base" "ℯ"]
+    ;U+212F
+    ["Euler's number" "ℯ"]
+    ;U+212F
+    ["Napier's constant" "ℯ"]
+    ;U+2130
+    ["" "ℰ"]
+    ;U+2130
+    ["script capital E" "ℰ"]
+    ;U+2130
+    ["electromotive force" "ℰ"]
+    ;U+2130
+    ["expected value" "ℰ"]
+    ;U+2131
+    ["" "ℱ"]
+    ;U+2131
+    ["script capital F" "ℱ"]
+    ;U+2131
+    ["Fourier transform" "ℱ"]
+    ;U+2133
+    ["" "ℳ"]
+    ;U+2133
+    ["script capital M" "ℳ"]
+    ;U+2133
+    ["Mellin transform" "ℳ"]
+    ;U+2133
+    ["M-matrix" "ℳ"]
+    ;U+2134
+    ["" "ℴ"]
+    ;U+2134
+    ["script small o" "ℴ"]
+    ;U+2134
+    ["order" "ℴ"]
+    ;U+2134
+    ["of inferior order to" "ℴ"]
+    ;U+2135
+    ["" "ℵ"]
+    ;U+2135
+    ["alef symbol" "ℵ"]
+    ;U+2135
+    ["first transfinite cardinal" "ℵ"]
+    ;U+2136
+    ["" "ℶ"]
+    ;U+2136
+    ["bet symbol" "ℶ"]
+    ;U+2136
+    ["beth symbol" "ℶ"]
+    ;U+2138
+    ["" "ℸ"]
+    ;U+2138
+    ["dalet symbol" "ℸ"]
+    ;U+2138
+    ["daleth symbol" "ℸ"]
+    ;U+2145
+    ["" "ⅅ"]
+    ;U+2145
+    ["double-struck italic capital D" "ⅅ"]
+    ;U+2145
+    ["derivative symbol" "ⅅ"]
+    ;U+2146
+    ["" "ⅆ"]
+    ;U+2146
+    ["double-struck italic small d" "ⅆ"]
+    ;U+2146
+    ["differential symbol" "ⅆ"]
+    ;U+2147
+    ["" "ⅇ"]
+    ;U+2147
+    ["double-struck italic small e" "ⅇ"]
+    ;U+2147
+    ["" "ⅇ"]
+    ;U+2148
+    ["" "ⅈ"]
+    ;U+2148
+    ["double-struck italic small i" "ⅈ"]
+    ;U+2148
+    ["imaginary unit" "ⅈ"]
+    ;U+00C5
+    ["" "Å"]
+    ;U+00C5
+    ["Latin capital letter A with ring above" "Å"]
+    ;U+00C5
+    ["" "Å"]
+    ;U+212B
+    ["" "Å"]
+    ;U+212B
+    ["angstrom sign" "Å"]
+    ;U+212B
+    ["Ångström sign" "Å"]
+    ;U+213C
+    ["" "ℼ"]
+    ;U+213C
+    ["double-struck small pi" "ℼ"]
+    ;U+213C
+    ["circle constant" "ℼ"]
+    ;U+213E
+    ["" "ℾ"]
+    ;U+213E
+    ["double-struck capital Gamma" "ℾ"]
+    ;U+213E
+    ["gamma function" "ℾ"]
+    ;U+213F
+    ["" "ℿ"]
+    ;U+213F
+    ["double-struck capital Pi" "ℿ"]
+    ;U+213F
+    ["product notation" "ℿ"]
+    ;U+2140
+    ["" "⅀"]
+    ;U+2140
+    ["double-struck n-ary summation" "⅀"]
+    ;U+2140
+    ["summation notation" "⅀"]
+    ;U+2149
+    ["" "ⅉ"]
+    ;U+2149
+    ["double-struck italic small j" "ⅉ"]
+    ;U+2149
+    ["imaginary unit in physics" "ⅉ"]
+    ;U+2103
+    ["" "℃"]
+    ;U+2103
+    ["degree Celsius" "℃"]
+    ;U+2103
+    ["" "℃"]
+    ;U+2109
+    ["" "℉"]
+    ;U+2109
+    ["degree Fahrenheit" "℉"]
+    ;U+2109
+    ["" "℉"]
+    ;U+214F
+    ["" "⅏"]
+    ;U+214F
+    ["symbol for Samaritan source" "⅏"]
+    ;U+214F
+    ["" "⅏"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Arrows
+
+    ;U+21D4
+    ["/=\\" "⇔"]
+    ;U+21D4
+    ["left right double arrow" "⇔"]
+    ;U+21D4
+    ["iff" "⇔"]
+    ;U+21D4
+    ["if and only if" "⇔"]
+    ;U+21D2
+    ["/=" "⇒"]
+    ;U+21D2
+    ["rightwards double arrow" "⇒"]
+    ;U+21D2
+    ["implies" "⇒"]
+    ;U+21D2
+    ["imply" "⇒"]
+    ;U+21D0
+    ["\\=" "⇐"]
+    ;U+21D0
+    ["leftwards double arrow" "⇐"]
+    ;U+21D0
+    ["" "⇐"]
+    ;U+21D1
+    ["/||" "⇑"]
+    ;U+21D1
+    ["upwards double arrow" "⇑"]
+    ;U+21D1
+    ["" "⇑"]
+    ;U+21D3
+    ["\\||" "⇓"]
+    ;U+21D3
+    ["downwards double arrow" "⇓"]
+    ;U+21D3
+    ["" "⇓"]
+    ;U+21CF
+    ["/!=" "⇏"]
+    ;U+21CF
+    ["rightwards double arrow with stroke" "⇏"]
+    ;U+21CF
+    ["not implies" "⇏"]
+    ;U+21CF
+    ["not imply" "⇏"]
+    ;U+21CD
+    ["\\!=" "⇍"]
+    ;U+21CD
+    ["leftwards double arrow with stroke" "⇍"]
+    ;U+21CD
+    ["" "⇍"]
+    ;U+21CC
+    ["/_\\_" "⇌"]
+    ;U+21CC
+    ["rightwards harpoon over leftwards harpoon" "⇌"]
+    ;U+21CC
+    ["equilibrium" "⇌"]
+    ;U+21CB
+    ["\\_/_" "⇋"]
+    ;U+21CB
+    ["leftwards harpoon over rightwards harpoon" "⇋"]
+    ;U+21CB
+    ["reverse equilibrium" "⇋"]
+    ;U+21C4
+    ["/-\\-" "⇄"]
+    ;U+21C4
+    ["rightwards arrow over leftwards arrow" "⇄"]
+    ;U+21C4
+    ["" "⇄"]
+    ;U+21C6
+    ["\\-/-" "⇆"]
+    ;U+21C6
+    ["leftwards arrow over rightwards arrow" "⇆"]
+    ;U+21C6
+    ["" "⇆"]
+    ;U+21C0
+    ["/_" "⇀"]
+    ;U+21C0
+    ["rightwards harpoon with barb upwards" "⇀"]
+    ;U+21C0
+    ["right vector" "⇀"]
+    ;U+21C1
+    ["" "⇁"]
+    ;U+21C1
+    ["rightwards harpoon with barb downwards" "⇁"]
+    ;U+21C1
+    ["down right vector" "⇁"]
+    ;U+21BC
+    ["" "↼"]
+    ;U+21BC
+    ["leftwards harpoon with barb upwards" "↼"]
+    ;U+21BC
+    ["left vector" "↼"]
+    ;U+21BD
+    ["\\_" "↽"]
+    ;U+21BD
+    ["leftwards harpoon with barb downwards" "↽"]
+    ;U+21BD
+    ["down left vector" "↽"]
+    ;U+21BE
+    ["" "↾"]
+    ;U+21BE
+    ["upwards harpoon with barb rightwards" "↾"]
+    ;U+21BE
+    ["right up vector" "↾"]
+    ;U+21BF
+    ["" "↿"]
+    ;U+21BF
+    ["upwards harpoon with barb leftwards" "↿"]
+    ;U+21BF
+    ["left up vector" "↿"]
+    ;U+21C2
+    ["" "⇂"]
+    ;U+21C2
+    ["downwards harpoon with barb rightwards" "⇂"]
+    ;U+21C2
+    ["right down vector" "⇂"]
+    ;U+21C3
+    ["" "⇃"]
+    ;U+21C3
+    ["downwards harpoon with barb leftwards" "⇃"]
+    ;U+21C3
+    ["left down vector" "⇃"]
+    ;U+2194
+    ["/-\\" "↔"]
+    ;U+2194
+    ["left right arrow" "↔"]
+    ;U+2194
+    ["horizontal double-headed arrow" "↔"]
+    ;U+2192
+    ["/-" "→"]
+    ;U+2192
+    ["rightwards arrow" "→"]
+    ;U+2192
+    ["" "→"]
+    ;U+2190
+    ["\\-" "←"]
+    ;U+2190
+    ["leftwards arrow" "←"]
+    ;U+2190
+    ["" "←"]
+    ;U+2195
+    ["/|\\" "↕"]
+    ;U+2195
+    ["up down arrow" "↕"]
+    ;U+2195
+    ["vertical double-headed arrow" "↕"]
+    ;U+2191
+    ["/|" "↑"]
+    ;U+2191
+    ["upwards arrow" "↑"]
+    ;U+2191
+    ["" "↑"]
+    ;U+2193
+    ["\\|" "↓"]
+    ;U+2193
+    ["downwards arrow" "↓"]
+    ;U+2193
+    ["" "↓"]
+    ;U+21FF
+    ["" "⇿"]
+    ;U+21FF
+    ["left right open-headed arrow" "⇿"]
+    ;U+21FF
+    ["horizontal open-headed arrow" "⇿"]
+    ;U+21FE
+    ["" "⇾"]
+    ;U+21FE
+    ["rightwards open-headed arrow" "⇾"]
+    ;U+21FE
+    ["" "⇾"]
+    ;U+21FD
+    ["" "⇽"]
+    ;U+21FD
+    ["leftwards open-headed arrow" "⇽"]
+    ;U+21FD
+    ["" "⇽"]
+    ;U+21A3
+    ["/-/" "↣"]
+    ;U+21A3
+    ["rightwards arrow with tail" "↣"]
+    ;U+21A3
+    ["" "↣"]
+    ;U+21A2
+    ["\\-\\" "↢"]
+    ;U+21A2
+    ["leftwards arrow with tail" "↢"]
+    ;U+21A2
+    ["" "↢"]
+    ;U+291A
+    ["" "⤚"]
+    ;U+291A
+    ["rightwards arrow-tail" "⤚"]
+    ;U+291A
+    ["" "⤚"]
+    ;U+2919
+    ["" "⤙"]
+    ;U+2919
+    ["leftwards arrow-tail" "⤙"]
+    ;U+2919
+    ["" "⤙"]
+    ;U+21A6
+    ["/T" "↦"]
+    ;U+21A6
+    ["rightwards arrow from bar" "↦"]
+    ;U+21A6
+    ["maps to" "↦"]
+    ;U+21A6
+    ["right tee arrow" "↦"]
+    ;U+21A4
+    ["\\T" "↤"]
+    ;U+21A4
+    ["leftwards arrow from bar" "↤"]
+    ;U+21A4
+    ["maps to leftward" "↤"]
+    ;U+21A4
+    ["left tee arrow" "↤"]
+    ;U+21A5
+    ["/|T" "↥"]
+    ;U+21A5
+    ["upwards arrow from bar" "↥"]
+    ;U+21A5
+    ["maps to upward" "↥"]
+    ;U+21A5
+    ["up tee arrow" "↥"]
+    ;U+21A7
+    ["\\|T" "↧"]
+    ;U+21A7
+    ["downwards arrow from bar" "↧"]
+    ;U+21A7
+    ["maps to downward" "↧"]
+    ;U+21A7
+    ["down tee arrow" "↧"]
+    ;U+27F7
+    ["/--\\" "⟷"]
+    ;U+27F7
+    ["long left right arrow" "⟷"]
+    ;U+27F7
+    ["long double-headed arrow" "⟷"]
+    ;U+27F6
+    ["/--" "⟶"]
+    ;U+27F6
+    ["long rightwards arrow" "⟶"]
+    ;U+27F6
+    ["" "⟶"]
+    ;U+27F5
+    ["\\--" "⟵"]
+    ;U+27F5
+    ["long leftwards arrow" "⟵"]
+    ;U+27F5
+    ["" "⟵"]
+    ;U+27FA
+    ["/==\\" "⟺"]
+    ;U+27FA
+    ["long left right double arrow" "⟺"]
+    ;U+27FA
+    ["long double-headed double arrow" "⟺"]
+    ;U+27F9
+    ["/==" "⟹"]
+    ;U+27F9
+    ["long rightwards double arrow" "⟹"]
+    ;U+27F9
+    ["" "⟹"]
+    ;U+27F8
+    ["\\==" "⟸"]
+    ;U+27F8
+    ["long leftwards double arrow" "⟸"]
+    ;U+27F8
+    ["" "⟸"]
+    ;U+2B0C
+    ["" "⬌"]
+    ;U+2B0C
+    ["left right black arrow" "⬌"]
+    ;U+2B0C
+    ["" "⬌"]
+    ;U+2B95
+    ["" "⮕"]
+    ;U+2B95
+    ["rightwards black arrow" "⮕"]
+    ;U+2B95
+    ["rightwards thick arrow" "⮕"]
+    ;U+2B05
+    ["" "⬅"]
+    ;U+2B05
+    ["leftwards black arrow" "⬅"]
+    ;U+2B05
+    ["leftwards thick arrow" "⬅"]
+    ;U+2B0D
+    ["" "⬍"]
+    ;U+2B0D
+    ["up down black arrow" "⬍"]
+    ;U+2B0D
+    ["up down thick arrow" "⬍"]
+    ;U+2B06
+    ["" "⬆"]
+    ;U+2B06
+    ["upwards black arrow" "⬆"]
+    ;U+2B06
+    ["upwards thick arrow" "⬆"]
+    ;U+2B07
+    ["" "⬇"]
+    ;U+2B07
+    ["downwards black arrow" "⬇"]
+    ;U+2B07
+    ["downwards thick arrow" "⬇"]
+    ;U+27A1
+    ["" "➡"]
+    ;U+27A1
+    ["black rightwards arrow" "➡"]
+    ;U+27A1
+    ["" "➡"]
+    ;U+27B3
+    ["" "➳"]
+    ;U+27B3
+    ["white-feathered rightwards arrow" "➳"]
+    ;U+27B3
+    ["" "➳"]
+    ;U+27BB
+    ["" "➻"]
+    ;U+27BB
+    ["heavy teardrop-shanked rightwards arrow" "➻"]
+    ;U+27BB
+    ["" "➻"]
+    ;U+21B7
+    ["" "↷"]
+    ;U+21B7
+    ["clockwise top semicircle arrow" "↷"]
+    ;U+21B7
+    ["curve arrow right" "↷"]
+    ;U+21B6
+    ["" "↶"]
+    ;U+21B6
+    ["anticlockwise top semicircle arrow" "↶"]
+    ;U+21B6
+    ["curve arrow left" "↶"]
+    ;U+21BB
+    ["" "↻"]
+    ;U+21BB
+    ["clockwise open circle arrow" "↻"]
+    ;U+21BB
+    ["circle arrow right" "↻"]
+    ;U+21BB
+    ["open right arrow" "↻"]
+    ;U+21BA
+    ["" "↺"]
+    ;U+21BA
+    ["anticlockwise open circle arrow" "↺"]
+    ;U+21BA
+    ["circle arrow left" "↺"]
+    ;U+21BA
+    ["open left arrow" "↺"]
+    ;U+293E
+    ["" "⤾"]
+    ;U+293E
+    ["lower right semicircular clockwise arrow" "⤾"]
+    ;U+293E
+    ["" "⤾"]
+    ;U+293F
+    ["" "⤿"]
+    ;U+293F
+    ["lower left semicircular anticlockwise arrow" "⤿"]
+    ;U+293F
+    ["" "⤿"]
+    ;U+27F3
+    ["" "⟳"]
+    ;U+27F3
+    ["clockwise gapped circle arrow" "⟳"]
+    ;U+27F3
+    ["" "⟳"]
+    ;U+27F2
+    ["" "⟲"]
+    ;U+27F2
+    ["anticlockwise gapped circle arrow" "⟲"]
+    ;U+27F2
+    ["" "⟲"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Circles & Dots
+
+    ;U+2941
+    [".o/" "⥁"]
+    ;U+2941
+    ["clockwise closed circle arrow" "⥁"]
+    ;U+2941
+    ["clockwise circle" "⥁"]
+    ;U+2940
+    [".o\\" "⥀"]
+    ;U+2940
+    ["anticlockwise closed circle arrow" "⥀"]
+    ;U+2940
+    ["anticlockwise circle" "⥀"]
+    ;U+25EF
+    [".O" "◯"]
+    ;U+25EF
+    ["large circle" "◯"]
+    ;U+25EF
+    ["big circle" "◯"]
+    ;U+25CB
+    [".o" "○"]
+    ;U+25CB
+    ["white circle" "○"]
+    ;U+25CB
+    ["empty circle" "○"]
+    ;U+25CF
+    [".o*" "●"]
+    ;U+25CF
+    ["black circle" "●"]
+    ;U+25CF
+    ["filled circle" "●"]
+    ;U+29BE
+    [".oO" "⦾"]
+    ;U+29BE
+    ["circled white bullet" "⦾"]
+    ;U+29BE
+    ["circled light circle" "⦾"]
+    ;U+29BE
+    ["double circle" "⦾"]
+    ;U+229A
+    ["=oo" "⊚"]
+    ;U+229A
+    ["circled ring operator" "⊚"]
+    ;U+229A
+    ["double circle operator" "⊚"]
+    ;U+25CE
+    [".oo" "◎"]
+    ;U+25CE
+    ["bullseye" "◎"]
+    ;U+25CE
+    ["small double circle" "◎"]
+    ;U+25C9
+    [".O*" "◉"]
+    ;U+25C9
+    ["fisheye" "◉"]
+    ;U+25C9
+    ["small circled bullet" "◉"]
+    ;U+29BF
+    [".o+" "⦿"]
+    ;U+29BF
+    ["circled bullet" "⦿"]
+    ;U+29BF
+    ["" "⦿"]
+    ;U+2609
+    [".o." "☉"]
+    ;U+2609
+    ["Sun" "☉"]
+    ;U+2609
+    ["circled dot" "☉"]
+    ;U+2609
+    ["target circle" "☉"]
+    ;U+2299
+    ["=o." "⊙"]
+    ;U+2299
+    ["circled dot operator" "⊙"]
+    ;U+2299
+    ["target circle operator" "⊙"]
+    ;U+2022
+    [".*" "•"]
+    ;U+2022
+    ["bullet" "•"]
+    ;U+2022
+    ["black small circle" "•"]
+    ;U+25E6
+    [".+" "◦"]
+    ;U+25E6
+    ["white bullet" "◦"]
+    ;U+25E6
+    ["hollow bullet" "◦"]
+    ;U+26AC
+    ["" "⚬"]
+    ;U+26AC
+    ["medium small white circle" "⚬"]
+    ;U+26AC
+    ["" "⚬"]
+    ;U+2B24
+    ["" "⬤"]
+    ;U+2B24
+    ["black large circle" "⬤"]
+    ;U+2B24
+    ["" "⬤"]
+    ;U+2B2D
+    ["" "⬭"]
+    ;U+2B2D
+    ["white horizontal ellipse" "⬭"]
+    ;U+2B2D
+    ["" "⬭"]
+    ;U+2B2F
+    ["" "⬯"]
+    ;U+2B2F
+    ["white vertical ellipse" "⬯"]
+    ;U+2B2F
+    ["" "⬯"]
+    ;U+2B2C
+    ["" "⬬"]
+    ;U+2B2C
+    ["black horizontal ellipse" "⬬"]
+    ;U+2B2C
+    ["" "⬬"]
+    ;U+2B2E
+    ["" "⬮"]
+    ;U+2B2E
+    ["black vertical ellipse" "⬮"]
+    ;U+2B2E
+    ["" "⬮"]
+    ;U+2300
+    ["" "⌀"]
+    ;U+2300
+    ["diameter sign" "⌀"]
+    ;U+2300
+    ["" "⌀"]
+    ;U+00F8
+    ["" "ø"]
+    ;U+00F8
+    ["Latin small letter o with stroke" "ø"]
+    ;U+00F8
+    ["Latin small letter o slash" "ø"]
+    ;U+00D8
+    ["" "Ø"]
+    ;U+00D8
+    ["Latin capital letter O with stroke" "Ø"]
+    ;U+00D8
+    ["Latin capital letter O slash" "Ø"]
+    ;U+00A9
+    [".(C)" "©"]
+    ;U+00A9
+    ["copyright sign" "©"]
+    ;U+00A9
+    ["" "©"]
+    ;U+1F12F
+    [".(CL)" "🄯"]
+    ;U+1F12F
+    ["copyleft symbol" "🄯"]
+    ;U+1F12F
+    ["" "🄯"]
+    ;U+00AE
+    [".(R)" "®"]
+    ;U+00AE
+    ["registered sign" "®"]
+    ;U+00AE
+    ["registered trademark symbol" "®"]
+    ;U+2117
+    [".(P)" "℗"]
+    ;U+2117
+    ["sound recording copyright" "℗"]
+    ;U+2117
+    ["phonogram copyright symbol" "℗"]
+
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;; Emoji
+
+    ;U+1F642
+    [":-)" "🙂"]
+    ;U+1F642
+    ["slightly smiling face" "🙂"]
+    ;U+1F642
+    ["smile" "🙂"]
+    ;U+1F60A
+    [":)" "😊"]
+    ;U+1F60A
+    ["smiling face with smiling eyes" "😊"]
+    ;U+1F60A
+    ["flushed" "😊"]
+    ;U+1F60A
+    ["crush" "😊"]
+    ;U+1F60A
+    ["embarrassed" "😊"]
+    ;U+263A+FE0F
+    [":-}" "☺️"]
+    ;U+263A+FE0F
+    ["smiling face" "☺️"]
+    ;U+263A+FE0F
+    ["blush" "☺️"]
+    ;U+263A+FE0F
+    ["massage" "☺️"]
+    ;U+263A+FE0F
+    ["happiness" "☺️"]
+    ;U+1F609
+    [";)" "😉"]
+    ;U+1F609
+    ["winking face" "😉"]
+    ;U+1F609
+    ["mischievous" "😉"]
+    ;U+1F609
+    ["secret" "😉"]
+    ;U+1F600
+    [":-))" "😀"]
+    ;U+1F600
+    ["grinning face" "😀"]
+    ;U+1F600
+    ["grin" "😀"]
+    ;U+1F603
+    [":-D" "😃"]
+    ;U+1F603
+    ["smiling face with open mouth" "😃"]
+    ;U+1F603
+    ["grinning face with big eyes" "😃"]
+    ;U+1F603
+    ["happy" "😃"]
+    ;U+1F603
+    ["haha" "😃"]
+    ;U+1F604
+    [":))" "😄"]
+    ;U+1F604
+    ["smiling face with open mouth and smiling eyes" "😄"]
+    ;U+1F604
+    ["grinning face with smiling eyes" "😄"]
+    ;U+1F604
+    ["joy" "😄"]
+    ;U+1F604
+    ["funny" "😄"]
+    ;U+1F601
+    [":D" "😁"]
+    ;U+1F601
+    ["grinning face with smiling eyes" "😁"]
+    ;U+1F601
+    ["beaming face with smiling eyes" "😁"]
+    ;U+1F601
+    ["kawaii" "😁"]
+    ;U+1F606
+    [":XD" "😆"]
+    ;U+1F606
+    ["smiling face with open mouth and tightly-closed eyes" "😆"]
+    ;U+1F606
+    ["grinning squinting face" "😆"]
+    ;U+1F606
+    ["lol" "😆"]
+    ;U+1F606
+    ["satisfied" "😆"]
+    ;U+1F606
+    ["glad" "😆"]
+    ;U+1F605
+    [":’D" "😅"]
+    ;U+1F605
+    ["smiling face with open mouth and cold sweat" "😅"]
+    ;U+1F605
+    ["grinning face with sweat" "😅"]
+    ;U+1F605
+    ["hot" "😅"]
+    ;U+1F605
+    ["laugh" "😅"]
+    ;U+1F605
+    ["relief" "😅"]
+    ;U+1F923
+    [":’XD" "🤣"]
+    ;U+1F923
+    ["rolling on the floor laughing" "🤣"]
+    ;U+1F923
+    ["rolling" "🤣"]
+    ;U+1F923
+    ["floor" "🤣"]
+    ;U+1F923
+    ["laughing" "🤣"]
+    ;U+1F923
+    ["rofl" "🤣"]
+    ;U+1F602
+    [":”D" "😂"]
+    ;U+1F602
+    ["face with tears of joy" "😂"]
+    ;U+1F602
+    ["cry" "😂"]
+    ;U+1F602
+    ["weep" "😂"]
+    ;U+1F602
+    ["happytears" "😂"]
+    ;U+1F617
+    [":-*" "😗"]
+    ;U+1F617
+    ["kissing face" "😗"]
+    ;U+1F617
+    ["" "😗"]
+    ;U+1F61A
+    [":*" "😚"]
+    ;U+1F61A
+    ["kissing face with closed eyes" "😚"]
+    ;U+1F61A
+    ["infatuation" "😚"]
+    ;U+1F619
+    [":^*" "😙"]
+    ;U+1F619
+    ["kissing face with smiling eyes" "😙"]
+    ;U+1F619
+    ["" "😙"]
+    ;U+1F618
+    [":*3" "😘"]
+    ;U+1F618
+    ["face throwing a kiss" "😘"]
+    ;U+1F618
+    ["face blowing a kiss" "😘"]
+    ;U+1F618
+    ["valentines" "😘"]
+    ;U+1F970
+    [":)3" "🥰"]
+    ;U+1F970
+    ["smiling face with smiling eyes and three hearts" "🥰"]
+    ;U+1F970
+    ["smiling face with hearts" "🥰"]
+    ;U+1F970
+    ["love" "🥰"]
+    ;U+1F970
+    ["hearts" "🥰"]
+    ;U+1F970
+    ["adore" "🥰"]
+    ;U+1F60D
+    [":o3" "😍"]
+    ;U+1F60D
+    ["smiling face with heart-shaped eyes" "😍"]
+    ;U+1F60D
+    ["smiling face with heart-eyes" "😍"]
+    ;U+1F60D
+    ["affection" "😍"]
+    ;U+1F643
+    [":(-:" "🙃"]
+    ;U+1F643
+    ["upside-down face" "🙃"]
+    ;U+1F643
+    ["flipped" "🙃"]
+    ;U+1F61F
+    [":^(" "😟"]
+    ;U+1F61F
+    ["worried face" "😟"]
+    ;U+1F61F
+    ["concern" "😟"]
+    ;U+1F641
+    [":(" "🙁"]
+    ;U+1F641
+    ["slightly frowning face" "🙁"]
+    ;U+1F641
+    ["frowning" "🙁"]
+    ;U+2639+FE0F
+    [":-(" "☹️"]
+    ;U+2639+FE0F
+    ["frowning face" "☹️"]
+    ;U+2639+FE0F
+    ["upset" "☹️"]
+    ;U+2639+FE0F
+    ["frown" "☹️"]
+    ;U+1F62E
+    [":O" "😮"]
+    ;U+1F62E
+    ["face with open mouth" "😮"]
+    ;U+1F62E
+    ["surprise" "😮"]
+    ;U+1F62E
+    ["impressed" "😮"]
+    ;U+1F62E
+    ["wow" "😮"]
+    ;U+1F62E
+    ["whoa" "😮"]
+    ;U+1F62F
+    [":o" "😯"]
+    ;U+1F62F
+    ["hushed face" "😯"]
+    ;U+1F62F
+    ["woo" "😯"]
+    ;U+1F62F
+    ["shh" "😯"]
+    ;U+1F632
+    [":0" "😲"]
+    ;U+1F632
+    ["astonished face" "😲"]
+    ;U+1F632
+    ["xox" "😲"]
+    ;U+1F632
+    ["surprised" "😲"]
+    ;U+1F632
+    ["poisoned" "😲"]
+    ;U+1F626
+    [":-(o" "😦"]
+    ;U+1F626
+    ["frowning face with open mouth" "😦"]
+    ;U+1F626
+    ["aw" "😦"]
+    ;U+1F626
+    ["what" "😦"]
+    ;U+1F627
+    [":(o" "😧"]
+    ;U+1F627
+    ["anguished face" "😧"]
+    ;U+1F627
+    ["stunned" "😧"]
+    ;U+1F60B
+    [":)p" "😋"]
+    ;U+1F60B
+    ["face savouring delicious food" "😋"]
+    ;U+1F60B
+    ["face savoring food" "😋"]
+    ;U+1F60B
+    ["yummy" "😋"]
+    ;U+1F60B
+    ["nom" "😋"]
+    ;U+1F60B
+    ["delicious" "😋"]
+    ;U+1F60B
+    ["savouring" "😋"]
+    ;U+1F61B
+    [":p" "😛"]
+    ;U+1F61B
+    ["face with stuck-out tongue" "😛"]
+    ;U+1F61B
+    ["face with tongue" "😛"]
+    ;U+1F61B
+    ["prank" "😛"]
+    ;U+1F61C
+    [";p" "😜"]
+    ;U+1F61C
+    ["face with stuck-out tongue and winking eye" "😜"]
+    ;U+1F61C
+    ["winking face with tongue" "😜"]
+    ;U+1F61C
+    ["childish" "😜"]
+    ;U+1F61C
+    ["wink" "😜"]
+    ;U+1F92A
+    [":/p" "🤪"]
+    ;U+1F92A
+    ["grinning face with one large and one small eye" "🤪"]
+    ;U+1F92A
+    ["zany face" "🤪"]
+    ;U+1F92A
+    ["goofy" "🤪"]
+    ;U+1F92A
+    ["crazy" "🤪"]
+    ;U+1F61D
+    [":xp" "😝"]
+    ;U+1F61D
+    ["face with stuck-out tongue and tightly-closed eyes" "😝"]
+    ;U+1F61D
+    ["squinting face with tongue" "😝"]
+    ;U+1F61D
+    ["playful" "😝"]
+    ;U+1F911
+    [":p$" "🤑"]
+    ;U+1F911
+    ["money-mouth face" "🤑"]
+    ;U+1F911
+    ["rich" "🤑"]
+    ;U+1F610
+    [":-|" "😐"]
+    ;U+1F610
+    ["neutral face" "😐"]
+    ;U+1F610
+    ["indifference" "😐"]
+    ;U+1F610
+    ["meh" "😐"]
+    ;U+1F610
+    ["neutral" "😐"]
+    ;U+1F611
+    [":|" "😑"]
+    ;U+1F611
+    ["expressionless face" "😑"]
+    ;U+1F611
+    ["indifferent" "😑"]
+    ;U+1F611
+    ["deadpan" "😑"]
+    ;U+1F636
+    [":" "😶"]
+    ;U+1F636
+    ["face without mouth" "😶"]
+    ;U+1F636
+    ["" "😶"]
+    ;U+1F615
+    [":(/" "😕"]
+    ;U+1F615
+    ["confused face" "😕"]
+    ;U+1F615
+    ["huh" "😕"]
+    ;U+1F615
+    ["weird" "😕"]
+    ;U+1FAE4
+    [":/" "🫤"]
+    ;U+1FAE4
+    ["face with diagonal mouth" "🫤"]
+    ;U+1FAE4
+    ["skeptic" "🫤"]
+    ;U+1FAE4
+    ["confuse" "🫤"]
+    ;U+1F625
+    [":,(" "😥"]
+    ;U+1F625
+    ["disappointed but relieved face" "😥"]
+    ;U+1F625
+    ["sad but relieved face" "😥"]
+    ;U+1F625
+    ["phew" "😥"]
+    ;U+1F622
+    [":’(" "😢"]
+    ;U+1F622
+    ["crying face" "😢"]
+    ;U+1F622
+    ["tears" "😢"]
+    ;U+1F62D
+    [":”(" "😭"]
+    ;U+1F62D
+    ["loudly crying face" "😭"]
+    ;U+1F62D
+    ["sobbing" "😭"]
+    ;U+1F910
+    [":#" "🤐"]
+    ;U+1F910
+    ["zipper-mouth face" "🤐"]
+    ;U+1F910
+    ["sealed" "🤐"]
+    ;U+1F910
+    ["zipper" "🤐"]
+    ;U+1F92B
+    [":!" "🤫"]
+    ;U+1F92B
+    ["face with finger covering closed lips" "🤫"]
+    ;U+1F92B
+    ["shushing face" "🤫"]
+    ;U+1F92B
+    ["quiet" "🤫"]
+    ;U+1F92B
+    ["shhh" "🤫"]
+    ;U+1F914
+    [":?" "🤔"]
+    ;U+1F914
+    ["thinking face" "🤔"]
+    ;U+1F914
+    ["hmmm" "🤔"]
+    ;U+1F914
+    ["think" "🤔"]
+    ;U+1F914
+    ["consider" "🤔"]
+    ;U+1FAE1
+    [":!!" "🫡"]
+    ;U+1FAE1
+    ["saluting face" "🫡"]
+    ;U+1FAE1
+    ["respect" "🫡"]
+    ;U+1FAE1
+    ["salute" "🫡"]
+    ;U+1F60E
+    [":B)" "😎"]
+    ;U+1F60E
+    ["smiling face with sunglasses" "😎"]
+    ;U+1F60E
+    ["cool" "😎"]
+    ;U+1F60E
+    ["summer" "😎"]
+    ;U+1F60E
+    ["beach" "😎"]
+    ;U+1F60E
+    ["sunglass" "😎"]
+    ;U+1F913
+    [":B.)" "🤓"]
+    ;U+1F913
+    ["nerd face" "🤓"]
+    ;U+1F913
+    ["nerdy" "🤓"]
+    ;U+1F913
+    ["geek" "🤓"]
+    ;U+1F913
+    ["dork" "🤓"]
+    ;U+1F9D0
+    [":%" "🧐"]
+    ;U+1F9D0
+    ["face with monocle" "🧐"]
+    ;U+1F9D0
+    ["stuffy" "🧐"]
+    ;U+1F9D0
+    ["wealthy" "🧐"]
+    ;U+1F635
+    [":xx" "😵"]
+    ;U+1F635
+    ["dizzy face" "😵"]
+    ;U+1F635
+    ["face with crossed-out eyes" "😵"]
+    ;U+1F635
+    ["spent" "😵"]
+    ;U+1F635
+    ["unconscious" "😵"]
+    ;U+1F635+200D+1F4AB
+    [":@@" "😵‍💫"]
+    ;U+1F635+200D+1F4AB
+    ["face with spiral eyes" "😵‍💫"]
+    ;U+1F635+200D+1F4AB
+    ["nauseous" "😵‍💫"]
+    ;U+1F635+200D+1F4AB
+    ["nausea" "😵‍💫"]
+    ;U+1F621
+    [":>:[" "😡"]
+    ;U+1F621
+    ["pouting face" "😡"]
+    ;U+1F621
+    ["enraged face" "😡"]
+    ;U+1F621
+    ["hate" "😡"]
+    ;U+1F621
+    ["despise" "😡"]
+    ;U+1F620
+    [":>:(" "😠"]
+    ;U+1F620
+    ["angry face" "😠"]
+    ;U+1F620
+    ["mad" "😠"]
+    ;U+1F620
+    ["annoyed" "😠"]
+    ;U+2764+FE0F
+    ["..<3" "❤️"]
+    ;U+2764+FE0F
+    ["red heart" "❤️"]
+    ;U+2764+FE0F
+    ["" "❤️"]
+    ;U+1F44D
+    ["..+^" "👍"]
+    ;U+1F44D
+    ["thumbs up sign" "👍"]
+    ;U+1F44D
+    ["thumbs up" "👍"]
+    ;U+1F44D
+    ["thumbsup" "👍"]
+    ;U+1F44D
+    ["yes" "👍"]
+    ;U+1F44D
+    ["accept" "👍"]
+    ;U+1F44D
+    ["+1" "👍"]
+    ;U+1F44E
+    ["..-v" "👎"]
+    ;U+1F44E
+    ["thumbs down sign" "👎"]
+    ;U+1F44E
+    ["thumbs down" "👎"]
+    ;U+1F44E
+    ["thumbsdown" "👎"]
+    ;U+1F44E
+    ["dislike" "👎"]
+    ;U+1F44E
+    ["-1" "👎"]
+    ;U+2B06+FE0F
+    ["../|" "⬆️"]
+    ;U+2B06+FE0F
+    ["up arrow" "⬆️"]
+    ;U+2B06+FE0F
+    ["continue" "⬆️"]
+    ;U+27A1+FE0F
+    ["../-" "➡️"]
+    ;U+27A1+FE0F
+    ["right arrow" "➡️"]
+    ;U+27A1+FE0F
+    ["next" "➡️"]
+    ;U+2B07+FE0F
+    ["..\\|" "⬇️"]
+    ;U+2B07+FE0F
+    ["down arrow" "⬇️"]
+    ;U+2B07+FE0F
+    ["bottom" "⬇️"]
+    ;U+2B05+FE0F
+    ["..\\-" "⬅️"]
+    ;U+2B05+FE0F
+    ["left arrow" "⬅️"]
+    ;U+2B05+FE0F
+    ["previous" "⬅️"]
+    ;U+2B55
+    ["..O" "⭕"]
+    ;U+2B55
+    ["heavy large circle" "⭕"]
+    ;U+2B55
+    ["hollow red circle" "⭕"]
+    ;U+267E+FE0F
+    ["..8" "♾️"]
+    ;U+267E+FE0F
+    ["infinity" "♾️"]
+    ;U+267E+FE0F
+    ["forever" "♾️"]
+    ;U+2611+FE0F
+    ["..v@" "☑️"]
+    ;U+2611+FE0F
+    ["check box with check" "☑️"]
+    ;U+2611+FE0F
+    ["ok" "☑️"]
+    ;U+2611+FE0F
+    ["confirm" "☑️"]
+    ;U+2611+FE0F
+    ["black-square" "☑️"]
+    ;U+2714+FE0F
+    ["..v" "✔️"]
+    ;U+2714+FE0F
+    ["check mark" "✔️"]
+    ;U+2714+FE0F
+    ["nike" "✔️"]
+    ;U+2714+FE0F
+    ["tick" "✔️"]
+    ;U+274C
+    ["..x" "❌"]
+    ;U+274C
+    ["cross mark" "❌"]
+    ;U+274C
+    ["delete" "❌"]
+    ;U+274C
+    ["remove" "❌"]
+    ;U+274C
+    ["cancel" "❌"]
+    ;U+274E
+    ["..x@" "❎"]
+    ;U+274E
+    ["negative squared cross mark" "❎"]
+    ;U+274E
+    ["cross mark button" "❎"]
+    ;U+274E
+    ["deny" "❎"]
+    ;U+264E
+    ["..=b=" "♎"]
+    ;U+264E
+    ["libra" "♎"]
+    ;U+264E
+    ["Libra" "♎"]
+
+ ]
+
+ ;; Enable collapsing blocks with titles but no children.
+ ;; By default, only blocks with children can be collapsed.
+ ;; Setting `:outliner/block-title-collapse-enabled?` to true allows collapsing
+ ;; blocks with titles (multiple lines) and content. For example:
+ ;; - block title
+ ;;   block content
+ ;; Default value: false
+ :outliner/block-title-collapse-enabled? false
+
+ ;; Macros replace texts and will make you more productive.
+ ;; Example usage:
+ ;; Change the :macros value below to:
+ ;; {"poem" "Rose is $1, violet's $2. Life's ordered: Org assists you."}
+ ;; input "{{poem red,blue}}"
+ ;; becomes
+ ;; Rose is red, violet's blue. Life's ordered: Org assists you.
+ :macros {
+  :hi-macro "Hi there! I'm $1 from macro `{{hi-macro}}`"
+  :blocks-with-content
+  "(At least 1 line [may be empty] is required before `#+BEGIN_QUERY`)
+  (which should replace the query title: **$1**)
+  #+BEGIN_QUERY
+  {;:title [:h3 \"$1\"]
+   :query [
+    :find (pull ?b [*])
+    :where 
+     [?b :block/content ?content]
+     [(clojure.string/includes? ?content \"$2\")]
+   ]
+  }
+  #+END_QUERY
+  "
+          
+  ;; Search for pattern (regex)=$2 in a scope (block)=$3 either recursively=$5 or not.
+  ;; - The title of the result list/table is specified by $1.
+  ;; - In $2, only the first line (title) is used as regex, 
+  ;;   next lines can be comments or optional properties:
+  ;;   + `case-sensitive:: true` (default = false) adds `(?i)` to the main pattern
+  ;;   + `whole-word:: true` (default = false) adds `\b` to the main pattern
+  ;; - Additional filters can be provided via properties in (block)=$4:
+  ;;   + `filter::` the regex pattern that result blocks must match,
+  ;;     in conjunction with the main pattern
+  ;;   + `child-filter::` the regex pattern that at least on child block (if any) must match,
+  ;;     in disjunction with filter pattern
+  ;;   * Filter combinations:
+  ;;     - An empty filter, e.g. `filter::` means "everything is allowed" which is 
+  ;;       different from lacking such filter whose meaning depends (see next...)
+  ;;     - When no filters appear, the search domain includes all blocks.
+  ;;     - When at least one filter appears, the search domain includes  
+  ;;       the disjunction of appearing filters.
+  ;;       + An empty `child-filter::` means "blocks with at least one child are allowed".
+  ;;       + An empty `filter::` means "all blocks are allowed", ignoring `child-filter::`.
+  ;;       + To disable a filter, instead of removing that filter, we can 
+  ;;         use contradiction patterns like `$^` or `(nothing)^` as a placeholder.
+  ;;         * Note: Don't set both `filter::(nothing)^` and `child-filter::(nothing)^`
+  ;;           because it makes the search domain empty!
+  ;; - $6 group-results: {true,false} value set to `:remove-block-children?` 
+  ;;   + When using table view, this option must be set to `false` to display all child block results.
+  :search-query
+  "$1
+    #+BEGIN_QUERY
+    {;:title [:h3 \"Search for Pattern\"]  ; replaced by $.1 above #+BEGIN_QUERY
+     :inputs [ 
+      [:block/uuid #uuid \"$2\"]  ;  search pattern ?params
+      [:block/uuid #uuid \"$3\"]  ;  search-scope ?container
+      [:block/uuid #uuid \"$4\"]  ;  ?filters
+      $5 ;  ?recursive
+     ]
+     ;;;;;;;; query body ;;;;;;;;
+     :query [
+      :find (pull ?b [*]) ; ?key ?case-sensitive ?whole-word ?search-pattern ?search-scope ?scope ?is-parent ;?match ;
+      :in $ ?params ?container ?filters ?recursive %
+      :where
+        ;
+        ; ?key parameter
+        [?params :block/content ?paramlines]
+        [(re-pattern \".*\") ?line-pattern]
+        [(re-find ?line-pattern ?paramlines) ?key] ; only the first line, a.k.a. block title
+
+        ;
+        ; parameters (?case-sensitive, ?whole-word) => ?search-pattern
+        [?params :block/properties ?props]
+        [(get ?props :case-sensitive false) ?case-sensitive]
+        [(get ?props :whole-word false) ?whole-word]
+        (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+            (and [(= true ?whole-word)] [(str \"\\\\b\" ?key \"\\\\b\") ?key-pat])
+            (and [(= false ?whole-word)] [(str ?key) ?key-pat])
+        )
+        (or ; `if` is not supported by DataScript! So, we must convert to OR-AND.
+            (and [(= true ?case-sensitive)] [(str ?key-pat) ?key-case])
+            (and [(= false ?case-sensitive)] [(str \"(?i)\" ?key-pat) ?key-case])
+        )
+        [(re-pattern ?key-case) ?search-pattern]
+        ;
+        ; ?scope parameter <= (?search-scope or ?container itself)
+        [?container :block/properties ?cprops]
+        [(get ?cprops :search-scope false) ?search-scope]
+        [(get ?cprops :search-scope-page false) ?search-scope-page]
+        (or-join [?search-scope ?search-scope-page ?container ?scope]
+            (and [(= false ?search-scope)] [(= false ?search-scope-page)] 
+                [(identity ?container) ?scope] )
+            (and [(!= false ?search-scope)]
+                [?container :block/refs ?scope]
+                [?scope :block/uuid ?uuid] ; both block and page have UUID
+                [(clojure.string/includes? ?search-scope ?uuid)]
+            )                     
+            (and [(!= false ?search-scope-page)]
+                [?container :block/refs ?scope]
+                [?scope :block/original-name ?name] ; only page has name
+                [(contains? ?search-scope-page ?name)]
+            )                     
+        ); end or-join 
+        ;
+        ; ?scope parameter contains ?b
+        [(not ?recursive) ?is-parent]
+        (check-ancestor-parent ?b ?scope ?is-parent)
+        ; 
+        ; Match filter patterns in ?filters against result/child blocks
+        [?filters :block/properties ?pfilters]
+        [(get ?pfilters :filter false) ?filter]
+        [(get ?pfilters :child-filter false) ?child-filter]
+        (or-join [?b ?filter ?child-filter]
+            (and [(= false ?filter)]
+                [(= false ?child-filter)]
+            )
+            (and [(!= false ?filter)] 
+    		    [(re-pattern ?filter) ?filter-pattern]
+                [?b :block/content ?content]
+                [(re-find ?filter-pattern ?content)]     
+            )
+            (and [(!= false ?child-filter)] 
+    		    [(re-pattern ?child-filter) ?child-filter-pattern]
+                [?bchild :block/parent ?b]
+    		    [?bchild :block/content ?child-content]
+                [(re-find ?child-filter-pattern ?child-content)]     
+            )
+        ); end or-join
+        ;
+        ; ?b block/content contains ?search-pattern
+        [?b :block/content ?content]
+        [(re-find ?search-pattern ?content) ?match] ; the last var (?match) can be omitted!
+        ;[(clojure.string/includes? ?content ?key)]
+     ]; end :query[]
+     ;
+     ;; query options:
+     :remove-block-children? $6 ;  remove results being child of another result
+     ;
+     ;;;;;;;; rules ;;;;;;;;
+     :rules [
+        ;
+        ;; Check if ?b has ?ancestor as an ancestor
+        [(check-ancestor ?b ?ancestor)
+            [?b :block/parent ?ancestor]
+        ]
+        [(check-ancestor ?b ?ancestor)
+            [?b :block/parent ?t]
+            (check-ancestor ?t ?ancestor)
+        ]
+        ;
+        ;; Check if ?b has ?ancestor as an ancestor or as a parent (when ?is-parent)
+        [(check-ancestor-parent ?b ?ancestor ?is-parent)
+            (or
+                (and [(= true ?is-parent)] [?b :block/parent ?ancestor])
+                (and [(= false ?is-parent)] (check-ancestor ?b ?ancestor))
+            )
+        ]
+     ]; end :rules[]
+    }
+    #+END_QUERY
+    
+  "
+
+  ;;Show notification depending on the current time relative to time stamps
+  ;; defined in `scheduled::` and `deadline::` properties.
+  ;; 1. Show task ($2) if now < scheduled time
+  ;; 2. Show warning ($3) if scheduled time < now < deadline
+  ;; 3. Show error ($4) if deadline < now
+  :deadline-warning
+  "$1
+    #+BEGIN_QUERY
+    {;:title [\"Deadline warning\"]  ; replaced by $.1 above #+BEGIN_QUERY
+      :inputs [
+        :today ; ?today
+        :today-start ; ?today-ms
+        :right-now-ms ; ?now-ms
+        [:block/uuid #uuid \"$2\"]  ;  ?task
+        [:block/uuid #uuid \"$3\"]  ;  ?warning
+        [:block/uuid #uuid \"$4\"]  ;  ?error
+      ]
+      :query [
+        :find (pull ?b [*]) ;  ?date-time ?scheduled-date-time ?deadline-date-time
+        :in $ ?today ?today-ms ?now-ms ?task ?warning ?error %
+        :where 
+            ; get ?scheduled & ?deadline date-time
+            ;[?task :block/scheduled ?scheduled] 
+            ;[?task :block/deadline ?deadline] 
+            [?task :block/properties ?props]
+            [(get ?props :scheduled false) ?scheduled]
+            [(get ?props :deadline false) ?deadline]
+            ;
+            ; extract yyyy-MM-dd HH:mm:ss from ?scheduled & ?deadline
+            [(re-pattern \"<(....-..-..) ... (..:..)>\") ?pat-date-wd-time]
+            [(re-seq ?pat-date-wd-time ?scheduled) ([_ ?scheduled-date ?scheduled-time]) ]
+            [(str ?scheduled-date \" \" ?scheduled-time) ?scheduled-date-time]
+            [(re-seq ?pat-date-wd-time ?deadline) ([_ ?deadline-date ?deadline-time]) ]
+            [(str ?deadline-date \" \" ?deadline-time) ?deadline-date-time]
+            ;
+            ; convert time within today to HH:mm:ss 
+            [(- ?now-ms ?today-ms) ?ms]
+            [(quot ?ms 1000)  ?ts]
+            [(mod ?ts 60) ?second]
+            (or
+                (and [(< ?second 10)] [(str \"0\" ?second) ?ssecond])
+                (and [(>= ?second 10)] [(identity ?second) ?ssecond])
+            )
+            [(quot ?ts 60) ?tm]
+            [(mod ?tm 60) ?minute]
+            (or
+                (and [(< ?minute 10)] [(str \"0\" ?minute) ?sminute])
+                (and [(>= ?minute 10)] [(identity ?minute) ?sminute])
+            )
+            [(quot ?tm 60) ?th]
+            [(mod ?th 24) ?hour]
+            (or
+                (and [(< ?hour 10)] [(str \"0\" ?hour) ?shour])
+                (and [(>= ?hour 10)] [(identity ?hour) ?shour])
+            )
+            [(str ?shour \":\" ?sminute \":\" ?ssecond) ?time]
+            ;
+            ; convert ?today to yyyy-MM-dd 
+            [(mod ?today 100) ?day]
+            (or
+                (and [(< ?day 10)] [(str \"0\" ?day) ?sday])
+                (and [(>= ?day 10)] [(identity ?day) ?sday])
+            )
+            [(quot ?today 100) ?dm]
+            [(mod ?dm 100) ?month]
+            (or
+                (and [(< ?month 10)] [(str \"0\" ?month) ?smonth])
+                (and [(>= ?month 10)] [(identity ?month) ?smonth])
+            )
+            [(quot ?dm 100) ?dy]
+            [(mod ?dy 100) ?year2]
+            [(+ ?year2 2000) ?year]
+            [(str ?year \"-\" ?smonth \"-\" ?sday) ?date]
+            ;
+            ; concatenate to ?date-time
+            [(str ?date \" \" ?time) ?date-time]
+            ;
+            ; switch block to show
+            [(compare ?date-time ?scheduled-date-time) ?scheduled-rel]
+            [(compare ?date-time ?deadline-date-time) ?deadline-rel]
+            (or
+                (and [(< ?scheduled-rel 0)] [(identity ?task) ?b])
+                (and [(>= ?scheduled-rel 0)] [(<= ?deadline-rel 0)] [(identity ?warning) ?b])
+                (and [(> ?deadline-rel 0)] [(identity ?error) ?b])
+            )
+      ] ; end query[]
+      ;
+      ;; query options:
+      :breadcrumb-show? false
+      :group-by-page? false
+      ;:collapsed? ; always collapse, must open it to see updated result
+      ;:result-transform 
+      ;
+      ;;;;;;;; rules ;;;;;;;;
+      :rules [
+      ]
+    }
+    #+END_QUERY
+    
+  "
+ }
+
+ ;; Configure the default expansion level for linked references.
+ ;; For example, consider the following block hierarchy:
+ ;; - a [[page]] (level 1)
+ ;;   - b        (level 2)
+ ;;     - c      (level 3)
+ ;;       - d    (level 4)
+ ;;
+ ;; With the default value of level 2, block b will be collapsed.
+ ;; If the level's value is set to 3, block c will be collapsed.
+ ;; Default value: 2
+ :ref/default-open-blocks-level 2
+
+ ;; Configure the threshold for linked references before collapsing.
+ ;; Default value: 100
+ :ref/linked-references-collapsed-threshold 0
+
+ ;; Graph view configuration.
+ ;; Example usage:
+ ;; :graph/settings
+ ;; {:orphan-pages?   true   ; Default value: true
+ ;;  :builtin-pages?  false  ; Default value: false
+ ;;  :excluded-pages? false  ; Default value: false
+ ;;  :journal?        false} ; Default value: false
+
+ ;; Graph view configuration.
+ ;; Example usage:
+ ;; :graph/forcesettings
+ ;; {:link-dist       180    ; Default value: 180
+ ;;  :charge-strength -600   ; Default value: -600
+ ;;  :charge-range    600}   ; Default value: 600
+
+ ;; Favorites to list on the left sidebar
+ :favorites []
+
+ ;; Set flashcards interval.
+ ;; Expected value:
+ ;; - Float between 0 and 1
+ ;; higher values result in faster changes to the next review interval.
+ ;; Default value: 0.5
+ ;; :srs/learning-fraction 0.5
+
+ ;; Set the initial interval after the first successful review of a card.
+ ;; Default value: 4
+ ;; :srs/initial-interval 4
+
+ ;; Hide specific block properties.
+ ;; Example usage:
+ ;; :block-hidden-properties #{:public :icon}
+
+ ;; Create a page for all properties.
+ ;; Default value: true
+ :property-pages/enabled? false
+
+ ;; Properties to exclude from having property pages
+ ;; Example usage:
+ ;; :property-pages/excludelist #{:duration :author}
+
+ ;; By default, property value separated by commas will not be treated as
+ ;; page references. You can add properties to enable it.
+ ;; Example usage:
+ ;; :property/separated-by-commas #{:alias :tags :name}
+
+ ;; Properties that are ignored when parsing property values for references
+ ;; Example usage:
+ ;; :ignored-page-references-keywords #{:author :website}
+
+ ;; logbook configuration.
+ ;; :logbook/settings
+ ;; {:with-second-support? false ;limit logbook to minutes, seconds will be eliminated
+ ;;  :enabled-in-all-blocks true ;display logbook in all blocks after timetracking
+ ;;  :enabled-in-timestamped-blocks false ;don't display logbook at all
+ ;; }
+
+ ;; Mobile photo upload configuration.
+ ;; :mobile/photo
+ ;; {:allow-editing? true
+ ;;  :quality        80}
+
+ ;; Mobile features options
+ ;; Gestures
+ ;; Example usage:
+ ;; :mobile
+ ;; {:gestures/disabled-in-block-with-tags ["kanban"]}
+
+ ;; Extra CodeMirror options
+ ;; See https://codemirror.net/5/doc/manual.html#config for possible options
+ ;; Example usage:
+ ;; :editor/extra-codemirror-options
+ ;; {:lineWrapping  false  ; Default value: false
+ ;;  :lineNumbers   true   ; Default value: true
+ ;;  :readOnly      false} ; Default value: false
+
+ ;; Enable logical outdenting
+ ;; Default value: false
+ ;; :editor/logical-outdenting? false
+
+ ;; Prefer pasting the file when text and a file are in the clipboard.
+ ;; Default value: false
+ ;; :editor/preferred-pasting-file? false
+
+ ;; Quick capture templates for receiving content from other apps.
+ ;; Each template contains three elements {time}, {text} and {url}, which can be auto-expanded
+ ;; by receiving content from other apps. Note: the {} cannot be omitted.
+ ;; - {time}: capture time
+ ;; - {date}: capture date using current date format, use `[[{date}]]` to get a page reference
+ ;; - {text}: text that users selected before sharing.
+ ;; - {url}: URL or assets path for media files stored in Logseq.
+ ;; You can also reorder them or use only one or two of them in the template.
+ ;; You can also insert or format any text in the template, as shown in the following examples.
+ ;; :quick-capture-templates
+ ;; {:text "[[quick capture]] **{time}**: {text} from {url}"
+ ;;  :media "[[quick capture]] **{time}**: {url}"}
+
+ ;; Quick capture options.
+ ;; - insert-today?   Insert the capture at the end of today's journal page (boolean).
+ ;; - redirect-page?  Redirect to the quick capture page after capturing (boolean).
+ ;; - default-page    The default page to capture to if insert-today? is false (string).
+ ;; :quick-capture-options
+ ;; {:insert-today? false           ;; Default value: true
+ ;;  :redirect-page? false          ;; Default value: false
+ ;;  :default-page "quick capture"} ;; Default page: "quick capture"
+
+ ;; File sync options
+ ;; Ignore these files when syncing, regexp is supported.
+ ;; :file-sync/ignore-files []
+
+ ;; Configure the Enter key behavior for
+ ;; context-aware editing with DWIM (Do What I Mean).
+ ;; context-aware Enter key behavior implies that pressing Enter will
+ ;; have different outcomes based on the context.
+ ;; For instance, pressing Enter within a list generates a new list item,
+ ;; whereas pressing Enter in a block reference opens the referenced block.
+ ;; :dwim/settings
+ ;; {:admonition&src?  true        ;; Default value: true
+ ;;  :markup?          false       ;; Default value: false
+ ;;  :block-ref?       true        ;; Default value: true
+ ;;  :page-ref?        true        ;; Default value: true
+ ;;  :properties?      true        ;; Default value: true
+ ;;  :list?            false}      ;; Default value: false
+
+ ;; Configure the escaping method for special characters in page titles.
+ ;; Warning:
+ ;;   This is a dangerous operation. To modify the setting,
+ ;;   access the 'Filename format' setting and follow the instructions.
+ ;;   Otherwise, You may need to manually rename all affected files and
+ ;;   re-index them on all clients after synchronization.
+ ;;   Incorrect handling may result in messy page titles.
+ ;; Available options:
+ ;;   - :triple-lowbar (default)
+ ;;      ;use triple underscore `___` for slash `/` in page title
+ ;;      ;use Percent-encoding for other invalid characters
+ :file/name-format :triple-lowbar
+
+}
