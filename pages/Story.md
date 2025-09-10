@@ -3981,7 +3981,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  git merge --squash -Xtheirs log
 								  ret=$?
 								  if [ ${ret} -ne 0 ]; then
-								  	echo "Manually resolve conflicts, then: cp ..."
+								  	echo "Manually resolve conflicts, then: copy config.edn; remove assets; git add & commit"
 								      echo "Commit message: ${log_msg}"
 								      exit
 								  fi
