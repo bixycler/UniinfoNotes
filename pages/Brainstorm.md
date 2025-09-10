@@ -34,6 +34,30 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Manifestations of complementarity
+		  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-09-09 Tue 10:29:12]
+		  CLOCK: [2025-09-09 Tue 10:29:33]--[2025-09-09 Tue 13:09:49] =>  02:40:16
+		  :END:
+			- From general to specific, the Principle of Complementarity manifests in 3 forms.
+				- 1. Principle of Complementarity (from Ancient Eastern Philosophy to Modern Science)
+					- [Niels Bohr](https://en.wikipedia.org/wiki/Niels_Bohr)'s [coat of arms](https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Niels_Bohr.svg) features a [yin–yang](https://en.wikipedia.org/wiki/Yin_and_yang) [taijitu](https://en.wikipedia.org/wiki/Taijitu) and a motto in Latin “contraria sunt complementa” (“opposites are complementary”).
+					  collapsed:: true
+						- ![Coat_of_Arms_of_Niels_Bohr.svg.png](../assets/Will/story/2025-09/Coat_of_Arms_of_Niels_Bohr.svg.png)
+					- Bohr designed this coat of arms to show that [complementarity](https://en.wikipedia.org/wiki/Complementarity_(physics)) – an ancient Chinese philosophy in [Taoism](https://en.wikipedia.org/wiki/Taoism) – is fundamental to [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics).
+				- 2. Law of Inverse Variation between Intent and Extent (Unïnfo)
+					- In ((66537a44-f579-4fcc-a02b-2f32d0d409fc)), the complementarity of ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) and ((66b1cfa4-3a39-4672-9da2-cd3bcef71702)) via [the same content](((678e1960-58d6-4cf3-8fe3-25f2f4489b33))) is formulated with the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) formula.
+					- The [verb version](((68a7de6e-fbe8-4fb9-8dc1-6279c066565f))) is “intending inward is parallel with extending outward”, which naturally follows the tendency of both sides.
+						- The “intending” action naturally flows “inward”, and the “extending” action naturally flows “outward”.
+					- That means they are just two sides of the same coin, which are opposite only by opposite views.
+					- Projecting this coin of duality to a cone shape, e.g. ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)) or ((6672513b-c4b0-4c88-8b30-c60a3c6555a7)), 
+					  we have the [noun/adjective version](((687f7bca-3f80-4a42-93b0-2dd9996ff426))): 
+					  “the less intent, the more extent”, or “the lesser the intent, the greater the extent”.
+						- The noun/adjective version sounds paradoxical because we've fixed our view on a single direction.
+				- 3. Law of Inverse Variation between Intension and Extension (Logic & Semantics)
+					- This [key principle in logic & semantics](https://philosophy.institute/logic/inverse-variation-principle-logic-extension-intension/) relates [intension and extension](https://en.wikipedia.org/wiki/Intension) – the two complements of a word.
 		- “Every empty point is the whole world, the whole life!”
 		  id:: 68b79197-1244-4b42-b79f-464cfc8433a1
 		  collapsed:: true
@@ -476,7 +500,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Though empty, the central role of the self-essence in the self makes it essential to every self.
 					- All parts of the self-circle are integrated by focusing on the same center. Via that center, they all are one, seeing/feeling/treating each other as the same ((66c810a0-9861-4787-bdcf-1378219332be)) of self.
 					- When a self-circle loses its center, it just ceases to exist as itself and disintegrates into smaller circles.
-					- Such essence of the empty center is can be seen in the hub of the wheel.
+					- Such essence of the empty center can be seen in the hub of the wheel.
 						- [wheel of dharma](https://en.wikipedia.org/wiki/Dharmachakra)
 							- ![Dharma_Wheel.svg](../assets/Uniinfo/Metaphysics/Dharma_Wheel.svg){:width 100}
 						- #+BEGIN_QUOTE

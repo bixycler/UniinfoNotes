@@ -7,7 +7,7 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 	- id:: 66600918-7717-48c0-9869-1776d05035f1
 	- ## Search
 	  id:: 66fce880-77a2-41f7-8bdb-a86b7fc6fc77
-		- large
+		- llm
 		  id:: 66fce7e0-8040-4980-b2aa-807e4a0cde1f
 		  collapsed:: true
 		  ^ **Name & Term** search
@@ -28,20 +28,20 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 					- child-filter:: ((665ca48e-f7c1-4541-b5cf-486d86b02997)) | ((6651ecba-793d-43c5-8020-a9f260b032d8)) | ((665359c0-a89a-41b5-9f28-503f79107a08)) | ((669a1e5f-734c-41c1-bf1c-21813b6e81d8)) | ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- {{search-query [:h3 "Name & Term Search Result"], 66fce7e0-8040-4980-b2aa-807e4a0cde1f, 67710fcc-08c4-4a3e-96fd-bc4207f6ec8f, 677010ec-01b9-48d6-9a3b-ea53bd62cea3, true, false}}
 			  query-table:: false
-		- wiki:
+		- git
 		  id:: 66fce8d4-0434-4dd0-941f-4f3bd9b1b456
 		  collapsed:: true
 		  ^ **Element** search
 			- {{search-query [:h3 "Element Search Result"], 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, 66533703-505d-432d-8368-6058eefb45f6, 66fce8d4-0434-4dd0-941f-4f3bd9b1b456, true, false}}
 			  query-table:: false
-		- ujjayi
+		- law of the same content
 		  id:: 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2
 		  case-sensitive:: false
 		  whole-word:: false
 		  filter::
 		  child-filter::
 		  search-scope:: Specific blocks:
-		  search-scope-page:: Main docs: [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]], [[Mind Chips]];
+		  search-scope-page:: Main docs:  [[Mind Jungle]], [[Task]], [[Git]], [[Linux]], [[JavaScript]], [[Database]]; Extended: [[Brainstorm]], [[Story]], [[Braindump]], [[Workspace]];  History: [[2024 Tasks]], [[2024 Brainstorms]], [[2024 Stories]], [[Mind Chips]];
 		  collapsed:: true
 		  Old History: [[2020 Mind Chips]], [[2021 Mind Chips]], [[2022 Mind Chips]], [[2023 Mind Chips]], [[2024 Mind Chips]], [[2025 Mind Chips]];
 			- {{search-query [:h3 "Full-text Search Result"], 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, 66fd14fd-5eee-4830-b4cb-6bd6f520b9b2, true, true}}
@@ -58,24 +58,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- Recorded the worst (unexplainable) experiences of self-control; Replace precomposed → combined ï in Unïnfo
+				- (title...)
 				-
-				- Stories & practices
-					- ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
-					- ((68a53a70-3f35-497b-a610-703d8a6665e5))
-					- ((68b79197-1244-4b42-b79f-464cfc8433a1))
-					  :LOGBOOK:
-					  CLOCK: [2025-09-05 Fri 18:08:27]--[2025-09-05 Fri 18:10:39] =>  00:02:12
-					  :END:
-				-
-				- UniinfoNotes
-					- ((68a520c4-6a2e-4db9-8806-c4b4e55390e8))
-					- ((68a3e5cf-5523-4da5-ad38-d30ab6016f88))
-					- DONE Flush 2025 Mind Chips to `2025 Mind Chips.md`.
-					  :LOGBOOK:
-					  CLOCK: [2025-09-08 Mon 09:43:32]
-					  CLOCK: [2025-09-08 Mon 09:43:34]--[2025-09-08 Mon 14:33:57] =>  04:50:23
-					  :END:
+				- Remove `.obsidian/`
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
 				- ...

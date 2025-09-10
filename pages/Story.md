@@ -3351,6 +3351,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :END:
 					- Unïnfo site
 						- [14001986](https://github.com/bixycler/Uniinfo/commit/14001986): Add [robots.txt](https://bixycler.github.io/Uniinfo/robots.txt) & [sitemap.xml](https://bixycler.github.io/Uniinfo/sitemap.xml)
+						- Added `sitemap.xml` manually, because it has not been discovered automatically by Google.
+							- `Sitemap submitted successfully` notified → click the line `/sitemap.xml`
+							  collapsed:: true
+								- ![Sitemap submitted successfully.png](../assets/Will/story/2025-09/Sitemap submitted successfully.png)
+							- → Click the link `OPEN SITEMAP` at the top right corner → open the correct sitemap.
+							- But it's reported `Sitemap could not be read` 🙁
+							  collapsed:: true
+								- ![Sitemap could not be read.png](../assets/Will/story/2025-09/Sitemap could not be read.png)
 			- 24th, ((6882164a-8717-4fd4-a660-4fdeb424af70))
 			  collapsed:: true
 				- Will Lei's cover of [Canon in D](https://en.wikipedia.org/wiki/Pachelbel%27s_Canon) in [Viola the Bird](https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ)
@@ -3939,6 +3947,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- For revolutionaries or idealists, “strength” means unyielding pursuit of a goal (no compromise, no middle).
 							- For Buddhists, “strength” means not being swayed to extremes (the harder path of balance, self-mastery).
 				- The Git repo of ((666baccf-6be1-4b9a-b186-f883ea04daf1)) has bloated to 1.2GB after a year!
+				  id:: 68be3302-6159-44e9-9292-b555320cf3a6
 				  collapsed:: true
 				  :LOGBOOK:
 				  CLOCK: [2025-09-08 Mon 08:37:10]
@@ -3948,14 +3957,29 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The fine-grained tracking `log` branch should be reset, with the old history archived to `log01`.
 							- `log01`: `1e352c73`...`7e99c79e`: 2024 Oct 17 ~ 2025 Sep 05
 						- The `assets/Will/` of 243MB should be trimmed from `mobile` branch.
-					- The dedicated branch `mobile` should have a trimmed repo with
-						- weekly ~~cherry-picks~~ squashed merges from `log` and
+					- DOING The dedicated branch `mobile` contains a trimmed repo with
+					  :LOGBOOK:
+					  CLOCK: [2025-09-10 Wed 08:12:21]
+					  :END:
 						- a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
+						- `mobile` history contains only 3 commits: `{init}` + `[base]` squashing all the history + `[mobile]` containing mods for mobile + (temporary merge squashed commits from `log`).
+							- Update `mobile` with merge squashed from `log`
+								- Normally, just [merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh) `log`.
+								- When commits piles up, squash them down with `git rebase -i [main]`
+						- ⇒ The `mobile` branch has index 17MB + history of 5MB ~~`main` 300MB~~.
+						- Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
+						  id:: 68bfc115-862d-4016-b9df-b157b685ee9d
+						  :LOGBOOK:
+						  CLOCK: [2025-09-09 Tue 12:55:42]--[2025-09-09 Tue 13:18:09] =>  00:22:27
+						  :END:
+							- The main pull/push remote is set to `UniinfoNotes-mobile`, but both remotes should be synced: `mobile` = `origin/mobile` = `mobile/mobile`
+						-
 				- First time get through [aversion (tense)](((6839229d-9eff-49e4-9480-6e2db6f61127))) in tantric practice by ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique.
 				  id:: 68be308b-9135-44cd-b2c4-690a267fb8c2
 					- The [full-body breath](((68594391-faeb-4f7e-87e1-9ea179c2639b))) keeps us from greed (lack), the [sublime breath](((68594391-db9c-4d1a-b578-045d87d3e038))) clears all blockages, constrictions, so that we're not tense or averse.
 					- ⇒ Live fully in the present, not sucked toward a target in the future (greed), nor clingging to an impression in the past (aversion).
 				- Logseq AI: No working plugin for free APIs like Gemini.
+				  ⇒ Use separate data indexers like ((68be308b-f247-4c5a-b8b7-96a3fbc8a25b)).
 					- [AssistSeq](((68be4ad9-b2de-4ac7-ad17-6b5ac8478ac9))) is most promising with context & free API of Gemini, but abandoned.
 					- [AI Assistant](((68be4a6e-f672-4892-b072-732eb034fac9))) requires paid API from OpenAI.
 					- [Ollama](((684f9516-b179-4c37-9feb-f08781466afa))) requires models running on local machine.
@@ -4044,7 +4068,37 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  CLOCK: [2025-09-08 Mon 14:23:19]
 		  :END:
 			- Let's try applying [my technique](((68be308b-9135-44cd-b2c4-690a267fb8c2))) and integrate the previous [experience](((68b79197-1244-4b42-b79f-464cfc8433a1))) to the work and life.
-			-
+			- Sep 8th, the whole day caught up with LLM & RAG to index UniinfoNotes, then ((68bfc115-dcbf-4e2b-b13e-afa3be10f9b5)).
+			  collapsed:: true
+				- ((68be308b-881b-456f-9782-333ef40c52bb))
+				- ((68beba04-5cba-4eca-bc33-6589bf06bfce))
+				- AI in [DIKW Pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid)
+				  id:: 68bfc115-dcbf-4e2b-b13e-afa3be10f9b5
+					- Linear data (raw)
+					- Folded info (indexed, compressed)
+					- Structured knowledge (format, tree, graph, algorithm)
+					- Balanced wisdom (obop, uninet, autonoton)
+						- Obop use the old knowledge to balance the imbalance (new info, problem, question) into new knowledge (integrated info, result, answer).
+						- The imbalance is the dynamic arrow driving the effect circle. => Must be active or lost.
+						- The balanced result is the new circle crystallized from the static/stable effect circle. => Can be put down into storage.
+				-
+			- Sep 9th, ((68bfefa1-b4e8-42e5-890f-de1daccaf61a))
+				- ((68bfc115-862d-4016-b9df-b157b685ee9d))
+				- ((68bf9f05-4545-4f07-ad27-9ed4409af1ae))
+				- Tested ((68be308b-f247-4c5a-b8b7-96a3fbc8a25b)) over UniinfoNotes
+				  id:: 68bfefa1-b4e8-42e5-890f-de1daccaf61a
+					- RAG with vector of text chunks
+						- The block ((678e2046-54ac-4284-865d-6f3e38f589a1)) cannot be retrieved even when most of its contents are explicitly prompted:
+						  collapsed:: true
+							- `All beings have the same content.`
+							- `Different beings are just the same content expressed in different forms.`
+							- `Law of the same content`
+							- `Conservation of content`
+							- `universal content`
+								- `sustent`
+						- With the vector DB option `Accuracy Optimized` (reranking), the block of the law can be retrieved in... half a minute (first time for reranking)! The later times go faster, comparable to the `Default` (no reranking) option.
+					- ((68bfdd91-5882-498f-8973-1f0d2ed8a59f))
+					- ((68bff76e-cea0-422d-bc9f-fd6456ef2865))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))

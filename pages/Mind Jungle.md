@@ -147,12 +147,16 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Ref: [reddit:r/LocalLLM](https://www.reddit.com/r/LocalLLM/)
 					- [Ollama server](https://github.com/ollama/ollama)
+						- Phi-4 Mini (3.8B): on CPU only (no GPU), it's a good choice for efficiency and strong **reasoning** abilities.
+						- Llama 3.2 (3B): for content creation and **agentic** workflows, along with multilingual support.
+						- Gemma 3 (4B): for tasks requiring long **context** (128k window) and broad language support.
 					- [Open WebUI](https://github.com/open-webui/open-webui)
 						- Open WebUI supports [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation).
 					- [LocalAI](https://github.com/mudler/LocalAI)
 					- [LMStudio](https://github.com/lmstudio-ai)
 					- [GPT4All](https://github.com/nomic-ai/gpt4all)
 				- Free LLM APIs
+				  id:: 68be308b-881b-456f-9782-333ef40c52bb
 				  collapsed:: true
 					- [ApiFreeLLM](https://www.apifreellm.com/)
 						- No registration, no API key needed, unlimited API calls, only rate limits (to prevent abuse).
@@ -170,18 +174,64 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							  | Embedding            | 100 RPM | 30k TPM | 1k RPD |
 						- Genrerative model API: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent` & Header `X-goog-api-key:`
 						- Cloud Console > [Service Usage > Generative Language API](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/metrics?project=gen-lang-client-0007872100)
+							- My usage of [gemini-2.5-flash-lite](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/quotas?project=gen-lang-client-0007872100&pageState=(%22allQuotasTable%22:(%22s%22:%5B(%22i%22:%22currentPercent%22,%22s%22:%221%22),(%22i%22:%22displayDimensions%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakPercent%22,%22s%22:%220%22),(%22i%22:%22currentUsage%22,%22s%22:%221%22),(%22i%22:%22sevenDayPeakUsage%22,%22s%22:%220%22),(%22i%22:%22serviceTitle%22,%22s%22:%220%22),(%22i%22:%22displayName%22,%22s%22:%220%22)%5D,%22f%22:%22%255B%257B_22k_22_3A_22Dimensions%2520%2528e.g.%2520location%2529_22_2C_22t_22_3A10_2C_22v_22_3A_22_5C_22model_3Agemini-2.5-flash-lite_5C_22_22_2C_22s_22_3Atrue_2C_22i_22_3A_22displayDimensions_22%257D%255D%22)))
 					- [OpenRouter](https://openrouter.ai/)
 						- Automatically routed to various models with a single API key.
 						- For free models, max requests: 50/minute, 250/day
 					- [Cohere](https://cohere.com/)
 						- [Founded in 2019](https://en.wikipedia.org/wiki/Cohere) by former researchers of Google Brain.
 						- Max free requests: 20/min, 1k/month
-				- Data indexer for LLM (with [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database))
+				- Document indexer for LLM ([RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) over [vector database](https://en.wikipedia.org/wiki/Vector_database) or [graph database](https://en.wikipedia.org/wiki/Graph_database))
+				  id:: 68beba04-5cba-4eca-bc33-6589bf06bfce
 				  collapsed:: true
-					- [LlamaIndex](https://github.com/run-llama/llama_index)
+					- LlamaIndex
+					  id:: 68be308b-ccec-425c-b5eb-6b1c83f75725
+					  collapsed:: true
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/run-llama/llama_index
 						- LlamaIndex allows users to extract and ingest data from various sources, and then store and query it as a knowledge graph within [NebulaGraph](https://github.com/vesoft-inc/nebula).
-					- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)
-					- [MemFree](https://github.com/memfreeme/memfree)
+						- LlamaIndex' [knowledge graph](https://www.llamaindex.ai/blog/building-knowledge-graph-agents-with-llamaindex-workflows): `KnowledgeGraphIndex` & [`KnowledgeGraphQueryEngine`](https://docs.llamaindex.ai/en/stable/examples/query_engine/knowledge_graph_query_engine/), [`KnowledgeGraphRAGQueryEngine`](https://docs.llamaindex.ai/en/stable/examples/query_engine/knowledge_graph_rag_query_engine/) (hybrid graph + vector)
+							- Indexing
+								- LLM-based `KnowledgeGraphIndex`, or
+								- Program-based `nbb-logseq` parser to JSON for LlamaIndex or Neo4j ingestion.
+							- Querying
+								- LLM-based `KnowledgeGraphQueryEngine`, or
+								- Graph DB query like Cypher.
+					- AnythingLLM
+					  id:: 68be308b-f247-4c5a-b8b7-96a3fbc8a25b
+					  collapsed:: true
+					  All-in-one AI application with RAG, AI Agents, etc.
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/Mintplex-Labs/anything-llm
+						- Generative LLMs: various cloud APIs (Gemini, OpenAI, ...) and local APIs (Ollama, LocalAI, LM Studio)
+						- Embedding LLMs: [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) (default, local), cloud APIs (OpenAI, Cohere), local APIs (Ollama, LocalAI, LM Studio)
+						- Transcription Model: [Xenova Whisper](https://huggingface.co/Xenova/whisper-small) (default, local), cloud API (OpenAI)
+						- Vector DB: [LanceDB](https://lancedb.com/) (default, built-in), local APIs (Choma, Milvus), cloud APIs (Pinecone, ...)
+						- Prompt composition: system prompt +> context (system message = RAG chunks) +> history +> query prompt
+						- On Linux
+							- Installer: [AnythingLLM-installer.sh](../assets/Will/story/2025-09/AnythingLLM-installer.sh) which is also an updater.
+							  id:: 68bea89f-4dc7-4ea6-8fe9-fe3ec82b6423
+							- App binary: `$HOME/AnythingLLMDesktop`/{`AnythingLLMDesktop.AppImage` → `anythingllm-desktop/`}
+								- Executive: `anythingllm-desktop/AppRun`
+							- Data store: `$HOME/.config/anythingllm-desktop/`
+							- The `{user.name}` &`{user.bio}` are only available on Server/Docker (with multi-user mode), not available on Desktop version.
+							- System prompt change will take no effect after some prompts, after the momentum (habit) sets in!
+							  id:: 68bfdd91-5882-498f-8973-1f0d2ed8a59f
+								- The values `{time}` and `{datetime}` will just be guessed from then on, hence very lagging.
+									- Thig timestamp lag also appeared on the chat with Copilot when i asked it to print timestamp.
+							- Chatbot can see history + current prompt + contexts (text chunks), but cannot see system prompt.
+							  id:: 68bff76e-cea0-422d-bc9f-fd6456ef2865
+					- GraphRAG
+					  collapsed:: true
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/microsoft/graphrag
+						- Microsoft: Extract meaningful, structured data from unstructured text using the power of LLMs.
+						- ⚠️ Warning: GraphRAG indexing can be an expensive operation!
+						- Indexing
+							- Black-box LLM generates a semantic knowledge graph (nodes = entities, edges = relations) from your documents.
+							- The graph is stored internally (no fine control over schema, entity granularity, or edge types).
+						- Querying
+							- Your natural-language query is interpreted by LLM → turned into a graph query (retrieving relevant nodes + their neighbors).
+							- Retrieved subgraph is combined with chunked text for final answer generation.
+					- MemFree
+						- ((665f1a5c-6c98-4785-a177-3cd01507595d)) https://github.com/memfreeme/memfree
 				-
 		- AI chatbots
 		  id:: 67a5fae8-8e1d-4dd6-818d-a8462f6b54db
@@ -1052,7 +1102,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ### qualiton
 		  id:: 671e0fcc-37b6-4f03-8e87-8923422ca8e0
 		  ((6699e4db-2e75-4427-94bb-96dfe0367dd1)) ((671e0f99-c35c-45f3-9f80-4d9cf00063de))
-			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)) at the center (inner most ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)). Through the process of [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))), the qualiton not only carries and sustains quality, but also applies that quality to ((671e0f99-c35c-45f3-9f80-4d9cf00063de))s to activate them into living qualions. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is a qualiton of electricity which is a bundle of quanta (energy, spin, etc.) activated by the [prototype electron](https://en.wikipedia.org/wiki/One-electron_universe) (root qualiton).
+			- ((6651ecba-793d-43c5-8020-a9f260b032d8)) A ((671e0fcc-37b6-4f03-8e87-8923422ca8e0)) is a ((667d162c-16cf-44d3-81a5-29b1b885164f)) of ((66e426ec-d29b-4614-932b-2c70693790d7)) at the center (inner most ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9))) of the ((94e87dc9-71af-477c-aa70-0f448c2f1e20)). Through the process of [qualification](((681826ac-f5f2-4a84-a5f5-c110937ec85f))), the qualiton not only carries and sustains quality, but also applies that quality to ((671e0f99-c35c-45f3-9f80-4d9cf00063de))s to activate them into living qualitons. E.g., each [electron](https://en.wikipedia.org/wiki/Electron) is a qualiton of electricity which is a bundle of quanta (energy, spin, etc.) activated by the [prototype electron](https://en.wikipedia.org/wiki/One-electron_universe) (root qualiton).
 				- Etymology: qualiton = [quality](https://www.etymonline.com/word/quality) + [-on](https://www.etymonline.com/word/-on)
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- ((681826ac-f5f2-4a84-a5f5-c110937ec85f))
@@ -4068,6 +4118,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- With the sublime–channeling mind, i've found that my breath is "strong & noisy inside", which is very similar to the [Ujjayi Pranayama](https://en.wikipedia.org/wiki/Ujjayi) of yoga.
 					  id:: 66b1cfa3-93c4-4de3-8904-06fb065ded70
 					- This breath is the back-tracking thread connecting to the root, just like the [Ariadne's thread](https://en.wikipedia.org/wiki/Ariadne%27s_thread_(logic)) helping escaping the maze.
+					  collapsed:: true
 				- ((669a1bec-3347-4915-83e4-dcffc4d482d1)): input = output
 				  id:: 669a58b9-2104-4d4c-b68f-7a45e2adb915
 				- ((6667abd2-14eb-4145-b9e3-e6f3037b3117))
@@ -4903,6 +4954,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 		- ((6651ecba-793d-43c5-8020-a9f260b032d8)) ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) is an umbrella term capturing the abstract notion of “something packed inside the ((667cfa3e-9856-43f0-956b-ebb4ff31d8eb))”. E.g.: the daily used ((66f93c78-15f5-43a7-8412-f7a5bc66e2ae)) and [intentionality](https://en.wikipedia.org/wiki/Intentionality), the semantical ((66f93d8f-4fbf-4ed1-8bec-59bf92b6f2cd)), the ((66f3c97f-94e8-4783-96c5-fe9cadf4f9a9)) in CIE, etc.
 		- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 			- The general ((66b1cfa4-01ef-4ee8-9409-32c9884c39cd)) versus the strongly volitional “intent” in common usage
+			  id:: 687f7bca-3f80-4a42-93b0-2dd9996ff426
 			  collapsed:: true
 				- Unïnfo's “intent” > “intention” > common “intent”
 				  | Term                  | Volitional?     | Semantic, Conceptual? | Generalized? | Common Use                      |
@@ -4942,7 +4994,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 						- From his University time, he had contemplated a lot about the 2 duals of intension/extension and form/content.
 					- When Will contemplated the ((66b1cfa4-e22c-4424-bf19-a6ce4649da77)) in 2020, he revived the [archaic word “intent”](((686cef15-5eab-44f1-b8d7-3d8a9edcfa69))) to capture the general meaning of both semantical “inten**s**ion” and volitional “inten**t**ion”. The word “intent” was chosen instead of “intension” in order to be parallel with the other 2 compoents: content–intent–extent.
 						- Actually, at first he thought that the term “intent” with general meaning was his own coinage... only to learn later that it was an archaic connotation.
-			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its noun “intent”, as shown with the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)): “to direct attention to and focus on a target within the subject”.
+			- The verb ((68a7de4b-7072-4ec1-907e-5a0d9fdba859)) in Unïnfo has the general meaning parallel with its [noun “intent”](((687f7bca-3f80-4a42-93b0-2dd9996ff426))), as shown with the ((66ea8dbe-042e-41fc-a07c-841dcb5a737a)): “to direct attention to and focus on a target within the subject”.
 			  id:: 68a7de6e-fbe8-4fb9-8dc1-6279c066565f
 			  collapsed:: true
 			  :LOGBOOK:
