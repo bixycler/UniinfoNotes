@@ -153,7 +153,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Quantization: `Q4_K_M` (4-bit)
 							- Capabilities: completion, tools (function-calling)
 							- Built-in meta-commentary: Trained/fine-tuned to response with self-evaluation, internal thoughts, and so on, after the main response – for emtpy system prompt.
-								- The emtpy system prompt trigger this emergent behavior
+								- The emtpy system prompt triggers this emergent behavior, which is unstable.
 								- The format & content of the meta-commentary text is not fixed, some times parenthesized, some times separated by a marker, e.g. `----- End of Interaction -----`.
 						- Llama 3.2 (3B): for content creation and **agentic** workflows, along with multilingual support.
 						- Gemma 3 (4B): for tasks requiring long **context** (128k window) and broad language support.
