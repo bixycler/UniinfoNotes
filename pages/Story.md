@@ -3964,7 +3964,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- weekly ~~cherry-picks~~ squashed merges from `log` and
 						- a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
 						- ⇒ The trimmed `assests/` reduced to 85MB.
-						- ⇒ The `mobile` branch has index 97MB + history.
+						- ⇒ The `mobile` branch has index 100MB + ~~history 300MB~~.
+							- The `mobile` branch contains only one commit squashing all the history (and another commit of its diff from `main`).
 						- Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
 						  id:: 68bfc115-862d-4016-b9df-b157b685ee9d
 						  :LOGBOOK:
