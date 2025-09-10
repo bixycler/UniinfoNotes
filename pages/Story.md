@@ -3957,11 +3957,21 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The fine-grained tracking `log` branch should be reset, with the old history archived to `log01`.
 							- `log01`: `1e352c73`...`7e99c79e`: 2024 Oct 17 ~ 2025 Sep 05
 						- The `assets/Will/` of 243MB should be trimmed from `mobile` branch.
-					- DONE The dedicated branch `mobile` contains a trimmed repo with
+					- DOING The dedicated branch `mobile` contains a trimmed repo with
+					  :LOGBOOK:
+					  CLOCK: [2025-09-10 Wed 08:12:21]
+					  :END:
 						- weekly ~~cherry-picks~~ squashed merges from `log` and
 						- a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
 						- ⇒ The trimmed `assests/` reduced to 85MB.
-						- ⇒ The `mobile` branch has 97MB.
+						- ⇒ The `mobile` branch has index 97MB + history.
+						- Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
+						  id:: 68bfc115-862d-4016-b9df-b157b685ee9d
+						  :LOGBOOK:
+						  CLOCK: [2025-09-09 Tue 12:55:42]--[2025-09-09 Tue 13:18:09] =>  00:22:27
+						  :END:
+							- The main pull/push remote is set to `UniinfoNotes-mobile`, but both remotes should be synced: `mobile` = `origin/mobile` = `mobile/mobile`
+						-
 				- First time get through [aversion (tense)](((6839229d-9eff-49e4-9480-6e2db6f61127))) in tantric practice by ((668f5490-c223-4a8a-9cc4-0bd71af4c097)) technique.
 				  id:: 68be308b-9135-44cd-b2c4-690a267fb8c2
 					- The [full-body breath](((68594391-faeb-4f7e-87e1-9ea179c2639b))) keeps us from greed (lack), the [sublime breath](((68594391-db9c-4d1a-b578-045d87d3e038))) clears all blockages, constrictions, so that we're not tense or averse.
@@ -4071,11 +4081,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The balanced result is the new circle crystallized from the static/stable effect circle. => Can be put down into storage.
 				-
 			- Sep 9th, ((68bfefa1-b4e8-42e5-890f-de1daccaf61a))
-				- DONE Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
-				  :LOGBOOK:
-				  CLOCK: [2025-09-09 Tue 12:55:42]--[2025-09-09 Tue 13:18:09] =>  00:22:27
-				  :END:
-					- The main pull/push remote is set to `UniinfoNotes-mobile`, but both remotes should be synced: `mobile` = `origin/mobile` = `mobile/mobile`
+				- ((68bfc115-862d-4016-b9df-b157b685ee9d))
 				- ((68bf9f05-4545-4f07-ad27-9ed4409af1ae))
 				- Tested ((68be308b-f247-4c5a-b8b7-96a3fbc8a25b)) over UniinfoNotes
 				  id:: 68bfefa1-b4e8-42e5-890f-de1daccaf61a
