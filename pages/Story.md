@@ -3956,8 +3956,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- 2 large dirs: `.git/` = 841MB; `assets/` = 328MB
 						- The fine-grained tracking `log` branch should be reset, with the old history archived to `log01`.
 							- `log01`: `1e352c73`...`7e99c79e`: 2024 Oct 17 ~ 2025 Sep 05
-						- The `assets/Will/` of 243MB should be trimmed from `mobile` branch.
+						- For `mobile` branch, `assets/` should be trimmed, and history should be squashed.
 					- DOING The dedicated branch `mobile` contains a trimmed repo with
+					  id:: 68be3aea-4967-4910-aac4-7fd6b084d195
 					  :LOGBOOK:
 					  CLOCK: [2025-09-10 Wed 08:12:21]
 					  :END:
@@ -3965,6 +3966,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- `mobile` history contains only 3 commits: `{init}` + `[base]` squashing all the history + `[mobile]` containing mods for mobile + (temporary merge squashed commits from `log`).
 							- Update `mobile` with merge squashed from `log`
 								- Normally, just [merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh) `log`.
+									- This action must be scripted for modification for mobile: copy config.edn, remove assets.
 								- When commits piles up, squash them down with `git rebase -i [main]`
 						- ⇒ The `mobile` branch now has 9MB = index 4.5MB + history of 4.5MB ~~`main` 300MB~~.
 						- Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
