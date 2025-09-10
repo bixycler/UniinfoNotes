@@ -1,3 +1,3 @@
 - Your Vietcombank Connect24 card has been sent to registered address. Please visit transaction office/branch to receive your card.
 - mobile repo: `.git` 290MB + index 100MB = 390MB
-- ✅️ ☑️ ❌
+- ✅️ ☑️ ❌ ↩️ *️⃣
