@@ -3962,8 +3962,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2025-09-10 Wed 08:12:21]
 					  :END:
 						- a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
-						- `mobile` history contains only 3 commits: `{init}` + `[base]` squashing all the history + `[mobile]` containing mods for mobile.
+						- `mobile` history contains only 3 commits: `{init}` + `[base]` squashing all the history + `[mobile]` containing mods for mobile + (temporary merge squashed commits from `log`).
 							- Update `mobile` with merge squashed from `log`
+								- Normally, just `git merge --squash log && git commit`.
+								- When `mobile` history
 								- ```sh
 								  init=36cb3edc
 								  mobile_msg=$(git show --format='%s' -s)
@@ -3976,9 +3978,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  git stash pop # [mobile] commit
 								  ret=$?
 								  if [ ${ret} -ne 0 ]; then
-								  	echo "Manually resolve conflicts, then: git commit; git stash drop"
+								  	echo "Manually resolve conflicts, then: rm -r assets/Will; git commit; git stash drop"
 								      echo "Commit message: ${mobile_msg}"
 								  else
+								  	rm -r assets/Will
 								      git commit -m "${mobile_msg}"
 								  fi
 								  
