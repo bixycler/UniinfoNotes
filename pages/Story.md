@@ -3973,14 +3973,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								  main_msg=$(git show --format='[main] %h: %s' -s main)
 								  git merge --squash main
 								  cp -v assets/logseq/global/config.edn logseq/config.edn
-								  rm -rv assets
+								  rm -r assets && echo "All assets removed"
 								  git add --all
 								  git commit -m "${main_msg}"
 								  
 								  log_msg=$(git show --format='[log] %h: %s' -s log)
-								  git merge --squash log
+								  git merge --squash -Xtheirs log
+								  ret=$?
+								  if [ ${ret} -ne 0 ]; then
+								  	echo "Manually resolve conflicts, then: cp ..."
+								      echo "Commit message: ${log_msg}"
+								      exit
+								  fi
 								  cp -v assets/logseq/global/config.edn logseq/config.edn
-								  rm -rv assets
+								  rm -r assets && echo "All assets removed"
 								  git add --all
 								  git commit -m "${log_msg}"
 								  
