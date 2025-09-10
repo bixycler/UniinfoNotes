@@ -1,4 +1,8 @@
 - Your Vietcombank Connect24 card has been sent to registered address. Please visit transaction office/branch to receive your card.
 -
 - The [mobile repo trimming](((68be3aea-4967-4910-aac4-7fd6b084d195))) task has shown many points:
-	- First, it looked so simple, but
+	- First, it looked so simple, but then turned out with lots of pitfalls.
+	- Batch processing (generative) is much easier than wriggling through obstacles.
+	- Motivations (intents)
+		- First, the feeling of "simple" pushed me to dive in.
+		- In the middle, while the effect circle had not settled, the urge to settle down, the fear of wasting effort,
