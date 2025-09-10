@@ -3962,9 +3962,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  CLOCK: [2025-09-10 Wed 08:12:21]
 					  :END:
 						- a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
-						- `mobile` history contains only 2 commits: `[base]` squashing all the history + `[mobile]` containing mods for mobile.
+						- `mobile` history contains only 3 commits: `{init}` + `[base]` squashing all the history + `[mobile]` containing mods for mobile.
 							- Update `mobile` with merge squashed from `log`
 								- ```sh
+								  init=36cb3edc
+								  git stash push # [mobile] commit
+								  git reset --hard ${init}
+								  git merge --squash log # rename to `[base] hash:...` in editor
+								  git stash pop # [mobile] commit; resolve conflicts if any
 								  ```
 						- ⇒ The trimmed `assests/` reduced to 85MB.
 						- ⇒ The `mobile` branch has index 100MB + history of ~~`main` 300MB~~.
