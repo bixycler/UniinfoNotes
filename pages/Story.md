@@ -3966,6 +3966,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Update `mobile` with merge squashed from `log`
 								- ```sh
 								  init=36cb3edc
+								  git reset HEAD~ # to [base]
 								  git stash push # [mobile] commit
 								  git reset --hard ${init}
 								  git merge --squash log # rename to `[base] hash:...` in editor
