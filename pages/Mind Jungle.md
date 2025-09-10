@@ -147,7 +147,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Ref: [reddit:r/LocalLLM](https://www.reddit.com/r/LocalLLM/)
 					- [Ollama server](https://github.com/ollama/ollama)
-						- Phi-4 Mini (3.8B): on CPU only (no GPU), it's a good choice for efficiency and strong **reasoning** abilities.
+						- [Phi-4 Mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) (3.8B): on CPU only (no GPU), it's a good choice for efficiency and strong **reasoning** abilities, with multilingual support.
 							- Context window: 131k tokens
 							- Embedding length: 3072
 							- Quantization: `Q4_K_M` (4-bit)
