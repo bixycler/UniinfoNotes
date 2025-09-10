@@ -3966,16 +3966,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Update `mobile` with merge squashed from `log`
 								- ```sh
 								  init=36cb3edc
+								  mobile_msg=$(git show --format='%s' -s)
 								  git reset HEAD~ # to [base]
 								  git stash push # [mobile] commit
 								  git reset --hard ${init}
 								  git merge --squash log # to [base]
-								  message=$(git show --format='[base] %h: %s' -s log)
-								  git commit -m "${message}"
+								  base_msg=$(git show --format='[base] %h: %s' -s log)
+								  git commit -m "${base_msg}"
 								  git stash pop # [mobile] commit
 								  ret=$?
 								  if [ ${ret} -ne 0 ]; then
 								  	echo "Manually resolve conflicts, then: git commit; git stash drop"
+								      echo "Commit message: ${mobile_msg}"
+								  else
+								      git commit -m "${mobile_msg}"
 								  fi
 								  
 								  ```
