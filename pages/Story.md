@@ -3963,7 +3963,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  :END:
 						- a full `logseq/config.edn` ← [global `config.edn`](((66fe86b8-f17e-4b3f-b27f-213b3500146f)))
 						- `mobile` history contains only 2 commits: `[base]` squashing all the history + `[mobile]` containing mods for mobile.
-							- Each time updating `mobile`, we `rebase`
+							- Each time updating `mobile`, we `rebase -i log` to squash all `log` history.
 						- ⇒ The trimmed `assests/` reduced to 85MB.
 						- ⇒ The `mobile` branch has index 100MB + ~~`main` history 300MB~~.
 						- Add a [`mobile` remote repo](https://github.com/bixycler/UniinfoNotes-mobile) to track only [UniinfoNotes/mobile](https://github.com/bixycler/UniinfoNotes/tree/mobile), in order to solve the [MGit error on Android](((68be3302-6159-44e9-9292-b555320cf3a6))).
