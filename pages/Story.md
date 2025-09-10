@@ -4106,10 +4106,19 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- The [mobile repo trimming](((68be3aea-4967-4910-aac4-7fd6b084d195))) task has shown many points:
 					- First, it looked so simple, but then turned out with lots of pitfalls.
-						-
+					  collapsed:: true
+						- MGit does not support `clone --single-branch --branch mobile` 
+						  ⇒ Must create new repo dedicated for mobile, and add it as a remote to the desktop local repo.
+						- I tried to wriggle around `assets/` with `.gitignore` but failed because it has no effect in merge.
+						  id:: 68c147bb-ccd0-4007-8c5b-ec8d92129be6
+						  ⇒ ((68c13e10-4cfe-442f-aefd-5e7519d0945c))
+						- Managing for-mobile mods in commits is complicated with merge & stash
+						  ⇒ Just write a script to modify it after each merge.
 					- Batch processing (straightforward) is much easier than wriggling through obstacles.
 					  collapsed:: true
-						- Git: just merge with excess then trim it off. I tried to wriggle with `.gitignore` but failed because it has no effect in merge.
+						- Git: just merge with excess then trim it off. 
+						  id:: 68c13e10-4cfe-442f-aefd-5e7519d0945c
+						  ((68c147bb-ccd0-4007-8c5b-ec8d92129be6))
 						- [React.js](https://en.wikipedia.org/wiki/React_(software)) deploys Virtual DOM to utilize the batch rendering, then trim things off screen.
 						- [3D sculpting](https://en.wikipedia.org/wiki/Digital_sculpting) with push, pull, smooth, grab, pinch, is much easier than modeling from curves up.
 						- AI & human: acting out of habit is easier than dealing with awareness.
