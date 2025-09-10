@@ -3968,6 +3968,13 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- When commits piles up, squash them down with `git rebase -i`
 								- ```sh
 								  init=36cb3edc
+								  git reset --hard ${init}
+								  git merge --squash log
+								  main_msg=$(git show --format='[main] %h: %s' -s main)
+								  
+								  ```
+								- ```sh
+								  init=36cb3edc
 								  mobile_msg=$(git show --format='%s' -s)
 								  git reset HEAD~ # to [base]
 								  git stash push # [mobile] commit
