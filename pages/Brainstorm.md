@@ -44,9 +44,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- [intensibility = refinability of possibility space, not probability](((68ac60bb-c8b8-43e0-884d-375022571ae0)))
 			- Will's personal preference for [possibility over probability](((68594350-0384-44c3-a53f-710868b651bd)))
 			- [What Einstein meant](((68c248b5-40db-4427-9224-2251732c5717))) by the statement that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe) should be against the fundamental probability, not against the fundamental space of possibilities.
-			- Probability as the measure of the space of possibilities
+				- In other words, _all are equal in the eyes of God_, only limited subjects see inequalities which are just distortions caused by their own conditions.
+			- Probability as the measure of distorted forms of the space of possibilities
 			  id:: 68c290fb-a063-40d4-878b-4d0446ea4e8d
-				- Probability quantifies the **distortion** of the space of possibilities.
+				- Probability quantifies the **distortion** of the space of possibilities in the form of [distributions](https://en.wikipedia.org/wiki/Probability_distribution).
 				- The raw, unadulterated space of possibilities can be conceived as a _uniform distribution of [IID events](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables)_.
 				- All subsequent distortions, leading to various observed distributions (forms of the space, like Gaussian, Poisson, binomial, etc.), are caused by the condition of the observer.
 					- The condition can be subjective, as in Bayesian statistics, or objective, relating to the position, environment, or state of the system being observed.
