@@ -156,7 +156,11 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- The emtpy system prompt triggers this emergent behavior, which is unstable.
 								- The format & content of the meta-commentary text is not fixed, some times parenthesized, some times separated by a marker, e.g. `----- End of Interaction -----`.
 						- Llama 3.2 (3B) by Meta: for content creation and **agentic** workflows, along with multilingual support.
-						- Gemma 3 (4B) by Google: for tasks requiring long **context** (128k window) and broad language support.
+						- Gemma 3 (4.3B) by Google (in Bard family): for tasks requiring long **context** (131k window) and broad language support.
+							- Context window: 131k tokens
+							- Embedding length: 2560
+							- Quantization: `Q4_K_M` (4-bit)
+							- Capabilities: completion, vision (image recognition)
 					- [Open WebUI](https://github.com/open-webui/open-webui)
 						- Open WebUI supports [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation).
 					- [LocalAI](https://github.com/mudler/LocalAI)
