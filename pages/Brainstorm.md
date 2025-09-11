@@ -40,7 +40,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-09-11 Thu 09:28:26]
 		  :END:
-			-
+			- ((68c22b96-6f8a-49e2-93f7-6adc92830f35))
+			- [intensibility = refinability of possibility space, not probability](((68ac60bb-c8b8-43e0-884d-375022571ae0)))
+			- Will's [personal prefence](((68594350-0384-44c3-a53f-710868b651bd)))
 		- Manifestations of complementarity
 		  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
 		  collapsed:: true
@@ -150,7 +152,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This is thanks to its vacancy of prime (vô nguyên).
 			- => uninet's intent cone has its apex **intensible** (refinable), in parallel with the extensible base.
 				- Refine := intend into every place => process the whole space, instead of focus on one point
-			- This global intensibility is the _refinability of the possibility space_, not the probability, though they have similar effects.
+			- This global intensibility is the _refinability of the possibility space_, [not the probability](((68c233ac-f4dc-4222-8ee5-3523317824ff))), though they have similar effects.
+			  id:: 68ac60bb-c8b8-43e0-884d-375022571ae0
 				- Probability is flat, while intensibility is hierarchical.
 				- ANN & LLM must compensate that flatness with lots of neurons & big data training.
 				- uninet learns efficiently from small data with small number of autonotons, thanks to the intrinsic complexity of intensibility.

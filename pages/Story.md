@@ -2606,7 +2606,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Despite too much time spent on the careful migration, there was still one missing app due to its lack of use.
 					- And severely, this app, VNeID, denied all of my effort to "disconnect from the old device" (a requirement for setting up on new device), with the reason that "face recognision is not satisfied".
 				- This event echos my ((6678d594-9819-4624-abd6-d4ec62b3874f)) with both pros and cons.
+				  id:: 68594350-0384-44c3-a53f-710868b651bd
 					- The [holistic core](((681b3ad7-d1b0-4c06-a4ea-385a4a9314e0))), as the deep form within, makes me prone to black/white thinking, reflecting in the tendency _toward **possibility** (yes/no) rather than **probability** (how much)_, prefering quality & qualitative thinking rather than quantity & quantitative thinking.
+					  ⇒ ((68c233ac-f4dc-4222-8ee5-3523317824ff))
 					- I've attached to it because it gives me the solid foundation to stay, to live, to do anything with a clear vision, knowing which direction to go, and so on.
 					- After being forced to try all possibitilies, i've been taught that “everything is possible”, that “everything has both sides, all aspects”, hence the matter is only the probability!
 			- 23rd, another whole day caught up in the contemplation of the ((6858b355-fba9-4e61-9f16-bc993a3df44b)).
@@ -4152,7 +4154,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- ← experience = impression from executions
 						- ← world ← input data ← memory
 					- The observer doesn't drive action like the operator, but accumulates experiences, digests it into forms to be integrated into the knowledge graph.
-					- uninet vs ANN = [probability vs possibility](...)
+					- uninet vs ANN = ((68c233ac-f4dc-4222-8ee5-3523317824ff))
+					  id:: 68c22b96-6f8a-49e2-93f7-6adc92830f35
 						- The tendency in ANN is an abstract number, the result of the sum/average of possibilities, the know-how.
 						- The tendency in uninet is the whole bundle of possibilities, the whole process of formation, the know-why.
 						- For action, only probability (know-how) is required.
