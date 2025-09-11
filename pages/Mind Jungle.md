@@ -147,7 +147,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				  collapsed:: true
 					- Ref: [reddit:r/LocalLLM](https://www.reddit.com/r/LocalLLM/)
 					- [Ollama server](https://github.com/ollama/ollama)
-						- [Phi-4 Mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) (3.8B): on CPU only (no GPU), it's a good choice for efficiency and strong **reasoning** abilities, with multilingual support.
+						- [Phi-4 Mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) (3.8B) by Microsoft: on CPU only (no GPU), it's a good choice for efficiency and strong **reasoning** abilities, with multilingual support.
 							- Context window: 131k tokens
 							- Embedding length: 3072
 							- Quantization: `Q4_K_M` (4-bit)
@@ -155,8 +155,8 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Built-in meta-commentary: Trained/fine-tuned to response with self-evaluation, internal thoughts, and so on, after the main response – for emtpy system prompt.
 								- The emtpy system prompt triggers this emergent behavior, which is unstable.
 								- The format & content of the meta-commentary text is not fixed, some times parenthesized, some times separated by a marker, e.g. `----- End of Interaction -----`.
-						- Llama 3.2 (3B): for content creation and **agentic** workflows, along with multilingual support.
-						- Gemma 3 (4B): for tasks requiring long **context** (128k window) and broad language support.
+						- Llama 3.2 (3B) by Meta: for content creation and **agentic** workflows, along with multilingual support.
+						- Gemma 3 (4B) by Google: for tasks requiring long **context** (128k window) and broad language support.
 					- [Open WebUI](https://github.com/open-webui/open-webui)
 						- Open WebUI supports [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation).
 					- [LocalAI](https://github.com/mudler/LocalAI)
