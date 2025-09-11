@@ -185,7 +185,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- The current theory of biological evolution 🧬 is weak due to its limit to only probability, while the nature evolves with global intensibility (fractal) which is much more robust.
 				- Evolution with mere probability is just a kind of nondeterministic enumeration. Although it's quicker than deterministic enumeration, it's still enumeration!
 				- Evolution with refinability (global intensibility) is a systematic search by [dynamical system](https://en.wikipedia.org/wiki/Dynamical_system).
-				- Maybe [this was what Einstein said](((68c248b5-40db-4427-9224-2251732c5717))) that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe)
+				- Maybe this was [what Einstein meant](((68c248b5-40db-4427-9224-2251732c5717))) by the statement that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe)
 		- The true faith/trust requires acceptance of the negative results.
 		  id:: 68a53a70-3f35-497b-a610-703d8a6665e5
 		  collapsed:: true
