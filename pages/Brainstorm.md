@@ -47,7 +47,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- In other words, _all are equal in the eyes of God_, only limited subjects see inequalities which are just distortions caused by their own conditions.
 			- All spaces are space of possibilities.
 				- The emptiness of the space is due to the fact that entities there are pontential, not actual.
-				- In a flat space or relaxed thread,
+				- In a “flat” space (relaxed thread), every possibility occupies an equal portion of the space.
+					- E.g.: flat spacetime, number line, each
+				- In a “curved” space (folded thread), different possibilities occupy different amounts of space, which are measured by probability.
 			- Probability is the measure of distorted forms of the space of possibilities.
 			  id:: 68c290fb-a063-40d4-878b-4d0446ea4e8d
 				- Probability quantifies the **distortion** of the space of possibilities in the form of [distributions](https://en.wikipedia.org/wiki/Probability_distribution).
@@ -57,6 +59,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- In the theory of probability, the objective condition is the setting of the experiment, how the trials are carried out.
 				- Probability is employed in fields like Quantum mechanics and artificial neural networks to model or navigate this space of possibilities.
 					- This knowledge of the space, though limited and distorted, is valuable in practice.
+			-
 			- Sting's 1993 song “Shape of My Heart”
 			  id:: 68c29b36-d7cb-4dc7-b9ce-42dcb091aa68
 				- He deals the cards as a meditation,
