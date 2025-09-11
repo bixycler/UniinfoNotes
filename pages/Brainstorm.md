@@ -55,6 +55,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Probability is employed in fields like Quantum mechanics and artificial neural networks to model or navigate this space of possibilities.
 					- This knowledge of the space, though limited and distorted, is valuable in practice.
 			- Sting's 1993 song “Shape of My Heart”
+			  id:: 68c29b36-d7cb-4dc7-b9ce-42dcb091aa68
 				- He deals the cards as a meditation,
 				  And those he plays never suspect.
 				  He doesn't play for the money he wins,

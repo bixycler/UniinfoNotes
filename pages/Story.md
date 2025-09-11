@@ -4160,7 +4160,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The tendency in uninet is the whole bundle of possibilities, the whole process of formation, the know-why.
 						- For action, only probability (know-how) is required.
 						- For **active learning**, instead of passively trained, each possibility should be known for the obop to trace back to the roots (plural!).
-				-
+				- Compiling ((68c233ac-f4dc-4222-8ee5-3523317824ff)), my tears shed when i remember the ((68c29b36-d7cb-4dc7-b9ce-42dcb091aa68)), as shown in this [fb post](https://www.facebook.com/lexuandinhct/posts/pfbid0ddDi76MUr2tqKrf8f7cWtCqNJ7ekNLg8YhtjjmGu9w8Uz95F1k3hbM2B6wqtqWcHl).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
