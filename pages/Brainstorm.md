@@ -44,6 +44,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- [intensibility = refinability of possibility space, not probability](((68ac60bb-c8b8-43e0-884d-375022571ae0)))
 			- Will's personal preference for [possibility over probability](((68594350-0384-44c3-a53f-710868b651bd)))
 			- ((68c248b5-40db-4427-9224-2251732c5717))
+			- Probability as the measure of the space of possibilities
+			  id:: 68c290fb-a063-40d4-878b-4d0446ea4e8d
+				- Probability quantifies the **distortion** of the space of possibilities.
+				- The raw, unadulterated space of possibilities can be conceived as a _uniform distribution of [IID events](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables)_.
+				- All subsequent distortions, leading to various observed distributions (forms of the space), are caused by the condition of the observer.
+					- The condition can be subjective, as in Bayesian statistics, or objective, relating to the position, environment, or state of the system being observed.
+				- Probability is employed in fields like Quantum mechanics and artificial neural networks to model or navigate this space of possibilities.
+					- This knowledge of the space, though limited and distorted, is valuable in practice.
 		- Unïnfo's interpretation of Einstein's statement that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe)
 		  id:: 68c248b5-40db-4427-9224-2251732c5717
 		  collapsed:: true
@@ -56,7 +64,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- This is in _**contrast to both** the deterministic view where ~~God dictates every single move~~_, and the random view where God is merely tossing dice.
 			- The “Space of Possibilities” and its measure – Probability
 				- Within the meticulously set stage, God provides a rich and expansive “space of possibilities”. This is not a predetermined path, but rather a spectrum of potential outcomes, a multiplicity of choices and branching paths, which are _all **allowed** by the “rule of the game” set by God_. God doesn’t pre-ordain *which* possibility becomes actualized, but rather ensures that a spectrum of possibilities *exists*.
-				- Probability quantifies the **distortion** of the space of possibilities. The raw, unadulterated space of possibilities can be conceived as a _uniform distribution of [IID events](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables)_. All subsequent distortions, leading to various observed distributions (forms of the space), are caused by the condition of the observer. The condition can be subjective, as in Bayesian statistics, or objective, relating to the position, environment, or state of the system being observed. Probability is employed in fields like Quantum mechanics and artificial neural networks to model or navigate this space of possibilities. This knowledge of the space, though limited and distorted, is valuable in practice.
+				- {{embed ((68c290fb-a063-40d4-878b-4d0446ea4e8d))}}
 			- Beings as the Determinants, the Players
 				- The beings within this reality are the ones who, through their choices and interactions, bring about specific outcomes. They are the active agents, the players. This preserves agency and responsibility.
 				- Each being, possessing a degree of autonomy and the capacity to make choices, is a determinant of the whole game. Their actions, their decisions, and their interactions within the space of possibilities are determinants that influences the unfolding of reality.
