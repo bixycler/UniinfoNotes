@@ -45,6 +45,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- [intensibility = refinability of possibility space, not probability](((68ac60bb-c8b8-43e0-884d-375022571ae0)))
 				- [What Einstein meant](((68c248b5-40db-4427-9224-2251732c5717))) by the statement that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe) should be against the fundamental probability, not against the fundamental space of possibilities.
 					- In other words, _all are equal in the eyes of God_, only limited subjects see inequalities which are just distortions caused by their own conditions.
+			- All spaces are space of possibilities.
+				- The emptiness of the space is due to the fact that entities there are pontential, not actual.
+				- In a flat space or relaxed thread,
 			- Probability is the measure of distorted forms of the space of possibilities.
 			  id:: 68c290fb-a063-40d4-878b-4d0446ea4e8d
 				- Probability quantifies the **distortion** of the space of possibilities in the form of [distributions](https://en.wikipedia.org/wiki/Probability_distribution).
