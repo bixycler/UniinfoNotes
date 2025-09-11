@@ -42,7 +42,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :END:
 			- ((68c22b96-6f8a-49e2-93f7-6adc92830f35))
 			- [intensibility = refinability of possibility space, not probability](((68ac60bb-c8b8-43e0-884d-375022571ae0)))
-			- Will's [personal prefence](((68594350-0384-44c3-a53f-710868b651bd)))
+			- Will's personal preference for [possibility over probability](((68594350-0384-44c3-a53f-710868b651bd)))
 		- Manifestations of complementarity
 		  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
 		  collapsed:: true
