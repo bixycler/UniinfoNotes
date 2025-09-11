@@ -156,6 +156,12 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 								- The emtpy system prompt triggers this emergent behavior, which is unstable.
 								- The format & content of the meta-commentary text is not fixed, some times parenthesized, some times separated by a marker, e.g. `----- End of Interaction -----`.
 						- Llama 3.2 (3B) by Meta: for content creation and **agentic** workflows, along with multilingual support.
+							- [Opened by Meta AI](https://en.wikipedia.org/wiki/Llama_(language_model)#Licensing), but [not truly open-source!](https://opensource.org/blog/metas-llama-license-is-still-not-open-source)
+							- Context window: 131k tokens
+							- Embedding length: 3072
+							- Quantization: `Q4_K_M` (4-bit)
+							- Capabilities: completion, tools (function-calling)
+							- architecture is inspired by the BERT (Bidirectional Encoder Representations from Transformers)
 						- Gemma 3 (4.3B) by Google (in Bard family): for tasks requiring long **context** (131k window) and broad language support.
 							- Context window: 131k tokens
 							- Embedding length: 2560
