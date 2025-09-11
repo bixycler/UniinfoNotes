@@ -132,13 +132,11 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 				- `ab759f3b`: Replace Unïnfo with Unïnfo in `Mind Jungle.md`
 				- `1ba482c0`: [WIP] Replace Unïnfo with Unïnfo in other pages: `Brainstorm.md`, `Braindump.md`, `Story.md`, `Mind Chips.md`, `2024 Tasks.md`
 				- `c05ef117`: Replace Unïnfo with Unïnfo in other files: `README.md`, `Theoretical/*`, `logseq/global/config.edn`, `assets/*`
-	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
-	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
-		- DOING [!] Làm lại thẻ VCB
+		- DONE [!] Làm lại thẻ VCB
 		  id:: 686e580a-a0d6-4e0c-981c-e15665b8e4d0
 		  collapsed:: true
 		  :LOGBOOK:
-		  CLOCK: [2025-08-27 Wed 10:59:07]
+		  CLOCK: [2025-08-27 Wed 10:59:07]--[2025-09-11 Thu 20:27:34] =>  369:28:27
 		  :END:
 			- 27th Aug 2025, walked to the bank to do the card issuing precedure.
 			  :LOGBOOK:
@@ -153,7 +151,9 @@ id:: 6651adea-e1ed-4884-93eb-5ebd6086b62b
 				  CLOCK: [2025-09-10 Wed 16:32:49]
 				  :END:
 				  > Your Vietcombank Connect24 card has been sent to registered address. Please visit transaction office/branch to receive your card.
-			- TODO 11th Sep, go get it!
+			- DONE 11th Sep, go get it!
+	- ## Current Tasks < ((677614c4-ea7d-47c0-89ee-afbacceb56e9)) > ((67763106-205f-4e01-affc-a68e1d8e53a9))
+	  id:: 677630fe-ea99-436f-b39f-8bd2295e2eaf
 		- TODO Update [CT scans of Bell Lê](((684f951d-8174-4c48-90e9-7f14566b8697))).
 		- ...
 	- ## Future Tasks

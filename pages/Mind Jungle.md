@@ -148,6 +148,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 					- Ref: [reddit:r/LocalLLM](https://www.reddit.com/r/LocalLLM/)
 					- [Ollama server](https://github.com/ollama/ollama)
 						- [Phi-4 Mini](https://huggingface.co/microsoft/Phi-4-mini-instruct) (3.8B) by Microsoft: on CPU only (no GPU), it's a good choice for efficiency and strong **reasoning** abilities, with multilingual support.
+						  collapsed:: true
 							- Context window: 131k tokens
 							- Embedding length: 3072
 							- Quantization: `Q4_K_M` (4-bit)
@@ -155,7 +156,9 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Built-in meta-commentary: Trained/fine-tuned to response with self-evaluation, internal thoughts, and so on, after the main response – for emtpy system prompt.
 								- The emtpy system prompt triggers this emergent behavior, which is unstable.
 								- The format & content of the meta-commentary text is not fixed, some times parenthesized, some times separated by a marker, e.g. `----- End of Interaction -----`.
+							- This model is too serious about technical meaning of words: "i cannot see, cannot remember, cannot print,..."
 						- Llama 3.2 (3B) by Meta: for content creation and **agentic** workflows, along with multilingual support, for a rather low memory consumption compared to Phi-4 Mini and Gemma 3.
+						  collapsed:: true
 							- [Opened by Meta AI](https://en.wikipedia.org/wiki/Llama_(language_model)#Licensing), but [not truly open-source!](https://opensource.org/blog/metas-llama-license-is-still-not-open-source)
 							- Context window: 131k tokens
 							- Embedding length: 3072
@@ -163,6 +166,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Capabilities: completion, tools (function-calling)
 							- architecture is inspired by the BERT (Bidirectional Encoder Representations from Transformers)
 						- Gemma 3 (4.3B) by Google (in Bard family): for tasks requiring long **context** (131k window) and broad language support.
+						  collapsed:: true
 							- Context window: 131k tokens
 							- Embedding length: 2560
 							- Quantization: `Q4_K_M` (4-bit)
