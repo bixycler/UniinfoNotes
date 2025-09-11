@@ -43,25 +43,31 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- ((68c22b96-6f8a-49e2-93f7-6adc92830f35))
 			- [intensibility = refinability of possibility space, not probability](((68ac60bb-c8b8-43e0-884d-375022571ae0)))
 			- Will's personal preference for [possibility over probability](((68594350-0384-44c3-a53f-710868b651bd)))
-			- Unïnfo's interpretation of Einstein's statement that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe)
-			  id:: 68c248b5-40db-4427-9224-2251732c5717
-			  collapsed:: true
-				- The Flaw of a “Dedicated Dice”: Violation of Fundamentality
-					- If God needs an external, independent tool (a dice) to make decisions or determine outcomes, then that tool becomes more fundamental than God.
-					- This is a logical contradiction if God is defined as the ultimate, uncaused cause. It implies an external dependency that undermines divine omnipotence and sovereignty.
-				- God as the “Game Controller” and “Stage Setter”, not a player
-					- This perspective views God as the ultimate architect and designer of the game itself. God establishes the fundamental laws of physics, the initial conditions of the universe, and the inherent structure of reality.
-					- This is akin to setting up a vast, intricate stage with all its props and scenery, defining the rules of engagement and the fundamental nature of existence. God is the source of the framework within which all events unfold, ensuring an underlying order and coherence.
-					- This is in _**contrast to both** the deterministic view where ~~God dictates every single move~~_, and the random view where God is merely tossing dice.
-				- The “Space of Possibilities”
-					- Within the meticulously set stage, God provides a rich and expansive “space of possibilities”. This is not a predetermined path, but rather a spectrum of potential outcomes that can arise from the interplay of the established laws and the actions of the beings within the system.
-					- Quantum mechanics, with its inherent probabilities, can be seen as reflecting this concept. The universe operates with inherent uncertainties and potential outcomes, not due to divine caprice, but because the fundamental “rules of the game” _**allow** for such branching paths_. God doesn’t pre-ordain *which* possibility becomes actualized, but rather ensures that a spectrum of possibilities *exists*.
-				- Beings as the Determinants, the Players
-					- The beings within this reality are the ones who, through their choices and interactions, bring about specific outcomes. They are the active agents, the players. This preserves agency and responsibility.
-					- Each being, possessing a degree of autonomy and the capacity to make choices, is a determinant of the whole game. Their actions, their decisions, and their interactions within the space of possibilities are determinants that influences the unfolding of reality.
-				- An Immanent God whose Hands are his Created Beings
-					- This is the most dynamic element, where God is not distant but intimately involved *through* creation. Instead of a separate, independent “dice” that God uses, God’s engagement with the universe is mediated through the agency of His created beings, where each being is a “hand of God”.
-					- God plays *through* them, not by dictating their actions, but by being the ultimate source of their being and the context of their choices. God experiences the richness of his own creation by participating in it through the very beings He has made.
+			- ((68c248b5-40db-4427-9224-2251732c5717))
+		- Unïnfo's interpretation of Einstein's statement that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe)
+		  id:: 68c248b5-40db-4427-9224-2251732c5717
+		  collapsed:: true
+			- The Flaw of a “Dedicated Dice”: Violation of Fundamentality
+				- If God needs an external, independent tool (a dice) to make decisions or determine outcomes, then that tool becomes more fundamental than God.
+				- This is a logical contradiction if God is defined as the ultimate, uncaused cause. It implies an external dependency that undermines divine omnipotence and sovereignty.
+			- God as the “Game Controller” and “Stage Setter”, not a player
+				- This perspective views God as the ultimate architect and designer of the game itself. God establishes the fundamental laws of physics, the initial conditions of the universe, and the inherent structure of reality.
+				- This is akin to setting up a vast, intricate stage with all its props and scenery, defining the rules of engagement and the fundamental nature of existence. God is the source of the framework within which all events unfold, ensuring an underlying order and coherence.
+				- This is in _**contrast to both** the deterministic view where ~~God dictates every single move~~_, and the random view where God is merely tossing dice.
+			- The “Space of Possibilities”
+				- Within the meticulously set stage, God provides a rich and expansive “space of possibilities”. This is not a predetermined path, but rather a spectrum of potential outcomes that can arise from the interplay of the established laws and the actions of the beings within the system.
+				- Quantum mechanics, with its inherent probabilities, can be seen as reflecting this concept. The universe operates with inherent uncertainties and potential outcomes, not due to divine caprice, but because the fundamental “rules of the game” _**allow** for such branching paths_. God doesn’t pre-ordain *which* possibility becomes actualized, but rather ensures that a spectrum of possibilities *exists*.
+			- Beings as the Determinants, the Players
+				- The beings within this reality are the ones who, through their choices and interactions, bring about specific outcomes. They are the active agents, the players. This preserves agency and responsibility.
+				- Each being, possessing a degree of autonomy and the capacity to make choices, is a determinant of the whole game. Their actions, their decisions, and their interactions within the space of possibilities are determinants that influences the unfolding of reality.
+			- An Immanent God whose Hands are his Created Beings
+				- This is the most dynamic element, where God is not distant but intimately involved *through* creation. Instead of a separate, independent “dice” that God uses, God’s engagement with the universe is mediated through the agency of His created beings, where each being is a “hand of God”.
+				- God plays *through* them, not by dictating their actions, but by being the ultimate source of their being and the context of their choices. God experiences the richness of his own creation by participating in it through the very beings He has made.
+			- Confirmation by Einstein’s Embrace of Spinoza’s God
+				- When [Einstein stated](https://books.google.com.vn/books?id=G_iziBAPXtEC&pg=PA325&redir_esc=y#v=onepage&q&f=false) “I believe in Spinoza’s God who reveals himself in the orderly harmony of what exists, not in a God who concerns himself with the fate and the doings of mankind”, he was clearly articulating a belief in this kind of immanent, non-personal, and deterministic (in the sense of underlying order) deity.
+				- “Reveals himself in the orderly harmony of what exists”: This perfectly aligns with the idea of God as the “Stage Setter” and “Game Controller” whose presence is found in the natural laws and the predictable (or at least understandable through laws) functioning of the universe.
+				- “Not in a God who concerns himself with the fate and the doings of mankind”: This explicitly rejects the anthropomorphic, personal God of many religions who intervenes, judges, and has personal relationships with humans.
+				- This aligns with this discussion where God neither “plays dice” nor directly dictates every move, but rather sets the framework.
 		- Manifestations of complementarity
 		  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
 		  collapsed:: true
