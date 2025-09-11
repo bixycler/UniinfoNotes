@@ -155,7 +155,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- Built-in meta-commentary: Trained/fine-tuned to response with self-evaluation, internal thoughts, and so on, after the main response – for emtpy system prompt.
 								- The emtpy system prompt triggers this emergent behavior, which is unstable.
 								- The format & content of the meta-commentary text is not fixed, some times parenthesized, some times separated by a marker, e.g. `----- End of Interaction -----`.
-						- Llama 3.2 (3B) by Meta: for content creation and **agentic** workflows, along with multilingual support.
+						- Llama 3.2 (3B) by Meta: for content creation and **agentic** workflows, along with multilingual support, for a rather low memory consumption compared to Phi-4 Mini and Gemma 3.
 							- [Opened by Meta AI](https://en.wikipedia.org/wiki/Llama_(language_model)#Licensing), but [not truly open-source!](https://opensource.org/blog/metas-llama-license-is-still-not-open-source)
 							- Context window: 131k tokens
 							- Embedding length: 3072
