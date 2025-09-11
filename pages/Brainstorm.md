@@ -48,7 +48,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- All spaces are space of possibilities.
 				- The emptiness of the space is due to the fact that entities there are pontential, not actual.
 				- In a “flat” space (relaxed thread), every possibility occupies an equal portion of the space.
-					- E.g.: flat spacetime, number line, each
+					- E.g.: flat spacetime, number line, each place in positional numeral system (as a space of digits).
 				- In a “curved” space (folded thread), different possibilities occupy different amounts of space, which are measured by probability.
 			- Probability is the measure of distorted forms of the space of possibilities.
 			  id:: 68c290fb-a063-40d4-878b-4d0446ea4e8d
