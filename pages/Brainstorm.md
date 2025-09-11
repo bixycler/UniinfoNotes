@@ -34,6 +34,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Possibility versus Probability
+		  id:: 68c233ac-f4dc-4222-8ee5-3523317824ff
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-09-11 Thu 09:28:26]
+		  :END:
+			-
 		- Manifestations of complementarity
 		  id:: 68bf9f05-4545-4f07-ad27-9ed4409af1ae
 		  collapsed:: true

@@ -4102,37 +4102,62 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- With the vector DB option `Accuracy Optimized` (reranking), the block of the law can be retrieved in... half a minute (first time for reranking)! The later times go faster, comparable to the `Default` (no reranking) option.
 					- ((68bfdd91-5882-498f-8973-1f0d2ed8a59f))
 					- ((68bff76e-cea0-422d-bc9f-fd6456ef2865))
-			- 10th, ...
+			- 10th, The [mobile repo trimming](((68be3aea-4967-4910-aac4-7fd6b084d195))) task has shown many points:
 			  collapsed:: true
-				- The [mobile repo trimming](((68be3aea-4967-4910-aac4-7fd6b084d195))) task has shown many points:
-					- First, it looked so simple, but then turned out with lots of pitfalls.
-					  collapsed:: true
-						- MGit does not support `clone --single-branch --branch mobile` 
-						  ⇒ Must create new repo dedicated for mobile, and add it as a remote to the desktop local repo.
-						- I tried to wriggle around `assets/` with `.gitignore` but failed because it has no effect in merge.
-						  id:: 68c147bb-ccd0-4007-8c5b-ec8d92129be6
-						  ⇒ ((68c13e10-4cfe-442f-aefd-5e7519d0945c))
-						- Managing for-mobile mods in commits is complicated with merge & stash
-						  ⇒ Just write a script to modify it after each merge.
-					- Batch processing (straightforward) is much easier than wriggling through obstacles.
-					  collapsed:: true
-						- Git: just merge with excess then trim it off. 
-						  id:: 68c13e10-4cfe-442f-aefd-5e7519d0945c
-						  ((68c147bb-ccd0-4007-8c5b-ec8d92129be6))
-						- [React.js](https://en.wikipedia.org/wiki/React_(software)) deploys Virtual DOM to utilize the batch rendering, then trim things off screen.
-						- [3D sculpting](https://en.wikipedia.org/wiki/Digital_sculpting) with push, pull, smooth, grab, pinch, is much easier than modeling from curves up.
-						- AI & human: acting out of habit is easier than dealing with awareness.
-					- Driving intents:
-					  collapsed:: true
-						- First, the feeling of "simple" pushed me to dive in.
-						- In the middle, while the effect circle had not settled, the stronger push was from:
-							- the fear of wasting effort,
-							- the requirement of reusability (as a programmer),
-							- the holistic core,
-							- the urge to settle down, ...
-						- Last, the reviewing habit is driving me, now.
-					- The last result ([merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh)) is much simpler than the process of deriving it.
-			-
+				- First, it looked so simple, but then turned out with lots of pitfalls.
+				  collapsed:: true
+					- MGit does not support `clone --single-branch --branch mobile` 
+					  ⇒ Must create new repo dedicated for mobile, and add it as a remote to the desktop local repo.
+					- I tried to wriggle around `assets/` with `.gitignore` but failed because it has no effect in merge.
+					  id:: 68c147bb-ccd0-4007-8c5b-ec8d92129be6
+					  ⇒ ((68c13e10-4cfe-442f-aefd-5e7519d0945c))
+					- Managing for-mobile mods in commits is complicated with merge & stash
+					  ⇒ Just write a script to modify it after each merge.
+				- Batch processing (straightforward) is much easier than wriggling through obstacles.
+				  collapsed:: true
+					- Git: just merge with excess then trim it off. 
+					  id:: 68c13e10-4cfe-442f-aefd-5e7519d0945c
+					  ((68c147bb-ccd0-4007-8c5b-ec8d92129be6))
+					- [React.js](https://en.wikipedia.org/wiki/React_(software)) deploys Virtual DOM to utilize the batch rendering, then trim things off screen.
+					- [3D sculpting](https://en.wikipedia.org/wiki/Digital_sculpting) with push, pull, smooth, grab, pinch, is much easier than modeling from curves up.
+					- AI & human: acting out of habit is easier than dealing with awareness.
+				- Driving intents:
+				  collapsed:: true
+					- First, the feeling of "simple" pushed me to dive in.
+					- In the middle, while the effect circle had not settled, the stronger push was from:
+						- the fear of wasting effort,
+						- the requirement of reusability (as a programmer),
+						- the holistic core,
+						- the urge to settle down, ...
+					- Last, the reviewing habit is driving me, now.
+				- The last result ([merge-squash-trim-mobile.sh](../assets/Linux/scripts/merge-squash-trim-mobile.sh)) is much simpler than the process of deriving it.
+			- 11th,...
+			  collapsed:: true
+				- Program (Turing machine) = numeral/rotational system with branches and multiple radices
+				  collapsed:: true
+					- function = radix = autonoton in uninet
+					- argument (input/output) = carry
+						- numeral carry is just the return.
+						- the input/parameter in numeral is 1 because it's linear.
+					- stack = positional numeral = intent chain = height of tree
+					- Turing machine's FSM (state graph) = number line (for numeral) = relaxed circle of thread
+				- uninet = program with dynamic call-relations between functions (autonotons) = dynamic call graph
+				  collapsed:: true
+					- equilibrated uninet = static call graph = program = crystallization of uninet
+					- from a program, we can fluidify it to get back a zero-uninet.
+					- Grand effect circle (vacantism):
+						- ← memory (TM's tape) = info
+						- ← state graph = operator = knowledge
+						- ← force = tendency = observer = wisdom
+						- ← experience = impression from executions
+						- ← world ← input data ← memory
+					- The observer doesn't drive action like the operator, but accumulates experiences, digests it into forms to be integrated into the knowledge graph.
+					- uninet vs ANN = [probability vs possibility](...)
+						- The tendency in ANN is an abstract number, the result of the sum/average of possibilities, the know-how.
+						- The tendency in uninet is the whole bundle of possibilities, the whole process of formation, the know-why.
+						- For action, only probability (know-how) is required.
+						- For **active learning**, instead of passively trained, each possibility should be known for the obop to trace back to the roots (plural!).
+				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
