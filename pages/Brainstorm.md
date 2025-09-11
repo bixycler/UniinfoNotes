@@ -55,14 +55,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Probability is employed in fields like Quantum mechanics and artificial neural networks to model or navigate this space of possibilities.
 					- This knowledge of the space, though limited and distorted, is valuable in practice.
 			- Sting's 1993 song “Shape of My Heart”
-				- He deals the cards as a meditation
-				  And those he plays never suspect
-				  He doesn't play for the money he wins
-				  He don't play for respect
-				- He deals the cards to find the answer
-				  The sacred geometry of chance
-				  The hidden law of a probable outcome
-				  The numbers lead a dance
+				- He deals the cards as a meditation,
+				  And those he plays never suspect.
+				  He doesn't play for the money he wins,
+				  He don't play for respect.
+				- He deals the cards to find the answer,
+				  The sacred geometry of chance,
+				  The hidden law of a probable outcome.
+				  The numbers lead a dance!
 		- Unïnfo's interpretation of Einstein's statement that [“God does not play dice with the universe!”](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe)
 		  id:: 68c248b5-40db-4427-9224-2251732c5717
 		  collapsed:: true
