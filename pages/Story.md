@@ -4165,7 +4165,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- Formation of the world:
 					- Layers of the world (& uninets) created by SCIFER are similar to layers of components of computer:
-					  collapsed:: true
 						- clock, counters, flip-flops, chips, board, assembly, C, C++, object, modules, software;
 						- drawing from each pixel, to each object, then each frame, then each scene;
 						- activating each quantum, subatomic particles, atoms, molecules, compounds, organs, then each human.
@@ -4178,7 +4177,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- The universal qualiton always connects all info of all layers, i.e. the whole universe, into the same content, hence concrete, full, actual.
 							- The form expressed at the current moment is the actual form, while all other hidden forms inside are potential forms.
 					- At each scale (intent circle in Uniinfo, frequency in Fourier series), variations at smaller and larger scales are cancelled due to the topology of circle, hence invisible, leaving only a constant tendency.
-					  collapsed:: true
 						- Each human cannot see virus and feels no change of galaxy, only a constant gravitation toward earth.
 						- This is the circle winding projection.
 						- This zero correlation between layers is their independency. The obop at this scale just carry info of all other scales within, without awareness about them... until meeting.
