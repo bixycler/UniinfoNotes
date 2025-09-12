@@ -4185,6 +4185,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Only at the meeting/incident/contact/aware points, the trans-layer action takes effect.
 							- When two particles collide, the position info inside the particle obop interacts with the self circle of the particle, making it explode, emerging as the effect of “meeting the other”.
 							- The interaction between the carried info and the self circle generates the image of multiple body of the same kind.
+				- What i “see” (with inner eye) is so strange, weird, crazy that it’s hard to comprehend and accept:
+					- 1. The Universe is radically different in different levels of scale (of spacetime): quantum, atomic, molecules, cells, organisms.
+					- 2. Though nearly no common in form between scales, i.e. independent, the content of the universe is exactly the same across all scales.
+					- 3. That means, the same universal content (omnifold) concurrently lives in different worlds (levels of scale) with different forms, which is called “parallel universe” or “multiverse”.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
