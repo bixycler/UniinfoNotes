@@ -4191,7 +4191,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- 3. That means, the same universal content (omnifold) concurrently lives in different worlds (levels of scale) with different forms, which is called “parallel universe” or “multiverse”.
 				- Established theories about the same content in different forms
 					- East: Tao, Śūnyatā.
-					- West: Bohm’s [holomovement](https://en.wikipedia.org/wiki/Holomovement), [process philosophy](https://en.wikipedia.org/wiki/Process_philosophy) (Whitehead), Heidegger’s Sein (Being beyond beings).
+					- West: Bohm’s [holomovement](https://en.wikipedia.org/wiki/Holomovement), [process philosophy](https://en.wikipedia.org/wiki/Process_philosophy) (Whitehead, Nietzsche), Heidegger’s [Sein](https://en.wikipedia.org/wiki/Being_and_Time#Being) (Being beyond beings).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
