@@ -4187,8 +4187,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The interaction between the carried info and the self circle generates the image of multiple body of the same kind.
 				- What i “see” (with inner eye) is so strange, weird, crazy that it’s hard to comprehend and accept:
 					- 1. The Universe is radically different in different levels of scale (of spacetime): quantum, atomic, molecules, cells, organisms.
-					- 2. Though nearly no common in form between scales, i.e. independent, the content of the universe is exactly the same across all scales.
-					- 3. That means, the same universal content (omnifold) concurrently lives in different worlds (levels of scale) with different forms, which is called “parallel universe” or “multiverse”.
+					- 2. Though nearly no common in form between scales, i.e. independent, the content of the universe is exactly [the same](((678e1960-58d6-4cf3-8fe3-25f2f4489b33))) across all scales.
+					- 3. That means, the same ((678e1d31-4874-4df6-bfb4-60822a6b5546)) (omnifold) concurrently lives in different worlds (levels of scale) with different forms, which is called “parallel universe” or “multiverse”.
 				- Established theories about the same content in different forms
 					- East: Tao, Śūnyatā.
 					- West: Bohm’s [holomovement](https://en.wikipedia.org/wiki/Holomovement), [process philosophy](https://en.wikipedia.org/wiki/Process_philosophy) (Whitehead, Nietzsche), Heidegger’s [Sein](https://en.wikipedia.org/wiki/Being_and_Time#Being) (Being beyond beings).
