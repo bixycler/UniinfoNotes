@@ -4161,6 +4161,30 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- For action, only probability (know-how) is required.
 						- For **active learning**, instead of passively trained, each possibility should be known for the obop to trace back to the roots (plural!).
 				- Compiling ((68c233ac-f4dc-4222-8ee5-3523317824ff)), my tears shed when i remember the ((68c29b36-d7cb-4dc7-b9ce-42dcb091aa68)), as shown in this [fb post](https://www.facebook.com/lexuandinhct/posts/pfbid0ddDi76MUr2tqKrf8f7cWtCqNJ7ekNLg8YhtjjmGu9w8Uz95F1k3hbM2B6wqtqWcHl).
+			- 12th,...
+			  collapsed:: true
+				- Formation of the world:
+					- Layers of the world (& uninets) created by SCIFER are similar to layers of components of computer:
+					  collapsed:: true
+						- clock, counters, flip-flops, chips, board, assembly, C, C++, object, modules, software;
+						- drawing from each pixel, to each object, then each frame, then each scene;
+						- activating each quantum, subatomic particles, atoms, molecules, compounds, organs, then each human.
+						- The world is rendered layer by layer from bottom up, in **breadth-first** fashion.
+						- Rendering at each layer: a single qualiton transcycles the thread of that layer to qualify each quantum on the thread.
+						- Throughout all layers, there's only one qualiton with the same content (info of all forms) in different forms.
+							- The scale is of both space and time, hence the same content.
+							- The forms in different scales are normally independent from each other... until touching.
+						- The layers are usually seen in the static view: only layers of forms & quanta (data), hence abstract, empty, potential.
+						- The universal qualiton always connects all info of all layers, i.e. the whole universe, into the same content, hence concrete, full, actual.
+							- The form expressed at the current moment is the actual form, while all other hidden forms inside are potential forms.
+					- At each scale (intent circle in Uniinfo, frequency in Fourier series), variations at smaller and larger scales are cancelled due to the topology of circle, hence invisible, leaving only a constant tendency.
+					  collapsed:: true
+						- Each human cannot see virus and feels no change of galaxy, only a constant gravitation toward earth.
+						- This is the circle winding projection.
+						- This zero correlation between layers is their independency. The obop at this scale just carry info of all other scales within, without awareness about them... until meeting.
+						- Only at the meeting/incident/contact/aware points, the trans-layer action takes effect.
+							- When two particles collide, the position info inside the particle obop interacts with the self circle of the particle, making it explode, emerging as the effect of “meeting the other”.
+							- The interaction between the carried info and the self circle generates the image of multiple body of the same kind.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
