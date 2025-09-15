@@ -4195,7 +4195,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- obop’s one-by-one instantiations is similar to [one-electron universe postulate](https://en.wikipedia.org/wiki/One-electron_universe).
 			- 13-14th, weekends,...
 			  collapsed:: true
-				-
+				- I've received a formal education of too much formalism & foundationalism.
+				  collapsed:: true
+					- From the start of Uniinfo, it costed me at least 3 years to reset my mind to be free from formal logic, set theory, axiomatic systems, etc., so that i could to touch the first 2 components (Arrow & Circle).
+					- Only now, after about 15 years, can i get back to the middle way, and review my stuck in the bottom-up determinism.
+				- ((68c764d5-17c7-4c1c-af2f-697fa222f729))
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))

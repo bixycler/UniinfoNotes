@@ -43,6 +43,25 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  => Transformation = change of view = transcycling
 			- Viewpoint defines internal state; viewscale defines external world (plane, sphere, realm, cõi).
 			- internal position = state (posture) of body; external position = place in world
+			- knowledge circle, effect circle & projection
+				- question = issue = problem = target = root intent $i_0$
+				- answer = solution = stable trajectory (Newtonian, least action) = image of the world protected onto the root intent
+				- solving process = all possible trajectories (quantumic) = traversing the world by known vehicles (intents) = raw world (source of projection)
+			- Effect circle on the articulated limb
+				- I remember a physic demo of an articulated limb in Adobe Flash when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root.
+				- each segment is a CIE:
+					- fixed intent = bone 🦴 = constraint = function
+					- free extent = angle = phase = parameter, variable
+					- product content = trajectory = output
+				- generative = operational = e × i -> c
+				- absorbent (discriminative) = observational = c ÷ i -> e
+				- meta (learning) layer = SCIFER: e' <-i-> c' = i
+				- move of joint = rotation (of previous joint) = shift = viewpoint change
+				- change of bone (size) = scaling = rotation on meta later = viewscale change
+				- This [fixed point in thin air](https://www.thingiverse.com/thing:4841850) is interesting, as shown in [this video](https://youtu.be/ZKz0_kSFSP0). It's the static version of gyroscope, qigong, and my dream of levitating bench.
+					- Paper: [A new type of spherical flexure joint based on tetrahedron elements](https://www.sciencedirect.com/science/article/pii/S0141635921000726?via%3Dihub)
+					- Inversely, taking this [remote center of motion (RCM)](https://www.igi-global.com/dictionary/?p=Remote+Center+of+Motion) as the stationary base, the limbs can freely move around it.
+					- This virtual center is also the empty center of the self-essence. The whole bodymind moves just to keep this center stable.
 			- Newtonian mechanics = reductionism = bottom-up determinism = Turing machine = foundationalism = closed linear system
 				- Quantum mechanics = nondeterminism = opposite of Newtonian = ANN & LLM = open linear system
 					- ANN is top-down determined (trained), so its capability cannot exceed its source (training data).
