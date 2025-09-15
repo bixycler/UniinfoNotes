@@ -1635,6 +1635,14 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 			  id:: 66728162-7ad9-4b46-b7ce-dfffc58254bc
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
 				- "Point of view" is an ambiguous term, whose literal meaning is a ((667272b8-88a8-4928-a22a-35035c9edf05)), but its figurative meaning is a ((667259a0-aa2e-49fa-bcbd-b3768a9f30b2)).
+		- ### view scale
+		  id:: 68c763ce-b8e4-4091-b3b8-e188a16ea431
+		  collapsed:: true
+		  ((665359e4-4597-4775-b849-f9acbb98960a)) ((68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2))
+			- viewscale
+			  id:: 68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2
+			  ((665c9af1-1ce2-461c-af33-671690618c8f)) ((68c763ce-b8e4-4091-b3b8-e188a16ea431))
+			-
 		- ### view cone
 		  id:: 6672513b-c4b0-4c88-8b30-c60a3c6555a7
 		  collapsed:: true
