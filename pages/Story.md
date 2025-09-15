@@ -4193,7 +4193,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The holomovement is very similar to the ((675c03d8-3185-41a8-9f98-e869fabec793)) with “enfolding” & “unfolding” as well as the dynamic nature.
 					- The [prehension](https://en.wikipedia.org/wiki/Prehension_(philosophy)) of Whitehead is very similar to cross-level fold-tug of the Omnifold in Ω-thread interaction.
 					- obop’s one-by-one instantiations is similar to [one-electron universe postulate](https://en.wikipedia.org/wiki/One-electron_universe).
-			- 13-14th, weekends,...
+			- 13-14th, weekends, very sleepy... took 3 cycles in a row (normally i take only 2 cycles in weekends)... then got a mild sinus inflammation.
 			  collapsed:: true
 				- I've received a formal education of too much formalism & foundationalism.
 				  collapsed:: true
