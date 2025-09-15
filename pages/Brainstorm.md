@@ -34,6 +34,15 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Projective relativity: the same content being viewed at different ((667272b8-88a8-4928-a22a-35035c9edf05))s on different ((68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2))s results in different forms.   
+		  id:: 68c764d5-17c7-4c1c-af2f-697fa222f729
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-09-15 Mon 07:59:04]
+		  :END:
+		  => Transformation = change of view = transcycling
+			- Viewpoint defines internal state; viewscale defines external world (plane, realm, cõi).
+			- internal position = state (posture) of body; external position = place in world
 		- Possibility versus Probability
 		  id:: 68c233ac-f4dc-4222-8ee5-3523317824ff
 		  collapsed:: true
