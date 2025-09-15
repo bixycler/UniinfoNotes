@@ -43,6 +43,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  => Transformation = change of view = transcycling
 			- Viewpoint defines internal state; viewscale defines external world (plane, sphere, realm, cõi).
 			- internal position = state (posture) of body; external position = place in world
+			- Newtonian mechanics = reductionism = bottom-up determinism = Turing machine = foundationalism = closed linear system
+				- Quantum mechanics = nondeterminism = opposite of Newtonian = ANN & LLM = open linear system
+					- ANN is top-down determined (trained), so its capability cannot exceed its source (training data).
+				- Both Turing machine & LLM are linear worker, no branching of alternatives (possibilities).
+				- Unithread = middle out determinism = circular determinism = superdeterminism = vacantism = open circular system
+					- Start from the herenow and ripple out.
+					- Uninet continuously learns from life, hence unlimited capacity.
+			-
 		- Possibility versus Probability
 		  id:: 68c233ac-f4dc-4222-8ee5-3523317824ff
 		  collapsed:: true
