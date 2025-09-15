@@ -41,7 +41,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-09-15 Mon 07:59:04]
 		  :END:
 		  => Transformation = change of view = transcycling
-			- Viewpoint defines internal state; viewscale defines external world (plane, realm, cõi).
+			- Viewpoint defines internal state; viewscale defines external world (plane, sphere, realm, cõi).
 			- internal position = state (posture) of body; external position = place in world
 		- Possibility versus Probability
 		  id:: 68c233ac-f4dc-4222-8ee5-3523317824ff
