@@ -4161,7 +4161,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- For action, only probability (know-how) is required.
 						- For **active learning**, instead of passively trained, each possibility should be known for the obop to trace back to the roots (plural!).
 				- Compiling ((68c233ac-f4dc-4222-8ee5-3523317824ff)), my tears shed when i remember the ((68c29b36-d7cb-4dc7-b9ce-42dcb091aa68)), as shown in this [fb post](https://www.facebook.com/lexuandinhct/posts/pfbid0ddDi76MUr2tqKrf8f7cWtCqNJ7ekNLg8YhtjjmGu9w8Uz95F1k3hbM2B6wqtqWcHl).
-			- 12th, contemplated the multiple layers of the world separated by scales, and the ((678e2046-54ac-4284-865d-6f3e38f589a1)) across scales is
+			- 12th, contemplated the multiple layers of the world separated by scales, and the ((678e2046-54ac-4284-865d-6f3e38f589a1)) across scales is so impressive.
 			  collapsed:: true
 				- Formation of the world:
 					- Layers of the world (& uninets) created by SCIFER are similar to layers of components of computer:
@@ -4200,6 +4200,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- From the start of Uniinfo, it costed me at least 3 years to reset my mind to be free from formal logic, set theory, axiomatic systems, etc., so that i could to touch the first 2 components (Arrow & Circle).
 					- Only now, after about 15 years, can i get back to the middle way, and review my stuck in the bottom-up determinism.
 				- ((68c764d5-17c7-4c1c-af2f-697fa222f729))
+			- 15th, nearly all the working time was spent for meditation against my sinus inflammation.
+				- While nearly all the working time was spent for meditation against my sinus inflammation, i still squeezed some work contemplation in between.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
