@@ -4349,7 +4349,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 							- This inward observation closes the ((667c0031-0a87-44c9-9e98-6d45893b095f)) of the bodymind to free it from karma and influences of the external world.
 							- The delusion will be transformed to wisdom ([paññā](https://en.wikipedia.org/wiki/Wisdom_in_Buddhism)) by the change of the internal reality (intent equalization), instead of the actions to change the external reality.
 			- ((665359ff-79f1-4669-b10b-f2b0e633a7c1))
-				- ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) = ((68874adb-f452-45ba-ae76-8582bdd9035f)) = ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
+				- ((6846ca54-5e3a-4d49-b9e6-f2d8ad42ff00)) = ((6846d92b-cc0c-4db5-8b1d-766ec5a0d823)) = [multi-segment articulated arm](https://en.wikipedia.org/wiki/Articulated_robot) ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) = ((68874adb-f452-45ba-ae76-8582bdd9035f)) = ((685156b0-2f3b-4aa9-8b87-636d38a02cd2))
 				  id:: 6846c7e1-239c-4b39-9ef4-9d2eaba17a52
 				  collapsed:: true
 				  :LOGBOOK:
