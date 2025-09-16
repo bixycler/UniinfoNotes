@@ -49,7 +49,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- solving process = all possible trajectories (quantumic) = traversing the world by known vehicles (intents) = raw world (source of projection)
 			- Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))
 				- I remember an interactive physics demo of an articulated limb ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) following the mouse cursor, in Adobe Flash, when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root.
-					- This was a very simple [inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics) but much more effective than finding analytic solutions.
+					- This was a very simple [inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics) but much more effective than finding analytic solutions. Maybe it was [Forward And Backward Reaching Inverse Kinematics (FABRIK)](https://www.sciencedirect.com/science/article/abs/pii/S1524070311000178).
 				- each segment is a CIE:
 					- fixed intent = bone 🦴 = constraint = function
 					- free extent = angle = phase = parameter, variable
