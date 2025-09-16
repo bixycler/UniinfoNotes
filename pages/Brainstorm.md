@@ -48,7 +48,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- answer = solution = stable trajectory (Newtonian, least action) = image of the world protected onto the root intent
 				- solving process = all possible trajectories (quantumic) = traversing the world by known vehicles (intents) = raw world (source of projection)
 			- Effect circle on the articulated limb
-				- I remember a physic demo of an articulated limb in Adobe Flash when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root.
+				- I remember an interactive physics demo of an articulated limb following mouse cursor in Adobe Flash when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root.
 				- each segment is a CIE:
 					- fixed intent = bone 🦴 = constraint = function
 					- free extent = angle = phase = parameter, variable
