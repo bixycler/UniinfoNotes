@@ -60,10 +60,13 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 					- **Constraint relaxation**: the wave of change (effect flow) propagates through the bone segments by relaxing the constraint (length) at one end when the wave enters the segment then restoring the constraint at the other end when the wave exits.
 						- This has no counterpart in ANN training, because ANN lacks segments of constraint.
 						- In uninet, the relaxation is the fluidification of functions, and the constraint restoration is the crystalization.
-						- This is the most advanced/refined level of transformation: the propagation through solid is actually the constraint relaxation at micro-view!
-						- When viewed as a simple translation (aparent effect at macro-view), it's just the **bidirectional execution** of function/program.
+						- This is the most advanced/refined level of transformation: the propagation through solid is actually the constraint relaxation in micro-view!
+						- When viewed as a simple translation (aparent effect in macro-view), it's just the **bidirectional execution** of function/program.
 							- Normally, the function/program can only be executed in one direction, forward not backward!
 							- The [inverse of a function](https://en.wikipedia.org/wiki/Inverse_function) is just the reflection over the id line.
+							- In the knowledge circle of a problem, the inverse function is the one that verifies/qualifies the result of the forward function.
+								- The inverse function is known at the problem setting time, long before the forward function which is the solution of the problem.
+							-
 				- Each segment is a CIE:
 					- fixed intent = bone 🦴 = constraint = function
 					- free extent = angle = phase = parameter, variable
