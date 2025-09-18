@@ -50,7 +50,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))
 				- I remember an interactive physics demo of an articulated limb ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) following the mouse cursor, in Adobe Flash, when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root (and reflects back to the tip when the root is not free).
 				  id:: 68c76471-6ca1-4c46-8abf-f68b021f06f9
-					- This was a very simple [inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics) but much more effective than finding analytic solutions. Maybe it was [Forward And Backward Reaching Inverse Kinematics (FABRIK)](http://www.andreasaristidou.com/FABRIK.html).
+					- This was a very simple “reach and pull” [inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics) but much more effective than finding analytic solutions. Maybe it was a precursor of [Forward And Backward Reaching Inverse Kinematics (FABRIK)](http://www.andreasaristidou.com/FABRIK.html) (from before 2005 to FABRIK 2011).
 						- I've recreated my [FABRIK Demo](https://github.com/bixycler/Corkei/tree/main/FABRIK) with [Two.js](https://two.js.org/) in Corkei, which is copied to [FABRIK](../assets/Uniinfo/uninet/FABRIK/) in UniinfoNotes and deployed [here](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo.html).
 					- The ((667bf36a-581a-4abe-b544-2d849608a3e4)) “forward & backward reaching” is the key of FABRIK.
 					  id:: 68cbb69e-a44c-443d-b015-2f8182ef0e25
