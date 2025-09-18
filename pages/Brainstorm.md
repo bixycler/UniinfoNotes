@@ -50,23 +50,28 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))
 				- I remember an interactive physics demo of an articulated limb ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) following the mouse cursor, in Adobe Flash, when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root (and reflects back to the tip when the root is not free).
 					- This was a very simple [inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics) but much more effective than finding analytic solutions. Maybe it was [Forward And Backward Reaching Inverse Kinematics (FABRIK)](https://www.sciencedirect.com/science/article/abs/pii/S1524070311000178).
-					- The **circular effect flow** “forward & backward reaching” has been applied in ANN training with forward propagation and [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) (effect feedback, not data feedback).
+					- The ((667bf36a-581a-4abe-b544-2d849608a3e4)) “forward & backward reaching” has been applied in ANN training with forward propagation and [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) (effect feedback, not data feedback).
+					  id:: 68cbb69e-a44c-443d-b015-2f8182ef0e25
 						- In uninet, the effect circle flows continuosly – no separate “training phase” – with ((66f40210-cca6-4d81-85e7-d0c54ef20451))
 							- forward from the center, extents are generated and propagated out to the effectors, and
 							- backward from sensors to the center, signals are integrated to update intents.
 					- Differential equation: it starts from a satisfied position, then changes by **differential amount of dissatisfaction** which is resolved by the effect circle to reach the new satisfied postion at equilibrium.
 						- This aspect is not clear in ANN training.
 						- In uninet, the initial satisfaction is the full circles of inner intents, and the differential amount of dissatisfaction is the problems, the gaps in the outer intents.
-					- **Constraint relaxation**: the wave of change (effect flow) propagates through the bone segments by relaxing the constraint (length) at one end when the wave enters the segment then restoring the constraint at the other end when the wave exits.
+					- **Constraint relaxation & restoration**: the wave of change (effect flow) propagates through the bone segments by relaxing the constraint (length) at one end when the wave enters the segment then restoring the constraint at the other end when the wave exits.
+					  id:: 68cbbe61-bcbe-49b5-92dc-6028fda15821
 						- This has no counterpart in ANN training, because ANN lacks segments of constraint.
 						- In uninet, the relaxation is the fluidification of functions, and the constraint restoration is the crystalization.
-						- This is the most advanced/refined level of transformation: the propagation through solid is actually the constraint relaxation in micro-view!
-						- When viewed as a simple translation (aparent effect in macro-view), it's just the **bidirectional execution** of function/program.
-							- Normally, the function/program can only be executed in one direction, forward not backward!
-							- The [inverse of a function](https://en.wikipedia.org/wiki/Inverse_function) is just the reflection over the id line.
-							- In the knowledge circle of a problem, the inverse function is the one that verifies/qualifies the result of the forward function.
-								- The inverse function is known at the problem setting time, long before the forward function which is the solution of the problem.
-							-
+						- This is the most advanced/refined level of transformation: the propagation through solid is actually the constraint relaxation & restoration in micro-view!
+						- ((68cbc1e7-1d03-4407-be47-1e21d7feeb99))
+					- When viewed as a simple translation (aparent effect in macro-view), the [constraint relaxation & restoration](((68cbbe61-bcbe-49b5-92dc-6028fda15821))) is just the **bidirectional execution** of function/program.
+					  id:: 68cbc1e7-1d03-4407-be47-1e21d7feeb99
+						- Normally, the function/program can only be executed in one direction, forward not backward!
+						- The [inverse of a function](https://en.wikipedia.org/wiki/Inverse_function) is just the reflection over the id line.
+						- In the knowledge circle of a problem, the inverse function is the one that verifies/qualifies the result of the forward function.
+							- The inverse function is known at the problem setting time, long before the forward function which is the solution of the problem.
+						- ⇒ This is just the [effect circle](((68cbb69e-a44c-443d-b015-2f8182ef0e25))) crystalized into the form (segment, function, program).
+						- While it's circular by construction in uninet, the traditional maths, programming, and AAN are designed in the unidirectional way.
 				- Each segment is a CIE:
 					- fixed intent = bone 🦴 = constraint = function
 					- free extent = angle = phase = parameter, variable
