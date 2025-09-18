@@ -63,6 +63,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- This is the most advanced/refined level of transformation: the propagation through solid is actually the constraint relaxation at micro-view!
 						- When viewed as a simple translation (aparent effect at macro-view), it's just the **bidirectional execution** of function/program.
 							- Normally, the function/program can only be executed in one direction, forward not backward!
+							- The [inverse of a function](https://en.wikipedia.org/wiki/Inverse_function) is just the reflection over the id line.
 				- Each segment is a CIE:
 					- fixed intent = bone 🦴 = constraint = function
 					- free extent = angle = phase = parameter, variable
