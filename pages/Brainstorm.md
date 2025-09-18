@@ -58,10 +58,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- This aspect is not clear in ANN training.
 						- In uninet, the initial satisfaction is the full circles of inner intents, and the differential amount of dissatisfaction is the problems, the gaps in the outer intents.
 					- **Constraint relaxation**: the wave of change (effect flow) propagates through the bone segments by relaxing the constraint (length) at one end when the wave enters the segment then restoring the constraint at the other end when the wave exits.
-						- This has no counterpart in ANN training.
+						- This has no counterpart in ANN training, because ANN lacks segments of constraint.
 						- In uninet, the relaxation is the fluidification of functions, and the constraint restoration is the crystalization.
-						- This is the most advanced level of transformation: the propagation through solid!
-						- However, when viewed as a simple stranslation (aparent effect at macro-view)
+						- This is the most advanced/refined level of transformation: the propagation through solid is actually the constraint relaxation at micro-view!
+						- When viewed as a simple translation (aparent effect at macro-view), it's just the **bidirectional execution** of function/program.
+							- Normally, the function/program can only be executed in one direction, forward not backward!
 				- Each segment is a CIE:
 					- fixed intent = bone 🦴 = constraint = function
 					- free extent = angle = phase = parameter, variable
