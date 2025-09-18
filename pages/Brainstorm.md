@@ -50,8 +50,9 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))
 				- I remember an interactive physics demo of an articulated limb ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) following the mouse cursor, in Adobe Flash, when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root (and reflects back to the tip when the root is not free).
 					- This was a very simple [inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics) but much more effective than finding analytic solutions. Maybe it was [Forward And Backward Reaching Inverse Kinematics (FABRIK)](https://www.sciencedirect.com/science/article/abs/pii/S1524070311000178).
-					- The ((667bf36a-581a-4abe-b544-2d849608a3e4)) “forward & backward reaching” has been applied in ANN training with forward propagation and [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) (effect feedback, not data feedback).
+					- The ((667bf36a-581a-4abe-b544-2d849608a3e4)) “forward & backward reaching” is the key of FABRIK.
 					  id:: 68cbb69e-a44c-443d-b015-2f8182ef0e25
+						- It has been applied in ANN training with forward propagation and [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) (effect feedback, not data feedback).
 						- In uninet, the effect circle flows continuosly – no separate “training phase” – with ((66f40210-cca6-4d81-85e7-d0c54ef20451))
 							- forward from the center, extents are generated and propagated out to the effectors, and
 							- backward from sensors to the center, signals are integrated to update intents.
