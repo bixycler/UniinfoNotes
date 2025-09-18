@@ -54,10 +54,14 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- In uninet, the effect circle flows continuosly – no separate “training phase” – with ((66f40210-cca6-4d81-85e7-d0c54ef20451))
 							- forward from the center, extents are generated and propagated out to the effectors, and
 							- backward from sensors to the center, signals are integrated to update intents.
-					- Differential equation: it starts from a satisfied position, then changes by differential amount of dissatisfaction which is resolved by the effect circle to reach the new satisfied postion at equilibrium.
+					- Differential equation: it starts from a satisfied position, then changes by **differential amount of dissatisfaction** which is resolved by the effect circle to reach the new satisfied postion at equilibrium.
 						- This aspect is not clear in ANN training.
 						- In uninet, the initial satisfaction is the full circles of inner intents, and the differential amount of dissatisfaction is the problems, the gaps in the outer intents.
-					- Constraint relaxation: the wave of change (effect flow) propagates through the bone segments by relaxing the constraint (length) at one end then restore
+					- **Constraint relaxation**: the wave of change (effect flow) propagates through the bone segments by relaxing the constraint (length) at one end when the wave enters the segment then restoring the constraint at the other end when the wave exits.
+						- This has no counterpart in ANN training.
+						- In uninet, the relaxation is the fluidification of functions, and the constraint restoration is the crystalization.
+						- This is the most advanced level of transformation: the propagation through solid!
+						- However, when viewed as a simple stranslation (aparent effect at macro-view)
 				- Each segment is a CIE:
 					- fixed intent = bone 🦴 = constraint = function
 					- free extent = angle = phase = parameter, variable
@@ -66,7 +70,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- absorbent (discriminative) = observational = c ÷ i -> e
 				- meta (learning) layer = SCIFER: e' <-i-> c' = i
 				- move of joint = rotation (of previous joint) = shift = viewpoint change
-				- change of bone (size) = scaling = rotation on meta later = viewscale change
+				- change of bone (size) = scaling = rotation on meta layer = viewscale change
 				- This [fixed point in thin air](https://www.thingiverse.com/thing:4841850) is interesting, as shown in [this video](https://youtu.be/ZKz0_kSFSP0). It's the static version of gyroscope, qigong, and my dream of levitating bench.
 					- Paper: [A new type of spherical flexure joint based on tetrahedron elements](https://www.sciencedirect.com/science/article/pii/S0141635921000726?via%3Dihub)
 					- Inversely, taking this [remote center of motion (RCM)](https://www.igi-global.com/dictionary/?p=Remote+Center+of+Motion) as the stationary base, the limbs can freely move around it.
