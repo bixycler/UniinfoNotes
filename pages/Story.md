@@ -4201,7 +4201,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- Only now, after about 15 years, can i get back to the middle way, and review my stuck in the bottom-up determinism.
 				- ((68c764d5-17c7-4c1c-af2f-697fa222f729))
 			- 15th, nearly all the working time was spent for meditation against my sinus inflammation.
+			  collapsed:: true
 				- While nearly all the working time was spent for meditation against my sinus inflammation, i still squeezed some work contemplation in between.
+			- 16-17th, did the official works, but the inflammation spreads down the larynx, then eventually it springs back to the contemplation about uninet.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
