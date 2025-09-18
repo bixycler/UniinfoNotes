@@ -54,9 +54,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- In uninet, the effect circle flows continuosly – no separate “training phase” – with ((66f40210-cca6-4d81-85e7-d0c54ef20451))
 							- forward from the center, extents are generated and propagated out to the effectors, and
 							- backward from sensors to the center, signals are integrated to update intents.
-					- Differential equation: it starts from a satisfied position, then changes by differential amount of unsatisfaction which is resolved by the effect circle to reach the new satisfied postion at equilibrium.
-						-
-				- each segment is a CIE:
+					- Differential equation: it starts from a satisfied position, then changes by differential amount of dissatisfaction which is resolved by the effect circle to reach the new satisfied postion at equilibrium.
+						- This aspect is not clear in ANN training.
+						- In uninet, the initial satisfaction is the full circles of inner intents, and the differential amount of dissatisfaction is the problems, the gaps in the outer intents.
+					- Constraint relaxation: the wave of change (effect flow) propagates through the bone segments by relaxing the constraint (length) at one end then restore
+				- Each segment is a CIE:
 					- fixed intent = bone 🦴 = constraint = function
 					- free extent = angle = phase = parameter, variable
 					- product content = trajectory = output
