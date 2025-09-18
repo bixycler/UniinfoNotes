@@ -58,8 +58,9 @@ id:: 66519638-cf5d-409b-9b98-15acabf2268c
 			- #### To be merged
 			  id:: 67164cc1-e500-4889-9b6d-12d8dd7fc029
 			  collapsed:: true
-				- (title...)
+				- Add FABRIK Demo
 				-
+				- Add [FABRIK Demo](((68c76471-6ca1-4c46-8abf-f68b021f06f9)))
 				- Remove `.obsidian/`
 			- #### WIPs < ((67164cc1-e500-4889-9b6d-12d8dd7fc029))
 			  id:: 67164c57-8f45-46eb-92a9-f00b02dccfc9
