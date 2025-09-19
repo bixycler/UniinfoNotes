@@ -4194,6 +4194,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The [prehension](https://en.wikipedia.org/wiki/Prehension_(philosophy)) of Whitehead is very similar to cross-level fold-tug of the Omnifold in Ω-thread interaction.
 					- obop’s one-by-one instantiations is similar to [one-electron universe postulate](https://en.wikipedia.org/wiki/One-electron_universe).
 			- 13-14th, weekends, very sleepy... took 3 cycles in a row (normally i take only 2 cycles in weekends)... then got a mild sinus inflammation. I saw a lot about [projective relativity](((68c764d5-17c7-4c1c-af2f-697fa222f729))) and the middle way for uninet.
+			  id:: 68c762da-f037-4237-a934-065371c4b60a
 			  collapsed:: true
 				- I've received a formal education of too much formalism & foundationalism.
 				  collapsed:: true

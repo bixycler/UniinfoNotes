@@ -48,6 +48,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- answer = solution = stable trajectory (Newtonian, least action) = image of the world protected onto the root intent
 				- solving process = all possible trajectories (quantumic) = traversing the world by known vehicles (intents) = raw world (source of projection)
 			- Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))
+			  id:: 68c76471-81de-4de9-bdd9-a2ab866a1184
+			  collapsed:: true
 				- I remember an interactive physics demo of an articulated limb ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) following the mouse cursor, in Macromedia Flash, when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root (and reflects back to the tip when the root is not free).
 				  id:: 68c76471-6ca1-4c46-8abf-f68b021f06f9
 					- This was a very simple “turn and pull” [heuristic inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics#Heuristic_methods) but much more effective than finding analytic solutions. It was a precursor of [Forward And Backward Reaching Inverse Kinematics (FABRIK)](http://www.andreasaristidou.com/FABRIK.html) (from before 2005 to FABRIK 2011). It was in a series of dynamics simulation tutorial in the good old Macromedia Flash 🕌.
@@ -75,6 +77,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 							  a living monument, held dear.
 							  */
 							  ```
+					- _Nature is **heuristic**_ at heart: At the microscopic scale, Nature always searches incrementally, from quantum, thermodynamics, to stress wave (like FABRIK).
+						- At the macroscopic scale, we see only the limit state, the “closed-form solution” that emerges once the heuristic has finished its course by reaching equilibrium.
+						- That's why the heuristic solutions feel more natural than the analytic solutions.
+						- Etymology: “Heuristic” is an irregular formation from Ancient Greek εὑρίσκω (heurískō, “I find, discover”).
+							- Heuristic is not a guesswork, but a method of **search & discovery** guided by experience, approximation, or trial and error.
 					- The ((667bf36a-581a-4abe-b544-2d849608a3e4)) “forward & backward reaching” is the key of FABRIK.
 					  id:: 68cbb69e-a44c-443d-b015-2f8182ef0e25
 						- It has been applied in ANN training with forward propagation and [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) (effect feedback, not data feedback).
