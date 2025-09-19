@@ -51,7 +51,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- 3. A root-fixed chain: grab the tip to move, the wave of change propagates back and forth, with the mechanism of the second demo.
 					- I've rewritten this [FABRIK Demo](https://github.com/bixycler/Corkei/tree/main/FABRIK) in Corkei, as a monument ⛩️ to honor the ancestor of effect flow. It is copied to [FABRIK](../assets/Uniinfo/uninet/FABRIK/) in UniinfoNotes: [Two.js version](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo-TwoJS.html) and [D3.js version](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo-D3.html).
 						- ```
-						  /*
 						  ⛩️ Monument to the Ancestor 🕌
 						  
 						  In Macromedia Flash I saw,
@@ -63,7 +62,6 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  the wave that flows, the world I knew.
 						  Today I draw its motion here,
 						  a living monument, held dear.
-						  */
 						  ```
 				- _Nature is **heuristic**_ at heart: At the microscopic scale, Nature always searches incrementally, from quantum, thermodynamics, to stress wave (like FABRIK).
 					- At the macroscopic scale, we see only the limit state, the “closed-form solution” that emerges once the heuristic has finished its course by reaching equilibrium.
