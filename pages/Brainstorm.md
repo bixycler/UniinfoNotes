@@ -39,7 +39,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  collapsed:: true
 			- I remember an interactive physics demo of an articulated limb ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) following the mouse cursor, in Macromedia Flash, when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root (and reflects back to the tip when the root is not free).
 			  id:: 68c76471-6ca1-4c46-8abf-f68b021f06f9
-				- This was a very simple “turn and pull” [heuristic inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics#Heuristic_methods) but much more effective than finding analytic solutions. It was a precursor of [Forward And Backward Reaching Inverse Kinematics (FABRIK)](http://www.andreasaristidou.com/FABRIK.html) (from before 2005 to FABRIK 2011). It was in a series of dynamics simulation tutorial in the good old Macromedia Flash 🕌.
+				- This was a very simple “turn and pull” [heuristic inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics#Heuristic_methods), called “Follow-the-Leader”, but much more effective than finding analytic solutions. It was a precursor of [Forward And Backward Reaching Inverse Kinematics (FABRIK)](http://www.andreasaristidou.com/FABRIK.html) (from before 2005 to FABRIK 2011). It was in a series of dynamics simulation tutorial in the good old Macromedia Flash 🕌.
 				  id:: 68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c
 				  collapsed:: true
 					- Characteristics: natural, simple, effective!
