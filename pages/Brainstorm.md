@@ -34,6 +34,78 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))
+		  id:: 68c76471-81de-4de9-bdd9-a2ab866a1184
+		  collapsed:: true
+			- I remember an interactive physics demo of an articulated limb ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) following the mouse cursor, in Macromedia Flash, when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root (and reflects back to the tip when the root is not free).
+			  id:: 68c76471-6ca1-4c46-8abf-f68b021f06f9
+				- This was a very simple “turn and pull” [heuristic inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics#Heuristic_methods) but much more effective than finding analytic solutions. It was a precursor of [Forward And Backward Reaching Inverse Kinematics (FABRIK)](http://www.andreasaristidou.com/FABRIK.html) (from before 2005 to FABRIK 2011). It was in a series of dynamics simulation tutorial in the good old Macromedia Flash 🕌.
+				  id:: 68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c
+				  collapsed:: true
+					- Characteristics: natural, simple, effective!
+					- Instead of using the textbook Newtonian force analysis → acceleration → velocity → position, they just let things evolve directly by differences ($dx, dy$) through the flow of **differential change**.
+					- Springs, gravity, collisions, and constraints like kinematic chain, all emerged from iterative position adjustments, just like how Nature does.
+					- About the kinematic chain only, the tutorial showed 3 demos in Flash to incrementally build the intuition:
+						- 1. A free rod: grab one end to move, the other end follows naturally.
+						- 2. A free chain: grab one end to move, the segments, one by one follow naturally, with the mechanism of the first demo.
+						- 3. A root-fixed chain: grab the tip to move, the wave of change propagates back and forth, with the mechanism of the second demo.
+					- I've rewritten this [FABRIK Demo](https://github.com/bixycler/Corkei/tree/main/FABRIK) in Corkei, as a monument ⛩️ to honor the ancestor of effect flow. It is copied to [FABRIK](../assets/Uniinfo/uninet/FABRIK/) in UniinfoNotes: [Two.js version](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo-TwoJS.html) and [D3.js version](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo-D3.html).
+						- ```
+						  /*
+						  ⛩️ Monument to the Ancestor 🕌
+						  
+						  In Macromedia Flash I saw,
+						  a chain that reached, then yielded, raw.
+						  No force was named, no sums were done,
+						  just step by step till rest was won.
+						  
+						  Simple strokes, yet deeply true,
+						  the wave that flows, the world I knew.
+						  Today I draw its motion here,
+						  a living monument, held dear.
+						  */
+						  ```
+				- _Nature is **heuristic**_ at heart: At the microscopic scale, Nature always searches incrementally, from quantum, thermodynamics, to stress wave (like FABRIK).
+					- At the macroscopic scale, we see only the limit state, the “closed-form solution” that emerges once the heuristic has finished its course by reaching equilibrium.
+					- That's why the heuristic solutions feel more natural than the analytic solutions.
+					- Etymology: “Heuristic” is an irregular formation from Ancient Greek εὑρίσκω (heurískō, “I find, discover”).
+						- Heuristic is not a guesswork, but a method of **search & discovery** guided by experience, approximation, or trial and error.
+				- The ((667bf36a-581a-4abe-b544-2d849608a3e4)) “forward & backward reaching” is the key of FABRIK.
+				  id:: 68cbb69e-a44c-443d-b015-2f8182ef0e25
+					- It has been applied in ANN training with forward propagation and [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) (effect feedback, not data feedback).
+					- In uninet, the effect circle flows continuosly – no separate “training phase” – with ((66f40210-cca6-4d81-85e7-d0c54ef20451))
+						- forward from the center, extents are generated and propagated out to the effectors, and
+						- backward from sensors to the center, signals are integrated to update intents.
+				- Differential equation: it starts from a satisfied position, then changes by **differential amount of dissatisfaction** which is resolved by the effect circle to reach the new satisfied postion at equilibrium.
+					- This aspect is not clear in ANN training.
+					- In uninet, the initial satisfaction is the full circles of inner intents, and the differential amount of dissatisfaction is the problems, the gaps in the outer intents.
+				- **Constraint relaxation & restoration**: the wave of change (effect flow) propagates through the bone segments by relaxing the constraint (length) at one end when the wave enters the segment then restoring the constraint at the other end when the wave exits.
+				  id:: 68cbbe61-bcbe-49b5-92dc-6028fda15821
+					- This has no counterpart in ANN training, because ANN lacks segments of constraint.
+					- In uninet, the relaxation is the fluidification of functions, and the constraint restoration is the crystalization.
+					- This is the most advanced/refined level of transformation: the propagation through solid is actually the constraint relaxation & restoration in micro-view!
+					- ((68cbc1e7-1d03-4407-be47-1e21d7feeb99))
+				- When viewed as a simple translation (aparent effect in macro-view), the [constraint relaxation & restoration](((68cbbe61-bcbe-49b5-92dc-6028fda15821))) is just the **bidirectional execution** of function/program.
+				  id:: 68cbc1e7-1d03-4407-be47-1e21d7feeb99
+					- Normally, the function/program can only be executed in one direction, forward not backward!
+					- The [inverse of a function](https://en.wikipedia.org/wiki/Inverse_function) is just the reflection over the id line.
+					- In the knowledge circle of a problem, the inverse function is the one that verifies/qualifies the result of the forward function.
+						- The inverse function is known at the problem setting time, long before the forward function which is the solution of the problem.
+					- ⇒ This is just the [effect circle](((68cbb69e-a44c-443d-b015-2f8182ef0e25))) crystalized into the form (segment, function, program).
+					- While it's circular by construction in uninet, the traditional maths, programming, and AAN are designed in the unidirectional way.
+			- Each segment is a CIE:
+				- fixed intent = bone 🦴 = constraint = function
+				- free extent = angle = phase = parameter, variable
+				- product content = trajectory = output
+			- generative = operational = e × i -> c
+			- absorbent (discriminative) = observational = c ÷ i -> e
+			- meta (learning) layer = SCIFER: e' <-i-> c' = i
+			- move of joint = rotation (of previous joint) = shift = viewpoint change
+			- change of bone (size) = scaling = rotation on meta layer = viewscale change
+			- This [fixed point in thin air](https://www.thingiverse.com/thing:4841850) is interesting, as shown in [this video](https://youtu.be/ZKz0_kSFSP0). It's the static version of gyroscope, qigong, and my dream of levitating bench.
+				- Paper: [A new type of spherical flexure joint based on tetrahedron elements](https://www.sciencedirect.com/science/article/pii/S0141635921000726?via%3Dihub)
+				- Inversely, taking this [remote center of motion (RCM)](https://www.igi-global.com/dictionary/?p=Remote+Center+of+Motion) as the stationary base, the limbs can freely move around it.
+				- This virtual center is also the empty center of the self-essence. The whole bodymind moves just to keep this center stable.
 		- Projective relativity: the same content being viewed at different ((667272b8-88a8-4928-a22a-35035c9edf05))s on different ((68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2))s results in different forms.   
 		  id:: 68c764d5-17c7-4c1c-af2f-697fa222f729
 		  collapsed:: true
@@ -47,85 +119,27 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- question = issue = problem = target = root intent $i_0$
 				- answer = solution = stable trajectory (Newtonian, least action) = image of the world protected onto the root intent
 				- solving process = all possible trajectories (quantumic) = traversing the world by known vehicles (intents) = raw world (source of projection)
-			- Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))
-			  id:: 68c76471-81de-4de9-bdd9-a2ab866a1184
-			  collapsed:: true
-				- I remember an interactive physics demo of an articulated limb ([kinematic chain](https://en.wikipedia.org/wiki/Kinematic_chain)) following the mouse cursor, in Macromedia Flash, when i studied at Osaka University: The effect flow = wave of change propagates from the tip back to the root (and reflects back to the tip when the root is not free).
-				  id:: 68c76471-6ca1-4c46-8abf-f68b021f06f9
-					- This was a very simple “turn and pull” [heuristic inverse kinematics](https://en.wikipedia.org/wiki/Inverse_kinematics#Heuristic_methods) but much more effective than finding analytic solutions. It was a precursor of [Forward And Backward Reaching Inverse Kinematics (FABRIK)](http://www.andreasaristidou.com/FABRIK.html) (from before 2005 to FABRIK 2011). It was in a series of dynamics simulation tutorial in the good old Macromedia Flash 🕌.
-					  collapsed:: true
-						- Characteristics: natural, simple, effective!
-						- Instead of using the textbook Newtonian force analysis → acceleration → velocity → position, they just let things evolve directly by differences ($dx, dy$) through the flow of **differential change**.
-						- Springs, gravity, collisions, and constraints like kinematic chain, all emerged from iterative position adjustments, just like how Nature does.
-						- About the kinematic chain only, the tutorial showed 3 demos in Flash to incrementally build the intuition:
-							- 1. A free rod: grab one end to move, the other end follows naturally.
-							- 2. A free chain: grab one end to move, the segments, one by one follow naturally, with the mechanism of the first demo.
-							- 3. A root-fixed chain: grab the tip to move, the wave of change propagates back and forth, with the mechanism of the second demo.
-						- I've rewritten this [FABRIK Demo](https://github.com/bixycler/Corkei/tree/main/FABRIK) in Corkei, as a monument ⛩️ to honor the ancestor of effect flow. It is copied to [FABRIK](../assets/Uniinfo/uninet/FABRIK/) in UniinfoNotes: [Two.js version](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo-TwoJS.html) and [D3.js version](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo-D3.html).
-							- ```
-							  /*
-							  ⛩️ Monument to the Ancestor 🕌
-							  
-							  In Macromedia Flash I saw,
-							  a chain that reached, then yielded, raw.
-							  No force was named, no sums were done,
-							  just step by step till rest was won.
-							  
-							  Simple strokes, yet deeply true,
-							  the wave that flows, the world I knew.
-							  Today I draw its motion here,
-							  a living monument, held dear.
-							  */
-							  ```
-					- _Nature is **heuristic**_ at heart: At the microscopic scale, Nature always searches incrementally, from quantum, thermodynamics, to stress wave (like FABRIK).
-						- At the macroscopic scale, we see only the limit state, the “closed-form solution” that emerges once the heuristic has finished its course by reaching equilibrium.
-						- That's why the heuristic solutions feel more natural than the analytic solutions.
-						- Etymology: “Heuristic” is an irregular formation from Ancient Greek εὑρίσκω (heurískō, “I find, discover”).
-							- Heuristic is not a guesswork, but a method of **search & discovery** guided by experience, approximation, or trial and error.
-					- The ((667bf36a-581a-4abe-b544-2d849608a3e4)) “forward & backward reaching” is the key of FABRIK.
-					  id:: 68cbb69e-a44c-443d-b015-2f8182ef0e25
-						- It has been applied in ANN training with forward propagation and [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) (effect feedback, not data feedback).
-						- In uninet, the effect circle flows continuosly – no separate “training phase” – with ((66f40210-cca6-4d81-85e7-d0c54ef20451))
-							- forward from the center, extents are generated and propagated out to the effectors, and
-							- backward from sensors to the center, signals are integrated to update intents.
-					- Differential equation: it starts from a satisfied position, then changes by **differential amount of dissatisfaction** which is resolved by the effect circle to reach the new satisfied postion at equilibrium.
-						- This aspect is not clear in ANN training.
-						- In uninet, the initial satisfaction is the full circles of inner intents, and the differential amount of dissatisfaction is the problems, the gaps in the outer intents.
-					- **Constraint relaxation & restoration**: the wave of change (effect flow) propagates through the bone segments by relaxing the constraint (length) at one end when the wave enters the segment then restoring the constraint at the other end when the wave exits.
-					  id:: 68cbbe61-bcbe-49b5-92dc-6028fda15821
-						- This has no counterpart in ANN training, because ANN lacks segments of constraint.
-						- In uninet, the relaxation is the fluidification of functions, and the constraint restoration is the crystalization.
-						- This is the most advanced/refined level of transformation: the propagation through solid is actually the constraint relaxation & restoration in micro-view!
-						- ((68cbc1e7-1d03-4407-be47-1e21d7feeb99))
-					- When viewed as a simple translation (aparent effect in macro-view), the [constraint relaxation & restoration](((68cbbe61-bcbe-49b5-92dc-6028fda15821))) is just the **bidirectional execution** of function/program.
-					  id:: 68cbc1e7-1d03-4407-be47-1e21d7feeb99
-						- Normally, the function/program can only be executed in one direction, forward not backward!
-						- The [inverse of a function](https://en.wikipedia.org/wiki/Inverse_function) is just the reflection over the id line.
-						- In the knowledge circle of a problem, the inverse function is the one that verifies/qualifies the result of the forward function.
-							- The inverse function is known at the problem setting time, long before the forward function which is the solution of the problem.
-						- ⇒ This is just the [effect circle](((68cbb69e-a44c-443d-b015-2f8182ef0e25))) crystalized into the form (segment, function, program).
-						- While it's circular by construction in uninet, the traditional maths, programming, and AAN are designed in the unidirectional way.
-				- Each segment is a CIE:
-					- fixed intent = bone 🦴 = constraint = function
-					- free extent = angle = phase = parameter, variable
-					- product content = trajectory = output
-				- generative = operational = e × i -> c
-				- absorbent (discriminative) = observational = c ÷ i -> e
-				- meta (learning) layer = SCIFER: e' <-i-> c' = i
-				- move of joint = rotation (of previous joint) = shift = viewpoint change
-				- change of bone (size) = scaling = rotation on meta layer = viewscale change
-				- This [fixed point in thin air](https://www.thingiverse.com/thing:4841850) is interesting, as shown in [this video](https://youtu.be/ZKz0_kSFSP0). It's the static version of gyroscope, qigong, and my dream of levitating bench.
-					- Paper: [A new type of spherical flexure joint based on tetrahedron elements](https://www.sciencedirect.com/science/article/pii/S0141635921000726?via%3Dihub)
-					- Inversely, taking this [remote center of motion (RCM)](https://www.igi-global.com/dictionary/?p=Remote+Center+of+Motion) as the stationary base, the limbs can freely move around it.
-					- This virtual center is also the empty center of the self-essence. The whole bodymind moves just to keep this center stable.
+		- Compare uninet with other systems
+		  id:: 68c76d9f-0ae4-4e93-b8de-1b79a3400fc8
+		  collapsed:: true
+			- uninet is a kind of [complex adaptive system (CAS)](https://en.wikipedia.org/wiki/Complex_adaptive_system).
 			- Newtonian mechanics = reductionism = bottom-up determinism = Turing machine = foundationalism = closed linear system
 				- Quantum mechanics = nondeterminism = opposite of Newtonian = ANN & LLM = open linear system
 					- ANN is top-down determined (trained), so its capability cannot exceed its source (training data).
 				- Both Turing machine & LLM are linear worker, no branching of alternatives (possibilities).
-				- Unithread = middle out determinism = circular determinism = superdeterminism = vacantism = open circular system
-					- Start from the herenow and ripple out.
-					- Uninet continuously learns from life, hence unlimited capacity.
-			-
+			- Unithread = middle out determinism = circular determinism = superdeterminism = vacantism = open circular system
+				- Start from the herenow and ripple out.
+				- Uninet continuously learns from life, hence unlimited capacity.
+			- reaction = reflection; action = emission
+			  id:: 68ccaf71-1811-4929-8e74-976bdcd65829
+				- observation (learning) = absorption of change/effect into inner/higher levels of intents
+				- reaction = reflection off the (hard/thick) wall of intents
+				- Turing machine has absolutely hard walls, hence no learning, only [specular reflection](https://en.wikipedia.org/wiki/Specular_reflection). It's memory is just a sponge 🧽 which can absorb and emit change as is but cannot digest & learn.
+				- uninet has all kinds of reflections & emissions:
+					- [specular reflection](https://en.wikipedia.org/wiki/Specular_reflection) = reaction to the trigger
+					- [diffuse reflection](https://en.wikipedia.org/wiki/Diffuse_reflection) = reaction without target
+					- [subsurface scattering](https://en.wikipedia.org/wiki/Subsurface_scattering) (absorbed then re-emitted) = thoughtful action
+					- [thermal emission](https://en.wikipedia.org/wiki/Thermal_radiation) (with no clear trigger) = spontaneous action
 		- Possibility versus Probability
 		  id:: 68c233ac-f4dc-4222-8ee5-3523317824ff
 		  collapsed:: true

@@ -4193,7 +4193,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- The holomovement is very similar to the ((675c03d8-3185-41a8-9f98-e869fabec793)) with “enfolding” & “unfolding” as well as the dynamic nature.
 					- The [prehension](https://en.wikipedia.org/wiki/Prehension_(philosophy)) of Whitehead is very similar to cross-level fold-tug of the Omnifold in Ω-thread interaction.
 					- obop’s one-by-one instantiations is similar to [one-electron universe postulate](https://en.wikipedia.org/wiki/One-electron_universe).
-			- 13-14th, weekends, very sleepy... took 3 cycles in a row (normally i take only 2 cycles in weekends)... then got a mild sinus inflammation. I saw a lot about [projective relativity](((68c764d5-17c7-4c1c-af2f-697fa222f729))) and the middle way for uninet.
+			- 13-14th, weekends, very sleepy... took 3 cycles in a row (normally i take only 2 cycles in weekends)... then got a mild sinus inflammation. I saw a lot about [projective relativity](((68c764d5-17c7-4c1c-af2f-697fa222f729))), ((68c76471-81de-4de9-bdd9-a2ab866a1184)), and [the middle way for uninet](((68c76d9f-0ae4-4e93-b8de-1b79a3400fc8))).
 			  id:: 68c762da-f037-4237-a934-065371c4b60a
 			  collapsed:: true
 				- I've received a formal education of too much formalism & foundationalism.
@@ -4201,10 +4201,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- From the start of Uniinfo, it costed me at least 3 years to reset my mind to be free from formal logic, set theory, axiomatic systems, etc., so that i could to touch the first 2 components (Arrow & Circle).
 					- Only now, after about 15 years, can i get back to the middle way, and review my stuck in the bottom-up determinism.
 				- ((68c764d5-17c7-4c1c-af2f-697fa222f729))
+				- ((68c76471-81de-4de9-bdd9-a2ab866a1184))
+				- ((68c76d9f-0ae4-4e93-b8de-1b79a3400fc8))
 			- 15th, nearly all the working time was spent for meditation against my sinus inflammation.
-			  collapsed:: true
 				- While nearly all the working time was spent for meditation against my sinus inflammation, i still squeezed some work contemplation in between.
-			- 16-17th, did the official works, but the inflammation spread down the larynx, then eventually it sprang back to the contemplation about uninet.
+			- 16-17th, did the official works, but the inflammation spread down the larynx, then eventually it sprang back to the [contemplation about uninet](((68ccaf71-1811-4929-8e74-976bdcd65829))).
+			- 18-19th, wrote [FABRIK demo](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))) ...
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
