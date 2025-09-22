@@ -4236,7 +4236,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Chút sai gieo rắc hạt mầm,
 						  nở ra muôn vạn hiểu lầm thế nhân.
 						  Vô Minh lắt léo vô ngần,
-						  cười trong chữ nghĩa, chẳng ai thấy tường.
+						  cười ngay chữ “hiểu” 🤣 – chẳng cần giấu ai!
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
