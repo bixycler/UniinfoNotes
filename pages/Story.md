@@ -4209,7 +4209,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 18-19th, wrote [FABRIK demo](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))).
 				- Create video from images
 				  ```sh
-				  ffmpeg -framerate 2 -pattern_type glob -i 'three-segments-iterative/*.svg' three-segments-iterative.ogg
+				  ffmpeg -framerate 2 -pattern_type glob -i 'three-segments-iterative/*.svg' -lossless 1 three-segments-iterative.webm
 				  ```
 			- 20-21st, the cases of ((68d0e81d-20aa-4fbf-9f7c-f669a16684dd)) remind me about my mom 🥰.
 			  collapsed:: true
