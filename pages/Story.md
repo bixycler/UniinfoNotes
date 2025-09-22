@@ -4207,15 +4207,17 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- While nearly all the working time was spent for meditation against my sinus inflammation, i still squeezed some work contemplation in between.
 			- 16-17th, did the official works, but the inflammation spread down the larynx, then eventually it sprang back to the [contemplation about uninet](((68ccaf71-1811-4929-8e74-976bdcd65829))).
 			- 18-19th, wrote [FABRIK demo](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))) ...
-			- 20-21st, ...
+			- 20-21st, the cases of ((68d0e81d-20aa-4fbf-9f7c-f669a16684dd)) remind me about my mom
 			  collapsed:: true
-				- Recovery from coma, vegetative state
+				- Garden of Edam in the middle of Sơn Đoòng Cave 
 				  collapsed:: true
-					- [Gary Dockery](https://en.wikipedia.org/wiki/Gary_Dockery) suddenly woke up from 7.5 years of permanent vegetative state with clear and active conscious activities, after a pneumonia, then fell back into inactive state days later. This case made [his doctor questioned all medical knowledge he had got](https://youtu.be/X5xJZPoGjj8).
-					- [A young female patient](https://journals.sagepub.com/doi/full/10.1177/1179573519843492) gradually recovered and sustained after 7 years of vegetative state due to severe brain hemorrhage.
-					- [A patient with hypoxic-ischemic brain injury (HI-BI)](https://pubmed.ncbi.nlm.nih.gov/33655907/)  recovered from a minimally consciousness state over 6 years.
-					- [13 cases of late recoveries (after 5+ years)](https://pubmed.ncbi.nlm.nih.gov/24275063/) of vegetative state.
+					- [Google Art & Culture](https://artsandculture.google.com/asset/garden-of-edam-national-geographic-google-arts-culture/jwGeKUomuZcaXw?avm=4)
+					- “Edam” may be “Eden's Adam”, a mixture of “Eden + Eve + Adam”, or even the Dutch [edam cheese](https://en.wikipedia.org/wiki/Edam_cheese)!
+					- Explained [by Oxalis Adventure](https://oxalisadventure.com/the-garden-of-edam-inside-son-doong-cave/): “Garden of Edam” in the largest cave was named to be parallel with the “Garden of Eden” which is the karst valley at the exit of the 2nd largest cave, Deer Cave (Malay: Gua Rusa), because they are both sinkholes.
+						- > The reason for the name Garden of Edam was during the survey and measurement expedition to Son Doong in 2009, the members of British Vietnam Caving Expedition realized that Son Doong was going to be the largest cave in the world. Previously British cavers had discovered Deer Cave in Malaysia which was then the largest cave in the world. The explorers of that cave named the exit of the cave in the jungle “The Garden of Eden”. As a joke the explorers of Son Doong decided to name the second doline “The Garden of Edam”.
+					- “Son Doong” is pronounced “Sir.n Door.ng” or “Surn Dawng”, not “Sun Dung” 😆!
 				- ((68d0e81d-c8d2-4a97-a847-a3d5d191085b))
+					- ((68d0e81d-20aa-4fbf-9f7c-f669a16684dd))
 			- 22nd, ...
 			  collapsed:: true
 				- ((68d0c5f5-00d3-44aa-b35a-17d67ea773f6))

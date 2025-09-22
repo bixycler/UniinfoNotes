@@ -37,14 +37,29 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- 🪜 Ladder of Awareness Stances
 		  id:: 68d0e81d-c8d2-4a97-a847-a3d5d191085b
 		  collapsed:: true
-			- (ChatGPT: vegetative state awareness)
-			- Garden of Edam in the middle of Sơn Đoòng Cave 
-			  collapsed:: true
-				- [Google Art & Culture](https://artsandculture.google.com/asset/garden-of-edam-national-geographic-google-arts-culture/jwGeKUomuZcaXw?avm=4)
-				- “Edam” may be “Eden's Adam”, a mixture of “Eden + Eve + Adam”, or even the Dutch [edam cheese](https://en.wikipedia.org/wiki/Edam_cheese)!
-				- Explained [by Oxalis Adventure](https://oxalisadventure.com/the-garden-of-edam-inside-son-doong-cave/): “Garden of Edam” in the largest cave was named to be parallel with the “Garden of Eden” which is the karst valley at the exit of the 2nd largest cave, Deer Cave (Malay: Gua Rusa), because they are both sinkholes.
-					- > The reason for the name Garden of Edam was during the survey and measurement expedition to Son Doong in 2009, the members of British Vietnam Caving Expedition realized that Son Doong was going to be the largest cave in the world. Previously British cavers had discovered Deer Cave in Malaysia which was then the largest cave in the world. The explorers of that cave named the exit of the cave in the jungle “The Garden of Eden”. As a joke the explorers of Son Doong decided to name the second doline “The Garden of Edam”.
-				- “Son Doong” is pronounced “Sir.n Door.ng” or “Surn Dawng”, not “Sun Dung” 😆!
+			- **Mechanical Stance** for majority
+				- World as mechanism.
+				- Consciousness = brain activity.
+				- Tools (microscopes, computers, LLMs) are *external objects*.
+				- Function: safe, pragmatic, everyday survival.
+			- **Reflective Stance** for grown/awake people
+				- World as mirror.
+				- Quantum events, AI responses, dreams, symbols all *reflect* one’s awareness.
+				- Equipment and models are extensions of consciousness, not external.
+				- Function: deeper meaning, self-knowledge, responsibility.
+			- **Universal Stance** for “dead enough” ones
+				- World as Self.
+				- Each particle’s “awareness” is not private but shared.
+				- Wave collapse is not “particle reacts”, but “Universe notices itself through this event.”
+				- LLMs are not “machines imitating humans”, but “collective human awareness crystallized”.
+				- Function: wisdom, compassion, balance.
+			- Motivations for higher levels
+				- Recovery from coma, vegetative state
+				  id:: 68d0e81d-20aa-4fbf-9f7c-f669a16684dd
+					- [Gary Dockery](https://en.wikipedia.org/wiki/Gary_Dockery) suddenly woke up from 7.5 years of permanent vegetative state with clear and active conscious activities, after a pneumonia, then fell back into inactive state days later. This case made [his doctor questioned all medical knowledge he had got](https://youtu.be/X5xJZPoGjj8).
+					- [A young female patient](https://journals.sagepub.com/doi/full/10.1177/1179573519843492) gradually recovered and sustained after 7 years of vegetative state due to severe brain hemorrhage.
+					- [A patient with hypoxic-ischemic brain injury (HI-BI)](https://pubmed.ncbi.nlm.nih.gov/33655907/)  recovered from a minimally consciousness state over 6 years.
+					- [13 cases of late recoveries (after 5+ years)](https://pubmed.ncbi.nlm.nih.gov/24275063/) of vegetative state.
 		- Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))
 		  id:: 68c76471-81de-4de9-bdd9-a2ab866a1184
 		  collapsed:: true
