@@ -4209,7 +4209,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 18-19th, wrote [FABRIK demo](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))) ...
 			- 22nd, ...
 			  collapsed:: true
-				- “Even the word for misunderstanding is misunderstood — thus Avidyā reveals itself.”
+				- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 					- Discussing with ChatGPT about the ambiguity of the word “iteration/repetition” (either the action/process or one instance of repeating),
 					- → i recalled that, not limited to the surface like language, deep to the core, _all conflicts and problems of human are rooted in **misunderstanding**_, whose deepest one is called “ignorance”!
 					- → But “ignorance” here can be easily misunderstood as “stupid, lack of knowledge, uneducated”, which is not what [Avidyā](https://en.wikipedia.org/wiki/Avidy%C4%81_(Buddhism)) means in Buddhism!
