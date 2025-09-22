@@ -4233,9 +4233,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  thiếu đèn, thiếu sáng, thiếu chen ánh vàng.
 						  Nào hay vẫn đủ ngập tràn,
 						  mà trong hiểu lạc với ngàn vọng tâm.
-						- Hiểu sai như khói hạt mầm,
-						  đuổi hoài chẳng hết, lại lầm bước đi.
-						  Vô Minh lẩn khuất khôn bì,
+						- Chút sai gieo rắc hạt mầm,
+						  nở ra muôn vạn hiểu lầm thế nhân.
+						  Vô Minh lắt léo vô ngần,
 						  cười trong chữ nghĩa, chẳng ai thấy tường.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
