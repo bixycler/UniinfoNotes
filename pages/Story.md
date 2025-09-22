@@ -4218,6 +4218,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Gethin calls Avidyā as “positive **misconception**”, not mere absence of knowledge.
 						- Alex Wayman states that “ignorance” this is a mistranslation of Avidyā. He suggests the term “**unwisdom**” to be a better rendition, and also explains it with: obscuration, misconceptions, incorrect knowledge, mistaking illusion to be reality or impermanent to be permanent or suffering to be bliss or non-self to be self (delusions).
 						- Some Tibetan translations call Avidyā the “fundamental **confusion**”.
+					- Avidyā’s Mirror
+						- They call it “ignorance”,
+						  as if the mind were merely blank.
+						  But the veil is woven not of absence,
+						  rather of threads that misweave the Real.
+						- Thus even the name misleads:
+						  the word meant for misunderstanding
+						  is itself misunderstood.
+						  Avidyā laughs in mirrors of language,
+						  hiding in the echo of its own mistranslation.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
