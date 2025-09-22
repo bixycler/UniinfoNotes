@@ -4209,12 +4209,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 18-19th, wrote [FABRIK demo](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))) ...
 			- 22nd, ...
 			  collapsed:: true
-				- “Even the word for misunderstanding is misunderstood — thus avidyā reveals itself.”
+				- “Even the word for misunderstanding is misunderstood — thus Avidyā reveals itself.”
 					- Discussing with ChatGPT about the ambiguity of the word “iteration/repetition” (either the action/process or one instance of repeating),
 					- → i recalled that, not limited to the surface like language, deep to the core, _all conflicts and problems of human are rooted in **misunderstanding**_, whose deepest one is called “ignorance”!
-					- → But “ignorance” here can be easily misunderstood as “stupid, lack of knowledge, uneducated”, which is not what [avidyā](https://en.wikipedia.org/wiki/Avidy%C4%81_(Buddhism)) means in Buddhism!
-					- → So, the term “ignorance” has then been clearified by various authors:
-						-
+					- → But “ignorance” here can be easily misunderstood as “stupid, lack of knowledge, uneducated”, which is not what [Avidyā](https://en.wikipedia.org/wiki/Avidy%C4%81_(Buddhism)) means in Buddhism!
+					- → So, the term “ignorance” itself has then been clarified by various authors:
+						- _Avidya is not lack of information_, states Peter Harvey, but a "more deep seated **misperception** of reality".
+						- Gethin calls Avidya as “positive **misconception**”, not mere absence of knowledge.
+						- Alex Wayman states that “ignorance” this is a mistranslation of Avidyā. He suggests the term “**unwisdom**” to be a better rendition, and also explains it with: obscuration, misconceptions, incorrect knowledge, mistaking illusion to be reality or impermanent to be permanent or suffering to be bliss or non-self to be self (delusions).
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
