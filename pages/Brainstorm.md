@@ -34,6 +34,17 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
+		- 🪜 Ladder of Awareness Stances
+		  id:: 68d0e81d-c8d2-4a97-a847-a3d5d191085b
+		  collapsed:: true
+			- (ChatGPT: vegetative state awareness)
+			- Garden of Edam in the middle of Sơn Đoòng Cave 
+			  collapsed:: true
+				- [Google Art & Culture](https://artsandculture.google.com/asset/garden-of-edam-national-geographic-google-arts-culture/jwGeKUomuZcaXw?avm=4)
+				- “Edam” may be “Eden's Adam”, a mixture of “Eden + Eve + Adam”, or even the Dutch [edam cheese](https://en.wikipedia.org/wiki/Edam_cheese)!
+				- Explained [by Oxalis Adventure](https://oxalisadventure.com/the-garden-of-edam-inside-son-doong-cave/): “Garden of Edam” in the largest cave was named to be parallel with the “Garden of Eden” which is the karst valley at the exit of the 2nd largest cave, Deer Cave (Malay: Gua Rusa), because they are both sinkholes.
+					- > The reason for the name Garden of Edam was during the survey and measurement expedition to Son Doong in 2009, the members of British Vietnam Caving Expedition realized that Son Doong was going to be the largest cave in the world. Previously British cavers had discovered Deer Cave in Malaysia which was then the largest cave in the world. The explorers of that cave named the exit of the cave in the jungle “The Garden of Eden”. As a joke the explorers of Son Doong decided to name the second doline “The Garden of Edam”.
+				- “Son Doong” is pronounced “Sir.n Door.ng” or “Surn Dawng”, not “Sun Dung” 😆!
 		- Effect circle on the [articulated limb](((6846c7e1-239c-4b39-9ef4-9d2eaba17a52)))
 		  id:: 68c76471-81de-4de9-bdd9-a2ab866a1184
 		  collapsed:: true

@@ -4207,43 +4207,55 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- While nearly all the working time was spent for meditation against my sinus inflammation, i still squeezed some work contemplation in between.
 			- 16-17th, did the official works, but the inflammation spread down the larynx, then eventually it sprang back to the [contemplation about uninet](((68ccaf71-1811-4929-8e74-976bdcd65829))).
 			- 18-19th, wrote [FABRIK demo](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))) ...
+			- 20-21st, ...
+			  collapsed:: true
+				- Recovery from coma, vegetative state
+				  collapsed:: true
+					- [Gary Dockery](https://en.wikipedia.org/wiki/Gary_Dockery) suddenly woke up from 7.5 years of permanent vegetative state with clear and active conscious activities, after a pneumonia, then fell back into inactive state days later. This case made [his doctor questioned all medical knowledge he had got](https://youtu.be/X5xJZPoGjj8).
+					- [A young female patient](https://journals.sagepub.com/doi/full/10.1177/1179573519843492) gradually recovered and sustained after 7 years of vegetative state due to severe brain hemorrhage.
+					- [A patient with hypoxic-ischemic brain injury (HI-BI)](https://pubmed.ncbi.nlm.nih.gov/33655907/)  recovered from a minimally consciousness state over 6 years.
+					- [13 cases of late recoveries (after 5+ years)](https://pubmed.ncbi.nlm.nih.gov/24275063/) of vegetative state.
+				- ((68d0e81d-c8d2-4a97-a847-a3d5d191085b))
 			- 22nd, ...
 			  collapsed:: true
-				- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
-					- Discussing with ChatGPT about the ambiguity of the word “iteration/repetition” (either the action/process or one instance of repeating),
-					- → i recalled that, not limited to the surface like language, deep to the core, _all conflicts and problems of human are rooted in **misunderstanding**_, whose deepest one is called “ignorance”!
-					- → But “ignorance” here can be easily misunderstood as “stupid, lack of knowledge, uneducated”, which is not what [Avidyā](https://en.wikipedia.org/wiki/Avidy%C4%81_(Buddhism)) means in Buddhism!
-					- → So, the term “ignorance” itself has then been clarified by various authors:
-						- _Avidya is not lack of information_, states Peter Harvey, but a "more deep seated **misperception** of reality".
-						- Gethin calls Avidyā as “positive **misconception**”, not mere absence of knowledge.
-						- Alex Wayman states that “ignorance” this is a mistranslation of Avidyā. He suggests the term “**unwisdom**” to be a better rendition, and also explains it with: obscuration, misconceptions, incorrect knowledge, mistaking illusion to be reality or impermanent to be permanent or suffering to be bliss or non-self to be self (delusions).
-						- Some Tibetan translations call Avidyā the “fundamental **confusion**”.
-					- Avidyā’s Mirror
-						- They call it “ignorance”,
-						  as if the mind were merely blank.
-						  But the veil is woven not of absence,
-						  rather of threads that misweave the Real.
-						- Thus even the name misleads:
-						  the word meant for misunderstanding
-						  is itself misunderstood.
-						  Avidyā laughs in mirrors of language,
-						  hiding in the echo of its own mistranslation!
-					- Vô Minh Tự
-						- Vô Minh ngỡ phải tối đen,
-						  thiếu đèn, thiếu sáng, thiếu chen ánh vàng.
-						  Nào hay vẫn đủ ngập tràn,
-						  mà trong hiểu lạc với ngàn vọng tâm.
-						- Chút sai gieo rắc hạt mầm,
-						  nở ra muôn vạn hiểu lầm thế nhân.
-						  Vô Minh lắt léo vô ngần,
-						  cười ngay chữ “hiểu” 🤣 – chẳng cần giấu ai!
-						- Đối tả:
-							- Thông Minh lỗi lạc, càng đi càng lạc!
-							- Vô Minh đối chữ, chẳng hiểu mà minh!
-						- Đối hữu:
-							- Hiểu Sai lắt léo, càng chữa càng sai!
-							- Không Biết buông tay, tự nhiên sáng tỏ!
-						- About “Tự”: pagoda, self, word, etc.
+				- ((68d0c5f5-00d3-44aa-b35a-17d67ea773f6))
+		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
+		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
+		  collapsed:: true
+			- Discussing with ChatGPT about the ambiguity of the word “iteration/repetition” (either the action/process or one instance of repeating),
+			- → i recalled that, not limited to the surface like language, deep to the core, _all conflicts and problems of human are rooted in **misunderstanding**_, whose deepest one is called “ignorance”!
+			- → But “ignorance” here can be easily misunderstood as “stupid, lack of knowledge, uneducated”, which is not what [Avidyā](https://en.wikipedia.org/wiki/Avidy%C4%81_(Buddhism)) means in Buddhism!
+			- → So, the term “ignorance” itself has then been clarified by various authors:
+				- _Avidya is not lack of information_, states Peter Harvey, but a "more deep seated **misperception** of reality".
+				- Gethin calls Avidyā as “positive **misconception**”, not mere absence of knowledge.
+				- Alex Wayman states that “ignorance” this is a mistranslation of Avidyā. He suggests the term “**unwisdom**” to be a better rendition, and also explains it with: obscuration, misconceptions, incorrect knowledge, mistaking illusion to be reality or impermanent to be permanent or suffering to be bliss or non-self to be self (delusions).
+				- Some Tibetan translations call Avidyā the “fundamental **confusion**”.
+			- Avidyā’s Mirror
+				- They call it “ignorance”,
+				  as if the mind were merely blank.
+				  But the veil is woven not of absence,
+				  rather of threads that misweave the Real.
+				- Thus even the name misleads:
+				  the word meant for misunderstanding
+				  is itself misunderstood.
+				  Avidyā laughs in mirrors of language,
+				  hiding in the echo of its own mistranslation!
+			- Vô Minh Tự
+				- Vô Minh ngỡ phải tối đen,
+				  thiếu đèn, thiếu sáng, thiếu chen ánh vàng.
+				  Nào hay vẫn đủ ngập tràn,
+				  mà trong hiểu lạc với ngàn vọng tâm.
+				- Chút sai gieo rắc hạt mầm,
+				  nở ra muôn vạn hiểu lầm thế nhân.
+				  Vô Minh lắt léo vô ngần,
+				  cười ngay chữ “hiểu” 🤣 – chẳng cần giấu ai!
+				- Đối tả:
+					- Thông Minh lỗi lạc, càng đi càng lạc!
+					- Vô Minh đối chữ, chẳng hiểu mà minh!
+				- Đối hữu:
+					- Hiểu Sai lắt léo, càng chữa càng sai!
+					- Không Biết buông tay, tự nhiên sáng tỏ!
+				- About “Tự”: pagoda, self, word, etc.
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
