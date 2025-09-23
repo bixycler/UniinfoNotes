@@ -4222,9 +4222,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- “Son Doong” is pronounced “Sir.n Door.ng” or “Surn Dawng”, not “Sun Dung” 😆!
 				- ((68d0e81d-c8d2-4a97-a847-a3d5d191085b))
 					- ((68d0e81d-20aa-4fbf-9f7c-f669a16684dd))
-			- 22nd, ...
+			- 22nd, complete the [FABRIK demo](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))) in Two.js.
 			  collapsed:: true
 				- ((68d0c5f5-00d3-44aa-b35a-17d67ea773f6))
+			- 23rd, ...
+			  collapsed:: true
+				-
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
 		  collapsed:: true
