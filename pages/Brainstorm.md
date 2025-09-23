@@ -78,6 +78,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Thermodynamics: dissipative structures, self-organizing far from equilibrium.
 			- The reactive can be further refined to [reaction to the trigger → reaction without target](((68ccaf71-1811-4929-8e74-976bdcd65829))).
 			- This is related to the [cấp độ của các con số]()
+				- ((67b541c9-56f8-40dc-ab10-e83a7d50ce1d))
 		- 🪜 Ladder of Awareness Stances
 		  id:: 68d0e81d-c8d2-4a97-a847-a3d5d191085b
 		  collapsed:: true
