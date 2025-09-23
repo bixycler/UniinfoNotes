@@ -40,7 +40,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-09-23 Tue 09:44:50]
 		  :END:
-			- This scale of passiveness/activeness is also of input/output.
+			- This scale of passiveness/activeness is also of input/output, absorption/emission.
 			- Open Passive
 			  logseq.order-list-type:: number
 				- Nature: fully other-determined.
@@ -76,7 +76,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- CS analogy: **AGI** like **uninet**, self-sustaining cognition, generating goals and activity without needing prompts.
 				- Physics: a pendulum clock escapement, Bénard convection cells, Belousov–Zhabotinsky oscillations, living organisms.
 				- Thermodynamics: dissipative structures, self-organizing far from equilibrium.
-			- ((68ccaf71-1811-4929-8e74-976bdcd65829))
+			- The reactive can be further refined to [reaction to the trigger → reaction without target](((68ccaf71-1811-4929-8e74-976bdcd65829))).
+			- This is related to the [cấp độ của các con số]()
 		- 🪜 Ladder of Awareness Stances
 		  id:: 68d0e81d-c8d2-4a97-a847-a3d5d191085b
 		  collapsed:: true
