@@ -4257,7 +4257,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Chút sai gieo rắc hạt mầm,
 				  nở ra muôn vạn hiểu lầm thế nhân.
 				  Vô Minh lắt léo vô ngần,
-				  cười ngay chữ “hiểu” 🤣 – chẳng cần giấu ai!
+				  cười ngay chữ “hiểu” 🤣 – nửa phân chẳng màng!
 				- Đối tả:
 					- Thông Minh lỗi lạc, càng đi càng lạc!
 					- Vô Minh đối chữ, chẳng hiểu mà minh!
