@@ -43,6 +43,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- This scale of passiveness/activeness is also of input/output.
 			- Open Passive
 			  logseq.order-list-type:: number
+				- Physics: Light body, no inertia, pushed by slightest force.
+				- Thermodynamics: Fully absorptive, max input, no output.
+				- I/O: Pure input, no agency.
+				- CS Analogy: **Struct** — holds data, shaped entirely by environment.
 			- Closed Passive
 			  logseq.order-list-type:: number
 			- Reactive
