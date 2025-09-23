@@ -40,7 +40,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  :LOGBOOK:
 		  CLOCK: [2025-09-23 Tue 09:44:50]
 		  :END:
-			- This scale of passiveness/activeness is also of input/output, absorption/emission.
+			- This scale of passiveness/activeness is also of object/subject, input/output, absorption/emission.
 			- Open Passive
 			  logseq.order-list-type:: number
 				- Nature: fully other-determined.
@@ -82,7 +82,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Physics: a pendulum clock escapement, Bénard convection cells, Belousov–Zhabotinsky oscillations, living organisms.
 				- Thermodynamics: dissipative structures, self-organizing far from equilibrium.
 			- The reactive can be further refined to [reaction to the trigger → reaction without target](((68ccaf71-1811-4929-8e74-976bdcd65829))).
-			- This is related to the [cấp độ của các con số](https://creatzynotes.blogspot.com/2023/06/cac-tang-y-nghia-cua-con-so.html)
+			- This is related to the levels of number: [Các tầng Ý nghĩa của các con Số](https://creatzynotes.blogspot.com/2023/06/cac-tang-y-nghia-cua-con-so.html)
 				- ((67b541c9-56f8-40dc-ab10-e83a7d50ce1d))
 		- 🪜 Ladder of Awareness Stances
 		  id:: 68d0e81d-c8d2-4a97-a847-a3d5d191085b
