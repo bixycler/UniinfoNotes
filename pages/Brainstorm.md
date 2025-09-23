@@ -43,18 +43,25 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- This scale of passiveness/activeness is also of input/output.
 			- Open Passive
 			  logseq.order-list-type:: number
-				- Physics: Light body, no inertia, pushed by slightest force.
-				- Thermodynamics: Fully absorptive, max input, no output.
-				- I/O: Pure input, no agency.
-				- CS Analogy: **Struct** — holds data, shaped entirely by environment.
+				- Physics: a feather in the wind, a puff of smoke in open air.
+				- Thermodynamics: open system with free exchange, absorbs everything, no stored energy.
+				- I/O: pure input, no output of its own.
+				- CS analogy: **struct**, a bare container for data.
 			- Closed Passive
 			  logseq.order-list-type:: number
+				- Physics: a heavy wheel resisting push but rolling far once moved.
+				- Thermodynamics: nearly isolated system, energy locked inside (like ice with latent heat).
+				- I/O: little input or output, autonomy latent in inertia.
+				- CS analogy: **object**, encapsulated state, not moved directly.
 			- Reactive
 			  logseq.order-list-type:: number
+				-
 			- Directed Active
 			  logseq.order-list-type:: number
+				-
 			- Spontaneously Active
 			  logseq.order-list-type:: number
+				-
 			- ((68ccaf71-1811-4929-8e74-976bdcd65829))
 		- 🪜 Ladder of Awareness Stances
 		  id:: 68d0e81d-c8d2-4a97-a847-a3d5d191085b
