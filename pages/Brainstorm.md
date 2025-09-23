@@ -45,7 +45,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  logseq.order-list-type:: number
 				- Nature: fully other-determined.
 				- I/O: pure input, no output of its own.
-				- Metabolism: *None*. Input is stored and handled .
+				- Metabolism: *None*. Input is stored and handled solely by external agents.
 				- CS analogy: **struct**, a bare container for data.
 				- Physics: a feather in the wind, a puff of smoke in open air.
 				- Thermodynamics: open system with free exchange, absorbs everything, no stored energy.
@@ -53,7 +53,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			  logseq.order-list-type:: number
 				- Nature: resists others, hint of autonomy.
 				- I/O: little input or output, autonomy latent in inertia.
-				- Metabolism: *Simple intake*. Absorbs and passes input through without deep internal change.
+				- Metabolism: *Simple intake*. Stores input but doesn't transform.
 				- CS analogy: **object**, encapsulated state, not moved directly.
 				- Physics: a heavy wheel resisting push but rolling far once moved.
 				- Thermodynamics: nearly isolated system, energy locked inside (like ice with latent heat).
