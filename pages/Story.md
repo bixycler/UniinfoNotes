@@ -4264,7 +4264,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Đối hữu:
 					- Hiểu Sai lắt léo, càng chữa càng sai!
 					- Không Biết buông tay, tự nhiên sáng tỏ!
-				- About “Tự”: pagoda (寺), self (自), word (字), etc.
+				- Multiple-meaning words
+					- “Tự”: pagoda (寺), self (自), word (字), etc.
+					- “vọng tâm”: deluded & restless mind (妄心), echoes of the mind (tiếng vọng trong tâm)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
