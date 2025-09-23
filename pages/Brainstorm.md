@@ -43,25 +43,39 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 			- This scale of passiveness/activeness is also of input/output.
 			- Open Passive
 			  logseq.order-list-type:: number
-				- Physics: a feather in the wind, a puff of smoke in open air.
-				- Thermodynamics: open system with free exchange, absorbs everything, no stored energy.
+				- Nature: fully other-determined.
 				- I/O: pure input, no output of its own.
 				- CS analogy: **struct**, a bare container for data.
+				- Physics: a feather in the wind, a puff of smoke in open air.
+				- Thermodynamics: open system with free exchange, absorbs everything, no stored energy.
 			- Closed Passive
 			  logseq.order-list-type:: number
-				- Physics: a heavy wheel resisting push but rolling far once moved.
-				- Thermodynamics: nearly isolated system, energy locked inside (like ice with latent heat).
+				- Nature: resists others, hint of autonomy.
 				- I/O: little input or output, autonomy latent in inertia.
 				- CS analogy: **object**, encapsulated state, not moved directly.
+				- Physics: a heavy wheel resisting push but rolling far once moved.
+				- Thermodynamics: nearly isolated system, energy locked inside (like ice with latent heat).
 			- Reactive
 			  logseq.order-list-type:: number
-				-
+				- Nature: relational, but law-bound.
+				- I/O: output determined directly by input, systematic but not self-driven.
+				- CS analogy: **function** & [reactive programming](https://en.wikipedia.org/wiki/Reactive_programming), maps input to output.
+				- Physics: a spring boucing back when compressed ($F = k⋅x$), a mirror reflecting light.
+				- Thermodynamics: thermostat adjusting to ambient changes, balancing input and output.
 			- Directed Active
 			  logseq.order-list-type:: number
-				-
+				- Nature: goal-driven autonomy.
+				- I/O: internally fueled, produces goal-directed output.
+				- CS analogy: **AI** like **LLM**, trained/fueled on vast data, generating answers when prompted.
+				- Physics: a rocket burning fuel, an engine driving a car.
+				- Thermodynamics: Carnot engine using fuel to do work, exporting entropy.
 			- Spontaneously Active
 			  logseq.order-list-type:: number
-				-
+				- Nature: self-arising autonomy.
+				- I/O: continuous output from internal dynamics, input only sustains it in the background.
+				- CS analogy: **AGI** like **uninet**, self-sustaining cognition, generating goals and activity without needing prompts.
+				- Physics: a pendulum clock escapement, Bénard convection cells, Belousov–Zhabotinsky oscillations, living organisms.
+				- Thermodynamics: dissipative structures, self-organizing far from equilibrium.
 			- ((68ccaf71-1811-4929-8e74-976bdcd65829))
 		- 🪜 Ladder of Awareness Stances
 		  id:: 68d0e81d-c8d2-4a97-a847-a3d5d191085b
