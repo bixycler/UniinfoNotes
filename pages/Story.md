@@ -4227,7 +4227,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- ((68d0c5f5-00d3-44aa-b35a-17d67ea773f6))
 			- 23rd, ...
 			  collapsed:: true
-				-
+				- ((68d209a0-3386-46b0-a8f2-beb94d271916))
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
 		  collapsed:: true

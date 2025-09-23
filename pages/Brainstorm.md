@@ -34,10 +34,24 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
-		- Spectrum of pa
+		- 🌈 The spectrum of agency from passive to active
+		  id:: 68d209a0-3386-46b0-a8f2-beb94d271916
+		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-09-23 Tue 09:44:50]
 		  :END:
+			- This scale of passiveness/activeness is also of input/output.
+			- Open Passive
+			  logseq.order-list-type:: number
+			- Closed Passive
+			  logseq.order-list-type:: number
+			- Reactive
+			  logseq.order-list-type:: number
+			- Directed Active
+			  logseq.order-list-type:: number
+			- Spontaneously Active
+			  logseq.order-list-type:: number
+			- ((68ccaf71-1811-4929-8e74-976bdcd65829))
 		- 🪜 Ladder of Awareness Stances
 		  id:: 68d0e81d-c8d2-4a97-a847-a3d5d191085b
 		  collapsed:: true
