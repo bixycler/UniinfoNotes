@@ -7,7 +7,9 @@
   <body>
     <textarea id="plaintext" style="width: 50em; height: 100%;"></textarea>
     <script>
-      plaintext.value += chats[0].prompt;
+      for(chat of chats){
+        plaintext.value += `- ${chat.prompt}\n\t- ${chat.response}\n`;
+      }
     </script>
   </body>
 </html>
