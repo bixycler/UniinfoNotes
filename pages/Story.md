@@ -4232,11 +4232,27 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Evening: ((68d35037-a651-4118-b91a-7b17a8f1f8ba))
 			- 24th, ...
 			  collapsed:: true
-				- Solid D3 for reactive graphical HTML
+				- **Solid D3** for reactive graphical HTML
+				  collapsed:: true
 					- [Solid.js](https://www.solidjs.com/) for fine-grained DOM data binding (no Virtual DOM)
+						- React does batch rendering into Virtual DOM;
+						- Vue has fine-grained state tracking, but DOM updates still flow through Virtual DOM diffing.
+						-
 					- [D3.js](https://d3js.org/) for graphic math engine: scales, layouts, path generators, force simulations, …
 					- Latest Node.js with [NodeSource](https://deb.nodesource.com/)
-						- The Ubuntu-bundled `nodejs`
+					  collapsed:: true
+						- Because the Ubuntu-bundled `nodejs` lags so much, we use this site to set up `apt` repo for the latest `nodejs`.
+						- Download [nodesource-setup_22.x.sh](../assets/Will/story/2025-09/nodesource-setup_22.x.sh)
+						  id:: 68d3cc66-d9a5-44e3-b753-63aac43b40ef
+						  ```sh
+						  sudo bash nodesource-setup_22.x.sh
+						  ```
+						  ⇒ repo: /etc/apt/sources.list.d/nodesource.list
+						  ```
+						  deb [arch=amd64 signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_22.x nodistro main
+						  ```
+						- Then just do the normal `sudo apt install nodejs`
+					-
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
 		  collapsed:: true
