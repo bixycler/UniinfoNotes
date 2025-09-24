@@ -4253,7 +4253,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  deb [arch=amd64 signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_22.x nodistro main
 						  ```
 						- Then just do the normal `sudo apt install nodejs`
-					- [Vite](https://vite.dev/) for quick development
+					- [Vite](https://vite.dev/) for quick deployment
 						- It has [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement) to automatically refresh the browser with changes in code.
 						- It provides a build command that bundles code with [Rollup](https://rollupjs.org/), pre-configured to output highly optimized static assets for production.
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
