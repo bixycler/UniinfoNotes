@@ -4232,7 +4232,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Evening: ((68d35037-a651-4118-b91a-7b17a8f1f8ba))
 			- 24th, ...
 			  collapsed:: true
-				-
+				- Solid D3 for reactive graphical HTML
+					- [Solid.js](https://www.solidjs.com/) for fine-grained DOM data binding (no Virtual DOM)
+					- [D3.js](https://d3js.org/) for graphic math engine: scales, layouts, path generators, force simulations, …
+					- Latest Node.js with [NodeSource](https://deb.nodesource.com/)
+						- The Ubuntu-bundled `nodejs`
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
 		  collapsed:: true
