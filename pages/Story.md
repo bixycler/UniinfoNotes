@@ -4225,10 +4225,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 22nd, complete the [FABRIK demo](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))) in Two.js.
 			  collapsed:: true
 				- ((68d0c5f5-00d3-44aa-b35a-17d67ea773f6))
-			- 23rd, ...
+			- 23rd, sandwiched official work & meeting with personal works.
 			  collapsed:: true
-				- ((68d209a0-3386-46b0-a8f2-beb94d271916))
-				- ((68d35037-a651-4118-b91a-7b17a8f1f8ba))
+				- Morning: ((68d209a0-3386-46b0-a8f2-beb94d271916))
+				- Afternoon: official work & meeting
+				- Evening: ((68d35037-a651-4118-b91a-7b17a8f1f8ba))
+			- 24th, ...
+			  collapsed:: true
+				-
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
 		  collapsed:: true
@@ -4281,7 +4285,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 		  :LOGBOOK:
 		  CLOCK: [2025-09-24 Wed 08:58:17]
 		  :END:
-			- Export from AnythingLLM: [Ignorance-Gemini-chats-9_24_2025.js](../assets/Will/story/2025-09/Ignorance-Gemini-chats-9_24_2025.js)
+		  Export from AnythingLLM: [Ignorance-Gemini-chats-9_24_2025.js](../assets/Will/story/2025-09/Ignorance-Gemini-chats-9_24_2025.js)
 			- Vô Minh Tự
 			  collapsed:: true
 			  
