@@ -4234,7 +4234,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- **Solid D3** for reactive graphical HTML
 				  collapsed:: true
-					- [Solid.js](https://www.solidjs.com/) for fine-grained DOM data binding with signal and effect (no Virtual DOM)
+					- [SolidJS](https://www.solidjs.com/) for fine-grained DOM data binding with signal and effect (no Virtual DOM)
 						- **React** does **batch rendering** into Virtual DOM;
 						- **Vue** has **fine-grained state tracking**, but DOM updates still flow through Virtual DOM diffing.
 						- **Svelte** **compiles reactivity** at build time, so no Virtual DOM, but not fully fine-grained in runtime subscriptions. Instead, it regenerates chunks of DOM.
