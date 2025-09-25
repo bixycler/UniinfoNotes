@@ -4238,7 +4238,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- **React** does **batch rendering** into Virtual DOM;
 						- **Vue** has **fine-grained state tracking**, but DOM updates still flow through Virtual DOM diffing.
 						- **Svelte** **compiles reactivity** at build time, so no Virtual DOM, but not fully fine-grained in runtime subscriptions. Instead, it regenerates chunks of DOM.
-					- [D3.js](https://d3js.org/) for graphic math engine: scales, layouts, path generators, force simulations, …
+					- [D3.js](https://d3js.org/) for graphic math engine: transitions, scales, layouts, path generators, force simulations, …
 						- *Don't use its data binding* because it renders in batch.
 					- Latest Node.js with [NodeSource](https://deb.nodesource.com/)
 					  collapsed:: true
