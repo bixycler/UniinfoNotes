@@ -4256,8 +4256,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Vite](https://vite.dev/) for quick deployment
 						- It has [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement) to automatically refresh the browser with changes in code.
 						- It provides a build command that bundles code with [Rollup](https://rollupjs.org/), pre-configured to output highly optimized static assets for production.
-					- Vite Motion *Solid* D3 – The framework for *solid data-driven documents* enriched with quick motion
-					-
+					- **Vite Motion *Solid* D3** – The framework for *solid data-driven documents* enriched with quick motion
+						- Welcome page
+							- Screenshot
+							  collapsed:: true
+								- ![SCIFER in ViteMotionSolidD3Demo 2025-09-26.png](../assets/Will/story/2025-09/SCIFER in ViteMotionSolidD3Demo 2025-09-26.png)
 				- The tricky space handling in HTML, hence in JSX!
 				  collapsed:: true
 					- Rule of thumb: No spaces after opening tag and before closing tag.
