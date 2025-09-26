@@ -4230,7 +4230,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Morning: ((68d209a0-3386-46b0-a8f2-beb94d271916))
 				- Afternoon: official work & meeting
 				- Evening: ((68d35037-a651-4118-b91a-7b17a8f1f8ba))
-			- 24th, ...
+			- 24-26th, ...
 			  collapsed:: true
 				- **Solid D3** for reactive graphical HTML
 				  collapsed:: true
@@ -4256,6 +4256,27 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Vite](https://vite.dev/) for quick deployment
 						- It has [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement) to automatically refresh the browser with changes in code.
 						- It provides a build command that bundles code with [Rollup](https://rollupjs.org/), pre-configured to output highly optimized static assets for production.
+				- The tricky space handling in HTML, hence in JSX!
+					- Rule of thumb: No spaces after open tag and before close tag.
+					- This is OK
+					  ```tsx
+					  <For each={ticks()}>
+					    {(t,i) => (
+					      <line x1={t} x2={t} y1={height - offset} y2={height} stroke="White" />
+					    )}
+					  </For>
+					  ```
+					- But this is NG!
+					  ```tsx
+					  <For each={ticks()}> {(t,i) => (
+					      <line x1={t} x2={t} y1={height - offset} y2={height} stroke="White" />
+					  )}</For>
+					  ```
+						- Correction:
+						  ```diff
+						  - <For each={ticks()}> {(t,i) => (
+						  + <For each={ticks()}>{(t,i) => (
+						  ```
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
 		  collapsed:: true
