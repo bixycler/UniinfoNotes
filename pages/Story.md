@@ -4279,6 +4279,14 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  + <For each={ticks()}>{(t,i) => (
 						  ```
 					- Manual space: `{' '}`, `{'\n'}`, `{'\t'}`,
+				- The tricky `ref` prop in SolidJS receive an L-value (reference), not an R-value (normal value of the variable).
+					- This syntax is counter-intuitive:
+					  ```tsx
+					  let myButt;
+					  <button ref={myButt} ...></button>
+					  myButt.click()
+					  ```
+					- It should be `ref={&myButt}`
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
 		  collapsed:: true
