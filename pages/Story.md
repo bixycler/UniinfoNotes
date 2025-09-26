@@ -4280,13 +4280,20 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  ```
 					- Manual space: `{' '}`, `{'\n'}`, `{'\t'}`,
 				- The tricky `ref` prop in SolidJS receive an L-value (reference), not an R-value (normal value of the variable).
+				  collapsed:: true
 					- This syntax is counter-intuitive:
-					  ```tsx
+					  ```jsx
 					  let myButt;
 					  <button ref={myButt} ...></button>
 					  myButt.click()
 					  ```
-					- It should be `ref={&myButt}`
+					- It should be `ref={&myButt}` like in Rust.
+					- But in JSX, it can be verbosely written in function like this:
+					  ```jsx
+					  let myButt;
+					  <button ref={el => (myButt = el)} ...></button>
+					  myButt.click()
+					  ```
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
 		  collapsed:: true
