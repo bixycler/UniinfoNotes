@@ -4256,6 +4256,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- [Vite](https://vite.dev/) for quick deployment
 						- It has [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement) to automatically refresh the browser with changes in code.
 						- It provides a build command that bundles code with [Rollup](https://rollupjs.org/), pre-configured to output highly optimized static assets for production.
+					- Vite Motion *Solid* D3 – The framework for *solid data-driven documents* enriched with quick motion
+					-
 				- The tricky space handling in HTML, hence in JSX!
 				  collapsed:: true
 					- Rule of thumb: No spaces after opening tag and before closing tag.
@@ -4294,6 +4296,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  <button ref={el => (myButt = el)} ...></button>
 					  myButt.click()
 					  ```
+				-
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
 		  collapsed:: true
