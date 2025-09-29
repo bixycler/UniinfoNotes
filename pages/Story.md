@@ -4272,6 +4272,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- `p.count()*1e-5` is the change in another dimension!
 							- Changed from `<For>` to `<Index>` for moving ticks.
 						- Circular *Pure* Effect Flow:
+						  collapsed:: true
 							- ```tsx
 							  const [init, setInit] = createSignal(true);
 							  
@@ -4301,9 +4302,26 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  Uncaught Error: Potential Infinite Loop Detected.
 							  ```
 							- Why the ratio 3 = 10e5 / 333333 ? 🤔
+							- Stack trace:
+								- `setInit(false);`
+								- `setter`
+								- `writeSignal`
+								- `runUpdates`
+								- `completeUpdates`
+								- `runQueue`
+								- `runTop`
+								- `updateComputation`
+								- `runComputation`
+								- `writeSignal`
+								- `runUpdates`
+								- `throw new Error("Potential Infinite Loop Detected.");`
 						- Circular *Side* Effect Flow: stack overflow!
 						  collapsed:: true
-							- ```tsx
+							- Self dependency
+							  ```tsx
+							  ```
+							- Mutual deps
+							  ```tsx
 							  const [a, setA] = createSignal(0);
 							  const [b, setB] = createSignal(0);
 							  const aEffect = createEffect(() => { setA(()=> b()+1)
