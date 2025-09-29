@@ -4317,6 +4317,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- `throw new Error("Potential Infinite Loop Detected.");`
 						- Circular *Side* Effect Flow: stack overflow!
 						  collapsed:: true
+							- Stack
+								- `completeUpdates`()
+								-
 							- Self dependency
 							  ```tsx
 							  const [a, setA] = createSignal(0);
