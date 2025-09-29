@@ -4261,6 +4261,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- It has [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement) to automatically refresh the browser with changes in code.
 						- It provides a build command that bundles code with [Rollup](https://rollupjs.org/), pre-configured to output highly optimized static assets for production.
 					- **Vite Motion *Solid* D3** – The framework for *solid data-driven documents* enriched with quick motion
+					  collapsed:: true
 						- Welcome page
 						  collapsed:: true
 							- Screenshot
@@ -4270,18 +4271,53 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- `p.count()%1` has no effect, because the value doesn't change.
 								- `p.count()*1e-5` is the change in another dimension!
 							- Changed from `<For>` to `<Index>` for moving ticks.
-						- Effect flow
-							- Effect circle...
+						- Circular *Pure* Effect Flow:
+							- ```tsx
+							  const [a, setA] = createSignal(0);
+							  const [b, setB] = createSignal(0);
+							  const aEffect = createEffect(() => { setA(()=> b()+1)
+							    console.log(`aEffect: a = ${a()}, b = ${b()}`);
+							  });
+							  const bEffect = createEffect(() => { setB(()=> a()+1)
+							    console.log(`bEffect: a = ${a()}, b = ${b()}`);
+							  });
+							  ```
+							- ```
+							  ```
+						- Circular *Side* Effect Flow: stack overflow!
+						  collapsed:: true
+							- ```tsx
+							  const [a, setA] = createSignal(0);
+							  const [b, setB] = createSignal(0);
+							  const aEffect = createEffect(() => { setA(()=> b()+1)
+							    console.log(`aEffect: a = ${a()}, b = ${b()}`);
+							  });
+							  const bEffect = createEffect(() => { setB(()=> a()+1)
+							    console.log(`bEffect: a = ${a()}, b = ${b()}`);
+							  });
+							  ```
+							- ```
+							  aEffect: a = 1, b = 0
+							  bEffect: a = 1, b = 2
+							  aEffect: a = 3, b = 2
+							  bEffect: a = 3, b = 4
+							  ...
+							  bEffect: a = 2903, b = 2904
+							  aEffect: a = 2905, b = 2904
+							  chunk-VDQTAU36.js?v=030b6dd3:850 Uncaught RangeError: Maximum call stack size exceeded
+							  ```
 					- About [SolidJS](https://www.solidjs.com/)
 					  id:: 68d9f101-7c97-4292-9c4c-52944f1d4a3e
 					  collapsed:: true
 						- [Solid Docs](https://docs.solidjs.com/): [Quick Start](https://docs.solidjs.com/quick-start) & [Reference](https://docs.solidjs.com/reference/basic-reactivity/create-effect)
 							- This [discussion](https://github.com/solidjs/solid-workgroup/discussions/2) on Solid Workgroup has many todos but their status now is unknown.
-							- [reactive](https://github.com/solidjs/solid/tree/main/packages/solid/src/reactive) core
-								- [signal.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/signal.ts): the main structure (signal, memo, effect) and algorithm (breadth-first propagation via 2 queues `Updates` & `Effects`).
-								- [array.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/array.ts): Reactively transforms an array with a callback function – underlying helper for the `<For>` control flow.
-								- [scheduler.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/scheduler.ts): schedule tasks, usually for batching or deferring updates (`createDeferred`).
-								- [observable.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/observable.ts): Creates a simple observable from a signal's accessor to be used with the `from` operator of observable libraries like e.g. [RxJS](https://github.com/ReactiveX/rxjs).
+						- Effect flow
+							- Signal set (`createSignal`.`setter`) → `Updates` (`createMemo`) → `Effects` (`createRenderEffect` → `createEffect`)
+						- [reactive](https://github.com/solidjs/solid/tree/main/packages/solid/src/reactive) core
+							- [signal.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/signal.ts): the main structure (signal, memo, effect) and algorithm (breadth-first propagation via 2 queues `Updates` & `Effects`).
+							- [array.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/array.ts): Reactively transforms an array with a callback function – underlying helper for the `<For>` control flow.
+							- [scheduler.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/scheduler.ts): schedule tasks, usually for batching or deferring updates (`createDeferred`).
+							- [observable.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/observable.ts): Creates a simple observable from a signal's accessor to be used with the `from` operator of observable libraries like e.g. [RxJS](https://github.com/ReactiveX/rxjs).
 						- Fine-grained DOM binding
 						  {{embed ((68d9f018-81ea-453b-8ddc-a9e5c7cf997e))}}
 						- Performance aware
