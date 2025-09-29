@@ -4314,9 +4314,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 													- ooo.state = `PENDING`; `Updates`.push(ooo);
 													- `markDownstream`(ooo) return fast because oooo.state != 0
 												- if (Updates!.length > 10e5) { throw new Error("Potential Infinite Loop Detected.") }
-										- `lookUpstream`
+										- `lookUpstream`(node): for each `s`=`node.sources`[i]:
+											- `runTop`(s if `STALE`)
+											- `lookUpstream`(s if `PENDING`)
 								- `Updates`[]:
-									- [a,b] → [(a),b, b,a,b] → [a,(b), b,a,b, a,b,a] → [a,b, (b),a,b, a,b,a, a,b,a] → [a,b, b,(a),b, a,b,a, a,b,a, b,a,b]
+									- [a,b] `markDownstream`: → [(a),b, b,a,b] → [a,(b), b,a,b, a,b,a]
+									- `lookUpstream`: → [a,b, (b),a,b, a,b,a, b,a,b] → [a,b, b,(a),b, a,b,a, a,b,a, b,a,b]
 						- Circular *Side* Effect Flow: stack overflow!
 						  collapsed:: true
 							- Call Stack
