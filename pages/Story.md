@@ -4301,14 +4301,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  aMemo: 333332
 							  Uncaught Error: Potential Infinite Loop Detected.
 							  ```
-							- Why the ratio 3 = 10e5 / 333333 ? 🤔
+							- Ratio 10e5 / 333333 = 3 = 1 direct observer by `writeSignal`() + 2 indirect (recursive) observers by `markDownstream`()
 							- Stack trace:
 								- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue`(`Updates`)
 									- `runTop` → `updateComputation` → `runComputation`
 										- {nextValue = node.fn(value)} → {aMemo ⇐ bMemo() + 1} → `readSignal`()
 										- `writeSignal`(node) → `runUpdates` for each `o`=`node.observers`[i]:
 											- o.state = `STALE`; `Updates`.push(o);
-											- `markDownstream`(o): for each `oo=o.observers[i]`: oo.state = `PENDING`; `Updates`.push(oo); `markDownstream`(oo) → {`Updates`.push(ooo); `markDownstream`(ooo) return fast};
+											- `markDownstream`(o): for each `oo=o.observers[i]`: oo.state = `PENDING`; `Updates`.push(oo); `markDownstream`(oo)
+												- ooo.state = `PENDING`; `Updates`.push(ooo);
+												- `markDownstream`(ooo) return fast because oooo.state != 0
 								- `Updates`[]: [a,b] → [a,b]
 								- `writeSignal`
 								- `runUpdates`
