@@ -1,0 +1,23 @@
+- SolidJS
+    - wrap `createSignal()` to variable accessors recursively for full tree reactivity, like Vue 3.
+    - Performance aware
+        - `<For>` checks elements' **reference**, `<Index>` checks elements' **index** (position in array).
+        - `<Key>` by [solid-primitives/keyed](https://primitives.solidjs.community/package/keyed/): `<Key each={items()} by="id">`
+        - `reconcile` and `createState` for deep object diff instead of mere reference.
+        - [solid-primitives/intersection-observer](https://primitives.solidjs.community/package/intersection-observer) provides `createViewportObserver` & `createVisibilityObserver` for off-screen clipping.
+    - extend to reactive programming beyond DOM 
+        - no setter call inside effect/memo function, so that no frame is left in call stack (actually empty frames are still left).
+        - test effect circle branching before memo function returns 
+        - test diamond effect flow 
+    - [quick start](https://docs.solidjs.com/quick-start)
+    - This [discussion](https://github.com/solidjs/solid-workgroup/discussions/2) on Solid Workgroup has many todos but their status now is unknown.
+    - [signal.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/signal.ts)
+- Welcome page
+    - export default no name
+    - `Solid for reactivity`
+    - try animate x: 0 + p.count()%1 || + p.count()*1e-5
+        - `p.count()*1e-5` is the change in another dimension!
+    - change from `<For>` to `<Index>` for moving ticks
+- ---
+- Sleep vs wake = distributed vs centralized 
+- "one-unit error" = "off-by-one error" 
