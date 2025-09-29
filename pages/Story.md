@@ -4318,9 +4318,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 											- node.state = 0 // `SETTLED`
 											- `runTop`(s if `STALE`)
 											- `lookUpstream`(s if `PENDING`)
+											- Return when all node's upstream
 								- `Updates`[]:
-									- [a,b] `markDownstream`: → [(a),b, b,a,b] → [a,(b), b,a,b, a,b,a]
-									- `lookUpstream`: → [a,b, (b),a,b, a,b,a, b,a,b] → [a,b, b,(a),b, a,b,a, a,b,a, b,a,b]
+									- [a,b] `markDownstream`: → [(a),b; b,a,b] → [a,(b); b,a,b; a,b,a]
+									- `lookUpstream` & `markDownstream`: → [a,b; (b),a,b; a,b,a; b,a,b] → [a,b; b,(a),b; a,b,a; b,a,b; a,b,a]
 						- Circular *Side* Effect Flow: stack overflow!
 						  collapsed:: true
 							- Call Stack
