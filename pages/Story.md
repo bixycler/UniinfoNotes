@@ -4303,15 +4303,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ```
 							- Why the ratio 3 = 10e5 / 333333 ? 🤔
 							- Stack trace:
-								- `setInit(false);`
-								- `setter`
-								- `writeSignal`
-								- `runUpdates`
-								- `completeUpdates`
-								- `runQueue`
-								- `runTop`
-								- `updateComputation`
-								- `runComputation`
+								- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue` → `runTop` → `updateComputation` → `runComputation` → nextValue = node.fn(value);
+									- {aMemo ⇐ aMemo() + 1} → `readSignal`()
 								- `writeSignal`
 								- `runUpdates`
 								- `throw new Error("Potential Infinite Loop Detected.");`
