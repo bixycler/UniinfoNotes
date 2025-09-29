@@ -4230,7 +4230,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Morning: ((68d209a0-3386-46b0-a8f2-beb94d271916))
 				- Afternoon: official work & meeting
 				- Evening: ((68d35037-a651-4118-b91a-7b17a8f1f8ba))
-			- 24-26th, ...
+			- 24-28th, ...
 			  collapsed:: true
 				- **Solid D3** for reactive graphical HTML
 				  collapsed:: true
@@ -4238,8 +4238,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- **React** does **batch rendering** into Virtual DOM;
 						- **Vue** has **component-level state tracking**, but still use Virtual DOM diffing for batch render of each component.
 							- This is because Vue 3 Core use [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) to create full tree reactivity for objects, via getters & setters of all sub-objects, which are bound at runtime and difficult for compiler to discover at build time.
-						- [SolidJS](https://www.solidjs.com/) has fine-grained DOM data binding with signal and effect (no Virtual DOM)
+						- **SolidJS** has fine-grained DOM data binding with signal and effect (no Virtual DOM)
 							- This fine-grained binding is thanks to the atomicity of signal – only bare getter() and setter() – so the compiler can easily convert getters directly to values in DOM.
+							  id:: 68d9f018-81ea-453b-8ddc-a9e5c7cf997e
 						- **Svelte** **compiles reactivity** at build time, so no Virtual DOM, but not fully fine-grained in runtime subscriptions. Instead, it regenerates chunks of DOM.
 					- [D3.js](https://d3js.org/) for graphic math engine: transitions, scales, layouts, shapes (path generators), force simulations, …
 						- *Don't use its data binding* because it renders in batch.
@@ -4270,7 +4271,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- `p.count()*1e-5` is the change in another dimension!
 							- Changed from `<For>` to `<Index>` for moving ticks.
 						- Effect flow
-							-
+							- Effect circle...
+					- About [SolidJS](https://www.solidjs.com/)
+					  collapsed:: true
+						- [Solid Docs](https://docs.solidjs.com/): [Quick Start](https://docs.solidjs.com/quick-start) & [Reference](https://docs.solidjs.com/reference/basic-reactivity/create-effect)
+							- This [discussion](https://github.com/solidjs/solid-workgroup/discussions/2) on Solid Workgroup has many todos but their status now is unknown.
+							- [signal.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/signal.ts)
+						- Fine-grained DOM binding
+						  {{embed ((68d9f018-81ea-453b-8ddc-a9e5c7cf997e))}}
+						- Performance aware
+							- `<For>` checks elements' **reference**, `<Index>` checks elements' **index** (position in array).
+							- `<Key>` by [solid-primitives/keyed](https://primitives.solidjs.community/package/keyed/): `<Key each={items()} by="id">`
+							- `reconcile` and `createState` for deep object diff instead of mere reference.
+							- [solid-primitives/intersection-observer](https://primitives.solidjs.community/package/intersection-observer) provides `createViewportObserver` & `createVisibilityObserver` for off-screen clipping.
+						- extend to reactive programming beyond DOM
+							- no setter call inside effect/memo function, so that no frame is left in call stack (actually empty frames are still left).
+							- test effect circle branching before memo function returns
+							- test diamond effect flow
 				- The tricky space handling in HTML, hence in JSX!
 				  collapsed:: true
 					- Rule of thumb: No spaces after opening tag and before closing tag.
