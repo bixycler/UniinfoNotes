@@ -4261,6 +4261,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Screenshot
 							  collapsed:: true
 								- ![SCIFER in ViteMotionSolidD3Demo 2025-09-26.png](../assets/Will/story/2025-09/SCIFER in ViteMotionSolidD3Demo 2025-09-26.png)
+							- Tricks for constant expression (0) to depend on signal: animate x: 0 + p.count()%1 || + p.count()*1e-5
+								- `p.count()%1` has no effect, because the value doesn't change.
+								- `p.count()*1e-5` is the change in another dimension!
+							- Changed from `<For>` to `<Index>` for moving ticks.
 				- The tricky space handling in HTML, hence in JSX!
 				  collapsed:: true
 					- Rule of thumb: No spaces after opening tag and before closing tag.
