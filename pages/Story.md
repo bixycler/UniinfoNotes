@@ -4234,9 +4234,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			  collapsed:: true
 				- **Solid D3** for reactive graphical HTML
 				  collapsed:: true
-					- [SolidJS](https://www.solidjs.com/) for fine-grained DOM data binding with signal and effect (no Virtual DOM)
+					- Compare DOM reactivitivy frameworks:
 						- **React** does **batch rendering** into Virtual DOM;
 						- **Vue** has **component-level state tracking**, but still use Virtual DOM diffing for batch render of each component.
+							- This is because Vue 3 Core use [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) to create full tree reactivity for objects, via getters & setters of all sub-objects, which are bound at runtime and difficult for compiler to discover at build time.
+						- [SolidJS](https://www.solidjs.com/) has fine-grained DOM data binding with signal and effect (no Virtual DOM)
+							- This fine-grained binding is thanks to the atomicity of signal – only bare getter() and setter() – so the compiler can easily convert getters directly to values in DOM.
 						- **Svelte** **compiles reactivity** at build time, so no Virtual DOM, but not fully fine-grained in runtime subscriptions. Instead, it regenerates chunks of DOM.
 					- [D3.js](https://d3js.org/) for graphic math engine: transitions, scales, layouts, shapes (path generators), force simulations, …
 						- *Don't use its data binding* because it renders in batch.

@@ -1,5 +1,4 @@
 - SolidJS
-	- wrap `createSignal()` to variable accessors recursively for full tree reactivity, like Vue 3.
 	- Performance aware
 		- `<For>` checks elements' **reference**, `<Index>` checks elements' **index** (position in array).
 		- `<Key>` by [solid-primitives/keyed](https://primitives.solidjs.community/package/keyed/): `<Key each={items()} by="id">`
