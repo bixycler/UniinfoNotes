@@ -4319,7 +4319,11 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  collapsed:: true
 							- Stack
 								- `completeUpdates`()
-								-
+								- `runUpdates`()
+								- `runUserEffects`(queue) → `runTop`(node) → `updateComputation`(node) → `runComputation`(node)
+									- nextValue = node.fn(value);
+								- setA(()=> a()+1)
+								- `setter`() → `writeSignal`()
 							- Self dependency
 							  ```tsx
 							  const [a, setA] = createSignal(0);
