@@ -4285,7 +4285,6 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- ```
 							  ```
 						- Circular *Side* Effect Flow: stack overflow!
-						  collapsed:: true
 							- ```tsx
 							  const [a, setA] = createSignal(0);
 							  const [b, setB] = createSignal(0);
