@@ -5669,7 +5669,7 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 									- Sometime, the whole huge problem is abstracted into a key so small that it becomes a needle lost in a haystack and i cannot find/see that key easily.
 									- => It seems that the problem is "impossible!"
 									- => This discrepancy triggers my anger to tackle the problem "to the end".
-								- The butterfly effect from a tiny mistake to a huge error, the [one-unit error](https://www.geogebra.org/m/xhpjjxyn) at the marginal cases, and so on, are just the extension of the abstracted complex systems.
+								- The butterfly effect from a tiny mistake to a huge error, ((684f951b-b9c2-4257-9637-7ad7812918fc)), and so on, are just the extension of the abstracted complex systems.
 						- The illusion of “finished” & target reaching
 						  id:: 6736bd1e-5835-46e4-b640-dd35b3fe7c90
 						  collapsed:: true

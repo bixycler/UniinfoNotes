@@ -1,2 +1,0 @@
-- Sleep vs wake = distributed vs centralized
-- "one-unit error" = [off-by-one error](https://en.wikipedia.org/wiki/Off-by-one_error)

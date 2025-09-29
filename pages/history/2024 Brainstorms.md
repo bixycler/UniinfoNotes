@@ -183,7 +183,8 @@ id:: 67760c45-14fe-4d91-88a0-923f50ed553c
 			- [Edge of chaos](https://en.wikipedia.org/wiki/Edge_of_chaos), [Bifurcation](https://en.wikipedia.org/wiki/Bifurcation_theory), [Butterfly effect](https://en.wikipedia.org/wiki/Butterfly_effect) in [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
 			- [Phase transition point](https://en.wikipedia.org/wiki/Phase_transition) in physics and [Percolation theory](https://en.wikipedia.org/wiki/Percolation_theory)
 			- [Gibbs overshoots](https://en.wikipedia.org/wiki/Gibbs_phenomenon) in Fourier series around a [jump discontinuity](https://en.wikipedia.org/wiki/Jump_discontinuity) of discontinuous functions
-			- [one-unit error](https://www.geogebra.org/m/xhpjjxyn) at the marginal cases
+			- [Off-by-one error](https://en.wikipedia.org/wiki/Off-by-one_error) ([one-unit error](https://www.geogebra.org/m/xhpjjxyn)) at the marginal cases
+			  id:: 684f951b-b9c2-4257-9637-7ad7812918fc
 		- Most complex organisms evolve at the edge of chaos.
 			- To survive at the boundaries, organisms must follow the ((665379b7-e4f6-4240-8029-fd143e2230c7)) of the Universe, hence their flexibility, stability, adaptability, and evolability.
 			- Refs:
