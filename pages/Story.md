@@ -4306,7 +4306,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue`(`Updates`)
 									- `runTop` → `updateComputation` → `runComputation`
 										- {nextValue = node.fn(value)} → {bMemo ⇐ aMemo() + 1} → `readSignal`()
-										- `writeSignal`(node) → `runUpdates`(`node.observers`[i].state = `STALE` ⇒ push to `Updates`[])
+										- `writeSignal`(node) → `runUpdates`
+											- `o`=`node.observers`[i]: o.state = `STALE`; `Updates`[] & `markDownstream`()
 								- `Updates`[]: [a,b] → [a,b]
 								- `writeSignal`
 								- `runUpdates`
