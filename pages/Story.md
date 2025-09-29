@@ -4305,9 +4305,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Stack trace:
 								- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue`(`Updates`)
 									- `runTop` → `updateComputation` → `runComputation`
-										- {nextValue = node.fn(value)} → {bMemo ⇐ aMemo() + 1} → `readSignal`()
-										- `writeSignal`(node) → `runUpdates`
-											- `o`=`node.observers`[i]: o.state = `STALE`; `Updates`[] & `markDownstream`()
+										- {nextValue = node.fn(value)} → {aMemo ⇐ bMemo() + 1} → `readSignal`()
+										- `writeSignal`(node) → `runUpdates` for each `o`=`node.observers`[i]:
+											- o.state = `STALE`; `Updates`.push(o);
+											- `markDownstream`(o): for each `oo=o.observers[i]`: oo.state = `PENDING`; `Updates`.push(oo);
 								- `Updates`[]: [a,b] → [a,b]
 								- `writeSignal`
 								- `runUpdates`
