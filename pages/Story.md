@@ -4319,6 +4319,23 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						  collapsed:: true
 							- Self dependency
 							  ```tsx
+							  const [a, setA] = createSignal(0);
+							  const aEffect = createEffect(() => { setA(()=> a()+1)
+							    console.log(`aEffect: ${a()}`);
+							  });
+							  ```
+							- Console
+							  ```
+							  aEffect: 1
+							  aEffect: 2
+							  aEffect: 3
+							  ...
+							  aEffect: 2900
+							  aEffect: 2901
+							  aEffect: 2902
+							  aEffect: 2903
+							  aEffect: 2904
+							  Uncaught RangeError: Maximum call stack size exceeded
 							  ```
 							- Mutual deps
 							  ```tsx
@@ -4331,7 +4348,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							    console.log(`bEffect: a = ${a()}, b = ${b()}`);
 							  });
 							  ```
-							- ```
+							- Console
+							  ```
 							  aEffect: a = 1, b = 0
 							  bEffect: a = 1, b = 2
 							  aEffect: a = 3, b = 2
@@ -4339,7 +4357,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ...
 							  bEffect: a = 2903, b = 2904
 							  aEffect: a = 2905, b = 2904
-							  chunk-VDQTAU36.js?v=030b6dd3:850 Uncaught RangeError: Maximum call stack size exceeded
+							  Uncaught RangeError: Maximum call stack size exceeded
 							  ```
 					- About [SolidJS](https://www.solidjs.com/)
 					  id:: 68d9f101-7c97-4292-9c4c-52944f1d4a3e
