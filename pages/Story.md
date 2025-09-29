@@ -4323,7 +4323,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- `runUserEffects`(queue) → `runTop`(node) → `updateComputation`(node) → `runComputation`(node)
 									- nextValue = node.fn(value);
 								- setA(()=> a()+1)
-								- `setter`() → `writeSignal`(node) → `runUpdates`(`node.observers`)
+								- `setter`() → `writeSignal`(node) → `runUpdates`(`node.observers`[i].state = STALE)
 							- Self dependency
 							  ```tsx
 							  const [a, setA] = createSignal(0);
