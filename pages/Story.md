@@ -4320,7 +4320,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Self dependency
 							  ```tsx
 							  const [a, setA] = createSignal(0);
-							  const aEffect = createEffect(() => { setA(()=> a()+1)
+							  const aEffect = createEffect(() => { setA(()=> a()+1);
 							    console.log(`aEffect: ${a()}`);
 							  });
 							  ```
@@ -4341,10 +4341,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ```tsx
 							  const [a, setA] = createSignal(0);
 							  const [b, setB] = createSignal(0);
-							  const aEffect = createEffect(() => { setA(()=> b()+1)
+							  const aEffect = createEffect(() => { setA(()=> b()+1);
 							    console.log(`aEffect: a = ${a()}, b = ${b()}`);
 							  });
-							  const bEffect = createEffect(() => { setB(()=> a()+1)
+							  const bEffect = createEffect(() => { setB(()=> a()+1);
 							    console.log(`bEffect: a = ${a()}, b = ${b()}`);
 							  });
 							  ```
