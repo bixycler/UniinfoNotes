@@ -4302,6 +4302,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  Uncaught Error: Potential Infinite Loop Detected.
 							  ```
 							- Ratio 10e5 / 333333 = 3 = 1 direct observer by `writeSignal`() + 2 indirect (recursive) observers by `markDownstream`()
+								- This recursive `markDownstream`() seems redundant when `writeSignal`() has already done BFS incrementally throughout the graph.
 							- Stack trace:
 								- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue`(`Updates`)
 									- `runTop` → `updateComputation` → `runComputation`
@@ -4311,10 +4312,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 											- `markDownstream`(o): for each `oo=o.observers[i]`: oo.state = `PENDING`; `Updates`.push(oo); `markDownstream`(oo)
 												- ooo.state = `PENDING`; `Updates`.push(ooo);
 												- `markDownstream`(ooo) return fast because oooo.state != 0
-								- `Updates`[]: [a,b] → [a,b]
-								- `writeSignal`
-								- `runUpdates`
-								- `throw new Error("Potential Infinite Loop Detected.");`
+											- if (Updates!.length > 10e5) { throw new Error("Potential Infinite Loop Detected.") }
+								- `Updates`[]:
+									- [a 0, b 0] → [a 0, b 0, b]
 						- Circular *Side* Effect Flow: stack overflow!
 						  collapsed:: true
 							- Call Stack
