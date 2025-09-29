@@ -4300,6 +4300,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  aMemo: 333332
 							  Uncaught Error: Potential Infinite Loop Detected.
 							  ```
+							- Why the ratio 3 = 10e5 / 333333 ? 🤔
 						- Circular *Side* Effect Flow: stack overflow!
 						  collapsed:: true
 							- ```tsx
