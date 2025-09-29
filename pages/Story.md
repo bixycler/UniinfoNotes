@@ -4236,7 +4236,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  collapsed:: true
 					- [SolidJS](https://www.solidjs.com/) for fine-grained DOM data binding with signal and effect (no Virtual DOM)
 						- **React** does **batch rendering** into Virtual DOM;
-						- **Vue** has **fine-grained state tracking**, but DOM updates still flow through Virtual DOM diffing.
+						- **Vue** has **component-level state tracking**, but still use Virtual DOM diffing for batch render of each component.
 						- **Svelte** **compiles reactivity** at build time, so no Virtual DOM, but not fully fine-grained in runtime subscriptions. Instead, it regenerates chunks of DOM.
 					- [D3.js](https://d3js.org/) for graphic math engine: transitions, scales, layouts, shapes (path generators), force simulations, …
 						- *Don't use its data binding* because it renders in batch.
@@ -4258,6 +4258,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- It provides a build command that bundles code with [Rollup](https://rollupjs.org/), pre-configured to output highly optimized static assets for production.
 					- **Vite Motion *Solid* D3** – The framework for *solid data-driven documents* enriched with quick motion
 						- Welcome page
+						  collapsed:: true
 							- Screenshot
 							  collapsed:: true
 								- ![SCIFER in ViteMotionSolidD3Demo 2025-09-26.png](../assets/Will/story/2025-09/SCIFER in ViteMotionSolidD3Demo 2025-09-26.png)
@@ -4265,6 +4266,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- `p.count()%1` has no effect, because the value doesn't change.
 								- `p.count()*1e-5` is the change in another dimension!
 							- Changed from `<For>` to `<Index>` for moving ticks.
+						- Effect flow
+							-
 				- The tricky space handling in HTML, hence in JSX!
 				  collapsed:: true
 					- Rule of thumb: No spaces after opening tag and before closing tag.
