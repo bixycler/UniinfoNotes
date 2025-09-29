@@ -4273,6 +4273,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- Effect flow
 							- Effect circle...
 					- About [SolidJS](https://www.solidjs.com/)
+					  id:: 68d9f101-7c97-4292-9c4c-52944f1d4a3e
 					  collapsed:: true
 						- [Solid Docs](https://docs.solidjs.com/): [Quick Start](https://docs.solidjs.com/quick-start) & [Reference](https://docs.solidjs.com/reference/basic-reactivity/create-effect)
 							- This [discussion](https://github.com/solidjs/solid-workgroup/discussions/2) on Solid Workgroup has many todos but their status now is unknown.
@@ -4861,4 +4862,5 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
+		- ((68d9f101-7c97-4292-9c4c-52944f1d4a3e))
 		- ...
