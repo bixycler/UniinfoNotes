@@ -4307,6 +4307,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 									- `runTop` → `updateComputation` → `runComputation`
 										- {nextValue = node.fn(value)} → {bMemo ⇐ aMemo() + 1} → `readSignal`()
 										- `writeSignal`(node) → `runUpdates`(`node.observers`[i].state = `STALE` ⇒ push to `Updates`[])
+								- `Updates`[]: [a,b] → [a,b]
 								- `writeSignal`
 								- `runUpdates`
 								- `throw new Error("Potential Infinite Loop Detected.");`
