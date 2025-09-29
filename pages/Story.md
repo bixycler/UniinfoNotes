@@ -4317,12 +4317,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- `throw new Error("Potential Infinite Loop Detected.");`
 						- Circular *Side* Effect Flow: stack overflow!
 						  collapsed:: true
-							- Stack
+							- Call Stack
 								- `runUpdates`()
 									- `runEffects`(`Effects`) → `runUserEffects`(queue) → `runTop`(node) → `updateComputation`(node) → `runComputation`(node) → nextValue = node.fn(value);
 										- setA(()=> a()+1) → `setter`() → `writeSignal`(node) → `runUpdates`(`node.observers`[i].state = `STALE` ⇒ push to `Effects`[])
 										- console.log(`Effect: >${a()}`);
-									- `completeUpdates`() → `runUpdates`()
+									- `completeUpdates`() → `runUpdates`() → `runEffects`(`Effects` not empty) → ... until `Effects` empty
 							- Self dependency
 							  ```tsx
 							  const [a, setA] = createSignal(0);
