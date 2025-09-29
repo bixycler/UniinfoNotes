@@ -4303,7 +4303,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ```
 							- Ratio 10e5 / 333333 = 3 = 1 direct observer by `writeSignal`() + 2 indirect (recursive) observers by `markDownstream`()
 								- This recursive `markDownstream`() seems redundant when `writeSignal`() has already done BFS incrementally throughout the graph.
-							- Stack trace:
+							- Call Stack
 								- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue`(`Updates`)
 									- `runTop`
 										- `updateComputation`(node if `STALE`) → `runComputation`
@@ -4318,7 +4318,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 											- node.state = 0 // `SETTLED`
 											- `runTop`(s if `STALE`)
 											- `lookUpstream`(s if `PENDING`)
-											- Return when all node's upstream
+											- Return when all upstream nodes are `SETTLED`
 								- `Updates`[]:
 									- [a,b] `markDownstream`: → [(a),b; b,a,b] → [a,(b); b,a,b; a,b,a]
 									- `lookUpstream` & `markDownstream`: → [a,b; (b),a,b; a,b,a; b,a,b] → [a,b; b,(a),b; a,b,a; b,a,b; a,b,a]
