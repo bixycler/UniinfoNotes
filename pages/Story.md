@@ -4279,7 +4279,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- This [discussion](https://github.com/solidjs/solid-workgroup/discussions/2) on Solid Workgroup has many todos but their status now is unknown.
 							- [reactive](https://github.com/solidjs/solid/tree/main/packages/solid/src/reactive) core
 								- [signal.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/signal.ts): the main structure (signal, memo, effect) and algorithm (breadth-first propagation via 2 queues `Updates` & `Effects`)
-								- [observable.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/observable.ts)
+								- [array.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/array.ts): Reactively transforms an array with a callback function – underlying helper for the `<For>` control flow
+								- [observable.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/observable.ts): Creates a simple observable from a signal's accessor to be used with the `from` operator of observable libraries like e.g. [RxJS](https://github.com/ReactiveX/rxjs)
 						- Fine-grained DOM binding
 						  {{embed ((68d9f018-81ea-453b-8ddc-a9e5c7cf997e))}}
 						- Performance aware
