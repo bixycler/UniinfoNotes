@@ -4273,46 +4273,31 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Changed from `<For>` to `<Index>` for moving ticks.
 						- Circular *Pure* Effect Flow:
 							- ```tsx
-							  const [a, setA] = createSignal(0);
-							  const [b, setB] = createSignal(0);
+							  const [init, setInit] = createSignal(true);
 							  
-							  // Circular Effect Flow
-							  function afn(aPrev:number):number {
-							    if (a() < 1){
-							      console.log(`aMemo init0: a = ${a()}`);
-							      setA(1); return a();
-							    }
-							    if (a() < 2){
-							      console.log(`aMemo init1: a = ${a()}`);
-							      return a();
-							    }
-							    //console.log(`aMemo: a- = ${aPrev}, b = ${bMemo()}`);
-							    return bMemo()+1;
-							  }
-							  function bfn(bPrev:number):number {
-							    if (b() < 1){
-							      console.log(`bMemo init0: b = ${b()}`);
-							      setB(1); return b();
-							    }
-							    if (a() < 2){
-							      console.log(`bMemo init1: b = ${b()}`);
-							      return b();
-							    }
-							    //console.log(`bMemo: a = ${aMemo()}, b- = ${bPrev}`);
-							    return aMemo()+1;
-							  }
-							  const aMemo = createMemo(afn, 0);
-							  const bMemo = createMemo(bfn, 0);
+							  const aMemo = createMemo((prev):number => {
+							    if (init()) return 0;
+							    if (prev && (prev < 10 || prev > 333303)) console.log(`aMemo: ${prev}`)
+							    return bMemo() + 1;
+							  });
+							  const bMemo = createMemo((prev):number => {
+							    if (init()) return 0;
+							    if (prev && (prev < 10 || prev > 333303)) console.log(`bMemo: ${prev}`)
+							    return aMemo() + 1;
+							  });
 							  
-							  // kick start!
-							  setA(2);
-							  
+							  // Kick start
+							  setInit(false); // This will lead to a queue-guarded infinite loop
 							  ```
 							- ```
-							  aMemo init0: a = 0
-							  aMemo init1: a = 1
-							  bMemo init0: b = 0
-							  bMemo init1: b = 1
+							  bMemo: 1
+							  aMemo: 2
+							  bMemo: 3
+							  aMemo: 4
+							  ...
+							  aMemo: 333330
+							  bMemo: 333331
+							  aMemo: 333332
 							  Uncaught Error: Potential Infinite Loop Detected.
 							  ```
 						- Circular *Side* Effect Flow: stack overflow!
