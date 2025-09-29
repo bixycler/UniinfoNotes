@@ -4303,9 +4303,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  ```
 							- Why the ratio 3 = 10e5 / 333333 ? 🤔
 							- Stack trace:
-								- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue` → `runTop` → `updateComputation` → `runComputation`
+								- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue`(`Updates`) → `runTop` → `updateComputation` → `runComputation`
 									- {nextValue = node.fn(value)} → {bMemo ⇐ aMemo() + 1} → `readSignal`()
-									- `writeSignal`(node) → `runUpdates`(`node.observers`[i].state = `STALE` ⇒ push to `Effects`[])
+									- `writeSignal`(node) → `runUpdates`(`node.observers`[i].state = `STALE` ⇒ push to `Updates`[])
 								- `writeSignal`
 								- `runUpdates`
 								- `throw new Error("Potential Infinite Loop Detected.");`
@@ -4314,7 +4314,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- Call Stack
 								- `render`() → `createRoot`()
 								- → `runUpdates`()
-									- `runEffects`(`Effects`) → `runUserEffects`(queue) → `runTop`(node) → `updateComputation`(node) → `runComputation`(node) → nextValue = node.fn(value);
+									- `runEffects`(`Effects`) → `runUserEffects`(queue) → `runTop`(node) → `updateComputation`(node) → `runComputation`(node) → {nextValue = node.fn(value)}
 										- setA(()=> a()+1) → `setter`() → `writeSignal`(node) → `runUpdates`(`node.observers`[i].state = `STALE` ⇒ push to `Effects`[])
 										- console.log(`Effect: >${a()}`);
 									- `completeUpdates`() → `runUpdates`() → `runEffects`(`Effects` not empty) → ... until `Effects` empty
