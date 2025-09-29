@@ -4305,14 +4305,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- This recursive `markDownstream`() seems redundant when `writeSignal`() has already done BFS incrementally throughout the graph.
 							- Stack trace:
 								- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue`(`Updates`)
-									- `runTop` → `updateComputation` → `runComputation`
-										- {nextValue = node.fn(value)} → {aMemo ⇐ bMemo() + 1} → `readSignal`()
-										- `writeSignal`(node) → `runUpdates` for each `o`=`node.observers`[i]:
-											- o.state = `STALE`; `Updates`.push(o);
-											- `markDownstream`(o): for each `oo=o.observers[i]`: oo.state = `PENDING`; `Updates`.push(oo); `markDownstream`(oo)
-												- ooo.state = `PENDING`; `Updates`.push(ooo);
-												- `markDownstream`(ooo) return fast because oooo.state != 0
-											- if (Updates!.length > 10e5) { throw new Error("Potential Infinite Loop Detected.") }
+									- `runTop`
+										- `updateComputation` → `runComputation`
+											- {nextValue = node.fn(value)} → {aMemo ⇐ bMemo() + 1} → `readSignal`()
+											- `writeSignal`(node) → `runUpdates` for each `o`=`node.observers`[i]:
+												- o.state = `STALE`; `Updates`.push(o);
+												- `markDownstream`(o): for each `oo=o.observers[i]`: oo.state = `PENDING`; `Updates`.push(oo); `markDownstream`(oo)
+													- ooo.state = `PENDING`; `Updates`.push(ooo);
+													- `markDownstream`(ooo) return fast because oooo.state != 0
+												- if (Updates!.length > 10e5) { throw new Error("Potential Infinite Loop Detected.") }
+										- `lookUpstream`
 								- `Updates`[]:
 									- [a,b] → [(a),b, b,a,b] → [a,(b), b,a,b, a,b,a] → [a,b, (b),a,b, a,b,a, a,b,a] → [a,b, b,(a),b, a,b,a, a,b,a, b,a,b]
 						- Circular *Side* Effect Flow: stack overflow!
