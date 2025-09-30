@@ -4438,7 +4438,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				-
 			- 30th,
 			  collapsed:: true
-				- Double Hurricane Imelda & Humberto
+				- Double Hurricane Imelda & Humberto, the dancing cyclones of [Fujiwhara effect](https://en.wikipedia.org/wiki/Fujiwhara_effect) in Atlantic basin where it's much rarer than the Western Pacific.
 					- ![DoubleHurricane-Imelda-Humberto-Windy.png](../assets/Will/story/2025-09/DoubleHurricane-Imelda-Humberto-Windy.png)
 					- ![DoubleHurricane-Imelda-Humberto-cira-rammb-slider-goes-19-full-disk.jpg](../assets/Will/story/2025-09/DoubleHurricane-Imelda-Humberto-cira-rammb-slider-goes-19-full-disk.jpg)
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
