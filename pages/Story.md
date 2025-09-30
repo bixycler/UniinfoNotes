@@ -4438,8 +4438,8 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				-
 			- 30th,
 			  collapsed:: true
-				- Double Hurricane-Imelda-Humberto.png
-				- ![DoubleHurricane-Imelda-Humberto.png](../DoubleHurricane-Imelda-Humberto.png)
+				- Double Hurricane Imelda & Humberto
+				- ![DoubleHurricane-Imelda-Humberto-Windy.png](../assets/Will/story/2025-09/DoubleHurricane-Imelda-Humberto-Windy.png)
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”
 		  id:: 68d0c5f5-00d3-44aa-b35a-17d67ea773f6
 		  collapsed:: true
