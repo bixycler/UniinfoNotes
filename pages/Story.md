@@ -4251,6 +4251,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The runtime reactivity core **dynamically updates dependency graph** following the actual uses of signals (changed by switch, condition, runtime reachability).
 							- The intermediate values can be caches with memos to enhance performance.
 							- DOM nodes are usually not re-generated but just updated surgically through their attributes and text nodes.
+						- Benchmarks show the current order of performance: SolidJS > Svelte > Vue > React
+							- [JavaScript Framework Showdown: React vs. Vue vs. SolidJS in 2025](https://dev.to/hamzakhan/javascript-framework-showdown-react-vs-vue-vs-solidjs-in-2025-hpc)
+							- [Best High-Performance Frontend Frameworks in 2025](https://brisktechsol.com/performant-frontend-frameworks/): React, Vue.js, Svelte, Next.js, SolidJS
+							- This order of performance is also the reverse order of pupularity in 2025.
 					- [D3.js](https://d3js.org/) for graphic math engine: transitions, scales, layouts, shapes (path generators), force simulations, …
 						- *Don't use its data binding* because it renders in batch.
 					- Latest Node.js with [NodeSource](https://deb.nodesource.com/)
