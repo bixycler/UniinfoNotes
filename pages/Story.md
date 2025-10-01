@@ -3085,7 +3085,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							  /etc/apt/apt.conf.d/10periodic:APT::Periodic::Unattended-Upgrade "0";
 							  /etc/apt/apt.conf.d/20auto-upgrades:APT::Periodic::Unattended-Upgrade "0";
 							  ```
-		- Try to execute the [plan to share time with official works](((68663850-daa5-487e-ba48-fea228a2b188))).
+		- Try to execute the [plan to share time with official works](((68663850-daa5-487e-ba48-fea228a2b188))), July 2025.
 		  id:: 686b390a-7953-4069-9c04-17c7f9a777a7
 		  collapsed:: true
 		  :LOGBOOK:
@@ -4065,12 +4065,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  > The **living substance**, further, is that being which is truly **subject**, or, what is the same thing, is truly realised and actual (*wirklich*) solely in the process of positing itself, or in mediating with its own self its transitions from one state or position to the opposite. 
 				  > [*Negation of Negation*]: As subject it is pure and simple negativity, and just on that account a process of splitting up what is simple and undifferentiated, a process of duplicating and setting factors in opposition, which [process] in turn is the negation of this indifferent diversity and of the opposition of factors it entails. 
 				  > [Self-restoring Sameness]: True reality is merely this process of **reinstating self-identity**, of **reflecting** into its own self in and *from its other*, and is not an original and primal unity as such, not an immediate unity as such. It is the process of its own becoming, _the **circle** which presupposes its end as its purpose, and has its end for its beginning_; it becomes concrete and actual only by being carried out, and by the end it involves.
-		- DOING Try to live fully in the present.
+		- Try to live fully in the present, September 2025.
 		  id:: 68be8447-81b0-4094-9964-1bd21e2e31e0
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-09-08 Mon 14:22:51]
-		  CLOCK: [2025-09-08 Mon 14:23:19]
+		  CLOCK: [2025-09-08 Mon 14:23:19]--[2025-10-01 Wed 10:51:30] =>  548:28:11
 		  :END:
 			- Let's try applying [my technique](((68be308b-9135-44cd-b2c4-690a267fb8c2))) and integrate the previous [experience](((68b79197-1244-4b42-b79f-464cfc8433a1))) to the work and life.
 			- Sep 8th, the whole day caught up with LLM & RAG to index UniinfoNotes, then ((68bfc115-dcbf-4e2b-b13e-afa3be10f9b5)).
@@ -4989,9 +4989,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					- no setter call inside effect/memo function, so that no frame is left in call stack (actually empty frames are still left).
 					- test effect circle branching before memo function returns
 					- test diamond effect flow
-		-
+		- DOING Back to intent observation
+		  id:: 68dc9f21-1057-4ac0-be4c-61c9010d7f78
+		  collapsed:: true
+		  :LOGBOOK:
+		  CLOCK: [2025-10-01 Wed 10:53:14]
+		  :END:
+			- October 1st, ...
+				-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
-		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
+		- ((68dc9f21-1057-4ac0-be4c-61c9010d7f78))
 		- ((68d9f101-7c97-4292-9c4c-52944f1d4a3e))
 		- ...
