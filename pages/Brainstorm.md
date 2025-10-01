@@ -5,7 +5,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 	- ## Brainstorming > ((67760e05-2ea1-4f0e-aaa6-158edca80df5))
 	  id:: 6773eb97-ec58-4c48-a017-cd0de2d82e08
 		- ... ↓ to be flushed **down**! ↓
-		- TODO Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
+		- DONE Continue with [planning](((67760c43-5cbd-4b4f-8fd9-5cedf804f56a))) to resolve [the conflict with company work](((6677b986-ada2-4c73-8a11-980cdf9cb6d4))).
 		  id:: 68663850-daa5-487e-ba48-fea228a2b188
 		  collapsed:: true
 		  :LOGBOOK:
@@ -31,10 +31,10 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  collapsed:: true
 							- ![straw-raffia-placemats-with-fringe-natural.png](../assets/Will/story/2025-07/straw-raffia-placemats-with-fringe-natural.png){:width 200}
 				- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, degree of interest, applicable domains (personal, official, group, mankind), etc.
-			- DOING October 1st,
+			- DONE October 1st, after full 3 months, no surprise, it's been proven that planning is not for me. The [intent observation](((6889c11f-e881-432f-ba0f-876b61afc60c))) and [full engagement](((68be8447-81b0-4094-9964-1bd21e2e31e0))) are still best suited for me.
 			  :LOGBOOK:
 			  CLOCK: [2025-10-01 Wed 10:39:06]
-			  CLOCK: [2025-10-01 Wed 10:39:20]
+			  CLOCK: [2025-10-01 Wed 10:39:20]--[2025-10-01 Wed 10:49:17] =>  00:09:57
 			  :END:
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
