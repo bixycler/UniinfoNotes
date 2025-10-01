@@ -3662,6 +3662,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 								- then considered "task execution" but felt it a little technical,
 								- consulted ChatGPT and finally settled down with "task work" for a more casual tone.
 				- Cross-Origin Resource Sharing ([CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS#requests_with_credentials)) with credentials (cookies) & redirect
+				  id:: 68a595fd-9f44-4989-834c-dc338cee4819
 				  collapsed:: true
 					- To include credentials in request, use `fetch()` with `credentials = "include"`, or `XMLHttpRequest`.`withCredentials = true`.
 					- Credentialed requests and wildcards: When responding to a credentialed request, server *must not* specify the `*` wildcard for the following response headers:
@@ -4238,10 +4239,16 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- **React** does **batch rendering** into Virtual DOM;
 						- **Vue** has **component-level state tracking**, but still use Virtual DOM diffing for batch render of each component.
 							- This is because Vue 3 Core use [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) to create full tree reactivity for objects, via getters & setters of all sub-objects, which are bound at runtime and difficult for compiler to discover at build time.
-						- **SolidJS** has fine-grained DOM data binding with signal and effect (no Virtual DOM)
+						- **Svelte** **compiles reactivity** at build time, so no Virtual DOM, but not fully fine-grained data binding to DOM.
+							- Svelte traverses the dependency graph at **build time**, topo sorts then dumps all of them to JS.
+							- This static flattened graph cannot track the dynamic behavior like Solid:
+								- Cannot switch deps => all possible deps must always be rerun.
+								- Cannot cache intermediate values like Solid's memo.
+								- Sometimes the whole DOM nodes are re-rendered, while Solid can update surgically.
+						- **SolidJS** has fine-grained DOM data binding with signal and effect (no Virtual DOM).
 							- This fine-grained binding is thanks to the atomicity of signal – only bare getter() and setter() – so the compiler can easily convert getters directly to values in DOM.
 							  id:: 68d9f018-81ea-453b-8ddc-a9e5c7cf997e
-						- **Svelte** **compiles reactivity** at build time, so no Virtual DOM, but not fully fine-grained in runtime subscriptions. Instead, it regenerates chunks of DOM.
+							- The runtime
 					- [D3.js](https://d3js.org/) for graphic math engine: transitions, scales, layouts, shapes (path generators), force simulations, …
 						- *Don't use its data binding* because it renders in batch.
 					- Latest Node.js with [NodeSource](https://deb.nodesource.com/)

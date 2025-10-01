@@ -41,6 +41,8 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 		  CLOCK: [2025-09-23 Tue 09:44:50]
 		  :END:
 			- This scale of passiveness/activeness is also of object/subject, input/output, absorption/emission.
+			  id:: 68c764d5-17c7-4c1c-af2f-697fa222f729
+			  collapsed:: true
 			- Here's the ladder of 5 levels in the spectrum from the passive end to the active end.
 			- Open Passive
 			  logseq.order-list-type:: number
@@ -181,8 +183,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 				- Paper: [A new type of spherical flexure joint based on tetrahedron elements](https://www.sciencedirect.com/science/article/pii/S0141635921000726?via%3Dihub)
 				- Inversely, taking this [remote center of motion (RCM)](https://www.igi-global.com/dictionary/?p=Remote+Center+of+Motion) as the stationary base, the limbs can freely move around it.
 				- This virtual center is also the empty center of the self-essence. The whole bodymind moves just to keep this center stable.
-		- Projective relativity: the same content being viewed at different ((667272b8-88a8-4928-a22a-35035c9edf05))s on different ((68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2))s results in different forms.   
-		  id:: 68c764d5-17c7-4c1c-af2f-697fa222f729
+		- Projective relativity: the same content being viewed at different ((667272b8-88a8-4928-a22a-35035c9edf05))s on different ((68c763fb-ca93-4f2d-b20f-ae8cbf5cf8e2))s results in different forms.
 		  collapsed:: true
 		  :LOGBOOK:
 		  CLOCK: [2025-09-15 Mon 07:59:04]

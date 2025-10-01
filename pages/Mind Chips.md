@@ -1,0 +1,1 @@
+- Extract the reactivity core and adapt it for uninet, and leave Solid only at the GUI shell.
