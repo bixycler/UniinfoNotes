@@ -5873,7 +5873,10 @@ id:: 6651e92e-fb34-4d24-a386-d9698c2e93f7
 				- In VS Code, current usage percentages are shown in the Copilot popup from the status bar.
 				  collapsed:: true
 					- ![Copilot-VSCode-status.png](../assets/Will/story/2025-06/Copilot-VSCode-status.png)
-				- While there's no statistics on the [Settings GUI](https://github.com/settings/copilot/features), the info is actually available in response to the request `https://github.com/settings/copilot/features`/`entitlement`: just open Chrome DevTools of Copilot Settings page > `Network` > filter for `entitlement`.
+				- October, its setting page has added the usage statistics onto the top.
+				  collapsed:: true
+					- ![GitHub Copilot Settings - Usage - 2025-10-01.png](.../assets/Will/story/2025-10/GitHub Copilot Settings - Usage - 2025-10-01.png)
+				- While there's no statistics on the [Settings GUI](https://github.com/settings/copilot/features), the info is actually available in response to the request `https://github.com/github-copilot/chat/entitlement`: just open Chrome DevTools of Copilot Settings page > `Network` > filter for `entitlement`.
 				  collapsed:: true
 					- ![GitHub-Copilot-entitlement-quotas.png](../assets/Will/story/2025-06/GitHub-Copilot-entitlement-quotas.png)
 				- Ref: [a nice hack by charlielee](https://github.com/orgs/community/discussions/148154#discussioncomment-12546080)
