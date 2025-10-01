@@ -740,15 +740,13 @@ id:: 67760c3e-2ed3-4b91-9698-8dea6913e419
 			  CLOCK: [2025-06-02 Mon 20:14:17]
 			  :END:
 			- This whole month has been dumped to the thread of story: ((68366fff-92cf-41a7-ab2d-0c1f77d0effb))
-		- ### July
+		- ### July – September
 		  id:: 68662950-3ada-42ea-928d-9700209e1501
 		  collapsed:: true
-			- This whole month has been noted in the story: ((686b390a-7953-4069-9c04-17c7f9a777a7))
-		- ### August
-		  id:: 6888ce20-f91a-4664-9ae6-e80598e88841
-		  collapsed:: true
-			- This whole month is recorded in this story: ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
-	- ### September
+			- July has been noted in the story: ((686b390a-7953-4069-9c04-17c7f9a777a7))
+			- August is recorded in this story: ((688c70aa-8fdf-4cc8-aeb7-ffd47b86cee0))
+			- September was recorded in ((68be8447-81b0-4094-9964-1bd21e2e31e0))
+	- ### October
 	  id:: 68be32ad-ba39-4774-a67b-43a4fb114a3e
 	- ## Braindumping < ((68be32ad-ba39-4774-a67b-43a4fb114a3e))
 	  id:: db954501-95d0-46e2-b1fc-39b6a966300e

@@ -4208,6 +4208,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- While nearly all the working time was spent for meditation against my sinus inflammation, i still squeezed some work contemplation in between.
 			- 16-17th, did the official works, but the inflammation spread down the larynx, then eventually it sprang back to the [contemplation about uninet](((68ccaf71-1811-4929-8e74-976bdcd65829))).
 			- 18-19th, wrote [FABRIK demo](((68c8c9e1-2b4d-4de7-b48a-2aaabab3af5c))).
+			  collapsed:: true
 				- Create video from images
 				  ```sh
 				  ffmpeg -framerate 2 -pattern_type glob -i 'three-segments-iterative/*.svg' -lossless 1 three-segments-iterative.webm
@@ -4234,6 +4235,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 			- 24-28th, data binding frameworks: from D3 (static binding) to Solid (reactive dynamic binding)
 			  collapsed:: true
 				- ((68dc949b-d1af-451f-9a6f-c703b7f148bf))
+					- I decided to extract the reactivity core and adapt it for uninet, and leave Solid only for the GUI shell.
 				- The tricky space handling in HTML, hence in JSX!
 				  collapsed:: true
 					- Rule of thumb: No spaces after opening tag and before closing tag.
@@ -4273,9 +4275,10 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  myButt.click()
 					  ```
 				- Sleep vs wake = distributed vs centralized
-			- 30th, a whole day catching up with official works
+			- 30th, a whole day catching up on official works.
 			  collapsed:: true
 				- Double Hurricane Imelda & Humberto, the dancing cyclones of [Fujiwhara effect](https://en.wikipedia.org/wiki/Fujiwhara_effect) in Atlantic basin where it's much rarer than the Western Pacific.
+				  collapsed:: true
 					- ![DoubleHurricane-Imelda-Humberto-Windy.png](../assets/Will/story/2025-09/DoubleHurricane-Imelda-Humberto-Windy.png)
 					- ![DoubleHurricane-Imelda-Humberto-cira-rammb-slider-goes-19-full-disk.jpg](../assets/Will/story/2025-09/DoubleHurricane-Imelda-Humberto-cira-rammb-slider-goes-19-full-disk.jpg)
 		- “Even the word for misunderstanding is misunderstood – thus Avidyā reveals itself.”

@@ -31,6 +31,11 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						  collapsed:: true
 							- ![straw-raffia-placemats-with-fringe-natural.png](../assets/Will/story/2025-07/straw-raffia-placemats-with-fringe-natural.png){:width 200}
 				- **Assessment** is required for all thoughts & tasks: distance from herenow, relationship with others, degree of interest, applicable domains (personal, official, group, mankind), etc.
+			- DOING October 1st,
+			  :LOGBOOK:
+			  CLOCK: [2025-10-01 Wed 10:39:06]
+			  CLOCK: [2025-10-01 Wed 10:39:20]
+			  :END:
 		- ↓ to be flushed **down**! ↓
 	- ## 2025 Brainstorms
 	  id:: 67760e05-2ea1-4f0e-aaa6-158edca80df5
