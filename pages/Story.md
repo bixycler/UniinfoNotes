@@ -4231,184 +4231,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Morning: ((68d209a0-3386-46b0-a8f2-beb94d271916))
 				- Afternoon: official work & meeting
 				- Evening: ((68d35037-a651-4118-b91a-7b17a8f1f8ba))
-			- 24-28th, ...
+			- 24-28th, data binding frameworks: from D3 (static binding) to Solid (reactive dynamic binding)
 			  collapsed:: true
-				- **Solid D3** for reactive graphical HTML
-				  collapsed:: true
-					- Compare DOM reactivitivy frameworks:
-						- **React** does **batch rendering** into Virtual DOM;
-						- **Vue** has **component-level state tracking**, but still use Virtual DOM diffing for batch render of each component.
-							- This is because Vue 3 Core use [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) to create full tree reactivity for objects, via getters & setters of all sub-objects, which are bound at runtime and difficult for compiler to discover at build time.
-						- **Svelte** **compiles reactivity** at build time, so no Virtual DOM, but not fully fine-grained data binding to DOM.
-							- Svelte traverses the dependency graph at **build time**, topo sorts then dumps all of them to JS.
-							- This static flattened graph cannot track the dynamic behavior like Solid:
-								- Cannot switch deps => all possible deps must always be rerun.
-								- Cannot cache intermediate values like Solid's memo.
-								- Sometimes the whole DOM nodes are re-rendered, while Solid can update surgically.
-						- **SolidJS** has fine-grained DOM data binding with signal and effect (no Virtual DOM).
-							- This fine-grained binding is thanks to the atomicity of signal – only bare getter() and setter() – so the compiler can easily convert getters directly to values in DOM.
-							  id:: 68d9f018-81ea-453b-8ddc-a9e5c7cf997e
-							- The runtime reactivity core **dynamically updates dependency graph** following the actual uses of signals (changed by switch, condition, runtime reachability).
-							- The intermediate values can be caches with memos to enhance performance.
-							- DOM nodes are usually not re-generated but just updated surgically through their attributes and text nodes.
-						- Benchmarks show the current order of performance: SolidJS > Svelte > Vue > React
-							- [JavaScript Framework Showdown: React vs. Vue vs. SolidJS in 2025](https://dev.to/hamzakhan/javascript-framework-showdown-react-vs-vue-vs-solidjs-in-2025-hpc)
-							- [Best High-Performance Frontend Frameworks in 2025](https://brisktechsol.com/performant-frontend-frameworks/): React, Vue.js, Svelte, Next.js, SolidJS
-							- This order of performance is also the reverse order of pupularity in 2025.
-					- [D3.js](https://d3js.org/) for graphic math engine: transitions, scales, layouts, shapes (path generators), force simulations, …
-						- *Don't use its data binding* because it renders in batch.
-					- Latest Node.js with [NodeSource](https://deb.nodesource.com/)
-					  collapsed:: true
-						- Because the Ubuntu-bundled `nodejs` lags so much, we use this site to set up `apt` repo for the latest `nodejs`.
-						- Download [nodesource-setup_22.x.sh](../assets/Will/story/2025-09/nodesource-setup_22.x.sh)
-						  id:: 68d3cc66-d9a5-44e3-b753-63aac43b40ef
-						  ```sh
-						  sudo bash nodesource-setup_22.x.sh
-						  ```
-						  ⇒ repo: /etc/apt/sources.list.d/nodesource.list
-						  ```
-						  deb [arch=amd64 signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_22.x nodistro main
-						  ```
-						- Then just do the normal `sudo apt install nodejs`
-					- [Vite](https://vite.dev/) for quick deployment
-						- It has [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement) to automatically refresh the browser with changes in code.
-						- It provides a build command that bundles code with [Rollup](https://rollupjs.org/), pre-configured to output highly optimized static assets for production.
-					- **Vite Motion *Solid* D3** – The framework for *solid data-driven documents* enriched with quick motion
-					  collapsed:: true
-						- Welcome page
-						  collapsed:: true
-							- Screenshot
-							  collapsed:: true
-								- ![SCIFER in ViteMotionSolidD3Demo 2025-09-26.png](../assets/Will/story/2025-09/SCIFER in ViteMotionSolidD3Demo 2025-09-26.png)
-							- Tricks for constant expression (0) to depend on signal: animate x: 0 + p.count()%1 || + p.count()*1e-5
-								- `p.count()%1` has no effect, because the value doesn't change.
-								- `p.count()*1e-5` is the change in another dimension!
-							- Changed from `<For>` to `<Index>` for moving ticks.
-						- Circular *Pure* Effect Flow:
-						  collapsed:: true
-							- ```tsx
-							  const [init, setInit] = createSignal(true);
-							  
-							  const aMemo = createMemo((prev):number => {
-							    if (init()) return 0;
-							    if (prev && (prev < 10 || prev > 333303)) console.log(`aMemo: ${prev}`)
-							    return bMemo() + 1;
-							  });
-							  const bMemo = createMemo((prev):number => {
-							    if (init()) return 0;
-							    if (prev && (prev < 10 || prev > 333303)) console.log(`bMemo: ${prev}`)
-							    return aMemo() + 1;
-							  });
-							  
-							  // Kick start
-							  setInit(false); // This will lead to a queue-guarded infinite loop
-							  ```
-							- ```
-							  bMemo: 1
-							  aMemo: 2
-							  bMemo: 3
-							  aMemo: 4
-							  ...
-							  aMemo: 333330
-							  bMemo: 333331
-							  aMemo: 333332
-							  Uncaught Error: Potential Infinite Loop Detected.
-							  ```
-							- Ratio 10e5 / 333333 = 3 = 1 direct observer by `writeSignal`() + 2 indirect (recursive) observers by `markDownstream`()
-								- This recursive `markDownstream`() seems redundant when `writeSignal`() has already done BFS incrementally throughout the graph.
-							- Call Stack
-								- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue`(`Updates`)
-									- `runTop`
-										- `updateComputation`(node if `STALE`) → `runComputation`
-											- {nextValue = node.fn(value)} → {aMemo ⇐ bMemo() + 1} → `readSignal`()
-											- `writeSignal`(node) → `runUpdates` for each `o`=`node.observers`[i]:
-												- o.state = `STALE`; `Updates`.push(o);
-												- `markDownstream`(o): for each `oo=o.observers[i]`: oo.state = `PENDING`; `Updates`.push(oo); `markDownstream`(oo)
-													- ooo.state = `PENDING`; `Updates`.push(ooo);
-													- `markDownstream`(ooo) return fast because oooo.state != 0
-												- if (Updates!.length > 10e5) { throw new Error("Potential Infinite Loop Detected.") }
-										- `lookUpstream`(node if `PENDING`): for each `s`=`node.sources`[i]:
-											- node.state = 0 // `SETTLED`
-											- `runTop`(s if `STALE`)
-											- `lookUpstream`(s if `PENDING`)
-											- Return when all upstream nodes are `SETTLED`
-								- `Updates`[]:
-									- [a,b] `markDownstream`: → [(a),b; b,a,b] → [a,(b); b,a,b; a,b,a]
-									- `lookUpstream` & `markDownstream`: → [a,b; (b),a,b; a,b,a; b,a,b] → [a,b; b,(a),b; a,b,a; b,a,b; a,b,a]
-						- Circular *Side* Effect Flow: stack overflow!
-						  collapsed:: true
-							- Call Stack
-								- `render`() → `createRoot`()
-								- → `runUpdates`()
-									- `runEffects`(`Effects`) → `runUserEffects`(queue) → `runTop`(node) → `updateComputation`(node) → `runComputation`(node) → {nextValue = node.fn(value)}
-										- setA(()=> a()+1) → `setter`() → `writeSignal`(node) → `runUpdates`(`node.observers`[i].state = `STALE` ⇒ push to `Effects`[])
-										- console.log(`Effect: >${a()}`);
-									- `completeUpdates`() → `runUpdates`() → `runEffects`(`Effects` not empty) → ... until `Effects` empty
-							- Self dependency
-							  ```tsx
-							  const [a, setA] = createSignal(0);
-							  const aEffect = createEffect(() => { setA(()=> a()+1);
-							    console.log(`aEffect: ${a()}`);
-							  });
-							  ```
-							- Console
-							  ```
-							  aEffect: 1
-							  aEffect: 2
-							  aEffect: 3
-							  ...
-							  aEffect: 2900
-							  aEffect: 2901
-							  aEffect: 2902
-							  aEffect: 2903
-							  aEffect: 2904
-							  Uncaught RangeError: Maximum call stack size exceeded
-							  ```
-							- Mutual deps
-							  ```tsx
-							  const [a, setA] = createSignal(0);
-							  const [b, setB] = createSignal(0);
-							  const aEffect = createEffect(() => { setA(()=> b()+1);
-							    console.log(`aEffect: a = ${a()}, b = ${b()}`);
-							  });
-							  const bEffect = createEffect(() => { setB(()=> a()+1);
-							    console.log(`bEffect: a = ${a()}, b = ${b()}`);
-							  });
-							  ```
-							- Console
-							  ```
-							  aEffect: a = 1, b = 0
-							  bEffect: a = 1, b = 2
-							  aEffect: a = 3, b = 2
-							  bEffect: a = 3, b = 4
-							  ...
-							  bEffect: a = 2903, b = 2904
-							  aEffect: a = 2905, b = 2904
-							  Uncaught RangeError: Maximum call stack size exceeded
-							  ```
-					- About [SolidJS](https://www.solidjs.com/)
-					  id:: 68d9f101-7c97-4292-9c4c-52944f1d4a3e
-					  collapsed:: true
-						- [Solid Docs](https://docs.solidjs.com/): [Quick Start](https://docs.solidjs.com/quick-start) & [Reference](https://docs.solidjs.com/reference/basic-reactivity/create-effect)
-							- This [discussion](https://github.com/solidjs/solid-workgroup/discussions/2) on Solid Workgroup has many todos but their status now is unknown.
-						- Effect flow
-							- Signal set (`createSignal`.`setter`) → `Updates` (`createMemo`) → `Effects` (`createRenderEffect` → `createEffect`)
-						- [reactive](https://github.com/solidjs/solid/tree/main/packages/solid/src/reactive) core
-							- [signal.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/signal.ts): the main structure (signal, memo, effect) and algorithm (breadth-first propagation via 2 queues `Updates` & `Effects`).
-							- [array.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/array.ts): Reactively transforms an array with a callback function – underlying helper for the `<For>` control flow.
-							- [scheduler.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/scheduler.ts): schedule tasks, usually for batching or deferring updates (`createDeferred`).
-							- [observable.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/observable.ts): Creates a simple observable from a signal's accessor to be used with the `from` operator of observable libraries like e.g. [RxJS](https://github.com/ReactiveX/rxjs).
-						- Fine-grained DOM binding
-						  {{embed ((68d9f018-81ea-453b-8ddc-a9e5c7cf997e))}}
-						- Performance aware
-							- `<For>` checks elements' **reference**, `<Index>` checks elements' **index** (position in array).
-							- `<Key>` by [solid-primitives/keyed](https://primitives.solidjs.community/package/keyed/): `<Key each={items()} by="id">`
-							- `reconcile` and `createState` for deep object diff instead of mere reference.
-							- [solid-primitives/intersection-observer](https://primitives.solidjs.community/package/intersection-observer) provides `createViewportObserver` & `createVisibilityObserver` for off-screen clipping.
-						- extend to reactive programming beyond DOM
-							- no setter call inside effect/memo function, so that no frame is left in call stack (actually empty frames are still left).
-							- test effect circle branching before memo function returns
-							- test diamond effect flow
+				- ((68dc949b-d1af-451f-9a6f-c703b7f148bf))
 				- The tricky space handling in HTML, hence in JSX!
 				  collapsed:: true
 					- Rule of thumb: No spaces after opening tag and before closing tag.
@@ -4448,8 +4273,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 					  myButt.click()
 					  ```
 				- Sleep vs wake = distributed vs centralized
-				-
-			- 30th,
+			- 30th, a whole day catching up with official works
 			  collapsed:: true
 				- Double Hurricane Imelda & Humberto, the dancing cyclones of [Fujiwhara effect](https://en.wikipedia.org/wiki/Fujiwhara_effect) in Atlantic basin where it's much rarer than the Western Pacific.
 					- ![DoubleHurricane-Imelda-Humberto-Windy.png](../assets/Will/story/2025-09/DoubleHurricane-Imelda-Humberto-Windy.png)
@@ -4984,6 +4808,185 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				  It's through these kinds of deep dives, where we challenge each other's interpretations and uncover new dimensions, that we truly appreciate the artistry and wisdom embedded in language.
 				  
 				  Thank you for your patience, your insight, and your willingness to play so thoughtfully. It's been an enriching experience!
+		- **Solid D3** for reactive graphical HTML
+		  id:: 68dc949b-d1af-451f-9a6f-c703b7f148bf
+		  collapsed:: true
+			- Compare DOM reactivitivy frameworks: React.js, Vue.js, Svelte, SolidJS
+			  collapsed:: true
+				- **React** does **batch rendering** into Virtual DOM;
+				- **Vue** has **component-level state tracking**, but still use Virtual DOM diffing for batch render of each component.
+					- This is because Vue 3 Core use [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) to create full tree reactivity for objects, via getters & setters of all sub-objects, which are bound at runtime and difficult for compiler to discover at build time.
+				- **Svelte** **compiles reactivity** at build time, so no Virtual DOM, but not fully fine-grained data binding to DOM.
+					- Svelte traverses the dependency graph at **build time**, topo sorts then dumps all of them to JS.
+					- This static flattened graph cannot track the dynamic behavior like Solid:
+						- Cannot switch deps => all possible deps must always be rerun.
+						- Cannot cache intermediate values like Solid's memo.
+						- Sometimes the whole DOM nodes are re-rendered, while Solid can update surgically.
+				- **SolidJS** has fine-grained DOM data binding with signal and effect (no Virtual DOM).
+					- This fine-grained binding is thanks to the atomicity of signal – only bare getter() and setter() – so the compiler can easily convert getters directly to values in DOM.
+					  id:: 68d9f018-81ea-453b-8ddc-a9e5c7cf997e
+					- The runtime reactivity core **dynamically updates dependency graph** following the actual uses of signals (changed by switch, condition, runtime reachability).
+					- The intermediate values can be caches with memos to enhance performance.
+					- DOM nodes are usually not re-generated but just updated surgically through their attributes and text nodes.
+				- Benchmarks show the current order of performance: SolidJS > Svelte > Vue > React
+					- [JavaScript Framework Showdown: React vs. Vue vs. SolidJS in 2025](https://dev.to/hamzakhan/javascript-framework-showdown-react-vs-vue-vs-solidjs-in-2025-hpc)
+					- [Best High-Performance Frontend Frameworks in 2025](https://brisktechsol.com/performant-frontend-frameworks/): React, Vue.js, Svelte, Next.js, SolidJS
+					- This order of performance is also the reverse order of pupularity in 2025.
+			- [D3.js](https://d3js.org/) for graphic math engine: transitions, scales, layouts, shapes (path generators), force simulations, …
+				- *Don't use its data binding* because it renders in batch.
+			- Latest Node.js with [NodeSource](https://deb.nodesource.com/)
+			  collapsed:: true
+				- Because the Ubuntu-bundled `nodejs` lags so much, we use this site to set up `apt` repo for the latest `nodejs`.
+				- Download [nodesource-setup_22.x.sh](../assets/Will/story/2025-09/nodesource-setup_22.x.sh)
+				  id:: 68d3cc66-d9a5-44e3-b753-63aac43b40ef
+				  ```sh
+				  sudo bash nodesource-setup_22.x.sh
+				  ```
+				  ⇒ repo: /etc/apt/sources.list.d/nodesource.list
+				  ```
+				  deb [arch=amd64 signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_22.x nodistro main
+				  ```
+				- Then just do the normal `sudo apt install nodejs`
+			- [Vite](https://vite.dev/) for quick deployment
+				- It has [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement) to automatically refresh the browser with changes in code.
+				- It provides a build command that bundles code with [Rollup](https://rollupjs.org/), pre-configured to output highly optimized static assets for production.
+			- **Vite Motion *Solid* D3** – The framework for *solid data-driven documents* enriched with quick motion
+			  collapsed:: true
+				- Welcome page
+				  collapsed:: true
+					- Screenshot
+					  collapsed:: true
+						- ![SCIFER in ViteMotionSolidD3Demo 2025-09-26.png](../assets/Will/story/2025-09/SCIFER in ViteMotionSolidD3Demo 2025-09-26.png)
+					- Tricks for constant expression (0) to depend on signal: animate x: 0 + p.count()%1 || + p.count()*1e-5
+						- `p.count()%1` has no effect, because the value doesn't change.
+						- `p.count()*1e-5` is the change in another dimension!
+					- Changed from `<For>` to `<Index>` for moving ticks.
+				- Circular *Pure* Effect Flow:
+				  collapsed:: true
+					- ```tsx
+					  const [init, setInit] = createSignal(true);
+					  
+					  const aMemo = createMemo((prev):number => {
+					    if (init()) return 0;
+					    if (prev && (prev < 10 || prev > 333303)) console.log(`aMemo: ${prev}`)
+					    return bMemo() + 1;
+					  });
+					  const bMemo = createMemo((prev):number => {
+					    if (init()) return 0;
+					    if (prev && (prev < 10 || prev > 333303)) console.log(`bMemo: ${prev}`)
+					    return aMemo() + 1;
+					  });
+					  
+					  // Kick start
+					  setInit(false); // This will lead to a queue-guarded infinite loop
+					  ```
+					- ```
+					  bMemo: 1
+					  aMemo: 2
+					  bMemo: 3
+					  aMemo: 4
+					  ...
+					  aMemo: 333330
+					  bMemo: 333331
+					  aMemo: 333332
+					  Uncaught Error: Potential Infinite Loop Detected.
+					  ```
+					- Ratio 10e5 / 333333 = 3 = 1 direct observer by `writeSignal`() + 2 indirect (recursive) observers by `markDownstream`()
+						- This recursive `markDownstream`() seems redundant when `writeSignal`() has already done BFS incrementally throughout the graph.
+					- Call Stack
+						- `setInit(false);` → `setter` → `writeSignal` → `runUpdates` → `completeUpdates` → `runQueue`(`Updates`)
+							- `runTop`
+								- `updateComputation`(node if `STALE`) → `runComputation`
+									- {nextValue = node.fn(value)} → {aMemo ⇐ bMemo() + 1} → `readSignal`()
+									- `writeSignal`(node) → `runUpdates` for each `o`=`node.observers`[i]:
+										- o.state = `STALE`; `Updates`.push(o);
+										- `markDownstream`(o): for each `oo=o.observers[i]`: oo.state = `PENDING`; `Updates`.push(oo); `markDownstream`(oo)
+											- ooo.state = `PENDING`; `Updates`.push(ooo);
+											- `markDownstream`(ooo) return fast because oooo.state != 0
+										- if (Updates!.length > 10e5) { throw new Error("Potential Infinite Loop Detected.") }
+								- `lookUpstream`(node if `PENDING`): for each `s`=`node.sources`[i]:
+									- node.state = 0 // `SETTLED`
+									- `runTop`(s if `STALE`)
+									- `lookUpstream`(s if `PENDING`)
+									- Return when all upstream nodes are `SETTLED`
+						- `Updates`[]:
+							- [a,b] `markDownstream`: → [(a),b; b,a,b] → [a,(b); b,a,b; a,b,a]
+							- `lookUpstream` & `markDownstream`: → [a,b; (b),a,b; a,b,a; b,a,b] → [a,b; b,(a),b; a,b,a; b,a,b; a,b,a]
+				- Circular *Side* Effect Flow: stack overflow!
+				  collapsed:: true
+					- Call Stack
+						- `render`() → `createRoot`()
+						- → `runUpdates`()
+							- `runEffects`(`Effects`) → `runUserEffects`(queue) → `runTop`(node) → `updateComputation`(node) → `runComputation`(node) → {nextValue = node.fn(value)}
+								- setA(()=> a()+1) → `setter`() → `writeSignal`(node) → `runUpdates`(`node.observers`[i].state = `STALE` ⇒ push to `Effects`[])
+								- console.log(`Effect: >${a()}`);
+							- `completeUpdates`() → `runUpdates`() → `runEffects`(`Effects` not empty) → ... until `Effects` empty
+					- Self dependency
+					  ```tsx
+					  const [a, setA] = createSignal(0);
+					  const aEffect = createEffect(() => { setA(()=> a()+1);
+					    console.log(`aEffect: ${a()}`);
+					  });
+					  ```
+					- Console
+					  ```
+					  aEffect: 1
+					  aEffect: 2
+					  aEffect: 3
+					  ...
+					  aEffect: 2900
+					  aEffect: 2901
+					  aEffect: 2902
+					  aEffect: 2903
+					  aEffect: 2904
+					  Uncaught RangeError: Maximum call stack size exceeded
+					  ```
+					- Mutual deps
+					  ```tsx
+					  const [a, setA] = createSignal(0);
+					  const [b, setB] = createSignal(0);
+					  const aEffect = createEffect(() => { setA(()=> b()+1);
+					    console.log(`aEffect: a = ${a()}, b = ${b()}`);
+					  });
+					  const bEffect = createEffect(() => { setB(()=> a()+1);
+					    console.log(`bEffect: a = ${a()}, b = ${b()}`);
+					  });
+					  ```
+					- Console
+					  ```
+					  aEffect: a = 1, b = 0
+					  bEffect: a = 1, b = 2
+					  aEffect: a = 3, b = 2
+					  bEffect: a = 3, b = 4
+					  ...
+					  bEffect: a = 2903, b = 2904
+					  aEffect: a = 2905, b = 2904
+					  Uncaught RangeError: Maximum call stack size exceeded
+					  ```
+			- About [SolidJS](https://www.solidjs.com/)
+			  id:: 68d9f101-7c97-4292-9c4c-52944f1d4a3e
+			  collapsed:: true
+				- [Solid Docs](https://docs.solidjs.com/): [Quick Start](https://docs.solidjs.com/quick-start) & [Reference](https://docs.solidjs.com/reference/basic-reactivity/create-effect)
+					- This [discussion](https://github.com/solidjs/solid-workgroup/discussions/2) on Solid Workgroup has many todos but their status now is unknown.
+				- Effect flow
+					- Signal set (`createSignal`.`setter`) → `Updates` (`createMemo`) → `Effects` (`createRenderEffect` → `createEffect`)
+				- [reactive](https://github.com/solidjs/solid/tree/main/packages/solid/src/reactive) core
+					- [signal.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/signal.ts): the main structure (signal, memo, effect) and algorithm (breadth-first propagation via 2 queues `Updates` & `Effects`).
+					- [array.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/array.ts): Reactively transforms an array with a callback function – underlying helper for the `<For>` control flow.
+					- [scheduler.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/scheduler.ts): schedule tasks, usually for batching or deferring updates (`createDeferred`).
+					- [observable.ts](https://github.com/solidjs/solid/blob/main/packages/solid/src/reactive/observable.ts): Creates a simple observable from a signal's accessor to be used with the `from` operator of observable libraries like e.g. [RxJS](https://github.com/ReactiveX/rxjs).
+				- Fine-grained DOM binding
+				  {{embed ((68d9f018-81ea-453b-8ddc-a9e5c7cf997e))}}
+				- Performance aware
+					- `<For>` checks elements' **reference**, `<Index>` checks elements' **index** (position in array).
+					- `<Key>` by [solid-primitives/keyed](https://primitives.solidjs.community/package/keyed/): `<Key each={items()} by="id">`
+					- `reconcile` and `createState` for deep object diff instead of mere reference.
+					- [solid-primitives/intersection-observer](https://primitives.solidjs.community/package/intersection-observer) provides `createViewportObserver` & `createVisibilityObserver` for off-screen clipping.
+				- extend to reactive programming beyond DOM
+					- no setter call inside effect/memo function, so that no frame is left in call stack (actually empty frames are still left).
+					- test effect circle branching before memo function returns
+					- test diamond effect flow
+		-
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
 		- ((68be8447-81b0-4094-9964-1bd21e2e31e0))
