@@ -5010,9 +5010,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The icon ☰ reappeared and spread widely in mobile apps.
 							- Around this time, devs started jokingly calling it the “hamburger menu,” and the name stuck.
 					- Other variants emerged around 2010s
-						- Kebab menu (⋮): three vertical dots, looks like kebab skewers. Used in Android design guidelines for overflow actions.
-						- **Meatball menu (•••)** = three horizontal dots, same idea as kebab but lying flat. Common in iOS/macOS.
-						- **Döner menu (☰ or triangle of lines)** = sometimes used to describe alternative stacked-line styles. Name came from dev humour, comparing the shaved döner slices.
+						- Kebab menu (⋮): three vertical dots (vertical ellipsis), looks like [kebab](https://en.wikipedia.org/wiki/Kebab) skewers. Used in Android design guidelines for overflow actions.
+						- Meatballs menu (•••): three horizontal dots (ellipsis, more options), common in iOS/macOS.
+						- Döner menu (): sometimes used to describe alternative stacked-line styles. Name came from dev humour, comparing the shaved döner slices.
 					- Ref: [Every common UI menu icon and its use case](https://blog.logrocket.com/ux-design/every-common-ui-menu-icon/)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
