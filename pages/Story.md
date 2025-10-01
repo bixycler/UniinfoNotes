@@ -4248,7 +4248,9 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 						- **SolidJS** has fine-grained DOM data binding with signal and effect (no Virtual DOM).
 							- This fine-grained binding is thanks to the atomicity of signal – only bare getter() and setter() – so the compiler can easily convert getters directly to values in DOM.
 							  id:: 68d9f018-81ea-453b-8ddc-a9e5c7cf997e
-							- The runtime
+							- The runtime reactivity core **dynamically updates dependency graph** following the actual uses of signals (changed by switch, condition, runtime reachability).
+							- The intermediate values can be caches with memos to enhance performance.
+							- DOM nodes are usually not re-generated but just updated surgically through their attributes and text nodes.
 					- [D3.js](https://d3js.org/) for graphic math engine: transitions, scales, layouts, shapes (path generators), force simulations, …
 						- *Don't use its data binding* because it renders in batch.
 					- Latest Node.js with [NodeSource](https://deb.nodesource.com/)
