@@ -5001,6 +5001,7 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 				- Today is both the birthday of my wife, Bell Lei, and the death anniversary of her grand grand mother.
 				- The international buffet 🍽️ of (mobile) GUI icons for menu.
 				  collapsed:: true
+				  From American/English hamburger to Arabic kebab, Turkish döner, Japanese bento, and the common meatball worldwide! 😋
 					- Hamburger menu (☰): 1981 - 2009
 						- Designed in 1981 by Norm Cox at Xerox PARC for the Xerox Star workstation.
 						- Three horizontal lines, meant to look like a **list of items**.
@@ -5010,9 +5011,12 @@ id:: 66b1bbf3-ac04-4d4c-a343-d75130323a7f
 							- The icon ☰ reappeared and spread widely in mobile apps.
 							- Around this time, devs started jokingly calling it the “hamburger menu,” and the name stuck.
 					- Other variants emerged around 2010s
-						- Kebab menu (⋮): three vertical dots (vertical ellipsis), looks like [kebab](https://en.wikipedia.org/wiki/Kebab) skewers (串). Used in Android design guidelines for overflow actions.
-						- Meatballs menu (•••): three horizontal dots (ellipsis, more options), common in iOS/macOS.
+						- Kebab menu (⋮): three vertical dots (vertical ellipsis), looks like the Arabic [kebab](https://en.wikipedia.org/wiki/Kebab) skewers (串). Used in Android design guidelines for overflow actions.
+						- Meatballs menu (•••): three horizontal dots (ellipsis, more actions), common in iOS/macOS.
 						- Döner menu: three stacked vertical lines of varying lengths, for filtering items, “sort by” options. Its name came from dev humour after the shaved slices of the Turkish [döner kebab](https://en.wikipedia.org/wiki/Doner_kebab).
+					- Bento menu (⠿) from 2014
+						- Grid of small squares, looks like a Japanese [bento](https://en.wikipedia.org/wiki/Bento) box 🍱 with compartments.
+						- Popularised in Google apps (esp. G Suite) for “app launcher” menus.
 					- Ref: [Every common UI menu icon and its use case](https://blog.logrocket.com/ux-design/every-common-ui-menu-icon/)
 	- ## Current Stories < ((67763a41-4ad6-449f-9d9b-d63ce417082c))
 	  id:: 6788f004-d3df-41d4-afc8-c8c5ea52c51c
