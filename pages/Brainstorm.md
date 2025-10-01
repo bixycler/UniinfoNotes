@@ -134,7 +134,7 @@ id:: 6653538a-30aa-423f-be89-848ad9c7e331
 						- 1. A free rod: grab one end to move, the other end follows naturally.
 						- 2. A free chain: grab one end to move, the segments, one by one follow naturally, with the mechanism of the first demo.
 						- 3. A root-fixed chain: grab the tip to move, the wave of change propagates back and forth, with the mechanism of the second demo.
-					- I've rewritten this [FABRIK Demo](https://github.com/bixycler/Corkei/tree/main/FABRIK) in Corkei, as a monument ⛩️ to honor the ancestor of effect flow. It is copied to [FABRIK](../assets/Uniinfo/uninet/FABRIK/) in UniinfoNotes: [Two.js version](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo-TwoJS.html) and [D3.js version](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo-D3.html).
+					- I've rewritten this [FABRIK Demo](https://github.com/bixycler/Corkei/tree/main/src/FABRIK) in Corkei, as a monument ⛩️ to honor the ancestor of effect flow. It is copied to [FABRIK](../assets/Uniinfo/uninet/FABRIK/) in UniinfoNotes: [Two.js version](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo-TwoJS.html) and [D3.js version](https://bixycler.github.io/UniinfoNotes/assets/Uniinfo/uninet/FABRIK/FabrikDemo-D3.html).
 						- ```
 						  ⛩️ Monument to the Ancestor 🕌
 						  
